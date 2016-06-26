@@ -429,7 +429,7 @@ public class DataSourceCombiner {
 			tagPlusContent.append(ConfigUtil.First_Indent + "</" + nodeName + ">\n\n");
 		}
 		
-		if(nodeName.equals("effect")) {
+		if(nodeName.equals("effect")) { 
 			tagPlusContent.append(ConfigUtil.First_Indent + "<manuleffecttag>\n");
 			NodeList manulTagList = newRootElement.getElementsByTagName("manultag");
 			if(manulTagList == null || manulTagList.getLength() == 0) {
