@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        643
+    </id>
+
+    <foodname>
+        虱目鱼
+    </foodname>
+
+    <firstcategory>
+        鱼虾蟹贝等水产
+    </firstcategory>
+
+    <secondcategory>
+        鱼
+    </secondcategory>
+
+    <alias>
+        海草鱼、国圣鱼、塞目鱼虱目鱼
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            对鱼过敏的人群不能吃
+        </rawdata>
+
+        <segment>
+            对  鱼  过敏  的  人群  不  能  吃
+        </segment>
+
+        <pos>
+            对#P  鱼#NN  过敏#NN  的#DEG  人群#NN  不#AD  能#VV  吃#VV
+        </pos>
+
+        <parsing>
+            (case, 过敏#NN, 对#P)  (nn, 过敏#NN, 鱼#NN)  (assmod, 人群#NN, 过敏#NN)  (case, 过敏#NN, 的#DEG)  (nsubj, 吃#VV, 人群#NN)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 能#VV)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            东南亚一带的重要鱼获物，温水性鱼类，分布在亚热带或热带的海域。产品鱼适合加工成罐头，七十年代我国台湾省从印尼引进，1998年广东省汕头等地区试养成功，适合我国南部沿海地区推广养殖。
+        </rawdata>
+
+        <segment>
+            东南亚  一带  的  重要  鱼  获物  ，  温水性  鱼类  ，  分布  在  亚热带  或  热带  的  海域  。  产品  鱼  适合  加工  成  罐头  ，  七十年代  我  国  台湾省  从  印尼  引进  ，  1998年  广东省  汕头  等  地区  试养  成功  ，  适合  我国  南部  沿海  地区  推广  养殖  。
+        </segment>
+
+        <pos>
+            东南亚#NR  一带#CD  的#DEG  重要#JJ  鱼#NN  获物#VV  ，#PU  温水性#NN  鱼类#NN  ，#PU  分布#VV  在#P  亚热带#NN  或#CC  热带#NN  的#DEG  海域#NN    。#PU  产品#NN  鱼#NN  适合#VV  加工#NN  成#VV  罐头#NN  ，#PU  七十年代#NT  我#PN  国#NN  台湾省#NR  从#P  印尼#NR  引进#VV  ，#PU  1998年#NT  广东省#NR  汕头#NR  等#ETC  地区#NN  试养#AD  成功#VA  ，#PU  适合#VV  我国#NR  南部#NN  沿海#NN  地区#NN  推广#NN  养殖#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鱼#NN, 东南亚#NR)  (assmod, 鱼#NN, 一带#CD)  (case, 一带#CD, 的#DEG)  (amod, 鱼#NN, 重要#JJ)  (nsubj, 获物#VV, 鱼#NN)  (root, ROOT#null, 获物#VV)  (nn, 鱼类#NN, 温水性#NN)  (nsubj, 分布#VV, 鱼类#NN)  (ccomp, 获物#VV, 分布#VV)  (case, 海域#NN, 在#P)  (conj, 热带#NN, 亚热带#NN)  (cc, 热带#NN, 或#CC)  (assmod, 海域#NN, 热带#NN)  (case, 热带#NN, 的#DEG)  (prep, 分布#VV, 海域#NN)   (nsubj, 适合#VV, 产品#NN)  (nsubj, 适合#VV, 鱼#NN)  (root, ROOT#null, 适合#VV)  (dobj, 适合#VV, 加工#NN)  (conj, 适合#VV, 成#VV)  (dobj, 成#VV, 罐头#NN)  (tmod, 引进#VV, 七十年代#NT)  (nn, 国#NN, 我#PN)  (nsubj, 引进#VV, 国#NN)  (dep, 引进#VV, 台湾省#NR)  (case, 印尼#NR, 从#P)  (prep, 引进#VV, 印尼#NR)  (conj, 适合#VV, 引进#VV)  (tmod, 成功#VA, 1998年#NT)  (nn, 地区#NN, 广东省#NR)  (nn, 地区#NN, 汕头#NR)  (etc, 汕头#NR, 等#ETC)  (nsubj, 成功#VA, 地区#NN)  (advmod, 成功#VA, 试养#AD)  (conj, 适合#VV, 成功#VA)  (conj, 适合#VV, 适合#VV)  (nn, 地区#NN, 我国#NR)  (nn, 地区#NN, 南部#NN)  (nn, 地区#NN, 沿海#NN)  (nn, 养殖#NN, 地区#NN)  (nn, 养殖#NN, 推广#NN)  (dobj, 适合#VV, 养殖#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            虱目鱼的EPA和DHA含量比鳗鱼更高，EPA及DHA是养生保健的重点，可以降低胆固醇、预防血酸提高脑部资质，预防老人痴呆症现象的发生。
+        </rawdata>
+
+        <segment>
+            虱  目鱼  的  EPA  和  DHA  含量  比  鳗鱼  更  高  ，  EPA  及  DHA  是  养生  保健  的  重点  ，  可以  降低  胆固醇  、  预防  血  酸  提高  脑部  资质  ，  预防  老人  痴呆症  现象  的  发生  。
+        </segment>
+
+        <pos>
+            虱#NN  目鱼#NN  的#DEG  EPA#NN  和#CC  DHA#NN  含量#NN  比#P  鳗鱼#NN  更#AD  高#VA  ，#PU  EPA#NR  及#CC  DHA#NR  是#VC  养生#NN  保健#NN  的#DEG  重点#NN  ，#PU  可以#VV  降低#VV  胆固醇#NN  、#PU  预防#NN  血#NN  酸#NN  提高#VV  脑部#NN  资质#NN  ，#PU  预防#VV  老人#NN  痴呆症#NN  现象#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 目鱼#NN, 虱#NN)  (assmod, 含量#NN, 目鱼#NN)  (case, 目鱼#NN, 的#DEG)  (conj, 含量#NN, EPA#NN)  (cc, 含量#NN, 和#CC)  (nn, 含量#NN, DHA#NN)  (nsubj, 高#VA, 含量#NN)  (case, 鳗鱼#NN, 比#P)  (prep, 高#VA, 鳗鱼#NN)  (advmod, 高#VA, 更#AD)  (root, ROOT#null, 高#VA)  (conj, DHA#NR, EPA#NR)  (cc, DHA#NR, 及#CC)  (nsubj, 重点#NN, DHA#NR)  (cop, 重点#NN, 是#VC)  (nn, 保健#NN, 养生#NN)  (assmod, 重点#NN, 保健#NN)  (case, 保健#NN, 的#DEG)  (conj, 高#VA, 重点#NN)  (mmod, 降低#VV, 可以#VV)  (conj, 重点#NN, 降低#VV)  (conj, 酸#NN, 胆固醇#NN)  (nn, 酸#NN, 预防#NN)  (nn, 酸#NN, 血#NN)  (dobj, 降低#VV, 酸#NN)  (dep, 降低#VV, 提高#VV)  (nn, 资质#NN, 脑部#NN)  (dobj, 提高#VV, 资质#NN)  (conj, 重点#NN, 预防#VV)  (nn, 现象#NN, 老人#NN)  (nn, 现象#NN, 痴呆症#NN)  (assmod, 发生#NN, 现象#NN)  (case, 现象#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补钙  补脑
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            虱目鱼含有17种胺基酸和丰富的胶质、钙、磷，胺基酸对人体的肝脏有很好的保护作用，胶质、钙、磷对小孩发育、妇女、老人的骨本有补充作用。
+        </rawdata>
+
+        <segment>
+            虱目鱼  含有  17  种  胺基酸  和  丰富  的  胶质  、  钙  、  磷  ，  胺基酸  对  人体  的  肝脏  有  很  好  的  保护  作用  ，  胶质  、  钙  、  磷  对  小孩  发育  、  妇女  、  老人  的  骨本  有  补充  作用  。
+        </segment>
+
+        <pos>
+            虱目鱼#NN  含有#NN  17#CD  种#M  胺基酸#NN  和#CC  丰富#VA  的#DEC  胶质#NN  、#PU  钙#NN  、#PU  磷#NN  ，#PU  胺基酸#NN  对#P  人体#NN  的#DEG  肝脏#NN  有#VE  很#AD  好#VA  的#DEC  保护#NN  作用#NN  ，#PU  胶质#NN  、#PU  钙#NN  、#PU  磷#NN  对#P  小孩#NN  发育#NN  、#PU  妇女#NN  、#PU  老人#NN  的#DEG  骨本#NN  有#VE  补充#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 虱目鱼#NN)  (nn, 胺基酸#NN, 含有#NN)  (nummod, 种#M, 17#CD)  (clf, 胺基酸#NN, 种#M)  (conj, 磷#NN, 胺基酸#NN)  (cc, 磷#NN, 和#CC)  (relcl, 磷#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 磷#NN, 胶质#NN)  (conj, 磷#NN, 钙#NN)  (nsubj, 有#VE, 磷#NN)  (nsubj, 有#VE, 胺基酸#NN)  (case, 肝脏#NN, 对#P)  (assmod, 肝脏#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (prep, 有#VE, 肝脏#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)  (conj, 磷#NN, 胶质#NN)  (conj, 磷#NN, 钙#NN)  (nsubj, 有#VE, 磷#NN)  (case, 骨本#NN, 对#P)  (nn, 老人#NN, 小孩#NN)  (conj, 老人#NN, 发育#NN)  (conj, 老人#NN, 妇女#NN)  (assmod, 骨本#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (prep, 有#VE, 骨本#NN)  (conj, 有#VE, 有#VE)  (nn, 作用#NN, 补充#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374474351.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\643 虱目鱼.jpg
+    </picturelocalurl>
+
+</content>

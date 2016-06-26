@@ -1,0 +1,486 @@
+<content>
+
+    <id>
+        506
+    </id>
+
+    <foodname>
+        醋
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        苦酒、淳酢、酰、米醋、香醋、黑醋、白醋
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃酸、咳嗽、筋骨受伤者忌食。
+        </rawdata>
+
+        <segment>
+            胃酸  、  咳嗽  、  筋骨  受伤者  忌食  。
+        </segment>
+
+        <pos>
+            胃酸#NR  、#PU  咳嗽#NR  、#PU  筋骨#NR  受伤者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 筋骨#NR, 胃酸#NR)  (conj, 筋骨#NR, 咳嗽#NR)  (nn, 受伤者#NN, 筋骨#NR)  (nsubj, 忌食#VV, 受伤者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、泌尿系统结石、风疹、腹痛者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  泌尿  系统  结石  、  风疹  、  腹痛者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  、#PU  泌尿#NN  系统#NN  结石#NN  、#PU  风疹#NN  、#PU  腹痛者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 腹痛者#NN, 高血压#NN)  (nn, 腹痛者#NN, 泌尿#NN)  (nn, 腹痛者#NN, 系统#NN)  (conj, 腹痛者#NN, 结石#NN)  (conj, 腹痛者#NN, 风疹#NN)  (dobj, 适宜#VV, 腹痛者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                351
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                262.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                99.4
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            醋，是由古代酿酒大师杜康的儿子黒塔发明而来，因黒塔学会酿酒技术后，觉得酒糟扔掉可惜，由此不经意酿成了“醋”。我国著名的醋有山西老陈醋、镇江香醋、保宁醋及红曲米醋。
+            醋有米醋、陈醋、香醋、麸醋、酒醋、白醋、各种果汁醋、蒜汁醋、姜汁醋、保健醋等。因原料和制作方法的不同，成品风味迥异。醋是用得较多的酸性调味料。每100mL醋中的醋酸含量，普通醋为 3.5g以上，优级醋为5g以上。由于醋能改善和调节人体的新陈代谢，作为饮食调料，需要量不断增长。
+            醋一般分为以下几类：
+            1.中国传统的酿醋原料，长江以南以糯米和大米（粳米）为主，长江以北以高粱和小米为主。现多以碎米、玉米、甘薯、甘薯干、马铃薯、马铃薯干等代用。原料先经蒸煮、糊化、液化及糖化，使淀粉转变为糖，再用酵母使发酵生成乙醇，然后在醋酸菌的作用下使醋酸发酵，将乙醇氧化生成醋酸。
+            2.以含糖质原料酿醋，可使用葡萄、苹果、梨、桃、柿、枣、番茄等酿制各种果汁醋，也可用蜂蜜及糖蜜为原料。它们都只需经乙醇发酵和醋酸发酵两个生化阶段。
+            3.以乙醇为原料，加醋酸菌只经醋酸发酵一个生化阶段。例如以低度白酒或食用酒精加水冲淡为原料，应用速酿法制醋，只需1天～3天即得酒醋。
+            4.以食用冰醋酸加水配制成白醋，再加调味料、香料、色料等物，使之成为具有近似酿造醋的风味的食醋。
+        </rawdata>
+
+        <segment>
+            醋  ，  是  由  古代  酿酒  大师  杜康  的  儿子  黒塔  发明  而来  ，  因黒  塔  学会  酿酒  技术  后  ，  觉得  酒糟  扔掉  可惜  ，  由此  不经意  酿成  了  “  醋  ”  。  我国  著名  的  醋有  山西  老  陈醋  、  镇江  香醋  、  保宁  醋  及  红  曲  米醋  。
+            醋  有  米醋  、  陈醋  、  香醋  、  麸醋  、  酒醋  、  白醋  、  各  种  果汁  醋  、  蒜汁  醋  、  姜汁  醋  、  保健  醋  等  。  因  原料  和  制作  方法  的  不同  ，  成品  风味  迥异  。  醋  是  用  得  较  多  的  酸性  调味  料  。  每  0  mL醋  中  的  醋酸  含量  ，  普通  醋  为  3.5g  以上  ，  优级  醋  为  5  g  以上  。  由于  醋  能  改善  和  调节  人体  的  新陈代谢  ，  作为  饮食  调料  ，  需要量  不断  增长  。
+            醋  一般  分为  以下  几  类  ：
+            中国  传统  的  酿醋  原料  ，  长江  以南  以  糯米  和  大米  （  粳米  ）  为主  ，  长江  以北  以  高粱  和  小米  为主  。  现  多  以  碎米  、  玉米  、  甘薯  、  甘薯  干  、  马铃薯  、  马铃薯  干等  代用  。  原料  先  经  蒸煮  、  糊化  、  液化  及  糖化  ，  使  淀粉  转变  为  糖  ，  再  用  酵母  使  发酵  生成  乙醇  ，  然后  在  醋酸菌  的  作用  下  使  醋酸  发酵  ，  将  乙醇  氧化  生成  醋酸  。
+            以  含  糖质  原料  酿醋  ，  可  使用  葡萄  、  苹果  、  梨  、  桃  、  柿  、  枣  、  番茄  等  酿制  各种  果汁  醋  ，  也  可  用  蜂蜜  及  糖蜜  为  原料  。  它们  都  只需  经  乙醇  发酵  和  醋酸  发酵  两  个  生化  阶段  。
+            以  乙醇  为  原料  ，  加醋  酸菌  只  经  醋酸  发酵  一  个  生化  阶段  。  例如  以  低度  白酒  或  食用  酒精  加水  冲淡  为  原料  ，  应用  速酿  法制  醋  ，  只  需  1  天  ～  3  天  即得  酒  醋  。
+            以  食用  冰醋酸  加水  配制  成  白醋  ，  再  加  调味料  、  香料  、  色料  等  物  ，  使  之  成为  具有  近似  酿造  醋  的  风味  的  食醋  。
+        </segment>
+
+        <pos>
+            醋#NN  ，#PU  是#VC  由#P  古代#NN  酿酒#NN  大师#NN  杜康#NN  的#DEG  儿子#NN  黒塔#NN  发明#VV  而来#NN  ，#PU  因黒#NR  塔#NR  学会#NN  酿酒#NN  技术#NN  后#LC  ，#PU  觉得#VV  酒糟#NN  扔掉#AD  可惜#VA  ，#PU  由此#NN  不经意#AD  酿成#VV  了#AS  ``#NN  醋#NN  ''#NN    。#PU  我国#AD  著名#VA  的#DEC  醋有#NR  山西#NR  老#JJ  陈醋#NN  、#PU  镇江#NN  香醋#NN  、#PU  保宁#NN  醋#NN  及#CC  红#JJ  曲#NN  米醋#VV    。#PU    。#PU
+            醋#NN  有#VE  米醋#NR  、#PU  陈醋#NR  、#PU  香醋#NR  、#PU  麸醋#NR  、#PU  酒醋#NR  、#PU  白醋#NR  、#PU  各#DT  种#M  果汁#NN  醋#NN  、#PU  蒜汁#NN  醋#NN  、#PU  姜汁#NN  醋#NN  、#PU  保健#NN  醋#NN  等#ETC    。#PU  因#P  原料#NN  和#CC  制作#VV  方法#NN  的#DEC  不同#NN  ，#PU  成品#NN  风味#NN  迥异#VV    。#PU  醋#NN  是#VC  用#VV  得#DER  较#AD  多#VA  的#DEC  酸性#NN  调味#NN  料#NN    。#PU  每#DT  0#CD  mL醋#NN  中#LC  的#DEG  醋酸#NN  含量#NN  ，#PU  普通#JJ  醋#NN  为#VC  3.5#CD  g#CD  以上#LC  ，#PU  优级#NN  醋#NN  为#VC  5#CD  g#NN  以上#LC    。#PU  由于#P  醋#NN  能#VV  改善#VV  和#CC  调节#VV  人体#NN  的#DEG  新陈代谢#NN  ，#PU  作为#P  饮食#NN  调料#NN  ，#PU  需要量#AD  不断#AD  增长#VV    。#PU    。#PU
+            醋#NN  一般#AD  分为#VV  以下#JJ  几#CD  类#M  ：#PU
+            中国#NR  传统#JJ  的#DEG  酿醋#NN  原料#NN  ，#PU  长江#NR  以南#LC  以#P  糯米#NN  和#CC  大米#NN  （#PU  粳米#NR  ）#PU  为主#VV  ，#PU  长江#NR  以北#LC  以#P  高粱#NN  和#CC  小米#NN  为主#VV    。#PU  现#AD  多#AD  以#P  碎米#NR  、#PU  玉米#NR  、#PU  甘薯#NR  、#PU  甘薯#NR  干#VV  、#PU  马铃薯#NN  、#PU  马铃薯#NN  干等#NN  代用#NN    。#PU  原料#NN  先#AD  经#VV  蒸煮#NN  、#PU  糊化#JJ  、#PU  液化#JJ  及#CC  糖化#JJ  ，#PU  使#VV  淀粉#NN  转变#NN  为#P  糖#NN  ，#PU  再#AD  用#VV  酵母#NN  使#VV  发酵#NN  生成#NN  乙醇#NN  ，#PU  然后#AD  在#P  醋酸菌#NN  的#DEG  作用#NN  下#LC  使#VV  醋酸#NN  发酵#NN  ，#PU  将#AD  乙醇#VV  氧化#NN  生成#NN  醋酸#NN    。#PU    。#PU
+            以#MSP  含#VV  糖质#NN  原料#NN  酿醋#NN  ，#PU  可#VV  使用#VV  葡萄#NR  、#PU  苹果#NR  、#PU  梨#NR  、#PU  桃#NR  、#PU  柿#NR  、#PU  枣#NR  、#PU  番茄#NN  等#ETC  酿制#NN  各种#NN  果汁#NN  醋#NN  ，#PU  也#AD  可#VV  用#P  蜂蜜#NN  及#CC  糖蜜#NN  为#VV  原料#NN    。#PU  它们#PN  都#AD  只需#VV  经#P  乙醇#NN  发酵#NN  和#CC  醋酸#NN  发酵#NN  两#CD  个#M  生化#NN  阶段#NN    。#PU    。#PU
+            以#P  乙醇#NN  为#VV  原料#NN  ，#PU  加醋#VV  酸菌#CD  只#M  经#P  醋酸#NN  发酵#NN  一#CD  个#M  生化#JJ  阶段#NN    。#PU  例如#AD  以#P  低度#VV  白酒#NN  或#CC  食用#VV  酒精#NN  加水#NN  冲淡#NN  为#VV  原料#NN  ，#PU  应用#VV  速酿#NN  法制#NN  醋#NN  ，#PU  只#AD  需#VV  1#CD  天#M  ～#VV  3#CD  天#M  即得#NN  酒#NN  醋#NN    。#PU    。#PU
+            以#P  食用#VV  冰醋酸#NN  加水#NN  配制#NN  成#VV  白醋#NN  ，#PU  再#AD  加#VV  调味料#NR  、#PU  香料#NR  、#PU  色料#NR  等#ETC  物#NN  ，#PU  使#VV  之#PN  成为#VV  具有#VV  近似#NN  酿造#NN  醋#NN  的#DEG  风味#NN  的#DEC  食醋#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 发明#VV, 醋#NN)  (cop, 发明#VV, 是#VC)  (case, 黒塔#NN, 由#P)  (nn, 杜康#NN, 古代#NN)  (nn, 杜康#NN, 酿酒#NN)  (nn, 杜康#NN, 大师#NN)  (assmod, 黒塔#NN, 杜康#NN)  (case, 杜康#NN, 的#DEG)  (nn, 黒塔#NN, 儿子#NN)  (prep, 发明#VV, 黒塔#NN)  (root, ROOT#null, 发明#VV)  (dobj, 发明#VV, 而来#NN)  (nn, 学会#NN, 因黒#NR)  (nn, 学会#NN, 塔#NR)  (nsubj, 觉得#VV, 学会#NN)  (nn, 技术#NN, 酿酒#NN)  (loc, 觉得#VV, 技术#NN)  (case, 技术#NN, 后#LC)  (conj, 发明#VV, 觉得#VV)  (nsubj, 可惜#VA, 酒糟#NN)  (advmod, 可惜#VA, 扔掉#AD)  (ccomp, 觉得#VV, 可惜#VA)  (nsubj, 酿成#VV, 由此#NN)  (advmod, 酿成#VV, 不经意#AD)  (conj, 发明#VV, 酿成#VV)  (asp, 酿成#VV, 了#AS)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 醋#NN)  (dobj, 酿成#VV, ''#NN)   (advmod, 著名#VA, 我国#AD)  (relcl, 曲#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nn, 陈醋#NN, 醋有#NR)  (nn, 陈醋#NN, 山西#NR)  (amod, 陈醋#NN, 老#JJ)  (conj, 曲#NN, 陈醋#NN)  (nn, 香醋#NN, 镇江#NN)  (conj, 曲#NN, 香醋#NN)  (nn, 醋#NN, 保宁#NN)  (conj, 曲#NN, 醋#NN)  (cc, 曲#NN, 及#CC)  (amod, 曲#NN, 红#JJ)  (nsubj, 米醋#VV, 曲#NN)  (root, ROOT#null, 米醋#VV)   (root, ROOT#null, null#null)
+            (dep, 有#VE, 醋#NN)  (root, ROOT#null, 有#VE)  (conj, 白醋#NR, 米醋#NR)  (conj, 白醋#NR, 陈醋#NR)  (conj, 白醋#NR, 香醋#NR)  (conj, 白醋#NR, 麸醋#NR)  (conj, 白醋#NR, 酒醋#NR)  (conj, 醋#NN, 白醋#NR)  (det, 果汁#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 醋#NN, 果汁#NN)  (conj, 醋#NN, 醋#NN)  (nn, 醋#NN, 蒜汁#NN)  (conj, 醋#NN, 醋#NN)  (nn, 醋#NN, 姜汁#NN)  (conj, 醋#NN, 醋#NN)  (nn, 醋#NN, 保健#NN)  (dobj, 有#VE, 醋#NN)  (etc, 醋#NN, 等#ETC)   (case, 不同#NN, 因#P)  (conj, 不同#NN, 原料#NN)  (cc, 不同#NN, 和#CC)  (relcl, 不同#NN, 制作#VV)  (dobj, 制作#VV, 方法#NN)  (mark, 制作#VV, 的#DEC)  (prep, 迥异#VV, 不同#NN)  (nsubj, 迥异#VV, 成品#NN)  (nsubj, 迥异#VV, 风味#NN)  (root, ROOT#null, 迥异#VV)   (nsubj, 料#NN, 醋#NN)  (cop, 料#NN, 是#VC)  (dep, 多#VA, 用#VV)  (dep, 多#VA, 得#DER)  (advmod, 多#VA, 较#AD)  (relcl, 料#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nn, 料#NN, 酸性#NN)  (nn, 料#NN, 调味#NN)  (root, ROOT#null, 料#NN)   (det, mL醋#NN, 每#DT)  (dep, 每#DT, 0#CD)  (assmod, 含量#NN, mL醋#NN)  (case, mL醋#NN, 中#LC)  (case, mL醋#NN, 的#DEG)  (nn, 含量#NN, 醋酸#NN)  (dep, 为#VC, 含量#NN)  (amod, 醋#NN, 普通#JJ)  (nsubj, 为#VC, 醋#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 3.5#CD)  (loc, 为#VC, g#CD)  (case, g#CD, 以上#LC)  (nn, 醋#NN, 优级#NN)  (nsubj, 为#VC, 醋#NN)  (conj, 为#VC, 为#VC)  (nummod, g#NN, 5#CD)  (loc, 为#VC, g#NN)  (case, g#NN, 以上#LC)   (case, 改善#VV, 由于#P)  (nsubj, 改善#VV, 醋#NN)  (mmod, 改善#VV, 能#VV)  (prep, 增长#VV, 改善#VV)  (cc, 改善#VV, 和#CC)  (dep, 改善#VV, 调节#VV)  (assmod, 新陈代谢#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 调节#VV, 新陈代谢#NN)  (case, 调料#NN, 作为#P)  (nn, 调料#NN, 饮食#NN)  (prep, 增长#VV, 调料#NN)  (advmod, 增长#VV, 需要量#AD)  (advmod, 增长#VV, 不断#AD)  (root, ROOT#null, 增长#VV)   (root, ROOT#null, null#null)
+            (nsubj, 分为#VV, 醋#NN)  (advmod, 分为#VV, 一般#AD)  (root, ROOT#null, 分为#VV)  (amod, 类#M, 以下#JJ)  (nummod, 类#M, 几#CD)  (range, 分为#VV, 类#M)
+            (nn, 原料#NN, 中国#NR)  (assmod, 原料#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (nn, 原料#NN, 酿醋#NN)  (nsubj, 为主#VV, 原料#NN)  (loc, 为主#VV, 长江#NR)  (case, 长江#NR, 以南#LC)  (case, 大米#NN, 以#P)  (conj, 大米#NN, 糯米#NN)  (cc, 大米#NN, 和#CC)  (prep, 为主#VV, 大米#NN)  (prnmod, 大米#NN, 粳米#NR)  (root, ROOT#null, 为主#VV)  (loc, 为主#VV, 长江#NR)  (case, 长江#NR, 以北#LC)  (case, 小米#NN, 以#P)  (conj, 小米#NN, 高粱#NN)  (cc, 小米#NN, 和#CC)  (prep, 为主#VV, 小米#NN)  (conj, 为主#VV, 为主#VV)   (advmod, 干#VV, 现#AD)  (advmod, 干#VV, 多#AD)  (case, 甘薯#NR, 以#P)  (conj, 甘薯#NR, 碎米#NR)  (conj, 甘薯#NR, 玉米#NR)  (conj, 甘薯#NR, 甘薯#NR)  (prep, 干#VV, 甘薯#NR)  (root, ROOT#null, 干#VV)  (conj, 代用#NN, 马铃薯#NN)  (nn, 代用#NN, 马铃薯#NN)  (nn, 代用#NN, 干等#NN)  (dep, 干#VV, 代用#NN)   (nsubj, 经#VV, 原料#NN)  (advmod, 经#VV, 先#AD)  (conj, 使#VV, 经#VV)  (dobj, 经#VV, 蒸煮#NN)  (conj, 经#VV, 糊化#JJ)  (conj, 糊化#JJ, 液化#JJ)  (cc, 糊化#JJ, 及#CC)  (dep, 糊化#JJ, 糖化#JJ)  (conj, 经#VV, 使#VV)  (nn, 转变#NN, 淀粉#NN)  (dobj, 使#VV, 转变#NN)  (case, 糖#NN, 为#P)  (prep, 用#VV, 糖#NN)  (advmod, 用#VV, 再#AD)  (dep, 使#VV, 用#VV)  (dobj, 用#VV, 酵母#NN)  (root, ROOT#null, 使#VV)  (nn, 乙醇#NN, 发酵#NN)  (nn, 乙醇#NN, 生成#NN)  (dobj, 使#VV, 乙醇#NN)  (advmod, 使#VV, 然后#AD)  (case, 作用#NN, 在#P)  (assmod, 作用#NN, 醋酸菌#NN)  (case, 醋酸菌#NN, 的#DEG)  (prep, 使#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (dep, 使#VV, 使#VV)  (nn, 发酵#NN, 醋酸#NN)  (dobj, 使#VV, 发酵#NN)  (advmod, 乙醇#VV, 将#AD)  (dep, 使#VV, 乙醇#VV)  (nn, 醋酸#NN, 氧化#NN)  (nn, 醋酸#NN, 生成#NN)  (dobj, 乙醇#VV, 醋酸#NN)   (root, ROOT#null, null#null)
+            (prtmod, 含#VV, 以#MSP)  (root, ROOT#null, 含#VV)  (nn, 酿醋#NN, 糖质#NN)  (nn, 酿醋#NN, 原料#NN)  (dobj, 含#VV, 酿醋#NN)  (mmod, 使用#VV, 可#VV)  (conj, 含#VV, 使用#VV)  (conj, 枣#NR, 葡萄#NR)  (conj, 枣#NR, 苹果#NR)  (conj, 枣#NR, 梨#NR)  (conj, 枣#NR, 桃#NR)  (conj, 枣#NR, 柿#NR)  (conj, 番茄#NN, 枣#NR)  (nn, 各种#NN, 番茄#NN)  (etc, 番茄#NN, 等#ETC)  (nn, 各种#NN, 酿制#NN)  (nn, 醋#NN, 各种#NN)  (nn, 醋#NN, 果汁#NN)  (dobj, 使用#VV, 醋#NN)  (advmod, 为#VV, 也#AD)  (mmod, 为#VV, 可#VV)  (case, 糖蜜#NN, 用#P)  (conj, 糖蜜#NN, 蜂蜜#NN)  (cc, 糖蜜#NN, 及#CC)  (prep, 为#VV, 糖蜜#NN)  (dep, 含#VV, 为#VV)  (dobj, 为#VV, 原料#NN)   (nsubj, 只需#VV, 它们#PN)  (advmod, 只需#VV, 都#AD)  (root, ROOT#null, 只需#VV)  (case, 阶段#NN, 经#P)  (nn, 发酵#NN, 乙醇#NN)  (conj, 发酵#NN, 发酵#NN)  (cc, 发酵#NN, 和#CC)  (nn, 发酵#NN, 醋酸#NN)  (nn, 阶段#NN, 发酵#NN)  (nummod, 个#M, 两#CD)  (clf, 阶段#NN, 个#M)  (nn, 阶段#NN, 生化#NN)  (prep, 只需#VV, 阶段#NN)   (root, ROOT#null, null#null)
+            (case, 乙醇#NN, 以#P)  (prep, 为#VV, 乙醇#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 原料#NN)  (dep, 为#VV, 加醋#VV)  (nummod, 只#M, 酸菌#CD)  (clf, 阶段#NN, 只#M)  (case, 醋酸#NN, 经#P)  (prep, 发酵#NN, 醋酸#NN)  (nn, 阶段#NN, 发酵#NN)  (nummod, 个#M, 一#CD)  (clf, 阶段#NN, 个#M)  (amod, 阶段#NN, 生化#JJ)  (dobj, 加醋#VV, 阶段#NN)   (advmod, 为#VV, 例如#AD)  (case, 低度#VV, 以#P)  (prep, 为#VV, 低度#VV)  (dobj, 低度#VV, 白酒#NN)  (cc, 低度#VV, 或#CC)  (conj, 低度#VV, 食用#VV)  (nn, 冲淡#NN, 酒精#NN)  (nn, 冲淡#NN, 加水#NN)  (dobj, 食用#VV, 冲淡#NN)  (conj, ～#VV, 为#VV)  (root, ～#VV, 为#VV)  (dobj, 为#VV, 原料#NN)  (dep, 为#VV, 应用#VV)  (nn, 醋#NN, 速酿#NN)  (nn, 醋#NN, 法制#NN)  (dobj, 应用#VV, 醋#NN)  (advmod, 需#VV, 只#AD)  (conj, 为#VV, 需#VV)  (nummod, 天#M, 1#CD)  (range, 需#VV, 天#M)  (nummod, 天#M, 3#CD)  (clf, 醋#NN, 天#M)  (nn, 醋#NN, 即得#NN)  (nn, 醋#NN, 酒#NN)  (dobj, 为#VV, 醋#NN)  (dobj, ～#VV, 醋#NN)   (root, ROOT#null, null#null)
+            (case, 食用#VV, 以#P)  (prep, 使#VV, 食用#VV)  (nn, 配制#NN, 冰醋酸#NN)  (nn, 配制#NN, 加水#NN)  (dobj, 食用#VV, 配制#NN)  (conj, 食用#VV, 成#VV)  (dobj, 成#VV, 白醋#NN)  (advmod, 加#VV, 再#AD)  (dep, 食用#VV, 加#VV)  (conj, 色料#NR, 调味料#NR)  (conj, 色料#NR, 香料#NR)  (nn, 物#NN, 色料#NR)  (etc, 色料#NR, 等#ETC)  (dobj, 加#VV, 物#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 之#PN)  (dep, 使#VV, 成为#VV)  (relcl, 食醋#NN, 具有#VV)  (nn, 醋#NN, 近似#NN)  (nn, 醋#NN, 酿造#NN)  (assmod, 风味#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (dobj, 具有#VV, 风味#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 成为#VV, 食醋#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味酸、甘，性平。能消食开胃，散瘀血，收敛止泻，解毒。用于油腻食积，消化不良，喜食酸物，或腹泻；衄血，吐血，便血；咽喉肿痛；食鱼肉菜蕈引起的肠胃不适；病毒性肝炎。
+            1.消除疲劳
+            适量饮醋可以很好的消除疲劳，尤其是保健醋效果更好。
+            2.调解血液的酸碱平衡
+            醋可以调解血液的酸碱平衡。
+            3.促消化
+            醋可以帮助消化，利于吸收。能帮助人有效的摄入钙质。
+            4.预防衰老
+            醋可以预防衰老、美容护肤。（这是因为醋的主要成分是醋酸，它有很强的杀菌作用，对皮肤、头发能起到很好的保护作用。用加醋的水洗皮肤，能使皮肤吸收到一些十分需要的营养素，从而起到松软皮肤、增强皮肤活力的作用。）
+            5.杀菌
+            醋可以增强肠胃道的杀菌能力。
+            6.护肝、护肾
+            醋可以增强肝脏和肾脏机能。
+            7.活血
+            醋的作用可以扩张血管，防止心血管疾病、糖尿病的发生。
+        </rawdata>
+
+        <segment>
+            味酸  、  甘  ，  性平  。  能  消食  开胃  ，  散  瘀血  ，  收敛  止泻  ，  解毒  。  用于  油腻  食积  ，  消化不良  ，  喜  食  酸  物  ，  或  腹泻  ；  衄血  ，  吐血  ，  便血  ；  咽喉  肿痛  ；  食鱼  肉  菜蕈  引起  的  肠胃不适  ；  病毒性  肝炎  。
+            消除  疲劳
+            适量  饮  醋  可以  很  好  的  消除  疲劳  ，  尤其是  保健  醋  效果  更  好  。
+            调解  血液  的  酸碱  平衡
+            醋  可以  调解  血液  的  酸碱  平衡  。
+            促  消化
+            醋  可以  帮助  消化  ，  利于  吸收  。  能  帮助  人  有效  的  摄入  钙质  。
+            预防  衰老
+            醋  可以  预防  衰老  、  美容  护肤  。  （  这  是  因为  醋  的  主要  成分  是  醋酸  ，  它  有  很  强  的  杀菌  作用  ，  对  皮肤  、  头发  能  起到  很  好  的  保护  作用  。  用  加醋  的  水洗  皮肤  ，  能  使  皮肤  吸收  到  一些  十分  需要  的  营养素  ，  从而  起到  松软  皮肤  、  增强  皮肤  活力  的  作用  。  ）
+            杀菌
+            醋  可以  增强  肠  胃道  的  杀菌  能力  。
+            护肝  、  护肾
+            醋  可以  增强  肝脏  和  肾脏  机能  。
+            活血
+            醋  的  作用  可以  扩张  血管  ，  防止  心血管  疾病  、  糖尿病  的  发生  。
+        </segment>
+
+        <pos>
+            味酸#NR  、#PU  甘#NR  ，#PU  性平#VV    。#PU  能#VV  消食#VV  开胃#NN  ，#PU  散#JJ  瘀血#NN  ，#PU  收敛#VV  止泻#NN  ，#PU  解毒#VV    。#PU  用于#VV  油腻#NN  食积#NN  ，#PU  消化不良#VV  ，#PU  喜#AD  食#NN  酸#VV  物#NN  ，#PU  或#CC  腹泻#VV  ；#PU  衄血#VV  ，#PU  吐血#VV  ，#PU  便血#VV  ；#PU  咽喉#NN  肿痛#NN  ；#PU  食鱼#VV  肉#NN  菜蕈#AD  引起#VV  的#DEC  肠胃不适#NN  ；#PU  病毒性#VV  肝炎#NN    。#PU    。#PU
+            消除#VV  疲劳#VA
+            适量#NN  饮#NN  醋#VV  可以#VV  很#AD  好#VA  的#DEC  消除#VV  疲劳#VA  ，#PU  尤其是#AD  保健#NN  醋#NN  效果#NN  更#AD  好#VA  。#PU
+            调解#VV  血液#NN  的#DEC  酸碱#NN  平衡#VA
+            醋#NN  可以#VV  调解#VV  血液#NN  的#DEG  酸碱#NN  平衡#NN  。#PU
+            促#VV  消化#NN
+            醋#NN  可以#VV  帮助#VV  消化#NN  ，#PU  利于#VV  吸收#VV    。#PU  能#VV  帮助#VV  人#NN  有效#VA  的#DEC  摄入#NN  钙质#VV    。#PU    。#PU
+            预防#NN  衰老#VV
+            醋#NN  可以#VV  预防#VV  衰老#NN  、#PU  美容#NN  护肤#NN    。#PU  （#PU  这#PN  是#VC  因为#P  醋#VA  的#DEC  主要#JJ  成分#NN  是#VC  醋酸#NN  ，#PU  它#PN  有#VE  很#AD  强#VA  的#DEC  杀菌#NN  作用#NN  ，#PU  对#P  皮肤#NN  、#PU  头发#NN  能#VV  起到#VV  很#AD  好#VA  的#DEC  保护#NN  作用#NN    。#PU  用#P  加醋#NN  的#DEG  水洗#NN  皮肤#NN  ，#PU  能#VV  使#VV  皮肤#NN  吸收#VV  到#P  一些#CD  十分#AD  需要#VV  的#DEC  营养素#NN  ，#PU  从而#AD  起到#VV  松软#VV  皮肤#NN  、#PU  增强#VV  皮肤#NN  活力#NN  的#DEC  作用#NN    。#PU  ）#PU    。#PU
+            杀菌#VV
+            醋#NN  可以#VV  增强#VV  肠#NN  胃道#NN  的#DEG  杀菌#NN  能力#NN  。#PU
+            护肝#VA  、#PU  护肾#VA
+            醋#NN  可以#VV  增强#VV  肝脏#NN  和#CC  肾脏#NN  机能#NN  。#PU
+            活血#VV
+            醋#NN  的#DEG  作用#NN  可以#VV  扩张#VV  血管#NN  ，#PU  防止#VV  心血管#NN  疾病#NN  、#PU  糖尿病#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 甘#NR, 味酸#NR)  (dep, 性平#VV, 甘#NR)  (root, ROOT#null, 性平#VV)   (mmod, 消食#VV, 能#VV)  (root, ROOT#null, 消食#VV)  (dobj, 消食#VV, 开胃#NN)  (amod, 瘀血#NN, 散#JJ)  (conj, 消食#VV, 瘀血#NN)  (conj, 消食#VV, 收敛#VV)  (dobj, 收敛#VV, 止泻#NN)  (conj, 消食#VV, 解毒#VV)   (root, ROOT#null, 用于#VV)  (nn, 食积#NN, 油腻#NN)  (dobj, 用于#VV, 食积#NN)  (conj, 用于#VV, 消化不良#VV)  (advmod, 酸#VV, 喜#AD)  (dep, 酸#VV, 食#NN)  (conj, 用于#VV, 酸#VV)  (dobj, 酸#VV, 物#NN)  (cc, 酸#VV, 或#CC)  (conj, 酸#VV, 腹泻#VV)  (conj, 用于#VV, 衄血#VV)  (conj, 用于#VV, 吐血#VV)  (conj, 用于#VV, 便血#VV)  (nn, 肿痛#NN, 咽喉#NN)  (dobj, 便血#VV, 肿痛#NN)  (conj, 用于#VV, 食鱼#VV)  (nsubj, 引起#VV, 肉#NN)  (advmod, 引起#VV, 菜蕈#AD)  (relcl, 肠胃不适#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (dobj, 食鱼#VV, 肠胃不适#NN)  (conj, 用于#VV, 病毒性#VV)  (dobj, 病毒性#VV, 肝炎#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 消除#VV)  (dep, 消除#VV, 疲劳#VA)
+            (nn, 饮#NN, 适量#NN)  (nsubj, 醋#VV, 饮#NN)  (xsubj, 消除#VV, 饮#NN)  (root, ROOT#null, 醋#VV)  (mmod, 消除#VV, 可以#VV)  (advmod, 好#VA, 很#AD)  (dvpmod, 消除#VV, 好#VA)  (dep, 好#VA, 的#DEC)  (ccomp, 醋#VV, 消除#VV)  (dep, 醋#VV, 疲劳#VA)  (advmod, 好#VA, 尤其是#AD)  (nn, 效果#NN, 保健#NN)  (nn, 效果#NN, 醋#NN)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 更#AD)  (conj, 醋#VV, 好#VA)
+            (relcl, 酸碱#NN, 调解#VV)  (dobj, 调解#VV, 血液#NN)  (mark, 调解#VV, 的#DEC)  (nsubj, 平衡#VA, 酸碱#NN)  (root, ROOT#null, 平衡#VA)
+            (nsubj, 调解#VV, 醋#NN)  (mmod, 调解#VV, 可以#VV)  (root, ROOT#null, 调解#VV)  (assmod, 平衡#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (nn, 平衡#NN, 酸碱#NN)  (dobj, 调解#VV, 平衡#NN)
+            (root, ROOT#null, 促#VV)  (dobj, 促#VV, 消化#NN)
+            (nsubj, 帮助#VV, 醋#NN)  (mmod, 帮助#VV, 可以#VV)  (root, ROOT#null, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 利于#VV)  (comod, 利于#VV, 吸收#VV)   (mmod, 帮助#VV, 能#VV)  (relcl, 摄入#NN, 帮助#VV)  (dobj, 帮助#VV, 人#NN)  (dep, 帮助#VV, 有效#VA)  (mark, 帮助#VV, 的#DEC)  (nsubj, 钙质#VV, 摄入#NN)  (root, ROOT#null, 钙质#VV)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 预防#NN)  (root, ROOT#null, 衰老#VV)
+            (nsubj, 预防#VV, 醋#NN)  (mmod, 预防#VV, 可以#VV)  (root, ROOT#null, 预防#VV)  (conj, 护肤#NN, 衰老#NN)  (nn, 护肤#NN, 美容#NN)  (dobj, 预防#VV, 护肤#NN)   (nsubj, 是#VC, 这#PN)  (dep, 有#VE, 是#VC)  (case, 醋#VA, 因为#P)  (prep, 是#VC, 醋#VA)  (mark, 是#VC, 的#DEC)  (amod, 成分#NN, 主要#JJ)  (dep, 是#VC, 成分#NN)  (cop, 醋酸#NN, 是#VC)  (dep, 有#VE, 醋酸#NN)  (nsubj, 有#VE, 它#PN)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 杀菌#NN)  (dobj, 有#VE, 作用#NN)  (case, 头发#NN, 对#P)  (conj, 头发#NN, 皮肤#NN)  (prep, 能#VV, 头发#NN)  (conj, 有#VE, 能#VV)  (conj, 有#VE, 起到#VV)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 保护#NN)  (dobj, 起到#VV, 作用#NN)   (case, 皮肤#NN, 用#P)  (assmod, 皮肤#NN, 加醋#NN)  (case, 加醋#NN, 的#DEG)  (nn, 皮肤#NN, 水洗#NN)  (prep, 使#VV, 皮肤#NN)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (mmod, 起到#VV, 吸收#VV)  (case, 营养素#NN, 到#P)  (nummod, 营养素#NN, 一些#CD)  (advmod, 需要#VV, 十分#AD)  (relcl, 营养素#NN, 需要#VV)  (mark, 需要#VV, 的#DEC)  (prep, 起到#VV, 营养素#NN)  (advmod, 起到#VV, 从而#AD)  (dep, 使#VV, 起到#VV)  (relcl, 作用#NN, 松软#VV)  (dobj, 松软#VV, 皮肤#NN)  (conj, 松软#VV, 增强#VV)  (nn, 活力#NN, 皮肤#NN)  (dobj, 增强#VV, 活力#NN)  (mark, 松软#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+            (root, ROOT#null, 杀菌#VV)
+            (nsubj, 增强#VV, 醋#NN)  (mmod, 增强#VV, 可以#VV)  (root, ROOT#null, 增强#VV)  (nn, 胃道#NN, 肠#NN)  (assmod, 能力#NN, 胃道#NN)  (case, 胃道#NN, 的#DEG)  (nn, 能力#NN, 杀菌#NN)  (dobj, 增强#VV, 能力#NN)
+            (root, ROOT#null, 护肝#VA)  (dep, 护肝#VA, 护肾#VA)
+            (nsubj, 增强#VV, 醋#NN)  (mmod, 增强#VV, 可以#VV)  (root, ROOT#null, 增强#VV)  (conj, 机能#NN, 肝脏#NN)  (cc, 机能#NN, 和#CC)  (nn, 机能#NN, 肾脏#NN)  (dobj, 增强#VV, 机能#NN)
+            (root, ROOT#null, 活血#VV)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 扩张#VV, 作用#NN)  (mmod, 扩张#VV, 可以#VV)  (root, ROOT#null, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (dep, 扩张#VV, 防止#VV)  (nn, 疾病#NN, 心血管#NN)  (conj, 发生#NN, 疾病#NN)  (assmod, 发生#NN, 糖尿病#NN)  (case, 糖尿病#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解疲劳  降血脂  促进消化  抗菌  解毒  止血  消肿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            醋的主要营养素：枸橼酸、醋酸、氨基酸。
+            食醋大致可分为3种,即酿造醋、合成醋、白醋。我国最多的是酿造醋。科学分析表明,酿造醋除含有5%-20%的醋酸外,还含有氨基酸和乳酸、琥珀酸、草酸、烟酸等多种有机酸，蛋白质、脂肪、钙、磷、铁等多种矿物质，维生素BI丰日B2、糖分以及芳香性物质醋酸乙醋。而以米为原料酿成的米醋,有机酸和氨基酸的含量最高。
+        </rawdata>
+
+        <segment>
+            醋  的  主要  营养素  ：  枸橼酸  、  醋酸  、  氨基酸  。
+            食  醋  大致  可  分为  3  种  ,  即  酿造  醋  、  合成  醋  、  白醋  。  我  国  最  多  的  是  酿造  醋  。  科学  分析  表明  ,  酿造  醋  除  含有  5%  -20%  的  醋酸  外  ,  还  含有  氨基酸  和  乳酸  、  琥珀酸  、  草酸  、  烟酸  等  多  种  有机酸  ，  蛋白质  、  脂肪  、  钙  、  磷  、  铁  等  多  种  矿物质  ，  维生素  BI  丰  日  B  糖分  以及  芳香性  物质  醋酸  乙  醋  。  而  以  米  为  原料  酿成  的  米醋  ,  有机酸  和  氨基酸  的  含量  最  高  。
+        </segment>
+
+        <pos>
+            醋#VA  的#DEC  主要#AD  营养素#VV  ：#PU  枸橼酸#VA  、#PU  醋酸#VA  、#PU  氨基酸#VA  。#PU
+            食#NN  醋#NN  大致#NN  可#VV  分为#VV  3#CD  种#M  ,#NN  即#AD  酿造#NN  醋#NN  、#PU  合成#JJ  醋#NN  、#PU  白醋#NN    。#PU  我#PN  国#NN  最#AD  多#VA  的#DEC  是#VC  酿造#NN  醋#NN    。#PU  科学#NN  分析#NN  表明#VV  ,#NN  酿造#NN  醋#NN  除#P  含有#NR  5#CD  %#NN  -20#CD  %#NN  的#DEG  醋酸#NN  外#LC  ,#AD  还#AD  含有#VV  氨基酸#NR  和#CC  乳酸#NR  、#PU  琥珀酸#NR  、#PU  草酸#NR  、#PU  烟酸#NR  等#ETC  多#CD  种#M  有机酸#NN  ，#PU  蛋白质#NN  、#PU  脂肪#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  矿物质#NN  ，#PU  维生素#NN  BI#AD  丰#VA  日#NR  B#NN  糖分#NN  以及#CC  芳香性#NN  物质#NN  醋酸#NN  乙#VV  醋#NN    。#PU  而#AD  以#P  米#M  为#P  原料#NN  酿成#VV  的#DEC  米醋#NN  ,#NN  有机酸#NN  和#CC  氨基酸#NN  的#DEG  含量#NN  最#AD  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养素#VV, 醋#VA)  (mark, 醋#VA, 的#DEC)  (advmod, 营养素#VV, 主要#AD)  (root, ROOT#null, 营养素#VV)  (ccomp, 营养素#VV, 枸橼酸#VA)  (conj, 枸橼酸#VA, 醋酸#VA)  (dep, 枸橼酸#VA, 氨基酸#VA)
+            (nn, 大致#NN, 食#NN)  (nn, 大致#NN, 醋#NN)  (nsubj, 分为#VV, 大致#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (nummod, 种#M, 3#CD)  (clf, ,#NN, 种#M)  (advmod, 醋#NN, 即#AD)  (nn, 醋#NN, 酿造#NN)  (conj, 白醋#NN, 醋#NN)  (amod, 醋#NN, 合成#JJ)  (conj, 白醋#NN, 醋#NN)  (dobj, 分为#VV, 白醋#NN)   (nn, 国#NN, 我#PN)  (nsubj, 多#VA, 国#NN)  (advmod, 多#VA, 最#AD)  (nsubj, 醋#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (cop, 醋#NN, 是#VC)  (nn, 醋#NN, 酿造#NN)  (root, ROOT#null, 醋#NN)   (nn, 分析#NN, 科学#NN)  (nsubj, 表明#VV, 分析#NN)  (root, ROOT#null, 表明#VV)  (nn, 醋#NN, 酿造#NN)  (nsubj, 含有#VV, 醋#NN)  (case, 醋酸#NN, 除#P)  (nn, %#NN, 含有#NR)  (nummod, %#NN, 5#CD)  (nn, %#NN, %#NN)  (nummod, %#NN, -20#CD)  (assmod, 醋酸#NN, %#NN)  (case, %#NN, 的#DEG)  (prep, 含有#VV, 醋酸#NN)  (case, 醋酸#NN, 外#LC)  (advmod, 含有#VV, 还#AD)  (ccomp, 表明#VV, 含有#VV)  (conj, 烟酸#NR, 氨基酸#NR)  (cc, 烟酸#NR, 和#CC)  (conj, 烟酸#NR, 乳酸#NR)  (conj, 烟酸#NR, 琥珀酸#NR)  (conj, 烟酸#NR, 草酸#NR)  (nn, 有机酸#NN, 烟酸#NR)  (etc, 烟酸#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 有机酸#NN, 种#M)  (dobj, 含有#VV, 有机酸#NN)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (nsubj, 丰#VA, 矿物质#NN)  (nsubj, 丰#VA, 维生素#NN)  (advmod, 丰#VA, BI#AD)  (conj, 含有#VV, 丰#VA)  (nn, 糖分#NN, 日#NR)  (nn, 糖分#NN, B#NN)  (conj, 醋酸#NN, 糖分#NN)  (cc, 醋酸#NN, 以及#CC)  (nn, 醋酸#NN, 芳香性#NN)  (nn, 醋酸#NN, 物质#NN)  (nsubj, 乙#VV, 醋酸#NN)  (conj, 表明#VV, 乙#VV)  (dobj, 乙#VV, 醋#NN)   (advmod, 高#VA, 而#AD)  (case, ,#NN, 以#P)  (clf, ,#NN, 米#M)  (case, 原料#NN, 为#P)  (prep, 酿成#VV, 原料#NN)  (relcl, ,#NN, 酿成#VV)  (mark, 酿成#VV, 的#DEC)  (nn, ,#NN, 米醋#NN)  (conj, 氨基酸#NN, 有机酸#NN)  (cc, 氨基酸#NN, 和#CC)  (assmod, 含量#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 最#AD)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.作菜时，加醋的最佳时间是在两头，即原料入锅后马上加醋及菜肴临出锅前加醋，第一次应多些，第二次应少些。
+            2.烹调胡萝卜与绿色蔬菜时，则要避免加醋。
+            3.醋用于烹制带骨的原料，如排骨、鱼类等，可使骨刺软化，促进骨中的矿物质如钙、磷溶出，增加营养成分。
+            4.正在服用某些西药者不宜食醋。
+            其他使用技巧：
+            1、醋的作用还可以治疗失眠——失眠患者睡前倒杯凉开水，再加入1匙醋，喝下后会很快入睡。临睡前用温热老陈醋搓搓脚心，也会使你容易进入梦乡。
+            2、醋的作用可以治疗扭伤——调和面粉并煮成浆糊状，加入适量的老陈醋，涂在纸片或纱布上，贴于患处。干了后，轻轻揭开，再换一块。这样反复贴几次，即能消除扭伤处的灼热感和疼痛感。此法对骨关节脱臼，跌伤等外伤等都有疗效。
+            3、醋的作用可以治疗鼻炎——将约5毫升的老陈醋放入容量为1000毫升的洗涤器里清洗鼻空，1日洗2次，可治疗鼻炎。
+            4、醋的作用可以治疗脚麻——把1升老陈醋加热后倒入水桶里，然后将两只脚浸入，每次浸泡20分钟。如此浸泡4~5次，麻木症状即可解除。
+            5、醋的作用可以治疗烫伤——根据酸碱中和原理，将醋制成5度溶液，用以洗涤烫伤，尤其对石灰烫伤有良好的疗效。或者在烫伤处敷上在醋里浸过的纱布，也可见效。
+            6、醋的作用可以治疗止咳——将大蒜在老陈醋中浸泡15天后，每日早晨空腹吃泡蒜1~2瓣，并喝一些醋汁，连服10~15天可止咳平喘，解毒散淤，降压降脂，预防老年人感染性疾病和肿瘤的发生。
+            7、醋的作用可以治疗高血压——用500克带衣花生米在老陈醋中浸泡7天以上每天搅动一次，每晚临睡前嚼食3~5粒，连服7天缓解动脉硬化。
+            8、醋的作用可以美容——将250克薏仁，浸于500毫升老陈醋中，密封10天后启用，每天服用醋液一匙，可使皮肤白皙柔嫩，色素减褪。
+            9、醋的作用可以治疗胃炎——生姜100克洗净切成细丝，放在250毫升老陈醋中密封3日，每日早晨空腹服用10毫升，可治疗慢性胃炎。
+            10、醋的作用可以防止晕车——对易晕车晕船者，出发前喝上一杯加老陈醋的温开水，会使你舒心良久。
+            11、醋的作用可以解乏——旅途疲劳时，在洗澡水中略加点老陈醋，能使你的皮肤光润，肌肉放松，消疲解乏。
+            12、醋的作用可以止血——用棉花蘸老陈醋塞住鼻孔，可止鼻血。
+            13、醋的作用可以防流感——“流感”发病季节。房间用醋薰一薰，可使空气消毒，预防感冒；用老陈醋加盐煎服，还可止吐止泻。
+            14、醋的作用可以治关节炎——用老陈醋、麦麸、铁砂按一定的比例在拌匀后装入纱布带中，用烘热的新砖放在纱布带上烫熨患处或有关穴位，可治疗关节炎、骨质增生等。
+            15、醋的作用可以治腮腺炎——用老陈醋加入石灰少许调匀涂患处，可治腮腺炎。
+            16、醋的作用可以治皮炎——用老陈醋一日三次涂患处，治疗神经性皮炎。
+            17、醋的作用可以消肿——碰伤淤血红肿（未破未伤筋骨）用温热的老陈醋涂患处一日三次消肿散瘀。
+        </rawdata>
+
+        <segment>
+            作菜  时  ，  加醋  的  最佳  时间  是  在  两  头  ，  即  原料  入  锅  后  马上  加醋  及  菜肴  临  出  锅  前  加醋  ，  第一  次  应  多些  ，  第二  次  应少  些  。
+            烹调  胡萝卜  与  绿色  蔬菜  时  ，  则  要  避免  加醋  。
+            醋  用于  烹制  带骨  的  原料  ，  如  排骨  、  鱼类  等  ，  可使  骨刺  软化  ，  促进  骨  中  的  矿物质  如  钙  、  磷溶出  ，  增加  营养  成分  。
+            正在  服用  某些  西药  者  不  宜  食醋  。
+            其他  使用  技巧  ：
+            醋  的  作用  还  可以  治疗  失眠  ——  失眠  患者  睡前  倒  杯  凉开水  ，  再加入  1  匙醋  ，  喝  下  后  会  很  快  入睡  。  临睡  前  用  温热  老  陈醋搓  搓  脚心  ，  也  会  使  你  容易  进入  梦乡  。
+            醋  的  作用  可以  治疗  扭伤  ——  调和  面粉  并  煮成  浆糊状  ，  加入  适量  的  老  陈醋  ，  涂在  纸片  或  纱布  上  ，  贴于  患处  。  干了  后  ，  轻轻  揭开  ，  再  换  一块  。  这样  反复  贴  几  次  ，  即  能  消除  扭伤  处  的  灼热  感和  疼痛感  。  此  法  对  骨  关节  脱臼  ，  跌伤  等  外伤  等  都  有  疗效  。
+            醋  的  作用  可以  治疗  鼻炎  ——  将  约  5  毫升  的  老  陈醋  放入  容量  为  1000  毫升  的  洗涤器  里  清洗  鼻空  ，  1  日  洗  2  次  ，  可  治疗  鼻炎  。
+            醋  的  作用  可以  治疗  脚麻  ——  把  1  升  老  陈醋  加热  后  倒入  水桶  里  ，  然后  将  两  只  脚  浸入  ，  每  次  浸泡  20  分钟  。  如此  浸泡  4  ~  5  次  ，  麻木  症状  即可  解除  。
+            醋  的  作用  可以  治疗  烫伤  ——  根据  酸碱  中和  原理  ，  将  醋  制成  5  度  溶液  ，  用以  洗涤  烫伤  ，  尤其  对  石灰  烫伤  有  良好  的  疗效  。  或者  在  烫伤  处  敷上  在  醋  里  浸过  的  纱布  ，  也  可  见效  。
+            醋  的  作用  可以  治疗  止咳  ——  将  大蒜  在  老  陈醋  中  浸泡  15  天  后  ，  每  日  早晨  空腹  吃  泡  蒜  1  ~  2  瓣  ，  并  喝  一些  醋汁  ，  连  服  10  ~  15  天  可  止咳  平喘  ，  解毒  散淤  ，  降压  降脂  ，  预防  老年人  感染性  疾病  和  肿瘤  的  发生  。
+            醋  的  作用  可以  治疗  高血压  ——  用  500  克  带衣  花生米  在  老  陈醋  中  浸泡  7  天  以上  每天  搅动  一  次  ，  每  晚  临睡  前  嚼食3~5  粒  ，  连  服  7  天  缓解  动脉  硬化  。
+            醋  的  作用  可以  美容  ——  将  250  克  薏仁  ，  浸于  500  毫升  老  陈醋中  ，  密封  10  天  后  启用  ，  每  天  服用  醋液  一匙  ，  可使  皮肤  白皙  柔嫩  ，  色素  减褪  。
+            醋  的  作用  可以  治疗  胃炎  ——  生姜  100  克  洗净  切成  细丝  ，  放在  250  毫升  老  陈醋  中  密封  3  日  ，  每  日  早晨  空腹  服用  10  毫升  ，  可治疗  慢性  胃炎  。
+            1  醋  的  作用  可以  防止  晕车  ——  对  易  晕车  晕船  者  ，  出发  前  喝上  一  杯  加  老  陈醋  的  温开水  ，  会  使  你  舒心  良久  。
+            1  醋  的  作用  可以  解乏  ——  旅途  疲劳  时  ，  在  洗澡  水中  略  加点  老  陈醋  ，  能  使  你  的  皮肤  光润  ，  肌肉  放松  ，  消疲  解乏  。
+            1  醋  的  作用  可以  止血  ——  用  棉花  蘸老  陈醋  塞住  鼻孔  ，  可  止  鼻血  。
+            1  醋  的  作用  可以  防  流感  ——  “  流感  ”  发病  季节  。  房间  用  醋薰一薰  ，  可使  空气  消毒  ，  预防  感冒  ；  用  老  陈醋  加盐  煎  服  ，  还  可  止吐  止泻  。
+            1  醋  的  作用  可以  治  关节炎  ——  用  老  陈醋  、  麦麸  、  铁砂  按  一定  的  比例  在  拌匀  后  装入  纱布  带  中  ，  用烘  热  的  新  砖  放在  纱布  带上  烫熨  患处  或  有关  穴位  ，  可治疗  关节炎  、  骨质  增生  等  。
+            1  醋  的  作用  可以  治  腮腺炎  ——  用  老  陈醋  加入  石灰  少许  调匀  涂  患处  ，  可治  腮腺炎  。
+            1  醋  的  作用  可以  治  皮炎  ——  用  老  陈醋  一  日  三  次  涂  患处  ，  治疗  神经性  皮炎  。
+            1  醋  的  作用  可以  消肿  ——  碰伤  淤血  红肿  （  未  破  未  伤  筋骨  ）  用  温热  的  老  陈醋涂  患处  一  日  三  次  消肿  散瘀  。
+        </segment>
+
+        <pos>
+            作菜#NN  时#LC  ，#PU  加醋#NN  的#DEG  最佳#JJ  时间#NN  是#VC  在#P  两#CD  头#M  ，#PU  即#AD  原料#NN  入#VV  锅#NN  后#LC  马上#AD  加醋#VV  及#CC  菜肴#AD  临#P  出#VV  锅#NN  前#LC  加醋#VV  ，#PU  第一#OD  次#M  应#VV  多些#NN  ，#PU  第二#OD  次#M  应少#CD  些#M  。#PU
+            烹调#NN  胡萝卜#NN  与#P  绿色#JJ  蔬菜#NN  时#LC  ，#PU  则#AD  要#VV  避免#VV  加醋#NN  。#PU
+            醋#AD  用于#VV  烹制#NN  带骨#NN  的#DEC  原料#NN  ，#PU  如#AD  排骨#NN  、#PU  鱼类#NN  等#ETC  ，#PU  可使#NN  骨刺#VV  软化#NN  ，#PU  促进#VV  骨#NN  中#LC  的#DEG  矿物质#JJ  如#AD  钙#NN  、#PU  磷溶出#NN  ，#PU  增加#VV  营养#VA  成分#NN  。#PU
+            正在#AD  服用#VV  某些#DT  西药#NN  者#NN  不#AD  宜#NR  食醋#VV  。#PU
+            其他#DT  使用#NN  技巧#NN  ：#PU
+            醋#NN  的#DEG  作用#NN  还#AD  可以#VV  治疗#VV  失眠#NN  --#NN  --#NN  失眠#NN  患者#NN  睡前#AD  倒#VV  杯#NN  凉开水#NN  ，#PU  再加入#VV  1#CD  匙醋#NN  ，#PU  喝#AD  下#VV  后#LC  会#VV  很#AD  快#VA  入睡#NN    。#PU  临睡#NN  前#LC  用#P  温热#NR  老#JJ  陈醋搓#NN  搓#VV  脚心#NN  ，#PU  也#AD  会#VV  使#VV  你#PN  容易#VA  进入#VV  梦乡#NN    。#PU    。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  扭伤#NN  --#NN  --#NN  调和#NN  面粉#NN  并#CC  煮成#NN  浆糊状#NN  ，#PU  加入#VV  适量#NN  的#DEG  老#JJ  陈醋#NN  ，#PU  涂在#VV  纸片#NN  或#CC  纱布#NN  上#LC  ，#PU  贴于#VV  患处#NN    。#PU  干了#NN  后#LC  ，#PU  轻轻#AD  揭开#VV  ，#PU  再#AD  换#VV  一块#CD    。#PU  这样#AD  反复#AD  贴#VV  几#CD  次#M  ，#PU  即#AD  能#VV  消除#VV  扭伤#CD  处#M  的#DEC  灼热#NN  感和#VV  疼痛感#NN    。#PU  此#DT  法#NN  对#P  骨#NN  关节#NN  脱臼#NN  ，#PU  跌伤#NN  等#ETC  外伤#NN  等#ETC  都#AD  有#VE  疗效#NN    。#PU    。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  鼻炎#NN  --#NN  --#NN  将#BA  约#AD  5#CD  毫升#M  的#DEG  老#JJ  陈醋#NN  放入#VV  容量#NN  为#VC  1000#CD  毫升#M  的#DEC  洗涤器#NN  里#LC  清洗#JJ  鼻空#NN  ，#PU  1#CD  日#M  洗#VV  2#CD  次#M  ，#PU  可#VV  治疗#VV  鼻炎#NN  。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  脚麻#NN  --#NN  --#NN  把#BA  1#CD  升#NN  老#JJ  陈醋#NN  加热#NN  后#LC  倒入#VV  水桶#NN  里#LC  ，#PU  然后#AD  将#BA  两#CD  只#M  脚#NN  浸入#VV  ，#PU  每#DT  次#M  浸泡#VV  20#CD  分钟#M    。#PU  如此#AD  浸泡#VV  4#CD  ~#NN  5#CD  次#M  ，#PU  麻木#VV  症状#NN  即可#NN  解除#VV    。#PU    。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  烫伤#NN  --#NN  --#NN  根据#P  酸碱#NN  中和#VV  原理#NN  ，#PU  将#AD  醋#AD  制成#VV  5#CD  度#M  溶液#NN  ，#PU  用以#VV  洗涤#NN  烫伤#NN  ，#PU  尤其#AD  对#P  石灰#NN  烫伤#NN  有#VE  良好#VA  的#DEC  疗效#NN    。#PU  或者#CC  在#P  烫伤#NN  处#LC  敷上#VV  在#P  醋#NN  里#LC  浸过#VV  的#DEC  纱布#NN  ，#PU  也#AD  可#VV  见效#NN    。#PU    。#PU
+            醋#NR  的#DEG  作用#NN  可以#VV  治疗#VV  止咳#NN  --#NN  --#NN  将#AD  大蒜#VV  在#P  老#JJ  陈醋#NN  中#LC  浸泡#VV  15#CD  天#M  后#LC  ，#PU  每#DT  日#M  早晨#NT  空腹#NN  吃#VV  泡#NN  蒜#NN  1#CD  ~#NN  2#CD  瓣#NN  ，#PU  并#CC  喝#VV  一些#CD  醋汁#NN  ，#PU  连#AD  服#VV  10#CD  ~#NN  15#CD  天#M  可#VV  止咳#NN  平喘#NN  ，#PU  解毒#VV  散淤#NN  ，#PU  降压#VV  降脂#NN  ，#PU  预防#VV  老年人#NN  感染性#NN  疾病#NN  和#CC  肿瘤#NN  的#DEG  发生#NN  。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  高血压#NN  --#NN  --#NN  用#P  500#CD  克#M  带衣#NN  花生米#NN  在#P  老#JJ  陈醋#NN  中#LC  浸泡#VV  7#CD  天#M  以上#LC  每天#AD  搅动#VV  一#CD  次#M  ，#PU  每#DT  晚#NN  临睡#VV  前#DT  嚼食3#CD  ~#NN  5#CD  粒#NN  ，#PU  连#AD  服#VV  7#CD  天#M  缓解#VV  动脉#NN  硬化#NN  。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  美容#VV  --#NN  --#NN  将#BA  250#CD  克#M  薏仁#VV  ，#PU  浸于#VV  500#CD  毫升#M  老#JJ  陈醋中#NN  ，#PU  密封#VV  10#CD  天#M  后#LC  启用#VV  ，#PU  每#DT  天#M  服用#VV  醋液#NN  一匙#CD  ，#PU  可使#VV  皮肤#NN  白皙#NN  柔嫩#NN  ，#PU  色素#VV  减褪#NN  。#PU
+            醋#NN  的#DEG  作用#NN  可以#VV  治疗#VV  胃炎#NN  --#NN  --#NN  生姜#NN  100#CD  克#M  洗净#NN  切成#NN  细丝#NN  ，#PU  放在#NR  250#CD  毫升#M  老#JJ  陈醋#NN  中#LC  密封#VV  3#CD  日#M  ，#PU  每#DT  日#M  早晨#NT  空腹#AD  服用#VV  10#CD  毫升#M  ，#PU  可治疗#VV  慢性#NN  胃炎#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  防止#VV  晕车#NN  --#NN  --#NN  对#P  易#AD  晕车#VV  晕船#NN  者#NN  ，#PU  出发#VV  前#LC  喝上#VV  一#CD  杯#NN  加#CC  老#JJ  陈醋#NN  的#DEG  温开水#NN  ，#PU  会#VV  使#VV  你#PN  舒心#VV  良久#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  解乏#NN  --#NN  --#NN  旅途#NN  疲劳#VA  时#LC  ，#PU  在#P  洗澡#NN  水中#NN  略#AD  加点#VV  老#JJ  陈醋#NN  ，#PU  能#VV  使#VV  你#PN  的#DEG  皮肤#NN  光润#NN  ，#PU  肌肉#AD  放松#VV  ，#PU  消疲#VV  解乏#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  止血#VV  --#NN  --#NN  用#P  棉花#NN  蘸老#NN  陈醋#VV  塞住#NN  鼻孔#NN  ，#PU  可#VV  止#VV  鼻血#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  防#VV  流感#NN  --#NN  --#NN  ``#NN  流感#NN  ''#NN  发病#NN  季节#NN    。#PU  房间#NN  用#VV  醋薰一薰#CD  ，#PU  可使#VV  空气#NN  消毒#NN  ，#PU  预防#VV  感冒#NN  ；#PU  用#P  老#JJ  陈醋#NN  加盐#VV  煎#NN  服#NN  ，#PU  还#AD  可#VV  止吐#VV  止泻#NN    。#PU    。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  治#VV  关节炎#NN  --#NN  --#NN  用#P  老#JJ  陈醋#NR  、#PU  麦麸#NR  、#PU  铁砂#NR  按#P  一定#JJ  的#DEG  比例#NN  在#P  拌匀#NN  后#LC  装入#VV  纱布#NN  带#NN  中#LC  ，#PU  用烘#NN  热#NN  的#DEG  新#JJ  砖#NN  放在#NN  纱布#NN  带上#VV  烫熨#NN  患处#NN  或#CC  有关#JJ  穴位#NN  ，#PU  可治疗#VV  关节炎#NN  、#PU  骨质#NN  增生#NN  等#ETC  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  治#VV  腮腺炎#NN  --#NN  --#NN  用#P  老#JJ  陈醋#NN  加入#VV  石灰#NN  少许#NN  调匀#NN  涂#NN  患处#NN  ，#PU  可治#VV  腮腺炎#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  治#VV  皮炎#NN  --#NN  --#NN  用#P  老#JJ  陈醋#NN  一#CD  日#M  三#CD  次#M  涂#NN  患处#VV  ，#PU  治疗#VV  神经性#JJ  皮炎#NN  。#PU
+            1#CD  醋#NN  的#DEG  作用#NN  可以#VV  消肿#VV  --#NN  --#NN  碰伤#NN  淤血#NN  红肿#NN  （#PU  未#AD  破#VV  未#AD  伤#VV  筋骨#NN  ）#PU  用#P  温热#NN  的#DEG  老#JJ  陈醋涂#NN  患处#VV  一#CD  日#M  三#CD  次#M  消肿#NN  散瘀#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 是#VC, 作菜#NN)  (case, 作菜#NN, 时#LC)  (assmod, 时间#NN, 加醋#NN)  (case, 加醋#NN, 的#DEG)  (amod, 时间#NN, 最佳#JJ)  (nsubj, 是#VC, 时间#NN)  (root, ROOT#null, 是#VC)  (case, 头#M, 在#P)  (nummod, 头#M, 两#CD)  (prep, 是#VC, 头#M)  (advmod, 加醋#VV, 即#AD)  (nsubj, 加醋#VV, 原料#NN)  (loc, 加醋#VV, 入#VV)  (dobj, 入#VV, 锅#NN)  (case, 入#VV, 后#LC)  (advmod, 加醋#VV, 马上#AD)  (conj, 是#VC, 加醋#VV)  (cc, 加醋#VV, 及#CC)  (advmod, 加醋#VV, 菜肴#AD)  (case, 出#VV, 临#P)  (prep, 加醋#VV, 出#VV)  (dobj, 出#VV, 锅#NN)  (case, 出#VV, 前#LC)  (dep, 加醋#VV, 加醋#VV)  (ordmod, 次#M, 第一#OD)  (dep, 应#VV, 次#M)  (conj, 加醋#VV, 应#VV)  (dobj, 应#VV, 多些#NN)  (ordmod, 次#M, 第二#OD)  (clf, 些#M, 次#M)  (nummod, 些#M, 应少#CD)  (conj, 加醋#VV, 些#M)
+            (nn, 胡萝卜#NN, 烹调#NN)  (nsubj, 避免#VV, 胡萝卜#NN)  (case, 蔬菜#NN, 与#P)  (amod, 蔬菜#NN, 绿色#JJ)  (prep, 避免#VV, 蔬菜#NN)  (case, 蔬菜#NN, 时#LC)  (advmod, 避免#VV, 则#AD)  (mmod, 避免#VV, 要#VV)  (root, ROOT#null, 避免#VV)  (dobj, 避免#VV, 加醋#NN)
+            (advmod, 用于#VV, 醋#AD)  (relcl, 原料#NN, 用于#VV)  (nn, 带骨#NN, 烹制#NN)  (dobj, 用于#VV, 带骨#NN)  (mark, 用于#VV, 的#DEC)  (nsubj, 骨刺#VV, 原料#NN)  (advmod, 鱼类#NN, 如#AD)  (conj, 鱼类#NN, 排骨#NN)  (nsubj, 骨刺#VV, 鱼类#NN)  (etc, 鱼类#NN, 等#ETC)  (nsubj, 骨刺#VV, 可使#NN)  (root, ROOT#null, 骨刺#VV)  (dobj, 骨刺#VV, 软化#NN)  (conj, 骨刺#VV, 促进#VV)  (assmod, 磷溶出#NN, 骨#NN)  (case, 骨#NN, 中#LC)  (case, 骨#NN, 的#DEG)  (amod, 磷溶出#NN, 矿物质#JJ)  (advmod, 磷溶出#NN, 如#AD)  (conj, 磷溶出#NN, 钙#NN)  (dobj, 促进#VV, 磷溶出#NN)  (conj, 骨刺#VV, 增加#VV)  (rcomp, 增加#VV, 营养#VA)  (dobj, 增加#VV, 成分#NN)
+            (advmod, 服用#VV, 正在#AD)  (relcl, 者#NN, 服用#VV)  (det, 西药#NN, 某些#DT)  (dobj, 服用#VV, 西药#NN)  (nsubj, 食醋#VV, 者#NN)  (neg, 食醋#VV, 不#AD)  (prep, 食醋#VV, 宜#NR)  (root, ROOT#null, 食醋#VV)
+            (det, 使用#NN, 其他#DT)  (nn, 技巧#NN, 使用#NN)  (root, ROOT#null, 技巧#NN)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (advmod, 治疗#VV, 还#AD)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 失眠#NN)  (nn, 患者#NN, 失眠#NN)  (nsubj, 倒#VV, 患者#NN)  (advmod, 倒#VV, 睡前#AD)  (loc, 快#VA, 倒#VV)  (nn, 凉开水#NN, 杯#NN)  (dobj, 倒#VV, 凉开水#NN)  (dep, 倒#VV, 再加入#VV)  (nummod, 匙醋#NN, 1#CD)  (dobj, 再加入#VV, 匙醋#NN)  (advmod, 下#VV, 喝#AD)  (conj, 倒#VV, 下#VV)  (case, 倒#VV, 后#LC)  (mmod, 快#VA, 会#VV)  (advmod, 快#VA, 很#AD)  (nfincl, 入睡#NN, 快#VA)  (dobj, 治疗#VV, 入睡#NN)   (loc, 搓#VV, 临睡#NN)  (case, 临睡#NN, 前#LC)  (case, 陈醋搓#NN, 用#P)  (nn, 陈醋搓#NN, 温热#NR)  (amod, 陈醋搓#NN, 老#JJ)  (prep, 搓#VV, 陈醋搓#NN)  (conj, 进入#VV, 搓#VV)  (dobj, 搓#VV, 脚心#NN)  (advmod, 使#VV, 也#AD)  (mmod, 使#VV, 会#VV)  (dep, 搓#VV, 使#VV)  (dobj, 使#VV, 你#PN)  (dep, 使#VV, 容易#VA)  (root, ROOT#null, 进入#VV)  (dobj, 进入#VV, 梦乡#NN)   (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, 浆糊状#NN, 扭伤#NN)  (nn, 浆糊状#NN, 调和#NN)  (conj, 浆糊状#NN, 面粉#NN)  (cc, 浆糊状#NN, 并#CC)  (nn, 浆糊状#NN, 煮成#NN)  (dobj, 治疗#VV, 浆糊状#NN)  (conj, 治疗#VV, 加入#VV)  (assmod, 陈醋#NN, 适量#NN)  (case, 适量#NN, 的#DEG)  (amod, 陈醋#NN, 老#JJ)  (dobj, 加入#VV, 陈醋#NN)  (conj, 治疗#VV, 涂在#VV)  (conj, 纱布#NN, 纸片#NN)  (cc, 纱布#NN, 或#CC)  (loc, 涂在#VV, 纱布#NN)  (case, 纱布#NN, 上#LC)  (conj, 治疗#VV, 贴于#VV)  (dobj, 贴于#VV, 患处#NN)   (loc, 揭开#VV, 干了#NN)  (case, 干了#NN, 后#LC)  (advmod, 揭开#VV, 轻轻#AD)  (root, ROOT#null, 揭开#VV)  (advmod, 换#VV, 再#AD)  (dep, 揭开#VV, 换#VV)  (range, 换#VV, 一块#CD)   (advmod, 贴#VV, 这样#AD)  (advmod, 贴#VV, 反复#AD)  (relcl, 灼热#NN, 贴#VV)  (nummod, 次#M, 几#CD)  (range, 贴#VV, 次#M)  (advmod, 消除#VV, 即#AD)  (mmod, 消除#VV, 能#VV)  (dep, 贴#VV, 消除#VV)  (nummod, 处#M, 扭伤#CD)  (range, 消除#VV, 处#M)  (mark, 贴#VV, 的#DEC)  (nsubj, 感和#VV, 灼热#NN)  (root, ROOT#null, 感和#VV)  (dobj, 感和#VV, 疼痛感#NN)   (det, 法#NN, 此#DT)  (nsubj, 有#VE, 法#NN)  (case, 脱臼#NN, 对#P)  (nn, 脱臼#NN, 骨#NN)  (nn, 脱臼#NN, 关节#NN)  (prep, 有#VE, 脱臼#NN)  (nn, 外伤#NN, 跌伤#NN)  (etc, 跌伤#NN, 等#ETC)  (dobj, 有#VE, 外伤#NN)  (etc, 外伤#NN, 等#ETC)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 疗效#NN)   (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 鼻炎#NN)  (ba, 放入#VV, 将#BA)  (advmod, 毫升#M, 约#AD)  (nummod, 毫升#M, 5#CD)  (assmod, 陈醋#NN, 毫升#M)  (case, 毫升#M, 的#DEG)  (amod, 陈醋#NN, 老#JJ)  (nsubj, 放入#VV, 陈醋#NN)  (dep, 治疗#VV, 放入#VV)  (nsubj, 为#VC, 容量#NN)  (relcl, 洗涤器#NN, 为#VC)  (nummod, 毫升#M, 1000#CD)  (dep, 为#VC, 毫升#M)  (mark, 为#VC, 的#DEC)  (dep, 鼻空#NN, 洗涤器#NN)  (case, 洗涤器#NN, 里#LC)  (amod, 鼻空#NN, 清洗#JJ)  (dobj, 放入#VV, 鼻空#NN)  (nummod, 日#M, 1#CD)  (nsubj, 洗#VV, 日#M)  (conj, 治疗#VV, 洗#VV)  (nummod, 次#M, 2#CD)  (range, 洗#VV, 次#M)  (mmod, 治疗#VV, 可#VV)  (conj, 治疗#VV, 治疗#VV)  (dobj, 治疗#VV, 鼻炎#NN)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 脚麻#NN)  (ba, 倒入#VV, 把#BA)  (nummod, 升#NN, 1#CD)  (nn, 陈醋#NN, 升#NN)  (amod, 陈醋#NN, 老#JJ)  (nsubj, 倒入#VV, 陈醋#NN)  (loc, 倒入#VV, 加热#NN)  (case, 加热#NN, 后#LC)  (conj, 治疗#VV, 倒入#VV)  (loc, 倒入#VV, 水桶#NN)  (case, 水桶#NN, 里#LC)  (advmod, 浸入#VV, 然后#AD)  (ba, 浸入#VV, 将#BA)  (nummod, 只#M, 两#CD)  (clf, 脚#NN, 只#M)  (nsubj, 浸入#VV, 脚#NN)  (conj, 治疗#VV, 浸入#VV)  (dep, 浸泡#VV, 每#DT)  (clf, 每#DT, 次#M)  (conj, 治疗#VV, 浸泡#VV)  (nummod, 分钟#M, 20#CD)  (range, 浸泡#VV, 分钟#M)   (advmod, 浸泡#VV, 如此#AD)  (root, ROOT#null, 浸泡#VV)  (nummod, ~#NN, 4#CD)  (nummod, 次#M, 5#CD)  (range, 浸泡#VV, 次#M)  (dep, 浸泡#VV, 麻木#VV)  (nn, 即可#NN, 症状#NN)  (dobj, 麻木#VV, 即可#NN)  (conj, 麻木#VV, 解除#VV)   (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 烫伤#NN)  (case, 酸碱#NN, 根据#P)  (prep, 中和#VV, 酸碱#NN)  (conj, 治疗#VV, 中和#VV)  (dobj, 中和#VV, 原理#NN)  (advmod, 制成#VV, 将#AD)  (advmod, 制成#VV, 醋#AD)  (conj, 治疗#VV, 制成#VV)  (nummod, 度#M, 5#CD)  (clf, 溶液#NN, 度#M)  (dobj, 制成#VV, 溶液#NN)  (conj, 治疗#VV, 用以#VV)  (nn, 烫伤#NN, 洗涤#NN)  (dobj, 用以#VV, 烫伤#NN)  (advmod, 有#VE, 尤其#AD)  (case, 烫伤#NN, 对#P)  (nn, 烫伤#NN, 石灰#NN)  (prep, 有#VE, 烫伤#NN)  (conj, 治疗#VV, 有#VE)  (relcl, 疗效#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (dobj, 有#VE, 疗效#NN)   (cc, 敷上#VV, 或者#CC)  (case, 烫伤#NN, 在#P)  (prep, 敷上#VV, 烫伤#NN)  (case, 烫伤#NN, 处#LC)  (root, ROOT#null, 敷上#VV)  (case, 醋#NN, 在#P)  (prep, 浸过#VV, 醋#NN)  (case, 醋#NN, 里#LC)  (relcl, 纱布#NN, 浸过#VV)  (mark, 浸过#VV, 的#DEC)  (dobj, 敷上#VV, 纱布#NN)  (advmod, 可#VV, 也#AD)  (dep, 敷上#VV, 可#VV)  (dobj, 可#VV, 见效#NN)   (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 醋#NR)  (case, 醋#NR, 的#DEG)  (nsubj, 浸泡#VV, 作用#NN)  (ccomp, 浸泡#VV, 可以#VV)  (rcomp, 可以#VV, 治疗#VV)  (nn, --#NN, 止咳#NN)  (advmod, 浸泡#VV, 将#AD)  (mmod, 浸泡#VV, 大蒜#VV)  (case, 陈醋#NN, 在#P)  (amod, 陈醋#NN, 老#JJ)  (prep, 浸泡#VV, 陈醋#NN)  (case, 陈醋#NN, 中#LC)  (loc, 吃#VV, 浸泡#VV)  (nummod, 天#M, 15#CD)  (range, 浸泡#VV, 天#M)  (case, 浸泡#VV, 后#LC)  (det, 早晨#NT, 每#DT)  (clf, 每#DT, 日#M)  (nn, 空腹#NN, 早晨#NT)  (nsubj, 吃#VV, 空腹#NN)  (root, ROOT#null, 吃#VV)  (nn, 蒜#NN, 泡#NN)  (nn, ~#NN, 蒜#NN)  (nummod, ~#NN, 1#CD)  (nummod, 瓣#NN, 2#CD)  (dobj, 吃#VV, 瓣#NN)  (cc, 吃#VV, 并#CC)  (conj, 吃#VV, 喝#VV)  (nummod, 醋汁#NN, 一些#CD)  (dobj, 喝#VV, 醋汁#NN)  (advmod, 服#VV, 连#AD)  (conj, 吃#VV, 服#VV)  (nummod, ~#NN, 10#CD)  (nummod, 天#M, 15#CD)  (range, 服#VV, 天#M)  (conj, 服#VV, 可#VV)  (nn, 平喘#NN, 止咳#NN)  (dobj, 可#VV, 平喘#NN)  (conj, 服#VV, 解毒#VV)  (dobj, 解毒#VV, 散淤#NN)  (conj, 服#VV, 降压#VV)  (dobj, 降压#VV, 降脂#NN)  (conj, 服#VV, 预防#VV)  (nn, 肿瘤#NN, 老年人#NN)  (nn, 肿瘤#NN, 感染性#NN)  (conj, 肿瘤#NN, 疾病#NN)  (cc, 肿瘤#NN, 和#CC)  (assmod, 发生#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 高血压#NN)  (case, 花生米#NN, 用#P)  (nummod, 克#M, 500#CD)  (clf, 花生米#NN, 克#M)  (nn, 花生米#NN, 带衣#NN)  (prep, 浸泡#VV, 花生米#NN)  (case, 陈醋#NN, 在#P)  (amod, 陈醋#NN, 老#JJ)  (prep, 浸泡#VV, 陈醋#NN)  (case, 陈醋#NN, 中#LC)  (dep, 治疗#VV, 浸泡#VV)  (nummod, 天#M, 7#CD)  (loc, 浸泡#VV, 天#M)  (case, 天#M, 以上#LC)  (advmod, 搅动#VV, 每天#AD)  (dep, 治疗#VV, 搅动#VV)  (nummod, 次#M, 一#CD)  (range, 搅动#VV, 次#M)  (det, 晚#NN, 每#DT)  (nsubj, 临睡#VV, 晚#NN)  (conj, 治疗#VV, 临睡#VV)  (det, ~#NN, 前#DT)  (dep, 前#DT, 嚼食3#CD)  (nummod, 粒#NN, 5#CD)  (dobj, 临睡#VV, 粒#NN)  (advmod, 服#VV, 连#AD)  (conj, 治疗#VV, 服#VV)  (nummod, 天#M, 7#CD)  (range, 服#VV, 天#M)  (conj, 服#VV, 缓解#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 缓解#VV, 硬化#NN)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 美容#VV, 作用#NN)  (mmod, 美容#VV, 可以#VV)  (root, ROOT#null, 美容#VV)  (ba, 薏仁#VV, 将#BA)  (nummod, 克#M, 250#CD)  (nsubj, 薏仁#VV, 克#M)  (conj, 美容#VV, 薏仁#VV)  (conj, 美容#VV, 浸于#VV)  (nummod, 毫升#M, 500#CD)  (clf, 陈醋中#NN, 毫升#M)  (amod, 陈醋中#NN, 老#JJ)  (dobj, 浸于#VV, 陈醋中#NN)  (loc, 启用#VV, 密封#VV)  (nummod, 天#M, 10#CD)  (range, 密封#VV, 天#M)  (case, 密封#VV, 后#LC)  (conj, 美容#VV, 启用#VV)  (dep, 服用#VV, 每#DT)  (clf, 每#DT, 天#M)  (conj, 美容#VV, 服用#VV)  (dobj, 服用#VV, 醋液#NN)  (range, 服用#VV, 一匙#CD)  (conj, 美容#VV, 可使#VV)  (nn, 柔嫩#NN, 皮肤#NN)  (nn, 柔嫩#NN, 白皙#NN)  (dobj, 可使#VV, 柔嫩#NN)  (conj, 美容#VV, 色素#VV)  (dobj, 色素#VV, 减褪#NN)
+            (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治疗#VV, 作用#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, --#NN, 胃炎#NN)  (nn, 细丝#NN, 生姜#NN)  (nummod, 克#M, 100#CD)  (clf, 细丝#NN, 克#M)  (nn, 细丝#NN, 洗净#NN)  (nn, 细丝#NN, 切成#NN)  (dobj, 治疗#VV, 细丝#NN)  (nn, 陈醋#NN, 放在#NR)  (nummod, 毫升#M, 250#CD)  (clf, 陈醋#NN, 毫升#M)  (amod, 陈醋#NN, 老#JJ)  (loc, 密封#VV, 陈醋#NN)  (case, 陈醋#NN, 中#LC)  (conj, 治疗#VV, 密封#VV)  (nummod, 日#M, 3#CD)  (range, 密封#VV, 日#M)  (dep, 服用#VV, 每#DT)  (clf, 每#DT, 日#M)  (tmod, 服用#VV, 早晨#NT)  (advmod, 服用#VV, 空腹#AD)  (conj, 治疗#VV, 服用#VV)  (nummod, 毫升#M, 10#CD)  (range, 服用#VV, 毫升#M)  (conj, 治疗#VV, 可治疗#VV)  (nn, 胃炎#NN, 慢性#NN)  (dobj, 可治疗#VV, 胃炎#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 防止#VV, 作用#NN)  (mmod, 防止#VV, 可以#VV)  (root, ROOT#null, 防止#VV)  (nn, --#NN, 晕车#NN)  (case, 者#NN, 对#P)  (advmod, 晕车#VV, 易#AD)  (nfincl, 者#NN, 晕车#VV)  (dobj, 晕车#VV, 晕船#NN)  (prep, 喝上#VV, 者#NN)  (loc, 喝上#VV, 出发#VV)  (case, 出发#VV, 前#LC)  (ccomp, 防止#VV, 喝上#VV)  (nummod, 杯#NN, 一#CD)  (conj, 陈醋#NN, 杯#NN)  (cc, 陈醋#NN, 加#CC)  (amod, 陈醋#NN, 老#JJ)  (assmod, 温开水#NN, 陈醋#NN)  (case, 陈醋#NN, 的#DEG)  (dobj, 喝上#VV, 温开水#NN)  (mmod, 使#VV, 会#VV)  (conj, 喝上#VV, 使#VV)  (dobj, 使#VV, 你#PN)  (dep, 使#VV, 舒心#VV)  (dobj, 舒心#VV, 良久#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 加点#VV, 作用#NN)  (xsubj, 放松#VV, 作用#NN)  (mmod, 加点#VV, 可以#VV)  (nn, 旅途#NN, 解乏#NN)  (nsubj, 疲劳#VA, 旅途#NN)  (loc, 加点#VV, 疲劳#VA)  (case, 疲劳#VA, 时#LC)  (case, 水中#NN, 在#P)  (nn, 水中#NN, 洗澡#NN)  (prep, 加点#VV, 水中#NN)  (advmod, 加点#VV, 略#AD)  (root, ROOT#null, 加点#VV)  (amod, 陈醋#NN, 老#JJ)  (dobj, 加点#VV, 陈醋#NN)  (mmod, 使#VV, 能#VV)  (conj, 加点#VV, 使#VV)  (assmod, 光润#NN, 你#PN)  (case, 你#PN, 的#DEG)  (nn, 光润#NN, 皮肤#NN)  (dobj, 使#VV, 光润#NN)  (advmod, 放松#VV, 肌肉#AD)  (dep, 使#VV, 放松#VV)  (dep, 加点#VV, 消疲#VV)  (dobj, 消疲#VV, 解乏#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 止血#VV, 作用#NN)  (mmod, 止血#VV, 可以#VV)  (root, ROOT#null, 止血#VV)  (case, 蘸老#NN, 用#P)  (nn, 蘸老#NN, 棉花#NN)  (prep, 陈醋#VV, 蘸老#NN)  (conj, 止血#VV, 陈醋#VV)  (nn, 鼻孔#NN, 塞住#NN)  (dobj, 陈醋#VV, 鼻孔#NN)  (mmod, 止#VV, 可#VV)  (conj, 止血#VV, 止#VV)  (dobj, 止#VV, 鼻血#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 防#VV, 作用#NN)  (mmod, 防#VV, 可以#VV)  (root, ROOT#null, 防#VV)  (nn, --#NN, 流感#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 流感#NN)  (nn, 季节#NN, ''#NN)  (nn, 季节#NN, 发病#NN)  (dobj, 防#VV, 季节#NN)   (nsubj, 用#VV, 房间#NN)  (root, ROOT#null, 用#VV)  (range, 用#VV, 醋薰一薰#CD)  (conj, 用#VV, 可使#VV)  (nn, 消毒#NN, 空气#NN)  (dobj, 可使#VV, 消毒#NN)  (conj, 用#VV, 预防#VV)  (dobj, 预防#VV, 感冒#NN)  (case, 陈醋#NN, 用#P)  (amod, 陈醋#NN, 老#JJ)  (prep, 加盐#VV, 陈醋#NN)  (conj, 用#VV, 加盐#VV)  (nn, 服#NN, 煎#NN)  (dobj, 加盐#VV, 服#NN)  (advmod, 止吐#VV, 还#AD)  (mmod, 止吐#VV, 可#VV)  (conj, 用#VV, 止吐#VV)  (dobj, 止吐#VV, 止泻#NN)   (root, ROOT#null, null#null)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 装入#VV, 作用#NN)  (ccomp, 装入#VV, 可以#VV)  (rcomp, 可以#VV, 治#VV)  (nn, --#NN, 关节炎#NN)  (case, 铁砂#NR, 用#P)  (amod, 铁砂#NR, 老#JJ)  (conj, 铁砂#NR, 陈醋#NR)  (conj, 铁砂#NR, 麦麸#NR)  (prep, 装入#VV, 铁砂#NR)  (case, 比例#NN, 按#P)  (assmod, 比例#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (prep, 装入#VV, 比例#NN)  (case, 拌匀#NN, 在#P)  (prep, 装入#VV, 拌匀#NN)  (case, 拌匀#NN, 后#LC)  (loc, 带上#VV, 装入#VV)  (nn, 带#NN, 纱布#NN)  (dobj, 装入#VV, 带#NN)  (case, 装入#VV, 中#LC)  (nn, 热#NN, 用烘#NN)  (assmod, 纱布#NN, 热#NN)  (case, 热#NN, 的#DEG)  (amod, 纱布#NN, 新#JJ)  (nn, 纱布#NN, 砖#NN)  (nn, 纱布#NN, 放在#NN)  (nsubj, 带上#VV, 纱布#NN)  (root, ROOT#null, 带上#VV)  (nn, 患处#NN, 烫熨#NN)  (conj, 穴位#NN, 患处#NN)  (cc, 穴位#NN, 或#CC)  (amod, 穴位#NN, 有关#JJ)  (dobj, 带上#VV, 穴位#NN)  (conj, 带上#VV, 可治疗#VV)  (conj, 增生#NN, 关节炎#NN)  (nn, 增生#NN, 骨质#NN)  (dobj, 可治疗#VV, 增生#NN)  (etc, 增生#NN, 等#ETC)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治#VV, 作用#NN)  (mmod, 治#VV, 可以#VV)  (root, ROOT#null, 治#VV)  (nn, --#NN, 腮腺炎#NN)  (case, 陈醋#NN, 用#P)  (amod, 陈醋#NN, 老#JJ)  (prep, 加入#VV, 陈醋#NN)  (conj, 治#VV, 加入#VV)  (nn, 患处#NN, 石灰#NN)  (nn, 患处#NN, 少许#NN)  (nn, 患处#NN, 调匀#NN)  (nn, 患处#NN, 涂#NN)  (dobj, 加入#VV, 患处#NN)  (conj, 治#VV, 可治#VV)  (dobj, 可治#VV, 腮腺炎#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 治#VV, 作用#NN)  (mmod, 治#VV, 可以#VV)  (root, ROOT#null, 治#VV)  (nn, --#NN, 皮炎#NN)  (case, 涂#NN, 用#P)  (amod, 陈醋#NN, 老#JJ)  (nn, 涂#NN, 陈醋#NN)  (nummod, 日#M, 一#CD)  (clf, 涂#NN, 日#M)  (nummod, 次#M, 三#CD)  (clf, 涂#NN, 次#M)  (prep, 患处#VV, 涂#NN)  (conj, 治#VV, 患处#VV)  (conj, 治#VV, 治疗#VV)  (amod, 皮炎#NN, 神经性#JJ)  (dobj, 治疗#VV, 皮炎#NN)
+            (nummod, 醋#NN, 1#CD)  (assmod, 作用#NN, 醋#NN)  (case, 醋#NN, 的#DEG)  (nsubj, 消肿#VV, 作用#NN)  (mmod, 消肿#VV, 可以#VV)  (dep, 患处#VV, 消肿#VV)  (nn, 红肿#NN, 碰伤#NN)  (nn, 红肿#NN, 淤血#NN)  (dobj, 消肿#VV, 红肿#NN)  (advmod, 伤#VV, 未#AD)  (mmod, 伤#VV, 破#VV)  (advmod, 伤#VV, 未#AD)  (dep, 消肿#VV, 伤#VV)  (dobj, 伤#VV, 筋骨#NN)  (case, 陈醋涂#NN, 用#P)  (assmod, 陈醋涂#NN, 温热#NN)  (case, 温热#NN, 的#DEG)  (amod, 陈醋涂#NN, 老#JJ)  (prep, 患处#VV, 陈醋涂#NN)  (root, ROOT#null, 患处#VV)  (nummod, 日#M, 一#CD)  (clf, 散瘀#NN, 日#M)  (nummod, 次#M, 三#CD)  (clf, 消肿#NN, 次#M)  (nn, 散瘀#NN, 消肿#NN)  (dobj, 患处#VV, 散瘀#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201306/151441030.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\506 醋.jpg
+    </picturelocalurl>
+
+</content>

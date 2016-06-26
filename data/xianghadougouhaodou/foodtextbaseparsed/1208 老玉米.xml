@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1208
+    </id>
+
+    <foodname>
+        老玉米
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            生长时间较长，吃起来有些粗糙的玉米
+        </rawdata>
+
+        <segment>
+            生长  时间  较长  ，  吃  起来  有些  粗糙  的  玉米
+        </segment>
+
+        <pos>
+            生长#NN  时间#NN  较长#VV  ，#PU  吃#VV  起来#VV  有些#DT  粗糙#NN  的#DEG  玉米#NN
+        </pos>
+
+        <parsing>
+            (nn, 时间#NN, 生长#NN)  (nsubj, 较长#VV, 时间#NN)  (root, ROOT#null, 较长#VV)  (ccomp, 较长#VV, 吃#VV)  (rcomp, 吃#VV, 起来#VV)  (det, 粗糙#NN, 有些#DT)  (assmod, 玉米#NN, 粗糙#NN)  (case, 粗糙#NN, 的#DEG)  (dobj, 吃#VV, 玉米#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            玉米中含有大量的营养保健物质也让专家们感到惊喜。除了含有碳水化合物、蛋白质、脂肪、胡萝卜素外，玉米中还含有核黄素、维生素等营养物质。这些物质对预防心脏病、癌症等疾病有很大的好处。
+        </rawdata>
+
+        <segment>
+            玉米  中  含有  大量  的  营养  保健  物质  也  让  专家们  感到  惊喜  。  除了  含有  碳水化合物  、  蛋白质  、  脂肪  、  胡萝卜素  外  ，  玉米  中  还  含有  核黄素  、  维生素  等  营养  物质  。  这些  物质  对  预防  心脏病  、  癌症  等  疾病  有  很  大  的  好处  。
+        </segment>
+
+        <pos>
+            玉米#NN  中#LC  含有#VV  大量#CD  的#DEC  营养#VA  保健#NN  物质#NN  也#AD  让#VV  专家们#NN  感到#VV  惊喜#NN    。#PU  除了#P  含有#NR  碳水化合物#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  胡萝卜素#NR  外#LC  ，#PU  玉米#NN  中#LC  还#AD  含有#VV  核黄素#NN  、#PU  维生素#NN  等#ETC  营养#VA  物质#NN    。#PU  这些#DT  物质#NN  对#P  预防#NN  心脏病#NN  、#PU  癌症#NN  等#ETC  疾病#NN  有#VE  很#AD  大#VA  的#DEC  好处#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (relcl, 保健#NN, 含有#VV)  (range, 含有#VV, 大量#CD)  (mark, 含有#VV, 的#DEC)  (nfincl, 保健#NN, 营养#VA)  (nn, 物质#NN, 保健#NN)  (nsubj, 让#VV, 物质#NN)  (advmod, 让#VV, 也#AD)  (root, ROOT#null, 让#VV)  (dobj, 让#VV, 专家们#NN)  (dep, 让#VV, 感到#VV)  (dobj, 感到#VV, 惊喜#NN)   (case, 胡萝卜素#NR, 除了#P)  (nn, 胡萝卜素#NR, 含有#NR)  (conj, 胡萝卜素#NR, 碳水化合物#NR)  (conj, 胡萝卜素#NR, 蛋白质#NR)  (conj, 胡萝卜素#NR, 脂肪#NR)  (prep, 含有#VV, 胡萝卜素#NR)  (case, 胡萝卜素#NR, 外#LC)  (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, 维生素#NN, 核黄素#NN)  (nsubj, 营养#VA, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)   (det, 物质#NN, 这些#DT)  (nsubj, 有#VE, 物质#NN)  (case, 疾病#NN, 对#P)  (nn, 癌症#NN, 预防#NN)  (conj, 癌症#NN, 心脏病#NN)  (nn, 疾病#NN, 癌症#NN)  (etc, 癌症#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (root, ROOT#null, 有#VE)  (advmod, 大#VA, 很#AD)  (relcl, 好处#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 有#VE, 好处#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            怎样吃玉米才最有营养？专家建议，玉米熟吃比生吃好。尽管烹调使玉米损失了部分维生素C，却获得了更有营养价值的抗氧化剂。不论油炸还是水煮，玉米都会释放出更多的营养物质。同时，烹饪过的玉米还释放一种酚类化合物赖氨酸，对癌症等疾病具有一定疗效。高温烹调后，玉米抗氧自由基的活性升高了，而氧自由基会引起机体氧化损伤，增加患病的风险。
+        </rawdata>
+
+        <segment>
+            怎样  吃  玉米  才  最  有  营养  ？  专家  建议  ，  玉米  熟  吃  比  生吃  好  。  尽管  烹调  使  玉米  损失  了  部分  维生素C  ，  却  获得  了  更  有  营养  价值  的  抗氧化剂  。  不论  油炸  还是  水煮  ，  玉米  都  会  释放  出  更  多  的  营养  物质  。  同时  ，  烹饪  过  的  玉米  还  释放  一  种  酚类  化合物  赖氨酸  ，  对  癌症  等  疾病  具有  一定  疗效  。  高温  烹调  后  ，  玉米  抗氧  自由基  的  活性  升高  了  ，  而氧  自由基  会  引起  机体  氧化  损伤  ，  增加  患病  的  风险  。
+        </segment>
+
+        <pos>
+            怎样#AD  吃#VV  玉米#NN  才#AD  最#AD  有#VE  营养#VA  ？#PU  专家#NN  建议#VV  ，#PU  玉米#NN  熟#VA  吃#VV  比#P  生吃#NN  好#VA    。#PU  尽管#CS  烹调#AD  使#VV  玉米#NN  损失#VV  了#AS  部分#CD  维生素C#NN  ，#PU  却#AD  获得#VV  了#AS  更#AD  有#VE  营养#VA  价值#NN  的#DEC  抗氧化剂#NN    。#PU  不论#AD  油炸#NN  还是#AD  水煮#VV  ，#PU  玉米#NN  都#AD  会#VV  释放#VV  出#VV  更#AD  多#VA  的#DEC  营养#VA  物质#NN    。#PU  同时#AD  ，#PU  烹饪#VV  过#AS  的#DEC  玉米#NN  还#AD  释放#VV  一#CD  种#M  酚类#NN  化合物#NN  赖氨酸#NN  ，#PU  对#P  癌症#NN  等#ETC  疾病#NN  具有#VV  一定#JJ  疗效#NN    。#PU  高温#NN  烹调#NN  后#LC  ，#PU  玉米#NN  抗氧#NN  自由基#NN  的#DEG  活性#NN  升高#VV  了#AS  ，#PU  而氧#NN  自由基#NN  会#VV  引起#VV  机体#NN  氧化#NN  损伤#NN  ，#PU  增加#VV  患病#VV  的#DEC  风险#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 吃#VV, 怎样#AD)  (relcl, 玉米#NN, 吃#VV)  (nsubj, 有#VE, 玉米#NN)  (advmod, 有#VE, 才#AD)  (advmod, 有#VE, 最#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 营养#VA)  (nsubj, 建议#VV, 专家#NN)  (conj, 有#VE, 建议#VV)  (nsubj, 熟#VA, 玉米#NN)  (ccomp, 建议#VV, 熟#VA)  (dep, 建议#VV, 吃#VV)  (case, 生吃#NN, 比#P)  (prep, 好#VA, 生吃#NN)  (dep, 建议#VV, 好#VA)   (advmod, 使#VV, 尽管#CS)  (advmod, 使#VV, 烹调#AD)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 玉米#NN)  (dep, 使#VV, 损失#VV)  (asp, 损失#VV, 了#AS)  (nummod, 维生素C#NN, 部分#CD)  (dobj, 损失#VV, 维生素C#NN)  (advmod, 获得#VV, 却#AD)  (conj, 损失#VV, 获得#VV)  (asp, 获得#VV, 了#AS)  (advmod, 有#VE, 更#AD)  (relcl, 抗氧化剂#NN, 有#VE)  (nfincl, 价值#NN, 营养#VA)  (dobj, 有#VE, 价值#NN)  (mark, 有#VE, 的#DEC)  (dobj, 获得#VV, 抗氧化剂#NN)   (advmod, 油炸#NN, 不论#AD)  (nsubj, 水煮#VV, 油炸#NN)  (advmod, 水煮#VV, 还是#AD)  (root, ROOT#null, 水煮#VV)  (nsubj, 释放#VV, 玉米#NN)  (advmod, 释放#VV, 都#AD)  (mmod, 释放#VV, 会#VV)  (ccomp, 水煮#VV, 释放#VV)  (rcomp, 释放#VV, 出#VV)  (advmod, 多#VA, 更#AD)  (relcl, 物质#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 释放#VV, 物质#NN)   (advmod, 释放#VV, 同时#AD)  (relcl, 玉米#NN, 烹饪#VV)  (asp, 烹饪#VV, 过#AS)  (mark, 烹饪#VV, 的#DEC)  (nsubj, 释放#VV, 玉米#NN)  (advmod, 释放#VV, 还#AD)  (root, ROOT#null, 释放#VV)  (nummod, 种#M, 一#CD)  (range, 释放#VV, 种#M)  (nn, 赖氨酸#NN, 酚类#NN)  (nn, 赖氨酸#NN, 化合物#NN)  (nsubj, 具有#VV, 赖氨酸#NN)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 癌症#NN)  (etc, 癌症#NN, 等#ETC)  (prep, 具有#VV, 疾病#NN)  (conj, 释放#VV, 具有#VV)  (amod, 疗效#NN, 一定#JJ)  (dobj, 具有#VV, 疗效#NN)   (nn, 烹调#NN, 高温#NN)  (loc, 升高#VV, 烹调#NN)  (case, 烹调#NN, 后#LC)  (nn, 自由基#NN, 玉米#NN)  (nn, 自由基#NN, 抗氧#NN)  (assmod, 活性#NN, 自由基#NN)  (case, 自由基#NN, 的#DEG)  (nsubj, 升高#VV, 活性#NN)  (root, ROOT#null, 升高#VV)  (asp, 升高#VV, 了#AS)  (nn, 自由基#NN, 而氧#NN)  (nsubj, 引起#VV, 自由基#NN)  (mmod, 引起#VV, 会#VV)  (conj, 升高#VV, 引起#VV)  (nn, 损伤#NN, 机体#NN)  (nn, 损伤#NN, 氧化#NN)  (dobj, 引起#VV, 损伤#NN)  (conj, 引起#VV, 增加#VV)  (relcl, 风险#NN, 患病#VV)  (mark, 患病#VV, 的#DEC)  (dobj, 增加#VV, 风险#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/be/4e/20158_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1208 老玉米.jpg
+    </picturelocalurl>
+
+</content>

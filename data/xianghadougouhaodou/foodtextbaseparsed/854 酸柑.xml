@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        854
+    </id>
+
+    <foodname>
+        酸柑
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        番柑、四季柑、酸抛柑
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            常绿灌木，株高1-2米，具短刺，幼枝有角棱，叶椭圆形互生，革质，具光泽及强烈芳香味。花顶生，花冠五裂，白色，具香气。四季均能见花，但以春、夏季盛开；果实扁圆形，初绿，成熟时呈橙黄色，果囊8-11瓣，每瓣种子3-4颗，卵形。花期春季。
+        </rawdata>
+
+        <segment>
+            常绿  灌木  ，  株高1-2  米  ，  具  短刺  ，  幼枝  有角棱  ，  叶  椭圆形  互生  ，  革质  ，  具光  泽及  强烈  芳香  味  。  花顶生  ，  花冠  五  裂  ，  白色  ，  具  香气  。  四  季  均  能见  花  ，  但  以  春  、  夏季  盛开  ；  果实  扁圆形  ，  初绿  ，  成熟  时  呈  橙黄色  ，  果囊8-11  瓣  ，  每  瓣  种子  3-4  颗  ，  卵形  。  花期  春季  。
+        </segment>
+
+        <pos>
+            常绿#VV  灌木#NN  ，#PU  株高1-2#CD  米#M  ，#PU  具#VV  短刺#NN  ，#PU  幼枝#AD  有角棱#VV  ，#PU  叶#NR  椭圆形#NN  互生#NN  ，#PU  革质#VV  ，#PU  具光#NN  泽及#NN  强烈#AD  芳香#VV  味#NN    。#PU  花顶生#VV  ，#PU  花冠#VV  五#CD  裂#NN  ，#PU  白色#JJ  ，#PU  具#VV  香气#NN    。#PU  四#CD  季#NN  均#AD  能见#VV  花#NN  ，#PU  但#AD  以#P  春#NT  、#PU  夏季#NT  盛开#VV  ；#PU  果实#NN  扁圆形#VA  ，#PU  初绿#VA  ，#PU  成熟#VA  时#LC  呈#VV  橙黄色#NN  ，#PU  果囊8-11#CD  瓣#NN  ，#PU  每#AD  瓣#VV  种子#NN  3-4#CD  颗#M  ，#PU  卵形#VV    。#PU  花期#VV  春季#NT    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 常绿#VV)  (dobj, 常绿#VV, 灌木#NN)  (nummod, 米#M, 株高1-2#CD)  (conj, 常绿#VV, 米#M)  (conj, 常绿#VV, 具#VV)  (dobj, 具#VV, 短刺#NN)  (advmod, 有角棱#VV, 幼枝#AD)  (conj, 常绿#VV, 有角棱#VV)  (nn, 互生#NN, 叶#NR)  (nn, 互生#NN, 椭圆形#NN)  (nsubj, 革质#VV, 互生#NN)  (ccomp, 有角棱#VV, 革质#VV)  (nn, 泽及#NN, 具光#NN)  (nsubj, 芳香#VV, 泽及#NN)  (advmod, 芳香#VV, 强烈#AD)  (ccomp, 革质#VV, 芳香#VV)  (dobj, 芳香#VV, 味#NN)   (root, ROOT#null, 花顶生#VV)  (ccomp, 花顶生#VV, 花冠#VV)  (nummod, 裂#NN, 五#CD)  (dobj, 花冠#VV, 裂#NN)  (conj, 花冠#VV, 白色#JJ)  (conj, 花冠#VV, 具#VV)  (dobj, 具#VV, 香气#NN)   (nummod, 季#NN, 四#CD)  (nsubj, 能见#VV, 季#NN)  (advmod, 能见#VV, 均#AD)  (root, ROOT#null, 能见#VV)  (dobj, 能见#VV, 花#NN)  (advmod, 呈#VV, 但#AD)  (case, 盛开#VV, 以#P)  (conj, 夏季#NT, 春#NT)  (tmod, 盛开#VV, 夏季#NT)  (prep, 呈#VV, 盛开#VV)  (nsubj, 扁圆形#VA, 果实#NN)  (ccomp, 盛开#VV, 扁圆形#VA)  (conj, 扁圆形#VA, 初绿#VA)  (conj, 扁圆形#VA, 成熟#VA)  (case, 盛开#VV, 时#LC)  (conj, 能见#VV, 呈#VV)  (dobj, 呈#VV, 橙黄色#NN)  (nummod, 瓣#NN, 果囊8-11#CD)  (nsubj, 瓣#VV, 瓣#NN)  (advmod, 瓣#VV, 每#AD)  (conj, 能见#VV, 瓣#VV)  (dobj, 瓣#VV, 种子#NN)  (nummod, 颗#M, 3-4#CD)  (range, 瓣#VV, 颗#M)  (dep, 瓣#VV, 卵形#VV)   (root, ROOT#null, 花期#VV)  (dobj, 花期#VV, 春季#NT)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            果实，酸苦，治伤风咳嗽。表面粘状物质，主要成分是果胶，具有天然保湿效果。种子，含类黄酮、儿茶素等抗氧化物质能预防皮肤表面形成黑斑，所含的柠檬酸、果酸也能祛除多余角质。根，为产妇用药。
+        </rawdata>
+
+        <segment>
+            果实  ，  酸苦  ，  治  伤风  咳嗽  。  表面  粘状  物质  ，  主要  成分  是  果胶  ，  具有  天然  保湿  效果  。  种子  ，  含  类  黄酮  、  儿茶素  等  抗氧化物  质能  预防  皮肤  表面  形成  黑斑  ，  所含  的  柠檬酸  、  果酸  也  能  祛除  多余  角质  。  根  ，  为  产妇  用药  。
+        </segment>
+
+        <pos>
+            果实#NN  ，#PU  酸苦#VV  ，#PU  治#VV  伤风#NN  咳嗽#NN    。#PU  表面#NN  粘状#VV  物质#NN  ，#PU  主要#JJ  成分#NN  是#VC  果胶#NN  ，#PU  具有#VV  天然#JJ  保湿#NN  效果#NN    。#PU  种子#NN  ，#PU  含#VV  类#M  黄酮#NR  、#PU  儿茶素#NR  等#ETC  抗氧化物#JJ  质能#NN  预防#VV  皮肤#NN  表面#NN  形成#VV  黑斑#NN  ，#PU  所含#VV  的#DEC  柠檬酸#NR  、#PU  果酸#NR  也#AD  能#VV  祛除#VV  多余#NN  角质#NN    。#PU  根#M  ，#PU  为#VC  产妇#NN  用药#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 酸苦#VV, 果实#NN)  (root, ROOT#null, 酸苦#VV)  (ccomp, 酸苦#VV, 治#VV)  (nn, 咳嗽#NN, 伤风#NN)  (dobj, 治#VV, 咳嗽#NN)   (nsubj, 粘状#VV, 表面#NN)  (root, ROOT#null, 粘状#VV)  (dobj, 粘状#VV, 物质#NN)  (amod, 成分#NN, 主要#JJ)  (nsubj, 果胶#NN, 成分#NN)  (cop, 果胶#NN, 是#VC)  (dep, 粘状#VV, 果胶#NN)  (conj, 果胶#NN, 具有#VV)  (amod, 效果#NN, 天然#JJ)  (nn, 效果#NN, 保湿#NN)  (dobj, 具有#VV, 效果#NN)   (dep, 果酸#NR, 种子#NN)  (relcl, 果酸#NR, 含#VV)  (dep, 质能#NN, 类#M)  (conj, 儿茶素#NR, 黄酮#NR)  (nn, 质能#NN, 儿茶素#NR)  (etc, 儿茶素#NR, 等#ETC)  (amod, 质能#NN, 抗氧化物#JJ)  (dobj, 含#VV, 质能#NN)  (conj, 含#VV, 预防#VV)  (nn, 表面#NN, 皮肤#NN)  (dobj, 预防#VV, 表面#NN)  (conj, 含#VV, 形成#VV)  (dobj, 形成#VV, 黑斑#NN)  (conj, 形成#VV, 所含#VV)  (mark, 含#VV, 的#DEC)  (conj, 果酸#NR, 柠檬酸#NR)  (nsubj, 祛除#VV, 果酸#NR)  (advmod, 祛除#VV, 也#AD)  (mmod, 祛除#VV, 能#VV)  (root, ROOT#null, 祛除#VV)  (nn, 角质#NN, 多余#NN)  (dobj, 祛除#VV, 角质#NN)   (root, ROOT#null, 根#M)  (cop, 用药#NN, 为#VC)  (nn, 用药#NN, 产妇#NN)  (conj, 根#M, 用药#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  辅助降血脂  通便  美容养颜  抗癌防癌  生津止渴  清热  利水  醒酒
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/84/41/82308_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\854 酸柑.jpg
+    </picturelocalurl>
+
+</content>

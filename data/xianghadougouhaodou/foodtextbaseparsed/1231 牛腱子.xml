@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1231
+    </id>
+
+    <foodname>
+        牛腱子
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛的四蹄上段的部位肉经精细分割后，一种为带骨牛腱子，其外观呈长圆锥形状，另一种为去骨牛腱子，其外观呈长圆锥形状。每块平均重量为2.5-3.5kg。肉质红色，肉中含筋，呈红白镶嵌
+        </rawdata>
+
+        <segment>
+            牛  的  四蹄  上段  的  部位  肉经  精细  分割  后  ，  一  种  为  带  骨  牛  腱子  ，  其  外观  呈长  圆锥  形状  ，  另  一  种  为  去骨  牛  腱子  ，  其  外观  呈长  圆锥  形状  。  每  块  平均  重量  为  5-3.5kg  。  肉质  红色  ，  肉  中  含筋  ，  呈  红白  镶嵌
+        </segment>
+
+        <pos>
+            牛#NN  的#DEG  四蹄#CD  上段#NN  的#DEG  部位#NN  肉经#VV  精细#JJ  分割#VV  后#LC  ，#PU  一#CD  种#M  为#VC  带#VV  骨#NN  牛#NN  腱子#NN  ，#PU  其#PN  外观#AD  呈长#VV  圆锥#NN  形状#NN  ，#PU  另#AD  一#CD  种#M  为#VC  去骨#NN  牛#NN  腱子#NN  ，#PU  其#PN  外观#AD  呈长#VV  圆锥#NN  形状#NN    。#PU  每#DT  块#M  平均#JJ  重量#NN  为#VC  5-3#CD  .5#CD  kg#NN    。#PU  肉质#VV  红色#JJ  ，#PU  肉#NN  中#LC  含筋#VV  ，#PU  呈#VV  红白#NN  镶嵌#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 上段#NN, 牛#NN)  (case, 牛#NN, 的#DEG)  (nummod, 上段#NN, 四蹄#CD)  (assmod, 部位#NN, 上段#NN)  (case, 上段#NN, 的#DEG)  (nsubj, 肉经#VV, 部位#NN)  (root, ROOT#null, 肉经#VV)  (amod, 腱子#NN, 精细#JJ)  (loc, 带#VV, 分割#VV)  (case, 分割#VV, 后#LC)  (nummod, 种#M, 一#CD)  (dep, 带#VV, 种#M)  (conj, 带#VV, 为#VC)  (cop, 带#VV, 为#VC)  (nfincl, 腱子#NN, 带#VV)  (dobj, 带#VV, 骨#NN)  (nn, 腱子#NN, 牛#NN)  (dobj, 肉经#VV, 腱子#NN)  (nsubj, 呈长#VV, 其#PN)  (advmod, 呈长#VV, 外观#AD)  (conj, 肉经#VV, 呈长#VV)  (nn, 形状#NN, 圆锥#NN)  (dobj, 呈长#VV, 形状#NN)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (dep, 腱子#NN, 种#M)  (cop, 腱子#NN, 为#VC)  (nn, 腱子#NN, 去骨#NN)  (nn, 腱子#NN, 牛#NN)  (conj, 肉经#VV, 腱子#NN)  (nsubj, 呈长#VV, 其#PN)  (advmod, 呈长#VV, 外观#AD)  (conj, 肉经#VV, 呈长#VV)  (nn, 形状#NN, 圆锥#NN)  (dobj, 呈长#VV, 形状#NN)   (det, 重量#NN, 每#DT)  (clf, 每#DT, 块#M)  (amod, 重量#NN, 平均#JJ)  (nsubj, kg#NN, 重量#NN)  (cop, kg#NN, 为#VC)  (nummod, kg#NN, 5-3#CD)  (nummod, kg#NN, .5#CD)  (root, ROOT#null, kg#NN)   (root, ROOT#null, 肉质#VV)  (nfincl, 镶嵌#NN, 红色#JJ)  (loc, 含筋#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (conj, 红色#JJ, 含筋#VV)  (conj, 红色#JJ, 呈#VV)  (dobj, 呈#VV, 红白#NN)  (dobj, 肉质#VV, 镶嵌#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            牛肉含有丰富的蛋白质，氨基酸组成比猪肉更接近人体需要，能提高机体抗病能力，对生长发育及手术后、病后调养的人在补充失血、修复组织等方面物别适宜。
+        </rawdata>
+
+        <segment>
+            牛肉  含有  丰富  的  蛋白质  ，  氨基酸  组成  比  猪肉  更  接近  人体  需要  ，  能  提高  机体  抗病  能力  ，  对  生长  发育  及  手术  后  、  病  后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  物  别  适宜  。
+        </segment>
+
+        <pos>
+            牛肉#NR  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  氨基酸#NN  组成#NN  比#P  猪肉#NR  更#AD  接近#VV  人体#NN  需要#NN  ，#PU  能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#NN  及#CC  手术#NN  后#LC  、#PU  病#NN  后#LC  调养#VV  的#DEC  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  物#NN  别#DT  适宜#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 牛肉#NR)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (nn, 组成#NN, 氨基酸#NN)  (nsubj, 接近#VV, 组成#NN)  (case, 猪肉#NR, 比#P)  (prep, 接近#VV, 猪肉#NR)  (advmod, 接近#VV, 更#AD)  (conj, 含有#VV, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (mmod, 提高#VV, 能#VV)  (relcl, 人#NN, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 手术#NN, 对#P)  (nn, 手术#NN, 生长#NN)  (conj, 手术#NN, 发育#NN)  (cc, 手术#NN, 及#CC)  (prep, 调养#VV, 手术#NN)  (case, 手术#NN, 后#LC)  (dep, 手术#NN, 病#NN)  (case, 病#NN, 后#LC)  (conj, 提高#VV, 调养#VV)  (mark, 提高#VV, 的#DEC)  (nsubj, 适宜#VA, 人#NN)  (case, 物#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 物#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (nn, 物#NN, 方面#NN)  (prep, 适宜#VA, 物#NN)  (dep, 适宜#VA, 别#DT)  (conj, 含有#VV, 适宜#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        散寒止痛  补肾阴  壮阳  改善血液循环  增强免疫力  抗炎  促进组织生长  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            将牛肉若干大块，用清水洗净，入清水锅煮至半熟，加用纱布裹包的大茴香、丁香、橘皮、姜片、砂仁、肉桂的香料包和酱油、白糖、盐适量，及煮肉老汤，烧沸后，转用小火焖4小时左右，至牛肉成熟、入味即成。
+        </rawdata>
+
+        <segment>
+            将  牛肉  若干  大块  ，  用  清水  洗净  ，  入  清水  锅  煮  至  半熟  ，  加用  纱布  裹包  的  大茴香  、  丁香  、  橘皮  、  姜片  、  砂仁  、  肉桂  的  香料  包  和  酱油  、  白糖  、  盐  适量  ，  及  煮肉  老汤  ，  烧沸  后  ，  转用  小火焖  4  小时  左右  ，  至  牛肉  成熟  、  入味  即  成  。
+        </segment>
+
+        <pos>
+            将#AD  牛肉#VV  若干#CD  大块#NN  ，#PU  用#VV  清水#NN  洗净#NN  ，#PU  入#VV  清水#NN  锅#NN  煮#VV  至#P  半熟#NR  ，#PU  加用#VV  纱布#NN  裹包#NN  的#DEG  大茴香#NR  、#PU  丁香#NR  、#PU  橘皮#NR  、#PU  姜片#NR  、#PU  砂仁#NR  、#PU  肉桂#NR  的#DEC  香料#NN  包#NN  和#CC  酱油#NN  、#PU  白糖#NN  、#PU  盐#NN  适量#NN  ，#PU  及#CC  煮肉#VV  老汤#NN  ，#PU  烧沸#NN  后#LC  ，#PU  转用#NN  小火焖#NN  4#CD  小时#NN  左右#LC  ，#PU  至#CC  牛肉#AD  成熟#VA  、#PU  入味#AD  即#AD  成#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 牛肉#VV, 将#AD)  (conj, 成熟#VA, 牛肉#VV)  (nummod, 大块#NN, 若干#CD)  (dobj, 牛肉#VV, 大块#NN)  (conj, 牛肉#VV, 用#VV)  (nn, 洗净#NN, 清水#NN)  (dobj, 用#VV, 洗净#NN)  (conj, 牛肉#VV, 入#VV)  (nn, 锅#NN, 清水#NN)  (nsubj, 加用#VV, 锅#NN)  (mmod, 加用#VV, 煮#VV)  (case, 半熟#NR, 至#P)  (prep, 加用#VV, 半熟#NR)  (relcl, 适量#NN, 加用#VV)  (nn, 裹包#NN, 纱布#NN)  (assmod, 肉桂#NR, 裹包#NN)  (case, 裹包#NN, 的#DEG)  (conj, 肉桂#NR, 大茴香#NR)  (conj, 肉桂#NR, 丁香#NR)  (conj, 肉桂#NR, 橘皮#NR)  (conj, 肉桂#NR, 姜片#NR)  (conj, 肉桂#NR, 砂仁#NR)  (dobj, 加用#VV, 肉桂#NR)  (mark, 加用#VV, 的#DEC)  (nn, 适量#NN, 香料#NN)  (conj, 适量#NN, 包#NN)  (cc, 适量#NN, 和#CC)  (conj, 适量#NN, 酱油#NN)  (conj, 适量#NN, 白糖#NN)  (nn, 适量#NN, 盐#NN)  (dobj, 入#VV, 适量#NN)  (cc, 牛肉#VV, 及#CC)  (conj, 牛肉#VV, 煮肉#VV)  (dobj, 煮肉#VV, 老汤#NN)  (loc, 成熟#VA, 烧沸#NN)  (case, 烧沸#NN, 后#LC)  (nn, 小火焖#NN, 转用#NN)  (nsubj, 成熟#VA, 小火焖#NN)  (nummod, 小时#NN, 4#CD)  (loc, 成熟#VA, 小时#NN)  (case, 小时#NN, 左右#LC)  (cc, 成熟#VA, 至#CC)  (advmod, 成熟#VA, 牛肉#AD)  (root, ROOT#null, 成熟#VA)  (advmod, 成#VV, 入味#AD)  (advmod, 成#VV, 即#AD)  (dep, 成熟#VA, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/b9/57/22457_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1231 牛腱子.jpg
+    </picturelocalurl>
+
+</content>

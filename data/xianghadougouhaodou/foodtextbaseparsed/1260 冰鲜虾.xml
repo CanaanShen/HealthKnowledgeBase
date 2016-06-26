@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        1260
+    </id>
+
+    <foodname>
+        冰鲜虾
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            冰鲜冷藏的虾
+        </rawdata>
+
+        <segment>
+            冰鲜  冷藏  的  虾
+        </segment>
+
+        <pos>
+            冰鲜#VV  冷藏#NN  的#DEG  虾#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 冰鲜#VV)  (assmod, 虾#NN, 冷藏#NN)  (case, 冷藏#NN, 的#DEG)  (dobj, 冰鲜#VV, 虾#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  抗氧化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            冰鲜虾营养极为丰富，富含蛋白质、钾、碘、镁、磷等矿物质及维生素A、氨茶碱、虾青素等成分，对身体虚弱以及病后需要调养的人是极好的食物，还可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗死。但口感不及鲜虾。
+        </rawdata>
+
+        <segment>
+            冰鲜虾  营养  极为  丰富  ，  富含  蛋白质  、  钾  、  碘  、  镁  、  磷  等  矿物质  及  维生素A  、  氨茶碱  、  虾青素  等  成分  ，  对  身体  虚弱  以及  病  后  需要  调养  的  人  是  极  好  的  食物  ，  还  可  减少  血液  中  胆固醇  含量  ，  防止  动脉  硬化  ，  同时  还  能  扩张  冠状  动脉  ，  有利于  预防  高血压  及  心肌梗死  。  但  口感  不及  鲜虾  。
+        </segment>
+
+        <pos>
+            冰鲜虾#NR  营养#VA  极为#AD  丰富#VA  ，#PU  富含#VV  蛋白质#NN  、#PU  钾#NN  、#PU  碘#NN  、#PU  镁#NN  、#PU  磷#NN  等#ETC  矿物质#NN  及#CC  维生素A#NR  、#PU  氨茶碱#NR  、#PU  虾青素#NR  等#ETC  成分#NN  ，#PU  对#P  身体#NN  虚弱#NN  以及#CC  病#NN  后#LC  需要#VV  调养#NR  的#DEG  人#NN  是#VC  极#AD  好#VA  的#DEC  食物#NN  ，#PU  还#AD  可#VV  减少#VV  血液#NN  中#LC  胆固醇#NN  含量#NN  ，#PU  防止#VV  动脉#NN  硬化#NN  ，#PU  同时#AD  还#AD  能#VV  扩张#NN  冠状#NN  动脉#NN  ，#PU  有利于#VV  预防#VV  高血压#CD  及#CC  心肌梗死#CD    。#PU  但#AD  口感#AD  不及#VV  鲜虾#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 冰鲜虾#NR)  (xsubj, 丰富#VA, 冰鲜虾#NR)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 极为#AD)  (dep, 营养#VA, 丰富#VA)  (conj, 丰富#VA, 富含#VV)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 碘#NN)  (conj, 磷#NN, 镁#NN)  (nn, 矿物质#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (conj, 成分#NN, 矿物质#NN)  (cc, 成分#NN, 及#CC)  (conj, 虾青素#NR, 维生素A#NR)  (conj, 虾青素#NR, 氨茶碱#NR)  (nn, 成分#NN, 虾青素#NR)  (etc, 虾青素#NR, 等#ETC)  (dobj, 富含#VV, 成分#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (cc, 病#NN, 以及#CC)  (prep, 需要#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 丰富#VA, 需要#VV)  (assmod, 人#NN, 调养#NR)  (case, 调养#NR, 的#DEG)  (nsubj, 好#VA, 人#NN)  (cop, 好#VA, 是#VC)  (advmod, 好#VA, 极#AD)  (relcl, 食物#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 需要#VV, 食物#NN)  (advmod, 减少#VV, 还#AD)  (mmod, 减少#VV, 可#VV)  (conj, 丰富#VA, 减少#VV)  (dep, 含量#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 减少#VV, 含量#NN)  (conj, 丰富#VA, 防止#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 防止#VV, 硬化#NN)  (advmod, 能#VV, 同时#AD)  (advmod, 能#VV, 还#AD)  (conj, 丰富#VA, 能#VV)  (nn, 动脉#NN, 扩张#NN)  (nn, 动脉#NN, 冠状#NN)  (dobj, 能#VV, 动脉#NN)  (conj, 丰富#VA, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (nummod, 心肌梗死#CD, 高血压#CD)  (cc, 心肌梗死#CD, 及#CC)  (range, 预防#VV, 心肌梗死#CD)   (advmod, 不及#VV, 但#AD)  (advmod, 不及#VV, 口感#AD)  (root, ROOT#null, 不及#VV)  (dobj, 不及#VV, 鲜虾#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/95/63/25493_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1260 冰鲜虾.jpg
+    </picturelocalurl>
+
+</content>

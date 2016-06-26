@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        157
+    </id>
+
+    <foodname>
+        韭菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        扁菜、韭、丰本、草钟乳、起阳草、懒人菜、长生韭、壮阳草
+    </alias>
+
+    <season>
+        春、夏、秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有眼疾者慎食；有阳亢及热性病症的人忌食。
+        </rawdata>
+
+        <segment>
+            患有  眼疾者  慎食  ；  有阳亢  及  热性  病症  的  人  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  眼疾者#NN  慎食#VV  ；#PU  有阳亢#NN  及#CC  热性#NN  病症#NN  的#DEG  人#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 眼疾者#NN, 患有#NN)  (nsubj, 慎食#VV, 眼疾者#NN)  (root, ROOT#null, 慎食#VV)  (conj, 热性#NN, 有阳亢#NN)  (cc, 热性#NN, 及#CC)  (nn, 病症#NN, 热性#NN)  (assmod, 人#NN, 病症#NN)  (case, 病症#NN, 的#DEG)  (nsubj, 忌食#VV, 人#NN)  (ccomp, 慎食#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均能食用。尤适宜便秘、产后乳汁不足女性、寒性体质等人群。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  能  食用  。  尤  适宜  便秘  、  产后  乳汁  不足  女性  、  寒性  体质  等  人群  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  能#VV  食用#VV    。#PU  尤#NN  适宜#VV  便秘#NN  、#PU  产后#NN  乳汁#NN  不足#NN  女性#NN  、#PU  寒性#NN  体质#NN  等#ETC  人群#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 体质#NN, 便秘#NN)  (nn, 体质#NN, 产后#NN)  (nn, 体质#NN, 乳汁#NN)  (nn, 体质#NN, 不足#NN)  (conj, 体质#NN, 女性#NN)  (nn, 体质#NN, 寒性#NN)  (nn, 人群#NN, 体质#NN)  (etc, 体质#NN, 等#ETC)  (dobj, 适宜#VV, 人群#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                235
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                1410
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                61.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                247
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                8.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                92
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            韭菜，属百合科多年生草本植物，以种子和叶等入药。具健胃、提神、止汗固涩、补肾助阳、固精等功效。在中医里，韭菜有一个很响亮的名字叫“壮阳草”，还有人把韭菜称为“洗肠草”。韭菜原产于我国，入药的历史可以追溯到春秋战国时期。韭菜在我国的栽培区域极广，东至沿海，西至西北高原，东南至台湾，北至黑龙江，几乎所有的省份都有栽培.所以韭菜是中国栽培地域最广的蔬菜之一。
+        </rawdata>
+
+        <segment>
+            韭菜  ，  属  百合科  多年生  草本  植物  ，  以  种子  和  叶  等  入药  。  具  健胃  、  提神  、  止汗  固涩  、  补  肾  助阳  、  固精  等  功效  。  在  中医  里  ，  韭菜  有  一  个  很  响亮  的  名字  叫  “  壮阳草  ”  ，  还有  人  把  韭菜  称为  “  洗肠  草  ”  。  韭菜  原  产于  我国  ，  入药  的  历史  可以  追溯  到  春秋  战国  时期  。  韭菜  在  我国  的  栽培  区域  极广  ，  东至  沿海  ，  西  至  西北  高原  ，  东南  至  台湾  ，  北  至  黑龙江  ，  几乎  所有  的  省份  都  有  栽培  .  所以  韭菜  是  中国  栽培  地域  最  广  的  蔬菜  之一  。
+        </segment>
+
+        <pos>
+            韭菜#VV  ，#PU  属#VV  百合科#CD  多年生#NN  草本#JJ  植物#NN  ，#PU  以#P  种子#NN  和#CC  叶#NR  等#ETC  入药#VV    。#PU  具#VV  健胃#NR  、#PU  提神#NR  、#PU  止汗#NR  固涩#NN  、#PU  补#VV  肾#NR  助阳#NR  、#PU  固精#NR  等#ETC  功效#NN    。#PU  在#P  中医#NN  里#LC  ，#PU  韭菜#AD  有#VE  一#CD  个#M  很#AD  响亮#VA  的#DEC  名字#NN  叫#VV  ``#NN  壮阳草#NN  ''#NN  ，#PU  还有#AD  人#NN  把#BA  韭菜#NN  称为#VV  ``#NN  洗肠#NN  草#NN  ''#NN    。#PU  韭菜#NR  原#JJ  产于#NN  我国#VV  ，#PU  入药#NN  的#DEG  历史#NN  可以#VV  追溯#VV  到#VV  春秋#NN  战国#NR  时期#NN    。#PU  韭菜#VV  在#P  我国#NR  的#DEG  栽培#VV  区域#NN  极广#NN  ，#PU  东至#VV  沿海#NN  ，#PU  西#NN  至#CC  西北#NN  高原#NN  ，#PU  东南#NR  至#CC  台湾#NR  ，#PU  北#NR  至#CC  黑龙江#NR  ，#PU  几乎#AD  所有#DT  的#DEG  省份#NN  都#AD  有#VE  栽培#VV  .#NN  所以#AD  韭菜#AD  是#VC  中国#NR  栽培#VV  地域#NN  最#AD  广#VA  的#DEC  蔬菜#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 韭菜#VV)  (ccomp, 韭菜#VV, 属#VV)  (nummod, 多年生#NN, 百合科#CD)  (nn, 植物#NN, 多年生#NN)  (amod, 植物#NN, 草本#JJ)  (dobj, 属#VV, 植物#NN)  (case, 叶#NR, 以#P)  (conj, 叶#NR, 种子#NN)  (cc, 叶#NR, 和#CC)  (prep, 入药#VV, 叶#NR)  (etc, 叶#NR, 等#ETC)  (conj, 属#VV, 入药#VV)   (root, ROOT#null, 具#VV)  (conj, 止汗#NR, 健胃#NR)  (conj, 止汗#NR, 提神#NR)  (nn, 固涩#NN, 止汗#NR)  (dobj, 具#VV, 固涩#NN)  (conj, 具#VV, 补#VV)  (nn, 固精#NR, 肾#NR)  (conj, 固精#NR, 助阳#NR)  (nn, 功效#NN, 固精#NR)  (etc, 固精#NR, 等#ETC)  (dobj, 补#VV, 功效#NN)   (case, 中医#NN, 在#P)  (prep, 有#VE, 中医#NN)  (case, 中医#NN, 里#LC)  (advmod, 有#VE, 韭菜#AD)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 一#CD)  (clf, 名字#NN, 个#M)  (advmod, 响亮#VA, 很#AD)  (relcl, 名字#NN, 响亮#VA)  (mark, 响亮#VA, 的#DEC)  (nsubj, 叫#VV, 名字#NN)  (dep, 有#VE, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 壮阳草#NN)  (dobj, 叫#VV, ''#NN)  (advmod, 称为#VV, 还有#AD)  (nsubj, 称为#VV, 人#NN)  (ba, 称为#VV, 把#BA)  (nsubj, 称为#VV, 韭菜#NN)  (dep, 有#VE, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 洗肠#NN)  (nn, ''#NN, 草#NN)  (dobj, 称为#VV, ''#NN)   (nn, 产于#NN, 韭菜#NR)  (amod, 产于#NN, 原#JJ)  (nsubj, 我国#VV, 产于#NN)  (root, ROOT#null, 我国#VV)  (assmod, 历史#NN, 入药#NN)  (case, 入药#NN, 的#DEG)  (nsubj, 追溯#VV, 历史#NN)  (mmod, 追溯#VV, 可以#VV)  (ccomp, 我国#VV, 追溯#VV)  (rcomp, 追溯#VV, 到#VV)  (nn, 时期#NN, 春秋#NN)  (nn, 时期#NN, 战国#NR)  (dobj, 追溯#VV, 时期#NN)   (dep, 有#VE, 韭菜#VV)  (case, 我国#NR, 在#P)  (assmod, 极广#NN, 我国#NR)  (case, 我国#NR, 的#DEG)  (nfincl, 极广#NN, 栽培#VV)  (dobj, 栽培#VV, 区域#NN)  (dobj, 韭菜#VV, 极广#NN)  (conj, 韭菜#VV, 东至#VV)  (dobj, 东至#VV, 沿海#NN)  (conj, 西北#NN, 西#NN)  (cc, 西北#NN, 至#CC)  (nn, 高原#NN, 西北#NN)  (nsubj, 有#VE, 高原#NN)  (conj, 台湾#NR, 东南#NR)  (cc, 台湾#NR, 至#CC)  (nsubj, 有#VE, 台湾#NR)  (conj, 黑龙江#NR, 北#NR)  (cc, 黑龙江#NR, 至#CC)  (nsubj, 有#VE, 黑龙江#NR)  (dep, 所有#DT, 几乎#AD)  (assmod, 省份#NN, 所有#DT)  (case, 所有#DT, 的#DEG)  (nsubj, 有#VE, 省份#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)  (advmod, 之一#NN, 所以#AD)  (advmod, 之一#NN, 韭菜#AD)  (cop, 之一#NN, 是#VC)  (nsubj, 栽培#VV, 中国#NR)  (relcl, 之一#NN, 栽培#VV)  (dobj, 栽培#VV, 地域#NN)  (advmod, 广#VA, 最#AD)  (conj, 栽培#VV, 广#VA)  (mark, 栽培#VV, 的#DEC)  (nn, 之一#NN, 蔬菜#NN)  (dep, 有#VE, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘、辛，性温，无毒。为振奋性强壮药，有健胃、提神、温暖作用。根、叶捣汁有消炎止血、止痛之功。适用于肝肾阴虚盗汗、遗尿、尿频、阳痿、阳强、遗精，梦遗、噎隔、反胃，下痢、腹痛，妇女月经病、痛经、经漏、带下以及跌打损伤、吐血、鼻衄等症，医药常常用于补肾阳虚，精关不固等，是男子女子房事后常见病的最常用的食疗菜。
+            1.补肾壮阳：韭菜性温，味辛，但无壮阳成份。
+            2.益肝健胃：韭菜含有挥发性精油及硫化物等特殊成分，散发出一种独特的辛香气味，有助于疏调肝气，增进食欲，增强消化功能。
+            3.行气理血：韭菜的辛辣气味有散瘀活血，行气导滞作用，适用于跌打损伤、反胃、肠炎、吐血、胸痛等症。
+            4.润肠通便：韭菜含有大量维生素和粗纤维，能增进胃肠蠕动，治疗便秘，预防肠癌，故韭菜叶被称为“洗肠草”。
+            韭菜虽然对人体有很多好处，但也不是多多益善。《本草纲目》就曾记载：“韭菜多食则神昏目暗，酒后尤忌”。
+        </rawdata>
+
+        <segment>
+            味甘  、  辛  ，  性温  ，  无毒  。  为  振奋  性  强壮  药  ，  有  健胃  、  提神  、  温暖  作用  。  根  、  叶捣汁  有  消炎  止血  、  止痛  之  功  。  适用  于  肝肾  阴虚  盗汗  、  遗尿  、  尿频  、  阳痿  、  阳强  、  遗精  ，  梦遗  、  噎隔  、  反胃  ，  下痢  、  腹痛  ，  妇女  月经病  、  痛经  、  经漏  、  带下  以及  跌打  损伤  、  吐血  、  鼻衄等症  ，  医药  常常  用于  补  肾  阳虚  ，  精关  不  固  等  ，  是  男子  女子  房事  后  常见病  的  最  常用  的  食疗  菜  。
+            补  肾  壮阳  ：  韭菜  性温  ，  味辛  ，  但  无  壮阳  成份  。
+            益肝  健胃  ：  韭菜  含有  挥发性  精油  及  硫化物  等  特殊  成分  ，  散发  出  一  种  独特  的  辛香  气味  ，  有助于  疏调  肝气  ，  增进  食欲  ，  增强  消化  功能  。
+            行  气理血  ：  韭菜  的  辛辣  气味  有  散瘀  活血  ，  行气  导滞  作用  ，  适用于  跌打  损伤  、  反胃  、  肠炎  、  吐血  、  胸痛  等症  。
+            润肠  通便  ：  韭菜  含有  大量  维生素  和  粗  纤维  ，  能  增进  胃肠  蠕动  ，  治疗  便秘  ，  预防  肠癌  ，  故韭  菜叶  被  称为  “  洗肠  草  ”  。
+            韭菜  虽然  对  人体  有  很多  好处  ，  但  也  不  是  多多益善  。  《  本草  纲目  》  就  曾  记载  ：  “  韭菜  多  食  则  神昏目暗  ，  酒后  尤忌  ”  。
+        </segment>
+
+        <pos>
+            味甘#VV  、#PU  辛#VV  ，#PU  性温#VV  ，#PU  无毒#JJ    。#PU  为#P  振奋#NN  性#NN  强壮#NN  药#NN  ，#PU  有#VE  健胃#NN  、#PU  提神#NN  、#PU  温暖#NN  作用#NN    。#PU  根#M  、#PU  叶捣汁#NN  有#VE  消炎#NN  止血#NN  、#PU  止痛#NN  之#DEG  功#NN    。#PU  适用#NN  于#P  肝肾#NR  阴虚#VV  盗汗#NR  、#PU  遗尿#NR  、#PU  尿频#NR  、#PU  阳痿#NR  、#PU  阳强#NR  、#PU  遗精#NR  ，#PU  梦遗#NN  、#PU  噎隔#NN  、#PU  反胃#VV  ，#PU  下痢#NR  、#PU  腹痛#NR  ，#PU  妇女#NN  月经病#NN  、#PU  痛经#NN  、#PU  经漏#NN  、#PU  带下#NN  以及#CC  跌打#NN  损伤#NN  、#PU  吐血#NN  、#PU  鼻衄等症#VV  ，#PU  医药#NN  常常#AD  用于#VV  补#NN  肾#NN  阳虚#NN  ，#PU  精关#NR  不#AD  固#VV  等#ETC  ，#PU  是#VC  男子#NN  女子#NN  房事#NN  后#LC  常见病#VV  的#DEC  最#AD  常用#JJ  的#DEG  食疗#NN  菜#NN    。#PU    。#PU
+            补#NN  肾#NN  壮阳#VV  ：#PU  韭菜#NN  性温#NN  ，#PU  味辛#NN  ，#PU  但#AD  无#VE  壮阳#NN  成份#NN  。#PU
+            益肝#NR  健胃#VV  ：#PU  韭菜#NN  含有#VV  挥发性#NR  精油#NR  及#CC  硫化物#NR  等#ETC  特殊#JJ  成分#NN  ，#PU  散发#VV  出#VV  一#CD  种#M  独特#VA  的#DEC  辛香#NN  气味#NN  ，#PU  有助于#VV  疏调#NN  肝气#NN  ，#PU  增进#VV  食欲#NN  ，#PU  增强#VV  消化#NN  功能#NN  。#PU
+            行#NN  气理血#VV  ：#PU  韭菜#NN  的#DEG  辛辣#NN  气味#AD  有#VE  散瘀#NN  活血#NN  ，#PU  行气#VV  导滞#NN  作用#NN  ，#PU  适用于#VV  跌打#NR  损伤#NR  、#PU  反胃#NR  、#PU  肠炎#NR  、#PU  吐血#NR  、#PU  胸痛#NR  等症#NN  。#PU
+            润肠#NR  通便#VV  ：#PU  韭菜#NN  含有#VV  大量#CD  维生素#NN  和#CC  粗#NN  纤维#NN  ，#PU  能#VV  增进#VV  胃肠#NN  蠕动#NN  ，#PU  治疗#VV  便秘#NN  ，#PU  预防#VV  肠癌#NN  ，#PU  故韭#NN  菜叶#NN  被#SB  称为#VV  ``#NN  洗肠#NN  草#NN  ''#NN  。#PU
+            韭菜#NN  虽然#CS  对#P  人体#NN  有#VE  很多#CD  好处#NN  ，#PU  但#AD  也#AD  不#AD  是#VC  多多益善#NN    。#PU  本草#NN  纲目#NN  就#AD  曾#AD  记载#VV  ：#PU  ``#NN  韭菜#NN  多#CD  食#NN  则#AD  神昏目暗#VV  ，#PU  酒后#VV  尤忌#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (dep, 味甘#VV, 辛#VV)  (dep, 味甘#VV, 性温#VV)  (dep, 味甘#VV, 无毒#JJ)   (case, 药#NN, 为#P)  (nn, 强壮#NN, 振奋#NN)  (nn, 强壮#NN, 性#NN)  (nn, 药#NN, 强壮#NN)  (prep, 有#VE, 药#NN)  (root, ROOT#null, 有#VE)  (conj, 温暖#NN, 健胃#NN)  (conj, 温暖#NN, 提神#NN)  (nn, 作用#NN, 温暖#NN)  (dobj, 有#VE, 作用#NN)   (clf, 叶捣汁#NN, 根#M)  (loc, 有#VE, 叶捣汁#NN)  (root, ROOT#null, 有#VE)  (nn, 止痛#NN, 消炎#NN)  (conj, 止痛#NN, 止血#NN)  (assmod, 功#NN, 止痛#NN)  (case, 止痛#NN, 之#DEG)  (dobj, 有#VE, 功#NN)   (nsubj, 阴虚#VV, 适用#NN)  (case, 肝肾#NR, 于#P)  (prep, 阴虚#VV, 肝肾#NR)  (root, ROOT#null, 阴虚#VV)  (conj, 遗精#NR, 盗汗#NR)  (conj, 遗精#NR, 遗尿#NR)  (conj, 遗精#NR, 尿频#NR)  (conj, 遗精#NR, 阳痿#NR)  (conj, 遗精#NR, 阳强#NR)  (dep, 菜#NN, 遗精#NR)  (conj, 菜#NN, 梦遗#NN)  (dep, 菜#NN, 噎隔#NN)  (relcl, 遗精#NR, 反胃#VV)  (relcl, 梦遗#NN, 反胃#VV)  (relcl, 噎隔#NN, 反胃#VV)  (relcl, 菜#NN, 反胃#VV)  (conj, 腹痛#NR, 下痢#NR)  (nsubj, 常见病#VV, 腹痛#NR)  (nn, 损伤#NN, 妇女#NN)  (conj, 损伤#NN, 月经病#NN)  (conj, 损伤#NN, 痛经#NN)  (conj, 损伤#NN, 经漏#NN)  (conj, 损伤#NN, 带下#NN)  (cc, 损伤#NN, 以及#CC)  (nn, 损伤#NN, 跌打#NN)  (dep, 常见病#VV, 损伤#NN)  (conj, 损伤#NN, 吐血#NN)  (dep, 损伤#NN, 鼻衄等症#VV)  (nsubj, 用于#VV, 医药#NN)  (advmod, 用于#VV, 常常#AD)  (ccomp, 鼻衄等症#VV, 用于#VV)  (nn, 阳虚#NN, 补#NN)  (nn, 阳虚#NN, 肾#NN)  (dobj, 用于#VV, 阳虚#NN)  (nsubj, 固#VV, 精关#NR)  (neg, 固#VV, 不#AD)  (conj, 用于#VV, 固#VV)  (dep, 损伤#NN, 等#ETC)  (cop, 房事#NN, 是#VC)  (nn, 房事#NN, 男子#NN)  (nn, 房事#NN, 女子#NN)  (loc, 常见病#VV, 房事#NN)  (case, 房事#NN, 后#LC)  (ccomp, 反胃#VV, 常见病#VV)  (mark, 反胃#VV, 的#DEC)  (advmod, 常用#JJ, 最#AD)  (assmod, 菜#NN, 常用#JJ)  (case, 常用#JJ, 的#DEG)  (nn, 菜#NN, 食疗#NN)  (dobj, 阴虚#VV, 菜#NN)   (root, ROOT#null, null#null)
+            (nn, 肾#NN, 补#NN)  (nsubj, 壮阳#VV, 肾#NN)  (root, ROOT#null, 壮阳#VV)  (nn, 性温#NN, 韭菜#NN)  (nsubj, 无#VE, 性温#NN)  (nsubj, 无#VE, 味辛#NN)  (advmod, 无#VE, 但#AD)  (ccomp, 壮阳#VV, 无#VE)  (nn, 成份#NN, 壮阳#NN)  (dobj, 无#VE, 成份#NN)
+            (nsubj, 健胃#VV, 益肝#NR)  (root, ROOT#null, 健胃#VV)  (nsubj, 含有#VV, 韭菜#NN)  (ccomp, 健胃#VV, 含有#VV)  (nn, 硫化物#NR, 挥发性#NR)  (conj, 硫化物#NR, 精油#NR)  (cc, 硫化物#NR, 及#CC)  (nn, 成分#NN, 硫化物#NR)  (etc, 硫化物#NR, 等#ETC)  (amod, 成分#NN, 特殊#JJ)  (dobj, 含有#VV, 成分#NN)  (conj, 含有#VV, 散发#VV)  (rcomp, 散发#VV, 出#VV)  (nummod, 种#M, 一#CD)  (clf, 气味#NN, 种#M)  (relcl, 气味#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 气味#NN, 辛香#NN)  (dobj, 散发#VV, 气味#NN)  (conj, 含有#VV, 有助于#VV)  (nn, 肝气#NN, 疏调#NN)  (dobj, 有助于#VV, 肝气#NN)  (conj, 含有#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 含有#VV, 增强#VV)  (nn, 功能#NN, 消化#NN)  (dobj, 增强#VV, 功能#NN)
+            (nsubj, 气理血#VV, 行#NN)  (root, ROOT#null, 气理血#VV)  (assmod, 辛辣#NN, 韭菜#NN)  (case, 韭菜#NN, 的#DEG)  (nsubj, 有#VE, 辛辣#NN)  (advmod, 有#VE, 气味#AD)  (ccomp, 气理血#VV, 有#VE)  (nn, 活血#NN, 散瘀#NN)  (dobj, 有#VE, 活血#NN)  (conj, 有#VE, 行气#VV)  (nn, 作用#NN, 导滞#NN)  (dobj, 行气#VV, 作用#NN)  (conj, 有#VE, 适用于#VV)  (nn, 胸痛#NR, 跌打#NR)  (conj, 胸痛#NR, 损伤#NR)  (conj, 胸痛#NR, 反胃#NR)  (conj, 胸痛#NR, 肠炎#NR)  (conj, 胸痛#NR, 吐血#NR)  (nn, 等症#NN, 胸痛#NR)  (dobj, 适用于#VV, 等症#NN)
+            (nsubj, 通便#VV, 润肠#NR)  (root, ROOT#null, 通便#VV)  (nsubj, 含有#VV, 韭菜#NN)  (ccomp, 通便#VV, 含有#VV)  (nummod, 纤维#NN, 大量#CD)  (conj, 纤维#NN, 维生素#NN)  (cc, 纤维#NN, 和#CC)  (nn, 纤维#NN, 粗#NN)  (dobj, 含有#VV, 纤维#NN)  (mmod, 增进#VV, 能#VV)  (conj, 含有#VV, 增进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 增进#VV, 蠕动#NN)  (conj, 增进#VV, 治疗#VV)  (dobj, 治疗#VV, 便秘#NN)  (conj, 增进#VV, 预防#VV)  (dobj, 预防#VV, 肠癌#NN)  (nn, 菜叶#NN, 故韭#NN)  (nsubjpass, 称为#VV, 菜叶#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 通便#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 洗肠#NN)  (nn, ''#NN, 草#NN)  (dobj, 称为#VV, ''#NN)
+            (nsubj, 有#VE, 韭菜#NN)  (advmod, 有#VE, 虽然#CS)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (root, ROOT#null, 有#VE)  (nummod, 好处#NN, 很多#CD)  (dobj, 有#VE, 好处#NN)  (advmod, 多多益善#NN, 但#AD)  (advmod, 多多益善#NN, 也#AD)  (neg, 多多益善#NN, 不#AD)  (cop, 多多益善#NN, 是#VC)  (conj, 有#VE, 多多益善#NN)   (nn, 纲目#NN, 本草#NN)  (nsubj, 记载#VV, 纲目#NN)  (advmod, 记载#VV, 就#AD)  (advmod, 记载#VV, 曾#AD)  (root, ROOT#null, 记载#VV)  (nn, 韭菜#NN, ``#NN)  (nn, 食#NN, 韭菜#NN)  (nummod, 食#NN, 多#CD)  (nsubj, 神昏目暗#VV, 食#NN)  (advmod, 神昏目暗#VV, 则#AD)  (ccomp, 记载#VV, 神昏目暗#VV)  (dep, 神昏目暗#VV, 酒后#VV)  (nn, ''#NN, 尤忌#NN)  (dobj, 酒后#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  通便  温中  解毒  补肾  行气  活血祛瘀
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.韭菜的含水量高达85%，热量较低，是铁、钾和维生素A的上等来源，也是维生素C的一般来源。一直有“菜中之荤”的美称。
+            2.韭菜很有丰富的维生素类。一束韭菜的β-胡萝卜素刚好是一天所需的能量，不过维生素C则为一天所需摄取量的三分之一，维生素E含量也是三分之一。
+            3.韭菜中含有较多的粗纤维。
+            4.韭菜的独特辛香味是其所含的硫化物形成的，这些硫化物有一定的杀菌消炎作用，有助于人体提高自身免疫力，还能帮助人体吸收维生素B1及维生素A。
+        </rawdata>
+
+        <segment>
+            韭菜  的  含水量  高  达  85%  ，  热量  较  低  ，  是  铁  、  钾  和  维生素A  的  上等  来源  ，  也是  维生素C  的  一  般  来源  。  一直  有  “  菜  中  之  荤  ”  的  美称  。
+            韭菜  很  有  丰富  的  维生素类  。  一  束  韭菜  的  β  -  胡萝卜素  刚好  是  一  天  所  需  的  能量  ，  不过  维生素C  则  为  一  天  所  需  摄取量  的  三分之一  ，  维生素E  含量  也  是  三分之一  。
+            韭菜  中  含有  较多  的  粗  纤维  。
+            韭菜  的  独特  辛  香味  是  其所  含  的  硫化物  形成  的  ，  这些  硫化物  有  一定  的  杀菌  消炎  作用  ，  有助于  人体  提高  自身  免疫力  ，  还  能  帮助  人体  吸收  维生素B1  及  维生素A  。
+        </segment>
+
+        <pos>
+            韭菜#NN  的#DEG  含水量#NN  高#AD  达#VV  85#CD  %#NN  ，#PU  热量#VV  较#AD  低#VA  ，#PU  是#VC  铁#NN  、#PU  钾#NN  和#CC  维生素A#NN  的#DEG  上等#JJ  来源#NN  ，#PU  也是#CC  维生素C#VA  的#DEC  一#CD  般#VA  来源#NN    。#PU  一直#AD  有#VE  ``#VV  菜#NN  中#LC  之#DEG  荤#NN  ''#NN  的#DEC  美称#NN    。#PU    。#PU
+            韭菜#NN  很#AD  有#VE  丰富#VA  的#DEC  维生素类#NN    。#PU  一#CD  束#NN  韭菜#NN  的#DEG  β#NN  -#VV  胡萝卜素#CD  刚好#AD  是#VC  一#CD  天#M  所#MSP  需#VV  的#DEC  能量#NN  ，#PU  不过#AD  维生素C#NN  则#AD  为#VC  一#CD  天#M  所#MSP  需#VV  摄取量#NN  的#DEG  三分之一#CD  ，#PU  维生素E#NN  含量#NN  也#AD  是#VC  三分之一#CD    。#PU    。#PU
+            韭菜#NN  中#LC  含有#VV  较多#NN  的#DEG  粗#NN  纤维#NN  。#PU
+            韭菜#NN  的#DEG  独特#JJ  辛#NN  香味#AD  是#VC  其所#AD  含#VV  的#DEC  硫化物#NN  形成#VV  的#DEC  ，#PU  这些#DT  硫化物#NN  有#VE  一定#JJ  的#DEG  杀菌#NN  消炎#NN  作用#NN  ，#PU  有助于#VV  人体#AD  提高#VV  自身#PN  免疫力#NN  ，#PU  还#AD  能#VV  帮助#VV  人体#NN  吸收#VV  维生素B1#CD  及#CC  维生素A#CD  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含水量#NN, 韭菜#NN)  (case, 韭菜#NN, 的#DEG)  (nsubj, 达#VV, 含水量#NN)  (advmod, 达#VV, 高#AD)  (root, ROOT#null, 达#VV)  (nummod, %#NN, 85#CD)  (dobj, 达#VV, %#NN)  (conj, 达#VV, 热量#VV)  (advmod, 低#VA, 较#AD)  (relcl, 来源#NN, 低#VA)  (cop, 来源#NN, 是#VC)  (conj, 维生素A#NN, 铁#NN)  (conj, 维生素A#NN, 钾#NN)  (cc, 维生素A#NN, 和#CC)  (assmod, 来源#NN, 维生素A#NN)  (case, 维生素A#NN, 的#DEG)  (amod, 来源#NN, 上等#JJ)  (dep, 低#VA, 来源#NN)  (cc, 低#VA, 也是#CC)  (conj, 低#VA, 维生素C#VA)  (mark, 低#VA, 的#DEC)  (nummod, 来源#NN, 一#CD)  (nfincl, 来源#NN, 般#VA)  (dobj, 热量#VV, 来源#NN)   (advmod, 有#VE, 一直#AD)  (root, ROOT#null, 有#VE)  (relcl, 美称#NN, ``#VV)  (assmod, ''#NN, 菜#NN)  (case, 菜#NN, 中#LC)  (case, 菜#NN, 之#DEG)  (nn, ''#NN, 荤#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 有#VE, 美称#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 韭菜#NN)  (advmod, 有#VE, 很#AD)  (root, ROOT#null, 有#VE)  (relcl, 维生素类#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 有#VE, 维生素类#NN)   (nummod, 束#NN, 一#CD)  (nn, 韭菜#NN, 束#NN)  (assmod, β#NN, 韭菜#NN)  (case, 韭菜#NN, 的#DEG)  (nsubj, -#VV, β#NN)  (range, -#VV, 胡萝卜素#CD)  (advmod, 胡萝卜素#CD, 刚好#AD)  (cop, 能量#NN, 是#VC)  (nummod, 天#M, 一#CD)  (clf, 能量#NN, 天#M)  (prtmod, 需#VV, 所#MSP)  (relcl, 能量#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (root, ROOT#null, 能量#NN)  (advmod, 为#VC, 不过#AD)  (nsubj, 为#VC, 维生素C#NN)  (advmod, 为#VC, 则#AD)  (conj, 能量#NN, 为#VC)  (nummod, 天#M, 一#CD)  (dep, 为#VC, 天#M)  (prtmod, 需#VV, 所#MSP)  (dep, 为#VC, 需#VV)  (assmod, 三分之一#CD, 摄取量#NN)  (case, 摄取量#NN, 的#DEG)  (range, 需#VV, 三分之一#CD)  (nn, 含量#NN, 维生素E#NN)  (nsubj, 是#VC, 含量#NN)  (advmod, 是#VC, 也#AD)  (conj, 能量#NN, 是#VC)  (dep, 是#VC, 三分之一#CD)   (root, ROOT#null, null#null)
+            (loc, 含有#VV, 韭菜#NN)  (case, 韭菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 纤维#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nn, 纤维#NN, 粗#NN)  (dobj, 含有#VV, 纤维#NN)
+            (assmod, 辛#NN, 韭菜#NN)  (case, 韭菜#NN, 的#DEG)  (amod, 辛#NN, 独特#JJ)  (nsubj, 形成#VV, 辛#NN)  (advmod, 形成#VV, 香味#AD)  (cop, 形成#VV, 是#VC)  (advmod, 含#VV, 其所#AD)  (relcl, 硫化物#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 形成#VV, 硫化物#NN)  (root, ROOT#null, 形成#VV)  (mark, 形成#VV, 的#DEC)  (det, 硫化物#NN, 这些#DT)  (dep, 有#VE, 硫化物#NN)  (conj, 形成#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 杀菌#NN)  (nn, 作用#NN, 消炎#NN)  (dobj, 有#VE, 作用#NN)  (conj, 形成#VV, 有助于#VV)  (advmod, 提高#VV, 人体#AD)  (ccomp, 有助于#VV, 提高#VV)  (nn, 免疫力#NN, 自身#PN)  (dobj, 提高#VV, 免疫力#NN)  (advmod, 帮助#VV, 还#AD)  (mmod, 帮助#VV, 能#VV)  (dep, 有助于#VV, 帮助#VV)  (dobj, 帮助#VV, 人体#NN)  (dep, 帮助#VV, 吸收#VV)  (nummod, 维生素A#CD, 维生素B1#CD)  (cc, 维生素A#CD, 及#CC)  (range, 吸收#VV, 维生素A#CD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.韭菜可以炒、拌，做配料、做馅等。
+            2.春节食用有益于肝。初春时节的韭菜品质最佳，晚秋的次之，夏季的最差，有“春食则香，夏食则臭”之说。
+            3.隔夜的熟韭菜不宜再吃。
+            4.韭菜若与维生素B1含量丰富的猪肉类食品互相搭配，是比较营养的吃法。不过，硫化物遇热易于挥发，因此，烹调前再切较好，烹调韭菜时需要急火快炒起锅，稍微加热过火，便会失去韭菜风味。
+        </rawdata>
+
+        <segment>
+            韭菜  可以  炒  、  拌  ，  做  配料  、  做馅  等  。
+            春节  食用  有益于  肝  。  初春  时节  的  韭菜  品质  最  佳  ，  晚秋  的  次之  ，  夏季  的  最差  ，  有  “  春  食  则  香  ，  夏  食  则  臭  ”  之  说  。
+            隔夜  的  熟  韭菜  不  宜  再  吃  。
+            韭菜  若  与  维生素B1  含  量  丰富  的  猪肉  类  食品  互相  搭配  ，  是  比较  营养  的  吃法  。  不过  ，  硫化物  遇热  易于  挥发  ，  因此  ，  烹调  前  再  切  较好  ，  烹调  韭菜  时  需要  急火  快  炒  起锅  ，  稍微  加热  过火  ，  便  会  失去  韭菜  风味  。
+        </segment>
+
+        <pos>
+            韭菜#NN  可以#VV  炒#VV  、#PU  拌#VV  ，#PU  做#VV  配料#NN  、#PU  做馅#NN  等#ETC  。#PU
+            春节#NN  食用#VV  有益于#VV  肝#NN    。#PU  初春#NN  时节#NN  的#DEG  韭菜#NN  品质#NN  最#AD  佳#VA  ，#PU  晚秋#NN  的#DEG  次之#NN  ，#PU  夏季#NT  的#DEG  最差#NN  ，#PU  有#VE  ``#NN  春#NN  食#NN  则#AD  香#VV  ，#PU  夏#NN  食#NN  则#AD  臭#VV  ''#NN  之#DEG  说#NN    。#PU    。#PU
+            隔夜#NN  的#DEG  熟#JJ  韭菜#NN  不#AD  宜#NR  再#AD  吃#VV  。#PU
+            韭菜#NR  若#CS  与#P  维生素B1#CD  含#VV  量#NN  丰富#VA  的#DEC  猪肉#CD  类#M  食品#NN  互相#AD  搭配#VV  ，#PU  是#VC  比较#AD  营养#VA  的#DEC  吃法#NN    。#PU  不过#AD  ，#PU  硫化物#NN  遇热#NN  易于#AD  挥发#VA  ，#PU  因此#AD  ，#PU  烹调#NN  前#LC  再#AD  切#VV  较好#AD  ，#PU  烹调#NN  韭菜#NN  时#LC  需要#NN  急火#AD  快#VA  炒#NN  起锅#NN  ，#PU  稍微#AD  加热#VV  过火#NN  ，#PU  便#AD  会#VV  失去#VV  韭菜#NN  风味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 炒#VV, 韭菜#NN)  (mmod, 炒#VV, 可以#VV)  (root, ROOT#null, 炒#VV)  (conj, 炒#VV, 拌#VV)  (dep, 炒#VV, 做#VV)  (conj, 做馅#NN, 配料#NN)  (dobj, 做#VV, 做馅#NN)  (etc, 做馅#NN, 等#ETC)
+            (nsubj, 有益于#VV, 春节#NN)  (mmod, 有益于#VV, 食用#VV)  (root, ROOT#null, 有益于#VV)  (dobj, 有益于#VV, 肝#NN)   (nn, 时节#NN, 初春#NN)  (assmod, 品质#NN, 时节#NN)  (case, 时节#NN, 的#DEG)  (nn, 品质#NN, 韭菜#NN)  (nsubj, 佳#VA, 品质#NN)  (advmod, 佳#VA, 最#AD)  (root, ROOT#null, 佳#VA)  (assmod, 次之#NN, 晚秋#NN)  (case, 晚秋#NN, 的#DEG)  (dep, 有#VE, 次之#NN)  (assmod, 最差#NN, 夏季#NT)  (case, 夏季#NT, 的#DEG)  (dep, 有#VE, 最差#NN)  (conj, 佳#VA, 有#VE)  (nn, 食#NN, ``#NN)  (nn, 食#NN, 春#NN)  (nsubj, 香#VV, 食#NN)  (advmod, 香#VV, 则#AD)  (dep, 有#VE, 香#VV)  (nn, 食#NN, 夏#NN)  (nsubj, 臭#VV, 食#NN)  (advmod, 臭#VV, 则#AD)  (conj, 佳#VA, 臭#VV)  (assmod, 说#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 臭#VV, 说#NN)   (root, ROOT#null, null#null)
+            (assmod, 韭菜#NN, 隔夜#NN)  (case, 隔夜#NN, 的#DEG)  (amod, 韭菜#NN, 熟#JJ)  (nsubj, 吃#VV, 韭菜#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 再#AD)  (root, ROOT#null, 吃#VV)
+            (nsubj, 搭配#VV, 韭菜#NR)  (advmod, 搭配#VV, 若#CS)  (case, 食品#NN, 与#P)  (nummod, 量#NN, 维生素B1#CD)  (relcl, 量#NN, 含#VV)  (nsubj, 丰富#VA, 量#NN)  (relcl, 食品#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nummod, 类#M, 猪肉#CD)  (clf, 食品#NN, 类#M)  (prep, 搭配#VV, 食品#NN)  (advmod, 搭配#VV, 互相#AD)  (root, ROOT#null, 搭配#VV)  (cop, 吃法#NN, 是#VC)  (advmod, 营养#VA, 比较#AD)  (relcl, 吃法#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (ccomp, 搭配#VV, 吃法#NN)   (advmod, 挥发#VA, 不过#AD)  (nn, 遇热#NN, 硫化物#NN)  (nsubj, 挥发#VA, 遇热#NN)  (advmod, 挥发#VA, 易于#AD)  (root, ROOT#null, 挥发#VA)  (advmod, 切#VV, 因此#AD)  (loc, 切#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (advmod, 切#VV, 再#AD)  (conj, 挥发#VA, 切#VV)  (advmod, 切#VV, 较好#AD)  (nn, 韭菜#NN, 烹调#NN)  (loc, 快#VA, 韭菜#NN)  (case, 韭菜#NN, 时#LC)  (nsubj, 快#VA, 需要#NN)  (advmod, 快#VA, 急火#AD)  (conj, 挥发#VA, 快#VA)  (nn, 起锅#NN, 炒#NN)  (nsubj, 加热#VV, 起锅#NN)  (advmod, 加热#VV, 稍微#AD)  (dep, 挥发#VA, 加热#VV)  (dobj, 加热#VV, 过火#NN)  (advmod, 失去#VV, 便#AD)  (mmod, 失去#VV, 会#VV)  (dep, 加热#VV, 失去#VV)  (nn, 风味#NN, 韭菜#NN)  (dobj, 失去#VV, 风味#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051953407211.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\157 韭菜.jpg
+    </picturelocalurl>
+
+</content>

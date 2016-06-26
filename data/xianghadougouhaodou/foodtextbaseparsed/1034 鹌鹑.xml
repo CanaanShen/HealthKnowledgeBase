@@ -1,0 +1,304 @@
+<content>
+
+    <id>
+        1034
+    </id>
+
+    <foodname>
+        鹌鹑
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        鹑鸟、鹑、鹩、罗鹑、赤喉鹑、红面鹌鹑
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                110cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                75.1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                20.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                3.1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                0.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                40mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.04mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.32mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.44mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                6.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                48.4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                48mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                2.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                157mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鹌鹑为雉科动物。鹌鹑肉、蛋，味道鲜美，营养丰富。鹌鹑又简称鹑，是一种头小、尾巴短、不善飞的赤褐色小鸟。
+        </rawdata>
+
+        <segment>
+            鹌鹑  为  雉科  动物  。  鹌鹑  肉  、  蛋  ，  味道  鲜美  ，  营养  丰富  。  鹌鹑  又  简称鹑  ，  是  一  种  头小  、  尾巴  短  、  不  善  飞  的  赤褐色  小鸟  。
+        </segment>
+
+        <pos>
+            鹌鹑#NN  为#VC  雉科#JJ  动物#NN    。#PU  鹌鹑#NN  肉#NN  、#PU  蛋#NN  ，#PU  味道#NN  鲜美#VA  ，#PU  营养#VA  丰富#VA    。#PU  鹌鹑#NR  又#AD  简称鹑#VV  ，#PU  是#VC  一#CD  种#M  头小#VA  、#PU  尾巴#NN  短#VA  、#PU  不#AD  善#VA  飞#VV  的#DEC  赤褐色#NN  小鸟#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 动物#NN, 鹌鹑#NN)  (cop, 动物#NN, 为#VC)  (amod, 动物#NN, 雉科#JJ)  (root, ROOT#null, 动物#NN)   (nsubj, 鲜美#VA, 鹌鹑#NN)  (conj, 蛋#NN, 肉#NN)  (nsubj, 鲜美#VA, 蛋#NN)  (nsubj, 鲜美#VA, 味道#NN)  (root, ROOT#null, 鲜美#VA)  (dep, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (nsubj, 简称鹑#VV, 鹌鹑#NR)  (advmod, 简称鹑#VV, 又#AD)  (root, ROOT#null, 简称鹑#VV)  (cop, 小鸟#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 小鸟#NN, 种#M)  (relcl, 小鸟#NN, 头小#VA)  (nsubj, 短#VA, 尾巴#NN)  (dep, 头小#VA, 短#VA)  (neg, 善#VA, 不#AD)  (conj, 头小#VA, 善#VA)  (dep, 善#VA, 飞#VV)  (mark, 头小#VA, 的#DEC)  (nn, 小鸟#NN, 赤褐色#NN)  (ccomp, 简称鹑#VV, 小鸟#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鹌鹑肉是典型的高蛋白、低脂肪、低胆固醇食物，特别适合中老年人以及高血压、肥胖症患者食用。
+        </rawdata>
+
+        <segment>
+            鹌鹑  肉  是  典型  的  高  蛋白  、  低  脂肪  、  低  胆固醇  食物  ，  特别  适合  中老年人  以及  高血压  、  肥胖症  患者  食用  。
+        </segment>
+
+        <pos>
+            鹌鹑#NN  肉#NN  是#VC  典型#VA  的#DEC  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  食物#NN  ，#PU  特别#AD  适合#VV  中老年人#NN  以及#CC  高血压#NN  、#PU  肥胖症#NN  患者#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肉#NN, 鹌鹑#NN)  (nsubj, 食物#NN, 肉#NN)  (cop, 食物#NN, 是#VC)  (relcl, 蛋白#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (amod, 蛋白#NN, 高#JJ)  (conj, 胆固醇#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 胆固醇#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (nn, 食物#NN, 胆固醇#NN)  (root, ROOT#null, 食物#NN)  (advmod, 适合#VV, 特别#AD)  (conj, 食物#NN, 适合#VV)  (conj, 肥胖症#NN, 中老年人#NN)  (cc, 肥胖症#NN, 以及#CC)  (conj, 肥胖症#NN, 高血压#NN)  (nn, 患者#NN, 肥胖症#NN)  (dobj, 适合#VV, 患者#NN)  (conj, 适合#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        止痢  补中益气  强筋骨
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鹌鹑为雉科动物。俗话说：“要吃飞禽，鸽子鹌鹑。”鹌鹑肉、蛋，味道鲜美，营养丰富。 鹌鹑又简称鹑，是一种头小、尾巴短、不善飞的赤褐色小鸟，鹌鹑肉是典型的高蛋白、低脂肪、低胆固醇食物，特别适合中老年人以及高血压、肥胖症患者食用。鹌鹑可与补药之王人参相媲美，誉为"动物人参"。
+            鹌鹑肉质鲜美，含脂肪少，食而不腻，素有“动物人参”之称。鹌鹑肉主要成分为蛋白质、脂肪、无机盐类；且具有多种氨基酸，胆固醇含量较低的特点。每百克鹌鹑肉中蛋白质含量高达24.3克，比猪、牛、羊、鸡、鸭肉的蛋白质含量都高（鸡肉蛋白质含量为19．7%）。而其脂肪、胆固醇含量又比猪、牛、羊、鸡、鸭肉等低。鹌鹑肉中多种维生素的含量比鸡肉高2-3倍。鹌鹑蛋的营养价值高，与鸡蛋相比蛋白质含量高30%，维生素B1高20%，维生素B2高 83%，铁高46.1%，卵磷脂高5.6倍，并含有维生素P等成分。
+            鹌鹑蛋含蛋白质、脂肪、碳水化合物、多种维生素和钙、磷、铁等矿物质，他的卵磷脂含量比鸡蛋高3~4倍。
+            鹌鹑蛋中所含的丰富的卵磷脂和脑磷脂，是高级神经活动不可缺少的营养物质，具有健脑的作用。
+            鹌鹑蛋中还含有能减低血压的维生素P等物质，是心血管疾病患者的滋补佳品。
+            鹌鹑蛋的营养粉子比较小，比鸡蛋更容易被人体消化吸收。
+        </rawdata>
+
+        <segment>
+            鹌鹑  为  雉科  动物  。  俗话  说  ：  “  要  吃  飞禽  ，  鸽子  鹌鹑  。  ”  鹌鹑  肉  、  蛋  ，  味道  鲜美  ，  营养  丰富  。    鹌鹑  又  简称鹑  ，  是  一  种  头小  、  尾巴  短  、  不  善  飞  的  赤褐色  小鸟  ，  鹌鹑  肉  是  典型  的  高  蛋白  、  低  脂肪  、  低  胆固醇  食物  ，  特别  适合  中老年人  以及  高血压  、  肥胖症  患者  食用  。  鹌鹑  可  与  补药  之  王  人参  相  媲美  ，  誉为  "  动物  人参  "  。
+            鹌鹑  肉质  鲜美  ，  含  脂肪  少  ，  食而不腻  ，  素  有  “  动物  人参  ”  之  称  。  鹌鹑  肉  主要  成分  为  蛋白质  、  脂肪  、  无机  盐类  ；  且  具有  多  种  氨基酸  ，  胆固醇  含量  较  低  的  特点  。  每  百  克  鹌鹑  肉  中  蛋白质  含量  高达  .3  克  ，  比猪  、  牛  、  羊  、  鸡  、  鸭肉  的  蛋白质  含量  都  高  （  鸡肉  蛋白质  含量  为  19．7%  ）  。  而  其  脂肪  、  胆固醇  含量  又  比  猪  、  牛  、  羊  、  鸡  、  鸭肉  等  低  。  鹌鹑  肉  中  多  种  维生素  的  含量  比  鸡肉  高  2-3  倍  。  鹌鹑  蛋  的  营养  价值  高  ，  与  鸡蛋  相比  蛋白质  含量  高  30%  ，  维生素B1  高  20%  ，  维生素B2  高  83%  ，  铁  高  46.1%  ，  卵  磷脂  高  5.6  倍  ，  并  含有  维生素  P等  成分  。
+            鹌鹑  蛋  含  蛋白质  、  脂肪  、  碳水化合物  、  多  种  维生素  和  钙  、  磷  、  铁  等  矿物质  ，  他  的  卵磷脂  含量  比  鸡蛋  高  3  ~  4  倍  。
+            鹌鹑  蛋  中  所  含  的  丰富  的  卵磷脂  和  脑磷脂  ，  是  高级  神经  活动  不  可  缺少  的  营养  物质  ，  具有  健脑  的  作用  。
+            鹌鹑  蛋  中  还  含有  能  减低  血压  的  维生素  P等  物质  ，  是  心血管  疾病  患者  的  滋补  佳品  。
+            鹌鹑  蛋  的  营养  粉子  比较  小  ，  比  鸡蛋  更  容易  被  人体  消化  吸收  。
+        </segment>
+
+        <pos>
+            鹌鹑#NN  为#VC  雉科#JJ  动物#NN    。#PU  俗话#NN  说#VV  ：#PU  ``#NN  要#VV  吃#VV  飞禽#NN  ，#PU  鸽子#VV  鹌鹑#NN    。#PU  ''#NR  鹌鹑#VV  肉#NN  、#PU  蛋#NN  ，#PU  味道#NN  鲜美#VA  ，#PU  营养#VA  丰富#VA    。#PU  鹌鹑#NN  又#AD  简称鹑#VA  ，#PU  是#VC  一#CD  种#M  头小#NN  、#PU  尾巴#NN  短#VA  、#PU  不#AD  善#VA  飞#VV  的#DEC  赤褐色#NN  小鸟#VV  ，#PU  鹌鹑#NN  肉#NN  是#VC  典型#VA  的#DEC  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  食物#NN  ，#PU  特别#AD  适合#VV  中老年人#NN  以及#CC  高血压#NN  、#PU  肥胖症#NN  患者#NN  食用#VV    。#PU  鹌鹑#NN  可#VV  与#P  补药#NN  之#DEG  王#NN  人参#NN  相#AD  媲美#VV  ，#PU  誉为#VV  ''#JJ  动物#NN  人参#NN  ''#NN    。#PU    。#PU
+            鹌鹑#NN  肉质#NN  鲜美#VV  ，#PU  含#VV  脂肪#NN  少#VA  ，#PU  食而不腻#NN  ，#PU  素#AD  有#VE  ``#JJ  动物#NN  人参#NN  ''#NN  之#DEG  称#NN    。#PU  鹌鹑#NN  肉#NN  主要#JJ  成分#NN  为#VC  蛋白质#NR  、#PU  脂肪#NR  、#PU  无机#NR  盐类#NN  ；#PU  且#CC  具有#VV  多#CD  种#M  氨基酸#NN  ，#PU  胆固醇#NN  含量#NN  较#AD  低#VA  的#DEC  特点#NN    。#PU  每#DT  百#CD  克#M  鹌鹑#NN  肉#NN  中#LC  蛋白质#NN  含量#NN  高达#VV  .3#CD  克#M  ，#PU  比猪#NN  、#PU  牛#NN  、#PU  羊#NN  、#PU  鸡#NN  、#PU  鸭肉#NN  的#DEG  蛋白质#NN  含量#NN  都#AD  高#VA  （#PU  鸡肉#VV  蛋白质#NN  含量#NN  为#VC  19#CD  ．#PU  7#CD  %#NN  ）#PU    。#PU  而#AD  其#PN  脂肪#NN  、#PU  胆固醇#NN  含量#NN  又#AD  比#P  猪#NN  、#PU  牛#NN  、#PU  羊#NN  、#PU  鸡#NN  、#PU  鸭肉#NN  等#ETC  低#VA    。#PU  鹌鹑#NN  肉#NN  中#LC  多#CD  种#M  维生素#NN  的#DEG  含量#NN  比#P  鸡肉#NN  高#VA  2-3#CD  倍#M    。#PU  鹌鹑#NN  蛋#NN  的#DEG  营养#VA  价值#NN  高#VA  ，#PU  与#P  鸡蛋#NN  相比#VV  蛋白质#NN  含量#NN  高#VA  30#CD  %#NN  ，#PU  维生素B1#CD  高#JJ  20#CD  %#NN  ，#PU  维生素B2#CD  高#JJ  83#CD  %#NN  ，#PU  铁#NN  高#JJ  46.1#CD  %#NN  ，#PU  卵#NN  磷脂#VV  高#JJ  5.6#CD  倍#M  ，#PU  并#CC  含有#VV  维生素#NN  P等#NN  成分#NN    。#PU    。#PU
+            鹌鹑#NN  蛋#NN  含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  多#CD  种#M  维生素#NN  和#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  他#PN  的#DEG  卵磷脂#NN  含量#NN  比#P  鸡蛋#NN  高#VA  3#CD  ~#NN  4#CD  倍#M  。#PU
+            鹌鹑#NN  蛋#NN  中#LC  所#MSP  含#VV  的#DEC  丰富#VA  的#DEC  卵磷脂#NN  和#CC  脑磷脂#NN  ，#PU  是#VC  高级#JJ  神经#NN  活动#NN  不#AD  可#VV  缺少#VV  的#DEC  营养#VA  物质#NN  ，#PU  具有#VV  健脑#NN  的#DEG  作用#NN  。#PU
+            鹌鹑#NR  蛋#NN  中#LC  还#AD  含有#VV  能#VV  减低#VV  血压#NN  的#DEG  维生素#NN  P等#VV  物质#NN  ，#PU  是#VC  心血管#NN  疾病#NN  患者#NN  的#DEG  滋补#NN  佳品#NN  。#PU
+            鹌鹑#NN  蛋#NN  的#DEG  营养#VA  粉子#NN  比较#AD  小#VA  ，#PU  比#P  鸡蛋#NN  更#AD  容易#VA  被#SB  人体#VV  消化#NN  吸收#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 动物#NN, 鹌鹑#NN)  (cop, 动物#NN, 为#VC)  (amod, 动物#NN, 雉科#JJ)  (root, ROOT#null, 动物#NN)   (nsubj, 说#VV, 俗话#NN)  (root, ROOT#null, 说#VV)  (nsubj, 吃#VV, ``#NN)  (mmod, 吃#VV, 要#VV)  (ccomp, 说#VV, 吃#VV)  (dobj, 吃#VV, 飞禽#NN)  (dep, 吃#VV, 鸽子#VV)  (dobj, 鸽子#VV, 鹌鹑#NN)   (nsubj, 鹌鹑#VV, ''#NR)  (root, ROOT#null, 鹌鹑#VV)  (conj, 蛋#NN, 肉#NN)  (nsubj, 鲜美#VA, 蛋#NN)  (nsubj, 鲜美#VA, 味道#NN)  (ccomp, 鹌鹑#VV, 鲜美#VA)  (conj, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (nsubj, 简称鹑#VA, 鹌鹑#NN)  (advmod, 简称鹑#VA, 又#AD)  (relcl, 赤褐色#NN, 简称鹑#VA)  (cop, 头小#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 头小#NN, 种#M)  (conj, 简称鹑#VA, 头小#NN)  (nsubj, 短#VA, 尾巴#NN)  (conj, 简称鹑#VA, 短#VA)  (neg, 善#VA, 不#AD)  (conj, 简称鹑#VA, 善#VA)  (dep, 善#VA, 飞#VV)  (mark, 简称鹑#VA, 的#DEC)  (nsubj, 小鸟#VV, 赤褐色#NN)  (root, ROOT#null, 小鸟#VV)  (nn, 肉#NN, 鹌鹑#NN)  (nsubj, 食物#NN, 肉#NN)  (cop, 食物#NN, 是#VC)  (relcl, 蛋白#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (amod, 蛋白#NN, 高#JJ)  (conj, 胆固醇#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 胆固醇#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (nn, 食物#NN, 胆固醇#NN)  (ccomp, 小鸟#VV, 食物#NN)  (advmod, 适合#VV, 特别#AD)  (conj, 食物#NN, 适合#VV)  (conj, 肥胖症#NN, 中老年人#NN)  (cc, 肥胖症#NN, 以及#CC)  (conj, 肥胖症#NN, 高血压#NN)  (nn, 患者#NN, 肥胖症#NN)  (dobj, 适合#VV, 患者#NN)  (conj, 适合#VV, 食用#VV)   (nsubj, 媲美#VV, 鹌鹑#NN)  (mmod, 媲美#VV, 可#VV)  (case, 人参#NN, 与#P)  (assmod, 人参#NN, 补药#NN)  (case, 补药#NN, 之#DEG)  (nn, 人参#NN, 王#NN)  (prep, 媲美#VV, 人参#NN)  (advmod, 媲美#VV, 相#AD)  (root, ROOT#null, 媲美#VV)  (dep, 媲美#VV, 誉为#VV)  (amod, 动物#NN, ''#JJ)  (nn, ''#NN, 动物#NN)  (nn, ''#NN, 人参#NN)  (dobj, 誉为#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 肉质#NN, 鹌鹑#NN)  (nsubj, 鲜美#VV, 肉质#NN)  (root, ROOT#null, 鲜美#VV)  (relcl, 脂肪#NN, 含#VV)  (nsubj, 少#VA, 脂肪#NN)  (ccomp, 鲜美#VV, 少#VA)  (nsubj, 有#VE, 食而不腻#NN)  (advmod, 有#VE, 素#AD)  (conj, 少#VA, 有#VE)  (amod, 动物#NN, ``#JJ)  (nn, ''#NN, 动物#NN)  (nn, ''#NN, 人参#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (nn, 肉#NN, 鹌鹑#NN)  (nsubj, 盐类#NN, 肉#NN)  (amod, 成分#NN, 主要#JJ)  (nsubj, 盐类#NN, 成分#NN)  (cop, 盐类#NN, 为#VC)  (conj, 无机#NR, 蛋白质#NR)  (conj, 无机#NR, 脂肪#NR)  (nn, 盐类#NN, 无机#NR)  (root, ROOT#null, 盐类#NN)  (cc, 盐类#NN, 且#CC)  (conj, 盐类#NN, 具有#VV)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 低#VA, 氨基酸#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 较#AD)  (relcl, 特点#NN, 低#VA)  (mark, 低#VA, 的#DEC)  (dobj, 具有#VV, 特点#NN)   (det, 鹌鹑#NN, 每#DT)  (nummod, 克#M, 百#CD)  (dep, 每#DT, 克#M)  (nn, 肉#NN, 鹌鹑#NN)  (loc, 高达#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高达#VV, 含量#NN)  (root, ROOT#null, 高达#VV)  (nummod, 克#M, .3#CD)  (range, 高达#VV, 克#M)  (conj, 鸭肉#NN, 比猪#NN)  (conj, 鸭肉#NN, 牛#NN)  (conj, 鸭肉#NN, 羊#NN)  (conj, 鸭肉#NN, 鸡#NN)  (assmod, 含量#NN, 鸭肉#NN)  (case, 鸭肉#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (dep, 高#VA, 含量#NN)  (advmod, 高#VA, 都#AD)  (conj, 高达#VV, 高#VA)  (dep, 高达#VV, 鸡肉#VV)  (nsubj, 为#VC, 蛋白质#NN)  (nsubj, 为#VC, 含量#NN)  (relcl, %#NN, 为#VC)  (dep, 为#VC, 19#CD)  (nummod, %#NN, 7#CD)  (dobj, 鸡肉#VV, %#NN)   (advmod, 低#VA, 而#AD)  (nsubj, 低#VA, 其#PN)  (conj, 胆固醇#NN, 脂肪#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 又#AD)  (case, 鸭肉#NN, 比#P)  (conj, 鸭肉#NN, 猪#NN)  (conj, 鸭肉#NN, 牛#NN)  (conj, 鸭肉#NN, 羊#NN)  (conj, 鸭肉#NN, 鸡#NN)  (prep, 低#VA, 鸭肉#NN)  (etc, 鸭肉#NN, 等#ETC)  (root, ROOT#null, 低#VA)   (nn, 肉#NN, 鹌鹑#NN)  (dep, 维生素#NN, 肉#NN)  (case, 肉#NN, 中#LC)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (assmod, 含量#NN, 维生素#NN)  (case, 维生素#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (case, 鸡肉#NN, 比#P)  (prep, 高#VA, 鸡肉#NN)  (root, ROOT#null, 高#VA)  (nummod, 倍#M, 2-3#CD)  (dep, 高#VA, 倍#M)   (nn, 蛋#NN, 鹌鹑#NN)  (assmod, 价值#NN, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (root, ROOT#null, 高#VA)  (case, 鸡蛋#NN, 与#P)  (prep, 相比#VV, 鸡蛋#NN)  (dep, 高#VA, 相比#VV)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 高#VA, 高#VA)  (nummod, %#NN, 30#CD)  (nsubj, 磷脂#VV, %#NN)  (nummod, %#NN, 维生素B1#CD)  (amod, %#NN, 高#JJ)  (nummod, %#NN, 20#CD)  (nsubj, 磷脂#VV, %#NN)  (nummod, %#NN, 维生素B2#CD)  (amod, %#NN, 高#JJ)  (nummod, %#NN, 83#CD)  (nsubj, 磷脂#VV, %#NN)  (nn, %#NN, 铁#NN)  (amod, %#NN, 高#JJ)  (nummod, %#NN, 46.1#CD)  (nsubj, 磷脂#VV, %#NN)  (nsubj, 磷脂#VV, 卵#NN)  (conj, 高#VA, 磷脂#VV)  (amod, 倍#M, 高#JJ)  (nummod, 倍#M, 5.6#CD)  (range, 磷脂#VV, 倍#M)  (cc, 磷脂#VV, 并#CC)  (conj, 磷脂#VV, 含有#VV)  (nn, 成分#NN, 维生素#NN)  (nn, 成分#NN, P等#NN)  (dobj, 含有#VV, 成分#NN)   (root, ROOT#null, null#null)
+            (nn, 蛋#NN, 鹌鹑#NN)  (nsubj, 含#VV, 蛋#NN)  (root, ROOT#null, 含#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 和#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 含#VV, 矿物质#NN)  (assmod, 含量#NN, 他#PN)  (case, 他#PN, 的#DEG)  (nn, 含量#NN, 卵磷脂#NN)  (nsubj, 高#VA, 含量#NN)  (case, 鸡蛋#NN, 比#P)  (prep, 高#VA, 鸡蛋#NN)  (conj, 含#VV, 高#VA)  (nummod, ~#NN, 3#CD)  (nummod, 倍#M, 4#CD)  (conj, 含#VV, 倍#M)
+            (nn, 蛋#NN, 鹌鹑#NN)  (loc, 含#VV, 蛋#NN)  (case, 蛋#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 脑磷脂#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (relcl, 脑磷脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 脑磷脂#NN, 卵磷脂#NN)  (cc, 脑磷脂#NN, 和#CC)  (nsubj, 物质#NN, 脑磷脂#NN)  (cop, 物质#NN, 是#VC)  (amod, 神经#NN, 高级#JJ)  (nn, 活动#NN, 神经#NN)  (nsubj, 缺少#VV, 活动#NN)  (neg, 缺少#VV, 不#AD)  (dep, 缺少#VV, 可#VV)  (relcl, 物质#NN, 缺少#VV)  (mark, 缺少#VV, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (root, ROOT#null, 物质#NN)  (conj, 物质#NN, 具有#VV)  (assmod, 作用#NN, 健脑#NN)  (case, 健脑#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 含有#VV, 鹌鹑#NR)  (xsubj, 减低#VV, 鹌鹑#NR)  (loc, 含有#VV, 蛋#NN)  (case, 蛋#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (mmod, 减低#VV, 能#VV)  (ccomp, 含有#VV, 减低#VV)  (assmod, 维生素#NN, 血压#NN)  (case, 血压#NN, 的#DEG)  (dobj, 减低#VV, 维生素#NN)  (conj, 含有#VV, P等#VV)  (dobj, P等#VV, 物质#NN)  (cop, 佳品#NN, 是#VC)  (nn, 患者#NN, 心血管#NN)  (nn, 患者#NN, 疾病#NN)  (assmod, 佳品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 佳品#NN, 滋补#NN)  (conj, 含有#VV, 佳品#NN)
+            (nn, 蛋#NN, 鹌鹑#NN)  (assmod, 粉子#NN, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (nfincl, 粉子#NN, 营养#VA)  (nsubj, 小#VA, 粉子#NN)  (advmod, 小#VA, 比较#AD)  (root, ROOT#null, 小#VA)  (case, 鸡蛋#NN, 比#P)  (prep, 容易#VA, 鸡蛋#NN)  (advmod, 容易#VA, 更#AD)  (dep, 小#VA, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 人体#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            适用于炸、炒、烤、焖、煎汤等烹调方法，如“香酥鹌鹑”、“芙蓉鹑丁”、“烤鹌鹑”等；或做补益药膳主料。
+        </rawdata>
+
+        <segment>
+            适用  于  炸  、  炒  、  烤  、  焖  、  煎  汤  等  烹调  方法  ，  如  “  香酥  鹌鹑  ”  、  “  芙蓉  鹑丁  ”  、  “  烤  鹌鹑  ”  等  ；  或  做  补益  药膳  主料  。
+        </segment>
+
+        <pos>
+            适用#NN  于#P  炸#VV  、#PU  炒#VA  、#PU  烤#NN  、#PU  焖#NN  、#PU  煎#NN  汤#NN  等#ETC  烹调#CD  方法#NN  ，#PU  如#AD  ``#VV  香酥#NN  鹌鹑#NN  ''#NN  、#PU  ``#VV  芙蓉#NN  鹑丁#NN  ''#NN  、#PU  ``#NN  烤#NN  鹌鹑#NN  ''#NN  等#ETC  ；#PU  或#CC  做#VV  补益#NN  药膳#NN  主料#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, ``#VV, 适用#NN)  (case, 方法#NN, 于#P)  (dep, 方法#NN, 炸#VV)  (conj, 炸#VV, 炒#VA)  (conj, 炸#VV, 烤#NN)  (conj, 炸#VV, 焖#NN)  (nn, 汤#NN, 煎#NN)  (dep, 炸#VV, 汤#NN)  (etc, 汤#NN, 等#ETC)  (nummod, 方法#NN, 烹调#CD)  (prep, ``#VV, 方法#NN)  (advmod, ``#VV, 如#AD)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 香酥#NN)  (nn, ''#NN, 鹌鹑#NN)  (dobj, ``#VV, ''#NN)  (conj, ``#VV, ``#VV)  (nn, ''#NN, 芙蓉#NN)  (nn, ''#NN, 鹑丁#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 烤#NN)  (nn, ''#NN, 鹌鹑#NN)  (dobj, ``#VV, ''#NN)  (etc, ''#NN, 等#ETC)  (cc, ``#VV, 或#CC)  (conj, ``#VV, 做#VV)  (nn, 主料#NN, 补益#NN)  (nn, 主料#NN, 药膳#NN)  (dobj, 做#VV, 主料#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/5f/03/863_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1034 鹌鹑.jpg
+    </picturelocalurl>
+
+</content>

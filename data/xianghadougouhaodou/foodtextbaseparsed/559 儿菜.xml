@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        560
+    </id>
+
+    <foodname>
+        儿菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        蔬菜类
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        9月至翌年1月
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（g)
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（g)
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（g)
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            儿菜是芥菜的一种。粗大的根部上，环绕相抱着一个个翠绿的芽包，如同无数孩子把当娘的围在中间。一母多子，这也是它叫"儿菜"的来由。儿菜具有芥菜的清香，但口感却要好很多，甘甜而不带苦味，嚼在嘴里，肉脆少筋，不带残渣。色彩也漂亮，外叶碧绿，内心洁白，绿白相间，煞是喜人。
+        </rawdata>
+
+        <segment>
+            儿菜  是  芥菜  的  一  种  。  粗大  的  根部  上  ，  环绕  相  抱  着  一  个个  翠绿  的  芽包  ，  如同  无数  孩子  把  当娘  的  围在  中间  。  一  母  多子  ，  这  也  是  它  叫  "  儿菜  "  的  来由  。  儿菜  具有  芥菜  的  清香  ，  但  口感  却  要  好  很多  ，  甘甜  而  不  带  苦味  ，  嚼  在  嘴里  ，  肉  脆  少筋  ，  不带  残渣  。  色彩  也  漂亮  ，  外叶  碧绿  ，  内心  洁白  ，  绿  白  相  间  ，  煞是  喜人  。
+        </segment>
+
+        <pos>
+            儿菜#NN  是#VC  芥菜#NN  的#DEG  一#CD  种#M    。#PU  粗大#NN  的#DEG  根部#NN  上#LC  ，#PU  环绕#NN  相#AD  抱#VV  着#AS  一#CD  个个#NN  翠绿#NN  的#DEG  芽包#NN  ，#PU  如同#VV  无数#JJ  孩子#NN  把#BA  当娘#VA  的#DEC  围在#VV  中间#NN    。#PU  一#CD  母#JJ  多子#NN  ，#PU  这#PN  也#AD  是#VC  它#PN  叫#VV  ''#NN  儿菜#NN  ''#NN  的#DEC  来由#NN    。#PU  儿菜#VV  具有#VV  芥菜#NN  的#DEC  清香#NN  ，#PU  但#AD  口感#NN  却#AD  要#AD  好#VA  很多#CD  ，#PU  甘甜#AD  而#MSP  不#AD  带#VV  苦味#NN  ，#PU  嚼#VV  在#P  嘴里#NR  ，#PU  肉#NN  脆#NN  少筋#NN  ，#PU  不带#AD  残渣#VV    。#PU  色彩#NN  也#AD  漂亮#VA  ，#PU  外叶#VV  碧绿#NN  ，#PU  内心#VV  洁白#NN  ，#PU  绿#VA  白#VA  相#AD  间#LC  ，#PU  煞是#AD  喜人#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 是#VC, 儿菜#NN)  (root, ROOT#null, 是#VC)  (assmod, 种#M, 芥菜#NN)  (case, 芥菜#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (assmod, 根部#NN, 粗大#NN)  (case, 粗大#NN, 的#DEG)  (loc, 抱#VV, 根部#NN)  (case, 根部#NN, 上#LC)  (nsubj, 抱#VV, 环绕#NN)  (advmod, 抱#VV, 相#AD)  (dep, 围在#VV, 抱#VV)  (asp, 抱#VV, 着#AS)  (nummod, 个个#NN, 一#CD)  (nn, 翠绿#NN, 个个#NN)  (assmod, 芽包#NN, 翠绿#NN)  (case, 翠绿#NN, 的#DEG)  (dobj, 抱#VV, 芽包#NN)  (dep, 抱#VV, 如同#VV)  (amod, 孩子#NN, 无数#JJ)  (nsubj, 围在#VV, 孩子#NN)  (ba, 围在#VV, 把#BA)  (nsubj, 围在#VV, 当娘#VA)  (mark, 当娘#VA, 的#DEC)  (root, ROOT#null, 围在#VV)  (dobj, 围在#VV, 中间#NN)   (nummod, 多子#NN, 一#CD)  (amod, 多子#NN, 母#JJ)  (dep, 来由#NN, 多子#NN)  (dobj, 来由#NN, 这#PN)  (advmod, 来由#NN, 也#AD)  (cop, 来由#NN, 是#VC)  (nsubj, 叫#VV, 它#PN)  (relcl, 来由#NN, 叫#VV)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 儿菜#NN)  (dobj, 叫#VV, ''#NN)  (mark, 叫#VV, 的#DEC)  (root, ROOT#null, 来由#NN)   (root, ROOT#null, 儿菜#VV)  (relcl, 清香#NN, 具有#VV)  (dobj, 具有#VV, 芥菜#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 儿菜#VV, 清香#NN)  (advmod, 好#VA, 但#AD)  (nsubj, 好#VA, 口感#NN)  (advmod, 好#VA, 却#AD)  (advmod, 好#VA, 要#AD)  (dep, 儿菜#VV, 好#VA)  (dep, 带#VV, 很多#CD)  (advmod, 带#VV, 甘甜#AD)  (prtmod, 带#VV, 而#MSP)  (neg, 带#VV, 不#AD)  (conj, 儿菜#VV, 带#VV)  (dobj, 带#VV, 苦味#NN)  (dep, 带#VV, 嚼#VV)  (case, 嘴里#NR, 在#P)  (prep, 残渣#VV, 嘴里#NR)  (nn, 少筋#NN, 肉#NN)  (nn, 少筋#NN, 脆#NN)  (nsubj, 残渣#VV, 少筋#NN)  (advmod, 残渣#VV, 不带#AD)  (dep, 儿菜#VV, 残渣#VV)   (nsubj, 漂亮#VA, 色彩#NN)  (advmod, 漂亮#VA, 也#AD)  (root, ROOT#null, 漂亮#VA)  (conj, 漂亮#VA, 外叶#VV)  (dobj, 外叶#VV, 碧绿#NN)  (conj, 漂亮#VA, 内心#VV)  (dobj, 内心#VV, 洁白#NN)  (conj, 漂亮#VA, 绿#VA)  (loc, 绿#VA, 白#VA)  (advmod, 白#VA, 相#AD)  (case, 白#VA, 间#LC)  (advmod, 喜人#VA, 煞是#AD)  (conj, 漂亮#VA, 喜人#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            保肝、利胆作用
+        </rawdata>
+
+        <segment>
+            保肝  、  利胆  作用
+        </segment>
+
+        <pos>
+            保肝#JJ  、#PU  利胆#JJ  作用#NN
+        </pos>
+
+        <parsing>
+            (amod, 作用#NN, 保肝#JJ)  (dep, 保肝#JJ, 利胆#JJ)  (root, ROOT#null, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 解毒消肿、防癌抗癌：儿菜含有丰富的食物纤维，可促进结肠蠕动，缩短粪便在结肠中的停留时间，稀释毒物，降低致癌因子浓度，从而发挥解防癌的作用，可用于防冶结肠癌、乳腺癌、肝癌；
+            2. 下气消食：大头菜含有一种硫代葡萄糖甙的物质，经水解后能产生挥发性芥子油，具有促进肠胃消化吸收的作用。此外，大头菜还具有一种特殊的鲜香气味，能增进食欲，帮助消化；
+            3. 利尿除温：儿菜含有钙、磷、铁等微量元素，被人体吸收后，能利尿除温；促进机体水、电解质平衡，可用于防治小便涩痛、淋沥不尽之症。
+        </rawdata>
+
+        <segment>
+            解毒  消肿  、  防癌  抗癌  ：  儿菜  含有  丰富  的  食物  纤维  ，  可  促进  结肠  蠕动  ，  缩短  粪便  在  结肠  中  的  停留  时间  ，  稀释  毒物  ，  降低  致癌  因子  浓度  ，  从而  发挥  解  防癌  的  作用  ，  可  用于  防冶  结肠癌  、  乳腺癌  、  肝癌  ；
+            下气  消食  ：  大头菜  含有  一  种  硫  代  葡萄糖甙  的  物质  ，  经  水解  后  能  产生  挥发性  芥子  油  ，  具有  促进  肠胃  消化  吸收  的  作用  。  此外  ，  大头菜  还  具有  一  种  特殊  的  鲜香  气味  ，  能  增进  食欲  ，  帮助  消化  ；
+            利尿  除温  ：  儿菜  含有  钙  、  磷  、  铁  等  微量  元素  ，  被  人体  吸收  后  ，  能  利尿  除温  ；  促进  机体  水  、  电解质  平衡  ，  可  用于  防治  小便  涩痛  、  淋沥  不尽之症  。
+        </segment>
+
+        <pos>
+            解毒#NR  消肿#NR  、#PU  防癌#NR  抗癌#VV  ：#PU  儿菜#NN  含有#VV  丰富#VA  的#DEC  食物#NN  纤维#NN  ，#PU  可#VV  促进#VV  结肠#NN  蠕动#NN  ，#PU  缩短#VV  粪便#VV  在#P  结肠#NN  中#LC  的#DEC  停留#NN  时间#NN  ，#PU  稀释#VV  毒物#NN  ，#PU  降低#VV  致癌#NN  因子#NN  浓度#NN  ，#PU  从而#AD  发挥#VV  解#VV  防癌#NN  的#DEC  作用#NN  ，#PU  可#VV  用于#VV  防冶#NN  结肠癌#NN  、#PU  乳腺癌#NN  、#PU  肝癌#NN  ；#PU
+            下气#NR  消食#VV  ：#PU  大头菜#NN  含有#VV  一#CD  种#M  硫#NN  代#JJ  葡萄糖甙#NN  的#DEG  物质#NN  ，#PU  经#P  水解#NN  后#LC  能#VV  产生#VV  挥发性#NN  芥子#NN  油#NN  ，#PU  具有#VV  促进#VV  肠胃#NN  消化#NN  吸收#NN  的#DEC  作用#NN  。#PU  此外#AD  ，#PU  大头菜#NN  还#AD  具有#VV  一#CD  种#M  特殊#VA  的#DEC  鲜香#NN  气味#NN  ，#PU  能#VV  增进#VV  食欲#NN  ，#PU  帮助#VV  消化#NN  ；#PU
+            利尿#NR  除温#VV  ：#PU  儿菜#NN  含有#NN  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  微量#NN  元素#NN  ，#PU  被#LB  人体#NR  吸收#VV  后#LC  ，#PU  能#VV  利尿#VV  除温#NN  ；#PU  促进#VV  机体#NN  水#NN  、#PU  电解质#NN  平衡#NN  ，#PU  可#VV  用于#VV  防治#NN  小便#NN  涩痛#NN  、#PU  淋沥#NN  不尽之症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 防癌#NR, 解毒#NR)  (conj, 防癌#NR, 消肿#NR)  (nsubj, 抗癌#VV, 防癌#NR)  (root, ROOT#null, 抗癌#VV)  (nsubj, 含有#VV, 儿菜#NN)  (ccomp, 抗癌#VV, 含有#VV)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 纤维#NN, 食物#NN)  (dobj, 含有#VV, 纤维#NN)  (mmod, 促进#VV, 可#VV)  (conj, 含有#VV, 促进#VV)  (nn, 蠕动#NN, 结肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 含有#VV, 缩短#VV)  (relcl, 时间#NN, 粪便#VV)  (case, 结肠#NN, 在#P)  (prep, 粪便#VV, 结肠#NN)  (case, 结肠#NN, 中#LC)  (mark, 粪便#VV, 的#DEC)  (nn, 时间#NN, 停留#NN)  (dobj, 缩短#VV, 时间#NN)  (conj, 含有#VV, 稀释#VV)  (dobj, 稀释#VV, 毒物#NN)  (conj, 含有#VV, 降低#VV)  (nn, 浓度#NN, 致癌#NN)  (nn, 浓度#NN, 因子#NN)  (dobj, 降低#VV, 浓度#NN)  (advmod, 发挥#VV, 从而#AD)  (conj, 含有#VV, 发挥#VV)  (relcl, 作用#NN, 解#VV)  (dobj, 解#VV, 防癌#NN)  (mark, 解#VV, 的#DEC)  (dobj, 发挥#VV, 作用#NN)  (mmod, 用于#VV, 可#VV)  (conj, 含有#VV, 用于#VV)  (nn, 肝癌#NN, 防冶#NN)  (conj, 肝癌#NN, 结肠癌#NN)  (conj, 肝癌#NN, 乳腺癌#NN)  (dobj, 用于#VV, 肝癌#NN)
+            (nsubj, 消食#VV, 下气#NR)  (root, ROOT#null, 消食#VV)  (nsubj, 含有#VV, 大头菜#NN)  (ccomp, 消食#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 硫#NN, 种#M)  (nn, 葡萄糖甙#NN, 硫#NN)  (amod, 葡萄糖甙#NN, 代#JJ)  (assmod, 物质#NN, 葡萄糖甙#NN)  (case, 葡萄糖甙#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 水解#NN, 经#P)  (prep, 产生#VV, 水解#NN)  (case, 水解#NN, 后#LC)  (mmod, 产生#VV, 能#VV)  (conj, 含有#VV, 产生#VV)  (nn, 油#NN, 挥发性#NN)  (nn, 油#NN, 芥子#NN)  (dobj, 产生#VV, 油#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (nn, 吸收#NN, 肠胃#NN)  (nn, 吸收#NN, 消化#NN)  (dobj, 促进#VV, 吸收#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (advmod, 具有#VV, 此外#AD)  (nsubj, 具有#VV, 大头菜#NN)  (advmod, 具有#VV, 还#AD)  (conj, 含有#VV, 具有#VV)  (nummod, 种#M, 一#CD)  (clf, 气味#NN, 种#M)  (relcl, 气味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nn, 气味#NN, 鲜香#NN)  (dobj, 具有#VV, 气味#NN)  (mmod, 增进#VV, 能#VV)  (conj, 含有#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增进#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)
+            (nsubj, 除温#VV, 利尿#NR)  (root, ROOT#null, 除温#VV)  (nn, 铁#NN, 儿菜#NN)  (nn, 铁#NN, 含有#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 微量#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (nsubj, 利尿#VV, 元素#NN)  (loc, 利尿#VV, 被#LB)  (nsubj, 吸收#VV, 人体#NR)  (dep, 被#LB, 吸收#VV)  (case, 被#LB, 后#LC)  (mmod, 利尿#VV, 能#VV)  (ccomp, 除温#VV, 利尿#VV)  (dobj, 利尿#VV, 除温#NN)  (conj, 利尿#VV, 促进#VV)  (nn, 平衡#NN, 机体#NN)  (conj, 平衡#NN, 水#NN)  (nn, 平衡#NN, 电解质#NN)  (dobj, 促进#VV, 平衡#NN)  (mmod, 用于#VV, 可#VV)  (conj, 利尿#VV, 用于#VV)  (nn, 不尽之症#NN, 防治#NN)  (nn, 不尽之症#NN, 小便#NN)  (conj, 不尽之症#NN, 涩痛#NN)  (nn, 不尽之症#NN, 淋沥#NN)  (dobj, 用于#VV, 不尽之症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374461213.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\559 儿菜.jpg
+    </picturelocalurl>
+
+</content>

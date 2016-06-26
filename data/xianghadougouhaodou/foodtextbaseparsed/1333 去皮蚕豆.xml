@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1333
+    </id>
+
+    <foodname>
+        去皮蚕豆
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        佛豆、胡豆、南豆、马齿豆、竖豆、仙豆、寒豆、秬豆、湾豆、罗泛豆、夏豆、罗汉豆、川豆
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不宜与田螺同食。
+        </rawdata>
+
+        <segment>
+            不  宜  与  田螺  同  食  。
+        </segment>
+
+        <pos>
+            不#AD  宜#NR  与#CC  田螺#NR  同#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (neg, 同#VV, 不#AD)  (conj, 田螺#NR, 宜#NR)  (cc, 田螺#NR, 与#CC)  (prep, 同#VV, 田螺#NR)  (root, ROOT#null, 同#VV)  (dobj, 同#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            婴儿、幼儿人群应忌食或少食;
+        </rawdata>
+
+        <segment>
+            婴儿  、  幼儿  人群  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            婴儿#NN  、#PU  幼儿#NN  人群#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (conj, 幼儿#NN, 婴儿#NN)  (nn, 人群#NN, 幼儿#NN)  (nsubj, 忌食#VV, 人群#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            扁豆为豆科、扁豆属的一个栽培种，多年生或一年生缠绕藤本植物，食用嫩荚或成熟豆粒。扁豆含有蛋白质、碳水化合物，还含有毒蛋白、凝集素以及能引发溶血症的皂素。
+        </rawdata>
+
+        <segment>
+            扁豆  为  豆科  、  扁豆  属  的  一  个  栽培  种  ，  多年生  或  一  年  生  缠绕  藤本  植物  ，  食用  嫩荚  或  成熟  豆粒  。  扁豆  含有  蛋白质  、  碳水化合物  ，  还  含有  毒  蛋白  、  凝集素  以及  能  引发  溶血症  的  皂素  。
+        </segment>
+
+        <pos>
+            扁豆#NN  为#VC  豆科#NR  、#PU  扁豆#NR  属#VV  的#DEC  一#CD  个#M  栽培#VV  种#NN  ，#PU  多年生#VV  或#CC  一#CD  年#M  生#VV  缠绕#NN  藤本#NN  植物#NN  ，#PU  食用#VV  嫩荚#NN  或#CC  成熟#VA  豆粒#NN    。#PU  扁豆#VV  含有#NN  蛋白质#NN  、#PU  碳水化合物#NN  ，#PU  还#AD  含有#AD  毒#VV  蛋白#NR  、#PU  凝集素#NR  以及#CC  能#VV  引发#VV  溶血症#NN  的#DEC  皂素#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 豆粒#NN, 扁豆#NN)  (cop, 豆粒#NN, 为#VC)  (conj, 扁豆#NR, 豆科#NR)  (nsubj, 属#VV, 扁豆#NR)  (relcl, 豆粒#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 豆粒#NN, 个#M)  (nfincl, 豆粒#NN, 栽培#VV)  (dobj, 栽培#VV, 种#NN)  (conj, 栽培#VV, 多年生#VV)  (cc, 栽培#VV, 或#CC)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (conj, 栽培#VV, 生#VV)  (nn, 植物#NN, 缠绕#NN)  (nn, 植物#NN, 藤本#NN)  (dobj, 生#VV, 植物#NN)  (conj, 栽培#VV, 食用#VV)  (dobj, 食用#VV, 嫩荚#NN)  (cc, 栽培#VV, 或#CC)  (conj, 栽培#VV, 成熟#VA)  (root, ROOT#null, 豆粒#NN)   (root, ROOT#null, 扁豆#VV)  (nn, 碳水化合物#NN, 含有#NN)  (conj, 碳水化合物#NN, 蛋白质#NN)  (dobj, 扁豆#VV, 碳水化合物#NN)  (advmod, 毒#VV, 还#AD)  (advmod, 毒#VV, 含有#AD)  (conj, 扁豆#VV, 毒#VV)  (conj, 凝集素#NR, 蛋白#NR)  (conj, 皂素#NN, 凝集素#NR)  (cc, 皂素#NN, 以及#CC)  (mmod, 引发#VV, 能#VV)  (relcl, 皂素#NN, 引发#VV)  (dobj, 引发#VV, 溶血症#NN)  (mark, 引发#VV, 的#DEC)  (dobj, 毒#VV, 皂素#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  延缓衰老  促进消化  通便  补肾  健脾利湿  固精
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/a5/a7/42917_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1333 去皮蚕豆.jpg
+    </picturelocalurl>
+
+</content>

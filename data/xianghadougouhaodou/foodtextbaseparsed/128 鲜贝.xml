@@ -1,0 +1,338 @@
+<content>
+
+    <id>
+        128
+    </id>
+
+    <foodname>
+        鲜贝
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        带子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有宿疾者、脾胃虚寒者慎食。
+        </rawdata>
+
+        <segment>
+            有  宿疾  者  、  脾胃  虚寒者  慎食  。
+        </segment>
+
+        <pos>
+            有#VE  宿疾#NN  者#NN  、#PU  脾胃#NN  虚寒者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (nn, 慎食#NN, 宿疾#NN)  (conj, 慎食#NN, 者#NN)  (nn, 慎食#NN, 脾胃#NN)  (nn, 慎食#NN, 虚寒者#NN)  (dobj, 有#VE, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。尤适宜高胆固醇、高血脂体质的人以及患有甲状腺肿大、支气管炎、胃病等疾病的人。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。  尤  适宜  高  胆固醇  、  高血脂  体质  的  人  以及  患有  甲状腺  肿大  、  支气管炎  、  胃病  等  疾病  的  人  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  高#JJ  胆固醇#NN  、#PU  高血脂#NN  体质#NN  的#DEC  人#NN  以及#CC  患有#NN  甲状腺#VV  肿大#NR  、#PU  支气管炎#NR  、#PU  胃病#NR  等#ETC  疾病#NN  的#DEG  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (relcl, 患有#NN, 适宜#VV)  (amod, 胆固醇#NN, 高#JJ)  (conj, 体质#NN, 胆固醇#NN)  (nn, 体质#NN, 高血脂#NN)  (dobj, 适宜#VV, 体质#NN)  (mark, 适宜#VV, 的#DEC)  (conj, 患有#NN, 人#NN)  (cc, 患有#NN, 以及#CC)  (nsubj, 甲状腺#VV, 患有#NN)  (root, ROOT#null, 甲状腺#VV)  (conj, 胃病#NR, 肿大#NR)  (conj, 胃病#NR, 支气管炎#NR)  (nn, 疾病#NN, 胃病#NR)  (etc, 胃病#NR, 等#ETC)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 甲状腺#VV, 人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                15.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                116
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                166
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                226
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                120
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                57.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲜贝，是指新鲜大型贝壳内一块圆形肌肉，又称“带子”。常见的有两类：一是所谓长带子，属江瑶科贝类的团壳肌；另一种是圆带子，属扇贝科贝类的闭壳肌。其干制品即为江瑶柱，北方称干贝。带子在广东、海南沿海盛产，是名贵海产品之一。其质爽软，滋味鲜美，蒸、炒、油泡皆宜；此品为潮汕、东江一带名菜，将鲜笋条和熟火腿条穿在带子中间，再用油泡法烹制而成，常作名贵热荤而登大席。
+        </rawdata>
+
+        <segment>
+            鲜贝  ，  是  指  新鲜  大型  贝壳  内  一  块  圆形  肌肉  ，  又  称  “  带子  ”  。  常见  的  有两  类  ：  一  是  所谓  长  带子  ，  属  江瑶科  贝类  的  团壳肌  ；  另  一  种  是  圆  带子  ，  属  扇贝科  贝类  的  闭壳肌  。  其干  制品  即为  江瑶柱  ，  北方  称  干贝  。  带子  在  广东  、  海南  沿海  盛产  ，  是  名贵  海产品  之一  。  其  质爽软  ，  滋味  鲜美  ，  蒸  、  炒  、  油  泡  皆  宜  ；  此  品  为  潮汕  、  东江  一带  名菜  ，  将  鲜笋  条  和  熟  火腿  条  穿  在  带子  中间  ，  再  用油  泡法  烹制  而成  ，  常作  名贵  热荤  而  登大席  。
+        </segment>
+
+        <pos>
+            鲜贝#NN  ，#PU  是#VC  指#VV  新鲜#JJ  大型#JJ  贝壳#NN  内#LC  一#CD  块#M  圆形#JJ  肌肉#NN  ，#PU  又#AD  称#VV  ``#NN  带子#NN  ''#NN    。#PU  常见#VA  的#DEC  有两#NN  类#NN  ：#PU  一#CD  是#VC  所谓#JJ  长#JJ  带子#NN  ，#PU  属#VV  江瑶科#NN  贝类#NN  的#DEG  团壳肌#NN  ；#PU  另#AD  一#CD  种#M  是#VC  圆#VV  带子#NN  ，#PU  属#VV  扇贝科#NN  贝类#NN  的#DEC  闭壳肌#NN    。#PU  其干#NN  制品#NN  即为#NN  江瑶柱#VV  ，#PU  北方#NN  称#VV  干贝#NN    。#PU  带子#NR  在#P  广东#NR  、#PU  海南#NR  沿海#NN  盛产#VV  ，#PU  是#VC  名贵#JJ  海产品#NN  之一#NN    。#PU  其#PN  质爽软#VV  ，#PU  滋味#NN  鲜美#NN  ，#PU  蒸#NN  、#PU  炒#NN  、#PU  油#NN  泡#NN  皆#AD  宜#NR  ；#PU  此#DT  品#M  为#P  潮汕#NR  、#PU  东江#NR  一带#CD  名菜#NN  ，#PU  将#AD  鲜笋#CD  条#M  和#CC  熟#JJ  火腿#CD  条#M  穿#VV  在#P  带子#NN  中间#NN  ，#PU  再#AD  用油#NN  泡法#NN  烹制#VV  而成#NN  ，#PU  常作#VV  名贵#JJ  热荤#NN  而#CC  登大席#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 指#VV, 鲜贝#NN)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (amod, 贝壳#NN, 新鲜#JJ)  (amod, 贝壳#NN, 大型#JJ)  (dep, 肌肉#NN, 贝壳#NN)  (case, 贝壳#NN, 内#LC)  (nummod, 块#M, 一#CD)  (clf, 肌肉#NN, 块#M)  (amod, 肌肉#NN, 圆形#JJ)  (dobj, 指#VV, 肌肉#NN)  (advmod, 称#VV, 又#AD)  (dep, 指#VV, 称#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 带子#NN)  (dobj, 称#VV, ''#NN)   (relcl, 类#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 类#NN, 有两#NN)  (nsubj, 带子#NN, 类#NN)  (dep, 带子#NN, 一#CD)  (cop, 带子#NN, 是#VC)  (amod, 带子#NN, 所谓#JJ)  (amod, 带子#NN, 长#JJ)  (root, ROOT#null, 带子#NN)  (conj, 带子#NN, 属#VV)  (nn, 贝类#NN, 江瑶科#NN)  (assmod, 团壳肌#NN, 贝类#NN)  (case, 贝类#NN, 的#DEG)  (dobj, 属#VV, 团壳肌#NN)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (dep, 闭壳肌#NN, 种#M)  (cop, 闭壳肌#NN, 是#VC)  (relcl, 闭壳肌#NN, 圆#VV)  (dobj, 圆#VV, 带子#NN)  (conj, 圆#VV, 属#VV)  (nn, 贝类#NN, 扇贝科#NN)  (dobj, 属#VV, 贝类#NN)  (mark, 圆#VV, 的#DEC)  (conj, 带子#NN, 闭壳肌#NN)   (nn, 制品#NN, 其干#NN)  (nn, 即为#NN, 制品#NN)  (nsubj, 江瑶柱#VV, 即为#NN)  (root, ROOT#null, 江瑶柱#VV)  (nsubj, 称#VV, 北方#NN)  (ccomp, 江瑶柱#VV, 称#VV)  (dobj, 称#VV, 干贝#NN)   (nsubj, 盛产#VV, 带子#NR)  (case, 沿海#NN, 在#P)  (conj, 海南#NR, 广东#NR)  (nn, 沿海#NN, 海南#NR)  (prep, 盛产#VV, 沿海#NN)  (root, ROOT#null, 盛产#VV)  (cop, 之一#NN, 是#VC)  (amod, 之一#NN, 名贵#JJ)  (nn, 之一#NN, 海产品#NN)  (ccomp, 盛产#VV, 之一#NN)   (nsubj, 质爽软#VV, 其#PN)  (root, ROOT#null, 质爽软#VV)  (nn, 鲜美#NN, 滋味#NN)  (nsubj, 宜#NR, 鲜美#NN)  (conj, 油#NN, 蒸#NN)  (conj, 油#NN, 炒#NN)  (nn, 泡#NN, 油#NN)  (nsubj, 宜#NR, 泡#NN)  (dep, 宜#NR, 皆#AD)  (ccomp, 质爽软#VV, 宜#NR)  (dep, 条#M, 此#DT)  (clf, 此#DT, 品#M)  (case, 名菜#NN, 为#P)  (conj, 东江#NR, 潮汕#NR)  (nn, 名菜#NN, 东江#NR)  (nummod, 名菜#NN, 一带#CD)  (prep, 条#M, 名菜#NN)  (advmod, 条#M, 将#AD)  (nummod, 条#M, 鲜笋#CD)  (conj, 宜#NR, 条#M)  (cc, 条#M, 和#CC)  (amod, 条#M, 熟#JJ)  (nummod, 条#M, 火腿#CD)  (dep, 穿#VV, 条#M)  (conj, 条#M, 穿#VV)  (case, 中间#NN, 在#P)  (nn, 中间#NN, 带子#NN)  (prep, 穿#VV, 中间#NN)  (advmod, 烹制#VV, 再#AD)  (nn, 泡法#NN, 用油#NN)  (nsubj, 烹制#VV, 泡法#NN)  (conj, 宜#NR, 烹制#VV)  (dobj, 烹制#VV, 而成#NN)  (conj, 烹制#VV, 常作#VV)  (amod, 登大席#NN, 名贵#JJ)  (conj, 登大席#NN, 热荤#NN)  (cc, 登大席#NN, 而#CC)  (dobj, 常作#VV, 登大席#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.健脑。
+            鲜贝富含碳水化合物，维持大脑功能必须的能源。
+            2.健脾和胃
+            鲜贝适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。暖胃，治疗胃寒症。
+            3.养颜护肤
+            鲜贝含有丰富的维生素E，抑制皮肤衰老、防止色素沉着。驱除因皮肤过敏或是感染而引起的皮肤干燥和瘙痒等皮肤损害。
+            4.抑癌抗瘤
+            鲜贝具有效预防癌症，降低癌变的发生率。延缓和抑制癌细胞生长、扩散。使癌细胞退化、萎缩。
+        </rawdata>
+
+        <segment>
+            健脑  。
+            鲜贝  富含  碳水化合物  ，  维持  大脑  功能  必须  的  能源  。
+            健脾  和  胃
+            鲜贝  适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏力  等症  。  暖胃  ，  治疗  胃  寒症  。
+            养颜  护肤
+            鲜贝  含有  丰富  的  维生素E  ，  抑制  皮肤  衰老  、  防止  色素  沉着  。  驱除  因  皮肤  过敏  或是  感染  而  引起  的  皮肤  干燥  和  瘙痒  等  皮肤  损害  。
+            抑癌  抗瘤
+            鲜贝  具有  效  预防  癌症  ，  降低  癌变  的  发生率  。  延缓  和  抑制  癌细胞  生长  、  扩散  。  使癌  细胞  退化  、  萎缩  。
+        </segment>
+
+        <pos>
+            健脑#VV  。#PU
+            鲜贝#NN  富含#NN  碳水化合物#VV  ，#PU  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  。#PU
+            健脾#VV  和#CC  胃#VV
+            鲜贝#AD  适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEC  脘腹#NN  胀满#VV  ，#PU  大便#NN  溏泄#NN  ，#PU  食欲不振#NN  ，#PU  肢#AD  倦乏力#VV  等症#NN    。#PU  暖胃#VV  ，#PU  治疗#VV  胃#NN  寒症#NN    。#PU    。#PU
+            养颜#NN  护肤#VV
+            鲜贝#VV  含有#AD  丰富#VA  的#DEC  维生素E#NN  ，#PU  抑制#VV  皮肤#NN  衰老#NN  、#PU  防止#VV  色素#VV  沉着#AD    。#PU  驱除#VV  因#P  皮肤#VV  过敏#NN  或是#NN  感染#NN  而#MSP  引起#VV  的#DEC  皮肤#NR  干燥#NR  和#CC  瘙痒#NR  等#ETC  皮肤#NN  损害#NN    。#PU    。#PU
+            抑癌#NN  抗瘤#VV
+            鲜贝#NN  具有#VV  效#AD  预防#VV  癌症#NN  ，#PU  降低#VV  癌变#NN  的#DEC  发生率#NN    。#PU  延缓#NN  和#CC  抑制#VV  癌细胞#NN  生长#NN  、#PU  扩散#VV    。#PU  使癌#NN  细胞#NN  退化#VV  、#PU  萎缩#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 健脑#VV)
+            (nn, 富含#NN, 鲜贝#NN)  (nsubj, 碳水化合物#VV, 富含#NN)  (root, ROOT#null, 碳水化合物#VV)  (ccomp, 碳水化合物#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (nn, 能源#NN, 功能#NN)  (relcl, 功能#NN, 必须#VV)  (relcl, 能源#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 维持#VV, 能源#NN)
+            (root, ROOT#null, 健脾#VV)  (cc, 健脾#VV, 和#CC)  (conj, 健脾#VV, 胃#VV)
+            (advmod, 适用于#VV, 鲜贝#AD)  (relcl, 脘腹#NN, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (dobj, 运化#VV, 所致#NN)  (mark, 适用于#VV, 的#DEC)  (nsubj, 胀满#VV, 脘腹#NN)  (root, ROOT#null, 胀满#VV)  (nn, 溏泄#NN, 大便#NN)  (nsubj, 倦乏力#VV, 溏泄#NN)  (nsubj, 倦乏力#VV, 食欲不振#NN)  (advmod, 倦乏力#VV, 肢#AD)  (ccomp, 胀满#VV, 倦乏力#VV)  (dobj, 倦乏力#VV, 等症#NN)   (root, ROOT#null, 暖胃#VV)  (ccomp, 暖胃#VV, 治疗#VV)  (nn, 寒症#NN, 胃#NN)  (dobj, 治疗#VV, 寒症#NN)   (root, ROOT#null, null#null)
+            (nsubj, 护肤#VV, 养颜#NN)  (root, ROOT#null, 护肤#VV)
+            (root, ROOT#null, 鲜贝#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 鲜贝#VV, 维生素E#NN)  (conj, 鲜贝#VV, 抑制#VV)  (nn, 衰老#NN, 皮肤#NN)  (dobj, 抑制#VV, 衰老#NN)  (conj, 鲜贝#VV, 防止#VV)  (ccomp, 防止#VV, 色素#VV)  (advmod, 色素#VV, 沉着#AD)   (root, ROOT#null, 驱除#VV)  (case, 皮肤#VV, 因#P)  (prep, 引起#VV, 皮肤#VV)  (nn, 感染#NN, 过敏#NN)  (nn, 感染#NN, 或是#NN)  (dobj, 皮肤#VV, 感染#NN)  (prtmod, 引起#VV, 而#MSP)  (relcl, 损害#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 瘙痒#NR, 皮肤#NR)  (conj, 瘙痒#NR, 干燥#NR)  (cc, 瘙痒#NR, 和#CC)  (nn, 损害#NN, 瘙痒#NR)  (etc, 瘙痒#NR, 等#ETC)  (nn, 损害#NN, 皮肤#NN)  (dobj, 驱除#VV, 损害#NN)   (root, ROOT#null, null#null)
+            (nsubj, 抗瘤#VV, 抑癌#NN)  (root, ROOT#null, 抗瘤#VV)
+            (nsubj, 具有#VV, 鲜贝#NN)  (root, ROOT#null, 具有#VV)  (advmod, 预防#VV, 效#AD)  (relcl, 发生率#NN, 预防#VV)  (dobj, 预防#VV, 癌症#NN)  (conj, 预防#VV, 降低#VV)  (dobj, 降低#VV, 癌变#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 具有#VV, 发生率#NN)   (nsubj, 抑制#VV, 延缓#NN)  (cc, 抑制#VV, 和#CC)  (root, ROOT#null, 抑制#VV)  (nn, 生长#NN, 癌细胞#NN)  (dobj, 抑制#VV, 生长#NN)  (conj, 抑制#VV, 扩散#VV)   (nn, 细胞#NN, 使癌#NN)  (nsubj, 退化#VV, 细胞#NN)  (root, ROOT#null, 退化#VV)  (dep, 退化#VV, 萎缩#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  解毒  生津止渴  清热  利水
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            贝类软体动物中，含一种具有降低血清胆固醇作用的代尔太7-胆固醇和24-亚甲基胆固醇，它们兼有抑制胆固醇在肝脏合成和加速排泄胆固醇的独特作用，从而使体内胆固醇下降。它们的功效比常用的降胆固醇的药物谷固醇更强。人们在食用贝类食物后，常有一种清爽宜人的感觉，这对解除一些烦恼症状无疑是有益的。
+        </rawdata>
+
+        <segment>
+            贝类  软体  动物  中  ，  含  一  种  具有  降低  血清  胆固醇  作用  的  代尔  太  7  -  胆固醇  和  24  -  亚甲基  胆固醇  ，  它们  兼有  抑制  胆固醇  在  肝脏  合成  和  加速  排泄  胆固醇  的  独特  作用  ，  从而  使  体内  胆固醇  下降  。  它们  的  功效  比  常用  的  降  胆固醇  的  药物  谷  固醇  更  强  。  人们  在  食用  贝类  食物  后  ，  常  有  一  种  清爽  宜人  的  感觉  ，  这  对  解除  一些  烦恼  症状  无疑  是  有益的  。
+        </segment>
+
+        <pos>
+            贝类#NN  软体#NN  动物#NN  中#LC  ，#PU  含#VV  一#CD  种#M  具有#VV  降低#VV  血清#NN  胆固醇#NN  作用#NN  的#DEC  代尔#NN  太#AD  7#CD  -#NN  胆固醇#NN  和#CC  24#CD  -#NN  亚甲基#VV  胆固醇#NN  ，#PU  它们#PN  兼有#AD  抑制#VV  胆固醇#NN  在#P  肝脏#NN  合成#JJ  和#NN  加速#AD  排泄#VV  胆固醇#NN  的#DEC  独特#JJ  作用#NN  ，#PU  从而#AD  使#VV  体内#NN  胆固醇#NN  下降#VV    。#PU  它们#PN  的#DEG  功效#NN  比#P  常用#JJ  的#DEG  降#NN  胆固醇#NN  的#DEG  药物#NN  谷#NN  固醇#NN  更#AD  强#VA    。#PU  人们#NN  在#P  食用#VV  贝类#NN  食物#NN  后#LC  ，#PU  常#AD  有#VE  一#CD  种#M  清爽#NN  宜人#NN  的#DEG  感觉#NN  ，#PU  这#PN  对#P  解除#VV  一些#CD  烦恼#NN  症状#NN  无疑#AD  是#VC  有益的#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 动物#NN, 贝类#NN)  (nn, 动物#NN, 软体#NN)  (loc, 亚甲基#VV, 动物#NN)  (case, 动物#NN, 中#LC)  (relcl, 代尔#NN, 含#VV)  (nummod, 种#M, 一#CD)  (range, 含#VV, 种#M)  (conj, 含#VV, 具有#VV)  (nfincl, 作用#NN, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (dobj, 具有#VV, 作用#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 亚甲基#VV, 代尔#NN)  (advmod, 亚甲基#VV, 太#AD)  (nummod, 胆固醇#NN, 7#CD)  (conj, -#NN, 胆固醇#NN)  (cc, -#NN, 和#CC)  (nummod, -#NN, 24#CD)  (root, ROOT#null, 亚甲基#VV)  (dobj, 亚甲基#VV, 胆固醇#NN)  (nsubj, 抑制#VV, 它们#PN)  (advmod, 抑制#VV, 兼有#AD)  (conj, 亚甲基#VV, 抑制#VV)  (nsubj, 排泄#VV, 胆固醇#NN)  (case, 和#NN, 在#P)  (nn, 和#NN, 肝脏#NN)  (amod, 和#NN, 合成#JJ)  (prep, 排泄#VV, 和#NN)  (advmod, 排泄#VV, 加速#AD)  (relcl, 作用#NN, 排泄#VV)  (dobj, 排泄#VV, 胆固醇#NN)  (mark, 排泄#VV, 的#DEC)  (amod, 作用#NN, 独特#JJ)  (dobj, 抑制#VV, 作用#NN)  (advmod, 使#VV, 从而#AD)  (dep, 抑制#VV, 使#VV)  (nn, 胆固醇#NN, 体内#NN)  (dobj, 使#VV, 胆固醇#NN)  (dep, 使#VV, 下降#VV)   (assmod, 功效#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (nsubj, 强#VA, 功效#NN)  (case, 固醇#NN, 比#P)  (assmod, 胆固醇#NN, 常用#JJ)  (case, 常用#JJ, 的#DEG)  (nn, 胆固醇#NN, 降#NN)  (assmod, 固醇#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nn, 固醇#NN, 药物#NN)  (nn, 固醇#NN, 谷#NN)  (prep, 强#VA, 固醇#NN)  (advmod, 强#VA, 更#AD)  (root, ROOT#null, 强#VA)   (nsubj, 有#VE, 人们#NN)  (case, 食用#VV, 在#P)  (prep, 有#VE, 食用#VV)  (nn, 食物#NN, 贝类#NN)  (dobj, 食用#VV, 食物#NN)  (case, 食用#VV, 后#LC)  (advmod, 有#VE, 常#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 宜人#NN, 种#M)  (nn, 宜人#NN, 清爽#NN)  (assmod, 感觉#NN, 宜人#NN)  (case, 宜人#NN, 的#DEG)  (dobj, 有#VE, 感觉#NN)  (nsubj, 有益的#NN, 这#PN)  (case, 解除#VV, 对#P)  (prep, 有益的#NN, 解除#VV)  (nummod, 症状#NN, 一些#CD)  (nn, 症状#NN, 烦恼#NN)  (dobj, 解除#VV, 症状#NN)  (advmod, 有益的#NN, 无疑#AD)  (cop, 有益的#NN, 是#VC)  (conj, 有#VE, 有益的#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            贝类本身极富鲜味，烹制时千万不要再加味精，也不宜多放盐，以免鲜味反失，贝类中的泥肠不宜食用。
+        </rawdata>
+
+        <segment>
+            贝类  本身  极富  鲜味  ，  烹制  时  千万  不  要  再  加  味精  ，  也  不  宜  多  放  盐  ，  以免  鲜味  反失  ，  贝类  中  的  泥肠  不  宜  食用  。
+        </segment>
+
+        <pos>
+            贝类#NR  本身#PN  极富#AD  鲜味#VV  ，#PU  烹制#NN  时#LC  千万#CD  不#AD  要#VV  再#AD  加#VV  味精#NN  ，#PU  也#AD  不#AD  宜#NR  多#AD  放#VV  盐#NN  ，#PU  以免#VV  鲜味#VV  反失#NN  ，#PU  贝类#NN  中#LC  的#DEG  泥肠#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鲜味#VV, 贝类#NR)  (xsubj, 放#VV, 贝类#NR)  (nsubj, 鲜味#VV, 本身#PN)  (xsubj, 放#VV, 本身#PN)  (advmod, 鲜味#VV, 极富#AD)  (root, ROOT#null, 鲜味#VV)  (loc, 加#VV, 烹制#NN)  (case, 烹制#NN, 时#LC)  (nsubj, 加#VV, 千万#CD)  (neg, 加#VV, 不#AD)  (mmod, 加#VV, 要#VV)  (advmod, 加#VV, 再#AD)  (dep, 放#VV, 加#VV)  (dobj, 加#VV, 味精#NN)  (advmod, 放#VV, 也#AD)  (neg, 放#VV, 不#AD)  (dep, 放#VV, 宜#NR)  (advmod, 放#VV, 多#AD)  (ccomp, 鲜味#VV, 放#VV)  (dobj, 放#VV, 盐#NN)  (conj, 放#VV, 以免#VV)  (ccomp, 以免#VV, 鲜味#VV)  (dobj, 鲜味#VV, 反失#NN)  (assmod, 泥肠#NN, 贝类#NN)  (case, 贝类#NN, 中#LC)  (case, 贝类#NN, 的#DEG)  (nsubj, 食用#VV, 泥肠#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 鲜味#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/301055287243.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\128 鲜贝.jpg
+    </picturelocalurl>
+
+</content>

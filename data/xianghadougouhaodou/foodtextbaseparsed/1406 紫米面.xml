@@ -1,0 +1,148 @@
+<content>
+
+    <id>
+        1406
+    </id>
+
+    <foodname>
+        紫米面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            面醒好后加入紫米粉做成紫米面
+        </rawdata>
+
+        <segment>
+            面醒  好  后  加入  紫  米粉  做成  紫  米面
+        </segment>
+
+        <pos>
+            面醒#NR  好#VA  后#LC  加入#VV  紫#VA  米粉#VA  做成#AD  紫#VA  米面#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 加入#VV, 面醒#NR)  (loc, 加入#VV, 好#VA)  (case, 好#VA, 后#LC)  (root, ROOT#null, 加入#VV)  (nfincl, 米面#NN, 紫#VA)  (comod, 紫#VA, 米粉#VA)  (advmod, 紫#VA, 做成#AD)  (ccomp, 紫#VA, 紫#VA)  (dobj, 加入#VV, 米面#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养心、益肾、除热、止渴
+            主治：脏躁、烦热、消渴、泄痢、痈肿、外伤出血及烫伤等。
+        </rawdata>
+
+        <segment>
+            养心  、  益肾  、  除热  、  止渴
+            主治  ：  脏躁  、  烦热  、  消渴  、  泄痢  、  痈肿  、  外伤  出血  及  烫伤  等  。
+        </segment>
+
+        <pos>
+            养心#NR  、#PU  益肾#NR  、#PU  除热#NR  、#PU  止渴#NR
+            。#NR
+            主治#VV  ：#PU  脏躁#NR  、#PU  烦热#NR  、#PU  消渴#NR  、#PU  泄痢#NR  、#PU  痈肿#NR  、#PU  外伤#NR  出血#VV  及#CC  烫伤#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 止渴#NR, 养心#NR)  (conj, 止渴#NR, 益肾#NR)  (conj, 止渴#NR, 除热#NR)  (root, ROOT#null, 止渴#NR)
+            (root, ROOT#null, 主治#VV)  (conj, 外伤#NR, 脏躁#NR)  (conj, 外伤#NR, 烦热#NR)  (conj, 外伤#NR, 消渴#NR)  (conj, 外伤#NR, 泄痢#NR)  (conj, 外伤#NR, 痈肿#NR)  (nsubj, 出血#VV, 外伤#NR)  (ccomp, 主治#VV, 出血#VV)  (cc, 出血#VV, 及#CC)  (conj, 出血#VV, 烫伤#VV)  (dep, 出血#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            紫米中含有丰富蛋白质、脂肪、赖氨酸、核黄素、硫安素、叶酸等多种维生素，以及铁、锌、钙、磷等人体所需微量元素。
+        </rawdata>
+
+        <segment>
+            紫  米  中  含有  丰富  蛋白质  、  脂肪  、  赖氨酸  、  核黄素  、  硫安素  、  叶酸  等  多  种  维生素  ，  以及  铁  、  锌  、  钙  、  磷  等  人体  所需  微量  元素  。
+        </segment>
+
+        <pos>
+            紫#VA  米#M  中#LC  含有#AD  丰富#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  赖氨酸#NR  、#PU  核黄素#NR  、#PU  硫安素#NR  、#PU  叶酸#NR  等#ETC  多#CD  种#M  维生素#NN  ，#PU  以及#CC  铁#NN  、#PU  锌#NN  、#PU  钙#NN  、#PU  磷#NN  等#ETC  人体#NN  所需#VV  微量#NN  元素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 丰富#VV, 紫#VA)  (loc, 丰富#VV, 米#M)  (case, 米#M, 中#LC)  (advmod, 丰富#VV, 含有#AD)  (root, ROOT#null, 丰富#VV)  (conj, 叶酸#NR, 蛋白质#NR)  (conj, 叶酸#NR, 脂肪#NR)  (conj, 叶酸#NR, 赖氨酸#NR)  (conj, 叶酸#NR, 核黄素#NR)  (conj, 叶酸#NR, 硫安素#NR)  (nn, 维生素#NN, 叶酸#NR)  (etc, 叶酸#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (dobj, 丰富#VV, 维生素#NN)  (cc, 丰富#VV, 以及#CC)  (conj, 磷#NN, 铁#NN)  (conj, 磷#NN, 锌#NN)  (conj, 磷#NN, 钙#NN)  (nn, 人体#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nsubj, 所需#VV, 人体#NN)  (dep, 丰富#VV, 所需#VV)  (nn, 元素#NN, 微量#NN)  (dobj, 所需#VV, 元素#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.面粉600g干酵母3g温水发面。面醒好后取一半加入150g紫米粉合成紫面团。2.取等份两色面团擀成厚薄大小一致的面饼，两快面饼叠加卷起。
+            3.卷好后切成3公分大小的面段，将切好的面翻转，用筷子将两快面团夹一下。4.把做好的花卷入锅醒15分钟，水开后中火蒸20分钟即可。
+        </rawdata>
+
+        <segment>
+            面粉  600g  干酵母  3  g  温水  发面  。  面醒  好  后  取  一半  加入  150  g  紫  米粉  合成  紫  面团  。  2  .  取  等份  两  色  面团  擀成  厚薄  大小  一致  的  面饼  ，  两  快  面饼  叠加  卷起  。
+            卷  好  后  切成  3  公分  大小  的  面段  ，  将  切  好  的  面  翻转  ，  用  筷子  将  两  快  面团  夹  一下  。  4  .  把  做好  的  花卷  入  锅醒  15  分钟  ，  水  开  后  中  火  蒸  20  分钟  即可  。
+        </segment>
+
+        <pos>
+            面粉#NN  600g#CD  干酵母#NN  3#CD  g#NN  温水#VV  发面#NN    。#PU  面醒#AD  好#VA  后#LC  取#VV  一半#CD  加入#VV  150#CD  g#NN  紫#VA  米粉#VV  合成#JJ  紫#VA  面团#NN    。#PU  2#CD  .#NN  取#VV  等份#NR  两#CD  色#NN  面团#VV  擀成#NN  厚薄#NN  大小#NN  一致#NN  的#DEC  面饼#NN  ，#PU  两#CD  快#VA  面饼#VV  叠加#NN  卷起#NN    。#PU    。#PU
+            卷#VV  好#VA  后#LC  切成#VV  3#CD  公分#NN  大小#NN  的#DEC  面段#NN  ，#PU  将#AD  切#VV  好#VA  的#DEC  面#NN  翻转#NN  ，#PU  用#P  筷子#NN  将#BA  两#CD  快#JJ  面团#NN  夹#VV  一下#AD    。#PU  4#CD  .#NN  把#BA  做好#VV  的#DEC  花卷#NN  入#VV  锅醒#NN  15#CD  分钟#M  ，#PU  水#NN  开#VV  后#LC  中#NR  火#NN  蒸#VV  20#CD  分钟#M  即可#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 干酵母#NN, 面粉#NN)  (nummod, 干酵母#NN, 600g#CD)  (nn, g#NN, 干酵母#NN)  (nummod, g#NN, 3#CD)  (nsubj, 温水#VV, g#NN)  (root, ROOT#null, 温水#VV)  (dobj, 温水#VV, 发面#NN)   (advmod, 好#VA, 面醒#AD)  (loc, 取#VV, 好#VA)  (case, 好#VA, 后#LC)  (conj, 米粉#VV, 取#VV)  (range, 取#VV, 一半#CD)  (conj, 取#VV, 加入#VV)  (nummod, g#NN, 150#CD)  (dobj, 加入#VV, g#NN)  (dep, 取#VV, 紫#VA)  (root, ROOT#null, 米粉#VV)  (amod, 面团#NN, 合成#JJ)  (nfincl, 面团#NN, 紫#VA)  (dobj, 米粉#VV, 面团#NN)   (nummod, .#NN, 2#CD)  (conj, 面饼#VV, 取#VV)  (nn, 色#NN, 等份#NR)  (nummod, 色#NN, 两#CD)  (nsubj, 面团#VV, 色#NN)  (relcl, 面饼#NN, 面团#VV)  (nn, 一致#NN, 擀成#NN)  (nn, 一致#NN, 厚薄#NN)  (nn, 一致#NN, 大小#NN)  (dobj, 面团#VV, 一致#NN)  (mark, 面团#VV, 的#DEC)  (dobj, 取#VV, 面饼#NN)  (nsubj, 快#VA, 两#CD)  (conj, 取#VV, 快#VA)  (root, ROOT#null, 面饼#VV)  (nn, 卷起#NN, 叠加#NN)  (dobj, 面饼#VV, 卷起#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 卷#VV)  (loc, 切成#VV, 好#VA)  (case, 好#VA, 后#LC)  (relcl, 面段#NN, 切成#VV)  (nummod, 大小#NN, 3#CD)  (nn, 大小#NN, 公分#NN)  (dobj, 切成#VV, 大小#NN)  (mark, 切成#VV, 的#DEC)  (dobj, 卷#VV, 面段#NN)  (advmod, 切#VV, 将#AD)  (conj, 卷#VV, 切#VV)  (relcl, 翻转#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 翻转#NN, 面#NN)  (dobj, 切#VV, 翻转#NN)  (case, 筷子#NN, 用#P)  (prep, 夹#VV, 筷子#NN)  (ba, 夹#VV, 将#BA)  (nummod, 面团#NN, 两#CD)  (amod, 面团#NN, 快#JJ)  (nsubj, 夹#VV, 面团#NN)  (conj, 卷#VV, 夹#VV)  (advmod, 夹#VV, 一下#AD)   (nummod, .#NN, 4#CD)  (ba, 入#VV, 把#BA)  (relcl, 花卷#NN, 做好#VV)  (mark, 做好#VV, 的#DEC)  (nsubj, 入#VV, 花卷#NN)  (root, ROOT#null, 入#VV)  (dobj, 入#VV, 锅醒#NN)  (nummod, 分钟#M, 15#CD)  (range, 入#VV, 分钟#M)  (nsubj, 开#VV, 水#NN)  (loc, 蒸#VV, 开#VV)  (case, 开#VV, 后#LC)  (nn, 火#NN, 中#NR)  (nsubj, 蒸#VV, 火#NN)  (conj, 入#VV, 蒸#VV)  (nummod, 分钟#M, 20#CD)  (clf, 即可#NN, 分钟#M)  (dobj, 蒸#VV, 即可#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/fe/e5/58878_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1406 紫米面.jpg
+    </picturelocalurl>
+
+</content>

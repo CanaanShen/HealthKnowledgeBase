@@ -1,0 +1,174 @@
+<content>
+
+    <id>
+        605
+    </id>
+
+    <foodname>
+        滑子菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        菌藻类
+    </secondcategory>
+
+    <alias>
+        珍珠菇、滑菇、光帽鳞伞、日本叫纳美菇
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人皆可食用。
+        </rawdata>
+
+        <segment>
+            一般  人  皆  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  皆#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 皆#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸(微克)
+            </elename>
+            <elevalue>
+                58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            滑子菇多丛生，菌盖半圆型，黄褐色，上有一层粘液，菌柄短粗，直径8--15mm。滑子蘑是腐生类型。属木材腐生菌，利用分解木材、枯草中获得营养，碳是滑子菇的重要养分及能量来源，目前市场前景看好。
+        </rawdata>
+
+        <segment>
+            滑  子  菇多  丛生  ，  菌盖  半  圆型  ，  黄褐色  ，  上有  一  层  粘液  ，  菌柄  短粗  ，  直径  8--15mm  。  滑子蘑  是  腐生  类型  。  属  木材  腐生菌  ，  利用  分解  木材  、  枯草  中  获得  营养  ，  碳  是  滑子菇  的  重要  养分  及  能量  来源  ，  目前  市场  前景  看好  。
+        </segment>
+
+        <pos>
+            滑#NN  子#NN  菇多#VV  丛生#NN  ，#PU  菌盖#VV  半#CD  圆型#NN  ，#PU  黄褐色#VV  ，#PU  上有#VV  一#CD  层#M  粘液#NN  ，#PU  菌柄#VV  短粗#NN  ，#PU  直径#NN  8#CD  --#VV  15mm#CD    。#PU  滑子蘑#NN  是#VC  腐生#NN  类型#NN    。#PU  属#VV  木材#NN  腐生菌#NN  ，#PU  利用#VV  分解#VV  木材#NN  、#PU  枯草#NN  中#LC  获得#VV  营养#VA  ，#PU  碳#AD  是#VC  滑子菇#NN  的#DEC  重要#JJ  养分#NN  及#CC  能量#NN  来源#NN  ，#PU  目前#NT  市场#NN  前景#NN  看好#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 子#NN, 滑#NN)  (nsubj, 菇多#VV, 子#NN)  (root, ROOT#null, 菇多#VV)  (dobj, 菇多#VV, 丛生#NN)  (conj, 菇多#VV, 菌盖#VV)  (nummod, 圆型#NN, 半#CD)  (dobj, 菌盖#VV, 圆型#NN)  (conj, 菇多#VV, 黄褐色#VV)  (conj, 菇多#VV, 上有#VV)  (nummod, 层#M, 一#CD)  (clf, 粘液#NN, 层#M)  (dobj, 上有#VV, 粘液#NN)  (conj, 菇多#VV, 菌柄#VV)  (dobj, 菌柄#VV, 短粗#NN)  (nsubj, --#VV, 直径#NN)  (nsubj, --#VV, 8#CD)  (range, --#VV, 15mm#CD)   (nsubj, 类型#NN, 滑子蘑#NN)  (cop, 类型#NN, 是#VC)  (nn, 类型#NN, 腐生#NN)  (root, ROOT#null, 类型#NN)   (dep, 看好#VV, 属#VV)  (nn, 腐生菌#NN, 木材#NN)  (dobj, 属#VV, 腐生菌#NN)  (conj, 属#VV, 利用#VV)  (dep, 来源#NN, 分解#VV)  (dobj, 分解#VV, 木材#NN)  (loc, 获得#VV, 枯草#NN)  (case, 枯草#NN, 中#LC)  (conj, 分解#VV, 获得#VV)  (relcl, 养分#NN, 营养#VA)  (advmod, 滑子菇#NN, 碳#AD)  (cop, 滑子菇#NN, 是#VC)  (dep, 营养#VA, 滑子菇#NN)  (mark, 营养#VA, 的#DEC)  (amod, 养分#NN, 重要#JJ)  (dobj, 获得#VV, 养分#NN)  (cc, 分解#VV, 及#CC)  (dep, 分解#VV, 能量#NN)  (dobj, 利用#VV, 来源#NN)  (tmod, 看好#VV, 目前#NT)  (nn, 前景#NN, 市场#NN)  (nsubj, 看好#VV, 前景#NN)  (root, ROOT#null, 看好#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            滑子菇不仅味道鲜美，营养丰富，而且附着在滑菇菌伞表面的粘性物质是一种核酸，对保持人体的精力和脑力大有益处，并且还有抑制肿瘤的作用。滑子菇含有粗蛋白、脂肪、碳水化合物、粗纤维、灰分、钙、磷、铁、维生素B、维生素C、烟酸和人体所必须的其它各种氨基酸。据有关专家试验，其提取物对小白鼠s～180和艾氏腹水癌抑制率均为70%。
+        </rawdata>
+
+        <segment>
+            滑子菇  不仅  味道  鲜美  ，  营养  丰富  ，  而且  附着  在  滑菇菌伞  表面  的  粘性  物质  是  一  种  核酸  ，  对  保持  人体  的  精力  和  脑力  大有益处  ，  并且  还  有  抑制  肿瘤  的  作用  。  滑子菇  含有  粗  蛋白  、  脂肪  、  碳水化合物  、  粗  纤维  、  灰分  、  钙  、  磷  、  铁  、  维生素B  、  维生素C  、  烟酸  和  人体  所  必须  的  其它  各  种  氨基酸  。  据  有关  专家  试验  ，  其  提取  物  对  小  白  鼠  s  ～  180  和  艾氏  腹水癌  抑制  率  均  为  70%  。
+        </segment>
+
+        <pos>
+            滑子菇#NN  不仅#CC  味道#NN  鲜美#VV  ，#PU  营养#VA  丰富#VA  ，#PU  而且#CC  附着#AD  在#P  滑菇菌伞#NR  表面#VA  的#DEC  粘性#NN  物质#NN  是#VC  一#CD  种#M  核酸#NN  ，#PU  对#P  保持#VV  人体#NN  的#DEC  精力#NN  和#CC  脑力#NN  大有益处#VV  ，#PU  并且#CC  还#AD  有#VE  抑制#VV  肿瘤#NN  的#DEC  作用#NN    。#PU  滑子菇#NN  含有#NN  粗#VV  蛋白#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  粗#NN  纤维#NN  、#PU  灰分#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  维生素B#NR  、#PU  维生素C#NR  、#PU  烟酸#NR  和#CC  人体#NR  所#MSP  必须#VV  的#DEC  其它#DT  各#DT  种#M  氨基酸#NN    。#PU  据#P  有关#JJ  专家#NN  试验#NN  ，#PU  其#PN  提取#VV  物#NN  对#P  小#JJ  白#JJ  鼠#NN  s#NN  ～#VV  180#CD  和#CC  艾氏#CD  腹水癌#NN  抑制#NN  率#NN  均#AD  为#VC  70#CD  %#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 味道#NN, 滑子菇#NN)  (cc, 味道#NN, 不仅#CC)  (nsubj, 鲜美#VV, 味道#NN)  (root, ROOT#null, 鲜美#VV)  (relcl, 物质#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 而且#CC)  (advmod, 表面#VA, 附着#AD)  (case, 滑菇菌伞#NR, 在#P)  (prep, 表面#VA, 滑菇菌伞#NR)  (dep, 营养#VA, 表面#VA)  (mark, 营养#VA, 的#DEC)  (nn, 物质#NN, 粘性#NN)  (nsubj, 核酸#NN, 物质#NN)  (cop, 核酸#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 核酸#NN, 种#M)  (ccomp, 鲜美#VV, 核酸#NN)  (case, 脑力#NN, 对#P)  (relcl, 脑力#NN, 保持#VV)  (dobj, 保持#VV, 人体#NN)  (mark, 保持#VV, 的#DEC)  (conj, 脑力#NN, 精力#NN)  (cc, 脑力#NN, 和#CC)  (prep, 大有益处#VV, 脑力#NN)  (conj, 核酸#NN, 大有益处#VV)  (cc, 大有益处#VV, 并且#CC)  (advmod, 有#VE, 还#AD)  (dep, 大有益处#VV, 有#VE)  (relcl, 作用#NN, 抑制#VV)  (dobj, 抑制#VV, 肿瘤#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nn, 含有#NN, 滑子菇#NN)  (nsubj, 粗#VV, 含有#NN)  (root, ROOT#null, 粗#VV)  (conj, 人体#NR, 蛋白#NR)  (conj, 人体#NR, 脂肪#NR)  (conj, 人体#NR, 碳水化合物#NR)  (nn, 纤维#NN, 粗#NN)  (conj, 人体#NR, 纤维#NN)  (conj, 人体#NR, 灰分#NR)  (conj, 人体#NR, 钙#NR)  (conj, 人体#NR, 磷#NN)  (conj, 人体#NR, 铁#NN)  (conj, 人体#NR, 维生素B#NR)  (conj, 人体#NR, 维生素C#NR)  (conj, 人体#NR, 烟酸#NR)  (cc, 人体#NR, 和#CC)  (dep, 氨基酸#NN, 人体#NR)  (prtmod, 必须#VV, 所#MSP)  (dep, 氨基酸#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (det, 氨基酸#NN, 其它#DT)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (range, 粗#VV, 氨基酸#NN)   (case, 试验#NN, 据#P)  (amod, 专家#NN, 有关#JJ)  (nn, 试验#NN, 专家#NN)  (prep, 提取#VV, 试验#NN)  (nsubj, 提取#VV, 其#PN)  (root, ROOT#null, 提取#VV)  (nsubj, ～#VV, 物#NN)  (case, s#NN, 对#P)  (amod, 鼠#NN, 小#JJ)  (amod, 鼠#NN, 白#JJ)  (nn, s#NN, 鼠#NN)  (prep, ～#VV, s#NN)  (nummod, 艾氏#CD, 180#CD)  (cc, 艾氏#CD, 和#CC)  (range, ～#VV, 艾氏#CD)  (nn, 率#NN, 腹水癌#NN)  (nn, 率#NN, 抑制#NN)  (nsubj, %#NN, 率#NN)  (advmod, %#NN, 均#AD)  (cop, %#NN, 为#VC)  (nummod, %#NN, 70#CD)  (conj, 提取#VV, %#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗癌防癌  发散风寒  补肾阳  活血通络  辅助降血脂  增强免疫力  抗胃溃疡
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.滑子菇不仅味道鲜美，营养丰富，而且附着在滑菇菌伞表面的粘性物质是一种核酸，对保持人体的精力和脑力大有益处，并且还有抑制肿瘤的作用。、滑子菇含有粗蛋白、脂肪、碳水化合物、粗纤维、灰分、钙、磷、铁、维生素B、维生素C、烟酸和人体所必须的其它各种氨基酸。据有关专家试验，其提取物对小白鼠s～180和艾氏腹水癌抑制率均为70%。
+            2.滑菇菌伞表面的粘性物质是一种核酸，对保持人体的精力和脑力大有益处，并且还有抑制肿瘤的作用。滑子菇含有粗蛋白、脂肪、碳水化合物、粗纤维、灰分、钙、磷、铁、维生素B、维生素C、烟酸和人体所必须的其它各种氨基酸。
+        </rawdata>
+
+        <segment>
+            滑子菇  不仅  味道  鲜美  ，  营养  丰富  ，  而且  附着  在  滑菇菌伞  表面  的  粘性  物质  是  一  种  核酸  ，  对  保持  人体  的  精力  和  脑力  大有益处  ，  并且  还  有  抑制  肿瘤  的  作用  。  、  滑子菇  含有  粗  蛋白  、  脂肪  、  碳水化合物  、  粗  纤维  、  灰分  、  钙  、  磷  、  铁  、  维生素B  、  维生素C  、  烟酸  和  人体  所  必须  的  其它  各  种  氨基酸  。  据  有关  专家  试验  ，  其  提取  物  对  小  白  鼠  s  ～  180  和  艾氏  腹水癌  抑制  率  均  为  70%  。
+            滑菇菌伞  表面  的  粘性  物质  是  一  种  核酸  ，  对  保持  人体  的  精力  和  脑力  大有益处  ，  并且  还  有  抑制  肿瘤  的  作用  。  滑子菇  含有  粗  蛋白  、  脂肪  、  碳水化合物  、  粗  纤维  、  灰分  、  钙  、  磷  、  铁  、  维生素B  、  维生素C  、  烟酸  和  人体  所  必须  的  其它  各  种  氨基酸  。
+        </segment>
+
+        <pos>
+            滑子菇#NN  不仅#CC  味道#NN  鲜美#VV  ，#PU  营养#VA  丰富#VA  ，#PU  而且#CC  附着#AD  在#P  滑菇菌伞#NR  表面#VA  的#DEC  粘性#NN  物质#NN  是#VC  一#CD  种#M  核酸#NN  ，#PU  对#P  保持#VV  人体#NN  的#DEC  精力#NN  和#CC  脑力#NN  大有益处#VV  ，#PU  并且#CC  还#AD  有#VE  抑制#VV  肿瘤#NN  的#DEC  作用#NN    。#PU  、#NN  滑子菇#NN  含有#VV  粗#VV  蛋白#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  粗#NR  纤维#NR  、#PU  灰分#NR  、#PU  钙#NR  、#PU  磷#NR  、#PU  铁#NR  、#PU  维生素B#NR  、#PU  维生素C#NR  、#PU  烟酸#NR  和#CC  人体#NR  所#MSP  必须#VV  的#DEC  其它#DT  各#DT  种#M  氨基酸#NN    。#PU  据#P  有关#JJ  专家#NN  试验#NN  ，#PU  其#PN  提取#VV  物#NN  对#P  小#JJ  白#JJ  鼠#NN  s#NN  ～#VV  180#CD  和#CC  艾氏#CD  腹水癌#NN  抑制#NN  率#NN  均#AD  为#VC  70#CD  %#NN    。#PU    。#PU
+            滑菇菌伞#AD  表面#VA  的#DEC  粘性#NN  物质#NN  是#VC  一#CD  种#M  核酸#NN  ，#PU  对#P  保持#VV  人体#NN  的#DEC  精力#NN  和#CC  脑力#NN  大有益处#VV  ，#PU  并且#CC  还#AD  有#VE  抑制#VV  肿瘤#NN  的#DEC  作用#NN    。#PU  滑子菇#NN  含有#NN  粗#VV  蛋白#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  粗#NN  纤维#NN  、#PU  灰分#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  维生素B#NR  、#PU  维生素C#NR  、#PU  烟酸#NR  和#CC  人体#NR  所#MSP  必须#VV  的#DEC  其它#DT  各#DT  种#M  氨基酸#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 味道#NN, 滑子菇#NN)  (cc, 味道#NN, 不仅#CC)  (nsubj, 鲜美#VV, 味道#NN)  (root, ROOT#null, 鲜美#VV)  (relcl, 物质#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 而且#CC)  (advmod, 表面#VA, 附着#AD)  (case, 滑菇菌伞#NR, 在#P)  (prep, 表面#VA, 滑菇菌伞#NR)  (dep, 营养#VA, 表面#VA)  (mark, 营养#VA, 的#DEC)  (nn, 物质#NN, 粘性#NN)  (nsubj, 核酸#NN, 物质#NN)  (cop, 核酸#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 核酸#NN, 种#M)  (ccomp, 鲜美#VV, 核酸#NN)  (case, 脑力#NN, 对#P)  (relcl, 脑力#NN, 保持#VV)  (dobj, 保持#VV, 人体#NN)  (mark, 保持#VV, 的#DEC)  (conj, 脑力#NN, 精力#NN)  (cc, 脑力#NN, 和#CC)  (prep, 大有益处#VV, 脑力#NN)  (conj, 核酸#NN, 大有益处#VV)  (cc, 大有益处#VV, 并且#CC)  (advmod, 有#VE, 还#AD)  (dep, 大有益处#VV, 有#VE)  (relcl, 作用#NN, 抑制#VV)  (dobj, 抑制#VV, 肿瘤#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nsubj, 含有#VV, 滑子菇#NN)  (root, ROOT#null, 含有#VV)  (relcl, 氨基酸#NN, 粗#VV)  (conj, 人体#NR, 蛋白#NR)  (conj, 人体#NR, 脂肪#NR)  (conj, 人体#NR, 碳水化合物#NR)  (nn, 人体#NR, 粗#NR)  (conj, 人体#NR, 纤维#NR)  (conj, 人体#NR, 灰分#NR)  (conj, 人体#NR, 钙#NR)  (conj, 人体#NR, 磷#NR)  (conj, 人体#NR, 铁#NR)  (conj, 人体#NR, 维生素B#NR)  (conj, 人体#NR, 维生素C#NR)  (conj, 人体#NR, 烟酸#NR)  (cc, 人体#NR, 和#CC)  (dobj, 粗#VV, 人体#NR)  (prtmod, 必须#VV, 所#MSP)  (conj, 粗#VV, 必须#VV)  (mark, 粗#VV, 的#DEC)  (det, 氨基酸#NN, 其它#DT)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 含有#VV, 氨基酸#NN)   (case, 试验#NN, 据#P)  (amod, 专家#NN, 有关#JJ)  (nn, 试验#NN, 专家#NN)  (prep, 提取#VV, 试验#NN)  (nsubj, 提取#VV, 其#PN)  (root, ROOT#null, 提取#VV)  (nsubj, ～#VV, 物#NN)  (case, s#NN, 对#P)  (amod, 鼠#NN, 小#JJ)  (amod, 鼠#NN, 白#JJ)  (nn, s#NN, 鼠#NN)  (prep, ～#VV, s#NN)  (nummod, 艾氏#CD, 180#CD)  (cc, 艾氏#CD, 和#CC)  (range, ～#VV, 艾氏#CD)  (nn, 率#NN, 腹水癌#NN)  (nn, 率#NN, 抑制#NN)  (nsubj, %#NN, 率#NN)  (advmod, %#NN, 均#AD)  (cop, %#NN, 为#VC)  (nummod, %#NN, 70#CD)  (conj, 提取#VV, %#NN)   (root, ROOT#null, null#null)
+            (advmod, 表面#VA, 滑菇菌伞#AD)  (relcl, 物质#NN, 表面#VA)  (mark, 表面#VA, 的#DEC)  (nn, 物质#NN, 粘性#NN)  (nsubj, 大有益处#VV, 物质#NN)  (cop, 大有益处#VV, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 核酸#NN, 种#M)  (nsubj, 大有益处#VV, 核酸#NN)  (case, 脑力#NN, 对#P)  (relcl, 脑力#NN, 保持#VV)  (dobj, 保持#VV, 人体#NN)  (mark, 保持#VV, 的#DEC)  (conj, 脑力#NN, 精力#NN)  (cc, 脑力#NN, 和#CC)  (prep, 大有益处#VV, 脑力#NN)  (root, ROOT#null, 大有益处#VV)  (cc, 大有益处#VV, 并且#CC)  (advmod, 有#VE, 还#AD)  (dep, 大有益处#VV, 有#VE)  (relcl, 作用#NN, 抑制#VV)  (dobj, 抑制#VV, 肿瘤#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nn, 含有#NN, 滑子菇#NN)  (nsubj, 粗#VV, 含有#NN)  (root, ROOT#null, 粗#VV)  (conj, 人体#NR, 蛋白#NR)  (conj, 人体#NR, 脂肪#NR)  (conj, 人体#NR, 碳水化合物#NR)  (nn, 纤维#NN, 粗#NN)  (conj, 人体#NR, 纤维#NN)  (conj, 人体#NR, 灰分#NR)  (conj, 人体#NR, 钙#NR)  (conj, 人体#NR, 磷#NN)  (conj, 人体#NR, 铁#NN)  (conj, 人体#NR, 维生素B#NR)  (conj, 人体#NR, 维生素C#NR)  (conj, 人体#NR, 烟酸#NR)  (cc, 人体#NR, 和#CC)  (dep, 氨基酸#NN, 人体#NR)  (prtmod, 必须#VV, 所#MSP)  (dep, 氨基酸#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (det, 氨基酸#NN, 其它#DT)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (range, 粗#VV, 氨基酸#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374464381.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\605 滑子菇.jpg
+    </picturelocalurl>
+
+</content>

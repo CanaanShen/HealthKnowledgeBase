@@ -1,0 +1,223 @@
+<content>
+
+    <id>
+        127
+    </id>
+
+    <foodname>
+        扇贝
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        帆立贝、海扇、带子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有宿疾者、脾胃虚寒者慎食。
+        </rawdata>
+
+        <segment>
+            有  宿疾  者  、  脾胃  虚寒者  慎食  。
+        </segment>
+
+        <pos>
+            有#VE  宿疾#NN  者#NN  、#PU  脾胃#NN  虚寒者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (nn, 慎食#NN, 宿疾#NN)  (conj, 慎食#NN, 者#NN)  (nn, 慎食#NN, 脾胃#NN)  (nn, 慎食#NN, 虚寒者#NN)  (dobj, 有#VE, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高胆固醇、高血脂体质的人以及患有甲状腺肿大、支气管炎、胃病等疾病的人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高  胆固醇  、  高血脂  体质  的  人  以及  患有  甲状腺  肿大  、  支气管炎  、  胃病  等  疾病  的  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  高#JJ  胆固醇#NN  、#PU  高血脂#NN  体质#NN  的#DEC  人#NN  以及#CC  患有#NN  甲状腺#VV  肿大#NR  、#PU  支气管炎#NR  、#PU  胃病#NR  等#ETC  疾病#NN  的#DEG  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (relcl, 患有#NN, 适宜#VV)  (amod, 胆固醇#NN, 高#JJ)  (conj, 体质#NN, 胆固醇#NN)  (nn, 体质#NN, 高血脂#NN)  (dobj, 适宜#VV, 体质#NN)  (mark, 适宜#VV, 的#DEC)  (conj, 患有#NN, 人#NN)  (cc, 患有#NN, 以及#CC)  (nsubj, 甲状腺#VV, 患有#NN)  (root, ROOT#null, 甲状腺#VV)  (conj, 胃病#NR, 肿大#NR)  (conj, 胃病#NR, 支气管炎#NR)  (nn, 疾病#NN, 胃病#NR)  (etc, 胃病#NR, 等#ETC)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 甲状腺#VV, 人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            扇贝是扇贝属的双壳类软体动物的代称，约有400余种。该科的60余种是世界各地重要的海洋渔业资源之一，壳、肉、珍珠层具有极高的利用价值。无论是在东方还是西方的食谱中，扇贝都是一种极受欢迎的贝类食物。在扇贝中有两种类型的肉，一种是扇贝的内敛肌，呈白色，很有肉感，另一种则是分布在内敛肌周围的肉，红色且很柔软。通常，扇贝中的肉只取内敛肌作为食材，而周围红色的肉则被丢弃。
+            扇贝有两个壳，大小几乎相等，壳面一般为紫褐色、浅褐色、黄褐色、红褐色、杏黄色、灰白色等。贝克内面为白色，壳内的肌肉为可食部位。闭壳肌肉色洁白、细嫩、味道鲜美，营养丰富。闭壳肌干制后即是“干贝”，被列入八珍之一。
+        </rawdata>
+
+        <segment>
+            扇贝  是  扇贝属  的  双  壳  类  软体  动物  的  代称  ，  约  有  400  余  种  。  该  科  的  60  余  种  是  世界  各地  重要  的  海洋  渔业  资源  之一  ，  壳  、  肉  、  珍珠  层  具有  极  高  的  利用  价值  。  无论是  在  东方  还是  西方  的  食谱  中  ，  扇贝  都  是  一  种  极受  欢迎  的  贝类  食物  。  在  扇贝  中  有  两  种  类型  的  肉  ，  一  种  是  扇贝  的  内敛肌  ，  呈  白色  ，  很  有  肉感  ，  另  一  种  则  是  分布  在  内敛肌  周围  的  肉  ，  红色  且  很  柔软  。  通常  ，  扇贝  中  的  肉  只  取  内敛肌  作为  食材  ，  而  周围  红色  的  肉  则  被  丢弃  。
+            扇贝  有  两  个  壳  ，  大小  几乎  相等  ，  壳面  一般  为  紫  褐色  、  浅褐色  、  黄褐色  、  红褐色  、  杏黄色  、  灰白色  等  。  贝克  内面  为  白色  ，  壳  内  的  肌肉  为  可食  部位  。  闭  壳  肌肉色  洁白  、  细嫩  、  味道  鲜美  ，  营养  丰富  。  闭壳肌  干制  后即  是  “  干贝  ”  ，  被  列入  八  珍  之一  。
+        </segment>
+
+        <pos>
+            扇贝#AD  是#VC  扇贝属#NN  的#DEG  双#CD  壳#NN  类#NN  软体#JJ  动物#NN  的#DEG  代称#NN  ，#PU  约#AD  有#VE  400#CD  余#NN  种#NN    。#PU  该#DT  科#NN  的#DEG  60#CD  余#NN  种#NN  是#VC  世界#NN  各地#AD  重要#VA  的#DEC  海洋#NN  渔业#NN  资源#NN  之一#NN  ，#PU  壳#NN  、#PU  肉#NN  、#PU  珍珠#NN  层#NN  具有#VV  极#AD  高#VA  的#DEC  利用#NN  价值#NN    。#PU  无论是#AD  在#P  东方#NN  还是#CC  西方#NN  的#DEG  食谱#NN  中#LC  ，#PU  扇贝#AD  都#AD  是#VC  一#CD  种#M  极受#VV  欢迎#NN  的#DEC  贝类#NN  食物#NN    。#PU  在#P  扇贝#NN  中#LC  有#VV  两#CD  种#M  类型#NN  的#DEG  肉#NN  ，#PU  一#CD  种#M  是#VC  扇贝#NN  的#DEG  内敛肌#NN  ，#PU  呈#VV  白色#JJ  ，#PU  很#AD  有#VE  肉感#NN  ，#PU  另#AD  一#CD  种#M  则#AD  是#VC  分布#VV  在#P  内敛肌#NN  周围#NN  的#DEC  肉#NN  ，#PU  红色#JJ  且#CC  很#AD  柔软#VV    。#PU  通常#AD  ，#PU  扇贝#NN  中#LC  的#DEG  肉#NN  只#AD  取#VV  内敛肌#NN  作为#P  食材#NN  ，#PU  而#AD  周围#NN  红色#JJ  的#DEG  肉#NN  则#AD  被#SB  丢弃#VV    。#PU    。#PU
+            扇贝#NN  有#VE  两#CD  个#M  壳#NN  ，#PU  大小#NN  几乎#AD  相等#VV  ，#PU  壳面#NN  一般#AD  为#VC  紫#VA  褐色#NR  、#PU  浅褐色#NR  、#PU  黄褐色#NR  、#PU  红褐色#NR  、#PU  杏黄色#NR  、#PU  灰白色#NR  等#ETC    。#PU  贝克#NN  内面#NN  为#VC  白色#JJ  ，#PU  壳#NN  内#LC  的#DEG  肌肉#NN  为#VC  可食#JJ  部位#NN    。#PU  闭#VV  壳#NN  肌肉色#NN  洁白#NN  、#PU  细嫩#NN  、#PU  味道#NN  鲜美#NN  ，#PU  营养#VA  丰富#VA    。#PU  闭壳肌#NN  干制#NN  后即#AD  是#VC  ``#NN  干贝#NN  ''#NN  ，#PU  被#SB  列入#VV  八#CD  珍#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 代称#NN, 扇贝#AD)  (cop, 代称#NN, 是#VC)  (assmod, 壳#NN, 扇贝属#NN)  (case, 扇贝属#NN, 的#DEG)  (nummod, 壳#NN, 双#CD)  (nn, 类#NN, 壳#NN)  (nn, 动物#NN, 类#NN)  (amod, 动物#NN, 软体#JJ)  (assmod, 代称#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (root, ROOT#null, 代称#NN)  (advmod, 有#VE, 约#AD)  (dep, 代称#NN, 有#VE)  (nummod, 种#NN, 400#CD)  (nn, 种#NN, 余#NN)  (dobj, 有#VE, 种#NN)   (det, 科#NN, 该#DT)  (assmod, 种#NN, 科#NN)  (case, 科#NN, 的#DEG)  (nummod, 种#NN, 60#CD)  (nn, 种#NN, 余#NN)  (nsubj, 之一#NN, 种#NN)  (cop, 之一#NN, 是#VC)  (nsubj, 重要#VA, 世界#NN)  (advmod, 重要#VA, 各地#AD)  (relcl, 之一#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 之一#NN, 海洋#NN)  (nn, 之一#NN, 渔业#NN)  (nn, 之一#NN, 资源#NN)  (root, ROOT#null, 之一#NN)  (conj, 珍珠#NN, 壳#NN)  (conj, 珍珠#NN, 肉#NN)  (nn, 层#NN, 珍珠#NN)  (nsubj, 具有#VV, 层#NN)  (conj, 之一#NN, 具有#VV)  (advmod, 高#VA, 极#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nn, 价值#NN, 利用#NN)  (dobj, 具有#VV, 价值#NN)   (prep, 食物#NN, 无论是#AD)  (case, 食谱#NN, 在#P)  (conj, 西方#NN, 东方#NN)  (cc, 西方#NN, 还是#CC)  (assmod, 食谱#NN, 西方#NN)  (case, 西方#NN, 的#DEG)  (dep, 无论是#AD, 食谱#NN)  (case, 食谱#NN, 中#LC)  (advmod, 食物#NN, 扇贝#AD)  (advmod, 食物#NN, 都#AD)  (cop, 食物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食物#NN, 种#M)  (relcl, 食物#NN, 极受#VV)  (dobj, 极受#VV, 欢迎#NN)  (mark, 极受#VV, 的#DEC)  (nn, 食物#NN, 贝类#NN)  (root, ROOT#null, 食物#NN)   (case, 扇贝#NN, 在#P)  (prep, 有#VV, 扇贝#NN)  (case, 扇贝#NN, 中#LC)  (root, ROOT#null, 有#VV)  (nummod, 种#M, 两#CD)  (clf, 类型#NN, 种#M)  (assmod, 肉#NN, 类型#NN)  (case, 类型#NN, 的#DEG)  (dobj, 有#VV, 肉#NN)  (nummod, 种#M, 一#CD)  (dep, 内敛肌#NN, 种#M)  (cop, 内敛肌#NN, 是#VC)  (assmod, 内敛肌#NN, 扇贝#NN)  (case, 扇贝#NN, 的#DEG)  (conj, 有#VV, 内敛肌#NN)  (conj, 有#VV, 呈#VV)  (conj, 有#VV, 白色#JJ)  (advmod, 有#VE, 很#AD)  (dep, 有#VV, 有#VE)  (dobj, 有#VE, 肉感#NN)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (dep, 肉#NN, 种#M)  (advmod, 肉#NN, 则#AD)  (cop, 肉#NN, 是#VC)  (relcl, 肉#NN, 分布#VV)  (case, 周围#NN, 在#P)  (nn, 周围#NN, 内敛肌#NN)  (prep, 分布#VV, 周围#NN)  (mark, 分布#VV, 的#DEC)  (dep, 有#VV, 肉#NN)  (conj, 有#VV, 红色#JJ)  (cc, 有#VV, 且#CC)  (advmod, 柔软#VV, 很#AD)  (conj, 有#VV, 柔软#VV)   (advmod, 取#VV, 通常#AD)  (assmod, 肉#NN, 扇贝#NN)  (case, 扇贝#NN, 中#LC)  (case, 扇贝#NN, 的#DEG)  (dobj, 取#VV, 肉#NN)  (advmod, 取#VV, 只#AD)  (root, ROOT#null, 取#VV)  (dobj, 取#VV, 内敛肌#NN)  (case, 食材#NN, 作为#P)  (prep, 丢弃#VV, 食材#NN)  (advmod, 丢弃#VV, 而#AD)  (nn, 肉#NN, 周围#NN)  (assmod, 肉#NN, 红色#JJ)  (case, 红色#JJ, 的#DEG)  (nsubj, 丢弃#VV, 肉#NN)  (advmod, 丢弃#VV, 则#AD)  (auxpass, 丢弃#VV, 被#SB)  (dep, 取#VV, 丢弃#VV)   (root, ROOT#null, null#null)
+            (dep, 有#VE, 扇贝#NN)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 两#CD)  (clf, 壳#NN, 个#M)  (dobj, 有#VE, 壳#NN)  (nsubj, 相等#VV, 大小#NN)  (advmod, 相等#VV, 几乎#AD)  (conj, 有#VE, 相等#VV)  (nsubj, 紫#VA, 壳面#NN)  (advmod, 紫#VA, 一般#AD)  (cop, 紫#VA, 为#VC)  (conj, 有#VE, 紫#VA)  (conj, 灰白色#NR, 褐色#NR)  (conj, 灰白色#NR, 浅褐色#NR)  (conj, 灰白色#NR, 黄褐色#NR)  (conj, 灰白色#NR, 红褐色#NR)  (conj, 灰白色#NR, 杏黄色#NR)  (dep, 紫#VA, 灰白色#NR)  (etc, 灰白色#NR, 等#ETC)   (nn, 内面#NN, 贝克#NN)  (nsubj, 为#VC, 内面#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 白色#JJ)  (assmod, 肌肉#NN, 壳#NN)  (case, 壳#NN, 内#LC)  (case, 壳#NN, 的#DEG)  (nsubj, 部位#NN, 肌肉#NN)  (cop, 部位#NN, 为#VC)  (amod, 部位#NN, 可食#JJ)  (conj, 为#VC, 部位#NN)   (root, ROOT#null, 闭#VV)  (nn, 鲜美#NN, 壳#NN)  (nn, 鲜美#NN, 肌肉色#NN)  (conj, 鲜美#NN, 洁白#NN)  (conj, 鲜美#NN, 细嫩#NN)  (nn, 鲜美#NN, 味道#NN)  (dobj, 闭#VV, 鲜美#NN)  (conj, 闭#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (nn, 干制#NN, 闭壳肌#NN)  (nsubj, ''#NN, 干制#NN)  (advmod, ''#NN, 后即#AD)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 干贝#NN)  (root, ROOT#null, ''#NN)  (auxpass, 列入#VV, 被#SB)  (conj, ''#NN, 列入#VV)  (nummod, 之一#NN, 八#CD)  (nn, 之一#NN, 珍#NN)  (dobj, 列入#VV, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.健脑。
+            扇贝富含碳水化合物，维持大脑功能必须的能源。
+            2.健脾和胃
+            扇贝适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。暖胃，治疗胃寒症。
+            3.养颜护肤
+            扇贝含有丰富的维生素E，抑制皮肤衰老、防止色素沉着。驱除因皮肤过敏或是感染而引起的皮肤干燥和瘙痒等皮肤损害。
+            4.抑癌抗瘤
+            扇贝具有效预防癌症，降低癌变的发生率。延缓和抑制癌细胞生长、扩散。使癌细胞退化、萎缩。
+        </rawdata>
+
+        <segment>
+            健脑  。
+            扇贝  富含  碳水化合物  ，  维持  大脑  功能  必须  的  能源  。
+            健脾  和  胃
+            扇贝  适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏力  等症  。  暖胃  ，  治疗  胃  寒症  。
+            养颜  护肤
+            扇贝  含有  丰富  的  维生素E  ，  抑制  皮肤  衰老  、  防止  色素  沉着  。  驱除  因  皮肤  过敏  或是  感染  而  引起  的  皮肤  干燥  和  瘙痒  等  皮肤  损害  。
+            抑癌  抗瘤
+            扇贝  具有  效  预防  癌症  ，  降低  癌变  的  发生率  。  延缓  和  抑制  癌细胞  生长  、  扩散  。  使癌  细胞  退化  、  萎缩  。
+        </segment>
+
+        <pos>
+            健脑#VV  。#PU
+            扇贝#NN  富含#NN  碳水化合物#VV  ，#PU  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  。#PU
+            健脾#VV  和#CC  胃#VV
+            扇贝#AD  适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEC  脘腹#NN  胀满#VV  ，#PU  大便#NN  溏泄#NN  ，#PU  食欲不振#NN  ，#PU  肢#AD  倦乏力#VV  等症#NN    。#PU  暖胃#VV  ，#PU  治疗#VV  胃#NN  寒症#NN    。#PU    。#PU
+            养颜#NN  护肤#VV
+            扇贝#VV  含有#AD  丰富#VA  的#DEC  维生素E#NN  ，#PU  抑制#VV  皮肤#NN  衰老#NN  、#PU  防止#VV  色素#VV  沉着#AD    。#PU  驱除#VV  因#P  皮肤#VV  过敏#NN  或是#NN  感染#NN  而#MSP  引起#VV  的#DEC  皮肤#NR  干燥#NR  和#CC  瘙痒#NR  等#ETC  皮肤#NN  损害#NN    。#PU    。#PU
+            抑癌#NN  抗瘤#VV
+            扇贝#NN  具有#VV  效#AD  预防#VV  癌症#NN  ，#PU  降低#VV  癌变#NN  的#DEC  发生率#NN    。#PU  延缓#NN  和#CC  抑制#VV  癌细胞#NN  生长#NN  、#PU  扩散#VV    。#PU  使癌#NN  细胞#NN  退化#VV  、#PU  萎缩#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 健脑#VV)
+            (nn, 富含#NN, 扇贝#NN)  (nsubj, 碳水化合物#VV, 富含#NN)  (root, ROOT#null, 碳水化合物#VV)  (ccomp, 碳水化合物#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (nn, 能源#NN, 功能#NN)  (relcl, 功能#NN, 必须#VV)  (relcl, 能源#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 维持#VV, 能源#NN)
+            (root, ROOT#null, 健脾#VV)  (cc, 健脾#VV, 和#CC)  (conj, 健脾#VV, 胃#VV)
+            (advmod, 适用于#VV, 扇贝#AD)  (relcl, 脘腹#NN, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (dobj, 运化#VV, 所致#NN)  (mark, 适用于#VV, 的#DEC)  (nsubj, 胀满#VV, 脘腹#NN)  (root, ROOT#null, 胀满#VV)  (nn, 溏泄#NN, 大便#NN)  (nsubj, 倦乏力#VV, 溏泄#NN)  (nsubj, 倦乏力#VV, 食欲不振#NN)  (advmod, 倦乏力#VV, 肢#AD)  (ccomp, 胀满#VV, 倦乏力#VV)  (dobj, 倦乏力#VV, 等症#NN)   (root, ROOT#null, 暖胃#VV)  (ccomp, 暖胃#VV, 治疗#VV)  (nn, 寒症#NN, 胃#NN)  (dobj, 治疗#VV, 寒症#NN)   (root, ROOT#null, null#null)
+            (nsubj, 护肤#VV, 养颜#NN)  (root, ROOT#null, 护肤#VV)
+            (root, ROOT#null, 扇贝#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 扇贝#VV, 维生素E#NN)  (conj, 扇贝#VV, 抑制#VV)  (nn, 衰老#NN, 皮肤#NN)  (dobj, 抑制#VV, 衰老#NN)  (conj, 扇贝#VV, 防止#VV)  (ccomp, 防止#VV, 色素#VV)  (advmod, 色素#VV, 沉着#AD)   (root, ROOT#null, 驱除#VV)  (case, 皮肤#VV, 因#P)  (prep, 引起#VV, 皮肤#VV)  (nn, 感染#NN, 过敏#NN)  (nn, 感染#NN, 或是#NN)  (dobj, 皮肤#VV, 感染#NN)  (prtmod, 引起#VV, 而#MSP)  (relcl, 损害#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 瘙痒#NR, 皮肤#NR)  (conj, 瘙痒#NR, 干燥#NR)  (cc, 瘙痒#NR, 和#CC)  (nn, 损害#NN, 瘙痒#NR)  (etc, 瘙痒#NR, 等#ETC)  (nn, 损害#NN, 皮肤#NN)  (dobj, 驱除#VV, 损害#NN)   (root, ROOT#null, null#null)
+            (nsubj, 抗瘤#VV, 抑癌#NN)  (root, ROOT#null, 抗瘤#VV)
+            (nsubj, 具有#VV, 扇贝#NN)  (root, ROOT#null, 具有#VV)  (advmod, 预防#VV, 效#AD)  (relcl, 发生率#NN, 预防#VV)  (dobj, 预防#VV, 癌症#NN)  (conj, 预防#VV, 降低#VV)  (dobj, 降低#VV, 癌变#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 具有#VV, 发生率#NN)   (nsubj, 抑制#VV, 延缓#NN)  (cc, 抑制#VV, 和#CC)  (root, ROOT#null, 抑制#VV)  (nn, 生长#NN, 癌细胞#NN)  (dobj, 抑制#VV, 生长#NN)  (conj, 抑制#VV, 扩散#VV)   (nn, 细胞#NN, 使癌#NN)  (nsubj, 退化#VV, 细胞#NN)  (root, ROOT#null, 退化#VV)  (dep, 退化#VV, 萎缩#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补气  温中  健胃  补血  改善血液循环
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            贝类软体动物中，含一种具有降低血清胆固醇作用的代尔太7-胆固醇和24-亚甲基胆固醇，它们兼有抑制胆固醇在肝脏合成和加速排泄胆固醇的独特作用，从而使体内胆固醇下降。它们的功效比常用的降胆固醇的药物谷固醇更强。人们在食用贝类食物后，常有一种清爽宜人的感觉，这对解除一些烦恼症状无疑是有益的。
+        </rawdata>
+
+        <segment>
+            贝类  软体  动物  中  ，  含  一  种  具有  降低  血清  胆固醇  作用  的  代尔  太  7  -  胆固醇  和  24  -  亚甲基  胆固醇  ，  它们  兼有  抑制  胆固醇  在  肝脏  合成  和  加速  排泄  胆固醇  的  独特  作用  ，  从而  使  体内  胆固醇  下降  。  它们  的  功效  比  常用  的  降  胆固醇  的  药物  谷  固醇  更  强  。  人们  在  食用  贝类  食物  后  ，  常  有  一  种  清爽  宜人  的  感觉  ，  这  对  解除  一些  烦恼  症状  无疑  是  有益的  。
+        </segment>
+
+        <pos>
+            贝类#NN  软体#NN  动物#NN  中#LC  ，#PU  含#VV  一#CD  种#M  具有#VV  降低#VV  血清#NN  胆固醇#NN  作用#NN  的#DEC  代尔#NN  太#AD  7#CD  -#NN  胆固醇#NN  和#CC  24#CD  -#NN  亚甲基#VV  胆固醇#NN  ，#PU  它们#PN  兼有#AD  抑制#VV  胆固醇#NN  在#P  肝脏#NN  合成#JJ  和#NN  加速#AD  排泄#VV  胆固醇#NN  的#DEC  独特#JJ  作用#NN  ，#PU  从而#AD  使#VV  体内#NN  胆固醇#NN  下降#VV    。#PU  它们#PN  的#DEG  功效#NN  比#P  常用#JJ  的#DEG  降#NN  胆固醇#NN  的#DEG  药物#NN  谷#NN  固醇#NN  更#AD  强#VA    。#PU  人们#NN  在#P  食用#VV  贝类#NN  食物#NN  后#LC  ，#PU  常#AD  有#VE  一#CD  种#M  清爽#NN  宜人#NN  的#DEG  感觉#NN  ，#PU  这#PN  对#P  解除#VV  一些#CD  烦恼#NN  症状#NN  无疑#AD  是#VC  有益的#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 动物#NN, 贝类#NN)  (nn, 动物#NN, 软体#NN)  (loc, 亚甲基#VV, 动物#NN)  (case, 动物#NN, 中#LC)  (relcl, 代尔#NN, 含#VV)  (nummod, 种#M, 一#CD)  (range, 含#VV, 种#M)  (conj, 含#VV, 具有#VV)  (nfincl, 作用#NN, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (dobj, 具有#VV, 作用#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 亚甲基#VV, 代尔#NN)  (advmod, 亚甲基#VV, 太#AD)  (nummod, 胆固醇#NN, 7#CD)  (conj, -#NN, 胆固醇#NN)  (cc, -#NN, 和#CC)  (nummod, -#NN, 24#CD)  (root, ROOT#null, 亚甲基#VV)  (dobj, 亚甲基#VV, 胆固醇#NN)  (nsubj, 抑制#VV, 它们#PN)  (advmod, 抑制#VV, 兼有#AD)  (conj, 亚甲基#VV, 抑制#VV)  (nsubj, 排泄#VV, 胆固醇#NN)  (case, 和#NN, 在#P)  (nn, 和#NN, 肝脏#NN)  (amod, 和#NN, 合成#JJ)  (prep, 排泄#VV, 和#NN)  (advmod, 排泄#VV, 加速#AD)  (relcl, 作用#NN, 排泄#VV)  (dobj, 排泄#VV, 胆固醇#NN)  (mark, 排泄#VV, 的#DEC)  (amod, 作用#NN, 独特#JJ)  (dobj, 抑制#VV, 作用#NN)  (advmod, 使#VV, 从而#AD)  (dep, 抑制#VV, 使#VV)  (nn, 胆固醇#NN, 体内#NN)  (dobj, 使#VV, 胆固醇#NN)  (dep, 使#VV, 下降#VV)   (assmod, 功效#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (nsubj, 强#VA, 功效#NN)  (case, 固醇#NN, 比#P)  (assmod, 胆固醇#NN, 常用#JJ)  (case, 常用#JJ, 的#DEG)  (nn, 胆固醇#NN, 降#NN)  (assmod, 固醇#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nn, 固醇#NN, 药物#NN)  (nn, 固醇#NN, 谷#NN)  (prep, 强#VA, 固醇#NN)  (advmod, 强#VA, 更#AD)  (root, ROOT#null, 强#VA)   (nsubj, 有#VE, 人们#NN)  (case, 食用#VV, 在#P)  (prep, 有#VE, 食用#VV)  (nn, 食物#NN, 贝类#NN)  (dobj, 食用#VV, 食物#NN)  (case, 食用#VV, 后#LC)  (advmod, 有#VE, 常#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 宜人#NN, 种#M)  (nn, 宜人#NN, 清爽#NN)  (assmod, 感觉#NN, 宜人#NN)  (case, 宜人#NN, 的#DEG)  (dobj, 有#VE, 感觉#NN)  (nsubj, 有益的#NN, 这#PN)  (case, 解除#VV, 对#P)  (prep, 有益的#NN, 解除#VV)  (nummod, 症状#NN, 一些#CD)  (nn, 症状#NN, 烦恼#NN)  (dobj, 解除#VV, 症状#NN)  (advmod, 有益的#NN, 无疑#AD)  (cop, 有益的#NN, 是#VC)  (conj, 有#VE, 有益的#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.在西方的食谱中，扇贝通常的处理方式是通过黄油煎制，或者裹上面包粉一起炸。在食用时通常配以半干白葡萄酒。
+            2.在欧洲的食谱中，扇贝则会加入乳蛋饼食用，或者煎熟后作为开胃菜食用。
+            3.在东方的食谱中，日本人喜欢将扇贝配上他们的寿司和生鱼片一起食用，而中国人食用扇贝主要是在广东地区，广东人喜欢用扇贝煲汤饮用。
+            4.贝类本身极富鲜味，烹制时千万不要再加味精，也不宜多放盐，以免鲜味反失，贝类中的泥肠不宜食用。
+            5.不要食用未熟透的贝类，以免传染上肝炎等疾病。
+        </rawdata>
+
+        <segment>
+            在  西方  的  食谱  中  ，  扇贝  通常  的  处理  方式  是  通过  黄油煎  制  ，  或者  裹上  面包  粉  一起  炸  。  在  食用  时  通常  配  以  半干  白葡萄酒  。
+            在  欧洲  的  食谱  中  ，  扇贝  则  会  加入  乳蛋饼  食用  ，  或者  煎熟  后  作为  开胃菜  食用  。
+            在  东方  的  食谱  中  ，  日本人  喜欢  将  扇贝  配上  他们  的  寿司  和  生鱼片  一起  食用  ，  而  中国人  食用  扇贝  主要  是  在  广东  地区  ，  广东人  喜欢  用  扇贝  煲汤  饮用  。
+            贝类  本身  极富  鲜味  ，  烹制  时  千万  不  要  再  加  味精  ，  也  不  宜  多  放  盐  ，  以免  鲜味  反失  ，  贝类  中  的  泥肠  不  宜  食用  。
+            不要  食用  未  熟透  的  贝类  ，  以免  传染  上  肝炎  等  疾病  。
+        </segment>
+
+        <pos>
+            在#P  西方#NN  的#DEG  食谱#NN  中#LC  ，#PU  扇贝#VV  通常#AD  的#DEC  处理#NN  方式#NN  是#VC  通过#P  黄油煎#VV  制#NN  ，#PU  或者#CC  裹上#NN  面包#NN  粉#NN  一起#AD  炸#VV    。#PU  在#P  食用#VV  时#LC  通常#AD  配#AD  以#P  半干#NN  白葡萄酒#VV    。#PU    。#PU
+            在#P  欧洲#NR  的#DEG  食谱#NN  中#LC  ，#PU  扇贝#VV  则#AD  会#VV  加入#VV  乳蛋饼#NN  食用#VV  ，#PU  或者#CC  煎熟#NN  后#LC  作为#P  开胃菜#NN  食用#VV  。#PU
+            在#P  东方#NN  的#DEG  食谱#NN  中#LC  ，#PU  日本人#NN  喜欢#VV  将#AD  扇贝#AD  配上#VV  他们#PN  的#DEG  寿司#NN  和#CC  生鱼片#NN  一起#AD  食用#VV  ，#PU  而#AD  中国人#NN  食用#VV  扇贝#NN  主要#AD  是#VC  在#P  广东#NR  地区#NN  ，#PU  广东人#AD  喜欢#VV  用#P  扇贝#NN  煲汤#VV  饮用#NN  。#PU
+            贝类#NR  本身#PN  极富#AD  鲜味#VV  ，#PU  烹制#NN  时#LC  千万#CD  不#AD  要#VV  再#AD  加#VV  味精#NN  ，#PU  也#AD  不#AD  宜#NR  多#AD  放#VV  盐#NN  ，#PU  以免#VV  鲜味#VV  反失#NN  ，#PU  贝类#NN  中#LC  的#DEG  泥肠#NN  不#AD  宜#NR  食用#VV  。#PU
+            不要#NN  食用#VV  未#AD  熟透#VV  的#DEC  贝类#NN  ，#PU  以免#VV  传染#NN  上#VV  肝炎#NN  等#ETC  疾病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 食谱#NN, 在#P)  (assmod, 食谱#NN, 西方#NN)  (case, 西方#NN, 的#DEG)  (prep, 是#VC, 食谱#NN)  (case, 食谱#NN, 中#LC)  (relcl, 方式#NN, 扇贝#VV)  (advmod, 扇贝#VV, 通常#AD)  (mark, 扇贝#VV, 的#DEC)  (nn, 方式#NN, 处理#NN)  (nsubj, 是#VC, 方式#NN)  (root, ROOT#null, 是#VC)  (case, 黄油煎#VV, 通过#P)  (prep, 是#VC, 黄油煎#VV)  (dobj, 黄油煎#VV, 制#NN)  (cc, 是#VC, 或者#CC)  (nn, 粉#NN, 裹上#NN)  (nn, 粉#NN, 面包#NN)  (nsubj, 炸#VV, 粉#NN)  (advmod, 炸#VV, 一起#AD)  (conj, 是#VC, 炸#VV)   (case, 食用#VV, 在#P)  (prep, 白葡萄酒#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (advmod, 白葡萄酒#VV, 通常#AD)  (advmod, 白葡萄酒#VV, 配#AD)  (case, 半干#NN, 以#P)  (prep, 白葡萄酒#VV, 半干#NN)  (root, ROOT#null, 白葡萄酒#VV)   (root, ROOT#null, null#null)
+            (case, 食谱#NN, 在#P)  (assmod, 食谱#NN, 欧洲#NR)  (case, 欧洲#NR, 的#DEG)  (prep, 扇贝#VV, 食谱#NN)  (case, 食谱#NN, 中#LC)  (root, ROOT#null, 扇贝#VV)  (advmod, 加入#VV, 则#AD)  (mmod, 加入#VV, 会#VV)  (ccomp, 扇贝#VV, 加入#VV)  (dobj, 加入#VV, 乳蛋饼#NN)  (dep, 扇贝#VV, 食用#VV)  (cc, 扇贝#VV, 或者#CC)  (loc, 食用#VV, 煎熟#NN)  (case, 煎熟#NN, 后#LC)  (case, 开胃菜#NN, 作为#P)  (prep, 食用#VV, 开胃菜#NN)  (dep, 扇贝#VV, 食用#VV)
+            (case, 食谱#NN, 在#P)  (assmod, 食谱#NN, 东方#NN)  (case, 东方#NN, 的#DEG)  (prep, 喜欢#VV, 食谱#NN)  (case, 食谱#NN, 中#LC)  (nsubj, 喜欢#VV, 日本人#NN)  (xsubj, 食用#VV, 日本人#NN)  (root, ROOT#null, 喜欢#VV)  (advmod, 配上#VV, 将#AD)  (advmod, 配上#VV, 扇贝#AD)  (dep, 食用#VV, 配上#VV)  (assmod, 生鱼片#NN, 他们#PN)  (case, 他们#PN, 的#DEG)  (conj, 生鱼片#NN, 寿司#NN)  (cc, 生鱼片#NN, 和#CC)  (dobj, 配上#VV, 生鱼片#NN)  (advmod, 食用#VV, 一起#AD)  (ccomp, 喜欢#VV, 食用#VV)  (advmod, 是#VC, 而#AD)  (nsubj, 食用#VV, 中国人#NN)  (dep, 是#VC, 食用#VV)  (dobj, 食用#VV, 扇贝#NN)  (advmod, 是#VC, 主要#AD)  (conj, 喜欢#VV, 是#VC)  (case, 地区#NN, 在#P)  (nn, 地区#NN, 广东#NR)  (prep, 是#VC, 地区#NN)  (advmod, 喜欢#VV, 广东人#AD)  (conj, 喜欢#VV, 喜欢#VV)  (case, 扇贝#NN, 用#P)  (prep, 煲汤#VV, 扇贝#NN)  (ccomp, 喜欢#VV, 煲汤#VV)  (dobj, 煲汤#VV, 饮用#NN)
+            (nsubj, 鲜味#VV, 贝类#NR)  (xsubj, 放#VV, 贝类#NR)  (nsubj, 鲜味#VV, 本身#PN)  (xsubj, 放#VV, 本身#PN)  (advmod, 鲜味#VV, 极富#AD)  (root, ROOT#null, 鲜味#VV)  (loc, 加#VV, 烹制#NN)  (case, 烹制#NN, 时#LC)  (nsubj, 加#VV, 千万#CD)  (neg, 加#VV, 不#AD)  (mmod, 加#VV, 要#VV)  (advmod, 加#VV, 再#AD)  (dep, 放#VV, 加#VV)  (dobj, 加#VV, 味精#NN)  (advmod, 放#VV, 也#AD)  (neg, 放#VV, 不#AD)  (dep, 放#VV, 宜#NR)  (advmod, 放#VV, 多#AD)  (ccomp, 鲜味#VV, 放#VV)  (dobj, 放#VV, 盐#NN)  (conj, 放#VV, 以免#VV)  (ccomp, 以免#VV, 鲜味#VV)  (dobj, 鲜味#VV, 反失#NN)  (assmod, 泥肠#NN, 贝类#NN)  (case, 贝类#NN, 中#LC)  (case, 贝类#NN, 的#DEG)  (nsubj, 食用#VV, 泥肠#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 鲜味#VV, 食用#VV)
+            (nsubj, 食用#VV, 不要#NN)  (root, ROOT#null, 食用#VV)  (advmod, 熟透#VV, 未#AD)  (relcl, 贝类#NN, 熟透#VV)  (mark, 熟透#VV, 的#DEC)  (dobj, 食用#VV, 贝类#NN)  (conj, 食用#VV, 以免#VV)  (dobj, 以免#VV, 传染#NN)  (dep, 以免#VV, 上#VV)  (nn, 疾病#NN, 肝炎#NN)  (etc, 肝炎#NN, 等#ETC)  (dobj, 上#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/10105623747.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\127 扇贝.jpg
+    </picturelocalurl>
+
+</content>

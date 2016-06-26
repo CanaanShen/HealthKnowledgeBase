@@ -1,0 +1,394 @@
+<content>
+
+    <id>
+        532
+    </id>
+
+    <foodname>
+        牛奶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        牛乳
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            缺铁性贫血、乳糖酸缺乏症、胆囊炎、胰腺炎患者忌食；脾胃虚寒作泻、痰湿积饮者慎食。
+        </rawdata>
+
+        <segment>
+            缺  铁  性  贫血  、  乳糖  酸  缺乏症  、  胆囊炎  、  胰腺炎  患者  忌食  ；  脾胃  虚寒  作泻  、  痰湿  积  饮者  慎食  。
+        </segment>
+
+        <pos>
+            缺#VV  铁#NN  性#NN  贫血#NN  、#PU  乳糖#VV  酸#NR  缺乏症#NR  、#PU  胆囊炎#NR  、#PU  胰腺炎#NR  患者#NN  忌食#NN  ；#PU  脾胃#VV  虚寒#NN  作泻#NN  、#PU  痰湿#AD  积#VV  饮者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (conj, 缺#VV, 乳糖#VV)  (nn, 胰腺炎#NR, 酸#NR)  (conj, 胰腺炎#NR, 缺乏症#NR)  (conj, 胰腺炎#NR, 胆囊炎#NR)  (nn, 忌食#NN, 胰腺炎#NR)  (nn, 忌食#NN, 患者#NN)  (dobj, 乳糖#VV, 忌食#NN)  (conj, 缺#VV, 脾胃#VV)  (nn, 作泻#NN, 虚寒#NN)  (dobj, 脾胃#VV, 作泻#NN)  (advmod, 积#VV, 痰湿#AD)  (conj, 缺#VV, 积#VV)  (nn, 慎食#NN, 饮者#NN)  (dobj, 积#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                104
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                109
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                37.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛奶是人们日常生活中喜爱的饮食之一，每年5月的第三个星期二，是“国际牛奶日”；喝牛奶的好处如今已越来越被大众所认识，牛奶中含有丰富的钙、维生素D等，包括人体生长发育所需的全部氨基酸，消化率可高达98%,是其他食物无法比拟的。
+        </rawdata>
+
+        <segment>
+            牛奶  是  人们  日常  生活  中  喜爱  的  饮食  之一  ，  每  年  5月  的  第三  个  星期二  ，  是  “  国际  牛奶日  ”  ；  喝  牛奶  的  好处  如今  已  越来越  被  大众  所  认识  ，  牛奶  中  含有  丰富  的  钙  、  维生素D  等  ，  包括  人体  生长  发育  所  需  的  全部  氨基酸  ，  消化  率  可  高达  98%  ,  是  其他  食物  无法  比拟  的  。
+        </segment>
+
+        <pos>
+            牛奶#NN  是#VC  人们#NN  日常#JJ  生活#NN  中#LC  喜爱#NN  的#DEG  饮食#NN  之一#NN  ，#PU  每#DT  年#M  5月#NT  的#DEG  第三#OD  个#M  星期二#CD  ，#PU  是#VC  ``#NN  国际#NN  牛奶日#NN  ''#NN  ；#PU  喝#NN  牛奶#NN  的#DEG  好处#NN  如今#NT  已#AD  越来越#AD  被#LB  大众#NR  所#MSP  认识#VV  ，#PU  牛奶#NN  中#LC  含有#VV  丰富#VA  的#DEC  钙#NR  、#PU  维生素D#NR  等#ETC  ，#PU  包括#VV  人体#NN  生长#NN  发育#VV  所#MSP  需#VV  的#DEC  全部#DT  氨基酸#NN  ，#PU  消化#NN  率#NN  可#VV  高达#VV  98#CD  %#NN  ,#NN  是#VC  其他#DT  食物#NN  无法#AD  比拟#VV  的#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 之一#NN, 牛奶#NN)  (cop, 之一#NN, 是#VC)  (nn, 喜爱#NN, 人们#NN)  (amod, 生活#NN, 日常#JJ)  (dep, 喜爱#NN, 生活#NN)  (case, 生活#NN, 中#LC)  (assmod, 之一#NN, 喜爱#NN)  (case, 喜爱#NN, 的#DEG)  (nn, 之一#NN, 饮食#NN)  (root, ROOT#null, 之一#NN)  (dep, 星期二#CD, 每#DT)  (clf, 每#DT, 年#M)  (assmod, 星期二#CD, 5月#NT)  (case, 5月#NT, 的#DEG)  (ordmod, 个#M, 第三#OD)  (clf, 星期二#CD, 个#M)  (conj, 之一#NN, 星期二#CD)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 国际#NN)  (nn, ''#NN, 牛奶日#NN)  (conj, 之一#NN, ''#NN)  (nn, 牛奶#NN, 喝#NN)  (assmod, 好处#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nsubj, 被#LB, 好处#NN)  (dep, 被#LB, 如今#NT)  (advmod, 被#LB, 已#AD)  (advmod, 被#LB, 越来越#AD)  (conj, 之一#NN, 被#LB)  (nsubj, 认识#VV, 大众#NR)  (prtmod, 认识#VV, 所#MSP)  (dep, 被#LB, 认识#VV)  (loc, 含有#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (conj, 被#LB, 含有#VV)  (relcl, 维生素D#NR, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素D#NR, 钙#NR)  (dobj, 含有#VV, 维生素D#NR)  (etc, 维生素D#NR, 等#ETC)  (conj, 被#LB, 包括#VV)  (nn, 生长#NN, 人体#NN)  (dobj, 包括#VV, 生长#NN)  (dep, 包括#VV, 发育#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 氨基酸#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 氨基酸#NN, 全部#DT)  (dobj, 发育#VV, 氨基酸#NN)  (nn, 率#NN, 消化#NN)  (nsubj, 高达#VV, 率#NN)  (mmod, 高达#VV, 可#VV)  (conj, 之一#NN, 高达#VV)  (nummod, ,#NN, 98#CD)  (nn, ,#NN, %#NN)  (cop, 比拟#VV, 是#VC)  (det, 食物#NN, 其他#DT)  (nsubj, 比拟#VV, 食物#NN)  (advmod, 比拟#VV, 无法#AD)  (dobj, 高达#VV, 比拟#VV)  (mark, 比拟#VV, 的#DEC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.镇静安神
+            意大利科研人员研究发现，牛奶之所以具有镇静安神作用是因为含有一种可抑制神经兴奋的成分。阿瓦洛内建议，当你心烦意乱的时候，不妨去喝一大杯牛奶安安神。睡前喝一杯牛奶可促进睡眠。
+            2.抑制肿瘤
+            牛奶和奶制品干酪中含有一种CLA的物质，能有效破坏人体内有致癌危险的自由基，并能迅速和细胞膜结合，使细胞处于防御制癌物质侵入的状态，从而起到防癌作用。而且牛奶中所含的钙能在人体肠道内有效破坏致癌物质，使其分解改变成非致癌物质，并排出体外。牛奶中所含的维生素A、维生素B2、维生素D等对胃癌和结肠癌都有一定的预防作用。
+            3.促进幼儿大脑发育
+            乳是哺乳动物出生后赖以生存发育的唯一食物，它含有适合其幼子发育所必须的全部营养素。
+            4.美容养颜
+            牛奶中的乳清对面部皱纹有消除作用，可使皮肤保持光滑滋润。
+            5.全面补充营养
+            可使动脉血管在高压时保持稳定，减少中风风险；能大大提高大脑的工作效率；能增强骨骼和牙齿，减少骨骼萎缩病的发生；使伤口更快愈合。
+        </rawdata>
+
+        <segment>
+            镇静  安神
+            意大利  科研  人员  研究  发现  ，  牛奶  之所以  具有  镇静  安神  作用  是  因为  含有  一  种  可  抑制  神经  兴奋  的  成分  。  阿瓦  洛内  建议  ，  当  你  心烦意乱  的  时候  ，  不妨  去  喝  一  大  杯  牛奶安  安神  。  睡前  喝  一  杯  牛奶  可  促进  睡眠  。
+            抑制  肿瘤
+            牛奶  和  奶制品  干酪  中  含有  一  种  CLA  的  物质  ，  能  有效  破坏  人体  内有  致癌  危险  的  自由基  ，  并  能  迅速  和  细胞膜  结合  ，  使  细胞  处于  防御  制癌  物质  侵入  的  状态  ，  从而  起到  防癌  作用  。  而且  牛奶  中  所  含  的  钙  能  在  人体  肠道  内  有效  破坏  致癌  物质  ，  使  其  分解  改变  成  非  致癌  物质  ，  并  排出  体外  。  牛奶  中  所  含  的  维生素A  、  维生素  B  维生素D  等  对  胃癌  和  结肠癌  都  有  一定  的  预防  作用  。
+            促进  幼儿  大脑  发育
+            乳是  哺乳  动物  出生  后  赖以生存  发育  的  唯一  食物  ，  它  含有  适合  其  幼子  发育  所  必须  的  全部  营养素  。
+            美容  养颜
+            牛奶  中  的  乳清  对  面部  皱纹  有  消除  作用  ，  可使  皮肤  保持  光滑  滋润  。
+            全面  补充  营养
+            可使  动脉  血管  在  高压  时  保持  稳定  ，  减少  中风  风险  ；  能  大大  提高  大脑  的  工作  效率  ；  能  增强  骨骼  和  牙齿  ，  减少  骨骼  萎缩  病的  发生  ；  使  伤口  更  快  愈合  。
+        </segment>
+
+        <pos>
+            镇静#NN  安神#VV
+            意大利#NR  科研#NN  人员#NN  研究#NN  发现#VV  ，#PU  牛奶#NN  之所以#AD  具有#VV  镇静#NN  安神#NN  作用#NN  是#VC  因为#P  含有#VV  一#CD  种#M  可#VV  抑制#VV  神经#NN  兴奋#NN  的#DEC  成分#NN    。#PU  阿瓦#NN  洛内#NN  建议#VV  ，#PU  当#P  你#PN  心烦意乱#VV  的#DEC  时候#NN  ，#PU  不妨#NN  去#MSP  喝#VV  一#CD  大#JJ  杯#NN  牛奶安#NN  安神#NN    。#PU  睡前#NN  喝#NN  一#CD  杯#NN  牛奶#NN  可#VV  促进#VV  睡眠#NN    。#PU    。#PU
+            抑制#VV  肿瘤#NN
+            牛奶#NN  和#CC  奶制品#NN  干酪#NN  中#LC  含有#VV  一#CD  种#M  CLA#NN  的#DEG  物质#NN  ，#PU  能#VV  有效#AD  破坏#VV  人体#NN  内有#NN  致癌#AD  危险#VA  的#DEC  自由基#NN  ，#PU  并#CC  能#VV  迅速#AD  和#CC  细胞膜#AD  结合#VV  ，#PU  使#VV  细胞#NN  处于#VV  防御#NN  制癌#NN  物质#NN  侵入#VV  的#DEC  状态#NN  ，#PU  从而#AD  起到#VV  防癌#NN  作用#NN    。#PU  而且#AD  牛奶#NN  中#LC  所#MSP  含#VV  的#DEC  钙#NN  能#VV  在#P  人体#NN  肠道#NN  内#LC  有效#AD  破坏#VV  致癌#NN  物质#NN  ，#PU  使#VV  其#PN  分解#VV  改变#NN  成#VV  非#JJ  致癌#NN  物质#NN  ，#PU  并#CC  排出#VV  体外#NN    。#PU  牛奶#NN  中#LC  所#MSP  含#VV  的#DEC  维生素A#NN  、#PU  维生素#NN  B#NN  维生素D#NN  等#ETC  对#P  胃癌#NN  和#CC  结肠癌#NN  都#AD  有#VE  一定#JJ  的#DEG  预防#VV  作用#NN    。#PU    。#PU
+            促进#VV  幼儿#NN  大脑#NN  发育#NN
+            乳是#NN  哺乳#NN  动物#NN  出生#VV  后#LC  赖以生存#AD  发育#VV  的#DEC  唯一#JJ  食物#NN  ，#PU  它#PN  含有#AD  适合#VV  其#PN  幼子#AD  发育#VV  所#MSP  必须#VV  的#DEC  全部#DT  营养素#NN  。#PU
+            美容#NN  养颜#VV
+            牛奶#NN  中#LC  的#DEG  乳清#NN  对#P  面部#NN  皱纹#AD  有#VE  消除#VV  作用#NN  ，#PU  可使#VV  皮肤#NN  保持#VV  光滑#NN  滋润#NN  。#PU
+            全面#JJ  补充#NN  营养#VA
+            可使#NN  动脉#NN  血管#NN  在#P  高压#NN  时#LC  保持#VV  稳定#NN  ，#PU  减少#VV  中风#NN  风险#NN  ；#PU  能#VV  大大#AD  提高#VV  大脑#NN  的#DEG  工作#NN  效率#NN  ；#PU  能#VV  增强#VV  骨骼#NN  和#CC  牙齿#NN  ，#PU  减少#VV  骨骼#NN  萎缩#NN  病的#NN  发生#NN  ；#PU  使#VV  伤口#NN  更#AD  快#VA  愈合#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 安神#VV, 镇静#NN)  (root, ROOT#null, 安神#VV)
+            (nn, 人员#NN, 意大利#NR)  (nn, 人员#NN, 科研#NN)  (nn, 研究#NN, 人员#NN)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 具有#VV, 牛奶#NN)  (advmod, 具有#VV, 之所以#AD)  (conj, 成分#NN, 具有#VV)  (nn, 作用#NN, 镇静#NN)  (nn, 作用#NN, 安神#NN)  (dobj, 具有#VV, 作用#NN)  (cop, 成分#NN, 是#VC)  (case, 含有#VV, 因为#P)  (prep, 抑制#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (range, 含有#VV, 种#M)  (mmod, 抑制#VV, 可#VV)  (relcl, 成分#NN, 抑制#VV)  (nn, 兴奋#NN, 神经#NN)  (dobj, 抑制#VV, 兴奋#NN)  (mark, 抑制#VV, 的#DEC)  (ccomp, 发现#VV, 成分#NN)   (nn, 洛内#NN, 阿瓦#NN)  (nsubj, 建议#VV, 洛内#NN)  (root, ROOT#null, 建议#VV)  (case, 时候#NN, 当#P)  (nsubj, 心烦意乱#VV, 你#PN)  (relcl, 时候#NN, 心烦意乱#VV)  (mark, 心烦意乱#VV, 的#DEC)  (prep, 喝#VV, 时候#NN)  (nsubj, 喝#VV, 不妨#NN)  (prtmod, 喝#VV, 去#MSP)  (ccomp, 建议#VV, 喝#VV)  (nummod, 安神#NN, 一#CD)  (amod, 安神#NN, 大#JJ)  (nn, 安神#NN, 杯#NN)  (nn, 安神#NN, 牛奶安#NN)  (dobj, 喝#VV, 安神#NN)   (nn, 喝#NN, 睡前#NN)  (nn, 杯#NN, 喝#NN)  (nummod, 杯#NN, 一#CD)  (nn, 牛奶#NN, 杯#NN)  (nsubj, 促进#VV, 牛奶#NN)  (mmod, 促进#VV, 可#VV)  (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 睡眠#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抑制#VV)  (dobj, 抑制#VV, 肿瘤#NN)
+            (conj, 奶制品#NN, 牛奶#NN)  (cc, 奶制品#NN, 和#CC)  (nsubj, 含有#VV, 奶制品#NN)  (loc, 含有#VV, 干酪#NN)  (case, 干酪#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, CLA#NN, 种#M)  (assmod, 物质#NN, CLA#NN)  (case, CLA#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (mmod, 破坏#VV, 能#VV)  (advmod, 破坏#VV, 有效#AD)  (conj, 含有#VV, 破坏#VV)  (nn, 内有#NN, 人体#NN)  (nsubj, 危险#VA, 内有#NN)  (advmod, 危险#VA, 致癌#AD)  (relcl, 自由基#NN, 危险#VA)  (mark, 危险#VA, 的#DEC)  (dobj, 破坏#VV, 自由基#NN)  (cc, 含有#VV, 并#CC)  (mmod, 结合#VV, 能#VV)  (advmod, 结合#VV, 迅速#AD)  (cc, 迅速#AD, 和#CC)  (dep, 迅速#AD, 细胞膜#AD)  (conj, 含有#VV, 结合#VV)  (conj, 含有#VV, 使#VV)  (dobj, 使#VV, 细胞#NN)  (dep, 使#VV, 处于#VV)  (nn, 物质#NN, 防御#NN)  (nn, 物质#NN, 制癌#NN)  (nsubj, 侵入#VV, 物质#NN)  (relcl, 状态#NN, 侵入#VV)  (mark, 侵入#VV, 的#DEC)  (dobj, 处于#VV, 状态#NN)  (advmod, 起到#VV, 从而#AD)  (conj, 含有#VV, 起到#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 起到#VV, 作用#NN)   (advmod, 含#VV, 而且#AD)  (loc, 含#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 钙#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 破坏#VV, 钙#NN)  (mmod, 破坏#VV, 能#VV)  (case, 肠道#NN, 在#P)  (nn, 肠道#NN, 人体#NN)  (prep, 破坏#VV, 肠道#NN)  (case, 肠道#NN, 内#LC)  (advmod, 破坏#VV, 有效#AD)  (root, ROOT#null, 破坏#VV)  (nn, 物质#NN, 致癌#NN)  (dobj, 破坏#VV, 物质#NN)  (conj, 破坏#VV, 使#VV)  (dobj, 使#VV, 其#PN)  (dep, 使#VV, 分解#VV)  (dobj, 分解#VV, 改变#NN)  (conj, 使#VV, 成#VV)  (amod, 物质#NN, 非#JJ)  (nn, 物质#NN, 致癌#NN)  (dobj, 成#VV, 物质#NN)  (cc, 破坏#VV, 并#CC)  (dep, 破坏#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)   (loc, 含#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 维生素D#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 维生素D#NN, 维生素A#NN)  (nn, 维生素D#NN, 维生素#NN)  (nn, 维生素D#NN, B#NN)  (nsubj, 有#VE, 维生素D#NN)  (etc, 维生素D#NN, 等#ETC)  (case, 结肠癌#NN, 对#P)  (conj, 结肠癌#NN, 胃癌#NN)  (cc, 结肠癌#NN, 和#CC)  (prep, 有#VE, 结肠癌#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nfincl, 作用#NN, 预防#VV)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 幼儿#NN)  (nn, 发育#NN, 大脑#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 动物#NN, 乳是#NN)  (nn, 动物#NN, 哺乳#NN)  (nsubj, 出生#VV, 动物#NN)  (loc, 发育#VV, 出生#VV)  (case, 出生#VV, 后#LC)  (advmod, 发育#VV, 赖以生存#AD)  (relcl, 食物#NN, 发育#VV)  (mark, 发育#VV, 的#DEC)  (amod, 食物#NN, 唯一#JJ)  (nsubj, 适合#VV, 食物#NN)  (nsubj, 适合#VV, 它#PN)  (advmod, 适合#VV, 含有#AD)  (root, ROOT#null, 适合#VV)  (nsubj, 发育#VV, 其#PN)  (advmod, 发育#VV, 幼子#AD)  (relcl, 营养素#NN, 发育#VV)  (dep, 必须#VV, 所#MSP)  (dobj, 发育#VV, 必须#VV)  (mark, 发育#VV, 的#DEC)  (det, 营养素#NN, 全部#DT)  (dobj, 适合#VV, 营养素#NN)
+            (nsubj, 养颜#VV, 美容#NN)  (root, ROOT#null, 养颜#VV)
+            (assmod, 乳清#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nsubj, 有#VE, 乳清#NN)  (case, 面部#NN, 对#P)  (prep, 有#VE, 面部#NN)  (advmod, 有#VE, 皱纹#AD)  (root, ROOT#null, 有#VE)  (conj, 保持#VV, 消除#VV)  (dobj, 消除#VV, 作用#NN)  (conj, 消除#VV, 可使#VV)  (dobj, 可使#VV, 皮肤#NN)  (dep, 有#VE, 保持#VV)  (nn, 滋润#NN, 光滑#NN)  (dobj, 保持#VV, 滋润#NN)
+            (amod, 补充#NN, 全面#JJ)  (nsubj, 营养#VA, 补充#NN)  (root, ROOT#null, 营养#VA)
+            (nn, 血管#NN, 可使#NN)  (nn, 血管#NN, 动脉#NN)  (nsubj, 保持#VV, 血管#NN)  (case, 高压#NN, 在#P)  (prep, 保持#VV, 高压#NN)  (case, 高压#NN, 时#LC)  (root, ROOT#null, 保持#VV)  (dobj, 保持#VV, 稳定#NN)  (dep, 保持#VV, 减少#VV)  (nn, 风险#NN, 中风#NN)  (dobj, 减少#VV, 风险#NN)  (mmod, 提高#VV, 能#VV)  (advmod, 提高#VV, 大大#AD)  (conj, 保持#VV, 提高#VV)  (assmod, 效率#NN, 大脑#NN)  (case, 大脑#NN, 的#DEG)  (nn, 效率#NN, 工作#NN)  (dobj, 提高#VV, 效率#NN)  (mmod, 增强#VV, 能#VV)  (conj, 保持#VV, 增强#VV)  (conj, 牙齿#NN, 骨骼#NN)  (cc, 牙齿#NN, 和#CC)  (dobj, 增强#VV, 牙齿#NN)  (dep, 增强#VV, 减少#VV)  (nn, 发生#NN, 骨骼#NN)  (nn, 发生#NN, 萎缩#NN)  (nn, 发生#NN, 病的#NN)  (dobj, 减少#VV, 发生#NN)  (dep, 保持#VV, 使#VV)  (dobj, 使#VV, 伤口#NN)  (advmod, 快#VA, 更#AD)  (dep, 使#VV, 快#VA)  (conj, 保持#VV, 愈合#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.牛奶所含的碳水化合物中最丰富的是乳糖，乳糖使钙易于被吸收。
+            2.牛奶中含有品质很好的蛋白质，包括酪蛋白，少量的乳清蛋白，其生物学价值为85。牛奶中包括人体生长发育所需的全部氨基酸，是其他食物无法比拟的。
+            3.牛奶的蛋白质和热量的比例很合理，能保证饮用者不至摄入”纯“热量。
+            4.牛奶中的钙含量很容易被吸收，另外，磷、钾、镁等多种物质的搭配也十分合理。
+            5.牛奶中所含有的脂肪溶点低，颗粒小，很容易被人体消化吸收，并其消化率达97%。
+        </rawdata>
+
+        <segment>
+            牛奶  所  含  的  碳水  化合物  中  最  丰富  的  是  乳糖  ，  乳糖  使  钙  易于  被  吸收  。
+            牛奶  中  含有  品质  很  好  的  蛋白质  ，  包括  酪蛋白  ，  少量  的  乳清  蛋白  ，  其  生物学  价值  为  85  。  牛奶  中  包括  人体  生长  发育  所  需  的  全部  氨基酸  ，  是  其他  食物  无法  比拟  的  。
+            牛奶  的  蛋白质  和  热量  的  比例  很  合理  ，  能  保证  饮用者  不至  摄入  ”  纯  “  热量  。
+            牛奶  中  的  钙  含量  很  容易  被  吸收  ，  另外  ，  磷  、  钾  、  镁  等  多  种  物质  的  搭配  也  十分  合理  。
+            牛奶  中  所含  有的  脂肪  溶点  低  ，  颗粒  小  ，  很  容易  被  人体  消化  吸收  ，  并  其  消化率  达  97%  。
+        </segment>
+
+        <pos>
+            牛奶#NN  所#MSP  含#VV  的#DEC  碳水#NN  化合物#NN  中#LC  最#AD  丰富#VA  的#DEC  是#VC  乳糖#NN  ，#PU  乳糖#NN  使#VV  钙#NN  易于#NN  被#SB  吸收#VV  。#PU
+            牛奶#NN  中#LC  含有#VV  品质#NN  很#AD  好#VA  的#DEC  蛋白质#NN  ，#PU  包括#VV  酪蛋白#NN  ，#PU  少量#CD  的#DEC  乳清#NN  蛋白#VV  ，#PU  其#PN  生物学#NN  价值#NN  为#VC  85#CD    。#PU  牛奶#NN  中#LC  包括#VV  人体#NN  生长#NN  发育#NN  所#MSP  需#VV  的#DEC  全部#DT  氨基酸#NN  ，#PU  是#VC  其他#DT  食物#NN  无法#AD  比拟#VV  的#DEC    。#PU    。#PU
+            牛奶#NN  的#DEG  蛋白质#NN  和#CC  热量#NN  的#DEG  比例#NN  很#AD  合理#VA  ，#PU  能#VV  保证#VV  饮用者#NN  不至#NN  摄入#NN  ''#NN  纯#JJ  ``#NN  热量#NN  。#PU
+            牛奶#NN  中#LC  的#DEG  钙#NN  含量#NN  很#AD  容易#VA  被#SB  吸收#VV  ，#PU  另外#AD  ，#PU  磷#NN  、#PU  钾#NN  、#PU  镁#NN  等#ETC  多#CD  种#M  物质#NN  的#DEG  搭配#NN  也#AD  十分#AD  合理#VA  。#PU
+            牛奶#NN  中#LC  所含#NR  有的#PN  脂肪#NN  溶点#AD  低#VA  ，#PU  颗粒#NN  小#VA  ，#PU  很#AD  容易#VA  被#SB  人体#VV  消化#NN  吸收#NN  ，#PU  并#CC  其#PN  消化率#NN  达#VV  97#CD  %#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 丰富#VA, 牛奶#NN)  (prtmod, 含#VV, 所#MSP)  (relcl, 化合物#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 化合物#NN, 碳水#NN)  (loc, 丰富#VA, 化合物#NN)  (case, 化合物#NN, 中#LC)  (advmod, 丰富#VA, 最#AD)  (nsubj, 乳糖#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (cop, 乳糖#NN, 是#VC)  (root, ROOT#null, 乳糖#NN)  (nsubj, 使#VV, 乳糖#NN)  (conj, 乳糖#NN, 使#VV)  (nn, 易于#NN, 钙#NN)  (dobj, 使#VV, 易于#NN)  (auxpass, 吸收#VV, 被#SB)  (dep, 使#VV, 吸收#VV)
+            (loc, 含有#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (relcl, 乳清#NN, 含有#VV)  (nsubj, 好#VA, 品质#NN)  (advmod, 好#VA, 很#AD)  (relcl, 蛋白质#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (conj, 含有#VV, 包括#VV)  (dobj, 包括#VV, 酪蛋白#NN)  (conj, 含有#VV, 少量#CD)  (mark, 含有#VV, 的#DEC)  (nsubj, 蛋白#VV, 乳清#NN)  (root, ROOT#null, 蛋白#VV)  (nn, 价值#NN, 其#PN)  (nn, 价值#NN, 生物学#NN)  (nsubj, 为#VC, 价值#NN)  (ccomp, 蛋白#VV, 为#VC)  (dep, 为#VC, 85#CD)   (loc, 包括#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (root, ROOT#null, 包括#VV)  (nn, 发育#NN, 人体#NN)  (nn, 发育#NN, 生长#NN)  (nsubj, 需#VV, 发育#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 氨基酸#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 氨基酸#NN, 全部#DT)  (dobj, 包括#VV, 氨基酸#NN)  (cop, 比拟#VV, 是#VC)  (det, 食物#NN, 其他#DT)  (nsubj, 比拟#VV, 食物#NN)  (advmod, 比拟#VV, 无法#AD)  (conj, 包括#VV, 比拟#VV)  (mark, 比拟#VV, 的#DEC)   (root, ROOT#null, null#null)
+            (assmod, 蛋白质#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (conj, 比例#NN, 蛋白质#NN)  (cc, 比例#NN, 和#CC)  (assmod, 比例#NN, 热量#NN)  (case, 热量#NN, 的#DEG)  (nsubj, 合理#VA, 比例#NN)  (advmod, 合理#VA, 很#AD)  (root, ROOT#null, 合理#VA)  (mmod, 保证#VV, 能#VV)  (dep, 合理#VA, 保证#VV)  (nn, 摄入#NN, 饮用者#NN)  (nn, 摄入#NN, 不至#NN)  (nn, ''#NN, 摄入#NN)  (nn, ``#NN, ''#NN)  (amod, ``#NN, 纯#JJ)  (nn, 热量#NN, ``#NN)  (dobj, 保证#VV, 热量#NN)
+            (assmod, 含量#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nn, 含量#NN, 钙#NN)  (nsubj, 容易#VA, 含量#NN)  (advmod, 容易#VA, 很#AD)  (root, ROOT#null, 容易#VA)  (auxpass, 吸收#VV, 被#SB)  (dep, 容易#VA, 吸收#VV)  (advmod, 合理#VA, 另外#AD)  (conj, 镁#NN, 磷#NN)  (conj, 镁#NN, 钾#NN)  (nn, 物质#NN, 镁#NN)  (etc, 镁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 物质#NN, 种#M)  (assmod, 搭配#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (nsubj, 合理#VA, 搭配#NN)  (advmod, 合理#VA, 也#AD)  (advmod, 合理#VA, 十分#AD)  (conj, 容易#VA, 合理#VA)
+            (loc, 低#VA, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (nn, 脂肪#NN, 所含#NR)  (nn, 脂肪#NN, 有的#PN)  (nsubj, 低#VA, 脂肪#NN)  (advmod, 低#VA, 溶点#AD)  (root, ROOT#null, 低#VA)  (nsubj, 小#VA, 颗粒#NN)  (conj, 低#VA, 小#VA)  (advmod, 容易#VA, 很#AD)  (conj, 低#VA, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 人体#VV, 吸收#NN)  (cc, 低#VA, 并#CC)  (nn, 消化率#NN, 其#PN)  (nsubj, 达#VV, 消化率#NN)  (conj, 低#VA, 达#VV)  (nummod, %#NN, 97#CD)  (dobj, 达#VV, %#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            煮牛奶时不要加糖，须待煮熟离火后再加；加热时不要煮沸，也不要久煮，否则会破坏营养素，影响人体吸收；科学的方法是用旺火煮奶，奶将要开时马上离火，然后再加热，如此反复3～4次，既能保持牛奶的养分，又能有效地杀死奶中的细菌。
+        </rawdata>
+
+        <segment>
+            煮  牛奶  时  不  要  加糖  ，  须  待  煮熟  离  火  后  再  加  ；  加热  时  不要  煮沸  ，  也  不  要  久煮  ，  否则  会  破坏  营养素  ，  影响  人体  吸收  ；  科学  的  方法  是  用  旺火  煮奶  ，  奶将  要  开时  马上  离火  ，  然后  再  加热  ，  如此  反复  3  ～  4  次  ，  既  能  保持  牛奶  的  养分  ，  又  能  有效  地  杀死  奶中  的  细菌  。
+        </segment>
+
+        <pos>
+            煮#VV  牛奶#NN  时#LC  不#AD  要#VV  加糖#NN  ，#PU  须#VV  待#VV  煮熟#NN  离#P  火#NN  后#LC  再#AD  加#VV  ；#PU  加热#NN  时#LC  不要#VV  煮沸#NN  ，#PU  也#AD  不#AD  要#VV  久煮#NN  ，#PU  否则#AD  会#VV  破坏#NN  营养素#NN  ，#PU  影响#NN  人体#NN  吸收#VV  ；#PU  科学#NN  的#DEG  方法#NN  是#VC  用#P  旺火#NN  煮奶#NN  ，#PU  奶将#AD  要#VV  开时#NN  马上#AD  离火#VV  ，#PU  然后#AD  再#AD  加热#VV  ，#PU  如此#AD  反复#AD  3#CD  ～#NN  4#CD  次#M  ，#PU  既#CC  能#VV  保持#VV  牛奶#NN  的#DEC  养分#NN  ，#PU  又#AD  能#VV  有效#VA  地#DEV  杀死#VV  奶中#NN  的#DEC  细菌#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 要#VV, 煮#VV)  (dobj, 煮#VV, 牛奶#NN)  (case, 煮#VV, 时#LC)  (neg, 要#VV, 不#AD)  (dep, 吸收#VV, 要#VV)  (dobj, 要#VV, 加糖#NN)  (mmod, 待#VV, 须#VV)  (conj, 要#VV, 待#VV)  (dobj, 待#VV, 煮熟#NN)  (case, 火#NN, 离#P)  (prep, 加#VV, 火#NN)  (case, 火#NN, 后#LC)  (advmod, 加#VV, 再#AD)  (conj, 要#VV, 加#VV)  (loc, 不要#VV, 加热#NN)  (case, 加热#NN, 时#LC)  (conj, 要#VV, 不要#VV)  (dobj, 不要#VV, 煮沸#NN)  (advmod, 要#VV, 也#AD)  (neg, 要#VV, 不#AD)  (conj, 要#VV, 要#VV)  (dobj, 要#VV, 久煮#NN)  (advmod, 会#VV, 否则#AD)  (conj, 要#VV, 会#VV)  (nn, 营养素#NN, 破坏#NN)  (dobj, 会#VV, 营养素#NN)  (nn, 人体#NN, 影响#NN)  (nsubj, 吸收#VV, 人体#NN)  (xsubj, 离火#VV, 人体#NN)  (root, ROOT#null, 吸收#VV)  (assmod, 方法#NN, 科学#NN)  (case, 科学#NN, 的#DEG)  (nsubj, 要#VV, 方法#NN)  (cop, 要#VV, 是#VC)  (case, 煮奶#NN, 用#P)  (nn, 煮奶#NN, 旺火#NN)  (prep, 要#VV, 煮奶#NN)  (advmod, 要#VV, 奶将#AD)  (dep, 离火#VV, 要#VV)  (dobj, 要#VV, 开时#NN)  (advmod, 离火#VV, 马上#AD)  (ccomp, 吸收#VV, 离火#VV)  (advmod, 加热#VV, 然后#AD)  (advmod, 加热#VV, 再#AD)  (dep, 离火#VV, 加热#VV)  (advmod, ～#NN, 如此#AD)  (advmod, ～#NN, 反复#AD)  (nummod, ～#NN, 3#CD)  (nummod, 次#M, 4#CD)  (range, ～#NN, 次#M)  (cc, ～#NN, 既#CC)  (conj, ～#NN, 能#VV)  (relcl, 养分#NN, 保持#VV)  (dobj, 保持#VV, 牛奶#NN)  (mark, 保持#VV, 的#DEC)  (dobj, 能#VV, 养分#NN)  (advmod, 能#VV, 又#AD)  (dep, 离火#VV, 能#VV)  (dvpmod, 杀死#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (relcl, 细菌#NN, 杀死#VV)  (dobj, 杀死#VV, 奶中#NN)  (mark, 杀死#VV, 的#DEC)  (dobj, 能#VV, 细菌#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/211051566665.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\532 牛奶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,149 @@
+<content>
+
+    <id>
+        1478
+    </id>
+
+    <foodname>
+        素肚
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        豆腐干
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            适宜消瘦，免疫力低，记忆力下降等症状的人群，生长发育停滞的儿童。
+        </rawdata>
+
+        <segment>
+            适宜  消瘦  ，  免疫力  低  ，  记忆力  下降  等  症状  的  人群  ，  生长  发育  停滞  的  儿童  。
+        </segment>
+
+        <pos>
+            适宜#VA  消瘦#VA  ，#PU  免疫力#AD  低#VA  ，#PU  记忆力#AD  下降#VV  等#ETC  症状#VA  的#DEC  人群#NN  ，#PU  生长#NN  发育#VV  停滞#NN  的#DEG  儿童#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 人群#NN, 适宜#VA)  (comod, 适宜#VA, 消瘦#VA)  (advmod, 低#VA, 免疫力#AD)  (ccomp, 适宜#VA, 低#VA)  (advmod, 下降#VV, 记忆力#AD)  (dep, 低#VA, 下降#VV)  (dep, 低#VA, 等#ETC)  (dep, 适宜#VA, 症状#VA)  (mark, 适宜#VA, 的#DEC)  (nsubj, 发育#VV, 人群#NN)  (nsubj, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)  (assmod, 儿童#NN, 停滞#NN)  (case, 停滞#NN, 的#DEG)  (dobj, 发育#VV, 儿童#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆腐干是豆腐的再加工制品，咸香爽口，硬中带韧，久放不坏。豆腐干营养丰富，含有大量蛋白质、脂肪、碳水化合物，还含有钙、磷、铁等多种人体所需的矿物质。素肚是一种豆制品，看起来像“肚”,由豆腐干制作而成。
+        </rawdata>
+
+        <segment>
+            豆腐干  是  豆腐  的  再加工  制品  ，  咸香  爽口  ，  硬  中  带  韧  ，  久  放  不  坏  。  豆腐干  营养  丰富  ，  含有  大量  蛋白质  、  脂肪  、  碳水化合物  ，  还  含有  钙  、  磷  、  铁  等  多  种  人体  所  需  的  矿物质  。  素  肚  是  一  种  豆制品  ，  看起来  像  “  肚  ”  ,  由  豆腐干  制作  而  成  。
+        </segment>
+
+        <pos>
+            豆腐干#NN  是#VC  豆腐#NN  的#DEG  再加工#NN  制品#NN  ，#PU  咸香#NN  爽口#NN  ，#PU  硬#JJ  中#NN  带#VV  韧#NN  ，#PU  久#AD  放#VV  不#AD  坏#VA    。#PU  豆腐干#NN  营养#VA  丰富#VA  ，#PU  含有#NN  大量#AD  蛋白质#VA  、#PU  脂肪#VA  、#PU  碳水化合物#VA  ，#PU  还#AD  含有#VV  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  人体#NN  所#MSP  需#VV  的#DEC  矿物质#NN    。#PU  素#AD  肚#NN  是#VC  一#CD  种#M  豆制品#NN  ，#PU  看起来#AD  像#P  ``#NN  肚#NN  ''#NN  ,#NN  由#P  豆腐干#NN  制作#VV  而#MSP  成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 豆腐干#NN)  (cop, 制品#NN, 是#VC)  (assmod, 制品#NN, 豆腐#NN)  (case, 豆腐#NN, 的#DEG)  (nn, 制品#NN, 再加工#NN)  (root, ROOT#null, 制品#NN)  (nn, 爽口#NN, 咸香#NN)  (nsubj, 带#VV, 爽口#NN)  (amod, 中#NN, 硬#JJ)  (nsubj, 带#VV, 中#NN)  (dep, 坏#VA, 带#VV)  (dobj, 带#VV, 韧#NN)  (advmod, 放#VV, 久#AD)  (conj, 带#VV, 放#VV)  (neg, 坏#VA, 不#AD)  (conj, 制品#NN, 坏#VA)   (nsubj, 营养#VA, 豆腐干#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nsubj, 蛋白质#VA, 含有#NN)  (advmod, 蛋白质#VA, 大量#AD)  (ccomp, 营养#VA, 蛋白质#VA)  (conj, 蛋白质#VA, 脂肪#VA)  (dep, 蛋白质#VA, 碳水化合物#VA)  (advmod, 含有#VV, 还#AD)  (dep, 蛋白质#VA, 含有#VV)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 人体#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 矿物质#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)   (advmod, 豆制品#NN, 素#AD)  (prep, 豆制品#NN, 肚#NN)  (cop, 豆制品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 豆制品#NN, 种#M)  (root, ROOT#null, 豆制品#NN)  (advmod, 制作#VV, 看起来#AD)  (case, ,#NN, 像#P)  (nn, ,#NN, ``#NN)  (nn, ,#NN, 肚#NN)  (nn, ,#NN, ''#NN)  (case, 豆腐干#NN, 由#P)  (prep, 制作#VV, 豆腐干#NN)  (dep, 豆制品#NN, 制作#VV)  (dep, 成#VV, 而#MSP)  (dobj, 制作#VV, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            富含蛋白质，具有维持钾钠平衡;消除水肿。提高免疫力。调低血压，有利于生长发育。富含碳水化合物，构成机体的重要物质；储存和提供热能；维持大脑功能必须的能源；调节脂肪代谢；提供膳食纤维；节约蛋白质。
+            1.护发：含蛋白质的食物，经胃肠的消化吸收形成各种氨基酸，是合成头发角蛋白的必需成分。
+            2.健脑：含钙，钙是脑代谢不可缺少的重要物质。含不饱和脂肪酸：保护脑血管，促进细胞的生长，延缓脑细胞的衰弱进程，提高思维能力。提供优质蛋白，富含胆碱，可提高记忆力。
+            3.通乳生乳：有补气血、生乳作用，对产妇有通乳汁、补身体、促康复的功效。有消除寒气、催生乳汁之功效。
+            4.养阴补虚：补虚损，益精气，润肺补肾，用于肺阴虚。适宜与久病体虚或是虚劳的补益。
+            5.护心：防止血管硬化，预防心血管疾病，保护心脏。
+            6.补钙：防止因缺钙引起的骨质疏松，促进骨骼发育，对小儿、老人的骨骼生长极为有利。
+            7.提高免疫力：蛋白质是维持免疫机能最重要的营养素，为构成白血球和抗体的主要成份。
+        </rawdata>
+
+        <segment>
+            富含  蛋白质  ，  具有  维持  钾  钠  平衡  ;  消除  水肿  。  提高  免疫力  。  调低  血压  ，  有利于  生长  发育  。  富含  碳水化合物  ，  构成  机体  的  重要  物质  ；  储存  和  提供  热能  ；  维持  大脑  功能  必须  的  能源  ；  调节  脂肪  代谢  ；  提供  膳食  纤维  ；  节约  蛋白质  。
+            护发  ：  含  蛋白质  的  食物  ，  经  胃肠  的  消化  吸收  形成  各  种  氨基酸  ，  是  合成  头发  角蛋白  的  必需  成分  。
+            健脑  ：  含钙  ，  钙  是  脑  代谢  不可缺少  的  重要  物质  。  含  不  饱和  脂肪酸  ：  保护  脑血管  ，  促进  细胞  的  生长  ，  延缓  脑  细胞  的  衰弱  进程  ，  提高  思维  能力  。  提供  优质  蛋白  ，  富含  胆碱  ，  可  提高  记忆力  。
+            通乳  生乳  ：  有  补气  血  、  生乳  作用  ，  对  产妇  有  通  乳汁  、  补  身体  、  促  康复  的  功效  。  有  消除  寒气  、  催生  乳汁  之  功效  。
+            养  阴  补  虚  ：  补  虚损  ，  益  精气  ，  润肺  补肾  ，  用于  肺  阴虚  。  适宜  与  久  病体  虚  或是  虚劳  的  补益  。
+            护心  ：  防止  血管  硬化  ，  预防  心  血管  疾病  ，  保护  心脏  。
+            补钙  ：  防止  因  缺钙  引起  的  骨质  疏松  ，  促进  骨骼  发育  ，  对  小儿  、  老人  的  骨骼  生长  极为  有利  。
+            提高  免疫力  ：  蛋白质  是  维持  免疫  机能  最  重要  的  营养素  ，  为  构成  白血球  和  抗体  的  主要  成份  。
+        </segment>
+
+        <pos>
+            富含#NR  蛋白质#VV  ，#PU  具有#VV  维持#VV  钾#NN  钠#NN  平衡#NN  ;#NN  消除#VV  水肿#NN    。#PU  提高#VV  免疫力#NN    。#PU  调低#VV  血压#NN  ，#PU  有利于#VV  生长#NN  发育#NN    。#PU  富含#VV  碳水化合物#NN  ，#PU  构成#VV  机体#NN  的#DEG  重要#JJ  物质#NN  ；#PU  储存#VV  和#CC  提供#VV  热能#NN  ；#PU  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  ；#PU  调节#VV  脂肪#NN  代谢#NN  ；#PU  提供#VV  膳食#NN  纤维#NN  ；#PU  节约#VV  蛋白质#NN    。#PU    。#PU
+            护发#VV  ：#PU  含#VV  蛋白质#NN  的#DEC  食物#NN  ，#PU  经#P  胃肠#NN  的#DEG  消化#NN  吸收#NN  形成#VV  各#DT  种#M  氨基酸#NN  ，#PU  是#VC  合成#JJ  头发#NN  角蛋白#NN  的#DEG  必需#VV  成分#NN  。#PU
+            健脑#VV  ：#PU  含钙#NN  ，#PU  钙#AD  是#VC  脑#NN  代谢#NN  不可缺少#NN  的#DEG  重要#JJ  物质#NN    。#PU  含#VV  不#AD  饱和#JJ  脂肪酸#NN  ：#PU  保护#VV  脑血管#NN  ，#PU  促进#VV  细胞#NN  的#DEG  生长#NN  ，#PU  延缓#VV  脑#NN  细胞#NN  的#DEG  衰弱#NN  进程#NN  ，#PU  提高#VV  思维#NN  能力#NN    。#PU  提供#VV  优质#JJ  蛋白#NN  ，#PU  富含#VV  胆碱#NN  ，#PU  可#VV  提高#VV  记忆力#NN    。#PU    。#PU
+            通乳#NR  生乳#VV  ：#PU  有#VE  补气#NN  血#NN  、#PU  生乳#VV  作用#NN  ，#PU  对#P  产妇#NN  有#VE  通#VV  乳汁#NN  、#PU  补#VV  身体#NN  、#PU  促#VV  康复#NN  的#DEC  功效#NN    。#PU  有#VE  消除#VV  寒气#NR  、#PU  催生#NR  乳汁#NN  之#DEG  功效#NN    。#PU    。#PU
+            养#VV  阴#NN  补#VV  虚#AD  ：#PU  补#VV  虚损#NN  ，#PU  益#VV  精气#NN  ，#PU  润肺#VV  补肾#NN  ，#PU  用于#VV  肺#NN  阴虚#NN    。#PU  适宜#VA  与#CC  久#VA  病体#NN  虚#AD  或是#VV  虚劳#NN  的#DEG  补益#NN    。#PU    。#PU
+            护心#VV  ：#PU  防止#VV  血管#NN  硬化#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN  ，#PU  保护#VV  心脏#NN  。#PU
+            补钙#VV  ：#PU  防止#VV  因#P  缺钙#NN  引起#VV  的#DEC  骨质#NN  疏松#NN  ，#PU  促进#VV  骨骼#NN  发育#NN  ，#PU  对#P  小儿#NN  、#PU  老人#NN  的#DEG  骨骼#NN  生长#NN  极为#AD  有利#VA  。#PU
+            提高#NN  免疫力#VV  ：#PU  蛋白质#NN  是#VC  维持#VV  免疫#NN  机能#NN  最#AD  重要#VA  的#DEC  营养素#NN  ，#PU  为#VC  构成#VV  白血球#NN  和#CC  抗体#NN  的#DEC  主要#JJ  成份#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 富含#NR)  (root, ROOT#null, 蛋白质#VV)  (conj, 消除#VV, 具有#VV)  (nfincl, ;#NN, 维持#VV)  (nn, 平衡#NN, 钾#NN)  (nn, 平衡#NN, 钠#NN)  (dobj, 维持#VV, 平衡#NN)  (dobj, 具有#VV, ;#NN)  (ccomp, 蛋白质#VV, 消除#VV)  (dobj, 消除#VV, 水肿#NN)   (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)   (root, ROOT#null, 调低#VV)  (dobj, 调低#VV, 血压#NN)  (conj, 调低#VV, 有利于#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 有利于#VV, 发育#NN)   (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 碳水化合物#NN)  (conj, 富含#VV, 构成#VV)  (assmod, 物质#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (amod, 物质#NN, 重要#JJ)  (dobj, 构成#VV, 物质#NN)  (conj, 富含#VV, 储存#VV)  (cc, 富含#VV, 和#CC)  (conj, 富含#VV, 提供#VV)  (dobj, 提供#VV, 热能#NN)  (conj, 富含#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (nn, 能源#NN, 功能#NN)  (relcl, 功能#NN, 必须#VV)  (relcl, 能源#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 维持#VV, 能源#NN)  (conj, 富含#VV, 调节#VV)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 调节#VV, 代谢#NN)  (conj, 富含#VV, 提供#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 提供#VV, 纤维#NN)  (conj, 富含#VV, 节约#VV)  (dobj, 节约#VV, 蛋白质#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 护发#VV)  (relcl, 食物#NN, 含#VV)  (dobj, 含#VV, 蛋白质#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 形成#VV, 食物#NN)  (case, 吸收#NN, 经#P)  (assmod, 吸收#NN, 胃肠#NN)  (case, 胃肠#NN, 的#DEG)  (nn, 吸收#NN, 消化#NN)  (prep, 形成#VV, 吸收#NN)  (ccomp, 护发#VV, 形成#VV)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 形成#VV, 氨基酸#NN)  (cop, 成分#NN, 是#VC)  (amod, 头发#NN, 合成#JJ)  (nn, 角蛋白#NN, 头发#NN)  (assmod, 成分#NN, 角蛋白#NN)  (case, 角蛋白#NN, 的#DEG)  (nfincl, 成分#NN, 必需#VV)  (dep, 护发#VV, 成分#NN)
+            (root, ROOT#null, 健脑#VV)  (nsubj, 物质#NN, 含钙#NN)  (advmod, 物质#NN, 钙#AD)  (cop, 物质#NN, 是#VC)  (nn, 不可缺少#NN, 脑#NN)  (nn, 不可缺少#NN, 代谢#NN)  (assmod, 物质#NN, 不可缺少#NN)  (case, 不可缺少#NN, 的#DEG)  (amod, 物质#NN, 重要#JJ)  (ccomp, 健脑#VV, 物质#NN)   (root, ROOT#null, 含#VV)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (dobj, 含#VV, 脂肪酸#NN)  (conj, 含#VV, 保护#VV)  (dobj, 保护#VV, 脑血管#NN)  (conj, 含#VV, 促进#VV)  (assmod, 生长#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 促进#VV, 生长#NN)  (conj, 含#VV, 延缓#VV)  (nn, 细胞#NN, 脑#NN)  (assmod, 进程#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (nn, 进程#NN, 衰弱#NN)  (dobj, 延缓#VV, 进程#NN)  (conj, 含#VV, 提高#VV)  (nn, 能力#NN, 思维#NN)  (dobj, 提高#VV, 能力#NN)   (root, ROOT#null, 提供#VV)  (amod, 蛋白#NN, 优质#JJ)  (dobj, 提供#VV, 蛋白#NN)  (conj, 提供#VV, 富含#VV)  (dobj, 富含#VV, 胆碱#NN)  (mmod, 提高#VV, 可#VV)  (conj, 提供#VV, 提高#VV)  (dobj, 提高#VV, 记忆力#NN)   (root, ROOT#null, null#null)
+            (nsubj, 生乳#VV, 通乳#NR)  (xsubj, 有#VE, 通乳#NR)  (root, ROOT#null, 生乳#VV)  (ccomp, 生乳#VV, 有#VE)  (nn, 血#NN, 补气#NN)  (dobj, 有#VE, 血#NN)  (conj, 有#VE, 生乳#VV)  (dobj, 生乳#VV, 作用#NN)  (case, 产妇#NN, 对#P)  (prep, 有#VE, 产妇#NN)  (conj, 有#VE, 有#VE)  (relcl, 功效#NN, 通#VV)  (dobj, 通#VV, 乳汁#NN)  (conj, 通#VV, 补#VV)  (dobj, 补#VV, 身体#NN)  (conj, 通#VV, 促#VV)  (dobj, 促#VV, 康复#NN)  (mark, 通#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, 有#VE)  (dep, 有#VE, 消除#VV)  (conj, 催生#NR, 寒气#NR)  (nn, 乳汁#NN, 催生#NR)  (assmod, 功效#NN, 乳汁#NN)  (case, 乳汁#NN, 之#DEG)  (dobj, 消除#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 养#VV, 补#VV)  (advmod, 补#VV, 虚#AD)  (dep, 养#VV, 补#VV)  (dobj, 补#VV, 虚损#NN)  (conj, 补#VV, 益#VV)  (dobj, 益#VV, 精气#NN)  (conj, 补#VV, 润肺#VV)  (dobj, 润肺#VV, 补肾#NN)  (conj, 补#VV, 用于#VV)  (nn, 阴虚#NN, 肺#NN)  (dobj, 用于#VV, 阴虚#NN)   (root, ROOT#null, 适宜#VA)  (cc, 适宜#VA, 与#CC)  (dep, 适宜#VA, 久#VA)  (nsubj, 或是#VV, 病体#NN)  (advmod, 或是#VV, 虚#AD)  (dep, 适宜#VA, 或是#VV)  (assmod, 补益#NN, 虚劳#NN)  (case, 虚劳#NN, 的#DEG)  (dobj, 或是#VV, 补益#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 护心#VV)  (ccomp, 护心#VV, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)  (conj, 防止#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (conj, 防止#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)
+            (root, ROOT#null, 补钙#VV)  (ccomp, 补钙#VV, 防止#VV)  (case, 缺钙#NN, 因#P)  (prep, 引起#VV, 缺钙#NN)  (relcl, 疏松#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 疏松#NN, 骨质#NN)  (dobj, 防止#VV, 疏松#NN)  (conj, 防止#VV, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)  (case, 生长#NN, 对#P)  (conj, 老人#NN, 小儿#NN)  (assmod, 生长#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (nn, 生长#NN, 骨骼#NN)  (prep, 有利#VA, 生长#NN)  (advmod, 有利#VA, 极为#AD)  (conj, 防止#VV, 有利#VA)
+            (nsubj, 免疫力#VV, 提高#NN)  (root, ROOT#null, 免疫力#VV)  (nsubj, 营养素#NN, 蛋白质#NN)  (cop, 营养素#NN, 是#VC)  (dep, 重要#VA, 维持#VV)  (nn, 机能#NN, 免疫#NN)  (dobj, 维持#VV, 机能#NN)  (advmod, 重要#VA, 最#AD)  (relcl, 营养素#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (ccomp, 免疫力#VV, 营养素#NN)  (cop, 成份#NN, 为#VC)  (relcl, 成份#NN, 构成#VV)  (conj, 抗体#NN, 白血球#NN)  (cc, 抗体#NN, 和#CC)  (dobj, 构成#VV, 抗体#NN)  (mark, 构成#VV, 的#DEC)  (amod, 成份#NN, 主要#JJ)  (conj, 营养素#NN, 成份#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/fd/26/75517_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1478 素肚.jpg
+    </picturelocalurl>
+
+</content>

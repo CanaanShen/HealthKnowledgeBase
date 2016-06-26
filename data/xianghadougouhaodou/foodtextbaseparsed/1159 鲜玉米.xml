@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1159
+    </id>
+
+    <foodname>
+        鲜玉米
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        玉蜀黍、玉高梁、番麦、御麦、西番麦、玉麦、王蜀秫、戎菽、红须麦、薏米包、珍珠芦粟、苞芦、鹿角黍、御米、包谷、陆谷、玉黍、西天麦、玉露秫秫、纤粟、珍珠米、粟米、包粟、苞麦米、苞米
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玉米是粗粮中的保健佳品，对人体的健康颇为有利。
+        </rawdata>
+
+        <segment>
+            玉米  是  粗粮  中  的  保健  佳品  ，  对  人体  的  健康  颇为  有利  。
+        </segment>
+
+        <pos>
+            玉米#NN  是#VC  粗粮#NN  中#LC  的#DEG  保健#NN  佳品#NN  ，#PU  对#P  人体#NN  的#DEG  健康#JJ  颇为#NN  有利#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 佳品#NN, 玉米#NN)  (cop, 佳品#NN, 是#VC)  (assmod, 佳品#NN, 粗粮#NN)  (case, 粗粮#NN, 中#LC)  (case, 粗粮#NN, 的#DEG)  (nn, 佳品#NN, 保健#NN)  (root, ROOT#null, 佳品#NN)  (case, 人体#NN, 对#P)  (assmod, 颇为#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (amod, 颇为#NN, 健康#JJ)  (nsubj, 有利#VA, 颇为#NN)  (conj, 佳品#NN, 有利#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            玉米中含有丰富的不饱和脂肪酸，对冠心病、动脉粥样硬化、高脂血症及高血压等都有一定的预防和治疗作用。玉米中含的硒和镁，则有防癌抗癌的效用。
+        </rawdata>
+
+        <segment>
+            玉米  中  含有  丰富  的  不饱和  脂肪酸  ，  对  冠心病  、  动脉  粥样  硬化  、  高  脂血症  及  高血压  等  都  有  一定  的  预防  和  治疗  作用  。  玉米  中  含  的  硒和镁  ，  则  有  防癌  抗癌  的  效用  。
+        </segment>
+
+        <pos>
+            玉米#NN  中#LC  含有#AD  丰富#VA  的#DEC  不饱和#NN  脂肪酸#VV  ，#PU  对#P  冠心病#NN  、#PU  动脉#NN  粥样#NN  硬化#NN  、#PU  高#JJ  脂血症#NN  及#CC  高血压#NN  等#ETC  都#AD  有#VE  一定#JJ  的#DEG  预防#VV  和#CC  治疗#VV  作用#NN    。#PU  玉米#NN  中#LC  含#VV  的#DEC  硒和镁#NN  ，#PU  则#AD  有#VE  防癌#NN  抗癌#NN  的#DEG  效用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 玉米#NN)  (case, 玉米#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 不饱和#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 脂肪酸#VV, 不饱和#NN)  (xsubj, 有#VE, 不饱和#NN)  (root, ROOT#null, 脂肪酸#VV)  (case, 高血压#NN, 对#P)  (conj, 高血压#NN, 冠心病#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (conj, 高血压#NN, 硬化#NN)  (amod, 脂血症#NN, 高#JJ)  (conj, 高血压#NN, 脂血症#NN)  (cc, 高血压#NN, 及#CC)  (prep, 有#VE, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (advmod, 有#VE, 都#AD)  (ccomp, 脂肪酸#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nfincl, 作用#NN, 预防#VV)  (cc, 预防#VV, 和#CC)  (conj, 预防#VV, 治疗#VV)  (dobj, 有#VE, 作用#NN)   (loc, 含#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (relcl, 硒和镁#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dep, 有#VE, 硒和镁#NN)  (advmod, 有#VE, 则#AD)  (root, ROOT#null, 有#VE)  (nn, 抗癌#NN, 防癌#NN)  (assmod, 效用#NN, 抗癌#NN)  (case, 抗癌#NN, 的#DEG)  (dobj, 有#VE, 效用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        明目  抗辐射  通便  抗癌防癌  和胃  利水消肿  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            玉米须含维生素K、谷氨酸、木聚糖、葡萄糖、有机酸等，有利尿、辅助降血压、促进胆汁分泌、增加血中凝血酶原和加速血液凝固等作用。
+        </rawdata>
+
+        <segment>
+            玉米须  含  维生素K  、  谷氨酸  、  木  聚糖  、  葡萄糖  、  有机酸  等  ，  有  利尿  、  辅助  降  血压  、  促进  胆汁  分泌  、  增加  血中  凝血  酶原  和  加速  血液  凝固  等  作用  。
+        </segment>
+
+        <pos>
+            玉米须#NN  含#VV  维生素K#NN  、#PU  谷氨酸#NN  、#PU  木#NN  聚糖#NN  、#PU  葡萄糖#NN  、#PU  有机酸#NN  等#ETC  ，#PU  有#VE  利尿#NN  、#PU  辅助#NN  降#NN  血压#NN  、#PU  促进#VV  胆汁#NN  分泌#NN  、#PU  增加#VV  血中#NN  凝血#NN  酶原#NN  和#CC  加速#VV  血液#NN  凝固#NN  等#ETC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 玉米须#NN)  (root, ROOT#null, 含#VV)  (conj, 有机酸#NN, 维生素K#NN)  (conj, 有机酸#NN, 谷氨酸#NN)  (nn, 有机酸#NN, 木#NN)  (conj, 有机酸#NN, 聚糖#NN)  (conj, 有机酸#NN, 葡萄糖#NN)  (dobj, 含#VV, 有机酸#NN)  (etc, 有机酸#NN, 等#ETC)  (conj, 含#VV, 有#VE)  (conj, 血压#NN, 利尿#NN)  (nn, 血压#NN, 辅助#NN)  (nn, 血压#NN, 降#NN)  (dobj, 有#VE, 血压#NN)  (conj, 含#VV, 促进#VV)  (nn, 分泌#NN, 胆汁#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 含#VV, 增加#VV)  (nn, 酶原#NN, 血中#NN)  (nn, 酶原#NN, 凝血#NN)  (dobj, 增加#VV, 酶原#NN)  (cc, 含#VV, 和#CC)  (conj, 含#VV, 加速#VV)  (nn, 凝固#NN, 血液#NN)  (nn, 作用#NN, 凝固#NN)  (etc, 凝固#NN, 等#ETC)  (dobj, 加速#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/b9/42/17081_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1159 鲜玉米.jpg
+    </picturelocalurl>
+
+</content>

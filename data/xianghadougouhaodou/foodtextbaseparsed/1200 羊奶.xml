@@ -1,0 +1,177 @@
+<content>
+
+    <id>
+        1200
+    </id>
+
+    <foodname>
+        羊奶
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        鲜羊乳
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用
+            1.适宜营养不良、虚劳赢弱、消渴反胃、肺痨(肺结桉)咳嗽咯血、患有慢性肾炎之人食用。羊奶是肾病病人理想的食品之一，也是体虚者的天然补品；
+            2.急性肾炎和肾功能衰竭患者不适于喝羊奶，以免肾脏加重负担。慢性肠炎患者不宜喝羊奶，避免生胀气，影响伤口愈合，腹部手术患者一两内不喝羊奶。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用
+            适宜  营养  不良  、  虚  劳  赢弱  、  消渴  反胃  、  肺痨  (  肺结桉  )  咳嗽  咯血  、  患有  慢性  肾炎  之  人  食用  。  羊奶  是  肾病  病人  理想  的  食品  之一  ，  也  是  体虚者  的  天然  补品  ；
+            急性  肾炎  和  肾  功能  衰竭  患者  不  适于  喝  羊奶  ，  以免  肾脏  加重  负担  。  慢性  肠炎  患者  不  宜  喝  羊奶  ，  避免  生  胀气  ，  影响  伤口  愈合  ，  腹部  手术  患者  一  两  内  不喝  羊奶  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV
+            适宜#VA  营养#VA  不良#JJ  、#PU  虚#AD  劳#NN  赢弱#NN  、#PU  消渴#NN  反胃#NN  、#PU  肺痨#NN  -LRB-#NN  肺结桉#NN  -RRB-#NN  咳嗽#NN  咯血#NN  、#PU  患有#NN  慢性#NN  肾炎#NN  之#DEG  人#NN  食用#VV  。#PU  羊奶#NN  是#VC  肾病#NN  病人#NN  理想#VA  的#DEC  食品#NN  之一#NN  ，#PU  也#AD  是#VC  体虚者#NN  的#DEG  天然#JJ  补品#NN  ；#PU
+            急性#NN  肾炎#NN  和#CC  肾#NN  功能#NN  衰竭#NN  患者#NN  不#AD  适于#VV  喝#NN  羊奶#NN  ，#PU  以免#VV  肾脏#AD  加重#VV  负担#NN    。#PU  慢性#NN  肠炎#NN  患者#NN  不#AD  宜#NR  喝#VV  羊奶#NN  ，#PU  避免#VV  生#VV  胀气#NN  ，#PU  影响#VV  伤口#NN  愈合#NN  ，#PU  腹部#VV  手术#NN  患者#NN  一#CD  两#CD  内#LC  不喝#AD  羊奶#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+            (relcl, 之一#NN, 适宜#VA)  (comod, 适宜#VA, 营养#VA)  (nfincl, 羊奶#NN, 不良#JJ)  (advmod, 食用#VV, 虚#AD)  (nn, 肺结桉#NN, 劳#NN)  (conj, 肺结桉#NN, 赢弱#NN)  (nn, 肺结桉#NN, 消渴#NN)  (conj, 肺结桉#NN, 反胃#NN)  (nn, 肺结桉#NN, 肺痨#NN)  (nn, -RRB-#NN, 肺结桉#NN)  (nn, 肾炎#NN, 咳嗽#NN)  (conj, 肾炎#NN, 咯血#NN)  (nn, 肾炎#NN, 患有#NN)  (nn, 肾炎#NN, 慢性#NN)  (assmod, 人#NN, 肾炎#NN)  (case, 肾炎#NN, 之#DEG)  (prep, 食用#VV, 人#NN)  (dep, 不良#JJ, 食用#VV)  (nsubj, 病人#NN, 羊奶#NN)  (cop, 病人#NN, 是#VC)  (nn, 病人#NN, 肾病#NN)  (ccomp, 适宜#VA, 病人#NN)  (dep, 适宜#VA, 理想#VA)  (mark, 适宜#VA, 的#DEC)  (nn, 之一#NN, 食品#NN)  (nsubj, 补品#NN, 之一#NN)  (advmod, 补品#NN, 也#AD)  (cop, 补品#NN, 是#VC)  (assmod, 补品#NN, 体虚者#NN)  (case, 体虚者#NN, 的#DEG)  (amod, 补品#NN, 天然#JJ)  (root, ROOT#null, 补品#NN)
+            (nn, 功能#NN, 急性#NN)  (conj, 功能#NN, 肾炎#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 肾#NN)  (nn, 患者#NN, 功能#NN)  (nn, 患者#NN, 衰竭#NN)  (nsubj, 适于#VV, 患者#NN)  (xsubj, 加重#VV, 患者#NN)  (neg, 适于#VV, 不#AD)  (root, ROOT#null, 适于#VV)  (nn, 羊奶#NN, 喝#NN)  (dobj, 适于#VV, 羊奶#NN)  (conj, 适于#VV, 以免#VV)  (advmod, 加重#VV, 肾脏#AD)  (ccomp, 以免#VV, 加重#VV)  (dobj, 加重#VV, 负担#NN)   (nn, 患者#NN, 慢性#NN)  (nn, 患者#NN, 肠炎#NN)  (nsubj, 喝#VV, 患者#NN)  (neg, 喝#VV, 不#AD)  (dep, 喝#VV, 宜#NR)  (root, ROOT#null, 喝#VV)  (dobj, 喝#VV, 羊奶#NN)  (conj, 喝#VV, 避免#VV)  (ccomp, 避免#VV, 生#VV)  (dobj, 生#VV, 胀气#NN)  (conj, 喝#VV, 影响#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 影响#VV, 愈合#NN)  (conj, 喝#VV, 腹部#VV)  (nn, 患者#NN, 手术#NN)  (dobj, 腹部#VV, 患者#NN)  (range, 腹部#VV, 一#CD)  (loc, 羊奶#VV, 两#CD)  (case, 两#CD, 内#LC)  (advmod, 羊奶#VV, 不喝#AD)  (conj, 喝#VV, 羊奶#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            山羊或绵羊泌出的乳汁，据营养学专家介绍，羊奶在国际营养学界被称为“奶中之王”，羊奶的脂肪颗粒体积为牛奶的三分之一，更利于人体吸收，并且长期饮用羊奶不会引起发胖。羊奶中的维生素及微量元素明显高于牛奶，美国、欧洲的部分国家均把羊奶视为营养佳品，欧洲鲜羊奶的售价是牛奶的7倍。
+        </rawdata>
+
+        <segment>
+            山羊  或  绵羊  泌出  的  乳汁  ，  据  营养学  专家  介绍  ，  羊奶  在  国际  营养  学界  被  称为  “  奶中  之  王  ”  ，  羊奶  的  脂肪  颗粒  体积  为  牛奶  的  三分之一  ，  更  利于  人体  吸收  ，  并且  长期  饮用  羊奶  不  会  引起  发胖  。  羊奶  中  的  维生素  及  微量  元素  明显  高于  牛奶  ，  美国  、  欧洲  的  部分  国家  均  把  羊奶  视为  营养  佳品  ，  欧洲  鲜  羊奶  的  售价  是  牛奶  的  7  倍  。
+        </segment>
+
+        <pos>
+            山羊#NN  或#CC  绵羊#NN  泌出#NN  的#DEG  乳汁#NN  ，#PU  据#P  营养学#NN  专家#NN  介绍#VV  ，#PU  羊奶#NN  在#P  国际#NN  营养#VA  学界#VV  被#SB  称为#VV  ``#NN  奶中#NN  之#DEC  王#NN  ''#NN  ，#PU  羊奶#NN  的#DEG  脂肪#NN  颗粒#NN  体积#NN  为#VC  牛奶#NN  的#DEG  三分之一#CD  ，#PU  更#AD  利于#VV  人体#NN  吸收#NN  ，#PU  并且#CC  长期#JJ  饮用#NN  羊奶#NN  不#AD  会#VV  引起#VV  发胖#NN    。#PU  羊奶#NN  中#LC  的#DEG  维生素#NN  及#CC  微量#JJ  元素#NN  明显#AD  高于#VV  牛奶#NN  ，#PU  美国#NR  、#PU  欧洲#NR  的#DEG  部分#CD  国家#NN  均#AD  把#BA  羊奶#NR  视为#VV  营养#VA  佳品#NN  ，#PU  欧洲#NR  鲜#NN  羊奶#NN  的#DEG  售价#NN  是#VC  牛奶#NN  的#DEG  7#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 绵羊#NN, 山羊#NN)  (cc, 绵羊#NN, 或#CC)  (nn, 泌出#NN, 绵羊#NN)  (assmod, 乳汁#NN, 泌出#NN)  (case, 泌出#NN, 的#DEG)  (nsubj, 学界#VV, 乳汁#NN)  (case, 介绍#VV, 据#P)  (nn, 专家#NN, 营养学#NN)  (nsubj, 介绍#VV, 专家#NN)  (prep, 学界#VV, 介绍#VV)  (nsubj, 学界#VV, 羊奶#NN)  (case, 国际#NN, 在#P)  (prep, 学界#VV, 国际#NN)  (dep, 学界#VV, 营养#VA)  (root, ROOT#null, 学界#VV)  (auxpass, 称为#VV, 被#SB)  (relcl, ''#NN, 称为#VV)  (nn, 奶中#NN, ``#NN)  (dobj, 称为#VV, 奶中#NN)  (mark, 称为#VV, 之#DEC)  (nn, ''#NN, 王#NN)  (dobj, 学界#VV, ''#NN)  (assmod, 体积#NN, 羊奶#NN)  (case, 羊奶#NN, 的#DEG)  (nn, 体积#NN, 脂肪#NN)  (nn, 体积#NN, 颗粒#NN)  (nsubj, 为#VC, 体积#NN)  (conj, 学界#VV, 为#VC)  (assmod, 三分之一#CD, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (dep, 为#VC, 三分之一#CD)  (advmod, 利于#VV, 更#AD)  (conj, 学界#VV, 利于#VV)  (nn, 吸收#NN, 人体#NN)  (dobj, 利于#VV, 吸收#NN)  (cc, 学界#VV, 并且#CC)  (amod, 饮用#NN, 长期#JJ)  (nn, 羊奶#NN, 饮用#NN)  (nsubj, 引起#VV, 羊奶#NN)  (neg, 引起#VV, 不#AD)  (mmod, 引起#VV, 会#VV)  (conj, 学界#VV, 引起#VV)  (dobj, 引起#VV, 发胖#NN)   (assmod, 维生素#NN, 羊奶#NN)  (case, 羊奶#NN, 中#LC)  (case, 羊奶#NN, 的#DEG)  (conj, 元素#NN, 维生素#NN)  (cc, 元素#NN, 及#CC)  (amod, 元素#NN, 微量#JJ)  (nsubj, 高于#VV, 元素#NN)  (advmod, 高于#VV, 明显#AD)  (root, ROOT#null, 高于#VV)  (dobj, 高于#VV, 牛奶#NN)  (conj, 欧洲#NR, 美国#NR)  (assmod, 国家#NN, 欧洲#NR)  (case, 欧洲#NR, 的#DEG)  (nummod, 国家#NN, 部分#CD)  (nsubj, 视为#VV, 国家#NN)  (advmod, 视为#VV, 均#AD)  (ba, 视为#VV, 把#BA)  (nsubj, 视为#VV, 羊奶#NR)  (conj, 高于#VV, 视为#VV)  (nfincl, 佳品#NN, 营养#VA)  (dobj, 视为#VV, 佳品#NN)  (nn, 羊奶#NN, 欧洲#NR)  (nn, 羊奶#NN, 鲜#NN)  (assmod, 售价#NN, 羊奶#NN)  (case, 羊奶#NN, 的#DEG)  (nsubj, 是#VC, 售价#NN)  (conj, 高于#VV, 是#VC)  (assmod, 倍#M, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nummod, 倍#M, 7#CD)  (dep, 是#VC, 倍#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            羊奶含蛋白质、脂肪、碳水化合物、维生素A、维生素B、钙、钾、铁等营养成分。现代营养学研究发现，羊奶中的蛋白质、矿物质，尤其是钙、磷的含量都比牛奶略高；维生素A、B含量也高于牛奶，对保护视力、恢复体能有好处。和牛奶相比，羊奶更容易消化，婴儿对羊奶的消化率可达94%以上。
+            羊奶味甘、性温，入胃、心、肾经；有滋阴养胃、补益肾脏、润畅通便、解毒的作用；可用于虚痨羸瘦、消渴、反胃、呃逆、口疮、漆疮等症。治小儿口疮，以羊奶细细沥于口中；对生漆疮的患者，取羊奶汗涂搽于患部即可。
+        </rawdata>
+
+        <segment>
+            羊奶  含  蛋白质  、  脂肪  、  碳水化合物  、  维生素A  、  维生素B  、  钙  、  钾  、  铁  等  营养  成分  。  现代  营养学  研究  发现  ，  羊奶  中  的  蛋白质  、  矿物质  ，  尤其是  钙  、  磷  的  含量  都  比  牛奶  略高  ；  维生素A  、  B  含量  也  高于  牛奶  ，  对  保护  视力  、  恢复  体能  有  好处  。  和  牛奶  相比  ，  羊奶  更  容易  消化  ，  婴儿  对  羊奶  的  消化  率  可  达  94%  以上  。
+            羊奶  味甘  、  性温  ，  入胃  、  心  、  肾经  ；  有  滋阴  养  胃  、  补益  肾脏  、  润畅  通便  、  解毒  的  作用  ；  可  用于  虚痨羸瘦  、  消渴  、  反胃  、  呃逆  、  口疮  、  漆疮  等症  。  治  小儿  口疮  ，  以  羊奶  细细  沥于  口中  ；  对  生漆疮  的  患者  ，  取  羊奶  汗涂  搽于  患部  即可  。
+        </segment>
+
+        <pos>
+            羊奶#NN  含#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  维生素A#NR  、#PU  维生素B#NR  、#PU  钙#NR  、#PU  钾#NN  、#PU  铁#NN  等#ETC  营养#VA  成分#NN    。#PU  现代#JJ  营养学#NN  研究#NN  发现#VV  ，#PU  羊奶#NN  中#LC  的#DEG  蛋白质#NN  、#PU  矿物质#NN  ，#PU  尤其是#AD  钙#NN  、#PU  磷#NN  的#DEG  含量#NN  都#AD  比#P  牛奶#NN  略高#VA  ；#PU  维生素A#NN  、#PU  B#NN  含量#NN  也#AD  高于#VV  牛奶#NN  ，#PU  对#P  保护#NN  视力#NN  、#PU  恢复#NN  体能#NN  有#VE  好处#NN    。#PU  和#P  牛奶#NN  相比#VV  ，#PU  羊奶#AD  更#AD  容易#VA  消化#NN  ，#PU  婴儿#NN  对#P  羊奶#NN  的#DEG  消化#NN  率#NN  可#VV  达#VV  94#CD  %#NN  以上#LC    。#PU    。#PU
+            羊奶#VV  味甘#NN  、#PU  性温#NN  ，#PU  入胃#NN  、#PU  心#NN  、#PU  肾经#NN  ；#PU  有#VE  滋阴#AD  养#VV  胃#NR  、#PU  补益#NR  肾脏#NR  、#PU  润畅#NR  通便#NR  、#PU  解毒#NR  的#DEC  作用#NN  ；#PU  可#VV  用于#VV  虚痨羸瘦#NR  、#PU  消渴#NR  、#PU  反胃#NR  、#PU  呃逆#NR  、#PU  口疮#NR  、#PU  漆疮#NR  等症#NN    。#PU  治#VV  小儿#NN  口疮#NN  ，#PU  以#P  羊奶#NN  细细#VV  沥于#NN  口中#NN  ；#PU  对#P  生漆疮#NN  的#DEG  患者#NN  ，#PU  取#VV  羊奶#NN  汗涂#NN  搽于#NN  患部#NN  即可#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 羊奶#NN)  (root, ROOT#null, 含#VV)  (conj, 钙#NR, 蛋白质#NR)  (conj, 钙#NR, 脂肪#NR)  (conj, 钙#NR, 碳水化合物#NR)  (conj, 钙#NR, 维生素A#NR)  (conj, 钙#NR, 维生素B#NR)  (conj, 铁#NN, 钙#NR)  (conj, 铁#NN, 钾#NN)  (nsubj, 营养#VA, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含#VV, 成分#NN)   (amod, 营养学#NN, 现代#JJ)  (nn, 研究#NN, 营养学#NN)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (assmod, 矿物质#NN, 羊奶#NN)  (case, 羊奶#NN, 中#LC)  (case, 羊奶#NN, 的#DEG)  (conj, 矿物质#NN, 蛋白质#NN)  (nsubj, 略高#VA, 矿物质#NN)  (advmod, 略高#VA, 尤其是#AD)  (conj, 磷#NN, 钙#NN)  (assmod, 含量#NN, 磷#NN)  (case, 磷#NN, 的#DEG)  (nsubj, 略高#VA, 含量#NN)  (advmod, 略高#VA, 都#AD)  (case, 牛奶#NN, 比#P)  (prep, 略高#VA, 牛奶#NN)  (ccomp, 发现#VV, 略高#VA)  (conj, B#NN, 维生素A#NN)  (nn, 含量#NN, B#NN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 也#AD)  (conj, 略高#VA, 高于#VV)  (dobj, 高于#VV, 牛奶#NN)  (case, 体能#NN, 对#P)  (nn, 视力#NN, 保护#NN)  (conj, 体能#NN, 视力#NN)  (nn, 体能#NN, 恢复#NN)  (prep, 有#VE, 体能#NN)  (conj, 略高#VA, 有#VE)  (dobj, 有#VE, 好处#NN)   (case, 牛奶#NN, 和#P)  (prep, 相比#VV, 牛奶#NN)  (root, ROOT#null, 相比#VV)  (advmod, 容易#VA, 羊奶#AD)  (advmod, 容易#VA, 更#AD)  (dep, 相比#VV, 容易#VA)  (nsubj, 达#VV, 消化#NN)  (nsubj, 达#VV, 婴儿#NN)  (case, 率#NN, 对#P)  (assmod, 率#NN, 羊奶#NN)  (case, 羊奶#NN, 的#DEG)  (nn, 率#NN, 消化#NN)  (prep, 达#VV, 率#NN)  (mmod, 达#VV, 可#VV)  (dep, 相比#VV, 达#VV)  (nummod, %#NN, 94#CD)  (loc, 达#VV, %#NN)  (case, %#NN, 以上#LC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 羊奶#VV)  (conj, 肾经#NN, 味甘#NN)  (conj, 肾经#NN, 性温#NN)  (conj, 肾经#NN, 入胃#NN)  (conj, 肾经#NN, 心#NN)  (dobj, 羊奶#VV, 肾经#NN)  (conj, 羊奶#VV, 有#VE)  (advmod, 养#VV, 滋阴#AD)  (relcl, 作用#NN, 养#VV)  (conj, 解毒#NR, 胃#NR)  (nn, 解毒#NR, 补益#NR)  (conj, 解毒#NR, 肾脏#NR)  (nn, 解毒#NR, 润畅#NR)  (conj, 解毒#NR, 通便#NR)  (dobj, 养#VV, 解毒#NR)  (mark, 养#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (mmod, 用于#VV, 可#VV)  (conj, 羊奶#VV, 用于#VV)  (conj, 漆疮#NR, 虚痨羸瘦#NR)  (conj, 漆疮#NR, 消渴#NR)  (conj, 漆疮#NR, 反胃#NR)  (conj, 漆疮#NR, 呃逆#NR)  (conj, 漆疮#NR, 口疮#NR)  (nn, 等症#NN, 漆疮#NR)  (dobj, 用于#VV, 等症#NN)   (root, ROOT#null, 治#VV)  (nn, 口疮#NN, 小儿#NN)  (dobj, 治#VV, 口疮#NN)  (case, 羊奶#NN, 以#P)  (prep, 细细#VV, 羊奶#NN)  (conj, 治#VV, 细细#VV)  (nn, 口中#NN, 沥于#NN)  (dobj, 细细#VV, 口中#NN)  (case, 患者#NN, 对#P)  (assmod, 患者#NN, 生漆疮#NN)  (case, 生漆疮#NN, 的#DEG)  (prep, 取#VV, 患者#NN)  (dep, 治#VV, 取#VV)  (nn, 即可#NN, 羊奶#NN)  (nn, 即可#NN, 汗涂#NN)  (nn, 即可#NN, 搽于#NN)  (nn, 即可#NN, 患部#NN)  (dobj, 取#VV, 即可#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1、对于女性来说,羊奶丰富的营养对胎儿及母体都是非常有益的补充.它所含的上皮细胞生长因子,可有效提高胎儿及产妇的免疫力,从而免受疾病干扰；其细小的脂肪球容易消化,有助于控制胎儿体重和孕妇产后恢复体型；羊奶还可以促进泌乳并提高乳汁质量.对于营养不良,发育缓慢,肢体瘦弱,面色萎黄的婴幼儿,可先用大米 60 克 加水煮粥,待煮至半熟时去米汤,加入羊奶,白糖适量,同煮成粥,早晚空腹时趁温热食用,有滋补营养的功效。
+            2、羊奶对老年人的健康 ( 尤其是心血管健康 ) 也很有裨益.它所含蛋白质,脂肪,碳水化合物等十分适宜老年人的需要.进入高龄的老年人,肠胃功能衰退,食物难消化吸收,羊奶中的脂肪球除颗粒细小均匀外,还含有一种粘多糖,能抑制肠道中大肠杆菌繁殖,有效地帮助老年人消化吸收,避免脂肪堆积,控制血液胆固醇的升高。
+            3、羊奶外用也有特殊的功效.例如《千金要方》中将羊奶与羊胰,甘草配成膏剂涂脸,能使黝黑的面部皮肤滑润细腻,白净倍增.羊奶还可与白附子,密陀僧,牡蛎,茯苓,川芎等组方外用,使面部皱纹减少,以葆青春.此外,口腔溃疡疼痛,也可用羊奶外涂治疗。
+        </rawdata>
+
+        <segment>
+            对于  女性  来说  ,  羊奶  丰富  的  营养  对  胎儿  及  母体  都  是  非常  有益  的  补充  .  它  所含  的  上皮  细胞  生长  因子  ,  可  有效  提高  胎儿  及  产妇  的  免疫力  ,  从而  免受  疾病  干扰  ；  其  细小  的  脂肪  球  容易  消化  ,  有助于  控制  胎儿  体重  和  孕妇  产后  恢复  体型  ；  羊奶  还  可以  促进  泌乳  并  提高  乳汁  质量  .  对于  营养  不良  ,  发育  缓慢  ,  肢体  瘦弱  ,  面色  萎黄  的  婴幼儿  ,  可  先用  大米  60  克  加水  煮粥  ,  待煮  至  半熟  时  去  米汤  ,  加入  羊奶  ,  白糖  适量  ,  同  煮成粥  ,  早晚  空腹  时趁  温热  食用  ,  有  滋补  营养  的  功效  。
+            羊奶  对  老年人  的  健康    (    尤其是  心血管  健康    )    也  很  有  裨益  .  它  所含  蛋白质  ,  脂肪  ,  碳水化合物  等  十分  适宜  老年人  的  需要  .  进入  高龄  的  老年人  ,  肠胃  功能  衰退  ,  食物  难  消化  吸收  ,  羊奶  中  的  脂肪  球除  颗粒  细小  均匀  外  ,  还  含有  一  种  粘多糖  ,  能  抑制  肠道  中  大肠  杆菌  繁殖  ,  有效  地  帮助  老年人  消化  吸收  ,  避免  脂肪  堆积  ,  控制  血液  胆固醇  的  升高  。
+            羊奶  外用  也  有  特殊  的  功效  .  例如  《  千金  要  方  》  中  将  羊奶  与  羊胰  ,  甘草  配成  膏剂  涂  脸  ,  能使  黝黑  的  面部  皮肤  滑润  细腻  ,  白净  倍增  .  羊奶  还  可  与  白  附子  ,  密陀僧  ,  牡蛎  ,  茯苓  ,  川芎  等  组方  外用  ,  使  面部  皱纹  减少  ,  以葆  青春  .  此外  ,  口腔  溃疡  疼痛  ,  也  可  用  羊奶  外涂  治疗  。
+        </segment>
+
+        <pos>
+            对于#P  女性#NN  来说#NN  ,#NN  羊奶#NN  丰富#VA  的#DEC  营养#VA  对#P  胎儿#NR  及#CC  母体#NR  都#AD  是#VC  非常#AD  有益#VA  的#DEC  补充#NN  .#VV  它#PN  所含#NN  的#DEC  上皮#NN  细胞#NN  生长#NN  因子#NN  ,#NN  可#VV  有效#JJ  提高#NN  胎儿#NN  及#CC  产妇#NN  的#DEC  免疫力#NN  ,#NN  从而#AD  免受#VV  疾病#NN  干扰#NN  ；#PU  其#PN  细小#NN  的#DEG  脂肪#NN  球#NN  容易#VA  消化#NN  ,#NN  有助于#VV  控制#NN  胎儿#NN  体重#NN  和#CC  孕妇#NN  产后#NN  恢复#VV  体型#NN  ；#PU  羊奶#NR  还#AD  可以#VV  促进#VV  泌乳#NN  并#CC  提高#VV  乳汁#NN  质量#NN  .#NN  对于#P  营养#VA  不良#JJ  ,#NN  发育#VV  缓慢#VA  ,#NN  肢体#NN  瘦弱#NN  ,#NN  面色#NN  萎黄#NN  的#DEC  婴幼儿#NN  ,#NN  可#VV  先用#NN  大米#NN  60#CD  克#M  加水#NN  煮粥#NN  ,#NN  待煮#NN  至#CC  半熟#NN  时#LC  去#MSP  米汤#VV  ,#NN  加入#VV  羊奶#NR  ,#NR  白糖#NN  适量#NN  ,#NN  同#CC  煮成粥#NR  ,#NR  早晚#NR  空腹#NN  时趁#NN  温热#NN  食用#VV  ,#NN  有#VE  滋补#NR  营养#VA  的#DEC  功效#CD  。#PU
+            羊奶#CD  对#P  老年人#NN  的#DEG  健康#JJ  -LRB-#NN  尤其是#AD  心血管#NR  健康#JJ  -RRB-#NN  也#AD  很#AD  有#VE  裨益#NR  .#NR  它#PN  所含#JJ  蛋白质#NN  ,#NN  脂肪#NN  ,#NN  碳水化合物#NN  等#ETC  十分#AD  适宜#VV  老年人#NN  的#DEC  需要#NN  .#NN  进入#VV  高龄#VA  的#DEC  老年人#NN  ,#NN  肠胃#NN  功能#NN  衰退#VV  ,#NN  食物#NN  难#NN  消化#NN  吸收#VV  ,#NN  羊奶#NN  中#LC  的#DEG  脂肪#JJ  球除#NN  颗粒#NN  细小#NN  均匀#VA  外#LC  ,#NR  还#AD  含有#VV  一#CD  种#M  粘多糖#NN  ,#NN  能#VV  抑制#VV  肠道#NN  中#LC  大肠#NN  杆菌#NN  繁殖#NN  ,#NN  有效#VA  地#DEV  帮助#VV  老年人#NN  消化#NN  吸收#VV  ,#NN  避免#VV  脂肪#NN  堆积#NN  ,#NN  控制#NN  血液#NN  胆固醇#NN  的#DEC  升高#VV  。#PU
+            羊奶#NN  外用#NN  也#AD  有#VE  特殊#VA  的#DEC  功效#NN  .#VV  例如#AD  千金#CD  要#VV  方#NN  中#LC  将#AD  羊奶#VV  与#P  羊胰#NR  ,#NR  甘草#NN  配成#NN  膏剂#NN  涂#NN  脸#NN  ,#VV  能使#NN  黝黑#NN  的#DEC  面部#NN  皮肤#NN  滑润#NN  细腻#NN  ,#NN  白净#NN  倍增#NN  .#NN  羊奶#NN  还#AD  可#VV  与#CC  白#JJ  附子#NN  ,#NN  密陀僧#NN  ,#NN  牡蛎#NN  ,#VV  茯苓#NN  ,#NN  川芎#NN  等#ETC  组方#CD  外用#NN  ,#NN  使#VV  面部#NN  皱纹#NN  减少#VV  ,#NN  以葆#NN  青春#NN  .#NN  此外#AD  ,#NN  口腔#NN  溃疡#NN  疼痛#NN  ,#NN  也#AD  可#VV  用#VV  羊奶#NN  外涂#NN  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, ,#NN, 对于#P)  (nn, 羊奶#NN, 女性#NN)  (nn, 羊奶#NN, 来说#NN)  (nsubj, 丰富#VA, 羊奶#NN)  (relcl, ,#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (relcl, ,#NN, 营养#VA)  (case, 补充#NN, 对#P)  (conj, 母体#NR, 胎儿#NR)  (cc, 母体#NR, 及#CC)  (nsubj, 有益#VA, 母体#NR)  (advmod, 有益#VA, 都#AD)  (cop, 有益#VA, 是#VC)  (advmod, 有益#VA, 非常#AD)  (relcl, 补充#NN, 有益#VA)  (mark, 有益#VA, 的#DEC)  (prep, .#VV, 补充#NN)  (nn, 所含#NN, 它#PN)  (dobj, .#VV, 所含#NN)  (mark, 营养#VA, 的#DEC)  (nn, ,#NN, 上皮#NN)  (nn, ,#NN, 细胞#NN)  (nn, ,#NN, 生长#NN)  (nn, ,#NN, 因子#NN)  (relcl, ,#NN, 可#VV)  (amod, 产妇#NN, 有效#JJ)  (nn, 产妇#NN, 提高#NN)  (conj, 产妇#NN, 胎儿#NN)  (cc, 产妇#NN, 及#CC)  (dobj, 可#VV, 产妇#NN)  (mark, 可#VV, 的#DEC)  (nn, ,#NN, 免疫力#NN)  (advmod, 免受#VV, 从而#AD)  (root, ROOT#null, 免受#VV)  (nn, 干扰#NN, 疾病#NN)  (dobj, 免受#VV, 干扰#NN)  (nn, 细小#NN, 其#PN)  (assmod, 球#NN, 细小#NN)  (case, 细小#NN, 的#DEG)  (nn, 球#NN, 脂肪#NN)  (nsubj, 容易#VA, 球#NN)  (relcl, ,#NN, 容易#VA)  (nn, ,#NN, 消化#NN)  (conj, 免受#VV, 有助于#VV)  (nn, 产后#NN, 控制#NN)  (nn, 产后#NN, 胎儿#NN)  (conj, 产后#NN, 体重#NN)  (cc, 产后#NN, 和#CC)  (nn, 产后#NN, 孕妇#NN)  (dobj, 有助于#VV, 产后#NN)  (dep, 有助于#VV, 恢复#VV)  (dobj, 恢复#VV, 体型#NN)  (nsubj, 促进#VV, 羊奶#NR)  (advmod, 促进#VV, 还#AD)  (mmod, 促进#VV, 可以#VV)  (conj, 免受#VV, 促进#VV)  (dobj, 促进#VV, 泌乳#NN)  (cc, 促进#VV, 并#CC)  (conj, 促进#VV, 提高#VV)  (nn, .#NN, 乳汁#NN)  (nn, .#NN, 质量#NN)  (case, ,#NN, 对于#P)  (nfincl, ,#NN, 营养#VA)  (amod, ,#NN, 不良#JJ)  (relcl, ,#NN, 发育#VV)  (rcomp, 发育#VV, 缓慢#VA)  (nn, 萎黄#NN, 肢体#NN)  (nn, 萎黄#NN, 瘦弱#NN)  (nn, 萎黄#NN, 面色#NN)  (dobj, 发育#VV, 萎黄#NN)  (mark, 发育#VV, 的#DEC)  (nn, ,#NN, 婴幼儿#NN)  (nfincl, 加水#NN, 可#VV)  (nn, 大米#NN, 先用#NN)  (dobj, 可#VV, 大米#NN)  (nummod, 克#M, 60#CD)  (clf, 加水#NN, 克#M)  (dobj, 提高#VV, 加水#NN)  (nn, 待煮#NN, 煮粥#NN)  (dep, 功效#CD, 待煮#NN)  (cc, 待煮#NN, 至#CC)  (dep, 待煮#NN, 半熟#NN)  (case, 半熟#NN, 时#LC)  (prtmod, 米汤#VV, 去#MSP)  (dep, 功效#CD, 米汤#VV)  (dep, 米汤#VV, 加入#VV)  (nn, ,#NN, 羊奶#NR)  (nn, ,#NN, 白糖#NN)  (nn, ,#NN, 适量#NN)  (cc, 温热#NN, 同#CC)  (nn, 温热#NN, 煮成粥#NR)  (nn, 温热#NN, 早晚#NR)  (nn, 温热#NN, 空腹#NN)  (nn, 温热#NN, 时趁#NN)  (dobj, 加入#VV, 温热#NN)  (conj, 加入#VV, 食用#VV)  (conj, 食用#VV, 有#VE)  (nsubj, 营养#VA, 滋补#NR)  (dep, 有#VE, 营养#VA)  (mark, 米汤#VV, 的#DEC)  (range, 提高#VV, 功效#CD)
+            (nummod, .#NN, 羊奶#CD)  (case, -LRB-#NN, 对#P)  (assmod, -LRB-#NN, 老年人#NN)  (case, 老年人#NN, 的#DEG)  (amod, -LRB-#NN, 健康#JJ)  (advmod, 有#VE, 尤其是#AD)  (nn, -RRB-#NN, 心血管#NR)  (amod, -RRB-#NN, 健康#JJ)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 很#AD)  (relcl, .#NN, 有#VE)  (nn, .#NR, 裨益#NR)  (nn, 碳水化合物#NN, 它#PN)  (amod, 碳水化合物#NN, 所含#JJ)  (nn, 碳水化合物#NN, 蛋白质#NN)  (nn, 碳水化合物#NN, 脂肪#NN)  (nsubj, 适宜#VV, 碳水化合物#NN)  (etc, 碳水化合物#NN, 等#ETC)  (advmod, 适宜#VV, 十分#AD)  (dep, 有#VE, 适宜#VV)  (dobj, 适宜#VV, 老年人#NN)  (mark, 有#VE, 的#DEC)  (nn, .#NN, 需要#NN)  (root, ROOT#null, 进入#VV)  (relcl, 功能#NN, 高龄#VA)  (mark, 高龄#VA, 的#DEC)  (nn, 功能#NN, 老年人#NN)  (nn, 功能#NN, 肠胃#NN)  (dobj, 进入#VV, 功能#NN)  (conj, 进入#VV, 衰退#VV)  (nn, 消化#NN, 食物#NN)  (nn, 消化#NN, 难#NN)  (dobj, 衰退#VV, 消化#NN)  (dep, 进入#VV, 吸收#VV)  (assmod, 细小#NN, 羊奶#NN)  (case, 羊奶#NN, 中#LC)  (case, 羊奶#NN, 的#DEG)  (amod, 细小#NN, 脂肪#JJ)  (nn, 细小#NN, 球除#NN)  (nn, 细小#NN, 颗粒#NN)  (nsubj, 均匀#VA, 细小#NN)  (loc, 含有#VV, 均匀#VA)  (case, 均匀#VA, 外#LC)  (advmod, 含有#VV, 还#AD)  (loc, 帮助#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, ,#NN, 种#M)  (nn, ,#NN, 粘多糖#NN)  (mmod, 抑制#VV, 能#VV)  (dep, 含有#VV, 抑制#VV)  (dobj, 抑制#VV, 肠道#NN)  (case, 含有#VV, 中#LC)  (nn, ,#NN, 大肠#NN)  (nn, ,#NN, 杆菌#NN)  (nn, ,#NN, 繁殖#NN)  (dvpmod, 帮助#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (dobj, 吸收#VV, 帮助#VV)  (nn, 消化#NN, 老年人#NN)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 吸收#VV)  (dep, 吸收#VV, 避免#VV)  (nn, 胆固醇#NN, 脂肪#NN)  (nn, 胆固醇#NN, 堆积#NN)  (nn, 胆固醇#NN, 控制#NN)  (nn, 胆固醇#NN, 血液#NN)  (dobj, 避免#VV, 胆固醇#NN)  (mark, 帮助#VV, 的#DEC)  (conj, 吸收#VV, 升高#VV)
+            (nn, 外用#NN, 羊奶#NN)  (nsubj, 有#VE, 外用#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (relcl, 功效#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nsubj, .#VV, 功效#NN)  (advmod, 可#VV, 例如#AD)  (nummod, 羊奶#NN, 千金#CD)  (loc, ,#VV, 要#VV)  (dobj, 要#VV, 方#NN)  (case, 要#VV, 中#LC)  (advmod, ,#VV, 将#AD)  (mmod, ,#VV, 羊奶#VV)  (case, 脸#NN, 与#P)  (nn, 脸#NN, 羊胰#NR)  (nn, 脸#NN, 甘草#NN)  (nn, 脸#NN, 配成#NN)  (nn, 脸#NN, 膏剂#NN)  (nn, 脸#NN, 涂#NN)  (prep, ,#VV, 脸#NN)  (nn, 黝黑#NN, 能使#NN)  (dobj, ,#VV, 黝黑#NN)  (mark, ,#VV, 的#DEC)  (nn, 羊奶#NN, 面部#NN)  (nn, 羊奶#NN, 皮肤#NN)  (nn, 羊奶#NN, 滑润#NN)  (nn, 羊奶#NN, 细腻#NN)  (nn, 羊奶#NN, 白净#NN)  (nn, 羊奶#NN, 倍增#NN)  (nsubj, 可#VV, 羊奶#NN)  (advmod, 可#VV, 还#AD)  (nfincl, ,#NN, 可#VV)  (cc, 可#VV, 与#CC)  (amod, ,#NN, 白#JJ)  (nn, ,#NN, 附子#NN)  (nn, 牡蛎#NN, 密陀僧#NN)  (nsubj, ,#VV, 牡蛎#NN)  (nn, 川芎#NN, 茯苓#NN)  (dobj, ,#VV, 川芎#NN)  (dep, 可#VV, 等#ETC)  (etc, 川芎#NN, 等#ETC)  (nummod, ,#NN, 组方#CD)  (nn, ,#NN, 外用#NN)  (dep, .#VV, 使#VV)  (nn, 皱纹#NN, 面部#NN)  (dobj, 使#VV, 皱纹#NN)  (dep, 使#VV, 减少#VV)  (nn, .#NN, 以葆#NN)  (nn, .#NN, 青春#NN)  (advmod, 用#VV, 此外#AD)  (nn, ,#NN, 口腔#NN)  (nn, ,#NN, 溃疡#NN)  (nn, ,#NN, 疼痛#NN)  (advmod, 用#VV, 也#AD)  (mmod, 用#VV, 可#VV)  (conj, 有#VE, 用#VV)  (nn, 治疗#NN, 羊奶#NN)  (nn, 治疗#NN, 外涂#NN)  (dobj, 用#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            刚挤出的羊奶先在锅里到少量的是水，水的比例是%1在到羊奶烧开，喝时添加糖就可以了，要是像新疆人那样喝奶茶的话就用红茶烧开加盐，再到奶就可以喝了。
+        </rawdata>
+
+        <segment>
+            刚  挤出  的  羊奶  先在  锅里  到  少量  的  是  水  ，  水  的  比例  是  %  1  在  到  羊奶  烧开  ，  喝  时  添加  糖  就  可以  了  ，  要是  像  新疆  人  那样  喝  奶茶  的话  就  用  红茶  烧开  加盐  ，  再  到  奶就  可以  喝  了  。
+        </segment>
+
+        <pos>
+            刚#AD  挤出#VV  的#DEC  羊奶#NN  先在#VV  锅里#CD  到#CC  少量#CD  的#DEC  是#VC  水#NN  ，#PU  水#NN  的#DEG  比例#NN  是#VC  %#VV  1#CD  在#P  到#VV  羊奶#NN  烧开#NN  ，#PU  喝#VV  时#LC  添加#VV  糖#NN  就#AD  可以#VV  了#AS  ，#PU  要是#NN  像#P  新疆#NR  人#NN  那样#AD  喝#VV  奶茶#NN  的话#SP  就#AD  用#P  红茶#NN  烧开#VV  加盐#NN  ，#PU  再#AD  到#P  奶就#NN  可以#VV  喝#VV  了#AS  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 挤出#VV, 刚#AD)  (relcl, 羊奶#NN, 挤出#VV)  (mark, 挤出#VV, 的#DEC)  (nsubj, 先在#VV, 羊奶#NN)  (nsubj, 水#NN, 先在#VV)  (nummod, 少量#CD, 锅里#CD)  (cc, 少量#CD, 到#CC)  (range, 先在#VV, 少量#CD)  (mark, 先在#VV, 的#DEC)  (cop, 水#NN, 是#VC)  (root, ROOT#null, 水#NN)  (assmod, 比例#NN, 水#NN)  (case, 水#NN, 的#DEG)  (nsubj, %#VV, 比例#NN)  (cop, %#VV, 是#VC)  (conj, 水#NN, %#VV)  (range, %#VV, 1#CD)  (case, 到#VV, 在#P)  (prep, 添加#VV, 到#VV)  (nn, 烧开#NN, 羊奶#NN)  (dobj, 到#VV, 烧开#NN)  (conj, 到#VV, 喝#VV)  (case, 到#VV, 时#LC)  (conj, %#VV, 添加#VV)  (dobj, 添加#VV, 糖#NN)  (advmod, 可以#VV, 就#AD)  (dep, 添加#VV, 可以#VV)  (asp, 可以#VV, 了#AS)  (dep, 烧开#VV, 要是#NN)  (case, 人#NN, 像#P)  (nn, 人#NN, 新疆#NR)  (dep, 那样#AD, 人#NN)  (advmod, 喝#VV, 那样#AD)  (conj, 烧开#VV, 喝#VV)  (dobj, 喝#VV, 奶茶#NN)  (dep, 喝#VV, 的话#SP)  (advmod, 烧开#VV, 就#AD)  (case, 红茶#NN, 用#P)  (prep, 烧开#VV, 红茶#NN)  (dep, %#VV, 烧开#VV)  (dobj, 烧开#VV, 加盐#NN)  (advmod, 喝#VV, 再#AD)  (case, 奶就#NN, 到#P)  (prep, 喝#VV, 奶就#NN)  (mmod, 喝#VV, 可以#VV)  (conj, %#VV, 喝#VV)  (asp, 喝#VV, 了#AS)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/c6/00/198_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1200 羊奶.jpg
+    </picturelocalurl>
+
+</content>

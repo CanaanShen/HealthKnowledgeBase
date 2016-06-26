@@ -1,0 +1,119 @@
+<content>
+
+    <id>
+        1018
+    </id>
+
+    <foodname>
+        罐头鲍鱼
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲍鱼做的罐头
+        </rawdata>
+
+        <segment>
+            鲍鱼  做  的  罐头
+        </segment>
+
+        <pos>
+            鲍鱼#AD  做#VV  的#DEC  罐头#NN
+        </pos>
+
+        <parsing>
+            (advmod, 做#VV, 鲍鱼#AD)  (relcl, 罐头#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (root, ROOT#null, 罐头#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1、含有丰富的蛋白质，还有较多的钙、铁、碘和维生素A等营养元素；
+            2、营养价值极高，富含丰富的球蛋白；鲍鱼的肉中还含有一种被称为“鲍素”的成分，能够破坏癌细胞必需的代谢物质；
+            3、能养阴、平肝、固肾，可调整肾上腺分泌，具有双向性调节血压的作用；
+            4、有调经、润燥利肠之效，可治月经不调、大便秘结等疾患；
+            5、具有滋阴补养功效，并是一种补而不燥的海产，吃后没有牙痛、流鼻血等副作用，多吃也无妨。
+        </rawdata>
+
+        <segment>
+            含有  丰富  的  蛋白质  ，  还有  较  多  的  钙  、  铁  、  碘和  维生素A  等  营养  元素  ；
+            营养  价值  极高  ，  富含  丰富  的  球蛋白  ；  鲍鱼  的  肉  中  还  含有  一  种  被  称为  “  鲍素  ”  的  成分  ，  能够  破坏  癌细胞  必需  的  代谢  物质  ；
+            能养  阴  、  平肝  、  固肾  ，  可调整  肾上腺  分泌  ，  具有  双向性  调节  血压  的  作用  ；
+            有  调经  、  润燥利  肠  之  效  ，  可治  月经  不调  、  大便  秘结  等  疾患  ；
+            具有  滋阴  补养  功效  ，  并  是  一  种  补  而不燥  的  海产  ，  吃  后  没有  牙痛  、  流鼻血  等  副作用  ，  多  吃  也  无妨  。
+        </segment>
+
+        <pos>
+            含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  还有#AD  较#AD  多#VA  的#DEC  钙#NN  、#PU  铁#NN  、#PU  碘和#NN  维生素A#NN  等#ETC  营养#VA  元素#NN  ；#PU
+            营养#VA  价值#NN  极高#NN  ，#PU  富含#VV  丰富#VA  的#DEC  球蛋白#NN  ；#PU  鲍鱼#NN  的#DEG  肉#NN  中#LC  还#AD  含有#VV  一#CD  种#M  被#SB  称为#VV  ``#NN  鲍素#NN  ''#NN  的#DEC  成分#NN  ，#PU  能够#VV  破坏#VV  癌细胞#AD  必需#VV  的#DEC  代谢#NN  物质#NN  ；#PU
+            能养#AD  阴#VA  、#PU  平肝#VA  、#PU  固肾#VA  ，#PU  可调整#AD  肾上腺#VV  分泌#NN  ，#PU  具有#VV  双向性#AD  调节#VV  血压#NN  的#DEC  作用#NN  ；#PU
+            有#VE  调经#NR  、#PU  润燥利#NR  肠#NN  之#DEG  效#NN  ，#PU  可治#NN  月经#VV  不调#NR  、#PU  大便#NR  秘结#NR  等#ETC  疾患#NN  ；#PU
+            具有#VV  滋阴#NN  补养#NN  功效#NN  ，#PU  并#CC  是#VC  一#CD  种#M  补#VV  而不燥#NN  的#DEC  海产#NN  ，#PU  吃#VV  后#LC  没有#VE  牙痛#NR  、#PU  流鼻血#NR  等#ETC  副作用#NN  ，#PU  多#AD  吃#VV  也#AD  无妨#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 营养#VA, 还有#AD)  (advmod, 多#VA, 较#AD)  (relcl, 维生素A#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 维生素A#NN, 钙#NN)  (conj, 维生素A#NN, 铁#NN)  (nn, 维生素A#NN, 碘和#NN)  (nsubj, 营养#VA, 维生素A#NN)  (etc, 维生素A#NN, 等#ETC)  (dep, 含有#VV, 营养#VA)  (dep, 含有#VV, 元素#NN)
+            (relcl, 极高#NN, 营养#VA)  (nn, 极高#NN, 价值#NN)  (nsubj, 富含#VV, 极高#NN)  (root, ROOT#null, 富含#VV)  (relcl, 球蛋白#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 富含#VV, 球蛋白#NN)  (assmod, 肉#NN, 鲍鱼#NN)  (case, 鲍鱼#NN, 的#DEG)  (loc, 含有#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (conj, 富含#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 成分#NN, 种#M)  (auxpass, 称为#VV, 被#SB)  (relcl, 成分#NN, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 鲍素#NN)  (dobj, 称为#VV, ''#NN)  (mark, 称为#VV, 的#DEC)  (dobj, 含有#VV, 成分#NN)  (mmod, 破坏#VV, 能够#VV)  (conj, 富含#VV, 破坏#VV)  (advmod, 必需#VV, 癌细胞#AD)  (relcl, 物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nn, 物质#NN, 代谢#NN)  (dobj, 破坏#VV, 物质#NN)
+            (advmod, 阴#VA, 能养#AD)  (dep, 肾上腺#VV, 阴#VA)  (conj, 阴#VA, 平肝#VA)  (dep, 阴#VA, 固肾#VA)  (advmod, 肾上腺#VV, 可调整#AD)  (root, ROOT#null, 肾上腺#VV)  (dobj, 肾上腺#VV, 分泌#NN)  (dep, 肾上腺#VV, 具有#VV)  (advmod, 调节#VV, 双向性#AD)  (relcl, 作用#NN, 调节#VV)  (dobj, 调节#VV, 血压#NN)  (mark, 调节#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (conj, 月经#VV, 有#VE)  (conj, 润燥利#NR, 调经#NR)  (nn, 肠#NN, 润燥利#NR)  (assmod, 效#NN, 肠#NN)  (case, 肠#NN, 之#DEG)  (dobj, 有#VE, 效#NN)  (nsubj, 月经#VV, 可治#NN)  (root, ROOT#null, 月经#VV)  (conj, 秘结#NR, 不调#NR)  (nn, 秘结#NR, 大便#NR)  (nn, 疾患#NN, 秘结#NR)  (etc, 秘结#NR, 等#ETC)  (dobj, 月经#VV, 疾患#NN)
+            (root, ROOT#null, 具有#VV)  (nn, 功效#NN, 滋阴#NN)  (nn, 功效#NN, 补养#NN)  (dobj, 具有#VV, 功效#NN)  (cc, 具有#VV, 并#CC)  (cop, 海产#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 海产#NN, 种#M)  (relcl, 海产#NN, 补#VV)  (dobj, 补#VV, 而不燥#NN)  (mark, 补#VV, 的#DEC)  (conj, 具有#VV, 海产#NN)  (loc, 没有#VE, 吃#VV)  (case, 吃#VV, 后#LC)  (conj, 具有#VV, 没有#VE)  (conj, 流鼻血#NR, 牙痛#NR)  (nn, 副作用#NN, 流鼻血#NR)  (etc, 流鼻血#NR, 等#ETC)  (dobj, 没有#VE, 副作用#NN)  (advmod, 无妨#VV, 多#AD)  (mmod, 无妨#VV, 吃#VV)  (advmod, 无妨#VV, 也#AD)  (conj, 具有#VV, 无妨#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/26/42/82470_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1018 罐头鲍鱼.jpg
+    </picturelocalurl>
+
+</content>

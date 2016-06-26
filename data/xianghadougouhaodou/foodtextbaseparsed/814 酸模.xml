@@ -1,0 +1,139 @@
+<content>
+
+    <id>
+        814
+    </id>
+
+    <foodname>
+        酸模
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        须、山大黄、当药、山羊蹄、酸母、牛耳大黄、酸汤菜、黄根根、酸姜、酸不溜、酸溜溜、莫菜、酸木通、鸡爪黄连、猪耳根棵、牛舌头棵、打锣锤、田鸡脚、水牛舌头、大山七、羊舌头、酸鸡溜、大黄药菜
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            酸模，俗名野菠菜，蓼科多年生草本植物，欧洲和西亚大多数的草原均可见到其踪迹。酸模含有丰富的维他命A、维他命C及草酸，草酸导致此植物尝起来有酸溜口感，常被作为料理调味用。
+        </rawdata>
+
+        <segment>
+            酸模  ，  俗名  野  菠菜  ，  蓼科  多年生  草本  植物  ，  欧洲  和  西亚  大多数  的  草原  均  可  见到  其  踪迹  。  酸模  含有  丰富  的  维他命A  、  维他命  C  及  草酸  ，  草酸  导致  此  植物  尝  起来  有  酸  溜  口感  ，  常  被  作为  料理  调味  用  。
+        </segment>
+
+        <pos>
+            酸模#VV  ，#PU  俗名#NR  野#JJ  菠菜#NN  ，#PU  蓼科#AD  多年生#VV  草本#NN  植物#NN  ，#PU  欧洲#NR  和#CC  西亚#NR  大多数#CD  的#DEG  草原#NN  均#AD  可#VV  见到#VV  其#PN  踪迹#NN    。#PU  酸模#NN  含有#VV  丰富#VA  的#DEC  维他命A#NN  、#PU  维他命#NN  C#NN  及#CC  草酸#NN  ，#PU  草酸#AD  导致#VV  此#DT  植物#NN  尝#NN  起来#VV  有#VE  酸#NN  溜#NN  口感#NN  ，#PU  常#AD  被#SB  作为#VV  料理#NN  调味#NN  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 酸模#VV)  (nn, 菠菜#NN, 俗名#NR)  (amod, 菠菜#NN, 野#JJ)  (nsubj, 多年生#VV, 菠菜#NN)  (advmod, 多年生#VV, 蓼科#AD)  (ccomp, 酸模#VV, 多年生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 多年生#VV, 植物#NN)  (conj, 西亚#NR, 欧洲#NR)  (cc, 西亚#NR, 和#CC)  (nn, 草原#NN, 西亚#NR)  (assmod, 草原#NN, 大多数#CD)  (case, 大多数#CD, 的#DEG)  (nsubj, 见到#VV, 草原#NN)  (advmod, 见到#VV, 均#AD)  (mmod, 见到#VV, 可#VV)  (conj, 多年生#VV, 见到#VV)  (nn, 踪迹#NN, 其#PN)  (dobj, 见到#VV, 踪迹#NN)   (nsubj, 含有#VV, 酸模#NN)  (dep, 用#VV, 含有#VV)  (relcl, 草酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 草酸#NN, 维他命A#NN)  (nn, 草酸#NN, 维他命#NN)  (conj, 草酸#NN, C#NN)  (cc, 草酸#NN, 及#CC)  (dobj, 含有#VV, 草酸#NN)  (advmod, 导致#VV, 草酸#AD)  (conj, 含有#VV, 导致#VV)  (det, 植物#NN, 此#DT)  (nn, 尝#NN, 植物#NN)  (nsubj, 有#VE, 尝#NN)  (mmod, 有#VE, 起来#VV)  (ccomp, 导致#VV, 有#VE)  (nn, 口感#NN, 酸#NN)  (nn, 口感#NN, 溜#NN)  (dobj, 有#VE, 口感#NN)  (advmod, 作为#VV, 常#AD)  (auxpass, 作为#VV, 被#SB)  (dep, 有#VE, 作为#VV)  (nn, 调味#NN, 料理#NN)  (dobj, 作为#VV, 调味#NN)  (root, ROOT#null, 用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            利尿消肿,通便,提高免疫力,疗头痛头晕
+        </rawdata>
+
+        <segment>
+            利尿  消肿  ,  通便  ,  提高  免疫力  ,  疗头痛  头晕
+        </segment>
+
+        <pos>
+            利尿#NN  消肿#NN  ,#NN  通便#NN  ,#AD  提高#VV  免疫力#NN  ,#NN  疗头痛#NN  头晕#NN
+        </pos>
+
+        <parsing>
+            (nn, 通便#NN, 利尿#NN)  (nn, 通便#NN, 消肿#NN)  (nsubj, 提高#VV, 通便#NN)  (root, ROOT#null, 提高#VV)  (nn, 头晕#NN, 免疫力#NN)  (nn, 头晕#NN, 疗头痛#NN)  (dobj, 提高#VV, 头晕#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        利水  杀虫  凉血止血  通腑泻热  增强免疫力  抗癌防癌  抗真菌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            治小便不通：酸模根三至四钱。水煎服。
+        </rawdata>
+
+        <segment>
+            治  小便  不通  ：  酸模根  三  至  四  钱  。  水  煎服  。
+        </segment>
+
+        <pos>
+            治#VV  小便#NR  不通#CD  ：#PU  酸模根#CD  三#CD  至#CC  四#CD  钱#NN    。#PU  水#NN  煎服#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 治#VV)  (nn, 钱#NN, 小便#NR)  (nummod, 酸模根#CD, 不通#CD)  (dep, 四#CD, 酸模根#CD)  (nummod, 四#CD, 三#CD)  (cc, 四#CD, 至#CC)  (nummod, 钱#NN, 四#CD)  (dobj, 治#VV, 钱#NN)   (nsubj, 煎服#VV, 水#NN)  (root, ROOT#null, 煎服#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/56/41/82262_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\814 酸模.jpg
+    </picturelocalurl>
+
+</content>

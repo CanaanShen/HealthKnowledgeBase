@@ -1,0 +1,143 @@
+<content>
+
+    <id>
+        800
+    </id>
+
+    <foodname>
+        刺儿菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        小蓟、猫蓟、青刺蓟、千针草、刺蓟菜、青青菜、萋萋菜、枪刀菜、野红花、刺角菜、木刺艾、刺杆菜、刺刺芽、刺杀草、荠荠毛、小恶鸡婆、刺萝卜、小蓟姆、刺儿草、牛戳刺、刺尖头草、小刺盖
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质、气虚质、阴虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  、  气虚  质  、  阴虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  、#PU  气虚#NN  质#NN  、#PU  阴虚#NN  质#NN  体质#NN  应#P  忌食#NN  或少#VV  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 气虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 阴虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 或少#VV, 体质#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (nn, ;#NN, 食#NN)  (dobj, 或少#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为菊科植物刺儿菜的全草或根茎。多年生草本，生于山坡、荒地、路旁或田间，分布于除广东、广西、云南、西藏以外的全国各地区。夏、秋季花开放时采割，除去杂质，晒干，或鲜用。
+            小蓟根茎白色，肉质。气微，味微苦。以色绿叶多者为佳。
+        </rawdata>
+
+        <segment>
+            为  菊科  植物  刺儿  菜  的  全  草  或  根茎  。  多年生  草本  ，  生  于  山坡  、  荒地  、  路  旁  或  田间  ，  分布  于  除  广东  、  广西  、  云南  、  西藏  以外  的  全国  各  地区  。  夏  、  秋季  花  开放  时  采割  ，  除去  杂质  ，  晒干  ，  或  鲜用  。
+            小蓟  根茎  白色  ，  肉质  。  气微  ，  味  微苦  。  以色  绿叶  多者  为佳  。
+        </segment>
+
+        <pos>
+            为#P  菊科#NN  植物#NN  刺儿#VV  菜#NN  的#DEG  全#DT  草#NN  或#CC  根茎#NN    。#PU  多年生#NR  草本#VV  ，#PU  生#VV  于#P  山坡#NN  、#PU  荒地#NN  、#PU  路#NN  旁#LC  或#CC  田间#VV  ，#PU  分布#VV  于#P  除#P  广东#NR  、#PU  广西#NR  、#PU  云南#NR  、#PU  西藏#NR  以外#LC  的#DEG  全国#NN  各#DT  地区#NN    。#PU  夏#NT  、#PU  秋季#NT  花#NN  开放#NN  时#LC  采割#VV  ，#PU  除去#P  杂质#NN  ，#PU  晒干#VV  ，#PU  或#CC  鲜用#VV    。#PU    。#PU
+            小蓟#VV  根茎#NN  白色#JJ  ，#PU  肉质#VV    。#PU  气微#VV  ，#PU  味#VV  微苦#NN    。#PU  以色#NN  绿叶#VV  多者#NN  为佳#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 植物#NN, 为#P)  (nn, 植物#NN, 菊科#NN)  (prep, 刺儿#VV, 植物#NN)  (root, ROOT#null, 刺儿#VV)  (assmod, 根茎#NN, 菜#NN)  (case, 菜#NN, 的#DEG)  (det, 根茎#NN, 全#DT)  (conj, 根茎#NN, 草#NN)  (cc, 根茎#NN, 或#CC)  (dobj, 刺儿#VV, 根茎#NN)   (nsubj, 草本#VV, 多年生#NR)  (root, ROOT#null, 草本#VV)  (ccomp, 草本#VV, 生#VV)  (case, 路#NN, 于#P)  (conj, 路#NN, 山坡#NN)  (conj, 路#NN, 荒地#NN)  (prep, 生#VV, 路#NN)  (case, 路#NN, 旁#LC)  (cc, 生#VV, 或#CC)  (dep, 生#VV, 田间#VV)  (dep, 生#VV, 分布#VV)  (case, 地区#NN, 于#P)  (case, 西藏#NR, 除#P)  (conj, 西藏#NR, 广东#NR)  (conj, 西藏#NR, 广西#NR)  (conj, 西藏#NR, 云南#NR)  (assmod, 全国#NN, 西藏#NR)  (case, 西藏#NR, 以外#LC)  (case, 西藏#NR, 的#DEG)  (nn, 地区#NN, 全国#NN)  (det, 地区#NN, 各#DT)  (prep, 分布#VV, 地区#NN)   (conj, 秋季#NT, 夏#NT)  (tmod, 采割#VV, 秋季#NT)  (xsubj, 晒干#VV, 秋季#NT)  (nn, 开放#NN, 花#NN)  (loc, 采割#VV, 开放#NN)  (case, 开放#NN, 时#LC)  (root, ROOT#null, 采割#VV)  (case, 杂质#NN, 除去#P)  (prep, 晒干#VV, 杂质#NN)  (ccomp, 采割#VV, 晒干#VV)  (cc, 晒干#VV, 或#CC)  (dep, 晒干#VV, 鲜用#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 小蓟#VV)  (dobj, 小蓟#VV, 根茎#NN)  (conj, 小蓟#VV, 白色#JJ)  (conj, 小蓟#VV, 肉质#VV)   (root, ROOT#null, 气微#VV)  (ccomp, 气微#VV, 味#VV)  (dobj, 味#VV, 微苦#NN)   (nsubj, 绿叶#VV, 以色#NN)  (root, ROOT#null, 绿叶#VV)  (nn, 为佳#NN, 多者#NN)  (dobj, 绿叶#VV, 为佳#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            利尿消肿,止血凉血,消炎止痛
+        </rawdata>
+
+        <segment>
+            利尿  消肿  ,  止血  凉  血  ,  消炎  止痛
+        </segment>
+
+        <pos>
+            利尿#NN  消肿#NN  ,#NN  止血#AD  凉#VV  血#NN  ,#NN  消炎#NN  止痛#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 利尿#NN)  (nn, ,#NN, 消肿#NN)  (advmod, 凉#VV, 止血#AD)  (root, ROOT#null, 凉#VV)  (nn, 止痛#NN, 血#NN)  (nn, 止痛#NN, 消炎#NN)  (dobj, 凉#VV, 止痛#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热  消肿  凉血止血  升压  强心  止血  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            刺儿菜的嫩苗又是野菜，炒食、做汤均可。
+        </rawdata>
+
+        <segment>
+            刺儿  菜  的  嫩苗  又是  野菜  ，  炒食  、  做  汤  均  可  。
+        </segment>
+
+        <pos>
+            刺儿#NN  菜#NN  的#DEG  嫩苗#NN  又是#NN  野菜#VV  ，#PU  炒食#VV  、#PU  做#VV  汤#NN  均#AD  可#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 刺儿#NN)  (assmod, 又是#NN, 菜#NN)  (case, 菜#NN, 的#DEG)  (nn, 又是#NN, 嫩苗#NN)  (nsubj, 野菜#VV, 又是#NN)  (xsubj, 可#VV, 又是#NN)  (root, ROOT#null, 野菜#VV)  (dep, 可#VV, 炒食#VV)  (dep, 炒食#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (advmod, 可#VV, 均#AD)  (ccomp, 野菜#VV, 可#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/48/41/82248_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\800 刺儿菜.jpg
+    </picturelocalurl>
+
+</content>

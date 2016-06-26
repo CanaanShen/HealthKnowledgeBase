@@ -1,0 +1,173 @@
+<content>
+
+    <id>
+        1091
+    </id>
+
+    <foodname>
+        肥猪肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        肥猪肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            身体消耗大的人群应多吃肥肉，肥肉更能满足他们的身体需要。患有某些疾病的人，如高血压、冠心病等疾病患者，应少吃或不吃肥肉。
+        </rawdata>
+
+        <segment>
+            身体  消耗  大  的  人群  应  多  吃  肥肉  ，  肥肉  更  能  满足  他们  的  身体  需要  。  患有  某些  疾病  的  人  ，  如  高血压  、  冠心病  等  疾病  患者  ，  应  少吃  或  不  吃  肥肉  。
+        </segment>
+
+        <pos>
+            身体#NN  消耗#VV  大#VA  的#DEC  人群#NN  应#VV  多#AD  吃#VV  肥肉#NN  ，#PU  肥肉#AD  更#AD  能#VV  满足#VV  他们#PN  的#DEG  身体#NN  需要#NN    。#PU  患有#VV  某些#DT  疾病#NN  的#DEG  人#NN  ，#PU  如#P  高血压#NN  、#PU  冠心病#NN  等#ETC  疾病#NN  患者#NN  ，#PU  应#VV  少吃#VV  或#CC  不#AD  吃#VV  肥肉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 消耗#VV, 身体#NN)  (dep, 吃#VV, 消耗#VV)  (relcl, 人群#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 消耗#VV, 人群#NN)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 肥肉#NN)  (advmod, 满足#VV, 肥肉#AD)  (advmod, 满足#VV, 更#AD)  (mmod, 满足#VV, 能#VV)  (dep, 吃#VV, 满足#VV)  (assmod, 需要#NN, 他们#PN)  (case, 他们#PN, 的#DEG)  (nn, 需要#NN, 身体#NN)  (dobj, 满足#VV, 需要#NN)   (root, ROOT#null, 患有#VV)  (det, 疾病#NN, 某些#DT)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 患有#VV, 人#NN)  (case, 患者#NN, 如#P)  (conj, 冠心病#NN, 高血压#NN)  (nn, 患者#NN, 冠心病#NN)  (etc, 冠心病#NN, 等#ETC)  (nn, 患者#NN, 疾病#NN)  (prep, 少吃#VV, 患者#NN)  (mmod, 少吃#VV, 应#VV)  (conj, 患有#VV, 少吃#VV)  (cc, 少吃#VV, 或#CC)  (neg, 吃#VV, 不#AD)  (dep, 少吃#VV, 吃#VV)  (dobj, 吃#VV, 肥肉#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            痰湿质、湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            痰湿质  、  湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            痰湿质#NN  、#PU  湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (conj, 体质#NN, 痰湿质#NN)  (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            肥肉主要含脂肪，并含少量蛋白质、磷、钙、铁等。
+        </rawdata>
+
+        <segment>
+            肥肉  主要  含  脂肪  ，  并  含  少量  蛋白质  、  磷  、  钙  、  铁  等  。
+        </segment>
+
+        <pos>
+            肥肉#NN  主要#AD  含#VV  脂肪#NN  ，#PU  并#CC  含#VV  少量#CD  蛋白质#NN  、#PU  磷#NN  、#PU  钙#NN  、#PU  铁#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 肥肉#NN)  (advmod, 含#VV, 主要#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 脂肪#NN)  (cc, 含#VV, 并#CC)  (dep, 含#VV, 含#VV)  (nummod, 铁#NN, 少量#CD)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 磷#NN)  (conj, 铁#NN, 钙#NN)  (dobj, 含#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            肥肉的主要成分是脂肪(其中主要是饱和脂肪酸)，肥肉能够供给人体更高的热量。脂肪还含有人体需要的卵磷脂和胆固醇
+        </rawdata>
+
+        <segment>
+            肥肉  的  主要  成分  是  脂肪  (  其中  主要  是  饱和  脂肪酸  )  ，  肥肉  能够  供给  人体  更  高  的  热量  。  脂肪  还  含有  人体  需要  的  卵  磷脂  和  胆固醇
+        </segment>
+
+        <pos>
+            肥肉#NN  的#DEG  主要#JJ  成分#NN  是#VC  脂肪#NN  -LRB-#NN  其中#NN  主要#AD  是#VC  饱和#NN  脂肪酸#NN  -RRB-#NN  ，#PU  肥肉#AD  能够#VV  供给#NN  人体#NN  更#AD  高#VA  的#DEC  热量#NN  。#PU  脂肪#NN  还#AD  含有#VV  人体#AD  需要#VV  的#DEC  卵#NN  磷脂#NN  和#CC  胆固醇#NN
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 肥肉#NN)  (case, 肥肉#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, -LRB-#NN, 成分#NN)  (root, -LRB-#NN, 成分#NN)  (cop, 成分#NN, 是#VC)  (cop, -LRB-#NN, 是#VC)  (nn, 成分#NN, 脂肪#NN)  (nn, -LRB-#NN, 脂肪#NN)  (nsubj, -RRB-#NN, 其中#NN)  (advmod, -RRB-#NN, 主要#AD)  (cop, -RRB-#NN, 是#VC)  (nn, -RRB-#NN, 饱和#NN)  (nn, -RRB-#NN, 脂肪酸#NN)  (advmod, 能够#VV, 肥肉#AD)  (dep, -RRB-#NN, 能够#VV)  (nn, 人体#NN, 供给#NN)  (nsubj, 高#VA, 人体#NN)  (advmod, 高#VA, 更#AD)  (relcl, 热量#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 能够#VV, 热量#NN)  (nsubj, 含有#VV, 脂肪#NN)  (advmod, 含有#VV, 还#AD)  (conj, 成分#NN, 含有#VV)  (conj, -LRB-#NN, 含有#VV)  (advmod, 需要#VV, 人体#AD)  (relcl, 胆固醇#NN, 需要#VV)  (mark, 需要#VV, 的#DEC)  (nn, 胆固醇#NN, 卵#NN)  (conj, 胆固醇#NN, 磷脂#NN)  (cc, 胆固醇#NN, 和#CC)  (dobj, 含有#VV, 胆固醇#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.猪肉要斜切，猪肉的肉质比较细、筋少，如横切，炒熟后变得凌乱散碎，如斜切，即可使其不破碎，吃起来又不塞牙；猪肉不宜长时间泡水；
+            2.切肥肉时，可先将肥肉蘸一下凉水，然后放到案板上，一边切一边洒点凉水，这样切着省力，肥肉也不会滑动，且不易粘案板；
+            3.猪肉烹调前莫用热水清洗，因猪肉中含有一种肌溶蛋白的物质，在15摄氏度以上的水中易溶解，若用热水浸泡就会散失很多营养，同时口味也欠佳；
+            4.猪肉应煮熟，因为猪肉中有时会有寄生虫，如果生吃或调理不完全时，可能会在肝脏或脑部寄生有钩绦虫;
+            5.食用猪肉时后不宜大量饮茶，不但容易引起便秘，还增加了有毒物质和致癌物质的吸收，对健康十分不利。
+        </rawdata>
+
+        <segment>
+            猪肉  要  斜切  ，  猪肉  的  肉质  比较  细  、  筋少  ，  如  横切  ，  炒熟  后  变  得  凌乱  散碎  ，  如  斜切  ，  即  可  使  其  不  破碎  ，  吃  起来  又  不  塞牙  ；  猪肉  不  宜  长时间  泡水  ；
+            切  肥肉  时  ，  可  先  将  肥肉蘸  一下  凉水  ，  然后  放到  案板  上  ，  一边  切  一  边  洒  点  凉水  ，  这样  切  着  省力  ，  肥肉  也  不  会  滑动  ，  且  不  易粘  案板  ；
+            猪肉  烹调  前  莫  用  热水  清洗  ，  因  猪肉  中  含有  一  种  肌溶  蛋白  的  物质  ，  在  15  摄氏度  以上  的  水中  易  溶解  ，  若  用  热水  浸泡  就  会  散失  很多  营养  ，  同时  口味  也  欠佳  ；
+            猪肉  应  煮熟  ，  因为  猪肉  中  有时  会  有  寄生虫  ，  如果  生吃  或  调理  不完全  时  ，  可能  会  在  肝脏  或  脑部  寄生  有  钩  绦虫  ;
+            食用  猪肉  时  后  不  宜  大量  饮茶  ，  不但  容易  引起  便秘  ，  还  增加  了  有毒  物质  和  致癌  物质  的  吸收  ，  对  健康  十分  不利  。
+        </segment>
+
+        <pos>
+            猪肉#NN  要#VV  斜切#VV  ，#PU  猪肉#NN  的#DEG  肉质#NN  比较#AD  细#VA  、#PU  筋少#VA  ，#PU  如#AD  横切#NN  ，#PU  炒熟#NN  后#LC  变#VV  得#DER  凌乱#AD  散碎#VA  ，#PU  如#AD  斜切#NN  ，#PU  即#AD  可#VV  使#VV  其#PN  不#AD  破碎#VA  ，#PU  吃#VV  起来#VV  又#AD  不#AD  塞牙#VV  ；#PU  猪肉#NN  不#AD  宜#NR  长时间#VV  泡水#NN  ；#PU
+            切#VV  肥肉#NN  时#LC  ，#PU  可#VV  先#AD  将#AD  肥肉蘸#VV  一下#AD  凉水#VV  ，#PU  然后#AD  放到#VV  案板#NN  上#LC  ，#PU  一边#CD  切#NN  一#CD  边#NN  洒#CD  点#M  凉水#NN  ，#PU  这样#AD  切#VV  着#AS  省力#NN  ，#PU  肥肉#AD  也#AD  不#AD  会#VV  滑动#VV  ，#PU  且#CC  不#AD  易粘#VV  案板#NN  ；#PU
+            猪肉#NN  烹调#NN  前#LC  莫#NN  用#P  热水#NN  清洗#VV  ，#PU  因#P  猪肉#NN  中#LC  含有#VV  一#CD  种#M  肌溶#NN  蛋白#NN  的#DEG  物质#NN  ，#PU  在#P  15#CD  摄氏度#M  以上#LC  的#DEG  水中#NN  易#AD  溶解#VA  ，#PU  若#CS  用#P  热水#NN  浸泡#NN  就#P  会#VV  散失#VV  很多#CD  营养#VA  ，#PU  同时#AD  口味#NN  也#AD  欠佳#VA  ；#PU
+            猪肉#NN  应#VV  煮熟#AD  ，#PU  因为#P  猪肉#NN  中#LC  有时#AD  会#VV  有#VE  寄生虫#NN  ，#PU  如果#CS  生吃#VV  或#CC  调理#VV  不完全#JJ  时#NN  ，#PU  可能#VV  会#VV  在#P  肝脏#NN  或#CC  脑部#NN  寄生#NN  有#VE  钩#NN  绦虫#VV  ;#NN
+            食用#VV  猪肉#NN  时#LC  后#LC  不#AD  宜#NR  大量#AD  饮茶#VV  ，#PU  不但#CC  容易#VA  引起#VV  便秘#NN  ，#PU  还#AD  增加#VV  了#AS  有毒#NN  物质#NN  和#CC  致癌#NN  物质#NN  的#DEG  吸收#NN  ，#PU  对#P  健康#NN  十分#AD  不利#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 细#VA, 猪肉#NN)  (dep, 斜切#VV, 要#VV)  (dep, 细#VA, 斜切#VV)  (assmod, 肉质#NN, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nsubj, 细#VA, 肉质#NN)  (advmod, 细#VA, 比较#AD)  (root, ROOT#null, 细#VA)  (dep, 细#VA, 筋少#VA)  (advmod, 散碎#VA, 如#AD)  (nsubj, 散碎#VA, 横切#NN)  (loc, 散碎#VA, 炒熟#NN)  (case, 炒熟#NN, 后#LC)  (dep, 散碎#VA, 变#VV)  (dep, 散碎#VA, 得#DER)  (advmod, 散碎#VA, 凌乱#AD)  (conj, 细#VA, 散碎#VA)  (advmod, 使#VV, 如#AD)  (nsubj, 使#VV, 斜切#NN)  (xsubj, 塞牙#VV, 斜切#NN)  (advmod, 使#VV, 即#AD)  (mmod, 使#VV, 可#VV)  (conj, 细#VA, 使#VV)  (dobj, 使#VV, 其#PN)  (neg, 破碎#VA, 不#AD)  (dep, 使#VV, 破碎#VA)  (conj, 使#VV, 吃#VV)  (comod, 吃#VV, 起来#VV)  (advmod, 塞牙#VV, 又#AD)  (neg, 塞牙#VV, 不#AD)  (ccomp, 吃#VV, 塞牙#VV)  (nsubj, 长时间#VV, 猪肉#NN)  (neg, 长时间#VV, 不#AD)  (prep, 长时间#VV, 宜#NR)  (conj, 细#VA, 长时间#VV)  (dobj, 长时间#VV, 泡水#NN)
+            (loc, 肥肉蘸#VV, 切#VV)  (dobj, 切#VV, 肥肉#NN)  (case, 切#VV, 时#LC)  (mmod, 肥肉蘸#VV, 可#VV)  (advmod, 肥肉蘸#VV, 先#AD)  (advmod, 肥肉蘸#VV, 将#AD)  (root, ROOT#null, 肥肉蘸#VV)  (dep, 肥肉蘸#VV, 一下#AD)  (dep, 肥肉蘸#VV, 凉水#VV)  (advmod, 放到#VV, 然后#AD)  (dep, 肥肉蘸#VV, 放到#VV)  (loc, 切#VV, 案板#NN)  (case, 案板#NN, 上#LC)  (nummod, 切#NN, 一边#CD)  (nn, 边#NN, 切#NN)  (nummod, 边#NN, 一#CD)  (nn, 凉水#NN, 边#NN)  (nummod, 点#M, 洒#CD)  (clf, 凉水#NN, 点#M)  (nsubj, 切#VV, 凉水#NN)  (advmod, 切#VV, 这样#AD)  (ccomp, 放到#VV, 切#VV)  (asp, 切#VV, 着#AS)  (dobj, 切#VV, 省力#NN)  (advmod, 滑动#VV, 肥肉#AD)  (advmod, 滑动#VV, 也#AD)  (neg, 滑动#VV, 不#AD)  (dep, 滑动#VV, 会#VV)  (dep, 肥肉蘸#VV, 滑动#VV)  (cc, 肥肉蘸#VV, 且#CC)  (neg, 易粘#VV, 不#AD)  (dep, 肥肉蘸#VV, 易粘#VV)  (dobj, 易粘#VV, 案板#NN)
+            (nn, 烹调#NN, 猪肉#NN)  (loc, 清洗#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nsubj, 清洗#VV, 莫#NN)  (case, 热水#NN, 用#P)  (prep, 清洗#VV, 热水#NN)  (root, ROOT#null, 清洗#VV)  (case, 猪肉#NN, 因#P)  (prep, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (dep, 清洗#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 肌溶#NN)  (assmod, 物质#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 摄氏度#M, 在#P)  (nummod, 摄氏度#M, 15#CD)  (assmod, 水中#NN, 摄氏度#M)  (case, 摄氏度#M, 以上#LC)  (case, 摄氏度#M, 的#DEG)  (nsubj, 溶解#VA, 水中#NN)  (advmod, 溶解#VA, 易#AD)  (conj, 清洗#VV, 溶解#VA)  (advmod, 营养#VA, 若#CS)  (case, 浸泡#NN, 用#P)  (nn, 浸泡#NN, 热水#NN)  (prep, 营养#VA, 浸泡#NN)  (case, 散失#VV, 就#P)  (mmod, 散失#VV, 会#VV)  (prep, 营养#VA, 散失#VV)  (range, 散失#VV, 很多#CD)  (dep, 溶解#VA, 营养#VA)  (advmod, 欠佳#VA, 同时#AD)  (nsubj, 欠佳#VA, 口味#NN)  (advmod, 欠佳#VA, 也#AD)  (conj, 溶解#VA, 欠佳#VA)
+            (nsubj, 绦虫#VV, 猪肉#NN)  (mmod, 绦虫#VV, 应#VV)  (advmod, 绦虫#VV, 煮熟#AD)  (case, 有#VE, 因为#P)  (loc, 有#VE, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 有#VE, 有时#AD)  (mmod, 有#VE, 会#VV)  (prep, 绦虫#VV, 有#VE)  (dobj, 有#VE, 寄生虫#NN)  (advmod, 生吃#VV, 如果#CS)  (conj, 有#VE, 生吃#VV)  (cc, 有#VE, 或#CC)  (dep, 有#VE, 调理#VV)  (amod, 时#NN, 不完全#JJ)  (dobj, 调理#VV, 时#NN)  (mmod, 有#VE, 可能#VV)  (mmod, 有#VE, 会#VV)  (case, 寄生#NN, 在#P)  (conj, 寄生#NN, 肝脏#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 脑部#NN)  (prep, 有#VE, 寄生#NN)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 钩#NN)  (root, ROOT#null, 绦虫#VV)  (dobj, 绦虫#VV, ;#NN)
+            (loc, 饮茶#VV, 食用#VV)  (loc, 食用#VV, 猪肉#NN)  (case, 猪肉#NN, 时#LC)  (case, 食用#VV, 后#LC)  (neg, 饮茶#VV, 不#AD)  (dep, 饮茶#VV, 宜#NR)  (advmod, 饮茶#VV, 大量#AD)  (root, ROOT#null, 饮茶#VV)  (cc, 饮茶#VV, 不但#CC)  (conj, 饮茶#VV, 容易#VA)  (dep, 容易#VA, 引起#VV)  (dobj, 引起#VV, 便秘#NN)  (advmod, 增加#VV, 还#AD)  (conj, 饮茶#VV, 增加#VV)  (asp, 增加#VV, 了#AS)  (nn, 物质#NN, 有毒#NN)  (conj, 物质#NN, 物质#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 致癌#NN)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 增加#VV, 吸收#NN)  (case, 健康#NN, 对#P)  (prep, 不利#VA, 健康#NN)  (advmod, 不利#VA, 十分#AD)  (conj, 饮茶#VV, 不利#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/75/36/13941_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1091 肥猪肉.jpg
+    </picturelocalurl>
+
+</content>

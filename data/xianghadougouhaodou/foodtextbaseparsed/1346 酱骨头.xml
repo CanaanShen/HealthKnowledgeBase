@@ -1,0 +1,85 @@
+<content>
+
+    <id>
+        1346
+    </id>
+
+    <foodname>
+        酱骨头
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            酱骨头算是东北的一道传统名菜。根据主料的不同有酱脊骨，酱排骨，和酱棒骨。这几种原材料有一个共同的特点，就是经得起长时间的炖煮而肉质不会发柴、发死。其中又因为猪脊骨经炖煮后口感最为软糯，啃起来也更有乐趣（费劲儿啊：））而最受欢迎。
+        </rawdata>
+
+        <segment>
+            酱  骨头  算是  东北  的  一  道  传统  名菜  。  根据  主料  的  不同  有  酱  脊骨  ，  酱  排骨  ，  和  酱  棒  骨  。  这  几  种  原材料  有  一  个  共同  的  特点  ，  就  是  经得起  长时间  的  炖煮  而  肉质  不  会  发柴  、  发死  。  其中  又  因为  猪  脊骨  经  炖煮  后  口感  最为  软糯  ，  啃  起来  也  更  有  乐趣  （  费劲  儿啊  ：  ）  ）  而  最  受  欢迎  。
+        </segment>
+
+        <pos>
+            酱#NN  骨头#AD  算是#VV  东北#NN  的#DEG  一#CD  道#NN  传统#JJ  名菜#NN    。#PU  根据#P  主料#NN  的#DEG  不同#NN  有#VE  酱#NN  脊骨#NN  ，#PU  酱#VV  排骨#NN  ，#PU  和#CC  酱#VV  棒#NN  骨#NN    。#PU  这#DT  几#CD  种#M  原材料#NN  有#VE  一#CD  个#M  共同#JJ  的#DEG  特点#NN  ，#PU  就#AD  是#VC  经得起#NN  长时间#NN  的#DEC  炖煮#NN  而#CC  肉质#NN  不#AD  会#VV  发柴#VV  、#PU  发死#VV    。#PU  其中#NN  又#AD  因为#P  猪#NN  脊骨#NN  经#P  炖煮#NN  后#LC  口感#VV  最为#AD  软糯#VV  ，#PU  啃#AD  起来#VV  也#AD  更#AD  有#VE  乐趣#NN  （#PU  费劲#NN  儿啊#CD  ：#PU  ）#CD  ）#PU  而#CC  最#AD  受#VV  欢迎#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 算是#VV, 酱#NN)  (advmod, 算是#VV, 骨头#AD)  (root, ROOT#null, 算是#VV)  (assmod, 名菜#NN, 东北#NN)  (case, 东北#NN, 的#DEG)  (nummod, 道#NN, 一#CD)  (nn, 名菜#NN, 道#NN)  (amod, 名菜#NN, 传统#JJ)  (dobj, 算是#VV, 名菜#NN)   (case, 不同#NN, 根据#P)  (assmod, 不同#NN, 主料#NN)  (case, 主料#NN, 的#DEG)  (prep, 有#VE, 不同#NN)  (root, ROOT#null, 有#VE)  (nn, 脊骨#NN, 酱#NN)  (dobj, 有#VE, 脊骨#NN)  (conj, 有#VE, 酱#VV)  (dobj, 酱#VV, 排骨#NN)  (cc, 有#VE, 和#CC)  (conj, 有#VE, 酱#VV)  (nn, 骨#NN, 棒#NN)  (dobj, 酱#VV, 骨#NN)   (det, 原材料#NN, 这#DT)  (nummod, 种#M, 几#CD)  (dep, 这#DT, 种#M)  (nsubj, 有#VE, 原材料#NN)  (relcl, 肉质#NN, 有#VE)  (nummod, 个#M, 一#CD)  (clf, 特点#NN, 个#M)  (assmod, 特点#NN, 共同#JJ)  (case, 共同#JJ, 的#DEG)  (dobj, 有#VE, 特点#NN)  (advmod, 长时间#NN, 就#AD)  (cop, 长时间#NN, 是#VC)  (nn, 长时间#NN, 经得起#NN)  (conj, 有#VE, 长时间#NN)  (mark, 有#VE, 的#DEC)  (conj, 肉质#NN, 炖煮#NN)  (cc, 肉质#NN, 而#CC)  (nsubj, 发柴#VV, 肉质#NN)  (neg, 发柴#VV, 不#AD)  (mmod, 发柴#VV, 会#VV)  (root, ROOT#null, 发柴#VV)  (dep, 发柴#VV, 发死#VV)   (nsubj, 软糯#VV, 其中#NN)  (advmod, 软糯#VV, 又#AD)  (case, 口感#VV, 因为#P)  (nn, 脊骨#NN, 猪#NN)  (nsubj, 口感#VV, 脊骨#NN)  (case, 炖煮#NN, 经#P)  (prep, 口感#VV, 炖煮#NN)  (case, 炖煮#NN, 后#LC)  (prep, 软糯#VV, 口感#VV)  (advmod, 软糯#VV, 最为#AD)  (root, ROOT#null, 软糯#VV)  (advmod, 有#VE, 啃#AD)  (mmod, 有#VE, 起来#VV)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 更#AD)  (conj, 软糯#VV, 有#VE)  (dobj, 有#VE, 乐趣#NN)  (dep, ）#CD, 费劲#NN)  (nummod, ）#CD, 儿啊#CD)  (cc, 软糯#VV, 而#CC)  (advmod, 受#VV, 最#AD)  (dep, 软糯#VV, 受#VV)  (dobj, 受#VV, 欢迎#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  增加骨密度  增强造血功能
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/97/b4/46231_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1346 酱骨头.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,336 @@
+<content>
+
+    <id>
+        79
+    </id>
+
+    <foodname>
+        鳊鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        武昌鱼、鲂鱼、团头鳊、缩项鲂、孔鳐、团头鲂、缩项鳊
+    </alias>
+
+    <season>
+        6-9月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有慢性痢者忌食。
+        </rawdata>
+
+        <segment>
+            患有  慢性  痢者  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  慢性#AD  痢者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 痢者#VV, 患有#NN)  (advmod, 痢者#VV, 慢性#AD)  (root, ROOT#null, 痢者#VV)  (dobj, 痢者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜贫血、营养不良、体虚、食欲不振者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  贫血  、  营养  不良  、  体虚  、  食欲不振者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  贫血#VA  、#PU  营养#VA  不良#JJ  、#PU  体虚#JJ  、#PU  食欲不振者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (relcl, 食欲不振者#NN, 贫血#VA)  (dep, 贫血#VA, 营养#VA)  (amod, 食欲不振者#NN, 不良#JJ)  (dep, 不良#JJ, 体虚#JJ)  (dobj, 适宜#VV, 食欲不振者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                135
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                6.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.52
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                89
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                188
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                215
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                41.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.89
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                11.59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鳊鱼，学名鳊，亦称长身鳊、鳊花、油鳊；古名槎头鳊，缩项鳊。在中国，鳊鱼也为三角鲂、团头鲂（武昌鱼）的统称。鳊鱼全长40厘米，头宽为口宽的2倍以下。背鳍刺一般短于头长。成雄鱼胸鳍第一鳍条肥厚，略呈波曲状。体背部青灰色，两侧银灰色，体侧每个鳞片基部灰黑，边缘黑色素稀少，使整个体侧呈现出一行行紫黑色条纹，腹部银白，各鳍条灰黑色。分布于长江中、下游附属中型湖泊。比较适于静水性生活。平时栖息于底质为淤泥、并生长有沉水植物的敞水区的中、下层中。幼鱼主要以枝角类和甲壳动物为食；成鱼摄食水生植物，以苦草和轮叶黑藻为主，还食少量浮游动物。
+            据《武昌县志》载：鲂，即鳊鱼，又称缩项鳊，产樊口者甲天下。是处水势回旋，深潭无底，渔人置罾捕得之，止此一罾味肥美，余亦较胜别地。”同时，以“鳞白而腹内无黑膜者真。”属名贵淡水鱼菜。又因为现代有毛泽东“才饮长沙水，又食武昌鱼”的词句，使武昌鱼更为闻名遐迩。
+        </rawdata>
+
+        <segment>
+            鳊鱼  ，  学名鳊  ，  亦  称  长  身鳊  、  鳊花  、  油鳊  ；  古名  槎头鳊  ，  缩  项鳊  。  在  中国  ，  鳊鱼  也  为  三角鲂  、  团头鲂  （  武昌鱼  ）  的  统称  。  鳊鱼  全长  40  厘米  ，  头  宽  为  口  宽  的  2  倍  以下  。  背鳍  刺  一般  短  于  头  长  。  成雄  鱼  胸鳍  第一  鳍  条  肥厚  ，  略  呈  波  曲状  。  体  背部  青灰色  ，  两  侧  银灰色  ，  体  侧  每个  鳞片  基部  灰黑  ，  边缘  黑色素  稀少  ，  使  整个  体侧  呈现  出  一行行  紫黑色  条纹  ，  腹部  银白  ，  各  鳍条  灰黑色  。  分布  于长江  中  、  下  游  附属  中型  湖泊  。  比较  适于  静水  性生活  。  平时  栖息于  底质  为  淤泥  、  并生  长有  沉水植物  的  敞水区  的  中  、  下层  中  。  幼  鱼  主要  以  枝角类  和  甲壳  动物  为  食  ；  成鱼  摄食  水生  植物  ，  以  苦  草  和  轮叶  黑藻  为主  ，  还  食  少量  浮游  动物  。
+            据  《  武昌  县志  》  载  ：  鲂  ，  即  鳊鱼  ，  又  称  缩项鳊  ，  产樊口者  甲天下  。  是  处  水势  回旋  ，  深潭  无底  ，  渔人  置罾捕  得  之  ，  止  此  一  罾味  肥美  ，  余亦  较  胜  别地  。  ”  同时  ，  以  “  鳞白  而  腹内  无  黑  膜  者真  。  ”  属  名贵  淡水  鱼  菜  。  又  因为  现代  有  毛泽东  “  才  饮  长沙  水  ，  又  食  武昌鱼  ”  的  词句  ，  使  武昌鱼  更为  闻名  遐迩  。
+        </segment>
+
+        <pos>
+            鳊鱼#NR  ，#PU  学名鳊#VV  ，#PU  亦#AD  称#VV  长#AD  身鳊#VA  、#PU  鳊花#VA  、#PU  油鳊#VA  ；#PU  古名#VV  槎头鳊#NN  ，#PU  缩#VV  项鳊#NN    。#PU  在#P  中国#NR  ，#PU  鳊鱼#NN  也#AD  为#VC  三角鲂#CD  、#PU  团头鲂#NN  （#PU  武昌鱼#NR  ）#PU  的#DEG  统称#CD    。#PU  鳊鱼#NN  全长#NN  40#CD  厘米#M  ，#PU  头#DT  宽#NN  为#VC  口#NN  宽#NN  的#DEG  2#CD  倍#M  以下#LC    。#PU  背鳍#NN  刺#NN  一般#AD  短#VA  于#P  头#NN  长#VA    。#PU  成雄#NN  鱼#NN  胸鳍#NR  第一#OD  鳍#CD  条#M  肥厚#NN  ，#PU  略#AD  呈#VV  波#NR  曲状#NN    。#PU  体#NN  背部#NN  青灰色#VV  ，#PU  两#CD  侧#LC  银灰色#VV  ，#PU  体#NN  侧#LC  每个#AD  鳞片#VV  基部#NN  灰黑#NN  ，#PU  边缘#NN  黑色素#NN  稀少#NN  ，#PU  使#VV  整个#JJ  体侧#NN  呈现#VV  出#VV  一行行#CD  紫黑色#NN  条纹#NN  ，#PU  腹部#VV  银白#NN  ，#PU  各#DT  鳍条#NN  灰黑色#VV    。#PU  分布#VV  于长江#NR  中#NR  、#PU  下#DT  游#NN  附属#JJ  中型#JJ  湖泊#NN    。#PU  比较#AD  适于#VV  静水#NN  性生活#NN    。#PU  平时#AD  栖息于#NN  底质#NN  为#VC  淤泥#NN  、#PU  并生#NN  长有#NN  沉水植物#NN  的#DEG  敞水区#NN  的#DEG  中#NR  、#PU  下层#NN  中#LC    。#PU  幼#NN  鱼#NN  主要#AD  以#P  枝角类#NN  和#CC  甲壳#NN  动物#NN  为#VV  食#NN  ；#PU  成鱼#AD  摄食#VV  水生#NN  植物#NN  ，#PU  以#P  苦#NN  草#NN  和#CC  轮叶#NN  黑藻#NN  为主#VV  ，#PU  还#VV  食#NN  少量#CD  浮游#JJ  动物#NN    。#PU    。#PU
+            据#P  武昌#NN  县志#NN  载#VV  ：#PU  鲂#NN  ，#PU  即#AD  鳊鱼#VV  ，#PU  又#AD  称#VV  缩项鳊#NN  ，#PU  产樊口者#VV  甲天下#NN    。#PU  是#VC  处#VV  水势#NN  回旋#NN  ，#PU  深潭#VV  无底#NN  ，#PU  渔人#AD  置罾捕#AD  得#VV  之#DEC  ，#PU  止#VV  此#DT  一#CD  罾味#NN  肥美#NN  ，#PU  余亦#AD  较#AD  胜#VV  别地#NN    。#PU  ''#NN  同时#AD  ，#PU  以#P  ``#NN  鳞白#NN  而#AD  腹内#AD  无#VE  黑#JJ  膜#NN  者真#NN    。#PU  ''#AD  属#VV  名贵#JJ  淡水#NN  鱼#NN  菜#NN    。#PU  又#AD  因为#P  现代#NR  有#VE  毛泽东#NR  ``#NN  才#AD  饮#VV  长沙#NR  水#NN  ，#PU  又#AD  食#NN  武昌鱼#NN  ''#NN  的#DEG  词句#NN  ，#PU  使#VV  武昌鱼#NN  更为#AD  闻名#VV  遐迩#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 学名鳊#VV, 鳊鱼#NR)  (xsubj, 称#VV, 鳊鱼#NR)  (root, ROOT#null, 学名鳊#VV)  (advmod, 称#VV, 亦#AD)  (ccomp, 学名鳊#VV, 称#VV)  (advmod, 身鳊#VA, 长#AD)  (ccomp, 称#VV, 身鳊#VA)  (conj, 身鳊#VA, 鳊花#VA)  (dep, 身鳊#VA, 油鳊#VA)  (conj, 学名鳊#VV, 古名#VV)  (dobj, 古名#VV, 槎头鳊#NN)  (conj, 古名#VV, 缩#VV)  (dobj, 缩#VV, 项鳊#NN)   (case, 中国#NR, 在#P)  (prep, 为#VC, 中国#NR)  (dobj, 为#VC, 鳊鱼#NN)  (advmod, 为#VC, 也#AD)  (root, ROOT#null, 为#VC)  (dep, 统称#CD, 三角鲂#CD)  (assmod, 统称#CD, 团头鲂#NN)  (prnmod, 团头鲂#NN, 武昌鱼#NR)  (case, 团头鲂#NN, 的#DEG)  (dep, 为#VC, 统称#CD)   (nn, 全长#NN, 鳊鱼#NN)  (nsubj, 厘米#M, 全长#NN)  (nummod, 厘米#M, 40#CD)  (root, ROOT#null, 厘米#M)  (det, 宽#NN, 头#DT)  (nsubj, 为#VC, 宽#NN)  (conj, 厘米#M, 为#VC)  (nn, 宽#NN, 口#NN)  (assmod, 倍#M, 宽#NN)  (case, 宽#NN, 的#DEG)  (nummod, 倍#M, 2#CD)  (loc, 为#VC, 倍#M)  (case, 倍#M, 以下#LC)   (nn, 刺#NN, 背鳍#NN)  (nsubj, 短#VA, 刺#NN)  (xsubj, 长#VA, 刺#NN)  (advmod, 短#VA, 一般#AD)  (root, ROOT#null, 短#VA)  (case, 头#NN, 于#P)  (prep, 长#VA, 头#NN)  (dep, 短#VA, 长#VA)   (nn, 鱼#NN, 成雄#NN)  (nsubj, 呈#VV, 鱼#NN)  (nn, 肥厚#NN, 胸鳍#NR)  (nummod, 肥厚#NN, 第一#OD)  (nummod, 条#M, 鳍#CD)  (clf, 肥厚#NN, 条#M)  (nsubj, 呈#VV, 肥厚#NN)  (advmod, 呈#VV, 略#AD)  (root, ROOT#null, 呈#VV)  (nn, 曲状#NN, 波#NR)  (dobj, 呈#VV, 曲状#NN)   (nn, 背部#NN, 体#NN)  (nsubj, 青灰色#VV, 背部#NN)  (root, ROOT#null, 青灰色#VV)  (loc, 银灰色#VV, 两#CD)  (case, 两#CD, 侧#LC)  (ccomp, 青灰色#VV, 银灰色#VV)  (loc, 鳞片#VV, 体#NN)  (case, 体#NN, 侧#LC)  (advmod, 鳞片#VV, 每个#AD)  (ccomp, 银灰色#VV, 鳞片#VV)  (nn, 灰黑#NN, 基部#NN)  (dobj, 鳞片#VV, 灰黑#NN)  (nn, 稀少#NN, 边缘#NN)  (nn, 稀少#NN, 黑色素#NN)  (nsubj, 使#VV, 稀少#NN)  (conj, 鳞片#VV, 使#VV)  (amod, 体侧#NN, 整个#JJ)  (dobj, 使#VV, 体侧#NN)  (dep, 使#VV, 呈现#VV)  (rcomp, 呈现#VV, 出#VV)  (nummod, 条纹#NN, 一行行#CD)  (nn, 条纹#NN, 紫黑色#NN)  (dobj, 呈现#VV, 条纹#NN)  (conj, 使#VV, 腹部#VV)  (dobj, 腹部#VV, 银白#NN)  (det, 鳍条#NN, 各#DT)  (nsubj, 灰黑色#VV, 鳍条#NN)  (conj, 鳞片#VV, 灰黑色#VV)   (root, ROOT#null, 分布#VV)  (nn, 中#NR, 于长江#NR)  (conj, 游#NN, 中#NR)  (det, 游#NN, 下#DT)  (nn, 湖泊#NN, 游#NN)  (amod, 湖泊#NN, 附属#JJ)  (amod, 湖泊#NN, 中型#JJ)  (dobj, 分布#VV, 湖泊#NN)   (advmod, 适于#VV, 比较#AD)  (root, ROOT#null, 适于#VV)  (nn, 性生活#NN, 静水#NN)  (dobj, 适于#VV, 性生活#NN)   (advmod, 为#VC, 平时#AD)  (dep, 为#VC, 栖息于#NN)  (nsubj, 为#VC, 底质#NN)  (root, ROOT#null, 为#VC)  (conj, 沉水植物#NN, 淤泥#NN)  (nn, 沉水植物#NN, 并生#NN)  (nn, 沉水植物#NN, 长有#NN)  (assmod, 敞水区#NN, 沉水植物#NN)  (case, 沉水植物#NN, 的#DEG)  (assmod, 下层#NN, 敞水区#NN)  (case, 敞水区#NN, 的#DEG)  (conj, 下层#NN, 中#NR)  (loc, 为#VC, 下层#NN)  (case, 下层#NN, 中#LC)   (nn, 鱼#NN, 幼#NN)  (nsubj, 为#VV, 鱼#NN)  (advmod, 为#VV, 主要#AD)  (case, 动物#NN, 以#P)  (conj, 甲壳#NN, 枝角类#NN)  (cc, 甲壳#NN, 和#CC)  (nn, 动物#NN, 甲壳#NN)  (prep, 为#VV, 动物#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 食#NN)  (advmod, 摄食#VV, 成鱼#AD)  (conj, 为#VV, 摄食#VV)  (nn, 植物#NN, 水生#NN)  (dobj, 摄食#VV, 植物#NN)  (case, 黑藻#NN, 以#P)  (nn, 黑藻#NN, 苦#NN)  (conj, 黑藻#NN, 草#NN)  (cc, 黑藻#NN, 和#CC)  (nn, 黑藻#NN, 轮叶#NN)  (prep, 为主#VV, 黑藻#NN)  (conj, 摄食#VV, 为主#VV)  (dep, 摄食#VV, 还#VV)  (nn, 动物#NN, 食#NN)  (nummod, 动物#NN, 少量#CD)  (amod, 动物#NN, 浮游#JJ)  (dobj, 还#VV, 动物#NN)   (root, ROOT#null, null#null)
+            (case, 县志#NN, 据#P)  (nn, 县志#NN, 武昌#NN)  (prep, 载#VV, 县志#NN)  (root, ROOT#null, 载#VV)  (dobj, 载#VV, 鲂#NN)  (advmod, 鳊鱼#VV, 即#AD)  (conj, 载#VV, 鳊鱼#VV)  (advmod, 称#VV, 又#AD)  (conj, 载#VV, 称#VV)  (dobj, 称#VV, 缩项鳊#NN)  (dep, 载#VV, 产樊口者#VV)  (dobj, 产樊口者#VV, 甲天下#NN)   (cop, 处#VV, 是#VC)  (root, ROOT#null, 处#VV)  (nn, 回旋#NN, 水势#NN)  (dobj, 处#VV, 回旋#NN)  (conj, 处#VV, 深潭#VV)  (dobj, 深潭#VV, 无底#NN)  (advmod, 得#VV, 渔人#AD)  (advmod, 得#VV, 置罾捕#AD)  (conj, 处#VV, 得#VV)  (mark, 处#VV, 之#DEC)  (conj, 处#VV, 止#VV)  (det, 罾味#NN, 此#DT)  (dep, 此#DT, 一#CD)  (nn, 肥美#NN, 罾味#NN)  (dobj, 止#VV, 肥美#NN)  (advmod, 胜#VV, 余亦#AD)  (advmod, 胜#VV, 较#AD)  (conj, 处#VV, 胜#VV)  (dobj, 胜#VV, 别地#NN)   (nsubj, 无#VE, ''#NN)  (advmod, 无#VE, 同时#AD)  (case, 鳞白#NN, 以#P)  (nn, 鳞白#NN, ``#NN)  (prep, 无#VE, 鳞白#NN)  (advmod, 无#VE, 而#AD)  (advmod, 无#VE, 腹内#AD)  (root, ROOT#null, 无#VE)  (amod, 膜#NN, 黑#JJ)  (nn, 者真#NN, 膜#NN)  (dobj, 无#VE, 者真#NN)   (advmod, 属#VV, ''#AD)  (root, ROOT#null, 属#VV)  (amod, 淡水#NN, 名贵#JJ)  (nn, 菜#NN, 淡水#NN)  (nn, 菜#NN, 鱼#NN)  (dobj, 属#VV, 菜#NN)   (prep, 使#VV, 又#AD)  (case, 有#VE, 因为#P)  (dep, 有#VE, 现代#NR)  (dep, 又#AD, 有#VE)  (nn, ``#NN, 毛泽东#NR)  (nsubj, 饮#VV, ``#NN)  (advmod, 饮#VV, 才#AD)  (dep, 有#VE, 饮#VV)  (nn, 水#NN, 长沙#NR)  (dobj, 饮#VV, 水#NN)  (advmod, 使#VV, 又#AD)  (nn, ''#NN, 食#NN)  (nn, ''#NN, 武昌鱼#NN)  (assmod, 词句#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dep, 使#VV, 词句#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 武昌鱼#NN)  (advmod, 闻名#VV, 更为#AD)  (dep, 使#VV, 闻名#VV)  (dobj, 闻名#VV, 遐迩#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.脂降压
+            鳊鱼可以预防贫血症、低血糖、高血压和动脉血管硬化等疾病。
+            2.养阴补虚
+            鳊鱼具有补虚损，益精气，润肺补肾，用于肺肾阴虚。适宜与久病体虚或是虚劳的补益。适宜贫血，体虚，营养不良，不思饮食之人食用。
+        </rawdata>
+
+        <segment>
+            脂降压
+            鳊鱼  可以  预防  贫血症  、  低  血糖  、  高血压  和  动脉血  管  硬化  等  疾病  。
+            养  阴  补  虚
+            鳊鱼  具有  补  虚损  ，  益  精气  ，  润肺  补肾  ，  用于  肺  肾  阴虚  。  适宜  与  久  病体  虚  或是  虚劳  的  补益  。  适宜  贫血  ，  体虚  ，  营养  不良  ，  不  思  饮食  之  人  食用  。
+        </segment>
+
+        <pos>
+            脂降压#VV
+            鳊鱼#NN  可以#VV  预防#VV  贫血症#NN  、#PU  低#JJ  血糖#NN  、#PU  高血压#NN  和#CC  动脉血#NN  管#NN  硬化#NN  等#ETC  疾病#NN  。#PU
+            养#VV  阴#NN  补#VV  虚#AD
+            鳊鱼#AD  具有#VV  补#NN  虚损#NN  ，#PU  益#VV  精气#NN  ，#PU  润肺#VV  补肾#NN  ，#PU  用于#VV  肺#NN  肾#NN  阴虚#NN    。#PU  适宜#VA  与#CC  久#VA  病体#NN  虚#AD  或是#VV  虚劳#NN  的#DEG  补益#NN    。#PU  适宜#VV  贫血#NN  ，#PU  体虚#VV  ，#PU  营养#VA  不良#JJ  ，#PU  不#AD  思#VV  饮食#NN  之#DEC  人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脂降压#VV)
+            (nsubj, 预防#VV, 鳊鱼#NN)  (mmod, 预防#VV, 可以#VV)  (root, ROOT#null, 预防#VV)  (conj, 硬化#NN, 贫血症#NN)  (amod, 血糖#NN, 低#JJ)  (conj, 硬化#NN, 血糖#NN)  (conj, 硬化#NN, 高血压#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉血#NN)  (nn, 硬化#NN, 管#NN)  (nn, 疾病#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 养#VV, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (advmod, 具有#VV, 鳊鱼#AD)  (root, ROOT#null, 具有#VV)  (nn, 虚损#NN, 补#NN)  (dobj, 具有#VV, 虚损#NN)  (dep, 具有#VV, 益#VV)  (dobj, 益#VV, 精气#NN)  (conj, 益#VV, 润肺#VV)  (dobj, 润肺#VV, 补肾#NN)  (conj, 益#VV, 用于#VV)  (nn, 阴虚#NN, 肺#NN)  (nn, 阴虚#NN, 肾#NN)  (dobj, 用于#VV, 阴虚#NN)   (root, ROOT#null, 适宜#VA)  (cc, 适宜#VA, 与#CC)  (dep, 适宜#VA, 久#VA)  (nsubj, 或是#VV, 病体#NN)  (advmod, 或是#VV, 虚#AD)  (dep, 适宜#VA, 或是#VV)  (assmod, 补益#NN, 虚劳#NN)  (case, 虚劳#NN, 的#DEG)  (dobj, 或是#VV, 补益#NN)   (relcl, 人#NN, 适宜#VV)  (dobj, 适宜#VV, 贫血#NN)  (conj, 适宜#VV, 体虚#VV)  (conj, 适宜#VV, 营养#VA)  (conj, 适宜#VV, 不良#JJ)  (neg, 思#VV, 不#AD)  (conj, 适宜#VV, 思#VV)  (dobj, 思#VV, 饮食#NN)  (mark, 适宜#VV, 之#DEC)  (nsubj, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        和胃  消食积  补脾胃
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            武昌鱼适合红烧、清蒸；小鱼适宜制作酥鱼。武昌鱼含蛋白质，而脂肪含量低，与火腿、香菇、冬笋共食是孕妇理想的进补菜肴。
+            切鱼方法：鱼肉质细，纤维短，极易破碎，切鱼时应将鱼皮朝下，刀口斜入，最好顺着鱼刺，切起来更干净利落；鱼的表皮有一层黏液非常滑，所以切起来不太容易，若在切鱼时，将手放在盐水中浸泡一会儿，切起来就不会打滑了。
+        </rawdata>
+
+        <segment>
+            武昌鱼  适合  红烧  、  清蒸  ；  小鱼  适宜  制作  酥鱼  。  武昌鱼  含  蛋白质  ，  而  脂肪  含量  低  ，  与  火腿  、  香菇  、  冬笋  共  食  是  孕妇  理想  的  进补  菜肴  。
+            切  鱼  方法  ：  鱼  肉质  细  ，  纤维  短  ，  极  易  破碎  ，  切  鱼  时  应  将  鱼皮  朝下  ，  刀口  斜入  ，  最好  顺着  鱼刺  ，  切起  来  更  干净  利落  ；  鱼  的  表皮  有  一  层  黏液  非常  滑  ，  所以  切起  来  不  太  容易  ，  若  在  切鱼  时  ，  将  手  放在  盐水  中  浸泡  一会儿  ，  切起  来就  不  会  打滑  了  。
+        </segment>
+
+        <pos>
+            武昌鱼#NN  适合#VV  红烧#NN  、#PU  清蒸#NN  ；#PU  小鱼#AD  适宜#VV  制作#NN  酥鱼#NN    。#PU  武昌鱼#NN  含#VV  蛋白质#NN  ，#PU  而#CC  脂肪#NN  含量#NN  低#VA  ，#PU  与#P  火腿#NR  、#PU  香菇#NR  、#PU  冬笋#NR  共#AD  食#NN  是#VC  孕妇#AD  理想#VA  的#DEC  进补#NN  菜肴#NN    。#PU    。#PU
+            切#VV  鱼#NN  方法#NN  ：#PU  鱼#NN  肉质#NN  细#VA  ，#PU  纤维#NN  短#VA  ，#PU  极#AD  易#VA  破碎#VA  ，#PU  切#NN  鱼#NN  时#LC  应#P  将#AD  鱼皮#VV  朝下#NN  ，#PU  刀口#NN  斜入#NN  ，#PU  最好#JJ  顺着#NN  鱼刺#NN  ，#PU  切起#NN  来#LC  更#AD  干净#JJ  利落#NN  ；#PU  鱼#NN  的#DEC  表皮#NN  有#VE  一#CD  层#M  黏液#NN  非常#AD  滑#VV  ，#PU  所以#AD  切起#NN  来#LC  不#AD  太#AD  容易#VA  ，#PU  若#CS  在#P  切鱼#NN  时#LC  ，#PU  将#AD  手#NN  放在#NN  盐水#NN  中#LC  浸泡#VV  一会儿#CD  ，#PU  切起#NN  来就#NN  不#AD  会#VV  打滑#VV  了#AS  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适合#VV, 武昌鱼#NN)  (root, ROOT#null, 适合#VV)  (conj, 清蒸#NN, 红烧#NN)  (dobj, 适合#VV, 清蒸#NN)  (advmod, 适宜#VV, 小鱼#AD)  (conj, 适合#VV, 适宜#VV)  (nn, 酥鱼#NN, 制作#NN)  (dobj, 适宜#VV, 酥鱼#NN)   (nsubj, 含#VV, 武昌鱼#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 蛋白质#NN)  (cc, 含#VV, 而#CC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 含#VV, 低#VA)  (case, 冬笋#NR, 与#P)  (conj, 冬笋#NR, 火腿#NR)  (conj, 冬笋#NR, 香菇#NR)  (prep, 菜肴#NN, 冬笋#NR)  (advmod, 菜肴#NN, 共#AD)  (dobj, 菜肴#NN, 食#NN)  (cop, 菜肴#NN, 是#VC)  (advmod, 理想#VA, 孕妇#AD)  (relcl, 菜肴#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 菜肴#NN, 进补#NN)  (conj, 低#VA, 菜肴#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 切#VV)  (nn, 方法#NN, 鱼#NN)  (dobj, 切#VV, 方法#NN)  (nn, 肉质#NN, 鱼#NN)  (nsubj, 细#VA, 肉质#NN)  (conj, 切#VV, 细#VA)  (nsubj, 短#VA, 纤维#NN)  (conj, 切#VV, 短#VA)  (advmod, 易#VA, 极#AD)  (conj, 切#VV, 易#VA)  (comod, 易#VA, 破碎#VA)  (nn, 鱼#NN, 切#NN)  (loc, 有#VE, 鱼#NN)  (case, 鱼#NN, 时#LC)  (case, 表皮#NN, 应#P)  (advmod, 鱼皮#VV, 将#AD)  (relcl, 表皮#NN, 鱼皮#VV)  (dep, 鱼#NN, 朝下#NN)  (nn, 斜入#NN, 刀口#NN)  (dep, 鱼#NN, 斜入#NN)  (amod, 鱼刺#NN, 最好#JJ)  (nn, 鱼刺#NN, 顺着#NN)  (dep, 鱼#NN, 鱼刺#NN)  (dep, 干净#JJ, 切起#NN)  (case, 切起#NN, 来#LC)  (advmod, 干净#JJ, 更#AD)  (amod, 利落#NN, 干净#JJ)  (dep, 鱼#NN, 利落#NN)  (dobj, 鱼皮#VV, 鱼#NN)  (mark, 鱼皮#VV, 的#DEC)  (prep, 有#VE, 表皮#NN)  (conj, 切#VV, 有#VE)  (nummod, 层#M, 一#CD)  (clf, 黏液#NN, 层#M)  (nsubj, 滑#VV, 黏液#NN)  (advmod, 滑#VV, 非常#AD)  (dep, 有#VE, 滑#VV)  (advmod, 容易#VA, 所以#AD)  (loc, 容易#VA, 切起#NN)  (case, 切起#NN, 来#LC)  (neg, 容易#VA, 不#AD)  (advmod, 容易#VA, 太#AD)  (conj, 切#VV, 容易#VA)  (advmod, 浸泡#VV, 若#CS)  (case, 切鱼#NN, 在#P)  (prep, 浸泡#VV, 切鱼#NN)  (case, 切鱼#NN, 时#LC)  (advmod, 浸泡#VV, 将#AD)  (nn, 盐水#NN, 手#NN)  (nn, 盐水#NN, 放在#NN)  (loc, 浸泡#VV, 盐水#NN)  (case, 盐水#NN, 中#LC)  (dep, 会#VV, 浸泡#VV)  (range, 浸泡#VV, 一会儿#CD)  (nn, 来就#NN, 切起#NN)  (nsubj, 会#VV, 来就#NN)  (neg, 会#VV, 不#AD)  (conj, 切#VV, 会#VV)  (rcomp, 会#VV, 打滑#VV)  (asp, 会#VV, 了#AS)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/09204950545.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\79 鳊鱼.jpg
+    </picturelocalurl>
+
+</content>

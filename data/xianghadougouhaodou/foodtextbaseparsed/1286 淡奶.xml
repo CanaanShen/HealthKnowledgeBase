@@ -1,0 +1,169 @@
+<content>
+
+    <id>
+        1286
+    </id>
+
+    <foodname>
+        淡奶
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        奶水、乳水、蒸发奶、蒸发奶水
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            淡奶也叫奶水、乳水、蒸发奶、蒸发奶水等，是将牛奶蒸馏除去一些水分后的产品，有时也用奶粉和水以一定比例混合后代替。经过蒸馏过程，淡奶的水份比鲜牛奶少一半。淡奶常被用于制作甜品，以及冲调咖啡及奶茶等饮料。
+        </rawdata>
+
+        <segment>
+            淡奶  也  叫  奶水  、  乳水  、  蒸发奶  、  蒸发  奶水  等  ，  是  将  牛奶  蒸馏  除去  一些  水分  后  的  产品  ，  有时  也  用  奶粉  和  水  以  一定  比例  混合  后  代替  。  经过  蒸馏  过程  ，  淡奶  的  水份  比  鲜  牛奶  少  一半  。  淡奶  常  被  用于  制作  甜品  ，  以及  冲调  咖啡  及  奶茶  等  饮料  。
+        </segment>
+
+        <pos>
+            淡奶#NN  也#AD  叫#VV  奶水#NR  、#PU  乳水#NR  、#PU  蒸发奶#NR  、#PU  蒸发#NR  奶水#NN  等#ETC  ，#PU  是#VC  将#BA  牛奶#NN  蒸馏#NN  除去#P  一些#CD  水分#VV  后#LC  的#DEG  产品#NN  ，#PU  有时#AD  也#AD  用#P  奶粉#NN  和#CC  水#NN  以#P  一定#JJ  比例#NN  混合#VV  后#LC  代替#VV    。#PU  经过#P  蒸馏#NN  过程#NN  ，#PU  淡奶#NN  的#DEG  水份#NN  比#P  鲜#NN  牛奶#NN  少#VV  一半#CD    。#PU  淡奶#NN  常#AD  被#SB  用于#VV  制作#NN  甜品#NN  ，#PU  以及#CC  冲调#VV  咖啡#NR  及#CC  奶茶#NR  等#ETC  饮料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 叫#VV, 淡奶#NN)  (advmod, 叫#VV, 也#AD)  (root, ROOT#null, 叫#VV)  (conj, 蒸发#NR, 奶水#NR)  (conj, 蒸发#NR, 乳水#NR)  (conj, 蒸发#NR, 蒸发奶#NR)  (nn, 奶水#NN, 蒸发#NR)  (dobj, 叫#VV, 奶水#NN)  (etc, 奶水#NN, 等#ETC)  (cop, 产品#NN, 是#VC)  (ba, 水分#VV, 将#BA)  (nn, 蒸馏#NN, 牛奶#NN)  (nsubj, 水分#VV, 蒸馏#NN)  (case, 一些#CD, 除去#P)  (prep, 水分#VV, 一些#CD)  (assmod, 产品#NN, 水分#VV)  (case, 水分#VV, 后#LC)  (case, 水分#VV, 的#DEG)  (conj, 叫#VV, 产品#NN)  (advmod, 代替#VV, 有时#AD)  (advmod, 代替#VV, 也#AD)  (case, 混合#VV, 用#P)  (conj, 水#NN, 奶粉#NN)  (cc, 水#NN, 和#CC)  (nsubj, 混合#VV, 水#NN)  (case, 比例#NN, 以#P)  (amod, 比例#NN, 一定#JJ)  (prep, 混合#VV, 比例#NN)  (prep, 代替#VV, 混合#VV)  (case, 混合#VV, 后#LC)  (conj, 叫#VV, 代替#VV)   (case, 过程#NN, 经过#P)  (nn, 过程#NN, 蒸馏#NN)  (prep, 少#VV, 过程#NN)  (assmod, 水份#NN, 淡奶#NN)  (case, 淡奶#NN, 的#DEG)  (dobj, 少#VV, 水份#NN)  (case, 牛奶#NN, 比#P)  (nn, 牛奶#NN, 鲜#NN)  (prep, 少#VV, 牛奶#NN)  (root, ROOT#null, 少#VV)  (range, 少#VV, 一半#CD)   (nsubj, 用于#VV, 淡奶#NN)  (advmod, 用于#VV, 常#AD)  (auxpass, 用于#VV, 被#SB)  (root, ROOT#null, 用于#VV)  (nn, 甜品#NN, 制作#NN)  (dobj, 用于#VV, 甜品#NN)  (cc, 用于#VV, 以及#CC)  (dep, 用于#VV, 冲调#VV)  (conj, 奶茶#NR, 咖啡#NR)  (cc, 奶茶#NR, 及#CC)  (nn, 饮料#NN, 奶茶#NR)  (etc, 奶茶#NR, 等#ETC)  (dobj, 冲调#VV, 饮料#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            又称花奶、奶水、蒸发奶。它是将牛奶蒸馏过去除一些水分后的结果。没有炼乳浓稠，但比牛奶稍浓。它的乳糖含量较一般牛奶高，奶香味也较浓，可以给予西点特殊的风味。同时淡奶也是做奶茶的最好选择。雀巢三花淡奶，有植脂和全脂两种：全脂淡奶是蒸馏过的牛奶。经过蒸馏过程，淡奶的水份比鲜牛奶少一半。全脂淡奶营养好，因为是牛奶加工而成的，使用的人工添加剂少，蛋白质含量高。三花植脂淡奶中的脂肪是不含胆固醇的植物脂肪，有助心脏健康的同时，仍然保持香浓醇厚的味道。植脂淡奶无糖，易消化，健康，美味。但因为是经过加工而成，植脂奶里的添加剂会多一些。
+        </rawdata>
+
+        <segment>
+            又  称  花奶  、  奶水  、  蒸发奶  。  它  是  将  牛奶  蒸馏  过去  除  一些  水分  后  的  结果  。  没有  炼乳  浓稠  ，  但  比  牛奶  稍  浓  。  它  的  乳糖  含量  较  一般  牛奶  高  ，  奶香味  也  较  浓  ，  可以  给予  西点  特殊  的  风味  。  同时  淡奶  也  是  做  奶茶  的  最好  选择  。  雀巢  三  花  淡奶  ，  有  植脂  和  全脂  两  种  ：  全脂  淡奶  是  蒸馏  过  的  牛奶  。  经过  蒸馏  过程  ，  淡奶  的  水份  比  鲜  牛奶  少  一半  。  全脂  淡奶  营养  好  ，  因为  是  牛奶  加工  而  成  的  ，  使用  的  人工  添加剂  少  ，  蛋白质  含量  高  。  三  花  植脂  淡奶  中  的  脂肪  是  不  含  胆固醇  的  植物  脂肪  ，  有助  心脏  健康  的  同时  ，  仍然  保持  香浓  醇厚  的  味道  。  植脂  淡奶  无糖  ，  易  消化  ，  健康  ，  美味  。  但  因为  是  经过  加工  而  成  ，  植  脂奶  里  的  添加剂  会  多  一些  。
+        </segment>
+
+        <pos>
+            又#AD  称#VV  花奶#NR  、#PU  奶水#NR  、#PU  蒸发奶#NR    。#PU  它#PN  是#VC  将#BA  牛奶#NN  蒸馏#NN  过去#VV  除#P  一些#CD  水分#NN  后#LC  的#DEC  结果#NN    。#PU  没有#VE  炼乳#NN  浓稠#NN  ，#PU  但#AD  比#P  牛奶#NN  稍#VV  浓#NN    。#PU  它#PN  的#DEG  乳糖#NN  含量#NN  较#AD  一般#JJ  牛奶#NN  高#VA  ，#PU  奶香味#NN  也#AD  较#AD  浓#VA  ，#PU  可以#VV  给予#VV  西点#AD  特殊#VA  的#DEC  风味#NN    。#PU  同时#AD  淡奶#AD  也#AD  是#VC  做#VV  奶茶#NN  的#DEC  最好#JJ  选择#NN    。#PU  雀巢#VV  三#CD  花#NN  淡奶#NN  ，#PU  有#VE  植脂#NN  和#CC  全脂#NN  两#CD  种#M  ：#PU  全脂#AD  淡奶#AD  是#VC  蒸馏#NN  过#VV  的#DEC  牛奶#NN    。#PU  经过#P  蒸馏#NN  过程#NN  ，#PU  淡奶#NN  的#DEG  水份#NN  比#P  鲜#NN  牛奶#NN  少#VV  一半#CD    。#PU  全脂#NN  淡奶#AD  营养#VA  好#VA  ，#PU  因为#P  是#VC  牛奶#NN  加工#NN  而#MSP  成#VV  的#DEC  ，#PU  使用#VV  的#DEC  人工#JJ  添加剂#NN  少#VA  ，#PU  蛋白质#NN  含量#NN  高#VA    。#PU  三#CD  花#NN  植脂#NN  淡奶#NN  中#LC  的#DEG  脂肪#NN  是#VC  不#AD  含#VV  胆固醇#NN  的#DEC  植物#NN  脂肪#NN  ，#PU  有助#NN  心脏#NN  健康#VA  的#DEC  同时#NN  ，#PU  仍然#AD  保持#VV  香浓#NN  醇厚#NN  的#DEG  味道#NN    。#PU  植脂#NN  淡奶#NN  无糖#VV  ，#PU  易#VA  消化#NN  ，#PU  健康#AD  ，#PU  美味#VV    。#PU  但#AD  因为#P  是#VC  经过#P  加工#NN  而#MSP  成#VV  ，#PU  植#NN  脂奶#NN  里#LC  的#DEG  添加剂#NN  会#VV  多#VV  一些#CD    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (conj, 蒸发奶#NR, 花奶#NR)  (conj, 蒸发奶#NR, 奶水#NR)  (dobj, 称#VV, 蒸发奶#NR)   (nsubj, 结果#NN, 它#PN)  (cop, 结果#NN, 是#VC)  (ba, 过去#VV, 将#BA)  (nn, 蒸馏#NN, 牛奶#NN)  (nsubj, 过去#VV, 蒸馏#NN)  (relcl, 结果#NN, 过去#VV)  (case, 水分#NN, 除#P)  (nummod, 水分#NN, 一些#CD)  (prep, 过去#VV, 水分#NN)  (case, 水分#NN, 后#LC)  (mark, 过去#VV, 的#DEC)  (root, ROOT#null, 结果#NN)   (root, ROOT#null, 没有#VE)  (nn, 浓稠#NN, 炼乳#NN)  (dobj, 没有#VE, 浓稠#NN)  (advmod, 稍#VV, 但#AD)  (case, 牛奶#NN, 比#P)  (prep, 稍#VV, 牛奶#NN)  (conj, 没有#VE, 稍#VV)  (dobj, 稍#VV, 浓#NN)   (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 含量#NN, 乳糖#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 一般#JJ, 较#AD)  (amod, 牛奶#NN, 一般#JJ)  (nsubj, 高#VA, 牛奶#NN)  (root, ROOT#null, 高#VA)  (nsubj, 浓#VA, 奶香味#NN)  (advmod, 浓#VA, 也#AD)  (advmod, 浓#VA, 较#AD)  (conj, 高#VA, 浓#VA)  (mmod, 给予#VV, 可以#VV)  (conj, 高#VA, 给予#VV)  (advmod, 特殊#VA, 西点#AD)  (relcl, 风味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (dobj, 给予#VV, 风味#NN)   (advmod, 选择#NN, 同时#AD)  (advmod, 选择#NN, 淡奶#AD)  (advmod, 选择#NN, 也#AD)  (cop, 选择#NN, 是#VC)  (relcl, 选择#NN, 做#VV)  (dobj, 做#VV, 奶茶#NN)  (mark, 做#VV, 的#DEC)  (amod, 选择#NN, 最好#JJ)  (root, ROOT#null, 选择#NN)   (root, ROOT#null, 雀巢#VV)  (nummod, 淡奶#NN, 三#CD)  (nn, 淡奶#NN, 花#NN)  (dobj, 雀巢#VV, 淡奶#NN)  (conj, 雀巢#VV, 有#VE)  (conj, 全脂#NN, 植脂#NN)  (cc, 全脂#NN, 和#CC)  (dobj, 有#VE, 全脂#NN)  (nummod, 种#M, 两#CD)  (range, 有#VE, 种#M)  (advmod, 牛奶#NN, 全脂#AD)  (advmod, 牛奶#NN, 淡奶#AD)  (cop, 牛奶#NN, 是#VC)  (nsubj, 过#VV, 蒸馏#NN)  (relcl, 牛奶#NN, 过#VV)  (mark, 过#VV, 的#DEC)  (conj, 雀巢#VV, 牛奶#NN)   (case, 过程#NN, 经过#P)  (nn, 过程#NN, 蒸馏#NN)  (prep, 少#VV, 过程#NN)  (assmod, 水份#NN, 淡奶#NN)  (case, 淡奶#NN, 的#DEG)  (dobj, 少#VV, 水份#NN)  (case, 牛奶#NN, 比#P)  (nn, 牛奶#NN, 鲜#NN)  (prep, 少#VV, 牛奶#NN)  (root, ROOT#null, 少#VV)  (range, 少#VV, 一半#CD)   (nsubj, 营养#VA, 全脂#NN)  (advmod, 营养#VA, 淡奶#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 好#VA)  (case, 成#VV, 因为#P)  (cop, 成#VV, 是#VC)  (nn, 加工#NN, 牛奶#NN)  (nsubj, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (prep, 少#VA, 成#VV)  (mark, 成#VV, 的#DEC)  (relcl, 添加剂#NN, 使用#VV)  (mark, 使用#VV, 的#DEC)  (amod, 添加剂#NN, 人工#JJ)  (nsubj, 少#VA, 添加剂#NN)  (conj, 营养#VA, 少#VA)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 营养#VA, 高#VA)   (nummod, 淡奶#NN, 三#CD)  (nn, 淡奶#NN, 花#NN)  (nn, 淡奶#NN, 植脂#NN)  (assmod, 脂肪#NN, 淡奶#NN)  (case, 淡奶#NN, 中#LC)  (case, 淡奶#NN, 的#DEG)  (nsubj, 脂肪#NN, 脂肪#NN)  (cop, 脂肪#NN, 是#VC)  (neg, 含#VV, 不#AD)  (relcl, 脂肪#NN, 含#VV)  (dobj, 含#VV, 胆固醇#NN)  (mark, 含#VV, 的#DEC)  (nn, 脂肪#NN, 植物#NN)  (root, ROOT#null, 脂肪#NN)  (nn, 心脏#NN, 有助#NN)  (nsubj, 健康#VA, 心脏#NN)  (relcl, 同时#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (nsubj, 保持#VV, 同时#NN)  (advmod, 保持#VV, 仍然#AD)  (conj, 脂肪#NN, 保持#VV)  (nn, 醇厚#NN, 香浓#NN)  (assmod, 味道#NN, 醇厚#NN)  (case, 醇厚#NN, 的#DEG)  (dobj, 保持#VV, 味道#NN)   (nn, 淡奶#NN, 植脂#NN)  (nsubj, 无糖#VV, 淡奶#NN)  (root, ROOT#null, 无糖#VV)  (relcl, 消化#NN, 易#VA)  (nsubj, 美味#VV, 消化#NN)  (advmod, 美味#VV, 健康#AD)  (ccomp, 无糖#VV, 美味#VV)   (advmod, 多#VV, 但#AD)  (case, 成#VV, 因为#P)  (cop, 成#VV, 是#VC)  (case, 加工#NN, 经过#P)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (prep, 多#VV, 成#VV)  (nsubj, 多#VV, 植#NN)  (assmod, 添加剂#NN, 脂奶#NN)  (case, 脂奶#NN, 里#LC)  (case, 脂奶#NN, 的#DEG)  (nsubj, 多#VV, 添加剂#NN)  (mmod, 多#VV, 会#VV)  (root, ROOT#null, 多#VV)  (range, 多#VV, 一些#CD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            淡奶也叫奶水，乳水、蒸发奶、蒸发奶水等，是将牛奶蒸馏除去一些水分后的产品，有时也用奶粉和水以一定比例混合后代替。经经过蒸馏过程，淡奶的水份比鲜牛奶少一半。淡奶常被用于制作甜品，以及冲调咖啡及奶茶等饮料。
+            香浓幼滑的淡奶，由高质量的新鲜牛奶浓缩制成，口感爽滑细腻，淡奶中不含胆固醇的植物脂肪，有助心脏健康的同时，仍然保持香浓醇厚的味道，是制作各种菜肴、汤羹和点心的理想选择。
+        </rawdata>
+
+        <segment>
+            淡奶  也  叫  奶水  ，  乳水  、  蒸发奶  、  蒸发  奶水  等  ，  是  将  牛奶  蒸馏  除去  一些  水分  后  的  产品  ，  有时  也  用  奶粉  和  水  以  一定  比例  混合  后  代替  。  经  经过  蒸馏  过程  ，  淡奶  的  水份  比  鲜  牛奶  少  一半  。  淡奶  常  被  用于  制作  甜品  ，  以及  冲调  咖啡  及  奶茶  等  饮料  。
+            香浓  幼  滑  的  淡奶  ，  由  高  质量  的  新鲜  牛奶  浓缩  制成  ，  口感  爽滑  细腻  ，  淡奶  中  不  含  胆固醇  的  植物  脂肪  ，  有助  心脏  健康  的  同时  ，  仍然  保持  香浓  醇厚  的  味道  ，  是  制作  各  种  菜肴  、  汤  羹  和  点心  的  理想  选择  。
+        </segment>
+
+        <pos>
+            淡奶#NN  也#AD  叫#VV  奶水#NN  ，#PU  乳水#NN  、#PU  蒸发奶#NN  、#PU  蒸发#NN  奶水#NN  等#ETC  ，#PU  是#VC  将#BA  牛奶#NN  蒸馏#NN  除去#P  一些#CD  水分#VV  后#LC  的#DEG  产品#NN  ，#PU  有时#AD  也#AD  用#P  奶粉#NN  和#CC  水#NN  以#P  一定#JJ  比例#NN  混合#VV  后#LC  代替#VV    。#PU  经#P  经过#P  蒸馏#NN  过程#NN  ，#PU  淡奶#VV  的#DEG  水份#NN  比#P  鲜#NN  牛奶#NN  少#VV  一半#CD    。#PU  淡奶#NN  常#AD  被#SB  用于#VV  制作#NN  甜品#NN  ，#PU  以及#CC  冲调#VV  咖啡#NR  及#CC  奶茶#NR  等#ETC  饮料#NN    。#PU    。#PU
+            香浓#VV  幼#NN  滑#NN  的#DEG  淡奶#NN  ，#PU  由#P  高#JJ  质量#NN  的#DEG  新鲜#JJ  牛奶#NN  浓缩#AD  制成#VV  ，#PU  口感#VV  爽滑#NN  细腻#NN  ，#PU  淡奶#NN  中#LC  不#AD  含#VV  胆固醇#NN  的#DEG  植物#NN  脂肪#NN  ，#PU  有助#VV  心脏#NN  健康#VA  的#DEC  同时#NN  ，#PU  仍然#AD  保持#VV  香浓#NN  醇厚#NN  的#DEG  味道#NN  ，#PU  是#VC  制作#VV  各#DT  种#M  菜肴#NN  、#PU  汤#NN  羹#NN  和#CC  点心#NN  的#DEC  理想#JJ  选择#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 叫#VV, 淡奶#NN)  (advmod, 叫#VV, 也#AD)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 奶水#NN)  (conj, 奶水#NN, 乳水#NN)  (conj, 奶水#NN, 蒸发奶#NN)  (nn, 奶水#NN, 蒸发#NN)  (dep, 产品#NN, 奶水#NN)  (etc, 奶水#NN, 等#ETC)  (cop, 产品#NN, 是#VC)  (ba, 水分#VV, 将#BA)  (nn, 蒸馏#NN, 牛奶#NN)  (nsubj, 水分#VV, 蒸馏#NN)  (case, 一些#CD, 除去#P)  (prep, 水分#VV, 一些#CD)  (assmod, 产品#NN, 水分#VV)  (case, 水分#VV, 后#LC)  (case, 水分#VV, 的#DEG)  (conj, 叫#VV, 产品#NN)  (advmod, 代替#VV, 有时#AD)  (advmod, 代替#VV, 也#AD)  (case, 混合#VV, 用#P)  (conj, 水#NN, 奶粉#NN)  (cc, 水#NN, 和#CC)  (nsubj, 混合#VV, 水#NN)  (case, 比例#NN, 以#P)  (amod, 比例#NN, 一定#JJ)  (prep, 混合#VV, 比例#NN)  (prep, 代替#VV, 混合#VV)  (case, 混合#VV, 后#LC)  (conj, 叫#VV, 代替#VV)   (case, 淡奶#VV, 经#P)  (case, 过程#NN, 经过#P)  (nn, 过程#NN, 蒸馏#NN)  (prep, 淡奶#VV, 过程#NN)  (assmod, 水份#NN, 淡奶#VV)  (case, 淡奶#VV, 的#DEG)  (nsubj, 少#VV, 水份#NN)  (case, 牛奶#NN, 比#P)  (nn, 牛奶#NN, 鲜#NN)  (prep, 少#VV, 牛奶#NN)  (root, ROOT#null, 少#VV)  (range, 少#VV, 一半#CD)   (nsubj, 用于#VV, 淡奶#NN)  (advmod, 用于#VV, 常#AD)  (auxpass, 用于#VV, 被#SB)  (root, ROOT#null, 用于#VV)  (nn, 甜品#NN, 制作#NN)  (dobj, 用于#VV, 甜品#NN)  (cc, 用于#VV, 以及#CC)  (dep, 用于#VV, 冲调#VV)  (conj, 奶茶#NR, 咖啡#NR)  (cc, 奶茶#NR, 及#CC)  (nn, 饮料#NN, 奶茶#NR)  (etc, 奶茶#NR, 等#ETC)  (dobj, 冲调#VV, 饮料#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 香浓#VV)  (nn, 滑#NN, 幼#NN)  (assmod, 淡奶#NN, 滑#NN)  (case, 滑#NN, 的#DEG)  (dobj, 香浓#VV, 淡奶#NN)  (case, 牛奶#NN, 由#P)  (amod, 质量#NN, 高#JJ)  (assmod, 牛奶#NN, 质量#NN)  (case, 质量#NN, 的#DEG)  (amod, 牛奶#NN, 新鲜#JJ)  (prep, 制成#VV, 牛奶#NN)  (advmod, 制成#VV, 浓缩#AD)  (conj, 香浓#VV, 制成#VV)  (conj, 香浓#VV, 口感#VV)  (nn, 细腻#NN, 爽滑#NN)  (dobj, 口感#VV, 细腻#NN)  (loc, 含#VV, 淡奶#NN)  (case, 淡奶#NN, 中#LC)  (neg, 含#VV, 不#AD)  (conj, 香浓#VV, 含#VV)  (assmod, 脂肪#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nn, 脂肪#NN, 植物#NN)  (dobj, 含#VV, 脂肪#NN)  (conj, 香浓#VV, 有助#VV)  (nsubj, 健康#VA, 心脏#NN)  (relcl, 同时#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (dobj, 有助#VV, 同时#NN)  (advmod, 保持#VV, 仍然#AD)  (conj, 香浓#VV, 保持#VV)  (nn, 醇厚#NN, 香浓#NN)  (assmod, 味道#NN, 醇厚#NN)  (case, 醇厚#NN, 的#DEG)  (dobj, 保持#VV, 味道#NN)  (cop, 选择#NN, 是#VC)  (relcl, 选择#NN, 制作#VV)  (det, 菜肴#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 点心#NN, 菜肴#NN)  (nn, 羹#NN, 汤#NN)  (conj, 点心#NN, 羹#NN)  (cc, 点心#NN, 和#CC)  (dobj, 制作#VV, 点心#NN)  (mark, 制作#VV, 的#DEC)  (amod, 选择#NN, 理想#JJ)  (conj, 香浓#VV, 选择#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.西米提前用清水浸泡30分钟，锅中清水烧开，放入西米煮3-5分钟至透明，期间不停地用木勺搅动以免粘连，随后关火过清水，再次放入清水煮2-3分钟，加糖关火晾凉备用。
+            2.芒果去皮，切丁放入蔬果处理机中，加奶油，鲜奶，淡奶，椰浆，轻搅成糊状即可。
+            3.将芒果椰浆糊倒入晾凉的西米糊中搅匀，红西柚子去皮，剥出柚子里的果肉粒，连同柚子汁一起倒入芒果西米糊中拌匀，装入无油的容器中，盖好盖子冷藏2小时以上。
+        </rawdata>
+
+        <segment>
+            西米  提前  用  清水  浸泡  30  分钟  ，  锅中  清水  烧开  ，  放入  西米  煮  3  -  5  分钟  至  透明  ，  期间  不停  地  用  木勺  搅动  以免  粘连  ，  随后  关  火  过  清水  ，  再次  放入  清水  煮  2-3  分钟  ，  加糖  关  火晾  凉  备用  。
+            芒果  去皮  ，  切丁  放入  蔬果  处理  机中  ，  加  奶油  ，  鲜奶  ，  淡奶  ，  椰浆  ，  轻  搅  成  糊状  即可  。
+            将  芒果  椰浆糊  倒入  晾凉  的  西米糊  中  搅匀  ，  红  西  柚子  去皮  ，  剥出  柚子  里  的  果肉  粒  ，  连同  柚子汁  一起  倒入  芒果  西米糊  中  拌匀  ，  装入  无  油  的  容器  中  ，  盖好  盖子  冷藏  2  小时  以上  。
+        </segment>
+
+        <pos>
+            西米#NR  提前#AD  用#VV  清水#NN  浸泡#NN  30#CD  分钟#M  ，#PU  锅中#VV  清水#NN  烧开#NN  ，#PU  放入#VV  西米#AD  煮#VV  3#CD  -#NN  5#CD  分钟#M  至#CC  透明#VA  ，#PU  期间#NN  不停#VA  地#DEV  用#P  木勺#NN  搅动#NN  以免#VV  粘连#VV  ，#PU  随后#AD  关#VV  火#NN  过#AD  清水#VV  ，#PU  再次#AD  放入#VV  清水#NN  煮#VV  2-3#CD  分钟#M  ，#PU  加糖#AD  关#VV  火晾#NN  凉#NN  备用#NN  。#PU
+            芒果#NR  去皮#VV  ，#PU  切丁#NN  放入#VV  蔬果#NN  处理#NN  机中#NN  ，#PU  加#VV  奶油#NN  ，#PU  鲜奶#VV  ，#PU  淡奶#NR  ，#PU  椰浆#VV  ，#PU  轻#JJ  搅#NN  成#VV  糊状#NN  即可#NN  。#PU
+            将#AD  芒果#VV  椰浆糊#NN  倒入#NN  晾凉#NN  的#DEC  西米糊#NN  中#LC  搅匀#NR  ，#PU  红#JJ  西#NN  柚子#NN  去皮#VV  ，#PU  剥出#NN  柚子#NN  里#LC  的#DEG  果肉#NN  粒#VV  ，#PU  连同#P  柚子汁#AD  一起#AD  倒入#VV  芒果#NN  西米糊#NN  中#LC  拌匀#NN  ，#PU  装入#AD  无#VE  油#NN  的#DEC  容器#NN  中#LC  ，#PU  盖好#NN  盖子#AD  冷藏#VV  2#CD  小时#NN  以上#LC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 用#VV, 西米#NR)  (advmod, 用#VV, 提前#AD)  (root, ROOT#null, 用#VV)  (nn, 浸泡#NN, 清水#NN)  (dobj, 用#VV, 浸泡#NN)  (nummod, 分钟#M, 30#CD)  (range, 用#VV, 分钟#M)  (conj, 用#VV, 锅中#VV)  (nn, 烧开#NN, 清水#NN)  (dobj, 锅中#VV, 烧开#NN)  (mmod, 煮#VV, 放入#VV)  (advmod, 煮#VV, 西米#AD)  (conj, 用#VV, 煮#VV)  (nummod, -#NN, 3#CD)  (nummod, 分钟#M, 5#CD)  (range, 煮#VV, 分钟#M)  (cc, 用#VV, 至#CC)  (conj, 用#VV, 透明#VA)  (nsubj, 以免#VV, 期间#NN)  (dep, 以免#VV, 不停#VA)  (mark, 不停#VA, 地#DEV)  (case, 搅动#NN, 用#P)  (nn, 搅动#NN, 木勺#NN)  (prep, 以免#VV, 搅动#NN)  (conj, 用#VV, 以免#VV)  (ccomp, 以免#VV, 粘连#VV)  (advmod, 关#VV, 随后#AD)  (dep, 清水#VV, 关#VV)  (dobj, 关#VV, 火#NN)  (advmod, 清水#VV, 过#AD)  (ccomp, 粘连#VV, 清水#VV)  (advmod, 放入#VV, 再次#AD)  (dep, 清水#VV, 放入#VV)  (dobj, 放入#VV, 清水#NN)  (dep, 以免#VV, 煮#VV)  (nummod, 分钟#M, 2-3#CD)  (range, 煮#VV, 分钟#M)  (advmod, 关#VV, 加糖#AD)  (dep, 以免#VV, 关#VV)  (nn, 备用#NN, 火晾#NN)  (nn, 备用#NN, 凉#NN)  (dobj, 关#VV, 备用#NN)
+            (nsubj, 去皮#VV, 芒果#NR)  (root, ROOT#null, 去皮#VV)  (nsubj, 放入#VV, 切丁#NN)  (ccomp, 去皮#VV, 放入#VV)  (nn, 机中#NN, 蔬果#NN)  (nn, 机中#NN, 处理#NN)  (dobj, 放入#VV, 机中#NN)  (conj, 放入#VV, 加#VV)  (dobj, 加#VV, 奶油#NN)  (conj, 去皮#VV, 鲜奶#VV)  (nsubj, 椰浆#VV, 淡奶#NR)  (ccomp, 鲜奶#VV, 椰浆#VV)  (amod, 搅#NN, 轻#JJ)  (nsubj, 成#VV, 搅#NN)  (ccomp, 椰浆#VV, 成#VV)  (nn, 即可#NN, 糊状#NN)  (dobj, 成#VV, 即可#NN)
+            (advmod, 芒果#VV, 将#AD)  (relcl, 西米糊#NN, 芒果#VV)  (nn, 晾凉#NN, 椰浆糊#NN)  (nn, 晾凉#NN, 倒入#NN)  (dobj, 芒果#VV, 晾凉#NN)  (mark, 芒果#VV, 的#DEC)  (loc, 去皮#VV, 西米糊#NN)  (case, 西米糊#NN, 中#LC)  (nsubj, 去皮#VV, 搅匀#NR)  (amod, 西#NN, 红#JJ)  (nn, 柚子#NN, 西#NN)  (nsubj, 去皮#VV, 柚子#NN)  (root, ROOT#null, 去皮#VV)  (nn, 柚子#NN, 剥出#NN)  (assmod, 果肉#NN, 柚子#NN)  (case, 柚子#NN, 里#LC)  (case, 柚子#NN, 的#DEG)  (nsubj, 粒#VV, 果肉#NN)  (ccomp, 去皮#VV, 粒#VV)  (case, 容器#NN, 连同#P)  (advmod, 倒入#VV, 柚子汁#AD)  (advmod, 倒入#VV, 一起#AD)  (relcl, 容器#NN, 倒入#VV)  (nn, 西米糊#NN, 芒果#NN)  (dep, 拌匀#NN, 西米糊#NN)  (case, 西米糊#NN, 中#LC)  (dobj, 倒入#VV, 拌匀#NN)  (advmod, 无#VE, 装入#AD)  (dep, 倒入#VV, 无#VE)  (dobj, 无#VE, 油#NN)  (mark, 倒入#VV, 的#DEC)  (prep, 冷藏#VV, 容器#NN)  (case, 容器#NN, 中#LC)  (nsubj, 冷藏#VV, 盖好#NN)  (advmod, 冷藏#VV, 盖子#AD)  (ccomp, 粒#VV, 冷藏#VV)  (nummod, 小时#NN, 2#CD)  (loc, 冷藏#VV, 小时#NN)  (case, 小时#NN, 以上#LC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/95/0b/2965_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1286 淡奶.jpg
+    </picturelocalurl>
+
+</content>

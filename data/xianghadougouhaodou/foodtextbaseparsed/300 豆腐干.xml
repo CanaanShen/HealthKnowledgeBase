@@ -1,0 +1,414 @@
+<content>
+
+    <id>
+        300
+    </id>
+
+    <foodname>
+        豆腐干
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆制品
+    </secondcategory>
+
+    <alias>
+        豆干、白干
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病、肾脏病、高血脂患者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  、  肾脏病  、  高血脂  患者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  、#PU  肾脏病#NN  、#PU  高血脂#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 患者#NN, 糖尿病#NN)  (conj, 患者#NN, 肾脏病#NN)  (nn, 患者#NN, 高血脂#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                16.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                12.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                9.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                11.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                9.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                29.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                308
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                273
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                76.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.76
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                46.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                30.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆腐干是豆腐的再加工制品，咸香爽口，硬中带韧。豆腐干营养丰富，含有大量蛋白质、脂肪、碳水化合物，还含有钙、磷、铁等多种人体所需的矿物质。豆腐干在制作过程中会添加食盐、茴香、花椒、大料、干姜等调料，既香又鲜，久吃不厌，被誉为“素火腿”。
+        </rawdata>
+
+        <segment>
+            豆腐干  是  豆腐  的  再加工  制品  ，  咸香  爽口  ，  硬  中  带  韧  。  豆腐干  营养  丰富  ，  含有  大量  蛋白质  、  脂肪  、  碳水化合物  ，  还  含有  钙  、  磷  、  铁  等  多  种  人体  所  需  的  矿物质  。  豆腐干  在  制作  过程  中会  添加  食盐  、  茴香  、  花椒  、  大料  、  干姜  等  调料  ，  既  香  又  鲜  ，  久  吃  不厌  ，  被  誉为  “  素  火腿  ”  。
+        </segment>
+
+        <pos>
+            豆腐干#NN  是#VC  豆腐#NN  的#DEG  再加工#NN  制品#NN  ，#PU  咸香#NN  爽口#NN  ，#PU  硬#JJ  中#NN  带#VV  韧#NN    。#PU  豆腐干#NN  营养#VA  丰富#VA  ，#PU  含有#NN  大量#AD  蛋白质#VA  、#PU  脂肪#VA  、#PU  碳水化合物#VA  ，#PU  还#AD  含有#VV  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  人体#NN  所#MSP  需#VV  的#DEC  矿物质#NN    。#PU  豆腐干#NN  在#P  制作#NN  过程#NN  中会#AD  添加#VV  食盐#NR  、#PU  茴香#NR  、#PU  花椒#NR  、#PU  大料#NR  、#PU  干姜#NR  等#ETC  调料#NN  ，#PU  既#CC  香#AD  又#AD  鲜#VV  ，#PU  久#AD  吃#VV  不厌#NN  ，#PU  被#SB  誉为#VV  ``#NN  素#AD  火腿#VV  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 豆腐干#NN)  (cop, 制品#NN, 是#VC)  (assmod, 制品#NN, 豆腐#NN)  (case, 豆腐#NN, 的#DEG)  (nn, 制品#NN, 再加工#NN)  (root, ROOT#null, 制品#NN)  (nn, 爽口#NN, 咸香#NN)  (nsubj, 带#VV, 爽口#NN)  (amod, 中#NN, 硬#JJ)  (nsubj, 带#VV, 中#NN)  (conj, 制品#NN, 带#VV)  (dobj, 带#VV, 韧#NN)   (nsubj, 营养#VA, 豆腐干#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nsubj, 蛋白质#VA, 含有#NN)  (advmod, 蛋白质#VA, 大量#AD)  (ccomp, 营养#VA, 蛋白质#VA)  (conj, 蛋白质#VA, 脂肪#VA)  (dep, 蛋白质#VA, 碳水化合物#VA)  (advmod, 含有#VV, 还#AD)  (dep, 蛋白质#VA, 含有#VV)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 人体#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 矿物质#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)   (nsubj, 添加#VV, 豆腐干#NN)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 制作#NN)  (prep, 添加#VV, 过程#NN)  (advmod, 添加#VV, 中会#AD)  (root, ROOT#null, 添加#VV)  (conj, 干姜#NR, 食盐#NR)  (conj, 干姜#NR, 茴香#NR)  (conj, 干姜#NR, 花椒#NR)  (conj, 干姜#NR, 大料#NR)  (nn, 调料#NN, 干姜#NR)  (etc, 干姜#NR, 等#ETC)  (dobj, 添加#VV, 调料#NN)  (cc, 添加#VV, 既#CC)  (advmod, 鲜#VV, 香#AD)  (advmod, 鲜#VV, 又#AD)  (dep, 添加#VV, 鲜#VV)  (advmod, 吃#VV, 久#AD)  (dep, 添加#VV, 吃#VV)  (dobj, 吃#VV, 不厌#NN)  (auxpass, 誉为#VV, 被#SB)  (dep, 添加#VV, 誉为#VV)  (dobj, 誉为#VV, ``#NN)  (advmod, 火腿#VV, 素#AD)  (dep, 誉为#VV, 火腿#VV)  (dobj, 火腿#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.更年期的“保护神”
+            有效的预防骨质疏松、乳腺癌和前列腺的发生。
+            2.预防心血管疾病
+            豆腐健脑的同时，还能抑制胆固醇的摄入。大豆蛋白显著降低血浆胆固醇、甘油三酯和低密度脂蛋白，不仅可以预防结肠癌，还有助于预防心脑血管疾病。
+            3.降低乳腺癌的几率
+            制作豆腐的大豆中含有大豆异黄酮，可调整乳腺对雌激素的反应，日本妇女尿中的异黄酮浓度为美国、荷兰妇女的100~1000倍，这与日本人常食大豆有关，也是日本相与欧美国家相比乳腺癌发生率较低的一个原因。此外，还可以有效的预防白血病，结肠癌，肺癌，胃癌等的发生。
+            4.抗血栓
+            制作大豆中含有的皂苷，清除体内自由基，具有显著的抗癌活性，具有抑制肿瘤细胞的生长，抑制血小板聚集，抗血栓的功效。
+            5.牛奶的替代品
+            豆腐的营养价值与牛奶相近，对因乳糖不耐症而不能喝牛乳，或为了控制慢性病不吃肉禽类的人而言，豆腐是最好的代替品。
+            6.有益于大脑的生长发育。
+        </rawdata>
+
+        <segment>
+            更年期  的  “  保护神  ”
+            有效  的  预防  骨质  疏松  、  乳腺癌  和  前列腺  的  发生  。
+            预防  心  血管  疾病
+            豆腐  健脑  的  同时  ，  还  能  抑制  胆固醇  的  摄入  。  大豆  蛋白  显著  降低  血浆  胆固醇  、  甘油  三  酯  和  低密度  脂蛋白  ，  不仅  可以  预防  结肠癌  ，  还  有助于  预防  心脑  血管  疾病  。
+            降低  乳腺癌  的  几率
+            制作  豆腐  的  大豆  中  含有  大豆  异  黄酮  ，  可  调整  乳腺  对  雌  激素  的  反应  ，  日本  妇女  尿  中  的  异  黄酮  浓度  为  美国  、  荷兰  妇女  的  100  ~  1000  倍  ，  这  与  日本人  常食  大豆  有关  ，  也  是  日本  相与  欧  美  国家  相比  乳腺癌  发生  率  较  低  的  一  个  原因  。  此外  ，  还  可以  有效  的  预防  白血病  ，  结肠癌  ，  肺癌  ，  胃癌  等  的  发生  。
+            抗  血栓
+            制作  大豆  中  含有  的  皂苷  ，  清除  体内  自由基  ，  具有  显著  的  抗癌  活性  ，  具有  抑制  肿瘤  细胞  的  生长  ，  抑制  血  小板  聚集  ，  抗  血栓  的  功效  。
+            牛奶  的  替代品
+            豆腐  的  营养  价值  与  牛奶  相近  ，  对  因  乳糖不耐症  而  不  能  喝  牛乳  ，  或  为了  控制  慢性病  不  吃  肉禽  类  的  人  而言  ，  豆腐  是  最  好  的  代替品  。
+            有益于  大脑  的  生长  发育  。
+        </segment>
+
+        <pos>
+            更年期#NN  的#DEG  ``#NN  保护神#VV  ''#NN
+            有效#VA  的#DEC  预防#NN  骨质#VV  疏松#NR  、#PU  乳腺癌#NR  和#CC  前列腺#NR  的#DEG  发生#NN  。#PU
+            预防#VV  心#NN  血管#NN  疾病#NN
+            豆腐#VV  健脑#VA  的#DEC  同时#NN  ，#PU  还#AD  能#VV  抑制#VV  胆固醇#NN  的#DEG  摄入#NN    。#PU  大豆#NN  蛋白#NN  显著#AD  降低#VV  血浆#NN  胆固醇#NN  、#PU  甘油#VV  三#CD  酯#NN  和#CC  低密度#NN  脂蛋白#NN  ，#PU  不仅#CC  可以#VV  预防#VV  结肠癌#NN  ，#PU  还#AD  有助于#VV  预防#VV  心脑#NN  血管#NN  疾病#NN    。#PU    。#PU
+            降低#VV  乳腺癌#NN  的#DEG  几率#NN
+            制作#VV  豆腐#NN  的#DEC  大豆#NN  中#LC  含有#VV  大豆#NN  异#NN  黄酮#NN  ，#PU  可#VV  调整#NN  乳腺#NN  对#P  雌#NN  激素#NN  的#DEG  反应#NN  ，#PU  日本#NR  妇女#NN  尿#NN  中#LC  的#DEG  异#NN  黄酮#NN  浓度#NN  为#P  美国#NR  、#PU  荷兰#NR  妇女#NN  的#DEG  100#CD  ~#VV  1000#CD  倍#M  ，#PU  这#PN  与#P  日本人#NN  常食#NN  大豆#NN  有关#VV  ，#PU  也#AD  是#VC  日本#NR  相与#NN  欧#NR  美#NR  国家#NN  相比#VV  乳腺癌#AD  发生#VV  率#VV  较#AD  低#VA  的#DEC  一#CD  个#M  原因#NN    。#PU  此外#AD  ，#PU  还#AD  可以#VV  有效#VA  的#DEC  预防#NN  白血病#NN  ，#PU  结肠癌#VV  ，#PU  肺癌#VV  ，#PU  胃癌#VV  等#ETC  的#DEC  发生#VV    。#PU    。#PU
+            抗#NN  血栓#VV
+            制作#VV  大豆#NN  中#LC  含有#NN  的#DEG  皂苷#NN  ，#PU  清除#VV  体内#NN  自由基#NN  ，#PU  具有#VV  显著#VA  的#DEC  抗癌#NN  活性#NN  ，#PU  具有#VV  抑制#VV  肿瘤#NN  细胞#NN  的#DEC  生长#NN  ，#PU  抑制#VV  血#NN  小板#NN  聚集#VV  ，#PU  抗#VV  血栓#NN  的#DEG  功效#NN  。#PU
+            牛奶#NN  的#DEG  替代品#NN
+            豆腐#NN  的#DEG  营养#VA  价值#NN  与#P  牛奶#NN  相近#VA  ，#PU  对#P  因#P  乳糖不耐症#NN  而#MSP  不#AD  能#VV  喝#VV  牛乳#NN  ，#PU  或#CC  为了#P  控制#VV  慢性病#NN  不#AD  吃#VV  肉禽#CD  类#M  的#DEC  人#NN  而言#VV  ，#PU  豆腐#AD  是#VC  最#AD  好#VA  的#DEC  代替品#NN  。#PU
+            有益于#VV  大脑#NN  的#DEC  生长#NN  发育#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, ``#NN, 更年期#NN)  (case, 更年期#NN, 的#DEG)  (nsubj, 保护神#VV, ``#NN)  (root, ROOT#null, 保护神#VV)  (dobj, 保护神#VV, ''#NN)
+            (relcl, 预防#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (nsubj, 骨质#VV, 预防#NN)  (root, ROOT#null, 骨质#VV)  (conj, 前列腺#NR, 疏松#NR)  (conj, 前列腺#NR, 乳腺癌#NR)  (cc, 前列腺#NR, 和#CC)  (assmod, 发生#NN, 前列腺#NR)  (case, 前列腺#NR, 的#DEG)  (dobj, 骨质#VV, 发生#NN)
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 豆腐#VV)  (relcl, 同时#NN, 健脑#VA)  (mark, 健脑#VA, 的#DEC)  (dobj, 豆腐#VV, 同时#NN)  (advmod, 抑制#VV, 还#AD)  (mmod, 抑制#VV, 能#VV)  (conj, 豆腐#VV, 抑制#VV)  (assmod, 摄入#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 抑制#VV, 摄入#NN)   (nn, 蛋白#NN, 大豆#NN)  (nsubj, 降低#VV, 蛋白#NN)  (advmod, 降低#VV, 显著#AD)  (root, ROOT#null, 降低#VV)  (nn, 胆固醇#NN, 血浆#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 甘油#VV)  (nummod, 酯#NN, 三#CD)  (conj, 脂蛋白#NN, 酯#NN)  (cc, 脂蛋白#NN, 和#CC)  (nn, 脂蛋白#NN, 低密度#NN)  (dobj, 甘油#VV, 脂蛋白#NN)  (cc, 降低#VV, 不仅#CC)  (mmod, 预防#VV, 可以#VV)  (conj, 降低#VV, 预防#VV)  (dobj, 预防#VV, 结肠癌#NN)  (advmod, 有助于#VV, 还#AD)  (conj, 预防#VV, 有助于#VV)  (ccomp, 有助于#VV, 预防#VV)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (assmod, 几率#NN, 乳腺癌#NN)  (case, 乳腺癌#NN, 的#DEG)  (dobj, 降低#VV, 几率#NN)
+            (relcl, 大豆#NN, 制作#VV)  (dobj, 制作#VV, 豆腐#NN)  (mark, 制作#VV, 的#DEC)  (loc, 含有#VV, 大豆#NN)  (case, 大豆#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nn, 黄酮#NN, 大豆#NN)  (nn, 黄酮#NN, 异#NN)  (dobj, 含有#VV, 黄酮#NN)  (conj, 含有#VV, 可#VV)  (nn, 乳腺#NN, 调整#NN)  (dobj, 可#VV, 乳腺#NN)  (case, 反应#NN, 对#P)  (nn, 激素#NN, 雌#NN)  (assmod, 反应#NN, 激素#NN)  (case, 激素#NN, 的#DEG)  (prep, ~#VV, 反应#NN)  (nn, 尿#NN, 日本#NR)  (nn, 尿#NN, 妇女#NN)  (assmod, 浓度#NN, 尿#NN)  (case, 尿#NN, 中#LC)  (case, 尿#NN, 的#DEG)  (nn, 浓度#NN, 异#NN)  (nn, 浓度#NN, 黄酮#NN)  (nsubj, ~#VV, 浓度#NN)  (case, 100#CD, 为#P)  (conj, 荷兰#NR, 美国#NR)  (nn, 妇女#NN, 荷兰#NR)  (assmod, 100#CD, 妇女#NN)  (case, 妇女#NN, 的#DEG)  (prep, ~#VV, 100#CD)  (nummod, 倍#M, 1000#CD)  (range, ~#VV, 倍#M)  (nsubj, 有关#VV, 这#PN)  (case, 大豆#NN, 与#P)  (nn, 大豆#NN, 日本人#NN)  (nn, 大豆#NN, 常食#NN)  (prep, 有关#VV, 大豆#NN)  (conj, ~#VV, 有关#VV)  (advmod, 相与#NN, 也#AD)  (cop, 相与#NN, 是#VC)  (nn, 相与#NN, 日本#NR)  (conj, ~#VV, 相与#NN)  (nn, 美#NR, 欧#NR)  (nn, 国家#NN, 美#NR)  (nsubj, 率#VV, 国家#NN)  (mmod, 率#VV, 相比#VV)  (advmod, 率#VV, 乳腺癌#AD)  (mmod, 率#VV, 发生#VV)  (conj, 含有#VV, 率#VV)  (advmod, 低#VA, 较#AD)  (relcl, 原因#NN, 低#VA)  (mark, 低#VA, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 原因#NN, 个#M)  (dobj, 率#VV, 原因#NN)   (advmod, 可以#VV, 此外#AD)  (advmod, 可以#VV, 还#AD)  (dep, 结肠癌#VV, 可以#VV)  (relcl, 白血病#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (nn, 白血病#NN, 预防#NN)  (dobj, 可以#VV, 白血病#NN)  (root, ROOT#null, 结肠癌#VV)  (nsubj, 发生#VV, 肺癌#VV)  (dep, 肺癌#VV, 胃癌#VV)  (dep, 肺癌#VV, 等#ETC)  (mark, 肺癌#VV, 的#DEC)  (ccomp, 结肠癌#VV, 发生#VV)   (root, ROOT#null, null#null)
+            (nsubj, 血栓#VV, 抗#NN)  (root, ROOT#null, 血栓#VV)
+            (root, ROOT#null, 制作#VV)  (dep, 含有#NN, 大豆#NN)  (case, 大豆#NN, 中#LC)  (assmod, 皂苷#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (dobj, 制作#VV, 皂苷#NN)  (conj, 制作#VV, 清除#VV)  (nn, 自由基#NN, 体内#NN)  (dobj, 清除#VV, 自由基#NN)  (conj, 制作#VV, 具有#VV)  (relcl, 活性#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (nn, 活性#NN, 抗癌#NN)  (dobj, 具有#VV, 活性#NN)  (conj, 具有#VV, 具有#VV)  (relcl, 生长#NN, 抑制#VV)  (nn, 细胞#NN, 肿瘤#NN)  (dobj, 抑制#VV, 细胞#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 具有#VV, 生长#NN)  (conj, 具有#VV, 抑制#VV)  (nn, 小板#NN, 血#NN)  (dobj, 抑制#VV, 小板#NN)  (conj, 抑制#VV, 聚集#VV)  (conj, 具有#VV, 抗#VV)  (assmod, 功效#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 抗#VV, 功效#NN)
+            (assmod, 替代品#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (root, ROOT#null, 替代品#NN)
+            (assmod, 价值#NN, 豆腐#NN)  (case, 豆腐#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 相近#VA, 价值#NN)  (case, 牛奶#NN, 与#P)  (prep, 相近#VA, 牛奶#NN)  (root, ROOT#null, 相近#VA)  (case, 人#NN, 对#P)  (case, 乳糖不耐症#NN, 因#P)  (prep, 喝#VV, 乳糖不耐症#NN)  (prtmod, 喝#VV, 而#MSP)  (neg, 喝#VV, 不#AD)  (mmod, 喝#VV, 能#VV)  (relcl, 人#NN, 喝#VV)  (dobj, 喝#VV, 牛乳#NN)  (cc, 喝#VV, 或#CC)  (case, 控制#VV, 为了#P)  (prep, 吃#VV, 控制#VV)  (dobj, 控制#VV, 慢性病#NN)  (neg, 吃#VV, 不#AD)  (dep, 喝#VV, 吃#VV)  (nummod, 类#M, 肉禽#CD)  (range, 吃#VV, 类#M)  (mark, 喝#VV, 的#DEC)  (prep, 而言#VV, 人#NN)  (dep, 相近#VA, 而言#VV)  (advmod, 代替品#NN, 豆腐#AD)  (cop, 代替品#NN, 是#VC)  (advmod, 好#VA, 最#AD)  (relcl, 代替品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dep, 相近#VA, 代替品#NN)
+            (relcl, 生长#NN, 有益于#VV)  (dobj, 有益于#VV, 大脑#NN)  (mark, 有益于#VV, 的#DEC)  (nsubj, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  增加骨密度
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.大豆的蛋白质生物学价值可与鱼肉相媲美，是植物蛋白中的佼佼者。大豆蛋白属于完全蛋白质，其氨基酸组成比较好，人体所必需的氨基酸它几乎都有。
+            2.制作豆腐的大豆中含有18%左右的油脂，大部分能转移到豆腐中去。大豆油中的亚油酸比例较大，且不含胆固醇，有益于人体神经、血管、大脑的生长发育。
+            3.大豆可以直接烹调食用，人体对其蛋白质的消化吸收率只有65%，而制成豆腐消化率可以提升到92%~95%。
+        </rawdata>
+
+        <segment>
+            大豆  的  蛋白质  生物学  价值  可  与  鱼肉  相  媲美  ，  是  植物  蛋白  中  的  佼佼者  。  大豆  蛋白  属于  完全  蛋白质  ，  其  氨基酸  组成  比较  好  ，  人体  所  必需  的  氨基酸  它  几乎  都  有  。
+            制作  豆腐  的  大豆  中  含有  18%  左右  的  油脂  ，  大部分  能  转移  到  豆腐  中去  。  大豆  油  中  的  亚油酸  比例  较大  ，  且  不  含  胆固醇  ，  有益于  人体  神经  、  血管  、  大脑  的  生长  发育  。
+            大豆  可以  直接  烹调  食用  ，  人体  对其  蛋白质  的  消化  吸收率  只有  65%  ，  而  制成  豆腐  消化率  可以  提升  到  92%  ~  95%  。
+        </segment>
+
+        <pos>
+            大豆#NN  的#DEG  蛋白质#NN  生物学#NN  价值#NN  可#VV  与#P  鱼肉#NN  相#AD  媲美#VV  ，#PU  是#VC  植物#NN  蛋白#NN  中#LC  的#DEG  佼佼者#NN    。#PU  大豆#NR  蛋白#AD  属于#VV  完全#AD  蛋白质#VV  ，#PU  其#PN  氨基酸#VV  组成#NN  比较#AD  好#VA  ，#PU  人体#AD  所#MSP  必需#VV  的#DEC  氨基酸#NN  它#PN  几乎#AD  都#AD  有#VE    。#PU    。#PU
+            制作#VV  豆腐#NN  的#DEC  大豆#NN  中#LC  含有#VV  18#CD  %#NN  左右#LC  的#DEG  油脂#NN  ，#PU  大部分#CD  能#VV  转移#VV  到#VV  豆腐#NN  中去#NN    。#PU  大豆#VV  油#NN  中#LC  的#DEG  亚油酸#NN  比例#NN  较大#JJ  ，#PU  且#CC  不#AD  含#VV  胆固醇#NN  ，#PU  有益于#VV  人体#NN  神经#NN  、#PU  血管#NN  、#PU  大脑#NN  的#DEC  生长#NN  发育#VV    。#PU    。#PU
+            大豆#NN  可以#VV  直接#AD  烹调#AD  食用#VV  ，#PU  人体#NN  对其#NN  蛋白质#NN  的#DEG  消化#NN  吸收率#VV  只有#AD  65#CD  %#NN  ，#PU  而#MSP  制成#VV  豆腐#NN  消化率#NN  可以#VV  提升#VV  到#VV  92#CD  %#NN  ~#VV  95#CD  %#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 价值#NN, 大豆#NN)  (case, 大豆#NN, 的#DEG)  (nn, 价值#NN, 蛋白质#NN)  (nn, 价值#NN, 生物学#NN)  (nsubj, 媲美#VV, 价值#NN)  (mmod, 媲美#VV, 可#VV)  (case, 鱼肉#NN, 与#P)  (prep, 媲美#VV, 鱼肉#NN)  (advmod, 媲美#VV, 相#AD)  (root, ROOT#null, 媲美#VV)  (cop, 佼佼者#NN, 是#VC)  (nn, 蛋白#NN, 植物#NN)  (assmod, 佼佼者#NN, 蛋白#NN)  (case, 蛋白#NN, 中#LC)  (case, 蛋白#NN, 的#DEG)  (dep, 媲美#VV, 佼佼者#NN)   (nsubj, 属于#VV, 大豆#NR)  (advmod, 属于#VV, 蛋白#AD)  (root, ROOT#null, 属于#VV)  (advmod, 蛋白质#VV, 完全#AD)  (relcl, 氨基酸#NN, 蛋白质#VV)  (nsubj, 氨基酸#VV, 其#PN)  (ccomp, 蛋白质#VV, 氨基酸#VV)  (dobj, 氨基酸#VV, 组成#NN)  (advmod, 好#VA, 比较#AD)  (dep, 氨基酸#VV, 好#VA)  (advmod, 必需#VV, 人体#AD)  (prtmod, 必需#VV, 所#MSP)  (conj, 氨基酸#VV, 必需#VV)  (mark, 蛋白质#VV, 的#DEC)  (dobj, 属于#VV, 氨基酸#NN)  (nsubj, 有#VE, 它#PN)  (advmod, 有#VE, 几乎#AD)  (advmod, 有#VE, 都#AD)  (conj, 属于#VV, 有#VE)   (root, ROOT#null, null#null)
+            (relcl, 大豆#NN, 制作#VV)  (dobj, 制作#VV, 豆腐#NN)  (mark, 制作#VV, 的#DEC)  (loc, 含有#VV, 大豆#NN)  (case, 大豆#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, %#NN, 18#CD)  (assmod, 油脂#NN, %#NN)  (case, %#NN, 左右#LC)  (case, %#NN, 的#DEG)  (dobj, 含有#VV, 油脂#NN)  (nsubj, 转移#VV, 大部分#CD)  (mmod, 转移#VV, 能#VV)  (conj, 含有#VV, 转移#VV)  (rcomp, 转移#VV, 到#VV)  (nn, 中去#NN, 豆腐#NN)  (dobj, 转移#VV, 中去#NN)   (relcl, 生长#NN, 大豆#VV)  (assmod, 比例#NN, 油#NN)  (case, 油#NN, 中#LC)  (case, 油#NN, 的#DEG)  (nn, 比例#NN, 亚油酸#NN)  (dobj, 大豆#VV, 比例#NN)  (conj, 大豆#VV, 较大#JJ)  (cc, 大豆#VV, 且#CC)  (neg, 含#VV, 不#AD)  (conj, 大豆#VV, 含#VV)  (dobj, 含#VV, 胆固醇#NN)  (conj, 大豆#VV, 有益于#VV)  (nn, 大脑#NN, 人体#NN)  (conj, 大脑#NN, 神经#NN)  (conj, 大脑#NN, 血管#NN)  (dobj, 有益于#VV, 大脑#NN)  (mark, 大豆#VV, 的#DEC)  (nsubj, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)   (root, ROOT#null, null#null)
+            (nsubj, 食用#VV, 大豆#NN)  (mmod, 食用#VV, 可以#VV)  (advmod, 食用#VV, 直接#AD)  (advmod, 食用#VV, 烹调#AD)  (root, ROOT#null, 食用#VV)  (nn, 蛋白质#NN, 人体#NN)  (nn, 蛋白质#NN, 对其#NN)  (assmod, 消化#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 吸收率#VV, 消化#NN)  (conj, 食用#VV, 吸收率#VV)  (advmod, 65#CD, 只有#AD)  (nummod, %#NN, 65#CD)  (dobj, 吸收率#VV, %#NN)  (prtmod, 制成#VV, 而#MSP)  (conj, 食用#VV, 制成#VV)  (nn, 消化率#NN, 豆腐#NN)  (dobj, 制成#VV, 消化率#NN)  (mmod, 提升#VV, 可以#VV)  (dep, 制成#VV, 提升#VV)  (rcomp, 提升#VV, 到#VV)  (nummod, %#NN, 92#CD)  (dobj, 提升#VV, %#NN)  (nummod, %#NN, 95#CD)  (dobj, ~#VV, %#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            豆腐干可加工成卤干、熏干、酱油干等，是宴席中拌凉菜、炒热菜的上乘原料。
+        </rawdata>
+
+        <segment>
+            豆腐干  可加工  成  卤干  、  熏干  、  酱油  干等  ，  是  宴席  中拌  凉菜  、  炒  热  菜  的  上乘  原料  。
+        </segment>
+
+        <pos>
+            豆腐干#NN  可加工#AD  成#VV  卤干#NR  、#PU  熏干#NR  、#PU  酱油#NR  干等#NN  ，#PU  是#VC  宴席#NN  中拌#NN  凉菜#NN  、#PU  炒#NN  热#NN  菜#NN  的#DEG  上乘#VA  原料#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 成#VV, 豆腐干#NN)  (advmod, 成#VV, 可加工#AD)  (conj, 原料#NN, 成#VV)  (conj, 酱油#NR, 卤干#NR)  (conj, 酱油#NR, 熏干#NR)  (nn, 干等#NN, 酱油#NR)  (dobj, 成#VV, 干等#NN)  (cop, 原料#NN, 是#VC)  (nn, 菜#NN, 宴席#NN)  (nn, 菜#NN, 中拌#NN)  (conj, 菜#NN, 凉菜#NN)  (nn, 菜#NN, 炒#NN)  (nn, 菜#NN, 热#NN)  (assmod, 原料#NN, 菜#NN)  (case, 菜#NN, 的#DEG)  (nfincl, 原料#NN, 上乘#VA)  (root, ROOT#null, 原料#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081900548355.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\300 豆腐干.jpg
+    </picturelocalurl>
+
+</content>

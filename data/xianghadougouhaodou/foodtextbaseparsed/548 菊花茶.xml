@@ -1,0 +1,189 @@
+<content>
+
+    <id>
+        548
+    </id>
+
+    <foodname>
+        菊花茶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者及孕妇慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  及  孕妇  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#VV  虚寒者#NN  及#CC  孕妇#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾胃#VV)  (conj, 慎食#NN, 虚寒者#NN)  (cc, 慎食#NN, 及#CC)  (nn, 慎食#NN, 孕妇#NN)  (dobj, 脾胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            菊花茶是指我国十大名花之一菊花，全国各地几乎随处可见。菊花的品种多姿。有时也在白菊花中加些茶叶，起到调味的作用。 产地湖北大别山麻城福田河的福白菊，浙江桐乡的杭白菊和黄山脚下的黄山贡菊(徽州贡菊)比较有名。 产于安徽亳州的亳菊、滁州的滁菊、四川中江的川菊、浙江德清的德菊、河南济源的怀菊花(四大怀药之一)都有很高的药效。
+        </rawdata>
+
+        <segment>
+            菊花茶  是  指  我  国  十大  名花  之一  菊花  ，  全国  各  地  几乎  随处  可  见  。  菊花  的  品种  多姿  。  有时  也  在  白菊  花  中  加些  茶叶  ，  起到  调味  的  作用  。    产地  湖北  大别山  麻城  福田  河  的  福  白菊  ，  浙江  桐乡  的  杭  白菊  和  黄山脚  下  的  黄山  贡菊  (  徽州  贡菊  )  比较  有名  。    产于  安徽  亳州  的  亳菊  、  滁州  的  滁菊  、  四川  中江  的  川菊  、  浙江  德清  的  德菊  、  河南  济源  的  怀  菊花  (  四  大  怀药  之一  )  都  有  很  高  的  药效  。
+        </segment>
+
+        <pos>
+            菊花茶#NN  是#VC  指#VV  我#PN  国#NN  十大#CD  名花#NN  之一#NN  菊花#NN  ，#PU  全国#NR  各#DT  地#NN  几乎#AD  随处#AD  可#VV  见#VV    。#PU  菊花#NN  的#DEG  品种#NN  多姿#VV    。#PU  有时#AD  也#AD  在#P  白菊#NN  花#NN  中#LC  加些#VV  茶叶#NN  ，#PU  起到#VV  调味#NN  的#DEG  作用#NN    。#PU  产地#NN  湖北#NR  大别山#NN  麻城#NN  福田#JJ  河#NN  的#DEG  福#NN  白菊#VV  ，#PU  浙江#NR  桐乡#NN  的#DEG  杭#NR  白菊#NN  和#CC  黄山脚#NN  下#LC  的#DEG  黄山#NR  贡菊#NN  -LRB-#NN  徽州#NN  贡菊#NN  -RRB-#NN  比较#AD  有名#VA    。#PU  产于#NR  安徽#NR  亳州#NN  的#DEG  亳菊#NN  、#PU  滁州#NN  的#DEG  滁菊#NN  、#PU  四川#NR  中江#NN  的#DEG  川菊#NN  、#PU  浙江#NR  德清#NN  的#DEG  德菊#NN  、#PU  河南#NR  济源#NN  的#DEG  怀#NN  菊花#NN  -LRB-#NN  四#CD  大#JJ  怀药#NN  之一#NN  -RRB-#AD  都#AD  有#VE  很#AD  高#VA  的#DEC  药效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 指#VV, 菊花茶#NN)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (nn, 国#NN, 我#PN)  (nn, 之一#NN, 国#NN)  (nummod, 之一#NN, 十大#CD)  (nn, 之一#NN, 名花#NN)  (nn, 菊花#NN, 之一#NN)  (dobj, 指#VV, 菊花#NN)  (nn, 地#NN, 全国#NR)  (det, 地#NN, 各#DT)  (dep, 见#VV, 地#NN)  (advmod, 见#VV, 几乎#AD)  (advmod, 见#VV, 随处#AD)  (dep, 见#VV, 可#VV)  (conj, 指#VV, 见#VV)   (assmod, 品种#NN, 菊花#NN)  (case, 菊花#NN, 的#DEG)  (nsubj, 多姿#VV, 品种#NN)  (root, ROOT#null, 多姿#VV)   (advmod, 加些#VV, 有时#AD)  (advmod, 加些#VV, 也#AD)  (case, 花#NN, 在#P)  (nn, 花#NN, 白菊#NN)  (prep, 加些#VV, 花#NN)  (case, 花#NN, 中#LC)  (root, ROOT#null, 加些#VV)  (dobj, 加些#VV, 茶叶#NN)  (dep, 加些#VV, 起到#VV)  (assmod, 作用#NN, 调味#NN)  (case, 调味#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)   (nn, 河#NN, 产地#NN)  (nn, 麻城#NN, 湖北#NR)  (nn, 麻城#NN, 大别山#NN)  (nn, 河#NN, 麻城#NN)  (amod, 河#NN, 福田#JJ)  (assmod, 福#NN, 河#NN)  (case, 河#NN, 的#DEG)  (nsubj, 白菊#VV, 福#NN)  (root, ROOT#null, 白菊#VV)  (nn, 桐乡#NN, 浙江#NR)  (assmod, 黄山脚#NN, 桐乡#NN)  (case, 桐乡#NN, 的#DEG)  (nn, 黄山脚#NN, 杭#NR)  (conj, 黄山脚#NN, 白菊#NN)  (cc, 黄山脚#NN, 和#CC)  (assmod, -RRB-#NN, 黄山脚#NN)  (case, 黄山脚#NN, 下#LC)  (case, 黄山脚#NN, 的#DEG)  (nn, -LRB-#NN, 黄山#NR)  (nn, -LRB-#NN, 贡菊#NN)  (nn, -RRB-#NN, 徽州#NN)  (nn, -RRB-#NN, 贡菊#NN)  (advmod, 有名#VA, 比较#AD)  (ccomp, 白菊#VV, 有名#VA)   (nn, 亳州#NN, 产于#NR)  (nn, 亳州#NN, 安徽#NR)  (assmod, 亳菊#NN, 亳州#NN)  (case, 亳州#NN, 的#DEG)  (conj, 菊花#NN, 亳菊#NN)  (assmod, 滁菊#NN, 滁州#NN)  (case, 滁州#NN, 的#DEG)  (conj, 菊花#NN, 滁菊#NN)  (nn, 中江#NN, 四川#NR)  (assmod, 川菊#NN, 中江#NN)  (case, 中江#NN, 的#DEG)  (conj, 菊花#NN, 川菊#NN)  (nn, 德清#NN, 浙江#NR)  (assmod, 德菊#NN, 德清#NN)  (case, 德清#NN, 的#DEG)  (conj, 菊花#NN, 德菊#NN)  (nn, 济源#NN, 河南#NR)  (assmod, 菊花#NN, 济源#NN)  (case, 济源#NN, 的#DEG)  (nn, 菊花#NN, 怀#NN)  (nn, -LRB-#NN, 菊花#NN)  (nummod, 之一#NN, 四#CD)  (amod, 之一#NN, 大#JJ)  (nn, 之一#NN, 怀药#NN)  (nsubj, 有#VE, 之一#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 很#AD)  (relcl, 药效#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 有#VE, 药效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性甘、微寒，具有散风热、平肝明目之功效。
+            1.防治心血管疾病
+            菊花可扩张冠状动脉，增加血流量，降血压、扩张冠状动脉和抑菌，长期饮用能调节心肌功能、降低胆固醇，对冠心病，高血压，动脉硬化、血清胆固醇过高症都有很好的疗效。
+            2.明目清肝
+            对肝火旺、用眼过度导致的双眼干涩也有较好的疗效。
+            3.提神醒脑
+            菊花茶香气浓郁，提神醒脑，也具有一定的松弛神经、舒缓头痛的功效。
+        </rawdata>
+
+        <segment>
+            性甘  、  微寒  ，  具有  散风热  、  平肝  明目  之  功效  。
+            防治  心  血管  疾病
+            菊花  可  扩张  冠状  动脉  ，  增加  血  流量  ，  降  血压  、  扩张  冠状  动脉  和  抑菌  ，  长期  饮用  能  调节  心肌  功能  、  降低  胆固醇  ，  对  冠心病  ，  高血压  ，  动脉  硬化  、  血清  胆固醇  过高症  都  有  很  好  的  疗效  。
+            明目  清肝
+            对  肝火  旺  、  用眼  过度  导致  的  双眼  干涩  也  有  较好  的  疗效  。
+            提神  醒脑
+            菊花茶  香气  浓郁  ，  提神  醒脑  ，  也  具有  一定  的  松弛  神经  、  舒缓  头痛  的  功效  。
+        </segment>
+
+        <pos>
+            性甘#NR  、#PU  微寒#NR  ，#PU  具有#VV  散风热#NR  、#PU  平肝#NR  明目#NN  之#DEG  功效#NN  。#PU
+            防治#VV  心#NN  血管#NN  疾病#NN
+            菊花#NN  可#VV  扩张#VV  冠状#NN  动脉#NN  ，#PU  增加#VV  血#NN  流量#NN  ，#PU  降#VV  血压#NN  、#PU  扩张#NN  冠状#NN  动脉#NN  和#CC  抑菌#NN  ，#PU  长期#AD  饮用#AD  能#VV  调节#VV  心肌#NN  功能#NN  、#PU  降低#VV  胆固醇#NN  ，#PU  对#P  冠心病#NN  ，#PU  高血压#NN  ，#PU  动脉#NN  硬化#NN  、#PU  血清#NN  胆固醇#NN  过高症#NN  都#AD  有#VE  很#AD  好#VA  的#DEC  疗效#NN  。#PU
+            明目#NN  清肝#VV
+            对#P  肝火#NN  旺#VV  、#PU  用眼#NN  过度#AD  导致#VV  的#DEC  双眼#NN  干涩#NN  也#AD  有#VE  较好#JJ  的#DEG  疗效#NN  。#PU
+            提神#NN  醒脑#VV
+            菊花茶#VV  香气#AD  浓郁#VA  ，#PU  提神#AD  醒脑#VA  ，#PU  也#AD  具有#VV  一定#JJ  的#DEG  松弛#NN  神经#NN  、#PU  舒缓#NN  头痛#NN  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 微寒#NR, 性甘#NR)  (nsubj, 具有#VV, 微寒#NR)  (root, ROOT#null, 具有#VV)  (conj, 平肝#NR, 散风热#NR)  (nn, 明目#NN, 平肝#NR)  (assmod, 功效#NN, 明目#NN)  (case, 明目#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)
+            (root, ROOT#null, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)
+            (nsubj, 扩张#VV, 菊花#NN)  (mmod, 扩张#VV, 可#VV)  (root, ROOT#null, 扩张#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 扩张#VV, 动脉#NN)  (conj, 扩张#VV, 增加#VV)  (nn, 流量#NN, 血#NN)  (dobj, 增加#VV, 流量#NN)  (conj, 扩张#VV, 降#VV)  (conj, 抑菌#NN, 血压#NN)  (nn, 抑菌#NN, 扩张#NN)  (nn, 抑菌#NN, 冠状#NN)  (conj, 抑菌#NN, 动脉#NN)  (cc, 抑菌#NN, 和#CC)  (dobj, 降#VV, 抑菌#NN)  (advmod, 调节#VV, 长期#AD)  (advmod, 调节#VV, 饮用#AD)  (mmod, 调节#VV, 能#VV)  (conj, 扩张#VV, 调节#VV)  (nn, 功能#NN, 心肌#NN)  (dobj, 调节#VV, 功能#NN)  (dep, 扩张#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (case, 冠心病#NN, 对#P)  (prep, 有#VE, 冠心病#NN)  (nsubj, 有#VE, 高血压#NN)  (nn, 过高症#NN, 动脉#NN)  (conj, 过高症#NN, 硬化#NN)  (nn, 过高症#NN, 血清#NN)  (nn, 过高症#NN, 胆固醇#NN)  (nsubj, 有#VE, 过高症#NN)  (advmod, 有#VE, 都#AD)  (conj, 扩张#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 疗效#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 疗效#NN)
+            (nsubj, 清肝#VV, 明目#NN)  (root, ROOT#null, 清肝#VV)
+            (case, 肝火#NN, 对#P)  (prep, 旺#VV, 肝火#NN)  (relcl, 干涩#NN, 旺#VV)  (nsubj, 导致#VV, 用眼#NN)  (advmod, 导致#VV, 过度#AD)  (dep, 旺#VV, 导致#VV)  (mark, 旺#VV, 的#DEC)  (nn, 干涩#NN, 双眼#NN)  (nsubj, 有#VE, 干涩#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (assmod, 疗效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)
+            (nsubj, 醒脑#VV, 提神#NN)  (root, ROOT#null, 醒脑#VV)
+            (root, ROOT#null, 菊花茶#VV)  (advmod, 浓郁#VA, 香气#AD)  (relcl, 功效#NN, 浓郁#VA)  (advmod, 醒脑#VA, 提神#AD)  (dep, 浓郁#VA, 醒脑#VA)  (advmod, 具有#VV, 也#AD)  (dep, 浓郁#VA, 具有#VV)  (assmod, 头痛#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 头痛#NN, 松弛#NN)  (conj, 头痛#NN, 神经#NN)  (nn, 头痛#NN, 舒缓#NN)  (dobj, 具有#VV, 头痛#NN)  (mark, 浓郁#VA, 的#DEC)  (dobj, 菊花茶#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            菊花中含有挥发油、菊甙、腺嘌呤、氨基酸、胆碱、水苏碱、小蘖碱、黄酮类、菊色素、维生素，微量元素等物质，可抗病原体，增强毛细血管抵抗力；其中的类黄酮物质已经被证明对自由基有很强的清除作用，而且在抗氧化，防衰老等方面卓有成效。从营养学角度分析，植物的精华在于花果。菊花花瓣中含有17种氨基酸，其中谷氨酸、天冬氨酸、脯氨酸等含量较高。此外，还富含维生素及铁、锌、铜、硒等微量元素，因而具有一般蔬果无法比拟的作用。
+        </rawdata>
+
+        <segment>
+            菊花  中  含有  挥发油  、  菊甙  、  腺嘌呤  、  氨基酸  、  胆碱  、  水  苏  碱  、  小  蘖碱  、  黄酮类  、  菊色素  、  维生素  ，  微量  元素  等  物质  ，  可  抗病  原体  ，  增强  毛细血管  抵抗力  ；  其中  的  类  黄酮  物质  已经  被  证明  对  自由基  有  很  强  的  清除  作用  ，  而且  在  抗氧化  ，  防  衰老  等  方面  卓有  成效  。  从  营养学  角度  分析  ，  植物  的  精华  在于  花果  。  菊花  花瓣  中  含有  17  种  氨基酸  ，  其中  谷氨酸  、  天冬氨酸  、  脯氨酸  等  含量  较  高  。  此外  ，  还  富含  维生素  及铁  、  锌  、  铜  、  硒等  微量  元素  ，  因而  具有  一般  蔬果  无法  比拟  的  作用  。
+        </segment>
+
+        <pos>
+            菊花#NN  中#LC  含有#VV  挥发油#NN  、#PU  菊甙#NN  、#PU  腺嘌呤#NN  、#PU  氨基酸#NN  、#PU  胆碱#NN  、#PU  水#NN  苏#NR  碱#NN  、#PU  小#NN  蘖碱#NN  、#PU  黄酮类#NN  、#PU  菊色素#NN  、#PU  维生素#NN  ，#PU  微量#NN  元素#NN  等#ETC  物质#NN  ，#PU  可#VV  抗病#NN  原体#NN  ，#PU  增强#VV  毛细血管#NN  抵抗力#NN  ；#PU  其中#NN  的#DEG  类#NN  黄酮#NN  物质#NN  已经#AD  被#SB  证明#VV  对#P  自由基#NR  有#VE  很#AD  强#VA  的#DEC  清除#VV  作用#NN  ，#PU  而且#CC  在#P  抗氧化#NR  ，#PU  防#NR  衰老#NR  等#ETC  方面#NN  卓有#VV  成效#NN    。#PU  从#P  营养学#NN  角度#NN  分析#VV  ，#PU  植物#NN  的#DEG  精华#NN  在于#VV  花果#NN    。#PU  菊花#NN  花瓣#NN  中#LC  含有#NR  17#CD  种#M  氨基酸#NN  ，#PU  其中#NN  谷氨酸#NR  、#PU  天冬氨酸#NR  、#PU  脯氨酸#NR  等#ETC  含量#NN  较#AD  高#VA    。#PU  此外#AD  ，#PU  还#AD  富含#VV  维生素#NN  及铁#NN  、#PU  锌#NN  、#PU  铜#NN  、#PU  硒等#NN  微量#NN  元素#NN  ，#PU  因而#AD  具有#VV  一般#JJ  蔬果#NN  无法#AD  比拟#VV  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 菊花#NN)  (case, 菊花#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 元素#NN, 挥发油#NN)  (conj, 元素#NN, 菊甙#NN)  (conj, 元素#NN, 腺嘌呤#NN)  (conj, 元素#NN, 氨基酸#NN)  (conj, 元素#NN, 胆碱#NN)  (nn, 元素#NN, 水#NN)  (nn, 元素#NN, 苏#NR)  (conj, 元素#NN, 碱#NN)  (nn, 元素#NN, 小#NN)  (conj, 元素#NN, 蘖碱#NN)  (conj, 元素#NN, 黄酮类#NN)  (conj, 元素#NN, 菊色素#NN)  (conj, 元素#NN, 维生素#NN)  (nn, 元素#NN, 微量#NN)  (nn, 物质#NN, 元素#NN)  (etc, 元素#NN, 等#ETC)  (dobj, 含有#VV, 物质#NN)  (conj, 含有#VV, 可#VV)  (nn, 原体#NN, 抗病#NN)  (dobj, 可#VV, 原体#NN)  (conj, 含有#VV, 增强#VV)  (nn, 抵抗力#NN, 毛细血管#NN)  (dobj, 增强#VV, 抵抗力#NN)  (assmod, 物质#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nn, 物质#NN, 类#NN)  (nn, 物质#NN, 黄酮#NN)  (nsubj, 证明#VV, 物质#NN)  (xsubj, 有#VE, 物质#NN)  (advmod, 证明#VV, 已经#AD)  (auxpass, 证明#VV, 被#SB)  (conj, 含有#VV, 证明#VV)  (case, 自由基#NR, 对#P)  (prep, 有#VE, 自由基#NR)  (ccomp, 证明#VV, 有#VE)  (advmod, 强#VA, 很#AD)  (nsubj, 清除#VV, 强#VA)  (mark, 强#VA, 的#DEC)  (dep, 有#VE, 清除#VV)  (dobj, 清除#VV, 作用#NN)  (cc, 含有#VV, 而且#CC)  (case, 抗氧化#NR, 在#P)  (prep, 卓有#VV, 抗氧化#NR)  (nn, 衰老#NR, 防#NR)  (nn, 方面#NN, 衰老#NR)  (etc, 衰老#NR, 等#ETC)  (nsubj, 卓有#VV, 方面#NN)  (conj, 含有#VV, 卓有#VV)  (dobj, 卓有#VV, 成效#NN)   (case, 角度#NN, 从#P)  (nn, 角度#NN, 营养学#NN)  (prep, 分析#VV, 角度#NN)  (root, ROOT#null, 分析#VV)  (assmod, 精华#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (nsubj, 在于#VV, 精华#NN)  (ccomp, 分析#VV, 在于#VV)  (dobj, 在于#VV, 花果#NN)   (nn, 花瓣#NN, 菊花#NN)  (loc, 高#VA, 花瓣#NN)  (case, 花瓣#NN, 中#LC)  (nn, 氨基酸#NN, 含有#NR)  (nummod, 种#M, 17#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 高#VA, 氨基酸#NN)  (nsubj, 高#VA, 其中#NN)  (conj, 脯氨酸#NR, 谷氨酸#NR)  (conj, 脯氨酸#NR, 天冬氨酸#NR)  (nn, 含量#NN, 脯氨酸#NR)  (etc, 脯氨酸#NR, 等#ETC)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)   (advmod, 富含#VV, 此外#AD)  (advmod, 富含#VV, 还#AD)  (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 维生素#NN)  (conj, 微量#NN, 及铁#NN)  (conj, 微量#NN, 锌#NN)  (conj, 微量#NN, 铜#NN)  (nn, 微量#NN, 硒等#NN)  (nn, 元素#NN, 微量#NN)  (nsubj, 具有#VV, 元素#NN)  (advmod, 具有#VV, 因而#AD)  (dep, 富含#VV, 具有#VV)  (amod, 蔬果#NN, 一般#JJ)  (nsubj, 比拟#VV, 蔬果#NN)  (advmod, 比拟#VV, 无法#AD)  (relcl, 作用#NN, 比拟#VV)  (mark, 比拟#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            泡泡菊花茶时，最好用透明的玻璃杯，每次放上四、五粒，再用沸水冲泡即可。
+            若是饮用的人多，可用透明的茶壶，每次放一小把，冲入沸水泡2-3分钟，再把茶水倒入每个人的透明玻璃杯中即可。饮菊花茶时可在茶杯中放入几颗冰糖，这样喝起来味更甘甜。
+            需要注意的是，野菊花性苦寒，长期服用或用量过大时会伤及脾胃阳气，出现胃部不适、胃纳欠佳、肠鸣、大便稀溏等不良反应，因此，脾胃虚寒者及孕妇都不宜用。
+        </rawdata>
+
+        <segment>
+            泡泡  菊花茶  时  ，  最  好用  透明  的  玻璃杯  ，  每次  放上  四  、  五  粒  ，  再  用  沸水  冲泡  即可  。
+            若是  饮用  的  人多  ，  可用  透明  的  茶壶  ，  每次  放  一  小  把  ，  冲入  沸水  泡  2-3  分钟  ，  再  把  茶水  倒入  每  个  人  的  透明  玻璃  杯中  即  可  。  饮  菊花茶  时  可  在  茶杯  中  放入  几  颗  冰糖  ，  这样  喝  起来  味  更  甘甜  。
+            需要  注意  的  是  ，  野菊  花  性  苦寒  ，  长期  服用  或  用量  过大  时会  伤及  脾胃  阳气  ，  出现  胃部  不适  、  胃  纳  欠佳  、  肠鸣  、  大便  稀溏  等  不良  反应  ，  因此  ，  脾胃  虚寒者  及  孕妇  都  不  宜  用  。
+        </segment>
+
+        <pos>
+            泡泡#NN  菊花茶#NN  时#LC  ，#PU  最#AD  好用#VV  透明#VA  的#DEC  玻璃杯#NN  ，#PU  每次#AD  放上#VV  四#CD  、#PU  五#CD  粒#NN  ，#PU  再#AD  用#P  沸水#NN  冲泡#VV  即可#NN  。#PU
+            若是#VV  饮用#NN  的#DEG  人多#NN  ，#PU  可用#JJ  透明#VA  的#DEC  茶壶#NN  ，#PU  每次#AD  放#VV  一#CD  小#JJ  把#M  ，#PU  冲入#VV  沸水#NN  泡#NN  2-3#CD  分钟#M  ，#PU  再#AD  把#BA  茶水#NN  倒入#VV  每#DT  个#M  人#NN  的#DEC  透明#VA  玻璃#NN  杯中#NN  即#AD  可#VV    。#PU  饮#VV  菊花茶#NN  时#LC  可#VV  在#P  茶杯#NN  中#LC  放入#VV  几#CD  颗#M  冰糖#NN  ，#PU  这样#AD  喝#VV  起来#VV  味#NN  更#AD  甘甜#VA    。#PU    。#PU
+            需要#VV  注意#NN  的#DEC  是#VC  ，#PU  野菊#NN  花#NN  性#NN  苦寒#NN  ，#PU  长期#AD  服用#VV  或#CC  用量#NN  过大#NN  时会#NN  伤及#VV  脾胃#NN  阳气#NN  ，#PU  出现#VV  胃部#NR  不适#NR  、#PU  胃#NR  纳#NR  欠佳#NR  、#PU  肠鸣#NR  、#PU  大便#NR  稀溏#NR  等#ETC  不良#JJ  反应#NN  ，#PU  因此#AD  ，#PU  脾胃#NR  虚寒者#NN  及#CC  孕妇#NN  都#AD  不#AD  宜#NR  用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菊花茶#NN, 泡泡#NN)  (loc, 好用#VV, 菊花茶#NN)  (case, 菊花茶#NN, 时#LC)  (advmod, 好用#VV, 最#AD)  (root, ROOT#null, 好用#VV)  (relcl, 玻璃杯#NN, 透明#VA)  (mark, 透明#VA, 的#DEC)  (dobj, 好用#VV, 玻璃杯#NN)  (advmod, 放上#VV, 每次#AD)  (dep, 好用#VV, 放上#VV)  (dep, 五#CD, 四#CD)  (nummod, 粒#NN, 五#CD)  (dobj, 放上#VV, 粒#NN)  (advmod, 冲泡#VV, 再#AD)  (case, 沸水#NN, 用#P)  (prep, 冲泡#VV, 沸水#NN)  (dep, 好用#VV, 冲泡#VV)  (dobj, 冲泡#VV, 即可#NN)
+            (relcl, 玻璃#NN, 若是#VV)  (assmod, 人多#NN, 饮用#NN)  (case, 饮用#NN, 的#DEG)  (dobj, 若是#VV, 人多#NN)  (amod, 茶壶#NN, 可用#JJ)  (relcl, 茶壶#NN, 透明#VA)  (mark, 透明#VA, 的#DEC)  (dep, 放#VV, 茶壶#NN)  (advmod, 放#VV, 每次#AD)  (conj, 若是#VV, 放#VV)  (nummod, 把#M, 一#CD)  (amod, 把#M, 小#JJ)  (range, 放#VV, 把#M)  (conj, 若是#VV, 冲入#VV)  (nn, 泡#NN, 沸水#NN)  (dobj, 冲入#VV, 泡#NN)  (nummod, 分钟#M, 2-3#CD)  (range, 冲入#VV, 分钟#M)  (advmod, 倒入#VV, 再#AD)  (ba, 倒入#VV, 把#BA)  (nsubj, 倒入#VV, 茶水#NN)  (conj, 若是#VV, 倒入#VV)  (det, 人#NN, 每#DT)  (clf, 每#DT, 个#M)  (dobj, 倒入#VV, 人#NN)  (mark, 若是#VV, 的#DEC)  (nfincl, 玻璃#NN, 透明#VA)  (nn, 杯中#NN, 玻璃#NN)  (nsubj, 可#VV, 杯中#NN)  (advmod, 可#VV, 即#AD)  (root, ROOT#null, 可#VV)   (loc, 放入#VV, 饮#VV)  (dobj, 饮#VV, 菊花茶#NN)  (case, 饮#VV, 时#LC)  (mmod, 放入#VV, 可#VV)  (case, 茶杯#NN, 在#P)  (prep, 放入#VV, 茶杯#NN)  (case, 茶杯#NN, 中#LC)  (relcl, 味#NN, 放入#VV)  (nummod, 颗#M, 几#CD)  (clf, 冰糖#NN, 颗#M)  (dobj, 放入#VV, 冰糖#NN)  (advmod, 喝#VV, 这样#AD)  (dep, 放入#VV, 喝#VV)  (comod, 喝#VV, 起来#VV)  (nsubj, 甘甜#VA, 味#NN)  (advmod, 甘甜#VA, 更#AD)  (root, ROOT#null, 甘甜#VA)   (root, ROOT#null, null#null)
+            (nsubj, 服用#VV, 需要#VV)  (dobj, 需要#VV, 注意#NN)  (mark, 需要#VV, 的#DEC)  (cop, 服用#VV, 是#VC)  (nn, 苦寒#NN, 野菊#NN)  (nn, 苦寒#NN, 花#NN)  (nn, 苦寒#NN, 性#NN)  (nsubj, 服用#VV, 苦寒#NN)  (advmod, 服用#VV, 长期#AD)  (root, ROOT#null, 服用#VV)  (cc, 服用#VV, 或#CC)  (nn, 时会#NN, 用量#NN)  (nn, 时会#NN, 过大#NN)  (nsubj, 伤及#VV, 时会#NN)  (conj, 服用#VV, 伤及#VV)  (nn, 阳气#NN, 脾胃#NN)  (dobj, 伤及#VV, 阳气#NN)  (conj, 伤及#VV, 出现#VV)  (nn, 稀溏#NR, 胃部#NR)  (conj, 稀溏#NR, 不适#NR)  (nn, 稀溏#NR, 胃#NR)  (nn, 稀溏#NR, 纳#NR)  (conj, 稀溏#NR, 欠佳#NR)  (conj, 稀溏#NR, 肠鸣#NR)  (nn, 稀溏#NR, 大便#NR)  (nn, 反应#NN, 稀溏#NR)  (etc, 稀溏#NR, 等#ETC)  (amod, 反应#NN, 不良#JJ)  (dobj, 出现#VV, 反应#NN)  (advmod, 用#VV, 因此#AD)  (nn, 孕妇#NN, 脾胃#NR)  (conj, 孕妇#NN, 虚寒者#NN)  (cc, 孕妇#NN, 及#CC)  (nsubj, 用#VV, 孕妇#NN)  (advmod, 用#VV, 都#AD)  (neg, 用#VV, 不#AD)  (prep, 用#VV, 宜#NR)  (conj, 服用#VV, 用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121855501039.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\548 菊花茶.jpg
+    </picturelocalurl>
+
+</content>

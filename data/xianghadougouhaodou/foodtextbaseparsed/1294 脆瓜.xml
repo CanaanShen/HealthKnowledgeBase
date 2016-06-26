@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        1294
+    </id>
+
+    <foodname>
+        脆瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        菜瓜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            女子月经来潮期间和有寒性痛经者忌食生菜瓜
+        </rawdata>
+
+        <segment>
+            女子  月经  来潮  期间  和  有  寒性  痛经  者  忌食  生  菜瓜
+        </segment>
+
+        <pos>
+            女子#NN  月经#VV  来潮#NN  期间#NN  和#CC  有#VE  寒性#NN  痛经#NN  者#NN  忌食#AD  生#VV  菜瓜#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 月经#VV, 女子#NN)  (relcl, 者#NN, 月经#VV)  (nn, 期间#NN, 来潮#NN)  (dobj, 月经#VV, 期间#NN)  (cc, 月经#VV, 和#CC)  (conj, 月经#VV, 有#VE)  (nn, 痛经#NN, 寒性#NN)  (dobj, 有#VE, 痛经#NN)  (nsubj, 生#VV, 者#NN)  (advmod, 生#VV, 忌食#AD)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 菜瓜#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            菜瓜为葫芦科植物越瓜的果实，为一年生攀援或匍匐状草本。茎有棱角，被有多数刺毛，叶互生，叶片为卵圆形或肾形，宽与长略相等。果肉质，长圆筒形，外皮光滑，有纵长线条，绿白色或淡绿色。果肉白色或淡绿色，汁多、质脆。生于温热带，我国各地多有栽培，为一般大众蔬菜瓜果，可生食。
+        </rawdata>
+
+        <segment>
+            菜瓜  为  葫芦科  植物  越瓜  的  果实  ，  为  一  年  生  攀援  或  匍匐状  草本  。  茎有  棱角  ，  被  有  多数  刺毛  ，  叶  互生  ，  叶片  为  卵  圆形  或  肾形  ，  宽  与  长略  相等  。  果  肉质  ，  长圆  筒形  ，  外皮  光滑  ，  有  纵长  线条  ，  绿  白色  或  淡绿色  。  果肉  白色  或  淡绿色  ，  汁多  、  质  脆  。  生于  温热带  ，  我国  各地  多  有  栽培  ，  为  一般  大众  蔬菜  瓜果  ，  可  生食  。
+        </segment>
+
+        <pos>
+            菜瓜#NR  为#P  葫芦科#VV  植物#NN  越瓜#NN  的#DEG  果实#NN  ，#PU  为#VC  一#CD  年#M  生#VV  攀援#NN  或#CC  匍匐状#NN  草本#NN    。#PU  茎有#NR  棱角#VV  ，#PU  被#SB  有#VV  多数#CD  刺毛#NN  ，#PU  叶#NR  互生#NN  ，#PU  叶片#NN  为#VC  卵#NN  圆形#NN  或#CC  肾形#NN  ，#PU  宽#NN  与#P  长略#NN  相等#VV    。#PU  果#NN  肉质#VV  ，#PU  长圆#VV  筒形#NN  ，#PU  外皮#VV  光滑#NN  ，#PU  有#VE  纵长#NN  线条#NN  ，#PU  绿#VA  白色#JJ  或#CC  淡绿色#VV    。#PU  果肉#VV  白色#JJ  或#CC  淡绿色#VV  ，#PU  汁多#NN  、#PU  质#NN  脆#NN    。#PU  生于#NR  温热带#VV  ，#PU  我国#NN  各地#NN  多#AD  有#VE  栽培#VV  ，#PU  为#P  一般#JJ  大众#NN  蔬菜#NN  瓜果#VV  ，#PU  可#VV  生食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生#VV, 菜瓜#NR)  (case, 葫芦科#VV, 为#P)  (prep, 生#VV, 葫芦科#VV)  (nn, 越瓜#NN, 植物#NN)  (assmod, 果实#NN, 越瓜#NN)  (case, 越瓜#NN, 的#DEG)  (dobj, 葫芦科#VV, 果实#NN)  (conj, 葫芦科#VV, 为#VC)  (nummod, 年#M, 一#CD)  (dep, 为#VC, 年#M)  (root, ROOT#null, 生#VV)  (conj, 匍匐状#NN, 攀援#NN)  (cc, 匍匐状#NN, 或#CC)  (nn, 草本#NN, 匍匐状#NN)  (dobj, 生#VV, 草本#NN)   (nsubj, 棱角#VV, 茎有#NR)  (root, ROOT#null, 棱角#VV)  (auxpass, 有#VV, 被#SB)  (ccomp, 棱角#VV, 有#VV)  (nummod, 刺毛#NN, 多数#CD)  (dobj, 有#VV, 刺毛#NN)  (nn, 互生#NN, 叶#NR)  (dep, 肾形#NN, 互生#NN)  (nsubj, 肾形#NN, 叶片#NN)  (cop, 肾形#NN, 为#VC)  (nn, 肾形#NN, 卵#NN)  (conj, 肾形#NN, 圆形#NN)  (cc, 肾形#NN, 或#CC)  (conj, 有#VV, 肾形#NN)  (nsubj, 相等#VV, 宽#NN)  (case, 长略#NN, 与#P)  (prep, 相等#VV, 长略#NN)  (conj, 有#VV, 相等#VV)   (nsubj, 肉质#VV, 果#NN)  (xsubj, 长圆#VV, 果#NN)  (root, ROOT#null, 肉质#VV)  (ccomp, 肉质#VV, 长圆#VV)  (dobj, 长圆#VV, 筒形#NN)  (conj, 长圆#VV, 外皮#VV)  (dobj, 外皮#VV, 光滑#NN)  (conj, 长圆#VV, 有#VE)  (nn, 线条#NN, 纵长#NN)  (dobj, 有#VE, 线条#NN)  (conj, 长圆#VV, 绿#VA)  (conj, 长圆#VV, 白色#JJ)  (cc, 长圆#VV, 或#CC)  (dep, 长圆#VV, 淡绿色#VV)   (root, ROOT#null, 果肉#VV)  (nfincl, 脆#NN, 白色#JJ)  (cc, 白色#JJ, 或#CC)  (conj, 白色#JJ, 淡绿色#VV)  (conj, 质#NN, 汁多#NN)  (dep, 白色#JJ, 质#NN)  (dobj, 果肉#VV, 脆#NN)   (nsubj, 温热带#VV, 生于#NR)  (root, ROOT#null, 温热带#VV)  (nn, 各地#NN, 我国#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 多#AD)  (ccomp, 温热带#VV, 有#VE)  (dep, 有#VE, 栽培#VV)  (case, 蔬菜#NN, 为#P)  (amod, 大众#NN, 一般#JJ)  (nn, 蔬菜#NN, 大众#NN)  (prep, 瓜果#VV, 蔬菜#NN)  (dep, 栽培#VV, 瓜果#VV)  (dep, 生食#VV, 可#VV)  (dep, 栽培#VV, 生食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,生津止渴,利尿消肿,安神除烦,和胃
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  生津止渴  ,  利尿  消肿  ,  安神  除烦  ,  和  胃
+        </segment>
+
+        <pos>
+            清热#NN  除#P  火#NN  ,#NN  生津止渴#NN  ,#NN  利尿#NN  消肿#NN  ,#NN  安神#AD  除烦#VV  ,#NN  和#CC  胃#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 除烦#VV, 清热#NN)  (case, ,#NN, 除#P)  (nn, ,#NN, 火#NN)  (nn, ,#NN, 生津止渴#NN)  (nn, ,#NN, 利尿#NN)  (nn, ,#NN, 消肿#NN)  (advmod, 除烦#VV, 安神#AD)  (root, ROOT#null, 除烦#VV)  (cc, 胃#NN, 和#CC)  (dobj, 除烦#VV, 胃#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        除烦  生津止渴  利水
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            菜瓜质脆肉厚、口味清爽，适食嫩瓜、腌制、凉拌、炒食。可做菜，烹、炒、酱、腌均可，风味独特，极为爽口。
+        </rawdata>
+
+        <segment>
+            菜瓜  质  脆  肉  厚  、  口味  清爽  ，  适  食  嫩瓜  、  腌制  、  凉拌  、  炒  食  。  可  做菜  ，  烹  、  炒  、  酱  、  腌均可  ，  风味  独特  ，  极为  爽口  。
+        </segment>
+
+        <pos>
+            菜瓜#VV  质#NN  脆#NN  肉#NN  厚#NN  、#PU  口味#NN  清爽#NN  ，#PU  适#VV  食#NN  嫩瓜#NR  、#PU  腌制#NR  、#PU  凉拌#NR  、#PU  炒#NR  食#NN    。#PU  可#VV  做菜#VV  ，#PU  烹#NR  、#PU  炒#NR  、#PU  酱#NR  、#PU  腌均可#NR  ，#PU  风味#AD  独特#VA  ，#PU  极为#AD  爽口#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 菜瓜#VV)  (nn, 清爽#NN, 质#NN)  (nn, 清爽#NN, 脆#NN)  (nn, 清爽#NN, 肉#NN)  (conj, 清爽#NN, 厚#NN)  (nn, 清爽#NN, 口味#NN)  (dobj, 菜瓜#VV, 清爽#NN)  (conj, 菜瓜#VV, 适#VV)  (nn, 食#NN, 食#NN)  (conj, 炒#NR, 嫩瓜#NR)  (conj, 炒#NR, 腌制#NR)  (conj, 炒#NR, 凉拌#NR)  (nn, 食#NN, 炒#NR)  (dobj, 适#VV, 食#NN)   (nsubj, 做菜#VV, 可#VV)  (root, ROOT#null, 做菜#VV)  (conj, 腌均可#NR, 烹#NR)  (conj, 腌均可#NR, 炒#NR)  (conj, 腌均可#NR, 酱#NR)  (nsubj, 独特#VA, 腌均可#NR)  (advmod, 独特#VA, 风味#AD)  (ccomp, 做菜#VV, 独特#VA)  (advmod, 爽口#VA, 极为#AD)  (dep, 独特#VA, 爽口#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/10/80/32784_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1294 脆瓜.jpg
+    </picturelocalurl>
+
+</content>

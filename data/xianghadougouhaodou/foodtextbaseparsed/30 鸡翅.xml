@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        30
+    </id>
+
+    <foodname>
+        鸡翅
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        鸡肉
+    </secondcategory>
+
+    <alias>
+        鸡翼、大转弯
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有热毒疖肿、高血压、血脂偏高、胆囊炎、胆石症患者忌食。
+        </rawdata>
+
+        <segment>
+            患有  热毒  疖肿  、  高  血压  、  血脂  偏高  、  胆囊炎  、  胆石症  患者  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  热毒#VV  疖肿#NR  、#PU  高#JJ  血压#NN  、#PU  血脂#NR  偏高#NR  、#PU  胆囊炎#NR  、#PU  胆石症#NR  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热毒#VV, 患有#NN)  (root, ROOT#null, 热毒#VV)  (conj, 胆石症#NR, 疖肿#NR)  (amod, 血压#NN, 高#JJ)  (conj, 胆石症#NR, 血压#NN)  (nn, 胆石症#NR, 血脂#NR)  (conj, 胆石症#NR, 偏高#NR)  (conj, 胆石症#NR, 胆囊炎#NR)  (nn, 忌食#NN, 胆石症#NR)  (nn, 忌食#NN, 患者#NN)  (dobj, 热毒#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用，尤其适合老年人和儿童、感冒发热、内火偏旺、痰湿偏重之人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  ，  尤其  适合  老年人  和  儿童  、  感冒  发热  、  内  火  偏  旺  、  痰湿  偏重  之  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  ，#PU  尤其#AD  适合#VV  老年人#NN  和#CC  儿童#NN  、#PU  感冒#NN  发热#NN  、#PU  内#NN  火#NN  偏#AD  旺#VV  、#PU  痰湿#VV  偏重#NN  之#DEC  人#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (advmod, 适合#VV, 尤其#AD)  (dep, 食用#VV, 适合#VV)  (conj, 内#NN, 老年人#NN)  (cc, 内#NN, 和#CC)  (conj, 内#NN, 儿童#NN)  (nn, 内#NN, 感冒#NN)  (conj, 内#NN, 发热#NN)  (nn, 火#NN, 内#NN)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 偏#AD)  (relcl, 人#NN, 旺#VV)  (conj, 旺#VV, 痰湿#VV)  (dobj, 痰湿#VV, 偏重#NN)  (mark, 旺#VV, 之#DEC)  (dobj, 适合#VV, 人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                194
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                11.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                113
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素D（微克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                161
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                205
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                50.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                10.98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                63.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡翅也称“鸡翼”“大转弯”，即鸡的翅膀，鸡翅肉少，皮富胶质，是整个鸡身最为鲜嫩可口的部位之一。又分“鸡膀”“膀尖”两种。鸡膀，连接鸡体至鸡翅的第一关节处，肉质较多；膀尖，鸡翅第一关节处至膀尖，骨多肉少。根据需求，还可以分为翅尖，翅中，翅根3部分。
+        </rawdata>
+
+        <segment>
+            鸡翅  也  称  “  鸡翼  ”  “  大  转弯  ”  ，  即  鸡  的  翅膀  ，  鸡翅  肉少  ，  皮富  胶质  ，  是  整个  鸡身  最为  鲜嫩  可口  的  部位  之一  。  又  分  “  鸡膀  ”  “  膀尖  ”  两  种  。  鸡膀  ，  连接  鸡体  至  鸡翅  的  第一  关节  处  ，  肉质  较  多  ；  膀尖  ，  鸡翅  第一  关节  处  至  膀尖  ，  骨  多  肉  少  。  根据  需求  ，  还  可以  分为  翅尖  ，  翅中  ，  翅根  3  部分  。
+        </segment>
+
+        <pos>
+            鸡翅#NR  也#AD  称#VV  ``#NN  鸡翼#NN  ''#AD  ``#VV  大#JJ  转弯#NN  ''#NN  ，#PU  即#AD  鸡#NN  的#DEG  翅膀#NN  ，#PU  鸡翅#AD  肉少#VV  ，#PU  皮富#NN  胶质#NN  ，#PU  是#VC  整个#JJ  鸡身#NN  最为#AD  鲜嫩#VV  可口#NN  的#DEC  部位#NN  之一#NN    。#PU  又#AD  分#VV  ``#NN  鸡膀#NN  ''#NN  ``#NN  膀尖#NN  ''#NN  两#CD  种#M    。#PU  鸡膀#VA  ，#PU  连接#VV  鸡体#CD  至#CC  鸡翅#CD  的#DEC  第一#OD  关节#NN  处#LC  ，#PU  肉质#NN  较#AD  多#VA  ；#PU  膀尖#VA  ，#PU  鸡翅#NR  第一#OD  关节#NN  处#VV  至#P  膀尖#NR  ，#PU  骨#AD  多#VA  肉#NN  少#VA    。#PU  根据#P  需求#NN  ，#PU  还#AD  可以#VV  分为#VV  翅尖#NN  ，#PU  翅中#VV  ，#PU  翅根#VV  3#CD  部分#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 鸡翅#NR)  (advmod, 称#VV, 也#AD)  (root, ROOT#null, 称#VV)  (nn, 鸡翼#NN, ``#NN)  (nsubj, ``#VV, 鸡翼#NN)  (advmod, ``#VV, ''#AD)  (ccomp, 称#VV, ``#VV)  (amod, ''#NN, 大#JJ)  (nn, ''#NN, 转弯#NN)  (dobj, ``#VV, ''#NN)  (advmod, 肉少#VV, 即#AD)  (assmod, 翅膀#NN, 鸡#NN)  (case, 鸡#NN, 的#DEG)  (nsubj, 肉少#VV, 翅膀#NN)  (advmod, 肉少#VV, 鸡翅#AD)  (conj, ``#VV, 肉少#VV)  (nn, 胶质#NN, 皮富#NN)  (dep, 之一#NN, 胶质#NN)  (cop, 之一#NN, 是#VC)  (amod, 鸡身#NN, 整个#JJ)  (nsubj, 鲜嫩#VV, 鸡身#NN)  (advmod, 鲜嫩#VV, 最为#AD)  (relcl, 之一#NN, 鲜嫩#VV)  (dobj, 鲜嫩#VV, 可口#NN)  (mark, 鲜嫩#VV, 的#DEC)  (nn, 之一#NN, 部位#NN)  (ccomp, 肉少#VV, 之一#NN)   (advmod, 分#VV, 又#AD)  (root, ROOT#null, 分#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 鸡膀#NN)  (nn, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 膀尖#NN)  (dobj, 分#VV, ''#NN)  (nummod, 种#M, 两#CD)  (range, 分#VV, 种#M)   (root, ROOT#null, 鸡膀#VA)  (relcl, 关节#NN, 连接#VV)  (nummod, 鸡翅#CD, 鸡体#CD)  (cc, 鸡翅#CD, 至#CC)  (range, 连接#VV, 鸡翅#CD)  (mark, 连接#VV, 的#DEC)  (nummod, 关节#NN, 第一#OD)  (loc, 多#VA, 关节#NN)  (case, 关节#NN, 处#LC)  (nsubj, 多#VA, 肉质#NN)  (advmod, 多#VA, 较#AD)  (conj, 鸡膀#VA, 多#VA)  (conj, 鸡膀#VA, 膀尖#VA)  (nn, 关节#NN, 鸡翅#NR)  (nummod, 关节#NN, 第一#OD)  (nsubj, 处#VV, 关节#NN)  (conj, 鸡膀#VA, 处#VV)  (case, 膀尖#NR, 至#P)  (prep, 处#VV, 膀尖#NR)  (advmod, 多#VA, 骨#AD)  (conj, 鸡膀#VA, 多#VA)  (nsubj, 少#VA, 肉#NN)  (dep, 鸡膀#VA, 少#VA)   (case, 需求#NN, 根据#P)  (prep, 分为#VV, 需求#NN)  (advmod, 分为#VV, 还#AD)  (mmod, 分为#VV, 可以#VV)  (root, ROOT#null, 分为#VV)  (dobj, 分为#VV, 翅尖#NN)  (conj, 分为#VV, 翅中#VV)  (conj, 分为#VV, 翅根#VV)  (nummod, 部分#M, 3#CD)  (range, 翅根#VV, 部分#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸡肉性平、温、味甘，入脾、胃经；可益气，补精，添髓；用于虚劳瘦弱、中虚食少、泄泻头晕心悸、月经不调、产后乳少、消渴、水肿、小便数频、遗精、耳聋耳鸣等。
+            1.强身健体
+            鸡肉的消化率高，很容易被人体吸收利用，有增强体力、强壮身体的作用。
+            2.提高免疫力
+            现代社会中天天忙忙碌碌，常处于亚健康状态的白领最好多吃一些，以增强免疫力，减少患病几率。鸡肉具有温中益气、补精填髓、益五脏、补虚损的功效，用于治疗虚劳瘦弱、中虚食少、泄泻头晕心悸、月经不调、产后乳少、消渴、水肿等症状。
+            3.补肾精
+            可缓解由于肾精不足所导致的小便频繁、耳聋、精少精冷等症状。
+            4.美容
+            鸡中翅相对翅尖和翅根来说，它的胶原蛋白含量丰富，对于保持皮肤光泽、增强皮肤弹性均有好处。
+        </rawdata>
+
+        <segment>
+            鸡肉  性平  、  温  、  味甘  ，  入脾  、  胃经  ；  可  益气  ，  补  精  ，  添髓  ；  用  于  虚  劳  瘦弱  、  中  虚  食  少  、  泄泻  头晕  心悸  、  月经  不调  、  产后  乳少  、  消渴  、  水肿  、  小便  数频  、  遗精  、  耳聋  耳鸣  等  。
+            强身  健体
+            鸡肉  的  消化  率高  ，  很容易  被  人体  吸收  利用  ，  有  增强  体力  、  强壮  身体  的  作用  。
+            提高  免疫力
+            现代  社会  中  天天  忙忙碌碌  ，  常  处于  亚  健康  状态  的  白领  最  好多  吃  一些  ，  以  增强  免疫力  ，  减少  患病  几率  。  鸡肉  具有  温  中  益气  、  补  精  填髓  、  益  五脏  、  补  虚损  的  功效  ，  用于  治疗  虚劳  瘦弱  、  中  虚  食  少  、  泄泻  头晕  心悸  、  月经  不调  、  产后  乳少  、  消渴  、  水肿  等  症状  。
+            补  肾  精
+            可  缓解  由于  肾精  不足  所  导致  的  小便  频繁  、  耳聋  、  精少  精冷  等  症状  。
+            美容
+            鸡中翅  相对  翅尖  和  翅根  来说  ，  它  的  胶原  蛋白  含量  丰富  ，  对于  保持  皮肤  光泽  、  增强  皮肤  弹性  均  有  好处  。
+        </segment>
+
+        <pos>
+            鸡肉#VV  性平#NN  、#PU  温#NN  、#PU  味甘#NN  ，#PU  入脾#NN  、#PU  胃经#NN  ；#PU  可#VV  益气#NN  ，#PU  补#VV  精#NN  ，#PU  添髓#VV  ；#PU  用#VV  于#P  虚#AD  劳#NN  瘦弱#VV  、#PU  中#NR  虚#AD  食#NN  少#VA  、#PU  泄泻#NN  头晕#NN  心悸#NN  、#PU  月经#NN  不调#NN  、#PU  产后#NN  乳少#NN  、#PU  消渴#NN  、#PU  水肿#NN  、#PU  小便#NN  数频#NN  、#PU  遗精#NN  、#PU  耳聋#NN  耳鸣#NN  等#ETC  。#PU
+            强身#NN  健体#VV
+            鸡肉#NN  的#DEG  消化#NN  率高#NN  ，#PU  很容易#NN  被#LB  人体#NR  吸收#VV  利用#VV  ，#PU  有#VE  增强#VV  体力#NN  、#PU  强壮#NN  身体#NN  的#DEC  作用#NN  。#PU
+            提高#VV  免疫力#NN
+            现代#JJ  社会#NN  中#LC  天天#VV  忙忙碌碌#NN  ，#PU  常#AD  处于#VV  亚#NR  健康#JJ  状态#NN  的#DEC  白领#NN  最#AD  好多#AD  吃#VV  一些#CD  ，#PU  以#P  增强#VV  免疫力#NN  ，#PU  减少#VV  患病#VV  几率#NN    。#PU  鸡肉#NR  具有#VV  温#NN  中#LC  益气#NN  、#PU  补#VV  精#JJ  填髓#NN  、#PU  益#VV  五脏#CD  、#PU  补#VV  虚损#NR  的#DEG  功效#NN  ，#PU  用于#VV  治疗#NN  虚劳#NN  瘦弱#NN  、#PU  中#NR  虚#AD  食#NN  少#VA  、#PU  泄泻#NN  头晕#NN  心悸#NN  、#PU  月经#NN  不调#NN  、#PU  产后#NN  乳少#NN  、#PU  消渴#NN  、#PU  水肿#VA  等#ETC  症状#NN    。#PU    。#PU
+            补#VV  肾#NN  精#NN
+            可#VV  缓解#VV  由于#P  肾精#AD  不足#VA  所#MSP  导致#VV  的#DEC  小便#NN  频繁#NN  、#PU  耳聋#NN  、#PU  精少#NN  精冷#NN  等#ETC  症状#NN  。#PU
+            美容#VV
+            鸡中翅#NN  相对#AD  翅尖#VA  和#CC  翅根#VV  来说#NN  ，#PU  它#PN  的#DEG  胶原#NN  蛋白#NN  含量#NN  丰富#VA  ，#PU  对于#P  保持#VV  皮肤#NN  光泽#NN  、#PU  增强#VV  皮肤#NN  弹性#NN  均#AD  有#VE  好处#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 添髓#VV, 鸡肉#VV)  (conj, 胃经#NN, 性平#NN)  (conj, 胃经#NN, 温#NN)  (conj, 胃经#NN, 味甘#NN)  (conj, 胃经#NN, 入脾#NN)  (dobj, 鸡肉#VV, 胃经#NN)  (conj, 鸡肉#VV, 可#VV)  (dobj, 可#VV, 益气#NN)  (conj, 鸡肉#VV, 补#VV)  (dobj, 补#VV, 精#NN)  (root, ROOT#null, 添髓#VV)  (dep, 添髓#VV, 用#VV)  (case, 瘦弱#VV, 于#P)  (advmod, 瘦弱#VV, 虚#AD)  (prep, 瘦弱#VV, 劳#NN)  (prep, 用#VV, 瘦弱#VV)  (dep, 少#VA, 中#NR)  (advmod, 少#VA, 虚#AD)  (dobj, 少#VA, 食#NN)  (conj, 用#VV, 少#VA)  (nn, 心悸#NN, 泄泻#NN)  (nn, 心悸#NN, 头晕#NN)  (conj, 用#VV, 心悸#NN)  (nn, 不调#NN, 月经#NN)  (conj, 用#VV, 不调#NN)  (nn, 乳少#NN, 产后#NN)  (conj, 用#VV, 乳少#NN)  (conj, 用#VV, 消渴#NN)  (conj, 用#VV, 水肿#NN)  (nn, 数频#NN, 小便#NN)  (conj, 用#VV, 数频#NN)  (conj, 用#VV, 遗精#NN)  (nn, 耳鸣#NN, 耳聋#NN)  (dep, 用#VV, 耳鸣#NN)  (etc, 耳鸣#NN, 等#ETC)
+            (nsubj, 健体#VV, 强身#NN)  (root, ROOT#null, 健体#VV)
+            (assmod, 率高#NN, 鸡肉#NN)  (case, 鸡肉#NN, 的#DEG)  (nn, 率高#NN, 消化#NN)  (nsubj, 被#LB, 率高#NN)  (nsubj, 被#LB, 很容易#NN)  (root, ROOT#null, 被#LB)  (nsubj, 吸收#VV, 人体#NR)  (dep, 被#LB, 吸收#VV)  (comod, 吸收#VV, 利用#VV)  (dep, 被#LB, 有#VE)  (relcl, 作用#NN, 增强#VV)  (conj, 身体#NN, 体力#NN)  (nn, 身体#NN, 强壮#NN)  (dobj, 增强#VV, 身体#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (amod, 社会#NN, 现代#JJ)  (loc, 天天#VV, 社会#NN)  (case, 社会#NN, 中#LC)  (relcl, 白领#NN, 天天#VV)  (dobj, 天天#VV, 忙忙碌碌#NN)  (advmod, 处于#VV, 常#AD)  (conj, 天天#VV, 处于#VV)  (nn, 状态#NN, 亚#NR)  (amod, 状态#NN, 健康#JJ)  (dobj, 处于#VV, 状态#NN)  (mark, 天天#VV, 的#DEC)  (nsubj, 吃#VV, 白领#NN)  (advmod, 吃#VV, 最#AD)  (advmod, 吃#VV, 好多#AD)  (root, ROOT#null, 吃#VV)  (range, 吃#VV, 一些#CD)  (case, 增强#VV, 以#P)  (prep, 患病#VV, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)  (conj, 增强#VV, 减少#VV)  (dep, 吃#VV, 患病#VV)  (dobj, 患病#VV, 几率#NN)   (nsubj, 具有#VV, 鸡肉#NR)  (root, ROOT#null, 具有#VV)  (dep, 益气#NN, 温#NN)  (case, 温#NN, 中#LC)  (dobj, 具有#VV, 益气#NN)  (conj, 具有#VV, 补#VV)  (amod, 填髓#NN, 精#JJ)  (dobj, 补#VV, 填髓#NN)  (conj, 具有#VV, 益#VV)  (range, 益#VV, 五脏#CD)  (conj, 具有#VV, 补#VV)  (assmod, 功效#NN, 虚损#NR)  (case, 虚损#NR, 的#DEG)  (dobj, 补#VV, 功效#NN)  (conj, 具有#VV, 用于#VV)  (nn, 瘦弱#NN, 治疗#NN)  (nn, 瘦弱#NN, 虚劳#NN)  (dep, 症状#NN, 瘦弱#NN)  (nsubj, 少#VA, 中#NR)  (advmod, 少#VA, 虚#AD)  (prep, 少#VA, 食#NN)  (conj, 瘦弱#NN, 少#VA)  (nn, 心悸#NN, 泄泻#NN)  (nn, 心悸#NN, 头晕#NN)  (conj, 瘦弱#NN, 心悸#NN)  (nn, 不调#NN, 月经#NN)  (conj, 瘦弱#NN, 不调#NN)  (nn, 乳少#NN, 产后#NN)  (conj, 瘦弱#NN, 乳少#NN)  (conj, 瘦弱#NN, 消渴#NN)  (dep, 瘦弱#NN, 水肿#VA)  (dep, 瘦弱#NN, 等#ETC)  (dobj, 用于#VV, 症状#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补#VV)  (nn, 精#NN, 肾#NN)  (dobj, 补#VV, 精#NN)
+            (mmod, 缓解#VV, 可#VV)  (root, ROOT#null, 缓解#VV)  (case, 不足#VA, 由于#P)  (advmod, 不足#VA, 肾精#AD)  (prep, 导致#VV, 不足#VA)  (prtmod, 导致#VV, 所#MSP)  (relcl, 症状#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (nn, 精冷#NN, 小便#NN)  (conj, 精冷#NN, 频繁#NN)  (conj, 精冷#NN, 耳聋#NN)  (nn, 精冷#NN, 精少#NN)  (nn, 症状#NN, 精冷#NN)  (etc, 精冷#NN, 等#ETC)  (dobj, 缓解#VV, 症状#NN)
+            (root, ROOT#null, 美容#VV)
+            (nsubj, 翅尖#VA, 鸡中翅#NN)  (advmod, 翅尖#VA, 相对#AD)  (root, ROOT#null, 翅尖#VA)  (cc, 翅尖#VA, 和#CC)  (dep, 翅尖#VA, 翅根#VV)  (dobj, 翅根#VV, 来说#NN)  (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 含量#NN, 胶原#NN)  (nn, 含量#NN, 蛋白#NN)  (nsubj, 丰富#VA, 含量#NN)  (conj, 翅尖#VA, 丰富#VA)  (case, 保持#VV, 对于#P)  (prep, 有#VE, 保持#VV)  (nn, 光泽#NN, 皮肤#NN)  (dobj, 保持#VV, 光泽#NN)  (conj, 保持#VV, 增强#VV)  (nn, 弹性#NN, 皮肤#NN)  (dobj, 增强#VV, 弹性#NN)  (advmod, 有#VE, 均#AD)  (conj, 翅尖#VA, 有#VE)  (dobj, 有#VE, 好处#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        提高免疫力  美容  养颜
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.看起来虽然没有多少肉，而且没多大价值，但是在软骨或骨头中，可摄取动物胶的结合组织，是含有大量的成胶原及弹性蛋白的，对于血管、皮肤及内脏颇具效果。
+            2.翅膀内所含大量的维生素A，远超过青椒。对视力、生长、上皮组织及骨骼的发育、精子的生成和胎儿的生长发育都是必需的。
+        </rawdata>
+
+        <segment>
+            看起来  虽然  没有  多少  肉  ，  而且  没  多  大  价值  ，  但是  在  软骨  或  骨头  中  ，  可  摄取  动物胶  的  结合  组织  ，  是  含有  大量  的  成胶  原  及  弹性  蛋白  的  ，  对于  血管  、  皮肤  及  内脏  颇具  效果  。
+            翅膀  内  所含  大量  的  维生素A  ，  远  超过  青椒  。  对  视力  、  生长  、  上皮  组织  及  骨骼  的  发育  、  精子  的  生成  和  胎儿  的  生长  发育  都  是  必需  的  。
+        </segment>
+
+        <pos>
+            看起来#NN  虽然#CS  没有#VE  多少#CD  肉#NN  ，#PU  而且#CC  没#VE  多#CD  大#JJ  价值#NN  ，#PU  但是#AD  在#P  软骨#NN  或#CC  骨头#NN  中#LC  ，#PU  可#VV  摄取#VV  动物胶#NN  的#DEC  结合#NN  组织#NN  ，#PU  是#VC  含有#VV  大量#CD  的#DEG  成胶#NR  原#JJ  及#CC  弹性#JJ  蛋白#NN  的#DEC  ，#PU  对于#P  血管#NN  、#PU  皮肤#NN  及#CC  内脏#NN  颇具#VV  效果#NN  。#PU
+            翅膀#NN  内#LC  所含#VV  大量#CD  的#DEG  维生素A#NN  ，#PU  远#AD  超过#VV  青椒#NN    。#PU  对#P  视力#NN  、#PU  生长#NN  、#PU  上皮#NN  组织#NN  及#CC  骨骼#NN  的#DEG  发育#NN  、#PU  精子#NN  的#DEG  生成#NN  和#CC  胎儿#NN  的#DEG  生长#NN  发育#NN  都#AD  是#VC  必需#VV  的#DEC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 没有#VE, 看起来#NN)  (advmod, 没有#VE, 虽然#CS)  (root, ROOT#null, 没有#VE)  (nummod, 肉#NN, 多少#CD)  (dobj, 没有#VE, 肉#NN)  (cc, 没有#VE, 而且#CC)  (conj, 没有#VE, 没#VE)  (nummod, 价值#NN, 多#CD)  (amod, 价值#NN, 大#JJ)  (dobj, 没#VE, 价值#NN)  (advmod, 含有#VV, 但是#AD)  (case, 骨头#NN, 在#P)  (conj, 骨头#NN, 软骨#NN)  (cc, 骨头#NN, 或#CC)  (prep, 含有#VV, 骨头#NN)  (case, 骨头#NN, 中#LC)  (mmod, 摄取#VV, 可#VV)  (relcl, 组织#NN, 摄取#VV)  (dobj, 摄取#VV, 动物胶#NN)  (mark, 摄取#VV, 的#DEC)  (nn, 组织#NN, 结合#NN)  (nsubj, 含有#VV, 组织#NN)  (cop, 含有#VV, 是#VC)  (conj, 没有#VE, 含有#VV)  (assmod, 蛋白#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 蛋白#NN, 成胶#NR)  (amod, 蛋白#NN, 原#JJ)  (cc, 原#JJ, 及#CC)  (dep, 原#JJ, 弹性#JJ)  (dobj, 含有#VV, 蛋白#NN)  (mark, 含有#VV, 的#DEC)  (case, 内脏#NN, 对于#P)  (conj, 内脏#NN, 血管#NN)  (conj, 内脏#NN, 皮肤#NN)  (cc, 内脏#NN, 及#CC)  (prep, 颇具#VV, 内脏#NN)  (conj, 含有#VV, 颇具#VV)  (dobj, 颇具#VV, 效果#NN)
+            (loc, 所含#VV, 翅膀#NN)  (case, 翅膀#NN, 内#LC)  (root, ROOT#null, 所含#VV)  (assmod, 维生素A#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 所含#VV, 维生素A#NN)  (advmod, 超过#VV, 远#AD)  (conj, 所含#VV, 超过#VV)  (dobj, 超过#VV, 青椒#NN)   (case, 胎儿#NN, 对#P)  (conj, 组织#NN, 视力#NN)  (conj, 组织#NN, 生长#NN)  (nn, 组织#NN, 上皮#NN)  (conj, 精子#NN, 组织#NN)  (cc, 精子#NN, 及#CC)  (assmod, 精子#NN, 骨骼#NN)  (case, 骨骼#NN, 的#DEG)  (conj, 精子#NN, 发育#NN)  (assmod, 胎儿#NN, 精子#NN)  (case, 精子#NN, 的#DEG)  (conj, 胎儿#NN, 生成#NN)  (cc, 胎儿#NN, 和#CC)  (assmod, 发育#NN, 胎儿#NN)  (case, 胎儿#NN, 的#DEG)  (nn, 发育#NN, 生长#NN)  (nsubj, 必需#VV, 发育#NN)  (advmod, 必需#VV, 都#AD)  (cop, 必需#VV, 是#VC)  (root, ROOT#null, 必需#VV)  (mark, 必需#VV, 的#DEC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹制鸡翅时，多用鸡膀（翅尖斩下，供煮汤用）。宜烤、卤、烧、酱。如：烤鸡翅、红烧鸡翅、酱鸡翅。也可做汤用。如：冬菇鸡翅汤。膀尖适用于卤、酱、制汤等菜肴。
+            2.烹调翅膀肉时，应以慢火烧煮，才能发出香浓的味道，而成胶原等有效的成分，也必须以长时间烧煮才可溶化。
+            3.翅膀煮香菇，可将钾硫氨基酸与香菇中的植物纤维发挥相乘效果，对于便秘有效，也可以预防中风及大肠癌。将鸡翅膀与香菇一起烹煮，可使纤维效果加倍，对预防脑中风及大肠癌的效果提高。
+        </rawdata>
+
+        <segment>
+            烹制  鸡翅  时  ，  多用  鸡膀  （  翅尖  斩  下  ，  供煮  汤  用  ）  。  宜烤  、  卤  、  烧  、  酱  。  如  ：  烤  鸡翅  、  红烧  鸡翅  、  酱  鸡翅  。  也  可  做  汤  用  。  如  ：  冬菇  鸡翅  汤  。  膀尖  适用  于  卤  、  酱  、  制  汤  等  菜肴  。
+            烹调  翅膀  肉时  ，  应以  慢火  烧煮  ，  才  能  发出  香浓  的  味道  ，  而  成  胶原  等  有效  的  成分  ，  也  必须  以  长时间  烧煮  才  可  溶化  。
+            翅膀  煮  香菇  ，  可将  钾  硫  氨基酸  与  香菇  中  的  植物  纤维  发挥  相乘  效果  ，  对于  便秘  有效  ，  也  可以  预防  中风  及  大  肠癌  。  将  鸡  翅膀  与  香菇  一起  烹煮  ，  可使  纤维  效果  加倍  ，  对  预防  脑  中风  及  大肠  癌的  效果  提高  。
+        </segment>
+
+        <pos>
+            烹制#NN  鸡翅#NN  时#LC  ，#PU  多用#NN  鸡膀#VV  （#PU  翅尖#VV  斩#VV  下#LC  ，#PU  供煮#NN  汤#AD  用#VV  ）#PU    。#PU  宜烤#NR  、#PU  卤#NR  、#PU  烧#NR  、#PU  酱#NR    。#PU  如#VV  ：#PU  烤#NR  鸡翅#NR  、#PU  红烧#NR  鸡翅#NR  、#PU  酱#NR  鸡翅#NN    。#PU  也#AD  可#VV  做#VV  汤#NN  用#NN    。#PU  如#VV  ：#PU  冬菇#NN  鸡翅#NN  汤#NN    。#PU  膀尖#NN  适用#VV  于#P  卤#NN  、#PU  酱#NN  、#PU  制#NN  汤#NN  等#ETC  菜肴#NN    。#PU    。#PU
+            烹调#NN  翅膀#NN  肉时#VV  ，#PU  应以#NN  慢火#NN  烧煮#NN  ，#PU  才#AD  能#VV  发出#VV  香浓#NN  的#DEG  味道#NN  ，#PU  而#MSP  成#VV  胶原#NN  等#ETC  有效#VA  的#DEC  成分#NN  ，#PU  也#AD  必须#VV  以#P  长时间#NN  烧煮#NN  才#AD  可#VV  溶化#VV  。#PU
+            翅膀#NN  煮#VV  香菇#NN  ，#PU  可将#NN  钾#NN  硫#NN  氨基酸#NN  与#P  香菇#NN  中#LC  的#DEG  植物#NN  纤维#NN  发挥#VV  相乘#NN  效果#NN  ，#PU  对于#P  便秘#AD  有效#VA  ，#PU  也#AD  可以#VV  预防#VV  中风#NN  及#CC  大#JJ  肠癌#NN    。#PU  将#BA  鸡#NN  翅膀#NN  与#P  香菇#NN  一起#VV  烹煮#NN  ，#PU  可使#NN  纤维#NN  效果#NN  加倍#AD  ，#PU  对#P  预防#NN  脑#NN  中风#NN  及#CC  大肠#NN  癌的#NN  效果#NN  提高#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鸡翅#NN, 烹制#NN)  (loc, 鸡膀#VV, 鸡翅#NN)  (case, 鸡翅#NN, 时#LC)  (nsubj, 鸡膀#VV, 多用#NN)  (root, ROOT#null, 鸡膀#VV)  (dep, 鸡膀#VV, 翅尖#VV)  (loc, 翅尖#VV, 斩#VV)  (case, 斩#VV, 下#LC)  (nsubj, 用#VV, 供煮#NN)  (advmod, 用#VV, 汤#AD)  (dep, 翅尖#VV, 用#VV)   (conj, 酱#NR, 宜烤#NR)  (conj, 酱#NR, 卤#NR)  (conj, 酱#NR, 烧#NR)  (root, ROOT#null, 酱#NR)   (root, ROOT#null, 如#VV)  (nn, 酱#NR, 烤#NR)  (conj, 酱#NR, 鸡翅#NR)  (nn, 酱#NR, 红烧#NR)  (conj, 酱#NR, 鸡翅#NR)  (nn, 鸡翅#NN, 酱#NR)  (dobj, 如#VV, 鸡翅#NN)   (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (root, ROOT#null, 做#VV)  (nn, 用#NN, 汤#NN)  (dobj, 做#VV, 用#NN)   (root, ROOT#null, 如#VV)  (nn, 汤#NN, 冬菇#NN)  (nn, 汤#NN, 鸡翅#NN)  (dobj, 如#VV, 汤#NN)   (nsubj, 适用#VV, 膀尖#NN)  (root, ROOT#null, 适用#VV)  (case, 菜肴#NN, 于#P)  (conj, 汤#NN, 卤#NN)  (conj, 汤#NN, 酱#NN)  (nn, 汤#NN, 制#NN)  (nn, 菜肴#NN, 汤#NN)  (etc, 汤#NN, 等#ETC)  (prep, 适用#VV, 菜肴#NN)   (root, ROOT#null, null#null)
+            (nn, 翅膀#NN, 烹调#NN)  (nsubj, 肉时#VV, 翅膀#NN)  (root, ROOT#null, 肉时#VV)  (nn, 烧煮#NN, 应以#NN)  (nn, 烧煮#NN, 慢火#NN)  (nsubj, 发出#VV, 烧煮#NN)  (advmod, 发出#VV, 才#AD)  (mmod, 发出#VV, 能#VV)  (ccomp, 肉时#VV, 发出#VV)  (assmod, 味道#NN, 香浓#NN)  (case, 香浓#NN, 的#DEG)  (dobj, 发出#VV, 味道#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 发出#VV, 成#VV)  (nn, 成分#NN, 胶原#NN)  (etc, 胶原#NN, 等#ETC)  (relcl, 胶原#NN, 有效#VA)  (relcl, 成分#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (dobj, 成#VV, 成分#NN)  (advmod, 溶化#VV, 也#AD)  (mmod, 溶化#VV, 必须#VV)  (case, 烧煮#NN, 以#P)  (nn, 烧煮#NN, 长时间#NN)  (prep, 溶化#VV, 烧煮#NN)  (advmod, 溶化#VV, 才#AD)  (dep, 溶化#VV, 可#VV)  (dep, 发出#VV, 溶化#VV)
+            (nsubj, 煮#VV, 翅膀#NN)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 香菇#NN)  (nn, 氨基酸#NN, 可将#NN)  (nn, 氨基酸#NN, 钾#NN)  (nn, 氨基酸#NN, 硫#NN)  (nsubj, 发挥#VV, 氨基酸#NN)  (case, 纤维#NN, 与#P)  (assmod, 纤维#NN, 香菇#NN)  (case, 香菇#NN, 中#LC)  (case, 香菇#NN, 的#DEG)  (nn, 纤维#NN, 植物#NN)  (prep, 发挥#VV, 纤维#NN)  (conj, 煮#VV, 发挥#VV)  (nn, 效果#NN, 相乘#NN)  (dobj, 发挥#VV, 效果#NN)  (case, 有效#VA, 对于#P)  (advmod, 有效#VA, 便秘#AD)  (prep, 预防#VV, 有效#VA)  (advmod, 预防#VV, 也#AD)  (mmod, 预防#VV, 可以#VV)  (conj, 煮#VV, 预防#VV)  (conj, 肠癌#NN, 中风#NN)  (cc, 肠癌#NN, 及#CC)  (amod, 肠癌#NN, 大#JJ)  (dobj, 预防#VV, 肠癌#NN)   (ba, 一起#VV, 将#BA)  (nn, 翅膀#NN, 鸡#NN)  (nsubj, 一起#VV, 翅膀#NN)  (case, 香菇#NN, 与#P)  (prep, 一起#VV, 香菇#NN)  (root, ROOT#null, 一起#VV)  (dobj, 一起#VV, 烹煮#NN)  (nn, 效果#NN, 可使#NN)  (nn, 效果#NN, 纤维#NN)  (nsubj, 提高#VV, 效果#NN)  (advmod, 提高#VV, 加倍#AD)  (case, 效果#NN, 对#P)  (nn, 效果#NN, 预防#NN)  (nn, 效果#NN, 脑#NN)  (conj, 效果#NN, 中风#NN)  (cc, 效果#NN, 及#CC)  (nn, 效果#NN, 大肠#NN)  (nn, 效果#NN, 癌的#NN)  (prep, 提高#VV, 效果#NN)  (conj, 一起#VV, 提高#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/08160615666.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\30 鸡翅.jpg
+    </picturelocalurl>
+
+</content>

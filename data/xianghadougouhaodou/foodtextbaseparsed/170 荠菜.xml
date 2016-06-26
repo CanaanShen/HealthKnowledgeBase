@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        170
+    </id>
+
+    <foodname>
+        荠菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        护生草、芊菜、净肠草、地米菜、地菜、鸡心菜、菱角菜、鸡脚菜、蓟菜、菱角菜
+    </alias>
+
+    <season>
+        4-6月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            便溏者慎食。
+        </rawdata>
+
+        <segment>
+            便溏者  慎食  。
+        </segment>
+
+        <pos>
+            便溏者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 便溏者#VV)  (dobj, 便溏者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜消化不良、体质衰弱的中老年人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  消化不良  、  体质  衰弱  的  中老年人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  消化不良#NR  、#PU  体质#NR  衰弱#NN  的#DEG  中老年人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 体质#NR, 消化不良#NR)  (nn, 衰弱#NN, 体质#NR)  (assmod, 中老年人#NN, 衰弱#NN)  (case, 衰弱#NN, 的#DEG)  (dobj, 适宜#VV, 中老年人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                432
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                2590
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                294
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                81
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                280
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                31.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                5.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.65
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荠菜为十字花科植物的幼嫩叶，又名地菜，是人们喜爱的一种野菜。原产我国，目前遍布世界，我国自古就采集野生荠菜食用，早在公元前300年尽荠菜的记载。19世纪末 至20世纪初，上海郊区开始 至今已有九十多年的栽培历史。其营养价值很高，食用方法多种多样，具有很高的药用价值，人工栽培以板叶荠菜和散叶荠菜为主，春、夏、秋三季均可。
+            荠菜根白色。茎直立，单一或基部分枝。基生叶丛生，埃地，莲座状、叶羽状分裂，不整齐，顶片特大，叶片有毛，叶耙有翼。茎生叶狭披针形或披针形，基部箭形，抱茎，边缘有缺刻或锯齿。
+        </rawdata>
+
+        <segment>
+            荠菜  为  十字  花科  植物  的  幼嫩叶  ，  又  名地  菜  ，  是  人们  喜爱  的  一  种  野菜  。  原产  我国  ，  目前  遍布  世界  ，  我国  自古  就  采集  野生  荠菜  食用  ，  早  在  公元前  300年  尽  荠菜  的  记载  。  19  世纪  末  至  20  世纪  初  ，  上海  郊区  开始  至今  已  有  九十多  年  的  栽培  历史  。  其  营养  价值  很  高  ，  食用  方法  多  种  多样  ，  具有  很  高  的  药用  价值  ，  人工  栽培  以  板叶  荠菜  和  散叶  荠菜  为主  ，  春  、  夏  、  秋  三  季  均  可  。
+            荠菜  根  白色  。  茎  直立  ，  单一  或  基部  分枝  。  基  生叶  丛生  ，  埃地  ，  莲座状  、  叶羽状  分裂  ，  不整齐  ，  顶  片  特大  ，  叶片  有毛  ，  叶耙  有翼  。  茎生叶  狭披  针形  或  披  针形  ，  基部  箭形  ，  抱茎  ，  边缘  有  缺刻  或  锯齿  。
+        </segment>
+
+        <pos>
+            荠菜#AD  为#VC  十字#CD  花科#NN  植物#NN  的#DEG  幼嫩叶#NN  ，#PU  又#AD  名地#VV  菜#NN  ，#PU  是#VC  人们#NN  喜爱#NN  的#DEG  一#CD  种#M  野菜#NN    。#PU  原产#NR  我国#VV  ，#PU  目前#NT  遍布#VV  世界#NN  ，#PU  我国#NN  自古#AD  就#P  采集#NN  野生#JJ  荠菜#NN  食用#VV  ，#PU  早#AD  在#P  公元前#NT  300年#NT  尽#VV  荠菜#NN  的#DEG  记载#NN    。#PU  19#CD  世纪#NN  末#LC  至#P  20#CD  世纪#NN  初#LC  ，#PU  上海#NR  郊区#NN  开始#VV  至今#AD  已#AD  有#VE  九十多#CD  年#M  的#DEC  栽培#VV  历史#NN    。#PU  其#PN  营养#VA  价值#NN  很#AD  高#VA  ，#PU  食用#VV  方法#NN  多#CD  种#M  多样#VA  ，#PU  具有#VV  很#AD  高#VA  的#DEC  药用#JJ  价值#NN  ，#PU  人工#AD  栽培#VV  以#P  板叶#NN  荠菜#NN  和#CC  散叶#NN  荠菜#NN  为主#VV  ，#PU  春#NN  、#PU  夏#NN  、#PU  秋#NN  三#CD  季#NN  均#AD  可#VV    。#PU    。#PU
+            荠菜#NR  根#NN  白色#NR    。#PU  茎#NR  直立#VV  ，#PU  单一#VA  或#CC  基部#AD  分枝#VA    。#PU  基#NN  生叶#NN  丛生#VV  ，#PU  埃地#VV  ，#PU  莲座状#NR  、#PU  叶羽状#NR  分裂#VV  ，#PU  不整齐#VV  ，#PU  顶#VV  片#M  特大#JJ  ，#PU  叶片#JJ  有毛#NN  ，#PU  叶耙#VV  有翼#NN    。#PU  茎生叶#NN  狭披#NN  针形#NN  或#CC  披#NN  针形#VV  ，#PU  基部#NN  箭形#NN  ，#PU  抱茎#NN  ，#PU  边缘#NN  有#VE  缺刻#NN  或#CC  锯齿#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 幼嫩叶#NN, 荠菜#AD)  (cop, 幼嫩叶#NN, 为#VC)  (nummod, 花科#NN, 十字#CD)  (nn, 植物#NN, 花科#NN)  (assmod, 幼嫩叶#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (root, ROOT#null, 幼嫩叶#NN)  (advmod, 名地#VV, 又#AD)  (conj, 幼嫩叶#NN, 名地#VV)  (dobj, 名地#VV, 菜#NN)  (cop, 野菜#NN, 是#VC)  (nn, 喜爱#NN, 人们#NN)  (assmod, 野菜#NN, 喜爱#NN)  (case, 喜爱#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 野菜#NN, 种#M)  (dep, 幼嫩叶#NN, 野菜#NN)   (nsubj, 我国#VV, 原产#NR)  (root, ROOT#null, 我国#VV)  (tmod, 遍布#VV, 目前#NT)  (ccomp, 我国#VV, 遍布#VV)  (dobj, 遍布#VV, 世界#NN)  (nsubj, 食用#VV, 我国#NN)  (advmod, 食用#VV, 自古#AD)  (case, 荠菜#NN, 就#P)  (nn, 荠菜#NN, 采集#NN)  (amod, 荠菜#NN, 野生#JJ)  (prep, 食用#VV, 荠菜#NN)  (conj, 遍布#VV, 食用#VV)  (advmod, 尽#VV, 早#AD)  (case, 300年#NT, 在#P)  (nn, 300年#NT, 公元前#NT)  (prep, 尽#VV, 300年#NT)  (conj, 遍布#VV, 尽#VV)  (assmod, 记载#NN, 荠菜#NN)  (case, 荠菜#NN, 的#DEG)  (dobj, 尽#VV, 记载#NN)   (nummod, 世纪#NN, 19#CD)  (loc, 有#VE, 世纪#NN)  (case, 世纪#NN, 末#LC)  (case, 世纪#NN, 至#P)  (nummod, 世纪#NN, 20#CD)  (prep, 有#VE, 世纪#NN)  (case, 世纪#NN, 初#LC)  (nn, 郊区#NN, 上海#NR)  (nsubj, 有#VE, 郊区#NN)  (mmod, 有#VE, 开始#VV)  (advmod, 有#VE, 至今#AD)  (advmod, 有#VE, 已#AD)  (nsubj, 栽培#VV, 有#VE)  (nummod, 年#M, 九十多#CD)  (dep, 有#VE, 年#M)  (mark, 有#VE, 的#DEC)  (root, ROOT#null, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)   (nsubj, 营养#VA, 其#PN)  (root, ROOT#null, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (conj, 营养#VA, 高#VA)  (conj, 高#VA, 食用#VV)  (dobj, 食用#VV, 方法#NN)  (nummod, 种#M, 多#CD)  (range, 食用#VV, 种#M)  (conj, 食用#VV, 多样#VA)  (dep, 高#VA, 具有#VV)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 具有#VV, 价值#NN)  (advmod, 栽培#VV, 人工#AD)  (conj, 高#VA, 栽培#VV)  (case, 荠菜#NN, 以#P)  (nn, 荠菜#NN, 板叶#NN)  (conj, 荠菜#NN, 荠菜#NN)  (cc, 荠菜#NN, 和#CC)  (nn, 荠菜#NN, 散叶#NN)  (prep, 为主#VV, 荠菜#NN)  (conj, 营养#VA, 为主#VV)  (conj, 秋#NN, 春#NN)  (conj, 秋#NN, 夏#NN)  (nn, 季#NN, 秋#NN)  (nummod, 季#NN, 三#CD)  (nsubj, 可#VV, 季#NN)  (advmod, 可#VV, 均#AD)  (dep, 为主#VV, 可#VV)   (root, ROOT#null, null#null)
+            (dep, 根#NN, 荠菜#NR)  (root, ROOT#null, 根#NN)  (dep, 根#NN, 白色#NR)   (nsubj, 直立#VV, 茎#NR)  (root, ROOT#null, 直立#VV)  (ccomp, 直立#VV, 单一#VA)  (cc, 单一#VA, 或#CC)  (advmod, 分枝#VA, 基部#AD)  (dep, 单一#VA, 分枝#VA)   (nn, 生叶#NN, 基#NN)  (nsubj, 丛生#VV, 生叶#NN)  (root, ROOT#null, 丛生#VV)  (ccomp, 丛生#VV, 埃地#VV)  (conj, 叶羽状#NR, 莲座状#NR)  (nsubj, 分裂#VV, 叶羽状#NR)  (ccomp, 埃地#VV, 分裂#VV)  (conj, 分裂#VV, 不整齐#VV)  (conj, 分裂#VV, 顶#VV)  (clf, 有毛#NN, 片#M)  (nfincl, 有毛#NN, 特大#JJ)  (dep, 特大#JJ, 叶片#JJ)  (dobj, 顶#VV, 有毛#NN)  (conj, 分裂#VV, 叶耙#VV)  (dobj, 叶耙#VV, 有翼#NN)   (nn, 狭披#NN, 茎生叶#NN)  (nn, 披#NN, 狭披#NN)  (conj, 披#NN, 针形#NN)  (cc, 披#NN, 或#CC)  (nsubj, 针形#VV, 披#NN)  (root, ROOT#null, 针形#VV)  (nn, 箭形#NN, 基部#NN)  (nsubj, 有#VE, 箭形#NN)  (dep, 有#VE, 抱茎#NN)  (dep, 有#VE, 边缘#NN)  (ccomp, 针形#VV, 有#VE)  (conj, 锯齿#NN, 缺刻#NN)  (cc, 锯齿#NN, 或#CC)  (dobj, 有#VE, 锯齿#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，平。和脾，利水，止血，明目。治痢疾，水肿，淋病，乳糜尿，吐血，便血，血崩，月经过多，目赤疼痛。
+            1.预防癌症
+            荠荠菜还含有丰富的维生素C，可防止硝酸盐和亚硝酸盐在消化道中转变成致癌物质亚硝胺，可预防胃癌和食管癌。
+            2.促进胃肠蠕动
+            荠荠菜含有大量的粗纤维，食用后可增强大肠蠕动，促进排泄，从而增进新陈代谢，有助于防治高血压、冠心病、肥胖症、糖尿病、肠癌及痔疮等。
+            3.缓解夜盲症
+            荠菜含有丰富的胡萝卜素，因胡萝卜素为维生素A原，所以是治疗干眼病、夜盲症的良好食物。
+            4.抗凝血
+            荠菜所含的荠菜酸，是有效的止血成分，能缩短出血及凝血时间。
+            5.降血压
+            荠菜含有乙酰胆碱，谷甾醇和季胺化合物，不仅可以降低血液及肝里胆固醇和甘油三酯的含量，而且还有降血压的作用。
+        </rawdata>
+
+        <segment>
+            味甘  ，  平  。  和脾  ，  利水  ，  止血  ，  明目  。  治  痢疾  ，  水肿  ，  淋病  ，  乳糜尿  ，  吐血  ，  便血  ，  血崩  ，  月经  过多  ，  目赤  疼痛  。
+            预防  癌症
+            荠荠菜  还  含有  丰富  的  维生素C  ，  可  防止  硝酸盐  和  亚硝酸盐  在  消化道  中转  变成  致癌  物质  亚硝胺  ，  可  预防  胃癌  和  食管癌  。
+            促进  胃肠  蠕动
+            荠荠菜  含有  大量  的  粗  纤维  ，  食用  后  可  增强  大肠  蠕动  ，  促进  排泄  ，  从而  增进  新陈代谢  ，  有助于  防治  高  血压  、  冠心病  、  肥胖症  、  糖尿病  、  肠癌  及  痔疮  等  。
+            缓解  夜盲症
+            荠菜  含有  丰富  的  胡萝卜素  ，  因  胡萝卜素  为  维生素A  原  ，  所以  是  治疗  干眼病  、  夜盲症  的  良好  食物  。
+            抗凝血
+            荠菜  所  含  的  荠菜  酸  ，  是  有效  的  止血  成分  ，  能  缩短  出血  及  凝血  时间  。
+            降  血压
+            荠菜  含有  乙酰  胆碱  ，  谷甾醇  和  季胺化  合物  ，  不仅  可以  降低  血液  及肝  里  胆固醇  和  甘油  三  酯  的  含量  ，  而且  还  有  降  血压  的  作用  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  平#VV    。#PU  和脾#VV  ，#PU  利水#NR  ，#PU  止血#VV  ，#PU  明目#VV    。#PU  治#VV  痢疾#NN  ，#PU  水肿#VV  ，#PU  淋病#VV  ，#PU  乳糜尿#VV  ，#PU  吐血#VV  ，#PU  便血#VV  ，#PU  血崩#VV  ，#PU  月经#VV  过多#NN  ，#PU  目赤#VV  疼痛#NN    。#PU    。#PU
+            预防#VV  癌症#NN
+            荠荠菜#NN  还#AD  含有#VV  丰富#VA  的#DEC  维生素C#NN  ，#PU  可#VV  防止#VV  硝酸盐#NN  和#CC  亚硝酸盐#NN  在#P  消化道#NN  中转#NN  变成#VV  致癌#NN  物质#NN  亚硝胺#NN  ，#PU  可#VV  预防#VV  胃癌#NN  和#CC  食管癌#NN  。#PU
+            促进#VV  胃肠#NN  蠕动#NN
+            荠荠菜#NN  含有#VV  大量#CD  的#DEG  粗#NN  纤维#NN  ，#PU  食用#VV  后#LC  可#VV  增强#VV  大肠#NN  蠕动#NN  ，#PU  促进#VV  排泄#NN  ，#PU  从而#AD  增进#VV  新陈代谢#NN  ，#PU  有助于#VV  防治#VV  高#JJ  血压#NN  、#PU  冠心病#NN  、#PU  肥胖症#NN  、#PU  糖尿病#NN  、#PU  肠癌#NN  及#CC  痔疮#NN  等#ETC  。#PU
+            缓解#VV  夜盲症#NN
+            荠菜#NN  含有#NN  丰富#VA  的#DEC  胡萝卜素#NN  ，#PU  因#P  胡萝卜素#VV  为#P  维生素A#VV  原#AD  ，#PU  所以#AD  是#VC  治疗#VV  干眼病#NN  、#PU  夜盲症#NN  的#DEC  良好#JJ  食物#NN  。#PU
+            抗凝血#VV
+            荠菜#VV  所#MSP  含#VV  的#DEC  荠菜#NN  酸#NN  ，#PU  是#VC  有效#VA  的#DEC  止血#JJ  成分#NN  ，#PU  能#VV  缩短#VV  出血#VV  及#CC  凝血#NN  时间#NN  。#PU
+            降#NN  血压#VA
+            荠菜#NN  含有#NN  乙酰#NN  胆碱#VV  ，#PU  谷甾醇#NN  和#CC  季胺化#NN  合物#NN  ，#PU  不仅#CC  可以#VV  降低#VV  血液#NN  及肝#NN  里#LC  胆固醇#NN  和#CC  甘油#NN  三#CD  酯#NN  的#DEG  含量#NN  ，#PU  而且#CC  还#AD  有#VE  降#VV  血压#NN  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 平#VV)   (root, ROOT#null, 和脾#VV)  (nsubj, 止血#VV, 利水#NR)  (ccomp, 和脾#VV, 止血#VV)  (ccomp, 止血#VV, 明目#VV)   (root, ROOT#null, 治#VV)  (dobj, 治#VV, 痢疾#NN)  (conj, 治#VV, 水肿#VV)  (conj, 水肿#VV, 淋病#VV)  (conj, 水肿#VV, 乳糜尿#VV)  (conj, 水肿#VV, 吐血#VV)  (conj, 水肿#VV, 便血#VV)  (conj, 水肿#VV, 血崩#VV)  (conj, 水肿#VV, 月经#VV)  (dobj, 月经#VV, 过多#NN)  (conj, 水肿#VV, 目赤#VV)  (dobj, 目赤#VV, 疼痛#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (nsubj, 含有#VV, 荠荠菜#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素C#NN)  (mmod, 防止#VV, 可#VV)  (dep, 含有#VV, 防止#VV)  (conj, 亚硝酸盐#NN, 硝酸盐#NN)  (cc, 亚硝酸盐#NN, 和#CC)  (nsubj, 变成#VV, 亚硝酸盐#NN)  (case, 中转#NN, 在#P)  (nn, 中转#NN, 消化道#NN)  (prep, 变成#VV, 中转#NN)  (ccomp, 防止#VV, 变成#VV)  (nn, 亚硝胺#NN, 致癌#NN)  (nn, 亚硝胺#NN, 物质#NN)  (dobj, 变成#VV, 亚硝胺#NN)  (mmod, 预防#VV, 可#VV)  (dep, 含有#VV, 预防#VV)  (conj, 食管癌#NN, 胃癌#NN)  (cc, 食管癌#NN, 和#CC)  (dobj, 预防#VV, 食管癌#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)
+            (nsubj, 含有#VV, 荠荠菜#NN)  (root, ROOT#null, 含有#VV)  (assmod, 纤维#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 纤维#NN, 粗#NN)  (dobj, 含有#VV, 纤维#NN)  (loc, 增强#VV, 食用#VV)  (case, 食用#VV, 后#LC)  (mmod, 增强#VV, 可#VV)  (conj, 含有#VV, 增强#VV)  (nn, 蠕动#NN, 大肠#NN)  (dobj, 增强#VV, 蠕动#NN)  (conj, 含有#VV, 促进#VV)  (dobj, 促进#VV, 排泄#NN)  (advmod, 增进#VV, 从而#AD)  (conj, 含有#VV, 增进#VV)  (dobj, 增进#VV, 新陈代谢#NN)  (conj, 含有#VV, 有助于#VV)  (ccomp, 有助于#VV, 防治#VV)  (amod, 痔疮#NN, 高#JJ)  (conj, 痔疮#NN, 血压#NN)  (conj, 痔疮#NN, 冠心病#NN)  (conj, 痔疮#NN, 肥胖症#NN)  (conj, 痔疮#NN, 糖尿病#NN)  (conj, 痔疮#NN, 肠癌#NN)  (cc, 痔疮#NN, 及#CC)  (dobj, 防治#VV, 痔疮#NN)  (etc, 痔疮#NN, 等#ETC)
+            (root, ROOT#null, 缓解#VV)  (dobj, 缓解#VV, 夜盲症#NN)
+            (nn, 含有#NN, 荠菜#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 胡萝卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 食物#NN, 胡萝卜素#NN)  (case, 胡萝卜素#VV, 因#P)  (prep, 食物#NN, 胡萝卜素#VV)  (case, 维生素A#VV, 为#P)  (prep, 食物#NN, 维生素A#VV)  (advmod, 维生素A#VV, 原#AD)  (advmod, 食物#NN, 所以#AD)  (cop, 食物#NN, 是#VC)  (relcl, 食物#NN, 治疗#VV)  (conj, 夜盲症#NN, 干眼病#NN)  (dobj, 治疗#VV, 夜盲症#NN)  (mark, 治疗#VV, 的#DEC)  (amod, 食物#NN, 良好#JJ)  (root, ROOT#null, 食物#NN)
+            (root, ROOT#null, 抗凝血#VV)
+            (root, ROOT#null, 荠菜#VV)  (prtmod, 含#VV, 所#MSP)  (relcl, 酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 酸#NN, 荠菜#NN)  (dobj, 荠菜#VV, 酸#NN)  (cop, 成分#NN, 是#VC)  (relcl, 成分#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (amod, 成分#NN, 止血#JJ)  (conj, 荠菜#VV, 成分#NN)  (mmod, 缩短#VV, 能#VV)  (conj, 荠菜#VV, 缩短#VV)  (dep, 缩短#VV, 出血#VV)  (cc, 出血#VV, 及#CC)  (nn, 时间#NN, 凝血#NN)  (dep, 出血#VV, 时间#NN)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (nn, 乙酰#NN, 荠菜#NN)  (nn, 乙酰#NN, 含有#NN)  (nsubj, 胆碱#VV, 乙酰#NN)  (root, ROOT#null, 胆碱#VV)  (conj, 季胺化#NN, 谷甾醇#NN)  (cc, 季胺化#NN, 和#CC)  (nn, 合物#NN, 季胺化#NN)  (nsubj, 降低#VV, 合物#NN)  (cc, 降低#VV, 不仅#CC)  (mmod, 降低#VV, 可以#VV)  (ccomp, 胆碱#VV, 降低#VV)  (nn, 及肝#NN, 血液#NN)  (dep, 酯#NN, 及肝#NN)  (case, 及肝#NN, 里#LC)  (conj, 甘油#NN, 胆固醇#NN)  (cc, 甘油#NN, 和#CC)  (nn, 酯#NN, 甘油#NN)  (nummod, 酯#NN, 三#CD)  (assmod, 含量#NN, 酯#NN)  (case, 酯#NN, 的#DEG)  (dobj, 降低#VV, 含量#NN)  (cc, 降低#VV, 而且#CC)  (advmod, 有#VE, 还#AD)  (dep, 降低#VV, 有#VE)  (relcl, 作用#NN, 降#VV)  (dobj, 降#VV, 血压#NN)  (mark, 降#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  明目  通便  抗癌防癌  抗菌  平肝  清热利湿  凉血止血  镇静催眠  辅助降血压  解热降温  促进宫缩  止血
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.荠菜的营养价值很高，荠菜含蛋白质相对较高，钙含量较高。
+            2.所含粗纤维、胡萝卜素和维生素B族、C等也多为人体所需的营养物质，所以俗语说“三月三，荠菜当灵丹”。
+        </rawdata>
+
+        <segment>
+            荠菜  的  营养  价值  很  高  ，  荠菜  含  蛋白质  相对  较  高  ，  钙  含量  较  高  。
+            所含  粗  纤维  、  胡萝卜素  和  维生素  B  族  、  C等  也  多  为  人体  所  需  的  营养  物质  ，  所以  俗语  说  “  三月三  ，  荠菜  当  灵丹  ”  。
+        </segment>
+
+        <pos>
+            荠菜#NN  的#DEG  营养#VA  价值#NN  很#AD  高#VA  ，#PU  荠菜#AD  含#VV  蛋白质#NN  相对#AD  较#AD  高#VA  ，#PU  钙#NN  含量#NN  较#AD  高#VA  。#PU
+            所含#NN  粗#VV  纤维#NN  、#PU  胡萝卜素#NN  和#CC  维生素#NN  B#NN  族#NN  、#PU  C等#VV  也#AD  多#AD  为#P  人体#NN  所#MSP  需#VV  的#DEC  营养#VA  物质#NN  ，#PU  所以#AD  俗语#NR  说#VV  ``#VV  三月三#CD  ，#PU  荠菜#NN  当#P  灵丹#NN  ''#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 价值#NN, 荠菜#NN)  (case, 荠菜#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (advmod, 含#VV, 荠菜#AD)  (relcl, 蛋白质#NN, 含#VV)  (nsubj, 高#VA, 蛋白质#NN)  (advmod, 高#VA, 相对#AD)  (advmod, 高#VA, 较#AD)  (conj, 高#VA, 高#VA)  (nn, 含量#NN, 钙#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 高#VA, 高#VA)
+            (nsubj, 粗#VV, 所含#NN)  (root, ROOT#null, 粗#VV)  (conj, B#NN, 纤维#NN)  (conj, B#NN, 胡萝卜素#NN)  (cc, B#NN, 和#CC)  (nn, B#NN, 维生素#NN)  (nn, 族#NN, B#NN)  (dobj, 粗#VV, 族#NN)  (conj, 粗#VV, C等#VV)  (advmod, 需#VV, 也#AD)  (advmod, 需#VV, 多#AD)  (case, 人体#NN, 为#P)  (prep, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 物质#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, C等#VV, 物质#NN)  (advmod, 说#VV, 所以#AD)  (nsubj, 说#VV, 俗语#NR)  (conj, 粗#VV, 说#VV)  (ccomp, 说#VV, ``#VV)  (range, ``#VV, 三月三#CD)  (nsubj, ''#VV, 荠菜#NN)  (case, 灵丹#NN, 当#P)  (prep, ''#VV, 灵丹#NN)  (conj, 粗#VV, ''#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            荠菜吃法亦多样,荤素烹调皆点缀餐桌。如清炒、煮汤、凉拌、包饺子、作春饼及豆腐丸子等，都使人感到清香可口，风味独特。最好不要加蒜、姜、料酒来调味，以免破坏荠菜本身的清香味。
+        </rawdata>
+
+        <segment>
+            荠菜  吃法  亦  多样  ,  荤素  烹调  皆  点缀  餐桌  。  如  清炒  、  煮  汤  、  凉拌  、  包  饺子  、  作  春饼  及  豆腐  丸子  等  ，  都  使  人  感到  清香  可口  ，  风味  独特  。  最好  不  要  加蒜  、  姜  、  料酒  来  调味  ，  以免  破坏  荠菜  本身  的  清香味  。
+        </segment>
+
+        <pos>
+            荠菜#NN  吃法#NN  亦#AD  多样#VA  ,#NN  荤素#NN  烹调#NN  皆#AD  点缀#VV  餐桌#NN    。#PU  如#P  清炒#VV  、#PU  煮#VV  汤#NN  、#PU  凉拌#NN  、#PU  包#NN  饺子#NN  、#PU  作#VV  春饼#NN  及#CC  豆腐#NN  丸子#NN  等#ETC  ，#PU  都#AD  使#VV  人#NN  感到#VV  清香#NN  可口#NN  ，#PU  风味#AD  独特#VA    。#PU  最好#JJ  不#AD  要#VV  加蒜#NN  、#PU  姜#NN  、#PU  料酒#NN  来#MSP  调味#VV  ，#PU  以免#VV  破坏#VV  荠菜#NR  本身#PN  的#DEG  清香味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 吃法#NN, 荠菜#NN)  (nsubj, 多样#VA, 吃法#NN)  (advmod, 多样#VA, 亦#AD)  (dep, 点缀#VV, 多样#VA)  (nn, 烹调#NN, 荤素#NN)  (nsubj, 点缀#VV, 烹调#NN)  (advmod, 点缀#VV, 皆#AD)  (root, ROOT#null, 点缀#VV)  (dobj, 点缀#VV, 餐桌#NN)   (case, 清炒#VV, 如#P)  (prep, 使#VV, 清炒#VV)  (conj, 清炒#VV, 煮#VV)  (conj, 饺子#NN, 汤#NN)  (conj, 饺子#NN, 凉拌#NN)  (nn, 饺子#NN, 包#NN)  (dobj, 煮#VV, 饺子#NN)  (conj, 清炒#VV, 作#VV)  (conj, 丸子#NN, 春饼#NN)  (cc, 丸子#NN, 及#CC)  (nn, 丸子#NN, 豆腐#NN)  (dobj, 作#VV, 丸子#NN)  (etc, 丸子#NN, 等#ETC)  (advmod, 使#VV, 都#AD)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 感到#VV)  (nn, 可口#NN, 清香#NN)  (dobj, 感到#VV, 可口#NN)  (advmod, 独特#VA, 风味#AD)  (dep, 使#VV, 独特#VA)   (amod, 料酒#NN, 最好#JJ)  (neg, 要#VV, 不#AD)  (relcl, 料酒#NN, 要#VV)  (conj, 料酒#NN, 加蒜#NN)  (conj, 料酒#NN, 姜#NN)  (nsubj, 调味#VV, 料酒#NN)  (prtmod, 调味#VV, 来#MSP)  (root, ROOT#null, 调味#VV)  (ccomp, 调味#VV, 以免#VV)  (ccomp, 以免#VV, 破坏#VV)  (nn, 清香味#NN, 荠菜#NR)  (assmod, 清香味#NN, 本身#PN)  (case, 本身#PN, 的#DEG)  (dobj, 破坏#VV, 清香味#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051953043091.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\170 荠菜.jpg
+    </picturelocalurl>
+
+</content>

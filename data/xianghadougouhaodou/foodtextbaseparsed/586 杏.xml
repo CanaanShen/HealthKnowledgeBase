@@ -1,0 +1,414 @@
+<content>
+
+    <id>
+        586
+    </id>
+
+    <foodname>
+        杏
+    </foodname>
+
+    <firstcategory>
+        水果、花茶、坚果
+    </firstcategory>
+
+    <secondcategory>
+        鲜果
+    </secondcategory>
+
+    <alias>
+        杏果、甜梅、叭达杏、杏实、杏子
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            一般人群均可食用，有实热便秘者忌用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  ，  有  实热  便秘  者忌  用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  ，#PU  有#VE  实热#NN  便秘#NN  者忌#AD  用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (dep, 食用#VV, 有#VE)  (nn, 便秘#NN, 实热#NN)  (nsubj, 用#VV, 便秘#NN)  (advmod, 用#VV, 者忌#AD)  (dep, 有#VE, 用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜有呼吸系统疾病、癌症、术后放化疗者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  有  呼吸  系统  疾病  、  癌症  、  术后  放  化疗  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  有#VE  呼吸#NN  系统#NN  疾病#NN  、#PU  癌症#NN  、#PU  术后#NN  放#VV  化疗#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 有#VE, 尤#NN)  (mmod, 有#VE, 适宜#VV)  (root, ROOT#null, 有#VE)  (nn, 疾病#NN, 呼吸#NN)  (nn, 疾病#NN, 系统#NN)  (conj, 术后#NN, 疾病#NN)  (conj, 术后#NN, 癌症#NN)  (nsubj, 放#VV, 术后#NN)  (dep, 有#VE, 放#VV)  (nn, 者#NN, 化疗#NN)  (dobj, 放#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                食部
+            </elename>
+            <elevalue>
+                91%
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水分(克)
+            </elename>
+            <elevalue>
+                89.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量(千卡)
+            </elename>
+            <elevalue>
+                38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                9.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不溶性纤维(克)
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                灰分(克)
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A(微克RE)
+            </elename>
+            <elevalue>
+                75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素(微克)
+            </elename>
+            <elevalue>
+                450
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                尼克酸(毫克)
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E(毫克)
+            </elename>
+            <elevalue>
+                0.95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙(毫克)
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                226
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            杏为蔷薇科植物杏或山杏的果实。我国大部分地区均产，西北、华北和东北各地分布最广。果实呈圆、长圆或扁圆形，果皮多金黄色，向阳部有红晕和斑点。果肉暗黄色，味甜多汁，初夏成熟。杏果肉黄软，香气扑鼻，酸甜多汁，是夏季主要水果之一。
+            杏果可以生食，也可以用未熟果实加工成杏脯、杏干等。杏仁有苦甜之分，甜杏仁可以作为休闲小吃，也可做凉菜用；苦杏仁一般用来入药，并有小毒。杏果和杏仁都含有丰富的营养物质。杏虽好吃但不可多吃，因为其中苦杏仁甙的代谢产物会导致组织细胞窒息，严重者会抑制中枢，导致呼吸麻痹，甚至死亡。
+        </rawdata>
+
+        <segment>
+            杏为  蔷薇科  植物  杏或  山杏  的  果实  。  我国  大部分  地区  均  产  ，  西北  、  华北  和  东北  各  地  分布  最  广  。  果实  呈圆  、  长圆  或  扁圆形  ，  果皮  多  金黄色  ，  向阳  部  有  红晕  和  斑点  。  果肉  暗  黄色  ，  味  甜  多汁  ，  初夏  成熟  。  杏果肉  黄软  ，  香气  扑鼻  ，  酸甜  多汁  ，  是  夏季  主要  水果  之一  。
+            杏果  可以  生食  ，  也可以  用  未熟  果实  加工  成  杏脯  、  杏干  等  。  杏仁  有  苦  甜  之  分  ，  甜  杏仁  可以  作为  休闲  小吃  ，  也  可  做  凉菜  用  ；  苦  杏仁  一般  用来  入药  ，  并  有小  毒  。  杏果  和  杏仁  都  含有  丰富  的  营养  物质  。  杏虽  好吃  但  不  可  多  吃  ，  因为  其中  苦杏仁甙  的  代谢  产物  会  导致  组织  细胞  窒息  ，  严重者  会  抑制  中枢  ，  导致  呼吸  麻痹  ，  甚至  死亡  。
+        </segment>
+
+        <pos>
+            杏为#NN  蔷薇科#VV  植物#NN  杏或#NN  山杏#NN  的#DEG  果实#NN    。#PU  我国#NR  大部分#CD  地区#NN  均#AD  产#VV  ，#PU  西北#NN  、#PU  华北#NR  和#CC  东北#NN  各#DT  地#NN  分布#VV  最#AD  广#VA    。#PU  果实#NN  呈圆#NR  、#PU  长圆#NR  或#CC  扁圆形#NR  ，#PU  果皮#VV  多#CD  金黄色#JJ  ，#PU  向阳#CD  部#M  有#VE  红晕#NN  和#CC  斑点#NN    。#PU  果肉#NR  暗#AD  黄色#JJ  ，#PU  味#JJ  甜#NN  多汁#VV  ，#PU  初夏#NN  成熟#VA    。#PU  杏果肉#NR  黄软#VV  ，#PU  香气#NR  扑鼻#VV  ，#PU  酸甜#NN  多汁#NN  ，#PU  是#VC  夏季#NT  主要#JJ  水果#NN  之一#NN    。#PU    。#PU
+            杏果#NR  可以#VV  生食#VV  ，#PU  也可以#NN  用#P  未熟#NN  果实#NN  加工#NN  成#VV  杏脯#NN  、#PU  杏干#NN  等#ETC    。#PU  杏仁#NN  有#VE  苦#NN  甜#NN  之#PN  分#VV  ，#PU  甜#NN  杏仁#NN  可以#VV  作为#P  休闲#NN  小吃#NN  ，#PU  也#AD  可#VV  做#VV  凉菜#NN  用#VV  ；#PU  苦#NN  杏仁#NN  一般#AD  用来#VV  入药#NN  ，#PU  并#CC  有小#VV  毒#NN    。#PU  杏果#NN  和#CC  杏仁#NN  都#AD  含有#VV  丰富#VA  的#DEC  营养#VA  物质#NN    。#PU  杏虽#NN  好吃#NN  但#AD  不#AD  可#VV  多#AD  吃#VV  ，#PU  因为#P  其中#NN  苦杏仁甙#NN  的#DEG  代谢#NN  产物#NN  会#VV  导致#VV  组织#NN  细胞#NN  窒息#NN  ，#PU  严重者#AD  会#VV  抑制#VV  中枢#NN  ，#PU  导致#VV  呼吸#NN  麻痹#NN  ，#PU  甚至#AD  死亡#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蔷薇科#VV, 杏为#NN)  (root, ROOT#null, 蔷薇科#VV)  (nn, 山杏#NN, 植物#NN)  (nn, 山杏#NN, 杏或#NN)  (assmod, 果实#NN, 山杏#NN)  (case, 山杏#NN, 的#DEG)  (dobj, 蔷薇科#VV, 果实#NN)   (nn, 地区#NN, 我国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 产#VV, 地区#NN)  (advmod, 产#VV, 均#AD)  (root, ROOT#null, 产#VV)  (conj, 地#NN, 西北#NN)  (conj, 地#NN, 华北#NR)  (cc, 地#NN, 和#CC)  (nn, 地#NN, 东北#NN)  (det, 地#NN, 各#DT)  (nsubj, 分布#VV, 地#NN)  (ccomp, 产#VV, 分布#VV)  (advmod, 广#VA, 最#AD)  (dep, 分布#VV, 广#VA)   (nsubj, 有#VE, 果实#NN)  (conj, 扁圆形#NR, 呈圆#NR)  (conj, 扁圆形#NR, 长圆#NR)  (cc, 扁圆形#NR, 或#CC)  (nsubj, 有#VE, 扁圆形#NR)  (conj, 有#VE, 果皮#VV)  (range, 果皮#VV, 多#CD)  (conj, 果皮#VV, 金黄色#JJ)  (nummod, 部#M, 向阳#CD)  (conj, 果皮#VV, 部#M)  (root, ROOT#null, 有#VE)  (conj, 斑点#NN, 红晕#NN)  (cc, 斑点#NN, 和#CC)  (dobj, 有#VE, 斑点#NN)   (nsubj, 多汁#VV, 果肉#NR)  (advmod, 多汁#VV, 暗#AD)  (nfincl, 甜#NN, 黄色#JJ)  (dep, 黄色#JJ, 味#JJ)  (prep, 多汁#VV, 甜#NN)  (root, ROOT#null, 多汁#VV)  (nsubj, 成熟#VA, 初夏#NN)  (ccomp, 多汁#VV, 成熟#VA)   (nsubj, 黄软#VV, 杏果肉#NR)  (root, ROOT#null, 黄软#VV)  (nsubj, 扑鼻#VV, 香气#NR)  (ccomp, 黄软#VV, 扑鼻#VV)  (nn, 多汁#NN, 酸甜#NN)  (dep, 之一#NN, 多汁#NN)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 夏季#NT)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 水果#NN)  (ccomp, 扑鼻#VV, 之一#NN)   (root, ROOT#null, null#null)
+            (nsubj, 生食#VV, 杏果#NR)  (mmod, 生食#VV, 可以#VV)  (root, ROOT#null, 生食#VV)  (nsubj, 成#VV, 也可以#NN)  (case, 加工#NN, 用#P)  (nn, 加工#NN, 未熟#NN)  (nn, 加工#NN, 果实#NN)  (prep, 成#VV, 加工#NN)  (ccomp, 生食#VV, 成#VV)  (conj, 杏干#NN, 杏脯#NN)  (dobj, 成#VV, 杏干#NN)  (etc, 杏干#NN, 等#ETC)   (dep, 有#VE, 杏仁#NN)  (root, ROOT#null, 有#VE)  (nn, 甜#NN, 苦#NN)  (nsubj, 分#VV, 甜#NN)  (nsubj, 分#VV, 之#PN)  (dep, 有#VE, 分#VV)  (nn, 杏仁#NN, 甜#NN)  (nsubj, 做#VV, 杏仁#NN)  (mmod, 做#VV, 可以#VV)  (case, 小吃#NN, 作为#P)  (nn, 小吃#NN, 休闲#NN)  (prep, 做#VV, 小吃#NN)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (conj, 分#VV, 做#VV)  (dobj, 做#VV, 凉菜#NN)  (dep, 做#VV, 用#VV)  (nn, 杏仁#NN, 苦#NN)  (nsubj, 用来#VV, 杏仁#NN)  (advmod, 用来#VV, 一般#AD)  (conj, 分#VV, 用来#VV)  (dobj, 用来#VV, 入药#NN)  (cc, 用来#VV, 并#CC)  (dep, 用来#VV, 有小#VV)  (dobj, 有小#VV, 毒#NN)   (conj, 杏仁#NN, 杏果#NN)  (cc, 杏仁#NN, 和#CC)  (nsubj, 含有#VV, 杏仁#NN)  (advmod, 含有#VV, 都#AD)  (root, ROOT#null, 含有#VV)  (relcl, 物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)   (nn, 好吃#NN, 杏虽#NN)  (nsubj, 吃#VV, 好吃#NN)  (advmod, 吃#VV, 但#AD)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 可#VV)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (case, 导致#VV, 因为#P)  (nn, 苦杏仁甙#NN, 其中#NN)  (assmod, 产物#NN, 苦杏仁甙#NN)  (case, 苦杏仁甙#NN, 的#DEG)  (nn, 产物#NN, 代谢#NN)  (nsubj, 导致#VV, 产物#NN)  (mmod, 导致#VV, 会#VV)  (prep, 导致#VV, 导致#VV)  (nn, 窒息#NN, 组织#NN)  (nn, 窒息#NN, 细胞#NN)  (nsubj, 抑制#VV, 窒息#NN)  (advmod, 抑制#VV, 严重者#AD)  (mmod, 抑制#VV, 会#VV)  (ccomp, 导致#VV, 抑制#VV)  (dobj, 抑制#VV, 中枢#NN)  (dep, 吃#VV, 导致#VV)  (nn, 麻痹#NN, 呼吸#NN)  (dobj, 导致#VV, 麻痹#NN)  (advmod, 死亡#VV, 甚至#AD)  (dep, 吃#VV, 死亡#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            甘酸、微温、冷利、有小毒；入肝、心、胃；止渴生津，清热去毒，主咳逆上气，金创，惊痫等。
+            1.预防心脏病
+            未熟果实中含类黄酮较多，类黄酮有预防心脏病和减少心肌梗死的作用。
+            2.抗癌
+            杏仁中含有丰富的维生素B17，维生素B17又是极有效的抗癌物质，并且只对癌细胞有杀灭作用，对正常健康、的细胞无任何毒害。
+            3.止咳平喘
+            苦杏仁能止咳平喘，润肠通便，可以治疗肺病，咳嗽等疾病。
+            4.预防慢性病
+            能够降低人体内胆固醇的含量，还能显著降低心脏病和很多慢性病的发病危险性。
+        </rawdata>
+
+        <segment>
+            甘酸  、  微温  、  冷利  、  有小  毒  ；  入肝  、  心  、  胃  ；  止渴  生津  ，  清热  去  毒  ，  主咳  逆  上  气  ，  金创  ，  惊痫  等  。
+            预防  心脏病
+            未熟  果实  中  含  类  黄酮  较  多  ，  类  黄酮  有  预防  心脏病  和  减少  心肌梗死  的  作用  。
+            抗癌
+            杏仁  中  含有  丰富  的  维生素  B  17  ，  维生素  B  17  又  是  极有效  的  抗癌  物质  ，  并且  只  对  癌细胞  有  杀灭  作用  ，  对  正常  健康  、  的  细胞  无  任何  毒害  。
+            止咳  平  喘
+            苦  杏仁  能  止咳  平喘  ，  润肠  通便  ，  可以  治疗  肺病  ，  咳嗽  等  疾病  。
+            预防  慢性病
+            能够  降低  人体  内胆  固醇  的  含量  ，  还  能  显著  降低  心脏病  和  很多  慢性病  的  发病  危险性  。
+        </segment>
+
+        <pos>
+            甘酸#NR  、#PU  微温#NR  、#PU  冷利#NR  、#PU  有小#NR  毒#VV  ；#PU  入肝#NN  、#PU  心#NN  、#PU  胃#NN  ；#PU  止渴#VV  生津#NN  ，#PU  清热#AD  去#MSP  毒#VV  ，#PU  主咳#VV  逆#NN  上#LC  气#NN  ，#PU  金创#VV  ，#PU  惊痫#VV  等#ETC  。#PU
+            预防#VV  心脏病#NN
+            未熟#NN  果实#NN  中#LC  含#VV  类#NN  黄酮#NN  较#AD  多#VA  ，#PU  类#NN  黄酮#AD  有#VE  预防#VV  心脏病#NN  和#CC  减少#VV  心肌梗死#NN  的#DEC  作用#NN  。#PU
+            抗癌#VV
+            杏仁#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素#NN  B#VV  17#CD  ，#PU  维生素#NN  B#VV  17#CD  又#AD  是#VC  极有效#NN  的#DEC  抗癌#NN  物质#NN  ，#PU  并且#CC  只#AD  对#P  癌细胞#NR  有#VE  杀灭#NN  作用#NN  ，#PU  对#P  正常#JJ  健康#JJ  、#NN  的#DEG  细胞#NN  无#VE  任何#DT  毒害#NN  。#PU
+            止咳#NN  平#NN  喘#NN
+            苦#NN  杏仁#NN  能#VV  止咳#VV  平喘#NN  ，#PU  润肠#VV  通便#NN  ，#PU  可以#VV  治疗#VV  肺病#NN  ，#PU  咳嗽#NN  等#ETC  疾病#NN  。#PU
+            预防#NN  慢性病#VV
+            能够#VV  降低#VV  人体#NN  内胆#NN  固醇#NN  的#DEG  含量#NN  ，#PU  还#AD  能#VV  显著#AD  降低#VV  心脏病#NN  和#CC  很多#CD  慢性病#NN  的#DEG  发病#NN  危险性#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 有小#NR, 甘酸#NR)  (conj, 有小#NR, 微温#NR)  (conj, 有小#NR, 冷利#NR)  (nsubj, 毒#VV, 有小#NR)  (root, ROOT#null, 毒#VV)  (conj, 胃#NN, 入肝#NN)  (conj, 胃#NN, 心#NN)  (dobj, 毒#VV, 胃#NN)  (conj, 毒#VV, 止渴#VV)  (dobj, 止渴#VV, 生津#NN)  (advmod, 毒#VV, 清热#AD)  (prtmod, 毒#VV, 去#MSP)  (conj, 毒#VV, 毒#VV)  (conj, 毒#VV, 主咳#VV)  (dep, 气#NN, 逆#NN)  (case, 逆#NN, 上#LC)  (dobj, 主咳#VV, 气#NN)  (conj, 毒#VV, 金创#VV)  (conj, 毒#VV, 惊痫#VV)  (dep, 毒#VV, 等#ETC)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 心脏病#NN)
+            (nn, 果实#NN, 未熟#NN)  (loc, 多#VA, 果实#NN)  (case, 果实#NN, 中#LC)  (relcl, 黄酮#NN, 含#VV)  (dobj, 含#VV, 类#NN)  (nsubj, 多#VA, 黄酮#NN)  (advmod, 多#VA, 较#AD)  (root, ROOT#null, 多#VA)  (nsubj, 有#VE, 类#NN)  (advmod, 有#VE, 黄酮#AD)  (conj, 多#VA, 有#VE)  (relcl, 作用#NN, 预防#VV)  (dobj, 预防#VV, 心脏病#NN)  (cc, 预防#VV, 和#CC)  (conj, 预防#VV, 减少#VV)  (dobj, 减少#VV, 心肌梗死#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 抗癌#VV)
+            (loc, 丰富#VA, 杏仁#NN)  (case, 杏仁#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (range, B#VV, 17#CD)  (nsubj, B#VV, 维生素#NN)  (conj, B#VV, B#VV)  (nummod, 物质#NN, 17#CD)  (advmod, 极有效#NN, 又#AD)  (cop, 极有效#NN, 是#VC)  (relcl, 物质#NN, 极有效#NN)  (mark, 极有效#NN, 的#DEC)  (nn, 物质#NN, 抗癌#NN)  (dobj, B#VV, 物质#NN)  (cc, B#VV, 并且#CC)  (advmod, 有#VE, 只#AD)  (case, 癌细胞#NR, 对#P)  (prep, 有#VE, 癌细胞#NR)  (conj, B#VV, 有#VE)  (nn, 作用#NN, 杀灭#NN)  (dobj, 有#VE, 作用#NN)  (case, 细胞#NN, 对#P)  (amod, 、#NN, 正常#JJ)  (amod, 、#NN, 健康#JJ)  (case, 、#NN, 的#DEG)  (prep, 无#VE, 细胞#NN)  (conj, B#VV, 无#VE)  (det, 毒害#NN, 任何#DT)  (dobj, 无#VE, 毒害#NN)
+            (nn, 喘#NN, 止咳#NN)  (nn, 喘#NN, 平#NN)  (root, ROOT#null, 喘#NN)
+            (nn, 杏仁#NN, 苦#NN)  (nsubj, 止咳#VV, 杏仁#NN)  (mmod, 止咳#VV, 能#VV)  (root, ROOT#null, 止咳#VV)  (dobj, 止咳#VV, 平喘#NN)  (conj, 止咳#VV, 润肠#VV)  (dobj, 润肠#VV, 通便#NN)  (mmod, 治疗#VV, 可以#VV)  (conj, 止咳#VV, 治疗#VV)  (dobj, 治疗#VV, 肺病#NN)  (nn, 疾病#NN, 咳嗽#NN)  (etc, 咳嗽#NN, 等#ETC)  (conj, 止咳#VV, 疾病#NN)
+            (nsubj, 慢性病#VV, 预防#NN)  (root, ROOT#null, 慢性病#VV)
+            (mmod, 降低#VV, 能够#VV)  (root, ROOT#null, 降低#VV)  (nn, 固醇#NN, 人体#NN)  (nn, 固醇#NN, 内胆#NN)  (assmod, 含量#NN, 固醇#NN)  (case, 固醇#NN, 的#DEG)  (dobj, 降低#VV, 含量#NN)  (advmod, 降低#VV, 还#AD)  (mmod, 降低#VV, 能#VV)  (advmod, 降低#VV, 显著#AD)  (dep, 降低#VV, 降低#VV)  (conj, 慢性病#NN, 心脏病#NN)  (cc, 慢性病#NN, 和#CC)  (nummod, 慢性病#NN, 很多#CD)  (assmod, 危险性#NN, 慢性病#NN)  (case, 慢性病#NN, 的#DEG)  (nn, 危险性#NN, 发病#NN)  (dobj, 降低#VV, 危险性#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  抗癌防癌  生津止渴  平喘  润肺
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鲜杏含水量85%，含有较低的热量。
+            2.鲜杏含有丰富的碳水化合物，钾，维生素A，维生素P，柠檬酸，番茄烃等十几种营养成分。
+            3.果肉含糖、蛋白质、钙、磷、胡萝卜素、硫胺素、核黄素、尼克酸及维生素C。
+            4.杏仁中含有丰富的维生素B17；此外，甜杏仁含苦杏仁甙、脂肪油、糖分、蛋白质、树脂、扁豆甙、杏仁油；苦杏仁含苦杏仁甙、酶及脂肪油等。
+        </rawdata>
+
+        <segment>
+            鲜杏  含水量  85%  ，  含有  较低  的  热量  。
+            鲜杏  含有  丰富  的  碳水化合物  ，  钾  ，  维生素A  ，  维生素  P  ，  柠檬酸  ，  番茄  烃等  十几  种  营养  成分  。
+            果肉  含糖  、  蛋白质  、  钙  、  磷  、  胡萝卜素  、  硫胺素  、  核黄素  、  尼克酸  及  维生素C  。
+            杏仁  中  含有  丰富  的  维生素  B  17  ；  此外  ，  甜  杏仁  含  苦杏仁甙  、  脂肪  油  、  糖分  、  蛋白质  、  树脂  、  扁豆甙  、  杏仁  油  ；  苦  杏仁  含  苦杏仁甙  、  酶及  脂肪  油  等  。
+        </segment>
+
+        <pos>
+            鲜杏#NN  含水量#VV  85#CD  %#NN  ，#PU  含有#VV  较低#NN  的#DEG  热量#NN  。#PU
+            鲜杏#NN  含有#NN  丰富#VA  的#DEC  碳水化合物#NN  ，#PU  钾#NN  ，#PU  维生素A#NN  ，#PU  维生素#NN  P#NN  ，#PU  柠檬酸#NN  ，#PU  番茄#NN  烃等#VV  十几#CD  种#M  营养#VA  成分#NN  。#PU
+            果肉#VV  含糖#NR  、#PU  蛋白质#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  胡萝卜素#NR  、#PU  硫胺素#NR  、#PU  核黄素#NR  、#PU  尼克酸#NR  及#CC  维生素C#NR  。#PU
+            杏仁#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素#NN  B#VV  17#CD  ；#PU  此外#AD  ，#PU  甜#NN  杏仁#AD  含#VV  苦杏仁甙#NN  、#PU  脂肪#NN  油#NN  、#PU  糖分#NR  、#PU  蛋白质#NR  、#PU  树脂#NR  、#PU  扁豆甙#NR  、#PU  杏仁#NR  油#NN  ；#PU  苦#NN  杏仁#NN  含#VV  苦杏仁甙#NN  、#PU  酶及#NN  脂肪#NN  油#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含水量#VV, 鲜杏#NN)  (root, ROOT#null, 含水量#VV)  (nummod, %#NN, 85#CD)  (dobj, 含水量#VV, %#NN)  (conj, 含水量#VV, 含有#VV)  (assmod, 热量#NN, 较低#NN)  (case, 较低#NN, 的#DEG)  (dobj, 含有#VV, 热量#NN)
+            (nn, 含有#NN, 鲜杏#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 碳水化合物#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 烃等#VV, 碳水化合物#NN)  (nsubj, 烃等#VV, 钾#NN)  (nsubj, 烃等#VV, 维生素A#NN)  (nn, P#NN, 维生素#NN)  (nsubj, 烃等#VV, P#NN)  (nsubj, 烃等#VV, 柠檬酸#NN)  (nsubj, 烃等#VV, 番茄#NN)  (root, ROOT#null, 烃等#VV)  (nummod, 种#M, 十几#CD)  (clf, 成分#NN, 种#M)  (relcl, 成分#NN, 营养#VA)  (dobj, 烃等#VV, 成分#NN)
+            (root, ROOT#null, 果肉#VV)  (conj, 维生素C#NR, 含糖#NR)  (conj, 维生素C#NR, 蛋白质#NR)  (conj, 维生素C#NR, 钙#NR)  (conj, 维生素C#NR, 磷#NN)  (conj, 尼克酸#NR, 胡萝卜素#NR)  (conj, 尼克酸#NR, 硫胺素#NR)  (conj, 尼克酸#NR, 核黄素#NR)  (conj, 维生素C#NR, 尼克酸#NR)  (cc, 维生素C#NR, 及#CC)  (dobj, 果肉#VV, 维生素C#NR)
+            (loc, 丰富#VA, 杏仁#NN)  (case, 杏仁#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (range, B#VV, 17#CD)  (advmod, 含#VV, 此外#AD)  (nsubj, 含#VV, 甜#NN)  (advmod, 含#VV, 杏仁#AD)  (conj, B#VV, 含#VV)  (conj, 油#NN, 苦杏仁甙#NN)  (nn, 油#NN, 脂肪#NN)  (conj, 油#NN, 油#NN)  (conj, 杏仁#NR, 糖分#NR)  (conj, 杏仁#NR, 蛋白质#NR)  (conj, 杏仁#NR, 树脂#NR)  (conj, 杏仁#NR, 扁豆甙#NR)  (nn, 油#NN, 杏仁#NR)  (dobj, 含#VV, 油#NN)  (nn, 杏仁#NN, 苦#NN)  (nsubj, 含#VV, 杏仁#NN)  (conj, B#VV, 含#VV)  (conj, 油#NN, 苦杏仁甙#NN)  (nn, 油#NN, 酶及#NN)  (nn, 油#NN, 脂肪#NN)  (dobj, 含#VV, 油#NN)  (etc, 油#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            果供生食外，可制成杏干、杏脯等加工品，核内杏仁可食用。
+        </rawdata>
+
+        <segment>
+            果  供  生食  外  ，  可  制成  杏干  、  杏脯  等  加工品  ，  核内  杏仁  可  食用  。
+        </segment>
+
+        <pos>
+            果#NN  供#NN  生食#VV  外#NN  ，#PU  可#VV  制成#VV  杏干#NR  、#PU  杏脯#NR  等#ETC  加工品#NN  ，#PU  核内#NN  杏仁#NN  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 供#NN, 果#NN)  (nsubj, 生食#VV, 供#NN)  (root, ROOT#null, 生食#VV)  (dobj, 生食#VV, 外#NN)  (mmod, 制成#VV, 可#VV)  (conj, 生食#VV, 制成#VV)  (conj, 杏脯#NR, 杏干#NR)  (nn, 加工品#NN, 杏脯#NR)  (etc, 杏脯#NR, 等#ETC)  (dobj, 制成#VV, 加工品#NN)  (nn, 杏仁#NN, 核内#NN)  (nsubj, 食用#VV, 杏仁#NN)  (dep, 食用#VV, 可#VV)  (conj, 生食#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/142/jie_k.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\586 杏.jpg
+    </picturelocalurl>
+
+</content>

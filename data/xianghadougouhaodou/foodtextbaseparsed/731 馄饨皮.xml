@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        731
+    </id>
+
+    <foodname>
+        馄饨皮
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            对湿热偏重、痰湿偏盛，舌苔厚腻之人，忌食。
+        </rawdata>
+
+        <segment>
+            对  湿热  偏重  、  痰湿  偏  盛  ，  舌苔  厚  腻  之  人  ，  忌食  。
+        </segment>
+
+        <pos>
+            对#P  湿热#NN  偏重#VV  、#PU  痰湿#AD  偏#AD  盛#VA  ，#PU  舌苔#VV  厚#JJ  腻#NN  之#DEG  人#NN  ，#PU  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (case, 湿热#NN, 对#P)  (prep, 偏重#VV, 湿热#NN)  (root, ROOT#null, 偏重#VV)  (advmod, 盛#VA, 痰湿#AD)  (advmod, 盛#VA, 偏#AD)  (conj, 偏重#VV, 盛#VA)  (dep, 偏重#VV, 舌苔#VV)  (amod, 腻#NN, 厚#JJ)  (assmod, 人#NN, 腻#NN)  (case, 腻#NN, 之#DEG)  (dobj, 舌苔#VV, 人#NN)  (conj, 偏重#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质，气郁体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  ，  气郁  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  ，#PU  气郁#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)  (conj, 适宜#VV, 气郁#VV)  (dobj, 气郁#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            馄饨皮较薄，煮熟后有透明感。亦因此薄厚之别，等量的馄饨与水饺入沸水中煮，煮熟馄饨费时较短。
+        </rawdata>
+
+        <segment>
+            馄饨  皮  较  薄  ，  煮熟  后  有  透明  感  。  亦  因此  薄厚  之  别  ，  等量  的  馄饨  与  水饺  入  沸水  中  煮  ，  煮熟  馄饨  费时  较  短  。
+        </segment>
+
+        <pos>
+            馄饨#NN  皮#NN  较#AD  薄#VV  ，#PU  煮熟#NN  后#LC  有#VE  透明#VA  感#VV    。#PU  亦#AD  因此#AD  薄厚#VA  之#DEC  别#DT  ，#PU  等量#NN  的#DEG  馄饨#NN  与#P  水饺#AD  入#VV  沸水#NN  中#LC  煮#VV  ，#PU  煮熟#NN  馄饨#NN  费时#NN  较#AD  短#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 皮#NN, 馄饨#NN)  (nsubj, 薄#VV, 皮#NN)  (advmod, 薄#VV, 较#AD)  (root, ROOT#null, 薄#VV)  (loc, 有#VE, 煮熟#NN)  (case, 煮熟#NN, 后#LC)  (ccomp, 薄#VV, 有#VE)  (dep, 感#VV, 透明#VA)  (dep, 有#VE, 感#VV)   (advmod, 薄厚#VA, 亦#AD)  (advmod, 薄厚#VA, 因此#AD)  (dep, 别#DT, 薄厚#VA)  (mark, 薄厚#VA, 之#DEC)  (dep, 煮#VV, 别#DT)  (assmod, 馄饨#NN, 等量#NN)  (case, 等量#NN, 的#DEG)  (nsubj, 煮#VV, 馄饨#NN)  (case, 入#VV, 与#P)  (advmod, 入#VV, 水饺#AD)  (prep, 煮#VV, 入#VV)  (dobj, 入#VV, 沸水#NN)  (case, 入#VV, 中#LC)  (root, ROOT#null, 煮#VV)  (nn, 费时#NN, 煮熟#NN)  (nn, 费时#NN, 馄饨#NN)  (nsubj, 短#VA, 费时#NN)  (advmod, 短#VA, 较#AD)  (conj, 煮#VV, 短#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            提供优质蛋白质和必需的脂肪酸。可提供血红素（有机铁）和促进铁吸收的半胱氨酸，能改善缺铁性贫血。
+        </rawdata>
+
+        <segment>
+            提供  优质  蛋白质  和  必需  的  脂肪酸  。  可  提供  血红素  （  有机铁  ）  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。
+        </segment>
+
+        <pos>
+            提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  可#VV  提供#VV  血红素#NN  （#PU  有机铁#NR  ）#PU  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (conj, 半胱氨酸#NN, 血红素#NN)  (prnmod, 血红素#NN, 有机铁#NR)  (cc, 半胱氨酸#NN, 和#CC)  (relcl, 半胱氨酸#NN, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (dep, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            是将面粉加水搅拌制成散状面团，然后通过熟化挤压机制成条状面带，再经刀辊切割制成云吞皮将面粉（最好选用富强粉）放入盆内，加入少许精盐，倒入适量水，和成面团，用手揉到面团光润时，盖上湿布饧约20分钟，备用。赶成方形，即可开始包。
+        </rawdata>
+
+        <segment>
+            是  将  面粉  加水  搅拌  制成  散状  面团  ，  然后  通过  熟化  挤压  机制  成  条状  面带  ，  再  经  刀辊  切割  制成  云吞皮  将  面粉  （  最好  选用  富强粉  ）  放入  盆  内  ，  加入  少许  精盐  ，  倒入  适量  水  ，  和  成  面团  ，  用手  揉  到  面团  光润  时  ，  盖上  湿布  饧约  20  分钟  ，  备用  。  赶成  方形  ，  即  可  开始  包  。
+        </segment>
+
+        <pos>
+            是#VC  将#BA  面粉#NN  加水#NN  搅拌#NN  制成#VV  散状#NN  面团#NN  ，#PU  然后#AD  通过#P  熟化#NN  挤压#NN  机制#NN  成#VV  条状#NN  面带#NN  ，#PU  再#AD  经#P  刀辊#NN  切割#NN  制成#VV  云吞皮#NN  将#BA  面粉#NN  （#PU  最好#JJ  选用#NN  富强粉#NN  ）#PU  放入#VV  盆#CD  内#LC  ，#PU  加入#VV  少许#NN  精盐#NN  ，#PU  倒入#VV  适量#NN  水#NN  ，#PU  和#CC  成#VV  面团#NN  ，#PU  用手#VV  揉#NN  到#P  面团#NN  光润#NN  时#LC  ，#PU  盖上#VV  湿布#NN  饧约#NN  20#CD  分钟#M  ，#PU  备用#VV    。#PU  赶成#NR  方形#VV  ，#PU  即#AD  可#VV  开始#VV  包#VV    。#PU
+        </pos>
+
+        <parsing>
+            (cop, 制成#VV, 是#VC)  (ba, 制成#VV, 将#BA)  (nn, 搅拌#NN, 面粉#NN)  (nn, 搅拌#NN, 加水#NN)  (nsubj, 制成#VV, 搅拌#NN)  (root, ROOT#null, 制成#VV)  (nn, 面团#NN, 散状#NN)  (dobj, 制成#VV, 面团#NN)  (advmod, 成#VV, 然后#AD)  (case, 机制#NN, 通过#P)  (nn, 机制#NN, 熟化#NN)  (nn, 机制#NN, 挤压#NN)  (prep, 成#VV, 机制#NN)  (conj, 制成#VV, 成#VV)  (nn, 面带#NN, 条状#NN)  (dobj, 成#VV, 面带#NN)  (advmod, 放入#VV, 再#AD)  (case, 制成#VV, 经#P)  (nn, 切割#NN, 刀辊#NN)  (nsubj, 制成#VV, 切割#NN)  (prep, 放入#VV, 制成#VV)  (dobj, 制成#VV, 云吞皮#NN)  (ba, 放入#VV, 将#BA)  (nsubj, 放入#VV, 面粉#NN)  (amod, 富强粉#NN, 最好#JJ)  (nn, 富强粉#NN, 选用#NN)  (prnmod, 面粉#NN, 富强粉#NN)  (conj, 制成#VV, 放入#VV)  (loc, 放入#VV, 盆#CD)  (case, 盆#CD, 内#LC)  (conj, 放入#VV, 加入#VV)  (nn, 精盐#NN, 少许#NN)  (dobj, 加入#VV, 精盐#NN)  (conj, 放入#VV, 倒入#VV)  (nn, 水#NN, 适量#NN)  (dobj, 倒入#VV, 水#NN)  (cc, 放入#VV, 和#CC)  (conj, 放入#VV, 成#VV)  (dobj, 成#VV, 面团#NN)  (conj, 制成#VV, 用手#VV)  (dobj, 用手#VV, 揉#NN)  (case, 光润#NN, 到#P)  (nn, 光润#NN, 面团#NN)  (prep, 用手#VV, 光润#NN)  (case, 光润#NN, 时#LC)  (conj, 制成#VV, 盖上#VV)  (nn, 饧约#NN, 湿布#NN)  (dobj, 盖上#VV, 饧约#NN)  (nummod, 分钟#M, 20#CD)  (range, 盖上#VV, 分钟#M)  (conj, 制成#VV, 备用#VV)   (nsubj, 方形#VV, 赶成#NR)  (xsubj, 包#VV, 赶成#NR)  (root, ROOT#null, 方形#VV)  (advmod, 包#VV, 即#AD)  (mmod, 包#VV, 可#VV)  (mmod, 包#VV, 开始#VV)  (ccomp, 方形#VV, 包#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/8c/30/12428_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\731 馄饨皮.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,147 @@
+<content>
+
+    <id>
+        1063
+    </id>
+
+    <foodname>
+        板豆腐
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        营养豆腐
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            平素脾胃虚寒，经常腹泻便溏之人忌食。
+        </rawdata>
+
+        <segment>
+            平素  脾胃  虚寒  ，  经常  腹泻  便溏  之  人  忌食  。
+        </segment>
+
+        <pos>
+            平素#NN  脾胃#NN  虚寒#NN  ，#PU  经常#AD  腹泻#VV  便溏#NN  之#DEG  人#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 虚寒#NN, 平素#NN)  (nn, 虚寒#NN, 脾胃#NN)  (nsubj, 腹泻#VV, 虚寒#NN)  (advmod, 腹泻#VV, 经常#AD)  (root, ROOT#null, 腹泻#VV)  (assmod, 忌食#NN, 便溏#NN)  (case, 便溏#NN, 之#DEG)  (nn, 忌食#NN, 人#NN)  (dobj, 腹泻#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            母婴，儿童青少年，老人，职业人群，更年期妇女，久病体虚人群宜食
+        </rawdata>
+
+        <segment>
+            母婴  ，  儿童  青少年  ，  老人  ，  职业  人群  ，  更年期  妇女  ，  久病  体  虚  人群  宜食
+        </segment>
+
+        <pos>
+            母婴#NN  ，#PU  儿童#NN  青少年#NN  ，#PU  老人#NN  ，#PU  职业#NN  人群#NN  ，#PU  更年期#NN  妇女#NN  ，#PU  久病#NN  体#NN  虚#AD  人群#NN  宜食#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 宜食#VV, 母婴#NN)  (nn, 青少年#NN, 儿童#NN)  (nsubj, 宜食#VV, 青少年#NN)  (nsubj, 宜食#VV, 老人#NN)  (nn, 人群#NN, 职业#NN)  (nsubj, 宜食#VV, 人群#NN)  (nn, 妇女#NN, 更年期#NN)  (nsubj, 宜食#VV, 妇女#NN)  (nsubj, 宜食#VV, 久病#NN)  (nsubj, 宜食#VV, 体#NN)  (advmod, 宜食#VV, 虚#AD)  (prep, 宜食#VV, 人群#NN)  (root, ROOT#null, 宜食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            一般所称的营养豆腐其实就是板豆腐，因为板豆腐是由人工做的口感较为粗糙一点。
+        </rawdata>
+
+        <segment>
+            一般  所  称  的  营养  豆腐  其实  就是  板  豆腐  ，  因为  板  豆腐  是  由  人工  做  的  口感  较为  粗糙  一点  。
+        </segment>
+
+        <pos>
+            一般#AD  所#MSP  称#VV  的#DEC  营养#VA  豆腐#NN  其实#AD  就是#AD  板#NN  豆腐#NN  ，#PU  因为#P  板#NN  豆腐#NN  是#VC  由#P  人工#AD  做#VV  的#DEC  口感#NN  较为#AD  粗糙#VV  一点#CD  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 称#VV, 一般#AD)  (prtmod, 称#VV, 所#MSP)  (relcl, 豆腐#NN, 称#VV)  (mark, 称#VV, 的#DEC)  (nfincl, 豆腐#NN, 营养#VA)  (nsubj, 粗糙#VV, 豆腐#NN)  (advmod, 粗糙#VV, 其实#AD)  (advmod, 粗糙#VV, 就是#AD)  (nn, 豆腐#NN, 板#NN)  (nsubj, 粗糙#VV, 豆腐#NN)  (case, 是#VC, 因为#P)  (nn, 豆腐#NN, 板#NN)  (nsubj, 是#VC, 豆腐#NN)  (prep, 粗糙#VV, 是#VC)  (case, 口感#NN, 由#P)  (advmod, 做#VV, 人工#AD)  (relcl, 口感#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (prep, 是#VC, 口感#NN)  (advmod, 粗糙#VV, 较为#AD)  (root, ROOT#null, 粗糙#VV)  (range, 粗糙#VV, 一点#CD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.豆腐中含有丰富的优质蛋白，营养价值较高;
+            2.豆腐含有的大量卵磷脂，防止血管硬化，预防心血管疾病，保护心脏;
+            3.并含有多种矿物质，补充钙质，防止因缺钙引起的骨质疏松，促进骨骼发育，对小儿、老人的骨骼生长极为有利。
+        </rawdata>
+
+        <segment>
+            豆腐  中  含有  丰富  的  优质  蛋白  ，  营养  价值  较高  ;
+            豆腐  含有  的  大量  卵磷脂  ，  防止  血管  硬化  ，  预防  心  血管  疾病  ，  保护  心脏  ;
+            并  含有  多  种  矿物质  ，  补充  钙质  ，  防止  因  缺钙  引起  的  骨质  疏松  ，  促进  骨骼  发育  ，  对  小儿  、  老人  的  骨骼  生长  极为  有利  。
+        </segment>
+
+        <pos>
+            豆腐#NN  中#LC  含有#VV  丰富#VA  的#DEC  优质#JJ  蛋白#NN  ，#PU  营养#VA  价值#NN  较高#VV  ;#NN
+            豆腐#VV  含有#NN  的#DEG  大量#CD  卵磷脂#NN  ，#PU  防止#VV  血管#NN  硬化#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN  ，#PU  保护#VV  心脏#NN  ;#NN
+            并#AD  含有#VV  多#CD  种#M  矿物质#NN  ，#PU  补充#VV  钙质#NN  ，#PU  防止#VV  因#P  缺钙#AD  引起#VV  的#DEC  骨质#NN  疏松#VV  ，#PU  促进#VV  骨骼#NN  发育#NN  ，#PU  对#P  小儿#NN  、#PU  老人#NN  的#DEG  骨骼#NN  生长#NN  极为#AD  有利#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 豆腐#NN)  (case, 豆腐#NN, 中#LC)  (relcl, 价值#NN, 含有#VV)  (relcl, 蛋白#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 蛋白#NN, 优质#JJ)  (dobj, 含有#VV, 蛋白#NN)  (conj, 含有#VV, 营养#VA)  (nsubj, 较高#VV, 价值#NN)  (root, ROOT#null, 较高#VV)  (dobj, 较高#VV, ;#NN)
+            (root, ROOT#null, 豆腐#VV)  (assmod, 卵磷脂#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nummod, 卵磷脂#NN, 大量#CD)  (dobj, 豆腐#VV, 卵磷脂#NN)  (conj, 豆腐#VV, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)  (conj, 豆腐#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (conj, 豆腐#VV, 保护#VV)  (nn, ;#NN, 心脏#NN)  (dobj, 保护#VV, ;#NN)
+            (advmod, 含有#VV, 并#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (dobj, 含有#VV, 矿物质#NN)  (conj, 含有#VV, 补充#VV)  (dobj, 补充#VV, 钙质#NN)  (conj, 含有#VV, 防止#VV)  (case, 骨质#NN, 因#P)  (advmod, 引起#VV, 缺钙#AD)  (relcl, 骨质#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (prep, 疏松#VV, 骨质#NN)  (ccomp, 防止#VV, 疏松#VV)  (conj, 含有#VV, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)  (case, 生长#NN, 对#P)  (conj, 老人#NN, 小儿#NN)  (assmod, 生长#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (nn, 生长#NN, 骨骼#NN)  (prep, 有利#VA, 生长#NN)  (advmod, 有利#VA, 极为#AD)  (conj, 含有#VV, 有利#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  辅助降血脂  延缓衰老  抗癌防癌  补气  生津止渴  和胃  清热解毒  润燥
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/89/33/13193_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1063 板豆腐.jpg
+    </picturelocalurl>
+
+</content>

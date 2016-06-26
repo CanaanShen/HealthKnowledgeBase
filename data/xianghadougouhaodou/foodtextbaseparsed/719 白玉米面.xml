@@ -1,0 +1,139 @@
+<content>
+
+    <id>
+        719
+    </id>
+
+    <foodname>
+        白玉米面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            玉米忌和田螺同食，否则会中毒；尽量避免与牡蛎同食，否则会阻碍锌的吸收
+        </rawdata>
+
+        <segment>
+            玉米忌  和  田螺  同食  ，  否则  会  中毒  ；  尽量  避免  与  牡蛎  同  食  ，  否则  会  阻碍  锌  的  吸收
+        </segment>
+
+        <pos>
+            玉米忌#NR  和#CC  田螺#NR  同食#VV  ，#PU  否则#AD  会#VV  中毒#VV  ；#PU  尽量#AD  避免#VV  与#P  牡蛎#NR  同#DT  食#NN  ，#PU  否则#AD  会#VV  阻碍#VV  锌#NN  的#DEG  吸收#NN
+        </pos>
+
+        <parsing>
+            (conj, 田螺#NR, 玉米忌#NR)  (cc, 田螺#NR, 和#CC)  (nsubj, 同食#VV, 田螺#NR)  (root, ROOT#null, 同食#VV)  (advmod, 中毒#VV, 否则#AD)  (dep, 中毒#VV, 会#VV)  (ccomp, 同食#VV, 中毒#VV)  (advmod, 避免#VV, 尽量#AD)  (dep, 中毒#VV, 避免#VV)  (case, 食#NN, 与#P)  (nn, 食#NN, 牡蛎#NR)  (det, 食#NN, 同#DT)  (prep, 阻碍#VV, 食#NN)  (advmod, 阻碍#VV, 否则#AD)  (mmod, 阻碍#VV, 会#VV)  (ccomp, 避免#VV, 阻碍#VV)  (assmod, 吸收#NN, 锌#NN)  (case, 锌#NN, 的#DEG)  (dobj, 阻碍#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玉米磨成的面，用玉米粉经高温高压工艺制成的面条。玉米面没有等级之分，只有粗细之别。玉米面含有丰富的营养素，按颜色区分有黄玉米面和白玉米面各种，玉米面食品很多，在原来以粗粮为主的年代，这是人们的主食，现在仍是人们改善口味的食品之一
+        </rawdata>
+
+        <segment>
+            玉米  磨成  的  面  ，  用  玉米粉  经  高温  高压  工艺  制成  的  面条  。  玉米面  没有  等级  之分  ，  只有  粗细  之  别  。  玉米面  含有  丰富  的  营养素  ，  按  颜色  区分  有  黄玉  米面  和  白玉  米面  各  种  ，  玉米面  食品  很多  ，  在  原来  以  粗粮  为主  的  年代  ，  这  是  人们  的  主食  ，  现在  仍  是  人们  改善  口味  的  食品  之一
+        </segment>
+
+        <pos>
+            玉米#VV  磨成#NN  的#DEG  面#NN  ，#PU  用#P  玉米粉#NN  经#P  高温#NN  高压#NN  工艺#NN  制成#VV  的#DEC  面条#NN    。#PU  玉米面#AD  没有#VE  等级#JJ  之分#NN  ，#PU  只有#AD  粗细#VV  之#PN  别#DT    。#PU  玉米面#NN  含有#NN  丰富#VA  的#DEC  营养素#NN  ，#PU  按#P  颜色#NN  区分#AD  有#VE  黄玉#NR  米面#NN  和#CC  白玉#NN  米面#VV  各#DT  种#M  ，#PU  玉米面#VV  食品#NN  很多#CD  ，#PU  在#P  原来#AD  以#P  粗粮#NN  为主#VV  的#DEC  年代#NN  ，#PU  这#PN  是#VC  人们#NN  的#DEG  主食#NN  ，#PU  现在#NT  仍#AD  是#VC  人们#NN  改善#VV  口味#NN  的#DEC  食品#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 面条#NN, 玉米#VV)  (assmod, 面#NN, 磨成#NN)  (case, 磨成#NN, 的#DEG)  (dobj, 玉米#VV, 面#NN)  (case, 玉米粉#NN, 用#P)  (prep, 制成#VV, 玉米粉#NN)  (case, 工艺#NN, 经#P)  (nn, 工艺#NN, 高温#NN)  (nn, 工艺#NN, 高压#NN)  (prep, 制成#VV, 工艺#NN)  (conj, 玉米#VV, 制成#VV)  (mark, 玉米#VV, 的#DEC)  (root, ROOT#null, 面条#NN)   (advmod, 没有#VE, 玉米面#AD)  (root, ROOT#null, 没有#VE)  (amod, 之分#NN, 等级#JJ)  (dobj, 没有#VE, 之分#NN)  (advmod, 粗细#VV, 只有#AD)  (dep, 没有#VE, 粗细#VV)  (dep, 别#DT, 之#PN)  (dep, 粗细#VV, 别#DT)   (nn, 含有#NN, 玉米面#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 营养素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 有#VE, 营养素#NN)  (case, 颜色#NN, 按#P)  (prep, 有#VE, 颜色#NN)  (advmod, 有#VE, 区分#AD)  (root, ROOT#null, 有#VE)  (nn, 白玉#NN, 黄玉#NR)  (conj, 白玉#NN, 米面#NN)  (cc, 白玉#NN, 和#CC)  (nsubj, 米面#VV, 白玉#NN)  (dep, 有#VE, 米面#VV)  (dep, 米面#VV, 各#DT)  (clf, 各#DT, 种#M)  (dep, 有#VE, 玉米面#VV)  (dobj, 玉米面#VV, 食品#NN)  (range, 玉米面#VV, 很多#CD)  (case, 年代#NN, 在#P)  (advmod, 为主#VV, 原来#AD)  (case, 粗粮#NN, 以#P)  (prep, 为主#VV, 粗粮#NN)  (relcl, 年代#NN, 为主#VV)  (mark, 为主#VV, 的#DEC)  (prep, 主食#NN, 年代#NN)  (nsubj, 主食#NN, 这#PN)  (cop, 主食#NN, 是#VC)  (assmod, 主食#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (conj, 有#VE, 主食#NN)  (dep, 之一#NN, 现在#NT)  (advmod, 之一#NN, 仍#AD)  (cop, 之一#NN, 是#VC)  (nsubj, 改善#VV, 人们#NN)  (relcl, 之一#NN, 改善#VV)  (dobj, 改善#VV, 口味#NN)  (mark, 改善#VV, 的#DEC)  (nn, 之一#NN, 食品#NN)  (conj, 有#VE, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            玉米中含有大量的卵磷脂、亚油酸、谷物醇、维生素E、纤维素等，具有降血压、降血脂、抗动脉硬化、预防肠癌、美容养颜、延缓衰老等多种保健功效，也是糖尿病人的适宜佳品
+        </rawdata>
+
+        <segment>
+            玉米  中  含有  大量  的  卵磷脂  、  亚油酸  、  谷物醇  、  维生素E  、  纤维素  等  ，  具有  降  血压  、  降  血脂  、  抗  动脉硬化  、  预防  肠癌  、  美容  养颜  、  延缓  衰老  等  多  种  保健  功效  ，  也  是  糖尿病人  的  适宜  佳品
+        </segment>
+
+        <pos>
+            玉米#NN  中#LC  含有#VV  大量#CD  的#DEG  卵磷脂#NR  、#PU  亚油酸#NR  、#PU  谷物醇#NR  、#PU  维生素E#NR  、#PU  纤维素#NR  等#ETC  ，#PU  具有#VV  降#NN  血压#NN  、#PU  降#NN  血脂#NN  、#PU  抗#NN  动脉硬化#NN  、#PU  预防#NN  肠癌#NN  、#PU  美容#NN  养颜#NN  、#PU  延缓#NN  衰老#NN  等#ETC  多#CD  种#M  保健#NN  功效#NN  ，#PU  也#AD  是#VC  糖尿病人#NN  的#DEC  适宜#VV  佳品#NN
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (nsubj, 适宜#VV, 含有#VV)  (assmod, 纤维素#NR, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 纤维素#NR, 卵磷脂#NR)  (conj, 纤维素#NR, 亚油酸#NR)  (conj, 纤维素#NR, 谷物醇#NR)  (conj, 纤维素#NR, 维生素E#NR)  (dobj, 含有#VV, 纤维素#NR)  (etc, 纤维素#NR, 等#ETC)  (conj, 含有#VV, 具有#VV)  (nn, 血压#NN, 降#NN)  (conj, 衰老#NN, 血压#NN)  (nn, 血脂#NN, 降#NN)  (conj, 衰老#NN, 血脂#NN)  (nn, 动脉硬化#NN, 抗#NN)  (conj, 衰老#NN, 动脉硬化#NN)  (nn, 肠癌#NN, 预防#NN)  (conj, 衰老#NN, 肠癌#NN)  (nn, 养颜#NN, 美容#NN)  (conj, 衰老#NN, 养颜#NN)  (nn, 衰老#NN, 延缓#NN)  (nn, 功效#NN, 衰老#NN)  (etc, 衰老#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (nn, 功效#NN, 保健#NN)  (dobj, 具有#VV, 功效#NN)  (advmod, 糖尿病人#NN, 也#AD)  (cop, 糖尿病人#NN, 是#VC)  (conj, 含有#VV, 糖尿病人#NN)  (mark, 含有#VV, 的#DEC)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  抗癌防癌  和胃  利水消肿  明目  抗辐射  通便
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            玉米面和细粮搭配可以制作玉米糕、玉米饼、玉米馒头等，还可制作玉米面饺子、包子，馅饼等。
+        </rawdata>
+
+        <segment>
+            玉米面  和  细粮  搭配  可以  制作  玉  米糕  、  玉米饼  、  玉米  馒头  等  ，  还可  制作  玉米面  饺子  、  包子  ，  馅饼  等  。
+        </segment>
+
+        <pos>
+            玉米面#NN  和#CC  细粮#NN  搭配#NN  可以#VV  制作#VV  玉#NN  米糕#NN  、#PU  玉米饼#NN  、#PU  玉米#NN  馒头#NN  等#ETC  ，#PU  还可#AD  制作#VV  玉米面#NN  饺子#NN  、#PU  包子#NN  ，#PU  馅饼#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 细粮#NN, 玉米面#NN)  (cc, 细粮#NN, 和#CC)  (nn, 搭配#NN, 细粮#NN)  (nsubj, 制作#VV, 搭配#NN)  (mmod, 制作#VV, 可以#VV)  (root, ROOT#null, 制作#VV)  (nn, 馒头#NN, 玉#NN)  (conj, 馒头#NN, 米糕#NN)  (conj, 馒头#NN, 玉米饼#NN)  (nn, 馒头#NN, 玉米#NN)  (dobj, 制作#VV, 馒头#NN)  (etc, 馒头#NN, 等#ETC)  (advmod, 制作#VV, 还可#AD)  (dep, 制作#VV, 制作#VV)  (nn, 包子#NN, 玉米面#NN)  (conj, 包子#NN, 饺子#NN)  (dobj, 制作#VV, 包子#NN)  (dep, 制作#VV, 馅饼#VV)  (dep, 制作#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/f5/40/82165_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\719 白玉米面.jpg
+    </picturelocalurl>
+
+</content>

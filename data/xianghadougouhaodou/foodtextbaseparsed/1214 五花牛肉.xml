@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        1214
+    </id>
+
+    <foodname>
+        五花牛肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            位于牛的腹部，牛腹部脂肪组织很多，其中又夹带着肌肉组织，肥瘦间隔，故称“五花牛肉”。
+        </rawdata>
+
+        <segment>
+            位  于  牛  的  腹部  ，  牛  腹部  脂肪  组织  很多  ，  其中  又  夹带  着  肌肉  组织  ，  肥瘦  间隔  ，  故称  “  五  花  牛肉  ”  。
+        </segment>
+
+        <pos>
+            位#VV  于#P  牛#NN  的#DEG  腹部#NN  ，#PU  牛#NN  腹部#NN  脂肪#AD  组织#VV  很多#CD  ，#PU  其中#NN  又#AD  夹带#VV  着#AS  肌肉#NN  组织#NN  ，#PU  肥瘦#NN  间隔#NN  ，#PU  故称#AD  ``#VV  五#CD  花#NN  牛肉#NN  ''#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 位#VV)  (case, 腹部#NN, 于#P)  (assmod, 腹部#NN, 牛#NN)  (case, 牛#NN, 的#DEG)  (prep, 位#VV, 腹部#NN)  (nn, 腹部#NN, 牛#NN)  (nsubj, 组织#VV, 腹部#NN)  (advmod, 组织#VV, 脂肪#AD)  (conj, 位#VV, 组织#VV)  (range, 组织#VV, 很多#CD)  (nsubj, 夹带#VV, 其中#NN)  (advmod, 夹带#VV, 又#AD)  (conj, 位#VV, 夹带#VV)  (asp, 夹带#VV, 着#AS)  (nn, 组织#NN, 肌肉#NN)  (dobj, 夹带#VV, 组织#NN)  (nn, 间隔#NN, 肥瘦#NN)  (nsubj, ``#VV, 间隔#NN)  (advmod, ``#VV, 故称#AD)  (conj, 位#VV, ``#VV)  (nummod, ''#NN, 五#CD)  (nn, ''#NN, 花#NN)  (nn, ''#NN, 牛肉#NN)  (dobj, ``#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  缓解体力疲劳  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            咸鹅纯用盐来腌制，因此做菜前，要先用清水泡6个小时，去除过多的咸味，然后再要蒸或煮1个小时，才能食用。
+        </rawdata>
+
+        <segment>
+            咸  鹅  纯  用  盐  来  腌制  ，  因此  做菜  前  ，  要  先用  清水  泡  6  个  小时  ，  去除  过多  的  咸味  ，  然后  再  要  蒸  或  煮  1  个  小时  ，  才  能  食用  。
+        </segment>
+
+        <pos>
+            咸#NN  鹅#NN  纯#AD  用#P  盐#NN  来#MSP  腌制#VV  ，#PU  因此#AD  做菜#NN  前#LC  ，#PU  要#VV  先用#VV  清水#NN  泡#VV  6#CD  个#M  小时#NN  ，#PU  去除#NN  过多#NN  的#DEG  咸味#NN  ，#PU  然后#AD  再#AD  要#VV  蒸#VV  或#CC  煮#VV  1#CD  个#M  小时#NN  ，#PU  才#AD  能#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鹅#NN, 咸#NN)  (nsubj, 腌制#VV, 鹅#NN)  (advmod, 腌制#VV, 纯#AD)  (case, 盐#NN, 用#P)  (prep, 腌制#VV, 盐#NN)  (prtmod, 腌制#VV, 来#MSP)  (root, ROOT#null, 腌制#VV)  (advmod, 先用#VV, 因此#AD)  (loc, 先用#VV, 做菜#NN)  (case, 做菜#NN, 前#LC)  (mmod, 先用#VV, 要#VV)  (conj, 腌制#VV, 先用#VV)  (dobj, 先用#VV, 清水#NN)  (dep, 先用#VV, 泡#VV)  (nummod, 个#M, 6#CD)  (clf, 小时#NN, 个#M)  (dobj, 泡#VV, 小时#NN)  (nn, 过多#NN, 去除#NN)  (assmod, 咸味#NN, 过多#NN)  (case, 过多#NN, 的#DEG)  (nsubj, 蒸#VV, 咸味#NN)  (advmod, 蒸#VV, 然后#AD)  (advmod, 蒸#VV, 再#AD)  (mmod, 蒸#VV, 要#VV)  (conj, 腌制#VV, 蒸#VV)  (cc, 蒸#VV, 或#CC)  (dep, 蒸#VV, 煮#VV)  (nummod, 个#M, 1#CD)  (clf, 小时#NN, 个#M)  (dobj, 煮#VV, 小时#NN)  (advmod, 食用#VV, 才#AD)  (dep, 食用#VV, 能#VV)  (conj, 腌制#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/02/51/20738_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1214 五花牛肉.jpg
+    </picturelocalurl>
+
+</content>

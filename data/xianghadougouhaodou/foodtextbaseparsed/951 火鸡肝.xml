@@ -1,0 +1,278 @@
+<content>
+
+    <id>
+        951
+    </id>
+
+    <foodname>
+        火鸡肝
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高胆固醇血症、肝病、高血压和冠心病患者应少食。
+        </rawdata>
+
+        <segment>
+            高  胆固醇血症  、  肝病  、  高血压  和  冠心病  患者  应  少  食  。
+        </segment>
+
+        <pos>
+            高#JJ  胆固醇血症#NN  、#PU  肝病#NN  、#PU  高血压#NN  和#CC  冠心病#NN  患者#NN  应#VV  少#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 冠心病#NN, 高#JJ)  (conj, 冠心病#NN, 胆固醇血症#NN)  (conj, 冠心病#NN, 肝病#NN)  (conj, 冠心病#NN, 高血压#NN)  (cc, 冠心病#NN, 和#CC)  (nn, 患者#NN, 冠心病#NN)  (nsubj, 少#VV, 患者#NN)  (mmod, 少#VV, 应#VV)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                143cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                69.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                20g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                5.6g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                3.1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.06mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                1.21mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                1.13mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                43mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                128.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                20.7mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                294mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            雉科动物火鸡的肝脏。因其分丰富的营养和特殊功效，使得鸡肝成为补血养生的最佳食物。
+        </rawdata>
+
+        <segment>
+            雉科  动物  火鸡  的  肝脏  。  因  其  分  丰富  的  营养  和  特殊  功效  ，  使得  鸡肝  成为  补血  养生  的  最佳  食物  。
+        </segment>
+
+        <pos>
+            雉科#JJ  动物#NN  火鸡#NN  的#DEG  肝脏#NN    。#PU  因#P  其#PN  分#VV  丰富#VA  的#DEC  营养#VA  和#CC  特殊#VA  功效#NN  ，#PU  使得#VV  鸡肝#NN  成为#VV  补血#NN  养生#NN  的#DEG  最佳#JJ  食物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 动物#NN, 雉科#JJ)  (nn, 肝脏#NN, 动物#NN)  (assmod, 肝脏#NN, 火鸡#NN)  (case, 火鸡#NN, 的#DEG)  (root, ROOT#null, 肝脏#NN)   (case, 其#PN, 因#P)  (prep, 分#VV, 其#PN)  (root, ROOT#null, 分#VV)  (relcl, 功效#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 功效#NN, 营养#VA)  (cc, 营养#VA, 和#CC)  (dep, 营养#VA, 特殊#VA)  (dobj, 分#VV, 功效#NN)  (dep, 分#VV, 使得#VV)  (dobj, 使得#VV, 鸡肝#NN)  (dep, 使得#VV, 成为#VV)  (nn, 养生#NN, 补血#NN)  (assmod, 食物#NN, 养生#NN)  (case, 养生#NN, 的#DEG)  (amod, 食物#NN, 最佳#JJ)  (dobj, 成为#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            肝脏是动物体内储存养料和解毒的重要器官，含有丰富的营养物质，具有营养保健功能，是最理想的补血佳品之一。
+        </rawdata>
+
+        <segment>
+            肝脏  是  动物  体内  储存  养料  和  解毒  的  重要  器官  ，  含有  丰富  的  营养  物质  ，  具有  营养  保健  功能  ，  是  最  理想  的  补血  佳品  之一  。
+        </segment>
+
+        <pos>
+            肝脏#NN  是#VC  动物#NN  体内#NN  储存#VV  养料#NN  和#CC  解毒#NN  的#DEC  重要#JJ  器官#NN  ，#PU  含有#VV  丰富#VA  的#DEC  营养#VA  物质#NN  ，#PU  具有#VV  营养#VA  保健#NN  功能#NN  ，#PU  是#VC  最#AD  理想#VA  的#DEC  补血#NN  佳品#NN  之一#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 器官#NN, 肝脏#NN)  (cop, 器官#NN, 是#VC)  (nn, 体内#NN, 动物#NN)  (nsubj, 储存#VV, 体内#NN)  (relcl, 器官#NN, 储存#VV)  (conj, 解毒#NN, 养料#NN)  (cc, 解毒#NN, 和#CC)  (dobj, 储存#VV, 解毒#NN)  (mark, 储存#VV, 的#DEC)  (amod, 器官#NN, 重要#JJ)  (root, ROOT#null, 器官#NN)  (conj, 器官#NN, 含有#VV)  (relcl, 物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)  (conj, 器官#NN, 具有#VV)  (relcl, 保健#NN, 营养#VA)  (nn, 功能#NN, 保健#NN)  (dobj, 具有#VV, 功能#NN)  (cop, 之一#NN, 是#VC)  (advmod, 理想#VA, 最#AD)  (relcl, 之一#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 之一#NN, 补血#NN)  (nn, 之一#NN, 佳品#NN)  (conj, 器官#NN, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.动物肝是体内最大的毒物中转站和解毒器官，所以买回的鲜肝不要急于烹调。应把肝放在自来水龙头下冲洗10分钟，然后放在水中浸泡30分钟;
+            2.烹调时间不能太短，至少应该在急火中炒5分钟以上，使肝完全变成灰褐色，看不到血丝才好;
+            3.治疗贫血配菠菜最好;
+            4.动物肝还是不宜食用过多，以免摄入太多的胆固醇。
+        </rawdata>
+
+        <segment>
+            动物  肝是  体内  最  大  的  毒物  中转站  和  解毒  器官  ，  所以  买回  的  鲜肝  不要  急于  烹调  。  应把肝  放在  自来水  龙头  下  冲洗  10  分钟  ，  然后  放在  水  中  浸泡  30  分钟  ;
+            烹调  时间  不  能  太  短  ，  至少  应该  在  急火  中  炒  5  分钟  以上  ，  使肝  完全  变成  灰褐色  ，  看  不  到  血丝  才  好  ;
+            治疗  贫血  配  菠菜  最好  ;
+            动物肝  还是  不  宜  食用  过多  ，  以免  摄入  太  多  的  胆固醇  。
+        </segment>
+
+        <pos>
+            动物#NN  肝是#NN  体内#NN  最#AD  大#VA  的#DEC  毒物#NR  中转站#NN  和#CC  解毒#NN  器官#VV  ，#PU  所以#AD  买回#NN  的#DEG  鲜肝#NN  不要#NN  急于#VV  烹调#VV  。#PU  应把肝#NN  放在#NN  自来水#NN  龙头#NN  下#LC  冲洗#VV  10#CD  分钟#M  ，#PU  然后#AD  放在#VV  水#NN  中#LC  浸泡#NR  30#CD  分钟#M  ;#NN
+            烹调#NN  时间#NN  不#AD  能#VV  太#AD  短#VA  ，#PU  至少#AD  应该#VV  在#P  急火#NN  中#LC  炒#VV  5#CD  分钟#M  以上#LC  ，#PU  使肝#AD  完全#AD  变成#VV  灰褐色#NN  ，#PU  看#VV  不#AD  到#VV  血丝#AD  才#AD  好#VA  ;#VV
+            治疗#NN  贫血#NN  配#AD  菠菜#VV  最好#JJ  ;#NN
+            动物肝#NN  还是#AD  不#AD  宜#NR  食用#VV  过多#NN  ，#PU  以免#VV  摄入#VV  太#AD  多#VA  的#DEC  胆固醇#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 体内#NN, 动物#NN)  (nn, 体内#NN, 肝是#NN)  (nsubj, 大#VA, 体内#NN)  (advmod, 大#VA, 最#AD)  (relcl, 解毒#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nn, 解毒#NN, 毒物#NR)  (conj, 解毒#NN, 中转站#NN)  (cc, 解毒#NN, 和#CC)  (nsubj, 器官#VV, 解毒#NN)  (root, ROOT#null, 器官#VV)  (advmod, 急于#VV, 所以#AD)  (assmod, 不要#NN, 买回#NN)  (case, 买回#NN, 的#DEG)  (nn, 不要#NN, 鲜肝#NN)  (nsubj, 急于#VV, 不要#NN)  (ccomp, 器官#VV, 急于#VV)  (ccomp, 急于#VV, 烹调#VV)  (nn, 自来水#NN, 应把肝#NN)  (nn, 自来水#NN, 放在#NN)  (nsubj, 冲洗#VV, 自来水#NN)  (loc, 冲洗#VV, 龙头#NN)  (case, 龙头#NN, 下#LC)  (conj, 急于#VV, 冲洗#VV)  (nummod, 分钟#M, 10#CD)  (range, 冲洗#VV, 分钟#M)  (advmod, 放在#VV, 然后#AD)  (conj, 急于#VV, 放在#VV)  (dep, ;#NN, 水#NN)  (case, 水#NN, 中#LC)  (nn, ;#NN, 浸泡#NR)  (nummod, 分钟#M, 30#CD)  (clf, ;#NN, 分钟#M)  (dobj, 放在#VV, ;#NN)
+            (nn, 时间#NN, 烹调#NN)  (nsubj, 短#VA, 时间#NN)  (neg, 短#VA, 不#AD)  (mmod, 短#VA, 能#VV)  (advmod, 短#VA, 太#AD)  (root, ROOT#null, 短#VA)  (advmod, 炒#VV, 至少#AD)  (mmod, 炒#VV, 应该#VV)  (case, 急火#NN, 在#P)  (prep, 炒#VV, 急火#NN)  (case, 急火#NN, 中#LC)  (dep, 短#VA, 炒#VV)  (nummod, 分钟#M, 5#CD)  (loc, 炒#VV, 分钟#M)  (case, 分钟#M, 以上#LC)  (advmod, 变成#VV, 使肝#AD)  (advmod, 变成#VV, 完全#AD)  (dep, 短#VA, 变成#VV)  (dobj, 变成#VV, 灰褐色#NN)  (dep, 好#VA, 看#VV)  (dep, 看#VV, 不#AD)  (dep, 看#VV, 到#VV)  (advmod, 好#VA, 血丝#AD)  (advmod, 好#VA, 才#AD)  (dep, 短#VA, 好#VA)  (dep, 短#VA, ;#VV)
+            (nn, 贫血#NN, 治疗#NN)  (nsubj, 菠菜#VV, 贫血#NN)  (advmod, 菠菜#VV, 配#AD)  (root, ROOT#null, 菠菜#VV)  (amod, ;#NN, 最好#JJ)  (dobj, 菠菜#VV, ;#NN)
+            (nsubj, 食用#VV, 动物肝#NN)  (advmod, 食用#VV, 还是#AD)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 过多#NN)  (conj, 食用#VV, 以免#VV)  (ccomp, 以免#VV, 摄入#VV)  (advmod, 多#VA, 太#AD)  (relcl, 胆固醇#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 摄入#VV, 胆固醇#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/e4/41/82404_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\951 火鸡肝.jpg
+    </picturelocalurl>
+
+</content>

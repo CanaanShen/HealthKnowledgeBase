@@ -1,0 +1,438 @@
+<content>
+
+    <id>
+        204
+    </id>
+
+    <foodname>
+        芋头
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        里芋、香芋、芋艿、毛芋
+    </alias>
+
+    <season>
+        9-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            对于有痰、敏性体质(荨麻疹、湿疹、哮喘、过敏性鼻炎)者、小儿食滞、胃纳欠佳、以及糖尿病患者应少食；食滞胃痛、肠胃湿热者忌食。
+        </rawdata>
+
+        <segment>
+            对于  有痰  、  敏性  体质  (  荨麻疹  、  湿疹  、  哮喘  、  过敏性  鼻炎  )  者  、  小儿  食滞  、  胃纳  欠佳  、  以及  糖尿病  患者  应  少  食  ；  食滞  胃痛  、  肠胃  湿  热者  忌食  。
+        </segment>
+
+        <pos>
+            对于#P  有痰#NN  、#PU  敏性#NN  体质#NN  -LRB-#NN  荨麻疹#NN  、#PU  湿疹#NN  、#PU  哮喘#NN  、#PU  过敏性#NN  鼻炎#NN  -RRB-#NN  者#NN  、#PU  小儿#NN  食滞#NN  、#PU  胃纳#NN  欠佳#NN  、#PU  以及#CC  糖尿病#NN  患者#NN  应#VV  少#JJ  食#NN  ；#PU  食滞#VV  胃痛#NN  、#PU  肠胃#NN  湿#NN  热者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 患者#NN, 对于#P)  (conj, -RRB-#NN, 有痰#NN)  (nn, -RRB-#NN, 敏性#NN)  (nn, -RRB-#NN, 体质#NN)  (conj, -RRB-#NN, 荨麻疹#NN)  (conj, -RRB-#NN, 湿疹#NN)  (conj, -RRB-#NN, 哮喘#NN)  (nn, -RRB-#NN, 过敏性#NN)  (nn, -RRB-#NN, 鼻炎#NN)  (conj, 患者#NN, 者#NN)  (nn, 食滞#NN, 小儿#NN)  (conj, 患者#NN, 食滞#NN)  (nn, 欠佳#NN, 胃纳#NN)  (dep, 患者#NN, 欠佳#NN)  (cc, 患者#NN, 以及#CC)  (nn, 患者#NN, 糖尿病#NN)  (prep, 应#VV, 患者#NN)  (root, ROOT#null, 应#VV)  (amod, 食#NN, 少#JJ)  (dobj, 应#VV, 食#NN)  (dep, 应#VV, 食滞#VV)  (conj, 忌食#NN, 胃痛#NN)  (nn, 忌食#NN, 肠胃#NN)  (nn, 忌食#NN, 湿#NN)  (nn, 忌食#NN, 热者#NN)  (dobj, 食滞#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。特别适合身体虚弱者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  特别  适合  身体  虚  弱者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  特别#AD  适合#VV  身体#NN  虚#AD  弱者#AD  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 特别#AD)  (relcl, 身体#NN, 适合#VV)  (nsubj, 食用#VV, 身体#NN)  (advmod, 食用#VV, 虚#AD)  (advmod, 食用#VV, 弱者#AD)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                79
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                18.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                160
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                31.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                378
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                33.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            多年生块茎植物，常作一年生作物栽培。叶片盾形，叶柄长而肥大，绿色或紫红色；植株基部形成短缩茎，逐渐累积养分肥大成肉质球茎，称为“芋头”或“母芋”，球形、卵形、椭圆形或块状等。母芋每节都有一个脑芽，但以中下部节位的腋芽活动力最强，发生第一次分蘖，形成小的球茎称为“子芋”，再从子芋发生“孙芋”，在适宜条件下，可形成曾孙或玄孙芋等。
+            性喜高温湿润，不耐旱，较耐荫，并具有水生植物的特性，水田或旱地均可栽培。根系吸收力弱，整个生长期要求充足水分；对土壤适应性广，以肥沃深厚、保水力强的粘质土为宜；种芋在13～15℃开始发芽，生长适温20℃以上，球茎在短日照条件下形成，发育最适温27～30℃。如遇低温干旱则生长不良，严重影响产量。
+            芋头也可作为观赏植物类似蔓绿绒及万年青。芋头大约有100多种不同种类；有些为椭圆形类似甘薯,而其它大多为圆形。芋头与其它块茎植物比起来较少奇怪的形状。芋头可以长到6呎高而且有宽大的叶子；然而嫩芽在沸水烫过之后是可以食用的。不过叶子及嫩芽在西方市场的用途较少。而块茎部分呈深褐色,外皮是环状的且相当粗糙,上面还有毛。果肉有白色、米白色及紫灰色，有的还有粉红色或褐色的纹理。
+        </rawdata>
+
+        <segment>
+            多年生  块茎  植物  ，  常作  一  年  生  作物  栽培  。  叶片  盾形  ，  叶柄长  而  肥大  ，  绿色  或  紫红色  ；  植株  基部  形成  短  缩茎  ，  逐渐  累积  养分  肥  大成  肉质  球茎  ，  称为  “  芋头  ”  或  “  母芋  ”  ，  球形  、  卵形  、  椭圆形  或  块状  等  。  母芋  每节  都  有  一  个  脑芽  ，  但  以  中下部  节位  的  腋芽  活动力  最强  ，  发生  第一  次  分蘖  ，  形成  小  的  球茎  称为  “  子芋  ”  ，  再  从  子芋  发生  “  孙芋  ”  ，  在  适宜  条件  下  ，  可  形成  曾孙  或  玄孙  芋等  。
+            性  喜  高温  湿润  ，  不  耐旱  ，  较  耐荫  ，  并  具有  水生  植物  的  特性  ，  水田  或  旱地  均  可  栽培  。  根系  吸收  力弱  ，  整  个  生长期  要求  充足  水分  ；  对  土壤  适应性  广  ，  以  肥沃  深厚  、  保水  力强  的  粘质  土  为宜  ；  种芋  在  13  ～  15  ℃  开始  发芽  ，  生长  适温  20  ℃  以上  ，  球茎  在  短  日照  条件  下  形成  ，  发育  最  适温  27  ～  30  ℃  。  如遇  低温  干旱  则  生长  不良  ，  严重  影响  产量  。
+            芋头  也  可  作为  观赏  植物  类似  蔓绿绒  及  万  年  青  。  芋头  大约  有  100  多  种  不同  种类  ；  有些  为  椭圆形  类似  甘薯  ,  而  其它  大多  为  圆形  。  芋头  与  其它  块茎  植物  比  起来  较少  奇怪  的  形状  。  芋头  可以  长到  6  呎  高  而且  有  宽大  的  叶子  ；  然而  嫩芽  在  沸水  烫  过  之后  是  可以  食用  的  。  不过  叶子  及  嫩芽  在  西方  市场  的  用途  较  少  。  而  块茎  部分  呈  深褐色  ,  外皮  是  环状  的  且  相当  粗糙  ,  上面  还  有  毛  。  果肉  有  白色  、  米  白色  及  紫  灰色  ，  有的  还有  粉红色  或  褐色  的  纹理  。
+        </segment>
+
+        <pos>
+            多年生#AD  块茎#VV  植物#NN  ，#PU  常作#VV  一#CD  年#M  生#VV  作物#NN  栽培#VV    。#PU  叶片#NN  盾形#NN  ，#PU  叶柄长#NR  而#CC  肥大#NR  ，#PU  绿色#NN  或#CC  紫红色#NN  ；#PU  植株#NR  基部#AD  形成#VV  短#JJ  缩茎#NN  ，#PU  逐渐#AD  累积#AD  养分#VV  肥#NR  大成#NN  肉质#NN  球茎#NN  ，#PU  称为#VV  ``#NN  芋头#NN  ''#NN  或#CC  ``#NN  母芋#NN  ''#NN  ，#PU  球形#NN  、#PU  卵形#NN  、#PU  椭圆形#NN  或#CC  块状#NN  等#ETC    。#PU  母芋#NN  每节#NN  都#AD  有#VE  一#CD  个#M  脑芽#NN  ，#PU  但#AD  以#P  中下部#NN  节位#NN  的#DEG  腋芽#NN  活动力#VV  最强#NN  ，#PU  发生#VV  第一#OD  次#M  分蘖#NN  ，#PU  形成#VV  小#JJ  的#DEG  球茎#NN  称为#VV  ``#NN  子芋#NN  ''#NN  ，#PU  再#AD  从#P  子芋#NN  发生#VV  ``#NN  孙芋#NN  ''#NN  ，#PU  在#P  适宜#VV  条件#NN  下#LC  ，#PU  可#VV  形成#VV  曾孙#NN  或#CC  玄孙#NN  芋等#NN    。#PU    。#PU
+            性#NN  喜#AD  高温#NN  湿润#VV  ，#PU  不#AD  耐旱#VV  ，#PU  较#AD  耐荫#VV  ，#PU  并#CC  具有#VV  水生#NN  植物#NN  的#DEG  特性#NN  ，#PU  水田#NR  或#CC  旱地#NR  均#AD  可#VV  栽培#VV    。#PU  根系#NR  吸收#VV  力弱#NN  ，#PU  整#DT  个#M  生长期#NN  要求#VV  充足#VA  水分#VA  ；#PU  对#P  土壤#NN  适应性#NN  广#VA  ，#PU  以#P  肥沃#VA  深厚#VA  、#PU  保水#VV  力强#VV  的#DEC  粘质#NN  土#NN  为宜#VV  ；#PU  种芋#NR  在#P  13#CD  ～#NN  15#CD  ℃#NN  开始#VV  发芽#NN  ，#PU  生长#NN  适温#NN  20#CD  ℃#NN  以上#LC  ，#PU  球茎#NR  在#P  短#JJ  日照#NR  条件#NN  下#LC  形成#VV  ，#PU  发育#NN  最#AD  适温#VV  27#CD  ～#VV  30#CD  ℃#NN    。#PU  如遇#VV  低温#JJ  干旱#NN  则#M  生长#NN  不良#JJ  ，#PU  严重#AD  影响#VV  产量#NN    。#PU    。#PU
+            芋头#NN  也#AD  可#VV  作为#P  观赏#NN  植物#NN  类似#VV  蔓绿绒#NR  及#CC  万#CD  年#M  青#NR    。#PU  芋头#NN  大约#AD  有#VE  100#CD  多#CD  种#M  不同#JJ  种类#NN  ；#PU  有些#AD  为#VC  椭圆形#NN  类似#JJ  甘薯#NN  ,#NN  而#CC  其它#DT  大多#AD  为#VC  圆形#NN    。#PU  芋头#VV  与#P  其它#DT  块茎#NN  植物#NN  比#P  起来#VV  较少#NN  奇怪#VA  的#DEC  形状#NN    。#PU  芋头#NR  可以#VV  长到#VV  6#CD  呎#NN  高#VA  而且#CC  有#VE  宽大#NN  的#DEG  叶子#NN  ；#PU  然而#AD  嫩芽#NN  在#P  沸水#AD  烫#VV  过#AS  之后#LC  是#VC  可以#VV  食用#VV  的#DEC    。#PU  不过#AD  叶子#NN  及#CC  嫩芽#NN  在#P  西方#NN  市场#NN  的#DEG  用途#NN  较#AD  少#VA    。#PU  而#AD  块茎#NN  部分#NN  呈#VV  深褐色#NN  ,#NN  外皮#NN  是#VC  环状#NN  的#DEC  且#CC  相当#JJ  粗糙#NN  ,#NN  上面#NN  还#AD  有#VE  毛#NN    。#PU  果肉#NN  有#VE  白色#JJ  、#PU  米#M  白色#JJ  及#VV  紫#VA  灰色#NN  ，#PU  有的#PN  还有#AD  粉红色#NN  或#CC  褐色#NN  的#DEG  纹理#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 块茎#VV, 多年生#AD)  (root, ROOT#null, 块茎#VV)  (dobj, 块茎#VV, 植物#NN)  (dep, 块茎#VV, 常作#VV)  (nummod, 年#M, 一#CD)  (range, 常作#VV, 年#M)  (conj, 常作#VV, 生#VV)  (dobj, 生#VV, 作物#NN)  (conj, 常作#VV, 栽培#VV)   (nn, 盾形#NN, 叶片#NN)  (nsubj, 形成#VV, 盾形#NN)  (conj, 肥大#NR, 叶柄长#NR)  (cc, 肥大#NR, 而#CC)  (nsubj, 形成#VV, 肥大#NR)  (conj, 紫红色#NN, 绿色#NN)  (cc, 紫红色#NN, 或#CC)  (nsubj, 形成#VV, 紫红色#NN)  (nsubj, 形成#VV, 植株#NR)  (advmod, 形成#VV, 基部#AD)  (root, ROOT#null, 形成#VV)  (amod, 缩茎#NN, 短#JJ)  (dobj, 形成#VV, 缩茎#NN)  (advmod, 养分#VV, 逐渐#AD)  (advmod, 养分#VV, 累积#AD)  (conj, 形成#VV, 养分#VV)  (nn, 球茎#NN, 肥#NR)  (nn, 球茎#NN, 大成#NN)  (nn, 球茎#NN, 肉质#NN)  (dobj, 养分#VV, 球茎#NN)  (conj, 形成#VV, 称为#VV)  (nn, 块状#NN, ``#NN)  (nn, 块状#NN, 芋头#NN)  (conj, 块状#NN, ''#NN)  (cc, 块状#NN, 或#CC)  (nn, 块状#NN, ``#NN)  (nn, 块状#NN, 母芋#NN)  (conj, 块状#NN, ''#NN)  (conj, 块状#NN, 球形#NN)  (conj, 块状#NN, 卵形#NN)  (conj, 块状#NN, 椭圆形#NN)  (cc, 块状#NN, 或#CC)  (dobj, 称为#VV, 块状#NN)  (etc, 块状#NN, 等#ETC)   (nn, 每节#NN, 母芋#NN)  (nsubj, 有#VE, 每节#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 一#CD)  (clf, 脑芽#NN, 个#M)  (dobj, 有#VE, 脑芽#NN)  (advmod, 活动力#VV, 但#AD)  (case, 腋芽#NN, 以#P)  (nn, 节位#NN, 中下部#NN)  (assmod, 腋芽#NN, 节位#NN)  (case, 节位#NN, 的#DEG)  (prep, 活动力#VV, 腋芽#NN)  (conj, 有#VE, 活动力#VV)  (dobj, 活动力#VV, 最强#NN)  (conj, 有#VE, 发生#VV)  (ordmod, 次#M, 第一#OD)  (clf, 分蘖#NN, 次#M)  (dobj, 发生#VV, 分蘖#NN)  (conj, 发生#VV, 形成#VV)  (assmod, 球茎#NN, 小#JJ)  (case, 小#JJ, 的#DEG)  (dobj, 形成#VV, 球茎#NN)  (dep, 发生#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 子芋#NN)  (dobj, 称为#VV, ''#NN)  (advmod, 发生#VV, 再#AD)  (case, 子芋#NN, 从#P)  (prep, 发生#VV, 子芋#NN)  (conj, 发生#VV, 发生#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 孙芋#NN)  (dobj, 发生#VV, ''#NN)  (case, 适宜#VV, 在#P)  (prep, 形成#VV, 适宜#VV)  (dobj, 适宜#VV, 条件#NN)  (case, 适宜#VV, 下#LC)  (mmod, 形成#VV, 可#VV)  (conj, 有#VE, 形成#VV)  (conj, 玄孙#NN, 曾孙#NN)  (cc, 玄孙#NN, 或#CC)  (nn, 芋等#NN, 玄孙#NN)  (dobj, 形成#VV, 芋等#NN)   (root, ROOT#null, null#null)
+            (nsubj, 湿润#VV, 性#NN)  (advmod, 湿润#VV, 喜#AD)  (prep, 湿润#VV, 高温#NN)  (root, ROOT#null, 湿润#VV)  (neg, 耐旱#VV, 不#AD)  (conj, 湿润#VV, 耐旱#VV)  (advmod, 耐荫#VV, 较#AD)  (conj, 湿润#VV, 耐荫#VV)  (cc, 湿润#VV, 并#CC)  (dep, 湿润#VV, 具有#VV)  (nn, 植物#NN, 水生#NN)  (assmod, 特性#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (dobj, 具有#VV, 特性#NN)  (conj, 旱地#NR, 水田#NR)  (cc, 旱地#NR, 或#CC)  (nsubj, 栽培#VV, 旱地#NR)  (advmod, 栽培#VV, 均#AD)  (dep, 栽培#VV, 可#VV)  (conj, 湿润#VV, 栽培#VV)   (nsubj, 吸收#VV, 根系#NR)  (conj, ～#VV, 吸收#VV)  (root, ～#VV, 吸收#VV)  (dobj, 吸收#VV, 力弱#NN)  (det, 生长期#NN, 整#DT)  (clf, 整#DT, 个#M)  (nsubj, 要求#VV, 生长期#NN)  (conj, 吸收#VV, 要求#VV)  (ccomp, 要求#VV, 充足#VA)  (comod, 充足#VA, 水分#VA)  (case, 适应性#NN, 对#P)  (nn, 适应性#NN, 土壤#NN)  (prep, 广#VA, 适应性#NN)  (conj, 吸收#VV, 广#VA)  (case, 土#NN, 以#P)  (relcl, 土#NN, 肥沃#VA)  (comod, 肥沃#VA, 深厚#VA)  (ccomp, 肥沃#VA, 保水#VV)  (comod, 保水#VV, 力强#VV)  (mark, 肥沃#VA, 的#DEC)  (nn, 土#NN, 粘质#NN)  (prep, 为宜#VV, 土#NN)  (dep, 广#VA, 为宜#VV)  (nsubj, 开始#VV, 种芋#NR)  (case, ℃#NN, 在#P)  (nummod, ～#NN, 13#CD)  (nummod, ℃#NN, 15#CD)  (prep, 开始#VV, ℃#NN)  (conj, 吸收#VV, 开始#VV)  (dobj, 开始#VV, 发芽#NN)  (nn, 适温#NN, 生长#NN)  (nn, ℃#NN, 适温#NN)  (nummod, ℃#NN, 20#CD)  (loc, 形成#VV, ℃#NN)  (case, ℃#NN, 以上#LC)  (nsubj, 形成#VV, 球茎#NR)  (case, 条件#NN, 在#P)  (amod, 日照#NR, 短#JJ)  (nn, 条件#NN, 日照#NR)  (prep, 形成#VV, 条件#NN)  (case, 条件#NN, 下#LC)  (conj, 吸收#VV, 形成#VV)  (nsubj, 适温#VV, 发育#NN)  (advmod, 适温#VV, 最#AD)  (conj, 吸收#VV, 适温#VV)  (range, 适温#VV, 27#CD)  (nummod, ℃#NN, 30#CD)  (dobj, 吸收#VV, ℃#NN)  (dobj, ～#VV, ℃#NN)   (root, ROOT#null, 如遇#VV)  (amod, 干旱#NN, 低温#JJ)  (nn, 生长#NN, 干旱#NN)  (clf, 生长#NN, 则#M)  (dobj, 如遇#VV, 生长#NN)  (conj, 如遇#VV, 不良#JJ)  (advmod, 影响#VV, 严重#AD)  (conj, 如遇#VV, 影响#VV)  (dobj, 影响#VV, 产量#NN)   (root, ROOT#null, null#null)
+            (nsubj, 类似#VV, 芋头#NN)  (advmod, 类似#VV, 也#AD)  (mmod, 类似#VV, 可#VV)  (case, 植物#NN, 作为#P)  (nn, 植物#NN, 观赏#NN)  (prep, 类似#VV, 植物#NN)  (root, ROOT#null, 类似#VV)  (conj, 青#NR, 蔓绿绒#NR)  (cc, 青#NR, 及#CC)  (nummod, 年#M, 万#CD)  (clf, 青#NR, 年#M)  (dobj, 类似#VV, 青#NR)   (nsubj, 有#VE, 芋头#NN)  (advmod, 有#VE, 大约#AD)  (root, ROOT#null, 有#VE)  (nummod, 种类#NN, 100#CD)  (nummod, 种#M, 多#CD)  (clf, 种类#NN, 种#M)  (amod, 种类#NN, 不同#JJ)  (dobj, 有#VE, 种类#NN)  (advmod, ,#NN, 有些#AD)  (cop, ,#NN, 为#VC)  (nn, 甘薯#NN, 椭圆形#NN)  (amod, 甘薯#NN, 类似#JJ)  (nn, ,#NN, 甘薯#NN)  (cc, ,#NN, 而#CC)  (dep, 圆形#NN, 其它#DT)  (advmod, 圆形#NN, 大多#AD)  (cop, 圆形#NN, 为#VC)  (dep, ,#NN, 圆形#NN)   (root, ROOT#null, 芋头#VV)  (case, 植物#NN, 与#P)  (det, 植物#NN, 其它#DT)  (nn, 植物#NN, 块茎#NN)  (prep, 奇怪#VA, 植物#NN)  (case, 较少#NN, 比#P)  (nfincl, 较少#NN, 起来#VV)  (prep, 奇怪#VA, 较少#NN)  (relcl, 形状#NN, 奇怪#VA)  (mark, 奇怪#VA, 的#DEC)  (dobj, 芋头#VV, 形状#NN)   (nsubj, 长到#VV, 芋头#NR)  (mmod, 长到#VV, 可以#VV)  (root, ROOT#null, 长到#VV)  (nummod, 呎#NN, 6#CD)  (nsubj, 高#VA, 呎#NN)  (ccomp, 长到#VV, 高#VA)  (cc, 高#VA, 而且#CC)  (dep, 高#VA, 有#VE)  (assmod, 叶子#NN, 宽大#NN)  (case, 宽大#NN, 的#DEG)  (dobj, 有#VE, 叶子#NN)  (advmod, 食用#VV, 然而#AD)  (nsubj, 食用#VV, 嫩芽#NN)  (case, 烫#VV, 在#P)  (advmod, 烫#VV, 沸水#AD)  (prep, 食用#VV, 烫#VV)  (asp, 烫#VV, 过#AS)  (case, 烫#VV, 之后#LC)  (cop, 食用#VV, 是#VC)  (dep, 食用#VV, 可以#VV)  (conj, 高#VA, 食用#VV)  (mark, 食用#VV, 的#DEC)   (advmod, 少#VA, 不过#AD)  (conj, 嫩芽#NN, 叶子#NN)  (cc, 嫩芽#NN, 及#CC)  (nsubj, 少#VA, 嫩芽#NN)  (case, 市场#NN, 在#P)  (nn, 市场#NN, 西方#NN)  (assmod, 用途#NN, 市场#NN)  (case, 市场#NN, 的#DEG)  (nsubj, 少#VA, 用途#NN)  (advmod, 少#VA, 较#AD)  (root, ROOT#null, 少#VA)   (advmod, 呈#VV, 而#AD)  (nn, 部分#NN, 块茎#NN)  (nsubj, 呈#VV, 部分#NN)  (conj, 粗糙#NN, 呈#VV)  (nn, 外皮#NN, 深褐色#NN)  (dobj, 呈#VV, 外皮#NN)  (cop, 环状#NN, 是#VC)  (conj, 呈#VV, 环状#NN)  (mark, 呈#VV, 的#DEC)  (cc, 粗糙#NN, 且#CC)  (amod, 粗糙#NN, 相当#JJ)  (nn, 上面#NN, 粗糙#NN)  (nsubj, 有#VE, 上面#NN)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 毛#NN)   (dep, 有#VE, 果肉#NN)  (root, ROOT#null, 有#VE)  (amod, 纹理#NN, 白色#JJ)  (clf, 灰色#NN, 米#M)  (amod, 灰色#NN, 白色#JJ)  (relcl, 灰色#NN, 及#VV)  (dep, 及#VV, 紫#VA)  (dep, 纹理#NN, 灰色#NN)  (nn, 褐色#NN, 有的#PN)  (advmod, 褐色#NN, 还有#AD)  (conj, 褐色#NN, 粉红色#NN)  (cc, 褐色#NN, 或#CC)  (assmod, 纹理#NN, 褐色#NN)  (case, 褐色#NN, 的#DEG)  (dobj, 有#VE, 纹理#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强免疫力
+            能增强人体的免疫功能，对于癌症手术后放射化疗以及康复，有辅助治疗作用。
+            2.洁齿防龋
+            氟的含量较高因此芋头有洁齿防龋，保护牙齿的功效。
+            3.解毒防癌
+            芋头中含有一种粘液蛋白，在被人体吸收后能产生免疫球蛋白，提高身体的抵抗力，因此芋头可以解毒，对人体的癌毒有抑制消解作用，可以用来防治肿瘤等疾病。
+            4.美容乌发
+            芋头为碱性食品，能中和体内积存的酸性物质，协调人体的酸碱平衡，达到美容养颜，乌黑头发的效果，还可以用来防治胃酸过多。
+            5.补中益气
+            芋头含有丰富的黏液皂素及多种微量元素，可帮助机体纠正微量元素缺乏导致的生理异常，同时能增进食欲，帮助消化，故中医认为芋艿可补中益气。　
+        </rawdata>
+
+        <segment>
+            增强  免疫力
+            能  增强  人体  的  免疫  功能  ，  对于  癌症  手术  后  放射  化疗  以及  康复  ，  有  辅助  治疗  作用  。
+            洁齿  防龋
+            氟的  含量  较  高  因此  芋头  有  洁齿  防龋  ，  保护  牙齿  的  功效  。
+            解毒  防癌
+            芋头  中  含有  一  种  粘液  蛋白  ，  在  被  人体  吸收  后能  产生  免疫  球蛋白  ，  提高  身体  的  抵抗力  ，  因此  芋头  可以  解毒  ，  对  人体  的  癌毒  有  抑制  消解  作用  ，  可以  用来  防治  肿瘤  等  疾病  。
+            美容  乌发
+            芋头  为  碱性  食品  ，  能  中和  体内  积存  的  酸性  物质  ，  协调  人体  的  酸碱  平衡  ，  达到  美容  养颜  ，  乌黑  头发  的  效果  ，  还  可以  用来  防治  胃酸  过多  。
+            补  中  益气
+            芋头  含有  丰富  的  黏液  皂素  及  多  种  微量  元素  ，  可  帮助  机体  纠正  微量  元素  缺乏  导致  的  生理  异常  ，  同时  能  增进  食欲  ，  帮助  消化  ，  故  中医  认为  芋艿  可  补  中  益气  。
+        </segment>
+
+        <pos>
+            增强#VV  免疫力#NN
+            能#VV  增强#VV  人体#NN  的#DEG  免疫#NN  功能#NN  ，#PU  对于#P  癌症#NN  手术#NN  后#LC  放射#VV  化疗#NN  以及#CC  康复#NN  ，#PU  有#VE  辅助#NN  治疗#NN  作用#NN  。#PU
+            洁齿#NN  防龋#VV
+            氟的#NN  含量#NN  较#AD  高#VA  因此#AD  芋头#AD  有#VE  洁齿#NN  防龋#NN  ，#PU  保护#VV  牙齿#NN  的#DEG  功效#NN  。#PU
+            解毒#NN  防癌#VV
+            芋头#NN  中#LC  含有#NR  一#CD  种#M  粘液#NN  蛋白#VV  ，#PU  在#P  被#SB  人体#VV  吸收#VV  后能#NN  产生#VV  免疫#NN  球蛋白#NN  ，#PU  提高#VV  身体#NN  的#DEC  抵抗力#NN  ，#PU  因此#AD  芋头#NR  可以#VV  解毒#NN  ，#PU  对#P  人体#NR  的#DEG  癌毒#NN  有#VE  抑制#NN  消解#NN  作用#NN  ，#PU  可以#VV  用来#NN  防治#NN  肿瘤#NN  等#ETC  疾病#NN  。#PU
+            美容#NN  乌发#VV
+            芋头#NN  为#P  碱性#VV  食品#NN  ，#PU  能#VV  中和#VV  体内#NN  积存#NN  的#DEG  酸性#NN  物质#NN  ，#PU  协调#VV  人体#NN  的#DEG  酸碱#NN  平衡#NN  ，#PU  达到#VV  美容#NN  养颜#NN  ，#PU  乌黑#VV  头发#NN  的#DEG  效果#NN  ，#PU  还#AD  可以#VV  用来#VV  防治#NN  胃酸#NN  过多#NN  。#PU
+            补#VV  中#NR  益气#NN
+            芋头#NN  含有#VV  丰富#VA  的#DEC  黏液#NN  皂素#NN  及#CC  多#CD  种#M  微量#JJ  元素#NN  ，#PU  可#VV  帮助#VV  机体#NN  纠正#VV  微量#NN  元素#NN  缺乏#VV  导致#VV  的#DEC  生理#NN  异常#VA  ，#PU  同时#AD  能#VV  增进#VV  食欲#NN  ，#PU  帮助#VV  消化#NN  ，#PU  故#AD  中医#NN  认为#VV  芋艿#AD  可#VV  补#VV  中#NR  益气#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)
+            (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (assmod, 功能#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)  (case, 手术#NN, 对于#P)  (nn, 手术#NN, 癌症#NN)  (prep, 放射#VV, 手术#NN)  (case, 手术#NN, 后#LC)  (conj, 增强#VV, 放射#VV)  (conj, 康复#NN, 化疗#NN)  (cc, 康复#NN, 以及#CC)  (dobj, 放射#VV, 康复#NN)  (dep, 增强#VV, 有#VE)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 防龋#VV, 洁齿#NN)  (root, ROOT#null, 防龋#VV)
+            (nn, 含量#NN, 氟的#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (dep, 有#VE, 高#VA)  (advmod, 有#VE, 因此#AD)  (advmod, 有#VE, 芋头#AD)  (root, ROOT#null, 有#VE)  (nn, 防龋#NN, 洁齿#NN)  (dobj, 有#VE, 防龋#NN)  (dep, 有#VE, 保护#VV)  (assmod, 功效#NN, 牙齿#NN)  (case, 牙齿#NN, 的#DEG)  (dobj, 保护#VV, 功效#NN)
+            (nsubj, 防癌#VV, 解毒#NN)  (root, ROOT#null, 防癌#VV)
+            (loc, 蛋白#VV, 芋头#NN)  (case, 芋头#NN, 中#LC)  (nn, 粘液#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 粘液#NN, 种#M)  (nsubj, 蛋白#VV, 粘液#NN)  (root, ROOT#null, 蛋白#VV)  (case, 抵抗力#NN, 在#P)  (auxpass, 吸收#VV, 被#SB)  (mmod, 吸收#VV, 人体#VV)  (relcl, 抵抗力#NN, 吸收#VV)  (dobj, 吸收#VV, 后能#NN)  (dep, 吸收#VV, 产生#VV)  (nn, 球蛋白#NN, 免疫#NN)  (dobj, 产生#VV, 球蛋白#NN)  (conj, 产生#VV, 提高#VV)  (dobj, 提高#VV, 身体#NN)  (mark, 吸收#VV, 的#DEC)  (prep, 可以#VV, 抵抗力#NN)  (advmod, 可以#VV, 因此#AD)  (nsubj, 可以#VV, 芋头#NR)  (ccomp, 蛋白#VV, 可以#VV)  (dobj, 可以#VV, 解毒#NN)  (case, 癌毒#NN, 对#P)  (assmod, 癌毒#NN, 人体#NR)  (case, 人体#NR, 的#DEG)  (prep, 有#VE, 癌毒#NN)  (conj, 可以#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (nn, 作用#NN, 消解#NN)  (dobj, 有#VE, 作用#NN)  (conj, 可以#VV, 可以#VV)  (nn, 肿瘤#NN, 用来#NN)  (nn, 肿瘤#NN, 防治#NN)  (nn, 疾病#NN, 肿瘤#NN)  (etc, 肿瘤#NN, 等#ETC)  (dobj, 可以#VV, 疾病#NN)
+            (nsubj, 乌发#VV, 美容#NN)  (root, ROOT#null, 乌发#VV)
+            (nsubj, 中和#VV, 芋头#NN)  (case, 碱性#VV, 为#P)  (prep, 中和#VV, 碱性#VV)  (dobj, 碱性#VV, 食品#NN)  (mmod, 中和#VV, 能#VV)  (root, ROOT#null, 中和#VV)  (nn, 积存#NN, 体内#NN)  (assmod, 物质#NN, 积存#NN)  (case, 积存#NN, 的#DEG)  (nn, 物质#NN, 酸性#NN)  (dobj, 中和#VV, 物质#NN)  (conj, 中和#VV, 协调#VV)  (assmod, 平衡#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nn, 平衡#NN, 酸碱#NN)  (dobj, 协调#VV, 平衡#NN)  (conj, 中和#VV, 达到#VV)  (nn, 养颜#NN, 美容#NN)  (dobj, 达到#VV, 养颜#NN)  (conj, 中和#VV, 乌黑#VV)  (assmod, 效果#NN, 头发#NN)  (case, 头发#NN, 的#DEG)  (dobj, 乌黑#VV, 效果#NN)  (advmod, 用来#VV, 还#AD)  (mmod, 用来#VV, 可以#VV)  (conj, 中和#VV, 用来#VV)  (nn, 过多#NN, 防治#NN)  (nn, 过多#NN, 胃酸#NN)  (dobj, 用来#VV, 过多#NN)
+            (root, ROOT#null, 补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 补#VV, 益气#NN)
+            (nsubj, 含有#VV, 芋头#NN)  (root, ROOT#null, 含有#VV)  (relcl, 皂素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 皂素#NN, 黏液#NN)  (conj, 元素#NN, 皂素#NN)  (cc, 元素#NN, 及#CC)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)  (mmod, 帮助#VV, 可#VV)  (conj, 含有#VV, 帮助#VV)  (dobj, 帮助#VV, 机体#NN)  (dep, 帮助#VV, 纠正#VV)  (nn, 元素#NN, 微量#NN)  (dobj, 纠正#VV, 元素#NN)  (dep, 帮助#VV, 缺乏#VV)  (relcl, 生理#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (dobj, 缺乏#VV, 生理#NN)  (conj, 缺乏#VV, 异常#VA)  (advmod, 增进#VV, 同时#AD)  (mmod, 增进#VV, 能#VV)  (conj, 含有#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 含有#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (advmod, 认为#VV, 故#AD)  (nsubj, 认为#VV, 中医#NN)  (xsubj, 补#VV, 中医#NN)  (conj, 含有#VV, 认为#VV)  (advmod, 补#VV, 芋艿#AD)  (mmod, 补#VV, 可#VV)  (ccomp, 认为#VV, 补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 补#VV, 益气#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.芋头中富含蛋白质、钙、磷、铁、钾、镁、钠、胡萝卜素、烟酸、维生素C、B族维生素、皂角甙等多种成分，所含的矿物质中，氟的含量较高，具有洁齿防龋、保护牙齿的作用。
+            2.芋头含有一种黏液蛋白，被人体吸收后能产生免疫球蛋白，或称抗体球蛋白，可提高机体的抵抗力。故中医认为芋艿能解毒，对人体的痈肿毒痛包括癌毒有抑制消解作用，可用来防治肿瘤及淋巴结核等病症。
+        </rawdata>
+
+        <segment>
+            芋头  中  富含  蛋白质  、  钙  、  磷  、  铁  、  钾  、  镁  、  钠  、  胡萝卜素  、  烟酸  、  维生素C  、  B  族  维生素  、  皂角甙  等  多  种  成分  ，  所含  的  矿物质  中  ，  氟的  含量  较  高  ，  具有  洁齿  防龋  、  保护  牙齿  的  作用  。
+            芋头  含有  一  种  黏液  蛋白  ，  被  人体  吸收  后能  产生  免疫  球蛋白  ，  或称  抗体  球  蛋白  ，  可  提高  机体  的  抵抗力  。  故  中医  认为  芋艿  能  解毒  ，  对  人体  的  痈肿  毒  痛  包括  癌毒  有  抑制  消解  作用  ，  可  用来  防治  肿瘤  及  淋巴  结核  等  病症  。
+        </segment>
+
+        <pos>
+            芋头#NN  中#LC  富含#NN  蛋白质#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  镁#NN  、#PU  钠#NN  、#PU  胡萝卜素#NN  、#PU  烟酸#NN  、#PU  维生素C#NN  、#PU  B#NN  族#NN  维生素#NN  、#PU  皂角甙#NN  等#ETC  多#CD  种#M  成分#NN  ，#PU  所含#NN  的#DEG  矿物质#NN  中#LC  ，#PU  氟的#NN  含量#NN  较#AD  高#VA  ，#PU  具有#VV  洁齿#NN  防龋#NN  、#PU  保护#NN  牙齿#NN  的#DEG  作用#NN  。#PU
+            芋头#AD  含有#VV  一#CD  种#M  黏液#NN  蛋白#NN  ，#PU  被#SB  人体#VV  吸收#VV  后能#NN  产生#VV  免疫#NN  球蛋白#NN  ，#PU  或称#VV  抗体#CD  球#M  蛋白#NN  ，#PU  可#VV  提高#VV  机体#NN  的#DEG  抵抗力#NN    。#PU  故#AD  中医#NN  认为#VV  芋艿#AD  能#VV  解毒#VV  ，#PU  对#P  人体#NN  的#DEG  痈肿#NN  毒#VV  痛#NN  包括#AD  癌毒#AD  有#VE  抑制#VV  消解#NN  作用#NN  ，#PU  可#VV  用来#VV  防治#NN  肿瘤#NN  及#CC  淋巴#NN  结核#NN  等#ETC  病症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 高#VA, 芋头#NN)  (case, 芋头#NN, 中#LC)  (nn, 皂角甙#NN, 富含#NN)  (conj, 皂角甙#NN, 蛋白质#NN)  (conj, 皂角甙#NN, 钙#NN)  (conj, 皂角甙#NN, 磷#NN)  (conj, 皂角甙#NN, 铁#NN)  (conj, 皂角甙#NN, 钾#NN)  (conj, 皂角甙#NN, 镁#NN)  (conj, 皂角甙#NN, 钠#NN)  (conj, 皂角甙#NN, 胡萝卜素#NN)  (conj, 皂角甙#NN, 烟酸#NN)  (conj, 皂角甙#NN, 维生素C#NN)  (nn, 皂角甙#NN, B#NN)  (nn, 皂角甙#NN, 族#NN)  (conj, 皂角甙#NN, 维生素#NN)  (nn, 成分#NN, 皂角甙#NN)  (etc, 皂角甙#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nsubj, 高#VA, 成分#NN)  (assmod, 矿物质#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (loc, 高#VA, 矿物质#NN)  (case, 矿物质#NN, 中#LC)  (nn, 含量#NN, 氟的#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (dep, 高#VA, 具有#VV)  (nn, 保护#NN, 洁齿#NN)  (conj, 保护#NN, 防龋#NN)  (nn, 牙齿#NN, 保护#NN)  (assmod, 作用#NN, 牙齿#NN)  (case, 牙齿#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (advmod, 含有#VV, 芋头#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 黏液#NN)  (dobj, 含有#VV, 蛋白#NN)  (auxpass, 人体#VV, 被#SB)  (conj, 含有#VV, 人体#VV)  (dep, 人体#VV, 吸收#VV)  (dobj, 吸收#VV, 后能#NN)  (conj, 吸收#VV, 产生#VV)  (nn, 球蛋白#NN, 免疫#NN)  (dobj, 产生#VV, 球蛋白#NN)  (dep, 含有#VV, 或称#VV)  (nummod, 球#M, 抗体#CD)  (clf, 蛋白#NN, 球#M)  (dobj, 或称#VV, 蛋白#NN)  (mmod, 提高#VV, 可#VV)  (conj, 含有#VV, 提高#VV)  (assmod, 抵抗力#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 提高#VV, 抵抗力#NN)   (advmod, 认为#VV, 故#AD)  (nsubj, 认为#VV, 中医#NN)  (xsubj, 解毒#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (advmod, 解毒#VV, 芋艿#AD)  (dep, 解毒#VV, 能#VV)  (ccomp, 认为#VV, 解毒#VV)  (case, 痈肿#NN, 对#P)  (assmod, 痈肿#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (prep, 毒#VV, 痈肿#NN)  (dep, 解毒#VV, 毒#VV)  (dobj, 毒#VV, 痛#NN)  (advmod, 有#VE, 包括#AD)  (advmod, 有#VE, 癌毒#AD)  (dep, 认为#VV, 有#VE)  (dep, 有#VE, 抑制#VV)  (nn, 作用#NN, 消解#NN)  (dobj, 抑制#VV, 作用#NN)  (mmod, 用来#VV, 可#VV)  (dep, 抑制#VV, 用来#VV)  (nn, 结核#NN, 防治#NN)  (conj, 结核#NN, 肿瘤#NN)  (cc, 结核#NN, 及#CC)  (nn, 结核#NN, 淋巴#NN)  (nn, 病症#NN, 结核#NN)  (etc, 结核#NN, 等#ETC)  (dobj, 用来#VV, 病症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.由于芋头的黏液中含有皂甙，能刺激皮肤发痒，因此生剥芋头皮时需小心，可以倒点醋在手中，搓一搓再削皮，芋头就伤不到你了。不过如果手部有未愈的伤口，就不可以使用这个方法，削了皮的芋头碰上水再接触皮肤，就会更痒了，所以，芋头不用先洗净就去皮，并保持手部的干燥，可以减少痒的发生，如果不小心接触皮肤发痒时，涂抹生姜或在火上烘烤片刻或浸泡醋水都可以止痒。
+            2.芋头去皮妙法：将带皮的芋头装进小口袋里（只装半袋）用手抓住袋口，将袋子在水泥地上摔几下，再把芋头倒出，便可以发现芋头皮全脱下了。芋头含有较多的淀粉，一次吃得过多会导致腹胀。
+            3.芋头含有难消化的淀粉质和草酸钙结晶体,然而草酸钙具有苦味且会使皮肤过敏,但经过烹煮后就会消失。在烹煮时果肉会变成灰色或淡紫色。芋头的烹调方法类似马铃薯。芋头经过炖煮后会使汤变得更浓,且芋头容易吸收其它食材的汤汁。马铃薯及芋头经过油炸或者用油煎成薄片再淋上酱汁都很美味也可切片和糖浆一起煮,就成了一道甜点。
+            4.芋头可用水煮的（大约20分钟）、蒸的或者用微波炉,也可用烤的（大约25分钟）,但是果肉会变得较干且味道较强烈。若涂上奶油或调味酱等可使芋头没那么干。芋头切成片或块，加酱油先小炒一下，然后加水炖十几分钟，味道极其美味。
+            5.芋头的叶子也可以拿来烹煮,煮起来像是菠菜而且可拿来包其它食物来烘烤。然而叶子中的草酸钙经过烹煮后便会被破坏了。
+            6.生芋有小毒，食时必须熟透；生芋汁易引起局部皮肤过敏，可用姜汁擦拭以解之。
+            7.芋头含有较多的淀粉，一次吃得过多会导致腹胀。
+        </rawdata>
+
+        <segment>
+            由于  芋头  的  黏液  中  含有  皂甙  ，  能  刺激  皮肤  发痒  ，  因此  生  剥  芋头  皮  时  需  小心  ，  可以  倒  点  醋  在  手中  ，  搓  一  搓  再  削皮  ，  芋头  就  伤  不到  你  了  。  不过  如果  手部  有  未愈  的  伤口  ，  就  不  可以  使用  这个  方法  ，  削  了  皮的  芋头  碰上  水  再  接触  皮肤  ，  就  会  更  痒  了  ，  所以  ，  芋头  不用  先  洗净  就  去皮  ，  并  保持  手部  的  干燥  ，  可以  减少  痒  的  发生  ，  如果  不小心  接触  皮肤  发痒  时  ，  涂抹  生姜  或  在  火上  烘烤  片刻  或  浸泡  醋  水  都  可以  止痒  。
+            芋头  去  皮  妙法  ：  将  带  皮的  芋头  装进  小口  袋里  （  只  装  半  袋  ）  用手  抓住  袋口  ，  将  袋子  在  水泥  地上  摔  几  下  ，  再  把  芋头  倒出  ，  便  可以  发现  芋头  皮  全  脱下  了  。  芋头  含有  较多  的  淀粉  ，  一  次  吃得  过  多  会  导致  腹胀  。
+            芋头  含有  难消化  的  淀粉质  和  草酸  钙  结晶体  ,  然而  草酸  钙  具有  苦味  且  会  使  皮肤  过敏  ,  但  经过  烹煮  后  就  会  消失  。  在  烹煮  时  果肉  会  变成  灰色  或  淡紫色  。  芋头  的  烹调  方法  类似  马铃薯  。  芋头  经过  炖煮  后  会  使  汤  变得  更  浓  ,  且  芋头  容易  吸收  其它  食材  的  汤汁  。  马铃薯  及  芋头  经过  油炸  或者  用油  煎成  薄片  再  淋上  酱汁  都  很  美味  也  可  切片  和  糖浆  一起  煮  ,  就  成  了  一  道  甜点  。
+            芋头  可  用  水煮  的  （  大约  20  分钟  ）  、  蒸  的  或者用  微波炉  ,  也  可  用  烤的  （  大约  25  分钟  ）  ,  但是  果肉  会  变得  较  干且  味道  较  强烈  。  若  涂上  奶油  或  调味酱  等  可使  芋头  没  那么  干  。  芋头  切  成片  或  块  ，  加  酱油  先  小炒  一下  ，  然后  加水  炖  十几  分钟  ，  味道  极其  美味  。
+            芋头  的  叶子  也  可以  拿来  烹煮  ,  煮  起来  像是  菠菜  而且  可  拿来  包  其它  食物  来  烘烤  。  然而  叶子  中  的  草酸  钙  经过  烹煮  后  便  会  被  破坏  了  。
+            生芋  有  小  毒  ，  食时  必须  熟透  ；  生芋汁易  引起  局部  皮肤  过敏  ，  可用  姜汁  擦拭  以解  之  。
+            芋头  含有  较多  的  淀粉  ，  一  次  吃得  过  多  会  导致  腹胀  。
+        </segment>
+
+        <pos>
+            由于#P  芋头#NN  的#DEG  黏液#NN  中#LC  含有#VV  皂甙#NN  ，#PU  能#VV  刺激#VV  皮肤#NN  发痒#NN  ，#PU  因此#AD  生#VV  剥#NN  芋头#NN  皮#NN  时#LC  需#VV  小心#NN  ，#PU  可以#VV  倒#VV  点#M  醋#NN  在#P  手中#NR  ，#PU  搓#NR  一#CD  搓#NN  再#AD  削皮#VV  ，#PU  芋头#NN  就#AD  伤#VV  不到#AD  你#PN  了#AS    。#PU  不过#AD  如果#CS  手部#NR  有#VE  未愈#NR  的#DEG  伤口#NN  ，#PU  就#AD  不#AD  可以#VV  使用#NN  这个#NN  方法#NN  ，#PU  削#VV  了#AS  皮的#NN  芋头#NN  碰上#NN  水#NN  再#AD  接触#VV  皮肤#NN  ，#PU  就#AD  会#VV  更#AD  痒#VV  了#AS  ，#PU  所以#AD  ，#PU  芋头#NR  不用#VV  先#AD  洗净#VV  就#AD  去皮#VV  ，#PU  并#CC  保持#VV  手部#NN  的#DEC  干燥#NN  ，#PU  可以#VV  减少#VV  痒#NN  的#DEC  发生#NN  ，#PU  如果#CS  不小心#NN  接触#NN  皮肤#VV  发痒#CD  时#LC  ，#PU  涂抹#NN  生姜#NN  或#CC  在#P  火上#NR  烘烤#NR  片刻#NN  或#CC  浸泡#NN  醋#NN  水#NN  都#AD  可以#VV  止痒#NN    。#PU    。#PU
+            芋头#NR  去#MSP  皮#VV  妙法#VV  ：#PU  将#AD  带#VV  皮的#NN  芋头#NN  装进#NN  小口#NN  袋里#NN  （#PU  只#AD  装#VV  半#CD  袋#NN  ）#PU  用手#AD  抓住#VV  袋口#NN  ，#PU  将#AD  袋子#VV  在#P  水泥#NN  地上#NN  摔#VV  几#CD  下#LC  ，#PU  再#AD  把#BA  芋头#NR  倒出#VA  ，#PU  便#AD  可以#VV  发现#NN  芋头#NN  皮#VV  全#DT  脱下#NN  了#AS    。#PU  芋头#NN  含有#NN  较多#NN  的#DEG  淀粉#NN  ，#PU  一#CD  次#M  吃得#NN  过#AD  多#VA  会#VV  导致#VV  腹胀#NN    。#PU    。#PU
+            芋头#NN  含有#NN  难消化#NN  的#DEG  淀粉质#NN  和#CC  草酸#NN  钙#AD  结晶体#VV  ,#NN  然而#AD  草酸#NN  钙#AD  具有#VV  苦味#NN  且#CC  会#VV  使#VV  皮肤#NN  过敏#VV  ,#NN  但#AD  经过#P  烹煮#NN  后#LC  就#AD  会#VV  消失#VV    。#PU  在#P  烹煮#NN  时#LC  果肉#NN  会#VV  变成#VV  灰色#NN  或#CC  淡紫色#JJ    。#PU  芋头#NN  的#DEG  烹调#NN  方法#NN  类似#VV  马铃薯#NN    。#PU  芋头#NN  经过#P  炖煮#NN  后#LC  会#VV  使#VV  汤#NN  变得#VV  更#AD  浓#JJ  ,#NN  且#CC  芋头#AD  容易#VA  吸收#VV  其它#DT  食材#NN  的#DEG  汤汁#NN    。#PU  马铃薯#NN  及#CC  芋头#NN  经过#P  油炸#NN  或者#CC  用油#NN  煎成#NN  薄片#NN  再#AD  淋上#VV  酱汁#NN  都#AD  很#AD  美味#AD  也#AD  可#VV  切片#NN  和#CC  糖浆#NN  一起#AD  煮#VV  ,#NN  就#AD  成#VV  了#AS  一#CD  道#NN  甜点#NN    。#PU    。#PU
+            芋头#NR  可#VV  用#P  水煮#VA  的#DEC  （#PU  大约#AD  20#CD  分钟#M  ）#PU  、#PU  蒸#NN  的#DEG  或者用#NN  微波炉#NN  ,#NN  也#AD  可#VV  用#VV  烤的#NN  （#PU  大约#AD  25#CD  分钟#M  ）#PU  ,#NN  但是#AD  果肉#AD  会#VV  变得#VV  较#AD  干且#JJ  味道#NN  较#AD  强烈#VA    。#PU  若#CS  涂上#VV  奶油#NR  或#CC  调味酱#NR  等#ETC  可使#NN  芋头#NN  没#AD  那么#AD  干#VV    。#PU  芋头#NN  切#NN  成片#AD  或#CC  块#M  ，#PU  加#NR  酱油#NN  先#AD  小炒#VV  一下#AD  ，#PU  然后#AD  加水#AD  炖#VV  十几#CD  分钟#M  ，#PU  味道#NN  极其#AD  美味#VV    。#PU    。#PU
+            芋头#NN  的#DEG  叶子#NN  也#AD  可以#VV  拿来#VV  烹煮#NN  ,#NN  煮#VV  起来#VV  像是#NN  菠菜#NN  而且#CC  可#VV  拿来#VV  包#VV  其它#DT  食物#NN  来#MSP  烘烤#VV    。#PU  然而#AD  叶子#NN  中#LC  的#DEG  草酸#NN  钙#NN  经过#P  烹煮#NN  后#LC  便#AD  会#VV  被#SB  破坏#VV  了#AS    。#PU    。#PU
+            生芋#AD  有#VE  小#JJ  毒#NN  ，#PU  食时#NN  必须#VV  熟透#VV  ；#PU  生芋汁易#AD  引起#VV  局部#JJ  皮肤#NN  过敏#NN  ，#PU  可用#JJ  姜汁#NN  擦拭#AD  以解#VV  之#PN  。#PU
+            芋头#NN  含有#NN  较多#NN  的#DEG  淀粉#NN  ，#PU  一#CD  次#M  吃得#NN  过#AD  多#VA  会#VV  导致#VV  腹胀#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 黏液#NN, 由于#P)  (assmod, 黏液#NN, 芋头#NN)  (case, 芋头#NN, 的#DEG)  (prep, 含有#VV, 黏液#NN)  (case, 黏液#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 皂甙#NN)  (mmod, 刺激#VV, 能#VV)  (conj, 含有#VV, 刺激#VV)  (nn, 发痒#NN, 皮肤#NN)  (dobj, 刺激#VV, 发痒#NN)  (advmod, 生#VV, 因此#AD)  (loc, 需#VV, 生#VV)  (nn, 皮#NN, 剥#NN)  (nn, 皮#NN, 芋头#NN)  (dobj, 生#VV, 皮#NN)  (case, 生#VV, 时#LC)  (dep, 含有#VV, 需#VV)  (dobj, 需#VV, 小心#NN)  (mmod, 倒#VV, 可以#VV)  (conj, 含有#VV, 倒#VV)  (dep, 醋#NN, 点#M)  (dobj, 倒#VV, 醋#NN)  (case, 手中#NR, 在#P)  (prep, 削皮#VV, 手中#NR)  (nn, 搓#NN, 搓#NR)  (nummod, 搓#NN, 一#CD)  (nsubj, 削皮#VV, 搓#NN)  (advmod, 削皮#VV, 再#AD)  (dep, 含有#VV, 削皮#VV)  (nsubj, 伤#VV, 芋头#NN)  (advmod, 伤#VV, 就#AD)  (ccomp, 削皮#VV, 伤#VV)  (advmod, 你#PN, 不到#AD)  (dobj, 伤#VV, 你#PN)  (dep, 伤#VV, 了#AS)   (advmod, 痒#VV, 不过#AD)  (advmod, 有#VE, 如果#CS)  (dep, 有#VE, 手部#NR)  (dep, 接触#VV, 有#VE)  (assmod, 伤口#NN, 未愈#NR)  (case, 未愈#NR, 的#DEG)  (dobj, 有#VE, 伤口#NN)  (advmod, 可以#VV, 就#AD)  (neg, 可以#VV, 不#AD)  (relcl, 水#NN, 可以#VV)  (nn, 方法#NN, 使用#NN)  (nn, 方法#NN, 这个#NN)  (dobj, 可以#VV, 方法#NN)  (conj, 可以#VV, 削#VV)  (asp, 削#VV, 了#AS)  (nn, 碰上#NN, 皮的#NN)  (nn, 碰上#NN, 芋头#NN)  (dobj, 削#VV, 碰上#NN)  (nsubj, 接触#VV, 水#NN)  (advmod, 接触#VV, 再#AD)  (dep, 痒#VV, 接触#VV)  (dobj, 接触#VV, 皮肤#NN)  (advmod, 痒#VV, 就#AD)  (mmod, 痒#VV, 会#VV)  (advmod, 痒#VV, 更#AD)  (root, ROOT#null, 痒#VV)  (asp, 痒#VV, 了#AS)  (advmod, 不用#VV, 所以#AD)  (nsubj, 不用#VV, 芋头#NR)  (conj, 痒#VV, 不用#VV)  (advmod, 洗净#VV, 先#AD)  (relcl, 干燥#NN, 洗净#VV)  (advmod, 去皮#VV, 就#AD)  (ccomp, 洗净#VV, 去皮#VV)  (cc, 去皮#VV, 并#CC)  (dep, 去皮#VV, 保持#VV)  (dobj, 保持#VV, 手部#NN)  (mark, 洗净#VV, 的#DEC)  (dobj, 不用#VV, 干燥#NN)  (conj, 不用#VV, 可以#VV)  (relcl, 发生#NN, 减少#VV)  (dobj, 减少#VV, 痒#NN)  (mark, 减少#VV, 的#DEC)  (dobj, 可以#VV, 发生#NN)  (advmod, 皮肤#VV, 如果#CS)  (nn, 接触#NN, 不小心#NN)  (nsubj, 皮肤#VV, 接触#NN)  (dep, 可以#VV, 皮肤#VV)  (loc, 皮肤#VV, 发痒#CD)  (case, 发痒#CD, 时#LC)  (nn, 生姜#NN, 涂抹#NN)  (conj, 水#NN, 生姜#NN)  (cc, 水#NN, 或#CC)  (case, 醋#NN, 在#P)  (nn, 醋#NN, 火上#NR)  (nn, 醋#NN, 烘烤#NR)  (conj, 醋#NN, 片刻#NN)  (cc, 醋#NN, 或#CC)  (nn, 醋#NN, 浸泡#NN)  (prep, 水#NN, 醋#NN)  (nsubj, 可以#VV, 水#NN)  (advmod, 可以#VV, 都#AD)  (conj, 痒#VV, 可以#VV)  (dobj, 可以#VV, 止痒#NN)   (root, ROOT#null, null#null)
+            (nsubj, 皮#VV, 芋头#NR)  (prtmod, 皮#VV, 去#MSP)  (root, ROOT#null, 皮#VV)  (dep, 皮#VV, 妙法#VV)  (advmod, 带#VV, 将#AD)  (relcl, 袋里#NN, 带#VV)  (nn, 小口#NN, 皮的#NN)  (nn, 小口#NN, 芋头#NN)  (nn, 小口#NN, 装进#NN)  (dobj, 带#VV, 小口#NN)  (nsubj, 抓住#VV, 袋里#NN)  (advmod, 装#VV, 只#AD)  (prnmod, 袋里#NN, 装#VV)  (nummod, 袋#NN, 半#CD)  (dobj, 装#VV, 袋#NN)  (advmod, 抓住#VV, 用手#AD)  (ccomp, 妙法#VV, 抓住#VV)  (dobj, 抓住#VV, 袋口#NN)  (advmod, 摔#VV, 将#AD)  (mmod, 摔#VV, 袋子#VV)  (case, 地上#NN, 在#P)  (nn, 地上#NN, 水泥#NN)  (prep, 摔#VV, 地上#NN)  (dep, 抓住#VV, 摔#VV)  (loc, 摔#VV, 几#CD)  (case, 几#CD, 下#LC)  (advmod, 倒出#VA, 再#AD)  (ba, 倒出#VA, 把#BA)  (nsubj, 倒出#VA, 芋头#NR)  (dep, 抓住#VV, 倒出#VA)  (advmod, 可以#VV, 便#AD)  (dep, 抓住#VV, 可以#VV)  (nn, 芋头#NN, 发现#NN)  (dobj, 可以#VV, 芋头#NN)  (dep, 妙法#VV, 皮#VV)  (det, 脱下#NN, 全#DT)  (dobj, 皮#VV, 脱下#NN)  (asp, 妙法#VV, 了#AS)   (nn, 较多#NN, 芋头#NN)  (nn, 较多#NN, 含有#NN)  (assmod, 淀粉#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nsubj, 多#VA, 淀粉#NN)  (nummod, 次#M, 一#CD)  (clf, 吃得#NN, 次#M)  (nsubj, 多#VA, 吃得#NN)  (advmod, 多#VA, 过#AD)  (dep, 导致#VV, 多#VA)  (mmod, 导致#VV, 会#VV)  (root, ROOT#null, 导致#VV)  (dobj, 导致#VV, 腹胀#NN)   (root, ROOT#null, null#null)
+            (nn, 难消化#NN, 芋头#NN)  (nn, 难消化#NN, 含有#NN)  (assmod, 草酸#NN, 难消化#NN)  (case, 难消化#NN, 的#DEG)  (conj, 草酸#NN, 淀粉质#NN)  (cc, 草酸#NN, 和#CC)  (nsubj, 结晶体#VV, 草酸#NN)  (advmod, 结晶体#VV, 钙#AD)  (root, ROOT#null, 结晶体#VV)  (advmod, 具有#VV, 然而#AD)  (nsubj, 具有#VV, 草酸#NN)  (advmod, 具有#VV, 钙#AD)  (conj, 结晶体#VV, 具有#VV)  (dobj, 具有#VV, 苦味#NN)  (cc, 具有#VV, 且#CC)  (mmod, 使#VV, 会#VV)  (conj, 具有#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 过敏#VV)  (advmod, 消失#VV, 但#AD)  (case, 烹煮#NN, 经过#P)  (prep, 消失#VV, 烹煮#NN)  (case, 烹煮#NN, 后#LC)  (advmod, 消失#VV, 就#AD)  (dep, 消失#VV, 会#VV)  (conj, 结晶体#VV, 消失#VV)   (case, 烹煮#NN, 在#P)  (prep, 变成#VV, 烹煮#NN)  (case, 烹煮#NN, 时#LC)  (nsubj, 变成#VV, 果肉#NN)  (mmod, 变成#VV, 会#VV)  (root, ROOT#null, 变成#VV)  (dobj, 变成#VV, 灰色#NN)  (cc, 变成#VV, 或#CC)  (conj, 变成#VV, 淡紫色#JJ)   (assmod, 方法#NN, 芋头#NN)  (case, 芋头#NN, 的#DEG)  (nn, 方法#NN, 烹调#NN)  (nsubj, 类似#VV, 方法#NN)  (root, ROOT#null, 类似#VV)  (dobj, 类似#VV, 马铃薯#NN)   (nsubj, 使#VV, 芋头#NN)  (case, 炖煮#NN, 经过#P)  (prep, 使#VV, 炖煮#NN)  (case, 炖煮#NN, 后#LC)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 汤#NN)  (dep, 使#VV, 变得#VV)  (advmod, 浓#JJ, 更#AD)  (amod, ,#NN, 浓#JJ)  (cc, 变得#VV, 且#CC)  (advmod, 容易#VA, 芋头#AD)  (conj, 变得#VV, 容易#VA)  (dep, 使#VV, 吸收#VV)  (det, 食材#NN, 其它#DT)  (assmod, 汤汁#NN, 食材#NN)  (case, 食材#NN, 的#DEG)  (dobj, 吸收#VV, 汤汁#NN)   (conj, 芋头#NN, 马铃薯#NN)  (cc, 芋头#NN, 及#CC)  (nsubj, 淋上#VV, 芋头#NN)  (case, 薄片#NN, 经过#P)  (conj, 薄片#NN, 油炸#NN)  (cc, 薄片#NN, 或者#CC)  (nn, 薄片#NN, 用油#NN)  (nn, 薄片#NN, 煎成#NN)  (prep, 淋上#VV, 薄片#NN)  (advmod, 淋上#VV, 再#AD)  (root, ROOT#null, 淋上#VV)  (dobj, 淋上#VV, 酱汁#NN)  (advmod, 可#VV, 都#AD)  (advmod, 可#VV, 很#AD)  (advmod, 可#VV, 美味#AD)  (advmod, 可#VV, 也#AD)  (dep, 煮#VV, 可#VV)  (conj, 糖浆#NN, 切片#NN)  (cc, 糖浆#NN, 和#CC)  (dobj, 可#VV, 糖浆#NN)  (advmod, 煮#VV, 一起#AD)  (conj, 淋上#VV, 煮#VV)  (advmod, 成#VV, 就#AD)  (conj, 淋上#VV, 成#VV)  (asp, 成#VV, 了#AS)  (nummod, 甜点#NN, 一#CD)  (nn, 甜点#NN, 道#NN)  (dobj, 成#VV, 甜点#NN)   (root, ROOT#null, null#null)
+            (nn, ,#NN, 芋头#NR)  (mmod, 用#VV, 可#VV)  (case, ,#NN, 用#P)  (nn, 微波炉#NN, 水煮#VA)  (mark, 水煮#VA, 的#DEC)  (advmod, 分钟#M, 大约#AD)  (nummod, 分钟#M, 20#CD)  (prnmod, 微波炉#NN, 分钟#M)  (assmod, 微波炉#NN, 蒸#NN)  (case, 蒸#NN, 的#DEG)  (nn, 微波炉#NN, 或者用#NN)  (nn, ,#NN, 微波炉#NN)  (advmod, 用#VV, 也#AD)  (mmod, 用#VV, 可#VV)  (nfincl, ,#NN, 用#VV)  (dobj, 用#VV, 烤的#NN)  (advmod, 分钟#M, 大约#AD)  (nummod, 分钟#M, 25#CD)  (dep, 用#VV, 分钟#M)  (advmod, 变得#VV, 但是#AD)  (advmod, 变得#VV, 果肉#AD)  (mmod, 变得#VV, 会#VV)  (dep, 强烈#VA, 变得#VV)  (advmod, 干且#JJ, 较#AD)  (amod, 味道#NN, 干且#JJ)  (dobj, 变得#VV, 味道#NN)  (advmod, 强烈#VA, 较#AD)  (root, ROOT#null, 强烈#VA)   (advmod, 涂上#VV, 若#CS)  (relcl, 芋头#NN, 涂上#VV)  (conj, 调味酱#NR, 奶油#NR)  (cc, 调味酱#NR, 或#CC)  (nn, 可使#NN, 调味酱#NR)  (etc, 调味酱#NR, 等#ETC)  (dobj, 涂上#VV, 可使#NN)  (nsubj, 干#VV, 芋头#NN)  (neg, 干#VV, 没#AD)  (advmod, 干#VV, 那么#AD)  (root, ROOT#null, 干#VV)   (nn, 切#NN, 芋头#NN)  (nsubj, 小炒#VV, 切#NN)  (advmod, 小炒#VV, 成片#AD)  (cc, 小炒#VV, 或#CC)  (clf, 酱油#NN, 块#M)  (nn, 酱油#NN, 加#NR)  (dep, 小炒#VV, 酱油#NN)  (advmod, 小炒#VV, 先#AD)  (root, ROOT#null, 小炒#VV)  (advmod, 小炒#VV, 一下#AD)  (advmod, 炖#VV, 然后#AD)  (advmod, 炖#VV, 加水#AD)  (conj, 小炒#VV, 炖#VV)  (nummod, 分钟#M, 十几#CD)  (range, 炖#VV, 分钟#M)  (dep, 美味#VV, 味道#NN)  (advmod, 美味#VV, 极其#AD)  (dep, 小炒#VV, 美味#VV)   (root, ROOT#null, null#null)
+            (assmod, 叶子#NN, 芋头#NN)  (case, 芋头#NN, 的#DEG)  (nsubj, 拿来#VV, 叶子#NN)  (advmod, 拿来#VV, 也#AD)  (mmod, 拿来#VV, 可以#VV)  (root, ROOT#null, 拿来#VV)  (nn, ,#NN, 烹煮#NN)  (conj, 拿来#VV, 煮#VV)  (rcomp, 煮#VV, 起来#VV)  (nn, 菠菜#NN, 像是#NN)  (dobj, 煮#VV, 菠菜#NN)  (cc, 拿来#VV, 而且#CC)  (mmod, 包#VV, 可#VV)  (mmod, 包#VV, 拿来#VV)  (dep, 拿来#VV, 包#VV)  (det, 食物#NN, 其它#DT)  (dobj, 包#VV, 食物#NN)  (prtmod, 烘烤#VV, 来#MSP)  (dep, 包#VV, 烘烤#VV)   (advmod, 破坏#VV, 然而#AD)  (assmod, 草酸#NN, 叶子#NN)  (case, 叶子#NN, 中#LC)  (case, 叶子#NN, 的#DEG)  (nsubj, 破坏#VV, 草酸#NN)  (nsubj, 破坏#VV, 钙#NN)  (case, 烹煮#NN, 经过#P)  (prep, 破坏#VV, 烹煮#NN)  (case, 烹煮#NN, 后#LC)  (advmod, 破坏#VV, 便#AD)  (mmod, 破坏#VV, 会#VV)  (auxpass, 破坏#VV, 被#SB)  (root, ROOT#null, 破坏#VV)  (asp, 破坏#VV, 了#AS)   (root, ROOT#null, null#null)
+            (advmod, 有#VE, 生芋#AD)  (root, ROOT#null, 有#VE)  (amod, 毒#NN, 小#JJ)  (dobj, 有#VE, 毒#NN)  (nsubj, 熟透#VV, 食时#NN)  (dep, 熟透#VV, 必须#VV)  (conj, 有#VE, 熟透#VV)  (advmod, 引起#VV, 生芋汁易#AD)  (conj, 有#VE, 引起#VV)  (amod, 皮肤#NN, 局部#JJ)  (nn, 过敏#NN, 皮肤#NN)  (dobj, 引起#VV, 过敏#NN)  (amod, 姜汁#NN, 可用#JJ)  (nsubj, 以解#VV, 姜汁#NN)  (advmod, 以解#VV, 擦拭#AD)  (conj, 有#VE, 以解#VV)  (dobj, 以解#VV, 之#PN)
+            (nn, 较多#NN, 芋头#NN)  (nn, 较多#NN, 含有#NN)  (assmod, 淀粉#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nsubj, 导致#VV, 淀粉#NN)  (nummod, 次#M, 一#CD)  (clf, 吃得#NN, 次#M)  (nsubj, 多#VA, 吃得#NN)  (advmod, 多#VA, 过#AD)  (dep, 导致#VV, 多#VA)  (mmod, 导致#VV, 会#VV)  (root, ROOT#null, 导致#VV)  (dobj, 导致#VV, 腹胀#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071033171174.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\204 芋头.jpg
+    </picturelocalurl>
+
+</content>

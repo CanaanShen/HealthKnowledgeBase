@@ -1,0 +1,264 @@
+<content>
+
+    <id>
+        652
+    </id>
+
+    <foodname>
+        车前草
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        蔬菜类
+    </secondcategory>
+
+    <alias>
+        车轮菜、猪肚菜、灰盆草、车轱辘菜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            虚滑，精气不固者禁用。
+        </rawdata>
+
+        <segment>
+            虚滑  ，  精气  不  固  者  禁用  。
+        </segment>
+
+        <pos>
+            虚滑#NN  ，#PU  精气#NN  不#AD  固#VV  者#NN  禁用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 固#VV, 虚滑#NN)  (nsubj, 固#VV, 精气#NN)  (neg, 固#VV, 不#AD)  (root, ROOT#null, 固#VV)  (nn, 禁用#NN, 者#NN)  (dobj, 固#VV, 禁用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜湿热体质，痰湿体质，阴虚体质
+        </rawdata>
+
+        <segment>
+            适宜  湿热  体质  ，  痰湿  体质  ，  阴虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  湿热#NN  体质#NN  ，#PU  痰湿#VV  体质#NN  ，#PU  阴虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (nn, 体质#NN, 湿热#NN)  (dobj, 适宜#VV, 体质#NN)  (conj, 适宜#VV, 痰湿#VV)  (dobj, 痰湿#VV, 体质#NN)  (conj, 适宜#VV, 阴虚#VV)  (dobj, 阴虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                27kal
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            车前草又名车轮菜，为车前科多年生草本，播种第2年秋季采收，挖起全株，洗净泥沙，晒干或鲜用。不仅可药用，还可食用，深受人们喜爱，也就出现了关于车前草的很多民谣与故事。
+            生长在山野、路旁、花圃、河边等地。根茎短缩肥厚，密生须状根。叶全部根生，叶片平滑，广卵形，边缘波状，间有不明显钝齿，主脉五条，向叶背凸起，成肋状伸入叶柄，叶片常与叶柄等长。春夏秋株身中央抽生穗状花序，花小，花冠不显著。结椭圆形蒴果，顶端宿存花柱，熟时盖裂，撒出种子。
+        </rawdata>
+
+        <segment>
+            车前草  又  名  车轮  菜  ，  为  车前  科  多年生  草本  ，  播种  第  2  年  秋季  采收  ，  挖  起  全  株  ，  洗净  泥沙  ，  晒干  或  鲜用  。  不仅  可  药用  ，  还  可  食用  ，  深  受  人们  喜爱  ，  也  就  出现  了  关于  车前草  的  很多  民谣  与  故事  。
+            生长  在  山野  、  路旁  、  花圃  、  河边  等  地  。  根茎  短缩  肥厚  ，  密  生  须  状根  。  叶  全部  根生  ，  叶片  平滑  ，  广  卵形  ，  边缘  波状  ，  间有  不明显  钝齿  ，  主脉  五  条  ，  向  叶  背  凸起  ，  成  肋状  伸入  叶柄  ，  叶片  常与  叶柄  等长  。  春夏  秋  株身  中央  抽  生  穗状  花序  ，  花  小  ，  花冠  不  显著  。  结  椭圆形  蒴果  ，  顶端  宿存  花柱  ，  熟  时  盖  裂  ，  撒出  种子  。
+        </segment>
+
+        <pos>
+            车前草#NN  又#AD  名#NN  车轮#VV  菜#NN  ，#PU  为#P  车前#VV  科#NN  多年生#NN  草本#NN  ，#PU  播种#AD  第#VV  2#CD  年#M  秋季#NT  采收#NN  ，#PU  挖#VV  起#VV  全#DT  株#M  ，#PU  洗净#VV  泥沙#NN  ，#PU  晒干#CD  或#CC  鲜用#CD    。#PU  不仅#CC  可#VV  药用#VV  ，#PU  还#AD  可#VV  食用#VV  ，#PU  深#AD  受#VV  人们#NN  喜爱#NN  ，#PU  也#AD  就#AD  出现#VV  了#AS  关于#P  车前草#NN  的#DEG  很多#CD  民谣#NN  与#CC  故事#NN    。#PU    。#PU
+            生长#NN  在#VV  山野#NR  、#PU  路旁#NR  、#PU  花圃#NR  、#PU  河边#NR  等#ETC  地#NN    。#PU  根茎#NN  短缩#NN  肥厚#VV  ，#PU  密#NN  生#VV  须#VV  状根#NN    。#PU  叶#NR  全部#AD  根生#VV  ，#PU  叶片#NN  平滑#NN  ，#PU  广#AD  卵形#VV  ，#PU  边缘#NN  波状#NN  ，#PU  间有#AD  不明显#VV  钝齿#NN  ，#PU  主脉#VV  五#CD  条#M  ，#PU  向#P  叶#NR  背#VV  凸起#NN  ，#PU  成#VV  肋状#NN  伸入#VV  叶柄#NN  ，#PU  叶片#VV  常与#NN  叶柄#NN  等长#NN    。#PU  春夏#NN  秋#NN  株身#NN  中央#NN  抽#NN  生#VV  穗状#NN  花序#NN  ，#PU  花#NN  小#VA  ，#PU  花冠#NN  不#AD  显著#VA    。#PU  结#VV  椭圆形#NN  蒴果#NN  ，#PU  顶端#VV  宿存#NN  花柱#NN  ，#PU  熟#VA  时#LC  盖#AD  裂#VV  ，#PU  撒出#VV  种子#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 车轮#VV, 车前草#NN)  (advmod, 车轮#VV, 又#AD)  (dep, 车轮#VV, 名#NN)  (root, ROOT#null, 车轮#VV)  (dobj, 车轮#VV, 菜#NN)  (case, 车前#VV, 为#P)  (prep, 起#VV, 车前#VV)  (nn, 草本#NN, 科#NN)  (nn, 草本#NN, 多年生#NN)  (dobj, 车前#VV, 草本#NN)  (advmod, 第#VV, 播种#AD)  (conj, 车前#VV, 第#VV)  (nummod, 年#M, 2#CD)  (clf, 采收#NN, 年#M)  (nn, 采收#NN, 秋季#NT)  (dobj, 第#VV, 采收#NN)  (conj, 车前#VV, 挖#VV)  (conj, 车轮#VV, 起#VV)  (dep, 起#VV, 全#DT)  (clf, 全#DT, 株#M)  (conj, 车轮#VV, 洗净#VV)  (dobj, 洗净#VV, 泥沙#NN)  (nummod, 鲜用#CD, 晒干#CD)  (cc, 鲜用#CD, 或#CC)  (conj, 车轮#VV, 鲜用#CD)   (cc, 药用#VV, 不仅#CC)  (mmod, 药用#VV, 可#VV)  (root, ROOT#null, 药用#VV)  (advmod, 食用#VV, 还#AD)  (dep, 食用#VV, 可#VV)  (ccomp, 药用#VV, 食用#VV)  (advmod, 受#VV, 深#AD)  (dep, 药用#VV, 受#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 受#VV, 喜爱#NN)  (advmod, 出现#VV, 也#AD)  (advmod, 出现#VV, 就#AD)  (dep, 药用#VV, 出现#VV)  (asp, 出现#VV, 了#AS)  (case, 车前草#NN, 关于#P)  (assmod, 故事#NN, 车前草#NN)  (case, 车前草#NN, 的#DEG)  (nummod, 故事#NN, 很多#CD)  (conj, 故事#NN, 民谣#NN)  (cc, 故事#NN, 与#CC)  (dobj, 出现#VV, 故事#NN)   (root, ROOT#null, null#null)
+            (nsubj, 在#VV, 生长#NN)  (root, ROOT#null, 在#VV)  (conj, 河边#NR, 山野#NR)  (conj, 河边#NR, 路旁#NR)  (conj, 河边#NR, 花圃#NR)  (nn, 地#NN, 河边#NR)  (etc, 河边#NR, 等#ETC)  (dobj, 在#VV, 地#NN)   (nn, 短缩#NN, 根茎#NN)  (nsubj, 肥厚#VV, 短缩#NN)  (root, ROOT#null, 肥厚#VV)  (nsubj, 须#VV, 密#NN)  (mmod, 须#VV, 生#VV)  (ccomp, 肥厚#VV, 须#VV)  (dobj, 须#VV, 状根#NN)   (nsubj, 根生#VV, 叶#NR)  (advmod, 根生#VV, 全部#AD)  (root, ROOT#null, 根生#VV)  (nn, 平滑#NN, 叶片#NN)  (nsubj, 卵形#VV, 平滑#NN)  (advmod, 卵形#VV, 广#AD)  (ccomp, 根生#VV, 卵形#VV)  (nn, 波状#NN, 边缘#NN)  (nsubj, 不明显#VV, 波状#NN)  (advmod, 不明显#VV, 间有#AD)  (ccomp, 卵形#VV, 不明显#VV)  (dobj, 不明显#VV, 钝齿#NN)  (conj, 不明显#VV, 主脉#VV)  (nummod, 条#M, 五#CD)  (range, 主脉#VV, 条#M)  (case, 叶#NR, 向#P)  (prep, 背#VV, 叶#NR)  (conj, 不明显#VV, 背#VV)  (dobj, 背#VV, 凸起#NN)  (conj, 不明显#VV, 成#VV)  (dobj, 成#VV, 肋状#NN)  (conj, 成#VV, 伸入#VV)  (dobj, 伸入#VV, 叶柄#NN)  (conj, 不明显#VV, 叶片#VV)  (nn, 等长#NN, 常与#NN)  (nn, 等长#NN, 叶柄#NN)  (dobj, 叶片#VV, 等长#NN)   (nn, 株身#NN, 春夏#NN)  (nn, 株身#NN, 秋#NN)  (nn, 抽#NN, 株身#NN)  (nn, 抽#NN, 中央#NN)  (nsubj, 生#VV, 抽#NN)  (dep, 小#VA, 生#VV)  (nn, 花序#NN, 穗状#NN)  (dobj, 生#VV, 花序#NN)  (nsubj, 小#VA, 花#NN)  (root, ROOT#null, 小#VA)  (nsubj, 显著#VA, 花冠#NN)  (neg, 显著#VA, 不#AD)  (conj, 小#VA, 显著#VA)   (root, ROOT#null, 结#VV)  (nn, 蒴果#NN, 椭圆形#NN)  (dobj, 结#VV, 蒴果#NN)  (conj, 结#VV, 顶端#VV)  (nn, 花柱#NN, 宿存#NN)  (dobj, 顶端#VV, 花柱#NN)  (loc, 裂#VV, 熟#VA)  (case, 熟#VA, 时#LC)  (advmod, 裂#VV, 盖#AD)  (conj, 结#VV, 裂#VV)  (conj, 结#VV, 撒出#VV)  (dobj, 撒出#VV, 种子#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            甘，寒，归手太阳，阳明经。利水，清热，明目，祛痰，用于小便不通，淋浊，带下，尿血，黄疸，水肿，热痢泄泻，鼻衄，目赤肿痛，喉痛，咳嗽，皮肤溃疡。
+        </rawdata>
+
+        <segment>
+            甘  ，  寒  ，  归手  太阳  ，  阳明经  。  利水  ，  清热  ，  明目  ，  祛痰  ，  用于  小便  不通  ，  淋浊  ，  带下  ，  尿血  ，  黄疸  ，  水肿  ，  热痢  泄泻  ，  鼻衄  ，  目赤  肿痛  ，  喉痛  ，  咳嗽  ，  皮肤  溃疡  。
+        </segment>
+
+        <pos>
+            甘#NR  ，#PU  寒#JJ  ，#PU  归手#VV  太阳#NN  ，#PU  阳明经#VV    。#PU  利水#VV  ，#PU  清热#VV  ，#PU  明目#VV  ，#PU  祛痰#VV  ，#PU  用于#VV  小便#NR  不通#NN  ，#PU  淋浊#NN  ，#PU  带下#NN  ，#PU  尿血#NN  ，#PU  黄疸#NN  ，#PU  水肿#NN  ，#PU  热痢#NN  泄泻#NN  ，#PU  鼻衄#NN  ，#PU  目赤#NN  肿痛#NN  ，#PU  喉痛#NN  ，#PU  咳嗽#NN  ，#PU  皮肤#NN  溃疡#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 阳明经#VV, 甘#NR)  (dep, 阳明经#VV, 寒#JJ)  (dep, 寒#JJ, 归手#VV)  (dobj, 归手#VV, 太阳#NN)  (root, ROOT#null, 阳明经#VV)   (root, ROOT#null, 利水#VV)  (conj, 利水#VV, 清热#VV)  (conj, 利水#VV, 明目#VV)  (conj, 利水#VV, 祛痰#VV)  (dep, 利水#VV, 用于#VV)  (nn, 溃疡#NN, 小便#NR)  (prnmod, 小便#NR, 不通#NN)  (dep, 不通#NN, 淋浊#NN)  (dep, 不通#NN, 带下#NN)  (dep, 不通#NN, 尿血#NN)  (dep, 不通#NN, 黄疸#NN)  (dep, 不通#NN, 水肿#NN)  (nn, 泄泻#NN, 热痢#NN)  (dep, 不通#NN, 泄泻#NN)  (dep, 不通#NN, 鼻衄#NN)  (nn, 肿痛#NN, 目赤#NN)  (dep, 不通#NN, 肿痛#NN)  (dep, 不通#NN, 喉痛#NN)  (dep, 不通#NN, 咳嗽#NN)  (dep, 不通#NN, 皮肤#NN)  (dobj, 用于#VV, 溃疡#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  凉血  清热利湿  抗胃溃疡  致泻  护肝  祛痰  镇咳  利尿  抗炎  抗菌  抗真菌  抗氧化  平喘
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            车前全草含熊果酸、正三十一烷、谷甾醇、豆甾醇等。地上部分含车前甙。中医认为，车前草味甘、淡，性微寒。归肺经、肝经、肾经、膀胱经。具有清热利尿、渗湿止泻、明目、祛痰之功效。主治小便不利、淋浊带下、水肿胀满、暑湿泻痢、目赤障翳、痰热咳喘。
+            常用配方
+            1.治小便不通：车前子草一斤，水三升，煎取一升半，分三服（《肘后方》）；生车前
+            草捣取自然汁半钟，入蜜一匙调下。（《摄生众妙方》）
+            2.治尿血：车前草捣绞，取汁五合，空腹服之。（《外台》）；车前草、地骨皮、旱莲草各三钱，汤炖服。（《闽东本草》）
+            3.治白带：车前草根三钱捣烂，用糯米淘米水兑服。（《湖南药物志》）
+            4.治热痢：车前草叶捣绞取汁一盅，入蜜一合，同煎一、二沸，分温二服  车前草
+            。（《圣惠方》）
+            5.治泄泻：车前草四钱，铁马鞭二钱，共捣烂，冲凉水服。（《湖南药物志》）
+            6.治黄疸：白车前草五钱，观音螺一两，加酒一杯炖服。（《闽东本草》）
+            7.治感冒：车前草、陈皮各适量，水煎服。（内蒙古《中草药新医疗法资料选编》）
+            8.治衄血：车前叶生研，水解饮之。（《本草图经》）
+            9.治高血压：车前草、鱼腥草各一两，水煎服。（《浙江民间常用草药》）
+            10.治目赤肿痛：车前草自然汁，调朴硝末，卧时涂眼胞上，次早洗去。（《圣济总录》）
+            11.治火眼：车前草根三钱，青鱼草、生石膏各二钱，水煎服。（《湖南药物志》）
+            12.治喉痹乳蛾：虾蟆衣、凤尾草。擂烂，入霜梅肉、煮酒各少许，再研绞汁，以鹅翎刷患处。（《养疴漫笔》）
+            13.治痄腮：车前草一两三钱，煎水服，温覆取汗。（《湖南药物志》）
+            14.治百日咳：车前草三钱，水煎服。（《湖南药物志》）
+            15.治痰嗽喘促，咳血：鲜车前草二两（炖），加冬蜜五钱或冰糖一两服。（《闽东本草》）
+            16.治惊风：鲜车前根、野菊花根各二钱五分。水煎服。（《湖南药物志》）
+            17.治小儿痫病：鲜车前草五两绞汁，加冬蜜五钱，开水冲服。（《闽东本草》）
+            18.治金疮血出不止：捣车前汁敷之。（《千金方》）
+            19.治疮疡溃烂：鲜车前叶，以银针密刺细孔，以米汤或开水泡软，整叶敷贴疮上，日换二至三次。有排脓生肌作用。（《福建民间草药》）
+        </rawdata>
+
+        <segment>
+            车前  全  草  含  熊果酸  、  正  三十一  烷  、  谷甾醇  、  豆甾醇  等  。  地上  部分  含  车前甙  。  中医  认为  ，  车前草  味  甘  、  淡  ，  性微寒  。  归  肺  经  、  肝经  、  肾经  、  膀胱  经  。  具有  清热  利尿  、  渗湿  止泻  、  明目  、  祛痰  之  功效  。  主治  小便  不利  、  淋浊  带下  、  水肿  胀满  、  暑湿泻痢  、  目赤障翳  、  痰热  咳喘  。
+            常用  配方
+            治  小便  不通  ：  车前子  草  一  斤  ，  水  三  升  ，  煎取一升半  ，  分  三  服  （  《  肘后方  》  ）  ；  生  车前
+            草  捣  取  自然  汁半钟  ，  入蜜  一匙  调下  。  （  《  摄生  众  妙方  》  ）
+            治  尿血  ：  车前草  捣绞  ，  取汁  五合  ，  空腹  服之  。  （  《  外台  》  ）  ；  车前草  、  地  骨皮  、  旱  莲  草  各  三  钱  ，  汤  炖服  。  （  《  闽东  本草  》  ）
+            治  白带  ：  车前  草根  三  钱  捣烂  ，  用  糯米  淘米水  兑服  。  （  《  湖南  药物  志  》  ）
+            治热痢  ：  车前  草叶  捣  绞取汁  一盅  ，  入蜜  一  合  ，  同  煎  一  、  二  沸  ，  分  温  二  服  车前草
+            。  （  《  圣惠方  》  ）
+            治泄泻  ：  车前草  四  钱  ，  铁  马鞭  二  钱  ，  共  捣烂  ，  冲凉  水服  。  （  《  湖南  药物  志  》  ）
+            治黄疸  ：  白  车前草  五  钱  ，  观音  螺一两  ，  加酒  一  杯  炖服  。  （  《  闽东  本草  》  ）
+            治  感冒  ：  车前草  、  陈皮  各  适量  ，  水煎服  。  （  内蒙古  《  中草药  新医  疗法  资料  选编  》  ）
+            治衄血  ：  车前  叶生研  ，  水解  饮  之  。  （  《  本草  图  经  》  ）
+            治  高  血压  ：  车前草  、  鱼腥草  各  一  两  ，  水煎服  。  （  《  浙江  民间  常用  草药  》  ）
+            .  治  目赤  肿痛  ：  车前草  自然汁  ，  调朴  硝末  ，  卧时  涂  眼  胞  上  ，  次  早  洗去  。  （  《  圣济总录  》  ）
+            .  治  火眼  ：  车前  草根  三  钱  ，  青  鱼草  、  生石膏  各  二  钱  ，  水  煎服  。  （  《  湖南  药物  志  》  ）
+            .  治喉痹乳蛾  ：  虾  蟆衣  、  凤尾  草  。  擂烂  ，  入霜  梅  肉  、  煮  酒  各  少许  ，  再  研  绞汁  ，  以  鹅  翎刷  患处  。  （  《  养疴  漫笔  》  ）
+            .  治  痄腮  ：  车前草  一  两  三  钱  ，  煎  水服  ，  温覆取  汗  。  （  《  湖南  药物  志  》  ）
+            .  治  百日  咳  ：  车前草  三  钱  ，  水  煎服  。  （  《  湖南  药物  志  》  ）
+            .  治痰嗽  喘  促  ，  咳血  ：  鲜  车前草  二  两  （  炖  ）  ，  加冬蜜  五  钱  或  冰糖  一  两  服  。  （  《  闽东  本草  》  ）
+            .  治  惊风  ：  鲜  车前  根  、  野菊  花  根  各  二  钱  五分  。  水  煎服  。  （  《  湖南  药物  志  》  ）
+            .  治  小儿  痫病  ：  鲜  车前草  五  两  绞汁  ，  加冬蜜  五  钱  ，  开水  冲服  。  （  《  闽东  本草  》  ）
+            .  治  金疮  血  出  不止  ：  捣  车前  汁敷之  。  （  《  千金  方  》  ）
+            .  治疮疡  溃烂  ：  鲜  车前  叶  ，  以  银针  密刺  细孔  ，  以  米汤  或  开水  泡  软  ，  整  叶  敷贴  疮上  ，  日换二  至  三  次  。  有  排脓  生肌  作用  。  （  《  福建  民间  草药  》  ）
+        </segment>
+
+        <pos>
+            车前#NR  全#DT  草#NN  含#VV  熊果酸#NR  、#PU  正#JJ  三十一#CD  烷#NN  、#PU  谷甾醇#NR  、#PU  豆甾醇#NR  等#ETC    。#PU  地上#NN  部分#NN  含#VV  车前甙#NN    。#PU  中医#NN  认为#VV  ，#PU  车前草#NN  味#VV  甘#NR  、#PU  淡#NR  ，#PU  性微寒#VV    。#PU  归#VV  肺#NN  经#VV  、#PU  肝经#NR  、#PU  肾经#NR  、#PU  膀胱#NR  经#VV    。#PU  具有#VV  清热#NN  利尿#NN  、#PU  渗湿#NN  止泻#NN  、#PU  明目#NN  、#PU  祛痰#NN  之#DEG  功效#NN    。#PU  主治#NN  小便#AD  不利#VA  、#PU  淋浊#VV  带下#NR  、#PU  水肿#NR  胀满#NR  、#PU  暑湿泻痢#NR  、#PU  目赤障翳#NR  、#PU  痰热#NR  咳喘#NN    。#PU    。#PU
+            常用#JJ  配方#NN
+            治#NN  小便#NN  不通#VV  ：#PU  车前子#VV  草#NN  一#CD  斤#NN  ，#PU  水#NN  三#CD  升#VV  ，#PU  煎取一升半#CD  ，#PU  分#VV  三#CD  服#NN  （#PU  肘后方#NR  ）#PU  ；#PU  生#VV  车前#NN
+            草#NN  捣#NN  取#VV  自然#NN  汁半钟#VV  ，#PU  入蜜#VV  一匙#CD  调下#VV  。#PU  （#PU  摄生#NR  众#NN  妙方#NN  ）#PU
+            治#NN  尿血#VV  ：#PU  车前草#NN  捣绞#NN  ，#PU  取汁#VV  五合#CD  ，#PU  空腹#VV  服之#NN    。#PU  （#PU  外台#NR  ）#PU  ；#PU  车前草#NR  、#PU  地#NN  骨皮#NN  、#PU  旱#NN  莲#NN  草#NN  各#DT  三#CD  钱#NN  ，#PU  汤#VV  炖服#VV    。#PU  （#PU  闽东#NN  本草#NN  ）#PU    。#PU
+            治#NN  白带#VV  ：#PU  车前#NN  草根#NN  三#CD  钱#NN  捣烂#NN  ，#PU  用#P  糯米#NN  淘米水#VV  兑服#NN  。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU
+            治热痢#VV  ：#PU  车前#NN  草叶#NN  捣#NN  绞取汁#VV  一盅#CD  ，#PU  入蜜#VV  一#CD  合#VV  ，#PU  同#P  煎#VV  一#OD  、#PU  二#OD  沸#NN  ，#PU  分#VV  温#NN  二#CD  服#NN  车前草#VV
+            。#NN  （#PU  圣惠方#NN  ）#PU
+            治泄泻#NN  ：#PU  车前草#NR  四#CD  钱#NN  ，#PU  铁#NN  马鞭#VV  二#CD  钱#NN  ，#PU  共#AD  捣烂#VV  ，#PU  冲凉#NN  水服#VV  。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU
+            治黄疸#VV  ：#PU  白#JJ  车前草#NN  五#CD  钱#NN  ，#PU  观音#NN  螺一两#CD  ，#PU  加酒#NR  一#CD  杯#NN  炖服#VV  。#PU  （#PU  闽东#NN  本草#NN  ）#PU
+            治#NN  感冒#VV  ：#PU  车前草#NR  、#PU  陈皮#NR  各#AD  适量#VV  ，#PU  水煎服#VV  。#PU  （#PU  内蒙古#NR  中草药#NN  新医#NN  疗法#NN  资料#NN  选编#VV  ）#PU
+            治衄血#NR  ：#PU  车前#NR  叶生研#VV  ，#PU  水解#NN  饮#VV  之#PN  。#PU  （#PU  本草#NN  图#NN  经#VV  ）#PU
+            治#VV  高#JJ  血压#NN  ：#PU  车前草#NN  、#PU  鱼腥草#VV  各#DT  一#CD  两#CD  ，#PU  水煎服#NN  。#PU  （#PU  浙江#NR  民间#NN  常用#JJ  草药#NN  ）#PU
+            .#AD  治#VV  目赤#NN  肿痛#NN  ：#PU  车前草#NN  自然汁#NN  ，#PU  调朴#NR  硝末#VV  ，#PU  卧时#NN  涂#NN  眼#NN  胞#M  上#LC  ，#PU  次#M  早#AD  洗去#VV  。#PU  （#PU  圣济总录#VV  ）#PU
+            .#NN  治#NN  火眼#VV  ：#PU  车前#NN  草根#VV  三#CD  钱#NN  ，#PU  青#NR  鱼草#NR  、#PU  生石膏#NR  各#DT  二#CD  钱#NN  ，#PU  水#NN  煎服#VV  。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU
+            .#NR  治喉痹乳蛾#VV  ：#PU  虾#VV  蟆衣#NN  、#PU  凤尾#NN  草#NN    。#PU  擂烂#VV  ，#PU  入霜#NN  梅#VV  肉#NN  、#PU  煮#VV  酒#NN  各#DT  少许#NN  ，#PU  再#AD  研#VV  绞汁#NN  ，#PU  以#P  鹅#NN  翎刷#VV  患处#NN    。#PU  （#PU  养疴#NN  漫笔#NN  ）#PU    。#PU
+            .#NN  治#NN  痄腮#VV  ：#PU  车前草#NR  一#CD  两#CD  三#CD  钱#NN  ，#PU  煎#NR  水服#VV  ，#PU  温覆取#VV  汗#NN  。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU
+            .#NN  治#VV  百日#NT  咳#VV  ：#PU  车前草#NR  三#CD  钱#NN  ，#PU  水#NN  煎服#VV  。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU
+            .#NN  治痰嗽#NN  喘#AD  促#VV  ，#PU  咳血#VV  ：#PU  鲜#AD  车前草#VV  二#CD  两#CD  （#PU  炖#NN  ）#PU  ，#PU  加冬蜜#VV  五#CD  钱#NN  或#CC  冰糖#VV  一#CD  两#CD  服#NN  。#PU  （#PU  闽东#NN  本草#NN  ）#PU
+            .#NN  治#VV  惊风#NN  ：#PU  鲜#VV  车前#CD  根#M  、#PU  野菊#VV  花#JJ  根#M  各#DT  二#CD  钱#NN  五分#CD    。#PU  水#NN  煎服#VV    。#PU  （#PU  湖南#NR  药物#NN  志#NN  ）#PU    。#PU
+            .#NN  治#NN  小儿#NN  痫病#VV  ：#PU  鲜#AD  车前草#VV  五#CD  两#CD  绞汁#NN  ，#PU  加冬蜜#VV  五#CD  钱#NN  ，#PU  开水#AD  冲服#VV  。#PU  （#PU  闽东#VV  本草#NN  ）#PU
+            .#AD  治#VV  金疮#NN  血#NN  出#VV  不止#VV  ：#PU  捣#AD  车前#VV  汁敷之#NN  。#PU  （#PU  千金#CD  方#NN  ）#PU
+            .#NN  治疮疡#NN  溃烂#VV  ：#PU  鲜#NN  车前#NN  叶#NN  ，#PU  以#P  银针#NN  密刺#NN  细孔#NN  ，#PU  以#P  米汤#NN  或#CC  开水#NN  泡#NN  软#VA  ，#PU  整#DT  叶#NN  敷贴#VV  疮上#NN  ，#PU  日换二#CD  至#CC  三#CD  次#M    。#PU  有#VE  排脓#NN  生肌#NN  作用#NN    。#PU  （#PU  福建#NR  民间#NN  草药#NN  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 草#NN, 车前#NR)  (det, 草#NN, 全#DT)  (nsubj, 含#VV, 草#NN)  (root, ROOT#null, 含#VV)  (conj, 豆甾醇#NR, 熊果酸#NR)  (amod, 烷#NN, 正#JJ)  (nummod, 烷#NN, 三十一#CD)  (conj, 豆甾醇#NR, 烷#NN)  (conj, 豆甾醇#NR, 谷甾醇#NR)  (dobj, 含#VV, 豆甾醇#NR)  (etc, 豆甾醇#NR, 等#ETC)   (nn, 部分#NN, 地上#NN)  (nsubj, 含#VV, 部分#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 车前甙#NN)   (nsubj, 认为#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (nsubj, 味#VV, 车前草#NN)  (ccomp, 认为#VV, 味#VV)  (conj, 淡#NR, 甘#NR)  (dobj, 味#VV, 淡#NR)  (conj, 味#VV, 性微寒#VV)   (root, ROOT#null, 归#VV)  (dobj, 归#VV, 肺#NN)  (conj, 归#VV, 经#VV)  (conj, 膀胱#NR, 肝经#NR)  (conj, 膀胱#NR, 肾经#NR)  (prep, 经#VV, 膀胱#NR)  (dep, 归#VV, 经#VV)   (root, ROOT#null, 具有#VV)  (nn, 祛痰#NN, 清热#NN)  (conj, 祛痰#NN, 利尿#NN)  (nn, 祛痰#NN, 渗湿#NN)  (conj, 祛痰#NN, 止泻#NN)  (conj, 祛痰#NN, 明目#NN)  (assmod, 功效#NN, 祛痰#NN)  (case, 祛痰#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)   (nsubj, 不利#VA, 主治#NN)  (advmod, 不利#VA, 小便#AD)  (root, ROOT#null, 不利#VA)  (dep, 不利#VA, 淋浊#VV)  (conj, 痰热#NR, 带下#NR)  (nn, 痰热#NR, 水肿#NR)  (conj, 痰热#NR, 胀满#NR)  (conj, 痰热#NR, 暑湿泻痢#NR)  (conj, 痰热#NR, 目赤障翳#NR)  (nn, 咳喘#NN, 痰热#NR)  (dobj, 淋浊#VV, 咳喘#NN)   (root, ROOT#null, null#null)
+            (amod, 配方#NN, 常用#JJ)  (root, ROOT#null, 配方#NN)
+            (nn, 小便#NN, 治#NN)  (nsubj, 不通#VV, 小便#NN)  (root, ROOT#null, 不通#VV)  (ccomp, 不通#VV, 车前子#VV)  (nn, 斤#NN, 草#NN)  (nummod, 斤#NN, 一#CD)  (dobj, 车前子#VV, 斤#NN)  (nsubj, 升#VV, 水#NN)  (dep, 升#VV, 三#CD)  (dep, 车前子#VV, 升#VV)  (conj, 升#VV, 煎取一升半#CD)  (conj, 升#VV, 分#VV)  (nummod, 服#NN, 三#CD)  (dobj, 分#VV, 服#NN)  (prnmod, 服#NN, 肘后方#NR)  (conj, 车前子#VV, 生#VV)  (dobj, 生#VV, 车前#NN)
+            (nsubj, 取#VV, 草#NN)  (nsubj, 取#VV, 捣#NN)  (root, ROOT#null, 取#VV)  (dobj, 取#VV, 自然#NN)  (conj, 取#VV, 汁半钟#VV)  (dep, 取#VV, 入蜜#VV)  (range, 入蜜#VV, 一匙#CD)  (conj, 入蜜#VV, 调下#VV)  (nn, 妙方#NN, 摄生#NR)  (nn, 妙方#NN, 众#NN)  (dep, 取#VV, 妙方#NN)
+            (nsubj, 尿血#VV, 治#NN)  (root, ROOT#null, 尿血#VV)  (nn, 捣绞#NN, 车前草#NN)  (nsubj, 取汁#VV, 捣绞#NN)  (ccomp, 尿血#VV, 取汁#VV)  (range, 取汁#VV, 五合#CD)  (conj, 取汁#VV, 空腹#VV)  (dobj, 空腹#VV, 服之#NN)   (dep, 地#NN, 外台#NR)  (conj, 地#NN, 车前草#NR)  (relcl, 旱#NN, 地#NN)  (conj, 旱#NN, 骨皮#NN)  (nn, 莲#NN, 旱#NN)  (dep, 汤#VV, 莲#NN)  (dep, 莲#NN, 草#NN)  (det, 钱#NN, 各#DT)  (dep, 各#DT, 三#CD)  (nsubj, 汤#VV, 钱#NN)  (root, ROOT#null, 汤#VV)  (conj, 汤#VV, 炖服#VV)   (nn, 本草#NN, 闽东#NN)  (root, ROOT#null, 本草#NN)
+            (nsubj, 白带#VV, 治#NN)  (root, ROOT#null, 白带#VV)  (nn, 草根#NN, 车前#NN)  (nsubj, 淘米水#VV, 草根#NN)  (nummod, 捣烂#NN, 三#CD)  (nn, 捣烂#NN, 钱#NN)  (dep, 淘米水#VV, 捣烂#NN)  (case, 糯米#NN, 用#P)  (prep, 淘米水#VV, 糯米#NN)  (ccomp, 白带#VV, 淘米水#VV)  (dobj, 淘米水#VV, 兑服#NN)  (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (dep, 白带#VV, 志#NN)
+            (root, ROOT#null, 治热痢#VV)  (nn, 捣#NN, 车前#NN)  (nn, 捣#NN, 草叶#NN)  (nsubj, 绞取汁#VV, 捣#NN)  (ccomp, 治热痢#VV, 绞取汁#VV)  (range, 绞取汁#VV, 一盅#CD)  (conj, 绞取汁#VV, 入蜜#VV)  (range, 入蜜#VV, 一#CD)  (dep, 治热痢#VV, 合#VV)  (case, 服#NN, 同#P)  (nfincl, 服#NN, 煎#VV)  (dep, 二#OD, 一#OD)  (nummod, 沸#NN, 二#OD)  (dobj, 煎#VV, 沸#NN)  (conj, 煎#VV, 分#VV)  (dobj, 分#VV, 温#NN)  (nummod, 服#NN, 二#CD)  (prep, 车前草#VV, 服#NN)  (dep, 治热痢#VV, 车前草#VV)
+            (prnmod, 。#NN, 圣惠方#NN)  (root, 。#NN, 圣惠方#NN)
+            (nsubj, 马鞭#VV, 治泄泻#NN)  (nn, 钱#NN, 车前草#NR)  (nummod, 钱#NN, 四#CD)  (nsubj, 马鞭#VV, 钱#NN)  (nsubj, 马鞭#VV, 铁#NN)  (root, ROOT#null, 马鞭#VV)  (nummod, 钱#NN, 二#CD)  (dobj, 马鞭#VV, 钱#NN)  (advmod, 捣烂#VV, 共#AD)  (conj, 马鞭#VV, 捣烂#VV)  (nsubj, 水服#VV, 冲凉#NN)  (conj, 马鞭#VV, 水服#VV)  (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (dep, 马鞭#VV, 志#NN)
+            (dep, 炖服#VV, 治黄疸#VV)  (amod, 车前草#NN, 白#JJ)  (nn, 钱#NN, 车前草#NN)  (nummod, 钱#NN, 五#CD)  (dobj, 治黄疸#VV, 钱#NN)  (nsubj, 炖服#VV, 观音#NN)  (dep, 炖服#VV, 螺一两#CD)  (nn, 杯#NN, 加酒#NR)  (nummod, 杯#NN, 一#CD)  (prep, 炖服#VV, 杯#NN)  (root, ROOT#null, 炖服#VV)  (nn, 本草#NN, 闽东#NN)  (dep, 炖服#VV, 本草#NN)
+            (nsubj, 感冒#VV, 治#NN)  (root, ROOT#null, 感冒#VV)  (conj, 陈皮#NR, 车前草#NR)  (nsubj, 适量#VV, 陈皮#NR)  (advmod, 适量#VV, 各#AD)  (ccomp, 感冒#VV, 适量#VV)  (ccomp, 适量#VV, 水煎服#VV)  (nn, 新医#NN, 内蒙古#NR)  (nn, 新医#NN, 中草药#NN)  (nn, 疗法#NN, 新医#NN)  (nn, 资料#NN, 疗法#NN)  (nsubj, 选编#VV, 资料#NN)  (dep, 感冒#VV, 选编#VV)
+            (nsubj, 叶生研#VV, 治衄血#NR)  (nsubj, 叶生研#VV, 车前#NR)  (root, ROOT#null, 叶生研#VV)  (nsubj, 饮#VV, 水解#NN)  (ccomp, 叶生研#VV, 饮#VV)  (dobj, 饮#VV, 之#PN)  (nn, 图#NN, 本草#NN)  (nsubj, 经#VV, 图#NN)  (dep, 叶生研#VV, 经#VV)
+            (root, ROOT#null, 治#VV)  (amod, 血压#NN, 高#JJ)  (dep, 草药#NN, 血压#NN)  (conj, 草药#NN, 车前草#NN)  (nfincl, 草药#NN, 鱼腥草#VV)  (dep, 鱼腥草#VV, 各#DT)  (dep, 各#DT, 一#CD)  (dep, 鱼腥草#VV, 两#CD)  (dep, 鱼腥草#VV, 水煎服#NN)  (nn, 草药#NN, 浙江#NR)  (nn, 草药#NN, 民间#NN)  (amod, 草药#NN, 常用#JJ)  (dobj, 治#VV, 草药#NN)
+            (dep, 硝末#VV, 治#VV)  (nn, 肿痛#NN, 目赤#NN)  (dep, 自然汁#NN, 肿痛#NN)  (nn, 自然汁#NN, 车前草#NN)  (dobj, 治#VV, 自然汁#NN)  (nsubj, 硝末#VV, 调朴#NR)  (root, ROOT#null, 硝末#VV)  (nn, 涂#NN, 卧时#NN)  (nsubj, 洗去#VV, 涂#NN)  (loc, 洗去#VV, 眼#NN)  (dep, 眼#NN, 胞#M)  (case, 眼#NN, 上#LC)  (dep, 洗去#VV, 次#M)  (advmod, 洗去#VV, 早#AD)  (ccomp, 硝末#VV, 洗去#VV)  (dep, 硝末#VV, 圣济总录#VV)
+            (nsubj, 火眼#VV, 治#NN)  (root, ROOT#null, 火眼#VV)  (nsubj, 草根#VV, 车前#NN)  (ccomp, 火眼#VV, 草根#VV)  (nummod, 钱#NN, 三#CD)  (dobj, 草根#VV, 钱#NN)  (nn, 生石膏#NR, 青#NR)  (conj, 生石膏#NR, 鱼草#NR)  (nn, 钱#NN, 生石膏#NR)  (det, 钱#NN, 各#DT)  (dep, 各#DT, 二#CD)  (nsubj, 煎服#VV, 钱#NN)  (nsubj, 煎服#VV, 水#NN)  (conj, 草根#VV, 煎服#VV)  (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (dep, 火眼#VV, 志#NN)
+            (root, ROOT#null, 治喉痹乳蛾#VV)  (ccomp, 治喉痹乳蛾#VV, 虾#VV)  (conj, 草#NN, 蟆衣#NN)  (nn, 草#NN, 凤尾#NN)  (dobj, 虾#VV, 草#NN)   (root, ROOT#null, 擂烂#VV)  (nsubj, 梅#VV, 入霜#NN)  (ccomp, 擂烂#VV, 梅#VV)  (dobj, 梅#VV, 肉#NN)  (conj, 梅#VV, 煮#VV)  (nn, 少许#NN, 酒#NN)  (det, 少许#NN, 各#DT)  (dobj, 煮#VV, 少许#NN)  (advmod, 研#VV, 再#AD)  (conj, 梅#VV, 研#VV)  (dobj, 研#VV, 绞汁#NN)  (case, 鹅#NN, 以#P)  (prep, 翎刷#VV, 鹅#NN)  (conj, 梅#VV, 翎刷#VV)  (dobj, 翎刷#VV, 患处#NN)   (nn, 漫笔#NN, 养疴#NN)  (root, ROOT#null, 漫笔#NN)
+            (nsubj, 痄腮#VV, 治#NN)  (root, ROOT#null, 痄腮#VV)  (nn, 钱#NN, 车前草#NR)  (nummod, 钱#NN, 一#CD)  (nummod, 钱#NN, 两#CD)  (nummod, 钱#NN, 三#CD)  (nsubj, 水服#VV, 钱#NN)  (nsubj, 水服#VV, 煎#NR)  (ccomp, 痄腮#VV, 水服#VV)  (ccomp, 水服#VV, 温覆取#VV)  (dobj, 温覆取#VV, 汗#NN)  (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (dep, 痄腮#VV, 志#NN)
+            (root, ROOT#null, 治#VV)  (tmod, 咳#VV, 百日#NT)  (nfincl, 志#NN, 咳#VV)  (nn, 钱#NN, 车前草#NR)  (nummod, 钱#NN, 三#CD)  (nsubj, 煎服#VV, 钱#NN)  (nsubj, 煎服#VV, 水#NN)  (ccomp, 咳#VV, 煎服#VV)  (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (dobj, 治#VV, 志#NN)
+            (nsubj, 促#VV, 治痰嗽#NN)  (advmod, 促#VV, 喘#AD)  (root, ROOT#null, 促#VV)  (dep, 促#VV, 咳血#VV)  (advmod, 车前草#VV, 鲜#AD)  (dep, 促#VV, 车前草#VV)  (dep, 两#CD, 二#CD)  (range, 车前草#VV, 两#CD)  (dep, 车前草#VV, 炖#NN)  (conj, 车前草#VV, 加冬蜜#VV)  (nummod, 钱#NN, 五#CD)  (dobj, 加冬蜜#VV, 钱#NN)  (cc, 车前草#VV, 或#CC)  (conj, 车前草#VV, 冰糖#VV)  (nummod, 服#NN, 一#CD)  (nummod, 服#NN, 两#CD)  (dobj, 冰糖#VV, 服#NN)  (nn, 本草#NN, 闽东#NN)  (dep, 促#VV, 本草#NN)
+            (root, ROOT#null, 治#VV)  (dobj, 治#VV, 惊风#NN)  (conj, 治#VV, 鲜#VV)  (nummod, 根#M, 车前#CD)  (range, 鲜#VV, 根#M)  (conj, 鲜#VV, 野菊#VV)  (amod, 根#M, 花#JJ)  (dep, 钱#NN, 根#M)  (det, 钱#NN, 各#DT)  (dep, 各#DT, 二#CD)  (dobj, 野菊#VV, 钱#NN)  (range, 野菊#VV, 五分#CD)   (nsubj, 煎服#VV, 水#NN)  (root, ROOT#null, 煎服#VV)   (nn, 志#NN, 湖南#NR)  (nn, 志#NN, 药物#NN)  (root, ROOT#null, 志#NN)
+            (nn, 小儿#NN, 治#NN)  (nsubj, 痫病#VV, 小儿#NN)  (xsubj, 车前草#VV, 小儿#NN)  (root, ROOT#null, 痫病#VV)  (advmod, 车前草#VV, 鲜#AD)  (ccomp, 痫病#VV, 车前草#VV)  (nummod, 绞汁#NN, 五#CD)  (nummod, 绞汁#NN, 两#CD)  (dobj, 车前草#VV, 绞汁#NN)  (dep, 车前草#VV, 加冬蜜#VV)  (nummod, 钱#NN, 五#CD)  (dobj, 加冬蜜#VV, 钱#NN)  (advmod, 冲服#VV, 开水#AD)  (conj, 车前草#VV, 冲服#VV)  (dep, 痫病#VV, 闽东#VV)  (dobj, 闽东#VV, 本草#NN)
+            (root, ROOT#null, 治#VV)  (nn, 血#NN, 金疮#NN)  (dobj, 治#VV, 血#NN)  (conj, 治#VV, 出#VV)  (conj, 治#VV, 不止#VV)  (advmod, 车前#VV, 捣#AD)  (ccomp, 不止#VV, 车前#VV)  (dobj, 车前#VV, 汁敷之#NN)  (nummod, 方#NN, 千金#CD)  (dep, 治#VV, 方#NN)
+            (nsubj, 溃烂#VV, 治疮疡#NN)  (root, ROOT#null, 溃烂#VV)  (nn, 叶#NN, 鲜#NN)  (nn, 叶#NN, 车前#NN)  (nsubj, 敷贴#VV, 叶#NN)  (case, 细孔#NN, 以#P)  (nn, 细孔#NN, 银针#NN)  (nn, 细孔#NN, 密刺#NN)  (prep, 敷贴#VV, 细孔#NN)  (case, 软#VA, 以#P)  (conj, 开水#NN, 米汤#NN)  (cc, 开水#NN, 或#CC)  (nn, 泡#NN, 开水#NN)  (nsubj, 软#VA, 泡#NN)  (prep, 敷贴#VV, 软#VA)  (det, 叶#NN, 整#DT)  (nsubj, 敷贴#VV, 叶#NN)  (ccomp, 溃烂#VV, 敷贴#VV)  (dobj, 敷贴#VV, 疮上#NN)  (dep, 次#M, 日换二#CD)  (cc, 次#M, 至#CC)  (nummod, 次#M, 三#CD)  (conj, 敷贴#VV, 次#M)   (root, ROOT#null, 有#VE)  (nn, 作用#NN, 排脓#NN)  (nn, 作用#NN, 生肌#NN)  (dobj, 有#VE, 作用#NN)   (nn, 草药#NN, 福建#NR)  (nn, 草药#NN, 民间#NN)  (root, ROOT#null, 草药#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374472986.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\652 车前草.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,202 @@
+<content>
+
+    <id>
+        667
+    </id>
+
+    <foodname>
+        鮸鱼
+    </foodname>
+
+    <firstcategory>
+        鱼虾蟹贝等水产
+    </firstcategory>
+
+    <secondcategory>
+        鱼
+    </secondcategory>
+
+    <alias>
+        米鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿疹、痛风、红斑狼疮、哮喘、咳嗽患者忌食鱼。
+        </rawdata>
+
+        <segment>
+            湿疹  、  痛风  、  红斑狼疮  、  哮喘  、  咳嗽  患者  忌食鱼  。
+        </segment>
+
+        <pos>
+            湿疹#NR  、#PU  痛风#NR  、#PU  红斑狼疮#NR  、#PU  哮喘#NR  、#PU  咳嗽#NR  患者#NN  忌食鱼#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 咳嗽#NR, 湿疹#NR)  (conj, 咳嗽#NR, 痛风#NR)  (conj, 咳嗽#NR, 红斑狼疮#NR)  (conj, 咳嗽#NR, 哮喘#NR)  (nn, 患者#NN, 咳嗽#NR)  (nsubj, 忌食鱼#VV, 患者#NN)  (root, ROOT#null, 忌食鱼#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，湿热体质，瘀血体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  湿热  体质  ，  瘀血  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  湿热#VV  体质#NN  ，#PU  瘀血#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 湿热#VV)  (dobj, 湿热#VV, 体质#NN)  (conj, 适宜#VV, 瘀血#VV)  (dobj, 瘀血#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(毫克)
+            </elename>
+            <elevalue>
+                53.90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                0.85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                1.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                21.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                58.10
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鮸鱼（音 miǎn）即为米鱼。形似鲈鱼，但肉质略粗糙，体色发暗，灰褐并带有紫绿色，腹部灰白。喜栖息于混浊度较高的水域。能以鱼鳔发声，性凶猛。
+        </rawdata>
+
+        <segment>
+            鮸鱼  （  音  miǎn  ）  即为  米  鱼  。  形似  鲈鱼  ，  但  肉质  略  粗糙  ，  体色  发暗  ，  灰褐  并  带有  紫  绿色  ，  腹部  灰白  。  喜  栖息于  混  浊度  较  高  的  水域  。  能  以  鱼鳔  发声  ，  性  凶猛  。
+        </segment>
+
+        <pos>
+            鮸鱼#NN  （#PU  音#NN  miǎn#NN  ）#PU  即为#CD  米#M  鱼#NN    。#PU  形似#VV  鲈鱼#NN  ，#PU  但#AD  肉质#AD  略#AD  粗糙#VV  ，#PU  体色#VV  发暗#NN  ，#PU  灰褐#VV  并#CC  带有#VV  紫#VA  绿色#NN  ，#PU  腹部#VV  灰白#NN    。#PU  喜#AD  栖息于#VV  混#NN  浊度#NN  较#AD  高#VA  的#DEC  水域#NN    。#PU  能#VV  以#P  鱼鳔#NN  发声#VV  ，#PU  性#NN  凶猛#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鱼#NN, 鮸鱼#NN)  (nn, miǎn#NN, 音#NN)  (prnmod, 鮸鱼#NN, miǎn#NN)  (nummod, 米#M, 即为#CD)  (clf, 鱼#NN, 米#M)  (root, ROOT#null, 鱼#NN)   (root, ROOT#null, 形似#VV)  (dobj, 形似#VV, 鲈鱼#NN)  (advmod, 粗糙#VV, 但#AD)  (advmod, 粗糙#VV, 肉质#AD)  (advmod, 粗糙#VV, 略#AD)  (conj, 形似#VV, 粗糙#VV)  (conj, 形似#VV, 体色#VV)  (dobj, 体色#VV, 发暗#NN)  (conj, 形似#VV, 灰褐#VV)  (cc, 形似#VV, 并#CC)  (conj, 形似#VV, 带有#VV)  (nfincl, 绿色#NN, 紫#VA)  (dobj, 带有#VV, 绿色#NN)  (conj, 形似#VV, 腹部#VV)  (dobj, 腹部#VV, 灰白#NN)   (advmod, 栖息于#VV, 喜#AD)  (root, ROOT#null, 栖息于#VV)  (nn, 浊度#NN, 混#NN)  (nsubj, 高#VA, 浊度#NN)  (advmod, 高#VA, 较#AD)  (relcl, 水域#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 栖息于#VV, 水域#NN)   (mmod, 发声#VV, 能#VV)  (case, 鱼鳔#NN, 以#P)  (prep, 发声#VV, 鱼鳔#NN)  (root, ROOT#null, 发声#VV)  (nsubj, 凶猛#VA, 性#NN)  (ccomp, 发声#VV, 凶猛#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            米鱼性甘、咸、平，有养血、止血、补肾固精、润肺健脾和消炎功效。
+        </rawdata>
+
+        <segment>
+            米  鱼  性  甘  、  咸  、  平  ，  有  养  血  、  止血  、  补  肾  固精  、  润肺  健脾  和  消炎  功效  。
+        </segment>
+
+        <pos>
+            米#M  鱼#NN  性#NN  甘#NR  、#PU  咸#NN  、#PU  平#NN  ，#PU  有#VE  养#VV  血#NN  、#PU  止血#NN  、#PU  补#NN  肾#NN  固精#NN  、#PU  润肺#NN  健脾#NN  和#CC  消炎#NN  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 性#NN, 米#M)  (nn, 性#NN, 鱼#NN)  (nn, 平#NN, 性#NN)  (conj, 平#NN, 甘#NR)  (conj, 平#NN, 咸#NN)  (dep, 有#VE, 平#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 养#VV)  (conj, 功效#NN, 血#NN)  (conj, 功效#NN, 止血#NN)  (nn, 功效#NN, 补#NN)  (nn, 功效#NN, 肾#NN)  (conj, 功效#NN, 固精#NN)  (nn, 功效#NN, 润肺#NN)  (conj, 功效#NN, 健脾#NN)  (cc, 功效#NN, 和#CC)  (nn, 功效#NN, 消炎#NN)  (dobj, 养#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        养血  止血  补肾固精  润肺健脾  消炎
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374474140.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\667 鮸鱼.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,147 @@
+<content>
+
+    <id>
+        1410
+    </id>
+
+    <foodname>
+        野山鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        雉鸡、山鸡、雉、原鸡、血雉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            野鸡分布于全国各地的山丘和岗地中，与野兔一样，是国人所食野味中最多的两种肉食品之一。每年秋冬季节的野鸡肉最肥嫩，作为补物食疗也最佳。
+        </rawdata>
+
+        <segment>
+            野鸡  分布  于  全国  各  地  的  山丘  和  岗地  中  ，  与  野兔  一样  ，  是  国人  所  食  野味  中  最  多  的  两  种  肉食品  之一  。  每  年  秋冬  季节  的  野鸡肉  最  肥嫩  ，  作为  补物  食疗  也  最佳  。
+        </segment>
+
+        <pos>
+            野鸡#AD  分布#VV  于#P  全国#NR  各#DT  地#NN  的#DEG  山丘#NN  和#CC  岗地#NN  中#LC  ，#PU  与#P  野兔#NN  一样#VA  ，#PU  是#VC  国人#CD  所#M  食#NN  野味#NN  中#LC  最#AD  多#VA  的#DEC  两#CD  种#M  肉食品#NN  之一#NN    。#PU  每#DT  年#M  秋冬#NN  季节#NN  的#DEG  野鸡肉#NN  最#AD  肥嫩#VV  ，#PU  作为#P  补物#NN  食疗#VV  也#CC  最佳#JJ    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 分布#VV, 野鸡#AD)  (root, ROOT#null, 分布#VV)  (case, 岗地#NN, 于#P)  (nn, 地#NN, 全国#NR)  (det, 地#NN, 各#DT)  (assmod, 岗地#NN, 地#NN)  (case, 地#NN, 的#DEG)  (conj, 岗地#NN, 山丘#NN)  (cc, 岗地#NN, 和#CC)  (prep, 分布#VV, 岗地#NN)  (case, 岗地#NN, 中#LC)  (case, 野兔#NN, 与#P)  (prep, 一样#VA, 野兔#NN)  (conj, 分布#VV, 一样#VA)  (cop, 之一#NN, 是#VC)  (nummod, 所#M, 国人#CD)  (clf, 野味#NN, 所#M)  (nn, 野味#NN, 食#NN)  (loc, 多#VA, 野味#NN)  (case, 野味#NN, 中#LC)  (advmod, 多#VA, 最#AD)  (relcl, 之一#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nummod, 种#M, 两#CD)  (clf, 之一#NN, 种#M)  (nn, 之一#NN, 肉食品#NN)  (dep, 分布#VV, 之一#NN)   (det, 秋冬#NN, 每#DT)  (clf, 每#DT, 年#M)  (nn, 季节#NN, 秋冬#NN)  (assmod, 野鸡肉#NN, 季节#NN)  (case, 季节#NN, 的#DEG)  (nsubj, 肥嫩#VV, 野鸡肉#NN)  (xsubj, 食疗#VV, 野鸡肉#NN)  (advmod, 肥嫩#VV, 最#AD)  (root, ROOT#null, 肥嫩#VV)  (case, 补物#NN, 作为#P)  (prep, 食疗#VV, 补物#NN)  (ccomp, 肥嫩#VV, 食疗#VV)  (cc, 食疗#VV, 也#CC)  (dep, 食疗#VV, 最佳#JJ)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            野鸡的营养成分与家养鸡相仿，但蛋白质含量很高，达到23.3%，而且都是优质蛋白质；脂肪含量远远低于家养鸡。此外，野鸡钙、磷、铁以及其他微量元素也均比家养动物高。
+        </rawdata>
+
+        <segment>
+            野鸡  的  营养  成  分与  家养  鸡  相仿  ，  但  蛋白质  含量  很  高  ，  达到  .  3%  ，  而且  都  是  优质  蛋白质  ；  脂肪  含量  远远  低于  家养  鸡  。  此外  ，  野鸡  钙  、  磷  、  铁  以及  其他  微量  元素  也  均  比  家养  动物  高  。
+        </segment>
+
+        <pos>
+            野鸡#NN  的#DEG  营养#VA  成#VV  分与#NN  家养#NN  鸡#NN  相仿#VA  ，#PU  但#AD  蛋白质#NN  含量#NN  很#AD  高#VA  ，#PU  达到#VV  .#NR  3#CD  %#NN  ，#PU  而且#CC  都#AD  是#VC  优质#JJ  蛋白质#NN  ；#PU  脂肪#VV  含量#NN  远远#AD  低于#VV  家养#NN  鸡#NN    。#PU  此外#AD  ，#PU  野鸡#NN  钙#NN  、#PU  磷#NN  、#PU  铁#NN  以及#CC  其他#DT  微量#NN  元素#NN  也#AD  均#AD  比#P  家养#NN  动物#NN  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含量#NN, 野鸡#NN)  (case, 野鸡#NN, 的#DEG)  (dep, 成#VV, 营养#VA)  (ccomp, 相仿#VA, 成#VV)  (nn, 鸡#NN, 分与#NN)  (nn, 鸡#NN, 家养#NN)  (nsubj, 相仿#VA, 鸡#NN)  (nfincl, 含量#NN, 相仿#VA)  (advmod, 高#VA, 但#AD)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 相仿#VA, 高#VA)  (dep, 相仿#VA, 达到#VV)  (nummod, %#NN, 3#CD)  (dobj, 达到#VV, %#NN)  (cc, 相仿#VA, 而且#CC)  (advmod, 蛋白质#NN, 都#AD)  (cop, 蛋白质#NN, 是#VC)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 相仿#VA, 蛋白质#NN)  (conj, 相仿#VA, 脂肪#VV)  (nsubj, 低于#VV, 含量#NN)  (advmod, 低于#VV, 远远#AD)  (root, ROOT#null, 低于#VV)  (nn, 鸡#NN, 家养#NN)  (dobj, 低于#VV, 鸡#NN)   (advmod, 高#VA, 此外#AD)  (nn, 铁#NN, 野鸡#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (conj, 微量#NN, 铁#NN)  (cc, 微量#NN, 以及#CC)  (det, 微量#NN, 其他#DT)  (nsubj, 高#VA, 微量#NN)  (nsubj, 高#VA, 元素#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 均#AD)  (case, 动物#NN, 比#P)  (nn, 动物#NN, 家养#NN)  (prep, 高#VA, 动物#NN)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血  强筋骨  补肝肾  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.为烹调中常用的野禽适用于烧、炒、焖、炸等方法，如“口蘑烧鸡”、“野鸡烧肉”、“黄焖野鸡”等;
+            2.雄野鸡多用于红烧，雌野鸡清炖比较好;
+            3.鸡屁股是淋巴最为集中的地方，也是储存病菌，病毒和致癌物的仓库，应弃掉不要。
+        </rawdata>
+
+        <segment>
+            为  烹调  中常  用  的  野禽  适用  于  烧  、  炒  、  焖  、  炸  等  方法  ，  如  “  口蘑  烧鸡  ”  、  “  野鸡  烧肉  ”  、  “  黄焖  野鸡  ”  等  ;
+            雄  野鸡  多  用  于  红烧  ，  雌  野鸡  清炖  比较  好  ;
+            鸡  屁股  是  淋巴  最为  集中  的  地方  ，  也  是  储存  病菌  ，  病毒  和  致癌物  的  仓库  ，  应  弃掉  不要  。
+        </segment>
+
+        <pos>
+            为#P  烹调#NN  中常#NN  用#VV  的#DEC  野禽#NN  适用#NN  于#P  烧#NN  、#PU  炒#NN  、#PU  焖#NN  、#PU  炸#VV  等#ETC  方法#NN  ，#PU  如#AD  ``#NN  口蘑#VV  烧鸡#NN  ''#NN  、#PU  ``#NR  野鸡#NR  烧肉#NN  ''#NN  、#PU  ``#NN  黄焖#NN  野鸡#NN  ''#NN  等#ETC  ;#NN
+            雄#NN  野鸡#NN  多#AD  用#VV  于#P  红烧#NN  ，#PU  雌#VV  野鸡#NN  清炖#NN  比较#AD  好#VA  ;#NN
+            鸡#NN  屁股#NN  是#VC  淋巴#NN  最为#AD  集中#VV  的#DEC  地方#NN  ，#PU  也#AD  是#VC  储存#VV  病菌#NN  ，#PU  病毒#NN  和#CC  致癌物#NN  的#DEC  仓库#NN  ，#PU  应#VV  弃掉#NN  不要#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 中常#NN, 为#P)  (nn, 中常#NN, 烹调#NN)  (prep, 用#VV, 中常#NN)  (relcl, 适用#NN, 用#VV)  (mark, 用#VV, 的#DEC)  (nn, 适用#NN, 野禽#NN)  (nsubj, 口蘑#VV, 适用#NN)  (case, ``#NN, 于#P)  (dep, 方法#NN, 烧#NN)  (conj, 烧#NN, 炒#NN)  (conj, 烧#NN, 焖#NN)  (dep, 烧#NN, 炸#VV)  (dep, 烧#NN, 等#ETC)  (dep, ``#NN, 方法#NN)  (advmod, ``#NN, 如#AD)  (prep, 口蘑#VV, ``#NN)  (root, ROOT#null, 口蘑#VV)  (nn, ''#NN, 烧鸡#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 野鸡#NR)  (nn, ''#NN, 烧肉#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 黄焖#NN)  (nn, ''#NN, 野鸡#NN)  (nn, ;#NN, ''#NN)  (etc, ''#NN, 等#ETC)  (dobj, 口蘑#VV, ;#NN)
+            (nn, 野鸡#NN, 雄#NN)  (nsubj, 用#VV, 野鸡#NN)  (advmod, 用#VV, 多#AD)  (root, ROOT#null, 用#VV)  (case, 红烧#NN, 于#P)  (prep, 用#VV, 红烧#NN)  (dep, 用#VV, 雌#VV)  (nn, 清炖#NN, 野鸡#NN)  (nsubj, 好#VA, 清炖#NN)  (advmod, 好#VA, 比较#AD)  (relcl, ;#NN, 好#VA)  (dobj, 雌#VV, ;#NN)
+            (nn, 屁股#NN, 鸡#NN)  (nsubj, 地方#NN, 屁股#NN)  (cop, 地方#NN, 是#VC)  (nsubj, 集中#VV, 淋巴#NN)  (advmod, 集中#VV, 最为#AD)  (relcl, 地方#NN, 集中#VV)  (mark, 集中#VV, 的#DEC)  (root, ROOT#null, 地方#NN)  (advmod, 仓库#NN, 也#AD)  (cop, 仓库#NN, 是#VC)  (relcl, 仓库#NN, 储存#VV)  (dobj, 储存#VV, 病菌#NN)  (conj, 致癌物#NN, 病毒#NN)  (cc, 致癌物#NN, 和#CC)  (conj, 储存#VV, 致癌物#NN)  (mark, 储存#VV, 的#DEC)  (conj, 地方#NN, 仓库#NN)  (conj, 地方#NN, 应#VV)  (nn, 不要#NN, 弃掉#NN)  (dobj, 应#VV, 不要#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/df/eb/60383_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1410 野山鸡.jpg
+    </picturelocalurl>
+
+</content>

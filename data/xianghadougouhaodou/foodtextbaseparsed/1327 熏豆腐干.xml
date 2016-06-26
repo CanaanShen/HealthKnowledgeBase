@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        1327
+    </id>
+
+    <foodname>
+        熏豆腐干
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        豆腐干
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用松木屑燃烧的烟薰过，表面呈棕红色，本身除淡淡的松香味外没什么味道，切片、切条、切丁，炒吃、凉拌，都行。熏制过程中使水产品干燥的方法
+        </rawdata>
+
+        <segment>
+            用  松木屑  燃烧  的  烟薰  过  ，  表面呈  棕红色  ，  本身  除  淡淡  的  松香味  外  没  什么  味道  ，  切片  、  切条  、  切丁  ，  炒  吃  、  凉拌  ，  都  行  。  熏制  过程  中  使  水产品  干燥  的  方法
+        </segment>
+
+        <pos>
+            用#P  松木屑#AD  燃烧#VV  的#DEC  烟薰#VV  过#AS  ，#PU  表面呈#AD  棕红色#VV  ，#PU  本身#PN  除#P  淡淡#NN  的#DEG  松香味#NN  外#LC  没#VV  什么#DT  味道#NN  ，#PU  切片#NN  、#PU  切条#NN  、#PU  切丁#NN  ，#PU  炒#AD  吃#VV  、#PU  凉拌#VV  ，#PU  都#AD  行#VV  。#PU  熏制#NN  过程#NN  中#LC  使#VV  水产品#VV  干燥#NN  的#DEG  方法#NN
+        </pos>
+
+        <parsing>
+            (case, 过程#NN, 用#P)  (advmod, 燃烧#VV, 松木屑#AD)  (relcl, 过程#NN, 燃烧#VV)  (mark, 燃烧#VV, 的#DEC)  (nfincl, 过程#NN, 烟薰#VV)  (asp, 烟薰#VV, 过#AS)  (advmod, 棕红色#VV, 表面呈#AD)  (dep, 烟薰#VV, 棕红色#VV)  (nsubj, 没#VV, 本身#PN)  (case, 松香味#NN, 除#P)  (assmod, 松香味#NN, 淡淡#NN)  (case, 淡淡#NN, 的#DEG)  (prep, 没#VV, 松香味#NN)  (case, 松香味#NN, 外#LC)  (ccomp, 棕红色#VV, 没#VV)  (det, 味道#NN, 什么#DT)  (dobj, 没#VV, 味道#NN)  (conj, 切丁#NN, 切片#NN)  (conj, 切丁#NN, 切条#NN)  (nsubj, 吃#VV, 切丁#NN)  (advmod, 吃#VV, 炒#AD)  (conj, 没#VV, 吃#VV)  (dep, 吃#VV, 凉拌#VV)  (advmod, 行#VV, 都#AD)  (dep, 吃#VV, 行#VV)  (nn, 过程#NN, 熏制#NN)  (prep, 使#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 使#VV)  (ccomp, 使#VV, 水产品#VV)  (assmod, 方法#NN, 干燥#NN)  (case, 干燥#NN, 的#DEG)  (dobj, 水产品#VV, 方法#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  增加骨密度
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            熏干用松木屑燃烧的烟薰过，表面呈棕红色，本身除淡淡的松香味外没什么味道，切片、切条、切丁，炒吃、凉拌，都行。
+        </rawdata>
+
+        <segment>
+            熏干  用  松木屑  燃烧  的  烟薰  过  ，  表面呈  棕红色  ，  本身  除  淡淡  的  松香味  外  没  什么  味道  ，  切片  、  切条  、  切丁  ，  炒  吃  、  凉拌  ，  都行  。
+        </segment>
+
+        <pos>
+            熏干#NN  用#P  松木屑#AD  燃烧#VV  的#DEC  烟薰#NN  过#VV  ，#PU  表面呈#NN  棕红色#NN  ，#PU  本身#PN  除#P  淡淡#NN  的#DEG  松香味#NN  外#LC  没#VV  什么#DT  味道#NN  ，#PU  切片#NN  、#PU  切条#NN  、#PU  切丁#NN  ，#PU  炒#AD  吃#VV  、#PU  凉拌#VV  ，#PU  都行#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 过#VV, 熏干#NN)  (case, 烟薰#NN, 用#P)  (advmod, 燃烧#VV, 松木屑#AD)  (relcl, 烟薰#NN, 燃烧#VV)  (mark, 燃烧#VV, 的#DEC)  (prep, 过#VV, 烟薰#NN)  (root, ROOT#null, 过#VV)  (nn, 棕红色#NN, 表面呈#NN)  (nsubj, 没#VV, 棕红色#NN)  (nsubj, 没#VV, 本身#PN)  (case, 松香味#NN, 除#P)  (assmod, 松香味#NN, 淡淡#NN)  (case, 淡淡#NN, 的#DEG)  (prep, 没#VV, 松香味#NN)  (case, 松香味#NN, 外#LC)  (conj, 过#VV, 没#VV)  (det, 味道#NN, 什么#DT)  (dobj, 没#VV, 味道#NN)  (conj, 切丁#NN, 切片#NN)  (conj, 切丁#NN, 切条#NN)  (nsubj, 吃#VV, 切丁#NN)  (advmod, 吃#VV, 炒#AD)  (conj, 过#VV, 吃#VV)  (dep, 吃#VV, 凉拌#VV)  (conj, 过#VV, 都行#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/d4/9f/40916_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1327 熏豆腐干.jpg
+    </picturelocalurl>
+
+</content>

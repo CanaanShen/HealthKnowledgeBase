@@ -1,0 +1,169 @@
+<content>
+
+    <id>
+        1278
+    </id>
+
+    <foodname>
+        橄榄
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        青果、白榄、谏果、忠果、福果、橄榄子、余甘子、橄棪、忠果、青子、谏果、青橄榄、黄榄、甘榄
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            市场销售色泽特别青绿的橄榄果如果没有一点黄色，说明已经矾水浸泡过，为的是好看，最好不要食用或吃时务必要漂洗干净。
+        </rawdata>
+
+        <segment>
+            市场  销售  色泽  特别  青绿  的  橄榄  果  如果  没有  一  点  黄色  ，  说明  已经  矾水  浸泡  过  ，  为的  是  好看  ，  最好  不  要  食用  或  吃  时务  必要  漂洗  干净  。
+        </segment>
+
+        <pos>
+            市场#NN  销售#NN  色泽#NN  特别#JJ  青绿#NN  的#DEG  橄榄#NN  果#NN  如果#CS  没有#VV  一#CD  点#M  黄色#JJ  ，#PU  说明#VV  已经#AD  矾水#VV  浸泡#NN  过#VV  ，#PU  为的#AD  是#VC  好看#NN  ，#PU  最好#JJ  不#AD  要#VV  食用#VV  或#CC  吃#VV  时务#NR  必要#JJ  漂洗#NN  干净#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 销售#NN, 市场#NN)  (nn, 色泽#NN, 销售#NN)  (nn, 青绿#NN, 色泽#NN)  (amod, 青绿#NN, 特别#JJ)  (assmod, 果#NN, 青绿#NN)  (case, 青绿#NN, 的#DEG)  (nn, 果#NN, 橄榄#NN)  (nsubj, 好看#NN, 果#NN)  (advmod, 过#VV, 如果#CS)  (dep, 过#VV, 没有#VV)  (nummod, 点#M, 一#CD)  (range, 没有#VV, 点#M)  (conj, 没有#VV, 黄色#JJ)  (conj, 没有#VV, 说明#VV)  (advmod, 矾水#VV, 已经#AD)  (ccomp, 说明#VV, 矾水#VV)  (dobj, 矾水#VV, 浸泡#NN)  (dep, 好看#NN, 过#VV)  (advmod, 好看#NN, 为的#AD)  (cop, 好看#NN, 是#VC)  (root, ROOT#null, 好看#NN)  (amod, 漂洗#NN, 最好#JJ)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 要#VV)  (relcl, 漂洗#NN, 食用#VV)  (cc, 食用#VV, 或#CC)  (dep, 食用#VV, 吃#VV)  (nn, 漂洗#NN, 时务#NR)  (amod, 漂洗#NN, 必要#JJ)  (nsubj, 干净#VA, 漂洗#NN)  (conj, 好看#NN, 干净#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            气虚质体质应忌食或少食;
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            气虚  质  体质  应  忌食  或少  食  ;
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            气虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 气虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            橄榄营养丰富，果肉内含蛋白质、碳水化合物、脂肪、维生素C以及钙、磷、铁等矿物质，其中维生素C和钙的含量很高，且易被人体吸收。中医认为，橄榄性味甘、酸、平，入脾、胃、肺经，有清热解毒，利咽化痰，生津止渴，除烦醒酒，化刺除鲠之功。
+        </rawdata>
+
+        <segment>
+            橄榄  营养  丰富  ，  果肉  内含  蛋白质  、  碳水化合物  、  脂肪  、  维生素C  以及  钙  、  磷  、  铁  等  矿物质  ，  其中  维生素C  和  钙  的  含量  很  高  ，  且  易  被  人体  吸收  。  中医  认为  ，  橄榄性  味  甘  、  酸  、  平  ，  入脾  、  胃  、  肺经  ，  有  清热  解毒  ，  利咽  化痰  ，  生津止渴  ，  除  烦  醒酒  ，  化  刺  除鲠  之  功  。
+        </segment>
+
+        <pos>
+            橄榄#AD  营养#VA  丰富#VA  ，#PU  果肉#AD  内含#VV  蛋白质#NN  、#PU  碳水化合物#NN  、#PU  脂肪#NN  、#PU  维生素C#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  其中#NN  维生素C#NN  和#CC  钙#NN  的#DEG  含量#NN  很#AD  高#VA  ，#PU  且#CC  易#AD  被#SB  人体#VV  吸收#NN    。#PU  中医#NN  认为#VV  ，#PU  橄榄性#NN  味#VV  甘#NR  、#PU  酸#NR  、#PU  平#NN  ，#PU  入脾#NR  、#PU  胃#NR  、#PU  肺经#NR  ，#PU  有#VE  清热#NN  解毒#NN  ，#PU  利咽#VV  化痰#NN  ，#PU  生津止渴#VV  ，#PU  除#P  烦#NN  醒酒#VV  ，#PU  化#VV  刺#NN  除鲠#NN  之#DEG  功#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 营养#VA, 橄榄#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 内含#VV, 果肉#AD)  (conj, 营养#VA, 内含#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 维生素C#NN)  (cc, 铁#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 内含#VV, 矿物质#NN)  (nn, 钙#NN, 其中#NN)  (conj, 钙#NN, 维生素C#NN)  (cc, 钙#NN, 和#CC)  (assmod, 含量#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dep, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (dep, 营养#VA, 高#VA)  (cc, 营养#VA, 且#CC)  (advmod, 人体#VV, 易#AD)  (auxpass, 人体#VV, 被#SB)  (conj, 营养#VA, 人体#VV)  (dobj, 人体#VV, 吸收#NN)   (nsubj, 认为#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (nsubj, 味#VV, 橄榄性#NN)  (ccomp, 认为#VV, 味#VV)  (conj, 肺经#NR, 甘#NR)  (conj, 肺经#NR, 酸#NR)  (dep, 肺经#NR, 平#NN)  (conj, 肺经#NR, 入脾#NR)  (conj, 肺经#NR, 胃#NR)  (dobj, 味#VV, 肺经#NR)  (conj, 味#VV, 有#VE)  (nn, 解毒#NN, 清热#NN)  (dobj, 有#VE, 解毒#NN)  (conj, 味#VV, 利咽#VV)  (dobj, 利咽#VV, 化痰#NN)  (conj, 味#VV, 生津止渴#VV)  (case, 烦#NN, 除#P)  (prep, 醒酒#VV, 烦#NN)  (conj, 味#VV, 醒酒#VV)  (conj, 味#VV, 化#VV)  (nn, 除鲠#NN, 刺#NN)  (assmod, 功#NN, 除鲠#NN)  (case, 除鲠#NN, 之#DEG)  (dobj, 化#VV, 功#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热、化痰、消积
+            ；利咽喉
+            ；解酒毒
+        </rawdata>
+
+        <segment>
+            清热  、  化痰  、  消积
+            ；  利  咽喉
+            ；  解  酒毒
+        </segment>
+
+        <pos>
+            清热#VA  、#PU  化痰#VA  、#PU  消积#VA
+            ；#NR  利#NN  咽喉#NR
+            ；#NR  解#NN  酒毒#NR
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 清热#VA)  (conj, 清热#VA, 化痰#VA)  (dep, 清热#VA, 消积#VA)
+            (root, ROOT#null, 利#NN)  (dep, 利#NN, 咽喉#NR)
+            (root, ROOT#null, 解#NN)  (dep, 解#NN, 酒毒#NR)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  清咽润喉  解毒  生津止渴  清肺  护肝
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            橄榄与肉类炖汤有舒筋活络功效。
+        </rawdata>
+
+        <segment>
+            橄榄  与  肉类  炖汤  有  舒筋  活络  功效  。
+        </segment>
+
+        <pos>
+            橄榄#NN  与#P  肉类#NN  炖汤#AD  有#VE  舒筋#NN  活络#NN  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 橄榄#NN)  (case, 肉类#NN, 与#P)  (prep, 有#VE, 肉类#NN)  (advmod, 有#VE, 炖汤#AD)  (root, ROOT#null, 有#VE)  (nn, 功效#NN, 舒筋#NN)  (nn, 功效#NN, 活络#NN)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/dd/0a/2781_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1278 橄榄.jpg
+    </picturelocalurl>
+
+</content>

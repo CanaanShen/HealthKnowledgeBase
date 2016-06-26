@@ -1,0 +1,394 @@
+<content>
+
+    <id>
+        289
+    </id>
+
+    <foodname>
+        芸豆
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆类
+    </secondcategory>
+
+    <alias>
+        菜豆、花豆
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            消化功能不良、慢性消化道疾病患者慎食。
+        </rawdata>
+
+        <segment>
+            消化  功能  不良  、  慢性  消化道  疾病  患者  慎食  。
+        </segment>
+
+        <pos>
+            消化#NN  功能#NN  不良#JJ  、#PU  慢性#NN  消化道#NN  疾病#NN  患者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 功能#NN, 消化#NN)  (nn, 疾病#NN, 功能#NN)  (amod, 疾病#NN, 不良#JJ)  (nn, 疾病#NN, 慢性#NN)  (nn, 疾病#NN, 消化道#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 慎食#VV, 患者#NN)  (root, ROOT#null, 慎食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适合心脏病患者和患有肾病、高血压等需低钠及低钾饮食者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适合  心脏病  患者  和  患有  肾病  、  高血压  等  需  低  钠  及  低  钾  饮食者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适合#VV  心脏病#NN  患者#NN  和#CC  患有#NN  肾病#NN  、#PU  高血压#NN  等#ETC  需#VV  低#JJ  钠#NN  及#CC  低#JJ  钾#NN  饮食者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 尤其#AD)  (relcl, 饮食者#NN, 适合#VV)  (nn, 高血压#NN, 心脏病#NN)  (conj, 高血压#NN, 患者#NN)  (cc, 高血压#NN, 和#CC)  (nn, 高血压#NN, 患有#NN)  (conj, 高血压#NN, 肾病#NN)  (dobj, 适合#VV, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (conj, 适合#VV, 需#VV)  (amod, 钠#NN, 低#JJ)  (conj, 钾#NN, 钠#NN)  (cc, 钾#NN, 及#CC)  (amod, 钾#NN, 低#JJ)  (dobj, 需#VV, 钾#NN)  (nsubj, 食用#VV, 饮食者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                7.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                240
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                88
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                112
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.44
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            芸豆原产于美洲的墨西哥和阿根廷，中国在16世纪才开始引种栽培。芸豆的种类主要有大自芸豆、大黑花芸豆、黄芸豆、红芸豆等，其中大白芸豆和大黑花芸豆最为著名。芸豆对日照长短的反应属中日性．在长日照或短日照条件下，都能开花结果。因此，我国大部分地区可在春、秋两季栽培。芸豆颗粒饱满肥大，色泽鲜明，营养丰富，可煮可炖，是制作糕点、豆馅、甜汤、豆沙的优质原料，其药用价值也很高。
+        </rawdata>
+
+        <segment>
+            芸豆  原产  于  美洲  的  墨西哥  和  阿根廷  ，  中国  在  16  世纪  才  开始  引种  栽培  。  芸豆  的  种类  主要  有  大自  芸豆  、  大  黑花  芸豆  、  黄芸豆  、  红芸豆  等  ，  其中  大白  芸豆  和  大  黑花  芸豆  最为  著名  。  芸豆  对  日照  长短  的  反应  属  中日  性  ．  在  长日  照  或  短  日照  条件  下  ，  都  能  开花结果  。  因此  ，  我国  大部分  地区  可  在  春  、  秋  两  季  栽培  。  芸豆  颗粒  饱满  肥大  ，  色泽  鲜明  ，  营养  丰富  ，  可  煮  可  炖  ，  是  制作  糕点  、  豆馅  、  甜  汤  、  豆沙  的  优质  原料  ，  其  药用  价值  也  很  高  。
+        </segment>
+
+        <pos>
+            芸豆#NR  原产#VV  于#P  美洲#NR  的#DEG  墨西哥#NR  和#CC  阿根廷#NR  ，#PU  中国#NR  在#P  16#CD  世纪#NN  才#AD  开始#VV  引种#AD  栽培#VV    。#PU  芸豆#NN  的#DEG  种类#NN  主要#AD  有#VE  大自#NN  芸豆#NN  、#PU  大#JJ  黑花#NN  芸豆#NR  、#PU  黄芸豆#NR  、#PU  红芸豆#NR  等#ETC  ，#PU  其中#NN  大白#NN  芸豆#NN  和#CC  大#JJ  黑花#NN  芸豆#NN  最为#AD  著名#VA    。#PU  芸豆#NN  对#P  日照#NR  长短#NN  的#DEG  反应#NN  属#VV  中日#NN  性#NN  ．#PU  在#P  长日#NR  照#NR  或#CC  短#JJ  日照#NR  条件#NN  下#LC  ，#PU  都#AD  能#VV  开花结果#VV    。#PU  因此#AD  ，#PU  我国#NR  大部分#CD  地区#NN  可#VV  在#P  春#NT  、#PU  秋#NT  两#CD  季#M  栽培#VV    。#PU  芸豆#NN  颗粒#NN  饱满#VA  肥大#VA  ，#PU  色泽#NN  鲜明#VA  ，#PU  营养#VA  丰富#VA  ，#PU  可#VV  煮#VV  可#VV  炖#NN  ，#PU  是#VC  制作#VV  糕点#NR  、#PU  豆馅#NR  、#PU  甜#NR  汤#NR  、#PU  豆沙#NR  的#DEC  优质#JJ  原料#NN  ，#PU  其#PN  药用#NN  价值#NN  也#AD  很#AD  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 原产#VV, 芸豆#NR)  (root, ROOT#null, 原产#VV)  (case, 阿根廷#NR, 于#P)  (assmod, 阿根廷#NR, 美洲#NR)  (case, 美洲#NR, 的#DEG)  (conj, 阿根廷#NR, 墨西哥#NR)  (cc, 阿根廷#NR, 和#CC)  (prep, 栽培#VV, 阿根廷#NR)  (nsubj, 栽培#VV, 中国#NR)  (case, 世纪#NN, 在#P)  (nummod, 世纪#NN, 16#CD)  (prep, 栽培#VV, 世纪#NN)  (advmod, 栽培#VV, 才#AD)  (mmod, 栽培#VV, 开始#VV)  (advmod, 栽培#VV, 引种#AD)  (ccomp, 原产#VV, 栽培#VV)   (assmod, 种类#NN, 芸豆#NN)  (case, 芸豆#NN, 的#DEG)  (nsubj, 有#VE, 种类#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nn, 芸豆#NN, 大自#NN)  (conj, 黑花#NN, 芸豆#NN)  (amod, 黑花#NN, 大#JJ)  (dobj, 有#VE, 黑花#NN)  (conj, 红芸豆#NR, 芸豆#NR)  (conj, 红芸豆#NR, 黄芸豆#NR)  (nsubj, 著名#VA, 红芸豆#NR)  (etc, 红芸豆#NR, 等#ETC)  (nn, 芸豆#NN, 其中#NN)  (nn, 芸豆#NN, 大白#NN)  (conj, 黑花#NN, 芸豆#NN)  (cc, 黑花#NN, 和#CC)  (amod, 黑花#NN, 大#JJ)  (nn, 芸豆#NN, 黑花#NN)  (nsubj, 著名#VA, 芸豆#NN)  (advmod, 著名#VA, 最为#AD)  (conj, 有#VE, 著名#VA)   (nsubj, 属#VV, 芸豆#NN)  (case, 反应#NN, 对#P)  (nn, 长短#NN, 日照#NR)  (assmod, 反应#NN, 长短#NN)  (case, 长短#NN, 的#DEG)  (prep, 属#VV, 反应#NN)  (root, ROOT#null, 属#VV)  (nn, 性#NN, 中日#NN)  (dobj, 属#VV, 性#NN)  (case, 条件#NN, 在#P)  (nn, 照#NR, 长日#NR)  (conj, 条件#NN, 照#NR)  (cc, 条件#NN, 或#CC)  (amod, 条件#NN, 短#JJ)  (nn, 条件#NN, 日照#NR)  (prep, 开花结果#VV, 条件#NN)  (case, 条件#NN, 下#LC)  (advmod, 开花结果#VV, 都#AD)  (dep, 开花结果#VV, 能#VV)  (conj, 属#VV, 开花结果#VV)   (advmod, 栽培#VV, 因此#AD)  (nsubj, 栽培#VV, 我国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 栽培#VV, 地区#NN)  (mmod, 栽培#VV, 可#VV)  (case, 秋#NT, 在#P)  (conj, 秋#NT, 春#NT)  (prep, 栽培#VV, 秋#NT)  (nummod, 季#M, 两#CD)  (dep, 栽培#VV, 季#M)  (root, ROOT#null, 栽培#VV)   (nn, 颗粒#NN, 芸豆#NN)  (nsubj, 饱满#VA, 颗粒#NN)  (root, ROOT#null, 饱满#VA)  (comod, 饱满#VA, 肥大#VA)  (nsubj, 鲜明#VA, 色泽#NN)  (conj, 饱满#VA, 鲜明#VA)  (conj, 饱满#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mmod, 煮#VV, 可#VV)  (conj, 营养#VA, 煮#VV)  (rcomp, 煮#VV, 可#VV)  (dobj, 煮#VV, 炖#NN)  (cop, 原料#NN, 是#VC)  (relcl, 原料#NN, 制作#VV)  (conj, 豆沙#NR, 糕点#NR)  (conj, 豆沙#NR, 豆馅#NR)  (nn, 豆沙#NR, 甜#NR)  (conj, 豆沙#NR, 汤#NR)  (dobj, 制作#VV, 豆沙#NR)  (mark, 制作#VV, 的#DEC)  (amod, 原料#NN, 优质#JJ)  (dep, 营养#VA, 原料#NN)  (nsubj, 高#VA, 其#PN)  (nn, 价值#NN, 药用#NN)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 很#AD)  (conj, 饱满#VA, 高#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提高人体免疫力
+            芸豆含有皂苷、尿毒酶和多种球蛋白等独特成分，具有提高人体免疫能力、增强抗病能力、激活淋巴细胞，促进脱氧核糖核酸的合成等功能。
+            2.缓解慢性疾病
+            尿素酶对于肝昏迷患者有很好的效果。芸豆是一种难得的高钾、高镁、低钠食品，尤其适合心脏病、动脉硬化、高血脂、低血钾症和忌盐患者食用。
+            3.护发
+            吃芸豆对皮肤、头发大有好处．可以促进肌肤的新陈代谢，促使机体排毒，令肌肤常葆青春。
+            4.促进新城代谢
+            芸豆中的皂苷类物质能降低脂肪吸收功能，促进脂肪代谢，所含的膳食纤维还可减短食物通过肠道的时间，使减肥者达到轻身的目的。
+        </rawdata>
+
+        <segment>
+            提高  人体  免疫力
+            芸豆  含有  皂苷  、  尿毒酶  和  多种  球蛋白  等  独特  成分  ，  具有  提高  人体  免疫  能力  、  增强  抗病  能力  、  激活  淋巴  细胞  ，  促进  脱氧  核糖  核酸  的  合成  等  功能  。
+            缓解  慢性  疾病
+            尿素酶  对于  肝  昏迷  患者  有  很  好  的  效果  。  芸豆  是  一  种  难得  的  高  钾  、  高  镁  、  低  钠  食品  ，  尤其  适合  心脏病  、  动脉  硬化  、  高血脂  、  低  血钾  症和忌  盐  患者  食用  。
+            护发
+            吃  芸豆  对  皮肤  、  头发  大有  好处  ．  可以  促进  肌肤  的  新陈代谢  ，  促使  机体  排毒  ，  令  肌肤  常葆  青春  。
+            促进  新城  代谢
+            芸豆  中  的  皂苷  类  物质  能  降低  脂肪  吸收  功能  ，  促进  脂肪  代谢  ，  所含  的  膳食  纤维  还  可  减  短  食物  通过  肠道  的  时间  ，  使  减肥  者  达到  轻身  的  目的  。
+        </segment>
+
+        <pos>
+            提高#VV  人体#NN  免疫力#NN
+            芸豆#NN  含有#VV  皂苷#NR  、#PU  尿毒酶#NR  和#CC  多种#NR  球蛋白#NR  等#ETC  独特#JJ  成分#NN  ，#PU  具有#VV  提高#VV  人体#NN  免疫#NN  能力#NN  、#PU  增强#VV  抗病#NN  能力#NN  、#PU  激活#VV  淋巴#NN  细胞#NN  ，#PU  促进#VV  脱氧#NN  核糖#NN  核酸#NN  的#DEC  合成#JJ  等#M  功能#NN  。#PU
+            缓解#VV  慢性#NN  疾病#NN
+            尿素酶#NN  对于#P  肝#NN  昏迷#NN  患者#NN  有#VE  很#AD  好#VA  的#DEC  效果#NN    。#PU  芸豆#NN  是#VC  一#CD  种#M  难得#VA  的#DEC  高#JJ  钾#NN  、#PU  高#JJ  镁#NN  、#PU  低#JJ  钠#NN  食品#NN  ，#PU  尤其#AD  适合#VV  心脏病#NN  、#PU  动脉#NN  硬化#NN  、#PU  高血脂#NN  、#PU  低#JJ  血钾#NN  症和忌#NN  盐#NN  患者#NN  食用#VV    。#PU    。#PU
+            护发#VV
+            吃#VV  芸豆#NN  对#P  皮肤#NN  、#PU  头发#NN  大有#VV  好处#NN  ．#PU  可以#VV  促进#VV  肌肤#NN  的#DEC  新陈代谢#NN  ，#PU  促使#VV  机体#VV  排毒#NN  ，#PU  令#VV  肌肤#NN  常葆#VV  青春#NN  。#PU
+            促进#VV  新城#NN  代谢#NN
+            芸豆#NN  中#LC  的#DEG  皂苷#CD  类#M  物质#NN  能#VV  降低#VV  脂肪#NN  吸收#VV  功能#NN  ，#PU  促进#VV  脂肪#NN  代谢#NN  ，#PU  所含#NN  的#DEG  膳食#NN  纤维#NN  还#AD  可#VV  减#VV  短#JJ  食物#NN  通过#P  肠道#NN  的#DEG  时间#NN  ，#PU  使#VV  减肥#VV  者#NN  达到#VV  轻身#NN  的#DEG  目的#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)
+            (nsubj, 含有#VV, 芸豆#NN)  (root, ROOT#null, 含有#VV)  (conj, 球蛋白#NR, 皂苷#NR)  (conj, 球蛋白#NR, 尿毒酶#NR)  (cc, 球蛋白#NR, 和#CC)  (nn, 球蛋白#NR, 多种#NR)  (nn, 成分#NN, 球蛋白#NR)  (etc, 球蛋白#NR, 等#ETC)  (amod, 成分#NN, 独特#JJ)  (dobj, 含有#VV, 成分#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 功能#NN, 提高#VV)  (nn, 能力#NN, 人体#NN)  (nn, 能力#NN, 免疫#NN)  (dobj, 提高#VV, 能力#NN)  (conj, 提高#VV, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 提高#VV, 激活#VV)  (nn, 细胞#NN, 淋巴#NN)  (dobj, 激活#VV, 细胞#NN)  (conj, 提高#VV, 促进#VV)  (nn, 核酸#NN, 脱氧#NN)  (nn, 核酸#NN, 核糖#NN)  (dobj, 促进#VV, 核酸#NN)  (mark, 提高#VV, 的#DEC)  (amod, 等#M, 合成#JJ)  (clf, 功能#NN, 等#M)  (dobj, 具有#VV, 功能#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 疾病#NN, 慢性#NN)  (dobj, 缓解#VV, 疾病#NN)
+            (nsubj, 有#VE, 尿素酶#NN)  (case, 患者#NN, 对于#P)  (nn, 患者#NN, 肝#NN)  (nn, 患者#NN, 昏迷#NN)  (prep, 有#VE, 患者#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 效果#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 效果#NN)   (nsubj, 食品#NN, 芸豆#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 钾#NN, 种#M)  (relcl, 钾#NN, 难得#VA)  (mark, 难得#VA, 的#DEC)  (amod, 钾#NN, 高#JJ)  (conj, 食品#NN, 钾#NN)  (amod, 镁#NN, 高#JJ)  (conj, 食品#NN, 镁#NN)  (amod, 钠#NN, 低#JJ)  (nn, 食品#NN, 钠#NN)  (root, ROOT#null, 食品#NN)  (advmod, 适合#VV, 尤其#AD)  (conj, 食品#NN, 适合#VV)  (conj, 血钾#NN, 心脏病#NN)  (nn, 硬化#NN, 动脉#NN)  (conj, 血钾#NN, 硬化#NN)  (conj, 血钾#NN, 高血脂#NN)  (amod, 血钾#NN, 低#JJ)  (dobj, 适合#VV, 血钾#NN)  (nn, 患者#NN, 症和忌#NN)  (nn, 患者#NN, 盐#NN)  (nsubj, 食用#VV, 患者#NN)  (conj, 食品#NN, 食用#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 护发#VV)
+            (root, ROOT#null, 吃#VV)  (nsubj, 大有#VV, 芸豆#NN)  (case, 头发#NN, 对#P)  (conj, 头发#NN, 皮肤#NN)  (prep, 大有#VV, 头发#NN)  (dep, 促进#VV, 大有#VV)  (dobj, 大有#VV, 好处#NN)  (mmod, 促进#VV, 可以#VV)  (relcl, 新陈代谢#NN, 促进#VV)  (dobj, 促进#VV, 肌肤#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 吃#VV, 新陈代谢#NN)  (conj, 吃#VV, 促使#VV)  (ccomp, 促使#VV, 机体#VV)  (dobj, 机体#VV, 排毒#NN)  (conj, 机体#VV, 令#VV)  (dobj, 令#VV, 肌肤#NN)  (dep, 令#VV, 常葆#VV)  (dobj, 常葆#VV, 青春#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 代谢#NN, 新城#NN)  (dobj, 促进#VV, 代谢#NN)
+            (assmod, 物质#NN, 芸豆#NN)  (case, 芸豆#NN, 中#LC)  (case, 芸豆#NN, 的#DEG)  (nummod, 类#M, 皂苷#CD)  (clf, 物质#NN, 类#M)  (nsubj, 降低#VV, 物质#NN)  (mmod, 降低#VV, 能#VV)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 脂肪#NN)  (conj, 降低#VV, 吸收#VV)  (dobj, 吸收#VV, 功能#NN)  (conj, 降低#VV, 促进#VV)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 促进#VV, 代谢#NN)  (assmod, 纤维#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 减#VV, 纤维#NN)  (advmod, 减#VV, 还#AD)  (mmod, 减#VV, 可#VV)  (conj, 降低#VV, 减#VV)  (amod, 食物#NN, 短#JJ)  (nn, 时间#NN, 食物#NN)  (case, 肠道#NN, 通过#P)  (assmod, 时间#NN, 肠道#NN)  (case, 肠道#NN, 的#DEG)  (dobj, 减#VV, 时间#NN)  (conj, 减#VV, 使#VV)  (nfincl, 者#NN, 减肥#VV)  (dobj, 使#VV, 者#NN)  (dep, 使#VV, 达到#VV)  (assmod, 目的#NN, 轻身#NN)  (case, 轻身#NN, 的#DEG)  (dobj, 达到#VV, 目的#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血压
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.芸豆还是一种难得的高钾、高镁、低钠食品，这个特点在营养治疗上大有用武之地。芸豆尤其适合心脏病、动脉硬化，高血脂、低血钾症和忌盐患者食用。
+            2.芸豆的主要成分是蛋白质和粗纤维，还含有氨基酸、维生素及钙、铁等多种微量元素。其中蛋白质含量高于鸡肉，钙含量是鸡的七倍多，铁为4倍，B族维生素的含量也高于鸡肉。
+            3.现代医学分析认为，芸豆还含有皂苷、尿毒酶和多种球蛋白等独特成分，具有提高人体血身的免疫能力，增强抗病能力，激活淋巴T细胞，促进脱氧核糖核酸的合成等功能，对肿瘤细胞的发展有抑制作用。另外，其所含量尿素酶应用于肝昏迷患者效果很好。
+        </rawdata>
+
+        <segment>
+            芸豆  还是  一  种  难得  的  高  钾  、  高  镁  、  低  钠  食品  ，  这个  特点  在  营养  治疗  上  大有  用武之地  。  芸豆  尤其  适合  心脏病  、  动脉  硬化  ，  高血脂  、  低  血钾  症和忌  盐  患者  食用  。
+            芸豆  的  主要  成分  是  蛋白质  和  粗  纤维  ，  还  含有  氨基酸  、  维生素  及  钙  、  铁  等  多  种  微量  元素  。  其中  蛋白质  含量  高于  鸡肉  ，  钙  含量  是  鸡  的  七  倍  多  ，  铁  为  4  倍  ，  B  族  维生素  的  含量  也  高于  鸡肉  。
+            现代  医学  分析  认为  ，  芸豆  还  含有  皂苷  、  尿毒酶  和  多种  球蛋白  等  独特  成分  ，  具有  提高  人体  血身  的  免疫  能力  ，  增强  抗病  能力  ，  激活  淋巴  T  细胞  ，  促进  脱氧  核糖  核酸  的  合成  等  功能  ，  对  肿瘤  细胞  的  发展  有  抑制  作用  。  另外  ，  其  所  含量  尿素酶  应用于  肝昏迷  患者  效果  很  好  。
+        </segment>
+
+        <pos>
+            芸豆#NN  还是#CC  一#CD  种#M  难得#VA  的#DEC  高#JJ  钾#NN  、#PU  高#JJ  镁#NN  、#PU  低#JJ  钠#NN  食品#NN  ，#PU  这个#JJ  特点#NN  在#P  营养#VA  治疗#NN  上#LC  大有#VV  用武之地#NN    。#PU  芸豆#AD  尤其#AD  适合#VV  心脏病#NN  、#PU  动脉#NN  硬化#NN  ，#PU  高血脂#NN  、#PU  低#JJ  血钾#NN  症和忌#NN  盐#NN  患者#NN  食用#VV    。#PU    。#PU
+            芸豆#NN  的#DEG  主要#JJ  成分#NN  是#VC  蛋白质#NN  和#CC  粗#NN  纤维#NN  ，#PU  还#AD  含有#VV  氨基酸#NN  、#PU  维生素#NN  及#CC  钙#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  微量#JJ  元素#NN    。#PU  其中#NN  蛋白质#NN  含量#NN  高于#VV  鸡肉#NN  ，#PU  钙#NN  含量#NN  是#VC  鸡#NN  的#DEG  七#CD  倍#M  多#AD  ，#PU  铁#NN  为#VC  4#CD  倍#M  ，#PU  B#VV  族#NN  维生素#NN  的#DEC  含量#NN  也#AD  高于#VV  鸡肉#NN    。#PU    。#PU
+            现代#JJ  医学#NN  分析#NN  认为#VV  ，#PU  芸豆#NN  还#AD  含有#VV  皂苷#NR  、#PU  尿毒酶#NR  和#CC  多种#NR  球蛋白#NR  等#ETC  独特#JJ  成分#NN  ，#PU  具有#VV  提高#VV  人体#NN  血身#NN  的#DEC  免疫#NN  能力#NN  ，#PU  增强#VV  抗病#NN  能力#NN  ，#PU  激活#VV  淋巴#NN  T#NN  细胞#NN  ，#PU  促进#VV  脱氧#NN  核糖#NN  核酸#NN  的#DEG  合成#JJ  等#M  功能#NN  ，#PU  对#P  肿瘤#NN  细胞#NN  的#DEG  发展#NN  有#VE  抑制#NN  作用#NN    。#PU  另外#AD  ，#PU  其#PN  所#MSP  含量#NN  尿素酶#VV  应用于#NN  肝昏迷#NN  患者#NN  效果#NN  很#AD  好#VA    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 钠#NN, 芸豆#NN)  (cc, 钠#NN, 还是#CC)  (nummod, 种#M, 一#CD)  (clf, 钾#NN, 种#M)  (relcl, 钾#NN, 难得#VA)  (mark, 难得#VA, 的#DEC)  (amod, 钾#NN, 高#JJ)  (conj, 钠#NN, 钾#NN)  (amod, 镁#NN, 高#JJ)  (conj, 钠#NN, 镁#NN)  (amod, 钠#NN, 低#JJ)  (nsubj, 大有#VV, 钠#NN)  (nsubj, 大有#VV, 食品#NN)  (amod, 特点#NN, 这个#JJ)  (nsubj, 大有#VV, 特点#NN)  (case, 治疗#NN, 在#P)  (nfincl, 治疗#NN, 营养#VA)  (prep, 大有#VV, 治疗#NN)  (case, 治疗#NN, 上#LC)  (root, ROOT#null, 大有#VV)  (dobj, 大有#VV, 用武之地#NN)   (advmod, 适合#VV, 芸豆#AD)  (advmod, 适合#VV, 尤其#AD)  (dep, 食用#VV, 适合#VV)  (conj, 硬化#NN, 心脏病#NN)  (nn, 硬化#NN, 动脉#NN)  (dobj, 适合#VV, 硬化#NN)  (conj, 血钾#NN, 高血脂#NN)  (amod, 血钾#NN, 低#JJ)  (nsubj, 食用#VV, 血钾#NN)  (nn, 患者#NN, 症和忌#NN)  (nn, 患者#NN, 盐#NN)  (nsubj, 食用#VV, 患者#NN)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, null#null)
+            (assmod, 成分#NN, 芸豆#NN)  (case, 芸豆#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 纤维#NN, 成分#NN)  (cop, 纤维#NN, 是#VC)  (conj, 粗#NN, 蛋白质#NN)  (cc, 粗#NN, 和#CC)  (nn, 纤维#NN, 粗#NN)  (root, ROOT#null, 纤维#NN)  (advmod, 含有#VV, 还#AD)  (conj, 纤维#NN, 含有#VV)  (conj, 铁#NN, 氨基酸#NN)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (nn, 元素#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)   (nn, 含量#NN, 其中#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高于#VV, 含量#NN)  (root, ROOT#null, 高于#VV)  (dobj, 高于#VV, 鸡肉#NN)  (nn, 含量#NN, 钙#NN)  (nsubj, 是#VC, 含量#NN)  (conj, 高于#VV, 是#VC)  (assmod, 倍#M, 鸡#NN)  (case, 鸡#NN, 的#DEG)  (nummod, 倍#M, 七#CD)  (dep, 是#VC, 倍#M)  (advmod, 倍#M, 多#AD)  (nsubj, 为#VC, 铁#NN)  (conj, 高于#VV, 为#VC)  (nummod, 倍#M, 4#CD)  (dep, 为#VC, 倍#M)  (relcl, 含量#NN, B#VV)  (nn, 维生素#NN, 族#NN)  (dobj, B#VV, 维生素#NN)  (mark, B#VV, 的#DEC)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 也#AD)  (conj, 高于#VV, 高于#VV)  (dobj, 高于#VV, 鸡肉#NN)   (root, ROOT#null, null#null)
+            (amod, 分析#NN, 现代#JJ)  (nn, 分析#NN, 医学#NN)  (nsubj, 认为#VV, 分析#NN)  (root, ROOT#null, 认为#VV)  (nsubj, 含有#VV, 芸豆#NN)  (advmod, 含有#VV, 还#AD)  (ccomp, 认为#VV, 含有#VV)  (conj, 球蛋白#NR, 皂苷#NR)  (conj, 球蛋白#NR, 尿毒酶#NR)  (cc, 球蛋白#NR, 和#CC)  (nn, 球蛋白#NR, 多种#NR)  (nn, 成分#NN, 球蛋白#NR)  (etc, 球蛋白#NR, 等#ETC)  (amod, 成分#NN, 独特#JJ)  (dobj, 含有#VV, 成分#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 能力#NN, 提高#VV)  (nn, 血身#NN, 人体#NN)  (dobj, 提高#VV, 血身#NN)  (mark, 提高#VV, 的#DEC)  (nn, 能力#NN, 免疫#NN)  (dobj, 具有#VV, 能力#NN)  (conj, 含有#VV, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 含有#VV, 激活#VV)  (nn, 细胞#NN, 淋巴#NN)  (nn, 细胞#NN, T#NN)  (dobj, 激活#VV, 细胞#NN)  (conj, 含有#VV, 促进#VV)  (nn, 核酸#NN, 脱氧#NN)  (nn, 核酸#NN, 核糖#NN)  (assmod, 功能#NN, 核酸#NN)  (case, 核酸#NN, 的#DEG)  (amod, 等#M, 合成#JJ)  (dep, 功能#NN, 等#M)  (dobj, 促进#VV, 功能#NN)  (case, 发展#NN, 对#P)  (nn, 细胞#NN, 肿瘤#NN)  (assmod, 发展#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (prep, 有#VE, 发展#NN)  (conj, 含有#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)   (advmod, 尿素酶#VV, 另外#AD)  (nsubj, 尿素酶#VV, 其#PN)  (prtmod, 尿素酶#VV, 所#MSP)  (dep, 尿素酶#VV, 含量#NN)  (root, ROOT#null, 尿素酶#VV)  (dobj, 尿素酶#VV, 应用于#NN)  (nn, 效果#NN, 肝昏迷#NN)  (nn, 效果#NN, 患者#NN)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 很#AD)  (conj, 尿素酶#VV, 好#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            芸豆烹调时一定要烧透吃，因为在生芸豆中含有皂苷和血球凝集素，前者存于豆荚表皮，后者存于豆粒中。因此。食用生芸豆后会引起中毒，表现为头昏、恶心、呕吐、腹泻，严重时可致死。
+        </rawdata>
+
+        <segment>
+            芸豆  烹调  时  一定  要  烧  透吃  ，  因为  在生  芸豆  中  含有  皂苷  和  血球  凝集素  ，  前者  存于  豆荚  表皮  ，  后者  存于  豆粒  中  。  因此  。  食用  生  芸豆  后  会  引起  中毒  ，  表现  为  头昏  、  恶心  、  呕吐  、  腹泻  ，  严重  时  可  致死  。
+        </segment>
+
+        <pos>
+            芸豆#NN  烹调#NN  时#LC  一定#AD  要#VV  烧#VV  透吃#NN  ，#PU  因为#P  在生#NN  芸豆#NN  中#LC  含有#VV  皂苷#NN  和#CC  血球#NN  凝集素#NN  ，#PU  前者#VV  存于#NN  豆荚#NN  表皮#NN  ，#PU  后者#PN  存于#VV  豆粒#NN  中#LC    。#PU  因此#NR    。#PU  食用#VV  生#VV  芸豆#NN  后#LC  会#VV  引起#VV  中毒#VV  ，#PU  表现#VV  为#P  头昏#NN  、#PU  恶心#NN  、#PU  呕吐#NN  、#PU  腹泻#NN  ，#PU  严重#VA  时#LC  可#VV  致死#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 烹调#NN, 芸豆#NN)  (loc, 烧#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (advmod, 烧#VV, 一定#AD)  (mmod, 烧#VV, 要#VV)  (root, ROOT#null, 烧#VV)  (dobj, 烧#VV, 透吃#NN)  (case, 芸豆#NN, 因为#P)  (nn, 芸豆#NN, 在生#NN)  (prep, 含有#VV, 芸豆#NN)  (case, 芸豆#NN, 中#LC)  (conj, 烧#VV, 含有#VV)  (conj, 凝集素#NN, 皂苷#NN)  (cc, 凝集素#NN, 和#CC)  (nn, 凝集素#NN, 血球#NN)  (dobj, 含有#VV, 凝集素#NN)  (dep, 烧#VV, 前者#VV)  (nn, 表皮#NN, 存于#NN)  (nn, 表皮#NN, 豆荚#NN)  (dobj, 前者#VV, 表皮#NN)  (nsubj, 存于#VV, 后者#PN)  (conj, 烧#VV, 存于#VV)  (loc, 存于#VV, 豆粒#NN)  (case, 豆粒#NN, 中#LC)   (root, ROOT#null, 因此#NR)   (mmod, 生#VV, 食用#VV)  (loc, 引起#VV, 生#VV)  (dobj, 生#VV, 芸豆#NN)  (case, 生#VV, 后#LC)  (mmod, 引起#VV, 会#VV)  (root, ROOT#null, 引起#VV)  (ccomp, 引起#VV, 中毒#VV)  (conj, 引起#VV, 表现#VV)  (case, 腹泻#NN, 为#P)  (conj, 腹泻#NN, 头昏#NN)  (conj, 腹泻#NN, 恶心#NN)  (conj, 腹泻#NN, 呕吐#NN)  (prep, 表现#VV, 腹泻#NN)  (loc, 致死#VV, 严重#VA)  (case, 严重#VA, 时#LC)  (dep, 致死#VV, 可#VV)  (conj, 引起#VV, 致死#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081844381731.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\289 芸豆.jpg
+    </picturelocalurl>
+
+</content>

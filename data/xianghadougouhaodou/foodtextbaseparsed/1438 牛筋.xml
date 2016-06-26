@@ -1,0 +1,155 @@
+<content>
+
+    <id>
+        1438
+    </id>
+
+    <foodname>
+        牛筋
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            1.感染性疾病、肝病、肾病的人慎食；黄牛肉为发物，患疮疥湿疹、痘痧、瘙痒者慎用。
+            2.高胆固醇、高脂肪、老年人、儿童、消化力弱的人不宜多吃。
+            3.一周吃一次牛肉即可，不可食之太多，另外，牛脂肪更应少食为妙，否则会增加体内胆固醇和脂肪的积累量。
+        </rawdata>
+
+        <segment>
+            感染性  疾病  、  肝病  、  肾病  的  人  慎  食  ；  黄牛肉  为  发物  ，  患疮疥  湿疹  、  痘痧  、  瘙痒  者  慎用  。
+            高  胆固醇  、  高  脂肪  、  老年人  、  儿童  、  消化  力弱  的  人  不  宜  多  吃  。
+            一  周  吃  一  次  牛肉  即可  ，  不  可  食  之  太  多  ，  另外  ，  牛  脂肪  更应  少  食  为  妙  ，  否则  会  增加  体内  胆固醇  和  脂肪  的  积累量  。
+        </segment>
+
+        <pos>
+            感染性#NN  疾病#NN  、#PU  肝病#NN  、#PU  肾病#NN  的#DEG  人#NN  慎#VV  食#NN  ；#PU  黄牛肉#NN  为#VC  发物#NN  ，#PU  患疮疥#VV  湿疹#NR  、#PU  痘痧#NR  、#PU  瘙痒#NR  者#NN  慎用#NN  。#PU
+            高#JJ  胆固醇#NN  、#PU  高#JJ  脂肪#NN  、#PU  老年人#NN  、#PU  儿童#NN  、#PU  消化#NN  力弱#NN  的#DEG  人#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+            一#CD  周#M  吃#VV  一#CD  次#M  牛肉#NN  即可#NN  ，#PU  不#AD  可#VV  食#NN  之#DEG  太#AD  多#VA  ，#PU  另外#AD  ，#PU  牛#NN  脂肪#NN  更应#NN  少#JJ  食#NN  为#VC  妙#NN  ，#PU  否则#AD  会#VV  增加#VV  体内#NN  胆固醇#NN  和#CC  脂肪#NN  的#DEC  积累量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肾病#NN, 感染性#NN)  (conj, 肾病#NN, 疾病#NN)  (conj, 肾病#NN, 肝病#NN)  (assmod, 人#NN, 肾病#NN)  (case, 肾病#NN, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)  (nsubj, 发物#NN, 黄牛肉#NN)  (cop, 发物#NN, 为#VC)  (conj, 慎#VV, 发物#NN)  (conj, 慎#VV, 患疮疥#VV)  (conj, 瘙痒#NR, 湿疹#NR)  (conj, 瘙痒#NR, 痘痧#NR)  (nn, 慎用#NN, 瘙痒#NR)  (nn, 慎用#NN, 者#NN)  (dobj, 患疮疥#VV, 慎用#NN)
+            (amod, 胆固醇#NN, 高#JJ)  (conj, 力弱#NN, 胆固醇#NN)  (amod, 脂肪#NN, 高#JJ)  (conj, 力弱#NN, 脂肪#NN)  (conj, 力弱#NN, 老年人#NN)  (conj, 力弱#NN, 儿童#NN)  (nn, 力弱#NN, 消化#NN)  (assmod, 人#NN, 力弱#NN)  (case, 力弱#NN, 的#DEG)  (nsubj, 吃#VV, 人#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+            (nummod, 周#M, 一#CD)  (nsubj, 吃#VV, 周#M)  (root, ROOT#null, 吃#VV)  (nummod, 次#M, 一#CD)  (clf, 即可#NN, 次#M)  (nn, 即可#NN, 牛肉#NN)  (dobj, 吃#VV, 即可#NN)  (neg, 可#VV, 不#AD)  (conj, 吃#VV, 可#VV)  (assmod, 积累量#NN, 食#NN)  (case, 食#NN, 之#DEG)  (advmod, 多#VA, 太#AD)  (relcl, 积累量#NN, 多#VA)  (advmod, 妙#NN, 另外#AD)  (nn, 更应#NN, 牛#NN)  (nn, 更应#NN, 脂肪#NN)  (nn, 食#NN, 更应#NN)  (amod, 食#NN, 少#JJ)  (nsubj, 妙#NN, 食#NN)  (cop, 妙#NN, 为#VC)  (dep, 多#VA, 妙#NN)  (advmod, 增加#VV, 否则#AD)  (mmod, 增加#VV, 会#VV)  (conj, 妙#NN, 增加#VV)  (nn, 脂肪#NN, 体内#NN)  (conj, 脂肪#NN, 胆固醇#NN)  (cc, 脂肪#NN, 和#CC)  (dobj, 增加#VV, 脂肪#NN)  (mark, 多#VA, 的#DEC)  (dobj, 可#VV, 积累量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛筋，即牛身上的筋也，富有韧劲。也就是牛的韧带.蹄筋向来为筵席上品，食用历史悠久，它口感淡嫩不腻，质地犹如海参，故有俗语说：“牛蹄筋，味道赛过参。”
+        </rawdata>
+
+        <segment>
+            牛筋  ，  即  牛  身上  的  筋也  ，  富有  韧劲  。  也  就  是  牛  的  韧带  .  蹄筋  向来  为  筵席  上品  ，  食用  历史  悠久  ，  它  口感  淡嫩  不  腻  ，  质地  犹如  海参  ，  故  有  俗语  说  ：  “  牛  蹄筋  ，  味道  赛过  参  。  ”
+        </segment>
+
+        <pos>
+            牛筋#VV  ，#PU  即#AD  牛#NN  身上#NN  的#DEG  筋也#NN  ，#PU  富有#VV  韧劲#NN    。#PU  也#AD  就#AD  是#VC  牛#NN  的#DEG  韧带#NN  .#NN  蹄筋#NN  向来#NN  为#VC  筵席#NN  上品#NN  ，#PU  食用#VV  历史#NN  悠久#VA  ，#PU  它#PN  口感#NN  淡嫩#NN  不#AD  腻#VV  ，#PU  质地#AD  犹如#VV  海参#NN  ，#PU  故#AD  有#VE  俗语#NR  说#VV  ：#PU  ``#NN  牛#NN  蹄筋#NN  ，#PU  味道#NN  赛过#AD  参#VV    。#PU  ''#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 牛筋#VV)  (advmod, 身上#NN, 即#AD)  (nn, 身上#NN, 牛#NN)  (assmod, 筋也#NN, 身上#NN)  (case, 身上#NN, 的#DEG)  (nsubj, 富有#VV, 筋也#NN)  (ccomp, 牛筋#VV, 富有#VV)  (dobj, 富有#VV, 韧劲#NN)   (advmod, 韧带#NN, 也#AD)  (advmod, 韧带#NN, 就#AD)  (cop, 韧带#NN, 是#VC)  (assmod, 韧带#NN, 牛#NN)  (case, 牛#NN, 的#DEG)  (root, ROOT#null, 韧带#NN)  (nn, 向来#NN, 蹄筋#NN)  (nsubj, 上品#NN, 向来#NN)  (cop, 上品#NN, 为#VC)  (nn, 上品#NN, 筵席#NN)  (dep, 韧带#NN, 上品#NN)  (conj, 上品#NN, 食用#VV)  (dobj, 食用#VV, 历史#NN)  (conj, 食用#VV, 悠久#VA)  (nsubj, 腻#VV, 它#PN)  (nn, 淡嫩#NN, 口感#NN)  (nsubj, 腻#VV, 淡嫩#NN)  (neg, 腻#VV, 不#AD)  (conj, 上品#NN, 腻#VV)  (advmod, 犹如#VV, 质地#AD)  (conj, 上品#NN, 犹如#VV)  (dobj, 犹如#VV, 海参#NN)  (advmod, 有#VE, 故#AD)  (conj, 上品#NN, 有#VE)  (nsubj, 说#VV, 俗语#NR)  (dep, 有#VE, 说#VV)  (nn, 蹄筋#NN, ``#NN)  (nn, 蹄筋#NN, 牛#NN)  (nsubj, 参#VV, 蹄筋#NN)  (nsubj, 参#VV, 味道#NN)  (advmod, 参#VV, 赛过#AD)  (ccomp, 说#VV, 参#VV)   (root, ROOT#null, ''#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            强筋壮骨
+            ；益气补虚、温中暖中
+            ；治虚劳羸瘦、腰膝酸软、产后虚冷、腹痛寒疝、中虚反胃。
+        </rawdata>
+
+        <segment>
+            强筋壮骨
+            ；  益气  补  虚  、  温  中  暖  中
+            ；  治  虚  劳羸瘦  、  腰膝  酸软  、  产后  虚  冷  、  腹痛  寒疝  、  中  虚  反胃  。
+        </segment>
+
+        <pos>
+            强筋壮骨#VV
+            ；#NN  益气#NN  补#VV  虚#NN  、#PU  温#NN  中#NN  暖#NN  中#LC
+            ；#NR  治#VV  虚#NN  劳羸瘦#NN  、#PU  腰膝#NN  酸软#NN  、#PU  产后#NN  虚#NN  冷#NN  、#PU  腹痛#NN  寒疝#NN  、#PU  中#NR  虚#NN  反胃#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 强筋壮骨#VV)
+            (nsubj, 补#VV, 益气#NN)  (root, ROOT#null, 补#VV)  (conj, 暖#NN, 虚#NN)  (nn, 暖#NN, 温#NN)  (nn, 暖#NN, 中#NN)  (loc, 补#VV, 暖#NN)  (case, 暖#NN, 中#LC)
+            (root, ROOT#null, 治#VV)  (nn, 反胃#NN, 虚#NN)  (conj, 反胃#NN, 劳羸瘦#NN)  (nn, 反胃#NN, 腰膝#NN)  (conj, 反胃#NN, 酸软#NN)  (nn, 反胃#NN, 产后#NN)  (nn, 反胃#NN, 虚#NN)  (conj, 反胃#NN, 冷#NN)  (nn, 反胃#NN, 腹痛#NN)  (conj, 反胃#NN, 寒疝#NN)  (nn, 反胃#NN, 中#NR)  (nn, 反胃#NN, 虚#NN)  (dobj, 治#VV, 反胃#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  利水  补肝  强筋骨  发散风热
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            牛肉既不易煮熟也不易煮烂。介绍一种简易煮牛肉的方法：煮牛肉时，将已去掉茶汁的浸泡茶叶(少量)，用纱布包裹好放入锅中同煮，牛肉则会很快煮熟和煮烂，又不致影响牛肉的鲜香味。
+        </rawdata>
+
+        <segment>
+            牛肉  既  不  易  煮熟  也  不  易  煮烂  。  介绍  一  种  简易  煮  牛肉  的  方法  ：  煮  牛肉  时  ，  将  已  去掉  茶汁  的  浸泡  茶叶  (  少量  )  ，  用  纱布  包裹  好  放入  锅中  同煮  ，  牛肉  则  会  很  快  煮熟  和  煮烂  ，  又  不致  影响  牛肉  的  鲜  香味  。
+        </segment>
+
+        <pos>
+            牛肉#NN  既#CC  不#AD  易#VA  煮熟#NN  也#AD  不#AD  易#AD  煮烂#VV    。#PU  介绍#VV  一#CD  种#M  简易#JJ  煮#VV  牛肉#NN  的#DEC  方法#NN  ：#PU  煮#VV  牛肉#CD  时#LC  ，#PU  将#BA  已#AD  去掉#VV  茶汁#NN  的#DEC  浸泡#NN  茶叶#NN  -LRB-#VV  少量#CD  -RRB-#NN  ，#PU  用#P  纱布#NN  包裹#NN  好#VA  放入#VV  锅中#NN  同煮#NN  ，#PU  牛肉#AD  则#AD  会#VV  很#AD  快#VA  煮熟#NN  和#CC  煮烂#NN  ，#PU  又#AD  不致#VV  影响#NN  牛肉#NN  的#DEC  鲜#NN  香味#VA    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 煮熟#NN, 牛肉#NN)  (cc, 煮熟#NN, 既#CC)  (neg, 易#VA, 不#AD)  (relcl, 煮熟#NN, 易#VA)  (nsubj, 煮烂#VV, 煮熟#NN)  (advmod, 煮烂#VV, 也#AD)  (neg, 煮烂#VV, 不#AD)  (advmod, 煮烂#VV, 易#AD)  (root, ROOT#null, 煮烂#VV)   (relcl, 鲜#NN, 介绍#VV)  (nummod, 种#M, 一#CD)  (clf, 方法#NN, 种#M)  (amod, 方法#NN, 简易#JJ)  (relcl, 方法#NN, 煮#VV)  (dobj, 煮#VV, 牛肉#NN)  (mark, 煮#VV, 的#DEC)  (dobj, 介绍#VV, 方法#NN)  (conj, 介绍#VV, 煮#VV)  (loc, 煮#VV, 牛肉#CD)  (case, 牛肉#CD, 时#LC)  (ba, -LRB-#VV, 将#BA)  (advmod, 去掉#VV, 已#AD)  (relcl, 茶叶#NN, 去掉#VV)  (dobj, 去掉#VV, 茶汁#NN)  (mark, 去掉#VV, 的#DEC)  (nn, 茶叶#NN, 浸泡#NN)  (nsubj, -LRB-#VV, 茶叶#NN)  (nummod, -RRB-#NN, 少量#CD)  (case, 包裹#NN, 用#P)  (nn, 包裹#NN, 纱布#NN)  (prep, 好#VA, 包裹#NN)  (conj, 介绍#VV, 好#VA)  (dep, 好#VA, 放入#VV)  (nn, 同煮#NN, 锅中#NN)  (dobj, 放入#VV, 同煮#NN)  (advmod, 会#VV, 牛肉#AD)  (advmod, 会#VV, 则#AD)  (conj, 介绍#VV, 会#VV)  (advmod, 快#VA, 很#AD)  (relcl, 煮烂#NN, 快#VA)  (conj, 煮烂#NN, 煮熟#NN)  (cc, 煮烂#NN, 和#CC)  (dobj, 会#VV, 煮烂#NN)  (advmod, 不致#VV, 又#AD)  (conj, 介绍#VV, 不致#VV)  (nn, 牛肉#NN, 影响#NN)  (dobj, 不致#VV, 牛肉#NN)  (mark, 介绍#VV, 的#DEC)  (nsubj, 香味#VA, 鲜#NN)  (root, ROOT#null, 香味#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/c7/1a/6855_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1438 牛筋.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,161 @@
+<content>
+
+    <id>
+        1376
+    </id>
+
+    <foodname>
+        特一粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        小麦面粉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            精白面粉缺乏膳食纤维等营养成分，长期食用会影响人体的胃肠功能并造成营养不良;病湿热者忌食面条。消化系统疾病者勿食。
+        </rawdata>
+
+        <segment>
+            精白  面粉  缺乏  膳食  纤维  等  营养  成分  ，  长期  食用  会  影响  人体  的  胃肠  功能  并  造成  营养  不良  ;  病  湿  热者  忌食  面条  。  消化  系统  疾病  者  勿食  。
+        </segment>
+
+        <pos>
+            精白#NN  面粉#NN  缺乏#VV  膳食#NN  纤维#NN  等#ETC  营养#VA  成分#NN  ，#PU  长期#AD  食用#VV  会#VV  影响#NN  人体#NN  的#DEC  胃肠#NN  功能#NN  并#CC  造成#VV  营养#VA  不良#JJ  ;#NN  病#JJ  湿#NN  热者#VV  忌食#NN  面条#NN    。#PU  消化#NN  系统#NN  疾病#NN  者#NN  勿食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 面粉#NN, 精白#NN)  (nsubj, 缺乏#VV, 面粉#NN)  (root, ROOT#null, 缺乏#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 缺乏#VV, 纤维#NN)  (etc, 纤维#NN, 等#ETC)  (conj, 缺乏#VV, 营养#VA)  (nsubj, 食用#VV, 成分#NN)  (advmod, 食用#VV, 长期#AD)  (conj, 缺乏#VV, 食用#VV)  (relcl, 功能#NN, 会#VV)  (nn, 人体#NN, 影响#NN)  (dobj, 会#VV, 人体#NN)  (mark, 会#VV, 的#DEC)  (nn, 功能#NN, 胃肠#NN)  (dobj, 食用#VV, 功能#NN)  (cc, 食用#VV, 并#CC)  (conj, 食用#VV, 造成#VV)  (ccomp, 造成#VV, 营养#VA)  (amod, ;#NN, 不良#JJ)  (nn, 湿#NN, ;#NN)  (amod, 湿#NN, 病#JJ)  (nsubj, 热者#VV, 湿#NN)  (conj, 缺乏#VV, 热者#VV)  (nn, 面条#NN, 忌食#NN)  (dobj, 热者#VV, 面条#NN)   (nn, 疾病#NN, 消化#NN)  (nn, 疾病#NN, 系统#NN)  (nn, 者#NN, 疾病#NN)  (nsubj, 勿食#VV, 者#NN)  (root, ROOT#null, 勿食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            富强粉(特一粉)是以国家标准为依据，按照优于国家标准的企业内控标准，以进口和国产优质小麦为原料，采用先进的设备制作而成。
+        </rawdata>
+
+        <segment>
+            富强粉  (  特一粉  )  是  以  国家  标准  为  依据  ，  按照  优于  国家  标准  的  企业  内  控  标准  ，  以  进口  和  国产  优质  小麦  为  原料  ，  采用  先进  的  设备  制作  而  成  。
+        </segment>
+
+        <pos>
+            富强粉#NN  -LRB-#NN  特一粉#CD  -RRB-#NN  是#VC  以#P  国家#NN  标准#NN  为#VV  依据#NN  ，#PU  按照#P  优于#VV  国家#NN  标准#NN  的#DEC  企业#NN  内#LC  控#VV  标准#NN  ，#PU  以#P  进口#NN  和#CC  国产#JJ  优质#JJ  小麦#NN  为#VV  原料#NN  ，#PU  采用#VV  先进#VA  的#DEC  设备#NN  制作#NN  而#MSP  成#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, -LRB-#NN, 富强粉#NN)  (nummod, -RRB-#NN, 特一粉#CD)  (cop, 为#VV, 是#VC)  (case, 标准#NN, 以#P)  (nn, 标准#NN, 国家#NN)  (prep, 为#VV, 标准#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 依据#NN)  (case, 企业#NN, 按照#P)  (relcl, 企业#NN, 优于#VV)  (nn, 标准#NN, 国家#NN)  (dobj, 优于#VV, 标准#NN)  (mark, 优于#VV, 的#DEC)  (prep, 控#VV, 企业#NN)  (case, 企业#NN, 内#LC)  (dep, 为#VV, 控#VV)  (dobj, 控#VV, 标准#NN)  (case, 小麦#NN, 以#P)  (conj, 小麦#NN, 进口#NN)  (cc, 小麦#NN, 和#CC)  (amod, 小麦#NN, 国产#JJ)  (amod, 小麦#NN, 优质#JJ)  (prep, 为#VV, 小麦#NN)  (dep, 为#VV, 为#VV)  (dobj, 为#VV, 原料#NN)  (dep, 为#VV, 采用#VV)  (relcl, 制作#NN, 先进#VA)  (mark, 先进#VA, 的#DEC)  (nn, 制作#NN, 设备#NN)  (dobj, 采用#VV, 制作#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 采用#VV, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养心益肾除热止渴
+        </rawdata>
+
+        <segment>
+            养心  益  肾  除  热  止渴
+        </segment>
+
+        <pos>
+            养心#NN  益#NN  肾#NN  除#P  热#NN  止渴#VV
+        </pos>
+
+        <parsing>
+            (nn, 肾#NN, 养心#NN)  (nn, 肾#NN, 益#NN)  (nsubj, 止渴#VV, 肾#NN)  (case, 热#NN, 除#P)  (prep, 止渴#VV, 热#NN)  (root, ROOT#null, 止渴#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  除烦  止痢  解毒  补肾  清热  和胃  抗菌  利尿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            法国一家面包厂的工人发现：无论他们年纪多大，手上的皮肤都既不松弛，也没有老人斑，原因是他们每天都糅小麦粉。精白面粉缺乏膳食纤维等营养成分，长期食用会影响人体的胃肠功能并造成营养不良；病湿热者忌食面条。
+        </rawdata>
+
+        <segment>
+            法国  一  家  面包厂  的  工人  发现  ：  无论  他们  年纪  多  大  ，  手上  的  皮肤  都  既  不  松弛  ，  也  没有  老人斑  ，  原因  是  他们  每天  都糅  小麦粉  。  精白  面粉  缺乏  膳食  纤维  等  营养  成分  ，  长期  食用  会  影响  人体  的  胃肠  功能  并  造成  营养  不良  ；  病  湿  热者  忌食  面条  。
+        </segment>
+
+        <pos>
+            法国#NR  一#CD  家#M  面包厂#NN  的#DEG  工人#NN  发现#VV  ：#PU  无论#AD  他们#PN  年纪#NN  多#AD  大#VA  ，#PU  手上#NN  的#DEG  皮肤#NN  都#AD  既#CC  不#AD  松弛#VA  ，#PU  也#AD  没有#VE  老人斑#NN  ，#PU  原因#NN  是#VC  他们#PN  每天#NN  都糅#NN  小麦粉#NN    。#PU  精白#NN  面粉#NN  缺乏#VV  膳食#NN  纤维#NN  等#ETC  营养#VA  成分#NN  ，#PU  长期#AD  食用#VV  会#VV  影响#NN  人体#NN  的#DEC  胃肠#NN  功能#NN  并#CC  造成#VV  营养#VA  不良#JJ  ；#PU  病#JJ  湿#NN  热者#VV  忌食#NN  面条#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 面包厂#NN, 法国#NR)  (nummod, 家#M, 一#CD)  (clf, 面包厂#NN, 家#M)  (assmod, 工人#NN, 面包厂#NN)  (case, 面包厂#NN, 的#DEG)  (nsubj, 发现#VV, 工人#NN)  (root, ROOT#null, 发现#VV)  (advmod, 年纪#NN, 无论#AD)  (nn, 年纪#NN, 他们#PN)  (nsubj, 大#VA, 年纪#NN)  (advmod, 大#VA, 多#AD)  (ccomp, 发现#VV, 大#VA)  (assmod, 皮肤#NN, 手上#NN)  (case, 手上#NN, 的#DEG)  (nsubj, 松弛#VA, 皮肤#NN)  (neg, 松弛#VA, 都#AD)  (cc, 都#AD, 既#CC)  (dep, 都#AD, 不#AD)  (conj, 大#VA, 松弛#VA)  (advmod, 没有#VE, 也#AD)  (dep, 松弛#VA, 没有#VE)  (dobj, 没有#VE, 老人斑#NN)  (nsubj, 小麦粉#NN, 原因#NN)  (cop, 小麦粉#NN, 是#VC)  (nn, 小麦粉#NN, 他们#PN)  (nn, 小麦粉#NN, 每天#NN)  (nn, 小麦粉#NN, 都糅#NN)  (conj, 松弛#VA, 小麦粉#NN)   (nn, 面粉#NN, 精白#NN)  (nsubj, 缺乏#VV, 面粉#NN)  (root, ROOT#null, 缺乏#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 缺乏#VV, 纤维#NN)  (etc, 纤维#NN, 等#ETC)  (conj, 缺乏#VV, 营养#VA)  (nsubj, 食用#VV, 成分#NN)  (advmod, 食用#VV, 长期#AD)  (conj, 缺乏#VV, 食用#VV)  (relcl, 功能#NN, 会#VV)  (nn, 人体#NN, 影响#NN)  (dobj, 会#VV, 人体#NN)  (mark, 会#VV, 的#DEC)  (nn, 功能#NN, 胃肠#NN)  (dobj, 食用#VV, 功能#NN)  (cc, 食用#VV, 并#CC)  (conj, 食用#VV, 造成#VV)  (ccomp, 造成#VV, 营养#VA)  (conj, 食用#VV, 不良#JJ)  (amod, 湿#NN, 病#JJ)  (dep, 热者#VV, 湿#NN)  (dep, 食用#VV, 热者#VV)  (nn, 面条#NN, 忌食#NN)  (dobj, 热者#VV, 面条#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.包子、饺子、馄饨都是以面粉为皮，辅以各种馅料制成的特色食品。包子外皮松软有弹性，口味鲜美；饺子几乎含有人体所需的各种营养；馄饨皮薄爽滑。三者因馅料、烹饪方法不同，营养成分差异很大，但总的来说，三种食物的总体营养成分搭配合理，都属于“完美的金字塔食品”；
+            2.存放时间适当长些的面粉比新磨的面粉的品质好，民间有“麦吃陈，米吃新”的说法；面粉与大米搭配着吃最好。
+        </rawdata>
+
+        <segment>
+            包子  、  饺子  、  馄饨  都  是  以  面粉  为  皮  ，  辅以  各  种  馅料  制成  的  特色  食品  。  包子  外皮  松软  有  弹性  ，  口味  鲜美  ；  饺子  几乎  含有  人体  所  需  的  各  种  营养  ；  馄饨  皮  薄  爽滑  。  三  者  因  馅料  、  烹饪  方法  不同  ，  营养  成分  差异  很  大  ，  但  总的来说  ，  三  种  食物  的  总体  营养  成分  搭配  合理  ，  都  属于  “  完美  的  金字塔  食品  ”  ；
+            存放  时间  适当  长  些  的  面粉  比  新  磨  的  面粉  的  品质  好  ，  民间  有  “  麦吃陈  ，  米  吃  新  ”  的  说法  ；  面粉  与  大米  搭配  着  吃  最  好  。
+        </segment>
+
+        <pos>
+            包子#NN  、#PU  饺子#NN  、#PU  馄饨#NN  都#AD  是#VC  以#P  面粉#NN  为#VV  皮#NN  ，#PU  辅以#VV  各#DT  种#M  馅料#NN  制成#VV  的#DEC  特色#NN  食品#NN    。#PU  包子#NN  外皮#NN  松软#AD  有#VE  弹性#NN  ，#PU  口味#NN  鲜美#VV  ；#PU  饺子#AD  几乎#AD  含有#VV  人体#NN  所#MSP  需#VV  的#DEC  各#DT  种#NN  营养#VA  ；#PU  馄饨#AD  皮#VV  薄#NN  爽滑#NN    。#PU  三#CD  者#NN  因#P  馅料#NN  、#PU  烹饪#NN  方法#NN  不同#VA  ，#PU  营养#VA  成分#NN  差异#NN  很#AD  大#VA  ，#PU  但#AD  总的来说#NN  ，#PU  三#CD  种#M  食物#NN  的#DEG  总体#NN  营养#VA  成分#NN  搭配#AD  合理#VA  ，#PU  都#AD  属于#VV  ``#NN  完美#NN  的#DEG  金字塔#NN  食品#NN  ''#NN  ；#PU    。#PU
+            存放#VV  时间#NN  适当#AD  长#VA  些#M  的#DEC  面粉#NN  比#P  新#JJ  磨#NN  的#DEG  面粉#NN  的#DEC  品质#NN  好#VA  ，#PU  民间#NN  有#VE  ``#NN  麦吃陈#NN  ，#PU  米#M  吃#VV  新#JJ  ''#NN  的#DEC  说法#NN  ；#PU  面粉#NN  与#P  大米#NN  搭配#VV  着#AS  吃#VV  最#AD  好#VA  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 馄饨#NN, 包子#NN)  (conj, 馄饨#NN, 饺子#NN)  (nsubj, 食品#NN, 馄饨#NN)  (advmod, 食品#NN, 都#AD)  (cop, 食品#NN, 是#VC)  (case, 面粉#NN, 以#P)  (prep, 为#VV, 面粉#NN)  (relcl, 食品#NN, 为#VV)  (dobj, 为#VV, 皮#NN)  (dep, 为#VV, 辅以#VV)  (det, 馅料#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 辅以#VV, 馅料#NN)  (conj, 辅以#VV, 制成#VV)  (mark, 为#VV, 的#DEC)  (nn, 食品#NN, 特色#NN)  (root, ROOT#null, 食品#NN)   (nn, 外皮#NN, 包子#NN)  (nsubj, 有#VE, 外皮#NN)  (advmod, 有#VE, 松软#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 弹性#NN)  (nsubj, 鲜美#VV, 口味#NN)  (conj, 有#VE, 鲜美#VV)  (advmod, 含有#VV, 饺子#AD)  (advmod, 含有#VV, 几乎#AD)  (relcl, 种#NN, 含有#VV)  (dobj, 含有#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (conj, 含有#VV, 需#VV)  (mark, 含有#VV, 的#DEC)  (det, 种#NN, 各#DT)  (nsubj, 营养#VA, 种#NN)  (conj, 有#VE, 营养#VA)  (advmod, 皮#VV, 馄饨#AD)  (dep, 有#VE, 皮#VV)  (nn, 爽滑#NN, 薄#NN)  (dobj, 皮#VV, 爽滑#NN)   (nummod, 者#NN, 三#CD)  (nsubj, 不同#VA, 者#NN)  (case, 方法#NN, 因#P)  (conj, 烹饪#NN, 馅料#NN)  (nn, 方法#NN, 烹饪#NN)  (prep, 不同#VA, 方法#NN)  (root, ROOT#null, 不同#VA)  (dep, 不同#VA, 营养#VA)  (nn, 差异#NN, 成分#NN)  (nsubj, 大#VA, 差异#NN)  (advmod, 大#VA, 很#AD)  (conj, 不同#VA, 大#VA)  (advmod, 营养#VA, 但#AD)  (nsubj, 营养#VA, 总的来说#NN)  (nummod, 种#M, 三#CD)  (clf, 食物#NN, 种#M)  (assmod, 总体#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (nsubj, 营养#VA, 总体#NN)  (conj, 不同#VA, 营养#VA)  (nsubj, 合理#VA, 成分#NN)  (advmod, 合理#VA, 搭配#AD)  (conj, 不同#VA, 合理#VA)  (advmod, 属于#VV, 都#AD)  (dep, 合理#VA, 属于#VV)  (nn, 完美#NN, ``#NN)  (assmod, ''#NN, 完美#NN)  (case, 完美#NN, 的#DEG)  (nn, ''#NN, 金字塔#NN)  (nn, ''#NN, 食品#NN)  (dobj, 属于#VV, ''#NN)
+            (relcl, 品质#NN, 存放#VV)  (nsubj, 长#VA, 时间#NN)  (advmod, 长#VA, 适当#AD)  (relcl, 面粉#NN, 长#VA)  (dep, 长#VA, 些#M)  (mark, 长#VA, 的#DEC)  (nn, 面粉#NN, 面粉#NN)  (case, 磨#NN, 比#P)  (amod, 磨#NN, 新#JJ)  (assmod, 面粉#NN, 磨#NN)  (case, 磨#NN, 的#DEG)  (dobj, 存放#VV, 面粉#NN)  (mark, 存放#VV, 的#DEC)  (nsubj, 好#VA, 品质#NN)  (root, ROOT#null, 好#VA)  (dep, 有#VE, 民间#NN)  (conj, 好#VA, 有#VE)  (nn, 麦吃陈#NN, ``#NN)  (dep, 吃#VV, 麦吃陈#NN)  (dep, 吃#VV, 米#M)  (relcl, 说法#NN, 吃#VV)  (amod, ''#NN, 新#JJ)  (dobj, 吃#VV, ''#NN)  (mark, 吃#VV, 的#DEC)  (dobj, 有#VE, 说法#NN)  (nsubj, 搭配#VV, 面粉#NN)  (case, 大米#NN, 与#P)  (prep, 搭配#VV, 大米#NN)  (dep, 好#VA, 搭配#VV)  (asp, 搭配#VV, 着#AS)  (dep, 搭配#VV, 吃#VV)  (advmod, 好#VA, 最#AD)  (conj, 好#VA, 好#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/90/d6/54928_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1376 特一粉.jpg
+    </picturelocalurl>
+
+</content>

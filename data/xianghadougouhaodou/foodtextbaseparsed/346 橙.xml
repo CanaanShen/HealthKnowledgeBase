@@ -1,0 +1,434 @@
+<content>
+
+    <id>
+        346
+    </id>
+
+    <foodname>
+        橙
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        橙子、脐橙、糖橙、金球、香橙、黄橙、甜橙、黄果、酸橙
+    </alias>
+
+    <season>
+        每年12月到来年2月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜胸膈满闷、恶心欲吐者，饮酒过多、宿醉未醒者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  胸膈  满  闷  、  恶心  欲  吐  者  ，  饮酒  过多  、  宿醉  未  醒者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VA  胸膈#NN  满#JJ  闷#NN  、#PU  恶心#NN  欲#VV  吐#NN  者#NN  ，#PU  饮酒#NR  过多#NR  、#PU  宿醉#NR  未#AD  醒者#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VA, 尤#AD)  (relcl, 胸膈#NN, 适宜#VA)  (nn, 恶心#NN, 胸膈#NN)  (amod, 恶心#NN, 满#JJ)  (conj, 恶心#NN, 闷#NN)  (nsubj, 欲#VV, 恶心#NN)  (root, ROOT#null, 欲#VV)  (nn, 者#NN, 吐#NN)  (dobj, 欲#VV, 者#NN)  (nn, 宿醉#NR, 饮酒#NR)  (conj, 宿醉#NR, 过多#NR)  (nsubj, 醒者#VV, 宿醉#NR)  (advmod, 醒者#VV, 未#AD)  (dep, 欲#VV, 醒者#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                11.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                160
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                159
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            产于南方，果实像柚而香，也有一种味很臭。柚是柑类中最大的，黄得早而不好收藏；橙是橘类中最大的，熟得晚能存放很久。它们都有大小二种。橙树的枝很高，叶不太像橘树叶，也有刺。橙分两种，甜橙和酸橙。
+            1.甜橙，又称黄果，原产中国南部，南方各省均有分布，而以四川、广东、台湾等省栽培较为集中。15世纪初期从中国传入欧洲，15世纪末传入美洲。含有大量的糖和一定量的柠檬酸以及丰富的维生素C，营养价值较高。果实还含维生素P，具极高的医药价值。在中国，幼果、落果可干制作药用。耐贮运。成熟期差异大，可延长鲜果和加工原料的供应期。甜橙品种按果实成熟期有早、中、晚熟之分。根据果实的形状和特点，可分为以下4个品种类群：
+            (1)普通甜橙。果一般为圆形，橙色，果顶无脐，或间有圈印。是甜橙中数量最多的种类。
+            (2)糖橙。又称无酸甜橙，果形与普通甜橙相似。因含酸量极低，果汁含量达到适当程度时即可采收、上市，是极早熟的甜橙品种。在地中海沿岸和巴西等地有少量生产，供应地方市场。
+            (3)血橙。果肉及果汁全呈紫红色或暗红色。果肉细嫩多汁，具特殊香味，地中海地区是其起源地和主产地。
+            (4)脐橙。特征为果顶有脐，即有一个发育不全的小果实包埋于果实顶部。无核，肉脆嫩，味浓甜略酸，剥皮与分瓣均较容易，果型大，成熟早，主要供鲜食用，为国际贸易中的重要良种。
+            2.酸橙，原产中国南部及东南亚一带。世界亚热带产区均有栽培。果圆形，趋于扁圆，橙黄或橙红色，鲜艳，油胞凹入，果皮较易剥离，具苦味。中心柱半充实或空虚。汁味酸，少香气。叶、花、果所含精油，与甜橙所含成分不同，更为芳香悦人。抗寒性比甜橙稍强。中国现有的品种有“朱栾”、“小红橙”、“枸头橙”、“代代”、“虎头柑”“蚌柑”等。　
+        </rawdata>
+
+        <segment>
+            产  于  南方  ，  果实  像  柚而香  ，  也  有  一  种  味  很  臭  。  柚是  柑类  中  最  大  的  ，  黄  得  早  而  不  好  收藏  ；  橙是  橘类  中  最  大  的  ，  熟  得  晚  能  存放  很久  。  它们  都  有  大小  二  种  。  橙树  的  枝  很  高  ，  叶  不  太  像橘  树叶  ，  也  有刺  。  橙分  两  种  ，  甜橙  和  酸橙  。
+            甜橙  ，  又  称  黄果  ，  原产  中国  南部  ，  南方  各  省  均  有  分布  ，  而以  四川  、  广东  、  台湾  等  省  栽培  较为  集中  。  15  世纪  初期  从  中国  传入  欧洲  ，  15  世纪  末  传入  美洲  。  含有  大量  的  糖和  一定量  的  柠檬酸  以及  丰富  的  维生素C  ，  营养  价值  较  高  。  果实  还  含  维生素  P  ，  具  极  高  的  医药  价值  。  在  中国  ，  幼果  、  落果  可  干制  作  药用  。  耐  贮运  。  成熟期  差异  大  ，  可  延长  鲜果  和  加工  原料  的  供应期  。  甜橙  品种  按  果实  成熟期  有  早  、  中  、  晚熟  之  分  。  根据  果实  的  形状  和  特点  ，  可  分为  以下  4  个  品种  类群  ：
+            (  1  )  普通  甜橙  。  果  一般  为  圆形  ，  橙色  ，  果  顶  无脐  ，  或  间有  圈印  。  是  甜橙  中  数量  最  多  的  种类  。
+            (  2  )  糖橙  。  又  称  无  酸  甜橙  ，  果形  与  普通  甜橙  相似  。  因  含  酸量  极  低  ，  果汁  含量  达到  适当  程度  时  即可  采收  、  上市  ，  是  极  早熟  的  甜橙  品种  。  在  地中海  沿岸  和  巴西  等  地  有  少量  生产  ，  供应  地方  市场  。
+            (  3  )  血橙  。  果肉  及  果汁  全  呈  紫红色  或  暗红色  。  果肉  细嫩  多汁  ，  具  特殊  香味  ，  地中海  地区  是  其  起源地  和  主  产地  。
+            (  4  )  脐橙  。  特征  为  果顶  有脐  ，  即  有  一  个  发育  不全  的  小  果实  包  埋  于  果实  顶部  。  无核  ，  肉  脆嫩  ，  味浓  甜  略  酸  ，  剥皮  与  分瓣  均  较  容易  ，  果型  大  ，  成熟  早  ，  主要  供鲜  食用  ，  为  国际  贸易  中  的  重要  良种  。
+            酸橙  ，  原产  中国  南部  及  东南亚  一带  。  世界  亚热带  产区  均  有  栽培  。  果  圆形  ，  趋于  扁圆  ，  橙黄  或  橙红色  ，  鲜艳  ，  油胞  凹入  ，  果皮  较  易  剥离  ，  具  苦味  。  中心  柱  半  充实  或  空虚  。  汁味  酸  ，  少  香气  。  叶  、  花  、  果  所  含  精油  ，  与  甜橙  所含  成分  不同  ，  更为  芳香  悦人  。  抗寒  性  比  甜橙  稍  强  。  中国  现  有的  品种  有  “  朱栾  ”  、  “  小红橙  ”  、  “  枸头橙  ”  、  “  代代  ”  、  “  虎头柑  ”    “  蚌柑  ”  等  。
+        </segment>
+
+        <pos>
+            产#VV  于#P  南方#NN  ，#PU  果实#NN  像#P  柚而香#NR  ，#PU  也#AD  有#VE  一#CD  种#M  味#NN  很#AD  臭#VA    。#PU  柚是#NN  柑类#NN  中#LC  最#AD  大#VA  的#DEC  ，#PU  黄#NR  得#VV  早#VA  而#CC  不#AD  好#VA  收藏#VA  ；#PU  橙是#NN  橘类#NN  中#LC  最#AD  大#VA  的#DEC  ，#PU  熟#VA  得#DER  晚#VA  能#VV  存放#VV  很久#NN    。#PU  它们#PN  都#AD  有#VE  大小#NN  二#CD  种#M    。#PU  橙树#NN  的#DEG  枝#NN  很#AD  高#VA  ，#PU  叶#NR  不#AD  太#AD  像橘#VV  树叶#NN  ，#PU  也#AD  有刺#VV    。#PU  橙分#VV  两#CD  种#M  ，#PU  甜橙#NN  和#CC  酸橙#NN    。#PU    。#PU
+            甜橙#VV  ，#PU  又#AD  称#VV  黄果#VV  ，#PU  原产#NR  中国#NR  南部#NN  ，#PU  南方#NR  各#DT  省#NN  均#AD  有#VE  分布#NN  ，#PU  而以#NR  四川#NR  、#PU  广东#NR  、#PU  台湾#NR  等#ETC  省#NN  栽培#VV  较为#AD  集中#VV    。#PU  15#CD  世纪#NN  初期#NN  从#P  中国#NR  传入#VV  欧洲#NR  ，#PU  15#CD  世纪#NN  末#LC  传入#VV  美洲#NR    。#PU  含有#VV  大量#CD  的#DEG  糖和#VV  一定量#CD  的#DEC  柠檬酸#NN  以及#CC  丰富#VA  的#DEC  维生素C#NN  ，#PU  营养#VA  价值#NN  较#AD  高#VA    。#PU  果实#NN  还#AD  含#VV  维生素#NN  P#NN  ，#PU  具#VV  极#AD  高#VA  的#DEC  医药#NN  价值#NN    。#PU  在#P  中国#NR  ，#PU  幼果#NR  、#PU  落果#NR  可#VV  干制#NN  作#VV  药用#NN    。#PU  耐#NN  贮运#VV    。#PU  成熟期#NN  差异#NN  大#VA  ，#PU  可#VV  延长#VV  鲜果#NN  和#CC  加工#NN  原料#NN  的#DEG  供应期#NN    。#PU  甜橙#NN  品种#NN  按#P  果实#NN  成熟期#AD  有#VE  早#JJ  、#PU  中#NR  、#PU  晚熟#NN  之#PN  分#VV    。#PU  根据#P  果实#NN  的#DEG  形状#NN  和#CC  特点#NN  ，#PU  可#VV  分为#VV  以下#JJ  4#CD  个#M  品种#NN  类群#VV  ：#PU    。#PU
+            -LRB-#VV  1#CD  -RRB-#NN  普通#JJ  甜橙#NN    。#PU  果#NN  一般#AD  为#VC  圆形#NN  ，#PU  橙色#NN  ，#PU  果#NN  顶#VV  无脐#NN  ，#PU  或#CC  间有#VV  圈印#NN    。#PU  是#VC  甜橙#NN  中#LC  数量#NN  最#AD  多#VA  的#DEC  种类#NN    。#PU    。#PU
+            -LRB-#NR  2#CD  -RRB-#NN  糖橙#VV    。#PU  又#AD  称#VV  无#VE  酸#NN  甜橙#NN  ，#PU  果形#AD  与#P  普通#JJ  甜橙#NN  相似#VA    。#PU  因#P  含#VV  酸量#NN  极#AD  低#VA  ，#PU  果汁#NN  含量#NN  达到#VV  适当#JJ  程度#NN  时#LC  即可#AD  采收#VA  、#PU  上市#VV  ，#PU  是#VC  极#AD  早熟#VA  的#DEC  甜橙#JJ  品种#NN    。#PU  在#P  地中海#NR  沿岸#NN  和#CC  巴西#NR  等#ETC  地#NN  有#VE  少量#CD  生产#NN  ，#PU  供应#VV  地方#NN  市场#NN    。#PU    。#PU
+            -LRB-#NR  3#CD  -RRB-#NN  血橙#VV    。#PU  果肉#NN  及#CC  果汁#NN  全#AD  呈#VV  紫红色#NN  或#CC  暗红色#NN    。#PU  果肉#NN  细嫩#NN  多汁#VV  ，#PU  具#VV  特殊#JJ  香味#NN  ，#PU  地中海#NR  地区#NN  是#VC  其#PN  起源地#NN  和#CC  主#JJ  产地#NN    。#PU    。#PU
+            -LRB-#NR  4#CD  -RRB-#NN  脐橙#VV    。#PU  特征#NN  为#P  果顶#VV  有脐#NN  ，#PU  即#AD  有#VE  一#CD  个#M  发育#VV  不全#NN  的#DEC  小#JJ  果实#NN  包#NN  埋#NN  于#P  果实#NN  顶部#VV    。#PU  无核#VV  ，#PU  肉#NN  脆嫩#NN  ，#PU  味浓#NN  甜#NN  略#AD  酸#VA  ，#PU  剥皮#AD  与#P  分瓣#NN  均#AD  较#AD  容易#VA  ，#PU  果型#AD  大#VA  ，#PU  成熟#VA  早#VA  ，#PU  主要#AD  供鲜#AD  食用#VV  ，#PU  为#VV  国际#NN  贸易#NN  中#LC  的#DEG  重要#JJ  良种#NN    。#PU    。#PU
+            酸橙#VV  ，#PU  原产#VV  中国#NR  南部#NN  及#CC  东南亚#NR  一带#CD    。#PU  世界#NN  亚热带#NN  产区#NN  均#AD  有#VE  栽培#VV    。#PU  果#NN  圆形#VV  ，#PU  趋于#VV  扁圆#NN  ，#PU  橙黄#CD  或#CC  橙红色#CD  ，#PU  鲜艳#VV  ，#PU  油胞#VV  凹入#NN  ，#PU  果皮#AD  较#AD  易#AD  剥离#VV  ，#PU  具#VV  苦味#NN    。#PU  中心#NN  柱#NN  半#CD  充实#NN  或#CC  空虚#NN    。#PU  汁味#NR  酸#VV  ，#PU  少#VV  香气#NN    。#PU  叶#NR  、#PU  花#NN  、#PU  果#NN  所#MSP  含#VV  精油#NN  ，#PU  与#P  甜橙#NN  所含#NN  成分#NN  不同#VA  ，#PU  更为#AD  芳香#VV  悦人#NN    。#PU  抗寒#NN  性#NN  比#P  甜橙#NN  稍#AD  强#VA    。#PU  中国#NR  现#AD  有的#PN  品种#NN  有#VE  ``#NR  朱栾#NR  ''#NR  、#PU  ``#NR  小红橙#NR  ''#NR  、#PU  ``#NR  枸头橙#NR  ''#NR  、#PU  ``#NR  代代#NR  ''#NR  、#PU  ``#NR  虎头柑#NR  ''#NR  ``#NN  蚌柑#NN  ''#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 有#VE, 产#VV)  (case, 南方#NN, 于#P)  (prep, 产#VV, 南方#NN)  (nsubj, 有#VE, 果实#NN)  (case, 柚而香#NR, 像#P)  (prep, 有#VE, 柚而香#NR)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (dep, 有#VE, 种#M)  (nsubj, 臭#VA, 味#NN)  (advmod, 臭#VA, 很#AD)  (conj, 有#VE, 臭#VA)   (nn, 柑类#NN, 柚是#NN)  (loc, 大#VA, 柑类#NN)  (case, 柑类#NN, 中#LC)  (advmod, 大#VA, 最#AD)  (nsubj, 早#VA, 大#VA)  (mark, 大#VA, 的#DEC)  (nsubj, 早#VA, 黄#NR)  (mmod, 早#VA, 得#VV)  (root, ROOT#null, 早#VA)  (cc, 早#VA, 而#CC)  (neg, 好#VA, 不#AD)  (dep, 早#VA, 好#VA)  (dep, 早#VA, 收藏#VA)  (nn, 橘类#NN, 橙是#NN)  (loc, 大#VA, 橘类#NN)  (case, 橘类#NN, 中#LC)  (advmod, 大#VA, 最#AD)  (dep, 晚#VA, 大#VA)  (mark, 大#VA, 的#DEC)  (dep, 晚#VA, 熟#VA)  (dep, 晚#VA, 得#DER)  (conj, 早#VA, 晚#VA)  (mmod, 存放#VV, 能#VV)  (dep, 晚#VA, 存放#VV)  (dobj, 存放#VV, 很久#NN)   (nsubj, 有#VE, 它们#PN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 大小#NN)  (nummod, 种#M, 二#CD)  (range, 有#VE, 种#M)   (assmod, 枝#NN, 橙树#NN)  (case, 橙树#NN, 的#DEG)  (nsubj, 高#VA, 枝#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (nsubj, 像橘#VV, 叶#NR)  (neg, 像橘#VV, 不#AD)  (advmod, 像橘#VV, 太#AD)  (conj, 高#VA, 像橘#VV)  (dobj, 像橘#VV, 树叶#NN)  (advmod, 有刺#VV, 也#AD)  (dep, 像橘#VV, 有刺#VV)   (root, ROOT#null, 橙分#VV)  (nummod, 种#M, 两#CD)  (range, 橙分#VV, 种#M)  (conj, 酸橙#NN, 甜橙#NN)  (cc, 酸橙#NN, 和#CC)  (conj, 橙分#VV, 酸橙#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 甜橙#VV)  (advmod, 称#VV, 又#AD)  (ccomp, 甜橙#VV, 称#VV)  (ccomp, 称#VV, 黄果#VV)  (nn, 南部#NN, 原产#NR)  (nn, 南部#NN, 中国#NR)  (nsubj, 有#VE, 南部#NN)  (nn, 省#NN, 南方#NR)  (det, 省#NN, 各#DT)  (nsubj, 有#VE, 省#NN)  (advmod, 有#VE, 均#AD)  (ccomp, 黄果#VV, 有#VE)  (dobj, 有#VE, 分布#NN)  (nn, 台湾#NR, 而以#NR)  (conj, 台湾#NR, 四川#NR)  (conj, 台湾#NR, 广东#NR)  (nn, 省#NN, 台湾#NR)  (etc, 台湾#NR, 等#ETC)  (nsubj, 栽培#VV, 省#NN)  (conj, 有#VE, 栽培#VV)  (advmod, 集中#VV, 较为#AD)  (dep, 甜橙#VV, 集中#VV)   (nummod, 世纪#NN, 15#CD)  (nn, 初期#NN, 世纪#NN)  (nsubj, 传入#VV, 初期#NN)  (case, 中国#NR, 从#P)  (prep, 传入#VV, 中国#NR)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 欧洲#NR)  (nummod, 世纪#NN, 15#CD)  (loc, 传入#VV, 世纪#NN)  (case, 世纪#NN, 末#LC)  (conj, 传入#VV, 传入#VV)  (dobj, 传入#VV, 美洲#NR)   (root, ROOT#null, 含有#VV)  (assmod, 维生素C#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (relcl, 柠檬酸#NN, 糖和#VV)  (range, 糖和#VV, 一定量#CD)  (mark, 糖和#VV, 的#DEC)  (conj, 维生素C#NN, 柠檬酸#NN)  (cc, 维生素C#NN, 以及#CC)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素C#NN)  (conj, 含有#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 较#AD)  (dep, 含有#VV, 高#VA)   (nsubj, 含#VV, 果实#NN)  (advmod, 含#VV, 还#AD)  (root, ROOT#null, 含#VV)  (nn, P#NN, 维生素#NN)  (dobj, 含#VV, P#NN)  (conj, 含#VV, 具#VV)  (advmod, 高#VA, 极#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nn, 价值#NN, 医药#NN)  (dobj, 具#VV, 价值#NN)   (case, 中国#NR, 在#P)  (prep, 可#VV, 中国#NR)  (conj, 落果#NR, 幼果#NR)  (nsubj, 可#VV, 落果#NR)  (conj, 作#VV, 可#VV)  (dobj, 可#VV, 干制#NN)  (root, ROOT#null, 作#VV)  (dobj, 作#VV, 药用#NN)   (nsubj, 贮运#VV, 耐#NN)  (root, ROOT#null, 贮运#VV)   (nn, 差异#NN, 成熟期#NN)  (nsubj, 大#VA, 差异#NN)  (root, ROOT#null, 大#VA)  (mmod, 延长#VV, 可#VV)  (dep, 大#VA, 延长#VV)  (conj, 加工#NN, 鲜果#NN)  (cc, 加工#NN, 和#CC)  (nn, 原料#NN, 加工#NN)  (assmod, 供应期#NN, 原料#NN)  (case, 原料#NN, 的#DEG)  (dobj, 延长#VV, 供应期#NN)   (nn, 品种#NN, 甜橙#NN)  (nsubj, 有#VE, 品种#NN)  (case, 果实#NN, 按#P)  (prep, 有#VE, 果实#NN)  (advmod, 有#VE, 成熟期#AD)  (root, ROOT#null, 有#VE)  (amod, 晚熟#NN, 早#JJ)  (conj, 晚熟#NN, 中#NR)  (dobj, 有#VE, 晚熟#NN)  (nsubj, 分#VV, 之#PN)  (conj, 有#VE, 分#VV)   (case, 特点#NN, 根据#P)  (assmod, 特点#NN, 果实#NN)  (case, 果实#NN, 的#DEG)  (conj, 特点#NN, 形状#NN)  (cc, 特点#NN, 和#CC)  (prep, 分为#VV, 特点#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (amod, 品种#NN, 以下#JJ)  (nummod, 个#M, 4#CD)  (clf, 品种#NN, 个#M)  (dobj, 分为#VV, 品种#NN)  (dep, 分为#VV, 类群#VV)
+            (nummod, -RRB-#NN, 1#CD)  (amod, 甜橙#NN, 普通#JJ)  (dobj, -LRB-#VV, 甜橙#NN)  (root, -LRB-#VV, 甜橙#NN)   (nsubj, 圆形#NN, 果#NN)  (advmod, 圆形#NN, 一般#AD)  (cop, 圆形#NN, 为#VC)  (root, ROOT#null, 圆形#NN)  (nsubj, 顶#VV, 橙色#NN)  (nsubj, 顶#VV, 果#NN)  (conj, 圆形#NN, 顶#VV)  (dobj, 顶#VV, 无脐#NN)  (cc, 顶#VV, 或#CC)  (conj, 顶#VV, 间有#VV)  (dobj, 间有#VV, 圈印#NN)   (cop, 种类#NN, 是#VC)  (loc, 多#VA, 甜橙#NN)  (case, 甜橙#NN, 中#LC)  (nsubj, 多#VA, 数量#NN)  (advmod, 多#VA, 最#AD)  (relcl, 种类#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (root, ROOT#null, 种类#NN)   (root, ROOT#null, null#null)
+            (nummod, -RRB-#NN, 2#CD)  (root, ROOT#null, 糖橙#VV)   (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 无#VE)  (nn, 甜橙#NN, 酸#NN)  (dobj, 无#VE, 甜橙#NN)  (advmod, 相似#VA, 果形#AD)  (case, 甜橙#NN, 与#P)  (amod, 甜橙#NN, 普通#JJ)  (prep, 相似#VA, 甜橙#NN)  (conj, 无#VE, 相似#VA)   (case, 含#VV, 因#P)  (prep, 低#VA, 含#VV)  (dobj, 含#VV, 酸量#NN)  (advmod, 低#VA, 极#AD)  (root, ROOT#null, 低#VA)  (nn, 含量#NN, 果汁#NN)  (nsubj, 达到#VV, 含量#NN)  (loc, 采收#VA, 达到#VV)  (amod, 程度#NN, 适当#JJ)  (dobj, 达到#VV, 程度#NN)  (case, 达到#VV, 时#LC)  (advmod, 采收#VA, 即可#AD)  (dep, 低#VA, 采收#VA)  (conj, 采收#VA, 上市#VV)  (cop, 品种#NN, 是#VC)  (advmod, 早熟#VA, 极#AD)  (relcl, 品种#NN, 早熟#VA)  (mark, 早熟#VA, 的#DEC)  (amod, 品种#NN, 甜橙#JJ)  (dep, 采收#VA, 品种#NN)   (case, 地#NN, 在#P)  (nn, 沿岸#NN, 地中海#NR)  (conj, 地#NN, 沿岸#NN)  (cc, 地#NN, 和#CC)  (nn, 地#NN, 巴西#NR)  (etc, 巴西#NR, 等#ETC)  (prep, 有#VE, 地#NN)  (root, ROOT#null, 有#VE)  (nummod, 生产#NN, 少量#CD)  (dobj, 有#VE, 生产#NN)  (dep, 有#VE, 供应#VV)  (nn, 市场#NN, 地方#NN)  (dobj, 供应#VV, 市场#NN)   (root, ROOT#null, null#null)
+            (nummod, -RRB-#NN, 3#CD)  (root, ROOT#null, 血橙#VV)   (conj, 果汁#NN, 果肉#NN)  (cc, 果汁#NN, 及#CC)  (nsubj, 呈#VV, 果汁#NN)  (advmod, 呈#VV, 全#AD)  (root, ROOT#null, 呈#VV)  (conj, 暗红色#NN, 紫红色#NN)  (cc, 暗红色#NN, 或#CC)  (dobj, 呈#VV, 暗红色#NN)   (nn, 细嫩#NN, 果肉#NN)  (nsubj, 多汁#VV, 细嫩#NN)  (root, ROOT#null, 多汁#VV)  (conj, 产地#NN, 具#VV)  (amod, 香味#NN, 特殊#JJ)  (dobj, 具#VV, 香味#NN)  (nn, 地区#NN, 地中海#NR)  (nsubj, 产地#NN, 地区#NN)  (cop, 产地#NN, 是#VC)  (nn, 起源地#NN, 其#PN)  (conj, 产地#NN, 起源地#NN)  (cc, 产地#NN, 和#CC)  (amod, 产地#NN, 主#JJ)  (ccomp, 多汁#VV, 产地#NN)   (root, ROOT#null, null#null)
+            (nummod, -RRB-#NN, 4#CD)  (root, ROOT#null, 脐橙#VV)   (nsubj, 发育#VV, 特征#NN)  (case, 果顶#VV, 为#P)  (prep, 发育#VV, 果顶#VV)  (dobj, 果顶#VV, 有脐#NN)  (advmod, 有#VE, 即#AD)  (conj, 果顶#VV, 有#VE)  (nummod, 个#M, 一#CD)  (dep, 有#VE, 个#M)  (relcl, 埋#NN, 发育#VV)  (dobj, 发育#VV, 不全#NN)  (mark, 发育#VV, 的#DEC)  (amod, 果实#NN, 小#JJ)  (nn, 埋#NN, 果实#NN)  (nn, 埋#NN, 包#NN)  (nsubj, 顶部#VV, 埋#NN)  (case, 果实#NN, 于#P)  (prep, 顶部#VV, 果实#NN)  (root, ROOT#null, 顶部#VV)   (root, ROOT#null, 无核#VV)  (nn, 脆嫩#NN, 肉#NN)  (nsubj, 酸#VA, 脆嫩#NN)  (nn, 甜#NN, 味浓#NN)  (nsubj, 酸#VA, 甜#NN)  (advmod, 酸#VA, 略#AD)  (ccomp, 无核#VV, 酸#VA)  (advmod, 容易#VA, 剥皮#AD)  (case, 分瓣#NN, 与#P)  (prep, 容易#VA, 分瓣#NN)  (advmod, 容易#VA, 均#AD)  (advmod, 容易#VA, 较#AD)  (conj, 酸#VA, 容易#VA)  (advmod, 大#VA, 果型#AD)  (conj, 酸#VA, 大#VA)  (conj, 酸#VA, 成熟#VA)  (comod, 成熟#VA, 早#VA)  (advmod, 食用#VV, 主要#AD)  (advmod, 食用#VV, 供鲜#AD)  (conj, 酸#VA, 食用#VV)  (dep, 酸#VA, 为#VV)  (nn, 贸易#NN, 国际#NN)  (assmod, 良种#NN, 贸易#NN)  (case, 贸易#NN, 中#LC)  (case, 贸易#NN, 的#DEG)  (amod, 良种#NN, 重要#JJ)  (dobj, 为#VV, 良种#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 酸橙#VV)  (ccomp, 酸橙#VV, 原产#VV)  (nn, 南部#NN, 中国#NR)  (conj, 东南亚#NR, 南部#NN)  (cc, 东南亚#NR, 及#CC)  (dobj, 原产#VV, 东南亚#NR)  (range, 原产#VV, 一带#CD)   (nn, 产区#NN, 世界#NN)  (nn, 产区#NN, 亚热带#NN)  (nsubj, 有#VE, 产区#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)   (nsubj, 圆形#VV, 果#NN)  (xsubj, 趋于#VV, 果#NN)  (root, ROOT#null, 圆形#VV)  (ccomp, 圆形#VV, 趋于#VV)  (dobj, 趋于#VV, 扁圆#NN)  (nummod, 橙红色#CD, 橙黄#CD)  (cc, 橙红色#CD, 或#CC)  (conj, 趋于#VV, 橙红色#CD)  (conj, 趋于#VV, 鲜艳#VV)  (conj, 趋于#VV, 油胞#VV)  (dobj, 油胞#VV, 凹入#NN)  (advmod, 剥离#VV, 果皮#AD)  (advmod, 剥离#VV, 较#AD)  (advmod, 剥离#VV, 易#AD)  (conj, 趋于#VV, 剥离#VV)  (conj, 趋于#VV, 具#VV)  (dobj, 具#VV, 苦味#NN)   (nn, 柱#NN, 中心#NN)  (nsubj, 空虚#NN, 柱#NN)  (nummod, 空虚#NN, 半#CD)  (conj, 空虚#NN, 充实#NN)  (cc, 空虚#NN, 或#CC)  (root, ROOT#null, 空虚#NN)   (nsubj, 酸#VV, 汁味#NR)  (root, ROOT#null, 酸#VV)  (ccomp, 酸#VV, 少#VV)  (dobj, 少#VV, 香气#NN)   (conj, 果#NN, 叶#NR)  (conj, 果#NN, 花#NN)  (nsubj, 含#VV, 果#NN)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 精油#NN)  (case, 成分#NN, 与#P)  (nn, 成分#NN, 甜橙#NN)  (nn, 成分#NN, 所含#NN)  (prep, 不同#VA, 成分#NN)  (dep, 含#VV, 不同#VA)  (advmod, 芳香#VV, 更为#AD)  (dep, 含#VV, 芳香#VV)  (dobj, 芳香#VV, 悦人#NN)   (nn, 性#NN, 抗寒#NN)  (nsubj, 强#VA, 性#NN)  (case, 甜橙#NN, 比#P)  (prep, 强#VA, 甜橙#NN)  (advmod, 强#VA, 稍#AD)  (root, ROOT#null, 强#VA)   (nsubj, 有#VE, 中国#NR)  (advmod, 有#VE, 现#AD)  (nn, 品种#NN, 有的#PN)  (prep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (nn, ''#NR, ``#NR)  (nn, ''#NR, 朱栾#NR)  (conj, ''#NR, ''#NR)  (nn, ''#NR, ``#NR)  (nn, ''#NR, 小红橙#NR)  (conj, ''#NR, ''#NR)  (nn, ''#NR, ``#NR)  (nn, ''#NR, 枸头橙#NR)  (conj, ''#NR, ''#NR)  (nn, ''#NR, ``#NR)  (nn, ''#NR, 代代#NR)  (conj, ''#NR, ''#NR)  (nn, ''#NR, ``#NR)  (nn, ''#NR, 虎头柑#NR)  (nn, ''#NN, ''#NR)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蚌柑#NN)  (dobj, 有#VE, ''#NN)  (etc, ''#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.消食，去油腻
+            生津止渴、开胃下气的功效。正常人饭后食橙子或饮橙汁，有解油腻、消积食、止渴、醒酒的作用。
+            2.预防“富贵病”
+            增加机体抵抗力，增加毛细血管的弹性，降低血中胆固醇。高血脂症、高血压、动脉硬化者常食橙子有益。每天喝3杯橙汁可以增加体内高密度脂蛋白（HDL）的含量，从而降低患心脏病的可能性。
+            3.清肠
+            促进肠道蠕动，有利于清肠通便，排除体内有害物质。
+            4.治疗咳嗽感冒
+            止咳化痰功效胜过陈皮，是治疗感冒咳嗽、食欲不振、胸腹胀痛的良药。
+            5.防癌
+            橙子能清除体内对健康有害的自由基，抑制肿瘤细胞的生长。
+            6.少得胆结石
+            橙皮中所含有的果胶也可以促进食物通过胃肠道，使胆固醇更快地随粪便排出体外，以减少胆固醇的吸收。得了胆结石的人，除了吃橙子外，用橙皮泡水喝，也能起到不错的治疗效果。
+            7.缓解女性压力
+            橙子发出的气味有利于缓解人们的心理压力，但仅有助于女性克服紧张情绪，对男性的作用却不大。
+        </rawdata>
+
+        <segment>
+            消食  ，  去油腻
+            生津止渴  、  开胃  下气  的  功效  。  正常  人  饭后  食  橙子  或  饮  橙汁  ，  有解  油腻  、  消  积食  、  止渴  、  醒酒  的  作用  。
+            预防  “  富贵病  ”
+            增加  机体  抵抗力  ，  增加  毛细血管  的  弹性  ，  降低  血中  胆固醇  。  高血脂症  、  高  血压  、  动脉  硬化  者  常食  橙子  有益  。  每  天  喝  3  杯  橙汁  可以  增加  体内  高密度  脂蛋白  （  HDL  ）  的  含量  ，  从而  降低  患  心脏病  的  可能性  。
+            清  肠
+            促进  肠道  蠕动  ，  有利于  清肠  通便  ，  排除  体内  有害  物质  。
+            治疗  咳嗽  感冒
+            止咳  化痰  功效  胜过  陈皮  ，  是  治疗  感冒  咳嗽  、  食欲不振  、  胸腹  胀痛  的  良药  。
+            防癌
+            橙子  能  清除  体内  对  健康  有害  的  自由基  ，  抑制  肿瘤  细胞  的  生长  。
+            少  得  胆结石
+            橙皮  中  所含  有的  果胶  也  可以  促进  食物  通过  胃肠道  ，  使  胆固醇  更快  地  随  粪便  排出  体外  ，  以  减少  胆固醇  的  吸收  。  得了  胆结石  的  人  ，  除了  吃  橙子  外  ，  用  橙皮  泡  水  喝  ，  也  能  起到  不错  的  治疗  效果  。
+            缓解  女性  压力
+            橙子  发出  的  气味  有利于  缓解  人们  的  心理  压力  ，  但仅  有助于  女性  克服  紧张  情绪  ，  对  男性  的  作用  却  不  大  。
+        </segment>
+
+        <pos>
+            消食#VV  ，#PU  去油腻#VV
+            生津止渴#NN  、#PU  开胃#NN  下气#NN  的#DEG  功效#NN    。#PU  正常#JJ  人#NN  饭后#VV  食#NN  橙子#NN  或#CC  饮#NN  橙汁#NN  ，#PU  有解#VV  油腻#NR  、#PU  消#NR  积食#NR  、#PU  止渴#NR  、#PU  醒酒#VV  的#DEC  作用#NN    。#PU    。#PU
+            预防#NN  ``#VV  富贵病#NN  ''#NN
+            增加#VV  机体#NN  抵抗力#NN  ，#PU  增加#VV  毛细血管#NN  的#DEG  弹性#NN  ，#PU  降低#VV  血中#NN  胆固醇#NN    。#PU  高血脂症#NN  、#PU  高#JJ  血压#NN  、#PU  动脉#NN  硬化#NN  者#NN  常食#NN  橙子#AD  有益#VA    。#PU  每#DT  天#M  喝#NN  3#CD  杯#NN  橙汁#NN  可以#VV  增加#VV  体内#NN  高密度#NN  脂蛋白#NN  （#PU  HDL#NR  ）#PU  的#DEG  含量#NN  ，#PU  从而#AD  降低#VV  患#NN  心脏病#NN  的#DEG  可能性#NN    。#PU    。#PU
+            清#JJ  肠#NN
+            促进#VV  肠道#NN  蠕动#NN  ，#PU  有利于#VV  清肠#VV  通便#NN  ，#PU  排除#VV  体内#NN  有害#NN  物质#NN  。#PU
+            治疗#VV  咳嗽#NN  感冒#NN
+            止咳#NN  化痰#NN  功效#NN  胜过#NN  陈皮#NN  ，#PU  是#VC  治疗#VV  感冒#NR  咳嗽#NR  、#PU  食欲不振#NR  、#PU  胸腹#NR  胀痛#NN  的#DEC  良药#NN  。#PU
+            防癌#VV
+            橙子#NN  能#VV  清除#VV  体内#NN  对#P  健康#JJ  有害#NN  的#DEG  自由基#NN  ，#PU  抑制#VV  肿瘤#NN  细胞#NN  的#DEG  生长#NN  。#PU
+            少#VV  得#DER  胆结石#VV
+            橙皮#NN  中#LC  所含#NN  有的#PN  果胶#AD  也#AD  可以#VV  促进#VV  食物#NN  通过#P  胃肠道#NN  ，#PU  使#VV  胆固醇#NN  更快#AD  地#NN  随#P  粪便#NN  排出#VV  体外#NN  ，#PU  以#MSP  减少#VV  胆固醇#NN  的#DEG  吸收#NN    。#PU  得了#VV  胆结石#NN  的#DEG  人#NN  ，#PU  除了#P  吃#VV  橙子#NN  外#LC  ，#PU  用#P  橙皮#NN  泡#NN  水#NN  喝#NN  ，#PU  也#AD  能#VV  起到#VV  不错#VA  的#DEC  治疗#NN  效果#NN    。#PU    。#PU
+            缓解#VV  女性#NN  压力#NN
+            橙子#AD  发出#VV  的#DEC  气味#NN  有利于#VV  缓解#VV  人们#NN  的#DEG  心理#NN  压力#NN  ，#PU  但仅#AD  有助于#VV  女性#NN  克服#VV  紧张#JJ  情绪#NN  ，#PU  对#P  男性#NN  的#DEG  作用#NN  却#AD  不#AD  大#VA  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 消食#VV)  (ccomp, 消食#VV, 去油腻#VV)
+            (conj, 开胃#NN, 生津止渴#NN)  (nn, 功效#NN, 开胃#NN)  (assmod, 功效#NN, 下气#NN)  (case, 下气#NN, 的#DEG)  (root, ROOT#null, 功效#NN)   (amod, 人#NN, 正常#JJ)  (nsubj, 饭后#VV, 人#NN)  (root, ROOT#null, 饭后#VV)  (nn, 橙汁#NN, 食#NN)  (conj, 橙汁#NN, 橙子#NN)  (cc, 橙汁#NN, 或#CC)  (nn, 橙汁#NN, 饮#NN)  (dobj, 饭后#VV, 橙汁#NN)  (conj, 饭后#VV, 有解#VV)  (conj, 止渴#NR, 油腻#NR)  (nn, 止渴#NR, 消#NR)  (conj, 止渴#NR, 积食#NR)  (conj, 作用#NN, 止渴#NR)  (relcl, 作用#NN, 醒酒#VV)  (mark, 醒酒#VV, 的#DEC)  (dobj, 有解#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, ``#VV, 预防#NN)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 富贵病#NN)  (dobj, ``#VV, ''#NN)
+            (root, ROOT#null, 增加#VV)  (nn, 抵抗力#NN, 机体#NN)  (dobj, 增加#VV, 抵抗力#NN)  (conj, 增加#VV, 增加#VV)  (assmod, 弹性#NN, 毛细血管#NN)  (case, 毛细血管#NN, 的#DEG)  (dobj, 增加#VV, 弹性#NN)  (conj, 增加#VV, 降低#VV)  (nn, 胆固醇#NN, 血中#NN)  (dobj, 降低#VV, 胆固醇#NN)   (conj, 硬化#NN, 高血脂症#NN)  (amod, 血压#NN, 高#JJ)  (conj, 硬化#NN, 血压#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 常食#NN, 硬化#NN)  (nn, 常食#NN, 者#NN)  (nsubj, 有益#VA, 常食#NN)  (advmod, 有益#VA, 橙子#AD)  (root, ROOT#null, 有益#VA)   (det, 喝#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, 杯#NN, 喝#NN)  (nummod, 杯#NN, 3#CD)  (nn, 橙汁#NN, 杯#NN)  (nsubj, 增加#VV, 橙汁#NN)  (mmod, 增加#VV, 可以#VV)  (root, ROOT#null, 增加#VV)  (nn, 高密度#NN, 体内#NN)  (nn, 脂蛋白#NN, 高密度#NN)  (assmod, 含量#NN, 脂蛋白#NN)  (prnmod, 脂蛋白#NN, HDL#NR)  (case, 脂蛋白#NN, 的#DEG)  (dobj, 增加#VV, 含量#NN)  (advmod, 降低#VV, 从而#AD)  (conj, 增加#VV, 降低#VV)  (nn, 心脏病#NN, 患#NN)  (assmod, 可能性#NN, 心脏病#NN)  (case, 心脏病#NN, 的#DEG)  (dobj, 降低#VV, 可能性#NN)   (root, ROOT#null, null#null)
+            (amod, 肠#NN, 清#JJ)  (root, ROOT#null, 肠#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 肠道#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 有利于#VV)  (ccomp, 有利于#VV, 清肠#VV)  (dobj, 清肠#VV, 通便#NN)  (conj, 清肠#VV, 排除#VV)  (nn, 物质#NN, 体内#NN)  (nn, 物质#NN, 有害#NN)  (dobj, 排除#VV, 物质#NN)
+            (root, ROOT#null, 治疗#VV)  (nn, 感冒#NN, 咳嗽#NN)  (dobj, 治疗#VV, 感冒#NN)
+            (nn, 陈皮#NN, 止咳#NN)  (nn, 陈皮#NN, 化痰#NN)  (nn, 陈皮#NN, 功效#NN)  (nn, 陈皮#NN, 胜过#NN)  (dep, 良药#NN, 陈皮#NN)  (cop, 良药#NN, 是#VC)  (relcl, 良药#NN, 治疗#VV)  (nn, 胸腹#NR, 感冒#NR)  (conj, 胸腹#NR, 咳嗽#NR)  (conj, 胸腹#NR, 食欲不振#NR)  (nn, 胀痛#NN, 胸腹#NR)  (dobj, 治疗#VV, 胀痛#NN)  (mark, 治疗#VV, 的#DEC)  (root, ROOT#null, 良药#NN)
+            (root, ROOT#null, 防癌#VV)
+            (nsubj, 清除#VV, 橙子#NN)  (mmod, 清除#VV, 能#VV)  (root, ROOT#null, 清除#VV)  (nn, 自由基#NN, 体内#NN)  (case, 有害#NN, 对#P)  (amod, 有害#NN, 健康#JJ)  (assmod, 自由基#NN, 有害#NN)  (case, 有害#NN, 的#DEG)  (dobj, 清除#VV, 自由基#NN)  (dep, 清除#VV, 抑制#VV)  (nn, 细胞#NN, 肿瘤#NN)  (assmod, 生长#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)
+            (dep, 胆结石#VV, 少#VV)  (dep, 胆结石#VV, 得#DER)  (root, ROOT#null, 胆结石#VV)
+            (dep, 所含#NN, 橙皮#NN)  (case, 橙皮#NN, 中#LC)  (dep, 促进#VV, 所含#NN)  (nsubj, 促进#VV, 有的#PN)  (advmod, 促进#VV, 果胶#AD)  (advmod, 促进#VV, 也#AD)  (mmod, 促进#VV, 可以#VV)  (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 食物#NN)  (case, 胃肠道#NN, 通过#P)  (prep, 使#VV, 胃肠道#NN)  (dep, 促进#VV, 使#VV)  (dobj, 使#VV, 胆固醇#NN)  (advmod, 排出#VV, 更快#AD)  (dep, 排出#VV, 地#NN)  (case, 粪便#NN, 随#P)  (prep, 排出#VV, 粪便#NN)  (dep, 使#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)  (prtmod, 减少#VV, 以#MSP)  (conj, 排出#VV, 减少#VV)  (assmod, 吸收#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 减少#VV, 吸收#NN)   (root, ROOT#null, 得了#VV)  (assmod, 人#NN, 胆结石#NN)  (case, 胆结石#NN, 的#DEG)  (dobj, 得了#VV, 人#NN)  (case, 吃#VV, 除了#P)  (prep, 起到#VV, 吃#VV)  (dobj, 吃#VV, 橙子#NN)  (case, 吃#VV, 外#LC)  (case, 喝#NN, 用#P)  (nn, 喝#NN, 橙皮#NN)  (nn, 喝#NN, 泡#NN)  (nn, 喝#NN, 水#NN)  (prep, 起到#VV, 喝#NN)  (advmod, 起到#VV, 也#AD)  (mmod, 起到#VV, 能#VV)  (conj, 得了#VV, 起到#VV)  (relcl, 效果#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (nn, 效果#NN, 治疗#NN)  (dobj, 起到#VV, 效果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 缓解#VV)  (nn, 压力#NN, 女性#NN)  (dobj, 缓解#VV, 压力#NN)
+            (advmod, 发出#VV, 橙子#AD)  (relcl, 气味#NN, 发出#VV)  (mark, 发出#VV, 的#DEC)  (nsubj, 有利于#VV, 气味#NN)  (root, ROOT#null, 有利于#VV)  (ccomp, 有利于#VV, 缓解#VV)  (assmod, 压力#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (nn, 压力#NN, 心理#NN)  (dobj, 缓解#VV, 压力#NN)  (advmod, 有助于#VV, 但仅#AD)  (dep, 有利于#VV, 有助于#VV)  (dobj, 有助于#VV, 女性#NN)  (dep, 有助于#VV, 克服#VV)  (amod, 情绪#NN, 紧张#JJ)  (dobj, 克服#VV, 情绪#NN)  (case, 男性#NN, 对#P)  (assmod, 作用#NN, 男性#NN)  (case, 男性#NN, 的#DEG)  (nsubj, 大#VA, 作用#NN)  (advmod, 大#VA, 却#AD)  (neg, 大#VA, 不#AD)  (conj, 有利于#VV, 大#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            橙子含有丰富的营养成分，维生素C，β-胡萝卜素，柠檬酸，维生素A，维生素B族，烯类，醇类，醛类等物质。此外橙子还有镁，锌，钙，铁，磷，钾等矿物质元素和无机盐，纤维素和果胶。
+        </rawdata>
+
+        <segment>
+            橙子  含有  丰富  的  营养  成分  ，  维生素C  ，  β  -  胡萝卜素  ，  柠檬酸  ，  维生素A  ，  维生素  B  族  ，  烯类  ，  醇类  ，  醛类  等  物质  。  此外  橙子  还有  镁  ，  锌  ，  钙  ，  铁  ，  磷  ，  钾  等  矿物质  元素  和  无机盐  ，  纤维素  和  果胶  。
+        </segment>
+
+        <pos>
+            橙子#NN  含有#VV  丰富#VA  的#DEC  营养#VA  成分#NN  ，#PU  维生素C#NN  ，#PU  β#AD  -#VV  胡萝卜素#NN  ，#PU  柠檬酸#NN  ，#PU  维生素A#NN  ，#PU  维生素#NN  B#VV  族#NN  ，#PU  烯类#VV  ，#PU  醇类#VV  ，#PU  醛类#VV  等#ETC  物质#NN    。#PU  此外#AD  橙子#NN  还有#AD  镁#NN  ，#PU  锌#NN  ，#PU  钙#VV  ，#PU  铁#NN  ，#PU  磷#NN  ，#PU  钾#NN  等#ETC  矿物质#VV  元素#NN  和#CC  无机盐#NN  ，#PU  纤维素#CD  和#CC  果胶#CD    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 橙子#NN)  (root, ROOT#null, 含有#VV)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (nsubj, -#VV, 成分#NN)  (nsubj, -#VV, 维生素C#NN)  (advmod, -#VV, β#AD)  (dobj, -#VV, 胡萝卜素#NN)  (nsubj, B#VV, 柠檬酸#NN)  (nsubj, B#VV, 维生素A#NN)  (nsubj, B#VV, 维生素#NN)  (conj, -#VV, B#VV)  (dobj, B#VV, 族#NN)  (conj, B#VV, 烯类#VV)  (conj, B#VV, 醇类#VV)  (conj, B#VV, 醛类#VV)  (dep, -#VV, 等#ETC)  (dobj, 含有#VV, 物质#NN)   (advmod, 钙#VV, 此外#AD)  (nsubj, 钙#VV, 橙子#NN)  (advmod, 钙#VV, 还有#AD)  (nsubj, 钙#VV, 镁#NN)  (nsubj, 钙#VV, 锌#NN)  (root, ROOT#null, 钙#VV)  (nsubj, 矿物质#VV, 铁#NN)  (nsubj, 矿物质#VV, 磷#NN)  (nsubj, 矿物质#VV, 钾#NN)  (etc, 钾#NN, 等#ETC)  (conj, 钙#VV, 矿物质#VV)  (conj, 无机盐#NN, 元素#NN)  (cc, 无机盐#NN, 和#CC)  (dobj, 矿物质#VV, 无机盐#NN)  (nummod, 果胶#CD, 纤维素#CD)  (cc, 果胶#CD, 和#CC)  (conj, 矿物质#VV, 果胶#CD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            一天一个即可，最多不超过5个。不要用橙皮泡水饮用，因为橙皮上一般都会有保鲜剂，很难用水洗净。
+        </rawdata>
+
+        <segment>
+            一  天  一  个  即可  ，  最多  不  超过  5  个  。  不  要  用  橙皮  泡  水  饮用  ，  因为  橙皮  上  一般  都  会  有  保鲜剂  ，  很  难  用水  洗净  。
+        </segment>
+
+        <pos>
+            一#CD  天#M  一#CD  个#M  即可#NN  ，#PU  最多#AD  不#AD  超过#VV  5#CD  个#M    。#PU  不#AD  要#VV  用#P  橙皮#NN  泡#VV  水#NN  饮用#NN  ，#PU  因为#P  橙皮#NN  上#LC  一般#AD  都#AD  会#VV  有#VE  保鲜剂#NN  ，#PU  很#AD  难#VA  用水#NN  洗净#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 天#M, 一#CD)  (clf, 即可#NN, 天#M)  (nummod, 个#M, 一#CD)  (clf, 即可#NN, 个#M)  (dep, 超过#VV, 即可#NN)  (advmod, 超过#VV, 最多#AD)  (neg, 超过#VV, 不#AD)  (root, ROOT#null, 超过#VV)  (nummod, 个#M, 5#CD)  (range, 超过#VV, 个#M)   (neg, 泡#VV, 不#AD)  (mmod, 泡#VV, 要#VV)  (case, 橙皮#NN, 用#P)  (prep, 泡#VV, 橙皮#NN)  (root, ROOT#null, 泡#VV)  (nn, 饮用#NN, 水#NN)  (dobj, 泡#VV, 饮用#NN)  (case, 橙皮#NN, 因为#P)  (prep, 有#VE, 橙皮#NN)  (case, 橙皮#NN, 上#LC)  (advmod, 有#VE, 一般#AD)  (advmod, 有#VE, 都#AD)  (mmod, 有#VE, 会#VV)  (dep, 泡#VV, 有#VE)  (dobj, 有#VE, 保鲜剂#NN)  (advmod, 难#VA, 很#AD)  (dep, 泡#VV, 难#VA)  (nsubj, 洗净#VV, 用水#NN)  (dep, 泡#VV, 洗净#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/111047004494.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\346 橙.jpg
+    </picturelocalurl>
+
+</content>

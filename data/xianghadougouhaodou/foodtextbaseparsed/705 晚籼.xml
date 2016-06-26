@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        705
+    </id>
+
+    <foodname>
+        晚籼
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            糖尿病患者不宜多食
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  不  宜  多  食
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  不#AD  宜#NR  多#VV  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 多#VV, 患者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            生长期较长、收获期较晚的籼稻谷，一般米粒腹白较小或无腹白，角质粒较多。米粒背沟有皮,粒面留皮不超过1/5的占80%以上
+        </rawdata>
+
+        <segment>
+            生长期  较  长  、  收获期  较  晚  的  籼稻谷  ，  一般  米粒  腹白  较  小  或  无腹白  ，  角质  粒  较  多  。  米粒  背沟  有  皮  ,  粒面  留  皮  不  超过  1/5  的  占  80%  以上
+        </segment>
+
+        <pos>
+            生长期#NN  较#AD  长#VA  、#PU  收获期#NN  较#AD  晚#VA  的#DEC  籼稻谷#NN  ，#PU  一般#JJ  米粒#NN  腹白#NN  较#AD  小#VA  或#CC  无腹白#VA  ，#PU  角质#NN  粒#NN  较#AD  多#VA  。#PU  米粒#NN  背沟#AD  有#VE  皮#NN  ,#NN  粒面#NN  留#VV  皮#NN  不#AD  超过#VV  1/5#CD  的#DEC  占#VV  80#CD  %#NN  以上#LC
+        </pos>
+
+        <parsing>
+            (nsubj, 长#VA, 生长期#NN)  (advmod, 长#VA, 较#AD)  (relcl, 籼稻谷#NN, 长#VA)  (nsubj, 晚#VA, 收获期#NN)  (advmod, 晚#VA, 较#AD)  (conj, 长#VA, 晚#VA)  (mark, 长#VA, 的#DEC)  (nsubj, 小#VA, 籼稻谷#NN)  (amod, 米粒#NN, 一般#JJ)  (nn, 腹白#NN, 米粒#NN)  (nsubj, 小#VA, 腹白#NN)  (advmod, 小#VA, 较#AD)  (root, ROOT#null, 小#VA)  (cc, 小#VA, 或#CC)  (dep, 小#VA, 无腹白#VA)  (nn, 粒#NN, 角质#NN)  (nsubj, 多#VA, 粒#NN)  (advmod, 多#VA, 较#AD)  (conj, 小#VA, 多#VA)  (nsubj, 有#VE, 米粒#NN)  (advmod, 有#VE, 背沟#AD)  (conj, 小#VA, 有#VE)  (nn, 粒面#NN, 皮#NN)  (nsubj, 留#VV, 粒面#NN)  (dep, 有#VE, 留#VV)  (dobj, 留#VV, 皮#NN)  (neg, 超过#VV, 不#AD)  (nsubj, 占#VV, 超过#VV)  (range, 超过#VV, 1/5#CD)  (mark, 超过#VV, 的#DEC)  (conj, 小#VA, 占#VV)  (nummod, %#NN, 80#CD)  (loc, 占#VV, %#NN)  (case, %#NN, 以上#LC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        补气  健脾止泻  温中
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/e6/40/82150_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\705 晚籼.jpg
+    </picturelocalurl>
+
+</content>

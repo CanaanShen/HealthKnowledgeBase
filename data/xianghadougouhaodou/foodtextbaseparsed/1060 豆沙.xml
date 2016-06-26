@@ -1,0 +1,284 @@
+<content>
+
+    <id>
+        1060
+    </id>
+
+    <foodname>
+        豆沙
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        红小豆、饭豆、米豆、赤豆、小豆、红豆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            红豆沙与羊肝相克，同食会引起中毒。绿豆沙不宜与鲤鱼同食。
+        </rawdata>
+
+        <segment>
+            红豆沙  与  羊肝  相克  ，  同食会  引起  中毒  。  绿豆沙  不  宜  与  鲤鱼  同  食  。
+        </segment>
+
+        <pos>
+            红豆沙#NN  与#P  羊肝#NN  相克#NN  ，#PU  同食会#AD  引起#VV  中毒#VV    。#PU  绿豆沙#VV  不#AD  宜#NR  与#CC  鲤鱼#NR  同#DT  食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 引起#VV, 红豆沙#NN)  (case, 相克#NN, 与#P)  (nn, 相克#NN, 羊肝#NN)  (prep, 引起#VV, 相克#NN)  (advmod, 引起#VV, 同食会#AD)  (root, ROOT#null, 引起#VV)  (comod, 引起#VV, 中毒#VV)   (root, ROOT#null, 绿豆沙#VV)  (neg, 绿豆沙#VV, 不#AD)  (conj, 鲤鱼#NR, 宜#NR)  (cc, 鲤鱼#NR, 与#CC)  (nn, 食#NN, 鲤鱼#NR)  (det, 食#NN, 同#DT)  (dobj, 绿豆沙#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            胃炎者应少食;
+        </rawdata>
+
+        <segment>
+            胃炎  者  应  少食  ;
+        </segment>
+
+        <pos>
+            胃炎#NN  者#NN  应#VV  少食#VV  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 胃炎#NN)  (nsubj, 少食#VV, 者#NN)  (mmod, 少食#VV, 应#VV)  (root, ROOT#null, 少食#VV)  (dobj, 少食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                243cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                39.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                5.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                1.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                1.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                51g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.03mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.05mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                4.37mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                23.5mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                42mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            一般而言是指红豆沙，做法是将红豆磨成粉，煮熟之后下糖胶(事先煮成液体状的糖浆)再煮成糊状。红豆沙常用来做点心的馅，例如豆沙月饼。除了红豆沙外，绿豆沙也广泛用于点心制作。豆沙可做成各式各样的可口食物。
+        </rawdata>
+
+        <segment>
+            一般  而言  是  指  红豆沙  ，  做法  是  将  红豆  磨成粉  ，  煮熟  之后  下  糖  胶  (  事先  煮成  液体状  的  糖浆  )  再  煮成  糊状  。  红豆  沙  常用  来  做  点心  的馅  ，  例如  豆沙  月饼  。  除了  红豆沙  外  ，  绿豆沙  也  广泛  用于  点心  制作  。  豆沙  可  做成  各式各样  的  可口  食物  。
+        </segment>
+
+        <pos>
+            一般#JJ  而言#NN  是#VC  指#VV  红豆沙#NN  ，#PU  做法#NN  是#VC  将#AD  红豆#VV  磨成粉#NN  ，#PU  煮熟#NN  之后#LC  下#DT  糖#NN  胶#NN  -LRB-#NN  事先#AD  煮成#VV  液体状#NN  的#DEC  糖浆#NN  -RRB-#NN  再#AD  煮成#VV  糊状#NN    。#PU  红豆#NN  沙#NN  常用#JJ  来#MSP  做#VV  点心#NN  的馅#NN  ，#PU  例如#AD  豆沙#AD  月饼#VV    。#PU  除了#P  红豆沙#NN  外#LC  ，#PU  绿豆沙#NN  也#AD  广泛#AD  用于#VV  点心#NN  制作#VV    。#PU  豆沙#NN  可#VV  做成#VV  各式各样#NN  的#DEG  可口#NN  食物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 而言#NN, 一般#JJ)  (nsubj, 指#VV, 而言#NN)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (dobj, 指#VV, 红豆沙#NN)  (nsubj, 红豆#VV, 做法#NN)  (cop, 红豆#VV, 是#VC)  (advmod, 红豆#VV, 将#AD)  (conj, 指#VV, 红豆#VV)  (dobj, 红豆#VV, 磨成粉#NN)  (loc, 煮成#VV, 煮熟#NN)  (case, 煮熟#NN, 之后#LC)  (det, 糖#NN, 下#DT)  (nn, -LRB-#NN, 糖#NN)  (nn, -LRB-#NN, 胶#NN)  (advmod, 煮成#VV, 事先#AD)  (relcl, -RRB-#NN, 煮成#VV)  (dobj, 煮成#VV, 液体状#NN)  (mark, 煮成#VV, 的#DEC)  (nn, -RRB-#NN, 糖浆#NN)  (advmod, 煮成#VV, 再#AD)  (conj, 指#VV, 煮成#VV)  (dobj, 煮成#VV, 糊状#NN)   (nn, 沙#NN, 红豆#NN)  (nsubj, 月饼#VV, 沙#NN)  (amod, 的馅#NN, 常用#JJ)  (prtmod, 做#VV, 来#MSP)  (relcl, 的馅#NN, 做#VV)  (dobj, 做#VV, 点心#NN)  (nsubj, 月饼#VV, 的馅#NN)  (advmod, 月饼#VV, 例如#AD)  (advmod, 月饼#VV, 豆沙#AD)  (root, ROOT#null, 月饼#VV)   (case, 红豆沙#NN, 除了#P)  (prep, 用于#VV, 红豆沙#NN)  (case, 红豆沙#NN, 外#LC)  (nsubj, 用于#VV, 绿豆沙#NN)  (advmod, 用于#VV, 也#AD)  (advmod, 用于#VV, 广泛#AD)  (dep, 制作#VV, 用于#VV)  (dobj, 用于#VV, 点心#NN)  (root, ROOT#null, 制作#VV)   (nsubj, 做成#VV, 豆沙#NN)  (mmod, 做成#VV, 可#VV)  (root, ROOT#null, 做成#VV)  (assmod, 食物#NN, 各式各样#NN)  (case, 各式各样#NN, 的#DEG)  (nn, 食物#NN, 可口#NN)  (dobj, 做成#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            提高免疫力,安神除烦,补充能量
+        </rawdata>
+
+        <segment>
+            提高  免疫力  ,  安神  除烦  ,  补充  能量
+        </segment>
+
+        <pos>
+            提高#VV  免疫力#NN  ,#NN  安神#NN  除烦#NN  ,#NN  补充#NN  能量#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提高#VV)  (nn, 能量#NN, 免疫力#NN)  (nn, 能量#NN, 安神#NN)  (nn, 能量#NN, 除烦#NN)  (nn, 能量#NN, 补充#NN)  (dobj, 提高#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  改善营养性贫血  通便
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            赤小豆宜与其他谷类食品混合食用，一般制成豆沙包，豆饭或豆粥，是科学的食用方法。
+        </rawdata>
+
+        <segment>
+            赤小豆  宜  与  其他  谷类  食品  混合  食用  ，  一般  制成  豆沙  包  ，  豆饭  或  豆粥  ，  是  科学  的  食用  方法  。
+        </segment>
+
+        <pos>
+            赤小豆#NN  宜#NR  与#P  其他#DT  谷类#NN  食品#NN  混合#VV  食用#VV  ，#PU  一般#AD  制成#VV  豆沙#NN  包#NN  ，#PU  豆饭#NN  或#CC  豆粥#NN  ，#PU  是#VC  科学#NN  的#DEG  食用#VV  方法#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 混合#VV, 赤小豆#NN)  (nsubj, 混合#VV, 宜#NR)  (case, 食品#NN, 与#P)  (det, 谷类#NN, 其他#DT)  (nn, 食品#NN, 谷类#NN)  (prep, 混合#VV, 食品#NN)  (root, ROOT#null, 混合#VV)  (comod, 混合#VV, 食用#VV)  (advmod, 制成#VV, 一般#AD)  (dep, 混合#VV, 制成#VV)  (nn, 包#NN, 豆沙#NN)  (dobj, 制成#VV, 包#NN)  (conj, 豆粥#NN, 豆饭#NN)  (cc, 豆粥#NN, 或#CC)  (dep, 方法#NN, 豆粥#NN)  (cop, 方法#NN, 是#VC)  (assmod, 方法#NN, 科学#NN)  (case, 科学#NN, 的#DEG)  (nfincl, 方法#NN, 食用#VV)  (conj, 混合#VV, 方法#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/23/05/1315_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1060 豆沙.jpg
+    </picturelocalurl>
+
+</content>

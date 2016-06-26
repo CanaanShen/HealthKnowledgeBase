@@ -1,0 +1,147 @@
+<content>
+
+    <id>
+        1069
+    </id>
+
+    <foodname>
+        母鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        鸡项
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            老母鸡的补益之功效更高，许多久病、瘦弱之人用来补身，尤其是畏寒风重，虚不受补者，老母鸡不但能补气补血，还可祛风。按照一般人的习惯，多喜欢吃鲜嫩的鸡项（指未生过鸡蛋的雌鸡)，不爱吃肉粗骨硬的老母鸡。但从祛风补气补血的功效来看，母鸡愈老，功效越好。因为老母鸡肉多，钙质多，用文火熬汤，最适宜贫血患者及孕妇、产妇和消化力弱的人补养。
+        </rawdata>
+
+        <segment>
+            老  母鸡  的  补益  之  功效  更高  ，  许多  久病  、  瘦弱  之  人  用来  补身  ，  尤其是  畏  寒风  重  ，  虚  不  受  补者  ，  老  母鸡  不但  能  补气  补血  ，  还可  祛风  。  按照  一般  人  的  习惯  ，  多  喜欢  吃  鲜嫩  的  鸡  项  （  指  未生  过  鸡蛋  的  雌  鸡  )  ，  不  爱  吃  肉  粗  骨  硬  的  老  母鸡  。  但  从  祛风  补气  补血  的  功效  来看  ，  母鸡  愈  老  ，  功效  越  好  。  因为  老母  鸡肉  多  ，  钙质  多  ，  用  文火  熬汤  ，  最  适宜  贫血  患者  及  孕妇  、  产妇  和  消化  力弱  的  人  补养  。
+        </segment>
+
+        <pos>
+            老#JJ  母鸡#NN  的#DEG  补益#NN  之#DEG  功效#NN  更高#JJ  ，#PU  许多#CD  久病#NN  、#PU  瘦弱#NN  之#DEG  人#NN  用来#NN  补身#VV  ，#PU  尤其是#AD  畏#VV  寒风#CD  重#M  ，#PU  虚#AD  不#AD  受#VV  补者#NN  ，#PU  老#JJ  母鸡#NN  不但#CC  能#VV  补气#VV  补血#NN  ，#PU  还可#VV  祛风#NN    。#PU  按照#P  一般#JJ  人#NN  的#DEG  习惯#NN  ，#PU  多#AD  喜欢#VV  吃#VV  鲜嫩#NN  的#DEG  鸡#NN  项#NN  （#PU  指#VV  未生#VV  过#AS  鸡蛋#NN  的#DEC  雌#NN  鸡#NN  -RRB-#NR  ，#PU  不#AD  爱#VV  吃#VV  肉#NN  粗#AD  骨#AD  硬#VA  的#DEC  老#JJ  母鸡#NN    。#PU  但#AD  从#P  祛风#NN  补气#VV  补血#NN  的#DEC  功效#NN  来看#VV  ，#PU  母鸡#NR  愈#AD  老#NR  ，#PU  功效#VV  越#AD  好#VA    。#PU  因为#P  老母#NN  鸡肉#AD  多#VA  ，#PU  钙质#AD  多#VA  ，#PU  用#P  文火#NN  熬汤#VV  ，#PU  最#AD  适宜#VA  贫血#VV  患者#NN  及#CC  孕妇#NN  、#PU  产妇#NN  和#CC  消化#NN  力弱#NN  的#DEC  人#NN  补养#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 母鸡#NN, 老#JJ)  (assmod, 补益#NN, 母鸡#NN)  (case, 母鸡#NN, 的#DEG)  (assmod, 功效#NN, 补益#NN)  (case, 补益#NN, 之#DEG)  (nsubj, 补身#VV, 功效#NN)  (nfincl, 用来#NN, 更高#JJ)  (nummod, 瘦弱#NN, 许多#CD)  (conj, 瘦弱#NN, 久病#NN)  (assmod, 人#NN, 瘦弱#NN)  (case, 瘦弱#NN, 之#DEG)  (dep, 更高#JJ, 人#NN)  (nsubj, 补身#VV, 用来#NN)  (root, ROOT#null, 补身#VV)  (advmod, 畏#VV, 尤其是#AD)  (ccomp, 补身#VV, 畏#VV)  (nummod, 重#M, 寒风#CD)  (range, 畏#VV, 重#M)  (advmod, 受#VV, 虚#AD)  (neg, 受#VV, 不#AD)  (conj, 畏#VV, 受#VV)  (dobj, 受#VV, 补者#NN)  (amod, 母鸡#NN, 老#JJ)  (nsubj, 补气#VV, 母鸡#NN)  (cc, 补气#VV, 不但#CC)  (mmod, 补气#VV, 能#VV)  (dep, 畏#VV, 补气#VV)  (dobj, 补气#VV, 补血#NN)  (dep, 补气#VV, 还可#VV)  (dobj, 还可#VV, 祛风#NN)   (case, 习惯#NN, 按照#P)  (amod, 人#NN, 一般#JJ)  (assmod, 习惯#NN, 人#NN)  (case, 人#NN, 的#DEG)  (prep, 喜欢#VV, 习惯#NN)  (advmod, 喜欢#VV, 多#AD)  (root, ROOT#null, 喜欢#VV)  (ccomp, 喜欢#VV, 吃#VV)  (assmod, 项#NN, 鲜嫩#NN)  (case, 鲜嫩#NN, 的#DEG)  (nn, 项#NN, 鸡#NN)  (dobj, 吃#VV, 项#NN)  (mmod, 未生#VV, 指#VV)  (relcl, 鸡#NN, 未生#VV)  (asp, 未生#VV, 过#AS)  (dobj, 未生#VV, 鸡蛋#NN)  (mark, 未生#VV, 的#DEC)  (nn, 鸡#NN, 雌#NN)  (dep, 吃#VV, 鸡#NN)  (neg, 爱#VV, 不#AD)  (dep, 喜欢#VV, 爱#VV)  (ccomp, 爱#VV, 吃#VV)  (nsubj, 硬#VA, 肉#NN)  (advmod, 硬#VA, 粗#AD)  (advmod, 硬#VA, 骨#AD)  (relcl, 母鸡#NN, 硬#VA)  (mark, 硬#VA, 的#DEC)  (amod, 母鸡#NN, 老#JJ)  (dobj, 吃#VV, 母鸡#NN)   (advmod, 补气#VV, 但#AD)  (case, 祛风#NN, 从#P)  (prep, 补气#VV, 祛风#NN)  (relcl, 功效#NN, 补气#VV)  (dobj, 补气#VV, 补血#NN)  (mark, 补气#VV, 的#DEC)  (nsubj, 来看#VV, 功效#NN)  (root, ROOT#null, 来看#VV)  (nsubj, 功效#VV, 母鸡#NR)  (xsubj, 好#VA, 母鸡#NR)  (advmod, 功效#VV, 愈#AD)  (prep, 功效#VV, 老#NR)  (ccomp, 来看#VV, 功效#VV)  (advmod, 好#VA, 越#AD)  (ccomp, 功效#VV, 好#VA)   (case, 多#VA, 因为#P)  (nsubj, 多#VA, 老母#NN)  (advmod, 多#VA, 鸡肉#AD)  (prep, 贫血#VV, 多#VA)  (advmod, 多#VA, 钙质#AD)  (dep, 多#VA, 多#VA)  (case, 文火#NN, 用#P)  (prep, 熬汤#VV, 文火#NN)  (dep, 多#VA, 熬汤#VV)  (advmod, 适宜#VA, 最#AD)  (dep, 多#VA, 适宜#VA)  (relcl, 人#NN, 贫血#VV)  (conj, 力弱#NN, 患者#NN)  (cc, 力弱#NN, 及#CC)  (conj, 力弱#NN, 孕妇#NN)  (conj, 力弱#NN, 产妇#NN)  (cc, 力弱#NN, 和#CC)  (nn, 力弱#NN, 消化#NN)  (dobj, 贫血#VV, 力弱#NN)  (mark, 贫血#VV, 的#DEC)  (nsubj, 补养#VV, 人#NN)  (root, ROOT#null, 补养#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸡肉含丰富蛋白质，其脂肪中含不饱和脂肪酸，故是老年人和心血管疾病患者较好的蛋白质食品。对体质虚弱，病后或产后用鸡肉或鸡汤作补品食用更为适宜，尤以乌骨鸡为佳。可用于虚劳瘦弱、骨蒸潮热、脾虚泄泻、消渴、崩漏、赤白带、遗精等。
+        </rawdata>
+
+        <segment>
+            鸡肉  含  丰富  蛋白质  ，  其  脂肪  中  含  不  饱和  脂肪酸  ，  故  是  老年人  和  心血管  疾病  患者  较好  的  蛋白质  食品  。  对  体质  虚弱  ，  病  后  或  产后  用  鸡肉  或  鸡汤  作  补品  食用  更为  适宜  ，  尤以  乌骨鸡  为佳  。  可  用于  虚  劳  瘦弱  、  骨  蒸  潮热  、  脾虚  泄泻  、  消渴  、  崩漏  、  赤  白带  、  遗精  等  。
+        </segment>
+
+        <pos>
+            鸡肉#NN  含#VV  丰富#VA  蛋白质#VA  ，#PU  其#PN  脂肪#NN  中#LC  含#VV  不#AD  饱和#VV  脂肪酸#NN  ，#PU  故#AD  是#VC  老年人#NN  和#CC  心血管#NN  疾病#NN  患者#NN  较好#AD  的#DEC  蛋白质#JJ  食品#NN    。#PU  对#P  体质#NN  虚弱#NN  ，#PU  病#NN  后#LC  或#CC  产后#NN  用#P  鸡肉#NN  或#CC  鸡汤#NN  作#VV  补品#NN  食用#VV  更为#AD  适宜#VA  ，#PU  尤以#VV  乌骨鸡#NN  为佳#NN    。#PU  可#VV  用于#VV  虚#AD  劳#NN  瘦弱#VV  、#PU  骨#AD  蒸#VV  潮热#NR  、#PU  脾虚#NR  泄泻#NR  、#PU  消渴#NR  、#PU  崩漏#NR  、#PU  赤#NR  白带#NR  、#PU  遗精#NR  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 鸡肉#NN)  (root, ROOT#null, 含#VV)  (relcl, 食品#NN, 丰富#VA)  (comod, 丰富#VA, 蛋白质#VA)  (nsubj, 饱和#VV, 其#PN)  (loc, 饱和#VV, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (mmod, 饱和#VV, 含#VV)  (neg, 饱和#VV, 不#AD)  (ccomp, 丰富#VA, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (advmod, 患者#NN, 故#AD)  (cop, 患者#NN, 是#VC)  (conj, 疾病#NN, 老年人#NN)  (cc, 疾病#NN, 和#CC)  (nn, 疾病#NN, 心血管#NN)  (nn, 患者#NN, 疾病#NN)  (dep, 饱和#VV, 患者#NN)  (advmod, 丰富#VA, 较好#AD)  (mark, 丰富#VA, 的#DEC)  (amod, 食品#NN, 蛋白质#JJ)  (dobj, 含#VV, 食品#NN)   (case, 虚弱#NN, 对#P)  (nn, 虚弱#NN, 体质#NN)  (prep, 作#VV, 虚弱#NN)  (loc, 作#VV, 病#NN)  (case, 病#NN, 后#LC)  (dep, 病#NN, 或#CC)  (dep, 病#NN, 产后#NN)  (case, 鸡汤#NN, 用#P)  (conj, 鸡汤#NN, 鸡肉#NN)  (cc, 鸡汤#NN, 或#CC)  (prep, 作#VV, 鸡汤#NN)  (dep, 适宜#VA, 作#VV)  (dobj, 作#VV, 补品#NN)  (mmod, 适宜#VA, 食用#VV)  (advmod, 适宜#VA, 更为#AD)  (root, ROOT#null, 适宜#VA)  (dep, 适宜#VA, 尤以#VV)  (nn, 为佳#NN, 乌骨鸡#NN)  (dobj, 尤以#VV, 为佳#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (advmod, 瘦弱#VV, 虚#AD)  (dep, 瘦弱#VV, 劳#NN)  (ccomp, 用于#VV, 瘦弱#VV)  (advmod, 蒸#VV, 骨#AD)  (conj, 瘦弱#VV, 蒸#VV)  (conj, 遗精#NR, 潮热#NR)  (nn, 遗精#NR, 脾虚#NR)  (conj, 遗精#NR, 泄泻#NR)  (conj, 遗精#NR, 消渴#NR)  (conj, 遗精#NR, 崩漏#NR)  (nn, 遗精#NR, 赤#NR)  (conj, 遗精#NR, 白带#NR)  (dobj, 蒸#VV, 遗精#NR)  (etc, 遗精#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  明目  补气  温中  补阴  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.鸡肉可热炒，炖汤，凉拌;
+            2.鸡肉的营养高于鸡汤;
+            3.鸡屁股是淋巴最为集中的地方，也是储存病菌，病毒和致癌物的仓库，应弃掉不要。
+        </rawdata>
+
+        <segment>
+            鸡肉  可  热炒  ，  炖汤  ，  凉拌  ;
+            鸡肉  的  营养  高于  鸡汤  ;
+            鸡  屁股  是  淋巴  最为  集中  的  地方  ，  也  是  储存  病菌  ，  病毒  和  致癌物  的  仓库  ，  应  弃掉  不要  。
+        </segment>
+
+        <pos>
+            鸡肉#NR  可#VV  热炒#VV  ，#PU  炖汤#NN  ，#PU  凉拌#AD  ;#VV
+            鸡肉#VA  的#DEC  营养#VA  高于#VV  鸡汤#NN  ;#NN
+            鸡#NN  屁股#NN  是#VC  淋巴#NN  最为#AD  集中#VV  的#DEC  地方#NN  ，#PU  也#AD  是#VC  储存#VV  病菌#NN  ，#PU  病毒#NN  和#CC  致癌物#NN  的#DEC  仓库#NN  ，#PU  应#VV  弃掉#NN  不要#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热炒#VV, 鸡肉#NR)  (mmod, 热炒#VV, 可#VV)  (root, ROOT#null, 热炒#VV)  (nsubj, ;#VV, 炖汤#NN)  (advmod, ;#VV, 凉拌#AD)  (ccomp, 热炒#VV, ;#VV)
+            (nsubj, 高于#VV, 鸡肉#VA)  (mark, 鸡肉#VA, 的#DEC)  (dep, 高于#VV, 营养#VA)  (root, ROOT#null, 高于#VV)  (nn, ;#NN, 鸡汤#NN)  (dobj, 高于#VV, ;#NN)
+            (nn, 屁股#NN, 鸡#NN)  (nsubj, 地方#NN, 屁股#NN)  (cop, 地方#NN, 是#VC)  (nsubj, 集中#VV, 淋巴#NN)  (advmod, 集中#VV, 最为#AD)  (relcl, 地方#NN, 集中#VV)  (mark, 集中#VV, 的#DEC)  (root, ROOT#null, 地方#NN)  (advmod, 仓库#NN, 也#AD)  (cop, 仓库#NN, 是#VC)  (relcl, 仓库#NN, 储存#VV)  (dobj, 储存#VV, 病菌#NN)  (conj, 致癌物#NN, 病毒#NN)  (cc, 致癌物#NN, 和#CC)  (conj, 储存#VV, 致癌物#NN)  (mark, 储存#VV, 的#DEC)  (conj, 地方#NN, 仓库#NN)  (conj, 地方#NN, 应#VV)  (nn, 不要#NN, 弃掉#NN)  (dobj, 应#VV, 不要#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/49/34/13385_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1069 母鸡.jpg
+    </picturelocalurl>
+
+</content>

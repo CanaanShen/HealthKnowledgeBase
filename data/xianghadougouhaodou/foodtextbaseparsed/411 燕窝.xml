@@ -1,0 +1,219 @@
+<content>
+
+    <id>
+        411
+    </id>
+
+    <foodname>
+        燕窝
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        燕菜、燕根、燕蔬菜
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            儿童慎食；肺胃虚寒、腹泻患者不宜服用；湿热者不宜多用。
+        </rawdata>
+
+        <segment>
+            儿童  慎食  ；  肺  胃  虚寒  、  腹泻  患者  不  宜  服用  ；  湿  热者  不  宜  多用  。
+        </segment>
+
+        <pos>
+            儿童#NN  慎食#VV  ；#PU  肺#NN  胃#NN  虚寒#NN  、#PU  腹泻#NN  患者#NN  不#AD  宜#NR  服用#VV  ；#PU  湿#NN  热者#NN  不#AD  宜#NR  多用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 慎食#VV, 儿童#NN)  (root, ROOT#null, 慎食#VV)  (nn, 患者#NN, 肺#NN)  (nn, 患者#NN, 胃#NN)  (conj, 患者#NN, 虚寒#NN)  (nn, 患者#NN, 腹泻#NN)  (nsubj, 服用#VV, 患者#NN)  (neg, 服用#VV, 不#AD)  (prep, 服用#VV, 宜#NR)  (ccomp, 慎食#VV, 服用#VV)  (nn, 热者#NN, 湿#NN)  (nsubj, 多用#VV, 热者#NN)  (neg, 多用#VV, 不#AD)  (prep, 多用#VV, 宜#NR)  (conj, 慎食#VV, 多用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。老人、体质虚弱者、产后或哺乳期妇女及爱美女士更宜。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  老人  、  体质  虚  弱者  、  产后  或  哺乳期  妇女  及  爱美  女士  更  宜  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  老人#NN  、#PU  体质#NN  虚#AD  弱者#VV  、#PU  产后#VV  或#CC  哺乳期#VV  妇女#NN  及#CC  爱美#VV  女士#NN  更#AD  宜#NR    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (conj, 体质#NN, 老人#NN)  (nsubj, 弱者#VV, 体质#NN)  (advmod, 弱者#VV, 虚#AD)  (root, ROOT#null, 弱者#VV)  (dep, 弱者#VV, 产后#VV)  (cc, 弱者#VV, 或#CC)  (dep, 弱者#VV, 哺乳期#VV)  (dep, 宜#NR, 妇女#NN)  (cc, 妇女#NN, 及#CC)  (dep, 妇女#NN, 爱美#VV)  (dobj, 爱美#VV, 女士#NN)  (advmod, 爱美#VV, 更#AD)  (dobj, 哺乳期#VV, 宜#NR)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            燕窝为雨燕科动物金丝燕及多种同属燕类用唾液与绒羽等混合凝结所筑成的巢窝，形似元宝，窝外壁由横条密集的丝状物堆垒成不规则棱状突起，窝内壁由丝状物织成不规则网状，窝碗根却坚实，两端有小坠角，一般直径6~7厘米，深3~4厘米。主要产于我国南海诸岛及东南亚各国。
+            燕窝因采集时间不同可分为三种：1.白燕：金丝燕为产卵育雏做的第一个窝，完全用唾液组成。雪白透明，个大壁厚，涨发率高，为燕窝上品，古代曾列为贡品，故又称宫燕。
+            2.毛燕：金丝燕做的第二个窝，由于唾液已消耗较多，金丝燕只好用身上的绒毛和唾液筑窝。窝壁里夹杂着较多的黑毛，品质较次。
+            3.血燕：金丝燕做的第三个窝，此时唾液几乎耗尽，只好用刚吃进去的，未及消化的小鱼、海藻做窝。窝中杂着血丝，个小壁薄，毛多，质地最差。
+        </rawdata>
+
+        <segment>
+            燕窝  为  雨燕科  动物  金丝燕  及  多种  同属  燕类  用  唾液  与  绒羽  等  混合  凝结  所  筑成  的  巢窝  ，  形似  元宝  ，  窝  外壁  由  横条  密集  的  丝状  物堆  垒成  不规则  棱状  突起  ，  窝  内壁  由  丝状物  织成  不规则  网状  ，  窝  碗  根  却  坚实  ，  两  端  有小  坠角  ，  一般  直径  6  ~  7  厘米  ，  深  3  ~  4  厘米  。  主要  产于  我国  南海  诸岛  及  东南亚  各  国  。
+            燕窝  因  采集  时间  不同  可  分为  三  种  ：    白燕  ：  金丝燕  为  产卵  育雏  做  的  第一  个  窝  ，  完全  用  唾液  组成  。  雪白  透明  ，  个  大  壁厚  ，  涨  发  率高  ，  为  燕窝  上品  ，  古代  曾  列为  贡品  ，  故  又  称  宫燕  。
+            毛燕  ：  金丝燕  做  的  第二  个  窝  ，  由于  唾液  已  消耗  较  多  ，  金丝燕  只好  用  身上  的  绒毛  和  唾液  筑  窝  。  窝  壁  里  夹杂  着  较  多  的  黑毛  ，  品质  较  次  。
+            血燕  ：  金丝燕  做  的  第三  个  窝  ，  此时  唾液  几乎  耗尽  ，  只好  用  刚  吃  进去  的  ，  未及  消化  的  小鱼  、  海藻  做  窝  。  窝  中  杂  着  血丝  ，  个小壁薄  ，  毛多  ，  质地  最差  。
+        </segment>
+
+        <pos>
+            燕窝#NN  为#P  雨燕科#NN  动物#NN  金丝燕#NN  及#CC  多种#NN  同属#NN  燕类#VV  用#P  唾液#NR  与#CC  绒羽#NR  等#ETC  混合#JJ  凝结#NN  所#MSP  筑成#VV  的#DEC  巢窝#NN  ，#PU  形似#VV  元宝#NN  ，#PU  窝#NN  外壁#NN  由#P  横条#AD  密集#VA  的#DEC  丝状#NN  物堆#NN  垒成#VV  不规则#AD  棱状#VV  突起#NN  ，#PU  窝#NN  内壁#NN  由#P  丝状物#NN  织成#NN  不规则#AD  网状#VV  ，#PU  窝#VV  碗#CD  根#M  却#AD  坚实#VA  ，#PU  两#CD  端#NN  有小#VV  坠角#NN  ，#PU  一般#JJ  直径#NN  6#CD  ~#NN  7#CD  厘米#M  ，#PU  深#NR  3#CD  ~#NN  4#CD  厘米#M    。#PU  主要#JJ  产于#NN  我国#VV  南海#NR  诸岛#NR  及#CC  东南亚#NR  各#DT  国#NN    。#PU    。#PU
+            燕窝#NN  因#P  采集#NN  时间#NN  不同#VA  可#VV  分为#VV  三#CD  种#M  ：#PU  白燕#VV  ：#PU  金丝燕#AD  为#P  产卵#NN  育雏#NN  做#VV  的#DEC  第一#OD  个#M  窝#NN  ，#PU  完全#AD  用#P  唾液#NN  组成#VV    。#PU  雪白#NN  透明#VA  ，#PU  个#M  大#JJ  壁厚#NN  ，#PU  涨#VV  发#VV  率高#NN  ，#PU  为#P  燕窝#NN  上品#NN  ，#PU  古代#NN  曾#AD  列为#VV  贡品#NN  ，#PU  故#AD  又#AD  称#VV  宫燕#NN    。#PU    。#PU
+            毛燕#VV  ：#PU  金丝燕#AD  做#VV  的#DEC  第二#OD  个#M  窝#NN  ，#PU  由于#P  唾液#NN  已#AD  消耗#VV  较#AD  多#VA  ，#PU  金丝燕#NN  只好#NN  用#P  身上#NN  的#DEG  绒毛#NN  和#CC  唾液#NN  筑#VV  窝#NN    。#PU  窝#NN  壁#NN  里#LC  夹杂#VV  着#AS  较#AD  多#VA  的#DEC  黑毛#NN  ，#PU  品质#NN  较#VA  次#M    。#PU    。#PU
+            血燕#VV  ：#PU  金丝燕#AD  做#VV  的#DEC  第三#OD  个#M  窝#NN  ，#PU  此时#NT  唾液#AD  几乎#AD  耗尽#VV  ，#PU  只好#NR  用#P  刚#AD  吃#VV  进去#VV  的#DEC  ，#PU  未及#VV  消化#NN  的#DEC  小鱼#NN  、#PU  海藻#NN  做#VV  窝#NN    。#PU  窝#NN  中#LC  杂#VV  着#AS  血丝#NN  ，#PU  个小壁薄#VV  ，#PU  毛多#VV  ，#PU  质地#VV  最差#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 燕类#VV, 燕窝#NN)  (case, 同属#NN, 为#P)  (nn, 同属#NN, 雨燕科#NN)  (nn, 同属#NN, 动物#NN)  (conj, 同属#NN, 金丝燕#NN)  (cc, 同属#NN, 及#CC)  (nn, 同属#NN, 多种#NN)  (prep, 燕类#VV, 同属#NN)  (root, ROOT#null, 燕类#VV)  (case, 凝结#NN, 用#P)  (conj, 绒羽#NR, 唾液#NR)  (cc, 绒羽#NR, 与#CC)  (nn, 凝结#NN, 绒羽#NR)  (etc, 绒羽#NR, 等#ETC)  (amod, 凝结#NN, 混合#JJ)  (prep, 筑成#VV, 凝结#NN)  (prtmod, 筑成#VV, 所#MSP)  (relcl, 巢窝#NN, 筑成#VV)  (mark, 筑成#VV, 的#DEC)  (dobj, 燕类#VV, 巢窝#NN)  (dep, 燕类#VV, 形似#VV)  (dobj, 形似#VV, 元宝#NN)  (nn, 外壁#NN, 窝#NN)  (nsubj, 垒成#VV, 外壁#NN)  (case, 物堆#NN, 由#P)  (advmod, 密集#VA, 横条#AD)  (relcl, 物堆#NN, 密集#VA)  (mark, 密集#VA, 的#DEC)  (nn, 物堆#NN, 丝状#NN)  (prep, 垒成#VV, 物堆#NN)  (conj, 燕类#VV, 垒成#VV)  (advmod, 棱状#VV, 不规则#AD)  (dep, 垒成#VV, 棱状#VV)  (dobj, 棱状#VV, 突起#NN)  (nn, 内壁#NN, 窝#NN)  (nsubj, 网状#VV, 内壁#NN)  (case, 织成#NN, 由#P)  (nn, 织成#NN, 丝状物#NN)  (prep, 网状#VV, 织成#NN)  (advmod, 网状#VV, 不规则#AD)  (conj, 燕类#VV, 网状#VV)  (dep, 坚实#VA, 窝#VV)  (nummod, 根#M, 碗#CD)  (range, 窝#VV, 根#M)  (advmod, 坚实#VA, 却#AD)  (conj, 燕类#VV, 坚实#VA)  (nummod, 端#NN, 两#CD)  (nsubj, 有小#VV, 端#NN)  (conj, 燕类#VV, 有小#VV)  (dobj, 有小#VV, 坠角#NN)  (amod, 直径#NN, 一般#JJ)  (nn, ~#NN, 直径#NN)  (nummod, ~#NN, 6#CD)  (nummod, 厘米#M, 7#CD)  (conj, 燕类#VV, 厘米#M)  (nn, ~#NN, 深#NR)  (nummod, ~#NN, 3#CD)  (nummod, 厘米#M, 4#CD)  (conj, 燕类#VV, 厘米#M)   (amod, 产于#NN, 主要#JJ)  (nsubj, 我国#VV, 产于#NN)  (root, ROOT#null, 我国#VV)  (nn, 东南亚#NR, 南海#NR)  (conj, 东南亚#NR, 诸岛#NR)  (cc, 东南亚#NR, 及#CC)  (nn, 国#NN, 东南亚#NR)  (det, 国#NN, 各#DT)  (dobj, 我国#VV, 国#NN)   (root, ROOT#null, null#null)
+            (nsubj, 分为#VV, 燕窝#NN)  (case, 不同#VA, 因#P)  (nn, 时间#NN, 采集#NN)  (nsubj, 不同#VA, 时间#NN)  (prep, 分为#VV, 不同#VA)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (nummod, 种#M, 三#CD)  (range, 分为#VV, 种#M)  (conj, 分为#VV, 白燕#VV)  (advmod, 做#VV, 金丝燕#AD)  (case, 育雏#NN, 为#P)  (nn, 育雏#NN, 产卵#NN)  (prep, 做#VV, 育雏#NN)  (relcl, 窝#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (ordmod, 个#M, 第一#OD)  (clf, 窝#NN, 个#M)  (nsubj, 组成#VV, 窝#NN)  (advmod, 组成#VV, 完全#AD)  (case, 唾液#NN, 用#P)  (prep, 组成#VV, 唾液#NN)  (ccomp, 白燕#VV, 组成#VV)   (nsubj, 透明#VA, 雪白#NN)  (root, ROOT#null, 透明#VA)  (clf, 壁厚#NN, 个#M)  (amod, 壁厚#NN, 大#JJ)  (nsubj, 发#VV, 壁厚#NN)  (mmod, 发#VV, 涨#VV)  (conj, 透明#VA, 发#VV)  (dobj, 发#VV, 率高#NN)  (case, 上品#NN, 为#P)  (nn, 上品#NN, 燕窝#NN)  (prep, 列为#VV, 上品#NN)  (nsubj, 列为#VV, 古代#NN)  (advmod, 列为#VV, 曾#AD)  (conj, 透明#VA, 列为#VV)  (dobj, 列为#VV, 贡品#NN)  (advmod, 称#VV, 故#AD)  (advmod, 称#VV, 又#AD)  (conj, 透明#VA, 称#VV)  (dobj, 称#VV, 宫燕#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 毛燕#VV)  (advmod, 做#VV, 金丝燕#AD)  (relcl, 窝#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (ordmod, 个#M, 第二#OD)  (clf, 窝#NN, 个#M)  (nsubj, 多#VA, 窝#NN)  (case, 消耗#VV, 由于#P)  (nsubj, 消耗#VV, 唾液#NN)  (advmod, 消耗#VV, 已#AD)  (prep, 多#VA, 消耗#VV)  (advmod, 多#VA, 较#AD)  (ccomp, 毛燕#VV, 多#VA)  (nn, 只好#NN, 金丝燕#NN)  (nsubj, 筑#VV, 只好#NN)  (case, 唾液#NN, 用#P)  (assmod, 唾液#NN, 身上#NN)  (case, 身上#NN, 的#DEG)  (conj, 唾液#NN, 绒毛#NN)  (cc, 唾液#NN, 和#CC)  (prep, 筑#VV, 唾液#NN)  (conj, 多#VA, 筑#VV)  (dobj, 筑#VV, 窝#NN)   (nsubj, 夹杂#VV, 窝#NN)  (loc, 夹杂#VV, 壁#NN)  (case, 壁#NN, 里#LC)  (root, ROOT#null, 夹杂#VV)  (asp, 夹杂#VV, 着#AS)  (advmod, 多#VA, 较#AD)  (relcl, 黑毛#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 夹杂#VV, 黑毛#NN)  (dep, 较#VA, 品质#NN)  (conj, 夹杂#VV, 较#VA)  (dep, 较#VA, 次#M)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 血燕#VV)  (advmod, 做#VV, 金丝燕#AD)  (relcl, 窝#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (ordmod, 个#M, 第三#OD)  (clf, 窝#NN, 个#M)  (nsubj, 耗尽#VV, 窝#NN)  (tmod, 耗尽#VV, 此时#NT)  (advmod, 耗尽#VV, 唾液#AD)  (advmod, 耗尽#VV, 几乎#AD)  (ccomp, 血燕#VV, 耗尽#VV)  (nsubj, 做#VV, 只好#NR)  (case, 海藻#NN, 用#P)  (advmod, 吃#VV, 刚#AD)  (relcl, 海藻#NN, 吃#VV)  (dobj, 吃#VV, 进去#VV)  (mark, 进去#VV, 的#DEC)  (conj, 吃#VV, 未及#VV)  (dobj, 未及#VV, 消化#NN)  (mark, 吃#VV, 的#DEC)  (conj, 海藻#NN, 小鱼#NN)  (prep, 做#VV, 海藻#NN)  (conj, 耗尽#VV, 做#VV)  (dobj, 做#VV, 窝#NN)   (loc, 杂#VV, 窝#NN)  (case, 窝#NN, 中#LC)  (root, ROOT#null, 杂#VV)  (asp, 杂#VV, 着#AS)  (dobj, 杂#VV, 血丝#NN)  (conj, 杂#VV, 个小壁薄#VV)  (conj, 杂#VV, 毛多#VV)  (conj, 杂#VV, 质地#VV)  (dobj, 质地#VV, 最差#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.燕窝味甘、性平，入肺、脾、肾经;可养阴润燥、益气补中;清虚热，治虚损，并且对咯血吐血、久咳痰喘，阴虚发热等导致津液脱失的病症有良好效果。
+            2.燕窝所含的能促进细胞分裂的激素和表皮生长因子，可促进细胞再生，增强免疫能力，增加身体对X光及其他放射线损害的抵御能力。
+            3.燕窝独特的蛋白质成分和大量生物活性分子有助人体组织生长发育，病后复原，可以养阴，润燥、养颜、延缓衰老。
+            4.燕窝性质平和，功效渗透慢，需坚持服用方有神奇效果。
+        </rawdata>
+
+        <segment>
+            燕窝  味  甘  、  性平  ，  入肺  、  脾  、  肾经  ;  可  养  阴润燥  、  益气  补  中  ;  清  虚  热  ，  治  虚损  ，  并且  对  咯血  吐血  、  久  咳  痰喘  ，  阴虚  发热  等  导致  津液  脱失  的  病症  有  良好  效果  。
+            燕窝  所  含  的  能  促进  细胞  分裂  的  激素  和  表皮  生长  因子  ，  可  促进  细胞  再生  ，  增强  免疫  能力  ，  增加  身体  对  X光  及  其他  放射线  损害  的  抵御  能力  。
+            燕窝  独特  的  蛋白质  成分  和  大量  生物  活性  分子  有助  人体  组织  生长  发育  ，  病后  复原  ，  可以  养  阴  ，  润燥  、  养颜  、  延缓  衰老  。
+            燕窝  性质  平和  ，  功效  渗透  慢  ，  需  坚持  服用  方  有  神奇  效果  。
+        </segment>
+
+        <pos>
+            燕窝#NR  味#NR  甘#NR  、#PU  性平#NR  ，#PU  入肺#NR  、#PU  脾#NR  、#PU  肾经#NR  ;#NN  可#VV  养#VV  阴润燥#VV  、#PU  益气#VV  补#VV  中#LC  ;#AD  清#VA  虚#AD  热#NN  ，#PU  治#VV  虚损#NN  ，#PU  并且#CC  对#P  咯血#NN  吐血#NN  、#PU  久#NN  咳#NN  痰喘#NN  ，#PU  阴虚#NN  发热#NN  等#ETC  导致#VV  津液#NN  脱失#NN  的#DEC  病症#NN  有#VE  良好#JJ  效果#NN  。#PU
+            燕窝#VV  所#MSP  含#VV  的#DEC  能#VV  促进#VV  细胞#NN  分裂#NN  的#DEC  激素#NN  和#CC  表皮#NN  生长#NN  因子#NN  ，#PU  可#VV  促进#VV  细胞#NN  再生#VV  ，#PU  增强#VV  免疫#NN  能力#NN  ，#PU  增加#VV  身体#NN  对#P  X光#NN  及#CC  其他#DT  放射线#NN  损害#NN  的#DEG  抵御#VV  能力#NN  。#PU
+            燕窝#AD  独特#VA  的#DEC  蛋白质#NN  成分#NN  和#CC  大量#CD  生物#NN  活性#NN  分子#NN  有助#VV  人体#NN  组织#NN  生长#NN  发育#VV  ，#PU  病后#AD  复原#VV  ，#PU  可以#VV  养#VV  阴#NN  ，#PU  润燥#NR  、#PU  养颜#NR  、#PU  延缓#NR  衰老#VV  。#PU
+            燕窝#NN  性质#NN  平和#NR  ，#PU  功效#NR  渗透#VV  慢#VA  ，#PU  需#VV  坚持#VV  服用#VV  方#NN  有#VE  神奇#JJ  效果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 味#NR, 燕窝#NR)  (nn, 性平#NR, 味#NR)  (conj, 性平#NR, 甘#NR)  (nsubj, 可#VV, 性平#NR)  (conj, 肾经#NR, 入肺#NR)  (conj, 肾经#NR, 脾#NR)  (nn, ;#NN, 肾经#NR)  (nsubj, 可#VV, ;#NN)  (root, ROOT#null, 可#VV)  (loc, 清#VA, 养#VV)  (comod, 养#VV, 阴润燥#VV)  (ccomp, 养#VV, 益气#VV)  (comod, 益气#VV, 补#VV)  (case, 养#VV, 中#LC)  (advmod, 清#VA, ;#AD)  (relcl, 热#NN, 清#VA)  (advmod, 清#VA, 虚#AD)  (dobj, 可#VV, 热#NN)  (conj, 可#VV, 治#VV)  (dobj, 治#VV, 虚损#NN)  (cc, 可#VV, 并且#CC)  (case, 病症#NN, 对#P)  (nn, 吐血#NN, 咯血#NN)  (conj, 发热#NN, 吐血#NN)  (nn, 痰喘#NN, 久#NN)  (nn, 痰喘#NN, 咳#NN)  (dep, 发热#NN, 痰喘#NN)  (nn, 发热#NN, 阴虚#NN)  (nn, 病症#NN, 发热#NN)  (etc, 发热#NN, 等#ETC)  (relcl, 发热#NN, 导致#VV)  (relcl, 病症#NN, 导致#VV)  (nn, 脱失#NN, 津液#NN)  (dobj, 导致#VV, 脱失#NN)  (mark, 导致#VV, 的#DEC)  (prep, 有#VE, 病症#NN)  (conj, 可#VV, 有#VE)  (amod, 效果#NN, 良好#JJ)  (dobj, 有#VE, 效果#NN)
+            (root, ROOT#null, 燕窝#VV)  (prtmod, 含#VV, 所#MSP)  (relcl, 激素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (mmod, 促进#VV, 能#VV)  (relcl, 激素#NN, 促进#VV)  (nn, 分裂#NN, 细胞#NN)  (dobj, 促进#VV, 分裂#NN)  (mark, 促进#VV, 的#DEC)  (conj, 因子#NN, 激素#NN)  (cc, 因子#NN, 和#CC)  (nn, 因子#NN, 表皮#NN)  (nn, 因子#NN, 生长#NN)  (dobj, 燕窝#VV, 因子#NN)  (mmod, 促进#VV, 可#VV)  (conj, 燕窝#VV, 促进#VV)  (dobj, 促进#VV, 细胞#NN)  (dep, 促进#VV, 再生#VV)  (conj, 燕窝#VV, 增强#VV)  (nn, 能力#NN, 免疫#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 燕窝#VV, 增加#VV)  (nn, 损害#NN, 身体#NN)  (case, 放射线#NN, 对#P)  (conj, 放射线#NN, X光#NN)  (cc, 放射线#NN, 及#CC)  (det, 放射线#NN, 其他#DT)  (prep, 损害#NN, 放射线#NN)  (assmod, 能力#NN, 损害#NN)  (case, 损害#NN, 的#DEG)  (nfincl, 能力#NN, 抵御#VV)  (dobj, 增加#VV, 能力#NN)
+            (advmod, 独特#VA, 燕窝#AD)  (relcl, 分子#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 成分#NN, 蛋白质#NN)  (conj, 活性#NN, 成分#NN)  (cc, 活性#NN, 和#CC)  (nummod, 活性#NN, 大量#CD)  (nn, 活性#NN, 生物#NN)  (nn, 分子#NN, 活性#NN)  (nsubj, 有助#VV, 分子#NN)  (root, ROOT#null, 有助#VV)  (nn, 生长#NN, 人体#NN)  (nn, 生长#NN, 组织#NN)  (dobj, 有助#VV, 生长#NN)  (conj, 有助#VV, 发育#VV)  (advmod, 复原#VV, 病后#AD)  (dep, 有助#VV, 复原#VV)  (mmod, 养#VV, 可以#VV)  (dep, 有助#VV, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 延缓#NR, 润燥#NR)  (conj, 延缓#NR, 养颜#NR)  (nsubj, 衰老#VV, 延缓#NR)  (conj, 有助#VV, 衰老#VV)
+            (nn, 性质#NN, 燕窝#NN)  (nsubj, 渗透#VV, 性质#NN)  (xsubj, 服用#VV, 性质#NN)  (nsubj, 渗透#VV, 平和#NR)  (xsubj, 服用#VV, 平和#NR)  (nsubj, 渗透#VV, 功效#NR)  (xsubj, 服用#VV, 功效#NR)  (root, ROOT#null, 渗透#VV)  (ccomp, 渗透#VV, 慢#VA)  (mmod, 坚持#VV, 需#VV)  (dep, 渗透#VV, 坚持#VV)  (ccomp, 坚持#VV, 服用#VV)  (dobj, 服用#VV, 方#NN)  (conj, 服用#VV, 有#VE)  (amod, 效果#NN, 神奇#JJ)  (dobj, 有#VE, 效果#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.燕窝主要含有水溶性蛋白质、碳水化合物和钙、磷、铁、钠、钾等微量元素。及对促进人体活力起重要作用的氨基酸(赖氨酸、胱氨酸和精氨酸)。
+            2.燕窝含有独特的蛋白质成分和大量生物活性分子;含有赖氨酸、胱氨酸和精氨酸。
+            3.燕窝含促进细胞分裂的激素和表皮生长因子。
+        </rawdata>
+
+        <segment>
+            燕窝  主要  含有  水溶性  蛋白质  、  碳水  化合物  和  钙  、  磷  、  铁  、  钠  、  钾  等  微量  元素  。  及  对  促进  人体  活力  起  重要  作用  的  氨基酸  (  赖氨酸  、  胱氨酸  和  精氨酸  )  。
+            燕窝  含有  独特  的  蛋白质  成分  和  大量  生物  活性  分子  ;  含有  赖氨酸  、  胱氨酸  和  精氨酸  。
+            燕窝  含  促进  细胞  分裂  的  激素  和  表皮  生长  因子  。
+        </segment>
+
+        <pos>
+            燕窝#NN  主要#AD  含有#VV  水溶性#NN  蛋白质#NN  、#PU  碳水#NN  化合物#NN  和#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  钠#NN  、#PU  钾#NN  等#ETC  微量#JJ  元素#NN    。#PU  及#VV  对#P  促进#VV  人体#NN  活力#NN  起#VV  重要#JJ  作用#NN  的#DEC  氨基酸#NN  -LRB-#VV  赖氨酸#NR  、#PU  胱氨酸#NR  和#CC  精氨酸#NR  -RRB-#NN    。#PU    。#PU
+            燕窝#NN  含有#NN  独特#VA  的#DEC  蛋白质#NN  成分#NN  和#CC  大量#CD  生物#NN  活性#NN  分子#NN  ;#VV  含有#NN  赖氨酸#NN  、#PU  胱氨酸#NN  和#CC  精氨酸#NN  。#PU
+            燕窝#NN  含#VV  促进#VV  细胞#NN  分裂#NN  的#DEC  激素#NR  和#CC  表皮#NR  生长#NN  因子#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 燕窝#NN)  (advmod, 含有#VV, 主要#AD)  (root, ROOT#null, 含有#VV)  (nn, 钾#NN, 水溶性#NN)  (conj, 钾#NN, 蛋白质#NN)  (nn, 钾#NN, 碳水#NN)  (conj, 钾#NN, 化合物#NN)  (cc, 钾#NN, 和#CC)  (conj, 钾#NN, 钙#NN)  (conj, 钾#NN, 磷#NN)  (conj, 钾#NN, 铁#NN)  (conj, 钾#NN, 钠#NN)  (nn, 元素#NN, 钾#NN)  (etc, 钾#NN, 等#ETC)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)   (relcl, 氨基酸#NN, 及#VV)  (case, 促进#VV, 对#P)  (prep, 起#VV, 促进#VV)  (nn, 活力#NN, 人体#NN)  (dobj, 促进#VV, 活力#NN)  (dep, 及#VV, 起#VV)  (amod, 作用#NN, 重要#JJ)  (dobj, 起#VV, 作用#NN)  (mark, 及#VV, 的#DEC)  (nsubj, -LRB-#VV, 氨基酸#NN)  (root, -LRB-#VV, 氨基酸#NN)  (conj, 精氨酸#NR, 赖氨酸#NR)  (conj, 精氨酸#NR, 胱氨酸#NR)  (cc, 精氨酸#NR, 和#CC)  (nn, -RRB-#NN, 精氨酸#NR)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 燕窝#NN)  (nsubj, 独特#VA, 含有#NN)  (relcl, 分子#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 成分#NN, 蛋白质#NN)  (conj, 活性#NN, 成分#NN)  (cc, 活性#NN, 和#CC)  (nummod, 活性#NN, 大量#CD)  (nn, 活性#NN, 生物#NN)  (nn, 分子#NN, 活性#NN)  (nsubj, ;#VV, 分子#NN)  (root, ROOT#null, ;#VV)  (nn, 精氨酸#NN, 含有#NN)  (conj, 精氨酸#NN, 赖氨酸#NN)  (conj, 精氨酸#NN, 胱氨酸#NN)  (cc, 精氨酸#NN, 和#CC)  (dobj, ;#VV, 精氨酸#NN)
+            (nsubj, 含#VV, 燕窝#NN)  (root, ROOT#null, 含#VV)  (relcl, 因子#NN, 促进#VV)  (nn, 分裂#NN, 细胞#NN)  (dobj, 促进#VV, 分裂#NN)  (mark, 促进#VV, 的#DEC)  (conj, 表皮#NR, 激素#NR)  (cc, 表皮#NR, 和#CC)  (nn, 因子#NN, 表皮#NR)  (nn, 因子#NN, 生长#NN)  (dobj, 含#VV, 因子#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹制前先将燕窝涨发，其方法有碱发、蒸发和泡发。泡发法是先用凉水将燕窝浸泡，等其胀发泡透后，用一白色带沿的瓷盘注入清水，将燕窝轻轻地捞出放于盘内(因燕窝和盘子均为白色，有毛和其它杂质易于发现，用尖头摄子择去燕毛、杂质及变质部分。一定要择干净，操作要轻，不能把形状弄乱和把燕窝丝弄断。择净后再用凉水洗净，放入汤内用文火慢慢炖烂。
+            2.文火隔水炖为宜。隔汤炖，或做菜肴、药膳。食前以温水浸泡，去净羽毛、血液及杂质。
+            3.燕窝讲究少食多餐，保持定期进食，干燕窝每次3-5克，即食燕窝每次20-30克，早晚各一次或每天或隔天一次。
+            4.燕窝配食讲究“以清配清，以柔配柔。”一般食用燕窝期间少吃辛辣油腻食物，不抽或少抽烟。
+        </rawdata>
+
+        <segment>
+            烹制  前  先  将  燕窝  涨  发  ，  其  方法  有  碱发  、  蒸发  和  泡发  。  泡发法  是  先用  凉水  将  燕窝  浸泡  ，  等其胀  发泡  透后  ，  用  一  白  色带  沿  的  瓷盘  注入  清水  ，  将  燕窝  轻轻  地  捞出  放于  盘内  (  因  燕窝  和  盘子  均  为  白色  ，  有毛  和  其它  杂质  易于  发现  ，  用  尖头  摄  子择  去  燕  毛  、  杂质  及  变质  部分  。  一定  要  择  干净  ，  操作  要  轻  ，  不  能  把  形状  弄乱  和  把  燕窝  丝  弄断  。  择净  后  再  用  凉水  洗净  ，  放入  汤  内  用  文火  慢慢  炖烂  。
+            文火  隔水  炖  为宜  。  隔  汤  炖  ，  或  做  菜肴  、  药膳  。  食  前  以  温水  浸泡  ，  去  净  羽毛  、  血液  及  杂质  。
+            燕窝  讲究  少食多  餐  ，  保持  定期  进食  ，  干  燕窝  每  次  3-5  克  ，  即食  燕窝  每  次  20  -  30  克  ，  早晚  各  一  次  或  每  天  或  隔天  一  次  。
+            燕窝  配  食  讲究  “  以  清  配  清  ，  以  柔配柔  。  ”  一般  食用  燕窝  期间  少吃  辛辣  油腻  食物  ，  不抽  或少  抽烟  。
+        </segment>
+
+        <pos>
+            烹制#NN  前#LC  先#AD  将#AD  燕窝#AD  涨#VV  发#VV  ，#PU  其#PN  方法#NN  有#VE  碱发#NN  、#PU  蒸发#NN  和#CC  泡发#NN    。#PU  泡发法#NR  是#VC  先用#NN  凉水#NR  将#AD  燕窝#VV  浸泡#NN  ，#PU  等其胀#NN  发泡#NN  透后#NN  ，#PU  用#P  一#CD  白#JJ  色带#NN  沿#P  的#DEG  瓷盘#NN  注入#VV  清水#NN  ，#PU  将#AD  燕窝#VV  轻轻#NN  地#DEV  捞出#VV  放于#NN  盘内#NN  -LRB-#NN  因#P  燕窝#NR  和#CC  盘子#NR  均#AD  为#VC  白色#JJ  ，#PU  有毛#NN  和#CC  其它#DT  杂质#NN  易于#NN  发现#VV  ，#PU  用#P  尖头#NR  摄#VV  子择#NN  去#VV  燕#NN  毛#NN  、#PU  杂质#NN  及#CC  变质#NN  部分#NN    。#PU  一定#AD  要#VV  择#AD  干净#VA  ，#PU  操作#NN  要#AD  轻#VA  ，#PU  不#AD  能#VV  把#BA  形状#NN  弄乱#VV  和#CC  把#BA  燕窝#NN  丝#VV  弄断#NN    。#PU  择净#NN  后#LC  再#AD  用#P  凉水#NN  洗净#VV  ，#PU  放入#VV  汤#NN  内#LC  用#P  文火#NN  慢慢#AD  炖烂#VV    。#PU    。#PU
+            文火#NN  隔水#VV  炖#NN  为宜#NN    。#PU  隔#P  汤#NN  炖#VV  ，#PU  或#CC  做#VV  菜肴#NN  、#PU  药膳#NN    。#PU  食#NN  前#LC  以#MSP  温水#VV  浸泡#NN  ，#PU  去#VV  净#JJ  羽毛#NN  、#PU  血液#NN  及#CC  杂质#NN    。#PU    。#PU
+            燕窝#NN  讲究#NN  少食多#VV  餐#NN  ，#PU  保持#VV  定期#AD  进食#VV  ，#PU  干#VV  燕窝#NN  每#DT  次#M  3-5#CD  克#M  ，#PU  即食#AD  燕窝#VV  每#DT  次#M  20#CD  -#NN  30#CD  克#M  ，#PU  早晚#VV  各#DT  一#CD  次#M  或#CC  每#DT  天#M  或#CC  隔天#VV  一#CD  次#M  。#PU
+            燕窝#NR  配#VV  食#NN  讲究#NN  ``#NN  以#P  清#JJ  配#NN  清#VA  ，#PU  以#MSP  柔配柔#VV    。#PU  ''#NN  一般#AD  食用#VV  燕窝#NN  期间#NN  少吃#NN  辛辣#NN  油腻#NN  食物#NN  ，#PU  不抽#VV  或少#NN  抽烟#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 涨#VV, 烹制#NN)  (case, 烹制#NN, 前#LC)  (advmod, 涨#VV, 先#AD)  (advmod, 涨#VV, 将#AD)  (advmod, 涨#VV, 燕窝#AD)  (conj, 有#VE, 涨#VV)  (comod, 涨#VV, 发#VV)  (dep, 有#VE, 其#PN)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (conj, 泡发#NN, 碱发#NN)  (conj, 泡发#NN, 蒸发#NN)  (cc, 泡发#NN, 和#CC)  (dobj, 有#VE, 泡发#NN)   (nsubj, 先用#NN, 泡发法#NR)  (cop, 先用#NN, 是#VC)  (root, ROOT#null, 先用#NN)  (nsubj, 燕窝#VV, 凉水#NR)  (advmod, 燕窝#VV, 将#AD)  (conj, 先用#NN, 燕窝#VV)  (dobj, 燕窝#VV, 浸泡#NN)  (nn, 透后#NN, 等其胀#NN)  (nn, 透后#NN, 发泡#NN)  (nsubj, 注入#VV, 透后#NN)  (case, 色带#NN, 用#P)  (nummod, 色带#NN, 一#CD)  (amod, 色带#NN, 白#JJ)  (assmod, 瓷盘#NN, 色带#NN)  (conj, 色带#NN, 沿#P)  (case, 色带#NN, 的#DEG)  (nsubj, 注入#VV, 瓷盘#NN)  (conj, 燕窝#VV, 注入#VV)  (dobj, 注入#VV, 清水#NN)  (advmod, 燕窝#VV, 将#AD)  (dvpmod, 捞出#VV, 燕窝#VV)  (dobj, 燕窝#VV, 轻轻#NN)  (mark, 燕窝#VV, 地#DEV)  (conj, 注入#VV, 捞出#VV)  (nn, -LRB-#NN, 放于#NN)  (nn, -LRB-#NN, 盘内#NN)  (case, 白色#JJ, 因#P)  (conj, 盘子#NR, 燕窝#NR)  (cc, 盘子#NR, 和#CC)  (nsubj, 白色#JJ, 盘子#NR)  (advmod, 白色#JJ, 均#AD)  (cop, 白色#JJ, 为#VC)  (prep, 发现#VV, 白色#JJ)  (conj, 易于#NN, 有毛#NN)  (cc, 易于#NN, 和#CC)  (det, 杂质#NN, 其它#DT)  (nn, 易于#NN, 杂质#NN)  (nsubj, 发现#VV, 易于#NN)  (conj, 先用#NN, 发现#VV)  (case, 尖头#NR, 用#P)  (prep, 摄#VV, 尖头#NR)  (conj, 去#VV, 摄#VV)  (dobj, 摄#VV, 子择#NN)  (ccomp, 发现#VV, 去#VV)  (nn, 部分#NN, 燕#NN)  (conj, 部分#NN, 毛#NN)  (conj, 部分#NN, 杂质#NN)  (cc, 部分#NN, 及#CC)  (nn, 部分#NN, 变质#NN)  (dobj, 去#VV, 部分#NN)   (advmod, 弄乱#VV, 一定#AD)  (mmod, 弄乱#VV, 要#VV)  (advmod, 干净#VA, 择#AD)  (dep, 弄乱#VV, 干净#VA)  (dep, 轻#VA, 操作#NN)  (advmod, 轻#VA, 要#AD)  (dep, 干净#VA, 轻#VA)  (neg, 弄乱#VV, 不#AD)  (mmod, 弄乱#VV, 能#VV)  (ba, 弄乱#VV, 把#BA)  (nsubj, 弄乱#VV, 形状#NN)  (root, ROOT#null, 弄乱#VV)  (cc, 弄乱#VV, 和#CC)  (ba, 丝#VV, 把#BA)  (nsubj, 丝#VV, 燕窝#NN)  (dep, 弄乱#VV, 丝#VV)  (dobj, 丝#VV, 弄断#NN)   (loc, 洗净#VV, 择净#NN)  (case, 择净#NN, 后#LC)  (advmod, 洗净#VV, 再#AD)  (case, 凉水#NN, 用#P)  (prep, 洗净#VV, 凉水#NN)  (root, ROOT#null, 洗净#VV)  (conj, 洗净#VV, 放入#VV)  (loc, 放入#VV, 汤#NN)  (case, 汤#NN, 内#LC)  (case, 文火#NN, 用#P)  (prep, 炖烂#VV, 文火#NN)  (advmod, 炖烂#VV, 慢慢#AD)  (conj, 放入#VV, 炖烂#VV)   (root, ROOT#null, null#null)
+            (nsubj, 隔水#VV, 文火#NN)  (root, ROOT#null, 隔水#VV)  (nn, 为宜#NN, 炖#NN)  (dobj, 隔水#VV, 为宜#NN)   (case, 汤#NN, 隔#P)  (prep, 炖#VV, 汤#NN)  (root, ROOT#null, 炖#VV)  (cc, 炖#VV, 或#CC)  (dep, 炖#VV, 做#VV)  (conj, 药膳#NN, 菜肴#NN)  (dobj, 做#VV, 药膳#NN)   (loc, 温水#VV, 食#NN)  (case, 食#NN, 前#LC)  (prtmod, 温水#VV, 以#MSP)  (root, ROOT#null, 温水#VV)  (dobj, 温水#VV, 浸泡#NN)  (conj, 温水#VV, 去#VV)  (amod, 杂质#NN, 净#JJ)  (conj, 杂质#NN, 羽毛#NN)  (conj, 杂质#NN, 血液#NN)  (cc, 杂质#NN, 及#CC)  (dobj, 去#VV, 杂质#NN)   (root, ROOT#null, null#null)
+            (nn, 讲究#NN, 燕窝#NN)  (nsubj, 少食多#VV, 讲究#NN)  (xsubj, 进食#VV, 讲究#NN)  (root, ROOT#null, 少食多#VV)  (dobj, 少食多#VV, 餐#NN)  (conj, 少食多#VV, 保持#VV)  (advmod, 进食#VV, 定期#AD)  (ccomp, 保持#VV, 进食#VV)  (conj, 少食多#VV, 干#VV)  (dobj, 干#VV, 燕窝#NN)  (dep, 克#M, 每#DT)  (clf, 每#DT, 次#M)  (nummod, 克#M, 3-5#CD)  (range, 干#VV, 克#M)  (advmod, 燕窝#VV, 即食#AD)  (conj, 少食多#VV, 燕窝#VV)  (det, -#NN, 每#DT)  (clf, 每#DT, 次#M)  (nummod, -#NN, 20#CD)  (nummod, 克#M, 30#CD)  (range, 燕窝#VV, 克#M)  (conj, 少食多#VV, 早晚#VV)  (dep, 早晚#VV, 各#DT)  (nummod, 次#M, 一#CD)  (dep, 各#DT, 次#M)  (cc, 早晚#VV, 或#CC)  (dep, 早晚#VV, 每#DT)  (clf, 每#DT, 天#M)  (cc, 早晚#VV, 或#CC)  (dep, 早晚#VV, 隔天#VV)  (nummod, 次#M, 一#CD)  (range, 隔天#VV, 次#M)
+            (nsubj, 配#VV, 燕窝#NR)  (root, ROOT#null, 配#VV)  (nn, ``#NN, 食#NN)  (nn, ``#NN, 讲究#NN)  (dobj, 配#VV, ``#NN)  (case, 配#NN, 以#P)  (amod, 配#NN, 清#JJ)  (prep, 清#VA, 配#NN)  (dep, 配#VV, 清#VA)  (prtmod, 柔配柔#VV, 以#MSP)  (dep, 清#VA, 柔配柔#VV)   (nsubj, 食用#VV, ''#NN)  (advmod, 食用#VV, 一般#AD)  (root, ROOT#null, 食用#VV)  (nn, 期间#NN, 燕窝#NN)  (nn, 辛辣#NN, 期间#NN)  (nn, 辛辣#NN, 少吃#NN)  (nn, 食物#NN, 辛辣#NN)  (nn, 食物#NN, 油腻#NN)  (dobj, 食用#VV, 食物#NN)  (conj, 食用#VV, 不抽#VV)  (nn, 抽烟#NN, 或少#NN)  (dobj, 不抽#VV, 抽烟#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/9174547.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\411 燕窝.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        505
+    </id>
+
+    <foodname>
+        姜
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        生姜、姜根、百辣云、勾装指、因地辛、炎凉小子、鲜生姜、蜜炙姜、生姜汁、姜汁
+    </alias>
+
+    <season>
+        秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            久服积热，损阴伤目；阴虚、内有实热、患痔疮者忌食；高血压病人慎食。
+        </rawdata>
+
+        <segment>
+            久服积热  ，  损阴伤目  ；  阴虚  、  内有  实热  、  患  痔疮  者  忌食  ；  高血压  病人  慎食  。
+        </segment>
+
+        <pos>
+            久服积热#NR  ，#PU  损阴伤目#VV  ；#PU  阴虚#NR  、#PU  内有#NR  实热#NR  、#PU  患#NR  痔疮#NN  者#NN  忌食#VV  ；#PU  高血压#VV  病人#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 损阴伤目#VV, 久服积热#NR)  (root, ROOT#null, 损阴伤目#VV)  (conj, 患#NR, 阴虚#NR)  (nn, 患#NR, 内有#NR)  (conj, 患#NR, 实热#NR)  (nn, 者#NN, 患#NR)  (nn, 者#NN, 痔疮#NN)  (nsubj, 忌食#VV, 者#NN)  (ccomp, 损阴伤目#VV, 忌食#VV)  (ccomp, 忌食#VV, 高血压#VV)  (nn, 慎食#NN, 病人#NN)  (dobj, 高血压#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜伤风感冒、寒性痛经、晕车晕船者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  伤风  感冒  、  寒性  痛经  、  晕车  晕船  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  伤风#NR  感冒#NR  、#PU  寒性#NR  痛经#NR  、#PU  晕车#NR  晕船#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 晕车#NR, 伤风#NR)  (conj, 晕车#NR, 感冒#NR)  (nn, 晕车#NR, 寒性#NR)  (conj, 晕车#NR, 痛经#NR)  (nn, 者#NN, 晕车#NR)  (nn, 者#NN, 晕船#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                41cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                87g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                1.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                0.6g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                2.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                7.6g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                28mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.02mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.03mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                14.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                27mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                1.4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            姜，为多年生宿根草本姜属植物姜的新鲜根茎。根茎肉质，肥厚，扁平，有芳香和辛辣味。秋、冬二季采挖，除去须根及泥沙。有嫩生姜与老生姜，做酱菜都用嫩姜，药用以老姜为佳。
+            姜含有挥发性姜油酮和姜油酚，具有活血、祛寒、除湿、发汗等功能，此外还有健胃止呕、辟腥臭、消水肿之功效。故医家和民谚称“家备小姜，小病不慌”，还有“冬吃萝卜夏吃姜，不劳医生开药方”的说法。
+        </rawdata>
+
+        <segment>
+            姜  ，  为  多年生  宿根  草本  姜  属  植物  姜  的  新鲜  根茎  。  根茎  肉质  ，  肥厚  ，  扁平  ，  有  芳香  和  辛辣  味  。  秋  、  冬  二  季  采挖  ，  除去  须根  及  泥沙  。  有嫩  生姜  与  老  生姜  ，  做  酱菜  都  用  嫩姜  ，  药用  以  老姜  为佳  。
+            姜  含有  挥发性  姜油酮  和  姜油酚  ，  具有  活血  、  祛寒  、  除湿  、  发汗  等  功能  ，  此外  还  有  健胃  止呕  、  辟  腥臭  、  消  水肿  之  功效  。  故  医家  和  民谚  称  “  家  备小姜  ，  小病  不  慌  ”  ，  还有  “  冬  吃  萝卜  夏  吃  姜  ，  不劳  医生  开  药方  ”  的  说法  。
+        </segment>
+
+        <pos>
+            姜#NN  ，#PU  为#P  多年生#NN  宿根#NN  草本#VV  姜#NN  属#VV  植物#NN  姜#NN  的#DEG  新鲜#JJ  根茎#NN    。#PU  根茎#NR  肉质#VV  ，#PU  肥厚#NR  ，#PU  扁平#VV  ，#PU  有#VE  芳香#NN  和#CC  辛辣#NN  味#NN    。#PU  秋#NN  、#PU  冬#NN  二#OD  季#NN  采挖#VV  ，#PU  除去#P  须根#NN  及#CC  泥沙#NN    。#PU  有嫩#NR  生姜#VV  与#P  老#JJ  生姜#NN  ，#PU  做#VV  酱菜#NN  都#AD  用#VV  嫩姜#NN  ，#PU  药用#AD  以#P  老姜#NN  为佳#VV    。#PU    。#PU
+            姜#NN  含有#NN  挥发性#VV  姜油酮#NN  和#CC  姜油酚#NN  ，#PU  具有#VV  活血#NR  、#PU  祛寒#NR  、#PU  除湿#NR  、#PU  发汗#NR  等#ETC  功能#NN  ，#PU  此外#AD  还#AD  有#VE  健胃#NR  止呕#NR  、#PU  辟#NR  腥臭#NR  、#PU  消#NR  水肿#NN  之#DEG  功效#NN    。#PU  故#AD  医家#NR  和#CC  民谚#NR  称#VV  ``#CD  家#M  备小姜#NN  ，#PU  小病#NN  不#AD  慌#VV  ''#NN  ，#PU  还有#AD  ``#NN  冬#NN  吃#VV  萝卜#NN  夏#NN  吃#VV  姜#NN  ，#PU  不劳#NN  医生#NN  开#VV  药方#NN  ''#NN  的#DEG  说法#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 草本#VV, 姜#NN)  (case, 宿根#NN, 为#P)  (nn, 宿根#NN, 多年生#NN)  (prep, 草本#VV, 宿根#NN)  (conj, 属#VV, 草本#VV)  (dobj, 草本#VV, 姜#NN)  (root, ROOT#null, 属#VV)  (nn, 姜#NN, 植物#NN)  (assmod, 根茎#NN, 姜#NN)  (case, 姜#NN, 的#DEG)  (amod, 根茎#NN, 新鲜#JJ)  (dobj, 属#VV, 根茎#NN)   (nsubj, 肉质#VV, 根茎#NR)  (root, ROOT#null, 肉质#VV)  (nsubj, 扁平#VV, 肥厚#NR)  (ccomp, 肉质#VV, 扁平#VV)  (ccomp, 扁平#VV, 有#VE)  (conj, 味#NN, 芳香#NN)  (cc, 味#NN, 和#CC)  (nn, 味#NN, 辛辣#NN)  (dobj, 有#VE, 味#NN)   (conj, 冬#NN, 秋#NN)  (nn, 季#NN, 冬#NN)  (nummod, 季#NN, 二#OD)  (nsubj, 采挖#VV, 季#NN)  (root, ROOT#null, 采挖#VV)  (case, 泥沙#NN, 除去#P)  (conj, 泥沙#NN, 须根#NN)  (cc, 泥沙#NN, 及#CC)  (prep, 采挖#VV, 泥沙#NN)   (nsubj, 生姜#VV, 有嫩#NR)  (xsubj, 做#VV, 有嫩#NR)  (xsubj, 用#VV, 有嫩#NR)  (root, ROOT#null, 生姜#VV)  (case, 生姜#NN, 与#P)  (amod, 生姜#NN, 老#JJ)  (prep, 做#VV, 生姜#NN)  (ccomp, 生姜#VV, 做#VV)  (dobj, 做#VV, 酱菜#NN)  (advmod, 用#VV, 都#AD)  (ccomp, 生姜#VV, 用#VV)  (dobj, 用#VV, 嫩姜#NN)  (advmod, 为佳#VV, 药用#AD)  (case, 老姜#NN, 以#P)  (prep, 为佳#VV, 老姜#NN)  (dep, 用#VV, 为佳#VV)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 姜#NN)  (nsubj, 挥发性#VV, 含有#NN)  (root, ROOT#null, 挥发性#VV)  (conj, 姜油酚#NN, 姜油酮#NN)  (cc, 姜油酚#NN, 和#CC)  (dobj, 挥发性#VV, 姜油酚#NN)  (conj, 挥发性#VV, 具有#VV)  (conj, 发汗#NR, 活血#NR)  (conj, 发汗#NR, 祛寒#NR)  (conj, 发汗#NR, 除湿#NR)  (nn, 功能#NN, 发汗#NR)  (etc, 发汗#NR, 等#ETC)  (dobj, 具有#VV, 功能#NN)  (advmod, 有#VE, 此外#AD)  (advmod, 有#VE, 还#AD)  (conj, 挥发性#VV, 有#VE)  (nn, 消#NR, 健胃#NR)  (conj, 消#NR, 止呕#NR)  (nn, 消#NR, 辟#NR)  (conj, 消#NR, 腥臭#NR)  (nn, 水肿#NN, 消#NR)  (assmod, 功效#NN, 水肿#NN)  (case, 水肿#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)   (advmod, 称#VV, 故#AD)  (conj, 民谚#NR, 医家#NR)  (cc, 民谚#NR, 和#CC)  (nsubj, 称#VV, 民谚#NR)  (root, ROOT#null, 称#VV)  (nummod, 家#M, ``#CD)  (clf, 备小姜#NN, 家#M)  (nsubj, 慌#VV, 备小姜#NN)  (nsubj, 慌#VV, 小病#NN)  (neg, 慌#VV, 不#AD)  (ccomp, 称#VV, 慌#VV)  (dobj, 慌#VV, ''#NN)  (advmod, 吃#VV, 还有#AD)  (nn, 冬#NN, ``#NN)  (nsubj, 吃#VV, 冬#NN)  (conj, 慌#VV, 吃#VV)  (nn, 夏#NN, 萝卜#NN)  (dobj, 吃#VV, 夏#NN)  (dep, 称#VV, 吃#VV)  (dobj, 吃#VV, 姜#NN)  (nn, 医生#NN, 不劳#NN)  (nsubj, 开#VV, 医生#NN)  (dep, 吃#VV, 开#VV)  (nn, ''#NN, 药方#NN)  (assmod, 说法#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dobj, 开#VV, 说法#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味辛、性微温，归肺、脾、胃经。 发汗解表，温中止呕，温肺止咳，解鱼蟹毒，解药毒，特别对于鱼蟹毒，半夏、天南星等药物中毒有解毒作用。适用于外感风寒、头痛、痰饮、咳嗽、胃寒呕吐;在遭受冰雪、水湿、寒冷侵袭后，急以姜汤饮之，可增进血行，驱散寒邪。
+            1.增进食欲、促消化
+            口嚼生姜，可引起血压升高。姜辣素对口腔和胃粘膜有刺激作用，能促进消化液分泌，增进食欲。可使肠张力、节律和蠕动增加。
+            2.镇吐
+            有末梢性镇吐作用，有效成分为姜酮和姜烯酮的混合物。外出旅游，出发前口嚼生姜服下、或贴一片在肚脐上，也可以放在鼻旁嗅闻，有防晕车晕船之效。故民间有“出门带块姜，时时保健康”的说法。　
+            生姜为止呕要药，可单独应用，治疗胃寒呕吐。也可治胃热呕吐，配合半夏、竹茹、黄连等同用。生姜能解鱼蟹毒，单用或配紫苏同用。
+            3.活血驱寒
+            对呼吸和血管运动中枢有兴奋作用，能促进血液循环。用生姜、红糖熬制的姜汤可活血驱寒，防治感冒，自古就是风寒感冒的食疗良药。
+            生姜用于解表，主要为发散风寒，多用治感冒轻症，煎汤，加红糖乘热服用，往往能得汗而解，也可用作预防感冒药物。生姜发汗作用较弱，常配合麻黄、桂枝等同用，作为发汗解表辅助的药品，能增强发汗力量。
+            4.杀菌
+            体外实验表明，姜对伤寒杆菌、霍乱弧菌有明显的抑制作用。
+            5.助阳
+            按中医理论，生姜是助阳之品，自古以来中医素有“男子不可百日无姜”之语。宋代诗人苏轼在《东坡杂记》中记述杭州钱塘净慈寺80多岁的老和尚，面色童相，“自言服生姜40年，故不老云”。传说白娘子盗仙草救许仙，此仙草就是生姜芽。生姜还有个别名叫“还魂草”，而姜汤也叫“还魂汤”。
+            6.解毒
+            生姜又能解生半夏、生南星之毒，煎汤饮服，可用于中半夏、南星毒引起的喉哑舌肿麻木等症。因此在炮制半夏、南星的时候，常用生姜同制，以减除它们的毒性。
+        </rawdata>
+
+        <segment>
+            味辛  、  性  微温  ，  归肺  、  脾  、  胃经  。    发汗  解表  ，  温  中止呕  ，  温  肺  止咳  ，  解  鱼  蟹毒  ，  解药  毒  ，  特别  对于  鱼  蟹毒  ，  半夏  、  天南星  等  药物  中毒  有  解毒  作用  。  适用  于  外感  风寒  、  头痛  、  痰饮  、  咳嗽  、  胃  寒  呕吐  ;  在  遭受  冰雪  、  水湿  、  寒冷  侵袭  后  ，  急  以  姜汤  饮  之  ，  可  增进  血行  ，  驱散  寒邪  。
+            增进  食欲  、  促  消化
+            口  嚼  生姜  ，  可  引起  血压  升高  。  姜辣素  对  口腔  和  胃  粘膜  有  刺激  作用  ，  能  促进  消化液  分泌  ，  增进  食欲  。  可使  肠  张力  、  节律  和  蠕动  增加  。
+            镇  吐
+            有  末梢  性镇吐  作用  ，  有效  成分  为  姜酮  和  姜烯酮  的  混合物  。  外出  旅游  ，  出发  前口  嚼  生姜  服下  、  或  贴  一  片  在  肚脐  上  ，  也  可以  放在  鼻  旁  嗅闻  ，  有  防  晕车  晕船  之  效  。  故  民间  有  “  出门  带  块  姜  ，  时时  保  健康  ”  的  说法  。
+            生姜  为止  呕要药  ，  可  单独  应用  ，  治疗  胃寒  呕吐  。  也  可治  胃  热  呕吐  ，  配合  半夏  、  竹茹  、  黄连  等  同用  。  生姜  能  解鱼蟹毒  ，  单用  或  配  紫苏  同用  。
+            活血  驱寒
+            对  呼吸  和  血管  运动  中枢  有  兴奋  作用  ，  能  促进  血液  循环  。  用  生姜  、  红糖  熬制  的  姜汤  可  活血  驱寒  ，  防治  感冒  ，  自古  就  是  风寒  感冒  的  食疗  良药  。
+            生姜  用于  解表  ，  主要  为  发散  风寒  ，  多用  治  感冒  轻症  ，  煎  汤  ，  加  红糖  乘  热  服用  ，  往往  能  得  汗  而解  ，  也  可  用作  预防  感冒  药物  。  生姜  发汗  作用  较弱  ，  常  配合  麻黄  、  桂枝  等  同用  ，  作为  发汗  解表  辅助  的  药品  ，  能  增强  发汗  力量  。
+            杀菌
+            体外  实验  表明  ，  姜  对  伤寒  杆菌  、  霍乱  弧菌  有  明显  的  抑制  作用  。
+            助阳
+            按  中医  理论  ，  生姜  是  助阳之品  ，  自古以来  中医  素  有  “  男子  不  可  百日  无  姜  ”  之  语  。  宋代  诗人  苏轼  在  《  东坡  杂记  》  中  记述  杭州  钱塘净  慈  寺  80  多  岁  的  老  和尚  ，  面色  童  相  ，  “  自言服  生姜  40  年  ，  故  不  老  云  ”  。  传说  白娘子  盗  仙草  救  许仙  ，  此  仙草  就  是  生姜  芽  。  生姜  还有  个别  名叫  “  还魂草  ”  ，  而  姜汤  也  叫  “  还魂  汤  ”  。
+            解毒
+            生姜  又  能  解生  半夏  、  生南  星  之  毒  ，  煎汤饮服  ，  可  用于  中  半夏  、  南星  毒  引起  的  喉哑  舌肿  麻木  等症  。  因此  在  炮制  半夏  、  南星  的  时候  ，  常用  生姜  同制  ，  以  减除  它们  的  毒性  。
+        </segment>
+
+        <pos>
+            味辛#NN  、#PU  性#NN  微温#VV  ，#PU  归肺#VA  、#PU  脾#VA  、#PU  胃经#VA    。#PU  发汗#NR  解表#VV  ，#PU  温#NN  中止呕#NN  ，#PU  温#NN  肺#NN  止咳#NN  ，#PU  解#VV  鱼#NN  蟹毒#NN  ，#PU  解药#VV  毒#NN  ，#PU  特别#AD  对于#P  鱼#NN  蟹毒#VV  ，#PU  半夏#NR  、#PU  天南星#NR  等#ETC  药物#NN  中毒#VV  有#VE  解毒#NN  作用#NN    。#PU  适用#NN  于#P  外感#NR  风寒#NR  、#PU  头痛#NR  、#PU  痰饮#NR  、#PU  咳嗽#NR  、#PU  胃#NR  寒#JJ  呕吐#NN  ;#NN  在#P  遭受#VV  冰雪#NN  、#PU  水湿#NN  、#PU  寒冷#VA  侵袭#NN  后#LC  ，#PU  急#AD  以#P  姜汤#NN  饮#VV  之#PN  ，#PU  可#VV  增进#VV  血行#NN  ，#PU  驱散#AD  寒邪#VV    。#PU    。#PU
+            增进#VV  食欲#NN  、#PU  促#VV  消化#NN
+            口#NN  嚼#VV  生姜#NN  ，#PU  可#VV  引起#VV  血压#NN  升高#VV    。#PU  姜辣素#NN  对#P  口腔#NN  和#CC  胃#NN  粘膜#NN  有#VE  刺激#NN  作用#NN  ，#PU  能#VV  促进#VV  消化液#NN  分泌#NN  ，#PU  增进#VV  食欲#NN    。#PU  可使#NR  肠#NN  张力#NN  、#PU  节律#NN  和#CC  蠕动#NN  增加#VV    。#PU    。#PU
+            镇#NN  吐#VV
+            有#VE  末梢#NN  性镇吐#NN  作用#NN  ，#PU  有效#JJ  成分#NN  为#VC  姜酮#NN  和#CC  姜烯酮#NN  的#DEG  混合物#NN    。#PU  外出#VV  旅游#NN  ，#PU  出发#VV  前口#NR  嚼#NN  生姜#NN  服下#NN  、#PU  或#CC  贴#NN  一#CD  片#M  在#P  肚脐#NN  上#LC  ，#PU  也#AD  可以#VV  放在#VV  鼻#NN  旁#LC  嗅闻#NN  ，#PU  有#VE  防#NN  晕车#NN  晕船#NN  之#DEG  效#NN    。#PU  故#AD  民间#NN  有#VE  ``#NN  出门#NN  带#VV  块#M  姜#NN  ，#PU  时时#VV  保#NR  健康#JJ  ''#NN  的#DEG  说法#NN    。#PU    。#PU
+            生姜#NT  为止#LC  呕要药#VV  ，#PU  可#VV  单独#JJ  应用#NN  ，#PU  治疗#VV  胃寒#NN  呕吐#NN    。#PU  也#AD  可治#VV  胃#NN  热#NN  呕吐#NN  ，#PU  配合#VV  半夏#NR  、#PU  竹茹#NR  、#PU  黄连#NR  等#ETC  同用#NN    。#PU  生姜#NN  能#VV  解鱼蟹毒#VV  ，#PU  单用#NN  或#CC  配#NN  紫苏#VV  同用#NN    。#PU    。#PU
+            活血#NN  驱寒#VV
+            对#P  呼吸#NN  和#CC  血管#NN  运动#NN  中枢#NN  有#VE  兴奋#NN  作用#NN  ，#PU  能#VV  促进#VV  血液#NN  循环#NN    。#PU  用#P  生姜#NR  、#PU  红糖#NR  熬制#NN  的#DEG  姜汤#NN  可#VV  活血#VV  驱寒#NN  ，#PU  防治#VV  感冒#NN  ，#PU  自古#AD  就#AD  是#VC  风寒#NN  感冒#NN  的#DEG  食疗#NN  良药#NN    。#PU    。#PU
+            生姜#NR  用于#VV  解表#NN  ，#PU  主要#AD  为#VC  发散#NN  风寒#NN  ，#PU  多用#AD  治#VV  感冒#NN  轻症#NN  ，#PU  煎#VV  汤#NN  ，#PU  加#VV  红糖#NN  乘#VV  热#NN  服用#VV  ，#PU  往往#AD  能#VV  得#VV  汗#NN  而解#NN  ，#PU  也#AD  可#VV  用作#VV  预防#NN  感冒#NN  药物#NN    。#PU  生姜#NN  发汗#NN  作用#NN  较弱#VV  ，#PU  常#AD  配合#VV  麻黄#NR  、#PU  桂枝#NR  等#ETC  同用#NN  ，#PU  作为#P  发汗#NN  解表#VV  辅助#NN  的#DEG  药品#NN  ，#PU  能#VV  增强#VV  发汗#NN  力量#NN    。#PU    。#PU
+            杀菌#VV
+            体外#NN  实验#NN  表明#VV  ，#PU  姜#NN  对#P  伤寒#NR  杆菌#NR  、#PU  霍乱#NR  弧菌#AD  有#VE  明显#VA  的#DEC  抑制#NN  作用#NN  。#PU
+            助阳#VV
+            按#P  中医#NN  理论#NN  ，#PU  生姜#NN  是#VC  助阳之品#NN  ，#PU  自古以来#AD  中医#NN  素#AD  有#VE  ``#NN  男子#NN  不#AD  可#VV  百日#NT  无#VE  姜#NN  ''#NN  之#DEG  语#NN    。#PU  宋代#NN  诗人#NN  苏轼#NN  在#P  东坡#NN  杂记#NN  中#LC  记述#NN  杭州#NR  钱塘净#JJ  慈#NN  寺#VV  80#CD  多#CD  岁#M  的#DEG  老#JJ  和尚#NN  ，#PU  面色#NN  童#NN  相#AD  ，#PU  ``#AD  自言服#VV  生姜#NN  40#CD  年#M  ，#PU  故#AD  不#AD  老#JJ  云#NN  ''#VV    。#PU  传说#NN  白娘子#NN  盗#VV  仙草#NN  救#VV  许仙#NN  ，#PU  此#DT  仙草#NN  就#AD  是#VC  生姜#NN  芽#NN    。#PU  生姜#NN  还有#AD  个别#JJ  名叫#VV  ``#NN  还魂草#NN  ''#NN  ，#PU  而#AD  姜汤#NN  也#AD  叫#VV  ``#NN  还魂#NN  汤#NN  ''#NN    。#PU    。#PU
+            解毒#VV
+            生姜#NN  又#AD  能#VV  解生#VV  半夏#NN  、#PU  生南#NN  星#NN  之#DEG  毒#NN  ，#PU  煎汤饮服#VV  ，#PU  可#VV  用于#VV  中#NR  半夏#NN  、#PU  南星#NN  毒#NN  引起#VV  的#DEC  喉哑#NN  舌肿#NN  麻木#NN  等症#NN    。#PU  因此#AD  在#P  炮制#VV  半夏#NN  、#PU  南星#NN  的#DEC  时候#NN  ，#PU  常用#JJ  生姜#NN  同制#NN  ，#PU  以#MSP  减除#VV  它们#PN  的#DEG  毒性#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 性#NN, 味辛#NN)  (nsubj, 微温#VV, 性#NN)  (root, ROOT#null, 微温#VV)  (ccomp, 微温#VV, 归肺#VA)  (conj, 归肺#VA, 脾#VA)  (dep, 归肺#VA, 胃经#VA)   (nsubj, 解表#VV, 发汗#NR)  (root, ROOT#null, 解表#VV)  (nn, 中止呕#NN, 温#NN)  (nsubj, 解#VV, 中止呕#NN)  (nn, 止咳#NN, 温#NN)  (nn, 止咳#NN, 肺#NN)  (nsubj, 解#VV, 止咳#NN)  (ccomp, 解表#VV, 解#VV)  (nn, 蟹毒#NN, 鱼#NN)  (dobj, 解#VV, 蟹毒#NN)  (conj, 解#VV, 解药#VV)  (dobj, 解药#VV, 毒#NN)  (advmod, 蟹毒#VV, 特别#AD)  (case, 鱼#NN, 对于#P)  (prep, 蟹毒#VV, 鱼#NN)  (conj, 解#VV, 蟹毒#VV)  (conj, 天南星#NR, 半夏#NR)  (nn, 药物#NN, 天南星#NR)  (etc, 天南星#NR, 等#ETC)  (nsubj, 有#VE, 药物#NN)  (mmod, 有#VE, 中毒#VV)  (conj, 解#VV, 有#VE)  (nn, 作用#NN, 解毒#NN)  (dobj, 有#VE, 作用#NN)   (nsubj, 饮#VV, 适用#NN)  (case, ;#NN, 于#P)  (nn, 胃#NR, 外感#NR)  (conj, 胃#NR, 风寒#NR)  (conj, 胃#NR, 头痛#NR)  (conj, 胃#NR, 痰饮#NR)  (conj, 胃#NR, 咳嗽#NR)  (nn, 呕吐#NN, 胃#NR)  (amod, 呕吐#NN, 寒#JJ)  (nn, ;#NN, 呕吐#NN)  (prep, 饮#VV, ;#NN)  (case, 遭受#VV, 在#P)  (prep, 饮#VV, 遭受#VV)  (conj, 侵袭#NN, 冰雪#NN)  (conj, 侵袭#NN, 水湿#NN)  (relcl, 侵袭#NN, 寒冷#VA)  (dobj, 遭受#VV, 侵袭#NN)  (case, 遭受#VV, 后#LC)  (advmod, 饮#VV, 急#AD)  (case, 姜汤#NN, 以#P)  (prep, 饮#VV, 姜汤#NN)  (root, ROOT#null, 饮#VV)  (dobj, 饮#VV, 之#PN)  (mmod, 增进#VV, 可#VV)  (dep, 饮#VV, 增进#VV)  (dobj, 增进#VV, 血行#NN)  (advmod, 寒邪#VV, 驱散#AD)  (dep, 饮#VV, 寒邪#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增进#VV, 促#VV)  (dobj, 促#VV, 消化#NN)
+            (nsubj, 嚼#VV, 口#NN)  (dep, 升高#VV, 嚼#VV)  (dobj, 嚼#VV, 生姜#NN)  (mmod, 引起#VV, 可#VV)  (conj, 嚼#VV, 引起#VV)  (dobj, 引起#VV, 血压#NN)  (root, ROOT#null, 升高#VV)   (nsubj, 有#VE, 姜辣素#NN)  (case, 粘膜#NN, 对#P)  (conj, 粘膜#NN, 口腔#NN)  (cc, 粘膜#NN, 和#CC)  (nn, 粘膜#NN, 胃#NN)  (prep, 有#VE, 粘膜#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 刺激#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 促进#VV, 能#VV)  (conj, 有#VE, 促进#VV)  (nn, 分泌#NN, 消化液#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 有#VE, 增进#VV)  (dobj, 增进#VV, 食欲#NN)   (nn, 蠕动#NN, 可使#NR)  (nn, 蠕动#NN, 肠#NN)  (conj, 蠕动#NN, 张力#NN)  (conj, 蠕动#NN, 节律#NN)  (cc, 蠕动#NN, 和#CC)  (nsubj, 增加#VV, 蠕动#NN)  (root, ROOT#null, 增加#VV)   (root, ROOT#null, null#null)
+            (nsubj, 吐#VV, 镇#NN)  (root, ROOT#null, 吐#VV)
+            (root, ROOT#null, 有#VE)  (nn, 作用#NN, 末梢#NN)  (nn, 作用#NN, 性镇吐#NN)  (dobj, 有#VE, 作用#NN)  (amod, 成分#NN, 有效#JJ)  (dep, 混合物#NN, 成分#NN)  (cop, 混合物#NN, 为#VC)  (conj, 姜烯酮#NN, 姜酮#NN)  (cc, 姜烯酮#NN, 和#CC)  (assmod, 混合物#NN, 姜烯酮#NN)  (case, 姜烯酮#NN, 的#DEG)  (conj, 有#VE, 混合物#NN)   (root, ROOT#null, 外出#VV)  (dobj, 外出#VV, 旅游#NN)  (conj, 外出#VV, 出发#VV)  (nn, 贴#NN, 前口#NR)  (nn, 服下#NN, 嚼#NN)  (nn, 服下#NN, 生姜#NN)  (dep, 贴#NN, 服下#NN)  (cc, 贴#NN, 或#CC)  (nn, 嗅闻#NN, 贴#NN)  (nummod, 片#M, 一#CD)  (clf, 嗅闻#NN, 片#M)  (case, 肚脐#NN, 在#P)  (prep, 放在#VV, 肚脐#NN)  (case, 肚脐#NN, 上#LC)  (advmod, 放在#VV, 也#AD)  (dep, 放在#VV, 可以#VV)  (nfincl, 嗅闻#NN, 放在#VV)  (loc, 放在#VV, 鼻#NN)  (case, 鼻#NN, 旁#LC)  (dobj, 出发#VV, 嗅闻#NN)  (conj, 外出#VV, 有#VE)  (nn, 晕船#NN, 防#NN)  (nn, 晕船#NN, 晕车#NN)  (assmod, 效#NN, 晕船#NN)  (case, 晕船#NN, 之#DEG)  (dobj, 有#VE, 效#NN)   (advmod, 有#VE, 故#AD)  (dep, 有#VE, 民间#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, ``#NN)  (nsubj, 带#VV, 出门#NN)  (conj, 有#VE, 带#VV)  (dep, 姜#NN, 块#M)  (dobj, 带#VV, 姜#NN)  (conj, 带#VV, 时时#VV)  (nn, ''#NN, 保#NR)  (amod, ''#NN, 健康#JJ)  (assmod, 说法#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dobj, 时时#VV, 说法#NN)   (root, ROOT#null, null#null)
+            (loc, 呕要药#VV, 生姜#NT)  (case, 生姜#NT, 为止#LC)  (root, ROOT#null, 呕要药#VV)  (ccomp, 呕要药#VV, 可#VV)  (amod, 应用#NN, 单独#JJ)  (dobj, 可#VV, 应用#NN)  (conj, 可#VV, 治疗#VV)  (nn, 呕吐#NN, 胃寒#NN)  (dobj, 治疗#VV, 呕吐#NN)   (advmod, 可治#VV, 也#AD)  (root, ROOT#null, 可治#VV)  (nn, 呕吐#NN, 胃#NN)  (nn, 呕吐#NN, 热#NN)  (dobj, 可治#VV, 呕吐#NN)  (dep, 可治#VV, 配合#VV)  (conj, 黄连#NR, 半夏#NR)  (conj, 黄连#NR, 竹茹#NR)  (nn, 同用#NN, 黄连#NR)  (etc, 黄连#NR, 等#ETC)  (dobj, 配合#VV, 同用#NN)   (nsubj, 紫苏#VV, 生姜#NN)  (dep, 解鱼蟹毒#VV, 能#VV)  (dep, 紫苏#VV, 解鱼蟹毒#VV)  (conj, 配#NN, 单用#NN)  (cc, 配#NN, 或#CC)  (nsubj, 紫苏#VV, 配#NN)  (root, ROOT#null, 紫苏#VV)  (dobj, 紫苏#VV, 同用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 驱寒#VV, 活血#NN)  (root, ROOT#null, 驱寒#VV)
+            (case, 中枢#NN, 对#P)  (conj, 运动#NN, 呼吸#NN)  (cc, 运动#NN, 和#CC)  (nn, 运动#NN, 血管#NN)  (nn, 中枢#NN, 运动#NN)  (prep, 有#VE, 中枢#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 兴奋#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 促进#VV, 能#VV)  (dep, 有#VE, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)   (case, 熬制#NN, 用#P)  (conj, 红糖#NR, 生姜#NR)  (nn, 熬制#NN, 红糖#NR)  (assmod, 姜汤#NN, 熬制#NN)  (case, 熬制#NN, 的#DEG)  (nsubj, 活血#VV, 姜汤#NN)  (mmod, 活血#VV, 可#VV)  (root, ROOT#null, 活血#VV)  (dobj, 活血#VV, 驱寒#NN)  (conj, 活血#VV, 防治#VV)  (dobj, 防治#VV, 感冒#NN)  (advmod, 良药#NN, 自古#AD)  (advmod, 良药#NN, 就#AD)  (cop, 良药#NN, 是#VC)  (nn, 感冒#NN, 风寒#NN)  (assmod, 良药#NN, 感冒#NN)  (case, 感冒#NN, 的#DEG)  (nn, 良药#NN, 食疗#NN)  (conj, 活血#VV, 良药#NN)   (root, ROOT#null, null#null)
+            (nsubj, 用于#VV, 生姜#NR)  (root, ROOT#null, 用于#VV)  (nsubj, 风寒#NN, 解表#NN)  (advmod, 风寒#NN, 主要#AD)  (cop, 风寒#NN, 为#VC)  (nn, 风寒#NN, 发散#NN)  (ccomp, 用于#VV, 风寒#NN)  (advmod, 治#VV, 多用#AD)  (conj, 风寒#NN, 治#VV)  (nn, 轻症#NN, 感冒#NN)  (dobj, 治#VV, 轻症#NN)  (dep, 风寒#NN, 煎#VV)  (dobj, 煎#VV, 汤#NN)  (conj, 风寒#NN, 加#VV)  (dobj, 加#VV, 红糖#NN)  (conj, 加#VV, 乘#VV)  (dobj, 乘#VV, 热#NN)  (conj, 乘#VV, 服用#VV)  (advmod, 得#VV, 往往#AD)  (mmod, 得#VV, 能#VV)  (conj, 风寒#NN, 得#VV)  (nn, 而解#NN, 汗#NN)  (dobj, 得#VV, 而解#NN)  (advmod, 用作#VV, 也#AD)  (mmod, 用作#VV, 可#VV)  (conj, 风寒#NN, 用作#VV)  (nn, 药物#NN, 预防#NN)  (nn, 药物#NN, 感冒#NN)  (dobj, 用作#VV, 药物#NN)   (nn, 作用#NN, 生姜#NN)  (nn, 作用#NN, 发汗#NN)  (nsubj, 较弱#VV, 作用#NN)  (xsubj, 配合#VV, 作用#NN)  (root, ROOT#null, 较弱#VV)  (advmod, 配合#VV, 常#AD)  (ccomp, 较弱#VV, 配合#VV)  (conj, 桂枝#NR, 麻黄#NR)  (nn, 同用#NN, 桂枝#NR)  (etc, 桂枝#NR, 等#ETC)  (dobj, 配合#VV, 同用#NN)  (case, 发汗#NN, 作为#P)  (prep, 解表#VV, 发汗#NN)  (dep, 配合#VV, 解表#VV)  (assmod, 药品#NN, 辅助#NN)  (case, 辅助#NN, 的#DEG)  (dobj, 解表#VV, 药品#NN)  (mmod, 增强#VV, 能#VV)  (dep, 配合#VV, 增强#VV)  (nn, 力量#NN, 发汗#NN)  (dobj, 增强#VV, 力量#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 杀菌#VV)
+            (nn, 实验#NN, 体外#NN)  (nsubj, 表明#VV, 实验#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 有#VE, 姜#NN)  (case, 霍乱#NR, 对#P)  (nn, 霍乱#NR, 伤寒#NR)  (conj, 霍乱#NR, 杆菌#NR)  (prep, 有#VE, 霍乱#NR)  (advmod, 有#VE, 弧菌#AD)  (ccomp, 表明#VV, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 助阳#VV)
+            (case, 理论#NN, 按#P)  (nn, 理论#NN, 中医#NN)  (prep, 助阳之品#NN, 理论#NN)  (nsubj, 助阳之品#NN, 生姜#NN)  (cop, 助阳之品#NN, 是#VC)  (root, ROOT#null, 助阳之品#NN)  (advmod, 有#VE, 自古以来#AD)  (prep, 有#VE, 中医#NN)  (advmod, 有#VE, 素#AD)  (conj, 助阳之品#NN, 有#VE)  (dobj, 有#VE, ``#NN)  (nsubj, 可#VV, 男子#NN)  (neg, 可#VV, 不#AD)  (conj, 助阳之品#NN, 可#VV)  (tmod, 无#VE, 百日#NT)  (conj, 助阳之品#NN, 无#VE)  (nn, ''#NN, 姜#NN)  (assmod, 语#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 无#VE, 语#NN)   (nn, 苏轼#NN, 宋代#NN)  (nn, 苏轼#NN, 诗人#NN)  (nsubj, 寺#VV, 苏轼#NN)  (case, 杂记#NN, 在#P)  (nn, 杂记#NN, 东坡#NN)  (prep, 寺#VV, 杂记#NN)  (case, 杂记#NN, 中#LC)  (nn, 慈#NN, 记述#NN)  (nn, 慈#NN, 杭州#NR)  (amod, 慈#NN, 钱塘净#JJ)  (nsubj, 寺#VV, 慈#NN)  (root, ROOT#null, 寺#VV)  (dep, 岁#M, 80#CD)  (nummod, 岁#M, 多#CD)  (assmod, 和尚#NN, 岁#M)  (case, 岁#M, 的#DEG)  (amod, 和尚#NN, 老#JJ)  (dobj, 寺#VV, 和尚#NN)  (nn, 童#NN, 面色#NN)  (nsubj, 自言服#VV, 童#NN)  (advmod, 自言服#VV, 相#AD)  (advmod, 自言服#VV, ``#AD)  (conj, 寺#VV, 自言服#VV)  (dobj, 自言服#VV, 生姜#NN)  (nummod, 年#M, 40#CD)  (range, 自言服#VV, 年#M)  (advmod, ''#VV, 故#AD)  (neg, 老#JJ, 不#AD)  (amod, 云#NN, 老#JJ)  (nsubj, ''#VV, 云#NN)  (conj, 寺#VV, ''#VV)   (nn, 白娘子#NN, 传说#NN)  (nsubj, 盗#VV, 白娘子#NN)  (root, ROOT#null, 盗#VV)  (nsubj, 救#VV, 仙草#NN)  (ccomp, 盗#VV, 救#VV)  (dobj, 救#VV, 许仙#NN)  (det, 仙草#NN, 此#DT)  (nsubj, 芽#NN, 仙草#NN)  (advmod, 芽#NN, 就#AD)  (cop, 芽#NN, 是#VC)  (nn, 芽#NN, 生姜#NN)  (conj, 救#VV, 芽#NN)   (nsubj, 叫#VV, 生姜#NN)  (advmod, 叫#VV, 还有#AD)  (amod, ''#NN, 个别#JJ)  (relcl, ''#NN, 名叫#VV)  (nn, 还魂草#NN, ``#NN)  (dobj, 名叫#VV, 还魂草#NN)  (nsubj, 叫#VV, ''#NN)  (advmod, 叫#VV, 而#AD)  (nsubj, 叫#VV, 姜汤#NN)  (advmod, 叫#VV, 也#AD)  (root, ROOT#null, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 还魂#NN)  (nn, ''#NN, 汤#NN)  (dobj, 叫#VV, ''#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 解毒#VV)
+            (nsubj, 解生#VV, 生姜#NN)  (advmod, 解生#VV, 又#AD)  (mmod, 解生#VV, 能#VV)  (root, ROOT#null, 解生#VV)  (conj, 生南#NN, 半夏#NN)  (nn, 星#NN, 生南#NN)  (assmod, 毒#NN, 星#NN)  (case, 星#NN, 之#DEG)  (dobj, 解生#VV, 毒#NN)  (conj, 解生#VV, 煎汤饮服#VV)  (mmod, 用于#VV, 可#VV)  (conj, 解生#VV, 用于#VV)  (nn, 毒#NN, 中#NR)  (conj, 毒#NN, 半夏#NN)  (nn, 毒#NN, 南星#NN)  (nsubj, 引起#VV, 毒#NN)  (relcl, 等症#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 等症#NN, 喉哑#NN)  (nn, 等症#NN, 舌肿#NN)  (nn, 等症#NN, 麻木#NN)  (dobj, 用于#VV, 等症#NN)   (advmod, 减除#VV, 因此#AD)  (case, 时候#NN, 在#P)  (relcl, 时候#NN, 炮制#VV)  (conj, 南星#NN, 半夏#NN)  (dobj, 炮制#VV, 南星#NN)  (mark, 炮制#VV, 的#DEC)  (prep, 减除#VV, 时候#NN)  (amod, 同制#NN, 常用#JJ)  (nn, 同制#NN, 生姜#NN)  (dep, 减除#VV, 同制#NN)  (prtmod, 减除#VV, 以#MSP)  (root, ROOT#null, 减除#VV)  (assmod, 毒性#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (dobj, 减除#VV, 毒性#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        祛斑  促进消化  抗癌防癌  抗菌  解表  化痰止咳  发散风寒  降逆止呕  抗惊厥  镇静催眠  解热降温  镇痛  辅助降血脂  强心  抗血小板聚集  解胃肠痉挛  镇吐  抗胃溃疡  护肝  利胆  抗炎  镇咳  抗虫
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            姜的营养成分和葱蒜相似，同样含有蛋白质、糖类、维生素等物质，并含有植物抗菌素，其杀菌作用不亚于葱和蒜。
+            生姜还含有较多的挥发油，可以抑制人体对胆固醇的吸收，防止肝脏和血清胆固醇的蓄积。
+            挥发油主要成分为姜醇、姜烯、水芹烯、柠檬醛、芳樟醇等；又含辣味成分姜辣素，分解生成姜酮、姜烯酮等。此外，含天门冬素、谷氨酸、天门冬氨酸、丝氨酸、甘氨酸、苏氨酸、丙氨酸等。
+        </rawdata>
+
+        <segment>
+            姜  的  营养  成分  和  葱蒜  相似  ，  同样  含有  蛋白质  、  糖类  、  维生素  等  物质  ，  并  含有  植物  抗菌素  ，  其  杀菌  作用  不  亚于  葱和蒜  。
+            生姜  还  含有  较多  的  挥发油  ，  可以  抑制  人体  对  胆固醇  的  吸收  ，  防止  肝脏  和  血清  胆固醇  的  蓄积  。
+            挥发油  主要  成分  为  姜醇  、  姜烯  、  水芹烯  、  柠檬醛  、  芳樟醇  等  ；  又  含  辣味  成分  姜辣素  ，  分解  生成  姜酮  、  姜烯  酮等  。  此外  ，  含  天门冬  素  、  谷氨酸  、  天门冬  氨酸  、  丝氨酸  、  甘氨酸  、  苏氨酸  、  丙氨酸  等  。
+        </segment>
+
+        <pos>
+            姜#NN  的#DEG  营养#VA  成分#NN  和#CC  葱蒜#NN  相似#VA  ，#PU  同样#AD  含有#VV  蛋白质#NN  、#PU  糖类#NN  、#PU  维生素#NN  等#ETC  物质#NN  ，#PU  并#CC  含有#VV  植物#NN  抗菌素#NN  ，#PU  其#PN  杀菌#NN  作用#NN  不#AD  亚于#VV  葱和蒜#NN  。#PU
+            生姜#NN  还#AD  含有#VV  较多#NN  的#DEG  挥发油#NN  ，#PU  可以#VV  抑制#VV  人体#NR  对#P  胆固醇#NN  的#DEG  吸收#NN  ，#PU  防止#VV  肝脏#NN  和#CC  血清#NN  胆固醇#NN  的#DEG  蓄积#NN  。#PU
+            挥发油#NR  主要#JJ  成分#NN  为#VC  姜醇#NR  、#PU  姜烯#NR  、#PU  水芹烯#NR  、#PU  柠檬醛#NR  、#PU  芳樟醇#NR  等#ETC  ；#PU  又#AD  含#VV  辣味#NN  成分#NN  姜辣素#NN  ，#PU  分解#VV  生成#NN  姜酮#NN  、#PU  姜烯#NN  酮等#NN    。#PU  此外#AD  ，#PU  含#VV  天门冬#NN  素#AD  、#PU  谷氨酸#AD  、#PU  天门冬#AD  氨酸#VV  、#PU  丝氨酸#NR  、#PU  甘氨酸#NR  、#PU  苏氨酸#NR  、#PU  丙氨酸#NR  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 葱蒜#NN, 姜#NN)  (case, 姜#NN, 的#DEG)  (nfincl, 葱蒜#NN, 营养#VA)  (conj, 葱蒜#NN, 成分#NN)  (cc, 葱蒜#NN, 和#CC)  (nsubj, 相似#VA, 葱蒜#NN)  (root, ROOT#null, 相似#VA)  (advmod, 含有#VV, 同样#AD)  (conj, 相似#VA, 含有#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 糖类#NN)  (nn, 物质#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (dobj, 含有#VV, 物质#NN)  (cc, 含有#VV, 并#CC)  (dep, 含有#VV, 含有#VV)  (nn, 抗菌素#NN, 植物#NN)  (dobj, 含有#VV, 抗菌素#NN)  (nsubj, 亚于#VV, 其#PN)  (nn, 作用#NN, 杀菌#NN)  (nsubj, 亚于#VV, 作用#NN)  (neg, 亚于#VV, 不#AD)  (conj, 相似#VA, 亚于#VV)  (dobj, 亚于#VV, 葱和蒜#NN)
+            (nsubj, 含有#VV, 生姜#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 挥发油#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 含有#VV, 挥发油#NN)  (mmod, 抑制#VV, 可以#VV)  (conj, 含有#VV, 抑制#VV)  (nn, 吸收#NN, 人体#NR)  (case, 胆固醇#NN, 对#P)  (assmod, 吸收#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 抑制#VV, 吸收#NN)  (dep, 含有#VV, 防止#VV)  (conj, 血清#NN, 肝脏#NN)  (cc, 血清#NN, 和#CC)  (nn, 胆固醇#NN, 血清#NN)  (assmod, 蓄积#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 防止#VV, 蓄积#NN)
+            (nn, 成分#NN, 挥发油#NR)  (amod, 成分#NN, 主要#JJ)  (nsubj, 芳樟醇#NR, 成分#NN)  (cop, 芳樟醇#NR, 为#VC)  (conj, 芳樟醇#NR, 姜醇#NR)  (conj, 芳樟醇#NR, 姜烯#NR)  (conj, 芳樟醇#NR, 水芹烯#NR)  (conj, 芳樟醇#NR, 柠檬醛#NR)  (root, ROOT#null, 芳樟醇#NR)  (etc, 芳樟醇#NR, 等#ETC)  (advmod, 含#VV, 又#AD)  (conj, 芳樟醇#NR, 含#VV)  (nn, 姜辣素#NN, 辣味#NN)  (nn, 姜辣素#NN, 成分#NN)  (dobj, 含#VV, 姜辣素#NN)  (dep, 含#VV, 分解#VV)  (nn, 酮等#NN, 生成#NN)  (conj, 酮等#NN, 姜酮#NN)  (nn, 酮等#NN, 姜烯#NN)  (dobj, 分解#VV, 酮等#NN)   (advmod, 含#VV, 此外#AD)  (root, ROOT#null, 含#VV)  (nsubj, 氨酸#VV, 天门冬#NN)  (advmod, 氨酸#VV, 素#AD)  (conj, 素#AD, 谷氨酸#AD)  (conj, 素#AD, 天门冬#AD)  (dep, 含#VV, 氨酸#VV)  (conj, 丙氨酸#NR, 丝氨酸#NR)  (conj, 丙氨酸#NR, 甘氨酸#NR)  (conj, 丙氨酸#NR, 苏氨酸#NR)  (dep, 氨酸#VV, 丙氨酸#NR)  (etc, 丙氨酸#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.生姜汁
+            将生姜洗净后打烂，绞取其汁入药。性味辛微温。有化痰、止呕的功效，主要用于恶心呕吐及咳嗽痰多等症。一般用量为三滴至十滴，冲服。
+            2.生姜皮
+            即生姜的外皮。性味辛凉。有利尿消肿之功效，适用于小便不利，水肿等症，可配合冬瓜皮、桑白皮等同用。一般用量为五分至一钱五分，煎服。
+            3.煨姜
+            将原只鲜生姜洗净，用草纸包裹，放在清水中浸湿，直接放在火中煨，待草纸焦黑，姜熟为度；或直接放火中烤熟。性味辛温，具有和中止呕的功用。适用于脾胃不和、恶心呕吐等症。一般用量为二、三片，煎服。
+            4.生姜和姜片用于烹饪，可以去腥膻，增加食品的鲜味。
+            5.不要去皮
+            有些人吃姜喜欢削皮，这样做不能发挥姜的整体功效。鲜姜洗净后即可切丝分片。
+            6.从治病的角度看，生姜红糖水只适用于风寒感冒或淋雨后有胃寒、发热的患者，不能用于暑热感冒或风热感冒患者，也不能用于治疗中暑。服用鲜姜汁可治因受寒引起的呕吐，对其他类型的呕吐则不宜使用。
+            7.不要吃腐烂的生姜
+            腐烂的生姜中含有毒物质黄樟素、其对肝脏有剧毒，可使肝细胞变性坏死，诱发肝癌、食道癌等,所以一旦发现生姜腐烂就一定不能食用。
+            8.吃生姜并非多多益善。夏季天气炎热，人们容易口干、烦渴、咽痛、汗多，生姜性辛温，属热性食物，根据“热者寒之”原则，不宜多吃。
+        </rawdata>
+
+        <segment>
+            生  姜汁
+            将  生姜  洗净  后  打烂  ，  绞取其汁  入药  。  性味辛  微温  。  有  化痰  、  止呕  的  功效  ，  主要  用于  恶心  呕吐  及  咳嗽  痰多  等症  。  一般  用量  为  三  滴  至  十  滴  ，  冲服  。
+            生姜皮
+            即  生姜  的  外皮  。  性味  辛凉  。  有  利尿  消肿  之  功效  ，  适用于  小便  不利  ，  水肿  等症  ，  可  配合  冬瓜  皮  、  桑白皮  等  同用  。  一般  用量  为  五  分  至  一  钱  五分  ，  煎服  。
+            煨姜
+            将  原  只  鲜  生姜  洗净  ，  用  草纸  包裹  ，  放在  清水  中  浸湿  ，  直接  放在  火中煨  ，  待  草纸  焦黑  ，  姜熟  为度  ；  或  直接  放火  中  烤熟  。  性味  辛温  ，  具有  和  中止呕  的  功用  。  适用  于  脾胃  不和  、  恶心  呕吐  等症  。  一般  用量  为  二  、  三  片  ，  煎服  。
+            生姜  和  姜片  用于  烹饪  ，  可以  去  腥膻  ，  增加  食品  的  鲜味  。
+            不要  去皮
+            有些  人  吃  姜  喜欢  削皮  ，  这样  做  不  能  发挥  姜  的  整体  功效  。  鲜姜  洗净  后  即  可  切  丝  分片  。
+            从  治病  的  角度  看  ，  生姜  红  糖水  只  适用于  风寒  感冒  或  淋雨  后  有  胃寒  、  发热  的  患者  ，  不  能  用于  暑热  感冒  或  风  热  感冒  患者  ，  也  不  能  用于  治疗  中暑  。  服用  鲜  姜汁  可治  因  受寒  引起  的  呕吐  ，  对  其他  类型  的  呕吐  则  不  宜  使用  。
+            不要  吃  腐烂  的  生姜
+            腐烂  的  生姜  中  含有  毒物  质  黄樟素  、  其  对  肝脏  有  剧毒  ，  可使  肝细胞  变性  坏死  ，  诱发  肝癌  、  食道癌  等  ,  所以  一旦  发现  生姜  腐烂  就  一定  不  能  食用  。
+            吃  生姜  并非  多多益善  。  夏季  天气  炎热  ，  人们  容易  口干  、  烦渴  、  咽痛  、  汗多  ，  生姜  性辛温  ，  属  热性  食物  ，  根据  “  热者  寒  之  ”  原则  ，  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            生#VV  姜汁#NN
+            将#AD  生姜#VV  洗净#NN  后#LC  打烂#NN  ，#PU  绞取其汁#VV  入药#NN    。#PU  性味辛#NN  微温#VV    。#PU  有#VE  化痰#NN  、#PU  止呕#NN  的#DEG  功效#NN  ，#PU  主要#AD  用于#VV  恶心#NN  呕吐#NN  及#CC  咳嗽#NN  痰多#NN  等症#NN    。#PU  一般#JJ  用量#NN  为#VC  三#CD  滴#NN  至#CC  十#CD  滴#NN  ，#PU  冲服#VV    。#PU    。#PU
+            生姜皮#VV
+            即#AD  生姜#VA  的#DEC  外皮#NN    。#PU  性味#NN  辛凉#VV    。#PU  有#VE  利尿#NN  消肿#NN  之#DEG  功效#NN  ，#PU  适用于#VV  小便#AD  不利#VA  ，#PU  水肿#VV  等症#NN  ，#PU  可#VV  配合#VV  冬瓜#NR  皮#NR  、#PU  桑白皮#NR  等#ETC  同用#NN    。#PU  一般#JJ  用量#NN  为#VC  五#CD  分#M  至#CC  一#CD  钱#NN  五分#CD  ，#PU  煎服#VV    。#PU    。#PU
+            煨姜#VV
+            将#AD  原#AD  只#AD  鲜#VV  生姜#NN  洗净#NN  ，#PU  用#P  草纸#NN  包裹#VV  ，#PU  放在#VV  清水#NN  中#LC  浸湿#NN  ，#PU  直接#AD  放在#VV  火中煨#NN  ，#PU  待#VV  草纸#NN  焦黑#NN  ，#PU  姜熟#AD  为度#VV  ；#PU  或#CC  直接#AD  放火#VV  中#NR  烤熟#NN    。#PU  性味#NR  辛温#VV  ，#PU  具有#VV  和#P  中止呕#NN  的#DEG  功用#NN    。#PU  适用#NN  于#P  脾胃#NN  不和#NN  、#PU  恶心#NN  呕吐#NN  等症#VV    。#PU  一般#JJ  用量#NN  为#VC  二#CD  、#PU  三#CD  片#M  ，#PU  煎服#VV    。#PU    。#PU
+            生姜#NR  和#CC  姜片#NR  用于#VV  烹饪#NN  ，#PU  可以#VV  去#VV  腥膻#NN  ，#PU  增加#VV  食品#NN  的#DEG  鲜味#NN  。#PU
+            不要#NN  去皮#VV
+            有些#DT  人#NN  吃#VV  姜#NN  喜欢#VV  削皮#NR  ，#PU  这样#AD  做#VV  不#AD  能#VV  发挥#VV  姜#NN  的#DEC  整体#NN  功效#NN    。#PU  鲜姜#NN  洗净#NN  后#LC  即#AD  可#VV  切#VV  丝#NN  分片#NN    。#PU    。#PU
+            从#P  治病#NN  的#DEG  角度#NN  看#VV  ，#PU  生姜#VV  红#JJ  糖水#NN  只#AD  适用于#VV  风寒#NN  感冒#NN  或#CC  淋雨#NN  后#LC  有#VE  胃寒#NN  、#PU  发热#NN  的#DEG  患者#NN  ，#PU  不#AD  能#VV  用于#VV  暑热#NN  感冒#NN  或#CC  风#NN  热#NN  感冒#NN  患者#NN  ，#PU  也#AD  不#AD  能#VV  用于#VV  治疗#NN  中暑#NN    。#PU  服用#VV  鲜#NN  姜汁#NN  可治#NN  因#P  受寒#NN  引起#VV  的#DEC  呕吐#NN  ，#PU  对#P  其他#DT  类型#NN  的#DEG  呕吐#NN  则#AD  不#AD  宜#NR  使用#VV    。#PU    。#PU
+            不要#NN  吃#VV  腐烂#NN  的#DEG  生姜#NN
+            腐烂#NN  的#DEG  生姜#NN  中#LC  含有#AD  毒物#VV  质#NN  黄樟素#NN  、#PU  其#PN  对#P  肝脏#NN  有#VE  剧毒#NN  ，#PU  可使#NN  肝细胞#NN  变性#NN  坏死#NN  ，#PU  诱发#NN  肝癌#NN  、#PU  食道癌#NN  等#ETC  ,#NN  所以#AD  一旦#CS  发现#VV  生姜#NN  腐烂#NN  就#AD  一定#AD  不#AD  能#VV  食用#VV  。#PU
+            吃#VV  生姜#NN  并非#NN  多多益善#NN    。#PU  夏季#NT  天气#NN  炎热#NN  ，#PU  人们#NN  容易#VA  口干#NR  、#PU  烦渴#NR  、#PU  咽痛#NR  、#PU  汗多#NR  ，#PU  生姜#VV  性辛温#NN  ，#PU  属#VV  热性#NN  食物#NN  ，#PU  根据#P  ``#NN  热者#VV  寒#JJ  之#DEG  ''#NN  原则#NN  ，#PU  不#AD  宜#NR  多#AD  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 生#VV)  (dobj, 生#VV, 姜汁#NN)
+            (advmod, 生姜#VV, 将#AD)  (root, ROOT#null, 生姜#VV)  (dep, 打烂#NN, 洗净#NN)  (case, 洗净#NN, 后#LC)  (dobj, 生姜#VV, 打烂#NN)  (dep, 生姜#VV, 绞取其汁#VV)  (dobj, 绞取其汁#VV, 入药#NN)   (nsubj, 微温#VV, 性味辛#NN)  (root, ROOT#null, 微温#VV)   (root, ROOT#null, 有#VE)  (conj, 止呕#NN, 化痰#NN)  (assmod, 功效#NN, 止呕#NN)  (case, 止呕#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)  (advmod, 用于#VV, 主要#AD)  (conj, 有#VE, 用于#VV)  (nn, 等症#NN, 恶心#NN)  (conj, 等症#NN, 呕吐#NN)  (cc, 等症#NN, 及#CC)  (nn, 等症#NN, 咳嗽#NN)  (nn, 等症#NN, 痰多#NN)  (dobj, 用于#VV, 等症#NN)   (amod, 用量#NN, 一般#JJ)  (nsubj, 滴#NN, 用量#NN)  (cop, 滴#NN, 为#VC)  (nummod, 滴#NN, 三#CD)  (conj, 滴#NN, 滴#NN)  (cc, 滴#NN, 至#CC)  (nummod, 滴#NN, 十#CD)  (root, ROOT#null, 滴#NN)  (conj, 滴#NN, 冲服#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 生姜皮#VV)
+            (advmod, 生姜#VA, 即#AD)  (relcl, 外皮#NN, 生姜#VA)  (mark, 生姜#VA, 的#DEC)  (root, ROOT#null, 外皮#NN)   (nsubj, 辛凉#VV, 性味#NN)  (root, ROOT#null, 辛凉#VV)   (root, ROOT#null, 有#VE)  (nn, 消肿#NN, 利尿#NN)  (assmod, 功效#NN, 消肿#NN)  (case, 消肿#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)  (mmod, 不利#VA, 适用于#VV)  (advmod, 不利#VA, 小便#AD)  (conj, 有#VE, 不利#VA)  (dep, 不利#VA, 水肿#VV)  (dobj, 水肿#VV, 等症#NN)  (mmod, 配合#VV, 可#VV)  (conj, 不利#VA, 配合#VV)  (nn, 桑白皮#NR, 冬瓜#NR)  (conj, 桑白皮#NR, 皮#NR)  (nn, 同用#NN, 桑白皮#NR)  (etc, 桑白皮#NR, 等#ETC)  (dobj, 配合#VV, 同用#NN)   (amod, 用量#NN, 一般#JJ)  (nsubj, 钱#NN, 用量#NN)  (cop, 钱#NN, 为#VC)  (nummod, 分#M, 五#CD)  (clf, 一#CD, 分#M)  (cc, 一#CD, 至#CC)  (clf, 钱#NN, 一#CD)  (root, ROOT#null, 钱#NN)  (dep, 煎服#VV, 五分#CD)  (conj, 钱#NN, 煎服#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 煨姜#VV)
+            (advmod, 鲜#VV, 将#AD)  (advmod, 鲜#VV, 原#AD)  (advmod, 鲜#VV, 只#AD)  (root, ROOT#null, 鲜#VV)  (nn, 洗净#NN, 生姜#NN)  (dobj, 鲜#VV, 洗净#NN)  (case, 草纸#NN, 用#P)  (prep, 包裹#VV, 草纸#NN)  (conj, 鲜#VV, 包裹#VV)  (dep, 鲜#VV, 放在#VV)  (dep, 浸湿#NN, 清水#NN)  (case, 清水#NN, 中#LC)  (dobj, 放在#VV, 浸湿#NN)  (advmod, 放在#VV, 直接#AD)  (conj, 鲜#VV, 放在#VV)  (dobj, 放在#VV, 火中煨#NN)  (dep, 鲜#VV, 待#VV)  (nn, 焦黑#NN, 草纸#NN)  (dobj, 待#VV, 焦黑#NN)  (advmod, 为度#VV, 姜熟#AD)  (conj, 鲜#VV, 为度#VV)  (cc, 鲜#VV, 或#CC)  (advmod, 放火#VV, 直接#AD)  (conj, 鲜#VV, 放火#VV)  (nn, 烤熟#NN, 中#NR)  (dobj, 放火#VV, 烤熟#NN)   (nsubj, 辛温#VV, 性味#NR)  (root, ROOT#null, 辛温#VV)  (ccomp, 辛温#VV, 具有#VV)  (case, 中止呕#NN, 和#P)  (assmod, 功用#NN, 中止呕#NN)  (case, 中止呕#NN, 的#DEG)  (dobj, 具有#VV, 功用#NN)   (nsubj, 等症#VV, 适用#NN)  (case, 呕吐#NN, 于#P)  (nn, 不和#NN, 脾胃#NN)  (conj, 呕吐#NN, 不和#NN)  (nn, 呕吐#NN, 恶心#NN)  (prep, 等症#VV, 呕吐#NN)  (root, ROOT#null, 等症#VV)   (amod, 用量#NN, 一般#JJ)  (nsubj, 为#VC, 用量#NN)  (root, ROOT#null, 为#VC)  (dep, 片#M, 二#CD)  (nummod, 片#M, 三#CD)  (dep, 为#VC, 片#M)  (conj, 为#VC, 煎服#VV)   (root, ROOT#null, null#null)
+            (conj, 姜片#NR, 生姜#NR)  (cc, 姜片#NR, 和#CC)  (nsubj, 用于#VV, 姜片#NR)  (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 烹饪#NN)  (mmod, 去#VV, 可以#VV)  (conj, 用于#VV, 去#VV)  (dobj, 去#VV, 腥膻#NN)  (conj, 用于#VV, 增加#VV)  (assmod, 鲜味#NN, 食品#NN)  (case, 食品#NN, 的#DEG)  (dobj, 增加#VV, 鲜味#NN)
+            (nsubj, 去皮#VV, 不要#NN)  (root, ROOT#null, 去皮#VV)
+            (det, 人#NN, 有些#DT)  (nsubj, 吃#VV, 人#NN)  (dep, 喜欢#VV, 吃#VV)  (dobj, 吃#VV, 姜#NN)  (root, ROOT#null, 喜欢#VV)  (nsubj, 做#VV, 削皮#NR)  (advmod, 做#VV, 这样#AD)  (ccomp, 喜欢#VV, 做#VV)  (neg, 发挥#VV, 不#AD)  (mmod, 发挥#VV, 能#VV)  (relcl, 功效#NN, 发挥#VV)  (dobj, 发挥#VV, 姜#NN)  (mark, 发挥#VV, 的#DEC)  (nn, 功效#NN, 整体#NN)  (dobj, 做#VV, 功效#NN)   (nsubj, 切#VV, 鲜姜#NN)  (loc, 切#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (advmod, 切#VV, 即#AD)  (mmod, 切#VV, 可#VV)  (root, ROOT#null, 切#VV)  (nn, 分片#NN, 丝#NN)  (dobj, 切#VV, 分片#NN)   (root, ROOT#null, null#null)
+            (case, 角度#NN, 从#P)  (assmod, 角度#NN, 治病#NN)  (case, 治病#NN, 的#DEG)  (prep, 看#VV, 角度#NN)  (root, ROOT#null, 看#VV)  (dep, 看#VV, 生姜#VV)  (amod, 糖水#NN, 红#JJ)  (dobj, 生姜#VV, 糖水#NN)  (advmod, 适用于#VV, 只#AD)  (loc, 有#VE, 适用于#VV)  (nn, 淋雨#NN, 风寒#NN)  (conj, 淋雨#NN, 感冒#NN)  (cc, 淋雨#NN, 或#CC)  (dobj, 适用于#VV, 淋雨#NN)  (case, 适用于#VV, 后#LC)  (conj, 生姜#VV, 有#VE)  (conj, 发热#NN, 胃寒#NN)  (assmod, 患者#NN, 发热#NN)  (case, 发热#NN, 的#DEG)  (dobj, 有#VE, 患者#NN)  (neg, 用于#VV, 不#AD)  (mmod, 用于#VV, 能#VV)  (conj, 生姜#VV, 用于#VV)  (nn, 热#NN, 暑热#NN)  (conj, 热#NN, 感冒#NN)  (cc, 热#NN, 或#CC)  (nn, 热#NN, 风#NN)  (nn, 患者#NN, 热#NN)  (nn, 患者#NN, 感冒#NN)  (dobj, 用于#VV, 患者#NN)  (advmod, 用于#VV, 也#AD)  (neg, 用于#VV, 不#AD)  (mmod, 用于#VV, 能#VV)  (conj, 生姜#VV, 用于#VV)  (nn, 中暑#NN, 治疗#NN)  (dobj, 用于#VV, 中暑#NN)   (root, ROOT#null, 服用#VV)  (nn, 可治#NN, 鲜#NN)  (nn, 可治#NN, 姜汁#NN)  (nsubj, 引起#VV, 可治#NN)  (case, 受寒#NN, 因#P)  (prep, 引起#VV, 受寒#NN)  (relcl, 呕吐#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (dobj, 服用#VV, 呕吐#NN)  (case, 呕吐#NN, 对#P)  (det, 类型#NN, 其他#DT)  (assmod, 呕吐#NN, 类型#NN)  (case, 类型#NN, 的#DEG)  (prep, 使用#VV, 呕吐#NN)  (advmod, 使用#VV, 则#AD)  (neg, 使用#VV, 不#AD)  (prep, 使用#VV, 宜#NR)  (conj, 服用#VV, 使用#VV)   (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 不要#NN)  (root, ROOT#null, 吃#VV)  (assmod, 生姜#NN, 腐烂#NN)  (case, 腐烂#NN, 的#DEG)  (dobj, 吃#VV, 生姜#NN)
+            (assmod, 生姜#NN, 腐烂#NN)  (case, 腐烂#NN, 的#DEG)  (loc, 毒物#VV, 生姜#NN)  (case, 生姜#NN, 中#LC)  (advmod, 毒物#VV, 含有#AD)  (root, ROOT#null, 毒物#VV)  (nn, 黄樟素#NN, 质#NN)  (dobj, 毒物#VV, 黄樟素#NN)  (nsubj, 有#VE, 其#PN)  (case, 肝脏#NN, 对#P)  (prep, 有#VE, 肝脏#NN)  (conj, 毒物#VV, 有#VE)  (dobj, 有#VE, 剧毒#NN)  (nn, 坏死#NN, 可使#NN)  (nn, 坏死#NN, 肝细胞#NN)  (nn, 坏死#NN, 变性#NN)  (nsubj, 食用#VV, 坏死#NN)  (nn, 食道癌#NN, 诱发#NN)  (conj, 食道癌#NN, 肝癌#NN)  (nn, ,#NN, 食道癌#NN)  (etc, 食道癌#NN, 等#ETC)  (advmod, 发现#VV, 所以#AD)  (advmod, 发现#VV, 一旦#CS)  (dep, 食用#VV, 发现#VV)  (nn, 腐烂#NN, 生姜#NN)  (dobj, 发现#VV, 腐烂#NN)  (advmod, 食用#VV, 就#AD)  (advmod, 食用#VV, 一定#AD)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 能#VV)  (dep, 毒物#VV, 食用#VV)
+            (root, ROOT#null, 吃#VV)  (nn, 多多益善#NN, 生姜#NN)  (nn, 多多益善#NN, 并非#NN)  (dobj, 吃#VV, 多多益善#NN)   (nn, 炎热#NN, 夏季#NT)  (nn, 炎热#NN, 天气#NN)  (nsubj, 容易#VA, 炎热#NN)  (nsubj, 容易#VA, 人们#NN)  (root, ROOT#null, 容易#VA)  (conj, 汗多#NR, 口干#NR)  (conj, 汗多#NR, 烦渴#NR)  (conj, 汗多#NR, 咽痛#NR)  (nsubj, 生姜#VV, 汗多#NR)  (conj, 容易#VA, 生姜#VV)  (dobj, 生姜#VV, 性辛温#NN)  (conj, 生姜#VV, 属#VV)  (nn, 食物#NN, 热性#NN)  (dobj, 属#VV, 食物#NN)  (case, ``#NN, 根据#P)  (prep, 热者#VV, ``#NN)  (conj, 生姜#VV, 热者#VV)  (assmod, 原则#NN, 寒#JJ)  (case, 寒#JJ, 之#DEG)  (nn, 原则#NN, ''#NN)  (dobj, 热者#VV, 原则#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (conj, 生姜#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201306/151156021.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\505 姜.jpg
+    </picturelocalurl>
+
+</content>

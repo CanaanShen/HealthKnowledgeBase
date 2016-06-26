@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1274
+    </id>
+
+    <foodname>
+        大黄米
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        黍子、黍米、软黄米
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            由黍加工成的黍米。含饱和脂肪酸生棕榈酸、二十四烷酸、十七烷酸（daturicacid，不饱和脂肪酸主要有油酸、亚油酸、异亚油酸等。
+        </rawdata>
+
+        <segment>
+            由  黍  加工  成  的  黍米  。  含  饱和  脂肪酸  生  棕榈  酸  、  二十四  烷酸  、  十七  烷酸  （  daturicacid  ，  不  饱和  脂肪酸  主要  有  油酸  、  亚油酸  、  异  亚油酸  等  。
+        </segment>
+
+        <pos>
+            由#P  黍#NN  加工#NN  成#VV  的#DEC  黍米#NN    。#PU  含#VV  饱和#NN  脂肪酸#NN  生#VV  棕榈#NN  酸#NN  、#PU  二十四#CD  烷酸#NN  、#PU  十七#CD  烷酸#NN  （#PU  daturicacid#NN  ，#PU  不#AD  饱和#VV  脂肪酸#NN  主要#AD  有#VE  油酸#NN  、#PU  亚油酸#NN  、#PU  异#NN  亚油酸#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (case, 加工#NN, 由#P)  (nn, 加工#NN, 黍#NN)  (prep, 成#VV, 加工#NN)  (relcl, 黍米#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (root, ROOT#null, 黍米#NN)   (nfincl, 脂肪酸#NN, 含#VV)  (nn, 脂肪酸#NN, 饱和#NN)  (dobj, 含#VV, 脂肪酸#NN)  (conj, 含#VV, 生#VV)  (nn, 酸#NN, 棕榈#NN)  (conj, 烷酸#NN, 酸#NN)  (nummod, 烷酸#NN, 二十四#CD)  (conj, 烷酸#NN, 烷酸#NN)  (nummod, 烷酸#NN, 十七#CD)  (dobj, 生#VV, 烷酸#NN)  (prnmod, 烷酸#NN, daturicacid#NN)  (neg, 饱和#VV, 不#AD)  (dep, 含#VV, 饱和#VV)  (nsubj, 有#VE, 脂肪酸#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (conj, 亚油酸#NN, 油酸#NN)  (conj, 亚油酸#NN, 亚油酸#NN)  (nn, 亚油酸#NN, 异#NN)  (dobj, 有#VE, 亚油酸#NN)  (etc, 亚油酸#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            益气补中，治泻痢，烦渴，吐逆，咳嗽，胃痛，小儿鹅口疮
+        </rawdata>
+
+        <segment>
+            益气  补  中  ，  治泻痢  ，  烦渴  ，  吐逆  ，  咳嗽  ，  胃痛  ，  小儿  鹅口疮
+        </segment>
+
+        <pos>
+            益气#NN  补#NN  中#LC  ，#PU  治泻痢#AD  ，#PU  烦渴#AD  ，#PU  吐逆#AD  ，#PU  咳嗽#AD  ，#PU  胃痛#AD  ，#PU  小儿#AD  鹅口疮#VV
+        </pos>
+
+        <parsing>
+            (nn, 补#NN, 益气#NN)  (loc, 鹅口疮#VV, 补#NN)  (case, 补#NN, 中#LC)  (advmod, 鹅口疮#VV, 治泻痢#AD)  (advmod, 鹅口疮#VV, 烦渴#AD)  (advmod, 鹅口疮#VV, 吐逆#AD)  (advmod, 鹅口疮#VV, 咳嗽#AD)  (advmod, 鹅口疮#VV, 胃痛#AD)  (advmod, 鹅口疮#VV, 小儿#AD)  (root, ROOT#null, 鹅口疮#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  通便  抗癌防癌  和胃  利水消肿  抗辐射  明目
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            煎汤、煮粥或淘取泔汁。可用于做窝头、炸糕。
+        </rawdata>
+
+        <segment>
+            煎  汤  、  煮粥  或  淘取泔汁  。  可  用于  做  窝头  、  炸糕  。
+        </segment>
+
+        <pos>
+            煎#VV  汤#NR  、#PU  煮粥#NR  或#CC  淘取泔汁#NR    。#PU  可#VV  用于#VV  做#VV  窝头#NN  、#PU  炸糕#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 煎#VV)  (conj, 淘取泔汁#NR, 汤#NR)  (conj, 淘取泔汁#NR, 煮粥#NR)  (cc, 淘取泔汁#NR, 或#CC)  (dobj, 煎#VV, 淘取泔汁#NR)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 做#VV)  (conj, 炸糕#NN, 窝头#NN)  (dobj, 做#VV, 炸糕#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/a1/6a/27297_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1274 大黄米.jpg
+    </picturelocalurl>
+
+</content>

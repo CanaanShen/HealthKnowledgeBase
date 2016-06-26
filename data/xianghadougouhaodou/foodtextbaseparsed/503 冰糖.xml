@@ -1,0 +1,330 @@
+<content>
+
+    <id>
+        503
+    </id>
+
+    <foodname>
+        冰糖
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                397
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                99.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            冰糖是砂糖的结晶再制品。自然生成的冰糖有白色、微黄、淡灰等色，此外市场上还有添加食用色素的各类彩色冰糖（主要用于出口），比如绿色、蓝色、橙色、微红、深红等多种颜色。由于其结晶如冰状，故名冰糖。冰糖的成分是含结晶水的葡萄糖，与白糖在体内分解的成分一样；所以,冰糖可以代替白糖。可作药用，也可作糖果食用。
+            冰糖分为单晶冰糖和多晶冰糖两种。冰糖品种从颜色上又分为白冰糖和黄冰糖两种，另有一种淡灰色冰糖，但较少生产和食用。出口以白冰糖为主，黄冰糖出口数量甚少。
+            冰糖和黑糖、白糖、红糖一样都是用蔗糖炼制而成的，因为在制作过程中冰糖的纯度最高，也不会像其他糖类有酸酸的口感，所以大家都认为冰糖比较好，但因为冰糖的纯度最高，那些称为杂质的营养成分相对而言就少了很多。冰糖比白糖好：原因是冰糖是以白砂糖为原料，经溶解-过滤-熬制-结晶而成，其纯度较高，而白糖是直接从甘蔗汁中提纯或用原糖提纯而成。再则，长期服用冰糖水，可以有效的去火，降压，给人体提供所需要的葡萄糖成分。
+        </rawdata>
+
+        <segment>
+            冰糖  是  砂糖  的  结晶  再  制品  。  自然  生成  的  冰糖  有  白色  、  微黄  、  淡灰  等色  ，  此外  市场  上  还有  添加  食用  色素  的  各  类  彩色  冰糖  （  主要  用于  出口  ）  ，  比如  绿色  、  蓝色  、  橙色  、  微红  、  深红  等  多  种  颜色  。  由于  其  结晶  如冰状  ，  故名  冰糖  。  冰糖  的  成分  是  含  结晶水  的  葡萄糖  ，  与  白糖  在  体内  分解  的  成分  一样  ；  所以  ,  冰糖  可以  代替  白糖  。  可作  药用  ，  也  可  作  糖果  食用  。
+            冰糖  分为  单晶  冰糖  和  多晶  冰糖  两  种  。  冰糖  品种  从  颜色  上  又  分为  白冰糖  和  黄  冰糖  两  种  ，  另  有  一  种  淡灰色  冰糖  ，  但  较少  生产  和  食用  。  出口  以  白冰糖  为主  ，  黄  冰糖  出口  数量  甚少  。
+            冰糖  和  黑  糖  、  白糖  、  红糖  一样  都  是  用  蔗糖  炼制  而  成  的  ，  因为  在  制作  过程  中  冰糖  的  纯度  最高  ，  也  不  会  像  其他  糖类  有  酸酸的  口感  ，  所以  大家  都  认为  冰糖  比较  好  ，  但  因为  冰糖  的  纯度  最高  ，  那些  称为  杂质  的  营养  成分  相对而言  就  少  了  很多  。  冰糖  比  白糖  好  ：  原因  是  冰糖  是  以  白砂糖  为  原料  ，  经  溶解  -  过滤  -  熬制  -  结晶  而  成  ，  其  纯度  较  高  ，  而  白糖  是  直接  从  甘蔗  汁中  提纯  或用  原糖  提纯  而  成  。  再则  ，  长期  服用  冰糖  水  ，  可以  有效  的  去火  ，  降压  ，  给  人体  提供  所需要  的  葡萄糖  成分  。
+        </segment>
+
+        <pos>
+            冰糖#NN  是#VC  砂糖#NN  的#DEG  结晶#VV  再#AD  制品#NN    。#PU  自然#NN  生成#NN  的#DEG  冰糖#NN  有#VE  白色#JJ  、#PU  微黄#JJ  、#PU  淡灰#JJ  等色#NN  ，#PU  此外#AD  市场#NN  上#LC  还有#AD  添加#VV  食用#VV  色素#NN  的#DEC  各#DT  类#M  彩色#JJ  冰糖#NN  （#PU  主要#AD  用于#VV  出口#NN  ）#PU  ，#PU  比如#AD  绿色#NN  、#PU  蓝色#NR  、#PU  橙色#NR  、#PU  微红#NR  、#PU  深红#NR  等#ETC  多#CD  种#M  颜色#NN    。#PU  由于#P  其#PN  结晶#VV  如冰状#NN  ，#PU  故名#AD  冰糖#VV    。#PU  冰糖#NN  的#DEG  成分#NN  是#VC  含#VV  结晶水#NN  的#DEC  葡萄糖#NN  ，#PU  与#P  白糖#AD  在#P  体内#NN  分解#VV  的#DEC  成分#NN  一样#VA  ；#PU  所以#AD  ,#NN  冰糖#NN  可以#VV  代替#VV  白糖#NN    。#PU  可作#NR  药用#VV  ，#PU  也#AD  可#VV  作#VV  糖果#NN  食用#VV    。#PU    。#PU
+            冰糖#NN  分为#VV  单晶#NN  冰糖#NN  和#CC  多晶#NN  冰糖#NN  两#CD  种#M    。#PU  冰糖#NN  品种#NN  从#P  颜色#NN  上#LC  又#AD  分为#VV  白冰糖#JJ  和#CC  黄#JJ  冰糖#NN  两#CD  种#M  ，#PU  另#AD  有#VE  一#CD  种#M  淡灰色#NN  冰糖#NN  ，#PU  但#AD  较少#AD  生产#VV  和#CC  食用#VV    。#PU  出口#NN  以#P  白冰糖#NN  为主#VV  ，#PU  黄#JJ  冰糖#NN  出口#NN  数量#NN  甚少#VV    。#PU    。#PU
+            冰糖#NN  和#CC  黑#JJ  糖#NN  、#PU  白糖#NN  、#PU  红糖#NN  一样#VA  都#AD  是#VC  用#P  蔗糖#NN  炼制#NN  而#MSP  成#VV  的#DEC  ，#PU  因为#P  在#P  制作#NN  过程#NN  中#LC  冰糖#VV  的#DEC  纯度#NN  最高#JJ  ，#PU  也#AD  不#AD  会#VV  像#P  其他#DT  糖类#NN  有#VE  酸酸的#NN  口感#NN  ，#PU  所以#AD  大家#PN  都#AD  认为#VV  冰糖#NN  比较#AD  好#VA  ，#PU  但#AD  因为#P  冰糖#VA  的#DEC  纯度#VV  最高#JJ  ，#PU  那些#DT  称为#VV  杂质#NN  的#DEC  营养#VA  成分#NN  相对而言#NN  就#AD  少#VA  了#AS  很多#CD    。#PU  冰糖#NR  比#P  白糖#NR  好#VA  ：#PU  原因#NN  是#VC  冰糖#AD  是#VC  以#P  白砂糖#NR  为#VC  原料#NN  ，#PU  经#P  溶解#NN  -#NN  过滤#NN  -#VV  熬制#NN  -#NN  结晶#NN  而#MSP  成#VV  ，#PU  其#PN  纯度#AD  较#AD  高#VA  ，#PU  而#CC  白糖#NR  是#VC  直接#AD  从#P  甘蔗#NR  汁中#NR  提纯#NN  或用#NN  原糖#NN  提纯#NN  而#MSP  成#VV    。#PU  再则#AD  ，#PU  长期#AD  服用#VV  冰糖#NN  水#NN  ，#PU  可以#VV  有效#VA  的#DEC  去火#NN  ，#PU  降压#NN  ，#PU  给#P  人体#NN  提供#VV  所需要#NN  的#DEG  葡萄糖#JJ  成分#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 冰糖#NN)  (cop, 制品#NN, 是#VC)  (assmod, 制品#NN, 砂糖#NN)  (case, 砂糖#NN, 的#DEG)  (nfincl, 制品#NN, 结晶#VV)  (advmod, 结晶#VV, 再#AD)  (root, ROOT#null, 制品#NN)   (nn, 生成#NN, 自然#NN)  (assmod, 冰糖#NN, 生成#NN)  (case, 生成#NN, 的#DEG)  (dep, 有#VE, 冰糖#NN)  (root, ROOT#null, 有#VE)  (amod, 等色#NN, 白色#JJ)  (conj, 白色#JJ, 微黄#JJ)  (dep, 白色#JJ, 淡灰#JJ)  (dobj, 有#VE, 等色#NN)  (advmod, 添加#VV, 此外#AD)  (loc, 添加#VV, 市场#NN)  (case, 市场#NN, 上#LC)  (advmod, 添加#VV, 还有#AD)  (conj, 有#VE, 添加#VV)  (relcl, 冰糖#NN, 食用#VV)  (dobj, 食用#VV, 色素#NN)  (mark, 食用#VV, 的#DEC)  (det, 冰糖#NN, 各#DT)  (clf, 各#DT, 类#M)  (amod, 冰糖#NN, 彩色#JJ)  (dobj, 添加#VV, 冰糖#NN)  (advmod, 用于#VV, 主要#AD)  (dep, 添加#VV, 用于#VV)  (dobj, 用于#VV, 出口#NN)  (advmod, 颜色#NN, 比如#AD)  (conj, 颜色#NN, 绿色#NN)  (conj, 深红#NR, 蓝色#NR)  (conj, 深红#NR, 橙色#NR)  (conj, 深红#NR, 微红#NR)  (nn, 颜色#NN, 深红#NR)  (etc, 深红#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 颜色#NN, 种#M)  (dep, 添加#VV, 颜色#NN)   (case, 结晶#VV, 由于#P)  (nsubj, 结晶#VV, 其#PN)  (prep, 冰糖#VV, 结晶#VV)  (dobj, 结晶#VV, 如冰状#NN)  (advmod, 冰糖#VV, 故名#AD)  (root, ROOT#null, 冰糖#VV)   (assmod, 成分#NN, 冰糖#NN)  (case, 冰糖#NN, 的#DEG)  (nsubj, 葡萄糖#NN, 成分#NN)  (cop, 葡萄糖#NN, 是#VC)  (relcl, 葡萄糖#NN, 含#VV)  (dobj, 含#VV, 结晶水#NN)  (mark, 含#VV, 的#DEC)  (root, ROOT#null, 葡萄糖#NN)  (case, 成分#NN, 与#P)  (advmod, 分解#VV, 白糖#AD)  (case, 体内#NN, 在#P)  (prep, 分解#VV, 体内#NN)  (relcl, 成分#NN, 分解#VV)  (mark, 分解#VV, 的#DEC)  (prep, 一样#VA, 成分#NN)  (conj, 葡萄糖#NN, 一样#VA)  (advmod, 代替#VV, 所以#AD)  (nsubj, 代替#VV, 冰糖#NN)  (mmod, 代替#VV, 可以#VV)  (dep, 葡萄糖#NN, 代替#VV)  (dobj, 代替#VV, 白糖#NN)   (nsubj, 药用#VV, 可作#NR)  (root, ROOT#null, 药用#VV)  (advmod, 作#VV, 也#AD)  (mmod, 作#VV, 可#VV)  (dep, 食用#VV, 作#VV)  (dobj, 作#VV, 糖果#NN)  (ccomp, 药用#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (nsubj, 分为#VV, 冰糖#NN)  (root, ROOT#null, 分为#VV)  (nn, 冰糖#NN, 单晶#NN)  (conj, 冰糖#NN, 冰糖#NN)  (cc, 冰糖#NN, 和#CC)  (nn, 冰糖#NN, 多晶#NN)  (dobj, 分为#VV, 冰糖#NN)  (nummod, 种#M, 两#CD)  (range, 分为#VV, 种#M)   (nn, 品种#NN, 冰糖#NN)  (nsubj, 分为#VV, 品种#NN)  (case, 颜色#NN, 从#P)  (prep, 分为#VV, 颜色#NN)  (case, 颜色#NN, 上#LC)  (advmod, 分为#VV, 又#AD)  (root, ROOT#null, 分为#VV)  (amod, 冰糖#NN, 白冰糖#JJ)  (cc, 白冰糖#JJ, 和#CC)  (dep, 白冰糖#JJ, 黄#JJ)  (dobj, 分为#VV, 冰糖#NN)  (nummod, 种#M, 两#CD)  (range, 分为#VV, 种#M)  (advmod, 有#VE, 另#AD)  (conj, 分为#VV, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 冰糖#NN, 种#M)  (nn, 冰糖#NN, 淡灰色#NN)  (dobj, 有#VE, 冰糖#NN)  (advmod, 生产#VV, 但#AD)  (advmod, 生产#VV, 较少#AD)  (conj, 分为#VV, 生产#VV)  (cc, 生产#VV, 和#CC)  (conj, 生产#VV, 食用#VV)   (nsubj, 为主#VV, 出口#NN)  (case, 白冰糖#NN, 以#P)  (prep, 为主#VV, 白冰糖#NN)  (root, ROOT#null, 为主#VV)  (amod, 冰糖#NN, 黄#JJ)  (nn, 数量#NN, 冰糖#NN)  (nn, 数量#NN, 出口#NN)  (nsubj, 甚少#VV, 数量#NN)  (conj, 为主#VV, 甚少#VV)   (root, ROOT#null, null#null)
+            (conj, 红糖#NN, 冰糖#NN)  (cc, 红糖#NN, 和#CC)  (amod, 红糖#NN, 黑#JJ)  (conj, 红糖#NN, 糖#NN)  (conj, 红糖#NN, 白糖#NN)  (nsubj, 一样#VA, 红糖#NN)  (root, ROOT#null, 一样#VA)  (advmod, 成#VV, 都#AD)  (cop, 成#VV, 是#VC)  (case, 炼制#NN, 用#P)  (nn, 炼制#NN, 蔗糖#NN)  (prep, 成#VV, 炼制#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 一样#VA, 成#VV)  (mark, 成#VV, 的#DEC)  (case, 最高#JJ, 因为#P)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 制作#NN)  (prep, 冰糖#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (relcl, 纯度#NN, 冰糖#VV)  (mark, 冰糖#VV, 的#DEC)  (nsubj, 最高#JJ, 纯度#NN)  (prep, 认为#VV, 最高#JJ)  (advmod, 有#VE, 也#AD)  (neg, 有#VE, 不#AD)  (mmod, 有#VE, 会#VV)  (case, 糖类#NN, 像#P)  (det, 糖类#NN, 其他#DT)  (prep, 有#VE, 糖类#NN)  (dep, 最高#JJ, 有#VE)  (nn, 口感#NN, 酸酸的#NN)  (dobj, 有#VE, 口感#NN)  (advmod, 认为#VV, 所以#AD)  (nsubj, 认为#VV, 大家#PN)  (advmod, 认为#VV, 都#AD)  (conj, 一样#VA, 认为#VV)  (dobj, 认为#VV, 冰糖#NN)  (advmod, 好#VA, 比较#AD)  (dep, 认为#VV, 好#VA)  (advmod, 少#VA, 但#AD)  (case, 最高#JJ, 因为#P)  (nsubj, 最高#JJ, 冰糖#VA)  (mark, 冰糖#VA, 的#DEC)  (mmod, 最高#JJ, 纯度#VV)  (prep, 少#VA, 最高#JJ)  (det, 相对而言#NN, 那些#DT)  (relcl, 相对而言#NN, 称为#VV)  (dobj, 称为#VV, 杂质#NN)  (mark, 称为#VV, 的#DEC)  (relcl, 成分#NN, 营养#VA)  (nn, 相对而言#NN, 成分#NN)  (nsubj, 少#VA, 相对而言#NN)  (advmod, 少#VA, 就#AD)  (conj, 一样#VA, 少#VA)  (asp, 少#VA, 了#AS)  (dep, 少#VA, 很多#CD)   (nsubj, 好#VA, 冰糖#NR)  (case, 白糖#NR, 比#P)  (prep, 好#VA, 白糖#NR)  (root, ROOT#null, 好#VA)  (nsubj, 原料#NN, 原因#NN)  (dep, 原料#NN, 是#VC)  (dep, 是#VC, 冰糖#AD)  (dep, 是#VC, 是#VC)  (case, 白砂糖#NR, 以#P)  (prep, 原料#NN, 白砂糖#NR)  (cop, 原料#NN, 为#VC)  (conj, 好#VA, 原料#NN)  (case, -#VV, 经#P)  (nn, 过滤#NN, 溶解#NN)  (nsubj, -#VV, 过滤#NN)  (nn, 结晶#NN, 熬制#NN)  (dobj, -#VV, 结晶#NN)  (prtmod, 成#VV, 而#MSP)  (conj, -#VV, 成#VV)  (nsubj, 高#VA, 其#PN)  (advmod, 高#VA, 纯度#AD)  (advmod, 高#VA, 较#AD)  (conj, 好#VA, 高#VA)  (cc, 好#VA, 而#CC)  (nsubj, 成#VV, 白糖#NR)  (cop, 成#VV, 是#VC)  (advmod, 成#VV, 直接#AD)  (case, 提纯#NN, 从#P)  (nn, 提纯#NN, 甘蔗#NR)  (nn, 提纯#NN, 汁中#NR)  (nn, 提纯#NN, 提纯#NN)  (nn, 提纯#NN, 或用#NN)  (nn, 提纯#NN, 原糖#NN)  (prep, 成#VV, 提纯#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 好#VA, 成#VV)   (advmod, 服用#VV, 再则#AD)  (advmod, 服用#VV, 长期#AD)  (root, ROOT#null, 服用#VV)  (nn, 水#NN, 冰糖#NN)  (dobj, 服用#VV, 水#NN)  (dep, 提供#VV, 可以#VV)  (relcl, 去火#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (dobj, 可以#VV, 去火#NN)  (nsubj, 提供#VV, 降压#NN)  (case, 人体#NN, 给#P)  (prep, 提供#VV, 人体#NN)  (dep, 服用#VV, 提供#VV)  (assmod, 成分#NN, 所需要#NN)  (case, 所需要#NN, 的#DEG)  (amod, 成分#NN, 葡萄糖#JJ)  (dobj, 提供#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            冰糖味甘、性平，入肺、脾经；有补中益气，和胃润肺的功效；冰糖养阴生津，润肺止咳，对肺燥咳嗽、干咳无痰、咯痰带血都有很好的辅助治疗作用；用于肺燥、肺虚、风寒劳累所致的咳喘、小儿疟疾、噤口痢、口疮、风火牙痛。　
+            1.生津止渴
+            润喉去燥，使人清爽舒适。
+            2.润肺
+            富含维生素A，保护呼吸道上皮，提高免疫球蛋白的功能，预防呼吸道感染。滋阴润肺，去除肺燥肺热。使人呼吸畅通舒适。
+            3.化痰止咳
+            冰糖适宜多痰，痰粘稠，咳嗽等症状。对咽喉部有良好的湿润和物理治疗作用，有利于局部炎症治愈，并能解除局部痒感，从而阻断咳嗽反射。能稀释呼吸道炎症和分泌物的黏稠度，使之易咳出，有利于止咳和祛痰。
+            4.清热除火
+            冰糖能清心泻火，清热除烦，能够消除血液中的热毒。
+            5.解毒
+            冰糖清理身体内长期淤积的毒素，增进身体健康。增加免疫细胞的活性，消除体内的有害物质。
+            6.祛脂降压
+            冰糖能够使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。
+        </rawdata>
+
+        <segment>
+            冰糖  味  甘  、  性平  ，  入肺  、  脾经  ；  有补  中  益气  ，  和  胃  润肺  的  功效  ；  冰糖  养  阴  生  津  ，  润肺  止咳  ，  对  肺燥  咳嗽  、  干咳  无痰  、  咯痰  带  血  都  有  很  好  的  辅助  治疗  作用  ；  用于  肺燥  、  肺  虚  、  风寒  劳累  所致  的  咳喘  、  小儿  疟疾  、  噤口痢  、  口疮  、  风火  牙痛  。
+            生津止渴
+            润喉  去燥  ，  使  人  清爽  舒适  。
+            润肺
+            富含  维生素A  ，  保护  呼吸道  上皮  ，  提高  免疫  球蛋白  的  功能  ，  预防  呼吸道  感染  。  滋阴  润肺  ，  去除  肺燥  肺  热  。  使  人  呼吸  畅通  舒适  。
+            化痰  止咳
+            冰糖  适宜  多痰  ，  痰  粘稠  ，  咳嗽  等  症状  。  对  咽喉  部  有  良好  的  湿润  和  物理  治疗  作用  ，  有利于  局部  炎症  治愈  ，  并  能  解除  局部  痒感  ，  从而  阻断  咳嗽  反射  。  能  稀释  呼吸道  炎症  和  分泌物  的  黏稠度  ，  使  之  易  咳出  ，  有利于  止咳  和  祛痰  。
+            清热  除  火
+            冰糖  能  清心  泻火  ，  清热  除烦  ，  能够  消除  血液  中  的  热  毒  。
+            解毒
+            冰糖  清理  身体  内  长期  淤积  的  毒素  ，  增进  身体  健康  。  增加  免疫  细胞  的  活性  ，  消除  体内  的  有害  物质  。
+            祛脂  降压
+            冰糖  能够  使  血压  更易  控制  ，  并  使  毛细管  扩张  ，  血  黏度  降低  ，  微循环  改善  。
+        </segment>
+
+        <pos>
+            冰糖#NR  味#VV  甘#NR  、#PU  性平#NR  ，#PU  入肺#VV  、#PU  脾经#VV  ；#PU  有补#VV  中#NR  益气#NN  ，#PU  和#CC  胃#VV  润肺#NR  的#DEG  功效#NN  ；#PU  冰糖#AD  养#VV  阴#VA  生#VV  津#NR  ，#PU  润肺#VV  止咳#NN  ，#PU  对#P  肺燥#NN  咳嗽#NN  、#PU  干咳#NN  无痰#NN  、#PU  咯痰#NN  带#NN  血#NN  都#AD  有#VE  很#AD  好#VA  的#DEC  辅助#NN  治疗#NN  作用#NN  ；#PU  用于#VV  肺燥#NN  、#PU  肺#NN  虚#AD  、#PU  风寒#AD  劳累#VV  所致#NN  的#DEC  咳喘#NN  、#PU  小儿#VV  疟疾#NN  、#PU  噤口痢#NN  、#PU  口疮#NN  、#PU  风火#NN  牙痛#NN  。#PU
+            生津止渴#VV
+            润喉#NN  去燥#NN  ，#PU  使#VV  人#NN  清爽#AD  舒适#VA  。#PU
+            润肺#VV
+            富含#VV  维生素A#NN  ，#PU  保护#VV  呼吸道#NN  上皮#NN  ，#PU  提高#VV  免疫#NN  球蛋白#NN  的#DEG  功能#NN  ，#PU  预防#VV  呼吸道#NN  感染#NN    。#PU  滋阴#NR  润肺#VV  ，#PU  去除#VV  肺燥#NN  肺#NN  热#NN    。#PU  使#VV  人#NN  呼吸#NN  畅通#NN  舒适#VA    。#PU    。#PU
+            化痰#NN  止咳#VV
+            冰糖#NN  适宜#VV  多痰#NN  ，#PU  痰#VV  粘稠#NN  ，#PU  咳嗽#NN  等#ETC  症状#VV    。#PU  对#P  咽喉#NN  部#NN  有#VE  良好#VA  的#DEC  湿润#NN  和#CC  物理#NN  治疗#NN  作用#NN  ，#PU  有利于#VV  局部#JJ  炎症#NN  治愈#NN  ，#PU  并#CC  能#VV  解除#VV  局部#JJ  痒感#NN  ，#PU  从而#AD  阻断#VV  咳嗽#NN  反射#NN    。#PU  能#VV  稀释#VV  呼吸道#NR  炎症#NN  和#CC  分泌物#NN  的#DEG  黏稠度#NN  ，#PU  使#VV  之#PN  易#AD  咳出#VV  ，#PU  有利于#VV  止咳#NN  和#CC  祛痰#NN    。#PU    。#PU
+            清热#VV  除#P  火#NN
+            冰糖#NN  能#VV  清心#VV  泻火#NN  ，#PU  清热#VV  除烦#NN  ，#PU  能够#VV  消除#VV  血液#NN  中#LC  的#DEG  热#JJ  毒#NN  。#PU
+            解毒#VV
+            冰糖#AD  清理#VV  身体#NN  内#LC  长期#AD  淤积#VA  的#DEC  毒素#NN  ，#PU  增进#VV  身体#NN  健康#VA    。#PU  增加#VV  免疫#NN  细胞#NN  的#DEG  活性#NN  ，#PU  消除#VV  体内#NN  的#DEG  有害#NN  物质#NN    。#PU    。#PU
+            祛脂#NN  降压#VV
+            冰糖#NN  能够#VV  使#VV  血压#NN  更易#AD  控制#VV  ，#PU  并#CC  使#VV  毛细管#NN  扩张#NN  ，#PU  血#NN  黏度#AD  降低#VV  ，#PU  微循环#NN  改善#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 冰糖#NR)  (root, ROOT#null, 味#VV)  (conj, 性平#NR, 甘#NR)  (dobj, 味#VV, 性平#NR)  (conj, 味#VV, 入肺#VV)  (conj, 味#VV, 脾经#VV)  (conj, 味#VV, 有补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 有补#VV, 益气#NN)  (cc, 味#VV, 和#CC)  (conj, 味#VV, 胃#VV)  (assmod, 功效#NN, 润肺#NR)  (case, 润肺#NR, 的#DEG)  (dobj, 胃#VV, 功效#NN)  (advmod, 阴#VA, 冰糖#AD)  (mmod, 阴#VA, 养#VV)  (conj, 味#VV, 阴#VA)  (dep, 阴#VA, 生#VV)  (dobj, 生#VV, 津#NR)  (conj, 味#VV, 润肺#VV)  (dobj, 润肺#VV, 止咳#NN)  (case, 血#NN, 对#P)  (nn, 血#NN, 肺燥#NN)  (conj, 血#NN, 咳嗽#NN)  (nn, 血#NN, 干咳#NN)  (conj, 血#NN, 无痰#NN)  (nn, 血#NN, 咯痰#NN)  (nn, 血#NN, 带#NN)  (prep, 有#VE, 血#NN)  (advmod, 有#VE, 都#AD)  (conj, 味#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (conj, 味#VV, 用于#VV)  (conj, 肺#NN, 肺燥#NN)  (nn, 咳喘#NN, 肺#NN)  (advmod, 劳累#VV, 虚#AD)  (conj, 虚#AD, 风寒#AD)  (relcl, 肺#NN, 劳累#VV)  (relcl, 咳喘#NN, 劳累#VV)  (dobj, 劳累#VV, 所致#NN)  (mark, 劳累#VV, 的#DEC)  (dobj, 用于#VV, 咳喘#NN)  (conj, 味#VV, 小儿#VV)  (conj, 风火#NN, 疟疾#NN)  (conj, 风火#NN, 噤口痢#NN)  (conj, 风火#NN, 口疮#NN)  (nn, 牙痛#NN, 风火#NN)  (dobj, 小儿#VV, 牙痛#NN)
+            (root, ROOT#null, 生津止渴#VV)
+            (nn, 去燥#NN, 润喉#NN)  (nsubj, 使#VV, 去燥#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (advmod, 舒适#VA, 清爽#AD)  (dep, 使#VV, 舒适#VA)
+            (root, ROOT#null, 润肺#VV)
+            (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 维生素A#NN)  (conj, 富含#VV, 保护#VV)  (nn, 上皮#NN, 呼吸道#NN)  (dobj, 保护#VV, 上皮#NN)  (conj, 富含#VV, 提高#VV)  (nn, 球蛋白#NN, 免疫#NN)  (assmod, 功能#NN, 球蛋白#NN)  (case, 球蛋白#NN, 的#DEG)  (dobj, 提高#VV, 功能#NN)  (conj, 富含#VV, 预防#VV)  (nn, 感染#NN, 呼吸道#NN)  (dobj, 预防#VV, 感染#NN)   (nsubj, 润肺#VV, 滋阴#NR)  (root, ROOT#null, 润肺#VV)  (ccomp, 润肺#VV, 去除#VV)  (nn, 热#NN, 肺燥#NN)  (nn, 热#NN, 肺#NN)  (dobj, 去除#VV, 热#NN)   (root, ROOT#null, 使#VV)  (nn, 畅通#NN, 人#NN)  (nn, 畅通#NN, 呼吸#NN)  (dobj, 使#VV, 畅通#NN)  (dep, 使#VV, 舒适#VA)   (root, ROOT#null, null#null)
+            (nsubj, 止咳#VV, 化痰#NN)  (root, ROOT#null, 止咳#VV)
+            (nsubj, 适宜#VV, 冰糖#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 多痰#NN)  (conj, 适宜#VV, 痰#VV)  (dobj, 痰#VV, 粘稠#NN)  (nsubj, 症状#VV, 咳嗽#NN)  (etc, 咳嗽#NN, 等#ETC)  (conj, 适宜#VV, 症状#VV)   (case, 部#NN, 对#P)  (nn, 部#NN, 咽喉#NN)  (prep, 有#VE, 部#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 治疗#NN, 湿润#NN)  (cc, 治疗#NN, 和#CC)  (nn, 治疗#NN, 物理#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (dep, 有#VE, 有利于#VV)  (amod, 炎症#NN, 局部#JJ)  (nn, 治愈#NN, 炎症#NN)  (dobj, 有利于#VV, 治愈#NN)  (cc, 有利于#VV, 并#CC)  (mmod, 解除#VV, 能#VV)  (conj, 有利于#VV, 解除#VV)  (amod, 痒感#NN, 局部#JJ)  (dobj, 解除#VV, 痒感#NN)  (advmod, 阻断#VV, 从而#AD)  (dep, 有#VE, 阻断#VV)  (nn, 反射#NN, 咳嗽#NN)  (dobj, 阻断#VV, 反射#NN)   (mmod, 稀释#VV, 能#VV)  (root, ROOT#null, 稀释#VV)  (nn, 分泌物#NN, 呼吸道#NR)  (conj, 分泌物#NN, 炎症#NN)  (cc, 分泌物#NN, 和#CC)  (assmod, 黏稠度#NN, 分泌物#NN)  (case, 分泌物#NN, 的#DEG)  (dobj, 稀释#VV, 黏稠度#NN)  (conj, 稀释#VV, 使#VV)  (dobj, 使#VV, 之#PN)  (advmod, 咳出#VV, 易#AD)  (dep, 使#VV, 咳出#VV)  (conj, 稀释#VV, 有利于#VV)  (conj, 祛痰#NN, 止咳#NN)  (cc, 祛痰#NN, 和#CC)  (dobj, 有利于#VV, 祛痰#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 清热#VV)  (case, 火#NN, 除#P)  (prep, 清热#VV, 火#NN)
+            (nsubj, 清心#VV, 冰糖#NN)  (mmod, 清心#VV, 能#VV)  (root, ROOT#null, 清心#VV)  (dobj, 清心#VV, 泻火#NN)  (conj, 清心#VV, 清热#VV)  (dobj, 清热#VV, 除烦#NN)  (mmod, 消除#VV, 能够#VV)  (conj, 清心#VV, 消除#VV)  (assmod, 毒#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (amod, 毒#NN, 热#JJ)  (dobj, 消除#VV, 毒#NN)
+            (root, ROOT#null, 解毒#VV)
+            (advmod, 清理#VV, 冰糖#AD)  (root, ROOT#null, 清理#VV)  (loc, 淤积#VA, 身体#NN)  (case, 身体#NN, 内#LC)  (advmod, 淤积#VA, 长期#AD)  (relcl, 毒素#NN, 淤积#VA)  (mark, 淤积#VA, 的#DEC)  (dobj, 清理#VV, 毒素#NN)  (dep, 清理#VV, 增进#VV)  (dobj, 增进#VV, 身体#NN)  (conj, 增进#VV, 健康#VA)   (root, ROOT#null, 增加#VV)  (nn, 细胞#NN, 免疫#NN)  (assmod, 活性#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 增加#VV, 活性#NN)  (conj, 增加#VV, 消除#VV)  (assmod, 物质#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 物质#NN, 有害#NN)  (dobj, 消除#VV, 物质#NN)   (root, ROOT#null, null#null)
+            (nsubj, 降压#VV, 祛脂#NN)  (root, ROOT#null, 降压#VV)
+            (nsubj, 使#VV, 冰糖#NN)  (mmod, 使#VV, 能够#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 血压#NN)  (advmod, 控制#VV, 更易#AD)  (dep, 使#VV, 控制#VV)  (cc, 使#VV, 并#CC)  (dep, 使#VV, 使#VV)  (nn, 扩张#NN, 毛细管#NN)  (dobj, 使#VV, 扩张#NN)  (nsubj, 降低#VV, 血#NN)  (advmod, 降低#VV, 黏度#AD)  (dep, 使#VV, 降低#VV)  (nsubj, 改善#VV, 微循环#NN)  (conj, 降低#VV, 改善#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        健脾  和胃  润肺止咳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            冰糖的主要成分是含结晶水的葡萄糖。
+        </rawdata>
+
+        <segment>
+            冰糖  的  主要  成分  是  含  结晶水  的  葡萄糖  。
+        </segment>
+
+        <pos>
+            冰糖#NN  的#DEG  主要#JJ  成分#NN  是#VC  含#VV  结晶水#NN  的#DEC  葡萄糖#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 冰糖#NN)  (case, 冰糖#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 葡萄糖#NN, 成分#NN)  (cop, 葡萄糖#NN, 是#VC)  (relcl, 葡萄糖#NN, 含#VV)  (dobj, 含#VV, 结晶水#NN)  (mark, 含#VV, 的#DEC)  (root, ROOT#null, 葡萄糖#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            糖很容易生螨，存放日久的糖不要生吃，应煮开后食用。
+            1.冰糖可以做为糖果，也可以制作小吃。最著名的小吃是糖葫芦，就是用冰糖裹李子或山楂制作而成。但制作糖葫芦的糖仅是经过熬制的糖，没有真正冰糖的含糖量高。
+            2.冰糖可以烹羹炖菜或制作甜点；著名“冰糖湘莲”是八大菜系中湘菜珍馐。另外还有如“冰糖雪梨”、“冰糖燕窝”等菜肴。
+            3.冰糖可以煎汤内服，佐餐，或入丸、膏剂。
+        </rawdata>
+
+        <segment>
+            糖  很  容易  生螨  ，  存放  日久  的  糖  不  要  生吃  ，  应  煮开  后  食用  。
+            冰糖  可以  做为  糖果  ，  也  可以  制作  小吃  。  最  著名  的  小吃  是  糖葫芦  ，  就是  用  冰糖  裹  李子  或  山楂  制作  而  成  。  但  制作  糖葫芦  的  糖  仅  是  经过  熬制  的  糖  ，  没有  真正  冰糖  的  含糖量  高  。
+            冰糖  可以  烹羹  炖菜  或  制作  甜点  ；  著名  “  冰糖  湘莲  ”  是  八  大  菜系  中  湘菜  珍馐  。  另外  还  有如  “  冰糖  雪梨  ”  、  “  冰糖  燕窝  ”  等  菜肴  。
+            冰糖  可以  煎  汤  内服  ，  佐餐  ，  或  入丸  、  膏剂  。
+        </segment>
+
+        <pos>
+            糖#NN  很#AD  容易#VA  生螨#VA  ，#PU  存放#VV  日久#NN  的#DEC  糖#NN  不#AD  要#VV  生吃#VV  ，#PU  应#P  煮开#NN  后#LC  食用#VV  。#PU
+            冰糖#NN  可以#VV  做为#P  糖果#NN  ，#PU  也#AD  可以#VV  制作#VV  小吃#NN    。#PU  最#AD  著名#VA  的#DEC  小吃#NN  是#VC  糖葫芦#NN  ，#PU  就是#AD  用#P  冰糖#NN  裹#NN  李子#NN  或#CC  山楂#NN  制作#VV  而#MSP  成#VV    。#PU  但#AD  制作#VV  糖葫芦#NN  的#DEC  糖#NN  仅#AD  是#VC  经过#P  熬制#NN  的#DEG  糖#NN  ，#PU  没有#VE  真正#JJ  冰糖#NN  的#DEC  含糖量#NN  高#VA    。#PU    。#PU
+            冰糖#NR  可以#VV  烹羹#VV  炖菜#NN  或#CC  制作#NN  甜点#NN  ；#PU  著名#JJ  ``#NN  冰糖#NN  湘莲#NN  ''#NN  是#VC  八#CD  大#JJ  菜系#NN  中#LC  湘菜#JJ  珍馐#NN    。#PU  另外#AD  还#AD  有如#VV  ``#NN  冰糖#VV  雪梨#NN  ''#NN  、#PU  ``#NN  冰糖#NN  燕窝#NN  ''#NN  等#ETC  菜肴#NN    。#PU    。#PU
+            冰糖#NN  可以#VV  煎#VV  汤#NN  内服#NN  ，#PU  佐餐#VV  ，#PU  或#CC  入丸#VA  、#PU  膏剂#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 容易#VA, 糖#NN)  (advmod, 容易#VA, 很#AD)  (root, ROOT#null, 容易#VA)  (comod, 容易#VA, 生螨#VA)  (relcl, 糖#NN, 存放#VV)  (dobj, 存放#VV, 日久#NN)  (mark, 存放#VV, 的#DEC)  (nsubj, 生吃#VV, 糖#NN)  (neg, 生吃#VV, 不#AD)  (dep, 生吃#VV, 要#VV)  (conj, 容易#VA, 生吃#VV)  (case, 煮开#NN, 应#P)  (prep, 食用#VV, 煮开#NN)  (case, 煮开#NN, 后#LC)  (conj, 容易#VA, 食用#VV)
+            (nsubj, 制作#VV, 冰糖#NN)  (mmod, 制作#VV, 可以#VV)  (case, 糖果#NN, 做为#P)  (prep, 制作#VV, 糖果#NN)  (advmod, 制作#VV, 也#AD)  (mmod, 制作#VV, 可以#VV)  (root, ROOT#null, 制作#VV)  (dobj, 制作#VV, 小吃#NN)   (advmod, 著名#VA, 最#AD)  (relcl, 小吃#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nsubj, 糖葫芦#NN, 小吃#NN)  (cop, 糖葫芦#NN, 是#VC)  (root, ROOT#null, 糖葫芦#NN)  (advmod, 制作#VV, 就是#AD)  (case, 山楂#NN, 用#P)  (nn, 裹#NN, 冰糖#NN)  (nn, 山楂#NN, 裹#NN)  (conj, 山楂#NN, 李子#NN)  (cc, 山楂#NN, 或#CC)  (prep, 制作#VV, 山楂#NN)  (conj, 糖葫芦#NN, 制作#VV)  (dep, 成#VV, 而#MSP)  (dobj, 制作#VV, 成#VV)   (advmod, 糖#NN, 但#AD)  (relcl, 糖#NN, 制作#VV)  (dobj, 制作#VV, 糖葫芦#NN)  (mark, 制作#VV, 的#DEC)  (nsubj, 糖#NN, 糖#NN)  (advmod, 糖#NN, 仅#AD)  (cop, 糖#NN, 是#VC)  (case, 熬制#NN, 经过#P)  (assmod, 糖#NN, 熬制#NN)  (case, 熬制#NN, 的#DEG)  (root, ROOT#null, 糖#NN)  (relcl, 含糖量#NN, 没有#VE)  (amod, 冰糖#NN, 真正#JJ)  (dobj, 没有#VE, 冰糖#NN)  (mark, 没有#VE, 的#DEC)  (nsubj, 高#VA, 含糖量#NN)  (conj, 糖#NN, 高#VA)   (root, ROOT#null, null#null)
+            (nsubj, 烹羹#VV, 冰糖#NR)  (mmod, 烹羹#VV, 可以#VV)  (root, ROOT#null, 烹羹#VV)  (conj, 甜点#NN, 炖菜#NN)  (cc, 甜点#NN, 或#CC)  (nn, 甜点#NN, 制作#NN)  (dobj, 烹羹#VV, 甜点#NN)  (amod, ``#NN, 著名#JJ)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 冰糖#NN)  (nn, ''#NN, 湘莲#NN)  (nsubj, 珍馐#NN, ''#NN)  (cop, 珍馐#NN, 是#VC)  (nummod, 菜系#NN, 八#CD)  (amod, 菜系#NN, 大#JJ)  (dep, 珍馐#NN, 菜系#NN)  (case, 菜系#NN, 中#LC)  (amod, 珍馐#NN, 湘菜#JJ)  (dep, 烹羹#VV, 珍馐#NN)   (advmod, 有如#VV, 另外#AD)  (advmod, 有如#VV, 还#AD)  (conj, 冰糖#VV, 有如#VV)  (dobj, 有如#VV, ``#NN)  (root, ROOT#null, 冰糖#VV)  (nn, ''#NN, 雪梨#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 冰糖#NN)  (nn, ''#NN, 燕窝#NN)  (nn, 菜肴#NN, ''#NN)  (etc, ''#NN, 等#ETC)  (dobj, 冰糖#VV, 菜肴#NN)   (root, ROOT#null, null#null)
+            (nsubj, 煎#VV, 冰糖#NN)  (mmod, 煎#VV, 可以#VV)  (root, ROOT#null, 煎#VV)  (nn, 内服#NN, 汤#NN)  (dobj, 煎#VV, 内服#NN)  (conj, 煎#VV, 佐餐#VV)  (cc, 煎#VV, 或#CC)  (conj, 煎#VV, 入丸#VA)  (dep, 入丸#VA, 膏剂#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/231000459.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\503 冰糖.jpg
+    </picturelocalurl>
+
+</content>

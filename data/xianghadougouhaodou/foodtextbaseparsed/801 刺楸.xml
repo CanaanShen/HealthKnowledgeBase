@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        801
+    </id>
+
+    <foodname>
+        刺楸
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        刺楸树叶、鸟不宿叶、刺楸叶
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            刺楸具有毒性，食用时应注意其毒性。
+        </rawdata>
+
+        <segment>
+            刺楸  具有  毒性  ，  食用  时  应  注意  其  毒性  。
+        </segment>
+
+        <pos>
+            刺楸#NN  具有#VV  毒性#NN  ，#PU  食用#VV  时#LC  应#VV  注意#VV  其#PN  毒性#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 刺楸#NN)  (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 毒性#NN)  (loc, 注意#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (mmod, 注意#VV, 应#VV)  (conj, 具有#VV, 注意#VV)  (nn, 毒性#NN, 其#PN)  (dobj, 注意#VV, 毒性#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            刺楸为五加科，落叶乔木，刺楸树干灰色，长纵裂，布有粗大硬棘刺。刺楸原产于山地的疏林中，在中国从东北到华南都有分布，日本、朝鲜半岛也有分布。刺楸春季的嫩叶采摘后可供食用，气味清香、品质极佳,是美味的野菜。刺楸在我国的东北和朝鲜、韩国、日本有着很高的知名度。
+        </rawdata>
+
+        <segment>
+            刺楸  为  五加科  ，  落叶  乔木  ，  刺楸  树干  灰色  ，  长  纵裂  ，  布有  粗大  硬  棘刺  。  刺楸  原  产  于  山地  的  疏  林中  ，  在  中国  从  东北  到  华南  都  有  分布  ，  日本  、  朝鲜  半岛  也  有  分布  。  刺楸  春季  的  嫩叶  采摘  后  可  供  食用  ，  气味  清香  、  品质  极佳  ,  是  美味  的  野菜  。  刺楸  在  我国  的  东北  和  朝鲜  、  韩国  、  日本  有  着  很  高  的  知名度  。
+        </segment>
+
+        <pos>
+            刺楸#NN  为#VC  五加科#CD  ，#PU  落叶#VV  乔木#NN  ，#PU  刺楸#VV  树干#NN  灰色#NN  ，#PU  长#AD  纵裂#VV  ，#PU  布有#AD  粗大#VV  硬#JJ  棘刺#NN    。#PU  刺楸#NN  原#AD  产#VV  于#P  山地#NN  的#DEC  疏#NN  林中#VV  ，#PU  在#P  中国#NR  从#P  东北#NR  到#CC  华南#NR  都#AD  有#VE  分布#NN  ，#PU  日本#NR  、#PU  朝鲜#NR  半岛#NN  也#AD  有#VE  分布#NN    。#PU  刺楸#NR  春季#NT  的#DEG  嫩叶#NN  采摘#NN  后#LC  可#VV  供#VV  食用#VV  ，#PU  气味#NN  清香#NN  、#PU  品质#NN  极佳#NN  ,#NN  是#VC  美味#NN  的#DEG  野菜#NN    。#PU  刺楸#NN  在#P  我国#NN  的#DEG  东北#NN  和#CC  朝鲜#NR  、#PU  韩国#NR  、#PU  日本#NR  有#VE  着#AS  很#AD  高#VA  的#DEC  知名度#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 为#VC, 刺楸#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 五加科#CD)  (conj, 为#VC, 落叶#VV)  (dobj, 落叶#VV, 乔木#NN)  (conj, 为#VC, 刺楸#VV)  (nn, 灰色#NN, 树干#NN)  (dobj, 刺楸#VV, 灰色#NN)  (advmod, 纵裂#VV, 长#AD)  (conj, 为#VC, 纵裂#VV)  (advmod, 粗大#VV, 布有#AD)  (conj, 为#VC, 粗大#VV)  (amod, 棘刺#NN, 硬#JJ)  (dobj, 粗大#VV, 棘刺#NN)   (nsubj, 产#VV, 刺楸#NN)  (advmod, 产#VV, 原#AD)  (relcl, 疏#NN, 产#VV)  (case, 山地#NN, 于#P)  (prep, 产#VV, 山地#NN)  (mark, 产#VV, 的#DEC)  (nsubj, 林中#VV, 疏#NN)  (root, ROOT#null, 林中#VV)  (case, 中国#NR, 在#P)  (prep, 有#VE, 中国#NR)  (case, 华南#NR, 从#P)  (conj, 华南#NR, 东北#NR)  (cc, 华南#NR, 到#CC)  (prep, 有#VE, 华南#NR)  (advmod, 有#VE, 都#AD)  (ccomp, 林中#VV, 有#VE)  (dobj, 有#VE, 分布#NN)  (conj, 朝鲜#NR, 日本#NR)  (nn, 半岛#NN, 朝鲜#NR)  (nsubj, 有#VE, 半岛#NN)  (advmod, 有#VE, 也#AD)  (dep, 有#VE, 有#VE)  (dobj, 有#VE, 分布#NN)   (nsubj, 供#VV, 刺楸#NR)  (assmod, 采摘#NN, 春季#NT)  (case, 春季#NT, 的#DEG)  (nn, 采摘#NN, 嫩叶#NN)  (loc, 供#VV, 采摘#NN)  (case, 采摘#NN, 后#LC)  (mmod, 供#VV, 可#VV)  (root, ROOT#null, 供#VV)  (ccomp, 供#VV, 食用#VV)  (nn, ,#NN, 气味#NN)  (conj, ,#NN, 清香#NN)  (nn, ,#NN, 品质#NN)  (nn, ,#NN, 极佳#NN)  (cop, 野菜#NN, 是#VC)  (assmod, 野菜#NN, 美味#NN)  (case, 美味#NN, 的#DEG)  (conj, 供#VV, 野菜#NN)   (nsubj, 有#VE, 刺楸#NN)  (case, 日本#NR, 在#P)  (assmod, 东北#NN, 我国#NN)  (case, 我国#NN, 的#DEG)  (conj, 日本#NR, 东北#NN)  (cc, 日本#NR, 和#CC)  (conj, 日本#NR, 朝鲜#NR)  (conj, 日本#NR, 韩国#NR)  (prep, 有#VE, 日本#NR)  (root, ROOT#null, 有#VE)  (asp, 有#VE, 着#AS)  (advmod, 高#VA, 很#AD)  (relcl, 知名度#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 有#VE, 知名度#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            利尿消肿,活血祛瘀,消炎止痛
+        </rawdata>
+
+        <segment>
+            利尿  消肿  ,  活血  祛瘀  ,  消炎  止痛
+        </segment>
+
+        <pos>
+            利尿#NN  消肿#NN  ,#NN  活血#AD  祛瘀#VV  ,#NN  消炎#NN  止痛#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 利尿#NN)  (nn, ,#NN, 消肿#NN)  (advmod, 祛瘀#VV, 活血#AD)  (root, ROOT#null, 祛瘀#VV)  (nn, 止痛#NN, 消炎#NN)  (dobj, 祛瘀#VV, 止痛#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        祛风止痒  消肿毒
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/49/41/82249_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\801 刺楸.jpg
+    </picturelocalurl>
+
+</content>
