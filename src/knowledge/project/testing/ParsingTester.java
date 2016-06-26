@@ -33,8 +33,12 @@ import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.trees.international.pennchinese.ChineseTreebankLanguagePack;
 import edu.stanford.nlp.util.CoreMap;
 
+/**
+ * Parsing Tester
+ * */
 public class ParsingTester {
 	
+	//
 	private void testParsing() {
 //		Properties props = new Properties();
 //		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse");
@@ -98,6 +102,7 @@ public class ParsingTester {
 		}
 	}
 	
+	//
 	private void parseTesting() {
 		String baseDir = "edu/stanford/nlp/models/";
 		LexicalizedParser lexicalParser = LexicalizedParser.loadModel(baseDir + "lexparser/xinhuaFactored.ser.gz");
@@ -129,6 +134,7 @@ public class ParsingTester {
 
 	}
 	
+	//main function
 	public static void main(String[] args) {
 		
 		ParsingTester tester = new ParsingTester();
@@ -151,6 +157,5 @@ public class ParsingTester {
 		str = str.replaceFirst("\\d.", "");
 		System.out.println(str);
 		System.out.println("Program ends");
-	}
-	
+	}//main
 }
