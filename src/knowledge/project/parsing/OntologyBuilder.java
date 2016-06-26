@@ -23,6 +23,7 @@ import org.w3c.dom.NodeList;
  * Build the ontology for the text base 
  * @Yueshen 
  * */
+
 public class OntologyBuilder {
 	
 	private List<String> tobeExtractedTagList = null;

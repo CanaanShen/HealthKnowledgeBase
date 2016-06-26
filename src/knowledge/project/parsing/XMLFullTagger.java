@@ -23,7 +23,6 @@ import org.w3c.dom.NodeList;
  * Generate tags for each xml file in a full version style
  * @Yueshen
  * */
-
 public class XMLFullTagger extends XMLTagger{
 	
 	private List<String> tobeTaggedList = null;

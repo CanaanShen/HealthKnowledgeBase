@@ -23,6 +23,7 @@ import knowledge.project.util.SegmentUtil;
  * Parse the xml files in an extended manner
  * @Yueshen
  * */
+
 public class XMLExtendedParser extends XMLParser{
 	
 	private List<String> parsedTagList = null;

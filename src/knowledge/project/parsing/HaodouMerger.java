@@ -15,6 +15,7 @@ import org.w3c.dom.NodeList;
  * Merge the xml files of Haodou website from several data sources
  * @Yueshen
  * */
+
 public class HaodouMerger {
 	
 	//

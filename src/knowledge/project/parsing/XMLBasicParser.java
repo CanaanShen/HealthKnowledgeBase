@@ -23,7 +23,6 @@ import org.w3c.dom.NodeList;
  * Parse each xml file in a basic manner
  * @Yueshen
  * */
-
 public class XMLBasicParser extends XMLParser{
 	
 	private List<String> parsedTagList = null;

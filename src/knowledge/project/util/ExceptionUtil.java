@@ -8,7 +8,7 @@ public class ExceptionUtil {
 			ex.printStackTrace();
 		}
 	}
-
+ 
 	/**
 	 * Implement a customized assertion that can pop up as an exception.
 	 */

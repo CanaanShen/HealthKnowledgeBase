@@ -27,7 +27,6 @@ import org.w3c.dom.NodeList;
  * Generate tags for each xml file in a light version style
  * @Yueshen 
  * */
-
 public class XMLLightTagger extends XMLTagger{
 	
 	private List<String> tobeTaggedList = null;
