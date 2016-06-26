@@ -1,0 +1,426 @@
+<content>
+
+    <id>
+        214
+    </id>
+
+    <foodname>
+        青萝卜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        莱菔、罗服
+    </alias>
+
+    <season>
+        秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴盛偏寒体质、脾胃虚寒者等不宜多食，胃及十二指肠溃疡、慢性胃炎、单纯甲状腺肿、先兆流产、子宫脱垂等患者也应少食萝卜。
+        </rawdata>
+
+        <segment>
+            阴  盛  偏  寒  体质  、  脾胃  虚寒者  等  不  宜  多  食  ，  胃及  十二  指肠  溃疡  、  慢性  胃炎  、  单纯  甲状腺肿  、  先兆  流产  、  子宫  脱垂  等  患者  也  应  少  食  萝卜  。
+        </segment>
+
+        <pos>
+            阴#VA  盛#VA  偏#AD  寒#JJ  体质#NN  、#PU  脾胃#NN  虚寒者#NN  等#ETC  不#AD  宜#NR  多#CD  食#NN  ，#PU  胃及#VV  十二#CD  指肠#NN  溃疡#NN  、#PU  慢性#VV  胃炎#NN  、#PU  单纯#AD  甲状腺肿#VV  、#PU  先兆#NN  流产#NN  、#PU  子宫#NN  脱垂#NN  等#ETC  患者#NN  也#AD  应#VV  少#JJ  食#NN  萝卜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nfincl, 体质#NN, 阴#VA)  (dep, 阴#VA, 盛#VA)  (advmod, 盛#VA, 偏#AD)  (amod, 体质#NN, 寒#JJ)  (conj, 虚寒者#NN, 体质#NN)  (nn, 虚寒者#NN, 脾胃#NN)  (nn, 患者#NN, 虚寒者#NN)  (etc, 虚寒者#NN, 等#ETC)  (neg, 食#NN, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dep, 患者#NN, 食#NN)  (conj, 食#NN, 胃及#VV)  (nummod, 溃疡#NN, 十二#CD)  (nn, 溃疡#NN, 指肠#NN)  (dobj, 胃及#VV, 溃疡#NN)  (conj, 食#NN, 慢性#VV)  (dobj, 慢性#VV, 胃炎#NN)  (advmod, 甲状腺肿#VV, 单纯#AD)  (conj, 食#NN, 甲状腺肿#VV)  (nn, 流产#NN, 先兆#NN)  (conj, 食#NN, 流产#NN)  (nn, 脱垂#NN, 子宫#NN)  (dep, 食#NN, 脱垂#NN)  (etc, 脱垂#NN, 等#ETC)  (nsubj, 应#VV, 患者#NN)  (advmod, 应#VV, 也#AD)  (root, ROOT#null, 应#VV)  (amod, 萝卜#NN, 少#JJ)  (nn, 萝卜#NN, 食#NN)  (dobj, 应#VV, 萝卜#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                26.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                232
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                69.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                91
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            萝卜的品种十分繁多，可按形状、色泽、种植季节不同等来进行分类，也可按用途分为生食、熟食和加工品种。青萝卜属生食绿色品种，细长圆筒形，皮翠绿色，尾端玉白色，整个萝卜上部甘甜少辣味，至尾部辣味渐增，皮薄、肉多、清脆、甘甜、水多，既可生吃，又能作做汤，干腌、盐渍和制做泡菜等。特别是生吃，别有风味，嚼起来又脆又甜，水多无渣，味道鲜美，清淡可口，是地方优良品种，极耐贮藏。青萝卜还具有药用价值，有消积、祛谈、利尿、止泻等效用，被人们所喜爱，有“冬吃萝卜夏吃姜，一年四季保安康”的说法。
+        </rawdata>
+
+        <segment>
+            萝卜  的  品种  十分  繁多  ，  可按  形状  、  色泽  、  种植  季节  不同  等  来  进行  分类  ，  也  可  按  用途  分为  生食  、  熟食  和  加工  品种  。  青  萝卜  属  生食  绿色  品种  ，  细长  圆筒形  ，  皮  翠绿色  ，  尾端  玉  白色  ，  整个  萝卜  上部  甘甜  少  辣味  ，  至  尾部  辣味  渐增  ，  皮薄  、  肉多  、  清脆  、  甘甜  、  水  多  ，  既  可  生吃  ，  又  能  作  做  汤  ，  干腌  、  盐渍  和  制做  泡菜  等  。  特别是  生吃  ，  别有风味  ，  嚼  起来  又  脆  又  甜  ，  水多无渣  ，  味道  鲜美  ，  清淡  可口  ，  是  地方  优良  品种  ，  极  耐  贮藏  。  青  萝卜  还  具有  药用  价值  ，  有  消积  、  祛谈  、  利尿  、  止泻  等  效用  ，  被  人们  所  喜爱  ，  有  “  冬  吃  萝卜  夏吃姜  ，  一  年  四  季  保  安康  ”  的  说法  。
+        </segment>
+
+        <pos>
+            萝卜#NN  的#DEG  品种#NN  十分#AD  繁多#VV  ，#PU  可按#NN  形状#NN  、#PU  色泽#NN  、#PU  种植#NN  季节#NN  不同#NN  等#ETC  来#MSP  进行#VV  分类#NN  ，#PU  也#AD  可#VV  按#P  用途#NN  分为#VV  生食#NN  、#PU  熟食#NN  和#CC  加工#NN  品种#NN    。#PU  青#NR  萝卜#NN  属#VV  生食#VV  绿色#JJ  品种#NN  ，#PU  细长#VV  圆筒形#NN  ，#PU  皮#VV  翠绿色#NN  ，#PU  尾端#VV  玉#NN  白色#JJ  ，#PU  整个#JJ  萝卜#NN  上部#NN  甘甜#NN  少#VA  辣味#NN  ，#PU  至#CC  尾部#NN  辣味#NN  渐增#NN  ，#PU  皮薄#NN  、#PU  肉多#NN  、#PU  清脆#NN  、#PU  甘甜#NN  、#PU  水#NN  多#CD  ，#PU  既#CC  可#VV  生吃#NN  ，#PU  又#AD  能#VV  作#VV  做#VV  汤#NN  ，#PU  干腌#NN  、#PU  盐渍#NN  和#CC  制做#NN  泡菜#NN  等#ETC    。#PU  特别是#AD  生吃#NN  ，#PU  别有风味#VV  ，#PU  嚼#NN  起来#VV  又#AD  脆#AD  又#AD  甜#VV  ，#PU  水多无渣#NR  ，#PU  味道#NN  鲜美#VV  ，#PU  清淡#VA  可口#NN  ，#PU  是#VC  地方#NN  优良#JJ  品种#NN  ，#PU  极#AD  耐#VV  贮藏#NN    。#PU  青#NR  萝卜#NN  还#AD  具有#VV  药用#NN  价值#NN  ，#PU  有#VE  消积#NR  、#PU  祛谈#NR  、#PU  利尿#NR  、#PU  止泻#NR  等#ETC  效用#NN  ，#PU  被#LB  人们#NN  所#MSP  喜爱#VV  ，#PU  有#VE  ``#NN  冬#NN  吃#VV  萝卜#NN  夏吃姜#NN  ，#PU  一#CD  年#M  四#CD  季#M  保#NR  安康#NN  ''#NN  的#DEG  说法#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 品种#NN, 萝卜#NN)  (case, 萝卜#NN, 的#DEG)  (nsubj, 繁多#VV, 品种#NN)  (advmod, 繁多#VV, 十分#AD)  (root, ROOT#null, 繁多#VV)  (nn, 不同#NN, 可按#NN)  (conj, 不同#NN, 形状#NN)  (conj, 不同#NN, 色泽#NN)  (nn, 不同#NN, 种植#NN)  (nn, 不同#NN, 季节#NN)  (nsubj, 进行#VV, 不同#NN)  (etc, 不同#NN, 等#ETC)  (prtmod, 进行#VV, 来#MSP)  (ccomp, 繁多#VV, 进行#VV)  (dobj, 进行#VV, 分类#NN)  (advmod, 分为#VV, 也#AD)  (mmod, 分为#VV, 可#VV)  (case, 用途#NN, 按#P)  (prep, 分为#VV, 用途#NN)  (dep, 进行#VV, 分为#VV)  (conj, 品种#NN, 生食#NN)  (conj, 品种#NN, 熟食#NN)  (cc, 品种#NN, 和#CC)  (nn, 品种#NN, 加工#NN)  (dobj, 分为#VV, 品种#NN)   (nn, 萝卜#NN, 青#NR)  (nsubj, 生食#VV, 萝卜#NN)  (mmod, 生食#VV, 属#VV)  (root, ROOT#null, 生食#VV)  (amod, 品种#NN, 绿色#JJ)  (dobj, 生食#VV, 品种#NN)  (ccomp, 生食#VV, 细长#VV)  (conj, 生食#VV, 细长#VV)  (dobj, 细长#VV, 圆筒形#NN)  (ccomp, 生食#VV, 皮#VV)  (conj, 生食#VV, 皮#VV)  (dobj, 皮#VV, 翠绿色#NN)  (ccomp, 生食#VV, 尾端#VV)  (conj, 生食#VV, 尾端#VV)  (dobj, 尾端#VV, 玉#NN)  (dep, 尾端#VV, 白色#JJ)  (amod, 甘甜#NN, 整个#JJ)  (nn, 甘甜#NN, 萝卜#NN)  (nn, 甘甜#NN, 上部#NN)  (nsubj, 少#VA, 甘甜#NN)  (nfincl, 水#NN, 少#VA)  (dep, 水#NN, 辣味#NN)  (cc, 水#NN, 至#CC)  (nn, 水#NN, 尾部#NN)  (nn, 水#NN, 辣味#NN)  (conj, 水#NN, 渐增#NN)  (conj, 水#NN, 皮薄#NN)  (conj, 水#NN, 肉多#NN)  (conj, 水#NN, 清脆#NN)  (conj, 水#NN, 甘甜#NN)  (conj, 白色#JJ, 水#NN)  (range, 水#NN, 多#CD)  (cc, 白色#JJ, 既#CC)  (conj, 白色#JJ, 可#VV)  (dobj, 可#VV, 生吃#NN)  (advmod, 能#VV, 又#AD)  (ccomp, 生食#VV, 能#VV)  (conj, 生食#VV, 能#VV)  (nfincl, 泡菜#NN, 作#VV)  (comod, 作#VV, 做#VV)  (conj, 泡菜#NN, 汤#NN)  (conj, 泡菜#NN, 干腌#NN)  (conj, 泡菜#NN, 盐渍#NN)  (cc, 泡菜#NN, 和#CC)  (nn, 泡菜#NN, 制做#NN)  (dobj, 能#VV, 泡菜#NN)  (etc, 泡菜#NN, 等#ETC)   (advmod, 生吃#NN, 特别是#AD)  (nsubj, 别有风味#VV, 生吃#NN)  (root, ROOT#null, 别有风味#VV)  (nsubj, 甜#VV, 嚼#NN)  (mmod, 甜#VV, 起来#VV)  (advmod, 甜#VV, 又#AD)  (advmod, 甜#VV, 脆#AD)  (advmod, 甜#VV, 又#AD)  (ccomp, 别有风味#VV, 甜#VV)  (nsubj, 鲜美#VV, 水多无渣#NR)  (nsubj, 鲜美#VV, 味道#NN)  (conj, 甜#VV, 鲜美#VV)  (ccomp, 鲜美#VV, 清淡#VA)  (nsubj, 品种#NN, 可口#NN)  (cop, 品种#NN, 是#VC)  (nn, 品种#NN, 地方#NN)  (amod, 品种#NN, 优良#JJ)  (conj, 别有风味#VV, 品种#NN)  (advmod, 耐#VV, 极#AD)  (conj, 品种#NN, 耐#VV)  (dobj, 耐#VV, 贮藏#NN)   (nn, 萝卜#NN, 青#NR)  (nsubj, 具有#VV, 萝卜#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (nn, 价值#NN, 药用#NN)  (dobj, 具有#VV, 价值#NN)  (conj, 具有#VV, 有#VE)  (conj, 止泻#NR, 消积#NR)  (conj, 止泻#NR, 祛谈#NR)  (conj, 止泻#NR, 利尿#NR)  (nn, 效用#NN, 止泻#NR)  (etc, 止泻#NR, 等#ETC)  (dobj, 有#VE, 效用#NN)  (conj, 具有#VV, 被#LB)  (nsubj, 喜爱#VV, 人们#NN)  (prtmod, 喜爱#VV, 所#MSP)  (dep, 被#LB, 喜爱#VV)  (dep, 被#LB, 有#VE)  (nn, 冬#NN, ``#NN)  (nsubj, 吃#VV, 冬#NN)  (dep, 有#VE, 吃#VV)  (nn, 夏吃姜#NN, 萝卜#NN)  (dobj, 吃#VV, 夏吃姜#NN)  (nummod, 年#M, 一#CD)  (clf, 说法#NN, 年#M)  (nummod, 季#M, 四#CD)  (clf, ''#NN, 季#M)  (nn, ''#NN, 保#NR)  (nn, ''#NN, 安康#NN)  (assmod, 说法#NN, ''#NN)  (case, ''#NN, 的#DEG)  (conj, 具有#VV, 说法#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强机体免疫力
+            抑制癌细胞的生长，对预防癌，抗癌有重要意义。
+            2.促进消化
+            萝卜被称为“自然消化剂”根茎部分含有淀粉酶及各种消化酵素，能分解食物中的淀粉和脂肪，促进食物消化，解除胸闷，抑制胃酸过多。帮助胃蠕动，促进新陈代谢，还可以解毒。
+            3.保护肠胃
+            促进胃肠液分泌的作用，能让肠胃达到良好的状况。
+            4.预防富贵病
+            吃萝卜可降血脂、软化血管、稳定血压，预防冠心病、动脉硬化、胆结石等疾病。
+            5.有助于减肥
+            萝卜所含热量较少，纤维素较多，吃后易产生饱胀感，这些都有助于减肥。
+        </rawdata>
+
+        <segment>
+            增强  机体  免疫力
+            抑制  癌细胞  的  生长  ，  对  预防癌  ，  抗癌  有  重要  意义  。
+            促进  消化
+            萝卜  被  称为  “  自然  消化剂  ”  根茎  部分  含有  淀粉酶  及  各  种  消化  酵素  ，  能  分解  食物  中  的  淀粉  和  脂肪  ，  促进  食物  消化  ，  解除  胸闷  ，  抑制  胃酸  过多  。  帮助  胃  蠕动  ，  促进  新陈代谢  ，  还  可以  解毒  。
+            保护  肠胃
+            促进  胃肠液  分泌  的  作用  ，  能  让  肠胃  达到  良好  的  状况  。
+            预防  富贵病
+            吃  萝卜  可降  血脂  、  软化  血管  、  稳定  血压  ，  预防  冠心病  、  动脉  硬化  、  胆结石  等  疾病  。
+            有助于  减肥
+            萝卜  所含  热量  较  少  ，  纤维素  较  多  ，  吃  后  易  产生  饱胀感  ，  这些  都  有助于  减肥  。
+        </segment>
+
+        <pos>
+            增强#VV  机体#NN  免疫力#NN
+            抑制#VV  癌细胞#NN  的#DEG  生长#NN  ，#PU  对#P  预防癌#NN  ，#PU  抗癌#AD  有#VE  重要#JJ  意义#NN  。#PU
+            促进#VV  消化#NN
+            萝卜#NN  被#SB  称为#VV  ``#NN  自然#NN  消化剂#NN  ''#VV  根茎#CD  部分#M  含有#NN  淀粉酶#NN  及#CC  各#DT  种#M  消化#NN  酵素#NN  ，#PU  能#VV  分解#VV  食物#NN  中#LC  的#DEG  淀粉#NN  和#CC  脂肪#NN  ，#PU  促进#VV  食物#NN  消化#NN  ，#PU  解除#VV  胸闷#NN  ，#PU  抑制#VV  胃酸#NN  过多#NN    。#PU  帮助#VV  胃#VV  蠕动#NN  ，#PU  促进#VV  新陈代谢#NN  ，#PU  还#AD  可以#VV  解毒#VV    。#PU    。#PU
+            保护#VV  肠胃#NN
+            促进#VV  胃肠液#NN  分泌#NN  的#DEC  作用#NN  ，#PU  能#VV  让#VV  肠胃#NN  达到#VV  良好#VA  的#DEC  状况#NN  。#PU
+            预防#NN  富贵病#VV
+            吃#VV  萝卜#NN  可降#NN  血脂#NN  、#PU  软化#NN  血管#NN  、#PU  稳定#NN  血压#NN  ，#PU  预防#VV  冠心病#NN  、#PU  动脉#NN  硬化#NN  、#PU  胆结石#NN  等#ETC  疾病#NN  。#PU
+            有助于#VV  减肥#VV
+            萝卜#NN  所含#NN  热量#NN  较#AD  少#VA  ，#PU  纤维素#NN  较#AD  多#VA  ，#PU  吃#VV  后#LC  易#AD  产生#VV  饱胀感#NN  ，#PU  这些#PN  都#AD  有助于#VV  减肥#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增强#VV, 免疫力#NN)
+            (dep, 有#VE, 抑制#VV)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (case, 预防癌#NN, 对#P)  (prep, 有#VE, 预防癌#NN)  (advmod, 有#VE, 抗癌#AD)  (root, ROOT#null, 有#VE)  (amod, 意义#NN, 重要#JJ)  (dobj, 有#VE, 意义#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 消化#NN)
+            (nsubj, 称为#VV, 萝卜#NN)  (auxpass, 称为#VV, 被#SB)  (root, ROOT#null, 称为#VV)  (nn, 消化剂#NN, ``#NN)  (nn, 消化剂#NN, 自然#NN)  (dobj, 称为#VV, 消化剂#NN)  (dep, 称为#VV, ''#VV)  (nummod, 部分#M, 根茎#CD)  (clf, 淀粉酶#NN, 部分#M)  (nn, 淀粉酶#NN, 含有#NN)  (conj, 酵素#NN, 淀粉酶#NN)  (cc, 酵素#NN, 及#CC)  (det, 消化#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 酵素#NN, 消化#NN)  (dobj, ''#VV, 酵素#NN)  (mmod, 分解#VV, 能#VV)  (conj, ''#VV, 分解#VV)  (assmod, 脂肪#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (conj, 脂肪#NN, 淀粉#NN)  (cc, 脂肪#NN, 和#CC)  (dobj, 分解#VV, 脂肪#NN)  (conj, ''#VV, 促进#VV)  (nn, 消化#NN, 食物#NN)  (dobj, 促进#VV, 消化#NN)  (conj, ''#VV, 解除#VV)  (dobj, 解除#VV, 胸闷#NN)  (conj, ''#VV, 抑制#VV)  (nn, 过多#NN, 胃酸#NN)  (dobj, 抑制#VV, 过多#NN)   (root, ROOT#null, 帮助#VV)  (ccomp, 帮助#VV, 胃#VV)  (dobj, 胃#VV, 蠕动#NN)  (conj, 胃#VV, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)  (advmod, 解毒#VV, 还#AD)  (dep, 解毒#VV, 可以#VV)  (conj, 胃#VV, 解毒#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肠胃#NN)
+            (relcl, 作用#NN, 促进#VV)  (nn, 分泌#NN, 胃肠液#NN)  (dobj, 促进#VV, 分泌#NN)  (mark, 促进#VV, 的#DEC)  (nsubj, 让#VV, 作用#NN)  (mmod, 让#VV, 能#VV)  (root, ROOT#null, 让#VV)  (dobj, 让#VV, 肠胃#NN)  (dep, 让#VV, 达到#VV)  (relcl, 状况#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (dobj, 达到#VV, 状况#NN)
+            (nsubj, 富贵病#VV, 预防#NN)  (root, ROOT#null, 富贵病#VV)
+            (root, ROOT#null, 吃#VV)  (nn, 稳定#NN, 萝卜#NN)  (nn, 稳定#NN, 可降#NN)  (conj, 稳定#NN, 血脂#NN)  (nn, 稳定#NN, 软化#NN)  (conj, 稳定#NN, 血管#NN)  (nn, 血压#NN, 稳定#NN)  (dobj, 吃#VV, 血压#NN)  (conj, 吃#VV, 预防#VV)  (conj, 胆结石#NN, 冠心病#NN)  (nn, 胆结石#NN, 动脉#NN)  (conj, 胆结石#NN, 硬化#NN)  (nn, 疾病#NN, 胆结石#NN)  (etc, 胆结石#NN, 等#ETC)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+            (nn, 热量#NN, 萝卜#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 少#VA, 热量#NN)  (advmod, 少#VA, 较#AD)  (dep, 有助于#VV, 少#VA)  (nsubj, 多#VA, 纤维素#NN)  (advmod, 多#VA, 较#AD)  (conj, 少#VA, 多#VA)  (loc, 产生#VV, 吃#VV)  (case, 吃#VV, 后#LC)  (advmod, 产生#VV, 易#AD)  (conj, 少#VA, 产生#VV)  (dobj, 产生#VV, 饱胀感#NN)  (nsubj, 有助于#VV, 这些#PN)  (advmod, 有助于#VV, 都#AD)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        减肥  抗癌防癌  除烦  解毒  生津止渴  补脾胃  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.萝卜富含人体所需的营养物质，淀粉酶含量很高，肉质致密，色呈淡绿色，水多味甜、微辣，是著名的生食品种，人称“水果萝卜”。
+            2.萝卜所含热量较少，纤维素较多，吃后易产生饱胀感，常吃有助于减肥。
+            3.萝卜中的芥子油和精纤维可促进胃肠蠕动，有助于体内废物的排出。
+        </rawdata>
+
+        <segment>
+            萝卜  富含  人体  所  需  的  营养  物质  ，  淀粉酶  含量  很  高  ，  肉质  致密  ，  色呈  淡绿色  ，  水  多  味  甜  、  微辣  ，  是  著名  的  生食  品种  ，  人  称  “  水果  萝卜  ”  。
+            萝卜  所含  热量  较  少  ，  纤维素  较  多  ，  吃  后  易  产生  饱胀感  ，  常  吃  有助于  减肥  。
+            萝卜  中的  芥子  油  和  精纤维  可  促进  胃肠  蠕动  ，  有助于  体内  废物  的  排出  。
+        </segment>
+
+        <pos>
+            萝卜#NN  富含#NN  人体#VV  所#MSP  需#VV  的#DEC  营养#VA  物质#NN  ，#PU  淀粉酶#NN  含量#NN  很#AD  高#VA  ，#PU  肉质#VV  致密#NN  ，#PU  色呈#VV  淡绿色#NN  ，#PU  水#NN  多#AD  味#VV  甜#NN  、#PU  微辣#NN  ，#PU  是#VC  著名#VA  的#DEC  生食#JJ  品种#NN  ，#PU  人#NN  称#VV  ``#VV  水果#NN  萝卜#NN  ''#NN  。#PU
+            萝卜#NN  所含#NN  热量#NN  较#AD  少#VA  ，#PU  纤维素#NN  较#AD  多#VA  ，#PU  吃#VV  后#LC  易#AD  产生#VV  饱胀感#NN  ，#PU  常#AD  吃#VV  有助于#VV  减肥#VV  。#PU
+            萝卜#NN  中的#NN  芥子#VV  油#NN  和#CC  精纤维#NN  可#VV  促进#VV  胃肠#NN  蠕动#NN  ，#PU  有助于#VV  体内#NN  废物#NN  的#DEG  排出#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 萝卜#NN)  (nsubj, 人体#VV, 富含#NN)  (root, ROOT#null, 人体#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 物质#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 人体#VV, 物质#NN)  (nn, 含量#NN, 淀粉酶#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 人体#VV, 高#VA)  (conj, 人体#VV, 肉质#VV)  (dobj, 肉质#VV, 致密#NN)  (conj, 肉质#VV, 色呈#VV)  (dobj, 色呈#VV, 淡绿色#NN)  (nsubj, 味#VV, 水#NN)  (advmod, 味#VV, 多#AD)  (conj, 人体#VV, 味#VV)  (conj, 微辣#NN, 甜#NN)  (dobj, 味#VV, 微辣#NN)  (cop, 品种#NN, 是#VC)  (relcl, 品种#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (amod, 品种#NN, 生食#JJ)  (conj, 人体#VV, 品种#NN)  (nsubj, 称#VV, 人#NN)  (conj, 人体#VV, 称#VV)  (ccomp, 称#VV, ``#VV)  (nn, ''#NN, 水果#NN)  (nn, ''#NN, 萝卜#NN)  (dobj, ``#VV, ''#NN)
+            (nn, 热量#NN, 萝卜#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 少#VA, 热量#NN)  (advmod, 少#VA, 较#AD)  (root, ROOT#null, 少#VA)  (nsubj, 多#VA, 纤维素#NN)  (advmod, 多#VA, 较#AD)  (conj, 少#VA, 多#VA)  (loc, 产生#VV, 吃#VV)  (case, 吃#VV, 后#LC)  (advmod, 产生#VV, 易#AD)  (conj, 少#VA, 产生#VV)  (dobj, 产生#VV, 饱胀感#NN)  (advmod, 有助于#VV, 常#AD)  (mmod, 有助于#VV, 吃#VV)  (conj, 产生#VV, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+            (nn, 中的#NN, 萝卜#NN)  (nsubj, 芥子#VV, 中的#NN)  (root, ROOT#null, 芥子#VV)  (conj, 精纤维#NN, 油#NN)  (cc, 精纤维#NN, 和#CC)  (dobj, 芥子#VV, 精纤维#NN)  (mmod, 促进#VV, 可#VV)  (conj, 芥子#VV, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (dep, 芥子#VV, 有助于#VV)  (nn, 废物#NN, 体内#NN)  (assmod, 排出#NN, 废物#NN)  (case, 废物#NN, 的#DEG)  (dobj, 有助于#VV, 排出#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.萝卜适用于烧、拌、做汤，也可作配料和点缀。
+            2.萝卜种类繁多，生吃以汁多辣味少者为好，平时不爱吃凉性食物者以熟食为宜。
+            3.可生食，炒食，做药膳，煮食，或煎汤、捣汁饮，或外敷患处。
+        </rawdata>
+
+        <segment>
+            萝卜  适用  于  烧  、  拌  、  做  汤  ，  也  可  作  配料  和  点缀  。
+            萝卜  种类  繁多  ，  生吃  以  汁多  辣味  少者  为好  ，  平时  不  爱  吃  凉  性  食物  者  以  熟食  为宜  。
+            可  生食  ，  炒食  ，  做  药膳  ，  煮食  ，  或  煎  汤  、  捣汁饮  ，  或  外敷  患处  。
+        </segment>
+
+        <pos>
+            萝卜#NN  适用#VV  于#P  烧#NR  、#PU  拌#NR  、#PU  做#VV  汤#NN  ，#PU  也#AD  可#VV  作#VV  配料#NN  和#CC  点缀#NN  。#PU
+            萝卜#NN  种类#NN  繁多#VV  ，#PU  生吃#NN  以#P  汁多#NN  辣味#NN  少者#VV  为好#NN  ，#PU  平时#AD  不#AD  爱#VV  吃#VV  凉#NN  性#NN  食物#NN  者#NN  以#P  熟食#NN  为宜#VV  。#PU
+            可#VV  生食#NN  ，#PU  炒食#VV  ，#PU  做#VV  药膳#NN  ，#PU  煮食#VV  ，#PU  或#CC  煎#VV  汤#NN  、#PU  捣汁饮#NN  ，#PU  或#CC  外敷#VV  患处#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适用#VV, 萝卜#NN)  (root, ROOT#null, 适用#VV)  (case, 拌#NR, 于#P)  (conj, 拌#NR, 烧#NR)  (prep, 适用#VV, 拌#NR)  (dep, 适用#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (advmod, 作#VV, 也#AD)  (mmod, 作#VV, 可#VV)  (conj, 适用#VV, 作#VV)  (conj, 点缀#NN, 配料#NN)  (cc, 点缀#NN, 和#CC)  (dobj, 作#VV, 点缀#NN)
+            (nn, 种类#NN, 萝卜#NN)  (nsubj, 繁多#VV, 种类#NN)  (root, ROOT#null, 繁多#VV)  (nsubj, 少者#VV, 生吃#NN)  (case, 辣味#NN, 以#P)  (nn, 辣味#NN, 汁多#NN)  (prep, 少者#VV, 辣味#NN)  (ccomp, 繁多#VV, 少者#VV)  (dobj, 少者#VV, 为好#NN)  (advmod, 爱#VV, 平时#AD)  (neg, 爱#VV, 不#AD)  (conj, 少者#VV, 爱#VV)  (nfincl, 者#NN, 吃#VV)  (nn, 食物#NN, 凉#NN)  (nn, 食物#NN, 性#NN)  (dobj, 吃#VV, 食物#NN)  (dobj, 爱#VV, 者#NN)  (case, 熟食#NN, 以#P)  (prep, 为宜#VV, 熟食#NN)  (dep, 爱#VV, 为宜#VV)
+            (root, ROOT#null, 可#VV)  (dobj, 可#VV, 生食#NN)  (conj, 可#VV, 炒食#VV)  (conj, 可#VV, 做#VV)  (dobj, 做#VV, 药膳#NN)  (conj, 可#VV, 煮食#VV)  (cc, 可#VV, 或#CC)  (conj, 可#VV, 煎#VV)  (conj, 捣汁饮#NN, 汤#NN)  (dobj, 煎#VV, 捣汁饮#NN)  (cc, 可#VV, 或#CC)  (dep, 可#VV, 外敷#VV)  (dobj, 外敷#VV, 患处#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101736362655.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

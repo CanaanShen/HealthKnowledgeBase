@@ -1,0 +1,222 @@
+<content>
+
+    <id>
+        94
+    </id>
+
+    <foodname>
+        秋刀鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        竹刀鱼
+    </alias>
+
+    <season>
+        8-10月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝硬化患者忌食。
+        </rawdata>
+
+        <segment>
+            肝硬化  患者  忌食  。
+        </segment>
+
+        <pos>
+            肝硬化#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肝硬化#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 肝硬化#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                125
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            秋刀鱼是颌针鱼目竹刀鱼科秋刀鱼科的唯一一种。其学名Cololabissaira取自日本纪伊半岛当地对此鱼种的名称，其中saira系俄语(сайра)。中文与日文的汉字都是"秋刀鱼"可能是源自于其体型脩长如刀，同时生产季节在秋天的缘故。秋刀鱼在部分东亚地区的食物料理是种很常见的鱼种。体型细圆，棒状；背鳍后有5-6个小鳍，臀鳍后有6-7个小鳍；两颇多突起，但不呈长缘状，牙细弱；体背部深蓝色，腹部银从色，吻端与尾柄后部略带黄色。
+        </rawdata>
+
+        <segment>
+            秋  刀鱼  是  颌针鱼  目  竹  刀  鱼科  秋  刀  鱼科  的  唯一  一  种  。  其  学名  Cololabissaira  取自  日本  纪伊  半岛  当地  对此  鱼种  的  名称  ，  其中  saira  系  俄语  (  сайра  )  。  中文  与  日文  的  汉字  都  是  "  秋  刀鱼  "  可能  是  源自于  其  体型  脩  长  如  刀  ，  同时  生产  季节  在  秋天  的  缘故  。  秋  刀鱼  在  部分  东亚  地区  的  食物  料理  是  种  很  常见  的  鱼种  。  体型  细圆  ，  棒状  ；  背鳍  后  有  5-6  个  小鳍  ，  臀鳍  后  有  6-7  个  小鳍  ；  两  颇  多  突起  ，  但  不  呈  长  缘状  ，  牙  细弱  ；  体  背部  深蓝色  ，  腹部  银从色  ，  吻  端  与  尾柄  后部  略带  黄色  。
+        </segment>
+
+        <pos>
+            秋#NN  刀鱼#NN  是#VC  颌针鱼#CD  目#M  竹#CD  刀#M  鱼科#NN  秋#NN  刀#NN  鱼科#NN  的#DEG  唯一#JJ  一#CD  种#M    。#PU  其#PN  学名#NN  Cololabissaira#NN  取自#VV  日本#NR  纪伊#NR  半岛#NN  当地#NN  对此#NN  鱼种#NN  的#DEG  名称#NN  ，#PU  其中#NN  saira#AD  系#VV  俄语#NN  -LRB-#NN  сайра#NN  -RRB-#NN    。#PU  中文#NN  与#CC  日文#NN  的#DEG  汉字#NN  都#AD  是#VC  ''#NN  秋#NN  刀鱼#NN  ''#NN  可能#VV  是#VC  源自于#NR  其#PN  体型#NN  脩#AD  长#VA  如#P  刀#NN  ，#PU  同时#AD  生产#NN  季节#NN  在#AD  秋天#VA  的#DEC  缘故#NN    。#PU  秋#NN  刀鱼#NN  在#P  部分#CD  东亚#NR  地区#NN  的#DEG  食物#NN  料理#AD  是#VC  种#M  很#AD  常见#VA  的#DEC  鱼种#NN    。#PU  体型#NN  细圆#VV  ，#PU  棒状#VV  ；#PU  背鳍#NN  后#LC  有#VE  5-6#CD  个#M  小鳍#NN  ，#PU  臀鳍#NN  后#LC  有#VE  6-7#CD  个#M  小鳍#NN  ；#PU  两#CD  颇#AD  多#AD  突起#VV  ，#PU  但#AD  不#AD  呈#VV  长#JJ  缘状#NN  ，#PU  牙#VV  细弱#NN  ；#PU  体#VV  背部#NN  深蓝色#NN  ，#PU  腹部#VV  银从色#NN  ，#PU  吻#VV  端#NN  与#CC  尾柄#NN  后部#NN  略带#NN  黄色#JJ    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 刀鱼#NN, 秋#NN)  (nsubj, 是#VC, 刀鱼#NN)  (root, ROOT#null, 是#VC)  (nummod, 目#M, 颌针鱼#CD)  (clf, 鱼科#NN, 目#M)  (nummod, 刀#M, 竹#CD)  (clf, 刀#NN, 刀#M)  (nn, 刀#NN, 鱼科#NN)  (nn, 刀#NN, 秋#NN)  (nn, 鱼科#NN, 刀#NN)  (assmod, 种#M, 鱼科#NN)  (case, 鱼科#NN, 的#DEG)  (amod, 种#M, 唯一#JJ)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (nn, Cololabissaira#NN, 其#PN)  (nn, Cololabissaira#NN, 学名#NN)  (nsubj, 取自#VV, Cololabissaira#NN)  (root, ROOT#null, 取自#VV)  (nn, 半岛#NN, 日本#NR)  (nn, 半岛#NN, 纪伊#NR)  (nn, 鱼种#NN, 半岛#NN)  (nn, 鱼种#NN, 当地#NN)  (nn, 鱼种#NN, 对此#NN)  (assmod, 名称#NN, 鱼种#NN)  (case, 鱼种#NN, 的#DEG)  (dobj, 取自#VV, 名称#NN)  (nsubj, 系#VV, 其中#NN)  (advmod, 系#VV, saira#AD)  (conj, 取自#VV, 系#VV)  (nn, -RRB-#NN, 俄语#NN)  (nn, -RRB-#NN, сайра#NN)   (conj, 日文#NN, 中文#NN)  (cc, 日文#NN, 与#CC)  (assmod, 汉字#NN, 日文#NN)  (case, 日文#NN, 的#DEG)  (nsubj, ''#NN, 汉字#NN)  (advmod, ''#NN, 都#AD)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 秋#NN)  (nn, ''#NN, 刀鱼#NN)  (root, ROOT#null, ''#NN)  (mmod, 缘故#NN, 可能#VV)  (cop, 缘故#NN, 是#VC)  (nn, 体型#NN, 源自于#NR)  (nn, 体型#NN, 其#PN)  (nsubj, 长#VA, 体型#NN)  (advmod, 长#VA, 脩#AD)  (relcl, 缘故#NN, 长#VA)  (case, 刀#NN, 如#P)  (prep, 长#VA, 刀#NN)  (advmod, 秋天#VA, 同时#AD)  (nn, 季节#NN, 生产#NN)  (nsubj, 秋天#VA, 季节#NN)  (advmod, 秋天#VA, 在#AD)  (conj, 长#VA, 秋天#VA)  (mark, 长#VA, 的#DEC)  (conj, ''#NN, 缘故#NN)   (nn, 刀鱼#NN, 秋#NN)  (nsubj, 鱼种#NN, 刀鱼#NN)  (case, 食物#NN, 在#P)  (nummod, 地区#NN, 部分#CD)  (nn, 地区#NN, 东亚#NR)  (assmod, 食物#NN, 地区#NN)  (case, 地区#NN, 的#DEG)  (prep, 鱼种#NN, 食物#NN)  (advmod, 鱼种#NN, 料理#AD)  (cop, 鱼种#NN, 是#VC)  (dep, 鱼种#NN, 种#M)  (advmod, 常见#VA, 很#AD)  (relcl, 鱼种#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (root, ROOT#null, 鱼种#NN)   (nsubj, 细圆#VV, 体型#NN)  (root, ROOT#null, 细圆#VV)  (ccomp, 细圆#VV, 棒状#VV)  (loc, 有#VE, 背鳍#NN)  (case, 背鳍#NN, 后#LC)  (conj, 棒状#VV, 有#VE)  (nummod, 个#M, 5-6#CD)  (clf, 小鳍#NN, 个#M)  (dobj, 有#VE, 小鳍#NN)  (loc, 有#VE, 臀鳍#NN)  (case, 臀鳍#NN, 后#LC)  (conj, 有#VE, 有#VE)  (nummod, 个#M, 6-7#CD)  (clf, 小鳍#NN, 个#M)  (dobj, 有#VE, 小鳍#NN)  (nsubj, 突起#VV, 两#CD)  (advmod, 突起#VV, 颇#AD)  (advmod, 突起#VV, 多#AD)  (dep, 棒状#VV, 突起#VV)  (advmod, 呈#VV, 但#AD)  (neg, 呈#VV, 不#AD)  (conj, 棒状#VV, 呈#VV)  (amod, 缘状#NN, 长#JJ)  (dobj, 呈#VV, 缘状#NN)  (dep, 呈#VV, 牙#VV)  (dobj, 牙#VV, 细弱#NN)  (dep, 呈#VV, 体#VV)  (nn, 深蓝色#NN, 背部#NN)  (dobj, 体#VV, 深蓝色#NN)  (conj, 体#VV, 腹部#VV)  (dobj, 腹部#VV, 银从色#NN)  (conj, 体#VV, 吻#VV)  (conj, 尾柄#NN, 端#NN)  (cc, 尾柄#NN, 与#CC)  (nn, 略带#NN, 尾柄#NN)  (nn, 略带#NN, 后部#NN)  (dobj, 吻#VV, 略带#NN)  (conj, 体#VV, 黄色#JJ)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.抑制高血压、促进脑部发育
+            秋刀鱼体内含有丰富的蛋白质、脂肪酸，据分析，秋刀鱼含有人体不可缺少的廿碳五烯酸(EPA)、廿二碳六烯酸(DHA)等不饱和脂肪酸，EPA、DHA有抑制高血压、心肌梗塞、动脉硬化的作用。DHA被人们称之谓脑黄金，是人类大脑和中枢神经系统发育必需的营养素，有利于婴幼儿的脑部发育。
+            2.预防夜盲症
+            而秋刀鱼中的维生素A比牛肉多了16陪，对夜盲症有很好的预防效果，它所含的维生素E还可以减缓人体衰老速度。
+        </rawdata>
+
+        <segment>
+            抑制  高血压  、  促进  脑部  发育
+            秋  刀鱼  体内  含有  丰富  的  蛋白质  、  脂肪酸  ，  据  分析  ，  秋  刀鱼  含有  人体  不可缺少  的  廿碳  五烯  酸  (  EPA  )  、  廿二碳六烯酸  (  DHA  )  等  不  饱和  脂肪酸  ，  EPA  、  DHA  有  抑制  高血压  、  心肌梗塞  、  动脉  硬化  的  作用  。  DHA  被  人们  称之  谓  脑  黄金  ，  是  人类  大脑  和  中枢  神经  系统  发育  必需  的  营养素  ，  有利于  婴幼儿  的  脑部  发育  。
+            预防  夜盲症
+            而  秋  刀鱼  中  的  维生素A  比  牛肉  多  了  16  陪  ，  对  夜盲症  有  很  好  的  预防  效果  ，  它  所含  的  维生素E  还  可以  减缓  人体  衰老  速度  。
+        </segment>
+
+        <pos>
+            抑制#VV  高血压#NN  、#PU  促进#VV  脑部#NN  发育#NN
+            秋#NN  刀鱼#NN  体内#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  、#PU  脂肪酸#NN  ，#PU  据#P  分析#NN  ，#PU  秋#NT  刀鱼#CD  含有#VV  人体#NN  不可缺少#NN  的#DEG  廿碳#NN  五烯#CD  酸#NR  -LRB-#NR  EPA#NN  -RRB-#NN  、#PU  廿二碳六烯酸#CD  -LRB-#NN  DHA#NN  -RRB-#NN  等#ETC  不#AD  饱和#VV  脂肪酸#NN  ，#PU  EPA#NR  、#PU  DHA#NR  有#VE  抑制#VV  高血压#NN  、#PU  心肌梗塞#NN  、#PU  动脉#NN  硬化#NN  的#DEC  作用#NN    。#PU  DHA#NN  被#LB  人们#NN  称之#NN  谓#VV  脑#VV  黄金#NN  ，#PU  是#VC  人类#NN  大脑#NN  和#CC  中枢#NN  神经#NN  系统#NN  发育#VV  必需#VV  的#DEC  营养素#NN  ，#PU  有利于#VV  婴幼儿#NN  的#DEC  脑部#NN  发育#VV    。#PU    。#PU
+            预防#NN  夜盲症#VV
+            而#AD  秋#NN  刀鱼#NN  中#LC  的#DEG  维生素A#NN  比#P  牛肉#NN  多#VA  了#AS  16#CD  陪#NN  ，#PU  对#P  夜盲症#NN  有#VE  很#AD  好#VA  的#DEC  预防#NN  效果#NN  ，#PU  它#PN  所含#VA  的#DEC  维生素E#NN  还#AD  可以#VV  减缓#VV  人体#NN  衰老#NN  速度#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 抑制#VV)  (dobj, 抑制#VV, 高血压#NN)  (conj, 抑制#VV, 促进#VV)  (nn, 发育#NN, 脑部#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 体内#NN, 秋#NN)  (nn, 体内#NN, 刀鱼#NN)  (nsubj, 含有#VV, 体内#NN)  (root, ROOT#null, 含有#VV)  (relcl, 脂肪酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 脂肪酸#NN, 蛋白质#NN)  (dobj, 含有#VV, 脂肪酸#NN)  (case, 分析#NN, 据#P)  (prep, 饱和#VV, 分析#NN)  (dep, 五烯#CD, 秋#NT)  (dep, 五烯#CD, 刀鱼#CD)  (dep, 五烯#CD, 含有#VV)  (nn, 不可缺少#NN, 人体#NN)  (assmod, 廿碳#NN, 不可缺少#NN)  (case, 不可缺少#NN, 的#DEG)  (dobj, 含有#VV, 廿碳#NN)  (nsubj, 饱和#VV, 五烯#CD)  (nn, -RRB-#NN, 酸#NR)  (nn, -RRB-#NN, EPA#NN)  (nummod, -RRB-#NN, 廿二碳六烯酸#CD)  (nn, -RRB-#NN, DHA#NN)  (etc, -RRB-#NN, 等#ETC)  (neg, 饱和#VV, 不#AD)  (conj, 含有#VV, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (conj, DHA#NR, EPA#NR)  (dep, 有#VE, DHA#NR)  (conj, 含有#VV, 有#VE)  (relcl, 作用#NN, 抑制#VV)  (conj, 动脉#NN, 高血压#NN)  (conj, 动脉#NN, 心肌梗塞#NN)  (nn, 硬化#NN, 动脉#NN)  (dobj, 抑制#VV, 硬化#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nsubjpass, 发育#VV, DHA#NN)  (auxpass, 发育#VV, 被#LB)  (nn, 称之#NN, 人们#NN)  (nsubj, 脑#VV, 称之#NN)  (mmod, 脑#VV, 谓#VV)  (relcl, 脑部#NN, 脑#VV)  (dobj, 脑#VV, 黄金#NN)  (cop, 营养素#NN, 是#VC)  (nn, 系统#NN, 人类#NN)  (conj, 系统#NN, 大脑#NN)  (cc, 系统#NN, 和#CC)  (nn, 系统#NN, 中枢#NN)  (nn, 系统#NN, 神经#NN)  (nsubj, 必需#VV, 系统#NN)  (dep, 必需#VV, 发育#VV)  (relcl, 营养素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 脑#VV, 营养素#NN)  (conj, 脑#VV, 有利于#VV)  (dobj, 有利于#VV, 婴幼儿#NN)  (mark, 脑#VV, 的#DEC)  (nsubj, 发育#VV, 脑部#NN)  (root, ROOT#null, 发育#VV)   (root, ROOT#null, null#null)
+            (nsubj, 夜盲症#VV, 预防#NN)  (root, ROOT#null, 夜盲症#VV)
+            (advmod, 减缓#VV, 而#AD)  (nn, 刀鱼#NN, 秋#NN)  (assmod, 维生素A#NN, 刀鱼#NN)  (case, 刀鱼#NN, 中#LC)  (case, 刀鱼#NN, 的#DEG)  (nsubj, 多#VA, 维生素A#NN)  (case, 牛肉#NN, 比#P)  (prep, 多#VA, 牛肉#NN)  (relcl, 维生素E#NN, 多#VA)  (asp, 多#VA, 了#AS)  (nummod, 陪#NN, 16#CD)  (dobj, 多#VA, 陪#NN)  (case, 夜盲症#NN, 对#P)  (prep, 有#VE, 夜盲症#NN)  (dep, 多#VA, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 效果#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 效果#NN, 预防#NN)  (dobj, 有#VE, 效果#NN)  (nsubj, 所含#VA, 它#PN)  (conj, 多#VA, 所含#VA)  (mark, 多#VA, 的#DEC)  (nsubj, 减缓#VV, 维生素E#NN)  (advmod, 减缓#VV, 还#AD)  (mmod, 减缓#VV, 可以#VV)  (root, ROOT#null, 减缓#VV)  (nn, 速度#NN, 人体#NN)  (nn, 速度#NN, 衰老#NN)  (dobj, 减缓#VV, 速度#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.秋刀鱼体内含有丰富的蛋白质、不饱和脂肪酸和维生素等营养元素，它的蛋白质含量是所有鱼中的第一名。
+            2.秋刀鱼含有EPA和DHA，可降低血胆固醇、三醇肝油脂，且降低血压，避免血凝块，有益于高血压或冠状动脉硬化者；含有的丰富的维生素B可以延缓衰老；秋刀鱼背上肉色发黑的部分，含有很多防治贫血的维生素B12。
+        </rawdata>
+
+        <segment>
+            秋  刀鱼  体内  含有  丰富  的  蛋白质  、  不  饱和  脂肪酸  和  维生素  等  营养  元素  ，  它  的  蛋白质  含量  是  所有  鱼  中  的  第一  名  。
+            秋  刀鱼  含有  EPA  和  DHA  ，  可降低  血  胆固醇  、  三醇肝  油脂  ，  且  降低  血压  ，  避免  血  凝块  ，  有益于  高血压  或  冠状  动脉  硬化  者  ；  含有  的  丰富  的  维生素  B  可以  延缓  衰老  ；  秋  刀鱼  背上  肉色  发黑  的  部分  ，  含有  很多  防治  贫血  的  维生素  B  12  。
+        </segment>
+
+        <pos>
+            秋#NN  刀鱼#NN  体内#NN  含有#NN  丰富#VA  的#DEC  蛋白质#NN  、#PU  不#AD  饱和#JJ  脂肪酸#NN  和#CC  维生素#NN  等#ETC  营养#VA  元素#NN  ，#PU  它#PN  的#DEG  蛋白质#NN  含量#NN  是#VC  所有#DT  鱼#NN  中#LC  的#DEG  第一#OD  名#M  。#PU
+            秋#NT  刀鱼#AD  含有#VV  EPA#NN  和#CC  DHA#NN  ，#PU  可降低#VV  血#NN  胆固醇#NN  、#PU  三醇肝#CD  油脂#NN  ，#PU  且#CC  降低#VV  血压#NN  ，#PU  避免#VV  血#NN  凝块#NN  ，#PU  有益于#VV  高血压#NN  或#CC  冠状#VV  动脉#NN  硬化#NN  者#NN  ；#PU  含有#VA  的#DEC  丰富#VA  的#DEC  维生素#NN  B#NN  可以#VV  延缓#VV  衰老#NN  ；#PU  秋#NT  刀鱼#AD  背上#VV  肉色#NN  发黑#NN  的#DEG  部分#NN  ，#PU  含有#NR  很多#CD  防治#NN  贫血#NN  的#DEG  维生素#NN  B#VV  12#CD  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 刀鱼#NN, 秋#NN)  (nn, 含有#NN, 刀鱼#NN)  (nn, 含有#NN, 体内#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素#NN, 蛋白质#NN)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (conj, 维生素#NN, 脂肪酸#NN)  (cc, 维生素#NN, 和#CC)  (nn, 元素#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (relcl, 维生素#NN, 营养#VA)  (relcl, 元素#NN, 营养#VA)  (dep, 是#VC, 元素#NN)  (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (det, 鱼#NN, 所有#DT)  (assmod, 名#M, 鱼#NN)  (case, 鱼#NN, 中#LC)  (case, 鱼#NN, 的#DEG)  (ordmod, 名#M, 第一#OD)  (dep, 是#VC, 名#M)
+            (tmod, 含有#VV, 秋#NT)  (advmod, 含有#VV, 刀鱼#AD)  (root, ROOT#null, 含有#VV)  (conj, DHA#NN, EPA#NN)  (cc, DHA#NN, 和#CC)  (dobj, 含有#VV, DHA#NN)  (conj, 含有#VV, 可降低#VV)  (nn, 胆固醇#NN, 血#NN)  (conj, 油脂#NN, 胆固醇#NN)  (nummod, 油脂#NN, 三醇肝#CD)  (dobj, 可降低#VV, 油脂#NN)  (cc, 含有#VV, 且#CC)  (conj, 含有#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (conj, 含有#VV, 避免#VV)  (nn, 凝块#NN, 血#NN)  (dobj, 避免#VV, 凝块#NN)  (conj, 含有#VV, 有益于#VV)  (dobj, 有益于#VV, 高血压#NN)  (cc, 含有#VV, 或#CC)  (conj, 含有#VV, 冠状#VV)  (nn, 者#NN, 动脉#NN)  (nn, 者#NN, 硬化#NN)  (dobj, 冠状#VV, 者#NN)  (relcl, B#NN, 含有#VA)  (mark, 含有#VA, 的#DEC)  (relcl, B#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, B#NN, 维生素#NN)  (nsubj, 延缓#VV, B#NN)  (mmod, 延缓#VV, 可以#VV)  (conj, 含有#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (tmod, 背上#VV, 秋#NT)  (advmod, 背上#VV, 刀鱼#AD)  (conj, 含有#VV, 背上#VV)  (nn, 发黑#NN, 肉色#NN)  (assmod, 部分#NN, 发黑#NN)  (case, 发黑#NN, 的#DEG)  (dobj, 背上#VV, 部分#NN)  (nn, 防治#NN, 含有#NR)  (nummod, 防治#NN, 很多#CD)  (nn, 贫血#NN, 防治#NN)  (assmod, 维生素#NN, 贫血#NN)  (case, 贫血#NN, 的#DEG)  (nsubj, B#VV, 维生素#NN)  (conj, 含有#VV, B#VV)  (range, B#VV, 12#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.秋刀鱼等青皮红肉鱼类在适度环境中会产生组胺，引起组胺中毒（过敏性中毒），选购时，要特别注意鲜度质量，尽量加醋烧煮或油炸。建议秋刀鱼装碟时，可洒上炒过的白芝麻，或者挤点新鲜的柠檬汁提味。
+            2.煎秋刀鱼时，最好只煎鱼肉那一面，如果煎鱼皮那一面，鱼皮会容易因粘锅而破掉，不太美观。
+            3.焖煮秋刀鱼时，中途要揭盖铲松秋刀鱼，避免它粘锅烧糊。
+            4.做秋刀鱼的过程中，酱油和鲍汁已经够味，不需要放盐，否则会过咸了。
+            5.秋刀鱼是日本料理中最具代表性的秋季食材之一，最常见的烹制方式是将整条鱼盐烤，搭配白饭、味噌汤、萝卜泥一同食用。秋刀鱼的鱼肠有苦味，但是大多数食客并不把鱼肠去除，而是用酱油或柠檬汁来给盐烤秋刀鱼调味。他们认为酱油的咸鲜味或柠檬的酸味与鱼本身的苦味相结合，才是秋刀鱼的最佳风味。
+            6.盐烤秋刀鱼也是韩国料理中的一道菜肴。蒲烧秋刀鱼是另一种比较常见的烹制方式。
+            7.秋刀鱼生鱼片近年来开始逐渐流行起来。秋刀鱼寿司则并不是全日本十分普及的菜式，只是纪伊半岛、志摩半岛等一些沿海地区的区域性食物。制作寿司用的秋刀鱼肉要先用盐和醋（有时用柠檬汁）进行腌制后方可使用。
+        </rawdata>
+
+        <segment>
+            秋  刀鱼  等  青皮  红  肉  鱼类  在  适度  环境  中  会  产生  组胺  ，  引起  组胺  中毒  （  过敏性  中毒  ）  ，  选购  时  ，  要  特别  注意  鲜度  质量  ，  尽量  加醋  烧煮  或  油炸  。  建议  秋  刀鱼  装碟  时  ，  可  洒上  炒过  的  白  芝麻  ，  或者  挤  点  新鲜  的  柠檬汁  提味  。
+            煎  秋  刀鱼  时  ，  最好  只  煎  鱼肉  那  一  面  ，  如果  煎鱼  皮  那  一  面  ，  鱼  皮  会  容易  因  粘锅  而  破掉  ，  不  太  美观  。
+            焖煮  秋  刀鱼  时  ，  中途  要  揭盖  铲松  秋  刀鱼  ，  避免  它  粘锅烧糊  。
+            做  秋  刀鱼  的  过程  中  ，  酱油  和  鲍汁  已经  够味  ，  不  需要  放  盐  ，  否则  会  过  咸  了  。
+            秋  刀鱼  是  日本  料理  中  最  具  代表性  的  秋季  食材  之一  ，  最  常见  的  烹制  方式  是  将  整  条  鱼  盐  烤  ，  搭配  白饭  、  味噌  汤  、  萝卜泥  一同  食用  。  秋  刀鱼  的  鱼  肠  有  苦味  ，  但是  大多数  食客  并不  把  鱼  肠  去除  ，  而  是  用  酱油  或  柠檬汁  来  给  盐  烤  秋  刀鱼  调味  。  他们  认为  酱油  的  咸  鲜味  或  柠檬  的  酸味  与  鱼  本身  的  苦味  相  结合  ，  才  是  秋  刀鱼  的  最佳  风味  。
+            盐  烤  秋  刀鱼  也  是  韩国  料理  中  的  一  道  菜肴  。  蒲烧  秋  刀鱼  是  另  一  种  比较  常见  的  烹制  方式  。
+            秋  刀鱼  生鱼片  近年  来  开始  逐渐  流行  起来  。  秋  刀鱼  寿司  则  并不  是  全  日本  十分  普及  的  菜式  ，  只是  纪伊  半岛  、  志摩  半岛  等  一些  沿海  地区  的  区域性  食物  。  制作  寿司  用  的  秋刀  鱼肉  要  先用  盐  和  醋  （  有时  用  柠檬汁  ）  进行  腌制  后方  可  使用  。
+        </segment>
+
+        <pos>
+            秋#NN  刀鱼#NN  等#ETC  青皮#NN  红#JJ  肉#NN  鱼类#NN  在#P  适度#JJ  环境#NN  中#LC  会#VV  产生#VV  组胺#NN  ，#PU  引起#VV  组胺#NN  中毒#VV  （#PU  过敏性#AD  中毒#VV  ）#PU  ，#PU  选购#NN  时#LC  ，#PU  要#VV  特别#AD  注意#VV  鲜度#NN  质量#NN  ，#PU  尽量#AD  加醋#VV  烧煮#NN  或#CC  油炸#NN    。#PU  建议#NN  秋#NT  刀鱼#VV  装碟#NN  时#LC  ，#PU  可#VV  洒上#VV  炒过#NN  的#DEG  白#JJ  芝麻#NN  ，#PU  或者#CC  挤#VV  点#M  新鲜#VA  的#DEC  柠檬汁#NN  提味#NN    。#PU    。#PU
+            煎#NN  秋#NN  刀鱼#NN  时#LC  ，#PU  最好#JJ  只#AD  煎#VV  鱼肉#NN  那#DT  一#CD  面#NN  ，#PU  如果#CS  煎鱼#AD  皮#VV  那#DT  一#CD  面#NN  ，#PU  鱼#NN  皮#NN  会#VV  容易#VA  因#P  粘锅#NN  而#MSP  破掉#VV  ，#PU  不#AD  太#AD  美观#VV  。#PU
+            焖煮#NN  秋#NN  刀鱼#NN  时#LC  ，#PU  中途#NN  要#VV  揭盖#VV  铲松#NN  秋#NN  刀鱼#NN  ，#PU  避免#VV  它#PN  粘锅烧糊#NN  。#PU
+            做#VV  秋#NN  刀鱼#NN  的#DEC  过程#NN  中#LC  ，#PU  酱油#NR  和#CC  鲍汁#NR  已经#AD  够味#VV  ，#PU  不#AD  需要#VV  放#VV  盐#NN  ，#PU  否则#AD  会#VV  过#AD  咸#VV  了#AS  。#PU
+            秋#NN  刀鱼#NN  是#VC  日本#NR  料理#NN  中#LC  最#AD  具#VV  代表性#NN  的#DEC  秋季#NT  食材#NN  之一#NN  ，#PU  最#AD  常见#VA  的#DEC  烹制#NN  方式#NN  是#VC  将#BA  整#DT  条#M  鱼#NN  盐#NN  烤#VV  ，#PU  搭配#NN  白饭#NN  、#PU  味噌#NN  汤#NN  、#PU  萝卜泥#NN  一同#AD  食用#VV    。#PU  秋#NN  刀鱼#NN  的#DEG  鱼#NN  肠#AD  有#VE  苦味#NN  ，#PU  但是#AD  大多数#CD  食客#NN  并不#NN  把#BA  鱼#NN  肠#VV  去除#NN  ，#PU  而#MSP  是#VC  用#P  酱油#NN  或#CC  柠檬汁#NN  来#LC  给#P  盐#NN  烤#VV  秋#NN  刀鱼#NN  调味#NN    。#PU  他们#PN  认为#VV  酱油#NN  的#DEG  咸#NN  鲜味#NN  或#CC  柠檬#NN  的#DEG  酸味#NN  与#P  鱼#NN  本身#PN  的#DEG  苦味#NN  相#AD  结合#VV  ，#PU  才#AD  是#VC  秋#NN  刀鱼#NN  的#DEG  最佳#JJ  风味#NN    。#PU    。#PU
+            盐#NN  烤#NN  秋#NN  刀鱼#NN  也#AD  是#VC  韩国#NR  料理#NN  中#LC  的#DEG  一#CD  道#NN  菜肴#NN    。#PU  蒲烧#NN  秋#NN  刀鱼#NN  是#VC  另#AD  一#CD  种#M  比较#AD  常见#VA  的#DEC  烹制#NN  方式#NN    。#PU    。#PU
+            秋#NN  刀鱼#NN  生鱼片#NN  近年#NT  来#LC  开始#VV  逐渐#AD  流行#VV  起来#VV    。#PU  秋#NN  刀鱼#NN  寿司#NN  则#AD  并不#AD  是#VC  全#DT  日本#NR  十分#AD  普及#VA  的#DEC  菜式#NN  ，#PU  只是#AD  纪伊#VV  半岛#NN  、#PU  志摩#NN  半岛#NN  等#ETC  一些#CD  沿海#NN  地区#NN  的#DEG  区域性#JJ  食物#NN    。#PU  制作#VV  寿司#NN  用#VV  的#DEC  秋刀#NN  鱼肉#NN  要#VV  先用#VV  盐#NN  和#CC  醋#NN  （#PU  有时#AD  用#VV  柠檬汁#VV  ）#PU  进行#VV  腌制#NN  后方#NN  可#VV  使用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 刀鱼#NN, 秋#NN)  (nn, 青皮#NN, 刀鱼#NN)  (etc, 刀鱼#NN, 等#ETC)  (nn, 肉#NN, 青皮#NN)  (amod, 肉#NN, 红#JJ)  (nn, 鱼类#NN, 肉#NN)  (nsubj, 产生#VV, 鱼类#NN)  (case, 环境#NN, 在#P)  (amod, 环境#NN, 适度#JJ)  (prep, 产生#VV, 环境#NN)  (case, 环境#NN, 中#LC)  (mmod, 产生#VV, 会#VV)  (root, ROOT#null, 产生#VV)  (dobj, 产生#VV, 组胺#NN)  (conj, 产生#VV, 引起#VV)  (dobj, 引起#VV, 组胺#NN)  (conj, 引起#VV, 中毒#VV)  (advmod, 中毒#VV, 过敏性#AD)  (dep, 中毒#VV, 中毒#VV)  (loc, 注意#VV, 选购#NN)  (case, 选购#NN, 时#LC)  (mmod, 注意#VV, 要#VV)  (advmod, 注意#VV, 特别#AD)  (dep, 产生#VV, 注意#VV)  (nn, 质量#NN, 鲜度#NN)  (dobj, 注意#VV, 质量#NN)  (advmod, 加醋#VV, 尽量#AD)  (conj, 产生#VV, 加醋#VV)  (conj, 油炸#NN, 烧煮#NN)  (cc, 油炸#NN, 或#CC)  (dobj, 加醋#VV, 油炸#NN)   (nsubj, 洒上#VV, 建议#NN)  (tmod, 洒上#VV, 秋#NT)  (loc, 洒上#VV, 刀鱼#VV)  (dobj, 刀鱼#VV, 装碟#NN)  (case, 刀鱼#VV, 时#LC)  (mmod, 洒上#VV, 可#VV)  (root, ROOT#null, 洒上#VV)  (assmod, 芝麻#NN, 炒过#NN)  (case, 炒过#NN, 的#DEG)  (amod, 芝麻#NN, 白#JJ)  (dobj, 洒上#VV, 芝麻#NN)  (cc, 洒上#VV, 或者#CC)  (conj, 洒上#VV, 挤#VV)  (dep, 提味#NN, 点#M)  (relcl, 提味#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 提味#NN, 柠檬汁#NN)  (dobj, 挤#VV, 提味#NN)   (root, ROOT#null, null#null)
+            (nn, 刀鱼#NN, 煎#NN)  (nn, 刀鱼#NN, 秋#NN)  (loc, 皮#VV, 刀鱼#NN)  (case, 刀鱼#NN, 时#LC)  (amod, 面#NN, 最好#JJ)  (advmod, 煎#VV, 只#AD)  (relcl, 面#NN, 煎#VV)  (dobj, 煎#VV, 鱼肉#NN)  (det, 面#NN, 那#DT)  (dep, 那#DT, 一#CD)  (nsubj, 皮#VV, 面#NN)  (advmod, 皮#VV, 如果#CS)  (advmod, 皮#VV, 煎鱼#AD)  (root, ROOT#null, 皮#VV)  (det, 面#NN, 那#DT)  (dep, 那#DT, 一#CD)  (dobj, 皮#VV, 面#NN)  (nn, 皮#NN, 鱼#NN)  (nsubj, 容易#VA, 皮#NN)  (mmod, 容易#VA, 会#VV)  (conj, 皮#VV, 容易#VA)  (case, 粘锅#NN, 因#P)  (prep, 破掉#VV, 粘锅#NN)  (prtmod, 破掉#VV, 而#MSP)  (dep, 容易#VA, 破掉#VV)  (neg, 美观#VV, 不#AD)  (advmod, 美观#VV, 太#AD)  (conj, 皮#VV, 美观#VV)
+            (nn, 刀鱼#NN, 焖煮#NN)  (nn, 刀鱼#NN, 秋#NN)  (loc, 揭盖#VV, 刀鱼#NN)  (case, 刀鱼#NN, 时#LC)  (nsubj, 揭盖#VV, 中途#NN)  (mmod, 揭盖#VV, 要#VV)  (root, ROOT#null, 揭盖#VV)  (nn, 刀鱼#NN, 铲松#NN)  (nn, 刀鱼#NN, 秋#NN)  (dobj, 揭盖#VV, 刀鱼#NN)  (dep, 揭盖#VV, 避免#VV)  (nn, 粘锅烧糊#NN, 它#PN)  (dobj, 避免#VV, 粘锅烧糊#NN)
+            (relcl, 过程#NN, 做#VV)  (nn, 刀鱼#NN, 秋#NN)  (dobj, 做#VV, 刀鱼#NN)  (mark, 做#VV, 的#DEC)  (loc, 够味#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (conj, 鲍汁#NR, 酱油#NR)  (cc, 鲍汁#NR, 和#CC)  (nsubj, 够味#VV, 鲍汁#NR)  (xsubj, 放#VV, 鲍汁#NR)  (advmod, 够味#VV, 已经#AD)  (root, ROOT#null, 够味#VV)  (neg, 放#VV, 不#AD)  (mmod, 放#VV, 需要#VV)  (ccomp, 够味#VV, 放#VV)  (dobj, 放#VV, 盐#NN)  (advmod, 咸#VV, 否则#AD)  (mmod, 咸#VV, 会#VV)  (advmod, 咸#VV, 过#AD)  (conj, 够味#VV, 咸#VV)  (asp, 咸#VV, 了#AS)
+            (nn, 刀鱼#NN, 秋#NN)  (nsubj, 之一#NN, 刀鱼#NN)  (cop, 之一#NN, 是#VC)  (nn, 料理#NN, 日本#NR)  (loc, 具#VV, 料理#NN)  (case, 料理#NN, 中#LC)  (advmod, 具#VV, 最#AD)  (relcl, 之一#NN, 具#VV)  (dobj, 具#VV, 代表性#NN)  (mark, 具#VV, 的#DEC)  (nn, 食材#NN, 秋季#NT)  (nn, 之一#NN, 食材#NN)  (root, ROOT#null, 之一#NN)  (advmod, 常见#VA, 最#AD)  (relcl, 方式#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 方式#NN, 烹制#NN)  (nsubj, 烤#VV, 方式#NN)  (cop, 烤#VV, 是#VC)  (ba, 烤#VV, 将#BA)  (det, 鱼#NN, 整#DT)  (clf, 整#DT, 条#M)  (nn, 盐#NN, 鱼#NN)  (nsubj, 烤#VV, 盐#NN)  (conj, 之一#NN, 烤#VV)  (nn, 萝卜泥#NN, 搭配#NN)  (conj, 萝卜泥#NN, 白饭#NN)  (nn, 萝卜泥#NN, 味噌#NN)  (conj, 萝卜泥#NN, 汤#NN)  (nsubj, 食用#VV, 萝卜泥#NN)  (advmod, 食用#VV, 一同#AD)  (conj, 之一#NN, 食用#VV)   (nn, 刀鱼#NN, 秋#NN)  (assmod, 鱼#NN, 刀鱼#NN)  (case, 刀鱼#NN, 的#DEG)  (nsubj, 有#VE, 鱼#NN)  (advmod, 有#VE, 肠#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 苦味#NN)  (advmod, 肠#VV, 但是#AD)  (nummod, 并不#NN, 大多数#CD)  (nn, 并不#NN, 食客#NN)  (nsubj, 肠#VV, 并不#NN)  (ba, 肠#VV, 把#BA)  (nsubj, 肠#VV, 鱼#NN)  (conj, 有#VE, 肠#VV)  (dobj, 肠#VV, 去除#NN)  (prtmod, 烤#VV, 而#MSP)  (cop, 烤#VV, 是#VC)  (case, 柠檬汁#NN, 用#P)  (conj, 柠檬汁#NN, 酱油#NN)  (cc, 柠檬汁#NN, 或#CC)  (prep, 烤#VV, 柠檬汁#NN)  (case, 柠檬汁#NN, 来#LC)  (case, 盐#NN, 给#P)  (prep, 烤#VV, 盐#NN)  (dep, 肠#VV, 烤#VV)  (nn, 调味#NN, 秋#NN)  (nn, 调味#NN, 刀鱼#NN)  (dobj, 烤#VV, 调味#NN)   (nsubj, 认为#VV, 他们#PN)  (root, ROOT#null, 认为#VV)  (assmod, 鲜味#NN, 酱油#NN)  (case, 酱油#NN, 的#DEG)  (nn, 鲜味#NN, 咸#NN)  (conj, 酸味#NN, 鲜味#NN)  (cc, 酸味#NN, 或#CC)  (assmod, 酸味#NN, 柠檬#NN)  (case, 柠檬#NN, 的#DEG)  (nsubj, 结合#VV, 酸味#NN)  (case, 苦味#NN, 与#P)  (nn, 苦味#NN, 鱼#NN)  (assmod, 苦味#NN, 本身#PN)  (case, 本身#PN, 的#DEG)  (prep, 结合#VV, 苦味#NN)  (advmod, 结合#VV, 相#AD)  (ccomp, 认为#VV, 结合#VV)  (advmod, 风味#NN, 才#AD)  (cop, 风味#NN, 是#VC)  (nn, 刀鱼#NN, 秋#NN)  (assmod, 风味#NN, 刀鱼#NN)  (case, 刀鱼#NN, 的#DEG)  (amod, 风味#NN, 最佳#JJ)  (dep, 结合#VV, 风味#NN)   (root, ROOT#null, null#null)
+            (nn, 烤#NN, 盐#NN)  (nn, 刀鱼#NN, 烤#NN)  (nn, 刀鱼#NN, 秋#NN)  (nsubj, 菜肴#NN, 刀鱼#NN)  (advmod, 菜肴#NN, 也#AD)  (cop, 菜肴#NN, 是#VC)  (nn, 料理#NN, 韩国#NR)  (assmod, 菜肴#NN, 料理#NN)  (case, 料理#NN, 中#LC)  (case, 料理#NN, 的#DEG)  (nummod, 菜肴#NN, 一#CD)  (nn, 菜肴#NN, 道#NN)  (root, ROOT#null, 菜肴#NN)   (nn, 刀鱼#NN, 蒲烧#NN)  (nn, 刀鱼#NN, 秋#NN)  (nsubj, 方式#NN, 刀鱼#NN)  (cop, 方式#NN, 是#VC)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (clf, 方式#NN, 种#M)  (advmod, 常见#VA, 比较#AD)  (relcl, 方式#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 方式#NN, 烹制#NN)  (root, ROOT#null, 方式#NN)   (root, ROOT#null, null#null)
+            (nn, 生鱼片#NN, 秋#NN)  (nn, 生鱼片#NN, 刀鱼#NN)  (nsubj, 流行#VV, 生鱼片#NN)  (loc, 流行#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (mmod, 流行#VV, 开始#VV)  (advmod, 流行#VV, 逐渐#AD)  (root, ROOT#null, 流行#VV)  (comod, 流行#VV, 起来#VV)   (nn, 寿司#NN, 秋#NN)  (nn, 寿司#NN, 刀鱼#NN)  (nsubj, 菜式#NN, 寿司#NN)  (advmod, 菜式#NN, 则#AD)  (advmod, 菜式#NN, 并不#AD)  (cop, 菜式#NN, 是#VC)  (det, 日本#NR, 全#DT)  (nsubj, 普及#VA, 日本#NR)  (advmod, 普及#VA, 十分#AD)  (relcl, 菜式#NN, 普及#VA)  (mark, 普及#VA, 的#DEC)  (root, ROOT#null, 菜式#NN)  (advmod, 纪伊#VV, 只是#AD)  (conj, 菜式#NN, 纪伊#VV)  (conj, 半岛#NN, 半岛#NN)  (nn, 半岛#NN, 志摩#NN)  (nn, 地区#NN, 半岛#NN)  (etc, 半岛#NN, 等#ETC)  (nummod, 地区#NN, 一些#CD)  (nn, 地区#NN, 沿海#NN)  (assmod, 食物#NN, 地区#NN)  (case, 地区#NN, 的#DEG)  (amod, 食物#NN, 区域性#JJ)  (dobj, 纪伊#VV, 食物#NN)   (relcl, 鱼肉#NN, 制作#VV)  (dobj, 制作#VV, 寿司#NN)  (conj, 制作#VV, 用#VV)  (mark, 制作#VV, 的#DEC)  (nn, 鱼肉#NN, 秋刀#NN)  (nsubj, 先用#VV, 鱼肉#NN)  (mmod, 先用#VV, 要#VV)  (root, ROOT#null, 先用#VV)  (conj, 醋#NN, 盐#NN)  (cc, 醋#NN, 和#CC)  (dobj, 先用#VV, 醋#NN)  (advmod, 柠檬汁#VV, 有时#AD)  (dep, 柠檬汁#VV, 用#VV)  (dep, 先用#VV, 柠檬汁#VV)  (dep, 先用#VV, 进行#VV)  (nn, 后方#NN, 腌制#NN)  (dobj, 进行#VV, 后方#NN)  (dep, 使用#VV, 可#VV)  (conj, 进行#VV, 使用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100936473058.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

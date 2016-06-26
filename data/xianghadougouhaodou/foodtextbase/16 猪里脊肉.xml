@@ -1,0 +1,354 @@
+<content>
+
+    <id>
+        16
+    </id>
+
+    <foodname>
+        猪里脊肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        里脊、梅肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热痰滞内蕴者慎服；肥胖、血脂较高者不宜多食。
+        </rawdata>
+
+        <segment>
+            湿热  痰滞  内蕴  者  慎服  ；  肥胖  、  血脂  较  高者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            湿热#NN  痰滞#NN  内蕴#NN  者#NN  慎服#VV  ；#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  不#AD  宜#NR  多#CD  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 内蕴#NN, 湿热#NN)  (nn, 内蕴#NN, 痰滞#NN)  (nn, 者#NN, 内蕴#NN)  (nsubj, 慎服#VV, 者#NN)  (root, ROOT#null, 慎服#VV)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (ccomp, 慎服#VV, 高者#VV)  (neg, 高者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 高者#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                331
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                14.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                30.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                69
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                162
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                57.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪里脊一般指猪脊椎骨内侧的条状嫩肉，猪脊肉分外脊和里脊，处在脊背位置，脊背上面的是外脊，贯穿整个脊背，所以又称为通脊、扁担肉、硬脊，是较嫩的瘦肉（肉店里叫3#肉，有的人也把它叫里脊）；里脊位于外脊下侧，从腰子到分水骨之间的一条肉，呈长条圆形，一头稍细，是最嫩的肉（也有叫腰柳肉的）。由于里脊分量太少（一扇肉只有一条里脊和外脊），做菜时往往用外脊替代里脊。
+            猪肉是目前人们餐桌上重要的动物性食品之一，猪脊肉含有人体生长的发育所需的丰富的优质蛋白、脂肪、维生素等，而且肉质较嫩，易消化。
+        </rawdata>
+
+        <segment>
+            猪  里脊  一般  指  猪  脊椎骨  内侧  的  条状  嫩肉  ，  猪脊  肉  分外  脊和  里脊  ，  处在  脊背  位置  ，  脊背  上面  的  是  外脊  ，  贯穿  整个  脊背  ，  所以  又  称为  通脊  、  扁担  肉  、  硬脊  ，  是  较  嫩的  瘦肉  （  肉店  里  叫  3#肉  ，  有的  人  也  把  它  叫  里脊  ）  ；  里脊  位于  外脊  下侧  ，  从  腰子  到  分  水  骨  之间  的  一  条  肉  ，  呈  长条  圆形  ，  一  头  稍  细  ，  是  最  嫩的  肉  （  也  有  叫  腰柳肉  的  ）  。  由于  里脊  分量  太  少  （  一  扇  肉  只有  一  条  里脊  和  外脊  ）  ，  做菜  时  往往  用  外脊  替代  里脊  。
+            猪肉  是  目前  人们  餐桌  上  重要  的  动物性  食品  之一  ，  猪脊  肉  含有  人体  生长  的  发育  所  需  的  丰富  的  优质  蛋白  、  脂肪  、  维生素  等  ，  而且  肉质  较嫩  ，  易  消化  。
+        </segment>
+
+        <pos>
+            猪#NN  里脊#NN  一般#AD  指#VV  猪#NN  脊椎骨#NN  内侧#NN  的#DEG  条状#NN  嫩肉#NN  ，#PU  猪脊#VV  肉#NN  分外#NN  脊和#NN  里脊#NN  ，#PU  处在#VV  脊背#NN  位置#NN  ，#PU  脊背#VV  上面#NN  的#DEC  是#VC  外脊#VA  ，#PU  贯穿#VV  整个#JJ  脊背#NN  ，#PU  所以#AD  又#AD  称为#VV  通脊#NN  、#PU  扁担#NN  肉#NN  、#PU  硬脊#NN  ，#PU  是#VC  较#AD  嫩的#JJ  瘦肉#NN  （#PU  肉店#NN  里#LC  叫#VV  3#CD  #肉#NN  ，#PU  有的#PN  人#NN  也#AD  把#BA  它#PN  叫#VV  里脊#NN  ）#PU  ；#PU  里脊#AD  位于#VV  外脊#NN  下侧#NN  ，#PU  从#P  腰子#NR  到#VV  分#VV  水#NN  骨#NN  之间#LC  的#DEG  一#CD  条#M  肉#NN  ，#PU  呈#VV  长条#NN  圆形#NN  ，#PU  一#CD  头#M  稍#NN  细#VA  ，#PU  是#VC  最#AD  嫩的#JJ  肉#NN  （#PU  也#AD  有#VE  叫#VV  腰柳肉#NN  的#DEC  ）#PU    。#PU  由于#P  里脊#NN  分量#NN  太#AD  少#VA  （#PU  一#CD  扇#NN  肉#NN  只有#AD  一#CD  条#M  里脊#NN  和#CC  外脊#NN  ）#PU  ，#PU  做菜#NN  时#LC  往往#AD  用#VV  外脊#NN  替代#VV  里脊#NN    。#PU    。#PU
+            猪肉#NN  是#VC  目前#NT  人们#NN  餐桌#NN  上#LC  重要#VA  的#DEC  动物性#NN  食品#NN  之一#NN  ，#PU  猪脊#NN  肉#NN  含有#NN  人体#VV  生长#NN  的#DEG  发育#VV  所#MSP  需#VV  的#DEC  丰富#VA  的#DEC  优质#JJ  蛋白#NN  、#PU  脂肪#NN  、#PU  维生素#NN  等#ETC  ，#PU  而且#CC  肉质#VV  较嫩#NN  ，#PU  易#VA  消化#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 里脊#NN, 猪#NN)  (nsubj, 指#VV, 里脊#NN)  (advmod, 指#VV, 一般#AD)  (nsubj, 外脊#VA, 指#VV)  (nn, 内侧#NN, 猪#NN)  (nn, 内侧#NN, 脊椎骨#NN)  (assmod, 嫩肉#NN, 内侧#NN)  (case, 内侧#NN, 的#DEG)  (nn, 嫩肉#NN, 条状#NN)  (dobj, 指#VV, 嫩肉#NN)  (conj, 指#VV, 猪脊#VV)  (nn, 里脊#NN, 肉#NN)  (nn, 里脊#NN, 分外#NN)  (nn, 里脊#NN, 脊和#NN)  (dobj, 猪脊#VV, 里脊#NN)  (conj, 指#VV, 处在#VV)  (nn, 位置#NN, 脊背#NN)  (dobj, 处在#VV, 位置#NN)  (conj, 指#VV, 脊背#VV)  (dobj, 脊背#VV, 上面#NN)  (mark, 指#VV, 的#DEC)  (cop, 外脊#VA, 是#VC)  (root, ROOT#null, 外脊#VA)  (conj, 外脊#VA, 贯穿#VV)  (amod, 脊背#NN, 整个#JJ)  (dobj, 贯穿#VV, 脊背#NN)  (advmod, 称为#VV, 所以#AD)  (advmod, 称为#VV, 又#AD)  (conj, 外脊#VA, 称为#VV)  (conj, 硬脊#NN, 通脊#NN)  (nn, 硬脊#NN, 扁担#NN)  (conj, 硬脊#NN, 肉#NN)  (dobj, 称为#VV, 硬脊#NN)  (cop, 瘦肉#NN, 是#VC)  (advmod, 嫩的#JJ, 较#AD)  (amod, 瘦肉#NN, 嫩的#JJ)  (conj, 称为#VV, 瘦肉#NN)  (loc, 叫#VV, 肉店#NN)  (case, 肉店#NN, 里#LC)  (dep, 瘦肉#NN, 叫#VV)  (nummod, #肉#NN, 3#CD)  (dobj, 叫#VV, #肉#NN)  (nn, 人#NN, 有的#PN)  (nsubj, 叫#VV, 人#NN)  (advmod, 叫#VV, 也#AD)  (ba, 叫#VV, 把#BA)  (nsubj, 叫#VV, 它#PN)  (dep, 叫#VV, 叫#VV)  (dobj, 叫#VV, 里脊#NN)  (advmod, 位于#VV, 里脊#AD)  (conj, 称为#VV, 位于#VV)  (nn, 下侧#NN, 外脊#NN)  (dobj, 位于#VV, 下侧#NN)  (case, 腰子#NR, 从#P)  (prep, 分#VV, 腰子#NR)  (mmod, 分#VV, 到#VV)  (conj, 称为#VV, 分#VV)  (nn, 骨#NN, 水#NN)  (assmod, 肉#NN, 骨#NN)  (case, 骨#NN, 之间#LC)  (case, 骨#NN, 的#DEG)  (nummod, 条#M, 一#CD)  (clf, 肉#NN, 条#M)  (dobj, 分#VV, 肉#NN)  (conj, 称为#VV, 呈#VV)  (nn, 圆形#NN, 长条#NN)  (dobj, 呈#VV, 圆形#NN)  (nummod, 头#M, 一#CD)  (clf, 稍#NN, 头#M)  (nsubj, 细#VA, 稍#NN)  (dep, 外脊#VA, 细#VA)  (cop, 肉#NN, 是#VC)  (advmod, 嫩的#JJ, 最#AD)  (amod, 肉#NN, 嫩的#JJ)  (conj, 外脊#VA, 肉#NN)  (advmod, 有#VE, 也#AD)  (dep, 外脊#VA, 有#VE)  (dobj, 有#VE, 叫#VV)  (dobj, 叫#VV, 腰柳肉#NN)  (mark, 叫#VV, 的#DEC)   (case, 少#VA, 由于#P)  (nn, 分量#NN, 里脊#NN)  (nsubj, 少#VA, 分量#NN)  (advmod, 少#VA, 太#AD)  (prep, 用#VV, 少#VA)  (nummod, 扇#NN, 一#CD)  (nn, 肉#NN, 扇#NN)  (nsubj, 外脊#NN, 肉#NN)  (advmod, 条#M, 只有#AD)  (nummod, 条#M, 一#CD)  (clf, 外脊#NN, 条#M)  (conj, 外脊#NN, 里脊#NN)  (cc, 外脊#NN, 和#CC)  (dep, 少#VA, 外脊#NN)  (loc, 用#VV, 做菜#NN)  (case, 做菜#NN, 时#LC)  (advmod, 用#VV, 往往#AD)  (conj, 替代#VV, 用#VV)  (dobj, 用#VV, 外脊#NN)  (root, ROOT#null, 替代#VV)  (dobj, 替代#VV, 里脊#NN)   (root, ROOT#null, null#null)
+            (nsubj, 之一#NN, 猪肉#NN)  (cop, 之一#NN, 是#VC)  (tmod, 重要#VA, 目前#NT)  (nn, 餐桌#NN, 人们#NN)  (loc, 重要#VA, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (relcl, 之一#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 之一#NN, 动物性#NN)  (nn, 之一#NN, 食品#NN)  (root, ROOT#null, 之一#NN)  (nn, 含有#NN, 猪脊#NN)  (nn, 含有#NN, 肉#NN)  (nsubj, 人体#VV, 含有#NN)  (conj, 之一#NN, 人体#VV)  (assmod, 消化#NN, 生长#NN)  (case, 生长#NN, 的#DEG)  (nfincl, 消化#NN, 发育#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 维生素#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 维生素#NN, 优质#JJ)  (conj, 维生素#NN, 蛋白#NN)  (conj, 维生素#NN, 脂肪#NN)  (dobj, 发育#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (cc, 发育#VV, 而且#CC)  (conj, 发育#VV, 肉质#VV)  (dobj, 肉质#VV, 较嫩#NN)  (conj, 发育#VV, 易#VA)  (dobj, 人体#VV, 消化#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘咸、性平，入脾、胃、肾经；补肾养血，滋阴润燥；主治热病伤津、消渴羸瘦、肾虚体弱、产后血虚、燥咳、便秘、补虚、滋阴、润燥、滋肝阴，润肌肤，利二便和止消渴。
+        </rawdata>
+
+        <segment>
+            味甘咸  、  性平  ，  入脾  、  胃  、  肾经  ；  补  肾  养  血  ，  滋阴  润燥  ；  主治  热病  伤津  、  消渴  羸瘦  、  肾虚  体弱  、  产后  血虚  、  燥咳  、  便秘  、  补  虚  、  滋阴  、  润燥  、  滋肝  阴  ，  润  肌肤  ，  利二  便  和  止  消渴  。
+        </segment>
+
+        <pos>
+            味甘咸#NR  、#PU  性平#NR  ，#PU  入脾#VA  、#PU  胃#VA  、#PU  肾经#VA  ；#PU  补#NN  肾#NN  养#VV  血#NN  ，#PU  滋阴#VV  润燥#NN  ；#PU  主治#VV  热病#NN  伤津#NN  、#PU  消渴#NN  羸瘦#NN  、#PU  肾虚#NN  体弱#NN  、#PU  产后#NR  血虚#NN  、#PU  燥咳#NR  、#PU  便秘#NR  、#PU  补#VV  虚#AD  、#PU  滋阴#AD  、#PU  润燥#AD  、#PU  滋肝#AD  阴#VA  ，#PU  润#VV  肌肤#NN  ，#PU  利二#CD  便#VA  和#CC  止#VV  消渴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 性平#NR, 味甘咸#NR)  (nsubj, 入脾#VA, 性平#NR)  (root, ROOT#null, 入脾#VA)  (conj, 入脾#VA, 胃#VA)  (dep, 入脾#VA, 肾经#VA)  (nn, 肾#NN, 补#NN)  (nsubj, 养#VV, 肾#NN)  (conj, 入脾#VA, 养#VV)  (dobj, 养#VV, 血#NN)  (conj, 养#VV, 滋阴#VV)  (dobj, 滋阴#VV, 润燥#NN)  (conj, 养#VV, 主治#VV)  (nn, 血虚#NN, 热病#NN)  (conj, 血虚#NN, 伤津#NN)  (nn, 血虚#NN, 消渴#NN)  (conj, 血虚#NN, 羸瘦#NN)  (nn, 血虚#NN, 肾虚#NN)  (conj, 血虚#NN, 体弱#NN)  (nn, 血虚#NN, 产后#NR)  (dobj, 主治#VV, 血虚#NN)  (conj, 血虚#NN, 燥咳#NR)  (dep, 血虚#NN, 便秘#NR)  (mmod, 阴#VA, 补#VV)  (advmod, 阴#VA, 虚#AD)  (conj, 虚#AD, 滋阴#AD)  (conj, 虚#AD, 润燥#AD)  (conj, 虚#AD, 滋肝#AD)  (conj, 养#VV, 阴#VA)  (dep, 阴#VA, 润#VV)  (dobj, 润#VV, 肌肤#NN)  (dep, 便#VA, 利二#CD)  (conj, 阴#VA, 便#VA)  (cc, 养#VV, 和#CC)  (conj, 养#VV, 止#VV)  (dobj, 止#VV, 消渴#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.猪肉的蛋白质蛋白质属优质蛋白质，含有人体全部必需氨基酸。
+            2.猪肉富含铁，是人体血液中红细胞的生成和功能维持所必须的。
+            3.猪肉是维生素的主要膳食来源，特别是精猪肉中维生素B1的含量丰富。猪肉中还含有较多的对脂肪合成和分解有重要作用的维生素B2。
+        </rawdata>
+
+        <segment>
+            猪肉  的  蛋白质  蛋白质  属  优质  蛋白质  ，  含有  人体  全部  必需  氨基酸  。
+            猪肉  富  含铁  ，  是  人体  血液  中  红  细胞  的  生成  和  功能  维持  所  必须  的  。
+            猪肉  是  维生素  的  主要  膳食  来源  ，  特别是  精  猪肉  中  维生素B1  的  含量  丰富  。  猪肉  中  还  含有  较多  的  对  脂肪  合成  和  分解  有  重要  作用  的  维生素B2  。
+        </segment>
+
+        <pos>
+            猪肉#NN  的#DEG  蛋白质#NN  蛋白质#AD  属#VV  优质#JJ  蛋白质#NN  ，#PU  含有#NN  人体#NN  全部#AD  必需#VV  氨基酸#NN  。#PU
+            猪肉#NN  富#VV  含铁#NN  ，#PU  是#VC  人体#VV  血液#NN  中#LC  红#JJ  细胞#NN  的#DEG  生成#NN  和#CC  功能#NN  维持#VV  所#MSP  必须#VV  的#DEC  。#PU
+            猪肉#NN  是#VC  维生素#NN  的#DEG  主要#JJ  膳食#NN  来源#NN  ，#PU  特别是#AD  精#JJ  猪肉#NN  中#LC  维生素B1#CD  的#DEG  含量#NN  丰富#VA    。#PU  猪肉#NN  中#LC  还#AD  含有#VV  较多#NN  的#DEC  对#P  脂肪#NR  合成#JJ  和#NN  分解#VV  有#VE  重要#JJ  作用#NN  的#DEG  维生素B2#CD    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 蛋白质#NN, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nsubj, 属#VV, 蛋白质#NN)  (advmod, 属#VV, 蛋白质#AD)  (root, ROOT#null, 属#VV)  (amod, 蛋白质#NN, 优质#JJ)  (dobj, 属#VV, 蛋白质#NN)  (nn, 人体#NN, 含有#NN)  (nsubj, 必需#VV, 人体#NN)  (advmod, 必需#VV, 全部#AD)  (conj, 属#VV, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)
+            (nsubj, 富#VV, 猪肉#NN)  (root, ROOT#null, 富#VV)  (dobj, 富#VV, 含铁#NN)  (cop, 人体#VV, 是#VC)  (conj, 富#VV, 人体#VV)  (dep, 功能#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (amod, 细胞#NN, 红#JJ)  (assmod, 功能#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (conj, 功能#NN, 生成#NN)  (cc, 功能#NN, 和#CC)  (dobj, 人体#VV, 功能#NN)  (conj, 人体#VV, 维持#VV)  (prtmod, 必须#VV, 所#MSP)  (dep, 人体#VV, 必须#VV)  (mark, 人体#VV, 的#DEC)
+            (nsubj, 来源#NN, 猪肉#NN)  (cop, 来源#NN, 是#VC)  (assmod, 来源#NN, 维生素#NN)  (case, 维生素#NN, 的#DEG)  (amod, 来源#NN, 主要#JJ)  (nn, 来源#NN, 膳食#NN)  (root, ROOT#null, 来源#NN)  (loc, 丰富#VA, 特别是#AD)  (amod, 猪肉#NN, 精#JJ)  (dep, 特别是#AD, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (assmod, 含量#NN, 维生素B1#CD)  (case, 维生素B1#CD, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (conj, 来源#NN, 丰富#VA)   (loc, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (nsubj, 有#VE, 含有#VV)  (dobj, 含有#VV, 较多#NN)  (mark, 含有#VV, 的#DEC)  (case, 和#NN, 对#P)  (nn, 和#NN, 脂肪#NR)  (amod, 和#NN, 合成#JJ)  (prep, 有#VE, 和#NN)  (mmod, 有#VE, 分解#VV)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 重要#JJ)  (assmod, 维生素B2#CD, 作用#NN)  (case, 作用#NN, 的#DEG)  (dep, 有#VE, 维生素B2#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.猪肉不宜长时间泡水；切肥肉时，可先将肥肉蘸一下凉水，然后放到案板上，一边切一边洒点凉水，这样切着省力，肥肉也不会滑动，且不易粘案板。
+            2.猪肉烹调前莫用热水清洗，因猪肉中含有一种肌溶蛋白的物质，在15摄氏度以上的水中易溶解，若用热水浸泡就会散失很多营养，同时口味也欠佳。
+            3.猪肉应煮熟，因为猪肉中有时会有寄生虫，如果生吃或调理不完全时，可能会在肝脏或脑部寄生有钩绦虫。
+        </rawdata>
+
+        <segment>
+            猪肉  不  宜  长时间  泡水  ；  切  肥肉  时  ，  可  先  将  肥肉蘸  一下  凉水  ，  然后  放到  案板  上  ，  一边  切  一  边  洒  点  凉水  ，  这样  切  着  省力  ，  肥肉  也  不  会  滑动  ，  且  不  易粘  案板  。
+            猪肉  烹调  前  莫  用  热水  清洗  ，  因  猪肉  中  含有  一  种  肌溶  蛋白  的  物质  ，  在  15  摄氏度  以上  的  水中  易  溶解  ，  若  用  热水  浸泡  就  会  散失  很多  营养  ，  同时  口味  也  欠佳  。
+            猪肉  应  煮熟  ，  因为  猪肉  中  有时  会  有  寄生虫  ，  如果  生吃  或  调理  不完全  时  ，  可能  会  在  肝脏  或  脑部  寄生  有  钩  绦虫  。
+        </segment>
+
+        <pos>
+            猪肉#NN  不#AD  宜#NR  长时间#VV  泡水#NN  ；#PU  切#VV  肥肉#NN  时#LC  ，#PU  可#VV  先#AD  将#AD  肥肉蘸#VV  一下#AD  凉水#VV  ，#PU  然后#AD  放到#VV  案板#NN  上#LC  ，#PU  一边#CD  切#NN  一#CD  边#NN  洒#CD  点#M  凉水#NN  ，#PU  这样#AD  切#VV  着#AS  省力#NN  ，#PU  肥肉#AD  也#AD  不#AD  会#VV  滑动#VV  ，#PU  且#CC  不#AD  易粘#VV  案板#NN  。#PU
+            猪肉#NN  烹调#NN  前#LC  莫#NN  用#P  热水#NN  清洗#VV  ，#PU  因#P  猪肉#NN  中#LC  含有#VV  一#CD  种#M  肌溶#NN  蛋白#NN  的#DEG  物质#NN  ，#PU  在#P  15#CD  摄氏度#M  以上#LC  的#DEG  水中#NN  易#AD  溶解#VA  ，#PU  若#CS  用#P  热水#NN  浸泡#NN  就#P  会#VV  散失#VV  很多#CD  营养#VA  ，#PU  同时#AD  口味#NN  也#AD  欠佳#VA  。#PU
+            猪肉#NN  应#P  煮熟#NN  ，#PU  因为#P  猪肉#NN  中#LC  有时#AD  会#VV  有#VE  寄生虫#NN  ，#PU  如果#CS  生吃#VV  或#CC  调理#VV  不完全#JJ  时#NN  ，#PU  可能#VV  会#VV  在#P  肝脏#NN  或#CC  脑部#NN  寄生#NN  有#VE  钩#NN  绦虫#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 长时间#VV, 猪肉#NN)  (neg, 长时间#VV, 不#AD)  (prep, 长时间#VV, 宜#NR)  (root, ROOT#null, 长时间#VV)  (dobj, 长时间#VV, 泡水#NN)  (loc, 凉水#VV, 切#VV)  (dobj, 切#VV, 肥肉#NN)  (case, 切#VV, 时#LC)  (dep, 肥肉蘸#VV, 可#VV)  (advmod, 肥肉蘸#VV, 先#AD)  (advmod, 肥肉蘸#VV, 将#AD)  (nsubj, 凉水#VV, 肥肉蘸#VV)  (advmod, 凉水#VV, 一下#AD)  (conj, 长时间#VV, 凉水#VV)  (advmod, 放到#VV, 然后#AD)  (dep, 凉水#VV, 放到#VV)  (loc, 切#VV, 案板#NN)  (case, 案板#NN, 上#LC)  (nummod, 切#NN, 一边#CD)  (nn, 边#NN, 切#NN)  (nummod, 边#NN, 一#CD)  (nn, 凉水#NN, 边#NN)  (nummod, 点#M, 洒#CD)  (clf, 凉水#NN, 点#M)  (nsubj, 切#VV, 凉水#NN)  (advmod, 切#VV, 这样#AD)  (ccomp, 放到#VV, 切#VV)  (asp, 切#VV, 着#AS)  (dobj, 切#VV, 省力#NN)  (advmod, 滑动#VV, 肥肉#AD)  (advmod, 滑动#VV, 也#AD)  (neg, 滑动#VV, 不#AD)  (dep, 滑动#VV, 会#VV)  (dep, 凉水#VV, 滑动#VV)  (cc, 凉水#VV, 且#CC)  (neg, 易粘#VV, 不#AD)  (dep, 凉水#VV, 易粘#VV)  (dobj, 易粘#VV, 案板#NN)
+            (nn, 烹调#NN, 猪肉#NN)  (loc, 清洗#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nsubj, 清洗#VV, 莫#NN)  (case, 热水#NN, 用#P)  (prep, 清洗#VV, 热水#NN)  (root, ROOT#null, 清洗#VV)  (case, 猪肉#NN, 因#P)  (prep, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (dep, 清洗#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 肌溶#NN)  (assmod, 物质#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 摄氏度#M, 在#P)  (nummod, 摄氏度#M, 15#CD)  (assmod, 水中#NN, 摄氏度#M)  (case, 摄氏度#M, 以上#LC)  (case, 摄氏度#M, 的#DEG)  (nsubj, 溶解#VA, 水中#NN)  (advmod, 溶解#VA, 易#AD)  (conj, 清洗#VV, 溶解#VA)  (advmod, 营养#VA, 若#CS)  (case, 浸泡#NN, 用#P)  (nn, 浸泡#NN, 热水#NN)  (prep, 营养#VA, 浸泡#NN)  (case, 散失#VV, 就#P)  (mmod, 散失#VV, 会#VV)  (prep, 营养#VA, 散失#VV)  (range, 散失#VV, 很多#CD)  (dep, 溶解#VA, 营养#VA)  (advmod, 欠佳#VA, 同时#AD)  (nsubj, 欠佳#VA, 口味#NN)  (advmod, 欠佳#VA, 也#AD)  (conj, 溶解#VA, 欠佳#VA)
+            (nsubj, 有#VE, 猪肉#NN)  (case, 煮熟#NN, 应#P)  (prep, 有#VE, 煮熟#NN)  (case, 猪肉#NN, 因为#P)  (prep, 有#VE, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 有#VE, 有时#AD)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 寄生虫#NN)  (advmod, 生吃#VV, 如果#CS)  (conj, 有#VE, 生吃#VV)  (cc, 生吃#VV, 或#CC)  (dep, 生吃#VV, 调理#VV)  (amod, 时#NN, 不完全#JJ)  (dobj, 调理#VV, 时#NN)  (mmod, 有#VE, 可能#VV)  (mmod, 有#VE, 会#VV)  (case, 寄生#NN, 在#P)  (conj, 寄生#NN, 肝脏#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 脑部#NN)  (prep, 有#VE, 寄生#NN)  (conj, 有#VE, 有#VE)  (nn, 绦虫#NN, 钩#NN)  (dobj, 有#VE, 绦虫#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081343225744.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,191 @@
+<content>
+
+    <id>
+        445
+    </id>
+
+    <foodname>
+        干黄花菜
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        金针菜、忘忧、宜男、金菜、南菜、萱草
+    </alias>
+
+    <season>
+        春、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            皮肤瘙痒症者、哮喘病者、平素痰多者、肠胃病患者忌食。
+        </rawdata>
+
+        <segment>
+            皮肤  瘙痒  症者  、  哮喘  病者  、  平素  痰  多者  、  肠胃病  患者  忌食  。
+        </segment>
+
+        <pos>
+            皮肤#NN  瘙痒#VV  症者#NR  、#PU  哮喘#NR  病者#NR  、#PU  平素#NR  痰#NR  多者#NR  、#PU  肠胃病#NR  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 瘙痒#VV, 皮肤#NN)  (root, ROOT#null, 瘙痒#VV)  (conj, 肠胃病#NR, 症者#NR)  (nn, 肠胃病#NR, 哮喘#NR)  (conj, 肠胃病#NR, 病者#NR)  (nn, 肠胃病#NR, 平素#NR)  (nn, 肠胃病#NR, 痰#NR)  (conj, 肠胃病#NR, 多者#NR)  (nn, 忌食#NN, 肠胃病#NR)  (nn, 忌食#NN, 患者#NN)  (dobj, 瘙痒#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜孕妇、中老年人、过度劳累者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  孕妇  、  中老年人  、  过度  劳累者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  孕妇#NN  、#PU  中老年人#NN  、#PU  过度#AD  劳累者#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (root, ROOT#null, 适宜#VV)  (conj, 中老年人#NN, 孕妇#NN)  (dobj, 适宜#VV, 中老年人#NN)  (advmod, 劳累者#VV, 过度#AD)  (dep, 适宜#VV, 劳累者#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄花菜又叫金针菜，原名叫萱草，古称“忘忧草”。黄花菜是人们喜吃的一种传统蔬菜。因其花瓣肥厚，色泽金黄，香味浓郁，食之清香、鲜嫩，爽滑同木耳、草菇，营养价值高，被视作“席上珍品”。金针菜属百合科，多年生宿根草本。我国南北各地均有栽培。金针菜的食用部位是其花蕾。花蕾呈细长条状，呈黄色，有芳香气味，每年春、秋两季采收。
+        </rawdata>
+
+        <segment>
+            黄花菜  又  叫  金针菜  ，  原  名叫  萱草  ，  古  称  “  忘忧  草  ”  。  黄花菜  是  人们  喜  吃  的  一  种  传统  蔬菜  。  因其  花瓣  肥厚  ，  色泽  金黄  ，  香味  浓郁  ，  食  之  清香  、  鲜嫩  ，  爽滑  同  木耳  、  草菇  ，  营养  价值  高  ，  被  视作  “  席上  珍品  ”  。  金针菜  属  百合科  ，  多年生  宿根  草本  。  我国  南北  各  地  均  有  栽培  。  金针菜  的  食用  部位  是  其  花蕾  。  花蕾  呈  细长  条状  ，  呈  黄色  ，  有  芳香  气味  ，  每  年  春  、  秋  两  季  采收  。
+        </segment>
+
+        <pos>
+            黄花菜#NN  又#AD  叫#VV  金针菜#NN  ，#PU  原#AD  名叫#VV  萱草#NN  ，#PU  古#JJ  称#NN  ``#AD  忘忧#VV  草#NN  ''#NN    。#PU  黄花菜#NN  是#VC  人们#NN  喜#AD  吃#VV  的#DEC  一#CD  种#M  传统#JJ  蔬菜#NN    。#PU  因其#NN  花瓣#NN  肥厚#VV  ，#PU  色泽#NN  金黄#NN  ，#PU  香味#AD  浓郁#VA  ，#PU  食#NN  之#DEG  清香#NN  、#PU  鲜嫩#NN  ，#PU  爽滑#NN  同#P  木耳#VA  、#PU  草菇#VA  ，#PU  营养#VA  价值#NN  高#VA  ，#PU  被#SB  视作#VV  ``#NN  席上#NN  珍品#NN  ''#NN    。#PU  金针菜#AD  属#VV  百合科#CD  ，#PU  多年生#AD  宿根#VV  草本#NN    。#PU  我国#NR  南北#NN  各#DT  地#NN  均#AD  有#VE  栽培#VV    。#PU  金针菜#NN  的#DEG  食用#VV  部位#NN  是#VC  其#PN  花蕾#NN    。#PU  花蕾#NN  呈#VV  细长#NN  条状#NN  ，#PU  呈#VV  黄色#JJ  ，#PU  有#VE  芳香#NN  气味#NN  ，#PU  每#DT  年#M  春#NN  、#PU  秋#NT  两#CD  季#M  采收#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 叫#VV, 黄花菜#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 金针菜#NN)  (advmod, 名叫#VV, 原#AD)  (conj, 叫#VV, 名叫#VV)  (dobj, 名叫#VV, 萱草#NN)  (amod, 称#NN, 古#JJ)  (nsubj, 忘忧#VV, 称#NN)  (advmod, 忘忧#VV, ``#AD)  (conj, 叫#VV, 忘忧#VV)  (nn, ''#NN, 草#NN)  (dobj, 忘忧#VV, ''#NN)   (nsubj, 蔬菜#NN, 黄花菜#NN)  (cop, 蔬菜#NN, 是#VC)  (nsubj, 吃#VV, 人们#NN)  (advmod, 吃#VV, 喜#AD)  (relcl, 蔬菜#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (amod, 蔬菜#NN, 传统#JJ)  (root, ROOT#null, 蔬菜#NN)   (nn, 花瓣#NN, 因其#NN)  (nsubj, 肥厚#VV, 花瓣#NN)  (root, ROOT#null, 肥厚#VV)  (nn, 金黄#NN, 色泽#NN)  (nsubj, 浓郁#VA, 金黄#NN)  (advmod, 浓郁#VA, 香味#AD)  (ccomp, 肥厚#VV, 浓郁#VA)  (assmod, 鲜嫩#NN, 食#NN)  (case, 食#NN, 之#DEG)  (conj, 鲜嫩#NN, 清香#NN)  (nsubj, 高#VA, 鲜嫩#NN)  (nsubj, 高#VA, 爽滑#NN)  (case, 价值#NN, 同#P)  (nfincl, 价值#NN, 木耳#VA)  (dep, 木耳#VA, 草菇#VA)  (dep, 木耳#VA, 营养#VA)  (prep, 高#VA, 价值#NN)  (conj, 浓郁#VA, 高#VA)  (auxpass, 视作#VV, 被#SB)  (dep, 高#VA, 视作#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 席上#NN)  (nn, ''#NN, 珍品#NN)  (dobj, 视作#VV, ''#NN)   (advmod, 属#VV, 金针菜#AD)  (root, ROOT#null, 属#VV)  (range, 属#VV, 百合科#CD)  (advmod, 宿根#VV, 多年生#AD)  (dep, 属#VV, 宿根#VV)  (dobj, 宿根#VV, 草本#NN)   (nn, 南北#NN, 我国#NR)  (nn, 地#NN, 南北#NN)  (det, 地#NN, 各#DT)  (nsubj, 有#VE, 地#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)   (assmod, 部位#NN, 金针菜#NN)  (case, 金针菜#NN, 的#DEG)  (nfincl, 部位#NN, 食用#VV)  (nsubj, 花蕾#NN, 部位#NN)  (cop, 花蕾#NN, 是#VC)  (nn, 花蕾#NN, 其#PN)  (root, ROOT#null, 花蕾#NN)   (nsubj, 呈#VV, 花蕾#NN)  (root, ROOT#null, 呈#VV)  (nn, 条状#NN, 细长#NN)  (dobj, 呈#VV, 条状#NN)  (conj, 呈#VV, 呈#VV)  (conj, 呈#VV, 黄色#JJ)  (conj, 呈#VV, 有#VE)  (nn, 气味#NN, 芳香#NN)  (dep, 采收#NN, 气味#NN)  (det, 春#NN, 每#DT)  (clf, 每#DT, 年#M)  (conj, 采收#NN, 春#NN)  (dep, 季#M, 秋#NT)  (nummod, 季#M, 两#CD)  (clf, 采收#NN, 季#M)  (dobj, 有#VE, 采收#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            黄花菜性平、味甘、微苦，归肝、脾、肾经；有清热利尿，解毒消肿，止血除烦，宽胸膈，养血平肝，利水通乳，利咽宽胸，清利湿热，发奶等功效；主治眩晕耳鸣、心悸烦闷、小便赤涩、水肿、痔疮便血等病症。
+        </rawdata>
+
+        <segment>
+            黄花菜  性平  、  味  甘  、  微苦  ，  归肝  、  脾  、  肾经  ；  有  清热  利尿  ，  解毒  消肿  ，  止血  除烦  ，  宽  胸膈  ，  养  血  平肝  ，  利水通乳  ，  利咽  宽  胸  ，  清利  湿热  ，  发奶  等  功效  ；  主治  眩晕  耳鸣  、  心悸  烦闷  、  小便  赤涩  、  水肿  、  痔疮  便血  等  病症  。
+        </segment>
+
+        <pos>
+            黄花菜#VV  性平#NR  、#PU  味#NR  甘#NR  、#PU  微苦#NR  ，#PU  归肝#NR  、#PU  脾#NR  、#PU  肾经#NR  ；#PU  有#VE  清热#NN  利尿#NN  ，#PU  解毒#VV  消肿#NN  ，#PU  止血#VV  除烦#NN  ，#PU  宽#VA  胸膈#VA  ，#PU  养#VV  血#NN  平肝#NN  ，#PU  利水通乳#VV  ，#PU  利咽#VV  宽#JJ  胸#NN  ，#PU  清利#VV  湿热#NN  ，#PU  发奶#NN  等#ETC  功效#NN  ；#PU  主治#VV  眩晕#NN  耳鸣#NN  、#PU  心悸#NN  烦闷#NN  、#PU  小便#NN  赤涩#NN  、#PU  水肿#NN  、#PU  痔疮#NN  便血#NN  等#ETC  病症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄花菜#VV)  (conj, 微苦#NR, 性平#NR)  (nn, 微苦#NR, 味#NR)  (conj, 微苦#NR, 甘#NR)  (dep, 肾经#NR, 微苦#NR)  (conj, 肾经#NR, 归肝#NR)  (conj, 肾经#NR, 脾#NR)  (dobj, 黄花菜#VV, 肾经#NR)  (conj, 黄花菜#VV, 有#VE)  (nn, 利尿#NN, 清热#NN)  (dobj, 有#VE, 利尿#NN)  (conj, 黄花菜#VV, 解毒#VV)  (dobj, 解毒#VV, 消肿#NN)  (conj, 解毒#VV, 止血#VV)  (dobj, 止血#VV, 除烦#NN)  (conj, 解毒#VV, 宽#VA)  (comod, 宽#VA, 胸膈#VA)  (conj, 解毒#VV, 养#VV)  (nn, 平肝#NN, 血#NN)  (dobj, 养#VV, 平肝#NN)  (conj, 解毒#VV, 利水通乳#VV)  (conj, 解毒#VV, 利咽#VV)  (amod, 胸#NN, 宽#JJ)  (dobj, 利咽#VV, 胸#NN)  (conj, 解毒#VV, 清利#VV)  (dep, 发奶#NN, 湿热#NN)  (nn, 功效#NN, 发奶#NN)  (etc, 发奶#NN, 等#ETC)  (dobj, 清利#VV, 功效#NN)  (conj, 黄花菜#VV, 主治#VV)  (nn, 便血#NN, 眩晕#NN)  (conj, 便血#NN, 耳鸣#NN)  (nn, 便血#NN, 心悸#NN)  (conj, 便血#NN, 烦闷#NN)  (nn, 便血#NN, 小便#NN)  (conj, 便血#NN, 赤涩#NN)  (conj, 便血#NN, 水肿#NN)  (nn, 便血#NN, 痔疮#NN)  (nn, 病症#NN, 便血#NN)  (etc, 便血#NN, 等#ETC)  (dobj, 主治#VV, 病症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  辅助降血脂  安神  抗癌防癌  解毒  凉血  清热利湿  行气宽胸  行气疏肝  镇静催眠  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            黄花菜有较好的健脑，抗衰老功效，是因其含有丰富的卵磷脂，这种物质是机体中许多细胞，特别是大脑细胞的组成成分，对增强和改善大脑功能有重要作用，同时能清除动脉内的沉积物，对注意力不集中、记忆力减退、脑动脉阻塞等症状有特殊疗效，故人们称之为“健脑菜”。
+            另据研究表明，黄花菜能显著降低血清胆固醇的含量，有利于高血压患者的康复，可作为高血压患者的保健蔬菜。黄花菜中还含有效成分能抑制癌细胞的生长，丰富的粗纤维能促进大便的排泄，因此可作为防治肠道癌瘤的食品。
+        </rawdata>
+
+        <segment>
+            黄花菜  有  较好  的  健脑  ，  抗  衰老  功效  ，  是  因其  含有  丰富  的  卵磷脂  ，  这  种  物质  是  机体  中  许多  细胞  ，  特别是  大脑  细胞  的  组成  成分  ，  对  增强  和  改善  大脑  功能  有  重要  作用  ，  同时  能  清除  动脉  内  的  沉积物  ，  对  注意力  不  集中  、  记忆力  减退  、  脑  动脉  阻塞  等  症状  有  特殊  疗效  ，  故  人们  称之为  “  健脑  菜  ”  。
+            另  据  研究  表明  ，  黄花菜  能  显著  降低  血清  胆固醇  的  含量  ，  有利于  高血压  患者  的  康复  ，  可  作为  高血压  患者  的  保健  蔬菜  。  黄花菜  中  还  含  有效  成分  能  抑制  癌细胞  的  生长  ，  丰富  的  粗  纤维  能  促进  大便  的  排泄  ，  因此  可  作为  防治  肠道  癌瘤  的  食品  。
+        </segment>
+
+        <pos>
+            黄花菜#NR  有#VE  较好#JJ  的#DEG  健脑#NN  ，#PU  抗#VV  衰老#NN  功效#NN  ，#PU  是#VC  因其#NN  含有#NN  丰富#VA  的#DEC  卵磷脂#NN  ，#PU  这#DT  种#M  物质#NN  是#VC  机体#NN  中#LC  许多#CD  细胞#NN  ，#PU  特别是#AD  大脑#NN  细胞#NN  的#DEG  组成#VV  成分#NN  ，#PU  对#P  增强#NN  和#CC  改善#NN  大脑#NN  功能#NN  有#VE  重要#JJ  作用#NN  ，#PU  同时#AD  能#VV  清除#VV  动脉#NN  内#LC  的#DEG  沉积物#NN  ，#PU  对#P  注意力#NN  不#AD  集中#VV  、#PU  记忆力#NR  减退#VA  、#PU  脑#NN  动脉#NN  阻塞#NN  等#ETC  症状#NN  有#VE  特殊#JJ  疗效#NN  ，#PU  故#AD  人们#NN  称之为#NN  ``#AD  健脑#VV  菜#NN  ''#NN  。#PU
+            另#AD  据#P  研究#NN  表明#VV  ，#PU  黄花菜#NN  能#VV  显著#AD  降低#VV  血清#NN  胆固醇#NN  的#DEG  含量#NN  ，#PU  有利于#VV  高血压#NN  患者#NN  的#DEG  康复#NN  ，#PU  可#VV  作为#VV  高血压#NN  患者#NN  的#DEG  保健#NN  蔬菜#NN    。#PU  黄花菜#NN  中#LC  还#AD  含#VV  有效#JJ  成分#NN  能#VV  抑制#VV  癌细胞#NN  的#DEC  生长#NN  ，#PU  丰富#VA  的#DEC  粗#NN  纤维#NN  能#VV  促进#VV  大便#NN  的#DEG  排泄#NN  ，#PU  因此#AD  可#VV  作为#P  防治#NN  肠道#VV  癌瘤#NN  的#DEG  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 黄花菜#NR)  (root, ROOT#null, 有#VE)  (assmod, 健脑#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 有#VE, 健脑#NN)  (conj, 有#VE, 抗#VV)  (nn, 功效#NN, 衰老#NN)  (dobj, 抗#VV, 功效#NN)  (cop, 卵磷脂#NN, 是#VC)  (nn, 含有#NN, 因其#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 卵磷脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 有#VE, 卵磷脂#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 机体#NN, 物质#NN)  (cop, 机体#NN, 是#VC)  (loc, 组成#VV, 机体#NN)  (case, 机体#NN, 中#LC)  (nummod, 细胞#NN, 许多#CD)  (dep, 细胞#NN, 细胞#NN)  (advmod, 细胞#NN, 特别是#AD)  (nn, 细胞#NN, 大脑#NN)  (dep, 组成#VV, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dep, 症状#NN, 组成#VV)  (dobj, 组成#VV, 成分#NN)  (case, 功能#NN, 对#P)  (conj, 功能#NN, 增强#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 改善#NN)  (nn, 功能#NN, 大脑#NN)  (prep, 有#VE, 功能#NN)  (conj, 组成#VV, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)  (advmod, 清除#VV, 同时#AD)  (mmod, 清除#VV, 能#VV)  (conj, 组成#VV, 清除#VV)  (assmod, 沉积物#NN, 动脉#NN)  (case, 动脉#NN, 内#LC)  (case, 动脉#NN, 的#DEG)  (dobj, 清除#VV, 沉积物#NN)  (case, 注意力#NN, 对#P)  (prep, 集中#VV, 注意力#NN)  (neg, 集中#VV, 不#AD)  (conj, 组成#VV, 集中#VV)  (nsubj, 减退#VA, 记忆力#NR)  (conj, 组成#VV, 减退#VA)  (nn, 阻塞#NN, 脑#NN)  (nn, 阻塞#NN, 动脉#NN)  (dep, 组成#VV, 阻塞#NN)  (etc, 阻塞#NN, 等#ETC)  (dep, 有#VE, 症状#NN)  (conj, 有#VE, 有#VE)  (amod, 疗效#NN, 特殊#JJ)  (dobj, 有#VE, 疗效#NN)  (advmod, 健脑#VV, 故#AD)  (nn, 称之为#NN, 人们#NN)  (nsubj, 健脑#VV, 称之为#NN)  (advmod, 健脑#VV, ``#AD)  (conj, 有#VE, 健脑#VV)  (nn, ''#NN, 菜#NN)  (dobj, 健脑#VV, ''#NN)
+            (prep, 表明#VV, 另#AD)  (case, 研究#NN, 据#P)  (dep, 另#AD, 研究#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 降低#VV, 黄花菜#NN)  (mmod, 降低#VV, 能#VV)  (advmod, 降低#VV, 显著#AD)  (ccomp, 表明#VV, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (assmod, 含量#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 降低#VV, 含量#NN)  (dep, 降低#VV, 有利于#VV)  (nn, 患者#NN, 高血压#NN)  (assmod, 康复#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (dobj, 有利于#VV, 康复#NN)  (mmod, 作为#VV, 可#VV)  (conj, 降低#VV, 作为#VV)  (nn, 患者#NN, 高血压#NN)  (assmod, 蔬菜#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 蔬菜#NN, 保健#NN)  (dobj, 作为#VV, 蔬菜#NN)   (loc, 含#VV, 黄花菜#NN)  (case, 黄花菜#NN, 中#LC)  (advmod, 含#VV, 还#AD)  (root, ROOT#null, 含#VV)  (amod, 成分#NN, 有效#JJ)  (nsubj, 抑制#VV, 成分#NN)  (mmod, 抑制#VV, 能#VV)  (relcl, 生长#NN, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 含#VV, 生长#NN)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 纤维#NN, 粗#NN)  (nsubj, 促进#VV, 纤维#NN)  (mmod, 促进#VV, 能#VV)  (conj, 含#VV, 促进#VV)  (assmod, 排泄#NN, 大便#NN)  (case, 大便#NN, 的#DEG)  (dobj, 促进#VV, 排泄#NN)  (advmod, 肠道#VV, 因此#AD)  (mmod, 肠道#VV, 可#VV)  (case, 防治#NN, 作为#P)  (prep, 肠道#VV, 防治#NN)  (conj, 含#VV, 肠道#VV)  (assmod, 食品#NN, 癌瘤#NN)  (case, 癌瘤#NN, 的#DEG)  (dobj, 肠道#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.新鲜黄花菜中含有秋水仙碱，可造成胃肠道中毒症状，故不能生食，须加工晒干，吃之前先用开水焯一下，再用凉水浸泡2小时以上，食用时火力要大，彻底加热，每次食量不宜过多。
+            2.金针菜适用于凉拌(应先焯熟)、炒、汆汤或做配料。
+            3.不宜单独炒食，应配其他食料。
+            4.另外应选用冷水发制的较好。
+        </rawdata>
+
+        <segment>
+            新鲜  黄花菜  中  含有  秋水仙碱  ，  可  造成  胃肠道  中毒  症状  ，  故  不  能  生食  ，  须  加工  晒干  ，  吃  之前  先用  开水  焯  一下  ，  再  用  凉水  浸泡  2  小时  以上  ，  食用  时  火力  要  大  ，  彻底  加热  ，  每次  食量  不  宜  过多  。
+            金针菜  适用于  凉拌  (  应  先焯熟  )  、  炒  、  汆汤  或  做  配料  。
+            不  宜  单独  炒  食  ，  应配  其他  食料  。
+            另外  应  选用  冷水  发制  的  较好  。
+        </segment>
+
+        <pos>
+            新鲜#JJ  黄花菜#NN  中#LC  含有#VV  秋水仙碱#NN  ，#PU  可#VV  造成#VV  胃肠道#NN  中毒#VV  症状#NN  ，#PU  故#AD  不#AD  能#VV  生食#NN  ，#PU  须#VV  加工#NN  晒干#NN  ，#PU  吃#VV  之前#LC  先用#NN  开水#NN  焯#VV  一下#AD  ，#PU  再#AD  用#P  凉水#NR  浸泡#NR  2#CD  小时#NN  以上#LC  ，#PU  食用#VV  时#LC  火力#NN  要#AD  大#VA  ，#PU  彻底#AD  加热#VV  ，#PU  每次#NN  食量#NN  不#AD  宜#NR  过多#VV  。#PU
+            金针菜#NN  适用于#VV  凉拌#NN  -LRB-#NN  应#VV  先焯熟#VV  -RRB-#NR  、#PU  炒#NR  、#PU  汆汤#NR  或#CC  做#VV  配料#NN  。#PU
+            不#AD  宜#NR  单独#AD  炒#VV  食#NN  ，#PU  应配#VV  其他#DT  食料#NN  。#PU
+            另外#AD  应#VV  选用#VV  冷水#AD  发制#VA  的#DEC  较好#AD  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 黄花菜#NN, 新鲜#JJ)  (loc, 含有#VV, 黄花菜#NN)  (case, 黄花菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 秋水仙碱#NN)  (mmod, 造成#VV, 可#VV)  (conj, 含有#VV, 造成#VV)  (dobj, 造成#VV, 胃肠道#NN)  (dep, 造成#VV, 中毒#VV)  (dobj, 中毒#VV, 症状#NN)  (advmod, 能#VV, 故#AD)  (neg, 能#VV, 不#AD)  (conj, 含有#VV, 能#VV)  (dobj, 能#VV, 生食#NN)  (conj, 含有#VV, 须#VV)  (nn, 晒干#NN, 加工#NN)  (dobj, 须#VV, 晒干#NN)  (loc, 食用#VV, 吃#VV)  (case, 吃#VV, 之前#LC)  (nn, 开水#NN, 先用#NN)  (nsubj, 食用#VV, 开水#NN)  (mmod, 食用#VV, 焯#VV)  (advmod, 食用#VV, 一下#AD)  (advmod, 食用#VV, 再#AD)  (case, 小时#NN, 用#P)  (nn, 浸泡#NR, 凉水#NR)  (nn, 小时#NN, 浸泡#NR)  (nummod, 小时#NN, 2#CD)  (prep, 食用#VV, 小时#NN)  (case, 小时#NN, 以上#LC)  (loc, 大#VA, 食用#VV)  (case, 食用#VV, 时#LC)  (nsubj, 大#VA, 火力#NN)  (advmod, 大#VA, 要#AD)  (conj, 含有#VV, 大#VA)  (advmod, 加热#VV, 彻底#AD)  (conj, 含有#VV, 加热#VV)  (nn, 食量#NN, 每次#NN)  (nsubj, 过多#VV, 食量#NN)  (neg, 过多#VV, 不#AD)  (prep, 过多#VV, 宜#NR)  (conj, 含有#VV, 过多#VV)
+            (nsubj, 适用于#VV, 金针菜#NN)  (root, ROOT#null, 适用于#VV)  (nn, -LRB-#NN, 凉拌#NN)  (mmod, 先焯熟#VV, 应#VV)  (conj, 适用于#VV, 先焯熟#VV)  (conj, 汆汤#NR, 炒#NR)  (dobj, 先焯熟#VV, 汆汤#NR)  (cc, 先焯熟#VV, 或#CC)  (conj, 先焯熟#VV, 做#VV)  (dobj, 做#VV, 配料#NN)
+            (neg, 炒#VV, 不#AD)  (dep, 炒#VV, 宜#NR)  (advmod, 炒#VV, 单独#AD)  (root, ROOT#null, 炒#VV)  (dobj, 炒#VV, 食#NN)  (conj, 炒#VV, 应配#VV)  (det, 食料#NN, 其他#DT)  (dobj, 应配#VV, 食料#NN)
+            (advmod, 选用#VV, 另外#AD)  (mmod, 选用#VV, 应#VV)  (root, ROOT#null, 选用#VV)  (advmod, 发制#VA, 冷水#AD)  (dobj, 选用#VV, 发制#VA)  (mark, 发制#VA, 的#DEC)  (advmod, 选用#VV, 较好#AD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/13201033.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

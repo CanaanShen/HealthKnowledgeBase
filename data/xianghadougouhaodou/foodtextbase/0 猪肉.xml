@@ -1,0 +1,378 @@
+<content>
+
+    <id>
+        0
+    </id>
+
+    <foodname>
+        猪肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        硬五花
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热痰滞内蕴者、外感病人忌食；肥胖、血脂较高、高血压者慎食。
+        </rawdata>
+
+        <segment>
+            湿热  痰滞  内蕴者  、  外感  病人  忌食  ；  肥胖  、  血脂  较  高  、  高血压  者慎  食  。
+        </segment>
+
+        <pos>
+            湿热#NN  痰滞#VV  内蕴者#NN  、#PU  外感#NN  病人#NN  忌食#NN  ；#PU  肥胖#NN  、#PU  血脂#NN  较#AD  高#VA  、#PU  高血压#VV  者慎#NN  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 痰滞#VV, 湿热#NN)  (root, ROOT#null, 痰滞#VV)  (conj, 忌食#NN, 内蕴者#NN)  (nn, 忌食#NN, 外感#NN)  (nn, 忌食#NN, 病人#NN)  (dobj, 痰滞#VV, 忌食#NN)  (conj, 血脂#NN, 肥胖#NN)  (nsubj, 高#VA, 血脂#NN)  (advmod, 高#VA, 较#AD)  (conj, 痰滞#VV, 高#VA)  (dep, 高#VA, 高血压#VV)  (nn, 食#NN, 者慎#NN)  (dobj, 高血压#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用。适宜阴虚不足，头晕，贫血，老人燥咳无痰，大便干结，以及营养不良者食用。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用  。  适宜  阴虚  不足  ，  头晕  ，  贫血  ，  老人  燥咳无痰  ，  大便  干结  ，  以及  营养  不良  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV    。#PU  适宜#VA  阴虚#VA  不足#VA  ，#PU  头晕#NN  ，#PU  贫血#NN  ，#PU  老人#NN  燥咳无痰#NN  ，#PU  大便#AD  干结#VA  ，#PU  以及#CC  营养#VA  不良#JJ  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (dep, 食用#VV, 适宜#VA)  (comod, 适宜#VA, 阴虚#VA)  (comod, 适宜#VA, 不足#VA)  (nsubj, 干结#VA, 头晕#NN)  (nsubj, 干结#VA, 贫血#NN)  (nn, 燥咳无痰#NN, 老人#NN)  (nsubj, 干结#VA, 燥咳无痰#NN)  (advmod, 干结#VA, 大便#AD)  (dep, 适宜#VA, 干结#VA)  (cc, 干结#VA, 以及#CC)  (dep, 干结#VA, 营养#VA)  (amod, 者#NN, 不良#JJ)  (nsubj, 食用#VV, 者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                395
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                14.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                30.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                69
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                162
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                57.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪肉又名豚肉，是主要家畜之一。属猪科动物。其性味甘咸平，含有丰富的蛋白质及脂肪、碳水化合物、钙、磷、铁等成分。猪肉是日常生活的主要副食品，具有补虚强身，滋阴润燥、丰肌泽肤的作用。凡病后体弱、产后血虚、面黄赢瘦者，皆可用之作营养滋补之品。
+            猪 又 名 豕、豚。因饲养简易，又具有骨细筋少肉多的特点，为日常食用肉最多的一种。历代医家认为：“猪，为用最多，惟肉不宜多食，令人暴肥，盖虚肌所致也。”“凡肉有补，惟猪肉无补。”“以肉补阴，是以火济水，盖肉性入胃便湿热，热生痰，痰生则气不降，而诸症作矣。”所以对阴虚血虚患者多吃猪肉无益。然而，据报道，日本琉球大学教授通过调查发现，猪肉如果调煮得宜，它亦可成为“长寿之药”。调查结果发现，某地八十岁以上的长寿老人们几乎每天都吃猪肉，主要由于烹调方法不同，猪肉煮的时间都很长，先将猪肉煮二三小时后，再加入海带或萝卜又煮一小时，做成一种汤菜食用。经过化验分析，猪肉经长时间炖煮后，脂肪会减少30-50%，不饱和脂肪酸增加，而胆固醇含量大大降低。猪肉虽是日常食品，一般健康人和患有疾病之人均能食之，但多食令人虚肥，大动风痰，多食或冷食易引起胃肠饱胀或腹胀腹泻。对于脂肪肉及猪油，患高血压或偏瘫（中风）病者及肠胃虚寒、虚肥身体、痰湿盛、宿食不化者应慎食或少食之。一般入药均为猪瘦肉。
+        </rawdata>
+
+        <segment>
+            猪肉  又  名  豚肉  ，  是  主要  家畜  之一  。  属  猪科  动物  。  其  性味甘咸平  ，  含有  丰富  的  蛋白质  及  脂肪  、  碳水化合物  、  钙  、  磷  、  铁  等  成分  。  猪肉  是  日常生活  的  主要  副食品  ，  具有  补  虚  强身  ，  滋阴  润燥  、  丰肌泽肤  的  作用  。  凡  病  后  体弱  、  产后  血虚  、  面黄  赢  瘦  者  ，  皆  可  用之  作  营养  滋补  之  品  。
+            猪  又  名  豕  、  豚  。  因  饲养  简易  ，  又  具有  骨细筋  少  肉  多  的  特点  ，  为  日常  食用  肉  最  多  的  一  种  。  历代  医家  认为  ：  “  猪  ，  为  用  最多  ，  惟  肉  不  宜  多  食  ，  令  人  暴肥  ，  盖  虚肌  所致  也  。  ”  “  凡  肉  有  补  ，  惟  猪肉  无补  。  ”  “  以肉  补阴  ，  是  以  火济水  ，  盖  肉  性入胃  便  湿热  ，  热  生痰  ，  痰生  则  气  不降  ，  而  诸症作矣  。  ”  所以  对  阴虚  血虚  患者  多  吃  猪肉  无益  。  然而  ，  据  报道  ，  日本  琉球  大学  教授  通过  调查  发现  ，  猪肉  如果  调煮  得宜  ，  它  亦  可  成为  “  长寿  之  药  ”  。  调查  结果  发现  ，  某地  八十  岁  以上  的  长寿  老人们  几乎  每天  都  吃  猪肉  ，  主要  由于  烹调  方法  不同  ，  猪肉  煮  的  时间  都  很  长  ，  先  将  猪肉  煮  二三  小时  后  ，  再加入  海带  或  萝卜  又  煮  一  小时  ，  做成  一  种  汤  菜  食用  。  经过  化验  分析  ，  猪肉  经  长  时间  炖煮  后  ，  脂肪  会  减少  30-50%  ，  不  饱和  脂肪酸  增加  ，  而  胆固醇  含量  大大  降低  。  猪肉  虽  是  日常  食品  ，  一般  健康  人和  患有  疾病  之  人均  能  食  之  ，  但  多  食  令  人  虚肥  ，  大动  风痰  ，  多  食  或  冷食  易  引起  胃肠  饱胀  或  腹胀  腹泻  。  对于  脂肪  肉  及  猪油  ，  患  高血压  或  偏瘫  （  中风  ）  病者  及  肠胃  虚寒  、  虚  肥  身体  、  痰湿盛  、  宿食  不化者  应  慎食  或少  食  之  。  一般  入药  均  为  猪  瘦肉  。
+        </segment>
+
+        <pos>
+            猪肉#NN  又#CC  名#NN  豚肉#VV  ，#PU  是#VC  主要#JJ  家畜#NN  之一#NN    。#PU  属#VV  猪科#JJ  动物#NN    。#PU  其#PN  性味甘咸平#VV  ，#PU  含有#VV  丰富#VA  的#DEC  蛋白质#NN  及#CC  脂肪#NN  、#PU  碳水化合物#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  成分#NN    。#PU  猪肉#AD  是#VC  日常生活#NN  的#DEG  主要#JJ  副食品#NN  ，#PU  具有#VV  补#NN  虚#AD  强身#VV  ，#PU  滋阴#VV  润燥#NN  、#PU  丰肌泽肤#NN  的#DEC  作用#NN    。#PU  凡#AD  病#NN  后#LC  体弱#NR  、#PU  产后#NR  血虚#NR  、#PU  面黄#NR  赢#VV  瘦#NN  者#NN  ，#PU  皆#AD  可#VV  用之#NN  作#VV  营养#VA  滋补#VV  之#PN  品#M    。#PU    。#PU
+            猪#NN  又#CC  名#NN  豕#NN  、#PU  豚#NN    。#PU  因#P  饲养#VV  简易#JJ  ，#PU  又#AD  具有#VV  骨细筋#NR  少#JJ  肉#NN  多#VA  的#DEC  特点#NN  ，#PU  为#VC  日常#JJ  食用#VV  肉#NN  最#AD  多#VA  的#DEC  一#CD  种#M    。#PU  历代#NN  医家#NN  认为#VV  ：#PU  ``#NN  猪#NN  ，#PU  为#P  用#VV  最多#AD  ，#PU  惟#NN  肉#NN  不#AD  宜#NR  多#CD  食#NN  ，#PU  令#VV  人#NN  暴肥#VA  ，#PU  盖#NN  虚肌#AD  所致#VA  也#AD    。#PU  ''#NN  ``#NN  凡#AD  肉#NN  有#VE  补#NN  ，#PU  惟#VV  猪肉#NN  无补#NN    。#PU  ''#NN  ``#NN  以肉#NN  补阴#VV  ，#PU  是#VC  以#P  火济水#NN  ，#PU  盖#NN  肉#NN  性入胃#NN  便#AD  湿热#VV  ，#PU  热#JJ  生痰#NN  ，#PU  痰生#CD  则#M  气#NN  不降#NN  ，#PU  而#MSP  诸症作矣#VV    。#PU  ''#NN  所以#AD  对#P  阴虚#NN  血虚#NN  患者#NN  多#AD  吃#VV  猪肉#NN  无益#NN    。#PU  然而#AD  ，#PU  据#P  报道#NN  ，#PU  日本#NR  琉球#NN  大学#NN  教授#NN  通过#P  调查#NN  发现#VV  ，#PU  猪肉#NN  如果#CS  调煮#VV  得宜#NN  ，#PU  它#PN  亦#AD  可#VV  成为#VV  ``#NR  长寿#NR  之#DEG  药#NN  ''#NN    。#PU  调查#NN  结果#NN  发现#VV  ，#PU  某地#VV  八十#CD  岁#M  以上#LC  的#DEC  长寿#NR  老人们#NN  几乎#AD  每天#AD  都#AD  吃#VV  猪肉#NN  ，#PU  主要#AD  由于#P  烹调#NN  方法#NN  不同#VA  ，#PU  猪肉#AD  煮#VV  的#DEC  时间#NN  都#AD  很#AD  长#VA  ，#PU  先#AD  将#AD  猪肉#AD  煮#VV  二三#CD  小时#NN  后#LC  ，#PU  再加入#NR  海带#NN  或#CC  萝卜#NN  又#AD  煮#VV  一#CD  小时#NN  ，#PU  做成#NR  一#CD  种#M  汤#NN  菜#NN  食用#VV    。#PU  经过#P  化验#NN  分析#NN  ，#PU  猪肉#NN  经#P  长#JJ  时间#NN  炖煮#NN  后#LC  ，#PU  脂肪#AD  会#VV  减少#VV  30-50#CD  %#NN  ，#PU  不#AD  饱和#AD  脂肪酸#AD  增加#VV  ，#PU  而#CC  胆固醇#NN  含量#NN  大大#AD  降低#VV    。#PU  猪肉#NN  虽#CS  是#VC  日常#JJ  食品#NN  ，#PU  一般#JJ  健康#JJ  人和#NN  患有#NN  疾病#NN  之#DEG  人均#JJ  能#VV  食#NN  之#PN  ，#PU  但#AD  多#CD  食#NN  令#VV  人#NN  虚肥#VA  ，#PU  大动#NN  风痰#NN  ，#PU  多#CD  食#NN  或#CC  冷食#NN  易#AD  引起#VV  胃肠#NN  饱胀#NN  或#CC  腹胀#NN  腹泻#NN    。#PU  对于#P  脂肪#NR  肉#NN  及#CC  猪油#NN  ，#PU  患#NN  高血压#NN  或#CC  偏瘫#NN  （#PU  中风#NN  ）#PU  病者#NN  及#CC  肠胃#NN  虚寒#AD  、#PU  虚#AD  肥#NR  身体#NN  、#PU  痰湿盛#NN  、#PU  宿食#NN  不化者#NN  应#VV  慎食#VV  或少#NN  食#NN  之#DEG    。#PU  一般#JJ  入药#NN  均#AD  为#VC  猪#NN  瘦肉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 猪肉#NN)  (cc, 名#NN, 又#CC)  (nsubj, 豚肉#VV, 名#NN)  (root, ROOT#null, 豚肉#VV)  (cop, 之一#NN, 是#VC)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 家畜#NN)  (ccomp, 豚肉#VV, 之一#NN)   (root, ROOT#null, 属#VV)  (amod, 动物#NN, 猪科#JJ)  (dobj, 属#VV, 动物#NN)   (nsubj, 性味甘咸平#VV, 其#PN)  (root, ROOT#null, 性味甘咸平#VV)  (ccomp, 性味甘咸平#VV, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 成分#NN, 蛋白质#NN)  (cc, 成分#NN, 及#CC)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 成分#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 含有#VV, 成分#NN)   (advmod, 副食品#NN, 猪肉#AD)  (cop, 副食品#NN, 是#VC)  (assmod, 副食品#NN, 日常生活#NN)  (case, 日常生活#NN, 的#DEG)  (amod, 副食品#NN, 主要#JJ)  (root, ROOT#null, 副食品#NN)  (dep, 副食品#NN, 具有#VV)  (nsubj, 强身#VV, 补#NN)  (advmod, 强身#VV, 虚#AD)  (relcl, 作用#NN, 强身#VV)  (dep, 强身#VV, 滋阴#VV)  (conj, 丰肌泽肤#NN, 润燥#NN)  (dobj, 滋阴#VV, 丰肌泽肤#NN)  (mark, 强身#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (advmod, 者#NN, 凡#AD)  (loc, 赢#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 产后#NR, 体弱#NR)  (nn, 面黄#NR, 产后#NR)  (conj, 面黄#NR, 血虚#NR)  (nsubj, 赢#VV, 面黄#NR)  (relcl, 者#NN, 赢#VV)  (dobj, 赢#VV, 瘦#NN)  (nsubj, 可#VV, 者#NN)  (advmod, 可#VV, 皆#AD)  (conj, 作#VV, 可#VV)  (dobj, 可#VV, 用之#NN)  (root, ROOT#null, 作#VV)  (rcomp, 作#VV, 营养#VA)  (dobj, 作#VV, 滋补#VV)  (dobj, 滋补#VV, 之#PN)  (dep, 滋补#VV, 品#M)   (root, ROOT#null, null#null)
+            (conj, 名#NN, 猪#NN)  (cc, 名#NN, 又#CC)  (nn, 豚#NN, 名#NN)  (conj, 豚#NN, 豕#NN)  (root, ROOT#null, 豚#NN)   (case, 饲养#VV, 因#P)  (prep, 多#VA, 饲养#VV)  (nfincl, 肉#NN, 简易#JJ)  (advmod, 具有#VV, 又#AD)  (dep, 简易#JJ, 具有#VV)  (nn, 肉#NN, 骨细筋#NR)  (amod, 肉#NN, 少#JJ)  (nsubj, 多#VA, 肉#NN)  (relcl, 特点#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 具有#VV, 特点#NN)  (dep, 食用#VV, 为#VC)  (dep, 为#VC, 日常#JJ)  (dep, 简易#JJ, 食用#VV)  (dobj, 饲养#VV, 肉#NN)  (advmod, 多#VA, 最#AD)  (nsubj, 种#M, 多#VA)  (mark, 多#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (root, ROOT#null, 种#M)   (nn, 医家#NN, 历代#NN)  (nsubj, 认为#VV, 医家#NN)  (root, ROOT#null, 认为#VV)  (nn, 猪#NN, ``#NN)  (nsubj, 令#VV, 猪#NN)  (case, 用#VV, 为#P)  (prep, 令#VV, 用#VV)  (advmod, 用#VV, 最多#AD)  (nn, 肉#NN, 惟#NN)  (nsubj, 令#VV, 肉#NN)  (neg, 令#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (prep, 令#VV, 食#NN)  (ccomp, 认为#VV, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 暴肥#VA)  (nsubj, 所致#VA, 盖#NN)  (advmod, 所致#VA, 虚肌#AD)  (conj, 令#VV, 所致#VA)  (advmod, 所致#VA, 也#AD)   (nn, ``#NN, ''#NN)  (nsubj, 有#VE, ``#NN)  (advmod, 肉#NN, 凡#AD)  (dep, 有#VE, 肉#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 补#NN)  (conj, 有#VE, 惟#VV)  (nn, 无补#NN, 猪肉#NN)  (dobj, 惟#VV, 无补#NN)   (nn, 以肉#NN, ''#NN)  (nn, 以肉#NN, ``#NN)  (nsubj, 补阴#VV, 以肉#NN)  (root, ROOT#null, 补阴#VV)  (cop, 湿热#VV, 是#VC)  (case, 火济水#NN, 以#P)  (prep, 湿热#VV, 火济水#NN)  (nn, 性入胃#NN, 盖#NN)  (nn, 性入胃#NN, 肉#NN)  (nsubj, 湿热#VV, 性入胃#NN)  (advmod, 湿热#VV, 便#AD)  (ccomp, 补阴#VV, 湿热#VV)  (amod, 生痰#NN, 热#JJ)  (nsubj, 诸症作矣#VV, 生痰#NN)  (nummod, 则#M, 痰生#CD)  (clf, 不降#NN, 则#M)  (nn, 不降#NN, 气#NN)  (nsubj, 诸症作矣#VV, 不降#NN)  (prtmod, 诸症作矣#VV, 而#MSP)  (dep, 湿热#VV, 诸症作矣#VV)   (nsubj, 吃#VV, ''#NN)  (advmod, 吃#VV, 所以#AD)  (case, 患者#NN, 对#P)  (nn, 患者#NN, 阴虚#NN)  (nn, 患者#NN, 血虚#NN)  (prep, 吃#VV, 患者#NN)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (nn, 无益#NN, 猪肉#NN)  (dobj, 吃#VV, 无益#NN)   (advmod, 成为#VV, 然而#AD)  (case, 报道#NN, 据#P)  (prep, 成为#VV, 报道#NN)  (nsubj, 成为#VV, 日本#NR)  (nn, 教授#NN, 琉球#NN)  (nn, 教授#NN, 大学#NN)  (nsubj, 成为#VV, 教授#NN)  (case, 发现#VV, 通过#P)  (nsubj, 发现#VV, 调查#NN)  (prep, 成为#VV, 发现#VV)  (nsubj, 调煮#VV, 猪肉#NN)  (advmod, 调煮#VV, 如果#CS)  (ccomp, 发现#VV, 调煮#VV)  (dobj, 调煮#VV, 得宜#NN)  (nsubj, 可#VV, 它#PN)  (advmod, 可#VV, 亦#AD)  (conj, 调煮#VV, 可#VV)  (root, ROOT#null, 成为#VV)  (nn, ''#NN, ``#NR)  (assmod, ''#NN, 长寿#NR)  (case, 长寿#NR, 之#DEG)  (nn, ''#NN, 药#NN)  (dobj, 成为#VV, ''#NN)   (nn, 结果#NN, 调查#NN)  (nsubj, 发现#VV, 结果#NN)  (root, ROOT#null, 发现#VV)  (relcl, 老人们#NN, 某地#VV)  (nummod, 岁#M, 八十#CD)  (loc, 某地#VV, 岁#M)  (case, 岁#M, 以上#LC)  (mark, 某地#VV, 的#DEC)  (nn, 老人们#NN, 长寿#NR)  (nsubj, 吃#VV, 老人们#NN)  (advmod, 吃#VV, 几乎#AD)  (advmod, 吃#VV, 每天#AD)  (advmod, 吃#VV, 都#AD)  (ccomp, 发现#VV, 吃#VV)  (dobj, 吃#VV, 猪肉#NN)  (advmod, 煮#VV, 主要#AD)  (case, 不同#VA, 由于#P)  (nn, 方法#NN, 烹调#NN)  (nsubj, 不同#VA, 方法#NN)  (prep, 煮#VV, 不同#VA)  (advmod, 煮#VV, 猪肉#AD)  (relcl, 时间#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (nsubj, 长#VA, 时间#NN)  (advmod, 长#VA, 都#AD)  (advmod, 长#VA, 很#AD)  (conj, 不同#VA, 长#VA)  (advmod, 煮#VV, 先#AD)  (advmod, 煮#VV, 将#AD)  (advmod, 煮#VV, 猪肉#AD)  (loc, 煮#VV, 煮#VV)  (nummod, 小时#NN, 二三#CD)  (dobj, 煮#VV, 小时#NN)  (case, 煮#VV, 后#LC)  (nn, 萝卜#NN, 再加入#NR)  (conj, 萝卜#NN, 海带#NN)  (cc, 萝卜#NN, 或#CC)  (nsubj, 煮#VV, 萝卜#NN)  (advmod, 煮#VV, 又#AD)  (conj, 吃#VV, 煮#VV)  (nummod, 小时#NN, 一#CD)  (dobj, 煮#VV, 小时#NN)  (nn, 菜#NN, 做成#NR)  (nummod, 种#M, 一#CD)  (clf, 菜#NN, 种#M)  (nn, 菜#NN, 汤#NN)  (nsubj, 食用#VV, 菜#NN)  (conj, 吃#VV, 食用#VV)   (case, 分析#NN, 经过#P)  (nn, 分析#NN, 化验#NN)  (prep, 减少#VV, 分析#NN)  (nsubj, 减少#VV, 猪肉#NN)  (case, 炖煮#NN, 经#P)  (amod, 时间#NN, 长#JJ)  (nn, 炖煮#NN, 时间#NN)  (prep, 减少#VV, 炖煮#NN)  (case, 炖煮#NN, 后#LC)  (advmod, 减少#VV, 脂肪#AD)  (mmod, 减少#VV, 会#VV)  (root, ROOT#null, 减少#VV)  (nummod, %#NN, 30-50#CD)  (dobj, 减少#VV, %#NN)  (neg, 增加#VV, 不#AD)  (advmod, 增加#VV, 饱和#AD)  (advmod, 增加#VV, 脂肪酸#AD)  (conj, 减少#VV, 增加#VV)  (cc, 减少#VV, 而#CC)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 降低#VV, 含量#NN)  (advmod, 降低#VV, 大大#AD)  (conj, 减少#VV, 降低#VV)   (nsubj, 食品#NN, 猪肉#NN)  (advmod, 食品#NN, 虽#CS)  (cop, 食品#NN, 是#VC)  (amod, 食品#NN, 日常#JJ)  (root, ROOT#null, 食品#NN)  (amod, 疾病#NN, 一般#JJ)  (amod, 疾病#NN, 健康#JJ)  (nn, 疾病#NN, 人和#NN)  (nn, 疾病#NN, 患有#NN)  (assmod, 食#NN, 疾病#NN)  (case, 疾病#NN, 之#DEG)  (amod, 食#NN, 人均#JJ)  (relcl, 食#NN, 能#VV)  (nsubj, 令#VV, 食#NN)  (nsubj, 令#VV, 之#PN)  (advmod, 令#VV, 但#AD)  (nummod, 食#NN, 多#CD)  (nsubj, 令#VV, 食#NN)  (conj, 食品#NN, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 虚肥#VA)  (nn, 风痰#NN, 大动#NN)  (nsubj, 引起#VV, 风痰#NN)  (nummod, 冷食#NN, 多#CD)  (conj, 冷食#NN, 食#NN)  (cc, 冷食#NN, 或#CC)  (nsubj, 引起#VV, 冷食#NN)  (advmod, 引起#VV, 易#AD)  (conj, 食品#NN, 引起#VV)  (nn, 腹泻#NN, 胃肠#NN)  (conj, 腹泻#NN, 饱胀#NN)  (cc, 腹泻#NN, 或#CC)  (nn, 腹泻#NN, 腹胀#NN)  (dobj, 引起#VV, 腹泻#NN)   (case, 猪油#NN, 对于#P)  (nn, 猪油#NN, 脂肪#NR)  (conj, 猪油#NN, 肉#NN)  (cc, 猪油#NN, 及#CC)  (prep, 慎食#VV, 猪油#NN)  (nsubj, 慎食#VV, 患#NN)  (conj, 偏瘫#NN, 高血压#NN)  (cc, 偏瘫#NN, 或#CC)  (nn, 肠胃#NN, 偏瘫#NN)  (prnmod, 肠胃#NN, 中风#NN)  (conj, 肠胃#NN, 病者#NN)  (cc, 肠胃#NN, 及#CC)  (nsubj, 慎食#VV, 肠胃#NN)  (advmod, 慎食#VV, 虚寒#AD)  (conj, 虚寒#AD, 虚#AD)  (nn, 不化者#NN, 肥#NR)  (conj, 不化者#NN, 身体#NN)  (conj, 不化者#NN, 痰湿盛#NN)  (nn, 不化者#NN, 宿食#NN)  (prep, 慎食#VV, 不化者#NN)  (mmod, 慎食#VV, 应#VV)  (root, ROOT#null, 慎食#VV)  (nn, 食#NN, 或少#NN)  (dobj, 慎食#VV, 食#NN)  (case, 食#NN, 之#DEG)   (amod, 入药#NN, 一般#JJ)  (nsubj, 瘦肉#NN, 入药#NN)  (advmod, 瘦肉#NN, 均#AD)  (cop, 瘦肉#NN, 为#VC)  (nn, 瘦肉#NN, 猪#NN)  (root, ROOT#null, 瘦肉#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补充蛋白质和脂肪酸
+            猪肉为人类提供优质蛋白质和必需的脂肪酸。猪肉可提供血红素(有机铁)和促进铁吸收的半胱氨酸，能改善缺铁性贫血。
+            2.补肾滋阴
+            猪肉 性平 味甘，有润肠胃、生津液、补肾气、解热毒的功效，主治热病伤津、消渴羸瘦、肾虚体弱、产后血虚、燥咳、便秘、补虚、滋阴、润燥、滋肝阴、润肌肤、利小便和止消渴。
+            3.润燥
+            猪肉煮汤 饮下 可 急补 由于津液不足引起的烦燥、干咳、便秘和难产。
+        </rawdata>
+
+        <segment>
+            补充  蛋白质  和  脂肪酸
+            猪肉  为  人类  提供  优质  蛋白质  和  必需  的  脂肪酸  。  猪肉  可  提供  血红素  (  有机铁  )  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。
+            补  肾  滋阴
+            猪肉  性平  味  甘  ，  有  润肠  胃  、  生  津液  、  补  肾气  、  解热  毒  的  功效  ，  主治  热病  伤津  、  消渴  羸瘦  、  肾虚  体弱  、  产后  血虚  、  燥咳  、  便秘  、  补  虚  、  滋阴  、  润燥  、  滋肝  阴  、  润  肌肤  、  利  小便  和  止  消渴  。
+            润燥
+            猪肉  煮  汤  饮下  可  急  补  由于  津液  不足  引起  的  烦燥  、  干咳  、  便秘  和  难产  。
+        </segment>
+
+        <pos>
+            补充#VV  蛋白质#NN  和#CC  脂肪酸#NN
+            猪肉#NN  为#P  人类#NN  提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  猪肉#NN  可#VV  提供#VV  血红素#AD  -LRB-#VV  有机铁#NN  -RRB-#NN  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU    。#PU
+            补#VV  肾#NN  滋阴#NN
+            猪肉#NN  性平#NN  味#VV  甘#NR  ，#PU  有#VE  润肠#VV  胃#NN  、#PU  生#VV  津液#NN  、#PU  补#NN  肾气#NN  、#PU  解热#VV  毒#VV  的#DEC  功效#NN  ，#PU  主治#VV  热病#NN  伤津#NN  、#PU  消渴#NN  羸瘦#NN  、#PU  肾虚#NN  体弱#NN  、#PU  产后#NN  血虚#NN  、#PU  燥咳#NN  、#PU  便秘#NN  、#PU  补#VV  虚#AD  、#PU  滋阴#NN  、#PU  润燥#NN  、#PU  滋肝#NN  阴#NN  、#PU  润#NN  肌肤#NN  、#PU  利#NR  小便#NN  和#ETC  止#VV  消渴#NN  。#PU
+            润燥#VV
+            猪肉#NN  煮#VV  汤#NN  饮下#NN  可#VV  急#AD  补#VV  由于#P  津液#AD  不足#VA  引起#VV  的#DEC  烦燥#NR  、#PU  干咳#NR  、#PU  便秘#NR  和#CC  难产#NR  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补充#VV)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (dobj, 补充#VV, 脂肪酸#NN)
+            (nsubj, 提供#VV, 猪肉#NN)  (case, 人类#NN, 为#P)  (prep, 提供#VV, 人类#NN)  (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (nsubj, 提供#VV, 猪肉#NN)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (advmod, -LRB-#VV, 血红素#AD)  (nn, -RRB-#NN, 有机铁#NN)  (cc, -LRB-#VV, 和#CC)  (conj, -LRB-#VV, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, -LRB-#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (conj, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补#VV)  (nn, 滋阴#NN, 肾#NN)  (dobj, 补#VV, 滋阴#NN)
+            (nn, 性平#NN, 猪肉#NN)  (nsubj, 味#VV, 性平#NN)  (root, ROOT#null, 味#VV)  (dobj, 味#VV, 甘#NR)  (conj, 味#VV, 有#VE)  (dep, 有#VE, 润肠#VV)  (dobj, 润肠#VV, 胃#NN)  (conj, 润肠#VV, 生#VV)  (dobj, 生#VV, 津液#NN)  (nn, 肾气#NN, 补#NN)  (conj, 润肠#VV, 肾气#NN)  (conj, 润肠#VV, 解热#VV)  (relcl, 功效#NN, 毒#VV)  (mark, 毒#VV, 的#DEC)  (dobj, 解热#VV, 功效#NN)  (conj, 解热#VV, 主治#VV)  (nn, 伤津#NN, 热病#NN)  (dobj, 主治#VV, 伤津#NN)  (nn, 羸瘦#NN, 消渴#NN)  (conj, 润肠#VV, 羸瘦#NN)  (nn, 体弱#NN, 肾虚#NN)  (conj, 润肠#VV, 体弱#NN)  (nn, 血虚#NN, 产后#NN)  (conj, 润肠#VV, 血虚#NN)  (conj, 润肠#VV, 燥咳#NN)  (conj, 润肠#VV, 便秘#NN)  (conj, 润肠#VV, 补#VV)  (advmod, 补#VV, 虚#AD)  (conj, 润肠#VV, 滋阴#NN)  (conj, 润肠#VV, 润燥#NN)  (nn, 阴#NN, 滋肝#NN)  (conj, 润肠#VV, 阴#NN)  (nn, 肌肤#NN, 润#NN)  (conj, 润肠#VV, 肌肤#NN)  (nn, 小便#NN, 利#NR)  (dep, 润肠#VV, 小便#NN)  (etc, 小便#NN, 和#ETC)  (conj, 味#VV, 止#VV)  (dobj, 止#VV, 消渴#NN)
+            (root, ROOT#null, 润燥#VV)
+            (nsubj, 煮#VV, 猪肉#NN)  (root, ROOT#null, 煮#VV)  (nn, 饮下#NN, 汤#NN)  (dobj, 煮#VV, 饮下#NN)  (mmod, 补#VV, 可#VV)  (advmod, 补#VV, 急#AD)  (conj, 煮#VV, 补#VV)  (case, 不足#VA, 由于#P)  (advmod, 不足#VA, 津液#AD)  (prep, 引起#VV, 不足#VA)  (relcl, 难产#NR, 引起#VV)  (mark, 引起#VV, 的#DEC)  (conj, 难产#NR, 烦燥#NR)  (conj, 难产#NR, 干咳#NR)  (conj, 难产#NR, 便秘#NR)  (cc, 难产#NR, 和#CC)  (dobj, 补#VV, 难产#NR)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  贫血  美容养颜  补气  润燥  补血  消肿  补肾  补肾气  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.猪肉的蛋白质属优质蛋白质，含有人体全部必需氨基酸。
+            2.猪肉富含铁，是人体血液中红细胞的生成和功能维持所必须的。
+            3.猪肉是维生素的主要膳食来源，特别是精猪肉中维生素B1的含量丰富。猪肉中还含有较多的对脂肪合成和分解有重要作用的维生素B2。
+        </rawdata>
+
+        <segment>
+            猪肉  的  蛋白质  属  优质  蛋白质  ，  含有  人体  全部  必需  氨基酸  。
+            猪肉  富  含铁  ，  是  人体  血液  中  红  细胞  的  生成  和  功能  维持  所  必须  的  。
+            猪肉  是  维生素  的  主要  膳食  来源  ，  特别是  精  猪肉  中  维生素B1  的  含量  丰富  。  猪肉  中  还  含有  较多  的  对  脂肪  合成  和  分解  有  重要  作用  的  维生素B2  。
+        </segment>
+
+        <pos>
+            猪肉#NN  的#DEG  蛋白质#NN  属#VV  优质#JJ  蛋白质#NN  ，#PU  含有#NN  人体#NN  全部#AD  必需#VV  氨基酸#NN  。#PU
+            猪肉#NN  富#VV  含铁#NN  ，#PU  是#VC  人体#VV  血液#NN  中#LC  红#JJ  细胞#NN  的#DEG  生成#NN  和#CC  功能#NN  维持#VV  所#MSP  必须#VV  的#DEC  。#PU
+            猪肉#NN  是#VC  维生素#NN  的#DEG  主要#JJ  膳食#NN  来源#NN  ，#PU  特别是#AD  精#JJ  猪肉#NN  中#LC  维生素B1#CD  的#DEG  含量#NN  丰富#VA    。#PU  猪肉#NN  中#LC  还#AD  含有#VV  较多#NN  的#DEC  对#P  脂肪#NR  合成#JJ  和#NN  分解#VV  有#VE  重要#JJ  作用#NN  的#DEG  维生素B2#CD    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 蛋白质#NN, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nsubj, 属#VV, 蛋白质#NN)  (root, ROOT#null, 属#VV)  (amod, 蛋白质#NN, 优质#JJ)  (dobj, 属#VV, 蛋白质#NN)  (nn, 人体#NN, 含有#NN)  (nsubj, 必需#VV, 人体#NN)  (advmod, 必需#VV, 全部#AD)  (conj, 属#VV, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)
+            (nsubj, 富#VV, 猪肉#NN)  (root, ROOT#null, 富#VV)  (dobj, 富#VV, 含铁#NN)  (cop, 人体#VV, 是#VC)  (conj, 富#VV, 人体#VV)  (dep, 功能#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (amod, 细胞#NN, 红#JJ)  (assmod, 功能#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (conj, 功能#NN, 生成#NN)  (cc, 功能#NN, 和#CC)  (dobj, 人体#VV, 功能#NN)  (conj, 人体#VV, 维持#VV)  (prtmod, 必须#VV, 所#MSP)  (dep, 人体#VV, 必须#VV)  (mark, 人体#VV, 的#DEC)
+            (nsubj, 来源#NN, 猪肉#NN)  (cop, 来源#NN, 是#VC)  (assmod, 来源#NN, 维生素#NN)  (case, 维生素#NN, 的#DEG)  (amod, 来源#NN, 主要#JJ)  (nn, 来源#NN, 膳食#NN)  (root, ROOT#null, 来源#NN)  (loc, 丰富#VA, 特别是#AD)  (amod, 猪肉#NN, 精#JJ)  (dep, 特别是#AD, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (assmod, 含量#NN, 维生素B1#CD)  (case, 维生素B1#CD, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (conj, 来源#NN, 丰富#VA)   (loc, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (nsubj, 有#VE, 含有#VV)  (dobj, 含有#VV, 较多#NN)  (mark, 含有#VV, 的#DEC)  (case, 和#NN, 对#P)  (nn, 和#NN, 脂肪#NR)  (amod, 和#NN, 合成#JJ)  (prep, 有#VE, 和#NN)  (mmod, 有#VE, 分解#VV)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 重要#JJ)  (assmod, 维生素B2#CD, 作用#NN)  (case, 作用#NN, 的#DEG)  (dep, 有#VE, 维生素B2#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.猪肉要斜切，猪肉的肉质比较细、筋少，如横切，炒熟后变得凌乱散碎，如斜切，即可使其不破碎，吃起来又不塞牙;猪肉不宜长时间泡水。
+            2.猪肉烹调前莫用热水清洗，因猪肉中含有一种肌溶蛋白的物质，在15摄氏度以上的水中易溶解，若用热水浸泡就会散失很多营养，同时口味也欠佳。
+            3.猪肉应煮熟，因为猪肉中有时会有寄生虫，如果生吃或调理不完全时，可能会在肝脏或脑部寄生有钩绦虫。
+            4.食用猪肉后不宜大量饮茶，因为茶叶的鞣酸会与蛋白质合成具有收敛性的鞣酸蛋白质，使肠蠕动减慢，延长粪便在肠道中的滞留时间，不但易造成便秘，而且还增加了有毒物质和致癌物质的吸收，影响健康。
+        </rawdata>
+
+        <segment>
+            猪肉  要  斜切  ，  猪肉  的  肉质  比较  细  、  筋少  ，  如  横切  ，  炒熟  后  变  得  凌乱  散碎  ，  如  斜切  ，  即  可  使  其  不  破碎  ，  吃  起来  又  不  塞牙  ;  猪肉  不  宜  长时间  泡水  。
+            猪肉  烹调  前  莫  用  热水  清洗  ，  因  猪肉  中  含有  一  种  肌溶  蛋白  的  物质  ，  在  15  摄氏度  以上  的  水中  易  溶解  ，  若  用  热水  浸泡  就  会  散失  很多  营养  ，  同时  口味  也  欠佳  。
+            猪肉  应  煮熟  ，  因为  猪肉  中  有时  会  有  寄生虫  ，  如果  生吃  或  调理  不完全  时  ，  可能  会  在  肝脏  或  脑部  寄生  有  钩  绦虫  。
+            食用  猪肉  后  不  宜  大量  饮茶  ，  因为  茶叶  的  鞣酸  会  与  蛋白质  合成  具有  收敛性  的  鞣酸  蛋白质  ，  使  肠蠕动  减慢  ，  延长  粪便  在  肠道  中  的  滞留  时间  ，  不但  易  造成  便秘  ，  而且  还  增加  了  有毒  物质  和  致癌  物质  的  吸收  ，  影响  健康  。
+        </segment>
+
+        <pos>
+            猪肉#NR  要#VV  斜切#NN  ，#PU  猪肉#NR  的#DEG  肉质#NN  比较#AD  细#VV  、#PU  筋少#VV  ，#PU  如#AD  横切#NN  ，#PU  炒熟#NN  后#LC  变#VV  得#DER  凌乱#VV  散碎#NN  ，#PU  如#AD  斜切#NN  ，#PU  即#AD  可#VV  使#VV  其#PN  不#AD  破碎#VA  ，#PU  吃#VV  起来#VV  又#AD  不#AD  塞牙#AD  ;#VV  猪肉#VV  不#AD  宜#NR  长时间#NN  泡水#NN  。#PU
+            猪肉#NN  烹调#NN  前#LC  莫#NN  用#P  热水#NN  清洗#VV  ，#PU  因#P  猪肉#NN  中#LC  含有#VV  一#CD  种#M  肌溶#NN  蛋白#NN  的#DEG  物质#NN  ，#PU  在#P  15#CD  摄氏度#M  以上#LC  的#DEG  水中#NN  易#AD  溶解#VA  ，#PU  若#CS  用#P  热水#NN  浸泡#NN  就#P  会#VV  散失#VV  很多#CD  营养#VA  ，#PU  同时#AD  口味#NN  也#AD  欠佳#VA  。#PU
+            猪肉#NN  应#P  煮熟#NN  ，#PU  因为#P  猪肉#NN  中#LC  有时#AD  会#VV  有#VE  寄生虫#NN  ，#PU  如果#CS  生吃#VV  或#CC  调理#VV  不完全#JJ  时#NN  ，#PU  可能#VV  会#VV  在#P  肝脏#NN  或#CC  脑部#NN  寄生#NN  有#VE  钩#NN  绦虫#NN  。#PU
+            食用#VV  猪肉#NN  后#LC  不#AD  宜#NR  大量#AD  饮茶#VV  ，#PU  因为#P  茶叶#NN  的#DEG  鞣酸#NN  会#VV  与#P  蛋白质#NR  合成#JJ  具有#VV  收敛性#NN  的#DEC  鞣酸#NN  蛋白质#VV  ，#PU  使#VV  肠蠕动#NN  减慢#NN  ，#PU  延长#VV  粪便#VV  在#P  肠道#NN  中#LC  的#DEC  滞留#VV  时间#NN  ，#PU  不但#CC  易#AD  造成#VV  便秘#NN  ，#PU  而且#CC  还#AD  增加#VV  了#AS  有毒#NN  物质#NN  和#CC  致癌#NN  物质#NN  的#DEG  吸收#NN  ，#PU  影响#NN  健康#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 要#VV, 猪肉#NR)  (root, ROOT#null, 要#VV)  (dobj, 要#VV, 斜切#NN)  (assmod, 肉质#NN, 猪肉#NR)  (case, 猪肉#NR, 的#DEG)  (nsubj, 细#VV, 肉质#NN)  (advmod, 细#VV, 比较#AD)  (conj, 要#VV, 细#VV)  (dep, 细#VV, 筋少#VV)  (advmod, 横切#NN, 如#AD)  (nsubj, 凌乱#VV, 横切#NN)  (loc, 凌乱#VV, 炒熟#NN)  (case, 炒熟#NN, 后#LC)  (dep, 凌乱#VV, 变#VV)  (dep, 凌乱#VV, 得#DER)  (conj, 要#VV, 凌乱#VV)  (dobj, 凌乱#VV, 散碎#NN)  (advmod, 斜切#NN, 如#AD)  (nsubj, 使#VV, 斜切#NN)  (advmod, 使#VV, 即#AD)  (mmod, 使#VV, 可#VV)  (conj, 要#VV, 使#VV)  (nsubj, 破碎#VA, 其#PN)  (neg, 破碎#VA, 不#AD)  (ccomp, 使#VV, 破碎#VA)  (mmod, 猪肉#VV, 吃#VV)  (mmod, 猪肉#VV, 起来#VV)  (advmod, 猪肉#VV, 又#AD)  (neg, 猪肉#VV, 不#AD)  (advmod, 猪肉#VV, 塞牙#AD)  (mmod, 猪肉#VV, ;#VV)  (conj, 要#VV, 猪肉#VV)  (neg, 猪肉#VV, 不#AD)  (nn, 泡水#NN, 宜#NR)  (nn, 泡水#NN, 长时间#NN)  (dobj, 猪肉#VV, 泡水#NN)
+            (nn, 烹调#NN, 猪肉#NN)  (loc, 清洗#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nsubj, 清洗#VV, 莫#NN)  (case, 热水#NN, 用#P)  (prep, 清洗#VV, 热水#NN)  (root, ROOT#null, 清洗#VV)  (case, 猪肉#NN, 因#P)  (prep, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (dep, 清洗#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 肌溶#NN)  (assmod, 物质#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 摄氏度#M, 在#P)  (nummod, 摄氏度#M, 15#CD)  (assmod, 水中#NN, 摄氏度#M)  (case, 摄氏度#M, 以上#LC)  (case, 摄氏度#M, 的#DEG)  (nsubj, 溶解#VA, 水中#NN)  (advmod, 溶解#VA, 易#AD)  (conj, 清洗#VV, 溶解#VA)  (advmod, 营养#VA, 若#CS)  (case, 浸泡#NN, 用#P)  (nn, 浸泡#NN, 热水#NN)  (prep, 营养#VA, 浸泡#NN)  (case, 散失#VV, 就#P)  (mmod, 散失#VV, 会#VV)  (prep, 营养#VA, 散失#VV)  (range, 散失#VV, 很多#CD)  (dep, 溶解#VA, 营养#VA)  (advmod, 欠佳#VA, 同时#AD)  (nsubj, 欠佳#VA, 口味#NN)  (advmod, 欠佳#VA, 也#AD)  (conj, 溶解#VA, 欠佳#VA)
+            (nsubj, 有#VE, 猪肉#NN)  (case, 煮熟#NN, 应#P)  (prep, 有#VE, 煮熟#NN)  (case, 猪肉#NN, 因为#P)  (prep, 有#VE, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 有#VE, 有时#AD)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 寄生虫#NN)  (advmod, 生吃#VV, 如果#CS)  (conj, 有#VE, 生吃#VV)  (cc, 生吃#VV, 或#CC)  (dep, 生吃#VV, 调理#VV)  (amod, 时#NN, 不完全#JJ)  (dobj, 调理#VV, 时#NN)  (mmod, 有#VE, 可能#VV)  (mmod, 有#VE, 会#VV)  (case, 寄生#NN, 在#P)  (conj, 寄生#NN, 肝脏#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 脑部#NN)  (prep, 有#VE, 寄生#NN)  (conj, 有#VE, 有#VE)  (nn, 绦虫#NN, 钩#NN)  (dobj, 有#VE, 绦虫#NN)
+            (loc, 饮茶#VV, 食用#VV)  (dobj, 食用#VV, 猪肉#NN)  (case, 食用#VV, 后#LC)  (neg, 饮茶#VV, 不#AD)  (dep, 饮茶#VV, 宜#NR)  (advmod, 饮茶#VV, 大量#AD)  (root, ROOT#null, 饮茶#VV)  (case, 鞣酸#NN, 因为#P)  (assmod, 鞣酸#NN, 茶叶#NN)  (case, 茶叶#NN, 的#DEG)  (prep, 蛋白质#VV, 鞣酸#NN)  (mmod, 蛋白质#VV, 会#VV)  (case, 鞣酸#NN, 与#P)  (nn, 鞣酸#NN, 蛋白质#NR)  (amod, 鞣酸#NN, 合成#JJ)  (relcl, 蛋白质#NR, 具有#VV)  (relcl, 鞣酸#NN, 具有#VV)  (dobj, 具有#VV, 收敛性#NN)  (mark, 具有#VV, 的#DEC)  (prep, 蛋白质#VV, 鞣酸#NN)  (conj, 饮茶#VV, 蛋白质#VV)  (conj, 饮茶#VV, 使#VV)  (nn, 减慢#NN, 肠蠕动#NN)  (dobj, 使#VV, 减慢#NN)  (dep, 使#VV, 延长#VV)  (relcl, 时间#NN, 粪便#VV)  (case, 肠道#NN, 在#P)  (prep, 粪便#VV, 肠道#NN)  (case, 肠道#NN, 中#LC)  (mark, 粪便#VV, 的#DEC)  (nfincl, 时间#NN, 滞留#VV)  (dobj, 延长#VV, 时间#NN)  (cc, 饮茶#VV, 不但#CC)  (advmod, 造成#VV, 易#AD)  (conj, 饮茶#VV, 造成#VV)  (dobj, 造成#VV, 便秘#NN)  (cc, 饮茶#VV, 而且#CC)  (advmod, 增加#VV, 还#AD)  (conj, 饮茶#VV, 增加#VV)  (asp, 增加#VV, 了#AS)  (nn, 物质#NN, 有毒#NN)  (conj, 物质#NN, 物质#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 致癌#NN)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 增加#VV, 吸收#NN)  (nsubj, 健康#VA, 影响#NN)  (dep, 饮茶#VV, 健康#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201411/171926236560.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

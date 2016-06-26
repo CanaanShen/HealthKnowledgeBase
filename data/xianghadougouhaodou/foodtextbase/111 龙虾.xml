@@ -1,0 +1,374 @@
+<content>
+
+    <id>
+        111
+    </id>
+
+    <foodname>
+        龙虾
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        虾
+    </secondcategory>
+
+    <alias>
+        大红虾、海虾、红虾
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            宿疾者、正值上火之时不宜食虾；患过敏性鼻炎、支气管炎、反复发作性过敏性皮炎的老年人不宜吃虾；虾为动风发物，患有皮肤疥癣者忌食。
+        </rawdata>
+
+        <segment>
+            宿疾者  、  正值  上火  之时  不  宜  食虾  ；  患  过敏性  鼻炎  、  支气管炎  、  反复  发作性  过敏性  皮炎  的  老年人  不  宜  吃  虾  ；  虾  为  动  风  发物  ，  患有  皮肤  疥癣  者  忌食  。
+        </segment>
+
+        <pos>
+            宿疾者#NN  、#PU  正值#NN  上火#NN  之时#NN  不#AD  宜#NR  食虾#VV  ；#PU  患#NN  过敏性#NN  鼻炎#NN  、#PU  支气管炎#NR  、#PU  反复#AD  发作性#VV  过敏性#NN  皮炎#NN  的#DEC  老年人#NN  不#AD  宜#NR  吃#VV  虾#NN  ；#PU  虾#NN  为#P  动#NN  风#NN  发物#NN  ，#PU  患有#AD  皮肤#VV  疥癣#NN  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 之时#NN, 宿疾者#NN)  (nn, 之时#NN, 正值#NN)  (nn, 之时#NN, 上火#NN)  (nsubj, 食虾#VV, 之时#NN)  (neg, 食虾#VV, 不#AD)  (prep, 食虾#VV, 宜#NR)  (root, ROOT#null, 食虾#VV)  (nn, 鼻炎#NN, 患#NN)  (nn, 鼻炎#NN, 过敏性#NN)  (conj, 老年人#NN, 鼻炎#NN)  (conj, 老年人#NN, 支气管炎#NR)  (advmod, 发作性#VV, 反复#AD)  (relcl, 老年人#NN, 发作性#VV)  (nn, 皮炎#NN, 过敏性#NN)  (dobj, 发作性#VV, 皮炎#NN)  (mark, 发作性#VV, 的#DEC)  (nsubj, 吃#VV, 老年人#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (ccomp, 食虾#VV, 吃#VV)  (dobj, 吃#VV, 虾#NN)  (nsubj, 皮肤#VV, 虾#NN)  (case, 发物#NN, 为#P)  (nn, 发物#NN, 动#NN)  (nn, 发物#NN, 风#NN)  (prep, 皮肤#VV, 发物#NN)  (advmod, 皮肤#VV, 患有#AD)  (conj, 食虾#VV, 皮肤#VV)  (nn, 忌食#NN, 疥癣#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 皮肤#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。中老年人、产妇和心血管病患者更适合食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  中老年人  、  产妇  和  心血管病  患者  更  适合  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  中老年人#NN  、#PU  产妇#NN  和#CC  心血管病#NN  患者#NN  更#AD  适合#VV  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (conj, 心血管病#NN, 中老年人#NN)  (conj, 心血管病#NN, 产妇#NN)  (cc, 心血管病#NN, 和#CC)  (nn, 患者#NN, 心血管病#NN)  (nsubj, 适合#VV, 患者#NN)  (advmod, 适合#VV, 更#AD)  (root, ROOT#null, 适合#VV)  (comod, 适合#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                121
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                3.58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                221
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                257
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                190
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.79
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                39.36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.54
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            龙虾生活在温暖的海底，白天潜伏在海底岩礁的缝隙里，夜出觅食，行动迟缓、不善游泳，主要产于我国东海和南海，以广东南澳岛产量最多，夏秋季节为出产旺季。
+            龙虾一般体长30厘米，体重500克左右（最重的可达5千克），体粗壮，圆柱形，略扁平，身体呈橄榄色并密布白色小点；整个身体分为头胸部和腹部两部分：头胸部发达，头胸甲坚硬多棘刺，两对触角较长，尤其是第二对触角更长，头胸部的五对步足也较发达，触角和步足展开很角神话里的龙，故得名；腹部较短，五对游泳足已基本退化，尾部有尾肢。
+            龙虾属于节肢动物门甲壳纲十足目龙虾科属动物，龙虾体大肉多，营养丰富，滋味鲜美，是名贵的水产品。民间吃龙虾，多蒸或煮熟后剥壳取肉，蘸姜醋等调味料食用。
+        </rawdata>
+
+        <segment>
+            龙虾  生活  在  温暖  的  海底  ，  白天  潜伏  在  海底  岩礁  的  缝隙  里  ，  夜  出  觅食  ，  行动  迟缓  、  不  善  游泳  ，  主要  产于  我国  东海  和  南海  ，  以  广东  南澳岛  产量  最  多  ，  夏秋季  节  为  出产  旺季  。
+            龙虾  一般  体长  30  厘米  ，  体重  500  克  左右  （  最  重  的  可达  5千  克  ）  ，  体  粗壮  ，  圆柱形  ，  略  扁平  ，  身体  呈  橄榄色  并  密布  白色  小点  ；  整个  身体  分为  头胸部  和  腹部  两部分  ：  头  胸部  发达  ，  头  胸甲  坚硬  多  棘刺  ，  两  对  触角  较长  ，  尤其是  第二  对  触角  更长  ，  头  胸部  的  五  对  步足  也  较  发达  ，  触角  和  步足  展开  很  角  神话  里  的  龙  ，  故  得名  ；  腹部  较短  ，  五  对  游泳  足  已  基本  退化  ，  尾部  有  尾肢  。
+            龙虾  属于  节肢  动物  门  甲壳纲  十足目  龙虾科  属  动物  ，  龙虾  体大  肉多  ，  营养  丰富  ，  滋味  鲜美  ，  是  名贵  的  水产品  。  民间  吃  龙虾  ，  多  蒸  或  煮熟  后  剥壳  取肉  ，  蘸姜醋  等  调味料  食用  。
+        </segment>
+
+        <pos>
+            龙虾#NN  生活#NN  在#P  温暖#VA  的#DEC  海底#NN  ，#PU  白天#AD  潜伏#VV  在#P  海底#NN  岩礁#NN  的#DEG  缝隙#NN  里#LC  ，#PU  夜#NN  出#VV  觅食#NN  ，#PU  行动#NN  迟缓#NN  、#PU  不#AD  善#VA  游泳#NN  ，#PU  主要#JJ  产于#NN  我国#VV  东海#NR  和#CC  南海#NR  ，#PU  以#P  广东#NR  南澳岛#NN  产量#NN  最#AD  多#VA  ，#PU  夏秋季#NN  节#NN  为#P  出产#VV  旺季#VV  。#PU
+            龙虾#NR  一般#AD  体长#VV  30#CD  厘米#M  ，#PU  体重#NN  500#CD  克#M  左右#LC  （#PU  最#AD  重#VA  的#DEC  可达#NN  5千#CD  克#M  ）#PU  ，#PU  体#VV  粗壮#NN  ，#PU  圆柱形#NR  ，#PU  略#AD  扁平#VV  ，#PU  身体#NN  呈#VV  橄榄色#NN  并#CC  密布#VV  白色#JJ  小点#NN  ；#PU  整个#JJ  身体#NN  分为#VV  头胸部#NN  和#CC  腹部#NN  两部分#NN  ：#PU  头#DT  胸部#NN  发达#VA  ，#PU  头#DT  胸甲#NN  坚硬#VV  多#AD  棘刺#CD  ，#PU  两#CD  对#M  触角#NN  较长#VA  ，#PU  尤其是#AD  第二#OD  对#M  触角#NN  更长#VA  ，#PU  头#DT  胸部#NN  的#DEG  五#CD  对#M  步足#NN  也#AD  较#AD  发达#VA  ，#PU  触角#NR  和#CC  步足#NR  展开#VV  很#AD  角#NN  神话#NN  里#LC  的#DEG  龙#NN  ，#PU  故#AD  得名#VV  ；#PU  腹部#VV  较短#NN  ，#PU  五#CD  对#M  游泳#NN  足#VV  已#AD  基本#AD  退化#VV  ，#PU  尾部#AD  有#VE  尾肢#NN  。#PU
+            龙虾#NN  属于#VV  节肢#NN  动物#NN  门#NN  甲壳纲#VV  十足目#CD  龙虾科#NN  属#VV  动物#NN  ，#PU  龙虾#VV  体大#NN  肉多#NN  ，#PU  营养#VA  丰富#VA  ，#PU  滋味#VV  鲜美#NN  ，#PU  是#VC  名贵#JJ  的#DEG  水产品#NN    。#PU  民间#NN  吃#VV  龙虾#NN  ，#PU  多#AD  蒸#VV  或#CC  煮熟#VV  后#LC  剥壳#AD  取肉#VV  ，#PU  蘸姜醋#NN  等#ETC  调味料#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 生活#NN, 龙虾#NN)  (nsubj, 潜伏#VV, 生活#NN)  (case, 海底#NN, 在#P)  (relcl, 海底#NN, 温暖#VA)  (mark, 温暖#VA, 的#DEC)  (prep, 潜伏#VV, 海底#NN)  (advmod, 潜伏#VV, 白天#AD)  (root, ROOT#null, 潜伏#VV)  (case, 缝隙#NN, 在#P)  (nn, 岩礁#NN, 海底#NN)  (assmod, 缝隙#NN, 岩礁#NN)  (case, 岩礁#NN, 的#DEG)  (prep, 潜伏#VV, 缝隙#NN)  (case, 缝隙#NN, 里#LC)  (nsubj, 出#VV, 夜#NN)  (conj, 潜伏#VV, 出#VV)  (dobj, 出#VV, 觅食#NN)  (nn, 迟缓#NN, 行动#NN)  (conj, 游泳#NN, 迟缓#NN)  (neg, 善#VA, 不#AD)  (relcl, 游泳#NN, 善#VA)  (nsubj, 我国#VV, 游泳#NN)  (amod, 产于#NN, 主要#JJ)  (nsubj, 我国#VV, 产于#NN)  (conj, 潜伏#VV, 我国#VV)  (conj, 南海#NR, 东海#NR)  (cc, 南海#NR, 和#CC)  (dobj, 我国#VV, 南海#NR)  (case, 产量#NN, 以#P)  (nn, 产量#NN, 广东#NR)  (nn, 产量#NN, 南澳岛#NN)  (prep, 多#VA, 产量#NN)  (advmod, 多#VA, 最#AD)  (conj, 我国#VV, 多#VA)  (nn, 节#NN, 夏秋季#NN)  (nsubj, 旺季#VV, 节#NN)  (case, 出产#VV, 为#P)  (prep, 旺季#VV, 出产#VV)  (conj, 潜伏#VV, 旺季#VV)
+            (nsubj, 体长#VV, 龙虾#NR)  (advmod, 体长#VV, 一般#AD)  (root, ROOT#null, 体长#VV)  (nummod, 厘米#M, 30#CD)  (range, 体长#VV, 厘米#M)  (nsubj, 克#M, 体重#NN)  (nummod, 克#M, 500#CD)  (conj, 体长#VV, 克#M)  (case, 克#M, 左右#LC)  (advmod, 重#VA, 最#AD)  (relcl, 可达#NN, 重#VA)  (mark, 重#VA, 的#DEC)  (nsubj, 克#M, 可达#NN)  (nummod, 克#M, 5千#CD)  (dep, 克#M, 克#M)  (conj, 体长#VV, 体#VV)  (dobj, 体#VV, 粗壮#NN)  (nsubj, 扁平#VV, 圆柱形#NR)  (advmod, 扁平#VV, 略#AD)  (conj, 体#VV, 扁平#VV)  (nsubj, 呈#VV, 身体#NN)  (conj, 体#VV, 呈#VV)  (dobj, 呈#VV, 橄榄色#NN)  (cc, 呈#VV, 并#CC)  (conj, 呈#VV, 密布#VV)  (amod, 小点#NN, 白色#JJ)  (dobj, 密布#VV, 小点#NN)  (amod, 身体#NN, 整个#JJ)  (nsubj, 分为#VV, 身体#NN)  (conj, 体#VV, 分为#VV)  (conj, 腹部#NN, 头胸部#NN)  (cc, 腹部#NN, 和#CC)  (nn, 两部分#NN, 腹部#NN)  (dobj, 分为#VV, 两部分#NN)  (det, 胸部#NN, 头#DT)  (nsubj, 发达#VA, 胸部#NN)  (conj, 体#VV, 发达#VA)  (det, 胸甲#NN, 头#DT)  (nsubj, 坚硬#VV, 胸甲#NN)  (conj, 体#VV, 坚硬#VV)  (advmod, 棘刺#CD, 多#AD)  (range, 坚硬#VV, 棘刺#CD)  (nummod, 对#M, 两#CD)  (clf, 触角#NN, 对#M)  (nsubj, 较长#VA, 触角#NN)  (conj, 体#VV, 较长#VA)  (advmod, 更长#VA, 尤其是#AD)  (ordmod, 对#M, 第二#OD)  (clf, 触角#NN, 对#M)  (nsubj, 更长#VA, 触角#NN)  (conj, 体#VV, 更长#VA)  (det, 胸部#NN, 头#DT)  (assmod, 步足#NN, 胸部#NN)  (case, 胸部#NN, 的#DEG)  (nummod, 对#M, 五#CD)  (clf, 步足#NN, 对#M)  (nsubj, 发达#VA, 步足#NN)  (advmod, 发达#VA, 也#AD)  (advmod, 发达#VA, 较#AD)  (conj, 体#VV, 发达#VA)  (conj, 步足#NR, 触角#NR)  (cc, 步足#NR, 和#CC)  (nsubj, 展开#VV, 步足#NR)  (conj, 体#VV, 展开#VV)  (advmod, 展开#VV, 很#AD)  (nn, 神话#NN, 角#NN)  (assmod, 龙#NN, 神话#NN)  (case, 神话#NN, 里#LC)  (case, 神话#NN, 的#DEG)  (dobj, 展开#VV, 龙#NN)  (advmod, 得名#VV, 故#AD)  (conj, 展开#VV, 得名#VV)  (conj, 体#VV, 腹部#VV)  (dobj, 腹部#VV, 较短#NN)  (nummod, 对#M, 五#CD)  (clf, 游泳#NN, 对#M)  (nsubj, 退化#VV, 游泳#NN)  (mmod, 退化#VV, 足#VV)  (advmod, 退化#VV, 已#AD)  (advmod, 退化#VV, 基本#AD)  (conj, 体#VV, 退化#VV)  (advmod, 有#VE, 尾部#AD)  (conj, 体#VV, 有#VE)  (dobj, 有#VE, 尾肢#NN)
+            (nsubj, 属于#VV, 龙虾#NN)  (root, ROOT#null, 属于#VV)  (nn, 门#NN, 节肢#NN)  (nn, 门#NN, 动物#NN)  (dobj, 属于#VV, 门#NN)  (conj, 属于#VV, 甲壳纲#VV)  (nummod, 龙虾科#NN, 十足目#CD)  (dobj, 甲壳纲#VV, 龙虾科#NN)  (conj, 属于#VV, 属#VV)  (dobj, 属#VV, 动物#NN)  (conj, 属#VV, 龙虾#VV)  (nn, 肉多#NN, 体大#NN)  (dobj, 龙虾#VV, 肉多#NN)  (conj, 属#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (conj, 属#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)  (cop, 水产品#NN, 是#VC)  (assmod, 水产品#NN, 名贵#JJ)  (case, 名贵#JJ, 的#DEG)  (conj, 属#VV, 水产品#NN)   (nsubj, 取肉#VV, 民间#NN)  (loc, 取肉#VV, 吃#VV)  (dobj, 吃#VV, 龙虾#NN)  (advmod, 蒸#VV, 多#AD)  (conj, 吃#VV, 蒸#VV)  (cc, 蒸#VV, 或#CC)  (conj, 蒸#VV, 煮熟#VV)  (case, 吃#VV, 后#LC)  (advmod, 取肉#VV, 剥壳#AD)  (root, ROOT#null, 取肉#VV)  (nn, 调味料#NN, 蘸姜醋#NN)  (etc, 蘸姜醋#NN, 等#ETC)  (nsubj, 食用#VV, 调味料#NN)  (ccomp, 取肉#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.虾营养丰富，且其肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；
+            2.虾中含有丰富的镁，镁对心脏活动具有重要的调节作用，能很好的保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗死；
+            3.虾的通乳作用较强，并且富含磷、钙、对小儿、产妇尤有补益功效；
+            4.日本大阪大学的科学家最近发现，虾体内的虾青素有助于消除因时差反应而产生的“时差症”。
+        </rawdata>
+
+        <segment>
+            虾  营养  丰富  ，  且  其  肉质  松软  ，  易  消化  ，  对  身体  虚弱  以及  病  后  需要  调养  的  人  是  极  好  的  食物  ；
+            虾  中  含有  丰富  的  镁  ，  镁  对  心脏  活动  具有  重要  的  调节  作用  ，  能  很  好  的  保护  心血管  系统  ，  它  可  减少  血液  中  胆固醇  含量  ，  防止  动脉  硬化  ，  同时  还  能  扩张  冠状  动脉  ，  有利于  预防  高血压  及  心肌梗死  ；
+            虾  的  通乳  作用  较  强  ，  并且  富含  磷  、  钙  、  对  小儿  、  产妇  尤有  补益  功效  ；
+            日本  大阪  大学  的  科学家  最近  发现  ，  虾  体内  的  虾青素  有助于  消除  因  时差  反应  而  产生  的  “  时差症  ”  。
+        </segment>
+
+        <pos>
+            虾#NN  营养#VA  丰富#VA  ，#PU  且#CC  其#PN  肉质#AD  松软#VV  ，#PU  易#VA  消化#NN  ，#PU  对#P  身体#NN  虚弱#NN  以及#CC  病#NN  后#LC  需要#VV  调养#NN  的#DEC  人#NN  是#VC  极#AD  好#VA  的#DEC  食物#NN  ；#PU
+            虾#NN  中#LC  含有#AD  丰富#VA  的#DEC  镁#NN  ，#PU  镁#NN  对#P  心脏#NN  活动#NN  具有#VV  重要#VA  的#DEC  调节#VV  作用#NN  ，#PU  能#VV  很#AD  好#VA  的#DEC  保护#NN  心血管#NN  系统#NN  ，#PU  它#PN  可#VV  减少#VV  血液#NN  中#LC  胆固醇#NN  含量#NN  ，#PU  防止#VV  动脉#NN  硬化#NN  ，#PU  同时#AD  还#AD  能#VV  扩张#VV  冠状#NN  动脉#NN  ，#PU  有利于#VV  预防#VV  高血压#NN  及#CC  心肌梗死#NN  ；#PU
+            虾#NN  的#DEG  通乳#JJ  作用#NN  较#AD  强#VA  ，#PU  并且#CC  富含#VV  磷#NN  、#PU  钙#NN  、#PU  对#P  小儿#NN  、#PU  产妇#NN  尤有#NN  补益#NN  功效#VV  ；#PU
+            日本#NR  大阪#NR  大学#NN  的#DEG  科学家#NN  最近#NT  发现#VV  ，#PU  虾#NN  体内#NN  的#DEG  虾青素#NN  有助于#VV  消除#VV  因#P  时差#NN  反应#NN  而#MSP  产生#VV  的#DEC  ``#NN  时差症#NN  ''#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 虾#NN)  (relcl, 人#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (nsubj, 松软#VV, 其#PN)  (advmod, 松软#VV, 肉质#AD)  (conj, 营养#VA, 松软#VV)  (relcl, 消化#NN, 易#VA)  (nsubj, 需要#VV, 消化#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (cc, 病#NN, 以及#CC)  (prep, 需要#VV, 病#NN)  (case, 病#NN, 后#LC)  (ccomp, 松软#VV, 需要#VV)  (dobj, 需要#VV, 调养#NN)  (mark, 营养#VA, 的#DEC)  (nsubj, 食物#NN, 人#NN)  (cop, 食物#NN, 是#VC)  (advmod, 好#VA, 极#AD)  (relcl, 食物#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (root, ROOT#null, 食物#NN)
+            (loc, 丰富#VA, 虾#NN)  (case, 虾#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 镁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 具有#VV, 镁#NN)  (nsubj, 具有#VV, 镁#NN)  (case, 活动#NN, 对#P)  (nn, 活动#NN, 心脏#NN)  (prep, 具有#VV, 活动#NN)  (root, ROOT#null, 具有#VV)  (relcl, 系统#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (relcl, 系统#NN, 调节#VV)  (dobj, 调节#VV, 作用#NN)  (mmod, 好#VA, 能#VV)  (advmod, 好#VA, 很#AD)  (conj, 调节#VV, 好#VA)  (mark, 调节#VV, 的#DEC)  (nn, 系统#NN, 保护#NN)  (nn, 系统#NN, 心血管#NN)  (dobj, 具有#VV, 系统#NN)  (nsubj, 减少#VV, 它#PN)  (mmod, 减少#VV, 可#VV)  (conj, 具有#VV, 减少#VV)  (dep, 含量#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 减少#VV, 含量#NN)  (conj, 具有#VV, 防止#VV)  (nn, 硬化#NN, 动脉#NN)  (nsubj, 扩张#VV, 硬化#NN)  (advmod, 扩张#VV, 同时#AD)  (advmod, 扩张#VV, 还#AD)  (mmod, 扩张#VV, 能#VV)  (ccomp, 防止#VV, 扩张#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 扩张#VV, 动脉#NN)  (dep, 防止#VV, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (conj, 心肌梗死#NN, 高血压#NN)  (cc, 心肌梗死#NN, 及#CC)  (dobj, 预防#VV, 心肌梗死#NN)
+            (assmod, 作用#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (amod, 作用#NN, 通乳#JJ)  (nsubj, 强#VA, 作用#NN)  (advmod, 强#VA, 较#AD)  (root, ROOT#null, 强#VA)  (cc, 强#VA, 并且#CC)  (conj, 强#VA, 富含#VV)  (conj, 钙#NN, 磷#NN)  (dobj, 富含#VV, 钙#NN)  (case, 补益#NN, 对#P)  (conj, 补益#NN, 小儿#NN)  (nn, 补益#NN, 产妇#NN)  (nn, 补益#NN, 尤有#NN)  (prep, 功效#VV, 补益#NN)  (conj, 强#VA, 功效#VV)
+            (nn, 大学#NN, 日本#NR)  (nn, 大学#NN, 大阪#NR)  (assmod, 科学家#NN, 大学#NN)  (case, 大学#NN, 的#DEG)  (nsubj, 发现#VV, 科学家#NN)  (tmod, 发现#VV, 最近#NT)  (root, ROOT#null, 发现#VV)  (nn, 体内#NN, 虾#NN)  (assmod, 虾青素#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nsubj, 有助于#VV, 虾青素#NN)  (ccomp, 发现#VV, 有助于#VV)  (ccomp, 有助于#VV, 消除#VV)  (case, 反应#NN, 因#P)  (nn, 反应#NN, 时差#NN)  (prep, 产生#VV, 反应#NN)  (prtmod, 产生#VV, 而#MSP)  (relcl, ''#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 时差症#NN)  (dobj, 消除#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  抗氧化  安神  健胃  补阴  补肾阳  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.蛋白质含量高、氨基酸丰富
+            龙虾的蛋白质含量高于大多数的淡水和海水鱼虾，其氨基酸组成优于肉类，含有人体所必需的而体内又不能合成或合成量不足的8种必需氨基酸，还含有脊椎动物体内含量很少的精氨酸，另外，龙虾还含有对幼儿而言也是必需的组氨酸。
+            2.脂肪含量低
+            龙虾的脂肪含量不但比畜禽肉低得多，比青虾、对虾还低许多，而且其脂肪大多是由人体所必需的不饱和脂肪酸组成，易被人体消化和吸收，并且具有防止胆固醇在体内蓄积的作用。
+            3.矿物质丰富
+            龙虾和其他水产品一样，含有人体所必需的矿物成分，其中含量较多的有钙、钠、钾、镁、磷，含量比较重要的有铁、硫、铜等。龙虾中矿物质总量约为1、6%，其中钙、磷、钠及铁的含量都比一般畜禽肉高，也比对虾高。因此，经常食用龙虾肉可保持神经、肌肉的兴奋性。
+            4、维生素丰富
+            龙虾也是脂溶性维生素的重要来源之一，龙虾富含维生素A、C、D，大大超过陆生动物的含量。
+        </rawdata>
+
+        <segment>
+            蛋白质  含量  高  、  氨基酸  丰富
+            龙虾  的  蛋白质  含量  高于  大多数  的  淡水  和  海水  鱼虾  ，  其  氨基酸  组成  优于  肉类  ，  含有  人体  所  必需  的  而  体内  又  不  能  合成  或  合成  量不足  的  8  种  必需  氨基酸  ，  还  含有  脊椎  动物  体内  含量  很  少  的  精氨酸  ，  另外  ，  龙虾  还  含有  对  幼儿  而言  也  是  必需  的  组氨酸  。
+            脂肪  含量  低
+            龙虾  的  脂肪  含量  不但  比  畜禽  肉  低得  多  ，  比  青虾  、  对虾  还  低  许多  ，  而且  其  脂肪  大多  是  由  人体  所  必需  的  不  饱和  脂肪酸  组成  ，  易  被  人体  消化  和  吸收  ，  并且  具有  防止  胆固醇  在  体内  蓄积  的  作用  。
+            矿物质  丰富
+            龙虾  和  其他  水产品  一样  ，  含有  人体  所  必需  的  矿物  成分  ，  其中  含量  较  多  的  有  钙  、  钠  、  钾  、  镁  、  磷  ，  含量  比较  重要  的  有  铁  、  硫  、  铜  等  。  龙虾  中  矿物质  总量  约  为  6%  ，  其中  钙  、  磷  、  钠  及  铁的  含量  都  比  一般  畜禽  肉  高  ，  也比  对虾  高  。  因此  ，  经常  食用  龙虾  肉  可  保持  神经  、  肌肉  的  兴奋性  。
+            维生素  丰富
+            龙虾  也是  脂溶性  维生素  的  重要  来源  之一  ，  龙虾  富含  维生素A  、  C  、  D  ，  大大  超过  陆生  动物  的  含量  。
+        </segment>
+
+        <pos>
+            蛋白质#NN  含量#NN  高#VA  、#PU  氨基酸#VA  丰富#VA
+            龙虾#NR  的#DEG  蛋白质#NN  含量#NN  高于#VV  大多数#CD  的#DEG  淡水#NN  和#CC  海水#NN  鱼虾#NN  ，#PU  其#PN  氨基酸#AD  组成#VV  优于#NN  肉类#NN  ，#PU  含有#NR  人体#VV  所#MSP  必需#VV  的#DEC  而#AD  体内#NN  又#AD  不#AD  能#VV  合成#JJ  或#CC  合成#JJ  量不足#NN  的#DEC  8#CD  种#M  必需#VV  氨基酸#NN  ，#PU  还#AD  含有#VV  脊椎#NN  动物#NN  体内#NN  含量#NN  很#AD  少#VA  的#DEC  精氨酸#NN  ，#PU  另外#AD  ，#PU  龙虾#NR  还#AD  含有#VV  对#P  幼儿#NN  而言#NN  也#AD  是#VC  必需#VV  的#DEC  组氨酸#NN  。#PU
+            脂肪#NN  含量#NN  低#VA
+            龙虾#NN  的#DEG  脂肪#NN  含量#NN  不但#CC  比#P  畜禽#NN  肉#NN  低得#NN  多#VA  ，#PU  比#P  青虾#NN  、#PU  对虾#NN  还#AD  低#VA  许多#CD  ，#PU  而且#AD  其#PN  脂肪#AD  大多#AD  是#VC  由#P  人体#AD  所#MSP  必需#VV  的#DEC  不#AD  饱和#JJ  脂肪酸#NN  组成#VV  ，#PU  易#AD  被#SB  人体#VV  消化#NN  和#CC  吸收#NN  ，#PU  并且#CC  具有#VV  防止#VV  胆固醇#NN  在#P  体内#NN  蓄积#VV  的#DEC  作用#NN  。#PU
+            矿物质#NN  丰富#VA
+            龙虾#NN  和#P  其他#DT  水产品#NN  一样#VA  ，#PU  含有#AD  人体#VV  所#MSP  必需#VV  的#DEC  矿物#NN  成分#NN  ，#PU  其中#NN  含量#NN  较#AD  多#VA  的#DEC  有#VE  钙#NN  、#PU  钠#NN  、#PU  钾#NN  、#PU  镁#NN  、#PU  磷#NN  ，#PU  含量#NN  比较#AD  重要#VA  的#DEC  有#VE  铁#NN  、#PU  硫#NN  、#PU  铜#NN  等#ETC    。#PU  龙虾#NN  中#LC  矿物质#NN  总量#NN  约#AD  为#VC  6#CD  %#VV  ，#PU  其中#NN  钙#NN  、#PU  磷#NN  、#PU  钠#NN  及#CC  铁的#NN  含量#NN  都#AD  比#P  一般#JJ  畜禽#NN  肉#NN  高#VA  ，#PU  也比#NN  对虾#NN  高#VA    。#PU  因此#AD  ，#PU  经常#AD  食用#VV  龙虾#NN  肉#NN  可#VV  保持#VV  神经#NN  、#PU  肌肉#NN  的#DEG  兴奋性#NN    。#PU    。#PU
+            维生素#NN  丰富#VA
+            龙虾#VV  也是#AD  脂溶性#NN  维生素#NN  的#DEC  重要#JJ  来源#NN  之一#NN  ，#PU  龙虾#NN  富含#NN  维生素A#NN  、#PU  C#NN  、#PU  D#NN  ，#PU  大大#AD  超过#VV  陆生#JJ  动物#NN  的#DEG  含量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (dep, 高#VA, 氨基酸#VA)  (dep, 高#VA, 丰富#VA)
+            (assmod, 含量#NN, 龙虾#NR)  (case, 龙虾#NR, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高于#VV, 含量#NN)  (root, ROOT#null, 高于#VV)  (assmod, 鱼虾#NN, 大多数#CD)  (case, 大多数#CD, 的#DEG)  (conj, 鱼虾#NN, 淡水#NN)  (cc, 鱼虾#NN, 和#CC)  (nn, 鱼虾#NN, 海水#NN)  (dobj, 高于#VV, 鱼虾#NN)  (nsubj, 组成#VV, 其#PN)  (advmod, 组成#VV, 氨基酸#AD)  (conj, 高于#VV, 组成#VV)  (nn, 肉类#NN, 优于#NN)  (dobj, 组成#VV, 肉类#NN)  (nsubj, 人体#VV, 含有#NR)  (conj, 高于#VV, 人体#VV)  (prtmod, 必需#VV, 所#MSP)  (relcl, 精氨酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (advmod, 能#VV, 而#AD)  (nsubj, 能#VV, 体内#NN)  (advmod, 能#VV, 又#AD)  (neg, 能#VV, 不#AD)  (relcl, 精氨酸#NN, 能#VV)  (amod, 量不足#NN, 合成#JJ)  (cc, 合成#JJ, 或#CC)  (dep, 合成#JJ, 合成#JJ)  (dobj, 能#VV, 量不足#NN)  (mark, 能#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 精氨酸#NN, 种#M)  (relcl, 精氨酸#NN, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)  (advmod, 含有#VV, 还#AD)  (conj, 必需#VV, 含有#VV)  (nn, 含量#NN, 脊椎#NN)  (nn, 含量#NN, 动物#NN)  (nn, 含量#NN, 体内#NN)  (dobj, 含有#VV, 含量#NN)  (advmod, 少#VA, 很#AD)  (dep, 含有#VV, 少#VA)  (mark, 必需#VV, 的#DEC)  (dobj, 人体#VV, 精氨酸#NN)  (advmod, 含有#VV, 另外#AD)  (nsubj, 含有#VV, 龙虾#NR)  (advmod, 含有#VV, 还#AD)  (conj, 高于#VV, 含有#VV)  (case, 而言#NN, 对#P)  (nn, 而言#NN, 幼儿#NN)  (prep, 必需#VV, 而言#NN)  (advmod, 必需#VV, 也#AD)  (cop, 必需#VV, 是#VC)  (relcl, 组氨酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 含有#VV, 组氨酸#NN)
+            (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (root, ROOT#null, 低#VA)
+            (assmod, 含量#NN, 龙虾#NN)  (case, 龙虾#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 多#VA, 含量#NN)  (cc, 多#VA, 不但#CC)  (case, 低得#NN, 比#P)  (nn, 低得#NN, 畜禽#NN)  (nn, 低得#NN, 肉#NN)  (prep, 多#VA, 低得#NN)  (root, ROOT#null, 多#VA)  (case, 对虾#NN, 比#P)  (conj, 对虾#NN, 青虾#NN)  (prep, 低#VA, 对虾#NN)  (advmod, 低#VA, 还#AD)  (dep, 多#VA, 低#VA)  (dep, 低#VA, 许多#CD)  (advmod, 组成#VV, 而且#AD)  (nsubj, 组成#VV, 其#PN)  (advmod, 组成#VV, 脂肪#AD)  (advmod, 组成#VV, 大多#AD)  (cop, 组成#VV, 是#VC)  (case, 脂肪酸#NN, 由#P)  (advmod, 必需#VV, 人体#AD)  (prtmod, 必需#VV, 所#MSP)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (prep, 组成#VV, 脂肪酸#NN)  (conj, 多#VA, 组成#VV)  (advmod, 人体#VV, 易#AD)  (auxpass, 人体#VV, 被#SB)  (conj, 组成#VV, 人体#VV)  (conj, 吸收#NN, 消化#NN)  (cc, 吸收#NN, 和#CC)  (dobj, 人体#VV, 吸收#NN)  (cc, 组成#VV, 并且#CC)  (dep, 组成#VV, 具有#VV)  (relcl, 作用#NN, 防止#VV)  (nsubj, 蓄积#VV, 胆固醇#NN)  (case, 体内#NN, 在#P)  (prep, 蓄积#VV, 体内#NN)  (ccomp, 防止#VV, 蓄积#VV)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 丰富#VA, 矿物质#NN)  (root, ROOT#null, 丰富#VA)
+            (nsubj, 一样#VA, 龙虾#NN)  (case, 水产品#NN, 和#P)  (det, 水产品#NN, 其他#DT)  (prep, 一样#VA, 水产品#NN)  (dep, 有#VE, 一样#VA)  (advmod, 人体#VV, 含有#AD)  (dep, 一样#VA, 人体#VV)  (prtmod, 必需#VV, 所#MSP)  (relcl, 成分#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nn, 成分#NN, 矿物#NN)  (dobj, 人体#VV, 成分#NN)  (nn, 含量#NN, 其中#NN)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 较#AD)  (dep, 有#VE, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 一样#VA, 有#VE)  (conj, 磷#NN, 钙#NN)  (conj, 磷#NN, 钠#NN)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 镁#NN)  (dobj, 有#VE, 磷#NN)  (nsubj, 重要#VA, 含量#NN)  (advmod, 重要#VA, 比较#AD)  (conj, 一样#VA, 重要#VA)  (mark, 一样#VA, 的#DEC)  (root, ROOT#null, 有#VE)  (conj, 铜#NN, 铁#NN)  (conj, 铜#NN, 硫#NN)  (dobj, 有#VE, 铜#NN)  (etc, 铜#NN, 等#ETC)   (loc, 为#VC, 龙虾#NN)  (case, 龙虾#NN, 中#LC)  (nn, 总量#NN, 矿物质#NN)  (nsubj, 为#VC, 总量#NN)  (advmod, 为#VC, 约#AD)  (dep, %#VV, 为#VC)  (dep, 为#VC, 6#CD)  (root, ROOT#null, %#VV)  (nn, 铁的#NN, 其中#NN)  (conj, 铁的#NN, 钙#NN)  (conj, 铁的#NN, 磷#NN)  (conj, 铁的#NN, 钠#NN)  (cc, 铁的#NN, 及#CC)  (nn, 含量#NN, 铁的#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 都#AD)  (case, 肉#NN, 比#P)  (amod, 畜禽#NN, 一般#JJ)  (nn, 肉#NN, 畜禽#NN)  (prep, 高#VA, 肉#NN)  (ccomp, %#VV, 高#VA)  (nn, 对虾#NN, 也比#NN)  (nsubj, 高#VA, 对虾#NN)  (conj, 高#VA, 高#VA)   (advmod, 食用#VV, 因此#AD)  (advmod, 食用#VV, 经常#AD)  (dep, 保持#VV, 食用#VV)  (nn, 肉#NN, 龙虾#NN)  (dobj, 食用#VV, 肉#NN)  (mmod, 保持#VV, 可#VV)  (root, ROOT#null, 保持#VV)  (conj, 肌肉#NN, 神经#NN)  (assmod, 兴奋性#NN, 肌肉#NN)  (case, 肌肉#NN, 的#DEG)  (dobj, 保持#VV, 兴奋性#NN)   (root, ROOT#null, null#null)
+            (nsubj, 丰富#VA, 维生素#NN)  (root, ROOT#null, 丰富#VA)
+            (relcl, 之一#NN, 龙虾#VV)  (advmod, 维生素#NN, 也是#AD)  (nn, 维生素#NN, 脂溶性#NN)  (dobj, 龙虾#VV, 维生素#NN)  (mark, 龙虾#VV, 的#DEC)  (amod, 之一#NN, 重要#JJ)  (nn, 之一#NN, 来源#NN)  (nsubj, 超过#VV, 之一#NN)  (nsubj, 超过#VV, 龙虾#NN)  (nn, D#NN, 富含#NN)  (conj, D#NN, 维生素A#NN)  (conj, D#NN, C#NN)  (dep, 超过#VV, D#NN)  (advmod, 超过#VV, 大大#AD)  (root, ROOT#null, 超过#VV)  (amod, 动物#NN, 陆生#JJ)  (assmod, 含量#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (dobj, 超过#VV, 含量#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.虾的烹制方法有许多。民间吃龙虾，多蒸或煮熟后剥壳取肉，蘸姜醋等调味料食用。饭店、酒楼加工则复杂多了，常出肉后改刀成型入烹，菜品以广东、福建、海南多见，如“上汤火局龙虾”“油泡龙虾球”“蒜茸蒸龙虾”等等。
+            2.龙虾忌死吃，即必须是在其鲜活的状态下进行烹调。
+            3.吃龙虾,喝啤酒最为相宜。
+            4.吃龙虾程序为一嗅、二舔、三揭、四吃、五拧、六捏、七剥、八拽、九撕。
+            嗅———闻一闻龙虾的味道;　舔———感受龙虾麻、辣、香的滋味;　揭———掀开龙虾的头胸甲;　吃———吃掉龙虾的黄;　拧———两只手，一只向外，一只向上，除去步足;　捏———两只手向外捏软龙虾的腹节;　剥———剥去腹节的上半部;　拽———抽去龙虾的肠子;　撕———如果抽不去肠子，那么撕开肉，拿出肠子。
+        </rawdata>
+
+        <segment>
+            虾  的  烹制  方法  有  许多  。  民间  吃  龙虾  ，  多  蒸  或  煮熟  后  剥壳  取肉  ，  蘸姜醋  等  调味料  食用  。  饭店  、  酒楼  加工  则  复杂  多  了  ，  常  出  肉  后  改  刀  成型  入烹  ，  菜品  以  广东  、  福建  、  海南  多见  ，  如  “  上  汤火局  龙虾  ”  “  油泡  龙  虾球  ”  “  蒜茸蒸  龙虾  ”  等等  。
+            龙虾  忌死  吃  ，  即  必须  是  在  其  鲜活  的  状态  下  进行  烹调  。
+            吃  龙虾  ,  喝  啤酒  最为  相宜  。
+            吃  龙虾  程序  为  一  嗅  、  二  舔  、  三  揭  、  四  吃  、  五  拧  、  六  捏  、  七  剥  、  八  拽  、  九  撕  。
+            嗅  ———  闻  一  闻  龙虾  的  味道  ;  舔———  感受  龙虾  麻  、  辣  、  香的  滋味  ;  揭  ———  掀开  龙虾  的  头  胸甲  ;  吃  ———  吃掉  龙虾  的  黄  ;  拧———  两  只  手  ，  一  只  向外  ，  一  只  向上  ，  除去  步足  ;  捏  ———  两  只  手  向外  捏  软  龙虾  的  腹节  ;  剥  ———  剥去  腹节  的  上半部  ;  拽  ———  抽去  龙虾  的  肠子  ;  撕  ———  如果  抽  不  去  肠子  ，  那么  撕开  肉  ，  拿出  肠子  。
+        </segment>
+
+        <pos>
+            虾#NN  的#DEG  烹制#JJ  方法#NN  有#VE  许多#CD    。#PU  民间#NN  吃#VV  龙虾#NN  ，#PU  多#AD  蒸#VV  或#CC  煮熟#VV  后#LC  剥壳#AD  取肉#VV  ，#PU  蘸姜醋#NN  等#ETC  调味料#NN  食用#VV    。#PU  饭店#NN  、#PU  酒楼#NN  加工#NN  则#AD  复杂#VA  多#VA  了#SP  ，#PU  常#AD  出#VV  肉#NN  后#LC  改#AD  刀#NN  成型#NN  入烹#CD  ，#PU  菜品#VV  以#P  广东#NR  、#PU  福建#NR  、#PU  海南#NR  多见#NN  ，#PU  如#P  ``#NN  上#LC  汤火局#VV  龙虾#NN  ''#NN  ``#NN  油泡#NN  龙#NN  虾球#NN  ''#NN  ``#NN  蒜茸蒸#NN  龙虾#NN  ''#NN  等等#ETC    。#PU    。#PU
+            龙虾#NN  忌死#AD  吃#VV  ，#PU  即#AD  必须#VV  是#VC  在#P  其#PN  鲜活#JJ  的#DEG  状态#NN  下#LC  进行#VV  烹调#NN  。#PU
+            吃#VV  龙虾#NN  ,#NN  喝#NN  啤酒#NN  最为#AD  相宜#VV  。#PU
+            吃#VV  龙虾#NN  程序#NN  为#P  一#CD  嗅#NN  、#PU  二#CD  舔#NN  、#PU  三#CD  揭#NN  、#PU  四#NR  吃#VV  、#PU  五#CD  拧#NN  、#PU  六#CD  捏#VV  、#PU  七#CD  剥#NN  、#PU  八#CD  拽#NN  、#PU  九#CD  撕#NN  。#PU
+            嗅#NN  --#NN  --#NN  --#AD  闻#VV  一#CD  闻#NN  龙虾#NN  的#DEG  味道#NN  ;#NN  舔#NN  --#NN  --#NN  --#NN  感受#VV  龙虾#NN  麻#NN  、#PU  辣#NN  、#PU  香的#NN  滋味#NN  ;#NN  揭#NN  --#NN  --#NN  --#NN  掀开#VV  龙虾#NN  的#DEC  头#DT  胸甲#NN  ;#NN  吃#VV  --#NN  --#NN  --#NN  吃掉#NN  龙虾#NN  的#DEC  黄#JJ  ;#NN  拧#NN  --#NN  --#NN  --#NN  两#CD  只#M  手#NN  ，#PU  一#CD  只#M  向外#VV  ，#PU  一#CD  只#M  向上#VV  ，#PU  除去#P  步足#NN  ;#NN  捏#VV  --#NR  --#NN  --#NN  两#CD  只#M  手#NN  向外#NN  捏#VV  软#JJ  龙虾#NN  的#DEC  腹节#NN  ;#NN  剥#NN  --#NN  --#NN  --#NN  剥去#NN  腹节#NN  的#DEC  上半部#NN  ;#NN  拽#NN  --#AD  --#VV  --#NN  抽去#NN  龙虾#NN  的#DEC  肠子#NN  ;#NN  撕#NN  --#NN  --#NN  --#NN  如果#CS  抽#NR  不#AD  去#VV  肠子#NN  ，#PU  那么#AD  撕开#VV  肉#NN  ，#PU  拿出#VV  肠子#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 方法#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (amod, 方法#NN, 烹制#JJ)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 许多#CD)   (nsubj, 取肉#VV, 民间#NN)  (loc, 取肉#VV, 吃#VV)  (dobj, 吃#VV, 龙虾#NN)  (advmod, 蒸#VV, 多#AD)  (conj, 吃#VV, 蒸#VV)  (cc, 蒸#VV, 或#CC)  (conj, 蒸#VV, 煮熟#VV)  (case, 吃#VV, 后#LC)  (advmod, 取肉#VV, 剥壳#AD)  (root, ROOT#null, 取肉#VV)  (nn, 调味料#NN, 蘸姜醋#NN)  (etc, 蘸姜醋#NN, 等#ETC)  (nsubj, 食用#VV, 调味料#NN)  (ccomp, 取肉#VV, 食用#VV)   (conj, 酒楼#NN, 饭店#NN)  (nn, 加工#NN, 酒楼#NN)  (nsubj, 成型#NN, 加工#NN)  (advmod, 复杂#VA, 则#AD)  (dep, 出#VV, 复杂#VA)  (comod, 复杂#VA, 多#VA)  (dep, 复杂#VA, 了#SP)  (advmod, 出#VV, 常#AD)  (loc, 成型#NN, 出#VV)  (dobj, 出#VV, 肉#NN)  (case, 出#VV, 后#LC)  (advmod, 成型#NN, 改#AD)  (nn, 成型#NN, 刀#NN)  (root, ROOT#null, 成型#NN)  (range, 成型#NN, 入烹#CD)  (mmod, 汤火局#VV, 菜品#VV)  (case, 多见#NN, 以#P)  (conj, 海南#NR, 广东#NR)  (conj, 海南#NR, 福建#NR)  (nn, 多见#NN, 海南#NR)  (prep, 汤火局#VV, 多见#NN)  (case, ``#NN, 如#P)  (prep, 汤火局#VV, ``#NN)  (case, ``#NN, 上#LC)  (conj, 成型#NN, 汤火局#VV)  (nn, ''#NN, 龙虾#NN)  (nn, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 油泡#NN)  (nn, ''#NN, 龙#NN)  (nn, ''#NN, 虾球#NN)  (nn, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蒜茸蒸#NN)  (nn, ''#NN, 龙虾#NN)  (dobj, 汤火局#VV, ''#NN)  (etc, ''#NN, 等等#ETC)   (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 龙虾#NN)  (advmod, 吃#VV, 忌死#AD)  (root, ROOT#null, 吃#VV)  (dep, 进行#VV, 即#AD)  (dep, 进行#VV, 必须#VV)  (cop, 进行#VV, 是#VC)  (case, 状态#NN, 在#P)  (nn, 状态#NN, 其#PN)  (assmod, 状态#NN, 鲜活#JJ)  (case, 鲜活#JJ, 的#DEG)  (prep, 进行#VV, 状态#NN)  (case, 状态#NN, 下#LC)  (conj, 吃#VV, 进行#VV)  (dobj, 进行#VV, 烹调#NN)
+            (root, ROOT#null, 吃#VV)  (nn, 啤酒#NN, 龙虾#NN)  (nn, 啤酒#NN, 喝#NN)  (dobj, 吃#VV, 啤酒#NN)  (advmod, 相宜#VV, 最为#AD)  (conj, 吃#VV, 相宜#VV)
+            (root, ROOT#null, 吃#VV)  (nn, 程序#NN, 龙虾#NN)  (dobj, 吃#VV, 程序#NN)  (case, 四#NR, 为#P)  (nummod, 嗅#NN, 一#CD)  (conj, 四#NR, 嗅#NN)  (nummod, 舔#NN, 二#CD)  (conj, 四#NR, 舔#NN)  (nummod, 揭#NN, 三#CD)  (conj, 四#NR, 揭#NN)  (prep, 吃#VV, 四#NR)  (conj, 吃#VV, 吃#VV)  (nummod, 拧#NN, 五#CD)  (conj, 吃#VV, 拧#NN)  (dep, 捏#VV, 六#CD)  (conj, 吃#VV, 捏#VV)  (nummod, 剥#NN, 七#CD)  (conj, 撕#NN, 剥#NN)  (nummod, 拽#NN, 八#CD)  (conj, 撕#NN, 拽#NN)  (nummod, 撕#NN, 九#CD)  (conj, 吃#VV, 撕#NN)
+            (nn, --#NN, 嗅#NN)  (root, ROOT#null, 闻#VV)  (nummod, 龙虾#NN, 一#CD)  (nn, 龙虾#NN, 闻#NN)  (assmod, --#NN, 龙虾#NN)  (case, 龙虾#NN, 的#DEG)  (nn, --#NN, 味道#NN)  (nn, --#NN, ;#NN)  (nn, --#NN, 舔#NN)  (nfincl, 手#NN, 感受#VV)  (nn, 揭#NN, 龙虾#NN)  (conj, 揭#NN, 麻#NN)  (conj, 揭#NN, 辣#NN)  (nn, 揭#NN, 香的#NN)  (nn, 揭#NN, 滋味#NN)  (nn, 揭#NN, ;#NN)  (nn, --#NN, 揭#NN)  (relcl, ;#NN, 掀开#VV)  (dobj, 掀开#VV, 龙虾#NN)  (mark, 掀开#VV, 的#DEC)  (det, 胸甲#NN, 头#DT)  (nn, ;#NN, 胸甲#NN)  (nsubj, 吃#VV, ;#NN)  (relcl, --#NN, 吃#VV)  (nn, 龙虾#NN, 吃掉#NN)  (dobj, 吃#VV, 龙虾#NN)  (mark, 吃#VV, 的#DEC)  (amod, --#NN, 黄#JJ)  (nn, --#NN, ;#NN)  (nn, --#NN, 拧#NN)  (nummod, 只#M, 两#CD)  (clf, 手#NN, 只#M)  (dobj, 闻#VV, 手#NN)  (nummod, 只#M, 一#CD)  (nsubj, 向外#VV, 只#M)  (conj, 闻#VV, 向外#VV)  (nummod, 只#M, 一#CD)  (clf, --#NN, 只#M)  (relcl, --#NN, 向上#VV)  (case, ;#NN, 除去#P)  (nn, ;#NN, 步足#NN)  (prep, 捏#VV, ;#NN)  (relcl, 拽#NN, 捏#VV)  (nummod, 只#M, 两#CD)  (clf, 向外#NN, 只#M)  (nn, 向外#NN, 手#NN)  (nsubj, 捏#VV, 向外#NN)  (relcl, 腹节#NN, 捏#VV)  (amod, 龙虾#NN, 软#JJ)  (dobj, 捏#VV, 龙虾#NN)  (mark, 捏#VV, 的#DEC)  (nn, 腹节#NN, 腹节#NN)  (nn, 腹节#NN, ;#NN)  (nn, 腹节#NN, 剥#NN)  (nn, 腹节#NN, 剥去#NN)  (dobj, 捏#VV, 腹节#NN)  (mark, 捏#VV, 的#DEC)  (nn, 拽#NN, 上半部#NN)  (nn, 拽#NN, ;#NN)  (nsubj, --#VV, 拽#NN)  (nn, 龙虾#NN, 抽去#NN)  (dobj, --#VV, 龙虾#NN)  (mark, 向上#VV, 的#DEC)  (nn, --#NN, 肠子#NN)  (nn, --#NN, ;#NN)  (nn, --#NN, 撕#NN)  (advmod, 去#VV, 如果#CS)  (nsubj, 去#VV, 抽#NR)  (neg, 去#VV, 不#AD)  (dep, 拿出#VV, 去#VV)  (dobj, 去#VV, 肠子#NN)  (advmod, 拿出#VV, 那么#AD)  (conj, 拿出#VV, 撕开#VV)  (dobj, 撕开#VV, 肉#NN)  (ccomp, 向外#VV, 拿出#VV)  (dobj, 拿出#VV, 肠子#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101026093781.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

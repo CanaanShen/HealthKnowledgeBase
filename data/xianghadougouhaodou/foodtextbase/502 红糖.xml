@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        502
+    </id>
+
+    <foodname>
+        红糖
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        土红糖、赤砂糖
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴虚内热者、消化不良者和糖尿病患者忌食；在服药时，也不宜用红糖水送服。
+        </rawdata>
+
+        <segment>
+            阴虚  内  热者  、  消化不良  者  和  糖尿病  患者  忌食  ；  在  服药  时  ，  也  不  宜  用  红糖  水  送服  。
+        </segment>
+
+        <pos>
+            阴虚#NN  内#LC  热者#NN  、#PU  消化不良#NN  者#NN  和#CC  糖尿病#NN  患者#NN  忌食#VV  ；#PU  在#P  服药#NN  时#LC  ，#PU  也#AD  不#AD  宜#NR  用#VV  红糖#NN  水#NN  送服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 忌食#VV, 阴虚#NN)  (case, 阴虚#NN, 内#LC)  (conj, 糖尿病#NN, 热者#NN)  (nn, 糖尿病#NN, 消化不良#NN)  (conj, 糖尿病#NN, 者#NN)  (cc, 糖尿病#NN, 和#CC)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (xsubj, 用#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (case, 服药#NN, 在#P)  (prep, 用#VV, 服药#NN)  (case, 服药#NN, 时#LC)  (advmod, 用#VV, 也#AD)  (neg, 用#VV, 不#AD)  (prep, 用#VV, 宜#NR)  (ccomp, 忌食#VV, 用#VV)  (nn, 送服#NN, 红糖#NN)  (nn, 送服#NN, 水#NN)  (dobj, 用#VV, 送服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜月经不调、产后妇女；年老体弱、大病初愈者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  月经  不调  、  产后  妇女  ；  年老  体弱  、  大病  初  愈  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  月经#NN  不调#NN  、#PU  产后#NN  妇女#NN  ；#PU  年老#VV  体弱#NR  、#PU  大病#NR  初#LC  愈#AD  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 不调#NN, 月经#NN)  (conj, 者#NN, 不调#NN)  (nn, 妇女#NN, 产后#NN)  (dep, 者#NN, 妇女#NN)  (relcl, 者#NN, 年老#VV)  (conj, 大病#NR, 体弱#NR)  (loc, 年老#VV, 大病#NR)  (case, 大病#NR, 初#LC)  (advmod, 年老#VV, 愈#AD)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                389
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                96.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                157
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                240
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                18.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            红糖通常是指带蜜的甘蔗成品糖，一般是指甘蔗经榨汁，通过简易处理，经浓缩形成的带蜜糖。红糖按结晶颗粒不同，分为赤砂糖、红糖粉、碗糖等，因没有经过高度精练，它们几乎保留了蔗汁中的全部成分，除了具备糖的功能外，还含有维生素和微量元素，如铁、锌、锰、铬等，营养成分比白砂糖高很多。传统的红糖与现在流行的各种黑糖都是以相同方法制作出来的糖，在营养与食用功效上也相同，所以可说是同样的东西。
+        </rawdata>
+
+        <segment>
+            红糖  通常  是  指  带蜜  的  甘蔗  成品  糖  ，  一般  是  指  甘蔗  经  榨汁  ，  通过  简易  处理  ，  经  浓缩  形成  的  带  蜜糖  。  红糖  按  结晶  颗粒  不同  ，  分为  赤  砂糖  、  红糖粉  、  碗  糖  等  ，  因  没有  经过  高度  精练  ，  它们  几乎  保留  了  蔗汁  中  的  全部  成分  ，  除了  具备  糖  的  功能  外  ，  还  含有  维生素  和  微量  元素  ，  如  铁  、  锌  、  锰  、  铬  等  ，  营养  成  分比  白砂糖  高  很多  。  传统  的  红糖  与  现在  流行  的  各  种  黑  糖  都  是  以  相同  方法  制作  出来  的  糖  ，  在  营养  与  食用  功效  上  也  相同  ，  所以  可  说  是  同样  的  东西  。
+        </segment>
+
+        <pos>
+            红糖#NN  通常#AD  是#VC  指#VV  带蜜#NN  的#DEC  甘蔗#NN  成品#NN  糖#NN  ，#PU  一般#AD  是#VC  指#VV  甘蔗#NN  经#P  榨汁#NN  ，#PU  通过#P  简易#JJ  处理#NN  ，#PU  经#P  浓缩#NN  形成#VV  的#DEC  带#NN  蜜糖#NN    。#PU  红糖#NR  按#P  结晶#NN  颗粒#NN  不同#VA  ，#PU  分为#VV  赤#NN  砂糖#NN  、#PU  红糖粉#NN  、#PU  碗#NN  糖#NN  等#ETC  ，#PU  因#P  没有#VE  经过#P  高度#JJ  精练#NN  ，#PU  它们#PN  几乎#AD  保留#VV  了#AS  蔗汁#NN  中#LC  的#DEG  全部#DT  成分#NN  ，#PU  除了#P  具备#VV  糖#NN  的#DEC  功能#NN  外#LC  ，#PU  还#AD  含有#VV  维生素#NN  和#CC  微量#NN  元素#NN  ，#PU  如#AD  铁#NN  、#PU  锌#NN  、#PU  锰#NN  、#PU  铬#NN  等#ETC  ，#PU  营养#VA  成#VV  分比#NN  白砂糖#NN  高#JJ  很多#CD    。#PU  传统#JJ  的#DEG  红糖#NN  与#P  现在#NT  流行#NN  的#DEG  各#DT  种#M  黑#JJ  糖#NN  都#AD  是#VC  以#P  相同#JJ  方法#NN  制作#VV  出来#VV  的#DEC  糖#NN  ，#PU  在#P  营养#VA  与#CC  食用#VV  功效#NN  上#LC  也#AD  相同#VA  ，#PU  所以#AD  可#VV  说#VV  是#VC  同样#JJ  的#DEG  东西#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 糖#NN, 红糖#NN)  (advmod, 糖#NN, 通常#AD)  (cop, 糖#NN, 是#VC)  (relcl, 糖#NN, 指#VV)  (dobj, 指#VV, 带蜜#NN)  (mark, 指#VV, 的#DEC)  (nn, 糖#NN, 甘蔗#NN)  (nn, 糖#NN, 成品#NN)  (root, ROOT#null, 糖#NN)  (advmod, 指#VV, 一般#AD)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (conj, 糖#NN, 指#VV)  (nsubj, 形成#VV, 甘蔗#NN)  (case, 榨汁#NN, 经#P)  (prep, 形成#VV, 榨汁#NN)  (case, 处理#NN, 通过#P)  (amod, 处理#NN, 简易#JJ)  (prep, 形成#VV, 处理#NN)  (case, 浓缩#NN, 经#P)  (prep, 形成#VV, 浓缩#NN)  (relcl, 蜜糖#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (nn, 蜜糖#NN, 带#NN)  (dobj, 指#VV, 蜜糖#NN)   (nsubj, 不同#VA, 红糖#NR)  (case, 颗粒#NN, 按#P)  (nn, 颗粒#NN, 结晶#NN)  (prep, 不同#VA, 颗粒#NN)  (root, ROOT#null, 不同#VA)  (dep, 不同#VA, 分为#VV)  (nn, 糖#NN, 赤#NN)  (conj, 糖#NN, 砂糖#NN)  (conj, 糖#NN, 红糖粉#NN)  (nn, 糖#NN, 碗#NN)  (dobj, 分为#VV, 糖#NN)  (etc, 糖#NN, 等#ETC)  (case, 没有#VE, 因#P)  (prep, 含有#VV, 没有#VE)  (case, 精练#NN, 经过#P)  (amod, 精练#NN, 高度#JJ)  (prep, 保留#VV, 精练#NN)  (nsubj, 保留#VV, 它们#PN)  (advmod, 保留#VV, 几乎#AD)  (dep, 没有#VE, 保留#VV)  (asp, 保留#VV, 了#AS)  (assmod, 成分#NN, 蔗汁#NN)  (case, 蔗汁#NN, 中#LC)  (case, 蔗汁#NN, 的#DEG)  (det, 成分#NN, 全部#DT)  (dobj, 保留#VV, 成分#NN)  (case, 功能#NN, 除了#P)  (relcl, 功能#NN, 具备#VV)  (dobj, 具备#VV, 糖#NN)  (mark, 具备#VV, 的#DEC)  (prep, 含有#VV, 功能#NN)  (case, 功能#NN, 外#LC)  (advmod, 含有#VV, 还#AD)  (conj, 不同#VA, 含有#VV)  (conj, 元素#NN, 维生素#NN)  (cc, 元素#NN, 和#CC)  (nn, 元素#NN, 微量#NN)  (dep, 铬#NN, 元素#NN)  (advmod, 铬#NN, 如#AD)  (conj, 铬#NN, 铁#NN)  (conj, 铬#NN, 锌#NN)  (conj, 铬#NN, 锰#NN)  (dobj, 含有#VV, 铬#NN)  (etc, 铬#NN, 等#ETC)  (conj, 不同#VA, 营养#VA)  (dep, 营养#VA, 成#VV)  (nn, 白砂糖#NN, 分比#NN)  (dobj, 成#VV, 白砂糖#NN)  (amod, 很多#CD, 高#JJ)  (range, 成#VV, 很多#CD)   (assmod, 红糖#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (nsubj, 糖#NN, 红糖#NN)  (case, 糖#NN, 与#P)  (nn, 流行#NN, 现在#NT)  (assmod, 糖#NN, 流行#NN)  (case, 流行#NN, 的#DEG)  (det, 糖#NN, 各#DT)  (clf, 各#DT, 种#M)  (amod, 糖#NN, 黑#JJ)  (prep, 糖#NN, 糖#NN)  (advmod, 糖#NN, 都#AD)  (cop, 糖#NN, 是#VC)  (case, 方法#NN, 以#P)  (amod, 方法#NN, 相同#JJ)  (prep, 制作#VV, 方法#NN)  (relcl, 糖#NN, 制作#VV)  (comod, 制作#VV, 出来#VV)  (mark, 制作#VV, 的#DEC)  (root, ROOT#null, 糖#NN)  (case, 功效#NN, 在#P)  (nfincl, 功效#NN, 营养#VA)  (cc, 营养#VA, 与#CC)  (dep, 营养#VA, 食用#VV)  (prep, 相同#VA, 功效#NN)  (case, 功效#NN, 上#LC)  (advmod, 相同#VA, 也#AD)  (conj, 糖#NN, 相同#VA)  (advmod, 东西#NN, 所以#AD)  (dep, 说#VV, 可#VV)  (dep, 东西#NN, 说#VV)  (cop, 东西#NN, 是#VC)  (assmod, 东西#NN, 同样#JJ)  (case, 同样#JJ, 的#DEG)  (conj, 糖#NN, 东西#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性温、味甘、入脾，具有益气补血、健脾暖胃、缓中止痛、活血化淤的作用。
+            1.补虚
+            红糖中所含有的葡萄糖、果糖等多种单糖和多糖类能量物质，可加速皮肤细胞的代谢，为细胞提供能量。
+            红糖对老年体弱，特别是大病初愈的人，还有极好的疗虚进补作用；红糖对血管硬化能起到一定治疗作用，且不易诱发龋齿等牙科疾病。
+            2.补血活血
+            红糖中含有的叶酸、微量物质等可加速血液循环、增加血容量的成分，刺激机体的造血功能，扩充血容量，提高局部皮肤的营养、氧气、水分供应。
+            妇女因受寒体虚所致的痛经等症或是产后喝些红糖水，有补血活血的作用，在受寒腹痛时，也常用红糖姜汤来祛寒。
+            3.保健
+            红糖中含有的部分维他命和电解质成分，可通过调节组织间某些物质浓度的高低，平衡细胞内环境的水液代谢，排除细胞代谢产物，保持细胞内、外环境的清洁。
+            另外，红糖中含有的多种维他命和抗氧化物质，能抵抗自由基，重建和保护细胞基础结构，维护细胞的正常功能和新陈代谢。
+            4.护肤
+            红糖中含有的氨基酸、纤维素等物质，可以有效保护和恢复表皮、真皮的纤维结构和锁水能力，强化皮肤组织结构和皮肤弹性，同时补充皮肤营养，促进细胞再生。
+            另外，红糖中含有的某些天然酸类和色素调节物质，可有效调节各种色素代谢过程，平衡皮肤内色素分泌数量和色素分布情况，减少局部色素的异常堆积。
+        </rawdata>
+
+        <segment>
+            性温  、  味甘  、  入脾  ，  具有  益气  补血  、  健脾  暖  胃  、  缓  中  止痛  、  活血  化淤  的  作用  。
+            补  虚
+            红糖  中  所含  有的  葡萄糖  、  果糖  等  多  种  单糖  和  多糖类  能量  物质  ，  可  加速  皮肤  细胞  的  代谢  ，  为  细胞  提供  能量  。
+            红糖  对  老年  体弱  ，  特别是  大病  初  愈  的  人  ，  还有  极  好  的  疗虚  进  补  作用  ；  红糖  对  血管  硬化  能  起到  一定  治疗  作用  ，  且  不  易  诱发  龋齿  等  牙科  疾病  。
+            补血  活血
+            红糖  中  含有  的  叶酸  、  微量  物质  等  可  加速  血液  循环  、  增加  血  容量  的  成分  ，  刺激  机体  的  造血  功能  ，  扩充  血  容量  ，  提高  局部  皮肤  的  营养  、  氧气  、  水分  供应  。
+            妇女  因受  寒体  虚  所致  的  痛经  等症  或是  产后  喝  些  红  糖水  ，  有  补血  活血  的  作用  ，  在  受寒  腹痛  时  ，  也  常用  红糖  姜汤  来  祛寒  。
+            保健
+            红糖  中  含有  的  部分  维他命  和  电解质  成分  ，  可  通过  调节  组织  间  某些  物质  浓度  的  高低  ，  平衡  细胞  内  环境  的  水液  代谢  ，  排除  细胞  代谢  产物  ，  保持  细胞  内  、  外  环境  的  清洁  。
+            另外  ，  红糖  中  含有  的  多  种  维他命  和  抗氧化  物质  ，  能  抵抗  自由基  ，  重建  和  保护  细胞  基础  结构  ，  维护  细胞  的  正常  功能  和  新陈代谢  。
+            护肤
+            红糖  中  含有  的  氨基酸  、  纤维素  等  物质  ，  可以  有效  保护  和  恢复  表皮  、  真皮  的  纤维  结构  和  锁  水  能力  ，  强化  皮肤  组织  结构  和  皮肤  弹性  ，  同时  补充  皮肤  营养  ，  促进  细胞  再生  。
+            另外  ，  红糖  中  含有  的  某些  天然  酸类  和  色素  调节  物质  ，  可  有效  调节  各  种  色素  代谢  过程  ，  平衡  皮肤  内  色素  分泌  数量  和  色素  分布  情况  ，  减少  局部  色素  的  异常  堆积  。
+        </segment>
+
+        <pos>
+            性温#NR  、#PU  味甘#NR  、#PU  入脾#NR  ，#PU  具有#VV  益气#NR  补血#NR  、#PU  健脾#NR  暖#NR  胃#NR  、#PU  缓#NR  中#NR  止痛#NR  、#PU  活血#NR  化淤#NN  的#DEG  作用#NN  。#PU
+            补#VV  虚#AD
+            红糖#NN  中#LC  所含#VV  有的#PN  葡萄糖#NR  、#PU  果糖#NR  等#ETC  多#CD  种#M  单糖#NN  和#CC  多糖类#NN  能量#NN  物质#NN  ，#PU  可#VV  加速#AD  皮肤#VV  细胞#NN  的#DEC  代谢#NN  ，#PU  为#P  细胞#NN  提供#VV  能量#NN  。#PU
+            红糖#NN  对#P  老年#NN  体弱#VV  ，#PU  特别是#AD  大病#VA  初#AD  愈#AD  的#DEC  人#NN  ，#PU  还有#AD  极#AD  好#VA  的#DEC  疗虚#NN  进#VV  补#NN  作用#NN  ；#PU  红糖#NN  对#P  血管#NN  硬化#NN  能#VV  起到#VV  一定#JJ  治疗#NN  作用#NN  ，#PU  且#CC  不#AD  易#AD  诱发#VV  龋齿#NN  等#ETC  牙科#NN  疾病#NN  。#PU
+            补血#NN  活血#VV
+            红糖#NN  中#LC  含有#NN  的#DEG  叶酸#NN  、#PU  微量#NN  物质#NN  等#ETC  可#VV  加速#VV  血液#NN  循环#NN  、#PU  增加#VV  血#NN  容量#NN  的#DEC  成分#NN  ，#PU  刺激#VV  机体#NN  的#DEG  造血#NN  功能#NN  ，#PU  扩充#VV  血#NN  容量#NN  ，#PU  提高#VV  局部#JJ  皮肤#NN  的#DEG  营养#VA  、#PU  氧气#VA  、#PU  水分#VA  供应#NN  。#PU
+            妇女#NN  因受#NN  寒体#NN  虚#AD  所致#VV  的#DEC  痛经#NN  等症#NN  或是#AD  产后#VV  喝#CD  些#M  红#JJ  糖水#NN  ，#PU  有#VE  补血#NN  活血#NN  的#DEG  作用#NN  ，#PU  在#P  受寒#NN  腹痛#NN  时#LC  ，#PU  也#AD  常用#JJ  红糖#NN  姜汤#AD  来#VV  祛寒#NN  。#PU
+            保健#NN
+            红糖#VV  中#NR  含有#NN  的#DEG  部分#NN  维他命#NN  和#CC  电解质#NN  成分#NN  ，#PU  可#VV  通过#VV  调节#VV  组织#NN  间#LC  某些#DT  物质#NN  浓度#NN  的#DEG  高低#NN  ，#PU  平衡#VV  细胞#NN  内#LC  环境#NN  的#DEG  水液#NN  代谢#NN  ，#PU  排除#VV  细胞#NN  代谢#NN  产物#NN  ，#PU  保持#VV  细胞#NN  内#NN  、#PU  外#NN  环境#NN  的#DEC  清洁#NN  。#PU
+            另外#AD  ，#PU  红糖#NN  中#LC  含有#NN  的#DEG  多#CD  种#M  维他命#NN  和#CC  抗氧化#NN  物质#NN  ，#PU  能#VV  抵抗#VV  自由基#NN  ，#PU  重建#VV  和#CC  保护#VV  细胞#NN  基础#NN  结构#NN  ，#PU  维护#VV  细胞#NN  的#DEG  正常#JJ  功能#NN  和#CC  新陈代谢#NN  。#PU
+            护肤#VV
+            红糖#VV  中#NR  含有#NN  的#DEG  氨基酸#NR  、#PU  纤维素#NR  等#ETC  物质#NN  ，#PU  可以#VV  有效#JJ  保护#NN  和#CC  恢复#VV  表皮#NN  、#PU  真皮#NN  的#DEG  纤维#NN  结构#NN  和#CC  锁#VV  水#NN  能力#NN  ，#PU  强化#VV  皮肤#NN  组织#NN  结构#NN  和#CC  皮肤#NN  弹性#NN  ，#PU  同时#AD  补充#VV  皮肤#NN  营养#VA  ，#PU  促进#VV  细胞#NN  再生#VV  。#PU
+            另外#AD  ，#PU  红糖#NN  中#LC  含有#NN  的#DEG  某些#DT  天然#JJ  酸类#NN  和#CC  色素#NN  调节#VV  物质#NN  ，#PU  可#VV  有效#AD  调节#VV  各#DT  种#M  色素#NN  代谢#NN  过程#NN  ，#PU  平衡#NN  皮肤#NN  内#LC  色素#AD  分泌#VV  数量#NN  和#CC  色素#NN  分布#NN  情况#NN  ，#PU  减少#VV  局部#JJ  色素#NN  的#DEC  异常#AD  堆积#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 入脾#NR, 性温#NR)  (conj, 入脾#NR, 味甘#NR)  (nsubj, 具有#VV, 入脾#NR)  (root, ROOT#null, 具有#VV)  (nn, 活血#NR, 益气#NR)  (conj, 活血#NR, 补血#NR)  (nn, 活血#NR, 健脾#NR)  (nn, 活血#NR, 暖#NR)  (conj, 活血#NR, 胃#NR)  (nn, 活血#NR, 缓#NR)  (nn, 活血#NR, 中#NR)  (conj, 活血#NR, 止痛#NR)  (nn, 化淤#NN, 活血#NR)  (assmod, 作用#NN, 化淤#NN)  (case, 化淤#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (loc, 所含#VV, 红糖#NN)  (case, 红糖#NN, 中#LC)  (relcl, 代谢#NN, 所含#VV)  (nn, 物质#NN, 有的#PN)  (conj, 果糖#NR, 葡萄糖#NR)  (nn, 多糖类#NN, 果糖#NR)  (etc, 果糖#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 多糖类#NN, 种#M)  (conj, 多糖类#NN, 单糖#NN)  (cc, 多糖类#NN, 和#CC)  (nn, 物质#NN, 多糖类#NN)  (nn, 物质#NN, 能量#NN)  (dobj, 所含#VV, 物质#NN)  (mmod, 皮肤#VV, 可#VV)  (advmod, 皮肤#VV, 加速#AD)  (conj, 所含#VV, 皮肤#VV)  (dobj, 皮肤#VV, 细胞#NN)  (mark, 所含#VV, 的#DEC)  (nsubj, 提供#VV, 代谢#NN)  (case, 细胞#NN, 为#P)  (prep, 提供#VV, 细胞#NN)  (root, ROOT#null, 提供#VV)  (dobj, 提供#VV, 能量#NN)
+            (nsubj, 体弱#VV, 红糖#NN)  (case, 老年#NN, 对#P)  (prep, 体弱#VV, 老年#NN)  (root, ROOT#null, 体弱#VV)  (advmod, 人#NN, 特别是#AD)  (relcl, 人#NN, 大病#VA)  (advmod, 大病#VA, 初#AD)  (advmod, 大病#VA, 愈#AD)  (mark, 大病#VA, 的#DEC)  (nsubj, 进#VV, 人#NN)  (advmod, 疗虚#NN, 还有#AD)  (advmod, 好#VA, 极#AD)  (relcl, 疗虚#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nsubj, 进#VV, 疗虚#NN)  (conj, 体弱#VV, 进#VV)  (nn, 作用#NN, 补#NN)  (dobj, 进#VV, 作用#NN)  (nsubj, 起到#VV, 红糖#NN)  (case, 硬化#NN, 对#P)  (nn, 硬化#NN, 血管#NN)  (prep, 起到#VV, 硬化#NN)  (mmod, 起到#VV, 能#VV)  (conj, 体弱#VV, 起到#VV)  (amod, 作用#NN, 一定#JJ)  (nn, 作用#NN, 治疗#NN)  (dobj, 起到#VV, 作用#NN)  (cc, 体弱#VV, 且#CC)  (neg, 诱发#VV, 不#AD)  (advmod, 诱发#VV, 易#AD)  (conj, 体弱#VV, 诱发#VV)  (nn, 疾病#NN, 龋齿#NN)  (etc, 龋齿#NN, 等#ETC)  (nn, 疾病#NN, 牙科#NN)  (dobj, 诱发#VV, 疾病#NN)
+            (nsubj, 活血#VV, 补血#NN)  (root, ROOT#null, 活血#VV)
+            (loc, 加速#VV, 红糖#NN)  (case, 红糖#NN, 中#LC)  (assmod, 物质#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (conj, 物质#NN, 叶酸#NN)  (nn, 物质#NN, 微量#NN)  (nsubj, 加速#VV, 物质#NN)  (etc, 物质#NN, 等#ETC)  (mmod, 加速#VV, 可#VV)  (root, ROOT#null, 加速#VV)  (nn, 循环#NN, 血液#NN)  (conj, 成分#NN, 循环#NN)  (relcl, 成分#NN, 增加#VV)  (nn, 容量#NN, 血#NN)  (dobj, 增加#VV, 容量#NN)  (mark, 增加#VV, 的#DEC)  (dobj, 加速#VV, 成分#NN)  (conj, 加速#VV, 刺激#VV)  (assmod, 功能#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nn, 功能#NN, 造血#NN)  (dobj, 刺激#VV, 功能#NN)  (conj, 加速#VV, 扩充#VV)  (nn, 容量#NN, 血#NN)  (dobj, 扩充#VV, 容量#NN)  (conj, 加速#VV, 提高#VV)  (amod, 皮肤#NN, 局部#JJ)  (assmod, 供应#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (nfincl, 供应#NN, 营养#VA)  (conj, 营养#VA, 氧气#VA)  (dep, 营养#VA, 水分#VA)  (dobj, 提高#VV, 供应#NN)
+            (nn, 寒体#NN, 妇女#NN)  (nn, 寒体#NN, 因受#NN)  (nsubj, 所致#VV, 寒体#NN)  (advmod, 所致#VV, 虚#AD)  (relcl, 等症#NN, 所致#VV)  (mark, 所致#VV, 的#DEC)  (nn, 等症#NN, 痛经#NN)  (nsubj, 产后#VV, 等症#NN)  (advmod, 产后#VV, 或是#AD)  (root, ROOT#null, 产后#VV)  (nummod, 些#M, 喝#CD)  (clf, 糖水#NN, 些#M)  (amod, 糖水#NN, 红#JJ)  (dobj, 产后#VV, 糖水#NN)  (dep, 产后#VV, 有#VE)  (nn, 活血#NN, 补血#NN)  (assmod, 作用#NN, 活血#NN)  (case, 活血#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (case, 腹痛#NN, 在#P)  (nn, 腹痛#NN, 受寒#NN)  (prep, 来#VV, 腹痛#NN)  (case, 腹痛#NN, 时#LC)  (advmod, 来#VV, 也#AD)  (amod, 红糖#NN, 常用#JJ)  (dep, 来#VV, 红糖#NN)  (advmod, 来#VV, 姜汤#AD)  (conj, 产后#VV, 来#VV)  (dobj, 来#VV, 祛寒#NN)
+            (root, ROOT#null, 保健#NN)
+            (root, ROOT#null, 红糖#VV)  (nn, 含有#NN, 中#NR)  (assmod, 成分#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 成分#NN, 部分#NN)  (conj, 成分#NN, 维他命#NN)  (cc, 成分#NN, 和#CC)  (nn, 成分#NN, 电解质#NN)  (dobj, 红糖#VV, 成分#NN)  (conj, 红糖#VV, 可#VV)  (mmod, 调节#VV, 通过#VV)  (relcl, 清洁#NN, 调节#VV)  (dep, 高低#NN, 组织#NN)  (case, 组织#NN, 间#LC)  (det, 物质#NN, 某些#DT)  (nn, 浓度#NN, 物质#NN)  (assmod, 高低#NN, 浓度#NN)  (case, 浓度#NN, 的#DEG)  (dobj, 调节#VV, 高低#NN)  (conj, 调节#VV, 平衡#VV)  (dep, 环境#NN, 细胞#NN)  (case, 细胞#NN, 内#LC)  (assmod, 代谢#NN, 环境#NN)  (case, 环境#NN, 的#DEG)  (nn, 代谢#NN, 水液#NN)  (dobj, 平衡#VV, 代谢#NN)  (conj, 调节#VV, 排除#VV)  (nn, 产物#NN, 细胞#NN)  (nn, 产物#NN, 代谢#NN)  (dobj, 排除#VV, 产物#NN)  (conj, 调节#VV, 保持#VV)  (nn, 环境#NN, 细胞#NN)  (conj, 环境#NN, 内#NN)  (nn, 环境#NN, 外#NN)  (dobj, 保持#VV, 环境#NN)  (mark, 调节#VV, 的#DEC)  (dobj, 可#VV, 清洁#NN)
+            (advmod, 抵抗#VV, 另外#AD)  (loc, 抵抗#VV, 红糖#NN)  (case, 红糖#NN, 中#LC)  (assmod, 物质#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nummod, 种#M, 多#CD)  (clf, 物质#NN, 种#M)  (conj, 物质#NN, 维他命#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 抗氧化#NN)  (nsubj, 抵抗#VV, 物质#NN)  (mmod, 抵抗#VV, 能#VV)  (root, ROOT#null, 抵抗#VV)  (dobj, 抵抗#VV, 自由基#NN)  (conj, 抵抗#VV, 重建#VV)  (cc, 抵抗#VV, 和#CC)  (conj, 抵抗#VV, 保护#VV)  (nn, 结构#NN, 细胞#NN)  (nn, 结构#NN, 基础#NN)  (dobj, 保护#VV, 结构#NN)  (conj, 抵抗#VV, 维护#VV)  (assmod, 新陈代谢#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (amod, 新陈代谢#NN, 正常#JJ)  (conj, 新陈代谢#NN, 功能#NN)  (cc, 新陈代谢#NN, 和#CC)  (dobj, 维护#VV, 新陈代谢#NN)
+            (root, ROOT#null, 护肤#VV)
+            (root, ROOT#null, 红糖#VV)  (nn, 含有#NN, 中#NR)  (assmod, 物质#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (conj, 纤维素#NR, 氨基酸#NR)  (nn, 物质#NN, 纤维素#NR)  (etc, 纤维素#NR, 等#ETC)  (dobj, 红糖#VV, 物质#NN)  (conj, 红糖#VV, 可以#VV)  (amod, 保护#NN, 有效#JJ)  (dobj, 可以#VV, 保护#NN)  (cc, 红糖#VV, 和#CC)  (conj, 红糖#VV, 恢复#VV)  (conj, 真皮#NN, 表皮#NN)  (assmod, 结构#NN, 真皮#NN)  (case, 真皮#NN, 的#DEG)  (nn, 结构#NN, 纤维#NN)  (dobj, 恢复#VV, 结构#NN)  (cc, 红糖#VV, 和#CC)  (conj, 红糖#VV, 锁#VV)  (nn, 能力#NN, 水#NN)  (dobj, 锁#VV, 能力#NN)  (conj, 红糖#VV, 强化#VV)  (nn, 组织#NN, 皮肤#NN)  (nn, 结构#NN, 组织#NN)  (conj, 弹性#NN, 结构#NN)  (cc, 弹性#NN, 和#CC)  (nn, 弹性#NN, 皮肤#NN)  (dobj, 强化#VV, 弹性#NN)  (advmod, 补充#VV, 同时#AD)  (conj, 红糖#VV, 补充#VV)  (dobj, 补充#VV, 皮肤#NN)  (conj, 补充#VV, 营养#VA)  (conj, 红糖#VV, 促进#VV)  (dobj, 促进#VV, 细胞#NN)  (conj, 促进#VV, 再生#VV)
+            (advmod, 调节#VV, 另外#AD)  (loc, 调节#VV, 红糖#NN)  (case, 红糖#NN, 中#LC)  (assmod, 色素#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (det, 色素#NN, 某些#DT)  (amod, 色素#NN, 天然#JJ)  (conj, 色素#NN, 酸类#NN)  (cc, 色素#NN, 和#CC)  (nsubj, 调节#VV, 色素#NN)  (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 物质#NN)  (mmod, 调节#VV, 可#VV)  (advmod, 调节#VV, 有效#AD)  (nsubj, 堆积#VV, 调节#VV)  (det, 色素#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 过程#NN, 色素#NN)  (nn, 过程#NN, 代谢#NN)  (dobj, 调节#VV, 过程#NN)  (nn, 皮肤#NN, 平衡#NN)  (loc, 分泌#VV, 皮肤#NN)  (case, 皮肤#NN, 内#LC)  (advmod, 分泌#VV, 色素#AD)  (ccomp, 调节#VV, 分泌#VV)  (conj, 调节#VV, 分泌#VV)  (conj, 分布#NN, 数量#NN)  (cc, 分布#NN, 和#CC)  (nn, 分布#NN, 色素#NN)  (nn, 情况#NN, 分布#NN)  (dobj, 分泌#VV, 情况#NN)  (ccomp, 调节#VV, 减少#VV)  (conj, 调节#VV, 减少#VV)  (amod, 色素#NN, 局部#JJ)  (dobj, 减少#VV, 色素#NN)  (mark, 调节#VV, 的#DEC)  (advmod, 堆积#VV, 异常#AD)  (conj, 调节#VV, 堆积#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善营养性贫血  抗氧化  美容养颜  健脾  活血祛瘀  补肝  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            甘蔗含有多种人体必需氨基酸，如赖氨酸、柠檬酸等，这些氨基酸都是合成人体蛋白质、支援新陈代谢、参与人体生命活动不可缺少的基础物质，对促进健康有绝对的正面效用。
+            未经过精炼的红糖保留了较多甘蔗的营养成分，也更加容易被人体消化吸收，因此能快速补充体力、增加活力，所以又被称为“东方的巧克力”，其中不仅含有可提供热能的碳水化合物，还含有人体生长发育不可缺少的苹果酸、核黄素、胡萝卜素、烟酸和微量元素锰、锌、铬等各种元素。
+            专家用原子荧光光谱仪测定，发现红糖含有十分丰富的微量元素成分，其中有些微量元素具有强烈刺激机体造血的功能。
+            每100克红糖含钙90毫克，含铁4毫克，还含有少量的核黄素及胡萝卜素。日本科研人员还从红糖中提取了一种叫做“糖蜜”的多糖，实验证明它具有较强的抗氧化功效，对于抗衰老有明显的作用。
+        </rawdata>
+
+        <segment>
+            甘蔗  含有  多  种  人体  必需  氨基酸  ，  如  赖氨酸  、  柠檬酸  等  ，  这些  氨基酸  都  是  合成  人体  蛋白质  、  支援  新陈代谢  、  参与  人体  生命  活动  不  可  缺少  的  基础  物质  ，  对  促进  健康  有  绝对  的  正面  效用  。
+            未  经过  精炼  的  红糖  保留  了  较多  甘蔗  的  营养  成分  ，  也  更加  容易  被  人体  消化  吸收  ，  因此  能  快速  补充  体力  、  增加  活力  ，  所以  又  被  称为  “  东方  的  巧克力  ”  ，  其中  不仅  含有  可  提供  热能  的  碳水化合物  ，  还  含有  人体  生长  发育  不  可  缺少  的  苹果酸  、  核黄素  、  胡萝卜素  、  烟酸  和  微量  元素  锰  、  锌  、  铬  等  各  种  元素  。
+            专家  用  原子  荧光  光谱仪  测定  ，  发现  红糖  含有  十分  丰富  的  微量  元素  成分  ，  其中  有些  微量  元素  具有  强烈  刺激  机体  造血  的  功能  。
+            每  100  克  红糖  含  钙  90  毫克  ，  含铁  4  毫克  ，  还  含有  少量  的  核黄素  及  胡萝卜素  。  日本  科研  人员  还  从  红糖  中  提取  了  一  种  叫做  “  糖蜜  ”  的  多糖  ，  实验  证明  它  具有  较  强  的  抗氧化  功效  ，  对于  抗  衰老  有  明显  的  作用  。
+        </segment>
+
+        <pos>
+            甘蔗#NN  含有#VV  多#CD  种#M  人体#NN  必需#VV  氨基酸#NN  ，#PU  如#AD  赖氨酸#NN  、#PU  柠檬酸#NN  等#ETC  ，#PU  这些#DT  氨基酸#NN  都#AD  是#VC  合成#JJ  人体#NN  蛋白质#NN  、#PU  支援#VV  新陈代谢#NN  、#PU  参与#VV  人体#NN  生命#NN  活动#NN  不#AD  可#VV  缺少#VV  的#DEC  基础#NN  物质#NN  ，#PU  对#P  促进#VV  健康#AD  有#VE  绝对#JJ  的#DEG  正面#NN  效用#NN  。#PU
+            未#AD  经过#P  精炼#NR  的#DEG  红糖#NN  保留#VV  了#AS  较多#NN  甘蔗#NN  的#DEC  营养#VA  成分#NN  ，#PU  也#AD  更加#AD  容易#VA  被#LB  人体#NN  消化#NN  吸收#VV  ，#PU  因此#AD  能#VV  快速#JJ  补充#NN  体力#NN  、#PU  增加#VV  活力#NN  ，#PU  所以#AD  又#AD  被#SB  称为#VV  ``#NN  东方#NN  的#DEC  巧克力#NN  ''#NN  ，#PU  其中#NN  不仅#CC  含有#NN  可#VV  提供#VV  热能#NN  的#DEC  碳水化合物#NN  ，#PU  还#AD  含有#VV  人体#NN  生长#NN  发育#NN  不#AD  可#VV  缺少#VV  的#DEC  苹果酸#NN  、#PU  核黄素#NN  、#PU  胡萝卜素#NN  、#PU  烟酸#NN  和#CC  微量#NN  元素#NN  锰#NN  、#PU  锌#NN  、#PU  铬#NN  等#ETC  各#DT  种#M  元素#NN  。#PU
+            专家#NN  用#P  原子#NN  荧光#NN  光谱仪#NN  测定#NN  ，#PU  发现#VV  红糖#NN  含有#NN  十分#AD  丰富#VA  的#DEC  微量#NN  元素#NN  成分#NN  ，#PU  其中#NN  有些#DT  微量#NN  元素#NN  具有#VV  强烈#AD  刺激#VV  机体#NN  造血#NN  的#DEC  功能#NN  。#PU
+            每#DT  100#CD  克#M  红糖#NN  含#VV  钙#VV  90#CD  毫克#NN  ，#PU  含铁#VV  4#CD  毫克#NN  ，#PU  还#AD  含有#VV  少量#CD  的#DEC  核黄素#NN  及#CC  胡萝卜素#NN    。#PU  日本#NR  科研#NN  人员#NN  还#AD  从#P  红糖#NN  中#LC  提取#VV  了#AS  一#CD  种#M  叫做#VV  ``#NN  糖蜜#NN  ''#NN  的#DEC  多糖#NN  ，#PU  实验#NN  证明#VV  它#PN  具有#VV  较#AD  强#VA  的#DEC  抗氧化#NN  功效#NN  ，#PU  对于#P  抗#NN  衰老#AD  有#VE  明显#VA  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 甘蔗#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (nsubj, 必需#VV, 人体#NN)  (relcl, 物质#NN, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)  (advmod, 柠檬酸#NN, 如#AD)  (conj, 柠檬酸#NN, 赖氨酸#NN)  (nsubj, 蛋白质#NN, 柠檬酸#NN)  (etc, 柠檬酸#NN, 等#ETC)  (det, 氨基酸#NN, 这些#DT)  (nsubj, 蛋白质#NN, 氨基酸#NN)  (advmod, 蛋白质#NN, 都#AD)  (cop, 蛋白质#NN, 是#VC)  (amod, 蛋白质#NN, 合成#JJ)  (nn, 蛋白质#NN, 人体#NN)  (conj, 必需#VV, 蛋白质#NN)  (conj, 必需#VV, 支援#VV)  (dobj, 支援#VV, 新陈代谢#NN)  (conj, 必需#VV, 参与#VV)  (nn, 活动#NN, 人体#NN)  (nn, 活动#NN, 生命#NN)  (dobj, 参与#VV, 活动#NN)  (neg, 缺少#VV, 不#AD)  (dep, 缺少#VV, 可#VV)  (conj, 参与#VV, 缺少#VV)  (mark, 必需#VV, 的#DEC)  (nn, 物质#NN, 基础#NN)  (dobj, 含有#VV, 物质#NN)  (case, 促进#VV, 对#P)  (prep, 有#VE, 促进#VV)  (advmod, 有#VE, 健康#AD)  (conj, 含有#VV, 有#VE)  (assmod, 效用#NN, 绝对#JJ)  (case, 绝对#JJ, 的#DEG)  (nn, 效用#NN, 正面#NN)  (dobj, 有#VE, 效用#NN)
+            (advmod, 保留#VV, 未#AD)  (case, 红糖#NN, 经过#P)  (assmod, 红糖#NN, 精炼#NR)  (case, 精炼#NR, 的#DEG)  (prep, 保留#VV, 红糖#NN)  (relcl, 成分#NN, 保留#VV)  (asp, 保留#VV, 了#AS)  (nn, 甘蔗#NN, 较多#NN)  (dobj, 保留#VV, 甘蔗#NN)  (mark, 保留#VV, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 可#VV, 成分#NN)  (advmod, 容易#VA, 也#AD)  (advmod, 容易#VA, 更加#AD)  (relcl, ''#NN, 容易#VA)  (dep, 容易#VA, 被#LB)  (nn, 消化#NN, 人体#NN)  (nsubj, 吸收#VV, 消化#NN)  (dep, 被#LB, 吸收#VV)  (advmod, 能#VV, 因此#AD)  (ccomp, 吸收#VV, 能#VV)  (amod, 体力#NN, 快速#JJ)  (nn, 体力#NN, 补充#NN)  (dobj, 能#VV, 体力#NN)  (conj, 能#VV, 增加#VV)  (dobj, 增加#VV, 活力#NN)  (advmod, 称为#VV, 所以#AD)  (advmod, 称为#VV, 又#AD)  (auxpass, 称为#VV, 被#SB)  (dep, 能#VV, 称为#VV)  (nn, 东方#NN, ``#NN)  (dobj, 称为#VV, 东方#NN)  (mark, 容易#VA, 的#DEC)  (nn, ''#NN, 巧克力#NN)  (nsubj, 可#VV, ''#NN)  (conj, 含有#NN, 其中#NN)  (cc, 含有#NN, 不仅#CC)  (nsubj, 可#VV, 含有#NN)  (root, ROOT#null, 可#VV)  (relcl, 碳水化合物#NN, 提供#VV)  (dobj, 提供#VV, 热能#NN)  (mark, 提供#VV, 的#DEC)  (dobj, 可#VV, 碳水化合物#NN)  (advmod, 含有#VV, 还#AD)  (conj, 可#VV, 含有#VV)  (nn, 发育#NN, 人体#NN)  (nn, 发育#NN, 生长#NN)  (nsubj, 可#VV, 发育#NN)  (neg, 可#VV, 不#AD)  (relcl, 元素#NN, 可#VV)  (comod, 可#VV, 缺少#VV)  (mark, 可#VV, 的#DEC)  (conj, 铬#NN, 苹果酸#NN)  (conj, 铬#NN, 核黄素#NN)  (conj, 铬#NN, 胡萝卜素#NN)  (conj, 铬#NN, 烟酸#NN)  (cc, 铬#NN, 和#CC)  (nn, 铬#NN, 微量#NN)  (nn, 铬#NN, 元素#NN)  (conj, 铬#NN, 锰#NN)  (conj, 铬#NN, 锌#NN)  (nn, 元素#NN, 铬#NN)  (etc, 铬#NN, 等#ETC)  (det, 元素#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 含有#VV, 元素#NN)
+            (nsubj, 发现#VV, 专家#NN)  (case, 测定#NN, 用#P)  (nn, 测定#NN, 原子#NN)  (nn, 测定#NN, 荧光#NN)  (nn, 测定#NN, 光谱仪#NN)  (prep, 发现#VV, 测定#NN)  (root, ROOT#null, 发现#VV)  (nn, 含有#NN, 红糖#NN)  (nsubj, 丰富#VA, 含有#NN)  (advmod, 丰富#VA, 十分#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 成分#NN, 微量#NN)  (nn, 成分#NN, 元素#NN)  (dobj, 发现#VV, 成分#NN)  (nsubj, 具有#VV, 其中#NN)  (det, 微量#NN, 有些#DT)  (nn, 元素#NN, 微量#NN)  (nsubj, 具有#VV, 元素#NN)  (conj, 发现#VV, 具有#VV)  (advmod, 刺激#VV, 强烈#AD)  (relcl, 功能#NN, 刺激#VV)  (nn, 造血#NN, 机体#NN)  (dobj, 刺激#VV, 造血#NN)  (mark, 刺激#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)
+            (det, 红糖#NN, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (nsubj, 含#VV, 红糖#NN)  (root, ROOT#null, 含#VV)  (relcl, 胡萝卜素#NN, 钙#VV)  (nummod, 毫克#NN, 90#CD)  (dobj, 钙#VV, 毫克#NN)  (conj, 钙#VV, 含铁#VV)  (nummod, 毫克#NN, 4#CD)  (dobj, 含铁#VV, 毫克#NN)  (advmod, 含有#VV, 还#AD)  (conj, 钙#VV, 含有#VV)  (range, 含有#VV, 少量#CD)  (mark, 钙#VV, 的#DEC)  (conj, 胡萝卜素#NN, 核黄素#NN)  (cc, 胡萝卜素#NN, 及#CC)  (dobj, 含#VV, 胡萝卜素#NN)   (nn, 人员#NN, 日本#NR)  (nn, 人员#NN, 科研#NN)  (nsubj, 提取#VV, 人员#NN)  (advmod, 提取#VV, 还#AD)  (case, 红糖#NN, 从#P)  (prep, 提取#VV, 红糖#NN)  (case, 红糖#NN, 中#LC)  (root, ROOT#null, 提取#VV)  (asp, 提取#VV, 了#AS)  (nummod, 种#M, 一#CD)  (clf, 多糖#NN, 种#M)  (relcl, 多糖#NN, 叫做#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 糖蜜#NN)  (dobj, 叫做#VV, ''#NN)  (mark, 叫做#VV, 的#DEC)  (dobj, 提取#VV, 多糖#NN)  (nsubj, 证明#VV, 实验#NN)  (conj, 提取#VV, 证明#VV)  (dobj, 证明#VV, 它#PN)  (dep, 证明#VV, 具有#VV)  (advmod, 强#VA, 较#AD)  (relcl, 功效#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 功效#NN, 抗氧化#NN)  (dobj, 具有#VV, 功效#NN)  (case, 抗#NN, 对于#P)  (prep, 有#VE, 抗#NN)  (advmod, 有#VE, 衰老#AD)  (conj, 证明#VV, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            将红糖煮成红糖水喝比直接吃更容易吸收其中的营养成分，要发挥红糖的这些功效，吃法上也很有讲究：红糖煮荷包蛋，可以使鸡蛋和红糖的营养互补，让老年人面色红润，有精神；用红糖泡桂圆干服用，对改善睡眠有着积极作用；红糖泡人参，则有调理气息，改善低血压的作用。
+            按照我国民间习俗，产妇在分娩后，都要喝些红糖水，只要适量对产妇、婴儿都是有好处的。但是，有不少产妇喝红糖水的时间往往过长，有的喝半个月，甚至长达一个月。如果久喝红糖水，红糖的活血作用会使恶露的血量增多，造成产妇继续失血。因此，产后喝红糖水的时间，一般以产后7~10天为宜。　　
+            有许多注重养生的家庭已经开始以红糖取代黄糖或白糖应用在一般烹调上，替代使用时要注意不可完全取代白糖或黄糖的份量来调味，因为白糖与黄糖甜度比红糖低，如果添加相同份量的红糖，做出来的味道会过甜，菜色也会过深，应适量减少份量再斟酌菜色添加。
+            红糖虽然营养丰富，但也不能贪吃。建议老人每日入量为25克左右。患糖尿病的老人应避免；便秘、口舌生疮的老人，为了防止上火，可改吃点冰糖。另外，在服药时，也不宜用红糖水送服。
+        </rawdata>
+
+        <segment>
+            将  红糖  煮成  红糖  水  喝  比  直接  吃  更  容易  吸收  其中  的  营养  成分  ，  要  发挥  红糖  的  这些  功效  ，  吃法  上  也  很  有  讲究  ：  红糖  煮  荷包蛋  ，  可以  使  鸡蛋  和  红糖  的  营养  互补  ，  让  老年人  面色  红润  ，  有精神  ；  用  红糖  泡  桂圆  干  服用  ，  对  改善  睡眠  有  着  积极  作用  ；  红糖  泡  人参  ，  则  有  调理  气息  ，  改善  低  血压  的  作用  。
+            按照  我国  民间  习俗  ，  产妇  在  分娩  后  ，  都  要  喝  些  红  糖水  ，  只要  适量  对  产妇  、  婴儿  都  是  有  好处  的  。  但是  ，  有  不少  产妇  喝  红  糖  水  的  时间  往往  过长  ，  有的  喝  半  个  月  ，  甚至  长  达  一  个  月  。  如果  久  喝  红  糖水  ，  红糖  的  活血  作用  会  使  恶露  的  血量  增多  ，  造成  产妇  继续  失血  。  因此  ，  产后  喝  红糖  水  的  时间  ，  一般  以  产后  7  ~  10  天  为宜  。
+            有  许多  注重  养生  的  家庭  已经  开始  以  红糖  取代  黄糖  或  白糖  应  用在  一般  烹调  上  ，  替代  使用  时  要  注意  不  可  完全  取代  白糖  或  黄糖  的  份量  来  调味  ，  因为  白糖  与  黄糖  甜度  比  红糖  低  ，  如果  添加  相同  份量  的  红糖  ，  做出  来的  味道  会  过  甜  ，  菜色  也  会  过深  ，  应  适量  减少  份量  再  斟酌  菜色  添加  。
+            红糖  虽然  营养  丰富  ，  但  也  不  能  贪吃  。  建议  老人  每  日  入量  为  25  克  左右  。  患  糖尿病  的  老人  应  避免  ；  便秘  、  口舌  生疮  的  老人  ，  为了  防止  上火  ，  可改  吃  点  冰糖  。  另外  ，  在  服药  时  ，  也  不  宜  用  红糖  水  送服  。
+        </segment>
+
+        <pos>
+            将#AD  红糖#VV  煮成#NN  红糖#NN  水#NN  喝#NN  比#CC  直接#AD  吃#VV  更#AD  容易#VA  吸收#VV  其中#NN  的#DEG  营养#VA  成分#NN  ，#PU  要#VV  发挥#VV  红糖#NN  的#DEC  这些#DT  功效#NN  ，#PU  吃法#NN  上#LC  也#AD  很#AD  有#VE  讲究#NN  ：#PU  红糖#AD  煮#VV  荷包蛋#NN  ，#PU  可以#VV  使#VV  鸡蛋#NN  和#CC  红糖#NN  的#DEG  营养#VA  互补#VV  ，#PU  让#VV  老年人#NN  面色#VV  红润#NN  ，#PU  有精神#VV  ；#PU  用#P  红糖#NN  泡#NN  桂圆#NN  干#VV  服用#VV  ，#PU  对#P  改善#NN  睡眠#NN  有#VE  着#AS  积极#JJ  作用#NN  ；#PU  红糖#VV  泡#NN  人参#NN  ，#PU  则#AD  有#VE  调理#NN  气息#NN  ，#PU  改善#VV  低#JJ  血压#NN  的#DEC  作用#NN  。#PU
+            按照#P  我国#NN  民间#NN  习俗#VV  ，#PU  产妇#NN  在#P  分娩#NN  后#LC  ，#PU  都#AD  要#VV  喝#CD  些#M  红#JJ  糖水#NN  ，#PU  只要#CS  适量#NN  对#P  产妇#NN  、#PU  婴儿#NN  都#AD  是#VC  有#VE  好处#NN  的#DEC    。#PU  但是#AD  ，#PU  有#VE  不少#CD  产妇#NN  喝#NN  红#JJ  糖#NN  水#NN  的#DEC  时间#NN  往往#AD  过长#VV  ，#PU  有的#PN  喝#VV  半#CD  个#M  月#NN  ，#PU  甚至#AD  长#AD  达#VV  一#CD  个#M  月#NN    。#PU  如果#CS  久#AD  喝#VV  红#JJ  糖水#NN  ，#PU  红糖#VV  的#DEC  活血#NN  作用#NN  会#VV  使#VV  恶露#NN  的#DEG  血量#NN  增多#VV  ，#PU  造成#VV  产妇#NN  继续#VV  失血#NN    。#PU  因此#AD  ，#PU  产后#NN  喝#NN  红糖#VV  水#NN  的#DEG  时间#NN  ，#PU  一般#AD  以#MSP  产后#VV  7#CD  ~#VV  10#CD  天#M  为宜#NN    。#PU    。#PU
+            有#VE  许多#CD  注重#VV  养生#NR  的#DEG  家庭#NN  已经#AD  开始#VV  以#P  红糖#AD  取代#VV  黄糖#NN  或#CC  白糖#VV  应#P  用在#NR  一般#JJ  烹调#NN  上#LC  ，#PU  替代#VV  使用#NN  时#LC  要#VV  注意#VV  不#AD  可#VV  完全#AD  取代#VV  白糖#CD  或#CC  黄糖#CD  的#DEC  份量#NN  来#MSP  调味#VV  ，#PU  因为#P  白糖#NN  与#CC  黄糖#NN  甜度#NN  比#P  红糖#NR  低#VA  ，#PU  如果#CS  添加#VV  相同#JJ  份量#NN  的#DEG  红糖#NN  ，#PU  做出#VV  来的#NN  味道#NN  会#VV  过#AS  甜#NN  ，#PU  菜色#NR  也#AD  会#VV  过深#NN  ，#PU  应#P  适量#NR  减少#VV  份量#VV  再#AD  斟酌#VV  菜色#AD  添加#VV  。#PU
+            红糖#NN  虽然#CS  营养#VA  丰富#VA  ，#PU  但#AD  也#AD  不#AD  能#VV  贪吃#VV    。#PU  建议#NN  老人#NN  每#DT  日#M  入量#NN  为#VC  25#CD  克#M  左右#LC    。#PU  患#NN  糖尿病#NN  的#DEG  老人#NN  应#VV  避免#VV  ；#PU  便秘#NR  、#PU  口舌#NR  生疮#NN  的#DEG  老人#NN  ，#PU  为了#P  防止#VV  上火#NN  ，#PU  可改#AD  吃#VV  点#M  冰糖#NN    。#PU  另外#AD  ，#PU  在#P  服药#NN  时#LC  ，#PU  也#AD  不#AD  宜#NR  用#VV  红糖#NN  水#NN  送服#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 红糖#VV, 将#AD)  (root, ROOT#null, 红糖#VV)  (nn, 喝#NN, 煮成#NN)  (nn, 喝#NN, 红糖#NN)  (nn, 喝#NN, 水#NN)  (dobj, 红糖#VV, 喝#NN)  (cc, 红糖#VV, 比#CC)  (advmod, 吃#VV, 直接#AD)  (dep, 红糖#VV, 吃#VV)  (advmod, 吸收#VV, 更#AD)  (dep, 吸收#VV, 容易#VA)  (relcl, 作用#NN, 吸收#VV)  (assmod, 成分#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 吸收#VV, 成分#NN)  (conj, 吸收#VV, 要#VV)  (relcl, 功效#NN, 发挥#VV)  (dobj, 发挥#VV, 红糖#NN)  (mark, 发挥#VV, 的#DEC)  (det, 功效#NN, 这些#DT)  (dobj, 要#VV, 功效#NN)  (loc, 有#VE, 吃法#NN)  (case, 吃法#NN, 上#LC)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 很#AD)  (conj, 吸收#VV, 有#VE)  (dobj, 有#VE, 讲究#NN)  (advmod, 煮#VV, 红糖#AD)  (conj, 吸收#VV, 煮#VV)  (dobj, 煮#VV, 荷包蛋#NN)  (mmod, 使#VV, 可以#VV)  (conj, 煮#VV, 使#VV)  (conj, 红糖#NN, 鸡蛋#NN)  (cc, 红糖#NN, 和#CC)  (dep, 营养#VA, 红糖#NN)  (case, 红糖#NN, 的#DEG)  (ccomp, 使#VV, 营养#VA)  (dep, 营养#VA, 互补#VV)  (dep, 煮#VV, 让#VV)  (dobj, 让#VV, 老年人#NN)  (dep, 让#VV, 面色#VV)  (dobj, 面色#VV, 红润#NN)  (conj, 煮#VV, 有精神#VV)  (case, 桂圆#NN, 用#P)  (nn, 桂圆#NN, 红糖#NN)  (nn, 桂圆#NN, 泡#NN)  (prep, 干#VV, 桂圆#NN)  (conj, 吸收#VV, 干#VV)  (comod, 干#VV, 服用#VV)  (case, 睡眠#NN, 对#P)  (nn, 睡眠#NN, 改善#NN)  (prep, 有#VE, 睡眠#NN)  (dep, 干#VV, 有#VE)  (asp, 有#VE, 着#AS)  (amod, 作用#NN, 积极#JJ)  (dobj, 有#VE, 作用#NN)  (conj, 吸收#VV, 红糖#VV)  (nn, 人参#NN, 泡#NN)  (dobj, 红糖#VV, 人参#NN)  (advmod, 有#VE, 则#AD)  (conj, 吸收#VV, 有#VE)  (nn, 气息#NN, 调理#NN)  (dobj, 有#VE, 气息#NN)  (conj, 吸收#VV, 改善#VV)  (amod, 血压#NN, 低#JJ)  (dobj, 改善#VV, 血压#NN)  (mark, 吸收#VV, 的#DEC)  (dobj, 吃#VV, 作用#NN)
+            (case, 我国#NN, 按照#P)  (prep, 习俗#VV, 我国#NN)  (nsubj, 习俗#VV, 民间#NN)  (root, ROOT#null, 习俗#VV)  (nsubj, 要#VV, 产妇#NN)  (case, 分娩#NN, 在#P)  (prep, 要#VV, 分娩#NN)  (case, 分娩#NN, 后#LC)  (advmod, 要#VV, 都#AD)  (ccomp, 习俗#VV, 要#VV)  (nummod, 些#M, 喝#CD)  (clf, 糖水#NN, 些#M)  (amod, 糖水#NN, 红#JJ)  (dobj, 要#VV, 糖水#NN)  (advmod, 有#VE, 只要#CS)  (nsubj, 有#VE, 适量#NN)  (case, 婴儿#NN, 对#P)  (conj, 婴儿#NN, 产妇#NN)  (prep, 有#VE, 婴儿#NN)  (advmod, 有#VE, 都#AD)  (cop, 有#VE, 是#VC)  (dep, 要#VV, 有#VE)  (dobj, 有#VE, 好处#NN)  (mark, 有#VE, 的#DEC)   (advmod, 过长#VV, 但是#AD)  (relcl, 时间#NN, 有#VE)  (nummod, 喝#NN, 不少#CD)  (nn, 喝#NN, 产妇#NN)  (nn, 糖#NN, 喝#NN)  (amod, 糖#NN, 红#JJ)  (nn, 水#NN, 糖#NN)  (dobj, 有#VE, 水#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 过长#VV, 时间#NN)  (advmod, 过长#VV, 往往#AD)  (root, ROOT#null, 过长#VV)  (nsubj, 喝#VV, 有的#PN)  (ccomp, 过长#VV, 喝#VV)  (nummod, 个#M, 半#CD)  (clf, 月#NN, 个#M)  (dobj, 喝#VV, 月#NN)  (advmod, 达#VV, 甚至#AD)  (advmod, 达#VV, 长#AD)  (conj, 过长#VV, 达#VV)  (nummod, 个#M, 一#CD)  (clf, 月#NN, 个#M)  (dobj, 达#VV, 月#NN)   (advmod, 喝#VV, 如果#CS)  (advmod, 喝#VV, 久#AD)  (relcl, 作用#NN, 喝#VV)  (amod, 糖水#NN, 红#JJ)  (dobj, 喝#VV, 糖水#NN)  (dep, 喝#VV, 红糖#VV)  (mark, 喝#VV, 的#DEC)  (nn, 作用#NN, 活血#NN)  (nsubj, 使#VV, 作用#NN)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (assmod, 血量#NN, 恶露#NN)  (case, 恶露#NN, 的#DEG)  (dobj, 使#VV, 血量#NN)  (dep, 使#VV, 增多#VV)  (dep, 增多#VV, 造成#VV)  (dobj, 造成#VV, 产妇#NN)  (conj, 造成#VV, 继续#VV)  (dobj, 继续#VV, 失血#NN)   (advmod, 红糖#VV, 因此#AD)  (nn, 喝#NN, 产后#NN)  (nsubj, 红糖#VV, 喝#NN)  (conj, ~#VV, 红糖#VV)  (root, ~#VV, 红糖#VV)  (assmod, 时间#NN, 水#NN)  (case, 水#NN, 的#DEG)  (dobj, 红糖#VV, 时间#NN)  (advmod, 产后#VV, 一般#AD)  (prtmod, 产后#VV, 以#MSP)  (conj, 红糖#VV, 产后#VV)  (range, 产后#VV, 7#CD)  (nummod, 天#M, 10#CD)  (clf, 为宜#NN, 天#M)  (dobj, 红糖#VV, 为宜#NN)  (dobj, ~#VV, 为宜#NN)   (root, ROOT#null, null#null)
+            (dep, 会#VV, 有#VE)  (nsubj, 注重#VV, 许多#CD)  (dep, 有#VE, 注重#VV)  (assmod, 家庭#NN, 养生#NR)  (case, 养生#NR, 的#DEG)  (dobj, 注重#VV, 家庭#NN)  (advmod, 注意#VV, 已经#AD)  (mmod, 注意#VV, 开始#VV)  (case, 取代#VV, 以#P)  (advmod, 取代#VV, 红糖#AD)  (prep, 注意#VV, 取代#VV)  (dobj, 取代#VV, 黄糖#NN)  (cc, 取代#VV, 或#CC)  (mmod, 替代#VV, 白糖#VV)  (case, 烹调#NN, 应#P)  (nn, 烹调#NN, 用在#NR)  (amod, 烹调#NN, 一般#JJ)  (prep, 替代#VV, 烹调#NN)  (case, 烹调#NN, 上#LC)  (conj, 取代#VV, 替代#VV)  (dobj, 替代#VV, 使用#NN)  (case, 取代#VV, 时#LC)  (mmod, 注意#VV, 要#VV)  (dep, 注重#VV, 注意#VV)  (neg, 可#VV, 不#AD)  (ccomp, 注意#VV, 可#VV)  (advmod, 取代#VV, 完全#AD)  (relcl, 份量#NN, 取代#VV)  (nummod, 黄糖#CD, 白糖#CD)  (cc, 黄糖#CD, 或#CC)  (range, 取代#VV, 黄糖#CD)  (mark, 取代#VV, 的#DEC)  (dobj, 可#VV, 份量#NN)  (prtmod, 调味#VV, 来#MSP)  (dep, 有#VE, 调味#VV)  (case, 低#VA, 因为#P)  (conj, 黄糖#NN, 白糖#NN)  (cc, 黄糖#NN, 与#CC)  (nn, 甜度#NN, 黄糖#NN)  (nsubj, 低#VA, 甜度#NN)  (case, 红糖#NR, 比#P)  (prep, 低#VA, 红糖#NR)  (prep, 做出#VV, 低#VA)  (advmod, 添加#VV, 如果#CS)  (dep, 做出#VV, 添加#VV)  (amod, 份量#NN, 相同#JJ)  (assmod, 红糖#NN, 份量#NN)  (case, 份量#NN, 的#DEG)  (dobj, 添加#VV, 红糖#NN)  (ccomp, 调味#VV, 做出#VV)  (nn, 味道#NN, 来的#NN)  (dobj, 做出#VV, 味道#NN)  (conj, 做出#VV, 会#VV)  (asp, 会#VV, 过#AS)  (dobj, 会#VV, 甜#NN)  (nsubj, 会#VV, 菜色#NR)  (advmod, 会#VV, 也#AD)  (root, ROOT#null, 会#VV)  (dobj, 会#VV, 过深#NN)  (case, 适量#NR, 应#P)  (prep, 添加#VV, 适量#NR)  (mmod, 添加#VV, 减少#VV)  (dep, 添加#VV, 份量#VV)  (dep, 份量#VV, 再#AD)  (dep, 份量#VV, 斟酌#VV)  (advmod, 添加#VV, 菜色#AD)  (dep, 会#VV, 添加#VV)
+            (nsubj, 贪吃#VV, 红糖#NN)  (advmod, 丰富#VA, 虽然#CS)  (dep, 丰富#VA, 营养#VA)  (dep, 贪吃#VV, 丰富#VA)  (advmod, 贪吃#VV, 但#AD)  (advmod, 贪吃#VV, 也#AD)  (neg, 贪吃#VV, 不#AD)  (dep, 贪吃#VV, 能#VV)  (root, ROOT#null, 贪吃#VV)   (nn, 老人#NN, 建议#NN)  (nn, 入量#NN, 老人#NN)  (det, 入量#NN, 每#DT)  (clf, 每#DT, 日#M)  (nsubj, 为#VC, 入量#NN)  (root, ROOT#null, 为#VC)  (nummod, 克#M, 25#CD)  (loc, 为#VC, 克#M)  (case, 克#M, 左右#LC)   (nn, 糖尿病#NN, 患#NN)  (assmod, 老人#NN, 糖尿病#NN)  (case, 糖尿病#NN, 的#DEG)  (nsubj, 避免#VV, 老人#NN)  (mmod, 避免#VV, 应#VV)  (root, ROOT#null, 避免#VV)  (conj, 口舌#NR, 便秘#NR)  (nn, 生疮#NN, 口舌#NR)  (assmod, 老人#NN, 生疮#NN)  (case, 生疮#NN, 的#DEG)  (nsubj, 吃#VV, 老人#NN)  (case, 防止#VV, 为了#P)  (prep, 吃#VV, 防止#VV)  (dobj, 防止#VV, 上火#NN)  (advmod, 吃#VV, 可改#AD)  (ccomp, 避免#VV, 吃#VV)  (dep, 冰糖#NN, 点#M)  (dobj, 吃#VV, 冰糖#NN)   (advmod, 用#VV, 另外#AD)  (case, 服药#NN, 在#P)  (prep, 用#VV, 服药#NN)  (case, 服药#NN, 时#LC)  (advmod, 用#VV, 也#AD)  (neg, 用#VV, 不#AD)  (prep, 用#VV, 宜#NR)  (dep, 送服#VV, 用#VV)  (nn, 水#NN, 红糖#NN)  (dobj, 用#VV, 水#NN)  (root, ROOT#null, 送服#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/29151458.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

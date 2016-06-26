@@ -1,0 +1,406 @@
+<content>
+
+    <id>
+        199
+    </id>
+
+    <foodname>
+        圆生菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        结球生菜
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            尿频、胃寒者慎食。
+        </rawdata>
+
+        <segment>
+            尿频  、  胃  寒  者  慎食  。
+        </segment>
+
+        <pos>
+            尿频#NN  、#PU  胃#NN  寒#JJ  者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 胃#NN, 尿频#NN)  (nn, 者#NN, 胃#NN)  (amod, 者#NN, 寒#JJ)  (nsubj, 慎食#VV, 者#NN)  (root, ROOT#null, 慎食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜胆固醇高、神经衰弱者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  胆固醇  高  、  神经  衰弱者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  胆固醇#NN  高#JJ  、#PU  神经#NN  衰弱者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 衰弱者#NN, 胆固醇#NN)  (amod, 衰弱者#NN, 高#JJ)  (nn, 衰弱者#NN, 神经#NN)  (dobj, 适宜#VV, 衰弱者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                298
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                1790
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                170
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                32.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            生菜是叶用莴苣的俗称，属菊科莴苣属。为一年生或二年生草本作物，也是欧、美国家的大众蔬菜，深受人们喜爱。生菜原产欧洲地中海沿岸，由野生种驯化而来。古希腊人、罗马人最早食用。生菜传入我国的历史较悠久，东南沿海，特别是大城市近郊、两广地区栽培较多，特别是台湾种植尤为普遍。近年来，栽培面积迅速扩大，生菜也由宾馆、饭店进入寻常百姓的餐桌。
+            圆生菜是生菜的一个品种，又称结球生菜，叶片抱合成球状，有三个品种，一是叶片呈倒卵形，叶而平滑，质地柔软、叶缘稍呈波纹的奶油生菜；另有一种叶片呈倒卵圆形，叶面皱缩，质地脆嫩，叶缘呈锯齿状的脆叶生菜，此品种栽培较普遍；还有一种苦叶生菜叶片厚实、长椭圆形，叶全缘，半结球型的。
+        </rawdata>
+
+        <segment>
+            生菜  是  叶  用  莴苣  的  俗称  ，  属  菊科  莴苣  属  。  为  一  年  生  或  二  年  生  草本  作物  ，  也  是  欧  、  美国  家  的  大众  蔬菜  ，  深  受  人们  喜爱  。  生菜  原产  欧洲  地中海  沿岸  ，  由  野生  种  驯化  而  来  。  古希腊人  、  罗马人  最早  食用  。  生菜  传入  我  国  的  历史  较  悠久  ，  东南  沿海  ，  特别是  大城市  近郊  、  两  广  地区  栽培  较  多  ，  特别是  台湾  种植  尤为  普遍  。  近年  来  ，  栽培  面积  迅速  扩大  ，  生菜  也  由  宾馆  、  饭店  进入  寻常  百姓  的  餐桌  。
+            圆  生菜  是  生菜  的  一  个  品种  ，  又  称  结球  生菜  ，  叶片  抱合  成球状  ，  有  三  个  品种  ，  一  是  叶片呈  倒  卵形  ，  叶  而  平滑  ，  质地  柔软  、  叶缘稍  呈  波纹  的  奶油  生菜  ；  另  有  一  种  叶片  呈  倒  卵  圆形  ，  叶面  皱缩  ，  质地  脆嫩  ，  叶缘呈  锯齿状  的  脆叶  生菜  ，  此  品种  栽培  较  普遍  ；  还有  一  种  苦  叶  生菜  叶片  厚实  、  长  椭圆形  ，  叶全缘  ，  半结球型  的  。
+        </segment>
+
+        <pos>
+            生菜#AD  是#VC  叶#NR  用#P  莴苣#NN  的#DEG  俗称#NN  ，#PU  属#VV  菊科#NN  莴苣#NN  属#VV    。#PU  为#P  一#CD  年#M  生#VV  或#CC  二#CD  年#M  生#VV  草本#NN  作物#NN  ，#PU  也#AD  是#VC  欧#NR  、#PU  美国#NR  家#NN  的#DEG  大众#NN  蔬菜#NN  ，#PU  深#AD  受#VV  人们#NN  喜爱#NN    。#PU  生菜#AD  原产#VV  欧洲#NR  地中海#NR  沿岸#NN  ，#PU  由#P  野生#JJ  种#NN  驯化#VV  而#MSP  来#VV    。#PU  古希腊人#NR  、#PU  罗马人#NR  最早#AD  食用#VV    。#PU  生菜#AD  传入#VV  我#PN  国#NN  的#DEC  历史#NN  较#AD  悠久#VA  ，#PU  东南#NN  沿海#NN  ，#PU  特别是#AD  大城市#NN  近郊#NN  、#PU  两#CD  广#VA  地区#NN  栽培#VV  较#AD  多#VA  ，#PU  特别是#AD  台湾#NR  种植#NN  尤为#AD  普遍#VA    。#PU  近年#NT  来#LC  ，#PU  栽培#VV  面积#NN  迅速#AD  扩大#VV  ，#PU  生菜#NN  也#AD  由#P  宾馆#NN  、#PU  饭店#NN  进入#VV  寻常#NN  百姓#NN  的#DEG  餐桌#NN    。#PU    。#PU
+            圆#VV  生菜#VV  是#VC  生菜#NN  的#DEC  一#CD  个#M  品种#NN  ，#PU  又#AD  称#VV  结球#VV  生菜#NN  ，#PU  叶片#VV  抱合#NN  成球状#NN  ，#PU  有#VE  三#CD  个#M  品种#NN  ，#PU  一#CD  是#VC  叶片呈#NR  倒#AD  卵形#VV  ，#PU  叶#NR  而#CC  平滑#VV  ，#PU  质地#VV  柔软#NN  、#PU  叶缘稍#VV  呈#VV  波纹#NN  的#DEC  奶油#NN  生菜#NN  ；#PU  另#AD  有#VE  一#CD  种#M  叶片#AD  呈#VV  倒#VV  卵#NN  圆形#NN  ，#PU  叶面#VV  皱缩#NN  ，#PU  质地#VV  脆嫩#NN  ，#PU  叶缘呈#VV  锯齿状#NN  的#DEC  脆叶#NN  生菜#NN  ，#PU  此#DT  品种#NN  栽培#VV  较#AD  普遍#VA  ；#PU  还有#AD  一#CD  种#M  苦#NN  叶#NN  生菜#VV  叶片#NN  厚实#NN  、#PU  长#VV  椭圆形#NN  ，#PU  叶全缘#VV  ，#PU  半结球型#VA  的#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 俗称#NN, 生菜#AD)  (cop, 俗称#NN, 是#VC)  (nn, 俗称#NN, 叶#NR)  (case, 莴苣#NN, 用#P)  (assmod, 俗称#NN, 莴苣#NN)  (case, 莴苣#NN, 的#DEG)  (root, ROOT#null, 俗称#NN)  (dep, 俗称#NN, 属#VV)  (nn, 莴苣#NN, 菊科#NN)  (dobj, 属#VV, 莴苣#NN)  (conj, 属#VV, 属#VV)   (case, 生#VV, 为#P)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (prep, 生#VV, 生#VV)  (cc, 生#VV, 或#CC)  (nummod, 年#M, 二#CD)  (conj, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (nn, 作物#NN, 草本#NN)  (dobj, 生#VV, 作物#NN)  (advmod, 蔬菜#NN, 也#AD)  (cop, 蔬菜#NN, 是#VC)  (conj, 美国#NR, 欧#NR)  (nn, 家#NN, 美国#NR)  (assmod, 蔬菜#NN, 家#NN)  (case, 家#NN, 的#DEG)  (nn, 蔬菜#NN, 大众#NN)  (dep, 生#VV, 蔬菜#NN)  (advmod, 受#VV, 深#AD)  (dep, 生#VV, 受#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 受#VV, 喜爱#NN)   (advmod, 原产#VV, 生菜#AD)  (root, ROOT#null, 原产#VV)  (nn, 地中海#NR, 欧洲#NR)  (nn, 沿岸#NN, 地中海#NR)  (dobj, 原产#VV, 沿岸#NN)  (case, 种#NN, 由#P)  (amod, 种#NN, 野生#JJ)  (prep, 驯化#VV, 种#NN)  (dep, 原产#VV, 驯化#VV)  (dep, 来#VV, 而#MSP)  (dobj, 驯化#VV, 来#VV)   (conj, 罗马人#NR, 古希腊人#NR)  (nsubj, 食用#VV, 罗马人#NR)  (advmod, 食用#VV, 最早#AD)  (root, ROOT#null, 食用#VV)   (advmod, 传入#VV, 生菜#AD)  (relcl, 历史#NN, 传入#VV)  (nn, 国#NN, 我#PN)  (dobj, 传入#VV, 国#NN)  (mark, 传入#VV, 的#DEC)  (nsubj, 悠久#VA, 历史#NN)  (advmod, 悠久#VA, 较#AD)  (root, ROOT#null, 悠久#VA)  (nn, 沿海#NN, 东南#NN)  (nsubj, 多#VA, 沿海#NN)  (advmod, 地区#NN, 特别是#AD)  (nn, 近郊#NN, 大城市#NN)  (conj, 地区#NN, 近郊#NN)  (nummod, 地区#NN, 两#CD)  (relcl, 地区#NN, 广#VA)  (nsubj, 多#VA, 地区#NN)  (mmod, 多#VA, 栽培#VV)  (advmod, 多#VA, 较#AD)  (conj, 悠久#VA, 多#VA)  (advmod, 普遍#VA, 特别是#AD)  (nn, 种植#NN, 台湾#NR)  (nsubj, 普遍#VA, 种植#NN)  (advmod, 普遍#VA, 尤为#AD)  (conj, 悠久#VA, 普遍#VA)   (loc, 扩大#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (relcl, 面积#NN, 栽培#VV)  (nsubj, 扩大#VV, 面积#NN)  (advmod, 扩大#VV, 迅速#AD)  (root, ROOT#null, 扩大#VV)  (nsubj, 进入#VV, 生菜#NN)  (advmod, 进入#VV, 也#AD)  (case, 饭店#NN, 由#P)  (conj, 饭店#NN, 宾馆#NN)  (prep, 进入#VV, 饭店#NN)  (conj, 扩大#VV, 进入#VV)  (nn, 百姓#NN, 寻常#NN)  (assmod, 餐桌#NN, 百姓#NN)  (case, 百姓#NN, 的#DEG)  (dobj, 进入#VV, 餐桌#NN)   (root, ROOT#null, null#null)
+            (mmod, 生菜#VV, 圆#VV)  (conj, 卵形#VV, 生菜#VV)  (cop, 生菜#NN, 是#VC)  (relcl, 品种#NN, 生菜#NN)  (mark, 生菜#NN, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 品种#NN, 个#M)  (dobj, 生菜#VV, 品种#NN)  (advmod, 称#VV, 又#AD)  (conj, 生菜#VV, 称#VV)  (ccomp, 称#VV, 结球#VV)  (dobj, 结球#VV, 生菜#NN)  (conj, 生菜#VV, 叶片#VV)  (nn, 成球状#NN, 抱合#NN)  (dobj, 叶片#VV, 成球状#NN)  (conj, 生菜#VV, 有#VE)  (nummod, 个#M, 三#CD)  (clf, 品种#NN, 个#M)  (dobj, 有#VE, 品种#NN)  (dep, 卵形#VV, 一#CD)  (cop, 卵形#VV, 是#VC)  (nsubj, 卵形#VV, 叶片呈#NR)  (advmod, 卵形#VV, 倒#AD)  (root, ROOT#null, 卵形#VV)  (nsubj, 平滑#VV, 叶#NR)  (cc, 平滑#VV, 而#CC)  (ccomp, 卵形#VV, 平滑#VV)  (conj, 平滑#VV, 质地#VV)  (dobj, 质地#VV, 柔软#NN)  (conj, 平滑#VV, 叶缘稍#VV)  (relcl, 生菜#NN, 呈#VV)  (dobj, 呈#VV, 波纹#NN)  (mark, 呈#VV, 的#DEC)  (nn, 生菜#NN, 奶油#NN)  (dobj, 叶缘稍#VV, 生菜#NN)  (advmod, 有#VE, 另#AD)  (conj, 平滑#VV, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 生菜#NN, 种#M)  (advmod, 倒#VV, 叶片#AD)  (mmod, 倒#VV, 呈#VV)  (relcl, 生菜#NN, 倒#VV)  (nn, 圆形#NN, 卵#NN)  (dobj, 倒#VV, 圆形#NN)  (conj, 倒#VV, 叶面#VV)  (dobj, 叶面#VV, 皱缩#NN)  (conj, 倒#VV, 质地#VV)  (dobj, 质地#VV, 脆嫩#NN)  (conj, 倒#VV, 叶缘呈#VV)  (dobj, 叶缘呈#VV, 锯齿状#NN)  (mark, 倒#VV, 的#DEC)  (nn, 生菜#NN, 脆叶#NN)  (dobj, 有#VE, 生菜#NN)  (det, 品种#NN, 此#DT)  (nsubj, 普遍#VA, 品种#NN)  (mmod, 普遍#VA, 栽培#VV)  (advmod, 普遍#VA, 较#AD)  (conj, 平滑#VV, 普遍#VA)  (advmod, 生菜#VV, 还有#AD)  (nummod, 种#M, 一#CD)  (clf, 叶#NN, 种#M)  (nn, 叶#NN, 苦#NN)  (nsubj, 生菜#VV, 叶#NN)  (conj, 平滑#VV, 生菜#VV)  (nn, 厚实#NN, 叶片#NN)  (dobj, 生菜#VV, 厚实#NN)  (conj, 生菜#VV, 长#VV)  (dobj, 长#VV, 椭圆形#NN)  (conj, 生菜#VV, 叶全缘#VV)  (conj, 平滑#VV, 半结球型#VA)  (mark, 卵形#VV, 的#DEC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.消脂减肥
+            有消除多余脂肪的作用，故又叫减肥生菜。对于爱美、希望保持身材的女性来说，是个不错的选择。
+            2.镇痛催眠
+            有降低胆固醇的功效，辅助治疗神经衰弱等症状。生菜所含有的维生素C还能有效的缓解牙龈出血等功效。
+            3.驱寒利尿
+            能刺激消化、增进食欲、驱寒利尿、促进血液循环等作用。
+            4.抑制病毒
+            其叶绿素中的铜钠盐具有抗癌变性能能有效防止癌变。
+        </rawdata>
+
+        <segment>
+            消脂  减肥
+            有  消除  多余  脂肪  的  作用  ，  故  又  叫  减肥  生菜  。  对于  爱美  、  希望  保持  身材  的  女性  来说  ，  是  个  不错  的  选择  。
+            镇痛  催眠
+            有  降低  胆固醇  的  功效  ，  辅助  治疗  神经  衰弱  等  症状  。  生菜  所  含  有的  维生素C  还  能  有效  的  缓解  牙龈  出血  等  功效  。
+            驱寒  利尿
+            能  刺激  消化  、  增进  食欲  、  驱寒  利尿  、  促进  血液  循环  等  作用  。
+            抑制  病毒
+            其  叶绿素  中  的  铜  钠  盐  具有  抗癌  变  性能  能  有效  防止  癌变  。
+        </segment>
+
+        <pos>
+            消脂#NN  减肥#VV
+            有#VE  消除#VV  多余#NN  脂肪#NN  的#DEC  作用#NN  ，#PU  故#AD  又#AD  叫#VV  减肥#VV  生菜#NN    。#PU  对于#P  爱美#NN  、#PU  希望#NN  保持#VV  身材#NN  的#DEC  女性#NN  来说#VV  ，#PU  是#VC  个#M  不错#VA  的#DEC  选择#NN    。#PU    。#PU
+            镇痛#NN  催眠#VV
+            有#VE  降低#VV  胆固醇#NN  的#DEC  功效#NN  ，#PU  辅助#VV  治疗#NN  神经#NN  衰弱#NN  等#ETC  症状#NN    。#PU  生菜#NN  所#MSP  含#VV  有的#PN  维生素C#AD  还#AD  能#VV  有效#VA  的#DEV  缓解#VV  牙龈#NN  出血#VV  等#ETC  功效#NN    。#PU    。#PU
+            驱寒#NN  利尿#VV
+            能#VV  刺激#VV  消化#NN  、#PU  增进#VV  食欲#NN  、#PU  驱寒#VV  利尿#NN  、#PU  促进#VV  血液#NN  循环#NN  等#ETC  作用#NN  。#PU
+            抑制#VV  病毒#NN
+            其#PN  叶绿素#NN  中#LC  的#DEG  铜#NN  钠#NN  盐#NN  具有#VV  抗癌#NN  变#VV  性能#NN  能#VV  有效#AD  防止#VV  癌变#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 减肥#VV, 消脂#NN)  (root, ROOT#null, 减肥#VV)
+            (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 消除#VV)  (nn, 脂肪#NN, 多余#NN)  (dobj, 消除#VV, 脂肪#NN)  (mark, 消除#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (advmod, 叫#VV, 故#AD)  (advmod, 叫#VV, 又#AD)  (conj, 有#VE, 叫#VV)  (ccomp, 叫#VV, 减肥#VV)  (dobj, 减肥#VV, 生菜#NN)   (case, 希望#NN, 对于#P)  (conj, 希望#NN, 爱美#NN)  (prep, 保持#VV, 希望#NN)  (relcl, 女性#NN, 保持#VV)  (dobj, 保持#VV, 身材#NN)  (mark, 保持#VV, 的#DEC)  (nsubj, 来说#VV, 女性#NN)  (root, ROOT#null, 来说#VV)  (cop, 选择#NN, 是#VC)  (dep, 选择#NN, 个#M)  (relcl, 选择#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (ccomp, 来说#VV, 选择#NN)   (root, ROOT#null, null#null)
+            (nsubj, 催眠#VV, 镇痛#NN)  (root, ROOT#null, 催眠#VV)
+            (root, ROOT#null, 有#VE)  (relcl, 功效#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)  (conj, 有#VE, 辅助#VV)  (nn, 衰弱#NN, 治疗#NN)  (nn, 衰弱#NN, 神经#NN)  (nn, 症状#NN, 衰弱#NN)  (etc, 衰弱#NN, 等#ETC)  (dobj, 辅助#VV, 症状#NN)   (nsubj, 含#VV, 生菜#NN)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (nsubj, 缓解#VV, 有的#PN)  (advmod, 缓解#VV, 维生素C#AD)  (advmod, 缓解#VV, 还#AD)  (mmod, 缓解#VV, 能#VV)  (dvpmod, 缓解#VV, 有效#VA)  (mark, 有效#VA, 的#DEV)  (nfincl, 功效#NN, 缓解#VV)  (dobj, 缓解#VV, 牙龈#NN)  (dep, 缓解#VV, 出血#VV)  (dep, 缓解#VV, 等#ETC)  (dobj, 含#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 利尿#VV, 驱寒#NN)  (root, ROOT#null, 利尿#VV)
+            (mmod, 刺激#VV, 能#VV)  (root, ROOT#null, 刺激#VV)  (dobj, 刺激#VV, 消化#NN)  (conj, 刺激#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 刺激#VV, 驱寒#VV)  (dobj, 驱寒#VV, 利尿#NN)  (conj, 刺激#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (nn, 作用#NN, 循环#NN)  (etc, 循环#NN, 等#ETC)  (dobj, 促进#VV, 作用#NN)
+            (root, ROOT#null, 抑制#VV)  (dobj, 抑制#VV, 病毒#NN)
+            (nsubj, 具有#VV, 其#PN)  (assmod, 盐#NN, 叶绿素#NN)  (case, 叶绿素#NN, 中#LC)  (case, 叶绿素#NN, 的#DEG)  (nn, 盐#NN, 铜#NN)  (nn, 盐#NN, 钠#NN)  (nsubj, 具有#VV, 盐#NN)  (conj, 变#VV, 具有#VV)  (dobj, 具有#VV, 抗癌#NN)  (root, ROOT#null, 变#VV)  (dobj, 变#VV, 性能#NN)  (mmod, 防止#VV, 能#VV)  (advmod, 防止#VV, 有效#AD)  (dep, 变#VV, 防止#VV)  (dobj, 防止#VV, 癌变#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.生菜富含水分，每100克食用部分含水分高达94%一96%，故生食清脆爽口，特别鲜嫩。
+            2.生菜中膳食纤维和维生素C较白菜多。
+            3.其茎叶中含有莴苣素，故味微苦。
+            4.生菜中含有甘露醇等有效成分。
+            5.生菜中含有一种“干扰素诱生剂”，可刺激人体正常细胞产生干扰素，从而产生一种“抗病毒蛋白”抑制病毒。
+        </rawdata>
+
+        <segment>
+            生菜  富含  水分  ，  每  100  克  食用  部分  含  水分  高  达  94%  一96%  ，  故  生食  清脆  爽口  ，  特别  鲜嫩  。
+            生菜  中  膳食  纤维  和  维生素C  较  白  菜  多  。
+            其茎  叶  中  含有  莴苣素  ，  故  味微苦  。
+            生菜  中  含有  甘露醇  等  有效  成分  。
+            生菜  中  含有  一  种  “  干扰素  诱  生  剂  ”  ，  可  刺激  人体  正常  细胞  产生  干扰素  ，  从而  产生  一  种  “  抗  病毒  蛋白  ”  抑制  病毒  。
+        </segment>
+
+        <pos>
+            生菜#NN  富含#NN  水分#NN  ，#PU  每#DT  100#CD  克#M  食用#VV  部分#NN  含#VV  水分#NN  高#AD  达#VV  94#CD  %#NN  一96#CD  %#NN  ，#PU  故#AD  生食#VV  清脆#NN  爽口#NN  ，#PU  特别#AD  鲜嫩#VV  。#PU
+            生菜#NN  中#LC  膳食#NN  纤维#NN  和#CC  维生素C#NR  较#AD  白#JJ  菜#NN  多#VA  。#PU
+            其茎#NN  叶#NN  中#LC  含有#NR  莴苣素#VV  ，#PU  故#AD  味微苦#VV  。#PU
+            生菜#NN  中#LC  含有#VV  甘露醇#NN  等#ETC  有效#JJ  成分#NN  。#PU
+            生菜#NN  中#LC  含有#NR  一#CD  种#M  ``#NN  干扰素#NN  诱#AD  生#VV  剂#NN  ''#NN  ，#PU  可#VV  刺激#VV  人体#NR  正常#JJ  细胞#NN  产生#VV  干扰素#NN  ，#PU  从而#AD  产生#VV  一#CD  种#M  ``#JJ  抗#NN  病毒#NN  蛋白#NN  ''#NN  抑制#VV  病毒#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 水分#NN, 生菜#NN)  (nn, 水分#NN, 富含#NN)  (nsubj, 食用#VV, 水分#NN)  (dep, 食用#VV, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 部分#NN)  (conj, 食用#VV, 含#VV)  (dobj, 含#VV, 水分#NN)  (advmod, 达#VV, 高#AD)  (dep, 食用#VV, 达#VV)  (nummod, %#NN, 94#CD)  (nn, %#NN, %#NN)  (nummod, %#NN, 一96#CD)  (dobj, 达#VV, %#NN)  (advmod, 生食#VV, 故#AD)  (dep, 食用#VV, 生食#VV)  (nn, 爽口#NN, 清脆#NN)  (dobj, 生食#VV, 爽口#NN)  (advmod, 鲜嫩#VV, 特别#AD)  (dep, 食用#VV, 鲜嫩#VV)
+            (loc, 多#VA, 生菜#NN)  (case, 生菜#NN, 中#LC)  (nn, 纤维#NN, 膳食#NN)  (conj, 菜#NN, 纤维#NN)  (cc, 菜#NN, 和#CC)  (nn, 菜#NN, 维生素C#NR)  (advmod, 白#JJ, 较#AD)  (amod, 菜#NN, 白#JJ)  (nsubj, 多#VA, 菜#NN)  (root, ROOT#null, 多#VA)
+            (nn, 叶#NN, 其茎#NN)  (loc, 莴苣素#VV, 叶#NN)  (case, 叶#NN, 中#LC)  (nsubj, 莴苣素#VV, 含有#NR)  (xsubj, 味微苦#VV, 含有#NR)  (root, ROOT#null, 莴苣素#VV)  (advmod, 味微苦#VV, 故#AD)  (ccomp, 莴苣素#VV, 味微苦#VV)
+            (loc, 含有#VV, 生菜#NN)  (case, 生菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nn, 成分#NN, 甘露醇#NN)  (etc, 甘露醇#NN, 等#ETC)  (amod, 成分#NN, 有效#JJ)  (dobj, 含有#VV, 成分#NN)
+            (loc, 生#VV, 生菜#NN)  (case, 生菜#NN, 中#LC)  (nn, 干扰素#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 干扰素#NN, 种#M)  (nn, 干扰素#NN, ``#NN)  (nsubj, 生#VV, 干扰素#NN)  (advmod, 生#VV, 诱#AD)  (root, ROOT#null, 生#VV)  (nn, ''#NN, 剂#NN)  (dobj, 生#VV, ''#NN)  (mmod, 刺激#VV, 可#VV)  (dep, 生#VV, 刺激#VV)  (nn, 细胞#NN, 人体#NR)  (amod, 细胞#NN, 正常#JJ)  (dobj, 刺激#VV, 细胞#NN)  (dep, 刺激#VV, 产生#VV)  (dobj, 产生#VV, 干扰素#NN)  (advmod, 产生#VV, 从而#AD)  (dep, 生#VV, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, ''#NN, 种#M)  (amod, 病毒#NN, ``#JJ)  (nn, 病毒#NN, 抗#NN)  (nn, ''#NN, 病毒#NN)  (nn, ''#NN, 蛋白#NN)  (dobj, 产生#VV, ''#NN)  (conj, 产生#VV, 抑制#VV)  (dobj, 抑制#VV, 病毒#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            因可能有农药化肥的残留，生吃前一定要洗净。
+            无论是炒还是煮生菜，时间都不要太长，这样可以保持生菜脆嫩的口感。
+            生菜用手撕成片，吃起来会比刀切的脆。
+        </rawdata>
+
+        <segment>
+            因  可能  有  农药  化肥  的  残留  ，  生吃  前  一定  要  洗净  。
+            无论是  炒  还是  煮  生菜  ，  时间  都  不要  太长  ，  这样  可以  保持  生菜  脆嫩  的  口感  。
+            生菜  用  手  撕  成片  ，  吃  起来  会  比  刀切  的  脆  。
+        </segment>
+
+        <pos>
+            因#P  可能#VV  有#VE  农药#NN  化肥#NN  的#DEG  残留#NN  ，#PU  生吃#NN  前#LC  一定#AD  要#VV  洗净#VV  。#PU
+            无论是#AD  炒#NN  还是#AD  煮#VV  生菜#NN  ，#PU  时间#NN  都#AD  不要#VV  太长#NN  ，#PU  这样#AD  可以#VV  保持#VV  生菜#NN  脆嫩#NN  的#DEG  口感#NN  。#PU
+            生菜#NR  用#P  手#NN  撕#NN  成片#AD  ，#PU  吃#VV  起来#VV  会#VV  比#P  刀切#NN  的#DEG  脆#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 可能#VV, 因#P)  (prep, 有#VE, 可能#VV)  (root, ROOT#null, 有#VE)  (nn, 化肥#NN, 农药#NN)  (assmod, 残留#NN, 化肥#NN)  (case, 化肥#NN, 的#DEG)  (dobj, 有#VE, 残留#NN)  (loc, 洗净#VV, 生吃#NN)  (case, 生吃#NN, 前#LC)  (advmod, 洗净#VV, 一定#AD)  (dep, 洗净#VV, 要#VV)  (dep, 有#VE, 洗净#VV)
+            (advmod, 煮#VV, 无论是#AD)  (nsubj, 煮#VV, 炒#NN)  (advmod, 煮#VV, 还是#AD)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 生菜#NN)  (nsubj, 不要#VV, 时间#NN)  (advmod, 不要#VV, 都#AD)  (conj, 煮#VV, 不要#VV)  (dobj, 不要#VV, 太长#NN)  (advmod, 保持#VV, 这样#AD)  (mmod, 保持#VV, 可以#VV)  (conj, 煮#VV, 保持#VV)  (nn, 脆嫩#NN, 生菜#NN)  (assmod, 口感#NN, 脆嫩#NN)  (case, 脆嫩#NN, 的#DEG)  (dobj, 保持#VV, 口感#NN)
+            (nn, 撕#NN, 生菜#NR)  (case, 手#NN, 用#P)  (prep, 撕#NN, 手#NN)  (nsubj, 吃#VV, 撕#NN)  (advmod, 吃#VV, 成片#AD)  (root, ROOT#null, 吃#VV)  (comod, 吃#VV, 起来#VV)  (rcomp, 吃#VV, 会#VV)  (case, 刀切#NN, 比#P)  (assmod, 脆#NN, 刀切#NN)  (case, 刀切#NN, 的#DEG)  (dobj, 吃#VV, 脆#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071027217531.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

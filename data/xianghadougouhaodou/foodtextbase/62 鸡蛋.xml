@@ -1,0 +1,434 @@
+<content>
+
+    <id>
+        62
+    </id>
+
+    <foodname>
+        鸡蛋
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        蛋类
+    </secondcategory>
+
+    <alias>
+        鸡子、鸡卵
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高热、腹泻、肝炎、肾炎、胆囊炎、冠心病患者忌食。
+        </rawdata>
+
+        <segment>
+            高热  、  腹泻  、  肝炎  、  肾炎  、  胆囊炎  、  冠心病  患者  忌食  。
+        </segment>
+
+        <pos>
+            高热#NN  、#PU  腹泻#NN  、#PU  肝炎#NN  、#PU  肾炎#NN  、#PU  胆囊炎#NN  、#PU  冠心病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 冠心病#NN, 高热#NN)  (conj, 冠心病#NN, 腹泻#NN)  (conj, 冠心病#NN, 肝炎#NN)  (conj, 冠心病#NN, 肾炎#NN)  (conj, 冠心病#NN, 胆囊炎#NN)  (nn, 患者#NN, 冠心病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜发育期婴幼儿。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  发育期  婴幼儿  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  发育期#NN  婴幼儿#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 婴幼儿#NN, 发育期#NN)  (dobj, 适宜#VV, 婴幼儿#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                144
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                13.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                8.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                585
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                234
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                泛酸（毫克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                生物素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素D（微克）
+            </elename>
+            <elevalue>
+                49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                154
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                131.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                14.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡蛋，又名鸡卵、鸡子，是母鸡所产的卵，其外有一层硬壳，内则有气室、卵白及卵黄部分，它富含各类营养，是人类常食用的食品之一。若鸡蛋有受精，约经过21天会孵出小鸡。鸡蛋主要可分为三部分：蛋壳、蛋白及蛋黄。
+            1.蛋壳：完整的蛋壳呈椭圆形，约占全蛋体积的11%~11.5%。蛋壳又可分为壳上膜、壳下皮、气室。壳上膜:即在蛋壳外面，一层不透明、无结构的膜；作用是避免蛋品水份蒸发。壳下皮:在蛋壳里面的薄膜，共二层；空气能自由通过此膜。气室:二层壳下皮之间的空隙；若蛋内水分遗失，气室会不断地增大。
+            2.蛋白:蛋白是壳下皮内半流动的胶状物质，体积约占全蛋的57%~－58.5％。蛋白中约含蛋白质12％，主要是卵白蛋白。蛋白中还含有一定量的核黄素、尼克酸、生物素和钙、磷、铁等物质。蛋白又分浓蛋白，稀蛋白。浓蛋白:靠近蛋黄的部分蛋白，浓度较高。稀蛋白:靠近蛋壳的部分蛋白，浓度较稀。
+            3.蛋黄:蛋黄多居于蛋白的中央，由系带悬于两极。蛋黄体积约全蛋的30％~32％，主要组成物质为卵黄磷蛋白，另外脂肪含量为28.2％，脂肪多属于磷脂类中一的卵磷脂。对人类的营养方面，蛋黄含有丰富的维生素A和维生素D，且含有较高的铁、磷、硫和钙等矿物质。蛋黄内有胚珠。胚珠：在蛋黄表面的一白点，受精蛋的胚珠直径约3毫米，未受精蛋的胚珠更小。鸡蛋匀称光滑的曲线是它难以竖立起来的原因，也是它的魅力所在。
+        </rawdata>
+
+        <segment>
+            鸡蛋  ，  又  名  鸡卵  、  鸡子  ，  是  母鸡  所  产  的  卵  ，  其外  有  一  层  硬壳  ，  内则  有  气室  、  卵白  及  卵黄  部分  ，  它  富含  各  类  营养  ，  是  人类  常食  用的  食品  之一  。  若  鸡蛋  有  受精  ，  约  经过  21  天  会  孵出  小鸡  。  鸡蛋  主要  可  分为  三  部分  ：  蛋壳  、  蛋白  及  蛋黄  。
+            蛋壳  ：  完整  的  蛋壳  呈  椭圆形  ，  约  占  全  蛋  体积  的  11%  ~11.5%  。  蛋壳  又  可  分为  壳  上  膜  、  壳  下皮  、  气室  。  壳  上  膜  :  即在  蛋壳  外面  ，  一  层  不透明  、  无  结构  的  膜  ；  作用  是  避免  蛋品  水份  蒸发  。  壳  下皮  :  在  蛋壳  里面  的  薄膜  ，  共  二  层  ；  空气  能  自由  通过  此  膜  。  气室  :  二  层  壳  下皮  之间  的  空隙  ；  若  蛋  内  水分  遗失  ，  气室  会  不断  地  增大  。
+            蛋白  :  蛋白  是  壳  下皮  内  半  流动  的  胶状  物质  ，  体积  约  占  全  蛋  的  57%  ~  －  58.5％  。  蛋白  中  约  含  蛋白质  12％  ，  主要  是  卵白蛋白  。  蛋白  中  还  含有  一定量  的  核黄素  、  尼克酸  、  生物  素  和  钙  、  磷  、  铁  等  物质  。  蛋白  又  分  浓  蛋白  ，  稀  蛋白  。  浓  蛋白  :  靠近  蛋黄  的  部分  蛋白  ，  浓度  较  高  。  稀  蛋白  :  靠近  蛋壳  的  部分  蛋白  ，  浓度  较  稀  。
+            蛋黄  :  蛋黄  多  居于  蛋白  的  中央  ，  由  系带  悬于  两  极  。  蛋黄  体积  约  全  蛋  的  30％  ~  32％  ，  主要  组成  物质  为  卵黄磷  蛋白  ，  另外  脂肪  含量  为  28.2％  ，  脂肪多  属于  磷脂  类  中  一  的  卵磷脂  。  对  人类  的  营养  方面  ，  蛋黄  含有  丰富  的  维生素A  和  维生素D  ，  且  含有  较  高  的  铁  、  磷  、  硫  和  钙  等  矿物质  。  蛋黄  内有  胚珠  。  胚珠  ：  在  蛋黄  表面  的  一  白点  ，  受精  蛋  的  胚珠  直径  约  3  毫米  ，  未  受精  蛋  的  胚珠  更小  。  鸡蛋  匀称  光滑  的  曲线  是  它  难以  竖立  起来  的  原因  ，  也是  它  的  魅力  所在  。
+        </segment>
+
+        <pos>
+            鸡蛋#NN  ，#PU  又#CC  名#JJ  鸡卵#NN  、#PU  鸡子#NN  ，#PU  是#VC  母鸡#AD  所#MSP  产#VV  的#DEC  卵#NN  ，#PU  其外#NR  有#VE  一#CD  层#M  硬壳#NN  ，#PU  内则#NR  有#VE  气室#NN  、#PU  卵白#NN  及#CC  卵黄#NN  部分#NN  ，#PU  它#PN  富含#AD  各#DT  类#M  营养#VA  ，#PU  是#VC  人类#NN  常食#NN  用的#NN  食品#NN  之一#NN    。#PU  若#CS  鸡蛋#NN  有#VE  受精#NN  ，#PU  约#AD  经过#P  21#CD  天#M  会#VV  孵出#VV  小鸡#NN    。#PU  鸡蛋#NN  主要#AD  可#VV  分为#VV  三#CD  部分#CD  ：#PU  蛋壳#CD  、#PU  蛋白#CD  及#CC  蛋黄#CD    。#PU    。#PU
+            蛋壳#VV  ：#PU  完整#VA  的#DEC  蛋壳#NN  呈#VV  椭圆形#NN  ，#PU  约#AD  占#VV  全#DT  蛋#NN  体积#NN  的#DEG  11#CD  %#NN  ~#VV  11.5#CD  %#NN    。#PU  蛋壳#NN  又#AD  可#VV  分为#VV  壳#NN  上#LC  膜#NN  、#PU  壳#NN  下皮#NN  、#PU  气室#NN    。#PU  壳#NN  上#LC  膜#AD  :#VV  即在#NN  蛋壳#NN  外面#NN  ，#PU  一#CD  层#M  不透明#VA  、#PU  无#VE  结构#NN  的#DEC  膜#NN  ；#PU  作用#NN  是#VC  避免#VV  蛋品#NN  水份#NN  蒸发#NN    。#PU  壳#NN  下皮#NN  :#VV  在#P  蛋壳#NN  里面#NN  的#DEG  薄膜#NN  ，#PU  共#AD  二#CD  层#M  ；#PU  空气#AD  能#VV  自由#AD  通过#P  此#PN  膜#VV    。#PU  气室#NN  :#VV  二#CD  层#M  壳#NN  下皮#NN  之间#LC  的#DEG  空隙#NN  ；#PU  若#CS  蛋#NN  内#LC  水分#AD  遗失#VV  ，#PU  气室#AD  会#VV  不断#VA  地#DEV  增大#VV    。#PU    。#PU
+            蛋白#NN  :#NN  蛋白#NN  是#VC  壳#NN  下皮#NN  内#LC  半#CD  流动#NN  的#DEG  胶状#NN  物质#NN  ，#PU  体积#NN  约#AD  占#VV  全#DT  蛋#NN  的#DEG  57#CD  %#VV  ~#CD  －#PU  58.5#CD  ％#NN    。#PU  蛋白#NN  中#LC  约#AD  含#VV  蛋白质#NR  12#CD  ％#NN  ，#PU  主要#AD  是#VC  卵白蛋白#NN    。#PU  蛋白#NN  中#LC  还#AD  含有#VV  一定量#CD  的#DEC  核黄素#NN  、#PU  尼克酸#NN  、#PU  生物#NN  素#AD  和#CC  钙#VV  、#PU  磷#NN  、#PU  铁#NN  等#ETC  物质#NN    。#PU  蛋白#NN  又#AD  分#VV  浓#NN  蛋白#NN  ，#PU  稀#VV  蛋白#NN    。#PU  浓#AD  蛋白#VV  :#NN  靠近#NN  蛋黄#NN  的#DEC  部分#NN  蛋白#VV  ，#PU  浓度#NN  较#AD  高#VA    。#PU  稀#AD  蛋白#VV  :#NN  靠近#NN  蛋壳#NN  的#DEC  部分#NN  蛋白#VV  ，#PU  浓度#NN  较#AD  稀#VA    。#PU    。#PU
+            蛋黄#NN  :#NN  蛋黄#NN  多#AD  居于#VV  蛋白#NN  的#DEG  中央#NN  ，#PU  由#P  系带#NN  悬于#VV  两#CD  极#NN    。#PU  蛋黄#NN  体积#NN  约#AD  全#DT  蛋#NN  的#DEG  30#CD  ％#NN  ~#NN  32#CD  ％#NN  ，#PU  主要#JJ  组成#NN  物质#NN  为#VC  卵黄磷#NN  蛋白#NN  ，#PU  另外#AD  脂肪#NN  含量#NN  为#VC  28.2#CD  ％#NN  ，#PU  脂肪多#AD  属于#VV  磷脂#CD  类#M  中#LC  一#CD  的#DEG  卵磷脂#NN    。#PU  对#P  人类#NN  的#DEG  营养#VA  方面#NN  ，#PU  蛋黄#AD  含有#VV  丰富#VA  的#DEC  维生素A#NN  和#CC  维生素D#NN  ，#PU  且#CC  含有#VV  较#AD  高#VA  的#DEC  铁#NN  、#PU  磷#NN  、#PU  硫#NN  和#CC  钙#NN  等#ETC  矿物质#NN    。#PU  蛋黄#NN  内有#NN  胚珠#NN    。#PU  胚珠#VV  ：#PU  在#P  蛋黄#AD  表面#VA  的#DEC  一#CD  白点#NN  ，#PU  受精#NN  蛋#NN  的#DEG  胚珠#NN  直径#NN  约#AD  3#CD  毫米#NN  ，#PU  未#AD  受精#NN  蛋#NN  的#DEG  胚珠#NN  更小#VV    。#PU  鸡蛋#NN  匀称#NN  光滑#NN  的#DEG  曲线#NN  是#VC  它#PN  难以#AD  竖立#VV  起来#VV  的#DEC  原因#NN  ，#PU  也是#CC  它#PN  的#DEG  魅力#NN  所在#VV    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 鸡子#NN, 鸡蛋#NN)  (cc, 鸡子#NN, 又#CC)  (amod, 鸡子#NN, 名#JJ)  (conj, 鸡子#NN, 鸡卵#NN)  (dep, 卵#NN, 鸡子#NN)  (cop, 卵#NN, 是#VC)  (advmod, 产#VV, 母鸡#AD)  (prtmod, 产#VV, 所#MSP)  (relcl, 卵#NN, 产#VV)  (mark, 产#VV, 的#DEC)  (root, ROOT#null, 卵#NN)  (dep, 有#VE, 其外#NR)  (conj, 卵#NN, 有#VE)  (nummod, 层#M, 一#CD)  (clf, 硬壳#NN, 层#M)  (dobj, 有#VE, 硬壳#NN)  (dep, 有#VE, 内则#NR)  (conj, 卵#NN, 有#VE)  (conj, 部分#NN, 气室#NN)  (conj, 部分#NN, 卵白#NN)  (cc, 部分#NN, 及#CC)  (nn, 部分#NN, 卵黄#NN)  (dobj, 有#VE, 部分#NN)  (nsubj, 营养#VA, 它#PN)  (advmod, 营养#VA, 富含#AD)  (dep, 营养#VA, 各#DT)  (clf, 各#DT, 类#M)  (conj, 卵#NN, 营养#VA)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 人类#NN)  (nn, 之一#NN, 常食#NN)  (nn, 之一#NN, 用的#NN)  (nn, 之一#NN, 食品#NN)  (dep, 营养#VA, 之一#NN)   (advmod, 有#VE, 若#CS)  (dep, 有#VE, 鸡蛋#NN)  (dep, 孵出#VV, 有#VE)  (dobj, 有#VE, 受精#NN)  (advmod, 孵出#VV, 约#AD)  (case, 天#M, 经过#P)  (nummod, 天#M, 21#CD)  (prep, 孵出#VV, 天#M)  (mmod, 孵出#VV, 会#VV)  (root, ROOT#null, 孵出#VV)  (dobj, 孵出#VV, 小鸡#NN)   (nsubj, 分为#VV, 鸡蛋#NN)  (advmod, 分为#VV, 主要#AD)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dep, 蛋黄#CD, 三#CD)  (nummod, 蛋壳#CD, 部分#CD)  (dep, 蛋黄#CD, 蛋壳#CD)  (dep, 蛋黄#CD, 蛋白#CD)  (cc, 蛋黄#CD, 及#CC)  (range, 分为#VV, 蛋黄#CD)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 蛋壳#VV)  (relcl, 蛋壳#NN, 完整#VA)  (mark, 完整#VA, 的#DEC)  (nsubj, 呈#VV, 蛋壳#NN)  (ccomp, 蛋壳#VV, 呈#VV)  (dobj, 呈#VV, 椭圆形#NN)  (advmod, 占#VV, 约#AD)  (conj, 呈#VV, 占#VV)  (det, 蛋#NN, 全#DT)  (nn, 体积#NN, 蛋#NN)  (assmod, 11#CD, 体积#NN)  (case, 体积#NN, 的#DEG)  (range, 占#VV, 11#CD)  (nsubj, ~#VV, %#NN)  (nummod, %#NN, 11.5#CD)  (dobj, ~#VV, %#NN)   (nsubj, 分为#VV, 蛋壳#NN)  (advmod, 分为#VV, 又#AD)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dep, 气室#NN, 壳#NN)  (case, 壳#NN, 上#LC)  (conj, 气室#NN, 膜#NN)  (nn, 气室#NN, 壳#NN)  (conj, 气室#NN, 下皮#NN)  (dobj, 分为#VV, 气室#NN)   (loc, :#VV, 壳#NN)  (case, 壳#NN, 上#LC)  (advmod, :#VV, 膜#AD)  (nn, 外面#NN, 即在#NN)  (nn, 外面#NN, 蛋壳#NN)  (dobj, :#VV, 外面#NN)  (nummod, 层#M, 一#CD)  (dep, 不透明#VA, 层#M)  (conj, :#VV, 不透明#VA)  (conj, :#VV, 无#VE)  (dobj, 无#VE, 结构#NN)  (mark, :#VV, 的#DEC)  (dep, 避免#VV, 膜#NN)  (nsubj, 避免#VV, 作用#NN)  (cop, 避免#VV, 是#VC)  (root, ROOT#null, 避免#VV)  (nn, 蒸发#NN, 蛋品#NN)  (nn, 蒸发#NN, 水份#NN)  (dobj, 避免#VV, 蒸发#NN)   (nn, 下皮#NN, 壳#NN)  (nsubj, :#VV, 下皮#NN)  (root, :#VV, 下皮#NN)  (case, 里面#NN, 在#P)  (nn, 里面#NN, 蛋壳#NN)  (assmod, 薄膜#NN, 里面#NN)  (case, 里面#NN, 的#DEG)  (dobj, 下皮#NN, 薄膜#NN)  (dobj, :#VV, 薄膜#NN)  (advmod, 层#M, 共#AD)  (nummod, 层#M, 二#CD)  (conj, 下皮#NN, 层#M)  (conj, :#VV, 层#M)  (advmod, 膜#VV, 空气#AD)  (mmod, 膜#VV, 能#VV)  (advmod, 膜#VV, 自由#AD)  (case, 此#PN, 通过#P)  (prep, 膜#VV, 此#PN)  (conj, 下皮#NN, 膜#VV)  (conj, :#VV, 膜#VV)   (nsubj, :#VV, 气室#NN)  (root, :#VV, 气室#NN)  (nummod, 层#M, 二#CD)  (clf, 下皮#NN, 层#M)  (nn, 下皮#NN, 壳#NN)  (assmod, 空隙#NN, 下皮#NN)  (case, 下皮#NN, 之间#LC)  (case, 下皮#NN, 的#DEG)  (dobj, 气室#NN, 空隙#NN)  (dobj, :#VV, 空隙#NN)  (advmod, 遗失#VV, 若#CS)  (loc, 遗失#VV, 蛋#NN)  (case, 蛋#NN, 内#LC)  (advmod, 遗失#VV, 水分#AD)  (dep, 增大#VV, 遗失#VV)  (advmod, 增大#VV, 气室#AD)  (mmod, 增大#VV, 会#VV)  (dvpmod, 增大#VV, 不断#VA)  (mark, 不断#VA, 地#DEV)  (conj, 气室#NN, 增大#VV)  (conj, :#VV, 增大#VV)   (root, ROOT#null, null#null)
+            (nn, 蛋白#NN, 蛋白#NN)  (nsubj, 物质#NN, 蛋白#NN)  (cop, 物质#NN, 是#VC)  (nn, 下皮#NN, 壳#NN)  (dep, 流动#NN, 下皮#NN)  (case, 下皮#NN, 内#LC)  (nummod, 流动#NN, 半#CD)  (assmod, 物质#NN, 流动#NN)  (case, 流动#NN, 的#DEG)  (nn, 物质#NN, 胶状#NN)  (conj, %#VV, 物质#NN)  (nsubj, 占#VV, 体积#NN)  (advmod, 占#VV, 约#AD)  (conj, 物质#NN, 占#VV)  (det, 蛋#NN, 全#DT)  (assmod, 57#CD, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (range, 占#VV, 57#CD)  (root, ROOT#null, %#VV)  (nummod, ％#NN, 58.5#CD)  (dobj, %#VV, ％#NN)   (loc, 含#VV, 蛋白#NN)  (case, 蛋白#NN, 中#LC)  (advmod, 含#VV, 约#AD)  (root, ROOT#null, 含#VV)  (nn, ％#NN, 蛋白质#NR)  (nummod, ％#NN, 12#CD)  (dobj, 含#VV, ％#NN)  (advmod, 卵白蛋白#NN, 主要#AD)  (cop, 卵白蛋白#NN, 是#VC)  (conj, 含#VV, 卵白蛋白#NN)   (loc, 含有#VV, 蛋白#NN)  (case, 蛋白#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (relcl, 生物#NN, 含有#VV)  (range, 含有#VV, 一定量#CD)  (mark, 含有#VV, 的#DEC)  (conj, 生物#NN, 核黄素#NN)  (conj, 生物#NN, 尼克酸#NN)  (nsubj, 钙#VV, 生物#NN)  (advmod, 钙#VV, 素#AD)  (cc, 钙#VV, 和#CC)  (root, ROOT#null, 钙#VV)  (conj, 铁#NN, 磷#NN)  (nn, 物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dep, 钙#VV, 物质#NN)   (nsubj, 分#VV, 蛋白#NN)  (advmod, 分#VV, 又#AD)  (root, ROOT#null, 分#VV)  (nn, 蛋白#NN, 浓#NN)  (dobj, 分#VV, 蛋白#NN)  (conj, 分#VV, 稀#VV)  (dobj, 稀#VV, 蛋白#NN)   (advmod, 蛋白#VV, 浓#AD)  (relcl, 部分#NN, 蛋白#VV)  (nn, 蛋黄#NN, 靠近#NN)  (dobj, 蛋白#VV, 蛋黄#NN)  (mark, 蛋白#VV, 的#DEC)  (nsubj, 蛋白#VV, 部分#NN)  (root, ROOT#null, 蛋白#VV)  (nsubj, 高#VA, 浓度#NN)  (advmod, 高#VA, 较#AD)  (ccomp, 蛋白#VV, 高#VA)   (advmod, 蛋白#VV, 稀#AD)  (relcl, 部分#NN, 蛋白#VV)  (nn, 蛋壳#NN, 靠近#NN)  (dobj, 蛋白#VV, 蛋壳#NN)  (mark, 蛋白#VV, 的#DEC)  (nsubj, 蛋白#VV, 部分#NN)  (root, ROOT#null, 蛋白#VV)  (nsubj, 稀#VA, 浓度#NN)  (advmod, 稀#VA, 较#AD)  (ccomp, 蛋白#VV, 稀#VA)   (root, ROOT#null, null#null)
+            (nn, 蛋黄#NN, 蛋黄#NN)  (nsubj, 居于#VV, 蛋黄#NN)  (advmod, 居于#VV, 多#AD)  (root, ROOT#null, 居于#VV)  (assmod, 中央#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 居于#VV, 中央#NN)  (case, 系带#NN, 由#P)  (prep, 悬于#VV, 系带#NN)  (conj, 居于#VV, 悬于#VV)  (nummod, 极#NN, 两#CD)  (dobj, 悬于#VV, 极#NN)   (nn, 体积#NN, 蛋黄#NN)  (nn, ％#NN, 体积#NN)  (advmod, 30#CD, 约#AD)  (det, 蛋#NN, 全#DT)  (assmod, 30#CD, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (nummod, ％#NN, 30#CD)  (nn, ~#NN, ％#NN)  (nummod, ％#NN, 32#CD)  (dep, 蛋白#NN, ％#NN)  (amod, 物质#NN, 主要#JJ)  (nn, 物质#NN, 组成#NN)  (nsubj, 蛋白#NN, 物质#NN)  (cop, 蛋白#NN, 为#VC)  (nn, 蛋白#NN, 卵黄磷#NN)  (root, ROOT#null, 蛋白#NN)  (advmod, ％#NN, 另外#AD)  (nn, 含量#NN, 脂肪#NN)  (nsubj, ％#NN, 含量#NN)  (cop, ％#NN, 为#VC)  (nummod, ％#NN, 28.2#CD)  (conj, 蛋白#NN, ％#NN)  (advmod, 属于#VV, 脂肪多#AD)  (conj, ％#NN, 属于#VV)  (nummod, 类#M, 磷脂#CD)  (dep, 卵磷脂#NN, 类#M)  (case, 类#M, 中#LC)  (assmod, 卵磷脂#NN, 一#CD)  (case, 一#CD, 的#DEG)  (dobj, 属于#VV, 卵磷脂#NN)   (case, 方面#NN, 对#P)  (assmod, 方面#NN, 人类#NN)  (case, 人类#NN, 的#DEG)  (nfincl, 方面#NN, 营养#VA)  (prep, 含有#VV, 方面#NN)  (advmod, 含有#VV, 蛋黄#AD)  (root, ROOT#null, 含有#VV)  (relcl, 维生素D#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素D#NN, 维生素A#NN)  (cc, 维生素D#NN, 和#CC)  (dobj, 含有#VV, 维生素D#NN)  (cc, 含有#VV, 且#CC)  (dep, 含有#VV, 含有#VV)  (advmod, 高#VA, 较#AD)  (relcl, 矿物质#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (conj, 钙#NN, 铁#NN)  (conj, 钙#NN, 磷#NN)  (conj, 钙#NN, 硫#NN)  (cc, 钙#NN, 和#CC)  (nn, 矿物质#NN, 钙#NN)  (etc, 钙#NN, 等#ETC)  (dobj, 含有#VV, 矿物质#NN)   (nn, 胚珠#NN, 蛋黄#NN)  (nn, 胚珠#NN, 内有#NN)  (root, ROOT#null, 胚珠#NN)   (root, ROOT#null, 胚珠#VV)  (case, 白点#NN, 在#P)  (advmod, 表面#VA, 蛋黄#AD)  (relcl, 白点#NN, 表面#VA)  (mark, 表面#VA, 的#DEC)  (nummod, 白点#NN, 一#CD)  (prep, 更小#VV, 白点#NN)  (nn, 蛋#NN, 受精#NN)  (assmod, 直径#NN, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (nn, 直径#NN, 胚珠#NN)  (nsubj, 更小#VV, 直径#NN)  (advmod, 3#CD, 约#AD)  (nummod, 毫米#NN, 3#CD)  (nsubj, 更小#VV, 毫米#NN)  (advmod, 更小#VV, 未#AD)  (nn, 蛋#NN, 受精#NN)  (assmod, 胚珠#NN, 蛋#NN)  (case, 蛋#NN, 的#DEG)  (prep, 更小#VV, 胚珠#NN)  (ccomp, 胚珠#VV, 更小#VV)   (nn, 光滑#NN, 鸡蛋#NN)  (nn, 光滑#NN, 匀称#NN)  (assmod, 曲线#NN, 光滑#NN)  (case, 光滑#NN, 的#DEG)  (nsubj, 原因#NN, 曲线#NN)  (cop, 原因#NN, 是#VC)  (nsubj, 竖立#VV, 它#PN)  (advmod, 竖立#VV, 难以#AD)  (relcl, 原因#NN, 竖立#VV)  (comod, 竖立#VV, 起来#VV)  (mark, 竖立#VV, 的#DEC)  (root, ROOT#null, 原因#NN)  (cc, 原因#NN, 也是#CC)  (assmod, 魅力#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 所在#VV, 魅力#NN)  (conj, 原因#NN, 所在#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸡蛋味甘；性平。归肺；脾；胃经。滋阴润燥；养血发胎。主热病烦闷；燥咳声哑；目赤咽痛；胎动不安；产后口渴；下痢；疟疾；烫伤；皮炎；虚人赢弱。
+            1.健脑益智
+            鸡蛋对神经系统和身体发育有很大的作用，其中含的胆碱可改善各个年龄组的记忆力。
+            2.保护肝脏
+            鸡蛋中的蛋白质对肝脏组织损伤有修复作用，蛋黄中的卵磷脂可促进肝细胞的再生。还可提高人体血浆蛋白量，增强肌体的代谢功能和免疫功能。
+            3.防治动脉硬化
+            美国营养学家和医学工作者用鸡蛋来防治动脉粥样硬化，获得了出人意料惊人效果，他们从鸡蛋、核桃、猪肝中提取卵磷脂，每天给患心血管病人吃4～6汤匙。3个月后，患者的血清胆固醇显著下降，获得满意效果。
+            4.预防癌症
+            根据对全世界人类癌症死亡率进行的分析，人们发现癌症的死亡率与硒的摄入量成反比。而鸡蛋中含有丰富的硒元素。
+            5.延缓衰老
+            不少长寿老人的延年益寿经验之一，就是每天必食一个鸡蛋。
+            6.美容护肤
+            鸡蛋中还含有较丰富的铁，铁元素在人体起造血和在血中运输氧和营养物质的作用。人的颜面泛出红润之美，离不开铁元素。如果铁质不足可导致缺铁性贫血，使人的脸色萎黄，皮肤也失去了美的光泽。由此可见，鸡蛋确是维护皮肤美的重要食品之一。
+        </rawdata>
+
+        <segment>
+            鸡蛋  味  甘  ；  性平  。  归肺  ；  脾  ；  胃经  。  滋阴  润燥  ；  养  血  发  胎  。  主  热病  烦闷  ；  燥咳声  哑  ；  目赤  咽痛  ；  胎动  不安  ；  产后  口渴  ；  下痢  ；  疟疾  ；  烫伤  ；  皮炎  ；  虚  人  赢弱  。
+            健脑  益智
+            鸡蛋  对  神经  系统  和  身体  发育  有  很  大  的  作用  ，  其中  含  的  胆碱  可  改善  各  个  年龄组  的  记忆力  。
+            保护  肝脏
+            鸡蛋  中  的  蛋白质  对  肝脏  组织  损伤  有  修复  作用  ，  蛋黄  中  的  卵磷脂  可  促进  肝细胞  的  再生  。  还可  提高  人体  血浆  蛋白  量  ，  增强  肌体  的  代谢  功能  和  免疫  功能  。
+            防治  动脉  硬化
+            美国  营养  学家  和  医学  工作者  用  鸡蛋  来  防治  动脉  粥样  硬化  ，  获得  了  出人意料  惊人  效果  ，  他们  从  鸡蛋  、  核桃  、  猪肝  中  提取  卵磷脂  ，  每  天  给  患  心血管  病人  吃  4  ～  6  汤匙  。  3  个  月  后  ，  患者  的  血清  胆固醇  显著  下降  ，  获得  满意  效果  。
+            预防  癌症
+            根据  对  全  世界  人类  癌症  死亡率  进行  的  分析  ，  人们  发现  癌症  的  死亡率  与  硒的  摄入量  成  反比  。  而  鸡蛋  中  含有  丰富  的  硒元素  。
+            延缓  衰老
+            不少  长寿  老人  的  延年益寿  经验  之一  ，  就是  每天  必  食  一  个  鸡蛋  。
+            美容  护肤
+            鸡蛋  中  还  含有  较  丰富  的  铁  ，  铁  元素  在  人体  起  造血  和  在  血中  运  输氧  和  营养物  质的  作用  。  人  的  颜面  泛出  红润  之  美  ，  离  不  开  铁  元素  。  如果  铁质  不  足  可  导致  缺铁性  贫血  ，  使  人  的  脸色  萎黄  ，  皮肤  也  失去  了  美的  光泽  。  由此可见  ，  鸡蛋  确  是  维护  皮肤  美  的  重要  食品  之一  。
+        </segment>
+
+        <pos>
+            鸡蛋#NN  味#VV  甘#NR  ；#PU  性平#VV    。#PU  归肺#NN  ；#PU  脾#VV  ；#PU  胃经#NN    。#PU  滋阴#NR  润燥#VV  ；#PU  养#VV  血#NN  发#VV  胎#NN    。#PU  主#JJ  热病#NN  烦闷#VV  ；#PU  燥咳声#VV  哑#NN  ；#PU  目赤#VV  咽痛#NN  ；#PU  胎动#AD  不安#VA  ；#PU  产后#VV  口渴#NN  ；#PU  下痢#VV  ；#PU  疟疾#NN  ；#PU  烫伤#VV  ；#PU  皮炎#VV  ；#PU  虚#AD  人#NN  赢弱#VV    。#PU    。#PU
+            健脑#NN  益智#VV
+            鸡蛋#NN  对#P  神经#NN  系统#NN  和#CC  身体#NN  发育#NN  有#VE  很#AD  大#VA  的#DEC  作用#NN  ，#PU  其中#NN  含#VV  的#DEC  胆碱#NN  可#VV  改善#VV  各#DT  个#M  年龄组#NN  的#DEG  记忆力#NN  。#PU
+            保护#VV  肝脏#NN
+            鸡蛋#NN  中#LC  的#DEG  蛋白质#NN  对#P  肝脏#NN  组织#NN  损伤#AD  有#VE  修复#NN  作用#NN  ，#PU  蛋黄#NN  中#LC  的#DEG  卵磷脂#NN  可#VV  促进#VV  肝细胞#NN  的#DEC  再生#VV    。#PU  还可#AD  提高#VV  人体#NN  血浆#NN  蛋白#NN  量#NN  ，#PU  增强#VV  肌体#NN  的#DEG  代谢#NN  功能#NN  和#CC  免疫#NN  功能#NN    。#PU    。#PU
+            防治#NN  动脉#NN  硬化#NN
+            美国#NR  营养#VA  学家#NN  和#CC  医学#NN  工作者#NN  用#VV  鸡蛋#NN  来#MSP  防治#VV  动脉#NN  粥样#NN  硬化#NN  ，#PU  获得#VV  了#AS  出人意料#VV  惊人#JJ  效果#NN  ，#PU  他们#PN  从#P  鸡蛋#NN  、#PU  核桃#NN  、#PU  猪肝#NN  中#LC  提取#VV  卵磷脂#NN  ，#PU  每#DT  天#M  给#P  患#NN  心血管#NN  病人#NN  吃#VV  4#CD  ～#NN  6#CD  汤匙#NN    。#PU  3#CD  个#M  月#NN  后#LC  ，#PU  患者#NN  的#DEG  血清#NN  胆固醇#NN  显著#AD  下降#VV  ，#PU  获得#VV  满意#NN  效果#NN    。#PU    。#PU
+            预防#VV  癌症#NN
+            根据#P  对#P  全#DT  世界#NN  人类#NN  癌症#NN  死亡率#NN  进行#VV  的#DEC  分析#NN  ，#PU  人们#NN  发现#VV  癌症#NN  的#DEC  死亡率#NN  与#P  硒的#NN  摄入量#NN  成#VV  反比#NN    。#PU  而#AD  鸡蛋#NN  中#LC  含有#AD  丰富#VA  的#DEC  硒元素#NN    。#PU    。#PU
+            延缓#NN  衰老#VV
+            不少#CD  长寿#NR  老人#NN  的#DEG  延年益寿#NN  经验#NN  之一#NN  ，#PU  就是#AD  每天#AD  必#VV  食#NN  一#CD  个#M  鸡蛋#NN  。#PU
+            美容#NN  护肤#VV
+            鸡蛋#NN  中#LC  还#AD  含有#VV  较#AD  丰富#VA  的#DEC  铁#NN  ，#PU  铁#JJ  元素#NN  在#P  人体#NT  起#LC  造血#VV  和#CC  在#P  血中#NR  运#VV  输氧#NN  和#CC  营养物#NN  质的#JJ  作用#NN    。#PU  人#NN  的#DEG  颜面#NN  泛出#NN  红润#NN  之#DEG  美#NR  ，#PU  离#VV  不#AD  开#VV  铁#JJ  元素#NN    。#PU  如果#CS  铁质#AD  不#AD  足#VA  可#VV  导致#VV  缺铁性#VV  贫血#NN  ，#PU  使#VV  人#NN  的#DEG  脸色#NN  萎黄#NN  ，#PU  皮肤#AD  也#AD  失去#VV  了#AS  美的#NN  光泽#NN    。#PU  由此可见#VV  ，#PU  鸡蛋#NN  确#AD  是#VC  维护#VV  皮肤#NR  美#NR  的#DEC  重要#JJ  食品#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 鸡蛋#NN)  (root, ROOT#null, 味#VV)  (dobj, 味#VV, 甘#NR)  (conj, 味#VV, 性平#VV)   (nsubj, 脾#VV, 归肺#NN)  (root, ROOT#null, 脾#VV)  (dobj, 脾#VV, 胃经#NN)   (nsubj, 润燥#VV, 滋阴#NR)  (root, ROOT#null, 润燥#VV)  (conj, 发#VV, 养#VV)  (dobj, 养#VV, 血#NN)  (ccomp, 润燥#VV, 发#VV)  (dobj, 发#VV, 胎#NN)   (amod, 热病#NN, 主#JJ)  (nsubj, 烦闷#VV, 热病#NN)  (root, ROOT#null, 烦闷#VV)  (ccomp, 烦闷#VV, 燥咳声#VV)  (dobj, 燥咳声#VV, 哑#NN)  (dep, 燥咳声#VV, 目赤#VV)  (dobj, 目赤#VV, 咽痛#NN)  (advmod, 不安#VA, 胎动#AD)  (dep, 燥咳声#VV, 不安#VA)  (dep, 燥咳声#VV, 产后#VV)  (dobj, 产后#VV, 口渴#NN)  (dep, 燥咳声#VV, 下痢#VV)  (dep, 燥咳声#VV, 疟疾#NN)  (dep, 燥咳声#VV, 烫伤#VV)  (dep, 燥咳声#VV, 皮炎#VV)  (advmod, 赢弱#VV, 虚#AD)  (prep, 赢弱#VV, 人#NN)  (dep, 燥咳声#VV, 赢弱#VV)   (root, ROOT#null, null#null)
+            (nsubj, 益智#VV, 健脑#NN)  (root, ROOT#null, 益智#VV)
+            (nsubj, 有#VE, 鸡蛋#NN)  (case, 发育#NN, 对#P)  (nn, 发育#NN, 神经#NN)  (conj, 发育#NN, 系统#NN)  (cc, 发育#NN, 和#CC)  (nn, 发育#NN, 身体#NN)  (prep, 有#VE, 发育#NN)  (root, ROOT#null, 有#VE)  (advmod, 大#VA, 很#AD)  (relcl, 作用#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)  (nsubj, 含#VV, 其中#NN)  (relcl, 胆碱#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 改善#VV, 胆碱#NN)  (mmod, 改善#VV, 可#VV)  (conj, 有#VE, 改善#VV)  (det, 年龄组#NN, 各#DT)  (clf, 各#DT, 个#M)  (assmod, 记忆力#NN, 年龄组#NN)  (case, 年龄组#NN, 的#DEG)  (dobj, 改善#VV, 记忆力#NN)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)
+            (assmod, 蛋白质#NN, 鸡蛋#NN)  (case, 鸡蛋#NN, 中#LC)  (case, 鸡蛋#NN, 的#DEG)  (nsubj, 有#VE, 蛋白质#NN)  (case, 组织#NN, 对#P)  (nn, 组织#NN, 肝脏#NN)  (prep, 有#VE, 组织#NN)  (advmod, 有#VE, 损伤#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 修复#NN)  (dobj, 有#VE, 作用#NN)  (assmod, 卵磷脂#NN, 蛋黄#NN)  (case, 蛋黄#NN, 中#LC)  (case, 蛋黄#NN, 的#DEG)  (nsubj, 促进#VV, 卵磷脂#NN)  (mmod, 促进#VV, 可#VV)  (nsubj, 再生#VV, 促进#VV)  (dobj, 促进#VV, 肝细胞#NN)  (mark, 促进#VV, 的#DEC)  (conj, 有#VE, 再生#VV)   (advmod, 提高#VV, 还可#AD)  (root, ROOT#null, 提高#VV)  (nn, 量#NN, 人体#NN)  (nn, 量#NN, 血浆#NN)  (nn, 量#NN, 蛋白#NN)  (dobj, 提高#VV, 量#NN)  (dep, 提高#VV, 增强#VV)  (assmod, 功能#NN, 肌体#NN)  (case, 肌体#NN, 的#DEG)  (nn, 功能#NN, 代谢#NN)  (conj, 功能#NN, 功能#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)   (root, ROOT#null, null#null)
+            (nn, 硬化#NN, 防治#NN)  (nn, 硬化#NN, 动脉#NN)  (root, ROOT#null, 硬化#NN)
+            (nn, 学家#NN, 美国#NR)  (nfincl, 学家#NN, 营养#VA)  (conj, 工作者#NN, 学家#NN)  (cc, 工作者#NN, 和#CC)  (nn, 工作者#NN, 医学#NN)  (nsubj, 用#VV, 工作者#NN)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 鸡蛋#NN)  (prtmod, 防治#VV, 来#MSP)  (conj, 用#VV, 防治#VV)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (dobj, 防治#VV, 硬化#NN)  (dep, 用#VV, 获得#VV)  (asp, 获得#VV, 了#AS)  (dep, 获得#VV, 出人意料#VV)  (amod, 效果#NN, 惊人#JJ)  (dobj, 出人意料#VV, 效果#NN)  (nsubj, 提取#VV, 他们#PN)  (case, 猪肝#NN, 从#P)  (conj, 猪肝#NN, 鸡蛋#NN)  (conj, 猪肝#NN, 核桃#NN)  (prep, 提取#VV, 猪肝#NN)  (case, 猪肝#NN, 中#LC)  (conj, 用#VV, 提取#VV)  (dobj, 提取#VV, 卵磷脂#NN)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (case, 病人#NN, 给#P)  (nn, 病人#NN, 患#NN)  (nn, 病人#NN, 心血管#NN)  (prep, 吃#VV, 病人#NN)  (conj, 用#VV, 吃#VV)  (nummod, ～#NN, 4#CD)  (nummod, 汤匙#NN, 6#CD)  (dobj, 吃#VV, 汤匙#NN)   (nummod, 个#M, 3#CD)  (clf, 月#NN, 个#M)  (loc, 下降#VV, 月#NN)  (case, 月#NN, 后#LC)  (assmod, 血清#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nsubj, 下降#VV, 血清#NN)  (nsubj, 下降#VV, 胆固醇#NN)  (advmod, 下降#VV, 显著#AD)  (root, ROOT#null, 下降#VV)  (dep, 下降#VV, 获得#VV)  (nn, 效果#NN, 满意#NN)  (dobj, 获得#VV, 效果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (case, 分析#NN, 根据#P)  (case, 死亡率#NN, 对#P)  (det, 世界#NN, 全#DT)  (nn, 死亡率#NN, 世界#NN)  (nn, 死亡率#NN, 人类#NN)  (nn, 死亡率#NN, 癌症#NN)  (prep, 进行#VV, 死亡率#NN)  (relcl, 分析#NN, 进行#VV)  (mark, 进行#VV, 的#DEC)  (prep, 成#VV, 分析#NN)  (nsubj, 成#VV, 人们#NN)  (relcl, 死亡率#NN, 发现#VV)  (dobj, 发现#VV, 癌症#NN)  (mark, 发现#VV, 的#DEC)  (nsubj, 成#VV, 死亡率#NN)  (case, 摄入量#NN, 与#P)  (nn, 摄入量#NN, 硒的#NN)  (prep, 成#VV, 摄入量#NN)  (root, ROOT#null, 成#VV)  (dobj, 成#VV, 反比#NN)   (advmod, 丰富#VA, 而#AD)  (loc, 丰富#VA, 鸡蛋#NN)  (case, 鸡蛋#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 硒元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (root, ROOT#null, 硒元素#NN)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 延缓#NN)  (root, ROOT#null, 衰老#VV)
+            (nummod, 老人#NN, 不少#CD)  (nn, 老人#NN, 长寿#NR)  (assmod, 之一#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (nn, 之一#NN, 延年益寿#NN)  (nn, 之一#NN, 经验#NN)  (nsubj, 必#VV, 之一#NN)  (advmod, 必#VV, 就是#AD)  (advmod, 必#VV, 每天#AD)  (root, ROOT#null, 必#VV)  (nn, 鸡蛋#NN, 食#NN)  (nummod, 个#M, 一#CD)  (clf, 鸡蛋#NN, 个#M)  (dobj, 必#VV, 鸡蛋#NN)
+            (nsubj, 护肤#VV, 美容#NN)  (root, ROOT#null, 护肤#VV)
+            (loc, 含有#VV, 鸡蛋#NN)  (case, 鸡蛋#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (advmod, 丰富#VA, 较#AD)  (relcl, 铁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 铁#NN)  (amod, 元素#NN, 铁#JJ)  (nsubj, 造血#VV, 元素#NN)  (case, 人体#NT, 在#P)  (prep, 造血#VV, 人体#NT)  (case, 人体#NT, 起#LC)  (conj, 含有#VV, 造血#VV)  (cc, 造血#VV, 和#CC)  (case, 血中#NR, 在#P)  (prep, 运#VV, 血中#NR)  (dep, 造血#VV, 运#VV)  (conj, 营养物#NN, 输氧#NN)  (cc, 营养物#NN, 和#CC)  (nn, 作用#NN, 营养物#NN)  (amod, 作用#NN, 质的#JJ)  (dobj, 运#VV, 作用#NN)   (assmod, 颜面#NN, 人#NN)  (case, 人#NN, 的#DEG)  (nsubj, 离#VV, 颜面#NN)  (nn, 红润#NN, 泛出#NN)  (assmod, 美#NR, 红润#NN)  (case, 红润#NN, 之#DEG)  (nsubj, 离#VV, 美#NR)  (root, ROOT#null, 离#VV)  (dep, 离#VV, 不#AD)  (dep, 离#VV, 开#VV)  (amod, 元素#NN, 铁#JJ)  (dobj, 离#VV, 元素#NN)   (advmod, 足#VA, 如果#CS)  (advmod, 足#VA, 铁质#AD)  (neg, 足#VA, 不#AD)  (nsubj, 导致#VV, 足#VA)  (xsubj, 缺铁性#VV, 足#VA)  (mmod, 导致#VV, 可#VV)  (root, ROOT#null, 导致#VV)  (ccomp, 导致#VV, 缺铁性#VV)  (dobj, 缺铁性#VV, 贫血#NN)  (conj, 缺铁性#VV, 使#VV)  (assmod, 萎黄#NN, 人#NN)  (case, 人#NN, 的#DEG)  (nn, 萎黄#NN, 脸色#NN)  (dobj, 使#VV, 萎黄#NN)  (advmod, 失去#VV, 皮肤#AD)  (advmod, 失去#VV, 也#AD)  (dep, 使#VV, 失去#VV)  (asp, 失去#VV, 了#AS)  (nn, 光泽#NN, 美的#NN)  (dobj, 失去#VV, 光泽#NN)   (root, ROOT#null, 由此可见#VV)  (nsubj, 之一#NN, 鸡蛋#NN)  (advmod, 之一#NN, 确#AD)  (cop, 之一#NN, 是#VC)  (relcl, 之一#NN, 维护#VV)  (nn, 美#NR, 皮肤#NR)  (dobj, 维护#VV, 美#NR)  (mark, 维护#VV, 的#DEC)  (amod, 之一#NN, 重要#JJ)  (nn, 之一#NN, 食品#NN)  (ccomp, 由此可见#VV, 之一#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  延缓衰老  护肝  抗癌防癌  润燥  补阴  养血安胎  辅助降血压  抗动脉粥样硬化  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鸡蛋几乎含有人体必需的所有营养物质，如蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾，被人们称作“理想的营养库”。
+            2.鸡蛋中含有的营养素对人而言，仅次于母乳。一个鸡蛋所含的热量，相当于半个苹果或半杯牛奶的热量，但是它还拥有8%的磷、4%的锌、4%的铁、12.6%的蛋白质、6%的维生素D、3%的维生素E、6%的维生素A、2%的维生素B、5%的维生素B2、4%的维生素B6。
+        </rawdata>
+
+        <segment>
+            鸡蛋  几乎  含有  人体  必需  的  所有  营养  物质  ，  如  蛋白质  、  脂肪  、  卵  黄素  、  卵磷脂  、  维生素  和  铁  、  钙  、  钾  ，  被  人们  称作  “  理想  的  营养  库  ”  。
+            鸡蛋  中  含有  的  营养素  对人  而言  ，  仅  次于  母乳  。  一  个  鸡蛋  所  含  的  热量  ，  相当于  半  个  苹果  或  半  杯  牛奶  的  热量  ，  但是  它  还  拥有  8%  的  磷  、  4%  的  锌  、  4%  的  铁  、  12.6%  的  蛋白质  、  6%  的  维生素D  、  3%  的  维生素E  、  6%  的  维生素A  、  2%  的  维生素B  、  5%  的  维生素  B  4%  的  维生素B6  。
+        </segment>
+
+        <pos>
+            鸡蛋#NN  几乎#AD  含有#VV  人体#AD  必需#VV  的#DEC  所有#DT  营养#VA  物质#NN  ，#PU  如#AD  蛋白质#NN  、#PU  脂肪#NN  、#PU  卵#NN  黄素#NN  、#PU  卵磷脂#NN  、#PU  维生素#NN  和#CC  铁#NN  、#PU  钙#NN  、#PU  钾#NN  ，#PU  被#LB  人们#NN  称作#VV  ``#AD  理想#VA  的#DEC  营养#VA  库#NN  ''#NN  。#PU
+            鸡蛋#NN  中#LC  含有#NN  的#DEG  营养素#NN  对人#NN  而言#VV  ，#PU  仅#AD  次于#VV  母乳#NN    。#PU  一#CD  个#M  鸡蛋#NN  所#MSP  含#VV  的#DEC  热量#VV  ，#PU  相当于#VV  半#CD  个#M  苹果#NN  或#CC  半#CD  杯#NN  牛奶#NN  的#DEG  热量#NN  ，#PU  但是#AD  它#PN  还#AD  拥有#VV  8#CD  %#NN  的#DEC  磷#NN  、#PU  4#CD  %#NN  的#DEG  锌#NN  、#PU  4#CD  %#NN  的#DEG  铁#NN  、#PU  12.6#CD  %#NN  的#DEG  蛋白质#NN  、#PU  6#CD  %#NN  的#DEG  维生素D#NN  、#PU  3#CD  %#NN  的#DEG  维生素E#NN  、#PU  6#CD  %#NN  的#DEG  维生素A#NN  、#PU  2#CD  %#NN  的#DEG  维生素B#NN  、#PU  5#CD  %#NN  的#DEG  维生素#NN  B#VV  4#CD  %#NN  的#DEG  维生素B6#CD    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 鸡蛋#NN)  (advmod, 含有#VV, 几乎#AD)  (root, ROOT#null, 含有#VV)  (advmod, 必需#VV, 人体#AD)  (relcl, 物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (det, 物质#NN, 所有#DT)  (relcl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)  (advmod, 钾#NN, 如#AD)  (conj, 钾#NN, 蛋白质#NN)  (conj, 钾#NN, 脂肪#NN)  (nn, 钾#NN, 卵#NN)  (conj, 钾#NN, 黄素#NN)  (conj, 钾#NN, 卵磷脂#NN)  (conj, 钾#NN, 维生素#NN)  (cc, 钾#NN, 和#CC)  (conj, 钾#NN, 铁#NN)  (conj, 钾#NN, 钙#NN)  (dep, 称作#VV, 钾#NN)  (auxpass, 称作#VV, 被#LB)  (nsubj, 称作#VV, 人们#NN)  (conj, 含有#VV, 称作#VV)  (advmod, 理想#VA, ``#AD)  (relcl, ''#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nfincl, ''#NN, 营养#VA)  (nn, ''#NN, 库#NN)  (dobj, 称作#VV, ''#NN)
+            (dep, 含有#NN, 鸡蛋#NN)  (case, 鸡蛋#NN, 中#LC)  (assmod, 对人#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 对人#NN, 营养素#NN)  (nsubj, 而言#VV, 对人#NN)  (xsubj, 次于#VV, 对人#NN)  (root, ROOT#null, 而言#VV)  (advmod, 次于#VV, 仅#AD)  (ccomp, 而言#VV, 次于#VV)  (dobj, 次于#VV, 母乳#NN)   (nummod, 个#M, 一#CD)  (clf, 鸡蛋#NN, 个#M)  (nsubj, 含#VV, 鸡蛋#NN)  (prtmod, 含#VV, 所#MSP)  (relcl, 磷#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (relcl, 磷#NN, 热量#VV)  (dep, 拥有#VV, 相当于#VV)  (nummod, 个#M, 半#CD)  (clf, 苹果#NN, 个#M)  (conj, 牛奶#NN, 苹果#NN)  (cc, 牛奶#NN, 或#CC)  (nummod, 牛奶#NN, 半#CD)  (nn, 牛奶#NN, 杯#NN)  (assmod, 热量#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (dobj, 相当于#VV, 热量#NN)  (advmod, 拥有#VV, 但是#AD)  (nsubj, 拥有#VV, 它#PN)  (advmod, 拥有#VV, 还#AD)  (ccomp, 热量#VV, 拥有#VV)  (nummod, %#NN, 8#CD)  (dobj, 拥有#VV, %#NN)  (mark, 热量#VV, 的#DEC)  (conj, %#NN, 磷#NN)  (nummod, %#NN, 4#CD)  (assmod, 锌#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 锌#NN)  (nummod, %#NN, 4#CD)  (assmod, 铁#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 铁#NN)  (nummod, %#NN, 12.6#CD)  (assmod, 蛋白质#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 蛋白质#NN)  (nummod, %#NN, 6#CD)  (assmod, 维生素D#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 维生素D#NN)  (nummod, %#NN, 3#CD)  (assmod, 维生素E#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 维生素E#NN)  (nummod, %#NN, 6#CD)  (assmod, 维生素A#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 维生素A#NN)  (nummod, %#NN, 2#CD)  (assmod, 维生素B#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 维生素B#NN)  (nummod, %#NN, 5#CD)  (assmod, 维生素#NN, %#NN)  (case, %#NN, 的#DEG)  (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (nummod, %#NN, 4#CD)  (assmod, 维生素B6#CD, %#NN)  (case, %#NN, 的#DEG)  (range, B#VV, 维生素B6#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.鸡蛋吃法多种多样，就营养的吸收和消化率来讲，煮蛋为100%，炒蛋为97%，嫩炸为98%，老炸为81.1%，开水、牛奶冲蛋为92.5%，生吃为30%～50%。由此来说，煮鸡蛋是最佳的吃法，但要注意细嚼慢咽，否则会影响吸收和消化。不过，对儿童来说，还是蒸蛋羹、蛋花汤最适合，因为这两种做法能使蛋白质松解，极易被儿童消化吸收。
+            2.做炒鸡蛋时，将鸡蛋顺一个方向搅打，并加入少量水，可使鸡蛋更加鲜嫩。
+            3.鸡蛋在形成过程中会带菌，未煮熟的鸡蛋不能将细菌杀死，容易引起腹泻。因此鸡蛋要经高温煮熟后再吃。但是也不要煮的过老，鸡蛋煮的时间过长，蛋黄表面会形成灰绿色硫化亚铁层，很难被人体吸收。
+            4.茶叶蛋应少吃，因为茶叶中含酸化物质，与鸡蛋中的铁元素结合，会对胃起刺激作用，影响胃肠的消化功能。
+        </rawdata>
+
+        <segment>
+            鸡蛋  吃法  多  种  多样  ，  就  营养  的  吸收  和  消化率  来讲  ，  煮蛋  为  100%  ，  炒蛋  为  97%  ，  嫩炸  为  98%  ，  老  炸  为  81.1%  ，  开水  、  牛奶  冲  蛋  为  92.5%  ，  生吃  为  30%  ～  50%  。  由此  来说  ，  煮鸡蛋  是  最  佳  的  吃法  ，  但  要  注意  细嚼慢咽  ，  否则  会  影响  吸收  和  消化  。  不过  ，  对  儿童  来说  ，  还是  蒸  蛋羹  、  蛋花汤  最  适合  ，  因为  这  两  种  做法  能使  蛋白质  松解  ，  极  易  被  儿童  消化  吸收  。
+            做  炒  鸡蛋  时  ，  将  鸡蛋  顺  一  个  方向  搅打  ，  并  加入  少量  水  ，  可使  鸡蛋  更加  鲜嫩  。
+            鸡蛋  在  形成  过程  中会  带菌  ，  未  煮熟  的  鸡蛋  不  能  将  细菌  杀死  ，  容易  引起  腹泻  。  因此  鸡蛋  要  经  高温  煮熟  后  再  吃  。  但是  也  不要  煮  的  过  老  ，  鸡蛋  煮  的  时间  过长  ，  蛋黄  表面  会  形成  灰绿色  硫化  亚铁  层  ，  很  难  被  人体  吸收  。
+            茶叶蛋  应  少吃  ，  因为  茶叶  中  含  酸化  物质  ，  与  鸡蛋  中  的  铁  元素  结合  ，  会  对  胃起  刺激  作用  ，  影响  胃肠  的  消化  功能  。
+        </segment>
+
+        <pos>
+            鸡蛋#NN  吃法#NN  多#CD  种#M  多样#VA  ，#PU  就#AD  营养#VA  的#DEC  吸收#NN  和#CC  消化率#NN  来讲#VV  ，#PU  煮蛋#NN  为#VC  100#CD  %#NN  ，#PU  炒蛋#NN  为#VC  97#CD  %#NN  ，#PU  嫩炸#NN  为#VC  98#CD  %#NN  ，#PU  老#NR  炸#VV  为#P  81.1#CD  %#NN  ，#PU  开水#NN  、#PU  牛奶#NN  冲#NN  蛋#NN  为#VC  92.5#CD  %#NN  ，#PU  生吃#NN  为#P  30#CD  %#NN  ～#VV  50#CD  %#NN    。#PU  由此#NR  来说#VV  ，#PU  煮鸡蛋#NN  是#VC  最#AD  佳#VA  的#DEC  吃法#NN  ，#PU  但#AD  要#VV  注意#VV  细嚼慢咽#NN  ，#PU  否则#AD  会#VV  影响#VV  吸收#NN  和#CC  消化#NN    。#PU  不过#AD  ，#PU  对#P  儿童#NN  来说#NN  ，#PU  还是#AD  蒸#VV  蛋羹#NN  、#PU  蛋花汤#NN  最#AD  适合#VV  ，#PU  因为#P  这#DT  两#CD  种#M  做法#NN  能使#AD  蛋白质#VV  松解#NN  ，#PU  极#AD  易#VA  被#LB  儿童#NN  消化#NN  吸收#VV    。#PU    。#PU
+            做#VV  炒#NN  鸡蛋#NN  时#LC  ，#PU  将#BA  鸡蛋#NN  顺#VV  一#CD  个#M  方向#NN  搅打#NN  ，#PU  并#CC  加入#VV  少量#CD  水#NN  ，#PU  可使#NN  鸡蛋#NN  更加#AD  鲜嫩#VV  。#PU
+            鸡蛋#NN  在#P  形成#NN  过程#NN  中会#VV  带菌#NN  ，#PU  未#AD  煮熟#VV  的#DEC  鸡蛋#NN  不#AD  能#VV  将#AD  细菌#AD  杀死#VV  ，#PU  容易#VA  引起#VV  腹泻#NN    。#PU  因此#AD  鸡蛋#NN  要#VV  经#P  高温#NN  煮熟#NN  后#LC  再#AD  吃#VV    。#PU  但是#AD  也#AD  不要#VV  煮#VV  的#DEC  过#P  老#NR  ，#PU  鸡蛋#NN  煮#VV  的#DEC  时间#NN  过长#NN  ，#PU  蛋黄#NN  表面#NN  会#VV  形成#VV  灰绿色#NN  硫化#NN  亚铁#CD  层#M  ，#PU  很#AD  难#AD  被#SB  人体#VV  吸收#VV    。#PU    。#PU
+            茶叶蛋#NR  应#VV  少吃#NN  ，#PU  因为#P  茶叶#NN  中#LC  含#VV  酸化#NN  物质#NN  ，#PU  与#P  鸡蛋#NN  中#LC  的#DEG  铁#JJ  元素#NN  结合#VV  ，#PU  会#VV  对#P  胃起#NN  刺激#VV  作用#NN  ，#PU  影响#VV  胃肠#NN  的#DEG  消化#NN  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 吃法#NN, 鸡蛋#NN)  (nn, 消化率#NN, 吃法#NN)  (nummod, 种#M, 多#CD)  (clf, 消化率#NN, 种#M)  (relcl, 吃法#NN, 多样#VA)  (relcl, 消化率#NN, 多样#VA)  (advmod, 营养#VA, 就#AD)  (dep, 多样#VA, 营养#VA)  (mark, 多样#VA, 的#DEC)  (conj, 消化率#NN, 吸收#NN)  (cc, 消化率#NN, 和#CC)  (nsubj, 来讲#VV, 消化率#NN)  (root, ROOT#null, 来讲#VV)  (nsubj, %#NN, 煮蛋#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 100#CD)  (ccomp, 来讲#VV, %#NN)  (nsubj, %#NN, 炒蛋#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 97#CD)  (conj, %#NN, %#NN)  (nsubj, %#NN, 嫩炸#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 98#CD)  (conj, %#NN, %#NN)  (nsubj, 炸#VV, 老#NR)  (conj, %#NN, 炸#VV)  (case, %#NN, 为#P)  (nummod, %#NN, 81.1#CD)  (prep, 炸#VV, %#NN)  (conj, 蛋#NN, 开水#NN)  (nn, 蛋#NN, 牛奶#NN)  (nn, 蛋#NN, 冲#NN)  (nsubj, %#NN, 蛋#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 92.5#CD)  (conj, %#NN, %#NN)  (nsubj, ～#VV, 生吃#NN)  (case, %#NN, 为#P)  (nummod, %#NN, 30#CD)  (prep, ～#VV, %#NN)  (nummod, %#NN, 50#CD)  (dobj, ～#VV, %#NN)   (nsubj, 来说#VV, 由此#NR)  (root, ROOT#null, 来说#VV)  (nsubj, 吃法#NN, 煮鸡蛋#NN)  (cop, 吃法#NN, 是#VC)  (advmod, 佳#VA, 最#AD)  (relcl, 吃法#NN, 佳#VA)  (mark, 佳#VA, 的#DEC)  (ccomp, 来说#VV, 吃法#NN)  (advmod, 注意#VV, 但#AD)  (mmod, 注意#VV, 要#VV)  (conj, 吃法#NN, 注意#VV)  (nsubj, 影响#VV, 细嚼慢咽#NN)  (advmod, 影响#VV, 否则#AD)  (mmod, 影响#VV, 会#VV)  (ccomp, 注意#VV, 影响#VV)  (conj, 消化#NN, 吸收#NN)  (cc, 消化#NN, 和#CC)  (dobj, 影响#VV, 消化#NN)   (advmod, 蒸#VV, 不过#AD)  (case, 来说#NN, 对#P)  (nn, 来说#NN, 儿童#NN)  (prep, 蒸#VV, 来说#NN)  (advmod, 蒸#VV, 还是#AD)  (root, ROOT#null, 蒸#VV)  (dobj, 蒸#VV, 蛋羹#NN)  (nsubj, 适合#VV, 蛋花汤#NN)  (advmod, 适合#VV, 最#AD)  (dep, 蒸#VV, 适合#VV)  (case, 蛋白质#VV, 因为#P)  (det, 做法#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 蛋白质#VV, 做法#NN)  (advmod, 蛋白质#VV, 能使#AD)  (prep, 被#LB, 蛋白质#VV)  (dobj, 蛋白质#VV, 松解#NN)  (advmod, 易#VA, 极#AD)  (dep, 被#LB, 易#VA)  (dep, 蒸#VV, 被#LB)  (nn, 消化#NN, 儿童#NN)  (nsubj, 吸收#VV, 消化#NN)  (dep, 被#LB, 吸收#VV)   (root, ROOT#null, null#null)
+            (loc, 顺#VV, 做#VV)  (nn, 鸡蛋#NN, 炒#NN)  (dobj, 做#VV, 鸡蛋#NN)  (case, 做#VV, 时#LC)  (ba, 顺#VV, 将#BA)  (nsubj, 顺#VV, 鸡蛋#NN)  (root, ROOT#null, 顺#VV)  (nummod, 个#M, 一#CD)  (clf, 搅打#NN, 个#M)  (nn, 搅打#NN, 方向#NN)  (dobj, 顺#VV, 搅打#NN)  (cc, 顺#VV, 并#CC)  (dep, 顺#VV, 加入#VV)  (nummod, 水#NN, 少量#CD)  (dobj, 加入#VV, 水#NN)  (nn, 鸡蛋#NN, 可使#NN)  (nsubj, 鲜嫩#VV, 鸡蛋#NN)  (advmod, 鲜嫩#VV, 更加#AD)  (conj, 顺#VV, 鲜嫩#VV)
+            (nsubj, 中会#VV, 鸡蛋#NN)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 形成#NN)  (prep, 中会#VV, 过程#NN)  (conj, 引起#VV, 中会#VV)  (dobj, 中会#VV, 带菌#NN)  (advmod, 煮熟#VV, 未#AD)  (relcl, 鸡蛋#NN, 煮熟#VV)  (mark, 煮熟#VV, 的#DEC)  (nsubj, 杀死#VV, 鸡蛋#NN)  (neg, 杀死#VV, 不#AD)  (mmod, 杀死#VV, 能#VV)  (advmod, 杀死#VV, 将#AD)  (advmod, 杀死#VV, 细菌#AD)  (conj, 中会#VV, 杀死#VV)  (conj, 中会#VV, 容易#VA)  (root, ROOT#null, 引起#VV)  (dobj, 引起#VV, 腹泻#NN)   (advmod, 吃#VV, 因此#AD)  (nsubj, 吃#VV, 鸡蛋#NN)  (nsubj, 吃#VV, 要#VV)  (case, 煮熟#NN, 经#P)  (nn, 煮熟#NN, 高温#NN)  (prep, 吃#VV, 煮熟#NN)  (case, 煮熟#NN, 后#LC)  (advmod, 吃#VV, 再#AD)  (root, ROOT#null, 吃#VV)   (advmod, 不要#VV, 但是#AD)  (advmod, 不要#VV, 也#AD)  (dep, 吸收#VV, 不要#VV)  (relcl, 过长#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (case, 老#NR, 过#P)  (prep, 煮#VV, 老#NR)  (nsubj, 煮#VV, 鸡蛋#NN)  (relcl, 过长#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (nn, 过长#NN, 时间#NN)  (dobj, 不要#VV, 过长#NN)  (nn, 表面#NN, 蛋黄#NN)  (nsubj, 形成#VV, 表面#NN)  (mmod, 形成#VV, 会#VV)  (dep, 不要#VV, 形成#VV)  (nn, 硫化#NN, 灰绿色#NN)  (dobj, 形成#VV, 硫化#NN)  (nummod, 层#M, 亚铁#CD)  (range, 形成#VV, 层#M)  (advmod, 人体#VV, 很#AD)  (advmod, 人体#VV, 难#AD)  (auxpass, 人体#VV, 被#SB)  (conj, 不要#VV, 人体#VV)  (root, ROOT#null, 吸收#VV)   (root, ROOT#null, null#null)
+            (nsubj, 应#VV, 茶叶蛋#NR)  (root, ROOT#null, 应#VV)  (dobj, 应#VV, 少吃#NN)  (case, 茶叶#NN, 因为#P)  (prep, 含#VV, 茶叶#NN)  (case, 茶叶#NN, 中#LC)  (conj, 应#VV, 含#VV)  (nn, 物质#NN, 酸化#NN)  (dobj, 含#VV, 物质#NN)  (case, 元素#NN, 与#P)  (assmod, 元素#NN, 鸡蛋#NN)  (case, 鸡蛋#NN, 中#LC)  (case, 鸡蛋#NN, 的#DEG)  (amod, 元素#NN, 铁#JJ)  (prep, 结合#VV, 元素#NN)  (conj, 应#VV, 结合#VV)  (mmod, 刺激#VV, 会#VV)  (case, 胃起#NN, 对#P)  (prep, 刺激#VV, 胃起#NN)  (conj, 应#VV, 刺激#VV)  (dobj, 刺激#VV, 作用#NN)  (conj, 应#VV, 影响#VV)  (assmod, 功能#NN, 胃肠#NN)  (case, 胃肠#NN, 的#DEG)  (nn, 功能#NN, 消化#NN)  (dobj, 影响#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081824462557.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

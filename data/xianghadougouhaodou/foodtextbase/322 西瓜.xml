@@ -1,0 +1,380 @@
+<content>
+
+    <id>
+        322
+    </id>
+
+    <foodname>
+        西瓜
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        寒瓜、天生白虎汤、夏瓜、水瓜
+    </alias>
+
+    <season>
+        6-8月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者慎食；脾胃虚寒，湿盛便溏者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  慎食  ；  脾胃  虚寒  ，  湿盛  便  溏者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  慎食#VV  ；#PU  脾胃#NN  虚寒#NN  ，#PU  湿盛#NN  便#AD  溏者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 慎食#VV, 患者#NN)  (root, ROOT#null, 慎食#VV)  (nn, 虚寒#NN, 脾胃#NN)  (nsubj, 溏者#VV, 虚寒#NN)  (nsubj, 溏者#VV, 湿盛#NN)  (advmod, 溏者#VV, 便#AD)  (ccomp, 慎食#VV, 溏者#VV)  (dobj, 溏者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压患者、急慢性肾炎患者、胆囊炎患者、高热不退者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  患者  、  急慢性  肾炎  患者  、  胆囊炎  患者  、  高热不退者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  患者#NN  、#PU  急慢性#NN  肾炎#NN  患者#NN  、#PU  胆囊炎#NN  患者#NN  、#PU  高热不退者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 高热不退者#NN, 高血压#NN)  (conj, 高热不退者#NN, 患者#NN)  (nn, 高热不退者#NN, 急慢性#NN)  (nn, 高热不退者#NN, 肾炎#NN)  (conj, 高热不退者#NN, 患者#NN)  (nn, 高热不退者#NN, 胆囊炎#NN)  (conj, 高热不退者#NN, 患者#NN)  (dobj, 适宜#VV, 高热不退者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                450
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            西瓜，属葫芦科，原生地在非洲，它原是葫芦科的野生植物，后经人工西瓜，顾名思义，是西域传来的瓜，我国是世界上最大的西瓜产地。西瓜是一种双子叶开花植物，形状像藤蔓，叶子呈羽毛状。它所结出的果实是假果，且属于植物学家称为假浆果的一类。果实外皮光滑，呈绿色或黄色有花纹，果瓤多汁为红色或黄色（罕见白色）。全国大部分地区均可栽培。山东省沂水县四十里铺、山东省莱西有大量栽培，莱西市河头店镇出产的南岚西瓜以瓤沙、味甜、水多、营养丰富而闻名。
+        </rawdata>
+
+        <segment>
+            西瓜  ，  属  葫芦科  ，  原生地  在  非洲  ，  它  原是  葫芦科  的  野生  植物  ，  后  经  人工  西瓜  ，  顾名思义  ，  是  西域  传来  的  瓜  ，  我国  是  世界  上  最大  的  西瓜  产地  。  西瓜  是  一  种  双子叶  开花  植物  ，  形状  像  藤蔓  ，  叶子  呈  羽毛状  。  它  所  结出  的  果实  是  假果  ，  且  属于  植物学家  称为  假  浆果  的  一  类  。  果实  外皮  光滑  ，  呈  绿色  或  黄色有  花纹  ，  果瓤  多汁  为  红色  或  黄色  （  罕见  白色  ）  。  全国  大部分  地区  均  可  栽培  。  山东省  沂水  县  四十  里  铺  、  山东省  莱西  有  大量  栽培  ，  莱西市  河  头  店  镇  出产  的  南岚  西瓜  以  瓤沙  、  味甜  、  水  多  、  营养  丰富  而  闻名  。
+        </segment>
+
+        <pos>
+            西瓜#VV  ，#PU  属#VV  葫芦科#NN  ，#PU  原生地#NN  在#P  非洲#NR  ，#PU  它#PN  原是#VV  葫芦科#NN  的#DEG  野生#JJ  植物#NN  ，#PU  后#LC  经#P  人工#JJ  西瓜#NN  ，#PU  顾名思义#VV  ，#PU  是#VC  西域#AD  传来#VV  的#DEC  瓜#NN  ，#PU  我国#AD  是#VC  世界#NN  上#LC  最大#JJ  的#DEG  西瓜#JJ  产地#NN    。#PU  西瓜#NN  是#VC  一#CD  种#M  双子叶#JJ  开花#JJ  植物#NN  ，#PU  形状#NN  像#P  藤蔓#NR  ，#PU  叶子#AD  呈#VV  羽毛状#NN    。#PU  它#PN  所#MSP  结出#VV  的#DEC  果实#NN  是#VC  假果#NN  ，#PU  且#CC  属于#VV  植物学家#AD  称为#VV  假#JJ  浆果#NN  的#DEC  一#CD  类#M    。#PU  果实#NN  外皮#NN  光滑#NN  ，#PU  呈#VV  绿色#JJ  或#CC  黄色有#JJ  花纹#NN  ，#PU  果瓤#NN  多汁#NN  为#VC  红色#JJ  或#CC  黄色#JJ  （#PU  罕见#VV  白色#JJ  ）#PU    。#PU  全国#NR  大部分#CD  地区#NN  均#AD  可#VV  栽培#VV    。#PU  山东省#NR  沂水#NN  县#NN  四十#CD  里#LC  铺#VV  、#PU  山东省#NR  莱西#NN  有#VE  大量#AD  栽培#VV  ，#PU  莱西市#JJ  河#NN  头#DT  店#NN  镇#NN  出产#VV  的#DEC  南岚#NN  西瓜#NN  以#P  瓤沙#NN  、#PU  味甜#NN  、#PU  水#NN  多#VA  、#PU  营养#VA  丰富#VA  而#MSP  闻名#VV    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 瓜#NN, 西瓜#VV)  (ccomp, 西瓜#VV, 属#VV)  (dobj, 属#VV, 葫芦科#NN)  (nsubj, 原是#VV, 原生地#NN)  (case, 非洲#NR, 在#P)  (prep, 原是#VV, 非洲#NR)  (nsubj, 原是#VV, 它#PN)  (dep, 属#VV, 原是#VV)  (assmod, 植物#NN, 葫芦科#NN)  (case, 葫芦科#NN, 的#DEG)  (amod, 植物#NN, 野生#JJ)  (dobj, 原是#VV, 植物#NN)  (case, 西瓜#VV, 后#LC)  (case, 西瓜#NN, 经#P)  (amod, 西瓜#NN, 人工#JJ)  (prep, 顾名思义#VV, 西瓜#NN)  (dep, 瓜#NN, 顾名思义#VV)  (cop, 瓜#NN, 是#VC)  (advmod, 传来#VV, 西域#AD)  (relcl, 瓜#NN, 传来#VV)  (mark, 传来#VV, 的#DEC)  (root, ROOT#null, 瓜#NN)  (advmod, 产地#NN, 我国#AD)  (cop, 产地#NN, 是#VC)  (dep, 产地#NN, 世界#NN)  (case, 世界#NN, 上#LC)  (assmod, 产地#NN, 最大#JJ)  (case, 最大#JJ, 的#DEG)  (amod, 产地#NN, 西瓜#JJ)  (conj, 瓜#NN, 产地#NN)   (nsubj, 植物#NN, 西瓜#NN)  (cop, 植物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 植物#NN, 种#M)  (amod, 植物#NN, 双子叶#JJ)  (amod, 植物#NN, 开花#JJ)  (root, ROOT#null, 植物#NN)  (nsubj, 呈#VV, 形状#NN)  (case, 藤蔓#NR, 像#P)  (prep, 呈#VV, 藤蔓#NR)  (advmod, 呈#VV, 叶子#AD)  (conj, 植物#NN, 呈#VV)  (dobj, 呈#VV, 羽毛状#NN)   (nsubj, 结出#VV, 它#PN)  (prtmod, 结出#VV, 所#MSP)  (relcl, 果实#NN, 结出#VV)  (mark, 结出#VV, 的#DEC)  (nsubj, 假果#NN, 果实#NN)  (cop, 假果#NN, 是#VC)  (root, ROOT#null, 假果#NN)  (cc, 假果#NN, 且#CC)  (conj, 假果#NN, 属于#VV)  (advmod, 称为#VV, 植物学家#AD)  (dep, 类#M, 称为#VV)  (amod, 浆果#NN, 假#JJ)  (dobj, 称为#VV, 浆果#NN)  (mark, 称为#VV, 的#DEC)  (nummod, 类#M, 一#CD)  (range, 属于#VV, 类#M)   (nn, 光滑#NN, 果实#NN)  (nn, 光滑#NN, 外皮#NN)  (nsubj, 红色#JJ, 光滑#NN)  (dep, 红色#JJ, 呈#VV)  (amod, 花纹#NN, 绿色#JJ)  (cc, 绿色#JJ, 或#CC)  (dep, 绿色#JJ, 黄色有#JJ)  (dobj, 呈#VV, 花纹#NN)  (nn, 多汁#NN, 果瓤#NN)  (nsubj, 红色#JJ, 多汁#NN)  (cop, 红色#JJ, 为#VC)  (root, ROOT#null, 红色#JJ)  (cc, 红色#JJ, 或#CC)  (dep, 红色#JJ, 黄色#JJ)  (mmod, 白色#JJ, 罕见#VV)  (dep, 红色#JJ, 白色#JJ)   (nn, 地区#NN, 全国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 栽培#VV, 地区#NN)  (advmod, 栽培#VV, 均#AD)  (dep, 栽培#VV, 可#VV)  (root, ROOT#null, 栽培#VV)   (nn, 县#NN, 山东省#NR)  (nn, 县#NN, 沂水#NN)  (nsubj, 铺#VV, 县#NN)  (loc, 铺#VV, 四十#CD)  (case, 四十#CD, 里#LC)  (relcl, 西瓜#NN, 铺#VV)  (nn, 莱西#NN, 山东省#NR)  (dep, 有#VE, 莱西#NN)  (xsubj, 栽培#VV, 莱西#NN)  (conj, 铺#VV, 有#VE)  (advmod, 栽培#VV, 大量#AD)  (amod, 河#NN, 莱西市#JJ)  (nn, 店#NN, 河#NN)  (det, 店#NN, 头#DT)  (nn, 镇#NN, 店#NN)  (nsubj, 出产#VV, 镇#NN)  (conj, 铺#VV, 出产#VV)  (mark, 铺#VV, 的#DEC)  (nn, 西瓜#NN, 南岚#NN)  (nsubj, 闻名#VV, 西瓜#NN)  (case, 多#VA, 以#P)  (conj, 水#NN, 瓤沙#NN)  (conj, 水#NN, 味甜#NN)  (nsubj, 多#VA, 水#NN)  (prep, 闻名#VV, 多#VA)  (dep, 多#VA, 营养#VA)  (dep, 多#VA, 丰富#VA)  (prtmod, 闻名#VV, 而#MSP)  (root, ROOT#null, 闻名#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            西瓜果皮、果肉、种子都可食用、药用。籽壳及西瓜皮制成“西瓜霜”专供药用，可治口疮、口疳，牙疳，喉蛾（急性咽喉炎），及一切喉症。
+            西瓜皮用来治肾炎水肿、肝病黄疸、糖尿病。
+            西瓜子有清肺润肺功效，和中止渴、助消化，可治吐血、久嗽。籽壳用治肠风下血、血痢。
+            西瓜果肉（瓤）味甘，归心、胃、膀胱经；具有清热解暑、生津止渴、利尿除烦的功效；主治胸膈气壅，满闷不舒，小便不利，口鼻生疮，暑热，中暑，解酒毒等症。
+            1.降热解暑、降血压
+            具有清热解暑、泻火除烦、降血压等作用，对贫血、咽喉干燥、唇裂，以及对膀胱炎、肝腹水、肾炎患者均有一定疗效。
+            2.天然水润防晒霜
+            夏季的阳光分外强烈，日光直射导致紫外线较强，西瓜的含水量在水果中是首屈一指的，所以特别适合夏季补充人体水分的损失。
+            3.大便通畅
+            吃西瓜后尿量会明显增加，这可以减少胆色素的含量，对治疗黄疸有一定作用。
+            4.抗衰老
+            新鲜的西瓜汁和鲜嫩的瓜皮增加皮肤弹性，使人变的更年轻，减少皱纹，增添光泽。
+        </rawdata>
+
+        <segment>
+            西瓜  果皮  、  果肉  、  种子  都  可  食用  、  药用  。  籽壳  及  西瓜  皮  制成  “  西瓜霜  ”  专供  药用  ，  可治  口疮  、  口疳  ，  牙疳  ，  喉蛾  （  急性  咽喉炎  ）  ，  及  一切  喉症  。
+            西瓜  皮  用来  治  肾炎  水肿  、  肝病  黄疸  、  糖尿病  。
+            西瓜  子  有  清肺  润肺  功效  ，  和  中  止渴  、  助消化  ，  可治  吐血  、  久嗽  。  籽壳  用  治  肠  风  下  血  、  血痢  。
+            西瓜  果肉  （  瓤  ）  味甘  ，  归心  、  胃  、  膀胱  经  ；  具有  清热  解暑  、  生津止渴  、  利尿  除烦  的  功效  ；  主治  胸膈  气壅  ，  满  闷  不舒  ，  小便  不利  ，  口鼻  生疮  ，  暑热  ，  中暑  ，  解酒  毒  等症  。
+            降热  解暑  、  降  血压
+            具有  清热  解暑  、  泻火  除烦  、  降  血压  等  作用  ，  对  贫血  、  咽喉  干燥  、  唇裂  ，  以及  对  膀胱炎  、  肝腹水  、  肾炎  患者  均  有  一定  疗效  。
+            天然  水润  防晒霜
+            夏季  的  阳光  分外  强烈  ，  日光  直射  导致  紫外线  较强  ，  西瓜  的  含水量  在  水果  中  是  首屈一指  的  ，  所以  特别  适合  夏季  补充  人体  水分  的  损失  。
+            大便  通畅
+            吃  西瓜  后  尿量  会  明显  增加  ，  这  可以  减少  胆色素  的  含量  ，  对  治疗  黄疸  有  一定  作用  。
+            抗  衰老
+            新鲜  的  西瓜  汁和  鲜嫩  的  瓜皮  增加  皮肤  弹性  ，  使  人  变的  更  年轻  ，  减少  皱纹  ，  增添  光泽  。
+        </segment>
+
+        <pos>
+            西瓜#NN  果皮#NN  、#PU  果肉#NN  、#PU  种子#NN  都#AD  可#VV  食用#VV  、#PU  药用#VV    。#PU  籽壳#NN  及#CC  西瓜#NN  皮#NN  制成#VV  ``#NN  西瓜霜#NN  ''#NN  专供#NN  药用#NN  ，#PU  可治#VV  口疮#NN  、#PU  口疳#NN  ，#PU  牙疳#VV  ，#PU  喉蛾#VV  （#PU  急性#NN  咽喉炎#NN  ）#PU  ，#PU  及#CC  一切#PN  喉症#VV    。#PU    。#PU
+            西瓜#NN  皮#NN  用来#NN  治#VV  肾炎#NN  水肿#NN  、#PU  肝病#NN  黄疸#NN  、#PU  糖尿病#NN  。#PU
+            西瓜#NN  子#NN  有#VE  清肺#NN  润肺#NN  功效#NN  ，#PU  和#CC  中#NR  止渴#NN  、#PU  助消化#NN  ，#PU  可治#AD  吐血#VV  、#PU  久嗽#VV    。#PU  籽壳#NN  用#P  治#NN  肠#VV  风#NN  下#LC  血#NN  、#PU  血痢#NN    。#PU    。#PU
+            西瓜#NR  果肉#NR  （#PU  瓤#NN  ）#PU  味甘#NN  ，#PU  归心#NR  、#PU  胃#NR  、#PU  膀胱#NR  经#VV  ；#PU  具有#VV  清热#NN  解暑#NN  、#PU  生津止渴#NN  、#PU  利尿#NN  除烦#NN  的#DEG  功效#NN  ；#PU  主治#VV  胸膈#NN  气壅#NN  ，#PU  满#VV  闷#NN  不舒#NN  ，#PU  小便#AD  不利#VA  ，#PU  口鼻#VV  生疮#NN  ，#PU  暑热#VV  ，#PU  中暑#VV  ，#PU  解酒#AD  毒#VV  等症#NN  。#PU
+            降热#NN  解暑#NN  、#PU  降#NN  血压#VA
+            具有#VV  清热#NN  解暑#NN  、#PU  泻火#NN  除烦#NN  、#PU  降#NN  血压#NN  等#ETC  作用#NN  ，#PU  对#P  贫血#NN  、#PU  咽喉#NN  干燥#VV  、#PU  唇裂#VV  ，#PU  以及#CC  对#P  膀胱炎#NR  、#PU  肝腹水#NR  、#PU  肾炎#NR  患者#NN  均#AD  有#VE  一定#JJ  疗效#NN  。#PU
+            天然#JJ  水润#NN  防晒霜#VV
+            夏季#NT  的#DEG  阳光#NN  分外#AD  强烈#VA  ，#PU  日光#NN  直射#NN  导致#VV  紫外线#VV  较强#JJ  ，#PU  西瓜#NN  的#DEG  含水量#NN  在#P  水果#NN  中#LC  是#VC  首屈一指#CD  的#DEC  ，#PU  所以#AD  特别#AD  适合#VV  夏季#NT  补充#NN  人体#NN  水分#NN  的#DEC  损失#NN  。#PU
+            大便#VV  通畅#NN
+            吃#VV  西瓜#NN  后#LC  尿量#CD  会#NN  明显#AD  增加#VV  ，#PU  这#PN  可以#VV  减少#VV  胆色素#NN  的#DEG  含量#NN  ，#PU  对#P  治疗#NN  黄疸#NN  有#VE  一定#JJ  作用#NN  。#PU
+            抗#NN  衰老#VV
+            新鲜#VA  的#DEC  西瓜#NN  汁和#NN  鲜嫩#NN  的#DEG  瓜皮#NN  增加#VV  皮肤#NN  弹性#NN  ，#PU  使#VV  人#NN  变的#NN  更#AD  年轻#VA  ，#PU  减少#VV  皱纹#NN  ，#PU  增添#VV  光泽#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 种子#NN, 西瓜#NN)  (conj, 种子#NN, 果皮#NN)  (conj, 种子#NN, 果肉#NN)  (nsubj, 食用#VV, 种子#NN)  (advmod, 食用#VV, 都#AD)  (mmod, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (dep, 食用#VV, 药用#VV)   (conj, 西瓜#NN, 籽壳#NN)  (cc, 西瓜#NN, 及#CC)  (nn, 皮#NN, 西瓜#NN)  (nsubj, 制成#VV, 皮#NN)  (root, ROOT#null, 制成#VV)  (nn, 药用#NN, ``#NN)  (nn, 药用#NN, 西瓜霜#NN)  (nn, 药用#NN, ''#NN)  (nn, 药用#NN, 专供#NN)  (dobj, 制成#VV, 药用#NN)  (conj, 制成#VV, 可治#VV)  (conj, 口疳#NN, 口疮#NN)  (dobj, 可治#VV, 口疳#NN)  (conj, 制成#VV, 牙疳#VV)  (ccomp, 牙疳#VV, 喉蛾#VV)  (nn, 咽喉炎#NN, 急性#NN)  (dep, 喉蛾#VV, 咽喉炎#NN)  (cc, 制成#VV, 及#CC)  (nsubj, 喉症#VV, 一切#PN)  (conj, 制成#VV, 喉症#VV)   (root, ROOT#null, null#null)
+            (nn, 用来#NN, 西瓜#NN)  (nn, 用来#NN, 皮#NN)  (nsubj, 治#VV, 用来#NN)  (root, ROOT#null, 治#VV)  (nn, 糖尿病#NN, 肾炎#NN)  (conj, 糖尿病#NN, 水肿#NN)  (nn, 糖尿病#NN, 肝病#NN)  (conj, 糖尿病#NN, 黄疸#NN)  (dobj, 治#VV, 糖尿病#NN)
+            (nn, 子#NN, 西瓜#NN)  (dep, 有#VE, 子#NN)  (root, ROOT#null, 有#VE)  (nn, 功效#NN, 清肺#NN)  (nn, 功效#NN, 润肺#NN)  (dobj, 有#VE, 功效#NN)  (cc, 有#VE, 和#CC)  (nn, 助消化#NN, 中#NR)  (conj, 助消化#NN, 止渴#NN)  (nsubj, 吐血#VV, 助消化#NN)  (advmod, 吐血#VV, 可治#AD)  (conj, 有#VE, 吐血#VV)  (dep, 吐血#VV, 久嗽#VV)   (nsubj, 肠#VV, 籽壳#NN)  (case, 治#NN, 用#P)  (prep, 肠#VV, 治#NN)  (root, ROOT#null, 肠#VV)  (dep, 血痢#NN, 风#NN)  (case, 风#NN, 下#LC)  (conj, 血痢#NN, 血#NN)  (dobj, 肠#VV, 血痢#NN)   (root, ROOT#null, null#null)
+            (nn, 味甘#NN, 西瓜#NR)  (dep, 味甘#NN, 果肉#NR)  (prnmod, 味甘#NN, 瓤#NN)  (dep, 膀胱#NR, 味甘#NN)  (conj, 膀胱#NR, 归心#NR)  (conj, 膀胱#NR, 胃#NR)  (nsubj, 经#VV, 膀胱#NR)  (root, ROOT#null, 经#VV)  (dep, 经#VV, 具有#VV)  (nn, 利尿#NN, 清热#NN)  (conj, 利尿#NN, 解暑#NN)  (conj, 利尿#NN, 生津止渴#NN)  (nn, 除烦#NN, 利尿#NN)  (assmod, 功效#NN, 除烦#NN)  (case, 除烦#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (conj, 经#VV, 主治#VV)  (nn, 气壅#NN, 胸膈#NN)  (dobj, 主治#VV, 气壅#NN)  (conj, 主治#VV, 满#VV)  (nn, 不舒#NN, 闷#NN)  (dobj, 满#VV, 不舒#NN)  (advmod, 不利#VA, 小便#AD)  (conj, 主治#VV, 不利#VA)  (conj, 主治#VV, 口鼻#VV)  (dobj, 口鼻#VV, 生疮#NN)  (conj, 主治#VV, 暑热#VV)  (conj, 主治#VV, 中暑#VV)  (advmod, 毒#VV, 解酒#AD)  (conj, 经#VV, 毒#VV)  (dobj, 毒#VV, 等症#NN)
+            (nn, 降#NN, 降热#NN)  (conj, 降#NN, 解暑#NN)  (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (root, ROOT#null, 具有#VV)  (nn, 血压#NN, 清热#NN)  (conj, 血压#NN, 解暑#NN)  (nn, 血压#NN, 泻火#NN)  (conj, 血压#NN, 除烦#NN)  (nn, 血压#NN, 降#NN)  (nn, 作用#NN, 血压#NN)  (etc, 血压#NN, 等#ETC)  (dobj, 具有#VV, 作用#NN)  (case, 咽喉#NN, 对#P)  (conj, 咽喉#NN, 贫血#NN)  (prep, 干燥#VV, 咽喉#NN)  (conj, 具有#VV, 干燥#VV)  (dep, 干燥#VV, 唇裂#VV)  (cc, 干燥#VV, 以及#CC)  (case, 患者#NN, 对#P)  (conj, 肾炎#NR, 膀胱炎#NR)  (conj, 肾炎#NR, 肝腹水#NR)  (nn, 患者#NN, 肾炎#NR)  (prep, 有#VE, 患者#NN)  (advmod, 有#VE, 均#AD)  (dep, 干燥#VV, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)
+            (amod, 水润#NN, 天然#JJ)  (nsubj, 防晒霜#VV, 水润#NN)  (root, ROOT#null, 防晒霜#VV)
+            (assmod, 阳光#NN, 夏季#NT)  (case, 夏季#NT, 的#DEG)  (nsubj, 强烈#VA, 阳光#NN)  (advmod, 强烈#VA, 分外#AD)  (root, ROOT#null, 强烈#VA)  (nn, 直射#NN, 日光#NN)  (nsubj, 导致#VV, 直射#NN)  (conj, 强烈#VA, 导致#VV)  (ccomp, 导致#VV, 紫外线#VV)  (amod, 损失#NN, 较强#JJ)  (assmod, 含水量#NN, 西瓜#NN)  (case, 西瓜#NN, 的#DEG)  (nsubj, 首屈一指#CD, 含水量#NN)  (case, 水果#NN, 在#P)  (prep, 首屈一指#CD, 水果#NN)  (case, 水果#NN, 中#LC)  (cop, 首屈一指#CD, 是#VC)  (relcl, 损失#NN, 首屈一指#CD)  (mark, 首屈一指#CD, 的#DEC)  (advmod, 适合#VV, 所以#AD)  (advmod, 适合#VV, 特别#AD)  (conj, 首屈一指#CD, 适合#VV)  (nn, 人体#NN, 夏季#NT)  (nn, 人体#NN, 补充#NN)  (nn, 水分#NN, 人体#NN)  (dobj, 适合#VV, 水分#NN)  (mark, 首屈一指#CD, 的#DEC)  (dobj, 紫外线#VV, 损失#NN)
+            (root, ROOT#null, 大便#VV)  (dobj, 大便#VV, 通畅#NN)
+            (loc, 增加#VV, 吃#VV)  (dobj, 吃#VV, 西瓜#NN)  (case, 吃#VV, 后#LC)  (nummod, 会#NN, 尿量#CD)  (nsubj, 增加#VV, 会#NN)  (advmod, 增加#VV, 明显#AD)  (root, ROOT#null, 增加#VV)  (nsubj, 减少#VV, 这#PN)  (mmod, 减少#VV, 可以#VV)  (conj, 增加#VV, 减少#VV)  (assmod, 含量#NN, 胆色素#NN)  (case, 胆色素#NN, 的#DEG)  (dobj, 减少#VV, 含量#NN)  (case, 黄疸#NN, 对#P)  (nn, 黄疸#NN, 治疗#NN)  (prep, 有#VE, 黄疸#NN)  (conj, 增加#VV, 有#VE)  (amod, 作用#NN, 一定#JJ)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (relcl, 瓜皮#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 鲜嫩#NN, 西瓜#NN)  (nn, 鲜嫩#NN, 汁和#NN)  (assmod, 瓜皮#NN, 鲜嫩#NN)  (case, 鲜嫩#NN, 的#DEG)  (nsubj, 增加#VV, 瓜皮#NN)  (root, ROOT#null, 增加#VV)  (nn, 弹性#NN, 皮肤#NN)  (dobj, 增加#VV, 弹性#NN)  (conj, 增加#VV, 使#VV)  (nn, 变的#NN, 人#NN)  (dobj, 使#VV, 变的#NN)  (advmod, 年轻#VA, 更#AD)  (dep, 使#VV, 年轻#VA)  (conj, 使#VV, 减少#VV)  (dobj, 减少#VV, 皱纹#NN)  (conj, 使#VV, 增添#VV)  (dobj, 增添#VV, 光泽#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.西瓜含有93%的水分，所含热量较低，是消夏解渴的佳品。
+            2.西瓜除不含脂肪和胆固醇以外，几乎所有人体所需的各种营养成分，如葡萄糖，果糖，蔗糖，膳食纤维，以及钙、磷、谷氨酸、瓜氨酸等，尤其是维生素A的含量较高。
+        </rawdata>
+
+        <segment>
+            西瓜  含有  93%  的  水分  ，  所含  热量  较  低  ，  是  消夏  解渴  的  佳品  。
+            西瓜  除  不  含  脂肪  和  胆固醇  以外  ，  几乎  所有  人体  所  需  的  各  种  营养  成分  ，  如  葡萄糖  ，  果糖  ，  蔗糖  ，  膳食  纤维  ，  以及  钙  、  磷  、  谷氨酸  、  瓜氨酸  等  ，  尤其是  维生素A  的  含量  较  高  。
+        </segment>
+
+        <pos>
+            西瓜#NN  含有#VV  93#CD  %#NN  的#DEG  水分#NN  ，#PU  所含#NN  热量#NN  较#AD  低#VA  ，#PU  是#VC  消夏#NN  解渴#NN  的#DEG  佳品#NN  。#PU
+            西瓜#NN  除#P  不#AD  含#VV  脂肪#NN  和#CC  胆固醇#NN  以外#LC  ，#PU  几乎#AD  所有#DT  人体#VV  所#MSP  需#VV  的#DEC  各#DT  种#M  营养#VA  成分#NN  ，#PU  如#AD  葡萄糖#NR  ，#PU  果糖#VV  ，#PU  蔗糖#NN  ，#PU  膳食#VV  纤维#NN  ，#PU  以及#CC  钙#NN  、#PU  磷#NN  、#PU  谷氨酸#NN  、#PU  瓜氨酸#NN  等#ETC  ，#PU  尤其是#AD  维生素A#NN  的#DEG  含量#NN  较#AD  高#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 西瓜#NN)  (root, ROOT#null, 含有#VV)  (nummod, %#NN, 93#CD)  (assmod, 水分#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 含有#VV, 水分#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 较#AD)  (conj, 含有#VV, 低#VA)  (cop, 佳品#NN, 是#VC)  (nn, 解渴#NN, 消夏#NN)  (assmod, 佳品#NN, 解渴#NN)  (case, 解渴#NN, 的#DEG)  (conj, 含有#VV, 佳品#NN)
+            (nsubj, 人体#VV, 西瓜#NN)  (case, 含#VV, 除#P)  (neg, 含#VV, 不#AD)  (prep, 人体#VV, 含#VV)  (conj, 胆固醇#NN, 脂肪#NN)  (cc, 胆固醇#NN, 和#CC)  (dobj, 含#VV, 胆固醇#NN)  (case, 含#VV, 以外#LC)  (dep, 所有#DT, 几乎#AD)  (dep, 人体#VV, 所有#DT)  (root, ROOT#null, 人体#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 成分#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 成分#NN, 各#DT)  (clf, 各#DT, 种#M)  (relcl, 成分#NN, 营养#VA)  (dobj, 人体#VV, 成分#NN)  (advmod, 果糖#VV, 如#AD)  (nsubj, 果糖#VV, 葡萄糖#NR)  (conj, 人体#VV, 果糖#VV)  (nsubj, 膳食#VV, 蔗糖#NN)  (ccomp, 果糖#VV, 膳食#VV)  (dobj, 膳食#VV, 纤维#NN)  (cc, 人体#VV, 以及#CC)  (conj, 瓜氨酸#NN, 钙#NN)  (conj, 瓜氨酸#NN, 磷#NN)  (conj, 瓜氨酸#NN, 谷氨酸#NN)  (nsubj, 高#VA, 瓜氨酸#NN)  (etc, 瓜氨酸#NN, 等#ETC)  (advmod, 高#VA, 尤其是#AD)  (assmod, 含量#NN, 维生素A#NN)  (case, 维生素A#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 人体#VV, 高#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101617543878.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

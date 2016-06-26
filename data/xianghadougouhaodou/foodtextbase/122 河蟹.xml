@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        122
+    </id>
+
+    <foodname>
+        河蟹
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        蟹
+    </secondcategory>
+
+    <alias>
+        毛蟹、稻蟹、中华绒螯蟹、横行介士、无肠公子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胆囊炎、胆结石患者不宜食。
+        </rawdata>
+
+        <segment>
+            胆囊炎  、  胆结石  患者  不  宜  食  。
+        </segment>
+
+        <pos>
+            胆囊炎#VV  、#PU  胆结石#VV  患者#NN  不#NN  宜#NR  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胆囊炎#VV)  (dep, 胆囊炎#VV, 胆结石#VV)  (nn, 不#NN, 患者#NN)  (nn, 食#NN, 不#NN)  (nn, 食#NN, 宜#NR)  (dobj, 胆结石#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                103
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                267
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                389
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                6.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                126
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                182
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                181
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                193.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                56.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                2.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            河蟹是淡水中生长，海水中繁殖蟹类。在生殖洄游前均为幼蟹，因其壳色偏黄，俗称“黄蟹”，其性腺很小，基本上未发育，肝脏的重量远远大于生殖腺重量。当它在完成最后一次蜕皮后就发育为“绿蟹”，过购墨绿性腺发育丰满，雄蟹螯足绒毛绸密，步足刚毛粗长，雌蟹腹部完全覆盖头胸甲腹面，腹部边缘的刚毛长而密。在人工养殖条件下，根据河蟹生长发育所需，在投喂饵料的掌握“精—粗—精”的结构，有利于河蟹生长。
+        </rawdata>
+
+        <segment>
+            河蟹  是  淡水  中  生长  ，  海水  中  繁殖  蟹类  。  在  生殖  洄游  前  均  为  幼蟹  ，  因其  壳色  偏  黄  ，  俗称  “  黄蟹  ”  ，  其  性腺  很  小  ，  基本上  未  发育  ，  肝脏  的  重量  远远  大于  生殖腺  重量  。  当它  在  完成  最后  一  次  蜕皮  后  就  发育  为  “  绿蟹  ”  ，  过购  墨绿  性腺  发育  丰满  ，  雄蟹  螯足  绒毛  绸密  ，  步足  刚毛  粗长  ，  雌蟹  腹部  完全  覆盖  头  胸甲  腹面  ，  腹部  边缘  的  刚毛  长  而  密  。  在  人工  养殖  条件  下  ，  根据  河蟹  生长  发育  所需  ，  在  投喂  饵料  的  掌握  “  精  —  粗  —  精  ”  的  结构  ，  有  利于  河蟹  生长  。
+        </segment>
+
+        <pos>
+            河蟹#AD  是#VC  淡水#NN  中#LC  生长#NN  ，#PU  海水#NN  中#LC  繁殖#VV  蟹类#NN    。#PU  在#P  生殖#NN  洄游#NN  前#LC  均#AD  为#VC  幼蟹#NN  ，#PU  因其#NN  壳色#NN  偏#AD  黄#NR  ，#PU  俗称#AD  ``#VV  黄蟹#NN  ''#NN  ，#PU  其#PN  性腺#NN  很#AD  小#VA  ，#PU  基本上#AD  未#AD  发育#VV  ，#PU  肝脏#NN  的#DEG  重量#NN  远远#AD  大于#VV  生殖腺#NN  重量#NN    。#PU  当它#NN  在#P  完成#VV  最后#AD  一#CD  次#M  蜕皮#NN  后#LC  就#AD  发育#VV  为#P  ``#NN  绿蟹#NN  ''#NN  ，#PU  过购#NN  墨绿#NN  性腺#AD  发育#VV  丰满#NN  ，#PU  雄蟹#AD  螯足#VV  绒毛#NN  绸密#NN  ，#PU  步足#NN  刚毛#NN  粗长#NN  ，#PU  雌蟹#NN  腹部#NN  完全#AD  覆盖#VV  头#DT  胸甲#CD  腹面#NN  ，#PU  腹部#NN  边缘#NN  的#DEG  刚毛#NN  长#VA  而#CC  密#VA    。#PU  在#P  人工#JJ  养殖#NN  条件#NN  下#LC  ，#PU  根据#P  河蟹#NN  生长#NN  发育#NN  所需#NN  ，#PU  在#P  投喂#NN  饵料#NN  的#DEG  掌握#VV  ``#NR  精#JJ  --#NN  粗#NN  --#NN  精#JJ  ''#NN  的#DEC  结构#NN  ，#PU  有#VE  利于#VV  河蟹#NN  生长#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 生长#NN, 河蟹#AD)  (cop, 生长#NN, 是#VC)  (dep, 生长#NN, 淡水#NN)  (case, 淡水#NN, 中#LC)  (root, ROOT#null, 生长#NN)  (loc, 繁殖#VV, 海水#NN)  (case, 海水#NN, 中#LC)  (dep, 生长#NN, 繁殖#VV)  (dobj, 繁殖#VV, 蟹类#NN)   (case, 洄游#NN, 在#P)  (nn, 洄游#NN, 生殖#NN)  (prep, 幼蟹#NN, 洄游#NN)  (case, 洄游#NN, 前#LC)  (advmod, 幼蟹#NN, 均#AD)  (cop, 幼蟹#NN, 为#VC)  (root, ROOT#null, 幼蟹#NN)  (nn, 壳色#NN, 因其#NN)  (nsubj, ``#VV, 壳色#NN)  (advmod, ``#VV, 偏#AD)  (prep, ``#VV, 黄#NR)  (advmod, ``#VV, 俗称#AD)  (conj, 幼蟹#NN, ``#VV)  (nn, ''#NN, 黄蟹#NN)  (dobj, ``#VV, ''#NN)  (nn, 性腺#NN, 其#PN)  (nsubj, 小#VA, 性腺#NN)  (advmod, 小#VA, 很#AD)  (conj, 幼蟹#NN, 小#VA)  (advmod, 发育#VV, 基本上#AD)  (advmod, 发育#VV, 未#AD)  (conj, 幼蟹#NN, 发育#VV)  (assmod, 重量#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (nsubj, 大于#VV, 重量#NN)  (advmod, 大于#VV, 远远#AD)  (dep, 幼蟹#NN, 大于#VV)  (nn, 重量#NN, 生殖腺#NN)  (dobj, 大于#VV, 重量#NN)   (nsubj, 发育#VV, 当它#NN)  (case, 完成#VV, 在#P)  (prep, 发育#VV, 完成#VV)  (advmod, 次#M, 最后#AD)  (nummod, 次#M, 一#CD)  (clf, 蜕皮#NN, 次#M)  (dobj, 完成#VV, 蜕皮#NN)  (case, 完成#VV, 后#LC)  (advmod, 发育#VV, 就#AD)  (root, ROOT#null, 发育#VV)  (case, ''#NN, 为#P)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 绿蟹#NN)  (prep, 发育#VV, ''#NN)  (nn, 墨绿#NN, 过购#NN)  (nsubj, 发育#VV, 墨绿#NN)  (advmod, 发育#VV, 性腺#AD)  (conj, 发育#VV, 发育#VV)  (dobj, 发育#VV, 丰满#NN)  (advmod, 螯足#VV, 雄蟹#AD)  (conj, 发育#VV, 螯足#VV)  (nn, 绸密#NN, 绒毛#NN)  (dobj, 螯足#VV, 绸密#NN)  (nn, 粗长#NN, 步足#NN)  (nn, 粗长#NN, 刚毛#NN)  (nsubj, 覆盖#VV, 粗长#NN)  (nn, 腹部#NN, 雌蟹#NN)  (nsubj, 覆盖#VV, 腹部#NN)  (advmod, 覆盖#VV, 完全#AD)  (conj, 发育#VV, 覆盖#VV)  (det, 腹面#NN, 头#DT)  (dep, 头#DT, 胸甲#CD)  (dobj, 覆盖#VV, 腹面#NN)  (nn, 边缘#NN, 腹部#NN)  (assmod, 刚毛#NN, 边缘#NN)  (case, 边缘#NN, 的#DEG)  (nsubj, 长#VA, 刚毛#NN)  (conj, 发育#VV, 长#VA)  (cc, 长#VA, 而#CC)  (dep, 长#VA, 密#VA)   (case, 条件#NN, 在#P)  (amod, 养殖#NN, 人工#JJ)  (nn, 条件#NN, 养殖#NN)  (prep, 有#VE, 条件#NN)  (case, 条件#NN, 下#LC)  (case, 所需#NN, 根据#P)  (nn, 所需#NN, 河蟹#NN)  (nn, 所需#NN, 生长#NN)  (nn, 所需#NN, 发育#NN)  (prep, 有#VE, 所需#NN)  (case, 结构#NN, 在#P)  (nn, 饵料#NN, 投喂#NN)  (assmod, 结构#NN, 饵料#NN)  (case, 饵料#NN, 的#DEG)  (relcl, 结构#NN, 掌握#VV)  (nn, --#NN, ``#NR)  (amod, --#NN, 精#JJ)  (nn, --#NN, 粗#NN)  (amod, ''#NN, 精#JJ)  (dobj, 掌握#VV, ''#NN)  (mark, 掌握#VV, 的#DEC)  (prep, 有#VE, 结构#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 利于#VV)  (nn, 生长#NN, 河蟹#NN)  (dobj, 利于#VV, 生长#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.抗结核
+            螃蟹还有抗结核作用，吃蟹对结核病的康复大有补益。
+            2.滋补解毒
+            螃蟹有清热解毒、补骨添髓、养筋活血、通经络、利肢节、续绝伤、滋肝阴、充胃液之功效。对于淤血、损伤、黄疸、腰腿酸痛和风湿性关节炎等疾病有一定的食疗效果。
+        </rawdata>
+
+        <segment>
+            抗  结核
+            螃蟹  还有  抗  结核  作用  ，  吃蟹  对  结核病  的  康复  大有  补益  。
+            滋补  解毒
+            螃蟹  有  清热  解毒  、  补  骨  添髓  、  养筋  活血  、  通  经络  、  利  肢节  、  续  绝  伤  、  滋肝  阴  、  充  胃液  之  功效  。  对于  淤血  、  损伤  、  黄疸  、  腰腿  酸痛  和  风湿性  关节炎  等  疾病  有  一定  的  食疗  效果  。
+        </segment>
+
+        <pos>
+            抗#NN  结核#VV
+            螃蟹#NR  还有#AD  抗#NN  结核#NN  作用#NN  ，#PU  吃蟹#NN  对#P  结核病#NN  的#DEG  康复#NN  大有#VV  补益#NN  。#PU
+            滋补#NN  解毒#VV
+            螃蟹#NN  有#VE  清热#NN  解毒#NN  、#PU  补#NN  骨#NN  添髓#NN  、#PU  养筋#NN  活血#NN  、#PU  通#NN  经络#NN  、#PU  利#NR  肢节#NR  、#PU  续#NN  绝#NN  伤#NN  、#PU  滋肝#NN  阴#NN  、#PU  充#NR  胃液#NN  之#DEG  功效#NN    。#PU  对于#P  淤血#NN  、#PU  损伤#NN  、#PU  黄疸#NN  、#PU  腰腿#NN  酸痛#NN  和#CC  风湿性#NN  关节炎#NN  等#ETC  疾病#NN  有#VE  一定#JJ  的#DEG  食疗#NN  效果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 结核#VV, 抗#NN)  (root, ROOT#null, 结核#VV)
+            (nn, 结核#NN, 螃蟹#NR)  (advmod, 结核#NN, 还有#AD)  (nn, 结核#NN, 抗#NN)  (nn, 作用#NN, 结核#NN)  (nsubj, 大有#VV, 作用#NN)  (nsubj, 大有#VV, 吃蟹#NN)  (case, 康复#NN, 对#P)  (assmod, 康复#NN, 结核病#NN)  (case, 结核病#NN, 的#DEG)  (prep, 大有#VV, 康复#NN)  (root, ROOT#null, 大有#VV)  (dobj, 大有#VV, 补益#NN)
+            (nsubj, 解毒#VV, 滋补#NN)  (root, ROOT#null, 解毒#VV)
+            (dep, 有#VE, 螃蟹#NN)  (root, ROOT#null, 有#VE)  (nn, 解毒#NN, 清热#NN)  (conj, 充#NR, 解毒#NN)  (nn, 添髓#NN, 补#NN)  (nn, 添髓#NN, 骨#NN)  (conj, 充#NR, 添髓#NN)  (nn, 活血#NN, 养筋#NN)  (conj, 充#NR, 活血#NN)  (nn, 经络#NN, 通#NN)  (conj, 充#NR, 经络#NN)  (nn, 肢节#NR, 利#NR)  (conj, 充#NR, 肢节#NR)  (nn, 伤#NN, 续#NN)  (nn, 伤#NN, 绝#NN)  (conj, 充#NR, 伤#NN)  (nn, 阴#NN, 滋肝#NN)  (conj, 充#NR, 阴#NN)  (nn, 胃液#NN, 充#NR)  (assmod, 功效#NN, 胃液#NN)  (case, 胃液#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)   (case, 疾病#NN, 对于#P)  (conj, 关节炎#NN, 淤血#NN)  (conj, 关节炎#NN, 损伤#NN)  (conj, 关节炎#NN, 黄疸#NN)  (nn, 关节炎#NN, 腰腿#NN)  (conj, 关节炎#NN, 酸痛#NN)  (cc, 关节炎#NN, 和#CC)  (nn, 关节炎#NN, 风湿性#NN)  (nn, 疾病#NN, 关节炎#NN)  (etc, 关节炎#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (root, ROOT#null, 有#VE)  (assmod, 效果#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 效果#NN, 食疗#NN)  (dobj, 有#VE, 效果#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  促进泌乳  抗氧化  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.螃蟹含有丰富的蛋白质，较少的脂肪和碳水化合物。
+            2.蟹黄中的胆固醇含量较高。
+            3.螃蟹含有丰富的钙、磷、钾、钠、镁、硒等微量元素。
+            4.螃蟹中含有丰富的维生素D。
+        </rawdata>
+
+        <segment>
+            螃蟹  含有  丰富  的  蛋白质  ，  较  少  的  脂肪  和  碳水化合物  。
+            蟹黄  中  的  胆固醇  含量  较  高  。
+            螃蟹  含有  丰富  的  钙  、  磷  、  钾  、  钠  、  镁  、  硒等  微量  元素  。
+            螃蟹  中  含有  丰富  的  维生素D  。
+        </segment>
+
+        <pos>
+            螃蟹#VV  含有#AD  丰富#VA  的#DEC  蛋白质#NN  ，#PU  较#AD  少#VA  的#DEC  脂肪#NN  和#CC  碳水化合物#NN  。#PU
+            蟹黄#NN  中#LC  的#DEG  胆固醇#NN  含量#NN  较#AD  高#VA  。#PU
+            螃蟹#NN  含有#VV  丰富#VA  的#DEC  钙#NN  、#PU  磷#NN  、#PU  钾#NN  、#PU  钠#NN  、#PU  镁#NN  、#PU  硒等#NN  微量#NN  元素#NN  。#PU
+            螃蟹#NN  中#LC  含有#VV  丰富#VA  的#DEC  维生素D#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 螃蟹#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 螃蟹#VV, 蛋白质#NN)  (advmod, 少#VA, 较#AD)  (relcl, 碳水化合物#NN, 少#VA)  (mark, 少#VA, 的#DEC)  (conj, 碳水化合物#NN, 脂肪#NN)  (cc, 碳水化合物#NN, 和#CC)  (dep, 螃蟹#VV, 碳水化合物#NN)
+            (assmod, 含量#NN, 蟹黄#NN)  (case, 蟹黄#NN, 中#LC)  (case, 蟹黄#NN, 的#DEG)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)
+            (nsubj, 含有#VV, 螃蟹#NN)  (root, ROOT#null, 含有#VV)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 微量#NN, 钙#NN)  (conj, 微量#NN, 磷#NN)  (conj, 微量#NN, 钾#NN)  (conj, 微量#NN, 钠#NN)  (conj, 微量#NN, 镁#NN)  (nn, 微量#NN, 硒等#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)
+            (loc, 含有#VV, 螃蟹#NN)  (case, 螃蟹#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, 维生素D#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素D#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.螃蟹性咸寒，又是食腐动物，所以吃时必蘸姜末醋汁来祛寒杀菌，不宜单食。
+            2.螃蟹的鳃、沙包、内脏含有大量细菌和毒素，吃时一定要去掉。
+            3.蒸蟹时应将蟹捆住，防止蒸后掉腿和流黄。生螃蟹去壳时,先用开水烫3分钟,这样蟹肉很容易取下,且不浪费。
+        </rawdata>
+
+        <segment>
+            螃蟹  性咸寒  ，  又  是  食腐  动物  ，  所以  吃  时必蘸  姜末  醋汁  来  祛寒  杀菌  ，  不  宜  单食  。
+            螃蟹  的鳃  、  沙包  、  内脏  含有  大量  细菌  和  毒素  ，  吃  时  一定  要  去掉  。
+            蒸蟹  时  应将蟹  捆住  ，  防止  蒸后  掉  腿  和  流黄  。  生  螃蟹  去壳  时  ,  先用  开水  烫  3  分钟  ,  这样  蟹肉  很  容易  取下  ,  且  不  浪费  。
+        </segment>
+
+        <pos>
+            螃蟹#NR  性咸寒#VV  ，#PU  又#AD  是#VC  食腐#JJ  动物#NN  ，#PU  所以#AD  吃#VV  时必蘸#NN  姜末#NN  醋汁#NN  来#MSP  祛寒#VV  杀菌#NN  ，#PU  不#AD  宜#NR  单食#VV  。#PU
+            螃蟹#VV  的鳃#NR  、#PU  沙包#NR  、#PU  内脏#NR  含有#NR  大量#CD  细菌#NN  和#CC  毒素#NN  ，#PU  吃#VV  时#LC  一定#AD  要#VV  去掉#VV  。#PU
+            蒸蟹#NN  时#LC  应将蟹#NN  捆住#VV  ，#PU  防止#VV  蒸后#AD  掉#VV  腿#NN  和#CC  流黄#NN    。#PU  生#VV  螃蟹#NN  去壳#NN  时#LC  ,#NN  先用#NN  开水#AD  烫#VV  3#CD  分钟#M  ,#NN  这样#AD  蟹肉#NN  很#AD  容易#VA  取下#VV  ,#NN  且#CC  不#AD  浪费#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性咸寒#VV, 螃蟹#NR)  (xsubj, 单食#VV, 螃蟹#NR)  (root, ROOT#null, 性咸寒#VV)  (advmod, 动物#NN, 又#AD)  (cop, 动物#NN, 是#VC)  (amod, 动物#NN, 食腐#JJ)  (dep, 单食#VV, 动物#NN)  (advmod, 单食#VV, 所以#AD)  (dep, 单食#VV, 吃#VV)  (nn, 醋汁#NN, 时必蘸#NN)  (nn, 醋汁#NN, 姜末#NN)  (dobj, 吃#VV, 醋汁#NN)  (prtmod, 祛寒#VV, 来#MSP)  (conj, 吃#VV, 祛寒#VV)  (dobj, 祛寒#VV, 杀菌#NN)  (neg, 单食#VV, 不#AD)  (prep, 单食#VV, 宜#NR)  (ccomp, 性咸寒#VV, 单食#VV)
+            (root, ROOT#null, 螃蟹#VV)  (conj, 含有#NR, 的鳃#NR)  (conj, 含有#NR, 沙包#NR)  (nn, 含有#NR, 内脏#NR)  (nn, 毒素#NN, 含有#NR)  (nummod, 毒素#NN, 大量#CD)  (conj, 毒素#NN, 细菌#NN)  (cc, 毒素#NN, 和#CC)  (dobj, 螃蟹#VV, 毒素#NN)  (loc, 去掉#VV, 吃#VV)  (case, 吃#VV, 时#LC)  (advmod, 去掉#VV, 一定#AD)  (dep, 去掉#VV, 要#VV)  (conj, 螃蟹#VV, 去掉#VV)
+            (dep, 应将蟹#NN, 蒸蟹#NN)  (case, 蒸蟹#NN, 时#LC)  (nsubj, 捆住#VV, 应将蟹#NN)  (root, ROOT#null, 捆住#VV)  (ccomp, 捆住#VV, 防止#VV)  (advmod, 掉#VV, 蒸后#AD)  (ccomp, 防止#VV, 掉#VV)  (conj, 流黄#NN, 腿#NN)  (cc, 流黄#NN, 和#CC)  (dobj, 掉#VV, 流黄#NN)   (loc, 烫#VV, 生#VV)  (nn, 去壳#NN, 螃蟹#NN)  (dobj, 生#VV, 去壳#NN)  (case, 生#VV, 时#LC)  (nsubj, 烫#VV, 先用#NN)  (advmod, 烫#VV, 开水#AD)  (root, ROOT#null, 烫#VV)  (nummod, 分钟#M, 3#CD)  (clf, ,#NN, 分钟#M)  (advmod, 容易#VA, 这样#AD)  (nsubj, 容易#VA, 蟹肉#NN)  (advmod, 容易#VA, 很#AD)  (conj, 烫#VV, 容易#VA)  (conj, 烫#VV, 取下#VV)  (cc, 取下#VV, 且#CC)  (neg, 浪费#VV, 不#AD)  (dep, 取下#VV, 浪费#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101042116880.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

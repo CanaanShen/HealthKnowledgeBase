@@ -1,0 +1,180 @@
+<content>
+
+    <id>
+        397
+    </id>
+
+    <foodname>
+        西米
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        西谷米、沙谷米、沙弧米
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有糖尿病者忌食。
+        </rawdata>
+
+        <segment>
+            患有  糖尿  病者  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  糖尿#AD  病者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 病者#VV, 患有#NN)  (advmod, 病者#VV, 糖尿#AD)  (root, ROOT#null, 病者#VV)  (dobj, 病者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜体质虚弱、产后病后恢复期、消化不良、神疲乏力者；肺气虚、肺结核、肺痿咳嗽者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  体质  虚弱  、  产后  病  后  恢复期  、  消化不良  、  神疲  乏力者  ；  肺  气虚  、  肺结核  、  肺痿  咳嗽  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  体质#NN  虚弱#NN  、#PU  产后#NN  病#NN  后#LC  恢复期#NR  、#PU  消化不良#NR  、#PU  神疲#NR  乏力者#VV  ；#PU  肺#NN  气虚#NR  、#PU  肺结核#NR  、#PU  肺痿#NR  咳嗽#VV  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 乏力者#VV, 尤#NR)  (loc, 乏力者#VV, 适宜#VV)  (nn, 病#NN, 体质#NN)  (conj, 病#NN, 虚弱#NN)  (nn, 病#NN, 产后#NN)  (dobj, 适宜#VV, 病#NN)  (case, 适宜#VV, 后#LC)  (conj, 神疲#NR, 恢复期#NR)  (conj, 神疲#NR, 消化不良#NR)  (nsubj, 乏力者#VV, 神疲#NR)  (root, ROOT#null, 乏力者#VV)  (nsubj, 咳嗽#VV, 肺#NN)  (conj, 肺痿#NR, 气虚#NR)  (conj, 肺痿#NR, 肺结核#NR)  (nsubj, 咳嗽#VV, 肺痿#NR)  (ccomp, 乏力者#VV, 咳嗽#VV)  (dobj, 咳嗽#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                358
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            西米，又叫做西谷米，最为传统的是从西谷椰树的木髓部提取的淀粉，经过手工加工制成。西谷米产于南洋群岛一带，是取棕榈科植物莎木的木髓部，用普通制淀粉法，经过粉碎、筛浆过滤、反复漂洗、沉淀、干燥等过程制取的淀粉。淀粉晒至半干燥时，摇成细粒，再行晒干，即为西谷米，质净色白者名真珠西谷，白净滑糯，营养颇丰。
+        </rawdata>
+
+        <segment>
+            西米  ，  又  叫做  西谷米  ，  最为  传统  的  是  从  西谷  椰树  的  木髓  部  提取  的  淀粉  ，  经过  手工  加工  制成  。  西谷米  产于  南洋  群岛  一带  ，  是  取  棕榈科  植物  莎木  的  木髓部  ，  用  普通  制  淀粉法  ，  经过  粉碎  、  筛  浆  过滤  、  反复  漂洗  、  沉淀  、  干燥  等  过程  制取  的  淀粉  。  淀粉  晒  至  半干燥  时  ，  摇成  细粒  ，  再  行  晒干  ，  即  为  西谷米  ，  质  净  色白  者  名  真珠  西谷  ，  白净  滑糯  ，  营养  颇  丰  。
+        </segment>
+
+        <pos>
+            西米#VV  ，#PU  又#AD  叫做#VV  西谷米#NN  ，#PU  最为#AD  传统#VA  的#DEC  是#VC  从#P  西谷#NN  椰树#NN  的#DEG  木髓#CD  部#M  提取#VV  的#DEC  淀粉#NN  ，#PU  经过#P  手工#NN  加工#NN  制成#VV    。#PU  西谷米#NN  产于#AD  南洋#VV  群岛#NN  一带#CD  ，#PU  是#VC  取#VV  棕榈科#NN  植物#NN  莎木#NN  的#DEC  木髓部#NN  ，#PU  用#P  普通#JJ  制#NN  淀粉法#VV  ，#PU  经过#P  粉碎#VA  、#PU  筛#VA  浆#VV  过滤#NR  、#PU  反复#JJ  漂洗#NN  、#PU  沉淀#NR  、#PU  干燥#NR  等#ETC  过程#NN  制取#NN  的#DEG  淀粉#NN    。#PU  淀粉#NR  晒#VV  至#P  半干燥#NN  时#LC  ，#PU  摇成#VV  细粒#NN  ，#PU  再#AD  行#VV  晒干#NN  ，#PU  即#AD  为#P  西谷米#VV  ，#PU  质#NN  净#AD  色白#VV  者#NN  名#NN  真珠#NN  西谷#NN  ，#PU  白净#NN  滑糯#NN  ，#PU  营养#VA  颇#AD  丰#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 西米#VV)  (advmod, 叫做#VV, 又#AD)  (ccomp, 西米#VV, 叫做#VV)  (dobj, 叫做#VV, 西谷米#NN)  (advmod, 传统#VA, 最为#AD)  (nsubj, 淀粉#NN, 传统#VA)  (mark, 传统#VA, 的#DEC)  (cop, 淀粉#NN, 是#VC)  (case, 部#M, 从#P)  (nn, 椰树#NN, 西谷#NN)  (assmod, 部#M, 椰树#NN)  (case, 椰树#NN, 的#DEG)  (nummod, 部#M, 木髓#CD)  (prep, 提取#VV, 部#M)  (relcl, 淀粉#NN, 提取#VV)  (mark, 提取#VV, 的#DEC)  (dep, 叫做#VV, 淀粉#NN)  (case, 加工#NN, 经过#P)  (nn, 加工#NN, 手工#NN)  (prep, 制成#VV, 加工#NN)  (conj, 叫做#VV, 制成#VV)   (nsubj, 南洋#VV, 西谷米#NN)  (advmod, 南洋#VV, 产于#AD)  (root, ROOT#null, 南洋#VV)  (dobj, 南洋#VV, 群岛#NN)  (range, 南洋#VV, 一带#CD)  (cop, 木髓部#NN, 是#VC)  (relcl, 木髓部#NN, 取#VV)  (nn, 植物#NN, 棕榈科#NN)  (nn, 莎木#NN, 植物#NN)  (dobj, 取#VV, 莎木#NN)  (mark, 取#VV, 的#DEC)  (conj, 南洋#VV, 木髓部#NN)  (case, 制#NN, 用#P)  (amod, 制#NN, 普通#JJ)  (prep, 淀粉法#VV, 制#NN)  (conj, 南洋#VV, 淀粉法#VV)  (case, 粉碎#VA, 经过#P)  (prep, 浆#VV, 粉碎#VA)  (dep, 粉碎#VA, 筛#VA)  (conj, 南洋#VV, 浆#VV)  (conj, 干燥#NR, 过滤#NR)  (amod, 漂洗#NN, 反复#JJ)  (conj, 干燥#NR, 漂洗#NN)  (conj, 干燥#NR, 沉淀#NR)  (nn, 制取#NN, 干燥#NR)  (etc, 干燥#NR, 等#ETC)  (nn, 制取#NN, 过程#NN)  (assmod, 淀粉#NN, 制取#NN)  (case, 制取#NN, 的#DEG)  (dobj, 浆#VV, 淀粉#NN)   (nsubj, 摇成#VV, 淀粉#NR)  (mmod, 摇成#VV, 晒#VV)  (case, 半干燥#NN, 至#P)  (prep, 摇成#VV, 半干燥#NN)  (case, 半干燥#NN, 时#LC)  (root, ROOT#null, 摇成#VV)  (dobj, 摇成#VV, 细粒#NN)  (advmod, 行#VV, 再#AD)  (conj, 摇成#VV, 行#VV)  (dobj, 行#VV, 晒干#NN)  (advmod, 丰#VA, 即#AD)  (case, 西谷米#VV, 为#P)  (prep, 丰#VA, 西谷米#VV)  (nsubj, 色白#VV, 质#NN)  (advmod, 色白#VV, 净#AD)  (ccomp, 西谷米#VV, 色白#VV)  (nn, 西谷#NN, 者#NN)  (nn, 西谷#NN, 名#NN)  (nn, 西谷#NN, 真珠#NN)  (dobj, 色白#VV, 西谷#NN)  (nn, 滑糯#NN, 白净#NN)  (nsubj, 营养#VA, 滑糯#NN)  (conj, 色白#VV, 营养#VA)  (advmod, 丰#VA, 颇#AD)  (conj, 摇成#VV, 丰#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            西米有健脾，补肺，化痰的功效，有治脾胃虚弱和消化不良的作用；西米还有使皮肤恢复天然润泽的功能。
+        </rawdata>
+
+        <segment>
+            西米  有  健脾  ，  补  肺  ，  化痰  的  功效  ，  有治  脾胃  虚弱  和  消化不良  的  作用  ；  西米  还有  使  皮肤  恢复  天然  润泽  的  功能  。
+        </segment>
+
+        <pos>
+            西米#NN  有#VE  健脾#NN  ，#PU  补#VV  肺#NN  ，#PU  化痰#NN  的#DEG  功效#NN  ，#PU  有治#AD  脾胃#VV  虚弱#NN  和#CC  消化不良#NN  的#DEG  作用#NN  ；#PU  西米#NN  还有#AD  使#VV  皮肤#NN  恢复#VV  天然#JJ  润泽#NN  的#DEG  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 西米#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 健脾#NN)  (conj, 有#VE, 补#VV)  (dobj, 补#VV, 肺#NN)  (assmod, 功效#NN, 化痰#NN)  (case, 化痰#NN, 的#DEG)  (nsubj, 脾胃#VV, 功效#NN)  (advmod, 脾胃#VV, 有治#AD)  (conj, 有#VE, 脾胃#VV)  (conj, 消化不良#NN, 虚弱#NN)  (cc, 消化不良#NN, 和#CC)  (assmod, 作用#NN, 消化不良#NN)  (case, 消化不良#NN, 的#DEG)  (dobj, 脾胃#VV, 作用#NN)  (nsubj, 使#VV, 西米#NN)  (advmod, 使#VV, 还有#AD)  (conj, 有#VE, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 恢复#VV)  (amod, 润泽#NN, 天然#JJ)  (assmod, 功能#NN, 润泽#NN)  (case, 润泽#NN, 的#DEG)  (dobj, 恢复#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            西米煮法：（适用于即煮即食）
+            1.先放相当于西米4-5倍的清水煮到沸点。
+            2.然后将西米倒入煮沸的开水中，要不停地搅到西米，煮约10-15分钟直到发现西米已变得透明或西米粒内层无任何乳白色圆点，则表明西米已煮熟。
+            3.若有必要，在煮的过程中也可加水，也可在将要煮透前，停火，封盖，几分钟。
+            4.加糖、椰浆及杂果等配料后搅动，即可食用。
+        </rawdata>
+
+        <segment>
+            西米  煮  法  ：  （  适用  于  即  煮  即食  ）
+            先  放  相当于  西米  4-5  倍  的  清水  煮  到  沸点  。
+            然后  将  西米  倒入  煮沸  的  开水  中  ，  要不停  地  搅到  西米  ，  煮  约  10  -  15  分钟  直  到  发现  西米  已  变得  透明  或  西米  粒  内层  无  任何  乳白色  圆点  ，  则  表明  西米  已  煮熟  。
+            若有  必要  ，  在  煮  的  过程  中  也  可  加水  ，  也  可  在  将要  煮  透  前  ，  停火  ，  封盖  ，  几  分钟  。
+            加糖  、  椰浆  及  杂果  等  配料  后  搅动  ，  即  可  食用  。
+        </segment>
+
+        <pos>
+            西米#NR  煮#NR  法#NN  ：#PU  （#PU  适用#NN  于#P  即#NN  煮#AD  即食#VV  ）#NN
+            先#AD  放#VV  相当于#VV  西米#NN  4-5#CD  倍#M  的#DEC  清水#NN  煮#VV  到#VV  沸点#NN  。#PU
+            然后#AD  将#AD  西米#VV  倒入#NN  煮沸#NN  的#DEC  开水#NN  中#LC  ，#PU  要不停#VA  地#DEV  搅到#VV  西米#NN  ，#PU  煮#VV  约#AD  10#CD  -#NN  15#CD  分钟#M  直#AD  到#P  发现#NN  西米#NN  已#AD  变得#VV  透明#VA  或#CC  西米#NN  粒#NN  内层#AD  无#VE  任何#DT  乳白色#NN  圆点#NN  ，#PU  则#AD  表明#VV  西米#AD  已#AD  煮熟#VV  。#PU
+            若有#VV  必要#NN  ，#PU  在#P  煮#VV  的#DEC  过程#NN  中#LC  也#AD  可#VV  加水#VV  ，#PU  也#AD  可#VV  在#P  将要#AD  煮#VV  透#NN  前#LC  ，#PU  停火#VV  ，#PU  封盖#VV  ，#PU  几#CD  分钟#M  。#PU
+            加糖#NR  、#PU  椰浆#NR  及#CC  杂果#NR  等#ETC  配料#NN  后#LC  搅动#VV  ，#PU  即#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 即食#VV, 西米#NR)  (dep, 即食#VV, 煮#NR)  (dep, 即食#VV, 法#NN)  (dep, 即食#VV, 适用#NN)  (dep, 即食#VV, 于#P)  (dep, 即食#VV, 即#NN)  (dep, 即食#VV, 煮#AD)  (root, ROOT#null, 即食#VV)
+            (advmod, 放#VV, 先#AD)  (root, ROOT#null, 放#VV)  (relcl, 清水#NN, 相当于#VV)  (dep, 倍#M, 西米#NN)  (nummod, 倍#M, 4-5#CD)  (range, 相当于#VV, 倍#M)  (mark, 相当于#VV, 的#DEC)  (dobj, 放#VV, 清水#NN)  (conj, 放#VV, 煮#VV)  (rcomp, 煮#VV, 到#VV)  (dobj, 煮#VV, 沸点#NN)
+            (advmod, 西米#VV, 然后#AD)  (advmod, 西米#VV, 将#AD)  (relcl, 开水#NN, 西米#VV)  (nn, 煮沸#NN, 倒入#NN)  (dobj, 西米#VV, 煮沸#NN)  (mark, 西米#VV, 的#DEC)  (loc, 搅到#VV, 开水#NN)  (case, 开水#NN, 中#LC)  (dvpmod, 搅到#VV, 要不停#VA)  (mark, 要不停#VA, 地#DEV)  (root, ROOT#null, 搅到#VV)  (dobj, 搅到#VV, 西米#NN)  (dep, 搅到#VV, 煮#VV)  (advmod, 分钟#M, 约#AD)  (nummod, -#NN, 10#CD)  (nummod, 分钟#M, 15#CD)  (range, 煮#VV, 分钟#M)  (prep, 煮#VV, 直#AD)  (case, 透明#VA, 到#P)  (nn, 西米#NN, 发现#NN)  (nsubj, 透明#VA, 西米#NN)  (advmod, 透明#VA, 已#AD)  (mmod, 透明#VA, 变得#VV)  (dep, 直#AD, 透明#VA)  (cc, 透明#VA, 或#CC)  (nn, 粒#NN, 西米#NN)  (nsubj, 无#VE, 粒#NN)  (advmod, 无#VE, 内层#AD)  (conj, 透明#VA, 无#VE)  (det, 乳白色#NN, 任何#DT)  (nn, 圆点#NN, 乳白色#NN)  (dobj, 无#VE, 圆点#NN)  (advmod, 表明#VV, 则#AD)  (conj, 搅到#VV, 表明#VV)  (advmod, 煮熟#VV, 西米#AD)  (advmod, 煮熟#VV, 已#AD)  (ccomp, 表明#VV, 煮熟#VV)
+            (root, ROOT#null, 若有#VV)  (dobj, 若有#VV, 必要#NN)  (case, 过程#NN, 在#P)  (relcl, 过程#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (prep, 加水#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (advmod, 加水#VV, 也#AD)  (dep, 加水#VV, 可#VV)  (conj, 若有#VV, 加水#VV)  (advmod, 停火#VV, 也#AD)  (mmod, 停火#VV, 可#VV)  (case, 煮#VV, 在#P)  (advmod, 煮#VV, 将要#AD)  (prep, 停火#VV, 煮#VV)  (dobj, 煮#VV, 透#NN)  (case, 煮#VV, 前#LC)  (conj, 若有#VV, 停火#VV)  (conj, 若有#VV, 封盖#VV)  (nummod, 分钟#M, 几#CD)  (conj, 若有#VV, 分钟#M)
+            (conj, 杂果#NR, 加糖#NR)  (conj, 杂果#NR, 椰浆#NR)  (cc, 杂果#NR, 及#CC)  (nn, 配料#NN, 杂果#NR)  (etc, 杂果#NR, 等#ETC)  (loc, 搅动#VV, 配料#NN)  (case, 配料#NN, 后#LC)  (root, ROOT#null, 搅动#VV)  (advmod, 食用#VV, 即#AD)  (dep, 食用#VV, 可#VV)  (ccomp, 搅动#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/09114901589.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,410 @@
+<content>
+
+    <id>
+        163
+    </id>
+
+    <foodname>
+        芥菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        芥、大芥、雪里蕻、皱叶芥、黄芥、霜不老、冲菜
+    </alias>
+
+    <season>
+        春、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            热性咳嗽患者、疮疖、目疾、痔疮、便血及内热偏盛者不宜食芥菜。高血压、血管硬化者应少食。
+        </rawdata>
+
+        <segment>
+            热性  咳嗽  患者  、  疮疖  、  目疾  、  痔疮  、  便血  及  内热  偏  盛  者  不  宜  食  芥菜  。  高血压  、  血管  硬化  者  应  少  食  。
+        </segment>
+
+        <pos>
+            热性#NN  咳嗽#NN  患者#NN  、#PU  疮疖#NR  、#PU  目疾#NR  、#PU  痔疮#NR  、#PU  便血#NR  及#CC  内热#NR  偏#AD  盛#VA  者#NN  不#AD  宜#NR  食#NN  芥菜#VV    。#PU  高血压#NN  、#PU  血管#NN  硬化#NN  者#NN  应#VV  少#VV  食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 热性#NN)  (nn, 患者#NN, 咳嗽#NN)  (conj, 者#NN, 患者#NN)  (conj, 内热#NR, 疮疖#NR)  (conj, 内热#NR, 目疾#NR)  (conj, 内热#NR, 痔疮#NR)  (conj, 内热#NR, 便血#NR)  (cc, 内热#NR, 及#CC)  (nsubj, 盛#VA, 内热#NR)  (advmod, 盛#VA, 偏#AD)  (relcl, 者#NN, 盛#VA)  (nsubj, 芥菜#VV, 者#NN)  (neg, 芥菜#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (prep, 芥菜#VV, 食#NN)  (root, ROOT#null, 芥菜#VV)   (conj, 硬化#NN, 高血压#NN)  (nn, 硬化#NN, 血管#NN)  (nn, 者#NN, 硬化#NN)  (nsubj, 少#VV, 者#NN)  (mmod, 少#VV, 应#VV)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜便秘、眼科患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  便秘  、  眼科  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  便秘#NN  、#PU  眼科#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 眼科#NN, 便秘#NN)  (nn, 患者#NN, 眼科#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                52
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                310
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                230
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                281
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                30.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            十字花科芸薹属一年生或二年生草本。中国著名的特产蔬菜，欧美各国极少栽培。起源于亚洲。芥菜的主侧根分布在约30厘米的土层内，茎为短缩茎。叶片着生短缩茎上，有椭圆、卵圆、倒卵圆、披针等形状。叶色绿、深绿、浅绿、黄绿、绿色间紫色或紫红。叶面平滑或皱缩。叶缘锯齿或波状，全缘或有深浅不同、大小不等的裂片。花冠十字形，黄色，四强雄蕊，异花传粉，但自交也能结实。种子圆形或椭圆形，色泽红褐或红色。
+            中国的芥菜主要有芥子菜、叶用芥菜、茎用芥菜、薹用芥菜、芽用芥菜和根用芥菜6个类型。芥菜喜冷凉润湿，忌炎热、干旱，稍耐霜冻。最适于食用器官生长的温度为8～15℃，一般叶用芥菜对温度要求较不严格。孕蕾、抽薹、开花结实需要经过低温春化和长日照条件。中国南北各地均以秋播为主。长江流域及西南、华南各地于冬季或次春收获，北方于霜冻前收获。芥菜含有硫代葡萄糖苷，经水解后产生挥发性的异硫氰酸化合物、硫氰酸化合物及其衍生物，具有特殊的风味和辛辣味。都可鲜食或加工。芥子菜的种子可磨研成末，供调味用。
+        </rawdata>
+
+        <segment>
+            十  字  花科  芸薹  属  一  年  生  或  二  年  生  草本  。  中国  著名  的  特产  蔬菜  ，  欧  美  各  国  极少  栽培  。  起源于  亚洲  。  芥菜  的  主  侧根  分布  在  约  30  厘米  的  土层  内  ，  茎为  短  缩茎  。  叶片  着  生  短  缩茎  上  ，  有  椭圆  、  卵圆  、  倒  卵  圆  、  披针  等  形状  。  叶色绿  、  深绿  、  浅绿  、  黄绿  、  绿色  间  紫色  或  紫红  。  叶面  平滑  或  皱缩  。  叶  缘  锯齿  或  波状  ，  全  缘  或  有  深浅  不同  、  大小不等  的  裂片  。  花冠  十字形  ，  黄色  ，  四  强  雄蕊  ，  异花传粉  ，  但  自交  也  能  结实  。  种子  圆形  或  椭圆形  ，  色泽  红褐  或  红色  。
+            中国  的  芥菜  主要  有  芥子  菜  、  叶用  芥菜  、  茎用  芥菜  、  薹用  芥菜  、  芽  用  芥菜  和  根用  芥菜  6  个  类型  。  芥菜  喜  冷  凉  润湿  ，  忌  炎热  、  干旱  ，  稍  耐  霜冻  。  最适  于  食用  器官  生长  的  温度  为  8～15  ℃  ，  一般  叶  用  芥菜  对  温度  要求  较  不  严格  。  孕蕾  、  抽薹  、  开花  结实  需要  经过  低温  春化  和  长  日照  条件  。  中国  南北  各  地  均  以  秋播  为主  。  长江  流域  及  西南  、  华南  各  地  于  冬季  或  次  春  收获  ，  北方  于  霜冻  前  收获  。  芥菜  含有  硫代  葡萄  糖苷  ，  经  水解  后  产生  挥发性  的  异硫  氰酸  化合物  、  硫  氰酸  化合物  及其  衍生物  ，  具有  特殊  的  风味  和  辛辣味  。  都  可  鲜食  或  加工  。  芥子  菜  的  种子  可  磨研  成  末  ，  供  调味  用  。
+        </segment>
+
+        <pos>
+            十#CD  字#M  花科#NN  芸薹#AD  属#VV  一#CD  年#M  生#VV  或#CC  二#CD  年#M  生#VV  草本#NN    。#PU  中国#NR  著名#VA  的#DEC  特产#NN  蔬菜#NN  ，#PU  欧#NR  美#NR  各#DT  国#NN  极少#AD  栽培#VV    。#PU  起源于#VV  亚洲#NR    。#PU  芥菜#NN  的#DEG  主#JJ  侧根#NN  分布#VV  在#P  约#AD  30#CD  厘米#M  的#DEG  土层#NN  内#LC  ，#PU  茎为#VV  短#JJ  缩茎#NN    。#PU  叶片#VV  着#AS  生#VV  短#JJ  缩茎#NN  上#LC  ，#PU  有#VE  椭圆#NN  、#PU  卵圆#NN  、#PU  倒#VV  卵#NN  圆#VV  、#PU  披针#NN  等#ETC  形状#NN    。#PU  叶色绿#NN  、#PU  深绿#NN  、#PU  浅绿#NN  、#PU  黄绿#NN  、#PU  绿色#NN  间#LC  紫色#VV  或#CC  紫红#VV    。#PU  叶面#NN  平滑#NN  或#CC  皱缩#NN    。#PU  叶#NR  缘#VV  锯齿#NR  或#CC  波状#NR  ，#PU  全#DT  缘#NN  或#CC  有#VE  深浅#NN  不同#VA  、#PU  大小不等#VA  的#DEC  裂片#NN    。#PU  花冠#VV  十字形#CD  ，#PU  黄色#JJ  ，#PU  四#CD  强#NN  雄蕊#VV  ，#PU  异花传粉#NN  ，#PU  但#AD  自交#NN  也#AD  能#VV  结实#VA    。#PU  种子#NN  圆形#NN  或#CC  椭圆形#NN  ，#PU  色泽#NN  红褐#VV  或#CC  红色#JJ    。#PU    。#PU
+            中国#NR  的#DEG  芥菜#NN  主要#AD  有#VE  芥子#NN  菜#NN  、#PU  叶用#NN  芥菜#NN  、#PU  茎用#NN  芥菜#NN  、#PU  薹用#NN  芥菜#NN  、#PU  芽#NN  用#P  芥菜#NN  和#CC  根用#NN  芥菜#VV  6#CD  个#M  类型#NN    。#PU  芥菜#NN  喜#AD  冷#VV  凉#NN  润湿#NN  ，#PU  忌#VV  炎热#NN  、#PU  干旱#NN  ，#PU  稍#VV  耐#NN  霜冻#NN    。#PU  最适#NR  于#P  食用#VV  器官#NN  生长#NN  的#DEC  温度#NN  为#P  8#CD  ～#NN  15#CD  ℃#NN  ，#PU  一般#JJ  叶#NN  用#VV  芥菜#NN  对#P  温度#NN  要求#VV  较#AD  不#AD  严格#VA    。#PU  孕蕾#JJ  、#PU  抽薹#JJ  、#PU  开花#JJ  结实#VA  需要#NN  经过#P  低温#NN  春化#VV  和#CC  长#VV  日照#NR  条件#NN    。#PU  中国#NR  南北#NN  各#DT  地#NN  均#AD  以#P  秋播#NN  为主#VV    。#PU  长江#NR  流域#NN  及#CC  西南#NN  、#PU  华南#NR  各#DT  地#NN  于#P  冬季#NN  或#CC  次#M  春#NT  收获#NN  ，#PU  北方#NN  于#P  霜冻#NN  前#LC  收获#NN    。#PU  芥菜#AD  含有#VV  硫代#NN  葡萄#NN  糖苷#NN  ，#PU  经#P  水解#NN  后#LC  产生#VV  挥发性#NN  的#DEC  异硫#NN  氰酸#NN  化合物#NN  、#PU  硫#NN  氰酸#NN  化合物#NN  及其#AD  衍生物#VV  ，#PU  具有#VV  特殊#VA  的#DEC  风味#NN  和#CC  辛辣味#NN    。#PU  都#AD  可#VV  鲜食#VV  或#CC  加工#VV    。#PU  芥子#NN  菜#NN  的#DEG  种子#NN  可#VV  磨研#AD  成#VV  末#LC  ，#PU  供#NN  调味#NN  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 字#M, 十#CD)  (clf, 花科#NN, 字#M)  (nsubj, 属#VV, 花科#NN)  (advmod, 属#VV, 芸薹#AD)  (root, ROOT#null, 属#VV)  (nummod, 年#M, 一#CD)  (range, 属#VV, 年#M)  (conj, 属#VV, 生#VV)  (cc, 属#VV, 或#CC)  (nummod, 年#M, 二#CD)  (dep, 生#VV, 年#M)  (conj, 属#VV, 生#VV)  (dobj, 生#VV, 草本#NN)   (nsubj, 栽培#VV, 中国#NR)  (relcl, 蔬菜#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nn, 蔬菜#NN, 特产#NN)  (nsubj, 栽培#VV, 蔬菜#NN)  (nn, 美#NR, 欧#NR)  (nn, 国#NN, 美#NR)  (det, 国#NN, 各#DT)  (nsubj, 栽培#VV, 国#NN)  (advmod, 栽培#VV, 极少#AD)  (root, ROOT#null, 栽培#VV)   (root, ROOT#null, 起源于#VV)  (dobj, 起源于#VV, 亚洲#NR)   (assmod, 侧根#NN, 芥菜#NN)  (case, 芥菜#NN, 的#DEG)  (amod, 侧根#NN, 主#JJ)  (nsubj, 分布#VV, 侧根#NN)  (root, ROOT#null, 分布#VV)  (case, 土层#NN, 在#P)  (advmod, 厘米#M, 约#AD)  (nummod, 厘米#M, 30#CD)  (assmod, 土层#NN, 厘米#M)  (case, 厘米#M, 的#DEG)  (prep, 分布#VV, 土层#NN)  (case, 土层#NN, 内#LC)  (dep, 分布#VV, 茎为#VV)  (amod, 缩茎#NN, 短#JJ)  (dobj, 茎为#VV, 缩茎#NN)   (root, ROOT#null, 叶片#VV)  (asp, 叶片#VV, 着#AS)  (ccomp, 叶片#VV, 生#VV)  (amod, 缩茎#NN, 短#JJ)  (loc, 生#VV, 缩茎#NN)  (case, 缩茎#NN, 上#LC)  (dep, 叶片#VV, 有#VE)  (dep, 形状#NN, 椭圆#NN)  (conj, 椭圆#NN, 卵圆#NN)  (conj, 椭圆#NN, 倒#VV)  (dobj, 倒#VV, 卵#NN)  (conj, 倒#VV, 圆#VV)  (dep, 椭圆#NN, 披针#NN)  (etc, 披针#NN, 等#ETC)  (dobj, 有#VE, 形状#NN)   (conj, 绿色#NN, 叶色绿#NN)  (conj, 绿色#NN, 深绿#NN)  (conj, 绿色#NN, 浅绿#NN)  (conj, 绿色#NN, 黄绿#NN)  (loc, 紫色#VV, 绿色#NN)  (case, 绿色#NN, 间#LC)  (root, ROOT#null, 紫色#VV)  (cc, 紫色#VV, 或#CC)  (conj, 紫色#VV, 紫红#VV)   (nn, 皱缩#NN, 叶面#NN)  (conj, 皱缩#NN, 平滑#NN)  (cc, 皱缩#NN, 或#CC)  (root, ROOT#null, 皱缩#NN)   (nsubj, 缘#VV, 叶#NR)  (root, ROOT#null, 缘#VV)  (conj, 波状#NR, 锯齿#NR)  (cc, 波状#NR, 或#CC)  (dep, 缘#NN, 波状#NR)  (det, 缘#NN, 全#DT)  (dobj, 缘#VV, 缘#NN)  (cc, 缘#VV, 或#CC)  (conj, 缘#VV, 有#VE)  (nsubj, 不同#VA, 深浅#NN)  (relcl, 裂片#NN, 不同#VA)  (dep, 不同#VA, 大小不等#VA)  (mark, 不同#VA, 的#DEC)  (dobj, 有#VE, 裂片#NN)   (dep, 结实#VA, 花冠#VV)  (range, 花冠#VV, 十字形#CD)  (conj, 花冠#VV, 黄色#JJ)  (nummod, 强#NN, 四#CD)  (nsubj, 雄蕊#VV, 强#NN)  (dep, 花冠#VV, 雄蕊#VV)  (nsubj, 能#VV, 异花传粉#NN)  (advmod, 能#VV, 但#AD)  (nsubj, 能#VV, 自交#NN)  (advmod, 能#VV, 也#AD)  (ccomp, 雄蕊#VV, 能#VV)  (root, ROOT#null, 结实#VA)   (nsubj, 红褐#VV, 种子#NN)  (conj, 椭圆形#NN, 圆形#NN)  (cc, 椭圆形#NN, 或#CC)  (nsubj, 红褐#VV, 椭圆形#NN)  (nsubj, 红褐#VV, 色泽#NN)  (root, ROOT#null, 红褐#VV)  (cc, 红褐#VV, 或#CC)  (dep, 红褐#VV, 红色#JJ)   (root, ROOT#null, null#null)
+            (assmod, 芥菜#NN, 中国#NR)  (case, 中国#NR, 的#DEG)  (nsubj, 有#VE, 芥菜#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nn, 薹用#NN, 芥子#NN)  (conj, 薹用#NN, 菜#NN)  (nn, 薹用#NN, 叶用#NN)  (conj, 薹用#NN, 芥菜#NN)  (nn, 薹用#NN, 茎用#NN)  (conj, 薹用#NN, 芥菜#NN)  (nn, 芽#NN, 薹用#NN)  (conj, 芽#NN, 芥菜#NN)  (nsubj, 芥菜#VV, 芽#NN)  (case, 根用#NN, 用#P)  (conj, 根用#NN, 芥菜#NN)  (cc, 根用#NN, 和#CC)  (prep, 芥菜#VV, 根用#NN)  (dep, 有#VE, 芥菜#VV)  (nummod, 个#M, 6#CD)  (clf, 类型#NN, 个#M)  (dobj, 芥菜#VV, 类型#NN)   (nsubj, 冷#VV, 芥菜#NN)  (advmod, 冷#VV, 喜#AD)  (root, ROOT#null, 冷#VV)  (nn, 润湿#NN, 凉#NN)  (dobj, 冷#VV, 润湿#NN)  (conj, 冷#VV, 忌#VV)  (conj, 干旱#NN, 炎热#NN)  (dobj, 忌#VV, 干旱#NN)  (conj, 冷#VV, 稍#VV)  (nn, 霜冻#NN, 耐#NN)  (dobj, 稍#VV, 霜冻#NN)   (nsubj, 要求#VV, 最适#NR)  (xsubj, 严格#VA, 最适#NR)  (case, 温度#NN, 于#P)  (relcl, 温度#NN, 食用#VV)  (nn, 生长#NN, 器官#NN)  (dobj, 食用#VV, 生长#NN)  (mark, 食用#VV, 的#DEC)  (prep, 要求#VV, 温度#NN)  (case, 用#VV, 为#P)  (nummod, ～#NN, 8#CD)  (nummod, ℃#NN, 15#CD)  (nsubj, 用#VV, ℃#NN)  (amod, 叶#NN, 一般#JJ)  (nsubj, 用#VV, 叶#NN)  (prep, 要求#VV, 用#VV)  (dobj, 用#VV, 芥菜#NN)  (case, 温度#NN, 对#P)  (prep, 要求#VV, 温度#NN)  (root, ROOT#null, 要求#VV)  (advmod, 严格#VA, 较#AD)  (neg, 严格#VA, 不#AD)  (ccomp, 要求#VV, 严格#VA)   (amod, 需要#NN, 孕蕾#JJ)  (conj, 孕蕾#JJ, 抽薹#JJ)  (dep, 孕蕾#JJ, 开花#JJ)  (relcl, 需要#NN, 结实#VA)  (nsubj, 春化#VV, 需要#NN)  (case, 低温#NN, 经过#P)  (prep, 春化#VV, 低温#NN)  (root, ROOT#null, 春化#VV)  (cc, 春化#VV, 和#CC)  (dep, 春化#VV, 长#VV)  (nn, 条件#NN, 日照#NR)  (dobj, 长#VV, 条件#NN)   (nn, 南北#NN, 中国#NR)  (nn, 地#NN, 南北#NN)  (det, 地#NN, 各#DT)  (nsubj, 为主#VV, 地#NN)  (advmod, 为主#VV, 均#AD)  (case, 秋播#NN, 以#P)  (prep, 为主#VV, 秋播#NN)  (root, ROOT#null, 为主#VV)   (nn, 流域#NN, 长江#NR)  (conj, 地#NN, 流域#NN)  (cc, 地#NN, 及#CC)  (conj, 地#NN, 西南#NN)  (nn, 地#NN, 华南#NR)  (det, 地#NN, 各#DT)  (nsubj, 收获#NN, 地#NN)  (case, 收获#NN, 于#P)  (conj, 收获#NN, 冬季#NN)  (cc, 收获#NN, 或#CC)  (clf, 收获#NN, 次#M)  (nn, 收获#NN, 春#NT)  (prep, 收获#NN, 收获#NN)  (nsubj, 收获#NN, 北方#NN)  (case, 霜冻#NN, 于#P)  (prep, 收获#NN, 霜冻#NN)  (case, 霜冻#NN, 前#LC)  (root, ROOT#null, 收获#NN)   (advmod, 含有#VV, 芥菜#AD)  (relcl, 化合物#NN, 含有#VV)  (nn, 糖苷#NN, 硫代#NN)  (nn, 糖苷#NN, 葡萄#NN)  (dobj, 含有#VV, 糖苷#NN)  (case, 水解#NN, 经#P)  (prep, 产生#VV, 水解#NN)  (case, 水解#NN, 后#LC)  (dep, 含有#VV, 产生#VV)  (dobj, 产生#VV, 挥发性#NN)  (mark, 含有#VV, 的#DEC)  (nn, 化合物#NN, 异硫#NN)  (nn, 化合物#NN, 氰酸#NN)  (conj, 化合物#NN, 化合物#NN)  (nn, 化合物#NN, 硫#NN)  (nn, 化合物#NN, 氰酸#NN)  (nsubj, 衍生物#VV, 化合物#NN)  (advmod, 衍生物#VV, 及其#AD)  (root, ROOT#null, 衍生物#VV)  (ccomp, 衍生物#VV, 具有#VV)  (relcl, 辛辣味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (conj, 辛辣味#NN, 风味#NN)  (cc, 辛辣味#NN, 和#CC)  (dobj, 具有#VV, 辛辣味#NN)   (advmod, 鲜食#VV, 都#AD)  (mmod, 鲜食#VV, 可#VV)  (root, ROOT#null, 鲜食#VV)  (cc, 鲜食#VV, 或#CC)  (dep, 鲜食#VV, 加工#VV)   (nn, 菜#NN, 芥子#NN)  (assmod, 种子#NN, 菜#NN)  (case, 菜#NN, 的#DEG)  (nsubj, 成#VV, 种子#NN)  (mmod, 成#VV, 可#VV)  (advmod, 成#VV, 磨研#AD)  (loc, 用#VV, 成#VV)  (case, 成#VV, 末#LC)  (nsubj, 用#VV, 供#NN)  (nsubj, 用#VV, 调味#NN)  (root, ROOT#null, 用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            芥菜性温、味辛，归肺、胃经；有宣肺豁痰，利气温中，解毒消肿，开胃消食，温中利气，明目利膈；主治咳嗽痰滞、胸隔满闷、疮痈肿痛、耳目失聪、牙龈肿烂、寒腹痛、便秘等病症。
+            1.增强人体免疫力
+            增加对疾病的抵抗力。
+            2.解毒消肿
+            芥菜还有解毒消肿的功效，同时能抗感染和预防疾病的发生，促进伤口愈合。可用于辅助治疗感染性疾病。
+            3.止痛明目
+            芥菜含有丰富的维生素A维生素B和维生素D，在这些维生素共同的作用下可止生肌，促进十二指肠溃疡的愈合。所含的胡萝卜素有明目的作用，可作为眼科患者的食疗佳品。
+            4.开胃消食
+            芥菜的组织较粗硬，增加胃肠消化功能，促进胃肠蠕动，防止便秘。另外，芥菜腌制后有特殊的鲜味和香味，能促进胃肠消化功能，可用来开胃，帮助消化。
+        </rawdata>
+
+        <segment>
+            芥菜  性温  、  味辛  ，  归肺  、  胃经  ；  有  宣肺  豁痰  ，  利  气温  中  ，  解毒  消肿  ，  开胃  消食  ，  温中利气  ，  明目  利膈  ；  主治  咳嗽  痰滞  、  胸  隔  满  闷  、  疮痈  肿痛  、  耳目  失聪  、  牙龈  肿烂  、  寒  腹痛  、  便秘  等  病症  。
+            增强  人体  免疫力
+            增加  对  疾病  的  抵抗力  。
+            解毒  消肿
+            芥菜  还  有  解毒  消肿  的  功效  ，  同时  能  抗  感染  和  预防  疾病  的  发生  ，  促进  伤口  愈合  。  可  用于  辅助  治疗  感染性  疾病  。
+            止痛  明目
+            芥菜  含有  丰富  的  维生素A  维生素  B  和  维生素D  ，  在  这些  维生素  共同  的  作用  下  可  止  生肌  ，  促进  十二  指肠  溃疡  的  愈合  。  所含  的  胡萝卜素  有  明目  的  作用  ，  可  作为  眼科  患者  的  食疗  佳品  。
+            开胃  消食
+            芥菜  的  组织  较  粗硬  ，  增加  胃肠  消化  功能  ，  促进  胃肠  蠕动  ，  防止  便秘  。  另外  ，  芥菜  腌制  后  有  特殊  的  鲜味  和  香味  ，  能  促进  胃肠  消化  功能  ，  可  用来  开胃  ，  帮助  消化  。
+        </segment>
+
+        <pos>
+            芥菜#NR  性温#VA  、#PU  味辛#VA  ，#PU  归肺#VA  、#PU  胃经#VA  ；#PU  有#VE  宣肺#NN  豁痰#NN  ，#PU  利#NR  气温#CD  中#LC  ，#PU  解毒#VV  消肿#NN  ，#PU  开胃#VV  消食#NN  ，#PU  温中利气#VV  ，#PU  明目#VV  利膈#NN  ；#PU  主治#NR  咳嗽#NN  痰滞#NN  、#PU  胸#NN  隔#P  满#JJ  闷#NN  、#PU  疮痈#NN  肿痛#NN  、#PU  耳目#NN  失聪#NN  、#PU  牙龈#NN  肿烂#NN  、#PU  寒#JJ  腹痛#NN  、#PU  便秘#NN  等#ETC  病症#VV  。#PU
+            增强#VV  人体#NN  免疫力#NN
+            增加#VV  对#P  疾病#NN  的#DEG  抵抗力#NN  。#PU
+            解毒#NN  消肿#VV
+            芥菜#NN  还#AD  有#VE  解毒#NN  消肿#NN  的#DEG  功效#NN  ，#PU  同时#AD  能#VV  抗#VV  感染#NN  和#CC  预防#NN  疾病#NN  的#DEG  发生#NN  ，#PU  促进#VV  伤口#NN  愈合#NN    。#PU  可#VV  用于#VV  辅助#NN  治疗#NN  感染性#NN  疾病#NN    。#PU    。#PU
+            止痛#NN  明目#VV
+            芥菜#AD  含有#VV  丰富#VA  的#DEC  维生素A#NN  维生素#NN  B#NN  和#CC  维生素D#NN  ，#PU  在#P  这些#DT  维生素#NN  共同#JJ  的#DEG  作用#NN  下#LC  可#VV  止#VV  生肌#NN  ，#PU  促进#VV  十二#CD  指肠#NN  溃疡#NN  的#DEG  愈合#NN    。#PU  所含#NN  的#DEG  胡萝卜素#NN  有#VE  明目#NN  的#DEG  作用#NN  ，#PU  可#VV  作为#VV  眼科#NN  患者#NN  的#DEG  食疗#NN  佳品#NN    。#PU    。#PU
+            开胃#NN  消食#VV
+            芥菜#NN  的#DEG  组织#NN  较#AD  粗硬#VV  ，#PU  增加#VV  胃肠#NN  消化#NN  功能#NN  ，#PU  促进#VV  胃肠#NN  蠕动#NN  ，#PU  防止#VV  便秘#NN    。#PU  另外#AD  ，#PU  芥菜#NN  腌制#NN  后#LC  有#VE  特殊#VA  的#DEC  鲜味#NN  和#CC  香味#NN  ，#PU  能#VV  促进#VV  胃肠#NN  消化#NN  功能#NN  ，#PU  可#VV  用来#VV  开胃#NN  ，#PU  帮助#VV  消化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性温#VA, 芥菜#NR)  (root, ROOT#null, 性温#VA)  (dep, 性温#VA, 味辛#VA)  (conj, 性温#VA, 归肺#VA)  (dep, 归肺#VA, 胃经#VA)  (conj, 性温#VA, 有#VE)  (nn, 豁痰#NN, 宣肺#NN)  (dobj, 有#VE, 豁痰#NN)  (nsubj, 解毒#VV, 利#NR)  (loc, 解毒#VV, 气温#CD)  (case, 气温#CD, 中#LC)  (conj, 性温#VA, 解毒#VV)  (dobj, 解毒#VV, 消肿#NN)  (conj, 解毒#VV, 开胃#VV)  (dobj, 开胃#VV, 消食#NN)  (conj, 解毒#VV, 温中利气#VV)  (conj, 解毒#VV, 明目#VV)  (dobj, 明目#VV, 利膈#NN)  (nn, 胸#NN, 主治#NR)  (nn, 胸#NN, 咳嗽#NN)  (conj, 胸#NN, 痰滞#NN)  (nsubj, 病症#VV, 胸#NN)  (case, 便秘#NN, 隔#P)  (amod, 闷#NN, 满#JJ)  (conj, 便秘#NN, 闷#NN)  (nn, 肿痛#NN, 疮痈#NN)  (conj, 便秘#NN, 肿痛#NN)  (nn, 失聪#NN, 耳目#NN)  (conj, 便秘#NN, 失聪#NN)  (nn, 肿烂#NN, 牙龈#NN)  (conj, 便秘#NN, 肿烂#NN)  (amod, 腹痛#NN, 寒#JJ)  (conj, 便秘#NN, 腹痛#NN)  (prep, 病症#VV, 便秘#NN)  (etc, 便秘#NN, 等#ETC)  (conj, 性温#VA, 病症#VV)
+            (root, ROOT#null, 增强#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 增强#VV, 免疫力#NN)
+            (root, ROOT#null, 增加#VV)  (case, 疾病#NN, 对#P)  (assmod, 抵抗力#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 增加#VV, 抵抗力#NN)
+            (nsubj, 消肿#VV, 解毒#NN)  (root, ROOT#null, 消肿#VV)
+            (nsubj, 有#VE, 芥菜#NN)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (nn, 消肿#NN, 解毒#NN)  (assmod, 功效#NN, 消肿#NN)  (case, 消肿#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)  (advmod, 抗#VV, 同时#AD)  (mmod, 抗#VV, 能#VV)  (conj, 有#VE, 抗#VV)  (conj, 疾病#NN, 感染#NN)  (cc, 疾病#NN, 和#CC)  (nn, 疾病#NN, 预防#NN)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 抗#VV, 发生#NN)  (conj, 有#VE, 促进#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 促进#VV, 愈合#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 疾病#NN, 辅助#NN)  (nn, 疾病#NN, 治疗#NN)  (nn, 疾病#NN, 感染性#NN)  (dobj, 用于#VV, 疾病#NN)   (root, ROOT#null, null#null)
+            (nsubj, 明目#VV, 止痛#NN)  (root, ROOT#null, 明目#VV)
+            (advmod, 含有#VV, 芥菜#AD)  (root, ROOT#null, 含有#VV)  (relcl, 维生素D#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素D#NN, 维生素A#NN)  (nn, 维生素D#NN, 维生素#NN)  (conj, 维生素D#NN, B#NN)  (cc, 维生素D#NN, 和#CC)  (dobj, 含有#VV, 维生素D#NN)  (case, 作用#NN, 在#P)  (det, 维生素#NN, 这些#DT)  (nn, 作用#NN, 维生素#NN)  (assmod, 作用#NN, 共同#JJ)  (case, 共同#JJ, 的#DEG)  (prep, 止#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (mmod, 止#VV, 可#VV)  (conj, 含有#VV, 止#VV)  (dobj, 止#VV, 生肌#NN)  (dep, 含有#VV, 促进#VV)  (nummod, 指肠#NN, 十二#CD)  (nn, 溃疡#NN, 指肠#NN)  (assmod, 愈合#NN, 溃疡#NN)  (case, 溃疡#NN, 的#DEG)  (dobj, 促进#VV, 愈合#NN)   (assmod, 胡萝卜素#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nsubj, 有#VE, 胡萝卜素#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 明目#NN)  (case, 明目#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (mmod, 作为#VV, 可#VV)  (conj, 有#VE, 作为#VV)  (nn, 患者#NN, 眼科#NN)  (assmod, 佳品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 佳品#NN, 食疗#NN)  (dobj, 作为#VV, 佳品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 消食#VV, 开胃#NN)  (root, ROOT#null, 消食#VV)
+            (assmod, 组织#NN, 芥菜#NN)  (case, 芥菜#NN, 的#DEG)  (nsubj, 粗硬#VV, 组织#NN)  (advmod, 粗硬#VV, 较#AD)  (root, ROOT#null, 粗硬#VV)  (conj, 粗硬#VV, 增加#VV)  (nn, 功能#NN, 胃肠#NN)  (nn, 功能#NN, 消化#NN)  (dobj, 增加#VV, 功能#NN)  (conj, 粗硬#VV, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 粗硬#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)   (advmod, 有#VE, 另外#AD)  (nsubj, 有#VE, 芥菜#NN)  (loc, 有#VE, 腌制#NN)  (case, 腌制#NN, 后#LC)  (root, ROOT#null, 有#VE)  (relcl, 香味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (conj, 香味#NN, 鲜味#NN)  (cc, 香味#NN, 和#CC)  (dobj, 有#VE, 香味#NN)  (mmod, 促进#VV, 能#VV)  (conj, 有#VE, 促进#VV)  (nn, 消化#NN, 胃肠#NN)  (dobj, 促进#VV, 消化#NN)  (nsubj, 用来#VV, 功能#NN)  (mmod, 用来#VV, 可#VV)  (conj, 有#VE, 用来#VV)  (dobj, 用来#VV, 开胃#NN)  (dep, 用来#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        明目  促进消化  抗菌  消肿  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.芥菜含有丰富的维生素A、B族维生素、维生素C和维生素D。一颗芥菜中维生素C的含量是每日建议摄取量的1.5倍，而维生素E的含量也超过了每日建议摄取量的10%。
+            2.芥菜含有大量的纤维素和水分。
+            3.芥菜含有大量的抗坏血酸，是活性很强的还原物质，参与机体重要的氧化还原过程，能增加大脑中氧含量，激发大脑对氧的利用，有提神醒脑，解除疲劳的作用。
+            4.含有胡萝卜素和大量食用纤维素，故有明目与宽肠通便的作用，可作为眼科患者的食疗佳品，还可防治便秘，尤宜于老年人及习惯性秘者食用　　
+        </rawdata>
+
+        <segment>
+            芥菜  含有  丰富  的  维生素A  、  B  族  维生素  、  维生素C  和  维生素D  。  一  颗  芥菜  中  维生素C  的  含量  是  每  日  建议  摄取量  的  1.5  倍  ，  而  维生素E  的  含量  也  超过  了  每  日  建议  摄取量  的  10%  。
+            芥菜  含有  大量  的  纤维素  和  水分  。
+            芥菜  含有  大量  的  抗坏血酸  ，  是  活性  很  强  的  还原  物质  ，  参与  机体  重要  的  氧化  还原  过程  ，  能  增加  大脑  中氧  含量  ，  激发  大脑  对氧  的  利用  ，  有  提神  醒脑  ，  解除  疲劳  的  作用  。
+            含有  胡萝卜素  和  大量  食用  纤维素  ，  故  有  明目  与  宽肠  通便  的  作用  ，  可  作为  眼科  患者  的  食疗  佳品  ，  还可  防治  便秘  ，  尤  宜于  老年人  及  习惯性  秘者  食用
+        </segment>
+
+        <pos>
+            芥菜#NN  含有#VV  丰富#VA  的#DEC  维生素A#NN  、#PU  B#NN  族#NN  维生素#NN  、#PU  维生素C#NN  和#CC  维生素D#NN    。#PU  一#CD  颗#M  芥菜#NN  中#LC  维生素C#NN  的#DEG  含量#NN  是#VC  每#DT  日#M  建议#NN  摄取量#NN  的#DEG  1.5#CD  倍#M  ，#PU  而#CC  维生素E#NN  的#DEG  含量#NN  也#AD  超过#VV  了#AS  每#DT  日#M  建议#NN  摄取量#NN  的#DEG  10#CD  %#NN    。#PU    。#PU
+            芥菜#NN  含有#VV  大量#CD  的#DEG  纤维素#NN  和#CC  水分#NN  。#PU
+            芥菜#NN  含有#VV  大量#CD  的#DEG  抗坏血酸#NN  ，#PU  是#VC  活性#NN  很#AD  强#VA  的#DEC  还原#JJ  物质#NN  ，#PU  参与#VV  机体#AD  重要#VA  的#DEC  氧化#NR  还原#JJ  过程#NN  ，#PU  能#VV  增加#VV  大脑#NN  中氧#NN  含量#NN  ，#PU  激发#VV  大脑#NN  对氧#NN  的#DEG  利用#NN  ，#PU  有#VE  提神#NN  醒脑#NN  ，#PU  解除#VV  疲劳#VA  的#DEC  作用#NN  。#PU
+            含有#NR  胡萝卜素#VV  和#CC  大量#AD  食用#VV  纤维素#NN  ，#PU  故#AD  有#VE  明目#NN  与#CC  宽肠#NN  通便#NN  的#DEG  作用#NN  ，#PU  可#VV  作为#P  眼科#NN  患者#NN  的#DEG  食疗#NN  佳品#NN  ，#PU  还可#AD  防治#VV  便秘#NN  ，#PU  尤#VV  宜于#NN  老年人#NN  及#CC  习惯性#NN  秘者#NN  食用#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 芥菜#NN)  (root, ROOT#null, 含有#VV)  (relcl, 维生素D#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素D#NN, 维生素A#NN)  (nn, 维生素D#NN, B#NN)  (nn, 维生素D#NN, 族#NN)  (conj, 维生素D#NN, 维生素#NN)  (conj, 维生素D#NN, 维生素C#NN)  (cc, 维生素D#NN, 和#CC)  (dobj, 含有#VV, 维生素D#NN)   (nummod, 颗#M, 一#CD)  (clf, 芥菜#NN, 颗#M)  (loc, 是#VC, 芥菜#NN)  (case, 芥菜#NN, 中#LC)  (assmod, 含量#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (det, 建议#NN, 每#DT)  (clf, 每#DT, 日#M)  (nn, 摄取量#NN, 建议#NN)  (assmod, 倍#M, 摄取量#NN)  (case, 摄取量#NN, 的#DEG)  (nummod, 倍#M, 1.5#CD)  (dep, 是#VC, 倍#M)  (cc, 是#VC, 而#CC)  (assmod, 含量#NN, 维生素E#NN)  (case, 维生素E#NN, 的#DEG)  (nsubj, 超过#VV, 含量#NN)  (advmod, 超过#VV, 也#AD)  (conj, 是#VC, 超过#VV)  (asp, 超过#VV, 了#AS)  (det, 建议#NN, 每#DT)  (clf, 每#DT, 日#M)  (nn, 摄取量#NN, 建议#NN)  (assmod, %#NN, 摄取量#NN)  (case, 摄取量#NN, 的#DEG)  (nummod, %#NN, 10#CD)  (dobj, 超过#VV, %#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含有#VV, 芥菜#NN)  (root, ROOT#null, 含有#VV)  (assmod, 水分#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 水分#NN, 纤维素#NN)  (cc, 水分#NN, 和#CC)  (dobj, 含有#VV, 水分#NN)
+            (nsubj, 含有#VV, 芥菜#NN)  (root, ROOT#null, 含有#VV)  (assmod, 抗坏血酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 抗坏血酸#NN)  (cop, 物质#NN, 是#VC)  (nsubj, 强#VA, 活性#NN)  (advmod, 强#VA, 很#AD)  (relcl, 物质#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (amod, 物质#NN, 还原#JJ)  (conj, 含有#VV, 物质#NN)  (conj, 含有#VV, 参与#VV)  (advmod, 重要#VA, 机体#AD)  (relcl, 过程#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 过程#NN, 氧化#NR)  (amod, 过程#NN, 还原#JJ)  (dobj, 参与#VV, 过程#NN)  (mmod, 增加#VV, 能#VV)  (conj, 含有#VV, 增加#VV)  (nn, 含量#NN, 大脑#NN)  (nn, 含量#NN, 中氧#NN)  (dobj, 增加#VV, 含量#NN)  (conj, 含有#VV, 激发#VV)  (nn, 对氧#NN, 大脑#NN)  (assmod, 利用#NN, 对氧#NN)  (case, 对氧#NN, 的#DEG)  (dobj, 激发#VV, 利用#NN)  (conj, 含有#VV, 有#VE)  (nn, 醒脑#NN, 提神#NN)  (dobj, 有#VE, 醒脑#NN)  (conj, 含有#VV, 解除#VV)  (relcl, 作用#NN, 疲劳#VA)  (mark, 疲劳#VA, 的#DEC)  (dobj, 解除#VV, 作用#NN)
+            (nsubj, 胡萝卜素#VV, 含有#NR)  (xsubj, 食用#VV, 含有#NR)  (root, ROOT#null, 胡萝卜素#VV)  (cc, 食用#VV, 和#CC)  (advmod, 食用#VV, 大量#AD)  (ccomp, 胡萝卜素#VV, 食用#VV)  (dobj, 食用#VV, 纤维素#NN)  (advmod, 有#VE, 故#AD)  (dep, 食用#VV, 有#VE)  (conj, 宽肠#NN, 明目#NN)  (cc, 宽肠#NN, 与#CC)  (nn, 通便#NN, 宽肠#NN)  (assmod, 作用#NN, 通便#NN)  (case, 通便#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (mmod, 防治#VV, 可#VV)  (case, 佳品#NN, 作为#P)  (nn, 患者#NN, 眼科#NN)  (assmod, 佳品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 佳品#NN, 食疗#NN)  (prep, 防治#VV, 佳品#NN)  (advmod, 防治#VV, 还可#AD)  (dep, 食用#VV, 防治#VV)  (dobj, 防治#VV, 便秘#NN)  (dep, 食用#VV, 尤#VV)  (nn, 秘者#NN, 宜于#NN)  (conj, 秘者#NN, 老年人#NN)  (cc, 秘者#NN, 及#CC)  (nn, 秘者#NN, 习惯性#NN)  (dobj, 尤#VV, 秘者#NN)  (conj, 尤#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.芥菜主要用于配菜炒来吃，或煮成汤。
+            2.芥菜加茴香砂、甘草肉、桂姜粉腌制后，便成榨菜也很美味。
+            3.将芥叶连茎腌制，便是我们常见到雪里蕻。
+            4.另外芥菜不能生食、也不宜多食。
+        </rawdata>
+
+        <segment>
+            芥菜  主要  用于  配菜  炒  来  吃  ，  或  煮成  汤  。
+            芥菜  加  茴香  砂  、  甘草  肉  、  桂姜粉  腌制  后  ，  便  成  榨菜  也  很  美味  。
+            将  芥叶连茎  腌制  ，  便是  我们  常见  到  雪里蕻  。
+            另外  芥菜  不  能  生食  、  也  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            芥菜#NN  主要#AD  用于#VV  配菜#NN  炒#NN  来#MSP  吃#VV  ，#PU  或#CC  煮成#VV  汤#NN  。#PU
+            芥菜#NN  加#VV  茴香#NN  砂#NN  、#PU  甘草#NN  肉#NN  、#PU  桂姜粉#NN  腌制#NN  后#LC  ，#PU  便#AD  成#VV  榨菜#NN  也#AD  很#AD  美味#VV  。#PU
+            将#AD  芥叶连茎#VV  腌制#NN  ，#PU  便是#NN  我们#PN  常见#VA  到#CC  雪里蕻#VA  。#PU
+            另外#AD  芥菜#NN  不#AD  能#VV  生食#VV  、#PU  也#AD  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 用于#VV, 芥菜#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (nn, 炒#NN, 配菜#NN)  (dobj, 用于#VV, 炒#NN)  (prtmod, 吃#VV, 来#MSP)  (conj, 用于#VV, 吃#VV)  (cc, 用于#VV, 或#CC)  (dep, 用于#VV, 煮成#VV)  (dobj, 煮成#VV, 汤#NN)
+            (nsubj, 加#VV, 芥菜#NN)  (loc, 成#VV, 加#VV)  (nn, 腌制#NN, 茴香#NN)  (conj, 腌制#NN, 砂#NN)  (nn, 腌制#NN, 甘草#NN)  (conj, 腌制#NN, 肉#NN)  (nn, 腌制#NN, 桂姜粉#NN)  (dobj, 加#VV, 腌制#NN)  (case, 加#VV, 后#LC)  (advmod, 成#VV, 便#AD)  (root, ROOT#null, 成#VV)  (dobj, 成#VV, 榨菜#NN)  (advmod, 美味#VV, 也#AD)  (advmod, 美味#VV, 很#AD)  (dep, 成#VV, 美味#VV)
+            (advmod, 芥叶连茎#VV, 将#AD)  (root, ROOT#null, 芥叶连茎#VV)  (dobj, 芥叶连茎#VV, 腌制#NN)  (nsubj, 常见#VA, 便是#NN)  (nsubj, 常见#VA, 我们#PN)  (dep, 芥叶连茎#VV, 常见#VA)  (cc, 常见#VA, 到#CC)  (dep, 常见#VA, 雪里蕻#VA)
+            (advmod, 生食#VV, 另外#AD)  (nsubj, 生食#VV, 芥菜#NN)  (neg, 生食#VV, 不#AD)  (dep, 生食#VV, 能#VV)  (root, ROOT#null, 生食#VV)  (advmod, 多#VV, 也#AD)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (dep, 生食#VV, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121052202993.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

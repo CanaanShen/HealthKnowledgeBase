@@ -1,0 +1,125 @@
+<content>
+
+    <id>
+        500
+    </id>
+
+    <foodname>
+        姜黄
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        黄姜、毛黄姜、黄丝郁金
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            血虚无气滞血瘀者慎用，孕妇忌用。
+        </rawdata>
+
+        <segment>
+            血虚  无  气滞  血瘀者  慎用  ，  孕妇  忌用  。
+        </segment>
+
+        <pos>
+            血虚#AD  无#VE  气滞#NN  血瘀者#NN  慎用#NN  ，#PU  孕妇#VV  忌用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 无#VE, 血虚#AD)  (root, ROOT#null, 无#VE)  (nn, 慎用#NN, 气滞#NN)  (nn, 慎用#NN, 血瘀者#NN)  (dobj, 无#VE, 慎用#NN)  (dep, 无#VE, 孕妇#VV)  (dobj, 孕妇#VV, 忌用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            姜黄，中药名。为姜科植物姜黄Curcuma longa L.的干燥根茎。冬季茎叶枯萎时采挖，洗净，煮或蒸至透心，晒干，除去须根。
+            本品为不规则或类圆形的厚片。外表皮深黄色，有时可见环节。切面棕黄色至金黄色，角质样，内皮层环纹明显，纤维束呈点状散在。气香特异，味微苦、辛。
+        </rawdata>
+
+        <segment>
+            姜黄  ，  中  药名  。  为  姜科  植物  姜黄  Curcuma  longa  L  .  的  干燥  根茎  。  冬季  茎叶  枯萎  时  采挖  ，  洗净  ，  煮  或  蒸  至  透心  ，  晒干  ，  除去  须根  。
+            本品  为  不规则  或  类  圆形  的  厚片  。  外表皮  深黄色  ，  有时  可见  环节  。  切面  棕黄色  至  金黄色  ，  角质样  ，  内皮层  环纹  明显  ，  纤维束  呈  点状  散在  。  气  香  特异  ，  味  微苦  、  辛  。
+        </segment>
+
+        <pos>
+            姜黄#VV  ，#PU  中#NR  药名#VV    。#PU  为#P  姜科#NN  植物#NN  姜黄#NN  Curcuma#VV  longa#NN  L#NN  .#NN  的#DEG  干燥#NN  根茎#NN    。#PU  冬季#NT  茎叶#VV  枯萎#NN  时#LC  采挖#VV  ，#PU  洗净#VV  ，#PU  煮#VV  或#CC  蒸#CD  至#CC  透心#CD  ，#PU  晒干#VV  ，#PU  除去#P  须根#NN    。#PU    。#PU
+            本品#NN  为#VC  不规则#AD  或#CC  类#NN  圆形#VA  的#DEC  厚片#NN    。#PU  外表皮#NR  深黄色#VV  ，#PU  有时#AD  可见#VV  环节#NN    。#PU  切面#VV  棕黄色#NN  至#CC  金黄色#JJ  ，#PU  角质样#VV  ，#PU  内皮层#AD  环纹#AD  明显#VA  ，#PU  纤维束#AD  呈#VV  点状#NN  散在#NN    。#PU  气#NN  香#NN  特异#VV  ，#PU  味#VV  微苦#NN  、#PU  辛#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 姜黄#VV)  (nsubj, 药名#VV, 中#NR)  (ccomp, 姜黄#VV, 药名#VV)   (case, 姜黄#NN, 为#P)  (nn, 姜黄#NN, 姜科#NN)  (nn, 姜黄#NN, 植物#NN)  (prep, Curcuma#VV, 姜黄#NN)  (root, ROOT#null, Curcuma#VV)  (nn, .#NN, longa#NN)  (nn, .#NN, L#NN)  (case, .#NN, 的#DEG)  (nn, 根茎#NN, 干燥#NN)  (dobj, Curcuma#VV, 根茎#NN)   (tmod, 采挖#VV, 冬季#NT)  (loc, 采挖#VV, 茎叶#VV)  (dobj, 茎叶#VV, 枯萎#NN)  (case, 茎叶#VV, 时#LC)  (root, ROOT#null, 采挖#VV)  (conj, 采挖#VV, 洗净#VV)  (conj, 采挖#VV, 煮#VV)  (cc, 采挖#VV, 或#CC)  (nummod, 透心#CD, 蒸#CD)  (cc, 透心#CD, 至#CC)  (dep, 采挖#VV, 透心#CD)  (conj, 采挖#VV, 晒干#VV)  (case, 须根#NN, 除去#P)  (conj, 采挖#VV, 须根#NN)   (root, ROOT#null, null#null)
+            (nsubj, 厚片#NN, 本品#NN)  (cop, 厚片#NN, 为#VC)  (dep, 圆形#VA, 不规则#AD)  (cc, 不规则#AD, 或#CC)  (dep, 不规则#AD, 类#NN)  (relcl, 厚片#NN, 圆形#VA)  (mark, 圆形#VA, 的#DEC)  (root, ROOT#null, 厚片#NN)   (nsubj, 深黄色#VV, 外表皮#NR)  (xsubj, 可见#VV, 外表皮#NR)  (root, ROOT#null, 深黄色#VV)  (advmod, 可见#VV, 有时#AD)  (ccomp, 深黄色#VV, 可见#VV)  (dobj, 可见#VV, 环节#NN)   (root, ROOT#null, 切面#VV)  (dobj, 切面#VV, 棕黄色#NN)  (cc, 切面#VV, 至#CC)  (conj, 切面#VV, 金黄色#JJ)  (dep, 切面#VV, 角质样#VV)  (advmod, 明显#VA, 内皮层#AD)  (advmod, 明显#VA, 环纹#AD)  (dep, 切面#VV, 明显#VA)  (advmod, 呈#VV, 纤维束#AD)  (dep, 切面#VV, 呈#VV)  (nn, 散在#NN, 点状#NN)  (dobj, 呈#VV, 散在#NN)   (nn, 香#NN, 气#NN)  (nsubj, 特异#VV, 香#NN)  (root, ROOT#null, 特异#VV)  (ccomp, 特异#VV, 味#VV)  (conj, 辛#NN, 微苦#NN)  (dobj, 味#VV, 辛#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            破血行气，痛经止痛。
+        </rawdata>
+
+        <segment>
+            破  血行  气  ，  痛经  止痛  。
+        </segment>
+
+        <pos>
+            破#VV  血行#NN  气#NN  ，#PU  痛经#VV  止痛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 破#VV)  (nn, 气#NN, 血行#NN)  (dobj, 破#VV, 气#NN)  (conj, 破#VV, 痛经#VV)  (dobj, 痛经#VV, 止痛#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/16115741966.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,243 @@
+<content>
+
+    <id>
+        280
+    </id>
+
+    <foodname>
+        大蒜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        葱蒜类
+    </secondcategory>
+
+    <alias>
+        蒜、蒜头、胡蒜、葫、独蒜、独头蒜
+    </alias>
+
+    <season>
+        春
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴虚火旺、目口舌有疾者，胃溃疡、十二指肠溃疡、肝病患者，眼病患者，正在服药的人忌食。
+        </rawdata>
+
+        <segment>
+            阴虚  火  旺  、  目  口舌  有  疾者  ，  胃溃疡  、  十二  指肠  溃疡  、  肝病  患者  ，  眼病  患者  ，  正在  服药  的  人  忌食  。
+        </segment>
+
+        <pos>
+            阴虚#NN  火#NN  旺#VV  、#PU  目#M  口舌#NN  有#VE  疾者#NN  ，#PU  胃溃疡#NN  、#PU  十二#CD  指肠#NN  溃疡#NN  、#PU  肝病#NN  患者#NN  ，#PU  眼病#NN  患者#NN  ，#PU  正在#AD  服药#VV  的#DEC  人#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 火#NN, 阴虚#NN)  (nsubj, 旺#VV, 火#NN)  (root, ROOT#null, 旺#VV)  (dep, 口舌#NN, 目#M)  (dep, 有#VE, 口舌#NN)  (conj, 旺#VV, 有#VE)  (dobj, 有#VE, 疾者#NN)  (conj, 患者#NN, 胃溃疡#NN)  (nummod, 指肠#NN, 十二#CD)  (nn, 溃疡#NN, 指肠#NN)  (conj, 患者#NN, 溃疡#NN)  (nn, 患者#NN, 肝病#NN)  (nsubj, 忌食#VV, 患者#NN)  (nn, 患者#NN, 眼病#NN)  (nsubj, 忌食#VV, 患者#NN)  (advmod, 服药#VV, 正在#AD)  (relcl, 人#NN, 服药#VV)  (mark, 服药#VV, 的#DEC)  (nsubj, 忌食#VV, 人#NN)  (dep, 旺#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用。尤适宜肺结核、癌症、高血压、动脉硬化患者。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用  。  尤  适宜  肺  结核  、  癌症  、  高  血压  、  动脉  硬化  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  肺#NN  结核#NN  、#PU  癌症#NN  、#PU  高#JJ  血压#NN  、#PU  动脉#NN  硬化#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 结核#NN, 肺#NN)  (conj, 硬化#NN, 结核#NN)  (conj, 硬化#NN, 癌症#NN)  (amod, 血压#NN, 高#JJ)  (conj, 硬化#NN, 血压#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            大蒜，多年生草本植物，百合科葱属。6月叶枯时采挖，除去泥沙，通风晾干或烘烤至外皮干燥。地下鳞茎分瓣，按皮色不同分为紫皮种和白皮种。辛辣，有刺激性气味，可食用或供调味，亦可入药。大蒜种西汉时从西域传入我国，经人工栽培繁育深受大众喜食。
+        </rawdata>
+
+        <segment>
+            大蒜  ，  多年生  草本  植物  ，  百合科  葱属  。  6月  叶枯时  采挖  ，  除去  泥沙  ，  通风  晾干  或  烘烤  至  外皮  干燥  。  地下  鳞茎  分瓣  ，  按  皮色  不同  分为  紫  皮  种  和  白皮种  。  辛辣  ，  有  刺激性  气味  ，  可食用  或  供  调味  ，  亦  可  入药  。  大蒜  种  西汉  时  从  西域  传入  我国  ，  经  人工  栽培  繁育  深受  大众  喜食  。
+        </segment>
+
+        <pos>
+            大蒜#VV  ，#PU  多年生#AD  草本#VV  植物#NN  ，#PU  百合科#CD  葱属#NN    。#PU  6月#NT  叶枯时#AD  采挖#VV  ，#PU  除去#P  泥沙#NN  ，#PU  通风#NN  晾干#NN  或#CC  烘烤#NN  至#CC  外皮#NN  干燥#VV    。#PU  地下#AD  鳞茎#VV  分瓣#NN  ，#PU  按#P  皮色#AD  不同#VA  分为#VV  紫#VA  皮#CD  种#M  和#CC  白皮种#CD    。#PU  辛辣#NN  ，#PU  有#VE  刺激性#NN  气味#NN  ，#PU  可食用#NN  或#CC  供#NN  调味#NN  ，#PU  亦#AD  可#VV  入药#VV    。#PU  大蒜#CD  种#M  西汉#NN  时#LC  从#P  西域#NN  传入#VV  我国#NN  ，#PU  经#P  人工#AD  栽培#VV  繁育#NN  深受#VV  大众#NR  喜食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 大蒜#VV)  (advmod, 草本#VV, 多年生#AD)  (ccomp, 大蒜#VV, 草本#VV)  (dobj, 草本#VV, 植物#NN)  (nummod, 葱属#NN, 百合科#CD)  (dep, 草本#VV, 葱属#NN)   (tmod, 采挖#VV, 6月#NT)  (advmod, 采挖#VV, 叶枯时#AD)  (root, ROOT#null, 采挖#VV)  (case, 泥沙#NN, 除去#P)  (prep, 干燥#VV, 泥沙#NN)  (nn, 外皮#NN, 通风#NN)  (conj, 外皮#NN, 晾干#NN)  (cc, 外皮#NN, 或#CC)  (conj, 外皮#NN, 烘烤#NN)  (cc, 外皮#NN, 至#CC)  (nsubj, 干燥#VV, 外皮#NN)  (conj, 采挖#VV, 干燥#VV)   (advmod, 鳞茎#VV, 地下#AD)  (root, ROOT#null, 鳞茎#VV)  (dobj, 鳞茎#VV, 分瓣#NN)  (case, 不同#VA, 按#P)  (advmod, 不同#VA, 皮色#AD)  (prep, 分为#VV, 不同#VA)  (dep, 鳞茎#VV, 分为#VV)  (rcomp, 分为#VV, 紫#VA)  (nummod, 种#M, 皮#CD)  (clf, 白皮种#CD, 种#M)  (cc, 白皮种#CD, 和#CC)  (dep, 分为#VV, 白皮种#CD)   (dep, 有#VE, 辛辣#NN)  (root, ROOT#null, 有#VE)  (nn, 气味#NN, 刺激性#NN)  (dobj, 有#VE, 气味#NN)  (conj, 供#NN, 可食用#NN)  (cc, 供#NN, 或#CC)  (nn, 调味#NN, 供#NN)  (nsubj, 入药#VV, 调味#NN)  (advmod, 入药#VV, 亦#AD)  (dep, 入药#VV, 可#VV)  (conj, 有#VE, 入药#VV)   (nummod, 种#M, 大蒜#CD)  (clf, 西汉#NN, 种#M)  (loc, 传入#VV, 西汉#NN)  (case, 西汉#NN, 时#LC)  (case, 西域#NN, 从#P)  (prep, 传入#VV, 西域#NN)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 我国#NN)  (case, 栽培#VV, 经#P)  (advmod, 栽培#VV, 人工#AD)  (prep, 深受#VV, 栽培#VV)  (dobj, 栽培#VV, 繁育#NN)  (conj, 传入#VV, 深受#VV)  (nn, 喜食#NN, 大众#NR)  (dobj, 深受#VV, 喜食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            大蒜性温，味辛；入脾、胃、肺经。温中行滞；解毒；杀虫。主脘腹冷痛；痢疾；泄泻；肺痨；百日咳；感冒；痈疖肿毒；肠痈；癣疮；蛇虫咬伤；钩虫病；蛲虫病；带下阴痒；疟疾；喉痹；水肿。
+            1.强力杀菌
+            大蒜中含硫化合物具有奇强的抗菌消炎作用，对多种球菌、杆菌、真菌和病毒等均有抑制和杀灭作用，是目前发现的天然植物中抗菌作用最强的一种。
+            2.防治肿瘤和癌症
+            大蒜中的锗和硒等元素可抑制肿瘤细胞和癌细胞的生长，实验发现，癌症发生率最低的人群就是血液中含硒量最高的人群。美国国家癌症组织认为，全世界最具抗癌潜力的植物中，位居榜首的是大蒜。
+            3.排毒清肠
+            大蒜可有效抑制和杀死引起肠胃疾病的幽门螺杆菌等细菌病毒，清除肠胃有毒物质，刺激胃肠粘膜，促进食欲，加速消化。
+            4.降低血糖
+            大蒜可促进胰岛素的分泌，增加组织细胞对葡萄糖的吸收，提高人体葡萄糖耐量，迅速降低体内血糖水平，并可杀死因感染诱发糖尿病的各种病菌，从而有效预防和治疗糖尿病。
+            5.防治心脑血管疾病
+            大蒜可防止心脑血管中的脂肪沉积，诱导组织内部脂肪代谢，显著增加纤维蛋白溶解活性，降低胆固醇，抑制血小板的聚集，降低血浆浓度，增加微动脉的扩张度，促使血管舒张，调节血压，增加血管的通透性，从而抑制血栓的形成和预防动脉硬化。每天吃2~3瓣大蒜，是降压的最好最简易的办法，大蒜可帮助保持体内一种酶的适当数量而避免出现高血压。
+            6.保护肝功能
+            大蒜中的微量元素硒，通过参与血液的有氧代谢，清除毒素，减轻肝脏的解毒负担，从而达到保护肝脏的目的。
+            7.旺盛精力
+            大蒜可有效补充肾脏所需物质，改善因肾气不足而引发的浑身无力症状，并可促进精子的生成，使精子数量大增。
+            8.预防感冒
+            大蒜中含有一种叫“硫化丙烯”的辣素，对病原菌和寄生虫都有良好的杀灭作用，可预防感冒，减轻发烧、咳嗽、喉痛及鼻塞等感冒症状。
+        </rawdata>
+
+        <segment>
+            大蒜  性温  ，  味辛  ；  入脾  、  胃  、  肺经  。  温  中行滞  ；  解毒  ；  杀虫  。  主脘  腹  冷痛  ；  痢疾  ；  泄泻  ；  肺痨  ；  百日  咳  ；  感冒  ；  痈疖  肿毒  ；  肠痈  ；  癣疮  ；  蛇虫  咬伤  ；  钩虫病  ；  蛲虫病  ；  带下  阴痒  ；  疟疾  ；  喉痹  ；  水肿  。
+            强力  杀菌
+            大蒜  中  含硫化合物  具有  奇  强的  抗菌  消炎  作用  ，  对  多  种  球菌  、  杆菌  、  真菌  和  病毒  等  均  有  抑制  和  杀灭  作用  ，  是  目前  发现  的  天然  植物  中  抗菌  作用  最  强  的  一  种  。
+            防治  肿瘤  和  癌症
+            大蒜  中  的  锗和硒  等  元素  可  抑制  肿瘤  细胞  和  癌细胞  的  生长  ，  实验  发现  ，  癌症  发生率  最  低  的  人群  就是  血液  中  含  硒量  最  高  的  人群  。  美国  国家  癌症  组织  认为  ，  全世界  最  具  抗癌  潜力  的  植物  中  ，  位居  榜首  的  是  大蒜  。
+            排  毒  清  肠
+            大蒜  可  有效  抑制  和  杀死  引起  肠胃  疾病  的  幽门  螺杆菌  等  细菌  病毒  ，  清除  肠胃  有毒  物质  ，  刺激  胃肠  粘膜  ，  促进  食欲  ，  加速  消化  。
+            降低  血糖
+            大蒜  可  促进  胰岛素  的  分泌  ，  增加  组织  细胞  对  葡萄糖  的  吸收  ，  提高  人体  葡萄糖  耐量  ，  迅速  降低  体内  血糖  水平  ，  并  可  杀死  因  感染  诱发  糖尿病  的  各  种  病菌  ，  从而  有效  预防  和  治疗  糖尿病  。
+            防治  心脑  血管  疾病
+            大蒜  可防止  心脑血管  中  的  脂肪  沉积  ，  诱导  组织  内部  脂肪  代谢  ，  显著  增加  纤维  蛋白  溶解  活性  ，  降低  胆固醇  ，  抑制  血小板  的  聚集  ，  降低  血浆  浓度  ，  增加  微动脉  的  扩张  度  ，  促使  血管  舒张  ，  调节  血压  ，  增加  血管  的  通透性  ，  从而  抑制  血栓  的  形成  和  预防  动脉  硬化  。  每  天  吃  2  ~  3  瓣  大蒜  ，  是  降压  的  最好  最  简易  的  办法  ，  大蒜  可  帮助  保持  体内  一  种  酶的  适当  数量  而  避免  出现  高血压  。
+            保护  肝功能
+            大蒜  中  的  微量  元素  硒  ，  通过  参与  血液  的  有氧  代谢  ，  清除  毒素  ，  减轻  肝脏  的  解毒  负担  ，  从而  达到  保护  肝脏  的  目的  。
+            旺盛  精力
+            大蒜  可  有效  补充  肾脏  所需  物质  ，  改善  因  肾气  不  足  而  引发  的  浑身  无力  症状  ，  并  可  促进  精子  的  生成  ，  使  精子  数量  大增  。
+            预防  感冒
+            大蒜  中  含有  一  种  叫  “  硫化  丙烯  ”  的  辣素  ，  对  病原菌  和  寄生虫  都  有  良好  的  杀灭  作用  ，  可  预防  感冒  ，  减轻  发烧  、  咳嗽  、  喉痛  及  鼻塞  等  感冒  症状  。
+        </segment>
+
+        <pos>
+            大蒜#NR  性温#VV  ，#PU  味辛#VV  ；#PU  入脾#NR  、#PU  胃#NR  、#PU  肺经#NR    。#PU  温#NN  中行滞#VV  ；#PU  解毒#VV  ；#PU  杀虫#NN    。#PU  主脘#NN  腹#NN  冷痛#VV  ；#PU  痢疾#VA  ；#PU  泄泻#VA  ；#PU  肺痨#VA  ；#PU  百日#NT  咳#VV  ；#PU  感冒#VA  ；#PU  痈疖#VV  肿毒#NN  ；#PU  肠痈#VA  ；#PU  癣疮#VA  ；#PU  蛇虫#VV  咬伤#NN  ；#PU  钩虫病#VA  ；#PU  蛲虫病#VA  ；#PU  带下#VV  阴痒#VV  ；#PU  疟疾#NN  ；#PU  喉痹#VA  ；#PU  水肿#VA    。#PU    。#PU
+            强力#NN  杀菌#VV
+            大蒜#NN  中#LC  含硫化合物#AD  具有#VV  奇#NN  强的#NN  抗菌#NN  消炎#JJ  作用#NN  ，#PU  对#P  多#CD  种#M  球菌#NR  、#PU  杆菌#NR  、#PU  真菌#NR  和#CC  病毒#NN  等#ETC  均#AD  有#VE  抑制#NN  和#CC  杀灭#NN  作用#NN  ，#PU  是#VC  目前#NT  发现#VV  的#DEC  天然#JJ  植物#NN  中#LC  抗菌#NN  作用#NN  最#AD  强#VA  的#DEC  一#CD  种#M  。#PU
+            防治#VV  肿瘤#NN  和#CC  癌症#NN
+            大蒜#NN  中#LC  的#DEG  锗和硒#NN  等#ETC  元素#NN  可#VV  抑制#VV  肿瘤#NN  细胞#NN  和#CC  癌细胞#NN  的#DEG  生长#NN  ，#PU  实验#NN  发现#VV  ，#PU  癌症#NN  发生率#NN  最#AD  低#VA  的#DEC  人群#NN  就是#CC  血液#NN  中#LC  含#VV  硒量#NN  最#AD  高#VA  的#DEC  人群#NN    。#PU  美国#NR  国家#NN  癌症#NN  组织#NN  认为#VV  ，#PU  全世界#AD  最#AD  具#VV  抗癌#NN  潜力#NN  的#DEC  植物#NN  中#LC  ，#PU  位居#VV  榜首#NN  的#DEC  是#VC  大蒜#NN    。#PU    。#PU
+            排#VV  毒#NN  清#JJ  肠#NN
+            大蒜#VV  可#VV  有效#JJ  抑制#NN  和#CC  杀死#VV  引起#VV  肠胃#NN  疾病#NN  的#DEC  幽门#NN  螺杆菌#NN  等#ETC  细菌#NN  病毒#NN  ，#PU  清除#VV  肠胃#NN  有毒#NN  物质#NN  ，#PU  刺激#VV  胃肠#NN  粘膜#NN  ，#PU  促进#VV  食欲#NN  ，#PU  加速#VV  消化#NN  。#PU
+            降低#VV  血糖#NN
+            大蒜#VV  可#VV  促进#VV  胰岛素#NN  的#DEC  分泌#NN  ，#PU  增加#VV  组织#NN  细胞#NN  对#P  葡萄糖#NN  的#DEG  吸收#NN  ，#PU  提高#VV  人体#NN  葡萄糖#NN  耐量#NN  ，#PU  迅速#AD  降低#VV  体内#NN  血糖#NN  水平#NN  ，#PU  并#CC  可#VV  杀死#VV  因#P  感染#NN  诱发#VV  糖尿病#NN  的#DEC  各#DT  种#M  病菌#NN  ，#PU  从而#AD  有效#AD  预防#VV  和#CC  治疗#VV  糖尿病#NN  。#PU
+            防治#NN  心脑#NR  血管#NN  疾病#NN
+            大蒜#NR  可防止#VV  心脑血管#VV  中#NR  的#DEG  脂肪#NN  沉积#NN  ，#PU  诱导#VV  组织#NN  内部#NN  脂肪#NN  代谢#NN  ，#PU  显著#AD  增加#VV  纤维#NN  蛋白#NN  溶解#NN  活性#NN  ，#PU  降低#VV  胆固醇#NN  ，#PU  抑制#VV  血小板#VV  的#DEV  聚集#VV  ，#PU  降低#VV  血浆#NN  浓度#NN  ，#PU  增加#VV  微动脉#NR  的#DEG  扩张#NN  度#VV  ，#PU  促使#VV  血管#NN  舒张#VA  ，#PU  调节#VV  血压#NN  ，#PU  增加#VV  血管#NN  的#DEG  通透性#NN  ，#PU  从而#AD  抑制#VV  血栓#NR  的#DEG  形成#NN  和#CC  预防#VV  动脉#NN  硬化#NN    。#PU  每#DT  天#M  吃#VV  2#CD  ~#NN  3#CD  瓣#NN  大蒜#NN  ，#PU  是#VC  降压#NN  的#DEC  最好#JJ  最#AD  简易#JJ  的#DEG  办法#NN  ，#PU  大蒜#NN  可#VV  帮助#VV  保持#VV  体内#NN  一#CD  种#M  酶的#VV  适当#JJ  数量#NN  而#MSP  避免#VV  出现#VV  高血压#NN    。#PU    。#PU
+            保护#VV  肝功能#NN
+            大蒜#NN  中#LC  的#DEG  微量#NN  元素#NN  硒#NN  ，#PU  通过#P  参与#VV  血液#NN  的#DEG  有氧#NN  代谢#NN  ，#PU  清除#VV  毒素#NN  ，#PU  减轻#VV  肝脏#NN  的#DEG  解毒#NN  负担#NN  ，#PU  从而#AD  达到#VV  保护#VV  肝脏#NN  的#DEC  目的#NN  。#PU
+            旺盛#VA  精力#NN
+            大蒜#NN  可#VV  有效#JJ  补充#NN  肾脏#AD  所需#VV  物质#NN  ，#PU  改善#VV  因#P  肾气#NN  不#AD  足#VA  而#MSP  引发#VV  的#DEC  浑身#NN  无力#NN  症状#NN  ，#PU  并#CC  可#VV  促进#VV  精子#NN  的#DEG  生成#NN  ，#PU  使#VV  精子#NN  数量#NN  大增#VV  。#PU
+            预防#NN  感冒#VV
+            大蒜#NN  中#LC  含有#VV  一#CD  种#M  叫#VV  ``#NN  硫化#NN  丙烯#NN  ''#NN  的#DEC  辣素#NN  ，#PU  对#P  病原菌#NN  和#CC  寄生虫#NN  都#AD  有#VE  良好#VA  的#DEC  杀灭#JJ  作用#NN  ，#PU  可#VV  预防#VV  感冒#NN  ，#PU  减轻#VV  发烧#NR  、#PU  咳嗽#NR  、#PU  喉痛#NR  及#CC  鼻塞#NR  等#ETC  感冒#NN  症状#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性温#VV, 大蒜#NR)  (root, ROOT#null, 性温#VV)  (ccomp, 性温#VV, 味辛#VV)  (conj, 肺经#NR, 入脾#NR)  (conj, 肺经#NR, 胃#NR)  (dobj, 味辛#VV, 肺经#NR)   (nsubj, 中行滞#VV, 温#NN)  (root, ROOT#null, 中行滞#VV)  (ccomp, 中行滞#VV, 解毒#VV)  (dobj, 解毒#VV, 杀虫#NN)   (nn, 腹#NN, 主脘#NN)  (nsubj, 冷痛#VV, 腹#NN)  (root, ROOT#null, 冷痛#VV)  (ccomp, 冷痛#VV, 痢疾#VA)  (dep, 痢疾#VA, 泄泻#VA)  (dep, 痢疾#VA, 肺痨#VA)  (tmod, 咳#VV, 百日#NT)  (dep, 痢疾#VA, 咳#VV)  (dep, 痢疾#VA, 感冒#VA)  (dep, 痢疾#VA, 痈疖#VV)  (dobj, 痈疖#VV, 肿毒#NN)  (dep, 痢疾#VA, 肠痈#VA)  (dep, 痢疾#VA, 癣疮#VA)  (dep, 痢疾#VA, 蛇虫#VV)  (dobj, 蛇虫#VV, 咬伤#NN)  (dep, 痢疾#VA, 钩虫病#VA)  (dep, 痢疾#VA, 蛲虫病#VA)  (dep, 痢疾#VA, 带下#VV)  (comod, 带下#VV, 阴痒#VV)  (dobj, 带下#VV, 疟疾#NN)  (dep, 痢疾#VA, 喉痹#VA)  (dep, 痢疾#VA, 水肿#VA)   (root, ROOT#null, null#null)
+            (nsubj, 杀菌#VV, 强力#NN)  (root, ROOT#null, 杀菌#VV)
+            (loc, 具有#VV, 大蒜#NN)  (case, 大蒜#NN, 中#LC)  (advmod, 具有#VV, 含硫化合物#AD)  (dep, 有#VE, 具有#VV)  (nn, 抗菌#NN, 奇#NN)  (nn, 抗菌#NN, 强的#NN)  (nn, 作用#NN, 抗菌#NN)  (amod, 作用#NN, 消炎#JJ)  (dobj, 具有#VV, 作用#NN)  (case, 病毒#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 真菌#NR, 种#M)  (conj, 真菌#NR, 球菌#NR)  (conj, 真菌#NR, 杆菌#NR)  (conj, 病毒#NN, 真菌#NR)  (cc, 病毒#NN, 和#CC)  (prep, 有#VE, 病毒#NN)  (etc, 病毒#NN, 等#ETC)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (conj, 杀灭#NN, 抑制#NN)  (cc, 杀灭#NN, 和#CC)  (nn, 作用#NN, 杀灭#NN)  (dobj, 有#VE, 作用#NN)  (dep, 有#VE, 是#VC)  (tmod, 发现#VV, 目前#NT)  (relcl, 植物#NN, 发现#VV)  (mark, 发现#VV, 的#DEC)  (amod, 植物#NN, 天然#JJ)  (loc, 强#VA, 植物#NN)  (case, 植物#NN, 中#LC)  (nn, 作用#NN, 抗菌#NN)  (nsubj, 强#VA, 作用#NN)  (advmod, 强#VA, 最#AD)  (dep, 种#M, 强#VA)  (mark, 强#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)
+            (root, ROOT#null, 防治#VV)  (conj, 癌症#NN, 肿瘤#NN)  (cc, 癌症#NN, 和#CC)  (dobj, 防治#VV, 癌症#NN)
+            (assmod, 锗和硒#NN, 大蒜#NN)  (case, 大蒜#NN, 中#LC)  (case, 大蒜#NN, 的#DEG)  (nn, 元素#NN, 锗和硒#NN)  (etc, 锗和硒#NN, 等#ETC)  (nsubj, 抑制#VV, 元素#NN)  (mmod, 抑制#VV, 可#VV)  (root, ROOT#null, 抑制#VV)  (nn, 细胞#NN, 肿瘤#NN)  (conj, 癌细胞#NN, 细胞#NN)  (cc, 癌细胞#NN, 和#CC)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (nsubj, 发现#VV, 实验#NN)  (relcl, 血液#NN, 发现#VV)  (nn, 发生率#NN, 癌症#NN)  (nsubj, 低#VA, 发生率#NN)  (advmod, 低#VA, 最#AD)  (ccomp, 发现#VV, 低#VA)  (mark, 发现#VV, 的#DEC)  (conj, 血液#NN, 人群#NN)  (cc, 血液#NN, 就是#CC)  (loc, 含#VV, 血液#NN)  (case, 血液#NN, 中#LC)  (conj, 抑制#VV, 含#VV)  (nsubj, 高#VA, 硒量#NN)  (advmod, 高#VA, 最#AD)  (relcl, 人群#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 含#VV, 人群#NN)   (nn, 组织#NN, 美国#NR)  (nn, 组织#NN, 国家#NN)  (nn, 组织#NN, 癌症#NN)  (nsubj, 认为#VV, 组织#NN)  (root, ROOT#null, 认为#VV)  (advmod, 具#VV, 全世界#AD)  (advmod, 具#VV, 最#AD)  (relcl, 植物#NN, 具#VV)  (nn, 潜力#NN, 抗癌#NN)  (dobj, 具#VV, 潜力#NN)  (mark, 具#VV, 的#DEC)  (loc, 大蒜#NN, 植物#NN)  (case, 植物#NN, 中#LC)  (nsubj, 大蒜#NN, 位居#VV)  (dobj, 位居#VV, 榜首#NN)  (mark, 位居#VV, 的#DEC)  (cop, 大蒜#NN, 是#VC)  (ccomp, 认为#VV, 大蒜#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 排#VV)  (nn, 肠#NN, 毒#NN)  (amod, 肠#NN, 清#JJ)  (dobj, 排#VV, 肠#NN)
+            (root, ROOT#null, 大蒜#VV)  (rcomp, 大蒜#VV, 可#VV)  (amod, 抑制#NN, 有效#JJ)  (dobj, 大蒜#VV, 抑制#NN)  (cc, 大蒜#VV, 和#CC)  (conj, 大蒜#VV, 杀死#VV)  (relcl, 病毒#NN, 引起#VV)  (nn, 疾病#NN, 肠胃#NN)  (dobj, 引起#VV, 疾病#NN)  (mark, 引起#VV, 的#DEC)  (nn, 螺杆菌#NN, 幽门#NN)  (nn, 细菌#NN, 螺杆菌#NN)  (etc, 螺杆菌#NN, 等#ETC)  (nn, 病毒#NN, 细菌#NN)  (dobj, 杀死#VV, 病毒#NN)  (conj, 大蒜#VV, 清除#VV)  (nn, 物质#NN, 肠胃#NN)  (nn, 物质#NN, 有毒#NN)  (dobj, 清除#VV, 物质#NN)  (conj, 大蒜#VV, 刺激#VV)  (nn, 粘膜#NN, 胃肠#NN)  (dobj, 刺激#VV, 粘膜#NN)  (conj, 大蒜#VV, 促进#VV)  (dobj, 促进#VV, 食欲#NN)  (conj, 大蒜#VV, 加速#VV)  (dobj, 加速#VV, 消化#NN)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血糖#NN)
+            (root, ROOT#null, 大蒜#VV)  (mmod, 促进#VV, 可#VV)  (relcl, 分泌#NN, 促进#VV)  (dobj, 促进#VV, 胰岛素#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 大蒜#VV, 分泌#NN)  (conj, 大蒜#VV, 增加#VV)  (nn, 细胞#NN, 组织#NN)  (nn, 吸收#NN, 细胞#NN)  (case, 葡萄糖#NN, 对#P)  (assmod, 吸收#NN, 葡萄糖#NN)  (case, 葡萄糖#NN, 的#DEG)  (dobj, 增加#VV, 吸收#NN)  (conj, 大蒜#VV, 提高#VV)  (nn, 耐量#NN, 人体#NN)  (nn, 耐量#NN, 葡萄糖#NN)  (dobj, 提高#VV, 耐量#NN)  (advmod, 降低#VV, 迅速#AD)  (conj, 大蒜#VV, 降低#VV)  (nn, 血糖#NN, 体内#NN)  (dobj, 降低#VV, 血糖#NN)  (dobj, 降低#VV, 水平#NN)  (range, 降低#VV, 水平#NN)  (cc, 大蒜#VV, 并#CC)  (mmod, 杀死#VV, 可#VV)  (conj, 大蒜#VV, 杀死#VV)  (case, 感染#NN, 因#P)  (prep, 诱发#VV, 感染#NN)  (relcl, 病菌#NN, 诱发#VV)  (dobj, 诱发#VV, 糖尿病#NN)  (mark, 诱发#VV, 的#DEC)  (det, 病菌#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 杀死#VV, 病菌#NN)  (advmod, 预防#VV, 从而#AD)  (advmod, 预防#VV, 有效#AD)  (conj, 大蒜#VV, 预防#VV)  (cc, 预防#VV, 和#CC)  (dep, 预防#VV, 治疗#VV)  (dobj, 治疗#VV, 糖尿病#NN)
+            (dep, 疾病#NN, 防治#NN)  (dep, 疾病#NN, 心脑#NR)  (dep, 疾病#NN, 血管#NN)  (root, ROOT#null, 疾病#NN)
+            (nsubj, 心脑血管#VV, 大蒜#NR)  (mmod, 心脑血管#VV, 可防止#VV)  (root, ROOT#null, 心脑血管#VV)  (assmod, 沉积#NN, 中#NR)  (case, 中#NR, 的#DEG)  (nn, 沉积#NN, 脂肪#NN)  (dobj, 心脑血管#VV, 沉积#NN)  (ccomp, 心脑血管#VV, 诱导#VV)  (conj, 心脑血管#VV, 诱导#VV)  (nn, 代谢#NN, 组织#NN)  (nn, 代谢#NN, 内部#NN)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 诱导#VV, 代谢#NN)  (advmod, 增加#VV, 显著#AD)  (ccomp, 心脑血管#VV, 增加#VV)  (conj, 心脑血管#VV, 增加#VV)  (nn, 活性#NN, 纤维#NN)  (nn, 活性#NN, 蛋白#NN)  (nn, 活性#NN, 溶解#NN)  (dobj, 增加#VV, 活性#NN)  (ccomp, 心脑血管#VV, 降低#VV)  (conj, 心脑血管#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (dvpmod, 聚集#VV, 抑制#VV)  (comod, 抑制#VV, 血小板#VV)  (mark, 抑制#VV, 的#DEV)  (ccomp, 心脑血管#VV, 聚集#VV)  (conj, 心脑血管#VV, 聚集#VV)  (ccomp, 心脑血管#VV, 降低#VV)  (conj, 心脑血管#VV, 降低#VV)  (nn, 浓度#NN, 血浆#NN)  (dobj, 降低#VV, 浓度#NN)  (ccomp, 心脑血管#VV, 增加#VV)  (conj, 心脑血管#VV, 增加#VV)  (assmod, 扩张#NN, 微动脉#NR)  (case, 微动脉#NR, 的#DEG)  (dobj, 增加#VV, 扩张#NN)  (conj, 增加#VV, 度#VV)  (ccomp, 心脑血管#VV, 促使#VV)  (conj, 心脑血管#VV, 促使#VV)  (dobj, 促使#VV, 血管#NN)  (dep, 促使#VV, 舒张#VA)  (ccomp, 心脑血管#VV, 调节#VV)  (conj, 心脑血管#VV, 调节#VV)  (dobj, 调节#VV, 血压#NN)  (ccomp, 心脑血管#VV, 增加#VV)  (conj, 心脑血管#VV, 增加#VV)  (assmod, 通透性#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 增加#VV, 通透性#NN)  (advmod, 抑制#VV, 从而#AD)  (ccomp, 心脑血管#VV, 抑制#VV)  (conj, 心脑血管#VV, 抑制#VV)  (assmod, 形成#NN, 血栓#NR)  (case, 血栓#NR, 的#DEG)  (dobj, 抑制#VV, 形成#NN)  (cc, 抑制#VV, 和#CC)  (conj, 抑制#VV, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 预防#VV, 硬化#NN)   (det, 办法#NN, 每#DT)  (clf, 每#DT, 天#M)  (relcl, 办法#NN, 吃#VV)  (nummod, ~#NN, 2#CD)  (nummod, 瓣#NN, 3#CD)  (nn, 大蒜#NN, 瓣#NN)  (dobj, 吃#VV, 大蒜#NN)  (cop, 降压#NN, 是#VC)  (conj, 吃#VV, 降压#NN)  (mark, 吃#VV, 的#DEC)  (amod, 办法#NN, 最好#JJ)  (advmod, 简易#JJ, 最#AD)  (assmod, 办法#NN, 简易#JJ)  (case, 简易#JJ, 的#DEG)  (nsubj, 帮助#VV, 办法#NN)  (nsubj, 帮助#VV, 大蒜#NN)  (mmod, 帮助#VV, 可#VV)  (root, ROOT#null, 帮助#VV)  (ccomp, 帮助#VV, 保持#VV)  (dobj, 保持#VV, 体内#NN)  (nummod, 种#M, 一#CD)  (nsubj, 酶的#VV, 种#M)  (dep, 帮助#VV, 酶的#VV)  (amod, 数量#NN, 适当#JJ)  (dobj, 酶的#VV, 数量#NN)  (prtmod, 避免#VV, 而#MSP)  (conj, 酶的#VV, 避免#VV)  (ccomp, 避免#VV, 出现#VV)  (dobj, 出现#VV, 高血压#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肝功能#NN)
+            (assmod, 硒#NN, 大蒜#NN)  (case, 大蒜#NN, 中#LC)  (case, 大蒜#NN, 的#DEG)  (nn, 硒#NN, 微量#NN)  (nn, 硒#NN, 元素#NN)  (nsubj, 达到#VV, 硒#NN)  (case, 参与#VV, 通过#P)  (prep, 达到#VV, 参与#VV)  (assmod, 代谢#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (nn, 代谢#NN, 有氧#NN)  (dobj, 参与#VV, 代谢#NN)  (conj, 参与#VV, 清除#VV)  (dobj, 清除#VV, 毒素#NN)  (conj, 参与#VV, 减轻#VV)  (assmod, 负担#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (nn, 负担#NN, 解毒#NN)  (dobj, 减轻#VV, 负担#NN)  (advmod, 达到#VV, 从而#AD)  (root, ROOT#null, 达到#VV)  (relcl, 目的#NN, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (mark, 保护#VV, 的#DEC)  (dobj, 达到#VV, 目的#NN)
+            (root, ROOT#null, 旺盛#VA)  (dobj, 旺盛#VA, 精力#NN)
+            (nsubj, 所需#VV, 大蒜#NN)  (mmod, 所需#VV, 可#VV)  (amod, 补充#NN, 有效#JJ)  (dep, 所需#VV, 补充#NN)  (advmod, 所需#VV, 肾脏#AD)  (root, ROOT#null, 所需#VV)  (dobj, 所需#VV, 物质#NN)  (conj, 所需#VV, 改善#VV)  (case, 足#VA, 因#P)  (nsubj, 足#VA, 肾气#NN)  (neg, 足#VA, 不#AD)  (prep, 引发#VV, 足#VA)  (prtmod, 引发#VV, 而#MSP)  (relcl, 症状#NN, 引发#VV)  (mark, 引发#VV, 的#DEC)  (nn, 症状#NN, 浑身#NN)  (nn, 症状#NN, 无力#NN)  (dobj, 改善#VV, 症状#NN)  (cc, 所需#VV, 并#CC)  (mmod, 促进#VV, 可#VV)  (conj, 所需#VV, 促进#VV)  (assmod, 生成#NN, 精子#NN)  (case, 精子#NN, 的#DEG)  (dobj, 促进#VV, 生成#NN)  (conj, 所需#VV, 使#VV)  (nn, 数量#NN, 精子#NN)  (dobj, 使#VV, 数量#NN)  (dep, 使#VV, 大增#VV)
+            (nsubj, 感冒#VV, 预防#NN)  (root, ROOT#null, 感冒#VV)
+            (loc, 含有#VV, 大蒜#NN)  (case, 大蒜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 辣素#NN, 种#M)  (relcl, 辣素#NN, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 硫化#NN)  (nn, ''#NN, 丙烯#NN)  (dobj, 叫#VV, ''#NN)  (mark, 叫#VV, 的#DEC)  (dobj, 含有#VV, 辣素#NN)  (case, 寄生虫#NN, 对#P)  (conj, 寄生虫#NN, 病原菌#NN)  (cc, 寄生虫#NN, 和#CC)  (prep, 有#VE, 寄生虫#NN)  (advmod, 有#VE, 都#AD)  (conj, 含有#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 杀灭#JJ)  (dobj, 有#VE, 作用#NN)  (mmod, 预防#VV, 可#VV)  (conj, 含有#VV, 预防#VV)  (dobj, 预防#VV, 感冒#NN)  (conj, 含有#VV, 减轻#VV)  (conj, 鼻塞#NR, 发烧#NR)  (conj, 鼻塞#NR, 咳嗽#NR)  (conj, 鼻塞#NR, 喉痛#NR)  (cc, 鼻塞#NR, 及#CC)  (nn, 症状#NN, 鼻塞#NR)  (etc, 鼻塞#NR, 等#ETC)  (nn, 症状#NN, 感冒#NN)  (dobj, 减轻#VV, 症状#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  辅助降血糖  延缓衰老  促进排铅  抗癌防癌  抗菌  温中  解毒  杀虫  行气  辅助降血压  抗动脉粥样硬化  抗血栓  护肝  增强免疫力  抗虫  抗真菌  抗病毒  抗氧化  抗突变  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            大蒜含挥发油约0.2％，油中主要成分为大蒜辣素，具有杀菌作用，是大蒜中所含的蒜氨酸受大蒜酶的作用水解产生。尚含多种烯丙基、丙基和甲基组成的硫醚化合物等。
+        </rawdata>
+
+        <segment>
+            大蒜  含  挥发油  约  2％  ，  油  中  主要  成分  为  大蒜  辣素  ，  具有  杀菌  作用  ，  是  大蒜  中  所  含  的  蒜  氨酸  受  大蒜酶  的  作用  水解  产生  。  尚  含  多种烯  丙基  、  丙基  和  甲基  组成  的  硫醚  化合物  等  。
+        </segment>
+
+        <pos>
+            大蒜#AD  含#VV  挥发油#NR  约#AD  2#CD  ％#NN  ，#PU  油#NN  中#LC  主要#JJ  成分#NN  为#P  大蒜#VV  辣素#NN  ，#PU  具有#VV  杀菌#NN  作用#NN  ，#PU  是#VC  大蒜#NN  中#LC  所#MSP  含#VV  的#DEC  蒜#NN  氨酸#NN  受#VV  大蒜酶#NN  的#DEC  作用#NN  水解#AD  产生#VV    。#PU  尚#AD  含#VV  多种烯#NR  丙基#NR  、#PU  丙基#NR  和#CC  甲基#NR  组成#VV  的#DEC  硫醚#NN  化合物#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 大蒜#AD)  (relcl, 作用#NN, 含#VV)  (nn, ％#NN, 挥发油#NR)  (advmod, 2#CD, 约#AD)  (nummod, ％#NN, 2#CD)  (dobj, 含#VV, ％#NN)  (loc, 受#VV, 油#NN)  (case, 油#NN, 中#LC)  (amod, 成分#NN, 主要#JJ)  (nsubj, 受#VV, 成分#NN)  (case, 大蒜#VV, 为#P)  (prep, 受#VV, 大蒜#VV)  (dobj, 大蒜#VV, 辣素#NN)  (conj, 大蒜#VV, 具有#VV)  (nn, 作用#NN, 杀菌#NN)  (dobj, 具有#VV, 作用#NN)  (cop, 氨酸#NN, 是#VC)  (loc, 含#VV, 大蒜#NN)  (case, 大蒜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 氨酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 氨酸#NN, 蒜#NN)  (conj, 大蒜#VV, 氨酸#NN)  (dep, 含#VV, 受#VV)  (dobj, 受#VV, 大蒜酶#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 产生#VV, 作用#NN)  (advmod, 产生#VV, 水解#AD)  (root, ROOT#null, 产生#VV)   (advmod, 含#VV, 尚#AD)  (root, ROOT#null, 含#VV)  (nn, 甲基#NR, 多种烯#NR)  (conj, 甲基#NR, 丙基#NR)  (conj, 甲基#NR, 丙基#NR)  (cc, 甲基#NR, 和#CC)  (nn, 化合物#NN, 甲基#NR)  (relcl, 甲基#NR, 组成#VV)  (relcl, 化合物#NN, 组成#VV)  (mark, 组成#VV, 的#DEC)  (nn, 化合物#NN, 硫醚#NN)  (dobj, 含#VV, 化合物#NN)  (etc, 化合物#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            首先大蒜要生吃。因为大蒜遇热时与很快失去其神奇功效。大蒜被碾碎后最好放置10～15分钟，当大蒜素完全产生后再吃效果最好。注意的一点是大蒜不要空腹吃，因为大蒜具有较强的刺激性和腐蚀性。会造成胃部不适。还有就是大蒜不宜多吃，它会影响维生素b的吸收，这样会对眼睛有刺激作用。引起眼睑炎和眼结膜炎。所以大蒜最好每天吃一次或者隔天一次，每次～3瓣。
+            如果害怕吃过蒜后口腔有异味。可以在吃过蒜后喝杯咖啡、牛奶或者绿茶，都可以起到清除口气的作用。
+        </rawdata>
+
+        <segment>
+            首先  大蒜  要  生吃  。  因为  大蒜  遇热  时与  很快  失去  其  神奇  功效  。  大蒜  被  碾碎  后  最好  放置  10  ～  15  分钟  ，  当  大蒜  素  完全  产生  后  再  吃  效果  最好  。  注意  的  一  点  是  大蒜  不  要  空腹  吃  ，  因为  大蒜  具有  较  强  的  刺激性  和  腐蚀性  。  会  造成  胃部  不适  。  还有  就是  大蒜  不  宜  多  吃  ，  它  会  影响  维生素  b  的  吸收  ，  这样  会  对  眼睛  有  刺激  作用  。  引起  眼睑炎  和  眼  结膜炎  。  所以  大蒜  最好  每  天  吃  一  次  或者  隔天  一  次  ，  每  次  ～  3  瓣  。
+            如果  害怕  吃过  蒜  后  口腔  有  异味  。  可以  在  吃过  蒜  后  喝  杯  咖啡  、  牛奶  或者  绿茶  ，  都  可以  起到  清除  口气  的  作用  。
+        </segment>
+
+        <pos>
+            首先#AD  大蒜#AD  要#VV  生吃#VV    。#PU  因为#P  大蒜#VV  遇热#NN  时与#NN  很快#AD  失去#VV  其#PN  神奇#JJ  功效#NN    。#PU  大蒜#NN  被#SB  碾碎#VV  后#LC  最好#JJ  放置#NN  10#CD  ～#VV  15#CD  分钟#M  ，#PU  当#P  大蒜#AD  素#AD  完全#AD  产生#VV  后#LC  再#AD  吃#VV  效果#NN  最好#JJ    。#PU  注意#VV  的#DEC  一#CD  点#M  是#VC  大蒜#NN  不#AD  要#VV  空腹#AD  吃#VV  ，#PU  因为#P  大蒜#NN  具有#VV  较#AD  强#VA  的#DEC  刺激性#NN  和#CC  腐蚀性#NN    。#PU  会#VV  造成#VV  胃部#NN  不适#NN    。#PU  还有#AD  就是#AD  大蒜#NN  不#AD  宜#NR  多#AD  吃#VV  ，#PU  它#PN  会#VV  影响#VV  维生素#NN  b#NN  的#DEG  吸收#NN  ，#PU  这样#AD  会#VV  对#P  眼睛#NN  有#VE  刺激#NN  作用#NN    。#PU  引起#VV  眼睑炎#NN  和#CC  眼#NN  结膜炎#NN    。#PU  所以#AD  大蒜#NN  最好#JJ  每#DT  天#M  吃#VV  一#CD  次#M  或者#CC  隔天#VV  一#CD  次#M  ，#PU  每#DT  次#M  ～#NN  3#CD  瓣#NN    。#PU    。#PU
+            如果#CS  害怕#AD  吃过#VV  蒜#NN  后#LC  口腔#AD  有#VE  异味#NN    。#PU  可以#VV  在#P  吃过#NN  蒜#NN  后#LC  喝#VV  杯#NN  咖啡#NN  、#PU  牛奶#NN  或者#CC  绿茶#NN  ，#PU  都#AD  可以#VV  起到#VV  清除#VV  口气#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 生吃#VV, 首先#AD)  (advmod, 生吃#VV, 大蒜#AD)  (dep, 生吃#VV, 要#VV)  (root, ROOT#null, 生吃#VV)   (case, 大蒜#VV, 因为#P)  (prep, 失去#VV, 大蒜#VV)  (nn, 时与#NN, 遇热#NN)  (dobj, 大蒜#VV, 时与#NN)  (advmod, 失去#VV, 很快#AD)  (root, ROOT#null, 失去#VV)  (nn, 功效#NN, 其#PN)  (amod, 功效#NN, 神奇#JJ)  (dobj, 失去#VV, 功效#NN)   (nsubj, ～#VV, 大蒜#NN)  (root, ～#VV, 大蒜#NN)  (auxpass, 碾碎#VV, 被#SB)  (loc, 大蒜#NN, 碾碎#VV)  (loc, ～#VV, 碾碎#VV)  (case, 碾碎#VV, 后#LC)  (amod, 放置#NN, 最好#JJ)  (dep, 大蒜#NN, 放置#NN)  (range, 大蒜#NN, 10#CD)  (range, ～#VV, 10#CD)  (nummod, 分钟#M, 15#CD)  (range, 大蒜#NN, 分钟#M)  (range, ～#VV, 分钟#M)  (case, 产生#VV, 当#P)  (advmod, 产生#VV, 大蒜#AD)  (advmod, 产生#VV, 素#AD)  (advmod, 产生#VV, 完全#AD)  (prep, 吃#VV, 产生#VV)  (case, 产生#VV, 后#LC)  (advmod, 吃#VV, 再#AD)  (dep, 大蒜#NN, 吃#VV)  (dobj, 吃#VV, 效果#NN)  (conj, 大蒜#NN, 最好#JJ)  (conj, ～#VV, 最好#JJ)   (dep, 吃#VV, 注意#VV)  (mark, 注意#VV, 的#DEC)  (nummod, 点#M, 一#CD)  (dep, 吃#VV, 点#M)  (cop, 吃#VV, 是#VC)  (nsubj, 吃#VV, 大蒜#NN)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 空腹#AD)  (root, ROOT#null, 吃#VV)  (case, 大蒜#NN, 因为#P)  (prep, 具有#VV, 大蒜#NN)  (dep, 吃#VV, 具有#VV)  (advmod, 强#VA, 较#AD)  (relcl, 腐蚀性#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (conj, 腐蚀性#NN, 刺激性#NN)  (cc, 腐蚀性#NN, 和#CC)  (dobj, 具有#VV, 腐蚀性#NN)   (mmod, 造成#VV, 会#VV)  (root, ROOT#null, 造成#VV)  (nn, 不适#NN, 胃部#NN)  (dobj, 造成#VV, 不适#NN)   (advmod, 吃#VV, 还有#AD)  (advmod, 吃#VV, 就是#AD)  (nsubj, 吃#VV, 大蒜#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (nsubj, 影响#VV, 它#PN)  (mmod, 影响#VV, 会#VV)  (conj, 吃#VV, 影响#VV)  (nn, b#NN, 维生素#NN)  (assmod, 吸收#NN, b#NN)  (case, b#NN, 的#DEG)  (dobj, 影响#VV, 吸收#NN)  (advmod, 有#VE, 这样#AD)  (mmod, 有#VE, 会#VV)  (case, 眼睛#NN, 对#P)  (prep, 有#VE, 眼睛#NN)  (conj, 吃#VV, 有#VE)  (nn, 作用#NN, 刺激#NN)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, 引起#VV)  (conj, 眼#NN, 眼睑炎#NN)  (cc, 眼#NN, 和#CC)  (nn, 结膜炎#NN, 眼#NN)  (dobj, 引起#VV, 结膜炎#NN)   (advmod, 吃#VV, 所以#AD)  (nsubj, 吃#VV, 大蒜#NN)  (dep, 每#DT, 最好#JJ)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (root, ROOT#null, 吃#VV)  (nummod, 次#M, 一#CD)  (range, 吃#VV, 次#M)  (cc, 吃#VV, 或者#CC)  (conj, 吃#VV, 隔天#VV)  (nummod, 次#M, 一#CD)  (range, 隔天#VV, 次#M)  (det, ～#NN, 每#DT)  (clf, 每#DT, 次#M)  (nummod, 瓣#NN, 3#CD)  (conj, 吃#VV, 瓣#NN)   (root, ROOT#null, null#null)
+            (advmod, 吃过#VV, 如果#CS)  (advmod, 吃过#VV, 害怕#AD)  (loc, 有#VE, 吃过#VV)  (dobj, 吃过#VV, 蒜#NN)  (case, 吃过#VV, 后#LC)  (advmod, 有#VE, 口腔#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 异味#NN)   (mmod, 喝#VV, 可以#VV)  (case, 蒜#NN, 在#P)  (nn, 蒜#NN, 吃过#NN)  (prep, 喝#VV, 蒜#NN)  (case, 蒜#NN, 后#LC)  (root, ROOT#null, 喝#VV)  (nn, 绿茶#NN, 杯#NN)  (conj, 绿茶#NN, 咖啡#NN)  (conj, 绿茶#NN, 牛奶#NN)  (cc, 绿茶#NN, 或者#CC)  (dobj, 喝#VV, 绿茶#NN)  (advmod, 起到#VV, 都#AD)  (mmod, 起到#VV, 可以#VV)  (dep, 喝#VV, 起到#VV)  (relcl, 作用#NN, 清除#VV)  (dobj, 清除#VV, 口气#NN)  (mark, 清除#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201312/111551408114.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

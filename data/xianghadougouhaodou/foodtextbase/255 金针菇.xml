@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        255
+    </id>
+
+    <foodname>
+        金针菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        朴菰、构菌、冻菌、金菇、毛柄金钱菌、智力菇
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、慢性腹泻、关节炎、红斑狼疮患者慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  慢性  腹泻  、  关节炎  、  红斑狼疮  患者  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#VV  虚寒#NR  、#PU  慢性#NR  腹泻#NR  、#PU  关节炎#NR  、#PU  红斑狼疮#NR  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾胃#VV)  (conj, 红斑狼疮#NR, 虚寒#NR)  (nn, 红斑狼疮#NR, 慢性#NR)  (conj, 红斑狼疮#NR, 腹泻#NR)  (conj, 红斑狼疮#NR, 关节炎#NR)  (nn, 慎食#NN, 红斑狼疮#NR)  (nn, 慎食#NN, 患者#NN)  (dobj, 脾胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适合气血不足、营养不良的老人、儿童、癌症患者、肝脏病及胃、肠道溃疡、心脑血管疾病患者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适合  气血  不足  、  营养  不良  的  老人  、  儿童  、  癌症  患者  、  肝脏  病  及胃  、  肠道  溃疡  、  心脑  血管  疾病  患者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适合#VV  气血#NN  不足#VA  、#PU  营养#VA  不良#JJ  的#DEG  老人#NN  、#PU  儿童#NN  、#PU  癌症#NN  患者#NN  、#PU  肝脏#NN  病#NN  及胃#NN  、#PU  肠道#NN  溃疡#NN  、#PU  心脑#NN  血管#NN  疾病#NN  患者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适合#VV)  (dobj, 适合#VV, 气血#NN)  (conj, 适合#VV, 不足#VA)  (dep, 不足#VA, 营养#VA)  (assmod, 患者#NN, 不良#JJ)  (case, 不良#JJ, 的#DEG)  (conj, 疾病#NN, 老人#NN)  (conj, 疾病#NN, 儿童#NN)  (nn, 疾病#NN, 癌症#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 疾病#NN, 肝脏#NN)  (nn, 疾病#NN, 病#NN)  (conj, 疾病#NN, 及胃#NN)  (nn, 疾病#NN, 肠道#NN)  (conj, 疾病#NN, 溃疡#NN)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 食用#VV, 患者#NN)  (dep, 适合#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                195
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            金针菇，学名毛柄金钱菌，属伞菌目口蘑科金针菇属，是一种菌藻地衣类，是秋冬与早春栽培的食用菌，因其菌柄细长，似金针菜，故称金针菇。金针菇在自然界广为分布，在中国北起黑龙江，南至云南，东起江苏，西至新疆均适合金针菇的生长。金针菇不仅味道鲜美，而且营养丰富，是拌凉菜和火锅食品的原料之一。
+            金针菇不含叶绿素，不具有光合作用，不能制造碳水化合物，完全可在黑暗环境中生长，必须从培养基中吸收现成的有机物质，如碳水化合物、蛋白质和脂肪的降解物，为腐生营养型，是一种异养生物，属担子菌类。金针菇是一种木材腐生菌，易生长在柳、榆、白杨树等阔叶树的枯树干及树桩上。
+        </rawdata>
+
+        <segment>
+            金针菇  ，  学名  毛柄  金钱菌  ，  属  伞菌目  口蘑科  金针  菇属  ，  是  一  种  菌藻  地  衣类  ，  是  秋冬  与  早春  栽培  的  食用菌  ，  因其  菌柄  细长  ，  似  金针菜  ，  故称  金针菇  。  金针菇  在  自然界  广为  分布  ，  在  中国  北起  黑龙江  ，  南至  云南  ，  东  起  江苏  ，  西  至  新疆  均  适合  金针菇  的  生长  。  金针菇  不仅  味道  鲜美  ，  而且  营养  丰富  ，  是  拌凉菜  和  火锅  食品  的  原料  之一  。
+            金针菇  不  含  叶绿素  ，  不  具有  光合  作用  ，  不  能  制造  碳水  化合物  ，  完全  可在  黑暗  环境  中  生长  ，  必须  从  培养  基  中  吸收  现成  的  有机  物质  ，  如  碳水化合物  、  蛋白质  和  脂肪  的  降解  物  ，  为  腐生  营养型  ，  是  一  种  异养生物  ，  属  担子  菌类  。  金针菇  是  一  种  木材  腐生菌  ，  易生  长在柳  、  榆  、  白杨  树  等  阔叶树  的  枯树  干  及  树桩  上  。
+        </segment>
+
+        <pos>
+            金针菇#VV  ，#PU  学名#NN  毛柄#NN  金钱菌#NN  ，#PU  属#VV  伞菌目#NN  口蘑科#NN  金针#NN  菇属#NN  ，#PU  是#VC  一#CD  种#M  菌藻#VA  地#DEV  衣类#VV  ，#PU  是#VC  秋冬#AD  与#P  早春#NN  栽培#VV  的#DEC  食用菌#NN  ，#PU  因其#VV  菌柄#NN  细长#NN  ，#PU  似#P  金针菜#NN  ，#PU  故称#AD  金针菇#VV    。#PU  金针菇#NN  在#P  自然界#NR  广为#AD  分布#VV  ，#PU  在#P  中国#NR  北起#NR  黑龙江#NR  ，#PU  南至#NN  云南#NR  ，#PU  东#AD  起#VV  江苏#NR  ，#PU  西#NR  至#CC  新疆#NR  均#AD  适合#VV  金针菇#NN  的#DEG  生长#NN    。#PU  金针菇#NN  不仅#CC  味道#NN  鲜美#VA  ，#PU  而且#CC  营养#VA  丰富#VA  ，#PU  是#VC  拌凉菜#NR  和#CC  火锅#NR  食品#NN  的#DEG  原料#NN  之一#NN    。#PU    。#PU
+            金针菇#NN  不#AD  含#VV  叶绿素#NN  ，#PU  不#AD  具有#VV  光合#NN  作用#NN  ，#PU  不#AD  能#VV  制造#VV  碳水#NN  化合物#NN  ，#PU  完全#AD  可在#VV  黑暗#NN  环境#NN  中#LC  生长#NN  ，#PU  必须#VV  从#P  培养#VV  基#NN  中#LC  吸收#VV  现成#JJ  的#DEG  有机#NN  物质#NN  ，#PU  如#P  碳水化合物#NR  、#PU  蛋白质#NR  和#CC  脂肪#NR  的#DEG  降解#NN  物#NN  ，#PU  为#P  腐生#NN  营养型#NN  ，#PU  是#VC  一#CD  种#M  异养生物#NN  ，#PU  属#VV  担子#NN  菌类#NN    。#PU  金针菇#NN  是#VC  一#CD  种#M  木材#NN  腐生菌#NN  ，#PU  易生#NN  长在柳#NN  、#PU  榆#NN  、#PU  白杨#NN  树#NN  等#ETC  阔叶树#NN  的#DEG  枯树#NN  干#VV  及#CC  树桩#NN  上#LC    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 金针菇#VV)  (nn, 金钱菌#NN, 学名#NN)  (nn, 金钱菌#NN, 毛柄#NN)  (nsubj, 属#VV, 金钱菌#NN)  (ccomp, 金针菇#VV, 属#VV)  (nn, 菇属#NN, 伞菌目#NN)  (nn, 菇属#NN, 口蘑科#NN)  (nn, 菇属#NN, 金针#NN)  (dobj, 属#VV, 菇属#NN)  (conj, 属#VV, 是#VC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (dvpmod, 衣类#VV, 菌藻#VA)  (mark, 菌藻#VA, 地#DEV)  (conj, 属#VV, 衣类#VV)  (cop, 食用菌#NN, 是#VC)  (advmod, 栽培#VV, 秋冬#AD)  (case, 早春#NN, 与#P)  (prep, 栽培#VV, 早春#NN)  (relcl, 食用菌#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (conj, 属#VV, 食用菌#NN)  (conj, 属#VV, 因其#VV)  (nn, 细长#NN, 菌柄#NN)  (dobj, 因其#VV, 细长#NN)  (case, 金针菜#NN, 似#P)  (prep, 金针菇#VV, 金针菜#NN)  (advmod, 金针菇#VV, 故称#AD)  (conj, 属#VV, 金针菇#VV)   (nsubj, 分布#VV, 金针菇#NN)  (case, 自然界#NR, 在#P)  (prep, 分布#VV, 自然界#NR)  (advmod, 分布#VV, 广为#AD)  (root, ROOT#null, 分布#VV)  (case, 黑龙江#NR, 在#P)  (nn, 黑龙江#NR, 中国#NR)  (nn, 黑龙江#NR, 北起#NR)  (prep, 起#VV, 黑龙江#NR)  (nsubj, 起#VV, 南至#NN)  (nsubj, 起#VV, 云南#NR)  (advmod, 起#VV, 东#AD)  (conj, 分布#VV, 起#VV)  (dobj, 起#VV, 江苏#NR)  (conj, 新疆#NR, 西#NR)  (cc, 新疆#NR, 至#CC)  (nsubj, 适合#VV, 新疆#NR)  (advmod, 适合#VV, 均#AD)  (conj, 分布#VV, 适合#VV)  (assmod, 生长#NN, 金针菇#NN)  (case, 金针菇#NN, 的#DEG)  (dobj, 适合#VV, 生长#NN)   (conj, 味道#NN, 金针菇#NN)  (cc, 味道#NN, 不仅#CC)  (nsubj, 鲜美#VA, 味道#NN)  (root, ROOT#null, 鲜美#VA)  (cc, 鲜美#VA, 而且#CC)  (conj, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 之一#NN, 是#VC)  (conj, 火锅#NR, 拌凉菜#NR)  (cc, 火锅#NR, 和#CC)  (nn, 食品#NN, 火锅#NR)  (assmod, 之一#NN, 食品#NN)  (case, 食品#NN, 的#DEG)  (nn, 之一#NN, 原料#NN)  (dep, 鲜美#VA, 之一#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含#VV, 金针菇#NN)  (neg, 含#VV, 不#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 叶绿素#NN)  (neg, 具有#VV, 不#AD)  (conj, 含#VV, 具有#VV)  (nn, 作用#NN, 光合#NN)  (dobj, 具有#VV, 作用#NN)  (neg, 制造#VV, 不#AD)  (mmod, 制造#VV, 能#VV)  (conj, 含#VV, 制造#VV)  (nn, 化合物#NN, 碳水#NN)  (dobj, 制造#VV, 化合物#NN)  (advmod, 可在#VV, 完全#AD)  (dep, 制造#VV, 可在#VV)  (nn, 环境#NN, 黑暗#NN)  (dep, 生长#NN, 环境#NN)  (case, 环境#NN, 中#LC)  (dobj, 可在#VV, 生长#NN)  (mmod, 吸收#VV, 必须#VV)  (case, 培养#VV, 从#P)  (prep, 吸收#VV, 培养#VV)  (dobj, 培养#VV, 基#NN)  (case, 培养#VV, 中#LC)  (dep, 制造#VV, 吸收#VV)  (assmod, 物质#NN, 现成#JJ)  (case, 现成#JJ, 的#DEG)  (nn, 物质#NN, 有机#NN)  (dobj, 吸收#VV, 物质#NN)  (case, 物#NN, 如#P)  (conj, 脂肪#NR, 碳水化合物#NR)  (conj, 脂肪#NR, 蛋白质#NR)  (cc, 脂肪#NR, 和#CC)  (assmod, 物#NN, 脂肪#NR)  (case, 脂肪#NR, 的#DEG)  (nn, 物#NN, 降解#NN)  (prep, 异养生物#NN, 物#NN)  (case, 营养型#NN, 为#P)  (nn, 营养型#NN, 腐生#NN)  (prep, 异养生物#NN, 营养型#NN)  (cop, 异养生物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 异养生物#NN, 种#M)  (dep, 制造#VV, 异养生物#NN)  (conj, 含#VV, 属#VV)  (nn, 菌类#NN, 担子#NN)  (dobj, 属#VV, 菌类#NN)   (nsubj, 腐生菌#NN, 金针菇#NN)  (cop, 腐生菌#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 腐生菌#NN, 种#M)  (nn, 腐生菌#NN, 木材#NN)  (root, ROOT#null, 腐生菌#NN)  (nn, 树#NN, 易生#NN)  (conj, 树#NN, 长在柳#NN)  (conj, 树#NN, 榆#NN)  (nn, 树#NN, 白杨#NN)  (nn, 枯树#NN, 树#NN)  (etc, 树#NN, 等#ETC)  (assmod, 枯树#NN, 阔叶树#NN)  (case, 阔叶树#NN, 的#DEG)  (nsubj, 干#VV, 枯树#NN)  (conj, 腐生菌#NN, 干#VV)  (cc, 干#VV, 及#CC)  (conj, 干#VV, 树桩#NN)  (case, 树桩#NN, 上#LC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促进智力发育
+            金针菇氨基酸含量高，对促进智力发育、增强智力发育、增强记忆力有裨益，是儿童保健增智、老年人延年益寿、成年人增强记忆力的必须品，在多国家誉为“益智菇”。
+            2.促进新陈代谢
+            增强体内的生物活性，促进新陈代谢。有利益营养素的吸收。
+            3.降血脂
+            抑制血脂升高，降低胆固醇，防止高血脂症，从而减少心血管疾病的发生。
+            4.抗疲劳
+            抗菌消炎，消除重金属毒素，抗肿瘤。
+            5.预防过敏
+            预防哮喘，鼻炎，湿疹等过敏症。
+        </rawdata>
+
+        <segment>
+            促进  智力  发育
+            金针菇  氨基酸  含量  高  ，  对  促进  智力  发育  、  增强  智力  发育  、  增强  记忆力  有  裨益  ，  是  儿童  保健  增智  、  老年人  延年益寿  、  成年人  增强  记忆力  的  必须品  ，  在  多  国家  誉为  “  益智菇  ”  。
+            促进  新陈代谢
+            增强  体内  的  生物  活性  ，  促进  新陈代谢  。  有  利益  营养素  的  吸收  。
+            降  血脂
+            抑制  血脂  升高  ，  降低  胆固醇  ，  防止  高血脂症  ，  从而  减少  心  血管  疾病  的  发生  。
+            抗  疲劳
+            抗菌  消炎  ，  消除  重金属  毒素  ，  抗  肿瘤  。
+            预防  过敏
+            预防  哮喘  ，  鼻炎  ，  湿疹  等  过敏症  。
+        </segment>
+
+        <pos>
+            促进#VV  智力#NN  发育#NN
+            金针菇#NN  氨基酸#NN  含量#NN  高#VA  ，#PU  对#P  促进#VV  智力#VV  发育#NN  、#PU  增强#VV  智力#NN  发育#NN  、#PU  增强#VV  记忆力#NN  有#VE  裨益#NN  ，#PU  是#VC  儿童#NN  保健#NN  增智#NN  、#PU  老年人#NN  延年益寿#NN  、#PU  成年人#AD  增强#VV  记忆力#NN  的#DEC  必须品#NN  ，#PU  在#P  多#CD  国家#NN  誉为#VV  ``#NN  益智菇#NN  ''#NN  。#PU
+            促进#VV  新陈代谢#NN
+            增强#VV  体内#NN  的#DEG  生物#NN  活性#NN  ，#PU  促进#VV  新陈代谢#NN    。#PU  有#VE  利益#NN  营养素#NN  的#DEG  吸收#NN    。#PU    。#PU
+            降#NN  血脂#VA
+            抑制#NN  血脂#AD  升高#VV  ，#PU  降低#VV  胆固醇#NN  ，#PU  防止#VV  高血脂症#NN  ，#PU  从而#AD  减少#VV  心#NN  血管#NN  疾病#NN  的#DEG  发生#NN  。#PU
+            抗#NN  疲劳#VA
+            抗菌#NR  消炎#VV  ，#PU  消除#VV  重金属#NN  毒素#NN  ，#PU  抗#VV  肿瘤#NN  。#PU
+            预防#NN  过敏#VV
+            预防#VV  哮喘#NN  ，#PU  鼻炎#NN  ，#PU  湿疹#NN  等#ETC  过敏症#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 智力#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 含量#NN, 金针菇#NN)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (case, 促进#VV, 对#P)  (prep, 有#VE, 促进#VV)  (ccomp, 促进#VV, 智力#VV)  (dobj, 智力#VV, 发育#NN)  (conj, 智力#VV, 增强#VV)  (nn, 发育#NN, 智力#NN)  (dobj, 增强#VV, 发育#NN)  (conj, 智力#VV, 增强#VV)  (dobj, 增强#VV, 记忆力#NN)  (conj, 高#VA, 有#VE)  (dobj, 有#VE, 裨益#NN)  (cop, 必须品#NN, 是#VC)  (nn, 增智#NN, 儿童#NN)  (nn, 增智#NN, 保健#NN)  (conj, 必须品#NN, 增智#NN)  (nn, 延年益寿#NN, 老年人#NN)  (conj, 必须品#NN, 延年益寿#NN)  (advmod, 增强#VV, 成年人#AD)  (relcl, 必须品#NN, 增强#VV)  (dobj, 增强#VV, 记忆力#NN)  (mark, 增强#VV, 的#DEC)  (dep, 有#VE, 必须品#NN)  (case, 国家#NN, 在#P)  (nummod, 国家#NN, 多#CD)  (prep, 誉为#VV, 国家#NN)  (conj, 有#VE, 誉为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 益智菇#NN)  (dobj, 誉为#VV, ''#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)
+            (root, ROOT#null, 增强#VV)  (assmod, 活性#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 活性#NN, 生物#NN)  (dobj, 增强#VV, 活性#NN)  (conj, 增强#VV, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)   (root, ROOT#null, 有#VE)  (nn, 营养素#NN, 利益#NN)  (assmod, 吸收#NN, 营养素#NN)  (case, 营养素#NN, 的#DEG)  (dobj, 有#VE, 吸收#NN)   (root, ROOT#null, null#null)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (nsubj, 升高#VV, 抑制#NN)  (advmod, 升高#VV, 血脂#AD)  (root, ROOT#null, 升高#VV)  (conj, 升高#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 升高#VV, 防止#VV)  (dobj, 防止#VV, 高血脂症#NN)  (advmod, 减少#VV, 从而#AD)  (conj, 升高#VV, 减少#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 减少#VV, 发生#NN)
+            (nsubj, 疲劳#VA, 抗#NN)  (root, ROOT#null, 疲劳#VA)
+            (nsubj, 消炎#VV, 抗菌#NR)  (xsubj, 消除#VV, 抗菌#NR)  (root, ROOT#null, 消炎#VV)  (ccomp, 消炎#VV, 消除#VV)  (nn, 毒素#NN, 重金属#NN)  (dobj, 消除#VV, 毒素#NN)  (conj, 消除#VV, 抗#VV)  (dobj, 抗#VV, 肿瘤#NN)
+            (nsubj, 过敏#VV, 预防#NN)  (root, ROOT#null, 过敏#VV)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 哮喘#NN)  (nsubj, 过敏症#VV, 鼻炎#NN)  (nsubj, 过敏症#VV, 湿疹#NN)  (etc, 湿疹#NN, 等#ETC)  (dep, 预防#VV, 过敏症#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  辅助降血脂  抗癌防癌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.金针菇具有热量低、高蛋白、低脂肪、多糖、多种维生素的营养特点。
+            2.金针菇氨基酸的含量非常丰富，高于一般菇类，尤其是赖氨酸的含量特别高，赖氨酸具有促进儿童智力发育的功能。
+        </rawdata>
+
+        <segment>
+            金针菇  具有  热量  低  、  高  蛋白  、  低  脂肪  、  多糖  、  多  种  维生素  的  营养  特点  。
+            金针菇  氨基酸  的  含量  非常  丰富  ，  高于  一般  菇类  ，  尤其是  赖氨酸  的  含量  特别高  ，  赖氨酸  具有  促进  儿童  智力  发育  的  功能  。
+        </segment>
+
+        <pos>
+            金针菇#NN  具有#VV  热量#VV  低#JJ  、#PU  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  多糖#NN  、#PU  多#CD  种#M  维生素#NN  的#DEC  营养#VA  特点#NN  。#PU
+            金针菇#NN  氨基酸#NN  的#DEG  含量#NN  非常#AD  丰富#VA  ，#PU  高于#VV  一般#JJ  菇类#NN  ，#PU  尤其是#AD  赖氨酸#NN  的#DEG  含量#NN  特别高#VA  ，#PU  赖氨酸#AD  具有#VV  促进#VV  儿童#NN  智力#NN  发育#NN  的#DEC  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 金针菇#NN)  (root, ROOT#null, 具有#VV)  (relcl, 特点#NN, 热量#VV)  (amod, 维生素#NN, 低#JJ)  (amod, 蛋白#NN, 高#JJ)  (conj, 维生素#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 多糖#NN)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (dobj, 热量#VV, 维生素#NN)  (mark, 热量#VV, 的#DEC)  (nfincl, 特点#NN, 营养#VA)  (dobj, 具有#VV, 特点#NN)
+            (nn, 氨基酸#NN, 金针菇#NN)  (assmod, 含量#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 非常#AD)  (root, ROOT#null, 丰富#VA)  (dep, 丰富#VA, 高于#VV)  (amod, 菇类#NN, 一般#JJ)  (dobj, 高于#VV, 菇类#NN)  (advmod, 特别高#VA, 尤其是#AD)  (assmod, 含量#NN, 赖氨酸#NN)  (case, 赖氨酸#NN, 的#DEG)  (nsubj, 特别高#VA, 含量#NN)  (conj, 丰富#VA, 特别高#VA)  (advmod, 具有#VV, 赖氨酸#AD)  (conj, 丰富#VA, 具有#VV)  (relcl, 功能#NN, 促进#VV)  (nn, 发育#NN, 儿童#NN)  (nn, 发育#NN, 智力#NN)  (dobj, 促进#VV, 发育#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            金针菇一定要煮熟再吃，否则容易引起中毒。将鲜品水分挤开，放入沸水锅内氽一下捞起，凉拌、炒、炝、熘、烧、炖、煮、蒸、做汤均可，亦可作为荤素菜的配料使用；金针菇入菜可做成鸡脯拌金针、金针炒鸡丝、金针菇豆苗竹笋汤等菜肴。
+        </rawdata>
+
+        <segment>
+            金针菇  一定  要  煮熟  再  吃  ，  否则  容易  引起  中毒  。  将  鲜品  水分  挤  开  ，  放入  沸水  锅  内氽  一下  捞起  ，  凉拌  、  炒  、  炝  、  熘  、  烧  、  炖  、  煮  、  蒸  、  做  汤  均可  ，  亦  可  作为  荤素菜  的  配料  使用  ；  金针  菇入  菜  可  做成  鸡脯拌  金针  、  金针  炒  鸡丝  、  金针菇  豆苗  竹笋  汤  等  菜肴  。
+        </segment>
+
+        <pos>
+            金针菇#NN  一定#AD  要#VV  煮熟#AD  再#AD  吃#VV  ，#PU  否则#AD  容易#VA  引起#VV  中毒#VV    。#PU  将#BA  鲜品#NN  水分#NN  挤#VV  开#VV  ，#PU  放入#VV  沸水#NN  锅#NN  内氽#NN  一下#AD  捞起#VV  ，#PU  凉拌#VA  、#PU  炒#VA  、#PU  炝#VA  、#PU  熘#VA  、#PU  烧#VA  、#PU  炖#VA  、#PU  煮#VV  、#PU  蒸#VA  、#PU  做#VV  汤#NN  均可#NN  ，#PU  亦#AD  可#VV  作为#P  荤素菜#NR  的#DEC  配料#NN  使用#VV  ；#PU  金针#NN  菇入#NN  菜#NN  可#VV  做成#NN  鸡脯拌#NN  金针#NN  、#PU  金针#NN  炒#NN  鸡丝#NN  、#PU  金针菇#NN  豆苗#NN  竹笋#NN  汤#NN  等#ETC  菜肴#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 吃#VV, 金针菇#NN)  (advmod, 吃#VV, 一定#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 煮熟#AD)  (advmod, 吃#VV, 再#AD)  (dep, 引起#VV, 吃#VV)  (advmod, 容易#VA, 否则#AD)  (dep, 吃#VV, 容易#VA)  (root, ROOT#null, 引起#VV)  (comod, 引起#VV, 中毒#VV)   (ba, 挤#VV, 将#BA)  (nn, 水分#NN, 鲜品#NN)  (nsubj, 挤#VV, 水分#NN)  (root, ROOT#null, 挤#VV)  (comod, 挤#VV, 开#VV)  (dep, 挤#VV, 放入#VV)  (nn, 内氽#NN, 沸水#NN)  (nn, 内氽#NN, 锅#NN)  (nsubj, 捞起#VV, 内氽#NN)  (advmod, 捞起#VV, 一下#AD)  (nfincl, 菜肴#NN, 捞起#VV)  (conj, 煮#VV, 凉拌#VA)  (conj, 煮#VV, 炒#VA)  (conj, 煮#VV, 炝#VA)  (conj, 煮#VV, 熘#VA)  (conj, 煮#VV, 烧#VA)  (conj, 煮#VV, 炖#VA)  (relcl, 配料#NN, 煮#VV)  (dep, 煮#VV, 蒸#VA)  (dep, 煮#VV, 做#VV)  (nn, 均可#NN, 汤#NN)  (dobj, 做#VV, 均可#NN)  (advmod, 可#VV, 亦#AD)  (conj, 做#VV, 可#VV)  (case, 荤素菜#NR, 作为#P)  (prep, 可#VV, 荤素菜#NR)  (mark, 煮#VV, 的#DEC)  (nsubj, 使用#VV, 配料#NN)  (conj, 捞起#VV, 使用#VV)  (nn, 菜#NN, 金针#NN)  (nn, 菜#NN, 菇入#NN)  (nsubj, 可#VV, 菜#NN)  (conj, 捞起#VV, 可#VV)  (nn, 汤#NN, 做成#NN)  (nn, 汤#NN, 鸡脯拌#NN)  (conj, 汤#NN, 金针#NN)  (nn, 汤#NN, 金针#NN)  (nn, 汤#NN, 炒#NN)  (conj, 汤#NN, 鸡丝#NN)  (nn, 汤#NN, 金针菇#NN)  (nn, 汤#NN, 豆苗#NN)  (nn, 汤#NN, 竹笋#NN)  (dobj, 可#VV, 汤#NN)  (etc, 汤#NN, 等#ETC)  (dobj, 放入#VV, 菜肴#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101535009532.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

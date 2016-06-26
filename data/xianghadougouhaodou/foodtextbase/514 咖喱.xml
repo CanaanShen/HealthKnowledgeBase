@@ -1,0 +1,350 @@
+<content>
+
+    <id>
+        514
+    </id>
+
+    <foodname>
+        咖喱
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        咖哩
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃炎、溃疡病患者慎食；患病服药期间不宜食用。
+        </rawdata>
+
+        <segment>
+            胃炎  、  溃疡病  患者  慎食  ；  患病  服药  期间  不  宜  食用  。
+        </segment>
+
+        <pos>
+            胃炎#NN  、#PU  溃疡病#NN  患者#NN  慎食#VV  ；#PU  患病#VV  服药#NN  期间#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 溃疡病#NN, 胃炎#NN)  (nn, 患者#NN, 溃疡病#NN)  (nsubj, 慎食#VV, 患者#NN)  (root, ROOT#null, 慎食#VV)  (relcl, 期间#NN, 患病#VV)  (dobj, 患病#VV, 服药#NN)  (nsubj, 食用#VV, 期间#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (ccomp, 慎食#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                415
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                12.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                63.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                36.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                110
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                690
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                540
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                400
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1700
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                220
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                28.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            咖喱是由多种香料调配而成的酱料，常见于印度菜、泰国菜和日本菜等，一般伴随肉类和饭一起吃。咖哩是一种多样变作及特殊地调过味的菜肴，最有名的是印度和泰国烹调法，然而咖哩已经在亚太地区成为主流的菜肴之一。除了茶以外，咖哩是少数的真正泛亚的菜肴或饮料，但要指出的是，它的来源是来自于印度。印度口味是以混合各方的风格而做出含有异国风情菜肴而闻名的。
+            喱的种类很多，以国家来分，其源地就有印度、斯里兰卡、泰国、新加坡、马来西亚等；以颜色来分，有红、青、黄、白之别，根据配料细节上的不同来区分种类口味的咖喱大约有十多种之多，这些迥异不同的香料的汇集在一起，就能够构成各种咖喱的各种令人意想不到的浓郁香味。
+        </rawdata>
+
+        <segment>
+            咖喱  是  由  多  种  香料  调配  而  成  的  酱料  ，  常见于  印度菜  、  泰国  菜  和  日本  菜等  ，  一般  伴随  肉类  和  饭  一起  吃  。  咖哩  是  一  种  多样  变  作及  特殊  地  调过  味  的  菜肴  ，  最  有名  的  是  印度  和  泰国  烹调法  ，  然而  咖哩  已经  在  亚太  地区  成为  主流  的  菜肴  之一  。  除了  茶  以外  ，  咖哩  是  少数  的  真正  泛亚  的  菜肴  或  饮料  ，  但  要  指出  的  是  ，  它  的  来源  是  来自于  印度  。  印度  口味  是  以  混合  各  方  的  风格  而  做出  含有  异国  风情  菜肴  而  闻名  的  。
+            喱的  种类  很多  ，  以  国家  来分  ，  其源  地  就  有  印度  、  斯里兰卡  、  泰国  、  新加坡  、  马来西亚  等  ；  以  颜色  来  分  ，  有  红  、  青  、  黄  、  白  之  别  ，  根据  配料  细节  上  的  不同  来  区分  种类  口味  的  咖喱  大约  有  十多  种  之  多  ，  这些  迥异  不同  的  香料  的  汇集  在一起  ，  就  能够  构成  各  种  咖喱  的  各  种  令  人  意想不到  的  浓郁  香味  。
+        </segment>
+
+        <pos>
+            咖喱#NN  是#VC  由#P  多#CD  种#M  香料#NN  调配#NN  而#MSP  成#VV  的#DEC  酱料#NN  ，#PU  常见于#NN  印度菜#NN  、#PU  泰国#NR  菜#NN  和#CC  日本#NR  菜等#NN  ，#PU  一般#AD  伴随#VV  肉类#NN  和#CC  饭#NN  一起#AD  吃#VV    。#PU  咖哩#NN  是#VC  一#CD  种#M  多样#VA  变#VV  作及#AD  特殊#VA  地#DEV  调过#VV  味#NN  的#DEC  菜肴#VV  ，#PU  最#AD  有名#VA  的#DEC  是#VC  印度#NR  和#CC  泰国#NR  烹调法#NN  ，#PU  然而#AD  咖哩#NN  已经#AD  在#P  亚太#NR  地区#NN  成为#VV  主流#NN  的#DEC  菜肴#NN  之一#NN    。#PU  除了#P  茶#NN  以外#LC  ，#PU  咖哩#NN  是#VC  少数#NN  的#DEG  真正#AD  泛亚#VV  的#DEC  菜肴#NN  或#CC  饮料#NN  ，#PU  但#AD  要#VV  指出#VV  的#DEC  是#VC  ，#PU  它#PN  的#DEG  来源#NN  是#VC  来自于#VV  印度#NR    。#PU  印度#NR  口味#NN  是#VC  以#P  混合#NN  各#DT  方#NN  的#DEG  风格#NN  而#MSP  做出#VV  含有#NN  异国#NN  风情#NN  菜肴#NN  而#MSP  闻名#VV  的#DEC    。#PU    。#PU
+            喱的#VV  种类#NN  很多#CD  ，#PU  以#P  国家#NN  来分#NN  ，#PU  其源#VA  地#DEV  就#AD  有#VE  印度#NR  、#PU  斯里兰卡#NR  、#PU  泰国#NR  、#PU  新加坡#NR  、#PU  马来西亚#NR  等#ETC  ；#PU  以#P  颜色#NN  来#LC  分#VV  ，#PU  有#VE  红#JJ  、#PU  青#JJ  、#PU  黄#JJ  、#PU  白#JJ  之#PN  别#DT  ，#PU  根据#P  配料#NN  细节#NN  上#LC  的#DEG  不同#NN  来#LC  区分#VV  种类#NN  口味#NN  的#DEC  咖喱#NN  大约#AD  有#VE  十多#CD  种#M  之#DEG  多#NN  ，#PU  这些#DT  迥异#NN  不同#VA  的#DEC  香料#NN  的#DEC  汇集#NN  在一起#AD  ，#PU  就#AD  能够#VV  构成#VV  各#DT  种#M  咖喱#NN  的#DEC  各#DT  种#M  令#VV  人#NN  意想不到#VA  的#DEC  浓郁#VA  香味#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 酱料#NN, 咖喱#NN)  (cop, 酱料#NN, 是#VC)  (case, 调配#NN, 由#P)  (nummod, 种#M, 多#CD)  (clf, 调配#NN, 种#M)  (nn, 调配#NN, 香料#NN)  (prep, 成#VV, 调配#NN)  (prtmod, 成#VV, 而#MSP)  (relcl, 酱料#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (root, ROOT#null, 酱料#NN)  (nn, 菜等#NN, 常见于#NN)  (conj, 菜等#NN, 印度菜#NN)  (nn, 菜等#NN, 泰国#NR)  (conj, 菜等#NN, 菜#NN)  (cc, 菜等#NN, 和#CC)  (nn, 菜等#NN, 日本#NR)  (nsubj, 吃#VV, 菜等#NN)  (advmod, 伴随#VV, 一般#AD)  (dep, 吃#VV, 伴随#VV)  (conj, 饭#NN, 肉类#NN)  (cc, 饭#NN, 和#CC)  (dobj, 伴随#VV, 饭#NN)  (advmod, 吃#VV, 一起#AD)  (conj, 酱料#NN, 吃#VV)   (nsubj, 之一#NN, 咖哩#NN)  (cop, 之一#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 之一#NN, 种#M)  (dvpmod, 调过#VV, 多样#VA)  (mmod, 特殊#VA, 变#VV)  (advmod, 特殊#VA, 作及#AD)  (dep, 多样#VA, 特殊#VA)  (mark, 多样#VA, 地#DEV)  (relcl, 之一#NN, 调过#VV)  (dobj, 调过#VV, 味#NN)  (mark, 调过#VV, 的#DEC)  (relcl, 之一#NN, 菜肴#VV)  (advmod, 有名#VA, 最#AD)  (nsubj, 烹调法#NN, 有名#VA)  (mark, 有名#VA, 的#DEC)  (cop, 烹调法#NN, 是#VC)  (conj, 泰国#NR, 印度#NR)  (cc, 泰国#NR, 和#CC)  (nn, 烹调法#NN, 泰国#NR)  (ccomp, 菜肴#VV, 烹调法#NN)  (advmod, 成为#VV, 然而#AD)  (nsubj, 成为#VV, 咖哩#NN)  (advmod, 成为#VV, 已经#AD)  (case, 地区#NN, 在#P)  (nn, 地区#NN, 亚太#NR)  (prep, 成为#VV, 地区#NN)  (conj, 烹调法#NN, 成为#VV)  (dobj, 成为#VV, 主流#NN)  (mark, 菜肴#VV, 的#DEC)  (nn, 之一#NN, 菜肴#NN)  (root, ROOT#null, 之一#NN)   (case, 茶#NN, 除了#P)  (prep, 饮料#NN, 茶#NN)  (case, 茶#NN, 以外#LC)  (nsubj, 饮料#NN, 咖哩#NN)  (cop, 饮料#NN, 是#VC)  (assmod, 饮料#NN, 少数#NN)  (case, 少数#NN, 的#DEG)  (advmod, 泛亚#VV, 真正#AD)  (relcl, 饮料#NN, 泛亚#VV)  (mark, 泛亚#VV, 的#DEC)  (conj, 饮料#NN, 菜肴#NN)  (cc, 饮料#NN, 或#CC)  (root, ROOT#null, 饮料#NN)  (advmod, 来自于#VV, 但#AD)  (dep, 指出#VV, 要#VV)  (nsubj, 来自于#VV, 指出#VV)  (mark, 指出#VV, 的#DEC)  (cop, 来自于#VV, 是#VC)  (assmod, 来源#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 来自于#VV, 来源#NN)  (cop, 来自于#VV, 是#VC)  (conj, 饮料#NN, 来自于#VV)  (dobj, 来自于#VV, 印度#NR)   (nn, 口味#NN, 印度#NR)  (nsubj, 闻名#VV, 口味#NN)  (cop, 闻名#VV, 是#VC)  (case, 做出#VV, 以#P)  (nn, 方#NN, 混合#NN)  (det, 方#NN, 各#DT)  (assmod, 风格#NN, 方#NN)  (case, 方#NN, 的#DEG)  (nsubj, 做出#VV, 风格#NN)  (prtmod, 做出#VV, 而#MSP)  (prep, 闻名#VV, 做出#VV)  (nn, 风情#NN, 含有#NN)  (nn, 风情#NN, 异国#NN)  (nn, 菜肴#NN, 风情#NN)  (dobj, 做出#VV, 菜肴#NN)  (prtmod, 闻名#VV, 而#MSP)  (root, ROOT#null, 闻名#VV)  (mark, 闻名#VV, 的#DEC)   (root, ROOT#null, null#null)
+            (relcl, 汇集#NN, 喱的#VV)  (dobj, 喱的#VV, 种类#NN)  (range, 喱的#VV, 很多#CD)  (case, 来分#NN, 以#P)  (nn, 来分#NN, 国家#NN)  (prep, 有#VE, 来分#NN)  (dvpmod, 有#VE, 其源#VA)  (mark, 其源#VA, 地#DEV)  (advmod, 有#VE, 就#AD)  (conj, 喱的#VV, 有#VE)  (conj, 马来西亚#NR, 印度#NR)  (conj, 马来西亚#NR, 斯里兰卡#NR)  (conj, 马来西亚#NR, 泰国#NR)  (conj, 马来西亚#NR, 新加坡#NR)  (dobj, 有#VE, 马来西亚#NR)  (etc, 马来西亚#NR, 等#ETC)  (case, 颜色#NN, 以#P)  (prep, 分#VV, 颜色#NN)  (case, 颜色#NN, 来#LC)  (conj, 喱的#VV, 分#VV)  (conj, 喱的#VV, 有#VE)  (amod, 香料#NN, 红#JJ)  (conj, 红#JJ, 青#JJ)  (conj, 红#JJ, 黄#JJ)  (dep, 红#JJ, 白#JJ)  (dep, 别#DT, 之#PN)  (dep, 有#VE, 别#DT)  (case, 不同#NN, 根据#P)  (nn, 细节#NN, 配料#NN)  (assmod, 不同#NN, 细节#NN)  (case, 细节#NN, 上#LC)  (case, 细节#NN, 的#DEG)  (prep, 区分#VV, 不同#NN)  (case, 不同#NN, 来#LC)  (relcl, 咖喱#NN, 区分#VV)  (nn, 口味#NN, 种类#NN)  (dobj, 区分#VV, 口味#NN)  (mark, 区分#VV, 的#DEC)  (nsubj, 有#VE, 咖喱#NN)  (advmod, 有#VE, 大约#AD)  (relcl, 香料#NN, 有#VE)  (nummod, 种#M, 十多#CD)  (assmod, 多#NN, 种#M)  (case, 种#M, 之#DEG)  (dobj, 有#VE, 多#NN)  (det, 迥异#NN, 这些#DT)  (nsubj, 不同#VA, 迥异#NN)  (conj, 有#VE, 不同#VA)  (mark, 有#VE, 的#DEC)  (dobj, 有#VE, 香料#NN)  (mark, 喱的#VV, 的#DEC)  (nsubj, 能够#VV, 汇集#NN)  (advmod, 能够#VV, 在一起#AD)  (advmod, 能够#VV, 就#AD)  (root, ROOT#null, 能够#VV)  (relcl, 香味#NN, 构成#VV)  (det, 咖喱#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 构成#VV, 咖喱#NN)  (mark, 构成#VV, 的#DEC)  (det, 香味#NN, 各#DT)  (clf, 各#DT, 种#M)  (relcl, 香味#NN, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 意想不到#VA)  (mark, 令#VV, 的#DEC)  (relcl, 香味#NN, 浓郁#VA)  (dobj, 能够#VV, 香味#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增进食欲
+            能促进唾液和胃液的分泌，加快胃肠蠕动，增进食欲。
+            2.促进血液循环
+            咖喱还能促进血液循环，达到发汗的目的，所以在炎热地区，人们特别喜欢吃咖喱菜肴。
+            3.抗癌抗癌
+            美国癌症研究协会的研究指出，咖喱内所含的姜黄素具有激活肝细胞并抑制癌细胞的功能，对于肝病和癌症的预防能起到一定的作用。
+        </rawdata>
+
+        <segment>
+            增进  食欲
+            能  促进  唾液  和  胃液  的  分泌  ，  加快  胃肠  蠕动  ，  增进  食欲  。
+            促进  血液  循环
+            咖喱  还  能  促进  血液  循环  ，  达到  发汗  的  目的  ，  所以  在  炎热  地区  ，  人们  特别  喜欢  吃  咖喱  菜肴  。
+            抗癌  抗癌
+            美国  癌症  研究  协会  的  研究  指出  ，  咖喱  内  所  含  的  姜黄  素  具有  激活  肝细胞  并  抑制  癌细胞  的  功能  ，  对于  肝病  和  癌症  的  预防  能  起到  一定  的  作用  。
+        </segment>
+
+        <pos>
+            增进#VV  食欲#NN
+            能#VV  促进#VV  唾液#NN  和#CC  胃液#NN  的#DEC  分泌#NN  ，#PU  加快#VV  胃肠#NN  蠕动#NN  ，#PU  增进#VV  食欲#NN  。#PU
+            促进#VV  血液#NN  循环#NN
+            咖喱#NN  还#AD  能#VV  促进#VV  血液#NN  循环#NN  ，#PU  达到#VV  发汗#NN  的#DEG  目的#NN  ，#PU  所以#AD  在#P  炎热#NR  地区#NN  ，#PU  人们#NN  特别#AD  喜欢#VV  吃#VV  咖喱#NN  菜肴#NN  。#PU
+            抗癌#NN  抗癌#VV
+            美国#NR  癌症#NN  研究#NN  协会#NN  的#DEG  研究#NN  指出#VV  ，#PU  咖喱#NN  内#LC  所#MSP  含#VV  的#DEC  姜黄#NN  素#AD  具有#VV  激活#VV  肝细胞#NN  并#CC  抑制#VV  癌细胞#NN  的#DEC  功能#NN  ，#PU  对于#P  肝病#NN  和#CC  癌症#NN  的#DEG  预防#NN  能#VV  起到#VV  一定#JJ  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (root, ROOT#null, 能#VV)  (relcl, 分泌#NN, 促进#VV)  (conj, 胃液#NN, 唾液#NN)  (cc, 胃液#NN, 和#CC)  (dobj, 促进#VV, 胃液#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 能#VV, 分泌#NN)  (conj, 能#VV, 加快#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 加快#VV, 蠕动#NN)  (conj, 能#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)
+            (nsubj, 促进#VV, 咖喱#NN)  (advmod, 促进#VV, 还#AD)  (mmod, 促进#VV, 能#VV)  (root, ROOT#null, 促进#VV)  (nn, 循环#NN, 血液#NN)  (nsubj, 达到#VV, 循环#NN)  (ccomp, 促进#VV, 达到#VV)  (assmod, 目的#NN, 发汗#NN)  (case, 发汗#NN, 的#DEG)  (dobj, 达到#VV, 目的#NN)  (advmod, 喜欢#VV, 所以#AD)  (case, 地区#NN, 在#P)  (nn, 地区#NN, 炎热#NR)  (prep, 喜欢#VV, 地区#NN)  (nsubj, 喜欢#VV, 人们#NN)  (advmod, 喜欢#VV, 特别#AD)  (conj, 促进#VV, 喜欢#VV)  (ccomp, 喜欢#VV, 吃#VV)  (nn, 菜肴#NN, 咖喱#NN)  (dobj, 吃#VV, 菜肴#NN)
+            (nsubj, 抗癌#VV, 抗癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nn, 协会#NN, 美国#NR)  (nn, 协会#NN, 癌症#NN)  (nn, 协会#NN, 研究#NN)  (assmod, 研究#NN, 协会#NN)  (case, 协会#NN, 的#DEG)  (nsubj, 指出#VV, 研究#NN)  (root, ROOT#null, 指出#VV)  (loc, 含#VV, 咖喱#NN)  (case, 咖喱#NN, 内#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 姜黄#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 具有#VV, 姜黄#NN)  (advmod, 具有#VV, 素#AD)  (ccomp, 指出#VV, 具有#VV)  (relcl, 功能#NN, 激活#VV)  (dobj, 激活#VV, 肝细胞#NN)  (cc, 激活#VV, 并#CC)  (conj, 激活#VV, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)  (mark, 激活#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)  (case, 预防#NN, 对于#P)  (conj, 癌症#NN, 肝病#NN)  (cc, 癌症#NN, 和#CC)  (assmod, 预防#NN, 癌症#NN)  (case, 癌症#NN, 的#DEG)  (prep, 起到#VV, 预防#NN)  (mmod, 起到#VV, 能#VV)  (dep, 具有#VV, 起到#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            咖喱的主要成分是
+        </rawdata>
+
+        <segment>
+            咖喱  的  主要  成分  是
+        </segment>
+
+        <pos>
+            咖喱#NN  的#DEG  主要#JJ  成分#NN  是#VC
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 咖喱#NN)  (case, 咖喱#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 是#VC, 成分#NN)  (root, ROOT#null, 是#VC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            在烹调中提辣提香，去腥味，可用于烧菜，焖鱼虾、牛肉、鸡肉等。
+        </rawdata>
+
+        <segment>
+            在  烹调  中  提辣  提香  ，  去  腥味  ，  可  用于  烧菜  ，  焖  鱼虾  、  牛肉  、  鸡肉  等  。
+        </segment>
+
+        <pos>
+            在#P  烹调#NN  中#LC  提辣#VV  提香#NN  ，#PU  去#VV  腥味#NN  ，#PU  可#VV  用于#VV  烧菜#NN  ，#PU  焖#VV  鱼虾#NR  、#PU  牛肉#NR  、#PU  鸡肉#NR  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (case, 烹调#NN, 在#P)  (prep, 提辣#VV, 烹调#NN)  (case, 烹调#NN, 中#LC)  (root, ROOT#null, 提辣#VV)  (dobj, 提辣#VV, 提香#NN)  (conj, 提辣#VV, 去#VV)  (dobj, 去#VV, 腥味#NN)  (mmod, 用于#VV, 可#VV)  (conj, 提辣#VV, 用于#VV)  (dobj, 用于#VV, 烧菜#NN)  (conj, 提辣#VV, 焖#VV)  (conj, 鸡肉#NR, 鱼虾#NR)  (conj, 鸡肉#NR, 牛肉#NR)  (dobj, 焖#VV, 鸡肉#NR)  (etc, 鸡肉#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/19101925.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

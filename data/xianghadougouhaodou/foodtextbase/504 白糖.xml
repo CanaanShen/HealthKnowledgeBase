@@ -1,0 +1,298 @@
+<content>
+
+    <id>
+        504
+    </id>
+
+    <foodname>
+        白糖
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        糖、砂糖、石蜜、白霜糖、白砂糖
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病、高血压、肾病、肥胖症患者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  、  高血压  、  肾病  、  肥胖症  患者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  、#PU  高血压#NN  、#PU  肾病#NN  、#PU  肥胖症#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肥胖症#NN, 糖尿病#NN)  (conj, 肥胖症#NN, 高血压#NN)  (conj, 肥胖症#NN, 肾病#NN)  (nn, 患者#NN, 肥胖症#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜低血糖患者、孕妇。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  低  血糖  患者  、  孕妇  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  低#JJ  血糖#NN  患者#NN  、#PU  孕妇#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (amod, 血糖#NN, 低#JJ)  (nn, 孕妇#NN, 血糖#NN)  (conj, 孕妇#NN, 患者#NN)  (dobj, 适宜#VV, 孕妇#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                392
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                99.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                131
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            白砂糖，是从甘蔗或甜菜中提取糖汁，经过滤、沉淀、蒸发、结晶、脱色和干燥等工艺而制成。为白色粒状晶体，纯度高，蔗糖含量在99%以上，按其晶粒大小又分粗砂、中砂和细砂。糖是重要的调味品，能增加菜肴的甜味及鲜味，增添制品的色泽，为制作菜肴特别是甜菜品种的主要调味原料。广东、福建、台湾等省和东北地区是我国主要产糖区。
+            糖是用甘蔗或甜菜等植物加工而成的一种调味品，其主要成分是蔗糖。白砂糖是食糖中质量最好的一种。其颗粒为结晶状，均匀，颜色洁白，甜味纯正，甜度稍低于红糖。烹调中常用。绵白糖为粉末状，适合于烹调之用，甜度与白砂糖差不多。绵白糖有精制绵白糖和土法制的绵白糖两种。前者色泽洁白，晶粒细软，质量较好；后者色泽微黄稍暗，质量较差。白砂糖和绵白糖只是结晶体大小不同，白砂糖的结晶颗粒大，含水分很少，而绵白糖的结晶颗粒小，含水分较多。
+        </rawdata>
+
+        <segment>
+            白砂糖  ，  是  从  甘蔗  或  甜菜  中  提取  糖汁  ，  经  过滤  、  沉淀  、  蒸发  、  结晶  、  脱色  和  干燥  等  工艺  而  制成  。  为  白色  粒状  晶体  ，  纯度  高  ，  蔗糖  含量  在  99%  以上  ，  按  其  晶粒  大小  又  分  粗砂  、  中  砂  和  细砂  。  糖  是  重要  的  调味品  ，  能  增加  菜肴  的  甜味  及  鲜味  ，  增添  制品  的  色泽  ，  为  制作  菜肴  特别是  甜菜  品种  的  主要  调味  原料  。  广东  、  福建  、  台湾  等  省  和  东北  地区  是  我  国  主要  产糖区  。
+            糖  是  用  甘蔗  或  甜菜  等  植物  加工  而  成  的  一  种  调味品  ，  其  主要  成分  是  蔗糖  。  白砂糖  是  食糖  中  质量  最  好  的  一  种  。  其  颗粒  为  结晶状  ，  均匀  ，  颜色  洁白  ，  甜味  纯正  ，  甜度  稍  低于  红糖  。  烹调  中  常用  。  绵白糖  为  粉末状  ，  适合于  烹调  之用  ，  甜度  与  白砂糖  差不多  。  绵白糖  有  精制  绵白糖  和  土法  制  的  绵白糖  两  种  。  前者  色泽  洁白  ，  晶粒  细软  ，  质量  较好  ；  后者  色泽  微黄  稍暗  ，  质量  较差  。  白砂糖  和  绵白糖  只是  结晶体  大小  不同  ，  白砂糖  的  结晶  颗  粒大  ，  含  水分  很  少  ，  而  绵白糖  的  结晶  颗粒  小  ，  含  水分  较  多  。
+        </segment>
+
+        <pos>
+            白砂糖#VV  ，#PU  是#VC  从#P  甘蔗#NN  或#CC  甜菜#NN  中#LC  提取#VV  糖汁#NN  ，#PU  经#P  过滤#NR  、#PU  沉淀#NR  、#PU  蒸发#NR  、#PU  结晶#NR  、#PU  脱色#NR  和#CC  干燥#NR  等#ETC  工艺#NN  而#MSP  制成#VV    。#PU  为#VC  白色#JJ  粒状#NN  晶体#NN  ，#PU  纯度#AD  高#VA  ，#PU  蔗糖#NN  含量#NN  在#P  99#CD  %#NN  以上#LC  ，#PU  按#P  其#PN  晶粒#NN  大小#NN  又#AD  分#VV  粗砂#NR  、#PU  中#NR  砂#NR  和#CC  细砂#NR    。#PU  糖#NN  是#VC  重要#VA  的#DEC  调味品#NN  ，#PU  能#VV  增加#VV  菜肴#NN  的#DEG  甜味#NN  及#CC  鲜味#NN  ，#PU  增添#VV  制品#NN  的#DEG  色泽#NN  ，#PU  为#VV  制作#VV  菜肴#JJ  特别是#AD  甜菜#NN  品种#NN  的#DEC  主要#JJ  调味#NN  原料#NN    。#PU  广东#NR  、#PU  福建#NR  、#PU  台湾#NR  等#ETC  省#NN  和#CC  东北#NN  地区#NN  是#VC  我#PN  国#NN  主要#JJ  产糖区#NN    。#PU    。#PU
+            糖#NN  是#VC  用#P  甘蔗#NN  或#CC  甜菜#NN  等#ETC  植物#NN  加工#NN  而#MSP  成#VV  的#DEC  一#CD  种#M  调味品#NN  ，#PU  其#PN  主要#JJ  成分#NN  是#VC  蔗糖#NN    。#PU  白砂糖#NN  是#VC  食糖#NN  中#LC  质量#NN  最#AD  好#VA  的#DEC  一#CD  种#M    。#PU  其#PN  颗粒#NN  为#VC  结晶状#NN  ，#PU  均匀#VA  ，#PU  颜色#VV  洁白#NN  ，#PU  甜味#NN  纯正#NN  ，#PU  甜度#NN  稍#AD  低于#VV  红糖#NN    。#PU  烹调#NR  中#VV  常用#JJ    。#PU  绵白糖#NN  为#VC  粉末状#NN  ，#PU  适合于#AD  烹调#VV  之用#NN  ，#PU  甜度#CD  与#CC  白砂糖#CD  差不多#AD    。#PU  绵白糖#AD  有#VE  精制#JJ  绵白糖#NN  和#CC  土法#CD  制#NN  的#DEG  绵白糖#NN  两#CD  种#M    。#PU  前者#NN  色泽#NN  洁白#VV  ，#PU  晶粒#VV  细软#VV  ，#PU  质量#NN  较好#AD  ；#PU  后者#NN  色泽#NN  微黄#AD  稍暗#VV  ，#PU  质量#NN  较差#VV    。#PU  白砂糖#NN  和#CC  绵白糖#NN  只是#AD  结晶体#NN  大小#NN  不同#VA  ，#PU  白砂糖#NN  的#DEG  结晶#CD  颗#M  粒大#NN  ，#PU  含#VV  水分#NN  很#AD  少#VA  ，#PU  而#AD  绵白糖#NN  的#DEG  结晶#NN  颗粒#NN  小#VA  ，#PU  含#VV  水分#NN  较#AD  多#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 白砂糖#VV)  (cop, 提取#VV, 是#VC)  (case, 甜菜#NN, 从#P)  (conj, 甜菜#NN, 甘蔗#NN)  (cc, 甜菜#NN, 或#CC)  (prep, 提取#VV, 甜菜#NN)  (case, 甜菜#NN, 中#LC)  (ccomp, 白砂糖#VV, 提取#VV)  (dobj, 提取#VV, 糖汁#NN)  (case, 工艺#NN, 经#P)  (conj, 干燥#NR, 过滤#NR)  (conj, 干燥#NR, 沉淀#NR)  (conj, 干燥#NR, 蒸发#NR)  (conj, 干燥#NR, 结晶#NR)  (conj, 干燥#NR, 脱色#NR)  (cc, 干燥#NR, 和#CC)  (nn, 工艺#NN, 干燥#NR)  (etc, 干燥#NR, 等#ETC)  (prep, 制成#VV, 工艺#NN)  (prtmod, 制成#VV, 而#MSP)  (dep, 提取#VV, 制成#VV)   (cop, 晶体#NN, 为#VC)  (amod, 粒状#NN, 白色#JJ)  (nn, 晶体#NN, 粒状#NN)  (root, ROOT#null, 晶体#NN)  (advmod, 高#VA, 纯度#AD)  (conj, 晶体#NN, 高#VA)  (nn, 含量#NN, 蔗糖#NN)  (dep, 分#VV, 含量#NN)  (case, %#NN, 在#P)  (nummod, %#NN, 99#CD)  (prep, 分#VV, %#NN)  (case, %#NN, 以上#LC)  (case, 大小#NN, 按#P)  (nn, 大小#NN, 其#PN)  (nn, 大小#NN, 晶粒#NN)  (prep, 分#VV, 大小#NN)  (advmod, 分#VV, 又#AD)  (conj, 晶体#NN, 分#VV)  (conj, 细砂#NR, 粗砂#NR)  (nn, 细砂#NR, 中#NR)  (conj, 细砂#NR, 砂#NR)  (cc, 细砂#NR, 和#CC)  (dobj, 分#VV, 细砂#NR)   (nsubj, 调味品#NN, 糖#NN)  (cop, 调味品#NN, 是#VC)  (relcl, 调味品#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (root, ROOT#null, 调味品#NN)  (mmod, 增加#VV, 能#VV)  (conj, 调味品#NN, 增加#VV)  (assmod, 鲜味#NN, 菜肴#NN)  (case, 菜肴#NN, 的#DEG)  (conj, 鲜味#NN, 甜味#NN)  (cc, 鲜味#NN, 及#CC)  (dobj, 增加#VV, 鲜味#NN)  (conj, 增加#VV, 增添#VV)  (assmod, 色泽#NN, 制品#NN)  (case, 制品#NN, 的#DEG)  (dobj, 增添#VV, 色泽#NN)  (conj, 增加#VV, 为#VV)  (relcl, 原料#NN, 制作#VV)  (amod, 品种#NN, 菜肴#JJ)  (advmod, 品种#NN, 特别是#AD)  (nn, 品种#NN, 甜菜#NN)  (dobj, 制作#VV, 品种#NN)  (mark, 制作#VV, 的#DEC)  (amod, 原料#NN, 主要#JJ)  (nn, 原料#NN, 调味#NN)  (dobj, 为#VV, 原料#NN)   (conj, 台湾#NR, 广东#NR)  (conj, 台湾#NR, 福建#NR)  (nn, 地区#NN, 台湾#NR)  (etc, 台湾#NR, 等#ETC)  (conj, 地区#NN, 省#NN)  (cc, 地区#NN, 和#CC)  (nn, 地区#NN, 东北#NN)  (nsubj, 产糖区#NN, 地区#NN)  (cop, 产糖区#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 产糖区#NN, 国#NN)  (amod, 产糖区#NN, 主要#JJ)  (root, ROOT#null, 产糖区#NN)   (root, ROOT#null, null#null)
+            (nsubj, 调味品#NN, 糖#NN)  (cop, 调味品#NN, 是#VC)  (case, 加工#NN, 用#P)  (conj, 甜菜#NN, 甘蔗#NN)  (cc, 甜菜#NN, 或#CC)  (nn, 加工#NN, 甜菜#NN)  (etc, 甜菜#NN, 等#ETC)  (nn, 加工#NN, 植物#NN)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (relcl, 调味品#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 调味品#NN, 种#M)  (root, ROOT#null, 调味品#NN)  (nn, 成分#NN, 其#PN)  (amod, 成分#NN, 主要#JJ)  (nsubj, 蔗糖#NN, 成分#NN)  (cop, 蔗糖#NN, 是#VC)  (conj, 调味品#NN, 蔗糖#NN)   (nsubj, 是#VC, 白砂糖#NN)  (root, ROOT#null, 是#VC)  (loc, 好#VA, 食糖#NN)  (case, 食糖#NN, 中#LC)  (nsubj, 好#VA, 质量#NN)  (advmod, 好#VA, 最#AD)  (dep, 种#M, 好#VA)  (mark, 好#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (nn, 颗粒#NN, 其#PN)  (nsubj, 结晶状#NN, 颗粒#NN)  (cop, 结晶状#NN, 为#VC)  (root, ROOT#null, 结晶状#NN)  (conj, 结晶状#NN, 均匀#VA)  (conj, 结晶状#NN, 颜色#VV)  (dobj, 颜色#VV, 洁白#NN)  (nn, 纯正#NN, 甜味#NN)  (nsubj, 低于#VV, 纯正#NN)  (nsubj, 低于#VV, 甜度#NN)  (advmod, 低于#VV, 稍#AD)  (conj, 结晶状#NN, 低于#VV)  (dobj, 低于#VV, 红糖#NN)   (nsubj, 常用#JJ, 烹调#NR)  (mmod, 常用#JJ, 中#VV)  (root, ROOT#null, 常用#JJ)   (nsubj, 烹调#VV, 绵白糖#NN)  (cop, 烹调#VV, 为#VC)  (nsubj, 烹调#VV, 粉末状#NN)  (advmod, 烹调#VV, 适合于#AD)  (root, ROOT#null, 烹调#VV)  (dobj, 烹调#VV, 之用#NN)  (nummod, 白砂糖#CD, 甜度#CD)  (cc, 白砂糖#CD, 与#CC)  (dep, 烹调#VV, 白砂糖#CD)  (advmod, 白砂糖#CD, 差不多#AD)   (advmod, 有#VE, 绵白糖#AD)  (root, ROOT#null, 有#VE)  (amod, 绵白糖#NN, 精制#JJ)  (conj, 制#NN, 绵白糖#NN)  (cc, 制#NN, 和#CC)  (nummod, 制#NN, 土法#CD)  (assmod, 绵白糖#NN, 制#NN)  (case, 制#NN, 的#DEG)  (dobj, 有#VE, 绵白糖#NN)  (nummod, 种#M, 两#CD)  (range, 有#VE, 种#M)   (nn, 色泽#NN, 前者#NN)  (nsubj, 洁白#VV, 色泽#NN)  (root, ROOT#null, 洁白#VV)  (ccomp, 洁白#VV, 晶粒#VV)  (rcomp, 晶粒#VV, 细软#VV)  (dobj, 晶粒#VV, 质量#NN)  (advmod, 晶粒#VV, 较好#AD)  (nn, 色泽#NN, 后者#NN)  (nsubj, 稍暗#VV, 色泽#NN)  (advmod, 稍暗#VV, 微黄#AD)  (conj, 晶粒#VV, 稍暗#VV)  (nsubj, 较差#VV, 质量#NN)  (conj, 晶粒#VV, 较差#VV)   (conj, 绵白糖#NN, 白砂糖#NN)  (cc, 绵白糖#NN, 和#CC)  (nsubj, 不同#VA, 绵白糖#NN)  (advmod, 不同#VA, 只是#AD)  (nn, 大小#NN, 结晶体#NN)  (nsubj, 不同#VA, 大小#NN)  (root, ROOT#null, 不同#VA)  (assmod, 粒大#NN, 白砂糖#NN)  (case, 白砂糖#NN, 的#DEG)  (nummod, 颗#M, 结晶#CD)  (clf, 粒大#NN, 颗#M)  (nsubj, 少#VA, 粒大#NN)  (relcl, 水分#NN, 含#VV)  (nsubj, 少#VA, 水分#NN)  (advmod, 少#VA, 很#AD)  (conj, 不同#VA, 少#VA)  (advmod, 小#VA, 而#AD)  (assmod, 颗粒#NN, 绵白糖#NN)  (case, 绵白糖#NN, 的#DEG)  (nn, 颗粒#NN, 结晶#NN)  (nsubj, 小#VA, 颗粒#NN)  (conj, 不同#VA, 小#VA)  (relcl, 水分#NN, 含#VV)  (nsubj, 多#VA, 水分#NN)  (advmod, 多#VA, 较#AD)  (conj, 不同#VA, 多#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            白砂糖味甘、性平，归脾、肺经。有润肺生津、止咳、和中益肺、舒缓肝气、滋阴、调味、除口臭、疗疮去酒毒、解盐卤毒之功效。
+            适当食用白糖可提高人体对钙的吸收，提供机体能量，维持心脏和神经系统正常功能，保肝解毒。现代医学研究发现，白糖还能改变伤口愈合的速度，可促进组织细胞的的生长。
+        </rawdata>
+
+        <segment>
+            白砂糖  味  甘  、  性平  ，  归脾  、  肺经  。  有  润肺  生津  、  止咳  、  和  中益肺  、  舒缓  肝气  、  滋阴  、  调味  、  除  口臭  、  疗疮  去  酒毒  、  解  盐卤  毒  之  功效  。
+            适当  食用  白糖  可  提高  人体  对  钙  的  吸收  ，  提供  机体  能量  ，  维持  心脏  和  神经  系统  正常  功能  ，  保肝  解毒  。  现代  医学  研究  发现  ，  白糖  还  能  改变  伤口  愈合  的  速度  ，  可  促进  组织  细胞  的  的  生长  。
+        </segment>
+
+        <pos>
+            白砂糖#NN  味#VV  甘#NR  、#PU  性平#NR  ，#PU  归脾#NR  、#PU  肺经#NR    。#PU  有#VE  润肺#NR  生津#NN  、#PU  止咳#NN  、#PU  和#CC  中益肺#NR  、#PU  舒缓#NR  肝气#NR  、#PU  滋阴#NR  、#PU  调味#NR  、#PU  除#P  口臭#NR  、#PU  疗疮#NR  去#MSP  酒毒#VV  、#PU  解#VV  盐卤#NN  毒#NN  之#DEC  功效#NN    。#PU    。#PU
+            适当#AD  食用#VV  白糖#NN  可#VV  提高#VV  人体#NR  对#P  钙#NN  的#DEG  吸收#NN  ，#PU  提供#VV  机体#NN  能量#NN  ，#PU  维持#VV  心脏#NN  和#CC  神经#NN  系统#NN  正常#JJ  功能#NN  ，#PU  保肝#JJ  解毒#NN    。#PU  现代#JJ  医学#NN  研究#NN  发现#VV  ，#PU  白糖#NN  还#AD  能#VV  改变#VV  伤口#NN  愈合#NN  的#DEG  速度#NN  ，#PU  可#VV  促进#VV  组织#NN  细胞#NN  的#DEG  的#DEG  生长#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 白砂糖#NN)  (root, ROOT#null, 味#VV)  (conj, 肺经#NR, 甘#NR)  (dep, 肺经#NR, 性平#NR)  (conj, 肺经#NR, 归脾#NR)  (dobj, 味#VV, 肺经#NR)   (root, ROOT#null, 有#VE)  (nn, 功效#NN, 润肺#NR)  (conj, 功效#NN, 生津#NN)  (dep, 功效#NN, 止咳#NN)  (cc, 功效#NN, 和#CC)  (conj, 调味#NR, 中益肺#NR)  (nn, 调味#NR, 舒缓#NR)  (conj, 调味#NR, 肝气#NR)  (conj, 调味#NR, 滋阴#NR)  (conj, 功效#NN, 调味#NR)  (case, 疗疮#NR, 除#P)  (conj, 疗疮#NR, 口臭#NR)  (prep, 酒毒#VV, 疗疮#NR)  (prtmod, 酒毒#VV, 去#MSP)  (relcl, 功效#NN, 酒毒#VV)  (dep, 酒毒#VV, 解#VV)  (nn, 毒#NN, 盐卤#NN)  (dobj, 解#VV, 毒#NN)  (mark, 酒毒#VV, 之#DEC)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, null#null)
+            (advmod, 食用#VV, 适当#AD)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 白糖#NN)  (mmod, 提高#VV, 可#VV)  (conj, 食用#VV, 提高#VV)  (nn, 吸收#NN, 人体#NR)  (case, 钙#NN, 对#P)  (assmod, 吸收#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 提高#VV, 吸收#NN)  (conj, 食用#VV, 提供#VV)  (nn, 能量#NN, 机体#NN)  (dobj, 提供#VV, 能量#NN)  (conj, 食用#VV, 维持#VV)  (conj, 神经#NN, 心脏#NN)  (cc, 神经#NN, 和#CC)  (nn, 系统#NN, 神经#NN)  (nn, 功能#NN, 系统#NN)  (amod, 功能#NN, 正常#JJ)  (dep, 解毒#NN, 功能#NN)  (amod, 解毒#NN, 保肝#JJ)  (dobj, 维持#VV, 解毒#NN)   (amod, 研究#NN, 现代#JJ)  (nn, 研究#NN, 医学#NN)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 改变#VV, 白糖#NN)  (advmod, 改变#VV, 还#AD)  (mmod, 改变#VV, 能#VV)  (ccomp, 发现#VV, 改变#VV)  (nn, 愈合#NN, 伤口#NN)  (assmod, 速度#NN, 愈合#NN)  (case, 愈合#NN, 的#DEG)  (dobj, 改变#VV, 速度#NN)  (mmod, 促进#VV, 可#VV)  (dep, 改变#VV, 促进#VV)  (nn, 细胞#NN, 组织#NN)  (assmod, 生长#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dep, 生长#NN, 的#DEG)  (dobj, 促进#VV, 生长#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        生津止渴  和胃  润燥  缓急止痛  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            白糖的蔗糖糖分含量一般在95%以上，纯度较高。
+        </rawdata>
+
+        <segment>
+            白糖  的  蔗糖  糖分  含量  一般  在  95%  以上  ，  纯度  较  高  。
+        </segment>
+
+        <pos>
+            白糖#NN  的#DEG  蔗糖#NN  糖分#NN  含量#NN  一般#AD  在#P  95#CD  %#NN  以上#LC  ，#PU  纯度#AD  较#AD  高#VA  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含量#NN, 白糖#NN)  (case, 白糖#NN, 的#DEG)  (nn, 含量#NN, 蔗糖#NN)  (nn, 含量#NN, 糖分#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 一般#AD)  (case, %#NN, 在#P)  (nummod, %#NN, 95#CD)  (prep, 高#VA, %#NN)  (case, %#NN, 以上#LC)  (advmod, 高#VA, 纯度#AD)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.炒菜时不小心把盐放多了，加入适量白糖，就可解咸。
+            2.糖很容易生螨，存放日久的糖不要生吃。
+            3.婴幼儿和老人吃食物时，不要蘸着生白糖吃。正确的吃法是先高温加热3~5分钟后再进食。
+            4.如果是制作海绵蛋糕或戚风蛋糕最好用白砂糖，以颗粒细密为佳，因为颗粒大的糖往往由于糖的使用量较高或搅拌时间短而不能溶解，如蛋糕成品内仍有白糖的颗粒存在，则会导致蛋糕的品质下降，在条件允许时，最好使用细砂糖。
+        </rawdata>
+
+        <segment>
+            炒菜  时  不  小心  把  盐  放  多  了  ，  加入  适量  白糖  ，  就  可解  咸  。
+            糖  很  容易  生螨  ，  存放  日久  的  糖  不  要  生吃  。
+            婴幼儿  和  老人  吃  食物  时  ，  不  要  蘸着生  白糖  吃  。  正确  的  吃法  是  先  高温  加热  3  ~  5  分钟  后  再  进食  。
+            如果  是  制作  海绵  蛋糕  或  戚风  蛋糕  最  好用  白砂糖  ，  以  颗粒  细密  为佳  ，  因为  颗粒  大  的  糖  往往  由于  糖  的  使用量  较  高  或  搅拌  时间  短  而  不  能  溶解  ，  如  蛋糕  成品  内  仍  有  白糖  的  颗粒  存在  ，  则  会  导致  蛋糕  的  品质  下降  ，  在  条件  允许  时  ，  最好  使用  细  砂糖  。
+        </segment>
+
+        <pos>
+            炒菜#NN  时#LC  不#AD  小心#VV  把#BA  盐#NN  放#VV  多#VA  了#AS  ，#PU  加入#VV  适量#NN  白糖#NN  ，#PU  就#AD  可解#VV  咸#NN  。#PU
+            糖#NN  很#AD  容易#VA  生螨#VA  ，#PU  存放#VV  日久#NN  的#DEC  糖#NN  不#AD  要#VV  生吃#VV  。#PU
+            婴幼儿#NN  和#CC  老人#NN  吃#VV  食物#NN  时#LC  ，#PU  不#AD  要#VV  蘸着生#AD  白糖#AD  吃#VV    。#PU  正确#VA  的#DEC  吃法#NN  是#VC  先#AD  高温#NN  加热#NN  3#CD  ~#NN  5#CD  分钟#M  后#LC  再#AD  进食#VV    。#PU    。#PU
+            如果#CS  是#VC  制作#VV  海绵#NN  蛋糕#NN  或#CC  戚风#NN  蛋糕#NN  最#AD  好用#JJ  白砂糖#NN  ，#PU  以#P  颗粒#NN  细密#NN  为佳#VV  ，#PU  因为#CS  颗粒#NN  大#VA  的#DEC  糖#NN  往往#AD  由于#P  糖#NN  的#DEG  使用量#NN  较#AD  高#VA  或#CC  搅拌#NN  时间#NN  短#VA  而#MSP  不#AD  能#VV  溶解#NN  ，#PU  如#CS  蛋糕#NN  成品#NN  内#LC  仍#AD  有#VE  白糖#NN  的#DEC  颗粒#NN  存在#VV  ，#PU  则#AD  会#VV  导致#VV  蛋糕#NN  的#DEC  品质#NN  下降#VV  ，#PU  在#P  条件#NN  允许#VV  时#LC  ，#PU  最好#JJ  使用#NN  细#AD  砂糖#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 小心#VV, 炒菜#NN)  (case, 炒菜#NN, 时#LC)  (neg, 小心#VV, 不#AD)  (root, ROOT#null, 小心#VV)  (ba, 放#VV, 把#BA)  (nsubj, 放#VV, 盐#NN)  (ccomp, 小心#VV, 放#VV)  (dep, 小心#VV, 多#VA)  (asp, 多#VA, 了#AS)  (conj, 小心#VV, 加入#VV)  (nn, 白糖#NN, 适量#NN)  (dobj, 加入#VV, 白糖#NN)  (advmod, 可解#VV, 就#AD)  (conj, 小心#VV, 可解#VV)  (dobj, 可解#VV, 咸#NN)
+            (nsubj, 容易#VA, 糖#NN)  (advmod, 容易#VA, 很#AD)  (root, ROOT#null, 容易#VA)  (comod, 容易#VA, 生螨#VA)  (relcl, 糖#NN, 存放#VV)  (dobj, 存放#VV, 日久#NN)  (mark, 存放#VV, 的#DEC)  (nsubj, 生吃#VV, 糖#NN)  (neg, 生吃#VV, 不#AD)  (dep, 生吃#VV, 要#VV)  (conj, 容易#VA, 生吃#VV)
+            (conj, 老人#NN, 婴幼儿#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 吃#VV, 老人#NN)  (loc, 吃#VV, 吃#VV)  (dobj, 吃#VV, 食物#NN)  (case, 吃#VV, 时#LC)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 蘸着生#AD)  (advmod, 吃#VV, 白糖#AD)  (root, ROOT#null, 吃#VV)   (relcl, 吃法#NN, 正确#VA)  (mark, 正确#VA, 的#DEC)  (nsubj, 进食#VV, 吃法#NN)  (cop, 进食#VV, 是#VC)  (advmod, 进食#VV, 先#AD)  (nn, 加热#NN, 高温#NN)  (nn, ~#NN, 加热#NN)  (nummod, ~#NN, 3#CD)  (nummod, 分钟#M, 5#CD)  (loc, 进食#VV, 分钟#M)  (case, 分钟#M, 后#LC)  (advmod, 进食#VV, 再#AD)  (root, ROOT#null, 进食#VV)   (root, ROOT#null, null#null)
+            (advmod, 下降#VV, 如果#CS)  (cop, 制作#VV, 是#VC)  (dep, 下降#VV, 制作#VV)  (nn, 蛋糕#NN, 海绵#NN)  (conj, 蛋糕#NN, 蛋糕#NN)  (cc, 蛋糕#NN, 或#CC)  (nn, 蛋糕#NN, 戚风#NN)  (nn, 白砂糖#NN, 蛋糕#NN)  (advmod, 好用#JJ, 最#AD)  (amod, 白砂糖#NN, 好用#JJ)  (dobj, 制作#VV, 白砂糖#NN)  (case, 细密#NN, 以#P)  (nn, 细密#NN, 颗粒#NN)  (prep, 为佳#VV, 细密#NN)  (conj, 制作#VV, 为佳#VV)  (advmod, 能#VV, 因为#CS)  (nsubj, 大#VA, 颗粒#NN)  (relcl, 糖#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nsubj, 能#VV, 糖#NN)  (advmod, 能#VV, 往往#AD)  (case, 高#VA, 由于#P)  (assmod, 使用量#NN, 糖#NN)  (case, 糖#NN, 的#DEG)  (nsubj, 高#VA, 使用量#NN)  (advmod, 高#VA, 较#AD)  (prep, 能#VV, 高#VA)  (cc, 高#VA, 或#CC)  (nn, 时间#NN, 搅拌#NN)  (nsubj, 短#VA, 时间#NN)  (conj, 高#VA, 短#VA)  (prtmod, 能#VV, 而#MSP)  (neg, 能#VV, 不#AD)  (dep, 下降#VV, 能#VV)  (dobj, 能#VV, 溶解#NN)  (advmod, 存在#VV, 如#CS)  (nn, 成品#NN, 蛋糕#NN)  (loc, 存在#VV, 成品#NN)  (case, 成品#NN, 内#LC)  (advmod, 有#VE, 仍#AD)  (relcl, 颗粒#NN, 有#VE)  (dobj, 有#VE, 白糖#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 存在#VV, 颗粒#NN)  (dep, 下降#VV, 存在#VV)  (advmod, 导致#VV, 则#AD)  (mmod, 导致#VV, 会#VV)  (relcl, 品质#NN, 导致#VV)  (dobj, 导致#VV, 蛋糕#NN)  (mark, 导致#VV, 的#DEC)  (nsubj, 下降#VV, 品质#NN)  (dep, 砂糖#VV, 下降#VV)  (case, 允许#VV, 在#P)  (nsubj, 允许#VV, 条件#NN)  (prep, 砂糖#VV, 允许#VV)  (case, 允许#VV, 时#LC)  (amod, 使用#NN, 最好#JJ)  (nsubj, 砂糖#VV, 使用#NN)  (advmod, 砂糖#VV, 细#AD)  (root, ROOT#null, 砂糖#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201306/151356010.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,374 @@
+<content>
+
+    <id>
+        148
+    </id>
+
+    <foodname>
+        海蜇头
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        其他水产
+    </secondcategory>
+
+    <alias>
+        水母
+    </alias>
+
+    <season>
+        春、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 虚寒者#VV, 脾胃#NN)  (root, ROOT#null, 虚寒者#VV)  (dobj, 虚寒者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜中老年急慢性支气管炎，咳嗽哮喘，痰多黄稠之人；高血压病，头昏脑胀，烦热口渴，以及大便秘结者；单纯性甲状腺肿患者；醉酒者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  中老年  急慢性  支  气管炎  ，  咳嗽  哮喘  ，  痰多黄稠  之人  ；  高血压  病  ，  头昏  脑胀  ，  烦  热  口渴  ，  以及  大便  秘结  者  ；  单纯性  甲状  腺肿  患者  ；  醉  酒者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  中老年#NR  急慢性#CD  支#M  气管炎#NN  ，#PU  咳嗽#VV  哮喘#NN  ，#PU  痰多黄稠#VV  之人#NN  ；#PU  高血压#VV  病#NN  ，#PU  头昏#VV  脑胀#NN  ，#PU  烦#VV  热#JJ  口渴#NN  ，#PU  以及#CC  大便#VV  秘结#NN  者#NN  ；#PU  单纯性#AD  甲状#VV  腺肿#NN  患者#NN  ；#PU  醉#AD  酒者#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (root, ROOT#null, 适宜#VV)  (nn, 气管炎#NN, 中老年#NR)  (nummod, 支#M, 急慢性#CD)  (clf, 气管炎#NN, 支#M)  (dobj, 适宜#VV, 气管炎#NN)  (conj, 适宜#VV, 咳嗽#VV)  (dobj, 咳嗽#VV, 哮喘#NN)  (conj, 适宜#VV, 痰多黄稠#VV)  (dobj, 痰多黄稠#VV, 之人#NN)  (conj, 适宜#VV, 高血压#VV)  (dobj, 高血压#VV, 病#NN)  (conj, 适宜#VV, 头昏#VV)  (dobj, 头昏#VV, 脑胀#NN)  (conj, 适宜#VV, 烦#VV)  (amod, 口渴#NN, 热#JJ)  (dobj, 烦#VV, 口渴#NN)  (cc, 适宜#VV, 以及#CC)  (dep, 适宜#VV, 大便#VV)  (nn, 者#NN, 秘结#NN)  (dobj, 大便#VV, 者#NN)  (advmod, 甲状#VV, 单纯性#AD)  (conj, 适宜#VV, 甲状#VV)  (nn, 患者#NN, 腺肿#NN)  (dobj, 甲状#VV, 患者#NN)  (advmod, 酒者#VV, 醉#AD)  (conj, 适宜#VV, 酒者#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                11.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                120
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                331
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                467.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                114
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                16.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.76
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            海蜇头是指水母的触须部位，肉质较厚。海蜇分为海蜇头和海蜇皮两种，但都是由海产水母加工泡制而成的。海蜇皮由水母的伞盖制成，特点是片大、皮薄、色白、并无一层黑色的薄膜。海蜇头是海蜇中的精品，口感及营养价值更上一层。
+            海蛰又名水母、白皮子，犹如一顶降落伞，也像一个白蘑菇。形如蘑菇头的部分就是“海蛰皮”；伞盖下像蘑菇柄一样的口腔与触须便是“海蛰头”。海蛰皮是一层胶质物，营养价值较高，海蛰头稍硬，营养胶质与蛰皮相近。中国是最早食用海蛰的国家，晋代张华所著的《博物志》中就有食用海蛰的记载。今天，海蛰已成宴席上的佳肴。
+            海蜇属腔肠动物，海蜇呈伞形，在水中漂浮，产于我国沿海各地。夏秋季是捕捞旺季，捕捞后加明矾和盐压榨，除去水分，洗净后再用盐渍。海蜇按产地分，有南蜇、东蜇、北蜇等品种。南蜇以福建、浙江所产最好，个大，浅黄色，水分大、脆嫩。东蜇产于山东烟台、又有沙蜇、棉蜇之分。沙蜇泥沙含于肉内，不易洗掉，牙碜；棉蜇肉厚不脆。北蜇产于天津北塘，色白个小，比较脆嫩，质量较次。海蜇的打捞季节一般是在夏秋季节
+        </rawdata>
+
+        <segment>
+            海蜇头  是  指  水母  的  触须  部位  ，  肉质  较厚  。  海蜇  分为  海蜇头  和  海蜇皮  两  种  ，  但  都  是  由  海产  水母  加工  泡制  而  成  的  。  海蜇皮  由  水母  的  伞盖  制成  ，  特  点  是  片大  、  皮薄  、  色白  、  并  无  一  层  黑色  的  薄膜  。  海蜇头  是  海蜇  中  的  精品  ，  口感  及  营养  价值  更  上  一  层  。
+            海蛰  又  名  水母  、  白皮子  ，  犹如  一  顶  降落伞  ，  也像  一  个  白  蘑菇  。  形如  蘑菇头  的  部分  就  是  “  海  蛰  皮  ”  ；  伞盖  下  像  蘑菇柄  一样  的  口腔  与  触须  便是  “  海蛰头  ”  。  海蛰  皮  是  一  层  胶质  物  ，  营养  价值  较  高  ，  海蛰  头  稍  硬  ，  营养  胶质  与  蛰  皮  相近  。  中国  是  最早  食用  海蛰  的  国家  ，  晋代  张华所  著  的  《  博物  志  》  中  就  有  食用  海蛰  的  记载  。  今天  ，  海蛰  已  成  宴席  上  的  佳肴  。
+            海蜇  属  腔肠  动物  ，  海蜇  呈  伞形  ，  在  水  中  漂浮  ，  产于  我国  沿海  各地  。  夏秋季  是  捕捞  旺季  ，  捕捞  后加  明矾  和  盐  压榨  ，  除去  水分  ，  洗净  后  再  用  盐渍  。  海蜇  按  产地  分  ，  有  南蜇  、  东蜇  、  北蜇  等  品种  。  南蜇  以  福建  、  浙江  所  产  最好  ，  个  大  ，  浅黄色  ，  水分  大  、  脆嫩  。  东蜇  产于  山东  烟台  、  又  有  沙蜇  、  棉蜇  之  分  。  沙蜇  泥沙  含于  肉内  ，  不  易  洗掉  ，  牙碜  ；  棉蜇  肉  厚  不  脆  。  北蜇  产于  天津  北塘  ，  色白  个  小  ，  比较  脆嫩  ，  质量  较次  。  海蜇  的  打捞  季节  一般  是  在  夏秋  季节
+        </segment>
+
+        <pos>
+            海蜇头#NN  是#VC  指#VV  水母#NN  的#DEG  触须#JJ  部位#NN  ，#PU  肉质#VV  较厚#NN    。#PU  海蜇#NN  分为#VV  海蜇头#NN  和#CC  海蜇皮#NN  两#CD  种#M  ，#PU  但#AD  都#AD  是#VC  由#P  海产#NN  水母#NN  加工#NN  泡制#NN  而#MSP  成#VV  的#DEC    。#PU  海蜇皮#NN  由#P  水母#NN  的#DEG  伞盖#NN  制成#VV  ，#PU  特#JJ  点#NN  是#VC  片大#NR  、#PU  皮薄#NR  、#PU  色白#NR  、#PU  并#AD  无#VE  一#CD  层#M  黑色#JJ  的#DEG  薄膜#NN    。#PU  海蜇头#NN  是#VC  海蜇#NN  中#LC  的#DEG  精品#NN  ，#PU  口感#VA  及#CC  营养#VA  价值#NN  更#AD  上#VV  一#CD  层#M    。#PU    。#PU
+            海蛰#NN  又#AD  名#NN  水母#VV  、#PU  白皮子#VV  ，#PU  犹如#VV  一#CD  顶#M  降落伞#NN  ，#PU  也像#VV  一#CD  个#M  白#JJ  蘑菇#NN    。#PU  形如#NN  蘑菇头#NN  的#DEG  部分#NN  就#AD  是#VC  ``#NN  海#NN  蛰#NN  皮#NN  ''#VV  ；#PU  伞盖#NN  下#LC  像#P  蘑菇柄#NR  一样#VA  的#DEC  口腔#NN  与#P  触须#NN  便是#VV  ``#NN  海蛰头#NN  ''#NN    。#PU  海蛰#NN  皮#NN  是#VC  一#CD  层#M  胶质#NN  物#NN  ，#PU  营养#VA  价值#NN  较#AD  高#VA  ，#PU  海蛰#CD  头#M  稍#NN  硬#VA  ，#PU  营养#VA  胶质#NN  与#P  蛰#NN  皮#NN  相近#VA    。#PU  中国#NR  是#VC  最早#AD  食用#VV  海蛰#NN  的#DEC  国家#NN  ，#PU  晋代#NN  张华所#AD  著#VV  的#DEC  博物#NN  志#NN  中#LC  就#AD  有#VE  食用#VV  海蛰#NN  的#DEC  记载#NN    。#PU  今天#NT  ，#PU  海蛰#AD  已#AD  成#VV  宴席#NN  上#LC  的#DEG  佳肴#NN    。#PU    。#PU
+            海蜇#NN  属#VV  腔肠#JJ  动物#NN  ，#PU  海蜇#NN  呈#VV  伞形#NN  ，#PU  在#P  水#NN  中#LC  漂浮#VV  ，#PU  产于#NN  我国#VV  沿海#NN  各地#NN    。#PU  夏秋季#NN  是#VC  捕捞#NN  旺季#NN  ，#PU  捕捞#VV  后加#NN  明矾#NN  和#CC  盐#NN  压榨#NN  ，#PU  除去#P  水分#NN  ，#PU  洗净#NN  后#LC  再#AD  用#VV  盐渍#NN    。#PU  海蜇#NN  按#P  产地#NN  分#VV  ，#PU  有#VE  南蜇#NR  、#PU  东蜇#NR  、#PU  北蜇#NR  等#ETC  品种#NN    。#PU  南蜇#NN  以#P  福建#NR  、#PU  浙江#NR  所#MSP  产#VV  最好#JJ  ，#PU  个#M  大#NN  ，#PU  浅黄色#VV  ，#PU  水分#JJ  大#JJ  、#PU  脆嫩#NN    。#PU  东蜇#AD  产于#VV  山东#NR  烟台#NR  、#PU  又#AD  有#VE  沙蜇#NN  、#PU  棉蜇#VV  之#DEC  分#VV    。#PU  沙蜇#NN  泥沙#NN  含于#NN  肉内#VV  ，#PU  不#AD  易#AD  洗掉#VV  ，#PU  牙碜#VV  ；#PU  棉蜇#NN  肉#NN  厚#NN  不#AD  脆#VV    。#PU  北蜇#NN  产于#NN  天津#NR  北塘#VV  ，#PU  色白#CD  个#M  小#VA  ，#PU  比较#AD  脆嫩#VA  ，#PU  质量#NN  较次#VA    。#PU  海蜇#NN  的#DEG  打捞#NN  季节#NN  一般#AD  是#VC  在#P  夏秋#NN  季节#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 指#VV, 海蜇头#NN)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (assmod, 部位#NN, 水母#NN)  (case, 水母#NN, 的#DEG)  (amod, 部位#NN, 触须#JJ)  (dobj, 指#VV, 部位#NN)  (conj, 指#VV, 肉质#VV)  (dobj, 肉质#VV, 较厚#NN)   (nsubj, 分为#VV, 海蜇#NN)  (root, ROOT#null, 分为#VV)  (conj, 海蜇皮#NN, 海蜇头#NN)  (cc, 海蜇皮#NN, 和#CC)  (dobj, 分为#VV, 海蜇皮#NN)  (nummod, 种#M, 两#CD)  (range, 分为#VV, 种#M)  (advmod, 成#VV, 但#AD)  (advmod, 成#VV, 都#AD)  (cop, 成#VV, 是#VC)  (case, 泡制#NN, 由#P)  (nn, 泡制#NN, 海产#NN)  (nn, 泡制#NN, 水母#NN)  (nn, 泡制#NN, 加工#NN)  (prep, 成#VV, 泡制#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 分为#VV, 成#VV)  (mark, 成#VV, 的#DEC)   (nsubj, 制成#VV, 海蜇皮#NN)  (case, 伞盖#NN, 由#P)  (assmod, 伞盖#NN, 水母#NN)  (case, 水母#NN, 的#DEG)  (prep, 制成#VV, 伞盖#NN)  (root, ROOT#null, 制成#VV)  (amod, 点#NN, 特#JJ)  (dep, 色白#NR, 点#NN)  (cop, 色白#NR, 是#VC)  (conj, 色白#NR, 片大#NR)  (conj, 色白#NR, 皮薄#NR)  (conj, 制成#VV, 色白#NR)  (advmod, 无#VE, 并#AD)  (conj, 制成#VV, 无#VE)  (nummod, 层#M, 一#CD)  (clf, 薄膜#NN, 层#M)  (assmod, 薄膜#NN, 黑色#JJ)  (case, 黑色#JJ, 的#DEG)  (dobj, 无#VE, 薄膜#NN)   (nsubj, 精品#NN, 海蜇头#NN)  (cop, 精品#NN, 是#VC)  (assmod, 精品#NN, 海蜇#NN)  (case, 海蜇#NN, 中#LC)  (case, 海蜇#NN, 的#DEG)  (root, ROOT#null, 精品#NN)  (conj, 精品#NN, 口感#VA)  (cc, 口感#VA, 及#CC)  (dep, 口感#VA, 营养#VA)  (nsubj, 上#VV, 价值#NN)  (advmod, 上#VV, 更#AD)  (dep, 精品#NN, 上#VV)  (nummod, 层#M, 一#CD)  (range, 上#VV, 层#M)   (root, ROOT#null, null#null)
+            (nsubj, 水母#VV, 海蛰#NN)  (advmod, 水母#VV, 又#AD)  (dep, 水母#VV, 名#NN)  (root, ROOT#null, 水母#VV)  (dep, 水母#VV, 白皮子#VV)  (conj, 水母#VV, 犹如#VV)  (nummod, 顶#M, 一#CD)  (clf, 降落伞#NN, 顶#M)  (dobj, 犹如#VV, 降落伞#NN)  (conj, 水母#VV, 也像#VV)  (nummod, 个#M, 一#CD)  (clf, 蘑菇#NN, 个#M)  (amod, 蘑菇#NN, 白#JJ)  (dobj, 也像#VV, 蘑菇#NN)   (nn, 蘑菇头#NN, 形如#NN)  (assmod, 部分#NN, 蘑菇头#NN)  (case, 蘑菇头#NN, 的#DEG)  (nsubj, ``#NN, 部分#NN)  (advmod, ``#NN, 就#AD)  (cop, ``#NN, 是#VC)  (root, ROOT#null, ``#NN)  (nn, 皮#NN, 海#NN)  (nn, 皮#NN, 蛰#NN)  (nsubj, ''#VV, 皮#NN)  (conj, ``#NN, ''#VV)  (loc, 一样#VA, 伞盖#NN)  (case, 伞盖#NN, 下#LC)  (case, 蘑菇柄#NR, 像#P)  (prep, 一样#VA, 蘑菇柄#NR)  (relcl, 口腔#NN, 一样#VA)  (mark, 一样#VA, 的#DEC)  (nsubj, 便是#VV, 口腔#NN)  (case, 触须#NN, 与#P)  (prep, 便是#VV, 触须#NN)  (ccomp, ''#VV, 便是#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 海蛰头#NN)  (dobj, 便是#VV, ''#NN)   (nn, 皮#NN, 海蛰#NN)  (nsubj, 物#NN, 皮#NN)  (cop, 物#NN, 是#VC)  (nummod, 层#M, 一#CD)  (clf, 胶质#NN, 层#M)  (nn, 物#NN, 胶质#NN)  (root, ROOT#null, 物#NN)  (conj, 物#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 较#AD)  (conj, 物#NN, 高#VA)  (nummod, 头#M, 海蛰#CD)  (clf, 稍#NN, 头#M)  (nsubj, 硬#VA, 稍#NN)  (conj, 高#VA, 硬#VA)  (conj, 高#VA, 营养#VA)  (nsubj, 相近#VA, 胶质#NN)  (case, 皮#NN, 与#P)  (nn, 皮#NN, 蛰#NN)  (prep, 相近#VA, 皮#NN)  (dep, 物#NN, 相近#VA)   (nsubj, 国家#NN, 中国#NR)  (cop, 国家#NN, 是#VC)  (advmod, 食用#VV, 最早#AD)  (relcl, 国家#NN, 食用#VV)  (dobj, 食用#VV, 海蛰#NN)  (mark, 食用#VV, 的#DEC)  (root, ROOT#null, 国家#NN)  (nsubj, 有#VE, 晋代#NN)  (advmod, 著#VV, 张华所#AD)  (relcl, 志#NN, 著#VV)  (mark, 著#VV, 的#DEC)  (nn, 志#NN, 博物#NN)  (loc, 有#VE, 志#NN)  (case, 志#NN, 中#LC)  (advmod, 有#VE, 就#AD)  (conj, 国家#NN, 有#VE)  (relcl, 记载#NN, 食用#VV)  (dobj, 食用#VV, 海蛰#NN)  (mark, 食用#VV, 的#DEC)  (dobj, 有#VE, 记载#NN)   (tmod, 成#VV, 今天#NT)  (advmod, 成#VV, 海蛰#AD)  (advmod, 成#VV, 已#AD)  (root, ROOT#null, 成#VV)  (assmod, 佳肴#NN, 宴席#NN)  (case, 宴席#NN, 上#LC)  (case, 宴席#NN, 的#DEG)  (dobj, 成#VV, 佳肴#NN)   (root, ROOT#null, null#null)
+            (nsubj, 属#VV, 海蜇#NN)  (root, ROOT#null, 属#VV)  (amod, 动物#NN, 腔肠#JJ)  (dobj, 属#VV, 动物#NN)  (nsubj, 呈#VV, 海蜇#NN)  (conj, 属#VV, 呈#VV)  (dobj, 呈#VV, 伞形#NN)  (case, 水#NN, 在#P)  (prep, 漂浮#VV, 水#NN)  (case, 水#NN, 中#LC)  (conj, 属#VV, 漂浮#VV)  (nsubj, 我国#VV, 产于#NN)  (conj, 属#VV, 我国#VV)  (nn, 各地#NN, 沿海#NN)  (dobj, 我国#VV, 各地#NN)   (nsubj, 旺季#NN, 夏秋季#NN)  (cop, 旺季#NN, 是#VC)  (nn, 旺季#NN, 捕捞#NN)  (root, ROOT#null, 旺季#NN)  (conj, 旺季#NN, 捕捞#VV)  (nn, 压榨#NN, 后加#NN)  (conj, 压榨#NN, 明矾#NN)  (cc, 压榨#NN, 和#CC)  (nn, 压榨#NN, 盐#NN)  (dobj, 捕捞#VV, 压榨#NN)  (case, 水分#NN, 除去#P)  (prep, 用#VV, 水分#NN)  (loc, 用#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (advmod, 用#VV, 再#AD)  (conj, 旺季#NN, 用#VV)  (dobj, 用#VV, 盐渍#NN)   (nsubj, 分#VV, 海蜇#NN)  (case, 产地#NN, 按#P)  (prep, 分#VV, 产地#NN)  (root, ROOT#null, 分#VV)  (dep, 分#VV, 有#VE)  (conj, 北蜇#NR, 南蜇#NR)  (conj, 北蜇#NR, 东蜇#NR)  (nn, 品种#NN, 北蜇#NR)  (etc, 北蜇#NR, 等#ETC)  (dobj, 有#VE, 品种#NN)   (nsubj, 产#VV, 南蜇#NN)  (case, 浙江#NR, 以#P)  (conj, 浙江#NR, 福建#NR)  (prep, 产#VV, 浙江#NR)  (prtmod, 产#VV, 所#MSP)  (root, ROOT#null, 产#VV)  (relcl, 脆嫩#NN, 最好#JJ)  (dep, 大#NN, 个#M)  (dep, 最好#JJ, 大#NN)  (conj, 最好#JJ, 浅黄色#VV)  (conj, 最好#JJ, 水分#JJ)  (amod, 脆嫩#NN, 大#JJ)  (dobj, 产#VV, 脆嫩#NN)   (advmod, 产于#VV, 东蜇#AD)  (nsubj, 分#VV, 产于#VV)  (nn, 烟台#NR, 山东#NR)  (dobj, 产于#VV, 烟台#NR)  (advmod, 有#VE, 又#AD)  (dep, 产于#VV, 有#VE)  (dobj, 有#VE, 沙蜇#NN)  (dep, 产于#VV, 棉蜇#VV)  (mark, 产于#VV, 之#DEC)  (root, ROOT#null, 分#VV)   (nn, 含于#NN, 沙蜇#NN)  (nn, 含于#NN, 泥沙#NN)  (nsubj, 肉内#VV, 含于#NN)  (root, ROOT#null, 肉内#VV)  (neg, 洗掉#VV, 不#AD)  (advmod, 洗掉#VV, 易#AD)  (ccomp, 肉内#VV, 洗掉#VV)  (dep, 洗掉#VV, 牙碜#VV)  (nn, 厚#NN, 棉蜇#NN)  (nn, 厚#NN, 肉#NN)  (nsubj, 脆#VV, 厚#NN)  (neg, 脆#VV, 不#AD)  (ccomp, 牙碜#VV, 脆#VV)   (nn, 产于#NN, 北蜇#NN)  (nsubj, 北塘#VV, 产于#NN)  (nsubj, 北塘#VV, 天津#NR)  (root, ROOT#null, 北塘#VV)  (nummod, 个#M, 色白#CD)  (nsubj, 小#VA, 个#M)  (ccomp, 北塘#VV, 小#VA)  (advmod, 脆嫩#VA, 比较#AD)  (conj, 小#VA, 脆嫩#VA)  (nsubj, 较次#VA, 质量#NN)  (conj, 小#VA, 较次#VA)   (assmod, 季节#NN, 海蜇#NN)  (case, 海蜇#NN, 的#DEG)  (nn, 季节#NN, 打捞#NN)  (nsubj, 是#VC, 季节#NN)  (advmod, 是#VC, 一般#AD)  (root, ROOT#null, 是#VC)  (case, 季节#NN, 在#P)  (nn, 季节#NN, 夏秋#NN)  (prep, 是#VC, 季节#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味咸、性平、入肝、肾经具有清热化痰、消积化滞、润肠通便之功效；用于阴虚肺燥、高血压、痰热咳嗽、哮喘、瘰疬痰核、食积痞胀、大便燥结等症。
+            1.海蛰含有人体需要的多种营养成分，尤其含有人们饮食中所缺的碘，是一种重要的营养食品；
+            2.含有类似于乙酰胆碱的物质，能扩张血管，降低血压；
+            3.所含的甘露多糖胶质对防治动脉粥样硬化有一定功效；
+            4.海蛰能软坚散结、行淤化积、清热化痰，对气管炎、哮喘、胃溃疡、风湿性关节炎等疾病有益，并有防治肿瘤的作用；从事理发、纺织、粮食加工等与尘埃接触较多的工作人员常吃海蛰，可以去尘积、清肠胃，保障身体健康。
+        </rawdata>
+
+        <segment>
+            味咸  、  性平  、  入肝  、  肾  经  具有  清热  化痰  、  消积化滞  、  润肠  通便  之  功效  ；  用于  阴虚  肺燥  、  高  血压  、  痰热  咳嗽  、  哮喘  、  瘰疬  痰核  、  食积  痞胀  、  大便  燥结  等症  。
+            海蛰  含有  人体  需要  的  多  种  营养  成分  ，  尤其  含有  人们  饮食  中  所  缺  的  碘  ，  是  一  种  重要  的  营养  食品  ；
+            含有  类似于  乙酰  胆碱  的  物质  ，  能  扩张  血管  ，  降低  血压  ；
+            所  含  的  甘露  多糖  胶质  对  防治  动脉  粥样  硬化  有  一定  功效  ；
+            海  蛰  能  软坚  散结  、  行淤  化积  、  清热  化痰  ，  对  气管炎  、  哮喘  、  胃溃疡  、  风湿性  关节炎  等  疾病  有益  ，  并  有  防治  肿瘤  的  作用  ；  从事  理发  、  纺织  、  粮食  加工  等  与  尘埃  接触  较  多  的  工作  人员  常  吃  海  蛰  ，  可以  去  尘积  、  清  肠胃  ，  保障  身体  健康  。
+        </segment>
+
+        <pos>
+            味咸#NR  、#PU  性平#NR  、#PU  入肝#NR  、#PU  肾#NR  经#P  具有#VV  清热#NR  化痰#NR  、#PU  消积化滞#NR  、#PU  润肠#NR  通便#NN  之#PN  功效#VV  ；#PU  用于#VV  阴虚#NN  肺燥#NN  、#PU  高#JJ  血压#NR  、#PU  痰热#NR  咳嗽#NR  、#PU  哮喘#NR  、#PU  瘰疬#NR  痰核#NR  、#PU  食积#NR  痞胀#NR  、#PU  大便#NR  燥结#NN  等症#NN  。#PU
+            海蛰#VV  含有#NN  人体#NN  需要#NN  的#DEC  多#CD  种#M  营养#VA  成分#NN  ，#PU  尤其#AD  含有#VV  人们#NN  饮食#NN  中#LC  所#MSP  缺#VV  的#DEC  碘#NN  ，#PU  是#VC  一#CD  种#M  重要#VA  的#DEC  营养#VA  食品#NN  ；#PU
+            含有#VV  类似于#NN  乙酰#NN  胆碱#NN  的#DEC  物质#NN  ，#PU  能#VV  扩张#VV  血管#NN  ，#PU  降低#VV  血压#NN  ；#PU
+            所#MSP  含#VV  的#DEC  甘露#NN  多糖#NN  胶质#NN  对#P  防治#NN  动脉#NN  粥样#NN  硬化#AD  有#VE  一定#JJ  功效#NN  ；#PU
+            海#NN  蛰#NN  能#VV  软坚#VV  散结#NR  、#PU  行淤#NR  化积#NR  、#PU  清热#NR  化痰#NN  ，#PU  对#P  气管炎#NR  、#PU  哮喘#NR  、#PU  胃溃疡#NR  、#PU  风湿性#NR  关节炎#NR  等#ETC  疾病#NN  有益#VA  ，#PU  并#CC  有#VE  防治#NN  肿瘤#NN  的#DEG  作用#NN  ；#PU  从事#VV  理发#NN  、#PU  纺织#NN  、#PU  粮食#NN  加工#NN  等#ETC  与#P  尘埃#NN  接触#NN  较#AD  多#VA  的#DEC  工作#NN  人员#NN  常#AD  吃#VV  海#NN  蛰#NN  ，#PU  可以#VV  去#VV  尘积#NN  、#PU  清#JJ  肠胃#NN  ，#PU  保障#NN  身体#NN  健康#VA  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肾#NR, 味咸#NR)  (conj, 肾#NR, 性平#NR)  (conj, 肾#NR, 入肝#NR)  (nsubj, 功效#VV, 肾#NR)  (case, 具有#VV, 经#P)  (prep, 功效#VV, 具有#VV)  (nn, 润肠#NR, 清热#NR)  (conj, 润肠#NR, 化痰#NR)  (conj, 润肠#NR, 消积化滞#NR)  (nn, 通便#NN, 润肠#NR)  (dobj, 具有#VV, 通便#NN)  (nsubj, 功效#VV, 之#PN)  (root, ROOT#null, 功效#VV)  (ccomp, 功效#VV, 用于#VV)  (nn, 肺燥#NN, 阴虚#NN)  (dep, 等症#NN, 肺燥#NN)  (amod, 等症#NN, 高#JJ)  (conj, 大便#NR, 血压#NR)  (nn, 大便#NR, 痰热#NR)  (conj, 大便#NR, 咳嗽#NR)  (conj, 大便#NR, 哮喘#NR)  (nn, 大便#NR, 瘰疬#NR)  (conj, 大便#NR, 痰核#NR)  (nn, 大便#NR, 食积#NR)  (conj, 大便#NR, 痞胀#NR)  (nn, 等症#NN, 大便#NR)  (nn, 等症#NN, 燥结#NN)  (dobj, 用于#VV, 等症#NN)
+            (relcl, 成分#NN, 海蛰#VV)  (nn, 需要#NN, 含有#NN)  (nn, 需要#NN, 人体#NN)  (dobj, 海蛰#VV, 需要#NN)  (mark, 海蛰#VV, 的#DEC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (relcl, 成分#NN, 营养#VA)  (nsubj, 含有#VV, 成分#NN)  (advmod, 含有#VV, 尤其#AD)  (root, ROOT#null, 含有#VV)  (nn, 饮食#NN, 人们#NN)  (loc, 缺#VV, 饮食#NN)  (case, 饮食#NN, 中#LC)  (prtmod, 缺#VV, 所#MSP)  (relcl, 碘#NN, 缺#VV)  (mark, 缺#VV, 的#DEC)  (dobj, 含有#VV, 碘#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (relcl, 食品#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (relcl, 食品#NN, 营养#VA)  (dep, 含有#VV, 食品#NN)
+            (relcl, 物质#NN, 含有#VV)  (nn, 胆碱#NN, 类似于#NN)  (nn, 胆碱#NN, 乙酰#NN)  (dobj, 含有#VV, 胆碱#NN)  (mark, 含有#VV, 的#DEC)  (nsubj, 扩张#VV, 物质#NN)  (mmod, 扩张#VV, 能#VV)  (root, ROOT#null, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (dep, 扩张#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)
+            (prtmod, 含#VV, 所#MSP)  (relcl, 胶质#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 胶质#NN, 甘露#NN)  (nn, 胶质#NN, 多糖#NN)  (nsubj, 有#VE, 胶质#NN)  (case, 粥样#NN, 对#P)  (nn, 粥样#NN, 防治#NN)  (nn, 粥样#NN, 动脉#NN)  (prep, 有#VE, 粥样#NN)  (advmod, 有#VE, 硬化#AD)  (root, ROOT#null, 有#VE)  (amod, 功效#NN, 一定#JJ)  (dobj, 有#VE, 功效#NN)
+            (nn, 蛰#NN, 海#NN)  (nsubj, 软坚#VV, 蛰#NN)  (mmod, 软坚#VV, 能#VV)  (root, ROOT#null, 软坚#VV)  (conj, 清热#NR, 散结#NR)  (nn, 清热#NR, 行淤#NR)  (conj, 清热#NR, 化积#NR)  (nn, 化痰#NN, 清热#NR)  (dobj, 软坚#VV, 化痰#NN)  (case, 疾病#NN, 对#P)  (conj, 关节炎#NR, 气管炎#NR)  (conj, 关节炎#NR, 哮喘#NR)  (conj, 关节炎#NR, 胃溃疡#NR)  (nn, 关节炎#NR, 风湿性#NR)  (nn, 疾病#NN, 关节炎#NR)  (etc, 关节炎#NR, 等#ETC)  (prep, 有益#VA, 疾病#NN)  (conj, 软坚#VV, 有益#VA)  (cc, 软坚#VV, 并#CC)  (conj, 软坚#VV, 有#VE)  (nn, 肿瘤#NN, 防治#NN)  (assmod, 作用#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (conj, 软坚#VV, 从事#VV)  (conj, 加工#NN, 理发#NN)  (conj, 加工#NN, 纺织#NN)  (nn, 加工#NN, 粮食#NN)  (dobj, 从事#VV, 加工#NN)  (etc, 加工#NN, 等#ETC)  (case, 人员#NN, 与#P)  (nn, 接触#NN, 尘埃#NN)  (nsubj, 多#VA, 接触#NN)  (advmod, 多#VA, 较#AD)  (relcl, 人员#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nn, 人员#NN, 工作#NN)  (prep, 吃#VV, 人员#NN)  (advmod, 吃#VV, 常#AD)  (conj, 软坚#VV, 吃#VV)  (nn, 蛰#NN, 海#NN)  (dobj, 吃#VV, 蛰#NN)  (mmod, 去#VV, 可以#VV)  (conj, 软坚#VV, 去#VV)  (conj, 肠胃#NN, 尘积#NN)  (amod, 肠胃#NN, 清#JJ)  (dobj, 去#VV, 肠胃#NN)  (nn, 身体#NN, 保障#NN)  (nsubj, 健康#VA, 身体#NN)  (conj, 软坚#VV, 健康#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热  消食积  化痰  平肝  润肠通便  辅助降血压  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            海蜇的营养十分丰富，据测定，海蜇中含有蛋白质、脂肪、无机盐、钙、磷、铁、碘、维生素A、维生素B族等10多种营养物质。
+        </rawdata>
+
+        <segment>
+            海蜇  的  营养  十分  丰富  ，  据  测定  ，  海蜇  中  含有  蛋白质  、  脂肪  、  无机盐  、  钙  、  磷  、  铁  、  碘  、  维生素A  、  维生素  B  族  等  10多  种  营养  物质  。
+        </segment>
+
+        <pos>
+            海蜇#NN  的#DEG  营养#VA  十分#AD  丰富#VA  ，#PU  据#P  测定#NN  ，#PU  海蜇#NN  中#LC  含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  无机盐#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  碘#NN  、#PU  维生素A#NN  、#PU  维生素#NN  B#NN  族#NN  等#ETC  10多#CD  种#M  营养#VA  物质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (xsubj, 营养#VA, 海蜇#NN)  (nsubj, 含有#VV, 海蜇#NN)  (case, 海蜇#NN, 的#DEG)  (conj, 含有#VV, 营养#VA)  (advmod, 丰富#VA, 十分#AD)  (dep, 营养#VA, 丰富#VA)  (case, 测定#NN, 据#P)  (prep, 含有#VV, 测定#NN)  (loc, 含有#VV, 海蜇#NN)  (case, 海蜇#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 钙#NR, 蛋白质#NR)  (conj, 钙#NR, 脂肪#NR)  (conj, 钙#NR, 无机盐#NR)  (conj, 族#NN, 钙#NR)  (conj, B#NN, 磷#NN)  (conj, B#NN, 铁#NN)  (conj, B#NN, 碘#NN)  (conj, B#NN, 维生素A#NN)  (nn, B#NN, 维生素#NN)  (nn, 族#NN, B#NN)  (nn, 物质#NN, 族#NN)  (etc, 族#NN, 等#ETC)  (nummod, 种#M, 10多#CD)  (clf, 物质#NN, 种#M)  (nfincl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.食用凉拌海蜇时应适当放些醋，否则会使海蜇“走味”。
+            2.有异味者为腐烂变质之品，不可食用；新鲜海蜇不宜食用，因为新鲜的海蜇含水多，皮体较厚，还含有毒素，只有经过食用盐加明矾盐渍3次（俗称三矾），使鲜海蜇脱水3次，才能让毒素随水排尽。
+            3.海蜇配木耳，润肠，美肤嫩白，并能降压，长期食用，有益健康。
+            4.海蜇在食用前一定要用清水洗净，去掉盐、矾、血里、砂子，再用热水氽一下，然后切丝拌凉菜用。
+            5.海蜇头在焯水时，水温不宜过高，五六成热即可。
+        </rawdata>
+
+        <segment>
+            食用  凉拌  海蜇  时  应  适当  放些  醋  ，  否则  会  使  海蜇  “  走味  ”  。
+            有  异味  者  为  腐烂  变质  之  品  ，  不  可  食用  ；  新鲜  海蜇  不  宜  食用  ，  因为  新鲜  的  海蜇  含水  多  ，  皮体  较厚  ，  还  含有  毒素  ，  只有  经过  食用  盐  加  明矾  盐渍  3  次  （  俗称  三  矾  ）  ，  使  鲜  海蜇  脱水  3  次  ，  才  能  让  毒素  随  水排  尽  。
+            海蜇  配  木耳  ，  润肠  ，  美肤  嫩白  ，  并  能  降压  ，  长期  食用  ，  有益  健康  。
+            海蜇  在  食用  前  一定  要  用  清水  洗净  ，  去掉  盐  、  矾  、  血  里  、  砂子  ，  再  用  热水氽  一下  ，  然后  切  丝拌  凉菜  用  。
+            海蜇头  在  焯水  时  ，  水温  不  宜  过高  ，  五六  成  热  即  可  。
+        </segment>
+
+        <pos>
+            食用#VV  凉拌#NN  海蜇#NN  时#LC  应#P  适当#JJ  放些#NN  醋#NN  ，#PU  否则#AD  会#VV  使#VV  海蜇#NN  ``#NN  走味#VV  ''#NN  。#PU
+            有#VE  异味#NN  者#NN  为#VC  腐烂#NN  变质#NN  之#DEG  品#M  ，#PU  不#AD  可#VV  食用#VV  ；#PU  新鲜#JJ  海蜇#NN  不#AD  宜#NR  食用#VV  ，#PU  因为#P  新鲜#VA  的#DEC  海蜇#NN  含水#NN  多#VA  ，#PU  皮体#VV  较厚#NN  ，#PU  还#AD  含有#VV  毒素#NN  ，#PU  只有#AD  经过#P  食用#VV  盐#NN  加#CC  明矾#NN  盐渍#VV  3#CD  次#M  （#PU  俗称#VV  三#CD  矾#NN  ）#PU  ，#PU  使#VV  鲜#NN  海蜇#NN  脱水#VV  3#CD  次#M  ，#PU  才#AD  能#VV  让#VV  毒素#NN  随#P  水排#NR  尽#VV  。#PU
+            海蜇#NN  配#NN  木耳#VV  ，#PU  润肠#NN  ，#PU  美肤#AD  嫩白#VA  ，#PU  并#CC  能#VV  降压#NN  ，#PU  长期#AD  食用#VV  ，#PU  有益#VA  健康#VA  。#PU
+            海蜇#NN  在#P  食用#VV  前#LC  一定#AD  要#VV  用#VV  清水#NN  洗净#NN  ，#PU  去掉#VV  盐#NN  、#PU  矾#NN  、#PU  血#NN  里#LC  、#PU  砂子#VV  ，#PU  再#AD  用#P  热水氽#NN  一下#AD  ，#PU  然后#AD  切#VV  丝拌#NN  凉菜#NN  用#NN  。#PU
+            海蜇头#NR  在#P  焯水#NN  时#LC  ，#PU  水温#NR  不#AD  宜#NR  过高#VV  ，#PU  五六#CD  成#VV  热#NN  即#AD  可#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 使#VV, 食用#VV)  (nn, 海蜇#NN, 凉拌#NN)  (dobj, 食用#VV, 海蜇#NN)  (case, 食用#VV, 时#LC)  (case, 醋#NN, 应#P)  (amod, 放些#NN, 适当#JJ)  (nn, 醋#NN, 放些#NN)  (prep, 使#VV, 醋#NN)  (advmod, 使#VV, 否则#AD)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (nn, ``#NN, 海蜇#NN)  (dobj, 使#VV, ``#NN)  (dep, 使#VV, 走味#VV)  (dobj, 走味#VV, ''#NN)
+            (root, ROOT#null, 有#VE)  (nn, 者#NN, 异味#NN)  (nsubj, 品#M, 者#NN)  (cop, 品#M, 为#VC)  (nn, 变质#NN, 腐烂#NN)  (assmod, 品#M, 变质#NN)  (case, 变质#NN, 之#DEG)  (dep, 有#VE, 品#M)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 可#VV)  (dep, 食用#VV, 食用#VV)  (amod, 海蜇#NN, 新鲜#JJ)  (nsubj, 食用#VV, 海蜇#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 有#VE, 食用#VV)  (case, 含水#NN, 因为#P)  (relcl, 含水#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 含水#NN, 海蜇#NN)  (prep, 多#VA, 含水#NN)  (conj, 有#VE, 多#VA)  (conj, 有#VE, 皮体#VV)  (dobj, 皮体#VV, 较厚#NN)  (advmod, 含有#VV, 还#AD)  (conj, 有#VE, 含有#VV)  (dobj, 含有#VV, 毒素#NN)  (advmod, 盐渍#VV, 只有#AD)  (case, 食用#VV, 经过#P)  (prep, 盐渍#VV, 食用#VV)  (conj, 明矾#NN, 盐#NN)  (cc, 明矾#NN, 加#CC)  (dobj, 食用#VV, 明矾#NN)  (conj, 有#VE, 盐渍#VV)  (nummod, 次#M, 3#CD)  (range, 盐渍#VV, 次#M)  (dep, 次#M, 俗称#VV)  (nummod, 矾#NN, 三#CD)  (dobj, 俗称#VV, 矾#NN)  (conj, 有#VE, 使#VV)  (nn, 海蜇#NN, 鲜#NN)  (dobj, 使#VV, 海蜇#NN)  (dep, 使#VV, 脱水#VV)  (nummod, 次#M, 3#CD)  (range, 脱水#VV, 次#M)  (advmod, 让#VV, 才#AD)  (mmod, 让#VV, 能#VV)  (conj, 有#VE, 让#VV)  (dobj, 让#VV, 毒素#NN)  (case, 水排#NR, 随#P)  (prep, 尽#VV, 水排#NR)  (dep, 让#VV, 尽#VV)
+            (nn, 配#NN, 海蜇#NN)  (nsubj, 木耳#VV, 配#NN)  (root, ROOT#null, 木耳#VV)  (nsubj, 嫩白#VA, 润肠#NN)  (advmod, 嫩白#VA, 美肤#AD)  (ccomp, 木耳#VV, 嫩白#VA)  (cc, 嫩白#VA, 并#CC)  (dep, 嫩白#VA, 能#VV)  (dobj, 能#VV, 降压#NN)  (advmod, 食用#VV, 长期#AD)  (conj, 嫩白#VA, 食用#VV)  (conj, 嫩白#VA, 有益#VA)  (comod, 有益#VA, 健康#VA)
+            (nsubj, 用#VV, 海蜇#NN)  (case, 食用#VV, 在#P)  (prep, 用#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (advmod, 用#VV, 一定#AD)  (mmod, 用#VV, 要#VV)  (root, ROOT#null, 用#VV)  (nn, 洗净#NN, 清水#NN)  (dobj, 用#VV, 洗净#NN)  (conj, 用#VV, 去掉#VV)  (conj, 血#NN, 盐#NN)  (conj, 血#NN, 矾#NN)  (loc, 去掉#VV, 血#NN)  (case, 血#NN, 里#LC)  (conj, 用#VV, 砂子#VV)  (advmod, 切#VV, 再#AD)  (case, 热水氽#NN, 用#P)  (prep, 切#VV, 热水氽#NN)  (advmod, 切#VV, 一下#AD)  (advmod, 切#VV, 然后#AD)  (conj, 用#VV, 切#VV)  (nn, 用#NN, 丝拌#NN)  (nn, 用#NN, 凉菜#NN)  (dobj, 切#VV, 用#NN)
+            (nsubj, 过高#VV, 海蜇头#NR)  (case, 焯水#NN, 在#P)  (prep, 过高#VV, 焯水#NN)  (case, 焯水#NN, 时#LC)  (nsubj, 过高#VV, 水温#NR)  (neg, 过高#VV, 不#AD)  (prep, 过高#VV, 宜#NR)  (root, ROOT#null, 过高#VV)  (nummod, 热#NN, 五六#CD)  (relcl, 热#NN, 成#VV)  (nsubj, 可#VV, 热#NN)  (advmod, 可#VV, 即#AD)  (ccomp, 过高#VV, 可#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/10114609188.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

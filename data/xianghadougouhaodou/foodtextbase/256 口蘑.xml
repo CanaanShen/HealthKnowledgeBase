@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        256
+    </id>
+
+    <foodname>
+        口蘑
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        白蘑、白蘑菇、蒙古口蘑、云盘蘑、银盘蘑
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾脏疾病患者忌食。
+        </rawdata>
+
+        <segment>
+            肾脏  疾病  患者  忌食  。
+        </segment>
+
+        <pos>
+            肾脏#VV  疾病#NN  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肾脏#VV)  (nn, 忌食#NN, 疾病#NN)  (nn, 忌食#NN, 患者#NN)  (dobj, 肾脏#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都适合食用。尤其适合癌症、心血管系统疾病、肥胖、便秘、糖尿病、肝炎、肺结核、软骨病患者。
+        </rawdata>
+
+        <segment>
+            一般  人  都  适合  食用  。  尤其  适合  癌症  、  心血管  系统  疾病  、  肥胖  、  便秘  、  糖尿病  、  肝炎  、  肺结核  、  软骨病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  适合#VV  食用#VV    。#PU  尤其#AD  适合#VV  癌症#NN  、#PU  心血管#NN  系统#NN  疾病#NN  、#PU  肥胖#NN  、#PU  便秘#NN  、#PU  糖尿病#NN  、#PU  肝炎#NN  、#PU  肺结核#NN  、#PU  软骨病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 适合#VV, 人#NN)  (advmod, 适合#VV, 都#AD)  (root, ROOT#null, 适合#VV)  (comod, 适合#VV, 食用#VV)   (advmod, 适合#VV, 尤其#AD)  (root, ROOT#null, 适合#VV)  (conj, 疾病#NN, 癌症#NN)  (nn, 疾病#NN, 心血管#NN)  (nn, 疾病#NN, 系统#NN)  (conj, 患者#NN, 疾病#NN)  (conj, 软骨病#NN, 肥胖#NN)  (conj, 软骨病#NN, 便秘#NN)  (conj, 软骨病#NN, 糖尿病#NN)  (conj, 软骨病#NN, 肝炎#NN)  (conj, 软骨病#NN, 肺结核#NN)  (nn, 患者#NN, 软骨病#NN)  (dobj, 适合#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                242
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                38.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                31.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                17.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                44.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                8.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                169
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                1655
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                3106
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                5.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                167
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                19.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                9.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                5.88
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                5.96
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            口蘑是生长在蒙古草原上的一种白色伞菌属野生蘑菇，一般生长在有羊骨或羊粪的地方，味道异常鲜美，由于蒙古口蘑土特产以前都通过河北省张家口市输往内地，张家口是蒙古货物的集散地，所以被称为“口蘑”。由于产量不大，需求量大，所以价值昂贵，目前仍然是中国市场上最为昂贵的一种蘑菇。主要品种有白蘑、青腿子、马莲杆、杏香等，其中以白蘑色、香、味最佳。口蘑用来清炖、红烧、做汤均可，其味清香、鲜美，历来为席上珍馐。口蘑菌肉肥厚，质细具香气，味鲜美，营养价值高，口蘑属中有10多种都是味美的食用真菌。
+            口蘑，子实体伞状，白色。菌盖宽5～17厘米，半球形至平展，白色，光滑，初期边缘内卷。菌肉白色，厚。菌褶白色，稠密，弯生不等长。菌柄粗壮，白色，长3.5～7厘米，粗1.5～4.6厘米，内实，基部稍膨大。担孢子无色，光滑，椭圆形。夏秋季在草原上群生，常形成蘑菇圈。产于河北、内蒙古、黑龙江、吉林、辽宁等地。
+        </rawdata>
+
+        <segment>
+            口蘑  是  生长  在  蒙古  草原  上  的  一  种  白色  伞菌  属  野生  蘑菇  ，  一般  生长  在  有  羊骨  或  羊粪  的  地方  ，  味道  异常  鲜美  ，  由于  蒙古  口蘑  土特产  以前  都  通过  河北省  张家口市  输往  内地  ，  张家口  是  蒙古  货物  的  集散地  ，  所以  被  称为  “  口蘑  ”  。  由于  产量  不  大  ，  需求量  大  ，  所以  价值  昂贵  ，  目前  仍然  是  中国  市场  上  最为  昂贵  的  一  种  蘑菇  。  主要  品种  有  白蘑  、  青  腿子  、  马莲杆  、  杏香  等  ，  其中  以  白蘑色  、  香  、  味  最佳  。  口蘑  用来  清炖  、  红烧  、  做  汤  均可  ，  其味  清香  、  鲜美  ，  历来  为  席上  珍馐  。  口蘑  菌肉  肥厚  ，  质  细  具  香气  ，  味  鲜美  ，  营养  价值  高  ，  口蘑  属  中  有  10多  种  都  是  味美  的  食用  真菌  。
+            口蘑  ，  子实体  伞状  ，  白色  。  菌盖  宽  17  厘米  ，  半球形  至  平展  ，  白色  ，  光滑  ，  初期  边缘  内卷  。  菌肉  白色  ，  厚  。  菌褶  白色  ，  稠密  ，  弯生  不  等长  。  菌柄  粗壮  ，  白色  ，  长  3.5～7  厘米  ，  粗  1.5～4.6  厘米  ，  内实  ，  基部  稍  膨大  。  担  孢子  无色  ，  光滑  ，  椭圆形  。  夏秋季  在  草原  上  群生  ，  常  形成  蘑菇圈  。  产于  河北  、  内蒙古  、  黑龙江  、  吉林  、  辽宁  等  地  。
+        </segment>
+
+        <pos>
+            口蘑#NN  是#VC  生长#NN  在#P  蒙古#NR  草原#NN  上#LC  的#DEG  一#CD  种#M  白色#JJ  伞菌#NN  属#VV  野生#JJ  蘑菇#NN  ，#PU  一般#JJ  生长#NN  在#P  有#VE  羊骨#NN  或#CC  羊粪#NN  的#DEC  地方#NN  ，#PU  味道#NN  异常#AD  鲜美#VV  ，#PU  由于#P  蒙古#NR  口蘑#NN  土特产#NN  以前#NT  都#AD  通过#P  河北省#NR  张家口市#NN  输往#VV  内地#NN  ，#PU  张家口#NN  是#VC  蒙古#NR  货物#NN  的#DEG  集散地#NN  ，#PU  所以#AD  被#SB  称为#VV  ``#NN  口蘑#NN  ''#NN    。#PU  由于#P  产量#NN  不#AD  大#VA  ，#PU  需求量#NN  大#VA  ，#PU  所以#AD  价值#NN  昂贵#VA  ，#PU  目前#NT  仍然#AD  是#VC  中国#NR  市场#NN  上#LC  最为#AD  昂贵#VA  的#DEC  一#CD  种#M  蘑菇#NN    。#PU  主要#JJ  品种#NN  有#VE  白蘑#NR  、#PU  青#NR  腿子#NR  、#PU  马莲杆#NR  、#PU  杏香#NR  等#ETC  ，#PU  其中#NN  以#MSP  白蘑色#VV  、#PU  香#VV  、#PU  味#VV  最佳#JJ    。#PU  口蘑#VV  用来#NN  清炖#NN  、#PU  红烧#NN  、#PU  做#VV  汤#NN  均可#NN  ，#PU  其味#VV  清香#NN  、#PU  鲜美#NN  ，#PU  历来#AD  为#P  席上#NN  珍馐#VV    。#PU  口蘑#NN  菌肉#NN  肥厚#VV  ，#PU  质#NN  细#AD  具#VV  香气#NN  ，#PU  味#VV  鲜美#NN  ，#PU  营养#VA  价值#NN  高#VA  ，#PU  口蘑#AD  属#VV  中#LC  有#VE  10多#CD  种#M  都#AD  是#VC  味美#NN  的#DEC  食用#VV  真菌#NN    。#PU    。#PU
+            口蘑#VV  ，#PU  子实体#VV  伞状#NN  ，#PU  白色#JJ    。#PU  菌盖#NN  宽#VA  17#CD  厘米#M  ，#PU  半球形#NN  至#VV  平展#NN  ，#PU  白色#JJ  ，#PU  光滑#NN  ，#PU  初期#NN  边缘#NN  内卷#VV    。#PU  菌肉#NN  白色#JJ  ，#PU  厚#JJ    。#PU  菌褶#NN  白色#JJ  ，#PU  稠密#JJ  ，#PU  弯生#NN  不#AD  等长#VV    。#PU  菌柄#VV  粗壮#NN  ，#PU  白色#JJ  ，#PU  长#VV  3.5#CD  ～#NN  7#CD  厘米#M  ，#PU  粗#VV  1.5#CD  ～#NN  4.6#CD  厘米#M  ，#PU  内实#VV  ，#PU  基部#VV  稍#NN  膨大#NN    。#PU  担#VV  孢子#NN  无色#NN  ，#PU  光滑#VV  ，#PU  椭圆形#NN    。#PU  夏秋季#NR  在#P  草原#NN  上#LC  群生#VV  ，#PU  常#AD  形成#VV  蘑菇圈#NN    。#PU  产于#NR  河北#NR  、#PU  内蒙古#NR  、#PU  黑龙江#NR  、#PU  吉林#NR  、#PU  辽宁#NR  等#ETC  地#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 口蘑#NN)  (cop, 属#VV, 是#VC)  (nsubj, 属#VV, 生长#NN)  (case, 伞菌#NN, 在#P)  (nn, 草原#NN, 蒙古#NR)  (assmod, 伞菌#NN, 草原#NN)  (case, 草原#NN, 上#LC)  (case, 草原#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 伞菌#NN, 种#M)  (amod, 伞菌#NN, 白色#JJ)  (prep, 属#VV, 伞菌#NN)  (root, ROOT#null, 属#VV)  (amod, 蘑菇#NN, 野生#JJ)  (dobj, 属#VV, 蘑菇#NN)  (amod, 生长#NN, 一般#JJ)  (nsubj, 鲜美#VV, 生长#NN)  (case, 地方#NN, 在#P)  (relcl, 地方#NN, 有#VE)  (conj, 羊粪#NN, 羊骨#NN)  (cc, 羊粪#NN, 或#CC)  (dobj, 有#VE, 羊粪#NN)  (mark, 有#VE, 的#DEC)  (prep, 鲜美#VV, 地方#NN)  (nsubj, 鲜美#VV, 味道#NN)  (advmod, 鲜美#VV, 异常#AD)  (conj, 属#VV, 鲜美#VV)  (case, 输往#VV, 由于#P)  (nn, 土特产#NN, 蒙古#NR)  (nn, 土特产#NN, 口蘑#NN)  (nsubj, 输往#VV, 土特产#NN)  (dep, 输往#VV, 以前#NT)  (advmod, 输往#VV, 都#AD)  (case, 张家口市#NN, 通过#P)  (nn, 张家口市#NN, 河北省#NR)  (prep, 输往#VV, 张家口市#NN)  (prep, 集散地#NN, 输往#VV)  (dobj, 输往#VV, 内地#NN)  (nsubj, 集散地#NN, 张家口#NN)  (cop, 集散地#NN, 是#VC)  (nn, 货物#NN, 蒙古#NR)  (assmod, 集散地#NN, 货物#NN)  (case, 货物#NN, 的#DEG)  (conj, 属#VV, 集散地#NN)  (advmod, 称为#VV, 所以#AD)  (auxpass, 称为#VV, 被#SB)  (conj, 属#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 口蘑#NN)  (dobj, 称为#VV, ''#NN)   (case, 大#VA, 由于#P)  (nsubj, 大#VA, 产量#NN)  (neg, 大#VA, 不#AD)  (prep, 蘑菇#NN, 大#VA)  (nsubj, 大#VA, 需求量#NN)  (conj, 大#VA, 大#VA)  (advmod, 昂贵#VA, 所以#AD)  (nsubj, 昂贵#VA, 价值#NN)  (conj, 大#VA, 昂贵#VA)  (dep, 蘑菇#NN, 目前#NT)  (advmod, 蘑菇#NN, 仍然#AD)  (cop, 蘑菇#NN, 是#VC)  (nn, 市场#NN, 中国#NR)  (loc, 昂贵#VA, 市场#NN)  (case, 市场#NN, 上#LC)  (advmod, 昂贵#VA, 最为#AD)  (relcl, 蘑菇#NN, 昂贵#VA)  (mark, 昂贵#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 蘑菇#NN, 种#M)  (root, ROOT#null, 蘑菇#NN)   (amod, 品种#NN, 主要#JJ)  (dep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (conj, 杏香#NR, 白蘑#NR)  (nn, 杏香#NR, 青#NR)  (conj, 杏香#NR, 腿子#NR)  (conj, 杏香#NR, 马莲杆#NR)  (dobj, 有#VE, 杏香#NR)  (etc, 杏香#NR, 等#ETC)  (nsubj, 白蘑色#VV, 其中#NN)  (prtmod, 白蘑色#VV, 以#MSP)  (conj, 有#VE, 白蘑色#VV)  (dep, 白蘑色#VV, 香#VV)  (dep, 香#VV, 味#VV)  (dep, 白蘑色#VV, 最佳#JJ)   (root, ROOT#null, 口蘑#VV)  (nn, 红烧#NN, 用来#NN)  (conj, 红烧#NN, 清炖#NN)  (dobj, 口蘑#VV, 红烧#NN)  (conj, 口蘑#VV, 做#VV)  (nn, 均可#NN, 汤#NN)  (dobj, 做#VV, 均可#NN)  (conj, 口蘑#VV, 其味#VV)  (conj, 鲜美#NN, 清香#NN)  (dobj, 其味#VV, 鲜美#NN)  (advmod, 珍馐#VV, 历来#AD)  (case, 席上#NN, 为#P)  (prep, 珍馐#VV, 席上#NN)  (conj, 口蘑#VV, 珍馐#VV)   (nn, 菌肉#NN, 口蘑#NN)  (nsubj, 肥厚#VV, 菌肉#NN)  (root, ROOT#null, 肥厚#VV)  (nsubj, 具#VV, 质#NN)  (advmod, 具#VV, 细#AD)  (ccomp, 肥厚#VV, 具#VV)  (dobj, 具#VV, 香气#NN)  (conj, 具#VV, 味#VV)  (dobj, 味#VV, 鲜美#NN)  (relcl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (conj, 具#VV, 高#VA)  (advmod, 属#VV, 口蘑#AD)  (loc, 有#VE, 属#VV)  (case, 属#VV, 中#LC)  (conj, 具#VV, 有#VE)  (nummod, 种#M, 10多#CD)  (clf, 真菌#NN, 种#M)  (advmod, 味美#NN, 都#AD)  (cop, 味美#NN, 是#VC)  (relcl, 真菌#NN, 味美#NN)  (mark, 味美#NN, 的#DEC)  (relcl, 真菌#NN, 食用#VV)  (dobj, 有#VE, 真菌#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 口蘑#VV)  (ccomp, 口蘑#VV, 子实体#VV)  (dobj, 子实体#VV, 伞状#NN)  (conj, 子实体#VV, 白色#JJ)   (nsubj, 宽#VA, 菌盖#NN)  (root, ROOT#null, 宽#VA)  (nummod, 厘米#M, 17#CD)  (dep, 宽#VA, 厘米#M)  (nsubj, 至#VV, 半球形#NN)  (conj, 宽#VA, 至#VV)  (dobj, 至#VV, 平展#NN)  (conj, 至#VV, 白色#JJ)  (nsubj, 内卷#VV, 光滑#NN)  (nn, 边缘#NN, 初期#NN)  (nsubj, 内卷#VV, 边缘#NN)  (conj, 宽#VA, 内卷#VV)   (nsubj, 白色#JJ, 菌肉#NN)  (root, ROOT#null, 白色#JJ)  (dep, 白色#JJ, 厚#JJ)   (nsubj, 等长#VV, 菌褶#NN)  (dep, 等长#VV, 白色#JJ)  (dep, 白色#JJ, 稠密#JJ)  (nsubj, 等长#VV, 弯生#NN)  (neg, 等长#VV, 不#AD)  (root, ROOT#null, 等长#VV)   (root, ROOT#null, 菌柄#VV)  (dobj, 菌柄#VV, 粗壮#NN)  (conj, 菌柄#VV, 白色#JJ)  (conj, 菌柄#VV, 长#VV)  (nummod, ～#NN, 3.5#CD)  (nummod, 厘米#M, 7#CD)  (range, 长#VV, 厘米#M)  (conj, 菌柄#VV, 粗#VV)  (nummod, ～#NN, 1.5#CD)  (nummod, 厘米#M, 4.6#CD)  (range, 粗#VV, 厘米#M)  (conj, 菌柄#VV, 内实#VV)  (conj, 菌柄#VV, 基部#VV)  (nn, 膨大#NN, 稍#NN)  (dobj, 基部#VV, 膨大#NN)   (root, ROOT#null, 担#VV)  (nn, 无色#NN, 孢子#NN)  (dobj, 担#VV, 无色#NN)  (conj, 担#VV, 光滑#VV)  (conj, 担#VV, 椭圆形#NN)   (nsubj, 群生#VV, 夏秋季#NR)  (xsubj, 形成#VV, 夏秋季#NR)  (case, 草原#NN, 在#P)  (prep, 群生#VV, 草原#NN)  (case, 草原#NN, 上#LC)  (root, ROOT#null, 群生#VV)  (advmod, 形成#VV, 常#AD)  (ccomp, 群生#VV, 形成#VV)  (dobj, 形成#VV, 蘑菇圈#NN)   (nn, 辽宁#NR, 产于#NR)  (conj, 辽宁#NR, 河北#NR)  (conj, 辽宁#NR, 内蒙古#NR)  (conj, 辽宁#NR, 黑龙江#NR)  (conj, 辽宁#NR, 吉林#NR)  (nn, 地#NN, 辽宁#NR)  (etc, 辽宁#NR, 等#ETC)  (root, ROOT#null, 地#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提高免疫力
+            口蘑能够防止过氧化物损害机体，降低因缺硒引起的血压升高和血黏度增加，调节甲状腺的工作，提高免疫力。
+            2.保护肝脏
+            口蘑可抑制血清和肝脏中胆固醇上升，对肝脏起到良好的保护作用。它还含有多种抗病毒成分，对病毒性肝炎有一定食疗效果。
+            3.美容减肥
+            口蘑是一种较好的减肥美容食品。它所含的大量膳食纤维，具有防止便秘、促进排毒、预防糖尿病及大肠癌的作用。而且口蘑又属于低热量食物，可以防止发胖。
+            4.预防骨质疏松
+            白蘑菇中含有大量的维生素D。最新研究发现，白蘑菇是惟一一种能提供维生素D的蔬菜，当白蘑菇受到紫外线照射的时候，就会产生大量的维生素D。而多摄入维生素D，就能很好地预防骨质疏松症。
+            5.防癌
+            白蘑菇中含有可以抵抗病毒侵害的物质，而且经常食用可以防止癌症的发生。
+        </rawdata>
+
+        <segment>
+            提高  免疫力
+            口蘑  能够  防止  过氧化物  损害  机体  ，  降低  因  缺硒  引起  的  血压  升高  和  血  黏度  增加  ，  调节  甲状腺  的  工作  ，  提高  免疫力  。
+            保护  肝脏
+            口蘑  可  抑制  血清  和  肝脏  中  胆固醇  上升  ，  对  肝脏  起到  良好  的  保护  作用  。  它  还  含有  多  种  抗  病毒  成分  ，  对  病毒性  肝炎  有  一定  食疗  效果  。
+            美容  减肥
+            口蘑  是  一  种  较  好  的  减肥  美容  食品  。  它  所含  的  大量  膳食  纤维  ，  具有  防止  便秘  、  促进  排毒  、  预防  糖尿病  及  大肠  癌的  作用  。  而且  口蘑  又  属于  低  热量  食物  ，  可以  防止  发胖  。
+            预防  骨质  疏松
+            白  蘑菇  中  含有  大量  的  维生素D  。  最新  研究  发现  ，  白  蘑菇  是  惟一一  种  能  提供  维生素D  的  蔬菜  ，  当  白  蘑菇  受到  紫外线  照射  的  时候  ，  就  会  产生  大量  的  维生素D  。  而  多  摄入  维生素D  ，  就  能  很好地  预防  骨质  疏松症  。
+            防癌
+            白  蘑菇  中  含有  可以  抵抗  病毒  侵害  的  物质  ，  而且  经常  食用  可以  防止  癌症  的  发生  。
+        </segment>
+
+        <pos>
+            提高#VV  免疫力#NN
+            口蘑#NN  能够#VV  防止#VV  过氧化物#NN  损害#NN  机体#NN  ，#PU  降低#VV  因#P  缺硒#AD  引起#VV  的#DEC  血压#NN  升高#VV  和#CC  血#NN  黏度#AD  增加#VV  ，#PU  调节#VV  甲状腺#NN  的#DEC  工作#NN  ，#PU  提高#VV  免疫力#NN  。#PU
+            保护#VV  肝脏#NN
+            口蘑#NN  可#VV  抑制#VV  血清#NN  和#CC  肝脏#NN  中#LC  胆固醇#NN  上升#VV  ，#PU  对#P  肝脏#NN  起到#VV  良好#VA  的#DEC  保护#NN  作用#NN    。#PU  它#PN  还#AD  含有#VV  多#CD  种#M  抗#NN  病毒#NN  成分#NN  ，#PU  对#P  病毒性#NN  肝炎#NN  有#VE  一定#JJ  食疗#NN  效果#NN    。#PU    。#PU
+            美容#NN  减肥#VV
+            口蘑#NN  是#VC  一#CD  种#M  较#AD  好#VA  的#DEC  减肥#VV  美容#NN  食品#NN    。#PU  它#PN  所含#NN  的#DEG  大量#CD  膳食#NN  纤维#NN  ，#PU  具有#VV  防止#VV  便秘#NN  、#PU  促进#VV  排毒#NN  、#PU  预防#NN  糖尿病#NN  及#CC  大肠#NN  癌的#NN  作用#NN    。#PU  而且#AD  口蘑#NR  又#AD  属于#VV  低#JJ  热量#NN  食物#VV  ，#PU  可以#VV  防止#VV  发胖#NN    。#PU    。#PU
+            预防#NN  骨质#VV  疏松#NN
+            白#JJ  蘑菇#NN  中#LC  含有#VV  大量#CD  的#DEG  维生素D#NN    。#PU  最新#JJ  研究#NN  发现#VV  ，#PU  白#JJ  蘑菇#NN  是#VC  惟一一#CD  种#M  能#VV  提供#VV  维生素D#NN  的#DEC  蔬菜#NN  ，#PU  当#P  白#JJ  蘑菇#NN  受到#VV  紫外线#NN  照射#NN  的#DEC  时候#NN  ，#PU  就#AD  会#VV  产生#VV  大量#CD  的#DEG  维生素D#NN    。#PU  而#MSP  多#AD  摄入#VV  维生素D#NN  ，#PU  就#AD  能#VV  很好地#VV  预防#NN  骨质#NN  疏松症#NN    。#PU    。#PU
+            防癌#VV
+            白#JJ  蘑菇#NN  中#LC  含有#NN  可以#VV  抵抗#VV  病毒#NN  侵害#NN  的#DEG  物质#NN  ，#PU  而且#CC  经常#AD  食用#VV  可以#VV  防止#VV  癌症#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (nsubj, 防止#VV, 口蘑#NN)  (mmod, 防止#VV, 能够#VV)  (root, ROOT#null, 防止#VV)  (nn, 机体#NN, 过氧化物#NN)  (nn, 机体#NN, 损害#NN)  (dobj, 防止#VV, 机体#NN)  (conj, 防止#VV, 降低#VV)  (case, 血压#NN, 因#P)  (advmod, 引起#VV, 缺硒#AD)  (relcl, 血压#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (prep, 升高#VV, 血压#NN)  (relcl, 工作#NN, 升高#VV)  (cc, 升高#VV, 和#CC)  (nsubj, 增加#VV, 血#NN)  (advmod, 增加#VV, 黏度#AD)  (dep, 升高#VV, 增加#VV)  (dep, 增加#VV, 调节#VV)  (dobj, 调节#VV, 甲状腺#NN)  (mark, 升高#VV, 的#DEC)  (dobj, 降低#VV, 工作#NN)  (conj, 防止#VV, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)
+            (nsubj, 抑制#VV, 口蘑#NN)  (mmod, 抑制#VV, 可#VV)  (root, ROOT#null, 抑制#VV)  (dobj, 抑制#VV, 血清#NN)  (cc, 抑制#VV, 和#CC)  (loc, 上升#VV, 肝脏#NN)  (case, 肝脏#NN, 中#LC)  (dep, 上升#VV, 胆固醇#NN)  (conj, 抑制#VV, 上升#VV)  (case, 肝脏#NN, 对#P)  (prep, 起到#VV, 肝脏#NN)  (conj, 上升#VV, 起到#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 保护#NN)  (dobj, 起到#VV, 作用#NN)   (nsubj, 含有#VV, 它#PN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nn, 成分#NN, 抗#NN)  (nn, 成分#NN, 病毒#NN)  (dobj, 含有#VV, 成分#NN)  (case, 肝炎#NN, 对#P)  (nn, 肝炎#NN, 病毒性#NN)  (prep, 有#VE, 肝炎#NN)  (conj, 含有#VV, 有#VE)  (amod, 效果#NN, 一定#JJ)  (nn, 效果#NN, 食疗#NN)  (dobj, 有#VE, 效果#NN)   (root, ROOT#null, null#null)
+            (nsubj, 减肥#VV, 美容#NN)  (root, ROOT#null, 减肥#VV)
+            (nsubj, 食品#NN, 口蘑#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (advmod, 好#VA, 较#AD)  (relcl, 食品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (relcl, 食品#NN, 减肥#VV)  (dobj, 减肥#VV, 美容#NN)  (root, ROOT#null, 食品#NN)   (nsubj, 具有#VV, 它#PN)  (assmod, 纤维#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nummod, 纤维#NN, 大量#CD)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 具有#VV, 纤维#NN)  (root, ROOT#null, 具有#VV)  (nfincl, 作用#NN, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (conj, 防止#VV, 促进#VV)  (conj, 癌的#NN, 排毒#NN)  (nn, 癌的#NN, 预防#NN)  (conj, 癌的#NN, 糖尿病#NN)  (cc, 癌的#NN, 及#CC)  (nn, 癌的#NN, 大肠#NN)  (dobj, 促进#VV, 癌的#NN)  (dobj, 具有#VV, 作用#NN)   (advmod, 属于#VV, 而且#AD)  (nsubj, 属于#VV, 口蘑#NR)  (advmod, 属于#VV, 又#AD)  (dep, 食物#VV, 属于#VV)  (amod, 热量#NN, 低#JJ)  (dobj, 属于#VV, 热量#NN)  (root, ROOT#null, 食物#VV)  (mmod, 防止#VV, 可以#VV)  (ccomp, 食物#VV, 防止#VV)  (dobj, 防止#VV, 发胖#NN)   (root, ROOT#null, null#null)
+            (nsubj, 骨质#VV, 预防#NN)  (root, ROOT#null, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)
+            (amod, 蘑菇#NN, 白#JJ)  (loc, 含有#VV, 蘑菇#NN)  (case, 蘑菇#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 维生素D#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 维生素D#NN)   (amod, 研究#NN, 最新#JJ)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (amod, 蘑菇#NN, 白#JJ)  (nsubj, 蔬菜#NN, 蘑菇#NN)  (cop, 蔬菜#NN, 是#VC)  (nummod, 种#M, 惟一一#CD)  (clf, 蔬菜#NN, 种#M)  (mmod, 提供#VV, 能#VV)  (relcl, 蔬菜#NN, 提供#VV)  (dobj, 提供#VV, 维生素D#NN)  (mark, 提供#VV, 的#DEC)  (ccomp, 发现#VV, 蔬菜#NN)  (case, 时候#NN, 当#P)  (amod, 蘑菇#NN, 白#JJ)  (nsubj, 受到#VV, 蘑菇#NN)  (relcl, 时候#NN, 受到#VV)  (nn, 照射#NN, 紫外线#NN)  (dobj, 受到#VV, 照射#NN)  (mark, 受到#VV, 的#DEC)  (prep, 产生#VV, 时候#NN)  (advmod, 产生#VV, 就#AD)  (mmod, 产生#VV, 会#VV)  (conj, 蔬菜#NN, 产生#VV)  (assmod, 维生素D#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 产生#VV, 维生素D#NN)   (prtmod, 摄入#VV, 而#MSP)  (advmod, 摄入#VV, 多#AD)  (root, ROOT#null, 摄入#VV)  (dobj, 摄入#VV, 维生素D#NN)  (advmod, 很好地#VV, 就#AD)  (mmod, 很好地#VV, 能#VV)  (dep, 摄入#VV, 很好地#VV)  (nn, 疏松症#NN, 预防#NN)  (nn, 疏松症#NN, 骨质#NN)  (dobj, 很好地#VV, 疏松症#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防癌#VV)
+            (amod, 蘑菇#NN, 白#JJ)  (loc, 抵抗#VV, 蘑菇#NN)  (case, 蘑菇#NN, 中#LC)  (nsubj, 抵抗#VV, 含有#NN)  (mmod, 抵抗#VV, 可以#VV)  (root, ROOT#null, 抵抗#VV)  (nn, 侵害#NN, 病毒#NN)  (assmod, 物质#NN, 侵害#NN)  (case, 侵害#NN, 的#DEG)  (dobj, 抵抗#VV, 物质#NN)  (cc, 抵抗#VV, 而且#CC)  (advmod, 食用#VV, 经常#AD)  (conj, 抵抗#VV, 食用#VV)  (mmod, 防止#VV, 可以#VV)  (dep, 抵抗#VV, 防止#VV)  (assmod, 发生#NN, 癌症#NN)  (case, 癌症#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        减肥  抗氧化  健脾  补虚  透疹  宣肺止咳  抗癌防癌  通便  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            口蘑是国外极为推崇的健康食品，含有人体所必需的8种氨基酸以及多种维生素、尼克酸、抗坏血酸等。口蘑属于低脂肪食品，一般品种的脂肪含量仅为干重的4.4%。在所有食用菌中，它对矿物元素的聚集能力特别强。据实验分析，一般品种的口蘑中含有矿物元素达10余种，特别是对人体关系密切的钙、镁、锌和微量元素硒、锗的含量，仅次于药用菌灵芝，比一般食用菌高几倍甚至几十倍。
+            另外，白蘑菇中还含有一种稀有的天然氨基酸抗氧化剂——麦硫因。研究人员已发现，白蘑菇中麦硫因水平是麦芽的12倍以上，是鸡肝的4倍多。麦芽和鸡肝一直以来都被认为是抗氧化剂麦硫因的主要食物来源。
+        </rawdata>
+
+        <segment>
+            口蘑  是  国外  极为  推崇  的  健康  食品  ，  含有  人体  所  必需  的  氨基酸  以及  多  种  维生素  、  尼克酸  、  抗坏血酸  等  。  口蘑  属于  低  脂肪  食品  ，  一般  品种  的  脂肪  含量  仅  为  干  重  的  4.4%  。  在  所有  食用菌  中  ，  它  对  矿物  元素  的  聚集  能力  特别  强  。  据实  验  分析  ，  一般  品种  的  口蘑  中  含有  矿物  元素  达  10  余  种  ，  特别是  对  人体  关系  密切  的  钙  、  镁  、  锌  和  微量  元素  硒  、  锗的  含量  ，  仅  次于  药用菌  灵芝  ，  比  一般  食用菌  高  几  倍  甚至  几十  倍  。
+            另外  ，  白  蘑菇  中  还  含有  一  种  稀有  的  天然  氨基酸  抗氧化剂  ——  麦  硫因  。  研究  人员  已  发现  ，  白  蘑菇  中  麦  硫因  水平  是  麦芽  的  12  倍  以上  ，  是  鸡肝  的  4  倍  多  。  麦芽  和  鸡肝  一直  以来  都  被  认为  是  抗氧化剂  麦  硫因  的  主要  食物  来源  。
+        </segment>
+
+        <pos>
+            口蘑#NN  是#VC  国外#NN  极为#AD  推崇#VA  的#DEC  健康#JJ  食品#NN  ，#PU  含有#NN  人体#NN  所#MSP  必需#VV  的#DEC  氨基酸#NN  以及#CC  多#CD  种#M  维生素#NN  、#PU  尼克酸#NN  、#PU  抗坏血酸#NN  等#ETC    。#PU  口蘑#AD  属于#VV  低#JJ  脂肪#NN  食品#NN  ，#PU  一般#JJ  品种#NN  的#DEC  脂肪#NN  含量#NN  仅#AD  为#VC  干#VV  重#NN  的#DEC  4.4#CD  %#NN    。#PU  在#P  所有#DT  食用菌#NN  中#LC  ，#PU  它#PN  对#P  矿物#NN  元素#NN  的#DEG  聚集#VV  能力#NN  特别#AD  强#VA    。#PU  据实#NN  验#NN  分析#VV  ，#PU  一般#JJ  品种#NN  的#DEG  口蘑#NN  中#LC  含有#NN  矿物#NN  元素#NN  达#VV  10#CD  余#NN  种#M  ，#PU  特别是#AD  对#P  人体#NN  关系#NN  密切#VA  的#DEC  钙#NN  、#PU  镁#NN  、#PU  锌#NN  和#CC  微量#NN  元素#NN  硒#NN  、#PU  锗的#NN  含量#NN  ，#PU  仅#AD  次于#VV  药用菌#NN  灵芝#NN  ，#PU  比#P  一般#JJ  食用菌#NN  高#VA  几#CD  倍#M  甚至#AD  几十#CD  倍#M    。#PU    。#PU
+            另外#AD  ，#PU  白#JJ  蘑菇#NN  中#LC  还#AD  含有#VV  一#CD  种#M  稀有#JJ  的#DEG  天然#JJ  氨基酸#NN  抗氧化剂#AD  --#VV  --#NN  麦#NN  硫因#NN    。#PU  研究#NN  人员#NN  已#AD  发现#VV  ，#PU  白#JJ  蘑菇#NN  中#LC  麦#NN  硫因#NN  水平#NN  是#VC  麦芽#NN  的#DEG  12#CD  倍#M  以上#LC  ，#PU  是#VC  鸡肝#NN  的#DEG  4#CD  倍#M  多#AD    。#PU  麦芽#NN  和#CC  鸡肝#NN  一直#AD  以来#LC  都#AD  被#SB  认为#VV  是#VC  抗氧化剂#NN  麦#NN  硫因#NN  的#DEG  主要#JJ  食物#NN  来源#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 抗坏血酸#NN, 口蘑#NN)  (cop, 抗坏血酸#NN, 是#VC)  (nsubj, 推崇#VA, 国外#NN)  (advmod, 推崇#VA, 极为#AD)  (relcl, 食品#NN, 推崇#VA)  (mark, 推崇#VA, 的#DEC)  (amod, 食品#NN, 健康#JJ)  (nsubj, 必需#VV, 食品#NN)  (nn, 人体#NN, 含有#NN)  (nsubj, 必需#VV, 人体#NN)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 抗坏血酸#NN, 氨基酸#NN)  (cc, 抗坏血酸#NN, 以及#CC)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (conj, 抗坏血酸#NN, 维生素#NN)  (conj, 抗坏血酸#NN, 尼克酸#NN)  (root, ROOT#null, 抗坏血酸#NN)  (etc, 抗坏血酸#NN, 等#ETC)   (advmod, 属于#VV, 口蘑#AD)  (relcl, 含量#NN, 属于#VV)  (amod, 脂肪#NN, 低#JJ)  (nn, 食品#NN, 脂肪#NN)  (dep, 品种#NN, 食品#NN)  (amod, 品种#NN, 一般#JJ)  (dobj, 属于#VV, 品种#NN)  (mark, 属于#VV, 的#DEC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, %#NN, 含量#NN)  (advmod, %#NN, 仅#AD)  (cop, %#NN, 为#VC)  (relcl, %#NN, 干#VV)  (dobj, 干#VV, 重#NN)  (mark, 干#VV, 的#DEC)  (nummod, %#NN, 4.4#CD)  (root, ROOT#null, %#NN)   (case, 食用菌#NN, 在#P)  (det, 食用菌#NN, 所有#DT)  (prep, 强#VA, 食用菌#NN)  (case, 食用菌#NN, 中#LC)  (nsubj, 强#VA, 它#PN)  (case, 元素#NN, 对#P)  (nn, 元素#NN, 矿物#NN)  (assmod, 能力#NN, 元素#NN)  (case, 元素#NN, 的#DEG)  (nfincl, 能力#NN, 聚集#VV)  (nsubj, 强#VA, 能力#NN)  (advmod, 强#VA, 特别#AD)  (root, ROOT#null, 强#VA)   (nn, 验#NN, 据实#NN)  (nsubj, 分析#VV, 验#NN)  (root, ROOT#null, 分析#VV)  (amod, 品种#NN, 一般#JJ)  (assmod, 口蘑#NN, 品种#NN)  (case, 品种#NN, 的#DEG)  (loc, 达#VV, 口蘑#NN)  (case, 口蘑#NN, 中#LC)  (nn, 元素#NN, 含有#NN)  (nn, 元素#NN, 矿物#NN)  (nsubj, 达#VV, 元素#NN)  (ccomp, 分析#VV, 达#VV)  (nummod, 种#M, 10#CD)  (dep, 种#M, 余#NN)  (range, 达#VV, 种#M)  (prep, 倍#M, 特别是#AD)  (case, 含量#NN, 对#P)  (nn, 关系#NN, 人体#NN)  (nsubj, 密切#VA, 关系#NN)  (relcl, 含量#NN, 密切#VA)  (mark, 密切#VA, 的#DEC)  (conj, 锗的#NN, 钙#NN)  (conj, 锗的#NN, 镁#NN)  (conj, 锗的#NN, 锌#NN)  (cc, 锗的#NN, 和#CC)  (nn, 锗的#NN, 微量#NN)  (nn, 锗的#NN, 元素#NN)  (conj, 锗的#NN, 硒#NN)  (nn, 含量#NN, 锗的#NN)  (dep, 特别是#AD, 含量#NN)  (advmod, 次于#VV, 仅#AD)  (dep, 倍#M, 次于#VV)  (nn, 灵芝#NN, 药用菌#NN)  (dobj, 次于#VV, 灵芝#NN)  (case, 食用菌#NN, 比#P)  (amod, 食用菌#NN, 一般#JJ)  (prep, 高#VA, 食用菌#NN)  (dep, 次于#VV, 高#VA)  (nummod, 倍#M, 几#CD)  (dep, 高#VA, 倍#M)  (advmod, 倍#M, 甚至#AD)  (nummod, 倍#M, 几十#CD)  (conj, 达#VV, 倍#M)   (root, ROOT#null, null#null)
+            (advmod, 含有#VV, 另外#AD)  (amod, 蘑菇#NN, 白#JJ)  (loc, 含有#VV, 蘑菇#NN)  (case, 蘑菇#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (range, 含有#VV, 种#M)  (assmod, 氨基酸#NN, 稀有#JJ)  (case, 稀有#JJ, 的#DEG)  (amod, 氨基酸#NN, 天然#JJ)  (nsubj, --#VV, 氨基酸#NN)  (advmod, --#VV, 抗氧化剂#AD)  (nn, 硫因#NN, 麦#NN)  (dobj, --#VV, 硫因#NN)   (nn, 人员#NN, 研究#NN)  (nsubj, 发现#VV, 人员#NN)  (advmod, 发现#VV, 已#AD)  (root, ROOT#null, 发现#VV)  (amod, 蘑菇#NN, 白#JJ)  (loc, 是#VC, 蘑菇#NN)  (case, 蘑菇#NN, 中#LC)  (nn, 水平#NN, 麦#NN)  (nn, 水平#NN, 硫因#NN)  (nsubj, 是#VC, 水平#NN)  (ccomp, 发现#VV, 是#VC)  (assmod, 倍#M, 麦芽#NN)  (case, 麦芽#NN, 的#DEG)  (nummod, 倍#M, 12#CD)  (loc, 是#VC, 倍#M)  (case, 倍#M, 以上#LC)  (conj, 是#VC, 是#VC)  (assmod, 倍#M, 鸡肝#NN)  (case, 鸡肝#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (dep, 是#VC, 倍#M)  (advmod, 倍#M, 多#AD)   (conj, 鸡肝#NN, 麦芽#NN)  (cc, 鸡肝#NN, 和#CC)  (nsubj, 认为#VV, 鸡肝#NN)  (loc, 认为#VV, 一直#AD)  (case, 一直#AD, 以来#LC)  (advmod, 认为#VV, 都#AD)  (auxpass, 认为#VV, 被#SB)  (root, ROOT#null, 认为#VV)  (cop, 来源#NN, 是#VC)  (nn, 硫因#NN, 抗氧化剂#NN)  (nn, 硫因#NN, 麦#NN)  (assmod, 来源#NN, 硫因#NN)  (case, 硫因#NN, 的#DEG)  (amod, 来源#NN, 主要#JJ)  (nn, 来源#NN, 食物#NN)  (ccomp, 认为#VV, 来源#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.最好吃鲜蘑，市场上有泡在液体中的袋装口蘑，食用前一定要多漂洗几遍，以去掉某些化学物质。
+            2.宜配肉菜食用；口蘑本身味道鲜美，吃时不用再放鸡精和味精。　
+        </rawdata>
+
+        <segment>
+            最  好吃  鲜蘑  ，  市场  上  有  泡在  液体  中  的  袋装  口蘑  ，  食用  前  一定  要  多  漂洗  几  遍  ，  以  去掉  某些  化学  物质  。
+            宜配  肉  菜  食用  ；  口蘑  本身  味道  鲜美  ，  吃  时  不  用  再放  鸡精  和  味精  。
+        </segment>
+
+        <pos>
+            最#AD  好吃#JJ  鲜蘑#NN  ，#PU  市场#NN  上#LC  有#VE  泡在#NN  液体#NN  中#LC  的#DEG  袋装#NN  口蘑#NN  ，#PU  食用#VV  前#LC  一定#AD  要#VV  多#AD  漂洗#VV  几#CD  遍#NN  ，#PU  以#MSP  去掉#VV  某些#DT  化学#NN  物质#NN  。#PU
+            宜配#NN  肉#NN  菜#NN  食用#VV  ；#PU  口蘑#VV  本身#PN  味道#NN  鲜美#NN  ，#PU  吃#VV  时#LC  不#AD  用#VV  再放#NN  鸡精#NN  和#CC  味精#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 好吃#JJ, 最#AD)  (amod, 鲜蘑#NN, 好吃#JJ)  (nsubj, 有#VE, 鲜蘑#NN)  (loc, 有#VE, 市场#NN)  (case, 市场#NN, 上#LC)  (root, ROOT#null, 有#VE)  (nn, 液体#NN, 泡在#NN)  (assmod, 口蘑#NN, 液体#NN)  (case, 液体#NN, 中#LC)  (case, 液体#NN, 的#DEG)  (nn, 口蘑#NN, 袋装#NN)  (dobj, 有#VE, 口蘑#NN)  (loc, 漂洗#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (advmod, 漂洗#VV, 一定#AD)  (mmod, 漂洗#VV, 要#VV)  (advmod, 漂洗#VV, 多#AD)  (conj, 有#VE, 漂洗#VV)  (nummod, 遍#NN, 几#CD)  (dobj, 漂洗#VV, 遍#NN)  (prtmod, 去掉#VV, 以#MSP)  (conj, 有#VE, 去掉#VV)  (det, 物质#NN, 某些#DT)  (nn, 物质#NN, 化学#NN)  (dobj, 去掉#VV, 物质#NN)
+            (nn, 菜#NN, 宜配#NN)  (nn, 菜#NN, 肉#NN)  (nsubj, 食用#VV, 菜#NN)  (root, ROOT#null, 食用#VV)  (conj, 食用#VV, 口蘑#VV)  (nn, 鲜美#NN, 本身#PN)  (nn, 鲜美#NN, 味道#NN)  (dobj, 口蘑#VV, 鲜美#NN)  (loc, 用#VV, 吃#VV)  (case, 吃#VV, 时#LC)  (neg, 用#VV, 不#AD)  (conj, 食用#VV, 用#VV)  (nn, 味精#NN, 再放#NN)  (conj, 味精#NN, 鸡精#NN)  (cc, 味精#NN, 和#CC)  (dobj, 用#VV, 味精#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/9131411.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,169 @@
+<content>
+
+    <id>
+        291
+    </id>
+
+    <foodname>
+        白豆
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆类
+    </secondcategory>
+
+    <alias>
+        饭豆、饭豇豆、米豆、甘豆、眉豆
+    </alias>
+
+    <season>
+        7-9月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            白豆性平益气，气滞腹胀者忌食，需减肥者慎食。
+        </rawdata>
+
+        <segment>
+            白豆性  平  益气  ，  气滞  腹胀  者  忌食  ，  需  减肥  者  慎食  。
+        </segment>
+
+        <pos>
+            白豆性#NN  平#NN  益气#NN  ，#PU  气滞#NN  腹胀#VV  者#NN  忌食#NN  ，#PU  需#VV  减肥#VV  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 益气#NN, 白豆性#NN)  (nn, 益气#NN, 平#NN)  (nsubj, 腹胀#VV, 益气#NN)  (nsubj, 腹胀#VV, 气滞#NN)  (root, ROOT#null, 腹胀#VV)  (nn, 忌食#NN, 者#NN)  (dobj, 腹胀#VV, 忌食#NN)  (mmod, 减肥#VV, 需#VV)  (conj, 腹胀#VV, 减肥#VV)  (nn, 慎食#NN, 者#NN)  (dobj, 减肥#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            白豆为豆科植物饭豇豆的种子，球形或扁圆，比黄豆略大，也有状如腰果的，分布中国河北、江苏、四川、云南等省，越南亦有产品。一年生直立草本，高20～40厘米。3出复叶，顶生小叶卵状菱形，两侧小叶斜卵形，先端短尖，边全缘或近全缘。总状花序腋生，具长柄；花间通常有垫状腺体；萼钟形，浅绿色，萼齿披针形，上面2萼齿常合生；花瓣大大地伸出萼外；雄蕊2束。荚果长7～15厘米，种子颜色不一。花期7～8月。果熟期9月。
+            有大白豆和小白豆之分，它的苗嫩的时候可以当菜吃，吃生的也很好。有的是白色，也有的是土黄色，大白豆象胡豆大小，小白都象绿豆一般大，但比绿豆长。四五月间下种，它的苗比赤豆苗稍尖些。
+        </rawdata>
+
+        <segment>
+            白豆为  豆科  植物  饭  豇豆  的  种子  ，  球形  或  扁圆  ，  比  黄豆  略大  ，  也  有  状如  腰果  的  ，  分布  中国  河北  、  江苏  、  四川  、  云南  等  省  ，  越南  亦  有  产品  。  一  年  生  直立  草本  ，  高  20  ～  40  厘米  。  3  出  复叶  ，  顶  生  小叶  卵状  菱形  ，  两  侧  小叶  斜  卵形  ，  先端  短尖  ，  边  全  缘  或  近  全  缘  。  总状花序  腋生  ，  具  长柄  ；  花  间  通常  有  垫状  腺体  ；  萼钟形  ，  浅绿色  ，  萼齿  披  针形  ，  上面  2  萼  齿常  合生  ；  花瓣  大大  地  伸出  萼外  ；  雄蕊  2  束  。  荚果  长  7～15  厘米  ，  种子  颜色  不一  。  花期  7  ～  8月  。  果  熟  期  9  月  。
+            有  大白豆  和  小白豆  之分  ，  它  的  苗嫩  的  时候  可以  当  菜  吃  ，  吃  生  的  也  很  好  。  有的  是  白色  ，  也  有的  是  土黄色  ，  大白  豆象  胡豆  大小  ，  小  白  都  象  绿豆  一般  大  ，  但  比  绿豆  长  。  四五月  间  下种  ，  它  的  苗比  赤豆  苗  稍尖  些  。
+        </segment>
+
+        <pos>
+            白豆为#AD  豆科#VV  植物#NN  饭#NN  豇豆#NN  的#DEC  种子#NN  ，#PU  球形#NR  或#CC  扁圆#NR  ，#PU  比#P  黄豆#NN  略大#NN  ，#PU  也#AD  有#VE  状如#VV  腰果#NN  的#DEC  ，#PU  分布#VV  中国#NR  河北#NR  、#PU  江苏#NR  、#PU  四川#NR  、#PU  云南#NR  等#ETC  省#NN  ，#PU  越南#NR  亦#AD  有#VE  产品#NN    。#PU  一#CD  年#M  生#VV  直立#NN  草本#NN  ，#PU  高#JJ  20#CD  ～#NN  40#CD  厘米#M    。#PU  3#CD  出#VV  复叶#VV  ，#PU  顶#VV  生#VV  小叶#NN  卵状#NN  菱形#NN  ，#PU  两#CD  侧#LC  小叶#AD  斜#VV  卵形#NN  ，#PU  先端#VV  短尖#NN  ，#PU  边#NN  全#DT  缘#NN  或#CC  近#AD  全#DT  缘#NN    。#PU  总状花序#NR  腋生#VV  ，#PU  具#VV  长柄#NN  ；#PU  花#NN  间#LC  通常#AD  有#VE  垫状#NN  腺体#NN  ；#PU  萼钟形#NN  ，#PU  浅绿色#NN  ，#PU  萼齿#AD  披#VV  针形#NN  ，#PU  上面#NN  2#CD  萼#NN  齿常#VV  合生#NN  ；#PU  花瓣#AD  大大#AD  地#NN  伸出#VV  萼外#NN  ；#PU  雄蕊#VV  2#CD  束#NN    。#PU  荚果#NN  长#VV  7#CD  ～#NN  15#CD  厘米#M  ，#PU  种子#NN  颜色#NN  不一#VV    。#PU  花期#VV  7#CD  ～#VV  8月#NT    。#PU  果#NN  熟#JJ  期#NN  9#CD  月#M    。#PU    。#PU
+            有#VE  大白豆#NN  和#CC  小白豆#NN  之分#NN  ，#PU  它#PN  的#DEG  苗嫩#NN  的#DEC  时候#NN  可以#VV  当#P  菜#NN  吃#VV  ，#PU  吃#VV  生#VV  的#SP  也#AD  很#AD  好#VA    。#PU  有的#PN  是#VC  白色#JJ  ，#PU  也#CC  有的#PN  是#VC  土黄色#NN  ，#PU  大白#VV  豆象#NN  胡豆#NN  大小#NN  ，#PU  小#JJ  白#NR  都#AD  象#P  绿豆#NN  一般#AD  大#VA  ，#PU  但#AD  比#P  绿豆#NN  长#VA    。#PU  四五月#NT  间#LC  下种#VV  ，#PU  它#PN  的#DEG  苗比#NN  赤豆#AD  苗#VV  稍尖#CD  些#M    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 豆科#VV, 白豆为#AD)  (relcl, 种子#NN, 豆科#VV)  (nn, 豇豆#NN, 植物#NN)  (nn, 豇豆#NN, 饭#NN)  (dobj, 豆科#VV, 豇豆#NN)  (mark, 豆科#VV, 的#DEC)  (nsubj, 有#VE, 种子#NN)  (conj, 扁圆#NR, 球形#NR)  (cc, 扁圆#NR, 或#CC)  (nsubj, 有#VE, 扁圆#NR)  (case, 略大#NN, 比#P)  (nn, 略大#NN, 黄豆#NN)  (prep, 有#VE, 略大#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 状如#VV)  (dobj, 状如#VV, 腰果#NN)  (mark, 状如#VV, 的#DEC)  (conj, 有#VE, 分布#VV)  (nn, 省#NN, 中国#NR)  (conj, 云南#NR, 河北#NR)  (conj, 云南#NR, 江苏#NR)  (conj, 云南#NR, 四川#NR)  (nn, 省#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (dobj, 分布#VV, 省#NN)  (nsubj, 有#VE, 越南#NR)  (advmod, 有#VE, 亦#AD)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 产品#NN)   (nummod, 年#M, 一#CD)  (nsubj, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (nn, 草本#NN, 直立#NN)  (dobj, 生#VV, 草本#NN)  (amod, ～#NN, 高#JJ)  (nummod, ～#NN, 20#CD)  (nummod, 厘米#M, 40#CD)  (conj, 生#VV, 厘米#M)   (nsubj, 复叶#VV, 3#CD)  (mmod, 复叶#VV, 出#VV)  (root, ROOT#null, 复叶#VV)  (mmod, 生#VV, 顶#VV)  (conj, 复叶#VV, 生#VV)  (nn, 菱形#NN, 小叶#NN)  (nn, 菱形#NN, 卵状#NN)  (dobj, 生#VV, 菱形#NN)  (loc, 斜#VV, 两#CD)  (case, 两#CD, 侧#LC)  (advmod, 斜#VV, 小叶#AD)  (conj, 复叶#VV, 斜#VV)  (dobj, 斜#VV, 卵形#NN)  (conj, 复叶#VV, 先端#VV)  (dobj, 先端#VV, 短尖#NN)  (nsubj, 缘#NN, 边#NN)  (det, 缘#NN, 全#DT)  (conj, 缘#NN, 缘#NN)  (cc, 缘#NN, 或#CC)  (advmod, 缘#NN, 近#AD)  (det, 缘#NN, 全#DT)  (conj, 复叶#VV, 缘#NN)   (nsubj, 腋生#VV, 总状花序#NR)  (root, ROOT#null, 腋生#VV)  (ccomp, 腋生#VV, 具#VV)  (dobj, 具#VV, 长柄#NN)  (loc, 有#VE, 花#NN)  (case, 花#NN, 间#LC)  (advmod, 有#VE, 通常#AD)  (dep, 具#VV, 有#VE)  (nn, 腺体#NN, 垫状#NN)  (dobj, 有#VE, 腺体#NN)  (nsubj, 披#VV, 萼钟形#NN)  (nsubj, 披#VV, 浅绿色#NN)  (advmod, 披#VV, 萼齿#AD)  (dep, 具#VV, 披#VV)  (dobj, 披#VV, 针形#NN)  (nn, 萼#NN, 上面#NN)  (nummod, 萼#NN, 2#CD)  (nsubj, 齿常#VV, 萼#NN)  (conj, 披#VV, 齿常#VV)  (dobj, 齿常#VV, 合生#NN)  (advmod, 伸出#VV, 花瓣#AD)  (advmod, 伸出#VV, 大大#AD)  (dobj, 伸出#VV, 地#NN)  (dep, 具#VV, 伸出#VV)  (dobj, 伸出#VV, 萼外#NN)  (dep, 具#VV, 雄蕊#VV)  (nummod, 束#NN, 2#CD)  (dobj, 雄蕊#VV, 束#NN)   (nsubj, 长#VV, 荚果#NN)  (root, ROOT#null, 长#VV)  (nummod, ～#NN, 7#CD)  (nummod, 厘米#M, 15#CD)  (range, 长#VV, 厘米#M)  (nn, 颜色#NN, 种子#NN)  (nsubj, 不一#VV, 颜色#NN)  (conj, 长#VV, 不一#VV)   (root, ROOT#null, 花期#VV)  (range, 花期#VV, 7#CD)  (dobj, ～#VV, 8月#NT)   (nn, 期#NN, 果#NN)  (amod, 期#NN, 熟#JJ)  (nsubj, 月#M, 期#NN)  (nummod, 月#M, 9#CD)  (root, ROOT#null, 月#M)   (root, ROOT#null, null#null)
+            (relcl, 时候#NN, 有#VE)  (conj, 之分#NN, 大白豆#NN)  (cc, 之分#NN, 和#CC)  (nn, 之分#NN, 小白豆#NN)  (dep, 苗嫩#NN, 之分#NN)  (assmod, 苗嫩#NN, 它#PN)  (case, 它#PN, 的#DEG)  (dobj, 有#VE, 苗嫩#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 吃#VV, 时候#NN)  (mmod, 吃#VV, 可以#VV)  (case, 菜#NN, 当#P)  (prep, 吃#VV, 菜#NN)  (root, ROOT#null, 吃#VV)  (dep, 吃#VV, 吃#VV)  (comod, 吃#VV, 生#VV)  (dep, 吃#VV, 的#SP)  (advmod, 好#VA, 也#AD)  (advmod, 好#VA, 很#AD)  (dep, 吃#VV, 好#VA)   (nsubj, 是#VC, 有的#PN)  (root, ROOT#null, 是#VC)  (dep, 是#VC, 白色#JJ)  (cc, 是#VC, 也#CC)  (nsubj, 土黄色#NN, 有的#PN)  (cop, 土黄色#NN, 是#VC)  (conj, 是#VC, 土黄色#NN)  (conj, 土黄色#NN, 大白#VV)  (nn, 大小#NN, 豆象#NN)  (nn, 大小#NN, 胡豆#NN)  (dobj, 大白#VV, 大小#NN)  (amod, 白#NR, 小#JJ)  (nsubj, 大#VA, 白#NR)  (advmod, 大#VA, 都#AD)  (case, 绿豆#NN, 象#P)  (prep, 大#VA, 绿豆#NN)  (advmod, 大#VA, 一般#AD)  (conj, 土黄色#NN, 大#VA)  (advmod, 长#VA, 但#AD)  (case, 绿豆#NN, 比#P)  (prep, 长#VA, 绿豆#NN)  (conj, 大#VA, 长#VA)   (loc, 下种#VV, 四五月#NT)  (case, 四五月#NT, 间#LC)  (root, ROOT#null, 下种#VV)  (assmod, 苗比#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 苗#VV, 苗比#NN)  (advmod, 苗#VV, 赤豆#AD)  (ccomp, 下种#VV, 苗#VV)  (nummod, 些#M, 稍尖#CD)  (range, 苗#VV, 些#M)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平，无毒。调中益气，健脾益肾。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  ，  无毒  。  调中  益气  ，  健脾  益肾  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV  ，#PU  无毒#JJ    。#PU  调中#NR  益气#VV  ，#PU  健脾#VV  益肾#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (dep, 味甘#VV, 性平#VV)  (dep, 味甘#VV, 无毒#JJ)   (nsubj, 益气#VV, 调中#NR)  (root, ROOT#null, 益气#VV)  (ccomp, 益气#VV, 健脾#VV)  (dobj, 健脾#VV, 益肾#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.白豆提供了易于消化吸收的优质蛋白蛋，适量的碳水化合物及多种维生素、微量元素等，补充机体的营养成分，提高免疫力；
+            2.白豆所含维生素B1能维持正常的消化腺分泌和胃肠道蠕动的功能，抑制胆碱酶活性，可帮助消化，增进食欲；
+            3.白豆的磷脂有促进胰岛素分泌，参加糖代谢的作用，是糖尿病人的理想食品。
+        </rawdata>
+
+        <segment>
+            白豆  提供  了  易于  消化  吸收  的  优质  蛋白  蛋  ，  适量  的  碳水  化合物  及  多种  维生素  、  微量  元素  等  ，  补充  机体  的  营养  成分  ，  提高  免疫力  ；
+            白豆  所含  维生素B1  能  维持  正常  的  消化腺  分泌  和  胃肠道  蠕动  的  功能  ，  抑制  胆碱酶  活性  ，  可  帮助  消化  ，  增进  食欲  ；
+            白豆  的  磷脂  有  促进  胰岛素  分泌  ，  参加  糖  代谢  的  作用  ，  是  糖尿病人  的  理想  食品  。
+        </segment>
+
+        <pos>
+            白豆#AD  提供#VV  了#AS  易于#NN  消化#NN  吸收#NN  的#DEC  优质#JJ  蛋白#NN  蛋#VV  ，#PU  适量#NN  的#DEG  碳水#NN  化合物#NN  及#CC  多种#NN  维生素#NN  、#PU  微量#NN  元素#NN  等#ETC  ，#PU  补充#VV  机体#NN  的#DEG  营养#VA  成分#NN  ，#PU  提高#VV  免疫力#NN  ；#PU
+            白豆#NN  所含#VV  维生素B1#CD  能#VV  维持#VV  正常#VA  的#DEC  消化腺#NN  分泌#NN  和#CC  胃肠道#NN  蠕动#NN  的#DEC  功能#NN  ，#PU  抑制#VV  胆碱酶#NN  活性#NN  ，#PU  可#VV  帮助#VV  消化#NN  ，#PU  增进#VV  食欲#NN  ；#PU
+            白豆#NN  的#DEG  磷脂#NN  有#VE  促进#VV  胰岛素#NN  分泌#NN  ，#PU  参加#VV  糖#NN  代谢#NN  的#DEC  作用#NN  ，#PU  是#VC  糖尿病人#NN  的#DEG  理想#JJ  食品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 提供#VV, 白豆#AD)  (relcl, 蛋白#NN, 提供#VV)  (asp, 提供#VV, 了#AS)  (nn, 吸收#NN, 易于#NN)  (nn, 吸收#NN, 消化#NN)  (dobj, 提供#VV, 吸收#NN)  (mark, 提供#VV, 的#DEC)  (amod, 蛋白#NN, 优质#JJ)  (nsubj, 蛋#VV, 蛋白#NN)  (root, ROOT#null, 蛋#VV)  (assmod, 维生素#NN, 适量#NN)  (case, 适量#NN, 的#DEG)  (nn, 维生素#NN, 碳水#NN)  (conj, 维生素#NN, 化合物#NN)  (cc, 维生素#NN, 及#CC)  (nn, 维生素#NN, 多种#NN)  (conj, 元素#NN, 维生素#NN)  (nn, 元素#NN, 微量#NN)  (nsubj, 补充#VV, 元素#NN)  (etc, 元素#NN, 等#ETC)  (ccomp, 蛋#VV, 补充#VV)  (assmod, 成分#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 补充#VV, 成分#NN)  (conj, 补充#VV, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (nsubj, 所含#VV, 白豆#NN)  (root, ROOT#null, 所含#VV)  (nummod, 功能#NN, 维生素B1#CD)  (mmod, 维持#VV, 能#VV)  (relcl, 功能#NN, 维持#VV)  (relcl, 蠕动#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nn, 蠕动#NN, 消化腺#NN)  (conj, 蠕动#NN, 分泌#NN)  (cc, 蠕动#NN, 和#CC)  (nn, 蠕动#NN, 胃肠道#NN)  (dobj, 维持#VV, 蠕动#NN)  (mark, 维持#VV, 的#DEC)  (dobj, 所含#VV, 功能#NN)  (conj, 所含#VV, 抑制#VV)  (nn, 活性#NN, 胆碱酶#NN)  (dobj, 抑制#VV, 活性#NN)  (mmod, 帮助#VV, 可#VV)  (conj, 所含#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (conj, 所含#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (assmod, 磷脂#NN, 白豆#NN)  (case, 白豆#NN, 的#DEG)  (nsubj, 有#VE, 磷脂#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 促进#VV)  (nn, 分泌#NN, 胰岛素#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 促进#VV, 参加#VV)  (nn, 代谢#NN, 糖#NN)  (dobj, 参加#VV, 代谢#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 糖尿病人#NN)  (case, 糖尿病人#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (conj, 有#VE, 食品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101434576743.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

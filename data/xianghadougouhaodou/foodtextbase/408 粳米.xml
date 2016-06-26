@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        408
+    </id>
+
+    <foodname>
+        粳米
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        硬米
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜一切体虚之人、高热之人、久病初愈、妇女产后、老年人、婴幼儿消化力减弱者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  一切  体  虚  之  人  、  高热  之  人  、  久病  初  愈  、  妇女  产后  、  老年人  、  婴幼儿  消化力  减  弱者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  一切#DT  体#VV  虚#AD  之#DEC  人#NN  、#PU  高热#NN  之#DEG  人#NN  、#PU  久病#NN  初#LC  愈#AD  、#PU  妇女#NN  产后#NN  、#PU  老年人#NN  、#PU  婴幼儿#NN  消化力#NN  减#VV  弱者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 消化力#NN, 适宜#VV)  (det, 久病#NN, 一切#DT)  (relcl, 人#NN, 体#VV)  (advmod, 体#VV, 虚#AD)  (mark, 体#VV, 之#DEC)  (conj, 久病#NN, 人#NN)  (assmod, 人#NN, 高热#NN)  (case, 高热#NN, 之#DEG)  (conj, 久病#NN, 人#NN)  (loc, 适宜#VV, 久病#NN)  (case, 久病#NN, 初#LC)  (advmod, 适宜#VV, 愈#AD)  (nn, 产后#NN, 妇女#NN)  (conj, 消化力#NN, 产后#NN)  (conj, 消化力#NN, 老年人#NN)  (nn, 消化力#NN, 婴幼儿#NN)  (nsubj, 减#VV, 消化力#NN)  (root, ROOT#null, 减#VV)  (dobj, 减#VV, 弱者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                343
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                7.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                77.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                121
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.36
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            粳米为禾本科草本植物稻（粳稻）的种子。又称大米、硬米。是稻米中谷粒较短圆、粘性较强、胀性小的品种。我国各地均有栽培。有早、中、晚三收。即在六七、八九或十月采收成熟果实，晒干，碾去皮壳用。稻米分糯米和粘米，粘米分粳米和籼米。粳米比较粗短，广东人称之“肥仔米”，煮的粥饭比较绵软，常见的东北米、珍珠米、江苏圆米都属于粳米。籼米比较修长苗条，煮的饭比较松爽，丝苗米、猫牙米、泰国香米都属此类。两广、福建多种籼稻，北方多种粳稻。
+        </rawdata>
+
+        <segment>
+            粳米  为  禾本科  草本  植物  稻  （  粳稻  ）  的  种子  。  又  称  大米  、  硬  米  。  是  稻米  中  谷粒  较  短  圆  、  粘性  较  强  、  胀性  小  的  品种  。  我国  各地  均  有  栽培  。  有  早  、  中  、  晚  三  收  。  即在  六七  、  八九  或  十月  采收  成熟  果实  ，  晒干  ，  碾  去  皮壳  用  。  稻米  分  糯米  和  粘米  ，  粘米分  粳米  和  籼米  。  粳米  比较  粗短  ，  广东人  称  之  “  肥仔米  ”  ，  煮  的  粥饭  比较  绵软  ，  常见  的  东北  米  、  珍珠米  、  江苏  圆  米  都  属于  粳米  。  籼米  比较  修长  苗条  ，  煮  的  饭  比较  松爽  ，  丝  苗  米  、  猫  牙  米  、  泰国  香米  都  属  此类  。  两  广  、  福建  多  种  籼稻  ，  北方  多  种  粳稻  。
+        </segment>
+
+        <pos>
+            粳米#NN  为#VC  禾本科#NN  草本#NN  植物#NN  稻#NN  （#PU  粳稻#NR  ）#PU  的#DEG  种子#NN    。#PU  又#AD  称#VV  大米#VA  、#PU  硬#VA  米#M    。#PU  是#VC  稻米#NN  中#LC  谷粒#NN  较#AD  短#VA  圆#VV  、#PU  粘性#NN  较#AD  强#VA  、#PU  胀性#AD  小#VA  的#DEC  品种#NN    。#PU  我国#NN  各地#NN  均#AD  有#VE  栽培#VV    。#PU  有#VE  早#JJ  、#PU  中#NR  、#PU  晚#NN  三#CD  收#VV    。#PU  即在#VV  六七#CD  、#PU  八九#CD  或#CC  十月#NT  采收#VV  成熟#VA  果实#NN  ，#PU  晒干#VV  ，#PU  碾#AD  去#VV  皮壳#NN  用#VV    。#PU  稻米#AD  分#VV  糯米#NN  和#CC  粘米#NN  ，#PU  粘米分#VV  粳米#NN  和#CC  籼米#NN    。#PU  粳米#NN  比较#AD  粗短#VA  ，#PU  广东人#NR  称#VV  之#PN  ``#VV  肥仔米#NN  ''#NN  ，#PU  煮#VV  的#DEC  粥饭#NN  比较#AD  绵软#VA  ，#PU  常见#VA  的#DEC  东北#NN  米#M  、#PU  珍珠米#NR  、#PU  江苏#NR  圆#VV  米#M  都#AD  属于#VV  粳米#NN    。#PU  籼米#NN  比较#AD  修长#VA  苗条#VA  ，#PU  煮#VV  的#DEC  饭#NN  比较#AD  松爽#VA  ，#PU  丝#NN  苗#CD  米#M  、#PU  猫#NN  牙#CD  米#M  、#PU  泰国#NR  香米#NN  都#AD  属#VV  此类#NN    。#PU  两#CD  广#VA  、#PU  福建#NR  多#CD  种#M  籼稻#NN  ，#PU  北方#NN  多#CD  种#M  粳稻#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 种子#NN, 粳米#NN)  (cop, 种子#NN, 为#VC)  (nn, 植物#NN, 禾本科#NN)  (nn, 植物#NN, 草本#NN)  (nn, 稻#NN, 植物#NN)  (assmod, 种子#NN, 稻#NN)  (prnmod, 稻#NN, 粳稻#NR)  (case, 稻#NN, 的#DEG)  (root, ROOT#null, 种子#NN)   (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 大米#VA)  (dep, 大米#VA, 硬#VA)  (dep, 硬#VA, 米#M)   (cop, 品种#NN, 是#VC)  (loc, 短#VA, 稻米#NN)  (case, 稻米#NN, 中#LC)  (nsubj, 短#VA, 谷粒#NN)  (advmod, 短#VA, 较#AD)  (relcl, 品种#NN, 短#VA)  (dep, 短#VA, 圆#VV)  (nsubj, 强#VA, 粘性#NN)  (advmod, 强#VA, 较#AD)  (conj, 短#VA, 强#VA)  (advmod, 小#VA, 胀性#AD)  (conj, 短#VA, 小#VA)  (mark, 短#VA, 的#DEC)  (root, ROOT#null, 品种#NN)   (nn, 各地#NN, 我国#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)   (root, ROOT#null, 有#VE)  (amod, 晚#NN, 早#JJ)  (conj, 晚#NN, 中#NR)  (dobj, 有#VE, 晚#NN)  (range, 有#VE, 三#CD)  (conj, 有#VE, 收#VV)   (root, ROOT#null, 即在#VV)  (dep, 八九#CD, 六七#CD)  (range, 即在#VV, 八九#CD)  (cc, 即在#VV, 或#CC)  (tmod, 采收#VV, 十月#NT)  (conj, 即在#VV, 采收#VV)  (nfincl, 果实#NN, 成熟#VA)  (dobj, 采收#VV, 果实#NN)  (dep, 即在#VV, 晒干#VV)  (advmod, 去#VV, 碾#AD)  (dep, 即在#VV, 去#VV)  (dobj, 去#VV, 皮壳#NN)  (conj, 去#VV, 用#VV)   (advmod, 分#VV, 稻米#AD)  (root, ROOT#null, 分#VV)  (conj, 粘米#NN, 糯米#NN)  (cc, 粘米#NN, 和#CC)  (dobj, 分#VV, 粘米#NN)  (dep, 分#VV, 粘米分#VV)  (conj, 籼米#NN, 粳米#NN)  (cc, 籼米#NN, 和#CC)  (dobj, 粘米分#VV, 籼米#NN)   (nsubj, 粗短#VA, 粳米#NN)  (advmod, 粗短#VA, 比较#AD)  (relcl, 东北#NN, 粗短#VA)  (nsubj, 称#VV, 广东人#NR)  (conj, 粗短#VA, 称#VV)  (dobj, 称#VV, 之#PN)  (dep, 称#VV, ``#VV)  (nn, ''#NN, 肥仔米#NN)  (dobj, ``#VV, ''#NN)  (relcl, 粥饭#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (nsubj, 绵软#VA, 粥饭#NN)  (advmod, 绵软#VA, 比较#AD)  (conj, 粗短#VA, 绵软#VA)  (conj, 粗短#VA, 常见#VA)  (mark, 粗短#VA, 的#DEC)  (nsubj, 圆#VV, 东北#NN)  (clf, 江苏#NR, 米#M)  (conj, 江苏#NR, 珍珠米#NR)  (loc, 圆#VV, 江苏#NR)  (root, ROOT#null, 圆#VV)  (clf, 粳米#NN, 米#M)  (advmod, 属于#VV, 都#AD)  (relcl, 粳米#NN, 属于#VV)  (dobj, 圆#VV, 粳米#NN)   (nsubj, 修长#VA, 籼米#NN)  (advmod, 修长#VA, 比较#AD)  (root, ROOT#null, 修长#VA)  (comod, 修长#VA, 苗条#VA)  (relcl, 饭#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (nsubj, 松爽#VA, 饭#NN)  (advmod, 松爽#VA, 比较#AD)  (ccomp, 修长#VA, 松爽#VA)  (nsubj, 米#M, 丝#NN)  (nummod, 米#M, 苗#CD)  (conj, 松爽#VA, 米#M)  (nsubj, 米#M, 猫#NN)  (nummod, 米#M, 牙#CD)  (conj, 松爽#VA, 米#M)  (nn, 香米#NN, 泰国#NR)  (nsubj, 属#VV, 香米#NN)  (advmod, 属#VV, 都#AD)  (conj, 松爽#VA, 属#VV)  (dobj, 属#VV, 此类#NN)   (nsubj, 广#VA, 两#CD)  (root, ROOT#null, 广#VA)  (nsubj, 籼稻#NN, 福建#NR)  (nummod, 种#M, 多#CD)  (clf, 籼稻#NN, 种#M)  (conj, 广#VA, 籼稻#NN)  (nsubj, 粳稻#VA, 北方#NN)  (nummod, 种#M, 多#CD)  (nsubj, 粳稻#VA, 种#M)  (dep, 广#VA, 粳稻#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平。能益脾胃，除烦渴。用于呕吐、泻痢或温热病所致的脾胃阴伤、胃气不足，口干渴等。
+            1.润肠通便
+            粳米米糠层的粗纤维分子，有助胃肠蠕动，对胃病、便秘、痔疮等疗效很好。
+            2.提高免疫力
+            粳米能提高人体免疫功能，促进血液循环，从而减少高血压。
+            3.养胃
+            中和胃酸，缓解胃痛。
+            4.活血祛瘀
+            促进人体气血运行，宜于治疗血瘀证。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  。  能  益  脾胃  ，  除  烦渴  。  用于  呕吐  、  泻痢  或  温热病  所致  的  脾胃  阴伤  、  胃  气  不足  ，  口  干渴  等  。
+            润肠  通便
+            粳米  米糠  层  的  粗  纤维  分子  ，  有助  胃肠  蠕动  ，  对  胃病  、  便秘  、  痔疮  等  疗效  很  好  。
+            提高  免疫力
+            粳米  能  提高  人体  免疫  功能  ，  促进  血液  循环  ，  从而  减少  高血压  。
+            养  胃
+            中和  胃酸  ，  缓解  胃痛  。
+            活血  祛瘀
+            促进  人体  气血  运行  ，  宜于  治疗  血瘀证  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV    。#PU  能#VV  益#VV  脾胃#NN  ，#PU  除#P  烦渴#NN    。#PU  用于#VV  呕吐#NR  、#PU  泻痢#NR  或#CC  温热病#NR  所致#NN  的#DEG  脾胃#NN  阴伤#NN  、#PU  胃#NN  气#NN  不足#NN  ，#PU  口#NN  干渴#NN  等#ETC    。#PU    。#PU
+            润肠#NN  通便#VV
+            粳米#VV  米糠#CD  层#M  的#DEG  粗#JJ  纤维#NN  分子#NN  ，#PU  有助#VV  胃肠#NN  蠕动#NN  ，#PU  对#P  胃病#NR  、#PU  便秘#NR  、#PU  痔疮#NR  等#ETC  疗效#NN  很#AD  好#VA  。#PU
+            提高#VV  免疫力#NN
+            粳米#NN  能#VV  提高#VV  人体#NN  免疫#NN  功能#NN  ，#PU  促进#VV  血液#NN  循环#NN  ，#PU  从而#AD  减少#VV  高血压#NN  。#PU
+            养#VV  胃#NN
+            中和#NR  胃酸#VV  ，#PU  缓解#VV  胃痛#NN  。#PU
+            活血#NN  祛瘀#VV
+            促进#VV  人体#NN  气血#NN  运行#NN  ，#PU  宜于#AD  治疗#VV  血瘀证#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性平#VV)   (mmod, 益#VV, 能#VV)  (root, ROOT#null, 益#VV)  (dobj, 益#VV, 脾胃#NN)  (case, 烦渴#NN, 除#P)  (dep, 益#VV, 烦渴#NN)   (root, ROOT#null, 用于#VV)  (conj, 温热病#NR, 呕吐#NR)  (conj, 温热病#NR, 泻痢#NR)  (cc, 温热病#NR, 或#CC)  (nn, 所致#NN, 温热病#NR)  (assmod, 阴伤#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 阴伤#NN, 脾胃#NN)  (conj, 干渴#NN, 阴伤#NN)  (nn, 不足#NN, 胃#NN)  (nn, 不足#NN, 气#NN)  (dep, 干渴#NN, 不足#NN)  (nn, 干渴#NN, 口#NN)  (dobj, 用于#VV, 干渴#NN)  (etc, 干渴#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nsubj, 通便#VV, 润肠#NN)  (root, ROOT#null, 通便#VV)
+            (root, ROOT#null, 粳米#VV)  (nummod, 层#M, 米糠#CD)  (assmod, 分子#NN, 层#M)  (case, 层#M, 的#DEG)  (amod, 分子#NN, 粗#JJ)  (nn, 分子#NN, 纤维#NN)  (dobj, 粳米#VV, 分子#NN)  (conj, 粳米#VV, 有助#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 有助#VV, 蠕动#NN)  (case, 疗效#NN, 对#P)  (conj, 痔疮#NR, 胃病#NR)  (conj, 痔疮#NR, 便秘#NR)  (nn, 疗效#NN, 痔疮#NR)  (etc, 痔疮#NR, 等#ETC)  (prep, 好#VA, 疗效#NN)  (advmod, 好#VA, 很#AD)  (conj, 粳米#VV, 好#VA)
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (nsubj, 提高#VV, 粳米#NN)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nn, 功能#NN, 人体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)  (conj, 提高#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (advmod, 减少#VV, 从而#AD)  (conj, 提高#VV, 减少#VV)  (dobj, 减少#VV, 高血压#NN)
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 胃#NN)
+            (nsubj, 胃酸#VV, 中和#NR)  (root, ROOT#null, 胃酸#VV)  (ccomp, 胃酸#VV, 缓解#VV)  (dobj, 缓解#VV, 胃痛#NN)
+            (nsubj, 祛瘀#VV, 活血#NN)  (root, ROOT#null, 祛瘀#VV)
+            (root, ROOT#null, 促进#VV)  (nn, 运行#NN, 人体#NN)  (nn, 运行#NN, 气血#NN)  (dobj, 促进#VV, 运行#NN)  (advmod, 治疗#VV, 宜于#AD)  (conj, 促进#VV, 治疗#VV)  (dobj, 治疗#VV, 血瘀证#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        通便  抗过敏  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            米中的蛋白质主要是米精蛋白，氨基酸的组成比较完全，人体容易消化吸收，但赖氨酸含量较少；还含有脂肪、钙、磷、铁及B族维生素等多种营养成分。米中各种营养素含量虽不是很高，但因其食用量大，也具有很好的营养功效，是补充营养素的基础食物。
+            1.粳米米糠层的粗纤维分子，有助胃肠蠕动，对胃病、便秘、痔疮等疗效很好。
+            2.粳米能提高人体免疫功能，促进血液循环，从而减少高血压的机会。
+            3.粳米能预防糖尿病、脚气病、老年斑和便秘等疾病。
+            4.粳米中的蛋白质、脂肪、维生素含量都比较多，多吃能降低胆固醇，减少心脏病发作和中风的几率。
+            5.粳米可防过敏性疾病，因粳米所供养的红细胞生命力强，又无异体蛋白进入血流，故能防止一些过敏性皮肤病的发生。
+        </rawdata>
+
+        <segment>
+            米  中  的  蛋白质  主要  是  米  精蛋白  ，  氨基酸  的  组成  比较  完全  ，  人体  容易  消化  吸收  ，  但  赖氨酸  含量  较少  ；  还  含有  脂肪  、  钙  、  磷  、  铁  及  B  族  维生素  等  多  种  营养  成分  。  米  中  各  种  营养素  含量  虽  不  是  很  高  ，  但  因  其  食用量  大  ，  也  具有  很  好  的  营养  功效  ，  是  补充  营养素  的  基础  食物  。
+            粳米  米糠  层  的  粗  纤维  分子  ，  有助  胃肠  蠕动  ，  对  胃病  、  便秘  、  痔疮  等  疗效  很  好  。
+            粳米  能  提高  人体  免疫  功能  ，  促进  血液  循环  ，  从而  减少  高血压  的  机会  。
+            粳米  能  预防  糖尿病  、  脚气病  、  老年斑  和  便秘  等  疾病  。
+            粳米  中  的  蛋白质  、  脂肪  、  维生素  含量  都  比较  多  ，  多  吃  能  降低  胆固醇  ，  减少  心脏病  发作  和  中风  的  几率  。
+            粳米  可防  过敏性  疾病  ，  因  粳米  所  供养  的  红  细胞  生命  力强  ，  又  无  异体  蛋白  进入  血流  ，  故  能  防止  一些  过敏性  皮肤病  的  发生  。
+        </segment>
+
+        <pos>
+            米#M  中#NR  的#DEG  蛋白质#NN  主要#AD  是#VC  米#M  精蛋白#NN  ，#PU  氨基酸#NR  的#DEG  组成#NN  比较#AD  完全#AD  ，#PU  人体#VV  容易#VA  消化#NN  吸收#VV  ，#PU  但#AD  赖氨酸#NN  含量#NN  较少#NN  ；#PU  还#AD  含有#VV  脂肪#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  及#CC  B#NN  族#NN  维生素#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN    。#PU  米#M  中#NR  各#DT  种#M  营养素#NN  含量#NN  虽#CS  不#AD  是#VC  很#AD  高#VA  ，#PU  但#AD  因#P  其#PN  食用量#AD  大#VA  ，#PU  也#AD  具有#VV  很#AD  好#VA  的#DEC  营养#VA  功效#NN  ，#PU  是#VC  补充#NN  营养素#NN  的#DEC  基础#NN  食物#NN    。#PU    。#PU
+            粳米#VV  米糠#CD  层#M  的#DEG  粗#JJ  纤维#NN  分子#NN  ，#PU  有助#VV  胃肠#NN  蠕动#NN  ，#PU  对#P  胃病#NR  、#PU  便秘#NR  、#PU  痔疮#NR  等#ETC  疗效#NN  很#AD  好#VA  。#PU
+            粳米#NN  能#VV  提高#VV  人体#VV  免疫#NN  功能#NN  ，#PU  促进#VV  血液#NN  循环#NN  ，#PU  从而#AD  减少#VV  高血压#NN  的#DEC  机会#NN  。#PU
+            粳米#NN  能#VV  预防#VV  糖尿病#NN  、#PU  脚气病#NN  、#PU  老年斑#NN  和#CC  便秘#NN  等#ETC  疾病#NN  。#PU
+            粳米#NN  中#LC  的#DEG  蛋白质#NN  、#PU  脂肪#NN  、#PU  维生素#NN  含量#NN  都#AD  比较#AD  多#VA  ，#PU  多#AD  吃#VV  能#VV  降低#VV  胆固醇#NN  ，#PU  减少#VV  心脏病#NN  发作#VV  和#CC  中风#NN  的#DEC  几率#NN  。#PU
+            粳米#NN  可防#NN  过敏性#NN  疾病#NN  ，#PU  因#P  粳米#VV  所#MSP  供养#VV  的#DEC  红#JJ  细胞#NN  生命#NN  力强#NN  ，#PU  又#AD  无#VE  异体#NN  蛋白#NN  进入#VV  血流#NN  ，#PU  故#AD  能#VV  防止#VV  一些#CD  过敏性#NN  皮肤病#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (clf, 蛋白质#NN, 米#M)  (assmod, 蛋白质#NN, 中#NR)  (case, 中#NR, 的#DEG)  (nsubj, 精蛋白#NN, 蛋白质#NN)  (advmod, 精蛋白#NN, 主要#AD)  (cop, 精蛋白#NN, 是#VC)  (dep, 精蛋白#NN, 米#M)  (dep, 含有#VV, 精蛋白#NN)  (assmod, 组成#NN, 氨基酸#NR)  (case, 氨基酸#NR, 的#DEG)  (nsubj, 人体#VV, 组成#NN)  (advmod, 人体#VV, 比较#AD)  (advmod, 人体#VV, 完全#AD)  (relcl, 消化#NN, 人体#VV)  (ccomp, 人体#VV, 容易#VA)  (nsubj, 吸收#VV, 消化#NN)  (conj, 精蛋白#NN, 吸收#VV)  (advmod, 含有#VV, 但#AD)  (nn, 较少#NN, 赖氨酸#NN)  (nn, 较少#NN, 含量#NN)  (nsubj, 含有#VV, 较少#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (cc, 维生素#NN, 及#CC)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)   (dep, 营养素#NN, 米#M)  (nn, 营养素#NN, 中#NR)  (det, 营养素#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 含量#NN, 营养素#NN)  (nsubj, 食物#NN, 含量#NN)  (advmod, 食物#NN, 虽#CS)  (neg, 食物#NN, 不#AD)  (cop, 食物#NN, 是#VC)  (advmod, 高#VA, 很#AD)  (relcl, 食物#NN, 高#VA)  (advmod, 具有#VV, 但#AD)  (case, 大#VA, 因#P)  (nsubj, 大#VA, 其#PN)  (advmod, 大#VA, 食用量#AD)  (prep, 具有#VV, 大#VA)  (advmod, 具有#VV, 也#AD)  (conj, 高#VA, 具有#VV)  (advmod, 好#VA, 很#AD)  (relcl, 功效#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nfincl, 功效#NN, 营养#VA)  (dobj, 具有#VV, 功效#NN)  (cop, 营养素#NN, 是#VC)  (nn, 营养素#NN, 补充#NN)  (dep, 高#VA, 营养素#NN)  (mark, 高#VA, 的#DEC)  (nn, 食物#NN, 基础#NN)  (root, ROOT#null, 食物#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 粳米#VV)  (nummod, 层#M, 米糠#CD)  (assmod, 分子#NN, 层#M)  (case, 层#M, 的#DEG)  (amod, 分子#NN, 粗#JJ)  (nn, 分子#NN, 纤维#NN)  (dobj, 粳米#VV, 分子#NN)  (conj, 粳米#VV, 有助#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 有助#VV, 蠕动#NN)  (case, 疗效#NN, 对#P)  (conj, 痔疮#NR, 胃病#NR)  (conj, 痔疮#NR, 便秘#NR)  (nn, 疗效#NN, 痔疮#NR)  (etc, 痔疮#NR, 等#ETC)  (prep, 好#VA, 疗效#NN)  (advmod, 好#VA, 很#AD)  (conj, 粳米#VV, 好#VA)
+            (nsubj, 提高#VV, 粳米#NN)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (relcl, 机会#NN, 人体#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 人体#VV, 功能#NN)  (conj, 人体#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (advmod, 减少#VV, 从而#AD)  (conj, 人体#VV, 减少#VV)  (dobj, 减少#VV, 高血压#NN)  (mark, 人体#VV, 的#DEC)  (dobj, 提高#VV, 机会#NN)
+            (nsubj, 预防#VV, 粳米#NN)  (mmod, 预防#VV, 能#VV)  (root, ROOT#null, 预防#VV)  (conj, 便秘#NN, 糖尿病#NN)  (conj, 便秘#NN, 脚气病#NN)  (conj, 便秘#NN, 老年斑#NN)  (cc, 便秘#NN, 和#CC)  (nn, 疾病#NN, 便秘#NN)  (etc, 便秘#NN, 等#ETC)  (dobj, 预防#VV, 疾病#NN)
+            (assmod, 含量#NN, 粳米#NN)  (case, 粳米#NN, 中#LC)  (case, 粳米#NN, 的#DEG)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (nn, 含量#NN, 维生素#NN)  (xsubj, 多#VA, 含量#NN)  (nsubj, 吃#VV, 含量#NN)  (advmod, 吃#VV, 都#AD)  (advmod, 多#VA, 比较#AD)  (conj, 吃#VV, 多#VA)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (mmod, 降低#VV, 能#VV)  (relcl, 几率#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 减少#VV)  (nsubj, 发作#VV, 心脏病#NN)  (dep, 减少#VV, 发作#VV)  (cc, 发作#VV, 和#CC)  (dep, 发作#VV, 中风#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 吃#VV, 几率#NN)
+            (nn, 疾病#NN, 粳米#NN)  (nn, 疾病#NN, 可防#NN)  (nn, 疾病#NN, 过敏性#NN)  (nsubj, 无#VE, 疾病#NN)  (case, 粳米#VV, 因#P)  (prep, 无#VE, 粳米#VV)  (prtmod, 供养#VV, 所#MSP)  (relcl, 力强#NN, 供养#VV)  (mark, 供养#VV, 的#DEC)  (amod, 力强#NN, 红#JJ)  (nn, 力强#NN, 细胞#NN)  (nn, 力强#NN, 生命#NN)  (dobj, 粳米#VV, 力强#NN)  (advmod, 无#VE, 又#AD)  (root, ROOT#null, 无#VE)  (nn, 蛋白#NN, 异体#NN)  (nsubj, 进入#VV, 蛋白#NN)  (dep, 无#VE, 进入#VV)  (dobj, 进入#VV, 血流#NN)  (advmod, 防止#VV, 故#AD)  (mmod, 防止#VV, 能#VV)  (dep, 无#VE, 防止#VV)  (nummod, 皮肤病#NN, 一些#CD)  (nn, 皮肤病#NN, 过敏性#NN)  (assmod, 发生#NN, 皮肤病#NN)  (case, 皮肤病#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.粳米做成粥更易于消化吸收，但制作米粥时千万不要放碱，因为米是人体维生素B1的重要来源，碱能破坏米中的维生素B1，会导致B1缺乏，出现“脚气病”。
+            2.制作米饭时一定要“蒸”，不要“捞”，因为捞饭会损失掉大量维生素。
+        </rawdata>
+
+        <segment>
+            粳米  做成  粥更  易于  消化  吸收  ，  但  制作  米粥  时  千万  不  要  放  碱  ，  因为  米  是  人体  维生素B1  的  重要  来源  ，  碱  能  破坏  米  中  的  维生素B1  ，  会  导致  B1  缺乏  ，  出现  “  脚气病  ”  。
+            制作  米饭  时  一定  要  “  蒸  ”  ，  不  要  “  捞  ”  ，  因为  捞饭  会  损失  掉  大量  维生素  。
+        </segment>
+
+        <pos>
+            粳米#NN  做成#NN  粥更#NN  易于#NN  消化#NN  吸收#VV  ，#PU  但#AD  制作#NN  米粥#NN  时#LC  千万#CD  不#AD  要#VV  放#VV  碱#NN  ，#PU  因为#P  米#M  是#VC  人体#VV  维生素B1#CD  的#DEC  重要#JJ  来源#NN  ，#PU  碱#AD  能#VV  破坏#VV  米#M  中#NR  的#DEG  维生素B1#CD  ，#PU  会#VV  导致#VV  B1#CD  缺乏#VV  ，#PU  出现#VV  ``#NN  脚气病#NN  ''#NN  。#PU
+            制作#VV  米饭#NN  时#LC  一定#AD  要#VV  ``#VV  蒸#NN  ''#NN  ，#PU  不#AD  要#VV  ``#VV  捞#NN  ''#NN  ，#PU  因为#P  捞饭#VV  会#NN  损失#NN  掉#VV  大量#CD  维生素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 消化#NN, 粳米#NN)  (nn, 消化#NN, 做成#NN)  (nn, 消化#NN, 粥更#NN)  (nn, 消化#NN, 易于#NN)  (nsubj, 吸收#VV, 消化#NN)  (xsubj, 放#VV, 消化#NN)  (root, ROOT#null, 吸收#VV)  (advmod, 千万#CD, 但#AD)  (nn, 米粥#NN, 制作#NN)  (loc, 千万#CD, 米粥#NN)  (case, 米粥#NN, 时#LC)  (dep, 放#VV, 千万#CD)  (neg, 放#VV, 不#AD)  (mmod, 放#VV, 要#VV)  (ccomp, 吸收#VV, 放#VV)  (dobj, 放#VV, 碱#NN)  (case, 破坏#VV, 因为#P)  (clf, 来源#NN, 米#M)  (conj, 人体#VV, 是#VC)  (cop, 人体#VV, 是#VC)  (relcl, 来源#NN, 人体#VV)  (range, 人体#VV, 维生素B1#CD)  (mark, 人体#VV, 的#DEC)  (amod, 来源#NN, 重要#JJ)  (dep, 破坏#VV, 来源#NN)  (advmod, 破坏#VV, 碱#AD)  (mmod, 破坏#VV, 能#VV)  (prep, 缺乏#VV, 破坏#VV)  (clf, 中#NR, 米#M)  (assmod, 维生素B1#CD, 中#NR)  (case, 中#NR, 的#DEG)  (range, 破坏#VV, 维生素B1#CD)  (mmod, 导致#VV, 会#VV)  (conj, 破坏#VV, 导致#VV)  (range, 导致#VV, B1#CD)  (conj, 放#VV, 缺乏#VV)  (dep, 放#VV, 出现#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 脚气病#NN)  (dobj, 出现#VV, ''#NN)
+            (loc, ``#VV, 制作#VV)  (dobj, 制作#VV, 米饭#NN)  (case, 制作#VV, 时#LC)  (advmod, ``#VV, 一定#AD)  (mmod, ``#VV, 要#VV)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 蒸#NN)  (dobj, ``#VV, ''#NN)  (neg, ``#VV, 不#AD)  (mmod, ``#VV, 要#VV)  (conj, ``#VV, ``#VV)  (nn, ''#NN, 捞#NN)  (dobj, ``#VV, ''#NN)  (case, 捞饭#VV, 因为#P)  (prep, 掉#VV, 捞饭#VV)  (nn, 损失#NN, 会#NN)  (dobj, 捞饭#VV, 损失#NN)  (conj, ``#VV, 掉#VV)  (nummod, 维生素#NN, 大量#CD)  (dobj, 掉#VV, 维生素#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/0914244312.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

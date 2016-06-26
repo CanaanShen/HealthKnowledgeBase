@@ -1,0 +1,342 @@
+<content>
+
+    <id>
+        216
+    </id>
+
+    <foodname>
+        冬笋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+
+    </alias>
+
+    <season>
+        冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾炎患者忌食
+        </rawdata>
+
+        <segment>
+            肾炎  患者  忌食
+        </segment>
+
+        <pos>
+            肾炎#NN  患者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (nn, 忌食#NN, 肾炎#NN)  (nn, 忌食#NN, 患者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                80
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                88.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            冬笋是立秋前后由毛竹（楠竹）的地下茎（竹鞭）侧芽发育而成的笋芽，因尚末出土，笋质幼嫩，是一道人们十分喜欢吃的菜肴。采挖冬笋影响竹子繁殖，但合理采挖也可以增加经济收入。
+        </rawdata>
+
+        <segment>
+            冬笋  是  立秋  前后  由  毛竹  （  楠竹  ）  的  地下茎  （  竹鞭  ）  侧芽  发育  而  成  的  笋芽  ，  因尚  末  出土  ，  笋质  幼嫩  ，  是  一  道  人们  十分  喜欢  吃  的  菜肴  。  采挖  冬笋  影响  竹子  繁殖  ，  但  合理  采挖  也  可以  增加  经济  收入  。
+        </segment>
+
+        <pos>
+            冬笋#NN  是#VC  立秋#NN  前后#LC  由#P  毛竹#NN  （#PU  楠竹#NR  ）#PU  的#DEG  地下茎#NN  （#PU  竹鞭#NN  ）#PU  侧芽#AD  发育#VV  而#MSP  成#VV  的#DEC  笋芽#NN  ，#PU  因尚#NN  末#LC  出土#VV  ，#PU  笋质#VV  幼嫩#NN  ，#PU  是#VC  一#CD  道#VV  人们#NN  十分#AD  喜欢#VV  吃#VV  的#DEC  菜肴#NN    。#PU  采挖#VV  冬笋#JJ  影响#NN  竹子#NN  繁殖#NN  ，#PU  但#AD  合理#AD  采挖#VV  也#AD  可以#VV  增加#VV  经济#NN  收入#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 菜肴#NN, 冬笋#NN)  (cop, 菜肴#NN, 是#VC)  (loc, 发育#VV, 立秋#NN)  (case, 立秋#NN, 前后#LC)  (case, 竹鞭#NN, 由#P)  (assmod, 竹鞭#NN, 毛竹#NN)  (prnmod, 毛竹#NN, 楠竹#NR)  (case, 毛竹#NN, 的#DEG)  (dep, 竹鞭#NN, 地下茎#NN)  (prep, 发育#VV, 竹鞭#NN)  (advmod, 发育#VV, 侧芽#AD)  (relcl, 菜肴#NN, 发育#VV)  (prtmod, 成#VV, 而#MSP)  (relcl, 笋芽#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (dobj, 发育#VV, 笋芽#NN)  (loc, 出土#VV, 因尚#NN)  (case, 因尚#NN, 末#LC)  (conj, 发育#VV, 出土#VV)  (conj, 发育#VV, 笋质#VV)  (dobj, 笋质#VV, 幼嫩#NN)  (conj, 发育#VV, 是#VC)  (dep, 是#VC, 一#CD)  (conj, 发育#VV, 道#VV)  (dobj, 道#VV, 人们#NN)  (advmod, 喜欢#VV, 十分#AD)  (dep, 道#VV, 喜欢#VV)  (ccomp, 喜欢#VV, 吃#VV)  (mark, 发育#VV, 的#DEC)  (root, ROOT#null, 菜肴#NN)   (root, ROOT#null, 采挖#VV)  (amod, 影响#NN, 冬笋#JJ)  (dobj, 采挖#VV, 影响#NN)  (nn, 繁殖#NN, 竹子#NN)  (nsubj, 增加#VV, 繁殖#NN)  (advmod, 增加#VV, 但#AD)  (advmod, 增加#VV, 合理#AD)  (mmod, 增加#VV, 采挖#VV)  (advmod, 增加#VV, 也#AD)  (mmod, 增加#VV, 可以#VV)  (dep, 采挖#VV, 增加#VV)  (nn, 收入#NN, 经济#NN)  (dobj, 增加#VV, 收入#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.止血凉血
+            冬笋含有大量胶质，生成血小板，有止血功效。
+            2.通便
+            具有润滑肠道的功效，达到刺激排便的作用。
+            3.养肝
+            冬笋富含维生素，保护肝细胞和防止毒素对肝细胞的损害。
+            4.消食
+            冬笋有助于胃酸的分泌和食物的消化，宜于治疗饮食积滞证。
+            5.健脾
+            适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。
+            6.清热解毒
+            冬笋具有清热化痰、解渴除烦、清热益气、利隔爽胃、利尿通便、解毒透疹、养肝明目、消食的功效，还可开胃健脾，宽肠利膈，通肠排便，开膈豁痰，消油腻，解酒毒;主治食欲不振、胃口不开、脘痞胸闷、大便秘结、痰涎壅滞、形体肥胖、酒醉恶心等病症。
+        </rawdata>
+
+        <segment>
+            止血  凉  血
+            冬笋  含有  大量  胶质  ，  生成  血小板  ，  有  止血  功效  。
+            通便
+            具有  润滑  肠道  的  功效  ，  达到  刺激  排便  的  作用  。
+            养肝
+            冬笋  富含  维生素  ，  保护  肝细胞  和  防止  毒素  对  肝细胞  的  损害  。
+            消食
+            冬笋  有助于  胃酸  的  分泌  和  食物  的  消化  ，  宜于  治疗  饮食  积  滞证  。
+            健脾
+            适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏  力等症  。
+            清热  解毒
+            冬笋  具有  清热  化痰  、  解渴  除  烦  、  清热  益气  、  利隔  爽胃  、  利尿  通便  、  解毒  透疹  、  养肝  明目  、  消食  的  功效  ，  还  可  开胃  健脾  ，  宽  肠  利膈  ，  通肠  排便  ，  开膈豁痰  ，  消  油腻  ，  解  酒毒  ;  主治  食欲  不振  、  胃口  不  开  、  脘痞  胸闷  、  大便  秘结  、  痰涎壅滞  、  形体  肥胖  、  酒醉  恶心  等  病症  。
+        </segment>
+
+        <pos>
+            止血#NN  凉#VV  血#NN
+            冬笋#NN  含有#VV  大量#CD  胶质#NN  ，#PU  生成#VV  血小板#NN  ，#PU  有#VE  止血#NN  功效#NN  。#PU
+            通便#VV
+            具有#VV  润滑#NN  肠道#NN  的#DEG  功效#NN  ，#PU  达到#VV  刺激#VV  排便#NN  的#DEC  作用#NN  。#PU
+            养肝#VV
+            冬笋#NN  富含#VV  维生素#NN  ，#PU  保护#VV  肝细胞#NN  和#CC  防止#VV  毒素#VV  对#P  肝细胞#NN  的#DEG  损害#NN  。#PU
+            消食#VV
+            冬笋#AD  有助于#VV  胃酸#NN  的#DEG  分泌#NN  和#CC  食物#NN  的#DEC  消化#NN  ，#PU  宜于#NN  治疗#NN  饮食#NN  积#VV  滞证#NN  。#PU
+            健脾#VV
+            适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEG  脘腹#NN  胀满#NN  ，#PU  大便#VV  溏泄#NN  ，#PU  食欲不振#VV  ，#PU  肢#VV  倦乏#NN  力等症#NN  。#PU
+            清热#NN  解毒#VV
+            冬笋#NR  具有#VV  清热#NN  化痰#NN  、#PU  解渴#VV  除#P  烦#VA  、#PU  清热#VA  益气#VA  、#PU  利隔#VA  爽胃#VA  、#PU  利尿#VA  通便#VA  、#PU  解毒#VA  透疹#VA  、#PU  养肝#VA  明目#VA  、#PU  消食#VA  的#DEC  功效#NN  ，#PU  还#AD  可#VV  开胃#NN  健脾#NN  ，#PU  宽#VA  肠#VA  利膈#NN  ，#PU  通肠#VV  排便#NN  ，#PU  开膈豁痰#VV  ，#PU  消#VV  油腻#NN  ，#PU  解#VV  酒毒#NN  ;#NN  主治#NN  食欲#AD  不振#VV  、#PU  胃口#NN  不#AD  开#VV  、#PU  脘痞#NN  胸闷#NN  、#PU  大便#NN  秘结#NN  、#PU  痰涎壅滞#NN  、#PU  形体#NN  肥胖#NN  、#PU  酒醉#NN  恶心#NN  等#ETC  病症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 凉#VV, 止血#NN)  (root, ROOT#null, 凉#VV)  (dobj, 凉#VV, 血#NN)
+            (nsubj, 含有#VV, 冬笋#NN)  (root, ROOT#null, 含有#VV)  (nummod, 胶质#NN, 大量#CD)  (dobj, 含有#VV, 胶质#NN)  (conj, 含有#VV, 生成#VV)  (dobj, 生成#VV, 血小板#NN)  (conj, 含有#VV, 有#VE)  (nn, 功效#NN, 止血#NN)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 通便#VV)
+            (root, ROOT#null, 具有#VV)  (nn, 肠道#NN, 润滑#NN)  (assmod, 功效#NN, 肠道#NN)  (case, 肠道#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (conj, 具有#VV, 达到#VV)  (relcl, 作用#NN, 刺激#VV)  (dobj, 刺激#VV, 排便#NN)  (mark, 刺激#VV, 的#DEC)  (dobj, 达到#VV, 作用#NN)
+            (root, ROOT#null, 养肝#VV)
+            (nsubj, 富含#VV, 冬笋#NN)  (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 维生素#NN)  (conj, 富含#VV, 保护#VV)  (dobj, 保护#VV, 肝细胞#NN)  (cc, 保护#VV, 和#CC)  (conj, 保护#VV, 防止#VV)  (ccomp, 防止#VV, 毒素#VV)  (case, 肝细胞#NN, 对#P)  (assmod, 损害#NN, 肝细胞#NN)  (case, 肝细胞#NN, 的#DEG)  (dobj, 毒素#VV, 损害#NN)
+            (root, ROOT#null, 消食#VV)
+            (advmod, 有助于#VV, 冬笋#AD)  (relcl, 消化#NN, 有助于#VV)  (assmod, 食物#NN, 胃酸#NN)  (case, 胃酸#NN, 的#DEG)  (conj, 食物#NN, 分泌#NN)  (cc, 食物#NN, 和#CC)  (dobj, 有助于#VV, 食物#NN)  (mark, 有助于#VV, 的#DEC)  (nsubj, 积#VV, 消化#NN)  (nn, 饮食#NN, 宜于#NN)  (nn, 饮食#NN, 治疗#NN)  (nsubj, 积#VV, 饮食#NN)  (root, ROOT#null, 积#VV)  (dobj, 积#VV, 滞证#NN)
+            (root, ROOT#null, 健脾#VV)
+            (root, ROOT#null, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (assmod, 胀满#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 胀满#NN, 脘腹#NN)  (dobj, 运化#VV, 胀满#NN)  (conj, 适用于#VV, 大便#VV)  (dobj, 大便#VV, 溏泄#NN)  (conj, 适用于#VV, 食欲不振#VV)  (conj, 适用于#VV, 肢#VV)  (nn, 力等症#NN, 倦乏#NN)  (dobj, 肢#VV, 力等症#NN)
+            (nsubj, 解毒#VV, 清热#NN)  (root, ROOT#null, 解毒#VV)
+            (nsubj, 具有#VV, 冬笋#NR)  (root, ROOT#null, 具有#VV)  (nn, 化痰#NN, 清热#NN)  (dobj, 具有#VV, 化痰#NN)  (mmod, 可#VV, 解渴#VV)  (case, 功效#NN, 除#P)  (relcl, 功效#NN, 烦#VA)  (dep, 烦#VA, 清热#VA)  (conj, 烦#VA, 益气#VA)  (dep, 烦#VA, 利隔#VA)  (conj, 烦#VA, 爽胃#VA)  (dep, 烦#VA, 利尿#VA)  (conj, 烦#VA, 通便#VA)  (dep, 烦#VA, 解毒#VA)  (conj, 烦#VA, 透疹#VA)  (dep, 烦#VA, 养肝#VA)  (conj, 烦#VA, 明目#VA)  (dep, 烦#VA, 消食#VA)  (mark, 烦#VA, 的#DEC)  (prep, 可#VV, 功效#NN)  (advmod, 可#VV, 还#AD)  (conj, 具有#VV, 可#VV)  (nn, 健脾#NN, 开胃#NN)  (dobj, 可#VV, 健脾#NN)  (conj, 可#VV, 宽#VA)  (comod, 宽#VA, 肠#VA)  (dobj, 宽#VA, 利膈#NN)  (conj, 可#VV, 通肠#VV)  (dobj, 通肠#VV, 排便#NN)  (conj, 可#VV, 开膈豁痰#VV)  (conj, 可#VV, 消#VV)  (dobj, 消#VV, 油腻#NN)  (conj, 可#VV, 解#VV)  (nn, 主治#NN, 酒毒#NN)  (nn, 主治#NN, ;#NN)  (nsubj, 不振#VV, 主治#NN)  (advmod, 不振#VV, 食欲#AD)  (dep, 病症#NN, 不振#VV)  (nsubj, 开#VV, 胃口#NN)  (neg, 开#VV, 不#AD)  (conj, 不振#VV, 开#VV)  (nn, 胸闷#NN, 脘痞#NN)  (conj, 不振#VV, 胸闷#NN)  (nn, 秘结#NN, 大便#NN)  (conj, 不振#VV, 秘结#NN)  (conj, 不振#VV, 痰涎壅滞#NN)  (nn, 肥胖#NN, 形体#NN)  (conj, 不振#VV, 肥胖#NN)  (nn, 恶心#NN, 酒醉#NN)  (dep, 不振#VV, 恶心#NN)  (etc, 恶心#NN, 等#ETC)  (dobj, 解#VV, 病症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗癌防癌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            冬笋是一种富有营养价值并具有医药功能的美味食品，质嫩味鲜，清脆爽口，含有蛋白质和多种氨基酸、维生素、以及钙、磷、铁等微量元素以及丰富的纤维素，能促进肠道蠕动，既有助于消化，有能预防便秘和结肠癌的发生。冬笋是一种高蛋白、低淀粉食品，对肥胖症、冠心病、高血压、糖尿病和动脉硬化等患者有一定的食疗作用。它所含的多糖物质，还具有一定的抗癌作用。
+        </rawdata>
+
+        <segment>
+            冬笋  是  一  种  富有  营养  价值  并  具有  医药  功能  的  美味  食品  ，  质嫩  味鲜  ，  清脆  爽口  ，  含有  蛋白质  和  多种  氨基酸  、  维生素  、  以及  钙  、  磷  、  铁  等  微量  元素  以及  丰富  的  纤维素  ，  能  促进  肠道  蠕动  ，  既  有助于  消化  ，  有能  预防  便秘  和  结肠  癌的  发生  。  冬笋  是  一  种  高蛋白  、  低  淀粉  食品  ，  对  肥胖症  、  冠心病  、  高血压  、  糖尿病  和  动脉  硬化  等  患者  有  一定  的  食疗  作用  。  它  所含  的  多糖  物质  ，  还  具有  一定  的  抗癌  作用  。
+        </segment>
+
+        <pos>
+            冬笋#NR  是#VC  一#CD  种#M  富有#VV  营养#VA  价值#NN  并#CC  具有#VV  医药#NN  功能#NN  的#DEC  美味#NN  食品#NN  ，#PU  质嫩#VV  味鲜#NN  ，#PU  清脆#VV  爽口#NN  ，#PU  含有#VV  蛋白质#NN  和#CC  多种#NN  氨基酸#NN  、#PU  维生素#NN  、#PU  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  微量#NN  元素#NN  以及#CC  丰富#VA  的#DEC  纤维素#NN  ，#PU  能#VV  促进#VV  肠道#NN  蠕动#NN  ，#PU  既#CC  有助于#VV  消化#NN  ，#PU  有能#VV  预防#NN  便秘#NN  和#CC  结肠#NN  癌的#NN  发生#VV    。#PU  冬笋#AD  是#VC  一#CD  种#M  高蛋白#NN  、#PU  低#JJ  淀粉#NN  食品#NN  ，#PU  对#P  肥胖症#NN  、#PU  冠心病#NN  、#PU  高血压#NN  、#PU  糖尿病#NN  和#CC  动脉#NN  硬化#NN  等#ETC  患者#NN  有#VE  一定#JJ  的#DEG  食疗#JJ  作用#NN    。#PU  它#PN  所含#NN  的#DEG  多糖#NN  物质#NN  ，#PU  还#AD  具有#VV  一定#JJ  的#DEG  抗癌#JJ  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 冬笋#NR)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (relcl, 食品#NN, 富有#VV)  (rcomp, 富有#VV, 营养#VA)  (dobj, 富有#VV, 价值#NN)  (cc, 富有#VV, 并#CC)  (conj, 富有#VV, 具有#VV)  (nn, 功能#NN, 医药#NN)  (dobj, 具有#VV, 功能#NN)  (mark, 富有#VV, 的#DEC)  (nn, 食品#NN, 美味#NN)  (dep, 发生#VV, 食品#NN)  (conj, 食品#NN, 质嫩#VV)  (dobj, 质嫩#VV, 味鲜#NN)  (conj, 食品#NN, 清脆#VV)  (dobj, 清脆#VV, 爽口#NN)  (conj, 食品#NN, 含有#VV)  (conj, 多种#NN, 蛋白质#NN)  (cc, 多种#NN, 和#CC)  (nn, 元素#NN, 多种#NN)  (conj, 元素#NN, 氨基酸#NN)  (dep, 元素#NN, 维生素#NN)  (cc, 元素#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 元素#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (conj, 纤维素#NN, 元素#NN)  (cc, 纤维素#NN, 以及#CC)  (relcl, 纤维素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 纤维素#NN)  (mmod, 促进#VV, 能#VV)  (conj, 食品#NN, 促进#VV)  (nn, 蠕动#NN, 肠道#NN)  (dobj, 促进#VV, 蠕动#NN)  (cc, 食品#NN, 既#CC)  (conj, 食品#NN, 有助于#VV)  (dobj, 有助于#VV, 消化#NN)  (conj, 食品#NN, 有能#VV)  (nn, 癌的#NN, 预防#NN)  (conj, 癌的#NN, 便秘#NN)  (cc, 癌的#NN, 和#CC)  (nn, 癌的#NN, 结肠#NN)  (dobj, 有能#VV, 癌的#NN)  (root, ROOT#null, 发生#VV)   (advmod, 食品#NN, 冬笋#AD)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 高蛋白#NN, 种#M)  (conj, 食品#NN, 高蛋白#NN)  (amod, 淀粉#NN, 低#JJ)  (nn, 食品#NN, 淀粉#NN)  (root, ROOT#null, 食品#NN)  (case, 患者#NN, 对#P)  (conj, 硬化#NN, 肥胖症#NN)  (conj, 硬化#NN, 冠心病#NN)  (conj, 硬化#NN, 高血压#NN)  (conj, 硬化#NN, 糖尿病#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (prep, 有#VE, 患者#NN)  (dep, 食品#NN, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 食疗#JJ)  (dobj, 有#VE, 作用#NN)   (nsubj, 具有#VV, 它#PN)  (assmod, 物质#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 物质#NN, 多糖#NN)  (dep, 具有#VV, 物质#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 抗癌#JJ)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.因为冬笋含有草酸，容易和钙结合成草酸钙，所以吃前一定要拿淡盐水煮5—10分钟，去除大部分草酸和涩味。
+            2.做菜时要注意炒冬笋的时候油温不要太热了，否则不能使笋里熟外白。
+        </rawdata>
+
+        <segment>
+            因为  冬笋  含有  草酸  ，  容易  和  钙  结合  成  草酸  钙  ，  所以  吃  前  一定  要  拿  淡  盐水  煮  5  —  10  分钟  ，  去除  大部分  草酸  和  涩味  。
+            做菜  时  要  注意  炒  冬笋  的  时候  油温  不要  太  热  了  ，  否则  不  能  使笋  里  熟  外白  。
+        </segment>
+
+        <pos>
+            因为#P  冬笋#VV  含有#NN  草酸#NN  ，#PU  容易#VA  和#CC  钙#AD  结合#VV  成#VV  草酸#NN  钙#NN  ，#PU  所以#AD  吃#VV  前#LC  一定#AD  要#VV  拿#VV  淡#NN  盐水#NN  煮#VV  5#CD  --#NN  10#CD  分钟#M  ，#PU  去除#VV  大部分#CD  草酸#NN  和#CC  涩味#NN  。#PU
+            做菜#NN  时#LC  要#VV  注意#VV  炒#VV  冬笋#NN  的#DEC  时候#NN  油温#AD  不要#VV  太#AD  热#NN  了#AS  ，#PU  否则#AD  不#AD  能#VV  使笋#NN  里#LC  熟#JJ  外白#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 冬笋#VV, 因为#P)  (prep, 拿#VV, 冬笋#VV)  (nn, 草酸#NN, 含有#NN)  (dobj, 冬笋#VV, 草酸#NN)  (conj, 冬笋#VV, 容易#VA)  (cc, 冬笋#VV, 和#CC)  (advmod, 结合#VV, 钙#AD)  (conj, 冬笋#VV, 结合#VV)  (dep, 结合#VV, 成#VV)  (nn, 钙#NN, 草酸#NN)  (dobj, 成#VV, 钙#NN)  (advmod, 拿#VV, 所以#AD)  (loc, 拿#VV, 吃#VV)  (case, 吃#VV, 前#LC)  (advmod, 拿#VV, 一定#AD)  (mmod, 拿#VV, 要#VV)  (root, ROOT#null, 拿#VV)  (nn, 盐水#NN, 淡#NN)  (dobj, 拿#VV, 盐水#NN)  (conj, 拿#VV, 煮#VV)  (nummod, --#NN, 5#CD)  (nummod, 分钟#M, 10#CD)  (range, 煮#VV, 分钟#M)  (conj, 拿#VV, 去除#VV)  (nummod, 涩味#NN, 大部分#CD)  (conj, 涩味#NN, 草酸#NN)  (cc, 涩味#NN, 和#CC)  (dobj, 去除#VV, 涩味#NN)
+            (loc, 注意#VV, 做菜#NN)  (case, 做菜#NN, 时#LC)  (mmod, 注意#VV, 要#VV)  (root, ROOT#null, 注意#VV)  (relcl, 时候#NN, 炒#VV)  (dobj, 炒#VV, 冬笋#NN)  (mark, 炒#VV, 的#DEC)  (nsubj, 不要#VV, 时候#NN)  (advmod, 不要#VV, 油温#AD)  (ccomp, 注意#VV, 不要#VV)  (advmod, 不要#VV, 太#AD)  (dobj, 不要#VV, 热#NN)  (dep, 不要#VV, 了#AS)  (advmod, 能#VV, 否则#AD)  (neg, 能#VV, 不#AD)  (conj, 注意#VV, 能#VV)  (dep, 外白#NN, 使笋#NN)  (case, 使笋#NN, 里#LC)  (amod, 外白#NN, 熟#JJ)  (dobj, 能#VV, 外白#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101724525078.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,408 @@
+<content>
+
+    <id>
+        232
+    </id>
+
+    <foodname>
+        黄瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        胡瓜、王瓜、刺瓜
+    </alias>
+
+    <season>
+        5-9月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚弱、腹痛腹泻、肺寒咳嗽者；肝病、心血管病、肠胃病患者慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚弱  、  腹痛  腹泻  、  肺  寒  咳嗽者  ；  肝病  、  心血管病  、  肠胃病  患者  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#VV  虚弱#NN  、#PU  腹痛#NN  腹泻#NN  、#PU  肺#NN  寒#JJ  咳嗽者#NN  ；#PU  肝病#NN  、#PU  心血管病#NN  、#PU  肠胃病#NN  患者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾胃#VV)  (conj, 肺#NN, 虚弱#NN)  (nn, 肺#NN, 腹痛#NN)  (conj, 肺#NN, 腹泻#NN)  (nn, 咳嗽者#NN, 肺#NN)  (amod, 咳嗽者#NN, 寒#JJ)  (dobj, 脾胃#VV, 咳嗽者#NN)  (conj, 肠胃病#NN, 肝病#NN)  (conj, 肠胃病#NN, 心血管病#NN)  (nn, 患者#NN, 肠胃病#NN)  (nsubj, 慎食#VV, 患者#NN)  (dep, 脾胃#VV, 慎食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜热病患者、肥胖、高血压、高血脂、水肿、癌症、嗜酒者、糖尿病人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  热病  患者  、  肥胖  、  高  血压  、  高  血脂  、  水肿  、  癌症  、  嗜  酒者  、  糖尿病人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  热病#NN  患者#NN  、#PU  肥胖#NR  、#PU  高#JJ  血压#NN  、#PU  高#JJ  血脂#NN  、#PU  水肿#NR  、#PU  癌症#NN  、#PU  嗜#NN  酒者#NN  、#PU  糖尿病人#NR    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 患者#NN, 热病#NN)  (conj, 糖尿病人#NR, 患者#NN)  (conj, 糖尿病人#NR, 肥胖#NR)  (amod, 血压#NN, 高#JJ)  (conj, 糖尿病人#NR, 血压#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 糖尿病人#NR, 血脂#NN)  (conj, 糖尿病人#NR, 水肿#NR)  (conj, 糖尿病人#NR, 癌症#NN)  (nn, 酒者#NN, 嗜#NN)  (conj, 糖尿病人#NR, 酒者#NN)  (dobj, 适宜#VV, 糖尿病人#NR)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                102
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄瓜，也称胡瓜、青瓜，属葫芦科植物。广泛分布于中国各地，并且为主要的温室产品之一。黄瓜是由西汉时期张骞出使西域带回中原的，称为胡瓜，五胡十六国时后赵皇帝石勒忌讳“胡”字，汉臣襄国郡守樊坦将其改为“黄瓜”。黄瓜的茎上覆有毛，富含汁液，叶片的外观有3-5枚裂片，覆有绒毛。
+            黄瓜有3个品种群︰一类果很大，生长旺盛，但仅适应於温室或搭架栽培；一类果大，一般具白刺，室外栽培(主要用於刨片和腌制)；一类果小而带刺，产量高，包括户外栽培，主要用于腌制的西印度黄瓜。
+        </rawdata>
+
+        <segment>
+            黄瓜  ，  也  称  胡瓜  、  青瓜  ，  属  葫芦科  植物  。  广泛  分布  于  中国  各地  ，  并且  为  主要  的  温室  产品  之一  。  黄瓜  是  由  西汉  时期  张骞  出使  西域  带回  中原  的  ，  称为  胡瓜  ，  五  胡  十六  国  时  后赵  皇帝  石勒  忌讳  “  胡  ”  字  ，  汉臣  襄国  郡守  樊坦  将  其  改为  “  黄瓜  ”  。  黄瓜  的  茎上  覆有  毛  ，  富含  汁液  ，  叶片  的  外观  有  3-5  枚  裂片  ，  覆有  绒毛  。
+            黄瓜  有  3  个  品种群  ︰  一  类  果  很  大  ，  生长  旺盛  ，  但仅  适应  於  温室  或  搭架  栽培  ；  一  类  果大  ，  一般  具  白  刺  ，  室外  栽培  (  主要  用  於  刨片  和  腌制  )  ；  一  类  果  小而  带刺  ，  产量  高  ，  包括  户外  栽培  ，  主要  用于  腌制  的  西印度  黄瓜  。
+        </segment>
+
+        <pos>
+            黄瓜#VA  ，#PU  也#AD  称#VV  胡瓜#NN  、#PU  青瓜#NN  ，#PU  属#VV  葫芦科#NN  植物#NN    。#PU  广泛#AD  分布#VV  于#P  中国#NR  各地#NN  ，#PU  并且#CC  为#VV  主要#JJ  的#DEG  温室#NN  产品#NN  之一#NN    。#PU  黄瓜#NN  是#VC  由#P  西汉#NN  时期#NN  张骞#NN  出使#VV  西域#NN  带回#NN  中原#NN  的#DEC  ，#PU  称为#VV  胡瓜#NN  ，#PU  五#CD  胡#NN  十六#CD  国#NN  时#LC  后赵#NN  皇帝#NN  石勒#NN  忌讳#NN  ``#AD  胡#VV  ''#CD  字#M  ，#PU  汉臣#NN  襄国#NN  郡守#NN  樊坦#NN  将#BA  其#PN  改为#VV  ``#NN  黄瓜#NN  ''#NN    。#PU  黄瓜#NN  的#DEG  茎上#NN  覆有#NN  毛#NN  ，#PU  富含#NN  汁液#NN  ，#PU  叶片#NN  的#DEG  外观#NN  有#VE  3-5#CD  枚#M  裂片#NN  ，#PU  覆有#VV  绒毛#NN    。#PU    。#PU
+            黄瓜#AD  有#VE  3#CD  个#M  品种群#NN  一#CD  类#M  果#NN  很#AD  大#VA  ，#PU  生长#NN  旺盛#VA  ，#PU  但仅#NN  适应#VV  於#NN  温室#NN  或#CC  搭架#NN  栽培#VV  ；#PU  一#CD  类#M  果大#NN  ，#PU  一般#AD  具#VV  白#JJ  刺#NN  ，#PU  室外#NN  栽培#VV  -LRB-#NN  主要#AD  用#VV  於#NN  刨片#NN  和#CC  腌制#NN  -RRB-#NN  ；#PU  一#CD  类#M  果#NN  小而#NN  带刺#NN  ，#PU  产量#NN  高#VA  ，#PU  包括#VV  户外#AD  栽培#VV  ，#PU  主要#AD  用于#VV  腌制#NN  的#DEC  西印度#NN  黄瓜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄瓜#VA)  (advmod, 称#VV, 也#AD)  (conj, 黄瓜#VA, 称#VV)  (conj, 青瓜#NN, 胡瓜#NN)  (dobj, 称#VV, 青瓜#NN)  (dep, 黄瓜#VA, 属#VV)  (nn, 植物#NN, 葫芦科#NN)  (dobj, 属#VV, 植物#NN)   (advmod, 分布#VV, 广泛#AD)  (root, ROOT#null, 分布#VV)  (case, 各地#NN, 于#P)  (nn, 各地#NN, 中国#NR)  (prep, 分布#VV, 各地#NN)  (cc, 分布#VV, 并且#CC)  (dep, 分布#VV, 为#VV)  (assmod, 之一#NN, 主要#JJ)  (case, 主要#JJ, 的#DEG)  (nn, 之一#NN, 温室#NN)  (nn, 之一#NN, 产品#NN)  (dobj, 为#VV, 之一#NN)   (nsubj, 出使#VV, 黄瓜#NN)  (cop, 出使#VV, 是#VC)  (case, 张骞#NN, 由#P)  (nn, 张骞#NN, 西汉#NN)  (nn, 张骞#NN, 时期#NN)  (prep, 出使#VV, 张骞#NN)  (root, ROOT#null, 出使#VV)  (nn, 中原#NN, 西域#NN)  (nn, 中原#NN, 带回#NN)  (dobj, 出使#VV, 中原#NN)  (mark, 出使#VV, 的#DEC)  (conj, 出使#VV, 称为#VV)  (dobj, 称为#VV, 胡瓜#NN)  (nummod, 胡#NN, 五#CD)  (nn, 国#NN, 胡#NN)  (nummod, 国#NN, 十六#CD)  (loc, 胡#VV, 国#NN)  (case, 国#NN, 时#LC)  (nn, 石勒#NN, 后赵#NN)  (nn, 石勒#NN, 皇帝#NN)  (nn, 忌讳#NN, 石勒#NN)  (nsubj, 胡#VV, 忌讳#NN)  (advmod, 胡#VV, ``#AD)  (conj, 出使#VV, 胡#VV)  (nummod, 字#M, ''#CD)  (range, 胡#VV, 字#M)  (nn, 樊坦#NN, 汉臣#NN)  (nn, 樊坦#NN, 襄国#NN)  (nn, 樊坦#NN, 郡守#NN)  (nsubj, 改为#VV, 樊坦#NN)  (ba, 改为#VV, 将#BA)  (nsubj, 改为#VV, 其#PN)  (conj, 出使#VV, 改为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 黄瓜#NN)  (dobj, 改为#VV, ''#NN)   (assmod, 茎上#NN, 黄瓜#NN)  (case, 黄瓜#NN, 的#DEG)  (nsubj, 有#VE, 茎上#NN)  (nn, 毛#NN, 覆有#NN)  (nsubj, 有#VE, 毛#NN)  (nn, 汁液#NN, 富含#NN)  (nsubj, 有#VE, 汁液#NN)  (assmod, 外观#NN, 叶片#NN)  (case, 叶片#NN, 的#DEG)  (nsubj, 有#VE, 外观#NN)  (root, ROOT#null, 有#VE)  (nummod, 枚#M, 3-5#CD)  (clf, 裂片#NN, 枚#M)  (dobj, 有#VE, 裂片#NN)  (conj, 有#VE, 覆有#VV)  (dobj, 覆有#VV, 绒毛#NN)   (root, ROOT#null, null#null)
+            (advmod, 有#VE, 黄瓜#AD)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 3#CD)  (clf, 品种群#NN, 个#M)  (nn, 果#NN, 品种群#NN)  (nummod, 类#M, 一#CD)  (clf, 果#NN, 类#M)  (nsubj, 大#VA, 果#NN)  (advmod, 大#VA, 很#AD)  (dep, 有#VE, 大#VA)  (nsubj, 旺盛#VA, 生长#NN)  (conj, 大#VA, 旺盛#VA)  (nsubj, 适应#VV, 但仅#NN)  (conj, 大#VA, 适应#VV)  (nn, 搭架#NN, 於#NN)  (conj, 搭架#NN, 温室#NN)  (cc, 搭架#NN, 或#CC)  (dobj, 适应#VV, 搭架#NN)  (conj, 适应#VV, 栽培#VV)  (nummod, 类#M, 一#CD)  (clf, 果大#NN, 类#M)  (nsubj, 具#VV, 果大#NN)  (advmod, 具#VV, 一般#AD)  (conj, 大#VA, 具#VV)  (amod, 刺#NN, 白#JJ)  (dobj, 具#VV, 刺#NN)  (nsubj, 栽培#VV, 室外#NN)  (conj, 大#VA, 栽培#VV)  (advmod, 用#VV, 主要#AD)  (conj, 栽培#VV, 用#VV)  (nn, -RRB-#NN, 於#NN)  (conj, -RRB-#NN, 刨片#NN)  (cc, -RRB-#NN, 和#CC)  (nn, -RRB-#NN, 腌制#NN)  (nummod, 类#M, 一#CD)  (clf, 带刺#NN, 类#M)  (nn, 带刺#NN, 果#NN)  (nn, 带刺#NN, 小而#NN)  (nsubj, 高#VA, 带刺#NN)  (nsubj, 高#VA, 产量#NN)  (conj, 大#VA, 高#VA)  (dep, 有#VE, 包括#VV)  (advmod, 栽培#VV, 户外#AD)  (relcl, 黄瓜#NN, 栽培#VV)  (advmod, 用于#VV, 主要#AD)  (dep, 栽培#VV, 用于#VV)  (dobj, 用于#VV, 腌制#NN)  (mark, 栽培#VV, 的#DEC)  (nn, 黄瓜#NN, 西印度#NN)  (dobj, 包括#VV, 黄瓜#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性凉，味甘，有小毒；入肺、胃、大肠。清热利水，解毒消肿，生津止渴。主治身热烦渴，咽喉肿痛，风热眼疾，湿热黄疸，小便不利等病症。
+            1.抗肿瘤
+            黄瓜中含有的葫芦素C具有提高人体免疫功能的作用，达到抗肿瘤目的。此外，该物质还可治疗慢性肝炎和迁延性肝炎，对原发性肝癌患者有延长生存期作用。
+            2.抗衰老
+            黄瓜中含有丰富的维生素E，可起到延年益寿，抗衰老的作用；黄瓜中的黄瓜酶，有很强的生物活性，能有效地促进机体的新陈代谢。用黄瓜捣汁涂擦皮肤，有润肤，舒展皱纹功效。
+            3.防酒精中毒
+            黄瓜中所含的丙氨酸、精氨酸和谷胺酰胺对肝脏病人，特别是对酒精性肝硬化患者有一定辅助治疗作用，可防治酒精中毒。
+            4.降血糖
+            黄瓜中所含的葡萄糖甙、果糖等不参与通常的糖代谢，故糖尿病人以黄瓜代淀粉类食物充饥，血糖非但不会升高，甚至会降低。
+            5.减肥强体
+            黄瓜中所含的丙醇二酸，可抑制糖类物质转变为脂肪。此外，黄瓜中的纤维素对促进人体肠道内腐败物质的排除和降低胆固醇有一定作用，能强身健体。
+            6.健脑安神
+            黄瓜含有维生素B1，对改善大脑和神经系统功能有利，能安神定志，辅助治疗失眠症。
+        </rawdata>
+
+        <segment>
+            性凉  ，  味甘  ，  有小  毒  ；  入肺  、  胃  、  大肠  。  清热  利水  ，  解毒  消肿  ，  生津止渴  。  主治  身  热  烦渴  ，  咽喉  肿痛  ，  风  热  眼疾  ，  湿热  黄疸  ，  小便  不利  等  病症  。
+            抗  肿瘤
+            黄瓜  中  含有  的  葫芦素  C  具有  提高  人体  免疫  功能  的  作用  ，  达到  抗  肿瘤  目的  。  此外  ，  该  物质  还  可  治疗  慢性  肝炎  和  迁延性  肝炎  ，  对  原发性  肝癌  患者  有  延长  生存期  作用  。
+            抗  衰老
+            黄瓜  中  含有  丰富  的  维生素E  ，  可  起到  延年益寿  ，  抗  衰老  的  作用  ；  黄瓜  中  的  黄瓜酶  ，  有  很  强  的  生物  活性  ，  能  有效  地  促进  机体  的  新陈代谢  。  用  黄瓜  捣汁  涂擦  皮肤  ，  有  润肤  ，  舒展  皱纹  功效  。
+            防  酒精  中毒
+            黄瓜  中  所  含  的  丙氨酸  、  精氨酸  和  谷胺  酰胺  对  肝脏  病人  ，  特别是  对  酒精  性  肝硬化  患者  有  一定  辅助  治疗  作用  ，  可  防治  酒精  中毒  。
+            降  血糖
+            黄瓜  中  所  含  的  葡萄糖甙  、  果糖  等  不  参与  通常  的  糖  代谢  ，  故  糖尿病人  以  黄瓜  代  淀粉类  食物  充饥  ，  血糖  非但  不  会  升高  ，  甚至  会  降低  。
+            减肥  强体
+            黄瓜  中  所  含  的  丙醇  二酸  ，  可  抑制  糖类  物质  转变  为  脂肪  。  此外  ，  黄瓜  中  的  纤维素  对  促进  人体  肠道  内  腐败  物质  的  排除  和  降低  胆固醇  有  一定  作用  ，  能  强身  健体  。
+            健脑  安神
+            黄瓜  含有  维生素B1  ，  对  改善  大脑  和  神经  系统  功能  有利  ，  能  安神  定志  ，  辅助  治疗  失眠症  。
+        </segment>
+
+        <pos>
+            性凉#NR  ，#PU  味甘#VV  ，#PU  有小#NN  毒#VV  ；#PU  入肺#VA  、#PU  胃#VA  、#PU  大肠#VA    。#PU  清热#NR  利水#VV  ，#PU  解毒#NN  消肿#NN  ，#PU  生津止渴#VV    。#PU  主治#NN  身#NN  热#NN  烦渴#VV  ，#PU  咽喉#NN  肿痛#NN  ，#PU  风#NN  热#NN  眼疾#VV  ，#PU  湿热#VV  黄疸#NN  ，#PU  小便#AD  不利#VA  等#ETC  病症#VV    。#PU    。#PU
+            抗#VV  肿瘤#NN
+            黄瓜#NN  中#LC  含有#NN  的#DEG  葫芦素#NN  C#NN  具有#VV  提高#VV  人体#NN  免疫#NN  功能#NN  的#DEC  作用#NN  ，#PU  达到#VV  抗#NN  肿瘤#NN  目的#NN    。#PU  此外#AD  ，#PU  该#DT  物质#NN  还#AD  可#VV  治疗#VV  慢性#JJ  肝炎#NN  和#CC  迁延性#JJ  肝炎#NN  ，#PU  对#P  原发性#NN  肝癌#NN  患者#NN  有#VE  延长#VV  生存期#NN  作用#NN    。#PU    。#PU
+            抗#NN  衰老#VV
+            黄瓜#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素E#NN  ，#PU  可#VV  起到#VV  延年益寿#VV  ，#PU  抗#VV  衰老#NN  的#DEC  作用#NN  ；#PU  黄瓜#VV  中#NR  的#DEG  黄瓜酶#NN  ，#PU  有#VE  很#AD  强#VA  的#DEC  生物#NN  活性#NN  ，#PU  能#VV  有效#VA  地#DEV  促进#VV  机体#NN  的#DEG  新陈代谢#NN    。#PU  用#P  黄瓜#NN  捣汁#NN  涂擦#VV  皮肤#NN  ，#PU  有#VE  润肤#NN  ，#PU  舒展#VV  皱纹#NN  功效#NN    。#PU    。#PU
+            防#NN  酒精#NN  中毒#VV
+            黄瓜#NN  中#LC  所#MSP  含#VV  的#DEC  丙氨酸#NR  、#PU  精氨酸#NR  和#CC  谷胺#NR  酰胺#NN  对#P  肝脏#NN  病人#NN  ，#PU  特别是#AD  对#P  酒精#NN  性#NN  肝硬化#NN  患者#NN  有#VE  一定#JJ  辅助#NN  治疗#NN  作用#NN  ，#PU  可#VV  防治#VV  酒精#NN  中毒#VV  。#PU
+            降#VV  血糖#NN
+            黄瓜#NN  中#LC  所#MSP  含#VV  的#DEC  葡萄糖甙#NR  、#PU  果糖#NR  等#ETC  不#AD  参与#VV  通常#AD  的#DEC  糖#NN  代谢#NN  ，#PU  故#AD  糖尿病人#NN  以#P  黄瓜#CD  代#M  淀粉类#NN  食物#NN  充饥#NN  ，#PU  血糖#NN  非但#NN  不#AD  会#VV  升高#VV  ，#PU  甚至#AD  会#VV  降低#VV  。#PU
+            减肥#VV  强体#NN
+            黄瓜#NN  中#LC  所#MSP  含#VV  的#DEC  丙醇#VV  二酸#CD  ，#PU  可#VV  抑制#VV  糖类#NN  物质#NN  转变#NN  为#VC  脂肪#NN    。#PU  此外#AD  ，#PU  黄瓜#NN  中#LC  的#DEG  纤维素#NN  对#P  促进#VV  人体#NN  肠道#NN  内#LC  腐败#NN  物质#NN  的#DEC  排除#VV  和#CC  降低#VV  胆固醇#NN  有#VE  一定#JJ  作用#NN  ，#PU  能#VV  强身#VV  健体#NN    。#PU    。#PU
+            健脑#NN  安神#VV
+            黄瓜#NN  含有#VV  维生素B1#CD  ，#PU  对#P  改善#NN  大脑#NN  和#CC  神经#NN  系统#NN  功能#NN  有利#VA  ，#PU  能#VV  安神#VV  定志#NN  ，#PU  辅助#NN  治疗#VV  失眠症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味甘#VV, 性凉#NR)  (root, ROOT#null, 味甘#VV)  (nsubj, 毒#VV, 有小#NN)  (ccomp, 味甘#VV, 毒#VV)  (conj, 味甘#VV, 入肺#VA)  (conj, 入肺#VA, 胃#VA)  (dep, 入肺#VA, 大肠#VA)   (nsubj, 利水#VV, 清热#NR)  (root, ROOT#null, 利水#VV)  (nn, 消肿#NN, 解毒#NN)  (nsubj, 生津止渴#VV, 消肿#NN)  (ccomp, 利水#VV, 生津止渴#VV)   (nn, 热#NN, 主治#NN)  (nn, 热#NN, 身#NN)  (nsubj, 烦渴#VV, 热#NN)  (root, ROOT#null, 烦渴#VV)  (nn, 肿痛#NN, 咽喉#NN)  (nsubj, 眼疾#VV, 肿痛#NN)  (xsubj, 湿热#VV, 肿痛#NN)  (nn, 热#NN, 风#NN)  (nsubj, 眼疾#VV, 热#NN)  (xsubj, 湿热#VV, 热#NN)  (ccomp, 烦渴#VV, 眼疾#VV)  (ccomp, 眼疾#VV, 湿热#VV)  (dobj, 湿热#VV, 黄疸#NN)  (advmod, 不利#VA, 小便#AD)  (conj, 湿热#VV, 不利#VA)  (dep, 湿热#VV, 等#ETC)  (dep, 眼疾#VV, 病症#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抗#VV)  (dobj, 抗#VV, 肿瘤#NN)
+            (dep, 含有#NN, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (assmod, C#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, C#NN, 葫芦素#NN)  (nsubj, 具有#VV, C#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 提高#VV)  (nn, 功能#NN, 人体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)  (mark, 提高#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (conj, 具有#VV, 达到#VV)  (nn, 目的#NN, 抗#NN)  (nn, 目的#NN, 肿瘤#NN)  (dobj, 达到#VV, 目的#NN)   (advmod, 治疗#VV, 此外#AD)  (det, 物质#NN, 该#DT)  (nsubj, 治疗#VV, 物质#NN)  (advmod, 治疗#VV, 还#AD)  (mmod, 治疗#VV, 可#VV)  (conj, 延长#VV, 治疗#VV)  (amod, 肝炎#NN, 慢性#JJ)  (conj, 肝炎#NN, 肝炎#NN)  (cc, 肝炎#NN, 和#CC)  (amod, 肝炎#NN, 迁延性#JJ)  (dobj, 治疗#VV, 肝炎#NN)  (case, 患者#NN, 对#P)  (nn, 患者#NN, 原发性#NN)  (nn, 患者#NN, 肝癌#NN)  (prep, 有#VE, 患者#NN)  (dep, 治疗#VV, 有#VE)  (root, ROOT#null, 延长#VV)  (nn, 作用#NN, 生存期#NN)  (dobj, 延长#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (loc, 丰富#VA, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 起到#VV, 维生素E#NN)  (mmod, 起到#VV, 可#VV)  (root, ROOT#null, 起到#VV)  (relcl, 作用#NN, 延年益寿#VV)  (dep, 延年益寿#VV, 抗#VV)  (dobj, 抗#VV, 衰老#NN)  (mark, 延年益寿#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (conj, 起到#VV, 黄瓜#VV)  (assmod, 黄瓜酶#NN, 中#NR)  (case, 中#NR, 的#DEG)  (dobj, 黄瓜#VV, 黄瓜酶#NN)  (conj, 黄瓜#VV, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 活性#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 活性#NN, 生物#NN)  (dobj, 有#VE, 活性#NN)  (mmod, 促进#VV, 能#VV)  (dvpmod, 促进#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 黄瓜#VV, 促进#VV)  (assmod, 新陈代谢#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)   (case, 捣汁#NN, 用#P)  (nn, 捣汁#NN, 黄瓜#NN)  (prep, 涂擦#VV, 捣汁#NN)  (root, ROOT#null, 涂擦#VV)  (dobj, 涂擦#VV, 皮肤#NN)  (conj, 涂擦#VV, 有#VE)  (dobj, 有#VE, 润肤#NN)  (conj, 涂擦#VV, 舒展#VV)  (nn, 功效#NN, 皱纹#NN)  (dobj, 舒展#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nn, 酒精#NN, 防#NN)  (nsubj, 中毒#VV, 酒精#NN)  (root, ROOT#null, 中毒#VV)
+            (loc, 含#VV, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 酰胺#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 谷胺#NR, 丙氨酸#NR)  (conj, 谷胺#NR, 精氨酸#NR)  (cc, 谷胺#NR, 和#CC)  (nn, 酰胺#NN, 谷胺#NR)  (nsubj, 有#VE, 酰胺#NN)  (case, 病人#NN, 对#P)  (nn, 病人#NN, 肝脏#NN)  (prep, 有#VE, 病人#NN)  (prep, 有#VE, 特别是#AD)  (case, 患者#NN, 对#P)  (nn, 肝硬化#NN, 酒精#NN)  (nn, 肝硬化#NN, 性#NN)  (nn, 患者#NN, 肝硬化#NN)  (dep, 特别是#AD, 患者#NN)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 一定#JJ)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 防治#VV, 可#VV)  (dep, 有#VE, 防治#VV)  (dobj, 防治#VV, 酒精#NN)  (dep, 防治#VV, 中毒#VV)
+            (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血糖#NN)
+            (loc, 含#VV, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 代谢#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 果糖#NR, 葡萄糖甙#NR)  (nn, 代谢#NN, 果糖#NR)  (etc, 果糖#NR, 等#ETC)  (neg, 参与#VV, 不#AD)  (relcl, 果糖#NR, 参与#VV)  (relcl, 代谢#NN, 参与#VV)  (advmod, 参与#VV, 通常#AD)  (mark, 参与#VV, 的#DEC)  (nn, 代谢#NN, 糖#NN)  (nsubj, 升高#VV, 代谢#NN)  (advmod, 升高#VV, 故#AD)  (nsubj, 升高#VV, 糖尿病人#NN)  (case, 充饥#NN, 以#P)  (nummod, 代#M, 黄瓜#CD)  (clf, 食物#NN, 代#M)  (nn, 食物#NN, 淀粉类#NN)  (nn, 充饥#NN, 食物#NN)  (prep, 升高#VV, 充饥#NN)  (nn, 非但#NN, 血糖#NN)  (nsubj, 升高#VV, 非但#NN)  (neg, 升高#VV, 不#AD)  (dep, 升高#VV, 会#VV)  (root, ROOT#null, 升高#VV)  (advmod, 降低#VV, 甚至#AD)  (dep, 降低#VV, 会#VV)  (dep, 升高#VV, 降低#VV)
+            (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 强体#NN)
+            (loc, 含#VV, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 转变#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nfincl, 转变#NN, 丙醇#VV)  (range, 丙醇#VV, 二酸#CD)  (mmod, 抑制#VV, 可#VV)  (conj, 丙醇#VV, 抑制#VV)  (dobj, 抑制#VV, 糖类#NN)  (nn, 转变#NN, 物质#NN)  (nsubj, 脂肪#NN, 转变#NN)  (cop, 脂肪#NN, 为#VC)  (root, ROOT#null, 脂肪#NN)   (advmod, 排除#VV, 此外#AD)  (assmod, 纤维素#NN, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (case, 黄瓜#NN, 的#DEG)  (nsubj, 排除#VV, 纤维素#NN)  (case, 促进#VV, 对#P)  (prep, 排除#VV, 促进#VV)  (nn, 肠道#NN, 人体#NN)  (dep, 物质#NN, 肠道#NN)  (case, 肠道#NN, 内#LC)  (nn, 物质#NN, 腐败#NN)  (dobj, 促进#VV, 物质#NN)  (mark, 促进#VV, 的#DEC)  (dep, 有#VE, 排除#VV)  (cc, 排除#VV, 和#CC)  (dep, 排除#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 一定#JJ)  (nsubj, 强身#VV, 作用#NN)  (mmod, 强身#VV, 能#VV)  (dep, 有#VE, 强身#VV)  (dobj, 强身#VV, 健体#NN)   (root, ROOT#null, null#null)
+            (nsubj, 安神#VV, 健脑#NN)  (root, ROOT#null, 安神#VV)
+            (nsubj, 含有#VV, 黄瓜#NN)  (root, ROOT#null, 含有#VV)  (range, 含有#VV, 维生素B1#CD)  (case, 系统#NN, 对#P)  (nn, 系统#NN, 改善#NN)  (conj, 系统#NN, 大脑#NN)  (cc, 系统#NN, 和#CC)  (nn, 系统#NN, 神经#NN)  (prep, 功能#NN, 系统#NN)  (nsubj, 有利#VA, 功能#NN)  (conj, 含有#VV, 有利#VA)  (mmod, 安神#VV, 能#VV)  (conj, 含有#VV, 安神#VV)  (dobj, 安神#VV, 定志#NN)  (nsubj, 治疗#VV, 辅助#NN)  (conj, 含有#VV, 治疗#VV)  (dobj, 治疗#VV, 失眠症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  降血糖  延缓衰老  减肥  解毒  清热  利水  
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.黄瓜尾部含有较多的苦味素，苦味素有抗癌的作用，所以不要把黄瓜尾部全部丢掉。
+            2.熟吃黄瓜最好的方法是直接将黄瓜煮食，虽然在口味上略逊于炒制的，但营养价值可以得到很好的保留，而且能缓解夏季浮肿现象。吃煮黄瓜最合适的时间是在晚饭前，一定要注意，要在吃其他饭菜前食用。因为煮黄瓜具有很强的排毒作用，如果最先进入体内，就能把后来吸收的食物脂肪、盐份等一同排出体外。坚持这种方法，还能起到降体重的作用。此外，用黄瓜煮汤也是不错的选择。
+            3.黄瓜当水果生吃，不宜过多。
+            4.黄瓜中维生素较少，因此常吃黄瓜时应同时吃些其他的蔬果。
+            5.有肝病、心血管病、肠胃病以及高血压的人都不要吃腌黄瓜。
+        </rawdata>
+
+        <segment>
+            黄瓜  尾部  含有  较多  的  苦味素  ，  苦味  素有  抗癌  的  作用  ，  所以  不  要  把  黄瓜  尾部  全部  丢掉  。
+            熟  吃  黄瓜  最  好  的  方法  是  直接  将  黄瓜  煮  食  ，  虽然  在  口味  上  略逊于  炒  制  的  ，  但  营养  价值  可以  得到  很  好  的  保留  ，  而且  能  缓解  夏季  浮肿  现象  。  吃  煮  黄瓜  最  合适  的  时间  是  在  晚饭  前  ，  一定  要  注意  ，  要  在  吃  其他  饭菜  前  食用  。  因为  煮  黄瓜  具有  很  强  的  排毒  作用  ，  如果  最先  进入  体内  ，  就  能  把  后来  吸收  的  食物  脂肪  、  盐份  等  一同  排出  体外  。  坚持  这  种  方法  ，  还  能  起到  降  体重  的  作用  。  此外  ，  用  黄瓜  煮  汤  也  是  不错  的  选择  。
+            黄瓜  当  水果  生吃  ，  不  宜  过多  。
+            黄瓜  中  维生素  较少  ，  因此  常  吃  黄瓜  时  应  同时  吃  些  其他  的  蔬果  。
+            有  肝病  、  心血管病  、  肠胃病  以及  高血压  的  人  都  不  要  吃  腌黄瓜  。
+        </segment>
+
+        <pos>
+            黄瓜#NN  尾部#VV  含有#NN  较多#NN  的#DEG  苦味素#NN  ，#PU  苦味#VV  素有#NN  抗癌#NN  的#DEG  作用#NN  ，#PU  所以#AD  不#AD  要#VV  把#BA  黄瓜#NN  尾部#NN  全部#AD  丢掉#VV  。#PU
+            熟#VA  吃#VV  黄瓜#NN  最#AD  好#VA  的#DEC  方法#NN  是#VC  直接#AD  将#BA  黄瓜#AD  煮#VV  食#NN  ，#PU  虽然#CS  在#P  口味#NN  上#LC  略逊于#VV  炒#CD  制#NN  的#DEC  ，#PU  但#AD  营养#VA  价值#NN  可以#VV  得到#VV  很#AD  好#VA  的#DEC  保留#NN  ，#PU  而且#CC  能#VV  缓解#VV  夏季#NT  浮肿#NN  现象#NN    。#PU  吃#VV  煮#VV  黄瓜#NN  最#AD  合适#VA  的#DEC  时间#NN  是#VC  在#P  晚饭#NN  前#LC  ，#PU  一定#AD  要#VV  注意#VV  ，#PU  要#VV  在#P  吃#VV  其他#DT  饭菜#NN  前#LC  食用#VV    。#PU  因为#P  煮#VV  黄瓜#AD  具有#VV  很#AD  强#VA  的#DEC  排毒#JJ  作用#NN  ，#PU  如果#CS  最先#AD  进入#VV  体内#NN  ，#PU  就#AD  能#VV  把#BA  后来#AD  吸收#VV  的#DEC  食物#NN  脂肪#NN  、#PU  盐份#NN  等#ETC  一同#AD  排出#VV  体外#NN    。#PU  坚持#VV  这#DT  种#M  方法#NN  ，#PU  还#AD  能#VV  起到#VV  降#VV  体重#NN  的#DEC  作用#NN    。#PU  此外#AD  ，#PU  用#P  黄瓜#NN  煮#VV  汤#NN  也#AD  是#VC  不错#VA  的#DEC  选择#NN    。#PU    。#PU
+            黄瓜#NN  当#P  水果#NN  生吃#NN  ，#PU  不#AD  宜#NR  过多#VV  。#PU
+            黄瓜#NR  中#NR  维生素#NN  较少#NN  ，#PU  因此#AD  常#AD  吃#VV  黄瓜#NN  时#LC  应#VV  同时#AD  吃#VV  些#CD  其他#DT  的#DEG  蔬果#NN  。#PU
+            有#VE  肝病#NN  、#PU  心血管病#NN  、#PU  肠胃病#NN  以及#CC  高血压#NN  的#DEC  人#NN  都#AD  不#AD  要#VV  吃#VV  腌黄瓜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 尾部#VV, 黄瓜#NN)  (root, ROOT#null, 尾部#VV)  (nn, 较多#NN, 含有#NN)  (assmod, 苦味素#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 尾部#VV, 苦味素#NN)  (conj, 尾部#VV, 苦味#VV)  (nn, 抗癌#NN, 素有#NN)  (assmod, 作用#NN, 抗癌#NN)  (case, 抗癌#NN, 的#DEG)  (dobj, 苦味#VV, 作用#NN)  (advmod, 丢掉#VV, 所以#AD)  (neg, 丢掉#VV, 不#AD)  (mmod, 丢掉#VV, 要#VV)  (ba, 丢掉#VV, 把#BA)  (nn, 尾部#NN, 黄瓜#NN)  (nsubj, 丢掉#VV, 尾部#NN)  (advmod, 丢掉#VV, 全部#AD)  (conj, 尾部#VV, 丢掉#VV)
+            (root, ROOT#null, 熟#VA)  (conj, 熟#VA, 吃#VV)  (nsubj, 好#VA, 黄瓜#NN)  (advmod, 好#VA, 最#AD)  (relcl, 方法#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 吃#VV, 方法#NN)  (cop, 煮#VV, 是#VC)  (advmod, 煮#VV, 直接#AD)  (ba, 煮#VV, 将#BA)  (advmod, 煮#VV, 黄瓜#AD)  (conj, 熟#VA, 煮#VV)  (dobj, 煮#VV, 食#NN)  (advmod, 略逊于#VV, 虽然#CS)  (case, 口味#NN, 在#P)  (prep, 略逊于#VV, 口味#NN)  (case, 口味#NN, 上#LC)  (dep, 煮#VV, 略逊于#VV)  (nummod, 制#NN, 炒#CD)  (dobj, 略逊于#VV, 制#NN)  (mark, 煮#VV, 的#DEC)  (advmod, 营养#VA, 但#AD)  (dep, 熟#VA, 营养#VA)  (nsubj, 得到#VV, 价值#NN)  (mmod, 得到#VV, 可以#VV)  (dep, 熟#VA, 得到#VV)  (advmod, 好#VA, 很#AD)  (relcl, 保留#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 得到#VV, 保留#NN)  (cc, 得到#VV, 而且#CC)  (mmod, 缓解#VV, 能#VV)  (conj, 得到#VV, 缓解#VV)  (nn, 现象#NN, 夏季#NT)  (nn, 现象#NN, 浮肿#NN)  (dobj, 缓解#VV, 现象#NN)   (mmod, 煮#VV, 吃#VV)  (relcl, 时间#NN, 煮#VV)  (dobj, 煮#VV, 黄瓜#NN)  (advmod, 合适#VA, 最#AD)  (dep, 煮#VV, 合适#VA)  (mark, 煮#VV, 的#DEC)  (nsubj, 注意#VV, 时间#NN)  (cop, 注意#VV, 是#VC)  (case, 晚饭#NN, 在#P)  (prep, 注意#VV, 晚饭#NN)  (case, 晚饭#NN, 前#LC)  (advmod, 注意#VV, 一定#AD)  (mmod, 注意#VV, 要#VV)  (root, ROOT#null, 注意#VV)  (mmod, 食用#VV, 要#VV)  (case, 吃#VV, 在#P)  (prep, 食用#VV, 吃#VV)  (det, 饭菜#NN, 其他#DT)  (dobj, 吃#VV, 饭菜#NN)  (case, 吃#VV, 前#LC)  (ccomp, 注意#VV, 食用#VV)   (case, 具有#VV, 因为#P)  (mmod, 具有#VV, 煮#VV)  (advmod, 具有#VV, 黄瓜#AD)  (prep, 排出#VV, 具有#VV)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (amod, 作用#NN, 排毒#JJ)  (dobj, 具有#VV, 作用#NN)  (advmod, 进入#VV, 如果#CS)  (advmod, 进入#VV, 最先#AD)  (dep, 排出#VV, 进入#VV)  (dobj, 进入#VV, 体内#NN)  (advmod, 排出#VV, 就#AD)  (mmod, 排出#VV, 能#VV)  (ba, 排出#VV, 把#BA)  (advmod, 吸收#VV, 后来#AD)  (relcl, 脂肪#NN, 吸收#VV)  (mark, 吸收#VV, 的#DEC)  (nn, 脂肪#NN, 食物#NN)  (conj, 盐份#NN, 脂肪#NN)  (nsubj, 排出#VV, 盐份#NN)  (etc, 盐份#NN, 等#ETC)  (advmod, 排出#VV, 一同#AD)  (root, ROOT#null, 排出#VV)  (dobj, 排出#VV, 体外#NN)   (root, ROOT#null, 坚持#VV)  (det, 方法#NN, 这#DT)  (clf, 这#DT, 种#M)  (dobj, 坚持#VV, 方法#NN)  (advmod, 起到#VV, 还#AD)  (mmod, 起到#VV, 能#VV)  (conj, 坚持#VV, 起到#VV)  (relcl, 作用#NN, 降#VV)  (dobj, 降#VV, 体重#NN)  (mark, 降#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)   (advmod, 煮#VV, 此外#AD)  (case, 黄瓜#NN, 用#P)  (prep, 煮#VV, 黄瓜#NN)  (dep, 选择#NN, 煮#VV)  (nsubj, 选择#NN, 汤#NN)  (advmod, 选择#NN, 也#AD)  (cop, 选择#NN, 是#VC)  (relcl, 选择#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (root, ROOT#null, 选择#NN)   (root, ROOT#null, null#null)
+            (nsubj, 过多#VV, 黄瓜#NN)  (case, 生吃#NN, 当#P)  (nn, 生吃#NN, 水果#NN)  (prep, 过多#VV, 生吃#NN)  (neg, 过多#VV, 不#AD)  (dep, 过多#VV, 宜#NR)  (root, ROOT#null, 过多#VV)
+            (nn, 中#NR, 黄瓜#NR)  (nn, 较少#NN, 中#NR)  (nn, 较少#NN, 维生素#NN)  (nsubj, 吃#VV, 较少#NN)  (advmod, 吃#VV, 因此#AD)  (advmod, 吃#VV, 常#AD)  (loc, 吃#VV, 吃#VV)  (dobj, 吃#VV, 黄瓜#NN)  (case, 吃#VV, 时#LC)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 同时#AD)  (root, ROOT#null, 吃#VV)  (nummod, 蔬果#NN, 些#CD)  (assmod, 蔬果#NN, 其他#DT)  (case, 其他#DT, 的#DEG)  (dobj, 吃#VV, 蔬果#NN)
+            (relcl, 人#NN, 有#VE)  (conj, 高血压#NN, 肝病#NN)  (conj, 高血压#NN, 心血管病#NN)  (conj, 高血压#NN, 肠胃病#NN)  (cc, 高血压#NN, 以及#CC)  (dobj, 有#VE, 高血压#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 都#AD)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 腌黄瓜#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101358401794.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

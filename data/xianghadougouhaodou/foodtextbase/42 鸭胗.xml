@@ -1,0 +1,182 @@
+<content>
+
+    <id>
+        42
+    </id>
+
+    <foodname>
+        鸭胗
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        鸭肉
+    </secondcategory>
+
+    <alias>
+        鸭肫、鸭腱头
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇忌服。
+        </rawdata>
+
+        <segment>
+            孕妇  忌服  。
+        </segment>
+
+        <pos>
+            孕妇#VV  忌服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 忌服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适合贫血病患者、食用上腹饱胀、消化不良者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适合  贫血病  患者  、  食用  上  腹  饱胀  、  消化不良  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适合#VV  贫血病#NN  患者#NN  、#PU  食用#VV  上#DT  腹#NN  饱胀#NN  、#PU  消化不良#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 尤其#AD)  (root, ROOT#null, 适合#VV)  (nn, 患者#NN, 贫血病#NN)  (dobj, 适合#VV, 患者#NN)  (conj, 适合#VV, 食用#VV)  (det, 腹#NN, 上#DT)  (nn, 饱胀#NN, 腹#NN)  (conj, 者#NN, 饱胀#NN)  (nn, 者#NN, 消化不良#NN)  (dobj, 食用#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸭胗相当于鸭的胃，又称“鸭肫（zhun）”，形状扁圆，坚硬，两片合成，鸭平时吃进的石头就是存储在此处。鸭胗肉质紧密，紧韧耐嚼，滋味悠长，无油腻感，是老少皆喜爱的佳肴珍品。
+        </rawdata>
+
+        <segment>
+            鸭胗  相当于  鸭  的  胃  ，  又  称  “  鸭肫  （  zhun  ）  ”  ，  形状  扁圆  ，  坚硬  ，  两  片  合成  ，  鸭  平时  吃进  的  石头  就是  存储  在  此处  。  鸭胗  肉质  紧密  ，  紧韧  耐嚼  ，  滋味  悠长  ，  无  油腻感  ，  是  老少  皆  喜爱  的  佳肴  珍品  。
+        </segment>
+
+        <pos>
+            鸭胗#AD  相当于#VV  鸭#NN  的#DEC  胃#NN  ，#PU  又#AD  称#VV  ``#NR  鸭肫#NR  （#PU  zhun#NN  ）#PU  ''#NN  ，#PU  形状#NN  扁圆#NN  ，#PU  坚硬#VV  ，#PU  两#CD  片#M  合成#JJ  ，#PU  鸭#NN  平时#AD  吃进#NN  的#DEG  石头#NN  就是#CC  存储#NN  在#AD  此处#VA    。#PU  鸭胗#NN  肉质#AD  紧密#VA  ，#PU  紧韧#AD  耐嚼#VA  ，#PU  滋味#VV  悠长#NN  ，#PU  无#VE  油腻感#NN  ，#PU  是#VC  老少#NN  皆#AD  喜爱#VA  的#DEC  佳肴#NN  珍品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 相当于#VV, 鸭胗#AD)  (relcl, 胃#NN, 相当于#VV)  (dobj, 相当于#VV, 鸭#NN)  (mark, 相当于#VV, 的#DEC)  (nsubj, 称#VV, 胃#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (nn, ''#NN, ``#NR)  (dep, ''#NN, 鸭肫#NR)  (prnmod, ''#NN, zhun#NN)  (dep, 扁圆#NN, ''#NN)  (nn, 扁圆#NN, 形状#NN)  (dobj, 称#VV, 扁圆#NN)  (conj, 称#VV, 坚硬#VV)  (nummod, 片#M, 两#CD)  (dep, 称#VV, 片#M)  (conj, 称#VV, 合成#JJ)  (nsubj, 此处#VA, 鸭#NN)  (advmod, 此处#VA, 平时#AD)  (assmod, 存储#NN, 吃进#NN)  (case, 吃进#NN, 的#DEG)  (conj, 存储#NN, 石头#NN)  (cc, 存储#NN, 就是#CC)  (nsubj, 此处#VA, 存储#NN)  (advmod, 此处#VA, 在#AD)  (conj, 称#VV, 此处#VA)   (nsubj, 紧密#VA, 鸭胗#NN)  (advmod, 紧密#VA, 肉质#AD)  (root, ROOT#null, 紧密#VA)  (advmod, 耐嚼#VA, 紧韧#AD)  (conj, 紧密#VA, 耐嚼#VA)  (conj, 紧密#VA, 滋味#VV)  (dobj, 滋味#VV, 悠长#NN)  (conj, 紧密#VA, 无#VE)  (dobj, 无#VE, 油腻感#NN)  (cop, 珍品#NN, 是#VC)  (nsubj, 喜爱#VA, 老少#NN)  (advmod, 喜爱#VA, 皆#AD)  (relcl, 珍品#NN, 喜爱#VA)  (mark, 喜爱#VA, 的#DEC)  (nn, 珍品#NN, 佳肴#NN)  (conj, 紧密#VA, 珍品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸭肫味甘、性平、咸，有健胃之效。
+        </rawdata>
+
+        <segment>
+            鸭肫  味  甘  、  性平  、  咸  ，  有  健胃  之  效  。
+        </segment>
+
+        <pos>
+            鸭肫#NR  味#NR  甘#NR  、#PU  性平#NR  、#PU  咸#NR  ，#PU  有#VE  健胃#NN  之#DEG  效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 咸#NR, 鸭肫#NR)  (nn, 咸#NR, 味#NR)  (conj, 咸#NR, 甘#NR)  (conj, 咸#NR, 性平#NR)  (dep, 有#VE, 咸#NR)  (root, ROOT#null, 有#VE)  (assmod, 效#NN, 健胃#NN)  (case, 健胃#NN, 之#DEG)  (dobj, 有#VE, 效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鸭肫的主要营养成分有碳水化合物、蛋白质、脂肪、烟酸、维生素C、维生素E和钙、镁、铁、钾、磷、钠、硒等矿物质。鸭肫的铁元素含量较丰富，女性可以适当多食用一些。
+        </rawdata>
+
+        <segment>
+            鸭肫  的  主要  营养  成分  有  碳水化合物  、  蛋白质  、  脂肪  、  烟酸  、  维生素C  、  维生素E  和  钙  、  镁  、  铁  、  钾  、  磷  、  钠  、  硒等  矿物质  。  鸭肫  的  铁  元素  含量  较  丰富  ，  女性  可以  适当  多  食用  一些  。
+        </segment>
+
+        <pos>
+            鸭肫#NN  的#DEG  主要#AD  营养#VA  成分#NN  有#VE  碳水化合物#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  烟酸#NR  、#PU  维生素C#NR  、#PU  维生素E#NR  和#CC  钙#NN  、#PU  镁#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  磷#NN  、#PU  钠#NN  、#PU  硒等#NN  矿物质#NN    。#PU  鸭肫#NN  的#DEG  铁#JJ  元素#NN  含量#NN  较#AD  丰富#VA  ，#PU  女性#NN  可以#VV  适当#AD  多#AD  食用#VV  一些#CD    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 鸭肫#NN)  (case, 鸭肫#NN, 的#DEG)  (advmod, 营养#VA, 主要#AD)  (nfincl, 成分#NN, 营养#VA)  (dep, 有#VE, 成分#NN)  (root, ROOT#null, 有#VE)  (conj, 维生素E#NR, 碳水化合物#NR)  (conj, 维生素E#NR, 蛋白质#NR)  (conj, 维生素E#NR, 脂肪#NR)  (conj, 维生素E#NR, 烟酸#NR)  (conj, 维生素E#NR, 维生素C#NR)  (conj, 矿物质#NN, 维生素E#NR)  (cc, 矿物质#NN, 和#CC)  (conj, 硒等#NN, 钙#NN)  (conj, 硒等#NN, 镁#NN)  (conj, 硒等#NN, 铁#NN)  (conj, 硒等#NN, 钾#NN)  (conj, 硒等#NN, 磷#NN)  (conj, 硒等#NN, 钠#NN)  (nn, 矿物质#NN, 硒等#NN)  (dobj, 有#VE, 矿物质#NN)   (assmod, 含量#NN, 鸭肫#NN)  (case, 鸭肫#NN, 的#DEG)  (amod, 含量#NN, 铁#JJ)  (nn, 含量#NN, 元素#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 较#AD)  (root, ROOT#null, 丰富#VA)  (nsubj, 食用#VV, 女性#NN)  (mmod, 食用#VV, 可以#VV)  (advmod, 食用#VV, 适当#AD)  (advmod, 食用#VV, 多#AD)  (conj, 丰富#VA, 食用#VV)  (range, 食用#VV, 一些#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            鲜鸭肫清洗时要剥去内壁黄皮。
+        </rawdata>
+
+        <segment>
+            鲜  鸭肫  清洗  时  要  剥去  内壁  黄皮  。
+        </segment>
+
+        <pos>
+            鲜#NN  鸭肫#NN  清洗#NN  时#LC  要#VV  剥去#VV  内壁#NN  黄皮#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鸭肫#NN, 鲜#NN)  (nsubj, 剥去#VV, 鸭肫#NN)  (loc, 剥去#VV, 清洗#NN)  (case, 清洗#NN, 时#LC)  (mmod, 剥去#VV, 要#VV)  (root, ROOT#null, 剥去#VV)  (nn, 黄皮#NN, 内壁#NN)  (dobj, 剥去#VV, 黄皮#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081647198480.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,230 @@
+<content>
+
+    <id>
+        18
+    </id>
+
+    <foodname>
+        牛腩
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        牛肉
+    </secondcategory>
+
+    <alias>
+        牛肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            1.感染性疾病、肝病、肾病的人慎食；2.黄牛肉为发物，患疮疥湿疹、痘痧、瘙痒者慎用；3.高胆固醇、高脂肪、老年人、儿童、消化力弱的人不宜多吃。
+        </rawdata>
+
+        <segment>
+            感染性  疾病  、  肝病  、  肾病  的  人  慎  食  ；  2  .  黄牛肉  为  发物  ，  患疮疥  湿疹  、  痘痧  、  瘙痒  者  慎用  ；  3  .  高  胆固醇  、  高  脂肪  、  老年人  、  儿童  、  消化  力弱  的  人  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            感染性#NN  疾病#NN  、#PU  肝病#NN  、#PU  肾病#NN  的#DEG  人#NN  慎#VV  食#NN  ；#PU  2#CD  .#NN  黄牛肉#NN  为#VC  发物#NN  ，#PU  患疮疥#VV  湿疹#NR  、#PU  痘痧#NR  、#PU  瘙痒#NR  者#NN  慎用#NN  ；#PU  3#CD  .#NN  高#JJ  胆固醇#NN  、#PU  高#JJ  脂肪#NN  、#PU  老年人#NN  、#PU  儿童#NN  、#PU  消化#NN  力弱#NN  的#DEG  人#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肾病#NN, 感染性#NN)  (conj, 肾病#NN, 疾病#NN)  (conj, 肾病#NN, 肝病#NN)  (assmod, 人#NN, 肾病#NN)  (case, 肾病#NN, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)  (nummod, .#NN, 2#CD)  (nsubj, 发物#NN, 黄牛肉#NN)  (cop, 发物#NN, 为#VC)  (conj, 慎#VV, 发物#NN)  (conj, 慎#VV, 患疮疥#VV)  (conj, 瘙痒#NR, 湿疹#NR)  (conj, 瘙痒#NR, 痘痧#NR)  (nn, 慎用#NN, 瘙痒#NR)  (nn, 慎用#NN, 者#NN)  (dobj, 患疮疥#VV, 慎用#NN)  (nummod, .#NN, 3#CD)  (amod, 胆固醇#NN, 高#JJ)  (conj, 力弱#NN, 胆固醇#NN)  (amod, 脂肪#NN, 高#JJ)  (conj, 力弱#NN, 脂肪#NN)  (conj, 力弱#NN, 老年人#NN)  (conj, 力弱#NN, 儿童#NN)  (nn, 力弱#NN, 消化#NN)  (assmod, 人#NN, 力弱#NN)  (case, 力弱#NN, 的#DEG)  (nsubj, 吃#VV, 人#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (conj, 慎#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜于生长发育、术后、病后调养的人、中气下隐、气短体虚、筋骨酸软、贫血久病及黄目眩之人食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜于  生长  发育  、  术后  、  病  后  调养  的  人  、  中气  下  隐  、  气短  体虚  、  筋骨  酸软  、  贫血  久病  及  黄  目眩  之  人  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜于#VV  生长#NN  发育#NN  、#PU  术后#NN  、#PU  病#NN  后#LC  调养#VV  的#DEC  人#NN  、#PU  中气#NN  下#LC  隐#NR  、#PU  气短#NR  体虚#NR  、#PU  筋骨#NR  酸软#NR  、#PU  贫血#NR  久病#NR  及#CC  黄#NR  目眩#NN  之#DEG  人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (loc, 调养#VV, 适宜于#VV)  (nn, 病#NN, 生长#NN)  (conj, 病#NN, 发育#NN)  (conj, 病#NN, 术后#NN)  (dobj, 适宜于#VV, 病#NN)  (case, 适宜于#VV, 后#LC)  (relcl, 中气#NN, 调养#VV)  (mark, 调养#VV, 的#DEC)  (conj, 中气#NN, 人#NN)  (dep, 人#NN, 中气#NN)  (case, 中气#NN, 下#LC)  (conj, 黄#NR, 隐#NR)  (nn, 黄#NR, 气短#NR)  (conj, 黄#NR, 体虚#NR)  (nn, 黄#NR, 筋骨#NR)  (conj, 黄#NR, 酸软#NR)  (nn, 黄#NR, 贫血#NR)  (conj, 黄#NR, 久病#NR)  (cc, 黄#NR, 及#CC)  (nn, 目眩#NN, 黄#NR)  (assmod, 人#NN, 目眩#NN)  (case, 目眩#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                320
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛腩即牛腹部及靠近牛肋处的松软肌肉，是指带有筋、肉、油花的肉块，这只是一种统称。若依部位来分，牛身上许多地方的肉都可以叫做牛腩。国外进口的部分是以切成条状的牛肋条为主（又称条肉），是取自肋骨间的去骨条状肉，瘦肉较多，脂肪较少，筋也较少，适合红烧或炖汤。另外，在里脊肉上层有一片筋少、油少、肉多，但形状不大规则的里脊边，也可以称作牛腩，是上等的红烧部位。牛腱也可以算是牛腩的一种，筋肉多，油少，甚至全是瘦肉。因此一般用来卤，不适合炖汤，更不适合红烧。
+        </rawdata>
+
+        <segment>
+            牛腩  即  牛  腹部  及  靠近  牛肋处  的  松软  肌肉  ，  是  指  带有  筋  、  肉  、  油  花  的  肉块  ，  这  只  是  一  种  统称  。  若  依  部位  来  分  ，  牛  身上  许多  地方  的  肉  都  可以  叫做  牛腩  。  国外  进口  的  部分  是  以  切成  条状  的  牛  肋条  为主  （  又  称  条  肉  ）  ，  是  取自  肋骨  间的  去骨  条状  肉  ，  瘦肉  较  多  ，  脂肪  较少  ，  筋也  较  少  ，  适合  红烧  或  炖汤  。  另外  ，  在  里脊肉  上层  有  一  片  筋少  、  油  少  、  肉多  ，  但  形状  不大  规则  的  里脊  边  ，  也可以  称作  牛腩  ，  是  上等  的  红烧  部位  。  牛腱  也  可以  算是  牛腩  的  一  种  ，  筋肉  多  ，  油少  ，  甚至  全  是  瘦肉  。  因此  一般  用来  卤  ，  不  适合  炖汤  ，  更  不  适合  红烧  。
+        </segment>
+
+        <pos>
+            牛腩#NR  即#AD  牛#NN  腹部#NN  及#CC  靠近#NN  牛肋处#NN  的#DEG  松软#NN  肌肉#VV  ，#PU  是#VC  指#VV  带有#VV  筋#NN  、#PU  肉#NN  、#PU  油#NN  花#NN  的#DEC  肉块#NN  ，#PU  这#PN  只#AD  是#VC  一#CD  种#M  统称#NN    。#PU  若#CS  依#P  部位#NN  来#LC  分#VV  ，#PU  牛#NN  身上#NN  许多#CD  地方#NN  的#DEG  肉#NN  都#AD  可以#VV  叫做#VV  牛腩#NN    。#PU  国外#NN  进口#NN  的#DEG  部分#NN  是#VC  以#P  切成#NN  条状#NN  的#DEG  牛#NN  肋条#NN  为主#VV  （#PU  又#AD  称#VV  条#M  肉#NN  ）#PU  ，#PU  是#VC  取自#VV  肋骨#NN  间的#NN  去骨#NN  条状#NN  肉#NN  ，#PU  瘦肉#NN  较#AD  多#VA  ，#PU  脂肪#NN  较少#NN  ，#PU  筋也#NN  较#AD  少#VA  ，#PU  适合#VV  红烧#NN  或#CC  炖汤#NN    。#PU  另外#AD  ，#PU  在#P  里脊肉#NN  上层#NN  有#VE  一#CD  片#M  筋少#NN  、#PU  油#NN  少#VA  、#PU  肉多#VA  ，#PU  但#AD  形状#NN  不大#NN  规则#NN  的#DEG  里脊#NN  边#LC  ，#PU  也可以#NN  称作#VV  牛腩#NN  ，#PU  是#VC  上等#NN  的#DEG  红烧#JJ  部位#NN    。#PU  牛腱#NN  也#AD  可以#VV  算是#VV  牛腩#NN  的#DEG  一#CD  种#M  ，#PU  筋肉#AD  多#VA  ，#PU  油少#VV  ，#PU  甚至#AD  全#AD  是#VC  瘦肉#NN    。#PU  因此#AD  一般#AD  用来#VV  卤#NN  ，#PU  不#AD  适合#VV  炖汤#NN  ，#PU  更#AD  不#AD  适合#VV  红烧#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 松软#NN, 牛腩#NR)  (advmod, 松软#NN, 即#AD)  (nn, 牛肋处#NN, 牛#NN)  (conj, 牛肋处#NN, 腹部#NN)  (cc, 牛肋处#NN, 及#CC)  (nn, 牛肋处#NN, 靠近#NN)  (assmod, 松软#NN, 牛肋处#NN)  (case, 牛肋处#NN, 的#DEG)  (nsubj, 肌肉#VV, 松软#NN)  (root, ROOT#null, 肌肉#VV)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (dep, 统称#NN, 指#VV)  (relcl, 肉块#NN, 带有#VV)  (conj, 油#NN, 筋#NN)  (conj, 油#NN, 肉#NN)  (nn, 花#NN, 油#NN)  (dobj, 带有#VV, 花#NN)  (mark, 带有#VV, 的#DEC)  (dobj, 指#VV, 肉块#NN)  (nsubj, 统称#NN, 这#PN)  (advmod, 统称#NN, 只#AD)  (cop, 统称#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 统称#NN, 种#M)  (ccomp, 肌肉#VV, 统称#NN)   (advmod, 分#VV, 若#CS)  (case, 部位#NN, 依#P)  (prep, 分#VV, 部位#NN)  (case, 部位#NN, 来#LC)  (dep, 叫做#VV, 分#VV)  (nn, 身上#NN, 牛#NN)  (nsubj, 叫做#VV, 身上#NN)  (nummod, 地方#NN, 许多#CD)  (assmod, 肉#NN, 地方#NN)  (case, 地方#NN, 的#DEG)  (nsubj, 叫做#VV, 肉#NN)  (advmod, 叫做#VV, 都#AD)  (mmod, 叫做#VV, 可以#VV)  (root, ROOT#null, 叫做#VV)  (dobj, 叫做#VV, 牛腩#NN)   (nn, 进口#NN, 国外#NN)  (assmod, 部分#NN, 进口#NN)  (case, 进口#NN, 的#DEG)  (nsubj, 为主#VV, 部分#NN)  (cop, 为主#VV, 是#VC)  (case, 肋条#NN, 以#P)  (nn, 条状#NN, 切成#NN)  (assmod, 肋条#NN, 条状#NN)  (case, 条状#NN, 的#DEG)  (nn, 肋条#NN, 牛#NN)  (prep, 为主#VV, 肋条#NN)  (root, ROOT#null, 为主#VV)  (advmod, 称#VV, 又#AD)  (dep, 为主#VV, 称#VV)  (dep, 肉#NN, 条#M)  (dobj, 称#VV, 肉#NN)  (conj, 取自#VV, 是#VC)  (cop, 取自#VV, 是#VC)  (dep, 为主#VV, 取自#VV)  (nn, 肉#NN, 肋骨#NN)  (nn, 肉#NN, 间的#NN)  (nn, 肉#NN, 去骨#NN)  (nn, 肉#NN, 条状#NN)  (dobj, 取自#VV, 肉#NN)  (nsubj, 多#VA, 瘦肉#NN)  (advmod, 多#VA, 较#AD)  (dep, 为主#VV, 多#VA)  (nn, 较少#NN, 脂肪#NN)  (nsubj, 少#VA, 较少#NN)  (nsubj, 少#VA, 筋也#NN)  (advmod, 少#VA, 较#AD)  (conj, 多#VA, 少#VA)  (dep, 为主#VV, 适合#VV)  (conj, 炖汤#NN, 红烧#NN)  (cc, 炖汤#NN, 或#CC)  (dobj, 适合#VV, 炖汤#NN)   (advmod, 有#VE, 另外#AD)  (case, 上层#NN, 在#P)  (nn, 上层#NN, 里脊肉#NN)  (prep, 有#VE, 上层#NN)  (root, ROOT#null, 有#VE)  (nummod, 片#M, 一#CD)  (clf, 油#NN, 片#M)  (conj, 油#NN, 筋少#NN)  (nsubj, 少#VA, 油#NN)  (dep, 有#VE, 少#VA)  (dep, 少#VA, 肉多#VA)  (advmod, 称作#VV, 但#AD)  (nn, 规则#NN, 形状#NN)  (nn, 规则#NN, 不大#NN)  (assmod, 里脊#NN, 规则#NN)  (case, 规则#NN, 的#DEG)  (loc, 称作#VV, 里脊#NN)  (case, 里脊#NN, 边#LC)  (nsubj, 称作#VV, 也可以#NN)  (dep, 有#VE, 称作#VV)  (dobj, 称作#VV, 牛腩#NN)  (cop, 部位#NN, 是#VC)  (assmod, 部位#NN, 上等#NN)  (case, 上等#NN, 的#DEG)  (amod, 部位#NN, 红烧#JJ)  (conj, 称作#VV, 部位#NN)   (nsubj, 算是#VV, 牛腱#NN)  (advmod, 算是#VV, 也#AD)  (mmod, 算是#VV, 可以#VV)  (root, ROOT#null, 算是#VV)  (assmod, 种#M, 牛腩#NN)  (case, 牛腩#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (range, 算是#VV, 种#M)  (advmod, 多#VA, 筋肉#AD)  (conj, 算是#VV, 多#VA)  (conj, 算是#VV, 油少#VV)  (advmod, 瘦肉#NN, 甚至#AD)  (advmod, 瘦肉#NN, 全#AD)  (cop, 瘦肉#NN, 是#VC)  (conj, 算是#VV, 瘦肉#NN)   (advmod, 用来#VV, 因此#AD)  (advmod, 用来#VV, 一般#AD)  (root, ROOT#null, 用来#VV)  (dobj, 用来#VV, 卤#NN)  (neg, 适合#VV, 不#AD)  (dep, 用来#VV, 适合#VV)  (dobj, 适合#VV, 炖汤#NN)  (advmod, 适合#VV, 更#AD)  (neg, 适合#VV, 不#AD)  (dep, 用来#VV, 适合#VV)  (dobj, 适合#VV, 红烧#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.调节病后体虚
+            牛肉富含蛋白质，氨基酸组成比猪肉更接近人体需要，能提高机体抗病能力，对生长发育及术后，病后调养的人在补充失血、修复组织等方面特别适宜，寒冬食牛肉可暖胃，是该季节的补益佳品。
+            2.补血养血
+            牛肉有补中益气，滋养脾胃，强健筋骨，化痰息风，止渴止涎之功效，适宜于中气下隐、气短体虚、筋骨酸软、贫血久病及面黄目眩之人食用。
+            3.强筋壮骨
+            水牛肉能安胎补神，黄牛肉能安中益气、健脾养胃、强筋壮骨。
+        </rawdata>
+
+        <segment>
+            调节  病  后体  虚
+            牛肉  富含  蛋白质  ，  氨基酸  组成  比  猪肉  更  接近  人体  需要  ，  能  提高  机体  抗病  能力  ，  对  生长  发育  及  术后  ，  病后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  特别  适宜  ，  寒冬  食  牛肉  可  暖胃  ，  是  该  季节  的  补益  佳品  。
+            补血  养  血
+            牛肉  有  补  中  益气  ，  滋养  脾胃  ，  强健  筋骨  ，  化痰  息风  ，  止渴  止涎  之  功效  ，  适宜于  中气  下  隐  、  气短  体虚  、  筋骨  酸软  、  贫血  久病  及  面黄  目眩  之  人  食用  。
+            强筋壮骨
+            水牛  肉  能  安胎补神  ，  黄牛肉  能  安  中  益气  、  健脾  养  胃  、  强筋壮骨  。
+        </segment>
+
+        <pos>
+            调节#VV  病#JJ  后体#NN  虚#AD
+            牛肉#NN  富含#NN  蛋白质#VV  ，#PU  氨基酸#NN  组成#NN  比#P  猪肉#NN  更#AD  接近#VV  人体#NN  需要#NN  ，#PU  能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#VV  及#CC  术后#VV  ，#PU  病后#NN  调养#NN  的#DEG  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  特别#AD  适宜#VA  ，#PU  寒冬#NN  食#NN  牛肉#NN  可#VV  暖胃#VV  ，#PU  是#VC  该#DT  季节#NN  的#DEG  补益#NN  佳品#NN  。#PU
+            补血#NN  养#VV  血#NN
+            牛肉#NN  有#VE  补#NN  中#LC  益气#NN  ，#PU  滋养#VV  脾胃#NN  ，#PU  强健#VV  筋骨#NN  ，#PU  化痰#VV  息风#NN  ，#PU  止渴#VV  止涎#NN  之#DEG  功效#NN  ，#PU  适宜于#NN  中气#NN  下#LC  隐#NR  、#PU  气短#NR  体虚#NR  、#PU  筋骨#NR  酸软#NR  、#PU  贫血#NR  久病#NR  及#CC  面黄#NR  目眩#NN  之#DEG  人#NN  食用#VV  。#PU
+            强筋壮骨#VV
+            水牛#NN  肉#NN  能#VV  安胎补神#NN  ，#PU  黄牛肉#AD  能#VV  安#NR  中#NR  益气#NR  、#PU  健脾#NR  养#VV  胃#NN  、#PU  强筋壮骨#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 调节#VV)  (amod, 后体#NN, 病#JJ)  (dobj, 调节#VV, 后体#NN)  (advmod, 调节#VV, 虚#AD)
+            (nn, 富含#NN, 牛肉#NN)  (nsubj, 蛋白质#VV, 富含#NN)  (root, ROOT#null, 蛋白质#VV)  (nn, 组成#NN, 氨基酸#NN)  (nsubj, 接近#VV, 组成#NN)  (case, 猪肉#NN, 比#P)  (prep, 接近#VV, 猪肉#NN)  (advmod, 接近#VV, 更#AD)  (ccomp, 蛋白质#VV, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (mmod, 提高#VV, 能#VV)  (dep, 接近#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 生长#NN, 对#P)  (prep, 发育#VV, 生长#NN)  (dep, 接近#VV, 发育#VV)  (cc, 发育#VV, 及#CC)  (conj, 发育#VV, 术后#VV)  (nn, 调养#NN, 病后#NN)  (assmod, 人#NN, 调养#NN)  (case, 调养#NN, 的#DEG)  (nsubj, 适宜#VA, 人#NN)  (case, 方面#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 方面#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (prep, 适宜#VA, 方面#NN)  (advmod, 适宜#VA, 特别#AD)  (conj, 接近#VV, 适宜#VA)  (nn, 牛肉#NN, 寒冬#NN)  (nn, 牛肉#NN, 食#NN)  (nsubj, 暖胃#VV, 牛肉#NN)  (dep, 暖胃#VV, 可#VV)  (conj, 接近#VV, 暖胃#VV)  (cop, 佳品#NN, 是#VC)  (det, 季节#NN, 该#DT)  (assmod, 佳品#NN, 季节#NN)  (case, 季节#NN, 的#DEG)  (nn, 佳品#NN, 补益#NN)  (conj, 蛋白质#VV, 佳品#NN)
+            (nsubj, 养#VV, 补血#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)
+            (nsubj, 有#VE, 牛肉#NN)  (root, ROOT#null, 有#VE)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (dobj, 有#VE, 益气#NN)  (conj, 有#VE, 滋养#VV)  (dobj, 滋养#VV, 脾胃#NN)  (conj, 有#VE, 强健#VV)  (dobj, 强健#VV, 筋骨#NN)  (conj, 有#VE, 化痰#VV)  (dobj, 化痰#VV, 息风#NN)  (conj, 有#VE, 止渴#VV)  (assmod, 功效#NN, 止涎#NN)  (case, 止涎#NN, 之#DEG)  (dobj, 止渴#VV, 功效#NN)  (nn, 中气#NN, 适宜于#NN)  (loc, 食用#VV, 中气#NN)  (case, 中气#NN, 下#LC)  (conj, 面黄#NR, 隐#NR)  (nn, 面黄#NR, 气短#NR)  (conj, 面黄#NR, 体虚#NR)  (nn, 面黄#NR, 筋骨#NR)  (conj, 面黄#NR, 酸软#NR)  (nn, 面黄#NR, 贫血#NR)  (conj, 面黄#NR, 久病#NR)  (cc, 面黄#NR, 及#CC)  (nn, 目眩#NN, 面黄#NR)  (assmod, 人#NN, 目眩#NN)  (case, 目眩#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (conj, 有#VE, 食用#VV)
+            (root, ROOT#null, 强筋壮骨#VV)
+            (nn, 肉#NN, 水牛#NN)  (nsubj, 能#VV, 肉#NN)  (conj, 养#VV, 能#VV)  (dobj, 能#VV, 安胎补神#NN)  (advmod, 能#VV, 黄牛肉#AD)  (conj, 能#VV, 能#VV)  (nn, 健脾#NR, 安#NR)  (nn, 健脾#NR, 中#NR)  (conj, 健脾#NR, 益气#NR)  (nsubj, 养#VV, 健脾#NR)  (root, ROOT#null, 养#VV)  (conj, 强筋壮骨#NN, 胃#NN)  (dobj, 养#VV, 强筋壮骨#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.牛腩提供高质量的蛋白质，含有全部种类的氨基酸，各种氨基酸的比例与人体蛋白质中各种氨基酸的比例基本一致，其中所含的肌氨酸比任何食物都高。
+            2.牛腩的脂肪含量很低，但它却是低脂的亚油酸的来源，还是潜在的抗氧化剂。
+            3.牛腩含有矿物质和维他命B群，包括烟酸，维生素B1和核黄素。牛肉还是每天所需要的铁质的最佳来源。
+            4.牛腩还含肉毒碱。
+        </rawdata>
+
+        <segment>
+            牛腩  提供  高质量  的  蛋白质  ，  含有  全部  种类  的  氨基酸  ，  各  种  氨基酸  的  比例  与  人体  蛋白质  中  各  种  氨基酸  的  比例  基本  一致  ，  其中  所含  的  肌氨酸  比  任何  食物  都  高  。
+            牛腩  的  脂肪  含量  很  低  ，  但  它  却  是  低脂  的  亚油酸  的  来源  ，  还是  潜在  的  抗氧化剂  。
+            牛腩  含有  矿物质  和  维他命  B群  ，  包括  烟酸  ，  维生素B1  和  核  黄素  。  牛肉  还是  每天  所需要  的  铁质  的  最佳  来源  。
+            牛腩  还  含  肉毒碱  。
+        </segment>
+
+        <pos>
+            牛腩#NN  提供#VV  高质量#NN  的#DEG  蛋白质#NN  ，#PU  含有#VV  全部#DT  种类#NN  的#DEG  氨基酸#NN  ，#PU  各#DT  种#M  氨基酸#NN  的#DEG  比例#NN  与#P  人体#NN  蛋白质#NN  中#LC  各#DT  种#M  氨基酸#NN  的#DEG  比例#NN  基本#AD  一致#VA  ，#PU  其中#NN  所含#NN  的#DEG  肌氨酸#NN  比#P  任何#DT  食物#NN  都#AD  高#VA  。#PU
+            牛腩#NN  的#DEG  脂肪#NN  含量#NN  很#AD  低#VA  ，#PU  但#AD  它#PN  却#AD  是#VC  低脂#NN  的#DEG  亚油酸#NN  的#DEG  来源#NN  ，#PU  还是#CC  潜在#JJ  的#DEG  抗氧化剂#NN  。#PU
+            牛腩#VV  含有#NN  矿物质#NN  和#CC  维他命#NN  B群#NN  ，#PU  包括#VV  烟酸#NN  ，#PU  维生素B1#CD  和#CC  核#NN  黄素#NN    。#PU  牛肉#VV  还是#AD  每天#VV  所需要#NN  的#DEG  铁质#NN  的#DEC  最佳#JJ  来源#NN    。#PU    。#PU
+            牛腩#NN  还#AD  含#VV  肉毒碱#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 提供#VV, 牛腩#NN)  (root, ROOT#null, 提供#VV)  (assmod, 蛋白质#NN, 高质量#NN)  (case, 高质量#NN, 的#DEG)  (dobj, 提供#VV, 蛋白质#NN)  (conj, 提供#VV, 含有#VV)  (det, 种类#NN, 全部#DT)  (assmod, 氨基酸#NN, 种类#NN)  (case, 种类#NN, 的#DEG)  (dobj, 含有#VV, 氨基酸#NN)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 比例#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 一致#VA, 比例#NN)  (case, 蛋白质#NN, 与#P)  (nn, 蛋白质#NN, 人体#NN)  (prep, 一致#VA, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 比例#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 一致#VA, 比例#NN)  (advmod, 一致#VA, 基本#AD)  (conj, 提供#VV, 一致#VA)  (nn, 所含#NN, 其中#NN)  (assmod, 肌氨酸#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nsubj, 高#VA, 肌氨酸#NN)  (case, 食物#NN, 比#P)  (det, 食物#NN, 任何#DT)  (prep, 高#VA, 食物#NN)  (advmod, 高#VA, 都#AD)  (conj, 一致#VA, 高#VA)
+            (assmod, 含量#NN, 牛腩#NN)  (case, 牛腩#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)  (advmod, 来源#NN, 但#AD)  (nsubj, 来源#NN, 它#PN)  (advmod, 来源#NN, 却#AD)  (cop, 来源#NN, 是#VC)  (assmod, 亚油酸#NN, 低脂#NN)  (case, 低脂#NN, 的#DEG)  (assmod, 来源#NN, 亚油酸#NN)  (case, 亚油酸#NN, 的#DEG)  (conj, 低#VA, 来源#NN)  (cc, 低#VA, 还是#CC)  (assmod, 抗氧化剂#NN, 潜在#JJ)  (case, 潜在#JJ, 的#DEG)  (conj, 低#VA, 抗氧化剂#NN)
+            (root, ROOT#null, 牛腩#VV)  (nn, B群#NN, 含有#NN)  (conj, B群#NN, 矿物质#NN)  (cc, B群#NN, 和#CC)  (nn, B群#NN, 维他命#NN)  (dobj, 牛腩#VV, B群#NN)  (conj, 牛腩#VV, 包括#VV)  (dobj, 包括#VV, 烟酸#NN)  (conj, 牛腩#VV, 维生素B1#CD)  (cc, 牛腩#VV, 和#CC)  (nn, 黄素#NN, 核#NN)  (conj, 牛腩#VV, 黄素#NN)   (root, ROOT#null, 牛肉#VV)  (advmod, 每天#VV, 还是#AD)  (relcl, 来源#NN, 每天#VV)  (assmod, 铁质#NN, 所需要#NN)  (case, 所需要#NN, 的#DEG)  (dobj, 每天#VV, 铁质#NN)  (mark, 每天#VV, 的#DEC)  (amod, 来源#NN, 最佳#JJ)  (dobj, 牛肉#VV, 来源#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含#VV, 牛腩#NN)  (advmod, 含#VV, 还#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 肉毒碱#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹饪时放一个山楂、一块橘皮或一点茶叶，牛肉易烂；清炖牛肉能较好地保存营养成分。
+            2.煮老牛肉的前一天晚上把牛肉涂上一层芥末，第二天用冷水冲洗干净后下锅煮，煮时再放点酒、醋，这样处理之后老牛肉容易煮烂，而且肉质变嫩，色佳味美，香气扑鼻。
+            3.牛腩一般比较嫩，适合炖。
+            4.牛腩食用不宜用卤的方法。
+            5.肠胃不好的适宜食用西红柿炖牛腩。
+        </rawdata>
+
+        <segment>
+            烹饪  时  放  一  个  山楂  、  一  块  橘皮  或  一点  茶叶  ，  牛肉  易烂  ；  清炖  牛肉  能  较好  地  保存  营养  成分  。
+            煮  老  牛肉  的  前  一  天  晚上  把  牛肉  涂上  一  层  芥末  ，  第二  天  用  冷水  冲洗  干净  后  下锅  煮  ，  煮时  再放点  酒  、  醋  ，  这样  处理  之后  老  牛肉  容易  煮烂  ，  而且  肉质  变嫩  ，  色佳  味美  ，  香气  扑鼻  。
+            牛腩  一般  比较  嫩  ，  适合  炖  。
+            牛腩  食用  不  宜  用卤  的  方法  。
+            肠胃  不  好  的  适宜  食用  西红柿  炖  牛腩  。
+        </segment>
+
+        <pos>
+            烹饪#NN  时#LC  放#VV  一#CD  个#M  山楂#NN  、#PU  一#CD  块#M  橘皮#NN  或#CC  一点#CD  茶叶#NN  ，#PU  牛肉#NR  易烂#VV  ；#PU  清炖#NN  牛肉#AD  能#VV  较好#AD  地#DEV  保存#VV  营养#VA  成分#NN  。#PU
+            煮#VV  老#JJ  牛肉#NN  的#DEC  前#DT  一#CD  天#M  晚上#NN  把#BA  牛肉#NR  涂上#VV  一#CD  层#M  芥末#NN  ，#PU  第二#OD  天#M  用#P  冷水#NN  冲洗#NN  干净#VA  后#LC  下锅#VV  煮#VV  ，#PU  煮时#VV  再放点#NN  酒#NN  、#PU  醋#NN  ，#PU  这样#AD  处理#NN  之后#LC  老#JJ  牛肉#NN  容易#VA  煮烂#VA  ，#PU  而且#CC  肉质#VV  变嫩#NN  ，#PU  色佳#VV  味美#NN  ，#PU  香气#VV  扑鼻#NN  。#PU
+            牛腩#NN  一般#AD  比较#AD  嫩#VV  ，#PU  适合#VV  炖#NN  。#PU
+            牛腩#NN  食用#VV  不#AD  宜#NR  用卤#VV  的#DEC  方法#NN  。#PU
+            肠胃#NN  不#AD  好#VA  的#DEC  适宜#VV  食用#VV  西红柿#NN  炖#NN  牛腩#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 放#VV, 烹饪#NN)  (case, 烹饪#NN, 时#LC)  (root, ROOT#null, 放#VV)  (nummod, 个#M, 一#CD)  (clf, 山楂#NN, 个#M)  (conj, 茶叶#NN, 山楂#NN)  (nummod, 块#M, 一#CD)  (clf, 橘皮#NN, 块#M)  (conj, 茶叶#NN, 橘皮#NN)  (cc, 茶叶#NN, 或#CC)  (nummod, 茶叶#NN, 一点#CD)  (dobj, 放#VV, 茶叶#NN)  (nsubj, 易烂#VV, 牛肉#NR)  (conj, 放#VV, 易烂#VV)  (nsubj, 保存#VV, 清炖#NN)  (advmod, 能#VV, 牛肉#AD)  (dvpmod, 保存#VV, 能#VV)  (advmod, 能#VV, 较好#AD)  (mark, 能#VV, 地#DEV)  (ccomp, 易烂#VV, 保存#VV)  (rcomp, 保存#VV, 营养#VA)  (dobj, 保存#VV, 成分#NN)
+            (relcl, 晚上#NN, 煮#VV)  (amod, 牛肉#NN, 老#JJ)  (dobj, 煮#VV, 牛肉#NN)  (mark, 煮#VV, 的#DEC)  (det, 晚上#NN, 前#DT)  (nummod, 天#M, 一#CD)  (dep, 前#DT, 天#M)  (nsubj, 涂上#VV, 晚上#NN)  (ba, 涂上#VV, 把#BA)  (nsubj, 涂上#VV, 牛肉#NR)  (root, ROOT#null, 涂上#VV)  (nummod, 层#M, 一#CD)  (clf, 芥末#NN, 层#M)  (dobj, 涂上#VV, 芥末#NN)  (ordmod, 天#M, 第二#OD)  (dep, 下锅#VV, 天#M)  (case, 干净#VA, 用#P)  (nn, 冲洗#NN, 冷水#NN)  (nsubj, 干净#VA, 冲洗#NN)  (prep, 下锅#VV, 干净#VA)  (case, 干净#VA, 后#LC)  (conj, 涂上#VV, 下锅#VV)  (comod, 下锅#VV, 煮#VV)  (conj, 涂上#VV, 煮时#VV)  (nn, 醋#NN, 再放点#NN)  (conj, 醋#NN, 酒#NN)  (dobj, 煮时#VV, 醋#NN)  (advmod, 容易#VA, 这样#AD)  (loc, 容易#VA, 处理#NN)  (case, 处理#NN, 之后#LC)  (amod, 牛肉#NN, 老#JJ)  (nsubj, 容易#VA, 牛肉#NN)  (conj, 涂上#VV, 容易#VA)  (comod, 容易#VA, 煮烂#VA)  (cc, 容易#VA, 而且#CC)  (conj, 容易#VA, 肉质#VV)  (dobj, 肉质#VV, 变嫩#NN)  (conj, 容易#VA, 色佳#VV)  (dobj, 色佳#VV, 味美#NN)  (conj, 容易#VA, 香气#VV)  (dobj, 香气#VV, 扑鼻#NN)
+            (nsubj, 嫩#VV, 牛腩#NN)  (advmod, 嫩#VV, 一般#AD)  (advmod, 嫩#VV, 比较#AD)  (root, ROOT#null, 嫩#VV)  (dep, 嫩#VV, 适合#VV)  (dobj, 适合#VV, 炖#NN)
+            (nsubj, 食用#VV, 牛腩#NN)  (root, ROOT#null, 食用#VV)  (neg, 用卤#VV, 不#AD)  (prep, 用卤#VV, 宜#NR)  (relcl, 方法#NN, 用卤#VV)  (mark, 用卤#VV, 的#DEC)  (dobj, 食用#VV, 方法#NN)
+            (nsubj, 好#VA, 肠胃#NN)  (neg, 好#VA, 不#AD)  (nsubj, 食用#VV, 好#VA)  (mark, 好#VA, 的#DEC)  (mmod, 食用#VV, 适宜#VV)  (root, ROOT#null, 食用#VV)  (nn, 牛腩#NN, 西红柿#NN)  (nn, 牛腩#NN, 炖#NN)  (dobj, 食用#VV, 牛腩#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081421483997.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

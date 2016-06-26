@@ -1,0 +1,430 @@
+<content>
+
+    <id>
+        205
+    </id>
+
+    <foodname>
+        胡萝卜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        胡萝菔、黄萝卜、金笋、丁香萝卜、红芦菔、甘笋、黄根、卜香菜、药萝卜、赤珊瑚
+    </alias>
+
+    <season>
+        冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 虚寒者#VV, 脾胃#NN)  (root, ROOT#null, 虚寒者#VV)  (dobj, 虚寒者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。更适宜癌症、高血压、夜盲症、干眼症患者、营养不良、食欲不振者、皮肤粗糙者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  更  适宜  癌症  、  高  血压  、  夜盲症  、  干眼症  患者  、  营养  不良  、  食欲不振者  、  皮肤  粗糙  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  更#AD  适宜#VV  癌症#NN  、#PU  高#JJ  血压#NN  、#PU  夜盲症#NN  、#PU  干眼症#NN  患者#NN  、#PU  营养#VA  不良#JJ  、#PU  食欲不振者#JJ  、#PU  皮肤#JJ  粗糙#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 更#AD)  (root, ROOT#null, 适宜#VV)  (conj, 者#NN, 癌症#NN)  (amod, 血压#NN, 高#JJ)  (conj, 者#NN, 血压#NN)  (conj, 者#NN, 夜盲症#NN)  (nn, 患者#NN, 干眼症#NN)  (conj, 者#NN, 患者#NN)  (relcl, 粗糙#NN, 营养#VA)  (amod, 粗糙#NN, 不良#JJ)  (conj, 不良#JJ, 食欲不振者#JJ)  (dep, 不良#JJ, 皮肤#JJ)  (nn, 者#NN, 粗糙#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                8.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                688
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                4130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                4.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                190
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                71.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            胡萝卜为伞形科，一年生或二年生的根菜。原产地中海沿岸，我国栽培甚为普遍，以山东、河南、浙江、云南等省种植最多，品质亦佳，秋冬季节上市。胡萝卜供食用的部分是肥嫩的肉质直根。胡萝卜的品种很多，按色泽可分为红、黄、白、紫等数种，我国栽培最多的是红、黄两种。按形状可分为圆锥形和圆柱形。胡萝卜肉质细密，质地脆嫩，有特殊的甜味，并含有丰富的胡萝卜素，维生素C和B族维生素。胡萝卜的品质要求：以质细味甜，脆嫩多汁，表皮光滑，形状整齐，心柱小，肉厚，不糠，无裂口和病虫伤害的为佳。
+            胡萝卜原产于亚洲的西南部，阿富汗为最早演化中心，栽培历史在2000年以上。公元10世纪从伊朗引入欧洲大陆，15世纪见于英国，发展成欧洲生态型，尤以地中海沿岸最多种植。16世纪传入美国。约在13世纪，胡萝卜从伊朗引入中国，发展成中国生态型，以山东、河南、浙江、云南等省种植最多。胡萝卜于16世纪从中国传入日本。
+        </rawdata>
+
+        <segment>
+            胡萝卜  为  伞形科  ，  一  年  生  或  二  年  生  的  根菜  。  原产  地中海  沿岸  ，  我  国  栽培  甚为  普遍  ，  以  山东  、  河南  、  浙江  、  云南  等  省  种植  最多  ，  品质  亦  佳  ，  秋冬  季节  上市  。  胡萝卜  供  食用  的  部分  是  肥嫩  的  肉质  直根  。  胡萝卜  的  品种  很多  ，  按  色泽  可  分为  红  、  黄  、  白  、  紫  等  数种  ，  我国  栽培  最  多  的  是  红  、  黄  两  种  。  按  形状  可  分为  圆锥形  和  圆柱形  。  胡萝卜  肉质  细密  ，  质地  脆嫩  ，  有  特殊  的  甜味  ，  并  含有  丰富  的  胡萝卜素  ，  维生素C  和  B  族  维生素  。  胡萝卜  的  品质  要求  ：  以  质  细  味  甜  ，  脆嫩  多汁  ，  表皮  光滑  ，  形状  整齐  ，  心柱小  ，  肉厚  ，  不糠  ，  无  裂口  和  病虫  伤害  的  为佳  。
+            胡萝卜  原产  于  亚洲  的  西南部  ，  阿富汗  为  最早  演化  中心  ，  栽培  历史  在  2000年  以上  。  公元  10世纪  从  伊朗  引入  欧洲  大陆  ，  15  世纪  见于  英国  ，  发展  成  欧洲  生态型  ，  尤以  地中海  沿岸  最  多  种植  。  16  世纪  传入  美国  。  约在  13  世纪  ，  胡萝卜  从  伊朗  引入  中国  ，  发展  成  中国  生态型  ，  以  山东  、  河南  、  浙江  、  云南  等  省  种植  最多  。  胡萝卜  于  16  世纪  从  中国  传入  日本  。
+        </segment>
+
+        <pos>
+            胡萝卜#NN  为#VC  伞形科#NR  ，#PU  一#CD  年#M  生#VV  或#CC  二#CD  年#M  生#VV  的#DEC  根菜#NN    。#PU  原产#NR  地中海#NR  沿岸#NN  ，#PU  我#PN  国#NN  栽培#VV  甚为#NN  普遍#VA  ，#PU  以#P  山东#NR  、#PU  河南#NR  、#PU  浙江#NR  、#PU  云南#NR  等#ETC  省#NN  种植#VV  最多#AD  ，#PU  品质#NN  亦#AD  佳#VA  ，#PU  秋冬#NN  季节#NN  上市#VV    。#PU  胡萝卜#NN  供#NN  食用#VV  的#DEC  部分#NN  是#VC  肥嫩#NN  的#DEG  肉质#NN  直根#NN    。#PU  胡萝卜#NN  的#DEG  品种#NN  很多#CD  ，#PU  按#P  色泽#NN  可#VV  分为#VV  红#JJ  、#PU  黄#NR  、#PU  白#VA  、#PU  紫#VA  等#ETC  数种#NN  ，#PU  我国#AD  栽培#VV  最#AD  多#VA  的#DEC  是#VC  红#JJ  、#PU  黄#JJ  两#CD  种#NN    。#PU  按#P  形状#NN  可#VV  分为#VV  圆锥形#NN  和#CC  圆柱形#NN    。#PU  胡萝卜#VV  肉质#NN  细密#NN  ，#PU  质地#VV  脆嫩#NN  ，#PU  有#VE  特殊#VA  的#DEC  甜味#NN  ，#PU  并#CC  含有#VV  丰富#VA  的#DEC  胡萝卜素#NN  ，#PU  维生素C#VV  和#CC  B#VV  族#NN  维生素#NN    。#PU  胡萝卜#NN  的#DEG  品质#NN  要求#VV  ：#PU  以#P  质#NN  细#VV  味#NN  甜#NN  ，#PU  脆嫩#VV  多汁#NN  ，#PU  表皮#AD  光滑#VV  ，#PU  形状#NN  整齐#VA  ，#PU  心柱小#VV  ，#PU  肉厚#VV  ，#PU  不糠#VV  ，#PU  无#VE  裂口#NN  和#CC  病虫#NN  伤害#NN  的#DEG  为佳#NN    。#PU    。#PU
+            胡萝卜#NR  原产#VV  于#P  亚洲#NR  的#DEG  西南部#NN  ，#PU  阿富汗#NR  为#P  最早#AD  演化#VV  中心#NN  ，#PU  栽培#VV  历史#NN  在#P  2000年#NT  以上#LC    。#PU  公元#JJ  10世纪#CD  从#P  伊朗#NR  引入#VV  欧洲#NR  大陆#NN  ，#PU  15#CD  世纪#NN  见于#VV  英国#NR  ，#PU  发展#VV  成#VV  欧洲#NR  生态型#NN  ，#PU  尤以#VV  地中海#NR  沿岸#NN  最#AD  多#JJ  种植#NN    。#PU  16#CD  世纪#NN  传入#VV  美国#NR    。#PU  约在#VV  13#CD  世纪#NN  ，#PU  胡萝卜#AD  从#P  伊朗#NR  引入#VV  中国#NR  ，#PU  发展#VV  成#VV  中国#NR  生态型#NN  ，#PU  以#P  山东#NR  、#PU  河南#NR  、#PU  浙江#NR  、#PU  云南#NR  等#ETC  省#NN  种植#VV  最多#AD    。#PU  胡萝卜#NN  于#P  16#CD  世纪#NN  从#P  中国#NR  传入#VV  日本#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 根菜#NN, 胡萝卜#NN)  (cop, 根菜#NN, 为#VC)  (nsubj, 生#VV, 伞形科#NR)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (relcl, 根菜#NN, 生#VV)  (cc, 生#VV, 或#CC)  (nummod, 年#M, 二#CD)  (nsubj, 生#VV, 年#M)  (conj, 生#VV, 生#VV)  (mark, 生#VV, 的#DEC)  (root, ROOT#null, 根菜#NN)   (nn, 地中海#NR, 原产#NR)  (nn, 沿岸#NN, 地中海#NR)  (nsubj, 栽培#VV, 沿岸#NN)  (nn, 国#NN, 我#PN)  (nsubj, 栽培#VV, 国#NN)  (root, ROOT#null, 栽培#VV)  (dobj, 栽培#VV, 甚为#NN)  (conj, 栽培#VV, 普遍#VA)  (case, 省#NN, 以#P)  (conj, 云南#NR, 山东#NR)  (conj, 云南#NR, 河南#NR)  (conj, 云南#NR, 浙江#NR)  (nn, 省#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (prep, 种植#VV, 省#NN)  (dep, 栽培#VV, 种植#VV)  (advmod, 种植#VV, 最多#AD)  (nsubj, 佳#VA, 品质#NN)  (advmod, 佳#VA, 亦#AD)  (conj, 栽培#VV, 佳#VA)  (nn, 季节#NN, 秋冬#NN)  (nsubj, 上市#VV, 季节#NN)  (conj, 栽培#VV, 上市#VV)   (nn, 供#NN, 胡萝卜#NN)  (nsubj, 食用#VV, 供#NN)  (relcl, 部分#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 直根#NN, 部分#NN)  (cop, 直根#NN, 是#VC)  (assmod, 直根#NN, 肥嫩#NN)  (case, 肥嫩#NN, 的#DEG)  (nn, 直根#NN, 肉质#NN)  (root, ROOT#null, 直根#NN)   (assmod, 品种#NN, 胡萝卜#NN)  (case, 胡萝卜#NN, 的#DEG)  (nsubj, 分为#VV, 品种#NN)  (dep, 分为#VV, 很多#CD)  (case, 色泽#NN, 按#P)  (prep, 分为#VV, 色泽#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (amod, 数种#NN, 红#JJ)  (conj, 数种#NN, 黄#NR)  (nfincl, 数种#NN, 白#VA)  (dep, 白#VA, 紫#VA)  (dep, 白#VA, 等#ETC)  (dobj, 分为#VV, 数种#NN)  (advmod, 栽培#VV, 我国#AD)  (dep, 分为#VV, 栽培#VV)  (advmod, 多#VA, 最#AD)  (nsubj, 种#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (cop, 种#NN, 是#VC)  (amod, 种#NN, 红#JJ)  (dep, 红#JJ, 黄#JJ)  (nummod, 种#NN, 两#CD)  (conj, 分为#VV, 种#NN)   (case, 形状#NN, 按#P)  (prep, 分为#VV, 形状#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (conj, 圆柱形#NN, 圆锥形#NN)  (cc, 圆柱形#NN, 和#CC)  (dobj, 分为#VV, 圆柱形#NN)   (root, ROOT#null, 胡萝卜#VV)  (nn, 细密#NN, 肉质#NN)  (dobj, 胡萝卜#VV, 细密#NN)  (conj, 胡萝卜#VV, 质地#VV)  (dobj, 质地#VV, 脆嫩#NN)  (conj, 胡萝卜#VV, 有#VE)  (relcl, 甜味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (dobj, 有#VE, 甜味#NN)  (cc, 胡萝卜#VV, 并#CC)  (conj, 胡萝卜#VV, 含有#VV)  (relcl, 胡萝卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 胡萝卜素#NN)  (conj, 胡萝卜#VV, 维生素C#VV)  (cc, 胡萝卜#VV, 和#CC)  (conj, 胡萝卜#VV, B#VV)  (nn, 维生素#NN, 族#NN)  (dobj, B#VV, 维生素#NN)   (assmod, 品质#NN, 胡萝卜#NN)  (case, 胡萝卜#NN, 的#DEG)  (nsubj, 要求#VV, 品质#NN)  (xsubj, 细#VV, 品质#NN)  (root, ROOT#null, 要求#VV)  (case, 质#NN, 以#P)  (prep, 细#VV, 质#NN)  (ccomp, 要求#VV, 细#VV)  (nn, 甜#NN, 味#NN)  (dobj, 细#VV, 甜#NN)  (conj, 细#VV, 脆嫩#VV)  (dobj, 脆嫩#VV, 多汁#NN)  (advmod, 光滑#VV, 表皮#AD)  (conj, 细#VV, 光滑#VV)  (nsubj, 整齐#VA, 形状#NN)  (ccomp, 光滑#VV, 整齐#VA)  (conj, 细#VV, 心柱小#VV)  (conj, 细#VV, 肉厚#VV)  (conj, 细#VV, 不糠#VV)  (conj, 细#VV, 无#VE)  (conj, 病虫#NN, 裂口#NN)  (cc, 病虫#NN, 和#CC)  (nn, 伤害#NN, 病虫#NN)  (assmod, 为佳#NN, 伤害#NN)  (case, 伤害#NN, 的#DEG)  (dobj, 无#VE, 为佳#NN)   (root, ROOT#null, null#null)
+            (nsubj, 原产#VV, 胡萝卜#NR)  (root, ROOT#null, 原产#VV)  (case, 西南部#NN, 于#P)  (assmod, 西南部#NN, 亚洲#NR)  (case, 亚洲#NR, 的#DEG)  (prep, 栽培#VV, 西南部#NN)  (nsubj, 栽培#VV, 阿富汗#NR)  (case, 演化#VV, 为#P)  (advmod, 演化#VV, 最早#AD)  (prep, 栽培#VV, 演化#VV)  (dobj, 演化#VV, 中心#NN)  (ccomp, 原产#VV, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)  (case, 2000年#NT, 在#P)  (prep, 栽培#VV, 2000年#NT)  (case, 2000年#NT, 以上#LC)   (amod, 10世纪#CD, 公元#JJ)  (dep, 引入#VV, 10世纪#CD)  (case, 伊朗#NR, 从#P)  (prep, 引入#VV, 伊朗#NR)  (root, ROOT#null, 引入#VV)  (nn, 大陆#NN, 欧洲#NR)  (dobj, 引入#VV, 大陆#NN)  (nummod, 世纪#NN, 15#CD)  (dep, 见于#VV, 世纪#NN)  (conj, 引入#VV, 见于#VV)  (dobj, 见于#VV, 英国#NR)  (conj, 引入#VV, 发展#VV)  (dep, 发展#VV, 成#VV)  (nn, 生态型#NN, 欧洲#NR)  (dobj, 成#VV, 生态型#NN)  (conj, 引入#VV, 尤以#VV)  (nn, 沿岸#NN, 地中海#NR)  (nn, 种植#NN, 沿岸#NN)  (advmod, 多#JJ, 最#AD)  (amod, 种植#NN, 多#JJ)  (dobj, 尤以#VV, 种植#NN)   (nummod, 世纪#NN, 16#CD)  (nsubj, 传入#VV, 世纪#NN)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 美国#NR)   (root, ROOT#null, 约在#VV)  (nummod, 世纪#NN, 13#CD)  (dobj, 约在#VV, 世纪#NN)  (advmod, 引入#VV, 胡萝卜#AD)  (case, 伊朗#NR, 从#P)  (prep, 引入#VV, 伊朗#NR)  (conj, 约在#VV, 引入#VV)  (dobj, 引入#VV, 中国#NR)  (conj, 约在#VV, 发展#VV)  (dep, 发展#VV, 成#VV)  (nn, 生态型#NN, 中国#NR)  (dobj, 成#VV, 生态型#NN)  (case, 省#NN, 以#P)  (conj, 云南#NR, 山东#NR)  (conj, 云南#NR, 河南#NR)  (conj, 云南#NR, 浙江#NR)  (nn, 省#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (prep, 种植#VV, 省#NN)  (conj, 约在#VV, 种植#VV)  (advmod, 种植#VV, 最多#AD)   (nsubj, 传入#VV, 胡萝卜#NN)  (case, 世纪#NN, 于#P)  (nummod, 世纪#NN, 16#CD)  (prep, 传入#VV, 世纪#NN)  (case, 中国#NR, 从#P)  (prep, 传入#VV, 中国#NR)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 日本#NR)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强抵抗力
+            胡萝卜中的木质素也能提高，间接消灭癌细胞。
+            2.降糖降脂
+            降低血脂，促进肾上腺素的合成，还有降压，强心作用，是高血压、冠心病患者的食疗佳品。
+            3.明目
+            胡萝卜含有大量胡萝卜素，进入机体后，在肝脏及小肠粘膜内经过酶的作用，其中50%变成维生素A，有补肝明目的作用，可治疗夜盲症。
+            4.利膈宽肠
+            植物纤维增加胃肠蠕动，促进代谢，通便防癌。
+        </rawdata>
+
+        <segment>
+            增强  抵抗力
+            胡萝卜  中的  木质  素  也  能  提高  ，  间接  消灭  癌细胞  。
+            降糖  降脂
+            降低  血脂  ，  促进  肾上腺素  的  合成  ，  还有  降压  ，  强  心  作用  ，  是  高血压  、  冠心病  患者  的  食疗  佳品  。
+            明目
+            胡萝卜  含有  大量  胡萝卜素  ，  进入  机体  后  ，  在  肝脏  及  小肠  粘膜  内  经过  酶的  作用  ，  其中  50%  变成  维生素A  ，  有  补肝  明  目的  作用  ，  可  治疗  夜盲症  。
+            利膈宽肠
+            植物  纤维  增加  胃肠  蠕动  ，  促进  代谢  ，  通便  防癌  。
+        </segment>
+
+        <pos>
+            增强#VV  抵抗力#NN
+            胡萝卜#NN  中的#NN  木质#NN  素#AD  也#AD  能#VV  提高#VV  ，#PU  间接#AD  消灭#VV  癌细胞#NN  。#PU
+            降糖#JJ  降脂#NN
+            降低#VV  血脂#NN  ，#PU  促进#VV  肾上腺素#NN  的#DEC  合成#JJ  ，#PU  还有#AD  降压#NN  ，#PU  强#JJ  心#NN  作用#NN  ，#PU  是#VC  高血压#NN  、#PU  冠心病#NN  患者#NN  的#DEG  食疗#NN  佳品#NN  。#PU
+            明目#VV
+            胡萝卜#NN  含有#VV  大量#CD  胡萝卜素#NN  ，#PU  进入#VV  机体#NN  后#LC  ，#PU  在#P  肝脏#NN  及#CC  小肠#NN  粘膜#NN  内#LC  经过#P  酶的#NN  作用#NN  ，#PU  其中#NN  50#CD  %#NN  变成#VV  维生素A#NN  ，#PU  有#VE  补肝#NT  明#NT  目的#NN  作用#NN  ，#PU  可#VV  治疗#VV  夜盲症#NN  。#PU
+            利膈宽肠#VV
+            植物#NN  纤维#NN  增加#VV  胃肠#NN  蠕动#NN  ，#PU  促进#VV  代谢#NN  ，#PU  通便#VV  防癌#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 抵抗力#NN)
+            (nn, 木质#NN, 胡萝卜#NN)  (nn, 木质#NN, 中的#NN)  (nsubj, 提高#VV, 木质#NN)  (advmod, 提高#VV, 素#AD)  (advmod, 提高#VV, 也#AD)  (dep, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (advmod, 消灭#VV, 间接#AD)  (dep, 提高#VV, 消灭#VV)  (dobj, 消灭#VV, 癌细胞#NN)
+            (amod, 降脂#NN, 降糖#JJ)  (root, ROOT#null, 降脂#NN)
+            (relcl, 心#NN, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (conj, 降低#VV, 促进#VV)  (dobj, 促进#VV, 肾上腺素#NN)  (mark, 降低#VV, 的#DEC)  (nfincl, 心#NN, 合成#JJ)  (advmod, 降压#NN, 还有#AD)  (dep, 合成#JJ, 降压#NN)  (conj, 合成#JJ, 强#JJ)  (nn, 作用#NN, 心#NN)  (dep, 佳品#NN, 作用#NN)  (cop, 佳品#NN, 是#VC)  (conj, 冠心病#NN, 高血压#NN)  (nn, 患者#NN, 冠心病#NN)  (assmod, 佳品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 佳品#NN, 食疗#NN)  (root, ROOT#null, 佳品#NN)
+            (root, ROOT#null, 明目#VV)
+            (nsubj, 含有#VV, 胡萝卜#NN)  (root, ROOT#null, 含有#VV)  (nummod, 胡萝卜素#NN, 大量#CD)  (dobj, 含有#VV, 胡萝卜素#NN)  (loc, 变成#VV, 进入#VV)  (dobj, 进入#VV, 机体#NN)  (case, 进入#VV, 后#LC)  (case, 粘膜#NN, 在#P)  (conj, 粘膜#NN, 肝脏#NN)  (cc, 粘膜#NN, 及#CC)  (nn, 粘膜#NN, 小肠#NN)  (prep, 变成#VV, 粘膜#NN)  (case, 粘膜#NN, 内#LC)  (case, 作用#NN, 经过#P)  (nn, 作用#NN, 酶的#NN)  (prep, 变成#VV, 作用#NN)  (nsubj, 变成#VV, 其中#NN)  (nummod, %#NN, 50#CD)  (dep, 变成#VV, %#NN)  (conj, 含有#VV, 变成#VV)  (dobj, 变成#VV, 维生素A#NN)  (conj, 变成#VV, 有#VE)  (nn, 明#NT, 补肝#NT)  (nn, 作用#NN, 明#NT)  (nn, 作用#NN, 目的#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 治疗#VV, 可#VV)  (conj, 变成#VV, 治疗#VV)  (dobj, 治疗#VV, 夜盲症#NN)
+            (root, ROOT#null, 利膈宽肠#VV)
+            (nn, 纤维#NN, 植物#NN)  (nsubj, 增加#VV, 纤维#NN)  (root, ROOT#null, 增加#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 增加#VV, 蠕动#NN)  (conj, 增加#VV, 促进#VV)  (dobj, 促进#VV, 代谢#NN)  (conj, 增加#VV, 通便#VV)  (dobj, 通便#VV, 防癌#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善生长发育  辅助降血脂  辅助降血糖  明目  通便  健脾  和胃  清热解毒  化痰止咳  养肝明目  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.胡萝卜素转变成维生素A，在预防上皮细胞癌变的过程中具有重要作用，胡萝卜中的木质素也能提高。作为一种抗氧化，具有抑制氧化及保护机体正常细胞免受氧化损害的防癌作用。
+            2.胡萝卜素既有造血功能补充人体所需的血液，从而改善贫血或冷血症，同时含有丰富的钾。
+            3.胡萝卜含有植物纤维吸水性强在肠道中体积容易膨胀是肠道中的“充盈物质”。
+            4.胡萝卜中的维生素A是骨骼正常发育的必需物质，有利于细胞的生殖与增长。
+        </rawdata>
+
+        <segment>
+            胡萝卜素  转变  成  维生素A  ，  在  预防  上皮  细胞  癌变  的  过程  中  具有  重要  作用  ，  胡萝卜  中的  木质  素  也  能  提高  。  作为  一  种  抗氧化  ，  具有  抑制  氧化  及  保护  机体  正常  细胞  免受  氧化  损害  的  防癌  作用  。
+            胡萝卜素  既有  造血  功能  补充  人体  所  需  的  血液  ，  从而  改善  贫血  或  冷血症  ，  同时  含有  丰富  的  钾  。
+            胡萝卜  含有  植物  纤维  吸水  性强  在  肠道  中  体积  容易  膨胀  是  肠道  中  的  “  充盈  物质  ”  。
+            胡萝卜  中  的  维生素A  是  骨骼  正常  发育  的  必需  物质  ，  有利于  细胞  的  生殖  与  增长  。
+        </segment>
+
+        <pos>
+            胡萝卜素#NN  转变#VV  成#VV  维生素A#NN  ，#PU  在#P  预防#VV  上皮#NN  细胞#NN  癌变#NN  的#DEC  过程#NN  中#LC  具有#VV  重要#JJ  作用#NN  ，#PU  胡萝卜#NN  中的#NN  木质#NN  素#AD  也#AD  能#VV  提高#VV    。#PU  作为#VV  一#CD  种#M  抗氧化#NN  ，#PU  具有#VV  抑制#VV  氧化#NN  及#CC  保护#NN  机体#NN  正常#JJ  细胞#NN  免受#NN  氧化#NN  损害#NN  的#DEC  防癌#JJ  作用#NN    。#PU    。#PU
+            胡萝卜素#NN  既有#AD  造血#VV  功能#NN  补充#NN  人体#NN  所#MSP  需#VV  的#DEC  血液#NN  ，#PU  从而#AD  改善#VV  贫血#NN  或#CC  冷血症#NN  ，#PU  同时#AD  含有#VV  丰富#VA  的#DEC  钾#NN  。#PU
+            胡萝卜#NN  含有#NN  植物#NN  纤维#NN  吸水#NN  性强#NN  在#P  肠道#NN  中#LC  体积#NN  容易#VA  膨胀#NN  是#VC  肠道#NN  中#LC  的#DEG  ``#NN  充盈#NN  物质#NN  ''#NN  。#PU
+            胡萝卜#NN  中#LC  的#DEG  维生素A#NN  是#VC  骨骼#NN  正常#AD  发育#VV  的#DEC  必需#VV  物质#NN  ，#PU  有利于#VV  细胞#NN  的#DEC  生殖#NN  与#CC  增长#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 转变#VV, 胡萝卜素#NN)  (root, ROOT#null, 转变#VV)  (rcomp, 转变#VV, 成#VV)  (dobj, 转变#VV, 维生素A#NN)  (case, 过程#NN, 在#P)  (relcl, 过程#NN, 预防#VV)  (nn, 癌变#NN, 上皮#NN)  (nn, 癌变#NN, 细胞#NN)  (dobj, 预防#VV, 癌变#NN)  (mark, 预防#VV, 的#DEC)  (prep, 具有#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (conj, 转变#VV, 具有#VV)  (amod, 作用#NN, 重要#JJ)  (dobj, 具有#VV, 作用#NN)  (nn, 木质#NN, 胡萝卜#NN)  (nn, 木质#NN, 中的#NN)  (nsubj, 提高#VV, 木质#NN)  (advmod, 提高#VV, 素#AD)  (advmod, 提高#VV, 也#AD)  (dep, 提高#VV, 能#VV)  (conj, 转变#VV, 提高#VV)   (root, ROOT#null, 作为#VV)  (nummod, 种#M, 一#CD)  (clf, 抗氧化#NN, 种#M)  (dobj, 作为#VV, 抗氧化#NN)  (conj, 作为#VV, 具有#VV)  (relcl, 作用#NN, 抑制#VV)  (conj, 机体#NN, 氧化#NN)  (cc, 机体#NN, 及#CC)  (nn, 机体#NN, 保护#NN)  (nn, 细胞#NN, 机体#NN)  (amod, 细胞#NN, 正常#JJ)  (nn, 损害#NN, 细胞#NN)  (nn, 损害#NN, 免受#NN)  (nn, 损害#NN, 氧化#NN)  (dobj, 抑制#VV, 损害#NN)  (mark, 抑制#VV, 的#DEC)  (amod, 作用#NN, 防癌#JJ)  (dobj, 具有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 造血#VV, 胡萝卜素#NN)  (advmod, 造血#VV, 既有#AD)  (root, ROOT#null, 造血#VV)  (nn, 人体#NN, 功能#NN)  (nn, 人体#NN, 补充#NN)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 血液#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (dobj, 造血#VV, 血液#NN)  (advmod, 改善#VV, 从而#AD)  (dep, 造血#VV, 改善#VV)  (conj, 冷血症#NN, 贫血#NN)  (cc, 冷血症#NN, 或#CC)  (dobj, 改善#VV, 冷血症#NN)  (advmod, 含有#VV, 同时#AD)  (dep, 造血#VV, 含有#VV)  (relcl, 钾#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 钾#NN)
+            (nn, 性强#NN, 胡萝卜#NN)  (nn, 性强#NN, 含有#NN)  (nn, 性强#NN, 植物#NN)  (nn, 性强#NN, 纤维#NN)  (nn, 性强#NN, 吸水#NN)  (nsubj, 容易#VA, 性强#NN)  (case, 肠道#NN, 在#P)  (prep, 容易#VA, 肠道#NN)  (case, 肠道#NN, 中#LC)  (nsubj, 容易#VA, 体积#NN)  (conj, ''#NN, 容易#VA)  (nsubj, ''#NN, 膨胀#NN)  (cop, ''#NN, 是#VC)  (assmod, ''#NN, 肠道#NN)  (case, 肠道#NN, 中#LC)  (case, 肠道#NN, 的#DEG)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 充盈#NN)  (nn, ''#NN, 物质#NN)  (root, ROOT#null, ''#NN)
+            (assmod, 维生素A#NN, 胡萝卜#NN)  (case, 胡萝卜#NN, 中#LC)  (case, 胡萝卜#NN, 的#DEG)  (nsubj, 增长#NN, 维生素A#NN)  (cop, 增长#NN, 是#VC)  (nsubj, 发育#VV, 骨骼#NN)  (advmod, 发育#VV, 正常#AD)  (relcl, 增长#NN, 发育#VV)  (mark, 发育#VV, 的#DEC)  (relcl, 增长#NN, 必需#VV)  (dobj, 必需#VV, 物质#NN)  (conj, 必需#VV, 有利于#VV)  (dobj, 有利于#VV, 细胞#NN)  (mark, 必需#VV, 的#DEC)  (conj, 增长#NN, 生殖#NN)  (cc, 增长#NN, 与#CC)  (root, ROOT#null, 增长#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.胡萝卜整根烹饪比切过后再烹饪更有助于防癌。英国科学家近日通过研究发现了这个饮食规律，因为整根烹饪比切开后烹饪的胡萝卜多含25%的镰叶芹醇，此种成分有防癌功效。
+            2.胡萝卜不适宜生吃。胡萝卜素是脂溶性维生素，必须在油脂中才能被消化吸收和转化。若生吃只能起到通便和降低胆固醇的作用，而不能吸收到更多的营养素。
+            3.烹制时最好不要放醋，会使维生素A原遭到破坏。
+            4.不要过量食用。大量摄入胡萝卜素会令皮肤的色素产生变化，变成橙黄色。
+        </rawdata>
+
+        <segment>
+            胡萝卜  整  根  烹饪  比切  过  后  再  烹饪  更  有助于  防癌  。  英国  科学家  近日  通过  研究  发现  了  这个  饮食  规律  ，  因为  整  根  烹饪  比  切开  后  烹饪  的  胡萝卜  多含  25%  的  镰叶  芹醇  ，  此  种  成分  有  防癌  功效  。
+            胡萝卜  不  适宜  生吃  。  胡萝卜素  是  脂溶性  维生素  ，  必须  在  油脂  中  才  能  被  消化  吸收  和  转化  。  若  生吃  只  能  起到  通便  和  降低  胆固醇  的  作用  ，  而  不  能  吸收  到  更  多  的  营养素  。
+            烹制  时  最好  不  要  放醋  ，  会  使  维生素A  原  遭到  破坏  。
+            不要  过量  食用  。  大量  摄入  胡萝卜素  会  令  皮肤  的  色素  产生  变化  ，  变成  橙黄色  。
+        </segment>
+
+        <pos>
+            胡萝卜#NR  整#DT  根#M  烹饪#NN  比切#AD  过#VV  后#LC  再#AD  烹饪#VV  更#AD  有助于#VV  防癌#NN    。#PU  英国#NR  科学家#NN  近日#NT  通过#P  研究#NN  发现#VV  了#AS  这个#NN  饮食#NN  规律#NN  ，#PU  因为#P  整#DT  根#M  烹饪#NN  比#P  切开#NN  后#LC  烹饪#VV  的#DEC  胡萝卜#NN  多含#VV  25#CD  %#NN  的#DEG  镰叶#NN  芹醇#NN  ，#PU  此#DT  种#M  成分#NN  有#VE  防癌#NN  功效#NN    。#PU    。#PU
+            胡萝卜#NN  不#AD  适宜#VV  生吃#NN    。#PU  胡萝卜素#AD  是#VC  脂溶性#NN  维生素#NN  ，#PU  必须#VV  在#P  油脂#NN  中#LC  才#AD  能#VV  被#LB  消化#NN  吸收#VV  和#CC  转化#VV    。#PU  若#CS  生吃#AD  只#AD  能#VV  起到#VV  通便#NN  和#CC  降低#VV  胆固醇#NN  的#DEC  作用#NN  ，#PU  而#CC  不#AD  能#VV  吸收#VV  到#VV  更#AD  多#VA  的#DEC  营养素#NN    。#PU    。#PU
+            烹制#NN  时#LC  最好#JJ  不#AD  要#VV  放醋#NN  ，#PU  会#VV  使#VV  维生素A#NN  原#AD  遭到#VV  破坏#NN  。#PU
+            不要#NN  过量#AD  食用#VV    。#PU  大量#CD  摄入#NN  胡萝卜素#NN  会#VV  令#VV  皮肤#NN  的#DEG  色素#NN  产生#VV  变化#NN  ，#PU  变成#VV  橙黄色#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 烹饪#NN, 胡萝卜#NR)  (det, 烹饪#NN, 整#DT)  (clf, 整#DT, 根#M)  (nsubj, 烹饪#VV, 烹饪#NN)  (xsubj, 有助于#VV, 烹饪#NN)  (advmod, 过#VV, 比切#AD)  (loc, 烹饪#VV, 过#VV)  (case, 过#VV, 后#LC)  (advmod, 烹饪#VV, 再#AD)  (root, ROOT#null, 烹饪#VV)  (advmod, 有助于#VV, 更#AD)  (ccomp, 烹饪#VV, 有助于#VV)  (dobj, 有助于#VV, 防癌#NN)   (nn, 科学家#NN, 英国#NR)  (nsubj, 发现#VV, 科学家#NN)  (tmod, 发现#VV, 近日#NT)  (case, 研究#NN, 通过#P)  (prep, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (asp, 发现#VV, 了#AS)  (nn, 规律#NN, 这个#NN)  (nn, 规律#NN, 饮食#NN)  (dobj, 发现#VV, 规律#NN)  (case, 多含#VV, 因为#P)  (det, 烹饪#NN, 整#DT)  (clf, 整#DT, 根#M)  (nsubj, 烹饪#VV, 烹饪#NN)  (case, 切开#NN, 比#P)  (prep, 烹饪#VV, 切开#NN)  (case, 切开#NN, 后#LC)  (relcl, 胡萝卜#NN, 烹饪#VV)  (mark, 烹饪#VV, 的#DEC)  (nsubj, 多含#VV, 胡萝卜#NN)  (prep, 有#VE, 多含#VV)  (nummod, %#NN, 25#CD)  (assmod, 芹醇#NN, %#NN)  (case, %#NN, 的#DEG)  (nn, 芹醇#NN, 镰叶#NN)  (dobj, 多含#VV, 芹醇#NN)  (det, 成分#NN, 此#DT)  (clf, 此#DT, 种#M)  (dep, 有#VE, 成分#NN)  (conj, 发现#VV, 有#VE)  (nn, 功效#NN, 防癌#NN)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 适宜#VV, 胡萝卜#NN)  (neg, 适宜#VV, 不#AD)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 生吃#NN)   (advmod, 维生素#NN, 胡萝卜素#AD)  (cop, 维生素#NN, 是#VC)  (nn, 维生素#NN, 脂溶性#NN)  (root, ROOT#null, 维生素#NN)  (mmod, 吸收#VV, 必须#VV)  (case, 油脂#NN, 在#P)  (prep, 吸收#VV, 油脂#NN)  (case, 油脂#NN, 中#LC)  (advmod, 吸收#VV, 才#AD)  (mmod, 吸收#VV, 能#VV)  (auxpass, 吸收#VV, 被#LB)  (nsubj, 吸收#VV, 消化#NN)  (dep, 维生素#NN, 吸收#VV)  (cc, 吸收#VV, 和#CC)  (conj, 吸收#VV, 转化#VV)   (advmod, 起到#VV, 若#CS)  (advmod, 起到#VV, 生吃#AD)  (advmod, 起到#VV, 只#AD)  (mmod, 起到#VV, 能#VV)  (root, ROOT#null, 起到#VV)  (conj, 作用#NN, 通便#NN)  (cc, 作用#NN, 和#CC)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (cc, 起到#VV, 而#CC)  (neg, 吸收#VV, 不#AD)  (mmod, 吸收#VV, 能#VV)  (dep, 起到#VV, 吸收#VV)  (rcomp, 吸收#VV, 到#VV)  (advmod, 多#VA, 更#AD)  (relcl, 营养素#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 吸收#VV, 营养素#NN)   (root, ROOT#null, null#null)
+            (loc, 使#VV, 烹制#NN)  (case, 烹制#NN, 时#LC)  (amod, 放醋#NN, 最好#JJ)  (neg, 要#VV, 不#AD)  (relcl, 放醋#NN, 要#VV)  (nsubj, 使#VV, 放醋#NN)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 维生素A#NN)  (advmod, 遭到#VV, 原#AD)  (dep, 使#VV, 遭到#VV)  (dobj, 遭到#VV, 破坏#NN)
+            (nsubj, 食用#VV, 不要#NN)  (advmod, 食用#VV, 过量#AD)  (root, ROOT#null, 食用#VV)   (nummod, 胡萝卜素#NN, 大量#CD)  (nn, 胡萝卜素#NN, 摄入#NN)  (nsubj, 令#VV, 胡萝卜素#NN)  (mmod, 令#VV, 会#VV)  (root, ROOT#null, 令#VV)  (assmod, 色素#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (dobj, 令#VV, 色素#NN)  (dep, 令#VV, 产生#VV)  (dobj, 产生#VV, 变化#NN)  (conj, 产生#VV, 变成#VV)  (dobj, 变成#VV, 橙黄色#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071034561570.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

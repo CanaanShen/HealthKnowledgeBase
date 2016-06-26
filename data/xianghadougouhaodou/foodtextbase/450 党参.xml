@@ -1,0 +1,201 @@
+<content>
+
+    <id>
+        450
+    </id>
+
+    <foodname>
+        党参
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        东党、台党、潞党、口党、黄参、防党参、上党参、狮头参
+    </alias>
+
+    <season>
+        9-10月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            气滞、肝火盛者禁用；邪盛而正不虚者不宜用。
+        </rawdata>
+
+        <segment>
+            气滞  、  肝火  盛  者  禁用  ；  邪盛  而  正  不  虚  者  不  宜  用  。
+        </segment>
+
+        <pos>
+            气滞#NN  、#PU  肝火#NN  盛#VA  者#NN  禁用#VV  ；#PU  邪盛#NN  而#AD  正#AD  不#AD  虚#AD  者#NN  不#AD  宜#NR  用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肝火#NN, 气滞#NN)  (nsubj, 盛#VA, 肝火#NN)  (relcl, 者#NN, 盛#VA)  (nsubj, 禁用#VV, 者#NN)  (root, ROOT#null, 禁用#VV)  (nsubj, 用#VV, 邪盛#NN)  (advmod, 用#VV, 而#AD)  (advmod, 用#VV, 正#AD)  (neg, 用#VV, 不#AD)  (advmod, 用#VV, 虚#AD)  (prep, 用#VV, 者#NN)  (neg, 用#VV, 不#AD)  (prep, 用#VV, 宜#NR)  (ccomp, 禁用#VV, 用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜体质虚弱，气血不足，面色萎黄，以及病后产后体虚者；脾胃气虚，神疲倦怠，四肢乏力，食少便溏，慢性腹泻，肺气不足，咳嗽气促，气虚体弱，易于感冒；气虚血亏者；慢性肾炎蛋白尿者宜食；慢性贫血，萎黄病，白血病，血小板减少性紫癜以及佝偻病患者。
+        </rawdata>
+
+        <segment>
+            适宜  体质  虚弱  ，  气血  不足  ，  面色  萎黄  ，  以及  病  后  产后  体  虚者  ；  脾胃  气虚  ，  神疲  倦怠  ，  四  肢  乏力  ，  食少便溏  ，  慢性  腹泻  ，  肺  气  不足  ，  咳嗽  气促  ，  气虚  体弱  ，  易于  感冒  ；  气虚  血亏者  ；  慢性  肾炎  蛋白  尿  者  宜食  ；  慢性  贫血  ，  萎黄病  ，  白血病  ，  血小板  减少  性  紫癜  以及  佝偻病  患者  。
+        </segment>
+
+        <pos>
+            适宜#VV  体质#NN  虚弱#NN  ，#PU  气血#AD  不足#VA  ，#PU  面色#VV  萎黄#NN  ，#PU  以及#CC  病#NN  后#LC  产后#VV  体#NN  虚者#NN  ；#PU  脾胃#NN  气虚#NN  ，#PU  神疲#NN  倦怠#NN  ，#PU  四#CD  肢#NN  乏力#NN  ，#PU  食少便溏#NN  ，#PU  慢性#NN  腹泻#NN  ，#PU  肺#NN  气#NN  不足#NN  ，#PU  咳嗽#VV  气促#NN  ，#PU  气虚#VV  体弱#NN  ，#PU  易于#VV  感冒#NN  ；#PU  气虚#VV  血亏者#NN  ；#PU  慢性#VV  肾炎#NN  蛋白#NN  尿#NN  者#NN  宜食#NN  ；#PU  慢性#VV  贫血#NN  ，#PU  萎黄病#VV  ，#PU  白血病#VV  ，#PU  血小板#AD  减少#VV  性#NN  紫癜#NN  以及#CC  佝偻病#NN  患者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (nn, 虚弱#NN, 体质#NN)  (dobj, 适宜#VV, 虚弱#NN)  (advmod, 不足#VA, 气血#AD)  (conj, 适宜#VV, 不足#VA)  (conj, 不足#VA, 面色#VV)  (dobj, 面色#VV, 萎黄#NN)  (cc, 不足#VA, 以及#CC)  (loc, 产后#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 不足#VA, 产后#VV)  (nn, 虚者#NN, 体#NN)  (dep, 不足#NN, 虚者#NN)  (nn, 气虚#NN, 脾胃#NN)  (dep, 不足#NN, 气虚#NN)  (nn, 倦怠#NN, 神疲#NN)  (dep, 不足#NN, 倦怠#NN)  (nummod, 乏力#NN, 四#CD)  (nn, 乏力#NN, 肢#NN)  (dep, 不足#NN, 乏力#NN)  (dep, 不足#NN, 食少便溏#NN)  (nn, 腹泻#NN, 慢性#NN)  (dep, 不足#NN, 腹泻#NN)  (nn, 不足#NN, 肺#NN)  (nn, 不足#NN, 气#NN)  (dobj, 产后#VV, 不足#NN)  (conj, 不足#VA, 咳嗽#VV)  (dobj, 咳嗽#VV, 气促#NN)  (conj, 不足#VA, 气虚#VV)  (dobj, 气虚#VV, 体弱#NN)  (conj, 不足#VA, 易于#VV)  (dobj, 易于#VV, 感冒#NN)  (conj, 不足#VA, 气虚#VV)  (dobj, 气虚#VV, 血亏者#NN)  (conj, 不足#VA, 慢性#VV)  (nn, 宜食#NN, 肾炎#NN)  (nn, 宜食#NN, 蛋白#NN)  (nn, 宜食#NN, 尿#NN)  (nn, 宜食#NN, 者#NN)  (dobj, 慢性#VV, 宜食#NN)  (conj, 不足#VA, 慢性#VV)  (dobj, 慢性#VV, 贫血#NN)  (conj, 不足#VA, 萎黄病#VV)  (conj, 不足#VA, 白血病#VV)  (advmod, 减少#VV, 血小板#AD)  (conj, 不足#VA, 减少#VV)  (nn, 患者#NN, 性#NN)  (conj, 患者#NN, 紫癜#NN)  (cc, 患者#NN, 以及#CC)  (nn, 患者#NN, 佝偻病#NN)  (dobj, 减少#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            党参，为植物党参和中药材的统称。党参属植物全世界约有40种，中国约有39种，药用有21种、4变种。
+            中药党参为桔梗科多年生草本植物党参、素花党参、川党参及其同属多种植物的干燥根。党参为中国常用的传统补益药，古代以山西上党地区出产的党参为上品，具有补中益气，健脾益肺之功效。
+        </rawdata>
+
+        <segment>
+            党参  ，  为  植物  党参  和  中药材  的  统称  。  党参  属  植物  全世界  约  有  40  种  ，  中国  约  有  39  种  ，  药用  有  21  种  、  4  变种  。
+            中药  党参  为  桔梗科  多年生  草本  植物  党参  、  素  花  党参  、  川  党参  及其  同属  多  种  植物  的  干燥  根  。  党参  为  中国  常用  的  传统  补益  药  ，  古代  以  山西  上党  地区  出产  的  党参  为  上品  ，  具有  补  中  益气  ，  健脾  益肺  之  功效  。
+        </segment>
+
+        <pos>
+            党参#VV  ，#PU  为#VV  植物#NN  党参#NN  和#CC  中药材#NN  的#DEG  统称#NN    。#PU  党参#NR  属#VV  植物#NN  全世界#NN  约#AD  有#VE  40#CD  种#M  ，#PU  中国#NR  约#AD  有#VE  39#CD  种#M  ，#PU  药用#AD  有#VE  21#CD  种#M  、#PU  4#CD  变种#NN    。#PU    。#PU
+            中药#NN  党参#NN  为#P  桔梗科#NN  多年生#VV  草本#NN  植物#NN  党参#NN  、#PU  素#AD  花#VV  党参#NR  、#PU  川#NR  党参#NR  及其#NN  同属#NN  多#CD  种#M  植物#NN  的#DEG  干燥#CD  根#M    。#PU  党参#NN  为#VC  中国#NR  常用#JJ  的#DEG  传统#JJ  补益#NN  药#NN  ，#PU  古代#NN  以#P  山西#NR  上党#NR  地区#NN  出产#VV  的#DEC  党参#NN  为#VC  上品#NN  ，#PU  具有#VV  补#NN  中#LC  益气#NN  ，#PU  健脾#VV  益肺#NN  之#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 党参#VV)  (dep, 党参#VV, 为#VV)  (nn, 中药材#NN, 植物#NN)  (conj, 中药材#NN, 党参#NN)  (cc, 中药材#NN, 和#CC)  (assmod, 统称#NN, 中药材#NN)  (case, 中药材#NN, 的#DEG)  (dobj, 为#VV, 统称#NN)   (nsubj, 属#VV, 党参#NR)  (root, ROOT#null, 属#VV)  (nn, 全世界#NN, 植物#NN)  (nsubj, 有#VE, 全世界#NN)  (advmod, 有#VE, 约#AD)  (ccomp, 属#VV, 有#VE)  (nummod, 种#M, 40#CD)  (dep, 有#VE, 种#M)  (nsubj, 有#VE, 中国#NR)  (advmod, 有#VE, 约#AD)  (conj, 有#VE, 有#VE)  (nummod, 种#M, 39#CD)  (dep, 有#VE, 种#M)  (advmod, 有#VE, 药用#AD)  (conj, 有#VE, 有#VE)  (nummod, 种#M, 21#CD)  (clf, 4#CD, 种#M)  (clf, 变种#NN, 4#CD)  (dobj, 有#VE, 变种#NN)   (root, ROOT#null, null#null)
+            (nn, 党参#NN, 中药#NN)  (nsubj, 多年生#VV, 党参#NN)  (case, 桔梗科#NN, 为#P)  (prep, 多年生#VV, 桔梗科#NN)  (root, ROOT#null, 多年生#VV)  (nn, 党参#NN, 草本#NN)  (nn, 党参#NN, 植物#NN)  (dobj, 多年生#VV, 党参#NN)  (advmod, 花#VV, 素#AD)  (conj, 多年生#VV, 花#VV)  (conj, 党参#NR, 党参#NR)  (nn, 党参#NR, 川#NR)  (nn, 同属#NN, 党参#NR)  (nn, 同属#NN, 及其#NN)  (dobj, 花#VV, 同属#NN)  (nummod, 种#M, 多#CD)  (clf, 植物#NN, 种#M)  (assmod, 根#M, 植物#NN)  (case, 植物#NN, 的#DEG)  (nummod, 根#M, 干燥#CD)  (range, 花#VV, 根#M)   (nsubj, 药#NN, 党参#NN)  (cop, 药#NN, 为#VC)  (nn, 药#NN, 中国#NR)  (assmod, 药#NN, 常用#JJ)  (case, 常用#JJ, 的#DEG)  (amod, 药#NN, 传统#JJ)  (nn, 药#NN, 补益#NN)  (root, ROOT#null, 药#NN)  (nsubj, 出产#VV, 古代#NN)  (case, 地区#NN, 以#P)  (nn, 地区#NN, 山西#NR)  (nn, 地区#NN, 上党#NR)  (prep, 出产#VV, 地区#NN)  (relcl, 党参#NN, 出产#VV)  (mark, 出产#VV, 的#DEC)  (nsubj, 上品#NN, 党参#NN)  (cop, 上品#NN, 为#VC)  (conj, 药#NN, 上品#NN)  (conj, 上品#NN, 具有#VV)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (dobj, 具有#VV, 益气#NN)  (conj, 上品#NN, 健脾#VV)  (assmod, 功效#NN, 益肺#NN)  (case, 益肺#NN, 之#DEG)  (dobj, 健脾#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性平，味甘、微酸。归脾、肺经。补中益气，健脾益肺。用于脾肺虚弱，气短心悸，食少便溏，虚喘咳嗽，内热消渴。
+            1.增强抵抗力
+            党参对神经系统有兴奋作用，能增强机体抵抗力。
+            2.降血压
+            能扩张周围血管而降低血压，又可抑制肾上腺素的升压作用。　
+            3.补中益气
+            党参的主要功效是补中益气。功能补脾益肺，适用于各种气虚不足者。四肢无力，食欲不振，大便稀溏，也宜使用党参。
+            4.养血
+            党参补气兼能养血，这是它的又一大特点。所以气血两虚，气短心悸，疲倦乏力，面色苍白，头昏眼花，胃口不好，大便稀软，容易感冒的人，也宜服用党参。
+            5.防治胃溃疡
+            有调节胃肠运动，抗溃疡，抑制胃酸分泌，降低胃蛋白酶活性等作用。
+        </rawdata>
+
+        <segment>
+            性平  ，  味甘  、  微酸  。  归脾  、  肺经  。  补  中  益气  ，  健脾  益肺  。  用于  脾肺  虚弱  ，  气短  心悸  ，  食少便溏  ，  虚  喘  咳嗽  ，  内热  消渴  。
+            增强  抵抗力
+            党参  对  神经  系统  有  兴奋  作用  ，  能  增强  机体  抵抗力  。
+            降  血压
+            能  扩张  周围  血管  而  降低  血压  ，  又  可  抑制  肾上腺素  的  升压  作用  。
+            补  中  益气
+            党参  的  主要  功效  是  补  中  益气  。  功能  补脾益肺  ，  适用于  各  种  气虚  不足者  。  四肢  无力  ，  食欲不振  ，  大便  稀溏  ，  也  宜  使用  党参  。
+            养  血
+            党参  补气  兼  能  养  血  ，  这  是  它  的  又  一  大  特点  。  所以  气血  两  虚  ，  气短  心悸  ，  疲倦  乏力  ，  面色  苍白  ，  头昏  眼花  ，  胃口  不  好  ，  大便  稀软  ，  容易  感冒  的  人  ，  也  宜  服用  党参  。
+            防治  胃溃疡
+            有  调节  胃肠  运动  ，  抗  溃疡  ，  抑制  胃酸  分泌  ，  降低  胃蛋白酶  活性  等  作用  。
+        </segment>
+
+        <pos>
+            性平#VV  ，#PU  味甘#VA  、#PU  微酸#VA    。#PU  归脾#VA  、#PU  肺经#VA    。#PU  补#VV  中#NR  益气#NN  ，#PU  健脾#VV  益肺#NN    。#PU  用于#VV  脾肺#NN  虚弱#NN  ，#PU  气短#VV  心悸#NN  ，#PU  食少便溏#VV  ，#PU  虚#AD  喘#VV  咳嗽#NN  ，#PU  内热#VV  消渴#NN    。#PU    。#PU
+            增强#VV  抵抗力#NN
+            党参#NN  对#P  神经#NN  系统#NN  有#VE  兴奋#NN  作用#NN  ，#PU  能#VV  增强#VV  机体#NN  抵抗力#NN  。#PU
+            降#NN  血压#VA
+            能#VV  扩张#NN  周围#NN  血管#NN  而#MSP  降低#VV  血压#NN  ，#PU  又#AD  可#VV  抑制#VV  肾上腺素#NN  的#DEG  升压#JJ  作用#NN  。#PU
+            补#VV  中#NR  益气#NN
+            党参#NN  的#DEG  主要#JJ  功效#NN  是#VC  补#NN  中#LC  益气#NN    。#PU  功能#NN  补脾益肺#VV  ，#PU  适用于#VV  各#DT  种#M  气虚#NN  不足者#NN    。#PU  四肢#CD  无力#NN  ，#PU  食欲不振#NN  ，#PU  大便#AD  稀溏#VV  ，#PU  也#CC  宜#NR  使用#VV  党参#NN    。#PU    。#PU
+            养#VV  血#NN
+            党参#NN  补气#VV  兼#CC  能#VV  养#VV  血#NN  ，#PU  这#PN  是#VC  它#PN  的#DEG  又#AD  一#CD  大#JJ  特点#NN    。#PU  所以#AD  气血#VV  两#CD  虚#AD  ，#PU  气短#VV  心悸#NN  ，#PU  疲倦#VV  乏力#NN  ，#PU  面色#VV  苍白#NN  ，#PU  头昏#AD  眼花#VV  ，#PU  胃口#NN  不#AD  好#VA  ，#PU  大便#VV  稀软#NN  ，#PU  容易#VA  感冒#VA  的#DEC  人#NN  ，#PU  也#CC  宜#NR  服用#VV  党参#NN    。#PU    。#PU
+            防治#VV  胃溃疡#NN
+            有#VE  调节#VV  胃肠#NN  运动#NN  ，#PU  抗#VV  溃疡#NN  ，#PU  抑制#VV  胃酸#NN  分泌#NN  ，#PU  降低#VV  胃蛋白酶#NN  活性#NN  等#ETC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 性平#VV)  (ccomp, 性平#VV, 味甘#VA)  (dep, 味甘#VA, 微酸#VA)   (root, ROOT#null, 归脾#VA)  (dep, 归脾#VA, 肺经#VA)   (root, ROOT#null, 补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 补#VV, 益气#NN)  (conj, 补#VV, 健脾#VV)  (dobj, 健脾#VV, 益肺#NN)   (root, ROOT#null, 用于#VV)  (nn, 虚弱#NN, 脾肺#NN)  (dobj, 用于#VV, 虚弱#NN)  (conj, 用于#VV, 气短#VV)  (dobj, 气短#VV, 心悸#NN)  (conj, 用于#VV, 食少便溏#VV)  (advmod, 喘#VV, 虚#AD)  (conj, 用于#VV, 喘#VV)  (dobj, 喘#VV, 咳嗽#NN)  (conj, 用于#VV, 内热#VV)  (dobj, 内热#VV, 消渴#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 抵抗力#NN)
+            (nsubj, 有#VE, 党参#NN)  (case, 系统#NN, 对#P)  (nn, 系统#NN, 神经#NN)  (prep, 有#VE, 系统#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 兴奋#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 增强#VV, 能#VV)  (dep, 有#VE, 增强#VV)  (nn, 抵抗力#NN, 机体#NN)  (dobj, 增强#VV, 抵抗力#NN)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (dep, 降低#VV, 能#VV)  (nn, 血管#NN, 扩张#NN)  (nn, 血管#NN, 周围#NN)  (dobj, 能#VV, 血管#NN)  (prtmod, 降低#VV, 而#MSP)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (advmod, 抑制#VV, 又#AD)  (mmod, 抑制#VV, 可#VV)  (dep, 降低#VV, 抑制#VV)  (assmod, 作用#NN, 肾上腺素#NN)  (case, 肾上腺素#NN, 的#DEG)  (amod, 作用#NN, 升压#JJ)  (dobj, 抑制#VV, 作用#NN)
+            (root, ROOT#null, 补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 补#VV, 益气#NN)
+            (assmod, 功效#NN, 党参#NN)  (case, 党参#NN, 的#DEG)  (amod, 功效#NN, 主要#JJ)  (nsubj, 益气#NN, 功效#NN)  (cop, 益气#NN, 是#VC)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (root, ROOT#null, 益气#NN)   (nsubj, 补脾益肺#VV, 功能#NN)  (root, ROOT#null, 补脾益肺#VV)  (ccomp, 补脾益肺#VV, 适用于#VV)  (det, 气虚#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 不足者#NN, 气虚#NN)  (dobj, 适用于#VV, 不足者#NN)   (nummod, 无力#NN, 四肢#CD)  (nsubj, 稀溏#VV, 无力#NN)  (nsubj, 稀溏#VV, 食欲不振#NN)  (advmod, 稀溏#VV, 大便#AD)  (root, ROOT#null, 稀溏#VV)  (cc, 稀溏#VV, 也#CC)  (nsubj, 使用#VV, 宜#NR)  (conj, 稀溏#VV, 使用#VV)  (dobj, 使用#VV, 党参#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)
+            (nsubj, 补气#VV, 党参#NN)  (root, ROOT#null, 补气#VV)  (cc, 补气#VV, 兼#CC)  (mmod, 养#VV, 能#VV)  (dep, 补气#VV, 养#VV)  (dobj, 养#VV, 血#NN)  (nsubj, 特点#NN, 这#PN)  (cop, 特点#NN, 是#VC)  (assmod, 特点#NN, 它#PN)  (case, 它#PN, 的#DEG)  (advmod, 一#CD, 又#AD)  (nummod, 特点#NN, 一#CD)  (amod, 特点#NN, 大#JJ)  (conj, 补气#VV, 特点#NN)   (advmod, 气血#VV, 所以#AD)  (root, ROOT#null, 气血#VV)  (nummod, 人#NN, 两#CD)  (advmod, 气短#VV, 虚#AD)  (relcl, 人#NN, 气短#VV)  (dobj, 气短#VV, 心悸#NN)  (conj, 气短#VV, 疲倦#VV)  (dobj, 疲倦#VV, 乏力#NN)  (conj, 气短#VV, 面色#VV)  (dobj, 面色#VV, 苍白#NN)  (advmod, 眼花#VV, 头昏#AD)  (conj, 气短#VV, 眼花#VV)  (nsubj, 好#VA, 胃口#NN)  (neg, 好#VA, 不#AD)  (ccomp, 眼花#VV, 好#VA)  (conj, 气短#VV, 大便#VV)  (dobj, 大便#VV, 稀软#NN)  (conj, 气短#VV, 容易#VA)  (comod, 容易#VA, 感冒#VA)  (mark, 气短#VV, 的#DEC)  (dobj, 气血#VV, 人#NN)  (cc, 气血#VV, 也#CC)  (nsubj, 服用#VV, 宜#NR)  (dep, 气血#VV, 服用#VV)  (dobj, 服用#VV, 党参#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 胃溃疡#NN)
+            (root, ROOT#null, 有#VE)  (nfincl, 作用#NN, 调节#VV)  (nn, 运动#NN, 胃肠#NN)  (dobj, 调节#VV, 运动#NN)  (conj, 调节#VV, 抗#VV)  (dobj, 抗#VV, 溃疡#NN)  (conj, 调节#VV, 抑制#VV)  (nn, 分泌#NN, 胃酸#NN)  (dobj, 抑制#VV, 分泌#NN)  (conj, 调节#VV, 降低#VV)  (nn, 活性#NN, 胃蛋白酶#NN)  (dobj, 降低#VV, 活性#NN)  (etc, 活性#NN, 等#ETC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血压  补血  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            党参含多糖类、酚类、甾醇、挥发油、维生素B1、B2，多种人体必须的氨基酸、黄芩素葡萄糖甙、皂甙及微量生物碱、微量元素等。
+        </rawdata>
+
+        <segment>
+            党参  含  多糖类  、  酚类  、  甾醇  、  挥发油  、  维生素B  B  2  ，  多  种  人体  必须  的  氨基酸  、  黄芩素  葡萄糖甙  、  皂甙  及  微量  生物碱  、  微量  元素  等  。
+        </segment>
+
+        <pos>
+            党参#NN  含#VV  多糖类#NR  、#PU  酚类#NR  、#PU  甾醇#NR  、#PU  挥发油#NR  、#PU  维生素B#NR  B#NN  2#CD  ，#PU  多#CD  种#M  人体#VV  必须#VV  的#DEC  氨基酸#NR  、#PU  黄芩素#NR  葡萄糖甙#NR  、#PU  皂甙#NR  及#CC  微量#NR  生物碱#NN  、#PU  微量#NN  元素#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 党参#NN)  (root, ROOT#null, 含#VV)  (conj, 维生素B#NR, 多糖类#NR)  (conj, 维生素B#NR, 酚类#NR)  (conj, 维生素B#NR, 甾醇#NR)  (conj, 维生素B#NR, 挥发油#NR)  (nn, B#NN, 维生素B#NR)  (dobj, 含#VV, B#NN)  (range, 含#VV, 2#CD)  (nummod, 种#M, 多#CD)  (dep, 人体#VV, 种#M)  (conj, 含#VV, 人体#VV)  (relcl, 元素#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (conj, 微量#NR, 氨基酸#NR)  (nn, 微量#NR, 黄芩素#NR)  (conj, 微量#NR, 葡萄糖甙#NR)  (conj, 微量#NR, 皂甙#NR)  (cc, 微量#NR, 及#CC)  (nn, 元素#NN, 微量#NR)  (conj, 元素#NN, 生物碱#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 人体#VV, 元素#NN)  (etc, 元素#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/2922142.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

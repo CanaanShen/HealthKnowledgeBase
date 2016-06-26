@@ -1,0 +1,215 @@
+<content>
+
+    <id>
+        57
+    </id>
+
+    <foodname>
+        雪蛤
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        其他肉类
+    </secondcategory>
+
+    <alias>
+        蛤什蚂、蛤士蟆油、林蛙油、东北林蛙
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            儿童、内分泌失调、育龄妇女，脾胃虚弱和消化能力弱者、老年人慎食；阳虚、患有感冒、大便稀烂者，糖尿病者忌食。
+        </rawdata>
+
+        <segment>
+            儿童  、  内分泌  失调  、  育龄  妇女  ，  脾胃  虚弱  和  消化  能力  弱者  、  老年人  慎食  ；  阳虚  、  患有  感冒  、  大便  稀烂  者  ，  糖尿病  者  忌食  。
+        </segment>
+
+        <pos>
+            儿童#NN  、#PU  内分泌#NN  失调#NN  、#PU  育龄#NN  妇女#NN  ，#PU  脾胃#VV  虚弱#NN  和#CC  消化#NN  能力#NN  弱者#NN  、#PU  老年人#NN  慎食#NN  ；#PU  阳虚#NR  、#PU  患有#NR  感冒#NR  、#PU  大便#NR  稀烂#NN  者#NN  ，#PU  糖尿病#NN  者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 育龄#NN, 儿童#NN)  (nn, 育龄#NN, 内分泌#NN)  (conj, 育龄#NN, 失调#NN)  (nn, 妇女#NN, 育龄#NN)  (nsubj, 脾胃#VV, 妇女#NN)  (root, ROOT#null, 脾胃#VV)  (conj, 能力#NN, 虚弱#NN)  (cc, 能力#NN, 和#CC)  (nn, 能力#NN, 消化#NN)  (nn, 弱者#NN, 能力#NN)  (conj, 慎食#NN, 弱者#NN)  (nn, 慎食#NN, 老年人#NN)  (dobj, 脾胃#VV, 慎食#NN)  (conj, 大便#NR, 阳虚#NR)  (nn, 大便#NR, 患有#NR)  (conj, 大便#NR, 感冒#NR)  (nn, 者#NN, 大便#NR)  (nn, 者#NN, 稀烂#NN)  (nsubj, 忌食#VV, 者#NN)  (nn, 者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 者#NN)  (conj, 脾胃#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可适宜。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  适宜  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  适宜#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 适宜#VV, 人群#NN)  (advmod, 适宜#VV, 均#AD)  (dep, 适宜#VV, 可#VV)  (root, ROOT#null, 适宜#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            雪蛤，是一种珍贵的蛙科两栖类动物，与熊掌、猴头、飞龙并称长白山“四大山珍”。生长在长白山山脉，小兴安岭大部，张广才岭腹地地区，以野果和昆虫为食，因其在寒冬中可冬眠长达五个月之久，因此得名“雪蛤”。
+            雪蛤的神奇之处在于它独特的生长环境和顽强的生命力。钟灵毓秀的长白山赋予雪蛤天地之精华，严冬酷寒的自然环境造就雪蛤极强的生命力。所以，雪蛤有自然界“生命力之冠”之称。每年的秋季，正是雪蛤储存能量准备冬眠的时候，也是雪蛤生命力最强之时，尤其是雌雪蛤的输卵管（雪蛤膏）更是聚集了来年繁殖后代的所有营养，此时的雪蛤，其滋补功能更是无与伦比。
+        </rawdata>
+
+        <segment>
+            雪蛤  ，  是  一  种  珍贵  的  蛙科  两栖类  动物  ，  与  熊掌  、  猴头  、  飞龙  并称  长白山  “  四  大  山珍  ”  。  生长  在  长白山  山脉  ，  小  兴安岭  大部  ，  张广才  岭  腹地  地区  ，  以  野果  和  昆虫  为食  ，  因其  在  寒冬  中  可  冬眠  长  达  五  个  月  之久  ，  因此  得名  “  雪蛤  ”  。
+            雪蛤  的  神奇  之  处  在于  它  独特  的  生长  环境  和  顽强  的  生命力  。  钟灵毓秀  的  长白山  赋予  雪蛤  天地  之  精华  ，  严冬  酷寒  的  自然  环境  造就  雪蛤  极  强  的  生命力  。  所以  ，  雪蛤  有  自然界  “  生命力  之  冠  ”  之  称  。  每  年  的  秋季  ，  正  是  雪蛤  储存  能量  准备  冬眠  的  时候  ，  也  是  雪蛤  生命力  最强  之时  ，  尤其是  雌雪蛤  的  输卵管  （  雪蛤膏  ）  更是  聚集  了  来年  繁殖  后代  的  所有  营养  ，  此时  的  雪蛤  ，  其  滋补  功能  更是  无与伦比  。
+        </segment>
+
+        <pos>
+            雪蛤#VV  ，#PU  是#VC  一#CD  种#M  珍贵#VA  的#DEC  蛙科#JJ  两栖类#JJ  动物#NN  ，#PU  与#P  熊掌#NR  、#PU  猴头#NR  、#PU  飞龙#NR  并称#NR  长白山#NR  ``#NR  四#CD  大#JJ  山珍#NN  ''#VV    。#PU  生长#NN  在#P  长白山#NR  山脉#VV  ，#PU  小#JJ  兴安岭#NN  大部#NN  ，#PU  张广才#AD  岭#VV  腹地#NN  地区#NN  ，#PU  以#P  野果#NN  和#CC  昆虫#NN  为食#VV  ，#PU  因其#AD  在#P  寒冬#NN  中#LC  可#VV  冬眠#VV  长#AD  达#VV  五#CD  个#M  月#NN  之久#NN  ，#PU  因此#AD  得名#VV  ``#NN  雪蛤#NN  ''#NN    。#PU    。#PU
+            雪蛤#VA  的#DEC  神奇#JJ  之#DEG  处#NN  在于#VV  它#PN  独特#VA  的#DEC  生长#NN  环境#NN  和#CC  顽强#AD  的#DEC  生命力#NN    。#PU  钟灵毓秀#NN  的#DEG  长白山#NR  赋予#VV  雪蛤#NN  天地#NN  之#DEG  精华#NN  ，#PU  严冬#NN  酷寒#NN  的#DEG  自然#NN  环境#NN  造就#VV  雪蛤#NN  极#AD  强#VA  的#DEC  生命力#NN    。#PU  所以#AD  ，#PU  雪蛤#AD  有#VE  自然界#NN  ``#NN  生命力#NN  之#DEG  冠#NN  ''#NN  之#DEG  称#NN    。#PU  每#DT  年#M  的#DEG  秋季#NT  ，#PU  正#AD  是#VC  雪蛤#AD  储存#VV  能量#NN  准备#NN  冬眠#NN  的#DEC  时候#NN  ，#PU  也#AD  是#VC  雪蛤#NN  生命力#NN  最强#NN  之时#NN  ，#PU  尤其是#AD  雌雪蛤#NN  的#DEG  输卵管#NN  （#PU  雪蛤膏#NN  ）#PU  更是#AD  聚集#VV  了#AS  来年#NT  繁殖#NN  后代#NN  的#DEG  所有#DT  营养#VA  ，#PU  此时#NT  的#DEG  雪蛤#NN  ，#PU  其#PN  滋补#NN  功能#NN  更是#AD  无与伦比#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 雪蛤#VV)  (cop, 动物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 动物#NN, 种#M)  (relcl, 动物#NN, 珍贵#VA)  (mark, 珍贵#VA, 的#DEC)  (amod, 动物#NN, 蛙科#JJ)  (amod, 动物#NN, 两栖类#JJ)  (ccomp, 雪蛤#VV, 动物#NN)  (case, 山珍#NN, 与#P)  (conj, 长白山#NR, 熊掌#NR)  (conj, 长白山#NR, 猴头#NR)  (nn, 长白山#NR, 飞龙#NR)  (nn, 长白山#NR, 并称#NR)  (nn, 山珍#NN, 长白山#NR)  (nn, 山珍#NN, ``#NR)  (nummod, 山珍#NN, 四#CD)  (amod, 山珍#NN, 大#JJ)  (prep, ''#VV, 山珍#NN)  (conj, 动物#NN, ''#VV)   (nsubj, 山脉#VV, 生长#NN)  (case, 长白山#NR, 在#P)  (prep, 山脉#VV, 长白山#NR)  (root, ROOT#null, 山脉#VV)  (amod, 兴安岭#NN, 小#JJ)  (nn, 大部#NN, 兴安岭#NN)  (nsubj, 岭#VV, 大部#NN)  (advmod, 岭#VV, 张广才#AD)  (ccomp, 山脉#VV, 岭#VV)  (nn, 地区#NN, 腹地#NN)  (dobj, 岭#VV, 地区#NN)  (case, 昆虫#NN, 以#P)  (conj, 昆虫#NN, 野果#NN)  (cc, 昆虫#NN, 和#CC)  (prep, 为食#VV, 昆虫#NN)  (dep, 岭#VV, 为食#VV)  (advmod, 冬眠#VV, 因其#AD)  (case, 寒冬#NN, 在#P)  (prep, 冬眠#VV, 寒冬#NN)  (case, 寒冬#NN, 中#LC)  (mmod, 冬眠#VV, 可#VV)  (dep, 岭#VV, 冬眠#VV)  (advmod, 达#VV, 长#AD)  (relcl, 之久#NN, 达#VV)  (nummod, 个#M, 五#CD)  (clf, 月#NN, 个#M)  (dobj, 达#VV, 月#NN)  (dobj, 冬眠#VV, 之久#NN)  (advmod, 得名#VV, 因此#AD)  (dep, 岭#VV, 得名#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 雪蛤#NN)  (dobj, 得名#VV, ''#NN)   (root, ROOT#null, null#null)
+            (relcl, 处#NN, 雪蛤#VA)  (mark, 雪蛤#VA, 的#DEC)  (assmod, 处#NN, 神奇#JJ)  (case, 神奇#JJ, 之#DEG)  (nsubj, 在于#VV, 处#NN)  (relcl, 生命力#NN, 在于#VV)  (nsubj, 独特#VA, 它#PN)  (relcl, 环境#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 环境#NN, 生长#NN)  (dobj, 在于#VV, 环境#NN)  (cc, 在于#VV, 和#CC)  (conj, 在于#VV, 顽强#AD)  (mark, 在于#VV, 的#DEC)  (root, ROOT#null, 生命力#NN)   (assmod, 长白山#NR, 钟灵毓秀#NN)  (case, 钟灵毓秀#NN, 的#DEG)  (nsubj, 赋予#VV, 长白山#NR)  (root, ROOT#null, 赋予#VV)  (nn, 天地#NN, 雪蛤#NN)  (assmod, 精华#NN, 天地#NN)  (case, 天地#NN, 之#DEG)  (dobj, 赋予#VV, 精华#NN)  (nn, 酷寒#NN, 严冬#NN)  (assmod, 环境#NN, 酷寒#NN)  (case, 酷寒#NN, 的#DEG)  (nn, 环境#NN, 自然#NN)  (nsubj, 造就#VV, 环境#NN)  (conj, 赋予#VV, 造就#VV)  (nsubj, 强#VA, 雪蛤#NN)  (advmod, 强#VA, 极#AD)  (relcl, 生命力#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (dobj, 造就#VV, 生命力#NN)   (advmod, 有#VE, 所以#AD)  (advmod, 有#VE, 雪蛤#AD)  (root, ROOT#null, 有#VE)  (nn, 生命力#NN, 自然界#NN)  (nn, 生命力#NN, ``#NN)  (assmod, 冠#NN, 生命力#NN)  (case, 生命力#NN, 之#DEG)  (nsubj, 称#NN, 冠#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dep, 有#VE, 称#NN)   (assmod, 秋季#NT, 每#DT)  (clf, 每#DT, 年#M)  (case, 每#DT, 的#DEG)  (nsubj, 时候#NN, 秋季#NT)  (advmod, 时候#NN, 正#AD)  (cop, 时候#NN, 是#VC)  (advmod, 储存#VV, 雪蛤#AD)  (relcl, 时候#NN, 储存#VV)  (nn, 冬眠#NN, 能量#NN)  (nn, 冬眠#NN, 准备#NN)  (dobj, 储存#VV, 冬眠#NN)  (mark, 储存#VV, 的#DEC)  (root, ROOT#null, 时候#NN)  (advmod, 之时#NN, 也#AD)  (cop, 之时#NN, 是#VC)  (nn, 之时#NN, 雪蛤#NN)  (nn, 之时#NN, 生命力#NN)  (nn, 之时#NN, 最强#NN)  (dep, 时候#NN, 之时#NN)  (advmod, 聚集#VV, 尤其是#AD)  (assmod, 雪蛤膏#NN, 雌雪蛤#NN)  (case, 雌雪蛤#NN, 的#DEG)  (dep, 雪蛤膏#NN, 输卵管#NN)  (nsubj, 聚集#VV, 雪蛤膏#NN)  (advmod, 聚集#VV, 更是#AD)  (conj, 时候#NN, 聚集#VV)  (asp, 聚集#VV, 了#AS)  (nn, 后代#NN, 来年#NT)  (nn, 后代#NN, 繁殖#NN)  (dep, 所有#DT, 后代#NN)  (case, 后代#NN, 的#DEG)  (dep, 聚集#VV, 所有#DT)  (dep, 聚集#VV, 营养#VA)  (assmod, 雪蛤#NN, 此时#NT)  (case, 此时#NT, 的#DEG)  (nsubj, 无与伦比#VV, 雪蛤#NN)  (nn, 功能#NN, 其#PN)  (nn, 功能#NN, 滋补#NN)  (nsubj, 无与伦比#VV, 功能#NN)  (advmod, 无与伦比#VV, 更是#AD)  (conj, 时候#NN, 无与伦比#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.强身健体
+            雪蛤油补肾益精、养阴润肺、健脑益智、平肝养胃，用于阴虚体弱、神疲乏力、心悸失眠、盗汗不止、痨嗽咳血等症。
+            2.护肤美肤
+            蛙油具有抗衰驻颜的神奇功效。对人体增高、降血脂、稳血压、抗感冒、嫩肌肤、增强免疫力也有一定效果。
+            3.治疗皮肤之伤
+            如果有冻疮、脚气、水火烫伤，蛙油外敷也有治疗作用。蛙油是一种兼具药用、食补、美容的高级营养品。
+            4.滋补佳品
+            雪蛤具有补肾益精，养阴润肺的功效"《中国药手册》记载"雪蛤具有补虚损、解劳热、治身体衰弱、产后气虚、肺痨咳嗽"之功效。
+        </rawdata>
+
+        <segment>
+            强身  健体
+            雪蛤  油  补  肾  益精  、  养  阴  润肺  、  健脑  益智  、  平肝  养  胃  ，  用于  阴虚  体弱  、  神  疲  乏力  、  心悸  失眠  、  盗汗  不止  、  痨嗽  咳血  等症  。
+            护肤  美肤
+            蛙油  具有  抗衰  驻颜  的  神奇  功效  。  对  人体  增高  、  降  血脂  、  稳  血压  、  抗  感冒  、  嫩  肌肤  、  增强  免疫力  也  有  一定  效果  。
+            治疗  皮肤  之  伤
+            如果  有  冻疮  、  脚气  、  水火  烫伤  ，  蛙油  外敷  也  有  治疗  作用  。  蛙油  是  一  种  兼具  药用  、  食补  、  美容  的  高级  营养品  。
+            滋补  佳品
+            雪蛤  具有  补  肾  益精  ，  养  阴  润肺  的  功效  "  《  中国  药  手册  》  记载  "  雪蛤  具有  补  虚损  、  解  劳  热  、  治  身体  衰弱  、  产后  气虚  、  肺痨  咳嗽  "  之  功效  。
+        </segment>
+
+        <pos>
+            强身#NN  健体#VV
+            雪蛤#NN  油#NN  补#VV  肾#NN  益精#NN  、#PU  养#VV  阴#NN  润肺#NN  、#PU  健脑#NN  益智#NN  、#PU  平肝#AD  养#VV  胃#NN  ，#PU  用于#VV  阴虚#NN  体弱#NN  、#PU  神#JJ  疲#NN  乏力#NR  、#PU  心悸#NR  失眠#NR  、#PU  盗汗#NR  不止#NR  、#PU  痨嗽#NR  咳血#JJ  等症#NN  。#PU
+            护肤#NN  美肤#VV
+            蛙油#NN  具有#VV  抗衰#NN  驻颜#NN  的#DEG  神奇#JJ  功效#NN    。#PU  对#P  人体#NN  增高#VV  、#PU  降#VV  血脂#NN  、#PU  稳#NN  血压#NN  、#PU  抗#NN  感冒#NN  、#PU  嫩#NN  肌肤#NN  、#PU  增强#VV  免疫力#NN  也#AD  有#VE  一定#JJ  效果#NN    。#PU    。#PU
+            治疗#VV  皮肤#NN  之#DEG  伤#NN
+            如果#CS  有#VE  冻疮#NR  、#PU  脚气#NR  、#PU  水火#NR  烫伤#NN  ，#PU  蛙油#NN  外敷#NN  也#AD  有#VE  治疗#NN  作用#NN    。#PU  蛙油#NN  是#VC  一#CD  种#M  兼具#NR  药用#NR  、#PU  食补#NR  、#PU  美容#NR  的#DEG  高级#JJ  营养品#NN    。#PU    。#PU
+            滋补#NN  佳品#VV
+            雪蛤#NN  具有#VV  补#NN  肾#NN  益精#NN  ，#PU  养#VV  阴#NN  润肺#NN  的#DEC  功效#NN  ''#NN  中国#NR  药#NN  手册#NN  记载#NN  ''#NN  雪蛤#AD  具有#VV  补#VV  虚损#NN  、#PU  解#VV  劳#NN  热#NN  、#PU  治#VV  身体#NN  衰弱#NN  、#PU  产后#NN  气虚#NN  、#PU  肺痨#NN  咳嗽#NN  ''#NN  之#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 健体#VV, 强身#NN)  (root, ROOT#null, 健体#VV)
+            (nn, 油#NN, 雪蛤#NN)  (nsubj, 补#VV, 油#NN)  (root, ROOT#null, 补#VV)  (nn, 益精#NN, 肾#NN)  (dobj, 补#VV, 益精#NN)  (conj, 补#VV, 养#VV)  (nn, 益智#NN, 阴#NN)  (conj, 益智#NN, 润肺#NN)  (nn, 益智#NN, 健脑#NN)  (dobj, 养#VV, 益智#NN)  (advmod, 养#VV, 平肝#AD)  (conj, 补#VV, 养#VV)  (dobj, 养#VV, 胃#NN)  (conj, 补#VV, 用于#VV)  (nn, 体弱#NN, 阴虚#NN)  (conj, 疲#NN, 体弱#NN)  (amod, 疲#NN, 神#JJ)  (nn, 等症#NN, 疲#NN)  (conj, 痨嗽#NR, 乏力#NR)  (nn, 痨嗽#NR, 心悸#NR)  (conj, 痨嗽#NR, 失眠#NR)  (nn, 痨嗽#NR, 盗汗#NR)  (conj, 痨嗽#NR, 不止#NR)  (nn, 等症#NN, 痨嗽#NR)  (amod, 等症#NN, 咳血#JJ)  (dobj, 用于#VV, 等症#NN)
+            (nsubj, 美肤#VV, 护肤#NN)  (root, ROOT#null, 美肤#VV)
+            (nsubj, 具有#VV, 蛙油#NN)  (root, ROOT#null, 具有#VV)  (nn, 驻颜#NN, 抗衰#NN)  (assmod, 功效#NN, 驻颜#NN)  (case, 驻颜#NN, 的#DEG)  (amod, 功效#NN, 神奇#JJ)  (dobj, 具有#VV, 功效#NN)   (case, 人体#NN, 对#P)  (prep, 增高#VV, 人体#NN)  (root, ROOT#null, 增高#VV)  (conj, 增高#VV, 降#VV)  (conj, 嫩#NN, 血脂#NN)  (nn, 嫩#NN, 稳#NN)  (conj, 嫩#NN, 血压#NN)  (nn, 嫩#NN, 抗#NN)  (conj, 嫩#NN, 感冒#NN)  (nn, 肌肤#NN, 嫩#NN)  (dobj, 降#VV, 肌肤#NN)  (conj, 增高#VV, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)  (advmod, 有#VE, 也#AD)  (conj, 增高#VV, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 治疗#VV)  (assmod, 伤#NN, 皮肤#NN)  (case, 皮肤#NN, 之#DEG)  (dobj, 治疗#VV, 伤#NN)
+            (advmod, 有#VE, 如果#CS)  (dep, 有#VE, 有#VE)  (conj, 水火#NR, 冻疮#NR)  (conj, 水火#NR, 脚气#NR)  (nn, 烫伤#NN, 水火#NR)  (dobj, 有#VE, 烫伤#NN)  (nsubj, 有#VE, 蛙油#NN)  (nsubj, 有#VE, 外敷#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)   (nsubj, 营养品#NN, 蛙油#NN)  (cop, 营养品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 营养品#NN, 种#M)  (nn, 美容#NR, 兼具#NR)  (conj, 美容#NR, 药用#NR)  (conj, 美容#NR, 食补#NR)  (assmod, 营养品#NN, 美容#NR)  (case, 美容#NR, 的#DEG)  (amod, 营养品#NN, 高级#JJ)  (root, ROOT#null, 营养品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 佳品#VV, 滋补#NN)  (root, ROOT#null, 佳品#VV)
+            (nsubj, 具有#VV, 雪蛤#NN)  (root, ROOT#null, 具有#VV)  (nn, 益精#NN, 补#NN)  (nn, 益精#NN, 肾#NN)  (dobj, 具有#VV, 益精#NN)  (relcl, ''#NN, 养#VV)  (nn, 润肺#NN, 阴#NN)  (dobj, 养#VV, 润肺#NN)  (mark, 养#VV, 的#DEC)  (nn, ''#NN, 功效#NN)  (nsubj, 具有#VV, ''#NN)  (nn, 记载#NN, 中国#NR)  (nn, 记载#NN, 药#NN)  (nn, 记载#NN, 手册#NN)  (nn, ''#NN, 记载#NN)  (nsubj, 具有#VV, ''#NN)  (advmod, 具有#VV, 雪蛤#AD)  (conj, 具有#VV, 具有#VV)  (relcl, 功效#NN, 补#VV)  (dobj, 补#VV, 虚损#NN)  (conj, 补#VV, 解#VV)  (nn, 热#NN, 劳#NN)  (dobj, 解#VV, 热#NN)  (conj, 补#VV, 治#VV)  (nn, ''#NN, 身体#NN)  (conj, ''#NN, 衰弱#NN)  (nn, ''#NN, 产后#NN)  (conj, ''#NN, 气虚#NN)  (nn, ''#NN, 肺痨#NN)  (nn, ''#NN, 咳嗽#NN)  (dobj, 治#VV, ''#NN)  (mark, 补#VV, 之#DEC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解势毒  利水消肿  虚痨咳嗽  止痛  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.据经科学分析测定，蛤士蟆油的主要成分为：不饱和脂肪酸，磷酯化合物、蛋白质、维生素A、C、E，多种氨基酸和钾、钙、钠、锰、硒、磷等微量元素，是享誉国内外的营养保健佳品。
+            2.由于其采制林蛙的输卵管，其本身含有的12种生物元素，其中的8种是人体必需的。
+        </rawdata>
+
+        <segment>
+            据  经  科学  分析  测定  ，  蛤士蟆  油  的  主要  成分  为  ：  不  饱和  脂肪酸  ，  磷  酯化  合物  、  蛋白质  、  维生素A  、  C  、  E  ，  多  种  氨基酸  和  钾  、  钙  、  钠  、  锰  、  硒  、  磷  等  微量  元素  ，  是  享誉  国内外  的  营养  保健  佳品  。
+            由于  其  采制  林蛙  的  输卵管  ，  其  本身  含有  的  12  种  生物  元素  ，  其中  的  8  种  是  人体  必需  的  。
+        </segment>
+
+        <pos>
+            据#P  经#P  科学#NN  分析#VV  测定#NN  ，#PU  蛤士蟆#NN  油#NN  的#DEG  主要#JJ  成分#NN  为#VC  ：#PU  不#AD  饱和#VV  脂肪酸#NN  ，#PU  磷#NN  酯化#VV  合物#NN  、#PU  蛋白质#NN  、#PU  维生素A#NN  、#PU  C#NN  、#PU  E#NN  ，#PU  多#CD  种#M  氨基酸#NN  和#CC  钾#NN  、#PU  钙#NN  、#PU  钠#NN  、#PU  锰#NN  、#PU  硒#NN  、#PU  磷#NN  等#ETC  微量#NN  元素#NN  ，#PU  是#VC  享誉#VV  国内外#NN  的#DEC  营养#VA  保健#NN  佳品#NN  。#PU
+            由于#P  其#PN  采制#VV  林蛙#NN  的#DEG  输卵管#NN  ，#PU  其#PN  本身#PN  含有#VV  的#DEC  12#CD  种#M  生物#NN  元素#NN  ，#PU  其中#NN  的#DEG  8#CD  种#M  是#VC  人体#AD  必需#VV  的#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (case, 分析#VV, 据#P)  (case, 科学#NN, 经#P)  (prep, 分析#VV, 科学#NN)  (prep, 饱和#VV, 分析#VV)  (dobj, 分析#VV, 测定#NN)  (nn, 油#NN, 蛤士蟆#NN)  (assmod, 成分#NN, 油#NN)  (case, 油#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 饱和#VV, 成分#NN)  (cop, 饱和#VV, 为#VC)  (neg, 饱和#VV, 不#AD)  (root, ROOT#null, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (nsubj, 酯化#VV, 磷#NN)  (conj, 饱和#VV, 酯化#VV)  (conj, E#NN, 合物#NN)  (conj, E#NN, 蛋白质#NN)  (conj, E#NN, 维生素A#NN)  (conj, E#NN, C#NN)  (dobj, 酯化#VV, E#NN)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 元素#NN, 氨基酸#NN)  (cc, 元素#NN, 和#CC)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 钙#NN)  (conj, 磷#NN, 钠#NN)  (conj, 磷#NN, 锰#NN)  (conj, 磷#NN, 硒#NN)  (nn, 微量#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (dep, 佳品#NN, 元素#NN)  (cop, 佳品#NN, 是#VC)  (relcl, 佳品#NN, 享誉#VV)  (dobj, 享誉#VV, 国内外#NN)  (mark, 享誉#VV, 的#DEC)  (nfincl, 佳品#NN, 营养#VA)  (nn, 佳品#NN, 保健#NN)  (conj, 饱和#VV, 佳品#NN)
+            (case, 采制#VV, 由于#P)  (nsubj, 采制#VV, 其#PN)  (prep, 必需#VV, 采制#VV)  (assmod, 输卵管#NN, 林蛙#NN)  (case, 林蛙#NN, 的#DEG)  (dobj, 采制#VV, 输卵管#NN)  (dep, 本身#PN, 其#PN)  (nsubj, 含有#VV, 本身#PN)  (relcl, 元素#NN, 含有#VV)  (mark, 含有#VV, 的#DEC)  (nummod, 种#M, 12#CD)  (clf, 元素#NN, 种#M)  (nn, 元素#NN, 生物#NN)  (dep, 必需#VV, 元素#NN)  (assmod, 种#M, 其中#NN)  (case, 其中#NN, 的#DEG)  (nummod, 种#M, 8#CD)  (dep, 必需#VV, 种#M)  (cop, 必需#VV, 是#VC)  (advmod, 必需#VV, 人体#AD)  (root, ROOT#null, 必需#VV)  (mark, 必需#VV, 的#DEC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            雪蛤食用方法多样，雪蛤油可蒸、烧、炒菜等。
+            雪蛤虽然是名贵的滋补品，但是吃得太多太频繁也会受到雪蛤的副作用，专家认为，一般来说，每次大概用10~15克已足够，一周食用一次对于普通人来说已经足够了。
+        </rawdata>
+
+        <segment>
+            雪蛤  食用  方法  多样  ，  雪蛤  油  可  蒸  、  烧  、  炒菜  等  。
+            雪蛤  虽然  是  名贵  的  滋补品  ，  但是  吃  得  太  多  太  频繁  也  会  受到  雪蛤  的  副作用  ，  专家  认为  ，  一般来说  ，  每  次  大概  用  10  ~  15  克  已  足够  ，  一  周  食用  一  次  对于  普通  人  来说  已经  足够  了  。
+        </segment>
+
+        <pos>
+            雪蛤#NN  食用#VV  方法#NN  多样#VA  ，#PU  雪蛤#VV  油#NN  可#VV  蒸#NR  、#PU  烧#NR  、#PU  炒菜#NR  等#ETC  。#PU
+            雪蛤#NN  虽然#CS  是#VC  名贵#JJ  的#DEG  滋补品#NN  ，#PU  但是#AD  吃#VV  得#DER  太#AD  多#AD  太#AD  频繁#VA  也#AD  会#VV  受到#VV  雪蛤#NN  的#DEG  副作用#NN  ，#PU  专家#NN  认为#VV  ，#PU  一般来说#CD  ，#PU  每#DT  次#M  大概#AD  用#VV  10#CD  ~#NN  15#CD  克#M  已#AD  足够#VV  ，#PU  一#CD  周#M  食用#VV  一#CD  次#M  对于#P  普通#JJ  人#NN  来说#NN  已经#AD  足够#VV  了#AS  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 雪蛤#NN)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 方法#NN)  (conj, 食用#VV, 多样#VA)  (dep, 食用#VV, 雪蛤#VV)  (dobj, 雪蛤#VV, 油#NN)  (conj, 雪蛤#VV, 可#VV)  (conj, 炒菜#NR, 蒸#NR)  (conj, 炒菜#NR, 烧#NR)  (dobj, 可#VV, 炒菜#NR)  (etc, 炒菜#NR, 等#ETC)
+            (nsubj, 滋补品#NN, 雪蛤#NN)  (advmod, 滋补品#NN, 虽然#CS)  (cop, 滋补品#NN, 是#VC)  (assmod, 滋补品#NN, 名贵#JJ)  (case, 名贵#JJ, 的#DEG)  (root, ROOT#null, 滋补品#NN)  (advmod, 受到#VV, 但是#AD)  (dep, 频繁#VA, 吃#VV)  (dep, 频繁#VA, 得#DER)  (advmod, 频繁#VA, 太#AD)  (advmod, 频繁#VA, 多#AD)  (advmod, 频繁#VA, 太#AD)  (dep, 受到#VV, 频繁#VA)  (advmod, 受到#VV, 也#AD)  (mmod, 受到#VV, 会#VV)  (conj, 滋补品#NN, 受到#VV)  (assmod, 副作用#NN, 雪蛤#NN)  (case, 雪蛤#NN, 的#DEG)  (dobj, 受到#VV, 副作用#NN)  (nsubj, 认为#VV, 专家#NN)  (xsubj, 足够#VV, 专家#NN)  (conj, 滋补品#NN, 认为#VV)  (dep, 用#VV, 一般来说#CD)  (dep, 用#VV, 每#DT)  (clf, 每#DT, 次#M)  (advmod, 用#VV, 大概#AD)  (dep, 足够#VV, 用#VV)  (nummod, ~#NN, 10#CD)  (nummod, 克#M, 15#CD)  (range, 用#VV, 克#M)  (advmod, 足够#VV, 已#AD)  (conj, 用#VV, 足够#VV)  (nummod, 周#M, 一#CD)  (dep, 食用#VV, 周#M)  (dep, 用#VV, 食用#VV)  (nummod, 次#M, 一#CD)  (range, 食用#VV, 次#M)  (case, 来说#NN, 对于#P)  (amod, 人#NN, 普通#JJ)  (nn, 来说#NN, 人#NN)  (prep, 足够#VV, 来说#NN)  (advmod, 足够#VV, 已经#AD)  (ccomp, 认为#VV, 足够#VV)  (asp, 足够#VV, 了#AS)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201306/131132055.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

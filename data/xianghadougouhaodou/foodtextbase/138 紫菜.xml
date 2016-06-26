@@ -1,0 +1,478 @@
+<content>
+
+    <id>
+        138
+    </id>
+
+    <foodname>
+        紫菜
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        藻类
+    </secondcategory>
+
+    <alias>
+        索菜、子菜、甘紫菜、海苔
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不宜多食；消化功能不好、素体脾虚者少食；腹痛便溏者，乳腺小叶增生以及各类肿瘤患者，脾胃虚寒者忌食。
+        </rawdata>
+
+        <segment>
+            不宜多  食  ；  消化  功能  不  好  、  素  体  脾虚  者  少  食  ；  腹痛  便溏者  ，  乳腺  小叶  增生  以及  各  类  肿瘤  患者  ，  脾胃  虚寒者  忌食  。
+        </segment>
+
+        <pos>
+            不宜多#VV  食#NN  ；#PU  消化#NN  功能#NN  不#AD  好#VA  、#PU  素#AD  体#VV  脾虚#NN  者#NN  少#JJ  食#NN  ；#PU  腹痛#VV  便溏者#NN  ，#PU  乳腺#VV  小叶#NN  增生#NN  以及#CC  各#DT  类#M  肿瘤#NN  患者#NN  ，#PU  脾胃#VV  虚寒者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 不宜多#VV)  (dobj, 不宜多#VV, 食#NN)  (nn, 功能#NN, 消化#NN)  (nsubj, 好#VA, 功能#NN)  (neg, 好#VA, 不#AD)  (dep, 不宜多#VV, 好#VA)  (advmod, 体#VV, 素#AD)  (dep, 好#VA, 体#VV)  (nn, 者#NN, 脾虚#NN)  (nn, 食#NN, 者#NN)  (amod, 食#NN, 少#JJ)  (dobj, 体#VV, 食#NN)  (conj, 不宜多#VV, 腹痛#VV)  (dobj, 腹痛#VV, 便溏者#NN)  (conj, 腹痛#VV, 乳腺#VV)  (nn, 增生#NN, 小叶#NN)  (conj, 患者#NN, 增生#NN)  (cc, 患者#NN, 以及#CC)  (det, 肿瘤#NN, 各#DT)  (clf, 各#DT, 类#M)  (nn, 患者#NN, 肿瘤#NN)  (dobj, 乳腺#VV, 患者#NN)  (conj, 腹痛#VV, 脾胃#VV)  (nn, 忌食#NN, 虚寒者#NN)  (dobj, 脾胃#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均宜食用。尤其适宜甲状腺肿大、水肿、慢性支气管炎、咳嗽、瘿瘤、淋病、脚气、高血压、肺病初期、心血管病和各类肿块、增生者。
+        </rawdata>
+
+        <segment>
+            一般  人均  宜  食用  。  尤其  适宜  甲状腺  肿大  、  水肿  、  慢性  支气管炎  、  咳嗽  、  瘿瘤  、  淋病  、  脚气  、  高  血压  、  肺病  初期  、  心血管病  和  各  类  肿块  、  增生  者  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#JJ  宜#NR  食用#VV    。#PU  尤其#AD  适宜#VV  甲状腺#NR  肿大#NR  、#PU  水肿#NR  、#PU  慢性#NR  支气管炎#NR  、#PU  咳嗽#NR  、#PU  瘿瘤#NR  、#PU  淋病#NR  、#PU  脚气#NR  、#PU  高#JJ  血压#NN  、#PU  肺病#NN  初期#NN  、#PU  心血管病#NR  和#CC  各#DT  类#M  肿块#NN  、#PU  增生#NR  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (amod, 宜#NR, 人均#JJ)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤其#AD)  (root, ROOT#null, 适宜#VV)  (nn, 者#NN, 甲状腺#NR)  (conj, 脚气#NR, 肿大#NR)  (conj, 脚气#NR, 水肿#NR)  (nn, 脚气#NR, 慢性#NR)  (conj, 脚气#NR, 支气管炎#NR)  (conj, 脚气#NR, 咳嗽#NR)  (conj, 脚气#NR, 瘿瘤#NR)  (conj, 脚气#NR, 淋病#NR)  (conj, 增生#NR, 脚气#NR)  (amod, 血压#NN, 高#JJ)  (conj, 增生#NR, 血压#NN)  (nn, 初期#NN, 肺病#NN)  (conj, 增生#NR, 初期#NN)  (conj, 增生#NR, 心血管病#NR)  (cc, 增生#NR, 和#CC)  (det, 肿块#NN, 各#DT)  (clf, 各#DT, 类#M)  (conj, 增生#NR, 肿块#NN)  (nn, 者#NN, 增生#NR)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                28.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                9.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                8.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                27.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                216
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                403
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                2420
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                2.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                7.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                422
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                350
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1640
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                365.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                105
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                46.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                289.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                7.22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            紫菜，是在海中互生藻类的统称，属海产红藻，素有“岩礁骄子”之称。叶状体由包埋于薄层胶质中的一层细胞组成，深褐、红色或紫色。同时紫菜还可以入药，制成中药，具有化痰软坚、清热利水、补肾养心的功效。
+            我国沿海的漫长海域均有生产，每年二、三月开始生长，四、五月间是紫菜最嫩的季节。紫菜的品种很多，我国常见的紫菜有圆紫菜、皱紫菜、冬斑、甘紫菜等。
+            紫菜干制后食用，是一种名贵的海产品，用紫菜做出的汤菜，鲜美清香，别有风味，不仅有丰寓的营养价值，而且有很高的药用价值，紫菜真不愧是蔬菜中的珍品。我国食用紫菜的历史悠久，据记载，在宋朝，紫菜是专供皇帝享用的贡品，如今，紫菜已是普通老百姓的食物了。
+        </rawdata>
+
+        <segment>
+            紫菜  ，  是  在  海中  互生  藻类  的  统称  ，  属  海产  红藻  ，  素  有  “  岩礁  骄子  ”  之  称  。  叶状体  由  包  埋  于  薄层  胶质  中  的  一  层  细胞  组成  ，  深褐  、  红色  或  紫色  。  同时  紫菜  还  可以  入药  ，  制成  中药  ，  具有  化痰  软坚  、  清热  利水  、  补  肾  养心  的  功效  。
+            我国  沿海  的  漫长  海域  均  有  生产  ，  每  年  二  、  三月  开始  生长  ，  四  、  五月  间  是  紫菜  最  嫩的  季节  。  紫菜  的  品种  很多  ，  我国  常见  的  紫菜  有  圆  紫菜  、  皱  紫菜  、  冬斑  、  甘紫菜  等  。
+            紫菜  干制  后  食用  ，  是  一  种  名贵  的  海产品  ，  用  紫菜  做出  的  汤菜  ，  鲜美  清香  ，  别有风味  ，  不仅  有  丰寓  的  营养  价值  ，  而且  有  很  高  的  药用  价值  ，  紫菜  真  不愧  是  蔬菜  中  的  珍品  。  我国  食用  紫菜  的  历史  悠久  ，  据  记载  ，  在  宋朝  ，  紫菜  是  专供  皇帝  享用  的  贡品  ，  如今  ，  紫菜  已  是  普通  老百姓  的  食物  了  。
+        </segment>
+
+        <pos>
+            紫菜#VV  ，#PU  是#VC  在#P  海中#NN  互生#NN  藻类#NN  的#DEG  统称#NN  ，#PU  属#VV  海产#NN  红藻#NN  ，#PU  素#AD  有#VE  ``#NN  岩礁#NN  骄子#NN  ''#NN  之#DEG  称#NN    。#PU  叶状体#NN  由#P  包#NN  埋#NN  于#P  薄层#NN  胶质#NN  中#LC  的#DEG  一#CD  层#M  细胞#NN  组成#VV  ，#PU  深褐#JJ  、#PU  红色#JJ  或#CC  紫色#JJ    。#PU  同时#AD  紫菜#VV  还#AD  可以#VV  入药#VV  ，#PU  制成#VV  中药#NN  ，#PU  具有#VV  化痰#NN  软坚#NN  、#PU  清热#NN  利水#NN  、#PU  补#NN  肾#NN  养心#NN  的#DEC  功效#NN    。#PU    。#PU
+            我国#NN  沿海#NN  的#DEG  漫长#NN  海域#NN  均#AD  有#VE  生产#NN  ，#PU  每#DT  年#M  二#CD  、#PU  三月#NT  开始#VV  生长#NN  ，#PU  四#CD  、#PU  五月#NT  间#LC  是#VC  紫菜#NR  最#AD  嫩的#JJ  季节#NN    。#PU  紫菜#NN  的#DEG  品种#NN  很多#CD  ，#PU  我国#AD  常见#VA  的#DEC  紫菜#NN  有#VE  圆#VV  紫菜#NR  、#PU  皱#NR  紫菜#NR  、#PU  冬斑#NR  、#PU  甘紫菜#NR  等#ETC    。#PU    。#PU
+            紫菜#NN  干制#NN  后#LC  食用#VV  ，#PU  是#VC  一#CD  种#M  名贵#JJ  的#DEG  海产品#NN  ，#PU  用#P  紫菜#AD  做出#VV  的#DEC  汤菜#NN  ，#PU  鲜美#NN  清香#NN  ，#PU  别有风味#NN  ，#PU  不仅#CC  有#VE  丰寓#NN  的#DEG  营养#VA  价值#NN  ，#PU  而且#CC  有#VE  很#AD  高#VA  的#DEC  药用#JJ  价值#NN  ，#PU  紫菜#NN  真#AD  不愧#AD  是#VC  蔬菜#NN  中#LC  的#DEG  珍品#NN    。#PU  我国#AD  食用#VV  紫菜#NN  的#DEC  历史#NN  悠久#VA  ，#PU  据#P  记载#NN  ，#PU  在#P  宋朝#NR  ，#PU  紫菜#NN  是#VC  专供#NN  皇帝#NN  享用#NN  的#DEG  贡品#NN  ，#PU  如今#NT  ，#PU  紫菜#NN  已#AD  是#VC  普通#JJ  老百姓#NN  的#DEG  食物#NN  了#SP    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 紫菜#VV)  (cop, 统称#NN, 是#VC)  (case, 藻类#NN, 在#P)  (nn, 藻类#NN, 海中#NN)  (nn, 藻类#NN, 互生#NN)  (assmod, 统称#NN, 藻类#NN)  (case, 藻类#NN, 的#DEG)  (ccomp, 紫菜#VV, 统称#NN)  (conj, 统称#NN, 属#VV)  (nn, 红藻#NN, 海产#NN)  (dobj, 属#VV, 红藻#NN)  (advmod, 有#VE, 素#AD)  (conj, 统称#NN, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 岩礁#NN)  (nn, ''#NN, 骄子#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (nsubj, 组成#VV, 叶状体#NN)  (case, 埋#NN, 由#P)  (nn, 埋#NN, 包#NN)  (prep, 组成#VV, 埋#NN)  (case, 细胞#NN, 于#P)  (nn, 胶质#NN, 薄层#NN)  (assmod, 细胞#NN, 胶质#NN)  (case, 胶质#NN, 中#LC)  (case, 胶质#NN, 的#DEG)  (nummod, 层#M, 一#CD)  (clf, 细胞#NN, 层#M)  (prep, 组成#VV, 细胞#NN)  (root, ROOT#null, 组成#VV)  (dep, 组成#VV, 深褐#JJ)  (conj, 深褐#JJ, 红色#JJ)  (cc, 深褐#JJ, 或#CC)  (dep, 深褐#JJ, 紫色#JJ)   (advmod, 紫菜#VV, 同时#AD)  (root, ROOT#null, 紫菜#VV)  (advmod, 入药#VV, 还#AD)  (mmod, 入药#VV, 可以#VV)  (relcl, 功效#NN, 入药#VV)  (conj, 入药#VV, 制成#VV)  (dobj, 制成#VV, 中药#NN)  (conj, 入药#VV, 具有#VV)  (nn, 养心#NN, 化痰#NN)  (conj, 养心#NN, 软坚#NN)  (nn, 养心#NN, 清热#NN)  (conj, 养心#NN, 利水#NN)  (nn, 养心#NN, 补#NN)  (nn, 养心#NN, 肾#NN)  (dobj, 具有#VV, 养心#NN)  (mark, 入药#VV, 的#DEC)  (dobj, 紫菜#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nn, 沿海#NN, 我国#NN)  (assmod, 海域#NN, 沿海#NN)  (case, 沿海#NN, 的#DEG)  (nn, 海域#NN, 漫长#NN)  (nsubj, 有#VE, 海域#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 生产#NN)  (dep, 二#CD, 每#DT)  (clf, 每#DT, 年#M)  (conj, 有#VE, 二#CD)  (dep, 开始#VV, 三月#NT)  (conj, 有#VE, 开始#VV)  (dobj, 开始#VV, 生长#NN)  (conj, 有#VE, 四#CD)  (loc, 季节#NN, 五月#NT)  (case, 五月#NT, 间#LC)  (cop, 季节#NN, 是#VC)  (nn, 季节#NN, 紫菜#NR)  (advmod, 嫩的#JJ, 最#AD)  (amod, 季节#NN, 嫩的#JJ)  (conj, 有#VE, 季节#NN)   (assmod, 品种#NN, 紫菜#NN)  (case, 紫菜#NN, 的#DEG)  (nsubj, 常见#VA, 品种#NN)  (dep, 常见#VA, 很多#CD)  (advmod, 常见#VA, 我国#AD)  (relcl, 紫菜#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (dep, 有#VE, 紫菜#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 圆#VV)  (conj, 甘紫菜#NR, 紫菜#NR)  (nn, 甘紫菜#NR, 皱#NR)  (conj, 甘紫菜#NR, 紫菜#NR)  (conj, 甘紫菜#NR, 冬斑#NR)  (dobj, 圆#VV, 甘紫菜#NR)  (etc, 甘紫菜#NR, 等#ETC)   (root, ROOT#null, null#null)
+            (nn, 干制#NN, 紫菜#NN)  (loc, 食用#VV, 干制#NN)  (case, 干制#NN, 后#LC)  (conj, 海产品#NN, 食用#VV)  (cop, 海产品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 海产品#NN, 种#M)  (assmod, 海产品#NN, 名贵#JJ)  (case, 名贵#JJ, 的#DEG)  (root, ROOT#null, 海产品#NN)  (case, 汤菜#NN, 用#P)  (advmod, 做出#VV, 紫菜#AD)  (relcl, 汤菜#NN, 做出#VV)  (mark, 做出#VV, 的#DEC)  (prep, 有#VE, 汤菜#NN)  (nn, 清香#NN, 鲜美#NN)  (nsubj, 有#VE, 清香#NN)  (nsubj, 有#VE, 别有风味#NN)  (cc, 有#VE, 不仅#CC)  (conj, 海产品#NN, 有#VE)  (assmod, 价值#NN, 丰寓#NN)  (case, 丰寓#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (dobj, 有#VE, 价值#NN)  (cc, 有#VE, 而且#CC)  (conj, 有#VE, 有#VE)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 有#VE, 价值#NN)  (nsubj, 珍品#NN, 紫菜#NN)  (advmod, 珍品#NN, 真#AD)  (advmod, 珍品#NN, 不愧#AD)  (cop, 珍品#NN, 是#VC)  (assmod, 珍品#NN, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (case, 蔬菜#NN, 的#DEG)  (conj, 海产品#NN, 珍品#NN)   (advmod, 食用#VV, 我国#AD)  (relcl, 历史#NN, 食用#VV)  (dobj, 食用#VV, 紫菜#NN)  (mark, 食用#VV, 的#DEC)  (nsubj, 悠久#VA, 历史#NN)  (root, ROOT#null, 悠久#VA)  (case, 记载#NN, 据#P)  (prep, 贡品#NN, 记载#NN)  (case, 宋朝#NR, 在#P)  (prep, 贡品#NN, 宋朝#NR)  (nsubj, 贡品#NN, 紫菜#NN)  (cop, 贡品#NN, 是#VC)  (nn, 享用#NN, 专供#NN)  (nn, 享用#NN, 皇帝#NN)  (assmod, 贡品#NN, 享用#NN)  (case, 享用#NN, 的#DEG)  (conj, 悠久#VA, 贡品#NN)  (dep, 食物#NN, 如今#NT)  (nsubj, 食物#NN, 紫菜#NN)  (advmod, 食物#NN, 已#AD)  (cop, 食物#NN, 是#VC)  (amod, 老百姓#NN, 普通#JJ)  (assmod, 食物#NN, 老百姓#NN)  (case, 老百姓#NN, 的#DEG)  (conj, 悠久#VA, 食物#NN)  (dep, 食物#NN, 了#SP)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            紫菜性味甘咸、寒，入肺经；具有化痰软坚、清热利水、补肾养心的功效；用于甲状腺肿、水肿、慢性支气管炎、咳嗽、瘿瘤、淋病、脚气、高血压等。
+            1.预防甲状腺肿大
+            可用于治疗因缺碘引起的“甲状腺肿大”，紫菜有软坚散结功能，对其他郁结积块也有用途。
+            2.促进生长发育
+            富含胆碱和钙、铁、能增强记忆、治疗妇幼贫血、促进骨骼、牙齿的生长和保健；含有一定量的甘露醇，可作为治疗水肿的辅助食品。
+            3.预防肿瘤
+            紫菜的有效成分对艾氏癌的抑制率53.2%，有助于脑肿瘤、乳腺癌、甲状腺癌、恶性淋巴瘤等肿瘤的防治。
+            4.提高免疫功能
+            紫菜所含的多糖具有明显增强细胞免疫和体液免疫功能，可促进淋巴细胞转化，提高机体的免疫力。
+        </rawdata>
+
+        <segment>
+            紫菜性  味  甘  咸  、  寒  ，  入  肺经  ；  具有  化痰  软坚  、  清热  利水  、  补  肾  养心  的  功效  ；  用于  甲状腺肿  、  水肿  、  慢性  支气管炎  、  咳嗽  、  瘿瘤  、  淋病  、  脚气  、  高血压  等  。
+            预防  甲状腺  肿大
+            可  用于  治疗  因  缺碘  引起  的  “  甲状腺  肿大  ”  ，  紫菜  有  软坚  散结  功能  ，  对  其他  郁结  积  块  也  有  用途  。
+            促进  生长  发育
+            富含  胆碱  和  钙  、  铁  、  能  增强  记忆  、  治疗  妇幼  贫血  、  促进  骨骼  、  牙齿  的  生长  和  保健  ；  含有  一定量  的  甘露醇  ，  可  作为  治疗  水肿  的  辅助  食品  。
+            预防  肿瘤
+            紫菜  的  有效  成分  对  艾氏  癌的  抑制  率  .2%  ，  有助于  脑  肿瘤  、  乳腺癌  、  甲状  腺癌  、  恶性  淋巴瘤  等  肿瘤  的  防治  。
+            提高  免疫  功能
+            紫菜  所  含  的  多糖  具有  明显  增强  细胞  免疫  和  体液  免疫  功能  ，  可  促进  淋巴  细胞  转化  ，  提高  机体  的  免疫力  。
+        </segment>
+
+        <pos>
+            紫菜性#NN  味#VV  甘#NR  咸#NN  、#PU  寒#JJ  ，#PU  入#VV  肺经#NN  ；#PU  具有#VV  化痰#NN  软坚#NN  、#PU  清热#NN  利水#NN  、#PU  补#VV  肾#NN  养心#NN  的#DEG  功效#NN  ；#PU  用于#VV  甲状腺肿#NR  、#PU  水肿#NR  、#PU  慢性#NR  支气管炎#NR  、#PU  咳嗽#NR  、#PU  瘿瘤#NR  、#PU  淋病#NR  、#PU  脚气#NR  、#PU  高血压#NR  等#ETC  。#PU
+            预防#NN  甲状腺#VV  肿大#NN
+            可#VV  用于#VV  治疗#NN  因#P  缺碘#AD  引起#VV  的#DEC  ``#NN  甲状腺#VV  肿大#NN  ''#NN  ，#PU  紫菜#AD  有#VE  软坚#NN  散结#NN  功能#NN  ，#PU  对#P  其他#DT  郁结#NN  积#VV  块#M  也#AD  有#VE  用途#NN  。#PU
+            促进#VV  生长#NN  发育#NN
+            富含#VV  胆碱#NN  和#CC  钙#NN  、#PU  铁#NN  、#PU  能#VV  增强#VV  记忆#NN  、#PU  治疗#NN  妇幼#NN  贫血#NN  、#PU  促进#VV  骨骼#NN  、#PU  牙齿#NN  的#DEG  生长#NN  和#CC  保健#NN  ；#PU  含有#VV  一定量#CD  的#DEG  甘露醇#NN  ，#PU  可#VV  作为#VV  治疗#VV  水肿#NN  的#DEC  辅助#NN  食品#NN  。#PU
+            预防#VV  肿瘤#NN
+            紫菜#NN  的#DEG  有效#JJ  成分#NN  对#P  艾氏#NN  癌的#NN  抑制#VV  率#VV  .2#CD  %#NN  ，#PU  有助于#VV  脑#NN  肿瘤#NN  、#PU  乳腺癌#NN  、#PU  甲状#NN  腺癌#NN  、#PU  恶性#JJ  淋巴瘤#NN  等#ETC  肿瘤#NN  的#DEC  防治#NN  。#PU
+            提高#VV  免疫#NN  功能#NN
+            紫菜#AD  所#MSP  含#VV  的#DEC  多糖#NN  具有#VV  明显#AD  增强#VV  细胞#NN  免疫#NN  和#CC  体液#NN  免疫#NN  功能#NN  ，#PU  可#VV  促进#VV  淋巴#NN  细胞#NN  转化#NN  ，#PU  提高#VV  机体#NN  的#DEC  免疫力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 紫菜性#NN)  (root, ROOT#null, 味#VV)  (nn, 咸#NN, 甘#NR)  (dobj, 味#VV, 咸#NN)  (conj, 味#VV, 寒#JJ)  (conj, 味#VV, 入#VV)  (dobj, 入#VV, 肺经#NN)  (conj, 味#VV, 具有#VV)  (nn, 利水#NN, 化痰#NN)  (conj, 利水#NN, 软坚#NN)  (nn, 利水#NN, 清热#NN)  (dobj, 具有#VV, 利水#NN)  (conj, 味#VV, 补#VV)  (nn, 养心#NN, 肾#NN)  (assmod, 功效#NN, 养心#NN)  (case, 养心#NN, 的#DEG)  (dobj, 补#VV, 功效#NN)  (conj, 味#VV, 用于#VV)  (conj, 高血压#NR, 甲状腺肿#NR)  (conj, 高血压#NR, 水肿#NR)  (nn, 高血压#NR, 慢性#NR)  (conj, 高血压#NR, 支气管炎#NR)  (conj, 高血压#NR, 咳嗽#NR)  (conj, 高血压#NR, 瘿瘤#NR)  (conj, 高血压#NR, 淋病#NR)  (conj, 高血压#NR, 脚气#NR)  (dobj, 用于#VV, 高血压#NR)  (etc, 高血压#NR, 等#ETC)
+            (nsubj, 甲状腺#VV, 预防#NN)  (root, ROOT#null, 甲状腺#VV)  (dobj, 甲状腺#VV, 肿大#NN)
+            (mmod, 用于#VV, 可#VV)  (dep, 有#VE, 用于#VV)  (dobj, 用于#VV, 治疗#NN)  (case, ``#NN, 因#P)  (advmod, 引起#VV, 缺碘#AD)  (relcl, ``#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (prep, 甲状腺#VV, ``#NN)  (conj, 用于#VV, 甲状腺#VV)  (nn, ''#NN, 肿大#NN)  (dobj, 甲状腺#VV, ''#NN)  (advmod, 有#VE, 紫菜#AD)  (conj, 用于#VV, 有#VE)  (nn, 功能#NN, 软坚#NN)  (nn, 功能#NN, 散结#NN)  (dobj, 有#VE, 功能#NN)  (case, 郁结#NN, 对#P)  (det, 郁结#NN, 其他#DT)  (prep, 积#VV, 郁结#NN)  (conj, 用于#VV, 积#VV)  (dobj, 积#VV, 块#M)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 用途#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)
+            (root, ROOT#null, 富含#VV)  (conj, 铁#NN, 胆碱#NN)  (cc, 铁#NN, 和#CC)  (conj, 铁#NN, 钙#NN)  (dobj, 富含#VV, 铁#NN)  (mmod, 增强#VV, 能#VV)  (conj, 富含#VV, 增强#VV)  (conj, 贫血#NN, 记忆#NN)  (nn, 贫血#NN, 治疗#NN)  (nn, 贫血#NN, 妇幼#NN)  (dobj, 增强#VV, 贫血#NN)  (conj, 富含#VV, 促进#VV)  (conj, 牙齿#NN, 骨骼#NN)  (assmod, 保健#NN, 牙齿#NN)  (case, 牙齿#NN, 的#DEG)  (conj, 保健#NN, 生长#NN)  (cc, 保健#NN, 和#CC)  (dobj, 促进#VV, 保健#NN)  (conj, 富含#VV, 含有#VV)  (assmod, 甘露醇#NN, 一定量#CD)  (case, 一定量#CD, 的#DEG)  (dobj, 含有#VV, 甘露醇#NN)  (mmod, 作为#VV, 可#VV)  (conj, 富含#VV, 作为#VV)  (relcl, 食品#NN, 治疗#VV)  (dobj, 治疗#VV, 水肿#NN)  (mark, 治疗#VV, 的#DEC)  (nn, 食品#NN, 辅助#NN)  (dobj, 作为#VV, 食品#NN)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 肿瘤#NN)
+            (assmod, 成分#NN, 紫菜#NN)  (case, 紫菜#NN, 的#DEG)  (amod, 成分#NN, 有效#JJ)  (nsubj, 抑制#VV, 成分#NN)  (case, 癌的#NN, 对#P)  (nn, 癌的#NN, 艾氏#NN)  (prep, 抑制#VV, 癌的#NN)  (root, ROOT#null, 抑制#VV)  (relcl, 防治#NN, 率#VV)  (nummod, %#NN, .2#CD)  (dobj, 率#VV, %#NN)  (conj, 率#VV, 有助于#VV)  (nn, 肿瘤#NN, 脑#NN)  (conj, 淋巴瘤#NN, 肿瘤#NN)  (conj, 淋巴瘤#NN, 乳腺癌#NN)  (nn, 腺癌#NN, 甲状#NN)  (conj, 淋巴瘤#NN, 腺癌#NN)  (amod, 淋巴瘤#NN, 恶性#JJ)  (nn, 肿瘤#NN, 淋巴瘤#NN)  (etc, 淋巴瘤#NN, 等#ETC)  (dobj, 有助于#VV, 肿瘤#NN)  (mark, 率#VV, 的#DEC)  (dobj, 抑制#VV, 防治#NN)
+            (root, ROOT#null, 提高#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)
+            (advmod, 含#VV, 紫菜#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 多糖#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 具有#VV, 多糖#NN)  (root, ROOT#null, 具有#VV)  (advmod, 增强#VV, 明显#AD)  (relcl, 免疫力#NN, 增强#VV)  (nn, 功能#NN, 细胞#NN)  (conj, 功能#NN, 免疫#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 体液#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)  (mmod, 促进#VV, 可#VV)  (conj, 增强#VV, 促进#VV)  (nn, 转化#NN, 淋巴#NN)  (nn, 转化#NN, 细胞#NN)  (dobj, 促进#VV, 转化#NN)  (conj, 增强#VV, 提高#VV)  (dobj, 提高#VV, 机体#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 具有#VV, 免疫力#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.紫菜的1/5是食物纤维，可以保持肠道健康。
+            2.紫菜干品中含粗蛋白20%~35%，约为大米的6倍，面粉的3倍，猪肉的2.6倍。
+            3.紫菜所含氨基酸种类多，数量大，含碘量很高。4.紫菜中维生素A、B、C和碘、钙、铁、磷、锌、锰、铜等元素也很丰富；维生素A、维生素B1、维生素B2的含量可与动物肝脏想媲美。今有维生素B12的食品为数不多，除了紫菜之外，还有动物肝脏、蛋类和牡蛎等高热量食品。紫菜没有热量。最适合中老年人补充维生素B12幻每天只要食用3片紫菜，便可补充人体一天所需的2．4mg维生素B12。
+            5.由于海水蕴含极为丰富的无机成份，而紫菜又具有吸收和积蓄海水中无机质的功能，因些紫菜中的无机质含量极为丰富。
+            6.与陆生植物相比，紫菜的脂肪含量低，多在1%以下，紫菜的脂肪中，饱和脂肪酸的软脂酸占绝大多数，约为20%；肉豆葱酸，硬脂酸含量较少，分别占2%；对人体有很好保健作用的不饱和脂肪—亚油酸、亚麻酸或十八碳四烯酸含量较多，为10%——30%，且C20以上的高度不饱和脂肪酸也有一定的含量。更优的是紫菜中被人们比喻为“脑黄金”的二十碳五烯酸含量高达30%。
+        </rawdata>
+
+        <segment>
+            紫菜  的  1/5  是  食物  纤维  ，  可以  保持  肠道  健康  。
+            紫菜  干  品  中  含粗  蛋白  20%  ~35%  ，  约  为  大米  的  6  倍  ，  面粉  的  3  倍  ，  猪肉  的  2.6  倍  。
+            紫菜  所  含  氨基酸  种类  多  ，  数量  大  ，  含  碘量  很  高  。  4  .  紫菜  中  维生素A  、  B  、  C和碘  、  钙  、  铁  、  磷  、  锌  、  锰  、  铜  等  元素  也  很  丰富  ；  维生素A  、  维生素  B  维生素B2  的  含量  可  与  动物  肝脏  想  媲美  。  今  有  维生素  B  12  的  食品  为数不多  ，  除了  紫菜  之外  ，  还有  动物  肝脏  、  蛋类  和  牡蛎  等  高  热量  食品  。  紫菜  没有  热量  。  最适  合  中老年人  补充  维生素  B  12  幻  每  天  只要  食用  3  片  紫菜  ，  便可  补充  人体  一  天  所  需  的  2．4mg  维生素  B  12  。
+            由于  海水  蕴含  极为  丰富  的  无机  成份  ，  而  紫菜  又  具有  吸收  和  积蓄  海水  中  无机  质的  功能  ，  因  些  紫菜  中  的  无机  质  含量  极为  丰富  。
+            与  陆生  植物  相比  ，  紫菜  的  脂肪  含量  低  ，  多  在  1%  以下  ，  紫菜  的  脂肪  中  ，  饱和  脂肪酸  的  软脂酸  占  绝大多数  ，  约  为  20%  ；  肉豆  葱酸  ，  硬脂酸  含量  较  少  ，  分别  占  2%  ；  对  人体  有  很好  保健  作用  的  不饱和  脂肪  —  亚油酸  、  亚麻酸  或  十八  碳  四烯酸  含量  较  多  ，  为  10%  ——  30%  ，  且  C  20  以上  的  高度  不  饱和  脂肪酸  也  有  一定  的  含量  。  更  优  的  是  紫菜  中  被  人们  比喻  为  “  脑  黄金  ”  的  二十  碳  五烯酸  含量  高达  30%  。
+        </segment>
+
+        <pos>
+            紫菜#NN  的#DEG  1/5#CD  是#VC  食物#NN  纤维#NN  ，#PU  可以#VV  保持#VV  肠道#NN  健康#VA  。#PU
+            紫菜#NN  干#VV  品#M  中#NR  含粗#NN  蛋白#NN  20#CD  %#NN  ~#NN  35#CD  %#NN  ，#PU  约#AD  为#VC  大米#NN  的#DEG  6#CD  倍#M  ，#PU  面粉#NN  的#DEG  3#CD  倍#M  ，#PU  猪肉#NN  的#DEG  2.6#CD  倍#M  。#PU
+            紫菜#AD  所#MSP  含#VV  氨基酸#NN  种类#NN  多#VA  ，#PU  数量#NN  大#VA  ，#PU  含#VV  碘量#NN  很#AD  高#VA    。#PU  4#CD  .#NN  紫菜#NN  中#LC  维生素A#NN  、#PU  B#NN  、#PU  C和碘#NN  、#PU  钙#NN  、#PU  铁#NN  、#PU  磷#NN  、#PU  锌#NN  、#PU  锰#NN  、#PU  铜#NN  等#ETC  元素#NN  也#AD  很#AD  丰富#VA  ；#PU  维生素A#NN  、#PU  维生素#NN  B#VV  维生素B2#CD  的#DEC  含量#NN  可#VV  与#P  动物#NN  肝脏#NN  想#VV  媲美#VV    。#PU  今#NT  有#VE  维生素#NN  B#VV  12#CD  的#DEG  食品#NN  为数不多#NN  ，#PU  除了#P  紫菜#NN  之外#LC  ，#PU  还有#AD  动物#NN  肝脏#NN  、#PU  蛋类#NN  和#CC  牡蛎#NN  等#ETC  高#AD  热量#VV  食品#NN    。#PU  紫菜#AD  没有#VE  热量#NN    。#PU  最适#AD  合#VV  中老年人#NN  补充#NN  维生素#NN  B#VV  12#CD  幻#NN  每#DT  天#M  只要#CS  食用#VV  3#CD  片#M  紫菜#NN  ，#PU  便可#AD  补充#VV  人体#VV  一#CD  天#M  所#MSP  需#VV  的#DEC  2#CD  ．#PU  4mg#CD  维生素#NN  B#VV  12#CD    。#PU    。#PU
+            由于#P  海水#NN  蕴含#VV  极为#AD  丰富#VA  的#DEC  无机#NN  成份#NN  ，#PU  而#AD  紫菜#NN  又#AD  具有#VV  吸收#NN  和#CC  积蓄#NN  海水#NN  中#LC  无机#NN  质的#NN  功能#NN  ，#PU  因#P  些#CD  紫菜#NN  中#LC  的#DEG  无机#NN  质#NN  含量#NN  极为#AD  丰富#VA  。#PU
+            与#CC  陆生#NN  植物#NN  相比#VV  ，#PU  紫菜#NR  的#DEG  脂肪#NN  含量#NN  低#VA  ，#PU  多#VA  在#P  1#CD  %#NN  以下#LC  ，#PU  紫菜#NR  的#DEG  脂肪#NN  中#LC  ，#PU  饱和#NN  脂肪酸#NN  的#DEG  软脂酸#NN  占#VV  绝大多数#CD  ，#PU  约#AD  为#VC  20#CD  %#NN  ；#PU  肉豆#AD  葱酸#VV  ，#PU  硬脂酸#NN  含量#NN  较#AD  少#VA  ，#PU  分别#AD  占#VV  2#CD  %#NN  ；#PU  对#P  人体#NR  有#VE  很好#NN  保健#NN  作用#NN  的#DEG  不饱和#NN  脂肪#NN  --#NN  亚油酸#CD  、#PU  亚麻酸#CD  或#CC  十八#CD  碳#NR  四烯酸#CD  含量#NN  较#AD  多#VA  ，#PU  为#P  10#CD  %#NN  --#NN  --#VV  30#CD  %#NN  ，#PU  且#CC  C#NN  20#CD  以上#LC  的#DEG  高度#JJ  不#AD  饱和#JJ  脂肪酸#NN  也#AD  有#VE  一定#JJ  的#DEG  含量#NN    。#PU  更#AD  优#VA  的#DEC  是#VC  紫菜#NN  中#LC  被#LB  人们#NN  比喻#NN  为#P  ``#NN  脑#VV  黄金#NN  ''#NN  的#DEC  二十#CD  碳#NN  五烯酸#CD  含量#NN  高达#VV  30#CD  %#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 1/5#CD, 紫菜#NN)  (case, 紫菜#NN, 的#DEG)  (dep, 纤维#NN, 1/5#CD)  (cop, 纤维#NN, 是#VC)  (nn, 纤维#NN, 食物#NN)  (root, ROOT#null, 纤维#NN)  (mmod, 保持#VV, 可以#VV)  (conj, 纤维#NN, 保持#VV)  (dobj, 保持#VV, 肠道#NN)  (dep, 保持#VV, 健康#VA)
+            (nsubj, 干#VV, 紫菜#NN)  (root, ROOT#null, 干#VV)  (dep, %#NN, 品#M)  (nn, 蛋白#NN, 中#NR)  (nn, 蛋白#NN, 含粗#NN)  (nn, %#NN, 蛋白#NN)  (nummod, %#NN, 20#CD)  (nn, ~#NN, %#NN)  (nummod, %#NN, 35#CD)  (dobj, 干#VV, %#NN)  (advmod, 为#VC, 约#AD)  (conj, 干#VV, 为#VC)  (assmod, 倍#M, 大米#NN)  (case, 大米#NN, 的#DEG)  (nummod, 倍#M, 6#CD)  (dep, 为#VC, 倍#M)  (assmod, 倍#M, 面粉#NN)  (case, 面粉#NN, 的#DEG)  (nummod, 倍#M, 3#CD)  (conj, 干#VV, 倍#M)  (assmod, 倍#M, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nummod, 倍#M, 2.6#CD)  (conj, 干#VV, 倍#M)
+            (advmod, 含#VV, 紫菜#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 种类#NN, 含#VV)  (dobj, 含#VV, 氨基酸#NN)  (nsubj, 多#VA, 种类#NN)  (root, ROOT#null, 多#VA)  (nsubj, 大#VA, 数量#NN)  (conj, 多#VA, 大#VA)  (relcl, 碘量#NN, 含#VV)  (nsubj, 高#VA, 碘量#NN)  (advmod, 高#VA, 很#AD)  (conj, 多#VA, 高#VA)   (nummod, .#NN, 4#CD)  (loc, 丰富#VA, 紫菜#NN)  (case, 紫菜#NN, 中#LC)  (conj, 铜#NN, 维生素A#NN)  (conj, 铜#NN, B#NN)  (conj, 铜#NN, C和碘#NN)  (conj, 铜#NN, 钙#NN)  (conj, 铜#NN, 铁#NN)  (conj, 铜#NN, 磷#NN)  (conj, 铜#NN, 锌#NN)  (conj, 铜#NN, 锰#NN)  (nn, 元素#NN, 铜#NN)  (etc, 铜#NN, 等#ETC)  (nsubj, 丰富#VA, 元素#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (relcl, 含量#NN, 丰富#VA)  (conj, 维生素#NN, 维生素A#NN)  (nsubj, B#VV, 维生素#NN)  (conj, 丰富#VA, B#VV)  (range, B#VV, 维生素B2#CD)  (mark, 丰富#VA, 的#DEC)  (nsubj, 媲美#VV, 含量#NN)  (mmod, 媲美#VV, 可#VV)  (case, 肝脏#NN, 与#P)  (nn, 肝脏#NN, 动物#NN)  (prep, 媲美#VV, 肝脏#NN)  (dep, 媲美#VV, 想#VV)  (root, ROOT#null, 媲美#VV)   (tmod, 有#VE, 今#NT)  (root, ROOT#null, 有#VE)  (nsubj, B#VV, 维生素#NN)  (dep, 有#VE, B#VV)  (assmod, 为数不多#NN, 12#CD)  (case, 12#CD, 的#DEG)  (nn, 为数不多#NN, 食品#NN)  (dobj, B#VV, 为数不多#NN)  (case, 紫菜#NN, 除了#P)  (prep, 热量#VV, 紫菜#NN)  (case, 紫菜#NN, 之外#LC)  (advmod, 牡蛎#NN, 还有#AD)  (nn, 肝脏#NN, 动物#NN)  (conj, 牡蛎#NN, 肝脏#NN)  (conj, 牡蛎#NN, 蛋类#NN)  (cc, 牡蛎#NN, 和#CC)  (nsubj, 热量#VV, 牡蛎#NN)  (etc, 牡蛎#NN, 等#ETC)  (advmod, 热量#VV, 高#AD)  (conj, B#VV, 热量#VV)  (dobj, 热量#VV, 食品#NN)   (advmod, 没有#VE, 紫菜#AD)  (root, ROOT#null, 没有#VE)  (dobj, 没有#VE, 热量#NN)   (advmod, 合#VV, 最适#AD)  (conj, B#VV, 合#VV)  (nn, 维生素#NN, 中老年人#NN)  (nn, 维生素#NN, 补充#NN)  (dobj, 合#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (nummod, 幻#NN, 12#CD)  (dobj, B#VV, 幻#NN)  (dep, 补充#VV, 每#DT)  (clf, 每#DT, 天#M)  (advmod, 食用#VV, 只要#CS)  (dep, 补充#VV, 食用#VV)  (nummod, 片#M, 3#CD)  (clf, 紫菜#NN, 片#M)  (dobj, 食用#VV, 紫菜#NN)  (advmod, 补充#VV, 便可#AD)  (conj, B#VV, 补充#VV)  (dobj, 补充#VV, 人体#VV)  (nummod, 天#M, 一#CD)  (range, 人体#VV, 天#M)  (prtmod, 需#VV, 所#MSP)  (conj, 人体#VV, 需#VV)  (mark, 人体#VV, 的#DEC)  (dep, B#VV, 2#CD)  (nummod, 维生素#NN, 4mg#CD)  (nsubj, B#VV, 维生素#NN)  (dep, B#VV, B#VV)  (range, B#VV, 12#CD)   (root, ROOT#null, null#null)
+            (case, 蕴含#VV, 由于#P)  (nsubj, 蕴含#VV, 海水#NN)  (prep, 具有#VV, 蕴含#VV)  (advmod, 丰富#VA, 极为#AD)  (relcl, 成份#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 成份#NN, 无机#NN)  (dobj, 蕴含#VV, 成份#NN)  (advmod, 具有#VV, 而#AD)  (nsubj, 具有#VV, 紫菜#NN)  (advmod, 具有#VV, 又#AD)  (root, ROOT#null, 具有#VV)  (conj, 海水#NN, 吸收#NN)  (cc, 海水#NN, 和#CC)  (nn, 海水#NN, 积蓄#NN)  (dep, 功能#NN, 海水#NN)  (case, 海水#NN, 中#LC)  (nn, 功能#NN, 无机#NN)  (nn, 功能#NN, 质的#NN)  (dobj, 具有#VV, 功能#NN)  (case, 紫菜#NN, 因#P)  (nummod, 紫菜#NN, 些#CD)  (assmod, 含量#NN, 紫菜#NN)  (case, 紫菜#NN, 中#LC)  (case, 紫菜#NN, 的#DEG)  (nn, 含量#NN, 无机#NN)  (nn, 含量#NN, 质#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 极为#AD)  (conj, 具有#VV, 丰富#VA)
+            (cc, 相比#VV, 与#CC)  (nn, 植物#NN, 陆生#NN)  (nsubj, 相比#VV, 植物#NN)  (root, ROOT#null, 相比#VV)  (assmod, 含量#NN, 紫菜#NR)  (case, 紫菜#NR, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 相比#VV, 低#VA)  (conj, 相比#VV, 多#VA)  (case, %#NN, 在#P)  (nummod, %#NN, 1#CD)  (prep, 占#VV, %#NN)  (case, %#NN, 以下#LC)  (assmod, 脂肪#NN, 紫菜#NR)  (case, 紫菜#NR, 的#DEG)  (loc, 占#VV, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (nn, 脂肪酸#NN, 饱和#NN)  (assmod, 软脂酸#NN, 脂肪酸#NN)  (case, 脂肪酸#NN, 的#DEG)  (nsubj, 占#VV, 软脂酸#NN)  (dep, 相比#VV, 占#VV)  (range, 占#VV, 绝大多数#CD)  (advmod, %#NN, 约#AD)  (cop, %#NN, 为#VC)  (nummod, %#NN, 20#CD)  (conj, 占#VV, %#NN)  (advmod, 葱酸#VV, 肉豆#AD)  (conj, 占#VV, 葱酸#VV)  (nn, 含量#NN, 硬脂酸#NN)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 较#AD)  (ccomp, 葱酸#VV, 少#VA)  (advmod, 占#VV, 分别#AD)  (conj, 占#VV, 占#VV)  (nummod, %#NN, 2#CD)  (dobj, 占#VV, %#NN)  (case, 人体#NR, 对#P)  (prep, 有#VE, 人体#NR)  (conj, 占#VV, 有#VE)  (nn, 作用#NN, 很好#NN)  (nn, 作用#NN, 保健#NN)  (assmod, --#NN, 作用#NN)  (case, 作用#NN, 的#DEG)  (nn, --#NN, 不饱和#NN)  (nn, --#NN, 脂肪#NN)  (nummod, 十八#CD, 亚油酸#CD)  (nummod, 十八#CD, 亚麻酸#CD)  (cc, 十八#CD, 或#CC)  (range, 有#VE, 十八#CD)  (nn, 含量#NN, 碳#NR)  (nummod, 含量#NN, 四烯酸#CD)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 较#AD)  (conj, 相比#VV, 多#VA)  (case, --#NN, 为#P)  (nummod, --#NN, 10#CD)  (nn, --#NN, %#NN)  (nummod, %#NN, 30#CD)  (dobj, --#VV, %#NN)  (cc, 多#VA, 且#CC)  (dep, 20#CD, C#NN)  (assmod, 脂肪酸#NN, 20#CD)  (case, 20#CD, 以上#LC)  (case, 20#CD, 的#DEG)  (amod, 脂肪酸#NN, 高度#JJ)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (nsubj, 有#VE, 脂肪酸#NN)  (advmod, 有#VE, 也#AD)  (conj, 多#VA, 有#VE)  (assmod, 含量#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 含量#NN)   (advmod, 优#VA, 更#AD)  (nsubj, %#NN, 优#VA)  (mark, 优#VA, 的#DEC)  (cop, %#NN, 是#VC)  (loc, 脑#VV, 紫菜#NN)  (case, 紫菜#NN, 中#LC)  (auxpass, 脑#VV, 被#LB)  (nn, 比喻#NN, 人们#NN)  (nsubj, 脑#VV, 比喻#NN)  (case, ``#NN, 为#P)  (prep, 脑#VV, ``#NN)  (relcl, 含量#NN, 脑#VV)  (nn, ''#NN, 黄金#NN)  (dobj, 脑#VV, ''#NN)  (mark, 脑#VV, 的#DEC)  (nummod, 碳#NN, 二十#CD)  (nn, 含量#NN, 碳#NN)  (nummod, 含量#NN, 五烯酸#CD)  (nsubj, 高达#VV, 含量#NN)  (nfincl, %#NN, 高达#VV)  (range, 高达#VV, 30#CD)  (root, ROOT#null, %#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            家常食用技巧：
+            1.一般内地宾馆和家庭多用水发泡洗后的紫菜沏汤，其实紫菜的吃法还有很多，如凉拌，炒食，制馅，炸丸子，脆爆，作为配菜或主菜与鸡蛋、肉类、冬菇，豌豆尖和胡萝卜等搭配做菜等等。
+            2.紫菜在冷作或烹调过程中忌与高酸、高碱的佐料或配料接触,以免产生化学反应,使这些营养物质丢失或引起有碍消化吸收和胃肠反应等食物中毒。
+            3.食用前用清水泡发，并换1～2次水以清除污染、毒素。　　
+            其他食疗方法：
+            1.应用于肺热痰多：紫菜30克，萝卜1个，煮汤服。用紫菜治疗各种脓痰和咳嗽的方法是：将紫菜研成粉末，炼蜜为丸，每次在饭后服6克，日服2次，或干嚼紫菜也可。
+            2.用紫菜治疗缺碘性甲状腺肿大的方法是：每日用紫菜30克，陈皮3克，白萝卜1个，做汤服用。或将紫菜与鹅掌菜、夏枯草、黄芩各适量，水煎服。
+            3.治疗高血压及两眼昏花：可用紫菜与决明子一同加清水煎服。
+            4.治疗慢性气管炎：可用紫菜、牡蛎、远志各适量，水煎服。　
+        </rawdata>
+
+        <segment>
+            家常  食用  技巧  ：
+            一般  内地  宾馆  和  家庭  多用  水  发泡  洗  后  的  紫菜  沏汤  ，  其实  紫菜  的  吃法  还  有  很多  ，  如  凉拌  ，  炒食  ，  制馅  ，  炸  丸子  ，  脆爆  ，  作为  配菜  或  主菜  与  鸡蛋  、  肉类  、  冬菇  ，  豌豆  尖  和  胡萝卜  等  搭配  做菜  等等  。
+            紫菜  在  冷作  或  烹调  过程  中  忌与  高酸  、  高  碱  的  佐料  或  配料  接触  ,  以免  产生  化学  反应  ,  使  这些  营养  物质  丢失  或  引起  有碍  消化  吸收  和  胃肠  反应  等  食物  中毒  。
+            食用  前  用  清水  泡  发  ，  并  换  1  ～  2  次  水  以  清除  污染  、  毒素  。
+            其他  食疗  方法  ：
+            应用于  肺热痰多  ：  紫菜  30  克  ，  萝卜  1  个  ，  煮汤服  。  用  紫菜  治疗  各  种  脓痰  和  咳嗽  的  方法  是  ：  将  紫菜  研成  粉末  ，  炼蜜为丸  ，  每  次  在  饭后  服  6  克  ，  日服  2  次  ，  或  干嚼  紫菜  也  可  。
+            用  紫菜  治疗  缺碘性  甲状腺  肿大  的  方法  是  ：  每日  用  紫菜  30  克  ，  陈皮  3  克  ，  白萝卜  1  个  ，  做汤  服用  。  或将  紫菜  与  鹅掌  菜  、  夏枯草  、  黄芩  各  适量  ，  水煎服  。
+            治疗  高血压  及  两  眼  昏花  ：  可  用  紫菜  与  决  明子  一同  加  清水  煎服  。
+            治疗  慢性  气管炎  ：  可  用  紫菜  、  牡蛎  、  远志  各  适量  ，  水煎服  。
+        </segment>
+
+        <pos>
+            家常#NN  食用#VV  技巧#NN  ：#PU
+            一般#JJ  内地#NN  宾馆#NN  和#CC  家庭#NN  多用#NN  水#NN  发泡#VV  洗#NN  后#LC  的#DEG  紫菜#NN  沏汤#NN  ，#PU  其实#AD  紫菜#NR  的#DEG  吃法#NN  还#AD  有#VE  很多#CD  ，#PU  如#AD  凉拌#NN  ，#PU  炒食#VV  ，#PU  制馅#NR  ，#PU  炸#VV  丸子#NN  ，#PU  脆爆#VV  ，#PU  作为#VV  配菜#NN  或#CC  主菜#NN  与#CC  鸡蛋#NN  、#PU  肉类#NN  、#PU  冬菇#NN  ，#PU  豌豆#NN  尖#NN  和#CC  胡萝卜#NN  等#ETC  搭配#NN  做菜#NN  等等#ETC  。#PU
+            紫菜#AD  在#P  冷作#NN  或#CC  烹调#NN  过程#NN  中#LC  忌与#VV  高酸#NN  、#PU  高#JJ  碱#NN  的#DEC  佐料#NN  或#CC  配料#NN  接触#NN  ,#NN  以免#VV  产生#VV  化学#NN  反应#NN  ,#NN  使#VV  这些#DT  营养#VA  物质#NN  丢失#VV  或#CC  引起#VV  有碍#NN  消化#NN  吸收#NN  和#CC  胃肠#NN  反应#NN  等#ETC  食物#NN  中毒#VV  。#PU
+            食用#VV  前#LC  用#P  清水#NN  泡#NN  发#VV  ，#PU  并#CC  换#VV  1#CD  ～#NN  2#CD  次#M  水#NN  以#MSP  清除#VV  污染#NN  、#PU  毒素#NN  。#PU
+            其他#DT  食疗#VV  方法#NN  ：#PU
+            应用于#NR  肺热痰多#VV  ：#PU  紫菜#VV  30#CD  克#M  ，#PU  萝卜#VV  1#CD  个#M  ，#PU  煮汤服#VV    。#PU  用#P  紫菜#NN  治疗#VV  各#DT  种#M  脓痰#NN  和#CC  咳嗽#NN  的#DEC  方法#NN  是#VC  ：#PU  将#AD  紫菜#VV  研成#NN  粉末#NN  ，#PU  炼蜜为丸#AD  ，#PU  每#DT  次#M  在#P  饭后#NR  服#VV  6#CD  克#M  ，#PU  日服#VV  2#CD  次#M  ，#PU  或#CC  干嚼#AD  紫菜#AD  也#AD  可#VV    。#PU    。#PU
+            用#P  紫菜#NN  治疗#VV  缺碘性#NN  甲状腺#NN  肿大#NN  的#DEC  方法#NN  是#VC  ：#PU  每日#JJ  用#NN  紫菜#VV  30#CD  克#M  ，#PU  陈皮#VV  3#CD  克#M  ，#PU  白萝卜#VV  1#CD  个#M  ，#PU  做汤#AD  服用#VV    。#PU  或将#NN  紫菜#NN  与#P  鹅掌#NN  菜#NN  、#PU  夏枯草#NN  、#PU  黄芩#NN  各#DT  适量#NN  ，#PU  水煎服#VV    。#PU    。#PU
+            治疗#NN  高血压#NN  及#CC  两#CD  眼#NN  昏花#VV  ：#PU  可#VV  用#VV  紫菜#NN  与#CC  决#AD  明子#AD  一同#AD  加#VV  清水#NN  煎服#NN  。#PU
+            治疗#NN  慢性#NN  气管炎#VV  ：#PU  可#VV  用#P  紫菜#NR  、#PU  牡蛎#NR  、#PU  远志#NR  各#DT  适量#NN  ，#PU  水煎服#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 家常#NN)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 技巧#NN)
+            (amod, 多用#NN, 一般#JJ)  (nn, 多用#NN, 内地#NN)  (conj, 多用#NN, 宾馆#NN)  (cc, 多用#NN, 和#CC)  (nn, 多用#NN, 家庭#NN)  (nn, 水#NN, 多用#NN)  (nsubj, 发泡#VV, 水#NN)  (root, ROOT#null, 发泡#VV)  (assmod, 沏汤#NN, 洗#NN)  (case, 洗#NN, 后#LC)  (case, 洗#NN, 的#DEG)  (nn, 沏汤#NN, 紫菜#NN)  (dobj, 发泡#VV, 沏汤#NN)  (advmod, 有#VE, 其实#AD)  (assmod, 吃法#NN, 紫菜#NR)  (case, 紫菜#NR, 的#DEG)  (nsubj, 有#VE, 吃法#NN)  (advmod, 有#VE, 还#AD)  (conj, 发泡#VV, 有#VE)  (dep, 有#VE, 很多#CD)  (advmod, 凉拌#NN, 如#AD)  (nsubj, 炒食#VV, 凉拌#NN)  (conj, 发泡#VV, 炒食#VV)  (nsubj, 炸#VV, 制馅#NR)  (ccomp, 炒食#VV, 炸#VV)  (dobj, 炸#VV, 丸子#NN)  (conj, 炸#VV, 脆爆#VV)  (conj, 炸#VV, 作为#VV)  (conj, 胡萝卜#NN, 配菜#NN)  (cc, 胡萝卜#NN, 或#CC)  (conj, 胡萝卜#NN, 主菜#NN)  (cc, 胡萝卜#NN, 与#CC)  (conj, 胡萝卜#NN, 鸡蛋#NN)  (conj, 胡萝卜#NN, 肉类#NN)  (conj, 胡萝卜#NN, 冬菇#NN)  (nn, 胡萝卜#NN, 豌豆#NN)  (conj, 胡萝卜#NN, 尖#NN)  (cc, 胡萝卜#NN, 和#CC)  (nn, 做菜#NN, 胡萝卜#NN)  (etc, 胡萝卜#NN, 等#ETC)  (nn, 做菜#NN, 搭配#NN)  (dobj, 作为#VV, 做菜#NN)  (etc, 做菜#NN, 等等#ETC)
+            (advmod, 忌与#VV, 紫菜#AD)  (case, 过程#NN, 在#P)  (conj, 过程#NN, 冷作#NN)  (cc, 过程#NN, 或#CC)  (nn, 过程#NN, 烹调#NN)  (prep, 忌与#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (relcl, ,#NN, 忌与#VV)  (conj, 碱#NN, 高酸#NN)  (amod, 碱#NN, 高#JJ)  (dobj, 忌与#VV, 碱#NN)  (mark, 忌与#VV, 的#DEC)  (conj, 配料#NN, 佐料#NN)  (cc, 配料#NN, 或#CC)  (nn, ,#NN, 配料#NN)  (nn, ,#NN, 接触#NN)  (root, ROOT#null, 以免#VV)  (ccomp, 以免#VV, 产生#VV)  (nn, ,#NN, 化学#NN)  (nn, ,#NN, 反应#NN)  (dep, 以免#VV, 使#VV)  (det, 物质#NN, 这些#DT)  (relcl, 物质#NN, 营养#VA)  (dobj, 使#VV, 物质#NN)  (dep, 使#VV, 丢失#VV)  (cc, 丢失#VV, 或#CC)  (dep, 丢失#VV, 引起#VV)  (nn, 吸收#NN, 有碍#NN)  (nn, 吸收#NN, 消化#NN)  (conj, 反应#NN, 吸收#NN)  (cc, 反应#NN, 和#CC)  (nn, 反应#NN, 胃肠#NN)  (nn, 食物#NN, 反应#NN)  (etc, 反应#NN, 等#ETC)  (dobj, 引起#VV, 食物#NN)  (conj, 使#VV, 中毒#VV)
+            (loc, 发#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (case, 泡#NN, 用#P)  (nn, 泡#NN, 清水#NN)  (prep, 发#VV, 泡#NN)  (root, ROOT#null, 发#VV)  (cc, 发#VV, 并#CC)  (conj, 发#VV, 换#VV)  (nummod, ～#NN, 1#CD)  (nummod, 次#M, 2#CD)  (clf, 水#NN, 次#M)  (dobj, 换#VV, 水#NN)  (prtmod, 清除#VV, 以#MSP)  (conj, 换#VV, 清除#VV)  (conj, 毒素#NN, 污染#NN)  (dobj, 清除#VV, 毒素#NN)
+            (nsubj, 食疗#VV, 其他#DT)  (root, ROOT#null, 食疗#VV)  (dobj, 食疗#VV, 方法#NN)
+            (nsubj, 肺热痰多#VV, 应用于#NR)  (xsubj, 紫菜#VV, 应用于#NR)  (root, ROOT#null, 肺热痰多#VV)  (ccomp, 肺热痰多#VV, 紫菜#VV)  (nummod, 克#M, 30#CD)  (range, 紫菜#VV, 克#M)  (conj, 紫菜#VV, 萝卜#VV)  (nummod, 个#M, 1#CD)  (range, 萝卜#VV, 个#M)  (conj, 紫菜#VV, 煮汤服#VV)   (case, 紫菜#NN, 用#P)  (prep, 治疗#VV, 紫菜#NN)  (relcl, 方法#NN, 治疗#VV)  (det, 咳嗽#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 咳嗽#NN, 脓痰#NN)  (cc, 咳嗽#NN, 和#CC)  (dobj, 治疗#VV, 咳嗽#NN)  (mark, 治疗#VV, 的#DEC)  (nsubj, 紫菜#VV, 方法#NN)  (cop, 紫菜#VV, 是#VC)  (advmod, 紫菜#VV, 将#AD)  (root, ROOT#null, 紫菜#VV)  (nn, 粉末#NN, 研成#NN)  (dobj, 紫菜#VV, 粉末#NN)  (advmod, 服#VV, 炼蜜为丸#AD)  (dep, 服#VV, 每#DT)  (clf, 每#DT, 次#M)  (case, 饭后#NR, 在#P)  (prep, 服#VV, 饭后#NR)  (conj, 紫菜#VV, 服#VV)  (nummod, 克#M, 6#CD)  (range, 服#VV, 克#M)  (dep, 紫菜#VV, 日服#VV)  (nummod, 次#M, 2#CD)  (range, 日服#VV, 次#M)  (cc, 紫菜#VV, 或#CC)  (advmod, 可#VV, 干嚼#AD)  (advmod, 可#VV, 紫菜#AD)  (advmod, 可#VV, 也#AD)  (conj, 紫菜#VV, 可#VV)   (root, ROOT#null, null#null)
+            (case, 紫菜#NN, 用#P)  (prep, 治疗#VV, 紫菜#NN)  (relcl, 方法#NN, 治疗#VV)  (nn, 肿大#NN, 缺碘性#NN)  (nn, 肿大#NN, 甲状腺#NN)  (dobj, 治疗#VV, 肿大#NN)  (mark, 治疗#VV, 的#DEC)  (nsubj, 紫菜#VV, 方法#NN)  (cop, 紫菜#VV, 是#VC)  (amod, 用#NN, 每日#JJ)  (nsubj, 紫菜#VV, 用#NN)  (root, ROOT#null, 紫菜#VV)  (nummod, 克#M, 30#CD)  (range, 紫菜#VV, 克#M)  (conj, 紫菜#VV, 陈皮#VV)  (nummod, 克#M, 3#CD)  (range, 陈皮#VV, 克#M)  (conj, 紫菜#VV, 白萝卜#VV)  (nummod, 个#M, 1#CD)  (range, 白萝卜#VV, 个#M)  (advmod, 服用#VV, 做汤#AD)  (conj, 紫菜#VV, 服用#VV)   (nn, 紫菜#NN, 或将#NN)  (nsubj, 水煎服#VV, 紫菜#NN)  (case, 适量#NN, 与#P)  (nn, 黄芩#NN, 鹅掌#NN)  (conj, 黄芩#NN, 菜#NN)  (conj, 黄芩#NN, 夏枯草#NN)  (nn, 适量#NN, 黄芩#NN)  (det, 适量#NN, 各#DT)  (prep, 水煎服#VV, 适量#NN)  (root, ROOT#null, 水煎服#VV)   (root, ROOT#null, null#null)
+            (nn, 高血压#NN, 治疗#NN)  (conj, 眼#NN, 高血压#NN)  (cc, 眼#NN, 及#CC)  (nummod, 眼#NN, 两#CD)  (nsubj, 昏花#VV, 眼#NN)  (root, ROOT#null, 昏花#VV)  (mmod, 用#VV, 可#VV)  (ccomp, 昏花#VV, 用#VV)  (dobj, 用#VV, 紫菜#NN)  (cc, 用#VV, 与#CC)  (advmod, 加#VV, 决#AD)  (advmod, 加#VV, 明子#AD)  (advmod, 加#VV, 一同#AD)  (dep, 用#VV, 加#VV)  (nn, 煎服#NN, 清水#NN)  (dobj, 加#VV, 煎服#NN)
+            (nn, 慢性#NN, 治疗#NN)  (nsubj, 气管炎#VV, 慢性#NN)  (xsubj, 水煎服#VV, 慢性#NN)  (root, ROOT#null, 气管炎#VV)  (mmod, 水煎服#VV, 可#VV)  (case, 适量#NN, 用#P)  (conj, 远志#NR, 紫菜#NR)  (conj, 远志#NR, 牡蛎#NR)  (nn, 适量#NN, 远志#NR)  (det, 适量#NN, 各#DT)  (prep, 水煎服#VV, 适量#NN)  (ccomp, 气管炎#VV, 水煎服#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101126287896.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,181 @@
+<content>
+
+    <id>
+        422
+    </id>
+
+    <foodname>
+        麦冬
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        忍凌、不死草、麦门冬、忍冬、阶前草
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            风寒咳嗽、感冒、腹泻、胃寒腹痛病人忌用。
+        </rawdata>
+
+        <segment>
+            风寒  咳嗽  、  感冒  、  腹泻  、  胃  寒  腹痛  病人  忌用  。
+        </segment>
+
+        <pos>
+            风寒#VV  咳嗽#NR  、#PU  感冒#NR  、#PU  腹泻#NR  、#PU  胃#NR  寒#JJ  腹痛#NN  病人#NN  忌用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 风寒#VV)  (conj, 胃#NR, 咳嗽#NR)  (conj, 胃#NR, 感冒#NR)  (conj, 胃#NR, 腹泻#NR)  (nn, 腹痛#NN, 胃#NR)  (amod, 腹痛#NN, 寒#JJ)  (nn, 忌用#NN, 腹痛#NN)  (nn, 忌用#NN, 病人#NN)  (dobj, 风寒#VV, 忌用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            麦门冬为门百合科植物麦冬、湖北麦冬、短葶山麦或山麦冬、沿阶草等的块根。麦门冬为多年生草本，四川在栽后第2年4月下旬收获，浙江在第3年或第4年收获。选晴天挖取根部，抖去泥土，切下块根和须根，洗净，晒干水汽后，揉搓，再晒，再搓，反复4至5次，直到去说须根后，干燥即得。浙江多将洗净的块根晒3至5日，放在箩筐内闷放2至3日，再翻晒3至5日，剪去须根，晒干。
+        </rawdata>
+
+        <segment>
+            麦门冬  为  门  百合科  植物  麦冬  、  湖北  麦冬  、  短葶山  麦  或  山  麦冬  、  沿阶草  等  的  块根  。  麦门冬  为  多年生  草本  ，  四川  在  栽  后  第  2  年  4月  下旬  收获  ，  浙江  在  第3  年  或  第  4  年  收获  。  选  晴天  挖取  根部  ，  抖去  泥土  ，  切下  块根  和  须根  ，  洗净  ，  晒干  水汽  后  ，  揉搓  ，  再  晒  ，  再  搓  ，  反复  4  至  5  次  ，  直  到  去  说  须根  后  ，  干燥  即得  。  浙江  多  将  洗净  的  块根  晒  3  至  5  日  ，  放在  箩筐  内  闷  放  2  至  3  日  ，  再  翻晒  3  至  5  日  ，  剪去  须根  ，  晒干  。
+        </segment>
+
+        <pos>
+            麦门冬#NN  为#VC  门#M  百合科#CD  植物#NN  麦冬#NR  、#PU  湖北#NR  麦冬#NR  、#PU  短葶山#NR  麦#NR  或#CC  山#NR  麦冬#NR  、#PU  沿阶草#NR  等#ETC  的#DEG  块根#NN    。#PU  麦门冬#NR  为#P  多年生#NR  草本#VV  ，#PU  四川#NR  在#P  栽#NN  后#LC  第#VV  2#CD  年#M  4月#NT  下旬#NN  收获#NN  ，#PU  浙江#NR  在#VV  第3#OD  年#M  或#CC  第#VV  4#CD  年#M  收获#NN    。#PU  选#NN  晴天#NN  挖取#NN  根部#VV  ，#PU  抖去#VV  泥土#NN  ，#PU  切下#VV  块根#NN  和#CC  须根#NN  ，#PU  洗净#VV  ，#PU  晒干#NN  水汽#NN  后#LC  ，#PU  揉搓#NN  ，#PU  再#AD  晒#VV  ，#PU  再#AD  搓#VV  ，#PU  反复#AD  4#CD  至#CC  5#CD  次#M  ，#PU  直#AD  到#P  去#MSP  说#VV  须根#NN  后#LC  ，#PU  干燥#AD  即得#VV    。#PU  浙江#NR  多#AD  将#BA  洗净#NN  的#DEG  块根#NN  晒#VV  3#CD  至#CC  5#CD  日#M  ，#PU  放在#NN  箩筐#NN  内#LC  闷#AD  放#VV  2#CD  至#CC  3#CD  日#M  ，#PU  再#AD  翻晒#VV  3#CD  至#CC  5#CD  日#M  ，#PU  剪去#VV  须根#NN  ，#PU  晒干#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 块根#NN, 麦门冬#NN)  (cop, 块根#NN, 为#VC)  (dep, 块根#NN, 门#M)  (nummod, 植物#NN, 百合科#CD)  (nn, 块根#NN, 植物#NN)  (conj, 山#NR, 麦冬#NR)  (nn, 山#NR, 湖北#NR)  (conj, 山#NR, 麦冬#NR)  (nn, 山#NR, 短葶山#NR)  (conj, 山#NR, 麦#NR)  (cc, 山#NR, 或#CC)  (nn, 沿阶草#NR, 山#NR)  (conj, 沿阶草#NR, 麦冬#NR)  (assmod, 块根#NN, 沿阶草#NR)  (etc, 沿阶草#NR, 等#ETC)  (case, 沿阶草#NR, 的#DEG)  (root, ROOT#null, 块根#NN)   (nsubj, 草本#VV, 麦门冬#NR)  (case, 多年生#NR, 为#P)  (prep, 草本#VV, 多年生#NR)  (root, ROOT#null, 草本#VV)  (nsubj, 第#VV, 四川#NR)  (case, 栽#NN, 在#P)  (prep, 第#VV, 栽#NN)  (case, 栽#NN, 后#LC)  (ccomp, 草本#VV, 第#VV)  (nummod, 年#M, 2#CD)  (clf, 收获#NN, 年#M)  (nn, 收获#NN, 4月#NT)  (nn, 收获#NN, 下旬#NN)  (dobj, 第#VV, 收获#NN)  (nsubj, 在#VV, 浙江#NR)  (conj, 第#VV, 在#VV)  (ordmod, 年#M, 第3#OD)  (range, 在#VV, 年#M)  (cc, 在#VV, 或#CC)  (conj, 在#VV, 第#VV)  (nummod, 年#M, 4#CD)  (clf, 收获#NN, 年#M)  (dobj, 第#VV, 收获#NN)   (nn, 挖取#NN, 选#NN)  (nn, 挖取#NN, 晴天#NN)  (nsubj, 根部#VV, 挖取#NN)  (xsubj, 抖去#VV, 挖取#NN)  (root, ROOT#null, 根部#VV)  (ccomp, 根部#VV, 抖去#VV)  (dobj, 抖去#VV, 泥土#NN)  (conj, 抖去#VV, 切下#VV)  (conj, 须根#NN, 块根#NN)  (cc, 须根#NN, 和#CC)  (dobj, 切下#VV, 须根#NN)  (conj, 抖去#VV, 洗净#VV)  (nn, 水汽#NN, 晒干#NN)  (loc, 晒#VV, 水汽#NN)  (case, 水汽#NN, 后#LC)  (nsubj, 晒#VV, 揉搓#NN)  (advmod, 晒#VV, 再#AD)  (ccomp, 洗净#VV, 晒#VV)  (advmod, 搓#VV, 再#AD)  (conj, 抖去#VV, 搓#VV)  (advmod, 即得#VV, 反复#AD)  (dep, 次#M, 4#CD)  (cc, 次#M, 至#CC)  (nummod, 次#M, 5#CD)  (dep, 即得#VV, 次#M)  (prep, 即得#VV, 直#AD)  (case, 说#VV, 到#P)  (prtmod, 说#VV, 去#MSP)  (dep, 直#AD, 说#VV)  (dobj, 说#VV, 须根#NN)  (case, 说#VV, 后#LC)  (advmod, 即得#VV, 干燥#AD)  (conj, 抖去#VV, 即得#VV)   (nsubj, 晒#VV, 浙江#NR)  (advmod, 晒#VV, 多#AD)  (ba, 晒#VV, 将#BA)  (assmod, 块根#NN, 洗净#NN)  (case, 洗净#NN, 的#DEG)  (nsubj, 晒#VV, 块根#NN)  (root, ROOT#null, 晒#VV)  (dep, 日#M, 3#CD)  (cc, 日#M, 至#CC)  (nummod, 日#M, 5#CD)  (range, 晒#VV, 日#M)  (nn, 箩筐#NN, 放在#NN)  (loc, 放#VV, 箩筐#NN)  (case, 箩筐#NN, 内#LC)  (advmod, 放#VV, 闷#AD)  (conj, 晒#VV, 放#VV)  (dep, 日#M, 2#CD)  (cc, 日#M, 至#CC)  (nummod, 日#M, 3#CD)  (range, 放#VV, 日#M)  (advmod, 翻晒#VV, 再#AD)  (conj, 晒#VV, 翻晒#VV)  (dep, 日#M, 3#CD)  (cc, 日#M, 至#CC)  (nummod, 日#M, 5#CD)  (range, 翻晒#VV, 日#M)  (conj, 晒#VV, 剪去#VV)  (dobj, 剪去#VV, 须根#NN)  (conj, 晒#VV, 晒干#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            甘、微苦，微寒。归心、肺、胃经。养阴生津，润肺清心。用于肺燥干咳，虚痨咳嗽，津伤口渴，心烦失眠，内热消渴，肠燥便秘，咽白喉。
+            1.清心除烦
+            适于内热扰心之证，温病邪热入营，身热夜甚，烦躁不安等症。还适合热伤气阴，心烦口渴，汗出体倦者。心阴不足，心烦不眠，舌红少苔者。
+            2.养阴润肺
+            主治阴虚肺燥，干咳、燥咳，劳热咳血等证。
+            3.益胃生津
+            善治胃阴不足，舌干口渴，纳呆不饥等证。此外，还可用治阴虚肠燥，大便秘结者。
+        </rawdata>
+
+        <segment>
+            甘  、  微苦  ，  微寒  。  归心  、  肺  、  胃经  。  养  阴  生  津  ，  润肺  清心  。  用于  肺燥  干咳  ，  虚痨  咳嗽  ，  津  伤  口渴  ，  心烦  失眠  ，  内热  消渴  ，  肠燥  便秘  ，  咽  白喉  。
+            清心  除烦
+            适于  内热  扰心之证  ，  温病  邪热  入营  ，  身  热  夜  甚  ，  烦躁不安  等症  。  还  适合  热  伤气  阴  ，  心烦  口渴  ，  汗出  体倦者  。  心  阴  不足  ，  心烦  不眠  ，  舌红少苔者  。
+            养  阴  润肺
+            主治  阴虚  肺燥  ，  干咳  、  燥咳  ，  劳  热  咳血  等  证  。
+            益胃  生  津
+            善  治  胃  阴  不足  ，  舌干  口渴  ，  纳呆  不  饥等证  。  此外  ，  还  可用  治  阴虚  肠燥  ，  大便  秘结  者  。
+        </segment>
+
+        <pos>
+            甘#NR  、#PU  微苦#NR  ，#PU  微寒#VV    。#PU  归心#NN  、#PU  肺#NN  、#PU  胃经#NN    。#PU  养#VV  阴#NN  生#VV  津#NR  ，#PU  润肺#AD  清心#VA    。#PU  用于#VV  肺燥#NN  干咳#NN  ，#PU  虚痨#AD  咳嗽#VV  ，#PU  津#NR  伤#NN  口渴#NN  ，#PU  心烦#AD  失眠#VV  ，#PU  内热#VV  消渴#NN  ，#PU  肠燥#VV  便秘#NN  ，#PU  咽#VV  白喉#NN    。#PU    。#PU
+            清心#NN  除烦#VV
+            适于#VV  内热#NN  扰心之证#NN  ，#PU  温病#VV  邪热#NN  入营#NN  ，#PU  身#NN  热#NN  夜#NN  甚#AD  ，#PU  烦躁不安#AD  等症#VV    。#PU  还#AD  适合#VV  热#JJ  伤气#NN  阴#VA  ，#PU  心烦#VV  口渴#NN  ，#PU  汗出#VV  体倦者#NN    。#PU  心#NN  阴#VA  不足#VA  ，#PU  心烦#NN  不眠#NN  ，#PU  舌红少苔者#VV    。#PU    。#PU
+            养#VV  阴#NN  润肺#NN
+            主治#AD  阴虚#VV  肺燥#NN  ，#PU  干咳#NN  、#PU  燥咳#NN  ，#PU  劳#NN  热#NN  咳血#NN  等#ETC  证#NN  。#PU
+            益胃#NT  生#VV  津#NR
+            善#VA  治#VV  胃#NN  阴#VA  不足#VA  ，#PU  舌干#AD  口渴#VA  ，#PU  纳呆#AD  不#AD  饥等证#VA    。#PU  此外#AD  ，#PU  还#AD  可用#JJ  治#NN  阴虚#NR  肠燥#VV  ，#PU  大便#VV  秘结#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 微苦#NR, 甘#NR)  (dep, 微寒#VV, 微苦#NR)  (root, ROOT#null, 微寒#VV)   (conj, 胃经#NN, 归心#NN)  (conj, 胃经#NN, 肺#NN)  (root, ROOT#null, 胃经#NN)   (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 养#VV, 生#VV)  (dobj, 生#VV, 津#NR)  (advmod, 清心#VA, 润肺#AD)  (dep, 养#VV, 清心#VA)   (root, ROOT#null, 用于#VV)  (nn, 干咳#NN, 肺燥#NN)  (dobj, 用于#VV, 干咳#NN)  (advmod, 咳嗽#VV, 虚痨#AD)  (conj, 用于#VV, 咳嗽#VV)  (nn, 口渴#NN, 津#NR)  (nn, 口渴#NN, 伤#NN)  (nsubj, 失眠#VV, 口渴#NN)  (advmod, 失眠#VV, 心烦#AD)  (ccomp, 咳嗽#VV, 失眠#VV)  (conj, 用于#VV, 内热#VV)  (dobj, 内热#VV, 消渴#NN)  (conj, 用于#VV, 肠燥#VV)  (dobj, 肠燥#VV, 便秘#NN)  (conj, 用于#VV, 咽#VV)  (dobj, 咽#VV, 白喉#NN)   (root, ROOT#null, null#null)
+            (nsubj, 除烦#VV, 清心#NN)  (root, ROOT#null, 除烦#VV)
+            (root, ROOT#null, 适于#VV)  (nn, 扰心之证#NN, 内热#NN)  (dobj, 适于#VV, 扰心之证#NN)  (conj, 适于#VV, 温病#VV)  (nn, 入营#NN, 邪热#NN)  (dobj, 温病#VV, 入营#NN)  (nn, 夜#NN, 身#NN)  (nn, 夜#NN, 热#NN)  (dep, 等症#VV, 夜#NN)  (advmod, 等症#VV, 甚#AD)  (advmod, 等症#VV, 烦躁不安#AD)  (conj, 适于#VV, 等症#VV)   (advmod, 适合#VV, 还#AD)  (root, ROOT#null, 适合#VV)  (amod, 伤气#NN, 热#JJ)  (dobj, 适合#VV, 伤气#NN)  (conj, 适合#VV, 阴#VA)  (conj, 适合#VV, 心烦#VV)  (dobj, 心烦#VV, 口渴#NN)  (conj, 适合#VV, 汗出#VV)  (dobj, 汗出#VV, 体倦者#NN)   (nsubj, 阴#VA, 心#NN)  (root, ROOT#null, 阴#VA)  (comod, 阴#VA, 不足#VA)  (nn, 不眠#NN, 心烦#NN)  (nsubj, 舌红少苔者#VV, 不眠#NN)  (ccomp, 阴#VA, 舌红少苔者#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 养#VV)  (nn, 润肺#NN, 阴#NN)  (dobj, 养#VV, 润肺#NN)
+            (advmod, 阴虚#VV, 主治#AD)  (root, ROOT#null, 阴虚#VV)  (dobj, 阴虚#VV, 肺燥#NN)  (conj, 咳血#NN, 干咳#NN)  (conj, 咳血#NN, 燥咳#NN)  (nn, 咳血#NN, 劳#NN)  (nn, 咳血#NN, 热#NN)  (nn, 证#NN, 咳血#NN)  (etc, 咳血#NN, 等#ETC)  (dep, 阴虚#VV, 证#NN)
+            (tmod, 生#VV, 益胃#NT)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 津#NR)
+            (root, ROOT#null, 善#VA)  (dep, 善#VA, 治#VV)  (dobj, 治#VV, 胃#NN)  (conj, 善#VA, 阴#VA)  (conj, 善#VA, 不足#VA)  (advmod, 口渴#VA, 舌干#AD)  (dep, 善#VA, 口渴#VA)  (advmod, 饥等证#VA, 纳呆#AD)  (neg, 饥等证#VA, 不#AD)  (dep, 善#VA, 饥等证#VA)   (advmod, 肠燥#VV, 此外#AD)  (advmod, 肠燥#VV, 还#AD)  (amod, 治#NN, 可用#JJ)  (nsubj, 肠燥#VV, 治#NN)  (nsubj, 肠燥#VV, 阴虚#NR)  (root, ROOT#null, 肠燥#VV)  (ccomp, 肠燥#VV, 大便#VV)  (nn, 者#NN, 秘结#NN)  (dobj, 大便#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            麦冬含β-谷甾醇、氨基酸、多量葡萄糖及葡萄糖甙。能提高免疫功能；对多种细菌有抑制作用；能增强垂体肾上腺皮质系统功能，提高机体适应能力；有抗心律失常和扩张外周血管的作用；能提高耐缺氧能力；有降血糖作用。
+        </rawdata>
+
+        <segment>
+            麦冬  含  β  -  谷甾醇  、  氨基酸  、  多量  葡萄糖  及  葡萄糖甙  。  能  提高  免疫  功能  ；  对  多  种  细菌  有  抑制  作用  ；  能  增强  垂体  肾上腺  皮质  系统  功能  ，  提高  机体  适应  能力  ；  有抗  心律  失常  和  扩张  外  周  血管  的  作用  ；  能  提高  耐  缺氧  能力  ；  有  降  血糖  作用  。
+        </segment>
+
+        <pos>
+            麦冬#NN  含#VV  β#NR  -#NR  谷甾醇#NR  、#PU  氨基酸#NR  、#PU  多量#NR  葡萄糖#NR  及#CC  葡萄糖甙#NR    。#PU  能#VV  提高#VV  免疫#NN  功能#NN  ；#PU  对#P  多#CD  种#M  细菌#NN  有#VE  抑制#NN  作用#NN  ；#PU  能#VV  增强#VV  垂体#NN  肾上腺#NN  皮质#NN  系统#NN  功能#NN  ，#PU  提高#VV  机体#NN  适应#VV  能力#NN  ；#PU  有抗#VV  心律#NN  失常#NN  和#CC  扩张#VV  外#NN  周#NN  血管#NN  的#DEG  作用#NN  ；#PU  能#VV  提高#VV  耐#NN  缺氧#NN  能力#NN  ；#PU  有#VE  降#NN  血糖#NN  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 麦冬#NN)  (root, ROOT#null, 含#VV)  (nn, 葡萄糖甙#NR, β#NR)  (conj, 多量#NR, 谷甾醇#NR)  (conj, 多量#NR, 氨基酸#NR)  (nn, 葡萄糖甙#NR, 多量#NR)  (conj, 葡萄糖甙#NR, 葡萄糖#NR)  (cc, 葡萄糖甙#NR, 及#CC)  (dobj, 含#VV, 葡萄糖甙#NR)   (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)  (case, 细菌#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 细菌#NN, 种#M)  (prep, 有#VE, 细菌#NN)  (conj, 提高#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 增强#VV, 能#VV)  (conj, 提高#VV, 增强#VV)  (nn, 功能#NN, 垂体#NN)  (nn, 功能#NN, 肾上腺#NN)  (nn, 功能#NN, 皮质#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 增强#VV, 功能#NN)  (conj, 提高#VV, 提高#VV)  (dobj, 提高#VV, 机体#NN)  (conj, 提高#VV, 适应#VV)  (dobj, 适应#VV, 能力#NN)  (conj, 提高#VV, 有抗#VV)  (nn, 失常#NN, 心律#NN)  (dobj, 有抗#VV, 失常#NN)  (cc, 提高#VV, 和#CC)  (conj, 提高#VV, 扩张#VV)  (nn, 血管#NN, 外#NN)  (nn, 血管#NN, 周#NN)  (assmod, 作用#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 扩张#VV, 作用#NN)  (mmod, 提高#VV, 能#VV)  (conj, 提高#VV, 提高#VV)  (nn, 能力#NN, 耐#NN)  (nn, 能力#NN, 缺氧#NN)  (dobj, 提高#VV, 能力#NN)  (conj, 提高#VV, 有#VE)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血糖#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/23131443.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

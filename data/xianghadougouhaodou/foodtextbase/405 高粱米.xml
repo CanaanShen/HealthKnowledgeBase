@@ -1,0 +1,350 @@
+<content>
+
+    <id>
+        405
+    </id>
+
+    <foodname>
+        高粱米
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        蜀黍、高粱、桃粟、蜀秫、木稷、芦粟、番黍、荻粱
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者应禁食高粱，大便燥结以及便秘者应少食或不食高粱。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  应  禁食  高粱  ，  大便  燥结  以及  便秘  者  应  少  食  或  不  食  高粱  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  应#VV  禁食#VV  高粱#NN  ，#PU  大便#NN  燥结#NN  以及#CC  便秘#NN  者#NN  应#VV  少#VV  食#NN  或#CC  不#AD  食#NN  高粱#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 禁食#VV, 患者#NN)  (mmod, 禁食#VV, 应#VV)  (root, ROOT#null, 禁食#VV)  (dobj, 禁食#VV, 高粱#NN)  (nn, 者#NN, 大便#NN)  (conj, 者#NN, 燥结#NN)  (cc, 者#NN, 以及#CC)  (nn, 者#NN, 便秘#NN)  (nsubj, 少#VV, 者#NN)  (mmod, 少#VV, 应#VV)  (conj, 禁食#VV, 少#VV)  (dobj, 少#VV, 食#NN)  (cc, 少#VV, 或#CC)  (neg, 高粱#VV, 不#AD)  (prep, 高粱#VV, 食#NN)  (conj, 少#VV, 高粱#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用。适宜小儿消化不良时服食；适宜于脾胃气虚、大便溏薄之人食用；黏性较强的高粱，适宜于肺结核病人食用。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用  。  适宜  小儿  消化不良  时  服食  ；  适宜于  脾胃  气虚  、  大便  溏薄  之  人  食用  ；  黏性  较  强  的  高粱  ，  适宜于  肺结核  病人  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV    。#PU  适宜#VV  小儿#NN  消化不良#NN  时#LC  服食#VV  ；#PU  适宜于#VV  脾胃#NN  气虚#NN  、#PU  大便#NN  溏薄#NN  之#DEG  人#NN  食用#VV  ；#PU  黏性#VV  较#AD  强#VA  的#DEC  高粱#NN  ，#PU  适宜于#NN  肺结核#NN  病人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (loc, 服食#VV, 适宜#VV)  (nn, 消化不良#NN, 小儿#NN)  (dobj, 适宜#VV, 消化不良#NN)  (case, 适宜#VV, 时#LC)  (root, ROOT#null, 服食#VV)  (ccomp, 服食#VV, 适宜于#VV)  (nn, 溏薄#NN, 脾胃#NN)  (conj, 溏薄#NN, 气虚#NN)  (nn, 溏薄#NN, 大便#NN)  (assmod, 人#NN, 溏薄#NN)  (case, 溏薄#NN, 之#DEG)  (dobj, 适宜于#VV, 人#NN)  (conj, 适宜于#VV, 食用#VV)  (conj, 适宜于#VV, 黏性#VV)  (advmod, 强#VA, 较#AD)  (relcl, 高粱#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (dobj, 黏性#VV, 高粱#NN)  (nn, 病人#NN, 适宜于#NN)  (nn, 病人#NN, 肺结核#NN)  (nsubj, 食用#VV, 病人#NN)  (dep, 适宜于#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                351
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                10.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                74.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                生物素（微克）
+            </elename>
+            <elevalue>
+                28.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.88
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                329
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                281
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                6.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                129
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.83
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.22
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            高粱，禾本科，高粱属。1年生草本。秆实心，中心有髓。分蘖或分枝。叶片似玉米，厚而窄，被蜡粉，平滑，中脉呈白色。圆锥花序，穗形有带状和锤状两类。颖果呈褐、橙、白或淡黄等色。种子卵圆形，微扁，质粘或不粘。性喜温暖，抗旱、耐涝。按性状及用途可分为食用高粱、糖用高粱、帚用高粱。高粱是制醋、提取淀粉、加工饴糖的原料。
+            高粱脱壳后即为高梁米，子粒呈椭圆形、倒卵形或圆形，大小不一，呈白、黄、红、褐、黑等颜色，一般随种皮中单宁含量的增加，粒钯由浅变深。胚乳按结构分为粉质、角质、蜡质、爆粒等类形，按颜色又有红、白之分；红者又称为酒高粱，主要用于酿酒，白者用于食用，性温味甘涩。红高粱粒大，黄白者坚实。其中性粘者，可和
+        </rawdata>
+
+        <segment>
+            高粱  ，  禾本科  ，  高粱属  。  1  年  生  草本  。  秆  实心  ，  中心  有髓  。  分蘖  或  分枝  。  叶片  似  玉米  ，  厚  而  窄  ，  被  蜡粉  ，  平滑  ，  中脉  呈  白色  。  圆锥  花序  ，  穗形  有  带状  和  锤状  两  类  。  颖果  呈褐  、  橙  、  白  或  淡黄  等色  。  种子  卵  圆形  ，  微扁  ，  质粘  或不粘  。  性喜  温暖  ，  抗旱  、  耐涝  。  按  性状  及  用途  可  分为  食用  高粱  、  糖  用  高粱  、  帚用  高粱  。  高粱  是  制醋  、  提取  淀粉  、  加工  饴糖  的  原料  。
+            高粱  脱壳  后  即  为  高梁米  ，  子粒  呈  椭圆形  、  倒卵形  或  圆形  ，  大小不一  ，  呈白  、  黄  、  红  、  褐  、  黑  等  颜色  ，  一般  随  种皮  中  单宁  含量  的  增加  ，  粒  钯  由  浅  变深  。  胚乳  按  结构  分为  粉质  、  角质  、  蜡质  、  爆粒  等类  形  ，  按  颜色  又  有  红  、  白  之  分  ；  红  者  又  称为  酒  高粱  ，  主要  用于  酿酒  ，  白者  用于  食用  ，  性温味  甘涩  。  红高粱  粒大  ，  黄白者  坚实  。  其中  性粘者  ，  可和
+        </segment>
+
+        <pos>
+            高粱#VV  ，#PU  禾本科#NN  ，#PU  高粱属#VV    。#PU  1#CD  年#M  生#VV  草本#NN    。#PU  秆#NR  实心#VV  ，#PU  中心#NN  有髓#VV    。#PU  分蘖#VV  或#CC  分枝#VV    。#PU  叶片#NN  似#P  玉米#NN  ，#PU  厚#NN  而#MSP  窄#VA  ，#PU  被#SB  蜡粉#VV  ，#PU  平滑#VV  ，#PU  中脉#AD  呈#VV  白色#JJ    。#PU  圆锥#NR  花序#VV  ，#PU  穗形#AD  有#VE  带状#NN  和#CC  锤状#NN  两#CD  类#M    。#PU  颖果#NR  呈褐#NR  、#PU  橙#NR  、#PU  白#NR  或#CC  淡黄#NR  等色#NN    。#PU  种子#NN  卵#NN  圆形#VV  ，#PU  微扁#NN  ，#PU  质粘#AD  或不粘#VV    。#PU  性喜#AD  温暖#VA  ，#PU  抗旱#VA  、#PU  耐涝#VA    。#PU  按#P  性状#NN  及#CC  用途#NN  可#VV  分为#VV  食用#VV  高粱#NN  、#PU  糖#NN  用#P  高粱#NN  、#PU  帚用#NN  高粱#NN    。#PU  高粱#NN  是#VC  制醋#VV  、#PU  提取#VV  淀粉#NN  、#PU  加工#NN  饴糖#NN  的#DEC  原料#NN    。#PU    。#PU
+            高粱#NN  脱壳#NN  后#LC  即#AD  为#P  高梁米#VV  ，#PU  子粒#AD  呈#VV  椭圆形#NN  、#PU  倒卵形#NN  或#CC  圆形#NN  ，#PU  大小不一#CD  ，#PU  呈白#JJ  、#PU  黄#JJ  、#PU  红#JJ  、#PU  褐#JJ  、#PU  黑#JJ  等#CC  颜色#JJ  ，#PU  一般#AD  随#P  种皮#NN  中#LC  单宁#VV  含量#NN  的#DEG  增加#NN  ，#PU  粒#VV  钯#NN  由#P  浅#NN  变深#VV    。#PU  胚乳#NN  按#P  结构#NN  分为#VV  粉质#NR  、#PU  角质#NR  、#PU  蜡质#NR  、#PU  爆粒#NR  等类#NN  形#VV  ，#PU  按#P  颜色#NN  又#AD  有#VE  红#JJ  、#PU  白#JJ  之#DEG  分#VV  ；#PU  红#JJ  者#NN  又#AD  称为#VV  酒#NN  高粱#NN  ，#PU  主要#AD  用于#VV  酿酒#NN  ，#PU  白者#NR  用于#VV  食用#VV  ，#PU  性温味#VV  甘涩#NN    。#PU  红高粱#NR  粒大#VV  ，#PU  黄白者#AD  坚实#VA    。#PU  其中#NN  性粘者#VV  ，#PU  可和#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 高粱#VV)  (nsubj, 高粱属#VV, 禾本科#NN)  (ccomp, 高粱#VV, 高粱属#VV)   (nummod, 年#M, 1#CD)  (dep, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 草本#NN)   (nsubj, 实心#VV, 秆#NR)  (root, ROOT#null, 实心#VV)  (nsubj, 有髓#VV, 中心#NN)  (ccomp, 实心#VV, 有髓#VV)   (root, ROOT#null, 分蘖#VV)  (cc, 分蘖#VV, 或#CC)  (conj, 分蘖#VV, 分枝#VV)   (nsubj, 窄#VA, 叶片#NN)  (case, 玉米#NN, 似#P)  (prep, 窄#VA, 玉米#NN)  (nsubj, 窄#VA, 厚#NN)  (prtmod, 窄#VA, 而#MSP)  (root, ROOT#null, 窄#VA)  (auxpass, 蜡粉#VV, 被#SB)  (conj, 窄#VA, 蜡粉#VV)  (dep, 蜡粉#VV, 平滑#VV)  (advmod, 呈#VV, 中脉#AD)  (dep, 蜡粉#VV, 呈#VV)  (dep, 蜡粉#VV, 白色#JJ)   (nsubj, 花序#VV, 圆锥#NR)  (xsubj, 有#VE, 圆锥#NR)  (root, ROOT#null, 花序#VV)  (advmod, 有#VE, 穗形#AD)  (ccomp, 花序#VV, 有#VE)  (conj, 锤状#NN, 带状#NN)  (cc, 锤状#NN, 和#CC)  (dobj, 有#VE, 锤状#NN)  (nummod, 类#M, 两#CD)  (range, 有#VE, 类#M)   (nn, 淡黄#NR, 颖果#NR)  (conj, 淡黄#NR, 呈褐#NR)  (conj, 淡黄#NR, 橙#NR)  (conj, 淡黄#NR, 白#NR)  (cc, 淡黄#NR, 或#CC)  (nn, 等色#NN, 淡黄#NR)  (root, ROOT#null, 等色#NN)   (nn, 卵#NN, 种子#NN)  (nsubj, 圆形#VV, 卵#NN)  (root, ROOT#null, 圆形#VV)  (nsubj, 或不粘#VV, 微扁#NN)  (advmod, 或不粘#VV, 质粘#AD)  (ccomp, 圆形#VV, 或不粘#VV)   (advmod, 温暖#VA, 性喜#AD)  (root, ROOT#null, 温暖#VA)  (dep, 温暖#VA, 抗旱#VA)  (dep, 抗旱#VA, 耐涝#VA)   (case, 用途#NN, 按#P)  (conj, 用途#NN, 性状#NN)  (cc, 用途#NN, 及#CC)  (prep, 分为#VV, 用途#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dep, 分为#VV, 食用#VV)  (conj, 糖#NN, 高粱#NN)  (nn, 高粱#NN, 糖#NN)  (case, 帚用#NN, 用#P)  (conj, 帚用#NN, 高粱#NN)  (prep, 高粱#NN, 帚用#NN)  (dobj, 食用#VV, 高粱#NN)   (nsubj, 原料#NN, 高粱#NN)  (cop, 原料#NN, 是#VC)  (relcl, 原料#NN, 制醋#VV)  (dep, 制醋#VV, 提取#VV)  (conj, 饴糖#NN, 淀粉#NN)  (nn, 饴糖#NN, 加工#NN)  (dobj, 提取#VV, 饴糖#NN)  (mark, 制醋#VV, 的#DEC)  (root, ROOT#null, 原料#NN)   (root, ROOT#null, null#null)
+            (nsubj, 变深#VV, 高粱#NN)  (loc, 变深#VV, 脱壳#NN)  (case, 脱壳#NN, 后#LC)  (advmod, 变深#VV, 即#AD)  (case, 高梁米#VV, 为#P)  (prep, 变深#VV, 高梁米#VV)  (advmod, 呈#VV, 子粒#AD)  (conj, 高梁米#VV, 呈#VV)  (conj, 圆形#NN, 椭圆形#NN)  (conj, 圆形#NN, 倒卵形#NN)  (cc, 圆形#NN, 或#CC)  (dobj, 呈#VV, 圆形#NN)  (conj, 高梁米#VV, 大小不一#CD)  (conj, 高梁米#VV, 呈白#JJ)  (conj, 呈白#JJ, 黄#JJ)  (conj, 呈白#JJ, 红#JJ)  (conj, 呈白#JJ, 褐#JJ)  (conj, 呈白#JJ, 黑#JJ)  (cc, 呈白#JJ, 等#CC)  (dep, 呈白#JJ, 颜色#JJ)  (advmod, 单宁#VV, 一般#AD)  (case, 种皮#NN, 随#P)  (prep, 单宁#VV, 种皮#NN)  (case, 种皮#NN, 中#LC)  (conj, 高梁米#VV, 单宁#VV)  (assmod, 增加#NN, 含量#NN)  (case, 含量#NN, 的#DEG)  (dobj, 单宁#VV, 增加#NN)  (conj, 高梁米#VV, 粒#VV)  (dobj, 粒#VV, 钯#NN)  (case, 浅#NN, 由#P)  (prep, 变深#VV, 浅#NN)  (root, ROOT#null, 变深#VV)   (nsubj, 分为#VV, 胚乳#NN)  (case, 结构#NN, 按#P)  (prep, 分为#VV, 结构#NN)  (root, ROOT#null, 分为#VV)  (conj, 爆粒#NR, 粉质#NR)  (conj, 爆粒#NR, 角质#NR)  (conj, 爆粒#NR, 蜡质#NR)  (nn, 等类#NN, 爆粒#NR)  (dobj, 分为#VV, 等类#NN)  (conj, 分为#VV, 形#VV)  (case, 颜色#NN, 按#P)  (prep, 有#VE, 颜色#NN)  (advmod, 有#VE, 又#AD)  (conj, 分为#VV, 有#VE)  (nsubj, 分#VV, 红#JJ)  (dep, 红#JJ, 白#JJ)  (case, 红#JJ, 之#DEG)  (dep, 有#VE, 分#VV)  (amod, 者#NN, 红#JJ)  (nsubj, 称为#VV, 者#NN)  (advmod, 称为#VV, 又#AD)  (conj, 分为#VV, 称为#VV)  (nn, 高粱#NN, 酒#NN)  (dobj, 称为#VV, 高粱#NN)  (advmod, 用于#VV, 主要#AD)  (conj, 分为#VV, 用于#VV)  (dobj, 用于#VV, 酿酒#NN)  (nsubj, 用于#VV, 白者#NR)  (conj, 分为#VV, 用于#VV)  (ccomp, 用于#VV, 食用#VV)  (dep, 用于#VV, 性温味#VV)  (dobj, 性温味#VV, 甘涩#NN)   (nsubj, 粒大#VV, 红高粱#NR)  (xsubj, 坚实#VA, 红高粱#NR)  (root, ROOT#null, 粒大#VV)  (advmod, 坚实#VA, 黄白者#AD)  (ccomp, 粒大#VV, 坚实#VA)   (nsubj, 性粘者#VV, 其中#NN)  (root, ROOT#null, 性粘者#VV)  (ccomp, 性粘者#VV, 可和#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            和胃、消积、温中、涩肠胃、止霍乱、凉血解毒，主治脾虚湿困、消化不良及湿热下痢、小便不利等症。
+        </rawdata>
+
+        <segment>
+            和胃  、  消积  、  温  中  、  涩  肠胃  、  止  霍乱  、  凉  血  解毒  ，  主治  脾虚  湿困  、  消化不良  及  湿热  下痢  、  小便  不利  等症  。
+        </segment>
+
+        <pos>
+            和胃#NR  、#PU  消积#NR  、#PU  温#NN  中#NR  、#PU  涩#NR  肠胃#VV  、#PU  止#VV  霍乱#NN  、#PU  凉#NN  血#NN  解毒#NN  ，#PU  主治#AD  脾虚#VV  湿困#NR  、#PU  消化不良#NR  及#CC  湿热#NR  下痢#NR  、#PU  小便#NR  不利#JJ  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 涩#NR, 和胃#NR)  (conj, 涩#NR, 消积#NR)  (nn, 涩#NR, 温#NN)  (conj, 涩#NR, 中#NR)  (nsubj, 肠胃#VV, 涩#NR)  (root, ROOT#null, 肠胃#VV)  (dep, 肠胃#VV, 止#VV)  (conj, 解毒#NN, 霍乱#NN)  (nn, 解毒#NN, 凉#NN)  (nn, 解毒#NN, 血#NN)  (dobj, 止#VV, 解毒#NN)  (advmod, 脾虚#VV, 主治#AD)  (conj, 肠胃#VV, 脾虚#VV)  (conj, 小便#NR, 湿困#NR)  (conj, 小便#NR, 消化不良#NR)  (cc, 小便#NR, 及#CC)  (nn, 小便#NR, 湿热#NR)  (conj, 小便#NR, 下痢#NR)  (nn, 等症#NN, 小便#NR)  (amod, 等症#NN, 不利#JJ)  (dobj, 脾虚#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        健脾止泻  化痰  安神  抗病毒  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            在谷物中，高粱蛋白质中赖氨酸含量最低，因而蛋白质的质量也最差；高梁的尼克酸含量也不如玉米多，但却能为人体所吸收，因此，以高粱为主食的地区很少发生“癞皮病”。另外，高粱米里包含单宁，有收敛固脱的功效，患慢性腹泻的患者常食高粱米粥，有明显的疗效。
+        </rawdata>
+
+        <segment>
+            在  谷物  中  ，  高粱  蛋白质  中  赖氨酸  含量  最  低  ，  因而  蛋白质  的  质量  也  最差  ；  高梁  的  尼克  酸  含量  也  不如  玉米  多  ，  但  却  能  为  人体  所  吸收  ，  因此  ，  以  高粱  为  主食  的  地区  很少  发生  “  癞皮病  ”  。  另外  ，  高粱米  里  包含  单宁  ，  有  收敛  固脱  的  功效  ，  患  慢性  腹泻  的  患者  常食  高粱  米粥  ，  有  明显  的  疗效  。
+        </segment>
+
+        <pos>
+            在#P  谷物#NN  中#LC  ，#PU  高粱#NN  蛋白质#NN  中#LC  赖氨酸#NN  含量#NN  最#AD  低#VA  ，#PU  因而#AD  蛋白质#NN  的#DEG  质量#NN  也#AD  最差#VA  ；#PU  高梁#NN  的#DEG  尼克#NN  酸#NN  含量#NN  也#AD  不如#AD  玉米#AD  多#VA  ，#PU  但#AD  却#AD  能#VV  为#P  人体#NN  所#MSP  吸收#VV  ，#PU  因此#AD  ，#PU  以#P  高粱#NN  为#VV  主食#NN  的#DEC  地区#NN  很少#AD  发生#VV  ``#NN  癞皮病#NN  ''#NN    。#PU  另外#AD  ，#PU  高粱米#NN  里#LC  包含#VV  单宁#NN  ，#PU  有#VE  收敛#NN  固脱#NN  的#DEG  功效#NN  ，#PU  患#NN  慢性#NN  腹泻#NN  的#DEG  患者#NN  常食#AD  高粱#VV  米粥#NN  ，#PU  有#VE  明显#VA  的#DEC  疗效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 谷物#NN, 在#P)  (prep, 低#VA, 谷物#NN)  (case, 谷物#NN, 中#LC)  (nn, 蛋白质#NN, 高粱#NN)  (loc, 低#VA, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (nn, 含量#NN, 赖氨酸#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 最#AD)  (root, ROOT#null, 低#VA)  (advmod, 最差#VA, 因而#AD)  (assmod, 质量#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 最差#VA, 质量#NN)  (advmod, 最差#VA, 也#AD)  (conj, 低#VA, 最差#VA)  (assmod, 含量#NN, 高梁#NN)  (case, 高梁#NN, 的#DEG)  (nn, 含量#NN, 尼克#NN)  (nn, 含量#NN, 酸#NN)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 也#AD)  (advmod, 多#VA, 不如#AD)  (advmod, 多#VA, 玉米#AD)  (conj, 低#VA, 多#VA)  (advmod, 吸收#VV, 但#AD)  (advmod, 吸收#VV, 却#AD)  (mmod, 吸收#VV, 能#VV)  (case, 人体#NN, 为#P)  (prep, 吸收#VV, 人体#NN)  (prtmod, 吸收#VV, 所#MSP)  (conj, 低#VA, 吸收#VV)  (advmod, 发生#VV, 因此#AD)  (case, 高粱#NN, 以#P)  (prep, 为#VV, 高粱#NN)  (relcl, 地区#NN, 为#VV)  (dobj, 为#VV, 主食#NN)  (mark, 为#VV, 的#DEC)  (nsubj, 发生#VV, 地区#NN)  (advmod, 发生#VV, 很少#AD)  (conj, 低#VA, 发生#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 癞皮病#NN)  (dobj, 发生#VV, ''#NN)   (advmod, 包含#VV, 另外#AD)  (loc, 包含#VV, 高粱米#NN)  (case, 高粱米#NN, 里#LC)  (root, ROOT#null, 包含#VV)  (dobj, 包含#VV, 单宁#NN)  (conj, 包含#VV, 有#VE)  (nn, 固脱#NN, 收敛#NN)  (assmod, 功效#NN, 固脱#NN)  (case, 固脱#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)  (nn, 腹泻#NN, 患#NN)  (nn, 腹泻#NN, 慢性#NN)  (assmod, 患者#NN, 腹泻#NN)  (case, 腹泻#NN, 的#DEG)  (nsubj, 高粱#VV, 患者#NN)  (advmod, 高粱#VV, 常食#AD)  (conj, 包含#VV, 高粱#VV)  (dobj, 高粱#VV, 米粥#NN)  (conj, 高粱#VV, 有#VE)  (relcl, 疗效#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.高粱米一定要煮烂，供早晚食用；高粱米可制作干饭、稀粥，还可磨粉用于制作糕团、饼等。
+            2.民间常用高粱米一份、甘蔗汁四份，一同放入锅内煮成高粱甘蔗粥，具有益气生津之作用，对老人痰热咳嗽、口干舌燥、唾液黏涎者有食疗作用。
+            3.高粱米或碾粉熟食，有健脾益胃、充肌养身的作用，煮粥滋养，供脾虚有水湿者食用。
+            4.不宜常吃加热后放置的高粱米饭或煮剩的高粱米饭，不宜加碱煮食。
+        </rawdata>
+
+        <segment>
+            高粱米  一定  要  煮烂  ，  供  早晚  食用  ；  高粱米  可  制作  干饭  、  稀粥  ，  还  可  磨粉  用于  制作  糕团  、  饼  等  。
+            民间  常用  高粱米  一  份  、  甘蔗  汁四份  ，  一同  放入  锅  内  煮成  高粱  甘蔗粥  ，  具有  益气  生  津  之  作用  ，  对  老人  痰热  咳嗽  、  口干舌燥  、  唾液  黏涎者  有  食疗  作用  。
+            高粱米  或  碾粉  熟食  ，  有  健脾  益胃  、  充肌  养身  的  作用  ，  煮粥  滋养  ，  供  脾虚  有  水  湿  者  食用  。
+            不宜常  吃  加热  后  放置  的  高粱  米饭  或  煮  剩  的  高粱  米饭  ，  不  宜  加  碱  煮  食  。
+        </segment>
+
+        <pos>
+            高粱米#NN  一定#AD  要#VV  煮烂#VV  ，#PU  供#NN  早晚#NN  食用#VV  ；#PU  高粱米#NN  可#VV  制作#VV  干饭#NN  、#PU  稀粥#NN  ，#PU  还#AD  可#VV  磨粉#AD  用于#VV  制作#NN  糕团#NN  、#PU  饼#NN  等#ETC  。#PU
+            民间#NN  常用#JJ  高粱米#NN  一#CD  份#M  、#PU  甘蔗#VV  汁四份#CD  ，#PU  一同#AD  放入#VV  锅#NN  内#LC  煮成#AD  高粱#VV  甘蔗粥#NN  ，#PU  具有#VV  益气#AD  生#VV  津#NR  之#DEC  作用#NN  ，#PU  对#P  老人#NN  痰热#NN  咳嗽#NR  、#PU  口干舌燥#NR  、#PU  唾液#NR  黏涎者#NN  有#VE  食疗#NN  作用#NN  。#PU
+            高粱米#NN  或#CC  碾粉#NN  熟食#NN  ，#PU  有#VE  健脾#NN  益胃#NN  、#PU  充肌#NN  养身#NN  的#DEG  作用#NN  ，#PU  煮粥#VV  滋养#NN  ，#PU  供#NN  脾虚#AD  有#VE  水#NN  湿#NN  者#NN  食用#VV  。#PU
+            不宜常#AD  吃#VV  加热#NN  后#LC  放置#NN  的#DEC  高粱#NN  米饭#NN  或#CC  煮#VV  剩#VV  的#DEC  高粱#NN  米饭#NN  ，#PU  不#AD  宜#NR  加#NR  碱#NN  煮#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 煮烂#VV, 高粱米#NN)  (advmod, 煮烂#VV, 一定#AD)  (dep, 煮烂#VV, 要#VV)  (root, ROOT#null, 煮烂#VV)  (nn, 早晚#NN, 供#NN)  (nsubj, 食用#VV, 早晚#NN)  (conj, 煮烂#VV, 食用#VV)  (nsubj, 制作#VV, 高粱米#NN)  (mmod, 制作#VV, 可#VV)  (conj, 煮烂#VV, 制作#VV)  (conj, 稀粥#NN, 干饭#NN)  (dobj, 制作#VV, 稀粥#NN)  (advmod, 用于#VV, 还#AD)  (mmod, 用于#VV, 可#VV)  (advmod, 用于#VV, 磨粉#AD)  (conj, 煮烂#VV, 用于#VV)  (nn, 饼#NN, 制作#NN)  (conj, 饼#NN, 糕团#NN)  (dobj, 用于#VV, 饼#NN)  (etc, 饼#NN, 等#ETC)
+            (nn, 高粱米#NN, 民间#NN)  (amod, 高粱米#NN, 常用#JJ)  (nsubj, 高粱#VV, 高粱米#NN)  (nummod, 份#M, 一#CD)  (clf, 锅#NN, 份#M)  (nfincl, 锅#NN, 甘蔗#VV)  (range, 甘蔗#VV, 汁四份#CD)  (advmod, 放入#VV, 一同#AD)  (conj, 甘蔗#VV, 放入#VV)  (loc, 高粱#VV, 锅#NN)  (case, 锅#NN, 内#LC)  (advmod, 高粱#VV, 煮成#AD)  (root, ROOT#null, 高粱#VV)  (dobj, 高粱#VV, 甘蔗粥#NN)  (conj, 高粱#VV, 具有#VV)  (advmod, 生#VV, 益气#AD)  (relcl, 作用#NN, 生#VV)  (dobj, 生#VV, 津#NR)  (mark, 生#VV, 之#DEC)  (dobj, 具有#VV, 作用#NN)  (case, 黏涎者#NN, 对#P)  (nn, 痰热#NN, 老人#NN)  (nn, 黏涎者#NN, 痰热#NN)  (conj, 唾液#NR, 咳嗽#NR)  (conj, 唾液#NR, 口干舌燥#NR)  (nn, 黏涎者#NN, 唾液#NR)  (prep, 有#VE, 黏涎者#NN)  (conj, 高粱#VV, 有#VE)  (nn, 作用#NN, 食疗#NN)  (dobj, 有#VE, 作用#NN)
+            (conj, 碾粉#NN, 高粱米#NN)  (cc, 碾粉#NN, 或#CC)  (nn, 熟食#NN, 碾粉#NN)  (nsubj, 有#VE, 熟食#NN)  (root, ROOT#null, 有#VE)  (nn, 养身#NN, 健脾#NN)  (conj, 养身#NN, 益胃#NN)  (nn, 养身#NN, 充肌#NN)  (assmod, 作用#NN, 养身#NN)  (case, 养身#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 煮粥#VV)  (dobj, 煮粥#VV, 滋养#NN)  (nsubj, 有#VE, 供#NN)  (advmod, 有#VE, 脾虚#AD)  (conj, 有#VE, 有#VE)  (nn, 者#NN, 水#NN)  (nn, 者#NN, 湿#NN)  (nsubj, 食用#VV, 者#NN)  (dep, 有#VE, 食用#VV)
+            (advmod, 吃#VV, 不宜常#AD)  (relcl, 米饭#NN, 吃#VV)  (dep, 放置#NN, 加热#NN)  (case, 加热#NN, 后#LC)  (dobj, 吃#VV, 放置#NN)  (mark, 吃#VV, 的#DEC)  (nn, 米饭#NN, 高粱#NN)  (nsubj, 煮#VV, 米饭#NN)  (cc, 煮#VV, 或#CC)  (root, ROOT#null, 煮#VV)  (relcl, 米饭#NN, 剩#VV)  (mark, 剩#VV, 的#DEC)  (nn, 米饭#NN, 高粱#NN)  (dobj, 煮#VV, 米饭#NN)  (neg, 煮#VV, 不#AD)  (nn, 加#NR, 宜#NR)  (nn, 碱#NN, 加#NR)  (prep, 煮#VV, 碱#NN)  (conj, 煮#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091413353293.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

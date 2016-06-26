@@ -1,0 +1,410 @@
+<content>
+
+    <id>
+        404
+    </id>
+
+    <foodname>
+        荞麦
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        花麦、三角麦、乌麦、荍麦、花荞、甜养、荞子、花麦、乌麦、麦、甜荞
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者不宜食。体质易过敏者当慎重或不食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  者  不  宜  食  。  体质  易  过敏  者  当  慎重  或  不  食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  者#NN  不#AD  宜#NR  食#NN    。#PU  体质#NN  易#AD  过敏#VV  者#NN  当#VV  慎重#NN  或#CC  不#NN  食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 脾胃#NN)  (nn, 者#NN, 虚寒#NN)  (nsubj, 食#NN, 者#NN)  (neg, 食#NN, 不#AD)  (nn, 食#NN, 宜#NR)  (root, ROOT#null, 食#NN)   (nsubj, 过敏#VV, 体质#NN)  (advmod, 过敏#VV, 易#AD)  (root, ROOT#null, 过敏#VV)  (dobj, 过敏#VV, 者#NN)  (conj, 过敏#VV, 当#VV)  (conj, 食#NN, 慎重#NN)  (cc, 食#NN, 或#CC)  (nn, 食#NN, 不#NN)  (dobj, 当#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜冠心病、糖尿病人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  冠心病  、  糖尿病人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  冠心病#NN  、#PU  糖尿病人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (conj, 糖尿病人#NN, 冠心病#NN)  (dobj, 适宜#VV, 糖尿病人#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                324
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                9.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                6.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                4.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                297
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                401
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                258
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.04
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荞麦又称为三角麦，是蓼科荞麦属作物，一年生草本双子叶植物纲，蓼科栽培植物。彝族称为“额”，古代亦写成莜麦或乌麦。四川省习惯叫荞子。又叫“胡荞麦”。分为普通荞麦(甜荞麦)及其亲缘种苦荞麦(鞑靼荞麦)，尤指前者。
+            原产于亚洲，种子三角形。种皮坚韧，深褐或灰色。花白色，由蜂等昆虫传粉。虽然其种子用作谷物，但荞麦并非谷类禾草。荞麦在肥沃土壤上较其他粮食作物产量低，但特别适应於乾旱丘陵和凉爽的气候。荞麦成熟快，故可作晚季作物种植，并能作为窒息作物使杂草死亡而为其他作物的栽培改善条件。亦可用作绿肥犁入田中以改良土壤，又可作蜜源作物。荞麦是乌克兰、白俄罗斯和波兰的主要粮食作物之一。法国、加拿大和美国也是重要生产国。除人类食用外，也常用作家禽和其他牲畜的饲料，英国人认为荞麦特别适於用作雉的饲料。在东欧，人们将荞麦去壳，如稻米一般煮食，称为荞麦饭，在法国则称为sayraisin。荞麦粉不宜於做面包，但在美国及加拿大，荞麦粉单独或与小麦粉混合用制烤饼，称荞麦饼。
+            苦荞学名鞑靼荞麦，分为普通苦荞和黑苦荞。普通苦荞外壳为黄白色；黑苦荞即珍珠黑苦荞，有“黑珍珠”之称，外壳呈深黑色，营养价值极高。
+            由苦荞麦的种子经过筛选、烘烤等工序加工而成的冲饮品—苦荞茶具有丰富的营养价值和药用功效。
+        </rawdata>
+
+        <segment>
+            荞麦  又  称为  三角麦  ，  是  蓼科  荞麦属  作物  ，  一  年  生  草本  双子叶  植物  纲  ，  蓼科  栽培  植物  。  彝族  称为  “  额  ”  ，  古代  亦  写成  莜麦  或  乌麦  。  四川省  习惯  叫  荞子  。  又  叫  “  胡  荞麦  ”  。  分为  普通  荞麦  (  甜  荞麦  )  及其  亲缘  种  苦  荞麦  (  鞑靼  荞麦  )  ，  尤指  前者  。
+            原  产  于  亚洲  ，  种子  三角形  。  种皮  坚韧  ，  深褐  或  灰色  。  花  白色  ，  由  蜂等  昆虫  传粉  。  虽然  其  种子  用作  谷物  ，  但  荞麦  并非  谷类  禾草  。  荞麦  在  肥沃  土壤  上  较  其他  粮食  作物  产量  低  ，  但  特别  适应  於  乾旱  丘陵  和  凉爽  的  气候  。  荞麦  成熟  快  ，  故  可作  晚季  作物  种植  ，  并  能  作为  窒息  作物  使  杂草  死亡  而  为  其他  作物  的  栽培  改善  条件  。  亦  可  用作  绿肥  犁入  田中  以  改良  土壤  ，  又可作  蜜源  作物  。  荞麦  是  乌克兰  、  白俄罗斯  和  波兰  的  主要  粮食  作物  之一  。  法国  、  加拿大  和  美国  也  是  重要  生产国  。  除  人类  食用  外  ，  也  常  用作  家禽  和  其他  牲畜  的  饲料  ，  英国人  认为  荞麦  特别  适於  用作雉  的  饲料  。  在  东欧  ，  人们  将  荞麦  去壳  ，  如  稻米  一般  煮  食  ，  称为  荞麦  饭  ，  在  法国  则  称为  sayraisin  。  荞麦  粉不宜於  做  面包  ，  但  在  美国  及  加拿大  ，  荞麦粉  单独  或  与  小麦  粉混  合用  制  烤饼  ，  称  荞麦饼  。
+            苦荞  学名  鞑靼  荞麦  ，  分为  普通  苦荞  和  黑苦荞  。  普通  苦荞  外壳  为  黄白色  ；  黑  苦  荞即  珍珠  黑苦荞  ，  有  “  黑珍珠  ”  之  称  ，  外壳  呈深  黑色  ，  营养  价值  极高  。
+            由  苦  荞麦  的  种子  经过  筛选  、  烘烤  等  工序  加工  而  成  的  冲  饮品  —  苦荞  茶  具有  丰富  的  营养  价值  和  药用  功效  。
+        </segment>
+
+        <pos>
+            荞麦#NN  又#AD  称为#VV  三角麦#CD  ，#PU  是#VC  蓼科#NN  荞麦属#NN  作物#NN  ，#PU  一#CD  年#M  生#VV  草本#NR  双子叶#JJ  植物#NN  纲#NN  ，#PU  蓼科#AD  栽培#VV  植物#NN    。#PU  彝族#NN  称为#VV  ``#NN  额#NN  ''#NN  ，#PU  古代#NN  亦#AD  写成#VV  莜麦#NN  或#CC  乌麦#NN    。#PU  四川省#NR  习惯#NN  叫#VV  荞子#NN    。#PU  又#AD  叫#VV  ``#NN  胡#NN  荞麦#NN  ''#NN    。#PU  分为#VV  普通#JJ  荞麦#NN  -LRB-#NN  甜#NN  荞麦#NN  -RRB-#NN  及其#NN  亲缘#NN  种#M  苦#NN  荞麦#NN  -LRB-#NN  鞑靼#NN  荞麦#NN  -RRB-#NN  ，#PU  尤指#VV  前者#NN    。#PU    。#PU
+            原#AD  产#VV  于#P  亚洲#NR  ，#PU  种子#NN  三角形#CD    。#PU  种皮#NR  坚韧#VV  ，#PU  深褐#VV  或#CC  灰色#VV    。#PU  花#NN  白色#JJ  ，#PU  由#P  蜂等#NN  昆虫#VV  传粉#NN    。#PU  虽然#CS  其#PN  种子#NN  用作#VV  谷物#NN  ，#PU  但#AD  荞麦#NN  并非#NN  谷类#VV  禾草#NN    。#PU  荞麦#NN  在#P  肥沃#NN  土壤#NN  上#LC  较#P  其他#DT  粮食#NN  作物#NN  产量#NN  低#VA  ，#PU  但#AD  特别#AD  适应#VV  於#AD  乾旱#VV  丘陵#NN  和#CC  凉爽#NN  的#DEC  气候#NN    。#PU  荞麦#AD  成熟#VA  快#VA  ，#PU  故#AD  可作#VV  晚季#NN  作物#NN  种植#NN  ，#PU  并#CC  能#VV  作为#VV  窒息#NN  作物#NN  使#VV  杂草#NN  死亡#VV  而#MSP  为#VV  其他#DT  作物#NN  的#DEC  栽培#VV  改善#NN  条件#NN    。#PU  亦#AD  可#VV  用作#VV  绿肥#NN  犁入#NN  田中#NN  以#MSP  改良#VV  土壤#NN  ，#PU  又可作#VV  蜜源#NN  作物#NN    。#PU  荞麦#NN  是#VC  乌克兰#NR  、#PU  白俄罗斯#NR  和#CC  波兰#NR  的#DEG  主要#JJ  粮食#NN  作物#NN  之一#NN    。#PU  法国#NR  、#PU  加拿大#NR  和#CC  美国#NR  也#AD  是#VC  重要#JJ  生产国#NN    。#PU  除#P  人类#NN  食用#VV  外#LC  ，#PU  也#AD  常#AD  用作#VV  家禽#NN  和#CC  其他#DT  牲畜#NN  的#DEG  饲料#NN  ，#PU  英国人#AD  认为#VV  荞麦#VV  特别#JJ  适於#NN  用作雉#NN  的#DEG  饲料#NN    。#PU  在#P  东欧#NR  ，#PU  人们#NN  将#AD  荞麦#VV  去壳#NN  ，#PU  如#AD  稻米#NN  一般#AD  煮#VV  食#NN  ，#PU  称为#VV  荞麦#NN  饭#NN  ，#PU  在#P  法国#NR  则#AD  称为#VV  sayraisin#NN    。#PU  荞麦#NR  粉不宜於#AD  做#VV  面包#NN  ，#PU  但#AD  在#P  美国#NR  及#CC  加拿大#NR  ，#PU  荞麦粉#NR  单独#JJ  或#CC  与#P  小麦#NN  粉混#NN  合用#NN  制#VV  烤饼#NN  ，#PU  称#VV  荞麦饼#NN    。#PU    。#PU
+            苦荞#NN  学名#AD  鞑靼#VV  荞麦#NN  ，#PU  分为#VV  普通#JJ  苦荞#NN  和#CC  黑苦荞#NN    。#PU  普通#JJ  苦荞#NN  外壳#NN  为#VC  黄白色#NN  ；#PU  黑#JJ  苦#NN  荞即#AD  珍珠#VV  黑苦荞#NN  ，#PU  有#VE  ``#NN  黑珍珠#NN  ''#NN  之#DEG  称#NN  ，#PU  外壳#VV  呈深#NN  黑色#JJ  ，#PU  营养#VA  价值#NN  极高#VV    。#PU    。#PU
+            由#P  苦#NN  荞麦#NN  的#DEG  种子#NN  经过#P  筛选#NN  、#PU  烘烤#NN  等#ETC  工序#NN  加工#NN  而#MSP  成#VV  的#DEC  冲#NN  饮品#NN  --#NN  苦荞#NN  茶#AD  具有#VV  丰富#VA  的#DEC  营养#VA  价值#NN  和#CC  药用#NN  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称为#VV, 荞麦#NN)  (advmod, 称为#VV, 又#AD)  (root, ROOT#null, 称为#VV)  (range, 称为#VV, 三角麦#CD)  (cop, 作物#NN, 是#VC)  (nn, 作物#NN, 蓼科#NN)  (nn, 作物#NN, 荞麦属#NN)  (conj, 称为#VV, 作物#NN)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (conj, 称为#VV, 生#VV)  (nn, 植物#NN, 草本#NR)  (amod, 植物#NN, 双子叶#JJ)  (nn, 纲#NN, 植物#NN)  (dobj, 生#VV, 纲#NN)  (advmod, 栽培#VV, 蓼科#AD)  (conj, 称为#VV, 栽培#VV)  (dobj, 栽培#VV, 植物#NN)   (nsubj, 称为#VV, 彝族#NN)  (root, ROOT#null, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 额#NN)  (dobj, 称为#VV, ''#NN)  (nsubj, 写成#VV, 古代#NN)  (advmod, 写成#VV, 亦#AD)  (conj, 称为#VV, 写成#VV)  (conj, 乌麦#NN, 莜麦#NN)  (cc, 乌麦#NN, 或#CC)  (dobj, 写成#VV, 乌麦#NN)   (nn, 习惯#NN, 四川省#NR)  (nsubj, 叫#VV, 习惯#NN)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 荞子#NN)   (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 胡#NN)  (nn, ''#NN, 荞麦#NN)  (dobj, 叫#VV, ''#NN)   (root, ROOT#null, 分为#VV)  (amod, 荞麦#NN, 普通#JJ)  (nn, 荞麦#NN, 荞麦#NN)  (nn, 荞麦#NN, 甜#NN)  (nn, 亲缘#NN, 荞麦#NN)  (nn, 亲缘#NN, 及其#NN)  (nn, -LRB-#NN, 亲缘#NN)  (dep, -LRB-#NN, 种#M)  (nn, -LRB-#NN, 苦#NN)  (nn, -LRB-#NN, 荞麦#NN)  (nn, -RRB-#NN, 鞑靼#NN)  (nn, -RRB-#NN, 荞麦#NN)  (conj, 分为#VV, 尤指#VV)  (dobj, 尤指#VV, 前者#NN)   (root, ROOT#null, null#null)
+            (advmod, 产#VV, 原#AD)  (root, ROOT#null, 产#VV)  (case, 亚洲#NR, 于#P)  (prep, 产#VV, 亚洲#NR)  (dep, 产#VV, 种子#NN)  (range, 种子#NN, 三角形#CD)   (nsubj, 坚韧#VV, 种皮#NR)  (root, ROOT#null, 坚韧#VV)  (ccomp, 坚韧#VV, 深褐#VV)  (cc, 深褐#VV, 或#CC)  (conj, 深褐#VV, 灰色#VV)   (nsubj, 传粉#NN, 花#NN)  (nfincl, 传粉#NN, 白色#JJ)  (case, 蜂等#NN, 由#P)  (prep, 昆虫#VV, 蜂等#NN)  (dep, 白色#JJ, 昆虫#VV)  (root, ROOT#null, 传粉#NN)   (advmod, 用作#VV, 虽然#CS)  (nn, 种子#NN, 其#PN)  (nsubj, 用作#VV, 种子#NN)  (dep, 谷类#VV, 用作#VV)  (dobj, 用作#VV, 谷物#NN)  (advmod, 谷类#VV, 但#AD)  (nsubj, 谷类#VV, 荞麦#NN)  (nsubj, 谷类#VV, 并非#NN)  (root, ROOT#null, 谷类#VV)  (dobj, 谷类#VV, 禾草#NN)   (nsubj, 低#VA, 荞麦#NN)  (case, 土壤#NN, 在#P)  (nn, 土壤#NN, 肥沃#NN)  (prep, 低#VA, 土壤#NN)  (case, 土壤#NN, 上#LC)  (case, 产量#NN, 较#P)  (det, 产量#NN, 其他#DT)  (nn, 产量#NN, 粮食#NN)  (nn, 产量#NN, 作物#NN)  (prep, 低#VA, 产量#NN)  (root, ROOT#null, 低#VA)  (advmod, 适应#VV, 但#AD)  (advmod, 适应#VV, 特别#AD)  (conj, 低#VA, 适应#VV)  (advmod, 乾旱#VV, 於#AD)  (relcl, 气候#NN, 乾旱#VV)  (conj, 凉爽#NN, 丘陵#NN)  (cc, 凉爽#NN, 和#CC)  (dobj, 乾旱#VV, 凉爽#NN)  (mark, 乾旱#VV, 的#DEC)  (dobj, 适应#VV, 气候#NN)   (advmod, 成熟#VA, 荞麦#AD)  (nsubj, 栽培#VV, 成熟#VA)  (comod, 成熟#VA, 快#VA)  (advmod, 可作#VV, 故#AD)  (dep, 成熟#VA, 可作#VV)  (nn, 种植#NN, 晚季#NN)  (nn, 种植#NN, 作物#NN)  (dobj, 可作#VV, 种植#NN)  (cc, 成熟#VA, 并#CC)  (mmod, 作为#VV, 能#VV)  (dep, 成熟#VA, 作为#VV)  (nn, 作物#NN, 窒息#NN)  (dobj, 作为#VV, 作物#NN)  (dep, 作为#VV, 使#VV)  (dobj, 使#VV, 杂草#NN)  (dep, 使#VV, 死亡#VV)  (prtmod, 为#VV, 而#MSP)  (conj, 使#VV, 为#VV)  (det, 作物#NN, 其他#DT)  (dobj, 为#VV, 作物#NN)  (mark, 成熟#VA, 的#DEC)  (root, ROOT#null, 栽培#VV)  (nn, 条件#NN, 改善#NN)  (dobj, 栽培#VV, 条件#NN)   (advmod, 用作#VV, 亦#AD)  (mmod, 用作#VV, 可#VV)  (root, ROOT#null, 用作#VV)  (nn, 田中#NN, 绿肥#NN)  (nn, 田中#NN, 犁入#NN)  (dobj, 用作#VV, 田中#NN)  (prtmod, 改良#VV, 以#MSP)  (conj, 用作#VV, 改良#VV)  (dobj, 改良#VV, 土壤#NN)  (dep, 用作#VV, 又可作#VV)  (nn, 作物#NN, 蜜源#NN)  (dobj, 又可作#VV, 作物#NN)   (nsubj, 之一#NN, 荞麦#NN)  (cop, 之一#NN, 是#VC)  (conj, 波兰#NR, 乌克兰#NR)  (conj, 波兰#NR, 白俄罗斯#NR)  (cc, 波兰#NR, 和#CC)  (assmod, 之一#NN, 波兰#NR)  (case, 波兰#NR, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 粮食#NN)  (nn, 之一#NN, 作物#NN)  (root, ROOT#null, 之一#NN)   (conj, 美国#NR, 法国#NR)  (conj, 美国#NR, 加拿大#NR)  (cc, 美国#NR, 和#CC)  (nsubj, 生产国#NN, 美国#NR)  (advmod, 生产国#NN, 也#AD)  (cop, 生产国#NN, 是#VC)  (amod, 生产国#NN, 重要#JJ)  (root, ROOT#null, 生产国#NN)   (case, 食用#VV, 除#P)  (nsubj, 食用#VV, 人类#NN)  (prep, 用作#VV, 食用#VV)  (case, 食用#VV, 外#LC)  (advmod, 用作#VV, 也#AD)  (advmod, 用作#VV, 常#AD)  (root, ROOT#null, 用作#VV)  (conj, 牲畜#NN, 家禽#NN)  (cc, 牲畜#NN, 和#CC)  (det, 牲畜#NN, 其他#DT)  (assmod, 饲料#NN, 牲畜#NN)  (case, 牲畜#NN, 的#DEG)  (dobj, 用作#VV, 饲料#NN)  (advmod, 认为#VV, 英国人#AD)  (dep, 用作#VV, 认为#VV)  (ccomp, 认为#VV, 荞麦#VV)  (amod, 适於#NN, 特别#JJ)  (nn, 用作雉#NN, 适於#NN)  (assmod, 饲料#NN, 用作雉#NN)  (case, 用作雉#NN, 的#DEG)  (dobj, 荞麦#VV, 饲料#NN)   (case, 东欧#NR, 在#P)  (prep, 荞麦#VV, 东欧#NR)  (nsubj, 荞麦#VV, 人们#NN)  (advmod, 荞麦#VV, 将#AD)  (root, ROOT#null, 荞麦#VV)  (dobj, 荞麦#VV, 去壳#NN)  (advmod, 煮#VV, 如#AD)  (nsubj, 煮#VV, 稻米#NN)  (advmod, 煮#VV, 一般#AD)  (conj, 荞麦#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)  (dep, 煮#VV, 称为#VV)  (nn, 饭#NN, 荞麦#NN)  (dobj, 称为#VV, 饭#NN)  (case, 法国#NR, 在#P)  (prep, 称为#VV, 法国#NR)  (advmod, 称为#VV, 则#AD)  (conj, 煮#VV, 称为#VV)  (dobj, 称为#VV, sayraisin#NN)   (nsubj, 做#VV, 荞麦#NR)  (advmod, 做#VV, 粉不宜於#AD)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 面包#NN)  (advmod, 制#VV, 但#AD)  (case, 加拿大#NR, 在#P)  (conj, 加拿大#NR, 美国#NR)  (cc, 加拿大#NR, 及#CC)  (prep, 制#VV, 加拿大#NR)  (nn, 合用#NN, 荞麦粉#NR)  (dep, 合用#NN, 单独#JJ)  (cc, 单独#JJ, 或#CC)  (case, 小麦#NN, 与#P)  (prep, 粉混#NN, 小麦#NN)  (dep, 单独#JJ, 粉混#NN)  (nsubj, 制#VV, 合用#NN)  (conj, 做#VV, 制#VV)  (dobj, 制#VV, 烤饼#NN)  (conj, 制#VV, 称#VV)  (dobj, 称#VV, 荞麦饼#NN)   (root, ROOT#null, null#null)
+            (nsubj, 鞑靼#VV, 苦荞#NN)  (advmod, 鞑靼#VV, 学名#AD)  (root, ROOT#null, 鞑靼#VV)  (dobj, 鞑靼#VV, 荞麦#NN)  (conj, 鞑靼#VV, 分为#VV)  (amod, 黑苦荞#NN, 普通#JJ)  (conj, 黑苦荞#NN, 苦荞#NN)  (cc, 黑苦荞#NN, 和#CC)  (dobj, 分为#VV, 黑苦荞#NN)   (amod, 苦荞#NN, 普通#JJ)  (nn, 外壳#NN, 苦荞#NN)  (nsubj, 黄白色#NN, 外壳#NN)  (cop, 黄白色#NN, 为#VC)  (root, ROOT#null, 黄白色#NN)  (amod, 苦#NN, 黑#JJ)  (nsubj, 珍珠#VV, 苦#NN)  (advmod, 珍珠#VV, 荞即#AD)  (conj, 黄白色#NN, 珍珠#VV)  (dobj, 珍珠#VV, 黑苦荞#NN)  (conj, 珍珠#VV, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 黑珍珠#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)  (conj, 珍珠#VV, 外壳#VV)  (dobj, 外壳#VV, 呈深#NN)  (conj, 珍珠#VV, 黑色#JJ)  (conj, 黄白色#NN, 营养#VA)  (nsubj, 极高#VV, 价值#NN)  (dep, 黄白色#NN, 极高#VV)   (root, ROOT#null, null#null)
+            (case, 种子#NN, 由#P)  (nn, 荞麦#NN, 苦#NN)  (assmod, 种子#NN, 荞麦#NN)  (case, 荞麦#NN, 的#DEG)  (prep, 成#VV, 种子#NN)  (case, 加工#NN, 经过#P)  (conj, 烘烤#NN, 筛选#NN)  (nn, 加工#NN, 烘烤#NN)  (etc, 烘烤#NN, 等#ETC)  (nn, 加工#NN, 工序#NN)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (relcl, 苦荞#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (nn, 苦荞#NN, 冲#NN)  (nn, 苦荞#NN, 饮品#NN)  (nsubj, 具有#VV, 苦荞#NN)  (advmod, 具有#VV, 茶#AD)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 功效#NN, 营养#VA)  (conj, 功效#NN, 价值#NN)  (cc, 功效#NN, 和#CC)  (nn, 功效#NN, 药用#NN)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            荞麦味甘、微酸，性寒；归脾、胃、大肠经。健脾消积；下气宽肠；解毒敛疮。主肠胃积滞；泄泻；痢疾；绞肠癌；白沙；带下；自汗；盗汗；疱疹；丹毒；痈疽；发背；瘰病；烫火伤。
+            1.增强血管弹性
+            荞麦中含有丰富的维生素P，可以增强血管的弹性、韧性和致密性。又有保护血管的作用。
+            2.降血脂
+            荞麦能促进细胞增生，降低血脂和胆固醇、软化血管，保护视力预防心脑血管出血，调节血脂，扩张冠状动脉并增加其血流量等。
+            3.促进新陈代谢
+            荞麦中丰富的烟酸，能增强解毒能力，促进新陈代谢。
+            4.防治糖尿病
+            荞麦中的铬，更是一种理想的降糖物质，能增强胰岛素的活性，加速糖代谢，促进脂肪和蛋白质的合成。还有抑制血块的形成，具有抗血栓的作用。
+            5.止咳平喘
+            荞麦具有抗菌、消炎、止咳、平喘、祛痰的作用。
+        </rawdata>
+
+        <segment>
+            荞麦  味甘  、  微酸  ，  性寒  ；  归脾  、  胃  、  大肠  经  。  健脾  消积  ；  下气  宽  肠  ；  解毒  敛疮  。  主  肠胃  积滞  ；  泄泻  ；  痢疾  ；  绞  肠癌  ；  白沙  ；  带下  ；  自  汗  ；  盗汗  ；  疱疹  ；  丹毒  ；  痈疽  ；  发背  ；  瘰病  ；  烫  火伤  。
+            增强  血管  弹性
+            荞麦  中  含有  丰富  的  维生素  P  ，  可以  增强  血管  的  弹性  、  韧性  和  致密性  。  又  有  保护  血管  的  作用  。
+            降  血脂
+            荞麦  能  促进  细胞  增生  ，  降低  血脂  和  胆固醇  、  软化  血管  ，  保护  视力  预防  心脑血管  出血  ，  调节  血脂  ，  扩张  冠状  动脉  并  增加  其  血流  量等  。
+            促进  新陈代谢
+            荞麦  中  丰富  的  烟酸  ，  能  增强  解毒  能力  ，  促进  新陈代谢  。
+            防治  糖尿病
+            荞麦  中  的  铬  ，  更  是  一  种  理想  的  降糖  物质  ，  能  增强  胰岛素  的  活性  ，  加速  糖  代谢  ，  促进  脂肪  和  蛋白质  的  合成  。  还有  抑制  血块  的  形成  ，  具有  抗  血栓  的  作用  。
+            止咳  平  喘
+            荞麦  具有  抗菌  、  消炎  、  止咳  、  平喘  、  祛痰  的  作用  。
+        </segment>
+
+        <pos>
+            荞麦#NR  味甘#NN  、#PU  微酸#NN  ，#PU  性寒#NN  ；#PU  归脾#NR  、#PU  胃#NR  、#PU  大肠#NR  经#VV    。#PU  健脾#VV  消积#NN  ；#PU  下气#VV  宽#JJ  肠#NN  ；#PU  解毒#VV  敛疮#NN    。#PU  主#JJ  肠胃#NN  积滞#VV  ；#PU  泄泻#VA  ；#PU  痢疾#VA  ；#PU  绞#AD  肠癌#VA  ；#PU  白沙#VA  ；#PU  带下#VV  ；#PU  自#P  汗#NN  ；#PU  盗汗#VA  ；#PU  疱疹#VA  ；#PU  丹毒#VA  ；#PU  痈疽#VA  ；#PU  发背#VA  ；#PU  瘰病#VA  ；#PU  烫#VV  火伤#NN    。#PU    。#PU
+            增强#VV  血管#NN  弹性#NN
+            荞麦#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素#NN  P#VV  ，#PU  可以#VV  增强#VV  血管#NN  的#DEG  弹性#NN  、#PU  韧性#NN  和#CC  致密性#NN    。#PU  又#AD  有#VE  保护#VV  血管#NN  的#DEC  作用#NN    。#PU    。#PU
+            降#NN  血脂#VA
+            荞麦#NN  能#VV  促进#VV  细胞#NN  增生#NN  ，#PU  降低#VV  血脂#NN  和#CC  胆固醇#NN  、#PU  软化#NN  血管#NN  ，#PU  保护#NN  视力#NN  预防#NN  心脑血管#AD  出血#VV  ，#PU  调节#VV  血脂#NN  ，#PU  扩张#NN  冠状#NN  动脉#NN  并#AD  增加#VV  其#PN  血流#NN  量等#NN  。#PU
+            促进#VV  新陈代谢#NN
+            荞麦#NN  中#LC  丰富#VA  的#DEC  烟酸#NN  ，#PU  能#VV  增强#VV  解毒#NN  能力#NN  ，#PU  促进#VV  新陈代谢#NN  。#PU
+            防治#VV  糖尿病#NN
+            荞麦#VV  中#NR  的#DEG  铬#NN  ，#PU  更#AD  是#VC  一#CD  种#M  理想#VA  的#DEC  降糖#JJ  物质#NN  ，#PU  能#VV  增强#VV  胰岛素#NN  的#DEG  活性#NN  ，#PU  加速#VV  糖#NN  代谢#NN  ，#PU  促进#VV  脂肪#NN  和#CC  蛋白质#NN  的#DEG  合成#JJ    。#PU  还有#AD  抑制#VV  血块#NN  的#DEC  形成#NN  ，#PU  具有#VV  抗#NN  血栓#NN  的#DEC  作用#NN    。#PU    。#PU
+            止咳#NN  平#NN  喘#NN
+            荞麦#NN  具有#VV  抗菌#NR  、#PU  消炎#NR  、#PU  止咳#NR  、#PU  平喘#NR  、#PU  祛痰#NR  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 微酸#NN, 荞麦#NR)  (conj, 微酸#NN, 味甘#NN)  (nsubj, 经#VV, 微酸#NN)  (nsubj, 经#VV, 性寒#NN)  (conj, 大肠#NR, 归脾#NR)  (conj, 大肠#NR, 胃#NR)  (prep, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (root, ROOT#null, 健脾#VV)  (dobj, 健脾#VV, 消积#NN)  (conj, 健脾#VV, 下气#VV)  (amod, 肠#NN, 宽#JJ)  (dobj, 下气#VV, 肠#NN)  (conj, 健脾#VV, 解毒#VV)  (dobj, 解毒#VV, 敛疮#NN)   (amod, 肠胃#NN, 主#JJ)  (nsubj, 积滞#VV, 肠胃#NN)  (root, ROOT#null, 积滞#VV)  (ccomp, 积滞#VV, 泄泻#VA)  (dep, 泄泻#VA, 痢疾#VA)  (advmod, 肠癌#VA, 绞#AD)  (dep, 泄泻#VA, 肠癌#VA)  (dep, 泄泻#VA, 白沙#VA)  (dep, 泄泻#VA, 带下#VV)  (case, 汗#NN, 自#P)  (ccomp, 带下#VV, 汗#NN)  (dep, 泄泻#VA, 盗汗#VA)  (dep, 泄泻#VA, 疱疹#VA)  (dep, 泄泻#VA, 丹毒#VA)  (dep, 泄泻#VA, 痈疽#VA)  (dep, 泄泻#VA, 发背#VA)  (dep, 泄泻#VA, 瘰病#VA)  (dep, 泄泻#VA, 烫#VV)  (dobj, 烫#VV, 火伤#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增强#VV)  (nn, 弹性#NN, 血管#NN)  (dobj, 增强#VV, 弹性#NN)
+            (loc, 丰富#VA, 荞麦#NN)  (case, 荞麦#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, P#VV, 维生素#NN)  (xsubj, 增强#VV, 维生素#NN)  (root, ROOT#null, P#VV)  (mmod, 增强#VV, 可以#VV)  (ccomp, P#VV, 增强#VV)  (assmod, 致密性#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (conj, 致密性#NN, 弹性#NN)  (conj, 致密性#NN, 韧性#NN)  (cc, 致密性#NN, 和#CC)  (dobj, 增强#VV, 致密性#NN)   (advmod, 有#VE, 又#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 保护#VV)  (dobj, 保护#VV, 血管#NN)  (mark, 保护#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (nsubj, 降低#VV, 荞麦#NN)  (mmod, 降低#VV, 能#VV)  (conj, 降低#VV, 促进#VV)  (nn, 增生#NN, 细胞#NN)  (dobj, 促进#VV, 增生#NN)  (root, ROOT#null, 降低#VV)  (conj, 血管#NN, 血脂#NN)  (cc, 血管#NN, 和#CC)  (conj, 血管#NN, 胆固醇#NN)  (nn, 血管#NN, 软化#NN)  (dobj, 降低#VV, 血管#NN)  (nn, 预防#NN, 保护#NN)  (nn, 预防#NN, 视力#NN)  (nsubj, 出血#VV, 预防#NN)  (advmod, 出血#VV, 心脑血管#AD)  (conj, 降低#VV, 出血#VV)  (conj, 降低#VV, 调节#VV)  (dobj, 调节#VV, 血脂#NN)  (nn, 动脉#NN, 扩张#NN)  (nn, 动脉#NN, 冠状#NN)  (nsubj, 增加#VV, 动脉#NN)  (advmod, 增加#VV, 并#AD)  (conj, 降低#VV, 增加#VV)  (nn, 量等#NN, 其#PN)  (nn, 量等#NN, 血流#NN)  (dobj, 增加#VV, 量等#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)
+            (loc, 增强#VV, 荞麦#NN)  (case, 荞麦#NN, 中#LC)  (relcl, 烟酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 增强#VV, 烟酸#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (nn, 能力#NN, 解毒#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 增强#VV, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 糖尿病#NN)
+            (root, ROOT#null, 荞麦#VV)  (assmod, 铬#NN, 中#NR)  (case, 中#NR, 的#DEG)  (dobj, 荞麦#VV, 铬#NN)  (advmod, 物质#NN, 更#AD)  (cop, 物质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (amod, 物质#NN, 降糖#JJ)  (conj, 荞麦#VV, 物质#NN)  (mmod, 增强#VV, 能#VV)  (conj, 荞麦#VV, 增强#VV)  (assmod, 活性#NN, 胰岛素#NN)  (case, 胰岛素#NN, 的#DEG)  (dobj, 增强#VV, 活性#NN)  (conj, 增强#VV, 加速#VV)  (nn, 代谢#NN, 糖#NN)  (dobj, 加速#VV, 代谢#NN)  (conj, 增强#VV, 促进#VV)  (conj, 蛋白质#NN, 脂肪#NN)  (cc, 蛋白质#NN, 和#CC)  (dobj, 促进#VV, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (conj, 增强#VV, 合成#JJ)   (advmod, 具有#VV, 还有#AD)  (relcl, 形成#NN, 抑制#VV)  (dobj, 抑制#VV, 血块#NN)  (mark, 抑制#VV, 的#DEC)  (nsubj, 具有#VV, 形成#NN)  (relcl, 作用#NN, 具有#VV)  (nn, 血栓#NN, 抗#NN)  (dobj, 具有#VV, 血栓#NN)  (mark, 具有#VV, 的#DEC)  (root, ROOT#null, 作用#NN)   (root, ROOT#null, null#null)
+            (nn, 喘#NN, 止咳#NN)  (nn, 喘#NN, 平#NN)  (root, ROOT#null, 喘#NN)
+            (nsubj, 具有#VV, 荞麦#NN)  (root, ROOT#null, 具有#VV)  (conj, 祛痰#NR, 抗菌#NR)  (conj, 祛痰#NR, 消炎#NR)  (conj, 祛痰#NR, 止咳#NR)  (conj, 祛痰#NR, 平喘#NR)  (assmod, 作用#NN, 祛痰#NR)  (case, 祛痰#NR, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  健脾  解毒  行气宽中  消食积  敛疮  辅助降血糖  辅助降血压  改善营养性贫血  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.荞麦蛋白质中含有丰富的赖氨酸成分，铁、锰、锌等微量元素比一般谷物丰富，而且含有丰富膳食纤维，是一般精制大米的10倍，所以荞麦具有很好的营养保健作用。
+            2.荞麦含有丰富的维生素E和可溶性膳食纤维，同时还含有烟酸和芦丁（芸香甙）。
+            3.荞麦含有的烟酸成分能促进机体的新陈代谢，增强解毒能力
+            4.据分析：荞麦其籽粒含蛋白质7.94%～17.15%、脂肪2.00%～3.64%、淀粉67.45%～79.15%、纤维素1.04%～1.33%。日本学者研究报导：荞麦的营养效价指标为80～92（小麦为70，大米为50）。
+            5.荞麦中的某些黄酮成分还具有抗菌、消炎作用，因此，荞麦还有“消炎粮食”的美称。
+        </rawdata>
+
+        <segment>
+            荞麦  蛋白质  中  含有  丰富  的  赖氨酸  成分  ，  铁  、  锰  、  锌  等  微量  元素  比  一般  谷物  丰富  ，  而且  含有  丰富  膳食  纤维  ，  是  一般  精制  大米  的  10  倍  ，  所以  荞麦  具有  很  好  的  营养  保健  作用  。
+            荞麦  含有  丰富  的  维生素E  和  可溶性  膳食  纤维  ，  同时  还  含有  烟酸  和  芦丁  （  芸香甙  ）  。
+            荞麦  含有  的  烟酸  成分  能  促进  机体  的  新陈代谢  ，  增强  解毒  能力
+            据  分析  ：  荞麦  其  籽粒  含  蛋白质  7.94%  ～17.15%  、  脂肪  2.00%  ～3.64%  、  淀粉  67.45%  ～79.15%  、  纤维素  1.04%  ～1.33%  。  日本  学者  研究  报导  ：  荞麦  的  营养  效价  指标  为  80  ～  92  （  小麦  为  70  ，  大米  为  50  ）  。
+            荞麦  中  的  某些  黄酮  成分  还  具有  抗菌  、  消炎  作用  ，  因此  ，  荞麦  还有  “  消炎  粮食  ”  的  美称  。
+        </segment>
+
+        <pos>
+            荞麦#NN  蛋白质#NN  中#LC  含有#AD  丰富#VA  的#DEC  赖氨酸#NN  成分#NN  ，#PU  铁#NN  、#PU  锰#NN  、#PU  锌#NN  等#ETC  微量#NN  元素#NN  比#P  一般#JJ  谷物#NN  丰富#VA  ，#PU  而且#CC  含有#AD  丰富#VV  膳食#NN  纤维#NN  ，#PU  是#VC  一般#JJ  精制#JJ  大米#NN  的#DEG  10#CD  倍#M  ，#PU  所以#AD  荞麦#AD  具有#VV  很#AD  好#VA  的#DEC  营养#VA  保健#NN  作用#NN  。#PU
+            荞麦#NN  含有#NN  丰富#VA  的#DEC  维生素E#NN  和#CC  可溶性#NN  膳食#NN  纤维#NN  ，#PU  同时#AD  还#AD  含有#VV  烟酸#NN  和#CC  芦丁#NN  （#PU  芸香甙#NN  ）#PU  。#PU
+            荞麦#NN  含有#NN  的#DEG  烟酸#NN  成分#NN  能#VV  促进#VV  机体#NN  的#DEG  新陈代谢#NN  ，#PU  增强#VV  解毒#NN  能力#NN
+            据#P  分析#NN  ：#PU  荞麦#NR  其#PN  籽粒#NN  含#VV  蛋白质#NR  7.94#CD  %#NN  ～#NN  17.15#CD  %#NN  、#PU  脂肪#NR  2.00#CD  %#NN  ～#NN  3.64#CD  %#NN  、#PU  淀粉#NR  67.45#CD  %#NN  ～#NN  79.15#CD  %#NN  、#PU  纤维素#NR  1.04#CD  %#NN  ～#NN  1.33#CD  %#NN    。#PU  日本#NR  学者#NN  研究#NN  报导#VV  ：#PU  荞麦#VA  的#DEC  营养#VA  效价#NN  指标#NN  为#VC  80#CD  ～#CD  92#CD  （#PU  小麦#NN  为#VC  70#CD  ，#PU  大米#AD  为#VC  50#CD  ）#PU    。#PU    。#PU
+            荞麦#NN  中#LC  的#DEG  某些#DT  黄酮#NN  成分#NN  还#AD  具有#VV  抗菌#NN  、#PU  消炎#NN  作用#NN  ，#PU  因此#AD  ，#PU  荞麦#NN  还有#AD  ``#NN  消炎#VV  粮食#NN  ''#NN  的#DEG  美称#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋白质#NN, 荞麦#NN)  (loc, 丰富#VA, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 成分#NN, 赖氨酸#NN)  (nsubj, 丰富#VA, 成分#NN)  (conj, 锌#NN, 铁#NN)  (conj, 锌#NN, 锰#NN)  (nn, 元素#NN, 锌#NN)  (etc, 锌#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (nsubj, 丰富#VA, 元素#NN)  (case, 谷物#NN, 比#P)  (amod, 谷物#NN, 一般#JJ)  (prep, 丰富#VA, 谷物#NN)  (root, ROOT#null, 丰富#VA)  (cc, 丰富#VA, 而且#CC)  (advmod, 丰富#VV, 含有#AD)  (conj, 丰富#VA, 丰富#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 丰富#VV, 纤维#NN)  (dep, 丰富#VA, 是#VC)  (amod, 大米#NN, 一般#JJ)  (amod, 大米#NN, 精制#JJ)  (assmod, 倍#M, 大米#NN)  (case, 大米#NN, 的#DEG)  (nummod, 倍#M, 10#CD)  (dep, 是#VC, 倍#M)  (advmod, 具有#VV, 所以#AD)  (advmod, 具有#VV, 荞麦#AD)  (conj, 丰富#VA, 具有#VV)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nfincl, 作用#NN, 营养#VA)  (nn, 作用#NN, 保健#NN)  (dobj, 具有#VV, 作用#NN)
+            (nn, 含有#NN, 荞麦#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 膳食#NN, 维生素E#NN)  (cc, 膳食#NN, 和#CC)  (nn, 膳食#NN, 可溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 含有#VV, 纤维#NN)  (advmod, 含有#VV, 同时#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, 芦丁#NN, 烟酸#NN)  (cc, 芦丁#NN, 和#CC)  (dobj, 含有#VV, 芦丁#NN)  (dep, 含有#VV, 芸香甙#NN)
+            (nn, 含有#NN, 荞麦#NN)  (assmod, 成分#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 成分#NN, 烟酸#NN)  (nsubj, 促进#VV, 成分#NN)  (mmod, 促进#VV, 能#VV)  (root, ROOT#null, 促进#VV)  (assmod, 新陈代谢#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 促进#VV, 增强#VV)  (nn, 能力#NN, 解毒#NN)  (dobj, 增强#VV, 能力#NN)
+            (case, 分析#NN, 据#P)  (prep, 含#VV, 分析#NN)  (nn, 籽粒#NN, 荞麦#NR)  (nn, 籽粒#NN, 其#PN)  (nsubj, 含#VV, 籽粒#NN)  (root, ROOT#null, 含#VV)  (nn, ～#NN, 蛋白质#NR)  (nummod, ～#NN, 7.94#CD)  (nn, ～#NN, %#NN)  (nummod, %#NN, 17.15#CD)  (conj, ～#NN, %#NN)  (nn, ～#NN, 脂肪#NR)  (nummod, ～#NN, 2.00#CD)  (nn, ～#NN, %#NN)  (nummod, %#NN, 3.64#CD)  (conj, ～#NN, %#NN)  (nn, ～#NN, 淀粉#NR)  (nummod, ～#NN, 67.45#CD)  (nn, ～#NN, %#NN)  (nummod, %#NN, 79.15#CD)  (conj, ～#NN, %#NN)  (nn, ～#NN, 纤维素#NR)  (nummod, ～#NN, 1.04#CD)  (nn, ～#NN, %#NN)  (nummod, %#NN, 1.33#CD)  (dobj, 含#VV, %#NN)   (nn, 研究#NN, 日本#NR)  (nn, 研究#NN, 学者#NN)  (nsubj, 报导#VV, 研究#NN)  (root, ROOT#null, 报导#VV)  (relcl, 效价#NN, 荞麦#VA)  (mark, 荞麦#VA, 的#DEC)  (nfincl, 效价#NN, 营养#VA)  (nn, 指标#NN, 效价#NN)  (nsubj, 为#VC, 指标#NN)  (ccomp, 报导#VV, 为#VC)  (dep, 92#CD, 80#CD)  (dep, 为#VC, 92#CD)  (nsubj, 为#VC, 小麦#NN)  (dep, 为#VC, 为#VC)  (dep, 为#VC, 70#CD)  (advmod, 为#VC, 大米#AD)  (conj, 为#VC, 为#VC)  (dep, 为#VC, 50#CD)   (root, ROOT#null, null#null)
+            (assmod, 成分#NN, 荞麦#NN)  (case, 荞麦#NN, 中#LC)  (case, 荞麦#NN, 的#DEG)  (det, 成分#NN, 某些#DT)  (nn, 成分#NN, 黄酮#NN)  (nsubj, 具有#VV, 成分#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (conj, 消炎#NN, 抗菌#NN)  (nn, 作用#NN, 消炎#NN)  (dobj, 具有#VV, 作用#NN)  (advmod, 消炎#VV, 因此#AD)  (nsubj, 消炎#VV, 荞麦#NN)  (advmod, 消炎#VV, 还有#AD)  (nsubj, 消炎#VV, ``#NN)  (conj, 具有#VV, 消炎#VV)  (nn, ''#NN, 粮食#NN)  (assmod, 美称#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dobj, 消炎#VV, 美称#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            食用时加上各式不同的佐料，如热吃的汤面可用柴鱼片、海带、酱油、清酒等浇制的汤和葱花、七味粉等，凉式面或拌面，用比热吃时较浓的酱汁，加上葱花、山葵糊、生鹌鹑蛋、紫菜丝等。也可以配上许多不同的菜，如天妇罗、红烧油炸豆腐、生鸡蛋、萝卜泥等等。比较特殊的也有紫菜卷、咖喱荞麦面条等不同风味的食品。
+        </rawdata>
+
+        <segment>
+            食用  时  加上  各  式  不同  的  佐料  ，  如  热  吃  的  汤面  可  用  柴  鱼片  、  海带  、  酱油  、  清酒  等  浇制  的  汤  和  葱花  、  七味粉  等  ，  凉式  面  或  拌面  ，  用  比热  吃  时  较  浓的  酱汁  ，  加上  葱花  、  山葵糊  、  生  鹌鹑  蛋  、  紫菜  丝  等  。  也  可以  配上  许多  不同  的  菜  ，  如  天妇罗  、  红烧  油炸  豆腐  、  生  鸡蛋  、  萝卜泥  等等  。  比较  特殊  的  也  有  紫菜  卷  、  咖喱  荞麦  面条  等  不同  风味  的  食品  。
+        </segment>
+
+        <pos>
+            食用#VV  时#LC  加上#VV  各#DT  式#M  不同#VA  的#DEC  佐料#NN  ，#PU  如#P  热#NN  吃#VV  的#DEC  汤面#NN  可#VV  用#VV  柴#NN  鱼片#NR  、#PU  海带#NR  、#PU  酱油#NR  、#PU  清酒#NR  等#ETC  浇制#NN  的#DEG  汤#CD  和#CC  葱花#CD  、#PU  七味粉#CD  等#M  ，#PU  凉式#VV  面#NN  或#CC  拌面#NN  ，#PU  用#P  比热#AD  吃#VV  时#LC  较#AD  浓的#VV  酱汁#NN  ，#PU  加上#VV  葱花#NN  、#PU  山葵糊#NN  、#PU  生#VV  鹌鹑#NN  蛋#NN  、#PU  紫菜#NN  丝#NN  等#ETC    。#PU  也#AD  可以#VV  配上#VV  许多#CD  不同#VA  的#DEC  菜#NN  ，#PU  如#P  天妇罗#NN  、#PU  红烧#NN  油炸#VV  豆腐#NN  、#PU  生#VV  鸡蛋#NN  、#PU  萝卜泥#NN  等等#ETC    。#PU  比较#AD  特殊#VA  的#DEC  也#AD  有#VE  紫菜#CD  卷#M  、#PU  咖喱#NN  荞麦#NN  面条#NN  等#ETC  不同#JJ  风味#NN  的#DEG  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 加上#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (relcl, 汤面#NN, 加上#VV)  (det, 佐料#NN, 各#DT)  (clf, 各#DT, 式#M)  (relcl, 佐料#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (dobj, 加上#VV, 佐料#NN)  (case, 热#NN, 如#P)  (prep, 吃#VV, 热#NN)  (conj, 加上#VV, 吃#VV)  (mark, 加上#VV, 的#DEC)  (nsubj, 用#VV, 汤面#NN)  (mmod, 用#VV, 可#VV)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 柴#NN)  (conj, 清酒#NR, 鱼片#NR)  (conj, 清酒#NR, 海带#NR)  (conj, 清酒#NR, 酱油#NR)  (nn, 浇制#NN, 清酒#NR)  (etc, 清酒#NR, 等#ETC)  (assmod, 等#M, 浇制#NN)  (case, 浇制#NN, 的#DEG)  (nummod, 葱花#CD, 汤#CD)  (cc, 葱花#CD, 和#CC)  (dep, 等#M, 葱花#CD)  (nummod, 等#M, 七味粉#CD)  (range, 用#VV, 等#M)  (conj, 用#VV, 凉式#VV)  (conj, 拌面#NN, 面#NN)  (cc, 拌面#NN, 或#CC)  (dobj, 凉式#VV, 拌面#NN)  (case, 吃#VV, 用#P)  (advmod, 吃#VV, 比热#AD)  (prep, 浓的#VV, 吃#VV)  (case, 吃#VV, 时#LC)  (advmod, 浓的#VV, 较#AD)  (conj, 用#VV, 浓的#VV)  (dobj, 浓的#VV, 酱汁#NN)  (conj, 用#VV, 加上#VV)  (conj, 山葵糊#NN, 葱花#NN)  (dobj, 加上#VV, 山葵糊#NN)  (conj, 用#VV, 生#VV)  (nn, 丝#NN, 鹌鹑#NN)  (conj, 丝#NN, 蛋#NN)  (nn, 丝#NN, 紫菜#NN)  (dobj, 生#VV, 丝#NN)  (etc, 丝#NN, 等#ETC)   (advmod, 配上#VV, 也#AD)  (mmod, 配上#VV, 可以#VV)  (root, ROOT#null, 配上#VV)  (nummod, 菜#NN, 许多#CD)  (relcl, 菜#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (dobj, 配上#VV, 菜#NN)  (case, 红烧#NN, 如#P)  (conj, 红烧#NN, 天妇罗#NN)  (prep, 油炸#VV, 红烧#NN)  (conj, 配上#VV, 油炸#VV)  (dobj, 油炸#VV, 豆腐#NN)  (dep, 配上#VV, 生#VV)  (conj, 萝卜泥#NN, 鸡蛋#NN)  (dobj, 生#VV, 萝卜泥#NN)  (etc, 萝卜泥#NN, 等等#ETC)   (advmod, 特殊#VA, 比较#AD)  (nsubj, 有#VE, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nummod, 卷#M, 紫菜#CD)  (clf, 食品#NN, 卷#M)  (nn, 面条#NN, 咖喱#NN)  (nn, 面条#NN, 荞麦#NN)  (nn, 风味#NN, 面条#NN)  (etc, 面条#NN, 等#ETC)  (amod, 风味#NN, 不同#JJ)  (assmod, 食品#NN, 风味#NN)  (case, 风味#NN, 的#DEG)  (dobj, 有#VE, 食品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091202018903.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

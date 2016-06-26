@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        483
+    </id>
+
+    <foodname>
+        土茯苓
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        冷饭团、硬饭头、红土苓、土萆薢、山牛、土苓、山硬硬、饭团根、山猪粪、毛尾薯、山遗粮、山奇良
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝肾阴虚者慎服。
+        </rawdata>
+
+        <segment>
+            肝肾  阴虚  者  慎服  。
+        </segment>
+
+        <pos>
+            肝肾#NN  阴虚#VV  者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 阴虚#VV, 肝肾#NN)  (root, ROOT#null, 阴虚#VV)  (nn, 慎服#NN, 者#NN)  (dobj, 阴虚#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            土茯苓，为百合科植物土茯苓及暗色菝葜的根茎。全年均可采挖，洗净浸漂，切片晒干；或放开水中煮数分钟后，切片晒干。
+        </rawdata>
+
+        <segment>
+            土茯苓  ，  为  百合科  植物  土茯苓  及  暗色  菝葜  的  根茎  。  全  年  均  可  采挖  ，  洗净  浸  漂  ，  切片  晒干  ；  或  放开  水  中  煮  数  分钟  后  ，  切片  晒干  。
+        </segment>
+
+        <pos>
+            土茯苓#VV  ，#PU  为#VV  百合科#CD  植物#NN  土茯苓#NN  及#CC  暗色#NN  菝葜#NN  的#DEG  根茎#NN    。#PU  全#DT  年#M  均#AD  可#VV  采挖#VV  ，#PU  洗净#VV  浸#NN  漂#NN  ，#PU  切片#NN  晒干#NN  ；#PU  或#CC  放开#VV  水#NN  中#LC  煮#VV  数#CD  分钟#M  后#LC  ，#PU  切片#NN  晒干#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 土茯苓#VV)  (dep, 土茯苓#VV, 为#VV)  (nummod, 菝葜#NN, 百合科#CD)  (nn, 菝葜#NN, 植物#NN)  (conj, 菝葜#NN, 土茯苓#NN)  (cc, 菝葜#NN, 及#CC)  (nn, 菝葜#NN, 暗色#NN)  (assmod, 根茎#NN, 菝葜#NN)  (case, 菝葜#NN, 的#DEG)  (dobj, 为#VV, 根茎#NN)   (dep, 采挖#VV, 全#DT)  (clf, 全#DT, 年#M)  (advmod, 采挖#VV, 均#AD)  (dep, 采挖#VV, 可#VV)  (root, ROOT#null, 采挖#VV)  (dep, 采挖#VV, 洗净#VV)  (nn, 漂#NN, 浸#NN)  (dobj, 洗净#VV, 漂#NN)  (nn, 晒干#NN, 切片#NN)  (dep, 采挖#VV, 晒干#NN)  (cc, 采挖#VV, 或#CC)  (conj, 采挖#VV, 放开#VV)  (loc, 放开#VV, 水#NN)  (case, 水#NN, 中#LC)  (conj, 放开#VV, 煮#VV)  (nummod, 分钟#M, 数#CD)  (loc, 晒干#VV, 分钟#M)  (case, 分钟#M, 后#LC)  (nsubj, 晒干#VV, 切片#NN)  (dep, 采挖#VV, 晒干#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            土茯苓味甘淡，性平；归肝、胃、脾经。清热除湿；泄浊解毒；通利关节。主梅毒；淋浊；泄泻；筋骨挛痛；脚气；痈肿；疮癣；瘰疬；瘿瘤及汞中毒。
+        </rawdata>
+
+        <segment>
+            土茯苓  味甘淡  ，  性平  ；  归肝  、  胃  、  脾经  。  清热  除湿  ；  泄浊  解毒  ；  通利  关节  。  主  梅毒  ；  淋浊  ；  泄泻  ；  筋骨  挛痛  ；  脚气  ；  痈肿  ；  疮癣  ；  瘰疬  ；  瘿瘤  及  汞  中毒  。
+        </segment>
+
+        <pos>
+            土茯苓#NR  味甘淡#VV  ，#PU  性平#VV  ；#PU  归肝#NR  、#PU  胃#NR  、#PU  脾经#NR    。#PU  清热#NR  除湿#VV  ；#PU  泄浊#NR  解毒#VV  ；#PU  通利#VV  关节#NN    。#PU  主#NN  梅毒#VV  ；#PU  淋浊#VA  ；#PU  泄泻#VA  ；#PU  筋骨#AD  挛痛#VA  ；#PU  脚气#VA  ；#PU  痈肿#VA  ；#PU  疮癣#VA  ；#PU  瘰疬#VA  ；#PU  瘿瘤#NN  及#CC  汞#NN  中毒#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味甘淡#VV, 土茯苓#NR)  (root, ROOT#null, 味甘淡#VV)  (ccomp, 味甘淡#VV, 性平#VV)  (conj, 脾经#NR, 归肝#NR)  (conj, 脾经#NR, 胃#NR)  (dobj, 性平#VV, 脾经#NR)   (nsubj, 除湿#VV, 清热#NR)  (root, ROOT#null, 除湿#VV)  (nsubj, 解毒#VV, 泄浊#NR)  (ccomp, 除湿#VV, 解毒#VV)  (ccomp, 解毒#VV, 通利#VV)  (dobj, 通利#VV, 关节#NN)   (nsubj, 梅毒#VV, 主#NN)  (root, ROOT#null, 梅毒#VV)  (ccomp, 梅毒#VV, 淋浊#VA)  (dep, 淋浊#VA, 泄泻#VA)  (advmod, 挛痛#VA, 筋骨#AD)  (dep, 淋浊#VA, 挛痛#VA)  (dep, 淋浊#VA, 脚气#VA)  (dep, 淋浊#VA, 痈肿#VA)  (dep, 淋浊#VA, 疮癣#VA)  (dep, 淋浊#VA, 瘰疬#VA)  (conj, 汞#NN, 瘿瘤#NN)  (cc, 汞#NN, 及#CC)  (dep, 中毒#VV, 汞#NN)  (dep, 淋浊#VA, 中毒#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201312/151548219100.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

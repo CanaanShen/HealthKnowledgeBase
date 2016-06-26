@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        28
+    </id>
+
+    <foodname>
+        羊骨
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        羊肉
+    </secondcategory>
+
+    <alias>
+        羊脊骨、羊骨头、羊胫骨
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            发烧者忌食；素体火盛者慎服。
+        </rawdata>
+
+        <segment>
+            发烧  者  忌食  ；  素  体火  盛者  慎服  。
+        </segment>
+
+        <pos>
+            发烧#NN  者#NN  忌食#VV  ；#PU  素#AD  体火#VV  盛者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 发烧#NN)  (nsubj, 忌食#VV, 者#NN)  (xsubj, 体火#VV, 者#NN)  (root, ROOT#null, 忌食#VV)  (advmod, 体火#VV, 素#AD)  (ccomp, 忌食#VV, 体火#VV)  (nn, 慎服#NN, 盛者#NN)  (dobj, 体火#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            羊骨为牛科动物山羊或绵羊的骨骼。
+        </rawdata>
+
+        <segment>
+            羊  骨  为  牛科  动物  山羊  或  绵羊  的  骨骼  。
+        </segment>
+
+        <pos>
+            羊#NN  骨#NN  为#VC  牛科#JJ  动物#NN  山羊#NN  或#CC  绵羊#NN  的#DEG  骨骼#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 骨#NN, 羊#NN)  (nsubj, 骨骼#NN, 骨#NN)  (cop, 骨骼#NN, 为#VC)  (amod, 动物#NN, 牛科#JJ)  (nn, 绵羊#NN, 动物#NN)  (conj, 绵羊#NN, 山羊#NN)  (cc, 绵羊#NN, 或#CC)  (assmod, 骨骼#NN, 绵羊#NN)  (case, 绵羊#NN, 的#DEG)  (root, ROOT#null, 骨骼#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            羊骨甘，温。入脾、肾经。补肾壮骨，温中止泻。治虚劳羸瘦，腰膝无力，筋骨挛痛，白浊，淋痛，久泻，久痢。
+        </rawdata>
+
+        <segment>
+            羊骨甘  ，  温  。  入脾  、  肾  经  。  补  肾  壮骨  ，  温  中  止泻  。  治  虚  劳羸瘦  ，  腰膝  无力  ，  筋骨  挛痛  ，  白浊  ，  淋痛  ，  久泻  ，  久痢  。
+        </segment>
+
+        <pos>
+            羊骨甘#VV  ，#PU  温#NN    。#PU  入脾#NR  、#PU  肾#NR  经#VV    。#PU  补#NN  肾#NN  壮骨#VV  ，#PU  温#NN  中#LC  止泻#VV    。#PU  治#VV  虚#AD  劳羸瘦#VV  ，#PU  腰膝#AD  无力#VV  ，#PU  筋骨#VV  挛痛#NN  ，#PU  白浊#VV  ，#PU  淋痛#VV  ，#PU  久泻#VV  ，#PU  久痢#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 羊骨甘#VV)  (dep, 羊骨甘#VV, 温#NN)   (conj, 肾#NR, 入脾#NR)  (nsubj, 经#VV, 肾#NR)  (root, ROOT#null, 经#VV)   (nn, 肾#NN, 补#NN)  (nsubj, 壮骨#VV, 肾#NN)  (root, ROOT#null, 壮骨#VV)  (loc, 止泻#VV, 温#NN)  (case, 温#NN, 中#LC)  (ccomp, 壮骨#VV, 止泻#VV)   (mmod, 劳羸瘦#VV, 治#VV)  (advmod, 劳羸瘦#VV, 虚#AD)  (root, ROOT#null, 劳羸瘦#VV)  (advmod, 无力#VV, 腰膝#AD)  (ccomp, 劳羸瘦#VV, 无力#VV)  (conj, 劳羸瘦#VV, 无力#VV)  (ccomp, 劳羸瘦#VV, 筋骨#VV)  (dobj, 筋骨#VV, 挛痛#NN)  (ccomp, 劳羸瘦#VV, 白浊#VV)  (conj, 劳羸瘦#VV, 白浊#VV)  (ccomp, 劳羸瘦#VV, 淋痛#VV)  (conj, 劳羸瘦#VV, 淋痛#VV)  (ccomp, 劳羸瘦#VV, 久泻#VV)  (conj, 劳羸瘦#VV, 久泻#VV)  (ccomp, 劳羸瘦#VV, 久痢#VV)  (conj, 劳羸瘦#VV, 久痢#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  增加骨密度  增强造血功能  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            因部位、年龄等之不同，骨的化学组成亦有差异。其中变动最大的是水分与脂类。骨质中含有大量的无机物，其中一半以上是磷酸钙。此外，又含少量的碳酸钙、磷酸镁和微量的氟、氯、钠、钾、铁、铝等。氟含量虽然很少，但它是骨的重要成分。骨的有机物有骨胶原、骨类粘蛋白、弹性硬蛋白样物质；尚有中性脂肪（量比较多）、磷脂和少量的糖原等。
+        </rawdata>
+
+        <segment>
+            因  部位  、  年龄  等  之  不同  ，  骨  的  化学  组成  亦有  差异  。  其中  变动  最大  的  是  水分  与  脂类  。  骨质  中  含有  大量  的  无机物  ，  其中  一半  以上  是  磷酸钙  。  此外  ，  又  含  少量  的  碳酸钙  、  磷酸  镁  和  微量  的氟  、  氯  、  钠  、  钾  、  铁  、  铝  等  。  氟  含量  虽然  很少  ，  但  它  是  骨  的  重要  成分  。  骨  的  有机物  有  骨胶原  、  骨类  粘蛋白  、  弹性  硬  蛋白  样  物质  ；  尚  有  中性  脂肪  （  量  比较  多  ）  、  磷脂  和  少量  的  糖原  等  。
+        </segment>
+
+        <pos>
+            因#P  部位#NN  、#PU  年龄#NN  等#ETC  之#PN  不同#VA  ，#PU  骨#NN  的#DEG  化学#NN  组成#NN  亦有#VV  差异#NN    。#PU  其中#NN  变动#VV  最大#JJ  的#DEG  是#VC  水分#NN  与#CC  脂类#NN    。#PU  骨质#NN  中#LC  含有#VV  大量#CD  的#DEG  无机物#NN  ，#PU  其中#NN  一半#CD  以上#LC  是#VC  磷酸钙#NN    。#PU  此外#AD  ，#PU  又#AD  含#VV  少量#CD  的#DEG  碳酸钙#NN  、#PU  磷酸#NN  镁#NN  和#CC  微量#NN  的氟#NN  、#PU  氯#NN  、#PU  钠#NN  、#PU  钾#NN  、#PU  铁#NN  、#PU  铝#NN  等#ETC    。#PU  氟#NN  含量#NN  虽然#CS  很少#VV  ，#PU  但#AD  它#PN  是#VC  骨#NN  的#DEG  重要#JJ  成分#NN    。#PU  骨#NN  的#DEG  有机物#NN  有#VE  骨胶原#NR  、#PU  骨类#NR  粘蛋白#NR  、#PU  弹性#NR  硬#JJ  蛋白#NN  样#NN  物质#NN  ；#PU  尚#AD  有#VE  中性#NN  脂肪#NN  （#PU  量#NN  比较#AD  多#VV  ）#PU  、#PU  磷脂#CD  和#CC  少量#CD  的#DEG  糖原#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (case, 不同#VA, 因#P)  (conj, 年龄#NN, 部位#NN)  (nsubj, 不同#VA, 年龄#NN)  (etc, 年龄#NN, 等#ETC)  (nsubj, 不同#VA, 之#PN)  (prep, 亦有#VV, 不同#VA)  (assmod, 化学#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (nsubj, 亦有#VV, 化学#NN)  (nsubj, 亦有#VV, 组成#NN)  (root, ROOT#null, 亦有#VV)  (dobj, 亦有#VV, 差异#NN)   (nsubj, 变动#VV, 其中#NN)  (root, ROOT#null, 变动#VV)  (assmod, 脂类#NN, 最大#JJ)  (case, 最大#JJ, 的#DEG)  (nfincl, 脂类#NN, 是#VC)  (conj, 脂类#NN, 水分#NN)  (cc, 脂类#NN, 与#CC)  (dobj, 变动#VV, 脂类#NN)   (loc, 含有#VV, 骨质#NN)  (case, 骨质#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 无机物#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 无机物#NN)  (nsubj, 磷酸钙#NN, 其中#NN)  (loc, 磷酸钙#NN, 一半#CD)  (case, 一半#CD, 以上#LC)  (cop, 磷酸钙#NN, 是#VC)  (conj, 含有#VV, 磷酸钙#NN)   (advmod, 含#VV, 此外#AD)  (advmod, 含#VV, 又#AD)  (root, ROOT#null, 含#VV)  (assmod, 微量#NN, 少量#CD)  (case, 少量#CD, 的#DEG)  (conj, 微量#NN, 碳酸钙#NN)  (nn, 微量#NN, 磷酸#NN)  (conj, 微量#NN, 镁#NN)  (cc, 微量#NN, 和#CC)  (nsubj, 铝#NN, 微量#NN)  (conj, 铝#NN, 的氟#NN)  (conj, 铝#NN, 氯#NN)  (conj, 铝#NN, 钠#NN)  (conj, 铝#NN, 钾#NN)  (conj, 铝#NN, 铁#NN)  (dep, 含#VV, 铝#NN)  (etc, 铝#NN, 等#ETC)   (nn, 含量#NN, 氟#NN)  (nsubj, 很少#VV, 含量#NN)  (advmod, 很少#VV, 虽然#CS)  (root, ROOT#null, 很少#VV)  (advmod, 成分#NN, 但#AD)  (nsubj, 成分#NN, 它#PN)  (cop, 成分#NN, 是#VC)  (assmod, 成分#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (amod, 成分#NN, 重要#JJ)  (conj, 很少#VV, 成分#NN)   (assmod, 有机物#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (dep, 有#VE, 有机物#NN)  (root, ROOT#null, 有#VE)  (conj, 弹性#NR, 骨胶原#NR)  (nn, 弹性#NR, 骨类#NR)  (conj, 弹性#NR, 粘蛋白#NR)  (nn, 蛋白#NN, 弹性#NR)  (amod, 蛋白#NN, 硬#JJ)  (nn, 物质#NN, 蛋白#NN)  (nn, 物质#NN, 样#NN)  (dobj, 有#VE, 物质#NN)  (advmod, 有#VE, 尚#AD)  (conj, 有#VE, 有#VE)  (nn, 脂肪#NN, 中性#NN)  (nn, 糖原#NN, 脂肪#NN)  (nsubj, 多#VV, 量#NN)  (advmod, 多#VV, 比较#AD)  (prnmod, 糖原#NN, 多#VV)  (nummod, 少量#CD, 磷脂#CD)  (cc, 少量#CD, 和#CC)  (assmod, 糖原#NN, 少量#CD)  (case, 少量#CD, 的#DEG)  (dobj, 有#VE, 糖原#NN)  (etc, 糖原#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            内服：煎汤或煅存性入丸、散。外用：煅存性研末撒。
+        </rawdata>
+
+        <segment>
+            内服  ：  煎  汤  或  煅存性  入丸  、  散  。  外用  ：  煅存性  研  末  撒  。
+        </segment>
+
+        <pos>
+            内服#NN  ：#PU  煎#AD  汤#VV  或#CC  煅存性#VV  入丸#NN  、#PU  散#JJ    。#PU  外用#NN  ：#PU  煅存性#NN  研#NN  末#LC  撒#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 汤#VV, 内服#NN)  (advmod, 汤#VV, 煎#AD)  (root, ROOT#null, 汤#VV)  (cc, 汤#VV, 或#CC)  (conj, 汤#VV, 煅存性#VV)  (dobj, 煅存性#VV, 入丸#NN)  (conj, 汤#VV, 散#JJ)   (nsubj, 撒#VV, 外用#NN)  (nn, 研#NN, 煅存性#NN)  (loc, 撒#VV, 研#NN)  (case, 研#NN, 末#LC)  (root, ROOT#null, 撒#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081509582724.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

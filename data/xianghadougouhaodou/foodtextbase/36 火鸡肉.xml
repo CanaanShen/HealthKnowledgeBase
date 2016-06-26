@@ -1,0 +1,199 @@
+<content>
+
+    <id>
+        36
+    </id>
+
+    <foodname>
+        火鸡肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        鸡肉
+    </secondcategory>
+
+    <alias>
+        火鸡、七面鸟、吐绶鸡
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒发热、内火偏旺、痰湿偏重、热毒疖肿、痔疮和疥疮者忌食。
+        </rawdata>
+
+        <segment>
+            感冒  发热  、  内  火  偏  旺  、  痰湿  偏重  、  热  毒  疖肿  、  痔疮  和  疥疮  者  忌食  。
+        </segment>
+
+        <pos>
+            感冒#NN  发热#NN  、#PU  内#NN  火#NN  偏#AD  旺#VV  、#PU  痰湿#VV  偏重#NN  、#PU  热#NN  毒#NN  疖肿#NN  、#PU  痔疮#NN  和#CC  疥疮#NN  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 火#NN, 感冒#NN)  (conj, 火#NN, 发热#NN)  (nn, 火#NN, 内#NN)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 偏#AD)  (root, ROOT#null, 旺#VV)  (dep, 旺#VV, 痰湿#VV)  (conj, 忌食#NN, 偏重#NN)  (nn, 忌食#NN, 热#NN)  (nn, 忌食#NN, 毒#NN)  (conj, 忌食#NN, 疖肿#NN)  (conj, 忌食#NN, 痔疮#NN)  (cc, 忌食#NN, 和#CC)  (nn, 忌食#NN, 疥疮#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 痰湿#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、高血脂、心脑血管病患者和老人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  高  血脂  、  心脑血管病  患者  和  老人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  、#PU  高#JJ  血脂#NN  、#PU  心脑血管病#NN  患者#NN  和#CC  老人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 老人#NN, 高血压#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 老人#NN, 血脂#NN)  (nn, 患者#NN, 心脑血管病#NN)  (conj, 老人#NN, 患者#NN)  (cc, 老人#NN, 和#CC)  (dobj, 适宜#VV, 老人#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            火鸡，又名七面鸟或吐绶鸡，是一种原产于北美洲的家禽。火鸡体型比一般鸡大，可达10公斤以上。根据传统，美国人会在感恩节及圣诞节烹调火鸡。和其他鸡形目鸟类相似，雌鸟较雄鸟小，颜色较不鲜艳。火鸡翼展可达 1.5 - 1.8 米，是当地开放林地最大的鸟类，很难与其他种类搞混。火鸡有两种，分别是：分布于北美的野生火鸡，和分布于中美洲的眼斑火鸡。现代的家火鸡是由墨西哥的原住民驯化当地的野生火鸡而得来。
+            火鸡是美洲特产，在欧洲人到美洲之前，已经被印地安人驯化。因为欧洲人觉得它的样子像土耳其人的服装：身黑头红，所以称它为“土耳其”。欧洲人很喜欢吃烤鹅。在移民到美洲之后，还没有养好鹅就有了吃鹅的要求，于是就吃火鸡，竟然发现火鸡比鹅好吃。而且北美洲有很多火鸡。于是烤火鸡成了美国人的大菜，重要节日中必不可少。
+        </rawdata>
+
+        <segment>
+            火鸡  ，  又  名  七  面  鸟  或  吐绶鸡  ，  是  一  种  原  产于  北美洲  的  家禽  。  火鸡  体型  比  一般  鸡  大  ，  可  达  公斤  以上  。  根据  传统  ，  美国人  会  在  感恩节  及  圣诞节  烹调  火鸡  。  和  其他  鸡形目  鸟类  相似  ，  雌鸟  较  雄鸟  小  ，  颜色  较  不  鲜艳  。  火鸡  翼展  可  达  1.5  -  1.8  米  ，  是  当地  开放  林地  最  大  的  鸟类  ，  很  难  与  其他  种类  搞混  。  火鸡  有  两  种  ，  分别  是  ：  分布  于  北美  的  野生  火鸡  ，  和  分布  于  中美洲  的  眼  斑  火鸡  。  现代  的  家  火鸡  是  由  墨西哥  的  原住民  驯化  当地  的  野生  火鸡  而  得来  。
+            火鸡  是  美洲  特产  ，  在  欧洲人  到  美洲  之前  ，  已经  被  印地安人  驯化  。  因为  欧洲人  觉得  它  的  样子  像  土耳其人  的  服装  ：  身  黑头  红  ，  所以  称  它  为  “  土耳其  ”  。  欧洲人  很  喜欢  吃  烤  鹅  。  在  移民  到  美洲  之后  ，  还  没有  养好  鹅  就  有  了  吃鹅  的  要求  ，  于是  就  吃  火鸡  ，  竟然  发现  火鸡  比  鹅  好吃  。  而且  北美洲  有  很多  火鸡  。  于是  烤火  鸡  成  了  美国人  的  大菜  ，  重要  节日  中  必不可少  。
+        </segment>
+
+        <pos>
+            火鸡#VV  ，#PU  又#AD  名#NN  七#CD  面#M  鸟#NN  或#CC  吐绶鸡#NN  ，#PU  是#VC  一#CD  种#M  原#JJ  产于#NN  北美洲#NR  的#DEG  家禽#NN    。#PU  火鸡#VV  体型#NN  比#P  一般#JJ  鸡#NN  大#VA  ，#PU  可#VV  达#VV  公斤#M  以上#LC    。#PU  根据#P  传统#NN  ，#PU  美国人#NN  会#VV  在#P  感恩节#NN  及#CC  圣诞节#NN  烹调#VV  火鸡#VV    。#PU  和#CC  其他#DT  鸡形目#NN  鸟类#NN  相似#VA  ，#PU  雌鸟#NN  较#AD  雄鸟#AD  小#VA  ，#PU  颜色#NN  较#AD  不#AD  鲜艳#VA    。#PU  火鸡#NN  翼展#NN  可#VV  达#VV  1.5#CD  -#NN  1.8#CD  米#M  ，#PU  是#VC  当地#NN  开放#NN  林地#NN  最#AD  大#VA  的#DEC  鸟类#NN  ，#PU  很#AD  难#AD  与#P  其他#DT  种类#NN  搞混#VV    。#PU  火鸡#AD  有#VE  两#CD  种#M  ，#PU  分别#AD  是#VC  ：#PU  分布#VV  于#P  北美#NR  的#DEC  野生#JJ  火鸡#NN  ，#PU  和#CC  分布#VV  于#P  中美洲#NN  的#DEG  眼#NN  斑#NN  火鸡#NN    。#PU  现代#JJ  的#DEG  家#JJ  火鸡#NN  是#VC  由#P  墨西哥#NR  的#DEG  原住民#NN  驯化#VV  当地#NN  的#DEC  野生#JJ  火鸡#NN  而#CC  得来#NN    。#PU    。#PU
+            火鸡#NN  是#VC  美洲#NR  特产#NN  ，#PU  在#P  欧洲人#NN  到#VV  美洲#NR  之前#LC  ，#PU  已经#AD  被#SB  印地安人#VV  驯化#VV    。#PU  因为#P  欧洲人#NN  觉得#VV  它#PN  的#DEG  样子#NN  像#P  土耳其人#NR  的#DEG  服装#NN  ：#PU  身#NN  黑头#NN  红#VA  ，#PU  所以#AD  称#NN  它#PN  为#VC  ``#NR  土耳其#NR  ''#NN    。#PU  欧洲人#NN  很#AD  喜欢#VV  吃#VV  烤#NN  鹅#NN    。#PU  在#P  移民#NN  到#P  美洲#NR  之后#LC  ，#PU  还#AD  没有#VE  养好#NN  鹅#NN  就#AD  有#VE  了#AS  吃鹅#NN  的#DEC  要求#NN  ，#PU  于是#AD  就#P  吃#VV  火鸡#NN  ，#PU  竟然#AD  发现#VV  火鸡#NN  比#P  鹅#NN  好吃#VV    。#PU  而且#AD  北美洲#NR  有#VE  很多#CD  火鸡#NN    。#PU  于是#AD  烤火#VV  鸡#NN  成#VV  了#AS  美国人#NN  的#DEG  大菜#NN  ，#PU  重要#JJ  节日#NN  中#LC  必不可少#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 火鸡#VV)  (advmod, 面#M, 又#AD)  (dep, 面#M, 名#NN)  (nummod, 面#M, 七#CD)  (clf, 吐绶鸡#NN, 面#M)  (conj, 吐绶鸡#NN, 鸟#NN)  (cc, 吐绶鸡#NN, 或#CC)  (dep, 家禽#NN, 吐绶鸡#NN)  (cop, 家禽#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 产于#NN, 种#M)  (amod, 产于#NN, 原#JJ)  (nn, 家禽#NN, 产于#NN)  (assmod, 家禽#NN, 北美洲#NR)  (case, 北美洲#NR, 的#DEG)  (ccomp, 火鸡#VV, 家禽#NN)   (root, ROOT#null, 火鸡#VV)  (dobj, 火鸡#VV, 体型#NN)  (case, 鸡#NN, 比#P)  (amod, 鸡#NN, 一般#JJ)  (prep, 大#VA, 鸡#NN)  (conj, 火鸡#VV, 大#VA)  (dep, 达#VV, 可#VV)  (conj, 火鸡#VV, 达#VV)  (loc, 达#VV, 公斤#M)  (case, 公斤#M, 以上#LC)   (case, 传统#NN, 根据#P)  (prep, 烹调#VV, 传统#NN)  (nsubj, 烹调#VV, 美国人#NN)  (mmod, 烹调#VV, 会#VV)  (case, 圣诞节#NN, 在#P)  (conj, 圣诞节#NN, 感恩节#NN)  (cc, 圣诞节#NN, 及#CC)  (prep, 烹调#VV, 圣诞节#NN)  (dep, 火鸡#VV, 烹调#VV)  (root, ROOT#null, 火鸡#VV)   (cc, 相似#VA, 和#CC)  (det, 鸡形目#NN, 其他#DT)  (nn, 鸟类#NN, 鸡形目#NN)  (nsubj, 相似#VA, 鸟类#NN)  (root, ROOT#null, 相似#VA)  (nsubj, 小#VA, 雌鸟#NN)  (advmod, 小#VA, 较#AD)  (advmod, 小#VA, 雄鸟#AD)  (conj, 相似#VA, 小#VA)  (nsubj, 鲜艳#VA, 颜色#NN)  (advmod, 鲜艳#VA, 较#AD)  (neg, 鲜艳#VA, 不#AD)  (dep, 相似#VA, 鲜艳#VA)   (nn, 翼展#NN, 火鸡#NN)  (nsubj, 达#VV, 翼展#NN)  (mmod, 达#VV, 可#VV)  (root, ROOT#null, 达#VV)  (nummod, -#NN, 1.5#CD)  (nummod, 米#M, 1.8#CD)  (range, 达#VV, 米#M)  (cop, 鸟类#NN, 是#VC)  (nn, 林地#NN, 当地#NN)  (nn, 林地#NN, 开放#NN)  (nsubj, 大#VA, 林地#NN)  (advmod, 大#VA, 最#AD)  (relcl, 鸟类#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (conj, 达#VV, 鸟类#NN)  (advmod, 搞混#VV, 很#AD)  (advmod, 搞混#VV, 难#AD)  (case, 种类#NN, 与#P)  (det, 种类#NN, 其他#DT)  (prep, 搞混#VV, 种类#NN)  (conj, 达#VV, 搞混#VV)   (advmod, 有#VE, 火鸡#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (advmod, 火鸡#NN, 分别#AD)  (cop, 火鸡#NN, 是#VC)  (relcl, 火鸡#NN, 分布#VV)  (case, 北美#NR, 于#P)  (prep, 分布#VV, 北美#NR)  (mark, 分布#VV, 的#DEC)  (amod, 火鸡#NN, 野生#JJ)  (conj, 有#VE, 火鸡#NN)  (cc, 有#VE, 和#CC)  (dep, 有#VE, 分布#VV)  (case, 中美洲#NN, 于#P)  (assmod, 火鸡#NN, 中美洲#NN)  (case, 中美洲#NN, 的#DEG)  (nn, 火鸡#NN, 眼#NN)  (nn, 火鸡#NN, 斑#NN)  (dobj, 分布#VV, 火鸡#NN)   (assmod, 火鸡#NN, 现代#JJ)  (case, 现代#JJ, 的#DEG)  (amod, 火鸡#NN, 家#JJ)  (nsubj, 得来#NN, 火鸡#NN)  (cop, 得来#NN, 是#VC)  (case, 原住民#NN, 由#P)  (assmod, 原住民#NN, 墨西哥#NR)  (case, 墨西哥#NR, 的#DEG)  (prep, 驯化#VV, 原住民#NN)  (relcl, 得来#NN, 驯化#VV)  (dobj, 驯化#VV, 当地#NN)  (mark, 驯化#VV, 的#DEC)  (amod, 得来#NN, 野生#JJ)  (conj, 得来#NN, 火鸡#NN)  (cc, 得来#NN, 而#CC)  (root, ROOT#null, 得来#NN)   (root, ROOT#null, null#null)
+            (nsubj, 特产#NN, 火鸡#NN)  (cop, 特产#NN, 是#VC)  (nn, 特产#NN, 美洲#NR)  (root, ROOT#null, 特产#NN)  (case, 到#VV, 在#P)  (nsubj, 到#VV, 欧洲人#NN)  (prep, 印地安人#VV, 到#VV)  (dobj, 到#VV, 美洲#NR)  (case, 到#VV, 之前#LC)  (advmod, 印地安人#VV, 已经#AD)  (auxpass, 印地安人#VV, 被#SB)  (conj, 特产#NN, 印地安人#VV)  (comod, 印地安人#VV, 驯化#VV)   (case, 觉得#VV, 因为#P)  (nsubj, 觉得#VV, 欧洲人#NN)  (prep, ''#NN, 觉得#VV)  (assmod, 样子#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 服装#NN, 样子#NN)  (case, 土耳其人#NR, 像#P)  (assmod, 服装#NN, 土耳其人#NR)  (case, 土耳其人#NR, 的#DEG)  (ccomp, 觉得#VV, 服装#NN)  (nn, 黑头#NN, 身#NN)  (nsubj, 红#VA, 黑头#NN)  (conj, 服装#NN, 红#VA)  (advmod, ''#NN, 所以#AD)  (dep, ''#NN, 称#NN)  (nsubj, ''#NN, 它#PN)  (cop, ''#NN, 为#VC)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 土耳其#NR)  (root, ROOT#null, ''#NN)   (nsubj, 喜欢#VV, 欧洲人#NN)  (advmod, 喜欢#VV, 很#AD)  (root, ROOT#null, 喜欢#VV)  (ccomp, 喜欢#VV, 吃#VV)  (nn, 鹅#NN, 烤#NN)  (dobj, 吃#VV, 鹅#NN)   (case, 要求#NN, 在#P)  (nsubj, 没有#VE, 移民#NN)  (case, 美洲#NR, 到#P)  (prep, 没有#VE, 美洲#NR)  (case, 美洲#NR, 之后#LC)  (advmod, 没有#VE, 还#AD)  (relcl, 要求#NN, 没有#VE)  (nn, 鹅#NN, 养好#NN)  (dobj, 没有#VE, 鹅#NN)  (advmod, 有#VE, 就#AD)  (dep, 没有#VE, 有#VE)  (asp, 有#VE, 了#AS)  (dobj, 有#VE, 吃鹅#NN)  (mark, 没有#VE, 的#DEC)  (prep, 好吃#VV, 要求#NN)  (advmod, 好吃#VV, 于是#AD)  (case, 吃#VV, 就#P)  (prep, 好吃#VV, 吃#VV)  (dobj, 吃#VV, 火鸡#NN)  (advmod, 发现#VV, 竟然#AD)  (conj, 吃#VV, 发现#VV)  (nsubj, 好吃#VV, 火鸡#NN)  (case, 鹅#NN, 比#P)  (prep, 好吃#VV, 鹅#NN)  (root, ROOT#null, 好吃#VV)   (advmod, 有#VE, 而且#AD)  (dep, 有#VE, 北美洲#NR)  (root, ROOT#null, 有#VE)  (nsubj, 火鸡#NN, 很多#CD)  (dep, 有#VE, 火鸡#NN)   (advmod, 烤火#VV, 于是#AD)  (root, ROOT#null, 烤火#VV)  (dobj, 烤火#VV, 鸡#NN)  (conj, 烤火#VV, 成#VV)  (asp, 成#VV, 了#AS)  (assmod, 大菜#NN, 美国人#NN)  (case, 美国人#NN, 的#DEG)  (dobj, 成#VV, 大菜#NN)  (amod, 节日#NN, 重要#JJ)  (loc, 必不可少#VV, 节日#NN)  (case, 节日#NN, 中#LC)  (dep, 烤火#VV, 必不可少#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补充蛋白质
+            蛋白质是一切生命的物质基础，是机体细胞的重要组成部分，是人体组织更新和修补的主要原料，蛋白质对人的生长发育非常重要。火鸡肉和其他肉类产品比较起所含蛋白含量甚高，但是热量和胆固醇是最少的，是补充蛋白质的佳品。
+            2.补铁
+            火鸡胸肉的铁含量也相当高，对于生理期、妊娠期和受伤需调养的人而言，火鸡肉是供应铁质最佳的来源之一。
+            3.戒躁减压
+            火鸡肉在营养学上的另外特色还包括其富含色氨酸和赖氨酸，可协助人体减压力、消除紧张和焦躁不安等症。
+        </rawdata>
+
+        <segment>
+            补充  蛋白质
+            蛋白质  是  一切  生命  的  物质  基础  ，  是  机体  细胞  的  重要  组成  部分  ，  是  人体  组织  更新  和  修补  的  主要  原料  ，  蛋白质  对  人  的  生长  发育  非常  重要  。  火鸡肉  和  其他  肉类  产品  比较  起  所含  蛋白  含量  甚高  ，  但是  热量  和  胆固醇  是  最  少  的  ，  是  补充  蛋白质  的  佳品  。
+            补铁
+            火鸡  胸肉  的  铁  含量  也  相当  高  ，  对于  生理  期  、  妊娠期  和  受伤  需  调养  的  人  而言  ，  火鸡肉  是  供应  铁质  最  佳  的  来源  之一  。
+            戒躁  减压
+            火鸡肉  在  营养学  上  的  另外  特色  还  包括  其  富含  色氨酸  和  赖氨酸  ，  可  协助  人体  减  压力  、  消除  紧张  和  焦躁  不安  等症  。
+        </segment>
+
+        <pos>
+            补充#NN  蛋白质#VV
+            蛋白质#AD  是#VC  一切#DT  生命#NN  的#DEG  物质#NN  基础#NN  ，#PU  是#VC  机体#NN  细胞#NN  的#DEG  重要#JJ  组成#NN  部分#NN  ，#PU  是#VC  人体#NN  组织#NN  更新#NN  和#CC  修补#NN  的#DEG  主要#JJ  原料#NN  ，#PU  蛋白质#VV  对#P  人#NN  的#DEG  生长#NN  发育#VV  非常#AD  重要#VA    。#PU  火鸡肉#NN  和#CC  其他#DT  肉类#NN  产品#NN  比较#AD  起#VV  所含#NN  蛋白#NN  含量#NN  甚高#VV  ，#PU  但是#AD  热量#NN  和#CC  胆固醇#NN  是#VC  最#AD  少#VA  的#DEC  ，#PU  是#VC  补充#NN  蛋白质#NN  的#DEC  佳品#NN    。#PU    。#PU
+            补铁#VV
+            火鸡#NN  胸肉#NN  的#DEG  铁#NN  含量#NN  也#AD  相当#AD  高#VA  ，#PU  对于#P  生理#NN  期#NN  、#PU  妊娠期#NN  和#CC  受伤#NN  需#VV  调养#NN  的#DEC  人#NN  而言#VV  ，#PU  火鸡肉#NN  是#VC  供应#NN  铁质#NN  最#AD  佳#VA  的#DEC  来源#NN  之一#NN  。#PU
+            戒躁#NN  减压#VV
+            火鸡肉#NR  在#P  营养学#NN  上#LC  的#DEG  另外#JJ  特色#NN  还#AD  包括#VV  其#PN  富含#VV  色氨酸#NN  和#CC  赖氨酸#NN  ，#PU  可#VV  协助#VV  人体#NN  减#VV  压力#NN  、#PU  消除#VV  紧张#JJ  和#CC  焦躁#JJ  不安#NN  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 补充#NN)  (root, ROOT#null, 蛋白质#VV)
+            (advmod, 基础#NN, 蛋白质#AD)  (cop, 基础#NN, 是#VC)  (det, 生命#NN, 一切#DT)  (assmod, 基础#NN, 生命#NN)  (case, 生命#NN, 的#DEG)  (nn, 基础#NN, 物质#NN)  (root, ROOT#null, 基础#NN)  (cop, 部分#NN, 是#VC)  (nn, 细胞#NN, 机体#NN)  (assmod, 部分#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (amod, 部分#NN, 重要#JJ)  (nn, 部分#NN, 组成#NN)  (conj, 基础#NN, 部分#NN)  (cop, 原料#NN, 是#VC)  (nn, 组织#NN, 人体#NN)  (nn, 修补#NN, 组织#NN)  (conj, 修补#NN, 更新#NN)  (cc, 修补#NN, 和#CC)  (assmod, 原料#NN, 修补#NN)  (case, 修补#NN, 的#DEG)  (amod, 原料#NN, 主要#JJ)  (conj, 基础#NN, 原料#NN)  (conj, 基础#NN, 蛋白质#VV)  (case, 人#NN, 对#P)  (assmod, 生长#NN, 人#NN)  (case, 人#NN, 的#DEG)  (dobj, 蛋白质#VV, 生长#NN)  (conj, 蛋白质#VV, 发育#VV)  (advmod, 重要#VA, 非常#AD)  (dep, 发育#VV, 重要#VA)   (conj, 产品#NN, 火鸡肉#NN)  (cc, 产品#NN, 和#CC)  (det, 肉类#NN, 其他#DT)  (nn, 产品#NN, 肉类#NN)  (nsubj, 起#VV, 产品#NN)  (advmod, 起#VV, 比较#AD)  (root, ROOT#null, 起#VV)  (nn, 含量#NN, 所含#NN)  (nn, 含量#NN, 蛋白#NN)  (nsubj, 甚高#VV, 含量#NN)  (relcl, 佳品#NN, 甚高#VV)  (advmod, 少#VA, 但是#AD)  (conj, 胆固醇#NN, 热量#NN)  (cc, 胆固醇#NN, 和#CC)  (nsubj, 少#VA, 胆固醇#NN)  (cop, 少#VA, 是#VC)  (advmod, 少#VA, 最#AD)  (ccomp, 甚高#VV, 少#VA)  (mark, 少#VA, 的#DEC)  (cop, 蛋白质#NN, 是#VC)  (nn, 蛋白质#NN, 补充#NN)  (conj, 少#VA, 蛋白质#NN)  (mark, 甚高#VV, 的#DEC)  (dobj, 起#VV, 佳品#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补铁#VV)
+            (nn, 胸肉#NN, 火鸡#NN)  (assmod, 含量#NN, 胸肉#NN)  (case, 胸肉#NN, 的#DEG)  (nn, 含量#NN, 铁#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 相当#AD)  (root, ROOT#null, 高#VA)  (case, 受伤#NN, 对于#P)  (nn, 受伤#NN, 生理#NN)  (conj, 受伤#NN, 期#NN)  (conj, 受伤#NN, 妊娠期#NN)  (cc, 受伤#NN, 和#CC)  (prep, 需#VV, 受伤#NN)  (relcl, 人#NN, 需#VV)  (dobj, 需#VV, 调养#NN)  (mark, 需#VV, 的#DEC)  (nsubj, 而言#VV, 人#NN)  (conj, 高#VA, 而言#VV)  (nsubj, 之一#NN, 火鸡肉#NN)  (cop, 之一#NN, 是#VC)  (nn, 铁质#NN, 供应#NN)  (nsubj, 佳#VA, 铁质#NN)  (advmod, 佳#VA, 最#AD)  (relcl, 之一#NN, 佳#VA)  (mark, 佳#VA, 的#DEC)  (nn, 之一#NN, 来源#NN)  (ccomp, 而言#VV, 之一#NN)
+            (nsubj, 减压#VV, 戒躁#NN)  (root, ROOT#null, 减压#VV)
+            (nn, 特色#NN, 火鸡肉#NR)  (case, 营养学#NN, 在#P)  (assmod, 特色#NN, 营养学#NN)  (case, 营养学#NN, 上#LC)  (case, 营养学#NN, 的#DEG)  (amod, 特色#NN, 另外#JJ)  (nsubj, 包括#VV, 特色#NN)  (advmod, 包括#VV, 还#AD)  (root, ROOT#null, 包括#VV)  (nsubj, 富含#VV, 其#PN)  (ccomp, 包括#VV, 富含#VV)  (conj, 赖氨酸#NN, 色氨酸#NN)  (cc, 赖氨酸#NN, 和#CC)  (dobj, 富含#VV, 赖氨酸#NN)  (mmod, 协助#VV, 可#VV)  (conj, 富含#VV, 协助#VV)  (dobj, 协助#VV, 人体#NN)  (dep, 协助#VV, 减#VV)  (dobj, 减#VV, 压力#NN)  (conj, 协助#VV, 消除#VV)  (amod, 不安#NN, 紧张#JJ)  (cc, 紧张#JJ, 和#CC)  (dep, 紧张#JJ, 焦躁#JJ)  (nn, 等症#NN, 不安#NN)  (dobj, 消除#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            在营养价值上有“一高二低”的优点。一高是蛋白质含量高，二低是脂肪低，胆固醇低，并含有丰富的铁，锌，磷，钾及维生素B。火鸡肉和其他肉类产品比较起所含蛋白含量甚高，但是热量和胆固醇是最少的；火鸡肉所含的脂肪是不饱和脂肪酸，不会导致血液中胆固醇量的增加；其次，火鸡胸肉的铁含量也相当高，对于生理期、妊娠期和受伤需调养的人而言，火鸡肉是供应铁质最佳的来源之一。火鸡肉在营养学上的另外特色还包括其富含色氨酸和赖氨酸，可协助人体减压力、消除紧张和焦躁不安等症。
+        </rawdata>
+
+        <segment>
+            在  营养  价值  上  有  “  一  高  二  低  ”  的  优点  。  一  高  是  蛋白质  含量  高  ，  二  低  是  脂肪  低  ，  胆固醇  低  ，  并  含有  丰富  的  铁  ，  锌  ，  磷  ，  钾  及  维生素B  。  火鸡肉  和  其他  肉类  产品  比较  起  所含  蛋白  含量  甚高  ，  但是  热量  和  胆固醇  是  最  少  的  ；  火鸡肉  所  含  的  脂肪  是  不  饱和  脂肪酸  ，  不  会  导致  血液  中  胆固醇  量  的  增加  ；  其次  ，  火鸡  胸肉  的  铁  含量  也  相当  高  ，  对于  生理  期  、  妊娠期  和  受伤  需  调养  的  人  而言  ，  火鸡肉  是  供应  铁质  最  佳  的  来源  之一  。  火鸡肉  在  营养学  上  的  另外  特色  还  包括  其  富含  色氨酸  和  赖氨酸  ，  可  协助  人体  减  压力  、  消除  紧张  和  焦躁  不安  等症  。
+        </segment>
+
+        <pos>
+            在#P  营养#VA  价值#NN  上#LC  有#VE  ``#VV  一#CD  高#JJ  二#OD  低#JJ  ''#NN  的#DEC  优点#NN    。#PU  一#NT  高#AD  是#VC  蛋白质#NN  含量#NN  高#VA  ，#PU  二#CD  低#VA  是#VC  脂肪#NN  低#VA  ，#PU  胆固醇#NN  低#VA  ，#PU  并#CC  含有#NN  丰富#VA  的#DEC  铁#NN  ，#PU  锌#NN  ，#PU  磷#NN  ，#PU  钾#NN  及#CC  维生素B#NN    。#PU  火鸡肉#NN  和#CC  其他#DT  肉类#NN  产品#NN  比较#AD  起#VV  所含#NN  蛋白#NN  含量#NN  甚高#NN  ，#PU  但是#AD  热量#NN  和#CC  胆固醇#NN  是#VC  最#AD  少#VA  的#DEC  ；#PU  火鸡肉#AD  所#MSP  含#VV  的#DEC  脂肪#NN  是#VC  不#AD  饱和#VV  脂肪酸#NN  ，#PU  不#AD  会#VV  导致#VV  血液#NN  中#LC  胆固醇#NN  量#NN  的#DEG  增加#NN  ；#PU  其次#AD  ，#PU  火鸡#NN  胸肉#NN  的#DEG  铁#JJ  含量#NN  也#AD  相当#AD  高#VA  ，#PU  对于#P  生理#NN  期#NN  、#PU  妊娠期#NN  和#CC  受伤#VV  需#VV  调养#NN  的#DEC  人#NN  而言#NN  ，#PU  火鸡肉#NR  是#VC  供应#NN  铁质#VV  最#AD  佳#VA  的#DEC  来源#NN  之一#NN    。#PU  火鸡肉#NR  在#P  营养学#NN  上#LC  的#DEG  另外#JJ  特色#NN  还#AD  包括#VV  其#PN  富含#VV  色氨酸#NN  和#CC  赖氨酸#NN  ，#PU  可#VV  协助#VV  人体#NN  减#VV  压力#NN  、#PU  消除#VV  紧张#JJ  和#CC  焦躁#JJ  不安#NN  等症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 价值#NN, 在#P)  (nfincl, 价值#NN, 营养#VA)  (prep, 有#VE, 价值#NN)  (case, 价值#NN, 上#LC)  (root, ROOT#null, 有#VE)  (relcl, 优点#NN, ``#VV)  (nummod, ''#NN, 一#CD)  (amod, ''#NN, 高#JJ)  (dep, 低#JJ, 二#OD)  (amod, ''#NN, 低#JJ)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 有#VE, 优点#NN)   (dep, 维生素B#NN, 一#NT)  (advmod, 维生素B#NN, 高#AD)  (cop, 维生素B#NN, 是#VC)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (relcl, 铁#NN, 高#VA)  (nsubj, 低#VA, 二#CD)  (conj, 高#VA, 低#VA)  (cop, 脂肪#NN, 是#VC)  (dep, 低#VA, 脂肪#NN)  (dep, 低#VA, 低#VA)  (nsubj, 低#VA, 胆固醇#NN)  (conj, 高#VA, 低#VA)  (cc, 高#VA, 并#CC)  (nsubj, 丰富#VA, 含有#NN)  (dep, 高#VA, 丰富#VA)  (mark, 高#VA, 的#DEC)  (dep, 维生素B#NN, 铁#NN)  (dep, 维生素B#NN, 锌#NN)  (dep, 维生素B#NN, 磷#NN)  (conj, 维生素B#NN, 钾#NN)  (cc, 维生素B#NN, 及#CC)  (root, ROOT#null, 维生素B#NN)   (conj, 产品#NN, 火鸡肉#NN)  (cc, 产品#NN, 和#CC)  (det, 肉类#NN, 其他#DT)  (nn, 产品#NN, 肉类#NN)  (nsubj, 起#VV, 产品#NN)  (advmod, 起#VV, 比较#AD)  (conj, 铁质#VV, 起#VV)  (nn, 甚高#NN, 所含#NN)  (nn, 甚高#NN, 蛋白#NN)  (nn, 甚高#NN, 含量#NN)  (dobj, 起#VV, 甚高#NN)  (advmod, 少#VA, 但是#AD)  (conj, 胆固醇#NN, 热量#NN)  (cc, 胆固醇#NN, 和#CC)  (nsubj, 少#VA, 胆固醇#NN)  (cop, 少#VA, 是#VC)  (advmod, 少#VA, 最#AD)  (conj, 起#VV, 少#VA)  (mark, 少#VA, 的#DEC)  (advmod, 含#VV, 火鸡肉#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 脂肪#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 饱和#VV, 脂肪#NN)  (cop, 饱和#VV, 是#VC)  (neg, 饱和#VV, 不#AD)  (conj, 起#VV, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (neg, 导致#VV, 不#AD)  (mmod, 导致#VV, 会#VV)  (conj, 起#VV, 导致#VV)  (dep, 增加#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 量#NN, 胆固醇#NN)  (assmod, 增加#NN, 量#NN)  (case, 量#NN, 的#DEG)  (dobj, 导致#VV, 增加#NN)  (advmod, 高#VA, 其次#AD)  (nn, 胸肉#NN, 火鸡#NN)  (assmod, 含量#NN, 胸肉#NN)  (case, 胸肉#NN, 的#DEG)  (amod, 含量#NN, 铁#JJ)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 相当#AD)  (conj, 起#VV, 高#VA)  (case, 妊娠期#NN, 对于#P)  (nn, 妊娠期#NN, 生理#NN)  (conj, 妊娠期#NN, 期#NN)  (prep, 供应#NN, 妊娠期#NN)  (cc, 妊娠期#NN, 和#CC)  (dep, 妊娠期#NN, 受伤#VV)  (relcl, 而言#NN, 需#VV)  (dobj, 需#VV, 调养#NN)  (mark, 需#VV, 的#DEC)  (nn, 而言#NN, 人#NN)  (dobj, 受伤#VV, 而言#NN)  (nsubj, 供应#NN, 火鸡肉#NR)  (cop, 供应#NN, 是#VC)  (conj, 起#VV, 供应#NN)  (root, ROOT#null, 铁质#VV)  (advmod, 佳#VA, 最#AD)  (relcl, 之一#NN, 佳#VA)  (mark, 佳#VA, 的#DEC)  (nn, 之一#NN, 来源#NN)  (dobj, 铁质#VV, 之一#NN)   (nn, 特色#NN, 火鸡肉#NR)  (case, 营养学#NN, 在#P)  (assmod, 特色#NN, 营养学#NN)  (case, 营养学#NN, 上#LC)  (case, 营养学#NN, 的#DEG)  (amod, 特色#NN, 另外#JJ)  (nsubj, 包括#VV, 特色#NN)  (advmod, 包括#VV, 还#AD)  (root, ROOT#null, 包括#VV)  (nsubj, 富含#VV, 其#PN)  (ccomp, 包括#VV, 富含#VV)  (conj, 赖氨酸#NN, 色氨酸#NN)  (cc, 赖氨酸#NN, 和#CC)  (dobj, 富含#VV, 赖氨酸#NN)  (mmod, 协助#VV, 可#VV)  (conj, 富含#VV, 协助#VV)  (dobj, 协助#VV, 人体#NN)  (dep, 协助#VV, 减#VV)  (dobj, 减#VV, 压力#NN)  (conj, 协助#VV, 消除#VV)  (amod, 不安#NN, 紧张#JJ)  (cc, 紧张#JJ, 和#CC)  (dep, 紧张#JJ, 焦躁#JJ)  (nn, 等症#NN, 不安#NN)  (dobj, 消除#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            年轻火鸡适宜烧烤，成鸡适宜煨菜。烧烤时间不要过短，一般在2小时以上。
+        </rawdata>
+
+        <segment>
+            年轻  火鸡  适宜  烧烤  ，  成  鸡  适宜  煨菜  。  烧烤  时间  不  要  过短  ，  一般  在  2  小时  以上  。
+        </segment>
+
+        <pos>
+            年轻#JJ  火鸡#NN  适宜#VV  烧烤#NN  ，#PU  成#VV  鸡#NN  适宜#VV  煨菜#NN    。#PU  烧烤#NN  时间#NN  不#AD  要#VV  过短#VV  ，#PU  一般#AD  在#P  2#CD  小时#NN  以上#LC    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 火鸡#NN, 年轻#JJ)  (nsubj, 适宜#VV, 火鸡#NN)  (conj, 适宜#VV, 适宜#VV)  (dobj, 适宜#VV, 烧烤#NN)  (conj, 适宜#VV, 成#VV)  (dobj, 成#VV, 鸡#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 煨菜#NN)   (nn, 时间#NN, 烧烤#NN)  (nsubj, 过短#VV, 时间#NN)  (neg, 过短#VV, 不#AD)  (mmod, 过短#VV, 要#VV)  (root, ROOT#null, 过短#VV)  (advmod, 小时#NN, 一般#AD)  (case, 小时#NN, 在#P)  (nummod, 小时#NN, 2#CD)  (dep, 过短#VV, 小时#NN)  (case, 小时#NN, 以上#LC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081609037619.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

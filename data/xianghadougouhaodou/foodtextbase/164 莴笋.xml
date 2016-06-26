@@ -1,0 +1,430 @@
+<content>
+
+    <id>
+        164
+    </id>
+
+    <foodname>
+        莴笋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        莴苣、春菜、生笋、千金菜、茎用莴苣、青笋、莴菜、香马笋
+    </alias>
+
+    <season>
+        春、秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            视力弱者、眼疾、夜盲症患者忌食。
+        </rawdata>
+
+        <segment>
+            视力  弱者  、  眼疾  、  夜盲症  患者  忌食  。
+        </segment>
+
+        <pos>
+            视力#VV  弱者#NR  、#PU  眼疾#NR  、#PU  夜盲症#NR  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 视力#VV)  (conj, 夜盲症#NR, 弱者#NR)  (conj, 夜盲症#NR, 眼疾#NR)  (nn, 忌食#NN, 夜盲症#NR)  (nn, 忌食#NN, 患者#NN)  (dobj, 视力#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。尤适宜婴幼儿、乳母。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。  尤  适宜  婴幼儿  、  乳母  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  婴幼儿#NN  、#PU  乳母#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 乳母#NN, 婴幼儿#NN)  (dobj, 适宜#VV, 乳母#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                150
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆碱（毫克）
+            </elename>
+            <elevalue>
+                586
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                48
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                212
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                36.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            莴笋为菊科，属一年生或两年生草本植物，原产地中海沿岸，约在七世纪初，经西亚传入我国，各地普遍栽培。莴苣分茎用和叶用两种，前者各地都有栽培，后者南方栽培较多，是春季及秋、冬季重要的蔬菜之一。
+            根据莴笋叶片形状可分为尖叶和圆叶两个类型，各类型中依茎的色泽又有白笋、青笋和紫皮笋之分。
+            尖叶莴笋，叶片披针形，先端尖，叶簇较小，节间较稀，叶面平滑或略有皱缩，色绿或紫。肉质茎棒状，下粗上细。较晚熟，苗期较耐热，可作秋季或越冬栽培。主要品种有：柳叶莴笋，北京紫叶莴笋，陕西尖叶白笋，成都尖叶子，重庆万年桩，上海尖叶，南京白皮香早种等。
+            圆叶莴笋，叶片长倒卵形，顶部稍圆，叶面皱缩较多，叶簇较大，节间密，茎粗大(中、下部较粗、两端渐细)，成熟期早，耐寒性较强，不耐热，多作越冬春莴笋栽培。莴笋主要品种有：北京鲫瓜笋，成都挂丝红、二白皮、二青皮，济南白莴笋，陕西圆叶白笋，上海小圆叶、大圆叶，南亦紫皮香，湖北孝感莴笋，湖南锣锤莴笋等。
+        </rawdata>
+
+        <segment>
+            莴笋  为  菊科  ，  属  一  年  生  或  两  年  生  草本  植物  ，  原产  地中海  沿岸  ，  约  在  七  世纪  初  ，  经  西亚  传入  我国  ，  各地  普遍  栽培  。  莴苣  分茎  用  和  叶用两  种  ，  前者  各地  都  有  栽培  ，  后者  南方  栽培  较  多  ，  是  春季  及  秋  、  冬季  重要  的  蔬菜  之一  。
+            根据  莴笋  叶片  形状  可  分为  尖叶  和  圆  叶  两  个  类型  ，  各  类型  中  依茎  的  色泽  又  有  白笋  、  青笋  和  紫皮笋  之  分  。
+            尖  叶  莴笋  ，  叶片  披  针形  ，  先端  尖  ，  叶簇  较  小  ，  节间  较  稀  ，  叶面  平滑  或  略有  皱缩  ，  色绿  或  紫  。  肉质  茎  棒状  ，  下  粗  上  细  。  较  晚熟  ，  苗期  较  耐热  ，  可作  秋季  或  越冬  栽培  。  主要  品种  有  ：  柳叶  莴笋  ，  北京  紫叶  莴笋  ，  陕西  尖  叶白笋  ，  成都  尖  叶子  ，  重庆  万  年  桩  ，  上海  尖叶  ，  南京  白皮  香  早  种  等  。
+            圆  叶  莴笋  ，  叶片长  倒卵形  ，  顶部  稍  圆  ，  叶面  皱缩  较  多  ，  叶簇  较大  ，  节间  密  ，  茎粗大  (  中  、  下部  较粗  、  两  端  渐  细  )  ，  成熟期  早  ，  耐  寒性  较  强  ，  不  耐热  ，  多作越  冬春  莴笋  栽培  。  莴笋  主要  品种  有  ：  北京  鲫瓜笋  ，  成都  挂  丝  红  、  二  白皮  、  二  青皮  ，  济南  白  莴笋  ，  陕西  圆  叶白笋  ，  上海  小  圆  叶  、  大圆  叶  ，  南  亦  紫  皮  香  ，  湖北  孝感  莴笋  ，  湖南  锣锤  莴笋  等  。
+        </segment>
+
+        <pos>
+            莴笋#NR  为#P  菊科#VV  ，#PU  属#VV  一#CD  年#M  生#VV  或#CC  两#CD  年#M  生#VV  草本#NN  植物#NN  ，#PU  原产#VV  地中海#NR  沿岸#NN  ，#PU  约#AD  在#P  七#CD  世纪#NN  初#LC  ，#PU  经#P  西亚#NR  传入#NN  我国#NN  ，#PU  各地#NR  普遍#AD  栽培#VV    。#PU  莴苣#VV  分茎#NN  用#VV  和#CC  叶用两#CD  种#M  ，#PU  前者#NN  各地#NN  都#AD  有#VE  栽培#VV  ，#PU  后者#PN  南方#NN  栽培#VV  较#AD  多#VA  ，#PU  是#VC  春季#NT  及#CC  秋#NT  、#PU  冬季#NN  重要#VA  的#DEC  蔬菜#NN  之一#NN    。#PU    。#PU
+            根据#P  莴笋#NN  叶片#NN  形状#NN  可#VV  分为#VV  尖叶#NN  和#CC  圆#VV  叶#NR  两#CD  个#M  类型#NN  ，#PU  各#DT  类型#NN  中#LC  依茎#NN  的#DEG  色泽#NN  又#AD  有#VE  白笋#NR  、#PU  青笋#NR  和#CC  紫皮笋#NR  之#PN  分#VV  。#PU
+            尖#NN  叶#NN  莴笋#VV  ，#PU  叶片#NN  披#NN  针形#NN  ，#PU  先端#AD  尖#VA  ，#PU  叶簇#NN  较#AD  小#VA  ，#PU  节间#NN  较#AD  稀#VA  ，#PU  叶面#NN  平滑#AD  或#CC  略有#AD  皱缩#VA  ，#PU  色绿#VA  或#CC  紫#VA    。#PU  肉质#NN  茎#NN  棒状#VV  ，#PU  下#DT  粗#NN  上#LC  细#VV    。#PU  较#AD  晚熟#VV  ，#PU  苗期#NN  较#AD  耐热#VA  ，#PU  可作#NR  秋季#NT  或#CC  越冬#NT  栽培#VV    。#PU  主要#JJ  品种#NN  有#VE  ：#PU  柳叶#NN  莴笋#NN  ，#PU  北京#NR  紫叶#NN  莴笋#NN  ，#PU  陕西#NR  尖#NN  叶白笋#NN  ，#PU  成都#NR  尖#AD  叶子#VV  ，#PU  重庆#NR  万#CD  年#M  桩#M  ，#PU  上海#NR  尖叶#VV  ，#PU  南京#NR  白皮#NN  香#AD  早#VA  种#M  等#ETC    。#PU    。#PU
+            圆#VV  叶#NN  莴笋#NN  ，#PU  叶片长#VV  倒卵形#NN  ，#PU  顶部#NN  稍#NN  圆#VV  ，#PU  叶面#NN  皱缩#NN  较#AD  多#VA  ，#PU  叶簇#NR  较大#JJ  ，#PU  节间#VV  密#NN  ，#PU  茎粗大#NR  -LRB-#NN  中#NN  、#PU  下部#NN  较粗#NN  、#PU  两#CD  端#NN  渐#AD  细#VV  -RRB-#NN  ，#PU  成熟期#NR  早#VA  ，#PU  耐#NN  寒性#NN  较#AD  强#VA  ，#PU  不#AD  耐热#VV  ，#PU  多作越#NN  冬春#NN  莴笋#NN  栽培#VV    。#PU  莴笋#NN  主要#JJ  品种#NN  有#VE  ：#PU  北京#NR  鲫瓜笋#NN  ，#PU  成都#NR  挂#VV  丝#NN  红#JJ  、#PU  二#CD  白皮#NN  、#PU  二#CD  青皮#NN  ，#PU  济南#NR  白#JJ  莴笋#NN  ，#PU  陕西#NR  圆#VV  叶白笋#NN  ，#PU  上海#NR  小#NN  圆#VV  叶#NR  、#PU  大圆#NR  叶#NN  ，#PU  南#NN  亦#AD  紫#VA  皮#NN  香#NN  ，#PU  湖北#NR  孝感#NN  莴笋#NN  ，#PU  湖南#NR  锣锤#VV  莴笋#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生#VV, 莴笋#NR)  (case, 菊科#VV, 为#P)  (prep, 生#VV, 菊科#VV)  (ccomp, 菊科#VV, 属#VV)  (nummod, 年#M, 一#CD)  (range, 属#VV, 年#M)  (root, ROOT#null, 生#VV)  (cc, 生#VV, 或#CC)  (nummod, 年#M, 两#CD)  (dep, 生#VV, 年#M)  (dep, 生#VV, 生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 生#VV, 植物#NN)  (conj, 生#VV, 原产#VV)  (nn, 沿岸#NN, 地中海#NR)  (dobj, 原产#VV, 沿岸#NN)  (prep, 栽培#VV, 约#AD)  (case, 世纪#NN, 在#P)  (nummod, 世纪#NN, 七#CD)  (dep, 约#AD, 世纪#NN)  (case, 世纪#NN, 初#LC)  (case, 我国#NN, 经#P)  (nn, 我国#NN, 西亚#NR)  (nn, 我国#NN, 传入#NN)  (prep, 栽培#VV, 我国#NN)  (nsubj, 栽培#VV, 各地#NR)  (advmod, 栽培#VV, 普遍#AD)  (conj, 生#VV, 栽培#VV)   (root, ROOT#null, 莴苣#VV)  (dobj, 莴苣#VV, 分茎#NN)  (conj, 莴苣#VV, 用#VV)  (cc, 莴苣#VV, 和#CC)  (nummod, 种#M, 叶用两#CD)  (dep, 莴苣#VV, 种#M)  (nn, 各地#NN, 前者#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 都#AD)  (conj, 莴苣#VV, 有#VE)  (dep, 有#VE, 栽培#VV)  (nsubj, 栽培#VV, 后者#PN)  (nsubj, 栽培#VV, 南方#NN)  (conj, 莴苣#VV, 栽培#VV)  (advmod, 多#VA, 较#AD)  (relcl, 之一#NN, 多#VA)  (cop, 秋#NT, 是#VC)  (conj, 秋#NT, 春季#NT)  (cc, 秋#NT, 及#CC)  (dep, 多#VA, 秋#NT)  (nsubj, 重要#VA, 冬季#NN)  (dep, 多#VA, 重要#VA)  (mark, 多#VA, 的#DEC)  (nn, 之一#NN, 蔬菜#NN)  (dobj, 栽培#VV, 之一#NN)   (root, ROOT#null, null#null)
+            (case, 形状#NN, 根据#P)  (nn, 形状#NN, 莴笋#NN)  (nn, 形状#NN, 叶片#NN)  (prep, 分为#VV, 形状#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dobj, 分为#VV, 尖叶#NN)  (cc, 分为#VV, 和#CC)  (conj, 分为#VV, 圆#VV)  (nn, 类型#NN, 叶#NR)  (nummod, 个#M, 两#CD)  (clf, 类型#NN, 个#M)  (dobj, 圆#VV, 类型#NN)  (det, 类型#NN, 各#DT)  (loc, 有#VE, 类型#NN)  (case, 类型#NN, 中#LC)  (assmod, 色泽#NN, 依茎#NN)  (case, 依茎#NN, 的#DEG)  (nsubj, 有#VE, 色泽#NN)  (advmod, 有#VE, 又#AD)  (dep, 分为#VV, 有#VE)  (conj, 紫皮笋#NR, 白笋#NR)  (conj, 紫皮笋#NR, 青笋#NR)  (cc, 紫皮笋#NR, 和#CC)  (nsubj, 分#VV, 紫皮笋#NR)  (nsubj, 分#VV, 之#PN)  (dep, 有#VE, 分#VV)
+            (nn, 叶#NN, 尖#NN)  (nsubj, 莴笋#VV, 叶#NN)  (root, ROOT#null, 莴笋#VV)  (nn, 针形#NN, 叶片#NN)  (nn, 针形#NN, 披#NN)  (nsubj, 尖#VA, 针形#NN)  (advmod, 尖#VA, 先端#AD)  (ccomp, 莴笋#VV, 尖#VA)  (nsubj, 小#VA, 叶簇#NN)  (advmod, 小#VA, 较#AD)  (conj, 尖#VA, 小#VA)  (nsubj, 稀#VA, 节间#NN)  (advmod, 稀#VA, 较#AD)  (conj, 尖#VA, 稀#VA)  (nsubj, 皱缩#VA, 叶面#NN)  (advmod, 皱缩#VA, 平滑#AD)  (cc, 平滑#AD, 或#CC)  (dep, 平滑#AD, 略有#AD)  (conj, 尖#VA, 皱缩#VA)  (conj, 尖#VA, 色绿#VA)  (cc, 色绿#VA, 或#CC)  (dep, 色绿#VA, 紫#VA)   (nn, 茎#NN, 肉质#NN)  (nsubj, 棒状#VV, 茎#NN)  (root, ROOT#null, 棒状#VV)  (det, 粗#NN, 下#DT)  (loc, 细#VV, 粗#NN)  (case, 粗#NN, 上#LC)  (ccomp, 棒状#VV, 细#VV)   (advmod, 晚熟#VV, 较#AD)  (root, ROOT#null, 晚熟#VV)  (nsubj, 耐热#VA, 苗期#NN)  (advmod, 耐热#VA, 较#AD)  (ccomp, 晚熟#VV, 耐热#VA)  (nsubj, 栽培#VV, 可作#NR)  (conj, 越冬#NT, 秋季#NT)  (cc, 越冬#NT, 或#CC)  (tmod, 栽培#VV, 越冬#NT)  (conj, 耐热#VA, 栽培#VV)   (amod, 品种#NN, 主要#JJ)  (dep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (nn, 莴笋#NN, 柳叶#NN)  (dobj, 有#VE, 莴笋#NN)  (nn, 莴笋#NN, 北京#NR)  (nn, 莴笋#NN, 紫叶#NN)  (nsubj, 叶子#VV, 莴笋#NN)  (nn, 叶白笋#NN, 陕西#NR)  (nn, 叶白笋#NN, 尖#NN)  (nsubj, 叶子#VV, 叶白笋#NN)  (nsubj, 叶子#VV, 成都#NR)  (advmod, 叶子#VV, 尖#AD)  (conj, 有#VE, 叶子#VV)  (nsubj, 年#M, 重庆#NR)  (nummod, 年#M, 万#CD)  (conj, 有#VE, 年#M)  (dep, 年#M, 桩#M)  (nsubj, 尖叶#VV, 上海#NR)  (conj, 有#VE, 尖叶#VV)  (nn, 白皮#NN, 南京#NR)  (nsubj, 早#VA, 白皮#NN)  (advmod, 早#VA, 香#AD)  (ccomp, 尖叶#VV, 早#VA)  (dep, 早#VA, 种#M)  (dep, 早#VA, 等#ETC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 圆#VV)  (nn, 莴笋#NN, 叶#NN)  (dobj, 圆#VV, 莴笋#NN)  (conj, 圆#VV, 叶片长#VV)  (dobj, 叶片长#VV, 倒卵形#NN)  (nn, 稍#NN, 顶部#NN)  (nsubj, 圆#VV, 稍#NN)  (conj, 圆#VV, 圆#VV)  (nn, 皱缩#NN, 叶面#NN)  (nsubj, 多#VA, 皱缩#NN)  (advmod, 多#VA, 较#AD)  (conj, 圆#VV, 多#VA)  (nsubj, 较大#JJ, 叶簇#NR)  (conj, 圆#VV, 较大#JJ)  (dep, 较大#JJ, 节间#VV)  (dobj, 节间#VV, 密#NN)  (nn, 中#NN, 茎粗大#NR)  (conj, 端#NN, 中#NN)  (nn, 较粗#NN, 下部#NN)  (conj, 端#NN, 较粗#NN)  (nummod, 端#NN, 两#CD)  (nsubj, 细#VV, 端#NN)  (advmod, 细#VV, 渐#AD)  (conj, 圆#VV, 细#VV)  (nsubj, 早#VA, 成熟期#NR)  (conj, 圆#VV, 早#VA)  (nn, 寒性#NN, 耐#NN)  (nsubj, 强#VA, 寒性#NN)  (advmod, 强#VA, 较#AD)  (conj, 圆#VV, 强#VA)  (neg, 耐热#VV, 不#AD)  (conj, 圆#VV, 耐热#VV)  (nn, 莴笋#NN, 多作越#NN)  (nn, 莴笋#NN, 冬春#NN)  (nsubj, 栽培#VV, 莴笋#NN)  (dep, 圆#VV, 栽培#VV)   (nn, 品种#NN, 莴笋#NN)  (amod, 品种#NN, 主要#JJ)  (dep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (nn, 鲫瓜笋#NN, 北京#NR)  (dobj, 有#VE, 鲫瓜笋#NN)  (nsubj, 挂#VV, 成都#NR)  (conj, 有#VE, 挂#VV)  (nn, 青皮#NN, 丝#NN)  (amod, 青皮#NN, 红#JJ)  (nummod, 白皮#NN, 二#CD)  (conj, 青皮#NN, 白皮#NN)  (nummod, 青皮#NN, 二#CD)  (dobj, 挂#VV, 青皮#NN)  (nn, 莴笋#NN, 济南#NR)  (amod, 莴笋#NN, 白#JJ)  (nsubj, 圆#VV, 莴笋#NN)  (nsubj, 圆#VV, 陕西#NR)  (conj, 有#VE, 圆#VV)  (dobj, 圆#VV, 叶白笋#NN)  (nn, 小#NN, 上海#NR)  (nsubj, 圆#VV, 小#NN)  (conj, 有#VE, 圆#VV)  (conj, 大圆#NR, 叶#NR)  (nn, 叶#NN, 大圆#NR)  (dobj, 圆#VV, 叶#NN)  (nsubj, 紫#VA, 南#NN)  (advmod, 紫#VA, 亦#AD)  (conj, 有#VE, 紫#VA)  (nn, 香#NN, 皮#NN)  (nsubj, 锣锤#VV, 香#NN)  (nn, 莴笋#NN, 湖北#NR)  (nn, 莴笋#NN, 孝感#NN)  (nsubj, 锣锤#VV, 莴笋#NN)  (nsubj, 锣锤#VV, 湖南#NR)  (dep, 有#VE, 锣锤#VV)  (dobj, 锣锤#VV, 莴笋#NN)  (etc, 莴笋#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            莴笋味甘、性凉、苦，入肠、胃经；具有利五脏，通经脉，清胃热，清热利尿的功效；用于小便不利、尿血、乳汁不通等症。
+            1.开通疏利、消积下气
+            莴苣味道清新且略带苦味，可刺激消化酶分泌，增进食欲。其乳状浆液，可增强胃液、消化腺的分泌和胆汁的分泌，从而促进各消化器官的功能，对消化功能减弱、消化道中酸性降低和便秘的病人尤其有利。
+            2.利尿通乳
+            莴苣钾含量大大高于钠含量，有利于体内的水电解质平衡，促进排尿和乳汁的分泌。对高血压、水肿、心脏病人有一定的食疗作用。
+            3.强壮机体、防癌抗癌
+            莴苣含有多种维生素和矿物质，具有调节神经系统功能的作用，其所含有机化含物中富含人体可吸收的铁元素，对有缺铁性贫血病人十分有利。莴苣的热水提取物对某些癌细胞有很高的抑制率，故又可用来防癌抗癌。
+            4.宽肠通便
+            莴苣含有大量植物纤维素，能促进肠壁蠕动，通利消化道，帮助大便排泄，可用于治疗各种便秘。
+        </rawdata>
+
+        <segment>
+            莴笋  味甘  、  性凉  、  苦  ，  入肠  、  胃经  ；  具有  利  五脏  ，  通经脉  ，  清胃  热  ，  清热  利尿  的  功效  ；  用于  小便  不利  、  尿血  、  乳汁  不通  等症  。
+            开通  疏利  、  消积  下气
+            莴苣  味道  清新  且  略带  苦味  ，  可  刺激  消化酶  分泌  ，  增进  食欲  。  其  乳状  浆液  ，  可  增强  胃液  、  消化腺  的  分泌  和  胆汁  的  分泌  ，  从而  促进  各  消化  器官  的  功能  ，  对  消化  功能  减弱  、  消化道  中  酸性  降低  和  便秘  的  病人  尤其  有利  。
+            利尿  通乳
+            莴苣  钾  含量  大大  高于  钠  含量  ，  有利于  体内  的  水电  解质  平衡  ，  促进  排尿  和  乳汁  的  分泌  。  对  高血压  、  水肿  、  心脏病  人有  一定  的  食疗  作用  。
+            强壮  机体  、  防癌  抗癌
+            莴苣  含有  多  种  维生素  和  矿物质  ，  具有  调节  神经  系统  功能  的  作用  ，  其  所含  有机化  含  物中  富含  人体  可  吸收  的  铁  元素  ，  对  有缺  铁  性  贫血  病人  十分  有利  。  莴苣  的  热水  提取  物  对  某些  癌细胞  有  很  高  的  抑制  率  ，  故  又  可  用来  防癌  抗癌  。
+            宽  肠  通便
+            莴苣  含有  大量  植物  纤维素  ，  能  促进  肠壁  蠕动  ，  通利  消化道  ，  帮助  大便  排泄  ，  可  用于  治疗  各  种  便秘  。
+        </segment>
+
+        <pos>
+            莴笋#VV  味甘#NN  、#PU  性凉#NN  、#PU  苦#NN  ，#PU  入肠#VA  、#PU  胃经#VA  ；#PU  具有#VV  利#NR  五脏#CD  ，#PU  通经脉#VV  ，#PU  清胃#VV  热#NN  ，#PU  清热#VV  利尿#NN  的#DEG  功效#NN  ；#PU  用于#VV  小便#NR  不利#JJ  、#PU  尿血#JJ  、#PU  乳汁#JJ  不通#NN  等症#NN  。#PU
+            开通#VV  疏利#NN  、#PU  消积#NN  下气#NN
+            莴苣#VV  味道#NN  清新#NN  且#CC  略带#NN  苦味#NN  ，#PU  可#VV  刺激#VV  消化酶#NN  分泌#NN  ，#PU  增进#VV  食欲#NN    。#PU  其#PN  乳状#VV  浆液#NN  ，#PU  可#VV  增强#VV  胃液#NN  、#PU  消化腺#NN  的#DEG  分泌#NN  和#CC  胆汁#NN  的#DEG  分泌#NN  ，#PU  从而#AD  促进#VV  各#DT  消化#NN  器官#NN  的#DEG  功能#NN  ，#PU  对#P  消化#NN  功能#NN  减弱#VV  、#PU  消化道#NN  中#LC  酸性#AD  降低#VV  和#CC  便秘#VV  的#DEC  病人#NN  尤其#AD  有利#VA    。#PU    。#PU
+            利尿#NN  通乳#VV
+            莴苣#NN  钾#NN  含量#NN  大大#AD  高于#VV  钠#NN  含量#NN  ，#PU  有利于#VV  体内#NN  的#DEG  水电#NN  解质#NN  平衡#NN  ，#PU  促进#VV  排尿#NN  和#CC  乳汁#NN  的#DEG  分泌#NN    。#PU  对#P  高血压#NN  、#PU  水肿#NN  、#PU  心脏病#NN  人有#VV  一定#JJ  的#DEG  食疗#JJ  作用#NN    。#PU    。#PU
+            强壮#NR  机体#NN  、#PU  防癌#NN  抗癌#NN
+            莴苣#NN  含有#VV  多#CD  种#M  维生素#NN  和#CC  矿物质#NN  ，#PU  具有#VV  调节#VV  神经#NN  系统#NN  功能#NN  的#DEC  作用#NN  ，#PU  其#PN  所含#AD  有机化#VV  含#VV  物中#NN  富含#NN  人体#NN  可#VV  吸收#VV  的#DEC  铁#JJ  元素#NN  ，#PU  对#P  有缺#NN  铁#NN  性#NN  贫血#NN  病人#NN  十分#AD  有利#VA    。#PU  莴苣#NN  的#DEG  热水#NN  提取#VV  物#NN  对#P  某些#DT  癌细胞#NN  有#VE  很#AD  高#VA  的#DEC  抑制#NN  率#NN  ，#PU  故#AD  又#AD  可#VV  用来#VV  防癌#NN  抗癌#NN    。#PU    。#PU
+            宽#JJ  肠#NN  通便#VV
+            莴苣#NN  含有#VV  大量#CD  植物#NN  纤维素#NN  ，#PU  能#VV  促进#VV  肠壁#NN  蠕动#NN  ，#PU  通利#VV  消化道#NN  ，#PU  帮助#VV  大便#NN  排泄#VV  ，#PU  可#VV  用于#VV  治疗#VV  各#DT  种#M  便秘#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 莴笋#VV)  (conj, 苦#NN, 味甘#NN)  (conj, 苦#NN, 性凉#NN)  (dobj, 莴笋#VV, 苦#NN)  (conj, 莴笋#VV, 入肠#VA)  (dep, 入肠#VA, 胃经#VA)  (conj, 莴笋#VV, 具有#VV)  (dobj, 具有#VV, 利#NR)  (range, 具有#VV, 五脏#CD)  (conj, 莴笋#VV, 通经脉#VV)  (conj, 莴笋#VV, 清胃#VV)  (dobj, 清胃#VV, 热#NN)  (conj, 莴笋#VV, 清热#VV)  (assmod, 功效#NN, 利尿#NN)  (case, 利尿#NN, 的#DEG)  (dobj, 清热#VV, 功效#NN)  (conj, 莴笋#VV, 用于#VV)  (nn, 不通#NN, 小便#NR)  (amod, 不通#NN, 不利#JJ)  (conj, 不利#JJ, 尿血#JJ)  (dep, 不利#JJ, 乳汁#JJ)  (nn, 等症#NN, 不通#NN)  (dobj, 用于#VV, 等症#NN)
+            (root, ROOT#null, 开通#VV)  (conj, 下气#NN, 疏利#NN)  (nn, 下气#NN, 消积#NN)  (dobj, 开通#VV, 下气#NN)
+            (root, ROOT#null, 莴苣#VV)  (nn, 苦味#NN, 味道#NN)  (conj, 苦味#NN, 清新#NN)  (cc, 苦味#NN, 且#CC)  (nn, 苦味#NN, 略带#NN)  (dobj, 莴苣#VV, 苦味#NN)  (mmod, 刺激#VV, 可#VV)  (conj, 莴苣#VV, 刺激#VV)  (nn, 分泌#NN, 消化酶#NN)  (dobj, 刺激#VV, 分泌#NN)  (conj, 莴苣#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)   (nsubj, 乳状#VV, 其#PN)  (relcl, 病人#NN, 乳状#VV)  (dobj, 乳状#VV, 浆液#NN)  (mmod, 增强#VV, 可#VV)  (conj, 乳状#VV, 增强#VV)  (conj, 胆汁#NN, 胃液#NN)  (assmod, 分泌#NN, 消化腺#NN)  (case, 消化腺#NN, 的#DEG)  (conj, 胆汁#NN, 分泌#NN)  (cc, 胆汁#NN, 和#CC)  (assmod, 分泌#NN, 胆汁#NN)  (case, 胆汁#NN, 的#DEG)  (dobj, 增强#VV, 分泌#NN)  (advmod, 促进#VV, 从而#AD)  (conj, 乳状#VV, 促进#VV)  (det, 消化#NN, 各#DT)  (nn, 器官#NN, 消化#NN)  (assmod, 功能#NN, 器官#NN)  (case, 器官#NN, 的#DEG)  (dobj, 促进#VV, 功能#NN)  (case, 功能#NN, 对#P)  (nn, 功能#NN, 消化#NN)  (prep, 减弱#VV, 功能#NN)  (conj, 乳状#VV, 减弱#VV)  (loc, 降低#VV, 消化道#NN)  (case, 消化道#NN, 中#LC)  (advmod, 降低#VV, 酸性#AD)  (conj, 乳状#VV, 降低#VV)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 便秘#VV)  (mark, 乳状#VV, 的#DEC)  (nsubj, 有利#VA, 病人#NN)  (advmod, 有利#VA, 尤其#AD)  (root, ROOT#null, 有利#VA)   (root, ROOT#null, null#null)
+            (nsubj, 通乳#VV, 利尿#NN)  (root, ROOT#null, 通乳#VV)
+            (nn, 含量#NN, 莴苣#NN)  (nn, 含量#NN, 钾#NN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 大大#AD)  (root, ROOT#null, 高于#VV)  (nn, 含量#NN, 钠#NN)  (dobj, 高于#VV, 含量#NN)  (conj, 高于#VV, 有利于#VV)  (assmod, 平衡#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 平衡#NN, 水电#NN)  (nn, 平衡#NN, 解质#NN)  (dobj, 有利于#VV, 平衡#NN)  (conj, 高于#VV, 促进#VV)  (conj, 乳汁#NN, 排尿#NN)  (cc, 乳汁#NN, 和#CC)  (assmod, 分泌#NN, 乳汁#NN)  (case, 乳汁#NN, 的#DEG)  (dobj, 促进#VV, 分泌#NN)   (case, 心脏病#NN, 对#P)  (conj, 心脏病#NN, 高血压#NN)  (conj, 心脏病#NN, 水肿#NN)  (prep, 人有#VV, 心脏病#NN)  (root, ROOT#null, 人有#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 食疗#JJ)  (dobj, 人有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nn, 抗癌#NN, 强壮#NR)  (conj, 抗癌#NN, 机体#NN)  (nn, 抗癌#NN, 防癌#NN)  (root, ROOT#null, 抗癌#NN)
+            (nsubj, 含有#VV, 莴苣#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (dobj, 含有#VV, 矿物质#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 作用#NN, 调节#VV)  (nn, 功能#NN, 神经#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 调节#VV, 功能#NN)  (mark, 调节#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (nsubj, 有机化#VV, 其#PN)  (advmod, 有机化#VV, 所含#AD)  (conj, 含有#VV, 有机化#VV)  (relcl, 元素#NN, 含#VV)  (nn, 人体#NN, 物中#NN)  (nn, 人体#NN, 富含#NN)  (dobj, 含#VV, 人体#NN)  (dep, 吸收#VV, 可#VV)  (conj, 含#VV, 吸收#VV)  (mark, 含#VV, 的#DEC)  (amod, 元素#NN, 铁#JJ)  (dobj, 有机化#VV, 元素#NN)  (case, 病人#NN, 对#P)  (nn, 性#NN, 有缺#NN)  (nn, 性#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (nn, 病人#NN, 贫血#NN)  (prep, 有利#VA, 病人#NN)  (advmod, 有利#VA, 十分#AD)  (dep, 有机化#VV, 有利#VA)   (assmod, 热水#NN, 莴苣#NN)  (case, 莴苣#NN, 的#DEG)  (nsubj, 提取#VV, 热水#NN)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 物#NN)  (case, 癌细胞#NN, 对#P)  (det, 癌细胞#NN, 某些#DT)  (prep, 有#VE, 癌细胞#NN)  (conj, 提取#VV, 有#VE)  (advmod, 高#VA, 很#AD)  (relcl, 率#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nn, 率#NN, 抑制#NN)  (dobj, 有#VE, 率#NN)  (advmod, 用来#VV, 故#AD)  (advmod, 用来#VV, 又#AD)  (mmod, 用来#VV, 可#VV)  (dep, 有#VE, 用来#VV)  (nn, 抗癌#NN, 防癌#NN)  (dobj, 用来#VV, 抗癌#NN)   (root, ROOT#null, null#null)
+            (amod, 肠#NN, 宽#JJ)  (nsubj, 通便#VV, 肠#NN)  (root, ROOT#null, 通便#VV)
+            (nsubj, 含有#VV, 莴苣#NN)  (root, ROOT#null, 含有#VV)  (nummod, 纤维素#NN, 大量#CD)  (nn, 纤维素#NN, 植物#NN)  (dobj, 含有#VV, 纤维素#NN)  (mmod, 促进#VV, 能#VV)  (conj, 含有#VV, 促进#VV)  (nn, 蠕动#NN, 肠壁#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 含有#VV, 通利#VV)  (dobj, 通利#VV, 消化道#NN)  (conj, 含有#VV, 帮助#VV)  (dobj, 帮助#VV, 大便#NN)  (dep, 帮助#VV, 排泄#VV)  (mmod, 用于#VV, 可#VV)  (conj, 含有#VV, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (det, 便秘#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 治疗#VV, 便秘#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        助消化  通便  抗癌防癌  利水  清热解毒  增强免疫力  护肝  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.莴笋含钾量较高，有利于促进排尿，减少对心房的压力，对高血压和心脏病患者极为有益。
+            2.含有少量的碘元素，它对人的基础代谢，心智和体格发育甚至情绪调划都有重大影响。
+            3.含有非常丰富的氟元素，可参与牙和骨的生长。
+            另外，莴笋中的某种物质对视神经有刺激作用，古书记载莴苣多食使人目糊，停食数天，则能自行恢复，故视力弱者不宜多食，有眼疾特别是夜盲症的人也应少食。
+        </rawdata>
+
+        <segment>
+            莴笋  含  钾量  较  高  ，  有利于  促进  排尿  ，  减少  对  心房  的  压力  ，  对  高血压  和  心脏病  患者  极为  有益  。
+            含有  少量  的  碘元素  ，  它  对人  的  基础  代谢  ，  心智  和  体格  发育  甚至  情绪  调  划都  有  重大  影响  。
+            含有  非常  丰富  的  氟元素  ，  可  参与  牙和骨  的  生长  。
+            另外  ，  莴笋  中  的  某  种  物质  对视  神经  有  刺激  作用  ，  古书  记载  莴苣  多  食  使  人  目糊  ，  停食  数天  ，  则  能  自行  恢复  ，  故  视力  弱者  不  宜  多  食  ，  有  眼疾  特别是  夜盲症  的  人  也  应  少食  。
+        </segment>
+
+        <pos>
+            莴笋#AD  含#VV  钾量#NN  较#AD  高#VA  ，#PU  有利于#VV  促进#VV  排尿#NN  ，#PU  减少#VV  对#P  心房#NN  的#DEG  压力#NN  ，#PU  对#P  高血压#NN  和#CC  心脏病#NN  患者#NN  极为#AD  有益#VA  。#PU
+            含有#VV  少量#CD  的#DEC  碘元素#NN  ，#PU  它#PN  对人#NN  的#DEG  基础#NN  代谢#VV  ，#PU  心智#NN  和#CC  体格#NN  发育#NN  甚至#AD  情绪#NN  调#NN  划都#AD  有#VE  重大#JJ  影响#NN  。#PU
+            含有#NN  非常#AD  丰富#VA  的#DEC  氟元素#NN  ，#PU  可#VV  参与#VV  牙和骨#NN  的#DEG  生长#NN  。#PU
+            另外#AD  ，#PU  莴笋#NN  中#LC  的#DEG  某#DT  种#M  物质#NN  对视#NN  神经#NN  有#VE  刺激#NN  作用#NN  ，#PU  古书#NN  记载#NN  莴苣#NN  多#CD  食#NN  使#VV  人#NN  目糊#VV  ，#PU  停食#VV  数天#NN  ，#PU  则#AD  能#VV  自行#AD  恢复#VV  ，#PU  故#AD  视力#AD  弱者#VV  不#AD  宜#NR  多#CD  食#NN  ，#PU  有#VE  眼疾#NR  特别是#AD  夜盲症#NN  的#DEG  人#NN  也#AD  应#VV  少食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 莴笋#AD)  (relcl, 钾量#NN, 含#VV)  (nsubj, 高#VA, 钾量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 有利于#VV)  (ccomp, 有利于#VV, 促进#VV)  (dobj, 促进#VV, 排尿#NN)  (dep, 高#VA, 减少#VV)  (case, 心房#NN, 对#P)  (assmod, 压力#NN, 心房#NN)  (case, 心房#NN, 的#DEG)  (dobj, 减少#VV, 压力#NN)  (case, 患者#NN, 对#P)  (conj, 心脏病#NN, 高血压#NN)  (cc, 心脏病#NN, 和#CC)  (nn, 患者#NN, 心脏病#NN)  (prep, 有益#VA, 患者#NN)  (advmod, 有益#VA, 极为#AD)  (conj, 高#VA, 有益#VA)
+            (relcl, 碘元素#NN, 含有#VV)  (range, 含有#VV, 少量#CD)  (mark, 含有#VV, 的#DEC)  (nsubj, 代谢#VV, 碘元素#NN)  (nsubj, 代谢#VV, 它#PN)  (assmod, 基础#NN, 对人#NN)  (case, 对人#NN, 的#DEG)  (nsubj, 代谢#VV, 基础#NN)  (root, ROOT#null, 代谢#VV)  (conj, 发育#NN, 心智#NN)  (cc, 发育#NN, 和#CC)  (nn, 发育#NN, 体格#NN)  (nn, 调#NN, 发育#NN)  (advmod, 调#NN, 甚至#AD)  (nn, 调#NN, 情绪#NN)  (nsubj, 有#VE, 调#NN)  (advmod, 有#VE, 划都#AD)  (ccomp, 代谢#VV, 有#VE)  (amod, 影响#NN, 重大#JJ)  (dobj, 有#VE, 影响#NN)
+            (nsubj, 丰富#VA, 含有#NN)  (advmod, 丰富#VA, 非常#AD)  (relcl, 氟元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 参与#VV, 氟元素#NN)  (mmod, 参与#VV, 可#VV)  (root, ROOT#null, 参与#VV)  (assmod, 生长#NN, 牙和骨#NN)  (case, 牙和骨#NN, 的#DEG)  (dobj, 参与#VV, 生长#NN)
+            (advmod, 有#VE, 另外#AD)  (assmod, 神经#NN, 莴笋#NN)  (case, 莴笋#NN, 中#LC)  (case, 莴笋#NN, 的#DEG)  (det, 神经#NN, 某#DT)  (clf, 某#DT, 种#M)  (nn, 神经#NN, 物质#NN)  (nn, 神经#NN, 对视#NN)  (dep, 有#VE, 神经#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 刺激#NN)  (dobj, 有#VE, 作用#NN)  (nn, 莴苣#NN, 古书#NN)  (nn, 莴苣#NN, 记载#NN)  (nn, 食#NN, 莴苣#NN)  (nummod, 食#NN, 多#CD)  (nsubj, 使#VV, 食#NN)  (conj, 有#VE, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 目糊#VV)  (conj, 使#VV, 停食#VV)  (dobj, 停食#VV, 数天#NN)  (advmod, 恢复#VV, 则#AD)  (mmod, 恢复#VV, 能#VV)  (advmod, 恢复#VV, 自行#AD)  (conj, 使#VV, 恢复#VV)  (advmod, 弱者#VV, 故#AD)  (advmod, 弱者#VV, 视力#AD)  (conj, 使#VV, 弱者#VV)  (neg, 弱者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 弱者#VV, 食#NN)  (conj, 有#VE, 有#VE)  (nn, 人#NN, 眼疾#NR)  (advmod, 人#NN, 特别是#AD)  (assmod, 人#NN, 夜盲症#NN)  (case, 夜盲症#NN, 的#DEG)  (nsubj, 应#VV, 人#NN)  (advmod, 应#VV, 也#AD)  (dep, 有#VE, 应#VV)  (dobj, 应#VV, 少食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.莴笋适用于烧、拌、炝、炒等烹调方法，也可用它做汤和配料等。
+            2.莴笋怕咸，盐要少放才好吃。
+            3.焯莴苣时一定要注意时间和温度，焯的时间过长、温度过高会使莴苣绵软，失去清脆口感。
+            4.莴笋是传统的丰胸蔬菜，与含B族维生素的牛肉合用，具有调养气血的作用，可以促使乳房部位的营养供应。
+            5.莴苣下锅前挤干水分，可以增加莴苣的脆嫩。但从营养角度考虑，不应挤干水分，这会丧失大量的水溶性维生素。
+        </rawdata>
+
+        <segment>
+            莴笋  适用  于  烧  、  拌  、  炝  、  炒  等  烹调  方法  ，  也  可  用  它  做  汤  和  配料  等  。
+            莴笋  怕  咸  ，  盐  要  少  放  才  好吃  。
+            焯莴苣  时  一定  要  注意  时间  和  温度  ，  焯的  时间  过长  、  温度  过  高  会使  莴苣  绵软  ，  失去  清脆  口感  。
+            莴笋  是  传统  的  丰  胸  蔬菜  ，  与  含  B  族  维生素  的  牛肉  合用  ，  具有  调养  气血  的  作用  ，  可以  促使  乳房  部位  的  营养  供应  。
+            莴苣  下锅  前  挤干  水分  ，  可以  增加  莴苣  的  脆嫩  。  但  从  营养  角度  考虑  ，  不  应  挤干  水分  ，  这  会  丧失  大量  的  水溶性  维生素  。
+        </segment>
+
+        <pos>
+            莴笋#NN  适用#NN  于#P  烧#NR  、#PU  拌#NR  、#PU  炝#NR  、#PU  炒#NR  等#ETC  烹调#NN  方法#NN  ，#PU  也#AD  可#VV  用#P  它#PN  做#VV  汤#NN  和#CC  配料#NN  等#ETC  。#PU
+            莴笋#NR  怕#VV  咸#VV  ，#PU  盐#NN  要#AD  少#VA  放#VV  才#AD  好吃#VV  。#PU
+            焯莴苣#NN  时#LC  一定#AD  要#VV  注意#VV  时间#NN  和#CC  温度#NN  ，#PU  焯的#NN  时间#NN  过长#NN  、#PU  温度#NN  过#AD  高#VA  会使#NN  莴苣#VV  绵软#NN  ，#PU  失去#VV  清脆#NN  口感#NN  。#PU
+            莴笋#NN  是#VC  传统#JJ  的#DEG  丰#VA  胸#NN  蔬菜#NN  ，#PU  与#P  含#VV  B#NN  族#NN  维生素#NN  的#DEC  牛肉#NN  合用#VV  ，#PU  具有#VV  调养#NN  气血#NN  的#DEG  作用#NN  ，#PU  可以#VV  促使#VV  乳房#VV  部位#NN  的#DEG  营养#VA  供应#NN  。#PU
+            莴苣#NN  下锅#NN  前#LC  挤干#VV  水分#NN  ，#PU  可以#VV  增加#VV  莴苣#NN  的#DEG  脆嫩#NN    。#PU  但#AD  从#P  营养#VA  角度#NN  考虑#VV  ，#PU  不#AD  应#VV  挤干#VV  水分#NN  ，#PU  这#PN  会#VV  丧失#VV  大量#CD  的#DEG  水溶性#NN  维生素#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 适用#NN, 莴笋#NN)  (nsubj, 做#VV, 适用#NN)  (case, 方法#NN, 于#P)  (conj, 炒#NR, 烧#NR)  (conj, 炒#NR, 拌#NR)  (conj, 炒#NR, 炝#NR)  (nn, 方法#NN, 炒#NR)  (etc, 炒#NR, 等#ETC)  (nn, 方法#NN, 烹调#NN)  (prep, 做#VV, 方法#NN)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (case, 它#PN, 用#P)  (prep, 做#VV, 它#PN)  (root, ROOT#null, 做#VV)  (conj, 配料#NN, 汤#NN)  (cc, 配料#NN, 和#CC)  (dobj, 做#VV, 配料#NN)  (etc, 配料#NN, 等#ETC)
+            (nsubj, 怕#VV, 莴笋#NR)  (xsubj, 咸#VV, 莴笋#NR)  (root, ROOT#null, 怕#VV)  (ccomp, 怕#VV, 咸#VV)  (nsubj, 少#VA, 盐#NN)  (advmod, 少#VA, 要#AD)  (ccomp, 咸#VV, 少#VA)  (dep, 咸#VV, 放#VV)  (advmod, 好吃#VV, 才#AD)  (dep, 咸#VV, 好吃#VV)
+            (loc, 注意#VV, 焯莴苣#NN)  (case, 焯莴苣#NN, 时#LC)  (advmod, 注意#VV, 一定#AD)  (mmod, 注意#VV, 要#VV)  (dep, 莴苣#VV, 注意#VV)  (conj, 温度#NN, 时间#NN)  (cc, 温度#NN, 和#CC)  (dobj, 注意#VV, 温度#NN)  (nn, 过长#NN, 焯的#NN)  (nn, 过长#NN, 时间#NN)  (conj, 会使#NN, 过长#NN)  (nsubj, 高#VA, 温度#NN)  (advmod, 高#VA, 过#AD)  (relcl, 会使#NN, 高#VA)  (nsubj, 莴苣#VV, 会使#NN)  (root, ROOT#null, 莴苣#VV)  (dobj, 莴苣#VV, 绵软#NN)  (conj, 莴苣#VV, 失去#VV)  (nn, 口感#NN, 清脆#NN)  (dobj, 失去#VV, 口感#NN)
+            (nsubj, 蔬菜#NN, 莴笋#NN)  (cop, 蔬菜#NN, 是#VC)  (assmod, 蔬菜#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (nfincl, 蔬菜#NN, 丰#VA)  (nn, 蔬菜#NN, 胸#NN)  (root, ROOT#null, 蔬菜#NN)  (case, 牛肉#NN, 与#P)  (relcl, 牛肉#NN, 含#VV)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 含#VV, 维生素#NN)  (mark, 含#VV, 的#DEC)  (prep, 合用#VV, 牛肉#NN)  (conj, 蔬菜#NN, 合用#VV)  (conj, 蔬菜#NN, 具有#VV)  (nn, 气血#NN, 调养#NN)  (assmod, 作用#NN, 气血#NN)  (case, 气血#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (mmod, 促使#VV, 可以#VV)  (conj, 蔬菜#NN, 促使#VV)  (ccomp, 促使#VV, 乳房#VV)  (assmod, 供应#NN, 部位#NN)  (case, 部位#NN, 的#DEG)  (nfincl, 供应#NN, 营养#VA)  (dobj, 乳房#VV, 供应#NN)
+            (nsubj, 挤干#VV, 莴苣#NN)  (loc, 挤干#VV, 下锅#NN)  (case, 下锅#NN, 前#LC)  (root, ROOT#null, 挤干#VV)  (dobj, 挤干#VV, 水分#NN)  (mmod, 增加#VV, 可以#VV)  (conj, 挤干#VV, 增加#VV)  (assmod, 脆嫩#NN, 莴苣#NN)  (case, 莴苣#NN, 的#DEG)  (dobj, 增加#VV, 脆嫩#NN)   (advmod, 考虑#VV, 但#AD)  (case, 角度#NN, 从#P)  (nfincl, 角度#NN, 营养#VA)  (prep, 考虑#VV, 角度#NN)  (root, ROOT#null, 考虑#VV)  (neg, 挤干#VV, 不#AD)  (mmod, 挤干#VV, 应#VV)  (ccomp, 考虑#VV, 挤干#VV)  (dobj, 挤干#VV, 水分#NN)  (nsubj, 丧失#VV, 这#PN)  (mmod, 丧失#VV, 会#VV)  (dep, 考虑#VV, 丧失#VV)  (assmod, 维生素#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 维生素#NN, 水溶性#NN)  (dobj, 丧失#VV, 维生素#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/061004517642.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

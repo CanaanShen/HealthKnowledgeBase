@@ -1,0 +1,310 @@
+<content>
+
+    <id>
+        406
+    </id>
+
+    <foodname>
+        黄米
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        黍、糜子、夏小米
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            燥热者忌食。
+        </rawdata>
+
+        <segment>
+            燥热者  忌食  。
+        </segment>
+
+        <pos>
+            燥热者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 燥热者#VV)  (dobj, 燥热者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜于体弱多病，面生疔疮者食用；适宜阳盛阴虚，夜不得眠，久泄胃弱，疗冻疮、疥疮、毒热、毒肿者食用。（体弱多病、面生疔疮者，每餐以50克为宜，不宜长期大量服用）
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜于  体弱多病  ，  面生  疔疮  者  食用  ；  适宜  阳  盛  阴虚  ，  夜  不得眠  ，  久  泄  胃弱  ，  疗  冻疮  、  疥疮  、  毒热  、  毒肿  者  食用  。  （  体弱多病  、  面生  疔疮者  ，  每  餐  以  50  克  为宜  ，  不  宜  长期  大量  服用  ）
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜于#NR  体弱多病#VV  ，#PU  面生#NN  疔疮#NN  者#NN  食用#VV  ；#PU  适宜#VA  阳#AD  盛#VA  阴虚#VA  ，#PU  夜#NN  不得眠#NN  ，#PU  久#AD  泄#VV  胃弱#NN  ，#PU  疗#NR  冻疮#NR  、#PU  疥疮#NR  、#PU  毒热#NR  、#PU  毒肿#NR  者#NN  食用#VV    。#PU  （#PU  体弱多病#NN  、#PU  面生#NN  疔疮者#NN  ，#PU  每#DT  餐#NN  以#P  50#CD  克#M  为宜#NN  ，#PU  不#AD  宜#NR  长期#AD  大量#AD  服用#VV  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 体弱多病#VV, 适宜于#NR)  (root, ROOT#null, 体弱多病#VV)  (nn, 者#NN, 面生#NN)  (nn, 者#NN, 疔疮#NN)  (nsubj, 食用#VV, 者#NN)  (ccomp, 体弱多病#VV, 食用#VV)  (dep, 盛#VA, 适宜#VA)  (advmod, 盛#VA, 阳#AD)  (conj, 食用#VV, 盛#VA)  (comod, 盛#VA, 阴虚#VA)  (nn, 不得眠#NN, 夜#NN)  (nsubj, 泄#VV, 不得眠#NN)  (advmod, 泄#VV, 久#AD)  (conj, 食用#VV, 泄#VV)  (dobj, 泄#VV, 胃弱#NN)  (nn, 毒肿#NR, 疗#NR)  (conj, 毒肿#NR, 冻疮#NR)  (conj, 毒肿#NR, 疥疮#NR)  (conj, 毒肿#NR, 毒热#NR)  (nn, 者#NN, 毒肿#NR)  (nsubj, 食用#VV, 者#NN)  (conj, 食用#VV, 食用#VV)   (conj, 餐#NN, 体弱多病#NN)  (nn, 疔疮者#NN, 面生#NN)  (dep, 餐#NN, 疔疮者#NN)  (det, 餐#NN, 每#DT)  (nsubj, 服用#VV, 餐#NN)  (case, 为宜#NN, 以#P)  (nummod, 克#M, 50#CD)  (clf, 为宜#NN, 克#M)  (prep, 服用#VV, 为宜#NN)  (neg, 服用#VV, 不#AD)  (dep, 服用#VV, 宜#NR)  (advmod, 服用#VV, 长期#AD)  (advmod, 服用#VV, 大量#AD)  (root, ROOT#null, 服用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                342
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                9.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                76.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                4.61
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄米又称黍、糜子、夏小米，有糯质和非糯质之别，糯质黍多作以醇酒，非糯质黍，称为穄，以食用为主。原产中国北方，是古代黄河流域重要的粮食作物之一。照字典的解释，是去了壳的黍子的果实，比小米稍大，颜色淡黄，煮熟后很黏。黄米可用于煮粥、做糕、做米饭和酿酒。黄米、小米同出北方，但在北方人眼里，黄米是要高于小米的。人们拿它当江米使，有些地方还拿它做糕待客。
+            糜、黍在植株形态上区别较小，由糜子加工成的米没有糯性，陕北老百姓称其为“黄米”或“糜米”，由黍子加工成的米有糯性，陕北老百姓称其为“软米”。蒙古族喜欢食用的“炒米”由糜米制作而成，东北人喜欢吃的“年糕”是由软米制作而成。
+        </rawdata>
+
+        <segment>
+            黄米  又  称  黍  、  糜子  、  夏  小米  ，  有  糯质  和  非糯质  之  别  ，  糯质  黍  多  作  以  醇酒  ，  非  糯质黍  ，  称为  穄  ，  以  食用  为主  。  原产  中国  北方  ，  是  古代  黄河  流域  重要  的  粮食  作物  之一  。  照  字典  的  解释  ，  是  去  了  壳  的  黍子  的  果实  ，  比  小米  稍大  ，  颜色  淡黄  ，  煮熟  后  很  黏  。  黄米  可  用于  煮粥  、  做糕  、  做  米饭  和  酿酒  。  黄米  、  小米  同  出  北方  ，  但  在  北方人  眼里  ，  黄米  是  要  高于  小米  的  。  人们  拿  它  当  江米  使  ，  有些  地方  还  拿  它  做糕  待客  。
+            糜  、  黍  在  植株  形态  上  区别  较小  ，  由  糜子  加工  成  的  米没有  糯性  ，  陕北  老百姓  称  其  为  “  黄米  ”  或  “  糜米  ”  ，  由  黍子  加工  成  的  米有糯性  ，  陕北  老百姓  称  其  为  “  软米  ”  。  蒙古族  喜欢  食用  的  “  炒米  ”  由  糜米  制作  而  成  ，  东北  人  喜欢  吃  的  “  年糕  ”  是  由  软  米  制作  而  成  。
+        </segment>
+
+        <pos>
+            黄米#NR  又#AD  称#VV  黍#NR  、#PU  糜子#NR  、#PU  夏#NR  小米#NN  ，#PU  有#VE  糯质#NN  和#CC  非糯质#NN  之#DEG  别#DT  ，#PU  糯质#NN  黍#NN  多#AD  作#VV  以#MSP  醇酒#VV  ，#PU  非#JJ  糯质黍#NN  ，#PU  称为#VV  穄#NN  ，#PU  以#P  食用#VV  为主#VV    。#PU  原产#VV  中国#NR  北方#NN  ，#PU  是#VC  古代#NN  黄河#NR  流域#NN  重要#VA  的#DEC  粮食#NN  作物#NN  之一#NN    。#PU  照#NR  字典#NN  的#DEG  解释#NN  ，#PU  是#VC  去#VV  了#AS  壳#NN  的#DEG  黍子#NN  的#DEC  果实#NN  ，#PU  比#P  小米#NN  稍大#NN  ，#PU  颜色#NN  淡黄#NN  ，#PU  煮熟#NN  后#LC  很#AD  黏#VA    。#PU  黄米#NN  可#VV  用于#VV  煮粥#NR  、#PU  做糕#NR  、#PU  做#VV  米饭#NN  和#CC  酿酒#NN    。#PU  黄米#NR  、#PU  小米#NR  同#P  出#VV  北方#NN  ，#PU  但#AD  在#P  北方人#NR  眼里#VV  ，#PU  黄米#NN  是#VC  要#VV  高于#VV  小米#NN  的#DEC    。#PU  人们#NN  拿#VV  它#PN  当#P  江米#NN  使#VV  ，#PU  有些#DT  地方#NN  还#AD  拿#VV  它#PN  做糕#NN  待客#NN    。#PU    。#PU
+            糜#NR  、#PU  黍#NR  在#P  植株#NN  形态#NN  上#LC  区别#VV  较小#NN  ，#PU  由#P  糜子#NN  加工#NN  成#VV  的#DEC  米没有#NN  糯性#VV  ，#PU  陕北#NR  老百姓#NN  称#VV  其#PN  为#VC  ``#VV  黄米#NN  ''#NN  或#CC  ``#NN  糜米#NN  ''#NN  ，#PU  由#P  黍子#NN  加工#NN  成#VV  的#DEC  米有糯性#NN  ，#PU  陕北#NR  老百姓#NN  称#VV  其#PN  为#P  ``#NN  软米#VV  ''#NN    。#PU  蒙古族#NN  喜欢#VV  食用#VV  的#DEC  ``#NN  炒米#NN  ''#NN  由#P  糜米#NN  制作#VV  而#MSP  成#VV  ，#PU  东北#NN  人#NN  喜欢#VV  吃#VV  的#DEC  ``#NN  年糕#NN  ''#AD  是#VC  由#P  软#JJ  米#M  制作#NN  而#MSP  成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 黄米#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (conj, 夏#NR, 黍#NR)  (conj, 夏#NR, 糜子#NR)  (nn, 小米#NN, 夏#NR)  (nsubj, 有#VE, 小米#NN)  (ccomp, 称#VV, 有#VE)  (conj, 非糯质#NN, 糯质#NN)  (cc, 非糯质#NN, 和#CC)  (dep, 别#DT, 非糯质#NN)  (case, 非糯质#NN, 之#DEG)  (dep, 作#VV, 别#DT)  (nn, 黍#NN, 糯质#NN)  (nsubj, 作#VV, 黍#NN)  (advmod, 作#VV, 多#AD)  (dep, 有#VE, 作#VV)  (prtmod, 醇酒#VV, 以#MSP)  (dep, 有#VE, 醇酒#VV)  (amod, 糯质黍#NN, 非#JJ)  (nsubj, 称为#VV, 糯质黍#NN)  (ccomp, 醇酒#VV, 称为#VV)  (dobj, 称为#VV, 穄#NN)  (case, 食用#VV, 以#P)  (prep, 为主#VV, 食用#VV)  (conj, 称为#VV, 为主#VV)   (root, ROOT#null, 原产#VV)  (nn, 北方#NN, 中国#NR)  (dobj, 原产#VV, 北方#NN)  (cop, 之一#NN, 是#VC)  (nn, 流域#NN, 古代#NN)  (nn, 流域#NN, 黄河#NR)  (nsubj, 重要#VA, 流域#NN)  (relcl, 之一#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 之一#NN, 粮食#NN)  (nn, 之一#NN, 作物#NN)  (conj, 原产#VV, 之一#NN)   (nn, 字典#NN, 照#NR)  (assmod, 解释#NN, 字典#NN)  (case, 字典#NN, 的#DEG)  (dep, 果实#NN, 解释#NN)  (cop, 果实#NN, 是#VC)  (relcl, 果实#NN, 去#VV)  (asp, 去#VV, 了#AS)  (assmod, 黍子#NN, 壳#NN)  (case, 壳#NN, 的#DEG)  (dobj, 去#VV, 黍子#NN)  (mark, 去#VV, 的#DEC)  (root, ROOT#null, 果实#NN)  (case, 稍大#NN, 比#P)  (nn, 稍大#NN, 小米#NN)  (prep, 黏#VA, 稍大#NN)  (nn, 淡黄#NN, 颜色#NN)  (nsubj, 黏#VA, 淡黄#NN)  (loc, 黏#VA, 煮熟#NN)  (case, 煮熟#NN, 后#LC)  (advmod, 黏#VA, 很#AD)  (conj, 果实#NN, 黏#VA)   (nsubj, 用于#VV, 黄米#NN)  (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (conj, 做糕#NR, 煮粥#NR)  (dobj, 用于#VV, 做糕#NR)  (conj, 用于#VV, 做#VV)  (conj, 酿酒#NN, 米饭#NN)  (cc, 酿酒#NN, 和#CC)  (dobj, 做#VV, 酿酒#NN)   (conj, 小米#NR, 黄米#NR)  (nsubj, 眼里#VV, 小米#NR)  (case, 北方#NN, 同#P)  (nfincl, 北方#NN, 出#VV)  (prep, 眼里#VV, 北方#NN)  (advmod, 眼里#VV, 但#AD)  (case, 北方人#NR, 在#P)  (prep, 眼里#VV, 北方人#NR)  (root, ROOT#null, 眼里#VV)  (nsubj, 高于#VV, 黄米#NN)  (cop, 高于#VV, 是#VC)  (mmod, 高于#VV, 要#VV)  (ccomp, 眼里#VV, 高于#VV)  (dobj, 高于#VV, 小米#NN)  (mark, 高于#VV, 的#DEC)   (nsubj, 拿#VV, 人们#NN)  (dep, 使#VV, 拿#VV)  (nsubj, 使#VV, 它#PN)  (case, 江米#NN, 当#P)  (prep, 使#VV, 江米#NN)  (root, ROOT#null, 使#VV)  (det, 地方#NN, 有些#DT)  (nsubj, 拿#VV, 地方#NN)  (advmod, 拿#VV, 还#AD)  (ccomp, 使#VV, 拿#VV)  (nn, 待客#NN, 它#PN)  (nn, 待客#NN, 做糕#NN)  (dobj, 拿#VV, 待客#NN)   (root, ROOT#null, null#null)
+            (conj, 黍#NR, 糜#NR)  (nsubj, 区别#VV, 黍#NR)  (case, 形态#NN, 在#P)  (nn, 形态#NN, 植株#NN)  (prep, 区别#VV, 形态#NN)  (case, 形态#NN, 上#LC)  (relcl, 米没有#NN, 区别#VV)  (dobj, 区别#VV, 较小#NN)  (case, 加工#NN, 由#P)  (nn, 加工#NN, 糜子#NN)  (prep, 成#VV, 加工#NN)  (dep, 区别#VV, 成#VV)  (mark, 区别#VV, 的#DEC)  (nsubj, 糯性#VV, 米没有#NN)  (root, ROOT#null, 糯性#VV)  (nn, 老百姓#NN, 陕北#NR)  (nsubj, 称#VV, 老百姓#NN)  (ccomp, 糯性#VV, 称#VV)  (nsubj, 米有糯性#NN, 其#PN)  (cop, 米有糯性#NN, 为#VC)  (relcl, 米有糯性#NN, ``#VV)  (nn, ''#NN, 黄米#NN)  (conj, ''#NN, ''#NN)  (cc, ''#NN, 或#CC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 糜米#NN)  (dobj, ``#VV, ''#NN)  (case, 加工#NN, 由#P)  (nn, 加工#NN, 黍子#NN)  (prep, 成#VV, 加工#NN)  (conj, ``#VV, 成#VV)  (mark, ``#VV, 的#DEC)  (ccomp, 称#VV, 米有糯性#NN)  (nn, 老百姓#NN, 陕北#NR)  (nsubj, 称#VV, 老百姓#NN)  (conj, 米有糯性#NN, 称#VV)  (dobj, 称#VV, 其#PN)  (case, ``#NN, 为#P)  (prep, 软米#VV, ``#NN)  (dep, 称#VV, 软米#VV)  (dobj, 软米#VV, ''#NN)   (nsubj, 喜欢#VV, 蒙古族#NN)  (root, ROOT#null, 喜欢#VV)  (relcl, ''#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 炒米#NN)  (nsubj, 制作#VV, ''#NN)  (case, 糜米#NN, 由#P)  (prep, 制作#VV, 糜米#NN)  (ccomp, 喜欢#VV, 制作#VV)  (dep, 成#VV, 而#MSP)  (dobj, 制作#VV, 成#VV)  (nn, 人#NN, 东北#NN)  (nsubj, 喜欢#VV, 人#NN)  (conj, 制作#VV, 喜欢#VV)  (relcl, 年糕#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nn, 年糕#NN, ``#NN)  (dobj, 喜欢#VV, 年糕#NN)  (advmod, 是#VC, ''#AD)  (dep, 喜欢#VV, 是#VC)  (case, 成#VV, 由#P)  (amod, 米#M, 软#JJ)  (dep, 制作#NN, 米#M)  (nsubj, 成#VV, 制作#NN)  (prtmod, 成#VV, 而#MSP)  (prep, 是#VC, 成#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.养阴补虚
+            黄米补虚损，益精气，润肺补肾，用于肺肾阴虚。适宜与久病体虚或是虚劳的补益。
+            2.润肺
+            黄米滋阴润肺，去除肺燥肺热。使人呼吸畅通舒适。
+            3.通便
+            黄米可以润滑肠道，刺激排便。
+            4.安神
+            可治阳盛阴虚，夜不得眠，久泄胃弱，疗冻疮、疥疮、毒热、毒肿等症。
+        </rawdata>
+
+        <segment>
+            养  阴  补  虚
+            黄米补  虚损  ，  益  精气  ，  润肺  补肾  ，  用于  肺  肾  阴虚  。  适宜  与  久  病体  虚  或是  虚劳  的  补益  。
+            润肺
+            黄米  滋阴  润肺  ，  去除  肺燥  肺  热  。  使  人  呼吸  畅通  舒适  。
+            通便
+            黄米  可以  润滑  肠道  ，  刺激  排便  。
+            安神
+            可治  阳  盛  阴虚  ，  夜  不得眠  ，  久  泄  胃弱  ，  疗  冻疮  、  疥疮  、  毒热  、  毒肿  等症  。
+        </segment>
+
+        <pos>
+            养#VV  阴#NN  补#VV  虚#AD
+            黄米补#NR  虚损#VV  ，#PU  益#NN  精气#NN  ，#PU  润肺#VV  补肾#NN  ，#PU  用于#VV  肺#NN  肾#NN  阴虚#NN    。#PU  适宜#VA  与#CC  久#VA  病体#NN  虚#AD  或是#VV  虚劳#NN  的#DEG  补益#NN    。#PU    。#PU
+            润肺#VV
+            黄米#NN  滋阴#NN  润肺#VV  ，#PU  去除#NN  肺燥#VV  肺#NN  热#NN    。#PU  使#VV  人#NN  呼吸#NN  畅通#NN  舒适#VA    。#PU    。#PU
+            通便#VV
+            黄米#NN  可以#VV  润滑#VV  肠道#NN  ，#PU  刺激#VV  排便#NN  。#PU
+            安神#VV
+            可治#NN  阳#AD  盛#VA  阴虚#VA  ，#PU  夜#NN  不得眠#NN  ，#PU  久#AD  泄#VV  胃弱#NN  ，#PU  疗#VV  冻疮#NR  、#PU  疥疮#NR  、#PU  毒热#NR  、#PU  毒肿#NR  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 养#VV, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (nsubj, 虚损#VV, 黄米补#NR)  (root, ROOT#null, 虚损#VV)  (nn, 精气#NN, 益#NN)  (nsubj, 润肺#VV, 精气#NN)  (ccomp, 虚损#VV, 润肺#VV)  (dobj, 润肺#VV, 补肾#NN)  (conj, 润肺#VV, 用于#VV)  (nn, 阴虚#NN, 肺#NN)  (nn, 阴虚#NN, 肾#NN)  (dobj, 用于#VV, 阴虚#NN)   (root, ROOT#null, 适宜#VA)  (cc, 适宜#VA, 与#CC)  (dep, 适宜#VA, 久#VA)  (nsubj, 或是#VV, 病体#NN)  (advmod, 或是#VV, 虚#AD)  (dep, 适宜#VA, 或是#VV)  (assmod, 补益#NN, 虚劳#NN)  (case, 虚劳#NN, 的#DEG)  (dobj, 或是#VV, 补益#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 润肺#VV)
+            (nn, 滋阴#NN, 黄米#NN)  (nsubj, 润肺#VV, 滋阴#NN)  (root, ROOT#null, 润肺#VV)  (nsubj, 肺燥#VV, 去除#NN)  (ccomp, 润肺#VV, 肺燥#VV)  (nn, 热#NN, 肺#NN)  (dobj, 肺燥#VV, 热#NN)   (root, ROOT#null, 使#VV)  (nn, 畅通#NN, 人#NN)  (nn, 畅通#NN, 呼吸#NN)  (dobj, 使#VV, 畅通#NN)  (dep, 使#VV, 舒适#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 通便#VV)
+            (nsubj, 润滑#VV, 黄米#NN)  (mmod, 润滑#VV, 可以#VV)  (root, ROOT#null, 润滑#VV)  (dobj, 润滑#VV, 肠道#NN)  (dep, 润滑#VV, 刺激#VV)  (dobj, 刺激#VV, 排便#NN)
+            (root, ROOT#null, 安神#VV)
+            (nsubj, 盛#VA, 可治#NN)  (advmod, 盛#VA, 阳#AD)  (root, ROOT#null, 盛#VA)  (comod, 盛#VA, 阴虚#VA)  (nn, 不得眠#NN, 夜#NN)  (nsubj, 泄#VV, 不得眠#NN)  (advmod, 泄#VV, 久#AD)  (conj, 盛#VA, 泄#VV)  (dobj, 泄#VV, 胃弱#NN)  (dep, 泄#VV, 疗#VV)  (conj, 毒肿#NR, 冻疮#NR)  (conj, 毒肿#NR, 疥疮#NR)  (conj, 毒肿#NR, 毒热#NR)  (nn, 等症#NN, 毒肿#NR)  (dobj, 疗#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  和胃  敛疮  安神  祛风除湿  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            黄米富含蛋白质、碳水化合物、B族维生素、维生素E、锌、铜、锰等营养元素，具有益阴、利肺、利大肠之功效。
+        </rawdata>
+
+        <segment>
+            黄米  富含  蛋白质  、  碳水化合物  、  B族  维生素  、  维生素E  、  锌  、  铜  、  锰等  营养  元素  ，  具有  益阴  、  利肺  、  利  大肠  之  功效  。
+        </segment>
+
+        <pos>
+            黄米#NN  富含#VV  蛋白质#NR  、#PU  碳水化合物#NR  、#PU  B族#NR  维生素#NN  、#PU  维生素E#NN  、#PU  锌#NN  、#PU  铜#NN  、#PU  锰等#NN  营养#VA  元素#NN  ，#PU  具有#VV  益阴#NR  、#PU  利肺#NR  、#PU  利#NR  大肠#NN  之#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 黄米#NN)  (root, ROOT#null, 富含#VV)  (conj, B族#NR, 蛋白质#NR)  (conj, B族#NR, 碳水化合物#NR)  (nn, 元素#NN, B族#NR)  (conj, 锰等#NN, 维生素#NN)  (conj, 锰等#NN, 维生素E#NN)  (conj, 锰等#NN, 锌#NN)  (conj, 锰等#NN, 铜#NN)  (nn, 元素#NN, 锰等#NN)  (nfincl, 元素#NN, 营养#VA)  (dobj, 富含#VV, 元素#NN)  (conj, 富含#VV, 具有#VV)  (conj, 利#NR, 益阴#NR)  (conj, 利#NR, 利肺#NR)  (nn, 大肠#NN, 利#NR)  (assmod, 功效#NN, 大肠#NN)  (case, 大肠#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            黄米面可做糕点，尤以炸糕、驴打滚最为有名。炸糕是北方人节日喜庆必备的佳品，驴打滚是非常有名的大众化小吃，黄米亦可酿酒。
+        </rawdata>
+
+        <segment>
+            黄米面  可  做  糕点  ，  尤以  炸糕  、  驴打滚  最为  有名  。  炸糕  是  北方人  节日  喜庆  必备  的  佳品  ，  驴打滚  是  非常  有名  的  大众化  小吃  ，  黄米  亦  可  酿酒  。
+        </segment>
+
+        <pos>
+            黄米面#NR  可#VV  做#VV  糕点#NN  ，#PU  尤以#NR  炸糕#NN  、#PU  驴打滚#NN  最为#AD  有名#VA    。#PU  炸糕#NN  是#VC  北方人#NN  节日#NN  喜庆#VV  必备#VV  的#DEC  佳品#NN  ，#PU  驴打滚#NN  是#VC  非常#AD  有名#VA  的#DEC  大众化#JJ  小吃#NN  ，#PU  黄米#NN  亦#AD  可#VV  酿酒#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 做#VV, 黄米面#NR)  (mmod, 做#VV, 可#VV)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 糕点#NN)  (nn, 驴打滚#NN, 尤以#NR)  (conj, 驴打滚#NN, 炸糕#NN)  (nsubj, 有名#VA, 驴打滚#NN)  (advmod, 有名#VA, 最为#AD)  (conj, 做#VV, 有名#VA)   (nsubj, 节日#NN, 炸糕#NN)  (cop, 节日#NN, 是#VC)  (nn, 节日#NN, 北方人#NN)  (root, ROOT#null, 节日#NN)  (conj, 节日#NN, 喜庆#VV)  (relcl, 佳品#NN, 必备#VV)  (mark, 必备#VV, 的#DEC)  (dobj, 喜庆#VV, 佳品#NN)  (nsubj, 小吃#NN, 驴打滚#NN)  (cop, 小吃#NN, 是#VC)  (advmod, 有名#VA, 非常#AD)  (relcl, 小吃#NN, 有名#VA)  (mark, 有名#VA, 的#DEC)  (amod, 小吃#NN, 大众化#JJ)  (conj, 节日#NN, 小吃#NN)  (nsubj, 可#VV, 黄米#NN)  (advmod, 可#VV, 亦#AD)  (conj, 节日#NN, 可#VV)  (dobj, 可#VV, 酿酒#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091413526853.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

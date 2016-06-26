@@ -1,0 +1,384 @@
+<content>
+
+    <id>
+        533
+    </id>
+
+    <foodname>
+        酸奶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        酸牛奶
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃肠道手术后的病人、腹泻或其他肠道疾病患者慎食。
+        </rawdata>
+
+        <segment>
+            胃肠道  手术  后  的  病人  、  腹泻  或  其他  肠道  疾病  患者  慎食  。
+        </segment>
+
+        <pos>
+            胃肠道#VV  手术#NN  后#LC  的#DEG  病人#NN  、#PU  腹泻#NN  或#CC  其他#DT  肠道#NN  疾病#NN  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胃肠道#VV)  (assmod, 病人#NN, 手术#NN)  (case, 手术#NN, 后#LC)  (case, 手术#NN, 的#DEG)  (conj, 疾病#NN, 病人#NN)  (conj, 疾病#NN, 腹泻#NN)  (cc, 疾病#NN, 或#CC)  (det, 肠道#NN, 其他#DT)  (nn, 疾病#NN, 肠道#NN)  (nn, 患者#NN, 疾病#NN)  (nn, 慎食#NN, 患者#NN)  (dobj, 胃肠道#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜身体虚弱，气血不足，营养不良，肠燥便秘之人；高胆固醇血症，动脉硬化，冠心病，脂肪肝患者；癌症患者，尤其是消化道癌症病人；皮肤干燥之人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  身体  虚弱  ，  气血  不足  ，  营养  不良  ，  肠燥  便秘  之人  ；  高  胆固醇血症  ，  动脉  硬化  ，  冠心病  ，  脂肪肝  患者  ；  癌症  患者  ，  尤其是  消化道  癌症  病人  ；  皮肤  干燥  之  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  身体#NN  虚弱#NN  ，#PU  气血#VV  不足#NN  ，#PU  营养#VA  不良#JJ  ，#PU  肠燥#VV  便秘#NN  之人#NN  ；#PU  高#JJ  胆固醇血症#NN  ，#PU  动脉#NN  硬化#NN  ，#PU  冠心病#NN  ，#PU  脂肪肝#NN  患者#NN  ；#PU  癌症#NN  患者#NN  ，#PU  尤其是#AD  消化道#NN  癌症#NN  病人#NN  ；#PU  皮肤#VV  干燥#NR  之#DEG  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NR)  (root, ROOT#null, 适宜#VV)  (nn, 虚弱#NN, 身体#NN)  (dobj, 适宜#VV, 虚弱#NN)  (conj, 适宜#VV, 气血#VV)  (dobj, 气血#VV, 不足#NN)  (conj, 适宜#VV, 营养#VA)  (conj, 适宜#VV, 不良#JJ)  (conj, 适宜#VV, 肠燥#VV)  (nn, 之人#NN, 便秘#NN)  (dep, 病人#NN, 之人#NN)  (amod, 胆固醇血症#NN, 高#JJ)  (dep, 病人#NN, 胆固醇血症#NN)  (nn, 硬化#NN, 动脉#NN)  (dep, 病人#NN, 硬化#NN)  (dep, 病人#NN, 冠心病#NN)  (nn, 患者#NN, 脂肪肝#NN)  (dep, 病人#NN, 患者#NN)  (nn, 患者#NN, 癌症#NN)  (dep, 病人#NN, 患者#NN)  (advmod, 病人#NN, 尤其是#AD)  (nn, 病人#NN, 消化道#NN)  (nn, 病人#NN, 癌症#NN)  (dobj, 肠燥#VV, 病人#NN)  (conj, 适宜#VV, 皮肤#VV)  (assmod, 人#NN, 干燥#NR)  (case, 干燥#NR, 之#DEG)  (dobj, 皮肤#VV, 人#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                9.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                118
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                150
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                39.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            酸奶是以新鲜的牛奶为原料，经过巴氏杀菌后再向牛奶中添加有益菌（发酵剂），经发酵后，再冷却灌装的一种牛奶制品。目前市场上酸奶制品多以凝固型、搅拌型和添加各种果汁果酱等辅料的果味型为多。和新鲜牛奶相比，酸奶不但具有新鲜牛奶的全部招牌营养素，而且酸奶能使蛋白质结成细微的乳块，乳酸和钙结合生成的乳酸钙，更容易被消化吸收。
+        </rawdata>
+
+        <segment>
+            酸奶  是  以  新鲜  的  牛奶  为  原料  ，  经过  巴氏  杀菌  后  再  向  牛奶  中  添加  有  益菌  （  发酵剂  ）  ，  经  发酵  后  ，  再  冷却  灌装  的  一  种  牛奶  制品  。  目前  市场  上  酸奶  制品  多  以  凝固型  、  搅拌型  和  添加  各  种  果汁  果酱  等  辅料  的  果味  型  为多  。  和  新鲜  牛奶  相比  ，  酸奶  不但  具有  新鲜  牛奶  的  全部  招牌  营养素  ，  而且  酸奶  能  使  蛋白质  结成  细微  的  乳块  ，  乳酸  和  钙  结合  生成  的  乳酸  钙  ，  更  容易  被  消化  吸收  。
+        </segment>
+
+        <pos>
+            酸奶#NN  是#VC  以#P  新鲜#VA  的#DEC  牛奶#NN  为#VV  原料#NN  ，#PU  经过#P  巴氏#NN  杀菌#NN  后#LC  再#AD  向#P  牛奶#NN  中#LC  添加#VV  有#VE  益菌#NN  （#PU  发酵剂#NR  ）#PU  ，#PU  经#P  发酵#NN  后#LC  ，#PU  再#AD  冷却#VV  灌装#NN  的#DEC  一#CD  种#M  牛奶#NN  制品#NN    。#PU  目前#NT  市场#NN  上#LC  酸奶#VV  制品#NN  多#AD  以#P  凝固型#NN  、#PU  搅拌型#NN  和#CC  添加#VV  各#DT  种#M  果汁#NN  果酱#NN  等#ETC  辅料#NN  的#DEG  果味#CD  型#M  为多#NN    。#PU  和#P  新鲜#JJ  牛奶#NN  相比#VV  ，#PU  酸奶#NN  不但#CC  具有#VV  新鲜#JJ  牛奶#NN  的#DEG  全部#DT  招牌#NN  营养素#NN  ，#PU  而且#CC  酸奶#VV  能#VV  使#VV  蛋白质#NN  结成#VV  细微#NN  的#DEC  乳块#NN  ，#PU  乳酸#NN  和#CC  钙#NN  结合#VV  生成#NN  的#DEG  乳酸#NN  钙#NN  ，#PU  更#AD  容易#VA  被#LB  消化#NN  吸收#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 为#VV, 酸奶#NN)  (cop, 为#VV, 是#VC)  (case, 牛奶#NN, 以#P)  (relcl, 牛奶#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (prep, 为#VV, 牛奶#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 原料#NN)  (case, 杀菌#NN, 经过#P)  (nn, 杀菌#NN, 巴氏#NN)  (prep, 添加#VV, 杀菌#NN)  (case, 杀菌#NN, 后#LC)  (advmod, 添加#VV, 再#AD)  (case, 牛奶#NN, 向#P)  (prep, 添加#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (dep, 为#VV, 添加#VV)  (relcl, 制品#NN, 有#VE)  (nsubj, 冷却#VV, 益菌#NN)  (prnmod, 益菌#NN, 发酵剂#NR)  (case, 发酵#NN, 经#P)  (prep, 冷却#VV, 发酵#NN)  (case, 发酵#NN, 后#LC)  (advmod, 冷却#VV, 再#AD)  (dep, 有#VE, 冷却#VV)  (dobj, 冷却#VV, 灌装#NN)  (mark, 有#VE, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 制品#NN, 种#M)  (nn, 制品#NN, 牛奶#NN)  (dobj, 添加#VV, 制品#NN)   (tmod, 酸奶#VV, 目前#NT)  (loc, 酸奶#VV, 市场#NN)  (case, 市场#NN, 上#LC)  (root, ROOT#null, 酸奶#VV)  (nn, 为多#NN, 制品#NN)  (advmod, 型#M, 多#AD)  (case, 辅料#NN, 以#P)  (dep, 辅料#NN, 凝固型#NN)  (conj, 凝固型#NN, 搅拌型#NN)  (cc, 凝固型#NN, 和#CC)  (dep, 凝固型#NN, 添加#VV)  (det, 果汁#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 果酱#NN, 果汁#NN)  (dobj, 添加#VV, 果酱#NN)  (etc, 果酱#NN, 等#ETC)  (assmod, 型#M, 辅料#NN)  (case, 辅料#NN, 的#DEG)  (nummod, 型#M, 果味#CD)  (clf, 为多#NN, 型#M)  (dobj, 酸奶#VV, 为多#NN)   (case, 牛奶#NN, 和#P)  (amod, 牛奶#NN, 新鲜#JJ)  (prep, 相比#VV, 牛奶#NN)  (dep, 具有#VV, 相比#VV)  (nsubj, 具有#VV, 酸奶#NN)  (cc, 具有#VV, 不但#CC)  (root, ROOT#null, 具有#VV)  (amod, 牛奶#NN, 新鲜#JJ)  (assmod, 营养素#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (det, 招牌#NN, 全部#DT)  (nn, 营养素#NN, 招牌#NN)  (dobj, 具有#VV, 营养素#NN)  (cc, 具有#VV, 而且#CC)  (conj, 具有#VV, 酸奶#VV)  (mmod, 使#VV, 能#VV)  (relcl, 乳块#NN, 使#VV)  (dobj, 使#VV, 蛋白质#NN)  (dep, 使#VV, 结成#VV)  (dobj, 结成#VV, 细微#NN)  (mark, 使#VV, 的#DEC)  (dobj, 酸奶#VV, 乳块#NN)  (conj, 钙#NN, 乳酸#NN)  (cc, 钙#NN, 和#CC)  (nsubj, 结合#VV, 钙#NN)  (conj, 具有#VV, 结合#VV)  (assmod, 钙#NN, 生成#NN)  (case, 生成#NN, 的#DEG)  (nn, 钙#NN, 乳酸#NN)  (dobj, 结合#VV, 钙#NN)  (advmod, 容易#VA, 更#AD)  (dep, 被#LB, 容易#VA)  (conj, 具有#VV, 被#LB)  (nsubj, 吸收#VV, 消化#NN)  (dep, 被#LB, 吸收#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促消化
+            酸奶含有多种酶，促进消化吸收。
+            2.保护肠胃
+            维护肠道菌群生态平衡，形成生物屏障，抑制有害菌对肠道的入侵。
+            3.防癌抗癌
+            通过抑制腐生菌和某些菌在肠道的生长，从而也抑制了这些菌所产生的致癌因子，达到防癌的目的。
+            4.预防便秘
+            通过产生大量的短链脂肪酸促进肠道蠕动及菌体大量生长改变渗透压而防止便秘。
+            5.美容
+            常饮酸奶能够润肤、明目、固齿、健发。其原囚是酸奶中含有丰富的钙，更易于消化吸收，利用率高。
+            6.提高免疫力
+            乳酸菌可以产生一些增强免疫功能的物质，可以提高人体免疫，防止疾病。
+        </rawdata>
+
+        <segment>
+            促  消化
+            酸奶  含有  多种酶  ，  促进  消化  吸收  。
+            保护  肠胃
+            维护  肠道  菌群  生态  平衡  ，  形成  生物  屏障  ，  抑制  有害  菌对  肠道  的  入侵  。
+            防癌  抗癌
+            通过  抑制  腐生  菌和  某些  菌在  肠道  的  生长  ，  从而  也  抑制  了  这些  菌所  产生  的  致癌  因子  ，  达到  防癌  的  目的  。
+            预防  便秘
+            通过  产生  大量  的  短链  脂肪酸  促进  肠道  蠕动  及  菌体  大量  生长  改变  渗透压  而  防止  便秘  。
+            美容
+            常  饮  酸奶  能够  润肤  、  明目  、  固齿  、  健发  。  其  原囚  是  酸奶  中  含有  丰富  的  钙  ，  更  易于  消化  吸收  ，  利用率  高  。
+            提高  免疫力
+            乳酸菌  可以  产生  一些  增强  免疫  功能  的  物质  ，  可以  提高  人体  免疫  ，  防止  疾病  。
+        </segment>
+
+        <pos>
+            促#VV  消化#NN
+            酸奶#NN  含有#VV  多种酶#NN  ，#PU  促进#VV  消化#NN  吸收#NN  。#PU
+            保护#VV  肠胃#NN
+            维护#VV  肠道#NN  菌群#NN  生态#NN  平衡#NN  ，#PU  形成#VV  生物#NN  屏障#NN  ，#PU  抑制#VV  有害#NN  菌对#NN  肠道#NN  的#DEG  入侵#NN  。#PU
+            防癌#NN  抗癌#VV
+            通过#P  抑制#VV  腐生#NN  菌和#VV  某些#DT  菌在#NN  肠道#NN  的#DEG  生长#NN  ，#PU  从而#AD  也#AD  抑制#VV  了#AS  这些#DT  菌所#NN  产生#VV  的#DEC  致癌#NN  因子#NN  ，#PU  达到#VV  防癌#NN  的#DEG  目的#NN  。#PU
+            预防#NN  便秘#VV
+            通过#P  产生#VV  大量#CD  的#DEG  短链#NN  脂肪酸#NN  促进#VV  肠道#NN  蠕动#NN  及#CC  菌体#NR  大量#CD  生长#NN  改变#VV  渗透压#NN  而#MSP  防止#VV  便秘#VV  。#PU
+            美容#VV
+            常#NR  饮#NN  酸奶#NN  能够#VV  润肤#NR  、#PU  明目#NR  、#PU  固齿#NR  、#PU  健发#NR    。#PU  其#PN  原囚#AD  是#VC  酸奶#NN  中#LC  含有#AD  丰富#VA  的#DEC  钙#NN  ，#PU  更#AD  易于#VV  消化#NN  吸收#NN  ，#PU  利用率#NN  高#VA    。#PU    。#PU
+            提高#VV  免疫力#NN
+            乳酸菌#NN  可以#VV  产生#VV  一些#CD  增强#VV  免疫#NN  功能#NN  的#DEC  物质#NN  ，#PU  可以#VV  提高#VV  人体#NN  免疫#NN  ，#PU  防止#VV  疾病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促#VV)  (dobj, 促#VV, 消化#NN)
+            (nsubj, 含有#VV, 酸奶#NN)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 多种酶#NN)  (conj, 含有#VV, 促进#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 促进#VV, 吸收#NN)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肠胃#NN)
+            (root, ROOT#null, 维护#VV)  (nn, 平衡#NN, 肠道#NN)  (nn, 平衡#NN, 菌群#NN)  (nn, 平衡#NN, 生态#NN)  (dobj, 维护#VV, 平衡#NN)  (conj, 维护#VV, 形成#VV)  (nn, 屏障#NN, 生物#NN)  (dobj, 形成#VV, 屏障#NN)  (conj, 维护#VV, 抑制#VV)  (nn, 肠道#NN, 有害#NN)  (nn, 肠道#NN, 菌对#NN)  (assmod, 入侵#NN, 肠道#NN)  (case, 肠道#NN, 的#DEG)  (dobj, 抑制#VV, 入侵#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (case, 抑制#VV, 通过#P)  (prep, 菌和#VV, 抑制#VV)  (dobj, 抑制#VV, 腐生#NN)  (root, ROOT#null, 菌和#VV)  (det, 菌在#NN, 某些#DT)  (nn, 肠道#NN, 菌在#NN)  (assmod, 生长#NN, 肠道#NN)  (case, 肠道#NN, 的#DEG)  (dobj, 菌和#VV, 生长#NN)  (advmod, 抑制#VV, 从而#AD)  (advmod, 抑制#VV, 也#AD)  (conj, 菌和#VV, 抑制#VV)  (asp, 抑制#VV, 了#AS)  (det, 菌所#NN, 这些#DT)  (nsubj, 产生#VV, 菌所#NN)  (relcl, 因子#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, 因子#NN, 致癌#NN)  (dobj, 抑制#VV, 因子#NN)  (dep, 菌和#VV, 达到#VV)  (assmod, 目的#NN, 防癌#NN)  (case, 防癌#NN, 的#DEG)  (dobj, 达到#VV, 目的#NN)
+            (nsubj, 便秘#VV, 预防#NN)  (root, ROOT#null, 便秘#VV)
+            (case, 产生#VV, 通过#P)  (prep, 防止#VV, 产生#VV)  (assmod, 脂肪酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 脂肪酸#NN, 短链#NN)  (dobj, 产生#VV, 脂肪酸#NN)  (conj, 产生#VV, 促进#VV)  (nn, 蠕动#NN, 肠道#NN)  (conj, 生长#NN, 蠕动#NN)  (cc, 生长#NN, 及#CC)  (nn, 生长#NN, 菌体#NR)  (nummod, 生长#NN, 大量#CD)  (dobj, 促进#VV, 生长#NN)  (conj, 促进#VV, 改变#VV)  (dobj, 改变#VV, 渗透压#NN)  (prtmod, 防止#VV, 而#MSP)  (root, ROOT#null, 防止#VV)  (ccomp, 防止#VV, 便秘#VV)
+            (root, ROOT#null, 美容#VV)
+            (nn, 酸奶#NN, 常#NR)  (nn, 酸奶#NN, 饮#NN)  (nsubj, 能够#VV, 酸奶#NN)  (root, ROOT#null, 能够#VV)  (conj, 健发#NR, 润肤#NR)  (conj, 健发#NR, 明目#NR)  (conj, 健发#NR, 固齿#NR)  (dobj, 能够#VV, 健发#NR)   (nsubj, 钙#NN, 其#PN)  (advmod, 钙#NN, 原囚#AD)  (cop, 钙#NN, 是#VC)  (loc, 丰富#VA, 酸奶#NN)  (case, 酸奶#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 钙#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (root, ROOT#null, 钙#NN)  (advmod, 易于#VV, 更#AD)  (conj, 钙#NN, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)  (nsubj, 高#VA, 利用率#NN)  (conj, 钙#NN, 高#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (nsubj, 产生#VV, 乳酸菌#NN)  (mmod, 产生#VV, 可以#VV)  (root, ROOT#null, 产生#VV)  (nummod, 物质#NN, 一些#CD)  (relcl, 物质#NN, 增强#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 产生#VV, 物质#NN)  (mmod, 提高#VV, 可以#VV)  (dep, 产生#VV, 提高#VV)  (nn, 免疫#NN, 人体#NN)  (dobj, 提高#VV, 免疫#NN)  (conj, 提高#VV, 防止#VV)  (dobj, 防止#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  增加骨密度  促进消化  美容养颜  抗癌防癌  抗菌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.牛奶在发酵成酸奶的过程中，奶中20%左右的糖、蛋白质被分解成为小的分子。
+            2.奶中脂肪的含量一般是3%~5%，经发酵后，其中的脂肪酸可比原料耐增加两倍，这些变化可使酸奶更容易消化吸收，各种营养素的利用率也因此得以提高。
+            3.酸奶除保留了鲜奶的全部营养成分之外，在发酵的过程中乳酸菌还可以产生人体所必须的多种维生素，如维生素B1、维生素B2、维生素B6、维生素B12等。
+            4.鲜奶中钙含量丰富，经发酵后，钙等矿物质都不会发生变化，但发酵后产生的乳酸有效的提高钙，磷在人体中的利用率，所以酸奶的钙磷更容易被人体吸收。
+            5.在酸奶制作的过程中，某些乳酸菌能合成维生素C，使酸奶中的维生素C在增加。
+        </rawdata>
+
+        <segment>
+            牛奶  在  发酵  成  酸奶  的  过程  中  ，  奶中  20%  左右  的  糖  、  蛋白质  被  分解  成为  小  的  分子  。
+            奶中  脂肪  的  含量  一般  是  3%  ~5%  ，  经  发酵  后  ，  其中  的  脂肪酸  可比  原料  耐  增加  两  倍  ，  这些  变化  可  使  酸奶  更  容易  消化  吸收  ，  各  种  营养素  的  利用率  也  因此  得以  提高  。
+            酸奶  除  保留  了  鲜奶  的  全部  营养  成  分之外  ，  在  发酵  的  过程  中  乳酸菌  还  可以  产生  人体  所  必须  的  多  种  维生素  ，  如  维生素  B  维生素B2  、  维生素B6  、  维生素  B  12  等  。
+            鲜奶  中  钙  含量  丰富  ，  经  发酵  后  ，  钙  等  矿物质  都  不  会  发生  变化  ，  但  发酵  后  产生  的  乳酸  有效  的  提高  钙  ，  磷  在  人体  中的  利用率  ，  所以  酸奶  的  钙磷  更  容易  被  人体  吸收  。
+            在  酸奶  制作  的  过程  中  ，  某些  乳酸菌  能  合成  维生素C  ，  使  酸奶  中  的  维生素C  在  增加  。
+        </segment>
+
+        <pos>
+            牛奶#NN  在#P  发酵#NN  成#VV  酸奶#NN  的#DEC  过程#NN  中#LC  ，#PU  奶中#VV  20#CD  %#NN  左右#LC  的#DEG  糖#NN  、#PU  蛋白质#NN  被#SB  分解#VV  成为#VV  小#JJ  的#DEG  分子#NN  。#PU
+            奶中#NN  脂肪#NN  的#DEG  含量#NN  一般#AD  是#VC  3#CD  %#NN  ~#NN  5#CD  %#NN  ，#PU  经#P  发酵#NN  后#LC  ，#PU  其中#NN  的#DEG  脂肪酸#NR  可比#JJ  原料#NN  耐#AD  增加#VV  两#CD  倍#M  ，#PU  这些#DT  变化#NN  可#VV  使#VV  酸奶#NN  更#AD  容易#VA  消化#NN  吸收#NN  ，#PU  各#DT  种#M  营养素#NN  的#DEG  利用率#NN  也#AD  因此#AD  得以#VV  提高#VV  。#PU
+            酸奶#NN  除#P  保留#VV  了#AS  鲜奶#NN  的#DEC  全部#AD  营养#VA  成#VV  分之外#AD  ，#PU  在#P  发酵#NN  的#DEG  过程#NN  中#LC  乳酸菌#AD  还#AD  可以#VV  产生#VV  人体#CD  所#M  必须#VV  的#DEC  多#CD  种#M  维生素#NN  ，#PU  如#P  维生素#NN  B#VV  维生素B2#CD  、#PU  维生素B6#CD  、#PU  维生素#NN  B#NN  12#CD  等#ETC  。#PU
+            鲜奶#NN  中#LC  钙#NN  含量#NN  丰富#VA  ，#PU  经#P  发酵#NN  后#LC  ，#PU  钙#NN  等#ETC  矿物质#NN  都#AD  不#AD  会#VV  发生#VV  变化#NN  ，#PU  但#AD  发酵#NN  后#LC  产生#VV  的#DEC  乳酸#NN  有效#VA  的#DEC  提高#NN  钙#NN  ，#PU  磷#NN  在#P  人体#NR  中的#VV  利用率#NN  ，#PU  所以#AD  酸奶#NN  的#DEG  钙磷#NN  更#AD  容易#VA  被#LB  人体#NR  吸收#VV  。#PU
+            在#P  酸奶#AD  制作#VV  的#DEC  过程#NN  中#LC  ，#PU  某些#DT  乳酸菌#NN  能#VV  合成#JJ  维生素C#NN  ，#PU  使#VV  酸奶#NN  中#LC  的#DEG  维生素C#NN  在#AD  增加#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 奶中#VV, 牛奶#NN)  (case, 过程#NN, 在#P)  (nsubj, 成#VV, 发酵#NN)  (relcl, 过程#NN, 成#VV)  (dobj, 成#VV, 酸奶#NN)  (mark, 成#VV, 的#DEC)  (prep, 奶中#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 奶中#VV)  (nummod, %#NN, 20#CD)  (assmod, 蛋白质#NN, %#NN)  (case, %#NN, 左右#LC)  (case, %#NN, 的#DEG)  (conj, 蛋白质#NN, 糖#NN)  (dobj, 奶中#VV, 蛋白质#NN)  (auxpass, 分解#VV, 被#SB)  (dep, 奶中#VV, 分解#VV)  (dep, 分解#VV, 成为#VV)  (assmod, 分子#NN, 小#JJ)  (case, 小#JJ, 的#DEG)  (dobj, 成为#VV, 分子#NN)
+            (nn, 脂肪#NN, 奶中#NN)  (assmod, 含量#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nsubj, %#NN, 含量#NN)  (advmod, %#NN, 一般#AD)  (cop, %#NN, 是#VC)  (nummod, ~#NN, 3#CD)  (nn, ~#NN, %#NN)  (nummod, %#NN, 5#CD)  (root, ROOT#null, %#NN)  (case, 发酵#NN, 经#P)  (prep, 增加#VV, 发酵#NN)  (case, 发酵#NN, 后#LC)  (assmod, 原料#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nn, 原料#NN, 脂肪酸#NR)  (amod, 原料#NN, 可比#JJ)  (nsubj, 增加#VV, 原料#NN)  (advmod, 增加#VV, 耐#AD)  (conj, %#NN, 增加#VV)  (nummod, 倍#M, 两#CD)  (range, 增加#VV, 倍#M)  (det, 变化#NN, 这些#DT)  (nsubj, 使#VV, 变化#NN)  (mmod, 使#VV, 可#VV)  (conj, %#NN, 使#VV)  (dobj, 使#VV, 酸奶#NN)  (advmod, 容易#VA, 更#AD)  (dep, 使#VV, 容易#VA)  (nn, 吸收#NN, 消化#NN)  (nsubj, 提高#VV, 吸收#NN)  (det, 营养素#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 利用率#NN, 营养素#NN)  (case, 营养素#NN, 的#DEG)  (nsubj, 提高#VV, 利用率#NN)  (advmod, 提高#VV, 也#AD)  (advmod, 提高#VV, 因此#AD)  (dep, 提高#VV, 得以#VV)  (conj, 使#VV, 提高#VV)
+            (nsubj, 产生#VV, 酸奶#NN)  (case, 营养#VA, 除#P)  (nsubj, 营养#VA, 保留#VV)  (asp, 保留#VV, 了#AS)  (dobj, 保留#VV, 鲜奶#NN)  (mark, 保留#VV, 的#DEC)  (advmod, 营养#VA, 全部#AD)  (prep, 产生#VV, 营养#VA)  (mmod, 产生#VV, 成#VV)  (advmod, 产生#VV, 分之外#AD)  (case, 过程#NN, 在#P)  (assmod, 过程#NN, 发酵#NN)  (case, 发酵#NN, 的#DEG)  (prep, 产生#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (advmod, 产生#VV, 乳酸菌#AD)  (advmod, 产生#VV, 还#AD)  (mmod, 产生#VV, 可以#VV)  (root, ROOT#null, 产生#VV)  (nummod, 所#M, 人体#CD)  (clf, 维生素#NN, 所#M)  (relcl, 维生素#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (dobj, 产生#VV, 维生素#NN)  (case, 维生素#NN, 如#P)  (prep, B#VV, 维生素#NN)  (dep, 产生#VV, B#VV)  (dep, 12#CD, 维生素B2#CD)  (dep, 12#CD, 维生素B6#CD)  (nn, B#NN, 维生素#NN)  (dep, 12#CD, B#NN)  (range, B#VV, 12#CD)  (dep, 产生#VV, 等#ETC)
+            (loc, 丰富#VA, 鲜奶#NN)  (case, 鲜奶#NN, 中#LC)  (nn, 含量#NN, 钙#NN)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)  (case, 发酵#NN, 经#P)  (prep, 发生#VV, 发酵#NN)  (case, 发酵#NN, 后#LC)  (nn, 矿物质#NN, 钙#NN)  (etc, 钙#NN, 等#ETC)  (nsubj, 发生#VV, 矿物质#NN)  (advmod, 发生#VV, 都#AD)  (neg, 发生#VV, 不#AD)  (mmod, 发生#VV, 会#VV)  (conj, 丰富#VA, 发生#VV)  (dobj, 发生#VV, 变化#NN)  (advmod, 中的#VV, 但#AD)  (loc, 产生#VV, 发酵#NN)  (case, 发酵#NN, 后#LC)  (relcl, 乳酸#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nsubj, 有效#VA, 乳酸#NN)  (relcl, 钙#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (nn, 钙#NN, 提高#NN)  (nsubj, 中的#VV, 钙#NN)  (nsubj, 中的#VV, 磷#NN)  (case, 人体#NR, 在#P)  (prep, 中的#VV, 人体#NR)  (conj, 发生#VV, 中的#VV)  (dobj, 中的#VV, 利用率#NN)  (advmod, 被#LB, 所以#AD)  (assmod, 钙磷#NN, 酸奶#NN)  (case, 酸奶#NN, 的#DEG)  (nsubj, 容易#VA, 钙磷#NN)  (advmod, 容易#VA, 更#AD)  (dep, 被#LB, 容易#VA)  (conj, 发生#VV, 被#LB)  (nsubj, 吸收#VV, 人体#NR)  (dep, 被#LB, 吸收#VV)
+            (case, 过程#NN, 在#P)  (advmod, 制作#VV, 酸奶#AD)  (relcl, 过程#NN, 制作#VV)  (mark, 制作#VV, 的#DEC)  (prep, 使#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (det, 乳酸菌#NN, 某些#DT)  (nsubj, 使#VV, 乳酸菌#NN)  (conj, 使#VV, 能#VV)  (amod, 维生素C#NN, 合成#JJ)  (dobj, 能#VV, 维生素C#NN)  (root, ROOT#null, 使#VV)  (assmod, 维生素C#NN, 酸奶#NN)  (case, 酸奶#NN, 中#LC)  (case, 酸奶#NN, 的#DEG)  (dobj, 使#VV, 维生素C#NN)  (advmod, 增加#VV, 在#AD)  (dep, 使#VV, 增加#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        每日150～250毫升。饮用酸奶不能加热，夏季饮用宜现买现喝。
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/3224846.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

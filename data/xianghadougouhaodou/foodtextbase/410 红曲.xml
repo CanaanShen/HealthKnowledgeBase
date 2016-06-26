@@ -1,0 +1,159 @@
+<content>
+
+    <id>
+        410
+    </id>
+
+    <foodname>
+        红曲
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        红曲霉、紫红曲霉、红大米、红糟、赤曲、红米、福曲、丹曲、红槽
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾阴不足、无食积瘀滞者慎用。
+        </rawdata>
+
+        <segment>
+            脾阴  不足  、  无  食积  瘀滞者  慎用  。
+        </segment>
+
+        <pos>
+            脾阴#AD  不足#VA  、#PU  无#VE  食积#NN  瘀滞者#NN  慎用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 不足#VA, 脾阴#AD)  (root, ROOT#null, 不足#VA)  (dep, 不足#VA, 无#VE)  (nn, 慎用#NN, 食积#NN)  (nn, 慎用#NN, 瘀滞者#NN)  (dobj, 无#VE, 慎用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        一般人群均可食用。
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            红曲，为曲霉科真菌红曲霉的菌丝体寄生在粳米上而成的红曲米。
+        </rawdata>
+
+        <segment>
+            红曲  ，  为  曲霉科  真菌  红  曲霉  的  菌丝体  寄生  在  粳米  上  而  成  的  红曲米  。
+        </segment>
+
+        <pos>
+            红曲#NN  ，#PU  为#P  曲霉科#AD  真菌#VV  红#JJ  曲霉#NN  的#DEC  菌丝体#NN  寄生#VV  在#P  粳米#NN  上#LC  而#MSP  成#VV  的#DEC  红曲米#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 寄生#VV, 红曲#NN)  (case, 菌丝体#NN, 为#P)  (advmod, 真菌#VV, 曲霉科#AD)  (relcl, 菌丝体#NN, 真菌#VV)  (amod, 曲霉#NN, 红#JJ)  (dobj, 真菌#VV, 曲霉#NN)  (mark, 真菌#VV, 的#DEC)  (prep, 寄生#VV, 菌丝体#NN)  (root, ROOT#null, 寄生#VV)  (case, 粳米#NN, 在#P)  (prep, 成#VV, 粳米#NN)  (case, 粳米#NN, 上#LC)  (prtmod, 成#VV, 而#MSP)  (relcl, 红曲米#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (dobj, 寄生#VV, 红曲米#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            红曲，味甘，性温；归肝、脾、胃、大肠经。活血化瘀；健脾消食。主饮食积滞；脘腹胀满；赤白下痢；产后恶露不尽；跌打损伤。
+        </rawdata>
+
+        <segment>
+            红曲  ，  味甘  ，  性温  ；  归肝  、  脾  、  胃  、  大肠  经  。  活血化瘀  ；  健脾  消食  。  主饮  食积滞  ；  脘腹  胀满  ；  赤白下痢  ；  产后  恶露  不尽  ；  跌打  损伤  。
+        </segment>
+
+        <pos>
+            红曲#NN  ，#PU  味甘#NN  ，#PU  性温#NN  ；#PU  归肝#NR  、#PU  脾#NR  、#PU  胃#NR  、#PU  大肠#NR  经#VV    。#PU  活血化瘀#NN  ；#PU  健脾#NN  消食#NN    。#PU  主饮#NR  食积滞#VV  ；#PU  脘腹#VV  胀满#NN  ；#PU  赤白下痢#VV  ；#PU  产后#VV  恶露#NN  不尽#NN  ；#PU  跌打#VV  损伤#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 经#VV, 红曲#NN)  (nsubj, 经#VV, 味甘#NN)  (nsubj, 经#VV, 性温#NN)  (conj, 大肠#NR, 归肝#NR)  (conj, 大肠#NR, 脾#NR)  (conj, 大肠#NR, 胃#NR)  (prep, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (dep, 消食#NN, 活血化瘀#NN)  (nn, 消食#NN, 健脾#NN)  (root, ROOT#null, 消食#NN)   (nsubj, 食积滞#VV, 主饮#NR)  (root, ROOT#null, 食积滞#VV)  (ccomp, 食积滞#VV, 脘腹#VV)  (dobj, 脘腹#VV, 胀满#NN)  (dep, 脘腹#VV, 赤白下痢#VV)  (dep, 脘腹#VV, 产后#VV)  (nn, 不尽#NN, 恶露#NN)  (dobj, 产后#VV, 不尽#NN)  (dep, 脘腹#VV, 跌打#VV)  (dobj, 跌打#VV, 损伤#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.在烹饪中，红曲米的应用较为广泛，可用于烧菜染色，如江苏名菜樱桃肉、无锡排骨的制作；
+            2.可用于烧腊、酱卤食品，如广东叉烧和某些卤水的制作；
+            3.可用于红肠一类的灌肠上色，以及配制糖醋、西汁等复合味时调色；
+            4.粥饭、面食、腐乳、糕点、糖果、蜜饯等在制作中也经常用到红曲米；
+            5.使用红曲米时需注意，用量不宜多，否则口味发苦，不过可加点糖，起到去酸解苦的作用；
+            6.红曲米的生产工艺包括浸米、蒸饭、晾饭、接种、推曲、搓曲、上铺、喷水拌曲、出曲晒干等工序。一般从米饭培养至出曲，大约需4天左右，红曲米米粒外表便全部呈紫红色，经晾干或烘干即成。而在成品红曲米中，仍有一部分色菌在继续发酵，最终使红曲米中残存的白心红透，所以民间有陈年红曲米比新货好的说法。
+        </rawdata>
+
+        <segment>
+            在  烹饪  中  ，  红  曲  米  的  应用  较为  广泛  ，  可  用于  烧菜  染色  ，  如  江苏  名菜  樱桃  肉  、  无锡  排骨  的  制作  ；
+            可  用于  烧腊  、  酱卤  食品  ，  如  广东  叉烧  和  某些  卤水  的  制作  ；
+            可用  于  红肠  一  类  的  灌肠  上色  ，  以及  配制  糖醋  、  西汁  等  复合味  时  调色  ；
+            粥饭  、  面食  、  腐乳  、  糕点  、  糖果  、  蜜饯  等  在  制作  中  也  经常  用到  红  曲  米  ；
+            使用  红  曲  米  时  需  注意  ，  用量  不  宜  多  ，  否则  口味  发苦  ，  不过  可  加点  糖  ，  起到  去  酸解  苦  的  作用  ；
+            红  曲  米  的  生产  工艺  包括  浸  米  、  蒸饭  、  晾饭  、  接种  、  推曲  、  搓  曲  、  上铺  、  喷水  拌曲  、  出  曲  晒干  等  工序  。  一般  从  米饭  培养  至  出曲  ，  大约  需  4  天  左右  ，  红  曲  米  米粒  外表  便  全  部呈  紫红色  ，  经  晾干  或  烘干  即  成  。  而  在  成品  红  曲  米  中  ，  仍有  一  部分  色菌  在  继续  发酵  ，  最终  使  红  曲  米  中  残存  的  白  心  红透  ，  所以  民间  有  陈年红  曲  米  比  新货  好  的  说法  。
+        </segment>
+
+        <pos>
+            在#P  烹饪#NN  中#LC  ，#PU  红#JJ  曲#NN  米#M  的#DEG  应用#NN  较为#AD  广泛#VA  ，#PU  可#VV  用于#VV  烧菜#NN  染色#NN  ，#PU  如#AD  江苏#NR  名菜#VV  樱桃#NN  肉#NN  、#PU  无锡#NR  排骨#NN  的#DEG  制作#NN  ；#PU
+            可#VV  用于#VV  烧腊#NN  、#PU  酱卤#NN  食品#NN  ，#PU  如#AD  广东#NR  叉烧#VV  和#P  某些#DT  卤水#NN  的#DEG  制作#NN  ；#PU
+            可用#JJ  于#P  红肠#VV  一#CD  类#M  的#DEC  灌肠#NN  上色#NN  ，#PU  以及#CC  配制#NR  糖醋#NR  、#PU  西汁#NR  等#ETC  复合味#NN  时#AD  调色#VV  ；#PU
+            粥饭#NR  、#PU  面食#NR  、#PU  腐乳#NR  、#PU  糕点#NR  、#PU  糖果#NR  、#PU  蜜饯#NR  等#ETC  在#P  制作#NN  中#LC  也#AD  经常#AD  用到#VV  红#JJ  曲#NN  米#M  ；#PU
+            使用#NN  红#JJ  曲#NN  米#M  时#LC  需#VV  注意#VV  ，#PU  用量#NN  不#AD  宜#NR  多#VA  ，#PU  否则#AD  口味#NN  发苦#VV  ，#PU  不过#AD  可#VV  加点#VV  糖#NN  ，#PU  起到#VV  去#VV  酸解#NN  苦#NN  的#DEC  作用#NN  ；#PU
+            红#JJ  曲#NN  米#M  的#DEG  生产#NN  工艺#NN  包括#VV  浸#CD  米#M  、#PU  蒸饭#NR  、#PU  晾饭#NR  、#PU  接种#NR  、#PU  推曲#NR  、#PU  搓#NR  曲#NN  、#PU  上铺#NN  、#PU  喷水#NN  拌曲#NN  、#PU  出#VV  曲#NN  晒干#NN  等#ETC  工序#NN    。#PU  一般#AD  从#P  米饭#NN  培养#VV  至#P  出曲#NN  ，#PU  大约#AD  需#VV  4#CD  天#M  左右#LC  ，#PU  红#JJ  曲#NN  米#M  米粒#NN  外表#NN  便#AD  全#DT  部呈#NN  紫红色#VV  ，#PU  经#P  晾干#NN  或#CC  烘干#NN  即#AD  成#VV    。#PU  而#AD  在#P  成品#NN  红#JJ  曲#NN  米#M  中#LC  ，#PU  仍有#NR  一#CD  部分#M  色菌#NN  在#P  继续#VV  发酵#NN  ，#PU  最终#AD  使#VV  红#JJ  曲#NN  米#M  中#LC  残存#VV  的#DEC  白#JJ  心#NN  红透#VV  ，#PU  所以#AD  民间#NN  有#VE  陈年红#JJ  曲#NN  米#M  比#P  新货#NN  好#VA  的#DEC  说法#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 烹饪#NN, 在#P)  (prep, 广泛#VA, 烹饪#NN)  (case, 烹饪#NN, 中#LC)  (amod, 曲#NN, 红#JJ)  (assmod, 应用#NN, 曲#NN)  (dep, 曲#NN, 米#M)  (case, 曲#NN, 的#DEG)  (nsubj, 广泛#VA, 应用#NN)  (advmod, 广泛#VA, 较为#AD)  (root, ROOT#null, 广泛#VA)  (mmod, 用于#VV, 可#VV)  (conj, 广泛#VA, 用于#VV)  (nn, 染色#NN, 烧菜#NN)  (dobj, 用于#VV, 染色#NN)  (advmod, 名菜#VV, 如#AD)  (nsubj, 名菜#VV, 江苏#NR)  (conj, 广泛#VA, 名菜#VV)  (nn, 肉#NN, 樱桃#NN)  (conj, 排骨#NN, 肉#NN)  (nn, 排骨#NN, 无锡#NR)  (assmod, 制作#NN, 排骨#NN)  (case, 排骨#NN, 的#DEG)  (dobj, 名菜#VV, 制作#NN)
+            (mmod, 用于#VV, 可#VV)  (conj, 叉烧#VV, 用于#VV)  (conj, 食品#NN, 烧腊#NN)  (nn, 食品#NN, 酱卤#NN)  (dobj, 用于#VV, 食品#NN)  (advmod, 叉烧#VV, 如#AD)  (nsubj, 叉烧#VV, 广东#NR)  (root, ROOT#null, 叉烧#VV)  (case, 卤水#NN, 和#P)  (det, 卤水#NN, 某些#DT)  (assmod, 制作#NN, 卤水#NN)  (case, 卤水#NN, 的#DEG)  (dobj, 叉烧#VV, 制作#NN)
+            (amod, 上色#NN, 可用#JJ)  (case, 灌肠#NN, 于#P)  (relcl, 灌肠#NN, 红肠#VV)  (nummod, 类#M, 一#CD)  (range, 红肠#VV, 类#M)  (mark, 红肠#VV, 的#DEC)  (prep, 上色#NN, 灌肠#NN)  (dep, 复合味#NN, 上色#NN)  (cc, 复合味#NN, 以及#CC)  (nn, 西汁#NR, 配制#NR)  (conj, 西汁#NR, 糖醋#NR)  (nn, 复合味#NN, 西汁#NR)  (etc, 西汁#NR, 等#ETC)  (nsubj, 调色#VV, 复合味#NN)  (advmod, 调色#VV, 时#AD)  (root, ROOT#null, 调色#VV)
+            (conj, 蜜饯#NR, 粥饭#NR)  (conj, 蜜饯#NR, 面食#NR)  (conj, 蜜饯#NR, 腐乳#NR)  (conj, 蜜饯#NR, 糕点#NR)  (conj, 蜜饯#NR, 糖果#NR)  (nsubj, 用到#VV, 蜜饯#NR)  (etc, 蜜饯#NR, 等#ETC)  (case, 制作#NN, 在#P)  (prep, 用到#VV, 制作#NN)  (case, 制作#NN, 中#LC)  (advmod, 用到#VV, 也#AD)  (advmod, 用到#VV, 经常#AD)  (root, ROOT#null, 用到#VV)  (amod, 曲#NN, 红#JJ)  (dobj, 用到#VV, 曲#NN)  (dep, 曲#NN, 米#M)
+            (nn, 曲#NN, 使用#NN)  (amod, 曲#NN, 红#JJ)  (nsubj, 注意#VV, 曲#NN)  (loc, 注意#VV, 米#M)  (case, 米#M, 时#LC)  (mmod, 注意#VV, 需#VV)  (root, ROOT#null, 注意#VV)  (nsubj, 多#VA, 用量#NN)  (neg, 多#VA, 不#AD)  (prep, 多#VA, 宜#NR)  (ccomp, 注意#VV, 多#VA)  (advmod, 发苦#VV, 否则#AD)  (nsubj, 发苦#VV, 口味#NN)  (conj, 注意#VV, 发苦#VV)  (advmod, 加点#VV, 不过#AD)  (mmod, 加点#VV, 可#VV)  (ccomp, 发苦#VV, 加点#VV)  (dobj, 加点#VV, 糖#NN)  (dep, 加点#VV, 起到#VV)  (relcl, 作用#NN, 去#VV)  (nn, 苦#NN, 酸解#NN)  (dobj, 去#VV, 苦#NN)  (mark, 去#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+            (amod, 曲#NN, 红#JJ)  (assmod, 工艺#NN, 曲#NN)  (dep, 曲#NN, 米#M)  (case, 曲#NN, 的#DEG)  (nn, 工艺#NN, 生产#NN)  (nsubj, 包括#VV, 工艺#NN)  (root, ROOT#null, 包括#VV)  (nummod, 米#M, 浸#CD)  (clf, 工序#NN, 米#M)  (conj, 搓#NR, 蒸饭#NR)  (conj, 搓#NR, 晾饭#NR)  (conj, 搓#NR, 接种#NR)  (conj, 搓#NR, 推曲#NR)  (nn, 曲#NN, 搓#NR)  (conj, 工序#NN, 曲#NN)  (conj, 晒干#NN, 上铺#NN)  (nn, 拌曲#NN, 喷水#NN)  (conj, 晒干#NN, 拌曲#NN)  (relcl, 曲#NN, 出#VV)  (nn, 晒干#NN, 曲#NN)  (nn, 工序#NN, 晒干#NN)  (etc, 晒干#NN, 等#ETC)  (dobj, 包括#VV, 工序#NN)   (advmod, 培养#VV, 一般#AD)  (case, 米饭#NN, 从#P)  (prep, 培养#VV, 米饭#NN)  (root, ROOT#null, 培养#VV)  (case, 需#VV, 至#P)  (nsubj, 需#VV, 出曲#NN)  (advmod, 需#VV, 大约#AD)  (prep, 紫红色#VV, 需#VV)  (nummod, 天#M, 4#CD)  (range, 需#VV, 天#M)  (case, 需#VV, 左右#LC)  (amod, 曲#NN, 红#JJ)  (nn, 米粒#NN, 曲#NN)  (dep, 米粒#NN, 米#M)  (nn, 外表#NN, 米粒#NN)  (nsubj, 紫红色#VV, 外表#NN)  (advmod, 紫红色#VV, 便#AD)  (det, 部呈#NN, 全#DT)  (dep, 紫红色#VV, 部呈#NN)  (dep, 培养#VV, 紫红色#VV)  (case, 烘干#NN, 经#P)  (conj, 烘干#NN, 晾干#NN)  (cc, 烘干#NN, 或#CC)  (prep, 成#VV, 烘干#NN)  (advmod, 成#VV, 即#AD)  (conj, 紫红色#VV, 成#VV)   (advmod, 使#VV, 而#AD)  (case, 曲#NN, 在#P)  (nn, 曲#NN, 成品#NN)  (amod, 曲#NN, 红#JJ)  (prep, 使#VV, 曲#NN)  (dep, 曲#NN, 米#M)  (case, 曲#NN, 中#LC)  (nn, 色菌#NN, 仍有#NR)  (nummod, 部分#M, 一#CD)  (clf, 色菌#NN, 部分#M)  (nsubj, 使#VV, 色菌#NN)  (case, 发酵#NN, 在#P)  (nfincl, 发酵#NN, 继续#VV)  (prep, 使#VV, 发酵#NN)  (advmod, 使#VV, 最终#AD)  (root, ROOT#null, 使#VV)  (amod, 曲#NN, 红#JJ)  (nsubj, 残存#VV, 曲#NN)  (loc, 残存#VV, 米#M)  (case, 米#M, 中#LC)  (relcl, 心#NN, 残存#VV)  (mark, 残存#VV, 的#DEC)  (amod, 心#NN, 白#JJ)  (dobj, 使#VV, 心#NN)  (dep, 使#VV, 红透#VV)  (advmod, 有#VE, 所以#AD)  (dep, 有#VE, 民间#NN)  (conj, 使#VV, 有#VE)  (amod, 曲#NN, 陈年红#JJ)  (nn, 说法#NN, 曲#NN)  (clf, 说法#NN, 米#M)  (case, 新货#NN, 比#P)  (prep, 好#VA, 新货#NN)  (relcl, 曲#NN, 好#VA)  (relcl, 说法#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 说法#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201312/181843312685.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,165 @@
+<content>
+
+    <id>
+        9
+    </id>
+
+    <foodname>
+        猪肘
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        蹄膀
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热痰滞内蕴者、肥胖、血脂较高者慎食。
+        </rawdata>
+
+        <segment>
+            湿热  痰滞  内蕴者  、  肥胖  、  血脂  较  高者  慎食  。
+        </segment>
+
+        <pos>
+            湿热#NR  痰滞#NR  内蕴者#NR  、#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 血脂#NR, 湿热#NR)  (nn, 血脂#NR, 痰滞#NR)  (conj, 血脂#NR, 内蕴者#NR)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (root, ROOT#null, 高者#VV)  (dobj, 高者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+
+    </introduction>
+
+    <effect>
+        <rawdata>
+            猪肘味甘咸、性平；有和血脉、润肌肤、填肾精、健腰脚的作用。
+        </rawdata>
+
+        <segment>
+            猪肘  味  甘咸  、  性平  ；  有  和  血脉  、  润  肌肤  、  填  肾  精  、  健腰脚  的  作用  。
+        </segment>
+
+        <pos>
+            猪肘#VV  味#NN  甘咸#NN  、#PU  性平#NN  ；#PU  有#VE  和#CC  血脉#VV  、#PU  润#VV  肌肤#NN  、#PU  填#VV  肾#NN  精#NN  、#PU  健腰脚#NN  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪肘#VV)  (nn, 性平#NN, 味#NN)  (conj, 性平#NN, 甘咸#NN)  (dobj, 猪肘#VV, 性平#NN)  (dep, 猪肘#VV, 有#VE)  (cc, 血脉#VV, 和#CC)  (relcl, 作用#NN, 血脉#VV)  (conj, 血脉#VV, 润#VV)  (dobj, 润#VV, 肌肤#NN)  (conj, 血脉#VV, 填#VV)  (nn, 健腰脚#NN, 肾#NN)  (conj, 健腰脚#NN, 精#NN)  (dobj, 填#VV, 健腰脚#NN)  (mark, 血脉#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.猪肉为人类提供优质蛋白质和必需的脂肪酸。猪肉可提供血红素（有机铁）和促进铁吸收的半胱氨酸，能改善缺铁性贫血。
+            2.猪蹄膀营养很丰富，含较多的蛋白质，特别是含有大量的胶原蛋白质，和肉皮一样，是使皮肤丰满、润泽，强体增肥的食疗佳品。
+        </rawdata>
+
+        <segment>
+            猪肉  为  人类  提供  优质  蛋白质  和  必需  的  脂肪酸  。  猪肉  可  提供  血红素  （  有机铁  ）  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。
+            猪蹄  膀  营养  很  丰富  ，  含  较  多  的  蛋白质  ，  特别是  含有  大量  的  胶原  蛋白质  ，  和  肉皮  一样  ，  是  使  皮肤  丰满  、  润泽  ，  强体  增肥  的  食疗  佳品  。
+        </segment>
+
+        <pos>
+            猪肉#NN  为#P  人类#NN  提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  猪肉#NN  可#VV  提供#VV  血红素#NN  （#PU  有机铁#NR  ）#PU  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU    。#PU
+            猪蹄#NN  膀#AD  营养#VA  很#AD  丰富#VA  ，#PU  含#VV  较#AD  多#VA  的#DEC  蛋白质#NN  ，#PU  特别是#AD  含有#VV  大量#CD  的#DEG  胶原#NN  蛋白质#NN  ，#PU  和#CC  肉皮#AD  一样#VA  ，#PU  是#VC  使#VV  皮肤#NN  丰满#NN  、#PU  润泽#NN  ，#PU  强体#VV  增肥#NN  的#DEC  食疗#NN  佳品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 提供#VV, 猪肉#NN)  (case, 人类#NN, 为#P)  (prep, 提供#VV, 人类#NN)  (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (nsubj, 提供#VV, 猪肉#NN)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (conj, 半胱氨酸#NN, 血红素#NN)  (prnmod, 血红素#NN, 有机铁#NR)  (cc, 半胱氨酸#NN, 和#CC)  (relcl, 半胱氨酸#NN, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (conj, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)   (root, ROOT#null, null#null)
+            (nsubj, 营养#VA, 猪蹄#NN)  (advmod, 营养#VA, 膀#AD)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 很#AD)  (conj, 营养#VA, 丰富#VA)  (conj, 营养#VA, 含#VV)  (advmod, 多#VA, 较#AD)  (relcl, 蛋白质#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 含#VV, 蛋白质#NN)  (advmod, 含有#VV, 特别是#AD)  (conj, 营养#VA, 含有#VV)  (assmod, 蛋白质#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 蛋白质#NN, 胶原#NN)  (dobj, 含有#VV, 蛋白质#NN)  (cc, 营养#VA, 和#CC)  (advmod, 一样#VA, 肉皮#AD)  (conj, 营养#VA, 一样#VA)  (cop, 佳品#NN, 是#VC)  (relcl, 佳品#NN, 使#VV)  (nn, 润泽#NN, 皮肤#NN)  (conj, 润泽#NN, 丰满#NN)  (dobj, 使#VV, 润泽#NN)  (dep, 使#VV, 强体#VV)  (dobj, 强体#VV, 增肥#NN)  (mark, 使#VV, 的#DEC)  (nn, 佳品#NN, 食疗#NN)  (conj, 营养#VA, 佳品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            适宜凉拌、烧、制汤、炖、卤、煨等。
+            修割猪肘时皮面要留长一点，猪肘的皮面含有丰富的胶质，加热后收缩性较大，而肌肉组织的收缩性则较小，如果皮面与肌肉并齐或是皮面小于肌肉,加热后皮面会收缩变小而脱落,致使肌肉裸露而散碎.因此皮面要适当地留长一点，加热后皮面收缩，恰好包裹住肌肉又不至于脱落，菜肴形体整齐美观。
+        </rawdata>
+
+        <segment>
+            适宜  凉拌  、  烧  、  制汤  、  炖  、  卤  、  煨等  。
+            修  割  猪肘  时  皮面  要  留  长  一点  ，  猪肘  的  皮面  含有  丰富  的  胶质  ，  加热  后  收缩性  较大  ，  而  肌肉  组织  的  收缩性  则  较  小  ，  如果  皮面  与  肌肉  并  齐  或是  皮面  小于  肌肉  ,  加热  后  皮面  会  收缩  变小  而  脱落  ,  致使  肌肉  裸露  而  散碎  .  因此  皮面  要  适当  地  留  长  一点  ，  加热  后  皮面  收缩  ，  恰好  包裹  住  肌肉  又  不至于  脱落  ，  菜肴  形体  整齐  美观  。
+        </segment>
+
+        <pos>
+            适宜#VV  凉拌#NR  、#PU  烧#NR  、#PU  制汤#NR  、#PU  炖#NR  、#PU  卤#NR  、#PU  煨等#NR  。#PU
+            修#VV  割#NN  猪肘#NN  时#LC  皮面#NR  要#AD  留#VV  长#VA  一点#CD  ，#PU  猪肘#NR  的#DEG  皮面#NN  含有#VV  丰富#VA  的#DEC  胶质#NN  ，#PU  加热#NN  后#LC  收缩性#AD  较大#JJ  ，#PU  而#CC  肌肉#VV  组织#NN  的#DEC  收缩性#NN  则#AD  较#AD  小#VA  ，#PU  如果#CS  皮面#NR  与#CC  肌肉#NR  并#CC  齐#NR  或是#NN  皮面#NN  小于#VV  肌肉#NN  ,#NN  加热#NN  后#LC  皮面#NN  会#NN  收缩#NN  变小#VV  而#AD  脱落#NN  ,#NN  致使#VV  肌肉#NN  裸露#VV  而#CC  散碎#NN  .#NN  因此#AD  皮面#VV  要#VV  适当#VA  地#DEV  留#VV  长#VA  一点#CD  ，#PU  加热#NN  后#LC  皮面#VV  收缩#NN  ，#PU  恰好#AD  包裹#VV  住#VV  肌肉#CD  又#CC  不至于#CD  脱落#NN  ，#PU  菜肴#NN  形体#NN  整齐#VA  美观#VA  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (conj, 煨等#NR, 凉拌#NR)  (conj, 煨等#NR, 烧#NR)  (conj, 煨等#NR, 制汤#NR)  (conj, 煨等#NR, 炖#NR)  (conj, 煨等#NR, 卤#NR)  (dobj, 适宜#VV, 煨等#NR)
+            (loc, 留#VV, 修#VV)  (nn, 猪肘#NN, 割#NN)  (dobj, 修#VV, 猪肘#NN)  (case, 修#VV, 时#LC)  (nsubj, 留#VV, 皮面#NR)  (advmod, 留#VV, 要#AD)  (root, ROOT#null, 留#VV)  (rcomp, 留#VV, 长#VA)  (dep, 留#VV, 一点#CD)  (assmod, 皮面#NN, 猪肘#NR)  (case, 猪肘#NR, 的#DEG)  (nsubj, 含有#VV, 皮面#NN)  (conj, 留#VV, 含有#VV)  (relcl, 胶质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 胶质#NN)  (loc, 较大#JJ, 加热#NN)  (case, 加热#NN, 后#LC)  (advmod, 较大#JJ, 收缩性#AD)  (relcl, 收缩性#NN, 较大#JJ)  (cc, 较大#JJ, 而#CC)  (dep, 较大#JJ, 肌肉#VV)  (dobj, 肌肉#VV, 组织#NN)  (mark, 较大#JJ, 的#DEC)  (nsubj, 小#VA, 收缩性#NN)  (advmod, 小#VA, 则#AD)  (advmod, 小#VA, 较#AD)  (conj, 留#VV, 小#VA)  (advmod, 变小#VV, 如果#CS)  (conj, 肌肉#NR, 皮面#NR)  (cc, 肌肉#NR, 与#CC)  (conj, 皮面#NN, 肌肉#NR)  (cc, 皮面#NN, 并#CC)  (nn, 皮面#NN, 齐#NR)  (nn, 皮面#NN, 或是#NN)  (nsubj, 小于#VV, 皮面#NN)  (loc, 变小#VV, 小于#VV)  (nn, 加热#NN, 肌肉#NN)  (dobj, 小于#VV, 加热#NN)  (case, 小于#VV, 后#LC)  (nn, 收缩#NN, 皮面#NN)  (nn, 收缩#NN, 会#NN)  (nsubj, 变小#VV, 收缩#NN)  (dep, 整齐#VA, 变小#VV)  (advmod, 致使#VV, 而#AD)  (nn, ,#NN, 脱落#NN)  (nfincl, 脱落#NN, 致使#VV)  (dobj, 致使#VV, 肌肉#NN)  (dep, 致使#VV, 裸露#VV)  (cc, 致使#VV, 而#CC)  (nn, .#NN, 散碎#NN)  (advmod, 留#VV, 因此#AD)  (mmod, 留#VV, 皮面#VV)  (mmod, 留#VV, 要#VV)  (dvpmod, 留#VV, 适当#VA)  (mark, 适当#VA, 地#DEV)  (conj, 致使#VV, 留#VV)  (rcomp, 留#VV, 长#VA)  (dep, 留#VV, 一点#CD)  (loc, 皮面#VV, 加热#NN)  (case, 加热#NN, 后#LC)  (dep, 留#VV, 皮面#VV)  (dobj, 皮面#VV, 收缩#NN)  (advmod, 包裹#VV, 恰好#AD)  (conj, 留#VV, 包裹#VV)  (rcomp, 包裹#VV, 住#VV)  (nummod, 不至于#CD, 肌肉#CD)  (cc, 不至于#CD, 又#CC)  (dep, 包裹#VV, 不至于#CD)  (dobj, 变小#VV, 脱落#NN)  (nn, 形体#NN, 菜肴#NN)  (nsubj, 整齐#VA, 形体#NN)  (conj, 留#VV, 整齐#VA)  (comod, 整齐#VA, 美观#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081340478958.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

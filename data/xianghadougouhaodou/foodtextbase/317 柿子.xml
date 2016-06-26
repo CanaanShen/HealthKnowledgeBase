@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        317
+    </id>
+
+    <foodname>
+        柿子
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        米果、猴枣、镇头迦
+    </alias>
+
+    <season>
+        10-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病人、脾胃泄泻、便溏、体弱多病、产后、外感风寒者忌食；患有慢性胃炎、排空延缓、消化不良等胃动力功能低下者、胃大部切除术后慎食。
+        </rawdata>
+
+        <segment>
+            糖尿病人  、  脾胃  泄泻  、  便溏  、  体弱多病  、  产后  、  外感  风寒  者  忌食  ；  患有  慢性  胃炎  、  排空  延缓  、  消化不良  等  胃  动力  功能  低下  者  、  胃  大部  切除  术后  慎食  。
+        </segment>
+
+        <pos>
+            糖尿病人#NR  、#PU  脾胃#NR  泄泻#NR  、#PU  便溏#NR  、#PU  体弱多病#NR  、#PU  产后#NR  、#PU  外感#NR  风寒#NN  者#NN  忌食#VV  ；#PU  患有#NN  慢性#NN  胃炎#NN  、#PU  排空#NN  延缓#NN  、#PU  消化不良#NN  等#ETC  胃#NN  动力#NN  功能#NN  低下#VV  者#NN  、#PU  胃#NN  大部#NN  切除#NN  术后#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 外感#NR, 糖尿病人#NR)  (nn, 外感#NR, 脾胃#NR)  (conj, 外感#NR, 泄泻#NR)  (conj, 外感#NR, 便溏#NR)  (conj, 外感#NR, 体弱多病#NR)  (conj, 外感#NR, 产后#NR)  (nn, 者#NN, 外感#NR)  (nn, 者#NN, 风寒#NN)  (nsubj, 忌食#VV, 者#NN)  (root, ROOT#null, 忌食#VV)  (nn, 消化不良#NN, 患有#NN)  (nn, 消化不良#NN, 慢性#NN)  (conj, 消化不良#NN, 胃炎#NN)  (nn, 消化不良#NN, 排空#NN)  (conj, 消化不良#NN, 延缓#NN)  (nn, 功能#NN, 消化不良#NN)  (etc, 消化不良#NN, 等#ETC)  (nn, 功能#NN, 胃#NN)  (nn, 功能#NN, 动力#NN)  (nsubj, 低下#VV, 功能#NN)  (ccomp, 忌食#VV, 低下#VV)  (conj, 慎食#NN, 者#NN)  (nn, 慎食#NN, 胃#NN)  (nn, 慎食#NN, 大部#NN)  (nn, 慎食#NN, 切除#NN)  (nn, 慎食#NN, 术后#NN)  (dobj, 低下#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜大便干结者、高血压患者、甲状腺疾病患者、长期饮酒者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  大便  干结  者  、  高血压  患者  、  甲状腺  疾病  患者  、  长期  饮酒者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  大便#NN  干结#NN  者#NN  、#PU  高血压#NN  患者#NN  、#PU  甲状腺#NN  疾病#NN  患者#NN  、#PU  长期#JJ  饮酒者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 者#NN, 大便#NN)  (nn, 者#NN, 干结#NN)  (conj, 疾病#NN, 者#NN)  (nn, 患者#NN, 高血压#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 疾病#NN, 甲状腺#NN)  (nn, 患者#NN, 疾病#NN)  (conj, 饮酒者#NN, 患者#NN)  (amod, 饮酒者#NN, 长期#JJ)  (dobj, 适宜#VV, 饮酒者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                17.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                151
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            柿子是柿科落叶乔木植物柿的果实。品种甚多。主要产地有河北、北京、河南、山东、山西等省市。柿子扁圆，不同的品种颜色从浅桔黄色到深桔红色不等，大小从2厘米到10厘米，重量从100克到350克。柿子的品种有1000多个，品种有河北北京一带的磨盘柿、莲花柿，甜心柿，山东的牛心柿、耿饼柿，铃灯柿，鸡心柿，红柿，干帽柿、马奶头，绵柿，大红袍柿，罗田甜柿等。
+            又根据其在树上成熟前能否自然脱涩分为涩柿和甜柿两类。后者主要是来自日本品种中的“冬柿”，成熟时已经脱涩。而前者（我国上市的柿子大多数属于此类）必须在采摘后先经人工脱涩后方可供食用，引起涩柿涩味的物质基础是鞣酸（又称单宁酸）。催熟柿子的方法有多种，如将柿子与其他成熟水果放在一起，成熟水果释放出的乙烯等气体能促进柿子脱涩。农村一般用石灰水浸泡，这样获得的脱涩果品脆一些，北方人称为“懒柿子”。
+        </rawdata>
+
+        <segment>
+            柿子  是  柿科  落叶  乔木  植物柿  的  果实  。  品种  甚多  。  主要  产地  有  河北  、  北京  、  河南  、  山东  、  山西  等  省  市  。  柿子  扁圆  ，  不同  的  品种  颜色  从  浅  桔黄色  到  深  桔红色  不等  ，  大小  从  2  厘米  到  10  厘米  ，  重量  从  100  克  到  350  克  。  柿子  的  品种  有  1000  多个  ，  品种  有  河北  北京  一带  的  磨盘柿  、  莲花柿  ，  甜心柿  ，  山东  的  牛心柿  、  耿饼柿  ，  铃  灯柿  ，  鸡心柿  ，  红柿  ，  干  帽柿  、  马奶头  ，  绵柿  ，  大红袍柿  ，  罗田  甜柿  等  。
+            又  根据  其  在  树上  成熟  前  能否  自然  脱涩  分为  涩柿  和  甜柿  两  类  。  后者  主要  是  来自  日本  品种  中  的  “  冬柿  ”  ，  成熟  时  已经  脱涩  。  而  前者  （  我国  上市  的  柿子  大多数  属于  此类  ）  必须  在  采摘  后  先  经  人工  脱涩  后方  可  供  食用  ，  引起  涩柿  涩味  的  物质  基础  是  鞣酸  （  又  称  单宁酸  ）  。  催熟  柿子  的  方法  有  多  种  ，  如  将  柿子  与  其他  成熟  水果  放在  一起  ，  成熟  水果  释放  出  的  乙烯  等  气体  能  促进  柿子  脱涩  。  农村  一般  用  石灰水  浸泡  ，  这样  获得  的  脱涩  果品  脆  一些  ，  北方人  称为  “  懒  柿子  ”  。
+        </segment>
+
+        <pos>
+            柿子#NN  是#VC  柿科#VV  落叶#NN  乔木#NN  植物柿#NN  的#DEC  果实#NN    。#PU  品种#NN  甚多#VV    。#PU  主要#JJ  产地#NN  有#VE  河北#NR  、#PU  北京#NR  、#PU  河南#NR  、#PU  山东#NR  、#PU  山西#NR  等#ETC  省#NN  市#NN    。#PU  柿子#NN  扁圆#VV  ，#PU  不同#VA  的#DEC  品种#NN  颜色#NN  从#P  浅#NN  桔黄色#NN  到#VV  深#NR  桔红色#CD  不等#AD  ，#PU  大小#NN  从#P  2#CD  厘米#M  到#P  10#CD  厘米#M  ，#PU  重量#NN  从#P  100#CD  克#M  到#VV  350#CD  克#M    。#PU  柿子#NN  的#DEG  品种#NN  有#VE  1000#CD  多个#NN  ，#PU  品种#NN  有#VE  河北#NR  北京#NR  一带#CD  的#DEG  磨盘柿#NN  、#PU  莲花柿#NN  ，#PU  甜心柿#NN  ，#PU  山东#NR  的#DEG  牛心柿#NN  、#PU  耿饼柿#NN  ，#PU  铃#VV  灯柿#NN  ，#PU  鸡心柿#VV  ，#PU  红柿#VV  ，#PU  干#VV  帽柿#NN  、#PU  马奶头#NN  ，#PU  绵柿#VV  ，#PU  大红袍柿#VV  ，#PU  罗田#VV  甜柿#NN  等#ETC    。#PU    。#PU
+            又#AD  根据#P  其#PN  在#P  树上#AD  成熟#VA  前#LC  能否#VV  自然#AD  脱涩#AD  分为#VV  涩柿#NN  和#CC  甜柿#NN  两#CD  类#M    。#PU  后者#PN  主要#AD  是#VC  来自#VV  日本#NR  品种#NN  中#LC  的#DEC  ``#NN  冬柿#NN  ''#NN  ，#PU  成熟#VA  时#LC  已经#AD  脱涩#VV    。#PU  而#AD  前者#NN  （#PU  我国#VV  上市#VV  的#DEC  柿子#NN  大多数#CD  属于#VV  此类#NN  ）#PU  必须#VV  在#P  采摘#NN  后#LC  先#AD  经#P  人工#JJ  脱涩#NN  后方#NN  可#VV  供#VV  食用#VV  ，#PU  引起#VV  涩柿#NN  涩味#NN  的#DEC  物质#NN  基础#NN  是#VC  鞣酸#NN  （#PU  又#AD  称#VV  单宁酸#NN  ）#PU    。#PU  催熟#VV  柿子#NN  的#DEC  方法#NN  有#VE  多#CD  种#M  ，#PU  如#AD  将#BA  柿子#NN  与#P  其他#DT  成熟#VA  水果#NN  放在#NN  一起#VV  ，#PU  成熟#VA  水果#NN  释放#VV  出#VV  的#DEC  乙烯#NN  等#ETC  气体#NN  能#VV  促进#VV  柿子#NN  脱涩#NN    。#PU  农村#NN  一般#AD  用#P  石灰水#VV  浸泡#NN  ，#PU  这样#AD  获得#VV  的#DEC  脱涩#NN  果品#NN  脆#VV  一些#CD  ，#PU  北方人#AD  称为#VV  ``#NN  懒#NN  柿子#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果实#NN, 柿子#NN)  (cop, 果实#NN, 是#VC)  (relcl, 果实#NN, 柿科#VV)  (nn, 植物柿#NN, 落叶#NN)  (nn, 植物柿#NN, 乔木#NN)  (dobj, 柿科#VV, 植物柿#NN)  (mark, 柿科#VV, 的#DEC)  (root, ROOT#null, 果实#NN)   (nsubj, 甚多#VV, 品种#NN)  (root, ROOT#null, 甚多#VV)   (amod, 产地#NN, 主要#JJ)  (dep, 有#VE, 产地#NN)  (root, ROOT#null, 有#VE)  (conj, 山西#NR, 河北#NR)  (conj, 山西#NR, 北京#NR)  (conj, 山西#NR, 河南#NR)  (conj, 山西#NR, 山东#NR)  (nn, 市#NN, 山西#NR)  (etc, 山西#NR, 等#ETC)  (nn, 市#NN, 省#NN)  (dobj, 有#VE, 市#NN)   (nsubj, 扁圆#VV, 柿子#NN)  (root, ROOT#null, 扁圆#VV)  (relcl, 颜色#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (nn, 颜色#NN, 品种#NN)  (nsubj, 到#VV, 颜色#NN)  (case, 桔黄色#NN, 从#P)  (nn, 桔黄色#NN, 浅#NN)  (prep, 到#VV, 桔黄色#NN)  (ccomp, 扁圆#VV, 到#VV)  (dobj, 到#VV, 深#NR)  (range, 到#VV, 桔红色#CD)  (advmod, 桔红色#CD, 不等#AD)  (nsubj, 到#VV, 大小#NN)  (case, 厘米#M, 从#P)  (nummod, 厘米#M, 2#CD)  (prep, 到#VV, 厘米#M)  (case, 厘米#M, 到#P)  (nummod, 厘米#M, 10#CD)  (conj, 厘米#M, 厘米#M)  (nsubj, 到#VV, 重量#NN)  (case, 克#M, 从#P)  (nummod, 克#M, 100#CD)  (prep, 到#VV, 克#M)  (conj, 到#VV, 到#VV)  (nummod, 克#M, 350#CD)  (range, 到#VV, 克#M)   (assmod, 品种#NN, 柿子#NN)  (case, 柿子#NN, 的#DEG)  (dep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (nummod, 多个#NN, 1000#CD)  (dobj, 有#VE, 多个#NN)  (dep, 有#VE, 品种#NN)  (conj, 有#VE, 有#VE)  (nn, 莲花柿#NN, 河北#NR)  (nn, 莲花柿#NN, 北京#NR)  (assmod, 莲花柿#NN, 一带#CD)  (case, 一带#CD, 的#DEG)  (conj, 莲花柿#NN, 磨盘柿#NN)  (dobj, 有#VE, 莲花柿#NN)  (nsubj, 铃#VV, 甜心柿#NN)  (assmod, 耿饼柿#NN, 山东#NR)  (case, 山东#NR, 的#DEG)  (conj, 耿饼柿#NN, 牛心柿#NN)  (nsubj, 铃#VV, 耿饼柿#NN)  (conj, 有#VE, 铃#VV)  (dobj, 铃#VV, 灯柿#NN)  (conj, 铃#VV, 鸡心柿#VV)  (conj, 铃#VV, 红柿#VV)  (conj, 铃#VV, 干#VV)  (conj, 马奶头#NN, 帽柿#NN)  (dobj, 干#VV, 马奶头#NN)  (conj, 铃#VV, 绵柿#VV)  (conj, 铃#VV, 大红袍柿#VV)  (dep, 铃#VV, 罗田#VV)  (dobj, 罗田#VV, 甜柿#NN)  (etc, 甜柿#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (advmod, 分为#VV, 又#AD)  (case, 其#PN, 根据#P)  (prep, 分为#VV, 其#PN)  (case, 成熟#VA, 在#P)  (advmod, 成熟#VA, 树上#AD)  (prep, 分为#VV, 成熟#VA)  (case, 成熟#VA, 前#LC)  (mmod, 分为#VV, 能否#VV)  (advmod, 分为#VV, 自然#AD)  (advmod, 分为#VV, 脱涩#AD)  (root, ROOT#null, 分为#VV)  (conj, 甜柿#NN, 涩柿#NN)  (cc, 甜柿#NN, 和#CC)  (dobj, 分为#VV, 甜柿#NN)  (nummod, 类#M, 两#CD)  (range, 分为#VV, 类#M)   (nsubj, ''#NN, 后者#PN)  (advmod, ''#NN, 主要#AD)  (cop, ''#NN, 是#VC)  (relcl, ''#NN, 来自#VV)  (nn, 品种#NN, 日本#NR)  (loc, 来自#VV, 品种#NN)  (case, 品种#NN, 中#LC)  (mark, 来自#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 冬柿#NN)  (root, ROOT#null, ''#NN)  (loc, 脱涩#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (advmod, 脱涩#VV, 已经#AD)  (conj, ''#NN, 脱涩#VV)   (advmod, 鞣酸#NN, 而#AD)  (dep, 鞣酸#NN, 前者#NN)  (dep, 供#VV, 我国#VV)  (relcl, 柿子#NN, 上市#VV)  (mark, 上市#VV, 的#DEC)  (dobj, 我国#VV, 柿子#NN)  (range, 我国#VV, 大多数#CD)  (conj, 我国#VV, 属于#VV)  (dobj, 属于#VV, 此类#NN)  (mmod, 供#VV, 必须#VV)  (case, 采摘#NN, 在#P)  (prep, 供#VV, 采摘#NN)  (case, 采摘#NN, 后#LC)  (advmod, 供#VV, 先#AD)  (case, 后方#NN, 经#P)  (amod, 脱涩#NN, 人工#JJ)  (nn, 后方#NN, 脱涩#NN)  (prep, 供#VV, 后方#NN)  (mmod, 供#VV, 可#VV)  (relcl, 基础#NN, 供#VV)  (ccomp, 供#VV, 食用#VV)  (dep, 供#VV, 引起#VV)  (nn, 涩味#NN, 涩柿#NN)  (dobj, 引起#VV, 涩味#NN)  (mark, 供#VV, 的#DEC)  (nn, 基础#NN, 物质#NN)  (nsubj, 鞣酸#NN, 基础#NN)  (cop, 鞣酸#NN, 是#VC)  (root, ROOT#null, 鞣酸#NN)  (advmod, 称#VV, 又#AD)  (dep, 鞣酸#NN, 称#VV)  (dobj, 称#VV, 单宁酸#NN)   (relcl, 方法#NN, 催熟#VV)  (dobj, 催熟#VV, 柿子#NN)  (mark, 催熟#VV, 的#DEC)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 多#CD)  (dep, 有#VE, 种#M)  (advmod, 促进#VV, 如#AD)  (ba, 一起#VV, 将#BA)  (nsubj, 一起#VV, 柿子#NN)  (case, 放在#NN, 与#P)  (det, 放在#NN, 其他#DT)  (relcl, 水果#NN, 成熟#VA)  (nn, 放在#NN, 水果#NN)  (prep, 一起#VV, 放在#NN)  (relcl, 气体#NN, 一起#VV)  (relcl, 水果#NN, 成熟#VA)  (nsubj, 释放#VV, 水果#NN)  (conj, 一起#VV, 释放#VV)  (comod, 释放#VV, 出#VV)  (mark, 一起#VV, 的#DEC)  (nn, 气体#NN, 乙烯#NN)  (etc, 乙烯#NN, 等#ETC)  (nsubj, 促进#VV, 气体#NN)  (mmod, 促进#VV, 能#VV)  (conj, 有#VE, 促进#VV)  (nn, 脱涩#NN, 柿子#NN)  (dobj, 促进#VV, 脱涩#NN)   (nsubj, 脆#VV, 农村#NN)  (advmod, 脆#VV, 一般#AD)  (case, 果品#NN, 用#P)  (relcl, 果品#NN, 石灰水#VV)  (dobj, 石灰水#VV, 浸泡#NN)  (advmod, 获得#VV, 这样#AD)  (conj, 石灰水#VV, 获得#VV)  (mark, 石灰水#VV, 的#DEC)  (nn, 果品#NN, 脱涩#NN)  (prep, 脆#VV, 果品#NN)  (root, ROOT#null, 脆#VV)  (range, 脆#VV, 一些#CD)  (advmod, 称为#VV, 北方人#AD)  (dep, 脆#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 懒#NN)  (nn, ''#NN, 柿子#NN)  (dobj, 称为#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.止血凉血
+            新鲜柿子有凉血止血作用；柿霜润肺，可用于咽干、口舌生疮等；柿蒂有降逆止作用；柿饼和胃止血；柿叶有止血作用，用于治疗咳血、便血、出血、吐血、新近研究发现柿子和柿叶有降压、利水、消炎、止血作用。
+            2.润肺化痰生津止渴
+            清热去燥、润肺化痰、软坚、止渴生津、健脾、治痢、止血等功能，可以缓解大便干结、痔疮疼痛或出血、干咳、喉痛、高血压等症。
+            3.活血降压
+            柿子有助于降低血压，软化血管，增加冠状动脉流量，并且能活血消炎，改善心血管功能。
+            4.解酒
+            柿子能促进血液中乙醇的氧化，帮助机体对酒精的排泄，减少酒精对机体的伤害。
+        </rawdata>
+
+        <segment>
+            止血  凉  血
+            新鲜  柿子  有  凉  血  止血  作用  ；  柿霜  润肺  ，  可  用于  咽干  、  口舌  生疮  等  ；  柿蒂  有  降  逆  止  作用  ；  柿饼  和  胃  止血  ；  柿叶  有  止血  作用  ，  用于  治疗  咳血  、  便血  、  出血  、  吐血  、  新近  研究  发现  柿子  和  柿叶  有  降压  、  利水  、  消炎  、  止血  作用  。
+            润肺  化痰  生津止渴
+            清热  去燥  、  润肺  化痰  、  软坚  、  止渴  生津  、  健脾  、  治痢  、  止血  等  功能  ，  可以  缓解  大便  干结  、  痔疮  疼痛  或  出血  、  干咳  、  喉痛  、  高血压  等症  。
+            活血  降压
+            柿子  有助于  降低  血压  ，  软化  血管  ，  增加  冠状  动脉  流量  ，  并且  能  活血  消炎  ，  改善  心  血管  功能  。
+            解酒
+            柿子  能  促进  血液  中  乙醇  的  氧化  ，  帮助  机体  对  酒精  的  排泄  ，  减少  酒精  对  机体  的  伤害  。
+        </segment>
+
+        <pos>
+            止血#NN  凉#VV  血#NN
+            新鲜#JJ  柿子#NN  有#VE  凉#NN  血#NN  止血#NN  作用#NN  ；#PU  柿霜#VV  润肺#NN  ，#PU  可#VV  用于#VV  咽干#NN  、#PU  口舌#NN  生疮#NN  等#ETC  ；#PU  柿蒂#AD  有#VE  降#NN  逆#NN  止#VV  作用#NN  ；#PU  柿饼#VV  和#CC  胃#VV  止血#NN  ；#PU  柿叶#AD  有#VE  止血#NN  作用#NN  ，#PU  用于#VV  治疗#NN  咳血#VA  、#PU  便血#VA  、#PU  出血#VV  、#PU  吐血#VV  、#PU  新近#AD  研究#VV  发现#VV  柿子#NN  和#CC  柿叶#NN  有#VE  降压#NR  、#PU  利水#NR  、#PU  消炎#NR  、#PU  止血#NR  作用#NN  。#PU
+            润肺#NN  化痰#NN  生津止渴#NN
+            清热#VV  去燥#NR  、#PU  润肺#NR  化痰#NR  、#PU  软坚#NR  、#PU  止渴#NR  生津#NR  、#PU  健脾#NR  、#PU  治痢#NR  、#PU  止血#NR  等#ETC  功能#NN  ，#PU  可以#VV  缓解#VV  大便#NN  干结#NN  、#PU  痔疮#VV  疼痛#NN  或#CC  出血#VV  、#PU  干咳#NR  、#PU  喉痛#NR  、#PU  高血压#NR  等症#NN  。#PU
+            活血#NN  降压#VV
+            柿子#NN  有助于#VV  降低#VV  血压#NN  ，#PU  软化#VV  血管#NN  ，#PU  增加#VV  冠状#NN  动脉#NN  流量#NN  ，#PU  并且#CC  能#VV  活血#VV  消炎#NN  ，#PU  改善#VV  心#NN  血管#NN  功能#NN  。#PU
+            解酒#VV
+            柿子#NN  能#VV  促进#VV  血液#NN  中#LC  乙醇#NN  的#DEG  氧化#NN  ，#PU  帮助#VV  机体#VV  对#P  酒精#NN  的#DEG  排泄#NN  ，#PU  减少#VV  酒精#NN  对#P  机体#NN  的#DEG  伤害#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 凉#VV, 止血#NN)  (root, ROOT#null, 凉#VV)  (dobj, 凉#VV, 血#NN)
+            (amod, 柿子#NN, 新鲜#JJ)  (nsubj, 有#VE, 柿子#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 凉#NN)  (nn, 作用#NN, 血#NN)  (nn, 作用#NN, 止血#NN)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 柿霜#VV)  (dobj, 柿霜#VV, 润肺#NN)  (mmod, 用于#VV, 可#VV)  (conj, 有#VE, 用于#VV)  (conj, 生疮#NN, 咽干#NN)  (nn, 生疮#NN, 口舌#NN)  (dobj, 用于#VV, 生疮#NN)  (etc, 生疮#NN, 等#ETC)  (advmod, 有#VE, 柿蒂#AD)  (conj, 有#VE, 有#VE)  (nn, 逆#NN, 降#NN)  (nsubj, 止#VV, 逆#NN)  (dep, 有#VE, 止#VV)  (dobj, 止#VV, 作用#NN)  (conj, 有#VE, 柿饼#VV)  (cc, 有#VE, 和#CC)  (conj, 有#VE, 胃#VV)  (dobj, 胃#VV, 止血#NN)  (advmod, 有#VE, 柿叶#AD)  (conj, 有#VE, 有#VE)  (nn, 作用#NN, 止血#NN)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 用于#VV)  (dobj, 用于#VV, 治疗#NN)  (conj, 出血#VV, 咳血#VA)  (conj, 出血#VV, 便血#VA)  (dep, 用于#VV, 出血#VV)  (conj, 有#VE, 吐血#VV)  (advmod, 发现#VV, 新近#AD)  (mmod, 发现#VV, 研究#VV)  (conj, 有#VE, 发现#VV)  (conj, 柿叶#NN, 柿子#NN)  (cc, 柿叶#NN, 和#CC)  (dobj, 发现#VV, 柿叶#NN)  (dep, 发现#VV, 有#VE)  (conj, 止血#NR, 降压#NR)  (conj, 止血#NR, 利水#NR)  (conj, 止血#NR, 消炎#NR)  (nn, 作用#NN, 止血#NR)  (dobj, 有#VE, 作用#NN)
+            (nn, 生津止渴#NN, 润肺#NN)  (nn, 生津止渴#NN, 化痰#NN)  (root, ROOT#null, 生津止渴#NN)
+            (root, ROOT#null, 清热#VV)  (conj, 止血#NR, 去燥#NR)  (nn, 止血#NR, 润肺#NR)  (conj, 止血#NR, 化痰#NR)  (conj, 止血#NR, 软坚#NR)  (nn, 止血#NR, 止渴#NR)  (conj, 止血#NR, 生津#NR)  (conj, 止血#NR, 健脾#NR)  (conj, 止血#NR, 治痢#NR)  (nn, 功能#NN, 止血#NR)  (etc, 止血#NR, 等#ETC)  (dobj, 清热#VV, 功能#NN)  (mmod, 缓解#VV, 可以#VV)  (conj, 清热#VV, 缓解#VV)  (nn, 干结#NN, 大便#NN)  (dobj, 缓解#VV, 干结#NN)  (conj, 清热#VV, 痔疮#VV)  (dobj, 痔疮#VV, 疼痛#NN)  (cc, 清热#VV, 或#CC)  (conj, 清热#VV, 出血#VV)  (conj, 高血压#NR, 干咳#NR)  (conj, 高血压#NR, 喉痛#NR)  (nn, 等症#NN, 高血压#NR)  (conj, 清热#VV, 等症#NN)
+            (nsubj, 降压#VV, 活血#NN)  (root, ROOT#null, 降压#VV)
+            (nsubj, 有助于#VV, 柿子#NN)  (xsubj, 降低#VV, 柿子#NN)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (conj, 降低#VV, 软化#VV)  (dobj, 软化#VV, 血管#NN)  (conj, 降低#VV, 增加#VV)  (nn, 流量#NN, 冠状#NN)  (nn, 流量#NN, 动脉#NN)  (dobj, 增加#VV, 流量#NN)  (cc, 降低#VV, 并且#CC)  (mmod, 活血#VV, 能#VV)  (conj, 降低#VV, 活血#VV)  (dobj, 活血#VV, 消炎#NN)  (conj, 降低#VV, 改善#VV)  (nn, 功能#NN, 心#NN)  (nn, 功能#NN, 血管#NN)  (dobj, 改善#VV, 功能#NN)
+            (root, ROOT#null, 解酒#VV)
+            (nsubj, 促进#VV, 柿子#NN)  (xsubj, 机体#VV, 柿子#NN)  (mmod, 促进#VV, 能#VV)  (root, ROOT#null, 促进#VV)  (dep, 乙醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (assmod, 氧化#NN, 乙醇#NN)  (case, 乙醇#NN, 的#DEG)  (dobj, 促进#VV, 氧化#NN)  (dep, 促进#VV, 帮助#VV)  (ccomp, 帮助#VV, 机体#VV)  (case, 酒精#NN, 对#P)  (assmod, 排泄#NN, 酒精#NN)  (case, 酒精#NN, 的#DEG)  (dobj, 机体#VV, 排泄#NN)  (conj, 机体#VV, 减少#VV)  (nn, 伤害#NN, 酒精#NN)  (case, 机体#NN, 对#P)  (assmod, 伤害#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 减少#VV, 伤害#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.柿子含有丰富的蔗糖、葡萄糖、果糖、蛋白质、胡萝卜素、维生素C、瓜氨酸、碘、钙、磷、铁。
+            2.柿子所含维生素和糖分比一般水果高1～2倍左右，假如一个人一天吃一个柿子，所摄取的维生素C，基本上就能满足一天需要量的一半。
+            3.成熟果实含鞣质。涩柿柿子中含碳水化合物很多，每100克柿子中含10.8克，其中主要是蔗糖、葡萄糖及果糖，这也是大家感到柿子很甜的原因，新鲜柿子含碘很高。
+            4.柿子富含果胶，它是一种水溶性的膳食纤维，有良好的润肠通便作用，对于纠正便秘，保持肠道正常菌群生长等有很好的作用。
+        </rawdata>
+
+        <segment>
+            柿子  含有  丰富  的  蔗糖  、  葡萄糖  、  果糖  、  蛋白质  、  胡萝卜素  、  维生素C  、  瓜  氨酸  、  碘  、  钙  、  磷  、  铁  。
+            柿子  所含  维生素  和  糖分  比  一般  水果  高  1  ～  2  倍  左右  ，  假如  一  个  人  一  天  吃  一  个  柿子  ，  所  摄取  的  维生素C  ，  基本上  就  能  满足  一  天  需要  量  的  一半  。
+            成熟  果实  含  鞣质  。  涩柿  柿子  中  含  碳水  化合物  很多  ，  每  100  克  柿子  中  含  10.8  克  ，  其中  主要  是  蔗糖  、  葡萄糖  及  果糖  ，  这  也  是  大家  感到  柿子  很  甜  的  原因  ，  新鲜  柿子  含碘  很  高  。
+            柿子  富含  果胶  ，  它  是  一  种  水溶性  的  膳食  纤维  ，  有  良好  的  润肠  通便  作用  ，  对于  纠正  便秘  ，  保持  肠道  正常  菌群  生长  等  有  很  好  的  作用  。
+        </segment>
+
+        <pos>
+            柿子#NN  含有#VV  丰富#VA  的#DEC  蔗糖#NR  、#PU  葡萄糖#NR  、#PU  果糖#NR  、#PU  蛋白质#NR  、#PU  胡萝卜素#NR  、#PU  维生素C#NR  、#PU  瓜#NN  氨酸#NN  、#PU  碘#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  。#PU
+            柿子#NN  所含#VV  维生素#NN  和#CC  糖分#VV  比#P  一般#JJ  水果#NN  高#JJ  1#CD  ～#NN  2#CD  倍#M  左右#LC  ，#PU  假如#CS  一#CD  个#M  人#NN  一#CD  天#M  吃#VV  一#CD  个#M  柿子#NN  ，#PU  所#MSP  摄取#VV  的#DEC  维生素C#NN  ，#PU  基本上#AD  就#AD  能#VV  满足#VV  一#CD  天#M  需要#NN  量#NN  的#DEG  一半#CD  。#PU
+            成熟#VA  果实#NN  含#VV  鞣质#NN    。#PU  涩柿#NN  柿子#NN  中#LC  含#VV  碳水#NN  化合物#NN  很多#CD  ，#PU  每#DT  100#CD  克#M  柿子#NN  中#LC  含#VV  10.8#CD  克#M  ，#PU  其中#NN  主要#AD  是#VC  蔗糖#NR  、#PU  葡萄糖#NR  及#CC  果糖#NR  ，#PU  这#PN  也#AD  是#VC  大家#PN  感到#VV  柿子#NN  很#AD  甜#VA  的#DEC  原因#NN  ，#PU  新鲜#JJ  柿子#NN  含碘#NN  很#AD  高#VA    。#PU    。#PU
+            柿子#NN  富含#NN  果胶#NN  ，#PU  它#PN  是#VC  一#CD  种#M  水溶性#NN  的#DEG  膳食#NN  纤维#NN  ，#PU  有#VE  良好#VA  的#DEC  润肠#NN  通便#NN  作用#NN  ，#PU  对于#P  纠正#VV  便秘#NN  ，#PU  保持#VV  肠道#NR  正常#JJ  菌群#NN  生长#NN  等#ETC  有#VE  很#AD  好#VA  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 柿子#NN)  (root, ROOT#null, 含有#VV)  (relcl, 铁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素C#NR, 蔗糖#NR)  (conj, 维生素C#NR, 葡萄糖#NR)  (conj, 维生素C#NR, 果糖#NR)  (conj, 维生素C#NR, 蛋白质#NR)  (conj, 维生素C#NR, 胡萝卜素#NR)  (conj, 铁#NN, 维生素C#NR)  (nn, 氨酸#NN, 瓜#NN)  (conj, 铁#NN, 氨酸#NN)  (conj, 铁#NN, 碘#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)
+            (nsubj, 所含#VV, 柿子#NN)  (root, ROOT#null, 所含#VV)  (dobj, 所含#VV, 维生素#NN)  (cc, 所含#VV, 和#CC)  (conj, 所含#VV, 糖分#VV)  (case, 维生素C#NN, 比#P)  (amod, 水果#NN, 一般#JJ)  (nn, ～#NN, 水果#NN)  (amod, ～#NN, 高#JJ)  (nummod, ～#NN, 1#CD)  (nummod, 倍#M, 2#CD)  (loc, 摄取#VV, 倍#M)  (case, 倍#M, 左右#LC)  (advmod, 吃#VV, 假如#CS)  (nummod, 个#M, 一#CD)  (clf, 人#NN, 个#M)  (nsubj, 吃#VV, 人#NN)  (nummod, 天#M, 一#CD)  (dep, 吃#VV, 天#M)  (dep, 摄取#VV, 吃#VV)  (nummod, 个#M, 一#CD)  (clf, 柿子#NN, 个#M)  (dobj, 吃#VV, 柿子#NN)  (prtmod, 摄取#VV, 所#MSP)  (relcl, ～#NN, 摄取#VV)  (relcl, 维生素C#NN, 摄取#VV)  (mark, 摄取#VV, 的#DEC)  (prep, 满足#VV, 维生素C#NN)  (advmod, 满足#VV, 基本上#AD)  (advmod, 满足#VV, 就#AD)  (mmod, 满足#VV, 能#VV)  (nfincl, 量#NN, 满足#VV)  (nummod, 天#M, 一#CD)  (clf, 需要#NN, 天#M)  (dobj, 满足#VV, 需要#NN)  (assmod, 一半#CD, 量#NN)  (case, 量#NN, 的#DEG)  (range, 糖分#VV, 一半#CD)
+            (relcl, 果实#NN, 成熟#VA)  (nsubj, 含#VV, 果实#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 鞣质#NN)   (nn, 柿子#NN, 涩柿#NN)  (loc, 含#VV, 柿子#NN)  (case, 柿子#NN, 中#LC)  (dep, 果糖#NR, 含#VV)  (nn, 化合物#NN, 碳水#NN)  (dobj, 含#VV, 化合物#NN)  (range, 含#VV, 很多#CD)  (det, 柿子#NN, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (loc, 含#VV, 柿子#NN)  (case, 柿子#NN, 中#LC)  (conj, 含#VV, 含#VV)  (nummod, 克#M, 10.8#CD)  (range, 含#VV, 克#M)  (nsubj, 果糖#NR, 其中#NN)  (advmod, 果糖#NR, 主要#AD)  (cop, 果糖#NR, 是#VC)  (conj, 果糖#NR, 蔗糖#NR)  (conj, 果糖#NR, 葡萄糖#NR)  (cc, 果糖#NR, 及#CC)  (root, ROOT#null, 果糖#NR)  (nsubj, 原因#NN, 这#PN)  (advmod, 原因#NN, 也#AD)  (cop, 原因#NN, 是#VC)  (nsubj, 感到#VV, 大家#PN)  (relcl, 原因#NN, 感到#VV)  (nsubj, 甜#VA, 柿子#NN)  (advmod, 甜#VA, 很#AD)  (ccomp, 感到#VV, 甜#VA)  (mark, 感到#VV, 的#DEC)  (conj, 果糖#NR, 原因#NN)  (amod, 柿子#NN, 新鲜#JJ)  (nn, 含碘#NN, 柿子#NN)  (nsubj, 高#VA, 含碘#NN)  (advmod, 高#VA, 很#AD)  (conj, 果糖#NR, 高#VA)   (root, ROOT#null, null#null)
+            (nn, 果胶#NN, 柿子#NN)  (nn, 果胶#NN, 富含#NN)  (nsubj, 纤维#NN, 果胶#NN)  (nsubj, 纤维#NN, 它#PN)  (cop, 纤维#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 水溶性#NN, 种#M)  (assmod, 纤维#NN, 水溶性#NN)  (case, 水溶性#NN, 的#DEG)  (nn, 纤维#NN, 膳食#NN)  (root, ROOT#null, 纤维#NN)  (conj, 纤维#NN, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 润肠#NN)  (nn, 作用#NN, 通便#NN)  (dobj, 有#VE, 作用#NN)  (case, 纠正#VV, 对于#P)  (prep, 有#VE, 纠正#VV)  (dobj, 纠正#VV, 便秘#NN)  (conj, 纠正#VV, 保持#VV)  (nn, 菌群#NN, 肠道#NR)  (amod, 菌群#NN, 正常#JJ)  (nn, 生长#NN, 菌群#NN)  (dobj, 保持#VV, 生长#NN)  (etc, 生长#NN, 等#ETC)  (conj, 纤维#NN, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.空腹慎吃生柿子或食柿后忌饮白酒、热汤、以防患胃柿石症。
+            2.柿子含单宁，易与铁质结合，从而妨碍人体对食物中铁质的吸收，所以贫血患者应少吃为好。
+            3.不要空腹吃柿子，柿子宜在饭后吃。
+            4.吃柿子的前后1小时内不宜喝
+        </rawdata>
+
+        <segment>
+            空腹  慎吃生  柿子  或  食柿后忌饮  白酒  、  热汤  、  以  防患  胃柿石症  。
+            柿子  含  单宁  ，  易与  铁质  结合  ，  从而  妨碍  人体  对  食物  中  铁质  的  吸收  ，  所以  贫血  患者  应  少吃  为好  。
+            不要  空腹  吃  柿子  ，  柿子  宜在  饭后  吃  。
+            吃  柿子  的  前后  1  小时  内  不宜喝
+        </segment>
+
+        <pos>
+            空腹#VV  慎吃生#NN  柿子#NN  或#CC  食柿后忌饮#NN  白酒#NN  、#PU  热汤#NN  、#PU  以#P  防患#NN  胃柿石症#VV  。#PU
+            柿子#NN  含#VV  单宁#NN  ，#PU  易与#NN  铁质#AD  结合#VV  ，#PU  从而#AD  妨碍#VV  人体#AD  对#P  食物#NN  中#LC  铁质#VV  的#DEC  吸收#NN  ，#PU  所以#AD  贫血#NN  患者#NN  应#P  少吃#NN  为好#VV  。#PU
+            不要#NN  空腹#AD  吃#VV  柿子#NN  ，#PU  柿子#NN  宜在#NN  饭后#AD  吃#VV  。#PU
+            吃#VV  柿子#NN  的#DEG  前后#LC  1#CD  小时#NN  内#LC  不宜喝#VV
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 空腹#VV)  (nn, 热汤#NN, 慎吃生#NN)  (conj, 热汤#NN, 柿子#NN)  (cc, 热汤#NN, 或#CC)  (nn, 热汤#NN, 食柿后忌饮#NN)  (conj, 热汤#NN, 白酒#NN)  (dobj, 空腹#VV, 热汤#NN)  (case, 防患#NN, 以#P)  (prep, 胃柿石症#VV, 防患#NN)  (conj, 空腹#VV, 胃柿石症#VV)
+            (nsubj, 含#VV, 柿子#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 单宁#NN)  (nsubj, 结合#VV, 易与#NN)  (advmod, 结合#VV, 铁质#AD)  (conj, 含#VV, 结合#VV)  (advmod, 妨碍#VV, 从而#AD)  (dep, 结合#VV, 妨碍#VV)  (advmod, 铁质#VV, 人体#AD)  (case, 食物#NN, 对#P)  (prep, 铁质#VV, 食物#NN)  (case, 食物#NN, 中#LC)  (relcl, 吸收#NN, 铁质#VV)  (mark, 铁质#VV, 的#DEC)  (dobj, 妨碍#VV, 吸收#NN)  (advmod, 为好#VV, 所以#AD)  (nn, 患者#NN, 贫血#NN)  (nsubj, 为好#VV, 患者#NN)  (case, 少吃#NN, 应#P)  (prep, 为好#VV, 少吃#NN)  (conj, 含#VV, 为好#VV)
+            (nsubj, 吃#VV, 不要#NN)  (advmod, 吃#VV, 空腹#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 柿子#NN)  (nn, 宜在#NN, 柿子#NN)  (nsubj, 吃#VV, 宜在#NN)  (advmod, 吃#VV, 饭后#AD)  (conj, 吃#VV, 吃#VV)
+            (loc, 不宜喝#VV, 吃#VV)  (dobj, 吃#VV, 柿子#NN)  (case, 柿子#NN, 的#DEG)  (case, 吃#VV, 前后#LC)  (nummod, 小时#NN, 1#CD)  (loc, 不宜喝#VV, 小时#NN)  (case, 小时#NN, 内#LC)  (root, ROOT#null, 不宜喝#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/10205149682.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

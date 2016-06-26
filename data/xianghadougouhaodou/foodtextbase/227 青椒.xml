@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        227
+    </id>
+
+    <foodname>
+        青椒
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        菜椒、大椒、灯笼椒、柿子椒、辣椒
+    </alias>
+
+    <season>
+        夏季
+    </season>
+
+    <unsuit>
+        <rawdata>
+            眼疾患者、食管炎、胃肠炎、胃溃疡、痔疮患者慎食；火热病症或阴虚火旺，高血压，肺结核病的人慎食。
+        </rawdata>
+
+        <segment>
+            眼疾  患者  、  食管炎  、  胃肠炎  、  胃溃疡  、  痔疮  患者  慎食  ；  火热  病症  或  阴虚  火  旺  ，  高血压  ，  肺  结核病  的  人  慎  食  。
+        </segment>
+
+        <pos>
+            眼疾#NN  患者#NN  、#PU  食管炎#NR  、#PU  胃肠炎#NR  、#PU  胃溃疡#NR  、#PU  痔疮#NR  患者#NN  慎食#VV  ；#PU  火热#NN  病症#NN  或#CC  阴虚#NN  火#NN  旺#VV  ，#PU  高血压#NN  ，#PU  肺#NN  结核病#NN  的#DEG  人#NN  慎#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 眼疾#NN)  (conj, 患者#NN, 患者#NN)  (conj, 痔疮#NR, 食管炎#NR)  (conj, 痔疮#NR, 胃肠炎#NR)  (conj, 痔疮#NR, 胃溃疡#NR)  (nn, 患者#NN, 痔疮#NR)  (nsubj, 慎食#VV, 患者#NN)  (root, ROOT#null, 慎食#VV)  (nn, 火#NN, 火热#NN)  (conj, 火#NN, 病症#NN)  (cc, 火#NN, 或#CC)  (nn, 火#NN, 阴虚#NN)  (nsubj, 旺#VV, 火#NN)  (ccomp, 慎食#VV, 旺#VV)  (nsubj, 慎#VV, 高血压#NN)  (nn, 结核病#NN, 肺#NN)  (assmod, 人#NN, 结核病#NN)  (case, 结核病#NN, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (conj, 慎食#VV, 慎#VV)  (dobj, 慎#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可适用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  适用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  适用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 适用#VV, 人群#NN)  (advmod, 适用#VV, 均#AD)  (dep, 适用#VV, 可#VV)  (root, ROOT#null, 适用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                340
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                142
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            青椒为植物界，双子叶植物纲，菊亚纲，茄科，一年生或多年生草本植物，果实为浆果。因能结甜味浆果，又叫甜椒、菜椒。青椒是其特点是果实较大，辣味较淡甚至根本不辣，作蔬菜食用而不作为调味料。由于它翠绿鲜艳，新培育出来的品种还有红、黄、紫等多种颜色，因此不但能自成一菜，还被广泛用于配菜。
+            青椒由原产中南美洲热带地区的辣椒在北美演化而来，经长期栽培驯化和人工选择，使果实发生体积增大，果肉变厚，辣味消失和心皮及子房腔数增多等性状变化。中国于100多年前引入，现全国各地普遍栽培。
+        </rawdata>
+
+        <segment>
+            青椒  为  植物界  ，  双子叶  植物  纲  ，  菊  亚纲  ，  茄科  ，  一  年  生  或  多年生  草本  植物  ，  果实  为  浆果  。  因  能  结  甜味  浆果  ，  又  叫  甜椒  、  菜椒  。  青椒  是  其  特点  是  果实  较大  ，  辣味  较  淡  甚至  根本  不  辣  ，  作  蔬菜  食用  而  不  作为  调味料  。  由于  它  翠绿  鲜艳  ，  新  培育  出来  的  品种  还有  红  、  黄  、  紫  等  多  种  颜色  ，  因此  不但  能  自成  一  菜  ，  还  被  广泛  用于  配菜  。
+            青椒  由  原产  中南美洲  热带  地区  的  辣椒  在  北美  演化  而来  ，  经  长期  栽培  驯化  和  人工  选择  ，  使  果实  发生  体积  增大  ，  果肉  变厚  ，  辣味  消失  和  心皮  及  子房  腔数  增多  等  性状  变化  。  中国  于  100  多年前  引入  ，  现  全国  各  地  普遍  栽培  。
+        </segment>
+
+        <pos>
+            青椒#NN  为#VC  植物界#NN  ，#PU  双子叶#JJ  植物#NN  纲#NN  ，#PU  菊#NN  亚纲#NN  ，#PU  茄科#NR  ，#PU  一#CD  年#M  生#VV  或#CC  多年生#VV  草本#NN  植物#NN  ，#PU  果实#NN  为#VC  浆果#NN    。#PU  因#P  能#VV  结#VV  甜味#NN  浆果#NN  ，#PU  又#AD  叫#VV  甜椒#NR  、#PU  菜椒#NR    。#PU  青椒#NN  是#VC  其#PN  特点#NN  是#VC  果实#NN  较大#JJ  ，#PU  辣味#AD  较#AD  淡#VV  甚至#AD  根本#NN  不#AD  辣#VV  ，#PU  作#VV  蔬菜#NN  食用#VV  而#CC  不#AD  作为#VV  调味料#NN    。#PU  由于#P  它#PN  翠绿#VV  鲜艳#NN  ，#PU  新#AD  培育#VV  出来#VV  的#DEC  品种#NN  还有#AD  红#JJ  、#PU  黄#JJ  、#PU  紫#VA  等#CC  多#VA  种#NN  颜色#NN  ，#PU  因此#AD  不但#CC  能#VV  自成#VV  一#CD  菜#NN  ，#PU  还#AD  被#SB  广泛#AD  用于#VV  配菜#NN    。#PU    。#PU
+            青椒#NN  由#P  原产#NR  中南美洲#NR  热带#NN  地区#NN  的#DEG  辣椒#NN  在#P  北美#NR  演化#VV  而来#NN  ，#PU  经#P  长期#AD  栽培#VV  驯化#VV  和#CC  人工#AD  选择#VV  ，#PU  使#VV  果实#NN  发生#VV  体积#NN  增大#VV  ，#PU  果肉#VV  变厚#NN  ，#PU  辣味#VV  消失#NN  和#CC  心皮#NN  及#CC  子房#NN  腔数#AD  增多#VV  等#ETC  性状#NN  变化#NN    。#PU  中国#NR  于#P  100#CD  多年前#NN  引入#VV  ，#PU  现#AD  全国#VV  各#DT  地#NN  普遍#AD  栽培#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 植物界#NN, 青椒#NN)  (cop, 植物界#NN, 为#VC)  (root, ROOT#null, 植物界#NN)  (amod, 植物#NN, 双子叶#JJ)  (nn, 纲#NN, 植物#NN)  (nsubj, 生#VV, 纲#NN)  (nn, 亚纲#NN, 菊#NN)  (nsubj, 生#VV, 亚纲#NN)  (nsubj, 生#VV, 茄科#NR)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (conj, 植物界#NN, 生#VV)  (cc, 生#VV, 或#CC)  (conj, 生#VV, 多年生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 多年生#VV, 植物#NN)  (nsubj, 浆果#NN, 果实#NN)  (cop, 浆果#NN, 为#VC)  (conj, 植物界#NN, 浆果#NN)   (case, 结#VV, 因#P)  (mmod, 结#VV, 能#VV)  (prep, 叫#VV, 结#VV)  (nn, 浆果#NN, 甜味#NN)  (dobj, 结#VV, 浆果#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (conj, 菜椒#NR, 甜椒#NR)  (dobj, 叫#VV, 菜椒#NR)   (nsubj, 调味料#NN, 青椒#NN)  (cop, 调味料#NN, 是#VC)  (nn, 特点#NN, 其#PN)  (nsubj, 果实#NN, 特点#NN)  (cop, 果实#NN, 是#VC)  (nfincl, 调味料#NN, 果实#NN)  (nfincl, 调味料#NN, 较大#JJ)  (advmod, 淡#VV, 辣味#AD)  (advmod, 淡#VV, 较#AD)  (dep, 较大#JJ, 淡#VV)  (advmod, 根本#NN, 甚至#AD)  (dobj, 淡#VV, 根本#NN)  (neg, 辣#VV, 不#AD)  (dep, 淡#VV, 辣#VV)  (dep, 淡#VV, 作#VV)  (dobj, 作#VV, 蔬菜#NN)  (conj, 作#VV, 食用#VV)  (cc, 作#VV, 而#CC)  (neg, 作为#VV, 不#AD)  (dep, 作#VV, 作为#VV)  (root, ROOT#null, 调味料#NN)   (case, 翠绿#VV, 由于#P)  (nsubj, 翠绿#VV, 它#PN)  (prep, 培育#VV, 翠绿#VV)  (dobj, 翠绿#VV, 鲜艳#NN)  (advmod, 培育#VV, 新#AD)  (relcl, 品种#NN, 培育#VV)  (comod, 培育#VV, 出来#VV)  (mark, 培育#VV, 的#DEC)  (nsubj, 自成#VV, 品种#NN)  (advmod, 自成#VV, 还有#AD)  (dep, 颜色#NN, 红#JJ)  (conj, 红#JJ, 黄#JJ)  (nfincl, 种#NN, 紫#VA)  (cc, 紫#VA, 等#CC)  (dep, 紫#VA, 多#VA)  (dep, 红#JJ, 种#NN)  (nsubj, 自成#VV, 颜色#NN)  (advmod, 自成#VV, 因此#AD)  (cc, 自成#VV, 不但#CC)  (mmod, 自成#VV, 能#VV)  (root, ROOT#null, 自成#VV)  (nummod, 菜#NN, 一#CD)  (dobj, 自成#VV, 菜#NN)  (advmod, 用于#VV, 还#AD)  (auxpass, 用于#VV, 被#SB)  (advmod, 用于#VV, 广泛#AD)  (dep, 自成#VV, 用于#VV)  (dobj, 用于#VV, 配菜#NN)   (root, ROOT#null, null#null)
+            (nsubj, 演化#VV, 青椒#NN)  (case, 辣椒#NN, 由#P)  (nn, 地区#NN, 原产#NR)  (nn, 地区#NN, 中南美洲#NR)  (nn, 地区#NN, 热带#NN)  (assmod, 辣椒#NN, 地区#NN)  (case, 地区#NN, 的#DEG)  (prep, 演化#VV, 辣椒#NN)  (case, 北美#NR, 在#P)  (prep, 演化#VV, 北美#NR)  (root, ROOT#null, 演化#VV)  (dobj, 演化#VV, 而来#NN)  (case, 栽培#VV, 经#P)  (advmod, 栽培#VV, 长期#AD)  (prep, 驯化#VV, 栽培#VV)  (conj, 演化#VV, 驯化#VV)  (cc, 演化#VV, 和#CC)  (advmod, 选择#VV, 人工#AD)  (conj, 演化#VV, 选择#VV)  (dep, 演化#VV, 使#VV)  (dobj, 使#VV, 果实#NN)  (dep, 使#VV, 发生#VV)  (nsubj, 增大#VV, 体积#NN)  (nfincl, 变化#NN, 增大#VV)  (conj, 增大#VV, 果肉#VV)  (dobj, 果肉#VV, 变厚#NN)  (conj, 增大#VV, 辣味#VV)  (conj, 心皮#NN, 消失#NN)  (cc, 心皮#NN, 和#CC)  (dobj, 辣味#VV, 心皮#NN)  (cc, 增大#VV, 及#CC)  (nsubj, 增多#VV, 子房#NN)  (advmod, 增多#VV, 腔数#AD)  (conj, 增大#VV, 增多#VV)  (dep, 增大#VV, 等#ETC)  (nn, 变化#NN, 性状#NN)  (dobj, 发生#VV, 变化#NN)   (nsubj, 引入#VV, 中国#NR)  (case, 多年前#NN, 于#P)  (nummod, 多年前#NN, 100#CD)  (prep, 引入#VV, 多年前#NN)  (root, ROOT#null, 引入#VV)  (advmod, 全国#VV, 现#AD)  (dep, 引入#VV, 全国#VV)  (det, 地#NN, 各#DT)  (nsubj, 栽培#VV, 地#NN)  (advmod, 栽培#VV, 普遍#AD)  (conj, 引入#VV, 栽培#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.缓解疲劳
+            青椒具有消除疲劳的的重要作用，而且青椒中还含有能促进维生素C吸收的维生素P，就算加热维生素C也不会流失。
+            2.解热、镇痛
+            辣椒辛温，能够通过发汗而降低体温，并缓解肌肉疼痛，因此具有较强的解热镇痛作用。
+            3.增加食欲、帮助消化
+            维生素P还能强健毛细血管，预防动脉硬化与胃溃疡等疾病的发生。青椒中含有芬芳辛辣的辣椒素，能促进食欲，帮助消化。
+            4.净化血液
+            青椒的绿色部分来自叶绿素，叶绿素能防止肠内吸收多余的胆固醇，能积极的降胆固醇排出体外，从而达到净化血液的效果。
+        </rawdata>
+
+        <segment>
+            缓解  疲劳
+            青椒  具有  消除  疲劳  的  的  重要  作用  ，  而且  青椒  中  还  含有  能  促进  维生素C  吸收  的  维生素  P  ，  就算  加热  维生素C  也  不  会  流失  。
+            解热  、  镇痛
+            辣椒  辛温  ，  能够  通过  发汗  而  降低  体温  ，  并  缓解  肌肉  疼痛  ，  因此  具有  较  强  的  解热  镇痛  作用  。
+            增加  食欲  、  帮助  消化
+            维生素  P  还  能  强健  毛细  血管  ，  预防  动脉  硬化  与  胃溃疡  等  疾病  的  发生  。  青椒  中  含有  芬芳  辛辣  的  辣椒素  ，  能  促进  食欲  ，  帮助  消化  。
+            净化  血液
+            青椒  的  绿色  部分  来自  叶绿素  ，  叶绿素  能  防止  肠内  吸收  多余  的  胆固醇  ，  能  积极  的  降  胆固醇  排出  体外  ，  从而  达到  净化  血液  的  效果  。
+        </segment>
+
+        <pos>
+            缓解#NN  疲劳#VA
+            青椒#NN  具有#VV  消除#VV  疲劳#VA  的#DEC  的#DEC  重要#JJ  作用#NN  ，#PU  而且#CC  青椒#NN  中#LC  还#AD  含有#AD  能#VV  促进#VV  维生素C#AD  吸收#VV  的#DEC  维生素#NN  P#NN  ，#PU  就算#NN  加热#NN  维生素C#NN  也#AD  不#AD  会#VV  流失#VV  。#PU
+            解热#VA  、#PU  镇痛#VA
+            辣椒#NR  辛温#VV  ，#PU  能够#VV  通过#P  发汗#AD  而#MSP  降低#VV  体温#NN  ，#PU  并#CC  缓解#VV  肌肉#NN  疼痛#NN  ，#PU  因此#AD  具有#VV  较#AD  强#VA  的#DEC  解热#NN  镇痛#NN  作用#NN  。#PU
+            增加#VV  食欲#NN  、#PU  帮助#VV  消化#NN
+            维生素#NN  P#NN  还#AD  能#VV  强健#VV  毛细#NN  血管#NN  ，#PU  预防#VV  动脉#NN  硬化#NN  与#CC  胃溃疡#NN  等#ETC  疾病#NN  的#DEG  发生#NN    。#PU  青椒#NN  中#LC  含有#AD  芬芳#VV  辛辣#NN  的#DEG  辣椒素#NN  ，#PU  能#VV  促进#VV  食欲#NN  ，#PU  帮助#VV  消化#NN    。#PU    。#PU
+            净化#VV  血液#NN
+            青椒#NN  的#DEG  绿色#JJ  部分#NN  来自#VV  叶绿素#NN  ，#PU  叶绿素#AD  能#VV  防止#VV  肠内#AD  吸收#VV  多余#NN  的#DEC  胆固醇#NN  ，#PU  能#VV  积极#VA  的#DEC  降#NN  胆固醇#NN  排出#NN  体外#NN  ，#PU  从而#AD  达到#VV  净化#NN  血液#NN  的#DEG  效果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 疲劳#VA, 缓解#NN)  (root, ROOT#null, 疲劳#VA)
+            (nsubj, 具有#VV, 青椒#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 消除#VV)  (dobj, 消除#VV, 疲劳#VA)  (mark, 疲劳#VA, 的#DEC)  (mark, 消除#VV, 的#DEC)  (amod, 作用#NN, 重要#JJ)  (dobj, 具有#VV, 作用#NN)  (cc, 具有#VV, 而且#CC)  (loc, 促进#VV, 青椒#NN)  (case, 青椒#NN, 中#LC)  (advmod, 促进#VV, 还#AD)  (advmod, 促进#VV, 含有#AD)  (mmod, 促进#VV, 能#VV)  (conj, 具有#VV, 促进#VV)  (advmod, 吸收#VV, 维生素C#AD)  (relcl, P#NN, 吸收#VV)  (mark, 吸收#VV, 的#DEC)  (nn, P#NN, 维生素#NN)  (dobj, 促进#VV, P#NN)  (nn, 维生素C#NN, 就算#NN)  (nn, 维生素C#NN, 加热#NN)  (nsubj, 流失#VV, 维生素C#NN)  (advmod, 流失#VV, 也#AD)  (neg, 流失#VV, 不#AD)  (dep, 流失#VV, 会#VV)  (conj, 具有#VV, 流失#VV)
+            (root, ROOT#null, 解热#VA)  (dep, 解热#VA, 镇痛#VA)
+            (nsubj, 辛温#VV, 辣椒#NR)  (xsubj, 具有#VV, 辣椒#NR)  (root, ROOT#null, 辛温#VV)  (mmod, 具有#VV, 能够#VV)  (case, 降低#VV, 通过#P)  (advmod, 降低#VV, 发汗#AD)  (prtmod, 降低#VV, 而#MSP)  (prep, 具有#VV, 降低#VV)  (dobj, 降低#VV, 体温#NN)  (cc, 降低#VV, 并#CC)  (dep, 降低#VV, 缓解#VV)  (nn, 疼痛#NN, 肌肉#NN)  (dobj, 缓解#VV, 疼痛#NN)  (advmod, 具有#VV, 因此#AD)  (ccomp, 辛温#VV, 具有#VV)  (advmod, 强#VA, 较#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 解热#NN)  (nn, 作用#NN, 镇痛#NN)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 食欲#NN)  (conj, 增加#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)
+            (nn, P#NN, 维生素#NN)  (nsubj, 强健#VV, P#NN)  (advmod, 强健#VV, 还#AD)  (mmod, 强健#VV, 能#VV)  (root, ROOT#null, 强健#VV)  (nn, 血管#NN, 毛细#NN)  (dobj, 强健#VV, 血管#NN)  (conj, 强健#VV, 预防#VV)  (nn, 胃溃疡#NN, 动脉#NN)  (conj, 胃溃疡#NN, 硬化#NN)  (cc, 胃溃疡#NN, 与#CC)  (nn, 疾病#NN, 胃溃疡#NN)  (etc, 胃溃疡#NN, 等#ETC)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)   (loc, 芬芳#VV, 青椒#NN)  (case, 青椒#NN, 中#LC)  (advmod, 芬芳#VV, 含有#AD)  (root, ROOT#null, 芬芳#VV)  (assmod, 辣椒素#NN, 辛辣#NN)  (case, 辛辣#NN, 的#DEG)  (dobj, 芬芳#VV, 辣椒素#NN)  (mmod, 促进#VV, 能#VV)  (conj, 芬芳#VV, 促进#VV)  (dobj, 促进#VV, 食欲#NN)  (conj, 芬芳#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 净化#VV)  (dobj, 净化#VV, 血液#NN)
+            (assmod, 部分#NN, 青椒#NN)  (case, 青椒#NN, 的#DEG)  (amod, 部分#NN, 绿色#JJ)  (nsubj, 来自#VV, 部分#NN)  (root, ROOT#null, 来自#VV)  (dobj, 来自#VV, 叶绿素#NN)  (advmod, 防止#VV, 叶绿素#AD)  (mmod, 防止#VV, 能#VV)  (conj, 来自#VV, 防止#VV)  (advmod, 吸收#VV, 肠内#AD)  (relcl, 胆固醇#NN, 吸收#VV)  (dobj, 吸收#VV, 多余#NN)  (mark, 吸收#VV, 的#DEC)  (dobj, 防止#VV, 胆固醇#NN)  (conj, 防止#VV, 能#VV)  (relcl, 体外#NN, 积极#VA)  (mark, 积极#VA, 的#DEC)  (nn, 体外#NN, 降#NN)  (nn, 体外#NN, 胆固醇#NN)  (nn, 体外#NN, 排出#NN)  (dobj, 能#VV, 体外#NN)  (advmod, 达到#VV, 从而#AD)  (conj, 防止#VV, 达到#VV)  (nn, 血液#NN, 净化#NN)  (assmod, 效果#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (dobj, 达到#VV, 效果#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.青椒富维生素B、维生素C和胡萝卜素，具有促进消化，加快脂肪代谢等功效。
+            2.青椒的水分含量高（74%~94%），热量低，但随着它的成熟水分含量会降低，热量会增高。维生素A和维生素C随其成熟度而增加。一般来说维生素C的含量是番茄的3.5倍，与草莓和柠檬的含量差不多，在蔬菜中居首。
+        </rawdata>
+
+        <segment>
+            青椒  富  维生素B  、  维生素C  和  胡萝卜素  ，  具有  促进  消化  ，  加快  脂肪  代谢  等  功效  。
+            青椒  的  水分  含量  高  （  74%  ~  94%  ）  ，  热量  低  ，  但  随着  它  的  成熟  水分  含量  会  降低  ，  热量  会  增高  。  维生素A  和  维生素C  随其  成熟度  而  增加  。  一般来说  维生素C  的  含量  是  番茄  的  3.5  倍  ，  与  草莓  和  柠檬  的  含量  差不多  ，  在  蔬菜  中  居首  。
+        </segment>
+
+        <pos>
+            青椒#NN  富#VV  维生素B#NR  、#PU  维生素C#NR  和#CC  胡萝卜素#NR  ，#PU  具有#VV  促进#VV  消化#NN  ，#PU  加快#VV  脂肪#NN  代谢#NN  等#ETC  功效#NN  。#PU
+            青椒#NN  的#DEG  水分#NN  含量#NN  高#VA  （#PU  74#CD  %#NN  ~#NR  94#CD  %#NN  ）#PU  ，#PU  热量#AD  低#VA  ，#PU  但#AD  随着#P  它#PN  的#DEG  成熟#VA  水分#NN  含量#NN  会#VV  降低#VV  ，#PU  热量#NN  会#VV  增高#VV    。#PU  维生素A#NN  和#CC  维生素C#NN  随其#NN  成熟度#NN  而#MSP  增加#VV    。#PU  一般来说#CD  维生素C#NN  的#DEG  含量#NN  是#VC  番茄#NN  的#DEG  3.5#CD  倍#M  ，#PU  与#P  草莓#NN  和#CC  柠檬#NN  的#DEG  含量#NN  差不多#AD  ，#PU  在#P  蔬菜#NN  中#LC  居首#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富#VV, 青椒#NN)  (root, ROOT#null, 富#VV)  (conj, 胡萝卜素#NR, 维生素B#NR)  (conj, 胡萝卜素#NR, 维生素C#NR)  (cc, 胡萝卜素#NR, 和#CC)  (dobj, 富#VV, 胡萝卜素#NR)  (conj, 富#VV, 具有#VV)  (nfincl, 功效#NN, 促进#VV)  (dobj, 促进#VV, 消化#NN)  (conj, 促进#VV, 加快#VV)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 加快#VV, 代谢#NN)  (etc, 代谢#NN, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+            (assmod, 含量#NN, 青椒#NN)  (case, 青椒#NN, 的#DEG)  (nn, 含量#NN, 水分#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nummod, %#NN, 74#CD)  (nn, %#NN, %#NN)  (nummod, %#NN, 94#CD)  (dep, 高#VA, %#NN)  (advmod, 低#VA, 热量#AD)  (conj, 高#VA, 低#VA)  (advmod, 增高#VV, 但#AD)  (case, 降低#VV, 随着#P)  (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (relcl, 水分#NN, 成熟#VA)  (nn, 含量#NN, 水分#NN)  (nsubj, 降低#VV, 含量#NN)  (dep, 降低#VV, 会#VV)  (prep, 增高#VV, 降低#VV)  (nsubj, 增高#VV, 热量#NN)  (dep, 增高#VV, 会#VV)  (conj, 高#VA, 增高#VV)   (conj, 维生素C#NN, 维生素A#NN)  (cc, 维生素C#NN, 和#CC)  (nn, 成熟度#NN, 维生素C#NN)  (nn, 成熟度#NN, 随其#NN)  (nsubj, 增加#VV, 成熟度#NN)  (prtmod, 增加#VV, 而#MSP)  (root, ROOT#null, 增加#VV)   (nummod, 维生素C#NN, 一般来说#CD)  (assmod, 含量#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (assmod, 倍#M, 番茄#NN)  (case, 番茄#NN, 的#DEG)  (nummod, 倍#M, 3.5#CD)  (dep, 是#VC, 倍#M)  (case, 柠檬#NN, 与#P)  (conj, 柠檬#NN, 草莓#NN)  (cc, 柠檬#NN, 和#CC)  (assmod, 含量#NN, 柠檬#NN)  (case, 柠檬#NN, 的#DEG)  (nsubj, 居首#VV, 含量#NN)  (advmod, 居首#VV, 差不多#AD)  (case, 蔬菜#NN, 在#P)  (prep, 居首#VV, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (conj, 是#VC, 居首#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            选择大而厚实的青椒，抛开、去子，将5%的纯碱水加热到九十度左右，然后把青椒放入浸泡3-4分钟，捞出晾干，不仅颜色得以保持，味道也会很好。
+        </rawdata>
+
+        <segment>
+            选择  大而  厚实  的  青椒  ，  抛开  、  去  子  ，  将  5%  的  纯  碱水  加热  到  九十  度  左右  ，  然后  把  青椒  放入  浸泡  3-4  分钟  ，  捞出  晾干  ，  不仅  颜色  得以  保持  ，  味道  也  会  很  好  。
+        </segment>
+
+        <pos>
+            选择#VV  大而#NN  厚实#NN  的#DEG  青椒#NN  ，#PU  抛开#VV  、#PU  去#VV  子#NN  ，#PU  将#BA  5#CD  %#NN  的#DEG  纯#JJ  碱水#NN  加热#NN  到#P  九十#CD  度#M  左右#LC  ，#PU  然后#AD  把#BA  青椒#NN  放入#VV  浸泡#NN  3-4#CD  分钟#M  ，#PU  捞出#VV  晾干#NN  ，#PU  不仅#CC  颜色#AD  得以#VV  保持#VV  ，#PU  味道#NN  也#AD  会#VV  很#AD  好#VA  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 选择#VV)  (nn, 厚实#NN, 大而#NN)  (assmod, 青椒#NN, 厚实#NN)  (case, 厚实#NN, 的#DEG)  (dobj, 选择#VV, 青椒#NN)  (conj, 选择#VV, 抛开#VV)  (conj, 选择#VV, 去#VV)  (dobj, 去#VV, 子#NN)  (ba, 放入#VV, 将#BA)  (nummod, %#NN, 5#CD)  (assmod, 加热#NN, %#NN)  (case, %#NN, 的#DEG)  (amod, 加热#NN, 纯#JJ)  (nn, 加热#NN, 碱水#NN)  (nsubj, 放入#VV, 加热#NN)  (case, 度#M, 到#P)  (nummod, 度#M, 九十#CD)  (prep, 放入#VV, 度#M)  (case, 度#M, 左右#LC)  (advmod, 放入#VV, 然后#AD)  (ba, 放入#VV, 把#BA)  (nsubj, 放入#VV, 青椒#NN)  (conj, 选择#VV, 放入#VV)  (dobj, 放入#VV, 浸泡#NN)  (nummod, 分钟#M, 3-4#CD)  (range, 放入#VV, 分钟#M)  (dep, 放入#VV, 捞出#VV)  (dobj, 捞出#VV, 晾干#NN)  (cc, 放入#VV, 不仅#CC)  (advmod, 保持#VV, 颜色#AD)  (dep, 保持#VV, 得以#VV)  (conj, 放入#VV, 保持#VV)  (nsubj, 好#VA, 味道#NN)  (advmod, 好#VA, 也#AD)  (mmod, 好#VA, 会#VV)  (advmod, 好#VA, 很#AD)  (conj, 放入#VV, 好#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101357589949.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

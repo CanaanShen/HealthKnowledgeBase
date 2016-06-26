@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        485
+    </id>
+
+    <foodname>
+        五倍子
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        棓子、百药煎、百虫仓、文蛤、木附子、盐麸叶上球子、漆倍子、红叶桃、旱倍子、乌盐泡
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            外感风寒、肺有实热之咳嗽、积滞未清之泻痢者忌服。
+        </rawdata>
+
+        <segment>
+            外感  风寒  、  肺  有  实  热  之  咳嗽  、  积滞  未清  之泻痢者  忌服  。
+        </segment>
+
+        <pos>
+            外感#NR  风寒#NN  、#PU  肺#NN  有#VE  实#NN  热#NN  之#DEG  咳嗽#NN  、#PU  积滞#NN  未清#NN  之泻痢者#NN  忌服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肺#NN, 外感#NR)  (conj, 肺#NN, 风寒#NN)  (dep, 有#VE, 肺#NN)  (root, ROOT#null, 有#VE)  (nn, 热#NN, 实#NN)  (assmod, 忌服#NN, 热#NN)  (case, 热#NN, 之#DEG)  (conj, 忌服#NN, 咳嗽#NN)  (nn, 忌服#NN, 积滞#NN)  (nn, 忌服#NN, 未清#NN)  (nn, 忌服#NN, 之泻痢者#NN)  (dobj, 有#VE, 忌服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            五倍子，为同翅目蚜虫科的角倍蚜或倍蛋蚜雌虫寄生于漆树科植物“盐肤木”及其同属其他植物的嫩叶或叶柄，刺伤而生成一种囊状聚生物虫瘿，经烘倍干燥后所得。此外，五倍子还是一种药材，可以治疗多种疾病。
+        </rawdata>
+
+        <segment>
+            五倍子  ，  为  同翅目  蚜虫  科  的  角倍蚜  或  倍蛋蚜  雌  虫  寄生  于  漆树科  植物  “  盐肤木  ”  及其  同属  其他  植物  的  嫩叶  或  叶柄  ，  刺伤  而  生成  一  种  囊状  聚  生物  虫瘿  ，  经烘  倍  干燥  后  所得  。  此外  ，  五倍子  还是  一  种  药材  ，  可以  治疗  多种  疾病  。
+        </segment>
+
+        <pos>
+            五倍子#CD  ，#PU  为#P  同翅目#NN  蚜虫#NN  科#NN  的#DEG  角倍蚜#NN  或#CC  倍蛋蚜#NN  雌#NN  虫#NN  寄生#NN  于#P  漆树科#NN  植物#NN  ``#NN  盐肤木#NN  ''#NN  及其#NN  同属#VV  其他#DT  植物#NN  的#DEG  嫩叶#NN  或#CC  叶柄#NN  ，#PU  刺伤#NN  而#MSP  生成#VV  一#CD  种#M  囊状#NN  聚#NN  生物#NN  虫瘿#NN  ，#PU  经烘#CD  倍#M  干燥#NN  后#LC  所得#NN    。#PU  此外#AD  ，#PU  五倍子#CD  还是#CC  一#CD  种#M  药材#NN  ，#PU  可以#VV  治疗#VV  多种#NN  疾病#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生成#VV, 五倍子#CD)  (case, 同属#VV, 为#P)  (nn, 科#NN, 同翅目#NN)  (nn, 科#NN, 蚜虫#NN)  (assmod, 角倍蚜#NN, 科#NN)  (case, 科#NN, 的#DEG)  (conj, 寄生#NN, 角倍蚜#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 倍蛋蚜#NN)  (nn, 寄生#NN, 雌#NN)  (nn, 寄生#NN, 虫#NN)  (nsubj, 同属#VV, 寄生#NN)  (case, 及其#NN, 于#P)  (nn, 及其#NN, 漆树科#NN)  (nn, 及其#NN, 植物#NN)  (nn, 及其#NN, ``#NN)  (nn, 及其#NN, 盐肤木#NN)  (nn, 及其#NN, ''#NN)  (prep, 同属#VV, 及其#NN)  (prep, 生成#VV, 同属#VV)  (det, 植物#NN, 其他#DT)  (assmod, 叶柄#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (conj, 叶柄#NN, 嫩叶#NN)  (cc, 叶柄#NN, 或#CC)  (dobj, 同属#VV, 叶柄#NN)  (nsubj, 生成#VV, 刺伤#NN)  (prtmod, 生成#VV, 而#MSP)  (root, ROOT#null, 生成#VV)  (nummod, 种#M, 一#CD)  (clf, 虫瘿#NN, 种#M)  (nn, 虫瘿#NN, 囊状#NN)  (nn, 虫瘿#NN, 聚#NN)  (nn, 虫瘿#NN, 生物#NN)  (dobj, 生成#VV, 虫瘿#NN)  (nummod, 倍#M, 经烘#CD)  (dep, 生成#VV, 倍#M)  (dep, 所得#NN, 干燥#NN)  (case, 干燥#NN, 后#LC)  (dep, 生成#VV, 所得#NN)   (advmod, 可以#VV, 此外#AD)  (dep, 种#M, 五倍子#CD)  (cc, 种#M, 还是#CC)  (nummod, 种#M, 一#CD)  (clf, 药材#NN, 种#M)  (nsubj, 可以#VV, 药材#NN)  (conj, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, 疾病#NN, 多种#NN)  (dobj, 治疗#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            五倍子，味酸、涩，性寒；归肺、胃、大肠、肝、肾经。敛肺；止汗；涩肠；固精；止血；解毒。主肺虚久咳；自汗盗汗；久痢久泻；脱肛；遗精；白浊；各种出血；痈肿疮疖。
+        </rawdata>
+
+        <segment>
+            五倍子  ，  味  酸  、  涩  ，  性寒  ；  归肺  、  胃  、  大肠  、  肝  、  肾经  。  敛肺  ；  止汗  ；  涩肠  ；  固精  ；  止血  ；  解毒  。  主肺  虚久咳  ；  自  汗  盗汗  ；  久痢久泻  ；  脱肛  ；  遗精  ；  白浊  ；  各  种  出血  ；  痈肿疮疖  。
+        </segment>
+
+        <pos>
+            五倍子#CD  ，#PU  味#VV  酸#NN  、#PU  涩#NN  ，#PU  性寒#VV  ；#PU  归肺#NR  、#PU  胃#NR  、#PU  大肠#NR  、#PU  肝#NR  、#PU  肾经#NR    。#PU  敛肺#VV  ；#PU  止汗#VV  ；#PU  涩肠#VV  ；#PU  固精#VV  ；#PU  止血#VV  ；#PU  解毒#VV    。#PU  主肺#NR  虚久咳#VV  ；#PU  自#P  汗#NN  盗汗#VA  ；#PU  久痢久泻#VA  ；#PU  脱肛#VA  ；#PU  遗精#VA  ；#PU  白浊#VA  ；#PU  各#DT  种#M  出血#VV  ；#PU  痈肿疮疖#VA    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 味#VV, 五倍子#CD)  (root, ROOT#null, 味#VV)  (conj, 涩#NN, 酸#NN)  (dobj, 味#VV, 涩#NN)  (conj, 味#VV, 性寒#VV)  (conj, 肾经#NR, 归肺#NR)  (conj, 肾经#NR, 胃#NR)  (conj, 肾经#NR, 大肠#NR)  (conj, 肾经#NR, 肝#NR)  (dep, 味#VV, 肾经#NR)   (root, ROOT#null, 敛肺#VV)  (ccomp, 敛肺#VV, 止汗#VV)  (dep, 止汗#VV, 涩肠#VV)  (dep, 止汗#VV, 固精#VV)  (dep, 止汗#VV, 止血#VV)  (dep, 止汗#VV, 解毒#VV)   (nsubj, 虚久咳#VV, 主肺#NR)  (root, ROOT#null, 虚久咳#VV)  (case, 汗#NN, 自#P)  (prep, 盗汗#VA, 汗#NN)  (ccomp, 虚久咳#VV, 盗汗#VA)  (dep, 盗汗#VA, 久痢久泻#VA)  (dep, 盗汗#VA, 脱肛#VA)  (dep, 盗汗#VA, 遗精#VA)  (dep, 盗汗#VA, 白浊#VA)  (dep, 出血#VV, 各#DT)  (clf, 各#DT, 种#M)  (dep, 盗汗#VA, 出血#VV)  (dep, 盗汗#VA, 痈肿疮疖#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201312/18150443462.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

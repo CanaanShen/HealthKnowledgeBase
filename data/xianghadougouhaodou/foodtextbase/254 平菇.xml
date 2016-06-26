@@ -1,0 +1,410 @@
+<content>
+
+    <id>
+        254
+    </id>
+
+    <foodname>
+        平菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        侧耳、耳菇、青蘑、北风菌、蚝菌、薄菇、蚝菇
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            菌类食用过敏者忌食。
+        </rawdata>
+
+        <segment>
+            菌类  食用  过敏者  忌食  。
+        </segment>
+
+        <pos>
+            菌类#NN  食用#VV  过敏者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 菌类#NN)  (root, ROOT#null, 食用#VV)  (nn, 忌食#NN, 过敏者#NN)  (dobj, 食用#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。体弱者、更年期妇女、肝炎、消化系统疾病，软骨病、心血管疾病患者、尿道结石症患者及癌症患者尤其适宜。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  体弱者  、  更年期  妇女  、  肝炎  、  消化  系统  疾病  ，  软骨病  、  心血管  疾病  患者  、  尿道  结石  症患者  及  癌症  患者  尤其  适宜  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  体弱者#NN  、#PU  更年期#NN  妇女#NN  、#PU  肝炎#NN  、#PU  消化#NN  系统#NN  疾病#NN  ，#PU  软骨病#NN  、#PU  心血管#NN  疾病#NN  患者#NN  、#PU  尿道#NN  结石#NN  症患者#NN  及#CC  癌症#NN  患者#NN  尤其#AD  适宜#VA    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (conj, 疾病#NN, 体弱者#NN)  (nn, 疾病#NN, 更年期#NN)  (conj, 疾病#NN, 妇女#NN)  (conj, 疾病#NN, 肝炎#NN)  (nn, 疾病#NN, 消化#NN)  (nn, 疾病#NN, 系统#NN)  (nsubj, 适宜#VA, 疾病#NN)  (conj, 疾病#NN, 软骨病#NN)  (nn, 疾病#NN, 心血管#NN)  (nsubj, 适宜#VA, 疾病#NN)  (conj, 癌症#NN, 患者#NN)  (nn, 癌症#NN, 尿道#NN)  (nn, 癌症#NN, 结石#NN)  (conj, 癌症#NN, 症患者#NN)  (cc, 癌症#NN, 及#CC)  (nn, 患者#NN, 癌症#NN)  (nsubj, 适宜#VA, 患者#NN)  (advmod, 适宜#VA, 尤其#AD)  (root, ROOT#null, 适宜#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                14.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.79
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                86
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                258
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.61
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            平菇，又名侧耳、糙皮侧耳、蚝菇、黑牡丹菇，台湾又称秀珍菇。在生物分类学中隶属于真菌门担子菌纲伞菌目白蘑科侧耳属。
+            早在六、七百年前，南宋文学家朱弁出使金国被扣16年时作的《谢崔致君饷天花》一诗，云：“三年北馔饱膻荤，佳蔬颇忆南洲味，地菜方为九夏珍，天花忽从五台玉”[笔者浅释，大意是：三年在北方常吃荤菜（平菇当荤菜），好吃的蔬菜值得回忆在南洲时，地方菜（指平菇）才算是珍品，天花（指平菇）比五台山玉石更珍贵]。热情地歌颂了平菇既是荤菜又是蔬菜，赞誉了平菇犹如天上的花一样味鲜美，回味无穷，感慨万千。还有安徽省皖北地区村民自古流传皆知“槐莪”（指平菇）能治食道癌。二十世纪初，意大利首先进行木屑栽培研究，四十年代后期种植日广。而中国在1930年前后，长白山林区开始用枫树等阔叶树倒木栽培平菇中侧耳属的紫孢侧耳，1936年前后日本森木和中国的黄范希着手瓶栽，此后欧洲人卢撒德（Lutha-ra1969）用山毛榉或其它阔叶树木屑栽培，乔斯（jcrh1969）种植于压碎的玉米芯上。近10多年，德、日、南朝鲜和中国利用稻草、废棉子壳种植平菇，大大地推动了平菇人工培育生产的发展。启东市在1979年从河北省引进，试栽成功，1984年从江西引进风尾菇栽培成功。
+        </rawdata>
+
+        <segment>
+            平菇  ，  又  名  侧耳  、  糙皮  侧耳  、  蚝菇  、  黑  牡丹菇  ，  台湾  又  称  秀珍菇  。  在  生物  分类学  中  隶属于  真菌  门  担子  菌纲  伞菌目  白蘑科  侧耳属  。
+            早  在  六  、  七百年  前  ，  南宋  文学家  朱弁  出使  金国  被扣  16  年  时  作  的  《  谢崔致君饷  天花  》  一  诗  ，  云  ：  “  三  年  北馔饱膻荤  ，  佳蔬  颇  忆  南  洲味  ，  地  菜  方为  九  夏珍  ，  天花忽  从  五台玉  ”  [  笔者  浅释  ，  大意  是  ：  三  年  在  北方  常  吃  荤菜  （  平菇  当  荤菜  ）  ，  好吃  的  蔬菜  值得  回忆  在  南洲  时  ，  地方  菜  （  指  平菇  ）  才  算是  珍品  ，  天花  （  指  平菇  ）  比  五台山  玉石  更  珍贵  ]  。  热情  地  歌颂  了  平菇  既  是  荤菜  又  是  蔬菜  ，  赞誉  了  平菇  犹如  天上  的  花  一样  味  鲜美  ，  回味无穷  ，  感慨  万千  。  还有  安徽省  皖北  地区  村民  自古  流传  皆  知  “  槐莪  ”  （  指  平菇  ）  能  治  食道癌  。  二十  世纪  初  ，  意大利  首先  进行  木屑  栽培  研究  ，  四十年代  后期  种植  日广  。  而  中国  在  1930年  前后  ，  长白山  林区  开始  用  枫树  等  阔叶  树倒  木  栽培  平菇  中  侧耳  属  的  紫孢  侧耳  ，  1936年  前  后  日本  森木  和  中国  的  黄范希  着手  瓶  栽  ，  此后  欧洲人  卢撒德  （  Lutha-ra  1969  ）  用  山毛榉  或  其它  阔叶树  木屑  栽培  ，  乔斯  （  jcrh  1969  ）  种植  于  压碎  的  玉米芯  上  。  近  10多  年  ，  德  、  日  、  南朝鲜  和  中国  利用  稻草  、  废  棉子  壳  种植  平菇  ，  大大地  推动  了  平菇  人工  培育  生产  的  发展  。  启东市  在  1979年  从  河北省  引进  ，  试  栽  成功  ，  1984年  从  江西  引进  风尾菇  栽培  成功  。
+        </segment>
+
+        <pos>
+            平菇#NN  ，#PU  又#AD  名#JJ  侧耳#NN  、#PU  糙皮#NN  侧耳#NN  、#PU  蚝菇#NN  、#PU  黑#JJ  牡丹菇#NN  ，#PU  台湾#NR  又#AD  称#VV  秀珍菇#NN    。#PU  在#P  生物#NN  分类学#NN  中#LC  隶属于#VV  真菌#CD  门#M  担子#NN  菌纲#NN  伞菌目#NN  白蘑科#NN  侧耳属#NN    。#PU    。#PU
+            早#AD  在#P  六#NT  、#PU  七百年#NT  前#LC  ，#PU  南宋#NN  文学家#NN  朱弁#NN  出使#NN  金国#AD  被扣#VV  16#CD  年#M  时#LC  作#VV  的#DEC  谢崔致君饷#NN  天花#VV  一#CD  诗#NN  ，#PU  云#VA  ：#PU  ``#VV  三#CD  年#M  北馔饱膻荤#NN  ，#PU  佳蔬#NR  颇#AD  忆#VV  南#NN  洲味#NN  ，#PU  地#NN  菜#NN  方为#VV  九#CD  夏珍#NN  ，#PU  天花忽#NR  从#P  五台玉#CD  ''#NN  -LSB-#VV  笔者#NN  浅释#NN  ，#PU  大意#NR  是#VC  ：#PU  三#CD  年#M  在#P  北方#NN  常#AD  吃#VV  荤菜#NN  （#PU  平菇#CD  当#AD  荤菜#VV  ）#PU  ，#PU  好吃#NR  的#DEG  蔬菜#NN  值得#VV  回忆#VV  在#P  南洲#NN  时#LC  ，#PU  地方#NN  菜#NN  （#PU  指#VV  平菇#NN  ）#PU  才#AD  算是#VV  珍品#NN  ，#PU  天花#NN  （#PU  指#VV  平菇#NN  ）#PU  比#P  五台山#CD  玉石#NN  更#AD  珍贵#VA  -RSB-#VA    。#PU  热情#VA  地#DEV  歌颂#VV  了#AS  平菇#NN  既#CC  是#VC  荤菜#NN  又#AD  是#VC  蔬菜#NN  ，#PU  赞誉#VV  了#AS  平菇#AD  犹如#VV  天上#NN  的#DEC  花#NN  一样#VA  味#VV  鲜美#NN  ，#PU  回味无穷#VV  ，#PU  感慨#VA  万千#CD    。#PU  还有#AD  安徽省#NR  皖北#NN  地区#NN  村民#NN  自古#AD  流传#NN  皆#AD  知#VV  ``#NN  槐莪#NN  ''#NN  （#PU  指#VV  平菇#NN  ）#PU  能#VV  治#VV  食道癌#NN    。#PU  二十#OD  世纪#NN  初#LC  ，#PU  意大利#NR  首先#AD  进行#VV  木屑#NN  栽培#VV  研究#NN  ，#PU  四十年代#CD  后期#NN  种植#VV  日广#NN    。#PU  而#AD  中国#NR  在#P  1930年#NT  前后#LC  ，#PU  长白山#NR  林区#NN  开始#VV  用#P  枫树#NN  等#ETC  阔叶#NN  树倒#NN  木#NN  栽培#VV  平菇#NN  中#LC  侧耳#AD  属#VV  的#DEC  紫孢#NN  侧耳#NN  ，#PU  1936年#NT  前#LC  后#LC  日本#NR  森木#NR  和#CC  中国#NR  的#DEG  黄范希#NN  着手#VV  瓶#NN  栽#NN  ，#PU  此后#AD  欧洲人#NN  卢撒德#NN  （#PU  Lutha-ra#VV  1969#CD  ）#PU  用#P  山毛榉#NN  或#CC  其它#DT  阔叶树#NN  木屑#NN  栽培#VV  ，#PU  乔斯#NN  （#PU  jcrh#VV  1969#CD  ）#PU  种植#VV  于#P  压碎#NR  的#DEG  玉米芯#NN  上#LC    。#PU  近#AD  10多#CD  年#M  ，#PU  德#NR  、#PU  日#NR  、#PU  南朝鲜#NR  和#CC  中国#NR  利用#VV  稻草#NN  、#PU  废#NN  棉子#NN  壳#NN  种植#NN  平菇#NN  ，#PU  大大地#AD  推动#VV  了#AS  平菇#NN  人工#AD  培育#VV  生产#NN  的#DEG  发展#NN    。#PU  启东市#NR  在#P  1979年#NT  从#P  河北省#NR  引进#VV  ，#PU  试#VV  栽#NN  成功#VA  ，#PU  1984年#NT  从#P  江西#NR  引进#VV  风尾菇#NN  栽培#VV  成功#VA    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 称#VV, 平菇#NN)  (advmod, 称#VV, 又#AD)  (amod, 侧耳#NN, 名#JJ)  (conj, 牡丹菇#NN, 侧耳#NN)  (nn, 侧耳#NN, 糙皮#NN)  (conj, 牡丹菇#NN, 侧耳#NN)  (conj, 牡丹菇#NN, 蚝菇#NN)  (amod, 牡丹菇#NN, 黑#JJ)  (prep, 称#VV, 牡丹菇#NN)  (dobj, 称#VV, 台湾#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (dobj, 称#VV, 秀珍菇#NN)   (case, 分类学#NN, 在#P)  (nn, 分类学#NN, 生物#NN)  (prep, 隶属于#VV, 分类学#NN)  (case, 分类学#NN, 中#LC)  (root, ROOT#null, 隶属于#VV)  (nummod, 门#M, 真菌#CD)  (clf, 侧耳属#NN, 门#M)  (nn, 侧耳属#NN, 担子#NN)  (nn, 侧耳属#NN, 菌纲#NN)  (nn, 侧耳属#NN, 伞菌目#NN)  (nn, 侧耳属#NN, 白蘑科#NN)  (dobj, 隶属于#VV, 侧耳属#NN)   (root, ROOT#null, null#null)
+            (prep, 被扣#VV, 早#AD)  (case, 七百年#NT, 在#P)  (conj, 七百年#NT, 六#NT)  (dep, 早#AD, 七百年#NT)  (case, 七百年#NT, 前#LC)  (nn, 出使#NN, 南宋#NN)  (nn, 出使#NN, 文学家#NN)  (nn, 出使#NN, 朱弁#NN)  (nsubj, 被扣#VV, 出使#NN)  (advmod, 被扣#VV, 金国#AD)  (root, ROOT#null, 被扣#VV)  (nummod, 年#M, 16#CD)  (loc, 作#VV, 年#M)  (case, 年#M, 时#LC)  (relcl, 谢崔致君饷#NN, 作#VV)  (mark, 作#VV, 的#DEC)  (dobj, 被扣#VV, 谢崔致君饷#NN)  (conj, 被扣#VV, 天花#VV)  (nummod, 诗#NN, 一#CD)  (dobj, 天花#VV, 诗#NN)  (conj, 天花#VV, 云#VA)  (conj, 天花#VV, ``#VV)  (nummod, 年#M, 三#CD)  (clf, 北馔饱膻荤#NN, 年#M)  (dobj, ``#VV, 北馔饱膻荤#NN)  (nsubj, 忆#VV, 佳蔬#NR)  (advmod, 忆#VV, 颇#AD)  (conj, 天花#VV, 忆#VV)  (nn, 洲味#NN, 南#NN)  (dobj, 忆#VV, 洲味#NN)  (nn, 菜#NN, 地#NN)  (nsubj, 方为#VV, 菜#NN)  (conj, 天花#VV, 方为#VV)  (nummod, 夏珍#NN, 九#CD)  (dobj, 方为#VV, 夏珍#NN)  (nsubj, -LSB-#VV, 天花忽#NR)  (case, ''#NN, 从#P)  (nummod, ''#NN, 五台玉#CD)  (prep, -LSB-#VV, ''#NN)  (conj, 天花#VV, -LSB-#VV)  (nn, 浅释#NN, 笔者#NN)  (dobj, -LSB-#VV, 浅释#NN)  (nsubj, 吃#VV, 大意#NR)  (cop, 吃#VV, 是#VC)  (nummod, 年#M, 三#CD)  (nsubj, 吃#VV, 年#M)  (case, 北方#NN, 在#P)  (prep, 吃#VV, 北方#NN)  (advmod, 吃#VV, 常#AD)  (conj, 天花#VV, 吃#VV)  (dobj, 吃#VV, 荤菜#NN)  (nsubj, 荤菜#VV, 平菇#CD)  (advmod, 荤菜#VV, 当#AD)  (dep, 吃#VV, 荤菜#VV)  (assmod, 蔬菜#NN, 好吃#NR)  (case, 好吃#NR, 的#DEG)  (nsubj, 回忆#VV, 蔬菜#NN)  (mmod, 回忆#VV, 值得#VV)  (conj, 天花#VV, 回忆#VV)  (case, 南洲#NN, 在#P)  (prep, 回忆#VV, 南洲#NN)  (case, 南洲#NN, 时#LC)  (nn, 菜#NN, 地方#NN)  (nsubj, 算是#VV, 菜#NN)  (prnmod, 菜#NN, 指#VV)  (dobj, 指#VV, 平菇#NN)  (advmod, 算是#VV, 才#AD)  (conj, 天花#VV, 算是#VV)  (dobj, 算是#VV, 珍品#NN)  (nsubj, 珍贵#VA, 天花#NN)  (prnmod, 天花#NN, 指#VV)  (dobj, 指#VV, 平菇#NN)  (case, 玉石#NN, 比#P)  (nummod, 玉石#NN, 五台山#CD)  (prep, 珍贵#VA, 玉石#NN)  (advmod, 珍贵#VA, 更#AD)  (conj, 天花#VV, 珍贵#VA)  (comod, 珍贵#VA, -RSB-#VA)   (dvpmod, 歌颂#VV, 热情#VA)  (mark, 热情#VA, 地#DEV)  (root, ROOT#null, 歌颂#VV)  (asp, 歌颂#VV, 了#AS)  (dobj, 歌颂#VV, 平菇#NN)  (cc, 歌颂#VV, 既#CC)  (cop, 荤菜#NN, 是#VC)  (dep, 歌颂#VV, 荤菜#NN)  (advmod, 蔬菜#NN, 又#AD)  (cop, 蔬菜#NN, 是#VC)  (conj, 荤菜#NN, 蔬菜#NN)  (dep, 蔬菜#NN, 赞誉#VV)  (asp, 赞誉#VV, 了#AS)  (advmod, 犹如#VV, 平菇#AD)  (relcl, 花#NN, 犹如#VV)  (dobj, 犹如#VV, 天上#NN)  (mark, 犹如#VV, 的#DEC)  (dobj, 赞誉#VV, 花#NN)  (conj, 赞誉#VV, 一样#VA)  (conj, 赞誉#VV, 味#VV)  (dobj, 味#VV, 鲜美#NN)  (dep, 蔬菜#NN, 回味无穷#VV)  (dep, 蔬菜#NN, 感慨#VA)  (dep, 感慨#VA, 万千#CD)   (advmod, 知#VV, 还有#AD)  (nn, 地区#NN, 安徽省#NR)  (nn, 地区#NN, 皖北#NN)  (nn, 村民#NN, 地区#NN)  (nsubj, 知#VV, 村民#NN)  (advmod, 知#VV, 自古#AD)  (nsubj, 知#VV, 流传#NN)  (advmod, 知#VV, 皆#AD)  (dep, 治#VV, 知#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 槐莪#NN)  (dobj, 知#VV, ''#NN)  (dep, 知#VV, 指#VV)  (dobj, 指#VV, 平菇#NN)  (mmod, 治#VV, 能#VV)  (root, ROOT#null, 治#VV)  (dobj, 治#VV, 食道癌#NN)   (nummod, 世纪#NN, 二十#OD)  (loc, 进行#VV, 世纪#NN)  (case, 世纪#NN, 初#LC)  (nsubj, 进行#VV, 意大利#NR)  (advmod, 进行#VV, 首先#AD)  (root, ROOT#null, 进行#VV)  (dobj, 进行#VV, 木屑#NN)  (conj, 进行#VV, 栽培#VV)  (dobj, 栽培#VV, 研究#NN)  (nummod, 后期#NN, 四十年代#CD)  (nsubj, 种植#VV, 后期#NN)  (conj, 进行#VV, 种植#VV)  (dobj, 种植#VV, 日广#NN)   (advmod, 开始#VV, 而#AD)  (nsubj, 开始#VV, 中国#NR)  (case, 1930年#NT, 在#P)  (prep, 开始#VV, 1930年#NT)  (case, 1930年#NT, 前后#LC)  (nn, 林区#NN, 长白山#NR)  (nsubj, 开始#VV, 林区#NN)  (root, ROOT#null, 开始#VV)  (case, 栽培#VV, 用#P)  (nn, 木#NN, 枫树#NN)  (etc, 枫树#NN, 等#ETC)  (nn, 木#NN, 阔叶#NN)  (nn, 木#NN, 树倒#NN)  (nsubj, 栽培#VV, 木#NN)  (prep, 属#VV, 栽培#VV)  (dobj, 栽培#VV, 平菇#NN)  (case, 栽培#VV, 中#LC)  (advmod, 属#VV, 侧耳#AD)  (relcl, 侧耳#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (nn, 侧耳#NN, 紫孢#NN)  (dobj, 开始#VV, 侧耳#NN)  (loc, 着手#VV, 1936年#NT)  (dep, 1936年#NT, 前#LC)  (case, 1936年#NT, 后#LC)  (nn, 黄范希#NN, 日本#NR)  (conj, 中国#NR, 森木#NR)  (cc, 中国#NR, 和#CC)  (assmod, 黄范希#NN, 中国#NR)  (case, 中国#NR, 的#DEG)  (nsubj, 着手#VV, 黄范希#NN)  (conj, 开始#VV, 着手#VV)  (nn, 栽#NN, 瓶#NN)  (dobj, 着手#VV, 栽#NN)  (advmod, 栽培#VV, 此后#AD)  (nn, 卢撒德#NN, 欧洲人#NN)  (nsubj, 栽培#VV, 卢撒德#NN)  (prnmod, 卢撒德#NN, Lutha-ra#VV)  (range, Lutha-ra#VV, 1969#CD)  (case, 木屑#NN, 用#P)  (conj, 木屑#NN, 山毛榉#NN)  (cc, 木屑#NN, 或#CC)  (det, 阔叶树#NN, 其它#DT)  (nn, 木屑#NN, 阔叶树#NN)  (prep, 栽培#VV, 木屑#NN)  (conj, 开始#VV, 栽培#VV)  (nsubj, 种植#VV, 乔斯#NN)  (prnmod, 乔斯#NN, jcrh#VV)  (range, jcrh#VV, 1969#CD)  (conj, 开始#VV, 种植#VV)  (case, 玉米芯#NN, 于#P)  (assmod, 玉米芯#NN, 压碎#NR)  (case, 压碎#NR, 的#DEG)  (prep, 种植#VV, 玉米芯#NN)  (case, 玉米芯#NN, 上#LC)   (advmod, 年#M, 近#AD)  (nummod, 年#M, 10多#CD)  (nsubj, 利用#VV, 年#M)  (conj, 中国#NR, 德#NR)  (conj, 中国#NR, 日#NR)  (conj, 中国#NR, 南朝鲜#NR)  (cc, 中国#NR, 和#CC)  (nsubj, 利用#VV, 中国#NR)  (root, ROOT#null, 利用#VV)  (conj, 种植#NN, 稻草#NN)  (nn, 种植#NN, 废#NN)  (nn, 种植#NN, 棉子#NN)  (nn, 种植#NN, 壳#NN)  (nn, 平菇#NN, 种植#NN)  (dobj, 利用#VV, 平菇#NN)  (advmod, 推动#VV, 大大地#AD)  (dep, 培育#VV, 推动#VV)  (asp, 推动#VV, 了#AS)  (dobj, 推动#VV, 平菇#NN)  (advmod, 培育#VV, 人工#AD)  (conj, 利用#VV, 培育#VV)  (assmod, 发展#NN, 生产#NN)  (case, 生产#NN, 的#DEG)  (dobj, 培育#VV, 发展#NN)   (nsubj, 栽培#VV, 启东市#NR)  (case, 风尾菇#NN, 在#P)  (tmod, 引进#VV, 1979年#NT)  (case, 河北省#NR, 从#P)  (prep, 引进#VV, 河北省#NR)  (nfincl, 风尾菇#NN, 引进#VV)  (conj, 引进#VV, 试#VV)  (dobj, 试#VV, 栽#NN)  (conj, 试#VV, 成功#VA)  (tmod, 引进#VV, 1984年#NT)  (case, 江西#NR, 从#P)  (prep, 引进#VV, 江西#NR)  (conj, 引进#VV, 引进#VV)  (prep, 栽培#VV, 风尾菇#NN)  (root, ROOT#null, 栽培#VV)  (dep, 栽培#VV, 成功#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强免疫力
+            含有抗肿瘤细胞的多糖体，对肿瘤细胞有很强的抑制作用，且具有免疫特性。
+            2.调理疾病
+            可作为体弱病人的营养品，对肝炎、慢性胃炎、胃和十二指肠溃疡、软骨病、高血压等都有疗效，对降低血胆固醇和防治尿道结石也有一定效果，对妇女更年期的综合征可起调理作用。
+            3.舒筋活血
+            有追风散寒、舒筋活络的功效。可治腰腿疼痛、手足麻木、经络不适等症。
+            4.延年益寿
+            平菇优于动植物食品。不愧为是宫庭佳肴的名贵山珍，现今为人们常食，既饱口福，又利健康长寿。
+            5.促进大脑发育
+            促进智力发育有独特的作用，对婴儿和老人的健康十分重要。
+        </rawdata>
+
+        <segment>
+            增强  免疫力
+            含有  抗  肿瘤  细胞  的  多糖体  ，  对  肿瘤  细胞  有  很  强  的  抑制  作用  ，  且  具有  免疫  特性  。
+            调理  疾病
+            可  作为  体弱  病人  的  营养品  ，  对  肝炎  、  慢性  胃炎  、  胃  和  十二  指肠  溃疡  、  软骨病  、  高血压  等  都  有  疗效  ，  对  降低  血  胆固醇  和  防治  尿道  结石  也  有  一定  效果  ，  对  妇女  更年期  的  综合  征  可  起  调理  作用  。
+            舒筋活血
+            有  追风  散寒  、  舒筋  活络  的  功效  。  可治  腰腿  疼痛  、  手足  麻木  、  经络  不适  等症  。
+            延年益寿
+            平菇  优于  动植物  食品  。  不愧为  是  宫庭  佳肴  的  名贵  山珍  ，  现今  为  人们  常食  ，  既  饱  口福  ，  又  利  健康  长寿  。
+            促进  大脑  发育
+            促进  智力  发  育有  独特  的  作用  ，  对  婴儿  和  老人  的  健康  十分  重要  。
+        </segment>
+
+        <pos>
+            增强#VV  免疫力#NN
+            含有#AD  抗#VV  肿瘤#NN  细胞#NN  的#DEG  多糖体#NN  ，#PU  对#P  肿瘤#NN  细胞#NN  有#VE  很#AD  强#VA  的#DEC  抑制#NN  作用#NN  ，#PU  且#CC  具有#VV  免疫#NN  特性#NN  。#PU
+            调理#NN  疾病#NN
+            可#VV  作为#P  体弱#NN  病人#NN  的#DEG  营养品#NN  ，#PU  对#P  肝炎#NN  、#PU  慢性#NN  胃炎#NN  、#PU  胃#NN  和#CC  十二#CD  指肠#NN  溃疡#NR  、#PU  软骨病#NR  、#PU  高血压#NR  等#ETC  都#AD  有#VE  疗效#NN  ，#PU  对#P  降低#VV  血#NN  胆固醇#NN  和#CC  防治#NN  尿道#NN  结石#NN  也#AD  有#VE  一定#JJ  效果#NN  ，#PU  对#P  妇女#NN  更年期#VV  的#DEC  综合#NN  征#VV  可#VV  起#VV  调理#NN  作用#NN  。#PU
+            舒筋活血#VV
+            有#VE  追风#NN  散寒#NN  、#PU  舒筋#NN  活络#NN  的#DEG  功效#NN    。#PU  可治#NN  腰腿#VV  疼痛#NN  、#PU  手足#NN  麻木#NN  、#PU  经络#NN  不适#NN  等症#NN    。#PU    。#PU
+            延年益寿#VV
+            平菇#NN  优于#VV  动植物#NN  食品#NN    。#PU  不愧为#AD  是#VC  宫庭#NN  佳肴#NN  的#DEG  名贵#JJ  山珍#NN  ，#PU  现今#AD  为#VC  人们#NN  常食#NN  ，#PU  既#CC  饱#AD  口福#VV  ，#PU  又#CC  利#NR  健康#JJ  长寿#NR    。#PU    。#PU
+            促进#VV  大脑#NN  发育#NN
+            促进#VV  智力#AD  发#VV  育有#AD  独特#VA  的#DEC  作用#NN  ，#PU  对#P  婴儿#NN  和#CC  老人#NN  的#DEG  健康#NN  十分#AD  重要#VA  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)
+            (advmod, 抗#VV, 含有#AD)  (root, ROOT#null, 抗#VV)  (nn, 细胞#NN, 肿瘤#NN)  (assmod, 多糖体#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 抗#VV, 多糖体#NN)  (case, 细胞#NN, 对#P)  (nn, 细胞#NN, 肿瘤#NN)  (prep, 有#VE, 细胞#NN)  (conj, 抗#VV, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (cc, 抗#VV, 且#CC)  (dep, 抗#VV, 具有#VV)  (nn, 特性#NN, 免疫#NN)  (dobj, 具有#VV, 特性#NN)
+            (nn, 疾病#NN, 调理#NN)  (root, ROOT#null, 疾病#NN)
+            (dep, 起#VV, 可#VV)  (case, 病人#NN, 作为#P)  (nn, 病人#NN, 体弱#NN)  (assmod, 营养品#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (dobj, 可#VV, 营养品#NN)  (case, 综合#NN, 对#P)  (conj, 综合#NN, 肝炎#NN)  (nn, 胃炎#NN, 慢性#NN)  (conj, 综合#NN, 胃炎#NN)  (conj, 综合#NN, 胃#NN)  (cc, 综合#NN, 和#CC)  (nummod, 指肠#NN, 十二#CD)  (nn, 综合#NN, 指肠#NN)  (conj, 高血压#NR, 溃疡#NR)  (conj, 高血压#NR, 软骨病#NR)  (nn, 综合#NN, 高血压#NR)  (etc, 高血压#NR, 等#ETC)  (advmod, 有#VE, 都#AD)  (relcl, 指肠#NN, 有#VE)  (relcl, 高血压#NR, 有#VE)  (relcl, 综合#NN, 有#VE)  (dobj, 有#VE, 疗效#NN)  (case, 降低#VV, 对#P)  (prep, 有#VE, 降低#VV)  (nn, 结石#NN, 血#NN)  (conj, 结石#NN, 胆固醇#NN)  (cc, 结石#NN, 和#CC)  (nn, 结石#NN, 防治#NN)  (nn, 结石#NN, 尿道#NN)  (dobj, 降低#VV, 结石#NN)  (advmod, 有#VE, 也#AD)  (dep, 有#VE, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)  (case, 妇女#NN, 对#P)  (prep, 更年期#VV, 妇女#NN)  (dep, 有#VE, 更年期#VV)  (mark, 有#VE, 的#DEC)  (prep, 征#VV, 综合#NN)  (conj, 可#VV, 征#VV)  (mmod, 起#VV, 可#VV)  (root, ROOT#null, 起#VV)  (nn, 作用#NN, 调理#NN)  (dobj, 起#VV, 作用#NN)
+            (root, ROOT#null, 舒筋活血#VV)
+            (root, ROOT#null, 有#VE)  (nn, 活络#NN, 追风#NN)  (conj, 活络#NN, 散寒#NN)  (nn, 活络#NN, 舒筋#NN)  (assmod, 功效#NN, 活络#NN)  (case, 活络#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)   (nsubj, 腰腿#VV, 可治#NN)  (root, ROOT#null, 腰腿#VV)  (conj, 等症#NN, 疼痛#NN)  (nn, 等症#NN, 手足#NN)  (conj, 等症#NN, 麻木#NN)  (nn, 等症#NN, 经络#NN)  (nn, 等症#NN, 不适#NN)  (dobj, 腰腿#VV, 等症#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 延年益寿#VV)
+            (nsubj, 优于#VV, 平菇#NN)  (root, ROOT#null, 优于#VV)  (nn, 食品#NN, 动植物#NN)  (dobj, 优于#VV, 食品#NN)   (advmod, 山珍#NN, 不愧为#AD)  (cop, 山珍#NN, 是#VC)  (nn, 佳肴#NN, 宫庭#NN)  (assmod, 山珍#NN, 佳肴#NN)  (case, 佳肴#NN, 的#DEG)  (amod, 山珍#NN, 名贵#JJ)  (root, ROOT#null, 山珍#NN)  (advmod, 常食#NN, 现今#AD)  (cop, 常食#NN, 为#VC)  (nn, 常食#NN, 人们#NN)  (conj, 山珍#NN, 常食#NN)  (cc, 山珍#NN, 既#CC)  (advmod, 口福#VV, 饱#AD)  (conj, 山珍#NN, 口福#VV)  (cc, 山珍#NN, 又#CC)  (nn, 长寿#NR, 利#NR)  (amod, 长寿#NR, 健康#JJ)  (dep, 山珍#NN, 长寿#NR)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 大脑#NN)  (dobj, 促进#VV, 发育#NN)
+            (root, ROOT#null, 促进#VV)  (advmod, 发#VV, 智力#AD)  (ccomp, 促进#VV, 发#VV)  (advmod, 独特#VA, 育有#AD)  (relcl, 作用#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (dobj, 发#VV, 作用#NN)  (case, 健康#NN, 对#P)  (conj, 老人#NN, 婴儿#NN)  (cc, 老人#NN, 和#CC)  (assmod, 健康#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (prep, 重要#VA, 健康#NN)  (advmod, 重要#VA, 十分#AD)  (dep, 促进#VV, 重要#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+          
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.平菇中氨基酸的种类十分丰富，经测定，它含有17种氨基酸，其中人体所必需的8种氨基酸它都含有。
+            2.菇干蛋白质含量在20%左右，是鸡蛋的2.6倍，猪肉的4倍，菠菜、油菜的15倍。
+        </rawdata>
+
+        <segment>
+            平菇  中  氨基酸  的  种类  十分  丰富  ，  经  测定  ，  它  含有  17  种  氨基酸  ，  其中  人体  所  必需  的  8  种  氨基酸  它  都  含有  。
+            菇干  蛋白质  含量  在  20%  左右  ，  是  鸡蛋  的  2.6  倍  ，  猪肉  的  4  倍  ，  菠菜  、  油  菜  的  15  倍  。
+        </segment>
+
+        <pos>
+            平菇#NN  中#LC  氨基酸#NN  的#DEG  种类#NN  十分#AD  丰富#VA  ，#PU  经#P  测定#NN  ，#PU  它#PN  含有#VV  17#CD  种#M  氨基酸#NN  ，#PU  其中#NN  人体#NN  所#MSP  必需#VV  的#DEC  8#CD  种#M  氨基酸#NN  它#PN  都#AD  含有#VV  。#PU
+            菇干#NN  蛋白质#NN  含量#NN  在#P  20#CD  %#NN  左右#LC  ，#PU  是#VC  鸡蛋#NN  的#DEG  2.6#CD  倍#M  ，#PU  猪肉#NN  的#DEG  4#CD  倍#M  ，#PU  菠菜#NN  、#PU  油#NN  菜#NN  的#DEG  15#CD  倍#M  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 平菇#NN)  (case, 平菇#NN, 中#LC)  (assmod, 种类#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 丰富#VA, 种类#NN)  (advmod, 丰富#VA, 十分#AD)  (root, ROOT#null, 丰富#VA)  (case, 测定#NN, 经#P)  (prep, 含有#VV, 测定#NN)  (nsubj, 含有#VV, 它#PN)  (conj, 丰富#VA, 含有#VV)  (nummod, 种#M, 17#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含有#VV, 氨基酸#NN)  (nn, 人体#NN, 其中#NN)  (nsubj, 必需#VV, 人体#NN)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 含有#VV, 氨基酸#NN)  (nsubj, 含有#VV, 它#PN)  (advmod, 含有#VV, 都#AD)  (conj, 丰富#VA, 含有#VV)
+            (nn, 含量#NN, 菇干#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 是#VC, 含量#NN)  (case, %#NN, 在#P)  (nummod, %#NN, 20#CD)  (prep, 是#VC, %#NN)  (case, %#NN, 左右#LC)  (root, ROOT#null, 是#VC)  (assmod, 倍#M, 鸡蛋#NN)  (case, 鸡蛋#NN, 的#DEG)  (nummod, 倍#M, 2.6#CD)  (dep, 是#VC, 倍#M)  (assmod, 倍#M, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (conj, 是#VC, 倍#M)  (conj, 油#NN, 菠菜#NN)  (nn, 菜#NN, 油#NN)  (assmod, 倍#M, 菜#NN)  (case, 菜#NN, 的#DEG)  (nummod, 倍#M, 15#CD)  (conj, 是#VC, 倍#M)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            平菇可以炒、烩、烧；平菇鲜品出水较多，易被炒老、须掌握好火候。
+        </rawdata>
+
+        <segment>
+            平菇  可以  炒  、  烩  、  烧  ；  平菇  鲜品  出水  较  多  ，  易  被  炒  老  、  须  掌握  好  火候  。
+        </segment>
+
+        <pos>
+            平菇#NN  可以#VV  炒#NR  、#PU  烩#NR  、#PU  烧#NR  ；#PU  平菇#NN  鲜品#NN  出水#NN  较#AD  多#VA  ，#PU  易#AD  被#SB  炒#VV  老#NR  、#PU  须#VV  掌握#VV  好#JJ  火候#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可以#VV, 平菇#NN)  (root, ROOT#null, 可以#VV)  (conj, 烧#NR, 炒#NR)  (conj, 烧#NR, 烩#NR)  (dobj, 可以#VV, 烧#NR)  (nn, 出水#NN, 平菇#NN)  (nn, 出水#NN, 鲜品#NN)  (nsubj, 多#VA, 出水#NN)  (advmod, 多#VA, 较#AD)  (conj, 可以#VV, 多#VA)  (advmod, 炒#VV, 易#AD)  (auxpass, 炒#VV, 被#SB)  (conj, 可以#VV, 炒#VV)  (dobj, 炒#VV, 老#NR)  (mmod, 掌握#VV, 须#VV)  (dep, 炒#VV, 掌握#VV)  (amod, 火候#NN, 好#JJ)  (dobj, 掌握#VV, 火候#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/12111444.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

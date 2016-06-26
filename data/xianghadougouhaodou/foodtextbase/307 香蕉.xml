@@ -1,0 +1,406 @@
+<content>
+
+    <id>
+        307
+    </id>
+
+    <foodname>
+        香蕉
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        蕉子、蕉果、甘蕉
+    </alias>
+
+    <season>
+        春、夏、秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、便溏腹泻者慎食；急慢性肾炎及肾功能不全者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  便溏  腹泻者  慎食  ；  急慢性  肾炎  及  肾  功能  不全  者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  、#PU  便溏#NN  腹泻者#NN  慎食#VV  ；#PU  急慢性#NN  肾炎#NN  及#CC  肾#NN  功能#NN  不全#VV  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 腹泻者#NN, 脾胃#NN)  (conj, 腹泻者#NN, 虚寒#NN)  (nn, 腹泻者#NN, 便溏#NN)  (nsubj, 慎食#VV, 腹泻者#NN)  (root, ROOT#null, 慎食#VV)  (nn, 功能#NN, 急慢性#NN)  (conj, 功能#NN, 肾炎#NN)  (cc, 功能#NN, 及#CC)  (nn, 功能#NN, 肾#NN)  (nsubj, 不全#VV, 功能#NN)  (ccomp, 慎食#VV, 不全#VV)  (nn, 忌食#NN, 者#NN)  (dobj, 不全#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜口干烦躁、咽干喉痛者，大便干燥、痔疮、大便带血者，上消化道溃疡者，饮酒过量而宿醉未解者，高血压、冠心病、动脉硬化者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  口干  烦躁  、  咽  干  喉痛者  ，  大便  干燥  、  痔疮  、  大便  带  血  者  ，  上  消化道  溃疡  者  ，  饮酒  过量  而  宿醉  未  解者  ，  高血压  、  冠心病  、  动脉  硬化  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  口干#VV  烦躁#NN  、#PU  咽#AD  干#VV  喉痛者#NN  ，#PU  大便#VV  干燥#NN  、#PU  痔疮#NN  、#PU  大便#NN  带#NN  血#NN  者#NN  ，#PU  上#VV  消化道#NN  溃疡#NN  者#NN  ，#PU  饮酒#VV  过量#AD  而#MSP  宿醉#VV  未#AD  解者#VV  ，#PU  高血压#NN  、#PU  冠心病#NN  、#PU  动脉#NN  硬化#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 口干#VV, 尤#NR)  (mmod, 口干#VV, 适宜#VV)  (root, ROOT#null, 口干#VV)  (dobj, 口干#VV, 烦躁#NN)  (advmod, 干#VV, 咽#AD)  (conj, 口干#VV, 干#VV)  (dobj, 干#VV, 喉痛者#NN)  (conj, 口干#VV, 大便#VV)  (conj, 血#NN, 干燥#NN)  (conj, 血#NN, 痔疮#NN)  (nn, 血#NN, 大便#NN)  (nn, 血#NN, 带#NN)  (nn, 者#NN, 血#NN)  (dobj, 大便#VV, 者#NN)  (conj, 口干#VV, 上#VV)  (nn, 者#NN, 消化道#NN)  (nn, 者#NN, 溃疡#NN)  (dobj, 上#VV, 者#NN)  (mmod, 解者#VV, 饮酒#VV)  (advmod, 解者#VV, 过量#AD)  (prtmod, 解者#VV, 而#MSP)  (mmod, 解者#VV, 宿醉#VV)  (advmod, 解者#VV, 未#AD)  (conj, 口干#VV, 解者#VV)  (conj, 者#NN, 高血压#NN)  (conj, 者#NN, 冠心病#NN)  (nn, 者#NN, 动脉#NN)  (nn, 者#NN, 硬化#NN)  (conj, 口干#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                256
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.65
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            香蕉为芭蕉科植物甘蕉的果实。原产亚洲东南部，我国南方各地均有栽培，以台湾、广东最多。秋季果实成熟时采收，经处理脱涩后，洗净鲜用。我国栽培的有甘蕉，粉蕉两个品种。甘蕉果形短而稍圆，粉蕉果形小而微弯。其果肉香甜，除供生食外，还可制作多种加工品。
+            香蕉是人们喜爱的水果之一，欧洲人因它能解除忧郁而称它为“快乐水果”，而且香蕉还是女孩子们钟爱的减肥佳果。香蕉又被称为“智慧之果”，传说是因为佛祖释迦牟尼吃了香蕉而获得智慧。香蕉营养高、热量低，含有称为“智慧之盐”的磷，又有丰富的蛋白质、糖、钾、维生素A和C，同时膳食纤维也多，是相当好的营养食品。
+        </rawdata>
+
+        <segment>
+            香蕉  为  芭蕉科  植物  甘蕉  的  果实  。  原产  亚洲  东南部  ，  我国  南方  各地  均  有  栽培  ，  以  台湾  、  广东  最多  。  秋季  果实  成熟  时  采收  ，  经  处理  脱涩后  ，  洗净  鲜  用  。  我国  栽培  的  有  甘蕉  ，  粉蕉  两  个  品种  。  甘蕉  果形  短  而  稍  圆  ，  粉蕉果形  小  而  微弯  。  其  果肉  香甜  ，  除  供  生食  外  ，  还  可  制作  多  种  加工品  。
+            香蕉  是  人们  喜爱  的  水果  之一  ，  欧洲人  因  它  能  解除  忧郁  而  称  它  为  “  快乐  水果  ”  ，  而且  香蕉  还是  女孩子们  钟爱  的  减肥  佳果  。  香蕉  又  被  称为  “  智慧  之  果  ”  ，  传说  是  因为  佛祖  释迦牟尼  吃  了  香蕉  而  获得  智慧  。  香蕉  营养  高  、  热量  低  ，  含有  称为  “  智慧  之  盐  ”  的  磷  ，  又  有  丰富  的  蛋白质  、  糖  、  钾  、  维生素A  和  C  ，  同时  膳食  纤维  也  多  ，  是  相当  好  的  营养  食品  。
+        </segment>
+
+        <pos>
+            香蕉#NN  为#VC  芭蕉科#NN  植物#NN  甘蕉#NN  的#DEG  果实#NN    。#PU  原产#NR  亚洲#NR  东南部#NN  ，#PU  我国#NN  南方#NN  各地#NN  均#AD  有#VE  栽培#VV  ，#PU  以#P  台湾#NR  、#PU  广东#NR  最多#AD    。#PU  秋季#NT  果实#NN  成熟#VA  时#LC  采收#VV  ，#PU  经#P  处理#VV  脱涩后#NN  ，#PU  洗净#NN  鲜#AD  用#VV    。#PU  我国#AD  栽培#VV  的#DEC  有#VE  甘蕉#NN  ，#PU  粉蕉#VV  两#CD  个#M  品种#NN    。#PU  甘蕉#NN  果形#AD  短#VA  而#CC  稍#AD  圆#VV  ，#PU  粉蕉果形#AD  小#VA  而#CC  微弯#VA    。#PU  其#PN  果肉#AD  香甜#VV  ，#PU  除#P  供#NN  生食#NN  外#LC  ，#PU  还#AD  可#VV  制作#VV  多#CD  种#M  加工品#NN    。#PU    。#PU
+            香蕉#NN  是#VC  人们#NN  喜爱#NN  的#DEG  水果#NN  之一#NN  ，#PU  欧洲人#NN  因#P  它#PN  能#VV  解除#VV  忧郁#NN  而#MSP  称#VV  它#PN  为#P  ``#AD  快乐#VA  水果#NN  ''#VV  ，#PU  而且#CC  香蕉#AD  还是#AD  女孩子们#VV  钟爱#NN  的#DEC  减肥#VV  佳果#NN    。#PU  香蕉#AD  又#AD  被#SB  称为#VV  ``#NN  智慧#NN  之#DEC  果#NN  ''#VV  ，#PU  传说#NN  是#VC  因为#P  佛祖#AD  释迦牟尼#AD  吃#VV  了#AS  香蕉#NN  而#CC  获得#VV  智慧#NN    。#PU  香蕉#NN  营养#VA  高#VA  、#PU  热量#AD  低#VA  ，#PU  含有#VV  称为#VV  ``#NN  智慧#NN  之#DEG  盐#NN  ''#NN  的#DEC  磷#NN  ，#PU  又#AD  有#VE  丰富#VA  的#DEC  蛋白质#NN  、#PU  糖#NN  、#PU  钾#NN  、#PU  维生素A#NN  和#CC  C#NN  ，#PU  同时#AD  膳食#NN  纤维#NN  也#AD  多#VA  ，#PU  是#VC  相当#AD  好#VA  的#DEC  营养#VA  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果实#NN, 香蕉#NN)  (cop, 果实#NN, 为#VC)  (nn, 甘蕉#NN, 芭蕉科#NN)  (nn, 甘蕉#NN, 植物#NN)  (assmod, 果实#NN, 甘蕉#NN)  (case, 甘蕉#NN, 的#DEG)  (root, ROOT#null, 果实#NN)   (nn, 各地#NN, 原产#NR)  (nn, 各地#NN, 亚洲#NR)  (conj, 各地#NN, 东南部#NN)  (nn, 各地#NN, 我国#NN)  (nn, 各地#NN, 南方#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 栽培#VV)  (case, 广东#NR, 以#P)  (conj, 广东#NR, 台湾#NR)  (prep, 栽培#VV, 广东#NR)  (advmod, 栽培#VV, 最多#AD)   (tmod, 采收#VV, 秋季#NT)  (nsubj, 成熟#VA, 果实#NN)  (loc, 采收#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (root, ROOT#null, 采收#VV)  (case, 处理#VV, 经#P)  (prep, 用#VV, 处理#VV)  (dobj, 处理#VV, 脱涩后#NN)  (nsubj, 用#VV, 洗净#NN)  (advmod, 用#VV, 鲜#AD)  (ccomp, 采收#VV, 用#VV)   (advmod, 栽培#VV, 我国#AD)  (nsubj, 有#VE, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 甘蕉#NN)  (conj, 有#VE, 粉蕉#VV)  (nummod, 个#M, 两#CD)  (clf, 品种#NN, 个#M)  (dobj, 粉蕉#VV, 品种#NN)   (nsubj, 短#VA, 甘蕉#NN)  (advmod, 短#VA, 果形#AD)  (root, ROOT#null, 短#VA)  (cc, 短#VA, 而#CC)  (advmod, 圆#VV, 稍#AD)  (dep, 短#VA, 圆#VV)  (advmod, 小#VA, 粉蕉果形#AD)  (dep, 短#VA, 小#VA)  (cc, 小#VA, 而#CC)  (dep, 小#VA, 微弯#VA)   (nsubj, 香甜#VV, 其#PN)  (xsubj, 制作#VV, 其#PN)  (advmod, 香甜#VV, 果肉#AD)  (root, ROOT#null, 香甜#VV)  (case, 生食#NN, 除#P)  (nn, 生食#NN, 供#NN)  (prep, 制作#VV, 生食#NN)  (case, 生食#NN, 外#LC)  (advmod, 制作#VV, 还#AD)  (mmod, 制作#VV, 可#VV)  (ccomp, 香甜#VV, 制作#VV)  (nummod, 种#M, 多#CD)  (clf, 加工品#NN, 种#M)  (dobj, 制作#VV, 加工品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 之一#NN, 香蕉#NN)  (cop, 之一#NN, 是#VC)  (nn, 喜爱#NN, 人们#NN)  (assmod, 之一#NN, 喜爱#NN)  (case, 喜爱#NN, 的#DEG)  (nn, 之一#NN, 水果#NN)  (root, ROOT#null, 之一#NN)  (nsubj, 称#VV, 欧洲人#NN)  (case, 解除#VV, 因#P)  (nsubj, 解除#VV, 它#PN)  (mmod, 解除#VV, 能#VV)  (prep, 称#VV, 解除#VV)  (dobj, 解除#VV, 忧郁#NN)  (prtmod, 称#VV, 而#MSP)  (conj, 之一#NN, 称#VV)  (dobj, 称#VV, 它#PN)  (case, 水果#NN, 为#P)  (advmod, 快乐#VA, ``#AD)  (nfincl, 水果#NN, 快乐#VA)  (prep, ''#VV, 水果#NN)  (dep, 称#VV, ''#VV)  (cc, 之一#NN, 而且#CC)  (advmod, 女孩子们#VV, 香蕉#AD)  (advmod, 女孩子们#VV, 还是#AD)  (nsubj, 减肥#VV, 女孩子们#VV)  (dobj, 女孩子们#VV, 钟爱#NN)  (mark, 女孩子们#VV, 的#DEC)  (conj, 之一#NN, 减肥#VV)  (dobj, 减肥#VV, 佳果#NN)   (advmod, 称为#VV, 香蕉#AD)  (advmod, 称为#VV, 又#AD)  (auxpass, 称为#VV, 被#SB)  (relcl, 果#NN, 称为#VV)  (nn, 智慧#NN, ``#NN)  (dobj, 称为#VV, 智慧#NN)  (mark, 称为#VV, 之#DEC)  (nsubj, ''#VV, 果#NN)  (root, ROOT#null, ''#VV)  (nsubj, 是#VC, 传说#NN)  (ccomp, ''#VV, 是#VC)  (case, 吃#VV, 因为#P)  (advmod, 吃#VV, 佛祖#AD)  (advmod, 吃#VV, 释迦牟尼#AD)  (prep, 是#VC, 吃#VV)  (asp, 吃#VV, 了#AS)  (dobj, 吃#VV, 香蕉#NN)  (cc, 是#VC, 而#CC)  (dep, 是#VC, 获得#VV)  (dobj, 获得#VV, 智慧#NN)   (nsubj, 营养#VA, 香蕉#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 高#VA)  (advmod, 低#VA, 热量#AD)  (conj, 营养#VA, 低#VA)  (dep, 营养#VA, 含有#VV)  (relcl, 磷#NN, 称为#VV)  (nn, 智慧#NN, ``#NN)  (assmod, ''#NN, 智慧#NN)  (case, 智慧#NN, 之#DEG)  (nn, ''#NN, 盐#NN)  (dobj, 称为#VV, ''#NN)  (mark, 称为#VV, 的#DEC)  (dobj, 含有#VV, 磷#NN)  (advmod, 有#VE, 又#AD)  (conj, 营养#VA, 有#VE)  (relcl, C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, C#NN, 蛋白质#NN)  (conj, C#NN, 糖#NN)  (conj, C#NN, 钾#NN)  (conj, C#NN, 维生素A#NN)  (cc, C#NN, 和#CC)  (dobj, 有#VE, C#NN)  (advmod, 多#VA, 同时#AD)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 多#VA, 纤维#NN)  (advmod, 多#VA, 也#AD)  (conj, 营养#VA, 多#VA)  (cop, 食品#NN, 是#VC)  (advmod, 好#VA, 相当#AD)  (relcl, 食品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nfincl, 食品#NN, 营养#VA)  (dep, 多#VA, 食品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘、性寒；肺经、脾经。清热，润肠，解毒。治热病烦渴，便秘，痔血。
+            1.补充能量
+            运动员喜欢在上场前吃香蕉，这有助于临场表现。从营养的角度来分析，香蕉的糖分可迅速转化为葡萄糖，立刻被人体吸收，是一种快速的能量来源。
+            2.保护胃黏膜
+            香蕉能缓和胃酸的刺激，保护胃黏膜。
+            3.降血压
+            钾对人体的钠具有抑制作用，多吃香蕉，可降低血压，预防高血压和心血管疾病。研究显示，每天吃两条香蕉，可有效降低10%血压。
+            4.润肠道
+            香蕉内含丰富的可溶性纤维，也就是果胶，可帮助消化，调整肠胃机能。
+            5.有助于睡眠
+            香蕉对失眠或情绪紧张者也有疗效，因为香蕉包含的蛋白质中，带有氨基酸，具有安抚神经的效果，因此在睡前吃点香蕉，多少可起一些镇静作用。
+        </rawdata>
+
+        <segment>
+            味甘  、  性寒  ；  肺经  、  脾经  。  清热  ，  润肠  ，  解毒  。  治  热病  烦渴  ，  便秘  ，  痔血  。
+            补充  能量
+            运动员  喜欢  在  上场  前  吃  香蕉  ，  这  有助于  临场  表现  。  从  营养  的  角度  来  分析  ，  香蕉  的  糖分  可  迅速  转化  为  葡萄糖  ，  立刻  被  人体  吸收  ，  是  一  种  快速  的  能量  来源  。
+            保护  胃  黏膜
+            香蕉  能  缓和  胃酸  的  刺激  ，  保护  胃  黏膜  。
+            降  血压
+            钾  对  人体  的  钠  具有  抑制  作用  ，  多  吃  香蕉  ，  可  降低  血压  ，  预防  高血压  和  心血管  疾病  。  研究  显示  ，  每  天  吃  两  条  香蕉  ，  可  有效  降低  10%  血压  。
+            润肠道
+            香蕉  内  含  丰富  的  可溶性  纤维  ，  也就是  果胶  ，  可  帮助  消化  ，  调整  肠胃  机能  。
+            有助于  睡眠
+            香蕉  对  失眠  或  情绪  紧张  者  也  有  疗效  ，  因为  香蕉  包含  的  蛋白质  中  ，  带有  氨基酸  ，  具有  安抚  神经  的  效果  ，  因此  在  睡前  吃  点  香蕉  ，  多少  可  起  一些  镇静  作用  。
+        </segment>
+
+        <pos>
+            味甘#NR  、#PU  性寒#NR  ；#PU  肺经#NN  、#PU  脾经#NN    。#PU  清热#VV  ，#PU  润肠#NN  ，#PU  解毒#VV    。#PU  治#NN  热病#NN  烦渴#VV  ，#PU  便秘#NN  ，#PU  痔血#VV    。#PU    。#PU
+            补充#NN  能量#NN
+            运动员#NN  喜欢#VV  在#P  上场#VV  前#LC  吃#VV  香蕉#NN  ，#PU  这#PN  有助于#VV  临场#VV  表现#NN    。#PU  从#P  营养#VA  的#DEC  角度#NN  来#MSP  分析#VV  ，#PU  香蕉#NN  的#DEG  糖分#NN  可#VV  迅速#AD  转化#VV  为#VV  葡萄糖#NN  ，#PU  立刻#NN  被#SB  人体#VV  吸收#NN  ，#PU  是#VC  一#CD  种#M  快速#VA  的#DEC  能量#NN  来源#NN    。#PU    。#PU
+            保护#VV  胃#NN  黏膜#NN
+            香蕉#NN  能#VV  缓和#VV  胃酸#NN  的#DEG  刺激#NN  ，#PU  保护#VV  胃#NN  黏膜#NN  。#PU
+            降#NN  血压#VA
+            钾#NN  对#P  人体#NN  的#DEG  钠#NN  具有#VV  抑制#NN  作用#NN  ，#PU  多#AD  吃#VV  香蕉#NN  ，#PU  可#VV  降低#VV  血压#NN  ，#PU  预防#VV  高血压#NN  和#CC  心血管#NN  疾病#NN    。#PU  研究#NN  显示#VV  ，#PU  每#DT  天#M  吃#VV  两#CD  条#M  香蕉#NN  ，#PU  可#VV  有效#AD  降低#VV  10#CD  %#NN  血压#NN    。#PU    。#PU
+            润肠道#VV
+            香蕉#NN  内#LC  含#VV  丰富#VA  的#DEC  可溶性#NN  纤维#NN  ，#PU  也就是#VV  果胶#NN  ，#PU  可#VV  帮助#VV  消化#NN  ，#PU  调整#VV  肠胃#NN  机能#NN  。#PU
+            有助于#VV  睡眠#NN
+            香蕉#NN  对#P  失眠#NN  或#CC  情绪#NN  紧张#JJ  者#NN  也#AD  有#VE  疗效#NN  ，#PU  因为#P  香蕉#AD  包含#VV  的#DEC  蛋白质#NN  中#LC  ，#PU  带有#VV  氨基酸#NN  ，#PU  具有#VV  安抚#NN  神经#NN  的#DEC  效果#NN  ，#PU  因此#AD  在#P  睡前#NR  吃#VV  点#M  香蕉#NN  ，#PU  多少#AD  可#VV  起#VV  一些#CD  镇静#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 性寒#NR, 味甘#NR)  (dep, 脾经#NN, 性寒#NR)  (conj, 脾经#NN, 肺经#NN)  (root, ROOT#null, 脾经#NN)   (root, ROOT#null, 清热#VV)  (nsubj, 解毒#VV, 润肠#NN)  (ccomp, 清热#VV, 解毒#VV)   (nn, 热病#NN, 治#NN)  (nsubj, 烦渴#VV, 热病#NN)  (root, ROOT#null, 烦渴#VV)  (nsubj, 痔血#VV, 便秘#NN)  (ccomp, 烦渴#VV, 痔血#VV)   (root, ROOT#null, null#null)
+            (nn, 能量#NN, 补充#NN)  (root, ROOT#null, 能量#NN)
+            (nsubj, 喜欢#VV, 运动员#NN)  (root, ROOT#null, 喜欢#VV)  (case, 上场#VV, 在#P)  (prep, 吃#VV, 上场#VV)  (case, 上场#VV, 前#LC)  (dep, 有助于#VV, 吃#VV)  (dobj, 吃#VV, 香蕉#NN)  (nsubj, 有助于#VV, 这#PN)  (ccomp, 喜欢#VV, 有助于#VV)  (ccomp, 有助于#VV, 临场#VV)  (dobj, 临场#VV, 表现#NN)   (case, 角度#NN, 从#P)  (relcl, 角度#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (prep, 分析#VV, 角度#NN)  (prtmod, 分析#VV, 来#MSP)  (root, ROOT#null, 分析#VV)  (assmod, 糖分#NN, 香蕉#NN)  (case, 香蕉#NN, 的#DEG)  (nsubj, 转化#VV, 糖分#NN)  (mmod, 转化#VV, 可#VV)  (advmod, 转化#VV, 迅速#AD)  (ccomp, 分析#VV, 转化#VV)  (dep, 转化#VV, 为#VV)  (dobj, 为#VV, 葡萄糖#NN)  (nsubjpass, 人体#VV, 立刻#NN)  (auxpass, 人体#VV, 被#SB)  (conj, 转化#VV, 人体#VV)  (dobj, 人体#VV, 吸收#NN)  (cop, 来源#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 来源#NN, 种#M)  (relcl, 来源#NN, 快速#VA)  (mark, 快速#VA, 的#DEC)  (nn, 来源#NN, 能量#NN)  (dep, 分析#VV, 来源#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保护#VV)  (nn, 黏膜#NN, 胃#NN)  (dobj, 保护#VV, 黏膜#NN)
+            (nsubj, 缓和#VV, 香蕉#NN)  (mmod, 缓和#VV, 能#VV)  (root, ROOT#null, 缓和#VV)  (assmod, 刺激#NN, 胃酸#NN)  (case, 胃酸#NN, 的#DEG)  (dobj, 缓和#VV, 刺激#NN)  (dep, 缓和#VV, 保护#VV)  (nn, 黏膜#NN, 胃#NN)  (dobj, 保护#VV, 黏膜#NN)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (nsubj, 具有#VV, 钾#NN)  (case, 钠#NN, 对#P)  (assmod, 钠#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (prep, 具有#VV, 钠#NN)  (root, ROOT#null, 具有#VV)  (nn, 作用#NN, 抑制#NN)  (dobj, 具有#VV, 作用#NN)  (advmod, 吃#VV, 多#AD)  (conj, 具有#VV, 吃#VV)  (dobj, 吃#VV, 香蕉#NN)  (mmod, 降低#VV, 可#VV)  (conj, 具有#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (conj, 具有#VV, 预防#VV)  (conj, 心血管#NN, 高血压#NN)  (cc, 心血管#NN, 和#CC)  (nn, 疾病#NN, 心血管#NN)  (dobj, 预防#VV, 疾病#NN)   (nsubj, 显示#VV, 研究#NN)  (root, ROOT#null, 显示#VV)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (ccomp, 显示#VV, 吃#VV)  (nummod, 条#M, 两#CD)  (clf, 香蕉#NN, 条#M)  (dobj, 吃#VV, 香蕉#NN)  (mmod, 降低#VV, 可#VV)  (advmod, 降低#VV, 有效#AD)  (dep, 吃#VV, 降低#VV)  (nummod, 血压#NN, 10#CD)  (nn, 血压#NN, %#NN)  (dobj, 降低#VV, 血压#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 润肠道#VV)
+            (loc, 含#VV, 香蕉#NN)  (case, 香蕉#NN, 内#LC)  (dep, 帮助#VV, 含#VV)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 纤维#NN, 可溶性#NN)  (dobj, 含#VV, 纤维#NN)  (conj, 含#VV, 也就是#VV)  (dobj, 也就是#VV, 果胶#NN)  (mmod, 帮助#VV, 可#VV)  (root, ROOT#null, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 调整#VV)  (nn, 机能#NN, 肠胃#NN)  (dobj, 调整#VV, 机能#NN)
+            (root, ROOT#null, 有助于#VV)  (dobj, 有助于#VV, 睡眠#NN)
+            (nsubj, 有#VE, 香蕉#NN)  (case, 者#NN, 对#P)  (conj, 情绪#NN, 失眠#NN)  (cc, 情绪#NN, 或#CC)  (nn, 者#NN, 情绪#NN)  (amod, 者#NN, 紧张#JJ)  (prep, 有#VE, 者#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 疗效#NN)  (case, 蛋白质#NN, 因为#P)  (advmod, 包含#VV, 香蕉#AD)  (relcl, 蛋白质#NN, 包含#VV)  (mark, 包含#VV, 的#DEC)  (prep, 吃#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (relcl, 效果#NN, 带有#VV)  (dobj, 带有#VV, 氨基酸#NN)  (conj, 带有#VV, 具有#VV)  (nn, 神经#NN, 安抚#NN)  (dobj, 具有#VV, 神经#NN)  (mark, 带有#VV, 的#DEC)  (nsubj, 吃#VV, 效果#NN)  (advmod, 吃#VV, 因此#AD)  (case, 睡前#NR, 在#P)  (prep, 吃#VV, 睡前#NR)  (conj, 有#VE, 吃#VV)  (dep, 香蕉#NN, 点#M)  (dobj, 吃#VV, 香蕉#NN)  (advmod, 起#VV, 多少#AD)  (mmod, 起#VV, 可#VV)  (conj, 有#VE, 起#VV)  (nummod, 作用#NN, 一些#CD)  (amod, 作用#NN, 镇静#JJ)  (dobj, 起#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进生长发育  降血压  通便  抗癌  解毒  清热  润肠通便  润肺  降血脂  抗菌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.香蕉的含水量较高约70%，且含有丰富的碳水化合物、蛋白质、膳食纤维、磷、钾、维生素A和维生素C。
+            2.香蕉含有三种天然糖份：蔗糖、果糖和葡萄糖；再加上纤维素。
+        </rawdata>
+
+        <segment>
+            香蕉  的  含水量  较  高  约  70%  ，  且  含有  丰富  的  碳水化合物  、  蛋白质  、  膳食  纤维  、  磷  、  钾  、  维生素A  和  维生素C  。
+            香蕉  含有  三  种  天然  糖份  ：  蔗糖  、  果糖  和  葡萄糖  ；  再加上  纤维素  。
+        </segment>
+
+        <pos>
+            香蕉#NN  的#DEG  含水量#NN  较#AD  高#VA  约#AD  70#CD  %#NN  ，#PU  且#CC  含有#VV  丰富#VA  的#DEC  碳水化合物#NR  、#PU  蛋白质#NR  、#PU  膳食#NR  纤维#NN  、#PU  磷#NN  、#PU  钾#NN  、#PU  维生素A#NN  和#CC  维生素C#NN  。#PU
+            香蕉#NN  含有#VV  三#CD  种#M  天然#JJ  糖份#NN  ：#PU  蔗糖#NR  、#PU  果糖#NR  和#CC  葡萄糖#NR  ；#PU  再加上#AD  纤维素#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含水量#NN, 香蕉#NN)  (case, 香蕉#NN, 的#DEG)  (nsubj, 高#VA, 含水量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (advmod, 70#CD, 约#AD)  (nummod, %#NN, 70#CD)  (dobj, 高#VA, %#NN)  (cc, 高#VA, 且#CC)  (dep, 高#VA, 含有#VV)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 膳食#NR, 碳水化合物#NR)  (conj, 膳食#NR, 蛋白质#NR)  (nn, 维生素C#NN, 膳食#NR)  (conj, 维生素C#NN, 纤维#NN)  (conj, 维生素C#NN, 磷#NN)  (conj, 维生素C#NN, 钾#NN)  (conj, 维生素C#NN, 维生素A#NN)  (cc, 维生素C#NN, 和#CC)  (dobj, 含有#VV, 维生素C#NN)
+            (nsubj, 含有#VV, 香蕉#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 三#CD)  (clf, 糖份#NN, 种#M)  (amod, 糖份#NN, 天然#JJ)  (dobj, 含有#VV, 糖份#NN)  (conj, 葡萄糖#NR, 蔗糖#NR)  (conj, 葡萄糖#NR, 果糖#NR)  (cc, 葡萄糖#NR, 和#CC)  (nsubj, 纤维素#VV, 葡萄糖#NR)  (advmod, 纤维素#VV, 再加上#AD)  (conj, 含有#VV, 纤维素#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            也可把香蕉捣烂，做香蕉泥，也可炸香蕉片。治痔疮便血连皮炖食。
+        </rawdata>
+
+        <segment>
+            也  可  把  香蕉  捣烂  ，  做  香蕉泥  ，  也  可  炸  香蕉  片  。  治  痔疮  便血  连皮  炖  食  。
+        </segment>
+
+        <pos>
+            也#AD  可#VV  把#BA  香蕉#NN  捣烂#NN  ，#PU  做#VV  香蕉泥#NN  ，#PU  也#AD  可#VV  炸#VV  香蕉#CD  片#M    。#PU  治#VV  痔疮#NN  便血#NN  连皮#NN  炖#NN  食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (ba, 做#VV, 把#BA)  (nn, 捣烂#NN, 香蕉#NN)  (nsubj, 做#VV, 捣烂#NN)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 香蕉泥#NN)  (advmod, 炸#VV, 也#AD)  (mmod, 炸#VV, 可#VV)  (conj, 做#VV, 炸#VV)  (nummod, 片#M, 香蕉#CD)  (range, 炸#VV, 片#M)   (root, ROOT#null, 治#VV)  (nn, 食#NN, 痔疮#NN)  (nn, 食#NN, 便血#NN)  (nn, 食#NN, 连皮#NN)  (nn, 食#NN, 炖#NN)  (dobj, 治#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101510126856.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

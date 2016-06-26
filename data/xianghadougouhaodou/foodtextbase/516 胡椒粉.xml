@@ -1,0 +1,342 @@
+<content>
+
+    <id>
+        516
+    </id>
+
+    <foodname>
+        胡椒粉
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        古月粉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病、咳嗽、吐血、高血压、胃溃疡者，发炎、阴虚有火者忌食；久服易致眼疾。
+        </rawdata>
+
+        <segment>
+            糖尿病  、  咳嗽  、  吐血  、  高血压  、  胃溃疡  者  ，  发炎  、  阴虚  有  火  者  忌食  ；  久服易  致  眼疾  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  、#PU  咳嗽#NN  、#PU  吐血#NN  、#PU  高血压#NN  、#PU  胃溃疡#NN  者#NN  ，#PU  发炎#NR  、#PU  阴虚#NR  有#VE  火#NN  者#NN  忌食#NN  ；#PU  久服易#NN  致#VV  眼疾#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 胃溃疡#NN, 糖尿病#NN)  (conj, 胃溃疡#NN, 咳嗽#NN)  (conj, 胃溃疡#NN, 吐血#NN)  (conj, 胃溃疡#NN, 高血压#NN)  (nn, 者#NN, 胃溃疡#NN)  (dep, 有#VE, 者#NN)  (conj, 阴虚#NR, 发炎#NR)  (dep, 有#VE, 阴虚#NR)  (root, ROOT#null, 有#VE)  (nn, 忌食#NN, 火#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 有#VE, 忌食#NN)  (nsubj, 致#VV, 久服易#NN)  (conj, 有#VE, 致#VV)  (dobj, 致#VV, 眼疾#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜食欲不振、感冒、胃寒、呕吐患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  食欲  不振  、  感冒  、  胃  寒  、  呕吐  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  食欲#NN  不振#VV  、#PU  感冒#VV  、#PU  胃#VV  寒#JJ  、#PU  呕吐#JJ  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 食欲#NN)  (conj, 适宜#VV, 不振#VV)  (dep, 不振#VV, 感冒#VV)  (dep, 不振#VV, 胃#VV)  (amod, 患者#NN, 寒#JJ)  (dep, 寒#JJ, 呕吐#JJ)  (dobj, 胃#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                357
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                9.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                76.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                172
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                154
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                128
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                9.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                7.64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.79
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            胡椒粉，亦称古月粉，由热带植物胡椒树的果实碾压而成，有白胡椒粉和黑胡椒粉两种。黑胡椒粉是未成熟果实加工而成，白胡椒粉是果实完全成熟后采摘加工而成。主要产在印度、越南、印尼、泰国、新加坡等国，中国广东省、海南岛也有生产。
+        </rawdata>
+
+        <segment>
+            胡椒粉  ，  亦  称  古月粉  ，  由  热带  植物  胡椒  树  的  果实  碾压  而  成  ，  有  白胡椒粉  和  黑胡椒粉  两种  。  黑胡椒粉  是  未成熟  果实  加工  而  成  ，  白  胡椒粉  是  果实  完全  成熟  后  采摘  加工  而  成  。  主要  产  在  印度  、  越南  、  印尼  、  泰国  、  新加坡  等  国  ，  中国  广东省  、  海南岛  也  有  生产  。
+        </segment>
+
+        <pos>
+            胡椒粉#VV  ，#PU  亦#AD  称#VV  古月粉#NN  ，#PU  由#P  热带#NN  植物#NN  胡椒#NN  树#NN  的#DEG  果实#NN  碾压#NN  而#MSP  成#VV  ，#PU  有#VE  白胡椒粉#NN  和#CC  黑胡椒粉#NN  两种#NN    。#PU  黑胡椒粉#NN  是#VC  未成熟#NN  果实#NN  加工#NN  而#MSP  成#VV  ，#PU  白#JJ  胡椒粉#NN  是#VC  果实#NN  完全#AD  成熟#VA  后#LC  采摘#NN  加工#NN  而#MSP  成#VV    。#PU  主要#AD  产#VV  在#P  印度#NR  、#PU  越南#NR  、#PU  印尼#NR  、#PU  泰国#NR  、#PU  新加坡#NR  等#ETC  国#NN  ，#PU  中国#NR  广东省#NR  、#PU  海南岛#NR  也#AD  有#VE  生产#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胡椒粉#VV)  (advmod, 称#VV, 亦#AD)  (conj, 胡椒粉#VV, 称#VV)  (dobj, 称#VV, 古月粉#NN)  (case, 碾压#NN, 由#P)  (nn, 树#NN, 热带#NN)  (nn, 树#NN, 植物#NN)  (nn, 树#NN, 胡椒#NN)  (assmod, 碾压#NN, 树#NN)  (case, 树#NN, 的#DEG)  (nn, 碾压#NN, 果实#NN)  (prep, 成#VV, 碾压#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 胡椒粉#VV, 成#VV)  (dep, 胡椒粉#VV, 有#VE)  (conj, 两种#NN, 白胡椒粉#NN)  (cc, 两种#NN, 和#CC)  (nn, 两种#NN, 黑胡椒粉#NN)  (dobj, 有#VE, 两种#NN)   (nsubj, 加工#NN, 黑胡椒粉#NN)  (cop, 加工#NN, 是#VC)  (nn, 加工#NN, 未成熟#NN)  (nn, 加工#NN, 果实#NN)  (root, ROOT#null, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 加工#NN, 成#VV)  (amod, 胡椒粉#NN, 白#JJ)  (nsubj, 果实#NN, 胡椒粉#NN)  (cop, 果实#NN, 是#VC)  (conj, 加工#NN, 果实#NN)  (advmod, 成熟#VA, 完全#AD)  (loc, 成#VV, 成熟#VA)  (case, 成熟#VA, 后#LC)  (nn, 加工#NN, 采摘#NN)  (nsubj, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 加工#NN, 成#VV)   (advmod, 产#VV, 主要#AD)  (root, ROOT#null, 产#VV)  (case, 国#NN, 在#P)  (conj, 新加坡#NR, 印度#NR)  (conj, 新加坡#NR, 越南#NR)  (conj, 新加坡#NR, 印尼#NR)  (conj, 新加坡#NR, 泰国#NR)  (nn, 国#NN, 新加坡#NR)  (etc, 新加坡#NR, 等#ETC)  (prep, 有#VE, 国#NN)  (nn, 海南岛#NR, 中国#NR)  (conj, 海南岛#NR, 广东省#NR)  (nsubj, 有#VE, 海南岛#NR)  (advmod, 有#VE, 也#AD)  (dep, 产#VV, 有#VE)  (dobj, 有#VE, 生产#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            胡椒味辛、性热，入胃、大肠经；有温中下气，消痰解毒的功效；主治寒痰食积、脘腹冷痛、反胃、呕吐清水、泄泻、冷痢；外敷治疮肿、毒蛇咬伤、犬咬伤；又可解食物毒。
+        </rawdata>
+
+        <segment>
+            胡椒  味辛  、  性热  ，  入胃  、  大肠  经  ；  有温  中  下气  ，  消痰  解毒  的  功效  ；  主治  寒痰  食积  、  脘腹冷痛  、  反胃  、  呕吐  清水  、  泄泻  、  冷痢  ；  外敷  治疮肿  、  毒  蛇  咬伤  、  犬  咬伤  ；  又  可解  食物  毒  。
+        </segment>
+
+        <pos>
+            胡椒#VV  味辛#NN  、#PU  性热#NN  ，#PU  入胃#VV  、#PU  大肠#AD  经#VV  ；#PU  有温#NN  中#LC  下气#VV  ，#PU  消痰#VV  解毒#NN  的#DEG  功效#NN  ；#PU  主治#AD  寒痰#VV  食积#NR  、#PU  脘腹冷痛#NR  、#PU  反胃#NR  、#PU  呕吐#NR  清水#NR  、#PU  泄泻#NR  、#PU  冷痢#NR  ；#PU  外敷#VV  治疮肿#NN  、#PU  毒#VV  蛇#NN  咬伤#NN  、#PU  犬#NN  咬伤#NN  ；#PU  又#AD  可解#VV  食物#NN  毒#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胡椒#VV)  (conj, 性热#NN, 味辛#NN)  (dobj, 胡椒#VV, 性热#NN)  (conj, 胡椒#VV, 入胃#VV)  (advmod, 经#VV, 大肠#AD)  (conj, 胡椒#VV, 经#VV)  (loc, 下气#VV, 有温#NN)  (case, 有温#NN, 中#LC)  (conj, 胡椒#VV, 下气#VV)  (conj, 胡椒#VV, 消痰#VV)  (assmod, 功效#NN, 解毒#NN)  (case, 解毒#NN, 的#DEG)  (dobj, 消痰#VV, 功效#NN)  (advmod, 寒痰#VV, 主治#AD)  (conj, 胡椒#VV, 寒痰#VV)  (conj, 冷痢#NR, 食积#NR)  (conj, 冷痢#NR, 脘腹冷痛#NR)  (conj, 冷痢#NR, 反胃#NR)  (nn, 冷痢#NR, 呕吐#NR)  (conj, 冷痢#NR, 清水#NR)  (conj, 冷痢#NR, 泄泻#NR)  (dobj, 寒痰#VV, 冷痢#NR)  (conj, 胡椒#VV, 外敷#VV)  (dobj, 外敷#VV, 治疮肿#NN)  (conj, 胡椒#VV, 毒#VV)  (nn, 咬伤#NN, 蛇#NN)  (conj, 咬伤#NN, 咬伤#NN)  (nn, 咬伤#NN, 犬#NN)  (dobj, 毒#VV, 咬伤#NN)  (advmod, 可解#VV, 又#AD)  (conj, 胡椒#VV, 可解#VV)  (nn, 毒#NN, 食物#NN)  (dobj, 可解#VV, 毒#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        止泻  温中  解毒  健胃  行气止痛  利胆  抗炎  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            胡椒的主要成分是胡椒碱，也含有一定量的芳香油、粗蛋白、粗脂肪及可溶性氮，能祛腥、解油腻，助消化。
+        </rawdata>
+
+        <segment>
+            胡椒  的  主要  成分  是  胡椒碱  ，  也  含有  一定量  的  芳香油  、  粗  蛋白  、  粗  脂肪  及  可溶性  氮  ，  能  祛腥  、  解  油腻  ，  助消化  。
+        </segment>
+
+        <pos>
+            胡椒#NN  的#DEG  主要#JJ  成分#NN  是#VC  胡椒碱#NN  ，#PU  也#AD  含有#VV  一定量#CD  的#DEG  芳香油#NR  、#PU  粗#NR  蛋白#NR  、#PU  粗#NR  脂肪#NR  及#CC  可溶性#NR  氮#NN  ，#PU  能#VV  祛腥#NN  、#PU  解#VV  油腻#NN  ，#PU  助消化#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 胡椒#NN)  (case, 胡椒#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 胡椒碱#NN, 成分#NN)  (cop, 胡椒碱#NN, 是#VC)  (root, ROOT#null, 胡椒碱#NN)  (advmod, 含有#VV, 也#AD)  (conj, 胡椒碱#NN, 含有#VV)  (assmod, 氮#NN, 一定量#CD)  (case, 一定量#CD, 的#DEG)  (conj, 可溶性#NR, 芳香油#NR)  (nn, 可溶性#NR, 粗#NR)  (conj, 可溶性#NR, 蛋白#NR)  (nn, 可溶性#NR, 粗#NR)  (conj, 可溶性#NR, 脂肪#NR)  (cc, 可溶性#NR, 及#CC)  (nn, 氮#NN, 可溶性#NR)  (dobj, 含有#VV, 氮#NN)  (conj, 含有#VV, 能#VV)  (dobj, 能#VV, 祛腥#NN)  (conj, 含有#VV, 解#VV)  (dobj, 解#VV, 油腻#NN)  (conj, 含有#VV, 助消化#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.无论黑胡椒、白胡椒皆不能高温油炸，应在菜肴或汤羹即将出锅时填加少许，均匀拌入。
+            2.与肉食同煮的时间不宜太长，因为黑胡椒中含胡椒辣碱、 胡椒脂碱、挥发油和脂肪油，火候太久会使辣和香为原味发掉。
+            3.由于胡椒的热性高，吃了很容易让人体内阳气生发，所以每次最好别多吃，在0.3克—1克左右比较适宜。
+        </rawdata>
+
+        <segment>
+            无论  黑胡椒  、  白胡椒  皆  不  能  高温  油炸  ，  应  在  菜肴  或  汤  羹  即将  出锅  时  填  加  少许  ，  均匀  拌入  。
+            与  肉食  同  煮  的  时间  不  宜  太长  ，  因为  黑胡椒  中  含  胡椒  辣  碱  、    胡椒  脂碱  、  挥发油  和  脂肪  油  ，  火候  太  久  会  使  辣  和  香为  原味  发掉  。
+            由于  胡椒  的  热性高  ，  吃  了  很  容易  让  人  体内  阳气  生发  ，  所以  每次  最好  别  多  吃  ，  在  0.3  克  —  1  克  左右  比较  适宜  。
+        </segment>
+
+        <pos>
+            无论#AD  黑胡椒#NN  、#PU  白胡椒#NN  皆#AD  不#AD  能#VV  高温#NN  油炸#VV  ，#PU  应#VV  在#P  菜肴#NN  或#CC  汤#NN  羹#NN  即将#AD  出锅#VV  时#LC  填#VV  加#NR  少许#NN  ，#PU  均匀#VA  拌入#VV  。#PU
+            与#P  肉食#NN  同#P  煮#VV  的#DEC  时间#NN  不#AD  宜#NR  太长#VV  ，#PU  因为#P  黑胡椒#NN  中#LC  含#VV  胡椒#NN  辣#NN  碱#NN  、#PU  胡椒#NN  脂碱#NN  、#PU  挥发油#NN  和#CC  脂肪#NN  油#NN  ，#PU  火候#NN  太#AD  久#AD  会#VV  使#VV  辣#NN  和#CC  香为#NN  原味#NN  发掉#VV  。#PU
+            由于#P  胡椒#NN  的#DEG  热性高#NN  ，#PU  吃#VV  了#AS  很#AD  容易#VA  让#VV  人#NN  体内#NN  阳气#NN  生发#VV  ，#PU  所以#AD  每次#NR  最好#JJ  别#DT  多#NN  吃#VV  ，#PU  在#P  0.3#CD  克#M  --#NN  1#CD  克#M  左右#LC  比较#AD  适宜#VA  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 白胡椒#NN, 无论#AD)  (conj, 白胡椒#NN, 黑胡椒#NN)  (nsubj, 油炸#VV, 白胡椒#NN)  (advmod, 油炸#VV, 皆#AD)  (neg, 油炸#VV, 不#AD)  (mmod, 油炸#VV, 能#VV)  (dep, 油炸#VV, 高温#NN)  (root, ROOT#null, 油炸#VV)  (mmod, 填#VV, 应#VV)  (case, 出锅#VV, 在#P)  (conj, 汤#NN, 菜肴#NN)  (cc, 汤#NN, 或#CC)  (nn, 羹#NN, 汤#NN)  (nsubj, 出锅#VV, 羹#NN)  (advmod, 出锅#VV, 即将#AD)  (prep, 填#VV, 出锅#VV)  (case, 出锅#VV, 时#LC)  (conj, 油炸#VV, 填#VV)  (nn, 少许#NN, 加#NR)  (dobj, 填#VV, 少许#NN)  (dep, 拌入#VV, 均匀#VA)  (conj, 油炸#VV, 拌入#VV)
+            (case, 肉食#NN, 与#P)  (prep, 太长#VV, 肉食#NN)  (case, 时间#NN, 同#P)  (relcl, 时间#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (prep, 太长#VV, 时间#NN)  (neg, 太长#VV, 不#AD)  (prep, 太长#VV, 宜#NR)  (dep, 使#VV, 太长#VV)  (case, 黑胡椒#NN, 因为#P)  (prep, 含#VV, 黑胡椒#NN)  (case, 黑胡椒#NN, 中#LC)  (dep, 太长#VV, 含#VV)  (nn, 油#NN, 胡椒#NN)  (nn, 油#NN, 辣#NN)  (conj, 油#NN, 碱#NN)  (nn, 油#NN, 胡椒#NN)  (conj, 油#NN, 脂碱#NN)  (conj, 油#NN, 挥发油#NN)  (cc, 油#NN, 和#CC)  (nn, 油#NN, 脂肪#NN)  (dobj, 含#VV, 油#NN)  (nsubj, 使#VV, 火候#NN)  (advmod, 使#VV, 太#AD)  (advmod, 使#VV, 久#AD)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (conj, 香为#NN, 辣#NN)  (cc, 香为#NN, 和#CC)  (nn, 原味#NN, 香为#NN)  (dobj, 使#VV, 原味#NN)  (dep, 使#VV, 发掉#VV)
+            (case, 热性高#NN, 由于#P)  (assmod, 热性高#NN, 胡椒#NN)  (case, 胡椒#NN, 的#DEG)  (prep, 让#VV, 热性高#NN)  (conj, 让#VV, 吃#VV)  (asp, 吃#VV, 了#AS)  (advmod, 容易#VA, 很#AD)  (dep, 吃#VV, 容易#VA)  (root, ROOT#null, 让#VV)  (nn, 阳气#NN, 人#NN)  (nn, 阳气#NN, 体内#NN)  (dobj, 让#VV, 阳气#NN)  (dep, 让#VV, 生发#VV)  (advmod, 吃#VV, 所以#AD)  (nn, 多#NN, 每次#NR)  (amod, 多#NN, 最好#JJ)  (det, 多#NN, 别#DT)  (nsubj, 吃#VV, 多#NN)  (dep, 让#VV, 吃#VV)  (case, 克#M, 在#P)  (nummod, 克#M, 0.3#CD)  (clf, --#NN, 克#M)  (nummod, 克#M, 1#CD)  (prep, 适宜#VA, 克#M)  (case, 克#M, 左右#LC)  (advmod, 适宜#VA, 比较#AD)  (conj, 让#VV, 适宜#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201305/151637570.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

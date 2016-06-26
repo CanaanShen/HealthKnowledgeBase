@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        276
+    </id>
+
+    <foodname>
+        青蒜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        葱蒜类
+    </secondcategory>
+
+    <alias>
+        蒜苗、蒜毫
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有眼部疾病患者忌食。
+        </rawdata>
+
+        <segment>
+            患有  眼部  疾病  患者  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  眼部#VV  疾病#NN  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 眼部#VV, 患有#NN)  (root, ROOT#null, 眼部#VV)  (nn, 忌食#NN, 疾病#NN)  (nn, 忌食#NN, 患者#NN)  (dobj, 眼部#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                590
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                168
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                9.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                88.9
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            青蒜，是大蒜青绿色的幼苗，以其柔嫩的蒜叶和叶鞘供食用。
+        </rawdata>
+
+        <segment>
+            青蒜  ，  是  大蒜  青绿色  的  幼苗  ，  以  其  柔嫩  的  蒜叶  和  叶鞘  供  食用  。
+        </segment>
+
+        <pos>
+            青蒜#NN  ，#PU  是#VC  大蒜#NN  青绿色#NN  的#DEG  幼苗#NN  ，#PU  以#P  其#PN  柔嫩#NN  的#DEG  蒜叶#NN  和#CC  叶鞘#NN  供#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 幼苗#NN, 青蒜#NN)  (cop, 幼苗#NN, 是#VC)  (nn, 青绿色#NN, 大蒜#NN)  (assmod, 幼苗#NN, 青绿色#NN)  (case, 青绿色#NN, 的#DEG)  (root, ROOT#null, 幼苗#NN)  (case, 供#NN, 以#P)  (nn, 柔嫩#NN, 其#PN)  (assmod, 供#NN, 柔嫩#NN)  (case, 柔嫩#NN, 的#DEG)  (conj, 供#NN, 蒜叶#NN)  (cc, 供#NN, 和#CC)  (nn, 供#NN, 叶鞘#NN)  (prep, 食用#VV, 供#NN)  (conj, 幼苗#NN, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.杀菌抑菌
+            青蒜的辣味主要来自于其含有的辣素，这种辣素除具有醒脾气、消积食的作用外，还有良好的杀菌、抑菌作用，对流感、肠炎等因环境污染而引起的疾病，有很好的预防作用。
+            2.预防血栓
+            青蒜具有明显的降血脂及预防冠心病和动脉硬化的作用，并可防止血栓的形成。
+            3.预防癌症
+            蒜苗能保护肝脏，诱导肝细胞脱毒酶的活性，可以阻断亚硝胺致癌物质的合成，从而对预防癌症有一定的作用。
+        </rawdata>
+
+        <segment>
+            杀菌  抑菌
+            青蒜  的  辣味  主要  来自于  其  含有  的  辣素  ，  这  种  辣素  除  具有  醒  脾气  、  消  积食  的  作用  外  ，  还有  良好  的  杀菌  、  抑菌  作用  ，  对  流感  、  肠炎  等  因  环境  污染  而  引起  的  疾病  ，  有  很  好  的  预防  作用  。
+            预防  血栓
+            青蒜  具有  明显  的  降  血脂  及  预防  冠心病  和  动脉  硬化  的  作用  ，  并  可  防止  血栓  的  形成  。
+            预防  癌症
+            蒜苗  能  保护  肝脏  ，  诱导  肝细胞  脱  毒酶  的  活性  ，  可以  阻断  亚硝胺  致癌  物质  的  合成  ，  从而  对  预防  癌症  有  一定  的  作用  。
+        </segment>
+
+        <pos>
+            杀菌#NN  抑菌#VV
+            青蒜#NN  的#DEG  辣味#NN  主要#AD  来自于#VV  其#PN  含有#NN  的#DEG  辣素#NN  ，#PU  这#DT  种#M  辣素#NN  除#P  具有#VV  醒#NN  脾气#NN  、#PU  消#NN  积食#NN  的#DEC  作用#NN  外#LC  ，#PU  还有#AD  良好#VA  的#DEC  杀菌#NN  、#PU  抑菌#NN  作用#NN  ，#PU  对#P  流感#NR  、#PU  肠炎#NR  等#ETC  因#P  环境#NN  污染#NN  而#MSP  引起#VV  的#DEC  疾病#NN  ，#PU  有#VE  很#AD  好#VA  的#DEC  预防#NN  作用#NN  。#PU
+            预防#NN  血栓#VV
+            青蒜#VV  具有#VV  明显#VA  的#DEC  降#NN  血脂#NN  及#CC  预防#NN  冠心病#NN  和#CC  动脉#NN  硬化#NN  的#DEC  作用#NN  ，#PU  并#CC  可#VV  防止#VV  血栓#NN  的#DEG  形成#NN  。#PU
+            预防#VV  癌症#NN
+            蒜苗#NN  能#VV  保护#VV  肝脏#NN  ，#PU  诱导#VV  肝细胞#NN  脱#NN  毒酶#NN  的#DEG  活性#NN  ，#PU  可以#VV  阻断#VV  亚硝胺#NN  致癌#NN  物质#NN  的#DEC  合成#JJ  ，#PU  从而#AD  对#VV  预防#NN  癌症#NN  有#VE  一定#JJ  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 抑菌#VV, 杀菌#NN)  (root, ROOT#null, 抑菌#VV)
+            (assmod, 辣味#NN, 青蒜#NN)  (case, 青蒜#NN, 的#DEG)  (nsubj, 来自于#VV, 辣味#NN)  (advmod, 来自于#VV, 主要#AD)  (root, ROOT#null, 来自于#VV)  (nn, 含有#NN, 其#PN)  (assmod, 辣素#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (dobj, 来自于#VV, 辣素#NN)  (det, 辣素#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 有#VE, 辣素#NN)  (case, 作用#NN, 除#P)  (relcl, 作用#NN, 具有#VV)  (nn, 积食#NN, 醒#NN)  (conj, 积食#NN, 脾气#NN)  (nn, 积食#NN, 消#NN)  (dobj, 具有#VV, 积食#NN)  (mark, 具有#VV, 的#DEC)  (prep, 有#VE, 作用#NN)  (case, 作用#NN, 外#LC)  (advmod, 有#VE, 还有#AD)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 抑菌#NN, 杀菌#NN)  (nn, 作用#NN, 抑菌#NN)  (nsubj, 有#VE, 作用#NN)  (case, 疾病#NN, 对#P)  (conj, 肠炎#NR, 流感#NR)  (nn, 疾病#NN, 肠炎#NR)  (etc, 肠炎#NR, 等#ETC)  (case, 污染#NN, 因#P)  (nn, 污染#NN, 环境#NN)  (prep, 引起#VV, 污染#NN)  (prtmod, 引起#VV, 而#MSP)  (relcl, 肠炎#NR, 引起#VV)  (relcl, 疾病#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (prep, 有#VE, 疾病#NN)  (conj, 来自于#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 血栓#VV, 预防#NN)  (root, ROOT#null, 血栓#VV)
+            (root, ROOT#null, 青蒜#VV)  (relcl, 作用#NN, 具有#VV)  (relcl, 硬化#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 硬化#NN, 降#NN)  (conj, 硬化#NN, 血脂#NN)  (cc, 硬化#NN, 及#CC)  (nn, 硬化#NN, 预防#NN)  (conj, 硬化#NN, 冠心病#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (dobj, 具有#VV, 硬化#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 青蒜#VV, 作用#NN)  (cc, 青蒜#VV, 并#CC)  (mmod, 防止#VV, 可#VV)  (conj, 青蒜#VV, 防止#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 防止#VV, 形成#NN)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (nsubj, 保护#VV, 蒜苗#NN)  (mmod, 保护#VV, 能#VV)  (relcl, 癌症#NN, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (conj, 保护#VV, 诱导#VV)  (nn, 毒酶#NN, 肝细胞#NN)  (nn, 毒酶#NN, 脱#NN)  (assmod, 活性#NN, 毒酶#NN)  (case, 毒酶#NN, 的#DEG)  (dobj, 诱导#VV, 活性#NN)  (mmod, 阻断#VV, 可以#VV)  (conj, 保护#VV, 阻断#VV)  (nn, 物质#NN, 亚硝胺#NN)  (nn, 物质#NN, 致癌#NN)  (dobj, 阻断#VV, 物质#NN)  (mark, 保护#VV, 的#DEC)  (nfincl, 癌症#NN, 合成#JJ)  (advmod, 对#VV, 从而#AD)  (dep, 合成#JJ, 对#VV)  (dobj, 对#VV, 预防#NN)  (dep, 有#VE, 癌症#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗癌防癌  抗菌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            青蒜中含有蛋白质、胡萝卜素、硫胺素、核黄素等营养成分。它的辣味主要来自于其含有的辣素，这种辣素具有醒脾气、消积食的作用。
+        </rawdata>
+
+        <segment>
+            青蒜  中  含有  蛋白质  、  胡萝卜素  、  硫胺素  、  核黄素  等  营养  成分  。  它  的  辣味  主要  来自于  其  含有  的  辣素  ，  这  种  辣素  具有  醒  脾气  、  消  积食  的  作用  。
+        </segment>
+
+        <pos>
+            青蒜#NN  中#LC  含有#VV  蛋白质#NR  、#PU  胡萝卜素#NR  、#PU  硫胺素#NR  、#PU  核黄素#NR  等#ETC  营养#VA  成分#NN    。#PU  它#PN  的#DEG  辣味#NN  主要#AD  来自于#VV  其#PN  含有#NN  的#DEG  辣素#NN  ，#PU  这#DT  种#M  辣素#NN  具有#VV  醒#NN  脾气#NN  、#PU  消#NN  积食#NN  的#DEG  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 青蒜#NN)  (case, 青蒜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 核黄素#NR, 蛋白质#NR)  (conj, 核黄素#NR, 胡萝卜素#NR)  (conj, 核黄素#NR, 硫胺素#NR)  (nsubj, 营养#VA, 核黄素#NR)  (etc, 核黄素#NR, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)   (assmod, 辣味#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 来自于#VV, 辣味#NN)  (advmod, 来自于#VV, 主要#AD)  (root, ROOT#null, 来自于#VV)  (nn, 含有#NN, 其#PN)  (assmod, 辣素#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (dobj, 来自于#VV, 辣素#NN)  (det, 辣素#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 具有#VV, 辣素#NN)  (conj, 来自于#VV, 具有#VV)  (nn, 积食#NN, 醒#NN)  (conj, 积食#NN, 脾气#NN)  (nn, 积食#NN, 消#NN)  (assmod, 作用#NN, 积食#NN)  (case, 积食#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.青蒜是煮的时间长了就会软烂的食材，因此只要下锅以大火略炒至蔬菜香气逸出并均匀受热，即可盛出食用，才能品尝到清爽的口感与风味。
+            2.青蒜不宜烹制得过烂，以免辣素被破坏，杀菌作用降低。
+        </rawdata>
+
+        <segment>
+            青蒜  是  煮  的  时间  长了  就  会  软  烂  的  食材  ，  因此  只要  下锅  以  大火  略  炒  至  蔬菜  香气  逸出  并  均匀  受热  ，  即可  盛出  食用  ，  才  能  品尝  到  清爽  的  口感  与  风味  。
+            青蒜  不  宜  烹制  得过烂  ，  以免  辣素  被  破坏  ，  杀菌  作用  降低  。
+        </segment>
+
+        <pos>
+            青蒜#NR  是#VC  煮#VV  的#DEC  时间#NN  长了#VV  就#AD  会#VV  软#JJ  烂#NN  的#DEC  食材#NN  ，#PU  因此#AD  只要#AD  下锅#NN  以#P  大火#NR  略#AD  炒#VV  至#CC  蔬菜#NN  香气#NN  逸出#NN  并#CC  均匀#VA  受热#NN  ，#PU  即可#NN  盛出#NN  食用#VV  ，#PU  才#AD  能#VV  品尝#NR  到#CC  清爽#NR  的#DEG  口感#NN  与#CC  风味#NN  。#PU
+            青蒜#NN  不#AD  宜#NR  烹制#VV  得过烂#NN  ，#PU  以免#VV  辣素#NN  被#SB  破坏#VV  ，#PU  杀菌#NN  作用#NN  降低#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 是#VC, 青蒜#NR)  (root, ROOT#null, 是#VC)  (relcl, 时间#NN, 煮#VV)  (mark, 煮#VV, 的#DEC)  (nsubj, 长了#VV, 时间#NN)  (dep, 是#VC, 长了#VV)  (advmod, 会#VV, 就#AD)  (relcl, 食材#NN, 会#VV)  (amod, 烂#NN, 软#JJ)  (dobj, 会#VV, 烂#NN)  (mark, 会#VV, 的#DEC)  (dobj, 长了#VV, 食材#NN)  (advmod, 炒#VV, 因此#AD)  (advmod, 下锅#NN, 只要#AD)  (nsubj, 炒#VV, 下锅#NN)  (case, 大火#NR, 以#P)  (prep, 炒#VV, 大火#NR)  (advmod, 炒#VV, 略#AD)  (conj, 长了#VV, 炒#VV)  (cc, 长了#VV, 至#CC)  (nn, 逸出#NN, 蔬菜#NN)  (nn, 逸出#NN, 香气#NN)  (dep, 长了#VV, 逸出#NN)  (cc, 长了#VV, 并#CC)  (nfincl, 受热#NN, 均匀#VA)  (dep, 长了#VV, 受热#NN)  (nn, 盛出#NN, 即可#NN)  (nsubj, 食用#VV, 盛出#NN)  (conj, 是#VC, 食用#VV)  (advmod, 能#VV, 才#AD)  (conj, 是#VC, 能#VV)  (conj, 清爽#NR, 品尝#NR)  (cc, 清爽#NR, 到#CC)  (assmod, 风味#NN, 清爽#NR)  (case, 清爽#NR, 的#DEG)  (conj, 风味#NN, 口感#NN)  (cc, 风味#NN, 与#CC)  (dobj, 能#VV, 风味#NN)
+            (nsubj, 烹制#VV, 青蒜#NN)  (neg, 烹制#VV, 不#AD)  (dep, 烹制#VV, 宜#NR)  (root, ROOT#null, 烹制#VV)  (dobj, 烹制#VV, 得过烂#NN)  (conj, 烹制#VV, 以免#VV)  (dobj, 以免#VV, 辣素#NN)  (auxpass, 破坏#VV, 被#SB)  (dep, 以免#VV, 破坏#VV)  (nn, 作用#NN, 杀菌#NN)  (nsubj, 降低#VV, 作用#NN)  (conj, 烹制#VV, 降低#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101320058052.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

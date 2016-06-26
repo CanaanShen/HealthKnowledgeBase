@@ -1,0 +1,426 @@
+<content>
+
+    <id>
+        361
+    </id>
+
+    <foodname>
+        芝麻
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        脂麻、胡麻、白麻、黑芝麻
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有慢性肠炎、便溏腹泻者忌食。
+        </rawdata>
+
+        <segment>
+            患有  慢性  肠炎  、  便溏  腹泻者  忌食  。
+        </segment>
+
+        <pos>
+            患有#NN  慢性#VV  肠炎#NN  、#PU  便溏#NN  腹泻者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 慢性#VV, 患有#NN)  (root, ROOT#null, 慢性#VV)  (conj, 忌食#NN, 肠炎#NN)  (nn, 忌食#NN, 便溏#NN)  (nn, 忌食#NN, 腹泻者#NN)  (dobj, 慢性#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜肝肾不足所致的眩晕、眼花、视物不清、腰酸腿软、耳鸣耳聋、发枯发落、头发早白之人，妇女产后乳汁缺乏者，身体虚弱、贫血、高脂血症、高血压病、老年哮喘、肺结核，以及荨麻疹，习惯性便秘者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  肝肾  不足  所致  的  眩晕  、  眼花  、  视物  不清  、  腰酸  腿  软  、  耳鸣  耳聋  、  发枯  发落  、  头发  早  白  之  人  ，  妇女  产后  乳汁  缺乏  者  ，  身体  虚弱  、  贫血  、  高  脂血症  、  高血压  病  、  老年  哮喘  、  肺结核  ，  以及  荨麻疹  ，  习惯性  便秘  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  肝肾#VV  不足#NN  所致#NN  的#DEG  眩晕#NN  、#PU  眼花#NN  、#PU  视物#NN  不清#NN  、#PU  腰酸#NN  腿#NN  软#JJ  、#PU  耳鸣#NN  耳聋#NN  、#PU  发枯#NN  发落#NN  、#PU  头发#NN  早#AD  白#VA  之#DEC  人#NN  ，#PU  妇女#NN  产后#NN  乳汁#NN  缺乏#VV  者#NN  ，#PU  身体#NN  虚弱#NN  、#PU  贫血#NN  、#PU  高#JJ  脂血症#NN  、#PU  高血压#NN  病#NN  、#PU  老年#NN  哮喘#NN  、#PU  肺结核#NN  ，#PU  以及#CC  荨麻疹#NR  ，#PU  习惯性#VV  便秘#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 肝肾#VV, 尤#NR)  (mmod, 肝肾#VV, 适宜#VV)  (root, ROOT#null, 肝肾#VV)  (nn, 所致#NN, 不足#NN)  (assmod, 腿#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (conj, 腰酸#NN, 眩晕#NN)  (conj, 腰酸#NN, 眼花#NN)  (nn, 腰酸#NN, 视物#NN)  (conj, 腰酸#NN, 不清#NN)  (nn, 腿#NN, 腰酸#NN)  (nn, 荨麻疹#NR, 腿#NN)  (amod, 荨麻疹#NR, 软#JJ)  (nn, 耳聋#NN, 耳鸣#NN)  (conj, 荨麻疹#NR, 耳聋#NN)  (nn, 发落#NN, 发枯#NN)  (conj, 荨麻疹#NR, 发落#NN)  (nsubj, 白#VA, 头发#NN)  (advmod, 白#VA, 早#AD)  (relcl, 人#NN, 白#VA)  (mark, 白#VA, 之#DEC)  (dep, 荨麻疹#NR, 人#NN)  (nn, 乳汁#NN, 妇女#NN)  (nn, 乳汁#NN, 产后#NN)  (nsubj, 缺乏#VV, 乳汁#NN)  (nfincl, 者#NN, 缺乏#VV)  (dep, 荨麻疹#NR, 者#NN)  (nn, 虚弱#NN, 身体#NN)  (conj, 荨麻疹#NR, 虚弱#NN)  (conj, 荨麻疹#NR, 贫血#NN)  (amod, 脂血症#NN, 高#JJ)  (conj, 荨麻疹#NR, 脂血症#NN)  (nn, 病#NN, 高血压#NN)  (conj, 荨麻疹#NR, 病#NN)  (nn, 哮喘#NN, 老年#NN)  (conj, 荨麻疹#NR, 哮喘#NN)  (dep, 荨麻疹#NR, 肺结核#NN)  (cc, 荨麻疹#NR, 以及#CC)  (dobj, 肝肾#VV, 荨麻疹#NR)  (conj, 肝肾#VV, 习惯性#VV)  (nn, 者#NN, 便秘#NN)  (dobj, 习惯性#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                517
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                19.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                37.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.79
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                780
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                516
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                358
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                8.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                290
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                22.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                6.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                17.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                5.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            芝麻原称胡麻，据说可能源于非洲或印度，相传是西汉张骞通西域时引进中国的。但现经科学考证，芝麻原产我国云贵高原。芝麻是我国四大食用油料作物的佼佼者，是我国主要油料作物之一。它的种子含油量高达61%，小磨制成的芝麻油，香气扑鼻，在国际市场上畅销不衰。另外，与之齐名的芝麻酱也供不应求。芝麻花中有蜜腺，它与油菜、荞麦并称为我国三大蜜源作物，品质以芝麻蜜为上乘。
+            芝麻(种子)扁圆，有白、黄、棕红或黑色，以白色的种子含油量较高，黑色的种子入药，味甘性平，有补肝益肾、润燥通便之功。芝麻油中含有大量人体必需的脂肪酸，亚油酸的含量高达43.7%,比菜油、花生油都高。芝麻的茎、叶、花都可以提取芳香油。
+            全株长着茸毛。茎直立，高约1米，下圆上方。总状花序顶生，花单生，或两三朵簇生于叶腋。圆筒状，唇形，淡红、紫、白色。
+        </rawdata>
+
+        <segment>
+            芝麻  原  称  胡麻  ，  据说  可能  源于  非洲  或  印度  ，  相传  是  西汉  张骞通  西域  时  引进  中国  的  。  但  现经  科学  考证  ，  芝麻  原产  我  国  云贵  高原  。  芝麻  是  我  国  四  大  食用  油料  作物  的  佼佼者  ，  是  我  国  主要  油料  作物  之一  。  它  的  种子  含油量  高达  61%  ，  小磨  制成  的  芝麻油  ，  香气  扑鼻  ，  在  国际  市场  上  畅销  不衰  。  另外  ，  与  之  齐名  的  芝麻酱  也  供不应求  。  芝麻  花  中  有  蜜腺  ，  它  与  油菜  、  荞麦  并称  为  我  国  三大  蜜源  作物  ，  品质  以  芝麻蜜  为  上乘  。
+            芝麻  (  种子  )  扁圆  ，  有  白  、  黄  、  棕红  或  黑色  ，  以  白色  的  种子  含油量  较  高  ，  黑色  的  种子  入药  ，  味甘性平  ，  有  补肝  益  肾  、  润燥  通便  之功  。  芝麻油  中  含有  大量  人体  必需  的  脂肪酸  ，  亚油酸  的  含量  高达  .7%  ,  比  菜油  、  花生油  都  高  。  芝麻  的  茎  、  叶  、  花都  可以  提取  芳香油  。
+            全  株  长着  茸毛  。  茎  直立  ，  高  约  1  米  ，  下  圆  上方  。  总状花序  顶生  ，  花  单生  ，  或  两  三  朵  簇生  于  叶腋  。  圆筒状  ，  唇形  ，  淡红  、  紫  、  白色  。
+        </segment>
+
+        <pos>
+            芝麻#NR  原#AD  称#VV  胡麻#NN  ，#PU  据说#AD  可能#VV  源于#VV  非洲#NR  或#CC  印度#NR  ，#PU  相传#AD  是#VC  西汉#VV  张骞通#NN  西域#NN  时#LC  引进#VV  中国#NR  的#DEC    。#PU  但#AD  现经#NN  科学#NN  考证#NN  ，#PU  芝麻#NN  原产#NN  我#PN  国#NN  云贵#VV  高原#NN    。#PU  芝麻#AD  是#VC  我#PN  国#NN  四#CD  大#JJ  食用#VV  油料#NN  作物#NN  的#DEC  佼佼者#NN  ，#PU  是#VC  我#PN  国#NN  主要#JJ  油料#NN  作物#NN  之一#NN    。#PU  它#PN  的#DEG  种子#NN  含油量#AD  高达#VV  61#CD  %#NN  ，#PU  小磨#VV  制成#VV  的#DEC  芝麻油#NN  ，#PU  香气#VV  扑鼻#NN  ，#PU  在#P  国际#NN  市场#NN  上#LC  畅销#VV  不衰#NN    。#PU  另外#AD  ，#PU  与#P  之#PN  齐名#NN  的#DEG  芝麻酱#NN  也#AD  供不应求#VV    。#PU  芝麻#NN  花#NN  中#LC  有#VE  蜜腺#NN  ，#PU  它#PN  与#P  油菜#NR  、#PU  荞麦#NR  并称#NN  为#VV  我#PN  国#NN  三大#CD  蜜源#NN  作物#NN  ，#PU  品质#NN  以#P  芝麻蜜#NN  为#VV  上乘#VA    。#PU    。#PU
+            芝麻#NN  -LRB-#NN  种子#NN  -RRB-#NN  扁圆#VV  ，#PU  有#VE  白#JJ  、#PU  黄#JJ  、#PU  棕红#JJ  或#CC  黑色#JJ  ，#PU  以#P  白色#JJ  的#DEG  种子#NN  含油量#NN  较#AD  高#VA  ，#PU  黑色#JJ  的#DEG  种子#NN  入药#NN  ，#PU  味甘性平#NN  ，#PU  有#VE  补肝#NN  益#VV  肾#NN  、#PU  润燥#NN  通便#NN  之功#NN    。#PU  芝麻油#NN  中#LC  含有#NN  大量#AD  人体#VV  必需#VV  的#DEC  脂肪酸#NN  ，#PU  亚油酸#NN  的#DEG  含量#NN  高达#VV  .7#CD  %#NN  ,#NN  比#P  菜油#NN  、#PU  花生油#NN  都#AD  高#VA    。#PU  芝麻#NN  的#DEG  茎#NR  、#PU  叶#NR  、#PU  花都#NR  可以#VV  提取#VV  芳香油#NN    。#PU    。#PU
+            全#DT  株#M  长着#NN  茸毛#VV    。#PU  茎#NR  直立#VV  ，#PU  高#VA  约#AD  1#CD  米#M  ，#PU  下#VV  圆#VV  上方#NN    。#PU  总状花序#NR  顶生#VV  ，#PU  花#NN  单生#VV  ，#PU  或#CC  两#CD  三#CD  朵#M  簇生#VV  于#P  叶腋#NN    。#PU  圆筒状#VV  ，#PU  唇形#VV  ，#PU  淡红#VA  、#PU  紫#VA  、#PU  白色#JJ    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 芝麻#NR)  (advmod, 称#VV, 原#AD)  (root, ROOT#null, 称#VV)  (nsubj, 引进#VV, 胡麻#NN)  (advmod, 引进#VV, 据说#AD)  (mmod, 源于#VV, 可能#VV)  (dep, 引进#VV, 源于#VV)  (conj, 印度#NR, 非洲#NR)  (cc, 印度#NR, 或#CC)  (dobj, 源于#VV, 印度#NR)  (advmod, 引进#VV, 相传#AD)  (cop, 引进#VV, 是#VC)  (loc, 引进#VV, 西汉#VV)  (nn, 西域#NN, 张骞通#NN)  (dobj, 西汉#VV, 西域#NN)  (case, 西汉#VV, 时#LC)  (ccomp, 称#VV, 引进#VV)  (dobj, 引进#VV, 中国#NR)  (mark, 引进#VV, 的#DEC)   (advmod, 云贵#VV, 但#AD)  (nn, 考证#NN, 现经#NN)  (nn, 考证#NN, 科学#NN)  (nsubj, 云贵#VV, 考证#NN)  (nn, 原产#NN, 芝麻#NN)  (nsubj, 云贵#VV, 原产#NN)  (nn, 国#NN, 我#PN)  (nsubj, 云贵#VV, 国#NN)  (root, ROOT#null, 云贵#VV)  (dobj, 云贵#VV, 高原#NN)   (advmod, 佼佼者#NN, 芝麻#AD)  (cop, 佼佼者#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 佼佼者#NN, 国#NN)  (nummod, 佼佼者#NN, 四#CD)  (amod, 佼佼者#NN, 大#JJ)  (relcl, 国#NN, 食用#VV)  (relcl, 佼佼者#NN, 食用#VV)  (nn, 作物#NN, 油料#NN)  (dobj, 食用#VV, 作物#NN)  (mark, 食用#VV, 的#DEC)  (root, ROOT#null, 佼佼者#NN)  (cop, 之一#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 之一#NN, 国#NN)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 油料#NN)  (nn, 之一#NN, 作物#NN)  (dep, 佼佼者#NN, 之一#NN)   (assmod, 种子#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 高达#VV, 种子#NN)  (advmod, 高达#VV, 含油量#AD)  (root, ROOT#null, 高达#VV)  (nummod, %#NN, 61#CD)  (dobj, 高达#VV, %#NN)  (conj, 高达#VV, 小磨#VV)  (relcl, 芝麻油#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (dobj, 小磨#VV, 芝麻油#NN)  (conj, 高达#VV, 香气#VV)  (dobj, 香气#VV, 扑鼻#NN)  (case, 市场#NN, 在#P)  (nn, 市场#NN, 国际#NN)  (prep, 畅销#VV, 市场#NN)  (case, 市场#NN, 上#LC)  (conj, 高达#VV, 畅销#VV)  (dobj, 畅销#VV, 不衰#NN)   (advmod, 供不应求#VV, 另外#AD)  (case, 之#PN, 与#P)  (prep, 供不应求#VV, 之#PN)  (assmod, 芝麻酱#NN, 齐名#NN)  (case, 齐名#NN, 的#DEG)  (nsubj, 供不应求#VV, 芝麻酱#NN)  (advmod, 供不应求#VV, 也#AD)  (root, ROOT#null, 供不应求#VV)   (nsubj, 有#VE, 芝麻#NN)  (loc, 有#VE, 花#NN)  (case, 花#NN, 中#LC)  (root, ROOT#null, 有#VE)  (nsubj, 为#VV, 蜜腺#NN)  (nsubj, 为#VV, 它#PN)  (case, 并称#NN, 与#P)  (conj, 荞麦#NR, 油菜#NR)  (nn, 并称#NN, 荞麦#NR)  (prep, 为#VV, 并称#NN)  (dep, 有#VE, 为#VV)  (nn, 国#NN, 我#PN)  (nn, 蜜源#NN, 国#NN)  (nummod, 蜜源#NN, 三大#CD)  (nn, 作物#NN, 蜜源#NN)  (dobj, 为#VV, 作物#NN)  (nsubj, 为#VV, 品质#NN)  (case, 芝麻蜜#NN, 以#P)  (prep, 为#VV, 芝麻蜜#NN)  (conj, 为#VV, 为#VV)  (dep, 有#VE, 上乘#VA)   (root, ROOT#null, null#null)
+            (nn, -RRB-#NN, 芝麻#NN)  (nn, -RRB-#NN, 种子#NN)  (root, ROOT#null, 扁圆#VV)  (ccomp, 扁圆#VV, 有#VE)  (nfincl, 之功#NN, 白#JJ)  (conj, 白#JJ, 黄#JJ)  (conj, 白#JJ, 棕红#JJ)  (cc, 白#JJ, 或#CC)  (dep, 白#JJ, 黑色#JJ)  (case, 高#VA, 以#P)  (assmod, 含油量#NN, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (nn, 含油量#NN, 种子#NN)  (nsubj, 高#VA, 含油量#NN)  (advmod, 高#VA, 较#AD)  (prep, 益#VV, 高#VA)  (assmod, 入药#NN, 黑色#JJ)  (case, 黑色#JJ, 的#DEG)  (nn, 入药#NN, 种子#NN)  (dep, 有#VE, 入药#NN)  (dep, 有#VE, 味甘性平#NN)  (conj, 高#VA, 有#VE)  (dobj, 有#VE, 补肝#NN)  (dep, 白#JJ, 益#VV)  (conj, 通便#NN, 肾#NN)  (nn, 通便#NN, 润燥#NN)  (dobj, 益#VV, 通便#NN)  (dobj, 有#VE, 之功#NN)   (loc, 人体#VV, 芝麻油#NN)  (case, 芝麻油#NN, 中#LC)  (nsubj, 人体#VV, 含有#NN)  (advmod, 人体#VV, 大量#AD)  (root, ROOT#null, 人体#VV)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 人体#VV, 脂肪酸#NN)  (assmod, 含量#NN, 亚油酸#NN)  (case, 亚油酸#NN, 的#DEG)  (nsubj, 高达#VV, 含量#NN)  (conj, 人体#VV, 高达#VV)  (range, 高达#VV, .7#CD)  (nn, ,#NN, %#NN)  (case, 花生油#NN, 比#P)  (conj, 花生油#NN, 菜油#NN)  (prep, 高#VA, 花生油#NN)  (advmod, 高#VA, 都#AD)  (dep, 人体#VV, 高#VA)   (assmod, 花都#NR, 芝麻#NN)  (case, 芝麻#NN, 的#DEG)  (conj, 花都#NR, 茎#NR)  (conj, 花都#NR, 叶#NR)  (nsubj, 提取#VV, 花都#NR)  (mmod, 提取#VV, 可以#VV)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 芳香油#NN)   (root, ROOT#null, null#null)
+            (det, 长着#NN, 全#DT)  (clf, 全#DT, 株#M)  (nsubj, 茸毛#VV, 长着#NN)  (root, ROOT#null, 茸毛#VV)   (nsubj, 直立#VV, 茎#NR)  (xsubj, 圆#VV, 茎#NR)  (root, ROOT#null, 直立#VV)  (dep, 圆#VV, 高#VA)  (advmod, 米#M, 约#AD)  (nummod, 米#M, 1#CD)  (dep, 高#VA, 米#M)  (mmod, 圆#VV, 下#VV)  (ccomp, 直立#VV, 圆#VV)  (dobj, 圆#VV, 上方#NN)   (nsubj, 顶生#VV, 总状花序#NR)  (root, ROOT#null, 顶生#VV)  (nsubj, 单生#VV, 花#NN)  (ccomp, 顶生#VV, 单生#VV)  (cc, 单生#VV, 或#CC)  (dep, 朵#M, 两#CD)  (nummod, 朵#M, 三#CD)  (nsubj, 簇生#VV, 朵#M)  (conj, 单生#VV, 簇生#VV)  (case, 叶腋#NN, 于#P)  (prep, 簇生#VV, 叶腋#NN)   (root, ROOT#null, 圆筒状#VV)  (dep, 圆筒状#VV, 唇形#VV)  (conj, 圆筒状#VV, 淡红#VA)  (dep, 淡红#VA, 紫#VA)  (dep, 圆筒状#VV, 白色#JJ)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平。能补肝肾，益精血，润肠燥。用于肝肾虚损，精血不足，须发早白，眩晕耳鸣，腰膝酸软，四肢无力；产后血虚，乳汁不足；血虚津亏，肠燥便秘等。
+            1.防治皮肤炎症
+            芝麻能防止过氧化脂质对皮肤的危害，抵消或中和细胞内有害物质游离基的积聚，可使皮肤白皙润泽，并能防治各种皮肤炎症。
+            2.养血护肤
+            芝麻还具有养血的功效，可以治疗皮肤干枯、粗糙、令皮肤细腻光滑、红润光泽。
+            3.滋补养生
+            黑芝麻是滋补强壮剂，能够补班、养发、生津、通乳、润肠，适用于身体虚弱、头发早白、贫血萎黄、津液不足、头晕耳鸣等症。
+            4.通便
+            因芝麻含脂肪甚多，故能润肠通便，对肠液减少引起的便秘，单独应用即有效验。
+            5.促进骨骼发育
+            芝麻酱中含钙量比蔬菜和豆类都高，仅次于虾皮，经常食用对骨骼、牙齿的发育都大有益处。
+            6.延年益寿
+            可强壮身体、益寿延年、滋补肝肾、润养脾肺。
+            7.预防高血压
+            芝麻中人体必需脂肪酸含量很高，日本人喜欢把黑芝麻和胡萝卜放在一起制成黑芝麻胡萝卜酱。这样，胡萝卜中的β胡萝卜素就很容易被人体吸收了，每天吃上三勺，预防高血压的效果很好。
+            8.护发
+            它们有帮助消化、维护皮肤健康、头发健康等功效。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  。  能  补肝  肾  ，  益  精血  ，  润肠燥  。  用于  肝肾  虚损  ，  精血  不足  ，  须发  早白  ，  眩晕  耳鸣  ，  腰膝  酸软  ，  四  肢  无力  ；  产后  血虚  ，  乳汁  不足  ；  血虚  津亏  ，  肠燥  便秘  等  。
+            防治  皮肤  炎症
+            芝麻  能  防止  过  氧化  脂质  对  皮肤  的  危害  ，  抵消  或  中和  细胞内  有害  物质  游离  基  的  积聚  ，  可使  皮肤  白皙  润泽  ，  并能  防治  各  种  皮肤  炎症  。
+            养  血  护肤
+            芝麻  还  具有  养  血  的  功效  ，  可以  治疗  皮肤  干枯  、  粗糙  、  令  皮肤  细腻  光滑  、  红润  光泽  。
+            滋补  养生
+            黑芝麻  是  滋补  强壮剂  ，  能够  补班  、  养发  、  生津  、  通乳  、  润肠  ，  适用于  身体  虚弱  、  头发  早白  、  贫血  萎黄  、  津液  不足  、  头晕  耳鸣  等症  。
+            通便
+            因  芝麻  含  脂肪  甚多  ，  故  能  润肠  通便  ，  对  肠液  减少  引起  的  便秘  ，  单独  应用  即有  效验  。
+            促进  骨骼  发育
+            芝麻酱  中  含钙  量比  蔬菜  和  豆类  都  高  ，  仅次于  虾皮  ，  经常  食用  对  骨骼  、  牙齿  的  发育  都  大有益处  。
+            延年益寿
+            可  强壮  身体  、  益寿  延年  、  滋补  肝肾  、  润养脾肺  。
+            预防  高血压
+            芝麻  中人  体  必需  脂肪酸  含量  很  高  ，  日本人  喜欢  把  黑芝麻  和  胡萝卜  放在  一起  制成  黑芝麻  胡萝卜  酱  。  这样  ，  胡萝卜  中  的  β  胡萝卜素  就  很  容易  被  人体  吸收  了  ，  每  天  吃上  三  勺  ，  预防  高血压  的  效果  很  好  。
+            护发
+            它们  有  帮助  消化  、  维护  皮肤  健康  、  头发  健康  等  功效  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV    。#PU  能#VV  补肝#VV  肾#NN  ，#PU  益#VV  精血#NN  ，#PU  润肠燥#VV    。#PU  用于#VV  肝肾#NN  虚损#NN  ，#PU  精血#VV  不足#NN  ，#PU  须发#VV  早白#NN  ，#PU  眩晕#VV  耳鸣#NN  ，#PU  腰膝#VV  酸软#NN  ，#PU  四#CD  肢#AD  无力#VV  ；#PU  产后#VV  血虚#NN  ，#PU  乳汁#AD  不足#VA  ；#PU  血虚#VV  津亏#NN  ，#PU  肠燥#VV  便秘#NN  等#ETC    。#PU    。#PU
+            防治#NN  皮肤#NN  炎症#NN
+            芝麻#VV  能#VV  防止#VV  过#AS  氧化#NN  脂质#VV  对#P  皮肤#NN  的#DEG  危害#NN  ，#PU  抵消#NN  或#CC  中和#NN  细胞内#NN  有害#NN  物质#NN  游离#VV  基#NN  的#DEC  积聚#NN  ，#PU  可使#VV  皮肤#NN  白皙#NN  润泽#NN  ，#PU  并能#AD  防治#VV  各#DT  种#M  皮肤#NN  炎症#NN  。#PU
+            养#VV  血#NN  护肤#NN
+            芝麻#NN  还#AD  具有#VV  养#VV  血#NN  的#DEC  功效#NN  ，#PU  可以#VV  治疗#VV  皮肤#NN  干枯#NN  、#PU  粗糙#NN  、#PU  令#VV  皮肤#NN  细腻#VV  光滑#NN  、#PU  红润#NN  光泽#NN  。#PU
+            滋补#NN  养生#VV
+            黑芝麻#NN  是#VC  滋补#NN  强壮剂#NN  ，#PU  能够#VV  补班#NR  、#PU  养发#NR  、#PU  生津#NR  、#PU  通乳#NR  、#PU  润肠#NR  ，#PU  适用于#VV  身体#NN  虚弱#NN  、#PU  头发#NN  早白#NN  、#PU  贫血#NN  萎黄#NN  、#PU  津液#NN  不足#NN  、#PU  头晕#NN  耳鸣#NN  等症#NN  。#PU
+            通便#VV
+            因#P  芝麻#NN  含#VV  脂肪#NN  甚多#NN  ，#PU  故#AD  能#VV  润肠#VV  通便#NN  ，#PU  对#P  肠液#NN  减少#VV  引起#VV  的#DEC  便秘#NN  ，#PU  单独#AD  应用#VV  即有#NN  效验#NN  。#PU
+            促进#VV  骨骼#NN  发育#NN
+            芝麻酱#NN  中#LC  含钙#NN  量比#NN  蔬菜#NN  和#CC  豆类#NN  都#AD  高#VA  ，#PU  仅次于#NN  虾皮#NN  ，#PU  经常#AD  食用#VV  对#P  骨骼#NN  、#PU  牙齿#NN  的#DEC  发育#NN  都#AD  大有益处#VA  。#PU
+            延年益寿#VV
+            可#VV  强壮#VV  身体#NN  、#PU  益寿#NN  延年#NN  、#PU  滋补#NN  肝肾#NN  、#PU  润养脾肺#NN  。#PU
+            预防#NN  高血压#VV
+            芝麻#NN  中人#NN  体#AD  必需#VV  脂肪酸#NN  含量#NN  很#AD  高#VA  ，#PU  日本人#NN  喜欢#VV  把#BA  黑芝麻#NN  和#CC  胡萝卜#NN  放在#NN  一起#AD  制成#VV  黑芝麻#NN  胡萝卜#NN  酱#NN    。#PU  这样#AD  ，#PU  胡萝卜#NN  中#LC  的#DEG  β#NN  胡萝卜素#NN  就#AD  很#AD  容易#VA  被#SB  人体#VV  吸收#VV  了#AS  ，#PU  每#DT  天#M  吃上#VV  三#CD  勺#NN  ，#PU  预防#VV  高血压#NN  的#DEC  效果#NN  很#AD  好#VA    。#PU    。#PU
+            护发#VV
+            它们#PN  有#VE  帮助#NN  消化#NN  、#PU  维护#VV  皮肤#NN  健康#NN  、#PU  头发#NN  健康#NN  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性平#VV)   (mmod, 补肝#VV, 能#VV)  (root, ROOT#null, 补肝#VV)  (dobj, 补肝#VV, 肾#NN)  (conj, 补肝#VV, 益#VV)  (dobj, 益#VV, 精血#NN)  (conj, 补肝#VV, 润肠燥#VV)   (root, ROOT#null, 用于#VV)  (nn, 虚损#NN, 肝肾#NN)  (dobj, 用于#VV, 虚损#NN)  (conj, 用于#VV, 精血#VV)  (dobj, 精血#VV, 不足#NN)  (conj, 精血#VV, 须发#VV)  (dobj, 须发#VV, 早白#NN)  (conj, 精血#VV, 眩晕#VV)  (dobj, 眩晕#VV, 耳鸣#NN)  (conj, 精血#VV, 腰膝#VV)  (dobj, 腰膝#VV, 酸软#NN)  (dep, 无力#VV, 四#CD)  (advmod, 无力#VV, 肢#AD)  (conj, 精血#VV, 无力#VV)  (conj, 精血#VV, 产后#VV)  (dobj, 产后#VV, 血虚#NN)  (advmod, 不足#VA, 乳汁#AD)  (conj, 产后#VV, 不足#VA)  (conj, 精血#VV, 血虚#VV)  (dobj, 血虚#VV, 津亏#NN)  (conj, 精血#VV, 肠燥#VV)  (dobj, 肠燥#VV, 便秘#NN)  (etc, 便秘#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nn, 炎症#NN, 防治#NN)  (nn, 炎症#NN, 皮肤#NN)  (root, ROOT#null, 炎症#NN)
+            (root, ROOT#null, 芝麻#VV)  (mmod, 防止#VV, 能#VV)  (relcl, 积聚#NN, 防止#VV)  (asp, 防止#VV, 过#AS)  (nsubj, 脂质#VV, 氧化#NN)  (ccomp, 防止#VV, 脂质#VV)  (case, 皮肤#NN, 对#P)  (assmod, 危害#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (dobj, 脂质#VV, 危害#NN)  (conj, 中和#NN, 抵消#NN)  (cc, 中和#NN, 或#CC)  (nn, 物质#NN, 中和#NN)  (nn, 物质#NN, 细胞内#NN)  (nn, 物质#NN, 有害#NN)  (nsubj, 游离#VV, 物质#NN)  (conj, 脂质#VV, 游离#VV)  (dobj, 游离#VV, 基#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 芝麻#VV, 积聚#NN)  (conj, 芝麻#VV, 可使#VV)  (nn, 润泽#NN, 皮肤#NN)  (nn, 润泽#NN, 白皙#NN)  (dobj, 可使#VV, 润泽#NN)  (advmod, 防治#VV, 并能#AD)  (conj, 芝麻#VV, 防治#VV)  (det, 皮肤#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 炎症#NN, 皮肤#NN)  (dobj, 防治#VV, 炎症#NN)
+            (root, ROOT#null, 养#VV)  (nn, 护肤#NN, 血#NN)  (dobj, 养#VV, 护肤#NN)
+            (nsubj, 具有#VV, 芝麻#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 养#VV)  (dobj, 养#VV, 血#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (mmod, 治疗#VV, 可以#VV)  (conj, 具有#VV, 治疗#VV)  (nn, 粗糙#NN, 皮肤#NN)  (conj, 粗糙#NN, 干枯#NN)  (dobj, 治疗#VV, 粗糙#NN)  (dep, 治疗#VV, 令#VV)  (dobj, 令#VV, 皮肤#NN)  (dep, 令#VV, 细腻#VV)  (conj, 光泽#NN, 光滑#NN)  (nn, 光泽#NN, 红润#NN)  (dobj, 细腻#VV, 光泽#NN)
+            (nsubj, 养生#VV, 滋补#NN)  (root, ROOT#null, 养生#VV)
+            (nsubj, 强壮剂#NN, 黑芝麻#NN)  (cop, 强壮剂#NN, 是#VC)  (nn, 强壮剂#NN, 滋补#NN)  (root, ROOT#null, 强壮剂#NN)  (conj, 强壮剂#NN, 能够#VV)  (conj, 润肠#NR, 补班#NR)  (conj, 润肠#NR, 养发#NR)  (conj, 润肠#NR, 生津#NR)  (conj, 润肠#NR, 通乳#NR)  (dobj, 能够#VV, 润肠#NR)  (conj, 强壮剂#NN, 适用于#VV)  (nn, 等症#NN, 身体#NN)  (conj, 等症#NN, 虚弱#NN)  (nn, 等症#NN, 头发#NN)  (conj, 等症#NN, 早白#NN)  (nn, 等症#NN, 贫血#NN)  (conj, 等症#NN, 萎黄#NN)  (nn, 等症#NN, 津液#NN)  (conj, 等症#NN, 不足#NN)  (nn, 等症#NN, 头晕#NN)  (nn, 等症#NN, 耳鸣#NN)  (dobj, 适用于#VV, 等症#NN)
+            (root, ROOT#null, 通便#VV)
+            (case, 含#VV, 因#P)  (nsubj, 含#VV, 芝麻#NN)  (prep, 润肠#VV, 含#VV)  (nn, 甚多#NN, 脂肪#NN)  (dobj, 含#VV, 甚多#NN)  (advmod, 润肠#VV, 故#AD)  (mmod, 润肠#VV, 能#VV)  (root, ROOT#null, 润肠#VV)  (dobj, 润肠#VV, 通便#NN)  (case, 肠液#NN, 对#P)  (prep, 减少#VV, 肠液#NN)  (dep, 润肠#VV, 减少#VV)  (relcl, 便秘#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (dobj, 减少#VV, 便秘#NN)  (advmod, 应用#VV, 单独#AD)  (dep, 润肠#VV, 应用#VV)  (nn, 效验#NN, 即有#NN)  (dobj, 应用#VV, 效验#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)
+            (loc, 高#VA, 芝麻酱#NN)  (case, 芝麻酱#NN, 中#LC)  (nn, 量比#NN, 含钙#NN)  (nn, 豆类#NN, 量比#NN)  (conj, 豆类#NN, 蔬菜#NN)  (cc, 豆类#NN, 和#CC)  (nsubj, 高#VA, 豆类#NN)  (advmod, 高#VA, 都#AD)  (root, ROOT#null, 高#VA)  (nn, 虾皮#NN, 仅次于#NN)  (nsubj, 大有益处#VA, 虾皮#NN)  (advmod, 食用#VV, 经常#AD)  (relcl, 发育#NN, 食用#VV)  (case, 牙齿#NN, 对#P)  (conj, 牙齿#NN, 骨骼#NN)  (prep, 食用#VV, 牙齿#NN)  (mark, 食用#VV, 的#DEC)  (nsubj, 大有益处#VA, 发育#NN)  (advmod, 大有益处#VA, 都#AD)  (conj, 高#VA, 大有益处#VA)
+            (root, ROOT#null, 延年益寿#VV)
+            (mmod, 强壮#VV, 可#VV)  (root, ROOT#null, 强壮#VV)  (conj, 润养脾肺#NN, 身体#NN)  (nn, 润养脾肺#NN, 益寿#NN)  (conj, 润养脾肺#NN, 延年#NN)  (nn, 润养脾肺#NN, 滋补#NN)  (conj, 润养脾肺#NN, 肝肾#NN)  (dobj, 强壮#VV, 润养脾肺#NN)
+            (nsubj, 高血压#VV, 预防#NN)  (root, ROOT#null, 高血压#VV)
+            (nn, 中人#NN, 芝麻#NN)  (nsubj, 必需#VV, 中人#NN)  (advmod, 必需#VV, 体#AD)  (root, ROOT#null, 必需#VV)  (nn, 含量#NN, 脂肪酸#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 必需#VV, 高#VA)  (nsubj, 喜欢#VV, 日本人#NN)  (conj, 高#VA, 喜欢#VV)  (ba, 制成#VV, 把#BA)  (conj, 胡萝卜#NN, 黑芝麻#NN)  (cc, 胡萝卜#NN, 和#CC)  (nn, 放在#NN, 胡萝卜#NN)  (nsubj, 制成#VV, 放在#NN)  (advmod, 制成#VV, 一起#AD)  (ccomp, 喜欢#VV, 制成#VV)  (nn, 酱#NN, 黑芝麻#NN)  (nn, 酱#NN, 胡萝卜#NN)  (dobj, 制成#VV, 酱#NN)   (advmod, 容易#VA, 这样#AD)  (assmod, 胡萝卜素#NN, 胡萝卜#NN)  (case, 胡萝卜#NN, 中#LC)  (case, 胡萝卜#NN, 的#DEG)  (nn, 胡萝卜素#NN, β#NN)  (nsubj, 容易#VA, 胡萝卜素#NN)  (advmod, 容易#VA, 就#AD)  (advmod, 容易#VA, 很#AD)  (root, ROOT#null, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (relcl, 效果#NN, 吸收#VV)  (asp, 吸收#VV, 了#AS)  (dep, 吃上#VV, 每#DT)  (clf, 每#DT, 天#M)  (conj, 吸收#VV, 吃上#VV)  (nummod, 勺#NN, 三#CD)  (dobj, 吃上#VV, 勺#NN)  (dep, 吸收#VV, 预防#VV)  (dobj, 预防#VV, 高血压#NN)  (mark, 吸收#VV, 的#DEC)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 很#AD)  (conj, 容易#VA, 好#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 护发#VV)
+            (nsubj, 有#VE, 它们#PN)  (root, ROOT#null, 有#VE)  (nn, 消化#NN, 帮助#NN)  (dobj, 有#VE, 消化#NN)  (conj, 有#VE, 维护#VV)  (nn, 健康#NN, 皮肤#NN)  (conj, 健康#NN, 健康#NN)  (nn, 健康#NN, 头发#NN)  (nn, 功效#NN, 健康#NN)  (etc, 健康#NN, 等#ETC)  (dobj, 维护#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.含大量脂肪油，其中主要为油酸、亚油酸、棕榈酸、花生酸等的甘油脂；又含甾醇、芝麻素、芝麻酚、维生素E、叶酸、烟酸、蔗糖、卵磷脂、蛋白质和多量的钙。特别是它的“亚麻仁油酸”成份，可去除附在血管壁上的胆固醇。
+            2.芝麻中含有丰富的维生素B族，适合长期素食者。
+        </rawdata>
+
+        <segment>
+            含  大量  脂肪  油  ，  其中  主要  为  油酸  、  亚油酸  、  棕榈  酸  、  花生  酸  等  的  甘油脂  ；  又  含  甾醇  、  芝麻素  、  芝麻酚  、  维生素E  、  叶酸  、  烟酸  、  蔗糖  、  卵磷脂  、  蛋白质  和  多量  的  钙  。  特别是  它  的  “  亚麻仁  油  酸  ”  成份  ，  可  去除  附在  血管  壁上  的  胆固醇  。
+            芝麻  中  含有  丰富  的  维生素  B  族  ，  适合  长期  素食者  。
+        </segment>
+
+        <pos>
+            含#VV  大量#AD  脂肪#VV  油#NN  ，#PU  其中#NN  主要#AD  为#VC  油酸#NR  、#PU  亚油酸#NR  、#PU  棕榈#NR  酸#NN  、#PU  花生#NN  酸#NN  等#ETC  的#DEG  甘油脂#NN  ；#PU  又#AD  含#VV  甾醇#NR  、#PU  芝麻素#NR  、#PU  芝麻酚#NR  、#PU  维生素E#NR  、#PU  叶酸#NR  、#PU  烟酸#NR  、#PU  蔗糖#NR  、#PU  卵磷脂#NR  、#PU  蛋白质#NR  和#CC  多量#NR  的#DEC  钙#NN    。#PU  特别是#AD  它#PN  的#DEG  ``#NN  亚麻仁#VV  油#NN  酸#NN  ''#NN  成份#NN  ，#PU  可#VV  去除#VV  附在#NN  血管#NN  壁上#NN  的#DEG  胆固醇#NN    。#PU    。#PU
+            芝麻#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素#NN  B#VV  族#NN  ，#PU  适合#VV  长期#JJ  素食者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (advmod, 脂肪#VV, 大量#AD)  (relcl, 钙#NN, 脂肪#VV)  (dobj, 脂肪#VV, 油#NN)  (nsubj, 甘油脂#NN, 其中#NN)  (advmod, 甘油脂#NN, 主要#AD)  (cop, 甘油脂#NN, 为#VC)  (conj, 棕榈#NR, 油酸#NR)  (conj, 棕榈#NR, 亚油酸#NR)  (nn, 酸#NN, 棕榈#NR)  (conj, 酸#NN, 酸#NN)  (nn, 酸#NN, 花生#NN)  (assmod, 甘油脂#NN, 酸#NN)  (etc, 酸#NN, 等#ETC)  (case, 酸#NN, 的#DEG)  (dep, 脂肪#VV, 甘油脂#NN)  (advmod, 含#VV, 又#AD)  (dep, 甘油脂#NN, 含#VV)  (conj, 多量#NR, 甾醇#NR)  (conj, 多量#NR, 芝麻素#NR)  (conj, 多量#NR, 芝麻酚#NR)  (conj, 多量#NR, 维生素E#NR)  (conj, 多量#NR, 叶酸#NR)  (conj, 多量#NR, 烟酸#NR)  (conj, 多量#NR, 蔗糖#NR)  (conj, 多量#NR, 卵磷脂#NR)  (conj, 多量#NR, 蛋白质#NR)  (cc, 多量#NR, 和#CC)  (dobj, 含#VV, 多量#NR)  (mark, 脂肪#VV, 的#DEC)  (dobj, 含#VV, 钙#NN)   (advmod, 亚麻仁#VV, 特别是#AD)  (assmod, ``#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 亚麻仁#VV, ``#NN)  (conj, 去除#VV, 亚麻仁#VV)  (nn, 成份#NN, 油#NN)  (nn, 成份#NN, 酸#NN)  (nn, 成份#NN, ''#NN)  (dobj, 亚麻仁#VV, 成份#NN)  (conj, 亚麻仁#VV, 可#VV)  (root, ROOT#null, 去除#VV)  (nn, 壁上#NN, 附在#NN)  (nn, 壁上#NN, 血管#NN)  (assmod, 胆固醇#NN, 壁上#NN)  (case, 壁上#NN, 的#DEG)  (dobj, 去除#VV, 胆固醇#NN)   (root, ROOT#null, null#null)
+            (loc, 丰富#VA, 芝麻#NN)  (case, 芝麻#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (dobj, B#VV, 族#NN)  (conj, B#VV, 适合#VV)  (amod, 素食者#NN, 长期#JJ)  (dobj, 适合#VV, 素食者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            芝麻可榨制香油（麻油），供食用或制糕点；种子去皮称麻仁，烹饪上多用作辅料。炒制时千万不要炒糊。
+        </rawdata>
+
+        <segment>
+            芝麻  可  榨制  香油  （  麻油  ）  ，  供  食用  或  制  糕点  ；  种子  去皮  称  麻仁  ，  烹饪  上  多  用作  辅料  。  炒制  时  千万  不  要  炒糊  。
+        </segment>
+
+        <pos>
+            芝麻#NN  可#VV  榨制#VV  香油#NN  （#PU  麻油#NN  ）#PU  ，#PU  供#NN  食用#VV  或#CC  制#VV  糕点#NN  ；#PU  种子#NN  去皮#NN  称#VV  麻仁#NN  ，#PU  烹饪#NN  上#LC  多#AD  用作#VV  辅料#NN    。#PU  炒制#NN  时#LC  千万#CD  不#AD  要#VV  炒糊#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 榨制#VV, 芝麻#NN)  (mmod, 榨制#VV, 可#VV)  (root, ROOT#null, 榨制#VV)  (dobj, 榨制#VV, 香油#NN)  (dep, 榨制#VV, 麻油#NN)  (nsubj, 食用#VV, 供#NN)  (conj, 榨制#VV, 食用#VV)  (cc, 食用#VV, 或#CC)  (dep, 食用#VV, 制#VV)  (dobj, 制#VV, 糕点#NN)  (nn, 去皮#NN, 种子#NN)  (nsubj, 称#VV, 去皮#NN)  (conj, 榨制#VV, 称#VV)  (dobj, 称#VV, 麻仁#NN)  (loc, 用作#VV, 烹饪#NN)  (case, 烹饪#NN, 上#LC)  (advmod, 用作#VV, 多#AD)  (conj, 榨制#VV, 用作#VV)  (dobj, 用作#VV, 辅料#NN)   (loc, 要#VV, 炒制#NN)  (case, 炒制#NN, 时#LC)  (nsubj, 要#VV, 千万#CD)  (neg, 要#VV, 不#AD)  (dep, 炒糊#VV, 要#VV)  (root, ROOT#null, 炒糊#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101430367638.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

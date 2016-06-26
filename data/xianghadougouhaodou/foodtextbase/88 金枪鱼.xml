@@ -1,0 +1,274 @@
+<content>
+
+    <id>
+        88
+    </id>
+
+    <foodname>
+        金枪鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        鲔鱼、吞拿鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、糖尿病、肝硬化患者忌食。
+        </rawdata>
+
+        <segment>
+            孕妇  、  糖尿病  、  肝硬化  患者  忌食  。
+        </segment>
+
+        <pos>
+            孕妇#NN  、#PU  糖尿病#NN  、#PU  肝硬化#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肝硬化#NN, 孕妇#NN)  (conj, 肝硬化#NN, 糖尿病#NN)  (nn, 患者#NN, 肝硬化#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适宜慢性病、高血脂、体质虚弱者，更年期妇女。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适宜  慢性病  、  高血脂  、  体质  虚弱者  ，  更年期  妇女  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适宜#VV  慢性病#NR  、#PU  高血脂#NR  、#PU  体质#NR  虚弱者#NN  ，#PU  更年期#VV  妇女#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤其#AD)  (root, ROOT#null, 适宜#VV)  (conj, 体质#NR, 慢性病#NR)  (conj, 体质#NR, 高血脂#NR)  (nn, 虚弱者#NN, 体质#NR)  (dobj, 适宜#VV, 虚弱者#NN)  (dep, 适宜#VV, 更年期#VV)  (dobj, 更年期#VV, 妇女#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                DHA（）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                EPA（）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            吞拿鱼（tuna)，类属鲈形目鲭科又叫鲔鱼，更广泛的名称是金枪鱼。鱼体呈纺锤形，酷似鱼雷，尾鳍呈新月形。鱼鳞已退化为小圆鳞，适于快速游泳，最高游速达每秒20米。由于金枪鱼必须时常保持快速游动才能维持身体的供给，加上只在海域深处活动，因此肉质柔嫩鲜美，没有污染，是不可多得的健康美食。新鲜的金枪鱼向来是海鲜料理之中的极品。
+            金枪鱼是一种生活在海洋深处的鱼类，分布在太平洋、大西洋和印度洋的热带、亚热带和温带广阔水域，是一种大洋性鱼类。我国南海金枪鱼的资源很丰富，台湾省的金枪鱼渔业比较发达。中国金枪鱼产量名列世界第四位，仅次于日本、美国和菲律宾。金枪鱼属大洋洄游性候鱼，旅行范围远达数千米，人们把它称做“没有国界的鱼类”。金枪鱼的种群意识很强。如果从飞机上往下看，会发现成群的金枪鱼，排着整齐的队列向前游动。体小的在前面，体大的在后面，最前面的是一条“领头鱼”。因此，在捕捞金枪鱼的时候，吸引住这条“领头鱼”是个关键。
+        </rawdata>
+
+        <segment>
+            吞拿鱼  （  tuna  )  ，  类属  鲈形目  鲭科  又  叫  鲔鱼  ，  更  广泛  的  名称  是  金枪鱼  。  鱼  体呈  纺锤形  ，  酷似  鱼雷  ，  尾鳍  呈  新  月形  。  鱼鳞  已退  化为  小圆鳞  ，  适于  快速  游泳  ，  最高  游速  达  每  秒  20  米  。  由于  金枪鱼  必须  时常  保持  快速  游动  才  能  维持  身体  的  供给  ，  加上  只  在  海域  深  处  活动  ，  因此  肉质  柔嫩  鲜美  ，  没有  污染  ，  是  不可多得  的  健康  美食  。  新鲜  的  金枪鱼  向来  是  海鲜  料理  之中  的  极品  。
+            金枪鱼  是  一  种  生活  在  海洋  深处  的  鱼类  ，  分布  在  太平洋  、  大西洋  和  印度洋  的  热带  、  亚热带  和  温带  广阔  水域  ，  是  一  种  大洋性  鱼类  。  我国  南海  金枪鱼  的  资源  很  丰富  ，  台湾省  的  金枪鱼  渔业  比较  发达  。  中国  金枪鱼  产量  名列  世界  第四  位  ，  仅次于  日本  、  美国  和  菲律宾  。  金枪鱼  属  大洋  洄游  性候鱼  ，  旅行  范围  远达  数千  米  ，  人们  把  它  称做  “  没有  国界  的  鱼类  ”  。  金枪鱼  的  种群  意识  很  强  。  如果  从  飞机  上  往下  看  ，  会  发现  成群  的  金枪鱼  ，  排  着  整齐  的  队列  向前  游动  。  体  小  的  在  前面  ，  体大  的  在后面  ，  最前  面  的  是  一  条  “  领头  鱼  ”  。  因此  ，  在  捕捞  金枪鱼  的  时候  ，  吸引  住  这  条  “  领头  鱼  ”  是  个  关键  。
+        </segment>
+
+        <pos>
+            吞拿鱼#NN  （#PU  tuna#NN  -RRB-#VV  ，#PU  类属#NN  鲈形目#NN  鲭科#NN  又#AD  叫#VV  鲔鱼#NN  ，#PU  更#AD  广泛#VA  的#DEC  名称#NN  是#VC  金枪鱼#NN    。#PU  鱼#NN  体呈#NN  纺锤形#VV  ，#PU  酷似#VV  鱼雷#NN  ，#PU  尾鳍#AD  呈#VV  新#JJ  月形#NN    。#PU  鱼鳞#NN  已退#AD  化为#VV  小圆鳞#NN  ，#PU  适于#VV  快速#JJ  游泳#NN  ，#PU  最高#JJ  游速#NN  达#VV  每#DT  秒#M  20#CD  米#M    。#PU  由于#P  金枪鱼#NN  必须#VV  时常#AD  保持#VV  快速#JJ  游动#NN  才#AD  能#VV  维持#VV  身体#NN  的#DEC  供给#NN  ，#PU  加上#AD  只#AD  在#P  海域#NN  深#AD  处#VV  活动#NN  ，#PU  因此#AD  肉质#NR  柔嫩#NR  鲜美#VV  ，#PU  没有#VE  污染#NN  ，#PU  是#VC  不可多得#VV  的#DEC  健康#JJ  美食#NN    。#PU  新鲜#VA  的#DEC  金枪鱼#NN  向来#NN  是#VC  海鲜#NN  料理#NN  之中#LC  的#DEG  极品#NN    。#PU    。#PU
+            金枪鱼#AD  是#VC  一#CD  种#M  生活#VV  在#P  海洋#NN  深处#NN  的#DEC  鱼类#NN  ，#PU  分布#VV  在#P  太平洋#NR  、#PU  大西洋#NR  和#CC  印度洋#NR  的#DEG  热带#NN  、#PU  亚热带#NN  和#CC  温带#NN  广阔#JJ  水域#NN  ，#PU  是#VC  一#CD  种#M  大洋性#NN  鱼类#NN    。#PU  我国#VV  南海#NR  金枪鱼#NN  的#DEC  资源#NN  很#AD  丰富#VA  ，#PU  台湾省#NR  的#DEG  金枪鱼#NN  渔业#NN  比较#AD  发达#VA    。#PU  中国#NR  金枪鱼#NN  产量#NN  名列#VV  世界#NN  第四#OD  位#M  ，#PU  仅次于#VV  日本#NR  、#PU  美国#NR  和#CC  菲律宾#NR    。#PU  金枪鱼#NN  属#VV  大洋#NN  洄游#NN  性候鱼#NN  ，#PU  旅行#NN  范围#NN  远达#VV  数千#CD  米#M  ，#PU  人们#NN  把#BA  它#PN  称做#AD  ``#VV  没有#VE  国界#NN  的#DEC  鱼类#NN  ''#NN    。#PU  金枪鱼#NN  的#DEG  种群#NN  意识#NN  很#AD  强#VA    。#PU  如果#CS  从#P  飞机#NN  上#LC  往下#AD  看#VV  ，#PU  会#VV  发现#VV  成群#NN  的#DEG  金枪鱼#NN  ，#PU  排#VV  着#AS  整齐#VA  的#DEC  队列#NN  向前#AD  游动#VV    。#PU  体#VV  小#VA  的#DEC  在#P  前面#NR  ，#PU  体大#VV  的#DEC  在后面#NN  ，#PU  最前#VV  面#NN  的#DEC  是#VC  一#CD  条#M  ``#NN  领头#NN  鱼#NN  ''#NN    。#PU  因此#AD  ，#PU  在#P  捕捞#VV  金枪鱼#NN  的#DEC  时候#NN  ，#PU  吸引#VV  住#VV  这#DT  条#M  ``#NN  领头#NN  鱼#NN  ''#NN  是#VC  个#M  关键#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, -RRB-#VV, 吞拿鱼#NN)  (root, -RRB-#VV, 吞拿鱼#NN)  (prnmod, 吞拿鱼#NN, tuna#NN)  (nn, 鲭科#NN, 类属#NN)  (nn, 鲭科#NN, 鲈形目#NN)  (nsubj, 叫#VV, 鲭科#NN)  (advmod, 叫#VV, 又#AD)  (ccomp, 吞拿鱼#NN, 叫#VV)  (ccomp, -RRB-#VV, 叫#VV)  (dobj, 叫#VV, 鲔鱼#NN)  (advmod, 广泛#VA, 更#AD)  (relcl, 名称#NN, 广泛#VA)  (mark, 广泛#VA, 的#DEC)  (nsubj, 金枪鱼#NN, 名称#NN)  (cop, 金枪鱼#NN, 是#VC)  (conj, 叫#VV, 金枪鱼#NN)   (nn, 体呈#NN, 鱼#NN)  (nsubj, 纺锤形#VV, 体呈#NN)  (xsubj, 呈#VV, 体呈#NN)  (root, ROOT#null, 纺锤形#VV)  (dep, 呈#VV, 酷似#VV)  (dobj, 酷似#VV, 鱼雷#NN)  (advmod, 呈#VV, 尾鳍#AD)  (ccomp, 纺锤形#VV, 呈#VV)  (amod, 月形#NN, 新#JJ)  (dobj, 呈#VV, 月形#NN)   (nsubj, 化为#VV, 鱼鳞#NN)  (advmod, 化为#VV, 已退#AD)  (root, ROOT#null, 化为#VV)  (dobj, 化为#VV, 小圆鳞#NN)  (conj, 化为#VV, 适于#VV)  (amod, 游泳#NN, 快速#JJ)  (dobj, 适于#VV, 游泳#NN)  (amod, 游速#NN, 最高#JJ)  (nsubj, 达#VV, 游速#NN)  (conj, 化为#VV, 达#VV)  (dep, 米#M, 每#DT)  (clf, 每#DT, 秒#M)  (nummod, 米#M, 20#CD)  (range, 达#VV, 米#M)   (case, 保持#VV, 由于#P)  (nsubj, 保持#VV, 金枪鱼#NN)  (mmod, 保持#VV, 必须#VV)  (advmod, 保持#VV, 时常#AD)  (prep, 鲜美#VV, 保持#VV)  (amod, 游动#NN, 快速#JJ)  (nsubj, 维持#VV, 游动#NN)  (advmod, 维持#VV, 才#AD)  (mmod, 维持#VV, 能#VV)  (relcl, 供给#NN, 维持#VV)  (dobj, 维持#VV, 身体#NN)  (mark, 维持#VV, 的#DEC)  (dobj, 保持#VV, 供给#NN)  (advmod, 处#VV, 加上#AD)  (advmod, 处#VV, 只#AD)  (case, 海域#NN, 在#P)  (prep, 处#VV, 海域#NN)  (advmod, 处#VV, 深#AD)  (dep, 保持#VV, 处#VV)  (dobj, 处#VV, 活动#NN)  (advmod, 鲜美#VV, 因此#AD)  (nsubj, 鲜美#VV, 肉质#NR)  (nsubj, 鲜美#VV, 柔嫩#NR)  (root, ROOT#null, 鲜美#VV)  (conj, 美食#NN, 没有#VE)  (dobj, 没有#VE, 污染#NN)  (cop, 美食#NN, 是#VC)  (relcl, 美食#NN, 不可多得#VV)  (mark, 不可多得#VV, 的#DEC)  (amod, 美食#NN, 健康#JJ)  (ccomp, 鲜美#VV, 美食#NN)   (relcl, 向来#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 向来#NN, 金枪鱼#NN)  (nsubj, 极品#NN, 向来#NN)  (cop, 极品#NN, 是#VC)  (nn, 料理#NN, 海鲜#NN)  (assmod, 极品#NN, 料理#NN)  (case, 料理#NN, 之中#LC)  (case, 料理#NN, 的#DEG)  (root, ROOT#null, 极品#NN)   (root, ROOT#null, null#null)
+            (advmod, 鱼类#NN, 金枪鱼#AD)  (cop, 鱼类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 鱼类#NN, 种#M)  (relcl, 鱼类#NN, 生活#VV)  (case, 深处#NN, 在#P)  (nn, 深处#NN, 海洋#NN)  (prep, 生活#VV, 深处#NN)  (mark, 生活#VV, 的#DEC)  (root, ROOT#null, 鱼类#NN)  (conj, 鱼类#NN, 分布#VV)  (case, 印度洋#NR, 在#P)  (conj, 印度洋#NR, 太平洋#NR)  (conj, 印度洋#NR, 大西洋#NR)  (cc, 印度洋#NR, 和#CC)  (assmod, 水域#NN, 印度洋#NR)  (case, 印度洋#NR, 的#DEG)  (conj, 温带#NN, 热带#NN)  (conj, 温带#NN, 亚热带#NN)  (cc, 温带#NN, 和#CC)  (nn, 水域#NN, 温带#NN)  (amod, 水域#NN, 广阔#JJ)  (dobj, 分布#VV, 水域#NN)  (cop, 鱼类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 鱼类#NN, 种#M)  (nn, 鱼类#NN, 大洋性#NN)  (conj, 鱼类#NN, 鱼类#NN)   (relcl, 资源#NN, 我国#VV)  (nn, 金枪鱼#NN, 南海#NR)  (dobj, 我国#VV, 金枪鱼#NN)  (mark, 我国#VV, 的#DEC)  (nsubj, 丰富#VA, 资源#NN)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)  (assmod, 渔业#NN, 台湾省#NR)  (case, 台湾省#NR, 的#DEG)  (nn, 渔业#NN, 金枪鱼#NN)  (nsubj, 发达#VA, 渔业#NN)  (advmod, 发达#VA, 比较#AD)  (conj, 丰富#VA, 发达#VA)   (nn, 产量#NN, 中国#NR)  (nn, 产量#NN, 金枪鱼#NN)  (nsubj, 名列#VV, 产量#NN)  (root, ROOT#null, 名列#VV)  (dep, 位#M, 世界#NN)  (ordmod, 位#M, 第四#OD)  (range, 名列#VV, 位#M)  (conj, 名列#VV, 仅次于#VV)  (conj, 菲律宾#NR, 日本#NR)  (conj, 菲律宾#NR, 美国#NR)  (cc, 菲律宾#NR, 和#CC)  (dobj, 仅次于#VV, 菲律宾#NR)   (nsubj, 属#VV, 金枪鱼#NN)  (root, ROOT#null, 属#VV)  (nn, 性候鱼#NN, 大洋#NN)  (nn, 性候鱼#NN, 洄游#NN)  (dobj, 属#VV, 性候鱼#NN)  (nn, 范围#NN, 旅行#NN)  (nsubj, 远达#VV, 范围#NN)  (conj, 属#VV, 远达#VV)  (nummod, 米#M, 数千#CD)  (range, 远达#VV, 米#M)  (nsubj, ``#VV, 人们#NN)  (ba, ``#VV, 把#BA)  (nsubj, ``#VV, 它#PN)  (advmod, ``#VV, 称做#AD)  (conj, 属#VV, ``#VV)  (relcl, ''#NN, 没有#VE)  (dobj, 没有#VE, 国界#NN)  (mark, 没有#VE, 的#DEC)  (nn, ''#NN, 鱼类#NN)  (dobj, ``#VV, ''#NN)   (assmod, 意识#NN, 金枪鱼#NN)  (case, 金枪鱼#NN, 的#DEG)  (nn, 意识#NN, 种群#NN)  (nsubj, 强#VA, 意识#NN)  (advmod, 强#VA, 很#AD)  (root, ROOT#null, 强#VA)   (advmod, 看#VV, 如果#CS)  (case, 飞机#NN, 从#P)  (prep, 看#VV, 飞机#NN)  (case, 飞机#NN, 上#LC)  (advmod, 看#VV, 往下#AD)  (dep, 游动#VV, 看#VV)  (mmod, 发现#VV, 会#VV)  (conj, 看#VV, 发现#VV)  (assmod, 金枪鱼#NN, 成群#NN)  (case, 成群#NN, 的#DEG)  (dobj, 发现#VV, 金枪鱼#NN)  (dep, 看#VV, 排#VV)  (asp, 排#VV, 着#AS)  (relcl, 队列#NN, 整齐#VA)  (mark, 整齐#VA, 的#DEC)  (dobj, 排#VV, 队列#NN)  (advmod, 游动#VV, 向前#AD)  (root, ROOT#null, 游动#VV)   (nsubj, ''#NN, 体#VV)  (relcl, 在后面#NN, 小#VA)  (mark, 小#VA, 的#DEC)  (case, 前面#NR, 在#P)  (prep, 体大#VV, 前面#NR)  (relcl, 在后面#NN, 体大#VV)  (mark, 体大#VV, 的#DEC)  (dobj, 体#VV, 在后面#NN)  (conj, 体#VV, 最前#VV)  (dobj, 最前#VV, 面#NN)  (mark, 体#VV, 的#DEC)  (cop, ''#NN, 是#VC)  (nummod, 条#M, 一#CD)  (clf, ''#NN, 条#M)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 领头#NN)  (nn, ''#NN, 鱼#NN)  (root, ROOT#null, ''#NN)   (advmod, 吸引#VV, 因此#AD)  (case, 时候#NN, 在#P)  (relcl, 时候#NN, 捕捞#VV)  (dobj, 捕捞#VV, 金枪鱼#NN)  (mark, 捕捞#VV, 的#DEC)  (prep, 吸引#VV, 时候#NN)  (root, ROOT#null, 吸引#VV)  (ccomp, 吸引#VV, 住#VV)  (det, ``#NN, 这#DT)  (clf, 这#DT, 条#M)  (dobj, 住#VV, ``#NN)  (nn, ''#NN, 领头#NN)  (nn, ''#NN, 鱼#NN)  (nsubj, 关键#NN, ''#NN)  (cop, 关键#NN, 是#VC)  (dep, 关键#NN, 个#M)  (dep, 吸引#VV, 关键#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.强筋骨
+            金枪鱼能补虚壮阳、除风湿、强筋骨、调节血糖，对性功能减退、糖尿病、虚劳阳痿、风湿痹痛、筋骨软弱等症均有防治之效。
+            2.补充钙质
+            金枪鱼的肉属高钙食物，经常食用有助于牙齿和骨骼的健康。
+            3.促进大脑发育
+            金枪鱼含有丰富的酪胺酸，能帮助生产大脑的神经递质，使人注意力集中，思维活跃。金枪鱼的鱼眼中含有二十二碳六烯酸，该物质具有促进儿童大脑发育、延缓老人记忆衰退的作用。
+            4.降低胆固醇
+            金枪鱼含有大量肌红蛋白和细胞色素等，脂肪酸大多为不饱和脂肪酸，具有降低血压和胆固醇的功效，是防治心血管疾病的理想食物。
+            5.美容减肥
+            金枪鱼肉低脂肪、低热量，还有优质的蛋白质和其他营养素，食用金枪鱼食品，不但可以保持苗条的身材，而且可以平衡身体所需要的营养，是现代女性轻松减肥的理想选择。
+            6.保护肝脏，强化肝脏功能
+            现代人因紧张的生活节奏、巨大的工作压力、过度疲劳造成的一系列肝病发病率日渐提高。金枪鱼中含有丰富的DHA、EPA、牛黄酸，能减少血份中的脂肪，利于肝细胞再生。经常食用金枪鱼食品，能够保护肝脏，提高肝脏的排泄功能，降低肝脏发病率。
+            7.预防贫血
+            铁是人体内不可缺少的一种元素，金枪鱼的血合中含有丰富的铁分和维生素B12，易被人体吸收。经常食用，能补充铁分，预防贫血，并能作为贫血的辅助治疗食品。
+        </rawdata>
+
+        <segment>
+            强  筋骨
+            金枪鱼  能  补  虚  壮  阳  、  除  风湿  、  强  筋骨  、  调节  血糖  ，  对  性  功能  减退  、  糖尿病  、  虚  劳  阳痿  、  风湿  痹痛  、  筋骨  软弱  等症  均  有  防治  之  效  。
+            补充  钙质
+            金枪鱼  的  肉属  高  钙  食物  ，  经常  食用  有助于  牙齿  和  骨骼  的  健康  。
+            促进  大脑  发育
+            金枪鱼  含有  丰富  的  酪胺  酸  ，  能  帮助  生产  大脑  的  神经  递质  ，  使  人  注意力  集中  ，  思维  活跃  。  金枪鱼  的  鱼眼  中  含有  二十二  碳  六  烯酸  ，  该  物质  具有  促进  儿童  大脑  发育  、  延缓  老人  记忆  衰退  的  作用  。
+            降低  胆固醇
+            金枪鱼  含有  大量  肌红蛋白  和  细胞  色素  等  ，  脂肪酸  大多  为  不  饱和  脂肪酸  ，  具有  降低  血压  和  胆固醇  的  功效  ，  是  防治  心  血管  疾病  的  理想  食物  。
+            美容  减肥
+            金枪鱼  肉  低  脂肪  、  低  热量  ，  还有  优质  的  蛋白质  和  其他  营养素  ，  食用  金枪鱼  食品  ，  不但  可以  保持  苗条  的  身材  ，  而且  可以  平衡  身体  所需要  的  营养  ，  是  现代  女性  轻松  减肥  的  理想  选择  。
+            保护  肝脏  ，  强化  肝脏  功能
+            现代  人  因  紧张  的  生活  节奏  、  巨大  的  工作  压力  、  过度  疲劳  造成  的  一  系列  肝病  发病率  日渐  提高  。  金枪鱼  中  含有  丰富  的  DHA  、  EPA  、  牛黄  酸  ，  能  减少  血  份  中  的  脂肪  ，  利于  肝细胞  再生  。  经常  食用  金枪鱼  食品  ，  能够  保护  肝脏  ，  提高  肝脏  的  排泄  功能  ，  降低  肝脏  发病率  。
+            预防  贫血
+            铁  是  人体  内  不可缺少  的  一  种  元素  ，  金枪鱼  的  血合  中  含有  丰富  的  铁分  和  维生素  B  12  ，  易被  人体  吸收  。  经常  食用  ，  能  补充  铁  分  ，  预防  贫血  ，  并能  作为  贫血  的  辅助  治疗  食品  。
+        </segment>
+
+        <pos>
+            强#JJ  筋骨#NN
+            金枪鱼#AD  能#VV  补#VV  虚#AD  壮#JJ  阳#NN  、#PU  除#P  风湿#NN  、#PU  强#NN  筋骨#VV  、#PU  调节#VV  血糖#NN  ，#PU  对#P  性#NN  功能#NN  减退#VV  、#PU  糖尿病#NN  、#PU  虚#AD  劳#NN  阳痿#NN  、#PU  风湿#NN  痹痛#NN  、#PU  筋骨#NN  软弱#NN  等症#NN  均#AD  有#VE  防治#NN  之#DEG  效#NN  。#PU
+            补充#NN  钙质#VV
+            金枪鱼#NN  的#DEG  肉属#NN  高#JJ  钙#NN  食物#NN  ，#PU  经常#AD  食用#VV  有助于#VV  牙齿#NN  和#CC  骨骼#NN  的#DEC  健康#NN  。#PU
+            促进#VV  大脑#NN  发育#NN
+            金枪鱼#NN  含有#NN  丰富#VA  的#DEC  酪胺#NN  酸#VV  ，#PU  能#VV  帮助#VV  生产#NN  大脑#NN  的#DEC  神经#NN  递质#NN  ，#PU  使#VV  人#NN  注意力#NN  集中#VV  ，#PU  思维#NN  活跃#VA    。#PU  金枪鱼#NN  的#DEG  鱼眼#NN  中#LC  含有#VV  二十二#CD  碳#NN  六#CD  烯酸#NN  ，#PU  该#DT  物质#NN  具有#VV  促进#VV  儿童#NN  大脑#NN  发育#NN  、#PU  延缓#NN  老人#NN  记忆#NN  衰退#VV  的#DEC  作用#NN    。#PU    。#PU
+            降低#VV  胆固醇#NN
+            金枪鱼#NN  含有#NN  大量#CD  肌红蛋白#NN  和#CC  细胞#NN  色素#NN  等#ETC  ，#PU  脂肪酸#NN  大多#AD  为#VC  不#AD  饱和#JJ  脂肪酸#NN  ，#PU  具有#VV  降低#VV  血压#NN  和#CC  胆固醇#NN  的#DEC  功效#NN  ，#PU  是#VC  防治#NN  心#NN  血管#NN  疾病#NN  的#DEG  理想#JJ  食物#NN  。#PU
+            美容#NN  减肥#VV
+            金枪鱼#JJ  肉#NN  低#JJ  脂肪#NN  、#PU  低#JJ  热量#NN  ，#PU  还有#AD  优质#JJ  的#DEG  蛋白质#NN  和#CC  其他#DT  营养素#NN  ，#PU  食用#VV  金枪鱼#JJ  食品#NN  ，#PU  不但#CC  可以#VV  保持#VV  苗条#NN  的#DEG  身材#NN  ，#PU  而且#CC  可以#VV  平衡#NN  身体#NN  所需要#NN  的#DEC  营养#VA  ，#PU  是#VC  现代#JJ  女性#NN  轻松#AD  减肥#VV  的#DEC  理想#JJ  选择#NN  。#PU
+            保护#VV  肝脏#NN  ，#PU  强化#VV  肝脏#NN  功能#NN
+            现代#JJ  人#NN  因#P  紧张#VA  的#DEC  生活#NN  节奏#NN  、#PU  巨大#VA  的#DEC  工作#NN  压力#NN  、#PU  过度#AD  疲劳#VA  造成#VV  的#DEC  一#CD  系列#M  肝病#NN  发病率#NN  日渐#AD  提高#VV    。#PU  金枪鱼#NN  中#LC  含有#AD  丰富#VA  的#DEC  DHA#NR  、#PU  EPA#NR  、#PU  牛黄#NR  酸#NN  ，#PU  能#VV  减少#VV  血#NN  份#M  中#LC  的#DEG  脂肪#NN  ，#PU  利于#VV  肝细胞#NN  再生#VV    。#PU  经常#AD  食用#VV  金枪鱼#JJ  食品#NN  ，#PU  能够#VV  保护#VV  肝脏#NN  ，#PU  提高#VV  肝脏#NN  的#DEG  排泄#NN  功能#NN  ，#PU  降低#VV  肝脏#NN  发病率#NN    。#PU    。#PU
+            预防#NN  贫血#VV
+            铁#NN  是#VC  人体#NN  内#LC  不可缺少#VV  的#DEC  一#CD  种#M  元素#NN  ，#PU  金枪鱼#NN  的#DEG  血合#NN  中#LC  含有#AD  丰富#VA  的#DEC  铁分#NN  和#CC  维生素#NN  B#VV  12#CD  ，#PU  易被#NR  人体#AD  吸收#VV    。#PU  经常#AD  食用#VV  ，#PU  能#VV  补充#VV  铁#NN  分#VV  ，#PU  预防#VV  贫血#NN  ，#PU  并能#AD  作为#P  贫血#NN  的#DEG  辅助#NN  治疗#VV  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 筋骨#NN, 强#JJ)  (root, ROOT#null, 筋骨#NN)
+            (advmod, 补#VV, 金枪鱼#AD)  (mmod, 补#VV, 能#VV)  (root, ROOT#null, 补#VV)  (advmod, 补#VV, 虚#AD)  (amod, 阳#NN, 壮#JJ)  (dobj, 补#VV, 阳#NN)  (case, 强#NN, 除#P)  (conj, 强#NN, 风湿#NN)  (prep, 筋骨#VV, 强#NN)  (conj, 补#VV, 筋骨#VV)  (conj, 补#VV, 调节#VV)  (dobj, 调节#VV, 血糖#NN)  (case, 功能#NN, 对#P)  (nn, 功能#NN, 性#NN)  (prep, 减退#VV, 功能#NN)  (conj, 补#VV, 减退#VV)  (conj, 补#VV, 糖尿病#NN)  (advmod, 有#VE, 虚#AD)  (nn, 等症#NN, 劳#NN)  (conj, 等症#NN, 阳痿#NN)  (nn, 等症#NN, 风湿#NN)  (conj, 等症#NN, 痹痛#NN)  (nn, 等症#NN, 筋骨#NN)  (nn, 等症#NN, 软弱#NN)  (prep, 有#VE, 等症#NN)  (advmod, 有#VE, 均#AD)  (conj, 补#VV, 有#VE)  (assmod, 效#NN, 防治#NN)  (case, 防治#NN, 之#DEG)  (dobj, 有#VE, 效#NN)
+            (nsubj, 钙质#VV, 补充#NN)  (root, ROOT#null, 钙质#VV)
+            (assmod, 肉属#NN, 金枪鱼#NN)  (case, 金枪鱼#NN, 的#DEG)  (nsubj, 食用#VV, 肉属#NN)  (amod, 食物#NN, 高#JJ)  (nn, 食物#NN, 钙#NN)  (dep, 食用#VV, 食物#NN)  (advmod, 食用#VV, 经常#AD)  (root, ROOT#null, 食用#VV)  (relcl, 健康#NN, 有助于#VV)  (conj, 骨骼#NN, 牙齿#NN)  (cc, 骨骼#NN, 和#CC)  (dobj, 有助于#VV, 骨骼#NN)  (mark, 有助于#VV, 的#DEC)  (dobj, 食用#VV, 健康#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 大脑#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 含有#NN, 金枪鱼#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 酪胺#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 酸#VV, 酪胺#NN)  (root, ROOT#null, 酸#VV)  (mmod, 帮助#VV, 能#VV)  (relcl, 递质#NN, 帮助#VV)  (nn, 大脑#NN, 生产#NN)  (dobj, 帮助#VV, 大脑#NN)  (mark, 帮助#VV, 的#DEC)  (nn, 递质#NN, 神经#NN)  (nsubj, 使#VV, 递质#NN)  (ccomp, 酸#VV, 使#VV)  (nn, 注意力#NN, 人#NN)  (dobj, 使#VV, 注意力#NN)  (dep, 使#VV, 集中#VV)  (nsubj, 活跃#VA, 思维#NN)  (conj, 使#VV, 活跃#VA)   (assmod, 鱼眼#NN, 金枪鱼#NN)  (case, 金枪鱼#NN, 的#DEG)  (loc, 含有#VV, 鱼眼#NN)  (case, 鱼眼#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 碳#NN, 二十二#CD)  (nn, 烯酸#NN, 碳#NN)  (nummod, 烯酸#NN, 六#CD)  (dobj, 含有#VV, 烯酸#NN)  (det, 物质#NN, 该#DT)  (nsubj, 具有#VV, 物质#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (nn, 老人#NN, 儿童#NN)  (nn, 老人#NN, 大脑#NN)  (conj, 老人#NN, 发育#NN)  (nn, 老人#NN, 延缓#NN)  (nn, 记忆#NN, 老人#NN)  (nsubj, 衰退#VV, 记忆#NN)  (ccomp, 促进#VV, 衰退#VV)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)
+            (nn, 含有#NN, 金枪鱼#NN)  (nn, 色素#NN, 含有#NN)  (nummod, 肌红蛋白#NN, 大量#CD)  (conj, 色素#NN, 肌红蛋白#NN)  (cc, 色素#NN, 和#CC)  (nn, 色素#NN, 细胞#NN)  (nsubj, 脂肪酸#NN, 色素#NN)  (etc, 色素#NN, 等#ETC)  (nsubj, 脂肪酸#NN, 脂肪酸#NN)  (advmod, 脂肪酸#NN, 大多#AD)  (cop, 脂肪酸#NN, 为#VC)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (root, ROOT#null, 脂肪酸#NN)  (conj, 脂肪酸#NN, 具有#VV)  (relcl, 功效#NN, 降低#VV)  (conj, 胆固醇#NN, 血压#NN)  (cc, 胆固醇#NN, 和#CC)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (cop, 食物#NN, 是#VC)  (nn, 心#NN, 防治#NN)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (assmod, 食物#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (amod, 食物#NN, 理想#JJ)  (conj, 脂肪酸#NN, 食物#NN)
+            (nsubj, 减肥#VV, 美容#NN)  (root, ROOT#null, 减肥#VV)
+            (amod, 肉#NN, 金枪鱼#JJ)  (nn, 脂肪#NN, 肉#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 热量#NN, 脂肪#NN)  (amod, 热量#NN, 低#JJ)  (nsubj, 选择#NN, 热量#NN)  (advmod, 选择#NN, 还有#AD)  (assmod, 蛋白质#NN, 优质#JJ)  (case, 优质#JJ, 的#DEG)  (conj, 营养素#NN, 蛋白质#NN)  (cc, 营养素#NN, 和#CC)  (det, 营养素#NN, 其他#DT)  (nsubj, 选择#NN, 营养素#NN)  (nsubj, 选择#NN, 食用#VV)  (amod, 食品#NN, 金枪鱼#JJ)  (dobj, 食用#VV, 食品#NN)  (cc, 食用#VV, 不但#CC)  (mmod, 保持#VV, 可以#VV)  (conj, 食用#VV, 保持#VV)  (assmod, 身材#NN, 苗条#NN)  (case, 苗条#NN, 的#DEG)  (dobj, 保持#VV, 身材#NN)  (cc, 食用#VV, 而且#CC)  (conj, 食用#VV, 可以#VV)  (nn, 所需要#NN, 平衡#NN)  (nn, 所需要#NN, 身体#NN)  (dobj, 可以#VV, 所需要#NN)  (mark, 食用#VV, 的#DEC)  (conj, 选择#NN, 营养#VA)  (cop, 选择#NN, 是#VC)  (amod, 女性#NN, 现代#JJ)  (nsubj, 减肥#VV, 女性#NN)  (advmod, 减肥#VV, 轻松#AD)  (relcl, 选择#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (amod, 选择#NN, 理想#JJ)  (root, ROOT#null, 选择#NN)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (conj, 保护#VV, 强化#VV)  (nn, 功能#NN, 肝脏#NN)  (dobj, 强化#VV, 功能#NN)
+            (amod, 人#NN, 现代#JJ)  (nsubj, 提高#VV, 人#NN)  (case, 发病率#NN, 因#P)  (relcl, 节奏#NN, 紧张#VA)  (mark, 紧张#VA, 的#DEC)  (nn, 节奏#NN, 生活#NN)  (conj, 发病率#NN, 节奏#NN)  (relcl, 压力#NN, 巨大#VA)  (mark, 巨大#VA, 的#DEC)  (nn, 压力#NN, 工作#NN)  (dep, 发病率#NN, 压力#NN)  (advmod, 造成#VV, 过度#AD)  (dep, 造成#VV, 疲劳#VA)  (relcl, 节奏#NN, 造成#VV)  (relcl, 压力#NN, 造成#VV)  (relcl, 发病率#NN, 造成#VV)  (mark, 造成#VV, 的#DEC)  (nummod, 系列#M, 一#CD)  (clf, 发病率#NN, 系列#M)  (nn, 发病率#NN, 肝病#NN)  (prep, 提高#VV, 发病率#NN)  (advmod, 提高#VV, 日渐#AD)  (root, ROOT#null, 提高#VV)   (loc, 丰富#VA, 金枪鱼#NN)  (case, 金枪鱼#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 牛黄#NR, DHA#NR)  (conj, 牛黄#NR, EPA#NR)  (nn, 酸#NN, 牛黄#NR)  (nsubj, 减少#VV, 酸#NN)  (mmod, 减少#VV, 能#VV)  (dep, 再生#VV, 减少#VV)  (assmod, 脂肪#NN, 血#NN)  (dep, 血#NN, 份#M)  (case, 血#NN, 中#LC)  (case, 血#NN, 的#DEG)  (dobj, 减少#VV, 脂肪#NN)  (dep, 减少#VV, 利于#VV)  (dobj, 利于#VV, 肝细胞#NN)  (root, ROOT#null, 再生#VV)   (advmod, 食用#VV, 经常#AD)  (root, ROOT#null, 食用#VV)  (amod, 食品#NN, 金枪鱼#JJ)  (dobj, 食用#VV, 食品#NN)  (mmod, 保护#VV, 能够#VV)  (conj, 食用#VV, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (conj, 食用#VV, 提高#VV)  (assmod, 功能#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (nn, 功能#NN, 排泄#NN)  (dobj, 提高#VV, 功能#NN)  (conj, 食用#VV, 降低#VV)  (nn, 发病率#NN, 肝脏#NN)  (dobj, 降低#VV, 发病率#NN)   (root, ROOT#null, null#null)
+            (nsubj, 贫血#VV, 预防#NN)  (root, ROOT#null, 贫血#VV)
+            (nsubj, 元素#NN, 铁#NN)  (cop, 元素#NN, 是#VC)  (loc, 不可缺少#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (relcl, 元素#NN, 不可缺少#VV)  (mark, 不可缺少#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 元素#NN, 种#M)  (root, ROOT#null, 元素#NN)  (assmod, 血合#NN, 金枪鱼#NN)  (case, 金枪鱼#NN, 的#DEG)  (loc, 丰富#VA, 血合#NN)  (case, 血合#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素#NN, 铁分#NN)  (cc, 维生素#NN, 和#CC)  (nsubj, B#VV, 维生素#NN)  (conj, 元素#NN, B#VV)  (range, B#VV, 12#CD)  (nsubj, 吸收#VV, 易被#NR)  (advmod, 吸收#VV, 人体#AD)  (conj, 元素#NN, 吸收#VV)   (advmod, 食用#VV, 经常#AD)  (root, ROOT#null, 食用#VV)  (mmod, 补充#VV, 能#VV)  (dep, 食用#VV, 补充#VV)  (dobj, 补充#VV, 铁#NN)  (dep, 补充#VV, 分#VV)  (dep, 食用#VV, 预防#VV)  (dobj, 预防#VV, 贫血#NN)  (advmod, 治疗#VV, 并能#AD)  (case, 辅助#NN, 作为#P)  (assmod, 辅助#NN, 贫血#NN)  (case, 贫血#NN, 的#DEG)  (prep, 治疗#VV, 辅助#NN)  (conj, 预防#VV, 治疗#VV)  (dobj, 治疗#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助改善记忆  辅助降血脂  改善营养性贫血  护肝  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.金枪鱼富含蛋白质、脂肪、维生素D，且钙、磷和铁等矿物质的含量也较高。
+            2.金枪鱼鱼背含有大量的EPA，前中腹部含丰富的DHA。此鱼所含的DHA比例为鱼中之冠，是极佳的健脑食品。
+            3.金枪鱼含有大量肌红蛋白和细胞色素等，脂肪酸大多为不饱和脂肪酸。
+        </rawdata>
+
+        <segment>
+            金枪鱼  富含  蛋白质  、  脂肪  、  维生素D  ，  且  钙  、  磷  和  铁  等  矿物质  的  含量  也  较  高  。
+            金枪鱼  鱼  背  含有  大量  的  EPA  ，  前  中腹部  含  丰富  的  DHA  。  此  鱼  所  含  的  DHA  比例  为  鱼  中  之冠  ，  是  极佳  的  健脑  食品  。
+            金枪鱼  含有  大量  肌红蛋白  和  细胞  色素  等  ，  脂肪酸  大多  为  不  饱和  脂肪酸  。
+        </segment>
+
+        <pos>
+            金枪鱼#NN  富含#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  维生素D#NR  ，#PU  且#CC  钙#NN  、#PU  磷#NN  和#CC  铁#NN  等#ETC  矿物质#NN  的#DEG  含量#NN  也#AD  较#AD  高#VA  。#PU
+            金枪鱼#NN  鱼#NN  背#VV  含有#NR  大量#CD  的#DEG  EPA#NN  ，#PU  前#DT  中腹部#NN  含#VV  丰富#VA  的#DEC  DHA#NN    。#PU  此#DT  鱼#NN  所#MSP  含#VV  的#DEC  DHA#NN  比例#NN  为#VC  鱼#NN  中#LC  之冠#VV  ，#PU  是#VC  极佳#NN  的#DEC  健脑#JJ  食品#NN    。#PU    。#PU
+            金枪鱼#NN  含有#VV  大量#CD  肌红蛋白#NN  和#CC  细胞#NN  色素#NN  等#ETC  ，#PU  脂肪酸#NN  大多#AD  为#P  不#AD  饱和#VV  脂肪酸#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 金枪鱼#NN)  (root, ROOT#null, 富含#VV)  (conj, 维生素D#NR, 蛋白质#NR)  (conj, 维生素D#NR, 脂肪#NR)  (dobj, 富含#VV, 维生素D#NR)  (cc, 富含#VV, 且#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (cc, 铁#NN, 和#CC)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (assmod, 含量#NN, 矿物质#NN)  (case, 矿物质#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 较#AD)  (conj, 富含#VV, 高#VA)
+            (nn, 鱼#NN, 金枪鱼#NN)  (nsubj, 背#VV, 鱼#NN)  (root, ROOT#null, 背#VV)  (nn, EPA#NN, 含有#NR)  (assmod, EPA#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 背#VV, EPA#NN)  (det, 中腹部#NN, 前#DT)  (nsubj, 含#VV, 中腹部#NN)  (conj, 背#VV, 含#VV)  (relcl, DHA#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, DHA#NN)   (det, 鱼#NN, 此#DT)  (nsubj, 含#VV, 鱼#NN)  (prtmod, 含#VV, 所#MSP)  (relcl, 比例#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 比例#NN, DHA#NN)  (nsubj, 食品#NN, 比例#NN)  (cop, 食品#NN, 为#VC)  (loc, 之冠#VV, 鱼#NN)  (case, 鱼#NN, 中#LC)  (relcl, 食品#NN, 之冠#VV)  (cop, 极佳#NN, 是#VC)  (ccomp, 之冠#VV, 极佳#NN)  (mark, 之冠#VV, 的#DEC)  (amod, 食品#NN, 健脑#JJ)  (root, ROOT#null, 食品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含有#VV, 金枪鱼#NN)  (root, ROOT#null, 含有#VV)  (nummod, 肌红蛋白#NN, 大量#CD)  (conj, 色素#NN, 肌红蛋白#NN)  (cc, 色素#NN, 和#CC)  (nn, 色素#NN, 细胞#NN)  (dobj, 含有#VV, 色素#NN)  (etc, 色素#NN, 等#ETC)  (nsubj, 脂肪酸#VV, 脂肪酸#NN)  (advmod, 脂肪酸#VV, 大多#AD)  (case, 饱和#VV, 为#P)  (neg, 饱和#VV, 不#AD)  (prep, 脂肪酸#VV, 饱和#VV)  (conj, 含有#VV, 脂肪酸#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.用拇指、食指压住鱼块，斜向切入，可以成较大断面，并防止鱼肉碎裂。金枪鱼可以与绿色蔬菜一起食用，味道更佳。
+            2.金枪鱼在烤之前，应先将味噌调味料除去（但不要用水洗）以免烤时容易烤焦。
+            3.金枪鱼肉质鲜滑柔嫩，入口即化，被称为“大脂肉”。食用方法很多，如生吃、油爆、红烧等。其中生吃被认为是最好的，鱼头、鱼尾烤着吃是经典吃法，制成罐头的油浸金枪鱼亦十分可口。
+            4.金枪鱼的针骨粗大，熬汤的效果特别好。用金枪鱼制作成的生鱼片，是同类产品中的最高级珍品，在生鱼片中也是价格最高的。
+        </rawdata>
+
+        <segment>
+            用  拇指  、  食指  压住  鱼块  ，  斜向  切入  ，  可以  成  较大  断面  ，  并  防止  鱼肉  碎裂  。  金枪鱼  可以  与  绿色  蔬菜  一  起  食用  ，  味道  更佳  。
+            金枪鱼  在  烤  之前  ，  应  先  将  味噌  调味料  除去  （  但  不要  用  水洗  ）  以免  烤时  容易  烤焦  。
+            金枪鱼  肉质  鲜滑  柔嫩  ，  入口  即化  ，  被  称为  “  大脂肉  ”  。  食用  方法  很多  ，  如  生吃  、  油  爆  、  红烧  等  。  其中  生吃  被  认为  是  最  好  的  ，  鱼头  、  鱼尾  烤着  吃  是  经典  吃法  ，  制成  罐头  的  油浸  金枪鱼  亦  十分  可口  。
+            金枪鱼  的  针骨  粗大  ，  熬汤  的  效果  特别  好  。  用  金枪鱼  制作  成  的  生鱼片  ，  是  同类  产品  中的  最高级  珍品  ，  在  生鱼片  中  也  是  价格  最  高  的  。
+        </segment>
+
+        <pos>
+            用#P  拇指#NN  、#PU  食指#NN  压住#VV  鱼块#NN  ，#PU  斜向#VV  切入#NN  ，#PU  可以#VV  成#VV  较大#JJ  断面#NN  ，#PU  并#CC  防止#VV  鱼肉#VV  碎裂#NN    。#PU  金枪鱼#NN  可以#VV  与#P  绿色#JJ  蔬菜#NN  一#CD  起#M  食用#VV  ，#PU  味道#NN  更佳#NN    。#PU    。#PU
+            金枪鱼#NN  在#P  烤#NN  之前#LC  ，#PU  应#VV  先#AD  将#AD  味噌#AD  调味料#VV  除去#P  （#PU  但#AD  不要#AD  用#VV  水洗#NN  ）#PU  以免#VV  烤时#AD  容易#VA  烤焦#VV  。#PU
+            金枪鱼#NN  肉质#NN  鲜滑#NN  柔嫩#VV  ，#PU  入口#NN  即化#NN  ，#PU  被#SB  称为#VV  ``#NN  大脂肉#NN  ''#NN    。#PU  食用#VV  方法#NN  很多#CD  ，#PU  如#P  生吃#NN  、#PU  油#NN  爆#VV  、#PU  红烧#VV  等#ETC    。#PU  其中#NN  生吃#NN  被#SB  认为#VV  是#VC  最#AD  好#VA  的#DEC  ，#PU  鱼头#NR  、#PU  鱼尾#NR  烤着#NN  吃#VV  是#VC  经典#NN  吃法#NN  ，#PU  制成#VV  罐头#NN  的#DEC  油浸#NN  金枪鱼#NN  亦#AD  十分#AD  可口#VA    。#PU    。#PU
+            金枪鱼#NN  的#DEG  针骨#NN  粗大#VV  ，#PU  熬汤#NN  的#DEG  效果#NN  特别#AD  好#VA    。#PU  用#P  金枪鱼#NN  制作#VV  成#VV  的#DEC  生鱼片#NN  ，#PU  是#VC  同类#NN  产品#NN  中的#NN  最高级#NN  珍品#NN  ，#PU  在#P  生鱼片#NN  中#LC  也#AD  是#VC  价格#NN  最#AD  高#VA  的#DEC    。#PU
+        </pos>
+
+        <parsing>
+            (case, 食指#NN, 用#P)  (conj, 食指#NN, 拇指#NN)  (prep, 压住#VV, 食指#NN)  (root, ROOT#null, 压住#VV)  (dobj, 压住#VV, 鱼块#NN)  (dep, 压住#VV, 斜向#VV)  (dobj, 斜向#VV, 切入#NN)  (mmod, 成#VV, 可以#VV)  (conj, 压住#VV, 成#VV)  (amod, 断面#NN, 较大#JJ)  (dobj, 成#VV, 断面#NN)  (cc, 压住#VV, 并#CC)  (conj, 压住#VV, 防止#VV)  (ccomp, 防止#VV, 鱼肉#VV)  (dobj, 鱼肉#VV, 碎裂#NN)   (nsubj, 食用#VV, 金枪鱼#NN)  (mmod, 食用#VV, 可以#VV)  (case, 蔬菜#NN, 与#P)  (amod, 蔬菜#NN, 绿色#JJ)  (prep, 食用#VV, 蔬菜#NN)  (nummod, 起#M, 一#CD)  (dep, 食用#VV, 起#M)  (root, ROOT#null, 食用#VV)  (nn, 更佳#NN, 味道#NN)  (conj, 食用#VV, 更佳#NN)   (root, ROOT#null, null#null)
+            (nsubj, 调味料#VV, 金枪鱼#NN)  (xsubj, 容易#VA, 金枪鱼#NN)  (case, 烤#NN, 在#P)  (prep, 调味料#VV, 烤#NN)  (case, 烤#NN, 之前#LC)  (mmod, 调味料#VV, 应#VV)  (advmod, 调味料#VV, 先#AD)  (advmod, 调味料#VV, 将#AD)  (advmod, 调味料#VV, 味噌#AD)  (root, ROOT#null, 调味料#VV)  (prep, 调味料#VV, 除去#P)  (advmod, 用#VV, 但#AD)  (advmod, 用#VV, 不要#AD)  (dep, 调味料#VV, 用#VV)  (dobj, 用#VV, 水洗#NN)  (dep, 调味料#VV, 以免#VV)  (advmod, 容易#VA, 烤时#AD)  (ccomp, 以免#VV, 容易#VA)  (dep, 以免#VV, 烤焦#VV)
+            (nn, 鲜滑#NN, 金枪鱼#NN)  (nn, 鲜滑#NN, 肉质#NN)  (nsubj, 柔嫩#VV, 鲜滑#NN)  (root, ROOT#null, 柔嫩#VV)  (nn, 即化#NN, 入口#NN)  (dep, 称为#VV, 即化#NN)  (auxpass, 称为#VV, 被#SB)  (ccomp, 柔嫩#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 大脂肉#NN)  (dobj, 称为#VV, ''#NN)   (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 方法#NN)  (range, 食用#VV, 很多#CD)  (case, 油#NN, 如#P)  (conj, 油#NN, 生吃#NN)  (prep, 爆#VV, 油#NN)  (conj, 食用#VV, 爆#VV)  (dep, 爆#VV, 红烧#VV)  (dep, 爆#VV, 等#ETC)   (nn, 生吃#NN, 其中#NN)  (nsubjpass, 认为#VV, 生吃#NN)  (auxpass, 认为#VV, 被#SB)  (root, ROOT#null, 认为#VV)  (cop, 好#VA, 是#VC)  (advmod, 好#VA, 最#AD)  (ccomp, 认为#VV, 好#VA)  (mark, 好#VA, 的#DEC)  (conj, 鱼尾#NR, 鱼头#NR)  (nn, 烤着#NN, 鱼尾#NR)  (nsubj, 吃法#NN, 烤着#NN)  (mmod, 吃法#NN, 吃#VV)  (cop, 吃法#NN, 是#VC)  (nn, 吃法#NN, 经典#NN)  (conj, 好#VA, 吃法#NN)  (relcl, 金枪鱼#NN, 制成#VV)  (dobj, 制成#VV, 罐头#NN)  (mark, 制成#VV, 的#DEC)  (nn, 金枪鱼#NN, 油浸#NN)  (nsubj, 可口#VA, 金枪鱼#NN)  (advmod, 可口#VA, 亦#AD)  (advmod, 可口#VA, 十分#AD)  (conj, 好#VA, 可口#VA)   (root, ROOT#null, null#null)
+            (assmod, 针骨#NN, 金枪鱼#NN)  (case, 金枪鱼#NN, 的#DEG)  (nsubj, 粗大#VV, 针骨#NN)  (root, ROOT#null, 粗大#VV)  (assmod, 效果#NN, 熬汤#NN)  (case, 熬汤#NN, 的#DEG)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 特别#AD)  (ccomp, 粗大#VV, 好#VA)   (case, 金枪鱼#NN, 用#P)  (prep, 制作#VV, 金枪鱼#NN)  (root, ROOT#null, 制作#VV)  (relcl, 生鱼片#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (dobj, 制作#VV, 生鱼片#NN)  (cop, 珍品#NN, 是#VC)  (nn, 珍品#NN, 同类#NN)  (nn, 珍品#NN, 产品#NN)  (nn, 珍品#NN, 中的#NN)  (nn, 珍品#NN, 最高级#NN)  (dep, 制作#VV, 珍品#NN)  (case, 生鱼片#NN, 在#P)  (prep, 高#VA, 生鱼片#NN)  (case, 生鱼片#NN, 中#LC)  (advmod, 高#VA, 也#AD)  (cop, 高#VA, 是#VC)  (nsubj, 高#VA, 价格#NN)  (advmod, 高#VA, 最#AD)  (conj, 珍品#NN, 高#VA)  (mark, 高#VA, 的#DEC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100934165221.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

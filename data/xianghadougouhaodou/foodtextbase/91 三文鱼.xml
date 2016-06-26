@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        91
+    </id>
+
+    <foodname>
+        三文鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        鲑鱼、大马哈鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            过敏体质、痛风、高血压患者慎食。孕妇忌食生三文鱼。
+        </rawdata>
+
+        <segment>
+            过敏  体质  、  痛风  、  高血压  患者  慎食  。  孕妇  忌食  生  三文鱼  。
+        </segment>
+
+        <pos>
+            过敏#NR  体质#NR  、#PU  痛风#NR  、#PU  高血压#NR  患者#NN  慎食#NN    。#PU  孕妇#NR  忌食#AD  生#VV  三文鱼#CD    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 高血压#NR, 过敏#NR)  (conj, 高血压#NR, 体质#NR)  (conj, 高血压#NR, 痛风#NR)  (nn, 慎食#NN, 高血压#NR)  (nn, 慎食#NN, 患者#NN)  (root, ROOT#null, 慎食#NN)   (nsubj, 生#VV, 孕妇#NR)  (advmod, 生#VV, 忌食#AD)  (root, ROOT#null, 生#VV)  (range, 生#VV, 三文鱼#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜心血管疾病、贫血、感冒患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  心  血管  疾病  、  贫血  、  感冒  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  心#NN  血管#NN  疾病#NN  、#PU  贫血#NN  、#PU  感冒#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 感冒#NN, 心#NN)  (nn, 感冒#NN, 血管#NN)  (conj, 感冒#NN, 疾病#NN)  (conj, 感冒#NN, 贫血#NN)  (nn, 患者#NN, 感冒#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                133
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                22.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                ω-3脂肪酸（克）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                8.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                260
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                390
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                17.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            三文鱼(salmon)也叫撒蒙鱼或萨门鱼，学名鲑鱼，是世界著名的淡水鱼类之一，主要分布在太平洋北部及欧洲、亚洲、美洲的北部地区。鲑鱼体侧扁，背部隆起，齿尖锐，鳞片细小，银灰色，产卵期有橙色条纹。鲑鱼肉质紧密鲜美，肉色为粉红色并具有弹性。鲑鱼以挪威产量最大，名气也很大。但质量最好的三文鱼产自美国的阿拉斯加海域和英国的英格兰海域。三文鱼是西餐较常用的鱼类原料之一。
+            三文鱼是是一种生长在加拿大、挪威、日本和俄罗斯、中国黑龙江省佳木斯市等高纬度地区的冷水鱼类。鱼肉呈橘红色，鲜嫩刺少。含丰富的虾青素和不饱和脂肪酸。
+        </rawdata>
+
+        <segment>
+            三文鱼  (  salmon  )  也  叫  撒蒙鱼或萨门鱼  ，  学名  鲑鱼  ，  是  世界  著名  的  淡水  鱼类  之一  ，  主要  分布  在  太平洋  北部  及  欧洲  、  亚洲  、  美洲  的  北部  地区  。  鲑鱼  体  侧扁  ，  背部  隆起  ，  齿  尖锐  ，  鳞片  细小  ，  银灰色  ，  产卵  期  有  橙色  条纹  。  鲑鱼  肉质  紧密  鲜美  ，  肉色  为  粉红色  并  具有  弹性  。  鲑鱼  以  挪威  产量  最  大  ，  名气  也  很  大  。  但  质量  最  好  的  三文鱼  产自  美国  的  阿拉斯加  海域  和  英国  的  英格兰  海域  。  三文鱼  是  西餐  较  常用  的  鱼类  原料  之一  。
+            三文鱼  是  是  一  种  生长  在  加拿大  、  挪威  、  日本  和  俄罗斯  、  中国  黑龙江省  佳木斯市  等  高纬度  地区  的  冷水  鱼类  。  鱼肉  呈  橘红色  ，  鲜嫩  刺少  。  含  丰富  的  虾青素  和  不  饱和  脂肪酸  。
+        </segment>
+
+        <pos>
+            三文鱼#CD  -LRB-#NN  salmon#NN  -RRB-#NN  也#AD  叫#VV  撒蒙鱼或萨门鱼#NN  ，#PU  学名#VV  鲑鱼#NN  ，#PU  是#VC  世界#NN  著名#VA  的#DEC  淡水#NN  鱼类#NN  之一#NN  ，#PU  主要#AD  分布#VV  在#P  太平洋#NR  北部#NN  及#CC  欧洲#NR  、#PU  亚洲#NR  、#PU  美洲#NR  的#DEG  北部#NN  地区#NN    。#PU  鲑鱼#NN  体#NN  侧扁#VV  ，#PU  背部#NN  隆起#NN  ，#PU  齿#AD  尖锐#VA  ，#PU  鳞片#AD  细小#VA  ，#PU  银灰色#VV  ，#PU  产卵#CD  期#M  有#VE  橙色#NN  条纹#NN    。#PU  鲑鱼#NN  肉质#NN  紧密#AD  鲜美#VV  ，#PU  肉色#NN  为#P  粉红色#NN  并#AD  具有#VV  弹性#NN    。#PU  鲑鱼#NN  以#P  挪威#NR  产量#NN  最#AD  大#VA  ，#PU  名气#NN  也#AD  很#AD  大#VA    。#PU  但#AD  质量#NN  最#AD  好#VA  的#DEC  三文鱼#CD  产自#NN  美国#NR  的#DEG  阿拉斯加#NN  海域#NN  和#CC  英国#NR  的#DEG  英格兰#NR  海域#NN    。#PU  三文鱼#CD  是#VC  西餐#NN  较#AD  常用#JJ  的#DEG  鱼类#NN  原料#NN  之一#NN    。#PU    。#PU
+            三文鱼#CD  是#VC  是#VC  一#CD  种#M  生长#NN  在#P  加拿大#NR  、#PU  挪威#NR  、#PU  日本#NR  和#CC  俄罗斯#NR  、#PU  中国#NR  黑龙江省#NR  佳木斯市#NR  等#ETC  高纬度#NN  地区#NN  的#DEG  冷水#NN  鱼类#NN    。#PU  鱼肉#AD  呈#VV  橘红色#NN  ，#PU  鲜嫩#VV  刺少#NN    。#PU  含#VV  丰富#VA  的#DEC  虾青素#NN  和#CC  不#AD  饱和#VV  脂肪酸#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nummod, -LRB-#NN, 三文鱼#CD)  (nn, -RRB-#NN, salmon#NN)  (advmod, 叫#VV, 也#AD)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 撒蒙鱼或萨门鱼#NN)  (conj, 叫#VV, 学名#VV)  (dobj, 学名#VV, 鲑鱼#NN)  (cop, 之一#NN, 是#VC)  (nsubj, 著名#VA, 世界#NN)  (relcl, 之一#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nn, 之一#NN, 淡水#NN)  (nn, 之一#NN, 鱼类#NN)  (conj, 叫#VV, 之一#NN)  (advmod, 分布#VV, 主要#AD)  (conj, 叫#VV, 分布#VV)  (case, 地区#NN, 在#P)  (nn, 北部#NN, 太平洋#NR)  (conj, 地区#NN, 北部#NN)  (cc, 地区#NN, 及#CC)  (conj, 美洲#NR, 欧洲#NR)  (conj, 美洲#NR, 亚洲#NR)  (assmod, 地区#NN, 美洲#NR)  (case, 美洲#NR, 的#DEG)  (nn, 地区#NN, 北部#NN)  (prep, 分布#VV, 地区#NN)   (nn, 体#NN, 鲑鱼#NN)  (nsubj, 侧扁#VV, 体#NN)  (root, ROOT#null, 侧扁#VV)  (nn, 隆起#NN, 背部#NN)  (nsubj, 尖锐#VA, 隆起#NN)  (advmod, 尖锐#VA, 齿#AD)  (ccomp, 侧扁#VV, 尖锐#VA)  (advmod, 细小#VA, 鳞片#AD)  (conj, 尖锐#VA, 细小#VA)  (conj, 尖锐#VA, 银灰色#VV)  (nummod, 期#M, 产卵#CD)  (dep, 尖锐#VA, 期#M)  (dep, 侧扁#VV, 有#VE)  (nn, 条纹#NN, 橙色#NN)  (dobj, 有#VE, 条纹#NN)   (nn, 肉质#NN, 鲑鱼#NN)  (nsubj, 鲜美#VV, 肉质#NN)  (advmod, 鲜美#VV, 紧密#AD)  (root, ROOT#null, 鲜美#VV)  (nsubj, 具有#VV, 肉色#NN)  (case, 粉红色#NN, 为#P)  (prep, 具有#VV, 粉红色#NN)  (advmod, 具有#VV, 并#AD)  (ccomp, 鲜美#VV, 具有#VV)  (dobj, 具有#VV, 弹性#NN)   (nsubj, 大#VA, 鲑鱼#NN)  (case, 产量#NN, 以#P)  (nn, 产量#NN, 挪威#NR)  (prep, 大#VA, 产量#NN)  (advmod, 大#VA, 最#AD)  (root, ROOT#null, 大#VA)  (nsubj, 大#VA, 名气#NN)  (advmod, 大#VA, 也#AD)  (advmod, 大#VA, 很#AD)  (conj, 大#VA, 大#VA)   (advmod, 好#VA, 但#AD)  (nsubj, 好#VA, 质量#NN)  (advmod, 好#VA, 最#AD)  (relcl, 产自#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nummod, 产自#NN, 三文鱼#CD)  (nsubj, 海域#NN, 产自#NN)  (assmod, 海域#NN, 美国#NR)  (case, 美国#NR, 的#DEG)  (nn, 海域#NN, 阿拉斯加#NN)  (conj, 海域#NN, 海域#NN)  (cc, 海域#NN, 和#CC)  (assmod, 海域#NN, 英国#NR)  (case, 英国#NR, 的#DEG)  (nn, 海域#NN, 英格兰#NR)  (root, ROOT#null, 海域#NN)   (nsubj, 之一#NN, 三文鱼#CD)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 西餐#NN)  (advmod, 常用#JJ, 较#AD)  (assmod, 之一#NN, 常用#JJ)  (case, 常用#JJ, 的#DEG)  (nn, 之一#NN, 鱼类#NN)  (nn, 之一#NN, 原料#NN)  (root, ROOT#null, 之一#NN)   (root, ROOT#null, null#null)
+            (nsubj, 鱼类#NN, 三文鱼#CD)  (cop, 鱼类#NN, 是#VC)  (cop, 生长#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 生长#NN, 种#M)  (relcl, 鱼类#NN, 生长#NN)  (case, 地区#NN, 在#P)  (conj, 佳木斯市#NR, 加拿大#NR)  (conj, 佳木斯市#NR, 挪威#NR)  (conj, 佳木斯市#NR, 日本#NR)  (cc, 佳木斯市#NR, 和#CC)  (conj, 佳木斯市#NR, 俄罗斯#NR)  (nn, 佳木斯市#NR, 中国#NR)  (nn, 佳木斯市#NR, 黑龙江省#NR)  (nn, 地区#NN, 佳木斯市#NR)  (etc, 佳木斯市#NR, 等#ETC)  (nn, 地区#NN, 高纬度#NN)  (assmod, 鱼类#NN, 地区#NN)  (case, 地区#NN, 的#DEG)  (nn, 鱼类#NN, 冷水#NN)  (root, ROOT#null, 鱼类#NN)   (advmod, 呈#VV, 鱼肉#AD)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 橘红色#NN)  (dep, 呈#VV, 鲜嫩#VV)  (dobj, 鲜嫩#VV, 刺少#NN)   (root, ROOT#null, 含#VV)  (relcl, 虾青素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, 虾青素#NN)  (cc, 含#VV, 和#CC)  (neg, 饱和#VV, 不#AD)  (conj, 含#VV, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.预防老年痴呆
+            可以降低血脂和血清胆固醇，防治心血管疾病，所含的Ω-3脂肪酸更是脑部、视网膜及神经系统所必不可少的物质，有增强脑功能、防治老年痴呆和预防视力减退的功效。
+            2.预防慢性病
+            三文鱼能有效地预防诸如糖尿病等慢性疾病的发生、发展，具有很高的营养价值，享有“水中珍品”的美誉。
+            3.健脾胃
+            三文鱼肉有补虚劳、健脾胃、暖胃和中的功能。
+            4.缓解水肿
+            可治消瘦、水肿、消化不良等症。
+        </rawdata>
+
+        <segment>
+            预防  老年  痴呆
+            可以  降低  血脂  和  血清  胆固醇  ，  防治  心  血管  疾病  ，  所含  的  Ω-3  脂肪酸  更  是  脑部  、  视网膜  及  神经  系统  所  必不可少  的  物质  ，  有  增强  脑  功能  、  防治  老年  痴呆  和  预防  视力  减退  的  功效  。
+            预防  慢性病
+            三文鱼  能  有效  地  预防  诸如  糖尿病  等  慢性  疾病  的  发生  、  发展  ，  具有  很  高  的  营养  价值  ，  享有  “  水中  珍品  ”  的  美誉  。
+            健脾胃
+            三文鱼  肉  有  补  虚  劳  、  健脾胃  、  暖  胃  和  中的  功能  。
+            缓解  水肿
+            可治  消瘦  、  水肿  、  消化不良  等症  。
+        </segment>
+
+        <pos>
+            预防#NN  老年#VV  痴呆#NN
+            可以#VV  降低#VV  血脂#NN  和#CC  血清#NN  胆固醇#NN  ，#PU  防治#VV  心#NN  血管#NN  疾病#NN  ，#PU  所含#VV  的#DEC  Ω-3#CD  脂肪酸#NN  更#AD  是#VC  脑部#NN  、#PU  视网膜#NN  及#CC  神经#NN  系统#NN  所#MSP  必不可少#VV  的#DEC  物质#NN  ，#PU  有#VE  增强#VV  脑#NN  功能#NN  、#PU  防治#NN  老年#NN  痴呆#NN  和#CC  预防#VV  视力#NN  减退#NN  的#DEC  功效#NN  。#PU
+            预防#NN  慢性病#VV
+            三文鱼#CD  能#VV  有效#VA  地#DEV  预防#VV  诸如#AD  糖尿病#NN  等#ETC  慢性#NN  疾病#NN  的#DEG  发生#NN  、#PU  发展#VV  ，#PU  具有#VV  很#AD  高#VA  的#DEC  营养#VA  价值#NN  ，#PU  享有#VV  ``#VV  水中#NN  珍品#NN  ''#NN  的#DEC  美誉#NN  。#PU
+            健脾胃#VV
+            三文鱼#CD  肉#NN  有#VE  补#VV  虚#AD  劳#NN  、#PU  健脾胃#NN  、#PU  暖#NN  胃#NN  和#CC  中的#NN  功能#NN  。#PU
+            缓解#VV  水肿#NN
+            可治#VV  消瘦#NR  、#PU  水肿#NR  、#PU  消化不良#NR  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 老年#VV, 预防#NN)  (root, ROOT#null, 老年#VV)  (dobj, 老年#VV, 痴呆#NN)
+            (mmod, 降低#VV, 可以#VV)  (relcl, 脂肪酸#NN, 降低#VV)  (conj, 胆固醇#NN, 血脂#NN)  (cc, 胆固醇#NN, 和#CC)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)  (conj, 降低#VV, 所含#VV)  (mark, 降低#VV, 的#DEC)  (nummod, 脂肪酸#NN, Ω-3#CD)  (nsubj, 物质#NN, 脂肪酸#NN)  (advmod, 物质#NN, 更#AD)  (cop, 物质#NN, 是#VC)  (conj, 系统#NN, 脑部#NN)  (conj, 系统#NN, 视网膜#NN)  (cc, 系统#NN, 及#CC)  (nn, 系统#NN, 神经#NN)  (nn, 物质#NN, 系统#NN)  (prtmod, 必不可少#VV, 所#MSP)  (relcl, 系统#NN, 必不可少#VV)  (relcl, 物质#NN, 必不可少#VV)  (mark, 必不可少#VV, 的#DEC)  (root, ROOT#null, 物质#NN)  (dep, 物质#NN, 有#VE)  (relcl, 功效#NN, 增强#VV)  (nn, 痴呆#NN, 脑#NN)  (conj, 痴呆#NN, 功能#NN)  (nn, 痴呆#NN, 防治#NN)  (nn, 痴呆#NN, 老年#NN)  (dobj, 增强#VV, 痴呆#NN)  (cc, 增强#VV, 和#CC)  (conj, 增强#VV, 预防#VV)  (nn, 减退#NN, 视力#NN)  (dobj, 预防#VV, 减退#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+            (nsubj, 慢性病#VV, 预防#NN)  (root, ROOT#null, 慢性病#VV)
+            (dep, 预防#VV, 三文鱼#CD)  (mmod, 预防#VV, 能#VV)  (dvpmod, 预防#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (root, ROOT#null, 预防#VV)  (advmod, 发生#NN, 诸如#AD)  (nn, 发生#NN, 糖尿病#NN)  (etc, 糖尿病#NN, 等#ETC)  (nn, 疾病#NN, 慢性#NN)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)  (conj, 预防#VV, 发展#VV)  (conj, 预防#VV, 具有#VV)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (dobj, 具有#VV, 价值#NN)  (conj, 预防#VV, 享有#VV)  (relcl, 美誉#NN, ``#VV)  (nn, ''#NN, 水中#NN)  (nn, ''#NN, 珍品#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 享有#VV, 美誉#NN)
+            (root, ROOT#null, 健脾胃#VV)
+            (nummod, 肉#NN, 三文鱼#CD)  (dep, 有#VE, 肉#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 补#VV)  (advmod, 补#VV, 虚#AD)  (conj, 中的#NN, 劳#NN)  (conj, 中的#NN, 健脾胃#NN)  (nn, 中的#NN, 暖#NN)  (conj, 中的#NN, 胃#NN)  (cc, 中的#NN, 和#CC)  (nn, 功能#NN, 中的#NN)  (dobj, 补#VV, 功能#NN)
+            (root, ROOT#null, 缓解#VV)  (dobj, 缓解#VV, 水肿#NN)
+            (root, ROOT#null, 可治#VV)  (conj, 消化不良#NR, 消瘦#NR)  (conj, 消化不良#NR, 水肿#NR)  (nn, 等症#NN, 消化不良#NR)  (dobj, 可治#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  辅助降血糖  延缓衰老  抗氧化  利水  健胃  补虚  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.三文鱼中含有丰富的不饱和脂肪酸，能有效提升高密度脂蛋白胆固醇、降低血脂和低密度脂蛋白胆固醇，防治心血管疾病。
+            2.所含的Ω-3脂肪酸更是脑部、视网膜及神经系统所必不可少的物质，在鱼肝油中该物质的含量更高。
+            3.三文鱼肝油中还富含维生素D等，能促进机体对钙的吸收利用，有助于生长发育。
+        </rawdata>
+
+        <segment>
+            三文鱼  中  含有  丰富  的  不饱和  脂肪酸  ，  能  有效  提升  高密度  脂蛋白  胆固醇  、  降低  血脂  和  低密度  脂蛋白  胆固醇  ，  防治  心  血管  疾病  。
+            所  含  的  Ω-3  脂肪酸  更  是  脑部  、  视网膜  及  神经  系统  所  必不可少  的  物质  ，  在  鱼肝油  中  该  物质  的  含量  更  高  。
+            三  文  鱼肝油  中  还  富含  维生素D  等  ，  能  促进  机体  对  钙  的  吸收  利用  ，  有助于  生长  发育  。
+        </segment>
+
+        <pos>
+            三文鱼#CD  中#LC  含有#AD  丰富#VA  的#DEC  不饱和#NN  脂肪酸#NN  ，#PU  能#VV  有效#AD  提升#VV  高密度#NN  脂蛋白#NN  胆固醇#NN  、#PU  降低#VV  血脂#NR  和#CC  低密度#NR  脂蛋白#NN  胆固醇#NN  ，#PU  防治#VV  心#NN  血管#NN  疾病#NN  。#PU
+            所#MSP  含#VV  的#DEC  Ω-3#CD  脂肪酸#NN  更#AD  是#VC  脑部#NN  、#PU  视网膜#NN  及#CC  神经#NN  系统#NN  所#MSP  必不可少#VV  的#DEC  物质#NN  ，#PU  在#P  鱼肝油#NN  中#LC  该#DT  物质#NN  的#DEG  含量#NN  更#AD  高#VA  。#PU
+            三#CD  文#NN  鱼肝油#NN  中#LC  还#AD  富含#VV  维生素D#NN  等#ETC  ，#PU  能#VV  促进#VV  机体#VV  对#P  钙#NN  的#DEG  吸收#NN  利用#NN  ，#PU  有助于#VV  生长#NN  发育#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 三文鱼#CD)  (case, 三文鱼#CD, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 脂肪酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 脂肪酸#NN, 不饱和#NN)  (nsubj, 提升#VV, 脂肪酸#NN)  (mmod, 提升#VV, 能#VV)  (advmod, 提升#VV, 有效#AD)  (root, ROOT#null, 提升#VV)  (nn, 胆固醇#NN, 高密度#NN)  (nn, 胆固醇#NN, 脂蛋白#NN)  (dobj, 提升#VV, 胆固醇#NN)  (conj, 提升#VV, 降低#VV)  (conj, 低密度#NR, 血脂#NR)  (cc, 低密度#NR, 和#CC)  (nn, 胆固醇#NN, 低密度#NR)  (nn, 胆固醇#NN, 脂蛋白#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 提升#VV, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)
+            (prtmod, 含#VV, 所#MSP)  (relcl, 脂肪酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nummod, 脂肪酸#NN, Ω-3#CD)  (nsubj, 物质#NN, 脂肪酸#NN)  (advmod, 物质#NN, 更#AD)  (cop, 物质#NN, 是#VC)  (conj, 系统#NN, 脑部#NN)  (conj, 系统#NN, 视网膜#NN)  (cc, 系统#NN, 及#CC)  (nn, 系统#NN, 神经#NN)  (nn, 物质#NN, 系统#NN)  (prtmod, 必不可少#VV, 所#MSP)  (relcl, 系统#NN, 必不可少#VV)  (relcl, 物质#NN, 必不可少#VV)  (mark, 必不可少#VV, 的#DEC)  (root, ROOT#null, 物质#NN)  (case, 鱼肝油#NN, 在#P)  (prep, 高#VA, 鱼肝油#NN)  (case, 鱼肝油#NN, 中#LC)  (det, 物质#NN, 该#DT)  (assmod, 含量#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 更#AD)  (conj, 物质#NN, 高#VA)
+            (nummod, 文#NN, 三#CD)  (nsubj, 富含#VV, 文#NN)  (loc, 富含#VV, 鱼肝油#NN)  (case, 鱼肝油#NN, 中#LC)  (advmod, 富含#VV, 还#AD)  (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 维生素D#NN)  (etc, 维生素D#NN, 等#ETC)  (mmod, 促进#VV, 能#VV)  (conj, 富含#VV, 促进#VV)  (ccomp, 促进#VV, 机体#VV)  (case, 钙#NN, 对#P)  (assmod, 利用#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (nn, 利用#NN, 吸收#NN)  (dobj, 机体#VV, 利用#NN)  (conj, 富含#VV, 有助于#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 有助于#VV, 发育#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.只需把鱼做成八成熟，这样既保存三文鱼的鲜嫩，也可祛除鱼腥味。
+            2.三文鱼不需要做的特别烂。
+        </rawdata>
+
+        <segment>
+            只需  把  鱼  做成  八  成熟  ，  这样  既  保存  三文鱼  的  鲜嫩  ，  也  可  祛除  鱼腥味  。
+            三文鱼  不  需要  做  的  特别  烂  。
+        </segment>
+
+        <pos>
+            只需#NN  把#BA  鱼#NN  做成#VV  八#CD  成熟#VA  ，#PU  这样#AD  既#CC  保存#VV  三文鱼#CD  的#DEG  鲜嫩#NN  ，#PU  也#AD  可#VV  祛除#VV  鱼腥味#NN  。#PU
+            三文鱼#CD  不#AD  需要#VV  做#VV  的#DEC  特别#JJ  烂#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 做成#VV, 只需#NN)  (ba, 做成#VV, 把#BA)  (nsubj, 做成#VV, 鱼#NN)  (root, ROOT#null, 做成#VV)  (range, 做成#VV, 八#CD)  (dep, 做成#VV, 成熟#VA)  (advmod, 保存#VV, 这样#AD)  (cc, 保存#VV, 既#CC)  (conj, 做成#VV, 保存#VV)  (assmod, 鲜嫩#NN, 三文鱼#CD)  (case, 三文鱼#CD, 的#DEG)  (dobj, 保存#VV, 鲜嫩#NN)  (advmod, 祛除#VV, 也#AD)  (mmod, 祛除#VV, 可#VV)  (conj, 保存#VV, 祛除#VV)  (dobj, 祛除#VV, 鱼腥味#NN)
+            (dep, 需要#VV, 三文鱼#CD)  (neg, 需要#VV, 不#AD)  (root, ROOT#null, 需要#VV)  (relcl, 烂#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (amod, 烂#NN, 特别#JJ)  (dobj, 需要#VV, 烂#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100934392206.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

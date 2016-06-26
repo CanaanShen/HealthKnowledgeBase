@@ -1,0 +1,410 @@
+<content>
+
+    <id>
+        145
+    </id>
+
+    <foodname>
+        海参
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        其他水产
+    </secondcategory>
+
+    <alias>
+        海男子、土肉、刺参、海鼠、海瓜皮
+    </alias>
+
+    <season>
+        春、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患急性肠炎、菌痢、感冒、咳痰、气喘及大便溏薄、出血兼有瘀滞及湿邪阻滞的患者忌食。
+        </rawdata>
+
+        <segment>
+            患  急性  肠炎  、  菌痢  、  感冒  、  咳痰  、  气喘  及  大便  溏薄  、  出血  兼有  瘀滞  及  湿邪  阻滞  的  患者  忌食  。
+        </segment>
+
+        <pos>
+            患#NN  急性#VV  肠炎#NR  、#PU  菌痢#NR  、#PU  感冒#NR  、#PU  咳痰#NR  、#PU  气喘#NR  及#CC  大便#NR  溏薄#NN  、#PU  出血#VV  兼有#NN  瘀滞#NN  及#CC  湿邪#NN  阻滞#NN  的#DEG  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 急性#VV, 患#NN)  (root, ROOT#null, 急性#VV)  (conj, 大便#NR, 肠炎#NR)  (conj, 大便#NR, 菌痢#NR)  (conj, 大便#NR, 感冒#NR)  (conj, 大便#NR, 咳痰#NR)  (conj, 大便#NR, 气喘#NR)  (cc, 大便#NR, 及#CC)  (nn, 溏薄#NN, 大便#NR)  (dobj, 急性#VV, 溏薄#NN)  (conj, 急性#VV, 出血#VV)  (nn, 阻滞#NN, 兼有#NN)  (conj, 阻滞#NN, 瘀滞#NN)  (cc, 阻滞#NN, 及#CC)  (nn, 阻滞#NN, 湿邪#NN)  (assmod, 忌食#NN, 阻滞#NN)  (case, 阻滞#NN, 的#DEG)  (nn, 忌食#NN, 患者#NN)  (dobj, 出血#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、冠心病、肝炎、肾炎、糖尿病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  冠心病  、  肝炎  、  肾炎  、  糖尿病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  、#PU  冠心病#NN  、#PU  肝炎#NN  、#PU  肾炎#NN  、#PU  糖尿病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 糖尿病#NN, 高血压#NN)  (conj, 糖尿病#NN, 冠心病#NN)  (conj, 糖尿病#NN, 肝炎#NN)  (conj, 糖尿病#NN, 肾炎#NN)  (nn, 患者#NN, 糖尿病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                16.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                3.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                285
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                502.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                149
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                13.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                63.93
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.76
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            海参，为刺参科动物刺参或其他种海参的全体，是生活在海边至8000米的海洋软体动物，有人称之为“海人参”，因补益作用类似人参而得名，据今已有六亿多年的历史。海参以海底藻类和浮游生物为食，全身长满肉刺，广布于世界各海洋中，我国南海沿岸种类较多，约有二十余种海参可供食用，海参同人参、燕窝、鱼翅齐名，是世界八大珍品之一。
+            海参捕得后，除去内脏，洗净腔内泥沙，入适当的盐水中烧煮约1小时，捞起放冷，经曝晒或烘焙至八、九成干时，再入蓬叶液中略煮，至颜色转黑时，取出晒干。海参，既是宴席上的佳肴，又是滋补人体的珍品，其药用价值也较高。祖国医学认为，海参“甘、咸，温，补肾益精，壮阳疗痿”。《随息居饮食谱》中说：海参能“滋阴补血，健阳润燥，调经，养胎，利产”。
+            我国是一个盛产海参的国家，沿海各省都有出产，分为梅花参、刺参、大乌参、白石参、元参、黄参、茄参等。据《本草纲目拾遗》中说：奉去海参属第一。其实，奉天(今沈阳)是内陆城市，所用海参是辽东半岛渤海湾出产的大刺参。这种参体大乌墨，肉刺显著，入馔最佳。据行家讲，驰名中外的刺参即是海参中品质最好的，虽然个头不大，但体壁肥厚、肉质红糯，体面皮藩，我国人民历来把它当作补品。南海产的梅花参，称为“海参之王”，最大者可长达90-120厘米，而且肉厚、质优脆嫩，在食用海参中首屈一指。
+        </rawdata>
+
+        <segment>
+            海参  ，  为  刺参  科  动物  刺参  或  其他  种  海参  的  全体  ，  是  生活  在  海边  至  8000  米  的  海洋  软体  动物  ，  有  人  称之为  “  海人参  ”  ，  因  补益  作用  类似  人参  而  得名  ，  据今  已  有  六亿多  年  的  历史  。  海参  以  海底  藻类  和  浮游  生物  为  食  ，  全身  长满  肉刺  ，  广布  于  世界  各  海洋  中  ，  我国  南海  沿岸  种类  较  多  ，  约  有  二十  余  种  海参  可  供  食用  ，  海参  同  人参  、  燕窝  、  鱼翅  齐名  ，  是  世界  八  大  珍品  之一  。
+            海参  捕  得  后  ，  除去  内脏  ，  洗净  腔内  泥沙  ，  入  适当  的  盐水  中  烧煮  约  1  小时  ，  捞起  放冷  ，  经  曝晒  或  烘焙  至  八  、  九成  干时  ，  再入  蓬叶液  中略  煮  ，  至  颜色  转  黑时  ，  取出  晒干  。  海参  ，  既  是  宴席  上  的  佳肴  ，  又是  滋补  人体  的  珍品  ，  其  药用  价值  也  较  高  。  祖国  医学  认为  ，  海参  “  甘  、  咸  ，  温  ，  补  肾  益精  ，  壮阳疗痿  ”  。  《  随  息  居  饮  食谱  》  中  说  ：  海参  能  “  滋阴  补血  ，  健阳润燥  ，  调经  ，  养  胎  ，  利产  ”  。
+            我国  是  一  个  盛产  海参  的  国家  ，  沿海  各  省  都  有  出产  ，  分为  梅花参  、  刺参  、  大  乌  参  、  白石参  、  元参  、  黄参  、  茄参  等  。  据  《  本草  纲目  拾遗  》  中  说  ：  奉  去  海参  属  第一  。  其实  ，  奉天  (  今  沈阳  )  是  内陆  城市  ，  所用  海参  是  辽东  半岛  渤海湾  出产  的  大  刺参  。  这  种  参体  大  乌墨  ，  肉  刺  显著  ，  入馔  最  佳  。  据  行家  讲  ，  驰名  中外  的  刺参  即  是  海参  中  品质  最  好  的  ，  虽然  个头  不大  ，  但  体壁  肥厚  、  肉质  红糯  ，  体面  皮藩  ，  我国  人民  历来  把  它  当作  补品  。  南海  产  的  梅花参  ，  称为  “  海参  之  王  ”  ，  最  大  者  可  长达  90-120  厘米  ，  而且  肉厚  、  质优  脆嫩  ，  在  食用  海参  中  首屈一指  。
+        </segment>
+
+        <pos>
+            海参#VV  ，#PU  为#P  刺参#NN  科#NN  动物#NN  刺参#VA  或#CC  其他#DT  种#M  海参#NN  的#DEG  全体#DT  ，#PU  是#VC  生活#NN  在#P  海边#CD  至#CC  8000#CD  米#M  的#DEG  海洋#NN  软体#VV  动物#NN  ，#PU  有#VE  人#NN  称之为#NN  ``#NN  海人参#NN  ''#NN  ，#PU  因#P  补益#NN  作用#NN  类似#VA  人参#VV  而#CC  得名#VV  ，#PU  据今#NR  已#AD  有#VE  六亿多#CD  年#M  的#DEC  历史#NN    。#PU  海参#NN  以#P  海底#NN  藻类#NN  和#CC  浮游#JJ  生物#NN  为#VV  食#NN  ，#PU  全身#VV  长满#NN  肉刺#NN  ，#PU  广布#VV  于#P  世界#NN  各#DT  海洋#NN  中#LC  ，#PU  我国#VV  南海#NR  沿岸#NN  种类#NN  较#AD  多#VA  ，#PU  约#AD  有#VE  二十#CD  余#NN  种#M  海参#NN  可#VV  供#VV  食用#VV  ，#PU  海参#AD  同#P  人参#NR  、#PU  燕窝#NR  、#PU  鱼翅#NR  齐名#VV  ，#PU  是#VC  世界#NN  八#CD  大#JJ  珍品#NN  之一#NN    。#PU    。#PU
+            海参#NN  捕#NN  得#VV  后#LC  ，#PU  除去#P  内脏#NN  ，#PU  洗净#NN  腔内#VV  泥沙#NN  ，#PU  入#VV  适当#VA  的#DEC  盐水#NN  中#LC  烧煮#VV  约#AD  1#CD  小时#NN  ，#PU  捞起#VV  放冷#NN  ，#PU  经#P  曝晒#NR  或#CC  烘焙#NR  至#CC  八#CD  、#PU  九成#CD  干时#NN  ，#PU  再入#NN  蓬叶液#NN  中略#AD  煮#VV  ，#PU  至#CC  颜色#NN  转#VV  黑时#NN  ，#PU  取出#VV  晒干#NN    。#PU  海参#NN  ，#PU  既#CC  是#VC  宴席#NN  上#LC  的#DEG  佳肴#NN  ，#PU  又是#VV  滋补#NN  人体#NN  的#DEG  珍品#NN  ，#PU  其#PN  药用#NN  价值#NN  也#AD  较#AD  高#VA    。#PU  祖国#NN  医学#NN  认为#VV  ，#PU  海参#NN  ``#VV  甘#NR  、#PU  咸#NR  ，#PU  温#NN  ，#PU  补#VV  肾#NN  益精#NN  ，#PU  壮阳疗痿#VV  ''#NN    。#PU  随#P  息#NN  居#VV  饮#NN  食谱#NN  中#LC  说#VV  ：#PU  海参#NN  能#VV  ``#VV  滋阴#NN  补血#NN  ，#PU  健阳润燥#VV  ，#PU  调经#VV  ，#PU  养#VV  胎#NN  ，#PU  利产#VV  ''#NN    。#PU    。#PU
+            我国#NN  是#VC  一#CD  个#M  盛产#VV  海参#NN  的#DEC  国家#NN  ，#PU  沿海#NN  各#DT  省#NN  都#AD  有#VE  出产#VV  ，#PU  分为#VV  梅花参#NR  、#PU  刺参#NR  、#PU  大#JJ  乌#NR  参#NR  、#PU  白石参#NR  、#PU  元参#NR  、#PU  黄参#NR  、#PU  茄参#NR  等#ETC    。#PU  据#P  本草#NN  纲目#NN  拾遗#NN  中#LC  说#VV  ：#PU  奉#NN  去#NN  海参#AD  属#VV  第一#OD    。#PU  其实#AD  ，#PU  奉天#NR  -LRB-#NN  今#NT  沈阳#NR  -RRB-#NN  是#VC  内陆#NN  城市#NN  ，#PU  所用#NN  海参#NN  是#VC  辽东#NR  半岛#NN  渤海湾#NR  出产#VV  的#DEC  大#JJ  刺参#NN    。#PU  这#DT  种#M  参体#NN  大#JJ  乌墨#NN  ，#PU  肉#NN  刺#AD  显著#VA  ，#PU  入馔#NN  最#AD  佳#VA    。#PU  据#P  行家#NN  讲#VV  ，#PU  驰名#VV  中外#NN  的#DEC  刺参#NN  即#AD  是#VC  海参#NN  中#LC  品质#NN  最#AD  好#VA  的#DEC  ，#PU  虽然#CS  个头#VV  不大#NN  ，#PU  但#AD  体壁#NN  肥厚#NN  、#PU  肉质#NN  红糯#NN  ，#PU  体面#NN  皮藩#NN  ，#PU  我国#NR  人民#NN  历来#AD  把#BA  它#PN  当作#VV  补品#NN    。#PU  南海#NR  产#VV  的#DEC  梅花参#NN  ，#PU  称为#VV  ``#NN  海参#NN  之#DEG  王#NN  ''#NN  ，#PU  最#AD  大#JJ  者#NN  可#VV  长达#VV  90-120#CD  厘米#M  ，#PU  而且#CC  肉厚#NR  、#PU  质优#NR  脆嫩#VV  ，#PU  在#P  食用#VV  海参#NN  中#LC  首屈一指#CD    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 历史#NN, 海参#VV)  (case, 刺参#VA, 为#P)  (nn, 动物#NN, 刺参#NN)  (nn, 动物#NN, 科#NN)  (nsubj, 刺参#VA, 动物#NN)  (prep, 有#VE, 刺参#VA)  (cc, 刺参#VA, 或#CC)  (det, 海参#NN, 其他#DT)  (clf, 其他#DT, 种#M)  (dep, 全体#DT, 海参#NN)  (case, 海参#NN, 的#DEG)  (dep, 软体#VV, 全体#DT)  (dep, 生活#NN, 是#VC)  (nsubj, 软体#VV, 生活#NN)  (case, 海洋#NN, 在#P)  (dep, 米#M, 海边#CD)  (cc, 米#M, 至#CC)  (nummod, 米#M, 8000#CD)  (assmod, 海洋#NN, 米#M)  (case, 米#M, 的#DEG)  (prep, 软体#VV, 海洋#NN)  (conj, 刺参#VA, 软体#VV)  (dobj, 软体#VV, 动物#NN)  (dep, 软体#VV, 有#VE)  (nn, ''#NN, 人#NN)  (nn, ''#NN, 称之为#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 海人参#NN)  (dobj, 有#VE, ''#NN)  (case, 类似#VA, 因#P)  (nn, 作用#NN, 补益#NN)  (nsubj, 类似#VA, 作用#NN)  (prep, 人参#VV, 类似#VA)  (conj, 软体#VV, 人参#VV)  (cc, 人参#VV, 而#CC)  (conj, 人参#VV, 得名#VV)  (nsubj, 有#VE, 据今#NR)  (advmod, 有#VE, 已#AD)  (ccomp, 海参#VV, 有#VE)  (nummod, 年#M, 六亿多#CD)  (dep, 有#VE, 年#M)  (mark, 海参#VV, 的#DEC)  (root, ROOT#null, 历史#NN)   (nsubj, 为#VV, 海参#NN)  (case, 生物#NN, 以#P)  (nn, 藻类#NN, 海底#NN)  (conj, 生物#NN, 藻类#NN)  (cc, 生物#NN, 和#CC)  (amod, 生物#NN, 浮游#JJ)  (prep, 为#VV, 生物#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 食#NN)  (conj, 为#VV, 全身#VV)  (nn, 肉刺#NN, 长满#NN)  (dobj, 全身#VV, 肉刺#NN)  (conj, 为#VV, 广布#VV)  (case, 海洋#NN, 于#P)  (nn, 海洋#NN, 世界#NN)  (det, 海洋#NN, 各#DT)  (prep, 广布#VV, 海洋#NN)  (case, 海洋#NN, 中#LC)  (conj, 为#VV, 我国#VV)  (nn, 种类#NN, 南海#NR)  (nn, 种类#NN, 沿岸#NN)  (dobj, 我国#VV, 种类#NN)  (advmod, 多#VA, 较#AD)  (conj, 我国#VV, 多#VA)  (advmod, 有#VE, 约#AD)  (conj, 我国#VV, 有#VE)  (nummod, 余#NN, 二十#CD)  (nn, 海参#NN, 余#NN)  (clf, 海参#NN, 种#M)  (nsubj, 供#VV, 海参#NN)  (mmod, 供#VV, 可#VV)  (dep, 有#VE, 供#VV)  (ccomp, 供#VV, 食用#VV)  (advmod, 齐名#VV, 海参#AD)  (case, 鱼翅#NR, 同#P)  (conj, 鱼翅#NR, 人参#NR)  (conj, 鱼翅#NR, 燕窝#NR)  (prep, 齐名#VV, 鱼翅#NR)  (dep, 供#VV, 齐名#VV)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 世界#NN)  (nummod, 之一#NN, 八#CD)  (amod, 之一#NN, 大#JJ)  (nn, 之一#NN, 珍品#NN)  (conj, 为#VV, 之一#NN)   (root, ROOT#null, null#null)
+            (nn, 捕#NN, 海参#NN)  (nsubj, 得#VV, 捕#NN)  (loc, 腔内#VV, 得#VV)  (case, 得#VV, 后#LC)  (case, 内脏#NN, 除去#P)  (prep, 腔内#VV, 内脏#NN)  (nsubj, 腔内#VV, 洗净#NN)  (root, ROOT#null, 腔内#VV)  (dobj, 腔内#VV, 泥沙#NN)  (loc, 烧煮#VV, 入#VV)  (relcl, 盐水#NN, 适当#VA)  (mark, 适当#VA, 的#DEC)  (dobj, 入#VV, 盐水#NN)  (case, 入#VV, 中#LC)  (conj, 腔内#VV, 烧煮#VV)  (advmod, 1#CD, 约#AD)  (nummod, 小时#NN, 1#CD)  (dobj, 烧煮#VV, 小时#NN)  (conj, 腔内#VV, 捞起#VV)  (dobj, 捞起#VV, 放冷#NN)  (case, 干时#NN, 经#P)  (conj, 烘焙#NR, 曝晒#NR)  (cc, 烘焙#NR, 或#CC)  (conj, 干时#NN, 烘焙#NR)  (cc, 干时#NN, 至#CC)  (dep, 九成#CD, 八#CD)  (nummod, 干时#NN, 九成#CD)  (prep, 煮#VV, 干时#NN)  (nn, 蓬叶液#NN, 再入#NN)  (nsubj, 煮#VV, 蓬叶液#NN)  (advmod, 煮#VV, 中略#AD)  (conj, 腔内#VV, 煮#VV)  (cc, 腔内#VV, 至#CC)  (nsubj, 转#VV, 颜色#NN)  (conj, 腔内#VV, 转#VV)  (dobj, 转#VV, 黑时#NN)  (conj, 转#VV, 取出#VV)  (dobj, 取出#VV, 晒干#NN)   (nsubj, 佳肴#NN, 海参#NN)  (cc, 佳肴#NN, 既#CC)  (cop, 佳肴#NN, 是#VC)  (assmod, 佳肴#NN, 宴席#NN)  (case, 宴席#NN, 上#LC)  (case, 宴席#NN, 的#DEG)  (root, ROOT#null, 佳肴#NN)  (conj, 佳肴#NN, 又是#VV)  (nn, 人体#NN, 滋补#NN)  (assmod, 珍品#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 又是#VV, 珍品#NN)  (nsubj, 高#VA, 其#PN)  (nn, 价值#NN, 药用#NN)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 较#AD)  (conj, 佳肴#NN, 高#VA)   (nn, 医学#NN, 祖国#NN)  (nsubj, 认为#VV, 医学#NN)  (root, ROOT#null, 认为#VV)  (nsubj, ``#VV, 海参#NN)  (ccomp, 认为#VV, ``#VV)  (conj, 咸#NR, 甘#NR)  (dobj, ``#VV, 咸#NR)  (nsubj, 补#VV, 温#NN)  (conj, ``#VV, 补#VV)  (nn, 益精#NN, 肾#NN)  (dobj, 补#VV, 益精#NN)  (conj, 补#VV, 壮阳疗痿#VV)  (dobj, 壮阳疗痿#VV, ''#NN)   (case, 居#VV, 随#P)  (nsubj, 居#VV, 息#NN)  (prep, 说#VV, 居#VV)  (nn, 食谱#NN, 饮#NN)  (dobj, 居#VV, 食谱#NN)  (case, 居#VV, 中#LC)  (root, ROOT#null, 说#VV)  (nsubj, ``#VV, 海参#NN)  (mmod, ``#VV, 能#VV)  (ccomp, 说#VV, ``#VV)  (nn, 补血#NN, 滋阴#NN)  (dobj, ``#VV, 补血#NN)  (conj, ``#VV, 健阳润燥#VV)  (conj, ``#VV, 调经#VV)  (conj, ``#VV, 养#VV)  (dobj, 养#VV, 胎#NN)  (conj, ``#VV, 利产#VV)  (dobj, 利产#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 国家#NN, 我国#NN)  (cop, 国家#NN, 是#VC)  (nummod, 个#M, 一#CD)  (clf, 国家#NN, 个#M)  (relcl, 国家#NN, 盛产#VV)  (dobj, 盛产#VV, 海参#NN)  (mark, 盛产#VV, 的#DEC)  (root, ROOT#null, 国家#NN)  (nn, 省#NN, 沿海#NN)  (det, 省#NN, 各#DT)  (nsubj, 有#VE, 省#NN)  (advmod, 有#VE, 都#AD)  (conj, 国家#NN, 有#VE)  (dep, 有#VE, 出产#VV)  (dep, 出产#VV, 分为#VV)  (conj, 茄参#NR, 梅花参#NR)  (conj, 茄参#NR, 刺参#NR)  (amod, 乌#NR, 大#JJ)  (nn, 茄参#NR, 乌#NR)  (conj, 茄参#NR, 参#NR)  (conj, 茄参#NR, 白石参#NR)  (conj, 茄参#NR, 元参#NR)  (conj, 茄参#NR, 黄参#NR)  (dobj, 分为#VV, 茄参#NR)  (etc, 茄参#NR, 等#ETC)   (case, 拾遗#NN, 据#P)  (nn, 纲目#NN, 本草#NN)  (nn, 拾遗#NN, 纲目#NN)  (prep, 说#VV, 拾遗#NN)  (case, 拾遗#NN, 中#LC)  (root, ROOT#null, 说#VV)  (nn, 去#NN, 奉#NN)  (nsubj, 属#VV, 去#NN)  (advmod, 属#VV, 海参#AD)  (ccomp, 说#VV, 属#VV)  (range, 属#VV, 第一#OD)   (advmod, 城市#NN, 其实#AD)  (nn, -LRB-#NN, 奉天#NR)  (nn, -RRB-#NN, 今#NT)  (nn, -RRB-#NN, 沈阳#NR)  (cop, 城市#NN, 是#VC)  (nn, 城市#NN, 内陆#NN)  (root, ROOT#null, 城市#NN)  (nn, 海参#NN, 所用#NN)  (nsubj, 刺参#NN, 海参#NN)  (cop, 刺参#NN, 是#VC)  (nn, 半岛#NN, 辽东#NR)  (nn, 刺参#NN, 半岛#NN)  (nsubj, 出产#VV, 渤海湾#NR)  (relcl, 半岛#NN, 出产#VV)  (relcl, 刺参#NN, 出产#VV)  (mark, 出产#VV, 的#DEC)  (amod, 刺参#NN, 大#JJ)  (conj, 城市#NN, 刺参#NN)   (det, 参体#NN, 这#DT)  (clf, 这#DT, 种#M)  (nn, 乌墨#NN, 参体#NN)  (amod, 乌墨#NN, 大#JJ)  (nsubj, 显著#VA, 乌墨#NN)  (nsubj, 显著#VA, 肉#NN)  (advmod, 显著#VA, 刺#AD)  (root, ROOT#null, 显著#VA)  (nsubj, 佳#VA, 入馔#NN)  (advmod, 佳#VA, 最#AD)  (conj, 显著#VA, 佳#VA)   (case, 行家#NN, 据#P)  (prep, 讲#VV, 行家#NN)  (dep, 好#VA, 讲#VV)  (relcl, 刺参#NN, 驰名#VV)  (dobj, 驰名#VV, 中外#NN)  (mark, 驰名#VV, 的#DEC)  (nsubj, 好#VA, 刺参#NN)  (advmod, 好#VA, 即#AD)  (cop, 好#VA, 是#VC)  (loc, 好#VA, 海参#NN)  (case, 海参#NN, 中#LC)  (nsubj, 好#VA, 品质#NN)  (advmod, 好#VA, 最#AD)  (root, ROOT#null, 好#VA)  (mark, 好#VA, 的#DEC)  (advmod, 个头#VV, 虽然#CS)  (conj, 好#VA, 个头#VV)  (dobj, 个头#VV, 不大#NN)  (advmod, 当作#VV, 但#AD)  (nn, 红糯#NN, 体壁#NN)  (conj, 红糯#NN, 肥厚#NN)  (nn, 红糯#NN, 肉质#NN)  (nsubj, 当作#VV, 红糯#NN)  (nn, 皮藩#NN, 体面#NN)  (nsubj, 当作#VV, 皮藩#NN)  (nn, 人民#NN, 我国#NR)  (nsubj, 当作#VV, 人民#NN)  (advmod, 当作#VV, 历来#AD)  (ba, 当作#VV, 把#BA)  (nsubj, 当作#VV, 它#PN)  (conj, 好#VA, 当作#VV)  (dobj, 当作#VV, 补品#NN)   (nn, 梅花参#NN, 南海#NR)  (relcl, 南海#NR, 产#VV)  (relcl, 梅花参#NN, 产#VV)  (mark, 产#VV, 的#DEC)  (nsubj, 称为#VV, 梅花参#NN)  (root, ROOT#null, 称为#VV)  (nn, 海参#NN, ``#NN)  (assmod, ''#NN, 海参#NN)  (case, 海参#NN, 之#DEG)  (nn, ''#NN, 王#NN)  (dobj, 称为#VV, ''#NN)  (advmod, 大#JJ, 最#AD)  (amod, 者#NN, 大#JJ)  (nsubj, 长达#VV, 者#NN)  (mmod, 长达#VV, 可#VV)  (conj, 称为#VV, 长达#VV)  (nummod, 厘米#M, 90-120#CD)  (range, 长达#VV, 厘米#M)  (cc, 称为#VV, 而且#CC)  (conj, 质优#NR, 肉厚#NR)  (nsubj, 脆嫩#VV, 质优#NR)  (conj, 称为#VV, 脆嫩#VV)  (case, 食用#VV, 在#P)  (prep, 脆嫩#VV, 食用#VV)  (dobj, 食用#VV, 海参#NN)  (case, 食用#VV, 中#LC)  (dep, 脆嫩#VV, 首屈一指#CD)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促进发育增强免疫力
+            赖氨酸被荣称为人体的“生长素”和“脑灵素”，它是精子形成的必要成分，能促进人体发育，增强免疫功能，并有提高中枢神经组织功能的作用，故有恢复大脑疲劳、增强记忆力、预防老年性痴呆等功效。
+            2.美容养颜
+            消除疲劳；对阳萎、肾虚、神经衰弱等有治疗作用；还有预防皮肤衰老，清除体内过量的自由基，调节女性内分泌，推迟更年期等。
+            3.抑制血栓的形成
+            可对抗多种肿瘤的生长和自然转移；调节机体免疫功能；降低血液粘度，抑制栓塞形成；具有抗放射活性；促进机体造血功能的恢复；具有强大的抗炎作用；保护细胞水分，延缓衰老。
+            4.抑制癌细胞生长
+            有效抑制肿瘤细胞的生长；对抗组织细胞老化；调节免疫功能；刺激骨髓红细胞生长；抗疲劳。
+            5.降三高
+            调节体内脂质代谢，使肌体脂肪含量明显下降；降低血糖、血脂、胆固醇。对2型糖尿病患者、血糖、尿糖情况有所改善，对中老年人尿频有所改善
+            6.防治男性前列腺疾病
+            海参含有丰富的锌，锌是男性前列腺的重要组成部分，故而具有防治前列腺炎和尿路感染之作用。
+            7.增加造血功能
+            海参微量元素钒的含量居各种食物之首，可以参与血液中铁的输送，增强造血功能。
+            8.加速伤口愈合
+            手术后刀口愈合加快，体力和精力能迅速恢复。
+        </rawdata>
+
+        <segment>
+            促进  发育  增强  免疫力
+            赖氨酸  被  荣  称为  人体  的  “  生长素  ”  和  “  脑  灵  素  ”  ，  它  是  精子  形成  的  必要  成分  ，  能  促进  人体  发育  ，  增强  免疫  功能  ，  并  有  提高  中枢  神经  组织  功能  的  作用  ，  故  有  恢复  大脑  疲劳  、  增强  记忆力  、  预防  老年性  痴呆  等  功效  。
+            美容  养颜
+            消除  疲劳  ；  对  阳萎  、  肾虚  、  神经  衰弱  等  有  治疗  作用  ；  还有  预防  皮肤  衰老  ，  清除  体内  过量  的  自由基  ，  调节  女性  内分泌  ，  推迟  更年期  等  。
+            抑制  血栓  的  形成
+            可  对抗  多  种  肿瘤  的  生长  和  自然  转移  ；  调节  机体  免疫  功能  ；  降低  血液  粘度  ，  抑制  栓塞  形成  ；  具有  抗  放射  活性  ；  促进  机体  造血  功能  的  恢复  ；  具有  强大  的  抗炎  作用  ；  保护  细胞  水分  ，  延缓  衰老  。
+            抑制  癌细胞  生长
+            有效  抑制  肿瘤  细胞  的  生长  ；  对抗  组织  细胞  老化  ；  调节  免疫  功能  ；  刺激  骨髓  红  细胞  生长  ；  抗  疲劳  。
+            降  三高
+            调节  体内  脂质  代谢  ，  使  肌体  脂肪  含量  明显  下降  ；  降低  血糖  、  血脂  、  胆固醇  。  对  2  型  糖尿病  患者  、  血糖  、  尿糖  情况  有所  改善  ，  对  中老年人  尿频  有所  改善
+            防治  男性  前列腺  疾病
+            海参  含有  丰富  的  锌  ，  锌  是  男性  前列腺  的  重要  组成  部分  ，  故而  具有  防治  前列  腺炎  和  尿路  感染  之  作用  。
+            增加  造血  功能
+            海参  微量  元素  钒的  含量  居  各  种  食物  之  首  ，  可以  参与  血液  中  铁的  输送  ，  增强  造血  功能  。
+            加速  伤口  愈合
+            手术  后  刀口  愈合  加快  ，  体力  和  精力  能  迅速  恢复  。
+        </segment>
+
+        <pos>
+            促进#VV  发育#NN  增强#VV  免疫力#NN
+            赖氨酸#NR  被#SB  荣#VV  称为#VV  人体#NN  的#DEC  ``#NN  生长素#NN  ''#NN  和#CC  ``#NN  脑#NN  灵#VA  素#AD  ''#VV  ，#PU  它#PN  是#VC  精子#VV  形成#VV  的#DEC  必要#JJ  成分#NN  ，#PU  能#VV  促进#VV  人体#NN  发育#NN  ，#PU  增强#VV  免疫#NN  功能#NN  ，#PU  并#AD  有#VE  提高#VV  中枢#NN  神经#NN  组织#NN  功能#NN  的#DEC  作用#NN  ，#PU  故#AD  有#VE  恢复#NN  大脑#NN  疲劳#VA  、#PU  增强#VV  记忆力#NN  、#PU  预防#NN  老年性#NN  痴呆#NN  等#ETC  功效#NN  。#PU
+            美容#NN  养颜#VV
+            消除#VV  疲劳#VA  ；#PU  对#P  阳萎#NN  、#PU  肾虚#NN  、#PU  神经#NN  衰弱#NN  等#ETC  有#VE  治疗#NN  作用#NN  ；#PU  还有#AD  预防#NN  皮肤#AD  衰老#VA  ，#PU  清除#VV  体内#NN  过量#AD  的#DEC  自由基#NN  ，#PU  调节#VV  女性#NN  内分泌#NN  ，#PU  推迟#VV  更年期#NN  等#ETC  。#PU
+            抑制#VV  血栓#NN  的#DEG  形成#NN
+            可#VV  对抗#VV  多#CD  种#M  肿瘤#NN  的#DEG  生长#NN  和#CC  自然#AD  转移#VV  ；#PU  调节#VV  机体#NN  免疫#NN  功能#NN  ；#PU  降低#VV  血液#NN  粘度#NN  ，#PU  抑制#VV  栓塞#NN  形成#VV  ；#PU  具有#VV  抗#NN  放射#NN  活性#NN  ；#PU  促进#VV  机体#NN  造血#NN  功能#NN  的#DEG  恢复#NN  ；#PU  具有#VV  强大#VA  的#DEC  抗炎#JJ  作用#NN  ；#PU  保护#VV  细胞#NN  水分#NN  ，#PU  延缓#VV  衰老#NN  。#PU
+            抑制#VV  癌细胞#NN  生长#NN
+            有效#AD  抑制#VV  肿瘤#NN  细胞#NN  的#DEG  生长#NN  ；#PU  对抗#VV  组织#NN  细胞#NN  老化#NN  ；#PU  调节#VV  免疫#NN  功能#NN  ；#PU  刺激#VV  骨髓#NR  红#JJ  细胞#NN  生长#NN  ；#PU  抗#AD  疲劳#VA  。#PU
+            降#VV  三高#CD
+            调节#VV  体内#NN  脂质#NN  代谢#NN  ，#PU  使#VV  肌体#NN  脂肪#NN  含量#NN  明显#AD  下降#VV  ；#PU  降低#VV  血糖#NN  、#PU  血脂#NN  、#PU  胆固醇#NN  。#PU  对#P  2#CD  型#M  糖尿病#NN  患者#NN  、#PU  血糖#NN  、#PU  尿糖#NN  情况#NN  有所#VV  改善#NN  ，#PU  对#P  中老年人#NN  尿频#NN  有所#VV  改善#NN
+            防治#VV  男性#NN  前列腺#NN  疾病#NN
+            海参#NN  含有#NN  丰富#VA  的#DEC  锌#NN  ，#PU  锌#NN  是#VC  男性#NN  前列腺#NN  的#DEG  重要#JJ  组成#NN  部分#NN  ，#PU  故而#AD  具有#VV  防治#NN  前列#NN  腺炎#NN  和#CC  尿路#NN  感染#NN  之#DEG  作用#NN  。#PU
+            增加#VV  造血#NN  功能#NN
+            海参#NN  微量#VV  元素#NN  钒的#NN  含量#NN  居#VV  各#DT  种#M  食物#NN  之#DEG  首#NN  ，#PU  可以#VV  参与#VV  血液#NN  中#LC  铁的#AD  输送#VV  ，#PU  增强#VV  造血#NN  功能#NN  。#PU
+            加速#AD  伤口#VV  愈合#NN
+            手术#NN  后#LC  刀口#NN  愈合#AD  加快#VV  ，#PU  体力#NN  和#CC  精力#NN  能#VV  迅速#AD  恢复#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 发育#NN)  (conj, 促进#VV, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)
+            (nsubj, 荣#VV, 赖氨酸#NR)  (auxpass, 荣#VV, 被#SB)  (root, ROOT#null, 荣#VV)  (relcl, 脑#NN, 称为#VV)  (dobj, 称为#VV, 人体#NN)  (mark, 称为#VV, 的#DEC)  (nn, 脑#NN, ``#NN)  (nn, 脑#NN, 生长素#NN)  (conj, 脑#NN, ''#NN)  (cc, 脑#NN, 和#CC)  (nn, 脑#NN, ``#NN)  (dobj, 荣#VV, 脑#NN)  (dep, 荣#VV, 灵#VA)  (advmod, ''#VV, 素#AD)  (dep, 灵#VA, ''#VV)  (nsubj, 精子#VV, 它#PN)  (cop, 精子#VV, 是#VC)  (conj, 荣#VV, 精子#VV)  (relcl, 成分#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (amod, 成分#NN, 必要#JJ)  (dobj, 精子#VV, 成分#NN)  (mmod, 促进#VV, 能#VV)  (conj, 精子#VV, 促进#VV)  (nn, 发育#NN, 人体#NN)  (dobj, 促进#VV, 发育#NN)  (conj, 促进#VV, 增强#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)  (advmod, 有#VE, 并#AD)  (conj, 促进#VV, 有#VE)  (relcl, 作用#NN, 提高#VV)  (nn, 功能#NN, 中枢#NN)  (nn, 功能#NN, 神经#NN)  (nn, 功能#NN, 组织#NN)  (dobj, 提高#VV, 功能#NN)  (mark, 提高#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (advmod, 有#VE, 故#AD)  (conj, 促进#VV, 有#VE)  (nn, 大脑#NN, 恢复#NN)  (nsubj, 疲劳#VA, 大脑#NN)  (dep, 有#VE, 疲劳#VA)  (conj, 精子#VV, 增强#VV)  (conj, 痴呆#NN, 记忆力#NN)  (nn, 痴呆#NN, 预防#NN)  (nn, 痴呆#NN, 老年性#NN)  (nn, 功效#NN, 痴呆#NN)  (etc, 痴呆#NN, 等#ETC)  (dobj, 增强#VV, 功效#NN)
+            (nsubj, 养颜#VV, 美容#NN)  (root, ROOT#null, 养颜#VV)
+            (root, ROOT#null, 消除#VV)  (relcl, 自由基#NN, 疲劳#VA)  (case, 衰弱#NN, 对#P)  (conj, 衰弱#NN, 阳萎#NN)  (conj, 衰弱#NN, 肾虚#NN)  (nn, 衰弱#NN, 神经#NN)  (prep, 有#VE, 衰弱#NN)  (etc, 衰弱#NN, 等#ETC)  (conj, 疲劳#VA, 有#VE)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 衰老#VA, 还有#AD)  (nsubj, 衰老#VA, 预防#NN)  (advmod, 衰老#VA, 皮肤#AD)  (dep, 疲劳#VA, 衰老#VA)  (dep, 疲劳#VA, 清除#VV)  (dobj, 清除#VV, 体内#NN)  (advmod, 清除#VV, 过量#AD)  (mark, 疲劳#VA, 的#DEC)  (dobj, 消除#VV, 自由基#NN)  (conj, 消除#VV, 调节#VV)  (nn, 内分泌#NN, 女性#NN)  (dobj, 调节#VV, 内分泌#NN)  (conj, 消除#VV, 推迟#VV)  (dobj, 推迟#VV, 更年期#NN)  (etc, 更年期#NN, 等#ETC)
+            (root, ROOT#null, 抑制#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 抑制#VV, 形成#NN)
+            (mmod, 对抗#VV, 可#VV)  (root, ROOT#null, 对抗#VV)  (nummod, 种#M, 多#CD)  (clf, 肿瘤#NN, 种#M)  (assmod, 生长#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (dobj, 对抗#VV, 生长#NN)  (cc, 对抗#VV, 和#CC)  (advmod, 转移#VV, 自然#AD)  (dep, 对抗#VV, 转移#VV)  (conj, 对抗#VV, 调节#VV)  (nn, 功能#NN, 机体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 调节#VV, 功能#NN)  (conj, 对抗#VV, 降低#VV)  (nn, 粘度#NN, 血液#NN)  (dobj, 降低#VV, 粘度#NN)  (conj, 对抗#VV, 抑制#VV)  (dobj, 抑制#VV, 栓塞#NN)  (conj, 抑制#VV, 形成#VV)  (conj, 对抗#VV, 具有#VV)  (nn, 活性#NN, 抗#NN)  (nn, 活性#NN, 放射#NN)  (dobj, 具有#VV, 活性#NN)  (conj, 对抗#VV, 促进#VV)  (nn, 功能#NN, 机体#NN)  (nn, 功能#NN, 造血#NN)  (assmod, 恢复#NN, 功能#NN)  (case, 功能#NN, 的#DEG)  (dobj, 促进#VV, 恢复#NN)  (conj, 对抗#VV, 具有#VV)  (relcl, 作用#NN, 强大#VA)  (mark, 强大#VA, 的#DEC)  (amod, 作用#NN, 抗炎#JJ)  (dobj, 具有#VV, 作用#NN)  (conj, 对抗#VV, 保护#VV)  (nn, 水分#NN, 细胞#NN)  (dobj, 保护#VV, 水分#NN)  (conj, 对抗#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)
+            (root, ROOT#null, 抑制#VV)  (nn, 生长#NN, 癌细胞#NN)  (dobj, 抑制#VV, 生长#NN)
+            (advmod, 抑制#VV, 有效#AD)  (root, ROOT#null, 抑制#VV)  (nn, 细胞#NN, 肿瘤#NN)  (assmod, 生长#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (dep, 抑制#VV, 对抗#VV)  (nn, 老化#NN, 组织#NN)  (nn, 老化#NN, 细胞#NN)  (dobj, 对抗#VV, 老化#NN)  (conj, 对抗#VV, 调节#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 调节#VV, 功能#NN)  (conj, 对抗#VV, 刺激#VV)  (nn, 细胞#NN, 骨髓#NR)  (amod, 细胞#NN, 红#JJ)  (nn, 生长#NN, 细胞#NN)  (dobj, 刺激#VV, 生长#NN)  (advmod, 疲劳#VA, 抗#AD)  (conj, 对抗#VV, 疲劳#VA)
+            (root, ROOT#null, 降#VV)  (range, 降#VV, 三高#CD)
+            (conj, 使#VV, 调节#VV)  (nn, 代谢#NN, 体内#NN)  (nn, 代谢#NN, 脂质#NN)  (dobj, 调节#VV, 代谢#NN)  (root, ROOT#null, 使#VV)  (nn, 含量#NN, 肌体#NN)  (nn, 含量#NN, 脂肪#NN)  (dobj, 使#VV, 含量#NN)  (advmod, 下降#VV, 明显#AD)  (dep, 使#VV, 下降#VV)  (conj, 使#VV, 降低#VV)  (conj, 胆固醇#NN, 血糖#NN)  (conj, 胆固醇#NN, 血脂#NN)  (dobj, 降低#VV, 胆固醇#NN)  (case, 情况#NN, 对#P)  (nummod, 型#M, 2#CD)  (clf, 患者#NN, 型#M)  (nn, 患者#NN, 糖尿病#NN)  (conj, 情况#NN, 患者#NN)  (conj, 情况#NN, 血糖#NN)  (nn, 情况#NN, 尿糖#NN)  (prep, 有所#VV, 情况#NN)  (conj, 使#VV, 有所#VV)  (dobj, 有所#VV, 改善#NN)  (case, 中老年人#NN, 对#P)  (prep, 尿频#NN, 中老年人#NN)  (nsubj, 有所#VV, 尿频#NN)  (dep, 使#VV, 有所#VV)  (dobj, 有所#VV, 改善#NN)
+            (root, ROOT#null, 防治#VV)  (nn, 疾病#NN, 男性#NN)  (nn, 疾病#NN, 前列腺#NN)  (dobj, 防治#VV, 疾病#NN)
+            (nn, 含有#NN, 海参#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 锌#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 部分#NN, 锌#NN)  (nsubj, 部分#NN, 锌#NN)  (cop, 部分#NN, 是#VC)  (nn, 前列腺#NN, 男性#NN)  (assmod, 部分#NN, 前列腺#NN)  (case, 前列腺#NN, 的#DEG)  (amod, 部分#NN, 重要#JJ)  (nn, 部分#NN, 组成#NN)  (root, ROOT#null, 部分#NN)  (advmod, 具有#VV, 故而#AD)  (conj, 部分#NN, 具有#VV)  (nn, 感染#NN, 防治#NN)  (nn, 感染#NN, 前列#NN)  (conj, 感染#NN, 腺炎#NN)  (cc, 感染#NN, 和#CC)  (nn, 感染#NN, 尿路#NN)  (assmod, 作用#NN, 感染#NN)  (case, 感染#NN, 之#DEG)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 增加#VV)  (nn, 功能#NN, 造血#NN)  (dobj, 增加#VV, 功能#NN)
+            (nsubj, 微量#VV, 海参#NN)  (root, ROOT#null, 微量#VV)  (nn, 含量#NN, 元素#NN)  (nn, 含量#NN, 钒的#NN)  (dobj, 微量#VV, 含量#NN)  (conj, 微量#VV, 居#VV)  (det, 食物#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 首#NN, 食物#NN)  (case, 食物#NN, 之#DEG)  (dobj, 居#VV, 首#NN)  (mmod, 参与#VV, 可以#VV)  (loc, 输送#VV, 参与#VV)  (dobj, 参与#VV, 血液#NN)  (case, 参与#VV, 中#LC)  (advmod, 输送#VV, 铁的#AD)  (conj, 微量#VV, 输送#VV)  (conj, 微量#VV, 增强#VV)  (nn, 功能#NN, 造血#NN)  (dobj, 增强#VV, 功能#NN)
+            (advmod, 伤口#VV, 加速#AD)  (root, ROOT#null, 伤口#VV)  (dobj, 伤口#VV, 愈合#NN)
+            (loc, 加快#VV, 手术#NN)  (case, 手术#NN, 后#LC)  (nsubj, 加快#VV, 刀口#NN)  (advmod, 加快#VV, 愈合#AD)  (root, ROOT#null, 加快#VV)  (conj, 精力#NN, 体力#NN)  (cc, 精力#NN, 和#CC)  (nsubj, 恢复#VV, 精力#NN)  (mmod, 恢复#VV, 能#VV)  (advmod, 恢复#VV, 迅速#AD)  (conj, 加快#VV, 恢复#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善生长发育  辅助改善记忆  缓解体力疲劳  辅助降血脂  辅助降血糖  延缓衰老  抗辐射  增加骨密度  改善营养性贫血  抗癌防癌  润燥  止血  补血  补肾阴  益智  抗血栓  解胃肠痉挛  抗真菌  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.海参含有较丰富的蛋白质，较少的脂肪和胆固醇。
+            2.海参号称“精氨酸大富翁”。含有8种人体自身不能合成的必需氨基酸，其中精氨酸、赖氨酸含量最为丰富。
+            3.参含有丰富的微量元素，尤其是钙、钒、钠、硒、镁含量较高。海参所含的微量元素钒居各种食物之首，可以参与血液中铁的运输，增强造血能力。
+            4.含有特殊的活性营养物质，海参酸性粘多糖，海参皂甙（海参素、海参毒素），海参脂质，海参胶蛋白，牛磺酸等。
+        </rawdata>
+
+        <segment>
+            海参  含有  较  丰富  的  蛋白质  ，  较  少  的  脂肪  和  胆固醇  。
+            海参  号称  “  精氨酸  大富翁  ”  。  含有  8  种  人体  自身  不  能  合成  的  必需  氨基酸  ，  其中  精氨酸  、  赖氨酸  含量  最为  丰富  。
+            参  含有  丰富  的  微量  元素  ，  尤其是  钙  、  钒  、  钠  、  硒  、  镁  含量  较  高  。  海参  所  含  的  微量  元素  钒居  各  种  食物  之  首  ，  可以  参与  血液  中  铁的  运输  ，  增强  造血  能力  。
+            含有  特殊  的  活性  营养  物质  ，  海参  酸性  粘多糖  ，  海参  皂甙  （  海参素  、  海参  毒素  ）  ，  海参  脂质  ，  海参  胶  蛋白  ，  牛磺酸  等  。
+        </segment>
+
+        <pos>
+            海参#AD  含有#VV  较#AD  丰富#VA  的#DEC  蛋白质#NN  ，#PU  较#AD  少#VA  的#DEC  脂肪#NN  和#CC  胆固醇#NN  。#PU
+            海参#NN  号称#VV  ``#NN  精氨酸#NN  大富翁#NN  ''#NN    。#PU  含有#NR  8#CD  种#M  人体#NN  自身#PN  不#AD  能#VV  合成#JJ  的#DEG  必需#VV  氨基酸#NN  ，#PU  其中#NN  精氨酸#NN  、#PU  赖氨酸#NN  含量#NN  最为#AD  丰富#VA    。#PU    。#PU
+            参#NN  含有#VV  丰富#VA  的#DEC  微量#JJ  元素#NN  ，#PU  尤其是#AD  钙#NN  、#PU  钒#NN  、#PU  钠#NN  、#PU  硒#NN  、#PU  镁#NN  含量#NN  较#AD  高#VA    。#PU  海参#AD  所#MSP  含#VV  的#DEC  微量#NN  元素#NN  钒居#VV  各#DT  种#M  食物#NN  之#DEG  首#NN  ，#PU  可以#VV  参与#VV  血液#NN  中#LC  铁的#VV  运输#NN  ，#PU  增强#VV  造血#NN  能力#NN    。#PU    。#PU
+            含有#AD  特殊#VA  的#DEC  活性#NN  营养#VA  物质#NN  ，#PU  海参#NN  酸性#VV  粘多糖#NN  ，#PU  海参#VV  皂甙#NN  （#PU  海参素#NR  、#PU  海参#NR  毒素#VV  ）#PU  ，#PU  海参#VV  脂质#NN  ，#PU  海参#VV  胶#NN  蛋白#NN  ，#PU  牛磺酸#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含有#VV, 海参#AD)  (root, ROOT#null, 含有#VV)  (advmod, 丰富#VA, 较#AD)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 少#VA, 较#AD)  (relcl, 胆固醇#NN, 少#VA)  (mark, 少#VA, 的#DEC)  (conj, 胆固醇#NN, 脂肪#NN)  (cc, 胆固醇#NN, 和#CC)  (dep, 含有#VV, 胆固醇#NN)
+            (nsubj, 号称#VV, 海参#NN)  (root, ROOT#null, 号称#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 精氨酸#NN)  (nn, ''#NN, 大富翁#NN)  (dobj, 号称#VV, ''#NN)   (nn, 人体#NN, 含有#NR)  (nummod, 种#M, 8#CD)  (clf, 人体#NN, 种#M)  (nsubj, 能#VV, 人体#NN)  (nsubj, 能#VV, 自身#PN)  (neg, 能#VV, 不#AD)  (root, ROOT#null, 能#VV)  (assmod, 氨基酸#NN, 合成#JJ)  (case, 合成#JJ, 的#DEG)  (nfincl, 氨基酸#NN, 必需#VV)  (dobj, 能#VV, 氨基酸#NN)  (nsubj, 丰富#VA, 其中#NN)  (conj, 赖氨酸#NN, 精氨酸#NN)  (nn, 含量#NN, 赖氨酸#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 最为#AD)  (conj, 能#VV, 丰富#VA)   (root, ROOT#null, null#null)
+            (nsubj, 含有#VV, 参#NN)  (root, ROOT#null, 含有#VV)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)  (advmod, 高#VA, 尤其是#AD)  (conj, 镁#NN, 钙#NN)  (conj, 镁#NN, 钒#NN)  (conj, 镁#NN, 钠#NN)  (conj, 镁#NN, 硒#NN)  (nn, 含量#NN, 镁#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 含有#VV, 高#VA)   (advmod, 含#VV, 海参#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 元素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 元素#NN, 微量#NN)  (nsubj, 铁的#VV, 元素#NN)  (loc, 铁的#VV, 钒居#VV)  (det, 食物#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 首#NN, 食物#NN)  (case, 食物#NN, 之#DEG)  (dobj, 钒居#VV, 首#NN)  (mmod, 参与#VV, 可以#VV)  (conj, 钒居#VV, 参与#VV)  (dobj, 参与#VV, 血液#NN)  (case, 钒居#VV, 中#LC)  (root, ROOT#null, 铁的#VV)  (dobj, 铁的#VV, 运输#NN)  (conj, 铁的#VV, 增强#VV)  (nn, 能力#NN, 造血#NN)  (dobj, 增强#VV, 能力#NN)   (root, ROOT#null, null#null)
+            (advmod, 特殊#VA, 含有#AD)  (relcl, 活性#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nsubj, 营养#VA, 活性#NN)  (relcl, 物质#NN, 营养#VA)  (nsubj, 酸性#VV, 物质#NN)  (nsubj, 酸性#VV, 海参#NN)  (root, ROOT#null, 酸性#VV)  (dobj, 酸性#VV, 粘多糖#NN)  (conj, 酸性#VV, 海参#VV)  (dobj, 海参#VV, 皂甙#NN)  (conj, 海参#NR, 海参素#NR)  (nsubj, 毒素#VV, 海参#NR)  (dep, 海参#VV, 毒素#VV)  (conj, 酸性#VV, 海参#VV)  (dobj, 海参#VV, 脂质#NN)  (conj, 酸性#VV, 海参#VV)  (nn, 蛋白#NN, 胶#NN)  (dobj, 海参#VV, 蛋白#NN)  (conj, 酸性#VV, 牛磺酸#VV)  (dep, 酸性#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            泡参法：将海参置于冷水中，浸泡30小时左右（一海参泡软为止），然后将参剖开，刮掉参内白筋和白皮，洗净后添水上锅加盖煮沸，开锅后用文火煮30分钟左右（视质量掌握时间），待水凉后，换凉水泡三天，每天换一次凉水，春夏秋季一定置于冰箱保鲜层内，保持较低水温，水以不结冰最好，三天后捞出单独冷冻，以后可以随吃随取。
+            泡发海参时，切莫沾污染油脂、碱、盐，否则会妨碍海参吸水膨胀。
+        </rawdata>
+
+        <segment>
+            泡参法  ：  将  海参  置于  冷水  中  ，  浸泡  30  小时  左右  （  一  海参  泡  软  为止  ）  ，  然后  将  参  剖开  ，  刮掉  参内白筋  和  白皮  ，  洗净  后  添  水  上  锅  加盖  煮沸  ，  开锅  后用  文火  煮  30  分钟  左右  （  视  质量  掌握  时间  ）  ，  待水  凉  后  ，  换  凉  水泡  三  天  ，  每  天  换  一  次  凉水  ，  春夏  秋季  一定  置于  冰箱  保鲜  层内  ，  保持  较  低  水温  ，  水  以  不  结冰  最好  ，  三  天  后  捞出  单独  冷冻  ，  以后  可以  随  吃  随  取  。
+            泡  发  海参  时  ，  切莫  沾  污染  油脂  、  碱  、  盐  ，  否则  会  妨碍  海参  吸水  膨胀  。
+        </segment>
+
+        <pos>
+            泡参法#VA  ：#PU  将#BA  海参#VV  置于#NN  冷水#NN  中#LC  ，#PU  浸泡#VV  30#CD  小时#NN  左右#LC  （#PU  一#CD  海参#AD  泡#VV  软#VA  为止#LC  ）#PU  ，#PU  然后#AD  将#AD  参#VV  剖开#NN  ，#PU  刮掉#NR  参内白筋#NN  和#CC  白皮#NN  ，#PU  洗净#NN  后#LC  添#NN  水#NN  上#LC  锅#AD  加盖#VV  煮沸#NN  ，#PU  开锅#NN  后用#NN  文火#NN  煮#VV  30#CD  分钟#M  左右#LC  （#PU  视#VV  质量#NN  掌握#VV  时间#NN  ）#PU  ，#PU  待水#NN  凉#NN  后#LC  ，#PU  换#VV  凉#NN  水泡#NN  三#CD  天#M  ，#PU  每#DT  天#M  换#VV  一#CD  次#M  凉水#NN  ，#PU  春夏#NR  秋季#NT  一定#AD  置于#VV  冰箱#NN  保鲜#NN  层内#NN  ，#PU  保持#VV  较#AD  低#JJ  水温#NN  ，#PU  水#NN  以#P  不#AD  结冰#VV  最好#JJ  ，#PU  三#CD  天#M  后#LC  捞出#VV  单独#JJ  冷冻#NN  ，#PU  以后#AD  可以#VV  随#VV  吃#VV  随#VV  取#VV  。#PU
+            泡#NN  发#VV  海参#NN  时#LC  ，#PU  切莫#NN  沾#VV  污染#NN  油脂#NN  、#PU  碱#NN  、#PU  盐#NN  ，#PU  否则#AD  会#VV  妨碍#VV  海参#NN  吸水#NN  膨胀#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 泡参法#VA)  (ba, 海参#VV, 将#BA)  (conj, 泡参法#VA, 海参#VV)  (nn, 冷水#NN, 置于#NN)  (loc, 海参#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (dep, 海参#VV, 浸泡#VV)  (nummod, 小时#NN, 30#CD)  (loc, 浸泡#VV, 小时#NN)  (case, 小时#NN, 左右#LC)  (nsubj, 泡#VV, 一#CD)  (advmod, 泡#VV, 海参#AD)  (dep, 海参#VV, 泡#VV)  (loc, 泡#VV, 软#VA)  (case, 软#VA, 为止#LC)  (advmod, 参#VV, 然后#AD)  (advmod, 参#VV, 将#AD)  (dep, 海参#VV, 参#VV)  (dobj, 参#VV, 剖开#NN)  (nn, 白皮#NN, 刮掉#NR)  (conj, 白皮#NN, 参内白筋#NN)  (cc, 白皮#NN, 和#CC)  (nsubj, 加盖#VV, 白皮#NN)  (loc, 加盖#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (nn, 水#NN, 添#NN)  (loc, 加盖#VV, 水#NN)  (case, 水#NN, 上#LC)  (advmod, 加盖#VV, 锅#AD)  (conj, 泡参法#VA, 加盖#VV)  (dobj, 加盖#VV, 煮沸#NN)  (nn, 文火#NN, 开锅#NN)  (nn, 文火#NN, 后用#NN)  (nsubj, 煮#VV, 文火#NN)  (conj, 泡参法#VA, 煮#VV)  (nummod, 分钟#M, 30#CD)  (loc, 煮#VV, 分钟#M)  (case, 分钟#M, 左右#LC)  (dep, 煮#VV, 视#VV)  (dobj, 视#VV, 质量#NN)  (dep, 视#VV, 掌握#VV)  (dobj, 掌握#VV, 时间#NN)  (nn, 凉#NN, 待水#NN)  (loc, 换#VV, 凉#NN)  (case, 凉#NN, 后#LC)  (conj, 泡参法#VA, 换#VV)  (nn, 水泡#NN, 凉#NN)  (dobj, 换#VV, 水泡#NN)  (nummod, 天#M, 三#CD)  (range, 换#VV, 天#M)  (dep, 换#VV, 每#DT)  (clf, 每#DT, 天#M)  (conj, 换#VV, 换#VV)  (nummod, 次#M, 一#CD)  (clf, 凉水#NN, 次#M)  (dobj, 换#VV, 凉水#NN)  (nsubj, 置于#VV, 春夏#NR)  (tmod, 置于#VV, 秋季#NT)  (advmod, 置于#VV, 一定#AD)  (conj, 泡参法#VA, 置于#VV)  (nn, 层内#NN, 冰箱#NN)  (nn, 层内#NN, 保鲜#NN)  (dobj, 置于#VV, 层内#NN)  (conj, 泡参法#VA, 保持#VV)  (advmod, 低#JJ, 较#AD)  (amod, 水温#NN, 低#JJ)  (dobj, 保持#VV, 水温#NN)  (nsubj, 捞出#VV, 水#NN)  (case, 最好#JJ, 以#P)  (neg, 最好#JJ, 不#AD)  (mmod, 最好#JJ, 结冰#VV)  (prep, 捞出#VV, 最好#JJ)  (nummod, 天#M, 三#CD)  (dep, 最好#JJ, 天#M)  (case, 最好#JJ, 后#LC)  (dep, 泡参法#VA, 捞出#VV)  (amod, 冷冻#NN, 单独#JJ)  (dobj, 捞出#VV, 冷冻#NN)  (dep, 随#VV, 以后#AD)  (dep, 随#VV, 可以#VV)  (comod, 可以#VV, 随#VV)  (mmod, 随#VV, 吃#VV)  (conj, 泡参法#VA, 随#VV)  (comod, 随#VV, 取#VV)
+            (nsubj, 发#VV, 泡#NN)  (loc, 沾#VV, 发#VV)  (dobj, 发#VV, 海参#NN)  (case, 发#VV, 时#LC)  (nsubj, 沾#VV, 切莫#NN)  (root, ROOT#null, 沾#VV)  (nn, 盐#NN, 污染#NN)  (conj, 盐#NN, 油脂#NN)  (conj, 盐#NN, 碱#NN)  (dobj, 沾#VV, 盐#NN)  (advmod, 妨碍#VV, 否则#AD)  (mmod, 妨碍#VV, 会#VV)  (conj, 沾#VV, 妨碍#VV)  (nn, 膨胀#NN, 海参#NN)  (nn, 膨胀#NN, 吸水#NN)  (dobj, 妨碍#VV, 膨胀#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101140496423.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

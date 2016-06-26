@@ -1,0 +1,139 @@
+<content>
+
+    <id>
+        545
+    </id>
+
+    <foodname>
+        玫瑰花茶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        徘徊花
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玫瑰花茶是用鲜玫瑰花和茶叶的芽尖按比例混合，利用现代高科技工艺窨制而成的高档茶，其香气具浓，轻之别，和而不猛。
+        </rawdata>
+
+        <segment>
+            玫瑰  花茶  是  用鲜  玫瑰花  和  茶叶  的  芽  尖  按  比例  混合  ，  利用  现代  高科技  工艺  窨制  而  成  的  高档  茶  ，  其  香气  具浓  ，  轻  之  别  ，  和  而  不  猛  。
+        </segment>
+
+        <pos>
+            玫瑰#NN  花茶#NN  是#VC  用鲜#NN  玫瑰花#NN  和#CC  茶叶#NN  的#DEG  芽#NN  尖#NN  按#P  比例#NN  混合#VV  ，#PU  利用#VV  现代#JJ  高科技#NN  工艺#NN  窨制#NN  而#MSP  成#VV  的#DEC  高档#JJ  茶#NN  ，#PU  其#PN  香气#VV  具浓#NN  ，#PU  轻#VA  之#DEC  别#DT  ，#PU  和#CC  而#AD  不#AD  猛#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 花茶#NN, 玫瑰#NN)  (nsubj, 茶#NN, 花茶#NN)  (cop, 茶#NN, 是#VC)  (nn, 玫瑰花#NN, 用鲜#NN)  (conj, 尖#NN, 玫瑰花#NN)  (cc, 尖#NN, 和#CC)  (assmod, 尖#NN, 茶叶#NN)  (case, 茶叶#NN, 的#DEG)  (nn, 尖#NN, 芽#NN)  (nsubj, 混合#VV, 尖#NN)  (case, 比例#NN, 按#P)  (prep, 混合#VV, 比例#NN)  (relcl, 茶#NN, 混合#VV)  (dep, 混合#VV, 利用#VV)  (amod, 窨制#NN, 现代#JJ)  (nn, 窨制#NN, 高科技#NN)  (nn, 窨制#NN, 工艺#NN)  (dobj, 利用#VV, 窨制#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 利用#VV, 成#VV)  (mark, 混合#VV, 的#DEC)  (amod, 茶#NN, 高档#JJ)  (root, ROOT#null, 茶#NN)  (nsubj, 香气#VV, 其#PN)  (conj, 茶#NN, 香气#VV)  (dobj, 香气#VV, 具浓#NN)  (dep, 别#DT, 轻#VA)  (mark, 轻#VA, 之#DEC)  (conj, 香气#VV, 别#DT)  (cc, 香气#VV, 和#CC)  (advmod, 猛#VV, 而#AD)  (neg, 猛#VV, 不#AD)  (conj, 香气#VV, 猛#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            玫瑰花是一种珍贵的药材，味甘微苦、性温，最明显的功效就是理气解郁、活血散淤和调经止痛。对于心脑血管，高血压，心脏病及妇科有显著疗效。
+        </rawdata>
+
+        <segment>
+            玫瑰花  是  一  种  珍贵  的  药材  ，  味甘微苦  、  性温  ，  最  明显  的  功效  就  是  理气解郁  、  活血  散淤  和  调经  止痛  。  对于  心脑血管  ，  高血压  ，  心脏病  及  妇科  有  显著  疗效  。
+        </segment>
+
+        <pos>
+            玫瑰花#NN  是#VC  一#CD  种#M  珍贵#VA  的#DEC  药材#NN  ，#PU  味甘微苦#NR  、#PU  性温#NR  ，#PU  最#AD  明显#VA  的#DEC  功效#NN  就#AD  是#VC  理气解郁#NN  、#PU  活血#NN  散淤#NN  和#CC  调经#NN  止痛#NN    。#PU  对于#P  心脑血管#NN  ，#PU  高血压#VV  ，#PU  心脏病#NN  及#CC  妇科#NN  有#VE  显著#JJ  疗效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 药材#NN, 玫瑰花#NN)  (cop, 药材#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 药材#NN, 种#M)  (relcl, 药材#NN, 珍贵#VA)  (mark, 珍贵#VA, 的#DEC)  (root, ROOT#null, 药材#NN)  (conj, 性温#NR, 味甘微苦#NR)  (nsubj, 止痛#NN, 性温#NR)  (advmod, 明显#VA, 最#AD)  (relcl, 功效#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nsubj, 止痛#NN, 功效#NN)  (advmod, 止痛#NN, 就#AD)  (cop, 止痛#NN, 是#VC)  (conj, 止痛#NN, 理气解郁#NN)  (nn, 止痛#NN, 活血#NN)  (conj, 止痛#NN, 散淤#NN)  (cc, 止痛#NN, 和#CC)  (nn, 止痛#NN, 调经#NN)  (conj, 药材#NN, 止痛#NN)   (case, 心脑血管#NN, 对于#P)  (prep, 高血压#VV, 心脑血管#NN)  (root, ROOT#null, 高血压#VV)  (conj, 妇科#NN, 心脏病#NN)  (cc, 妇科#NN, 及#CC)  (dep, 有#VE, 妇科#NN)  (ccomp, 高血压#VV, 有#VE)  (amod, 疗效#NN, 显著#JJ)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            富含香茅醇、橙花醇、香叶醇、苯乙醇等多挥发性香气成分，因此泡出的玫瑰花茶具有甜美的香气。长饮此品有清热解毒、促进代谢、和肝养胃之功效，它还有平衡激素的作用，有助于女性的美丽与健康。
+        </rawdata>
+
+        <segment>
+            富含  香茅醇  、  橙花醇  、  香叶醇  、  苯  乙醇  等  多  挥发性  香气  成分  ，  因此  泡出  的  玫瑰花  茶  具有  甜美  的  香气  。  长  饮此品  有  清热  解毒  、  促进  代谢  、  和  肝养  胃  之  功效  ，  它  还有  平衡  激素  的  作用  ，  有助于  女性  的  美丽  与  健康  。
+        </segment>
+
+        <pos>
+            富含#NR  香茅醇#NR  、#PU  橙花醇#NR  、#PU  香叶醇#NR  、#PU  苯#NR  乙醇#NR  等#ETC  多#CD  挥发性#NN  香气#NN  成分#NN  ，#PU  因此#AD  泡出#NN  的#DEG  玫瑰花#NN  茶#NN  具有#VV  甜美#NN  的#DEG  香气#NN    。#PU  长#JJ  饮此品#NN  有#VE  清热#VV  解毒#NN  、#PU  促进#VV  代谢#VA  、#PU  和#P  肝养#NN  胃#NN  之#DEG  功效#NN  ，#PU  它#PN  还有#AD  平衡#NN  激素#VA  的#DEC  作用#NN  ，#PU  有助于#VV  女性#NN  的#DEC  美丽#VA  与#CC  健康#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 乙醇#NR, 富含#NR)  (conj, 乙醇#NR, 香茅醇#NR)  (conj, 乙醇#NR, 橙花醇#NR)  (conj, 乙醇#NR, 香叶醇#NR)  (nn, 乙醇#NR, 苯#NR)  (nn, 挥发性#NN, 乙醇#NR)  (etc, 乙醇#NR, 等#ETC)  (nummod, 挥发性#NN, 多#CD)  (nn, 成分#NN, 挥发性#NN)  (nn, 成分#NN, 香气#NN)  (nsubj, 具有#VV, 成分#NN)  (advmod, 具有#VV, 因此#AD)  (assmod, 玫瑰花#NN, 泡出#NN)  (case, 泡出#NN, 的#DEG)  (nsubj, 具有#VV, 玫瑰花#NN)  (nsubj, 具有#VV, 茶#NN)  (root, ROOT#null, 具有#VV)  (assmod, 香气#NN, 甜美#NN)  (case, 甜美#NN, 的#DEG)  (dobj, 具有#VV, 香气#NN)   (amod, 饮此品#NN, 长#JJ)  (dep, 有#VE, 饮此品#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 清热#VV)  (dobj, 清热#VV, 解毒#NN)  (conj, 清热#VV, 促进#VV)  (relcl, 作用#NN, 代谢#VA)  (case, 功效#NN, 和#P)  (nn, 胃#NN, 肝养#NN)  (assmod, 功效#NN, 胃#NN)  (case, 胃#NN, 之#DEG)  (prep, 激素#VA, 功效#NN)  (nsubj, 激素#VA, 它#PN)  (advmod, 激素#VA, 还有#AD)  (nsubj, 激素#VA, 平衡#NN)  (dep, 代谢#VA, 激素#VA)  (mark, 代谢#VA, 的#DEC)  (dobj, 促进#VV, 作用#NN)  (conj, 清热#VV, 有助于#VV)  (dobj, 有助于#VV, 女性#NN)  (mark, 清热#VV, 的#DEC)  (dep, 有#VE, 美丽#VA)  (cc, 美丽#VA, 与#CC)  (dep, 美丽#VA, 健康#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/12185333692.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

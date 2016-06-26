@@ -1,0 +1,173 @@
+<content>
+
+    <id>
+        305
+    </id>
+
+    <foodname>
+        豆豉
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆制品
+    </secondcategory>
+
+    <alias>
+        香豉、淡豆豉
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝病、肾病、消化性溃疡和动脉硬化患者应少吃。
+        </rawdata>
+
+        <segment>
+            肝病  、  肾病  、  消化性  溃疡  和  动脉  硬化  患者  应  少吃  。
+        </segment>
+
+        <pos>
+            肝病#NN  、#PU  肾病#NN  、#PU  消化性#NN  溃疡#NN  和#CC  动脉#NN  硬化#NN  患者#NN  应#VV  少吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 硬化#NN, 肝病#NN)  (conj, 硬化#NN, 肾病#NN)  (nn, 硬化#NN, 消化性#NN)  (conj, 硬化#NN, 溃疡#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (nsubj, 少吃#VV, 患者#NN)  (dep, 少吃#VV, 应#VV)  (root, ROOT#null, 少吃#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适合血栓患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适合  血栓  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适合#VV  血栓#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 尤#AD)  (root, ROOT#null, 适合#VV)  (nn, 患者#NN, 血栓#NN)  (dobj, 适合#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆豉，是我国传统发酵豆制品，是以大豆或黄豆为主要原料，一般用大豆或黑豆蒸煮以后，经发酵制成（利用毛霉、曲霉或者细菌蛋白酶的作用，分解大豆蛋白质，达到一定程度时，加盐、加酒、干燥等方法，抑制酶的活力，延缓发酵过程而制成）。豆豉的种类较多，按加工原料分为黑豆豉和黄豆豉，按口味可分为咸豆豉和淡豆豉。
+            古代称豆豉为“幽菽”，也叫“嗜”。最早的记载见于汉代刘熙《释名.释饮食》一书中，誉豆豉为“五味调和，需之而成”。公元2至5世纪的《食经》一书中还有“作豉法”的记载。古人不但把豆豉用于调味，而且用于入药，对它极为看重。《汉书》、《史记》、《齐民要术》、《本草纲目》等，都有此记载。据记载，豆豉的生产，最早是由江西泰和县流传开来的，后经不断发展和提高，使豆豉成为独具特色，成为人们所喜爱的调味佳品，而且传到海外。我国台湾人称豆豉为“荫豉”，日本人称豆豉为“纳豉”，东南亚各国也普遍食用豆豉。
+            我国较为有名的豆豉有：广东阳江豆豉、开封西瓜豆豉、广西黄姚豆豉、山东八宝豆豉、四川潼川豆豉和永川豆豉、湖南浏阳豆豉等、陕西汉中香辣豆豉和风干豆豉等。　　
+        </rawdata>
+
+        <segment>
+            豆豉  ，  是  我  国  传统  发酵  豆制品  ，  是  以  大豆  或  黄豆  为  主要  原料  ，  一般  用  大豆  或  黑豆  蒸煮  以后  ，  经  发酵  制成  （  利用  毛霉  、  曲霉  或者  细菌  蛋白酶  的  作用  ，  分解  大豆  蛋白质  ，  达到  一定  程度  时  ，  加盐  、  加酒  、  干燥  等  方法  ，  抑制  酶的  活力  ，  延缓  发酵  过程  而  制成  ）  。  豆豉  的  种类  较  多  ，  按  加工  原料  分为  黑豆豉  和  黄豆豉  ，  按  口味  可  分为  咸  豆豉  和  淡  豆豉  。
+            古  代称  豆豉  为  “  幽菽  ”  ，  也  叫  “  嗜  ”  。  最早  的  记载  见于  汉代  刘熙  《  释名  .  释  饮食  》  一  书  中  ，  誉豆豉  为  “  五味  调和  ，  需  之  而  成  ”  。  公元  5  世纪  的  《  食经  》  一  书  中  还  有  “  作  豉法  ”  的  记载  。  古人  不但  把  豆豉  用于  调味  ，  而且  用于  入药  ，  对  它  极为  看重  。  《  汉  书  》  、  《  史记  》  、  《  齐  民  要  术  》  、  《  本草  纲目  》  等  ，  都  有  此  记载  。  据  记载  ，  豆豉  的  生产  ，  最  早  是  由  江西  泰和县  流传  开来  的  ，  后  经  不断  发展  和  提高  ，  使  豆豉  成为  独具  特色  ，  成为  人们  所  喜爱  的  调味  佳品  ，  而且  传到  海外  。  我国  台湾人  称  豆豉  为  “  荫豉  ”  ，  日本  人称  豆豉  为  “  纳豉  ”  ，  东南亚  各  国  也  普遍  食用  豆豉  。
+            我国  较为  有名  的  豆豉  有  ：  广东  阳江  豆豉  、  开封  西瓜  豆豉  、  广西  黄  姚  豆豉  、  山东  八宝  豆豉  、  四川  潼川  豆豉  和  永川  豆豉  、  湖南  浏阳  豆豉  等  、  陕西  汉中  香辣  豆豉  和  风干  豆豉  等  。
+        </segment>
+
+        <pos>
+            豆豉#NR  ，#PU  是#VC  我#PN  国#NN  传统#NN  发酵#NN  豆制品#VV  ，#PU  是#VC  以#MSP  大豆#VV  或#CC  黄豆#VV  为#P  主要#JJ  原料#NN  ，#PU  一般#AD  用#P  大豆#NN  或#CC  黑豆#NN  蒸煮#NN  以后#LC  ，#PU  经#P  发酵#NN  制成#VV  （#PU  利用#VV  毛霉#NN  、#PU  曲霉#NN  或者#CC  细菌#NN  蛋白酶#NN  的#DEG  作用#NN  ，#PU  分解#VV  大豆#NN  蛋白质#NN  ，#PU  达到#VV  一定#JJ  程度#NN  时#LC  ，#PU  加盐#NR  、#PU  加酒#NR  、#PU  干燥#NR  等#ETC  方法#NN  ，#PU  抑制#VV  酶的#NN  活力#NN  ，#PU  延缓#VV  发酵#NN  过程#NN  而#MSP  制成#VV  ）#PU    。#PU  豆豉#NN  的#DEG  种类#NN  较#AD  多#VA  ，#PU  按#P  加工#NN  原料#NN  分为#VV  黑豆豉#NN  和#CC  黄豆豉#NN  ，#PU  按#P  口味#NN  可#VV  分为#VV  咸#NN  豆豉#NN  和#CC  淡#NN  豆豉#NN    。#PU    。#PU
+            古#JJ  代称#NN  豆豉#NN  为#P  ``#NN  幽菽#VV  ''#NN  ，#PU  也#AD  叫#VV  ``#NN  嗜#NN  ''#NN    。#PU  最早#JJ  的#DEG  记载#NN  见于#NN  汉代#NN  刘熙#NN  释名#NN  .#NN  释#NN  饮食#NN  一#CD  书#NN  中#LC  ，#PU  誉豆豉#NN  为#P  ``#VV  五味#CD  调和#NN  ，#PU  需#VV  之#PN  而#MSP  成#VV  ''#NN    。#PU  公元#JJ  5#CD  世纪#NN  的#DEG  食经#NN  一#CD  书#NN  中#LC  还#AD  有#VE  ``#AD  作#VV  豉法#NN  ''#NN  的#DEC  记载#NN    。#PU  古人#NN  不但#CC  把#BA  豆豉#NN  用于#VV  调味#NN  ，#PU  而且#CC  用于#VV  入药#NN  ，#PU  对#P  它#PN  极为#AD  看重#VV    。#PU  汉#NR  书#NN  、#PU  史记#NN  、#PU  齐#NR  民#NN  要#VV  术#NN  、#PU  本草#NN  纲目#NN  等#ETC  ，#PU  都#AD  有#VE  此#DT  记载#NN    。#PU  据#P  记载#VV  ，#PU  豆豉#NN  的#DEG  生产#NN  ，#PU  最#AD  早#AD  是#VC  由#P  江西#NR  泰和县#VV  流传#NN  开来#NN  的#DEC  ，#PU  后#LC  经#P  不断#AD  发展#VV  和#CC  提高#VV  ，#PU  使#VV  豆豉#NN  成为#VV  独具#VV  特色#NN  ，#PU  成为#VV  人们#NN  所#MSP  喜爱#VV  的#DEC  调味#NN  佳品#NN  ，#PU  而且#CC  传到#VV  海外#NN    。#PU  我国#NN  台湾人#NN  称#VV  豆豉#NN  为#VC  ``#NN  荫豉#NN  ''#NN  ，#PU  日本#NR  人称#NN  豆豉#NN  为#VC  ``#NN  纳豉#NN  ''#NN  ，#PU  东南亚#NR  各#DT  国#NN  也#AD  普遍#AD  食用#VV  豆豉#NN    。#PU    。#PU
+            我国#NR  较为#AD  有名#VA  的#DEC  豆豉#NN  有#VE  ：#PU  广东#NR  阳江#NR  豆豉#NN  、#PU  开封#NR  西瓜#NN  豆豉#NN  、#PU  广西#NR  黄#NR  姚#NN  豆豉#NN  、#PU  山东#NR  八宝#CD  豆豉#NN  、#PU  四川#NR  潼川#NR  豆豉#NN  和#CC  永川#NN  豆豉#NN  、#PU  湖南#NR  浏阳#NN  豆豉#NN  等#ETC  、#PU  陕西#NR  汉中#NR  香辣#NN  豆豉#NN  和#CC  风干#NN  豆豉#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 豆制品#VV, 豆豉#NR)  (xsubj, 制成#VV, 豆豉#NR)  (cop, 我#PN, 是#VC)  (relcl, 发酵#NN, 我#PN)  (nn, 发酵#NN, 国#NN)  (nn, 发酵#NN, 传统#NN)  (nsubj, 豆制品#VV, 发酵#NN)  (xsubj, 制成#VV, 发酵#NN)  (root, ROOT#null, 豆制品#VV)  (cop, 大豆#VV, 是#VC)  (dep, 大豆#VV, 以#MSP)  (dep, 制成#VV, 大豆#VV)  (cc, 大豆#VV, 或#CC)  (conj, 大豆#VV, 黄豆#VV)  (case, 原料#NN, 为#P)  (amod, 原料#NN, 主要#JJ)  (prep, 制成#VV, 原料#NN)  (advmod, 制成#VV, 一般#AD)  (case, 蒸煮#NN, 用#P)  (conj, 蒸煮#NN, 大豆#NN)  (cc, 蒸煮#NN, 或#CC)  (nn, 蒸煮#NN, 黑豆#NN)  (prep, 制成#VV, 蒸煮#NN)  (case, 蒸煮#NN, 以后#LC)  (case, 发酵#NN, 经#P)  (prep, 制成#VV, 发酵#NN)  (ccomp, 豆制品#VV, 制成#VV)  (dep, 豆制品#VV, 利用#VV)  (conj, 蛋白酶#NN, 毛霉#NN)  (conj, 蛋白酶#NN, 曲霉#NN)  (cc, 蛋白酶#NN, 或者#CC)  (nn, 蛋白酶#NN, 细菌#NN)  (assmod, 作用#NN, 蛋白酶#NN)  (case, 蛋白酶#NN, 的#DEG)  (dobj, 利用#VV, 作用#NN)  (conj, 利用#VV, 分解#VV)  (nn, 蛋白质#NN, 大豆#NN)  (dobj, 分解#VV, 蛋白质#NN)  (loc, 抑制#VV, 达到#VV)  (amod, 程度#NN, 一定#JJ)  (dobj, 达到#VV, 程度#NN)  (case, 达到#VV, 时#LC)  (conj, 干燥#NR, 加盐#NR)  (conj, 干燥#NR, 加酒#NR)  (nn, 方法#NN, 干燥#NR)  (etc, 干燥#NR, 等#ETC)  (nsubj, 抑制#VV, 方法#NN)  (dep, 利用#VV, 抑制#VV)  (nn, 活力#NN, 酶的#NN)  (dobj, 抑制#VV, 活力#NN)  (conj, 抑制#VV, 延缓#VV)  (nn, 过程#NN, 发酵#NN)  (dobj, 延缓#VV, 过程#NN)  (prtmod, 制成#VV, 而#MSP)  (conj, 延缓#VV, 制成#VV)   (assmod, 种类#NN, 豆豉#NN)  (case, 豆豉#NN, 的#DEG)  (xsubj, 多#VA, 种类#NN)  (nsubj, 分为#VV, 种类#NN)  (advmod, 多#VA, 较#AD)  (dep, 分为#VV, 多#VA)  (case, 原料#NN, 按#P)  (nn, 原料#NN, 加工#NN)  (prep, 分为#VV, 原料#NN)  (root, ROOT#null, 分为#VV)  (conj, 黄豆豉#NN, 黑豆豉#NN)  (cc, 黄豆豉#NN, 和#CC)  (dobj, 分为#VV, 黄豆豉#NN)  (case, 口味#NN, 按#P)  (prep, 分为#VV, 口味#NN)  (mmod, 分为#VV, 可#VV)  (dep, 分为#VV, 分为#VV)  (nn, 豆豉#NN, 咸#NN)  (conj, 豆豉#NN, 豆豉#NN)  (cc, 豆豉#NN, 和#CC)  (nn, 豆豉#NN, 淡#NN)  (dobj, 分为#VV, 豆豉#NN)   (root, ROOT#null, null#null)
+            (amod, 代称#NN, 古#JJ)  (nn, 豆豉#NN, 代称#NN)  (nsubj, 幽菽#VV, 豆豉#NN)  (case, ``#NN, 为#P)  (prep, 幽菽#VV, ``#NN)  (root, ROOT#null, 幽菽#VV)  (dobj, 幽菽#VV, ''#NN)  (advmod, 叫#VV, 也#AD)  (conj, 幽菽#VV, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 嗜#NN)  (dobj, 叫#VV, ''#NN)   (assmod, 汉代#NN, 最早#JJ)  (case, 最早#JJ, 的#DEG)  (nn, 汉代#NN, 记载#NN)  (nn, 汉代#NN, 见于#NN)  (nn, 释名#NN, 汉代#NN)  (nn, 释名#NN, 刘熙#NN)  (nn, 饮食#NN, 释名#NN)  (nn, 饮食#NN, 释#NN)  (nn, 书#NN, 饮食#NN)  (nummod, 书#NN, 一#CD)  (loc, 成#VV, 书#NN)  (case, 书#NN, 中#LC)  (nsubj, 成#VV, 誉豆豉#NN)  (case, ``#VV, 为#P)  (prep, 成#VV, ``#VV)  (nummod, 调和#NN, 五味#CD)  (dobj, ``#VV, 调和#NN)  (conj, ``#VV, 需#VV)  (nsubj, 成#VV, 之#PN)  (prtmod, 成#VV, 而#MSP)  (root, ROOT#null, 成#VV)  (dobj, 成#VV, ''#NN)   (amod, 世纪#NN, 公元#JJ)  (nummod, 世纪#NN, 5#CD)  (assmod, 食经#NN, 世纪#NN)  (case, 世纪#NN, 的#DEG)  (nsubj, 有#VE, 食经#NN)  (nummod, 书#NN, 一#CD)  (loc, 有#VE, 书#NN)  (case, 书#NN, 中#LC)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (advmod, 作#VV, ``#AD)  (relcl, 记载#NN, 作#VV)  (nn, ''#NN, 豉法#NN)  (dobj, 作#VV, ''#NN)  (mark, 作#VV, 的#DEC)  (dobj, 有#VE, 记载#NN)   (nsubj, 用于#VV, 古人#NN)  (cc, 用于#VV, 不但#CC)  (ba, 用于#VV, 把#BA)  (nsubj, 用于#VV, 豆豉#NN)  (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 调味#NN)  (cc, 用于#VV, 而且#CC)  (dep, 用于#VV, 用于#VV)  (dobj, 用于#VV, 入药#NN)  (case, 它#PN, 对#P)  (prep, 看重#VV, 它#PN)  (advmod, 看重#VV, 极为#AD)  (conj, 用于#VV, 看重#VV)   (nn, 书#NN, 汉#NR)  (conj, 民#NN, 书#NN)  (conj, 民#NN, 史记#NN)  (nn, 民#NN, 齐#NR)  (nsubj, 有#VE, 民#NN)  (mmod, 有#VE, 要#VV)  (conj, 纲目#NN, 术#NN)  (nn, 纲目#NN, 本草#NN)  (dep, 有#VE, 纲目#NN)  (etc, 纲目#NN, 等#ETC)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (det, 记载#NN, 此#DT)  (dobj, 有#VE, 记载#NN)   (case, 记载#VV, 据#P)  (prep, 使#VV, 记载#VV)  (assmod, 生产#NN, 豆豉#NN)  (case, 豆豉#NN, 的#DEG)  (nsubj, 泰和县#VV, 生产#NN)  (advmod, 泰和县#VV, 最#AD)  (advmod, 泰和县#VV, 早#AD)  (cop, 泰和县#VV, 是#VC)  (case, 江西#NR, 由#P)  (prep, 泰和县#VV, 江西#NR)  (ccomp, 记载#VV, 泰和县#VV)  (nn, 开来#NN, 流传#NN)  (dobj, 泰和县#VV, 开来#NN)  (mark, 泰和县#VV, 的#DEC)  (case, 记载#VV, 后#LC)  (case, 发展#VV, 经#P)  (advmod, 发展#VV, 不断#AD)  (prep, 使#VV, 发展#VV)  (cc, 发展#VV, 和#CC)  (conj, 发展#VV, 提高#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 豆豉#NN)  (dep, 使#VV, 成为#VV)  (relcl, 佳品#NN, 独具#VV)  (dobj, 独具#VV, 特色#NN)  (conj, 独具#VV, 成为#VV)  (dobj, 成为#VV, 人们#NN)  (prtmod, 喜爱#VV, 所#MSP)  (conj, 成为#VV, 喜爱#VV)  (mark, 独具#VV, 的#DEC)  (nn, 佳品#NN, 调味#NN)  (dobj, 成为#VV, 佳品#NN)  (cc, 使#VV, 而且#CC)  (dep, 使#VV, 传到#VV)  (dobj, 传到#VV, 海外#NN)   (nn, 台湾人#NN, 我国#NN)  (nsubj, 称#VV, 台湾人#NN)  (root, ROOT#null, 称#VV)  (nsubj, ''#NN, 豆豉#NN)  (cop, ''#NN, 为#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 荫豉#NN)  (ccomp, 称#VV, ''#NN)  (nn, 豆豉#NN, 日本#NR)  (nn, 豆豉#NN, 人称#NN)  (nsubj, ''#NN, 豆豉#NN)  (cop, ''#NN, 为#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 纳豉#NN)  (conj, ''#NN, ''#NN)  (nn, 国#NN, 东南亚#NR)  (det, 国#NN, 各#DT)  (nsubj, 食用#VV, 国#NN)  (advmod, 食用#VV, 也#AD)  (advmod, 食用#VV, 普遍#AD)  (conj, ''#NN, 食用#VV)  (dobj, 食用#VV, 豆豉#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有名#VA, 我国#NR)  (advmod, 有名#VA, 较为#AD)  (relcl, 豆豉#NN, 有名#VA)  (mark, 有名#VA, 的#DEC)  (dep, 有#VE, 豆豉#NN)  (root, ROOT#null, 有#VE)  (nn, 豆豉#NN, 广东#NR)  (nn, 豆豉#NN, 阳江#NR)  (conj, 豆豉#NN, 豆豉#NN)  (nn, 豆豉#NN, 开封#NR)  (nn, 豆豉#NN, 西瓜#NN)  (conj, 豆豉#NN, 豆豉#NN)  (nn, 豆豉#NN, 广西#NR)  (nn, 豆豉#NN, 黄#NR)  (nn, 豆豉#NN, 姚#NN)  (conj, 豆豉#NN, 豆豉#NN)  (nn, 豆豉#NN, 山东#NR)  (nummod, 豆豉#NN, 八宝#CD)  (conj, 豆豉#NN, 豆豉#NN)  (nn, 豆豉#NN, 四川#NR)  (nn, 豆豉#NN, 潼川#NR)  (conj, 豆豉#NN, 豆豉#NN)  (cc, 豆豉#NN, 和#CC)  (nn, 豆豉#NN, 永川#NN)  (conj, 豆豉#NN, 豆豉#NN)  (nn, 豆豉#NN, 湖南#NR)  (nn, 豆豉#NN, 浏阳#NN)  (conj, 豆豉#NN, 豆豉#NN)  (etc, 豆豉#NN, 等#ETC)  (nn, 豆豉#NN, 陕西#NR)  (nn, 豆豉#NN, 汉中#NR)  (nn, 豆豉#NN, 香辣#NN)  (conj, 豆豉#NN, 豆豉#NN)  (cc, 豆豉#NN, 和#CC)  (nn, 豆豉#NN, 风干#NN)  (dobj, 有#VE, 豆豉#NN)  (etc, 豆豉#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.豆豉还以其特有的香气使人增加食欲，促进吸收。我国在抗美援朝战争中，曾大量生产豆豉供应志愿军食用。
+            2.豆豉不仅能调味，而且可以入药。中医学认为豆豉性平，味甘微苦，有发汗解表、清热透疹、宽中除烦、宣郁解毒之效，可治感冒头痛、胸闷烦呕、伤寒寒热及食物中毒等病症。
+        </rawdata>
+
+        <segment>
+            豆豉  还  以其  特有  的  香气  使  人  增加  食欲  ，  促进  吸收  。  我国  在  抗美援朝  战争  中  ，  曾  大量  生产  豆豉  供应  志愿军  食用  。
+            豆豉  不仅  能  调味  ，  而且  可以  入药  。  中医学  认为  豆豉  性平  ，  味甘微苦  ，  有  发汗  解表  、  清热  透疹  、  宽  中  除烦  、  宣郁  解毒  之  效  ，  可治  感冒  头痛  、  胸闷  烦呕  、  伤寒  寒热  及  食物  中毒  等  病症  。
+        </segment>
+
+        <pos>
+            豆豉#AD  还#AD  以其#AD  特有#VV  的#DEC  香气#NN  使#VV  人#NN  增加#VV  食欲#NN  ，#PU  促进#VV  吸收#NN    。#PU  我国#NN  在#P  抗美援朝#NN  战争#NN  中#LC  ，#PU  曾#AD  大量#AD  生产#VV  豆豉#NN  供应#NN  志愿军#NN  食用#VV    。#PU    。#PU
+            豆豉#NN  不仅#CC  能#VV  调味#VV  ，#PU  而且#CC  可以#VV  入药#NN    。#PU  中医学#NR  认为#VV  豆豉#VV  性平#NN  ，#PU  味甘微苦#VV  ，#PU  有#VE  发汗#NN  解表#NN  、#PU  清热#NN  透疹#NN  、#PU  宽#JJ  中#JJ  除烦#NN  、#PU  宣郁#VV  解毒#NR  之#DEG  效#NN  ，#PU  可治#VV  感冒#NN  头痛#NN  、#PU  胸闷#NN  烦呕#NN  、#PU  伤寒#NN  寒热#NN  及#CC  食物#AD  中毒#VV  等#ETC  病症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 特有#VV, 豆豉#AD)  (advmod, 特有#VV, 还#AD)  (advmod, 特有#VV, 以其#AD)  (relcl, 香气#NN, 特有#VV)  (mark, 特有#VV, 的#DEC)  (nsubj, 使#VV, 香气#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 增加#VV)  (dobj, 增加#VV, 食欲#NN)  (conj, 增加#VV, 促进#VV)  (dobj, 促进#VV, 吸收#NN)   (nsubj, 生产#VV, 我国#NN)  (case, 战争#NN, 在#P)  (nn, 战争#NN, 抗美援朝#NN)  (prep, 生产#VV, 战争#NN)  (case, 战争#NN, 中#LC)  (advmod, 生产#VV, 曾#AD)  (advmod, 生产#VV, 大量#AD)  (dep, 食用#VV, 生产#VV)  (nn, 志愿军#NN, 豆豉#NN)  (nn, 志愿军#NN, 供应#NN)  (dobj, 生产#VV, 志愿军#NN)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, null#null)
+            (nsubj, 调味#VV, 豆豉#NN)  (cc, 调味#VV, 不仅#CC)  (mmod, 调味#VV, 能#VV)  (root, ROOT#null, 调味#VV)  (cc, 调味#VV, 而且#CC)  (dep, 调味#VV, 可以#VV)  (dobj, 可以#VV, 入药#NN)   (nsubj, 认为#VV, 中医学#NR)  (xsubj, 豆豉#VV, 中医学#NR)  (root, ROOT#null, 认为#VV)  (ccomp, 认为#VV, 豆豉#VV)  (dobj, 豆豉#VV, 性平#NN)  (conj, 豆豉#VV, 味甘微苦#VV)  (conj, 豆豉#VV, 有#VE)  (nn, 解表#NN, 发汗#NN)  (dep, 病症#NN, 解表#NN)  (nn, 透疹#NN, 清热#NN)  (conj, 解表#NN, 透疹#NN)  (amod, 除烦#NN, 宽#JJ)  (amod, 除烦#NN, 中#JJ)  (conj, 解表#NN, 除烦#NN)  (conj, 解表#NN, 宣郁#VV)  (assmod, 效#NN, 解毒#NR)  (case, 解毒#NR, 之#DEG)  (dobj, 宣郁#VV, 效#NN)  (conj, 宣郁#VV, 可治#VV)  (nn, 头痛#NN, 感冒#NN)  (dobj, 可治#VV, 头痛#NN)  (nn, 烦呕#NN, 胸闷#NN)  (conj, 解表#NN, 烦呕#NN)  (nn, 寒热#NN, 伤寒#NN)  (conj, 解表#NN, 寒热#NN)  (cc, 解表#NN, 及#CC)  (advmod, 中毒#VV, 食物#AD)  (dep, 解表#NN, 中毒#VV)  (dep, 解表#NN, 等#ETC)  (dobj, 有#VE, 病症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.豆豉一直广泛使用于中国烹调之中。可用豆豉拌上麻油及其他作料作助餐小菜；用豆豉与豆腐、茄子、芋头、萝卜等烹制菜肴别有风味；著名的“麻婆豆腐”、“炒回锅肉”等均少不了用豆豉作调料。广东人更喜欢用豆豉作调料烹调粤菜，如“豉汁排骨”、“豆豉鲮鱼”和焖鸡、鸭、猪肉、牛肉等，尤其是炒田螺时用豆豉作调料，风味更佳。
+            2.食用前要充分加热，不要食用变质或发霉的豆豉。
+        </rawdata>
+
+        <segment>
+            豆豉  一直  广泛  使用  于  中国  烹调  之中  。  可用  豆豉  拌上  麻油  及  其他  作料  作  助餐  小菜  ；  用  豆豉  与  豆腐  、  茄子  、  芋头  、  萝卜  等  烹制  菜肴  别  有  风味  ；  著名  的  “  麻婆豆腐  ”  、  “  炒  回锅肉  ”  等  均  少不了  用  豆豉  作  调料  。  广东人  更  喜欢  用  豆豉  作  调料  烹调  粤菜  ，  如  “  豉汁  排骨  ”  、  “  豆豉  鲮鱼  ”  和  焖鸡  、  鸭  、  猪肉  、  牛肉  等  ，  尤其是  炒  田螺  时  用  豆豉  作  调料  ，  风味  更佳  。
+            食用  前  要  充分  加热  ，  不要  食用  变质  或  发霉  的  豆豉  。
+        </segment>
+
+        <pos>
+            豆豉#NN  一直#AD  广泛#AD  使用#VV  于#P  中国#NR  烹调#NN  之中#LC    。#PU  可用#JJ  豆豉#NN  拌上#NN  麻油#NN  及#CC  其他#DT  作料#NN  作#VV  助餐#NN  小菜#NN  ；#PU  用#P  豆豉#NR  与#CC  豆腐#NR  、#PU  茄子#NR  、#PU  芋头#NR  、#PU  萝卜#NR  等#ETC  烹制#NN  菜肴#NN  别#DT  有#VE  风味#NN  ；#PU  著名#VA  的#DEC  ``#NN  麻婆豆腐#NN  ''#NN  、#PU  ``#NN  炒#NN  回锅肉#NN  ''#NN  等#ETC  均#AD  少不了#AD  用#P  豆豉#NN  作#VV  调料#NN    。#PU  广东人#NR  更#AD  喜欢#VV  用#P  豆豉#NN  作#VV  调料#NN  烹调#NN  粤菜#NN  ，#PU  如#AD  ``#NN  豉汁#NN  排骨#VV  ''#NR  、#PU  ``#NR  豆豉#NR  鲮鱼#NR  ''#NR  和#CC  焖鸡#NR  、#PU  鸭#NR  、#PU  猪肉#NR  、#PU  牛肉#NR  等#ETC  ，#PU  尤其是#AD  炒#NN  田螺#NN  时#LC  用#P  豆豉#NN  作#VV  调料#NN  ，#PU  风味#VV  更佳#NN    。#PU    。#PU
+            食用#VV  前#LC  要#VV  充分#AD  加热#VV  ，#PU  不要#AD  食用#VV  变质#NN  或#CC  发霉#NN  的#DEG  豆豉#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 使用#VV, 豆豉#NN)  (advmod, 使用#VV, 一直#AD)  (advmod, 使用#VV, 广泛#AD)  (root, ROOT#null, 使用#VV)  (case, 烹调#NN, 于#P)  (nn, 烹调#NN, 中国#NR)  (prep, 使用#VV, 烹调#NN)  (case, 烹调#NN, 之中#LC)   (amod, 豆豉#NN, 可用#JJ)  (nn, 麻油#NN, 豆豉#NN)  (nn, 麻油#NN, 拌上#NN)  (conj, 作料#NN, 麻油#NN)  (cc, 作料#NN, 及#CC)  (det, 作料#NN, 其他#DT)  (nsubj, 作#VV, 作料#NN)  (root, ROOT#null, 作#VV)  (nn, 小菜#NN, 助餐#NN)  (dobj, 作#VV, 小菜#NN)  (case, 菜肴#NN, 用#P)  (conj, 萝卜#NR, 豆豉#NR)  (cc, 萝卜#NR, 与#CC)  (conj, 萝卜#NR, 豆腐#NR)  (conj, 萝卜#NR, 茄子#NR)  (conj, 萝卜#NR, 芋头#NR)  (nn, 菜肴#NN, 萝卜#NR)  (etc, 萝卜#NR, 等#ETC)  (nn, 菜肴#NN, 烹制#NN)  (prep, 有#VE, 菜肴#NN)  (dep, 有#VE, 别#DT)  (conj, 作#VV, 有#VE)  (dobj, 有#VE, 风味#NN)  (relcl, ''#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 麻婆豆腐#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 炒#NN)  (nn, ''#NN, 回锅肉#NN)  (nsubj, 作#VV, ''#NN)  (etc, ''#NN, 等#ETC)  (advmod, 作#VV, 均#AD)  (advmod, 作#VV, 少不了#AD)  (case, 豆豉#NN, 用#P)  (prep, 作#VV, 豆豉#NN)  (dep, 作#VV, 作#VV)  (dobj, 作#VV, 调料#NN)   (nsubj, 喜欢#VV, 广东人#NR)  (xsubj, 作#VV, 广东人#NR)  (advmod, 喜欢#VV, 更#AD)  (root, ROOT#null, 喜欢#VV)  (case, 豆豉#NN, 用#P)  (prep, 作#VV, 豆豉#NN)  (ccomp, 喜欢#VV, 作#VV)  (nn, 粤菜#NN, 调料#NN)  (nn, 粤菜#NN, 烹调#NN)  (dobj, 作#VV, 粤菜#NN)  (advmod, 豉汁#NN, 如#AD)  (nn, 豉汁#NN, ``#NN)  (nsubj, 排骨#VV, 豉汁#NN)  (conj, 喜欢#VV, 排骨#VV)  (conj, 牛肉#NR, ''#NR)  (nn, 牛肉#NR, ``#NR)  (nn, 牛肉#NR, 豆豉#NR)  (nn, 牛肉#NR, 鲮鱼#NR)  (conj, 牛肉#NR, ''#NR)  (cc, 牛肉#NR, 和#CC)  (conj, 牛肉#NR, 焖鸡#NR)  (conj, 牛肉#NR, 鸭#NR)  (conj, 牛肉#NR, 猪肉#NR)  (dobj, 排骨#VV, 牛肉#NR)  (etc, 牛肉#NR, 等#ETC)  (advmod, 作#VV, 尤其是#AD)  (nn, 田螺#NN, 炒#NN)  (loc, 作#VV, 田螺#NN)  (case, 田螺#NN, 时#LC)  (case, 豆豉#NN, 用#P)  (prep, 作#VV, 豆豉#NN)  (conj, 喜欢#VV, 作#VV)  (dobj, 作#VV, 调料#NN)  (conj, 作#VV, 风味#VV)  (dobj, 风味#VV, 更佳#NN)   (root, ROOT#null, null#null)
+            (loc, 加热#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (mmod, 加热#VV, 要#VV)  (advmod, 加热#VV, 充分#AD)  (root, ROOT#null, 加热#VV)  (advmod, 食用#VV, 不要#AD)  (conj, 加热#VV, 食用#VV)  (conj, 发霉#NN, 变质#NN)  (cc, 发霉#NN, 或#CC)  (assmod, 豆豉#NN, 发霉#NN)  (case, 发霉#NN, 的#DEG)  (dobj, 食用#VV, 豆豉#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101154325096.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

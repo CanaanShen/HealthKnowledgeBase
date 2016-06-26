@@ -1,0 +1,438 @@
+<content>
+
+    <id>
+        546
+    </id>
+
+    <foodname>
+        红茶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            结石病、肿瘤、贫血、有精神衰弱失眠、平时情绪容易激动或比较敏感、睡眠状况欠佳、胃热、舌胎厚者、口臭者、易生痘者、双目赤红、易上火、正在服药者忌食；经期女性，孕期女性、哺乳期女性、更年期女性忌食。
+        </rawdata>
+
+        <segment>
+            结石病  、  肿瘤  、  贫血  、  有精神  衰弱  失眠  、  平时  情绪  容易  激动  或  比较  敏感  、  睡眠  状况  欠佳  、  胃热  、  舌胎  厚  者  、  口臭者  、  易生  痘者  、  双目  赤红  、  易  上火  、  正在  服药者  忌食  ；  经期  女性  ，  孕期  女性  、  哺乳期  女性  、  更年期  女性  忌食  。
+        </segment>
+
+        <pos>
+            结石病#NN  、#PU  肿瘤#NN  、#PU  贫血#NN  、#PU  有精神#NN  衰弱#NN  失眠#NN  、#PU  平时#AD  情绪#NN  容易#VA  激动#VA  或#CC  比较#AD  敏感#VA  、#PU  睡眠#NN  状况#NN  欠佳#NN  、#PU  胃热#NN  、#PU  舌胎#NN  厚#NN  者#NN  、#PU  口臭者#NN  、#PU  易生#NN  痘者#NN  、#PU  双目#NN  赤红#NN  、#PU  易#AD  上火#VV  、#PU  正在#AD  服药者#VV  忌食#NN  ；#PU  经期#VV  女性#NN  ，#PU  孕期#VV  女性#NN  、#PU  哺乳期#NN  女性#NN  、#PU  更年期#JJ  女性#NN  忌食#VA  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 有精神#NN, 结石病#NN)  (conj, 有精神#NN, 肿瘤#NN)  (conj, 有精神#NN, 贫血#NN)  (nn, 女性#NN, 有精神#NN)  (nn, 失眠#NN, 衰弱#NN)  (dep, 女性#NN, 失眠#NN)  (advmod, 容易#VA, 平时#AD)  (nsubj, 容易#VA, 情绪#NN)  (conj, 失眠#NN, 容易#VA)  (comod, 容易#VA, 激动#VA)  (cc, 容易#VA, 或#CC)  (advmod, 敏感#VA, 比较#AD)  (dep, 容易#VA, 敏感#VA)  (nn, 欠佳#NN, 睡眠#NN)  (nn, 欠佳#NN, 状况#NN)  (conj, 失眠#NN, 欠佳#NN)  (conj, 失眠#NN, 胃热#NN)  (nn, 者#NN, 舌胎#NN)  (nn, 者#NN, 厚#NN)  (conj, 失眠#NN, 者#NN)  (conj, 失眠#NN, 口臭者#NN)  (nn, 痘者#NN, 易生#NN)  (conj, 失眠#NN, 痘者#NN)  (nn, 赤红#NN, 双目#NN)  (conj, 失眠#NN, 赤红#NN)  (advmod, 上火#VV, 易#AD)  (conj, 失眠#NN, 上火#VV)  (advmod, 服药者#VV, 正在#AD)  (conj, 上火#VV, 服药者#VV)  (dobj, 服药者#VV, 忌食#NN)  (conj, 上火#VV, 经期#VV)  (dobj, 经期#VV, 女性#NN)  (conj, 上火#VV, 孕期#VV)  (dobj, 孕期#VV, 女性#NN)  (nn, 女性#NN, 哺乳期#NN)  (conj, 失眠#NN, 女性#NN)  (dep, 失眠#NN, 更年期#JJ)  (nsubj, 忌食#VA, 女性#NN)  (root, ROOT#null, 忌食#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            体寒、肠胃不好、有心血管疾病患者宜食。
+        </rawdata>
+
+        <segment>
+            体寒  、  肠胃  不  好  、  有  心血管  疾病  患者  宜食  。
+        </segment>
+
+        <pos>
+            体寒#NR  、#PU  肠胃#NR  不#AD  好#VA  、#PU  有#VE  心血管#NN  疾病#NN  患者#NN  宜食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肠胃#NR, 体寒#NR)  (nsubj, 好#VA, 肠胃#NR)  (neg, 好#VA, 不#AD)  (root, ROOT#null, 好#VA)  (dep, 好#VA, 有#VE)  (nn, 宜食#NN, 心血管#NN)  (nn, 宜食#NN, 疾病#NN)  (nn, 宜食#NN, 患者#NN)  (dobj, 有#VE, 宜食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                294
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                26.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                59.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                14.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                645
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                3870
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                6.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                5.47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                378
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                390
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1934
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                13.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                183
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                28.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                2.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                49.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            红茶是一种经过全发酵（发酵程度大于80%）制成的茶，以适宜制作本品的茶树新芽叶为原料，经萎凋、揉捻、发酵、干燥等典型工艺过程精制而成，内含多种维生素，叶片及汤呈红色。我国红茶种类较多，产地较广，有中国特有的工夫红茶和小种红茶，也有与印度、斯里兰卡相类似的红碎茶。
+            红茶起源于明朝中期（约16世纪）福建省武夷山桐木关地区，最早的品种称为正山小种，近年又出现独树一帜的金骏眉红茶。红茶按制造方法的不同，又分为小种红茶、工夫红茶和红碎茶。因其干茶色泽和冲泡的茶汤以红色为主调，故名红茶。
+            红茶创制时称为“乌茶”。红茶在加工过程中发生了以茶多酚酶促氧化为中心的化学反应，鲜叶中的化学成分变化较大，茶多酚减少90%以上，产生了茶黄素、茶红素等新成分。香气物质比鲜叶明显增加。所以红茶具有红茶、红汤、红叶和香甜味醇的特征。
+        </rawdata>
+
+        <segment>
+            红茶  是  一  种  经过  全  发酵  （  发酵  程度  大于  80%  ）  制成  的  茶  ，  以  适宜  制作  本品  的  茶树  新芽  叶  为  原料  ，  经  萎凋  、  揉捻  、  发酵  、  干燥  等  典型  工艺  过程  精制  而成  ，  内含  多种  维生素  ，  叶片  及  汤呈  红色  。  我  国  红茶  种类  较  多  ，  产地  较广  ，  有  中国  特有  的  工夫  红茶  和  小种  红茶  ，  也  有  与  印度  、  斯里兰卡  相  类似  的  红  碎  茶  。
+            红茶  起源于  明朝  中期  （  约  16  世纪  ）  福建省  武夷山  桐木  关  地区  ，  最早  的  品种  称为  正山小种  ，  近年  又  出现  独树一帜  的  金骏眉  红茶  。  红茶  按  制造  方法  的  不同  ，  又  分为  小种  红茶  、  工夫  红茶  和  红  碎  茶  。  因  其干  茶  色泽  和  冲泡  的  茶汤  以  红色  为  主调  ，  故名  红茶  。
+            红茶  创制  时称  为  “  乌  茶  ”  。  红茶  在  加工  过程  中  发生  了  以  茶  多  酚酶  促  氧化  为  中心  的  化学  反应  ，  鲜叶  中  的  化学  成分  变化  较大  ，  茶  多酚  减少  90%  以上  ，  产生  了  茶黄素  、  茶红  素  等  新  成分  。  香气  物质  比鲜  叶明显  增加  。  所以  红茶  具有  红茶  、  红  汤  、  红叶  和  香甜  味醇  的  特征  。
+        </segment>
+
+        <pos>
+            红茶#NR  是#VC  一#CD  种#M  经过#P  全#DT  发酵#NN  （#PU  发酵#NN  程度#NN  大于#VV  80#CD  %#NN  ）#PU  制成#VV  的#DEC  茶#NN  ，#PU  以#P  适宜#VA  制作#VV  本品#NN  的#DEC  茶树#NN  新芽#NN  叶#NN  为#P  原料#NN  ，#PU  经#P  萎凋#NN  、#PU  揉捻#NN  、#PU  发酵#NN  、#PU  干燥#NN  等#ETC  典型#JJ  工艺#NN  过程#NN  精制#JJ  而成#NN  ，#PU  内含#VV  多种#NN  维生素#NN  ，#PU  叶片#VV  及#CC  汤呈#VV  红色#JJ    。#PU  我#PN  国#NN  红茶#NN  种类#NN  较#AD  多#VA  ，#PU  产地#NN  较广#NN  ，#PU  有#VE  中国#NR  特有#VV  的#DEC  工夫#NN  红茶#NN  和#CC  小种#NN  红茶#NN  ，#PU  也#AD  有#VE  与#P  印度#NR  、#PU  斯里兰卡#NR  相#AD  类似#VA  的#DEC  红#JJ  碎#NN  茶#NN    。#PU    。#PU
+            红茶#NN  起源于#NN  明朝#NN  中期#NN  （#PU  约#AD  16#CD  世纪#NN  ）#PU  福建省#NR  武夷山#JJ  桐木#NN  关#VV  地区#NN  ，#PU  最早#JJ  的#DEG  品种#NN  称为#VV  正山小种#NN  ，#PU  近年#NT  又#AD  出现#VV  独树一帜#CD  的#DEG  金骏眉#NN  红茶#NN    。#PU  红茶#NN  按#P  制造#NN  方法#NN  的#DEG  不同#NN  ，#PU  又#AD  分为#VV  小种#NN  红茶#NN  、#PU  工夫#NN  红茶#NN  和#CC  红#JJ  碎#NN  茶#NN    。#PU  因#P  其干#AD  茶#VV  色泽#NN  和#CC  冲泡#NN  的#DEG  茶汤#NN  以#P  红色#JJ  为#VV  主调#NN  ，#PU  故名#AD  红茶#VV    。#PU    。#PU
+            红茶#NN  创制#NN  时称#NN  为#P  ``#NR  乌#NR  茶#NN  ''#VV    。#PU  红茶#NR  在#P  加工#NN  过程#NN  中#LC  发生#VV  了#AS  以#P  茶#NR  多#CD  酚酶#NN  促#VV  氧化#CD  为#VC  中心#NN  的#DEC  化学#NN  反应#NN  ，#PU  鲜叶#NN  中#LC  的#DEG  化学#NN  成分#NN  变化#NN  较大#JJ  ，#PU  茶#AD  多酚#VV  减少#VV  90#CD  %#NN  以上#LC  ，#PU  产生#VV  了#AS  茶黄素#NN  、#PU  茶红#VA  素#AD  等#ETC  新#JJ  成分#NN    。#PU  香气#NN  物质#NN  比鲜#NN  叶明显#AD  增加#VV    。#PU  所以#AD  红茶#NN  具有#VV  红茶#JJ  、#PU  红#JJ  汤#NN  、#PU  红叶#NN  和#CC  香甜#NN  味醇#NN  的#DEC  特征#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 内含#VV, 红茶#NR)  (cop, 内含#VV, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 叶#NN, 种#M)  (case, 茶#NN, 经过#P)  (det, 茶#NN, 全#DT)  (nsubj, 制成#VV, 发酵#NN)  (nn, 程度#NN, 发酵#NN)  (nsubj, 大于#VV, 程度#NN)  (prnmod, 发酵#NN, 大于#VV)  (nummod, %#NN, 80#CD)  (dobj, 大于#VV, %#NN)  (relcl, 茶#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (prep, 制作#VV, 茶#NN)  (case, 适宜#VA, 以#P)  (prep, 制作#VV, 适宜#VA)  (relcl, 叶#NN, 制作#VV)  (dobj, 制作#VV, 本品#NN)  (mark, 制作#VV, 的#DEC)  (nn, 叶#NN, 茶树#NN)  (nn, 叶#NN, 新芽#NN)  (dep, 内含#VV, 叶#NN)  (case, 原料#NN, 为#P)  (prep, 内含#VV, 原料#NN)  (case, 而成#NN, 经#P)  (conj, 干燥#NN, 萎凋#NN)  (conj, 干燥#NN, 揉捻#NN)  (conj, 干燥#NN, 发酵#NN)  (nn, 过程#NN, 干燥#NN)  (etc, 干燥#NN, 等#ETC)  (amod, 过程#NN, 典型#JJ)  (nn, 过程#NN, 工艺#NN)  (nn, 而成#NN, 过程#NN)  (amod, 而成#NN, 精制#JJ)  (prep, 内含#VV, 而成#NN)  (root, ROOT#null, 内含#VV)  (nn, 维生素#NN, 多种#NN)  (dobj, 内含#VV, 维生素#NN)  (conj, 内含#VV, 叶片#VV)  (cc, 叶片#VV, 及#CC)  (mmod, 红色#JJ, 汤呈#VV)  (dep, 叶片#VV, 红色#JJ)   (nn, 国#NN, 我#PN)  (nn, 种类#NN, 国#NN)  (nn, 种类#NN, 红茶#NN)  (nsubj, 多#VA, 种类#NN)  (advmod, 多#VA, 较#AD)  (root, ROOT#null, 多#VA)  (nn, 较广#NN, 产地#NN)  (nsubj, 有#VE, 较广#NN)  (conj, 多#VA, 有#VE)  (nsubj, 特有#VV, 中国#NR)  (relcl, 红茶#NN, 特有#VV)  (mark, 特有#VV, 的#DEC)  (nn, 红茶#NN, 工夫#NN)  (conj, 红茶#NN, 红茶#NN)  (cc, 红茶#NN, 和#CC)  (nn, 红茶#NN, 小种#NN)  (dobj, 有#VE, 红茶#NN)  (advmod, 有#VE, 也#AD)  (conj, 有#VE, 有#VE)  (case, 斯里兰卡#NR, 与#P)  (conj, 斯里兰卡#NR, 印度#NR)  (prep, 类似#VA, 斯里兰卡#NR)  (advmod, 类似#VA, 相#AD)  (relcl, 茶#NN, 类似#VA)  (mark, 类似#VA, 的#DEC)  (amod, 茶#NN, 红#JJ)  (nn, 茶#NN, 碎#NN)  (dobj, 有#VE, 茶#NN)   (root, ROOT#null, null#null)
+            (nn, 起源于#NN, 红茶#NN)  (nn, 桐木#NN, 起源于#NN)  (nn, 中期#NN, 明朝#NN)  (nn, 桐木#NN, 中期#NN)  (advmod, 16#CD, 约#AD)  (nummod, 世纪#NN, 16#CD)  (prnmod, 桐木#NN, 世纪#NN)  (nn, 桐木#NN, 福建省#NR)  (amod, 桐木#NN, 武夷山#JJ)  (nsubj, 关#VV, 桐木#NN)  (root, ROOT#null, 关#VV)  (dobj, 关#VV, 地区#NN)  (assmod, 品种#NN, 最早#JJ)  (case, 最早#JJ, 的#DEG)  (nsubj, 称为#VV, 品种#NN)  (conj, 关#VV, 称为#VV)  (dobj, 称为#VV, 正山小种#NN)  (tmod, 出现#VV, 近年#NT)  (advmod, 出现#VV, 又#AD)  (conj, 关#VV, 出现#VV)  (assmod, 红茶#NN, 独树一帜#CD)  (case, 独树一帜#CD, 的#DEG)  (nn, 红茶#NN, 金骏眉#NN)  (dobj, 出现#VV, 红茶#NN)   (nsubj, 分为#VV, 红茶#NN)  (case, 不同#NN, 按#P)  (nn, 方法#NN, 制造#NN)  (assmod, 不同#NN, 方法#NN)  (case, 方法#NN, 的#DEG)  (prep, 分为#VV, 不同#NN)  (advmod, 分为#VV, 又#AD)  (root, ROOT#null, 分为#VV)  (nn, 红茶#NN, 小种#NN)  (conj, 碎#NN, 红茶#NN)  (nn, 红茶#NN, 工夫#NN)  (conj, 碎#NN, 红茶#NN)  (cc, 碎#NN, 和#CC)  (amod, 碎#NN, 红#JJ)  (nn, 茶#NN, 碎#NN)  (dobj, 分为#VV, 茶#NN)   (case, 茶#VV, 因#P)  (advmod, 茶#VV, 其干#AD)  (prep, 红茶#VV, 茶#VV)  (conj, 冲泡#NN, 色泽#NN)  (cc, 冲泡#NN, 和#CC)  (assmod, 茶汤#NN, 冲泡#NN)  (case, 冲泡#NN, 的#DEG)  (dobj, 茶#VV, 茶汤#NN)  (case, 主调#NN, 以#P)  (amod, 主调#NN, 红色#JJ)  (nfincl, 主调#NN, 为#VV)  (prep, 红茶#VV, 主调#NN)  (advmod, 红茶#VV, 故名#AD)  (root, ROOT#null, 红茶#VV)   (root, ROOT#null, null#null)
+            (nn, 时称#NN, 红茶#NN)  (nn, 时称#NN, 创制#NN)  (nsubj, ''#VV, 时称#NN)  (case, 茶#NN, 为#P)  (nn, 茶#NN, ``#NR)  (nn, 茶#NN, 乌#NR)  (prep, ''#VV, 茶#NN)  (root, ROOT#null, ''#VV)   (nsubj, 发生#VV, 红茶#NR)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 加工#NN)  (prep, 发生#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 发生#VV)  (asp, 发生#VV, 了#AS)  (case, 促#VV, 以#P)  (nn, 酚酶#NN, 茶#NR)  (nummod, 酚酶#NN, 多#CD)  (nsubj, 促#VV, 酚酶#NN)  (prep, 较大#JJ, 促#VV)  (nummod, 反应#NN, 氧化#CD)  (cop, 中心#NN, 为#VC)  (relcl, 反应#NN, 中心#NN)  (mark, 中心#NN, 的#DEC)  (nn, 反应#NN, 化学#NN)  (dobj, 促#VV, 反应#NN)  (assmod, 变化#NN, 鲜叶#NN)  (case, 鲜叶#NN, 中#LC)  (case, 鲜叶#NN, 的#DEG)  (nn, 变化#NN, 化学#NN)  (nn, 变化#NN, 成分#NN)  (nsubj, 较大#JJ, 变化#NN)  (nfincl, 成分#NN, 较大#JJ)  (advmod, 多酚#VV, 茶#AD)  (conj, 较大#JJ, 多酚#VV)  (rcomp, 多酚#VV, 减少#VV)  (nummod, %#NN, 90#CD)  (loc, 多酚#VV, %#NN)  (case, %#NN, 以上#LC)  (dep, 较大#JJ, 产生#VV)  (asp, 产生#VV, 了#AS)  (dobj, 产生#VV, 茶黄素#NN)  (conj, 较大#JJ, 茶红#VA)  (advmod, 茶红#VA, 素#AD)  (dep, 较大#JJ, 等#ETC)  (amod, 成分#NN, 新#JJ)  (dobj, 发生#VV, 成分#NN)   (nn, 比鲜#NN, 香气#NN)  (nn, 比鲜#NN, 物质#NN)  (nsubj, 增加#VV, 比鲜#NN)  (advmod, 增加#VV, 叶明显#AD)  (root, ROOT#null, 增加#VV)   (advmod, 具有#VV, 所以#AD)  (nsubj, 具有#VV, 红茶#NN)  (relcl, 特征#NN, 具有#VV)  (amod, 味醇#NN, 红茶#JJ)  (dep, 红茶#JJ, 红#JJ)  (conj, 味醇#NN, 汤#NN)  (conj, 味醇#NN, 红叶#NN)  (cc, 味醇#NN, 和#CC)  (nn, 味醇#NN, 香甜#NN)  (dobj, 具有#VV, 味醇#NN)  (mark, 具有#VV, 的#DEC)  (root, ROOT#null, 特征#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提神消疲
+            经由医学实验发现，红茶中的咖啡碱藉由刺激大脑皮质来兴奋神经中枢，促成提神、思考力集中，进而使思维反应更形敏锐，记忆力增强；它也对血管系统和心脏具兴奋作用，强化心搏，从而加快血液循环以利新陈代谢，同时又促进发汗和利尿，由此双管齐下加速排泄乳酸(使肌肉感觉疲劳的物质)及其它体内老废物质，达到消除疲劳的效果。
+            2.生津清热
+            夏天饮红茶能止渴消暑，是因为茶中的多酚类、醣类、氨基酸、果胶等与口涎产生化学反应，且剌激唾液分泌，导致口腔觉得滋润，并且产生清凉感；同时咖啡碱控制下视丘的体温中枢，调节体温，它也刺激肾脏以促进热量和污物的排泄，维持体内的生理平衡。
+            3.利尿
+            在红茶中的咖啡碱和芳香物质联合作用下，增加肾脏的血流量，提高肾小球过滤率，扩张肾微血管，并抑制肾小管对水的再吸收，于是促成尿量增加。如此有利于排除体内的乳酸、尿酸(与痛风有关)、过多的盐分(与高血压有关)、有害物等，以及缓和心脏病或肾炎造成的水肿。
+            4.消炎杀菌
+            红茶中的多酚类化合物具有消炎的效果，再经由实验发现，儿茶素类能与单细胞的细菌结合，使蛋白质凝固沉淀，藉此抑制和消灭病原菌。所以细菌性痢疾及食物中毒患者喝红茶颇有益，民间也常用浓茶涂伤口、褥疮和香港脚。
+            5.解毒
+            据实验证明，红茶中的茶多碱能吸附重金属和生物碱，并沉淀分解，这对饮水和食品受到工业污染的现代人而言，不啻是一项福音。
+            6.强壮骨骼
+            红茶中的多酚类(绿茶中也有)有抑制破坏骨细胞物质的活力。为了防治女性常见骨质疏松症，建议每天服用一小杯红茶，坚持数年效果明显。如在红茶中加上柠檬，强壮骨骼，效果更强，在红茶中也可加上各种水果，能起协同作用。
+            7.抗衰老
+            绿茶和红茶中的抗氧化剂可以彻底破坏癌细胞中化学物质的传播路径。红茶与绿茶的功效大致相当，但是红茶的抗氧化剂比绿茶复杂得多，尤其是对心脏更是有益”。美国杂志报道，红茶抗衰老效果强于大蒜头、西兰花和胡萝卜等。
+            8.养胃护胃
+            人在没吃饭的时候饮用绿茶会感到胃部不舒服，这是因为茶叶中所含的重要物质--茶多酚具有收敛性，对胃有一定的刺激作用，在空腹的情况下刺激性更强。而红茶就不一样了。它是经过发酵烘制而成的。红茶不仅不会伤胃，反而能够养胃。经常饮用加糖、加牛奶的红茶，能消炎、保护胃黏膜，对治疗溃疡也有一定效果。
+            9.抗癌
+            关于茶叶具有抗癌作用的说法很流行，世界各地的研究人员也对此做过许多的探索，但是一般认为茶叶的抗癌作用主要表现在绿茶方面，有了新的进展。研究发现，红茶同绿茶一样，同样有很强的抗癌功效。
+            10.舒张血管
+            研究发现，心脏病患者每天喝4杯红茶，血管舒张度可以从6%增加到10%。常人在受刺激后，则舒张度会增加13%。
+        </rawdata>
+
+        <segment>
+            提神  消疲
+            经由  医学  实验  发现  ，  红茶  中  的  咖啡碱  藉由  刺激  大脑  皮质  来  兴奋  神经  中枢  ，  促成  提神  、  思考  力  集中  ，  进而  使  思维  反应  更形  敏锐  ，  记忆力  增强  ；  它  也  对  血管  系统  和  心脏  具  兴奋  作用  ，  强化  心搏  ，  从而  加快  血液  循环  以利  新陈代谢  ，  同时  又  促进  发汗  和  利尿  ，  由此  双管齐下  加速  排泄  乳酸  (  使  肌肉  感觉  疲劳  的  物质  )  及  其它  体内  老  废  物质  ，  达到  消除  疲劳  的  效果  。
+            生  津  清热
+            夏天  饮  红茶  能  止渴  消暑  ，  是  因为  茶  中  的  多酚类  、  醣类  、  氨基酸  、  果胶  等  与  口涎  产生  化学  反应  ，  且剌激  唾液  分泌  ，  导致  口腔  觉得  滋润  ，  并且  产生  清凉感  ；  同时  咖啡碱  控制  下  视丘  的  体温  中枢  ，  调节  体温  ，  它  也  刺激  肾脏  以  促进  热量  和  污物  的  排泄  ，  维持  体内  的  生理  平衡  。
+            利尿
+            在  红茶  中  的  咖啡碱  和  芳香  物质  联合  作用  下  ，  增加  肾脏  的  血流量  ，  提高  肾  小球  过滤率  ，  扩张  肾  微血管  ，  并  抑制  肾  小管  对  水  的  再吸收  ，  于是  促成  尿量  增加  。  如此  有利于  排除  体内  的  乳酸  、  尿酸  (  与  痛风  有关  )  、  过多  的  盐分  (  与  高血压  有关  )  、  有害物  等  ，  以及  缓和  心脏病  或  肾炎  造成  的  水肿  。
+            消炎  杀菌
+            红茶  中  的  多酚类  化合物  具有  消炎  的  效果  ，  再  经由  实验  发现  ，  儿茶素  类  能  与  单  细胞  的  细菌  结合  ，  使  蛋白质  凝固  沉淀  ，  藉  此  抑制  和  消灭  病原菌  。  所以  细菌性  痢疾  及  食物  中毒  患者  喝  红茶  颇  有益  ，  民间  也  常用  浓茶  涂  伤口  、  褥疮  和  香港  脚  。
+            解毒
+            据实  验  证明  ，  红茶  中  的  茶  多  碱  能  吸附  重金属  和  生物碱  ，  并  沉淀  分解  ，  这  对  饮水  和  食品  受到  工业  污染  的  现代  人  而言  ，  不啻  是  一  项  福音  。
+            强壮  骨骼
+            红茶  中  的  多酚类  (  绿茶  中  也  有  )  有  抑制  破坏  骨细胞  物质  的  活力  。  为了  防治  女性  常见  骨质  疏松症  ，  建议  每  天  服用  一  小  杯  红茶  ，  坚持  数  年  效果  明显  。  如  在  红茶  中  加上  柠檬  ，  强壮  骨骼  ，  效果  更  强  ，  在  红茶  中  也  可  加上  各  种  水果  ，  能  起  协同  作用  。
+            抗  衰老
+            绿茶  和  红茶  中  的  抗氧化剂  可以  彻底  破坏  癌细胞  中  化学  物质  的  传播  路径  。  红茶  与  绿茶  的  功效  大致  相当  ，  但是  红茶  的  抗氧化剂  比  绿茶  复杂  得  多  ，  尤其是  对  心脏  更是  有益  ”  。  美国  杂志  报道  ，  红  茶  抗  衰老  效果  强  于  大  蒜头  、  西兰花  和  胡萝卜  等  。
+            养  胃  护  胃
+            人  在  没  吃饭  的  时候  饮用  绿茶  会  感到  胃部  不舒服  ，  这  是  因为  茶叶  中  所  含  的  重要  物质  --  茶多酚  具有  收敛性  ，  对  胃  有  一定  的  刺激  作用  ，  在  空腹  的  情况  下  刺激性  更  强  。  而  红茶  就  不  一样  了  。  它  是  经过  发酵  烘制  而  成  的  。  红茶  不仅  不  会  伤胃  ，  反而  能够  养胃  。  经常  饮用  加糖  、  加  牛奶  的  红茶  ，  能  消炎  、  保护  胃  黏膜  ，  对  治疗  溃疡  也  有  一定  效果  。
+            抗癌
+            关于  茶叶  具有  抗癌  作用  的  说法  很  流行  ，  世界  各地  的  研究  人员  也  对此  做  过  许多  的  探索  ，  但是  一般  认为  茶叶  的  抗癌  作用  主要  表现  在  绿茶  方面  ，  有  了  新  的  进展  。  研究  发现  ，  红茶  同  绿茶  一样  ，  同样  有  很  强  的  抗癌  功效  。
+            .  舒张  血管
+            研究  发现  ，  心脏病  患者  每天  喝  4  杯  红茶  ，  血管  舒张  度  可以  从  6%  增加  到  10%  。  常人  在  受刺激  后  ，  则  舒张  度  会  增加  13%  。
+        </segment>
+
+        <pos>
+            提神#NN  消疲#VV
+            经由#NN  医学#NN  实验#NN  发现#VV  ，#PU  红茶#NN  中#LC  的#DEG  咖啡碱#NN  藉由#VV  刺激#VV  大脑#NN  皮质#NN  来#LC  兴奋#NN  神经#NN  中枢#NN  ，#PU  促成#VV  提神#NN  、#PU  思考#NN  力#NN  集中#VV  ，#PU  进而#AD  使#VV  思维#NN  反应#NN  更形#VV  敏锐#NN  ，#PU  记忆力#AD  增强#VV  ；#PU  它#PN  也#AD  对#P  血管#NN  系统#NN  和#CC  心脏#NN  具#VV  兴奋#NN  作用#NN  ，#PU  强化#VV  心搏#NN  ，#PU  从而#AD  加快#VV  血液#NN  循环#NN  以利#NN  新陈代谢#NN  ，#PU  同时#AD  又#AD  促进#VV  发汗#CD  和#CC  利尿#CD  ，#PU  由此#NN  双管齐下#NN  加速#AD  排泄#VV  乳酸#NN  -LRB-#NN  使#VV  肌肉#NN  感觉#NN  疲劳#VA  的#DEC  物质#NN  -RRB-#NN  及#CC  其它#DT  体内#NN  老#JJ  废#NN  物质#NN  ，#PU  达到#VV  消除#VV  疲劳#VA  的#DEC  效果#NN  。#PU
+            生#VV  津#NR  清热#NN
+            夏天#NT  饮#AD  红茶#VV  能#VV  止渴#NN  消暑#NN  ，#PU  是#VC  因为#P  茶#NN  中#LC  的#DEG  多酚类#NR  、#PU  醣类#NR  、#PU  氨基酸#NR  、#PU  果胶#NR  等#ETC  与#CC  口涎#AD  产生#VV  化学#NN  反应#NN  ，#PU  且剌激#VV  唾液#NN  分泌#NN  ，#PU  导致#VV  口腔#NN  觉得#VV  滋润#VA  ，#PU  并且#CC  产生#VV  清凉感#NN  ；#PU  同时#AD  咖啡碱#VV  控制#VV  下#DT  视丘#NN  的#DEC  体温#NN  中枢#NN  ，#PU  调节#VV  体温#NN  ，#PU  它#PN  也#AD  刺激#VV  肾脏#AD  以#MSP  促进#VV  热量#CD  和#CC  污物#CD  的#DEC  排泄#NN  ，#PU  维持#VV  体内#NN  的#DEC  生理#NN  平衡#VA  。#PU
+            利尿#VV
+            在#P  红茶#NN  中#LC  的#DEG  咖啡碱#NN  和#CC  芳香#NN  物质#NN  联合#JJ  作用#NN  下#LC  ，#PU  增加#VV  肾脏#NN  的#DEG  血流量#NN  ，#PU  提高#VV  肾#NN  小球#NN  过滤率#NN  ，#PU  扩张#VV  肾#NN  微血管#NN  ，#PU  并#CC  抑制#VV  肾#NN  小管#NN  对#P  水#NN  的#DEG  再吸收#NN  ，#PU  于是#AD  促成#VV  尿量#AD  增加#VV    。#PU  如此#AD  有利于#VV  排除#VV  体内#NN  的#DEG  乳酸#NR  、#PU  尿酸#NR  -LRB-#NR  与#CC  痛风#NR  有关#JJ  -RRB-#NN  、#PU  过多#NN  的#DEG  盐分#NN  -LRB-#NN  与#CC  高血压#NR  有关#JJ  -RRB-#NN  、#PU  有害物#NN  等#ETC  ，#PU  以及#CC  缓和#VV  心脏病#NN  或#CC  肾炎#VV  造成#VV  的#DEC  水肿#NN    。#PU    。#PU
+            消炎#NN  杀菌#VV
+            红茶#NN  中#LC  的#DEG  多酚类#NN  化合物#AD  具有#VV  消炎#NN  的#DEG  效果#NN  ，#PU  再#AD  经由#VV  实验#NN  发现#NN  ，#PU  儿茶素#CD  类#M  能#VV  与#P  单#CD  细胞#NN  的#DEG  细菌#NN  结合#VV  ，#PU  使#VV  蛋白质#NN  凝固#VV  沉淀#NN  ，#PU  藉#P  此#PN  抑制#VV  和#CC  消灭#VV  病原菌#NN    。#PU  所以#AD  细菌性#NN  痢疾#NN  及#CC  食物#AD  中毒#VV  患者#NN  喝#NN  红茶#NN  颇#AD  有益#VA  ，#PU  民间#NN  也#AD  常用#JJ  浓茶#NN  涂#VV  伤口#NR  、#PU  褥疮#NR  和#CC  香港#NR  脚#NN    。#PU    。#PU
+            解毒#VV
+            据实#NN  验#NN  证明#VV  ，#PU  红茶#NN  中#LC  的#DEG  茶#NN  多#AD  碱#AD  能#VV  吸附#VV  重金属#NN  和#CC  生物碱#NN  ，#PU  并#CC  沉淀#AD  分解#VV  ，#PU  这#PN  对#P  饮水#NN  和#CC  食品#NN  受到#VV  工业#NN  污染#NN  的#DEC  现代#JJ  人#NN  而言#NN  ，#PU  不啻#AD  是#VC  一#CD  项#M  福音#NN  。#PU
+            强壮#VV  骨骼#NN
+            红茶#NN  中#LC  的#DEG  多酚类#NN  -LRB-#NN  绿茶#NN  中#LC  也#AD  有#VE  -RRB-#NN  有#VE  抑制#VV  破坏#NN  骨细胞#NN  物质#NN  的#DEC  活力#NN    。#PU  为了#P  防治#VV  女性#NN  常见#JJ  骨质#NN  疏松症#NN  ，#PU  建议#VV  每#DT  天#M  服用#VV  一#CD  小#JJ  杯#NN  红茶#NN  ，#PU  坚持#VV  数#CD  年#M  效果#NN  明显#VA    。#PU  如#AD  在#P  红茶#NN  中#LC  加上#VV  柠檬#NN  ，#PU  强壮#NN  骨骼#NN  ，#PU  效果#NN  更#AD  强#VA  ，#PU  在#P  红茶#NN  中#LC  也#AD  可#VV  加上#VV  各#DT  种#M  水果#NN  ，#PU  能#VV  起#VV  协同#NN  作用#NN    。#PU    。#PU
+            抗#NN  衰老#VV
+            绿茶#NN  和#CC  红茶#NN  中#LC  的#DEG  抗氧化剂#NN  可以#VV  彻底#AD  破坏#VV  癌细胞#NN  中#LC  化学#NN  物质#NN  的#DEG  传播#NN  路径#NN    。#PU  红茶#NN  与#P  绿茶#NN  的#DEG  功效#NN  大致#VA  相当#AD  ，#PU  但是#AD  红茶#NN  的#DEG  抗氧化剂#NN  比#P  绿茶#NN  复杂#VA  得#DER  多#VA  ，#PU  尤其是#AD  对#P  心脏#NN  更是#AD  有益#VA  ''#VA    。#PU  美国#NR  杂志#NN  报道#VV  ，#PU  红#JJ  茶#NN  抗#NN  衰老#NN  效果#NN  强#VA  于#P  大#JJ  蒜头#NN  、#PU  西兰花#NN  和#CC  胡萝卜#NN  等#ETC    。#PU    。#PU
+            养#VV  胃#NN  护#NN  胃#NN
+            人#NN  在#P  没#AD  吃饭#VV  的#DEC  时候#NN  饮用#VV  绿茶#NN  会#VV  感到#VV  胃部#NN  不舒服#NN  ，#PU  这#PN  是#VC  因为#P  茶叶#NN  中#LC  所#MSP  含#VV  的#DEC  重要#JJ  物质#NN  --#NN  茶多酚#AD  具有#VV  收敛性#NN  ，#PU  对#P  胃#NN  有#VE  一定#JJ  的#DEG  刺激#NN  作用#NN  ，#PU  在#P  空腹#NN  的#DEG  情况#NN  下#LC  刺激性#NN  更#AD  强#VA    。#PU  而#MSP  红茶#VV  就#AD  不#AD  一样#VA  了#AS    。#PU  它#PN  是#VC  经过#P  发酵#NN  烘制#NN  而#MSP  成#VV  的#DEC    。#PU  红茶#NN  不仅#CC  不#AD  会#VV  伤胃#VV  ，#PU  反而#AD  能够#VV  养胃#NN    。#PU  经常#AD  饮用#VV  加糖#NR  、#PU  加#NR  牛奶#NN  的#DEG  红茶#NN  ，#PU  能#VV  消炎#NN  、#PU  保护#NN  胃#NN  黏膜#NN  ，#PU  对#P  治疗#NN  溃疡#NN  也#AD  有#VE  一定#JJ  效果#NN    。#PU    。#PU
+            抗癌#VV
+            关于#P  茶叶#NN  具有#VV  抗癌#NN  作用#NN  的#DEC  说法#NN  很#AD  流行#VV  ，#PU  世界#NN  各地#NN  的#DEG  研究#NN  人员#NN  也#AD  对此#AD  做#VV  过#AS  许多#CD  的#DEG  探索#NN  ，#PU  但是#AD  一般#AD  认为#VV  茶叶#NN  的#DEG  抗癌#JJ  作用#NN  主要#AD  表现#VV  在#P  绿茶#NN  方面#NN  ，#PU  有#VE  了#AS  新#VA  的#DEC  进展#NN    。#PU  研究#NN  发现#VV  ，#PU  红茶#NN  同#P  绿茶#NR  一样#VA  ，#PU  同样#AD  有#VE  很#AD  强#VA  的#DEC  抗癌#NN  功效#NN    。#PU    。#PU
+            .#NN  舒张#NN  血管#NN
+            研究#NN  发现#VV  ，#PU  心脏病#NN  患者#NN  每天#AD  喝#VV  4#CD  杯#NN  红茶#NN  ，#PU  血管#NN  舒张#CD  度#M  可以#VV  从#P  6#CD  %#NN  增加#VV  到#VV  10#CD  %#NN    。#PU  常人#NN  在#P  受刺激#NN  后#LC  ，#PU  则#AD  舒张#CD  度#M  会#VV  增加#VV  13#CD  %#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 消疲#VV, 提神#NN)  (root, ROOT#null, 消疲#VV)
+            (nn, 实验#NN, 经由#NN)  (nn, 实验#NN, 医学#NN)  (nsubj, 发现#VV, 实验#NN)  (root, ROOT#null, 发现#VV)  (assmod, 咖啡碱#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (nsubj, 刺激#VV, 咖啡碱#NN)  (mmod, 刺激#VV, 藉由#VV)  (ccomp, 发现#VV, 刺激#VV)  (nn, 皮质#NN, 大脑#NN)  (dep, 中枢#NN, 皮质#NN)  (case, 皮质#NN, 来#LC)  (nn, 中枢#NN, 兴奋#NN)  (nn, 中枢#NN, 神经#NN)  (dobj, 刺激#VV, 中枢#NN)  (ccomp, 刺激#VV, 促成#VV)  (conj, 刺激#VV, 促成#VV)  (conj, 思考#NN, 提神#NN)  (nn, 力#NN, 思考#NN)  (dobj, 促成#VV, 力#NN)  (dep, 促成#VV, 集中#VV)  (advmod, 使#VV, 进而#AD)  (ccomp, 刺激#VV, 使#VV)  (conj, 刺激#VV, 使#VV)  (nn, 反应#NN, 思维#NN)  (dobj, 使#VV, 反应#NN)  (dep, 使#VV, 更形#VV)  (dobj, 更形#VV, 敏锐#NN)  (advmod, 增强#VV, 记忆力#AD)  (ccomp, 刺激#VV, 增强#VV)  (conj, 刺激#VV, 增强#VV)  (nsubj, 具#VV, 它#PN)  (advmod, 具#VV, 也#AD)  (case, 心脏#NN, 对#P)  (nn, 心脏#NN, 血管#NN)  (conj, 心脏#NN, 系统#NN)  (cc, 心脏#NN, 和#CC)  (prep, 具#VV, 心脏#NN)  (ccomp, 增强#VV, 具#VV)  (nn, 作用#NN, 兴奋#NN)  (dobj, 具#VV, 作用#NN)  (ccomp, 刺激#VV, 强化#VV)  (conj, 刺激#VV, 强化#VV)  (dobj, 强化#VV, 心搏#NN)  (advmod, 加快#VV, 从而#AD)  (ccomp, 刺激#VV, 加快#VV)  (conj, 刺激#VV, 加快#VV)  (nn, 新陈代谢#NN, 血液#NN)  (nn, 新陈代谢#NN, 循环#NN)  (nn, 新陈代谢#NN, 以利#NN)  (dobj, 加快#VV, 新陈代谢#NN)  (advmod, 促进#VV, 同时#AD)  (advmod, 促进#VV, 又#AD)  (ccomp, 刺激#VV, 促进#VV)  (conj, 刺激#VV, 促进#VV)  (nummod, 利尿#CD, 发汗#CD)  (cc, 利尿#CD, 和#CC)  (range, 促进#VV, 利尿#CD)  (nn, 双管齐下#NN, 由此#NN)  (nsubj, 排泄#VV, 双管齐下#NN)  (advmod, 排泄#VV, 加速#AD)  (conj, 发现#VV, 排泄#VV)  (nn, -LRB-#NN, 乳酸#NN)  (relcl, -RRB-#NN, 使#VV)  (nn, 感觉#NN, 肌肉#NN)  (dobj, 使#VV, 感觉#NN)  (dep, 使#VV, 疲劳#VA)  (mark, 使#VV, 的#DEC)  (nn, -RRB-#NN, 物质#NN)  (cc, 物质#NN, 及#CC)  (det, 体内#NN, 其它#DT)  (nn, 物质#NN, 体内#NN)  (amod, 物质#NN, 老#JJ)  (nn, 物质#NN, 废#NN)  (dobj, 排泄#VV, 物质#NN)  (mmod, 消除#VV, 达到#VV)  (conj, 发现#VV, 消除#VV)  (relcl, 效果#NN, 疲劳#VA)  (mark, 疲劳#VA, 的#DEC)  (dobj, 消除#VV, 效果#NN)
+            (root, ROOT#null, 生#VV)  (nn, 清热#NN, 津#NR)  (dobj, 生#VV, 清热#NN)
+            (dep, 能#VV, 夏天#NT)  (advmod, 能#VV, 饮#AD)  (mmod, 能#VV, 红茶#VV)  (root, ROOT#null, 能#VV)  (nn, 消暑#NN, 止渴#NN)  (dobj, 能#VV, 消暑#NN)  (cop, 果胶#NR, 是#VC)  (case, 茶#NN, 因为#P)  (assmod, 果胶#NR, 茶#NN)  (case, 茶#NN, 中#LC)  (case, 茶#NN, 的#DEG)  (conj, 果胶#NR, 多酚类#NR)  (conj, 果胶#NR, 醣类#NR)  (conj, 果胶#NR, 氨基酸#NR)  (conj, 能#VV, 果胶#NR)  (etc, 果胶#NR, 等#ETC)  (cc, 能#VV, 与#CC)  (advmod, 产生#VV, 口涎#AD)  (conj, 能#VV, 产生#VV)  (nn, 反应#NN, 化学#NN)  (dobj, 产生#VV, 反应#NN)  (conj, 能#VV, 且剌激#VV)  (nn, 分泌#NN, 唾液#NN)  (dobj, 且剌激#VV, 分泌#NN)  (conj, 能#VV, 导致#VV)  (dobj, 导致#VV, 口腔#NN)  (dep, 导致#VV, 觉得#VV)  (ccomp, 觉得#VV, 滋润#VA)  (cc, 觉得#VV, 并且#CC)  (conj, 觉得#VV, 产生#VV)  (dobj, 产生#VV, 清凉感#NN)  (advmod, 咖啡碱#VV, 同时#AD)  (conj, 觉得#VV, 咖啡碱#VV)  (relcl, 中枢#NN, 控制#VV)  (det, 视丘#NN, 下#DT)  (dobj, 控制#VV, 视丘#NN)  (mark, 控制#VV, 的#DEC)  (nn, 中枢#NN, 体温#NN)  (dobj, 咖啡碱#VV, 中枢#NN)  (conj, 觉得#VV, 调节#VV)  (dobj, 调节#VV, 体温#NN)  (nsubj, 刺激#VV, 它#PN)  (advmod, 刺激#VV, 也#AD)  (conj, 能#VV, 刺激#VV)  (advmod, 促进#VV, 肾脏#AD)  (prtmod, 促进#VV, 以#MSP)  (relcl, 排泄#NN, 促进#VV)  (nummod, 污物#CD, 热量#CD)  (cc, 污物#CD, 和#CC)  (range, 促进#VV, 污物#CD)  (mark, 促进#VV, 的#DEC)  (dobj, 刺激#VV, 排泄#NN)  (relcl, 生理#NN, 维持#VV)  (dobj, 维持#VV, 体内#NN)  (mark, 维持#VV, 的#DEC)  (nsubj, 平衡#VA, 生理#NN)  (conj, 能#VV, 平衡#VA)
+            (root, ROOT#null, 利尿#VV)
+            (case, 作用#NN, 在#P)  (assmod, 作用#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (conj, 物质#NN, 咖啡碱#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 芳香#NN)  (nn, 作用#NN, 物质#NN)  (amod, 作用#NN, 联合#JJ)  (prep, 增加#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (root, ROOT#null, 增加#VV)  (assmod, 血流量#NN, 肾脏#NN)  (case, 肾脏#NN, 的#DEG)  (dobj, 增加#VV, 血流量#NN)  (conj, 增加#VV, 提高#VV)  (nn, 过滤率#NN, 肾#NN)  (nn, 过滤率#NN, 小球#NN)  (dobj, 提高#VV, 过滤率#NN)  (conj, 增加#VV, 扩张#VV)  (nn, 微血管#NN, 肾#NN)  (dobj, 扩张#VV, 微血管#NN)  (cc, 增加#VV, 并#CC)  (conj, 增加#VV, 抑制#VV)  (nn, 小管#NN, 肾#NN)  (nn, 再吸收#NN, 小管#NN)  (case, 水#NN, 对#P)  (assmod, 再吸收#NN, 水#NN)  (case, 水#NN, 的#DEG)  (dobj, 抑制#VV, 再吸收#NN)  (advmod, 促成#VV, 于是#AD)  (conj, 增加#VV, 促成#VV)  (advmod, 增加#VV, 尿量#AD)  (ccomp, 促成#VV, 增加#VV)   (advmod, 有利于#VV, 如此#AD)  (root, ROOT#null, 有利于#VV)  (ccomp, 有利于#VV, 排除#VV)  (assmod, -RRB-#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (conj, 痛风#NR, 乳酸#NR)  (nn, 痛风#NR, 尿酸#NR)  (cc, 痛风#NR, 与#CC)  (nn, -RRB-#NN, 痛风#NR)  (amod, -RRB-#NN, 有关#JJ)  (assmod, -LRB-#NN, 过多#NN)  (case, 过多#NN, 的#DEG)  (nn, -LRB-#NN, 盐分#NN)  (cc, 有害物#NN, 与#CC)  (nn, -RRB-#NN, 高血压#NR)  (amod, -RRB-#NN, 有关#JJ)  (dobj, 排除#VV, 有害物#NN)  (etc, 有害物#NN, 等#ETC)  (cc, 有利于#VV, 以及#CC)  (dep, 有利于#VV, 缓和#VV)  (dobj, 缓和#VV, 心脏病#NN)  (cc, 缓和#VV, 或#CC)  (conj, 缓和#VV, 肾炎#VV)  (relcl, 水肿#NN, 造成#VV)  (mark, 造成#VV, 的#DEC)  (dobj, 肾炎#VV, 水肿#NN)   (root, ROOT#null, null#null)
+            (nsubj, 杀菌#VV, 消炎#NN)  (root, ROOT#null, 杀菌#VV)
+            (assmod, 多酚类#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (nsubj, 具有#VV, 多酚类#NN)  (advmod, 具有#VV, 化合物#AD)  (root, ROOT#null, 具有#VV)  (assmod, 效果#NN, 消炎#NN)  (case, 消炎#NN, 的#DEG)  (dobj, 具有#VV, 效果#NN)  (advmod, 经由#VV, 再#AD)  (conj, 具有#VV, 经由#VV)  (nn, 发现#NN, 实验#NN)  (dobj, 经由#VV, 发现#NN)  (nummod, 类#M, 儿茶素#CD)  (dep, 结合#VV, 类#M)  (mmod, 结合#VV, 能#VV)  (case, 细菌#NN, 与#P)  (nummod, 细胞#NN, 单#CD)  (assmod, 细菌#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (prep, 结合#VV, 细菌#NN)  (conj, 具有#VV, 结合#VV)  (conj, 具有#VV, 使#VV)  (dobj, 使#VV, 蛋白质#NN)  (dep, 使#VV, 凝固#VV)  (dobj, 凝固#VV, 沉淀#NN)  (case, 此#PN, 藉#P)  (prep, 抑制#VV, 此#PN)  (conj, 凝固#VV, 抑制#VV)  (cc, 具有#VV, 和#CC)  (conj, 具有#VV, 消灭#VV)  (dobj, 消灭#VV, 病原菌#NN)   (advmod, 有益#VA, 所以#AD)  (nn, 痢疾#NN, 细菌性#NN)  (conj, 红茶#NN, 痢疾#NN)  (cc, 红茶#NN, 及#CC)  (advmod, 中毒#VV, 食物#AD)  (relcl, 红茶#NN, 中毒#VV)  (nn, 喝#NN, 患者#NN)  (dobj, 中毒#VV, 喝#NN)  (nsubj, 有益#VA, 红茶#NN)  (advmod, 有益#VA, 颇#AD)  (root, ROOT#null, 有益#VA)  (nsubj, 涂#VV, 民间#NN)  (advmod, 涂#VV, 也#AD)  (amod, 浓茶#NN, 常用#JJ)  (prep, 涂#VV, 浓茶#NN)  (conj, 有益#VA, 涂#VV)  (conj, 香港#NR, 伤口#NR)  (conj, 香港#NR, 褥疮#NR)  (cc, 香港#NR, 和#CC)  (nn, 脚#NN, 香港#NR)  (dobj, 涂#VV, 脚#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 解毒#VV)
+            (nn, 验#NN, 据实#NN)  (nsubj, 证明#VV, 验#NN)  (root, ROOT#null, 证明#VV)  (assmod, 茶#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (nsubj, 吸附#VV, 茶#NN)  (advmod, 吸附#VV, 多#AD)  (advmod, 吸附#VV, 碱#AD)  (mmod, 吸附#VV, 能#VV)  (ccomp, 证明#VV, 吸附#VV)  (conj, 生物碱#NN, 重金属#NN)  (cc, 生物碱#NN, 和#CC)  (dobj, 吸附#VV, 生物碱#NN)  (cc, 吸附#VV, 并#CC)  (advmod, 分解#VV, 沉淀#AD)  (dep, 吸附#VV, 分解#VV)  (nsubj, 福音#NN, 这#PN)  (case, 而言#NN, 对#P)  (conj, 食品#NN, 饮水#NN)  (cc, 食品#NN, 和#CC)  (nsubj, 受到#VV, 食品#NN)  (relcl, 而言#NN, 受到#VV)  (nn, 污染#NN, 工业#NN)  (dobj, 受到#VV, 污染#NN)  (mark, 受到#VV, 的#DEC)  (amod, 人#NN, 现代#JJ)  (nn, 而言#NN, 人#NN)  (prep, 福音#NN, 而言#NN)  (advmod, 福音#NN, 不啻#AD)  (cop, 福音#NN, 是#VC)  (nummod, 项#M, 一#CD)  (clf, 福音#NN, 项#M)  (conj, 证明#VV, 福音#NN)
+            (root, ROOT#null, 强壮#VV)  (dobj, 强壮#VV, 骨骼#NN)
+            (assmod, 多酚类#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (nsubj, 有#VE, 多酚类#NN)  (loc, 有#VE, 绿茶#NN)  (case, 绿茶#NN, 中#LC)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 有#VE)  (relcl, 活力#NN, 抑制#VV)  (nn, 物质#NN, 破坏#NN)  (nn, 物质#NN, 骨细胞#NN)  (dobj, 抑制#VV, 物质#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 活力#NN)   (case, 防治#VV, 为了#P)  (prep, 明显#VA, 防治#VV)  (nn, 骨质#NN, 女性#NN)  (amod, 骨质#NN, 常见#JJ)  (nn, 疏松症#NN, 骨质#NN)  (dobj, 防治#VV, 疏松症#NN)  (conj, 防治#VV, 建议#VV)  (dep, 服用#VV, 每#DT)  (clf, 每#DT, 天#M)  (ccomp, 建议#VV, 服用#VV)  (nummod, 红茶#NN, 一#CD)  (amod, 红茶#NN, 小#JJ)  (nn, 红茶#NN, 杯#NN)  (dobj, 服用#VV, 红茶#NN)  (conj, 防治#VV, 坚持#VV)  (nummod, 年#M, 数#CD)  (range, 坚持#VV, 年#M)  (nsubj, 明显#VA, 效果#NN)  (root, ROOT#null, 明显#VA)   (advmod, 加上#VV, 如#AD)  (case, 红茶#NN, 在#P)  (prep, 加上#VV, 红茶#NN)  (case, 红茶#NN, 中#LC)  (root, ROOT#null, 加上#VV)  (dobj, 加上#VV, 柠檬#NN)  (nn, 骨骼#NN, 强壮#NN)  (nsubj, 强#VA, 骨骼#NN)  (nsubj, 强#VA, 效果#NN)  (advmod, 强#VA, 更#AD)  (dep, 加上#VV, 强#VA)  (case, 红茶#NN, 在#P)  (prep, 加上#VV, 红茶#NN)  (case, 红茶#NN, 中#LC)  (advmod, 加上#VV, 也#AD)  (mmod, 加上#VV, 可#VV)  (dep, 强#VA, 加上#VV)  (det, 水果#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 加上#VV, 水果#NN)  (mmod, 起#VV, 能#VV)  (dep, 强#VA, 起#VV)  (nn, 作用#NN, 协同#NN)  (dobj, 起#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (conj, 红茶#NN, 绿茶#NN)  (cc, 红茶#NN, 和#CC)  (assmod, 抗氧化剂#NN, 红茶#NN)  (case, 红茶#NN, 中#LC)  (case, 红茶#NN, 的#DEG)  (nsubj, 破坏#VV, 抗氧化剂#NN)  (mmod, 破坏#VV, 可以#VV)  (advmod, 破坏#VV, 彻底#AD)  (root, ROOT#null, 破坏#VV)  (dep, 路径#NN, 癌细胞#NN)  (case, 癌细胞#NN, 中#LC)  (nn, 物质#NN, 化学#NN)  (assmod, 路径#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (nn, 路径#NN, 传播#NN)  (dobj, 破坏#VV, 路径#NN)   (nsubj, 大致#VA, 红茶#NN)  (case, 功效#NN, 与#P)  (assmod, 功效#NN, 绿茶#NN)  (case, 绿茶#NN, 的#DEG)  (prep, 大致#VA, 功效#NN)  (root, ROOT#null, 大致#VA)  (advmod, 大致#VA, 相当#AD)  (advmod, 多#VA, 但是#AD)  (assmod, 抗氧化剂#NN, 红茶#NN)  (case, 红茶#NN, 的#DEG)  (nsubj, 多#VA, 抗氧化剂#NN)  (case, 绿茶#NN, 比#P)  (prep, 多#VA, 绿茶#NN)  (dep, 多#VA, 复杂#VA)  (dep, 多#VA, 得#DER)  (conj, 大致#VA, 多#VA)  (advmod, 有益#VA, 尤其是#AD)  (case, 心脏#NN, 对#P)  (prep, 有益#VA, 心脏#NN)  (advmod, 有益#VA, 更是#AD)  (conj, 大致#VA, 有益#VA)  (comod, 有益#VA, ''#VA)   (nn, 杂志#NN, 美国#NR)  (nsubj, 报道#VV, 杂志#NN)  (root, ROOT#null, 报道#VV)  (amod, 茶#NN, 红#JJ)  (nn, 效果#NN, 茶#NN)  (nn, 效果#NN, 抗#NN)  (nn, 效果#NN, 衰老#NN)  (nsubj, 强#VA, 效果#NN)  (ccomp, 报道#VV, 强#VA)  (case, 胡萝卜#NN, 于#P)  (amod, 蒜头#NN, 大#JJ)  (conj, 胡萝卜#NN, 蒜头#NN)  (conj, 胡萝卜#NN, 西兰花#NN)  (cc, 胡萝卜#NN, 和#CC)  (prep, 强#VA, 胡萝卜#NN)  (etc, 胡萝卜#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 养#VV)  (nn, 胃#NN, 胃#NN)  (nn, 胃#NN, 护#NN)  (dobj, 养#VV, 胃#NN)
+            (nsubj, 饮用#VV, 人#NN)  (case, 时候#NN, 在#P)  (neg, 吃饭#VV, 没#AD)  (relcl, 时候#NN, 吃饭#VV)  (mark, 吃饭#VV, 的#DEC)  (prep, 饮用#VV, 时候#NN)  (root, ROOT#null, 饮用#VV)  (dobj, 饮用#VV, 绿茶#NN)  (mmod, 感到#VV, 会#VV)  (conj, 饮用#VV, 感到#VV)  (nn, 不舒服#NN, 胃部#NN)  (nsubj, 是#VC, 不舒服#NN)  (nsubj, 是#VC, 这#PN)  (ccomp, 感到#VV, 是#VC)  (case, 具有#VV, 因为#P)  (loc, 含#VV, 茶叶#NN)  (case, 茶叶#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, --#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (amod, --#NN, 重要#JJ)  (nn, --#NN, 物质#NN)  (advmod, 具有#VV, 茶多酚#AD)  (prep, 是#VC, 具有#VV)  (dobj, 具有#VV, 收敛性#NN)  (case, 胃#NN, 对#P)  (prep, 有#VE, 胃#NN)  (dep, 是#VC, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 刺激#NN)  (dobj, 有#VE, 作用#NN)  (case, 情况#NN, 在#P)  (assmod, 情况#NN, 空腹#NN)  (case, 空腹#NN, 的#DEG)  (prep, 强#VA, 情况#NN)  (case, 情况#NN, 下#LC)  (nsubj, 强#VA, 刺激性#NN)  (advmod, 强#VA, 更#AD)  (conj, 是#VC, 强#VA)   (dep, 红茶#VV, 而#MSP)  (nsubj, 一样#VA, 红茶#VV)  (advmod, 一样#VA, 就#AD)  (neg, 一样#VA, 不#AD)  (root, ROOT#null, 一样#VA)  (asp, 一样#VA, 了#AS)   (nsubj, 成#VV, 它#PN)  (cop, 成#VV, 是#VC)  (case, 烘制#NN, 经过#P)  (nn, 烘制#NN, 发酵#NN)  (prep, 成#VV, 烘制#NN)  (prtmod, 成#VV, 而#MSP)  (root, ROOT#null, 成#VV)  (mark, 成#VV, 的#DEC)   (nsubj, 伤胃#VV, 红茶#NN)  (cc, 伤胃#VV, 不仅#CC)  (neg, 伤胃#VV, 不#AD)  (dep, 伤胃#VV, 会#VV)  (root, ROOT#null, 伤胃#VV)  (advmod, 能够#VV, 反而#AD)  (dep, 伤胃#VV, 能够#VV)  (dobj, 能够#VV, 养胃#NN)   (advmod, 饮用#VV, 经常#AD)  (root, ROOT#null, 饮用#VV)  (conj, 加#NR, 加糖#NR)  (nn, 牛奶#NN, 加#NR)  (assmod, 红茶#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (dobj, 饮用#VV, 红茶#NN)  (dep, 饮用#VV, 能#VV)  (conj, 黏膜#NN, 消炎#NN)  (nn, 黏膜#NN, 保护#NN)  (nn, 黏膜#NN, 胃#NN)  (dobj, 能#VV, 黏膜#NN)  (case, 溃疡#NN, 对#P)  (nn, 溃疡#NN, 治疗#NN)  (prep, 有#VE, 溃疡#NN)  (advmod, 有#VE, 也#AD)  (conj, 饮用#VV, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抗癌#VV)
+            (case, 流行#VV, 关于#P)  (nsubj, 流行#VV, 茶叶#NN)  (relcl, 说法#NN, 具有#VV)  (nn, 作用#NN, 抗癌#NN)  (dobj, 具有#VV, 作用#NN)  (mark, 具有#VV, 的#DEC)  (nsubj, 流行#VV, 说法#NN)  (advmod, 流行#VV, 很#AD)  (prep, 做#VV, 流行#VV)  (nn, 各地#NN, 世界#NN)  (assmod, 人员#NN, 各地#NN)  (case, 各地#NN, 的#DEG)  (nn, 人员#NN, 研究#NN)  (nsubj, 做#VV, 人员#NN)  (advmod, 做#VV, 也#AD)  (advmod, 做#VV, 对此#AD)  (root, ROOT#null, 做#VV)  (asp, 做#VV, 过#AS)  (assmod, 探索#NN, 许多#CD)  (case, 许多#CD, 的#DEG)  (dobj, 做#VV, 探索#NN)  (advmod, 认为#VV, 但是#AD)  (advmod, 认为#VV, 一般#AD)  (conj, 做#VV, 认为#VV)  (assmod, 作用#NN, 茶叶#NN)  (case, 茶叶#NN, 的#DEG)  (amod, 作用#NN, 抗癌#JJ)  (dobj, 认为#VV, 作用#NN)  (advmod, 表现#VV, 主要#AD)  (dep, 认为#VV, 表现#VV)  (case, 方面#NN, 在#P)  (nn, 方面#NN, 绿茶#NN)  (prep, 表现#VV, 方面#NN)  (conj, 认为#VV, 有#VE)  (asp, 有#VE, 了#AS)  (relcl, 进展#NN, 新#VA)  (mark, 新#VA, 的#DEC)  (dobj, 有#VE, 进展#NN)   (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 一样#VA, 红茶#NN)  (case, 绿茶#NR, 同#P)  (prep, 一样#VA, 绿茶#NR)  (ccomp, 发现#VV, 一样#VA)  (advmod, 有#VE, 同样#AD)  (dep, 一样#VA, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 功效#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 功效#NN, 抗癌#NN)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, null#null)
+            (nn, 血管#NN, 舒张#NN)  (root, ROOT#null, 血管#NN)
+            (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nn, 患者#NN, 心脏病#NN)  (nsubj, 喝#VV, 患者#NN)  (advmod, 喝#VV, 每天#AD)  (ccomp, 发现#VV, 喝#VV)  (nummod, 红茶#NN, 4#CD)  (nn, 红茶#NN, 杯#NN)  (dobj, 喝#VV, 红茶#NN)  (dep, 度#M, 血管#NN)  (nummod, 度#M, 舒张#CD)  (nsubj, 增加#VV, 度#M)  (mmod, 增加#VV, 可以#VV)  (case, %#NN, 从#P)  (nummod, %#NN, 6#CD)  (prep, 增加#VV, %#NN)  (conj, 喝#VV, 增加#VV)  (rcomp, 增加#VV, 到#VV)  (nummod, %#NN, 10#CD)  (dobj, 增加#VV, %#NN)   (nsubj, 增加#VV, 常人#NN)  (case, 受刺激#NN, 在#P)  (prep, 增加#VV, 受刺激#NN)  (case, 受刺激#NN, 后#LC)  (advmod, 增加#VV, 则#AD)  (nummod, 度#M, 舒张#CD)  (dep, 增加#VV, 度#M)  (mmod, 增加#VV, 会#VV)  (root, ROOT#null, 增加#VV)  (nummod, %#NN, 13#CD)  (dobj, 增加#VV, %#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            红茶富含胡萝卜素、维生素A、钙、磷、镁、钾、咖啡碱、异亮氨酸、亮氨酸、赖氨酸、谷氨酸、丙氨酸、天门冬氨酸等多种营养元素。红茶在发酵过程中多酚类物质的化学反应使鲜叶中的化学成分变化较大，会产生茶黄素、茶红素等成分，其香气比鲜叶明显增加，形成红茶特有的色、香、味。
+        </rawdata>
+
+        <segment>
+            红茶  富含  胡萝卜素  、  维生素A  、  钙  、  磷  、  镁  、  钾  、  咖啡碱  、  异亮氨酸  、  亮氨酸  、  赖氨酸  、  谷氨酸  、  丙氨酸  、  天门冬  氨酸  等  多  种  营养  元素  。  红茶  在  发酵  过程  中  多酚类  物质  的  化学  反应  使  鲜叶  中  的  化学  成分  变化  较大  ，  会  产生  茶  黄素  、  茶红  素  等  成分  ，  其  香气  比  鲜  叶明显  增加  ，  形成  红茶  特有  的色  、  香  、  味  。
+        </segment>
+
+        <pos>
+            红茶#NN  富含#VV  胡萝卜素#NR  、#PU  维生素A#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  镁#NN  、#PU  钾#NN  、#PU  咖啡碱#NR  、#PU  异亮氨酸#NR  、#PU  亮氨酸#NR  、#PU  赖氨酸#NR  、#PU  谷氨酸#NR  、#PU  丙氨酸#NR  、#PU  天门冬#NR  氨酸#NR  等#ETC  多#CD  种#M  营养#VA  元素#NN    。#PU  红茶#AD  在#P  发酵#NN  过程#NN  中#LC  多酚类#VV  物质#NN  的#DEC  化学#NN  反应#NN  使#VV  鲜叶#NN  中#LC  的#DEG  化学#NN  成分#NN  变化#VV  较大#JJ  ，#PU  会#VV  产生#VV  茶#NN  黄素#NN  、#PU  茶红#VV  素#AD  等#ETC  成分#NN  ，#PU  其#PN  香气#AD  比#P  鲜#NN  叶明显#NN  增加#VV  ，#PU  形成#VV  红茶#NN  特有#VV  的色#NR  、#PU  香#NR  、#PU  味#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 红茶#NN)  (root, ROOT#null, 富含#VV)  (conj, 氨酸#NR, 胡萝卜素#NR)  (conj, 氨酸#NR, 维生素A#NR)  (conj, 氨酸#NR, 钙#NR)  (conj, 氨酸#NR, 磷#NN)  (conj, 氨酸#NR, 镁#NN)  (conj, 氨酸#NR, 钾#NN)  (conj, 天门冬#NR, 咖啡碱#NR)  (conj, 天门冬#NR, 异亮氨酸#NR)  (conj, 天门冬#NR, 亮氨酸#NR)  (conj, 天门冬#NR, 赖氨酸#NR)  (conj, 天门冬#NR, 谷氨酸#NR)  (conj, 天门冬#NR, 丙氨酸#NR)  (nn, 氨酸#NR, 天门冬#NR)  (nn, 元素#NN, 氨酸#NR)  (etc, 氨酸#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (nfincl, 元素#NN, 营养#VA)  (dobj, 富含#VV, 元素#NN)   (advmod, 多酚类#VV, 红茶#AD)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 发酵#NN)  (prep, 多酚类#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (relcl, 反应#NN, 多酚类#VV)  (dobj, 多酚类#VV, 物质#NN)  (mark, 多酚类#VV, 的#DEC)  (nn, 反应#NN, 化学#NN)  (nsubj, 使#VV, 反应#NN)  (root, ROOT#null, 使#VV)  (assmod, 成分#NN, 鲜叶#NN)  (case, 鲜叶#NN, 中#LC)  (case, 鲜叶#NN, 的#DEG)  (nn, 成分#NN, 化学#NN)  (dobj, 使#VV, 成分#NN)  (dep, 使#VV, 变化#VV)  (nfincl, 成分#NN, 较大#JJ)  (mmod, 产生#VV, 会#VV)  (dep, 较大#JJ, 产生#VV)  (nn, 黄素#NN, 茶#NN)  (dobj, 产生#VV, 黄素#NN)  (conj, 产生#VV, 茶红#VV)  (advmod, 茶红#VV, 素#AD)  (dep, 产生#VV, 等#ETC)  (dobj, 变化#VV, 成分#NN)  (nsubj, 增加#VV, 其#PN)  (advmod, 增加#VV, 香气#AD)  (case, 叶明显#NN, 比#P)  (nn, 叶明显#NN, 鲜#NN)  (prep, 增加#VV, 叶明显#NN)  (conj, 使#VV, 增加#VV)  (dep, 增加#VV, 形成#VV)  (dobj, 形成#VV, 红茶#NN)  (conj, 形成#VV, 特有#VV)  (conj, 味#NR, 的色#NR)  (conj, 味#NR, 香#NR)  (dobj, 特有#VV, 味#NR)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.一般说来，饮红茶前，不论采用何种饮法，都得先准备好茶具，如煮水的壶，盛茶的杯或盏等。同时，还需用洁净的水，一一加以清洁，以免污染。
+            2.通常，结合需要，每杯只放入3-5克的红茶，或1-2包袋泡茶。若用壶煮，则另行按茶和水的比例量茶入壶。
+            3.当量茶入杯后，然后就冲入沸水。如果是高档红茶，那么，以选用白瓷杯为宜，以便察言观色。通常冲水至八分满为止。如果用壶煮，那么，先应将水煮沸，而后放茶配料。
+            食用忌：要用茶水送服药物；服药前后1小时内不要饮茶。人参、西洋参不宜和茶一起食用。忌饮浓茶解酒；饭前不宜饮茶；饭后忌立即喝茶；少女忌喝浓茶。
+        </rawdata>
+
+        <segment>
+            一般说来  ，  饮  红茶  前  ，  不论  采用  何  种  饮法  ，  都  得  先  准备  好  茶具  ，  如  煮  水  的  壶  ，  盛  茶  的  杯  或  盏  等  。  同时  ，  还  需用  洁净  的  水  ，  一一  加以  清洁  ，  以免  污染  。
+            通常  ，  结合  需要  ，  每  杯  只  放入  3  -  5  克  的  红茶  ，  或  1-2  包  袋  泡茶  。  若  用  壶  煮  ，  则  另行  按  茶  和  水  的  比例  量  茶  入  壶  。
+            当量  茶  入  杯  后  ，  然后  就  冲入  沸水  。  如果  是  高档  红茶  ，  那么  ，  以  选用  白瓷杯  为宜  ，  以便  察言观色  。  通常  冲水  至  八  分  满  为止  。  如果  用  壶煮  ，  那么  ，  先  应  将  水  煮沸  ，  而后  放  茶  配料  。
+            食用忌  ：  要  用  茶水  送  服  药物  ；  服药  前后  1  小时  内  不要  饮茶  。  人参  、  西洋参  不  宜  和  茶  一  起  食用  。  忌饮  浓茶  解酒  ；  饭前  不  宜  饮茶  ；  饭后忌  立即  喝茶  ；  少女  忌喝  浓茶  。
+        </segment>
+
+        <pos>
+            一般说来#CD  ，#PU  饮#NN  红茶#NN  前#LC  ，#PU  不论#CS  采用#VV  何#DT  种#M  饮法#NN  ，#PU  都#AD  得#VV  先#AD  准备#VV  好#JJ  茶具#NN  ，#PU  如#AD  煮#VV  水#NN  的#DEG  壶#NN  ，#PU  盛#VA  茶#VA  的#DEC  杯#NN  或#CC  盏#NN  等#ETC    。#PU  同时#AD  ，#PU  还#AD  需用#VV  洁净#JJ  的#DEG  水#NN  ，#PU  一一#AD  加以#VV  清洁#NN  ，#PU  以免#VV  污染#VV    。#PU    。#PU
+            通常#AD  ，#PU  结合#VV  需要#NN  ，#PU  每#DT  杯#NN  只#AD  放入#VV  3#CD  -#VV  5#CD  克#M  的#DEC  红茶#NN  ，#PU  或#CC  1-2#CD  包#NN  袋#VV  泡茶#NN    。#PU  若#CS  用#P  壶#NN  煮#VV  ，#PU  则#AD  另行#AD  按#P  茶#NN  和#CC  水#NN  的#DEG  比例#NN  量#NN  茶#NN  入#VV  壶#NN    。#PU    。#PU
+            当量#NN  茶#NN  入#VV  杯#NN  后#LC  ，#PU  然后#AD  就#AD  冲入#VV  沸水#NN    。#PU  如果#CS  是#VC  高档#JJ  红茶#NN  ，#PU  那么#AD  ，#PU  以#P  选用#NN  白瓷杯#VV  为宜#NN  ，#PU  以便#AD  察言观色#VV    。#PU  通常#AD  冲水#VV  至#P  八#CD  分#M  满#VV  为止#LC    。#PU  如果#CS  用#P  壶煮#NN  ，#PU  那么#AD  ，#PU  先#AD  应#VV  将#BA  水#NN  煮沸#VV  ，#PU  而后#AD  放#VV  茶#NN  配料#NN    。#PU    。#PU
+            食用忌#VV  ：#PU  要#VV  用#P  茶水#NN  送#VV  服#NN  药物#NN  ；#PU  服药#NN  前后#LC  1#CD  小时#NN  内#LC  不要#AD  饮茶#VV    。#PU  人参#NR  、#PU  西洋参#NR  不#AD  宜#NR  和#CC  茶#NR  一#CD  起#M  食用#VV    。#PU  忌饮#NN  浓茶#NN  解酒#VV  ；#PU  饭前#NN  不#AD  宜#NR  饮茶#VV  ；#PU  饭后忌#NN  立即#AD  喝茶#VV  ；#PU  少女#NN  忌喝#VV  浓茶#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 准备#VV, 一般说来#CD)  (nn, 红茶#NN, 饮#NN)  (loc, 准备#VV, 红茶#NN)  (case, 红茶#NN, 前#LC)  (advmod, 采用#VV, 不论#CS)  (dep, 准备#VV, 采用#VV)  (det, 饮法#NN, 何#DT)  (clf, 何#DT, 种#M)  (dobj, 采用#VV, 饮法#NN)  (advmod, 准备#VV, 都#AD)  (mmod, 准备#VV, 得#VV)  (advmod, 准备#VV, 先#AD)  (root, ROOT#null, 准备#VV)  (amod, 茶具#NN, 好#JJ)  (dobj, 准备#VV, 茶具#NN)  (advmod, 煮#VV, 如#AD)  (dep, 准备#VV, 煮#VV)  (assmod, 壶#NN, 水#NN)  (case, 水#NN, 的#DEG)  (dep, 盏#NN, 壶#NN)  (relcl, 杯#NN, 盛#VA)  (comod, 盛#VA, 茶#VA)  (mark, 盛#VA, 的#DEC)  (conj, 盏#NN, 杯#NN)  (cc, 盏#NN, 或#CC)  (dobj, 煮#VV, 盏#NN)  (etc, 盏#NN, 等#ETC)   (advmod, 需用#VV, 同时#AD)  (advmod, 需用#VV, 还#AD)  (root, ROOT#null, 需用#VV)  (assmod, 水#NN, 洁净#JJ)  (case, 洁净#JJ, 的#DEG)  (dobj, 需用#VV, 水#NN)  (advmod, 加以#VV, 一一#AD)  (dep, 需用#VV, 加以#VV)  (dobj, 加以#VV, 清洁#NN)  (dep, 需用#VV, 以免#VV)  (ccomp, 以免#VV, 污染#VV)   (root, ROOT#null, null#null)
+            (advmod, 结合#VV, 通常#AD)  (root, ROOT#null, 结合#VV)  (dobj, 结合#VV, 需要#NN)  (det, 杯#NN, 每#DT)  (nsubj, 放入#VV, 杯#NN)  (advmod, 放入#VV, 只#AD)  (dep, 结合#VV, 放入#VV)  (nummod, 红茶#NN, 3#CD)  (nummod, 克#M, 5#CD)  (range, -#VV, 克#M)  (mark, -#VV, 的#DEC)  (dobj, 放入#VV, 红茶#NN)  (cc, 结合#VV, 或#CC)  (nummod, 包#NN, 1-2#CD)  (nsubj, 袋#VV, 包#NN)  (dep, 结合#VV, 袋#VV)  (dobj, 袋#VV, 泡茶#NN)   (advmod, 煮#VV, 若#CS)  (case, 壶#NN, 用#P)  (prep, 煮#VV, 壶#NN)  (dep, 入#VV, 煮#VV)  (advmod, 入#VV, 则#AD)  (advmod, 入#VV, 另行#AD)  (case, 茶#NN, 按#P)  (conj, 比例#NN, 茶#NN)  (cc, 比例#NN, 和#CC)  (assmod, 比例#NN, 水#NN)  (case, 水#NN, 的#DEG)  (nn, 茶#NN, 比例#NN)  (nn, 茶#NN, 量#NN)  (prep, 入#VV, 茶#NN)  (root, ROOT#null, 入#VV)  (dobj, 入#VV, 壶#NN)   (root, ROOT#null, null#null)
+            (nn, 茶#NN, 当量#NN)  (nsubj, 冲入#VV, 茶#NN)  (loc, 冲入#VV, 入#VV)  (dobj, 入#VV, 杯#NN)  (case, 入#VV, 后#LC)  (advmod, 冲入#VV, 然后#AD)  (advmod, 冲入#VV, 就#AD)  (root, ROOT#null, 冲入#VV)  (dobj, 冲入#VV, 沸水#NN)   (advmod, 红茶#NN, 如果#CS)  (cop, 红茶#NN, 是#VC)  (amod, 红茶#NN, 高档#JJ)  (root, ROOT#null, 红茶#NN)  (advmod, 白瓷杯#VV, 那么#AD)  (case, 选用#NN, 以#P)  (prep, 白瓷杯#VV, 选用#NN)  (dep, 红茶#NN, 白瓷杯#VV)  (dobj, 白瓷杯#VV, 为宜#NN)  (advmod, 察言观色#VV, 以便#AD)  (dep, 白瓷杯#VV, 察言观色#VV)   (advmod, 冲水#VV, 通常#AD)  (root, ROOT#null, 冲水#VV)  (case, 满#VV, 至#P)  (nummod, 分#M, 八#CD)  (dep, 满#VV, 分#M)  (prep, 冲水#VV, 满#VV)  (case, 满#VV, 为止#LC)   (advmod, 煮沸#VV, 如果#CS)  (case, 壶煮#NN, 用#P)  (prep, 煮沸#VV, 壶煮#NN)  (advmod, 煮沸#VV, 那么#AD)  (advmod, 煮沸#VV, 先#AD)  (mmod, 煮沸#VV, 应#VV)  (ba, 煮沸#VV, 将#BA)  (nsubj, 煮沸#VV, 水#NN)  (dep, 放#VV, 煮沸#VV)  (advmod, 放#VV, 而后#AD)  (root, ROOT#null, 放#VV)  (nn, 配料#NN, 茶#NN)  (dobj, 放#VV, 配料#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 食用忌#VV)  (dep, 送#VV, 要#VV)  (case, 茶水#NN, 用#P)  (prep, 送#VV, 茶水#NN)  (ccomp, 食用忌#VV, 送#VV)  (nn, 药物#NN, 服#NN)  (dobj, 送#VV, 药物#NN)  (loc, 饮茶#VV, 服药#NN)  (case, 服药#NN, 前后#LC)  (nummod, 小时#NN, 1#CD)  (loc, 饮茶#VV, 小时#NN)  (case, 小时#NN, 内#LC)  (advmod, 饮茶#VV, 不要#AD)  (dep, 送#VV, 饮茶#VV)   (conj, 西洋参#NR, 人参#NR)  (nsubj, 食用#VV, 西洋参#NR)  (neg, 食用#VV, 不#AD)  (conj, 茶#NR, 宜#NR)  (cc, 茶#NR, 和#CC)  (prep, 食用#VV, 茶#NR)  (nummod, 起#M, 一#CD)  (dep, 食用#VV, 起#M)  (root, ROOT#null, 食用#VV)   (nn, 浓茶#NN, 忌饮#NN)  (nsubj, 解酒#VV, 浓茶#NN)  (root, ROOT#null, 解酒#VV)  (nsubj, 饮茶#VV, 饭前#NN)  (neg, 饮茶#VV, 不#AD)  (prep, 饮茶#VV, 宜#NR)  (ccomp, 解酒#VV, 饮茶#VV)  (nsubj, 喝茶#VV, 饭后忌#NN)  (advmod, 喝茶#VV, 立即#AD)  (conj, 饮茶#VV, 喝茶#VV)  (nsubj, 忌喝#VV, 少女#NN)  (conj, 饮茶#VV, 忌喝#VV)  (dobj, 忌喝#VV, 浓茶#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121854093050.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

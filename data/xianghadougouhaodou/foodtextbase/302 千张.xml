@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        302
+    </id>
+
+    <foodname>
+        千张
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆制品
+    </secondcategory>
+
+    <alias>
+        百页、皮子、豆片、豆皮、豆腐皮
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            幼儿、婴儿人群应忌食或少食。
+        </rawdata>
+
+        <segment>
+            幼儿  、  婴儿  人群  应  忌食  或少  食  。
+        </segment>
+
+        <pos>
+            幼儿#NN  、#PU  婴儿#NN  人群#NN  应#P  忌食#NN  或少#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 婴儿#NN, 幼儿#NN)  (nn, 人群#NN, 婴儿#NN)  (nsubj, 或少#VV, 人群#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (dobj, 或少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜身体虚弱，营养不良，气血双亏，年老赢瘦之人食用；适宜高脂血症，高胆固醇，肥胖者及血管硬化者食用；适宜糖尿病人食用；适宜妇女产后乳汁不足之人食用；适宜青少年儿童食用；适宜痰火咳嗽哮喘(包括急性支气管炎咳喘)之人食用；适宜癌症患者食用；最宜老人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  身体  虚弱  ，  营养  不良  ，  气血  双  亏  ，  年老  赢  瘦  之  人  食用  ；  适宜  高  脂血症  ，  高  胆固醇  ，  肥胖者  及  血管  硬化  者  食用  ；  适宜  糖尿  病人  食用  ；  适宜  妇女  产后  乳汁  不足  之  人  食用  ；  适宜  青少年  儿童  食用  ；  适宜  痰火  咳嗽  哮喘  (  包括  急性  支  气管炎  咳喘  )  之  人  食用  ；  适宜  癌症  患者  食用  ；  最  宜  老人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VA  身体#NN  虚弱#VV  ，#PU  营养#VA  不良#JJ  ，#PU  气血#VV  双#CD  亏#NN  ，#PU  年老#AD  赢#VV  瘦#NR  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  高#JJ  脂血症#NN  ，#PU  高#JJ  胆固醇#NN  ，#PU  肥胖者#NN  及#CC  血管#NN  硬化#NN  者#NN  食用#VV  ；#PU  适宜#VV  糖尿#NN  病人#NN  食用#VV  ；#PU  适宜#VV  妇女#NN  产后#NN  乳汁#NN  不足#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  青少年#NN  儿童#NN  食用#VV  ；#PU  适宜#VA  痰火#VV  咳嗽#NN  哮喘#NN  -LRB-#NN  包括#VV  急性#CD  支#M  气管炎#NN  咳喘#NN  -RRB-#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  癌症#NN  患者#NN  食用#VV  ；#PU  最#AD  宜#NR  老人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 身体#NN, 适宜#VA)  (nsubj, 虚弱#VV, 身体#NN)  (root, ROOT#null, 虚弱#VV)  (dep, 不良#JJ, 营养#VA)  (ccomp, 虚弱#VV, 不良#JJ)  (dep, 不良#JJ, 气血#VV)  (nummod, 亏#NN, 双#CD)  (dobj, 气血#VV, 亏#NN)  (advmod, 赢#VV, 年老#AD)  (conj, 不良#JJ, 赢#VV)  (assmod, 人#NN, 瘦#NR)  (case, 瘦#NR, 之#DEG)  (dobj, 赢#VV, 人#NN)  (dep, 不良#JJ, 食用#VV)  (dep, 不良#JJ, 适宜#VV)  (amod, 脂血症#NN, 高#JJ)  (dep, 者#NN, 脂血症#NN)  (amod, 胆固醇#NN, 高#JJ)  (dep, 者#NN, 胆固醇#NN)  (conj, 者#NN, 肥胖者#NN)  (cc, 者#NN, 及#CC)  (nn, 者#NN, 血管#NN)  (nn, 者#NN, 硬化#NN)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 不良#JJ, 适宜#VV)  (nn, 病人#NN, 糖尿#NN)  (dobj, 适宜#VV, 病人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 不良#JJ, 适宜#VV)  (nn, 不足#NN, 妇女#NN)  (nn, 不足#NN, 产后#NN)  (nn, 不足#NN, 乳汁#NN)  (assmod, 人#NN, 不足#NN)  (case, 不足#NN, 之#DEG)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 不良#JJ, 适宜#VV)  (nn, 儿童#NN, 青少年#NN)  (dobj, 适宜#VV, 儿童#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 不良#JJ, 适宜#VA)  (dep, 适宜#VA, 痰火#VV)  (nn, -LRB-#NN, 咳嗽#NN)  (nn, -LRB-#NN, 哮喘#NN)  (dep, 适宜#VA, 包括#VV)  (nummod, 支#M, 急性#CD)  (clf, -RRB-#NN, 支#M)  (nn, -RRB-#NN, 气管炎#NN)  (nn, -RRB-#NN, 咳喘#NN)  (case, -RRB-#NN, 之#DEG)  (dobj, 包括#VV, 人#NN)  (conj, 包括#VV, 食用#VV)  (dep, 不良#JJ, 适宜#VV)  (nn, 患者#NN, 癌症#NN)  (dobj, 适宜#VV, 患者#NN)  (conj, 适宜#VV, 食用#VV)  (advmod, 老人#NN, 最#AD)  (nn, 老人#NN, 宜#NR)  (dep, 不良#JJ, 老人#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                260
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                24.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                23.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                313
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                309
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                20.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                80
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.52
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                9.4
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            千张（thinsheetsofbeancurd）。我国北方称为豆皮。豆制食品,是一种薄的豆腐干片，色白，可凉拌，可清炒，可煮食。湖北有名菜“千张肉丝”，即以千张为原料。
+        </rawdata>
+
+        <segment>
+            千张  （  thinsheetsofbeancurd  ）  。  我国  北方  称为  豆皮  。  豆制  食品  ,  是  一  种  薄  的  豆腐干  片  ，  色白  ，  可  凉拌  ，  可  清炒  ，  可  煮  食  。  湖北  有  名菜  “  千张  肉丝  ”  ，  即  以  千  张  为  原料  。
+        </segment>
+
+        <pos>
+            千张#CD  （#PU  thinsheetsofbeancurd#NN  ）#PU    。#PU  我国#NR  北方#NN  称为#VV  豆皮#NN    。#PU  豆制#NN  食品#NN  ,#NN  是#VC  一#CD  种#M  薄#NN  的#DEG  豆腐干#CD  片#M  ，#PU  色白#NN  ，#PU  可#VV  凉拌#VV  ，#PU  可#VV  清炒#NN  ，#PU  可#VV  煮#VV  食#NN    。#PU  湖北#NR  有#VE  名菜#NN  ``#VV  千张#CD  肉丝#NN  ''#NN  ，#PU  即#AD  以#P  千#CD  张#M  为#VV  原料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nfincl, thinsheetsofbeancurd#NN, 千张#CD)  (root, ROOT#null, thinsheetsofbeancurd#NN)   (nn, 北方#NN, 我国#NR)  (nsubj, 称为#VV, 北方#NN)  (root, ROOT#null, 称为#VV)  (dobj, 称为#VV, 豆皮#NN)   (nn, ,#NN, 豆制#NN)  (nn, ,#NN, 食品#NN)  (root, ROOT#null, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 薄#NN, 种#M)  (assmod, 片#M, 薄#NN)  (case, 薄#NN, 的#DEG)  (nummod, 片#M, 豆腐干#CD)  (dep, 是#VC, 片#M)  (nsubj, 凉拌#VV, 色白#NN)  (mmod, 凉拌#VV, 可#VV)  (conj, 是#VC, 凉拌#VV)  (dep, 凉拌#VV, 可#VV)  (dobj, 可#VV, 清炒#NN)  (mmod, 煮#VV, 可#VV)  (conj, 凉拌#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)   (dep, 有#VE, 湖北#NR)  (root, ROOT#null, 有#VE)  (nsubj, ``#VV, 名菜#NN)  (dep, 有#VE, ``#VV)  (nummod, ''#NN, 千张#CD)  (nn, ''#NN, 肉丝#NN)  (dobj, ``#VV, ''#NN)  (advmod, 为#VV, 即#AD)  (case, 张#M, 以#P)  (nummod, 张#M, 千#CD)  (prep, 为#VV, 张#M)  (conj, ``#VV, 为#VV)  (dobj, 为#VV, 原料#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            防骨质疏松、防血管硬化、防心血管疾病、护心。
+        </rawdata>
+
+        <segment>
+            防  骨质  疏松  、  防  血管  硬化  、  防  心  血管  疾病  、  护心  。
+        </segment>
+
+        <pos>
+            防#NN  骨质#VV  疏松#NN  、#PU  防#NN  血管#NN  硬化#NN  、#PU  防#NN  心#NN  血管#NN  疾病#NN  、#PU  护心#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 骨质#VV, 防#NN)  (root, ROOT#null, 骨质#VV)  (conj, 疾病#NN, 疏松#NN)  (nn, 疾病#NN, 防#NN)  (nn, 疾病#NN, 血管#NN)  (conj, 疾病#NN, 硬化#NN)  (nn, 疾病#NN, 防#NN)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 骨质#VV, 疾病#NN)  (conj, 骨质#VV, 护心#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  解毒  止痒  清肺化痰  
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.含有丰富蛋白质，而且豆腐蛋白属完全蛋白，不仅含有人体必需的8种氨基酸，而且其比例也接近人体需要，营养价值较高；
+            2.含有的卵磷脂可除掉附在血管壁上的胆固醇，防止血管硬化，预防心血管疾病，保护心脏；
+            3.含有多种矿物质，补充钙质，防止因缺钙引起的骨质疏松，促进骨骼发育，对小儿、老人的骨骼生长极为有利。
+        </rawdata>
+
+        <segment>
+            含有  丰富  蛋白质  ，  而且  豆腐  蛋白  属  完全  蛋白  ，  不仅  含有  人体  必需  的  8  种  氨基酸  ，  而且  其  比例  也  接近  人体  需要  ，  营养  价值  较高  ；
+            含有  的  卵磷脂  可  除掉  附在  血管  壁上  的  胆固醇  ，  防止  血管  硬化  ，  预防  心  血管  疾病  ，  保护  心脏  ；
+            含有  多  种  矿物质  ，  补充  钙质  ，  防止  因  缺钙  引起  的  骨质  疏松  ，  促进  骨骼  发育  ，  对  小儿  、  老人  的  骨骼  生长  极为  有利  。
+        </segment>
+
+        <pos>
+            含有#NN  丰富#VA  蛋白质#VA  ，#PU  而且#CC  豆腐#NN  蛋白#AD  属#VV  完全#JJ  蛋白#NN  ，#PU  不仅#CC  含有#VV  人体#AD  必需#VV  的#DEC  8#CD  种#M  氨基酸#NN  ，#PU  而且#CC  其#PN  比例#NN  也#AD  接近#VV  人体#NN  需要#NN  ，#PU  营养#VA  价值#VV  较高#NN  ；#PU
+            含有#NN  的#DEG  卵磷脂#NN  可#VV  除掉#VV  附在#NN  血管#NN  壁上#NN  的#DEG  胆固醇#NN  ，#PU  防止#VV  血管#NN  硬化#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN  ，#PU  保护#VV  心脏#NN  ；#PU
+            含有#VV  多#CD  种#M  矿物质#NN  ，#PU  补充#VV  钙质#NN  ，#PU  防止#VV  因#P  缺钙#AD  引起#VV  的#DEC  骨质#NN  疏松#VV  ，#PU  促进#VV  骨骼#NN  发育#NN  ，#PU  对#P  小儿#NN  、#PU  老人#NN  的#DEG  骨骼#NN  生长#NN  极为#AD  有利#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 丰富#VA, 含有#NN)  (root, ROOT#null, 丰富#VA)  (comod, 丰富#VA, 蛋白质#VA)  (cc, 丰富#VA, 而且#CC)  (nsubj, 属#VV, 豆腐#NN)  (advmod, 属#VV, 蛋白#AD)  (conj, 丰富#VA, 属#VV)  (amod, 蛋白#NN, 完全#JJ)  (dobj, 属#VV, 蛋白#NN)  (cc, 属#VV, 不仅#CC)  (dep, 属#VV, 含有#VV)  (advmod, 必需#VV, 人体#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含有#VV, 氨基酸#NN)  (cc, 丰富#VA, 而且#CC)  (nn, 比例#NN, 其#PN)  (nsubj, 接近#VV, 比例#NN)  (advmod, 接近#VV, 也#AD)  (dep, 丰富#VA, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (conj, 丰富#VA, 营养#VA)  (dep, 丰富#VA, 价值#VV)  (dobj, 价值#VV, 较高#NN)
+            (assmod, 卵磷脂#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 除掉#VV, 卵磷脂#NN)  (mmod, 除掉#VV, 可#VV)  (root, ROOT#null, 除掉#VV)  (nn, 壁上#NN, 附在#NN)  (nn, 壁上#NN, 血管#NN)  (assmod, 胆固醇#NN, 壁上#NN)  (case, 壁上#NN, 的#DEG)  (dobj, 除掉#VV, 胆固醇#NN)  (conj, 除掉#VV, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)  (conj, 除掉#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (conj, 除掉#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)
+            (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (dobj, 含有#VV, 矿物质#NN)  (conj, 含有#VV, 补充#VV)  (dobj, 补充#VV, 钙质#NN)  (conj, 含有#VV, 防止#VV)  (case, 骨质#NN, 因#P)  (advmod, 引起#VV, 缺钙#AD)  (relcl, 骨质#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (prep, 疏松#VV, 骨质#NN)  (ccomp, 防止#VV, 疏松#VV)  (conj, 含有#VV, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)  (case, 生长#NN, 对#P)  (conj, 老人#NN, 小儿#NN)  (assmod, 生长#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (nn, 生长#NN, 骨骼#NN)  (prep, 有利#VA, 生长#NN)  (advmod, 有利#VA, 极为#AD)  (conj, 含有#VV, 有利#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            豆腐皮为半干性制品，是素馔中的上等原料；切成细丝，可经烫或煮后，供拌、炝食用或用于炒菜、烧菜、烩菜；可配荤料、蔬菜，如肉丝，韭菜，白菜等等，也可单独成菜。
+        </rawdata>
+
+        <segment>
+            豆腐皮  为  半干性  制品  ，  是  素馔  中  的  上等  原料  ；  切成  细丝  ，  可  经烫  或  煮  后  ，  供拌  、  炝食用  或用  于  炒菜  、  烧菜  、  烩菜  ；  可  配荤料  、  蔬菜  ，  如  肉丝  ，  韭菜  ，  白菜  等等  ，  也  可  单独  成  菜  。
+        </segment>
+
+        <pos>
+            豆腐皮#NN  为#VC  半干性#NN  制品#NN  ，#PU  是#VC  素馔#NN  中#LC  的#DEG  上等#JJ  原料#NN  ；#PU  切成#NN  细丝#NN  ，#PU  可#VV  经烫#VV  或#CC  煮#VV  后#LC  ，#PU  供拌#NR  、#PU  炝食用#NR  或用#VV  于#P  炒菜#NR  、#PU  烧菜#NR  、#PU  烩菜#NR  ；#PU  可#VV  配荤料#NN  、#PU  蔬菜#NN  ，#PU  如#AD  肉丝#NR  ，#PU  韭菜#VV  ，#PU  白菜#NN  等等#ETC  ，#PU  也#AD  可#VV  单独#AD  成#VV  菜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 豆腐皮#NN)  (cop, 制品#NN, 为#VC)  (nn, 制品#NN, 半干性#NN)  (root, ROOT#null, 制品#NN)  (cop, 原料#NN, 是#VC)  (assmod, 原料#NN, 素馔#NN)  (case, 素馔#NN, 中#LC)  (case, 素馔#NN, 的#DEG)  (amod, 原料#NN, 上等#JJ)  (conj, 制品#NN, 原料#NN)  (nn, 细丝#NN, 切成#NN)  (nsubj, 或用#VV, 细丝#NN)  (mmod, 经烫#VV, 可#VV)  (loc, 或用#VV, 经烫#VV)  (cc, 经烫#VV, 或#CC)  (dep, 经烫#VV, 煮#VV)  (case, 经烫#VV, 后#LC)  (conj, 炝食用#NR, 供拌#NR)  (nsubj, 或用#VV, 炝食用#NR)  (conj, 制品#NN, 或用#VV)  (case, 烩菜#NR, 于#P)  (conj, 烩菜#NR, 炒菜#NR)  (conj, 烩菜#NR, 烧菜#NR)  (prep, 或用#VV, 烩菜#NR)  (conj, 制品#NN, 可#VV)  (conj, 蔬菜#NN, 配荤料#NN)  (dobj, 可#VV, 蔬菜#NN)  (advmod, 韭菜#VV, 如#AD)  (nsubj, 韭菜#VV, 肉丝#NR)  (conj, 制品#NN, 韭菜#VV)  (nsubj, 成#VV, 白菜#NN)  (etc, 白菜#NN, 等等#ETC)  (advmod, 成#VV, 也#AD)  (mmod, 成#VV, 可#VV)  (advmod, 成#VV, 单独#AD)  (ccomp, 韭菜#VV, 成#VV)  (dobj, 成#VV, 菜#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/090938583937.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+
+    </picturelocalurl>
+
+</content>

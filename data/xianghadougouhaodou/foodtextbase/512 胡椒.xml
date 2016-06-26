@@ -1,0 +1,173 @@
+<content>
+
+    <id>
+        512
+    </id>
+
+    <foodname>
+        胡椒
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        玉椒、白川、黑川、浮椒、白胡椒、黑胡椒、昧履支、味履支
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病、咳嗽、吐血、高血压、胃溃疡患者忌食；阴虚有火者忌服。
+        </rawdata>
+
+        <segment>
+            糖尿病  、  咳嗽  、  吐血  、  高血压  、  胃溃疡  患者  忌食  ；  阴虚  有  火  者  忌服  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  、#PU  咳嗽#NR  、#PU  吐血#NR  、#PU  高血压#NR  、#PU  胃溃疡#NR  患者#NN  忌食#VV  ；#PU  阴虚#AD  有#VE  火#NN  者#NN  忌服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 患者#NN, 糖尿病#NN)  (conj, 胃溃疡#NR, 咳嗽#NR)  (conj, 胃溃疡#NR, 吐血#NR)  (conj, 胃溃疡#NR, 高血压#NR)  (nn, 患者#NN, 胃溃疡#NR)  (nsubj, 忌食#VV, 患者#NN)  (xsubj, 有#VE, 患者#NN)  (root, ROOT#null, 忌食#VV)  (advmod, 有#VE, 阴虚#AD)  (ccomp, 忌食#VV, 有#VE)  (nn, 忌服#NN, 火#NN)  (nn, 忌服#NN, 者#NN)  (dobj, 有#VE, 忌服#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜食欲不振、感冒、胃寒、呕吐患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  食欲  不振  、  感冒  、  胃  寒  、  呕吐  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  食欲#NN  不振#VV  、#PU  感冒#VV  、#PU  胃#VV  寒#JJ  、#PU  呕吐#JJ  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 食欲#NN)  (conj, 适宜#VV, 不振#VV)  (dep, 不振#VV, 感冒#VV)  (dep, 不振#VV, 胃#VV)  (amod, 患者#NN, 寒#JJ)  (dep, 寒#JJ, 呕吐#JJ)  (dobj, 胃#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            胡椒为胡椒科植物胡椒的干燥近成熟或成熟果实。秋季至次年春季呈暗绿色时，当果穗基部的果实开始变红时，剪下果穗，晒干或烘干，取下果实，因呈黑褐色，称为黑胡椒。也可全部果实均变红时采收，水浸数日，擦去外皮，晒干，因表面呈灰白色，称为白胡椒。
+            胡椒原产于印度西南海岸西高止山脉的热带雨林，公元前第四世纪已有栽培。我国于1951年从马来西亚引种于海南岛琼海县试种，1956年后，广东、云南、广西、福建等省区也陆续引种试种成功，栽培地区已扩大到北纬纬25度。
+            胡椒树为多年生常绿攀援藤本植物，系浅根性作物，蔓近圆形，木栓后呈褐色，主蔓上有顶芽和腋芽。主蔓上抽生的分枝和由其抽生的各分枝和分枝上抽生的结果枝构成枝序；叶为椭圆形、卵形或心脏形，全缘、单叶互生，叶面深绿色；花穗着生于枝条节上叶片的对侧，栽培品种多为雌雄同花，少数雌雄异花；果为球形、无柄、单核浆果，成熟时为黄绿色、红色；我国的胡椒盛花期一般为3～5、5～7、8～11月，花期与雨水、温度及植株营养状况有关。
+        </rawdata>
+
+        <segment>
+            胡椒  为  胡椒科  植物  胡椒  的  干燥  近  成熟  或  成熟  果实  。  秋季  至  次年  春季  呈  暗  绿色  时  ，  当  果穗  基部  的  果实  开始  变红  时  ，  剪下  果穗  ，  晒干  或  烘干  ，  取下  果实  ，  因  呈  黑褐色  ，  称为  黑胡椒  。  也  可  全部  果实  均  变红  时  采收  ，  水浸  数日  ，  擦去  外皮  ，  晒干  ，  因表  面呈  灰白色  ，  称为  白  胡椒  。
+            胡椒  原  产于  印度  西南  海岸  西高止  山脉  的  热带  雨林  ，  公元前  第四  世纪  已  有  栽培  。  我  国  于  1951年  从  马来西亚  引种  于  海南岛  琼海  县  试种  ，  1956年  后  ，  广东  、  云南  、  广西  、  福建  等  省区  也  陆续  引种  试种  成功  ，  栽培  地区  已  扩大  到  北纬纬  25  度  。
+            胡椒  树  为  多年生  常绿  攀援  藤本  植物  ，  系  浅  根性  作物  ，  蔓近  圆形  ，  木栓  后  呈  褐色  ，  主蔓  上  有  顶芽  和  腋芽  。  主蔓  上  抽  生  的  分枝  和  由其  抽生  的  各  分枝  和  分枝  上  抽  生  的  结果  枝  构成  枝序  ；  叶  为  椭圆形  、  卵形  或  心脏形  ，  全  缘  、  单叶  互生  ，  叶面  深绿色  ；  花穗  着  生  于  枝条  节  上  叶片  的  对侧  ，  栽培  品种  多  为  雌雄  同花  ，  少数  雌雄  异花  ；  果为  球形  、  无柄  、  单核  浆果  ，  成熟  时  为  黄绿色  、  红色  ；  我  国  的  胡椒  盛  花期  一般  为  3～  5～7  、  8  ～  11月  ，  花期  与  雨水  、  温度  及  植株  营养  状况  有关  。
+        </segment>
+
+        <pos>
+            胡椒#NN  为#P  胡椒科#NN  植物#NN  胡椒#NN  的#DEG  干燥#NN  近#VV  成熟#VA  或#CC  成熟#VA  果实#NN    。#PU  秋季#NT  至#CC  次年#NT  春季#NT  呈#VV  暗#AD  绿色#NN  时#LC  ，#PU  当#P  果穗#NN  基部#NN  的#DEG  果实#NN  开始#VV  变红#VV  时#LC  ，#PU  剪下#AD  果穗#VV  ，#PU  晒干#NN  或#CC  烘干#NN  ，#PU  取下#VV  果实#NN  ，#PU  因#P  呈#VV  黑褐色#NN  ，#PU  称为#VV  黑胡椒#NN    。#PU  也#AD  可#VV  全部#DT  果实#NN  均#AD  变红#VV  时#LC  采收#VV  ，#PU  水浸#VV  数日#NN  ，#PU  擦去#VV  外皮#NN  ，#PU  晒干#VV  ，#PU  因表#VV  面呈#NN  灰白色#NN  ，#PU  称为#VV  白#JJ  胡椒#NN    。#PU    。#PU
+            胡椒#NR  原#JJ  产于#NN  印度#NR  西南#NN  海岸#NN  西高止#NN  山脉#NN  的#DEG  热带#NN  雨林#VV  ，#PU  公元前#NR  第四#OD  世纪#NN  已#AD  有#VE  栽培#VV    。#PU  我#PN  国#NN  于#P  1951年#NT  从#P  马来西亚#NR  引种#VV  于#P  海南岛#NR  琼海#NR  县#NN  试种#NN  ，#PU  1956年#NT  后#LC  ，#PU  广东#NR  、#PU  云南#NR  、#PU  广西#NR  、#PU  福建#NR  等#ETC  省区#NN  也#AD  陆续#AD  引种#VV  试种#NN  成功#NN  ，#PU  栽培#VV  地区#NN  已#AD  扩大#VV  到#VV  北纬纬#NN  25#CD  度#M    。#PU    。#PU
+            胡椒#NN  树#NN  为#P  多年生#NN  常绿#VV  攀援#NN  藤本#NN  植物#NN  ，#PU  系#VV  浅#NN  根性#NN  作物#NN  ，#PU  蔓近#VV  圆形#NN  ，#PU  木栓#NN  后#LC  呈#VV  褐色#NN  ，#PU  主蔓#NN  上#LC  有#VE  顶芽#NN  和#CC  腋芽#NN    。#PU  主蔓#NN  上#LC  抽#VV  生#VV  的#DEC  分枝#NN  和#CC  由其#NN  抽生#NN  的#DEC  各#DT  分枝#NN  和#CC  分枝#NN  上#LC  抽#AD  生#VV  的#DEC  结果#NN  枝#NN  构成#VV  枝序#NN  ；#PU  叶#NR  为#VC  椭圆形#NN  、#PU  卵形#NR  或#CC  心脏形#NR  ，#PU  全#DT  缘#NN  、#PU  单叶#NN  互生#NN  ，#PU  叶面#NN  深绿色#NN  ；#PU  花穗#VV  着#AS  生#VV  于#P  枝条#NN  节#NN  上#LC  叶片#VV  的#DEC  对侧#NN  ，#PU  栽培#VV  品种#NN  多#AD  为#VC  雌雄#NN  同花#NN  ，#PU  少数#NN  雌雄#VV  异花#JJ  ；#PU  果为#VV  球形#NR  、#PU  无柄#NR  、#PU  单核#NR  浆果#NN  ，#PU  成熟#VA  时#LC  为#VC  黄绿色#NN  、#PU  红色#JJ  ；#PU  我#PN  国#NN  的#DEG  胡椒#NN  盛#VA  花期#NR  一般#AD  为#P  3#CD  ～#CD  5#CD  ～#VV  7#CD  、#PU  8#CD  ～#NN  11月#NT  ，#PU  花期#NR  与#P  雨水#NN  、#PU  温度#NN  及#CC  植株#NN  营养#VA  状况#NN  有关#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 近#VV, 胡椒#NN)  (case, 干燥#NN, 为#P)  (nn, 胡椒#NN, 胡椒科#NN)  (nn, 胡椒#NN, 植物#NN)  (assmod, 干燥#NN, 胡椒#NN)  (case, 胡椒#NN, 的#DEG)  (prep, 近#VV, 干燥#NN)  (root, ROOT#null, 近#VV)  (nfincl, 果实#NN, 成熟#VA)  (cc, 成熟#VA, 或#CC)  (dep, 成熟#VA, 成熟#VA)  (dobj, 近#VV, 果实#NN)   (conj, 次年#NT, 秋季#NT)  (cc, 次年#NT, 至#CC)  (tmod, 果穗#VV, 次年#NT)  (tmod, 果穗#VV, 春季#NT)  (mmod, 果穗#VV, 呈#VV)  (advmod, 果穗#VV, 暗#AD)  (loc, 果穗#VV, 绿色#NN)  (case, 绿色#NN, 时#LC)  (case, 变红#VV, 当#P)  (nn, 基部#NN, 果穗#NN)  (assmod, 果实#NN, 基部#NN)  (case, 基部#NN, 的#DEG)  (nsubj, 变红#VV, 果实#NN)  (dep, 变红#VV, 开始#VV)  (prep, 果穗#VV, 变红#VV)  (case, 变红#VV, 时#LC)  (advmod, 果穗#VV, 剪下#AD)  (root, ROOT#null, 果穗#VV)  (conj, 烘干#NN, 晒干#NN)  (cc, 烘干#NN, 或#CC)  (nsubj, 取下#VV, 烘干#NN)  (ccomp, 果穗#VV, 取下#VV)  (dobj, 取下#VV, 果实#NN)  (case, 呈#VV, 因#P)  (prep, 称为#VV, 呈#VV)  (dobj, 呈#VV, 黑褐色#NN)  (conj, 果穗#VV, 称为#VV)  (dobj, 称为#VV, 黑胡椒#NN)   (advmod, 变红#VV, 也#AD)  (mmod, 变红#VV, 可#VV)  (det, 果实#NN, 全部#DT)  (dep, 变红#VV, 果实#NN)  (advmod, 变红#VV, 均#AD)  (loc, 采收#VV, 变红#VV)  (case, 变红#VV, 时#LC)  (root, ROOT#null, 采收#VV)  (ccomp, 采收#VV, 水浸#VV)  (dobj, 水浸#VV, 数日#NN)  (conj, 水浸#VV, 擦去#VV)  (dobj, 擦去#VV, 外皮#NN)  (conj, 水浸#VV, 晒干#VV)  (conj, 水浸#VV, 因表#VV)  (nn, 灰白色#NN, 面呈#NN)  (dobj, 因表#VV, 灰白色#NN)  (conj, 水浸#VV, 称为#VV)  (amod, 胡椒#NN, 白#JJ)  (dobj, 称为#VV, 胡椒#NN)   (root, ROOT#null, null#null)
+            (nn, 产于#NN, 胡椒#NR)  (amod, 产于#NN, 原#JJ)  (nn, 热带#NN, 产于#NN)  (nn, 海岸#NN, 印度#NR)  (nn, 海岸#NN, 西南#NN)  (nn, 山脉#NN, 海岸#NN)  (nn, 山脉#NN, 西高止#NN)  (assmod, 热带#NN, 山脉#NN)  (case, 山脉#NN, 的#DEG)  (nsubj, 雨林#VV, 热带#NN)  (root, ROOT#null, 雨林#VV)  (nn, 世纪#NN, 公元前#NR)  (nummod, 世纪#NN, 第四#OD)  (nsubj, 有#VE, 世纪#NN)  (advmod, 有#VE, 已#AD)  (ccomp, 雨林#VV, 有#VE)  (dep, 有#VE, 栽培#VV)   (nn, 国#NN, 我#PN)  (nsubj, 引种#VV, 国#NN)  (case, 1951年#NT, 于#P)  (prep, 引种#VV, 1951年#NT)  (case, 马来西亚#NR, 从#P)  (prep, 引种#VV, 马来西亚#NR)  (root, ROOT#null, 引种#VV)  (case, 试种#NN, 于#P)  (nn, 试种#NN, 海南岛#NR)  (nn, 试种#NN, 琼海#NR)  (nn, 试种#NN, 县#NN)  (prep, 引种#VV, 试种#NN)  (loc, 引种#VV, 1956年#NT)  (case, 1956年#NT, 后#LC)  (conj, 福建#NR, 广东#NR)  (conj, 福建#NR, 云南#NR)  (conj, 福建#NR, 广西#NR)  (nn, 省区#NN, 福建#NR)  (etc, 福建#NR, 等#ETC)  (nsubj, 引种#VV, 省区#NN)  (advmod, 引种#VV, 也#AD)  (advmod, 引种#VV, 陆续#AD)  (conj, 引种#VV, 引种#VV)  (nn, 成功#NN, 试种#NN)  (dobj, 引种#VV, 成功#NN)  (conj, 引种#VV, 栽培#VV)  (nsubj, 扩大#VV, 地区#NN)  (advmod, 扩大#VV, 已#AD)  (dep, 引种#VV, 扩大#VV)  (rcomp, 扩大#VV, 到#VV)  (dep, 度#M, 北纬纬#NN)  (nummod, 度#M, 25#CD)  (dep, 扩大#VV, 度#M)   (root, ROOT#null, null#null)
+            (nn, 树#NN, 胡椒#NN)  (nsubj, 常绿#VV, 树#NN)  (case, 多年生#NN, 为#P)  (prep, 常绿#VV, 多年生#NN)  (root, ROOT#null, 常绿#VV)  (nn, 植物#NN, 攀援#NN)  (nn, 植物#NN, 藤本#NN)  (dobj, 常绿#VV, 植物#NN)  (conj, 常绿#VV, 系#VV)  (nn, 作物#NN, 浅#NN)  (nn, 作物#NN, 根性#NN)  (dobj, 系#VV, 作物#NN)  (conj, 常绿#VV, 蔓近#VV)  (dobj, 蔓近#VV, 圆形#NN)  (loc, 呈#VV, 木栓#NN)  (case, 木栓#NN, 后#LC)  (conj, 常绿#VV, 呈#VV)  (dobj, 呈#VV, 褐色#NN)  (loc, 有#VE, 主蔓#NN)  (case, 主蔓#NN, 上#LC)  (conj, 常绿#VV, 有#VE)  (conj, 腋芽#NN, 顶芽#NN)  (cc, 腋芽#NN, 和#CC)  (dobj, 有#VE, 腋芽#NN)   (loc, 构成#VV, 主蔓#NN)  (case, 主蔓#NN, 上#LC)  (relcl, 分枝#NN, 抽#VV)  (relcl, 抽生#NN, 生#VV)  (mark, 生#VV, 的#DEC)  (conj, 抽生#NN, 分枝#NN)  (cc, 抽生#NN, 和#CC)  (nn, 抽生#NN, 由其#NN)  (dobj, 抽#VV, 抽生#NN)  (mark, 抽#VV, 的#DEC)  (det, 分枝#NN, 各#DT)  (conj, 分枝#NN, 分枝#NN)  (cc, 分枝#NN, 和#CC)  (loc, 构成#VV, 分枝#NN)  (case, 分枝#NN, 上#LC)  (advmod, 生#VV, 抽#AD)  (relcl, 枝#NN, 生#VV)  (mark, 生#VV, 的#DEC)  (nn, 枝#NN, 结果#NN)  (nsubj, 构成#VV, 枝#NN)  (root, ROOT#null, 构成#VV)  (dobj, 构成#VV, 枝序#NN)  (nsubj, 深绿色#NN, 叶#NR)  (cop, 深绿色#NN, 为#VC)  (conj, 深绿色#NN, 椭圆形#NN)  (conj, 心脏形#NR, 卵形#NR)  (cc, 心脏形#NR, 或#CC)  (dep, 深绿色#NN, 心脏形#NR)  (det, 缘#NN, 全#DT)  (conj, 深绿色#NN, 缘#NN)  (nn, 互生#NN, 单叶#NN)  (dep, 深绿色#NN, 互生#NN)  (nn, 深绿色#NN, 叶面#NN)  (conj, 构成#VV, 深绿色#NN)  (dep, 同花#NN, 花穗#VV)  (asp, 花穗#VV, 着#AS)  (mmod, 叶片#VV, 生#VV)  (case, 节#NN, 于#P)  (nn, 节#NN, 枝条#NN)  (prep, 叶片#VV, 节#NN)  (case, 节#NN, 上#LC)  (relcl, 对侧#NN, 叶片#VV)  (mark, 叶片#VV, 的#DEC)  (dobj, 花穗#VV, 对侧#NN)  (conj, 花穗#VV, 栽培#VV)  (dobj, 栽培#VV, 品种#NN)  (advmod, 同花#NN, 多#AD)  (cop, 同花#NN, 为#VC)  (nn, 同花#NN, 雌雄#NN)  (conj, 构成#VV, 同花#NN)  (nsubj, 异花#JJ, 少数#NN)  (mmod, 异花#JJ, 雌雄#VV)  (conj, 构成#VV, 异花#JJ)  (conj, 构成#VV, 果为#VV)  (conj, 单核#NR, 球形#NR)  (conj, 单核#NR, 无柄#NR)  (nn, 浆果#NN, 单核#NR)  (dobj, 果为#VV, 浆果#NN)  (loc, 黄绿色#NN, 成熟#VA)  (case, 成熟#VA, 时#LC)  (cop, 黄绿色#NN, 为#VC)  (conj, 果为#VV, 黄绿色#NN)  (conj, 黄绿色#NN, 红色#JJ)  (nn, 国#NN, 我#PN)  (assmod, 胡椒#NN, 国#NN)  (case, 国#NN, 的#DEG)  (nsubj, 盛#VA, 胡椒#NN)  (conj, 构成#VV, 盛#VA)  (nsubj, ～#VV, 花期#NR)  (advmod, ～#VV, 一般#AD)  (case, 5#CD, 为#P)  (dep, 5#CD, 3#CD)  (prep, ～#VV, 5#CD)  (dep, 8#CD, 7#CD)  (nummod, ～#NN, 8#CD)  (tmod, 有关#VV, 11月#NT)  (nsubj, 有关#VV, 花期#NR)  (case, 状况#NN, 与#P)  (conj, 植株#NN, 雨水#NN)  (conj, 植株#NN, 温度#NN)  (cc, 植株#NN, 及#CC)  (nn, 状况#NN, 植株#NN)  (relcl, 植株#NN, 营养#VA)  (relcl, 状况#NN, 营养#VA)  (prep, 有关#VV, 状况#NN)  (conj, 构成#VV, 有关#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.香料，可防腐，还可作调味品。
+            2.可提取胡椒碱，胡椒林碱，胡椒油碱甲、乙、丙等生物碱和挥发油。
+            3.可入药，有镇静，温中散寒、下气、健胃、止痛、消炎、解毒等功能，主治风寒感冒、脘腹冷痛、呕吐腹泻、食欲不振等症。
+        </rawdata>
+
+        <segment>
+            香料  ，  可  防腐  ，  还  可作  调味品  。
+            可  提取  胡椒碱  ，  胡椒  林碱  ，  胡椒  油  碱甲  、  乙  、  丙等  生物碱  和  挥发油  。
+            可  入药  ，  有  镇静  ，  温  中散  寒  、  下气  、  健胃  、  止痛  、  消炎  、  解毒  等  功能  ，  主治  风寒  感冒  、  脘腹冷痛  、  呕吐  腹泻  、  食欲不振  等症  。
+        </segment>
+
+        <pos>
+            香料#NN  ，#PU  可#VV  防腐#NN  ，#PU  还#AD  可作#VV  调味品#NN  。#PU
+            可#VV  提取#VV  胡椒碱#NN  ，#PU  胡椒#VV  林碱#NN  ，#PU  胡椒#VV  油#NN  碱甲#NN  、#PU  乙#NN  、#PU  丙等#NN  生物碱#NN  和#CC  挥发油#NN  。#PU
+            可#VV  入药#NN  ，#PU  有#VE  镇静#NN  ，#PU  温#NN  中散#NN  寒#JJ  、#PU  下气#NR  、#PU  健胃#NR  、#PU  止痛#NR  、#PU  消炎#NR  、#PU  解毒#NR  等#ETC  功能#NN  ，#PU  主治#AD  风寒#VV  感冒#NR  、#PU  脘腹冷痛#NR  、#PU  呕吐#NR  腹泻#NR  、#PU  食欲不振#NR  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可作#VV, 香料#NN)  (conj, 可作#VV, 可#VV)  (dobj, 可#VV, 防腐#NN)  (advmod, 可作#VV, 还#AD)  (root, ROOT#null, 可作#VV)  (dobj, 可作#VV, 调味品#NN)
+            (mmod, 提取#VV, 可#VV)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 胡椒碱#NN)  (conj, 提取#VV, 胡椒#VV)  (dobj, 胡椒#VV, 林碱#NN)  (conj, 提取#VV, 胡椒#VV)  (nn, 挥发油#NN, 油#NN)  (conj, 挥发油#NN, 碱甲#NN)  (conj, 挥发油#NN, 乙#NN)  (nn, 挥发油#NN, 丙等#NN)  (conj, 挥发油#NN, 生物碱#NN)  (cc, 挥发油#NN, 和#CC)  (dobj, 胡椒#VV, 挥发油#NN)
+            (root, ROOT#null, 可#VV)  (dobj, 可#VV, 入药#NN)  (conj, 可#VV, 有#VE)  (dobj, 有#VE, 镇静#NN)  (nn, 中散#NN, 温#NN)  (nn, 功能#NN, 中散#NN)  (amod, 功能#NN, 寒#JJ)  (conj, 解毒#NR, 下气#NR)  (conj, 解毒#NR, 健胃#NR)  (conj, 解毒#NR, 止痛#NR)  (conj, 解毒#NR, 消炎#NR)  (nn, 功能#NN, 解毒#NR)  (etc, 解毒#NR, 等#ETC)  (nsubj, 风寒#VV, 功能#NN)  (advmod, 风寒#VV, 主治#AD)  (dep, 可#VV, 风寒#VV)  (conj, 食欲不振#NR, 感冒#NR)  (conj, 食欲不振#NR, 脘腹冷痛#NR)  (nn, 食欲不振#NR, 呕吐#NR)  (conj, 食欲不振#NR, 腹泻#NR)  (nn, 等症#NN, 食欲不振#NR)  (dobj, 风寒#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            无论黑胡椒、白胡椒皆不能高温油炸，应在菜肴或汤羹即将出锅时填加少许，均匀拌入。黑椒与肉食同煮，时间不宜太长以免香味挥发掉。
+        </rawdata>
+
+        <segment>
+            无论  黑胡椒  、  白胡椒  皆  不  能  高温  油炸  ，  应  在  菜肴  或  汤  羹  即将  出锅  时  填  加  少许  ，  均匀  拌入  。  黑椒  与  肉食  同煮  ，  时间  不  宜  太长  以免  香味  挥  发掉  。
+        </segment>
+
+        <pos>
+            无论#AD  黑胡椒#NN  、#PU  白胡椒#NN  皆#AD  不#AD  能#VV  高温#NN  油炸#VV  ，#PU  应#VV  在#P  菜肴#NN  或#CC  汤#NN  羹#NN  即将#AD  出锅#VV  时#LC  填#VV  加#NR  少许#NN  ，#PU  均匀#VA  拌入#VV    。#PU  黑椒#NR  与#CC  肉食#NR  同煮#VV  ，#PU  时间#NN  不#AD  宜#NR  太长#NN  以免#VV  香味#VV  挥#NN  发掉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 白胡椒#NN, 无论#AD)  (conj, 白胡椒#NN, 黑胡椒#NN)  (nsubj, 油炸#VV, 白胡椒#NN)  (advmod, 油炸#VV, 皆#AD)  (neg, 油炸#VV, 不#AD)  (mmod, 油炸#VV, 能#VV)  (dep, 油炸#VV, 高温#NN)  (root, ROOT#null, 油炸#VV)  (mmod, 填#VV, 应#VV)  (case, 出锅#VV, 在#P)  (conj, 汤#NN, 菜肴#NN)  (cc, 汤#NN, 或#CC)  (nn, 羹#NN, 汤#NN)  (nsubj, 出锅#VV, 羹#NN)  (advmod, 出锅#VV, 即将#AD)  (prep, 填#VV, 出锅#VV)  (case, 出锅#VV, 时#LC)  (conj, 油炸#VV, 填#VV)  (nn, 少许#NN, 加#NR)  (dobj, 填#VV, 少许#NN)  (dep, 拌入#VV, 均匀#VA)  (conj, 油炸#VV, 拌入#VV)   (conj, 肉食#NR, 黑椒#NR)  (cc, 肉食#NR, 与#CC)  (nsubj, 同煮#VV, 肉食#NR)  (root, ROOT#null, 同煮#VV)  (nsubj, 以免#VV, 时间#NN)  (neg, 以免#VV, 不#AD)  (nn, 太长#NN, 宜#NR)  (prep, 以免#VV, 太长#NN)  (ccomp, 同煮#VV, 以免#VV)  (ccomp, 以免#VV, 香味#VV)  (nn, 发掉#NN, 挥#NN)  (dobj, 香味#VV, 发掉#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/21183016.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>

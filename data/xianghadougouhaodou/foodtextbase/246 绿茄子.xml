@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        246
+    </id>
+
+    <foodname>
+        绿茄子
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        落苏
+    </alias>
+
+    <season>
+
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、哮喘者、便溏者慎食；手术前也尽量不吃茄子。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  哮喘  者  、  便溏者  慎食  ；  手术  前  也  尽量  不  吃  茄子  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  、#PU  哮喘#NN  者#NN  、#PU  便溏者#NN  慎食#VV  ；#PU  手术#NN  前#LC  也#AD  尽量#AD  不#AD  吃#VV  茄子#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 便溏者#NN, 脾胃#NN)  (conj, 便溏者#NN, 虚寒#NN)  (nn, 便溏者#NN, 哮喘#NN)  (conj, 便溏者#NN, 者#NN)  (nsubj, 慎食#VV, 便溏者#NN)  (xsubj, 吃#VV, 便溏者#NN)  (root, ROOT#null, 慎食#VV)  (loc, 吃#VV, 手术#NN)  (case, 手术#NN, 前#LC)  (advmod, 吃#VV, 也#AD)  (advmod, 吃#VV, 尽量#AD)  (neg, 吃#VV, 不#AD)  (ccomp, 慎食#VV, 吃#VV)  (dobj, 吃#VV, 茄子#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜长痱子、生疮疖的人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  长  痱子  、  生疮疖  的  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  长#AD  痱子#VA  、#PU  生疮疖#VA  的#DEC  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (advmod, 痱子#VA, 长#AD)  (relcl, 人#NN, 痱子#VA)  (dep, 痱子#VA, 生疮疖#VA)  (mark, 痱子#VA, 的#DEC)  (dobj, 适宜#VV, 人#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                120
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                162
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                6.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            绿茄子，为茄子的一个品种。茄子，江浙人称为六蔬，广东人称为矮瓜，是茄科茄属一年生草本植物，热带为多年生。其结出的果实可食用，颜色多为紫色或紫黑色。形状上也有圆形，椭圆，梨形等各种。茄子是一种典型的蔬菜，根据品种的不同，食用方法多样。
+        </rawdata>
+
+        <segment>
+            绿  茄子  ，  为  茄子  的  一  个  品种  。  茄子  ，  江浙  人称  为  六  蔬  ，  广东人  称为  矮  瓜  ，  是  茄科  茄属  一  年  生  草本  植物  ，  热带  为  多年生  。  其  结出  的  果实  可食用  ，  颜色  多  为  紫色  或  紫黑色  。  形状  上  也  有  圆形  ，  椭圆  ，  梨形  等  各  种  。  茄子  是  一  种  典型  的  蔬菜  ，  根据  品种  的  不同  ，  食用  方法  多样  。
+        </segment>
+
+        <pos>
+            绿#JJ  茄子#NN  ，#PU  为#VC  茄子#VA  的#DEC  一#CD  个#M  品种#NN    。#PU  茄子#NN  ，#PU  江浙#NN  人称#NN  为#VC  六#CD  蔬#NN  ，#PU  广东人#NN  称为#VV  矮#JJ  瓜#NN  ，#PU  是#VC  茄科#NN  茄属#VV  一#CD  年#M  生#VV  草本#NN  植物#NN  ，#PU  热带#NN  为#VC  多年生#NN    。#PU  其#PN  结出#VV  的#DEC  果实#NN  可食用#VV  ，#PU  颜色#NN  多#AD  为#VC  紫色#CD  或#CC  紫黑色#CD    。#PU  形状#NN  上#LC  也#AD  有#VE  圆形#NN  ，#PU  椭圆#VV  ，#PU  梨形#AD  等#VV  各#DT  种#M    。#PU  茄子#NN  是#VC  一#CD  种#M  典型#VA  的#DEC  蔬菜#NN  ，#PU  根据#P  品种#NN  的#DEG  不同#VA  ，#PU  食用#VV  方法#NN  多样#VA    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 茄子#NN, 绿#JJ)  (dep, 品种#NN, 茄子#NN)  (cop, 品种#NN, 为#VC)  (relcl, 品种#NN, 茄子#VA)  (mark, 茄子#VA, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 品种#NN, 个#M)  (root, ROOT#null, 品种#NN)   (dep, 蔬#NN, 茄子#NN)  (nn, 人称#NN, 江浙#NN)  (nsubj, 蔬#NN, 人称#NN)  (cop, 蔬#NN, 为#VC)  (nummod, 蔬#NN, 六#CD)  (root, ROOT#null, 蔬#NN)  (nsubj, 称为#VV, 广东人#NN)  (conj, 蔬#NN, 称为#VV)  (amod, 瓜#NN, 矮#JJ)  (dobj, 称为#VV, 瓜#NN)  (cop, 茄科#NN, 是#VC)  (conj, 蔬#NN, 茄科#NN)  (conj, 茄科#NN, 茄属#VV)  (nummod, 年#M, 一#CD)  (range, 茄属#VV, 年#M)  (conj, 茄属#VV, 生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 生#VV, 植物#NN)  (nsubj, 多年生#NN, 热带#NN)  (cop, 多年生#NN, 为#VC)  (conj, 蔬#NN, 多年生#NN)   (nsubj, 结出#VV, 其#PN)  (relcl, 果实#NN, 结出#VV)  (mark, 结出#VV, 的#DEC)  (nsubj, 可食用#VV, 果实#NN)  (root, ROOT#null, 可食用#VV)  (nsubj, 为#VC, 颜色#NN)  (advmod, 为#VC, 多#AD)  (ccomp, 可食用#VV, 为#VC)  (nummod, 紫黑色#CD, 紫色#CD)  (cc, 紫黑色#CD, 或#CC)  (dep, 为#VC, 紫黑色#CD)   (loc, 有#VE, 形状#NN)  (case, 形状#NN, 上#LC)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 圆形#NN)  (conj, 有#VE, 椭圆#VV)  (advmod, 等#VV, 梨形#AD)  (conj, 有#VE, 等#VV)  (dep, 等#VV, 各#DT)  (clf, 各#DT, 种#M)   (nsubj, 蔬菜#NN, 茄子#NN)  (cop, 蔬菜#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (relcl, 蔬菜#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (root, ROOT#null, 蔬菜#NN)  (case, 品种#NN, 根据#P)  (assmod, 方法#NN, 品种#NN)  (case, 品种#NN, 的#DEG)  (nfincl, 方法#NN, 不同#VA)  (dep, 不同#VA, 食用#VV)  (nsubj, 多样#VA, 方法#NN)  (conj, 蔬菜#NN, 多样#VA)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            茄子味甘、性凉，入脾、胃、大肠经；具有清热止血，消肿止痛的功效；用于热毒痈疮、皮肤溃疡、口舌生疮、痔疮下血、便血、衄血等。
+            1.防治心血管疾病
+            茄子含有大量维生素P，这种物质能增强人体细胞间的粘着力，增强毛细血管的弹性，减低毛细血管的脆性及渗透性，防止微血管破裂出血，使心血管保持正常的功能，防止硬化和破裂，所以经常吃些茄子，有助于防治高血压、冠心病、动脉硬化和出血性紫癜。保护心血管、抗坏血酸：此外，茄子还有防治坏血病及促进伤口愈合的功效。
+            2.防癌抗癌
+            国外研究结果表明它的抗癌性能是其他有同样作用的蔬菜的好几倍，是抗癌强手；防治胃癌：茄子含有龙葵碱，能抑制消化系统肿瘤的增殖，对于防治胃癌有一定效果。此外，茄子还有清退癌热的作用。
+        </rawdata>
+
+        <segment>
+            茄子  味甘  、  性凉  ，  入脾  、  胃  、  大肠  经  ；  具有  清热  止血  ，  消肿  止痛  的  功效  ；  用于  热毒痈疮  、  皮肤  溃疡  、  口舌  生疮  、  痔疮  下  血  、  便血  、  衄血  等  。
+            防治  心  血管  疾病
+            茄子  含有  大量  维生素  P  ，  这  种  物质  能  增强  人体  细胞  间  的  粘着力  ，  增强  毛细血管  的  弹性  ，  减低  毛细血管  的  脆性  及  渗透性  ，  防止  微血管  破裂  出血  ，  使  心血管  保持  正常  的  功能  ，  防止  硬化  和  破裂  ，  所以  经常  吃  些  茄子  ，  有助于  防治  高  血压  、  冠心病  、  动脉  硬化  和  出血性  紫癜  。  保护  心血管  、  抗坏血酸  ：  此外  ，  茄子  还有  防治  坏血病  及  促进  伤口  愈合  的  功效  。
+            防癌  抗癌
+            国外  研究  结果  表明  它  的  抗癌  性能  是  其他  有  同样  作用  的  蔬菜  的  好几  倍  ，  是  抗癌  强手  ；  防治  胃癌  ：  茄子  含有  龙葵碱  ，  能  抑制  消化  系统  肿瘤  的  增殖  ，  对于  防治  胃癌  有  一定  效果  。  此外  ，  茄子  还有  清退  癌热  的  作用  。
+        </segment>
+
+        <pos>
+            茄子#VV  味甘#NN  、#PU  性凉#NN  ，#PU  入脾#NR  、#PU  胃#NR  、#PU  大肠#NR  经#VV  ；#PU  具有#VV  清热#NN  止血#NN  ，#PU  消肿#VV  止痛#NN  的#DEG  功效#NN  ；#PU  用于#VV  热毒痈疮#NR  、#PU  皮肤#NR  溃疡#NR  、#PU  口舌#NR  生疮#NR  、#PU  痔疮#NR  下#DT  血#NN  、#PU  便血#NN  、#PU  衄血#NN  等#ETC  。#PU
+            防治#VV  心#NN  血管#NN  疾病#NN
+            茄子#NN  含有#NN  大量#CD  维生素#NN  P#VV  ，#PU  这#DT  种#M  物质#NN  能#VV  增强#VV  人体#NN  细胞#NN  间#LC  的#DEG  粘着力#NN  ，#PU  增强#VV  毛细血管#NN  的#DEG  弹性#NN  ，#PU  减低#VV  毛细血管#NN  的#DEG  脆性#NN  及#CC  渗透性#NN  ，#PU  防止#VV  微血管#NN  破裂#NN  出血#VV  ，#PU  使#VV  心血管#NN  保持#VV  正常#VA  的#DEC  功能#NN  ，#PU  防止#VV  硬化#NR  和#CC  破裂#NR  ，#PU  所以#AD  经常#AD  吃#VV  些#CD  茄子#NN  ，#PU  有助于#VV  防治#VV  高#JJ  血压#NN  、#PU  冠心病#NN  、#PU  动脉#NN  硬化#NN  和#CC  出血性#NN  紫癜#NN    。#PU  保护#NN  心血管#NN  、#PU  抗坏血酸#NN  ：#PU  此外#AD  ，#PU  茄子#VV  还有#AD  防治#NN  坏血病#NN  及#CC  促进#VV  伤口#NN  愈合#NN  的#DEG  功效#NN    。#PU    。#PU
+            防癌#NN  抗癌#VV
+            国外#NN  研究#NN  结果#NN  表明#VV  它#PN  的#DEG  抗癌#JJ  性能#NN  是#VC  其他#DT  有#VE  同样#JJ  作用#NN  的#DEC  蔬菜#NN  的#DEG  好几#CD  倍#M  ，#PU  是#VC  抗癌#NN  强手#NN  ；#PU  防治#VV  胃癌#NN  ：#PU  茄子#VV  含有#NN  龙葵碱#NN  ，#PU  能#VV  抑制#VV  消化#NN  系统#NN  肿瘤#NN  的#DEG  增殖#NN  ，#PU  对于#P  防治#NN  胃癌#AD  有#VE  一定#JJ  效果#NN    。#PU  此外#AD  ，#PU  茄子#VV  还有#AD  清退#VV  癌热#NN  的#DEG  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 茄子#VV)  (conj, 性凉#NN, 味甘#NN)  (dobj, 茄子#VV, 性凉#NN)  (conj, 大肠#NR, 入脾#NR)  (conj, 大肠#NR, 胃#NR)  (prep, 经#VV, 大肠#NR)  (conj, 茄子#VV, 经#VV)  (conj, 茄子#VV, 具有#VV)  (nn, 止血#NN, 清热#NN)  (dobj, 具有#VV, 止血#NN)  (conj, 茄子#VV, 消肿#VV)  (assmod, 功效#NN, 止痛#NN)  (case, 止痛#NN, 的#DEG)  (dobj, 消肿#VV, 功效#NN)  (conj, 茄子#VV, 用于#VV)  (conj, 痔疮#NR, 热毒痈疮#NR)  (nn, 痔疮#NR, 皮肤#NR)  (conj, 痔疮#NR, 溃疡#NR)  (nn, 痔疮#NR, 口舌#NR)  (conj, 痔疮#NR, 生疮#NR)  (nn, 血#NN, 痔疮#NR)  (det, 血#NN, 下#DT)  (conj, 衄血#NN, 血#NN)  (conj, 衄血#NN, 便血#NN)  (dobj, 用于#VV, 衄血#NN)  (etc, 衄血#NN, 等#ETC)
+            (root, ROOT#null, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)
+            (nn, 含有#NN, 茄子#NN)  (nn, 维生素#NN, 含有#NN)  (nummod, 维生素#NN, 大量#CD)  (nsubj, P#VV, 维生素#NN)  (root, ROOT#null, P#VV)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 增强#VV, 物质#NN)  (mmod, 增强#VV, 能#VV)  (ccomp, P#VV, 增强#VV)  (nn, 细胞#NN, 人体#NN)  (assmod, 粘着力#NN, 细胞#NN)  (case, 细胞#NN, 间#LC)  (case, 细胞#NN, 的#DEG)  (dobj, 增强#VV, 粘着力#NN)  (ccomp, 增强#VV, 增强#VV)  (conj, 增强#VV, 增强#VV)  (assmod, 弹性#NN, 毛细血管#NN)  (case, 毛细血管#NN, 的#DEG)  (dobj, 增强#VV, 弹性#NN)  (ccomp, 增强#VV, 减低#VV)  (conj, 增强#VV, 减低#VV)  (assmod, 渗透性#NN, 毛细血管#NN)  (case, 毛细血管#NN, 的#DEG)  (conj, 渗透性#NN, 脆性#NN)  (cc, 渗透性#NN, 及#CC)  (dobj, 减低#VV, 渗透性#NN)  (ccomp, 增强#VV, 防止#VV)  (conj, 增强#VV, 防止#VV)  (nn, 破裂#NN, 微血管#NN)  (nsubj, 出血#VV, 破裂#NN)  (ccomp, 防止#VV, 出血#VV)  (ccomp, 增强#VV, 使#VV)  (conj, 增强#VV, 使#VV)  (dobj, 使#VV, 心血管#NN)  (dep, 使#VV, 保持#VV)  (relcl, 功能#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (dobj, 保持#VV, 功能#NN)  (ccomp, 增强#VV, 防止#VV)  (conj, 增强#VV, 防止#VV)  (conj, 破裂#NR, 硬化#NR)  (cc, 破裂#NR, 和#CC)  (nsubj, 吃#VV, 破裂#NR)  (advmod, 吃#VV, 所以#AD)  (advmod, 吃#VV, 经常#AD)  (ccomp, 防止#VV, 吃#VV)  (nummod, 茄子#NN, 些#CD)  (dobj, 吃#VV, 茄子#NN)  (ccomp, 增强#VV, 有助于#VV)  (conj, 增强#VV, 有助于#VV)  (ccomp, 有助于#VV, 防治#VV)  (amod, 紫癜#NN, 高#JJ)  (conj, 紫癜#NN, 血压#NN)  (conj, 紫癜#NN, 冠心病#NN)  (nn, 紫癜#NN, 动脉#NN)  (conj, 紫癜#NN, 硬化#NN)  (cc, 紫癜#NN, 和#CC)  (nn, 紫癜#NN, 出血性#NN)  (dobj, 防治#VV, 紫癜#NN)   (nn, 抗坏血酸#NN, 保护#NN)  (conj, 抗坏血酸#NN, 心血管#NN)  (nsubj, 茄子#VV, 抗坏血酸#NN)  (advmod, 茄子#VV, 此外#AD)  (root, ROOT#null, 茄子#VV)  (advmod, 坏血病#NN, 还有#AD)  (nn, 坏血病#NN, 防治#NN)  (dobj, 茄子#VV, 坏血病#NN)  (cc, 茄子#VV, 及#CC)  (conj, 茄子#VV, 促进#VV)  (nn, 愈合#NN, 伤口#NN)  (assmod, 功效#NN, 愈合#NN)  (case, 愈合#NN, 的#DEG)  (dobj, 促进#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nn, 结果#NN, 国外#NN)  (nn, 结果#NN, 研究#NN)  (nsubj, 表明#VV, 结果#NN)  (root, ROOT#null, 表明#VV)  (assmod, 性能#NN, 它#PN)  (case, 它#PN, 的#DEG)  (amod, 性能#NN, 抗癌#JJ)  (nsubj, 是#VC, 性能#NN)  (ccomp, 表明#VV, 是#VC)  (det, 蔬菜#NN, 其他#DT)  (relcl, 蔬菜#NN, 有#VE)  (amod, 作用#NN, 同样#JJ)  (dobj, 有#VE, 作用#NN)  (mark, 有#VE, 的#DEC)  (assmod, 倍#M, 蔬菜#NN)  (case, 蔬菜#NN, 的#DEG)  (nummod, 倍#M, 好几#CD)  (dep, 是#VC, 倍#M)  (cop, 强手#NN, 是#VC)  (nn, 强手#NN, 抗癌#NN)  (conj, 是#VC, 强手#NN)  (conj, 是#VC, 防治#VV)  (dobj, 防治#VV, 胃癌#NN)  (conj, 是#VC, 茄子#VV)  (nn, 龙葵碱#NN, 含有#NN)  (dobj, 茄子#VV, 龙葵碱#NN)  (mmod, 抑制#VV, 能#VV)  (conj, 是#VC, 抑制#VV)  (nn, 肿瘤#NN, 消化#NN)  (nn, 肿瘤#NN, 系统#NN)  (assmod, 增殖#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (dobj, 抑制#VV, 增殖#NN)  (case, 防治#NN, 对于#P)  (prep, 有#VE, 防治#NN)  (advmod, 有#VE, 胃癌#AD)  (conj, 是#VC, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)   (advmod, 茄子#VV, 此外#AD)  (root, ROOT#null, 茄子#VV)  (advmod, 清退#VV, 还有#AD)  (dep, 茄子#VV, 清退#VV)  (assmod, 作用#NN, 癌热#NN)  (case, 癌热#NN, 的#DEG)  (dobj, 清退#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            茄子的营养，也较丰富，含有蛋白质、脂肪、碳水化合物、维 生素以及钙、磷、铁等多种营养成分。特别是维生素P的含量很高。每100克中即含维生素P 750毫克，维生素P能使血管壁保持弹性和生理功能，保护心血管、抗坏血酸。
+            茄子还含磷、钙、钾等微量元素和胆碱、胡芦巴碱、水苏碱、龙葵碱等多种生物碱。尤其是紫色茄子中维生素含量更高。
+            茄子含有维生素E，有防止出血和抗衰老功能，常吃茄子，可使血液中胆固醇水平不致增高，对延缓人体衰老具有积极的意义。
+        </rawdata>
+
+        <segment>
+            茄子  的  营养  ，  也  较  丰富  ，  含有  蛋白质  、  脂肪  、  碳水化合物  、  维  生素  以及  钙  、  磷  、  铁  等  多  种  营养  成分  。  特别是  维生素  P  的  含量  很  高  。  每  100  克  中  即  含  维生素  P  750  毫克  ，  维生素  P  能  使  血  管壁  保持  弹性  和  生理  功能  ，  保护  心血管  、  抗坏血酸  。
+            茄子  还  含磷  、  钙  、  钾  等  微量  元素  和  胆碱  、  胡芦巴碱  、  水  苏  碱  、  龙葵碱  等  多  种  生物碱  。  尤其是  紫色  茄子  中  维生素  含量  更  高  。
+            茄子  含有  维生素E  ，  有  防止  出血  和  抗  衰老  功能  ，  常  吃  茄子  ，  可使  血液  中  胆固醇  水平  不致  增高  ，  对  延缓  人体  衰老  具有  积极  的  意义  。
+        </segment>
+
+        <pos>
+            茄子#NN  的#DEG  营养#VA  ，#PU  也#AD  较#AD  丰富#VA  ，#PU  含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  维#NR  生素#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN    。#PU  特别是#AD  维生素#NN  P#NN  的#DEG  含量#NN  很#AD  高#VA    。#PU  每#DT  100#CD  克#M  中#LC  即#AD  含#VV  维生素#NN  P#NN  750#CD  毫克#NN  ，#PU  维生素#NN  P#NN  能#VV  使#VV  血#NN  管壁#NN  保持#VV  弹性#NN  和#CC  生理#NN  功能#NN  ，#PU  保护#VV  心血管#NN  、#PU  抗坏血酸#NN    。#PU    。#PU
+            茄子#NN  还#AD  含磷#NN  、#PU  钙#NN  、#PU  钾#NN  等#ETC  微量#VV  元素#NN  和#CC  胆碱#NN  、#PU  胡芦巴碱#NN  、#PU  水#NN  苏#NR  碱#NN  、#PU  龙葵碱#NN  等#ETC  多#CD  种#M  生物碱#NN    。#PU  尤其是#AD  紫色#NN  茄子#NN  中#LC  维生素#NN  含量#NN  更#AD  高#VA    。#PU    。#PU
+            茄子#NN  含有#NN  维生素E#VV  ，#PU  有#VE  防止#VV  出血#VV  和#CC  抗#VV  衰老#NN  功能#NN  ，#PU  常#AD  吃#VV  茄子#NN  ，#PU  可使#NN  血液#NN  中#LC  胆固醇#NN  水平#NN  不致#AD  增高#VV  ，#PU  对#P  延缓#NN  人体#NN  衰老#NN  具有#VV  积极#VA  的#DEC  意义#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 茄子#NN)  (case, 茄子#NN, 的#DEG)  (relcl, 成分#NN, 营养#VA)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 较#AD)  (conj, 营养#VA, 丰富#VA)  (dep, 营养#VA, 含有#VV)  (conj, 维#NR, 蛋白质#NR)  (conj, 维#NR, 脂肪#NR)  (conj, 维#NR, 碳水化合物#NR)  (nn, 钙#NN, 维#NR)  (conj, 钙#NN, 生素#NN)  (cc, 钙#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (range, 含有#VV, 种#M)  (dep, 营养#VA, 营养#VA)  (root, ROOT#null, 成分#NN)   (advmod, P#NN, 特别是#AD)  (nn, P#NN, 维生素#NN)  (assmod, 含量#NN, P#NN)  (case, P#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)   (loc, 含#VV, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (case, 每#DT, 中#LC)  (advmod, 含#VV, 即#AD)  (root, ROOT#null, 含#VV)  (nn, P#NN, 维生素#NN)  (nn, 毫克#NN, P#NN)  (nummod, 毫克#NN, 750#CD)  (dobj, 含#VV, 毫克#NN)  (nn, P#NN, 维生素#NN)  (nsubj, 使#VV, P#NN)  (mmod, 使#VV, 能#VV)  (conj, 含#VV, 使#VV)  (nn, 管壁#NN, 血#NN)  (dobj, 使#VV, 管壁#NN)  (dep, 使#VV, 保持#VV)  (conj, 功能#NN, 弹性#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 生理#NN)  (dobj, 保持#VV, 功能#NN)  (conj, 使#VV, 保护#VV)  (conj, 抗坏血酸#NN, 心血管#NN)  (dobj, 保护#VV, 抗坏血酸#NN)   (root, ROOT#null, null#null)
+            (nsubj, 微量#VV, 茄子#NN)  (advmod, 微量#VV, 还#AD)  (conj, 钾#NN, 含磷#NN)  (conj, 钾#NN, 钙#NN)  (prep, 微量#VV, 钾#NN)  (etc, 钾#NN, 等#ETC)  (root, ROOT#null, 微量#VV)  (conj, 龙葵碱#NN, 元素#NN)  (cc, 龙葵碱#NN, 和#CC)  (conj, 龙葵碱#NN, 胆碱#NN)  (conj, 龙葵碱#NN, 胡芦巴碱#NN)  (nn, 龙葵碱#NN, 水#NN)  (nn, 龙葵碱#NN, 苏#NR)  (conj, 龙葵碱#NN, 碱#NN)  (nn, 生物碱#NN, 龙葵碱#NN)  (etc, 龙葵碱#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 生物碱#NN, 种#M)  (dobj, 微量#VV, 生物碱#NN)   (advmod, 茄子#NN, 尤其是#AD)  (nn, 茄子#NN, 紫色#NN)  (dep, 含量#NN, 茄子#NN)  (case, 茄子#NN, 中#LC)  (nn, 含量#NN, 维生素#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 更#AD)  (root, ROOT#null, 高#VA)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 茄子#NN)  (nsubj, 维生素E#VV, 含有#NN)  (root, ROOT#null, 维生素E#VV)  (ccomp, 维生素E#VV, 有#VE)  (dep, 有#VE, 防止#VV)  (ccomp, 防止#VV, 出血#VV)  (cc, 出血#VV, 和#CC)  (dep, 出血#VV, 抗#VV)  (nn, 功能#NN, 衰老#NN)  (dobj, 抗#VV, 功能#NN)  (advmod, 吃#VV, 常#AD)  (conj, 防止#VV, 吃#VV)  (dobj, 吃#VV, 茄子#NN)  (nn, 血液#NN, 可使#NN)  (loc, 增高#VV, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 水平#NN, 胆固醇#NN)  (nsubj, 增高#VV, 水平#NN)  (advmod, 增高#VV, 不致#AD)  (dep, 防止#VV, 增高#VV)  (case, 衰老#NN, 对#P)  (nn, 衰老#NN, 延缓#NN)  (nn, 衰老#NN, 人体#NN)  (prep, 具有#VV, 衰老#NN)  (conj, 防止#VV, 具有#VV)  (relcl, 意义#NN, 积极#VA)  (mark, 积极#VA, 的#DEC)  (dobj, 具有#VV, 意义#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.茄子适用于烧、焖、蒸、炸、拌等烹调方法，如“鱼香茄子”、“炸茄盒”、“肉片烧茄子”等。
+            2.老茄子，特别是秋后的老茄子含有较多茄碱，对人体有害，不宜多吃。
+            3.油炸茄子会造成维生素P大量损失，挂糊上浆后炸制能减少这种损失。
+            4.在茄子萼片与果实相连接的地方，有一圈浅色环带，这条带越宽、越明显，就说明茄子果实正快速生长，没有老化。如果环带不明显，说明茄子采收时已停止生长，此时的茄子已经变老，影响食用。
+            5.茄子遇热极易氧化，颜色会变黑而影响美观，如果烹调前先放入热油锅中稍炸，再与其它的材料同炒，便不容易变色。
+            6.切好茄子后，应趁着还没变色，立刻放入油里直接炸。这样可以炸出茄子中多余的水分，在炖煮时，容易入味。
+            7.茄子切成块或片后，由于氧化作用会很快由白变褐。如果将切成块的茄子立即放入水中浸泡起来，待做菜时再捞起滤干，就可避免茄子变色。
+        </rawdata>
+
+        <segment>
+            茄子  适用  于  烧  、  焖  、  蒸  、  炸  、  拌等  烹调  方法  ，  如  “  鱼香  茄子  ”  、  “  炸  茄盒  ”  、  “  肉片  烧  茄子  ”  等  。
+            老  茄子  ，  特别是  秋后  的  老  茄子  含有  较多  茄碱  ，  对  人体  有害  ，  不  宜  多  吃  。
+            油炸  茄子  会  造成  维生素  P  大量  损失  ，  挂糊  上浆  后  炸  制能  减少  这  种  损失  。
+            在  茄子  萼片  与  果实  相  连接  的  地方  ，  有  一  圈  浅色  环带  ，  这  条  带  越  宽  、  越  明显  ，  就  说明  茄子  果实  正  快速  生长  ，  没有  老化  。  如果  环带  不  明显  ，  说明  茄子  采收  时  已  停止  生长  ，  此时  的  茄子  已经  变老  ，  影响  食用  。
+            茄子  遇热  极  易  氧化  ，  颜色  会  变黑  而  影响  美观  ，  如果  烹调  前  先  放入  热  油  锅中  稍  炸  ，  再  与  其它  的  材料  同  炒  ，  便  不  容易  变色  。
+            切  好  茄子  后  ，  应  趁着  还  没  变色  ，  立刻  放入  油  里  直接  炸  。  这样  可以  炸出  茄子  中  多余  的  水分  ，  在  炖煮  时  ，  容易  入味  。
+            茄子  切成  块  或  片  后  ，  由于  氧化  作用  会  很  快  由  白变褐  。  如果  将  切成  块  的  茄子  立即  放入  水中  浸泡  起来  ，  待  做菜  时  再  捞起  滤干  ，  就  可  避免  茄子  变色  。
+        </segment>
+
+        <pos>
+            茄子#NN  适用#VV  于#P  烧#NR  、#PU  焖#NR  、#PU  蒸#NR  、#PU  炸#VV  、#PU  拌等#VV  烹调#NN  方法#NN  ，#PU  如#P  ``#NN  鱼香#NN  茄子#NN  ''#NN  、#PU  ``#NN  炸#VV  茄盒#NN  ''#NN  、#PU  ``#NN  肉片#NN  烧#NN  茄子#NN  ''#NN  等#ETC  。#PU
+            老#JJ  茄子#NN  ，#PU  特别是#AD  秋后#NN  的#DEG  老#JJ  茄子#NN  含有#AD  较多#VV  茄碱#NN  ，#PU  对#P  人体#NN  有害#VV  ，#PU  不#AD  宜#NR  多#AD  吃#VV  。#PU
+            油炸#NN  茄子#NN  会#VV  造成#VV  维生素#NN  P#NN  大量#CD  损失#NN  ，#PU  挂糊#NN  上浆#NN  后#LC  炸#VV  制能#AD  减少#VV  这#DT  种#M  损失#NN  。#PU
+            在#P  茄子#NR  萼片#VV  与#P  果实#NN  相#AD  连接#VV  的#DEC  地方#NN  ，#PU  有#VE  一#CD  圈#NN  浅色#VV  环带#NN  ，#PU  这#DT  条#M  带#NN  越#AD  宽#VA  、#PU  越#AD  明显#VA  ，#PU  就#AD  说明#VV  茄子#JJ  果实#NN  正#JJ  快速#JJ  生长#NN  ，#PU  没有#VE  老化#NN    。#PU  如果#CS  环带#NN  不#AD  明显#VA  ，#PU  说明#VV  茄子#NN  采收#NN  时#LC  已#AD  停止#VV  生长#NN  ，#PU  此时#NT  的#DEG  茄子#NN  已经#AD  变老#VV  ，#PU  影响#NN  食用#VV    。#PU    。#PU
+            茄子#NN  遇热#NN  极#AD  易#VA  氧化#VA  ，#PU  颜色#AD  会#VV  变黑#AD  而#MSP  影响#VV  美观#NN  ，#PU  如果#CS  烹调#VV  前#LC  先#AD  放入#VV  热#NN  油#NN  锅中#NN  稍#AD  炸#VV  ，#PU  再#AD  与#P  其它#DT  的#DEG  材料#NN  同#P  炒#NR  ，#PU  便#AD  不#AD  容易#VA  变色#VA  。#PU
+            切#VV  好#JJ  茄子#NN  后#LC  ，#PU  应#P  趁着#NN  还#AD  没#AD  变色#VV  ，#PU  立刻#AD  放入#VV  油#NN  里#LC  直接#AD  炸#VV    。#PU  这样#AD  可以#VV  炸出#VV  茄子#NN  中#LC  多余#NN  的#DEG  水分#NN  ，#PU  在#P  炖煮#NN  时#LC  ，#PU  容易#VA  入味#VV    。#PU    。#PU
+            茄子#VV  切成#CD  块#M  或#CC  片#M  后#LC  ，#PU  由于#P  氧化#NN  作用#NN  会#VV  很#AD  快#VA  由#VV  白变褐#NN    。#PU  如果#CS  将#BA  切成#CD  块#M  的#DEG  茄子#NN  立即#AD  放入#VV  水中#NN  浸泡#NN  起来#VV  ，#PU  待#VV  做菜#NN  时#LC  再#AD  捞起#VV  滤干#NN  ，#PU  就#AD  可#VV  避免#VV  茄子#NN  变色#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适用#VV, 茄子#NN)  (root, ROOT#null, 适用#VV)  (case, 蒸#NR, 于#P)  (conj, 蒸#NR, 烧#NR)  (conj, 蒸#NR, 焖#NR)  (prep, 适用#VV, 蒸#NR)  (conj, 适用#VV, 炸#VV)  (dep, 适用#VV, 拌等#VV)  (nn, 方法#NN, 烹调#NN)  (dobj, 拌等#VV, 方法#NN)  (case, ``#NN, 如#P)  (nn, ``#NN, ``#NN)  (nn, ``#NN, 鱼香#NN)  (nn, ``#NN, 茄子#NN)  (conj, ``#NN, ''#NN)  (prep, 炸#VV, ``#NN)  (conj, 适用#VV, 炸#VV)  (nn, ''#NN, 茄盒#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 肉片#NN)  (nn, ''#NN, 烧#NN)  (nn, ''#NN, 茄子#NN)  (dobj, 炸#VV, ''#NN)  (etc, ''#NN, 等#ETC)
+            (amod, 茄子#NN, 老#JJ)  (nsubj, 较多#VV, 茄子#NN)  (advmod, 茄子#NN, 特别是#AD)  (assmod, 茄子#NN, 秋后#NN)  (case, 秋后#NN, 的#DEG)  (amod, 茄子#NN, 老#JJ)  (nsubj, 较多#VV, 茄子#NN)  (advmod, 较多#VV, 含有#AD)  (root, ROOT#null, 较多#VV)  (dobj, 较多#VV, 茄碱#NN)  (case, 人体#NN, 对#P)  (prep, 有害#VV, 人体#NN)  (dep, 较多#VV, 有害#VV)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (dep, 较多#VV, 吃#VV)
+            (nn, 茄子#NN, 油炸#NN)  (nsubj, 造成#VV, 茄子#NN)  (mmod, 造成#VV, 会#VV)  (root, ROOT#null, 造成#VV)  (nn, P#NN, 维生素#NN)  (nn, 损失#NN, P#NN)  (nummod, 损失#NN, 大量#CD)  (dobj, 造成#VV, 损失#NN)  (nn, 上浆#NN, 挂糊#NN)  (loc, 减少#VV, 上浆#NN)  (case, 上浆#NN, 后#LC)  (mmod, 减少#VV, 炸#VV)  (advmod, 减少#VV, 制能#AD)  (conj, 造成#VV, 减少#VV)  (det, 损失#NN, 这#DT)  (clf, 这#DT, 种#M)  (dobj, 减少#VV, 损失#NN)
+            (case, 茄子#NR, 在#P)  (prep, 萼片#VV, 茄子#NR)  (root, ROOT#null, 萼片#VV)  (case, 果实#NN, 与#P)  (prep, 连接#VV, 果实#NN)  (advmod, 连接#VV, 相#AD)  (relcl, 地方#NN, 连接#VV)  (mark, 连接#VV, 的#DEC)  (dobj, 萼片#VV, 地方#NN)  (dep, 萼片#VV, 有#VE)  (nummod, 圈#NN, 一#CD)  (nsubj, 浅色#VV, 圈#NN)  (dep, 说明#VV, 浅色#VV)  (dobj, 浅色#VV, 环带#NN)  (det, 带#NN, 这#DT)  (clf, 这#DT, 条#M)  (nsubj, 宽#VA, 带#NN)  (advmod, 宽#VA, 越#AD)  (conj, 浅色#VV, 宽#VA)  (advmod, 明显#VA, 越#AD)  (dep, 宽#VA, 明显#VA)  (advmod, 说明#VV, 就#AD)  (dep, 有#VE, 说明#VV)  (amod, 果实#NN, 茄子#JJ)  (nn, 生长#NN, 果实#NN)  (amod, 生长#NN, 正#JJ)  (amod, 生长#NN, 快速#JJ)  (dobj, 说明#VV, 生长#NN)  (dep, 有#VE, 没有#VE)  (dobj, 没有#VE, 老化#NN)   (advmod, 明显#VA, 如果#CS)  (nsubj, 明显#VA, 环带#NN)  (neg, 明显#VA, 不#AD)  (dep, 停止#VV, 明显#VA)  (loc, 停止#VV, 说明#VV)  (nn, 采收#NN, 茄子#NN)  (dobj, 说明#VV, 采收#NN)  (case, 说明#VV, 时#LC)  (advmod, 停止#VV, 已#AD)  (root, ROOT#null, 停止#VV)  (dobj, 停止#VV, 生长#NN)  (assmod, 茄子#NN, 此时#NT)  (case, 此时#NT, 的#DEG)  (nsubj, 变老#VV, 茄子#NN)  (advmod, 变老#VV, 已经#AD)  (conj, 停止#VV, 变老#VV)  (nsubj, 食用#VV, 影响#NN)  (conj, 停止#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (nn, 遇热#NN, 茄子#NN)  (nsubj, 易#VA, 遇热#NN)  (advmod, 易#VA, 极#AD)  (root, ROOT#null, 易#VA)  (comod, 易#VA, 氧化#VA)  (advmod, 影响#VV, 颜色#AD)  (mmod, 影响#VV, 会#VV)  (advmod, 影响#VV, 变黑#AD)  (prtmod, 影响#VV, 而#MSP)  (dep, 易#VA, 影响#VV)  (dobj, 影响#VV, 美观#NN)  (advmod, 烹调#VV, 如果#CS)  (loc, 放入#VV, 烹调#VV)  (case, 烹调#VV, 前#LC)  (advmod, 放入#VV, 先#AD)  (dep, 影响#VV, 放入#VV)  (nn, 锅中#NN, 热#NN)  (nn, 锅中#NN, 油#NN)  (dobj, 放入#VV, 锅中#NN)  (advmod, 炸#VV, 稍#AD)  (conj, 放入#VV, 炸#VV)  (advmod, 容易#VA, 再#AD)  (case, 材料#NN, 与#P)  (assmod, 材料#NN, 其它#DT)  (case, 其它#DT, 的#DEG)  (prep, 容易#VA, 材料#NN)  (case, 炒#NR, 同#P)  (prep, 容易#VA, 炒#NR)  (advmod, 容易#VA, 便#AD)  (neg, 容易#VA, 不#AD)  (dep, 易#VA, 容易#VA)  (comod, 容易#VA, 变色#VA)
+            (loc, 放入#VV, 切#VV)  (amod, 茄子#NN, 好#JJ)  (dobj, 切#VV, 茄子#NN)  (case, 切#VV, 后#LC)  (case, 趁着#NN, 应#P)  (prep, 放入#VV, 趁着#NN)  (advmod, 放入#VV, 还#AD)  (neg, 变色#VV, 没#AD)  (conj, 放入#VV, 变色#VV)  (advmod, 放入#VV, 立刻#AD)  (loc, 炸#VV, 放入#VV)  (dobj, 放入#VV, 油#NN)  (case, 放入#VV, 里#LC)  (advmod, 炸#VV, 直接#AD)  (root, ROOT#null, 炸#VV)   (advmod, 炸出#VV, 这样#AD)  (mmod, 炸出#VV, 可以#VV)  (root, ROOT#null, 炸出#VV)  (dep, 多余#NN, 茄子#NN)  (case, 茄子#NN, 中#LC)  (assmod, 水分#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (dobj, 炸出#VV, 水分#NN)  (case, 炖煮#NN, 在#P)  (prep, 入味#VV, 炖煮#NN)  (case, 炖煮#NN, 时#LC)  (dep, 入味#VV, 容易#VA)  (dep, 炸出#VV, 入味#VV)   (root, ROOT#null, null#null)
+            (loc, 由#VV, 茄子#VV)  (nummod, 块#M, 切成#CD)  (range, 茄子#VV, 块#M)  (cc, 茄子#VV, 或#CC)  (conj, 茄子#VV, 片#M)  (case, 茄子#VV, 后#LC)  (case, 快#VA, 由于#P)  (nn, 作用#NN, 氧化#NN)  (nsubj, 快#VA, 作用#NN)  (mmod, 快#VA, 会#VV)  (advmod, 快#VA, 很#AD)  (prep, 由#VV, 快#VA)  (root, ROOT#null, 由#VV)  (dobj, 由#VV, 白变褐#NN)   (advmod, 放入#VV, 如果#CS)  (ba, 放入#VV, 将#BA)  (nummod, 块#M, 切成#CD)  (assmod, 茄子#NN, 块#M)  (case, 块#M, 的#DEG)  (nsubj, 放入#VV, 茄子#NN)  (advmod, 放入#VV, 立即#AD)  (loc, 捞起#VV, 放入#VV)  (nn, 浸泡#NN, 水中#NN)  (dobj, 放入#VV, 浸泡#NN)  (conj, 放入#VV, 起来#VV)  (conj, 放入#VV, 待#VV)  (dobj, 待#VV, 做菜#NN)  (case, 放入#VV, 时#LC)  (advmod, 捞起#VV, 再#AD)  (root, ROOT#null, 捞起#VV)  (dobj, 捞起#VV, 滤干#NN)  (advmod, 避免#VV, 就#AD)  (mmod, 避免#VV, 可#VV)  (conj, 捞起#VV, 避免#VV)  (nn, 变色#NN, 茄子#NN)  (dobj, 避免#VV, 变色#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101424061662.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        
+    </picturelocalurl>
+
+</content>
