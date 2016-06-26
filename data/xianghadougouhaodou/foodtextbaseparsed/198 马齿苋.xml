@@ -1,0 +1,330 @@
+<content>
+
+    <id>
+        198
+    </id>
+
+    <foodname>
+        马齿苋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        马齿草、马苋、长命菜、马齿龙芽、酱瓣豆草、瓜子菜、五行草、灰苋、马踏草、安乐菜、酸苋、耐旱菜
+    </alias>
+
+    <season>
+        夏、秋采集，除去泥沙，用沸水略烫或略蒸晒干或鲜用。
+    </season>
+
+    <unsuit>
+        <rawdata>
+            凡脾胃索虚，腹泻便溏之人忌食；怀孕妇女，尤其是有习惯性流产的孕妇忌食。
+        </rawdata>
+
+        <segment>
+            凡  脾胃  索  虚  ，  腹泻  便溏  之  人  忌食  ；  怀孕  妇女  ，  尤其是  有  习惯性  流产  的  孕妇  忌食  。
+        </segment>
+
+        <pos>
+            凡#AD  脾胃#NN  索#NN  虚#AD  ，#PU  腹泻#NN  便溏#NN  之#DEG  人#NN  忌食#VV  ；#PU  怀孕#VV  妇女#NN  ，#PU  尤其是#AD  有#VE  习惯性#VV  流产#NN  的#DEC  孕妇#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 索#NN, 凡#AD)  (nn, 索#NN, 脾胃#NN)  (nsubj, 忌食#VV, 索#NN)  (advmod, 忌食#VV, 虚#AD)  (nn, 便溏#NN, 腹泻#NN)  (assmod, 人#NN, 便溏#NN)  (case, 便溏#NN, 之#DEG)  (dep, 忌食#VV, 人#NN)  (root, ROOT#null, 忌食#VV)  (conj, 有#VE, 怀孕#VV)  (dobj, 怀孕#VV, 妇女#NN)  (advmod, 有#VE, 尤其是#AD)  (ccomp, 忌食#VV, 有#VE)  (relcl, 忌食#NN, 习惯性#VV)  (dobj, 习惯性#VV, 流产#NN)  (mark, 习惯性#VV, 的#DEC)  (nn, 忌食#NN, 孕妇#NN)  (dobj, 有#VE, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜肠胃道感染者，皮肤粗糙干燥，维生素A缺乏症，角膜软化症，眼干燥症，夜盲症者，小儿单纯性腹泻、小儿百日咳者，钩虫病患者，妇女赤白带下及孕妇临产时，矽肺患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  肠  胃道  感染者  ，  皮肤  粗糙  干燥  ，  维生素A  缺乏症  ，  角膜  软化症  ，  眼干燥症  ，  夜盲症  者  ，  小儿  单纯性  腹泻  、  小儿  百日  咳  者  ，  钩虫病  患者  ，  妇女  赤白  带下  及  孕妇  临产  时  ，  矽肺  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  肠#VV  胃道#NN  感染者#NN  ，#PU  皮肤#VV  粗糙#NN  干燥#NN  ，#PU  维生素A#VV  缺乏症#NN  ，#PU  角膜#VV  软化症#NN  ，#PU  眼干燥症#VV  ，#PU  夜盲症#VV  者#NN  ，#PU  小儿#VV  单纯性#NN  腹泻#NN  、#PU  小儿#VV  百日#NT  咳#NN  者#NN  ，#PU  钩虫病#VV  患者#NN  ，#PU  妇女#NN  赤白#NN  带下#NN  及#CC  孕妇#NN  临产#NN  时#LC  ，#PU  矽肺#VV  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 肠#VV, 尤#NR)  (mmod, 肠#VV, 适宜#VV)  (root, ROOT#null, 肠#VV)  (nn, 感染者#NN, 胃道#NN)  (dobj, 肠#VV, 感染者#NN)  (conj, 肠#VV, 皮肤#VV)  (nn, 干燥#NN, 粗糙#NN)  (dobj, 皮肤#VV, 干燥#NN)  (conj, 肠#VV, 维生素A#VV)  (dobj, 维生素A#VV, 缺乏症#NN)  (conj, 肠#VV, 角膜#VV)  (dobj, 角膜#VV, 软化症#NN)  (conj, 肠#VV, 眼干燥症#VV)  (conj, 肠#VV, 夜盲症#VV)  (dobj, 夜盲症#VV, 者#NN)  (conj, 肠#VV, 小儿#VV)  (nn, 腹泻#NN, 单纯性#NN)  (dobj, 小儿#VV, 腹泻#NN)  (conj, 肠#VV, 小儿#VV)  (nn, 者#NN, 百日#NT)  (nn, 者#NN, 咳#NN)  (dobj, 小儿#VV, 者#NN)  (conj, 肠#VV, 钩虫病#VV)  (dobj, 钩虫病#VV, 患者#NN)  (nn, 临产#NN, 妇女#NN)  (nn, 临产#NN, 赤白#NN)  (conj, 临产#NN, 带下#NN)  (cc, 临产#NN, 及#CC)  (nn, 临产#NN, 孕妇#NN)  (loc, 矽肺#VV, 临产#NN)  (case, 临产#NN, 时#LC)  (conj, 肠#VV, 矽肺#VV)  (dobj, 矽肺#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                372
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                2230
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            马齿苋可作菜蔬食用。药用对急性肠炎、菌痢、肺病、肠痈、乳疮及产后子宫出血、痔疮出血、肾炎水肿等均有效。
+            抗菌试验表明，马齿苋对痢疾杆菌、伤寒杆菌、金黄色葡萄球菌有抑制作用。民间以马齿苋与肉末作馅，包馄饨、饺子食用，能清利肠热，止泻止痢。\"
+        </rawdata>
+
+        <segment>
+            马齿苋  可作  菜蔬  食用  。  药用  对  急性  肠炎  、  菌痢  、  肺病  、  肠痈  、  乳疮  及  产后  子宫  出血  、  痔疮  出血  、  肾炎  水肿  等  均  有效  。
+            抗菌  试验  表明  ，  马齿苋  对  痢疾  杆菌  、  伤寒  杆菌  、  金黄色  葡萄球菌  有  抑制  作用  。  民间  以  马齿苋  与  肉末  作馅  ，  包  馄饨  、  饺子  食用  ，  能  清利肠热  ，  止泻  止痢  。  \  "
+        </segment>
+
+        <pos>
+            马齿苋#NN  可作#NN  菜蔬#NN  食用#VV    。#PU  药用#NN  对#P  急性#NR  肠炎#NR  、#PU  菌痢#NR  、#PU  肺病#NR  、#PU  肠痈#NR  、#PU  乳疮#NR  及#CC  产后#NR  子宫#NN  出血#VV  、#PU  痔疮#AD  出血#VV  、#PU  肾炎#VV  水肿#NN  等#ETC  均#AD  有效#VA    。#PU    。#PU
+            抗菌#NN  试验#NN  表明#VV  ，#PU  马齿苋#NN  对#P  痢疾#NN  杆菌#NN  、#PU  伤寒#NN  杆菌#NN  、#PU  金黄色#JJ  葡萄球菌#NN  有#VE  抑制#NN  作用#NN    。#PU  民间#NN  以#P  马齿苋#NN  与#CC  肉末#NN  作馅#VV  ，#PU  包#VV  馄饨#NN  、#PU  饺子#AD  食用#VV  ，#PU  能#VV  清利肠热#NN  ，#PU  止泻#VV  止痢#NN    。#PU  \#NN  ''#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜蔬#NN, 马齿苋#NN)  (nn, 菜蔬#NN, 可作#NN)  (nsubj, 食用#VV, 菜蔬#NN)  (root, ROOT#null, 食用#VV)   (nsubj, 出血#VV, 药用#NN)  (case, 子宫#NN, 对#P)  (nn, 产后#NR, 急性#NR)  (conj, 产后#NR, 肠炎#NR)  (conj, 产后#NR, 菌痢#NR)  (conj, 产后#NR, 肺病#NR)  (conj, 产后#NR, 肠痈#NR)  (conj, 产后#NR, 乳疮#NR)  (cc, 产后#NR, 及#CC)  (nn, 子宫#NN, 产后#NR)  (prep, 出血#VV, 子宫#NN)  (root, ROOT#null, 出血#VV)  (advmod, 出血#VV, 痔疮#AD)  (conj, 出血#VV, 出血#VV)  (dep, 出血#VV, 肾炎#VV)  (dobj, 肾炎#VV, 水肿#NN)  (etc, 水肿#NN, 等#ETC)  (advmod, 有效#VA, 均#AD)  (conj, 出血#VV, 有效#VA)   (root, ROOT#null, null#null)
+            (nn, 试验#NN, 抗菌#NN)  (nsubj, 表明#VV, 试验#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 有#VE, 马齿苋#NN)  (case, 葡萄球菌#NN, 对#P)  (nn, 杆菌#NN, 痢疾#NN)  (conj, 葡萄球菌#NN, 杆菌#NN)  (nn, 杆菌#NN, 伤寒#NN)  (conj, 葡萄球菌#NN, 杆菌#NN)  (amod, 葡萄球菌#NN, 金黄色#JJ)  (prep, 有#VE, 葡萄球菌#NN)  (ccomp, 表明#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)   (nsubj, 作馅#VV, 民间#NN)  (case, 肉末#NN, 以#P)  (conj, 肉末#NN, 马齿苋#NN)  (cc, 肉末#NN, 与#CC)  (prep, 作馅#VV, 肉末#NN)  (root, ROOT#null, 作馅#VV)  (conj, 作馅#VV, 包#VV)  (dobj, 包#VV, 馄饨#NN)  (advmod, 食用#VV, 饺子#AD)  (conj, 作馅#VV, 食用#VV)  (conj, 作馅#VV, 能#VV)  (dobj, 能#VV, 清利肠热#NN)  (conj, 作馅#VV, 止泻#VV)  (dobj, 止泻#VV, 止痢#NN)   (nsubj, ''#VV, \#NN)  (root, ROOT#null, ''#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性寒、味酸，归肝经、大肠经。有清热利湿、解毒消肿、消炎、止渴、利尿作用。
+            1.利水、消肿、降低血压
+            马齿苋含有大量的钾盐，有良好的利水消肿作用；钾离子还可直接作用于血管壁上，使血管壁扩张，阻止动脉管壁增厚，从而起到降低血压的作用。
+            2.消除尘毒
+            马齿苋能消除尘毒，防止吞噬细胞变性和坏死，还可以防止淋巴管发炎和阻止纤维性变化，杜绝矽结节形成，对白癜风也有一定的疗效。
+            3.防治溃疡
+            马齿觉还含有较多的胡萝卜素，能促进溃疡病的愈合。
+            4.杀菌消炎
+            马齿苋对痢疾杆菌、伤寒杆菌和大肠杆菌有较强的抑制作用，可用于各种炎症的辅助治疗，素有“天然抗生素”之称。
+            5.防治心脏病
+            马齿苋中含有一种丰富的Y－3脂肪酸，它能抑制人体内血清胆固醇和甘油三酯酸的生成，帮助血管内皮细胞合成的前列腺素增多，抑制血小板形成血栓素A2，使血液粘度下降，促使血管扩张，可以预防血小板聚集、冠状动脉痉挛和血栓形成，从而起到防治心脏病的作用。
+        </rawdata>
+
+        <segment>
+            性寒  、  味酸  ，  归肝经  、  大肠  经  。  有  清热  利湿  、  解毒  消肿  、  消炎  、  止渴  、  利尿  作用  。
+            利水  、  消肿  、  降低  血压
+            马齿苋  含有  大量  的  钾盐  ，  有  良好  的  利水  消肿  作用  ；  钾  离子  还  可  直接  作用  于  血管  壁上  ，  使  血管  壁  扩张  ，  阻止  动脉  管壁  增厚  ，  从而  起到  降低  血压  的  作用  。
+            消除  尘毒
+            马齿苋  能  消除  尘毒  ，  防止  吞噬  细胞  变性  和  坏死  ，  还  可以  防止  淋巴管  发炎  和  阻止  纤维性  变化  ，  杜绝  矽  结节  形成  ，  对  白癜风  也  有  一定  的  疗效  。
+            防治  溃疡
+            马齿觉  还  含有  较多  的  胡萝卜素  ，  能  促进  溃疡病  的  愈合  。
+            杀菌  消炎
+            马齿苋  对  痢疾  杆菌  、  伤寒  杆菌  和  大肠  杆菌  有  较  强  的  抑制  作用  ，  可  用于  各  种  炎症  的  辅助  治疗  ，  素  有  “  天然  抗生素  ”  之  称  。
+            防治  心脏病
+            马齿苋  中  含有  一  种  丰富  的  Y－3  脂肪酸  ，  它  能  抑制  人体  内  血清  胆固醇  和  甘油三酯酸  的  生成  ，  帮助  血管  内皮  细胞  合成  的  前列腺素  增多  ，  抑制  血小板  形成  血栓  素  A2  ，  使  血液  粘度  下降  ，  促使  血管  扩张  ，  可以  预防  血  小板  聚集  、  冠状  动脉  痉挛  和  血栓  形成  ，  从而  起到  防治  心脏病  的  作用  。
+        </segment>
+
+        <pos>
+            性寒#NR  、#PU  味酸#NR  ，#PU  归肝经#NR  、#PU  大肠#NR  经#VV    。#PU  有#VE  清热#NR  利湿#NR  、#PU  解毒#NR  消肿#NR  、#PU  消炎#NR  、#PU  止渴#NR  、#PU  利尿#NR  作用#NN    。#PU    。#PU
+            利水#VA  、#PU  消肿#VA  、#PU  降低#VV  血压#NN
+            马齿苋#NN  含有#VV  大量#CD  的#DEG  钾盐#NN  ，#PU  有#VE  良好#VA  的#DEC  利水#NN  消肿#NN  作用#NN  ；#PU  钾#NN  离子#NN  还#AD  可#VV  直接#JJ  作用#NN  于#P  血管#NN  壁上#NN  ，#PU  使#VV  血管#NN  壁#VV  扩张#NN  ，#PU  阻止#VV  动脉#NN  管壁#NN  增厚#NN  ，#PU  从而#AD  起到#VV  降低#VV  血压#NN  的#DEC  作用#NN  。#PU
+            消除#VV  尘毒#NN
+            马齿苋#NN  能#VV  消除#VV  尘毒#NN  ，#PU  防止#VV  吞噬#VV  细胞#NN  变性#NN  和#CC  坏死#NN  ，#PU  还#AD  可以#VV  防止#VV  淋巴管#VV  发炎#NN  和#CC  阻止#VV  纤维性#NN  变化#NN  ，#PU  杜绝#NN  矽#NN  结节#AD  形成#VV  ，#PU  对#P  白癜风#NN  也#AD  有#VE  一定#JJ  的#DEG  疗效#NN  。#PU
+            防治#VV  溃疡#NN
+            马齿觉#NN  还#AD  含有#VV  较多#NN  的#DEG  胡萝卜素#NN  ，#PU  能#VV  促进#VV  溃疡病#NN  的#DEG  愈合#NN  。#PU
+            杀菌#NN  消炎#VV
+            马齿苋#NN  对#P  痢疾#NN  杆菌#NN  、#PU  伤寒#NN  杆菌#NN  和#CC  大肠#NN  杆菌#NN  有#VE  较#AD  强#VA  的#DEC  抑制#NN  作用#NN  ，#PU  可#VV  用于#VV  各#DT  种#M  炎症#NN  的#DEG  辅助#NN  治疗#NN  ，#PU  素#AD  有#VE  ``#NR  天然#JJ  抗生素#NN  ''#NN  之#DEG  称#NN  。#PU
+            防治#VV  心脏病#NN
+            马齿苋#NN  中#LC  含有#VV  一#CD  种#M  丰富#VA  的#DEC  Y#CD  －#PU  3#CD  脂肪酸#NN  ，#PU  它#PN  能#VV  抑制#VV  人体#CD  内#LC  血清#JJ  胆固醇#NN  和#CC  甘油三酯酸#CD  的#DEG  生成#NN  ，#PU  帮助#VV  血管#NN  内皮#NN  细胞#NN  合成#JJ  的#DEG  前列腺素#NN  增多#VV  ，#PU  抑制#VV  血小板#AD  形成#VV  血栓#AD  素#AD  A2#CD  ，#PU  使#VV  血液#NN  粘度#NN  下降#VV  ，#PU  促使#VV  血管#NN  扩张#VV  ，#PU  可以#VV  预防#NN  血#NN  小板#NN  聚集#VV  、#PU  冠状#VV  动脉#NN  痉挛#NN  和#CC  血栓#AD  形成#VV  ，#PU  从而#AD  起到#VV  防治#NN  心脏病#NN  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 大肠#NR, 性寒#NR)  (dep, 大肠#NR, 味酸#NR)  (conj, 大肠#NR, 归肝经#NR)  (nsubj, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (root, ROOT#null, 有#VE)  (nn, 利尿#NR, 清热#NR)  (conj, 利尿#NR, 利湿#NR)  (nn, 利尿#NR, 解毒#NR)  (conj, 利尿#NR, 消肿#NR)  (conj, 利尿#NR, 消炎#NR)  (conj, 利尿#NR, 止渴#NR)  (nn, 作用#NN, 利尿#NR)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 利水#VA)  (dep, 利水#VA, 消肿#VA)  (dep, 利水#VA, 降低#VV)  (dobj, 降低#VV, 血压#NN)
+            (nsubj, 含有#VV, 马齿苋#NN)  (root, ROOT#null, 含有#VV)  (assmod, 钾盐#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 钾盐#NN)  (conj, 含有#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 利水#NN)  (nn, 作用#NN, 消肿#NN)  (dobj, 有#VE, 作用#NN)  (nn, 离子#NN, 钾#NN)  (nsubj, 使#VV, 离子#NN)  (advmod, 使#VV, 还#AD)  (mmod, 使#VV, 可#VV)  (amod, 作用#NN, 直接#JJ)  (dep, 使#VV, 作用#NN)  (case, 壁上#NN, 于#P)  (nn, 壁上#NN, 血管#NN)  (prep, 使#VV, 壁上#NN)  (conj, 含有#VV, 使#VV)  (dobj, 使#VV, 血管#NN)  (dep, 使#VV, 壁#VV)  (dobj, 壁#VV, 扩张#NN)  (dep, 使#VV, 阻止#VV)  (nn, 增厚#NN, 动脉#NN)  (nn, 增厚#NN, 管壁#NN)  (dobj, 阻止#VV, 增厚#NN)  (advmod, 起到#VV, 从而#AD)  (conj, 使#VV, 起到#VV)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+            (root, ROOT#null, 消除#VV)  (dobj, 消除#VV, 尘毒#NN)
+            (nsubj, 消除#VV, 马齿苋#NN)  (xsubj, 淋巴管#VV, 马齿苋#NN)  (mmod, 消除#VV, 能#VV)  (root, ROOT#null, 消除#VV)  (dobj, 消除#VV, 尘毒#NN)  (conj, 消除#VV, 防止#VV)  (ccomp, 防止#VV, 吞噬#VV)  (nn, 坏死#NN, 细胞#NN)  (conj, 坏死#NN, 变性#NN)  (cc, 坏死#NN, 和#CC)  (dobj, 吞噬#VV, 坏死#NN)  (advmod, 防止#VV, 还#AD)  (mmod, 防止#VV, 可以#VV)  (conj, 消除#VV, 防止#VV)  (ccomp, 防止#VV, 淋巴管#VV)  (dobj, 淋巴管#VV, 发炎#NN)  (cc, 淋巴管#VV, 和#CC)  (conj, 淋巴管#VV, 阻止#VV)  (nn, 变化#NN, 纤维性#NN)  (dobj, 阻止#VV, 变化#NN)  (nn, 矽#NN, 杜绝#NN)  (nsubj, 形成#VV, 矽#NN)  (advmod, 形成#VV, 结节#AD)  (conj, 消除#VV, 形成#VV)  (case, 白癜风#NN, 对#P)  (prep, 有#VE, 白癜风#NN)  (advmod, 有#VE, 也#AD)  (dep, 形成#VV, 有#VE)  (assmod, 疗效#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 溃疡#NN)
+            (nsubj, 含有#VV, 马齿觉#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 胡萝卜素#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 含有#VV, 胡萝卜素#NN)  (mmod, 促进#VV, 能#VV)  (dep, 含有#VV, 促进#VV)  (assmod, 愈合#NN, 溃疡病#NN)  (case, 溃疡病#NN, 的#DEG)  (dobj, 促进#VV, 愈合#NN)
+            (nsubj, 消炎#VV, 杀菌#NN)  (root, ROOT#null, 消炎#VV)
+            (nsubj, 有#VE, 马齿苋#NN)  (case, 杆菌#NN, 对#P)  (nn, 杆菌#NN, 痢疾#NN)  (conj, 杆菌#NN, 杆菌#NN)  (nn, 杆菌#NN, 伤寒#NN)  (conj, 杆菌#NN, 杆菌#NN)  (cc, 杆菌#NN, 和#CC)  (nn, 杆菌#NN, 大肠#NN)  (prep, 有#VE, 杆菌#NN)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 较#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 用于#VV, 可#VV)  (dep, 有#VE, 用于#VV)  (det, 炎症#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 治疗#NN, 炎症#NN)  (case, 炎症#NN, 的#DEG)  (nn, 治疗#NN, 辅助#NN)  (dobj, 用于#VV, 治疗#NN)  (advmod, 有#VE, 素#AD)  (dep, 有#VE, 有#VE)  (nn, 抗生素#NN, ``#NR)  (amod, 抗生素#NN, 天然#JJ)  (nn, ''#NN, 抗生素#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 心脏病#NN)
+            (loc, 含有#VV, 马齿苋#NN)  (case, 马齿苋#NN, 中#LC)  (dep, 能#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 脂肪酸#NN, 种#M)  (relcl, 脂肪酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nummod, 3#CD, Y#CD)  (nummod, 脂肪酸#NN, 3#CD)  (dobj, 含有#VV, 脂肪酸#NN)  (nsubj, 能#VV, 它#PN)  (root, ROOT#null, 能#VV)  (nfincl, 胆固醇#NN, 抑制#VV)  (loc, 抑制#VV, 人体#CD)  (case, 人体#CD, 内#LC)  (amod, 胆固醇#NN, 血清#JJ)  (conj, 生成#NN, 胆固醇#NN)  (cc, 生成#NN, 和#CC)  (assmod, 生成#NN, 甘油三酯酸#CD)  (case, 甘油三酯酸#CD, 的#DEG)  (dobj, 能#VV, 生成#NN)  (conj, 能#VV, 帮助#VV)  (nn, 细胞#NN, 血管#NN)  (nn, 细胞#NN, 内皮#NN)  (nn, 前列腺素#NN, 细胞#NN)  (assmod, 前列腺素#NN, 合成#JJ)  (case, 合成#JJ, 的#DEG)  (dobj, 帮助#VV, 前列腺素#NN)  (dep, 帮助#VV, 增多#VV)  (dep, A2#CD, 抑制#VV)  (dep, 抑制#VV, 血小板#AD)  (dep, 抑制#VV, 形成#VV)  (advmod, A2#CD, 血栓#AD)  (advmod, A2#CD, 素#AD)  (conj, 能#VV, A2#CD)  (conj, A2#CD, 使#VV)  (nn, 粘度#NN, 血液#NN)  (dobj, 使#VV, 粘度#NN)  (dep, 使#VV, 下降#VV)  (conj, A2#CD, 促使#VV)  (dobj, 促使#VV, 血管#NN)  (dep, 促使#VV, 扩张#VV)  (conj, A2#CD, 可以#VV)  (nn, 小板#NN, 预防#NN)  (nn, 小板#NN, 血#NN)  (dobj, 可以#VV, 小板#NN)  (conj, A2#CD, 聚集#VV)  (conj, 能#VV, 冠状#VV)  (nn, 痉挛#NN, 动脉#NN)  (dobj, 冠状#VV, 痉挛#NN)  (cc, 能#VV, 和#CC)  (advmod, 形成#VV, 血栓#AD)  (conj, 能#VV, 形成#VV)  (advmod, 起到#VV, 从而#AD)  (conj, 能#VV, 起到#VV)  (nn, 心脏病#NN, 防治#NN)  (assmod, 作用#NN, 心脏病#NN)  (case, 心脏病#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血压  抗菌  清热解毒  凉血  降血脂  强心  利尿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            马齿苋还含有丰富的SL3脂肪酸及维生素A样物质：SL3脂肪酸是形成细胞膜，尤其是脑细胞膜与眼细胞膜所必需的物质；维生素A样物质能维持上皮组织如皮肤、角膜及结合膜的正常机能，参与视紫质的合成，增强视网膜感光性能，也参与体内许多氧化过程。
+        </rawdata>
+
+        <segment>
+            马齿苋  还  含有  丰富  的  SL3  脂肪酸  及  维生素A  样  物质  ：  SL3  脂肪酸  是  形成  细胞膜  ，  尤其是  脑细胞  膜  与  眼  细胞  膜  所  必需  的  物质  ；  维生素A  样  物质  能  维持  上皮  组织  如  皮肤  、  角膜  及  结合膜  的  正常  机能  ，  参与  视紫质  的  合成  ，  增强  视网膜  感光  性能  ，  也  参与  体内  许多  氧化  过程  。
+        </segment>
+
+        <pos>
+            马齿苋#NR  还#AD  含有#VV  丰富#VA  的#DEC  SL3#CD  脂肪酸#NN  及#CC  维生素A#VV  样#NN  物质#NN  ：#PU  SL3#CD  脂肪酸#NN  是#VC  形成#VV  细胞膜#NN  ，#PU  尤其是#AD  脑细胞#NN  膜#VV  与#P  眼#NN  细胞#NN  膜#NN  所#MSP  必需#VV  的#DEC  物质#NN  ；#PU  维生素A#NN  样#NN  物质#NN  能#VV  维持#VV  上皮#NN  组织#NN  如#P  皮肤#NR  、#PU  角膜#NR  及#CC  结合膜#NR  的#DEG  正常#JJ  机能#NN  ，#PU  参与#VV  视紫质#NN  的#DEC  合成#JJ  ，#PU  增强#VV  视网膜#NN  感光#NN  性能#NN  ，#PU  也#AD  参与#VV  体内#NN  许多#CD  氧化#JJ  过程#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 马齿苋#NR)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 脂肪酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nummod, 脂肪酸#NN, SL3#CD)  (dobj, 含有#VV, 脂肪酸#NN)  (cc, 含有#VV, 及#CC)  (conj, 含有#VV, 维生素A#VV)  (nn, 物质#NN, 样#NN)  (dobj, 维生素A#VV, 物质#NN)  (nummod, 脂肪酸#NN, SL3#CD)  (nsubj, 形成#VV, 脂肪酸#NN)  (conj, 形成#VV, 是#VC)  (cop, 形成#VV, 是#VC)  (conj, 含有#VV, 形成#VV)  (dobj, 形成#VV, 细胞膜#NN)  (advmod, 脑细胞#NN, 尤其是#AD)  (nsubj, 膜#VV, 脑细胞#NN)  (conj, 含有#VV, 膜#VV)  (case, 膜#NN, 与#P)  (nn, 膜#NN, 眼#NN)  (nn, 膜#NN, 细胞#NN)  (prep, 必需#VV, 膜#NN)  (prtmod, 必需#VV, 所#MSP)  (relcl, 物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 膜#VV, 物质#NN)  (nn, 物质#NN, 维生素A#NN)  (nn, 物质#NN, 样#NN)  (nsubj, 维持#VV, 物质#NN)  (mmod, 维持#VV, 能#VV)  (conj, 含有#VV, 维持#VV)  (nn, 组织#NN, 上皮#NN)  (nn, 机能#NN, 组织#NN)  (case, 结合膜#NR, 如#P)  (conj, 结合膜#NR, 皮肤#NR)  (conj, 结合膜#NR, 角膜#NR)  (cc, 结合膜#NR, 及#CC)  (assmod, 机能#NN, 结合膜#NR)  (case, 结合膜#NR, 的#DEG)  (amod, 机能#NN, 正常#JJ)  (dobj, 维持#VV, 机能#NN)  (nsubj, 合成#JJ, 参与#VV)  (dobj, 参与#VV, 视紫质#NN)  (mark, 参与#VV, 的#DEC)  (conj, 含有#VV, 合成#JJ)  (dep, 合成#JJ, 增强#VV)  (nn, 性能#NN, 视网膜#NN)  (nn, 性能#NN, 感光#NN)  (dobj, 增强#VV, 性能#NN)  (advmod, 参与#VV, 也#AD)  (conj, 合成#JJ, 参与#VV)  (nn, 过程#NN, 体内#NN)  (nummod, 过程#NN, 许多#CD)  (amod, 过程#NN, 氧化#JJ)  (dobj, 参与#VV, 过程#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            马齿苋作为一种野菜，中国老百姓食用已久，确实别具风味。夏秋季节，采拔茎叶茂盛、幼嫩多汁者，除去根部，洗后烫软，将汁轻轻挤出，拌人食盐、米醋、酱油、生姜、大蒜、麻油等佐料和调味品，做凉菜吃，味道鲜美，滑润可口。也可烙饼，做馅蒸食。我国许多地方的群众，至今还有将马齿苋洗净，烫过，切碎，晒干，贮为冬菜食用的习惯。
+        </rawdata>
+
+        <segment>
+            马齿苋  作为  一  种  野菜  ，  中国  老百姓  食用  已久  ，  确实  别  具  风味  。  夏秋  季节  ，  采拔茎  叶茂盛  、  幼嫩  多汁者  ，  除去  根部  ，  洗后  烫  软  ，  将  汁  轻轻  挤出  ，  拌人  食盐  、  米醋  、  酱油  、  生姜  、  大蒜  、  麻油  等  佐料  和  调味品  ，  做  凉菜  吃  ，  味道  鲜美  ，  滑润  可口  。  也  可  烙饼  ，  做馅  蒸食  。  我国  许多  地方  的  群众  ，  至今  还有  将  马齿苋  洗净  ，  烫过  ，  切碎  ，  晒干  ，  贮为  冬菜  食用  的  习惯  。
+        </segment>
+
+        <pos>
+            马齿苋#VV  作为#P  一#CD  种#M  野菜#NN  ，#PU  中国#NR  老百姓#NN  食用#VV  已久#NN  ，#PU  确实#AD  别#DT  具#VV  风味#NN    。#PU  夏秋#NN  季节#NN  ，#PU  采拔茎#NR  叶茂盛#NR  、#PU  幼嫩#NR  多汁者#VV  ，#PU  除去#P  根部#NN  ，#PU  洗后#NN  烫#VV  软#VA  ，#PU  将#AD  汁#AD  轻轻#AD  挤出#VV  ，#PU  拌人#VV  食盐#NR  、#PU  米醋#NR  、#PU  酱油#NR  、#PU  生姜#NR  、#PU  大蒜#NR  、#PU  麻油#NR  等#ETC  佐料#NN  和#CC  调味品#NN  ，#PU  做#VV  凉菜#NN  吃#VV  ，#PU  味道#NN  鲜美#NN  ，#PU  滑润#AD  可口#VV    。#PU  也#AD  可#VV  烙饼#VV  ，#PU  做馅#VV  蒸食#NN    。#PU  我国#NN  许多#CD  地方#NN  的#DEG  群众#NN  ，#PU  至今#AD  还有#AD  将#AD  马齿苋#VV  洗净#NN  ，#PU  烫过#NR  ，#PU  切碎#VV  ，#PU  晒干#NN  ，#PU  贮为#AD  冬菜#VV  食用#VV  的#DEC  习惯#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 马齿苋#VV)  (case, 野菜#NN, 作为#P)  (nummod, 种#M, 一#CD)  (clf, 野菜#NN, 种#M)  (prep, 食用#VV, 野菜#NN)  (nn, 老百姓#NN, 中国#NR)  (nsubj, 食用#VV, 老百姓#NN)  (ccomp, 马齿苋#VV, 食用#VV)  (dobj, 食用#VV, 已久#NN)  (advmod, 具#VV, 确实#AD)  (dep, 具#VV, 别#DT)  (conj, 食用#VV, 具#VV)  (dobj, 具#VV, 风味#NN)   (nn, 季节#NN, 夏秋#NN)  (nsubj, 多汁者#VV, 季节#NN)  (nsubj, 多汁者#VV, 采拔茎#NR)  (conj, 幼嫩#NR, 叶茂盛#NR)  (nsubj, 多汁者#VV, 幼嫩#NR)  (root, ROOT#null, 多汁者#VV)  (case, 根部#NN, 除去#P)  (prep, 烫#VV, 根部#NN)  (nsubj, 烫#VV, 洗后#NN)  (ccomp, 多汁者#VV, 烫#VV)  (dep, 烫#VV, 软#VA)  (advmod, 挤出#VV, 将#AD)  (advmod, 挤出#VV, 汁#AD)  (advmod, 挤出#VV, 轻轻#AD)  (conj, 烫#VV, 挤出#VV)  (dep, 烫#VV, 拌人#VV)  (conj, 麻油#NR, 食盐#NR)  (conj, 麻油#NR, 米醋#NR)  (conj, 麻油#NR, 酱油#NR)  (conj, 麻油#NR, 生姜#NR)  (conj, 麻油#NR, 大蒜#NR)  (nn, 调味品#NN, 麻油#NR)  (etc, 麻油#NR, 等#ETC)  (conj, 调味品#NN, 佐料#NN)  (cc, 调味品#NN, 和#CC)  (dobj, 拌人#VV, 调味品#NN)  (conj, 烫#VV, 做#VV)  (dobj, 做#VV, 凉菜#NN)  (conj, 做#VV, 吃#VV)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 可口#VV, 鲜美#NN)  (advmod, 可口#VV, 滑润#AD)  (conj, 烫#VV, 可口#VV)   (advmod, 烙饼#VV, 也#AD)  (dep, 烙饼#VV, 可#VV)  (root, ROOT#null, 烙饼#VV)  (dep, 烙饼#VV, 做馅#VV)  (dobj, 做馅#VV, 蒸食#NN)   (nsubj, 马齿苋#VV, 我国#NN)  (nummod, 地方#NN, 许多#CD)  (assmod, 群众#NN, 地方#NN)  (case, 地方#NN, 的#DEG)  (nsubj, 马齿苋#VV, 群众#NN)  (advmod, 马齿苋#VV, 至今#AD)  (advmod, 马齿苋#VV, 还有#AD)  (advmod, 马齿苋#VV, 将#AD)  (root, ROOT#null, 马齿苋#VV)  (dobj, 马齿苋#VV, 洗净#NN)  (nsubj, 切碎#VV, 烫过#NR)  (conj, 马齿苋#VV, 切碎#VV)  (nsubj, 冬菜#VV, 晒干#NN)  (advmod, 冬菜#VV, 贮为#AD)  (ccomp, 切碎#VV, 冬菜#VV)  (relcl, 习惯#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (dobj, 冬菜#VV, 习惯#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071026037924.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\198 马齿苋.jpg
+    </picturelocalurl>
+
+</content>

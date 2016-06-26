@@ -1,0 +1,214 @@
+<content>
+
+    <id>
+        239
+    </id>
+
+    <foodname>
+        红椒
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        甜椒、番椒
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝火旺盛者不宜多食。
+        </rawdata>
+
+        <segment>
+            肝火  旺盛  者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            肝火#AD  旺盛#VA  者#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 旺盛#VA, 肝火#AD)  (relcl, 者#NN, 旺盛#VA)  (nsubj, 多#VV, 者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为茄科植物番椒的果实，一年生或多年生草本。茎直立，多分枝。单叶互生，叶片广卵形，先端渐尖，叶柄较长。花单生于叶腋内，花冠黄色或绿色。果实球形，外具瓣状突起，有红色、绿色和黄色三种。种子扁圆形，淡黄色。花期夏季。原产于中南美洲。16世纪由墨西哥传入欧洲后，广布于法国、西班牙、意大利和匈牙利。我国各地均有栽培。
+        </rawdata>
+
+        <segment>
+            为  茄科  植物  番椒  的  果实  ，  一  年  生  或  多年生  草本  。  茎  直立  ，  多  分枝  。  单叶  互生  ，  叶片  广  卵形  ，  先端  渐  尖  ，  叶柄  较  长  。  花  单  生于  叶腋内  ，  花冠  黄色  或  绿色  。  果实  球形  ，  外具  瓣状  突起  ，  有  红色  、  绿色  和  黄色  三  种  。  种子  扁圆形  ，  淡黄色  。  花期  夏季  。  原产  于  中南美洲  。  16  世纪  由  墨西哥  传入  欧洲  后  ，  广布  于  法国  、  西班牙  、  意大利  和  匈牙利  。  我国  各地  均  有  栽培  。
+        </segment>
+
+        <pos>
+            为#P  茄科#VV  植物#NN  番椒#NN  的#DEG  果实#NN  ，#PU  一#CD  年#M  生#VV  或#CC  多年生#VV  草本#NN    。#PU  茎#NR  直立#VV  ，#PU  多#AD  分枝#VV    。#PU  单叶#NR  互生#VV  ，#PU  叶片#NN  广#AD  卵形#VA  ，#PU  先端#NN  渐#AD  尖#VA  ，#PU  叶柄#NN  较#AD  长#VA    。#PU  花#NN  单#CD  生于#NN  叶腋内#VV  ，#PU  花冠#NN  黄色#JJ  或#CC  绿色#JJ    。#PU  果实#NN  球形#VV  ，#PU  外具#NN  瓣状#NN  突起#NN  ，#PU  有#VE  红色#JJ  、#PU  绿色#JJ  和#CC  黄色#JJ  三#CD  种#NN    。#PU  种子#NN  扁圆形#VV  ，#PU  淡黄色#VV    。#PU  花期#VV  夏季#NT    。#PU  原产#VV  于#P  中南美洲#NR    。#PU  16#CD  世纪#NN  由#P  墨西哥#NR  传入#VV  欧洲#NR  后#LC  ，#PU  广布#VV  于#P  法国#NR  、#PU  西班牙#NR  、#PU  意大利#NR  和#CC  匈牙利#NR    。#PU  我国#NN  各地#NN  均#AD  有#VE  栽培#VV    。#PU
+        </pos>
+
+        <parsing>
+            (case, 茄科#VV, 为#P)  (prep, 生#VV, 茄科#VV)  (nn, 番椒#NN, 植物#NN)  (assmod, 果实#NN, 番椒#NN)  (case, 番椒#NN, 的#DEG)  (dobj, 茄科#VV, 果实#NN)  (nummod, 年#M, 一#CD)  (conj, 茄科#VV, 年#M)  (root, ROOT#null, 生#VV)  (cc, 生#VV, 或#CC)  (dep, 生#VV, 多年生#VV)  (dobj, 多年生#VV, 草本#NN)   (nsubj, 直立#VV, 茎#NR)  (xsubj, 分枝#VV, 茎#NR)  (root, ROOT#null, 直立#VV)  (advmod, 分枝#VV, 多#AD)  (ccomp, 直立#VV, 分枝#VV)   (nsubj, 互生#VV, 单叶#NR)  (root, ROOT#null, 互生#VV)  (nsubj, 卵形#VA, 叶片#NN)  (advmod, 卵形#VA, 广#AD)  (ccomp, 互生#VV, 卵形#VA)  (nsubj, 尖#VA, 先端#NN)  (advmod, 尖#VA, 渐#AD)  (conj, 卵形#VA, 尖#VA)  (nsubj, 长#VA, 叶柄#NN)  (advmod, 长#VA, 较#AD)  (conj, 卵形#VA, 长#VA)   (nn, 生于#NN, 花#NN)  (nummod, 生于#NN, 单#CD)  (nsubj, 叶腋内#VV, 生于#NN)  (root, ROOT#null, 叶腋内#VV)  (nsubj, 黄色#JJ, 花冠#NN)  (conj, 叶腋内#VV, 黄色#JJ)  (cc, 黄色#JJ, 或#CC)  (dep, 黄色#JJ, 绿色#JJ)   (nsubj, 球形#VV, 果实#NN)  (root, ROOT#null, 球形#VV)  (nn, 突起#NN, 外具#NN)  (nn, 突起#NN, 瓣状#NN)  (dep, 有#VE, 突起#NN)  (ccomp, 球形#VV, 有#VE)  (amod, 种#NN, 红色#JJ)  (amod, 种#NN, 绿色#JJ)  (cc, 绿色#JJ, 和#CC)  (dep, 绿色#JJ, 黄色#JJ)  (nummod, 种#NN, 三#CD)  (dobj, 有#VE, 种#NN)   (nsubj, 扁圆形#VV, 种子#NN)  (root, ROOT#null, 扁圆形#VV)  (ccomp, 扁圆形#VV, 淡黄色#VV)   (root, ROOT#null, 花期#VV)  (dobj, 花期#VV, 夏季#NT)   (root, ROOT#null, 原产#VV)  (case, 中南美洲#NR, 于#P)  (prep, 原产#VV, 中南美洲#NR)   (nummod, 世纪#NN, 16#CD)  (nsubj, 广布#VV, 世纪#NN)  (case, 墨西哥#NR, 由#P)  (prep, 传入#VV, 墨西哥#NR)  (loc, 广布#VV, 传入#VV)  (dobj, 传入#VV, 欧洲#NR)  (case, 传入#VV, 后#LC)  (root, ROOT#null, 广布#VV)  (case, 匈牙利#NR, 于#P)  (conj, 匈牙利#NR, 法国#NR)  (conj, 匈牙利#NR, 西班牙#NR)  (conj, 匈牙利#NR, 意大利#NR)  (cc, 匈牙利#NR, 和#CC)  (prep, 广布#VV, 匈牙利#NR)   (nn, 各地#NN, 我国#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.预防心血管疾病
+            可改善黑斑及雀斑，还有消暑、补血、消除疲劳、预防感冒和促进血液循环等功效，能够使血液中的良好胆固醇增加，使血管强健，使血液循环转為良好，改善动脉硬化以及各种的心血管疾病。
+            2.促进新陈代谢
+            其中的椒类碱能够促进脂肪的新陈代谢，防止体内脂肪积存，从而减肥防病。
+            3.抗老化
+            红甜椒所具有的强大抗氧化作用，可抗白内障、心脏病和癌症，防止身体老化，并且使体内的细胞活化，有著非常明显的效果。
+        </rawdata>
+
+        <segment>
+            预防  心  血管  疾病
+            可改善  黑斑  及  雀斑  ，  还有  消暑  、  补血  、  消除  疲劳  、  预防  感冒  和  促进  血液  循环  等  功效  ，  能够  使  血液  中  的  良好  胆固醇  增加  ，  使  血管  强健  ，  使  血液  循环  转為  良好  ，  改善  动脉  硬化  以及  各  种  的  心血管  疾病  。
+            促进  新陈代谢
+            其中  的  椒类  碱  能够  促进  脂肪  的  新陈代谢  ，  防止  体内  脂肪  积存  ，  从而  减肥  防病  。
+            抗  老化
+            红  甜椒  所  具有  的  强大  抗氧化  作用  ，  可  抗  白内障  、  心脏病  和  癌症  ，  防止  身体  老化  ，  并且  使  体内  的  细胞  活化  ，  有著  非常  明显  的  效果  。
+        </segment>
+
+        <pos>
+            预防#VV  心#NN  血管#NN  疾病#NN
+            可改善#VV  黑斑#NR  及#CC  雀斑#NR  ，#PU  还有#AD  消暑#NN  、#PU  补血#NN  、#PU  消除#VV  疲劳#VA  、#PU  预防#VV  感冒#NN  和#CC  促进#VV  血液#NN  循环#NN  等#ETC  功效#NN  ，#PU  能够#VV  使#VV  血液#NN  中#LC  的#DEG  良好#JJ  胆固醇#NN  增加#VV  ，#PU  使#VV  血管#NN  强健#NN  ，#PU  使#VV  血液#NN  循环#NN  转為#NN  良好#VA  ，#PU  改善#VV  动脉#NN  硬化#NN  以及#CC  各#DT  种#M  的#DEG  心血管#NN  疾病#NN  。#PU
+            促进#VV  新陈代谢#NN
+            其中#NN  的#DEG  椒类#NN  碱#VV  能够#VV  促进#VV  脂肪#NN  的#DEC  新陈代谢#NN  ，#PU  防止#VV  体内#NN  脂肪#NN  积存#NN  ，#PU  从而#AD  减肥#VV  防病#NN  。#PU
+            抗#NN  老化#VV
+            红#JJ  甜椒#NN  所#MSP  具有#VV  的#DEC  强大#JJ  抗氧化#NN  作用#NN  ，#PU  可#VV  抗#VV  白内障#NN  、#PU  心脏病#NN  和#CC  癌症#NN  ，#PU  防止#VV  身体#NN  老化#NN  ，#PU  并且#CC  使#VV  体内#NN  的#DEG  细胞#NN  活化#NN  ，#PU  有著#VV  非常#AD  明显#VA  的#DEC  效果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 可改善#VV)  (conj, 雀斑#NR, 黑斑#NR)  (cc, 雀斑#NR, 及#CC)  (dep, 补血#NN, 雀斑#NR)  (advmod, 补血#NN, 还有#AD)  (conj, 补血#NN, 消暑#NN)  (dobj, 可改善#VV, 补血#NN)  (conj, 可改善#VV, 消除#VV)  (nfincl, 功效#NN, 疲劳#VA)  (conj, 疲劳#VA, 预防#VV)  (dobj, 预防#VV, 感冒#NN)  (cc, 疲劳#VA, 和#CC)  (conj, 疲劳#VA, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (etc, 循环#NN, 等#ETC)  (dobj, 消除#VV, 功效#NN)  (mmod, 使#VV, 能够#VV)  (conj, 可改善#VV, 使#VV)  (assmod, 胆固醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (amod, 胆固醇#NN, 良好#JJ)  (dobj, 使#VV, 胆固醇#NN)  (dep, 使#VV, 增加#VV)  (conj, 可改善#VV, 使#VV)  (nn, 强健#NN, 血管#NN)  (dobj, 使#VV, 强健#NN)  (dep, 使#VV, 使#VV)  (nn, 转為#NN, 血液#NN)  (nn, 转為#NN, 循环#NN)  (dobj, 使#VV, 转為#NN)  (dep, 使#VV, 良好#VA)  (conj, 使#VV, 改善#VV)  (nn, 硬化#NN, 动脉#NN)  (conj, 疾病#NN, 硬化#NN)  (cc, 疾病#NN, 以及#CC)  (assmod, 疾病#NN, 各#DT)  (clf, 各#DT, 种#M)  (case, 各#DT, 的#DEG)  (nn, 疾病#NN, 心血管#NN)  (dobj, 改善#VV, 疾病#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)
+            (assmod, 椒类#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nsubj, 碱#VV, 椒类#NN)  (root, ROOT#null, 碱#VV)  (mmod, 促进#VV, 能够#VV)  (relcl, 新陈代谢#NN, 促进#VV)  (dobj, 促进#VV, 脂肪#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 碱#VV, 新陈代谢#NN)  (conj, 碱#VV, 防止#VV)  (nn, 积存#NN, 体内#NN)  (nn, 积存#NN, 脂肪#NN)  (nsubj, 减肥#VV, 积存#NN)  (advmod, 减肥#VV, 从而#AD)  (ccomp, 防止#VV, 减肥#VV)  (dobj, 减肥#VV, 防病#NN)
+            (nsubj, 老化#VV, 抗#NN)  (root, ROOT#null, 老化#VV)
+            (amod, 甜椒#NN, 红#JJ)  (nsubj, 具有#VV, 甜椒#NN)  (prtmod, 具有#VV, 所#MSP)  (relcl, 作用#NN, 具有#VV)  (mark, 具有#VV, 的#DEC)  (amod, 抗氧化#NN, 强大#JJ)  (nn, 作用#NN, 抗氧化#NN)  (nsubj, 抗#VV, 作用#NN)  (mmod, 抗#VV, 可#VV)  (root, ROOT#null, 抗#VV)  (conj, 癌症#NN, 白内障#NN)  (conj, 癌症#NN, 心脏病#NN)  (cc, 癌症#NN, 和#CC)  (dobj, 抗#VV, 癌症#NN)  (conj, 抗#VV, 防止#VV)  (nn, 老化#NN, 身体#NN)  (dobj, 防止#VV, 老化#NN)  (cc, 抗#VV, 并且#CC)  (conj, 抗#VV, 使#VV)  (assmod, 活化#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 活化#NN, 细胞#NN)  (dobj, 使#VV, 活化#NN)  (dep, 使#VV, 有著#VV)  (advmod, 明显#VA, 非常#AD)  (relcl, 效果#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 有著#VV, 效果#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        减肥  促进消化  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            味甘，性温。果皮部分含有多种矿物质及维生素C、蛋白质、食用纤维等，种子则含有辣椒碱。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性温  。  果皮  部分  含有  多  种  矿物质  及  维生素C  、  蛋白质  、  食用  纤维  等  ，  种子  则  含有  辣椒碱  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性温#VV    。#PU  果皮#NN  部分#NN  含有#VV  多#CD  种#M  矿物质#NN  及#CC  维生素C#NN  、#PU  蛋白质#NN  、#PU  食用#VV  纤维#NN  等#ETC  ，#PU  种子#NN  则#AD  含有#VV  辣椒碱#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性温#VV)   (nn, 部分#NN, 果皮#NN)  (nsubj, 含有#VV, 部分#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 蛋白质#NN, 种#M)  (conj, 蛋白质#NN, 矿物质#NN)  (cc, 蛋白质#NN, 及#CC)  (conj, 蛋白质#NN, 维生素C#NN)  (dobj, 含有#VV, 蛋白质#NN)  (conj, 含有#VV, 食用#VV)  (dobj, 食用#VV, 纤维#NN)  (etc, 纤维#NN, 等#ETC)  (nsubj, 含有#VV, 种子#NN)  (advmod, 含有#VV, 则#AD)  (conj, 含有#VV, 含有#VV)  (dobj, 含有#VV, 辣椒碱#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.柿子椒适用于炒、拌、炝做菜，如“五彩鸡丁”、“青椒炒肉丝”、“糖醋青椒”等;
+            2.维生素C不耐热，易被破坏，在铜器中更是如此，所以避免使用铜质餐具;
+            3.在切辣椒时，先将刀在冷水中蘸一下，再切就不会辣眼睛了;
+            4.青椒独特的造型与生长姿势，是喷洒过的农药都积累在其凹陷的果蒂上，因此清洗时应先去蒂。
+        </rawdata>
+
+        <segment>
+            柿子椒  适用  于  炒  、  拌  、  炝做菜  ，  如  “  五彩  鸡丁  ”  、  “  青椒炒肉  丝  ”  、  “  糖醋  青椒  ”  等  ;
+            维生素C  不  耐热  ，  易被  破坏  ，  在  铜器  中  更  是  如此  ，  所以  避免  使用  铜质  餐具  ;
+            在  切  辣椒  时  ，  先  将  刀  在  冷水  中蘸  一下  ，  再  切  就  不  会  辣  眼睛  了  ;
+            青椒  独特  的  造型  与  生长  姿势  ，  是  喷洒  过  的  农药  都  积累  在  其  凹陷  的  果蒂  上  ，  因此  清洗  时  应  先  去蒂  。
+        </segment>
+
+        <pos>
+            柿子椒#NN  适用#VV  于#P  炒#NR  、#PU  拌#NR  、#PU  炝做菜#NR  ，#PU  如#AD  ``#VV  五彩#CD  鸡丁#NN  ''#NN  、#PU  ``#NR  青椒炒肉#NR  丝#NN  ''#NN  、#PU  ``#NN  糖醋#NN  青椒#NN  ''#NN  等#ETC  ;#NN
+            维生素C#NR  不#AD  耐热#VV  ，#PU  易被#NN  破坏#VV  ，#PU  在#P  铜器#NN  中#LC  更#AD  是#VC  如此#PN  ，#PU  所以#AD  避免#VV  使用#VV  铜质#NN  餐具#NN  ;#NN
+            在#P  切#VV  辣椒#NN  时#LC  ，#PU  先#AD  将#BA  刀#NN  在#P  冷水#NR  中蘸#VV  一下#AD  ，#PU  再#AD  切#VV  就#AD  不#AD  会#VV  辣#VV  眼睛#NN  了#AS  ;#NN
+            青椒#AD  独特#VA  的#DEC  造型#NN  与#CC  生长#NN  姿势#VV  ，#PU  是#VC  喷洒#VV  过#AS  的#DEC  农药#NN  都#AD  积累#VV  在#P  其#PN  凹陷#VV  的#DEC  果蒂#NN  上#LC  ，#PU  因此#AD  清洗#NN  时#LC  应#VV  先#AD  去蒂#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适用#VV, 柿子椒#NN)  (root, ROOT#null, 适用#VV)  (case, 炝做菜#NR, 于#P)  (conj, 炝做菜#NR, 炒#NR)  (conj, 炝做菜#NR, 拌#NR)  (prep, ``#VV, 炝做菜#NR)  (advmod, ``#VV, 如#AD)  (nfincl, ''#NN, ``#VV)  (nummod, 鸡丁#NN, 五彩#CD)  (dobj, ``#VV, 鸡丁#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 青椒炒肉#NR)  (nn, ''#NN, 丝#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 糖醋#NN)  (nn, ''#NN, 青椒#NN)  (nn, ;#NN, ''#NN)  (etc, ''#NN, 等#ETC)  (dobj, 适用#VV, ;#NN)
+            (nsubj, 耐热#VV, 维生素C#NR)  (neg, 耐热#VV, 不#AD)  (root, ROOT#null, 耐热#VV)  (nsubj, 破坏#VV, 易被#NN)  (ccomp, 耐热#VV, 破坏#VV)  (case, 铜器#NN, 在#P)  (prep, 如此#PN, 铜器#NN)  (case, 铜器#NN, 中#LC)  (advmod, 如此#PN, 更#AD)  (cop, 如此#PN, 是#VC)  (dep, 破坏#VV, 如此#PN)  (advmod, 避免#VV, 所以#AD)  (conj, 破坏#VV, 避免#VV)  (ccomp, 避免#VV, 使用#VV)  (nn, ;#NN, 铜质#NN)  (nn, ;#NN, 餐具#NN)  (dobj, 使用#VV, ;#NN)
+            (case, 切#VV, 在#P)  (prep, 中蘸#VV, 切#VV)  (dobj, 切#VV, 辣椒#NN)  (case, 切#VV, 时#LC)  (advmod, 中蘸#VV, 先#AD)  (ba, 中蘸#VV, 将#BA)  (nsubj, 中蘸#VV, 刀#NN)  (case, 冷水#NR, 在#P)  (prep, 中蘸#VV, 冷水#NR)  (root, ROOT#null, 中蘸#VV)  (advmod, 中蘸#VV, 一下#AD)  (advmod, 辣#VV, 再#AD)  (mmod, 辣#VV, 切#VV)  (advmod, 辣#VV, 就#AD)  (neg, 辣#VV, 不#AD)  (mmod, 辣#VV, 会#VV)  (dep, 中蘸#VV, 辣#VV)  (dobj, 辣#VV, 眼睛#NN)  (asp, 辣#VV, 了#AS)  (dobj, 辣#VV, ;#NN)
+            (advmod, 独特#VA, 青椒#AD)  (relcl, 生长#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (conj, 生长#NN, 造型#NN)  (cc, 生长#NN, 与#CC)  (nsubj, 姿势#VV, 生长#NN)  (root, ROOT#null, 姿势#VV)  (cop, 喷洒#VV, 是#VC)  (relcl, 农药#NN, 喷洒#VV)  (asp, 喷洒#VV, 过#AS)  (mark, 喷洒#VV, 的#DEC)  (nsubj, 积累#VV, 农药#NN)  (advmod, 积累#VV, 都#AD)  (ccomp, 姿势#VV, 积累#VV)  (case, 果蒂#NN, 在#P)  (nsubj, 凹陷#VV, 其#PN)  (relcl, 果蒂#NN, 凹陷#VV)  (mark, 凹陷#VV, 的#DEC)  (prep, 积累#VV, 果蒂#NN)  (case, 果蒂#NN, 上#LC)  (advmod, 去蒂#VV, 因此#AD)  (loc, 去蒂#VV, 清洗#NN)  (case, 清洗#NN, 时#LC)  (mmod, 去蒂#VV, 应#VV)  (advmod, 去蒂#VV, 先#AD)  (conj, 积累#VV, 去蒂#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101339026860.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\239 红椒.jpg
+    </picturelocalurl>
+
+</content>

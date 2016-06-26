@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        230
+    </id>
+
+    <foodname>
+        豇豆
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        豆角、江豆、长豆角、带豆、饭豆、腰豆、裙带豆、架豆、姜豆
+    </alias>
+
+    <season>
+        6-9月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            气滞便结者慎食。
+        </rawdata>
+
+        <segment>
+            气滞  便结  者  慎食  。
+        </segment>
+
+        <pos>
+            气滞#NN  便结#VV  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 便结#VV, 气滞#NN)  (root, ROOT#null, 便结#VV)  (nn, 慎食#NN, 者#NN)  (dobj, 便结#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜糖尿病、肾虚、尿频、遗精及一些妇科功能性疾病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  糖尿病  、  肾虚  、  尿频  、  遗精  及  一些  妇科  功能性  疾病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  糖尿病#NN  、#PU  肾虚#NR  、#PU  尿频#NR  、#PU  遗精#NR  及#CC  一些#CD  妇科#NN  功能性#NN  疾病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 妇科#NN, 糖尿病#NN)  (conj, 遗精#NR, 肾虚#NR)  (conj, 遗精#NR, 尿频#NR)  (conj, 妇科#NN, 遗精#NR)  (cc, 妇科#NN, 及#CC)  (nummod, 妇科#NN, 一些#CD)  (nn, 疾病#NN, 妇科#NN)  (nn, 疾病#NN, 功能性#NN)  (nn, 患者#NN, 疾病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                120
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                75.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                145
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                90.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豇豆，属于豆科植物豇豆的种子，一年生缠绕草本，原产于印度和缅甸，是世界上最古老的蔬菜作物之一，豇豆在中国主要产地为山西、山东、陕西等地。豇豆子熟后呈肾脏形，有黑、白、红、紫、褐等各种颜色。作蔬菜食用的豇豆品种很多，根据荚的皮色不同分成白皮豇、青皮豇、花皮豇、红皮豇等，根据各品种对光照长短的不同反应，对光照长短反应不敏感的品种有红嘴燕等，对光照长短反应敏感的有上海、扬州的毛芋豇，苏州、无锡栽培的北京豇等品种；种子入药，能健胃补气、滋养消食。
+        </rawdata>
+
+        <segment>
+            豇豆  ，  属于  豆科  植物  豇豆  的  种子  ，  一  年  生  缠绕  草本  ，  原  产于  印度  和  缅甸  ，  是  世界  上  最  古老  的  蔬菜  作物  之一  ，  豇豆  在  中国  主要  产地  为  山西  、  山东  、  陕西  等  地  。  豇豆  子熟  后  呈  肾脏  形  ，  有  黑  、  白  、  红  、  紫  、  褐等  各  种  颜色  。  作  蔬菜  食用  的  豇豆  品种  很多  ，  根据荚  的  皮色  不同  分成  白皮豇  、  青皮豇  、  花皮豇  、  红皮豇  等  ，  根据  各  品种  对  光照  长短  的  不同  反应  ，  对  光照  长短  反应  不  敏感  的  品种  有  红  嘴  燕  等  ，  对光  照  长短  反应  敏感  的  有  上海  、  扬州  的  毛芋豇  ，  苏州  、  无锡  栽培  的  北京  豇等  品种  ；  种子  入药  ，  能  健胃  补气  、  滋养  消食  。
+        </segment>
+
+        <pos>
+            豇豆#VV  ，#PU  属于#VV  豆科#NN  植物#NN  豇豆#NN  的#DEC  种子#NN  ，#PU  一#CD  年#M  生#VV  缠绕#NN  草本#NN  ，#PU  原#AD  产于#VV  印度#NR  和#CC  缅甸#NR  ，#PU  是#VC  世界#NN  上#LC  最#AD  古老#VA  的#DEC  蔬菜#NN  作物#NN  之一#NN  ，#PU  豇豆#AD  在#P  中国#NR  主要#JJ  产地#NN  为#VV  山西#NR  、#PU  山东#NR  、#PU  陕西#NR  等#ETC  地#NN    。#PU  豇豆#NN  子熟#NN  后#LC  呈#VV  肾脏#NN  形#VV  ，#PU  有#VE  黑#VA  、#PU  白#VA  、#PU  红#VA  、#PU  紫#VA  、#PU  褐等#VA  各#DT  种#M  颜色#NN    。#PU  作#VV  蔬菜#NN  食用#VV  的#DEC  豇豆#NN  品种#NN  很多#CD  ，#PU  根据荚#NR  的#DEG  皮色#NN  不同#VA  分成#VV  白皮豇#NR  、#PU  青皮豇#NR  、#PU  花皮豇#NR  、#PU  红皮豇#NR  等#ETC  ，#PU  根据#P  各#DT  品种#NN  对#P  光照#VV  长短#NR  的#DEG  不同#JJ  反应#NN  ，#PU  对#P  光照#NN  长短#NN  反应#NN  不#AD  敏感#VA  的#DEC  品种#NN  有#VE  红#JJ  嘴#NN  燕#NN  等#ETC  ，#PU  对光#NR  照#NR  长短#NN  反应#NN  敏感#VA  的#DEV  有#VE  上海#NR  、#PU  扬州#NR  的#DEG  毛芋豇#NN  ，#PU  苏州#NR  、#PU  无锡#NR  栽培#VV  的#DEC  北京#NR  豇等#NN  品种#NN  ；#PU  种子#NN  入药#NN  ，#PU  能#VV  健胃#NN  补气#NN  、#PU  滋养#NN  消食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 豇豆#VV)  (relcl, 种子#NN, 属于#VV)  (nn, 豇豆#NN, 豆科#NN)  (nn, 豇豆#NN, 植物#NN)  (dobj, 属于#VV, 豇豆#NN)  (mark, 属于#VV, 的#DEC)  (nsubj, 生#VV, 种子#NN)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (ccomp, 豇豆#VV, 生#VV)  (nn, 草本#NN, 缠绕#NN)  (dobj, 生#VV, 草本#NN)  (advmod, 产于#VV, 原#AD)  (conj, 生#VV, 产于#VV)  (conj, 缅甸#NR, 印度#NR)  (cc, 缅甸#NR, 和#CC)  (dobj, 产于#VV, 缅甸#NR)  (cop, 之一#NN, 是#VC)  (loc, 古老#VA, 世界#NN)  (case, 世界#NN, 上#LC)  (advmod, 古老#VA, 最#AD)  (relcl, 之一#NN, 古老#VA)  (mark, 古老#VA, 的#DEC)  (nn, 之一#NN, 蔬菜#NN)  (nn, 之一#NN, 作物#NN)  (conj, 生#VV, 之一#NN)  (advmod, 为#VV, 豇豆#AD)  (case, 产地#NN, 在#P)  (nn, 产地#NN, 中国#NR)  (amod, 产地#NN, 主要#JJ)  (prep, 为#VV, 产地#NN)  (conj, 生#VV, 为#VV)  (conj, 陕西#NR, 山西#NR)  (conj, 陕西#NR, 山东#NR)  (nn, 地#NN, 陕西#NR)  (etc, 陕西#NR, 等#ETC)  (dobj, 为#VV, 地#NN)   (nsubj, 呈#VV, 豇豆#NN)  (loc, 呈#VV, 子熟#NN)  (case, 子熟#NN, 后#LC)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 肾脏#NN)  (conj, 呈#VV, 形#VV)  (conj, 呈#VV, 有#VE)  (nfincl, 颜色#NN, 黑#VA)  (conj, 黑#VA, 白#VA)  (conj, 黑#VA, 红#VA)  (conj, 黑#VA, 紫#VA)  (dep, 黑#VA, 褐等#VA)  (det, 颜色#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 有#VE, 颜色#NN)   (relcl, 品种#NN, 作#VV)  (dobj, 作#VV, 蔬菜#NN)  (conj, 作#VV, 食用#VV)  (mark, 作#VV, 的#DEC)  (nn, 品种#NN, 豇豆#NN)  (nsubj, 很多#CD, 品种#NN)  (root, ROOT#null, 很多#CD)  (assmod, 皮色#NN, 根据荚#NR)  (case, 根据荚#NR, 的#DEG)  (nsubj, 不同#VA, 皮色#NN)  (conj, 很多#CD, 不同#VA)  (dep, 不同#VA, 分成#VV)  (conj, 红皮豇#NR, 白皮豇#NR)  (conj, 红皮豇#NR, 青皮豇#NR)  (conj, 红皮豇#NR, 花皮豇#NR)  (dobj, 分成#VV, 红皮豇#NR)  (etc, 红皮豇#NR, 等#ETC)  (case, 品种#NN, 根据#P)  (det, 品种#NN, 各#DT)  (prep, 有#VE, 品种#NN)  (case, 品种#NN, 对#P)  (relcl, 品种#NN, 光照#VV)  (assmod, 反应#NN, 长短#NR)  (case, 长短#NR, 的#DEG)  (amod, 反应#NN, 不同#JJ)  (dobj, 光照#VV, 反应#NN)  (case, 反应#NN, 对#P)  (nn, 反应#NN, 光照#NN)  (nn, 反应#NN, 长短#NN)  (prep, 敏感#VA, 反应#NN)  (neg, 敏感#VA, 不#AD)  (conj, 光照#VV, 敏感#VA)  (mark, 光照#VV, 的#DEC)  (prep, 有#VE, 品种#NN)  (dep, 不同#VA, 有#VE)  (amod, 燕#NN, 红#JJ)  (nn, 燕#NN, 嘴#NN)  (dobj, 有#VE, 燕#NN)  (etc, 燕#NN, 等#ETC)  (nn, 照#NR, 对光#NR)  (nn, 反应#NN, 照#NR)  (nn, 反应#NN, 长短#NN)  (nsubj, 有#VE, 反应#NN)  (dvpmod, 有#VE, 敏感#VA)  (mark, 敏感#VA, 的#DEV)  (conj, 很多#CD, 有#VE)  (conj, 入药#NN, 上海#NR)  (assmod, 毛芋豇#NN, 扬州#NR)  (case, 扬州#NR, 的#DEG)  (dep, 入药#NN, 毛芋豇#NN)  (conj, 入药#NN, 苏州#NR)  (nsubj, 栽培#VV, 无锡#NR)  (relcl, 品种#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nn, 品种#NN, 北京#NR)  (nn, 品种#NN, 豇等#NN)  (dep, 入药#NN, 品种#NN)  (nn, 入药#NN, 种子#NN)  (dobj, 有#VE, 入药#NN)  (dep, 有#VE, 能#VV)  (nn, 消食#NN, 健胃#NN)  (conj, 消食#NN, 补气#NN)  (nn, 消食#NN, 滋养#NN)  (dobj, 能#VV, 消食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            豇豆性平、味甘咸，归脾、胃经；具有理中益气、健胃补肾、和五脏、调颜养身、生精髓、止消渴的功效；主治呕吐、痢疾、尿频等症。
+        </rawdata>
+
+        <segment>
+            豇豆  性平  、  味  甘咸  ，  归脾  、  胃经  ；  具有  理中  益气  、  健胃  补  肾  、  和  五脏  、  调颜  养身  、  生  精髓  、  止  消渴  的  功效  ；  主治  呕吐  、  痢疾  、  尿频  等症  。
+        </segment>
+
+        <pos>
+            豇豆#VV  性平#NN  、#PU  味#NN  甘咸#NN  ，#PU  归脾#VA  、#PU  胃经#VA  ；#PU  具有#VV  理中#NN  益气#NN  、#PU  健胃#NN  补#NN  肾#NN  、#PU  和#CC  五脏#CD  、#PU  调颜#CD  养身#NN  、#PU  生#VV  精髓#NN  、#PU  止#VV  消渴#NN  的#DEG  功效#NN  ；#PU  主治#VV  呕吐#NR  、#PU  痢疾#NR  、#PU  尿频#NR  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 豇豆#VV)  (conj, 甘咸#NN, 性平#NN)  (nn, 甘咸#NN, 味#NN)  (dobj, 豇豆#VV, 甘咸#NN)  (conj, 豇豆#VV, 归脾#VA)  (dep, 归脾#VA, 胃经#VA)  (conj, 豇豆#VV, 具有#VV)  (nn, 肾#NN, 理中#NN)  (conj, 肾#NN, 益气#NN)  (nn, 肾#NN, 健胃#NN)  (nn, 肾#NN, 补#NN)  (conj, 养身#NN, 肾#NN)  (cc, 养身#NN, 和#CC)  (dep, 调颜#CD, 五脏#CD)  (nummod, 养身#NN, 调颜#CD)  (dobj, 具有#VV, 养身#NN)  (conj, 豇豆#VV, 生#VV)  (dobj, 生#VV, 精髓#NN)  (conj, 豇豆#VV, 止#VV)  (assmod, 功效#NN, 消渴#NN)  (case, 消渴#NN, 的#DEG)  (dobj, 止#VV, 功效#NN)  (conj, 豇豆#VV, 主治#VV)  (conj, 尿频#NR, 呕吐#NR)  (conj, 尿频#NR, 痢疾#NR)  (nn, 等症#NN, 尿频#NR)  (dobj, 主治#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  促进消化  抗病毒  补肾  固精  健脾利湿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.豇豆提供了易于消化吸收的优质蛋白质，适量的碳水化合物及多种维生素、微量元素等，可补充机体的招牌营养素。
+            2.豇豆所含B族维生素能维持正常的消化腺分泌和胃肠道蠕动的功能，抑制胆碱酶活性，可帮助消化，增进食欲。
+            3.豇豆中所含维生素C能促进抗体的合成，提高机体抗病毒的作用。
+            4.豇豆的磷脂有促进胰岛素分泌，参加糖代谢的作用，是糖尿病人的理想食品。　
+        </rawdata>
+
+        <segment>
+            豇豆  提供  了  易于  消化  吸收  的  优质  蛋白质  ，  适量  的  碳水  化合物  及  多种  维生素  、  微量  元素  等  ，  可  补充  机体  的  招牌  营养素  。
+            豇豆  所含  B  族  维生素  能  维持  正常  的  消化腺  分泌  和  胃肠道  蠕动  的  功能  ，  抑制  胆碱酶  活性  ，  可  帮助  消化  ，  增进  食欲  。
+            豇豆  中  所  含  维生素C  能  促进  抗体  的  合成  ，  提高  机体  抗  病毒  的  作用  。
+            豇豆  的  磷脂  有  促进  胰岛素  分泌  ，  参加  糖  代谢  的  作用  ，  是  糖尿病人  的  理想  食品  。
+        </segment>
+
+        <pos>
+            豇豆#NN  提供#VV  了#AS  易于#NN  消化#NN  吸收#NN  的#DEG  优质#JJ  蛋白质#NN  ，#PU  适量#NN  的#DEG  碳水#NN  化合物#NN  及#CC  多种#NN  维生素#NN  、#PU  微量#NN  元素#NN  等#ETC  ，#PU  可#VV  补充#VV  机体#NN  的#DEG  招牌#NN  营养素#NN  。#PU
+            豇豆#NN  所含#VV  B#NN  族#NN  维生素#NN  能#VV  维持#VV  正常#VA  的#DEC  消化腺#NN  分泌#NN  和#CC  胃肠道#NN  蠕动#NN  的#DEC  功能#NN  ，#PU  抑制#VV  胆碱酶#NN  活性#NN  ，#PU  可#VV  帮助#VV  消化#NN  ，#PU  增进#VV  食欲#NN  。#PU
+            豇豆#NN  中#LC  所#MSP  含#VV  维生素C#VV  能#VV  促进#VV  抗体#NN  的#DEC  合成#JJ  ，#PU  提高#VV  机体#NN  抗#NN  病毒#NN  的#DEC  作用#NN  。#PU
+            豇豆#NN  的#DEG  磷脂#NN  有#VE  促进#VV  胰岛素#NN  分泌#NN  ，#PU  参加#VV  糖#NN  代谢#NN  的#DEC  作用#NN  ，#PU  是#VC  糖尿病人#NN  的#DEG  理想#JJ  食品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 提供#VV, 豇豆#NN)  (root, ROOT#null, 提供#VV)  (asp, 提供#VV, 了#AS)  (nn, 吸收#NN, 易于#NN)  (nn, 吸收#NN, 消化#NN)  (assmod, 蛋白质#NN, 吸收#NN)  (case, 吸收#NN, 的#DEG)  (amod, 蛋白质#NN, 优质#JJ)  (dobj, 提供#VV, 蛋白质#NN)  (assmod, 维生素#NN, 适量#NN)  (case, 适量#NN, 的#DEG)  (nn, 维生素#NN, 碳水#NN)  (conj, 维生素#NN, 化合物#NN)  (cc, 维生素#NN, 及#CC)  (nn, 维生素#NN, 多种#NN)  (conj, 元素#NN, 维生素#NN)  (nn, 元素#NN, 微量#NN)  (nsubj, 补充#VV, 元素#NN)  (etc, 元素#NN, 等#ETC)  (mmod, 补充#VV, 可#VV)  (conj, 提供#VV, 补充#VV)  (assmod, 营养素#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nn, 营养素#NN, 招牌#NN)  (dobj, 补充#VV, 营养素#NN)
+            (nsubj, 所含#VV, 豇豆#NN)  (root, ROOT#null, 所含#VV)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nsubj, 维持#VV, 维生素#NN)  (mmod, 维持#VV, 能#VV)  (relcl, 功能#NN, 维持#VV)  (relcl, 蠕动#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nn, 蠕动#NN, 消化腺#NN)  (conj, 蠕动#NN, 分泌#NN)  (cc, 蠕动#NN, 和#CC)  (nn, 蠕动#NN, 胃肠道#NN)  (dobj, 维持#VV, 蠕动#NN)  (mark, 维持#VV, 的#DEC)  (dobj, 所含#VV, 功能#NN)  (conj, 所含#VV, 抑制#VV)  (nn, 活性#NN, 胆碱酶#NN)  (dobj, 抑制#VV, 活性#NN)  (mmod, 帮助#VV, 可#VV)  (conj, 所含#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (conj, 所含#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (loc, 含#VV, 豇豆#NN)  (case, 豇豆#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (relcl, 作用#NN, 维生素C#VV)  (mmod, 促进#VV, 能#VV)  (relcl, 病毒#NN, 促进#VV)  (dobj, 促进#VV, 抗体#NN)  (mark, 促进#VV, 的#DEC)  (nfincl, 病毒#NN, 合成#JJ)  (dep, 合成#JJ, 提高#VV)  (dobj, 提高#VV, 机体#NN)  (nn, 病毒#NN, 抗#NN)  (dobj, 维生素C#VV, 病毒#NN)  (mark, 维生素C#VV, 的#DEC)  (dobj, 含#VV, 作用#NN)
+            (assmod, 磷脂#NN, 豇豆#NN)  (case, 豇豆#NN, 的#DEG)  (nsubj, 有#VE, 磷脂#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 促进#VV)  (nn, 分泌#NN, 胰岛素#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 促进#VV, 参加#VV)  (nn, 代谢#NN, 糖#NN)  (dobj, 参加#VV, 代谢#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 糖尿病人#NN)  (case, 糖尿病人#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (conj, 有#VE, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            豇豆素炒起锅前拍上两瓣蒜放进锅里去，味道更香。豇豆还可凉拌，将豇豆洗净焯好后摊开晾凉，然后加入醋、蒜、少量糖、油，爱吃芝麻酱的，可先用凉开水或醋将麻酱解开，再和豇豆一起拌。
+            长豇豆不宜烹调时间过长，以免造成营养损失。
+        </rawdata>
+
+        <segment>
+            豇豆  素炒  起锅  前  拍上  两  瓣  蒜  放进  锅里  去  ，  味道  更  香  。  豇豆  还  可  凉拌  ，  将  豇豆  洗净  焯好  后  摊开  晾凉  ，  然后  加入  醋  、  蒜  、  少量  糖  、  油  ，  爱吃  芝麻酱  的  ，  可  先用  凉开水  或  醋  将  麻酱  解开  ，  再  和  豇豆  一起  拌  。
+            长  豇豆  不  宜  烹调  时间  过长  ，  以免  造成  营养  损失  。
+        </segment>
+
+        <pos>
+            豇豆#NN  素炒#NN  起锅#NN  前#LC  拍上#NR  两#CD  瓣#NN  蒜#NN  放进#NN  锅里#AD  去#VV  ，#PU  味道#NN  更#AD  香#VV    。#PU  豇豆#NR  还#AD  可#VV  凉拌#NN  ，#PU  将#AD  豇豆#VV  洗净#NN  焯好#NN  后#LC  摊开#VV  晾凉#NN  ，#PU  然后#AD  加入#VV  醋#NN  、#PU  蒜#NN  、#PU  少量#CD  糖#NN  、#PU  油#NN  ，#PU  爱吃#VV  芝麻酱#NN  的#DEC  ，#PU  可#VV  先用#NN  凉开水#NN  或#CC  醋#AD  将#AD  麻酱#VV  解开#NN  ，#PU  再#AD  和#CC  豇豆#AD  一起#AD  拌#VV    。#PU    。#PU
+            长#JJ  豇豆#NN  不#AD  宜#NR  烹调#VV  时间#NN  过长#NN  ，#PU  以免#VV  造成#VV  营养#VA  损失#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 起锅#NN, 豇豆#NN)  (nn, 起锅#NN, 素炒#NN)  (loc, 去#VV, 起锅#NN)  (case, 起锅#NN, 前#LC)  (nn, 瓣#NN, 拍上#NR)  (nummod, 瓣#NN, 两#CD)  (nn, 放进#NN, 瓣#NN)  (nn, 放进#NN, 蒜#NN)  (nsubj, 去#VV, 放进#NN)  (advmod, 去#VV, 锅里#AD)  (root, ROOT#null, 去#VV)  (nsubj, 香#VV, 味道#NN)  (advmod, 香#VV, 更#AD)  (conj, 去#VV, 香#VV)   (nsubj, 可#VV, 豇豆#NR)  (advmod, 可#VV, 还#AD)  (root, ROOT#null, 可#VV)  (dobj, 可#VV, 凉拌#NN)  (advmod, 豇豆#VV, 将#AD)  (conj, 可#VV, 豇豆#VV)  (nn, 焯好#NN, 洗净#NN)  (loc, 摊开#VV, 焯好#NN)  (case, 焯好#NN, 后#LC)  (dobj, 豇豆#VV, 摊开#VV)  (dobj, 摊开#VV, 晾凉#NN)  (advmod, 加入#VV, 然后#AD)  (conj, 摊开#VV, 加入#VV)  (conj, 油#NN, 醋#NN)  (conj, 油#NN, 蒜#NN)  (nummod, 糖#NN, 少量#CD)  (conj, 油#NN, 糖#NN)  (dobj, 加入#VV, 油#NN)  (conj, 摊开#VV, 爱吃#VV)  (dobj, 爱吃#VV, 芝麻酱#NN)  (mark, 摊开#VV, 的#DEC)  (conj, 可#VV, 可#VV)  (nn, 凉开水#NN, 先用#NN)  (dobj, 可#VV, 凉开水#NN)  (cc, 可#VV, 或#CC)  (advmod, 麻酱#VV, 醋#AD)  (advmod, 麻酱#VV, 将#AD)  (conj, 可#VV, 麻酱#VV)  (dobj, 麻酱#VV, 解开#NN)  (advmod, 拌#VV, 再#AD)  (cc, 再#AD, 和#CC)  (dep, 再#AD, 豇豆#AD)  (advmod, 拌#VV, 一起#AD)  (conj, 可#VV, 拌#VV)   (root, ROOT#null, null#null)
+            (amod, 豇豆#NN, 长#JJ)  (nsubj, 烹调#VV, 豇豆#NN)  (neg, 烹调#VV, 不#AD)  (dep, 烹调#VV, 宜#NR)  (root, ROOT#null, 烹调#VV)  (nn, 过长#NN, 时间#NN)  (dobj, 烹调#VV, 过长#NN)  (conj, 烹调#VV, 以免#VV)  (ccomp, 以免#VV, 造成#VV)  (nfincl, 损失#NN, 营养#VA)  (dobj, 造成#VV, 损失#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101358222671.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\230 豇豆.jpg
+    </picturelocalurl>
+
+</content>

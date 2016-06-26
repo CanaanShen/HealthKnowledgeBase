@@ -1,0 +1,478 @@
+<content>
+
+    <id>
+        283
+    </id>
+
+    <foodname>
+        黄豆
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆类
+    </secondcategory>
+
+    <alias>
+        大豆、黄大豆、枝豆、菜用大豆
+    </alias>
+
+    <season>
+        夏、8-10月秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            消化功能不良、有慢性消化道疾病的人慎食；患有严重肝病、肾病、痛风、消化性溃疡、低碘者忌食；患疮痘期间不宜吃黄豆及其制品。
+        </rawdata>
+
+        <segment>
+            消化  功能  不良  、  有  慢性  消化道  疾病  的  人  慎  食  ；  患有  严重  肝病  、  肾病  、  痛风  、  消化性  溃疡  、  低碘者  忌食  ；  患疮痘  期间  不  宜  吃  黄豆  及其  制品  。
+        </segment>
+
+        <pos>
+            消化#NN  功能#NN  不良#JJ  、#PU  有#VE  慢性#NN  消化道#NN  疾病#NN  的#DEG  人#NN  慎#VV  食#NN  ；#PU  患有#VV  严重#JJ  肝病#NN  、#PU  肾病#NN  、#PU  痛风#NN  、#PU  消化性#NN  溃疡#NN  、#PU  低碘者#NN  忌食#NN  ；#PU  患疮痘#NN  期间#NN  不#AD  宜#NR  吃#VV  黄豆#NN  及其#NN  制品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 功能#NN, 消化#NN)  (nn, 疾病#NN, 功能#NN)  (amod, 疾病#NN, 不良#JJ)  (relcl, 疾病#NN, 有#VE)  (nn, 消化道#NN, 慢性#NN)  (dobj, 有#VE, 消化道#NN)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)  (conj, 慎#VV, 患有#VV)  (amod, 忌食#NN, 严重#JJ)  (conj, 低碘者#NN, 肝病#NN)  (conj, 低碘者#NN, 肾病#NN)  (conj, 低碘者#NN, 痛风#NN)  (nn, 低碘者#NN, 消化性#NN)  (conj, 低碘者#NN, 溃疡#NN)  (nn, 忌食#NN, 低碘者#NN)  (dobj, 患有#VV, 忌食#NN)  (nn, 期间#NN, 患疮痘#NN)  (nsubj, 吃#VV, 期间#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (conj, 慎#VV, 吃#VV)  (nn, 制品#NN, 黄豆#NN)  (nn, 制品#NN, 及其#NN)  (dobj, 吃#VV, 制品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                359
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                34.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                15.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                220
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                泛酸（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                生物素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                181.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                18.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                191
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                465
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1503
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                199
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                8.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                9.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                6.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                9.2
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄豆，又称大豆，为豆科大豆属一年生草本植物，原产我国，至今已有5000年的种植史。现在全国普遍种植，在东北、华北、陕、川及长江下游地区均有出产，以长江流域及西南栽培较多，以东北大豆质量最优。黄豆不仅味美，而且具有很高的营养价值，比如，一斤黄豆相当于二斤多瘦猪肉，或三斤鸡蛋，或十二斤牛奶的蛋白质含量；脂肪含量也在豆类中占首位，出油率高达20％，并且富含多种维生素及矿物质。所以，黄豆被人们美誉为“豆中之王”。除此之外，黄豆加工后的各种豆制品，不但蛋白质含量高，并含有多种人体不能合成而又必需的氨基酸，胆固醇含量中豆腐的蛋白质消化率高达95％，为理想的补益食疗之品。黄豆及豆腐、豆浆等豆制品已成为风靡世界的健康食品。
+            大豆是一种其种子含有丰富的蛋白质的豆科植物，一般都指其种子而言。大豆呈椭圆形、球形。种皮颜色有黄色、淡绿色、黑色，各称为黄豆、青豆（与青豆仁即豌豆不同）、黑豆，以黄豆最常见。毛豆即为未成熟的食用大豆。
+        </rawdata>
+
+        <segment>
+            黄豆  ，  又  称  大豆  ，  为  豆科  大豆  属  一  年  生  草本  植物  ，  原产  我国  ，  至今  已  有  5000年  的  种植史  。  现在  全  国  普遍  种植  ，  在  东北  、  华北  、  陕  、  川  及  长江  下游  地区  均有  出产  ，  以  长江  流域  及  西南  栽培  较  多  ，  以  东北  大豆  质量  最  优  。  黄豆  不仅  味美  ，  而且  具有  很  高  的  营养  价值  ，  比如  ，  一  斤  黄豆  相当于  二  斤  多  瘦  猪肉  ，  或  三  斤  鸡蛋  ，  或  十二  斤  牛奶  的  蛋白质  含量  ；  脂肪  含量  也  在  豆类  中  占  首位  ，  出油率  高达  20％  ，  并且  富含  多种  维生素  及  矿物质  。  所以  ，  黄豆  被  人们  美誉  为  “  豆中  之  王  ”  。  除此之外  ，  黄豆  加工  后  的  各  种  豆制品  ，  不但  蛋白质  含量  高  ，  并  含有  多  种  人体  不  能  合成  而  又  必需  的  氨基酸  ，  胆固醇  含量  中  豆腐  的  蛋白质  消化率  高达  95％  ，  为  理想  的  补益  食疗  之  品  。  黄豆  及  豆腐  、  豆浆  等  豆制品  已  成为  风靡  世界  的  健康  食品  。
+            大豆  是  一  种  其  种子  含有  丰富  的  蛋白质  的  豆科  植物  ，  一般  都  指  其  种子  而言  。  大豆  呈  椭圆形  、  球形  。  种皮  颜色  有  黄色  、  淡绿色  、  黑色  ，  各  称为  黄豆  、  青豆  （  与  青豆  仁  即  豌豆  不同  ）  、  黑豆  ，  以  黄豆  最  常见  。  毛豆  即为  未成熟  的  食用  大豆  。
+        </segment>
+
+        <pos>
+            黄豆#VA  ，#PU  又#AD  称#VV  大豆#NN  ，#PU  为#P  豆科#NN  大豆#AD  属#VV  一#CD  年#M  生#VV  草本#NN  植物#NN  ，#PU  原产#AD  我国#VA  ，#PU  至今#AD  已#AD  有#VE  5000年#NT  的#DEG  种植史#NN    。#PU  现在#NT  全#DT  国#NN  普遍#AD  种植#VV  ，#PU  在#P  东北#NR  、#PU  华北#NR  、#PU  陕#NR  、#PU  川#NR  及#CC  长江#NR  下游#NN  地区#NN  均有#AD  出产#VV  ，#PU  以#P  长江#NR  流域#NN  及#CC  西南#NN  栽培#VV  较#AD  多#VA  ，#PU  以#P  东北#NN  大豆#NN  质量#NN  最#AD  优#VA    。#PU  黄豆#NN  不仅#CC  味美#VV  ，#PU  而且#CC  具有#VV  很#AD  高#VA  的#DEC  营养#VA  价值#NN  ，#PU  比如#AD  ，#PU  一#CD  斤#NN  黄豆#AD  相当于#VV  二#CD  斤#NN  多#CD  瘦#NN  猪肉#NN  ，#PU  或#CC  三#CD  斤#NN  鸡蛋#NN  ，#PU  或#CC  十二#CD  斤#VV  牛奶#NN  的#DEG  蛋白质#NN  含量#NN  ；#PU  脂肪#NN  含量#NN  也#AD  在#P  豆类#NN  中#LC  占#VV  首位#NN  ，#PU  出油率#NN  高达#VV  20#CD  ％#NN  ，#PU  并且#CC  富含#NN  多种#VV  维生素#NN  及#CC  矿物质#NN    。#PU  所以#AD  ，#PU  黄豆#NN  被#LB  人们#NN  美誉#NN  为#VV  ``#NN  豆中#NN  之#DEG  王#NN  ''#VV    。#PU  除此之外#VV  ，#PU  黄豆#NN  加工#NN  后#LC  的#DEG  各#DT  种#M  豆制品#NN  ，#PU  不但#CC  蛋白质#VV  含量#NN  高#VA  ，#PU  并#CC  含有#VV  多#CD  种#M  人体#NN  不#AD  能#VV  合成#JJ  而#AD  又#AD  必需#VV  的#DEC  氨基酸#NN  ，#PU  胆固醇#NN  含量#NN  中#LC  豆腐#VV  的#DEC  蛋白质#NN  消化率#VV  高达#VV  95#CD  ％#NN  ，#PU  为#VC  理想#VA  的#DEC  补益#NN  食疗#NN  之#DEG  品#M    。#PU  黄豆#NR  及#CC  豆腐#NR  、#PU  豆浆#NR  等#ETC  豆制品#NN  已#AD  成为#VV  风靡#VV  世界#NN  的#DEC  健康#JJ  食品#NN    。#PU    。#PU
+            大豆#AD  是#VC  一#CD  种#M  其#PN  种子#NN  含有#NN  丰富#VA  的#DEC  蛋白质#NN  的#DEG  豆科#JJ  植物#NN  ，#PU  一般#AD  都#AD  指#VV  其#PN  种子#NN  而言#NN    。#PU  大豆#NN  呈#VV  椭圆形#NN  、#PU  球形#NN    。#PU  种皮#NN  颜色#AD  有#VE  黄色#JJ  、#PU  淡绿色#NN  、#PU  黑色#JJ  ，#PU  各#AD  称为#VV  黄豆#NN  、#PU  青豆#NN  （#PU  与#P  青豆#NN  仁#NN  即#AD  豌豆#VV  不同#NN  ）#PU  、#PU  黑豆#NN  ，#PU  以#P  黄豆#NN  最#AD  常见#VA    。#PU  毛豆#AD  即为#VV  未成熟#NN  的#DEC  食用#VV  大豆#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄豆#VA)  (advmod, 称#VV, 又#AD)  (dep, 黄豆#VA, 称#VV)  (dobj, 称#VV, 大豆#NN)  (case, 属#VV, 为#P)  (nsubj, 属#VV, 豆科#NN)  (advmod, 属#VV, 大豆#AD)  (prep, 生#VV, 属#VV)  (nummod, 年#M, 一#CD)  (range, 属#VV, 年#M)  (dep, 黄豆#VA, 生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 生#VV, 植物#NN)  (advmod, 我国#VA, 原产#AD)  (dep, 黄豆#VA, 我国#VA)  (advmod, 有#VE, 至今#AD)  (advmod, 有#VE, 已#AD)  (dep, 黄豆#VA, 有#VE)  (assmod, 种植史#NN, 5000年#NT)  (case, 5000年#NT, 的#DEG)  (dobj, 有#VE, 种植史#NN)   (tmod, 种植#VV, 现在#NT)  (det, 国#NN, 全#DT)  (nsubj, 种植#VV, 国#NN)  (advmod, 种植#VV, 普遍#AD)  (root, ROOT#null, 种植#VV)  (case, 地区#NN, 在#P)  (conj, 长江#NR, 东北#NR)  (conj, 长江#NR, 华北#NR)  (conj, 长江#NR, 陕#NR)  (conj, 长江#NR, 川#NR)  (cc, 长江#NR, 及#CC)  (nn, 地区#NN, 长江#NR)  (nn, 地区#NN, 下游#NN)  (prep, 出产#VV, 地区#NN)  (advmod, 出产#VV, 均有#AD)  (dep, 种植#VV, 出产#VV)  (case, 西南#NN, 以#P)  (nn, 流域#NN, 长江#NR)  (conj, 西南#NN, 流域#NN)  (cc, 西南#NN, 及#CC)  (prep, 多#VA, 西南#NN)  (mmod, 多#VA, 栽培#VV)  (advmod, 多#VA, 较#AD)  (dep, 种植#VV, 多#VA)  (case, 质量#NN, 以#P)  (nn, 质量#NN, 东北#NN)  (nn, 质量#NN, 大豆#NN)  (prep, 优#VA, 质量#NN)  (advmod, 优#VA, 最#AD)  (dep, 多#VA, 优#VA)   (nsubj, 味美#VV, 黄豆#NN)  (cc, 味美#VV, 不仅#CC)  (root, ROOT#null, 味美#VV)  (cc, 味美#VV, 而且#CC)  (dep, 味美#VV, 具有#VV)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (dobj, 具有#VV, 价值#NN)  (advmod, 相当于#VV, 比如#AD)  (nummod, 斤#NN, 一#CD)  (nsubj, 相当于#VV, 斤#NN)  (advmod, 相当于#VV, 黄豆#AD)  (conj, 味美#VV, 相当于#VV)  (nummod, 斤#NN, 二#CD)  (nn, 瘦#NN, 斤#NN)  (nummod, 瘦#NN, 多#CD)  (nn, 猪肉#NN, 瘦#NN)  (dobj, 相当于#VV, 猪肉#NN)  (cc, 味美#VV, 或#CC)  (nummod, 斤#NN, 三#CD)  (nsubj, 鸡蛋#NN, 斤#NN)  (conj, 味美#VV, 鸡蛋#NN)  (cc, 味美#VV, 或#CC)  (nsubj, 斤#VV, 十二#CD)  (conj, 味美#VV, 斤#VV)  (assmod, 含量#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (dobj, 斤#VV, 含量#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 占#VV, 含量#NN)  (advmod, 占#VV, 也#AD)  (case, 豆类#NN, 在#P)  (prep, 占#VV, 豆类#NN)  (case, 豆类#NN, 中#LC)  (conj, 味美#VV, 占#VV)  (dobj, 占#VV, 首位#NN)  (nsubj, 高达#VV, 出油率#NN)  (conj, 味美#VV, 高达#VV)  (nummod, ％#NN, 20#CD)  (dobj, 高达#VV, ％#NN)  (cc, 味美#VV, 并且#CC)  (nsubj, 多种#VV, 富含#NN)  (conj, 味美#VV, 多种#VV)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 及#CC)  (dobj, 多种#VV, 矿物质#NN)   (advmod, 为#VV, 所以#AD)  (nsubjpass, 为#VV, 黄豆#NN)  (auxpass, 为#VV, 被#LB)  (nn, 美誉#NN, 人们#NN)  (nsubj, 为#VV, 美誉#NN)  (dep, ''#VV, 为#VV)  (nn, 豆中#NN, ``#NN)  (assmod, 王#NN, 豆中#NN)  (case, 豆中#NN, 之#DEG)  (dobj, 为#VV, 王#NN)  (root, ROOT#null, ''#VV)   (relcl, 蛋白质#NN, 除此之外#VV)  (nn, 加工#NN, 黄豆#NN)  (assmod, 豆制品#NN, 加工#NN)  (case, 加工#NN, 后#LC)  (case, 加工#NN, 的#DEG)  (det, 豆制品#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 蛋白质#VV, 豆制品#NN)  (cc, 蛋白质#VV, 不但#CC)  (ccomp, 除此之外#VV, 蛋白质#VV)  (dobj, 蛋白质#VV, 含量#NN)  (dep, 蛋白质#VV, 高#VA)  (cc, 蛋白质#VV, 并#CC)  (conj, 蛋白质#VV, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (dobj, 含有#VV, 人体#NN)  (neg, 能#VV, 不#AD)  (dep, 含有#VV, 能#VV)  (amod, 氨基酸#NN, 合成#JJ)  (advmod, 必需#VV, 而#AD)  (advmod, 必需#VV, 又#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 能#VV, 氨基酸#NN)  (nn, 含量#NN, 胆固醇#NN)  (loc, 豆腐#VV, 含量#NN)  (case, 含量#NN, 中#LC)  (conj, 蛋白质#VV, 豆腐#VV)  (mark, 除此之外#VV, 的#DEC)  (nsubj, 高达#VV, 蛋白质#NN)  (mmod, 高达#VV, 消化率#VV)  (root, ROOT#null, 高达#VV)  (nummod, ％#NN, 95#CD)  (dobj, 高达#VV, ％#NN)  (cop, 品#M, 为#VC)  (relcl, 食疗#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 食疗#NN, 补益#NN)  (assmod, 品#M, 食疗#NN)  (case, 食疗#NN, 之#DEG)  (conj, 高达#VV, 品#M)   (conj, 豆浆#NR, 黄豆#NR)  (cc, 豆浆#NR, 及#CC)  (conj, 豆浆#NR, 豆腐#NR)  (nn, 豆制品#NN, 豆浆#NR)  (etc, 豆浆#NR, 等#ETC)  (nsubj, 成为#VV, 豆制品#NN)  (advmod, 成为#VV, 已#AD)  (root, ROOT#null, 成为#VV)  (relcl, 食品#NN, 风靡#VV)  (dobj, 风靡#VV, 世界#NN)  (mark, 风靡#VV, 的#DEC)  (amod, 食品#NN, 健康#JJ)  (dobj, 成为#VV, 食品#NN)   (root, ROOT#null, null#null)
+            (advmod, 植物#NN, 大豆#AD)  (cop, 植物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蛋白质#NN, 种#M)  (nn, 含有#NN, 其#PN)  (nn, 含有#NN, 种子#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (assmod, 植物#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (amod, 植物#NN, 豆科#JJ)  (root, ROOT#null, 植物#NN)  (advmod, 指#VV, 一般#AD)  (advmod, 指#VV, 都#AD)  (dep, 植物#NN, 指#VV)  (nn, 而言#NN, 其#PN)  (nn, 而言#NN, 种子#NN)  (dobj, 指#VV, 而言#NN)   (nsubj, 呈#VV, 大豆#NN)  (root, ROOT#null, 呈#VV)  (conj, 球形#NN, 椭圆形#NN)  (dobj, 呈#VV, 球形#NN)   (nsubj, 有#VE, 种皮#NN)  (advmod, 有#VE, 颜色#AD)  (root, ROOT#null, 有#VE)  (amod, 黑豆#NN, 黄色#JJ)  (conj, 黑豆#NN, 淡绿色#NN)  (nfincl, 黄豆#NN, 黑色#JJ)  (advmod, 称为#VV, 各#AD)  (dep, 黑色#JJ, 称为#VV)  (conj, 黑豆#NN, 黄豆#NN)  (conj, 黑豆#NN, 青豆#NN)  (case, 仁#NN, 与#P)  (nn, 仁#NN, 青豆#NN)  (prep, 豌豆#VV, 仁#NN)  (advmod, 豌豆#VV, 即#AD)  (prnmod, 青豆#NN, 豌豆#VV)  (dobj, 豌豆#VV, 不同#NN)  (dobj, 有#VE, 黑豆#NN)  (case, 黄豆#NN, 以#P)  (prep, 常见#VA, 黄豆#NN)  (advmod, 常见#VA, 最#AD)  (conj, 有#VE, 常见#VA)   (advmod, 即为#VV, 毛豆#AD)  (nsubj, 食用#VV, 即为#VV)  (dobj, 即为#VV, 未成熟#NN)  (mark, 即为#VV, 的#DEC)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 大豆#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.减轻女性更年期综合征症状
+            大豆异黄酮是一种结构与雌激素相似，具有雌激素活性的植物性雌激素，延迟女性细胞衰老、使皮肤保持弹性、养颜、减少骨丢失，促进骨生成、降血脂等。
+            2.防止血管硬化
+            防止血管硬化，预防心血管疾病，保护心脏，大豆中的卵磷脂还具有防止肝脏内积存过多脂肪的作用，从而有效地防治因肥胖而引起的脂肪肝。
+            3.让头脑聪明
+            在平时适量多吃黄豆，还能有效达到预防老年痴呆的功效。而且在黄豆中还含有一种叫甾醇的物质，它能有效的增加神经机能，从而促进其活力的功效。
+            4.降糖、降脂
+            大豆中含有一种抑制胰酶的物质，对糖尿病有治疗作用。大豆所含的皂甙有明显的降血脂作用，同时，可抑制体重增加。
+            6.美白护肤
+            能有效地改善皮肤衰老，同时还具有缓解更年期综合症的功效。同时经过日本研究人员的实验发现，在黄豆中所含有的亚油酸可以有效阻止皮肤细胞中黑色素的合成。
+            7.预防癌症
+            具有预防癌症发生的功效，不同的癌症它都具有一定的抑制作用。其中尤其是对于乳腺癌，其抑制的效果最为明显。
+            8.降低血脂
+            黄豆中的植物固醇还具有降低血液胆固醇的作用，进入肠道后可与胆固醇竞争，从而减少胆固醇吸收。但在降低血液中的“坏胆固醇”的同时，还不影响血液中的“好胆固醇”。
+            9.增强机体免疫功能
+            大豆含有丰富的蛋白质，含有多种人体必需的氨基酸，可以提高人体免疫力。
+        </rawdata>
+
+        <segment>
+            减轻  女性  更年期  综合征  症状
+            大豆  异  黄酮  是  一  种  结构  与  雌  激素  相似  ，  具有  雌激素  活性  的  植物性  雌  激素  ，  延迟  女性  细胞  衰老  、  使  皮肤  保持  弹性  、  养颜  、  减少  骨  丢失  ，  促进  骨生成  、  降  血脂  等  。
+            防止  血管  硬化
+            防止  血管  硬化  ，  预防  心  血管  疾病  ，  保护  心脏  ，  大豆  中  的  卵磷脂  还  具有  防止  肝脏  内  积存  过  多脂肪  的  作用  ，  从而  有效  地  防治  因  肥胖  而  引起  的  脂肪肝  。
+            让  头脑  聪明
+            在  平时  适量  多  吃  黄豆  ，  还  能  有效  达到  预防  老年  痴呆  的  功效  。  而且  在  黄豆  中  还  含有  一  种  叫  甾醇  的  物质  ，  它  能  有效  的  增加  神经  机能  ，  从而  促进  其  活力  的  功效  。
+            降糖  、  降脂
+            大豆  中  含有  一  种  抑制  胰酶  的  物质  ，  对  糖尿病  有  治疗  作用  。  大豆  所  含  的  皂甙  有  明显  的  降  血脂  作用  ，  同时  ，  可  抑制  体重  增加  。
+            美白  护肤
+            能  有效  地  改善  皮肤  衰老  ，  同时  还  具有  缓解  更年期  综合症  的  功效  。  同时  经过  日本  研究  人员  的  实验  发现  ，  在  黄豆  中  所含  有的  亚油酸  可以  有效  阻止  皮肤  细胞  中  黑色素  的  合成  。
+            预防  癌症
+            具有  预防  癌症  发生  的  功效  ，  不同  的  癌症  它  都  具有  一定  的  抑制  作用  。  其中  尤其是  对于  乳腺癌  ，  其  抑制  的  效果  最为  明显  。
+            降低  血脂
+            黄豆  中的  植物  固醇  还  具有  降低  血液  胆固醇  的  作用  ，  进入  肠道  后  可  与  胆固醇  竞争  ，  从而  减少  胆固醇  吸收  。  但  在  降低  血液  中  的  “  坏  胆固醇  ”  的  同时  ，  还  不  影响  血液  中  的  “  好  胆固醇  ”  。
+            增强  机体  免疫  功能
+            大豆  含有  丰富  的  蛋白质  ，  含有  多  种  人体  必需  的  氨基酸  ，  可以  提高  人体  免疫力  。
+        </segment>
+
+        <pos>
+            减轻#VV  女性#NN  更年期#NN  综合征#NN  症状#NN
+            大豆#NN  异#NN  黄酮#NN  是#VC  一#CD  种#M  结构#NN  与#P  雌#NN  激素#NN  相似#VA  ，#PU  具有#VV  雌激素#NN  活性#NN  的#DEC  植物性#NN  雌#NN  激素#NN  ，#PU  延迟#VV  女性#NN  细胞#NN  衰老#NN  、#PU  使#VV  皮肤#NN  保持#VV  弹性#NN  、#PU  养颜#NN  、#PU  减少#VV  骨#NN  丢失#VV  ，#PU  促进#VV  骨生成#NN  、#PU  降#NN  血脂#NN  等#ETC  。#PU
+            防止#VV  血管#NN  硬化#NN
+            防止#VV  血管#NN  硬化#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN  ，#PU  保护#VV  心脏#NN  ，#PU  大豆#NN  中#LC  的#DEG  卵磷脂#NN  还#AD  具有#VV  防止#VV  肝脏#NN  内#LC  积存#VV  过#AS  多脂肪#NN  的#DEC  作用#NN  ，#PU  从而#AD  有效#VA  地#DEV  防治#VV  因#P  肥胖#NN  而#MSP  引起#VV  的#DEC  脂肪肝#NN  。#PU
+            让#VV  头脑#NN  聪明#VV
+            在#P  平时#AD  适量#AD  多#AD  吃#VV  黄豆#NN  ，#PU  还#AD  能#VV  有效#AD  达到#VV  预防#VV  老年#NN  痴呆#NN  的#DEC  功效#NN    。#PU  而且#AD  在#P  黄豆#NN  中#LC  还#AD  含有#VV  一#CD  种#M  叫#VV  甾醇#NN  的#DEC  物质#NN  ，#PU  它#PN  能#VV  有效#VA  的#DEV  增加#VV  神经#NN  机能#NN  ，#PU  从而#AD  促进#VV  其#PN  活力#NN  的#DEG  功效#NN    。#PU    。#PU
+            降糖#JJ  、#PU  降脂#NN
+            大豆#NN  中#LC  含有#VV  一#CD  种#M  抑制#VV  胰酶#NN  的#DEC  物质#NN  ，#PU  对#P  糖尿病#NN  有#VE  治疗#NN  作用#NN    。#PU  大豆#AD  所#MSP  含#VV  的#DEC  皂甙#NN  有#VE  明显#VA  的#DEC  降#NN  血脂#NN  作用#NN  ，#PU  同时#AD  ，#PU  可#VV  抑制#VV  体重#NN  增加#VV    。#PU    。#PU
+            美白#NN  护肤#VV
+            能#VV  有效#VA  地#DEV  改善#VV  皮肤#NN  衰老#NN  ，#PU  同时#AD  还#AD  具有#VV  缓解#VV  更年期#NN  综合症#NN  的#DEC  功效#NN    。#PU  同时#AD  经过#P  日本#NR  研究#NN  人员#NN  的#DEG  实验#NN  发现#VV  ，#PU  在#P  黄豆#NN  中#LC  所含#VV  有的#PN  亚油酸#AD  可以#VV  有效#AD  阻止#VV  皮肤#NN  细胞#NN  中#LC  黑色素#NN  的#DEC  合成#JJ    。#PU    。#PU
+            预防#VV  癌症#NN
+            具有#VV  预防#VV  癌症#NN  发生#VV  的#DEC  功效#NN  ，#PU  不同#VA  的#DEC  癌症#NN  它#PN  都#AD  具有#VV  一定#JJ  的#DEG  抑制#NN  作用#NN    。#PU  其中#NN  尤其是#AD  对于#P  乳腺癌#NN  ，#PU  其#PN  抑制#VV  的#DEC  效果#NN  最为#AD  明显#VA    。#PU    。#PU
+            降低#VV  血脂#NN
+            黄豆#NN  中的#NN  植物#NN  固醇#NN  还#AD  具有#VV  降低#VV  血液#NN  胆固醇#NN  的#DEC  作用#NN  ，#PU  进入#VV  肠道#NN  后#LC  可#VV  与#P  胆固醇#NN  竞争#NN  ，#PU  从而#AD  减少#VV  胆固醇#NN  吸收#NN    。#PU  但#AD  在#P  降低#VV  血液#NN  中#LC  的#DEG  ``#NR  坏#JJ  胆固醇#NN  ''#NN  的#DEC  同时#NN  ，#PU  还#AD  不#AD  影响#VV  血液#NN  中#LC  的#DEG  ``#NN  好#JJ  胆固醇#NN  ''#VV    。#PU    。#PU
+            增强#VV  机体#NN  免疫#NN  功能#NN
+            大豆#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  含有#VV  多#CD  种#M  人体#AD  必需#VV  的#DEC  氨基酸#NN  ，#PU  可以#VV  提高#VV  人体#NN  免疫力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 减轻#VV)  (nn, 症状#NN, 女性#NN)  (nn, 症状#NN, 更年期#NN)  (nn, 症状#NN, 综合征#NN)  (dobj, 减轻#VV, 症状#NN)
+            (nn, 黄酮#NN, 大豆#NN)  (nn, 黄酮#NN, 异#NN)  (nsubj, 激素#NN, 黄酮#NN)  (cop, 激素#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 激素#NN, 种#M)  (nsubj, 相似#VA, 结构#NN)  (case, 激素#NN, 与#P)  (nn, 激素#NN, 雌#NN)  (prep, 相似#VA, 激素#NN)  (relcl, 激素#NN, 相似#VA)  (dep, 相似#VA, 具有#VV)  (nn, 活性#NN, 雌激素#NN)  (dobj, 具有#VV, 活性#NN)  (mark, 相似#VA, 的#DEC)  (nn, 激素#NN, 植物性#NN)  (nn, 激素#NN, 雌#NN)  (root, ROOT#null, 激素#NN)  (conj, 激素#NN, 延迟#VV)  (nn, 衰老#NN, 女性#NN)  (nn, 衰老#NN, 细胞#NN)  (dobj, 延迟#VV, 衰老#NN)  (conj, 延迟#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 保持#VV)  (conj, 养颜#NN, 弹性#NN)  (dobj, 保持#VV, 养颜#NN)  (conj, 延迟#VV, 减少#VV)  (dobj, 减少#VV, 骨#NN)  (conj, 减少#VV, 丢失#VV)  (conj, 延迟#VV, 促进#VV)  (conj, 血脂#NN, 骨生成#NN)  (nn, 血脂#NN, 降#NN)  (dobj, 促进#VV, 血脂#NN)  (etc, 血脂#NN, 等#ETC)
+            (root, ROOT#null, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)
+            (root, ROOT#null, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)  (conj, 防止#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (conj, 防止#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)  (assmod, 卵磷脂#NN, 大豆#NN)  (case, 大豆#NN, 中#LC)  (case, 大豆#NN, 的#DEG)  (nsubj, 具有#VV, 卵磷脂#NN)  (advmod, 具有#VV, 还#AD)  (dep, 防止#VV, 具有#VV)  (relcl, 作用#NN, 防止#VV)  (loc, 积存#VV, 肝脏#NN)  (case, 肝脏#NN, 内#LC)  (ccomp, 防止#VV, 积存#VV)  (asp, 积存#VV, 过#AS)  (dobj, 积存#VV, 多脂肪#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (advmod, 防治#VV, 从而#AD)  (dvpmod, 防治#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 防止#VV, 防治#VV)  (case, 肥胖#NN, 因#P)  (prep, 引起#VV, 肥胖#NN)  (prtmod, 引起#VV, 而#MSP)  (relcl, 脂肪肝#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (dobj, 防治#VV, 脂肪肝#NN)
+            (root, ROOT#null, 让#VV)  (dobj, 让#VV, 头脑#NN)  (dep, 让#VV, 聪明#VV)
+            (case, 黄豆#NN, 在#P)  (advmod, 吃#VV, 平时#AD)  (advmod, 吃#VV, 适量#AD)  (advmod, 吃#VV, 多#AD)  (nfincl, 黄豆#NN, 吃#VV)  (prep, 达到#VV, 黄豆#NN)  (advmod, 达到#VV, 还#AD)  (mmod, 达到#VV, 能#VV)  (advmod, 达到#VV, 有效#AD)  (root, ROOT#null, 达到#VV)  (relcl, 功效#NN, 预防#VV)  (nn, 痴呆#NN, 老年#NN)  (dobj, 预防#VV, 痴呆#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 达到#VV, 功效#NN)   (advmod, 含有#VV, 而且#AD)  (case, 黄豆#NN, 在#P)  (prep, 含有#VV, 黄豆#NN)  (case, 黄豆#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 叫#VV)  (dobj, 叫#VV, 甾醇#NN)  (mark, 叫#VV, 的#DEC)  (dobj, 含有#VV, 物质#NN)  (nsubj, 增加#VV, 它#PN)  (mmod, 增加#VV, 能#VV)  (dvpmod, 增加#VV, 有效#VA)  (mark, 有效#VA, 的#DEV)  (dep, 含有#VV, 增加#VV)  (nn, 机能#NN, 神经#NN)  (dobj, 增加#VV, 机能#NN)  (advmod, 促进#VV, 从而#AD)  (dep, 增加#VV, 促进#VV)  (nn, 活力#NN, 其#PN)  (assmod, 功效#NN, 活力#NN)  (case, 活力#NN, 的#DEG)  (dobj, 促进#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降糖#JJ)  (dep, 降糖#JJ, 降脂#NN)
+            (loc, 含有#VV, 大豆#NN)  (case, 大豆#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 抑制#VV)  (dobj, 抑制#VV, 胰酶#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 含有#VV, 物质#NN)  (case, 糖尿病#NN, 对#P)  (prep, 有#VE, 糖尿病#NN)  (conj, 含有#VV, 有#VE)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)   (advmod, 含#VV, 大豆#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 皂甙#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dep, 有#VE, 皂甙#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血脂#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 抑制#VV, 同时#AD)  (mmod, 抑制#VV, 可#VV)  (conj, 有#VE, 抑制#VV)  (dobj, 抑制#VV, 体重#NN)  (dep, 抑制#VV, 增加#VV)   (root, ROOT#null, null#null)
+            (nsubj, 护肤#VV, 美白#NN)  (root, ROOT#null, 护肤#VV)
+            (mmod, 改善#VV, 能#VV)  (dvpmod, 改善#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (root, ROOT#null, 改善#VV)  (nn, 衰老#NN, 皮肤#NN)  (dobj, 改善#VV, 衰老#NN)  (advmod, 具有#VV, 同时#AD)  (advmod, 具有#VV, 还#AD)  (dep, 改善#VV, 具有#VV)  (relcl, 功效#NN, 缓解#VV)  (nn, 综合症#NN, 更年期#NN)  (dobj, 缓解#VV, 综合症#NN)  (mark, 缓解#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)   (advmod, 发现#VV, 同时#AD)  (case, 实验#NN, 经过#P)  (nn, 人员#NN, 日本#NR)  (nn, 人员#NN, 研究#NN)  (assmod, 实验#NN, 人员#NN)  (case, 人员#NN, 的#DEG)  (prep, 发现#VV, 实验#NN)  (root, ROOT#null, 发现#VV)  (case, 黄豆#NN, 在#P)  (prep, 所含#VV, 黄豆#NN)  (case, 黄豆#NN, 中#LC)  (dep, 发现#VV, 所含#VV)  (nsubj, 阻止#VV, 有的#PN)  (advmod, 阻止#VV, 亚油酸#AD)  (mmod, 阻止#VV, 可以#VV)  (advmod, 阻止#VV, 有效#AD)  (dobj, 所含#VV, 阻止#VV)  (nn, 细胞#NN, 皮肤#NN)  (dep, 黑色素#NN, 细胞#NN)  (case, 细胞#NN, 中#LC)  (dobj, 阻止#VV, 黑色素#NN)  (mark, 阻止#VV, 的#DEC)  (dep, 发现#VV, 合成#JJ)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (dep, 具有#VV, 具有#VV)  (relcl, 功效#NN, 预防#VV)  (dobj, 预防#VV, 癌症#NN)  (conj, 预防#VV, 发生#VV)  (mark, 预防#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (relcl, 癌症#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (nsubj, 具有#VV, 癌症#NN)  (nsubj, 具有#VV, 它#PN)  (advmod, 具有#VV, 都#AD)  (root, ROOT#null, 具有#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 抑制#NN)  (dobj, 具有#VV, 作用#NN)   (nsubj, 明显#VA, 其中#NN)  (advmod, 明显#VA, 尤其是#AD)  (case, 乳腺癌#NN, 对于#P)  (prep, 明显#VA, 乳腺癌#NN)  (nn, 效果#NN, 其#PN)  (relcl, 其#PN, 抑制#VV)  (relcl, 效果#NN, 抑制#VV)  (mark, 抑制#VV, 的#DEC)  (nsubj, 明显#VA, 效果#NN)  (advmod, 明显#VA, 最为#AD)  (root, ROOT#null, 明显#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血脂#NN)
+            (nn, 固醇#NN, 黄豆#NN)  (nn, 固醇#NN, 中的#NN)  (nn, 固醇#NN, 植物#NN)  (nsubj, 减少#VV, 固醇#NN)  (advmod, 具有#VV, 还#AD)  (loc, 减少#VV, 具有#VV)  (relcl, 作用#NN, 降低#VV)  (nn, 胆固醇#NN, 血液#NN)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (conj, 具有#VV, 进入#VV)  (dobj, 进入#VV, 肠道#NN)  (case, 具有#VV, 后#LC)  (mmod, 减少#VV, 可#VV)  (case, 竞争#NN, 与#P)  (nn, 竞争#NN, 胆固醇#NN)  (prep, 减少#VV, 竞争#NN)  (advmod, 减少#VV, 从而#AD)  (root, ROOT#null, 减少#VV)  (nn, 吸收#NN, 胆固醇#NN)  (dobj, 减少#VV, 吸收#NN)   (advmod, 影响#VV, 但#AD)  (case, 同时#NN, 在#P)  (relcl, 同时#NN, 降低#VV)  (assmod, ''#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (nn, 胆固醇#NN, ``#NR)  (amod, 胆固醇#NN, 坏#JJ)  (nn, ''#NN, 胆固醇#NN)  (dobj, 降低#VV, ''#NN)  (mark, 降低#VV, 的#DEC)  (prep, 影响#VV, 同时#NN)  (advmod, 影响#VV, 还#AD)  (neg, 影响#VV, 不#AD)  (root, ROOT#null, 影响#VV)  (assmod, ``#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (dobj, 影响#VV, ``#NN)  (amod, 胆固醇#NN, 好#JJ)  (nsubj, ''#VV, 胆固醇#NN)  (dep, 影响#VV, ''#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增强#VV)  (nn, 功能#NN, 机体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)
+            (nsubj, 含有#VV, 大豆#NN)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (conj, 含有#VV, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (advmod, 必需#VV, 人体#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 含有#VV, 氨基酸#NN)  (mmod, 提高#VV, 可以#VV)  (conj, 含有#VV, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  辅助降血糖  延缓衰老  通便  行气宽中  健脾利湿  消肿毒  导滞
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.黄豆含蛋白质40%左右，在量和质上均可与动物蛋白比美，500克黄豆的蛋白质含量相当于1500克鸡蛋，或6000克牛奶，或1000克瘦猪肉，所以黄豆有“植物肉”及“绿色乳牛”之誉。
+            2.黄豆蛋白质中所含必需氨基酸较全，尤其富含赖氨酸，正好补充谷类赖氨酸不足的缺陷，而黄豆中缺乏的蛋氨酸，又可得到谷类的补充。
+            3.黄豆脂肪含量为18—20%，在豆类中占首位，出油率达20％。另外，比动物性脂肪优越之点是含胆固醇少，而富含亚麻油酸及亚麻油稀酸，这类不饱和脂肪酸使黄豆具有降低胆固醇的作用；卵磷脂也较多，这对神经系统的发育有重要意义。
+            4.含钾、钠等无机盐、某些必需微量元素、属异黄酮类的大豆黄酮苷(包括金雀异黄素)、染科木苷以及大豆皂苷。干黄豆内虽不含维生素C，但发芽后能产生维生素C，在蔬菜淡季，可补充食用。另外，黄豆还含有维生素A、B、D、E及钙、磷、铁等矿物质。
+            5.黄豆加工后的各种豆制品，不但蛋白质含量高，并含有多种人体不能合成而又必需的氨基酸，胆固醇含量中豆腐的蛋白质消化率高达95％，为理想的补益食疗之品。
+            需要注意的是，生黄豆中，含有抗胰蛋白酶因子，影响人体对黄豆内营养成分的吸收。所以食用黄豆及豆制食品，烧煮时间应长于一般食品，以高温来破坏这些因子，提高黄豆蛋白的营养价值。
+        </rawdata>
+
+        <segment>
+            黄豆含  蛋白质  40%  左右  ，  在  量  和  质上  均  可  与  动物  蛋白  比美  ，  500  克  黄豆  的  蛋白质  含量  相当于  1500  克  鸡蛋  ，  或  6000  克  牛奶  ，  或  1000  克  瘦  猪肉  ，  所以  黄豆  有  “  植物  肉  ”  及  “  绿色  乳牛  ”  之  誉  。
+            黄豆  蛋白质  中  所含  必需  氨基酸  较  全  ，  尤其  富含  赖氨酸  ，  正好  补充  谷类  赖氨酸  不足  的  缺陷  ，  而  黄豆中  缺乏  的  蛋氨酸  ，  又  可  得到  谷类  的  补充  。
+            黄豆  脂肪  含量  为  18  —  20%  ，  在  豆类  中  占  首位  ，  出油率  达  20％  。  另外  ，  比  动物性  脂肪  优越  之  点  是  含  胆固醇  少  ，  而  富含  亚麻  油酸  及  亚麻油  稀酸  ，  这  类  不  饱和  脂肪酸  使  黄豆  具有  降低  胆固醇  的  作用  ；  卵  磷脂  也  较  多  ，  这  对  神经  系统  的  发育  有  重要  意义  。
+            含钾  、  钠  等  无机盐  、  某些  必需  微量  元素  、  属异  黄酮类  的  大豆  黄酮苷  (  包括  金雀  异  黄素  )  、  染科木苷  以及  大豆  皂苷  。  干  黄豆  内  虽  不  含  维生素C  ，  但  发芽  后  能  产生  维生素C  ，  在  蔬菜  淡季  ，  可  补充  食用  。  另外  ，  黄豆  还  含有  维生素A  、  B  、  D  、  E及  钙  、  磷  、  铁  等  矿物质  。
+            黄豆  加工  后  的  各  种  豆制品  ，  不但  蛋白质  含量  高  ，  并  含有  多  种  人体  不  能  合成  而  又  必需  的  氨基酸  ，  胆固醇  含量  中  豆腐  的  蛋白质  消化率  高达  95％  ，  为  理想  的  补益  食疗  之  品  。
+            需要  注意  的  是  ，  生  黄豆中  ，  含有  抗  胰蛋白酶  因子  ，  影响  人体  对  黄豆  内  营养  成分  的  吸收  。  所以  食用  黄豆  及  豆制  食品  ，  烧煮  时间  应  长于  一般  食品  ，  以  高温  来  破坏  这些  因子  ，  提高  黄豆  蛋白  的  营养  价值  。
+        </segment>
+
+        <pos>
+            黄豆含#NN  蛋白质#NN  40#CD  %#NN  左右#LC  ，#PU  在#P  量#NN  和#CC  质上#NN  均#AD  可#VV  与#P  动物#NN  蛋白#VV  比美#NN  ，#PU  500#CD  克#M  黄豆#NN  的#DEG  蛋白质#NN  含量#NN  相当于#VV  1500#CD  克#M  鸡蛋#NN  ，#PU  或#CC  6000#CD  克#M  牛奶#NN  ，#PU  或#CC  1000#CD  克#M  瘦#NN  猪肉#NN  ，#PU  所以#AD  黄豆#AD  有#VE  ``#NN  植物#NN  肉#NN  ''#NN  及#CC  ``#NR  绿色#JJ  乳牛#NN  ''#NN  之#DEG  誉#NN  。#PU
+            黄豆#NN  蛋白质#NN  中#LC  所含#AD  必需#VV  氨基酸#NN  较#AD  全#VA  ，#PU  尤其#AD  富含#VV  赖氨酸#NN  ，#PU  正好#AD  补充#VV  谷类#NN  赖氨酸#NN  不足#VA  的#DEC  缺陷#NN  ，#PU  而#MSP  黄豆中#VV  缺乏#VV  的#DEC  蛋氨酸#NN  ，#PU  又#AD  可#VV  得到#VV  谷类#NN  的#DEC  补充#NN  。#PU
+            黄豆#NN  脂肪#NN  含量#NN  为#VC  18#CD  --#VV  20#CD  %#NN  ，#PU  在#P  豆类#NN  中#LC  占#VV  首位#NN  ，#PU  出油率#AD  达#VV  20#CD  ％#NN    。#PU  另外#AD  ，#PU  比#P  动物性#NN  脂肪#NN  优越#VA  之#DEC  点#NN  是#VC  含#VV  胆固醇#NN  少#VA  ，#PU  而#MSP  富含#VV  亚麻#NN  油酸#NN  及#CC  亚麻油#NN  稀酸#NN  ，#PU  这#DT  类#M  不#AD  饱和#JJ  脂肪酸#NN  使#VV  黄豆#NN  具有#VV  降低#VV  胆固醇#NN  的#DEC  作用#NN  ；#PU  卵#NN  磷脂#NN  也#AD  较#AD  多#VA  ，#PU  这#PN  对#P  神经#NN  系统#NN  的#DEG  发育#NN  有#VE  重要#JJ  意义#NN    。#PU    。#PU
+            含钾#NN  、#PU  钠#NN  等#ETC  无机盐#NN  、#PU  某些#DT  必需#VV  微量#NN  元素#NN  、#PU  属异#NN  黄酮类#NN  的#DEC  大豆#NN  黄酮苷#NN  -LRB-#NN  包括#VV  金雀#NN  异#NN  黄素#NN  -RRB-#NN  、#PU  染科木苷#NN  以及#CC  大豆#NN  皂苷#NN    。#PU  干#VV  黄豆#NN  内#LC  虽#CS  不#AD  含#VV  维生素C#NN  ，#PU  但#AD  发芽#NN  后#LC  能#VV  产生#VV  维生素C#NN  ，#PU  在#P  蔬菜#NN  淡季#NN  ，#PU  可#VV  补充#NN  食用#VV    。#PU  另外#AD  ，#PU  黄豆#NN  还#AD  含有#VV  维生素A#NR  、#PU  B#NR  、#PU  D#NR  、#PU  E及#NR  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN    。#PU    。#PU
+            黄豆#NN  加工#NN  后#LC  的#DEG  各#DT  种#M  豆制品#NN  ，#PU  不但#CC  蛋白质#NN  含量#NN  高#VA  ，#PU  并#CC  含有#NR  多#CD  种#M  人体#NN  不#AD  能#VV  合成#JJ  而#AD  又#AD  必需#VV  的#DEC  氨基酸#NN  ，#PU  胆固醇#NN  含量#NN  中#LC  豆腐#NN  的#DEG  蛋白质#NN  消化率#NN  高达#VV  95#CD  ％#NN  ，#PU  为#VC  理想#VA  的#DEC  补益#NN  食疗#NN  之#DEG  品#M  。#PU
+            需要#VV  注意#NN  的#DEC  是#VC  ，#PU  生#VV  黄豆中#NN  ，#PU  含有#VV  抗#NN  胰蛋白酶#NN  因子#NN  ，#PU  影响#VV  人体#VV  对#P  黄豆#NN  内#LC  营养#VA  成分#NN  的#DEC  吸收#NN    。#PU  所以#AD  食用#VV  黄豆#NN  及#CC  豆制#NN  食品#NN  ，#PU  烧煮#NN  时间#NN  应#VV  长于#VV  一般#JJ  食品#NN  ，#PU  以#P  高温#NN  来#MSP  破坏#VV  这些#DT  因子#NN  ，#PU  提高#VV  黄豆#NN  蛋白#NN  的#DEG  营养#VA  价值#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋白质#NN, 黄豆含#NN)  (nn, %#NN, 蛋白质#NN)  (nummod, %#NN, 40#CD)  (loc, 蛋白#VV, %#NN)  (case, %#NN, 左右#LC)  (case, 质上#NN, 在#P)  (conj, 质上#NN, 量#NN)  (cc, 质上#NN, 和#CC)  (prep, 蛋白#VV, 质上#NN)  (advmod, 蛋白#VV, 均#AD)  (mmod, 蛋白#VV, 可#VV)  (case, 动物#NN, 与#P)  (prep, 蛋白#VV, 动物#NN)  (root, ROOT#null, 蛋白#VV)  (dobj, 蛋白#VV, 比美#NN)  (nummod, 克#M, 500#CD)  (clf, 黄豆#NN, 克#M)  (assmod, 含量#NN, 黄豆#NN)  (case, 黄豆#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 相当于#VV, 含量#NN)  (conj, 蛋白#VV, 相当于#VV)  (nummod, 克#M, 1500#CD)  (clf, 鸡蛋#NN, 克#M)  (dobj, 相当于#VV, 鸡蛋#NN)  (cc, 相当于#VV, 或#CC)  (nummod, 克#M, 6000#CD)  (clf, 牛奶#NN, 克#M)  (dep, 猪肉#NN, 牛奶#NN)  (cc, 猪肉#NN, 或#CC)  (nummod, 克#M, 1000#CD)  (clf, 猪肉#NN, 克#M)  (nn, 猪肉#NN, 瘦#NN)  (nsubj, 有#VE, 猪肉#NN)  (advmod, 有#VE, 所以#AD)  (advmod, 有#VE, 黄豆#AD)  (conj, 相当于#VV, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 植物#NN)  (nn, ''#NN, 肉#NN)  (conj, ''#NN, ''#NN)  (cc, ''#NN, 及#CC)  (nn, 乳牛#NN, ``#NR)  (amod, 乳牛#NN, 绿色#JJ)  (nn, ''#NN, 乳牛#NN)  (assmod, 誉#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 誉#NN)
+            (nsubj, 必需#VV, 黄豆#NN)  (loc, 必需#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (advmod, 必需#VV, 所含#AD)  (root, ROOT#null, 必需#VV)  (nsubj, 全#VA, 氨基酸#NN)  (advmod, 全#VA, 较#AD)  (relcl, 补充#NN, 全#VA)  (advmod, 富含#VV, 尤其#AD)  (dep, 全#VA, 富含#VV)  (dobj, 富含#VV, 赖氨酸#NN)  (advmod, 补充#VV, 正好#AD)  (dep, 全#VA, 补充#VV)  (nn, 赖氨酸#NN, 谷类#NN)  (nsubj, 不足#VA, 赖氨酸#NN)  (relcl, 缺陷#NN, 不足#VA)  (mark, 不足#VA, 的#DEC)  (dobj, 补充#VV, 缺陷#NN)  (prtmod, 黄豆中#VV, 而#MSP)  (dep, 全#VA, 黄豆中#VV)  (relcl, 蛋氨酸#NN, 缺乏#VV)  (mark, 缺乏#VV, 的#DEC)  (dobj, 黄豆中#VV, 蛋氨酸#NN)  (advmod, 得到#VV, 又#AD)  (mmod, 得到#VV, 可#VV)  (dep, 全#VA, 得到#VV)  (dobj, 得到#VV, 谷类#NN)  (mark, 全#VA, 的#DEC)  (dobj, 必需#VV, 补充#NN)
+            (nn, 含量#NN, 黄豆#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 为#VC, 含量#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 18#CD)  (nummod, %#NN, 20#CD)  (dobj, --#VV, %#NN)  (case, 豆类#NN, 在#P)  (prep, 占#VV, 豆类#NN)  (case, 豆类#NN, 中#LC)  (dep, 为#VC, 占#VV)  (dobj, 占#VV, 首位#NN)  (advmod, 达#VV, 出油率#AD)  (dep, 为#VC, 达#VV)  (nummod, ％#NN, 20#CD)  (dobj, 达#VV, ％#NN)   (advmod, 含#VV, 另外#AD)  (case, 脂肪#NN, 比#P)  (nn, 脂肪#NN, 动物性#NN)  (prep, 优越#VA, 脂肪#NN)  (relcl, 点#NN, 优越#VA)  (mark, 优越#VA, 之#DEC)  (nsubj, 含#VV, 点#NN)  (cop, 含#VV, 是#VC)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 胆固醇#NN)  (conj, 含#VV, 少#VA)  (prtmod, 富含#VV, 而#MSP)  (dep, 含#VV, 富含#VV)  (nn, 稀酸#NN, 亚麻#NN)  (conj, 稀酸#NN, 油酸#NN)  (cc, 稀酸#NN, 及#CC)  (nn, 稀酸#NN, 亚麻油#NN)  (dobj, 富含#VV, 稀酸#NN)  (det, 脂肪酸#NN, 这#DT)  (clf, 这#DT, 类#M)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (nsubj, 使#VV, 脂肪酸#NN)  (conj, 含#VV, 使#VV)  (dobj, 使#VV, 黄豆#NN)  (dep, 使#VV, 具有#VV)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (nn, 磷脂#NN, 卵#NN)  (nsubj, 多#VA, 磷脂#NN)  (advmod, 多#VA, 也#AD)  (advmod, 多#VA, 较#AD)  (conj, 含#VV, 多#VA)  (nsubj, 有#VE, 这#PN)  (case, 发育#NN, 对#P)  (nn, 系统#NN, 神经#NN)  (assmod, 发育#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (prep, 有#VE, 发育#NN)  (conj, 含#VV, 有#VE)  (amod, 意义#NN, 重要#JJ)  (dobj, 有#VE, 意义#NN)   (root, ROOT#null, null#null)
+            (conj, 钠#NN, 含钾#NN)  (nn, 无机盐#NN, 钠#NN)  (etc, 钠#NN, 等#ETC)  (conj, -LRB-#NN, 无机盐#NN)  (det, -LRB-#NN, 某些#DT)  (relcl, -LRB-#NN, 必需#VV)  (nn, 黄酮类#NN, 微量#NN)  (conj, 黄酮类#NN, 元素#NN)  (nn, 黄酮类#NN, 属异#NN)  (dobj, 必需#VV, 黄酮类#NN)  (mark, 必需#VV, 的#DEC)  (nn, -LRB-#NN, 大豆#NN)  (nn, -LRB-#NN, 黄酮苷#NN)  (root, ROOT#null, 包括#VV)  (nn, 皂苷#NN, 金雀#NN)  (nn, 皂苷#NN, 异#NN)  (nn, 皂苷#NN, 黄素#NN)  (conj, 皂苷#NN, 染科木苷#NN)  (cc, 皂苷#NN, 以及#CC)  (nn, 皂苷#NN, 大豆#NN)  (dobj, 包括#VV, 皂苷#NN)   (root, ROOT#null, 干#VV)  (loc, 干#VV, 黄豆#NN)  (case, 黄豆#NN, 内#LC)  (advmod, 含#VV, 虽#CS)  (neg, 含#VV, 不#AD)  (dep, 产生#VV, 含#VV)  (dobj, 含#VV, 维生素C#NN)  (advmod, 产生#VV, 但#AD)  (loc, 产生#VV, 发芽#NN)  (case, 发芽#NN, 后#LC)  (mmod, 产生#VV, 能#VV)  (dep, 干#VV, 产生#VV)  (dobj, 产生#VV, 维生素C#NN)  (case, 淡季#NN, 在#P)  (nn, 淡季#NN, 蔬菜#NN)  (prep, 食用#VV, 淡季#NN)  (dep, 食用#VV, 可#VV)  (dobj, 可#VV, 补充#NN)  (dep, 产生#VV, 食用#VV)   (advmod, 含有#VV, 另外#AD)  (nsubj, 含有#VV, 黄豆#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, E及#NR, 维生素A#NR)  (conj, E及#NR, B#NR)  (conj, E及#NR, D#NR)  (nsubj, 矿物质#NN, E及#NR)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, 含有#VV, 矿物质#NN)   (root, ROOT#null, null#null)
+            (nn, 加工#NN, 黄豆#NN)  (assmod, 豆制品#NN, 加工#NN)  (case, 加工#NN, 后#LC)  (case, 加工#NN, 的#DEG)  (det, 豆制品#NN, 各#DT)  (clf, 各#DT, 种#M)  (dep, 含量#NN, 豆制品#NN)  (cc, 含量#NN, 不但#CC)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (cc, 高#VA, 并#CC)  (nn, 人体#NN, 含有#NR)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (nsubj, 能#VV, 人体#NN)  (neg, 能#VV, 不#AD)  (conj, 高#VA, 能#VV)  (amod, 氨基酸#NN, 合成#JJ)  (advmod, 必需#VV, 而#AD)  (advmod, 必需#VV, 又#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 能#VV, 氨基酸#NN)  (nn, 含量#NN, 胆固醇#NN)  (dep, 豆腐#NN, 含量#NN)  (case, 含量#NN, 中#LC)  (assmod, 消化率#NN, 豆腐#NN)  (case, 豆腐#NN, 的#DEG)  (nn, 消化率#NN, 蛋白质#NN)  (nsubj, 高达#VV, 消化率#NN)  (conj, 高#VA, 高达#VV)  (nummod, ％#NN, 95#CD)  (dobj, 高达#VV, ％#NN)  (cop, 品#M, 为#VC)  (relcl, 食疗#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 食疗#NN, 补益#NN)  (assmod, 品#M, 食疗#NN)  (case, 食疗#NN, 之#DEG)  (conj, 高#VA, 品#M)
+            (nsubj, 生#VV, 需要#VV)  (dobj, 需要#VV, 注意#NN)  (mark, 需要#VV, 的#DEC)  (cop, 生#VV, 是#VC)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 黄豆中#NN)  (dep, 生#VV, 含有#VV)  (nn, 因子#NN, 抗#NN)  (nn, 因子#NN, 胰蛋白酶#NN)  (dobj, 含有#VV, 因子#NN)  (dep, 生#VV, 影响#VV)  (relcl, 吸收#NN, 人体#VV)  (case, 黄豆#NN, 对#P)  (prep, 营养#VA, 黄豆#NN)  (case, 黄豆#NN, 内#LC)  (relcl, 成分#NN, 营养#VA)  (dobj, 人体#VV, 成分#NN)  (mark, 人体#VV, 的#DEC)  (dobj, 影响#VV, 吸收#NN)   (advmod, 食用#VV, 所以#AD)  (root, ROOT#null, 食用#VV)  (conj, 食品#NN, 黄豆#NN)  (cc, 食品#NN, 及#CC)  (nn, 食品#NN, 豆制#NN)  (dobj, 食用#VV, 食品#NN)  (nn, 时间#NN, 烧煮#NN)  (nsubj, 长于#VV, 时间#NN)  (mmod, 长于#VV, 应#VV)  (dep, 食用#VV, 长于#VV)  (amod, 食品#NN, 一般#JJ)  (dobj, 长于#VV, 食品#NN)  (case, 高温#NN, 以#P)  (prep, 破坏#VV, 高温#NN)  (prtmod, 破坏#VV, 来#MSP)  (conj, 长于#VV, 破坏#VV)  (det, 因子#NN, 这些#DT)  (dobj, 破坏#VV, 因子#NN)  (conj, 长于#VV, 提高#VV)  (nn, 蛋白#NN, 黄豆#NN)  (assmod, 价值#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (dobj, 提高#VV, 价值#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            生大豆含有不利健康的抗胰蛋白酶和凝血酶，所以大豆不宜生食，夹生黄豆也不宜吃，不宜干炒食用。食用时宜高温煮烂。
+            另外，黄豆不宜食用过多，以碍消化而致腹胀。
+        </rawdata>
+
+        <segment>
+            生  大豆  含有  不利  健康  的  抗  胰蛋白酶  和  凝血酶  ，  所以  大豆  不  宜  生食  ，  夹生  黄豆  也  不  宜  吃  ，  不  宜  干  炒  食用  。  食用  时宜  高温  煮烂  。
+            另外  ，  黄豆  不  宜  食用  过多  ，  以  碍  消化  而  致  腹胀  。
+        </segment>
+
+        <pos>
+            生#VV  大豆#AD  含有#AD  不利#VA  健康#VA  的#DEC  抗#NN  胰蛋白酶#NN  和#CC  凝血酶#NN  ，#PU  所以#AD  大豆#NN  不#AD  宜#NR  生食#VV  ，#PU  夹生#NN  黄豆#NN  也#AD  不#AD  宜#NR  吃#VV  ，#PU  不#AD  宜#NR  干#VV  炒#NN  食用#VV    。#PU  食用#VV  时宜#NN  高温#NN  煮烂#NN    。#PU    。#PU
+            另外#AD  ，#PU  黄豆#NN  不#AD  宜#NR  食用#VV  过多#NN  ，#PU  以#P  碍#NN  消化#NN  而#MSP  致#VV  腹胀#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 食用#VV, 生#VV)  (advmod, 不利#VA, 大豆#AD)  (advmod, 不利#VA, 含有#AD)  (relcl, 凝血酶#NN, 不利#VA)  (comod, 不利#VA, 健康#VA)  (mark, 不利#VA, 的#DEC)  (nn, 凝血酶#NN, 抗#NN)  (conj, 凝血酶#NN, 胰蛋白酶#NN)  (cc, 凝血酶#NN, 和#CC)  (dobj, 生#VV, 凝血酶#NN)  (advmod, 生食#VV, 所以#AD)  (nsubj, 生食#VV, 大豆#NN)  (neg, 生食#VV, 不#AD)  (prep, 生食#VV, 宜#NR)  (conj, 生#VV, 生食#VV)  (nn, 黄豆#NN, 夹生#NN)  (nsubj, 吃#VV, 黄豆#NN)  (advmod, 吃#VV, 也#AD)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (conj, 生#VV, 吃#VV)  (neg, 干#VV, 不#AD)  (prep, 干#VV, 宜#NR)  (conj, 生#VV, 干#VV)  (dobj, 干#VV, 炒#NN)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 食用#VV)  (nn, 煮烂#NN, 时宜#NN)  (nn, 煮烂#NN, 高温#NN)  (dobj, 食用#VV, 煮烂#NN)   (root, ROOT#null, null#null)
+            (advmod, 食用#VV, 另外#AD)  (nsubj, 食用#VV, 黄豆#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 过多#NN)  (case, 消化#NN, 以#P)  (nn, 消化#NN, 碍#NN)  (prep, 致#VV, 消化#NN)  (prtmod, 致#VV, 而#MSP)  (dep, 食用#VV, 致#VV)  (dobj, 致#VV, 腹胀#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/08183539579.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\283 黄豆.jpg
+    </picturelocalurl>
+
+</content>

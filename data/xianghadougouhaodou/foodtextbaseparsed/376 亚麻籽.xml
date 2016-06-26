@@ -1,0 +1,243 @@
+<content>
+
+    <id>
+        376
+    </id>
+
+    <foodname>
+        亚麻籽
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        亚麻子、亚麻仁、胡麻子、壁虱胡麻、大胡麻、胡麻仁
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃弱、大便滑泄、孕妇忌服。
+        </rawdata>
+
+        <segment>
+            胃弱  、  大便  滑  泄  、  孕妇  忌服  。
+        </segment>
+
+        <pos>
+            胃弱#NR  、#PU  大便#NR  滑#VV  泄#NN  、#PU  孕妇#NN  忌服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 大便#NR, 胃弱#NR)  (nsubj, 滑#VV, 大便#NR)  (root, ROOT#null, 滑#VV)  (conj, 忌服#NN, 泄#NN)  (nn, 忌服#NN, 孕妇#NN)  (dobj, 滑#VV, 忌服#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            亚麻子为亚麻科植物亚麻的种子。8-10月间果实成熟时割取全草，捆成小把，晒干，打取种子，除净杂质，晒干。
+            这种小的红棕色果实，有极强的坚果风味，即使在烤制食品中也是如此。实际上，许多欧洲国家，在几乎所有的食品中，面包师都经常使用这种谷物，如饼干、蛋糕、面包等。
+        </rawdata>
+
+        <segment>
+            亚麻子  为  亚麻科  植物  亚麻  的  种子  。  8  -  10月  间  果实  成熟  时  割取  全  草  ，  捆成  小把  ，  晒干  ，  打取  种子  ，  除净  杂质  ，  晒干  。
+            这  种  小的  红  棕色  果实  ，  有  极  强  的  坚果  风味  ，  即使  在  烤制  食品  中  也  是  如此  。  实际上  ，  许多  欧洲  国家  ，  在  几乎  所有  的  食品  中  ，  面包师  都  经常  使用  这  种  谷物  ，  如  饼干  、  蛋糕  、  面包  等  。
+        </segment>
+
+        <pos>
+            亚麻子#NN  为#VC  亚麻科#NN  植物#NN  亚麻#NN  的#DEG  种子#NN    。#PU  8#CD  -#NN  10月#NT  间#LC  果实#NN  成熟#VA  时#LC  割取#VV  全#DT  草#NN  ，#PU  捆成#VV  小把#NN  ，#PU  晒干#VV  ，#PU  打取#VV  种子#NN  ，#PU  除净#VV  杂质#NN  ，#PU  晒干#VV    。#PU    。#PU
+            这#DT  种#M  小的#NN  红#JJ  棕色#NN  果实#NN  ，#PU  有#VE  极#AD  强#VA  的#DEC  坚果#NN  风味#NN  ，#PU  即使#AD  在#P  烤制#NN  食品#NN  中#LC  也#AD  是#VC  如此#PN    。#PU  实际上#AD  ，#PU  许多#CD  欧洲#NR  国家#NN  ，#PU  在#P  几乎#AD  所有#DT  的#DEG  食品#NN  中#LC  ，#PU  面包师#AD  都#AD  经常#AD  使用#VV  这#DT  种#M  谷物#NN  ，#PU  如#AD  饼干#NN  、#PU  蛋糕#NN  、#PU  面包#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 种子#NN, 亚麻子#NN)  (cop, 种子#NN, 为#VC)  (nn, 亚麻#NN, 亚麻科#NN)  (nn, 亚麻#NN, 植物#NN)  (assmod, 种子#NN, 亚麻#NN)  (case, 亚麻#NN, 的#DEG)  (root, ROOT#null, 种子#NN)   (nummod, -#NN, 8#CD)  (loc, 成熟#VA, 10月#NT)  (case, 10月#NT, 间#LC)  (nsubj, 成熟#VA, 果实#NN)  (loc, 割取#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (root, ROOT#null, 割取#VV)  (det, 草#NN, 全#DT)  (dobj, 割取#VV, 草#NN)  (conj, 割取#VV, 捆成#VV)  (dobj, 捆成#VV, 小把#NN)  (conj, 割取#VV, 晒干#VV)  (conj, 割取#VV, 打取#VV)  (dobj, 打取#VV, 种子#NN)  (conj, 割取#VV, 除净#VV)  (dobj, 除净#VV, 杂质#NN)  (conj, 割取#VV, 晒干#VV)   (root, ROOT#null, null#null)
+            (det, 小的#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 有#VE, 小的#NN)  (amod, 棕色#NN, 红#JJ)  (nn, 果实#NN, 棕色#NN)  (nsubj, 有#VE, 果实#NN)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 极#AD)  (relcl, 风味#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 风味#NN, 坚果#NN)  (dobj, 有#VE, 风味#NN)  (prep, 如此#PN, 即使#AD)  (case, 食品#NN, 在#P)  (nn, 食品#NN, 烤制#NN)  (dep, 即使#AD, 食品#NN)  (case, 食品#NN, 中#LC)  (advmod, 如此#PN, 也#AD)  (cop, 如此#PN, 是#VC)  (conj, 有#VE, 如此#PN)   (advmod, 使用#VV, 实际上#AD)  (nummod, 国家#NN, 许多#CD)  (nn, 国家#NN, 欧洲#NR)  (dep, 使用#VV, 国家#NN)  (case, 食品#NN, 在#P)  (dep, 所有#DT, 几乎#AD)  (assmod, 食品#NN, 所有#DT)  (case, 所有#DT, 的#DEG)  (prep, 使用#VV, 食品#NN)  (case, 食品#NN, 中#LC)  (advmod, 使用#VV, 面包师#AD)  (advmod, 使用#VV, 都#AD)  (advmod, 使用#VV, 经常#AD)  (root, ROOT#null, 使用#VV)  (det, 谷物#NN, 这#DT)  (clf, 这#DT, 种#M)  (dep, 面包#NN, 谷物#NN)  (advmod, 面包#NN, 如#AD)  (conj, 面包#NN, 饼干#NN)  (conj, 面包#NN, 蛋糕#NN)  (dobj, 使用#VV, 面包#NN)  (etc, 面包#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            亚麻籽味甘、性平；归肝、胃、大肠经。养血祛风；润燥通便。主麻风；皮肤干燥；瘙痒；脱发；疮疡湿疹；肠燥便秘。
+            1.调节血脂
+            血脂异常严重威胁人类健康和生命，它是动脉粥样硬化病灶形成和进展的重要危险因素，已证实调脂药物可以延缓动脉粥样硬化事件(如心肌梗死和卒中)的发生。很多实验得出α-亚麻酸具有降低血清总胆固醇(TC)、甘油三酯(TG)、低密度脂蛋白和极低密度蛋白，升高血清高密度脂蛋白的作用。
+            2.降低胆固醇
+            在α—亚麻酸降低血清胆固醇的机理中，除增加胆固醇排泄外，抑制内源性胆固醇合成也很重要。
+            3.预防梗塞
+            α—亚麻酸的调节血脂功能可以降低胆固醇、甘油三酯、LDL、VLDL、升高HDL，发挥抗血栓的作用。
+            4.降低血液粘稠度
+            α—亚麻酸可以调节糖、脂肪和蛋白质的代谢，降低血液中可溶性蛋白质的水平，增加血液的流动性，在补充α—亚麻酸90天左右即可见到效果。
+            5.防治糖尿病
+            α—亚麻酸可促进胰岛素β—细胞分泌胰岛素及使胰岛素在血液中维持稳定，可降低靶细胞对胰岛素的抵抗，提高细胞膜上胰岛素受体的敏感度，减少胰岛素的拮抗性。
+            患糖尿病时，肌体内的脂肪分解加速，脂类代谢紊乱引起血脂增高，导致血管硬化、高血脂症、脂肪肝和高血压等并发症。此外，脂肪过度分解，会产生酮体，如酮体超过机体的利用限度，大量在体内堆积，就会产生酮症酸中毒。α—亚麻酸在人体内可调节脂类代谢，抑制并发症，降低酸、酮中毒的机率。同时α—亚麻酸对人体各器官及神经系统的保护作用和增强作用对糖尿病人是大有裨益的。
+            6.降血压
+            α—亚麻酸及其代谢物EPA、DHA能使高血压患者的血压降低。
+            7.减肥
+            α—亚麻酸在减少肥胖病人体重方面不同于任何其它药物。其主要通过以下两个途径来实现：一是增加代谢率；二是抑制甘油三脂的合成，增加体内各种脂质的排泄。但要达到减肥效果，服用量要相对增加。
+            8.抑制过敏反应
+            α—亚麻酸具有抗过敏的作用。
+            9.抗炎
+            α—亚麻酸对各种炎症介质和细胞因子有抑制作用，并且不会带来不良反应，给这一类疾病的治疗带来新思路。
+            10.保护视力
+            α—亚麻酸而来的二十二碳六烯酸(DHA)在脑神经和视网膜中大量存在，α—亚麻酸缺乏，则视力降低。
+            11.增强智力
+            α—亚麻酸而来的二十二碳六烯酸(DHA)在脑神经和视网膜中大量存在，从胎儿到哺乳这个期间脑的发育是非常重要的。到离乳时脑细胞分裂大部分已结束，以后神经细胞数也不怎么增加，所以妊娠期到哺乳期的α—亚麻酸补给是非常必要的。
+            12.保健
+            此外，α—亚麻酸还有抗癌、抗衰老、抗抑郁、预防老年性痴呆等方面的作用，在维持人类正常生长发育、维护皮肤正常状态是必不可少的。
+        </rawdata>
+
+        <segment>
+            亚麻  籽味  甘  、  性平  ；  归肝  、  胃  、  大肠  经  。  养  血  祛风  ；  润燥  通便  。  主  麻风  ；  皮肤  干燥  ；  瘙痒  ；  脱发  ；  疮疡  湿疹  ；  肠燥  便秘  。
+            调节  血脂
+            血脂  异常  严重  威胁  人类  健康  和  生命  ，  它  是  动脉  粥样  硬化  病灶  形成  和  进展  的  重要  危险  因素  ，  已  证实  调脂  药物  可以  延缓  动脉  粥样  硬化  事件  (  如  心肌梗死  和  卒中  )  的  发生  。  很多  实验  得出  α  -  亚麻酸  具有  降低  血清  总  胆固醇  (  TC  )  、  甘油  三  酯  (  TG  )  、  低密度  脂蛋白  和  极低  密度  蛋白  ，  升高  血清  高密度  脂蛋白  的  作用  。
+            降低  胆固醇
+            在  α  —  亚麻酸  降低  血清  胆固醇  的  机理  中  ，  除  增加  胆固醇  排泄  外  ，  抑制  内源性  胆固醇  合成  也  很  重要  。
+            预防  梗塞
+            α  —  亚麻酸  的  调节  血脂  功能  可以  降低  胆固醇  、  甘油  三  酯  、  LDL  、  VLDL  、  升高  HDL  ，  发挥  抗  血栓  的  作用  。
+            降低  血液  粘稠度
+            α  —  亚麻酸  可以  调节  糖  、  脂肪  和  蛋白质  的  代谢  ，  降低  血液  中  可  溶性  蛋白  质  的  水平  ，  增加  血液  的  流动性  ，  在  补充  α  —  亚麻酸  90  天  左右  即  可  见到  效果  。
+            防治  糖尿病
+            α  —  亚麻酸  可  促进  胰岛素  β  —  细胞  分泌  胰岛素  及  使  胰岛素  在  血液  中  维持  稳定  ，  可降低  靶  细胞  对  胰岛素  的  抵抗  ，  提高  细胞膜  上  胰岛素  受体  的  敏感度  ，  减少  胰岛素  的  拮抗性  。
+            患  糖尿病  时  ，  肌体  内  的  脂肪  分解  加速  ，  脂类  代谢  紊乱  引起  血脂  增高  ，  导致  血管  硬化  、  高血脂症  、  脂肪肝  和  高血压  等  并发症  。  此外  ，  脂肪  过度  分解  ，  会  产生  酮体  ，  如  酮体  超过  机体  的  利用  限度  ，  大量  在  体内  堆积  ，  就  会  产生  酮症  酸中毒  。  α  —  亚麻酸  在  人体  内  可  调节  脂类  代谢  ，  抑制  并发症  ，  降低  酸  、  酮中毒  的  机率  。  同时  α  —  亚麻酸  对  人体  各  器官  及  神经  系统  的  保护  作用  和  增强  作用  对  糖尿  病人  是  大有裨益  的  。
+            降  血压
+            α  —  亚麻酸  及其  代谢物  EPA  、  DHA  能使  高血压  患者  的  血压  降低  。
+            减肥
+            α  —  亚麻酸  在  减少  肥胖  病人  体重  方面  不同于  任何  其它  药物  。  其  主要  通过  以下  两  个  途径  来  实现  ：  一  是  增加  代谢率  ；  二  是  抑制  甘油  三  脂  的  合成  ，  增加  体内  各  种  脂质  的  排泄  。  但  要  达到  减肥  效果  ，  服用量  要  相对  增加  。
+            抑制  过敏  反应
+            α  —  亚麻酸  具有  抗  过敏  的  作用  。
+            抗炎
+            α  —  亚麻酸  对  各  种  炎症  介质  和  细胞  因子  有  抑制  作用  ，  并且  不  会  带来  不良  反应  ，  给  这  一  类  疾病  的  治疗  带来  新  思路  。
+            .  保护  视力
+            α  —  亚麻酸  而  来  的  二十二  碳  六  烯酸  (  DHA  )  在  脑神经  和  视网膜  中  大量  存在  ，  α  —  亚麻酸  缺乏  ，  则  视力  降低  。
+            .  增强  智力
+            α  —  亚麻酸  而  来  的  二十二  碳  六  烯酸  (  DHA  )  在  脑神经  和  视网膜  中  大量  存在  ，  从  胎儿  到  哺乳  这个  期间  脑  的  发育  是  非常  重要  的  。  到  离乳  时  脑  细胞  分裂  大部分  已  结束  ，  以后  神经  细胞  数  也  不  怎么  增加  ，  所以  妊娠期  到  哺乳期  的  α  —  亚麻酸  补给  是  非常  必要  的  。
+            .  保健
+            此外  ，  α  —  亚麻酸  还有  抗癌  、  抗  衰老  、  抗  抑郁  、  预防  老年性  痴呆  等  方面  的  作用  ，  在  维持  人类  正常  生长  发育  、  维护  皮肤  正常  状态  是  必不可少  的  。
+        </segment>
+
+        <pos>
+            亚麻#NR  籽味#NR  甘#NR  、#PU  性平#NR  ；#PU  归肝#NR  、#PU  胃#NR  、#PU  大肠#NR  经#VV    。#PU  养#VV  血#NN  祛风#NN  ；#PU  润燥#VV  通便#NN    。#PU  主#NN  麻风#VV  ；#PU  皮肤#VV  干燥#NN  ；#PU  瘙痒#VV  ；#PU  脱发#VV  ；#PU  疮疡#VV  湿疹#NN  ；#PU  肠燥#VV  便秘#NN    。#PU    。#PU
+            调节#VV  血脂#NN
+            血脂#NR  异常#AD  严重#VA  威胁#NN  人类#NN  健康#NN  和#CC  生命#NN  ，#PU  它#PN  是#VC  动脉#NN  粥样#NN  硬化#NN  病灶#NN  形成#NN  和#CC  进展#NN  的#DEG  重要#JJ  危险#NN  因素#NN  ，#PU  已#AD  证实#VV  调脂#NN  药物#NN  可以#VV  延缓#NN  动脉#NN  粥样#NN  硬化#NN  事件#NN  -LRB-#VV  如#P  心肌梗死#NN  和#CC  卒中#NN  -RRB-#NN  的#DEG  发生#NN    。#PU  很多#CD  实验#NN  得出#VV  α#NN  -#NN  亚麻酸#NN  具有#VV  降低#VV  血清#NR  总#JJ  胆固醇#NN  -LRB-#NN  TC#NN  -RRB-#NN  、#PU  甘油#NR  三#CD  酯#NN  -LRB-#NN  TG#NN  -RRB-#NN  、#PU  低密度#NN  脂蛋白#NN  和#CC  极低#NN  密度#NN  蛋白#NN  ，#PU  升高#VV  血清#NN  高密度#NN  脂蛋白#NN  的#DEC  作用#NN    。#PU    。#PU
+            降低#VV  胆固醇#NN
+            在#P  α#NN  --#NN  亚麻酸#AD  降低#VV  血清#NN  胆固醇#NN  的#DEC  机理#NN  中#LC  ，#PU  除#P  增加#VV  胆固醇#NN  排泄#NN  外#LC  ，#PU  抑制#VV  内源性#NN  胆固醇#NN  合成#JJ  也#CC  很#AD  重要#VA  。#PU
+            预防#VV  梗塞#NN
+            α#NN  --#NN  亚麻酸#NN  的#DEG  调节#VV  血脂#NN  功能#NN  可以#VV  降低#VV  胆固醇#NN  、#PU  甘油#VV  三#CD  酯#NN  、#PU  LDL#NN  、#PU  VLDL#NN  、#PU  升高#VV  HDL#NN  ，#PU  发挥#VV  抗#NN  血栓#NN  的#DEG  作用#NN  。#PU
+            降低#VV  血液#NN  粘稠度#NN
+            α#NN  --#NN  亚麻酸#NN  可以#VV  调节#VV  糖#NN  、#PU  脂肪#NN  和#CC  蛋白质#NN  的#DEG  代谢#NN  ，#PU  降低#VV  血液#NN  中#LC  可#VV  溶性#VV  蛋白#NN  质#NN  的#DEC  水平#NN  ，#PU  增加#VV  血液#NN  的#DEG  流动性#NN  ，#PU  在#P  补充#NN  α#NN  --#NN  亚麻酸#NN  90#CD  天#M  左右#LC  即#AD  可#VV  见到#VV  效果#NN  。#PU
+            防治#VV  糖尿病#NN
+            α#NN  --#NN  亚麻酸#NN  可#VV  促进#VV  胰岛素#NN  β#NN  --#NN  细胞#NN  分泌#NN  胰岛素#NN  及#CC  使#VV  胰岛素#NN  在#P  血液#NN  中#LC  维持#VV  稳定#NN  ，#PU  可降低#VV  靶#NN  细胞#NN  对#P  胰岛素#NN  的#DEG  抵抗#VV  ，#PU  提高#VV  细胞膜#NN  上#LC  胰岛素#NN  受体#NN  的#DEG  敏感度#NN  ，#PU  减少#VV  胰岛素#NN  的#DEC  拮抗性#NN  。#PU
+            患#NN  糖尿病#NN  时#LC  ，#PU  肌体#NN  内#LC  的#DEG  脂肪#NN  分解#VV  加速#VV  ，#PU  脂类#NN  代谢#NN  紊乱#AD  引起#VV  血脂#NN  增高#VV  ，#PU  导致#VV  血管#NN  硬化#NR  、#PU  高血脂症#NR  、#PU  脂肪肝#NR  和#CC  高血压#NR  等#ETC  并发症#NN    。#PU  此外#AD  ，#PU  脂肪#NN  过度#AD  分解#VV  ，#PU  会#VV  产生#VV  酮体#NN  ，#PU  如#CS  酮体#AD  超过#VV  机体#NN  的#DEC  利用#NN  限度#NN  ，#PU  大量#AD  在#P  体内#NN  堆积#NN  ，#PU  就#AD  会#VV  产生#VV  酮症#NN  酸中毒#NN    。#PU  α#NN  --#NN  亚麻酸#NN  在#P  人体#NN  内#LC  可#VV  调节#VV  脂类#NN  代谢#NN  ，#PU  抑制#VV  并发症#NN  ，#PU  降低#VV  酸#VA  、#PU  酮中毒#VA  的#DEC  机率#NN    。#PU  同时#AD  α#NN  --#AD  亚麻酸#VV  对#P  人体#NR  各#DT  器官#NN  及#CC  神经#NN  系统#NN  的#DEG  保护#NN  作用#NN  和#CC  增强#VV  作用#NN  对#P  糖尿#NN  病人#NN  是#VC  大有裨益#VA  的#DEC    。#PU    。#PU
+            降#NN  血压#VA
+            α#NN  --#NN  亚麻酸#VV  及其#NN  代谢物#NN  EPA#NN  、#PU  DHA#NN  能使#NN  高血压#NN  患者#NN  的#DEG  血压#NN  降低#VV  。#PU
+            减肥#VV
+            α#NN  --#NN  亚麻酸#NN  在#P  减少#VV  肥胖#NN  病人#NN  体重#NN  方面#NN  不同于#VV  任何#DT  其它#DT  药物#NN    。#PU  其#PN  主要#AD  通过#P  以下#JJ  两#CD  个#M  途径#NN  来#MSP  实现#VV  ：#PU  一#CD  是#VC  增加#NN  代谢率#NN  ；#PU  二#CD  是#VC  抑制#VV  甘油#NR  三#CD  脂#NN  的#DEC  合成#JJ  ，#PU  增加#VV  体内#NN  各#DT  种#M  脂质#NN  的#DEG  排泄#NN    。#PU  但#AD  要#VV  达到#VV  减肥#VV  效果#NN  ，#PU  服用量#NN  要#VV  相对#AD  增加#VV    。#PU    。#PU
+            抑制#VV  过敏#NN  反应#NN
+            α#NN  --#NN  亚麻酸#AD  具有#VV  抗#NN  过敏#NN  的#DEG  作用#NN  。#PU
+            抗炎#VV
+            α#NN  --#NN  亚麻酸#NN  对#P  各#DT  种#M  炎症#NN  介质#NN  和#CC  细胞#NN  因子#NN  有#VE  抑制#NN  作用#NN  ，#PU  并且#CC  不#AD  会#VV  带来#VV  不良#JJ  反应#NN  ，#PU  给#P  这#DT  一#CD  类#M  疾病#NN  的#DEG  治疗#NN  带来#VV  新#JJ  思路#NN  。#PU
+            .#NN  保护#NN  视力#NN
+            α#NN  --#NN  亚麻酸#NN  而#MSP  来#VV  的#DEC  二十二#CD  碳#NN  六#CD  烯酸#NN  -LRB-#NN  DHA#NN  -RRB-#NN  在#P  脑神经#NN  和#CC  视网膜#NN  中#LC  大量#AD  存在#VV  ，#PU  α#NN  --#NN  亚麻酸#AD  缺乏#VV  ，#PU  则#AD  视力#AD  降低#VV  。#PU
+            .#NN  增强#VV  智力#NN
+            α#NN  --#NN  亚麻酸#NN  而#MSP  来#VV  的#DEC  二十二#CD  碳#NN  六#CD  烯酸#NN  -LRB-#NN  DHA#NN  -RRB-#NN  在#P  脑神经#NN  和#CC  视网膜#NN  中#LC  大量#AD  存在#VV  ，#PU  从#P  胎儿#NN  到#P  哺乳#NN  这个#NN  期间#NN  脑#VV  的#DEC  发育#NN  是#VC  非常#AD  重要#VA  的#DEC    。#PU  到#P  离乳#NN  时#LC  脑#NN  细胞#NN  分裂#NN  大部分#CD  已#AD  结束#VV  ，#PU  以后#AD  神经#NN  细胞#NN  数#NN  也#AD  不#AD  怎么#AD  增加#VV  ，#PU  所以#AD  妊娠期#AD  到#VV  哺乳期#NN  的#DEC  α#NN  --#NN  亚麻酸#NN  补给#NN  是#VC  非常#AD  必要#VA  的#DEC    。#PU    。#PU
+            .#VV  保健#NN
+            此外#AD  ，#PU  α#AD  --#VV  亚麻酸#NR  还有#AD  抗癌#NN  、#PU  抗#NN  衰老#NN  、#PU  抗#NN  抑郁#NN  、#PU  预防#NN  老年性#NN  痴呆#NN  等#ETC  方面#NN  的#DEG  作用#NN  ，#PU  在#P  维持#VV  人类#NN  正常#JJ  生长#NN  发育#VV  、#PU  维护#VV  皮肤#NR  正常#JJ  状态#NN  是#VC  必不可少#VA  的#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 性平#NR, 亚麻#NR)  (nn, 性平#NR, 籽味#NR)  (conj, 性平#NR, 甘#NR)  (nsubj, 经#VV, 性平#NR)  (conj, 大肠#NR, 归肝#NR)  (conj, 大肠#NR, 胃#NR)  (nsubj, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (root, ROOT#null, 养#VV)  (nn, 祛风#NN, 血#NN)  (dobj, 养#VV, 祛风#NN)  (conj, 养#VV, 润燥#VV)  (dobj, 润燥#VV, 通便#NN)   (nsubj, 麻风#VV, 主#NN)  (root, ROOT#null, 麻风#VV)  (ccomp, 麻风#VV, 皮肤#VV)  (dobj, 皮肤#VV, 干燥#NN)  (dep, 皮肤#VV, 瘙痒#VV)  (dep, 皮肤#VV, 脱发#VV)  (dep, 皮肤#VV, 疮疡#VV)  (dobj, 疮疡#VV, 湿疹#NN)  (dep, 皮肤#VV, 肠燥#VV)  (dobj, 肠燥#VV, 便秘#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 血脂#NN)
+            (nsubj, 严重#VA, 血脂#NR)  (advmod, 严重#VA, 异常#AD)  (root, ROOT#null, 严重#VA)  (nn, 人类#NN, 威胁#NN)  (nn, 生命#NN, 人类#NN)  (conj, 生命#NN, 健康#NN)  (cc, 生命#NN, 和#CC)  (nsubj, 因素#NN, 生命#NN)  (nsubj, 因素#NN, 它#PN)  (cop, 因素#NN, 是#VC)  (nn, 进展#NN, 动脉#NN)  (nn, 进展#NN, 粥样#NN)  (nn, 进展#NN, 硬化#NN)  (nn, 进展#NN, 病灶#NN)  (conj, 进展#NN, 形成#NN)  (cc, 进展#NN, 和#CC)  (assmod, 因素#NN, 进展#NN)  (case, 进展#NN, 的#DEG)  (amod, 因素#NN, 重要#JJ)  (nn, 因素#NN, 危险#NN)  (conj, 严重#VA, 因素#NN)  (advmod, 证实#VV, 已#AD)  (conj, 因素#NN, 证实#VV)  (nn, 药物#NN, 调脂#NN)  (dobj, 证实#VV, 药物#NN)  (dep, 证实#VV, 可以#VV)  (nn, 动脉#NN, 延缓#NN)  (dobj, 可以#VV, 动脉#NN)  (nn, 事件#NN, 粥样#NN)  (nn, 事件#NN, 硬化#NN)  (nsubj, -LRB-#VV, 事件#NN)  (case, -RRB-#NN, 如#P)  (conj, -RRB-#NN, 心肌梗死#NN)  (cc, -RRB-#NN, 和#CC)  (nn, -RRB-#NN, 卒中#NN)  (case, -RRB-#NN, 的#DEG)  (dobj, -LRB-#VV, 发生#NN)   (nummod, 实验#NN, 很多#CD)  (nsubj, 得出#VV, 实验#NN)  (root, ROOT#null, 得出#VV)  (nn, 亚麻酸#NN, α#NN)  (dobj, 得出#VV, 亚麻酸#NN)  (conj, 得出#VV, 具有#VV)  (relcl, 作用#NN, 降低#VV)  (nn, 胆固醇#NN, 血清#NR)  (amod, 胆固醇#NN, 总#JJ)  (nn, -RRB-#NN, 胆固醇#NN)  (nn, -RRB-#NN, TC#NN)  (nn, 酯#NN, 甘油#NR)  (nummod, 酯#NN, 三#CD)  (nn, -RRB-#NN, 酯#NN)  (nn, -RRB-#NN, TG#NN)  (nn, 脂蛋白#NN, 低密度#NN)  (conj, 蛋白#NN, 脂蛋白#NN)  (cc, 蛋白#NN, 和#CC)  (nn, 蛋白#NN, 极低#NN)  (nn, 蛋白#NN, 密度#NN)  (dobj, 降低#VV, 蛋白#NN)  (conj, 降低#VV, 升高#VV)  (nn, 脂蛋白#NN, 血清#NN)  (nn, 脂蛋白#NN, 高密度#NN)  (dobj, 升高#VV, 脂蛋白#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)
+            (case, 机理#NN, 在#P)  (nn, --#NN, α#NN)  (advmod, 降低#VV, 亚麻酸#AD)  (relcl, 机理#NN, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (prep, 抑制#VV, 机理#NN)  (case, 机理#NN, 中#LC)  (case, 增加#VV, 除#P)  (prep, 抑制#VV, 增加#VV)  (nn, 排泄#NN, 胆固醇#NN)  (dobj, 增加#VV, 排泄#NN)  (case, 增加#VV, 外#LC)  (root, ROOT#null, 抑制#VV)  (nn, 胆固醇#NN, 内源性#NN)  (dobj, 抑制#VV, 胆固醇#NN)  (conj, 抑制#VV, 合成#JJ)  (cc, 抑制#VV, 也#CC)  (advmod, 重要#VA, 很#AD)  (conj, 抑制#VV, 重要#VA)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 梗塞#NN)
+            (nn, 亚麻酸#NN, α#NN)  (assmod, 功能#NN, 亚麻酸#NN)  (case, 亚麻酸#NN, 的#DEG)  (nfincl, 功能#NN, 调节#VV)  (dobj, 调节#VV, 血脂#NN)  (nsubj, 降低#VV, 功能#NN)  (mmod, 降低#VV, 可以#VV)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 甘油#VV)  (nummod, VLDL#NN, 三#CD)  (conj, VLDL#NN, 酯#NN)  (conj, VLDL#NN, LDL#NN)  (dobj, 甘油#VV, VLDL#NN)  (conj, 降低#VV, 升高#VV)  (dobj, 升高#VV, HDL#NN)  (conj, 降低#VV, 发挥#VV)  (nn, 血栓#NN, 抗#NN)  (assmod, 作用#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 发挥#VV, 作用#NN)
+            (root, ROOT#null, 降低#VV)  (nn, 粘稠度#NN, 血液#NN)  (dobj, 降低#VV, 粘稠度#NN)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 调节#VV, 亚麻酸#NN)  (mmod, 调节#VV, 可以#VV)  (root, ROOT#null, 调节#VV)  (conj, 蛋白质#NN, 糖#NN)  (conj, 蛋白质#NN, 脂肪#NN)  (cc, 蛋白质#NN, 和#CC)  (assmod, 代谢#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (dobj, 调节#VV, 代谢#NN)  (conj, 调节#VV, 降低#VV)  (loc, 溶性#VV, 血液#NN)  (case, 血液#NN, 中#LC)  (mmod, 溶性#VV, 可#VV)  (relcl, 水平#NN, 溶性#VV)  (nn, 质#NN, 蛋白#NN)  (dobj, 溶性#VV, 质#NN)  (mark, 溶性#VV, 的#DEC)  (dobj, 降低#VV, 水平#NN)  (conj, 调节#VV, 增加#VV)  (assmod, 流动性#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (dobj, 增加#VV, 流动性#NN)  (case, 天#M, 在#P)  (nn, 亚麻酸#NN, 补充#NN)  (nn, 亚麻酸#NN, α#NN)  (dep, 天#M, 亚麻酸#NN)  (nummod, 天#M, 90#CD)  (prep, 见到#VV, 天#M)  (case, 天#M, 左右#LC)  (advmod, 见到#VV, 即#AD)  (mmod, 见到#VV, 可#VV)  (conj, 调节#VV, 见到#VV)  (dobj, 见到#VV, 效果#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 糖尿病#NN)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 促进#VV, 亚麻酸#NN)  (mmod, 促进#VV, 可#VV)  (root, ROOT#null, 促进#VV)  (nn, 胰岛素#NN, 胰岛素#NN)  (nn, 胰岛素#NN, β#NN)  (nn, 胰岛素#NN, 细胞#NN)  (nn, 胰岛素#NN, 分泌#NN)  (dobj, 促进#VV, 胰岛素#NN)  (cc, 促进#VV, 及#CC)  (conj, 促进#VV, 使#VV)  (dobj, 使#VV, 胰岛素#NN)  (case, 血液#NN, 在#P)  (prep, 维持#VV, 血液#NN)  (case, 血液#NN, 中#LC)  (dep, 使#VV, 维持#VV)  (dobj, 维持#VV, 稳定#NN)  (dep, 维持#VV, 可降低#VV)  (nn, 细胞#NN, 靶#NN)  (nn, 拮抗性#NN, 细胞#NN)  (case, 胰岛素#NN, 对#P)  (assmod, 拮抗性#NN, 胰岛素#NN)  (case, 胰岛素#NN, 的#DEG)  (relcl, 细胞#NN, 抵抗#VV)  (relcl, 拮抗性#NN, 抵抗#VV)  (conj, 抵抗#VV, 提高#VV)  (dep, 敏感度#NN, 细胞膜#NN)  (case, 细胞膜#NN, 上#LC)  (nn, 受体#NN, 胰岛素#NN)  (assmod, 敏感度#NN, 受体#NN)  (case, 受体#NN, 的#DEG)  (dobj, 提高#VV, 敏感度#NN)  (conj, 抵抗#VV, 减少#VV)  (dobj, 减少#VV, 胰岛素#NN)  (mark, 抵抗#VV, 的#DEC)  (dobj, 可降低#VV, 拮抗性#NN)
+            (nsubj, 分解#VV, 患#NN)  (loc, 分解#VV, 糖尿病#NN)  (case, 糖尿病#NN, 时#LC)  (assmod, 脂肪#NN, 肌体#NN)  (case, 肌体#NN, 内#LC)  (case, 肌体#NN, 的#DEG)  (nsubj, 分解#VV, 脂肪#NN)  (root, ROOT#null, 分解#VV)  (dep, 分解#VV, 加速#VV)  (nn, 代谢#NN, 脂类#NN)  (nsubj, 引起#VV, 代谢#NN)  (advmod, 引起#VV, 紊乱#AD)  (ccomp, 加速#VV, 引起#VV)  (dobj, 引起#VV, 血脂#NN)  (dep, 分解#VV, 增高#VV)  (dep, 分解#VV, 导致#VV)  (nn, 并发症#NN, 血管#NN)  (conj, 高血压#NR, 硬化#NR)  (conj, 高血压#NR, 高血脂症#NR)  (conj, 高血压#NR, 脂肪肝#NR)  (cc, 高血压#NR, 和#CC)  (nn, 并发症#NN, 高血压#NR)  (etc, 高血压#NR, 等#ETC)  (dobj, 导致#VV, 并发症#NN)   (advmod, 分解#VV, 此外#AD)  (nsubj, 分解#VV, 脂肪#NN)  (advmod, 分解#VV, 过度#AD)  (root, ROOT#null, 分解#VV)  (mmod, 产生#VV, 会#VV)  (conj, 分解#VV, 产生#VV)  (dobj, 产生#VV, 酮体#NN)  (advmod, 超过#VV, 如#CS)  (advmod, 超过#VV, 酮体#AD)  (relcl, 限度#NN, 超过#VV)  (dobj, 超过#VV, 机体#NN)  (mark, 超过#VV, 的#DEC)  (nn, 限度#NN, 利用#NN)  (nsubj, 产生#VV, 限度#NN)  (advmod, 产生#VV, 大量#AD)  (case, 堆积#NN, 在#P)  (nn, 堆积#NN, 体内#NN)  (prep, 产生#VV, 堆积#NN)  (advmod, 产生#VV, 就#AD)  (mmod, 产生#VV, 会#VV)  (conj, 分解#VV, 产生#VV)  (nn, 酸中毒#NN, 酮症#NN)  (dobj, 产生#VV, 酸中毒#NN)   (nn, 亚麻酸#NN, α#NN)  (nsubj, 调节#VV, 亚麻酸#NN)  (case, 人体#NN, 在#P)  (prep, 调节#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (mmod, 调节#VV, 可#VV)  (root, ROOT#null, 调节#VV)  (nn, 代谢#NN, 脂类#NN)  (dobj, 调节#VV, 代谢#NN)  (conj, 调节#VV, 抑制#VV)  (dobj, 抑制#VV, 并发症#NN)  (conj, 调节#VV, 降低#VV)  (relcl, 机率#NN, 酸#VA)  (dep, 酸#VA, 酮中毒#VA)  (mark, 酸#VA, 的#DEC)  (dobj, 降低#VV, 机率#NN)   (advmod, 亚麻酸#VV, 同时#AD)  (nsubj, 亚麻酸#VV, α#NN)  (relcl, 作用#NN, 亚麻酸#VV)  (case, 系统#NN, 对#P)  (nn, 系统#NN, 人体#NR)  (det, 系统#NN, 各#DT)  (conj, 系统#NN, 器官#NN)  (cc, 系统#NN, 及#CC)  (nn, 系统#NN, 神经#NN)  (assmod, 作用#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (nn, 作用#NN, 保护#NN)  (dobj, 亚麻酸#VV, 作用#NN)  (cc, 亚麻酸#VV, 和#CC)  (conj, 亚麻酸#VV, 增强#VV)  (nsubj, 大有裨益#VA, 作用#NN)  (case, 病人#NN, 对#P)  (nn, 病人#NN, 糖尿#NN)  (prep, 大有裨益#VA, 病人#NN)  (cop, 大有裨益#VA, 是#VC)  (root, ROOT#null, 大有裨益#VA)  (mark, 大有裨益#VA, 的#DEC)   (root, ROOT#null, null#null)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (nn, --#NN, α#NN)  (root, ROOT#null, 亚麻酸#VV)  (nn, 高血压#NN, 及其#NN)  (nn, 高血压#NN, 代谢物#NN)  (conj, 高血压#NN, EPA#NN)  (nn, 高血压#NN, DHA#NN)  (nn, 高血压#NN, 能使#NN)  (nn, 患者#NN, 高血压#NN)  (assmod, 血压#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (dobj, 亚麻酸#VV, 血压#NN)  (conj, 亚麻酸#VV, 降低#VV)
+            (root, ROOT#null, 减肥#VV)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 不同于#VV, 亚麻酸#NN)  (case, 方面#NN, 在#P)  (nfincl, 方面#NN, 减少#VV)  (nn, 体重#NN, 肥胖#NN)  (nn, 体重#NN, 病人#NN)  (dobj, 减少#VV, 体重#NN)  (prep, 不同于#VV, 方面#NN)  (root, ROOT#null, 不同于#VV)  (det, 药物#NN, 任何#DT)  (det, 药物#NN, 其它#DT)  (dobj, 不同于#VV, 药物#NN)   (nsubj, 实现#VV, 其#PN)  (advmod, 实现#VV, 主要#AD)  (case, 途径#NN, 通过#P)  (amod, 途径#NN, 以下#JJ)  (nummod, 个#M, 两#CD)  (clf, 途径#NN, 个#M)  (prep, 实现#VV, 途径#NN)  (prtmod, 实现#VV, 来#MSP)  (root, ROOT#null, 实现#VV)  (dep, 代谢率#NN, 一#CD)  (cop, 代谢率#NN, 是#VC)  (nn, 代谢率#NN, 增加#NN)  (ccomp, 实现#VV, 代谢率#NN)  (dep, 排泄#NN, 二#CD)  (cop, 排泄#NN, 是#VC)  (relcl, 体内#NN, 抑制#VV)  (nn, 脂#NN, 甘油#NR)  (nummod, 脂#NN, 三#CD)  (dobj, 抑制#VV, 脂#NN)  (mark, 抑制#VV, 的#DEC)  (nfincl, 体内#NN, 合成#JJ)  (dep, 合成#JJ, 增加#VV)  (nn, 脂质#NN, 体内#NN)  (det, 脂质#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 排泄#NN, 脂质#NN)  (case, 脂质#NN, 的#DEG)  (conj, 代谢率#NN, 排泄#NN)   (advmod, 达到#VV, 但#AD)  (mmod, 达到#VV, 要#VV)  (root, ROOT#null, 达到#VV)  (ccomp, 达到#VV, 减肥#VV)  (dobj, 减肥#VV, 效果#NN)  (nsubj, 增加#VV, 服用量#NN)  (mmod, 增加#VV, 要#VV)  (advmod, 增加#VV, 相对#AD)  (dep, 达到#VV, 增加#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抑制#VV)  (nn, 反应#NN, 过敏#NN)  (dobj, 抑制#VV, 反应#NN)
+            (nn, --#NN, α#NN)  (advmod, 具有#VV, 亚麻酸#AD)  (root, ROOT#null, 具有#VV)  (nn, 过敏#NN, 抗#NN)  (assmod, 作用#NN, 过敏#NN)  (case, 过敏#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 抗炎#VV)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 有#VE, 亚麻酸#NN)  (case, 因子#NN, 对#P)  (det, 炎症#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 介质#NN, 炎症#NN)  (conj, 因子#NN, 介质#NN)  (cc, 因子#NN, 和#CC)  (nn, 因子#NN, 细胞#NN)  (prep, 有#VE, 因子#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (cc, 有#VE, 并且#CC)  (neg, 带来#VV, 不#AD)  (mmod, 带来#VV, 会#VV)  (dep, 有#VE, 带来#VV)  (amod, 反应#NN, 不良#JJ)  (dobj, 带来#VV, 反应#NN)  (case, 治疗#NN, 给#P)  (det, 疾病#NN, 这#DT)  (nummod, 类#M, 一#CD)  (dep, 这#DT, 类#M)  (assmod, 治疗#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (prep, 带来#VV, 治疗#NN)  (dep, 有#VE, 带来#VV)  (amod, 思路#NN, 新#JJ)  (dobj, 带来#VV, 思路#NN)
+            (nn, 视力#NN, 保护#NN)  (root, ROOT#null, 视力#NN)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 来#VV, 亚麻酸#NN)  (prtmod, 来#VV, 而#MSP)  (relcl, 碳#NN, 来#VV)  (mark, 来#VV, 的#DEC)  (nummod, 碳#NN, 二十二#CD)  (nn, 烯酸#NN, 碳#NN)  (nummod, 烯酸#NN, 六#CD)  (nn, -RRB-#NN, 烯酸#NN)  (nn, -RRB-#NN, DHA#NN)  (case, 视网膜#NN, 在#P)  (conj, 视网膜#NN, 脑神经#NN)  (cc, 视网膜#NN, 和#CC)  (prep, 存在#VV, 视网膜#NN)  (case, 视网膜#NN, 中#LC)  (advmod, 存在#VV, 大量#AD)  (root, ROOT#null, 存在#VV)  (nn, --#NN, α#NN)  (advmod, 缺乏#VV, 亚麻酸#AD)  (conj, 存在#VV, 缺乏#VV)  (advmod, 降低#VV, 则#AD)  (advmod, 降低#VV, 视力#AD)  (conj, 存在#VV, 降低#VV)
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 智力#NN)
+            (nn, 亚麻酸#NN, α#NN)  (nsubj, 来#VV, 亚麻酸#NN)  (prtmod, 来#VV, 而#MSP)  (relcl, 碳#NN, 来#VV)  (mark, 来#VV, 的#DEC)  (nummod, 碳#NN, 二十二#CD)  (nn, 烯酸#NN, 碳#NN)  (nummod, 烯酸#NN, 六#CD)  (nn, -RRB-#NN, 烯酸#NN)  (nn, -RRB-#NN, DHA#NN)  (case, 视网膜#NN, 在#P)  (conj, 视网膜#NN, 脑神经#NN)  (cc, 视网膜#NN, 和#CC)  (prep, 存在#VV, 视网膜#NN)  (case, 视网膜#NN, 中#LC)  (advmod, 存在#VV, 大量#AD)  (relcl, 发育#NN, 存在#VV)  (case, 胎儿#NN, 从#P)  (prep, 脑#VV, 胎儿#NN)  (case, 期间#NN, 到#P)  (nn, 期间#NN, 哺乳#NN)  (nn, 期间#NN, 这个#NN)  (conj, 胎儿#NN, 期间#NN)  (dep, 存在#VV, 脑#VV)  (mark, 存在#VV, 的#DEC)  (nsubj, 重要#VA, 发育#NN)  (cop, 重要#VA, 是#VC)  (advmod, 重要#VA, 非常#AD)  (root, ROOT#null, 重要#VA)  (mark, 重要#VA, 的#DEC)   (case, 离乳#NN, 到#P)  (prep, 必要#VA, 离乳#NN)  (case, 离乳#NN, 时#LC)  (nn, 分裂#NN, 脑#NN)  (nn, 分裂#NN, 细胞#NN)  (nn, --#NN, 分裂#NN)  (nummod, --#NN, 大部分#CD)  (advmod, 结束#VV, 已#AD)  (relcl, 分裂#NN, 结束#VV)  (relcl, --#NN, 结束#VV)  (advmod, 增加#VV, 以后#AD)  (nn, 数#NN, 神经#NN)  (nn, 数#NN, 细胞#NN)  (nsubj, 增加#VV, 数#NN)  (advmod, 增加#VV, 也#AD)  (neg, 增加#VV, 不#AD)  (advmod, 增加#VV, 怎么#AD)  (ccomp, 结束#VV, 增加#VV)  (advmod, 到#VV, 所以#AD)  (advmod, 到#VV, 妊娠期#AD)  (conj, 增加#VV, 到#VV)  (dobj, 到#VV, 哺乳期#NN)  (mark, 结束#VV, 的#DEC)  (nn, --#NN, α#NN)  (nn, 补给#NN, 亚麻酸#NN)  (nsubj, 必要#VA, 补给#NN)  (cop, 必要#VA, 是#VC)  (advmod, 必要#VA, 非常#AD)  (root, ROOT#null, 必要#VA)  (mark, 必要#VA, 的#DEC)   (root, ROOT#null, null#null)
+            (dobj, .#VV, 保健#NN)  (root, .#VV, 保健#NN)
+            (advmod, --#VV, 此外#AD)  (root, --#VV, 此外#AD)  (advmod, 此外#AD, α#AD)  (advmod, --#VV, α#AD)  (nn, 抗癌#NN, 亚麻酸#NR)  (advmod, 抗癌#NN, 还有#AD)  (conj, 痴呆#NN, 抗癌#NN)  (nn, 衰老#NN, 抗#NN)  (conj, 痴呆#NN, 衰老#NN)  (nn, 抑郁#NN, 抗#NN)  (conj, 痴呆#NN, 抑郁#NN)  (nn, 痴呆#NN, 预防#NN)  (nn, 痴呆#NN, 老年性#NN)  (nn, 方面#NN, 痴呆#NN)  (etc, 痴呆#NN, 等#ETC)  (assmod, 作用#NN, 方面#NN)  (case, 方面#NN, 的#DEG)  (dobj, 此外#AD, 作用#NN)  (dobj, --#VV, 作用#NN)  (case, 生长#NN, 在#P)  (nfincl, 生长#NN, 维持#VV)  (dobj, 维持#VV, 人类#NN)  (amod, 生长#NN, 正常#JJ)  (prep, 发育#VV, 生长#NN)  (conj, 此外#AD, 发育#VV)  (conj, --#VV, 发育#VV)  (dep, 此外#AD, 维护#VV)  (nn, 状态#NN, 皮肤#NR)  (amod, 状态#NN, 正常#JJ)  (dobj, 维护#VV, 状态#NN)  (cop, 必不可少#VA, 是#VC)  (conj, 维护#VV, 必不可少#VA)  (mark, 必不可少#VA, 的#DEC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            种子含脂肪油约30％-40％，油中主要成分为亚油酸，亚麻酸，油酸等。α-亚麻酸和亚油酸的平均含量分别为45.17%和21.19%。
+        </rawdata>
+
+        <segment>
+            种子  含  脂肪  油约    ％  -40％  ，  油  中  主要  成分  为  亚油酸  ，  亚麻酸  ，  油酸  等  。  α  -  亚麻酸  和  亚油酸  的  平均  含量  分别  为  45.17%  和  21.19%  。
+        </segment>
+
+        <pos>
+            种子#NN  含#VV  脂肪#NN  油约#NN  ％#NN  -40#CD  ％#NN  ，#PU  油#NN  中#LC  主要#JJ  成分#NN  为#VV  亚油酸#NN  ，#PU  亚麻酸#VV  ，#PU  油酸#VV  等#ETC    。#PU  α#NN  -#NN  亚麻酸#NN  和#CC  亚油酸#NN  的#DEG  平均#JJ  含量#NN  分别#AD  为#VC  45.17#CD  %#CD  和#CC  21.19#CD  %#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 种子#NN)  (root, ROOT#null, 含#VV)  (nn, ％#NN, 脂肪#NN)  (nn, ％#NN, 油约#NN)  (nn, ％#NN, ％#NN)  (nummod, ％#NN, -40#CD)  (dobj, 含#VV, ％#NN)  (loc, 为#VV, 油#NN)  (case, 油#NN, 中#LC)  (amod, 成分#NN, 主要#JJ)  (nsubj, 为#VV, 成分#NN)  (conj, 含#VV, 为#VV)  (dobj, 为#VV, 亚油酸#NN)  (conj, 为#VV, 亚麻酸#VV)  (conj, 为#VV, 油酸#VV)  (dep, 为#VV, 等#ETC)   (nn, -#NN, α#NN)  (conj, 亚油酸#NN, 亚麻酸#NN)  (cc, 亚油酸#NN, 和#CC)  (assmod, 含量#NN, 亚油酸#NN)  (case, 亚油酸#NN, 的#DEG)  (amod, 含量#NN, 平均#JJ)  (nsubj, %#NN, 含量#NN)  (advmod, %#NN, 分别#AD)  (cop, %#NN, 为#VC)  (dep, 21.19#CD, 45.17#CD)  (nummod, 21.19#CD, %#CD)  (cc, 21.19#CD, 和#CC)  (nummod, %#NN, 21.19#CD)  (root, ROOT#null, %#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/10150609403.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\376 亚麻籽.jpg
+    </picturelocalurl>
+
+</content>

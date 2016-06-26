@@ -1,0 +1,446 @@
+<content>
+
+    <id>
+        168
+    </id>
+
+    <foodname>
+        西兰花
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        绿菜花、西兰花菜
+    </alias>
+
+    <season>
+        4-7月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            红斑狼疮患者忌食。
+        </rawdata>
+
+        <segment>
+            红斑狼疮  患者  忌食  。
+        </segment>
+
+        <pos>
+            红斑狼疮#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 红斑狼疮#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 红斑狼疮#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                1202
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                7210
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                29.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                67
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                18.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            西兰花属十字花科，是甘蓝的又一变种。原产意大利，近年我国有少量栽培，主要供西餐使用。
+            此菜易栽易种，分期栽培，长年供食。西兰花介于甘蓝、花椰菜之间，主茎顶端形成绿色或紫色的肥大花球，表面小花蕾明显，较松散，而不密集成球，以采集花蕾的嫩茎供食用。
+            西兰花起源于欧洲地中海沿岸，因其营养丰富、口感绝佳，被《时代周刊》杂志推荐为十大健康食品中排名第四。西兰花品质柔嫩，纤维少，水分多，风味比花椰菜更鲜美，西兰花主要供西餐配菜或做色拉。
+        </rawdata>
+
+        <segment>
+            西兰花  属  十字  花科  ，  是  甘蓝  的  又  一  变种  。  原产  意大利  ，  近年  我  国有  少量  栽培  ，  主要  供  西餐  使用  。
+            此  菜  易  栽  易  种  ，  分期  栽培  ，  长年  供食  。  西兰花  介于  甘蓝  、  花椰菜  之间  ，  主茎  顶端  形成  绿色  或  紫色  的  肥大  花球  ，  表面  小  花蕾  明显  ，  较  松散  ，  而  不  密集  成球  ，  以  采集  花蕾  的  嫩茎  供  食用  。
+            西兰花  起源于  欧洲  地中海  沿岸  ，  因  其  营养  丰富  、  口感  绝佳  ，  被  《  时代  周刊  》  杂志  推荐  为  十  大  健康  食品  中  排名  第四  。  西兰花  品质  柔嫩  ，  纤维  少  ，  水分多  ，  风味  比  花椰菜  更  鲜美  ，  西兰花  主要  供  西餐  配菜  或  做  色拉  。
+        </segment>
+
+        <pos>
+            西兰花#VV  属#VV  十字#CD  花科#NN  ，#PU  是#VC  甘蓝#NN  的#DEC  又#AD  一#CD  变种#NN    。#PU  原产#VV  意大利#NR  ，#PU  近年#NT  我#PN  国有#JJ  少量#CD  栽培#VV  ，#PU  主要#JJ  供#NN  西餐#NN  使用#VV    。#PU    。#PU
+            此#DT  菜#NN  易#AD  栽#AD  易#VA  种#M  ，#PU  分期#AD  栽培#VV  ，#PU  长年#AD  供食#VA    。#PU  西兰花#NN  介于#AD  甘蓝#VA  、#PU  花椰菜#NN  之间#LC  ，#PU  主茎#NN  顶端#AD  形成#VV  绿色#NN  或#CC  紫色#NN  的#DEC  肥大#NN  花球#VV  ，#PU  表面#NN  小#JJ  花蕾#NN  明显#VA  ，#PU  较#AD  松散#VA  ，#PU  而#CC  不#AD  密集#VA  成球#VA  ，#PU  以#P  采集#NN  花蕾#NN  的#DEG  嫩茎#NN  供#NN  食用#VV    。#PU    。#PU
+            西兰花#NR  起源于#VV  欧洲#NR  地中海#NR  沿岸#NN  ，#PU  因#P  其#PN  营养#VA  丰富#VA  、#PU  口感#VA  绝佳#VA  ，#PU  被#LB  时代#NN  周刊#NN  杂志#NN  推荐#VV  为#P  十#CD  大#JJ  健康#JJ  食品#NN  中#LC  排名#VV  第四#OD    。#PU  西兰花#NN  品质#NN  柔嫩#VV  ，#PU  纤维#NN  少#VA  ，#PU  水分多#NN  ，#PU  风味#NN  比#P  花椰菜#NN  更#AD  鲜美#VA  ，#PU  西兰花#VV  主要#JJ  供#NN  西餐#NN  配菜#NN  或#CC  做#VV  色拉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 西兰花#VV)  (relcl, 变种#NN, 属#VV)  (nummod, 花科#NN, 十字#CD)  (dobj, 属#VV, 花科#NN)  (cop, 甘蓝#NN, 是#VC)  (conj, 属#VV, 甘蓝#NN)  (mark, 属#VV, 的#DEC)  (advmod, 一#CD, 又#AD)  (nummod, 变种#NN, 一#CD)  (dobj, 西兰花#VV, 变种#NN)   (root, ROOT#null, 原产#VV)  (dobj, 原产#VV, 意大利#NR)  (tmod, 栽培#VV, 近年#NT)  (nsubj, 栽培#VV, 我#PN)  (amod, 少量#CD, 国有#JJ)  (dep, 栽培#VV, 少量#CD)  (dep, 原产#VV, 栽培#VV)  (amod, 供#NN, 主要#JJ)  (nn, 西餐#NN, 供#NN)  (nsubj, 使用#VV, 西餐#NN)  (dep, 原产#VV, 使用#VV)   (root, ROOT#null, null#null)
+            (det, 菜#NN, 此#DT)  (nsubj, 易#VA, 菜#NN)  (advmod, 易#VA, 易#AD)  (advmod, 易#VA, 栽#AD)  (root, ROOT#null, 易#VA)  (dep, 易#VA, 种#M)  (advmod, 栽培#VV, 分期#AD)  (dep, 易#VA, 栽培#VV)  (advmod, 供食#VA, 长年#AD)  (dep, 易#VA, 供食#VA)   (nsubj, 甘蓝#VA, 西兰花#NN)  (advmod, 甘蓝#VA, 介于#AD)  (relcl, 肥大#NN, 甘蓝#VA)  (loc, 形成#VV, 花椰菜#NN)  (case, 花椰菜#NN, 之间#LC)  (nsubj, 形成#VV, 主茎#NN)  (advmod, 形成#VV, 顶端#AD)  (conj, 甘蓝#VA, 形成#VV)  (conj, 紫色#NN, 绿色#NN)  (cc, 紫色#NN, 或#CC)  (dobj, 形成#VV, 紫色#NN)  (mark, 甘蓝#VA, 的#DEC)  (nsubj, 花球#VV, 肥大#NN)  (root, ROOT#null, 花球#VV)  (nn, 花蕾#NN, 表面#NN)  (amod, 花蕾#NN, 小#JJ)  (nsubj, 明显#VA, 花蕾#NN)  (ccomp, 花球#VV, 明显#VA)  (advmod, 松散#VA, 较#AD)  (dep, 明显#VA, 松散#VA)  (cc, 明显#VA, 而#CC)  (neg, 密集#VA, 不#AD)  (dep, 明显#VA, 密集#VA)  (comod, 密集#VA, 成球#VA)  (case, 供#NN, 以#P)  (nn, 花蕾#NN, 采集#NN)  (assmod, 供#NN, 花蕾#NN)  (case, 花蕾#NN, 的#DEG)  (nn, 供#NN, 嫩茎#NN)  (prep, 食用#VV, 供#NN)  (dep, 明显#VA, 食用#VV)   (root, ROOT#null, null#null)
+            (nsubj, 起源于#VV, 西兰花#NR)  (xsubj, 排名#VV, 西兰花#NR)  (root, ROOT#null, 起源于#VV)  (nn, 地中海#NR, 欧洲#NR)  (nn, 沿岸#NN, 地中海#NR)  (dobj, 起源于#VV, 沿岸#NN)  (case, 营养#VA, 因#P)  (nsubj, 营养#VA, 其#PN)  (prep, 排名#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (ccomp, 营养#VA, 口感#VA)  (comod, 口感#VA, 绝佳#VA)  (dep, 排名#VV, 被#LB)  (nn, 周刊#NN, 时代#NN)  (nn, 杂志#NN, 周刊#NN)  (nsubj, 推荐#VV, 杂志#NN)  (dep, 被#LB, 推荐#VV)  (case, 食品#NN, 为#P)  (dep, 大#JJ, 十#CD)  (amod, 食品#NN, 大#JJ)  (amod, 食品#NN, 健康#JJ)  (prep, 排名#VV, 食品#NN)  (case, 食品#NN, 中#LC)  (dep, 起源于#VV, 排名#VV)  (range, 排名#VV, 第四#OD)   (nn, 品质#NN, 西兰花#NN)  (nsubj, 柔嫩#VV, 品质#NN)  (root, ROOT#null, 柔嫩#VV)  (nsubj, 少#VA, 纤维#NN)  (ccomp, 柔嫩#VV, 少#VA)  (nsubj, 鲜美#VA, 水分多#NN)  (nsubj, 鲜美#VA, 风味#NN)  (case, 花椰菜#NN, 比#P)  (prep, 鲜美#VA, 花椰菜#NN)  (advmod, 鲜美#VA, 更#AD)  (conj, 少#VA, 鲜美#VA)  (dep, 鲜美#VA, 西兰花#VV)  (amod, 配菜#NN, 主要#JJ)  (nn, 配菜#NN, 供#NN)  (nn, 配菜#NN, 西餐#NN)  (dobj, 西兰花#VV, 配菜#NN)  (cc, 西兰花#VV, 或#CC)  (conj, 西兰花#VV, 做#VV)  (dobj, 做#VV, 色拉#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.防癌抗癌
+            西兰花可能最显著的就是具有防癌抗癌的功效，尤其是在防治胃癌、乳腺癌方面效果尤佳。患胃癌时人体血清硒的水平明显下降，胃液中的维生素C的浓度也显著低于正常人，而花椰菜不但能给人补充一定量的硒和维生素C，同时也能供给丰富的胡萝卜素，起到阻止癌前病变细胞形成的作用，抑制癌肿生长。
+            2.增强机体免疫力
+            西兰花还含有丰富的抗坏血酸，能增强肝脏的解毒能力，提高机体免疫力。
+            3.减肥佳品
+            菜花的含水量高达90%以上，而热量较低，对于希望减肥的人来说，它既可以填饱肚子，而又不会使人发胖。
+            4.促进生长
+            常吃花椰菜，可促进生长、维持牙齿及骨骼正常、保护视力、提高记忆力。
+            5.增强血管韧性
+            花椰菜中的维生素K能维护血管的韧性，不易破裂。其中含有的类黄酮除了可以防止感染，还是最好的血管清洁剂。
+            6.清热解渴
+            在暑热之际，口干渴、小便呈金黄色，大便硬实或不畅通时，用花椰菜30克煎汤，频频饮服，有清热解渴，利尿通便之功效。
+            7.抗衰老
+            常吃西兰花还可以抗衰老，防止皮肤干燥，是一种很好的美容佳品；医学界还认为西兰花对大脑、视力都有很好的作用，是营养丰富的综合保健蔬菜。
+        </rawdata>
+
+        <segment>
+            防癌  抗癌
+            西兰花  可能  最  显著  的  就是  具有  防癌  抗癌  的  功效  ，  尤其是  在  防治  胃癌  、  乳腺癌  方面  效果  尤佳  。  患  胃癌  时  人体  血清硒  的  水平  明显  下降  ，  胃液  中  的  维生素C  的  浓度  也  显著  低于  正常人  ，  而  花椰菜  不但  能  给  人  补充  一  定量  的  硒和  维生素C  ，  同时  也  能  供给  丰富  的  胡萝卜素  ，  起到  阻止  癌前病变  细胞  形成  的  作用  ，  抑制  癌肿  生长  。
+            增强  机体  免疫力
+            西兰花  还  含有  丰富  的  抗坏血酸  ，  能  增强  肝脏  的  解毒  能力  ，  提高  机体  免疫力  。
+            减肥  佳品
+            菜花  的  含水量  高  达  90%  以上  ，  而  热量  较  低  ，  对于  希望  减肥  的  人  来说  ，  它  既  可以  填饱  肚子  ，  而  又  不  会  使  人  发胖  。
+            促进  生长
+            常  吃  花椰菜  ，  可  促进  生长  、  维持  牙齿  及  骨骼  正常  、  保护  视力  、  提高  记忆力  。
+            增强  血管  韧性
+            花椰菜  中  的  维生素K  能  维护  血管  的  韧性  ，  不  易  破裂  。  其中  含有  的  类黄酮  除了  可以  防止  感染  ，  还是  最  好  的  血管  清洁剂  。
+            清热  解渴
+            在  暑热  之际  ，  口  干渴  、  小便  呈  金黄色  ，  大便  硬实  或  不  畅通  时  ，  用  花椰菜  30  克  煎  汤  ，  频频  饮服  ，  有  清热  解渴  ，  利尿  通便  之  功效  。
+            抗  衰老
+            常  吃  西兰花  还  可以  抗  衰老  ，  防止  皮肤  干燥  ，  是  一  种  很  好  的  美容  佳品  ；  医学界  还  认为  西兰花  对  大脑  、  视力  都  有  很  好  的  作用  ，  是  营养  丰富  的  综合  保健  蔬菜  。
+        </segment>
+
+        <pos>
+            防癌#NN  抗癌#VV
+            西兰花#NN  可能#VV  最#AD  显著#VA  的#DEC  就是#CC  具有#VV  防癌#NN  抗癌#NN  的#DEC  功效#NN  ，#PU  尤其是#AD  在#P  防治#NN  胃癌#NN  、#PU  乳腺癌#NN  方面#NN  效果#NN  尤佳#VA    。#PU  患#NN  胃癌#NN  时#LC  人体#NN  血清硒#NN  的#DEG  水平#NN  明显#AD  下降#VV  ，#PU  胃液#NN  中#LC  的#DEG  维生素C#NN  的#DEG  浓度#NN  也#AD  显著#AD  低于#VV  正常人#NN  ，#PU  而#AD  花椰菜#NN  不但#CC  能#VV  给#P  人#NN  补充#VV  一#CD  定量#NN  的#DEG  硒和#NN  维生素C#NN  ，#PU  同时#AD  也#AD  能#VV  供给#NN  丰富#VA  的#DEC  胡萝卜素#NN  ，#PU  起到#VV  阻止#VV  癌前病变#NN  细胞#NN  形成#VV  的#DEC  作用#NN  ，#PU  抑制#VV  癌肿#NN  生长#NN    。#PU    。#PU
+            增强#VV  机体#NN  免疫力#NN
+            西兰花#NN  还#AD  含有#VV  丰富#VA  的#DEC  抗坏血酸#NN  ，#PU  能#VV  增强#VV  肝脏#NN  的#DEG  解毒#NN  能力#NN  ，#PU  提高#VV  机体#NN  免疫力#NN  。#PU
+            减肥#VV  佳品#NN
+            菜花#NN  的#DEG  含水量#NN  高#AD  达#VV  90#CD  %#NN  以上#LC  ，#PU  而#MSP  热量#VV  较#AD  低#VA  ，#PU  对于#P  希望#NN  减肥#VV  的#DEC  人#NN  来说#NN  ，#PU  它#PN  既#CC  可以#VV  填饱#VV  肚子#NN  ，#PU  而#CC  又#AD  不#AD  会#VV  使#VV  人#NN  发胖#VV  。#PU
+            促进#VV  生长#NN
+            常#AD  吃#VV  花椰菜#NN  ，#PU  可#VV  促进#VV  生长#NN  、#PU  维持#VV  牙齿#NN  及#CC  骨骼#NN  正常#NN  、#PU  保护#VV  视力#NN  、#PU  提高#VV  记忆力#NN  。#PU
+            增强#VV  血管#NN  韧性#NN
+            花椰菜#NN  中#LC  的#DEG  维生素K#NN  能#VV  维护#VV  血管#NN  的#DEG  韧性#NN  ，#PU  不#AD  易#AD  破裂#VV    。#PU  其中#NN  含有#NN  的#DEG  类黄酮#NN  除了#P  可以#VV  防止#VV  感染#VV  ，#PU  还是#CC  最#AD  好#VA  的#DEC  血管#NN  清洁剂#VV    。#PU    。#PU
+            清热#NN  解渴#VV
+            在#P  暑热#NN  之际#LC  ，#PU  口#NN  干渴#NN  、#PU  小便#NN  呈#VV  金黄色#JJ  ，#PU  大便#VV  硬实#NN  或#CC  不#AD  畅通#NN  时#LC  ，#PU  用#P  花椰菜#NR  30#CD  克#M  煎#NN  汤#NN  ，#PU  频频#AD  饮服#VV  ，#PU  有#VE  清热#NN  解渴#NN  ，#PU  利尿#VV  通便#NN  之#DEG  功效#NN  。#PU
+            抗#NN  衰老#VV
+            常#AD  吃#VV  西兰花#NN  还#AD  可以#VV  抗#VV  衰老#NN  ，#PU  防止#VV  皮肤#VV  干燥#NN  ，#PU  是#VC  一#CD  种#M  很#AD  好#VA  的#DEC  美容#NN  佳品#NN  ；#PU  医学界#NN  还#AD  认为#VV  西兰花#NN  对#P  大脑#NR  、#PU  视力#NR  都#AD  有#VE  很#AD  好#VA  的#DEC  作用#NN  ，#PU  是#VC  营养#VA  丰富#VA  的#DEC  综合#JJ  保健#NN  蔬菜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nsubj, 可能#VV, 西兰花#NN)  (root, ROOT#null, 可能#VV)  (advmod, 显著#VA, 最#AD)  (conj, 功效#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (cc, 功效#NN, 就是#CC)  (relcl, 功效#NN, 具有#VV)  (nn, 抗癌#NN, 防癌#NN)  (dobj, 具有#VV, 抗癌#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 可能#VV, 功效#NN)  (advmod, 尤佳#VA, 尤其是#AD)  (case, 方面#NN, 在#P)  (nn, 乳腺癌#NN, 防治#NN)  (conj, 乳腺癌#NN, 胃癌#NN)  (nn, 方面#NN, 乳腺癌#NN)  (prep, 尤佳#VA, 方面#NN)  (nsubj, 尤佳#VA, 效果#NN)  (conj, 可能#VV, 尤佳#VA)   (nn, 胃癌#NN, 患#NN)  (loc, 下降#VV, 胃癌#NN)  (case, 胃癌#NN, 时#LC)  (nn, 血清硒#NN, 人体#NN)  (assmod, 水平#NN, 血清硒#NN)  (case, 血清硒#NN, 的#DEG)  (nsubj, 下降#VV, 水平#NN)  (advmod, 下降#VV, 明显#AD)  (root, ROOT#null, 下降#VV)  (assmod, 维生素C#NN, 胃液#NN)  (case, 胃液#NN, 中#LC)  (case, 胃液#NN, 的#DEG)  (assmod, 浓度#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (nsubj, 低于#VV, 浓度#NN)  (advmod, 低于#VV, 也#AD)  (advmod, 低于#VV, 显著#AD)  (conj, 下降#VV, 低于#VV)  (dobj, 低于#VV, 正常人#NN)  (advmod, 补充#VV, 而#AD)  (nsubj, 补充#VV, 花椰菜#NN)  (cc, 补充#VV, 不但#CC)  (mmod, 补充#VV, 能#VV)  (case, 人#NN, 给#P)  (prep, 补充#VV, 人#NN)  (conj, 下降#VV, 补充#VV)  (nummod, 定量#NN, 一#CD)  (assmod, 维生素C#NN, 定量#NN)  (case, 定量#NN, 的#DEG)  (nn, 维生素C#NN, 硒和#NN)  (dobj, 补充#VV, 维生素C#NN)  (advmod, 能#VV, 同时#AD)  (advmod, 能#VV, 也#AD)  (conj, 补充#VV, 能#VV)  (nsubj, 丰富#VA, 供给#NN)  (relcl, 胡萝卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 能#VV, 胡萝卜素#NN)  (conj, 补充#VV, 起到#VV)  (relcl, 作用#NN, 阻止#VV)  (nn, 细胞#NN, 癌前病变#NN)  (dobj, 阻止#VV, 细胞#NN)  (conj, 阻止#VV, 形成#VV)  (mark, 阻止#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (conj, 补充#VV, 抑制#VV)  (nn, 生长#NN, 癌肿#NN)  (dobj, 抑制#VV, 生长#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增强#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增强#VV, 免疫力#NN)
+            (nsubj, 含有#VV, 西兰花#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 抗坏血酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 抗坏血酸#NN)  (mmod, 增强#VV, 能#VV)  (dep, 含有#VV, 增强#VV)  (assmod, 能力#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (nn, 能力#NN, 解毒#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 增强#VV, 提高#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 提高#VV, 免疫力#NN)
+            (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 佳品#NN)
+            (assmod, 含水量#NN, 菜花#NN)  (case, 菜花#NN, 的#DEG)  (nsubj, 达#VV, 含水量#NN)  (advmod, 达#VV, 高#AD)  (root, ROOT#null, 达#VV)  (nummod, %#NN, 90#CD)  (loc, 达#VV, %#NN)  (case, %#NN, 以上#LC)  (prtmod, 热量#VV, 而#MSP)  (dep, 达#VV, 热量#VV)  (advmod, 低#VA, 较#AD)  (relcl, 来说#NN, 低#VA)  (case, 希望#NN, 对于#P)  (prep, 减肥#VV, 希望#NN)  (dep, 低#VA, 减肥#VV)  (mark, 低#VA, 的#DEC)  (nn, 来说#NN, 人#NN)  (dobj, 热量#VV, 来说#NN)  (nsubj, 填饱#VV, 它#PN)  (cc, 填饱#VV, 既#CC)  (mmod, 填饱#VV, 可以#VV)  (conj, 达#VV, 填饱#VV)  (dobj, 填饱#VV, 肚子#NN)  (cc, 填饱#VV, 而#CC)  (advmod, 使#VV, 又#AD)  (neg, 使#VV, 不#AD)  (mmod, 使#VV, 会#VV)  (dep, 填饱#VV, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 发胖#VV)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 生长#NN)
+            (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 花椰菜#NN)  (mmod, 促进#VV, 可#VV)  (dep, 吃#VV, 促进#VV)  (dobj, 促进#VV, 生长#NN)  (conj, 促进#VV, 维持#VV)  (conj, 正常#NN, 牙齿#NN)  (cc, 正常#NN, 及#CC)  (nn, 正常#NN, 骨骼#NN)  (dobj, 维持#VV, 正常#NN)  (conj, 促进#VV, 保护#VV)  (dobj, 保护#VV, 视力#NN)  (conj, 促进#VV, 提高#VV)  (dobj, 提高#VV, 记忆力#NN)
+            (root, ROOT#null, 增强#VV)  (nn, 韧性#NN, 血管#NN)  (dobj, 增强#VV, 韧性#NN)
+            (assmod, 维生素K#NN, 花椰菜#NN)  (case, 花椰菜#NN, 中#LC)  (case, 花椰菜#NN, 的#DEG)  (nsubj, 维护#VV, 维生素K#NN)  (mmod, 维护#VV, 能#VV)  (root, ROOT#null, 维护#VV)  (assmod, 韧性#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 维护#VV, 韧性#NN)  (neg, 破裂#VV, 不#AD)  (advmod, 破裂#VV, 易#AD)  (conj, 维护#VV, 破裂#VV)   (nn, 含有#NN, 其中#NN)  (assmod, 类黄酮#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 清洁剂#VV, 类黄酮#NN)  (case, 血管#NN, 除了#P)  (mmod, 防止#VV, 可以#VV)  (relcl, 血管#NN, 防止#VV)  (ccomp, 防止#VV, 感染#VV)  (cc, 防止#VV, 还是#CC)  (advmod, 好#VA, 最#AD)  (dep, 防止#VV, 好#VA)  (mark, 防止#VV, 的#DEC)  (prep, 清洁剂#VV, 血管#NN)  (root, ROOT#null, 清洁剂#VV)   (root, ROOT#null, null#null)
+            (nsubj, 解渴#VV, 清热#NN)  (root, ROOT#null, 解渴#VV)
+            (case, 暑热#NN, 在#P)  (prep, 呈#VV, 暑热#NN)  (case, 暑热#NN, 之际#LC)  (nn, 小便#NN, 口#NN)  (conj, 小便#NN, 干渴#NN)  (nsubj, 呈#VV, 小便#NN)  (root, ROOT#null, 呈#VV)  (nfincl, 解渴#NN, 金黄色#JJ)  (dep, 金黄色#JJ, 大便#VV)  (dobj, 大便#VV, 硬实#NN)  (cc, 大便#VV, 或#CC)  (neg, 饮服#VV, 不#AD)  (loc, 饮服#VV, 畅通#NN)  (case, 畅通#NN, 时#LC)  (case, 汤#NN, 用#P)  (nn, 汤#NN, 花椰菜#NR)  (nummod, 克#M, 30#CD)  (clf, 汤#NN, 克#M)  (nn, 汤#NN, 煎#NN)  (prep, 饮服#VV, 汤#NN)  (advmod, 饮服#VV, 频频#AD)  (conj, 大便#VV, 饮服#VV)  (conj, 饮服#VV, 有#VE)  (dobj, 有#VE, 清热#NN)  (dobj, 呈#VV, 解渴#NN)  (conj, 呈#VV, 利尿#VV)  (assmod, 功效#NN, 通便#NN)  (case, 通便#NN, 之#DEG)  (dobj, 利尿#VV, 功效#NN)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (advmod, 吃#VV, 常#AD)  (dep, 抗#VV, 吃#VV)  (dobj, 吃#VV, 西兰花#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 可以#VV)  (root, ROOT#null, 抗#VV)  (dobj, 抗#VV, 衰老#NN)  (conj, 抗#VV, 防止#VV)  (ccomp, 防止#VV, 皮肤#VV)  (dobj, 皮肤#VV, 干燥#NN)  (cop, 佳品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 佳品#NN, 种#M)  (advmod, 好#VA, 很#AD)  (relcl, 佳品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 佳品#NN, 美容#NN)  (conj, 抗#VV, 佳品#NN)  (nsubj, 认为#VV, 医学界#NN)  (advmod, 认为#VV, 还#AD)  (dep, 抗#VV, 认为#VV)  (dobj, 认为#VV, 西兰花#NN)  (case, 视力#NR, 对#P)  (conj, 视力#NR, 大脑#NR)  (prep, 有#VE, 视力#NR)  (advmod, 有#VE, 都#AD)  (dep, 认为#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)  (cop, 蔬菜#NN, 是#VC)  (relcl, 蔬菜#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (amod, 蔬菜#NN, 综合#JJ)  (nn, 蔬菜#NN, 保健#NN)  (dep, 有#VE, 蔬菜#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            西兰花中矿物质成分比其他蔬菜更全面，钙、磷、铁、钾、锌、锰等含量很丰富，比同属于十字花科的白菜花高出很多。维生素C含量高出白菜花20%左右，是洋白菜的2—3倍，是西红柿的5—6倍；胡萝卜素的含量是白菜花的30多倍；叶酸含量是白菜花的2倍；蛋白质含量是菜花的3倍、番茄的4倍。
+        </rawdata>
+
+        <segment>
+            西兰花  中  矿物质  成分  比  其他  蔬菜  更  全面  ，  钙  、  磷  、  铁  、  钾  、  锌  、  锰等  含量  很  丰富  ，  比  同  属于  十字花科  的  白菜  花  高出  很多  。  维生素C  含量  高出  白菜  花  20%  左右  ，  是  洋白菜  的  2  —  3  倍  ，  是  西红柿  的  5  —  6  倍  ；  胡萝卜素  的  含量  是  白菜  花  的  30多  倍  ；  叶酸  含量  是  白菜  花  的  2  倍  ；  蛋白质  含量  是  菜花  的  3  倍  、  番茄  的  4  倍  。
+        </segment>
+
+        <pos>
+            西兰花#NN  中#LC  矿物质#NN  成分#NN  比#P  其他#DT  蔬菜#NN  更#AD  全面#VA  ，#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  锌#NN  、#PU  锰等#NN  含量#NN  很#AD  丰富#VA  ，#PU  比#P  同#DT  属于#VV  十字花科#CD  的#DEC  白菜#NN  花#NN  高出#VV  很多#CD    。#PU  维生素C#NN  含量#NN  高出#VV  白菜#JJ  花#NN  20#CD  %#NN  左右#LC  ，#PU  是#VC  洋白菜#NN  的#DEC  2#CD  --#NN  3#CD  倍#M  ，#PU  是#VC  西红柿#VA  的#DEC  5#CD  --#NN  6#CD  倍#M  ；#PU  胡萝卜素#NN  的#DEG  含量#NN  是#VC  白菜#NN  花#NN  的#DEG  30多#CD  倍#M  ；#PU  叶酸#NN  含量#NN  是#VC  白菜#NN  花#NN  的#DEG  2#CD  倍#M  ；#PU  蛋白质#NN  含量#NN  是#VC  菜花#NN  的#DEG  3#CD  倍#M  、#PU  番茄#NN  的#DEG  4#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 全面#VA, 西兰花#NN)  (case, 西兰花#NN, 中#LC)  (nn, 成分#NN, 矿物质#NN)  (nsubj, 全面#VA, 成分#NN)  (case, 蔬菜#NN, 比#P)  (det, 蔬菜#NN, 其他#DT)  (prep, 全面#VA, 蔬菜#NN)  (advmod, 全面#VA, 更#AD)  (root, ROOT#null, 全面#VA)  (conj, 锰等#NN, 钙#NN)  (conj, 锰等#NN, 磷#NN)  (conj, 锰等#NN, 铁#NN)  (conj, 锰等#NN, 钾#NN)  (conj, 锰等#NN, 锌#NN)  (nn, 含量#NN, 锰等#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 很#AD)  (conj, 全面#VA, 丰富#VA)  (case, 花#NN, 比#P)  (det, 花#NN, 同#DT)  (relcl, 花#NN, 属于#VV)  (range, 属于#VV, 十字花科#CD)  (mark, 属于#VV, 的#DEC)  (nn, 花#NN, 白菜#NN)  (prep, 高出#VV, 花#NN)  (dep, 丰富#VA, 高出#VV)  (range, 高出#VV, 很多#CD)   (nn, 含量#NN, 维生素C#NN)  (nsubj, 高出#VV, 含量#NN)  (root, ROOT#null, 高出#VV)  (amod, 花#NN, 白菜#JJ)  (nn, %#NN, 花#NN)  (nummod, %#NN, 20#CD)  (loc, 高出#VV, %#NN)  (case, %#NN, 左右#LC)  (cop, 洋白菜#NN, 是#VC)  (relcl, --#NN, 洋白菜#NN)  (mark, 洋白菜#NN, 的#DEC)  (nummod, --#NN, 2#CD)  (nummod, 倍#M, 3#CD)  (conj, 高出#VV, 倍#M)  (conj, 倍#M, 是#VC)  (relcl, --#NN, 西红柿#VA)  (mark, 西红柿#VA, 的#DEC)  (nummod, --#NN, 5#CD)  (nummod, 倍#M, 6#CD)  (dep, 是#VC, 倍#M)  (assmod, 含量#NN, 胡萝卜素#NN)  (case, 胡萝卜素#NN, 的#DEG)  (nsubj, 是#VC, 含量#NN)  (conj, 倍#M, 是#VC)  (nn, 花#NN, 白菜#NN)  (assmod, 倍#M, 花#NN)  (case, 花#NN, 的#DEG)  (nummod, 倍#M, 30多#CD)  (dep, 是#VC, 倍#M)  (nn, 含量#NN, 叶酸#NN)  (nsubj, 是#VC, 含量#NN)  (conj, 倍#M, 是#VC)  (nn, 花#NN, 白菜#NN)  (assmod, 倍#M, 花#NN)  (case, 花#NN, 的#DEG)  (nummod, 倍#M, 2#CD)  (dep, 是#VC, 倍#M)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 是#VC, 含量#NN)  (conj, 倍#M, 是#VC)  (assmod, 倍#M, 菜花#NN)  (case, 菜花#NN, 的#DEG)  (nummod, 倍#M, 3#CD)  (dep, 是#VC, 倍#M)  (nsubj, 倍#M, 番茄#NN)  (case, 番茄#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (conj, 倍#M, 倍#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.菜花虽然营养丰富，但常有残留的农药，还容易生菜虫，所以在吃之前，可将菜花放在盐水里浸泡几分钟，菜虫就跑出来了，还可有助于去除残留农药。
+            2.吃的时候要多嚼几次，这样才更有利于营养的吸收。
+            3.西兰花煮后颜色会变的更加鲜艳，但要注意的是，在烫西兰花时，时间不宜太长，否则失去脆感，拌出的菜也会大打折扣。
+            4.西兰花焯水后，应放入凉开水内过凉，捞出沥净水再用，烧煮和加盐时间也不宜过长，才不致丧失和破坏防癌抗癌的营养成分。
+        </rawdata>
+
+        <segment>
+            菜花  虽然  营养  丰富  ，  但  常  有  残留  的  农药  ，  还  容易  生菜  虫  ，  所以  在  吃  之前  ，  可将  菜花  放在  盐水  里  浸泡  几  分钟  ，  菜  虫  就跑  出来  了  ，  还可  有助于  去除  残留  农药  。
+            吃  的  时候  要  多  嚼  几  次  ，  这样  才  更  有利于  营养  的  吸收  。
+            西兰花  煮  后  颜色  会  变的  更加  鲜艳  ，  但  要  注意  的  是  ，  在  烫  西兰花  时  ，  时间  不  宜  太长  ，  否则  失去  脆感  ，  拌出  的  菜  也  会  大  打  折扣  。
+            西兰花  焯水  后  ，  应  放入  凉  开水  内  过  凉  ，  捞出  沥净水  再用  ，  烧煮  和  加盐  时间  也  不  宜  过长  ，  才  不  致  丧失  和  破坏  防癌  抗癌  的  营养  成分  。
+        </segment>
+
+        <pos>
+            菜花#NN  虽然#CS  营养#VA  丰富#VA  ，#PU  但#AD  常#AD  有#VE  残留#NN  的#DEG  农药#NN  ，#PU  还#AD  容易#VA  生菜#VV  虫#NN  ，#PU  所以#AD  在#P  吃#VV  之前#LC  ，#PU  可将#NN  菜花#NN  放在#NN  盐水#NN  里#LC  浸泡#VV  几#CD  分钟#M  ，#PU  菜#NN  虫#NN  就跑#NN  出来#VV  了#AS  ，#PU  还可#AD  有助于#VV  去除#VV  残留#NN  农药#NN  。#PU
+            吃#VV  的#DEC  时候#NN  要#VV  多#AD  嚼#VV  几#CD  次#M  ，#PU  这样#AD  才#AD  更#AD  有利于#VV  营养#VA  的#DEC  吸收#NN  。#PU
+            西兰花#NN  煮#VV  后#LC  颜色#NN  会#NN  变的#NN  更加#AD  鲜艳#VA  ，#PU  但#AD  要#VV  注意#VV  的#DEC  是#VC  ，#PU  在#P  烫#VV  西兰花#NN  时#LC  ，#PU  时间#NN  不#AD  宜#NR  太长#NN  ，#PU  否则#AD  失去#VV  脆感#NN  ，#PU  拌出#NN  的#DEG  菜#NN  也#AD  会#VV  大#AD  打#VV  折扣#NN  。#PU
+            西兰花#NN  焯水#NN  后#LC  ，#PU  应#VV  放入#VV  凉#NN  开水#NN  内#LC  过#VV  凉#NN  ，#PU  捞出#NN  沥净水#NN  再用#NN  ，#PU  烧煮#NN  和#CC  加盐#NN  时间#NN  也#AD  不#AD  宜#NR  过长#VV  ，#PU  才#AD  不#AD  致#VV  丧失#VV  和#CC  破坏#VV  防癌#NN  抗癌#NN  的#DEC  营养#VA  成分#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有助于#VV, 菜花#NN)  (advmod, 出来#VV, 虽然#CS)  (dep, 出来#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 有#VE, 但#AD)  (advmod, 有#VE, 常#AD)  (ccomp, 营养#VA, 有#VE)  (assmod, 农药#NN, 残留#NN)  (case, 残留#NN, 的#DEG)  (dobj, 有#VE, 农药#NN)  (advmod, 容易#VA, 还#AD)  (conj, 有#VE, 容易#VA)  (conj, 有#VE, 生菜#VV)  (dobj, 生菜#VV, 虫#NN)  (advmod, 浸泡#VV, 所以#AD)  (case, 吃#VV, 在#P)  (prep, 浸泡#VV, 吃#VV)  (case, 吃#VV, 之前#LC)  (nn, 放在#NN, 可将#NN)  (nn, 放在#NN, 菜花#NN)  (nsubj, 浸泡#VV, 放在#NN)  (loc, 浸泡#VV, 盐水#NN)  (case, 盐水#NN, 里#LC)  (dep, 有#VE, 浸泡#VV)  (nummod, 分钟#M, 几#CD)  (range, 浸泡#VV, 分钟#M)  (nn, 就跑#NN, 菜#NN)  (nn, 就跑#NN, 虫#NN)  (nsubj, 出来#VV, 就跑#NN)  (dep, 有助于#VV, 出来#VV)  (asp, 出来#VV, 了#AS)  (advmod, 有助于#VV, 还可#AD)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 去除#VV)  (nn, 农药#NN, 残留#NN)  (dobj, 去除#VV, 农药#NN)
+            (relcl, 时候#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, 嚼#VV, 时候#NN)  (mmod, 嚼#VV, 要#VV)  (advmod, 嚼#VV, 多#AD)  (root, ROOT#null, 嚼#VV)  (nummod, 次#M, 几#CD)  (range, 嚼#VV, 次#M)  (advmod, 有利于#VV, 这样#AD)  (advmod, 有利于#VV, 才#AD)  (advmod, 有利于#VV, 更#AD)  (conj, 嚼#VV, 有利于#VV)  (relcl, 吸收#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (dobj, 有利于#VV, 吸收#NN)
+            (nsubj, 煮#VV, 西兰花#NN)  (loc, 鲜艳#VA, 煮#VV)  (case, 煮#VV, 后#LC)  (nn, 变的#NN, 颜色#NN)  (nn, 变的#NN, 会#NN)  (nsubj, 鲜艳#VA, 变的#NN)  (advmod, 鲜艳#VA, 更加#AD)  (root, ROOT#null, 鲜艳#VA)  (advmod, 失去#VV, 但#AD)  (dep, 注意#VV, 要#VV)  (nsubj, 失去#VV, 注意#VV)  (mark, 注意#VV, 的#DEC)  (cop, 失去#VV, 是#VC)  (case, 烫#VV, 在#P)  (prep, 失去#VV, 烫#VV)  (dobj, 烫#VV, 西兰花#NN)  (case, 烫#VV, 时#LC)  (nsubj, 失去#VV, 时间#NN)  (neg, 失去#VV, 不#AD)  (nn, 太长#NN, 宜#NR)  (prep, 失去#VV, 太长#NN)  (advmod, 失去#VV, 否则#AD)  (conj, 鲜艳#VA, 失去#VV)  (dobj, 失去#VV, 脆感#NN)  (assmod, 菜#NN, 拌出#NN)  (case, 拌出#NN, 的#DEG)  (nsubj, 打#VV, 菜#NN)  (advmod, 打#VV, 也#AD)  (mmod, 打#VV, 会#VV)  (advmod, 打#VV, 大#AD)  (conj, 鲜艳#VA, 打#VV)  (dobj, 打#VV, 折扣#NN)
+            (nn, 焯水#NN, 西兰花#NN)  (loc, 放入#VV, 焯水#NN)  (case, 焯水#NN, 后#LC)  (mmod, 放入#VV, 应#VV)  (root, ROOT#null, 放入#VV)  (nn, 开水#NN, 凉#NN)  (loc, 放入#VV, 开水#NN)  (case, 开水#NN, 内#LC)  (dep, 放入#VV, 过#VV)  (dobj, 过#VV, 凉#NN)  (nn, 再用#NN, 捞出#NN)  (nn, 再用#NN, 沥净水#NN)  (nsubj, 过长#VV, 再用#NN)  (conj, 加盐#NN, 烧煮#NN)  (cc, 加盐#NN, 和#CC)  (nn, 时间#NN, 加盐#NN)  (nsubj, 过长#VV, 时间#NN)  (advmod, 过长#VV, 也#AD)  (neg, 过长#VV, 不#AD)  (prep, 过长#VV, 宜#NR)  (conj, 放入#VV, 过长#VV)  (advmod, 致#VV, 才#AD)  (neg, 致#VV, 不#AD)  (conj, 放入#VV, 致#VV)  (relcl, 成分#NN, 丧失#VV)  (cc, 丧失#VV, 和#CC)  (dep, 丧失#VV, 破坏#VV)  (nn, 抗癌#NN, 防癌#NN)  (dobj, 破坏#VV, 抗癌#NN)  (mark, 丧失#VV, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 致#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051941532884.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\168 西兰花.jpg
+    </picturelocalurl>
+
+</content>

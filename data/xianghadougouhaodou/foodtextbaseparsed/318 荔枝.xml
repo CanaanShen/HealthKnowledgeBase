@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        318
+    </id>
+
+    <foodname>
+        荔枝
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        丹荔、丽枝、香果、勒荔、离支
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病人，阴虚火旺、有上火症状的人，阴虚所致的咽喉干疼、牙龈肿痛、鼻出血等症者忌食。
+        </rawdata>
+
+        <segment>
+            糖尿病人  ，  阴虚  火  旺  、  有  上火  症状  的  人  ，  阴虚  所致  的  咽喉  干疼  、  牙龈  肿痛  、  鼻出血  等  症者  忌食  。
+        </segment>
+
+        <pos>
+            糖尿病人#NN  ，#PU  阴虚#NN  火#NN  旺#VV  、#PU  有#VE  上火#NN  症状#NN  的#DEG  人#NN  ，#PU  阴虚#VV  所致#NN  的#DEG  咽喉#NN  干疼#NN  、#PU  牙龈#VV  肿痛#NR  、#PU  鼻出血#NR  等#ETC  症者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 旺#VV, 糖尿病人#NN)  (nn, 火#NN, 阴虚#NN)  (nsubj, 旺#VV, 火#NN)  (root, ROOT#null, 旺#VV)  (conj, 旺#VV, 有#VE)  (nn, 症状#NN, 上火#NN)  (assmod, 人#NN, 症状#NN)  (case, 症状#NN, 的#DEG)  (dobj, 有#VE, 人#NN)  (conj, 旺#VV, 阴虚#VV)  (assmod, 干疼#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 干疼#NN, 咽喉#NN)  (dobj, 阴虚#VV, 干疼#NN)  (conj, 旺#VV, 牙龈#VV)  (conj, 鼻出血#NR, 肿痛#NR)  (nn, 忌食#NN, 鼻出血#NR)  (etc, 鼻出血#NR, 等#ETC)  (nn, 忌食#NN, 症者#NN)  (dobj, 牙龈#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适合产妇、老人、体质虚弱者、病后调养者；贫血、胃寒和口臭者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适合  产妇  、  老人  、  体质  虚  弱者  、  病  后  调养  者  ；  贫血  、  胃  寒  和  口臭  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适合#VV  产妇#NN  、#PU  老人#NN  、#PU  体质#AD  虚#AD  弱者#VV  、#PU  病#NN  后#LC  调养#VV  者#NN  ；#PU  贫血#VV  、#PU  胃#VV  寒#JJ  和#CC  口臭#JJ  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 尤其#AD)  (root, ROOT#null, 适合#VV)  (conj, 老人#NN, 产妇#NN)  (dobj, 适合#VV, 老人#NN)  (advmod, 弱者#VV, 体质#AD)  (advmod, 弱者#VV, 虚#AD)  (conj, 适合#VV, 弱者#VV)  (loc, 调养#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 适合#VV, 调养#VV)  (dobj, 调养#VV, 者#NN)  (conj, 适合#VV, 贫血#VV)  (conj, 适合#VV, 胃#VV)  (amod, 者#NN, 寒#JJ)  (cc, 寒#JJ, 和#CC)  (dep, 寒#JJ, 口臭#JJ)  (dobj, 胃#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                151
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荔枝，为无患子科植物荔枝的果实，原产于我国南部，以广东、广西、福建、四川、台湾、云南等地栽培最多。每年6～7月间果实成熟时采收，剥去外壳，取假种皮(荔枝肉)鲜用或干燥后备用。
+            荔枝与香蕉、菠萝、龙眼一同号称“南国四大果品”。荔枝原产于中国南部，是亚热带果树，常绿乔木，高约10米。果皮肯多数鳞斑状突起，鲜红，紫红。果肉产鲜时半透明凝脂状，味香美。但不耐储藏。杨贵妃因喜食荔枝而闻名，使得杜牧写下“一骑红尘妃子笑，无人知是荔来”的千古名句。
+        </rawdata>
+
+        <segment>
+            荔枝  ，  为  无患子科  植物  荔枝  的  果实  ，  原  产于  我国  南部  ，  以  广东  、  广西  、  福建  、  四川  、  台湾  、  云南  等  地  栽培  最  多  。  每  年  6  ～  7月  间  果实  成熟  时  采收  ，  剥去  外壳  ，  取  假  种皮  (  荔枝  肉  )  鲜用  或  干燥  后  备用  。
+            荔枝  与  香蕉  、  菠萝  、  龙眼  一同  号称  “  南国  四  大  果品  ”  。  荔枝  原产  于  中国  南部  ，  是  亚热带  果树  ，  常绿  乔木  ，  高  约  10  米  。  果皮  肯  多数  鳞  斑状  突起  ，  鲜红  ，  紫红  。  果肉  产鲜  时  半透明  凝脂状  ，  味香美  。  但  不  耐  储藏  。  杨贵妃  因  喜  食  荔枝  而  闻名  ，  使得  杜牧  写下  “  一  骑  红尘  妃子  笑  ，  无  人  知  是  荔来  ”  的  千古  名句  。
+        </segment>
+
+        <pos>
+            荔枝#VV  ，#PU  为#P  无患子科#VV  植物#NN  荔枝#NN  的#DEG  果实#NN  ，#PU  原#JJ  产于#NN  我国#VV  南部#NN  ，#PU  以#P  广东#NR  、#PU  广西#NR  、#PU  福建#NR  、#PU  四川#NR  、#PU  台湾#NR  、#PU  云南#NR  等#ETC  地#NN  栽培#VV  最#AD  多#VA    。#PU  每#DT  年#M  6#CD  ～#NN  7月#NT  间#LC  果实#NN  成熟#VA  时#LC  采收#VV  ，#PU  剥去#NN  外壳#NN  ，#PU  取#VV  假#JJ  种皮#NN  -LRB-#NN  荔枝#NN  肉#NN  -RRB-#NN  鲜用#NN  或#CC  干燥#NN  后#LC  备用#VV    。#PU    。#PU
+            荔枝#NN  与#P  香蕉#NR  、#PU  菠萝#NR  、#PU  龙眼#NR  一同#AD  号称#VV  ``#NN  南国#NN  四#CD  大#JJ  果品#NN  ''#NN    。#PU  荔枝#NN  原产#NN  于#P  中国#NR  南部#NN  ，#PU  是#VC  亚热带#NN  果树#NN  ，#PU  常绿#VV  乔木#NN  ，#PU  高#VA  约#AD  10#CD  米#M    。#PU  果皮#NR  肯#VV  多数#CD  鳞#NN  斑状#VV  突起#NN  ，#PU  鲜红#VV  ，#PU  紫红#VV    。#PU  果肉#NN  产鲜#NN  时#LC  半透明#VV  凝脂状#NN  ，#PU  味香美#VV    。#PU  但#AD  不#AD  耐#VV  储藏#VV    。#PU  杨贵妃#NR  因#P  喜#AD  食#NN  荔枝#NN  而#MSP  闻名#VV  ，#PU  使得#VV  杜牧#NN  写下#VV  ``#NN  一#CD  骑#VV  红尘#NN  妃子#NN  笑#VV  ，#PU  无#VE  人#NN  知#VV  是#VC  荔来#NN  ''#NN  的#DEG  千古#CD  名句#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 荔枝#VV)  (case, 无患子科#VV, 为#P)  (prep, 我国#VV, 无患子科#VV)  (nn, 荔枝#NN, 植物#NN)  (assmod, 果实#NN, 荔枝#NN)  (case, 荔枝#NN, 的#DEG)  (dobj, 无患子科#VV, 果实#NN)  (amod, 产于#NN, 原#JJ)  (nsubj, 我国#VV, 产于#NN)  (ccomp, 荔枝#VV, 我国#VV)  (dobj, 我国#VV, 南部#NN)  (case, 地#NN, 以#P)  (conj, 云南#NR, 广东#NR)  (conj, 云南#NR, 广西#NR)  (conj, 云南#NR, 福建#NR)  (conj, 云南#NR, 四川#NR)  (conj, 云南#NR, 台湾#NR)  (nn, 地#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (prep, 栽培#VV, 地#NN)  (conj, 我国#VV, 栽培#VV)  (advmod, 多#VA, 最#AD)  (dep, 荔枝#VV, 多#VA)   (det, ～#NN, 每#DT)  (clf, 每#DT, 年#M)  (nummod, ～#NN, 6#CD)  (loc, 成熟#VA, 7月#NT)  (case, 7月#NT, 间#LC)  (nsubj, 成熟#VA, 果实#NN)  (loc, 采收#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (root, ROOT#null, 采收#VV)  (nn, 外壳#NN, 剥去#NN)  (nsubj, 备用#VV, 外壳#NN)  (loc, 备用#VV, 取#VV)  (amod, 种皮#NN, 假#JJ)  (nn, 荔枝#NN, 种皮#NN)  (nn, -RRB-#NN, 荔枝#NN)  (nn, -RRB-#NN, 肉#NN)  (conj, 干燥#NN, 鲜用#NN)  (cc, 干燥#NN, 或#CC)  (dobj, 取#VV, 干燥#NN)  (case, 取#VV, 后#LC)  (ccomp, 采收#VV, 备用#VV)   (root, ROOT#null, null#null)
+            (nsubj, 号称#VV, 荔枝#NN)  (case, 龙眼#NR, 与#P)  (conj, 龙眼#NR, 香蕉#NR)  (conj, 龙眼#NR, 菠萝#NR)  (prep, 号称#VV, 龙眼#NR)  (advmod, 号称#VV, 一同#AD)  (root, ROOT#null, 号称#VV)  (nn, 南国#NN, ``#NN)  (nn, ''#NN, 南国#NN)  (nummod, ''#NN, 四#CD)  (amod, ''#NN, 大#JJ)  (nn, ''#NN, 果品#NN)  (dobj, 号称#VV, ''#NN)   (nn, 原产#NN, 荔枝#NN)  (nsubj, 果树#NN, 原产#NN)  (case, 南部#NN, 于#P)  (nn, 南部#NN, 中国#NR)  (prep, 果树#NN, 南部#NN)  (cop, 果树#NN, 是#VC)  (nn, 果树#NN, 亚热带#NN)  (root, ROOT#null, 果树#NN)  (conj, 果树#NN, 常绿#VV)  (dobj, 常绿#VV, 乔木#NN)  (conj, 果树#NN, 高#VA)  (advmod, 米#M, 约#AD)  (nummod, 米#M, 10#CD)  (dep, 高#VA, 米#M)   (nsubj, 肯#VV, 果皮#NR)  (root, ROOT#null, 肯#VV)  (nummod, 鳞#NN, 多数#CD)  (dobj, 肯#VV, 鳞#NN)  (dep, 肯#VV, 斑状#VV)  (dobj, 斑状#VV, 突起#NN)  (conj, 斑状#VV, 鲜红#VV)  (conj, 斑状#VV, 紫红#VV)   (nsubj, 半透明#VV, 果肉#NN)  (loc, 半透明#VV, 产鲜#NN)  (case, 产鲜#NN, 时#LC)  (root, ROOT#null, 半透明#VV)  (dobj, 半透明#VV, 凝脂状#NN)  (conj, 半透明#VV, 味香美#VV)   (advmod, 耐#VV, 但#AD)  (neg, 耐#VV, 不#AD)  (dep, 储藏#VV, 耐#VV)  (root, ROOT#null, 储藏#VV)   (nsubj, 知#VV, 杨贵妃#NR)  (case, 闻名#VV, 因#P)  (advmod, 闻名#VV, 喜#AD)  (nn, 荔枝#NN, 食#NN)  (prep, 闻名#VV, 荔枝#NN)  (prtmod, 闻名#VV, 而#MSP)  (prep, 知#VV, 闻名#VV)  (conj, 闻名#VV, 使得#VV)  (dobj, 使得#VV, 杜牧#NN)  (dep, 使得#VV, 写下#VV)  (dobj, 写下#VV, ``#NN)  (range, 写下#VV, 一#CD)  (conj, 使得#VV, 骑#VV)  (nn, 妃子#NN, 红尘#NN)  (dobj, 骑#VV, 妃子#NN)  (conj, 使得#VV, 笑#VV)  (dep, 闻名#VV, 无#VE)  (dobj, 无#VE, 人#NN)  (root, ROOT#null, 知#VV)  (cop, 名句#NN, 是#VC)  (nn, ''#NN, 荔来#NN)  (assmod, 名句#NN, ''#NN)  (case, ''#NN, 的#DEG)  (nummod, 名句#NN, 千古#CD)  (ccomp, 知#VV, 名句#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            荔枝味甘、酸、性温，入心、脾、肝经；果肉具有补脾益肝、理气补血、温中止痛、补心安神的功效；核具有理气、散结、止痛的功效；可止呃逆，止腹泻，是顽固性呃逆及五更泻者的食疗佳品，同时有补脑健身，开胃益脾，有促进食欲之功效。
+            1.补脑
+            荔枝所含丰富的糖分具有补充能量，增加营养的作用，研究证明，荔枝对大脑组织有补养作用，能明显改善失眠、健忘、神疲等症。
+            2.消肿
+            荔枝有消肿解毒、止血止痛的作用。
+            3.美容
+            荔枝拥有丰富的维生素，可促进微细血管的血液循环，防止雀斑的发生，令皮肤更加光滑。
+        </rawdata>
+
+        <segment>
+            荔枝  味甘  、  酸  、  性温  ，  入心  、  脾  、  肝经  ；  果肉  具有  补脾益肝  、  理  气  补血  、  温  中  止痛  、  补  心  安神  的  功效  ；  核  具有  理气  、  散结  、  止痛  的  功效  ；  可  止  呃逆  ，  止  腹泻  ，  是  顽固性  呃逆  及  五  更  泻者  的  食疗  佳品  ，  同时  有  补脑  健身  ，  开胃  益脾  ，  有  促进  食欲  之  功效  。
+            补脑
+            荔枝  所含  丰富  的  糖分  具有  补充  能量  ，  增加  营养  的  作用  ，  研究  证明  ，  荔枝  对  大脑  组织  有  补养  作用  ，  能  明显  改善  失眠  、  健忘  、  神  疲  等症  。
+            消肿
+            荔枝  有  消肿  解毒  、  止血  止痛  的  作用  。
+            美容
+            荔枝  拥有  丰富  的  维生素  ，  可  促进  微细  血管  的  血液  循环  ，  防止  雀斑  的  发生  ，  令  皮肤  更加  光滑  。
+        </segment>
+
+        <pos>
+            荔枝#NR  味甘#VA  、#PU  酸#VA  、#PU  性温#VA  ，#PU  入心#VA  、#PU  脾#VA  、#PU  肝经#VA  ；#PU  果肉#NR  具有#VV  补脾益肝#VA  、#PU  理#AD  气#NN  补血#NN  、#PU  温#NN  中#LC  止痛#VV  、#PU  补#VV  心#NN  安神#NN  的#DEC  功效#NN  ；#PU  核#NN  具有#VV  理气#VA  、#PU  散结#VA  、#PU  止痛#VA  的#DEC  功效#NN  ；#PU  可#VV  止#VV  呃逆#NN  ，#PU  止#VV  腹泻#NN  ，#PU  是#VC  顽固性#NN  呃逆#NN  及#CC  五#CD  更#AD  泻者#VV  的#DEC  食疗#JJ  佳品#NN  ，#PU  同时#AD  有#VE  补脑#NR  健身#VV  ，#PU  开胃#VV  益脾#NN  ，#PU  有#VE  促进#VV  食欲#NN  之#DEC  功效#NN  。#PU
+            补脑#VV
+            荔枝#NN  所含#NN  丰富#VA  的#DEC  糖分#NN  具有#VV  补充#NN  能量#NN  ，#PU  增加#VV  营养#VA  的#DEC  作用#NN  ，#PU  研究#NN  证明#VV  ，#PU  荔枝#NN  对#P  大脑#NN  组织#NN  有#VE  补养#NN  作用#NN  ，#PU  能#VV  明显#AD  改善#VV  失眠#JJ  、#PU  健忘#JJ  、#PU  神#JJ  疲#NN  等症#NN  。#PU
+            消肿#VV
+            荔枝#NN  有#VE  消肿#NN  解毒#NN  、#PU  止血#NN  止痛#NN  的#DEG  作用#NN  。#PU
+            美容#VV
+            荔枝#NR  拥有#VV  丰富#VA  的#DEC  维生素#NN  ，#PU  可#VV  促进#VV  微细#NN  血管#NN  的#DEG  血液#NN  循环#NN  ，#PU  防止#VV  雀斑#NN  的#DEG  发生#NN  ，#PU  令#VV  皮肤#NN  更加#AD  光滑#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味甘#VA, 荔枝#NR)  (root, ROOT#null, 味甘#VA)  (conj, 味甘#VA, 酸#VA)  (dep, 味甘#VA, 性温#VA)  (conj, 味甘#VA, 入心#VA)  (conj, 入心#VA, 脾#VA)  (dep, 入心#VA, 肝经#VA)  (nsubj, 具有#VV, 果肉#NR)  (conj, 味甘#VA, 具有#VV)  (relcl, 功效#NN, 补脾益肝#VA)  (advmod, 止痛#VV, 理#AD)  (nn, 温#NN, 气#NN)  (conj, 温#NN, 补血#NN)  (loc, 止痛#VV, 温#NN)  (case, 温#NN, 中#LC)  (dep, 补脾益肝#VA, 止痛#VV)  (dep, 补脾益肝#VA, 补#VV)  (nn, 安神#NN, 心#NN)  (dobj, 补#VV, 安神#NN)  (mark, 补脾益肝#VA, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (nsubj, 具有#VV, 核#NN)  (conj, 味甘#VA, 具有#VV)  (relcl, 功效#NN, 理气#VA)  (conj, 理气#VA, 散结#VA)  (dep, 理气#VA, 止痛#VA)  (mark, 理气#VA, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (mmod, 止#VV, 可#VV)  (conj, 味甘#VA, 止#VV)  (dobj, 止#VV, 呃逆#NN)  (conj, 止#VV, 止#VV)  (dobj, 止#VV, 腹泻#NN)  (cop, 佳品#NN, 是#VC)  (nn, 呃逆#NN, 顽固性#NN)  (conj, 佳品#NN, 呃逆#NN)  (cc, 佳品#NN, 及#CC)  (nummod, 佳品#NN, 五#CD)  (advmod, 泻者#VV, 更#AD)  (relcl, 佳品#NN, 泻者#VV)  (mark, 泻者#VV, 的#DEC)  (amod, 佳品#NN, 食疗#JJ)  (conj, 止#VV, 佳品#NN)  (advmod, 有#VE, 同时#AD)  (conj, 止#VV, 有#VE)  (nsubj, 健身#VV, 补脑#NR)  (dep, 有#VE, 健身#VV)  (conj, 止#VV, 开胃#VV)  (dobj, 开胃#VV, 益脾#NN)  (conj, 止#VV, 有#VE)  (relcl, 功效#NN, 促进#VV)  (dobj, 促进#VV, 食欲#NN)  (mark, 促进#VV, 之#DEC)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 补脑#VV)
+            (nn, 所含#NN, 荔枝#NN)  (nsubj, 丰富#VA, 所含#NN)  (relcl, 糖分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 具有#VV, 糖分#NN)  (root, ROOT#null, 具有#VV)  (nn, 能量#NN, 补充#NN)  (dobj, 具有#VV, 能量#NN)  (conj, 具有#VV, 增加#VV)  (relcl, 作用#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (dobj, 增加#VV, 作用#NN)  (nsubj, 证明#VV, 研究#NN)  (conj, 具有#VV, 证明#VV)  (nsubj, 有#VE, 荔枝#NN)  (case, 组织#NN, 对#P)  (nn, 组织#NN, 大脑#NN)  (prep, 有#VE, 组织#NN)  (ccomp, 证明#VV, 有#VE)  (nn, 作用#NN, 补养#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 改善#VV, 能#VV)  (advmod, 改善#VV, 明显#AD)  (conj, 具有#VV, 改善#VV)  (amod, 疲#NN, 失眠#JJ)  (conj, 失眠#JJ, 健忘#JJ)  (dep, 失眠#JJ, 神#JJ)  (nn, 等症#NN, 疲#NN)  (dobj, 改善#VV, 等症#NN)
+            (root, ROOT#null, 消肿#VV)
+            (dep, 有#VE, 荔枝#NN)  (root, ROOT#null, 有#VE)  (nn, 止痛#NN, 消肿#NN)  (conj, 止痛#NN, 解毒#NN)  (nn, 止痛#NN, 止血#NN)  (assmod, 作用#NN, 止痛#NN)  (case, 止痛#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 美容#VV)
+            (nsubj, 拥有#VV, 荔枝#NR)  (root, ROOT#null, 拥有#VV)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 拥有#VV, 维生素#NN)  (mmod, 促进#VV, 可#VV)  (conj, 拥有#VV, 促进#VV)  (nn, 血管#NN, 微细#NN)  (assmod, 循环#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (conj, 拥有#VV, 防止#VV)  (assmod, 发生#NN, 雀斑#NN)  (case, 雀斑#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)  (conj, 拥有#VV, 令#VV)  (dobj, 令#VV, 皮肤#NN)  (advmod, 光滑#VA, 更加#AD)  (dep, 令#VV, 光滑#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  美容养颜  健脾  止痢  补血  行气  消肿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            荔枝含有葡萄糖、蔗糖、蛋白质、脂肪、胡萝卜素，维生素B1、维生素B2、维生素C，叶酸、柠檬酸、苹果酸、钙、磷、铁、精氨酸、色氨酸等成分。
+        </rawdata>
+
+        <segment>
+            荔枝  含有  葡萄糖  、  蔗糖  、  蛋白质  、  脂肪  、  胡萝卜素  ，  维生素  B  维生素B2  、  维生素C  ，  叶酸  、  柠檬酸  、  苹果  酸  、  钙  、  磷  、  铁  、  精氨酸  、  色氨酸  等  成分  。
+        </segment>
+
+        <pos>
+            荔枝#NN  含有#VV  葡萄糖#NR  、#PU  蔗糖#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  胡萝卜素#NR  ，#PU  维生素#NN  B#VV  维生素B2#CD  、#PU  维生素C#NN  ，#PU  叶酸#NR  、#PU  柠檬酸#NR  、#PU  苹果#NR  酸#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  精氨酸#NN  、#PU  色氨酸#NN  等#ETC  成分#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 荔枝#NN)  (root, ROOT#null, 含有#VV)  (conj, 胡萝卜素#NR, 葡萄糖#NR)  (conj, 胡萝卜素#NR, 蔗糖#NR)  (conj, 胡萝卜素#NR, 蛋白质#NR)  (conj, 胡萝卜素#NR, 脂肪#NR)  (dobj, 含有#VV, 胡萝卜素#NR)  (nsubj, B#VV, 维生素#NN)  (conj, 含有#VV, B#VV)  (nummod, 成分#NN, 维生素B2#CD)  (dep, 成分#NN, 维生素C#NN)  (conj, 钙#NR, 叶酸#NR)  (conj, 钙#NR, 柠檬酸#NR)  (nn, 钙#NR, 苹果#NR)  (conj, 钙#NR, 酸#NR)  (conj, 成分#NN, 钙#NR)  (conj, 色氨酸#NN, 磷#NN)  (conj, 色氨酸#NN, 铁#NN)  (conj, 色氨酸#NN, 精氨酸#NN)  (nn, 成分#NN, 色氨酸#NN)  (etc, 色氨酸#NN, 等#ETC)  (dobj, B#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            新鲜的荔枝每年五月开始上市，七至八月是最当造的时节。产地附近的城市经常可以买到刚刚摘下来的新鲜荔枝。至于离产地较远的地方，便只可以买到冰冻过的。荔枝罐头也非常流行，一般是去壳去核，泡在淡糖水里。味道和新鲜度差的很远，经常用来作冷饮或甜点。
+            1.不要空腹吃荔枝，最好是在饭后半小时再食用
+            荔枝中含有大量的天然葡萄糖，过量食用会使果糖在血液中充盈，肝脏来不及转化为葡萄糖，造成机体内血糖降低。大量进食荔枝又很少吃饭的话，极容易引发突发性低血糖症，出现头晕、口渴、恶心、出汗、肚子疼、心慌等现象，严重者会发生昏迷、抽搐、呼吸不规则、心律不齐等，这些症状就是大量食用荔枝后产生的突发性低血糖，医学上称之为荔枝急性中毒，也称“荔枝病”。开车时人体会消耗大量的热量，而人体中的热量主要来源于食物中的糖类。研究发现，司机在开车前或开车时食用荔枝过多，不但不能及时补充糖分，反而还会增加发生交通意外的风险。
+            2.吃荔枝前后适当喝点盐水、凉茶或绿豆汤，可以预防“虚火”。把新鲜荔枝去皮浸入淡盐水中，放入冰柜里冰后食用，不仅可以预防“虚火”，还具有醒脾消滞的功效。
+            3.成年人每天吃荔枝一般不要超过300克，儿童一次不要超过5枚。对荔枝过敏的人、糖尿病患者及阴虚火旺者要禁食或慎食。
+        </rawdata>
+
+        <segment>
+            新鲜  的  荔枝  每  年  五月  开始  上市  ，  七  至  八月  是  最  当造  的  时节  。  产地  附近  的  城市  经常  可以  买到  刚刚  摘下  来  的  新鲜  荔枝  。  至于  离  产地  较  远  的  地方  ，  便  只  可以  买到  冰冻  过  的  。  荔枝  罐头  也  非常  流行  ，  一般  是  去壳  去核  ，  泡在  淡糖  水里  。  味道  和  新鲜度  差  的  很  远  ，  经常  用来  作  冷饮  或  甜点  。
+            不要  空腹  吃  荔枝  ，  最好  是  在  饭后  半  小时  再  食用
+            荔枝  中  含有  大量  的  天然  葡萄糖  ，  过量  食用  会使  果糖  在  血液  中  充盈  ，  肝脏  来不及  转化  为  葡萄糖  ，  造成  机体  内  血糖  降低  。  大量  进食  荔枝  又  很少  吃饭  的话  ，  极  容易  引发  突发性  低  血糖症  ，  出现  头晕  、  口渴  、  恶心  、  出汗  、  肚子疼  、  心慌  等  现象  ，  严重者  会  发生  昏迷  、  抽搐  、  呼吸  不规则  、  心律不齐  等  ，  这些  症状  就是  大量  食用  荔枝  后  产生  的  突发性  低  血糖  ，  医学  上  称之为  荔枝  急性  中毒  ，  也  称  “  荔枝病  ”  。  开车  时人  体会  消耗  大量  的  热量  ，  而  人体  中的  热量  主要  来源于  食物  中  的  糖类  。  研究  发现  ，  司机  在  开车  前  或  开车  时  食用  荔枝  过多  ，  不但  不  能  及时  补充  糖分  ，  反而  还  会  增加  发生  交通  意外  的  风险  。
+            吃  荔枝  前后  适当  喝  点  盐水  、  凉  茶  或  绿豆汤  ，  可以  预防  “  虚火  ”  。  把  新鲜  荔枝  去皮  浸入  淡盐  水  中  ，  放入  冰柜  里  冰  后  食用  ，  不仅  可以  预防  “  虚火  ”  ，  还  具有  醒脾  消滞  的  功效  。
+            成年人  每天  吃  荔枝  一般  不  要  超过  300  克  ，  儿童  一  次  不  要  超过  5  枚  。  对  荔枝  过敏  的  人  、  糖尿病  患者  及  阴虚  火  旺  者  要  禁食  或  慎食  。
+        </segment>
+
+        <pos>
+            新鲜#VA  的#DEC  荔枝#NN  每#DT  年#M  五月#NT  开始#VV  上市#VV  ，#PU  七#CD  至#P  八月#NT  是#VC  最#AD  当造#VA  的#DEC  时节#NN    。#PU  产地#NN  附近#NN  的#DEG  城市#NN  经常#AD  可以#VV  买到#VV  刚刚#AD  摘下#VV  来#LC  的#DEG  新鲜#JJ  荔枝#NN    。#PU  至于#P  离#P  产地#NN  较#AD  远#VA  的#DEC  地方#NN  ，#PU  便#AD  只#AD  可以#VV  买到#VV  冰冻#VV  过#AS  的#DEC    。#PU  荔枝#NN  罐头#NN  也#AD  非常#AD  流行#VV  ，#PU  一般#AD  是#VC  去壳#NN  去核#NN  ，#PU  泡在#VV  淡糖#NN  水里#NN    。#PU  味道#NN  和#CC  新鲜度#NN  差#VA  的#DEC  很#AD  远#VA  ，#PU  经常#AD  用来#AD  作#VV  冷饮#NN  或#CC  甜点#NN    。#PU    。#PU
+            不要#NN  空腹#AD  吃#VV  荔枝#NN  ，#PU  最好#JJ  是#VC  在#P  饭后#NR  半#CD  小时#NN  再#AD  食用#VV
+            荔枝#NN  中#LC  含有#VV  大量#CD  的#DEG  天然#JJ  葡萄糖#NN  ，#PU  过量#AD  食用#VV  会使#NN  果糖#NN  在#P  血液#NN  中#LC  充盈#VV  ，#PU  肝脏#NN  来不及#NN  转化#NN  为#VV  葡萄糖#NN  ，#PU  造成#VV  机体#NN  内#LC  血糖#NN  降低#VV    。#PU  大量#AD  进食#VV  荔枝#NN  又#AD  很少#AD  吃饭#VV  的话#SP  ，#PU  极#AD  容易#VA  引发#VV  突发性#JJ  低#JJ  血糖症#NN  ，#PU  出现#VV  头晕#NN  、#PU  口渴#NN  、#PU  恶心#NN  、#PU  出汗#NN  、#PU  肚子疼#NN  、#PU  心慌#NN  等#ETC  现象#NN  ，#PU  严重者#VV  会#VV  发生#VV  昏迷#NN  、#PU  抽搐#NN  、#PU  呼吸#NN  不规则#AD  、#PU  心律不齐#VV  等#ETC  ，#PU  这些#DT  症状#NN  就是#AD  大量#AD  食用#VV  荔枝#NN  后#LC  产生#VV  的#DEC  突发性#JJ  低#JJ  血糖#NN  ，#PU  医学#NN  上#LC  称之为#NN  荔枝#NN  急性#AD  中毒#VV  ，#PU  也#AD  称#VV  ``#VV  荔枝病#NN  ''#NN    。#PU  开车#NN  时人#NN  体会#NN  消耗#VV  大量#CD  的#DEG  热量#NN  ，#PU  而#AD  人体#NN  中的#NN  热量#NN  主要#AD  来源于#VV  食物#NN  中#LC  的#DEG  糖类#NN    。#PU  研究#NN  发现#VV  ，#PU  司机#NN  在#P  开车#NN  前#LC  或#CC  开车#NN  时#LC  食用#VV  荔枝#NN  过多#NN  ，#PU  不但#CC  不#AD  能#VV  及时#AD  补充#VV  糖分#NN  ，#PU  反而#AD  还#AD  会#VV  增加#VV  发生#VV  交通#NN  意外#NN  的#DEC  风险#NN    。#PU    。#PU
+            吃#VV  荔枝#NN  前后#LC  适当#JJ  喝#CD  点#M  盐水#NN  、#PU  凉#NN  茶#NN  或#CC  绿豆汤#NN  ，#PU  可以#VV  预防#VV  ``#NN  虚火#NN  ''#NN    。#PU  把#BA  新鲜#JJ  荔枝#NN  去皮#NN  浸入#NN  淡盐#VV  水#NN  中#LC  ，#PU  放入#VV  冰柜#CD  里#M  冰#NN  后#LC  食用#VV  ，#PU  不仅#CC  可以#VV  预防#VV  ``#NN  虚火#NN  ''#NN  ，#PU  还#AD  具有#VV  醒脾#NN  消滞#NN  的#DEG  功效#NN    。#PU    。#PU
+            成年人#NN  每天#AD  吃#VV  荔枝#NN  一般#AD  不#AD  要#VV  超过#VV  300#CD  克#M  ，#PU  儿童#NN  一#CD  次#M  不#AD  要#VV  超过#VV  5#CD  枚#M    。#PU  对#P  荔枝#NN  过敏#NN  的#DEG  人#NN  、#PU  糖尿病#NN  患者#NN  及#CC  阴虚#JJ  火#NN  旺#VV  者#NN  要#VV  禁食#NN  或#CC  慎食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 荔枝#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nsubj, 时节#NN, 荔枝#NN)  (xsubj, 时节#NN, 荔枝#NN)  (det, 五月#NT, 每#DT)  (clf, 每#DT, 年#M)  (nsubj, 时节#NN, 五月#NT)  (xsubj, 时节#NN, 五月#NT)  (dep, 上市#VV, 开始#VV)  (dep, 时节#NN, 上市#VV)  (nsubj, 时节#NN, 七#CD)  (case, 八月#NT, 至#P)  (prep, 时节#NN, 八月#NT)  (cop, 时节#NN, 是#VC)  (advmod, 当造#VA, 最#AD)  (relcl, 时节#NN, 当造#VA)  (mark, 当造#VA, 的#DEC)  (root, ROOT#null, 时节#NN)   (nn, 附近#NN, 产地#NN)  (assmod, 城市#NN, 附近#NN)  (case, 附近#NN, 的#DEG)  (nsubj, 买到#VV, 城市#NN)  (advmod, 买到#VV, 经常#AD)  (mmod, 买到#VV, 可以#VV)  (root, ROOT#null, 买到#VV)  (advmod, 摘下#VV, 刚刚#AD)  (assmod, 荔枝#NN, 摘下#VV)  (case, 摘下#VV, 来#LC)  (case, 摘下#VV, 的#DEG)  (amod, 荔枝#NN, 新鲜#JJ)  (dobj, 买到#VV, 荔枝#NN)   (case, 地方#NN, 至于#P)  (case, 产地#NN, 离#P)  (prep, 远#VA, 产地#NN)  (advmod, 远#VA, 较#AD)  (relcl, 地方#NN, 远#VA)  (mark, 远#VA, 的#DEC)  (prep, 买到#VV, 地方#NN)  (advmod, 买到#VV, 便#AD)  (advmod, 买到#VV, 只#AD)  (mmod, 买到#VV, 可以#VV)  (root, ROOT#null, 买到#VV)  (dobj, 买到#VV, 冰冻#VV)  (asp, 冰冻#VV, 过#AS)  (mark, 冰冻#VV, 的#DEC)   (nn, 罐头#NN, 荔枝#NN)  (nsubj, 流行#VV, 罐头#NN)  (advmod, 流行#VV, 也#AD)  (advmod, 流行#VV, 非常#AD)  (root, ROOT#null, 流行#VV)  (advmod, 去核#NN, 一般#AD)  (cop, 去核#NN, 是#VC)  (nn, 去核#NN, 去壳#NN)  (conj, 流行#VV, 去核#NN)  (dep, 流行#VV, 泡在#VV)  (nn, 水里#NN, 淡糖#NN)  (dobj, 泡在#VV, 水里#NN)   (conj, 新鲜度#NN, 味道#NN)  (cc, 新鲜度#NN, 和#CC)  (nsubj, 差#VA, 新鲜度#NN)  (nsubj, 远#VA, 差#VA)  (mark, 差#VA, 的#DEC)  (advmod, 远#VA, 很#AD)  (root, ROOT#null, 远#VA)  (advmod, 作#VV, 经常#AD)  (advmod, 作#VV, 用来#AD)  (dep, 远#VA, 作#VV)  (conj, 甜点#NN, 冷饮#NN)  (cc, 甜点#NN, 或#CC)  (dobj, 作#VV, 甜点#NN)   (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 不要#NN)  (advmod, 吃#VV, 空腹#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 荔枝#NN)  (amod, 小时#NN, 最好#JJ)  (relcl, 小时#NN, 是#VC)  (case, 饭后#NR, 在#P)  (prep, 是#VC, 饭后#NR)  (nummod, 小时#NN, 半#CD)  (nsubj, 食用#VV, 小时#NN)  (advmod, 食用#VV, 再#AD)  (conj, 吃#VV, 食用#VV)
+            (loc, 含有#VV, 荔枝#NN)  (case, 荔枝#NN, 中#LC)  (relcl, 果糖#NN, 含有#VV)  (assmod, 葡萄糖#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (amod, 葡萄糖#NN, 天然#JJ)  (dobj, 含有#VV, 葡萄糖#NN)  (advmod, 食用#VV, 过量#AD)  (conj, 含有#VV, 食用#VV)  (dobj, 食用#VV, 会使#NN)  (nsubj, 充盈#VV, 果糖#NN)  (case, 血液#NN, 在#P)  (prep, 充盈#VV, 血液#NN)  (case, 血液#NN, 中#LC)  (root, ROOT#null, 充盈#VV)  (nn, 转化#NN, 肝脏#NN)  (nn, 转化#NN, 来不及#NN)  (nsubj, 为#VV, 转化#NN)  (ccomp, 充盈#VV, 为#VV)  (dobj, 为#VV, 葡萄糖#NN)  (conj, 为#VV, 造成#VV)  (dep, 血糖#NN, 机体#NN)  (case, 机体#NN, 内#LC)  (dobj, 造成#VV, 血糖#NN)  (dep, 充盈#VV, 降低#VV)   (advmod, 进食#VV, 大量#AD)  (relcl, 荔枝#NN, 进食#VV)  (nsubj, 吃饭#VV, 荔枝#NN)  (advmod, 吃饭#VV, 又#AD)  (advmod, 吃饭#VV, 很少#AD)  (dep, 容易#VA, 吃饭#VV)  (dep, 吃饭#VV, 的话#SP)  (advmod, 容易#VA, 极#AD)  (root, ROOT#null, 容易#VA)  (dep, 容易#VA, 引发#VV)  (amod, 血糖症#NN, 突发性#JJ)  (amod, 血糖症#NN, 低#JJ)  (dobj, 引发#VV, 血糖症#NN)  (conj, 引发#VV, 出现#VV)  (conj, 心慌#NN, 头晕#NN)  (conj, 心慌#NN, 口渴#NN)  (conj, 心慌#NN, 恶心#NN)  (conj, 心慌#NN, 出汗#NN)  (conj, 心慌#NN, 肚子疼#NN)  (nn, 现象#NN, 心慌#NN)  (etc, 心慌#NN, 等#ETC)  (dobj, 出现#VV, 现象#NN)  (conj, 引发#VV, 严重者#VV)  (mmod, 发生#VV, 会#VV)  (ccomp, 严重者#VV, 发生#VV)  (conj, 呼吸#NN, 昏迷#NN)  (conj, 呼吸#NN, 抽搐#NN)  (dobj, 发生#VV, 呼吸#NN)  (advmod, 发生#VV, 不规则#AD)  (conj, 引发#VV, 心律不齐#VV)  (dep, 引发#VV, 等#ETC)  (det, 症状#NN, 这些#DT)  (nsubj, 中毒#VV, 症状#NN)  (advmod, 中毒#VV, 就是#AD)  (advmod, 食用#VV, 大量#AD)  (dep, 中毒#VV, 食用#VV)  (loc, 产生#VV, 荔枝#NN)  (case, 荔枝#NN, 后#LC)  (relcl, 血糖#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (amod, 血糖#NN, 突发性#JJ)  (amod, 血糖#NN, 低#JJ)  (dobj, 食用#VV, 血糖#NN)  (loc, 中毒#VV, 医学#NN)  (case, 医学#NN, 上#LC)  (nn, 荔枝#NN, 称之为#NN)  (nsubj, 中毒#VV, 荔枝#NN)  (advmod, 中毒#VV, 急性#AD)  (dep, 引发#VV, 中毒#VV)  (advmod, 称#VV, 也#AD)  (conj, 引发#VV, 称#VV)  (ccomp, 称#VV, ``#VV)  (nn, ''#NN, 荔枝病#NN)  (dobj, ``#VV, ''#NN)   (nn, 体会#NN, 开车#NN)  (nn, 体会#NN, 时人#NN)  (nsubj, 消耗#VV, 体会#NN)  (root, ROOT#null, 消耗#VV)  (assmod, 热量#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 消耗#VV, 热量#NN)  (advmod, 来源于#VV, 而#AD)  (nn, 热量#NN, 人体#NN)  (nn, 热量#NN, 中的#NN)  (nsubj, 来源于#VV, 热量#NN)  (advmod, 来源于#VV, 主要#AD)  (conj, 消耗#VV, 来源于#VV)  (assmod, 糖类#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (dobj, 来源于#VV, 糖类#NN)   (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 食用#VV, 司机#NN)  (case, 开车#NN, 在#P)  (prep, 食用#VV, 开车#NN)  (case, 开车#NN, 前#LC)  (dep, 开车#NN, 或#CC)  (dep, 开车#NN, 开车#NN)  (case, 开车#NN, 时#LC)  (ccomp, 发现#VV, 食用#VV)  (nn, 过多#NN, 荔枝#NN)  (dobj, 食用#VV, 过多#NN)  (cc, 食用#VV, 不但#CC)  (neg, 补充#VV, 不#AD)  (mmod, 补充#VV, 能#VV)  (advmod, 补充#VV, 及时#AD)  (dep, 食用#VV, 补充#VV)  (dobj, 补充#VV, 糖分#NN)  (advmod, 增加#VV, 反而#AD)  (advmod, 增加#VV, 还#AD)  (mmod, 增加#VV, 会#VV)  (dep, 食用#VV, 增加#VV)  (relcl, 风险#NN, 发生#VV)  (nn, 意外#NN, 交通#NN)  (dobj, 发生#VV, 意外#NN)  (mark, 发生#VV, 的#DEC)  (dobj, 增加#VV, 风险#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 吃#VV)  (dep, 绿豆汤#NN, 荔枝#NN)  (case, 荔枝#NN, 前后#LC)  (amod, 绿豆汤#NN, 适当#JJ)  (nummod, 点#M, 喝#CD)  (clf, 盐水#NN, 点#M)  (conj, 绿豆汤#NN, 盐水#NN)  (nn, 茶#NN, 凉#NN)  (conj, 绿豆汤#NN, 茶#NN)  (cc, 绿豆汤#NN, 或#CC)  (dobj, 吃#VV, 绿豆汤#NN)  (mmod, 预防#VV, 可以#VV)  (conj, 吃#VV, 预防#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 虚火#NN)  (dobj, 预防#VV, ''#NN)   (ba, 淡盐#VV, 把#BA)  (amod, 荔枝#NN, 新鲜#JJ)  (nn, 浸入#NN, 荔枝#NN)  (nn, 浸入#NN, 去皮#NN)  (nsubj, 淡盐#VV, 浸入#NN)  (root, ROOT#null, 淡盐#VV)  (loc, 淡盐#VV, 水#NN)  (case, 水#NN, 中#LC)  (dep, 淡盐#VV, 放入#VV)  (nummod, 里#M, 冰柜#CD)  (clf, 冰#NN, 里#M)  (loc, 放入#VV, 冰#NN)  (case, 冰#NN, 后#LC)  (conj, 放入#VV, 食用#VV)  (cc, 淡盐#VV, 不仅#CC)  (mmod, 预防#VV, 可以#VV)  (dep, 淡盐#VV, 预防#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 虚火#NN)  (dobj, 预防#VV, ''#NN)  (advmod, 具有#VV, 还#AD)  (dep, 淡盐#VV, 具有#VV)  (nn, 消滞#NN, 醒脾#NN)  (assmod, 功效#NN, 消滞#NN)  (case, 消滞#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 成年人#NN)  (advmod, 吃#VV, 每天#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 荔枝#NN)  (advmod, 超过#VV, 一般#AD)  (neg, 超过#VV, 不#AD)  (mmod, 超过#VV, 要#VV)  (conj, 吃#VV, 超过#VV)  (nummod, 克#M, 300#CD)  (range, 超过#VV, 克#M)  (nsubj, 超过#VV, 儿童#NN)  (nummod, 次#M, 一#CD)  (dep, 超过#VV, 次#M)  (neg, 超过#VV, 不#AD)  (mmod, 超过#VV, 要#VV)  (dep, 超过#VV, 超过#VV)  (nummod, 枚#M, 5#CD)  (range, 超过#VV, 枚#M)   (case, 过敏#NN, 对#P)  (nn, 过敏#NN, 荔枝#NN)  (assmod, 人#NN, 过敏#NN)  (case, 过敏#NN, 的#DEG)  (conj, 火#NN, 人#NN)  (nn, 患者#NN, 糖尿病#NN)  (conj, 火#NN, 患者#NN)  (cc, 火#NN, 及#CC)  (amod, 火#NN, 阴虚#JJ)  (nsubj, 旺#VV, 火#NN)  (root, ROOT#null, 旺#VV)  (dobj, 旺#VV, 者#NN)  (conj, 旺#VV, 要#VV)  (conj, 慎食#NN, 禁食#NN)  (cc, 慎食#NN, 或#CC)  (dobj, 要#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/102051385334.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\318 荔枝.jpg
+    </picturelocalurl>
+
+</content>

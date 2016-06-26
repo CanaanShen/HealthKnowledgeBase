@@ -1,0 +1,378 @@
+<content>
+
+    <id>
+        123
+    </id>
+
+    <foodname>
+        蛤蜊
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        花蛤、文蛤、蚶仔、西施舌、嘎啦
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒，腹泻便池者，寒性胃痛腹痛者，女子月经来潮期间及妇人产后，受凉感冒者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  ，  腹泻  便池  者  ，  寒性  胃痛  腹痛者  ，  女子  月经  来潮  期间  及  妇人  产后  ，  受凉  感冒  者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NR  虚寒#VV  ，#PU  腹泻#NN  便池#NN  者#NN  ，#PU  寒性#AD  胃痛#VV  腹痛者#NN  ，#PU  女子#NN  月经#NN  来潮#NN  期间#NN  及#CC  妇人#NN  产后#NN  ，#PU  受凉#AD  感冒#VV  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 虚寒#VV, 脾胃#NR)  (root, ROOT#null, 虚寒#VV)  (nn, 者#NN, 腹泻#NN)  (nn, 者#NN, 便池#NN)  (nsubj, 胃痛#VV, 者#NN)  (advmod, 胃痛#VV, 寒性#AD)  (ccomp, 虚寒#VV, 胃痛#VV)  (dobj, 胃痛#VV, 腹痛者#NN)  (nn, 来潮#NN, 女子#NN)  (nn, 来潮#NN, 月经#NN)  (nn, 期间#NN, 来潮#NN)  (conj, 产后#NN, 期间#NN)  (cc, 产后#NN, 及#CC)  (nn, 产后#NN, 妇人#NN)  (nsubj, 感冒#VV, 产后#NN)  (advmod, 感冒#VV, 受凉#AD)  (conj, 虚寒#VV, 感冒#VV)  (nn, 忌食#NN, 者#NN)  (dobj, 感冒#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高胆固醇、高血脂体质、肺结核咳嗽咯血，阴虚盗汗者和体质虚弱，营养不良者，瘿瘤瘰疬，淋巴结肿大，甲状腺肿大者，癌症患者及放疗、化疗后者，糖尿病，红斑狼疮，干燥综合症患者，黄疸者，尿路感染者，醉酒之人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高  胆固醇  、  高血脂  体质  、  肺结核  咳嗽  咯血  ，  阴虚  盗汗  者  和  体质  虚弱  ，  营养  不良  者  ，  瘿瘤  瘰疬  ，  淋巴结  肿大  ，  甲状腺肿  大者  ，  癌症  患者  及  放疗  、  化疗  后者  ，  糖尿病  ，  红斑狼疮  ，  干燥  综合症  患者  ，  黄疸者  ，  尿  路  感染者  ，  醉酒  之  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  高#JJ  胆固醇#NN  、#PU  高血脂#NN  体质#NN  、#PU  肺结核#NR  咳嗽#NN  咯血#NN  ，#PU  阴虚#NR  盗汗#NR  者#NN  和#CC  体质#NN  虚弱#NN  ，#PU  营养#VA  不良#JJ  者#NN  ，#PU  瘿瘤#NN  瘰疬#NN  ，#PU  淋巴结#NN  肿大#NN  ，#PU  甲状腺肿#NN  大者#NN  ，#PU  癌症#NN  患者#NN  及#CC  放疗#NN  、#PU  化疗#NN  后者#NN  ，#PU  糖尿病#NN  ，#PU  红斑狼疮#NN  ，#PU  干燥#NR  综合症#NN  患者#NN  ，#PU  黄疸者#NN  ，#PU  尿#NR  路#NN  感染者#NN  ，#PU  醉酒#NR  之#DEG  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NR)  (root, ROOT#null, 适宜#VV)  (amod, 胆固醇#NN, 高#JJ)  (conj, 人#NN, 胆固醇#NN)  (nn, 体质#NN, 高血脂#NN)  (conj, 人#NN, 体质#NN)  (nn, 咯血#NN, 肺结核#NR)  (nn, 咯血#NN, 咳嗽#NN)  (dep, 人#NN, 咯血#NN)  (nn, 虚弱#NN, 阴虚#NR)  (nn, 虚弱#NN, 盗汗#NR)  (conj, 虚弱#NN, 者#NN)  (cc, 虚弱#NN, 和#CC)  (nn, 虚弱#NN, 体质#NN)  (dep, 人#NN, 虚弱#NN)  (nfincl, 者#NN, 营养#VA)  (amod, 者#NN, 不良#JJ)  (dep, 人#NN, 者#NN)  (nn, 瘰疬#NN, 瘿瘤#NN)  (dep, 人#NN, 瘰疬#NN)  (nn, 肿大#NN, 淋巴结#NN)  (dep, 人#NN, 肿大#NN)  (nn, 大者#NN, 甲状腺肿#NN)  (dep, 人#NN, 大者#NN)  (nn, 放疗#NN, 癌症#NN)  (conj, 放疗#NN, 患者#NN)  (cc, 放疗#NN, 及#CC)  (conj, 人#NN, 放疗#NN)  (nn, 后者#NN, 化疗#NN)  (dep, 人#NN, 后者#NN)  (dep, 人#NN, 糖尿病#NN)  (dep, 人#NN, 红斑狼疮#NN)  (nn, 患者#NN, 干燥#NR)  (nn, 患者#NN, 综合症#NN)  (dep, 人#NN, 患者#NN)  (dep, 人#NN, 黄疸者#NN)  (nn, 感染者#NN, 尿#NR)  (nn, 感染者#NN, 路#NN)  (dep, 人#NN, 感染者#NN)  (assmod, 人#NN, 醉酒#NR)  (case, 醉酒#NR, 之#DEG)  (dobj, 适宜#VV, 人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                10.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                156
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                133
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                128
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                425.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                10.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                54.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.44
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蛤蜊，为蛤蜊科动物四角蛤蜊或其他各种蛤蜊的肉。产我国沿海一带，生活在浅海底。软体动物，长约3厘米，壳卵圆形，淡褐色，边缘紫色。
+            蛤蜊是青岛的独特海产品，青岛俗称嘎啦。在青岛附近，它主要产于胶州湾内，栖息在潮间带中、下区以下的泥沙滩海底，以干潮线以下产量最多。其栖息于泥沙中的深度，一般都不超过自己身体长度的2倍。每逢阴历的初一、十五，落大潮后人们多去海滩挖掘这一海味来解馋。大量生产则用挖蛤蜊船在深水处采捕。
+            蛤蜊不仅味道鲜美，而且它的营养也比较全面，实属物美价廉的海产品。其肉质鲜美无比，被称为“天下第一鲜”、“百味之冠”，江苏民间还有“吃了蛤蜊肉，百味都失灵”之说。它含有蛋白质、脂肪、碳水化合物、铁、钙、磷、碘、维生素、氨基酸和牛磺酸等多种成分，是一种低热能、高蛋白，能防治中老年人慢性病的理想食品。
+        </rawdata>
+
+        <segment>
+            蛤蜊  ，  为  蛤蜊  科  动物  四角  蛤蜊  或  其他  各  种  蛤蜊  的  肉  。  产  我  国  沿海  一带  ，  生活  在  浅  海底  。  软体  动物  ，  长  约  3  厘米  ，  壳  卵  圆形  ，  淡褐色  ，  边缘  紫色  。
+            蛤蜊  是  青岛  的  独特  海产品  ，  青岛  俗称  嘎啦  。  在  青岛  附近  ，  它  主要  产于  胶州  湾内  ，  栖息  在  潮  间  带中  、  下  区  以下  的  泥沙  滩  海底  ，  以  干  潮  线  以下  产量  最  多  。  其  栖息于  泥沙  中的  深度  ，  一般  都  不  超过  自己  身体  长度  的  2  倍  。  每  逢  阴历  的  初一  、  十五  ，  落  大潮  后  人们  多  去  海滩  挖掘  这  一  海味  来  解馋  。  大量  生产  则  用  挖  蛤蜊  船  在  深水  处  采捕  。
+            蛤蜊  不仅  味道  鲜美  ，  而且  它  的  营养  也  比较  全面  ，  实属  物美价廉  的  海产品  。  其  肉质  鲜美  无比  ，  被  称为  “  天下  第一  鲜  ”  、  “  百  味  之  冠  ”  ，  江苏  民间  还  有  “  吃  了  蛤蜊  肉  ，  百  味  都  失灵  ”  之  说  。  它  含有  蛋白质  、  脂肪  、  碳水化合物  、  铁  、  钙  、  磷  、  碘  、  维生素  、  氨基酸  和  牛磺酸  等  多  种  成分  ，  是  一  种  低  热能  、  高  蛋白  ，  能  防治  中  老年人  慢性病  的  理想  食品  。
+        </segment>
+
+        <pos>
+            蛤蜊#VV  ，#PU  为#VV  蛤蜊#JJ  科#NN  动物#NN  四角#CD  蛤蜊#NN  或#CC  其他#DT  各#DT  种#M  蛤蜊#NN  的#DEG  肉#NN    。#PU  产#VV  我#PN  国#NN  沿海#NN  一带#CD  ，#PU  生活#VV  在#P  浅#NN  海底#NN    。#PU  软体#VV  动物#NN  ，#PU  长#VV  约#AD  3#CD  厘米#M  ，#PU  壳#NN  卵#NN  圆形#VV  ，#PU  淡褐色#NN  ，#PU  边缘#NN  紫色#VV    。#PU    。#PU
+            蛤蜊#NN  是#VC  青岛#NR  的#DEG  独特#JJ  海产品#NN  ，#PU  青岛#NR  俗称#VV  嘎啦#NN    。#PU  在#P  青岛#NR  附近#NN  ，#PU  它#PN  主要#JJ  产于#NN  胶州#NN  湾内#VV  ，#PU  栖息#NN  在#P  潮#NN  间#LC  带中#VV  、#PU  下#VV  区#NN  以下#LC  的#DEG  泥沙#NN  滩#NN  海底#NN  ，#PU  以#MSP  干#VV  潮#NN  线#NN  以下#JJ  产量#NN  最#AD  多#VA    。#PU  其#PN  栖息于#VV  泥沙#NN  中的#VV  深度#NN  ，#PU  一般#AD  都#AD  不#AD  超过#VV  自己#PN  身体#NN  长度#NN  的#DEG  2#CD  倍#M    。#PU  每#AD  逢#VV  阴历#NN  的#DEG  初一#CD  、#PU  十五#CD  ，#PU  落#NN  大潮#NN  后#LC  人们#NN  多#AD  去#VV  海滩#NN  挖掘#VV  这#DT  一#CD  海味#NN  来#MSP  解馋#VV    。#PU  大量#CD  生产#NN  则#AD  用#P  挖#VV  蛤蜊#NN  船#NN  在#P  深水#NN  处#LC  采捕#VV    。#PU    。#PU
+            蛤蜊#NN  不仅#CC  味道#NN  鲜美#NN  ，#PU  而且#CC  它#PN  的#DEG  营养#VA  也#AD  比较#AD  全面#VA  ，#PU  实属#AD  物美价廉#VV  的#DEC  海产品#NN    。#PU  其#PN  肉质#VV  鲜美#NN  无比#NN  ，#PU  被#SB  称为#VV  ``#NR  天下#NR  第一#OD  鲜#NN  ''#NN  、#PU  ``#NN  百#CD  味#NN  之#DEG  冠#NN  ''#NN  ，#PU  江苏#NR  民间#NN  还#AD  有#VE  ``#NR  吃#VV  了#AS  蛤蜊#NN  肉#NN  ，#PU  百#CD  味#NN  都#AD  失灵#VV  ''#NR  之#DEG  说#NN    。#PU  它#PN  含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  铁#NN  、#PU  钙#NR  、#PU  磷#NN  、#PU  碘#NR  、#PU  维生素#NN  、#PU  氨基酸#NR  和#CC  牛磺酸#NR  等#ETC  多#CD  种#M  成分#NN  ，#PU  是#VC  一#CD  种#M  低#JJ  热能#NN  、#PU  高#JJ  蛋白#NN  ，#PU  能#VV  防治#VV  中#NR  老年人#NN  慢性病#NN  的#DEG  理想#JJ  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 蛤蜊#VV)  (ccomp, 蛤蜊#VV, 为#VV)  (amod, 动物#NN, 蛤蜊#JJ)  (nn, 动物#NN, 科#NN)  (nn, 蛤蜊#NN, 动物#NN)  (nummod, 蛤蜊#NN, 四角#CD)  (conj, 蛤蜊#NN, 蛤蜊#NN)  (cc, 蛤蜊#NN, 或#CC)  (det, 蛤蜊#NN, 其他#DT)  (det, 蛤蜊#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 肉#NN, 蛤蜊#NN)  (case, 蛤蜊#NN, 的#DEG)  (dobj, 为#VV, 肉#NN)   (root, ROOT#null, 产#VV)  (nn, 国#NN, 我#PN)  (nn, 沿海#NN, 国#NN)  (dobj, 产#VV, 沿海#NN)  (range, 产#VV, 一带#CD)  (conj, 产#VV, 生活#VV)  (case, 海底#NN, 在#P)  (nn, 海底#NN, 浅#NN)  (prep, 生活#VV, 海底#NN)   (root, ROOT#null, 软体#VV)  (dobj, 软体#VV, 动物#NN)  (conj, 软体#VV, 长#VV)  (advmod, 厘米#M, 约#AD)  (nummod, 厘米#M, 3#CD)  (range, 长#VV, 厘米#M)  (nn, 卵#NN, 壳#NN)  (nsubj, 圆形#VV, 卵#NN)  (dep, 软体#VV, 圆形#VV)  (nsubj, 紫色#VV, 淡褐色#NN)  (nsubj, 紫色#VV, 边缘#NN)  (dep, 软体#VV, 紫色#VV)   (root, ROOT#null, null#null)
+            (nsubj, 海产品#NN, 蛤蜊#NN)  (cop, 海产品#NN, 是#VC)  (assmod, 海产品#NN, 青岛#NR)  (case, 青岛#NR, 的#DEG)  (amod, 海产品#NN, 独特#JJ)  (root, ROOT#null, 海产品#NN)  (nsubj, 俗称#VV, 青岛#NR)  (conj, 海产品#NN, 俗称#VV)  (dobj, 俗称#VV, 嘎啦#NN)   (case, 附近#NN, 在#P)  (nn, 附近#NN, 青岛#NR)  (prep, 湾内#VV, 附近#NN)  (nsubj, 湾内#VV, 它#PN)  (amod, 产于#NN, 主要#JJ)  (nn, 胶州#NN, 产于#NN)  (nsubj, 湾内#VV, 胶州#NN)  (root, ROOT#null, 湾内#VV)  (nsubj, 带中#VV, 栖息#NN)  (case, 潮#NN, 在#P)  (prep, 带中#VV, 潮#NN)  (case, 潮#NN, 间#LC)  (ccomp, 湾内#VV, 带中#VV)  (dep, 带中#VV, 下#VV)  (assmod, 海底#NN, 区#NN)  (case, 区#NN, 以下#LC)  (case, 区#NN, 的#DEG)  (nn, 海底#NN, 泥沙#NN)  (nn, 海底#NN, 滩#NN)  (dobj, 下#VV, 海底#NN)  (prtmod, 干#VV, 以#MSP)  (conj, 带中#VV, 干#VV)  (nn, 线#NN, 潮#NN)  (nn, 产量#NN, 线#NN)  (amod, 产量#NN, 以下#JJ)  (dobj, 干#VV, 产量#NN)  (advmod, 多#VA, 最#AD)  (dep, 干#VV, 多#VA)   (nsubj, 栖息于#VV, 其#PN)  (root, ROOT#null, 栖息于#VV)  (dobj, 栖息于#VV, 泥沙#NN)  (dep, 栖息于#VV, 中的#VV)  (dobj, 中的#VV, 深度#NN)  (advmod, 超过#VV, 一般#AD)  (advmod, 超过#VV, 都#AD)  (neg, 超过#VV, 不#AD)  (conj, 中的#VV, 超过#VV)  (nn, 长度#NN, 自己#PN)  (nn, 长度#NN, 身体#NN)  (assmod, 倍#M, 长度#NN)  (case, 长度#NN, 的#DEG)  (nummod, 倍#M, 2#CD)  (range, 超过#VV, 倍#M)   (advmod, 逢#VV, 每#AD)  (dep, 挖掘#VV, 逢#VV)  (assmod, 十五#CD, 阴历#NN)  (case, 阴历#NN, 的#DEG)  (dep, 十五#CD, 初一#CD)  (range, 逢#VV, 十五#CD)  (nn, 大潮#NN, 落#NN)  (loc, 去#VV, 大潮#NN)  (case, 大潮#NN, 后#LC)  (nsubj, 去#VV, 人们#NN)  (advmod, 去#VV, 多#AD)  (dep, 逢#VV, 去#VV)  (nsubj, 挖掘#VV, 海滩#NN)  (root, ROOT#null, 挖掘#VV)  (det, 海味#NN, 这#DT)  (dep, 这#DT, 一#CD)  (dobj, 挖掘#VV, 海味#NN)  (prtmod, 解馋#VV, 来#MSP)  (conj, 挖掘#VV, 解馋#VV)   (nummod, 生产#NN, 大量#CD)  (nsubj, 采捕#VV, 生产#NN)  (advmod, 采捕#VV, 则#AD)  (case, 船#NN, 用#P)  (nfincl, 船#NN, 挖#VV)  (dobj, 挖#VV, 蛤蜊#NN)  (prep, 采捕#VV, 船#NN)  (case, 深水#NN, 在#P)  (prep, 采捕#VV, 深水#NN)  (case, 深水#NN, 处#LC)  (root, ROOT#null, 采捕#VV)   (root, ROOT#null, null#null)
+            (conj, 味道#NN, 蛤蜊#NN)  (cc, 味道#NN, 不仅#CC)  (nn, 海产品#NN, 味道#NN)  (dep, 海产品#NN, 鲜美#NN)  (cc, 海产品#NN, 而且#CC)  (assmod, 海产品#NN, 它#PN)  (case, 它#PN, 的#DEG)  (relcl, 海产品#NN, 营养#VA)  (advmod, 全面#VA, 也#AD)  (advmod, 全面#VA, 比较#AD)  (dep, 营养#VA, 全面#VA)  (advmod, 物美价廉#VV, 实属#AD)  (dep, 营养#VA, 物美价廉#VV)  (mark, 营养#VA, 的#DEC)  (root, ROOT#null, 海产品#NN)   (nsubj, 肉质#VV, 其#PN)  (root, ROOT#null, 肉质#VV)  (nn, 无比#NN, 鲜美#NN)  (dobj, 肉质#VV, 无比#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 肉质#VV, 称为#VV)  (nn, 天下#NR, ``#NR)  (nn, ``#NN, 天下#NR)  (nummod, ``#NN, 第一#OD)  (nn, ``#NN, 鲜#NN)  (conj, ``#NN, ''#NN)  (nn, 味#NN, ``#NN)  (nummod, 味#NN, 百#CD)  (assmod, ''#NN, 味#NN)  (case, 味#NN, 之#DEG)  (nn, ''#NN, 冠#NN)  (dobj, 称为#VV, ''#NN)  (nn, 民间#NN, 江苏#NR)  (nsubj, 有#VE, 民间#NN)  (advmod, 有#VE, 还#AD)  (conj, 肉质#VV, 有#VE)  (nsubj, 吃#VV, ``#NR)  (dep, 有#VE, 吃#VV)  (asp, 吃#VV, 了#AS)  (nn, 肉#NN, 蛤蜊#NN)  (dobj, 吃#VV, 肉#NN)  (nummod, 味#NN, 百#CD)  (nsubj, 失灵#VV, 味#NN)  (advmod, 失灵#VV, 都#AD)  (conj, 肉质#VV, 失灵#VV)  (assmod, 说#NN, ''#NR)  (case, ''#NR, 之#DEG)  (dobj, 失灵#VV, 说#NN)   (nsubj, 含有#VV, 它#PN)  (root, ROOT#null, 含有#VV)  (conj, 牛磺酸#NR, 蛋白质#NR)  (conj, 牛磺酸#NR, 脂肪#NR)  (conj, 牛磺酸#NR, 碳水化合物#NR)  (conj, 牛磺酸#NR, 铁#NN)  (conj, 牛磺酸#NR, 钙#NR)  (conj, 牛磺酸#NR, 磷#NN)  (conj, 牛磺酸#NR, 碘#NR)  (conj, 牛磺酸#NR, 维生素#NN)  (conj, 牛磺酸#NR, 氨基酸#NR)  (cc, 牛磺酸#NR, 和#CC)  (nn, 成分#NN, 牛磺酸#NR)  (etc, 牛磺酸#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (dobj, 含有#VV, 成分#NN)  (cop, 蛋白#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 热能#NN, 种#M)  (amod, 热能#NN, 低#JJ)  (conj, 蛋白#NN, 热能#NN)  (amod, 蛋白#NN, 高#JJ)  (conj, 含有#VV, 蛋白#NN)  (mmod, 防治#VV, 能#VV)  (conj, 含有#VV, 防治#VV)  (nn, 慢性病#NN, 中#NR)  (nn, 慢性病#NN, 老年人#NN)  (assmod, 食品#NN, 慢性病#NN)  (case, 慢性病#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (dobj, 防治#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘、咸，性微寒。能滋阴生津，软坚散结，利小便。用于肝肾阴虚，烦热盗汗，消渴；瘿瘤、瘰疬、痞块；水肿，小便不利。
+        </rawdata>
+
+        <segment>
+            味甘  、  咸  ，  性微寒  。  能  滋阴  生津  ，  软坚  散结  ，  利  小便  。  用于  肝肾  阴虚  ，  烦  热  盗汗  ，  消渴  ；  瘿瘤  、  瘰疬  、  痞块  ；  水肿  ，  小便  不利  。
+        </segment>
+
+        <pos>
+            味甘#VA  、#PU  咸#VA  ，#PU  性微寒#VV    。#PU  能#VV  滋阴#VV  生津#NN  ，#PU  软坚#AD  散结#VV  ，#PU  利#NR  小便#VV    。#PU  用于#VV  肝肾#NN  阴虚#NN  ，#PU  烦#VV  热#JJ  盗汗#NN  ，#PU  消渴#VV  ；#PU  瘿瘤#NR  、#PU  瘰疬#NR  、#PU  痞块#NR  ；#PU  水肿#VV  ，#PU  小便#AD  不利#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VA)  (dep, 味甘#VA, 咸#VA)  (dep, 味甘#VA, 性微寒#VV)   (mmod, 滋阴#VV, 能#VV)  (root, ROOT#null, 滋阴#VV)  (dobj, 滋阴#VV, 生津#NN)  (advmod, 散结#VV, 软坚#AD)  (dep, 滋阴#VV, 散结#VV)  (nsubj, 小便#VV, 利#NR)  (ccomp, 散结#VV, 小便#VV)   (root, ROOT#null, 用于#VV)  (nn, 阴虚#NN, 肝肾#NN)  (dobj, 用于#VV, 阴虚#NN)  (conj, 用于#VV, 烦#VV)  (amod, 盗汗#NN, 热#JJ)  (dobj, 烦#VV, 盗汗#NN)  (conj, 用于#VV, 消渴#VV)  (conj, 痞块#NR, 瘿瘤#NR)  (conj, 痞块#NR, 瘰疬#NR)  (dobj, 消渴#VV, 痞块#NR)  (conj, 用于#VV, 水肿#VV)  (advmod, 不利#VA, 小便#AD)  (conj, 用于#VV, 不利#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        利水  化痰  软坚  补阴
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.蛤肉含糖类，蛋白质，脂肪，菸酸，无机盐，维生素A、B1、B2。蛤壳含碳酸钙、磷酸钙、矽酸镁、碘及溴盐等。
+            2.蛤蜊的钙质含量，在海鲜中颇为凸出。以100公克重的蛤蜊为例，钙质含量就有130毫克，虽然不能跟奶制品相提并论，但也算是不错的钙质源。
+            3.蛤蜊的维生素B12含量也很丰富。B12关系到血液代谢，缺乏者可能出现恶性贫血，尤其是胃部手术后的患者，B12吸收率较差，可以多摄取一些蛤蜊。
+            4.蛤蜊里的牛磺酸，可以帮助胆汁合成，有助于胆固醇代谢，还能维持神经细胞膜的电位平衡，能抗痉挛、抑制焦虑。
+            5.由于蛤蜊脂肪含量不高，每100公克的热量只有55大卡，属于低脂肉类。对于想控制体重的人，蛤蜊是很不错的选择。以一份60公克重的蛤蜊，大蛤蜊大约6个，一般大小的蛤蜊约为22个，吃起来颇有饱足感，热量却只有40大卡左右。
+            6.蛤蜊肉含一种具有降低血清胆固醇作用的代尔太7－胆固醇和24－亚甲基胆固醇，它们兼有抑制胆固醇在肝脏合成和加速排泄胆固醇的独特作用，从而使体内胆固醇下降；
+            7. 人们在食用蛤蜊和贝类食物后，常有一种清爽宜人的感觉，这对解除一些烦恼症状无疑是有益的。
+        </rawdata>
+
+        <segment>
+            蛤肉  含  糖类  ，  蛋白质  ，  脂肪  ，  菸酸  ，  无机盐  ，  维生素A  、  B  B2  。  蛤壳  含碳  酸钙  、  磷酸钙  、  矽酸  镁  、  碘及  溴盐  等  。
+            蛤蜊  的  钙质  含量  ，  在  海鲜  中  颇为  凸出  。  以  100  公克  重  的  蛤蜊  为例  ，  钙质  含量  就  有  130  毫克  ，  虽然  不  能  跟  奶制品  相提并论  ，  但  也  算是  不错  的  钙质  源  。
+            蛤蜊  的  维生素  B  12  含量  也  很  丰富  。  B  12  关系  到  血液  代谢  ，  缺乏  者  可能  出现  恶性  贫血  ，  尤其是  胃部  手术  后  的  患者  ，  B  12  吸收率  较差  ，  可以  多  摄取  一些  蛤蜊  。
+            蛤蜊  里  的  牛磺酸  ，  可以  帮助  胆汁  合成  ，  有助于  胆固醇  代谢  ，  还  能  维持  神经  细胞膜  的  电位  平衡  ，  能  抗  痉挛  、  抑制  焦虑  。
+            由于  蛤蜊  脂肪  含量  不  高  ，  每  100  公克  的  热量  只  有  55  大卡  ，  属于  低脂  肉类  。  对于  想  控制  体重  的  人  ，  蛤蜊  是  很  不错  的  选择  。  以  一  份  60  公克  重  的  蛤蜊  ，  大  蛤蜊  大约  6  个  ，  一般  大小  的  蛤蜊  约  为  22  个  ，  吃起来  颇  有  饱足感  ，  热量  却  只有  40  大卡  左右  。
+            蛤蜊  肉  含  一  种  具有  降低  血清  胆固醇  作用  的  代尔  太  7  －  胆固醇  和  24  －  亚甲基  胆固醇  ，  它们  兼有  抑制  胆固醇  在  肝脏  合成  和  加速  排泄  胆固醇  的  独特  作用  ，  从而  使  体内  胆固醇  下降  ；
+            人们  在  食用  蛤蜊  和  贝类  食物  后  ，  常  有  一  种  清爽  宜人  的  感觉  ，  这  对  解除  一些  烦恼  症状  无疑  是  有益的  。
+        </segment>
+
+        <pos>
+            蛤肉#AD  含#VV  糖类#NN  ，#PU  蛋白质#VV  ，#PU  脂肪#VV  ，#PU  菸酸#VV  ，#PU  无机盐#VV  ，#PU  维生素A#VV  、#PU  B#VV  B2#CD    。#PU  蛤壳#NN  含碳#VV  酸钙#NR  、#PU  磷酸钙#NR  、#PU  矽酸#NR  镁#NN  、#PU  碘及#NN  溴盐#NN  等#ETC    。#PU    。#PU
+            蛤蜊#NN  的#DEG  钙质#NN  含量#NN  ，#PU  在#P  海鲜#NN  中#LC  颇为#VV  凸出#NN    。#PU  以#P  100#CD  公克#NN  重#VA  的#DEC  蛤蜊#NN  为例#VV  ，#PU  钙质#NN  含量#NN  就#AD  有#VE  130#CD  毫克#NN  ，#PU  虽然#CS  不#AD  能#VV  跟#P  奶制品#VV  相提并论#NN  ，#PU  但#AD  也#AD  算是#VV  不错#VA  的#DEC  钙质#JJ  源#NN    。#PU    。#PU
+            蛤蜊#NN  的#DEG  维生素#NN  B#NN  12#CD  含量#NN  也#AD  很#AD  丰富#VA    。#PU  B#NR  12#CD  关系#NN  到#VV  血液#NN  代谢#NN  ，#PU  缺乏#VV  者#NN  可能#VV  出现#VV  恶性#JJ  贫血#NN  ，#PU  尤其是#AD  胃部#NN  手术#NN  后#LC  的#DEG  患者#NN  ，#PU  B#VV  12#CD  吸收率#NN  较差#NN  ，#PU  可以#VV  多#AD  摄取#VV  一些#CD  蛤蜊#NN    。#PU    。#PU
+            蛤蜊#NN  里#LC  的#DEG  牛磺酸#NN  ，#PU  可以#VV  帮助#VV  胆汁#VV  合成#JJ  ，#PU  有助于#VV  胆固醇#NN  代谢#NN  ，#PU  还#AD  能#VV  维持#VV  神经#NN  细胞膜#NN  的#DEG  电位#NN  平衡#NN  ，#PU  能#VV  抗#VV  痉挛#NN  、#PU  抑制#VV  焦虑#NN  。#PU
+            由于#P  蛤蜊#NN  脂肪#NN  含量#NN  不#AD  高#VA  ，#PU  每#DT  100#CD  公克#NN  的#DEG  热量#NN  只#AD  有#VE  55#CD  大卡#NN  ，#PU  属于#VV  低脂#NN  肉类#NN    。#PU  对于#P  想#VV  控制#VV  体重#NN  的#DEC  人#NN  ，#PU  蛤蜊#AD  是#VC  很#AD  不错#VA  的#DEC  选择#NN    。#PU  以#P  一#CD  份#M  60#CD  公克#VV  重#VA  的#DEC  蛤蜊#NN  ，#PU  大#JJ  蛤蜊#NN  大约#AD  6#CD  个#M  ，#PU  一般#JJ  大小#NN  的#DEG  蛤蜊#NN  约#AD  为#VC  22#CD  个#M  ，#PU  吃起来#NN  颇#AD  有#VE  饱足感#NN  ，#PU  热量#NN  却#AD  只有#VV  40#CD  大卡#NN  左右#LC    。#PU    。#PU
+            蛤蜊#NN  肉#NN  含#VV  一#CD  种#M  具有#VV  降低#VV  血清#NN  胆固醇#NN  作用#NN  的#DEC  代尔#NN  太#AD  7#CD  －#PU  胆固醇#NN  和#CC  24#CD  －#PU  亚甲基#CD  胆固醇#NN  ，#PU  它们#PN  兼有#AD  抑制#VV  胆固醇#NN  在#P  肝脏#NN  合成#JJ  和#CC  加速#VV  排泄#NN  胆固醇#NN  的#DEC  独特#JJ  作用#NN  ，#PU  从而#AD  使#VV  体内#NN  胆固醇#NN  下降#VV  ；#PU
+            人们#NN  在#P  食用#VV  蛤蜊#NN  和#CC  贝类#NN  食物#NN  后#LC  ，#PU  常#AD  有#VE  一#CD  种#M  清爽#NN  宜人#NN  的#DEG  感觉#NN  ，#PU  这#PN  对#P  解除#VV  一些#CD  烦恼#NN  症状#NN  无疑#AD  是#VC  有益的#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 蛤肉#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 糖类#NN)  (dep, 含#VV, 蛋白质#VV)  (dep, 含#VV, 脂肪#VV)  (conj, 脂肪#VV, 菸酸#VV)  (conj, 脂肪#VV, 无机盐#VV)  (conj, 脂肪#VV, 维生素A#VV)  (dep, 脂肪#VV, B#VV)  (range, B#VV, B2#CD)   (nsubj, 含碳#VV, 蛤壳#NN)  (root, ROOT#null, 含碳#VV)  (conj, 矽酸#NR, 酸钙#NR)  (conj, 矽酸#NR, 磷酸钙#NR)  (nn, 溴盐#NN, 矽酸#NR)  (conj, 溴盐#NN, 镁#NN)  (nn, 溴盐#NN, 碘及#NN)  (dobj, 含碳#VV, 溴盐#NN)  (etc, 溴盐#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (assmod, 含量#NN, 蛤蜊#NN)  (case, 蛤蜊#NN, 的#DEG)  (nn, 含量#NN, 钙质#NN)  (dep, 颇为#VV, 含量#NN)  (case, 海鲜#NN, 在#P)  (prep, 颇为#VV, 海鲜#NN)  (case, 海鲜#NN, 中#LC)  (root, ROOT#null, 颇为#VV)  (dobj, 颇为#VV, 凸出#NN)   (case, 公克#NN, 以#P)  (nummod, 公克#NN, 100#CD)  (prep, 重#VA, 公克#NN)  (relcl, 蛤蜊#NN, 重#VA)  (mark, 重#VA, 的#DEC)  (nsubj, 为例#VV, 蛤蜊#NN)  (root, ROOT#null, 为例#VV)  (nn, 含量#NN, 钙质#NN)  (nsubj, 有#VE, 含量#NN)  (advmod, 有#VE, 就#AD)  (ccomp, 为例#VV, 有#VE)  (nummod, 毫克#NN, 130#CD)  (dobj, 有#VE, 毫克#NN)  (advmod, 算是#VV, 虽然#CS)  (neg, 算是#VV, 不#AD)  (mmod, 算是#VV, 能#VV)  (case, 奶制品#VV, 跟#P)  (prep, 算是#VV, 奶制品#VV)  (dobj, 奶制品#VV, 相提并论#NN)  (advmod, 算是#VV, 但#AD)  (advmod, 算是#VV, 也#AD)  (dep, 有#VE, 算是#VV)  (relcl, 源#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (amod, 源#NN, 钙质#JJ)  (dobj, 算是#VV, 源#NN)   (root, ROOT#null, null#null)
+            (assmod, B#NN, 蛤蜊#NN)  (case, 蛤蜊#NN, 的#DEG)  (nn, B#NN, 维生素#NN)  (nsubj, 丰富#VA, B#NN)  (nummod, 含量#NN, 12#CD)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)   (nn, 关系#NN, B#NR)  (nummod, 关系#NN, 12#CD)  (nsubj, 到#VV, 关系#NN)  (root, ROOT#null, 到#VV)  (nn, 代谢#NN, 血液#NN)  (dobj, 到#VV, 代谢#NN)  (conj, 到#VV, 缺乏#VV)  (nsubj, 出现#VV, 者#NN)  (mmod, 出现#VV, 可能#VV)  (assmod, 患者#NN, 出现#VV)  (amod, 贫血#NN, 恶性#JJ)  (dep, 手术#NN, 贫血#NN)  (advmod, 手术#NN, 尤其是#AD)  (nn, 手术#NN, 胃部#NN)  (dobj, 出现#VV, 手术#NN)  (case, 出现#VV, 后#LC)  (case, 出现#VV, 的#DEG)  (dobj, 缺乏#VV, 患者#NN)  (conj, 到#VV, B#VV)  (nummod, 较差#NN, 12#CD)  (nn, 较差#NN, 吸收率#NN)  (dobj, B#VV, 较差#NN)  (mmod, 摄取#VV, 可以#VV)  (advmod, 摄取#VV, 多#AD)  (conj, 到#VV, 摄取#VV)  (nummod, 蛤蜊#NN, 一些#CD)  (dobj, 摄取#VV, 蛤蜊#NN)   (root, ROOT#null, null#null)
+            (assmod, 牛磺酸#NN, 蛤蜊#NN)  (case, 蛤蜊#NN, 里#LC)  (case, 蛤蜊#NN, 的#DEG)  (nsubj, 帮助#VV, 牛磺酸#NN)  (xsubj, 胆汁#VV, 牛磺酸#NN)  (mmod, 帮助#VV, 可以#VV)  (root, ROOT#null, 帮助#VV)  (ccomp, 帮助#VV, 胆汁#VV)  (nfincl, 代谢#NN, 合成#JJ)  (dep, 合成#JJ, 有助于#VV)  (dobj, 有助于#VV, 胆固醇#NN)  (dobj, 胆汁#VV, 代谢#NN)  (advmod, 维持#VV, 还#AD)  (mmod, 维持#VV, 能#VV)  (conj, 胆汁#VV, 维持#VV)  (nn, 细胞膜#NN, 神经#NN)  (assmod, 平衡#NN, 细胞膜#NN)  (case, 细胞膜#NN, 的#DEG)  (nn, 平衡#NN, 电位#NN)  (dobj, 维持#VV, 平衡#NN)  (mmod, 抗#VV, 能#VV)  (conj, 胆汁#VV, 抗#VV)  (dobj, 抗#VV, 痉挛#NN)  (conj, 胆汁#VV, 抑制#VV)  (dobj, 抑制#VV, 焦虑#NN)
+            (case, 高#VA, 由于#P)  (nn, 含量#NN, 蛤蜊#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 高#VA, 含量#NN)  (neg, 高#VA, 不#AD)  (prep, 属于#VV, 高#VA)  (det, 公克#NN, 每#DT)  (dep, 每#DT, 100#CD)  (assmod, 热量#NN, 公克#NN)  (case, 公克#NN, 的#DEG)  (nsubj, 有#VE, 热量#NN)  (advmod, 有#VE, 只#AD)  (conj, 高#VA, 有#VE)  (nummod, 大卡#NN, 55#CD)  (dobj, 有#VE, 大卡#NN)  (root, ROOT#null, 属于#VV)  (nn, 肉类#NN, 低脂#NN)  (dobj, 属于#VV, 肉类#NN)   (case, 人#NN, 对于#P)  (relcl, 人#NN, 想#VV)  (ccomp, 想#VV, 控制#VV)  (dobj, 控制#VV, 体重#NN)  (mark, 想#VV, 的#DEC)  (prep, 选择#NN, 人#NN)  (advmod, 选择#NN, 蛤蜊#AD)  (cop, 选择#NN, 是#VC)  (advmod, 不错#VA, 很#AD)  (relcl, 选择#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (root, ROOT#null, 选择#NN)   (case, 60#CD, 以#P)  (nummod, 份#M, 一#CD)  (clf, 60#CD, 份#M)  (prep, 公克#VV, 60#CD)  (root, ROOT#null, 公克#VV)  (relcl, 蛤蜊#NN, 重#VA)  (mark, 重#VA, 的#DEC)  (dobj, 公克#VV, 蛤蜊#NN)  (amod, 蛤蜊#NN, 大#JJ)  (nsubj, 个#M, 蛤蜊#NN)  (advmod, 个#M, 大约#AD)  (nummod, 个#M, 6#CD)  (dep, 公克#VV, 个#M)  (amod, 大小#NN, 一般#JJ)  (assmod, 蛤蜊#NN, 大小#NN)  (case, 大小#NN, 的#DEG)  (nsubj, 为#VC, 蛤蜊#NN)  (advmod, 为#VC, 约#AD)  (conj, 公克#VV, 为#VC)  (nummod, 个#M, 22#CD)  (dep, 为#VC, 个#M)  (nsubj, 有#VE, 吃起来#NN)  (advmod, 有#VE, 颇#AD)  (conj, 公克#VV, 有#VE)  (dobj, 有#VE, 饱足感#NN)  (nsubj, 只有#VV, 热量#NN)  (advmod, 只有#VV, 却#AD)  (conj, 公克#VV, 只有#VV)  (nummod, 大卡#NN, 40#CD)  (loc, 只有#VV, 大卡#NN)  (case, 大卡#NN, 左右#LC)   (root, ROOT#null, null#null)
+            (nn, 肉#NN, 蛤蜊#NN)  (nsubj, 含#VV, 肉#NN)  (relcl, 代尔#NN, 含#VV)  (nummod, 种#M, 一#CD)  (range, 含#VV, 种#M)  (mmod, 降低#VV, 具有#VV)  (conj, 含#VV, 降低#VV)  (nn, 作用#NN, 血清#NN)  (nn, 作用#NN, 胆固醇#NN)  (dobj, 降低#VV, 作用#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 7#CD, 代尔#NN)  (advmod, 7#CD, 太#AD)  (root, ROOT#null, 7#CD)  (conj, 胆固醇#NN, 胆固醇#NN)  (cc, 胆固醇#NN, 和#CC)  (nummod, 亚甲基#CD, 24#CD)  (nummod, 胆固醇#NN, 亚甲基#CD)  (nsubj, 抑制#VV, 胆固醇#NN)  (nsubj, 抑制#VV, 它们#PN)  (advmod, 抑制#VV, 兼有#AD)  (conj, 7#CD, 抑制#VV)  (nsubj, 合成#JJ, 胆固醇#NN)  (case, 肝脏#NN, 在#P)  (prep, 合成#JJ, 肝脏#NN)  (relcl, 作用#NN, 合成#JJ)  (cc, 合成#JJ, 和#CC)  (dep, 合成#JJ, 加速#VV)  (nn, 胆固醇#NN, 排泄#NN)  (dobj, 加速#VV, 胆固醇#NN)  (mark, 合成#JJ, 的#DEC)  (amod, 作用#NN, 独特#JJ)  (dobj, 抑制#VV, 作用#NN)  (advmod, 使#VV, 从而#AD)  (dep, 抑制#VV, 使#VV)  (nn, 胆固醇#NN, 体内#NN)  (dobj, 使#VV, 胆固醇#NN)  (dep, 使#VV, 下降#VV)
+            (nsubj, 有#VE, 人们#NN)  (case, 食用#VV, 在#P)  (prep, 有#VE, 食用#VV)  (conj, 食物#NN, 蛤蜊#NN)  (cc, 食物#NN, 和#CC)  (nn, 食物#NN, 贝类#NN)  (dobj, 食用#VV, 食物#NN)  (case, 食用#VV, 后#LC)  (advmod, 有#VE, 常#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 宜人#NN, 种#M)  (nn, 宜人#NN, 清爽#NN)  (assmod, 感觉#NN, 宜人#NN)  (case, 宜人#NN, 的#DEG)  (dobj, 有#VE, 感觉#NN)  (nsubj, 有益的#NN, 这#PN)  (case, 解除#VV, 对#P)  (prep, 有益的#NN, 解除#VV)  (nummod, 症状#NN, 一些#CD)  (nn, 症状#NN, 烦恼#NN)  (dobj, 解除#VV, 症状#NN)  (advmod, 有益的#NN, 无疑#AD)  (cop, 有益的#NN, 是#VC)  (conj, 有#VE, 有益的#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            蛤蜊等贝类本身极富鲜味，烹制时千万不要再加味精，也不宜多放盐，以免鲜味反失。另外，要在冷水中放入蛤蜊，以中小火煮至汤汁略为泛白，蛤蜊的鲜味就完全出来了。
+            蛤蜊最好提前一天用水浸泡才能吐干净泥土。
+            不要食用未熟透的贝类，以免传染上肝炎等疾病。
+            贝类中的泥肠不宜食用。
+        </rawdata>
+
+        <segment>
+            蛤蜊  等  贝类  本身  极富  鲜味  ，  烹制  时  千万  不  要  再  加  味精  ，  也  不  宜  多  放  盐  ，  以免  鲜味  反失  。  另外  ，  要  在  冷水  中  放入  蛤蜊  ，  以  中  小  火  煮  至  汤汁  略为  泛白  ，  蛤蜊  的  鲜味  就  完全  出来  了  。
+            蛤蜊  最好  提前  一  天  用  水  浸泡  才  能  吐  干净  泥土  。
+            不要  食用  未  熟透  的  贝类  ，  以免  传染  上  肝炎  等  疾病  。
+            贝类  中  的  泥肠  不  宜  食用  。
+        </segment>
+
+        <pos>
+            蛤蜊#NN  等#ETC  贝类#NN  本身#PN  极富#AD  鲜味#VV  ，#PU  烹制#NN  时#LC  千万#CD  不#AD  要#VV  再#AD  加#VV  味精#NN  ，#PU  也#AD  不#AD  宜#NR  多#AD  放#VV  盐#NN  ，#PU  以免#VV  鲜味#VV  反失#NN    。#PU  另外#AD  ，#PU  要#VV  在#P  冷水#NN  中#LC  放入#VV  蛤蜊#NN  ，#PU  以#P  中#NR  小#JJ  火#NN  煮#VV  至#CC  汤汁#VV  略为#NN  泛白#NN  ，#PU  蛤蜊#NN  的#DEG  鲜味#NN  就#AD  完全#AD  出来#VV  了#AS    。#PU    。#PU
+            蛤蜊#NR  最好#JJ  提前#VV  一#CD  天#M  用#VV  水#NN  浸泡#NN  才#AD  能#VV  吐#VV  干净#JJ  泥土#NN  。#PU
+            不要#NN  食用#VV  未#AD  熟透#VV  的#DEC  贝类#NN  ，#PU  以免#VV  传染#NN  上#VV  肝炎#NN  等#ETC  疾病#NN  。#PU
+            贝类#NN  中#LC  的#DEG  泥肠#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 贝类#NN, 蛤蜊#NN)  (etc, 蛤蜊#NN, 等#ETC)  (nsubj, 鲜味#VV, 贝类#NN)  (xsubj, 放#VV, 贝类#NN)  (nsubj, 鲜味#VV, 本身#PN)  (xsubj, 放#VV, 本身#PN)  (advmod, 鲜味#VV, 极富#AD)  (root, ROOT#null, 鲜味#VV)  (loc, 加#VV, 烹制#NN)  (case, 烹制#NN, 时#LC)  (nsubj, 加#VV, 千万#CD)  (neg, 加#VV, 不#AD)  (mmod, 加#VV, 要#VV)  (advmod, 加#VV, 再#AD)  (dep, 放#VV, 加#VV)  (dobj, 加#VV, 味精#NN)  (advmod, 放#VV, 也#AD)  (neg, 放#VV, 不#AD)  (dep, 放#VV, 宜#NR)  (advmod, 放#VV, 多#AD)  (ccomp, 鲜味#VV, 放#VV)  (dobj, 放#VV, 盐#NN)  (conj, 放#VV, 以免#VV)  (ccomp, 以免#VV, 鲜味#VV)  (dobj, 鲜味#VV, 反失#NN)   (advmod, 放入#VV, 另外#AD)  (mmod, 放入#VV, 要#VV)  (case, 冷水#NN, 在#P)  (prep, 放入#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (root, ROOT#null, 放入#VV)  (dobj, 放入#VV, 蛤蜊#NN)  (case, 火#NN, 以#P)  (nn, 火#NN, 中#NR)  (amod, 火#NN, 小#JJ)  (prep, 煮#VV, 火#NN)  (dep, 放入#VV, 煮#VV)  (cc, 放入#VV, 至#CC)  (dep, 放入#VV, 汤汁#VV)  (nn, 泛白#NN, 略为#NN)  (dobj, 汤汁#VV, 泛白#NN)  (assmod, 鲜味#NN, 蛤蜊#NN)  (case, 蛤蜊#NN, 的#DEG)  (nsubj, 出来#VV, 鲜味#NN)  (advmod, 出来#VV, 就#AD)  (advmod, 出来#VV, 完全#AD)  (dep, 放入#VV, 出来#VV)  (asp, 出来#VV, 了#AS)   (root, ROOT#null, null#null)
+            (nn, 浸泡#NN, 蛤蜊#NR)  (amod, 浸泡#NN, 最好#JJ)  (relcl, 蛤蜊#NR, 提前#VV)  (relcl, 浸泡#NN, 提前#VV)  (nummod, 天#M, 一#CD)  (range, 提前#VV, 天#M)  (conj, 提前#VV, 用#VV)  (dobj, 用#VV, 水#NN)  (nsubj, 吐#VV, 浸泡#NN)  (advmod, 吐#VV, 才#AD)  (mmod, 吐#VV, 能#VV)  (root, ROOT#null, 吐#VV)  (amod, 泥土#NN, 干净#JJ)  (dobj, 吐#VV, 泥土#NN)
+            (nsubj, 食用#VV, 不要#NN)  (root, ROOT#null, 食用#VV)  (advmod, 熟透#VV, 未#AD)  (relcl, 贝类#NN, 熟透#VV)  (mark, 熟透#VV, 的#DEC)  (dobj, 食用#VV, 贝类#NN)  (conj, 食用#VV, 以免#VV)  (dobj, 以免#VV, 传染#NN)  (dep, 以免#VV, 上#VV)  (nn, 疾病#NN, 肝炎#NN)  (etc, 肝炎#NN, 等#ETC)  (dobj, 上#VV, 疾病#NN)
+            (assmod, 泥肠#NN, 贝类#NN)  (case, 贝类#NN, 中#LC)  (case, 贝类#NN, 的#DEG)  (nsubj, 食用#VV, 泥肠#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101052143053.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\123 蛤蜊.jpg
+    </picturelocalurl>
+
+</content>

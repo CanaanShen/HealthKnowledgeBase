@@ -1,0 +1,378 @@
+<content>
+
+    <id>
+        192
+    </id>
+
+    <foodname>
+        蒜薹
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        蒜苔、蒜毫、青蒜、蒜苗
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            消化能力不佳的人宜少吃；过量食用会影响视力；有肝病的人过量食用，可造成肝功能障碍。
+        </rawdata>
+
+        <segment>
+            消化  能力  不佳  的  人  宜  少吃  ；  过量  食用  会  影响  视力  ；  有  肝病  的  人  过量  食用  ，  可  造成  肝功能  障碍  。
+        </segment>
+
+        <pos>
+            消化#NN  能力#NN  不佳#VA  的#DEC  人#NN  宜#NR  少吃#VV  ；#PU  过量#AD  食用#VV  会#NN  影响#NN  视力#NN  ；#PU  有#VE  肝病#NN  的#DEC  人#NN  过量#AD  食用#VV  ，#PU  可#VV  造成#VV  肝功能#JJ  障碍#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 能力#NN, 消化#NN)  (nsubj, 不佳#VA, 能力#NN)  (relcl, 人#NN, 不佳#VA)  (mark, 不佳#VA, 的#DEC)  (nsubj, 少吃#VV, 人#NN)  (xsubj, 食用#VV, 人#NN)  (nsubj, 少吃#VV, 宜#NR)  (xsubj, 食用#VV, 宜#NR)  (root, ROOT#null, 少吃#VV)  (advmod, 食用#VV, 过量#AD)  (ccomp, 少吃#VV, 食用#VV)  (nn, 视力#NN, 会#NN)  (nn, 视力#NN, 影响#NN)  (dobj, 食用#VV, 视力#NN)  (relcl, 人#NN, 有#VE)  (dobj, 有#VE, 肝病#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 过量#AD)  (conj, 少吃#VV, 食用#VV)  (mmod, 造成#VV, 可#VV)  (conj, 少吃#VV, 造成#VV)  (amod, 障碍#NN, 肝功能#JJ)  (dobj, 造成#VV, 障碍#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜冠心病、便秘者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  冠心病  、  便秘  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  冠心病#NN  、#PU  便秘#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 便秘#NN, 冠心病#NN)  (nn, 者#NN, 便秘#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                61
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                12.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                80
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                52
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                226
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                88.9
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蒜薹，又称蒜毫，是从抽薹
+        </rawdata>
+
+        <segment>
+            蒜薹  ，  又  称  蒜毫  ，  是  从  抽薹
+        </segment>
+
+        <pos>
+            蒜薹#VV  ，#PU  又#AD  称#VV  蒜毫#NN  ，#PU  是#VC  从#P  抽薹#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 蒜薹#VV)  (advmod, 称#VV, 又#AD)  (ccomp, 蒜薹#VV, 称#VV)  (dep, 是#VC, 蒜毫#NN)  (ccomp, 称#VV, 是#VC)  (case, 抽薹#NN, 从#P)  (prep, 是#VC, 抽薹#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            蒜薹性温，具有温中下气，补虚，调和脏腑，以及具有活血、防癌、杀菌的功效，对腹痛、腹泻有一定疗效。
+            1.杀菌作用
+            蒜薹含有辣素，其杀菌能力可达到青霉素的十分之一，对病原菌和寄生虫都有良好的杀灭作用，可以起到预防流感，防止伤口感染和驱虫的功效。蒜薹中所含的大蒜素、大蒜新素，可以抑制金黄色葡萄球菌、链球菌、痢疾杆菌、大肠杆菌、霍乱弧菌等细菌的生长繁殖。
+            2.通便防痔。
+            蒜薹外皮含有丰富的纤维素，可刺激大肠排便，调治便秘。多食用蒜薹，能预防痔疮的发生，降低痔疮的复发次数，并对轻中度痔疮有一定的治疗效果。
+            3.防治预防冠心病、动脉硬化、降脂等作用。
+            蒜薹中含有丰富的维生素C具有明显的降血脂及预防冠心病和动脉硬化的作用，并可防止血栓的形成。它能保护肝脏，诱导肝细胞脱毒酶的活性，可以阻断亚硝胺致癌物质的合成，从而预防癌症的发生。
+        </rawdata>
+
+        <segment>
+            蒜薹  性温  ，  具有  温  中  下气  ，  补  虚  ，  调和  脏腑  ，  以及  具有  活血  、  防癌  、  杀菌  的  功效  ，  对  腹痛  、  腹泻  有  一定  疗效  。
+            杀菌  作用
+            蒜薹  含有  辣素  ，  其  杀菌  能力  可  达到  青霉素  的  十分之一  ，  对  病原菌  和  寄生虫  都  有  良好  的  杀灭  作用  ，  可以  起到  预防  流感  ，  防止  伤口  感染  和  驱虫  的  功效  。  蒜薹  中  所  含  的  大蒜素  、  大蒜  新素  ，  可以  抑制  金黄色  葡萄球菌  、  链球菌  、  痢疾  杆菌  、  大肠  杆菌  、  霍乱  弧菌  等  细菌  的  生长  繁殖  。
+            通便  防痔  。
+            蒜薹  外皮  含有  丰富  的  纤维素  ，  可  刺激  大肠  排便  ，  调治  便秘  。  多  食用  蒜薹  ，  能  预防  痔疮  的  发生  ，  降低  痔疮  的  复发  次数  ，  并  对  轻  中度  痔疮  有  一定  的  治疗  效果  。
+            防治  预防  冠心病  、  动脉  硬化  、  降脂  等  作用  。
+            蒜薹  中  含有  丰富  的  维生素C  具有  明显  的  降  血脂  及  预防  冠心病  和  动脉  硬化  的  作用  ，  并  可  防止  血栓  的  形成  。  它  能  保护  肝脏  ，  诱导  肝细胞  脱  毒酶  的  活性  ，  可以  阻断  亚硝胺  致癌  物质  的  合成  ，  从而  预防  癌症  的  发生  。
+        </segment>
+
+        <pos>
+            蒜薹#VV  性温#NN  ，#PU  具有#VV  温#NN  中#LC  下气#NN  ，#PU  补#VV  虚#AD  ，#PU  调和#VV  脏腑#NN  ，#PU  以及#CC  具有#VV  活血#NR  、#PU  防癌#NR  、#PU  杀菌#NR  的#DEG  功效#NN  ，#PU  对#P  腹痛#NR  、#PU  腹泻#NR  有#VE  一定#JJ  疗效#NN  。#PU
+            杀菌#VV  作用#NN
+            蒜薹#NN  含有#NN  辣素#VV  ，#PU  其#PN  杀菌#NN  能力#NN  可#VV  达到#VV  青霉素#NN  的#DEG  十分之一#CD  ，#PU  对#P  病原菌#NN  和#CC  寄生虫#NN  都#AD  有#VE  良好#VA  的#DEC  杀灭#JJ  作用#NN  ，#PU  可以#VV  起到#VV  预防#VV  流感#NN  ，#PU  防止#VV  伤口#AD  感染#VV  和#CC  驱虫#VV  的#DEC  功效#NN    。#PU  蒜薹#NN  中#LC  所#MSP  含#VV  的#DEC  大蒜素#NN  、#PU  大蒜#NN  新素#VV  ，#PU  可以#VV  抑制#VV  金黄色#JJ  葡萄球菌#NR  、#PU  链球菌#NR  、#PU  痢疾#NR  杆菌#NR  、#PU  大肠#NR  杆菌#NR  、#PU  霍乱#NR  弧菌#NR  等#ETC  细菌#NN  的#DEG  生长#NN  繁殖#NN    。#PU    。#PU
+            通便#VV  防痔#NN  。#PU
+            蒜薹#NN  外皮#AD  含有#VV  丰富#VA  的#DEC  纤维素#NN  ，#PU  可#VV  刺激#VV  大肠#NN  排便#NN  ，#PU  调治#VV  便秘#NN    。#PU  多#AD  食用#VV  蒜薹#NN  ，#PU  能#VV  预防#VV  痔疮#NN  的#DEG  发生#NN  ，#PU  降低#VV  痔疮#NN  的#DEG  复发#NN  次数#NN  ，#PU  并#CC  对#P  轻#JJ  中度#NN  痔疮#AD  有#VE  一定#JJ  的#DEG  治疗#NN  效果#NN    。#PU    。#PU
+            防治#VV  预防#VV  冠心病#NN  、#PU  动脉#NN  硬化#NN  、#PU  降脂#NN  等#ETC  作用#NN  。#PU
+            蒜薹#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素C#AD  具有#VV  明显#VA  的#DEC  降#VV  血脂#NN  及#CC  预防#NN  冠心病#NN  和#CC  动脉#NN  硬化#NN  的#DEC  作用#NN  ，#PU  并#CC  可#VV  防止#VV  血栓#NN  的#DEG  形成#NN    。#PU  它#PN  能#VV  保护#VV  肝脏#NN  ，#PU  诱导#VV  肝细胞#NN  脱#NN  毒酶#NN  的#DEG  活性#NN  ，#PU  可以#VV  阻断#VV  亚硝胺#AD  致癌#VV  物质#NN  的#DEG  合成#JJ  ，#PU  从而#AD  预防#VV  癌症#NN  的#DEC  发生#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 蒜薹#VV)  (dobj, 蒜薹#VV, 性温#NN)  (conj, 蒜薹#VV, 具有#VV)  (dep, 下气#NN, 温#NN)  (case, 温#NN, 中#LC)  (dobj, 具有#VV, 下气#NN)  (conj, 蒜薹#VV, 补#VV)  (advmod, 补#VV, 虚#AD)  (conj, 蒜薹#VV, 调和#VV)  (dobj, 调和#VV, 脏腑#NN)  (cc, 蒜薹#VV, 以及#CC)  (dep, 蒜薹#VV, 具有#VV)  (conj, 杀菌#NR, 活血#NR)  (conj, 杀菌#NR, 防癌#NR)  (assmod, 功效#NN, 杀菌#NR)  (case, 杀菌#NR, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (case, 腹泻#NR, 对#P)  (conj, 腹泻#NR, 腹痛#NR)  (prep, 有#VE, 腹泻#NR)  (conj, 蒜薹#VV, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)
+            (root, ROOT#null, 杀菌#VV)  (dobj, 杀菌#VV, 作用#NN)
+            (nn, 含有#NN, 蒜薹#NN)  (nsubj, 辣素#VV, 含有#NN)  (root, ROOT#null, 辣素#VV)  (nn, 能力#NN, 其#PN)  (nn, 能力#NN, 杀菌#NN)  (nsubj, 达到#VV, 能力#NN)  (mmod, 达到#VV, 可#VV)  (ccomp, 辣素#VV, 达到#VV)  (assmod, 十分之一#CD, 青霉素#NN)  (case, 青霉素#NN, 的#DEG)  (range, 达到#VV, 十分之一#CD)  (case, 寄生虫#NN, 对#P)  (conj, 寄生虫#NN, 病原菌#NN)  (cc, 寄生虫#NN, 和#CC)  (prep, 有#VE, 寄生虫#NN)  (advmod, 有#VE, 都#AD)  (dep, 达到#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 杀灭#JJ)  (dobj, 有#VE, 作用#NN)  (mmod, 起到#VV, 可以#VV)  (dep, 达到#VV, 起到#VV)  (relcl, 功效#NN, 预防#VV)  (dobj, 预防#VV, 流感#NN)  (conj, 预防#VV, 防止#VV)  (advmod, 感染#VV, 伤口#AD)  (ccomp, 防止#VV, 感染#VV)  (cc, 感染#VV, 和#CC)  (conj, 感染#VV, 驱虫#VV)  (mark, 预防#VV, 的#DEC)  (dobj, 起到#VV, 功效#NN)   (loc, 含#VV, 蒜薹#NN)  (case, 蒜薹#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 大蒜#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 大蒜#NN, 大蒜素#NN)  (nsubj, 新素#VV, 大蒜#NN)  (xsubj, 抑制#VV, 大蒜#NN)  (root, ROOT#null, 新素#VV)  (mmod, 抑制#VV, 可以#VV)  (ccomp, 新素#VV, 抑制#VV)  (amod, 细菌#NN, 金黄色#JJ)  (conj, 弧菌#NR, 葡萄球菌#NR)  (conj, 弧菌#NR, 链球菌#NR)  (nn, 弧菌#NR, 痢疾#NR)  (conj, 弧菌#NR, 杆菌#NR)  (nn, 弧菌#NR, 大肠#NR)  (conj, 弧菌#NR, 杆菌#NR)  (nn, 弧菌#NR, 霍乱#NR)  (nn, 细菌#NN, 弧菌#NR)  (etc, 弧菌#NR, 等#ETC)  (assmod, 繁殖#NN, 细菌#NN)  (case, 细菌#NN, 的#DEG)  (nn, 繁殖#NN, 生长#NN)  (dobj, 抑制#VV, 繁殖#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 通便#VV)  (dobj, 通便#VV, 防痔#NN)
+            (nsubj, 含有#VV, 蒜薹#NN)  (advmod, 含有#VV, 外皮#AD)  (root, ROOT#null, 含有#VV)  (relcl, 纤维素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 纤维素#NN)  (mmod, 刺激#VV, 可#VV)  (conj, 含有#VV, 刺激#VV)  (nn, 排便#NN, 大肠#NN)  (dobj, 刺激#VV, 排便#NN)  (conj, 含有#VV, 调治#VV)  (dobj, 调治#VV, 便秘#NN)   (advmod, 食用#VV, 多#AD)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 蒜薹#NN)  (mmod, 预防#VV, 能#VV)  (conj, 食用#VV, 预防#VV)  (assmod, 发生#NN, 痔疮#NN)  (case, 痔疮#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)  (dep, 食用#VV, 降低#VV)  (assmod, 次数#NN, 痔疮#NN)  (case, 痔疮#NN, 的#DEG)  (nn, 次数#NN, 复发#NN)  (dobj, 降低#VV, 次数#NN)  (cc, 食用#VV, 并#CC)  (case, 中度#NN, 对#P)  (amod, 中度#NN, 轻#JJ)  (prep, 有#VE, 中度#NN)  (advmod, 有#VE, 痔疮#AD)  (conj, 食用#VV, 有#VE)  (assmod, 效果#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 效果#NN, 治疗#NN)  (dobj, 有#VE, 效果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防治#VV)  (nfincl, 作用#NN, 预防#VV)  (conj, 降脂#NN, 冠心病#NN)  (nn, 降脂#NN, 动脉#NN)  (conj, 降脂#NN, 硬化#NN)  (dobj, 预防#VV, 降脂#NN)  (etc, 降脂#NN, 等#ETC)  (dobj, 防治#VV, 作用#NN)
+            (loc, 丰富#VA, 蒜薹#NN)  (case, 蒜薹#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (nsubj, 具有#VV, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (advmod, 具有#VV, 维生素C#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (relcl, 作用#NN, 降#VV)  (conj, 预防#NN, 血脂#NN)  (cc, 预防#NN, 及#CC)  (nn, 冠心病#NN, 预防#NN)  (conj, 硬化#NN, 冠心病#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (dobj, 降#VV, 硬化#NN)  (mark, 降#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (cc, 具有#VV, 并#CC)  (mmod, 防止#VV, 可#VV)  (conj, 具有#VV, 防止#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 防止#VV, 形成#NN)   (nsubj, 保护#VV, 它#PN)  (mmod, 保护#VV, 能#VV)  (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (conj, 保护#VV, 诱导#VV)  (nn, 毒酶#NN, 肝细胞#NN)  (nn, 毒酶#NN, 脱#NN)  (assmod, 活性#NN, 毒酶#NN)  (case, 毒酶#NN, 的#DEG)  (dobj, 诱导#VV, 活性#NN)  (mmod, 阻断#VV, 可以#VV)  (conj, 保护#VV, 阻断#VV)  (advmod, 致癌#VV, 亚硝胺#AD)  (relcl, 发生#NN, 致癌#VV)  (assmod, 癌症#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (nfincl, 癌症#NN, 合成#JJ)  (advmod, 预防#VV, 从而#AD)  (dep, 合成#JJ, 预防#VV)  (dobj, 致癌#VV, 癌症#NN)  (mark, 致癌#VV, 的#DEC)  (dobj, 阻断#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  通便  抗癌防癌  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蒜薹中所含的大蒜素、大蒜新素，可细菌的生长繁殖；蒜薹含有糖类、粗纤维、胡萝卜素、维生素A、维生素B2、维生素C、尼克酸、钙、磷、等成分，其中含有的粗纤维，可预防便秘；维生素C具有明显的降血脂及预防冠心病和动脉硬化的作用；蒜薹含有辣素，对病原菌和寄生虫都有良好的杀灭作用。
+        </rawdata>
+
+        <segment>
+            蒜薹  中  所  含  的  大蒜素  、  大蒜  新素  ，  可  细菌  的  生长  繁殖  ；  蒜薹  含有  糖类  、  粗  纤维  、  胡萝卜素  、  维生素A  、  维生素  B  维生素C  、  尼  克  酸  、  钙  、  磷  、  等  成分  ，  其中  含有  的  粗  纤维  ，  可  预防  便秘  ；  维生素C  具有  明显  的  降  血脂  及  预防  冠心病  和  动脉  硬化  的  作用  ；  蒜薹  含有  辣素  ，  对  病原菌  和  寄生虫  都  有  良好  的  杀灭  作用  。
+        </segment>
+
+        <pos>
+            蒜薹#VV  中#NR  所#MSP  含#VV  的#DEC  大蒜素#NN  、#PU  大蒜#VV  新素#NN  ，#PU  可#VV  细菌#NR  的#DEG  生长#NN  繁殖#NN  ；#PU  蒜薹#VV  含有#NN  糖类#NN  、#PU  粗#NN  纤维#NN  、#PU  胡萝卜素#NN  、#PU  维生素A#NN  、#PU  维生素#NN  B#NN  维生素C#NN  、#PU  尼#NR  克#VV  酸#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  等#VV  成分#NN  ，#PU  其中#NN  含有#VA  的#DEG  粗#NN  纤维#NN  ，#PU  可#VV  预防#NN  便秘#NN  ；#PU  维生素C#VV  具有#VV  明显#VA  的#DEC  降#NN  血脂#NN  及#CC  预防#NN  冠心病#NN  和#CC  动脉#NN  硬化#NN  的#DEC  作用#NN  ；#PU  蒜薹#VV  含有#NN  辣素#NN  ，#PU  对#P  病原菌#NN  和#CC  寄生虫#NN  都#AD  有#VE  良好#VA  的#DEC  杀灭#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 蒜薹#VV)  (nsubj, 含#VV, 中#NR)  (prtmod, 含#VV, 所#MSP)  (relcl, 大蒜素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dobj, 蒜薹#VV, 大蒜素#NN)  (conj, 蒜薹#VV, 大蒜#VV)  (dobj, 大蒜#VV, 新素#NN)  (conj, 蒜薹#VV, 可#VV)  (assmod, 繁殖#NN, 细菌#NR)  (case, 细菌#NR, 的#DEG)  (nn, 繁殖#NN, 生长#NN)  (dobj, 可#VV, 繁殖#NN)  (conj, 蒜薹#VV, 蒜薹#VV)  (nn, 维生素#NN, 含有#NN)  (conj, 维生素#NN, 糖类#NN)  (nn, 维生素#NN, 粗#NN)  (conj, 维生素#NN, 纤维#NN)  (conj, 维生素#NN, 胡萝卜素#NN)  (conj, 维生素#NN, 维生素A#NN)  (nn, 纤维#NN, 维生素#NN)  (nn, 维生素C#NN, B#NN)  (assmod, 纤维#NN, 维生素C#NN)  (nsubj, 克#VV, 尼#NR)  (conj, 维生素C#NN, 克#VV)  (dobj, 克#VV, 酸#NN)  (conj, 维生素C#NN, 钙#NN)  (conj, 维生素C#NN, 磷#NN)  (dep, 维生素C#NN, 等#VV)  (dobj, 等#VV, 成分#NN)  (nsubj, 含有#VA, 其中#NN)  (dep, 等#VV, 含有#VA)  (case, 维生素C#NN, 的#DEG)  (nn, 纤维#NN, 粗#NN)  (dobj, 蒜薹#VV, 纤维#NN)  (conj, 蒜薹#VV, 可#VV)  (nn, 便秘#NN, 预防#NN)  (dobj, 可#VV, 便秘#NN)  (conj, 蒜薹#VV, 维生素C#VV)  (relcl, 作用#NN, 具有#VV)  (relcl, 硬化#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 硬化#NN, 降#NN)  (conj, 硬化#NN, 血脂#NN)  (cc, 硬化#NN, 及#CC)  (nn, 硬化#NN, 预防#NN)  (conj, 硬化#NN, 冠心病#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (dobj, 具有#VV, 硬化#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 维生素C#VV, 作用#NN)  (conj, 蒜薹#VV, 蒜薹#VV)  (nn, 辣素#NN, 含有#NN)  (dobj, 蒜薹#VV, 辣素#NN)  (case, 寄生虫#NN, 对#P)  (conj, 寄生虫#NN, 病原菌#NN)  (cc, 寄生虫#NN, 和#CC)  (prep, 有#VE, 寄生虫#NN)  (advmod, 有#VE, 都#AD)  (conj, 蒜薹#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 杀灭#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            蒜薹主要用于炒食，或做配料。不宜烹制得过烂，以免辣素被破坏，杀菌作用降低。
+            大火、油温高时将菜下锅，煸炒透后再放盐，以保证菜嫩而不老，营养损失较少。
+        </rawdata>
+
+        <segment>
+            蒜薹  主要  用于  炒食  ，  或  做  配料  。  不宜  烹制  得过烂  ，  以免  辣素  被  破坏  ，  杀菌  作用  降低  。
+            大火  、  油温  高  时  将  菜  下锅  ，  煸炒  透  后  再放盐  ，  以  保证  菜嫩  而  不老  ，  营养  损失  较  少  。
+        </segment>
+
+        <pos>
+            蒜薹#NN  主要#AD  用于#VV  炒食#NN  ，#PU  或#CC  做#VV  配料#NN    。#PU  不宜#AD  烹制#VV  得过烂#NN  ，#PU  以免#VV  辣素#NN  被#SB  破坏#VV  ，#PU  杀菌#NN  作用#NN  降低#VV    。#PU    。#PU
+            大火#NN  、#PU  油温#NN  高#VA  时#LC  将#BA  菜#NN  下锅#VV  ，#PU  煸炒#NN  透#NN  后#LC  再放盐#NN  ，#PU  以#MSP  保证#VV  菜嫩#NN  而#MSP  不老#VV  ，#PU  营养#VA  损失#NN  较#AD  少#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 用于#VV, 蒜薹#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 炒食#NN)  (cc, 用于#VV, 或#CC)  (conj, 用于#VV, 做#VV)  (dobj, 做#VV, 配料#NN)   (advmod, 烹制#VV, 不宜#AD)  (root, ROOT#null, 烹制#VV)  (dobj, 烹制#VV, 得过烂#NN)  (dep, 烹制#VV, 以免#VV)  (nsubjpass, 破坏#VV, 辣素#NN)  (auxpass, 破坏#VV, 被#SB)  (ccomp, 以免#VV, 破坏#VV)  (nn, 作用#NN, 杀菌#NN)  (nsubj, 降低#VV, 作用#NN)  (conj, 破坏#VV, 降低#VV)   (root, ROOT#null, null#null)
+            (conj, 油温#NN, 大火#NN)  (nsubj, 高#VA, 油温#NN)  (loc, 下锅#VV, 高#VA)  (case, 高#VA, 时#LC)  (ba, 下锅#VV, 将#BA)  (nsubj, 下锅#VV, 菜#NN)  (root, ROOT#null, 下锅#VV)  (nn, 透#NN, 煸炒#NN)  (loc, 保证#VV, 透#NN)  (case, 透#NN, 后#LC)  (nsubj, 保证#VV, 再放盐#NN)  (prtmod, 保证#VV, 以#MSP)  (ccomp, 下锅#VV, 保证#VV)  (dobj, 保证#VV, 菜嫩#NN)  (prtmod, 不老#VV, 而#MSP)  (dep, 保证#VV, 不老#VV)  (relcl, 损失#NN, 营养#VA)  (nsubj, 少#VA, 损失#NN)  (advmod, 少#VA, 较#AD)  (ccomp, 不老#VV, 少#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071013467578.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\192 蒜薹.jpg
+    </picturelocalurl>
+
+</content>
