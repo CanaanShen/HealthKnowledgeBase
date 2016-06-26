@@ -66,8 +66,9 @@ public class XMLLightTagger extends XMLTagger{
 		
 		this.equalExcludedList = new ArrayList<String>();
 		this.equalExcludedList = ConfigUtil.equalExcludedList;
-	}
+	}//
 	
+	//
 	private Document buildDocument(String filePath) {
 		
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
@@ -114,8 +115,8 @@ public class XMLLightTagger extends XMLTagger{
 				String text = node.getTextContent();
 				
 				if(nodeName.equals("manuleffecttag")) {
-					if(text.contains("�?")){
-						text = text.replace("�?", "  ");
+					if(text.contains("，")){
+						text = text.replace("，", "  ");
 					}
 				}
 				tagPlusContent.append(ConfigUtil.First_Indent + "<" + nodeName + ">\n");
@@ -146,7 +147,6 @@ public class XMLLightTagger extends XMLTagger{
 						}
 						
 						String subSubText = subSubNode.getTextContent();
-						
 						if(subSubText != null && subSubText.length() > 0) {
 							tagPlusContent.append(ConfigUtil.Third_Indent + "<" + subSubNodeName + ">\n");
 							tagPlusContent.append(ConfigUtil.Fourth_Indent + subSubText.trim() + "\n");
@@ -351,7 +351,6 @@ public class XMLLightTagger extends XMLTagger{
 			if(this.unsuitAndSuitBlankExcludeList.contains(term)) {
 				rawText = rawText.replace(term, "  ");
 			}
-			
 		}
 		
 		rawText = rawText.replace(foodName, "  ");
@@ -366,9 +365,9 @@ public class XMLLightTagger extends XMLTagger{
 			}
 		}
 		return taggedText;
-	}
-	
-	
+	}//
+
+	//
 	private StringBuffer toTagOther(String foodName, String parsingText) {
 				
 		String[] splitParsingText = parsingText.split("\\(");
@@ -407,6 +406,6 @@ public class XMLLightTagger extends XMLTagger{
 		}
 		//System.out.println(taggedText);
 		return taggedText;
-	}
+	}//
 	
 }//

@@ -80,8 +80,8 @@ public class XMLFullTagger extends XMLTagger{
 			
 			String text = node.getTextContent();
 			if(nodeName.equals("manuleffecttag")) {
-				if(text.contains("�?")){
-					text = text.replace("�?", "  ");
+				if(text.contains("，")){
+					text = text.replace("，", "  ");
 				}
 			}
 			tagPlusContent.append(ConfigUtil.First_Indent + "<" + nodeName + ">\n");
@@ -112,7 +112,6 @@ public class XMLFullTagger extends XMLTagger{
 						}
 						
 						String subSubText = subSubNode.getTextContent();
-						
 						if(subSubText != null && subSubText.length() > 0) {
 							tagPlusContent.append(ConfigUtil.Third_Indent + "<" + subSubNodeName + ">\n");
 							tagPlusContent.append(ConfigUtil.Fourth_Indent + subSubText.trim() + "\n");
@@ -130,7 +129,7 @@ public class XMLFullTagger extends XMLTagger{
 		}
 		
 		return tagPlusContent;
-	}
+	}//
 	
 	//for those nodes that need to be parsed
 	private StringBuffer toTagNodeFullVersion(Element rootElement, Node node) {
@@ -141,7 +140,6 @@ public class XMLFullTagger extends XMLTagger{
 		}
 		
 		NodeList subNodeList = node.getChildNodes();
-		
 		StringBuffer tagPlusContent = new StringBuffer(ConfigUtil.First_Indent + "<" + nodeName + ">\n");
 		
 		if(subNodeList == null || subNodeList.getLength() <= 2) {	//magic number #text
@@ -197,9 +195,8 @@ public class XMLFullTagger extends XMLTagger{
 		}//if...else...
 		
 		tagPlusContent.append(ConfigUtil.First_Indent + "</" + nodeName + ">\n\n");
-
 		return tagPlusContent;
-	}
+	}//
 	
 	//
 	private void tagXMLFileFullVersion(String xmlFilePath, String outXMLFilePath) {
@@ -238,7 +235,7 @@ public class XMLFullTagger extends XMLTagger{
 				} else {												//nodes not to be parsed
 					tagPlusContent = this.toReserveFullVersionNode(rootElement, subNode);
 				}
-					
+				
 				xmlFileContent.append(tagPlusContent);
 			}//for...
 
@@ -267,7 +264,6 @@ public class XMLFullTagger extends XMLTagger{
 			
 			tagXMLFileFullVersion(xmlFilePath, outXMLFilePath);
 		}//for
-		
 	}//
 	
 	//main function
@@ -283,7 +279,6 @@ public class XMLFullTagger extends XMLTagger{
 		xmlTagger.tagXMLFolder(inFolderPath, outFolderPath_FullVersion);
 		
 		System.out.println("Program ends");
-		
 	}//
 	
 	//
@@ -334,9 +329,8 @@ public class XMLFullTagger extends XMLTagger{
 				}
 			}
 		}
-		
 		return taggedText;
-	}
+	}//
 	
 	//to generate other tags
 	private StringBuffer toTagOther(String foodName, String parsingText) {
