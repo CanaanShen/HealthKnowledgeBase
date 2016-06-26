@@ -1,6 +1,6 @@
 package knowledge.project.util;
 
-public class ExceptionUtility {
+public class ExceptionUtil {
 	public static void throwAndCatchException(String message) {
 		try {
 			throw new Exception(message);
@@ -14,14 +14,14 @@ public class ExceptionUtility {
 	 */
 	public static void assertAsException(boolean statement) {
 		if (!statement) {
-			ExceptionUtility
+			ExceptionUtil
 					.throwAndCatchException("The assertion statement is not true!");
 		}
 	}
 
 	public static void assertAsException(boolean statement, String message) {
 		if (!statement) {
-			ExceptionUtility.throwAndCatchException(message);
+			ExceptionUtil.throwAndCatchException(message);
 		}
 
 	}

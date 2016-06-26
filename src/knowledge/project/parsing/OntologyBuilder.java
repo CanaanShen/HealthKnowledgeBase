@@ -3,7 +3,7 @@ package knowledge.project.parsing;
 import knowledge.project.type.DependencyTuple;
 import knowledge.project.type.TaggedTuple;
 import knowledge.project.util.ConfigUtil;
-import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.ExceptionUtil;
 import knowledge.project.util.FileUtil;
 import knowledge.project.util.TaggingUtil;
 
@@ -52,7 +52,7 @@ public class OntologyBuilder {
 		
 		Document document = FileUtil.buildDocument(xmlFilePath);		
 		if(document == null) {
-			ExceptionUtility.throwAndCatchException("The document is null");
+			ExceptionUtil.throwAndCatchException("The document is null");
 			return;
 		}
 		
@@ -65,7 +65,7 @@ public class OntologyBuilder {
 		for(String tagName: this.tobeExtractedTagList) {
 			NodeList tagNodeList = rootElement.getElementsByTagName(tagName);
 			if(tagNodeList == null || tagNodeList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("tagNodeList is null");
+				ExceptionUtil.throwAndCatchException("tagNodeList is null");
 				continue;
 			}
 			
@@ -150,7 +150,7 @@ public class OntologyBuilder {
 		
 		NodeList manulTagNodeList = rootElement.getElementsByTagName("manuleffecttag");
 		if(manulTagNodeList == null || manulTagNodeList.getLength() == 0) {
-			ExceptionUtility.throwAndCatchException("manulTagNodeList is null");
+			ExceptionUtil.throwAndCatchException("manulTagNodeList is null");
 			return;
 		}
 		Node manulTagNode = manulTagNodeList.item(0);

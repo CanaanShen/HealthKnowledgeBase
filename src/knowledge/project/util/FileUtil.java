@@ -29,7 +29,7 @@ public class FileUtil {
 			String eachFileName = file.getName().replace(".xml", "");
 			String[] splitStr = eachFileName.split("\\s+");
 			if(splitStr.length != 2) {
-				ExceptionUtility.throwAndCatchException("splitStr length error");
+				ExceptionUtil.throwAndCatchException("splitStr length error");
 				continue;
 			}
 			eachFileName = splitStr[1];

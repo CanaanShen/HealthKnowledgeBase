@@ -2,7 +2,7 @@ package knowledge.project.parsing;
 
 import knowledge.project.util.CommonUtil;
 import knowledge.project.util.ConfigUtil;
-import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.ExceptionUtil;
 import knowledge.project.util.FileUtil;
 
 import java.io.File;
@@ -52,7 +52,7 @@ public class DataSourceCombiner {
 			fileName = fileName.replace(".xml", "");
 			String[] splitStr = fileName.split("\\s+");
 			if(splitStr.length != 2) {
-				ExceptionUtility.throwAndCatchException("The length of splitStr is less than 2");
+				ExceptionUtil.throwAndCatchException("The length of splitStr is less than 2");
 				continue;
 			}
 			
@@ -65,12 +65,12 @@ public class DataSourceCombiner {
 			Element rootElement = document.getDocumentElement();
 			NodeList nodeList = rootElement.getElementsByTagName("alias");
 			if(nodeList == null || nodeList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("nodelist error");
+				ExceptionUtil.throwAndCatchException("nodelist error");
 				continue;
 			}
 			Node aliasTag = nodeList.item(0);
 			String aliasStr = aliasTag.getTextContent().trim();
-			splitStr = aliasStr.split("ã€?");
+			splitStr = aliasStr.split("ï¿½?");
 			List<String> aliasList = new ArrayList<String>();
 			for(String str: splitStr) {
 				aliasList.add(str.trim());
@@ -107,7 +107,7 @@ public class DataSourceCombiner {
 			haodouFileName = haodouFileName.replace(".xml", "");
 			String[] splitStr = haodouFileName.split("\\s+");
 			if(splitStr.length != 2) {
-				ExceptionUtility.throwAndCatchException("The length of splitStr is less than 2");
+				ExceptionUtil.throwAndCatchException("The length of splitStr is less than 2");
 				continue;
 			}
 			
@@ -146,7 +146,7 @@ public class DataSourceCombiner {
 			StringBuffer xmlFileContent = new StringBuffer("");
 			if(mark == 1) {				//existing
 				if(id == -1 || outFoodName == null) {
-					ExceptionUtility.throwAndCatchException("id is -1 or outFoodName is null");
+					ExceptionUtil.throwAndCatchException("id is -1 or outFoodName is null");
 					continue;
 				}
 				
@@ -242,7 +242,7 @@ public class DataSourceCombiner {
 			
 			NodeList haodouNodeList = haodouRootElement.getElementsByTagName(nodeName);
 			if(haodouNodeList == null || haodouNodeList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("nodelist error");
+				ExceptionUtil.throwAndCatchException("nodelist error");
 				continue;
 			}
 			Node haodouNode = haodouNodeList.item(0);
@@ -315,7 +315,7 @@ public class DataSourceCombiner {
 				tagPlusContent.append(ConfigUtil.First_Indent + "<season>\n");
 				NodeList seasonNodeList = newRootElement.getElementsByTagName("season");
 				if(seasonNodeList == null || seasonNodeList.getLength() == 0) {
-					ExceptionUtility.throwAndCatchException("nodelist error");
+					ExceptionUtil.throwAndCatchException("nodelist error");
 				}
 				Node seasonNode = seasonNodeList.item(0);
 				String seasonText = seasonNode.getTextContent().trim();
@@ -433,11 +433,11 @@ public class DataSourceCombiner {
 			tagPlusContent.append(ConfigUtil.First_Indent + "<manuleffecttag>\n");
 			NodeList manulTagList = newRootElement.getElementsByTagName("manultag");
 			if(manulTagList == null || manulTagList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("manulTagList errors");
+				ExceptionUtil.throwAndCatchException("manulTagList errors");
 				tagPlusContent.append("\n");
 			}
 			String manulEffectText = manulTagList.item(0).getTextContent().trim();
-			String[] manulSplitStr = manulEffectText.split("ã€?");
+			String[] manulSplitStr = manulEffectText.split("ï¿½?");
 			tagPlusContent.append(ConfigUtil.Second_Indent);
 			for(String manulTag: manulSplitStr){
 				tagPlusContent.append(manulTag + "  ");
@@ -456,7 +456,7 @@ public class DataSourceCombiner {
 		String text = node.getTextContent().trim();
 		
 		if(nodeName.equals("manultag")) {
-			String[] manulSplitStr = text.replace("\n", "  ").split("ã€?");
+			String[] manulSplitStr = text.replace("\n", "  ").split("ï¿½?");
 			tagPlusContent.append(ConfigUtil.First_Indent + "<manuleffecttag>\n");
 			tagPlusContent.append(ConfigUtil.Second_Indent);
 			for(String manulTag: manulSplitStr){

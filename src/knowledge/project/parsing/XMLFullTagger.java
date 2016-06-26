@@ -3,7 +3,7 @@ package knowledge.project.parsing;
 import knowledge.project.baseclass.XMLTagger;
 import knowledge.project.type.DependencyTuple;
 import knowledge.project.util.ConfigUtil;
-import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.ExceptionUtil;
 import knowledge.project.util.FileUtil;
 import knowledge.project.util.TaggingUtil;
 
@@ -81,8 +81,8 @@ public class XMLFullTagger extends XMLTagger{
 			
 			String text = node.getTextContent();
 			if(nodeName.equals("manuleffecttag")) {
-				if(text.contains("ï¼?")){
-					text = text.replace("ï¼?", "  ");
+				if(text.contains("ï¿½?")){
+					text = text.replace("ï¿½?", "  ");
 				}
 			}
 			tagPlusContent.append(ConfigUtil.First_Indent + "<" + nodeName + ">\n");
@@ -181,7 +181,7 @@ public class XMLFullTagger extends XMLTagger{
 
 			tagPlusContent.append(ConfigUtil.Second_Indent + "<tag>\n" );
 			if(rawDataText == null || posText == null) {
-				ExceptionUtility.throwAndCatchException("rawDataText or posText is null ");
+				ExceptionUtil.throwAndCatchException("rawDataText or posText is null ");
 			} else {
 			
 				if(nodeName.equals("unsuit") || nodeName.equals("suit")) {
@@ -296,7 +296,7 @@ public class XMLFullTagger extends XMLTagger{
 		for(String str: splitPOS) {
 			String[] termPOSPair = str.split("#");
 			if(termPOSPair.length != 2) {
-				ExceptionUtility.throwAndCatchException("The length of ... is less than 2");
+				ExceptionUtil.throwAndCatchException("The length of ... is less than 2");
 				continue;
 			}
 			termPOSMap.put(termPOSPair[0], termPOSPair[1]);

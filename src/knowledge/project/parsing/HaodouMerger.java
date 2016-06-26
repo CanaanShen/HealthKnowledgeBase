@@ -1,6 +1,6 @@
 package knowledge.project.parsing;
 
-import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.ExceptionUtil;
 import knowledge.project.util.FileUtil;
 
 import java.io.File;
@@ -29,7 +29,7 @@ public class HaodouMerger {
 			
 			NodeList idList = doc.getElementsByTagName("id");
 			if(idList == null || idList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("idList error");
+				ExceptionUtil.throwAndCatchException("idList error");
 				continue;
 			}
 			Node idNode = idList.item(0);
@@ -37,7 +37,7 @@ public class HaodouMerger {
 			
 			NodeList foodNameList = doc.getElementsByTagName("foodname");
 			if(foodNameList == null || foodNameList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("foodNameList error");
+				ExceptionUtil.throwAndCatchException("foodNameList error");
 				continue;
 			}
 			Node foodNode = foodNameList.item(0);
@@ -53,12 +53,12 @@ public class HaodouMerger {
 			
 			NodeList aliasNodeList = doc.getElementsByTagName("alias");
 			if(aliasNodeList == null || aliasNodeList.getLength() == 0) {
-				ExceptionUtility.throwAndCatchException("aliasNodeList error");
+				ExceptionUtil.throwAndCatchException("aliasNodeList error");
 				continue;
 			}
 			
 			Node aliasNode = aliasNodeList.item(0);
-			String[] splitStr = aliasNode.getTextContent().trim().split("ã€?");
+			String[] splitStr = aliasNode.getTextContent().trim().split("ï¿½?");
 			if(splitStr != null && splitStr.length > 0) {
 				for(String alias: splitStr) {
 					alias = alias.trim();

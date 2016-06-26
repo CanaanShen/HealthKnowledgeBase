@@ -28,7 +28,7 @@ public class TaggingUtil {
 		String govAndPOS = splitTypePOS[1].trim();
 		String[] splitGovPOS = govAndPOS.split("#");
 		if(splitGovPOS.length != 2) {
-			ExceptionUtility.throwAndCatchException("The length of splitGovPOS is not equal to 2");
+			ExceptionUtil.throwAndCatchException("The length of splitGovPOS is not equal to 2");
 			return null;
 		}
 		String govTerm = splitGovPOS[0].trim();
@@ -56,7 +56,7 @@ public class TaggingUtil {
 			List<String> containedExcludeList, List<String> equalExcludedList) {
 		
 		if(dependencyTuple == null) {
-			ExceptionUtility.throwAndCatchException("dependencyTuple is null");
+			ExceptionUtil.throwAndCatchException("dependencyTuple is null");
 			return null;
 		}
 		
@@ -285,7 +285,7 @@ public class TaggingUtil {
 		String depPOS = dependencyTuple.getDepPOS();
 		
 		if(type == null || govTerm == null || govPOS == null || depTerm == null || depPOS == null) {
-			ExceptionUtility.throwAndCatchException("type or govTerm or govPOS or depTerm or depPOS is null");
+			ExceptionUtil.throwAndCatchException("type or govTerm or govPOS or depTerm or depPOS is null");
 			return;
 		}
 		
