@@ -40,10 +40,10 @@ public class ParsingTester {
 //		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse");
 //		StanfordCoreNLP pipeLine = new StanfordCoreNLP(props);
 //		
-		String doc = "猪肉 �? 蛋白�? �? 优质 蛋白�? �? 含有 人体 全部 必需 氨基�?";
+		String doc = "猪肉 的 蛋白质 属 优质 蛋白质 ， 含有 人体 全部 必需 氨基酸";
 		List<String> docList = new ArrayList<String>();
 		docList.add("猪肉");
-		docList.add("蛋白�?");
+		docList.add("蛋白质");
 		docList.add("人体"); 
 		docList.add("全部");
 //		
@@ -91,7 +91,7 @@ public class ParsingTester {
 		segmenter.loadClassifierNoExceptions(baseDir + "ctb.gz", property);
 		segmenter.flags.setProperties(property);
 		
-		String sentence = "猪肉的蛋白质属优质蛋白质，含有人体全部必�?氨基�?";
+		String sentence = "猪肉的蛋白质属优质蛋白质，含有人体全部必需氨基酸";
 		String[] strArray = (String[]) segmenter.segmentString(sentence).toArray();
 		for(String str: strArray) {
 			System.out.println(str);
@@ -101,7 +101,7 @@ public class ParsingTester {
 	private void parseTesting() {
 		String baseDir = "edu/stanford/nlp/models/";
 		LexicalizedParser lexicalParser = LexicalizedParser.loadModel(baseDir + "lexparser/xinhuaFactored.ser.gz");
-		String sent = "猪肉  含有  丰富  �?  蛋白�?  �?  脂肪�?  �? 具有   很多  作用 。猪�?   味道  清淡  �?";
+		String sent = "猪肉  含有  丰富  的  蛋白质  和  脂肪酸  ， 具有   很多  作用 。猪肉   味道  清淡  。";
 		
 	     TokenizerFactory<CoreLabel> tokenizerFactory =
 	             PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
@@ -136,7 +136,7 @@ public class ParsingTester {
 //		tester.testSegment();
 //		String str = "I am a student.";
 //		tester.parseTesting();
-//		String str = "(loc, 消除#VV, �?#NN)  (case, �?#NN, �?#LC)  (mmod, 消除#VV, �?#VV)  (root, ROOT#null, 消除#VV)  (assmod, 饥饿�?#NN, 肥胖�?#NN) ";
+//		String str = "(loc, 消除#VV, 食#NN)  (case, 食#NN, 后#LC)  (mmod, 消除#VV, 可#VV)  (root, ROOT#null, 消除#VV)  (assmod, 饥饿感#NN, 肥胖人#NN) ";
 //		Pattern pattern = Pattern.compile("\\(.+\\)");
 //		String[] split = pattern.split("\\(.*\\)");
 //		for(String splitStr: split) {

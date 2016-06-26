@@ -70,7 +70,7 @@ public class DataSourceCombiner {
 			}
 			Node aliasTag = nodeList.item(0);
 			String aliasStr = aliasTag.getTextContent().trim();
-			splitStr = aliasStr.split("�?");
+			splitStr = aliasStr.split("、");
 			List<String> aliasList = new ArrayList<String>();
 			for(String str: splitStr) {
 				aliasList.add(str.trim());
@@ -437,7 +437,7 @@ public class DataSourceCombiner {
 				tagPlusContent.append("\n");
 			}
 			String manulEffectText = manulTagList.item(0).getTextContent().trim();
-			String[] manulSplitStr = manulEffectText.split("�?");
+			String[] manulSplitStr = manulEffectText.split("、");
 			tagPlusContent.append(ConfigUtil.Second_Indent);
 			for(String manulTag: manulSplitStr){
 				tagPlusContent.append(manulTag + "  ");
@@ -456,7 +456,7 @@ public class DataSourceCombiner {
 		String text = node.getTextContent().trim();
 		
 		if(nodeName.equals("manultag")) {
-			String[] manulSplitStr = text.replace("\n", "  ").split("�?");
+			String[] manulSplitStr = text.replace("\n", "  ").split("、");
 			tagPlusContent.append(ConfigUtil.First_Indent + "<manuleffecttag>\n");
 			tagPlusContent.append(ConfigUtil.Second_Indent);
 			for(String manulTag: manulSplitStr){

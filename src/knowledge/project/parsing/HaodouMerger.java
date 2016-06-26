@@ -15,7 +15,6 @@ import org.w3c.dom.NodeList;
  * Merge the xml files of Haodou website from several data sources
  * @Yueshen
  * */
-
 public class HaodouMerger {
 	
 	//
@@ -59,7 +58,7 @@ public class HaodouMerger {
 			}
 			
 			Node aliasNode = aliasNodeList.item(0);
-			String[] splitStr = aliasNode.getTextContent().trim().split("�?");
+			String[] splitStr = aliasNode.getTextContent().trim().split("、");
 			if(splitStr != null && splitStr.length > 0) {
 				for(String alias: splitStr) {
 					alias = alias.trim();
