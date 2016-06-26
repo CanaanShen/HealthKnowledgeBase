@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        26
+    </id>
+
+    <foodname>
+        羊肝
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        羊肉
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高胆固醇血症、肝病、高血压患者忌食。
+        </rawdata>
+
+        <segment>
+            高  胆固醇血症  、  肝病  、  高血压  患者  忌食  。
+        </segment>
+
+        <pos>
+            高#JJ  胆固醇血症#NN  、#PU  肝病#NN  、#PU  高血压#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 高血压#NN, 高#JJ)  (conj, 高血压#NN, 胆固醇血症#NN)  (conj, 高血压#NN, 肝病#NN)  (nn, 患者#NN, 高血压#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜夜盲症(雀目)、眼干燥症、青盲翳障、小儿疳眼、目暗昏花、热病后弱视患者；适宜血虚患者、面色萎黄、妇人产后贫血、肺结核、小儿衰弱、以及维生素A缺乏症者。　
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  夜盲症  (  雀目  )  、  眼干燥症  、  青盲翳障  、  小儿  疳眼  、  目暗  昏花  、  热病  后  弱视  患者  ；  适宜  血虚  患者  、  面色  萎黄  、  妇人  产后  贫血  、  肺结核  、  小儿  衰弱  、  以及  维生素A  缺乏症者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  夜盲症#NN  -LRB-#NN  雀目#NN  -RRB-#VA  、#PU  眼干燥症#VA  、#PU  青盲翳障#VA  、#PU  小儿#VA  疳眼#VA  、#PU  目暗#VA  昏花#VA  、#PU  热病#VA  后#LC  弱视#JJ  患者#NN  ；#PU  适宜#VV  血虚#NN  患者#NN  、#PU  面色#NN  萎黄#NN  、#PU  妇人#NN  产后#NN  贫血#NN  、#PU  肺结核#NN  、#PU  小儿#NN  衰弱#NN  、#PU  以及#CC  维生素A#JJ  缺乏症者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NR)  (root, ROOT#null, 适宜#VV)  (nn, 雀目#NN, 夜盲症#NN)  (nsubj, -RRB-#VA, 雀目#NN)  (conj, -RRB-#VA, 眼干燥症#VA)  (conj, -RRB-#VA, 青盲翳障#VA)  (dep, -RRB-#VA, 小儿#VA)  (conj, -RRB-#VA, 疳眼#VA)  (dep, -RRB-#VA, 目暗#VA)  (conj, -RRB-#VA, 昏花#VA)  (dep, -RRB-#VA, 热病#VA)  (case, -RRB-#VA, 后#LC)  (amod, 患者#NN, 弱视#JJ)  (dobj, 适宜#VV, 患者#NN)  (conj, 适宜#VV, 适宜#VV)  (nn, 患者#NN, 血虚#NN)  (dep, 缺乏症者#NN, 患者#NN)  (nn, 萎黄#NN, 面色#NN)  (conj, 患者#NN, 萎黄#NN)  (nn, 贫血#NN, 妇人#NN)  (nn, 贫血#NN, 产后#NN)  (conj, 患者#NN, 贫血#NN)  (conj, 衰弱#NN, 肺结核#NN)  (nn, 衰弱#NN, 小儿#NN)  (conj, 患者#NN, 衰弱#NN)  (cc, 患者#NN, 以及#CC)  (dep, 患者#NN, 维生素A#JJ)  (dobj, 适宜#VV, 缺乏症者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                134
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                7.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                349
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                20972
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                1.75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                22.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素D（微克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                29.93
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                299
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                241
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                123
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                7.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                19.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                17.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                4.51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            养肝，为牛科动物山羊或绵羊的肝脏。肝脏是动物内储存养料和解毒的重要器官，含有丰富的营养物质，具有营养保健功能，是最理想的补血佳品之一。
+        </rawdata>
+
+        <segment>
+            养肝  ，  为  牛科  动物  山羊  或  绵羊  的  肝脏  。  肝脏  是  动物  内  储存  养料  和  解毒  的  重要  器官  ，  含有  丰富  的  营养  物质  ，  具有  营养  保健  功能  ，  是  最  理想  的  补血  佳品  之一  。
+        </segment>
+
+        <pos>
+            养肝#VV  ，#PU  为#VV  牛科#JJ  动物#NN  山羊#NN  或#CC  绵羊#NN  的#DEG  肝脏#NN    。#PU  肝脏#NN  是#VC  动物#NN  内#LC  储存#VV  养料#NN  和#CC  解毒#NN  的#DEC  重要#JJ  器官#NN  ，#PU  含有#VV  丰富#VA  的#DEC  营养#VA  物质#NN  ，#PU  具有#VV  营养#VA  保健#NN  功能#NN  ，#PU  是#VC  最#AD  理想#VA  的#DEC  补血#NN  佳品#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 养肝#VV)  (dep, 养肝#VV, 为#VV)  (amod, 动物#NN, 牛科#JJ)  (nn, 绵羊#NN, 动物#NN)  (conj, 绵羊#NN, 山羊#NN)  (cc, 绵羊#NN, 或#CC)  (assmod, 肝脏#NN, 绵羊#NN)  (case, 绵羊#NN, 的#DEG)  (dobj, 为#VV, 肝脏#NN)   (nsubj, 器官#NN, 肝脏#NN)  (cop, 器官#NN, 是#VC)  (loc, 储存#VV, 动物#NN)  (case, 动物#NN, 内#LC)  (relcl, 器官#NN, 储存#VV)  (conj, 解毒#NN, 养料#NN)  (cc, 解毒#NN, 和#CC)  (dobj, 储存#VV, 解毒#NN)  (mark, 储存#VV, 的#DEC)  (amod, 器官#NN, 重要#JJ)  (root, ROOT#null, 器官#NN)  (conj, 器官#NN, 含有#VV)  (relcl, 物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 含有#VV, 物质#NN)  (conj, 器官#NN, 具有#VV)  (relcl, 保健#NN, 营养#VA)  (nn, 功能#NN, 保健#NN)  (dobj, 具有#VV, 功能#NN)  (cop, 之一#NN, 是#VC)  (advmod, 理想#VA, 最#AD)  (relcl, 之一#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 之一#NN, 补血#NN)  (nn, 之一#NN, 佳品#NN)  (conj, 器官#NN, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平。益血，补肝，明日。治血虚萎黄羸瘦，肝虚目暗昏花，雀目，青盲，障翳。
+            1.补血
+            羊肝含铁丰富，铁质是产生红血球必需的元素，一旦缺乏便会感觉疲倦，面色青白，适量进食可使皮肤红润。
+            2.促进新陈代谢
+            羊肝中富含维生素B2，维生素B2是人体生化代谢中许多酶和辅酶的组成部分，能促进身体的代谢。
+            3.治疗眼部疾病
+            羊肝中还含有丰富的维生素A，可防止夜盲症和视力减退，有助于对多种眼疾的治疗。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  。  益血  ，  补肝  ，  明日  。  治  血虚  萎黄  羸瘦  ，  肝虚目暗  昏花  ，  雀目  ，  青盲  ，  障翳  。
+            补血
+            羊肝  含铁  丰富  ，  铁质  是  产生  红血球  必需  的  元素  ，  一旦  缺乏  便  会  感觉  疲倦  ，  面色  青白  ，  适量  进食  可  使  皮肤  红润  。
+            促进  新陈代谢
+            羊肝  中  富含  维生素B2  ，  维生素B2  是  人体  生化  代谢  中  许多  酶和  辅酶  的  组成  部分  ，  能  促进  身体  的  代谢  。
+            治疗  眼部  疾病
+            羊肝  中  还  含有  丰富  的  维生素A  ，  可防止  夜盲症  和  视力  减退  ，  有助于  对  多  种  眼疾  的  治疗  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV    。#PU  益血#VV  ，#PU  补肝#VV  ，#PU  明日#NT    。#PU  治#VV  血虚#NN  萎黄#NN  羸瘦#NN  ，#PU  肝虚目暗#VV  昏花#NN  ，#PU  雀目#VV  ，#PU  青盲#VV  ，#PU  障翳#VV    。#PU    。#PU
+            补血#VV
+            羊肝#NR  含铁#VV  丰富#VA  ，#PU  铁质#NN  是#VC  产生#VV  红血球#AD  必需#VV  的#DEC  元素#NN  ，#PU  一旦#CS  缺乏#VV  便#AD  会#VV  感觉#VV  疲倦#NN  ，#PU  面色#VV  青白#NN  ，#PU  适量#AD  进食#VV  可#VV  使#VV  皮肤#NN  红润#VV  。#PU
+            促进#VV  新陈代谢#NN
+            羊肝#NN  中#LC  富含#VV  维生素B2#CD  ，#PU  维生素B2#CD  是#VC  人体#NN  生化#NN  代谢#NN  中#LC  许多#CD  酶和#NN  辅酶#NN  的#DEG  组成#NN  部分#NN  ，#PU  能#VV  促进#VV  身体#NN  的#DEG  代谢#NN  。#PU
+            治疗#VV  眼部#NN  疾病#NN
+            羊肝#NN  中#LC  还#AD  含有#AD  丰富#VA  的#DEC  维生素A#NN  ，#PU  可防止#NR  夜盲症#NN  和#CC  视力#NN  减退#VV  ，#PU  有助于#VV  对#P  多#CD  种#M  眼疾#NN  的#DEG  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性平#VV)   (root, ROOT#null, 益血#VV)  (ccomp, 益血#VV, 补肝#VV)  (dep, 补肝#VV, 明日#NT)   (root, ROOT#null, 治#VV)  (nn, 羸瘦#NN, 血虚#NN)  (nn, 羸瘦#NN, 萎黄#NN)  (dobj, 治#VV, 羸瘦#NN)  (conj, 治#VV, 肝虚目暗#VV)  (dobj, 肝虚目暗#VV, 昏花#NN)  (conj, 肝虚目暗#VV, 雀目#VV)  (conj, 肝虚目暗#VV, 青盲#VV)  (conj, 肝虚目暗#VV, 障翳#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补血#VV)
+            (nsubj, 含铁#VV, 羊肝#NR)  (root, ROOT#null, 含铁#VV)  (ccomp, 含铁#VV, 丰富#VA)  (nsubj, 产生#VV, 铁质#NN)  (cop, 产生#VV, 是#VC)  (conj, 含铁#VV, 产生#VV)  (advmod, 必需#VV, 红血球#AD)  (relcl, 元素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 产生#VV, 元素#NN)  (advmod, 感觉#VV, 一旦#CS)  (mmod, 感觉#VV, 缺乏#VV)  (advmod, 感觉#VV, 便#AD)  (mmod, 感觉#VV, 会#VV)  (conj, 含铁#VV, 感觉#VV)  (dobj, 感觉#VV, 疲倦#NN)  (dep, 感觉#VV, 面色#VV)  (dobj, 面色#VV, 青白#NN)  (advmod, 进食#VV, 适量#AD)  (conj, 感觉#VV, 进食#VV)  (mmod, 使#VV, 可#VV)  (dep, 感觉#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 红润#VV)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)
+            (loc, 富含#VV, 羊肝#NN)  (case, 羊肝#NN, 中#LC)  (root, ROOT#null, 富含#VV)  (range, 富含#VV, 维生素B2#CD)  (dep, 部分#NN, 维生素B2#CD)  (cop, 部分#NN, 是#VC)  (nn, 代谢#NN, 人体#NN)  (nn, 代谢#NN, 生化#NN)  (dep, 部分#NN, 代谢#NN)  (case, 代谢#NN, 中#LC)  (nummod, 辅酶#NN, 许多#CD)  (nn, 辅酶#NN, 酶和#NN)  (assmod, 部分#NN, 辅酶#NN)  (case, 辅酶#NN, 的#DEG)  (nn, 部分#NN, 组成#NN)  (conj, 富含#VV, 部分#NN)  (mmod, 促进#VV, 能#VV)  (conj, 富含#VV, 促进#VV)  (assmod, 代谢#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (dobj, 促进#VV, 代谢#NN)
+            (root, ROOT#null, 治疗#VV)  (nn, 疾病#NN, 眼部#NN)  (dobj, 治疗#VV, 疾病#NN)
+            (loc, 丰富#VA, 羊肝#NN)  (case, 羊肝#NN, 中#LC)  (advmod, 丰富#VA, 还#AD)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素A#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 减退#VV, 维生素A#NN)  (nn, 视力#NN, 可防止#NR)  (conj, 视力#NN, 夜盲症#NN)  (cc, 视力#NN, 和#CC)  (nsubj, 减退#VV, 视力#NN)  (root, ROOT#null, 减退#VV)  (ccomp, 减退#VV, 有助于#VV)  (case, 眼疾#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 眼疾#NN, 种#M)  (assmod, 治疗#NN, 眼疾#NN)  (case, 眼疾#NN, 的#DEG)  (dobj, 有助于#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        明目  改善营养性贫血  补血  补肝  改善肾功能  增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.羊肝含铁丰富，铁质是产生红血球必需的元素，一旦缺乏便会感觉疲倦，面色青白，适量进食可使皮肤红润。
+            2.羊肝中富含维生素B2，维生素B2是人体生化代谢中许多酶和辅酶的组成部分，能促进身体的代谢。
+            3.羊肝中还含有丰富的维生素A，可防止夜盲症和视力减退，有助于对多种眼疾的治疗。
+        </rawdata>
+
+        <segment>
+            羊肝  含铁  丰富  ，  铁质  是  产生  红血球  必需  的  元素  ，  一旦  缺乏  便  会  感觉  疲倦  ，  面色  青白  ，  适量  进食  可  使  皮肤  红润  。
+            羊肝  中  富含  维生素B2  ，  维生素B2  是  人体  生化  代谢  中  许多  酶和  辅酶  的  组成  部分  ，  能  促进  身体  的  代谢  。
+            羊肝  中  还  含有  丰富  的  维生素A  ，  可防止  夜盲症  和  视力  减退  ，  有助于  对  多  种  眼疾  的  治疗  。
+        </segment>
+
+        <pos>
+            羊肝#NR  含铁#VV  丰富#VA  ，#PU  铁质#NN  是#VC  产生#VV  红血球#AD  必需#VV  的#DEC  元素#NN  ，#PU  一旦#CS  缺乏#VV  便#AD  会#VV  感觉#VV  疲倦#NN  ，#PU  面色#VV  青白#NN  ，#PU  适量#AD  进食#VV  可#VV  使#VV  皮肤#NN  红润#VV  。#PU
+            羊肝#NN  中#LC  富含#VV  维生素B2#CD  ，#PU  维生素B2#CD  是#VC  人体#NN  生化#NN  代谢#NN  中#LC  许多#CD  酶和#NN  辅酶#NN  的#DEG  组成#NN  部分#NN  ，#PU  能#VV  促进#VV  身体#NN  的#DEG  代谢#NN  。#PU
+            羊肝#NN  中#LC  还#AD  含有#AD  丰富#VA  的#DEC  维生素A#NN  ，#PU  可防止#NR  夜盲症#NN  和#CC  视力#NN  减退#VV  ，#PU  有助于#VV  对#P  多#CD  种#M  眼疾#NN  的#DEG  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含铁#VV, 羊肝#NR)  (root, ROOT#null, 含铁#VV)  (ccomp, 含铁#VV, 丰富#VA)  (nsubj, 产生#VV, 铁质#NN)  (cop, 产生#VV, 是#VC)  (conj, 含铁#VV, 产生#VV)  (advmod, 必需#VV, 红血球#AD)  (relcl, 元素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 产生#VV, 元素#NN)  (advmod, 感觉#VV, 一旦#CS)  (mmod, 感觉#VV, 缺乏#VV)  (advmod, 感觉#VV, 便#AD)  (mmod, 感觉#VV, 会#VV)  (conj, 含铁#VV, 感觉#VV)  (dobj, 感觉#VV, 疲倦#NN)  (dep, 感觉#VV, 面色#VV)  (dobj, 面色#VV, 青白#NN)  (advmod, 进食#VV, 适量#AD)  (conj, 感觉#VV, 进食#VV)  (mmod, 使#VV, 可#VV)  (dep, 感觉#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 红润#VV)
+            (loc, 富含#VV, 羊肝#NN)  (case, 羊肝#NN, 中#LC)  (root, ROOT#null, 富含#VV)  (range, 富含#VV, 维生素B2#CD)  (dep, 部分#NN, 维生素B2#CD)  (cop, 部分#NN, 是#VC)  (nn, 代谢#NN, 人体#NN)  (nn, 代谢#NN, 生化#NN)  (dep, 部分#NN, 代谢#NN)  (case, 代谢#NN, 中#LC)  (nummod, 辅酶#NN, 许多#CD)  (nn, 辅酶#NN, 酶和#NN)  (assmod, 部分#NN, 辅酶#NN)  (case, 辅酶#NN, 的#DEG)  (nn, 部分#NN, 组成#NN)  (conj, 富含#VV, 部分#NN)  (mmod, 促进#VV, 能#VV)  (conj, 富含#VV, 促进#VV)  (assmod, 代谢#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (dobj, 促进#VV, 代谢#NN)
+            (loc, 丰富#VA, 羊肝#NN)  (case, 羊肝#NN, 中#LC)  (advmod, 丰富#VA, 还#AD)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素A#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 减退#VV, 维生素A#NN)  (nn, 视力#NN, 可防止#NR)  (conj, 视力#NN, 夜盲症#NN)  (cc, 视力#NN, 和#CC)  (nsubj, 减退#VV, 视力#NN)  (root, ROOT#null, 减退#VV)  (ccomp, 减退#VV, 有助于#VV)  (case, 眼疾#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 眼疾#NN, 种#M)  (assmod, 治疗#NN, 眼疾#NN)  (case, 眼疾#NN, 的#DEG)  (dobj, 有助于#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.肝是体内最大的毒物中转站和解毒器官，所以买回的鲜肝不要急于烹调，应把肝放在自来水龙头下冲洗10分钟，然后放在水中浸泡30分钟。
+            2.烹调时间不宜太短，至少应该在急火中炒5分钟以上，使肝完全变成灰褐色，看不到血丝才好。
+        </rawdata>
+
+        <segment>
+            肝是  体内  最  大  的  毒物  中转站  和  解毒  器官  ，  所以  买回  的  鲜肝  不要  急于  烹调  ，  应把肝  放在  自来水  龙头  下  冲洗  10  分钟  ，  然后  放在  水  中  浸泡  30  分钟  。
+            烹调  时间  不  宜  太短  ，  至少  应该  在  急火  中  炒  5  分钟  以上  ，  使肝  完全  变成  灰褐色  ，  看  不  到  血丝  才  好  。
+        </segment>
+
+        <pos>
+            肝是#NN  体内#NN  最#AD  大#VA  的#DEC  毒物#NN  中转站#NN  和#CC  解毒#NN  器官#NN  ，#PU  所以#AD  买回#NN  的#DEG  鲜肝#NN  不要#NN  急于#VV  烹调#VV  ，#PU  应把肝#NN  放在#NN  自来水#NN  龙头#NN  下#LC  冲洗#VV  10#CD  分钟#M  ，#PU  然后#AD  放在#VV  水#NN  中#LC  浸泡#NN  30#CD  分钟#M  。#PU
+            烹调#NN  时间#NN  不#AD  宜#NR  太短#VV  ，#PU  至少#AD  应该#VV  在#P  急火#NN  中#LC  炒#VV  5#CD  分钟#M  以上#LC  ，#PU  使肝#NN  完全#AD  变成#VV  灰褐色#NN  ，#PU  看#VV  不#AD  到#VV  血丝#AD  才#AD  好#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 体内#NN, 肝是#NN)  (nsubj, 大#VA, 体内#NN)  (advmod, 大#VA, 最#AD)  (relcl, 器官#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nn, 器官#NN, 毒物#NN)  (conj, 器官#NN, 中转站#NN)  (cc, 器官#NN, 和#CC)  (nn, 器官#NN, 解毒#NN)  (nsubj, 急于#VV, 器官#NN)  (advmod, 急于#VV, 所以#AD)  (assmod, 不要#NN, 买回#NN)  (case, 买回#NN, 的#DEG)  (nn, 不要#NN, 鲜肝#NN)  (nsubj, 急于#VV, 不要#NN)  (root, ROOT#null, 急于#VV)  (ccomp, 急于#VV, 烹调#VV)  (nn, 自来水#NN, 应把肝#NN)  (nn, 自来水#NN, 放在#NN)  (nsubj, 冲洗#VV, 自来水#NN)  (loc, 冲洗#VV, 龙头#NN)  (case, 龙头#NN, 下#LC)  (ccomp, 烹调#VV, 冲洗#VV)  (nummod, 分钟#M, 10#CD)  (range, 冲洗#VV, 分钟#M)  (advmod, 放在#VV, 然后#AD)  (dep, 急于#VV, 放在#VV)  (dep, 浸泡#NN, 水#NN)  (case, 水#NN, 中#LC)  (dobj, 放在#VV, 浸泡#NN)  (nummod, 分钟#M, 30#CD)  (range, 放在#VV, 分钟#M)
+            (nn, 时间#NN, 烹调#NN)  (nsubj, 太短#VV, 时间#NN)  (neg, 太短#VV, 不#AD)  (dep, 太短#VV, 宜#NR)  (root, ROOT#null, 太短#VV)  (advmod, 炒#VV, 至少#AD)  (mmod, 炒#VV, 应该#VV)  (case, 急火#NN, 在#P)  (prep, 炒#VV, 急火#NN)  (case, 急火#NN, 中#LC)  (ccomp, 太短#VV, 炒#VV)  (nummod, 分钟#M, 5#CD)  (loc, 炒#VV, 分钟#M)  (case, 分钟#M, 以上#LC)  (nsubj, 变成#VV, 使肝#NN)  (advmod, 变成#VV, 完全#AD)  (dep, 炒#VV, 变成#VV)  (dobj, 变成#VV, 灰褐色#NN)  (dep, 好#VA, 看#VV)  (dep, 看#VV, 不#AD)  (dep, 看#VV, 到#VV)  (advmod, 好#VA, 血丝#AD)  (advmod, 好#VA, 才#AD)  (conj, 太短#VV, 好#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081451051086.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\26 羊肝.jpg
+    </picturelocalurl>
+
+</content>

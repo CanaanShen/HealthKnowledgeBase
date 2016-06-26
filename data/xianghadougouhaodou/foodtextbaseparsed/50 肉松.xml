@@ -1,0 +1,201 @@
+<content>
+
+    <id>
+        50
+    </id>
+
+    <foodname>
+        肉松
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        肉制品
+    </secondcategory>
+
+    <alias>
+        肉绒
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肥胖者、糖尿病患者忌食
+        </rawdata>
+
+        <segment>
+            肥胖者  、  糖尿病  患者  忌食
+        </segment>
+
+        <pos>
+            肥胖者#NN  、#PU  糖尿病#NN  患者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (conj, 患者#NN, 肥胖者#NN)  (nn, 患者#NN, 糖尿病#NN)  (nn, 忌食#NN, 患者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用
+        </rawdata>
+
+        <segment>
+            一般  人均  可食用
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可食用#VV
+        </pos>
+
+        <parsing>
+            (advmod, 可食用#VV, 一般#AD)  (advmod, 可食用#VV, 人均#AD)  (root, ROOT#null, 可食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            肉松或称肉绒，通常是用猪的瘦肉或鱼肉、鸡肉除去水分后而制成的，肉松是我国著名的特产，具有营养丰富，味美可口，携带方便等特点，在中国、日本、泰国、马来西亚、新加坡都很常见。一般的肉松都是磨成了末状物，适合儿童使用。将肉松拌进粥里或蘸镘头食用。
+            肉松相传是福州一位官厨补错救急而发明的。1856年（清咸丰六年）福州盐运使刘步溪的厨师林鼎鼎，在烹调时不慎把猪肉煮得太烂，这时盐运使招待客人又催着送菜。林鼎鼎灵机一动，急忙加入各种配料，炒制成肉丝粉末端上席去。谁知客人们品尝后纷纷赞不绝口，盐运使以后每招待客人都要林鼎鼎专门烹制这道菜。后来，林鼎鼎辞去官厨回家开设店铺，专门制作油酥肉松，并持起“鼎日有”招牌，意为“鼎中日日有”，风靡榕城。福州官吏进京还把它作为贡品或礼品，于是扬名全国。
+        </rawdata>
+
+        <segment>
+            肉松  或称  肉  绒  ，  通常  是  用猪  的  瘦肉  或  鱼肉  、  鸡肉  除去  水分  后  而  制成  的  ，  肉松  是  我  国  著名  的  特产  ，  具有  营养  丰富  ，  味美  可口  ，  携带  方便  等  特点  ，  在  中国  、  日本  、  泰国  、  马来西亚  、  新加坡  都  很  常见  。  一般  的  肉松  都  是  磨成  了  末  状物  ，  适合  儿童  使用  。  将  肉松  拌进粥  里  或  蘸镘头  食用  。
+            肉松  相传  是  福州  一  位  官厨补错  救急  而  发明  的  。  1856年  （  清  咸丰  六  年  ）  福州  盐  运  使  刘步溪  的  厨师  林  鼎鼎  ，  在  烹调  时  不慎  把  猪肉  煮得  太  烂  ，  这时  盐  运  使  招待  客人  又  催  着  送  菜  。  林  鼎鼎  灵机一动  ，  急忙  加入  各  种  配料  ，  炒  制成  肉丝  粉末端  上席  去  。  谁知  客  人们  品尝  后  纷纷  赞不绝口  ，  盐  运  使  以后  每  招待  客人  都  要  林  鼎鼎  专门  烹制  这道  菜  。  后来  ，  林  鼎鼎  辞去  官厨  回家  开设  店铺  ，  专门  制作  油酥  肉松  ，  并  持  起  “  鼎  日  有  ”  招牌  ，  意  为  “  鼎  中  日日  有  ”  ，  风靡  榕城  。  福州  官吏  进京  还  把  它  作为  贡品  或  礼品  ，  于是  扬名  全  国  。
+        </segment>
+
+        <pos>
+            肉松#AD  或称#VV  肉#NN  绒#NN  ，#PU  通常#AD  是#VC  用猪#NN  的#DEG  瘦肉#NN  或#CC  鱼肉#NN  、#PU  鸡肉#NN  除去#P  水分#NN  后#LC  而#MSP  制成#VV  的#DEC  ，#PU  肉松#AD  是#VC  我#PN  国#NN  著名#VA  的#DEC  特产#NN  ，#PU  具有#VV  营养#VA  丰富#VA  ，#PU  味美#VV  可口#NN  ，#PU  携带#VV  方便#NN  等#ETC  特点#NN  ，#PU  在#P  中国#NR  、#PU  日本#NR  、#PU  泰国#NR  、#PU  马来西亚#NR  、#PU  新加坡#NR  都#AD  很#AD  常见#VA    。#PU  一般#JJ  的#DEG  肉松#NN  都#AD  是#VC  磨成#VV  了#AS  末#LC  状物#NN  ，#PU  适合#VV  儿童#NN  使用#NN    。#PU  将#AD  肉松#VV  拌进粥#NN  里#LC  或#CC  蘸镘头#AD  食用#VV    。#PU    。#PU
+            肉松#NN  相传#NN  是#VC  福州#NR  一#CD  位#M  官厨补错#NN  救急#NN  而#MSP  发明#VV  的#DEC    。#PU  1856年#NT  （#PU  清#JJ  咸丰#NN  六#CD  年#M  ）#PU  福州#NR  盐#NN  运#VV  使#VV  刘步溪#NN  的#DEG  厨师#NN  林#NN  鼎鼎#NN  ，#PU  在#P  烹调#NN  时#LC  不慎#VV  把#BA  猪肉#NN  煮得#NN  太#AD  烂#VV  ，#PU  这时#AD  盐#NN  运#VV  使#VV  招待#VV  客人#NN  又#AD  催#VV  着#AS  送#VV  菜#NN    。#PU  林#NN  鼎鼎#VV  灵机一动#CD  ，#PU  急忙#AD  加入#VV  各#DT  种#M  配料#NN  ，#PU  炒#AD  制成#VV  肉丝#NN  粉末端#NN  上席#NN  去#VV    。#PU  谁知#NN  客#NN  人们#NN  品尝#NN  后#LC  纷纷#AD  赞不绝口#VV  ，#PU  盐#NN  运#VV  使#VV  以后#AD  每#AD  招待#VV  客人#NN  都#AD  要#VV  林#NN  鼎鼎#NN  专门#AD  烹制#VV  这道#NN  菜#NN    。#PU  后来#AD  ，#PU  林#NN  鼎鼎#NN  辞去#NN  官厨#AD  回家#VV  开设#VV  店铺#NN  ，#PU  专门#AD  制作#VV  油酥#NN  肉松#NN  ，#PU  并#AD  持#VV  起#LC  ``#NN  鼎#NN  日#AD  有#VE  ''#NN  招牌#NN  ，#PU  意#NR  为#P  ``#NN  鼎#NN  中#LC  日日#AD  有#VE  ''#NN  ，#PU  风靡#VV  榕城#NN    。#PU  福州#NR  官吏#NN  进京#NN  还#AD  把#BA  它#PN  作为#VV  贡品#NN  或#CC  礼品#NN  ，#PU  于是#AD  扬名#VV  全#DT  国#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 或称#VV, 肉松#AD)  (root, ROOT#null, 或称#VV)  (nn, 绒#NN, 肉#NN)  (dobj, 或称#VV, 绒#NN)  (advmod, 制成#VV, 通常#AD)  (cop, 制成#VV, 是#VC)  (assmod, 鸡肉#NN, 用猪#NN)  (case, 用猪#NN, 的#DEG)  (conj, 鸡肉#NN, 瘦肉#NN)  (cc, 鸡肉#NN, 或#CC)  (conj, 鸡肉#NN, 鱼肉#NN)  (nsubj, 制成#VV, 鸡肉#NN)  (case, 水分#NN, 除去#P)  (prep, 制成#VV, 水分#NN)  (case, 水分#NN, 后#LC)  (prtmod, 制成#VV, 而#MSP)  (dep, 或称#VV, 制成#VV)  (mark, 制成#VV, 的#DEC)  (advmod, 特产#NN, 肉松#AD)  (cop, 特产#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nsubj, 著名#VA, 国#NN)  (relcl, 特产#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (conj, 制成#VV, 特产#NN)  (conj, 制成#VV, 具有#VV)  (nfincl, 特点#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (conj, 营养#VA, 味美#VV)  (dobj, 味美#VV, 可口#NN)  (conj, 营养#VA, 携带#VV)  (dobj, 携带#VV, 方便#NN)  (etc, 方便#NN, 等#ETC)  (dobj, 具有#VV, 特点#NN)  (case, 新加坡#NR, 在#P)  (conj, 新加坡#NR, 中国#NR)  (conj, 新加坡#NR, 日本#NR)  (conj, 新加坡#NR, 泰国#NR)  (conj, 新加坡#NR, 马来西亚#NR)  (prep, 常见#VA, 新加坡#NR)  (advmod, 常见#VA, 都#AD)  (advmod, 常见#VA, 很#AD)  (dep, 或称#VV, 常见#VA)   (assmod, 肉松#NN, 一般#JJ)  (case, 一般#JJ, 的#DEG)  (nsubj, 状物#NN, 肉松#NN)  (advmod, 状物#NN, 都#AD)  (cop, 状物#NN, 是#VC)  (dep, 状物#NN, 磨成#VV)  (asp, 磨成#VV, 了#AS)  (case, 磨成#VV, 末#LC)  (root, ROOT#null, 状物#NN)  (conj, 状物#NN, 适合#VV)  (nn, 使用#NN, 儿童#NN)  (dobj, 适合#VV, 使用#NN)   (advmod, 肉松#VV, 将#AD)  (root, ROOT#null, 肉松#VV)  (loc, 肉松#VV, 拌进粥#NN)  (case, 拌进粥#NN, 里#LC)  (cc, 肉松#VV, 或#CC)  (advmod, 食用#VV, 蘸镘头#AD)  (dep, 肉松#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (nn, 相传#NN, 肉松#NN)  (nsubj, 发明#VV, 相传#NN)  (cop, 发明#VV, 是#VC)  (nn, 救急#NN, 福州#NR)  (nummod, 位#M, 一#CD)  (clf, 救急#NN, 位#M)  (nn, 救急#NN, 官厨补错#NN)  (nsubj, 发明#VV, 救急#NN)  (prtmod, 发明#VV, 而#MSP)  (root, ROOT#null, 发明#VV)  (mark, 发明#VV, 的#DEC)   (nn, 盐#NN, 1856年#NT)  (amod, 咸丰#NN, 清#JJ)  (prnmod, 盐#NN, 咸丰#NN)  (nummod, 年#M, 六#CD)  (dep, 咸丰#NN, 年#M)  (nn, 盐#NN, 福州#NR)  (nsubj, 使#VV, 盐#NN)  (xsubj, 不慎#VV, 盐#NN)  (mmod, 使#VV, 运#VV)  (root, ROOT#null, 使#VV)  (assmod, 鼎鼎#NN, 刘步溪#NN)  (case, 刘步溪#NN, 的#DEG)  (nn, 鼎鼎#NN, 厨师#NN)  (nn, 鼎鼎#NN, 林#NN)  (dobj, 使#VV, 鼎鼎#NN)  (case, 烹调#NN, 在#P)  (prep, 不慎#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (dep, 使#VV, 不慎#VV)  (ba, 烂#VV, 把#BA)  (nn, 煮得#NN, 猪肉#NN)  (nsubj, 烂#VV, 煮得#NN)  (advmod, 烂#VV, 太#AD)  (dep, 使#VV, 烂#VV)  (advmod, 使#VV, 这时#AD)  (nsubj, 使#VV, 盐#NN)  (mmod, 使#VV, 运#VV)  (conj, 烂#VV, 使#VV)  (ccomp, 使#VV, 招待#VV)  (dobj, 招待#VV, 客人#NN)  (advmod, 催#VV, 又#AD)  (dep, 使#VV, 催#VV)  (asp, 催#VV, 着#AS)  (ccomp, 催#VV, 送#VV)  (dobj, 送#VV, 菜#NN)   (nsubj, 鼎鼎#VV, 林#NN)  (root, ROOT#null, 鼎鼎#VV)  (range, 鼎鼎#VV, 灵机一动#CD)  (advmod, 加入#VV, 急忙#AD)  (conj, 鼎鼎#VV, 加入#VV)  (det, 配料#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 加入#VV, 配料#NN)  (advmod, 制成#VV, 炒#AD)  (conj, 鼎鼎#VV, 制成#VV)  (nn, 上席#NN, 肉丝#NN)  (nn, 上席#NN, 粉末端#NN)  (dobj, 制成#VV, 上席#NN)  (dep, 鼎鼎#VV, 去#VV)   (nn, 人们#NN, 谁知#NN)  (nn, 人们#NN, 客#NN)  (nsubj, 赞不绝口#VV, 人们#NN)  (loc, 赞不绝口#VV, 品尝#NN)  (case, 品尝#NN, 后#LC)  (advmod, 赞不绝口#VV, 纷纷#AD)  (root, ROOT#null, 赞不绝口#VV)  (nsubj, 使#VV, 盐#NN)  (mmod, 使#VV, 运#VV)  (ccomp, 赞不绝口#VV, 使#VV)  (advmod, 招待#VV, 以后#AD)  (advmod, 招待#VV, 每#AD)  (dep, 要#VV, 招待#VV)  (dobj, 招待#VV, 客人#NN)  (advmod, 要#VV, 都#AD)  (relcl, 鼎鼎#NN, 要#VV)  (nn, 鼎鼎#NN, 林#NN)  (dobj, 使#VV, 鼎鼎#NN)  (advmod, 烹制#VV, 专门#AD)  (dep, 使#VV, 烹制#VV)  (nn, 菜#NN, 这道#NN)  (dobj, 烹制#VV, 菜#NN)   (advmod, 有#VE, 后来#AD)  (nn, 辞去#NN, 林#NN)  (nn, 辞去#NN, 鼎鼎#NN)  (nsubj, 回家#VV, 辞去#NN)  (advmod, 回家#VV, 官厨#AD)  (loc, 有#VE, 回家#VV)  (rcomp, 回家#VV, 开设#VV)  (dobj, 回家#VV, 店铺#NN)  (advmod, 制作#VV, 专门#AD)  (dep, 回家#VV, 制作#VV)  (nn, 肉松#NN, 油酥#NN)  (dobj, 制作#VV, 肉松#NN)  (advmod, 持#VV, 并#AD)  (dep, 回家#VV, 持#VV)  (case, 回家#VV, 起#LC)  (nn, 鼎#NN, ``#NN)  (nsubj, 有#VE, 鼎#NN)  (advmod, 有#VE, 日#AD)  (root, ROOT#null, 有#VE)  (nn, 招牌#NN, ''#NN)  (dobj, 有#VE, 招牌#NN)  (nsubj, 有#VE, 意#NR)  (case, 鼎#NN, 为#P)  (nn, 鼎#NN, ``#NN)  (prep, 有#VE, 鼎#NN)  (case, 鼎#NN, 中#LC)  (advmod, 有#VE, 日日#AD)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, ''#NN)  (dep, 有#VE, 风靡#VV)  (dobj, 风靡#VV, 榕城#NN)   (nn, 进京#NN, 福州#NR)  (nn, 进京#NN, 官吏#NN)  (nsubj, 作为#VV, 进京#NN)  (advmod, 作为#VV, 还#AD)  (ba, 作为#VV, 把#BA)  (nsubj, 作为#VV, 它#PN)  (root, ROOT#null, 作为#VV)  (conj, 礼品#NN, 贡品#NN)  (cc, 礼品#NN, 或#CC)  (dobj, 作为#VV, 礼品#NN)  (advmod, 扬名#VV, 于是#AD)  (dep, 作为#VV, 扬名#VV)  (det, 国#NN, 全#DT)  (dobj, 扬名#VV, 国#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            生津开胃肉松的主要营养成分是碳水化合物、脂肪、蛋白质和多种矿物质，胆固醇含量低，蛋白质含量高。猪肉松香味浓郁，味道鲜美，生津开胃，干软酥松，易于消化。
+        </rawdata>
+
+        <segment>
+            生  津  开胃  肉松  的  主要  营养  成分  是  碳水化合物  、  脂肪  、  蛋白质  和  多种  矿物质  ，  胆固醇  含量  低  ，  蛋白质  含量  高  。  猪肉  松  香味  浓郁  ，  味道  鲜美  ，  生津  开胃  ，  干  软  酥松  ，  易于  消化  。
+        </segment>
+
+        <pos>
+            生#VV  津#NR  开胃#NN  肉松#NN  的#DEC  主要#AD  营养#VA  成分#NN  是#VC  碳水化合物#NR  、#PU  脂肪#NR  、#PU  蛋白质#NR  和#CC  多种#NR  矿物质#NN  ，#PU  胆固醇#NN  含量#NN  低#VA  ，#PU  蛋白质#NN  含量#NN  高#VA    。#PU  猪肉#NN  松#NN  香味#AD  浓郁#VA  ，#PU  味道#NN  鲜美#NN  ，#PU  生津#AD  开胃#VA  ，#PU  干#VV  软#JJ  酥松#NN  ，#PU  易于#VV  消化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 成分#NN, 生#VV)  (nn, 肉松#NN, 津#NR)  (nn, 肉松#NN, 开胃#NN)  (dobj, 生#VV, 肉松#NN)  (mark, 生#VV, 的#DEC)  (advmod, 营养#VA, 主要#AD)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 矿物质#NN, 成分#NN)  (cop, 矿物质#NN, 是#VC)  (conj, 多种#NR, 碳水化合物#NR)  (conj, 多种#NR, 脂肪#NR)  (conj, 多种#NR, 蛋白质#NR)  (cc, 多种#NR, 和#CC)  (nn, 矿物质#NN, 多种#NR)  (root, ROOT#null, 矿物质#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 矿物质#NN, 低#VA)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 矿物质#NN, 高#VA)   (nn, 松#NN, 猪肉#NN)  (nsubj, 浓郁#VA, 松#NN)  (advmod, 浓郁#VA, 香味#AD)  (root, ROOT#null, 浓郁#VA)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 开胃#VA, 鲜美#NN)  (advmod, 开胃#VA, 生津#AD)  (conj, 浓郁#VA, 开胃#VA)  (conj, 开胃#VA, 干#VV)  (amod, 酥松#NN, 软#JJ)  (dobj, 干#VV, 酥松#NN)  (conj, 开胃#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        生津开胃  易消化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            肉松中含有大量的脂肪、碳水化合物、钠等，肉松热量都远高于瘦肉，属于高能食品。
+            每100克猪肉松含有能量373千卡，蛋白质41.8克，脂肪10.2克，碳水化合物28.6克，叶酸5.3微克，胆固醇70毫克，硫胺素0.09毫克，核黄素0.24毫克，烟酸4.7毫克，维生素E2毫克，钙3毫克，磷255毫克，钾460毫克，钠1929.2毫克，镁24毫克，铁3.3毫克，锌4.43毫克，硒9.16微克，铜0.19毫克，锰0.19毫。
+            猪肉松的主要营养成分是碳水化合物、脂肪、蛋白质和多种矿物质，胆固醇含量低，蛋白质含量高。猪肉松香味浓郁，味道鲜美，生津开胃，干软酥松，易于消化。
+            猪肉松可直接佐餐、下酒，还可作为冷盘的垫底料、围边料及组拼料等。
+        </rawdata>
+
+        <segment>
+            肉松  中  含有  大量  的  脂肪  、  碳水化合物  、  钠等  ，  肉松  热量  都  远  高于  瘦肉  ，  属于  高能  食品  。
+            每  0  克  猪肉  松  含有  能量  373千  卡  ，  蛋白质  41.8  克  ，  脂肪  10.2  克  ，  碳水化合物  28.6  克  ，  叶酸  5.3  微克  ，  胆固醇  70  毫克  ，  硫胺素  0.09  毫克  ，  核黄素  0.24  毫克  ，  烟酸  4.7  毫克  ，  维生素E2  毫克  ，  钙  3  毫克  ，  磷  255  毫克  ，  钾  460  毫克  ，  钠  1929.2  毫克  ，  镁  24  毫克  ，  铁  3.3  毫克  ，  锌  4.43  毫克  ，  硒9.16  微克  ，  铜  0.19  毫克  ，  锰  0.19  毫  。
+            猪肉  松  的  主要  营养  成分  是  碳水化合物  、  脂肪  、  蛋白质  和  多种  矿物质  ，  胆固醇  含量  低  ，  蛋白质  含量  高  。  猪肉  松  香味  浓郁  ，  味道  鲜美  ，  生津  开胃  ，  干  软  酥松  ，  易于  消化  。
+            猪肉  松  可  直接  佐餐  、  下酒  ，  还  可  作为  冷盘  的  垫底  料  、  围  边料  及  组拼  料等  。
+        </segment>
+
+        <pos>
+            肉松#NN  中#LC  含有#VV  大量#CD  的#DEG  脂肪#NR  、#PU  碳水化合物#NR  、#PU  钠等#NR  ，#PU  肉松#NN  热量#NN  都#AD  远#AD  高于#VV  瘦肉#NN  ，#PU  属于#VV  高能#JJ  食品#NN  。#PU
+            每#DT  0#CD  克#M  猪肉#NN  松#VV  含有#VV  能量#NN  373千#CD  卡#NN  ，#PU  蛋白质#VV  41.8#CD  克#M  ，#PU  脂肪#VV  10.2#CD  克#M  ，#PU  碳水化合物#VV  28.6#CD  克#M  ，#PU  叶酸#VV  5.3#CD  微克#NN  ，#PU  胆固醇#NN  70#CD  毫克#NN  ，#PU  硫胺素#VV  0.09#CD  毫克#NN  ，#PU  核黄素#VV  0.24#CD  毫克#NN  ，#PU  烟酸#VV  4.7#CD  毫克#NN  ，#PU  维生素E2#CD  毫克#NN  ，#PU  钙#NR  3#CD  毫克#NN  ，#PU  磷#NN  255#CD  毫克#NN  ，#PU  钾#NN  460#CD  毫克#NN  ，#PU  钠#NN  1929.2#CD  毫克#NN  ，#PU  镁#NN  24#CD  毫克#NN  ，#PU  铁#JJ  3.3#CD  毫克#NN  ，#PU  锌#NN  4.43#CD  毫克#NN  ，#PU  硒9#CD  .16#CD  微克#NN  ，#PU  铜#NN  0.19#CD  毫克#NN  ，#PU  锰#VV  0.19#CD  毫#AD  。#PU
+            猪肉#NN  松#NN  的#DEG  主要#AD  营养#VA  成分#NN  是#VC  碳水化合物#NR  、#PU  脂肪#NR  、#PU  蛋白质#NR  和#CC  多种#NR  矿物质#NN  ，#PU  胆固醇#NN  含量#NN  低#VA  ，#PU  蛋白质#NN  含量#NN  高#VA    。#PU  猪肉#NN  松#NN  香味#AD  浓郁#VA  ，#PU  味道#NN  鲜美#NN  ，#PU  生津#AD  开胃#VA  ，#PU  干#VV  软#JJ  酥松#NN  ，#PU  易于#VV  消化#NN    。#PU    。#PU
+            猪肉#NN  松#NN  可#VV  直接#AD  佐餐#VV  、#PU  下酒#VV  ，#PU  还#AD  可#VV  作为#VV  冷盘#NN  的#DEG  垫底#NN  料#NN  、#PU  围#VV  边料#NN  及#CC  组拼#NN  料等#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 肉松#NN)  (case, 肉松#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 钠等#NR, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 钠等#NR, 脂肪#NR)  (conj, 钠等#NR, 碳水化合物#NR)  (dobj, 含有#VV, 钠等#NR)  (nn, 热量#NN, 肉松#NN)  (nsubj, 高于#VV, 热量#NN)  (advmod, 高于#VV, 都#AD)  (advmod, 高于#VV, 远#AD)  (conj, 含有#VV, 高于#VV)  (dobj, 高于#VV, 瘦肉#NN)  (conj, 含有#VV, 属于#VV)  (amod, 食品#NN, 高能#JJ)  (dobj, 属于#VV, 食品#NN)
+            (det, 猪肉#NN, 每#DT)  (nummod, 克#M, 0#CD)  (dep, 每#DT, 克#M)  (nsubj, 含有#VV, 猪肉#NN)  (mmod, 含有#VV, 松#VV)  (root, ROOT#null, 含有#VV)  (nn, 卡#NN, 能量#NN)  (nummod, 卡#NN, 373千#CD)  (dobj, 含有#VV, 卡#NN)  (conj, 含有#VV, 蛋白质#VV)  (nummod, 克#M, 41.8#CD)  (range, 蛋白质#VV, 克#M)  (conj, 含有#VV, 脂肪#VV)  (nummod, 克#M, 10.2#CD)  (range, 脂肪#VV, 克#M)  (conj, 含有#VV, 碳水化合物#VV)  (nummod, 克#M, 28.6#CD)  (range, 碳水化合物#VV, 克#M)  (conj, 含有#VV, 叶酸#VV)  (nummod, 微克#NN, 5.3#CD)  (dep, 毫克#NN, 微克#NN)  (nn, 毫克#NN, 胆固醇#NN)  (nummod, 毫克#NN, 70#CD)  (dobj, 叶酸#VV, 毫克#NN)  (conj, 含有#VV, 硫胺素#VV)  (nummod, 毫克#NN, 0.09#CD)  (dobj, 硫胺素#VV, 毫克#NN)  (conj, 含有#VV, 核黄素#VV)  (nummod, 毫克#NN, 0.24#CD)  (dobj, 核黄素#VV, 毫克#NN)  (conj, 含有#VV, 烟酸#VV)  (nummod, 毫克#NN, 4.7#CD)  (dep, 毫克#NN, 毫克#NN)  (nummod, 毫克#NN, 维生素E2#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 钙#NR)  (nummod, 毫克#NN, 3#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 磷#NN)  (nummod, 毫克#NN, 255#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 钾#NN)  (nummod, 毫克#NN, 460#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 钠#NN)  (nummod, 毫克#NN, 1929.2#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 镁#NN)  (nummod, 毫克#NN, 24#CD)  (dep, 毫克#NN, 毫克#NN)  (amod, 3.3#CD, 铁#JJ)  (nummod, 毫克#NN, 3.3#CD)  (dep, 毫克#NN, 毫克#NN)  (nn, 毫克#NN, 锌#NN)  (nummod, 毫克#NN, 4.43#CD)  (dep, 毫克#NN, 毫克#NN)  (nummod, 微克#NN, 硒9#CD)  (nummod, 微克#NN, .16#CD)  (dep, 毫克#NN, 微克#NN)  (nn, 毫克#NN, 铜#NN)  (nummod, 毫克#NN, 0.19#CD)  (dobj, 烟酸#VV, 毫克#NN)  (conj, 含有#VV, 锰#VV)  (range, 锰#VV, 0.19#CD)  (advmod, 含有#VV, 毫#AD)
+            (nn, 松#NN, 猪肉#NN)  (assmod, 成分#NN, 松#NN)  (case, 松#NN, 的#DEG)  (advmod, 营养#VA, 主要#AD)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 矿物质#NN, 成分#NN)  (cop, 矿物质#NN, 是#VC)  (conj, 多种#NR, 碳水化合物#NR)  (conj, 多种#NR, 脂肪#NR)  (conj, 多种#NR, 蛋白质#NR)  (cc, 多种#NR, 和#CC)  (nn, 矿物质#NN, 多种#NR)  (root, ROOT#null, 矿物质#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 矿物质#NN, 低#VA)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 矿物质#NN, 高#VA)   (nn, 松#NN, 猪肉#NN)  (nsubj, 浓郁#VA, 松#NN)  (advmod, 浓郁#VA, 香味#AD)  (root, ROOT#null, 浓郁#VA)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 开胃#VA, 鲜美#NN)  (advmod, 开胃#VA, 生津#AD)  (conj, 浓郁#VA, 开胃#VA)  (conj, 开胃#VA, 干#VV)  (amod, 酥松#NN, 软#JJ)  (dobj, 干#VV, 酥松#NN)  (conj, 开胃#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)   (root, ROOT#null, null#null)
+            (nn, 松#NN, 猪肉#NN)  (nsubj, 佐餐#VV, 松#NN)  (mmod, 佐餐#VV, 可#VV)  (advmod, 佐餐#VV, 直接#AD)  (root, ROOT#null, 佐餐#VV)  (dep, 佐餐#VV, 下酒#VV)  (advmod, 作为#VV, 还#AD)  (mmod, 作为#VV, 可#VV)  (dep, 佐餐#VV, 作为#VV)  (assmod, 料#NN, 冷盘#NN)  (case, 冷盘#NN, 的#DEG)  (nn, 料#NN, 垫底#NN)  (dobj, 作为#VV, 料#NN)  (dep, 佐餐#VV, 围#VV)  (conj, 料等#NN, 边料#NN)  (cc, 料等#NN, 及#CC)  (nn, 料等#NN, 组拼#NN)  (dobj, 围#VV, 料等#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            使用方法：猪肉松可直接佐餐、下酒，还可作为冷盘的垫底料、围边料及组拼料等。
+            制作方法：将瘦肉洗净，切成小方粒，放火锅内加清水，用中火煮至剩下半杯肉汁时，猪肉已烂熟。将熟肉和余汁取出放锅中，用慢火不断炒拌，然后加入绍酒、生抽、沙糖等调味，炒至肉粒发松时即成。炒肉松时切忌大火，以免烧焦而有苦味。
+            保存条件:常温保存,避免高温、日照、开封后尽快食用完毕为佳。
+        </rawdata>
+
+        <segment>
+            使用  方法  ：  猪肉  松  可  直接  佐餐  、  下酒  ，  还  可  作为  冷盘  的  垫底  料  、  围  边料  及  组拼  料等  。
+            制作  方法  ：  将  瘦肉  洗净  ，  切成  小  方粒  ，  放火  锅  内  加  清水  ，  用  中  火  煮  至  剩下  半  杯  肉汁  时  ，  猪肉  已  烂熟  。  将  熟肉  和  余汁  取出  放  锅中  ，  用  慢火  不断  炒拌  ，  然后  加入  绍酒  、  生  抽  、  沙糖  等  调味  ，  炒  至  肉  粒发松  时  即  成  。  炒  肉松  时  切忌  大火  ，  以免  烧焦  而  有  苦味  。
+            保存  条件  :  常温  保存  ,  避免  高温  、  日照  、  开封  后  尽快  食用  完毕  为佳  。
+        </segment>
+
+        <pos>
+            使用#VV  方法#NN  ：#PU  猪肉#VV  松#NN  可#VV  直接#AD  佐餐#VA  、#PU  下酒#VA  ，#PU  还#AD  可#VV  作为#VV  冷盘#NN  的#DEC  垫底#NN  料#NN  、#PU  围#VV  边料#NN  及#CC  组拼#NN  料等#NN  。#PU
+            制作#VV  方法#NN  ：#PU  将#AD  瘦肉#VV  洗净#NN  ，#PU  切成#VV  小#JJ  方粒#NN  ，#PU  放火#NN  锅#NN  内#LC  加#VV  清水#NN  ，#PU  用#P  中#NR  火#NN  煮#VV  至#P  剩下#VV  半#CD  杯#NN  肉汁#NN  时#LC  ，#PU  猪肉#NN  已#AD  烂熟#VV    。#PU  将#BA  熟肉#NR  和#CC  余汁#NR  取出#VV  放#VV  锅中#NN  ，#PU  用#P  慢火#NN  不断#AD  炒拌#VV  ，#PU  然后#AD  加入#VV  绍酒#NN  、#PU  生#VV  抽#NR  、#PU  沙糖#NR  等#ETC  调味#NN  ，#PU  炒#AD  至#P  肉#NN  粒发松#NN  时#LC  即#AD  成#VV    。#PU  炒#NN  肉松#NN  时#LC  切忌#VV  大火#NN  ，#PU  以免#VV  烧焦#VV  而#MSP  有#VE  苦味#NN    。#PU    。#PU
+            保存#NN  条件#NN  :#NN  常温#NN  保存#NN  ,#NN  避免#VV  高温#NN  、#PU  日照#NR  、#PU  开封#NN  后#LC  尽快#AD  食用#VV  完毕#NN  为佳#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 使用#VV)  (dobj, 使用#VV, 方法#NN)  (conj, 使用#VV, 猪肉#VV)  (nsubj, 佐餐#VA, 松#NN)  (mmod, 佐餐#VA, 可#VV)  (advmod, 佐餐#VA, 直接#AD)  (relcl, 料#NN, 佐餐#VA)  (dep, 佐餐#VA, 下酒#VA)  (advmod, 作为#VV, 还#AD)  (mmod, 作为#VV, 可#VV)  (dep, 佐餐#VA, 作为#VV)  (dobj, 作为#VV, 冷盘#NN)  (mark, 佐餐#VA, 的#DEC)  (nn, 料#NN, 垫底#NN)  (dobj, 猪肉#VV, 料#NN)  (conj, 使用#VV, 围#VV)  (conj, 料等#NN, 边料#NN)  (cc, 料等#NN, 及#CC)  (nn, 料等#NN, 组拼#NN)  (dobj, 围#VV, 料等#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 制作#VV)  (dobj, 制作#VV, 方法#NN)  (advmod, 瘦肉#VV, 将#AD)  (conj, 制作#VV, 瘦肉#VV)  (dobj, 瘦肉#VV, 洗净#NN)  (conj, 制作#VV, 切成#VV)  (amod, 方粒#NN, 小#JJ)  (dobj, 切成#VV, 方粒#NN)  (nn, 锅#NN, 放火#NN)  (loc, 加#VV, 锅#NN)  (case, 锅#NN, 内#LC)  (conj, 制作#VV, 加#VV)  (dobj, 加#VV, 清水#NN)  (case, 火#NN, 用#P)  (nn, 火#NN, 中#NR)  (prep, 煮#VV, 火#NN)  (conj, 制作#VV, 煮#VV)  (case, 剩下#VV, 至#P)  (prep, 烂熟#VV, 剩下#VV)  (nummod, 杯#NN, 半#CD)  (nn, 肉汁#NN, 杯#NN)  (dobj, 剩下#VV, 肉汁#NN)  (case, 剩下#VV, 时#LC)  (nsubj, 烂熟#VV, 猪肉#NN)  (advmod, 烂熟#VV, 已#AD)  (dep, 制作#VV, 烂熟#VV)   (ba, 放#VV, 将#BA)  (conj, 余汁#NR, 熟肉#NR)  (cc, 余汁#NR, 和#CC)  (nsubj, 放#VV, 余汁#NR)  (mmod, 放#VV, 取出#VV)  (root, ROOT#null, 放#VV)  (dobj, 放#VV, 锅中#NN)  (case, 慢火#NN, 用#P)  (prep, 炒拌#VV, 慢火#NN)  (advmod, 炒拌#VV, 不断#AD)  (dep, 放#VV, 炒拌#VV)  (advmod, 加入#VV, 然后#AD)  (dep, 放#VV, 加入#VV)  (dobj, 加入#VV, 绍酒#NN)  (conj, 加入#VV, 生#VV)  (conj, 沙糖#NR, 抽#NR)  (nn, 调味#NN, 沙糖#NR)  (etc, 沙糖#NR, 等#ETC)  (dobj, 生#VV, 调味#NN)  (advmod, 成#VV, 炒#AD)  (case, 粒发松#NN, 至#P)  (nn, 粒发松#NN, 肉#NN)  (prep, 成#VV, 粒发松#NN)  (case, 粒发松#NN, 时#LC)  (advmod, 成#VV, 即#AD)  (dep, 放#VV, 成#VV)   (nsubj, 切忌#VV, 炒#NN)  (loc, 切忌#VV, 肉松#NN)  (case, 肉松#NN, 时#LC)  (root, ROOT#null, 切忌#VV)  (dobj, 切忌#VV, 大火#NN)  (conj, 切忌#VV, 以免#VV)  (ccomp, 以免#VV, 烧焦#VV)  (prtmod, 有#VE, 而#MSP)  (dep, 以免#VV, 有#VE)  (dobj, 有#VE, 苦味#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, null#null)
+            (nn, ,#NN, 保存#NN)  (nn, ,#NN, 条件#NN)  (nn, ,#NN, 常温#NN)  (nn, ,#NN, 保存#NN)  (loc, 食用#VV, 避免#VV)  (conj, 开封#NN, 高温#NN)  (conj, 开封#NN, 日照#NR)  (dobj, 避免#VV, 开封#NN)  (case, 避免#VV, 后#LC)  (advmod, 食用#VV, 尽快#AD)  (root, ROOT#null, 食用#VV)  (nn, 为佳#NN, 完毕#NN)  (dobj, 食用#VV, 为佳#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081711279865.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\50 肉松.jpg
+    </picturelocalurl>
+
+</content>

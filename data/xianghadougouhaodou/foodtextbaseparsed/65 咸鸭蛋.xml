@@ -1,0 +1,354 @@
+<content>
+
+    <id>
+        65
+    </id>
+
+    <foodname>
+        咸鸭蛋
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        蛋类
+    </secondcategory>
+
+    <alias>
+        青蛋
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、脾阳不足、寒湿下痢者忌食；高血压、糖尿病患者、心血管病、肝肾疾病患者慎食。
+        </rawdata>
+
+        <segment>
+            孕妇  、  脾阳  不足  、  寒湿  下  痢者  忌食  ；  高血压  、  糖尿病  患者  、  心血管病  、  肝肾  疾病  患者  慎食  。
+        </segment>
+
+        <pos>
+            孕妇#NN  、#PU  脾阳#NN  不足#NN  、#PU  寒湿#NN  下#LC  痢者#NR  忌食#VV  ；#PU  高血压#NN  、#PU  糖尿病#NN  患者#NN  、#PU  心血管病#NN  、#PU  肝肾#NN  疾病#NN  患者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 寒湿#NN, 孕妇#NN)  (nn, 寒湿#NN, 脾阳#NN)  (conj, 寒湿#NN, 不足#NN)  (loc, 忌食#VV, 寒湿#NN)  (case, 寒湿#NN, 下#LC)  (nsubj, 忌食#VV, 痢者#NR)  (root, ROOT#null, 忌食#VV)  (conj, 疾病#NN, 高血压#NN)  (nn, 患者#NN, 糖尿病#NN)  (conj, 疾病#NN, 患者#NN)  (conj, 疾病#NN, 心血管病#NN)  (nn, 疾病#NN, 肝肾#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 慎食#VV, 患者#NN)  (ccomp, 忌食#VV, 慎食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜阴虚火旺者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  阴虚  火  旺  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  阴虚#NN  火#NN  旺#VV  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 火#NN, 阴虚#NN)  (dobj, 适宜#VV, 火#NN)  (conj, 适宜#VV, 旺#VV)  (dobj, 旺#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                190
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                12.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                12.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                647
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                134
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                6.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                118
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                231
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                184
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2706.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                24.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            咸鸭蛋是指以新鲜鸭蛋为主要原料经过腌制而成的再制蛋，营养丰富，富含脂肪、蛋白质及人体所需的各种氨基酸、钙、磷、铁、各种微量元素、维生素等，易被人体吸收，咸味适中，老少皆宜。蛋壳呈青色，外观圆润光滑，又叫“青蛋”。咸鸭蛋是一种风味特殊、食用方便的再制蛋，咸鸭蛋是佐餐佳品，色、香、味均十分诱人。
+            咸鸭蛋的食用历史悠久，早在南北朝时的《齐民要术》中就有记述：“浸鸭子一月，煮而食之，酒食具用。”说的就是咸鸭蛋。其后历代均有记载。北宋时期市场有售，见《东京梦华录》。
+        </rawdata>
+
+        <segment>
+            咸鸭蛋  是  指  以  新鲜  鸭蛋  为  主要  原料  经过  腌制  而  成  的  再制蛋  ，  营养  丰富  ，  富含  脂肪  、  蛋白质  及  人体  所  需  的  各  种  氨基酸  、  钙  、  磷  、  铁  、  各  种  微量  元素  、  维生素  等  ，  易被  人体  吸收  ，  咸味  适中  ，  老少皆宜  。  蛋壳  呈  青色  ，  外观  圆润  光滑  ，  又  叫  “  青蛋  ”  。  咸鸭蛋  是  一  种  风味  特殊  、  食用  方便  的  再制蛋  ，  咸鸭蛋  是  佐餐  佳品  ，  色  、  香  、  味  均  十分  诱人  。
+            咸鸭蛋  的  食用  历史  悠久  ，  早  在  南北朝  时  的  《  齐民  要  术  》  中  就  有  记述  ：  “  浸  鸭子  一月  ，  煮而食之  ，  酒  食具  用  。  ”  说  的  就  是  咸鸭蛋  。  其后  历代  均  有  记载  。  北宋  时期  市场  有售  ，  见  《  东京  梦华录  》  。
+        </segment>
+
+        <pos>
+            咸鸭蛋#NN  是#VC  指#VV  以#P  新鲜#JJ  鸭蛋#NN  为#VV  主要#JJ  原料#NN  经过#P  腌制#NN  而#MSP  成#VV  的#DEC  再制蛋#NN  ，#PU  营养#VA  丰富#VA  ，#PU  富含#VV  脂肪#NR  、#PU  蛋白质#NR  及#CC  人体#NR  所#MSP  需#VV  的#DEC  各#DT  种#M  氨基酸#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  各#DT  种#M  微量#NN  元素#NN  、#PU  维生素#NN  等#ETC  ，#PU  易被#AD  人体#AD  吸收#VV  ，#PU  咸味#VV  适中#NN  ，#PU  老少皆宜#VV    。#PU  蛋壳#AD  呈#VV  青色#NN  ，#PU  外观#VV  圆润#NN  光滑#NN  ，#PU  又#AD  叫#VV  ``#NN  青蛋#NN  ''#NN    。#PU  咸鸭蛋#NN  是#VC  一#CD  种#M  风味#AD  特殊#VA  、#PU  食用#VV  方便#NN  的#DEC  再制蛋#NN  ，#PU  咸鸭蛋#NN  是#VC  佐餐#NN  佳品#NN  ，#PU  色#NN  、#PU  香#NN  、#PU  味#NN  均#AD  十分#AD  诱人#VV    。#PU    。#PU
+            咸鸭蛋#NN  的#DEG  食用#VV  历史#NN  悠久#VA  ，#PU  早#AD  在#P  南北朝#NN  时#LC  的#DEG  齐民#NN  要#VV  术#NN  中#LC  就#AD  有#VE  记述#NN  ：#PU  ``#NN  浸#NN  鸭子#VV  一月#NT  ，#PU  煮而食之#NN  ，#PU  酒#NN  食具#AD  用#VV    。#PU  ''#AD  说#VV  的#DEC  就#AD  是#VC  咸鸭蛋#NN    。#PU  其后#NN  历代#NN  均#AD  有#VE  记载#NN    。#PU  北宋#NN  时期#NN  市场#NN  有售#VV  ，#PU  见#VV  东京#NR  梦华录#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 指#VV, 咸鸭蛋#NN)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (case, 鸭蛋#NN, 以#P)  (amod, 鸭蛋#NN, 新鲜#JJ)  (prep, 为#VV, 鸭蛋#NN)  (relcl, 再制蛋#NN, 为#VV)  (amod, 原料#NN, 主要#JJ)  (dobj, 为#VV, 原料#NN)  (case, 腌制#NN, 经过#P)  (prep, 成#VV, 腌制#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 为#VV, 成#VV)  (mark, 为#VV, 的#DEC)  (dobj, 指#VV, 再制蛋#NN)  (conj, 指#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (conj, 指#VV, 富含#VV)  (conj, 人体#NR, 脂肪#NR)  (conj, 人体#NR, 蛋白质#NR)  (cc, 人体#NR, 及#CC)  (nn, 维生素#NN, 人体#NR)  (prtmod, 需#VV, 所#MSP)  (relcl, 人体#NR, 需#VV)  (relcl, 维生素#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 铁#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 铁#NN, 氨基酸#NN)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (det, 微量#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 元素#NN, 微量#NN)  (conj, 维生素#NN, 元素#NN)  (dobj, 富含#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (advmod, 吸收#VV, 易被#AD)  (advmod, 吸收#VV, 人体#AD)  (conj, 指#VV, 吸收#VV)  (conj, 指#VV, 咸味#VV)  (dobj, 咸味#VV, 适中#NN)  (conj, 指#VV, 老少皆宜#VV)   (advmod, 呈#VV, 蛋壳#AD)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 青色#NN)  (dep, 呈#VV, 外观#VV)  (nn, 光滑#NN, 圆润#NN)  (dobj, 外观#VV, 光滑#NN)  (advmod, 叫#VV, 又#AD)  (conj, 呈#VV, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 青蛋#NN)  (dobj, 叫#VV, ''#NN)   (nsubj, 再制蛋#NN, 咸鸭蛋#NN)  (cop, 再制蛋#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 再制蛋#NN, 种#M)  (advmod, 特殊#VA, 风味#AD)  (relcl, 再制蛋#NN, 特殊#VA)  (dep, 特殊#VA, 食用#VV)  (dobj, 食用#VV, 方便#NN)  (mark, 特殊#VA, 的#DEC)  (root, ROOT#null, 再制蛋#NN)  (nsubj, 佳品#NN, 咸鸭蛋#NN)  (cop, 佳品#NN, 是#VC)  (nn, 佳品#NN, 佐餐#NN)  (conj, 再制蛋#NN, 佳品#NN)  (conj, 味#NN, 色#NN)  (conj, 味#NN, 香#NN)  (nsubj, 诱人#VV, 味#NN)  (advmod, 诱人#VV, 均#AD)  (advmod, 诱人#VV, 十分#AD)  (conj, 再制蛋#NN, 诱人#VV)   (root, ROOT#null, null#null)
+            (assmod, 历史#NN, 咸鸭蛋#NN)  (case, 咸鸭蛋#NN, 的#DEG)  (nfincl, 历史#NN, 食用#VV)  (nsubj, 悠久#VA, 历史#NN)  (root, ROOT#null, 悠久#VA)  (assmod, 齐民#NN, 早#AD)  (case, 南北朝#NN, 在#P)  (dep, 早#AD, 南北朝#NN)  (case, 南北朝#NN, 时#LC)  (case, 早#AD, 的#DEG)  (nsubj, 有#VE, 齐民#NN)  (mmod, 有#VE, 要#VV)  (loc, 有#VE, 术#NN)  (case, 术#NN, 中#LC)  (advmod, 有#VE, 就#AD)  (conj, 悠久#VA, 有#VE)  (dobj, 有#VE, 记述#NN)  (nn, 浸#NN, ``#NN)  (nsubj, 鸭子#VV, 浸#NN)  (conj, 悠久#VA, 鸭子#VV)  (dobj, 鸭子#VV, 一月#NT)  (nsubj, 用#VV, 煮而食之#NN)  (nsubj, 用#VV, 酒#NN)  (advmod, 用#VV, 食具#AD)  (conj, 悠久#VA, 用#VV)   (advmod, 说#VV, ''#AD)  (nsubj, 咸鸭蛋#NN, 说#VV)  (mark, 说#VV, 的#DEC)  (advmod, 咸鸭蛋#NN, 就#AD)  (cop, 咸鸭蛋#NN, 是#VC)  (root, ROOT#null, 咸鸭蛋#NN)   (nn, 历代#NN, 其后#NN)  (nsubj, 有#VE, 历代#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 记载#NN)   (nn, 市场#NN, 北宋#NN)  (nn, 市场#NN, 时期#NN)  (nsubj, 有售#VV, 市场#NN)  (root, ROOT#null, 有售#VV)  (ccomp, 有售#VV, 见#VV)  (nn, 梦华录#NN, 东京#NR)  (dobj, 见#VV, 梦华录#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.清肺火、降阴火
+            咸鸭蛋清肺火、降阴火功能比未腌制的鸭蛋更胜一筹，煮食可治愈泻痢。其中咸蛋黄油可治小儿积食，外敷可治烫伤、湿疹。
+            2.清热美肤
+            有滋阴、清肺、丰肌、泽肤、除热等功效。
+        </rawdata>
+
+        <segment>
+            清  肺  火  、  降  阴  火
+            咸鸭蛋  清  肺  火  、  降  阴  火  功能  比  未  腌制  的  鸭蛋  更胜一筹  ，  煮食  可  治愈  泻痢  。  其中  咸蛋  黄油  可治  小儿  积食  ，  外敷  可治  烫伤  、  湿疹  。
+            清热  美肤
+            有  滋阴  、  清  肺  、  丰肌  、  泽肤  、  除热  等  功效  。
+        </segment>
+
+        <pos>
+            清#JJ  肺#NN  火#NN  、#PU  降#NN  阴#NN  火#NN
+            咸鸭蛋#NR  清#JJ  肺#NN  火#NN  、#PU  降#NN  阴#VA  火#NN  功能#NN  比#P  未#AD  腌制#VV  的#DEC  鸭蛋#VV  更胜一筹#CD  ，#PU  煮食#AD  可#VV  治愈#VV  泻痢#NN    。#PU  其中#NN  咸蛋#AD  黄油#VV  可治#NN  小儿#NN  积食#NN  ，#PU  外敷#VV  可治#NN  烫伤#NN  、#PU  湿疹#NN    。#PU    。#PU
+            清热#NN  美肤#VV
+            有#VE  滋阴#NR  、#PU  清#JJ  肺#NN  、#PU  丰肌#NR  、#PU  泽肤#NR  、#PU  除热#NR  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 肺#NN, 清#JJ)  (nn, 火#NN, 肺#NN)  (conj, 火#NN, 火#NN)  (nn, 火#NN, 降#NN)  (nn, 火#NN, 阴#NN)  (root, ROOT#null, 火#NN)
+            (nn, 肺#NN, 咸鸭蛋#NR)  (amod, 肺#NN, 清#JJ)  (nn, 降#NN, 肺#NN)  (conj, 降#NN, 火#NN)  (nsubj, 阴#VA, 降#NN)  (dep, 鸭蛋#VV, 阴#VA)  (nn, 功能#NN, 火#NN)  (nsubj, 鸭蛋#VV, 功能#NN)  (case, 腌制#VV, 比#P)  (advmod, 腌制#VV, 未#AD)  (prep, 鸭蛋#VV, 腌制#VV)  (mark, 腌制#VV, 的#DEC)  (root, ROOT#null, 鸭蛋#VV)  (range, 鸭蛋#VV, 更胜一筹#CD)  (advmod, 治愈#VV, 煮食#AD)  (mmod, 治愈#VV, 可#VV)  (conj, 鸭蛋#VV, 治愈#VV)  (dobj, 治愈#VV, 泻痢#NN)   (nsubj, 黄油#VV, 其中#NN)  (advmod, 黄油#VV, 咸蛋#AD)  (root, ROOT#null, 黄油#VV)  (nn, 积食#NN, 可治#NN)  (nn, 积食#NN, 小儿#NN)  (dobj, 黄油#VV, 积食#NN)  (conj, 黄油#VV, 外敷#VV)  (nn, 湿疹#NN, 可治#NN)  (conj, 湿疹#NN, 烫伤#NN)  (dobj, 外敷#VV, 湿疹#NN)   (root, ROOT#null, null#null)
+            (nsubj, 美肤#VV, 清热#NN)  (root, ROOT#null, 美肤#VV)
+            (root, ROOT#null, 有#VE)  (conj, 除热#NR, 滋阴#NR)  (amod, 肺#NN, 清#JJ)  (conj, 除热#NR, 肺#NN)  (conj, 除热#NR, 丰肌#NR)  (conj, 除热#NR, 泽肤#NR)  (nn, 功效#NN, 除热#NR)  (etc, 除热#NR, 等#ETC)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善营养性贫血  止泻  平肝  清肺  补阴
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.咸蛋中钙质、铁质等无机盐含量丰富，含钙质量、含铁质量比鸡蛋、鲜鸭蛋都高。
+            2.咸蛋中部分蛋白质被分解为氨基酸，由于盐腌，使蛋内盐份增加，蛋内无机盐也随之略增。生蛋黄中的脂肪由于与蛋白质结合在一起，看不出含有油脂，腌制时间久了，蛋白质会变性，并与脂肪分离，脂肪聚集在一起就成了蛋黄油，蛋黄中带有红黄色卵黄素及胡萝卜素，溶与蛋黄油呈红黄色，增加咸蛋的感官性状，咸蛋出油是咸蛋已腌好的标志。所以咸蛋与鲜蛋的营养价值基本相同。
+        </rawdata>
+
+        <segment>
+            咸蛋  中  钙质  、  铁质  等  无机盐  含量  丰富  ，  含钙  质量  、  含铁  质量  比  鸡蛋  、  鲜  鸭蛋  都  高  。
+            咸蛋  中  部分  蛋白质  被  分解  为  氨基酸  ，  由于  盐腌  ，  使  蛋  内  盐份  增加  ，  蛋  内  无机盐  也  随之  略  增  。  生蛋  黄中  的  脂肪  由于  与  蛋白质  结合  在一起  ，  看  不  出  含有  油脂  ，  腌制  时间  久了  ，  蛋白质  会  变性  ，  并  与  脂肪  分离  ，  脂肪  聚集  在一起  就  成  了  蛋黄  油  ，  蛋黄  中  带有  红黄色  卵黄  素  及  胡萝卜素  ，  溶  与  蛋黄  油  呈  红黄色  ，  增加  咸蛋  的  感官  性状  ，  咸蛋  出油  是  咸蛋  已  腌好  的  标志  。  所以  咸蛋  与  鲜蛋  的  营养  价值  基本  相同  。
+        </segment>
+
+        <pos>
+            咸蛋#NN  中#LC  钙质#NR  、#PU  铁质#NR  等#ETC  无机盐#NN  含量#NN  丰富#VA  ，#PU  含钙#NN  质量#NN  、#PU  含铁#NN  质量#NN  比#P  鸡蛋#NN  、#PU  鲜#NN  鸭蛋#NN  都#AD  高#VA  。#PU
+            咸蛋#NN  中#LC  部分#CD  蛋白质#NN  被#SB  分解#VV  为#P  氨基酸#VV  ，#PU  由于#P  盐腌#NN  ，#PU  使#VV  蛋#NN  内#LC  盐份#AD  增加#VV  ，#PU  蛋#NN  内#LC  无机盐#NN  也#AD  随之#AD  略#AD  增#VV    。#PU  生蛋#NN  黄中#NN  的#DEG  脂肪#NN  由于#P  与#P  蛋白质#NR  结合#VV  在一起#AD  ，#PU  看#VV  不#AD  出#VV  含有#NN  油脂#NN  ，#PU  腌制#VV  时间#NN  久了#NN  ，#PU  蛋白质#AD  会#VV  变性#NN  ，#PU  并#CC  与#P  脂肪#NR  分离#VV  ，#PU  脂肪#AD  聚集#VV  在一起#AD  就#AD  成#VV  了#AS  蛋黄#NN  油#NN  ，#PU  蛋黄#NN  中#LC  带有#VV  红黄色#NN  卵黄#NN  素#AD  及#CC  胡萝卜素#VV  ，#PU  溶#AD  与#P  蛋黄#NN  油#NN  呈#VV  红黄色#NN  ，#PU  增加#VV  咸蛋#NN  的#DEC  感官#NN  性状#NN  ，#PU  咸蛋#VV  出油#NN  是#VC  咸蛋#CD  已#AD  腌好#VV  的#DEC  标志#NN    。#PU  所以#AD  咸蛋#NN  与#P  鲜蛋#NN  的#DEG  营养#VA  价值#NN  基本#AD  相同#VA    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 咸蛋#NN)  (case, 咸蛋#NN, 中#LC)  (conj, 铁质#NR, 钙质#NR)  (nn, 含量#NN, 铁质#NR)  (etc, 铁质#NR, 等#ETC)  (nn, 含量#NN, 无机盐#NN)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)  (nn, 质量#NN, 含钙#NN)  (conj, 质量#NN, 质量#NN)  (nn, 质量#NN, 含铁#NN)  (nsubj, 高#VA, 质量#NN)  (case, 鸭蛋#NN, 比#P)  (conj, 鲜#NN, 鸡蛋#NN)  (nn, 鸭蛋#NN, 鲜#NN)  (prep, 高#VA, 鸭蛋#NN)  (advmod, 高#VA, 都#AD)  (conj, 丰富#VA, 高#VA)
+            (dep, 蛋白质#NN, 咸蛋#NN)  (case, 咸蛋#NN, 中#LC)  (nummod, 蛋白质#NN, 部分#CD)  (nsubjpass, 分解#VV, 蛋白质#NN)  (auxpass, 分解#VV, 被#SB)  (root, ROOT#null, 分解#VV)  (case, 氨基酸#VV, 为#P)  (prep, 分解#VV, 氨基酸#VV)  (case, 盐腌#NN, 由于#P)  (prep, 使#VV, 盐腌#NN)  (ccomp, 氨基酸#VV, 使#VV)  (loc, 增加#VV, 蛋#NN)  (case, 蛋#NN, 内#LC)  (advmod, 增加#VV, 盐份#AD)  (ccomp, 使#VV, 增加#VV)  (loc, 增#VV, 蛋#NN)  (case, 蛋#NN, 内#LC)  (nsubj, 增#VV, 无机盐#NN)  (advmod, 增#VV, 也#AD)  (advmod, 增#VV, 随之#AD)  (advmod, 增#VV, 略#AD)  (conj, 增加#VV, 增#VV)   (nn, 黄中#NN, 生蛋#NN)  (assmod, 脂肪#NN, 黄中#NN)  (case, 黄中#NN, 的#DEG)  (nsubj, 标志#NN, 脂肪#NN)  (case, 结合#VV, 由于#P)  (case, 蛋白质#NR, 与#P)  (prep, 结合#VV, 蛋白质#NR)  (prep, 标志#NN, 结合#VV)  (advmod, 结合#VV, 在一起#AD)  (mmod, 出#VV, 看#VV)  (neg, 出#VV, 不#AD)  (conj, 结合#VV, 出#VV)  (nn, 油脂#NN, 含有#NN)  (dobj, 出#VV, 油脂#NN)  (conj, 结合#VV, 腌制#VV)  (nn, 久了#NN, 时间#NN)  (dobj, 腌制#VV, 久了#NN)  (advmod, 会#VV, 蛋白质#AD)  (conj, 结合#VV, 会#VV)  (dobj, 会#VV, 变性#NN)  (cc, 结合#VV, 并#CC)  (case, 脂肪#NR, 与#P)  (prep, 分离#VV, 脂肪#NR)  (conj, 结合#VV, 分离#VV)  (advmod, 成#VV, 脂肪#AD)  (mmod, 成#VV, 聚集#VV)  (advmod, 成#VV, 在一起#AD)  (advmod, 成#VV, 就#AD)  (conj, 结合#VV, 成#VV)  (asp, 成#VV, 了#AS)  (nn, 油#NN, 蛋黄#NN)  (dobj, 成#VV, 油#NN)  (loc, 带有#VV, 蛋黄#NN)  (case, 蛋黄#NN, 中#LC)  (conj, 结合#VV, 带有#VV)  (nn, 卵黄#NN, 红黄色#NN)  (nsubj, 胡萝卜素#VV, 卵黄#NN)  (advmod, 胡萝卜素#VV, 素#AD)  (cc, 胡萝卜素#VV, 及#CC)  (relcl, 性状#NN, 胡萝卜素#VV)  (advmod, 呈#VV, 溶#AD)  (case, 油#NN, 与#P)  (nn, 油#NN, 蛋黄#NN)  (prep, 呈#VV, 油#NN)  (conj, 胡萝卜素#VV, 呈#VV)  (dobj, 呈#VV, 红黄色#NN)  (dep, 胡萝卜素#VV, 增加#VV)  (dobj, 增加#VV, 咸蛋#NN)  (mark, 胡萝卜素#VV, 的#DEC)  (nn, 性状#NN, 感官#NN)  (dobj, 带有#VV, 性状#NN)  (conj, 结合#VV, 咸蛋#VV)  (dobj, 咸蛋#VV, 出油#NN)  (cop, 标志#NN, 是#VC)  (nummod, 标志#NN, 咸蛋#CD)  (advmod, 腌好#VV, 已#AD)  (relcl, 标志#NN, 腌好#VV)  (mark, 腌好#VV, 的#DEC)  (root, ROOT#null, 标志#NN)   (advmod, 相同#VA, 所以#AD)  (nsubj, 相同#VA, 咸蛋#NN)  (case, 鲜蛋#NN, 与#P)  (assmod, 价值#NN, 鲜蛋#NN)  (case, 鲜蛋#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 相同#VA, 价值#NN)  (advmod, 相同#VA, 基本#AD)  (root, ROOT#null, 相同#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            腌咸蛋的方法有两种：水腌法和裹泥法。以腌咸鸭蛋为例；水腌法：将50个鸭蛋洗净晾干后放入坛内。再用750克的盐和适量的花椒、茴香，加清水煮沸，凉透后倒入坛内（以刚好淹没鲜蛋为宜）。最后紧密地封好坛口。经20天后即可取出煮食。如想让蛋黄多出油，可在盐水中加50-100克的烧酒即可。裹泥法：将鸭蛋50个洗净后晾干待用。再用盐850克加扑茶250克，加生米250克，在旺火上煮成浓汁约200毫升。最后将这种咸茶汁和黄酒75克一起倒入黄泥或红泥中拌匀，均匀地裹满鸭蛋的周身，装入罐内密封。一个月后即可取出煮食。也可以先将鸭蛋洗净晾干，再用开水将干透的红土烫浸成糊状。将鸭蛋在泥糊中周身裹满，两端蘸盐后放入罐盐后放入罐中封紧罐口。半个月后即可取出煮食。
+        </rawdata>
+
+        <segment>
+            腌咸蛋  的  方法  有  两  种  ：  水  腌法  和  裹  泥法  。  以腌  咸  鸭蛋  为例  ；  水  腌法  ：  将  50  个  鸭蛋  洗净  晾干  后  放入  坛内  。  再用  750  克  的  盐  和  适量  的  花椒  、  茴香  ，  加  清水  煮沸  ，  凉  透后  倒入  坛内  （  以  刚好  淹没  鲜蛋  为宜  ）  。  最后  紧密地  封好  坛口  。  经  20  天  后  即  可  取出  煮  食  。  如  想  让  蛋黄  多  出油  ，  可在  盐水  中  加  50  -  100  克  的  烧酒  即可  。  裹  泥法  ：  将  鸭蛋  50  个  洗净  后  晾干  待用  。  再  用  盐  850  克  加扑茶  250  克  ，  加生米  250  克  ，  在  旺火  上  煮成  浓汁  约  200  毫升  。  最后  将  这  种  咸茶汁  和  黄酒  75  克  一起  倒入  黄泥  或  红  泥中  拌匀  ，  均匀地  裹  满  鸭蛋  的  周身  ，  装入  罐内  密封  。  一  个  月  后  即  可  取出  煮  食  。  也  可以  先  将  鸭蛋  洗净  晾干  ，  再  用  开水  将  干透  的  红土  烫  浸  成  糊状  。  将  鸭蛋  在  泥糊  中  周身  裹满  ，  两  端  蘸盐  后  放入  罐  盐  后  放入  罐中  封紧  罐口  。  半  个  月  后  即  可  取出  煮  食  。
+        </segment>
+
+        <pos>
+            腌咸蛋#NN  的#DEG  方法#NN  有#VE  两#CD  种#M  ：#PU  水#NN  腌法#NN  和#CC  裹#NN  泥法#NN    。#PU  以腌#NN  咸#NN  鸭蛋#NN  为例#VV  ；#PU  水#NN  腌法#VV  ：#PU  将#BA  50#CD  个#M  鸭蛋#NN  洗净#NN  晾干#NN  后#LC  放入#VV  坛内#NN    。#PU  再用#VV  750#CD  克#M  的#DEG  盐#NN  和#CC  适量#NN  的#DEC  花椒#NN  、#PU  茴香#NN  ，#PU  加#NR  清水#VV  煮沸#NN  ，#PU  凉#VV  透后#NN  倒入#NN  坛内#NN  （#PU  以#NR  刚好#AD  淹没#JJ  鲜蛋#NN  为宜#CD  ）#PU    。#PU  最后#JJ  紧密地#NN  封好#VV  坛口#NN    。#PU  经#P  20#CD  天#M  后#LC  即#AD  可#VV  取出#VV  煮#VV  食#NN    。#PU  如#CS  想#VV  让#VV  蛋黄#NN  多#AD  出油#VV  ，#PU  可在#AD  盐水#VV  中#NR  加#NR  50#CD  -#VV  100#CD  克#M  的#DEC  烧酒#NN  即可#NN    。#PU  裹#NR  泥法#VV  ：#PU  将#AD  鸭蛋#VV  50#CD  个#M  洗净#NN  后#LC  晾干#AD  待用#VV    。#PU  再#AD  用#VV  盐#NN  850#CD  克#M  加扑茶#NN  250#CD  克#M  ，#PU  加生米#VV  250#CD  克#M  ，#PU  在#P  旺火#NN  上#LC  煮成#AD  浓汁#VV  约#AD  200#CD  毫升#M    。#PU  最后#AD  将#BA  这#DT  种#M  咸茶汁#NN  和#CC  黄酒#NN  75#CD  克#M  一起#AD  倒入#VV  黄泥#JJ  或#CC  红#JJ  泥中#NN  拌匀#NN  ，#PU  均匀地#VV  裹#AD  满#VV  鸭蛋#NN  的#DEC  周身#NN  ，#PU  装入#AD  罐内#AD  密封#VV    。#PU  一#CD  个#M  月#NN  后#LC  即#AD  可#VV  取出#VV  煮#VV  食#NN    。#PU  也#AD  可以#VV  先#AD  将#AD  鸭蛋#VV  洗净#NN  晾干#NN  ，#PU  再#AD  用#P  开水#NN  将#AD  干透#VV  的#DEC  红土#NN  烫#NN  浸#AD  成#VV  糊状#NN    。#PU  将#AD  鸭蛋#AD  在#P  泥糊#NN  中#LC  周身#VV  裹满#NN  ，#PU  两#CD  端#NN  蘸盐#NN  后#LC  放入#VV  罐#M  盐#NN  后#LC  放入#VV  罐中#NN  封紧#NN  罐口#NN    。#PU  半#CD  个#M  月#NN  后#LC  即#AD  可#VV  取出#VV  煮#VV  食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 方法#NN, 腌咸蛋#NN)  (case, 腌咸蛋#NN, 的#DEG)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (nn, 泥法#NN, 水#NN)  (conj, 泥法#NN, 腌法#NN)  (cc, 泥法#NN, 和#CC)  (nn, 泥法#NN, 裹#NN)  (conj, 有#VE, 泥法#NN)   (nn, 鸭蛋#NN, 以腌#NN)  (nn, 鸭蛋#NN, 咸#NN)  (nsubj, 为例#VV, 鸭蛋#NN)  (root, ROOT#null, 为例#VV)  (nsubj, 腌法#VV, 水#NN)  (ccomp, 为例#VV, 腌法#VV)  (ba, 放入#VV, 将#BA)  (nummod, 个#M, 50#CD)  (clf, 晾干#NN, 个#M)  (nn, 晾干#NN, 鸭蛋#NN)  (nn, 晾干#NN, 洗净#NN)  (loc, 放入#VV, 晾干#NN)  (case, 晾干#NN, 后#LC)  (ccomp, 腌法#VV, 放入#VV)  (dobj, 放入#VV, 坛内#NN)   (relcl, 茴香#NN, 再用#VV)  (nummod, 克#M, 750#CD)  (assmod, 适量#NN, 克#M)  (case, 克#M, 的#DEG)  (conj, 适量#NN, 盐#NN)  (cc, 适量#NN, 和#CC)  (dobj, 再用#VV, 适量#NN)  (mark, 再用#VV, 的#DEC)  (conj, 茴香#NN, 花椒#NN)  (nsubj, 清水#VV, 茴香#NN)  (nsubj, 清水#VV, 加#NR)  (root, ROOT#null, 清水#VV)  (dobj, 清水#VV, 煮沸#NN)  (conj, 清水#VV, 凉#VV)  (nn, 坛内#NN, 透后#NN)  (nn, 坛内#NN, 倒入#NN)  (dobj, 凉#VV, 坛内#NN)  (nsubj, 为宜#CD, 以#NR)  (advmod, 为宜#CD, 刚好#AD)  (amod, 鲜蛋#NN, 淹没#JJ)  (dep, 为宜#CD, 鲜蛋#NN)  (dep, 清水#VV, 为宜#CD)   (amod, 紧密地#NN, 最后#JJ)  (nsubj, 封好#VV, 紧密地#NN)  (root, ROOT#null, 封好#VV)  (dobj, 封好#VV, 坛口#NN)   (case, 取出#VV, 经#P)  (nummod, 天#M, 20#CD)  (loc, 取出#VV, 天#M)  (case, 天#M, 后#LC)  (advmod, 取出#VV, 即#AD)  (dep, 取出#VV, 可#VV)  (prep, 煮#VV, 取出#VV)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 食#NN)   (advmod, 想#VV, 如#CS)  (root, ROOT#null, 想#VV)  (ccomp, 想#VV, 让#VV)  (dobj, 让#VV, 蛋黄#NN)  (advmod, 出油#VV, 多#AD)  (dep, 让#VV, 出油#VV)  (advmod, 盐水#VV, 可在#AD)  (conj, 让#VV, 盐水#VV)  (nn, 加#NR, 中#NR)  (nn, 即可#NN, 加#NR)  (nummod, 即可#NN, 50#CD)  (nummod, 克#M, 100#CD)  (range, -#VV, 克#M)  (mark, -#VV, 的#DEC)  (nn, 即可#NN, 烧酒#NN)  (dobj, 盐水#VV, 即可#NN)   (nsubj, 泥法#VV, 裹#NR)  (xsubj, 待用#VV, 裹#NR)  (root, ROOT#null, 泥法#VV)  (advmod, 鸭蛋#VV, 将#AD)  (loc, 待用#VV, 鸭蛋#VV)  (nummod, 个#M, 50#CD)  (clf, 洗净#NN, 个#M)  (dobj, 鸭蛋#VV, 洗净#NN)  (case, 鸭蛋#VV, 后#LC)  (advmod, 待用#VV, 晾干#AD)  (ccomp, 泥法#VV, 待用#VV)   (advmod, 用#VV, 再#AD)  (root, ROOT#null, 用#VV)  (nn, 加扑茶#NN, 盐#NN)  (nummod, 克#M, 850#CD)  (clf, 加扑茶#NN, 克#M)  (dobj, 用#VV, 加扑茶#NN)  (nummod, 克#M, 250#CD)  (range, 用#VV, 克#M)  (dep, 用#VV, 加生米#VV)  (nummod, 克#M, 250#CD)  (range, 加生米#VV, 克#M)  (case, 旺火#NN, 在#P)  (prep, 浓汁#VV, 旺火#NN)  (case, 旺火#NN, 上#LC)  (advmod, 浓汁#VV, 煮成#AD)  (conj, 用#VV, 浓汁#VV)  (advmod, 毫升#M, 约#AD)  (nummod, 毫升#M, 200#CD)  (range, 浓汁#VV, 毫升#M)   (advmod, 倒入#VV, 最后#AD)  (ba, 倒入#VV, 将#BA)  (det, 黄酒#NN, 这#DT)  (clf, 这#DT, 种#M)  (conj, 黄酒#NN, 咸茶汁#NN)  (cc, 黄酒#NN, 和#CC)  (dep, 克#M, 黄酒#NN)  (nummod, 克#M, 75#CD)  (nsubj, 倒入#VV, 克#M)  (advmod, 倒入#VV, 一起#AD)  (root, ROOT#null, 倒入#VV)  (amod, 泥中#NN, 黄泥#JJ)  (cc, 黄泥#JJ, 或#CC)  (dep, 黄泥#JJ, 红#JJ)  (nn, 拌匀#NN, 泥中#NN)  (dobj, 倒入#VV, 拌匀#NN)  (dep, 倒入#VV, 均匀地#VV)  (advmod, 满#VV, 裹#AD)  (relcl, 周身#NN, 满#VV)  (dobj, 满#VV, 鸭蛋#NN)  (mark, 满#VV, 的#DEC)  (dobj, 均匀地#VV, 周身#NN)  (advmod, 密封#VV, 装入#AD)  (advmod, 密封#VV, 罐内#AD)  (conj, 倒入#VV, 密封#VV)   (nummod, 个#M, 一#CD)  (clf, 月#NN, 个#M)  (loc, 取出#VV, 月#NN)  (case, 月#NN, 后#LC)  (advmod, 取出#VV, 即#AD)  (dep, 取出#VV, 可#VV)  (conj, 煮#VV, 取出#VV)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 食#NN)   (advmod, 鸭蛋#VV, 也#AD)  (mmod, 鸭蛋#VV, 可以#VV)  (advmod, 鸭蛋#VV, 先#AD)  (advmod, 鸭蛋#VV, 将#AD)  (relcl, 烫#NN, 鸭蛋#VV)  (nn, 晾干#NN, 洗净#NN)  (dobj, 鸭蛋#VV, 晾干#NN)  (advmod, 干透#VV, 再#AD)  (case, 开水#NN, 用#P)  (prep, 干透#VV, 开水#NN)  (advmod, 干透#VV, 将#AD)  (dep, 鸭蛋#VV, 干透#VV)  (mark, 鸭蛋#VV, 的#DEC)  (nn, 烫#NN, 红土#NN)  (nsubj, 成#VV, 烫#NN)  (advmod, 成#VV, 浸#AD)  (root, ROOT#null, 成#VV)  (dobj, 成#VV, 糊状#NN)   (advmod, 周身#VV, 将#AD)  (advmod, 周身#VV, 鸭蛋#AD)  (case, 泥糊#NN, 在#P)  (prep, 周身#VV, 泥糊#NN)  (case, 泥糊#NN, 中#LC)  (root, ROOT#null, 周身#VV)  (dobj, 周身#VV, 裹满#NN)  (nummod, 端#NN, 两#CD)  (nn, 蘸盐#NN, 端#NN)  (loc, 放入#VV, 蘸盐#NN)  (case, 蘸盐#NN, 后#LC)  (loc, 放入#VV, 放入#VV)  (dep, 盐#NN, 罐#M)  (dobj, 放入#VV, 盐#NN)  (case, 放入#VV, 后#LC)  (dep, 周身#VV, 放入#VV)  (nn, 罐口#NN, 罐中#NN)  (nn, 罐口#NN, 封紧#NN)  (dobj, 放入#VV, 罐口#NN)   (nummod, 个#M, 半#CD)  (clf, 月#NN, 个#M)  (loc, 取出#VV, 月#NN)  (case, 月#NN, 后#LC)  (advmod, 取出#VV, 即#AD)  (dep, 取出#VV, 可#VV)  (conj, 煮#VV, 取出#VV)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081825167033.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\65 咸鸭蛋.jpg
+    </picturelocalurl>
+
+</content>

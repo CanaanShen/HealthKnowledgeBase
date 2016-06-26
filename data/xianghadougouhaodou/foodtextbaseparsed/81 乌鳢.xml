@@ -1,0 +1,342 @@
+<content>
+
+    <id>
+        81
+    </id>
+
+    <foodname>
+        乌鳢
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        黑鱼、生鱼、蛇皮鱼、黑石舻、铜鱼、乌鱼、孝鱼、黑松、丰鱼、黑寨、财鱼、黑鳢、火柴头鱼、蠡鱼
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有疮者忌食。
+        </rawdata>
+
+        <segment>
+            有  疮者  忌食  。
+        </segment>
+
+        <pos>
+            有#VE  疮者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (nn, 忌食#NN, 疮者#NN)  (dobj, 有#VE, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜身体虚弱，低蛋白血症、脾胃气虚、营养不良、贫血者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  身体  虚弱  ，  低  蛋白血症  、  脾胃  气虚  、  营养  不良  、  贫血  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  身体#NN  虚弱#NN  ，#PU  低#JJ  蛋白血症#VA  、#PU  脾胃#VA  气虚#VA  、#PU  营养#VA  不良#JJ  、#PU  贫血#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 虚弱#NN, 身体#NN)  (dep, 者#NN, 虚弱#NN)  (amod, 者#NN, 低#JJ)  (nfincl, 者#NN, 蛋白血症#VA)  (dep, 蛋白血症#VA, 脾胃#VA)  (conj, 蛋白血症#VA, 气虚#VA)  (dep, 蛋白血症#VA, 营养#VA)  (amod, 者#NN, 不良#JJ)  (nn, 者#NN, 贫血#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                152
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                232
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                313
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                48.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                6.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                24.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            营底栖性鱼类，通常栖息于水草丛生、底泥细软的静水或微流水中，遍布于湖泊、江河、水库、池塘等水域内。时常潜于水底层，以摆动其胸鳍来维持身体平衡。
+            体延长，呈圆筒形，长可达50厘米以上。青褐色，具三纵行黑色斑块，眼后至腮孔有两条黑色纵带。口大，牙尖，背鳍和臀鳍均延长如岭峰。咽头上方有一宽大鳃上腔，能呼吸空气。
+            生命力强，水族中的强者，属肉食性鱼类，性凶猛，幼鱼以桡足类和枝角类为食，栖息淡水底层。小鱼以水生昆虫和小虾及其他小鱼为食。待长到8厘米以上则捕食其他鱼类，故为淡水养殖业的害鱼之一。大黑鱼以食其他鱼类和青蛙为主。于水草茂密的泥底或在水面晒太阳，经常藏在树根石缝中，当小鱼、小虾等游近时，它便发起突袭将这些小动物吞掉，一条0.5公斤的黑鱼能一口吞下一条100~150克重的草鱼或鲤鱼。
+        </rawdata>
+
+        <segment>
+            营底  栖性  鱼类  ，  通常  栖息于  水草  丛生  、  底泥  细软  的  静水  或  微流水  中  ，  遍布  于  湖泊  、  江河  、  水库  、  池塘  等  水域  内  。  时常  潜于  水底层  ，  以  摆动  其  胸鳍  来  维持  身体  平衡  。
+            体  延长  ，  呈  圆筒形  ，  长  可  达  50  厘米  以上  。  青  褐色  ，  具  三  纵  行  黑色  斑块  ，  眼  后  至  腮孔  有  两  条  黑色  纵带  。  口大  ，  牙尖  ，  背鳍  和  臀鳍  均  延长  如岭峰  。  咽头  上方  有  一  宽大鳃  上腔  ，  能  呼吸  空气  。
+            生命  力强  ，  水族  中  的  强者  ，  属  肉食性  鱼类  ，  性  凶猛  ，  幼  鱼  以桡  足类  和  枝角类  为  食  ，  栖息  淡水  底层  。  小鱼  以  水生  昆虫  和  小虾  及  其他  小鱼  为  食  。  待长  到  米  以上  则  捕食  其他  鱼类  ，  故  为  淡水  养殖业  的  害鱼  之一  。  大  黑鱼  以  食  其他  鱼类  和  青蛙  为主  。  于  水草  茂密  的  泥底  或  在  水面  晒  太阳  ，  经常  藏在  树根  石缝  中  ，  当  小鱼  、  小虾  等  游  近时  ，  它  便  发起  突袭  将  这些  小  动物  吞掉  ，  一  条  0.5  公斤  的  黑鱼  能  一  口  吞下  一  条  100  ~  150  克  重的  草鱼  或  鲤鱼  。
+        </segment>
+
+        <pos>
+            营底#AD  栖性#VV  鱼类#NN  ，#PU  通常#AD  栖息于#VV  水草#NN  丛生#NN  、#PU  底泥#NN  细软#NN  的#DEG  静水#NN  或#CC  微流水#NN  中#LC  ，#PU  遍布#VV  于#P  湖泊#NN  、#PU  江河#NN  、#PU  水库#NN  、#PU  池塘#NN  等#ETC  水域#NN  内#LC    。#PU  时常#NN  潜于#NN  水底层#VV  ，#PU  以#P  摆动#NN  其#PN  胸鳍#AD  来#MSP  维持#VV  身体#NN  平衡#NN    。#PU    。#PU
+            体#NR  延长#VV  ，#PU  呈#VV  圆筒形#NN  ，#PU  长#AD  可#VV  达#VV  50#CD  厘米#M  以上#LC    。#PU  青#NR  褐色#VV  ，#PU  具#VV  三#CD  纵#NN  行#NN  黑色#JJ  斑块#NN  ，#PU  眼#NN  后#LC  至#P  腮孔#NR  有#VE  两#CD  条#M  黑色#JJ  纵带#NN    。#PU  口大#VV  ，#PU  牙尖#VV  ，#PU  背鳍#NR  和#CC  臀鳍#NR  均#AD  延长#VV  如岭峰#NN    。#PU  咽头#NN  上方#NN  有#VE  一#CD  宽大鳃#NN  上腔#NN  ，#PU  能#VV  呼吸#NN  空气#NN    。#PU    。#PU
+            生命#NN  力强#VV  ，#PU  水族#NN  中#LC  的#DEG  强者#NN  ，#PU  属#VV  肉食性#NN  鱼类#NN  ，#PU  性#NN  凶猛#VA  ，#PU  幼#NN  鱼#NN  以桡#NN  足类#NN  和#CC  枝角类#NN  为#VC  食#NN  ，#PU  栖息#VV  淡水#NN  底层#NN    。#PU  小鱼#NN  以#P  水生#NR  昆虫#NN  和#CC  小虾#NN  及#CC  其他#DT  小鱼#NN  为#VV  食#NN    。#PU  待长#NN  到#VV  米#M  以上#LC  则#AD  捕食#VV  其他#DT  鱼类#NN  ，#PU  故#AD  为#VC  淡水#NN  养殖业#NN  的#DEG  害鱼#NN  之一#NN    。#PU  大#JJ  黑鱼#NN  以#P  食#NN  其他#DT  鱼类#NN  和#CC  青蛙#NN  为主#VV    。#PU  于#P  水草#NN  茂密#NN  的#DEG  泥底#NN  或#CC  在#P  水面#NN  晒#NN  太阳#NN  ，#PU  经常#AD  藏在#VV  树根#NN  石缝#NN  中#LC  ，#PU  当#P  小鱼#NR  、#PU  小虾#NR  等#ETC  游#NN  近时#NN  ，#PU  它#PN  便#AD  发起#VV  突袭#VV  将#BA  这些#DT  小#JJ  动物#NN  吞掉#VV  ，#PU  一#CD  条#M  0.5#CD  公斤#M  的#DEG  黑鱼#NN  能#VV  一#CD  口#M  吞下#VV  一#CD  条#M  100#CD  ~#NN  150#CD  克#M  重的#JJ  草鱼#NN  或#CC  鲤鱼#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 栖性#VV, 营底#AD)  (root, ROOT#null, 栖性#VV)  (dobj, 栖性#VV, 鱼类#NN)  (advmod, 栖息于#VV, 通常#AD)  (dep, 栖性#VV, 栖息于#VV)  (nn, 细软#NN, 水草#NN)  (conj, 细软#NN, 丛生#NN)  (nn, 细软#NN, 底泥#NN)  (assmod, 微流水#NN, 细软#NN)  (case, 细软#NN, 的#DEG)  (conj, 微流水#NN, 静水#NN)  (cc, 微流水#NN, 或#CC)  (loc, 栖息于#VV, 微流水#NN)  (case, 微流水#NN, 中#LC)  (dep, 栖性#VV, 遍布#VV)  (case, 水域#NN, 于#P)  (conj, 池塘#NN, 湖泊#NN)  (conj, 池塘#NN, 江河#NN)  (conj, 池塘#NN, 水库#NN)  (nn, 水域#NN, 池塘#NN)  (etc, 池塘#NN, 等#ETC)  (prep, 遍布#VV, 水域#NN)  (case, 水域#NN, 内#LC)   (nn, 潜于#NN, 时常#NN)  (nsubj, 水底层#VV, 潜于#NN)  (root, ROOT#null, 水底层#VV)  (case, 摆动#NN, 以#P)  (prep, 维持#VV, 摆动#NN)  (nsubj, 维持#VV, 其#PN)  (advmod, 维持#VV, 胸鳍#AD)  (prtmod, 维持#VV, 来#MSP)  (ccomp, 水底层#VV, 维持#VV)  (nn, 平衡#NN, 身体#NN)  (dobj, 维持#VV, 平衡#NN)   (root, ROOT#null, null#null)
+            (nsubj, 延长#VV, 体#NR)  (xsubj, 呈#VV, 体#NR)  (root, ROOT#null, 延长#VV)  (ccomp, 延长#VV, 呈#VV)  (dobj, 呈#VV, 圆筒形#NN)  (advmod, 达#VV, 长#AD)  (mmod, 达#VV, 可#VV)  (conj, 呈#VV, 达#VV)  (nummod, 厘米#M, 50#CD)  (loc, 达#VV, 厘米#M)  (case, 厘米#M, 以上#LC)   (nsubj, 褐色#VV, 青#NR)  (root, ROOT#null, 褐色#VV)  (ccomp, 褐色#VV, 具#VV)  (nummod, 纵#NN, 三#CD)  (nn, 行#NN, 纵#NN)  (nn, 斑块#NN, 行#NN)  (amod, 斑块#NN, 黑色#JJ)  (dobj, 具#VV, 斑块#NN)  (loc, 有#VE, 眼#NN)  (case, 眼#NN, 后#LC)  (case, 腮孔#NR, 至#P)  (prep, 有#VE, 腮孔#NR)  (dep, 具#VV, 有#VE)  (nummod, 条#M, 两#CD)  (clf, 纵带#NN, 条#M)  (amod, 纵带#NN, 黑色#JJ)  (dobj, 有#VE, 纵带#NN)   (root, ROOT#null, 口大#VV)  (ccomp, 口大#VV, 牙尖#VV)  (conj, 臀鳍#NR, 背鳍#NR)  (cc, 臀鳍#NR, 和#CC)  (nsubj, 延长#VV, 臀鳍#NR)  (advmod, 延长#VV, 均#AD)  (ccomp, 牙尖#VV, 延长#VV)  (dobj, 延长#VV, 如岭峰#NN)   (nn, 上方#NN, 咽头#NN)  (nsubj, 有#VE, 上方#NN)  (root, ROOT#null, 有#VE)  (nummod, 上腔#NN, 一#CD)  (nn, 上腔#NN, 宽大鳃#NN)  (dobj, 有#VE, 上腔#NN)  (conj, 有#VE, 能#VV)  (nn, 空气#NN, 呼吸#NN)  (dobj, 能#VV, 空气#NN)   (root, ROOT#null, null#null)
+            (nsubj, 力强#VV, 生命#NN)  (root, ROOT#null, 力强#VV)  (assmod, 强者#NN, 水族#NN)  (case, 水族#NN, 中#LC)  (case, 水族#NN, 的#DEG)  (nsubj, 属#VV, 强者#NN)  (ccomp, 力强#VV, 属#VV)  (nn, 鱼类#NN, 肉食性#NN)  (dobj, 属#VV, 鱼类#NN)  (nsubj, 凶猛#VA, 性#NN)  (conj, 属#VV, 凶猛#VA)  (nn, 以桡#NN, 幼#NN)  (nn, 以桡#NN, 鱼#NN)  (nn, 枝角类#NN, 以桡#NN)  (conj, 枝角类#NN, 足类#NN)  (cc, 枝角类#NN, 和#CC)  (nsubj, 食#NN, 枝角类#NN)  (cop, 食#NN, 为#VC)  (conj, 属#VV, 食#NN)  (conj, 属#VV, 栖息#VV)  (nn, 底层#NN, 淡水#NN)  (dobj, 栖息#VV, 底层#NN)   (nsubj, 为#VV, 小鱼#NN)  (case, 小鱼#NN, 以#P)  (nn, 小虾#NN, 水生#NR)  (conj, 小虾#NN, 昆虫#NN)  (cc, 小虾#NN, 和#CC)  (conj, 小鱼#NN, 小虾#NN)  (cc, 小鱼#NN, 及#CC)  (det, 小鱼#NN, 其他#DT)  (prep, 为#VV, 小鱼#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 食#NN)   (xsubj, 捕食#VV, 待长#NN)  (nsubj, 之一#NN, 待长#NN)  (mmod, 之一#NN, 到#VV)  (loc, 捕食#VV, 米#M)  (case, 米#M, 以上#LC)  (advmod, 捕食#VV, 则#AD)  (conj, 之一#NN, 捕食#VV)  (det, 鱼类#NN, 其他#DT)  (dobj, 捕食#VV, 鱼类#NN)  (advmod, 之一#NN, 故#AD)  (cop, 之一#NN, 为#VC)  (nn, 养殖业#NN, 淡水#NN)  (assmod, 之一#NN, 养殖业#NN)  (case, 养殖业#NN, 的#DEG)  (nn, 之一#NN, 害鱼#NN)  (root, ROOT#null, 之一#NN)   (amod, 黑鱼#NN, 大#JJ)  (nsubj, 为主#VV, 黑鱼#NN)  (case, 青蛙#NN, 以#P)  (nn, 青蛙#NN, 食#NN)  (det, 青蛙#NN, 其他#DT)  (conj, 青蛙#NN, 鱼类#NN)  (cc, 青蛙#NN, 和#CC)  (prep, 为主#VV, 青蛙#NN)  (root, ROOT#null, 为主#VV)   (case, 石缝#NN, 于#P)  (nn, 茂密#NN, 水草#NN)  (assmod, 泥底#NN, 茂密#NN)  (case, 茂密#NN, 的#DEG)  (conj, 石缝#NN, 泥底#NN)  (cc, 石缝#NN, 或#CC)  (case, 太阳#NN, 在#P)  (nn, 太阳#NN, 水面#NN)  (nn, 太阳#NN, 晒#NN)  (prep, 藏在#VV, 太阳#NN)  (advmod, 藏在#VV, 经常#AD)  (nfincl, 石缝#NN, 藏在#VV)  (dobj, 藏在#VV, 树根#NN)  (prep, 吞掉#VV, 石缝#NN)  (case, 石缝#NN, 中#LC)  (case, 近时#NN, 当#P)  (conj, 小虾#NR, 小鱼#NR)  (nn, 近时#NN, 小虾#NR)  (etc, 小虾#NR, 等#ETC)  (nn, 近时#NN, 游#NN)  (prep, 吞掉#VV, 近时#NN)  (nsubj, 吞掉#VV, 它#PN)  (advmod, 吞掉#VV, 便#AD)  (mmod, 吞掉#VV, 发起#VV)  (mmod, 吞掉#VV, 突袭#VV)  (ba, 吞掉#VV, 将#BA)  (det, 动物#NN, 这些#DT)  (amod, 动物#NN, 小#JJ)  (nsubj, 吞掉#VV, 动物#NN)  (conj, 吞下#VV, 吞掉#VV)  (nummod, 条#M, 一#CD)  (clf, 公斤#M, 条#M)  (nummod, 公斤#M, 0.5#CD)  (assmod, 黑鱼#NN, 公斤#M)  (case, 公斤#M, 的#DEG)  (nsubj, 能#VV, 黑鱼#NN)  (ccomp, 吞掉#VV, 能#VV)  (nummod, 口#M, 一#CD)  (range, 能#VV, 口#M)  (root, ROOT#null, 吞下#VV)  (nummod, 条#M, 一#CD)  (clf, 鲤鱼#NN, 条#M)  (nummod, ~#NN, 100#CD)  (nummod, 克#M, 150#CD)  (clf, 鲤鱼#NN, 克#M)  (amod, 鲤鱼#NN, 重的#JJ)  (conj, 鲤鱼#NN, 草鱼#NN)  (cc, 鲤鱼#NN, 或#CC)  (dobj, 吞下#VV, 鲤鱼#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性寒。能补脾益气，利水。用于脾虚水肿，脚气，小便不利；气血不足，经闭，久患疮疥等。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性寒  。  能  补脾  益气  ，  利水  。  用于  脾虚  水肿  ，  脚气  ，  小便  不利  ；  气血  不足  ，  经闭  ，  久患疮疥  等  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性寒#VV    。#PU  能#VV  补脾#VV  益气#NN  ，#PU  利水#VV    。#PU  用于#VV  脾虚#NN  水肿#NN  ，#PU  脚气#VV  ，#PU  小便#AD  不利#VA  ；#PU  气血#AD  不足#VA  ，#PU  经闭#VV  ，#PU  久患疮疥#VV  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性寒#VV)   (mmod, 补脾#VV, 能#VV)  (root, ROOT#null, 补脾#VV)  (dobj, 补脾#VV, 益气#NN)  (dep, 补脾#VV, 利水#VV)   (root, ROOT#null, 用于#VV)  (nn, 水肿#NN, 脾虚#NN)  (dobj, 用于#VV, 水肿#NN)  (conj, 用于#VV, 脚气#VV)  (advmod, 不利#VA, 小便#AD)  (conj, 用于#VV, 不利#VA)  (advmod, 不足#VA, 气血#AD)  (conj, 用于#VV, 不足#VA)  (conj, 用于#VV, 经闭#VV)  (conj, 用于#VV, 久患疮疥#VV)  (dep, 用于#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  利水消肿  补脾胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含蛋白质、脂肪、钙、磷、铁、维生素B1、B2、和烟酸，并分离出组氨酸等。
+        </rawdata>
+
+        <segment>
+            含  蛋白质  、  脂肪  、  钙  、  磷  、  铁  、  维生素B  B  2  、  和  烟酸  ，  并  分离出  组氨酸  等  。
+        </segment>
+
+        <pos>
+            含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  维生素B#NN  B#NN  2#CD  、#PU  和#CC  烟酸#NN  ，#PU  并#CC  分离出#VV  组氨酸#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (conj, 维生素B#NN, 蛋白质#NN)  (conj, 维生素B#NN, 脂肪#NN)  (conj, 维生素B#NN, 钙#NN)  (conj, 维生素B#NN, 磷#NN)  (conj, 维生素B#NN, 铁#NN)  (nn, 烟酸#NN, 维生素B#NN)  (dep, 烟酸#NN, B#NN)  (nummod, B#NN, 2#CD)  (cc, 烟酸#NN, 和#CC)  (dobj, 含#VV, 烟酸#NN)  (cc, 含#VV, 并#CC)  (conj, 含#VV, 分离出#VV)  (dobj, 分离出#VV, 组氨酸#NN)  (etc, 组氨酸#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            黑鱼出肉率高、肉厚色白、红肌较少，无肌间刺，味鲜，通常用来做鱼片。
+        </rawdata>
+
+        <segment>
+            黑鱼  出肉率  高  、  肉厚  色白  、  红肌  较  少  ，  无肌间刺  ，  味鲜  ，  通常  用来  做  鱼片  。
+        </segment>
+
+        <pos>
+            黑鱼#NN  出肉率#AD  高#VA  、#PU  肉厚#NR  色白#NN  、#PU  红肌#NN  较#AD  少#VA  ，#PU  无肌间刺#VV  ，#PU  味鲜#NR  ，#PU  通常#AD  用来#AD  做#VV  鱼片#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 高#VA, 黑鱼#NN)  (advmod, 高#VA, 出肉率#AD)  (root, ROOT#null, 高#VA)  (nn, 红肌#NN, 肉厚#NR)  (conj, 红肌#NN, 色白#NN)  (nsubj, 少#VA, 红肌#NN)  (advmod, 少#VA, 较#AD)  (conj, 高#VA, 少#VA)  (dep, 高#VA, 无肌间刺#VV)  (nsubj, 做#VV, 味鲜#NR)  (advmod, 做#VV, 通常#AD)  (advmod, 做#VV, 用来#AD)  (ccomp, 无肌间刺#VV, 做#VV)  (dobj, 做#VV, 鱼片#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/092109105029.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\81 乌鳢.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,406 @@
+<content>
+
+    <id>
+        24
+    </id>
+
+    <foodname>
+        羊肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        羊肉
+    </secondcategory>
+
+    <alias>
+        山羊肉、绵羊肉、羊腰窝肉、羊腩
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            发热、牙痛、口舌生疮、咳吐黄痰等上火症状者不宜食用；肝病、高血压、急性肠炎或其他感染性疾病及发热期间不宜食用。
+        </rawdata>
+
+        <segment>
+            发热  、  牙痛  、  口舌  生疮  、  咳  吐  黄痰等  上火  症状  者  不  宜  食用  ；  肝病  、  高血压  、  急性  肠炎  或  其他  感染性  疾病  及  发热  期间  不  宜  食用  。
+        </segment>
+
+        <pos>
+            发热#NR  、#PU  牙痛#NR  、#PU  口舌#NR  生疮#NR  、#PU  咳#NR  吐#NR  黄痰等#NR  上火#NN  症状#NN  者#NN  不#AD  宜#NR  食用#VV  ；#PU  肝病#NN  、#PU  高血压#NN  、#PU  急性#NN  肠炎#NN  或#CC  其他#DT  感染性#NN  疾病#NN  及#CC  发热#NN  期间#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 黄痰等#NR, 发热#NR)  (conj, 黄痰等#NR, 牙痛#NR)  (nn, 黄痰等#NR, 口舌#NR)  (conj, 黄痰等#NR, 生疮#NR)  (nn, 黄痰等#NR, 咳#NR)  (nn, 黄痰等#NR, 吐#NR)  (nn, 症状#NN, 黄痰等#NR)  (nn, 症状#NN, 上火#NN)  (nn, 者#NN, 症状#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (conj, 急性#NN, 肝病#NN)  (conj, 急性#NN, 高血压#NN)  (nn, 肠炎#NN, 急性#NN)  (conj, 发热#NN, 肠炎#NN)  (cc, 发热#NN, 或#CC)  (det, 感染性#NN, 其他#DT)  (nn, 发热#NN, 感染性#NN)  (conj, 发热#NN, 疾病#NN)  (cc, 发热#NN, 及#CC)  (nn, 期间#NN, 发热#NN)  (nsubj, 食用#VV, 期间#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 食用#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜体虚胃寒者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  体  虚胃寒者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  体#NN  虚胃寒者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 虚胃寒者#NN, 体#NN)  (dobj, 适宜#VV, 虚胃寒者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                203
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                14.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                196
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                403
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                69.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                6.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                7.18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            羊肉是指从羊身上得出的肉，古时称为羖肉、羝肉、羯肉，为全世界普遍的肉品之一，有山羊肉、绵羊肉、野羊肉之分。羊肉肉质与牛肉相似，但肉味较浓。羊肉较猪肉的肉质要细嫩，较猪肉和牛肉的脂肪、胆固醇含量少。它既能御风寒，又可补身体，对一般风寒咳嗽、慢性气管炎、虚寒哮喘、肾亏阳痿、腹部冷痛、体虚怕冷、腰膝酸软、面黄肌瘦、气血两亏、病后或产后身体虚亏等一切虚状均有治疗和补益效果，最适宜于冬季食用，故被称为冬令补品，深受人们欢迎。由于羊肉有一股令人讨厌的羊膻怪味，故被一部分人所冷落。其实，一公斤羊肉若能放入10克甘草和适量料酒、生姜一起烹调，即能够去其膻气而又可保持其羊肉风味。
+            日常生活中我们吃的多是绵羊肉，比如炒菜、涮羊肉等等，从口感上说，绵羊肉比山羊肉更好吃，这是由于山羊肉脂肪中含有一种叫4一甲基辛酸的脂肪酸，这种脂肪酸挥发后会产生一种特殊的膻味。不过，从营养成分来说，山羊肉并不低于绵羊肉。相比之下，绵羊肉比山羊肉脂肪含量更高，这就是为什么绵羊肉吃起来更加细腻可口的原因。山羊肉的一个重要特点就是胆固醇含量比绵羊肉低，因此，可以起到防止血管硬化以及心脏病的作用，特别适合高血脂患者和老人食用。
+            山羊肉和绵羊肉还有一个很大的区别，就是中医上认为，山羊肉是凉性的，而绵羊肉是热性的。因此，后者具有补养的作用，适合产妇、病人食用；前者则病人最好少吃，普通人吃了以后也要忌口，最好不要再吃凉性的食物和瓜果等。从吃法上说，山羊肉更适合清炖和烤羊肉串。近年来，由于山羊肉的胆固醇、脂肪含量低，还用它开发出了很多保健食品。
+        </rawdata>
+
+        <segment>
+            羊肉  是  指  从  羊  身上  得出  的  肉  ，  古时  称为  羖  肉  、  羝肉  、  羯肉  ，  为  全世界  普遍  的  肉品  之一  ，  有  山羊肉  、  绵羊肉  、  野羊肉  之  分  。  羊肉  肉质  与  牛肉  相似  ，  但  肉味  较  浓  。  羊肉  较  猪肉  的  肉质  要  细嫩  ，  较  猪肉  和  牛肉  的  脂肪  、  胆固醇  含量  少  。  它  既  能  御风寒  ，  又可补  身体  ，  对  一般  风寒  咳嗽  、  慢性  气管炎  、  虚寒  哮喘  、  肾亏  阳痿  、  腹部  冷痛  、  体虚  怕冷  、  腰膝  酸软  、  面黄肌瘦  、  气血  两  亏  、  病  后  或  产后  身体  虚  亏  等  一切  虚状  均  有  治疗  和  补益  效果  ，  最适  宜于  冬季  食用  ，  故  被  称为  冬令  补品  ，  深受  人们  欢迎  。  由于  羊肉  有  一  股  令  人  讨厌  的  羊膻  怪味  ，  故  被  一部分  人  所  冷落  。  其实  ，  一  公斤  羊肉  若  能  放入  10  克  甘草  和  适量  料酒  、  生姜  一起  烹调  ，  即  能够  去  其  膻气  而  又  可  保持  其  羊肉  风味  。
+            日常  生活  中  我们  吃  的  多  是  绵羊肉  ，  比如  炒菜  、  涮羊肉  等等  ，  从  口感  上  说  ，  绵羊肉  比  山羊肉  更  好吃  ，  这  是  由于  山羊肉  脂肪  中  含有  一  种  叫  4一  甲  基  辛酸  的  脂肪酸  ，  这  种  脂肪酸  挥发  后  会  产生  一  种  特殊  的  膻味  。  不过  ，  从  营养  成分  来说  ，  山羊肉  并不  低于  绵羊肉  。  相比  之下  ，  绵羊肉  比  山羊肉  脂肪  含量  更高  ，  这  就  是  为什么  绵羊肉  吃  起来  更加  细腻  可口  的  原因  。  山羊肉  的  一  个  重要  特点  就  是  胆固醇  含量  比  绵羊肉  低  ，  因此  ，  可以  起到  防止  血管  硬化  以及  心脏病  的  作用  ，  特别  适合  高血脂  患者  和  老人  食用  。
+            山羊肉  和  绵羊肉  还有  一  个  很  大  的  区别  ，  就是  中医  上  认为  ，  山羊肉  是  凉  性的  ，  而  绵羊肉  是  热  性的  。  因此  ，  后者  具有  补养  的  作用  ，  适合  产妇  、  病人  食用  ；  前者  则  病人  最好  少吃  ，  普通  人  吃  了  以后  也  要  忌口  ，  最好  不  要  再  吃  凉  性  的  食物  和  瓜果  等  。  从  吃法  上  说  ，  山羊肉  更  适合  清炖  和  烤羊肉串  。  近年  来  ，  由于  山羊肉  的  胆固醇  、  脂肪  含量  低  ，  还用  它  开发  出  了  很多  保健  食品  。
+        </segment>
+
+        <pos>
+            羊肉#NN  是#VC  指#VV  从#P  羊#NN  身上#NN  得出#VV  的#DEC  肉#NN  ，#PU  古时#VV  称为#VV  羖#NN  肉#NN  、#PU  羝肉#NN  、#PU  羯肉#NN  ，#PU  为#P  全世界#NN  普遍#VA  的#DEC  肉品#NN  之一#NN  ，#PU  有#VE  山羊肉#NR  、#PU  绵羊肉#NR  、#PU  野羊肉#NR  之#PN  分#VV    。#PU  羊肉#NN  肉质#NN  与#P  牛肉#NN  相似#VA  ，#PU  但#AD  肉味#NN  较#AD  浓#VA    。#PU  羊肉#NN  较#AD  猪肉#VA  的#DEC  肉质#NN  要#VV  细嫩#VV  ，#PU  较#AD  猪肉#VA  和#CC  牛肉#VA  的#DEC  脂肪#NN  、#PU  胆固醇#NN  含量#NN  少#VA    。#PU  它#PN  既#CC  能#VV  御风寒#NN  ，#PU  又可补#VV  身体#NN  ，#PU  对#P  一般#JJ  风寒#NN  咳嗽#NR  、#PU  慢性#NR  气管炎#NR  、#PU  虚寒#NR  哮喘#NR  、#PU  肾亏#NR  阳痿#NR  、#PU  腹部#NR  冷痛#NR  、#PU  体虚#NR  怕冷#NR  、#PU  腰膝#NR  酸软#NR  、#PU  面黄肌瘦#NR  、#PU  气血#NR  两#CD  亏#NN  、#PU  病#JJ  后#NN  或#CC  产后#NN  身体#NN  虚#AD  亏#NN  等#ETC  一切#DT  虚状#NN  均#AD  有#VE  治疗#NN  和#CC  补益#NN  效果#NN  ，#PU  最适#VV  宜于#NN  冬季#NN  食用#VV  ，#PU  故#AD  被#SB  称为#VV  冬令#NN  补品#NN  ，#PU  深受#VV  人们#NN  欢迎#NN    。#PU  由于#P  羊肉#NN  有#VE  一#CD  股#M  令#VV  人#NN  讨厌#NN  的#DEG  羊膻#NN  怪味#VA  ，#PU  故#AD  被#LB  一部分#CD  人#NN  所#MSP  冷落#NN    。#PU  其实#AD  ，#PU  一#CD  公斤#M  羊肉#NN  若#CS  能#VV  放入#VV  10#CD  克#M  甘草#NR  和#CC  适量#NR  料酒#NR  、#PU  生姜#NR  一起#AD  烹调#VV  ，#PU  即#AD  能够#VV  去#VV  其#PN  膻气#NN  而#AD  又#AD  可#VV  保持#VV  其#PN  羊肉#NN  风味#NN    。#PU    。#PU
+            日常#JJ  生活#NN  中#LC  我们#PN  吃#VV  的#DEC  多#AD  是#VC  绵羊肉#NN  ，#PU  比如#AD  炒菜#NR  、#PU  涮羊肉#NR  等等#ETC  ，#PU  从#P  口感#NN  上#LC  说#VV  ，#PU  绵羊肉#NN  比#P  山羊肉#NN  更#AD  好吃#VA  ，#PU  这#PN  是#VC  由于#P  山羊肉#NN  脂肪#NN  中#LC  含有#VV  一#CD  种#M  叫#VV  4一#CD  甲#CD  基#NN  辛酸#NN  的#DEC  脂肪酸#NN  ，#PU  这#DT  种#M  脂肪酸#NN  挥发#NN  后#LC  会#VV  产生#VV  一#CD  种#M  特殊#VA  的#DEC  膻味#NN    。#PU  不过#AD  ，#PU  从#P  营养#VA  成分#NN  来说#NN  ，#PU  山羊肉#NN  并不#NN  低于#VV  绵羊肉#NN    。#PU  相比#VV  之下#LC  ，#PU  绵羊肉#AD  比#P  山羊肉#NN  脂肪#VV  含量#NN  更高#JJ  ，#PU  这#PN  就#AD  是#VC  为什么#AD  绵羊肉#AD  吃#VV  起来#VV  更加#AD  细腻#VV  可口#NN  的#DEC  原因#NN    。#PU  山羊肉#NN  的#DEG  一#CD  个#M  重要#JJ  特点#NN  就#AD  是#VC  胆固醇#NN  含量#NN  比#P  绵羊肉#NN  低#VA  ，#PU  因此#AD  ，#PU  可以#VV  起到#VV  防止#VV  血管#NN  硬化#NN  以及#CC  心脏病#NN  的#DEC  作用#NN  ，#PU  特别#AD  适合#VV  高血脂#NN  患者#NN  和#CC  老人#NN  食用#VV    。#PU    。#PU
+            山羊肉#NR  和#CC  绵羊肉#NR  还有#AD  一#CD  个#M  很#AD  大#VA  的#DEC  区别#NN  ，#PU  就是#AD  中医#NN  上#LC  认为#VV  ，#PU  山羊肉#NN  是#VC  凉#NN  性的#NN  ，#PU  而#CC  绵羊肉#NN  是#VC  热#JJ  性的#NN    。#PU  因此#AD  ，#PU  后者#PN  具有#VV  补养#NN  的#DEG  作用#NN  ，#PU  适合#VV  产妇#NN  、#PU  病人#NN  食用#VV  ；#PU  前者#AD  则#AD  病人#NN  最好#JJ  少吃#NN  ，#PU  普通#JJ  人#NN  吃#VV  了#AS  以后#LC  也#AD  要#VV  忌口#VV  ，#PU  最好#JJ  不#AD  要#VV  再#AD  吃#VV  凉#NN  性#NN  的#DEC  食物#NN  和#CC  瓜果#NN  等#ETC    。#PU  从#P  吃法#NN  上#LC  说#VV  ，#PU  山羊肉#NN  更#AD  适合#VV  清炖#NN  和#CC  烤羊肉串#NN    。#PU  近年#NT  来#LC  ，#PU  由于#P  山羊肉#NN  的#DEG  胆固醇#NN  、#PU  脂肪#NN  含量#NN  低#VA  ，#PU  还用#NR  它#PN  开发#VV  出#VV  了#AS  很多#CD  保健#NN  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 指#VV, 羊肉#NN)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (case, 身上#NN, 从#P)  (nn, 身上#NN, 羊#NN)  (prep, 得出#VV, 身上#NN)  (relcl, 肉#NN, 得出#VV)  (mark, 得出#VV, 的#DEC)  (dobj, 指#VV, 肉#NN)  (conj, 指#VV, 古时#VV)  (relcl, 之一#NN, 称为#VV)  (nn, 羯肉#NN, 羖#NN)  (conj, 羯肉#NN, 肉#NN)  (conj, 羯肉#NN, 羝肉#NN)  (dobj, 称为#VV, 羯肉#NN)  (case, 全世界#NN, 为#P)  (prep, 普遍#VA, 全世界#NN)  (conj, 称为#VV, 普遍#VA)  (mark, 称为#VV, 的#DEC)  (nn, 之一#NN, 肉品#NN)  (dobj, 古时#VV, 之一#NN)  (conj, 指#VV, 有#VE)  (conj, 野羊肉#NR, 山羊肉#NR)  (conj, 野羊肉#NR, 绵羊肉#NR)  (nsubj, 分#VV, 野羊肉#NR)  (nsubj, 分#VV, 之#PN)  (dep, 有#VE, 分#VV)   (nn, 肉质#NN, 羊肉#NN)  (nsubj, 相似#VA, 肉质#NN)  (case, 牛肉#NN, 与#P)  (prep, 相似#VA, 牛肉#NN)  (root, ROOT#null, 相似#VA)  (advmod, 浓#VA, 但#AD)  (nsubj, 浓#VA, 肉味#NN)  (advmod, 浓#VA, 较#AD)  (conj, 相似#VA, 浓#VA)   (nsubj, 猪肉#VA, 羊肉#NN)  (advmod, 猪肉#VA, 较#AD)  (relcl, 肉质#NN, 猪肉#VA)  (mark, 猪肉#VA, 的#DEC)  (nsubj, 细嫩#VV, 肉质#NN)  (mmod, 细嫩#VV, 要#VV)  (root, ROOT#null, 细嫩#VV)  (advmod, 猪肉#VA, 较#AD)  (relcl, 含量#NN, 猪肉#VA)  (cc, 猪肉#VA, 和#CC)  (dep, 猪肉#VA, 牛肉#VA)  (mark, 猪肉#VA, 的#DEC)  (conj, 胆固醇#NN, 脂肪#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 少#VA, 含量#NN)  (ccomp, 细嫩#VV, 少#VA)   (nsubj, 能#VV, 它#PN)  (cc, 能#VV, 既#CC)  (root, ROOT#null, 能#VV)  (dobj, 能#VV, 御风寒#NN)  (conj, 能#VV, 又可补#VV)  (dobj, 又可补#VV, 身体#NN)  (case, 有#VE, 对#P)  (amod, 风寒#NN, 一般#JJ)  (nn, 身体#NN, 风寒#NN)  (conj, 面黄肌瘦#NR, 咳嗽#NR)  (nn, 面黄肌瘦#NR, 慢性#NR)  (conj, 面黄肌瘦#NR, 气管炎#NR)  (nn, 面黄肌瘦#NR, 虚寒#NR)  (conj, 面黄肌瘦#NR, 哮喘#NR)  (nn, 面黄肌瘦#NR, 肾亏#NR)  (conj, 面黄肌瘦#NR, 阳痿#NR)  (nn, 面黄肌瘦#NR, 腹部#NR)  (conj, 面黄肌瘦#NR, 冷痛#NR)  (nn, 面黄肌瘦#NR, 体虚#NR)  (conj, 面黄肌瘦#NR, 怕冷#NR)  (nn, 面黄肌瘦#NR, 腰膝#NR)  (conj, 面黄肌瘦#NR, 酸软#NR)  (conj, 身体#NN, 面黄肌瘦#NR)  (nn, 亏#NN, 气血#NR)  (nummod, 亏#NN, 两#CD)  (conj, 身体#NN, 亏#NN)  (amod, 后#NN, 病#JJ)  (conj, 身体#NN, 后#NN)  (cc, 身体#NN, 或#CC)  (nn, 身体#NN, 产后#NN)  (nsubj, 有#VE, 身体#NN)  (advmod, 有#VE, 虚#AD)  (nn, 虚状#NN, 亏#NN)  (etc, 亏#NN, 等#ETC)  (det, 虚状#NN, 一切#DT)  (dep, 有#VE, 虚状#NN)  (advmod, 有#VE, 均#AD)  (prep, 食用#VV, 有#VE)  (conj, 补益#NN, 治疗#NN)  (cc, 补益#NN, 和#CC)  (nn, 效果#NN, 补益#NN)  (dobj, 有#VE, 效果#NN)  (conj, 有#VE, 最适#VV)  (nn, 冬季#NN, 宜于#NN)  (dobj, 最适#VV, 冬季#NN)  (conj, 能#VV, 食用#VV)  (advmod, 称为#VV, 故#AD)  (auxpass, 称为#VV, 被#SB)  (conj, 能#VV, 称为#VV)  (nn, 补品#NN, 冬令#NN)  (dobj, 称为#VV, 补品#NN)  (conj, 能#VV, 深受#VV)  (nn, 欢迎#NN, 人们#NN)  (dobj, 深受#VV, 欢迎#NN)   (case, 有#VE, 由于#P)  (dep, 有#VE, 羊肉#NN)  (prep, 令#VV, 有#VE)  (nummod, 股#M, 一#CD)  (dep, 有#VE, 股#M)  (root, ROOT#null, 令#VV)  (nn, 讨厌#NN, 人#NN)  (assmod, 羊膻#NN, 讨厌#NN)  (case, 讨厌#NN, 的#DEG)  (dobj, 令#VV, 羊膻#NN)  (dep, 令#VV, 怪味#VA)  (advmod, 被#LB, 故#AD)  (dep, 令#VV, 被#LB)  (nummod, 人#NN, 一部分#CD)  (nsubj, 冷落#NN, 人#NN)  (prtmod, 冷落#NN, 所#MSP)  (dep, 被#LB, 冷落#NN)   (advmod, 放入#VV, 其实#AD)  (nummod, 公斤#M, 一#CD)  (clf, 羊肉#NN, 公斤#M)  (nsubj, 放入#VV, 羊肉#NN)  (advmod, 放入#VV, 若#CS)  (mmod, 放入#VV, 能#VV)  (root, ROOT#null, 放入#VV)  (nummod, 克#M, 10#CD)  (range, 放入#VV, 克#M)  (conj, 适量#NR, 甘草#NR)  (cc, 适量#NR, 和#CC)  (nn, 生姜#NR, 适量#NR)  (conj, 生姜#NR, 料酒#NR)  (nsubj, 烹调#VV, 生姜#NR)  (advmod, 烹调#VV, 一起#AD)  (conj, 放入#VV, 烹调#VV)  (advmod, 去#VV, 即#AD)  (mmod, 去#VV, 能够#VV)  (dep, 烹调#VV, 去#VV)  (nn, 膻气#NN, 其#PN)  (dobj, 去#VV, 膻气#NN)  (advmod, 保持#VV, 而#AD)  (advmod, 保持#VV, 又#AD)  (mmod, 保持#VV, 可#VV)  (conj, 放入#VV, 保持#VV)  (nn, 风味#NN, 其#PN)  (nn, 风味#NN, 羊肉#NN)  (dobj, 保持#VV, 风味#NN)   (root, ROOT#null, null#null)
+            (amod, 生活#NN, 日常#JJ)  (loc, 吃#VV, 生活#NN)  (case, 生活#NN, 中#LC)  (nsubj, 吃#VV, 我们#PN)  (nsubj, 绵羊肉#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (advmod, 绵羊肉#NN, 多#AD)  (cop, 绵羊肉#NN, 是#VC)  (root, ROOT#null, 绵羊肉#NN)  (advmod, 说#VV, 比如#AD)  (conj, 涮羊肉#NR, 炒菜#NR)  (nsubj, 说#VV, 涮羊肉#NR)  (etc, 涮羊肉#NR, 等等#ETC)  (case, 口感#NN, 从#P)  (prep, 说#VV, 口感#NN)  (case, 口感#NN, 上#LC)  (conj, 绵羊肉#NN, 说#VV)  (nsubj, 好吃#VA, 绵羊肉#NN)  (case, 山羊肉#NN, 比#P)  (prep, 好吃#VA, 山羊肉#NN)  (advmod, 好吃#VA, 更#AD)  (ccomp, 说#VV, 好吃#VA)  (nsubj, 脂肪酸#NN, 这#PN)  (cop, 脂肪酸#NN, 是#VC)  (case, 含有#VV, 由于#P)  (nn, 脂肪#NN, 山羊肉#NN)  (loc, 含有#VV, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (prep, 叫#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (range, 含有#VV, 种#M)  (relcl, 脂肪酸#NN, 叫#VV)  (nummod, 辛酸#NN, 4一#CD)  (nummod, 基#NN, 甲#CD)  (nn, 辛酸#NN, 基#NN)  (dobj, 叫#VV, 辛酸#NN)  (mark, 叫#VV, 的#DEC)  (conj, 绵羊肉#NN, 脂肪酸#NN)  (det, 脂肪酸#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 产生#VV, 脂肪酸#NN)  (loc, 产生#VV, 挥发#NN)  (case, 挥发#NN, 后#LC)  (mmod, 产生#VV, 会#VV)  (conj, 绵羊肉#NN, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 膻味#NN, 种#M)  (relcl, 膻味#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (dobj, 产生#VV, 膻味#NN)   (advmod, 低于#VV, 不过#AD)  (case, 来说#NN, 从#P)  (relcl, 成分#NN, 营养#VA)  (nn, 来说#NN, 成分#NN)  (prep, 低于#VV, 来说#NN)  (nsubj, 低于#VV, 山羊肉#NN)  (nsubj, 低于#VV, 并不#NN)  (root, ROOT#null, 低于#VV)  (dobj, 低于#VV, 绵羊肉#NN)   (loc, 脂肪#VV, 相比#VV)  (case, 相比#VV, 之下#LC)  (advmod, 脂肪#VV, 绵羊肉#AD)  (case, 山羊肉#NN, 比#P)  (prep, 脂肪#VV, 山羊肉#NN)  (root, ROOT#null, 脂肪#VV)  (dobj, 脂肪#VV, 含量#NN)  (conj, 脂肪#VV, 更高#JJ)  (dep, 原因#NN, 这#PN)  (advmod, 原因#NN, 就#AD)  (cop, 原因#NN, 是#VC)  (advmod, 吃#VV, 为什么#AD)  (advmod, 吃#VV, 绵羊肉#AD)  (relcl, 原因#NN, 吃#VV)  (comod, 吃#VV, 起来#VV)  (advmod, 细腻#VV, 更加#AD)  (ccomp, 吃#VV, 细腻#VV)  (dobj, 细腻#VV, 可口#NN)  (mark, 吃#VV, 的#DEC)  (dep, 脂肪#VV, 原因#NN)   (assmod, 特点#NN, 山羊肉#NN)  (case, 山羊肉#NN, 的#DEG)  (nummod, 个#M, 一#CD)  (clf, 特点#NN, 个#M)  (amod, 特点#NN, 重要#JJ)  (nsubj, 低#VA, 特点#NN)  (advmod, 低#VA, 就#AD)  (cop, 低#VA, 是#VC)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (case, 绵羊肉#NN, 比#P)  (prep, 低#VA, 绵羊肉#NN)  (root, ROOT#null, 低#VA)  (advmod, 起到#VV, 因此#AD)  (mmod, 起到#VV, 可以#VV)  (conj, 低#VA, 起到#VV)  (relcl, 作用#NN, 防止#VV)  (nn, 心脏病#NN, 血管#NN)  (conj, 心脏病#NN, 硬化#NN)  (cc, 心脏病#NN, 以及#CC)  (dobj, 防止#VV, 心脏病#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (advmod, 适合#VV, 特别#AD)  (conj, 低#VA, 适合#VV)  (dobj, 适合#VV, 高血脂#NN)  (conj, 老人#NN, 患者#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 食用#VV, 老人#NN)  (dep, 低#VA, 食用#VV)   (root, ROOT#null, null#null)
+            (conj, 绵羊肉#NR, 山羊肉#NR)  (cc, 绵羊肉#NR, 和#CC)  (nsubj, 认为#VV, 绵羊肉#NR)  (advmod, 认为#VV, 还有#AD)  (nummod, 个#M, 一#CD)  (clf, 区别#NN, 个#M)  (advmod, 大#VA, 很#AD)  (relcl, 区别#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nsubj, 认为#VV, 区别#NN)  (advmod, 认为#VV, 就是#AD)  (loc, 认为#VV, 中医#NN)  (case, 中医#NN, 上#LC)  (root, ROOT#null, 认为#VV)  (nsubj, 性的#NN, 山羊肉#NN)  (cop, 性的#NN, 是#VC)  (nn, 性的#NN, 凉#NN)  (ccomp, 认为#VV, 性的#NN)  (cc, 性的#NN, 而#CC)  (nsubj, 性的#NN, 绵羊肉#NN)  (cop, 性的#NN, 是#VC)  (amod, 性的#NN, 热#JJ)  (conj, 性的#NN, 性的#NN)   (advmod, 具有#VV, 因此#AD)  (nsubj, 具有#VV, 后者#PN)  (root, ROOT#null, 具有#VV)  (assmod, 作用#NN, 补养#NN)  (case, 补养#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (conj, 具有#VV, 适合#VV)  (conj, 病人#NN, 产妇#NN)  (dobj, 适合#VV, 病人#NN)  (conj, 适合#VV, 食用#VV)  (advmod, 忌口#VV, 前者#AD)  (advmod, 忌口#VV, 则#AD)  (nn, 少吃#NN, 病人#NN)  (amod, 少吃#NN, 最好#JJ)  (nsubj, 吃#VV, 少吃#NN)  (amod, 人#NN, 普通#JJ)  (nsubj, 吃#VV, 人#NN)  (loc, 忌口#VV, 吃#VV)  (asp, 吃#VV, 了#AS)  (case, 吃#VV, 以后#LC)  (advmod, 忌口#VV, 也#AD)  (dep, 忌口#VV, 要#VV)  (conj, 具有#VV, 忌口#VV)  (amod, 瓜果#NN, 最好#JJ)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 再#AD)  (relcl, 食物#NN, 吃#VV)  (nn, 性#NN, 凉#NN)  (dobj, 吃#VV, 性#NN)  (mark, 吃#VV, 的#DEC)  (conj, 瓜果#NN, 食物#NN)  (cc, 瓜果#NN, 和#CC)  (conj, 忌口#VV, 瓜果#NN)  (etc, 瓜果#NN, 等#ETC)   (case, 吃法#NN, 从#P)  (prep, 说#VV, 吃法#NN)  (case, 吃法#NN, 上#LC)  (root, ROOT#null, 说#VV)  (nsubj, 适合#VV, 山羊肉#NN)  (advmod, 适合#VV, 更#AD)  (ccomp, 说#VV, 适合#VV)  (conj, 烤羊肉串#NN, 清炖#NN)  (cc, 烤羊肉串#NN, 和#CC)  (dobj, 适合#VV, 烤羊肉串#NN)   (loc, 开发#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (case, 低#VA, 由于#P)  (assmod, 含量#NN, 山羊肉#NN)  (case, 山羊肉#NN, 的#DEG)  (conj, 含量#NN, 胆固醇#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (prep, 开发#VV, 低#VA)  (nsubj, 开发#VV, 还用#NR)  (nsubj, 开发#VV, 它#PN)  (root, ROOT#null, 开发#VV)  (rcomp, 开发#VV, 出#VV)  (asp, 开发#VV, 了#AS)  (nummod, 食品#NN, 很多#CD)  (nn, 食品#NN, 保健#NN)  (dobj, 开发#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.温补脾胃
+            用于治疗脾胃虚寒所致的反胃、身体瘦弱、畏寒等症。
+            2.温补肝肾
+            用于治疗肾阳虚所致的腰膝酸软冷痛、阳痿等症。
+            3.补血温经
+            用于产后血虚经寒所致的腹冷痛。
+            4.保护胃黏膜
+            羊肉可保护胃壁，增加消化酶的分泌，帮助消化。中医认为，羊肉还有补肾壮阳的作用，适合男士经常食用。羊全身是宝。羊肉是绝佳的食疗保健品，羊肉、羊血、羊骨、羊肝、羊奶、羊胆等等可用于多种疾病的治疗，具有较高的药用价值。
+            5.补肝明目
+            羊肉有益血、补肝、明目之功效，对治疗产后贫血、肺结核、夜盲、白内障、青光眼等症有很好的效果。羊奶与牛奶相比，富含更多脂肪和蛋白质，是肾病病人理想的食品之一，也是体虚者的天然补品。
+        </rawdata>
+
+        <segment>
+            温补  脾胃
+            用于  治疗  脾胃  虚寒  所致  的  反胃  、  身体  瘦弱  、  畏  寒  等症  。
+            温补  肝肾
+            用于  治疗  肾  阳虚  所致  的  腰膝  酸软  冷  痛  、  阳痿  等症  。
+            补血  温  经
+            用于  产后  血虚  经寒  所致  的  腹冷痛  。
+            保护  胃  黏膜
+            羊肉  可  保护  胃壁  ，  增加  消化酶  的  分泌  ，  帮助  消化  。  中医  认为  ，  羊肉  还有  补  肾  壮阳  的  作用  ，  适合  男士  经常  食用  。  羊  全身  是  宝  。  羊肉  是  绝佳  的  食疗  保健品  ，  羊肉  、  羊血  、  羊骨  、  羊肝  、  羊奶  、  羊胆  等等  可  用于  多  种  疾病  的  治疗  ，  具有  较  高  的  药用  价值  。
+            补肝  明目
+            羊肉  有益  血  、  补肝  、  明目  之  功效  ，  对  治疗  产后  贫血  、  肺结核  、  夜盲  、  白内障  、  青光眼  等症  有  很  好  的  效果  。  羊奶  与  牛奶  相比  ，  富含  更  多脂肪  和  蛋白质  ，  是  肾病  病人  理想  的  食品  之一  ，  也  是  体虚者  的  天然  补品  。
+        </segment>
+
+        <pos>
+            温补#NN  脾胃#VV
+            用于#VV  治疗#VV  脾胃#NN  虚寒#NN  所致#NN  的#DEC  反胃#NN  、#PU  身体#NN  瘦弱#NN  、#PU  畏#VV  寒#JJ  等症#NN  。#PU
+            温补#NN  肝肾#VV
+            用于#VV  治疗#VV  肾#NN  阳虚#NN  所致#NN  的#DEC  腰膝#NN  酸软#NN  冷#NN  痛#NN  、#PU  阳痿#NN  等症#NN  。#PU
+            补血#NN  温#NN  经#VV
+            用于#VV  产后#AD  血虚#VV  经寒#NN  所致#NN  的#DEG  腹冷痛#NN  。#PU
+            保护#VV  胃#NN  黏膜#NN
+            羊肉#NN  可#VV  保护#VV  胃壁#NN  ，#PU  增加#VV  消化酶#NN  的#DEG  分泌#NN  ，#PU  帮助#VV  消化#NN    。#PU  中医#NN  认为#VV  ，#PU  羊肉#NN  还有#AD  补#VV  肾#NN  壮阳#NN  的#DEG  作用#NN  ，#PU  适合#VV  男士#NN  经常#AD  食用#VV    。#PU  羊#NN  全身#NN  是#VC  宝#NN    。#PU  羊肉#NN  是#VC  绝佳#NN  的#DEG  食疗#NN  保健品#NN  ，#PU  羊肉#NN  、#PU  羊血#NR  、#PU  羊骨#NR  、#PU  羊肝#NR  、#PU  羊奶#NR  、#PU  羊胆#NR  等等#ETC  可#VV  用于#VV  多#CD  种#M  疾病#NN  的#DEC  治疗#NN  ，#PU  具有#VV  较#AD  高#VA  的#DEC  药用#JJ  价值#NN    。#PU    。#PU
+            补肝#NN  明目#VV
+            羊肉#NN  有益#VA  血#NN  、#PU  补肝#NN  、#PU  明目#NN  之#DEG  功效#NN  ，#PU  对#P  治疗#NN  产后#NN  贫血#NR  、#PU  肺结核#NR  、#PU  夜盲#NR  、#PU  白内障#NR  、#PU  青光眼#NR  等症#AD  有#VE  很#AD  好#VA  的#DEC  效果#NN    。#PU  羊奶#NN  与#P  牛奶#NN  相比#VV  ，#PU  富含#VV  更#AD  多脂肪#VA  和#CC  蛋白质#VA  ，#PU  是#VC  肾病#NN  病人#NN  理想#VA  的#DEC  食品#NN  之一#NN  ，#PU  也#AD  是#VC  体虚者#NN  的#DEC  天然#JJ  补品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 脾胃#VV, 温补#NN)  (root, ROOT#null, 脾胃#VV)
+            (root, ROOT#null, 用于#VV)  (relcl, 瘦弱#NN, 治疗#VV)  (nn, 所致#NN, 脾胃#NN)  (nn, 所致#NN, 虚寒#NN)  (dobj, 治疗#VV, 所致#NN)  (mark, 治疗#VV, 的#DEC)  (conj, 瘦弱#NN, 反胃#NN)  (nn, 瘦弱#NN, 身体#NN)  (dobj, 用于#VV, 瘦弱#NN)  (conj, 用于#VV, 畏#VV)  (amod, 等症#NN, 寒#JJ)  (dobj, 畏#VV, 等症#NN)
+            (nsubj, 肝肾#VV, 温补#NN)  (root, ROOT#null, 肝肾#VV)
+            (root, ROOT#null, 用于#VV)  (relcl, 等症#NN, 治疗#VV)  (nn, 所致#NN, 肾#NN)  (nn, 所致#NN, 阳虚#NN)  (dobj, 治疗#VV, 所致#NN)  (mark, 治疗#VV, 的#DEC)  (nn, 等症#NN, 腰膝#NN)  (nn, 等症#NN, 酸软#NN)  (nn, 等症#NN, 冷#NN)  (conj, 等症#NN, 痛#NN)  (nn, 等症#NN, 阳痿#NN)  (dobj, 用于#VV, 等症#NN)
+            (nn, 温#NN, 补血#NN)  (nsubj, 经#VV, 温#NN)  (root, ROOT#null, 经#VV)
+            (root, ROOT#null, 用于#VV)  (advmod, 血虚#VV, 产后#AD)  (ccomp, 用于#VV, 血虚#VV)  (nn, 所致#NN, 经寒#NN)  (assmod, 腹冷痛#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (dobj, 血虚#VV, 腹冷痛#NN)
+            (root, ROOT#null, 保护#VV)  (nn, 黏膜#NN, 胃#NN)  (dobj, 保护#VV, 黏膜#NN)
+            (nsubj, 保护#VV, 羊肉#NN)  (mmod, 保护#VV, 可#VV)  (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 胃壁#NN)  (conj, 保护#VV, 增加#VV)  (assmod, 分泌#NN, 消化酶#NN)  (case, 消化酶#NN, 的#DEG)  (dobj, 增加#VV, 分泌#NN)  (conj, 保护#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)   (nsubj, 认为#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (nsubj, 食用#VV, 羊肉#NN)  (advmod, 食用#VV, 还有#AD)  (dep, 食用#VV, 补#VV)  (nn, 壮阳#NN, 肾#NN)  (assmod, 作用#NN, 壮阳#NN)  (case, 壮阳#NN, 的#DEG)  (dobj, 补#VV, 作用#NN)  (conj, 补#VV, 适合#VV)  (dobj, 适合#VV, 男士#NN)  (advmod, 食用#VV, 经常#AD)  (ccomp, 认为#VV, 食用#VV)   (nn, 全身#NN, 羊#NN)  (nsubj, 宝#NN, 全身#NN)  (cop, 宝#NN, 是#VC)  (root, ROOT#null, 宝#NN)   (nsubj, 保健品#NN, 羊肉#NN)  (cop, 保健品#NN, 是#VC)  (assmod, 保健品#NN, 绝佳#NN)  (case, 绝佳#NN, 的#DEG)  (nn, 保健品#NN, 食疗#NN)  (root, ROOT#null, 保健品#NN)  (conj, 治疗#NN, 羊肉#NN)  (conj, 羊胆#NR, 羊血#NR)  (conj, 羊胆#NR, 羊骨#NR)  (conj, 羊胆#NR, 羊肝#NR)  (conj, 羊胆#NR, 羊奶#NR)  (nn, 治疗#NN, 羊胆#NR)  (etc, 羊胆#NR, 等等#ETC)  (mmod, 用于#VV, 可#VV)  (relcl, 羊胆#NR, 用于#VV)  (relcl, 治疗#NN, 用于#VV)  (nummod, 种#M, 多#CD)  (clf, 疾病#NN, 种#M)  (dobj, 用于#VV, 疾病#NN)  (mark, 用于#VV, 的#DEC)  (nsubj, 具有#VV, 治疗#NN)  (conj, 保健品#NN, 具有#VV)  (advmod, 高#VA, 较#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 具有#VV, 价值#NN)   (root, ROOT#null, null#null)
+            (nsubj, 明目#VV, 补肝#NN)  (root, ROOT#null, 明目#VV)
+            (nsubj, 有益#VA, 羊肉#NN)  (nfincl, 明目#NN, 有益#VA)  (conj, 明目#NN, 血#NN)  (conj, 明目#NN, 补肝#NN)  (assmod, 功效#NN, 明目#NN)  (case, 明目#NN, 之#DEG)  (nsubj, 有#VE, 功效#NN)  (case, 产后#NN, 对#P)  (nn, 产后#NN, 治疗#NN)  (prep, 有#VE, 产后#NN)  (conj, 青光眼#NR, 贫血#NR)  (conj, 青光眼#NR, 肺结核#NR)  (conj, 青光眼#NR, 夜盲#NR)  (conj, 青光眼#NR, 白内障#NR)  (nsubj, 有#VE, 青光眼#NR)  (advmod, 有#VE, 等症#AD)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 效果#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 效果#NN)   (nsubj, 相比#VV, 羊奶#NN)  (case, 牛奶#NN, 与#P)  (prep, 相比#VV, 牛奶#NN)  (root, ROOT#null, 相比#VV)  (dep, 相比#VV, 富含#VV)  (advmod, 多脂肪#VA, 更#AD)  (relcl, 补品#NN, 多脂肪#VA)  (cc, 多脂肪#VA, 和#CC)  (dep, 多脂肪#VA, 蛋白质#VA)  (cop, 之一#NN, 是#VC)  (nn, 病人#NN, 肾病#NN)  (nsubj, 理想#VA, 病人#NN)  (relcl, 之一#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 之一#NN, 食品#NN)  (dep, 多脂肪#VA, 之一#NN)  (advmod, 体虚者#NN, 也#AD)  (cop, 体虚者#NN, 是#VC)  (conj, 多脂肪#VA, 体虚者#NN)  (mark, 多脂肪#VA, 的#DEC)  (amod, 补品#NN, 天然#JJ)  (dobj, 富含#VV, 补品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        提高免疫力  预防贫血  抗癌  健脾  补气  温中  补血  补肾阳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.羊肉含有丰富的蛋白质，其含量较猪肉牛肉高。
+            2.羊肉与猪肉忽和牛肉比，钙、铁、维生素C含量更多。
+            3.羊肉具有独特的膻味，主要是因为脂肪中含有石碳酸的成分，去掉脂肪之后，羊肉便不会再有膻味。
+        </rawdata>
+
+        <segment>
+            羊肉  含有  丰富  的  蛋白质  ，  其  含量  较  猪肉  牛肉  高  。
+            羊肉  与  猪肉  忽  和  牛肉比  ，  钙  、  铁  、  维生素C  含量  更  多  。
+            羊肉  具有  独特  的  膻味  ，  主要  是  因为  脂肪  中  含有  石碳酸  的  成分  ，  去掉  脂肪  之后  ，  羊肉  便  不  会  再  有  膻味  。
+        </segment>
+
+        <pos>
+            羊肉#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  其#PN  含量#NN  较#AD  猪肉#AD  牛肉#AD  高#VA  。#PU
+            羊肉#NN  与#CC  猪肉#NN  忽#NN  和#CC  牛肉比#NN  ，#PU  钙#NN  、#PU  铁#NN  、#PU  维生素C#NN  含量#NN  更#AD  多#VA  。#PU
+            羊肉#NN  具有#VV  独特#VA  的#DEC  膻味#NN  ，#PU  主要#AD  是#VC  因为#P  脂肪#NN  中#LC  含有#VV  石碳酸#NN  的#DEC  成分#NN  ，#PU  去掉#NN  脂肪#NN  之后#LC  ，#PU  羊肉#NN  便#AD  不#AD  会#VV  再#AD  有#VE  膻味#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 羊肉#NN)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (advmod, 高#VA, 猪肉#AD)  (advmod, 高#VA, 牛肉#AD)  (conj, 含有#VV, 高#VA)
+            (conj, 猪肉#NN, 羊肉#NN)  (cc, 猪肉#NN, 与#CC)  (nn, 牛肉比#NN, 猪肉#NN)  (conj, 牛肉比#NN, 忽#NN)  (cc, 牛肉比#NN, 和#CC)  (nsubj, 多#VA, 牛肉比#NN)  (conj, 维生素C#NN, 钙#NN)  (conj, 维生素C#NN, 铁#NN)  (nn, 含量#NN, 维生素C#NN)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 更#AD)  (root, ROOT#null, 多#VA)
+            (nsubj, 成分#NN, 羊肉#NN)  (conj, 成分#NN, 具有#VV)  (relcl, 膻味#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (dobj, 具有#VV, 膻味#NN)  (advmod, 成分#NN, 主要#AD)  (cop, 成分#NN, 是#VC)  (case, 脂肪#NN, 因为#P)  (prep, 含有#VV, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (relcl, 成分#NN, 含有#VV)  (dobj, 含有#VV, 石碳酸#NN)  (mark, 含有#VV, 的#DEC)  (root, ROOT#null, 成分#NN)  (nn, 脂肪#NN, 去掉#NN)  (loc, 有#VE, 脂肪#NN)  (case, 脂肪#NN, 之后#LC)  (nsubj, 有#VE, 羊肉#NN)  (advmod, 有#VE, 便#AD)  (neg, 有#VE, 不#AD)  (mmod, 有#VE, 会#VV)  (advmod, 有#VE, 再#AD)  (conj, 成分#NN, 有#VE)  (dobj, 有#VE, 膻味#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            羊肉有很大的膻味，祛除膻味有以下小窍门：
+            方法一：将萝卜块和羊肉一起下锅，半小时后取出萝卜块，如放几块橘子皮更佳。
+            方法二：每1千克羊肉放绿豆5克，煮沸10分钟后，将水和绿豆一起倒出。
+            方法三：将两三个带壳的核桃洗净打孔，放入与羊肉同煮。
+            方法四：每1千克羊肉中加入剖开的甘蔗200克。
+            方法五：水烧开后加羊肉1千克、醋50克，煮沸后捞出，再重新加水和调料。羊肉可制成许多种风味独特、醇香无比的佳肴。
+        </rawdata>
+
+        <segment>
+            羊肉  有  很  大  的  膻味  ，  祛除  膻味  有  以下  小  窍门  ：
+            方法  一  ：  将  萝卜  块  和  羊肉  一起  下锅  ，  半小时  后  取出  萝卜  块  ，  如  放  几  块  橘子  皮  更  佳  。
+            方法二  ：  每  1千  克  羊肉  放  绿豆  5  克  ，  煮沸  10  分钟  后  ，  将  水  和  绿豆  一起  倒出  。
+            方法三  ：  将  两  三  个  带壳  的  核桃  洗净  打孔  ，  放入  与  羊肉  同煮  。
+            方法四  ：  每  1千  克  羊肉  中  加入  剖开  的  甘蔗  200  克  。
+            方法五  ：  水  烧开  后加  羊肉  1千  克  、  醋  50  克  ，  煮沸  后  捞出  ，  再  重新  加水  和  调料  。  羊肉  可  制成  许多  种  风味  独特  、  醇香  无比  的  佳肴  。
+        </segment>
+
+        <pos>
+            羊肉#NN  有#VE  很#AD  大#VA  的#DEC  膻味#NN  ，#PU  祛除#NN  膻味#AD  有#VE  以下#JJ  小#JJ  窍门#NN  ：#PU
+            方法#NN  一#CD  ：#PU  将#AD  萝卜#CD  块#M  和#P  羊肉#NN  一起#AD  下锅#VV  ，#PU  半小时#VV  后#LC  取出#VV  萝卜#CD  块#M  ，#PU  如#AD  放#VV  几#CD  块#M  橘子#NN  皮#NN  更#AD  佳#VA  。#PU
+            方法二#CD  ：#PU  每#DT  1千#CD  克#M  羊肉#NN  放#VV  绿豆#NN  5#CD  克#M  ，#PU  煮沸#NN  10#CD  分钟#M  后#LC  ，#PU  将#BA  水#NN  和#CC  绿豆#NN  一起#AD  倒出#VV  。#PU
+            方法三#CD  ：#PU  将#BA  两#CD  三#CD  个#M  带壳#NN  的#DEG  核桃#NN  洗净#VV  打孔#NN  ，#PU  放入#VV  与#P  羊肉#NN  同煮#NN  。#PU
+            方法四#CD  ：#PU  每#DT  1千#CD  克#M  羊肉#NN  中#LC  加入#VV  剖开#NN  的#DEC  甘蔗#VV  200#CD  克#M  。#PU
+            方法五#CD  ：#PU  水#NN  烧开#NN  后加#VV  羊肉#NN  1千#CD  克#M  、#PU  醋#VV  50#CD  克#M  ，#PU  煮沸#NN  后#LC  捞出#VV  ，#PU  再#AD  重新#AD  加水#VV  和#CC  调料#VV    。#PU  羊肉#NN  可#VV  制成#VV  许多#CD  种#M  风味#AD  独特#VA  、#PU  醇香#AD  无比#VA  的#DEC  佳肴#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 有#VE, 羊肉#NN)  (root, ROOT#null, 有#VE)  (advmod, 大#VA, 很#AD)  (relcl, 膻味#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 有#VE, 膻味#NN)  (nsubj, 有#VE, 祛除#NN)  (advmod, 有#VE, 膻味#AD)  (conj, 有#VE, 有#VE)  (amod, 窍门#NN, 以下#JJ)  (amod, 窍门#NN, 小#JJ)  (dobj, 有#VE, 窍门#NN)
+            (nsubj, 取出#VV, 方法#NN)  (nsubj, 取出#VV, 一#CD)  (advmod, 取出#VV, 将#AD)  (nummod, 块#M, 萝卜#CD)  (dep, 取出#VV, 块#M)  (case, 下锅#VV, 和#P)  (nsubj, 下锅#VV, 羊肉#NN)  (advmod, 下锅#VV, 一起#AD)  (prep, 取出#VV, 下锅#VV)  (dep, 下锅#VV, 半小时#VV)  (case, 下锅#VV, 后#LC)  (root, ROOT#null, 取出#VV)  (nummod, 块#M, 萝卜#CD)  (range, 取出#VV, 块#M)  (advmod, 佳#VA, 如#AD)  (relcl, 皮#NN, 放#VV)  (nummod, 块#M, 几#CD)  (clf, 橘子#NN, 块#M)  (dobj, 放#VV, 橘子#NN)  (nsubj, 佳#VA, 皮#NN)  (advmod, 佳#VA, 更#AD)  (conj, 取出#VV, 佳#VA)
+            (nsubj, 放#VV, 方法二#CD)  (det, 羊肉#NN, 每#DT)  (nummod, 克#M, 1千#CD)  (dep, 每#DT, 克#M)  (nsubj, 放#VV, 羊肉#NN)  (root, ROOT#null, 放#VV)  (dep, 克#M, 绿豆#NN)  (nummod, 克#M, 5#CD)  (range, 放#VV, 克#M)  (nsubj, 倒出#VV, 煮沸#NN)  (nummod, 分钟#M, 10#CD)  (loc, 倒出#VV, 分钟#M)  (case, 分钟#M, 后#LC)  (ba, 倒出#VV, 将#BA)  (conj, 绿豆#NN, 水#NN)  (cc, 绿豆#NN, 和#CC)  (nsubj, 倒出#VV, 绿豆#NN)  (advmod, 倒出#VV, 一起#AD)  (conj, 放#VV, 倒出#VV)
+            (nsubj, 洗净#VV, 方法三#CD)  (ba, 洗净#VV, 将#BA)  (nummod, 核桃#NN, 两#CD)  (nummod, 个#M, 三#CD)  (clf, 带壳#NN, 个#M)  (assmod, 核桃#NN, 带壳#NN)  (case, 带壳#NN, 的#DEG)  (nsubj, 洗净#VV, 核桃#NN)  (root, ROOT#null, 洗净#VV)  (dobj, 洗净#VV, 打孔#NN)  (conj, 洗净#VV, 放入#VV)  (case, 同煮#NN, 与#P)  (nn, 同煮#NN, 羊肉#NN)  (prep, 放入#VV, 同煮#NN)
+            (nsubj, 甘蔗#VV, 方法四#CD)  (det, 羊肉#NN, 每#DT)  (nummod, 克#M, 1千#CD)  (dep, 每#DT, 克#M)  (loc, 甘蔗#VV, 羊肉#NN)  (case, 羊肉#NN, 中#LC)  (nsubj, 甘蔗#VV, 加入#VV)  (dobj, 加入#VV, 剖开#NN)  (mark, 加入#VV, 的#DEC)  (root, ROOT#null, 甘蔗#VV)  (nummod, 克#M, 200#CD)  (range, 甘蔗#VV, 克#M)
+            (nsubj, 后加#VV, 方法五#CD)  (nn, 烧开#NN, 水#NN)  (nsubj, 后加#VV, 烧开#NN)  (root, ROOT#null, 后加#VV)  (dobj, 后加#VV, 羊肉#NN)  (nummod, 克#M, 1千#CD)  (range, 后加#VV, 克#M)  (conj, 后加#VV, 醋#VV)  (nummod, 克#M, 50#CD)  (range, 醋#VV, 克#M)  (loc, 捞出#VV, 煮沸#NN)  (case, 煮沸#NN, 后#LC)  (conj, 后加#VV, 捞出#VV)  (advmod, 加水#VV, 再#AD)  (advmod, 加水#VV, 重新#AD)  (conj, 后加#VV, 加水#VV)  (cc, 加水#VV, 和#CC)  (conj, 加水#VV, 调料#VV)   (nsubj, 制成#VV, 羊肉#NN)  (mmod, 制成#VV, 可#VV)  (root, ROOT#null, 制成#VV)  (nummod, 种#M, 许多#CD)  (clf, 佳肴#NN, 种#M)  (advmod, 独特#VA, 风味#AD)  (relcl, 佳肴#NN, 独特#VA)  (advmod, 无比#VA, 醇香#AD)  (dep, 独特#VA, 无比#VA)  (mark, 独特#VA, 的#DEC)  (dobj, 制成#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081444208405.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\24 羊肉.jpg
+    </picturelocalurl>
+
+</content>

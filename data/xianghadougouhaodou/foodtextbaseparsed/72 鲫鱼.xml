@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        72
+    </id>
+
+    <foodname>
+        鲫鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        河鲫、鲋鱼、喜头、鲫瓜子、喜头鱼、海附鱼、童子鲫、鲭
+    </alias>
+
+    <season>
+        8-12月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒发热者不宜多吃。
+        </rawdata>
+
+        <segment>
+            感冒  发热  者  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            感冒#NN  发热#NN  者#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 感冒#NN)  (nn, 者#NN, 发热#NN)  (nsubj, 吃#VV, 者#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。1.适宜慢性肾炎水肿，肝硬化腹水，营养不良性浮肿之人食用；2.适宜孕妇产后乳汁缺少之人食用；3.适宜脾胃虚弱，饮食不香之人食用；4.适宜小儿麻疹初期，或麻疹透发不快者食用；5.适宜痔疮出血，慢性久痢者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。    适宜  慢性  肾炎  水肿  ，  肝硬化  腹水  ，  营养  不良性  浮肿  之  人  食用  ；  2  .  适宜  孕妇  产后  乳汁  缺少  之  人  食用  ；  3  .  适宜  脾胃  虚弱  ，  饮食  不  香  之  人  食用  ；  4  .  适宜  小儿  麻疹  初期  ，  或  麻疹  透发  不快  者  食用  ；  5  .  适宜  痔疮  出血  ，  慢性  久痢者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VA  慢性#NN  肾炎#NN  水肿#VV  ，#PU  肝硬化#NR  腹水#VA  ，#PU  营养#VA  不良性#NN  浮肿#NN  之#DEG  人#NN  食用#VV  ；#PU  2#CD  .#NN  适宜#VV  孕妇#NN  产后#NN  乳汁#NN  缺少#VV  之#DEC  人#NN  食用#VV  ；#PU  3#CD  .#NN  适宜#VV  脾胃#NN  虚弱#NN  ，#PU  饮食#NN  不#AD  香#VV  之#DEC  人#NN  食用#VV  ；#PU  4#CD  .#NN  适宜#VV  小儿#NN  麻疹#NN  初期#NN  ，#PU  或#CC  麻疹#NN  透发#NN  不快#NN  者#NN  食用#VV  ；#PU  5#CD  .#NN  适宜#VV  痔疮#AD  出血#VV  ，#PU  慢性#NN  久痢者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 肾炎#NN, 适宜#VA)  (nn, 肾炎#NN, 慢性#NN)  (nsubj, 水肿#VV, 肾炎#NN)  (root, ROOT#null, 水肿#VV)  (nsubj, 腹水#VA, 肝硬化#NR)  (ccomp, 水肿#VV, 腹水#VA)  (relcl, 浮肿#NN, 营养#VA)  (nn, 浮肿#NN, 不良性#NN)  (assmod, 人#NN, 浮肿#NN)  (case, 浮肿#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (conj, 腹水#VA, 食用#VV)  (nummod, .#NN, 2#CD)  (conj, 腹水#VA, 适宜#VV)  (nn, 乳汁#NN, 孕妇#NN)  (nn, 乳汁#NN, 产后#NN)  (nsubj, 缺少#VV, 乳汁#NN)  (relcl, 人#NN, 缺少#VV)  (mark, 缺少#VV, 之#DEC)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (nummod, .#NN, 3#CD)  (conj, 腹水#VA, 适宜#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 适宜#VV, 虚弱#NN)  (nsubj, 香#VV, 饮食#NN)  (neg, 香#VV, 不#AD)  (relcl, 人#NN, 香#VV)  (mark, 香#VV, 之#DEC)  (nsubj, 食用#VV, 人#NN)  (conj, 腹水#VA, 食用#VV)  (nummod, .#NN, 4#CD)  (conj, 腹水#VA, 适宜#VV)  (nn, 初期#NN, 小儿#NN)  (nn, 初期#NN, 麻疹#NN)  (dobj, 适宜#VV, 初期#NN)  (cc, 腹水#VA, 或#CC)  (nn, 者#NN, 麻疹#NN)  (nn, 者#NN, 透发#NN)  (nn, 者#NN, 不快#NN)  (nsubj, 食用#VV, 者#NN)  (conj, 腹水#VA, 食用#VV)  (nummod, .#NN, 5#CD)  (mmod, 出血#VV, 适宜#VV)  (advmod, 出血#VV, 痔疮#AD)  (conj, 腹水#VA, 出血#VV)  (nn, 久痢者#NN, 慢性#NN)  (nsubj, 食用#VV, 久痢者#NN)  (conj, 腹水#VA, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                108
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                79
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                193
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                290
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                41.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                14.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                78.6
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲫鱼又名鲋鱼，别称喜头，为鲤科动物，产于全国各地。鲫鱼俗称鲫瓜子，肉味鲜美，肉质细嫩，它营养全面，含蛋白质多，脂肪少，食之鲜而不腻，略感甜味；它是一种适应性很强的鱼类，栖于江河，湖泊、池沼、河渠中，尤以水草丛生的浅水湖和池塘较多，鲫鱼四季均产，但以2～4月和8～12月产的最肥。鲫鱼体侧扁而高，体较小，背部发暗，腹部色浅，体色因产地而异，多为黑色带金属光泽，嘴上无须，鳞较小，鳍的形状同鲤鱼。鲫鱼肉嫩味美，营养价值较高，但刺细小且多。
+            鲫鱼是杂食性鱼，但成鱼主要以植物性食料为主。因为植物性饲料在水体中蕴藏丰富，品种每繁多，供采食的面广。维管束水草的茎，叶，芽和果实是鲫鱼爱食之物，在生有菱和藕的高等水生植物的水域，鲫鱼最能获得各种丰富的营养物质。硅藻和一些状藻类也是鲫鱼的食物，小虾，蚯蚓，幼螺，昆虫等它们也很爱吃。鲫鱼采食时间，依季节不同而不同。春季为采食旺季，昼夜均在不断地采食；夏季采食时间为早，晚和夜间；秋季全天采食；冬季则在中午前后采食。生活在江河流动水里的鲫鱼，喜欢群集而行。有时顺水，有时逆水，到水草丰茂的浅滩，河湾，沟汊，芦苇丛中寻食，产卵；遇到水流缓慢或静止不动，具有丰富饵料的场所，它们就暂栖息下来。
+        </rawdata>
+
+        <segment>
+            鲫鱼  又  名  鲋鱼  ，  别称  喜头  ，  为  鲤科  动物  ，  产于  全国  各地  。  鲫鱼  俗称  鲫瓜子  ，  肉味  鲜美  ，  肉质  细嫩  ，  它  营养  全面  ，  含  蛋白质  多  ，  脂肪  少  ，  食  之  鲜  而  不  腻  ，  略  感  甜味  ；  它  是  一  种  适应性  很  强  的  鱼类  ，  栖于  江河  ，  湖泊  、  池沼  、  河渠  中  ，  尤以  水草  丛生  的  浅水  湖  和  池塘  较  多  ，  鲫鱼  四  季  均  产  ，  但  以  2  ～  4月  和  8  ～  12月  产  的  最  肥  。  鲫鱼  体  侧扁  而  高  ，  体  较  小  ，  背部  发暗  ，  腹部  色浅  ，  体色  因  产地  而异  ，  多  为  黑色  带  金属  光泽  ，  嘴上  无须  ，  鳞较小  ，  鳍的  形状  同  鲤鱼  。  鲫鱼  肉嫩  味美  ，  营养  价值  较  高  ，  但  刺  细小  且  多  。
+            鲫鱼  是  杂食性  鱼  ，  但  成鱼  主要  以  植物性  食料  为主  。  因为  植物性  饲料  在  水体  中  蕴藏  丰富  ，  品种  每  繁多  ，  供  采食  的  面广  。  维管束  水草  的  茎  ，  叶  ，  芽  和  果实  是  鲫鱼  爱  食  之  物  ，  在  生有  菱和藕  的  高等  水生  植物  的  水域  ，  鲫鱼  最能  获得  各  种  丰富  的  营养  物质  。  硅藻  和  一些  状  藻类  也  是  鲫鱼  的  食物  ，  小虾  ，  蚯蚓  ，  幼螺  ，  昆虫  等  它们  也  很  爱吃  。  鲫鱼  采食  时间  ，  依  季节  不同  而  不同  。  春季  为  采食  旺季  ，  昼夜  均  在  不断  地  采食  ；  夏季  采食  时间  为  早  ，  晚  和  夜间  ；  秋季  全  天  采食  ；  冬季  则  在  中午  前后  采食  。  生活  在  江河  流动  水里  的  鲫鱼  ，  喜欢  群集  而行  。  有时  顺水  ，  有时  逆水  ，  到  水草  丰茂  的  浅滩  ，  河湾  ，  沟汊  ，  芦苇丛  中  寻食  ，  产卵  ；  遇到  水流  缓慢  或  静止  不动  ，  具有  丰富  饵料  的  场所  ，  它们  就  暂  栖息  下来  。
+        </segment>
+
+        <pos>
+            鲫鱼#NN  又#CC  名#NN  鲋鱼#VV  ，#PU  别称#NN  喜头#NN  ，#PU  为#P  鲤科#JJ  动物#NN  ，#PU  产于#AD  全国#VV  各地#NN    。#PU  鲫鱼#NR  俗称#VV  鲫瓜子#VV  ，#PU  肉味#NN  鲜美#NN  ，#PU  肉质#NN  细嫩#NN  ，#PU  它#PN  营养#VA  全面#VA  ，#PU  含#VV  蛋白质#NN  多#CD  ，#PU  脂肪#NR  少#VA  ，#PU  食#NN  之#DEG  鲜#NN  而#CC  不#AD  腻#VV  ，#PU  略#AD  感#VV  甜味#NN  ；#PU  它#PN  是#VC  一#CD  种#M  适应性#NR  很#AD  强#VA  的#DEC  鱼类#NN  ，#PU  栖于#VV  江河#NN  ，#PU  湖泊#NN  、#PU  池沼#NN  、#PU  河渠#NN  中#LC  ，#PU  尤以#NN  水草#NN  丛生#NN  的#DEG  浅水#JJ  湖#NN  和#CC  池塘#NN  较#AD  多#VA  ，#PU  鲫鱼#NR  四#CD  季#NN  均#AD  产#VV  ，#PU  但#AD  以#P  2#CD  ～#NN  4月#NT  和#CC  8#CD  ～#NN  12月#NT  产#VV  的#DEC  最#AD  肥#NR    。#PU  鲫鱼#NN  体#NN  侧扁#NN  而#MSP  高#VA  ，#PU  体#NN  较#AD  小#VA  ，#PU  背部#NN  发暗#NN  ，#PU  腹部#NN  色浅#NN  ，#PU  体色#NN  因#P  产地#NN  而异#NN  ，#PU  多#AD  为#VC  黑色#JJ  带#NN  金属#NN  光泽#NN  ，#PU  嘴上#VV  无须#NN  ，#PU  鳞较小#VV  ，#PU  鳍的#VV  形状#NN  同#DT  鲤鱼#NN    。#PU  鲫鱼#NN  肉嫩#AD  味美#VA  ，#PU  营养#VA  价值#NN  较#AD  高#VA  ，#PU  但#AD  刺#NN  细小#VA  且#CC  多#VA    。#PU    。#PU
+            鲫鱼#NN  是#VC  杂食性#NN  鱼#NN  ，#PU  但#AD  成鱼#NN  主要#AD  以#P  植物性#NN  食料#NN  为主#VV    。#PU  因为#P  植物性#VV  饲料#NN  在#P  水体#NN  中#LC  蕴藏#VV  丰富#VA  ，#PU  品种#NN  每#DT  繁多#NN  ，#PU  供#NN  采食#VV  的#DEC  面广#NN    。#PU  维管束#NN  水草#NN  的#DEG  茎#NN  ，#PU  叶#NR  ，#PU  芽#NN  和#CC  果实#NN  是#VC  鲫鱼#AD  爱#VV  食#NN  之#DEG  物#NN  ，#PU  在#P  生有#NR  菱和藕#VV  的#DEC  高等#JJ  水生#NN  植物#NN  的#DEG  水域#NN  ，#PU  鲫鱼#NR  最能#AD  获得#VV  各#DT  种#M  丰富#VA  的#DEC  营养#VA  物质#NN    。#PU  硅藻#NN  和#CC  一些#CD  状#NN  藻类#NN  也#AD  是#VC  鲫鱼#NN  的#DEG  食物#NN  ，#PU  小虾#VV  ，#PU  蚯蚓#NN  ，#PU  幼螺#VV  ，#PU  昆虫#NN  等#ETC  它们#PN  也#AD  很#AD  爱吃#VV    。#PU  鲫鱼#VV  采食#NN  时间#NN  ，#PU  依#P  季节#NN  不同#VA  而#CC  不同#VA    。#PU  春季#NT  为#VC  采食#NN  旺季#NN  ，#PU  昼夜#NN  均#AD  在#P  不断#JJ  地#NN  采食#VV  ；#PU  夏季#NT  采食#NN  时间#NN  为#VC  早#VA  ，#PU  晚#VA  和#CC  夜间#VA  ；#PU  秋季#NT  全#DT  天#M  采食#VV  ；#PU  冬季#NT  则#AD  在#P  中午#NT  前后#LC  采食#VV    。#PU  生活#NN  在#P  江河#NN  流动#NN  水里#NN  的#DEG  鲫鱼#NN  ，#PU  喜欢#VV  群集#VV  而行#NN    。#PU  有时#AD  顺水#NR  ，#PU  有时#AD  逆水#VV  ，#PU  到#VV  水草#NN  丰茂#NN  的#DEG  浅滩#NN  ，#PU  河湾#VV  ，#PU  沟汊#VV  ，#PU  芦苇丛#NN  中#LC  寻食#VV  ，#PU  产卵#VV  ；#PU  遇到#VV  水流#NN  缓慢#VA  或#CC  静止#VV  不动#NN  ，#PU  具有#VV  丰富#VA  饵料#VA  的#DEC  场所#NN  ，#PU  它们#PN  就#AD  暂#AD  栖息#VV  下来#VV    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 鲫鱼#NN)  (cc, 名#NN, 又#CC)  (nsubj, 鲋鱼#VV, 名#NN)  (root, ROOT#null, 鲋鱼#VV)  (nn, 喜头#NN, 别称#NN)  (nsubj, 全国#VV, 喜头#NN)  (case, 动物#NN, 为#P)  (amod, 动物#NN, 鲤科#JJ)  (prep, 全国#VV, 动物#NN)  (advmod, 全国#VV, 产于#AD)  (ccomp, 鲋鱼#VV, 全国#VV)  (dobj, 全国#VV, 各地#NN)   (nsubj, 俗称#VV, 鲫鱼#NR)  (root, ROOT#null, 俗称#VV)  (relcl, 肥#NR, 鲫瓜子#VV)  (nn, 鲜美#NN, 肉味#NN)  (nsubj, 营养#VA, 鲜美#NN)  (nn, 细嫩#NN, 肉质#NN)  (nsubj, 营养#VA, 细嫩#NN)  (nsubj, 营养#VA, 它#PN)  (ccomp, 鲫瓜子#VV, 营养#VA)  (comod, 营养#VA, 全面#VA)  (dep, 营养#VA, 含#VV)  (dobj, 含#VV, 蛋白质#NN)  (range, 含#VV, 多#CD)  (nsubj, 少#VA, 脂肪#NR)  (conj, 营养#VA, 少#VA)  (assmod, 鲜#NN, 食#NN)  (case, 食#NN, 之#DEG)  (nsubj, 腻#VV, 鲜#NN)  (cc, 腻#VV, 而#CC)  (neg, 腻#VV, 不#AD)  (conj, 营养#VA, 腻#VV)  (advmod, 感#VV, 略#AD)  (dep, 腻#VV, 感#VV)  (dobj, 感#VV, 甜味#NN)  (nsubj, 鱼类#NN, 它#PN)  (cop, 鱼类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 鱼类#NN, 种#M)  (nsubj, 强#VA, 适应性#NR)  (advmod, 强#VA, 很#AD)  (relcl, 鱼类#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (conj, 营养#VA, 鱼类#NN)  (conj, 鱼类#NN, 栖于#VV)  (dobj, 栖于#VV, 江河#NN)  (conj, 河渠#NN, 湖泊#NN)  (conj, 河渠#NN, 池沼#NN)  (loc, 多#VA, 河渠#NN)  (case, 河渠#NN, 中#LC)  (nn, 丛生#NN, 尤以#NN)  (nn, 丛生#NN, 水草#NN)  (assmod, 池塘#NN, 丛生#NN)  (case, 丛生#NN, 的#DEG)  (amod, 池塘#NN, 浅水#JJ)  (conj, 池塘#NN, 湖#NN)  (cc, 池塘#NN, 和#CC)  (nsubj, 多#VA, 池塘#NN)  (advmod, 多#VA, 较#AD)  (conj, 营养#VA, 多#VA)  (nn, 季#NN, 鲫鱼#NR)  (nummod, 季#NN, 四#CD)  (nsubj, 产#VV, 季#NN)  (advmod, 产#VV, 均#AD)  (conj, 营养#VA, 产#VV)  (advmod, 产#VV, 但#AD)  (case, ～#NN, 以#P)  (nummod, ～#NN, 2#CD)  (conj, ～#NN, 4月#NT)  (cc, ～#NN, 和#CC)  (nummod, ～#NN, 8#CD)  (tmod, 产#VV, 12月#NT)  (conj, 营养#VA, 产#VV)  (mark, 鲫瓜子#VV, 的#DEC)  (advmod, 肥#NR, 最#AD)  (dobj, 俗称#VV, 肥#NR)   (nn, 侧扁#NN, 鲫鱼#NN)  (nn, 侧扁#NN, 体#NN)  (nsubj, 高#VA, 侧扁#NN)  (prtmod, 高#VA, 而#MSP)  (root, ROOT#null, 高#VA)  (nsubj, 小#VA, 体#NN)  (advmod, 小#VA, 较#AD)  (conj, 高#VA, 小#VA)  (nn, 发暗#NN, 背部#NN)  (nsubj, 光泽#NN, 发暗#NN)  (nn, 色浅#NN, 腹部#NN)  (nsubj, 光泽#NN, 色浅#NN)  (nsubj, 光泽#NN, 体色#NN)  (case, 而异#NN, 因#P)  (nn, 而异#NN, 产地#NN)  (prep, 光泽#NN, 而异#NN)  (advmod, 光泽#NN, 多#AD)  (cop, 光泽#NN, 为#VC)  (amod, 带#NN, 黑色#JJ)  (nn, 光泽#NN, 带#NN)  (nn, 光泽#NN, 金属#NN)  (conj, 高#VA, 光泽#NN)  (conj, 光泽#NN, 嘴上#VV)  (dobj, 嘴上#VV, 无须#NN)  (conj, 光泽#NN, 鳞较小#VV)  (conj, 光泽#NN, 鳍的#VV)  (nn, 鲤鱼#NN, 形状#NN)  (det, 鲤鱼#NN, 同#DT)  (dobj, 鳍的#VV, 鲤鱼#NN)   (nsubj, 味美#VA, 鲫鱼#NN)  (advmod, 味美#VA, 肉嫩#AD)  (root, ROOT#null, 味美#VA)  (conj, 味美#VA, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 较#AD)  (dep, 味美#VA, 高#VA)  (advmod, 细小#VA, 但#AD)  (nsubj, 细小#VA, 刺#NN)  (conj, 高#VA, 细小#VA)  (cc, 细小#VA, 且#CC)  (dep, 细小#VA, 多#VA)   (root, ROOT#null, null#null)
+            (nsubj, 鱼#NN, 鲫鱼#NN)  (cop, 鱼#NN, 是#VC)  (nn, 鱼#NN, 杂食性#NN)  (root, ROOT#null, 鱼#NN)  (advmod, 为主#VV, 但#AD)  (nsubj, 为主#VV, 成鱼#NN)  (advmod, 为主#VV, 主要#AD)  (case, 食料#NN, 以#P)  (nn, 食料#NN, 植物性#NN)  (prep, 为主#VV, 食料#NN)  (conj, 鱼#NN, 为主#VV)   (case, 植物性#VV, 因为#P)  (prep, 蕴藏#VV, 植物性#VV)  (dobj, 植物性#VV, 饲料#NN)  (case, 水体#NN, 在#P)  (prep, 蕴藏#VV, 水体#NN)  (case, 水体#NN, 中#LC)  (root, ROOT#null, 蕴藏#VV)  (relcl, 面广#NN, 丰富#VA)  (nn, 繁多#NN, 品种#NN)  (det, 繁多#NN, 每#DT)  (nsubj, 采食#VV, 繁多#NN)  (nsubj, 采食#VV, 供#NN)  (dep, 丰富#VA, 采食#VV)  (mark, 丰富#VA, 的#DEC)  (dobj, 蕴藏#VV, 面广#NN)   (nn, 水草#NN, 维管束#NN)  (assmod, 茎#NN, 水草#NN)  (case, 水草#NN, 的#DEG)  (dep, 水域#NN, 茎#NN)  (dep, 水域#NN, 叶#NR)  (conj, 果实#NN, 芽#NN)  (cc, 果实#NN, 和#CC)  (nsubj, 水域#NN, 果实#NN)  (cop, 水域#NN, 是#VC)  (advmod, 爱#VV, 鲫鱼#AD)  (relcl, 水生#NN, 爱#VV)  (assmod, 物#NN, 食#NN)  (case, 食#NN, 之#DEG)  (nsubj, 菱和藕#VV, 物#NN)  (case, 生有#NR, 在#P)  (prep, 菱和藕#VV, 生有#NR)  (ccomp, 爱#VV, 菱和藕#VV)  (mark, 爱#VV, 的#DEC)  (amod, 水生#NN, 高等#JJ)  (nn, 植物#NN, 水生#NN)  (assmod, 水域#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (root, ROOT#null, 水域#NN)  (nsubj, 获得#VV, 鲫鱼#NR)  (advmod, 获得#VV, 最能#AD)  (conj, 水域#NN, 获得#VV)  (det, 物质#NN, 各#DT)  (clf, 各#DT, 种#M)  (relcl, 物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (relcl, 物质#NN, 营养#VA)  (dobj, 获得#VV, 物质#NN)   (conj, 藻类#NN, 硅藻#NN)  (cc, 藻类#NN, 和#CC)  (nummod, 藻类#NN, 一些#CD)  (nn, 藻类#NN, 状#NN)  (nsubj, 食物#NN, 藻类#NN)  (advmod, 食物#NN, 也#AD)  (cop, 食物#NN, 是#VC)  (assmod, 食物#NN, 鲫鱼#NN)  (case, 鲫鱼#NN, 的#DEG)  (root, ROOT#null, 食物#NN)  (conj, 食物#NN, 小虾#VV)  (nsubj, 幼螺#VV, 蚯蚓#NN)  (ccomp, 小虾#VV, 幼螺#VV)  (nsubj, 爱吃#VV, 昆虫#NN)  (etc, 昆虫#NN, 等#ETC)  (nsubj, 爱吃#VV, 它们#PN)  (advmod, 爱吃#VV, 也#AD)  (advmod, 爱吃#VV, 很#AD)  (ccomp, 幼螺#VV, 爱吃#VV)   (root, ROOT#null, 鲫鱼#VV)  (nn, 时间#NN, 采食#NN)  (dobj, 鲫鱼#VV, 时间#NN)  (case, 季节#NN, 依#P)  (prep, 不同#VA, 季节#NN)  (conj, 鲫鱼#VV, 不同#VA)  (cc, 不同#VA, 而#CC)  (dep, 不同#VA, 不同#VA)   (nsubj, 旺季#NN, 春季#NT)  (cop, 旺季#NN, 为#VC)  (nn, 旺季#NN, 采食#NN)  (root, ROOT#null, 旺季#NN)  (nsubj, 采食#VV, 昼夜#NN)  (advmod, 采食#VV, 均#AD)  (case, 地#NN, 在#P)  (amod, 地#NN, 不断#JJ)  (prep, 采食#VV, 地#NN)  (conj, 旺季#NN, 采食#VV)  (nn, 时间#NN, 夏季#NT)  (nn, 时间#NN, 采食#NN)  (nsubj, 早#VA, 时间#NN)  (cop, 早#VA, 为#VC)  (conj, 旺季#NN, 早#VA)  (dep, 早#VA, 晚#VA)  (cc, 晚#VA, 和#CC)  (dep, 晚#VA, 夜间#VA)  (tmod, 采食#VV, 秋季#NT)  (dep, 采食#VV, 全#DT)  (clf, 全#DT, 天#M)  (conj, 旺季#NN, 采食#VV)  (tmod, 采食#VV, 冬季#NT)  (advmod, 采食#VV, 则#AD)  (case, 中午#NT, 在#P)  (prep, 采食#VV, 中午#NT)  (case, 中午#NT, 前后#LC)  (dep, 旺季#NN, 采食#VV)   (nsubj, 喜欢#VV, 生活#NN)  (case, 鲫鱼#NN, 在#P)  (nn, 水里#NN, 江河#NN)  (nn, 水里#NN, 流动#NN)  (assmod, 鲫鱼#NN, 水里#NN)  (case, 水里#NN, 的#DEG)  (prep, 喜欢#VV, 鲫鱼#NN)  (root, ROOT#null, 喜欢#VV)  (ccomp, 喜欢#VV, 群集#VV)  (dobj, 群集#VV, 而行#NN)   (advmod, 逆水#VV, 有时#AD)  (nsubj, 逆水#VV, 顺水#NR)  (xsubj, 到#VV, 顺水#NR)  (advmod, 逆水#VV, 有时#AD)  (root, ROOT#null, 逆水#VV)  (ccomp, 逆水#VV, 到#VV)  (nn, 丰茂#NN, 水草#NN)  (assmod, 浅滩#NN, 丰茂#NN)  (case, 丰茂#NN, 的#DEG)  (dobj, 到#VV, 浅滩#NN)  (conj, 到#VV, 河湾#VV)  (conj, 到#VV, 沟汊#VV)  (loc, 寻食#VV, 芦苇丛#NN)  (case, 芦苇丛#NN, 中#LC)  (conj, 到#VV, 寻食#VV)  (conj, 到#VV, 产卵#VV)  (conj, 到#VV, 遇到#VV)  (dobj, 遇到#VV, 水流#NN)  (conj, 遇到#VV, 缓慢#VA)  (cc, 到#VV, 或#CC)  (conj, 到#VV, 静止#VV)  (dobj, 静止#VV, 不动#NN)  (conj, 到#VV, 具有#VV)  (relcl, 场所#NN, 丰富#VA)  (comod, 丰富#VA, 饵料#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 具有#VV, 场所#NN)  (nsubj, 栖息#VV, 它们#PN)  (advmod, 栖息#VV, 就#AD)  (advmod, 栖息#VV, 暂#AD)  (conj, 逆水#VV, 栖息#VV)  (comod, 栖息#VV, 下来#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强抗病能力
+            肝肾疾病，心脑血管疾病患者的良好蛋白质来源，常食可增强抗病能力，肝炎、肾炎、高血压、心脏病，慢性支气管炎等疾病患者可经常食用。
+            2.通乳汁
+            自古以来鲫鱼就是产妇的催乳补品，吃卿鱼可以让产妇乳汁充盈。
+            3.明目益智
+            鲫鱼子能补肝养目，鲫鱼胆有健脑益智的作用。
+            4.美容抗皱
+            鲫鱼含有全面而优质的蛋白质，对肌肤的弹力纤维构成起到了良好的强化作用，尤其对压力，睡眠不足等精神因素导致的早期皱纹，有奇特的缓解功效。
+        </rawdata>
+
+        <segment>
+            增强  抗病  能力
+            肝肾  疾病  ，  心脑  血管  疾病  患者  的  良好  蛋白质  来源  ，  常食  可  增强  抗病  能力  ，  肝炎  、  肾炎  、  高  血压  、  心脏病  ，  慢性  支气管炎  等  疾病  患者  可  经常  食用  。
+            通  乳汁
+            自古以来  鲫鱼  就是  产妇  的  催乳  补品  ，  吃  卿鱼  可以  让  产妇  乳汁  充盈  。
+            明目  益智
+            鲫鱼子  能  补肝  养  目  ，  鲫鱼胆  有  健脑  益智  的  作用  。
+            美容  抗皱
+            鲫鱼  含有  全面  而  优质  的  蛋白质  ，  对  肌肤  的  弹力  纤维  构成  起到  了  良好  的  强化  作用  ，  尤其  对  压力  ，  睡眠  不足  等  精神  因素  导致  的  早期  皱纹  ，  有  奇特  的  缓解  功效  。
+        </segment>
+
+        <pos>
+            增强#VV  抗病#NN  能力#NN
+            肝肾#NN  疾病#NN  ，#PU  心脑#NN  血管#NN  疾病#NN  患者#NN  的#DEG  良好#JJ  蛋白质#NN  来源#NN  ，#PU  常食#AD  可#VV  增强#VV  抗病#NN  能力#NN  ，#PU  肝炎#NN  、#PU  肾炎#NN  、#PU  高#JJ  血压#NN  、#PU  心脏病#NN  ，#PU  慢性#NN  支气管炎#NN  等#ETC  疾病#NN  患者#NN  可#VV  经常#AD  食用#VV  。#PU
+            通#VV  乳汁#NN
+            自古以来#AD  鲫鱼#VV  就是#CC  产妇#NN  的#DEG  催乳#JJ  补品#NN  ，#PU  吃#VV  卿鱼#NN  可以#VV  让#VV  产妇#NN  乳汁#VV  充盈#NN  。#PU
+            明目#NN  益智#VV
+            鲫鱼子#NN  能#VV  补肝#VV  养#VV  目#M  ，#PU  鲫鱼胆#AD  有#VE  健脑#NN  益智#NN  的#DEC  作用#NN  。#PU
+            美容#NN  抗皱#VV
+            鲫鱼#NN  含有#VV  全面#JJ  而#CC  优质#JJ  的#DEG  蛋白质#NN  ，#PU  对#P  肌肤#NN  的#DEG  弹力#NN  纤维#NN  构成#VV  起到#VV  了#AS  良好#VA  的#DEC  强化#NN  作用#NN  ，#PU  尤其#AD  对#P  压力#NN  ，#PU  睡眠#NN  不足#NN  等#ETC  精神#NN  因素#NN  导致#VV  的#DEC  早期#NN  皱纹#NN  ，#PU  有#VE  奇特#NN  的#DEG  缓解#NN  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)
+            (nn, 疾病#NN, 肝肾#NN)  (nsubj, 增强#VV, 疾病#NN)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (nn, 患者#NN, 疾病#NN)  (assmod, 来源#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 来源#NN, 良好#JJ)  (nn, 来源#NN, 蛋白质#NN)  (nsubj, 增强#VV, 来源#NN)  (advmod, 增强#VV, 常食#AD)  (mmod, 增强#VV, 可#VV)  (root, ROOT#null, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 支气管炎#NN, 肝炎#NN)  (conj, 支气管炎#NN, 肾炎#NN)  (amod, 血压#NN, 高#JJ)  (conj, 支气管炎#NN, 血压#NN)  (dep, 支气管炎#NN, 心脏病#NN)  (nn, 支气管炎#NN, 慢性#NN)  (nn, 疾病#NN, 支气管炎#NN)  (etc, 支气管炎#NN, 等#ETC)  (nn, 患者#NN, 疾病#NN)  (nsubj, 食用#VV, 患者#NN)  (mmod, 食用#VV, 可#VV)  (advmod, 食用#VV, 经常#AD)  (conj, 增强#VV, 食用#VV)
+            (root, ROOT#null, 通#VV)  (dobj, 通#VV, 乳汁#NN)
+            (advmod, 鲫鱼#VV, 自古以来#AD)  (dep, 吃#VV, 鲫鱼#VV)  (cc, 鲫鱼#VV, 就是#CC)  (assmod, 补品#NN, 产妇#NN)  (case, 产妇#NN, 的#DEG)  (amod, 补品#NN, 催乳#JJ)  (dep, 鲫鱼#VV, 补品#NN)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 卿鱼#NN)  (mmod, 让#VV, 可以#VV)  (conj, 吃#VV, 让#VV)  (dobj, 让#VV, 产妇#NN)  (dep, 让#VV, 乳汁#VV)  (dobj, 乳汁#VV, 充盈#NN)
+            (nsubj, 益智#VV, 明目#NN)  (root, ROOT#null, 益智#VV)
+            (nsubj, 补肝#VV, 鲫鱼子#NN)  (mmod, 补肝#VV, 能#VV)  (root, ROOT#null, 补肝#VV)  (relcl, 作用#NN, 养#VV)  (dobj, 养#VV, 目#M)  (advmod, 有#VE, 鲫鱼胆#AD)  (conj, 养#VV, 有#VE)  (nn, 益智#NN, 健脑#NN)  (dobj, 有#VE, 益智#NN)  (mark, 养#VV, 的#DEC)  (dobj, 补肝#VV, 作用#NN)
+            (nsubj, 抗皱#VV, 美容#NN)  (root, ROOT#null, 抗皱#VV)
+            (nsubj, 含有#VV, 鲫鱼#NN)  (root, ROOT#null, 含有#VV)  (assmod, 蛋白质#NN, 全面#JJ)  (cc, 全面#JJ, 而#CC)  (dep, 全面#JJ, 优质#JJ)  (case, 全面#JJ, 的#DEG)  (dobj, 含有#VV, 蛋白质#NN)  (case, 纤维#NN, 对#P)  (assmod, 纤维#NN, 肌肤#NN)  (case, 肌肤#NN, 的#DEG)  (nn, 纤维#NN, 弹力#NN)  (prep, 构成#VV, 纤维#NN)  (conj, 含有#VV, 构成#VV)  (relcl, 皱纹#NN, 起到#VV)  (asp, 起到#VV, 了#AS)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 强化#NN)  (dobj, 起到#VV, 作用#NN)  (advmod, 导致#VV, 尤其#AD)  (case, 因素#NN, 对#P)  (dep, 不足#NN, 压力#NN)  (nn, 不足#NN, 睡眠#NN)  (nn, 精神#NN, 不足#NN)  (etc, 不足#NN, 等#ETC)  (nn, 因素#NN, 精神#NN)  (prep, 导致#VV, 因素#NN)  (conj, 起到#VV, 导致#VV)  (mark, 起到#VV, 的#DEC)  (nn, 皱纹#NN, 早期#NN)  (dobj, 构成#VV, 皱纹#NN)  (conj, 含有#VV, 有#VE)  (assmod, 功效#NN, 奇特#NN)  (case, 奇特#NN, 的#DEG)  (nn, 功效#NN, 缓解#NN)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  延缓衰老  促进泌乳  利水消肿  通络  补脾胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鲫鱼所含的蛋白质质优、氨基酸种类较全面、易于消化吸收。
+            2.鲫鱼含有少量的脂肪，多由不饱和脂肪酸组成。
+            3.鲫鱼和其他淡水鱼比较，含糖量较高，多由多糖组成。
+            4.鲫鱼含有丰富的微量元素，尤其钙、磷、钾、镁含量较高。
+            5.鲫鱼的头含有丰富的卵磷脂。
+        </rawdata>
+
+        <segment>
+            鲫鱼  所  含  的  蛋白质  质优  、  氨基酸  种类  较  全面  、  易于  消化  吸收  。
+            鲫鱼  含有  少量  的  脂肪  ，  多  由  不  饱和  脂肪酸  组成  。
+            鲫鱼  和  其他  淡水鱼  比较  ，  含糖量  较  高  ，  多  由  多糖  组成  。
+            鲫鱼  含有  丰富  的  微量  元素  ，  尤其  钙  、  磷  、  钾  、  镁  含量  较  高  。
+            鲫鱼  的  头  含有  丰富  的  卵磷脂  。
+        </segment>
+
+        <pos>
+            鲫鱼#AD  所#MSP  含#VV  的#DEC  蛋白质#NN  质优#NN  、#PU  氨基酸#NN  种类#NN  较#AD  全面#VA  、#PU  易于#VV  消化#NN  吸收#NN  。#PU
+            鲫鱼#AD  含有#VV  少量#CD  的#DEG  脂肪#NN  ，#PU  多#AD  由#P  不#AD  饱和#JJ  脂肪酸#NN  组成#VV  。#PU
+            鲫鱼#NN  和#CC  其他#DT  淡水鱼#NN  比较#AD  ，#PU  含糖量#AD  较#AD  高#VA  ，#PU  多#AD  由#P  多糖#NN  组成#VV  。#PU
+            鲫鱼#NN  含有#NN  丰富#VA  的#DEC  微量#NN  元素#NN  ，#PU  尤其#AD  钙#VV  、#PU  磷#NN  、#PU  钾#NN  、#PU  镁#NN  含量#NN  较#AD  高#VA  。#PU
+            鲫鱼#NN  的#DEG  头#NN  含有#VV  丰富#VA  的#DEC  卵磷脂#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 鲫鱼#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 种类#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 种类#NN, 蛋白质#NN)  (conj, 种类#NN, 质优#NN)  (nn, 种类#NN, 氨基酸#NN)  (nsubj, 全面#VA, 种类#NN)  (advmod, 全面#VA, 较#AD)  (root, ROOT#null, 全面#VA)  (dep, 全面#VA, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)
+            (advmod, 含有#VV, 鲫鱼#AD)  (root, ROOT#null, 含有#VV)  (assmod, 脂肪#NN, 少量#CD)  (case, 少量#CD, 的#DEG)  (dobj, 含有#VV, 脂肪#NN)  (advmod, 组成#VV, 多#AD)  (case, 脂肪酸#NN, 由#P)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (prep, 组成#VV, 脂肪酸#NN)  (dep, 含有#VV, 组成#VV)
+            (conj, 淡水鱼#NN, 鲫鱼#NN)  (cc, 淡水鱼#NN, 和#CC)  (det, 淡水鱼#NN, 其他#DT)  (nsubj, 高#VA, 淡水鱼#NN)  (advmod, 高#VA, 比较#AD)  (advmod, 高#VA, 含糖量#AD)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (advmod, 组成#VV, 多#AD)  (case, 多糖#NN, 由#P)  (prep, 组成#VV, 多糖#NN)  (dep, 高#VA, 组成#VV)
+            (nn, 含有#NN, 鲫鱼#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 元素#NN, 微量#NN)  (nsubj, 钙#VV, 元素#NN)  (advmod, 钙#VV, 尤其#AD)  (root, ROOT#null, 钙#VV)  (conj, 镁#NN, 磷#NN)  (conj, 镁#NN, 钾#NN)  (nn, 含量#NN, 镁#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (dep, 钙#VV, 高#VA)
+            (assmod, 头#NN, 鲫鱼#NN)  (case, 鲫鱼#NN, 的#DEG)  (nsubj, 含有#VV, 头#NN)  (root, ROOT#null, 含有#VV)  (relcl, 卵磷脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 卵磷脂#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.在熬鲫鱼汤时，可以先用油煎一下，再用开水小火慢熬，鱼肉中的嘌呤就会逐渐溶解到汤里，整个汤呈现出乳白色，味道更鲜美，煎鱼时，先要在鱼身上抹一些干淀粉，这样既可以使鱼保持完整，又可以防止鱼被煎糊。
+            2.巧去鱼腥味：将鱼去鳞剖腹洗净后，放入盆中倒一些黄酒，就能除去鱼的腥味，并能使鱼滋味鲜美；鲜鱼剖开洗净，在牛奶中泡一会儿既可除腥，又能增加鲜味；吃过鱼后，口里有味时，嚼上三五片茶叶，立刻口气清新。
+        </rawdata>
+
+        <segment>
+            在  熬  鲫鱼  汤  时  ，  可以  先用  油煎  一下  ，  再  用  开水  小火  慢  熬  ，  鱼肉  中  的  嘌呤  就  会  逐渐  溶解  到  汤  里  ，  整个  汤  呈现  出  乳白色  ，  味道  更  鲜美  ，  煎鱼  时  ，  先  要  在  鱼  身上  抹  一些  干  淀粉  ，  这样  既  可以  使  鱼  保持  完整  ，  又  可以  防止  鱼  被  煎糊  。
+            巧  去  鱼腥味  ：  将  鱼  去鳞  剖腹  洗净  后  ，  放入  盆中  倒  一些  黄酒  ，  就  能  除去  鱼  的  腥味  ，  并  能  使  鱼  滋味  鲜美  ；  鲜鱼  剖开  洗净  ，  在  牛奶  中  泡  一会儿  既可  除腥  ，  又  能  增加  鲜味  ；  吃  过  鱼  后  ，  口里  有味  时  ，  嚼  上  三五  片  茶叶  ，  立刻  口气  清新  。
+        </segment>
+
+        <pos>
+            在#P  熬#NN  鲫鱼#NN  汤#NN  时#LC  ，#PU  可以#VV  先用#NN  油煎#VV  一下#AD  ，#PU  再#AD  用#P  开水#NN  小火#NN  慢#VA  熬#VA  ，#PU  鱼肉#NN  中#LC  的#DEG  嘌呤#NN  就#AD  会#VV  逐渐#AD  溶解#VV  到#P  汤#NN  里#LC  ，#PU  整个#JJ  汤#NN  呈现#VV  出#VV  乳白色#NN  ，#PU  味道#NN  更#AD  鲜美#VV  ，#PU  煎鱼#NN  时#LC  ，#PU  先#AD  要#VV  在#P  鱼#NN  身上#NN  抹#VV  一些#CD  干#VV  淀粉#NN  ，#PU  这样#AD  既#CC  可以#VV  使#VV  鱼#NN  保持#VV  完整#NN  ，#PU  又#AD  可以#VV  防止#VV  鱼#NN  被#SB  煎糊#VV  。#PU
+            巧#NR  去#VV  鱼腥味#NN  ：#PU  将#BA  鱼#NN  去鳞#NN  剖腹#VV  洗净#CD  后#LC  ，#PU  放入#VV  盆中#NN  倒#VV  一些#CD  黄酒#NN  ，#PU  就#AD  能#VV  除去#P  鱼#NN  的#DEG  腥味#NN  ，#PU  并#CC  能#VV  使#VV  鱼#NN  滋味#VV  鲜美#NN  ；#PU  鲜鱼#VV  剖开#NN  洗净#NN  ，#PU  在#P  牛奶#NN  中#LC  泡#VV  一会儿#CD  既可#NN  除腥#NN  ，#PU  又#AD  能#VV  增加#VV  鲜味#NN  ；#PU  吃#VV  过#AS  鱼#NN  后#LC  ，#PU  口里#NN  有味#NN  时#LC  ，#PU  嚼#VV  上#DT  三五#CD  片#M  茶叶#NN  ，#PU  立刻#VV  口气#NN  清新#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 汤#NN, 在#P)  (nn, 汤#NN, 熬#NN)  (nn, 汤#NN, 鲫鱼#NN)  (prep, 慢#VA, 汤#NN)  (case, 汤#NN, 时#LC)  (dep, 慢#VA, 可以#VV)  (dobj, 可以#VV, 先用#NN)  (mmod, 慢#VA, 油煎#VV)  (advmod, 慢#VA, 一下#AD)  (advmod, 慢#VA, 再#AD)  (case, 小火#NN, 用#P)  (nn, 小火#NN, 开水#NN)  (prep, 慢#VA, 小火#NN)  (root, ROOT#null, 慢#VA)  (comod, 慢#VA, 熬#VA)  (assmod, 嘌呤#NN, 鱼肉#NN)  (case, 鱼肉#NN, 中#LC)  (case, 鱼肉#NN, 的#DEG)  (nsubj, 溶解#VV, 嘌呤#NN)  (advmod, 溶解#VV, 就#AD)  (mmod, 溶解#VV, 会#VV)  (advmod, 溶解#VV, 逐渐#AD)  (conj, 慢#VA, 溶解#VV)  (case, 汤#NN, 到#P)  (prep, 溶解#VV, 汤#NN)  (case, 汤#NN, 里#LC)  (amod, 汤#NN, 整个#JJ)  (nsubj, 出#VV, 汤#NN)  (mmod, 出#VV, 呈现#VV)  (conj, 慢#VA, 出#VV)  (dobj, 出#VV, 乳白色#NN)  (nsubj, 鲜美#VV, 味道#NN)  (advmod, 鲜美#VV, 更#AD)  (conj, 慢#VA, 鲜美#VV)  (loc, 干#VV, 煎鱼#NN)  (case, 煎鱼#NN, 时#LC)  (advmod, 抹#VV, 先#AD)  (mmod, 抹#VV, 要#VV)  (case, 身上#NN, 在#P)  (nn, 身上#NN, 鱼#NN)  (prep, 抹#VV, 身上#NN)  (conj, 干#VV, 抹#VV)  (range, 抹#VV, 一些#CD)  (conj, 慢#VA, 干#VV)  (dobj, 干#VV, 淀粉#NN)  (dep, 防止#VV, 这样#AD)  (cc, 使#VV, 既#CC)  (mmod, 使#VV, 可以#VV)  (conj, 防止#VV, 使#VV)  (dobj, 使#VV, 鱼#NN)  (dep, 使#VV, 保持#VV)  (dobj, 保持#VV, 完整#NN)  (advmod, 可以#VV, 又#AD)  (dep, 使#VV, 可以#VV)  (conj, 慢#VA, 防止#VV)  (dobj, 防止#VV, 鱼#NN)  (auxpass, 煎糊#VV, 被#SB)  (dep, 防止#VV, 煎糊#VV)
+            (nsubj, 去#VV, 巧#NR)  (loc, 嚼#VV, 去#VV)  (dobj, 去#VV, 鱼腥味#NN)  (ba, 剖腹#VV, 将#BA)  (nn, 去鳞#NN, 鱼#NN)  (nsubj, 剖腹#VV, 去鳞#NN)  (conj, 去#VV, 剖腹#VV)  (loc, 剖腹#VV, 洗净#CD)  (case, 洗净#CD, 后#LC)  (conj, 去#VV, 放入#VV)  (dobj, 放入#VV, 盆中#NN)  (conj, 放入#VV, 倒#VV)  (nummod, 黄酒#NN, 一些#CD)  (dobj, 倒#VV, 黄酒#NN)  (advmod, 能#VV, 就#AD)  (conj, 去#VV, 能#VV)  (case, 鱼#NN, 除去#P)  (assmod, 腥味#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 能#VV, 腥味#NN)  (cc, 去#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (conj, 去#VV, 使#VV)  (dobj, 使#VV, 鱼#NN)  (dep, 使#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)  (conj, 去#VV, 鲜鱼#VV)  (nn, 洗净#NN, 剖开#NN)  (dobj, 鲜鱼#VV, 洗净#NN)  (case, 牛奶#NN, 在#P)  (prep, 泡#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (conj, 去#VV, 泡#VV)  (nummod, 除腥#NN, 一会儿#CD)  (nn, 除腥#NN, 既可#NN)  (dobj, 泡#VV, 除腥#NN)  (advmod, 增加#VV, 又#AD)  (mmod, 增加#VV, 能#VV)  (conj, 去#VV, 增加#VV)  (dobj, 增加#VV, 鲜味#NN)  (conj, 去#VV, 吃#VV)  (asp, 吃#VV, 过#AS)  (dobj, 吃#VV, 鱼#NN)  (case, 去#VV, 后#LC)  (nn, 有味#NN, 口里#NN)  (loc, 嚼#VV, 有味#NN)  (case, 有味#NN, 时#LC)  (root, ROOT#null, 嚼#VV)  (det, 茶叶#NN, 上#DT)  (nummod, 片#M, 三五#CD)  (dep, 上#DT, 片#M)  (dobj, 嚼#VV, 茶叶#NN)  (conj, 嚼#VV, 立刻#VV)  (nn, 清新#NN, 口气#NN)  (dobj, 立刻#VV, 清新#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/0818152488.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\72 鲫鱼.jpg
+    </picturelocalurl>
+
+</content>

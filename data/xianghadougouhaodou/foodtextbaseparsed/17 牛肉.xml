@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        17
+    </id>
+
+    <foodname>
+        牛肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        牛肉
+    </secondcategory>
+
+    <alias>
+        牛肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            1.感染性疾病、肝病、肾病的人慎食。2.黄牛肉为发物，患疮疥湿疹、痘痧、瘙痒者慎用。3.高胆固醇、高脂肪、老年人、儿童、消化力弱的人不宜多吃。
+        </rawdata>
+
+        <segment>
+            感染性  疾病  、  肝病  、  肾病  的  人  慎  食  。  2  .  黄牛肉  为  发物  ，  患疮疥  湿疹  、  痘痧  、  瘙痒  者  慎用  。  3  .  高  胆固醇  、  高  脂肪  、  老年人  、  儿童  、  消化  力弱  的  人  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            感染性#NN  疾病#NN  、#PU  肝病#NN  、#PU  肾病#NN  的#DEG  人#NN  慎#VV  食#NN    。#PU  2#CD  .#NN  黄牛肉#AD  为#VC  发物#NN  ，#PU  患疮疥#VV  湿疹#NR  、#PU  痘痧#NR  、#PU  瘙痒#NR  者#NN  慎用#NN    。#PU  3#CD  .#NN  高#JJ  胆固醇#NN  、#PU  高#JJ  脂肪#NN  、#PU  老年人#NN  、#PU  儿童#NN  、#PU  消化#NN  力弱#NN  的#DEG  人#NN  不#AD  宜#NR  多#AD  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肾病#NN, 感染性#NN)  (conj, 肾病#NN, 疾病#NN)  (conj, 肾病#NN, 肝病#NN)  (assmod, 人#NN, 肾病#NN)  (case, 肾病#NN, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)   (nummod, .#NN, 2#CD)  (advmod, 发物#NN, 黄牛肉#AD)  (cop, 发物#NN, 为#VC)  (root, ROOT#null, 发物#NN)  (conj, 发物#NN, 患疮疥#VV)  (conj, 瘙痒#NR, 湿疹#NR)  (conj, 瘙痒#NR, 痘痧#NR)  (nn, 慎用#NN, 瘙痒#NR)  (nn, 慎用#NN, 者#NN)  (dobj, 患疮疥#VV, 慎用#NN)   (nummod, .#NN, 3#CD)  (amod, 胆固醇#NN, 高#JJ)  (conj, 力弱#NN, 胆固醇#NN)  (amod, 脂肪#NN, 高#JJ)  (conj, 力弱#NN, 脂肪#NN)  (conj, 力弱#NN, 老年人#NN)  (conj, 力弱#NN, 儿童#NN)  (nn, 力弱#NN, 消化#NN)  (assmod, 人#NN, 力弱#NN)  (case, 力弱#NN, 的#DEG)  (nsubj, 吃#VV, 人#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜于生长发育、术后、病后调养的人、中气下隐、气短体虚、筋骨酸软、贫血久病及面黄目眩之人食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜于  生长  发育  、  术后  、  病  后  调养  的  人  、  中气  下  隐  、  气短  体虚  、  筋骨  酸软  、  贫血  久病  及  面黄  目眩  之  人  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜于#NN  生长#NN  发育#NN  、#PU  术后#NR  、#PU  病#NN  后#LC  调养#NN  的#DEG  人#NN  、#PU  中气#NN  下#LC  隐#NN  、#PU  气短#NN  体虚#NN  、#PU  筋骨#NN  酸软#NN  、#PU  贫血#NR  久病#NR  及#CC  面黄#NR  目眩#NN  之#DEG  人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nn, 发育#NN, 适宜于#NN)  (nn, 发育#NN, 生长#NN)  (conj, 面黄#NR, 发育#NN)  (conj, 面黄#NR, 术后#NR)  (dep, 人#NN, 病#NN)  (case, 病#NN, 后#LC)  (assmod, 人#NN, 调养#NN)  (case, 调养#NN, 的#DEG)  (conj, 面黄#NR, 人#NN)  (dep, 隐#NN, 中气#NN)  (case, 中气#NN, 下#LC)  (conj, 面黄#NR, 隐#NN)  (nn, 体虚#NN, 气短#NN)  (conj, 面黄#NR, 体虚#NN)  (nn, 酸软#NN, 筋骨#NN)  (conj, 面黄#NR, 酸软#NN)  (nn, 面黄#NR, 贫血#NR)  (conj, 面黄#NR, 久病#NR)  (cc, 面黄#NR, 及#CC)  (nn, 目眩#NN, 面黄#NR)  (assmod, 人#NN, 目眩#NN)  (case, 目眩#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                125
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                122
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                150
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                270
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                48.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                6.26
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛肉是全世界人都爱吃的食品，中国人消费的肉类食品之一，仅次于
+        </rawdata>
+
+        <segment>
+            牛肉  是  全世界  人  都  爱  吃  的  食品  ，  中国人  消费  的  肉类  食品  之一  ，  仅  次于
+        </segment>
+
+        <pos>
+            牛肉#NN  是#VC  全世界#CD  人#NN  都#AD  爱#VV  吃#VV  的#DEC  食品#NN  ，#PU  中国人#NN  消费#NN  的#DEG  肉类#NN  食品#NN  之一#NN  ，#PU  仅#AD  次于#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 牛肉#NN)  (cop, 食品#NN, 是#VC)  (nummod, 人#NN, 全世界#CD)  (nsubj, 爱#VV, 人#NN)  (advmod, 爱#VV, 都#AD)  (relcl, 食品#NN, 爱#VV)  (ccomp, 爱#VV, 吃#VV)  (mark, 爱#VV, 的#DEC)  (root, ROOT#null, 食品#NN)  (nn, 消费#NN, 中国人#NN)  (assmod, 之一#NN, 消费#NN)  (case, 消费#NN, 的#DEG)  (nn, 之一#NN, 肉类#NN)  (nn, 之一#NN, 食品#NN)  (nsubj, 次于#VV, 之一#NN)  (advmod, 次于#VV, 仅#AD)  (conj, 食品#NN, 次于#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增长肌肉
+            它对增长肌肉、增强力量特别有效。在进行训练的头几秒钟里，肌氨酸是肌肉燃料之源，它可以有效补充三磷酸腺苷，从而使训练能坚持得更久。其中肉毒碱主要用于支持脂肪的新陈代谢，产生支链氨基酸，是对健美运动员增长肌肉起重要作用的一种氨基酸。
+            2.增加免疫力
+            可帮你增强免疫力，促进蛋白质的新陈代谢和合成，从而有助于紧张训练后身体的恢复。
+            3.促进康复
+            能提高机体抗病能力，对生长发育及手术后、病后调养的人在补充失血、修复组织等方面物别适宜。
+            4.补铁补血
+            铁是造血所必需的元素，而牛肉中富含大量的铁，多食用牛肉有助于缺铁性贫血的治疗。
+            5.抗衰老
+            牛肉中含有的锌是一种有助于合成蛋白质、能促进肌肉生长的抗氧化剂，对防衰防癌具有积极意义；牛肉中含有的钾对心脑血管系统、泌尿系统有着防病作用；含有的镁则可提高胰岛素合成代谢的效率，有助于糖尿病的治疗。
+        </rawdata>
+
+        <segment>
+            增长  肌肉
+            它  对  增长  肌肉  、  增强  力量  特别  有效  。  在  进行  训练  的  头  几  秒  钟  里  ，  肌氨酸  是  肌肉  燃料  之源  ，  它  可以  有效  补充  三  磷酸  腺苷  ，  从而  使  训练  能  坚持  得  更  久  。  其中  肉毒碱  主要  用于  支持  脂肪  的  新陈代谢  ，  产生  支链  氨基酸  ，  是  对  健美  运动员  增长  肌肉  起  重要  作用  的  一  种  氨基酸  。
+            增加  免疫力
+            可  帮你  增强  免疫力  ，  促进  蛋白质  的  新陈代谢  和  合成  ，  从而  有助于  紧张  训练  后  身体  的  恢复  。
+            促进  康复
+            能  提高  机体  抗病  能力  ，  对  生长  发育  及  手术  后  、  病  后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  物  别  适宜  。
+            补铁  补血
+            铁  是  造血  所  必需  的  元素  ，  而  牛肉  中  富含  大量  的  铁  ，  多  食用  牛肉  有助于  缺  铁  性  贫血  的  治疗  。
+            抗  衰老
+            牛肉  中  含有  的  锌  是  一  种  有助于  合成  蛋白质  、  能  促进  肌肉  生长  的  抗氧化剂  ，  对  防衰  防癌  具有  积极  意义  ；  牛肉  中  含有  的  钾对  心脑血管  系统  、  泌尿  系统  有  着  防病  作用  ；  含有  的  镁  则  可  提高  胰岛素  合成  代谢  的  效率  ，  有助于  糖尿病  的  治疗  。
+        </segment>
+
+        <pos>
+            增长#VV  肌肉#CD
+            它#PN  对#P  增长#NN  肌肉#VV  、#PU  增强#VV  力量#NN  特别#AD  有效#VA    。#PU  在#P  进行#VV  训练#NN  的#DEC  头#DT  几#CD  秒#M  钟#NN  里#LC  ，#PU  肌氨酸#NN  是#VC  肌肉#NN  燃料#NN  之源#VV  ，#PU  它#PN  可以#VV  有效#JJ  补充#NN  三#CD  磷酸#NN  腺苷#NN  ，#PU  从而#AD  使#VV  训练#NN  能#VV  坚持#VV  得#DER  更#AD  久#VA    。#PU  其中#NN  肉毒碱#NN  主要#AD  用于#VV  支持#VV  脂肪#NN  的#DEC  新陈代谢#NN  ，#PU  产生#VV  支链#NN  氨基酸#NN  ，#PU  是#VC  对#P  健美#NN  运动员#NN  增长#VV  肌肉#CD  起#M  重要#JJ  作用#NN  的#DEC  一#CD  种#M  氨基酸#NN    。#PU    。#PU
+            增加#VV  免疫力#NN
+            可#VV  帮你#VV  增强#VV  免疫力#NN  ，#PU  促进#VV  蛋白质#NN  的#DEC  新陈代谢#NN  和#CC  合成#JJ  ，#PU  从而#AD  有助于#VV  紧张#JJ  训练#NN  后#LC  身体#NN  的#DEG  恢复#NN  。#PU
+            促进#VV  康复#NN
+            能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#NN  及#CC  手术#NN  后#LC  、#PU  病#NN  后#LC  调养#VV  的#DEC  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  物#NN  别#DT  适宜#VV  。#PU
+            补铁#NN  补血#VV
+            铁#NN  是#VC  造血#AD  所#MSP  必需#VV  的#DEC  元素#NN  ，#PU  而#CC  牛肉#NN  中#LC  富含#VV  大量#CD  的#DEG  铁#NN  ，#PU  多#AD  食用#VV  牛肉#AD  有助于#VV  缺#VV  铁#NN  性#NN  贫血#NN  的#DEC  治疗#NN  。#PU
+            抗#NN  衰老#VV
+            牛肉#NN  中#LC  含有#NN  的#DEG  锌#NN  是#VC  一#CD  种#M  有助于#VV  合成#JJ  蛋白质#NN  、#PU  能#VV  促进#VV  肌肉#NN  生长#NN  的#DEC  抗氧化剂#NN  ，#PU  对#P  防衰#NN  防癌#NN  具有#VV  积极#JJ  意义#NN  ；#PU  牛肉#NN  中#LC  含有#NN  的#DEG  钾对#NN  心脑血管#NN  系统#NN  、#PU  泌尿#NN  系统#NN  有#VE  着#AS  防病#NN  作用#NN  ；#PU  含有#NN  的#DEG  镁#NN  则#AD  可#VV  提高#VV  胰岛素#NN  合成#JJ  代谢#NN  的#DEG  效率#NN  ，#PU  有助于#VV  糖尿病#NN  的#DEG  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增长#VV)  (range, 增长#VV, 肌肉#CD)
+            (nsubj, 肌肉#VV, 它#PN)  (case, 增长#NN, 对#P)  (prep, 肌肉#VV, 增长#NN)  (root, ROOT#null, 肌肉#VV)  (dep, 肌肉#VV, 增强#VV)  (nsubj, 有效#VA, 力量#NN)  (advmod, 有效#VA, 特别#AD)  (conj, 肌肉#VV, 有效#VA)   (case, 钟#NN, 在#P)  (relcl, 钟#NN, 进行#VV)  (dobj, 进行#VV, 训练#NN)  (mark, 进行#VV, 的#DEC)  (det, 钟#NN, 头#DT)  (nummod, 秒#M, 几#CD)  (dep, 头#DT, 秒#M)  (prep, 燃料#NN, 钟#NN)  (case, 钟#NN, 里#LC)  (nsubj, 燃料#NN, 肌氨酸#NN)  (cop, 燃料#NN, 是#VC)  (nn, 燃料#NN, 肌肉#NN)  (dep, 之源#VV, 燃料#NN)  (root, ROOT#null, 之源#VV)  (nsubj, 使#VV, 它#PN)  (conj, 使#VV, 可以#VV)  (amod, 补充#NN, 有效#JJ)  (nn, 腺苷#NN, 补充#NN)  (nummod, 腺苷#NN, 三#CD)  (nn, 腺苷#NN, 磷酸#NN)  (dobj, 可以#VV, 腺苷#NN)  (advmod, 使#VV, 从而#AD)  (ccomp, 之源#VV, 使#VV)  (dobj, 使#VV, 训练#NN)  (mmod, 久#VA, 能#VV)  (dep, 久#VA, 坚持#VV)  (dep, 久#VA, 得#DER)  (advmod, 久#VA, 更#AD)  (dep, 使#VV, 久#VA)   (nn, 肉毒碱#NN, 其中#NN)  (nsubj, 用于#VV, 肉毒碱#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (relcl, 新陈代谢#NN, 支持#VV)  (dobj, 支持#VV, 脂肪#NN)  (mark, 支持#VV, 的#DEC)  (dobj, 用于#VV, 新陈代谢#NN)  (conj, 用于#VV, 产生#VV)  (nn, 氨基酸#NN, 支链#NN)  (dobj, 产生#VV, 氨基酸#NN)  (cop, 氨基酸#NN, 是#VC)  (case, 运动员#NN, 对#P)  (nn, 运动员#NN, 健美#NN)  (prep, 增长#VV, 运动员#NN)  (relcl, 氨基酸#NN, 增长#VV)  (nummod, 起#M, 肌肉#CD)  (clf, 作用#NN, 起#M)  (amod, 作用#NN, 重要#JJ)  (dobj, 增长#VV, 作用#NN)  (mark, 增长#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 用于#VV, 氨基酸#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 免疫力#NN)
+            (mmod, 帮你#VV, 可#VV)  (root, ROOT#null, 帮你#VV)  (relcl, 新陈代谢#NN, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)  (conj, 增强#VV, 促进#VV)  (dobj, 促进#VV, 蛋白质#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 帮你#VV, 新陈代谢#NN)  (cc, 帮你#VV, 和#CC)  (conj, 帮你#VV, 合成#JJ)  (advmod, 有助于#VV, 从而#AD)  (dep, 帮你#VV, 有助于#VV)  (amod, 训练#NN, 紧张#JJ)  (dep, 身体#NN, 训练#NN)  (case, 训练#NN, 后#LC)  (assmod, 恢复#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (dobj, 有助于#VV, 恢复#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 康复#NN)
+            (mmod, 提高#VV, 能#VV)  (relcl, 人#NN, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 手术#NN, 对#P)  (nn, 手术#NN, 生长#NN)  (conj, 手术#NN, 发育#NN)  (cc, 手术#NN, 及#CC)  (prep, 调养#VV, 手术#NN)  (case, 手术#NN, 后#LC)  (dep, 手术#NN, 病#NN)  (case, 病#NN, 后#LC)  (conj, 提高#VV, 调养#VV)  (mark, 提高#VV, 的#DEC)  (nsubj, 适宜#VV, 人#NN)  (case, 物#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 方面#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (nn, 物#NN, 方面#NN)  (prep, 适宜#VV, 物#NN)  (dep, 适宜#VV, 别#DT)  (root, ROOT#null, 适宜#VV)
+            (nsubj, 补血#VV, 补铁#NN)  (root, ROOT#null, 补血#VV)
+            (nsubj, 元素#NN, 铁#NN)  (cop, 元素#NN, 是#VC)  (advmod, 必需#VV, 造血#AD)  (prtmod, 必需#VV, 所#MSP)  (relcl, 元素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (root, ROOT#null, 元素#NN)  (cc, 元素#NN, 而#CC)  (loc, 富含#VV, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (conj, 元素#NN, 富含#VV)  (assmod, 铁#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 富含#VV, 铁#NN)  (advmod, 食用#VV, 多#AD)  (conj, 元素#NN, 食用#VV)  (advmod, 有助于#VV, 牛肉#AD)  (relcl, 治疗#NN, 有助于#VV)  (ccomp, 有助于#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (mark, 有助于#VV, 的#DEC)  (dobj, 食用#VV, 治疗#NN)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (loc, 抗氧化剂#NN, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (assmod, 锌#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 抗氧化剂#NN, 锌#NN)  (cop, 抗氧化剂#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (relcl, 抗氧化剂#NN, 有助于#VV)  (amod, 蛋白质#NN, 合成#JJ)  (dobj, 有助于#VV, 蛋白质#NN)  (mmod, 促进#VV, 能#VV)  (conj, 有助于#VV, 促进#VV)  (nn, 生长#NN, 肌肉#NN)  (dobj, 促进#VV, 生长#NN)  (mark, 有助于#VV, 的#DEC)  (root, ROOT#null, 抗氧化剂#NN)  (case, 防癌#NN, 对#P)  (nn, 防癌#NN, 防衰#NN)  (prep, 具有#VV, 防癌#NN)  (conj, 抗氧化剂#NN, 具有#VV)  (amod, 意义#NN, 积极#JJ)  (dobj, 具有#VV, 意义#NN)  (loc, 有#VE, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (assmod, 系统#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 系统#NN, 钾对#NN)  (nn, 系统#NN, 心脑血管#NN)  (conj, 系统#NN, 系统#NN)  (nn, 系统#NN, 泌尿#NN)  (dep, 有#VE, 系统#NN)  (conj, 抗氧化剂#NN, 有#VE)  (asp, 有#VE, 着#AS)  (nn, 作用#NN, 防病#NN)  (dobj, 有#VE, 作用#NN)  (assmod, 镁#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 提高#VV, 镁#NN)  (advmod, 提高#VV, 则#AD)  (mmod, 提高#VV, 可#VV)  (conj, 抗氧化剂#NN, 提高#VV)  (nn, 代谢#NN, 胰岛素#NN)  (amod, 代谢#NN, 合成#JJ)  (assmod, 效率#NN, 代谢#NN)  (case, 代谢#NN, 的#DEG)  (dobj, 提高#VV, 效率#NN)  (conj, 抗氧化剂#NN, 有助于#VV)  (assmod, 治疗#NN, 糖尿病#NN)  (case, 糖尿病#NN, 的#DEG)  (dobj, 有助于#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        散寒止痛  补肾  壮阳  改善血液循环  增强免疫力  延缓衰老  益肝  健脾  强筋  壮骨
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.牛肉富含肌氨酸：牛肉中的肌氨酸含量比任何其它食品都高，这使它对增长肌肉、增强力量特别有效。在进行训练的头几秒钟里，肌氨酸是肌肉燃料之源，它可以有效补充三磷酸腺苷，从而使训练能坚持得更久。
+            2.牛肉含维生素B6：蛋白质需求量越大，饮食中所应该增加的维生素B6就越多。牛肉含有足够的维生素B6，可帮你增强免疫力，促进蛋白质的新陈代谢和合成，从而有助于紧张训练后身体的恢复。
+            3.牛肉含肉毒碱：鸡肉、鱼肉中肉毒碱和肌氨酸的含量很低，牛肉却含量很高。肉毒碱主要用于支持脂肪的新陈代谢，产生支链氨基酸，是对健美运动员增长肌肉起重要作用的一种氨基酸。
+            4.牛肉含钾和蛋白质：钾是大多数运动员饮食中比较缺少的矿物质。钾的水平低会抑制蛋白质的合成以及生长激素的产生，从而影响肌肉的生长。牛肉中富含蛋白质：4盎司瘦里脊就可产生22克一流的蛋白质。
+            5.牛肉是亚油酸的低脂肪来源：牛肉中脂肪含量很低，但却富含结合亚油酸，这些潜在的抗氧化剂可以有效对抗举重等运动中造成的组织损伤。另外，亚油酸还可以作为抗氧化剂保持肌肉块。
+            6.牛肉含锌、镁：锌是另外一种有助于合成蛋白质、促进肌肉生长的抗氧化剂。锌与谷氨酸盐和维生素B6共同作用，能增强免疫系统。镁则支持蛋白质的合成、增强肌肉力量，更重要的是可提高胰岛素合成代谢的效率。
+            7.牛肉含铁：铁是造血必需的矿物质。与鸡、鱼、火鸡中少得可怜的铁含量形成对比的是，牛肉中富含铁质。
+            8.牛肉含丙胺酸：丙胺酸的作用是从饮食的蛋白质中产生糖分。如果你对碳水化合物的摄取量不足，丙胺酸能够供给肌肉所需的能量以缓解不足，从而使你能够继续进行训练。这种氨基酸最大的好处就在于它能够把肌肉从供给能量这一重负下解放出来。
+            9.牛肉含维生素B12：维生素B12对细胞的产生至关重要，而红细胞的作用是将氧带给肌肉组织。维生素B12能促进支链氨基酸的新陈代谢，从而供给身体进行高强度训练所需的能量。
+        </rawdata>
+
+        <segment>
+            牛肉  富含  肌氨酸  ：  牛肉  中  的  肌氨酸  含量  比  任何  其它  食品  都  高  ，  这  使  它  对  增长  肌肉  、  增强  力量  特别  有效  。  在  进行  训练  的  头  几  秒  钟  里  ，  肌氨酸  是  肌肉  燃料  之源  ，  它  可以  有效  补充  三  磷酸  腺苷  ，  从而  使  训练  能  坚持  得  更  久  。
+            牛肉  含  维生素B6  ：  蛋白质  需求量  越  大  ，  饮食  中  所  应该  增加  的  维生素B6  就  越  多  。  牛肉  含有  足够  的  维生素B6  ，  可  帮你  增强  免疫力  ，  促进  蛋白质  的  新陈代谢  和  合成  ，  从而  有助于  紧张  训练  后  身体  的  恢复  。
+            牛肉  含  肉毒碱  ：  鸡肉  、  鱼肉  中  肉毒碱  和  肌氨酸  的  含量  很  低  ，  牛肉  却  含量  很  高  。  肉毒碱  主要  用于  支持  脂肪  的  新陈代谢  ，  产生  支链  氨基酸  ，  是  对  健美  运动员  增长  肌肉  起  重要  作用  的  一  种  氨基酸  。
+            牛肉  含  钾  和  蛋白质  ：  钾  是  大多数  运动员  饮食  中  比较  缺少  的  矿物质  。  钾  的  水平  低  会  抑制  蛋白质  的  合成  以及  生长  激素  的  产生  ，  从而  影响  肌肉  的  生长  。  牛肉  中  富含  蛋白质  ：  4  盎司  瘦  里脊  就  可  产生  22  克  一流  的  蛋白质  。
+            牛肉  是  亚油酸  的  低  脂肪  来源  ：  牛肉  中  脂肪  含量  很  低  ，  但  却  富含  结合  亚油酸  ，  这些  潜在  的  抗氧化剂  可以  有效  对抗  举重  等  运动  中  造成  的  组织  损伤  。  另外  ，  亚油酸  还  可以  作为  抗氧化剂  保持  肌肉块  。
+            牛肉  含锌  、  镁  ：  锌  是  另外  一  种  有助于  合成  蛋白质  、  促进  肌肉  生长  的  抗氧化剂  。  锌  与  谷氨酸盐  和  维生素B6  共  同  作用  ，  能  增强  免疫  系统  。  镁  则  支持  蛋白质  的  合成  、  增强  肌肉  力量  ，  更  重要  的  是  可  提高  胰岛素  合成  代谢  的  效率  。
+            牛肉  含铁  ：  铁  是  造血  必需  的  矿物质  。  与  鸡  、  鱼  、  火鸡  中  少得  可怜  的  铁  含量  形成  对比  的  是  ，  牛肉  中  富含  铁质  。
+            牛肉  含  丙胺酸  ：  丙胺酸  的  作用  是  从  饮食  的  蛋白质  中  产生  糖分  。  如果  你  对  碳水  化合物  的  摄取量  不足  ，  丙  胺酸  能够  供给  肌肉  所  需  的  能量  以  缓解  不足  ，  从而  使  你  能够  继续  进行  训练  。  这  种  氨基酸  最  大  的  好处  就  在于  它  能够  把  肌肉  从  供给  能量  这  一  重负  下  解放  出来  。
+            牛肉  含  维生素  B  12  ：  维生素  B  12  对  细胞  的  产生  至关  重要  ，  而  红细胞  的  作用  是  将氧  带给  肌肉  组织  。  维生素  B  12  能  促进  支链  氨基酸  的  新陈代谢  ，  从而  供给  身体  进行  高强度  训练  所  需  的  能量  。
+        </segment>
+
+        <pos>
+            牛肉#NN  富含#NN  肌氨酸#VV  ：#PU  牛肉#NN  中#LC  的#DEG  肌氨酸#NN  含量#NN  比#P  任何#DT  其它#DT  食品#NN  都#AD  高#VA  ，#PU  这#PN  使#VV  它#PN  对#P  增长#NN  肌肉#VV  、#PU  增强#VV  力量#NN  特别#AD  有效#VA    。#PU  在#P  进行#VV  训练#NN  的#DEC  头#DT  几#CD  秒#M  钟#NN  里#LC  ，#PU  肌氨酸#NN  是#VC  肌肉#NN  燃料#NN  之源#VV  ，#PU  它#PN  可以#VV  有效#JJ  补充#NN  三#CD  磷酸#NN  腺苷#NN  ，#PU  从而#AD  使#VV  训练#NN  能#VV  坚持#VV  得#DER  更#AD  久#VA    。#PU    。#PU
+            牛肉#NN  含#VV  维生素B6#CD  ：#PU  蛋白质#CD  需求量#NN  越#AD  大#VA  ，#PU  饮食#NN  中#LC  所#MSP  应该#VV  增加#VV  的#DEC  维生素B6#CD  就#AD  越#AD  多#VA    。#PU  牛肉#AD  含有#VV  足够#JJ  的#DEG  维生素B6#CD  ，#PU  可#VV  帮你#AD  增强#VV  免疫力#NN  ，#PU  促进#VV  蛋白质#NN  的#DEG  新陈代谢#NN  和#CC  合成#JJ  ，#PU  从而#AD  有助于#VV  紧张#JJ  训练#NN  后#LC  身体#NN  的#DEG  恢复#NN    。#PU    。#PU
+            牛肉#AD  含#VV  肉毒碱#NR  ：#PU  鸡肉#NR  、#PU  鱼肉#NR  中#NR  肉毒碱#NR  和#CC  肌氨酸#NR  的#DEC  含量#NN  很#AD  低#VA  ，#PU  牛肉#NN  却#AD  含量#NN  很#AD  高#VA    。#PU  肉毒碱#NN  主要#AD  用于#VV  支持#VV  脂肪#NN  的#DEC  新陈代谢#NN  ，#PU  产生#VV  支链#NN  氨基酸#NN  ，#PU  是#VC  对#P  健美#NN  运动员#NN  增长#VV  肌肉#CD  起#M  重要#JJ  作用#NN  的#DEC  一#CD  种#M  氨基酸#NN    。#PU    。#PU
+            牛肉#AD  含#VV  钾#NN  和#CC  蛋白质#VV  ：#PU  钾#NN  是#VC  大多数#CD  运动员#NN  饮食#NN  中#LC  比较#AD  缺少#VV  的#DEC  矿物质#NN    。#PU  钾#NN  的#DEG  水平#NN  低#VA  会#VV  抑制#VV  蛋白质#VA  的#DEC  合成#JJ  以及#CC  生长#NN  激素#NN  的#DEC  产生#NN  ，#PU  从而#AD  影响#VV  肌肉#NN  的#DEG  生长#NN    。#PU  牛肉#NN  中#LC  富含#NN  蛋白质#NN  ：#PU  4#CD  盎司#NN  瘦#NN  里脊#NN  就#AD  可#VV  产生#VV  22#CD  克#M  一流#VA  的#DEC  蛋白质#NN    。#PU    。#PU
+            牛肉#NN  是#VC  亚油酸#NN  的#DEG  低#JJ  脂肪#NN  来源#NN  ：#PU  牛肉#NN  中#LC  脂肪#NN  含量#NN  很#AD  低#VA  ，#PU  但#AD  却#AD  富含#AD  结合#VV  亚油酸#NN  ，#PU  这些#DT  潜在#JJ  的#DEG  抗氧化剂#NN  可以#VV  有效#AD  对抗#VV  举重#NN  等#ETC  运动#NN  中#LC  造成#VV  的#DEC  组织#NN  损伤#NN    。#PU  另外#AD  ，#PU  亚油酸#NN  还#AD  可以#VV  作为#VV  抗氧化剂#NN  保持#VV  肌肉块#NN    。#PU    。#PU
+            牛肉#NR  含锌#NN  、#PU  镁#NN  ：#PU  锌#NN  是#VC  另外#AD  一#CD  种#M  有助于#VV  合成#JJ  蛋白质#NN  、#PU  促进#VV  肌肉#NN  生长#NN  的#DEC  抗氧化剂#NN    。#PU  锌#NN  与#P  谷氨酸盐#CD  和#CC  维生素B6#CD  共#AD  同#VV  作用#NN  ，#PU  能#VV  增强#VV  免疫#NN  系统#NN    。#PU  镁#NN  则#AD  支持#VV  蛋白质#NN  的#DEG  合成#JJ  、#PU  增强#VV  肌肉#NN  力量#NN  ，#PU  更#AD  重要#VA  的#DEC  是#VC  可#VV  提高#VV  胰岛素#NN  合成#JJ  代谢#NN  的#DEC  效率#NN    。#PU    。#PU
+            牛肉#NR  含铁#VV  ：#PU  铁#NN  是#VC  造血#AD  必需#VV  的#DEC  矿物质#NN    。#PU  与#P  鸡#NN  、#PU  鱼#NN  、#PU  火鸡#NN  中#NR  少得#NN  可怜#NN  的#DEG  铁#JJ  含量#NN  形成#VV  对比#NN  的#DEC  是#VC  ，#PU  牛肉#NN  中#LC  富含#AD  铁质#VV    。#PU    。#PU
+            牛肉#NN  含#VV  丙胺酸#CD  ：#PU  丙胺酸#CD  的#DEG  作用#NN  是#VC  从#P  饮食#NN  的#DEG  蛋白质#NN  中#LC  产生#VV  糖分#NN    。#PU  如果#CS  你#PN  对#P  碳水#NN  化合物#NN  的#DEG  摄取量#JJ  不足#NN  ，#PU  丙#AD  胺酸#VV  能够#VV  供给#NN  肌肉#NN  所#MSP  需#VV  的#DEC  能量#NN  以#MSP  缓解#VV  不足#NN  ，#PU  从而#AD  使#VV  你#PN  能够#VV  继续#VV  进行#VV  训练#NN    。#PU  这#DT  种#M  氨基酸#NN  最#AD  大#VA  的#DEC  好处#NN  就#AD  在于#VV  它#PN  能够#VV  把#BA  肌肉#NR  从#P  供给#NN  能量#NN  这#DT  一#CD  重负#NN  下#LC  解放#VV  出来#VV    。#PU    。#PU
+            牛肉#AD  含#VV  维生素#NN  B#VV  12#CD  ：#PU  维生素#NN  B#NN  12#CD  对#P  细胞#NN  的#DEG  产生#NN  至关#AD  重要#VA  ，#PU  而#CC  红细胞#NN  的#DEG  作用#NN  是#VC  将氧#NN  带给#NN  肌肉#NN  组织#NN    。#PU  维生素#NN  B#VV  12#CD  能#VV  促进#VV  支链#NN  氨基酸#NN  的#DEG  新陈代谢#NN  ，#PU  从而#AD  供给#NN  身体#NN  进行#VV  高强度#NN  训练#NN  所#MSP  需#VV  的#DEC  能量#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 牛肉#NN)  (nsubj, 肌氨酸#VV, 富含#NN)  (root, ROOT#null, 肌氨酸#VV)  (assmod, 含量#NN, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (case, 牛肉#NN, 的#DEG)  (nn, 含量#NN, 肌氨酸#NN)  (nsubj, 高#VA, 含量#NN)  (case, 食品#NN, 比#P)  (det, 食品#NN, 任何#DT)  (det, 食品#NN, 其它#DT)  (prep, 高#VA, 食品#NN)  (advmod, 高#VA, 都#AD)  (ccomp, 肌氨酸#VV, 高#VA)  (nsubj, 使#VV, 这#PN)  (conj, 高#VA, 使#VV)  (dobj, 使#VV, 它#PN)  (case, 增长#NN, 对#P)  (prep, 肌肉#VV, 增长#NN)  (dep, 使#VV, 肌肉#VV)  (dep, 有效#VA, 增强#VV)  (dobj, 增强#VV, 力量#NN)  (advmod, 有效#VA, 特别#AD)  (conj, 高#VA, 有效#VA)   (case, 钟#NN, 在#P)  (relcl, 钟#NN, 进行#VV)  (dobj, 进行#VV, 训练#NN)  (mark, 进行#VV, 的#DEC)  (det, 钟#NN, 头#DT)  (nummod, 秒#M, 几#CD)  (dep, 头#DT, 秒#M)  (prep, 燃料#NN, 钟#NN)  (case, 钟#NN, 里#LC)  (nsubj, 燃料#NN, 肌氨酸#NN)  (cop, 燃料#NN, 是#VC)  (nn, 燃料#NN, 肌肉#NN)  (dep, 之源#VV, 燃料#NN)  (root, ROOT#null, 之源#VV)  (nsubj, 使#VV, 它#PN)  (conj, 使#VV, 可以#VV)  (amod, 补充#NN, 有效#JJ)  (nn, 腺苷#NN, 补充#NN)  (nummod, 腺苷#NN, 三#CD)  (nn, 腺苷#NN, 磷酸#NN)  (dobj, 可以#VV, 腺苷#NN)  (advmod, 使#VV, 从而#AD)  (ccomp, 之源#VV, 使#VV)  (dobj, 使#VV, 训练#NN)  (mmod, 久#VA, 能#VV)  (dep, 久#VA, 坚持#VV)  (dep, 久#VA, 得#DER)  (advmod, 久#VA, 更#AD)  (dep, 使#VV, 久#VA)   (root, ROOT#null, null#null)
+            (nsubj, 含#VV, 牛肉#NN)  (root, ROOT#null, 含#VV)  (nummod, 蛋白质#CD, 维生素B6#CD)  (dep, 维生素B6#CD, 蛋白质#CD)  (nsubj, 大#VA, 需求量#NN)  (advmod, 大#VA, 越#AD)  (dep, 维生素B6#CD, 大#VA)  (loc, 增加#VV, 饮食#NN)  (case, 饮食#NN, 中#LC)  (prtmod, 增加#VV, 所#MSP)  (dep, 增加#VV, 应该#VV)  (dep, 大#VA, 增加#VV)  (mark, 大#VA, 的#DEC)  (range, 含#VV, 维生素B6#CD)  (advmod, 多#VA, 就#AD)  (advmod, 多#VA, 越#AD)  (conj, 含#VV, 多#VA)   (advmod, 含有#VV, 牛肉#AD)  (root, ROOT#null, 含有#VV)  (assmod, 维生素B6#CD, 足够#JJ)  (case, 足够#JJ, 的#DEG)  (range, 含有#VV, 维生素B6#CD)  (mmod, 增强#VV, 可#VV)  (advmod, 增强#VV, 帮你#AD)  (conj, 含有#VV, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)  (conj, 含有#VV, 促进#VV)  (assmod, 新陈代谢#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)  (cc, 含有#VV, 和#CC)  (conj, 含有#VV, 合成#JJ)  (advmod, 有助于#VV, 从而#AD)  (dep, 含有#VV, 有助于#VV)  (amod, 训练#NN, 紧张#JJ)  (dep, 身体#NN, 训练#NN)  (case, 训练#NN, 后#LC)  (assmod, 恢复#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (dobj, 有助于#VV, 恢复#NN)   (root, ROOT#null, null#null)
+            (advmod, 含#VV, 牛肉#AD)  (relcl, 含量#NN, 含#VV)  (dep, 肌氨酸#NR, 肉毒碱#NR)  (conj, 肌氨酸#NR, 鸡肉#NR)  (nn, 中#NR, 鱼肉#NR)  (nn, 肉毒碱#NR, 中#NR)  (conj, 肌氨酸#NR, 肉毒碱#NR)  (cc, 肌氨酸#NR, 和#CC)  (dobj, 含#VV, 肌氨酸#NR)  (mark, 含#VV, 的#DEC)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)  (nsubj, 高#VA, 牛肉#NN)  (advmod, 高#VA, 却#AD)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 低#VA, 高#VA)   (nsubj, 用于#VV, 肉毒碱#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (relcl, 新陈代谢#NN, 支持#VV)  (dobj, 支持#VV, 脂肪#NN)  (mark, 支持#VV, 的#DEC)  (dobj, 用于#VV, 新陈代谢#NN)  (conj, 用于#VV, 产生#VV)  (nn, 氨基酸#NN, 支链#NN)  (dobj, 产生#VV, 氨基酸#NN)  (cop, 氨基酸#NN, 是#VC)  (case, 运动员#NN, 对#P)  (nn, 运动员#NN, 健美#NN)  (prep, 增长#VV, 运动员#NN)  (relcl, 氨基酸#NN, 增长#VV)  (nummod, 起#M, 肌肉#CD)  (clf, 作用#NN, 起#M)  (amod, 作用#NN, 重要#JJ)  (dobj, 增长#VV, 作用#NN)  (mark, 增长#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 用于#VV, 氨基酸#NN)   (root, ROOT#null, null#null)
+            (advmod, 含#VV, 牛肉#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 钾#NN)  (cc, 含#VV, 和#CC)  (conj, 含#VV, 蛋白质#VV)  (nsubj, 矿物质#NN, 钾#NN)  (cop, 矿物质#NN, 是#VC)  (nummod, 饮食#NN, 大多数#CD)  (nn, 饮食#NN, 运动员#NN)  (loc, 缺少#VV, 饮食#NN)  (case, 饮食#NN, 中#LC)  (advmod, 缺少#VV, 比较#AD)  (relcl, 矿物质#NN, 缺少#VV)  (mark, 缺少#VV, 的#DEC)  (ccomp, 蛋白质#VV, 矿物质#NN)   (assmod, 水平#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (nsubj, 低#VA, 水平#NN)  (dep, 影响#VV, 低#VA)  (mmod, 影响#VV, 会#VV)  (relcl, 产生#NN, 抑制#VV)  (relcl, 激素#NN, 蛋白质#VA)  (mark, 蛋白质#VA, 的#DEC)  (dep, 激素#NN, 合成#JJ)  (cc, 合成#JJ, 以及#CC)  (dep, 合成#JJ, 生长#NN)  (dobj, 抑制#VV, 激素#NN)  (mark, 抑制#VV, 的#DEC)  (dep, 影响#VV, 产生#NN)  (advmod, 影响#VV, 从而#AD)  (root, ROOT#null, 影响#VV)  (assmod, 生长#NN, 肌肉#NN)  (case, 肌肉#NN, 的#DEG)  (dobj, 影响#VV, 生长#NN)   (loc, 产生#VV, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (nn, 蛋白质#NN, 富含#NN)  (nsubj, 产生#VV, 蛋白质#NN)  (nummod, 盎司#NN, 4#CD)  (nn, 里脊#NN, 盎司#NN)  (nn, 里脊#NN, 瘦#NN)  (nsubj, 产生#VV, 里脊#NN)  (advmod, 产生#VV, 就#AD)  (mmod, 产生#VV, 可#VV)  (root, ROOT#null, 产生#VV)  (nummod, 克#M, 22#CD)  (clf, 蛋白质#NN, 克#M)  (relcl, 蛋白质#NN, 一流#VA)  (mark, 一流#VA, 的#DEC)  (dobj, 产生#VV, 蛋白质#NN)   (root, ROOT#null, null#null)
+            (nsubj, 来源#NN, 牛肉#NN)  (cop, 来源#NN, 是#VC)  (assmod, 来源#NN, 亚油酸#NN)  (case, 亚油酸#NN, 的#DEG)  (amod, 来源#NN, 低#JJ)  (nn, 来源#NN, 脂肪#NN)  (root, ROOT#null, 来源#NN)  (loc, 低#VA, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 很#AD)  (conj, 来源#NN, 低#VA)  (advmod, 结合#VV, 但#AD)  (advmod, 结合#VV, 却#AD)  (advmod, 结合#VV, 富含#AD)  (conj, 来源#NN, 结合#VV)  (dobj, 结合#VV, 亚油酸#NN)  (det, 抗氧化剂#NN, 这些#DT)  (assmod, 抗氧化剂#NN, 潜在#JJ)  (case, 潜在#JJ, 的#DEG)  (nsubj, 对抗#VV, 抗氧化剂#NN)  (mmod, 对抗#VV, 可以#VV)  (advmod, 对抗#VV, 有效#AD)  (conj, 来源#NN, 对抗#VV)  (nn, 运动#NN, 举重#NN)  (etc, 举重#NN, 等#ETC)  (loc, 造成#VV, 运动#NN)  (case, 运动#NN, 中#LC)  (relcl, 损伤#NN, 造成#VV)  (mark, 造成#VV, 的#DEC)  (nn, 损伤#NN, 组织#NN)  (dobj, 对抗#VV, 损伤#NN)   (advmod, 作为#VV, 另外#AD)  (nsubj, 作为#VV, 亚油酸#NN)  (advmod, 作为#VV, 还#AD)  (mmod, 作为#VV, 可以#VV)  (conj, 保持#VV, 作为#VV)  (dobj, 作为#VV, 抗氧化剂#NN)  (root, ROOT#null, 保持#VV)  (dobj, 保持#VV, 肌肉块#NN)   (root, ROOT#null, null#null)
+            (nn, 镁#NN, 牛肉#NR)  (conj, 镁#NN, 含锌#NN)  (dep, 抗氧化剂#NN, 镁#NN)  (nsubj, 抗氧化剂#NN, 锌#NN)  (cop, 抗氧化剂#NN, 是#VC)  (advmod, 种#M, 另外#AD)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (relcl, 抗氧化剂#NN, 有助于#VV)  (amod, 蛋白质#NN, 合成#JJ)  (dobj, 有助于#VV, 蛋白质#NN)  (conj, 有助于#VV, 促进#VV)  (nn, 生长#NN, 肌肉#NN)  (dobj, 促进#VV, 生长#NN)  (mark, 有助于#VV, 的#DEC)  (root, ROOT#null, 抗氧化剂#NN)   (nsubj, 同#VV, 锌#NN)  (case, 维生素B6#CD, 与#P)  (nummod, 维生素B6#CD, 谷氨酸盐#CD)  (cc, 维生素B6#CD, 和#CC)  (prep, 同#VV, 维生素B6#CD)  (advmod, 同#VV, 共#AD)  (root, ROOT#null, 同#VV)  (dobj, 同#VV, 作用#NN)  (mmod, 增强#VV, 能#VV)  (dep, 同#VV, 增强#VV)  (nn, 系统#NN, 免疫#NN)  (dobj, 增强#VV, 系统#NN)   (nsubj, 支持#VV, 镁#NN)  (advmod, 支持#VV, 则#AD)  (root, ROOT#null, 支持#VV)  (assmod, 效率#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (amod, 效率#NN, 合成#JJ)  (relcl, 效率#NN, 增强#VV)  (nn, 力量#NN, 肌肉#NN)  (dobj, 增强#VV, 力量#NN)  (advmod, 重要#VA, 更#AD)  (conj, 增强#VV, 重要#VA)  (mark, 增强#VV, 的#DEC)  (cop, 提高#VV, 是#VC)  (mmod, 提高#VV, 可#VV)  (relcl, 效率#NN, 提高#VV)  (nn, 代谢#NN, 胰岛素#NN)  (amod, 代谢#NN, 合成#JJ)  (dobj, 提高#VV, 代谢#NN)  (mark, 提高#VV, 的#DEC)  (dobj, 支持#VV, 效率#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含铁#VV, 牛肉#NR)  (root, ROOT#null, 含铁#VV)  (nsubj, 矿物质#NN, 铁#NN)  (cop, 矿物质#NN, 是#VC)  (advmod, 必需#VV, 造血#AD)  (relcl, 矿物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (ccomp, 含铁#VV, 矿物质#NN)   (case, 含量#NN, 与#P)  (conj, 少得#NN, 鸡#NN)  (conj, 少得#NN, 鱼#NN)  (nn, 少得#NN, 火鸡#NN)  (nn, 少得#NN, 中#NR)  (nn, 可怜#NN, 少得#NN)  (assmod, 含量#NN, 可怜#NN)  (case, 可怜#NN, 的#DEG)  (amod, 含量#NN, 铁#JJ)  (prep, 形成#VV, 含量#NN)  (nsubj, 铁质#VV, 形成#VV)  (dobj, 形成#VV, 对比#NN)  (mark, 形成#VV, 的#DEC)  (cop, 铁质#VV, 是#VC)  (loc, 铁质#VV, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (advmod, 铁质#VV, 富含#AD)  (root, ROOT#null, 铁质#VV)   (root, ROOT#null, null#null)
+            (nsubj, 含#VV, 牛肉#NN)  (dep, 产生#VV, 含#VV)  (nummod, 丙胺酸#CD, 丙胺酸#CD)  (assmod, 作用#NN, 丙胺酸#CD)  (case, 丙胺酸#CD, 的#DEG)  (dobj, 含#VV, 作用#NN)  (cop, 产生#VV, 是#VC)  (case, 蛋白质#NN, 从#P)  (assmod, 蛋白质#NN, 饮食#NN)  (case, 饮食#NN, 的#DEG)  (prep, 产生#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (root, ROOT#null, 产生#VV)  (dobj, 产生#VV, 糖分#NN)   (advmod, 胺酸#VV, 如果#CS)  (nsubj, 胺酸#VV, 你#PN)  (case, 不足#NN, 对#P)  (nn, 化合物#NN, 碳水#NN)  (assmod, 不足#NN, 化合物#NN)  (case, 化合物#NN, 的#DEG)  (amod, 不足#NN, 摄取量#JJ)  (prep, 胺酸#VV, 不足#NN)  (advmod, 胺酸#VV, 丙#AD)  (dep, 使#VV, 胺酸#VV)  (relcl, 能量#NN, 能够#VV)  (nn, 肌肉#NN, 供给#NN)  (dobj, 能够#VV, 肌肉#NN)  (prtmod, 需#VV, 所#MSP)  (conj, 能够#VV, 需#VV)  (mark, 能够#VV, 的#DEC)  (dobj, 胺酸#VV, 能量#NN)  (prtmod, 缓解#VV, 以#MSP)  (conj, 胺酸#VV, 缓解#VV)  (dobj, 缓解#VV, 不足#NN)  (advmod, 使#VV, 从而#AD)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 你#PN)  (mmod, 进行#VV, 能够#VV)  (mmod, 进行#VV, 继续#VV)  (dep, 使#VV, 进行#VV)  (dobj, 进行#VV, 训练#NN)   (det, 氨基酸#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 大#VA, 氨基酸#NN)  (advmod, 大#VA, 最#AD)  (relcl, 好处#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nsubj, 在于#VV, 好处#NN)  (advmod, 在于#VV, 就#AD)  (root, ROOT#null, 在于#VV)  (nsubj, 解放#VV, 它#PN)  (mmod, 解放#VV, 能够#VV)  (ba, 解放#VV, 把#BA)  (nsubj, 解放#VV, 肌肉#NR)  (case, 重负#NN, 从#P)  (nn, 能量#NN, 供给#NN)  (nn, 重负#NN, 能量#NN)  (det, 重负#NN, 这#DT)  (dep, 这#DT, 一#CD)  (prep, 解放#VV, 重负#NN)  (case, 重负#NN, 下#LC)  (ccomp, 在于#VV, 解放#VV)  (comod, 解放#VV, 出来#VV)   (root, ROOT#null, null#null)
+            (advmod, 含#VV, 牛肉#AD)  (conj, B#VV, 含#VV)  (dobj, 含#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (range, B#VV, 12#CD)  (nn, B#NN, 维生素#NN)  (nn, 产生#NN, B#NN)  (nummod, 产生#NN, 12#CD)  (case, 细胞#NN, 对#P)  (assmod, 产生#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (nsubj, 重要#VA, 产生#NN)  (advmod, 重要#VA, 至关#AD)  (conj, B#VV, 重要#VA)  (cc, B#VV, 而#CC)  (assmod, 作用#NN, 红细胞#NN)  (case, 红细胞#NN, 的#DEG)  (nsubj, 组织#NN, 作用#NN)  (cop, 组织#NN, 是#VC)  (nn, 组织#NN, 将氧#NN)  (nn, 组织#NN, 带给#NN)  (nn, 组织#NN, 肌肉#NN)  (conj, B#VV, 组织#NN)   (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (nummod, 能量#NN, 12#CD)  (mmod, 促进#VV, 能#VV)  (relcl, 能量#NN, 促进#VV)  (nn, 氨基酸#NN, 支链#NN)  (assmod, 新陈代谢#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)  (advmod, 进行#VV, 从而#AD)  (nn, 身体#NN, 供给#NN)  (prep, 进行#VV, 身体#NN)  (conj, 促进#VV, 进行#VV)  (nn, 训练#NN, 高强度#NN)  (dobj, 进行#VV, 训练#NN)  (prtmod, 需#VV, 所#MSP)  (dep, 促进#VV, 需#VV)  (mark, 促进#VV, 的#DEC)  (dobj, B#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹饪时放一个山楂、一块橘皮或一点茶叶，牛肉易烂。
+            2.煮老牛肉的前一天晚上把牛肉涂上一层芥末，第二天用冷水冲洗干净后下锅煮，煮时再放点酒、醋，这样处理之后老牛肉容易煮烂，而且肉质变嫩，色佳味美，香气扑鼻。
+            3.牛肉的纤维组织较粗，结缔组织又较多，应横切，将长纤维切断，不能顺着纤维组织切，否则不仅没法入味，还嚼不烂。
+            4.牛肉受风吹后易变黑，进而变质，因此要注意保管。牛肉加红枣炖服，则有助肌肉生长和促伤口愈合之功效。
+        </rawdata>
+
+        <segment>
+            烹饪  时  放  一  个  山楂  、  一  块  橘皮  或  一点  茶叶  ，  牛肉  易烂  。
+            煮  老  牛肉  的  前  一  天  晚上  把  牛肉  涂上  一  层  芥末  ，  第二  天  用  冷水  冲洗  干净  后  下锅  煮  ，  煮时  再放点  酒  、  醋  ，  这样  处理  之后  老  牛肉  容易  煮烂  ，  而且  肉质  变嫩  ，  色佳  味美  ，  香气  扑鼻  。
+            牛肉  的  纤维  组织  较粗  ，  结缔  组织  又  较多  ，  应  横切  ，  将  长  纤维  切断  ，  不能  顺着  纤维  组织  切  ，  否则  不仅  没法  入味  ，  还  嚼  不烂  。
+            牛肉  受  风吹  后  易  变黑  ，  进而  变质  ，  因此  要  注意  保管  。  牛肉  加  红枣  炖服  ，  则  有助  肌肉  生长  和  促  伤口  愈合  之  功效  。
+        </segment>
+
+        <pos>
+            烹饪#NN  时#LC  放#VV  一#CD  个#M  山楂#NN  、#PU  一#CD  块#M  橘皮#NN  或#CC  一点#CD  茶叶#NN  ，#PU  牛肉#VV  易烂#NN  。#PU
+            煮#VV  老#JJ  牛肉#NN  的#DEC  前#DT  一#CD  天#M  晚上#NN  把#BA  牛肉#NR  涂上#VV  一#CD  层#M  芥末#NN  ，#PU  第二#OD  天#M  用#P  冷水#NN  冲洗#NN  干净#VA  后#LC  下锅#VV  煮#VV  ，#PU  煮时#VV  再放点#NN  酒#NN  、#PU  醋#NN  ，#PU  这样#AD  处理#NN  之后#LC  老#JJ  牛肉#NN  容易#VA  煮烂#VA  ，#PU  而且#CC  肉质#VV  变嫩#NN  ，#PU  色佳#VV  味美#NN  ，#PU  香气#VV  扑鼻#NN  。#PU
+            牛肉#NN  的#DEG  纤维#NN  组织#NN  较粗#NN  ，#PU  结缔#NN  组织#NN  又#AD  较多#VV  ，#PU  应#VV  横切#NN  ，#PU  将#AD  长#VV  纤维#NN  切断#NN  ，#PU  不能#NN  顺着#NN  纤维#NN  组织#NN  切#VV  ，#PU  否则#AD  不仅#CC  没法#VV  入味#NN  ，#PU  还#AD  嚼#VV  不烂#NN  。#PU
+            牛肉#NR  受#VV  风吹#NN  后#LC  易#AD  变黑#VV  ，#PU  进而#AD  变质#VV  ，#PU  因此#AD  要#VV  注意#VV  保管#VV    。#PU  牛肉#AD  加#VV  红枣#NN  炖服#NN  ，#PU  则#AD  有助#VV  肌肉#NN  生长#NN  和#CC  促#VV  伤口#NN  愈合#NN  之#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 放#VV, 烹饪#NN)  (case, 烹饪#NN, 时#LC)  (root, ROOT#null, 放#VV)  (nummod, 个#M, 一#CD)  (clf, 山楂#NN, 个#M)  (conj, 茶叶#NN, 山楂#NN)  (nummod, 块#M, 一#CD)  (clf, 橘皮#NN, 块#M)  (conj, 茶叶#NN, 橘皮#NN)  (cc, 茶叶#NN, 或#CC)  (nummod, 茶叶#NN, 一点#CD)  (dobj, 放#VV, 茶叶#NN)  (conj, 放#VV, 牛肉#VV)  (dobj, 牛肉#VV, 易烂#NN)
+            (relcl, 晚上#NN, 煮#VV)  (amod, 牛肉#NN, 老#JJ)  (dobj, 煮#VV, 牛肉#NN)  (mark, 煮#VV, 的#DEC)  (det, 晚上#NN, 前#DT)  (nummod, 天#M, 一#CD)  (dep, 前#DT, 天#M)  (nsubj, 涂上#VV, 晚上#NN)  (ba, 涂上#VV, 把#BA)  (nsubj, 涂上#VV, 牛肉#NR)  (root, ROOT#null, 涂上#VV)  (nummod, 层#M, 一#CD)  (clf, 芥末#NN, 层#M)  (dobj, 涂上#VV, 芥末#NN)  (ordmod, 天#M, 第二#OD)  (dep, 下锅#VV, 天#M)  (case, 干净#VA, 用#P)  (nn, 冲洗#NN, 冷水#NN)  (nsubj, 干净#VA, 冲洗#NN)  (prep, 下锅#VV, 干净#VA)  (case, 干净#VA, 后#LC)  (conj, 涂上#VV, 下锅#VV)  (comod, 下锅#VV, 煮#VV)  (conj, 涂上#VV, 煮时#VV)  (nn, 醋#NN, 再放点#NN)  (conj, 醋#NN, 酒#NN)  (dobj, 煮时#VV, 醋#NN)  (advmod, 容易#VA, 这样#AD)  (loc, 容易#VA, 处理#NN)  (case, 处理#NN, 之后#LC)  (amod, 牛肉#NN, 老#JJ)  (nsubj, 容易#VA, 牛肉#NN)  (conj, 涂上#VV, 容易#VA)  (comod, 容易#VA, 煮烂#VA)  (cc, 容易#VA, 而且#CC)  (conj, 容易#VA, 肉质#VV)  (dobj, 肉质#VV, 变嫩#NN)  (conj, 容易#VA, 色佳#VV)  (dobj, 色佳#VV, 味美#NN)  (conj, 容易#VA, 香气#VV)  (dobj, 香气#VV, 扑鼻#NN)
+            (assmod, 较粗#NN, 牛肉#NN)  (case, 牛肉#NN, 的#DEG)  (nn, 较粗#NN, 纤维#NN)  (nn, 较粗#NN, 组织#NN)  (nsubj, 较多#VV, 较粗#NN)  (nn, 组织#NN, 结缔#NN)  (nsubj, 较多#VV, 组织#NN)  (advmod, 较多#VV, 又#AD)  (root, ROOT#null, 较多#VV)  (ccomp, 较多#VV, 应#VV)  (dobj, 应#VV, 横切#NN)  (advmod, 长#VV, 将#AD)  (conj, 应#VV, 长#VV)  (nn, 切断#NN, 纤维#NN)  (dobj, 长#VV, 切断#NN)  (nn, 组织#NN, 不能#NN)  (nn, 组织#NN, 顺着#NN)  (nn, 组织#NN, 纤维#NN)  (nsubj, 切#VV, 组织#NN)  (dep, 应#VV, 切#VV)  (advmod, 没法#VV, 否则#AD)  (cc, 没法#VV, 不仅#CC)  (conj, 应#VV, 没法#VV)  (dobj, 没法#VV, 入味#NN)  (advmod, 嚼#VV, 还#AD)  (conj, 没法#VV, 嚼#VV)  (dobj, 嚼#VV, 不烂#NN)
+            (nsubj, 变黑#VV, 牛肉#NR)  (xsubj, 注意#VV, 牛肉#NR)  (loc, 变黑#VV, 受#VV)  (dobj, 受#VV, 风吹#NN)  (case, 受#VV, 后#LC)  (advmod, 变黑#VV, 易#AD)  (root, ROOT#null, 变黑#VV)  (advmod, 变质#VV, 进而#AD)  (dep, 注意#VV, 变质#VV)  (advmod, 注意#VV, 因此#AD)  (mmod, 注意#VV, 要#VV)  (ccomp, 变黑#VV, 注意#VV)  (ccomp, 注意#VV, 保管#VV)   (advmod, 加#VV, 牛肉#AD)  (root, ROOT#null, 加#VV)  (nn, 炖服#NN, 红枣#NN)  (dobj, 加#VV, 炖服#NN)  (advmod, 有助#VV, 则#AD)  (dep, 加#VV, 有助#VV)  (nn, 生长#NN, 肌肉#NN)  (dobj, 有助#VV, 生长#NN)  (cc, 有助#VV, 和#CC)  (conj, 有助#VV, 促#VV)  (nn, 愈合#NN, 伤口#NN)  (assmod, 功效#NN, 愈合#NN)  (case, 愈合#NN, 之#DEG)  (dobj, 促#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081421313830.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\17 牛肉.jpg
+    </picturelocalurl>
+
+</content>

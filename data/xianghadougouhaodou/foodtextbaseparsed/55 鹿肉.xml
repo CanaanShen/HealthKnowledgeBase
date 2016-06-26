@@ -1,0 +1,230 @@
+<content>
+
+    <id>
+        55
+    </id>
+
+    <foodname>
+        鹿肉
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        其他肉类
+    </secondcategory>
+
+    <alias>
+        梅花鹿肉、马鹿肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有外伤、阴虚阳亢或有热者忌食；炎热季节忌食。
+        </rawdata>
+
+        <segment>
+            有  外伤  、  阴虚  阳亢  或  有  热者  忌食  ；  炎热  季节  忌食  。
+        </segment>
+
+        <pos>
+            有#VE  外伤#NN  、#PU  阴虚#NN  阳亢#NN  或#CC  有#VE  热者#NN  忌食#NN  ；#PU  炎热#VV  季节#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (conj, 阳亢#NN, 外伤#NN)  (nn, 阳亢#NN, 阴虚#NN)  (dobj, 有#VE, 阳亢#NN)  (cc, 有#VE, 或#CC)  (conj, 有#VE, 有#VE)  (nn, 忌食#NN, 热者#NN)  (dobj, 有#VE, 忌食#NN)  (conj, 有#VE, 炎热#VV)  (nn, 忌食#NN, 季节#NN)  (dobj, 炎热#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜新婚夫妇、肾气日衰的老人、手脚冰凉、肾阳虚者、头昏耳鸣、腰脊疼痛、阳痿、羸弱虚瘦、血脉不活、容颜欠佳的患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  新婚  夫妇  、  肾气  日衰  的  老人  、  手脚  冰凉  、  肾  阳虚  者  、  头昏  耳鸣  、  腰脊  疼痛  、  阳痿  、  羸弱  虚  瘦  、  血脉  不  活  、  容颜  欠佳  的  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  新婚#NN  夫妇#NN  、#PU  肾气#NN  日衰#NN  的#DEG  老人#NN  、#PU  手脚#NN  冰凉#NN  、#PU  肾#NN  阳虚#NN  者#NN  、#PU  头昏#NN  耳鸣#NN  、#PU  腰脊#NN  疼痛#NN  、#PU  阳痿#NR  、#PU  羸弱#NR  虚#AD  瘦#VV  、#PU  血脉#VV  不#AD  活#JJ  、#PU  容颜#NN  欠佳#NN  的#DEC  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 夫妇#NN, 新婚#NN)  (conj, 羸弱#NR, 夫妇#NN)  (nn, 日衰#NN, 肾气#NN)  (assmod, 老人#NN, 日衰#NN)  (case, 日衰#NN, 的#DEG)  (conj, 羸弱#NR, 老人#NN)  (nn, 冰凉#NN, 手脚#NN)  (conj, 羸弱#NR, 冰凉#NN)  (nn, 者#NN, 肾#NN)  (nn, 者#NN, 阳虚#NN)  (conj, 羸弱#NR, 者#NN)  (nn, 耳鸣#NN, 头昏#NN)  (conj, 羸弱#NR, 耳鸣#NN)  (nn, 疼痛#NN, 腰脊#NN)  (conj, 羸弱#NR, 疼痛#NN)  (conj, 羸弱#NR, 阳痿#NR)  (nn, 患者#NN, 羸弱#NR)  (advmod, 瘦#VV, 虚#AD)  (relcl, 羸弱#NR, 瘦#VV)  (relcl, 患者#NN, 瘦#VV)  (dep, 瘦#VV, 血脉#VV)  (neg, 活#JJ, 不#AD)  (amod, 容颜#NN, 活#JJ)  (nn, 欠佳#NN, 容颜#NN)  (dobj, 血脉#VV, 欠佳#NN)  (mark, 瘦#VV, 的#DEC)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                19.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                18.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鹿肉，一般为梅花鹿或马鹿的肉，是高级野味，食用为肉类之极品。其肉质细嫩、味道美、瘦肉多、结缔组织少，营养价值比牛、羊、猪肉都高得多，含有较丰富的蛋白质、脂肪、无机盐、糖和一定量的维生素，且易于被人体消化吸收。
+            梅花鹿又称药鹿，马鹿又称八叉鹿、黄臀赤鹿。分布于我国东北、内蒙古、西北、西南等地区，有人工饲养。杀鹿时，取肉洗净鲜用。
+        </rawdata>
+
+        <segment>
+            鹿肉  ，  一般  为  梅花鹿  或  马鹿  的  肉  ，  是  高级  野味  ，  食用  为  肉类  之  极品  。  其  肉质  细嫩  、  味道  美  、  瘦肉  多  、  结缔  组织  少  ，  营养  价值  比  牛  、  羊  、  猪肉  都  高  得  多  ，  含有  较  丰富  的  蛋白质  、  脂肪  、  无机盐  、  糖  和  一定量  的  维生素  ，  且  易于  被  人体  消化  吸收  。
+            梅花鹿  又  称  药鹿  ，  马鹿  又  称  八叉鹿  、  黄臀赤  鹿  。  分布  于  我国  东北  、  内蒙古  、  西北  、  西南  等  地区  ，  有  人工  饲养  。  杀  鹿  时  ，  取  肉  洗净  鲜  用  。
+        </segment>
+
+        <pos>
+            鹿肉#VV  ，#PU  一般#AD  为#VC  梅花鹿#NN  或#CC  马鹿#NN  的#DEG  肉#NN  ，#PU  是#VC  高级#JJ  野味#NN  ，#PU  食用#VV  为#P  肉类#NN  之#DEG  极品#NN    。#PU  其#PN  肉质#VV  细嫩#NN  、#PU  味道#NN  美#NR  、#PU  瘦肉#AD  多#VA  、#PU  结缔#NN  组织#NN  少#VA  ，#PU  营养#VA  价值#NN  比#P  牛#NN  、#PU  羊#NN  、#PU  猪肉#NN  都#AD  高#VA  得#DER  多#VA  ，#PU  含有#NN  较#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  脂肪#NN  、#PU  无机盐#NN  、#PU  糖#NN  和#CC  一定量#CD  的#DEG  维生素#NN  ，#PU  且#CC  易于#NN  被#SB  人体#VV  消化#NN  吸收#NN    。#PU    。#PU
+            梅花鹿#NR  又#AD  称#VV  药鹿#VV  ，#PU  马鹿#NN  又#AD  称#VV  八叉鹿#CD  、#PU  黄臀赤#VV  鹿#NN    。#PU  分布#VV  于#P  我国#NN  东北#NN  、#PU  内蒙古#NR  、#PU  西北#NN  、#PU  西南#NN  等#ETC  地区#NN  ，#PU  有#VE  人工#JJ  饲养#NN    。#PU  杀#VV  鹿#NN  时#LC  ，#PU  取#VV  肉#NN  洗净#NN  鲜#NN  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 鹿肉#VV)  (advmod, 肉#NN, 一般#AD)  (cop, 肉#NN, 为#VC)  (conj, 马鹿#NN, 梅花鹿#NN)  (cc, 马鹿#NN, 或#CC)  (assmod, 肉#NN, 马鹿#NN)  (case, 马鹿#NN, 的#DEG)  (ccomp, 鹿肉#VV, 肉#NN)  (cop, 野味#NN, 是#VC)  (amod, 野味#NN, 高级#JJ)  (conj, 肉#NN, 野味#NN)  (conj, 肉#NN, 食用#VV)  (case, 肉类#NN, 为#P)  (assmod, 极品#NN, 肉类#NN)  (case, 肉类#NN, 之#DEG)  (dobj, 食用#VV, 极品#NN)   (nsubj, 肉质#VV, 其#PN)  (root, ROOT#null, 肉质#VV)  (conj, 味道#NN, 细嫩#NN)  (nn, 维生素#NN, 味道#NN)  (conj, 维生素#NN, 美#NR)  (advmod, 多#VA, 瘦肉#AD)  (relcl, 糖#NN, 多#VA)  (nn, 组织#NN, 结缔#NN)  (nsubj, 少#VA, 组织#NN)  (dep, 多#VA, 少#VA)  (conj, 少#VA, 营养#VA)  (nsubj, 多#VA, 价值#NN)  (case, 猪肉#NN, 比#P)  (conj, 猪肉#NN, 牛#NN)  (conj, 猪肉#NN, 羊#NN)  (prep, 多#VA, 猪肉#NN)  (advmod, 多#VA, 都#AD)  (dep, 多#VA, 高#VA)  (dep, 多#VA, 得#DER)  (dep, 少#VA, 多#VA)  (nsubj, 丰富#VA, 含有#NN)  (advmod, 丰富#VA, 较#AD)  (dep, 少#VA, 丰富#VA)  (mark, 多#VA, 的#DEC)  (conj, 糖#NN, 蛋白质#NN)  (conj, 糖#NN, 脂肪#NN)  (conj, 糖#NN, 无机盐#NN)  (conj, 维生素#NN, 糖#NN)  (cc, 维生素#NN, 和#CC)  (assmod, 维生素#NN, 一定量#CD)  (case, 一定量#CD, 的#DEG)  (dobj, 肉质#VV, 维生素#NN)  (cc, 肉质#VV, 且#CC)  (nsubjpass, 人体#VV, 易于#NN)  (auxpass, 人体#VV, 被#SB)  (conj, 肉质#VV, 人体#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 人体#VV, 吸收#NN)   (root, ROOT#null, null#null)
+            (nsubj, 称#VV, 梅花鹿#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 药鹿#VV)  (nsubj, 称#VV, 马鹿#NN)  (advmod, 称#VV, 又#AD)  (ccomp, 药鹿#VV, 称#VV)  (range, 称#VV, 八叉鹿#CD)  (conj, 称#VV, 黄臀赤#VV)  (dobj, 黄臀赤#VV, 鹿#NN)   (root, ROOT#null, 分布#VV)  (case, 地区#NN, 于#P)  (nn, 西南#NN, 我国#NN)  (conj, 西南#NN, 东北#NN)  (conj, 西南#NN, 内蒙古#NR)  (conj, 西南#NN, 西北#NN)  (nn, 地区#NN, 西南#NN)  (etc, 西南#NN, 等#ETC)  (prep, 分布#VV, 地区#NN)  (dep, 分布#VV, 有#VE)  (amod, 饲养#NN, 人工#JJ)  (dobj, 有#VE, 饲养#NN)   (loc, 用#VV, 杀#VV)  (dobj, 杀#VV, 鹿#NN)  (case, 杀#VV, 时#LC)  (dep, 用#VV, 取#VV)  (nn, 鲜#NN, 肉#NN)  (nn, 鲜#NN, 洗净#NN)  (dobj, 取#VV, 鲜#NN)  (root, ROOT#null, 用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性温。能益气血，补虚羸，补肾益精。用于虚损羸瘦，气血不足，体倦乏力，或产后缺乳；肾虚阳衰，肾精不足，腰脊酸软，畏寒肢冷，阳痿精少。
+            中国传统医学认为，鹿肉属于纯阳之物，补益肾气之功为所有肉类之首，故对于新婚夫妇和肾气日衰的老人，吃鹿肉是很好的补益食品，对那些经常手脚冰凉的人也有很好的温煦作用。鹿肉高蛋白、低脂肪、低胆固醇的特点，对人体的血液循环系统、神经系统有良好的调节作用。还有补脾和胃，养肝补血，壮阳益精之功效。可用于治疗虚劳羸瘦、产后无乳。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性温  。  能  益气  血  ，  补  虚羸  ，  补  肾  益精  。  用于  虚损  羸瘦  ，  气血  不足  ，  体  倦乏力  ，  或  产后  缺乳  ；  肾虚  阳衰  ，  肾  精  不足  ，  腰脊  酸软  ，  畏  寒  肢  冷  ，  阳痿  精少  。
+            中国  传统  医学  认为  ，  鹿肉  属于  纯  阳  之物  ，  补益  肾气  之  功  为  所有  肉类  之首  ，  故  对于  新婚  夫妇  和  肾气  日衰  的  老人  ，  吃  鹿肉  是  很  好  的  补益  食品  ，  对  那些  经常  手脚  冰凉  的  人  也  有  很  好  的  温煦  作用  。  鹿肉  高  蛋白  、  低  脂肪  、  低  胆固醇  的  特点  ，  对  人体  的  血液  循环  系统  、  神经  系统  有  良好  的  调节  作用  。  还有  补脾  和  胃  ，  养肝  补血  ，  壮阳益精  之  功效  。  可  用于  治疗  虚劳羸瘦  、  产后  无乳  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性温#VV    。#PU  能#VV  益气#VV  血#NN  ，#PU  补#VV  虚羸#NN  ，#PU  补#VV  肾#NN  益精#NN    。#PU  用于#VV  虚损#NN  羸瘦#NN  ，#PU  气血#AD  不足#VA  ，#PU  体#VV  倦乏力#NN  ，#PU  或#CC  产后#VV  缺乳#NN  ；#PU  肾虚#VV  阳衰#NN  ，#PU  肾#VV  精#JJ  不足#NN  ，#PU  腰脊#VV  酸软#NN  ，#PU  畏#VV  寒#JJ  肢#NN  冷#NN  ，#PU  阳痿#VV  精少#NN    。#PU    。#PU
+            中国#NR  传统#JJ  医学#NN  认为#VV  ，#PU  鹿肉#AD  属于#VV  纯#JJ  阳#NN  之物#NN  ，#PU  补益#NN  肾气#NN  之#DEG  功#NN  为#P  所有#DT  肉类#NN  之首#VV  ，#PU  故#AD  对于#P  新婚#VV  夫妇#NN  和#CC  肾气#NN  日衰#NN  的#DEG  老人#NN  ，#PU  吃#VV  鹿肉#NN  是#VC  很#AD  好#VA  的#DEC  补益#JJ  食品#NN  ，#PU  对#P  那些#DT  经常#AD  手脚#VV  冰凉#NN  的#DEC  人#NN  也#AD  有#VE  很#AD  好#VA  的#DEC  温煦#JJ  作用#NN    。#PU  鹿肉#VV  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  的#DEG  特点#NN  ，#PU  对#P  人体#NN  的#DEG  血液#NN  循环#NN  系统#NN  、#PU  神经#NN  系统#NN  有#VE  良好#VA  的#DEC  调节#VV  作用#NN    。#PU  还有#AD  补脾#NN  和#CC  胃#NN  ，#PU  养肝#AD  补血#VA  ，#PU  壮阳益精#VA  之#DEC  功效#NN    。#PU  可#VV  用于#VV  治疗#NN  虚劳羸瘦#NN  、#PU  产后#NN  无乳#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性温#VV)   (mmod, 益气#VV, 能#VV)  (root, ROOT#null, 益气#VV)  (dobj, 益气#VV, 血#NN)  (conj, 益气#VV, 补#VV)  (dobj, 补#VV, 虚羸#NN)  (conj, 益气#VV, 补#VV)  (nn, 益精#NN, 肾#NN)  (dobj, 补#VV, 益精#NN)   (root, ROOT#null, 用于#VV)  (nn, 羸瘦#NN, 虚损#NN)  (dobj, 用于#VV, 羸瘦#NN)  (advmod, 不足#VA, 气血#AD)  (conj, 用于#VV, 不足#VA)  (conj, 用于#VV, 体#VV)  (dobj, 体#VV, 倦乏力#NN)  (cc, 用于#VV, 或#CC)  (dep, 用于#VV, 产后#VV)  (dobj, 产后#VV, 缺乳#NN)  (conj, 用于#VV, 肾虚#VV)  (dobj, 肾虚#VV, 阳衰#NN)  (conj, 肾虚#VV, 肾#VV)  (amod, 不足#NN, 精#JJ)  (dobj, 肾#VV, 不足#NN)  (conj, 肾虚#VV, 腰脊#VV)  (dobj, 腰脊#VV, 酸软#NN)  (conj, 肾虚#VV, 畏#VV)  (amod, 冷#NN, 寒#JJ)  (nn, 冷#NN, 肢#NN)  (dobj, 畏#VV, 冷#NN)  (conj, 肾虚#VV, 阳痿#VV)  (dobj, 阳痿#VV, 精少#NN)   (root, ROOT#null, null#null)
+            (nn, 医学#NN, 中国#NR)  (amod, 医学#NN, 传统#JJ)  (nsubj, 认为#VV, 医学#NN)  (root, ROOT#null, 认为#VV)  (advmod, 属于#VV, 鹿肉#AD)  (dep, 之首#VV, 属于#VV)  (amod, 阳#NN, 纯#JJ)  (nn, 之物#NN, 阳#NN)  (dobj, 属于#VV, 之物#NN)  (nn, 肾气#NN, 补益#NN)  (assmod, 功#NN, 肾气#NN)  (case, 肾气#NN, 之#DEG)  (nsubj, 之首#VV, 功#NN)  (case, 肉类#NN, 为#P)  (det, 肉类#NN, 所有#DT)  (prep, 之首#VV, 肉类#NN)  (ccomp, 认为#VV, 之首#VV)  (advmod, 食品#NN, 故#AD)  (case, 新婚#VV, 对于#P)  (prep, 食品#NN, 新婚#VV)  (conj, 肾气#NN, 夫妇#NN)  (cc, 肾气#NN, 和#CC)  (nn, 日衰#NN, 肾气#NN)  (assmod, 老人#NN, 日衰#NN)  (case, 日衰#NN, 的#DEG)  (dobj, 新婚#VV, 老人#NN)  (conj, 新婚#VV, 吃#VV)  (dobj, 吃#VV, 鹿肉#NN)  (cop, 食品#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, 食品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 食品#NN, 补益#JJ)  (conj, 之首#VV, 食品#NN)  (case, 人#NN, 对#P)  (det, 人#NN, 那些#DT)  (advmod, 手脚#VV, 经常#AD)  (relcl, 人#NN, 手脚#VV)  (dobj, 手脚#VV, 冰凉#NN)  (mark, 手脚#VV, 的#DEC)  (prep, 有#VE, 人#NN)  (advmod, 有#VE, 也#AD)  (dep, 食品#NN, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 温煦#JJ)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, 鹿肉#VV)  (amod, 蛋白#NN, 高#JJ)  (conj, 胆固醇#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 胆固醇#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (assmod, 特点#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 鹿肉#VV, 特点#NN)  (case, 系统#NN, 对#P)  (assmod, 系统#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nn, 系统#NN, 血液#NN)  (nn, 系统#NN, 循环#NN)  (conj, 系统#NN, 系统#NN)  (nn, 系统#NN, 神经#NN)  (prep, 有#VE, 系统#NN)  (conj, 鹿肉#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nfincl, 作用#NN, 调节#VV)  (dobj, 有#VE, 作用#NN)   (advmod, 补血#VA, 还有#AD)  (conj, 胃#NN, 补脾#NN)  (cc, 胃#NN, 和#CC)  (nsubj, 补血#VA, 胃#NN)  (advmod, 补血#VA, 养肝#AD)  (relcl, 功效#NN, 补血#VA)  (conj, 补血#VA, 壮阳益精#VA)  (mark, 补血#VA, 之#DEC)  (root, ROOT#null, 功效#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 无乳#NN, 治疗#NN)  (conj, 无乳#NN, 虚劳羸瘦#NN)  (nn, 无乳#NN, 产后#NN)  (dobj, 用于#VV, 无乳#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血脂  抗癌  防癌  补气  祛风  补血  壮阳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鹿肉含有较丰富的蛋白质、脂肪、无机盐、糖和一定量的维生素。其高蛋白、低脂肪、低胆固醇的特点，对人体的血液循环系统、神经系统有良好的调节作用。
+        </rawdata>
+
+        <segment>
+            鹿肉  含有  较  丰富  的  蛋白质  、  脂肪  、  无机盐  、  糖  和  一定量  的  维生素  。  其  高蛋白  、  低  脂肪  、  低  胆固醇  的  特点  ，  对  人体  的  血液  循环  系统  、  神经  系统  有  良好  的  调节  作用  。
+        </segment>
+
+        <pos>
+            鹿肉#NN  含有#VV  较#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  脂肪#NN  、#PU  无机盐#NN  、#PU  糖#NN  和#CC  一定量#CD  的#DEG  维生素#NN    。#PU  其#PN  高蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  的#DEG  特点#NN  ，#PU  对#P  人体#NN  的#DEG  血液#NN  循环#NN  系统#NN  、#PU  神经#NN  系统#NN  有#VE  良好#VA  的#DEC  调节#VV  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 鹿肉#NN)  (root, ROOT#null, 含有#VV)  (advmod, 丰富#VA, 较#AD)  (relcl, 糖#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 糖#NN, 蛋白质#NN)  (conj, 糖#NN, 脂肪#NN)  (conj, 糖#NN, 无机盐#NN)  (conj, 维生素#NN, 糖#NN)  (cc, 维生素#NN, 和#CC)  (assmod, 维生素#NN, 一定量#CD)  (case, 一定量#CD, 的#DEG)  (dobj, 含有#VV, 维生素#NN)   (nsubj, 有#VE, 其#PN)  (conj, 胆固醇#NN, 高蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 胆固醇#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (assmod, 特点#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nsubj, 有#VE, 特点#NN)  (case, 系统#NN, 对#P)  (assmod, 系统#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nn, 系统#NN, 血液#NN)  (nn, 系统#NN, 循环#NN)  (conj, 系统#NN, 系统#NN)  (nn, 系统#NN, 神经#NN)  (prep, 有#VE, 系统#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nfincl, 作用#NN, 调节#VV)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            鹿肉可干烧、红烧或红扒。鹿肉也同牛羊肉一样属于红肉之列，多食、久食对预防胃肠疾病不利。
+        </rawdata>
+
+        <segment>
+            鹿肉  可  干烧  、  红烧  或  红扒  。  鹿肉  也  同  牛羊肉  一样  属于  红  肉  之  列  ，  多  食  、  久  食  对  预防  胃肠  疾病  不利  。
+        </segment>
+
+        <pos>
+            鹿肉#NN  可#VV  干烧#NR  、#PU  红烧#NR  或#CC  红扒#NR    。#PU  鹿肉#NN  也#AD  同#P  牛羊肉#NR  一样#VA  属于#VV  红#JJ  肉#NN  之#DEG  列#NN  ，#PU  多#CD  食#NN  、#PU  久#NN  食#NN  对#P  预防#NN  胃肠#NN  疾病#NN  不利#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可#VV, 鹿肉#NN)  (root, ROOT#null, 可#VV)  (conj, 红扒#NR, 干烧#NR)  (conj, 红扒#NR, 红烧#NR)  (cc, 红扒#NR, 或#CC)  (dobj, 可#VV, 红扒#NR)   (nsubj, 一样#VA, 鹿肉#NN)  (advmod, 一样#VA, 也#AD)  (case, 牛羊肉#NR, 同#P)  (prep, 一样#VA, 牛羊肉#NR)  (root, ROOT#null, 一样#VA)  (dep, 一样#VA, 属于#VV)  (amod, 肉#NN, 红#JJ)  (assmod, 列#NN, 肉#NN)  (case, 肉#NN, 之#DEG)  (dobj, 属于#VV, 列#NN)  (nummod, 食#NN, 多#CD)  (conj, 食#NN, 食#NN)  (nn, 食#NN, 久#NN)  (nsubj, 不利#VA, 食#NN)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 预防#NN)  (nn, 疾病#NN, 胃肠#NN)  (prep, 不利#VA, 疾病#NN)  (conj, 一样#VA, 不利#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081721184072.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\55 鹿肉.jpg
+    </picturelocalurl>
+
+</content>
