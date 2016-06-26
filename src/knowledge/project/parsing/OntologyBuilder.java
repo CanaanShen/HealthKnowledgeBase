@@ -1,11 +1,11 @@
 package knowledge.project.parsing;
 
-import healthtextbase.project.type.DependencyTuple;
-import healthtextbase.project.type.TaggedTuple;
-import healthtextbase.project.util.ConfigUtil;
-import healthtextbase.project.util.ExceptionUtility;
-import healthtextbase.project.util.FileUtil;
-import healthtextbase.project.util.TaggingUtil;
+import knowledge.project.type.DependencyTuple;
+import knowledge.project.type.TaggedTuple;
+import knowledge.project.util.ConfigUtil;
+import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.FileUtil;
+import knowledge.project.util.TaggingUtil;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 package knowledge.project.parsing;
 
-import healthtextbase.project.util.ExceptionUtility;
-import healthtextbase.project.util.FileUtil;
+import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.FileUtil;
 
 import java.io.File;
 import java.util.ArrayList;

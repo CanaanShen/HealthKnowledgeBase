@@ -1,9 +1,9 @@
 package knowledge.project.parsing;
 
-import healthtextbase.project.util.CommonUtil;
-import healthtextbase.project.util.ConfigUtil;
-import healthtextbase.project.util.ExceptionUtility;
-import healthtextbase.project.util.FileUtil;
+import knowledge.project.util.CommonUtil;
+import knowledge.project.util.ConfigUtil;
+import knowledge.project.util.ExceptionUtility;
+import knowledge.project.util.FileUtil;
 
 import java.io.File;
 import java.util.ArrayList;
