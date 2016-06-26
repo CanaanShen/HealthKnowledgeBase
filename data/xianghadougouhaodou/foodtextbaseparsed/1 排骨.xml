@@ -1,0 +1,359 @@
+<content>
+
+    <id>
+        1
+    </id>
+
+    <foodname>
+        排骨
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        肋排、子排、骨头
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热痰滞内蕴者，肥胖、血脂较高者慎食。
+        </rawdata>
+
+        <segment>
+            湿热  痰滞  内蕴者  ，  肥胖  、  血脂  较  高者  慎食  。
+        </segment>
+
+        <pos>
+            湿热#NN  痰滞#NN  内蕴者#NN  ，#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 内蕴者#NN, 湿热#NN)  (nn, 内蕴者#NN, 痰滞#NN)  (nsubj, 高者#VV, 内蕴者#NN)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (root, ROOT#null, 高者#VV)  (dobj, 高者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可食用。适宜气血不足、阴虚纳差者。
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  食用  。  适宜  气血  不足  、  阴虚  纳  差者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  食用#VV    。#PU  适宜#VV  气血#NN  不足#NN  、#PU  阴虚#NR  纳#NR  差者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 差者#NN, 气血#NN)  (conj, 差者#NN, 不足#NN)  (nn, 差者#NN, 阴虚#NR)  (nn, 差者#NN, 纳#NR)  (dobj, 适宜#VV, 差者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                264
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                20.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                165
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                4.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                125
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                274
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                44.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                10.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            排骨，指猪、牛、羊等动物剔肉后剩下的肋骨和脊椎骨，上面还附有少量肉类，可以食用。一般来说，只要我们提到排骨，指的都是猪排骨。猪排骨味道鲜美，也不会太过油腻。猪排骨除含蛋白质、脂肪、维生素外，还含有大量磷酸钙、骨胶原、骨粘蛋白等，可为幼儿和老人提供钙质。
+            小排是指猪腹腔靠近肚腩部分的排骨，它的上边是肋排和子排，小排的肉层比较厚，并带有白色软骨。适合蒸、炸、烤，但是要剁小块。
+            子排是指腹腔连接背脊的部位，它的下方是五花肉，片下的排骨长达30厘米，呈三角形斜切片状。子排的肉层很厚，隔着一层薄油还连了一块五花肉，油脂丰厚，肉质是所有排骨中最嫩的，适用于多种烹调方法和口味，只是口感略显油腻。适合炸、烤、红烧，长度以5～7厘米为宜。
+            大排是里脊肉和背脊肉连接的部位，又称为肉排，多用于油炸，以肉片为主，但是带着排骨，除了增加分量让肉片面积显得更大外，油炸的时候也会增加大骨特有的香气，这也是炸肉排的特色。除了油炸，也可以卤大排，但是卤之前要经过煎或快速油炸的程序，作用是封住大骨的血水，免得烹调过程流出，影响肉片和汤汗的色泽。适合炸、卤，如果炸要切薄一点，如果卤要厚一点。
+            肋排是胸腔的片状排骨，肉层比较薄，肉质比较瘦，口感比较嫩，但是因为有一侧连接背脊，所以骨头会比较粗。由于肋排比较大，所以一些店家会把它分割成腔骨、子排等，让顾客选购。例如片状的烤肋排，就是选用中段的嫩排。剁小块后挑出肉层较厚的部分可以用来蒸、炸、红烧，大片的适合烤。
+        </rawdata>
+
+        <segment>
+            排骨  ，  指  猪  、  牛  、  羊  等  动物  剔肉  后  剩下  的  肋骨  和  脊椎骨  ，  上面  还  附有  少量  肉类  ，  可以  食用  。  一般来说  ，  只要  我们  提到  排骨  ，  指的  都  是  猪排  骨  。  猪排  骨  味道  鲜美  ，  也  不  会  太过  油腻  。  猪排  骨  除  含  蛋白质  、  脂肪  、  维生素  外  ，  还  含有  大量  磷酸钙  、  骨胶原  、  骨  粘蛋白  等  ，  可为  幼儿  和  老人  提供  钙质  。
+            小  排  是  指  猪  腹腔  靠近  肚腩  部分  的  排骨  ，  它  的  上边  是  肋排  和  子排  ，  小  排  的  肉  层  比较  厚  ，  并  带有  白色  软骨  。  适合  蒸  、  炸  、  烤  ，  但是  要  剁小块  。
+            子排  是  指  腹腔  连接  背脊  的  部位  ，  它  的  下方  是  五花肉  ，  片  下  的  排骨  长  达  30  厘米  ，  呈  三角形  斜切  片状  。  子排  的  肉  层  很  厚  ，  隔着  一  层  薄  油  还  连  了  一  块  五花肉  ，  油脂  丰厚  ，  肉质  是  所有  排骨  中  最  嫩的  ，  适用于  多  种  烹调  方法  和  口味  ，  只是  口感  略  显  油腻  。  适合  炸  、  烤  、  红烧  ，  长度  以  5  ～  7  厘米  为宜  。
+            大  排  是  里脊肉  和  背脊  肉  连接  的  部位  ，  又  称为  肉排  ，  多用于  油炸  ，  以  肉片  为主  ，  但是  带着  排骨  ，  除了  增加  分量  让  肉片  面积  显得  更大  外  ，  油炸  的  时候  也  会  增加  大  骨特  有的  香气  ，  这  也  是  炸  肉排  的  特色  。  除了  油炸  ，  也  可以  卤大排  ，  但是  卤之前  要  经过  煎  或  快速  油炸  的  程序  ，  作用  是  封住  大  骨  的  血水  ，  免得  烹调  过程  流出  ，  影响  肉片  和  汤汗  的  色泽  。  适合  炸  、  卤  ，  如果  炸  要  切  薄  一点  ，  如果  卤要  厚  一点  。
+            肋排  是  胸腔  的  片状  排骨  ，  肉  层  比较  薄  ，  肉质  比较  瘦  ，  口感  比较  嫩  ，  但是  因为  有  一  侧  连接  背脊  ，  所以  骨头  会  比较  粗  。  由于  肋排  比较  大  ，  所以  一些  店家  会  把  它  分割  成  腔骨  、  子  排  等  ，  让  顾客  选购  。  例如  片状  的  烤肋  排  ，  就是  选用  中段  的  嫩排  。  剁  小块  后  挑出  肉层  较  厚  的  部分  可以  用来  蒸  、  炸  、  红烧  ，  大片  的  适合  烤  。
+        </segment>
+
+        <pos>
+            排骨#NN  ，#PU  指#VV  猪#NN  、#PU  牛#NN  、#PU  羊#NN  等#ETC  动物#NN  剔肉#NN  后#LC  剩下#VV  的#DEC  肋骨#NN  和#CC  脊椎骨#NN  ，#PU  上面#NN  还#AD  附有#VV  少量#CD  肉类#NN  ，#PU  可以#VV  食用#VV    。#PU  一般来说#CD  ，#PU  只要#CS  我们#PN  提到#VV  排骨#NN  ，#PU  指的#AD  都#AD  是#VC  猪排#NN  骨#NN    。#PU  猪排#NN  骨#NN  味道#NN  鲜美#VV  ，#PU  也#AD  不#AD  会#VV  太过#VV  油腻#NN    。#PU  猪排#NN  骨#NN  除#P  含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  维生素#NN  外#LC  ，#PU  还#AD  含有#VV  大量#CD  磷酸钙#NN  、#PU  骨胶原#NN  、#PU  骨#NN  粘蛋白#NN  等#ETC  ，#PU  可为#NR  幼儿#NN  和#CC  老人#NN  提供#VV  钙质#NN    。#PU    。#PU
+            小#VA  排#VV  是#VC  指#VV  猪#NN  腹腔#NN  靠近#NN  肚腩#CD  部分#M  的#DEC  排骨#NN  ，#PU  它#PN  的#DEG  上边#NN  是#VC  肋排#NN  和#CC  子排#NN  ，#PU  小#JJ  排#VV  的#DEC  肉#NN  层#NN  比较#VV  厚#NN  ，#PU  并#CC  带有#VV  白色#JJ  软骨#NN    。#PU  适合#VV  蒸#NN  、#PU  炸#VV  、#PU  烤#VV  ，#PU  但是#AD  要#VV  剁小块#VV    。#PU    。#PU
+            子排#NN  是#VC  指#VV  腹腔#NN  连接#VV  背脊#NN  的#DEC  部位#NN  ，#PU  它#PN  的#DEG  下方#NN  是#VC  五花肉#CD  ，#PU  片#M  下#VV  的#DEC  排骨#NN  长#AD  达#VV  30#CD  厘米#M  ，#PU  呈#VV  三角形#CD  斜切#NN  片状#NN    。#PU  子排#NN  的#DEG  肉#NN  层#NN  很#AD  厚#NN  ，#PU  隔着#P  一#CD  层#M  薄#NN  油#NN  还#AD  连#AD  了#VV  一#CD  块#M  五花肉#CD  ，#PU  油脂#AD  丰厚#VA  ，#PU  肉质#AD  是#VC  所有#DT  排骨#NN  中#LC  最#AD  嫩的#VA  ，#PU  适用于#VV  多#CD  种#M  烹调#NN  方法#NN  和#CC  口味#NN  ，#PU  只是#AD  口感#AD  略#AD  显#VV  油腻#NN    。#PU  适合#VV  炸#VV  、#PU  烤#NN  、#PU  红烧#NN  ，#PU  长度#NN  以#P  5#CD  ～#VV  7#CD  厘米#M  为宜#NN    。#PU    。#PU
+            大#AD  排#VV  是#VC  里脊肉#NN  和#CC  背脊#NN  肉#NN  连接#VV  的#DEC  部位#NN  ，#PU  又#AD  称为#VV  肉排#NN  ，#PU  多用于#VV  油炸#NN  ，#PU  以#P  肉片#NN  为主#VV  ，#PU  但是#AD  带着#NR  排骨#VV  ，#PU  除了#P  增加#VV  分量#NN  让#VV  肉片#NN  面积#NN  显得#VV  更大#JJ  外#NN  ，#PU  油炸#VV  的#DEC  时候#NN  也#AD  会#VV  增加#VV  大#JJ  骨特#NN  有的#PN  香气#VV  ，#PU  这#PN  也#AD  是#VC  炸#VV  肉排#NN  的#DEC  特色#NN    。#PU  除了#P  油炸#NN  ，#PU  也#AD  可以#VV  卤大排#VV  ，#PU  但是#AD  卤之前#AD  要#VV  经过#P  煎#NN  或#CC  快速#JJ  油炸#NN  的#DEG  程序#NN  ，#PU  作用#NN  是#VC  封住#NR  大#JJ  骨#NN  的#DEG  血水#NN  ，#PU  免得#VV  烹调#NN  过程#NN  流出#NN  ，#PU  影响#VV  肉片#NN  和#CC  汤汗#NN  的#DEG  色泽#NN    。#PU  适合#VV  炸#VV  、#PU  卤#NN  ，#PU  如果#CS  炸#VV  要#VV  切#VV  薄#NN  一点#CD  ，#PU  如果#CS  卤要#VV  厚#NN  一点#CD    。#PU    。#PU
+            肋排#NN  是#VC  胸腔#NN  的#DEG  片状#NN  排骨#NN  ，#PU  肉#NN  层#NN  比较#AD  薄#VA  ，#PU  肉质#NN  比较#AD  瘦#VA  ，#PU  口感#NN  比较#AD  嫩#VA  ，#PU  但是#AD  因为#P  有#VE  一#CD  侧#LC  连接#VV  背脊#NN  ，#PU  所以#AD  骨头#AD  会#VV  比较#AD  粗#VA    。#PU  由于#P  肋排#NN  比较#AD  大#VA  ，#PU  所以#AD  一些#CD  店家#NN  会#VV  把#BA  它#PN  分割#VV  成#VV  腔骨#NN  、#PU  子#NN  排#VV  等#ETC  ，#PU  让#VV  顾客#NN  选购#VV    。#PU  例如#AD  片状#NN  的#DEG  烤肋#NN  排#VV  ，#PU  就是#AD  选用#VV  中段#NN  的#DEG  嫩排#NN    。#PU  剁#NN  小块#NN  后#LC  挑出#AD  肉层#VV  较#AD  厚#JJ  的#DEG  部分#NN  可以#VV  用来#VV  蒸#NN  、#PU  炸#VV  、#PU  红烧#VV  ，#PU  大片#CD  的#DEC  适合#VV  烤#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 指#VV, 排骨#NN)  (root, ROOT#null, 指#VV)  (conj, 羊#NN, 猪#NN)  (conj, 羊#NN, 牛#NN)  (nn, 剔肉#NN, 羊#NN)  (etc, 羊#NN, 等#ETC)  (nn, 剔肉#NN, 动物#NN)  (loc, 剩下#VV, 剔肉#NN)  (case, 剔肉#NN, 后#LC)  (relcl, 脊椎骨#NN, 剩下#VV)  (mark, 剩下#VV, 的#DEC)  (conj, 脊椎骨#NN, 肋骨#NN)  (cc, 脊椎骨#NN, 和#CC)  (dobj, 指#VV, 脊椎骨#NN)  (nsubj, 附有#VV, 上面#NN)  (advmod, 附有#VV, 还#AD)  (conj, 指#VV, 附有#VV)  (nummod, 肉类#NN, 少量#CD)  (dobj, 附有#VV, 肉类#NN)  (mmod, 食用#VV, 可以#VV)  (conj, 附有#VV, 食用#VV)   (conj, 骨#NN, 一般来说#CD)  (advmod, 提到#VV, 只要#CS)  (nsubj, 提到#VV, 我们#PN)  (dep, 骨#NN, 提到#VV)  (dobj, 提到#VV, 排骨#NN)  (advmod, 骨#NN, 指的#AD)  (advmod, 骨#NN, 都#AD)  (cop, 骨#NN, 是#VC)  (nn, 骨#NN, 猪排#NN)  (root, ROOT#null, 骨#NN)   (nn, 味道#NN, 猪排#NN)  (nn, 味道#NN, 骨#NN)  (nsubj, 鲜美#VV, 味道#NN)  (xsubj, 太过#VV, 味道#NN)  (root, ROOT#null, 鲜美#VV)  (advmod, 太过#VV, 也#AD)  (neg, 太过#VV, 不#AD)  (mmod, 太过#VV, 会#VV)  (ccomp, 鲜美#VV, 太过#VV)  (dobj, 太过#VV, 油腻#NN)   (nn, 骨#NN, 猪排#NN)  (nsubj, 含有#VV, 骨#NN)  (case, 含#VV, 除#P)  (prep, 含有#VV, 含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (dobj, 含#VV, 维生素#NN)  (case, 含#VV, 外#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 粘蛋白#NN, 大量#CD)  (conj, 粘蛋白#NN, 磷酸钙#NN)  (conj, 粘蛋白#NN, 骨胶原#NN)  (nn, 粘蛋白#NN, 骨#NN)  (dobj, 含有#VV, 粘蛋白#NN)  (etc, 粘蛋白#NN, 等#ETC)  (nn, 老人#NN, 可为#NR)  (conj, 老人#NN, 幼儿#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 提供#VV, 老人#NN)  (conj, 含有#VV, 提供#VV)  (dobj, 提供#VV, 钙质#NN)   (root, ROOT#null, null#null)
+            (dep, 排骨#NN, 小#VA)  (mmod, 排骨#NN, 排#VV)  (cop, 排骨#NN, 是#VC)  (relcl, 排骨#NN, 指#VV)  (nn, 靠近#NN, 猪#NN)  (nn, 靠近#NN, 腹腔#NN)  (dobj, 指#VV, 靠近#NN)  (nummod, 部分#M, 肚腩#CD)  (range, 指#VV, 部分#M)  (mark, 指#VV, 的#DEC)  (root, ROOT#null, 排骨#NN)  (assmod, 上边#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 子排#NN, 上边#NN)  (cop, 子排#NN, 是#VC)  (conj, 子排#NN, 肋排#NN)  (cc, 子排#NN, 和#CC)  (conj, 排骨#NN, 子排#NN)  (amod, 层#NN, 小#JJ)  (relcl, 肉#NN, 排#VV)  (mark, 排#VV, 的#DEC)  (nn, 层#NN, 肉#NN)  (nsubj, 比较#VV, 层#NN)  (conj, 排骨#NN, 比较#VV)  (dobj, 比较#VV, 厚#NN)  (cc, 比较#VV, 并#CC)  (conj, 比较#VV, 带有#VV)  (amod, 软骨#NN, 白色#JJ)  (dobj, 带有#VV, 软骨#NN)   (dep, 要#VV, 适合#VV)  (dobj, 适合#VV, 蒸#NN)  (conj, 适合#VV, 炸#VV)  (dep, 炸#VV, 烤#VV)  (advmod, 要#VV, 但是#AD)  (dep, 剁小块#VV, 要#VV)  (root, ROOT#null, 剁小块#VV)   (root, ROOT#null, null#null)
+            (nsubj, 部位#NN, 子排#NN)  (cop, 部位#NN, 是#VC)  (relcl, 部位#NN, 指#VV)  (dobj, 指#VV, 腹腔#NN)  (conj, 指#VV, 连接#VV)  (dobj, 连接#VV, 背脊#NN)  (mark, 指#VV, 的#DEC)  (root, ROOT#null, 部位#NN)  (assmod, 下方#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 是#VC, 下方#NN)  (conj, 部位#NN, 是#VC)  (dep, 是#VC, 五花肉#CD)  (clf, 排骨#NN, 片#M)  (relcl, 排骨#NN, 下#VV)  (mark, 下#VV, 的#DEC)  (nsubj, 达#VV, 排骨#NN)  (advmod, 达#VV, 长#AD)  (conj, 部位#NN, 达#VV)  (nummod, 厘米#M, 30#CD)  (range, 达#VV, 厘米#M)  (conj, 达#VV, 呈#VV)  (nummod, 片状#NN, 三角形#CD)  (nn, 片状#NN, 斜切#NN)  (dobj, 呈#VV, 片状#NN)   (assmod, 层#NN, 子排#NN)  (case, 子排#NN, 的#DEG)  (nn, 层#NN, 肉#NN)  (nsubj, 了#VV, 层#NN)  (advmod, 了#VV, 很#AD)  (dep, 了#VV, 厚#NN)  (case, 油#NN, 隔着#P)  (nummod, 层#M, 一#CD)  (clf, 薄#NN, 层#M)  (nn, 油#NN, 薄#NN)  (prep, 了#VV, 油#NN)  (advmod, 了#VV, 还#AD)  (advmod, 了#VV, 连#AD)  (root, ROOT#null, 了#VV)  (nummod, 块#M, 一#CD)  (clf, 五花肉#CD, 块#M)  (range, 了#VV, 五花肉#CD)  (advmod, 丰厚#VA, 油脂#AD)  (conj, 了#VV, 丰厚#VA)  (advmod, 嫩的#VA, 肉质#AD)  (cop, 嫩的#VA, 是#VC)  (det, 排骨#NN, 所有#DT)  (loc, 嫩的#VA, 排骨#NN)  (case, 排骨#NN, 中#LC)  (advmod, 嫩的#VA, 最#AD)  (conj, 了#VV, 嫩的#VA)  (dep, 了#VV, 适用于#VV)  (nummod, 种#M, 多#CD)  (clf, 口味#NN, 种#M)  (nn, 口味#NN, 烹调#NN)  (conj, 口味#NN, 方法#NN)  (cc, 口味#NN, 和#CC)  (dobj, 适用于#VV, 口味#NN)  (advmod, 显#VV, 只是#AD)  (advmod, 显#VV, 口感#AD)  (advmod, 显#VV, 略#AD)  (conj, 了#VV, 显#VV)  (dobj, 显#VV, 油腻#NN)   (root, ROOT#null, 适合#VV)  (comod, 适合#VV, 炸#VV)  (conj, 红烧#NN, 烤#NN)  (dobj, 适合#VV, 红烧#NN)  (dep, ～#VV, 长度#NN)  (case, 5#CD, 以#P)  (prep, ～#VV, 5#CD)  (nummod, 厘米#M, 7#CD)  (clf, 为宜#NN, 厘米#M)  (dobj, ～#VV, 为宜#NN)   (root, ROOT#null, null#null)
+            (advmod, 排#VV, 大#AD)  (dep, 排骨#VV, 排#VV)  (cop, 肉#NN, 是#VC)  (conj, 背脊#NN, 里脊肉#NN)  (cc, 背脊#NN, 和#CC)  (nn, 肉#NN, 背脊#NN)  (relcl, 部位#NN, 肉#NN)  (conj, 肉#NN, 连接#VV)  (mark, 肉#NN, 的#DEC)  (dobj, 排#VV, 部位#NN)  (advmod, 称为#VV, 又#AD)  (conj, 排#VV, 称为#VV)  (dobj, 称为#VV, 肉排#NN)  (dep, 排#VV, 多用于#VV)  (dobj, 多用于#VV, 油炸#NN)  (case, 肉片#NN, 以#P)  (prep, 为主#VV, 肉片#NN)  (conj, 排#VV, 为主#VV)  (advmod, 排骨#VV, 但是#AD)  (nsubj, 排骨#VV, 带着#NR)  (xsubj, 增加#VV, 带着#NR)  (root, ROOT#null, 排骨#VV)  (case, 时候#NN, 除了#P)  (relcl, 时候#NN, 增加#VV)  (dobj, 增加#VV, 分量#NN)  (conj, 增加#VV, 让#VV)  (nn, 面积#NN, 肉片#NN)  (dobj, 让#VV, 面积#NN)  (dep, 让#VV, 显得#VV)  (amod, 外#NN, 更大#JJ)  (dobj, 显得#VV, 外#NN)  (conj, 显得#VV, 油炸#VV)  (mark, 增加#VV, 的#DEC)  (prep, 增加#VV, 时候#NN)  (advmod, 增加#VV, 也#AD)  (mmod, 增加#VV, 会#VV)  (ccomp, 排骨#VV, 增加#VV)  (amod, 骨特#NN, 大#JJ)  (dobj, 增加#VV, 骨特#NN)  (nsubj, 香气#VV, 有的#PN)  (dep, 排骨#VV, 香气#VV)  (nsubj, 特色#NN, 这#PN)  (advmod, 特色#NN, 也#AD)  (cop, 特色#NN, 是#VC)  (relcl, 特色#NN, 炸#VV)  (dobj, 炸#VV, 肉排#NN)  (mark, 炸#VV, 的#DEC)  (ccomp, 香气#VV, 特色#NN)   (case, 油炸#NN, 除了#P)  (prep, 卤大排#VV, 油炸#NN)  (advmod, 卤大排#VV, 也#AD)  (mmod, 卤大排#VV, 可以#VV)  (root, ROOT#null, 卤大排#VV)  (advmod, 要#VV, 但是#AD)  (advmod, 要#VV, 卤之前#AD)  (ccomp, 卤大排#VV, 要#VV)  (case, 油炸#NN, 经过#P)  (conj, 油炸#NN, 煎#NN)  (cc, 油炸#NN, 或#CC)  (amod, 油炸#NN, 快速#JJ)  (assmod, 程序#NN, 油炸#NN)  (case, 油炸#NN, 的#DEG)  (dobj, 要#VV, 程序#NN)  (nsubj, 血水#NN, 作用#NN)  (cop, 血水#NN, 是#VC)  (nn, 骨#NN, 封住#NR)  (amod, 骨#NN, 大#JJ)  (assmod, 血水#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (dep, 要#VV, 血水#NN)  (conj, 卤大排#VV, 免得#VV)  (nn, 流出#NN, 烹调#NN)  (nn, 流出#NN, 过程#NN)  (dobj, 免得#VV, 流出#NN)  (conj, 卤大排#VV, 影响#VV)  (conj, 汤汗#NN, 肉片#NN)  (cc, 汤汗#NN, 和#CC)  (assmod, 色泽#NN, 汤汗#NN)  (case, 汤汗#NN, 的#DEG)  (dobj, 影响#VV, 色泽#NN)   (root, ROOT#null, 适合#VV)  (comod, 适合#VV, 炸#VV)  (dobj, 适合#VV, 卤#NN)  (advmod, 切#VV, 如果#CS)  (mmod, 切#VV, 炸#VV)  (mmod, 切#VV, 要#VV)  (conj, 适合#VV, 切#VV)  (dobj, 切#VV, 薄#NN)  (range, 切#VV, 一点#CD)  (advmod, 卤要#VV, 如果#CS)  (conj, 适合#VV, 卤要#VV)  (dobj, 卤要#VV, 厚#NN)  (range, 卤要#VV, 一点#CD)   (root, ROOT#null, null#null)
+            (nsubj, 排骨#NN, 肋排#NN)  (cop, 排骨#NN, 是#VC)  (assmod, 排骨#NN, 胸腔#NN)  (case, 胸腔#NN, 的#DEG)  (nn, 排骨#NN, 片状#NN)  (root, ROOT#null, 排骨#NN)  (nn, 层#NN, 肉#NN)  (nsubj, 薄#VA, 层#NN)  (advmod, 薄#VA, 比较#AD)  (conj, 排骨#NN, 薄#VA)  (nsubj, 瘦#VA, 肉质#NN)  (advmod, 瘦#VA, 比较#AD)  (conj, 薄#VA, 瘦#VA)  (nsubj, 嫩#VA, 口感#NN)  (advmod, 嫩#VA, 比较#AD)  (conj, 薄#VA, 嫩#VA)  (advmod, 粗#VA, 但是#AD)  (case, 有#VE, 因为#P)  (prep, 粗#VA, 有#VE)  (loc, 连接#VV, 一#CD)  (case, 一#CD, 侧#LC)  (dep, 有#VE, 连接#VV)  (dobj, 连接#VV, 背脊#NN)  (advmod, 粗#VA, 所以#AD)  (advmod, 粗#VA, 骨头#AD)  (mmod, 粗#VA, 会#VV)  (advmod, 粗#VA, 比较#AD)  (conj, 薄#VA, 粗#VA)   (case, 大#VA, 由于#P)  (nsubj, 大#VA, 肋排#NN)  (advmod, 大#VA, 比较#AD)  (prep, 让#VV, 大#VA)  (advmod, 分割#VV, 所以#AD)  (nummod, 店家#NN, 一些#CD)  (nsubj, 分割#VV, 店家#NN)  (mmod, 分割#VV, 会#VV)  (ba, 分割#VV, 把#BA)  (nsubj, 分割#VV, 它#PN)  (conj, 大#VA, 分割#VV)  (rcomp, 分割#VV, 成#VV)  (dobj, 分割#VV, 腔骨#NN)  (nsubj, 排#VV, 子#NN)  (conj, 大#VA, 排#VV)  (dep, 大#VA, 等#ETC)  (root, ROOT#null, 让#VV)  (dobj, 让#VV, 顾客#NN)  (dep, 让#VV, 选购#VV)   (advmod, 排#VV, 例如#AD)  (assmod, 烤肋#NN, 片状#NN)  (case, 片状#NN, 的#DEG)  (nsubj, 排#VV, 烤肋#NN)  (root, ROOT#null, 排#VV)  (advmod, 选用#VV, 就是#AD)  (conj, 排#VV, 选用#VV)  (assmod, 嫩排#NN, 中段#NN)  (case, 中段#NN, 的#DEG)  (dobj, 选用#VV, 嫩排#NN)   (nn, 小块#NN, 剁#NN)  (loc, 肉层#VV, 小块#NN)  (case, 小块#NN, 后#LC)  (advmod, 肉层#VV, 挑出#AD)  (nsubj, 适合#VV, 肉层#VV)  (advmod, 厚#JJ, 较#AD)  (assmod, 部分#NN, 厚#JJ)  (case, 厚#JJ, 的#DEG)  (dobj, 肉层#VV, 部分#NN)  (mmod, 用来#VV, 可以#VV)  (conj, 肉层#VV, 用来#VV)  (dobj, 用来#VV, 蒸#NN)  (conj, 用来#VV, 炸#VV)  (conj, 用来#VV, 红烧#VV)  (conj, 肉层#VV, 大片#CD)  (mark, 肉层#VV, 的#DEC)  (root, ROOT#null, 适合#VV)  (dobj, 适合#VV, 烤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补充蛋白质和脂肪酸
+            猪肉为人类提供优质蛋白质和必需的脂肪酸。猪肉可提供血红素(有机铁)和促进铁吸收的半胱氨酸，能改善缺铁性贫血。
+            2.补钙
+            猪排骨除含蛋白质、脂肪、维生素外，还含有大量磷酸钙、骨胶原、骨粘蛋白等，可为幼儿和老人提供钙质。
+        </rawdata>
+
+        <segment>
+            补充  蛋白质  和  脂肪酸
+            猪肉  为  人类  提供  优质  蛋白质  和  必需  的  脂肪酸  。  猪肉  可  提供  血红素  (  有机铁  )  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。
+            补钙
+            猪排  骨  除  含  蛋白质  、  脂肪  、  维生素  外  ，  还  含有  大量  磷酸钙  、  骨胶原  、  骨  粘蛋白  等  ，  可为  幼儿  和  老人  提供  钙质  。
+        </segment>
+
+        <pos>
+            补充#VV  蛋白质#NN  和#CC  脂肪酸#NN
+            猪肉#NN  为#P  人类#NN  提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  猪肉#NN  可#VV  提供#VV  血红素#AD  -LRB-#VV  有机铁#NN  -RRB-#NN  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU    。#PU
+            补钙#VV
+            猪排#NN  骨#NN  除#P  含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  维生素#NN  外#LC  ，#PU  还#AD  含有#VV  大量#CD  磷酸钙#NN  、#PU  骨胶原#NN  、#PU  骨#NN  粘蛋白#NN  等#ETC  ，#PU  可为#NR  幼儿#NN  和#CC  老人#NN  提供#VV  钙质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补充#VV)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (dobj, 补充#VV, 脂肪酸#NN)
+            (nsubj, 提供#VV, 猪肉#NN)  (case, 人类#NN, 为#P)  (prep, 提供#VV, 人类#NN)  (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (nsubj, 提供#VV, 猪肉#NN)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (advmod, -LRB-#VV, 血红素#AD)  (nn, -RRB-#NN, 有机铁#NN)  (cc, -LRB-#VV, 和#CC)  (conj, -LRB-#VV, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, -LRB-#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (conj, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补钙#VV)
+            (nn, 骨#NN, 猪排#NN)  (nsubj, 含有#VV, 骨#NN)  (case, 含#VV, 除#P)  (prep, 含有#VV, 含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (dobj, 含#VV, 维生素#NN)  (case, 含#VV, 外#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 粘蛋白#NN, 大量#CD)  (conj, 粘蛋白#NN, 磷酸钙#NN)  (conj, 粘蛋白#NN, 骨胶原#NN)  (nn, 粘蛋白#NN, 骨#NN)  (dobj, 含有#VV, 粘蛋白#NN)  (etc, 粘蛋白#NN, 等#ETC)  (nn, 老人#NN, 可为#NR)  (conj, 老人#NN, 幼儿#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 提供#VV, 老人#NN)  (conj, 含有#VV, 提供#VV)  (dobj, 提供#VV, 钙质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            猪排骨除含蛋白质、脂肪、维生素外，还含有大量磷酸钙、骨胶原、骨粘蛋白等，可为幼儿和老人提供钙质。
+        </rawdata>
+
+        <segment>
+            猪排  骨  除  含  蛋白质  、  脂肪  、  维生素  外  ，  还  含有  大量  磷酸钙  、  骨胶原  、  骨  粘蛋白  等  ，  可为  幼儿  和  老人  提供  钙质  。
+        </segment>
+
+        <pos>
+            猪排#NN  骨#NN  除#P  含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  维生素#NN  外#LC  ，#PU  还#AD  含有#VV  大量#CD  磷酸钙#NN  、#PU  骨胶原#NN  、#PU  骨#NN  粘蛋白#NN  等#ETC  ，#PU  可为#NR  幼儿#NN  和#CC  老人#NN  提供#VV  钙质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 骨#NN, 猪排#NN)  (nsubj, 含有#VV, 骨#NN)  (case, 含#VV, 除#P)  (prep, 含有#VV, 含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (dobj, 含#VV, 维生素#NN)  (case, 含#VV, 外#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 粘蛋白#NN, 大量#CD)  (conj, 粘蛋白#NN, 磷酸钙#NN)  (conj, 粘蛋白#NN, 骨胶原#NN)  (nn, 粘蛋白#NN, 骨#NN)  (dobj, 含有#VV, 粘蛋白#NN)  (etc, 粘蛋白#NN, 等#ETC)  (nn, 老人#NN, 可为#NR)  (conj, 老人#NN, 幼儿#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 提供#VV, 老人#NN)  (conj, 含有#VV, 提供#VV)  (dobj, 提供#VV, 钙质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.猪肉烹调前莫用热水清洗，因猪肉中含有一种肌溶蛋白的物质，在15摄氏度以上的水中易溶解，若用热水浸泡就会散失很多营养，同时口味也欠佳。
+            2. 猪肉应煮熟，因为猪肉中有时会有寄生虫，如果生吃或调理不完全时，可能会在肝脏或脑部寄生有钩绦虫。
+        </rawdata>
+
+        <segment>
+            猪肉  烹调  前  莫  用  热水  清洗  ，  因  猪肉  中  含有  一  种  肌溶  蛋白  的  物质  ，  在  15  摄氏度  以上  的  水中  易  溶解  ，  若  用  热水  浸泡  就  会  散失  很多  营养  ，  同时  口味  也  欠佳  。
+            猪肉  应  煮熟  ，  因为  猪肉  中  有时  会  有  寄生虫  ，  如果  生吃  或  调理  不完全  时  ，  可能  会  在  肝脏  或  脑部  寄生  有  钩  绦虫  。
+        </segment>
+
+        <pos>
+            猪肉#NN  烹调#NN  前#LC  莫#NN  用#P  热水#NN  清洗#VV  ，#PU  因#P  猪肉#NN  中#LC  含有#VV  一#CD  种#M  肌溶#NN  蛋白#NN  的#DEG  物质#NN  ，#PU  在#P  15#CD  摄氏度#M  以上#LC  的#DEG  水中#NN  易#AD  溶解#VA  ，#PU  若#CS  用#P  热水#NN  浸泡#NN  就#P  会#VV  散失#VV  很多#CD  营养#VA  ，#PU  同时#AD  口味#NN  也#AD  欠佳#VA  。#PU
+            猪肉#NN  应#P  煮熟#NN  ，#PU  因为#P  猪肉#NN  中#LC  有时#AD  会#VV  有#VE  寄生虫#NN  ，#PU  如果#CS  生吃#VV  或#CC  调理#VV  不完全#JJ  时#NN  ，#PU  可能#VV  会#VV  在#P  肝脏#NN  或#CC  脑部#NN  寄生#NN  有#VE  钩#NN  绦虫#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 烹调#NN, 猪肉#NN)  (loc, 清洗#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nsubj, 清洗#VV, 莫#NN)  (case, 热水#NN, 用#P)  (prep, 清洗#VV, 热水#NN)  (root, ROOT#null, 清洗#VV)  (case, 猪肉#NN, 因#P)  (prep, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (dep, 清洗#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 肌溶#NN)  (assmod, 物质#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 摄氏度#M, 在#P)  (nummod, 摄氏度#M, 15#CD)  (assmod, 水中#NN, 摄氏度#M)  (case, 摄氏度#M, 以上#LC)  (case, 摄氏度#M, 的#DEG)  (nsubj, 溶解#VA, 水中#NN)  (advmod, 溶解#VA, 易#AD)  (conj, 清洗#VV, 溶解#VA)  (advmod, 营养#VA, 若#CS)  (case, 浸泡#NN, 用#P)  (nn, 浸泡#NN, 热水#NN)  (prep, 营养#VA, 浸泡#NN)  (case, 散失#VV, 就#P)  (mmod, 散失#VV, 会#VV)  (prep, 营养#VA, 散失#VV)  (range, 散失#VV, 很多#CD)  (dep, 溶解#VA, 营养#VA)  (advmod, 欠佳#VA, 同时#AD)  (nsubj, 欠佳#VA, 口味#NN)  (advmod, 欠佳#VA, 也#AD)  (conj, 溶解#VA, 欠佳#VA)
+            (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 猪肉#NN)  (case, 煮熟#NN, 应#P)  (prep, 有#VE, 煮熟#NN)  (case, 猪肉#NN, 因为#P)  (prep, 有#VE, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 有#VE, 有时#AD)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 寄生虫#NN)  (advmod, 生吃#VV, 如果#CS)  (conj, 有#VE, 生吃#VV)  (cc, 生吃#VV, 或#CC)  (dep, 生吃#VV, 调理#VV)  (amod, 时#NN, 不完全#JJ)  (dobj, 调理#VV, 时#NN)  (mmod, 有#VE, 可能#VV)  (mmod, 有#VE, 会#VV)  (case, 寄生#NN, 在#P)  (conj, 寄生#NN, 肝脏#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 脑部#NN)  (prep, 有#VE, 寄生#NN)  (conj, 有#VE, 有#VE)  (nn, 绦虫#NN, 钩#NN)  (dobj, 有#VE, 绦虫#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081338195410.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1 排骨.jpg
+    </picturelocalurl>
+
+</content>

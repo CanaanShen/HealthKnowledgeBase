@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        3
+    </id>
+
+    <foodname>
+        猪肚
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        猪胃、猪堵
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高血脂患者忌食
+        </rawdata>
+
+        <segment>
+            高血脂  患者  忌食
+        </segment>
+
+        <pos>
+            高血脂#NN  患者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (nn, 忌食#NN, 高血脂#NN)  (nn, 忌食#NN, 患者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。1.适宜虚劳瘦弱者、脾胃虚弱，食欲不振，泄泻下痢者食用。2.适宜中气不足，气虚下陷，男子遗精，女子带下者食用。3.适宜体虚之人小便颇多者食用；适宜小儿疳积者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。    适宜  虚  劳  瘦  弱者  、  脾胃  虚弱  ，  食欲不振  ，  泄泻  下  痢者  食用  。  2  .  适宜  中气  不足  ，  气虚  下陷  ，  男子  遗精  ，  女子  带下  者  食用  。  3  .  适宜  体虚  之  人  小便  颇  多  者  食用  ；  适宜  小儿  疳积者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VA  虚#AD  劳#NN  瘦#NN  弱者#NN  、#PU  脾胃#NN  虚弱#NN  ，#PU  食欲不振#NN  ，#PU  泄泻#NN  下#LC  痢者#AD  食用#VV    。#PU  2#CD  .#NN  适宜#VV  中气#NN  不足#NN  ，#PU  气虚#VV  下陷#NN  ，#PU  男子#NN  遗精#NN  ，#PU  女子#NN  带下#NN  者#NN  食用#VV    。#PU  3#CD  .#NN  适宜#VV  体虚#NN  之#DEG  人#NN  小便#NN  颇#AD  多#VA  者#NN  食用#VV  ；#PU  适宜#VV  小儿#NN  疳积者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VA)  (advmod, 适宜#VA, 虚#AD)  (nn, 虚弱#NN, 劳#NN)  (nn, 虚弱#NN, 瘦#NN)  (conj, 虚弱#NN, 弱者#NN)  (nn, 虚弱#NN, 脾胃#NN)  (nsubj, 食用#VV, 虚弱#NN)  (nsubj, 食用#VV, 食欲不振#NN)  (loc, 食用#VV, 泄泻#NN)  (case, 泄泻#NN, 下#LC)  (advmod, 食用#VV, 痢者#AD)  (dep, 适宜#VA, 食用#VV)   (nummod, .#NN, 2#CD)  (root, ROOT#null, 适宜#VV)  (nn, 不足#NN, 中气#NN)  (dobj, 适宜#VV, 不足#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 下陷#NN)  (nn, 遗精#NN, 男子#NN)  (nsubj, 食用#VV, 遗精#NN)  (nn, 者#NN, 女子#NN)  (nn, 者#NN, 带下#NN)  (nsubj, 食用#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)   (nummod, .#NN, 3#CD)  (root, ROOT#null, 适宜#VV)  (assmod, 小便#NN, 体虚#NN)  (case, 体虚#NN, 之#DEG)  (nn, 小便#NN, 人#NN)  (nsubj, 多#VA, 小便#NN)  (advmod, 多#VA, 颇#AD)  (relcl, 者#NN, 多#VA)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)  (conj, 适宜#VV, 适宜#VV)  (nn, 疳积者#NN, 小儿#NN)  (dobj, 适宜#VV, 疳积者#NN)  (conj, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                110
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                15.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                165
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                3.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                124
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                171
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                75.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.92
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                12.76
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                79.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪肚含有蛋白质、脂肪、碳水化合物、维生素及钙、磷、铁等，具有补虚损、健脾胃的功效，适用于气血虚损、身体瘦弱者食用。
+        </rawdata>
+
+        <segment>
+            猪肚  含有  蛋白质  、  脂肪  、  碳水化合物  、  维生素  及  钙  、  磷  、  铁  等  ，  具有  补  虚损  、  健脾胃  的  功效  ，  适用于  气血  虚损  、  身体  瘦  弱者  食用  。
+        </segment>
+
+        <pos>
+            猪肚#NN  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  维生素#NN  及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  ，#PU  具有#VV  补#VV  虚损#NN  、#PU  健脾胃#NN  的#DEC  功效#NN  ，#PU  适用于#VV  气血#NN  虚损#NN  、#PU  身体#NN  瘦#NN  弱者#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 猪肚#NN)  (root, ROOT#null, 含有#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, 含有#VV, 具有#VV)  (relcl, 功效#NN, 补#VV)  (conj, 健脾胃#NN, 虚损#NN)  (dobj, 补#VV, 健脾胃#NN)  (mark, 补#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (conj, 含有#VV, 适用于#VV)  (nn, 弱者#NN, 气血#NN)  (conj, 弱者#NN, 虚损#NN)  (nn, 弱者#NN, 身体#NN)  (nn, 弱者#NN, 瘦#NN)  (dobj, 适用于#VV, 弱者#NN)  (conj, 适用于#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.健脾胃
+            猪肚味甘，性微温，归脾、胃经;补虚损，健脾胃;用于虚劳羸弱、泻泄、下痢、消渴、小便频数、小儿疳积等症。
+            2.补气
+            根据清代食医王盂英的经验，怀孕妇女若胎气不足， 或屡患半产以及娩后虚赢者，用猪肚煨煮烂熟如糜，频频服食，最为适宜。若同火腿一并煨食，尤补。
+            3.补虚
+            男子虚弱遗精， 猪肚一枚，入带心连衣红莲子，煮糜，杵丸桐子大，每淡盐汤下三十丸。
+        </rawdata>
+
+        <segment>
+            健脾胃
+            猪肚  味甘  ，  性  微温  ，  归脾  、  胃经  ;  补  虚损  ，  健  脾胃  ;  用  于  虚  劳  羸弱  、  泻泄  、  下  痢  、  消渴  、  小便  频数  、  小儿  疳积  等症  。
+            补气
+            根据  清代  食医  王盂英  的  经验  ，  怀孕  妇女  若  胎气  不足  ，  或  屡  患  半  产  以及  娩后虚赢者  ，  用  猪肚  煨煮  烂熟  如糜  ，  频频  服食  ，  最为  适宜  。  若  同  火腿  一并  煨食  ，  尤补  。
+            补  虚
+            男子  虚弱  遗精  ，  猪肚  一  枚  ，  入带心  连  衣  红  莲子  ，  煮糜  ，  杵丸  桐子  大  ，  每  淡  盐  汤  下  三十  丸  。
+        </segment>
+
+        <pos>
+            健脾胃#VV
+            猪肚#NN  味甘#NN  ，#PU  性#NN  微温#NN  ，#PU  归脾#NN  、#PU  胃经#NN  ;#NN  补#NN  虚损#NN  ，#PU  健#VA  脾胃#NN  ;#AD  用#VV  于#P  虚#AD  劳#NN  羸弱#NN  、#PU  泻泄#NR  、#PU  下#DT  痢#NN  、#PU  消渴#NR  、#PU  小便#NN  频数#NN  、#PU  小儿#NR  疳积#VV  等症#NN  。#PU
+            补气#VV
+            根据#P  清代#NN  食医#VV  王盂英#NN  的#DEG  经验#NN  ，#PU  怀孕#VV  妇女#NN  若#CS  胎气#VV  不足#NN  ，#PU  或#CC  屡#AD  患#VV  半#CD  产#NN  以及#CC  娩后虚赢者#NN  ，#PU  用#P  猪肚#NN  煨煮#VV  烂熟#NN  如糜#NN  ，#PU  频频#AD  服食#VV  ，#PU  最为#AD  适宜#VA    。#PU  若#CS  同#AD  火腿#VV  一并#CD  煨食#NN  ，#PU  尤补#VV    。#PU    。#PU
+            补#VV  虚#AD
+            男子#NN  虚弱#VV  遗精#NN  ，#PU  猪肚#VV  一#CD  枚#M  ，#PU  入带心#NN  连#AD  衣#VV  红#JJ  莲子#NN  ，#PU  煮糜#VV  ，#PU  杵丸#NN  桐子#AD  大#VA  ，#PU  每#DT  淡#CD  盐#NN  汤#VV  下#DT  三十#CD  丸#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 健脾胃#VV)
+            (nn, 味甘#NN, 猪肚#NN)  (nsubj, 用#VV, 味甘#NN)  (nn, 微温#NN, 性#NN)  (nsubj, 用#VV, 微温#NN)  (conj, 补#NN, 归脾#NN)  (nn, 补#NN, 胃经#NN)  (nn, 补#NN, ;#NN)  (nn, 虚损#NN, 补#NN)  (nsubj, 用#VV, 虚损#NN)  (relcl, 脾胃#NN, 健#VA)  (nsubj, 用#VV, 脾胃#NN)  (advmod, 用#VV, ;#AD)  (root, ROOT#null, 用#VV)  (case, 疳积#VV, 于#P)  (advmod, 疳积#VV, 虚#AD)  (nn, 羸弱#NN, 劳#NN)  (conj, 小儿#NR, 羸弱#NN)  (conj, 小儿#NR, 泻泄#NR)  (det, 痢#NN, 下#DT)  (conj, 小儿#NR, 痢#NN)  (conj, 小儿#NR, 消渴#NR)  (nn, 频数#NN, 小便#NN)  (conj, 小儿#NR, 频数#NN)  (prep, 疳积#VV, 小儿#NR)  (prep, 用#VV, 疳积#VV)  (dobj, 疳积#VV, 等症#NN)
+            (root, ROOT#null, 补气#VV)
+            (case, 清代#NN, 根据#P)  (prep, 食医#VV, 清代#NN)  (root, ROOT#null, 食医#VV)  (assmod, 经验#NN, 王盂英#NN)  (case, 王盂英#NN, 的#DEG)  (dobj, 食医#VV, 经验#NN)  (dep, 食医#VV, 怀孕#VV)  (dobj, 怀孕#VV, 妇女#NN)  (advmod, 胎气#VV, 若#CS)  (conj, 怀孕#VV, 胎气#VV)  (dobj, 胎气#VV, 不足#NN)  (cc, 怀孕#VV, 或#CC)  (advmod, 患#VV, 屡#AD)  (conj, 怀孕#VV, 患#VV)  (nummod, 娩后虚赢者#NN, 半#CD)  (conj, 娩后虚赢者#NN, 产#NN)  (cc, 娩后虚赢者#NN, 以及#CC)  (dobj, 患#VV, 娩后虚赢者#NN)  (case, 猪肚#NN, 用#P)  (prep, 煨煮#VV, 猪肚#NN)  (conj, 怀孕#VV, 煨煮#VV)  (nn, 如糜#NN, 烂熟#NN)  (dobj, 煨煮#VV, 如糜#NN)  (advmod, 服食#VV, 频频#AD)  (conj, 怀孕#VV, 服食#VV)  (advmod, 适宜#VA, 最为#AD)  (conj, 怀孕#VV, 适宜#VA)   (advmod, 火腿#VV, 若#CS)  (advmod, 火腿#VV, 同#AD)  (root, ROOT#null, 火腿#VV)  (nummod, 煨食#NN, 一并#CD)  (dobj, 火腿#VV, 煨食#NN)  (dep, 火腿#VV, 尤补#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (nsubj, 虚弱#VV, 男子#NN)  (root, ROOT#null, 虚弱#VV)  (dobj, 虚弱#VV, 遗精#NN)  (conj, 虚弱#VV, 猪肚#VV)  (nummod, 枚#M, 一#CD)  (range, 猪肚#VV, 枚#M)  (nsubj, 衣#VV, 入带心#NN)  (advmod, 衣#VV, 连#AD)  (conj, 虚弱#VV, 衣#VV)  (amod, 莲子#NN, 红#JJ)  (dobj, 衣#VV, 莲子#NN)  (conj, 虚弱#VV, 煮糜#VV)  (nsubj, 大#VA, 杵丸#NN)  (advmod, 大#VA, 桐子#AD)  (ccomp, 煮糜#VV, 大#VA)  (det, 盐#NN, 每#DT)  (dep, 每#DT, 淡#CD)  (nsubj, 汤#VV, 盐#NN)  (conj, 虚弱#VV, 汤#VV)  (det, 丸#NN, 下#DT)  (dep, 下#DT, 三十#CD)  (dobj, 汤#VV, 丸#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补虚  补脾胃  辅助降血脂  促进消化  抗胃溃疡
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            猪肚含有蛋白质、脂肪、碳水化合物、维生素及钙、磷、铁等，具有补虚损、健脾胃的功效，适用于气血虚损、身体瘦弱者食用。
+        </rawdata>
+
+        <segment>
+            猪肚  含有  蛋白质  、  脂肪  、  碳水化合物  、  维生素  及  钙  、  磷  、  铁  等  ，  具有  补  虚损  、  健脾胃  的  功效  ，  适用于  气血  虚损  、  身体  瘦  弱者  食用  。
+        </segment>
+
+        <pos>
+            猪肚#NN  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  维生素#NN  及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  ，#PU  具有#VV  补#VV  虚损#NN  、#PU  健脾胃#NN  的#DEC  功效#NN  ，#PU  适用于#VV  气血#NN  虚损#NN  、#PU  身体#NN  瘦#NN  弱者#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 猪肚#NN)  (root, ROOT#null, 含有#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, 含有#VV, 具有#VV)  (relcl, 功效#NN, 补#VV)  (conj, 健脾胃#NN, 虚损#NN)  (dobj, 补#VV, 健脾胃#NN)  (mark, 补#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (conj, 含有#VV, 适用于#VV)  (nn, 弱者#NN, 气血#NN)  (conj, 弱者#NN, 虚损#NN)  (nn, 弱者#NN, 身体#NN)  (nn, 弱者#NN, 瘦#NN)  (dobj, 适用于#VV, 弱者#NN)  (conj, 适用于#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.巧洗、巧做猪肚：将猪肚用清水洗几次，然后放进水快开的锅里，经常翻动，不等水开就把猪肚子取出来，再把猪肚子两面的污物除掉就行了。
+            2.猪肚烧熟后，切成长条或长块，放在碗里，加点汤水，放进锅里蒸，猪肚会涨厚一倍，又嫩又好吃，但注意不能先放盐，否则猪肚就会紧缩。
+        </rawdata>
+
+        <segment>
+            巧  洗  、  巧  做  猪肚  ：  将  猪肚  用  清水  洗  几  次  ，  然后  放进  水  快  开  的  锅里  ，  经常  翻动  ，  不等  水开  就  把  猪肚  子  取  出来  ，  再  把  猪肚  子  两  面  的  污物  除掉  就  行了  。
+            猪肚  烧熟  后  ，  切成  长条  或  长  块  ，  放在  碗里  ，  加点  汤水  ，  放进  锅里  蒸  ，  猪肚  会  涨  厚  一  倍  ，  又  嫩  又  好吃  ，  但  注意  不  能  先  放  盐  ，  否则  猪肚  就  会  紧缩  。
+        </segment>
+
+        <pos>
+            巧#VV  洗#NN  、#PU  巧#AD  做#VV  猪肚#NN  ：#PU  将#AD  猪肚#AD  用#P  清水#NN  洗#VV  几#CD  次#M  ，#PU  然后#AD  放进#VV  水#NN  快#VA  开#VV  的#DEC  锅里#NN  ，#PU  经常#AD  翻动#VV  ，#PU  不等#AD  水开#CD  就#AD  把#BA  猪肚#NN  子#NN  取#VV  出来#VV  ，#PU  再#AD  把#BA  猪肚#VV  子#NN  两#CD  面#M  的#DEC  污物#NN  除掉#NN  就#AD  行了#VV  。#PU
+            猪肚#NN  烧熟#NN  后#LC  ，#PU  切成#NN  长条#NN  或#CC  长#VA  块#M  ，#PU  放在#VV  碗里#NN  ，#PU  加点#VV  汤水#NN  ，#PU  放进#VV  锅里#NN  蒸#NN  ，#PU  猪肚#AD  会#VV  涨#VV  厚#JJ  一#CD  倍#M  ，#PU  又#AD  嫩#VV  又#AD  好吃#CD  ，#PU  但#AD  注意#NN  不#AD  能#VV  先#AD  放#VV  盐#NN  ，#PU  否则#AD  猪肚#NR  就#AD  会#VV  紧缩#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 巧#VV)  (dobj, 巧#VV, 洗#NN)  (advmod, 做#VV, 巧#AD)  (conj, 巧#VV, 做#VV)  (dobj, 做#VV, 猪肚#NN)  (advmod, 洗#VV, 将#AD)  (advmod, 洗#VV, 猪肚#AD)  (case, 清水#NN, 用#P)  (prep, 洗#VV, 清水#NN)  (conj, 巧#VV, 洗#VV)  (nummod, 次#M, 几#CD)  (range, 洗#VV, 次#M)  (advmod, 放进#VV, 然后#AD)  (conj, 巧#VV, 放进#VV)  (nsubj, 快#VA, 水#NN)  (relcl, 锅里#NN, 快#VA)  (dep, 快#VA, 开#VV)  (mark, 快#VA, 的#DEC)  (dobj, 放进#VV, 锅里#NN)  (advmod, 翻动#VV, 经常#AD)  (conj, 巧#VV, 翻动#VV)  (advmod, 水开#CD, 不等#AD)  (dep, 取#VV, 水开#CD)  (advmod, 取#VV, 就#AD)  (ba, 取#VV, 把#BA)  (nn, 子#NN, 猪肚#NN)  (nsubj, 取#VV, 子#NN)  (conj, 巧#VV, 取#VV)  (comod, 取#VV, 出来#VV)  (advmod, 行了#VV, 再#AD)  (ba, 行了#VV, 把#BA)  (relcl, 除掉#NN, 猪肚#VV)  (dobj, 猪肚#VV, 子#NN)  (nummod, 面#M, 两#CD)  (range, 猪肚#VV, 面#M)  (mark, 猪肚#VV, 的#DEC)  (nn, 除掉#NN, 污物#NN)  (nsubj, 行了#VV, 除掉#NN)  (advmod, 行了#VV, 就#AD)  (dep, 取#VV, 行了#VV)
+            (nn, 烧熟#NN, 猪肚#NN)  (loc, 长#VA, 烧熟#NN)  (case, 烧熟#NN, 后#LC)  (nn, 长条#NN, 切成#NN)  (nsubj, 长#VA, 长条#NN)  (cc, 长#VA, 或#CC)  (root, ROOT#null, 长#VA)  (dep, 长#VA, 块#M)  (conj, 长#VA, 放在#VV)  (dobj, 放在#VV, 碗里#NN)  (conj, 长#VA, 加点#VV)  (dobj, 加点#VV, 汤水#NN)  (conj, 长#VA, 放进#VV)  (nn, 蒸#NN, 锅里#NN)  (dobj, 放进#VV, 蒸#NN)  (advmod, 会#VV, 猪肚#AD)  (conj, 长#VA, 会#VV)  (rcomp, 会#VV, 涨#VV)  (amod, 倍#M, 厚#JJ)  (nummod, 倍#M, 一#CD)  (dep, 会#VV, 倍#M)  (advmod, 嫩#VV, 又#AD)  (conj, 长#VA, 嫩#VV)  (advmod, 好吃#CD, 又#AD)  (range, 嫩#VV, 好吃#CD)  (advmod, 放#VV, 但#AD)  (nsubj, 放#VV, 注意#NN)  (neg, 放#VV, 不#AD)  (mmod, 放#VV, 能#VV)  (advmod, 放#VV, 先#AD)  (conj, 长#VA, 放#VV)  (dobj, 放#VV, 盐#NN)  (advmod, 会#VV, 否则#AD)  (nsubj, 会#VV, 猪肚#NR)  (advmod, 会#VV, 就#AD)  (conj, 长#VA, 会#VV)  (dobj, 会#VV, 紧缩#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081338463553.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\3 猪肚.jpg
+    </picturelocalurl>
+
+</content>
