@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        150
+    </id>
+
+    <foodname>
+        田鸡
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        其他水产
+    </secondcategory>
+
+    <alias>
+        水鸡、虎纹蛙
+    </alias>
+
+    <season>
+        春、夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者不宜食用。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 脾胃#NN)  (nn, 者#NN, 虚寒#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。尤适宜蛋白血症、精力不足、缺乳、肝硬化腹水和神经衰弱者、水肿、神经衰弱者。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。  尤  适宜  蛋白  血症  、  精力  不足  、  缺乳  、  肝硬化  腹水  和  神经  衰弱者  、  水肿  、  神经  衰弱者  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  蛋白#NN  血症#NN  、#PU  精力#NN  不足#NN  、#PU  缺乳#NN  、#PU  肝硬化#NN  腹水#NN  和#CC  神经#NN  衰弱者#NN  、#PU  水肿#NN  、#PU  神经#NN  衰弱者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 神经#NN, 蛋白#NN)  (conj, 神经#NN, 血症#NN)  (nn, 神经#NN, 精力#NN)  (conj, 神经#NN, 不足#NN)  (conj, 神经#NN, 缺乳#NN)  (nn, 神经#NN, 肝硬化#NN)  (conj, 神经#NN, 腹水#NN)  (cc, 神经#NN, 和#CC)  (nn, 神经#NN, 神经#NN)  (conj, 神经#NN, 衰弱者#NN)  (conj, 神经#NN, 水肿#NN)  (nn, 衰弱者#NN, 神经#NN)  (dobj, 适宜#VV, 衰弱者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                93
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                20.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                127
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                200
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                280
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                11.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                16.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            田鸡，其实一种蛙类，因肉质细嫩胜似鸡肉，故称田鸡。它的个头长得魁梧壮实，有“亚洲之蛙”之称。雌性比雄性大，体长可超过12厘米，体重250～500克。皮肤较为粗糙，头部及体侧有深色不规则的斑纹。背部呈黄绿色略带棕色，有十几行纵向排列的肤棱，肤棱间散布小疣粒。腹面白色，也有不规则的斑纹，咽部和胸部还有灰棕色斑。前后肢有横斑。由于这些斑纹看上去略似虎皮，因此又称虎纹蛙。趾端尖圆，趾间具全蹼。前肢粗壮，指垫发达，呈灰色。雄蛙具外声囊一对。已列为国家Ⅱ级重点保护动物。
+            田鸡含有丰富的蛋白质、糖类、水分和少量脂肪，肉味鲜美，现在食用的田鸡大多为人工养殖。
+        </rawdata>
+
+        <segment>
+            田鸡  ，  其实  一  种  蛙类  ，  因  肉质  细嫩  胜似  鸡肉  ，  故称  田鸡  。  它  的  个头  长得  魁梧  壮实  ，  有  “  亚洲  之  蛙  ”  之  称  。  雌性  比  雄性  大  ，  体长  可  超过  12  厘米  ，  体重  250  ～  500  克  。  皮肤  较为  粗糙  ，  头部  及  体侧  有  深色  不规则  的  斑纹  。  背部  呈  黄绿色  略  带  棕色  ，  有  十几  行  纵向  排列  的  肤棱  ，  肤棱  间  散布  小疣粒  。  腹面  白色  ，  也  有  不规则  的  斑纹  ，  咽部  和  胸部  还有  灰  棕色斑  。  前后  肢  有  横  斑  。  由于  这些  斑纹  看上去  略  似  虎皮  ，  因此  又  称  虎纹蛙  。  趾端  尖  圆  ，  趾间  具  全蹼  。  前肢  粗壮  ，  指垫  发达  ，  呈  灰色  。  雄蛙  具  外  声囊  一  对  。  已  列为  国家  Ⅱ级  重点  保护  动物  。
+            田鸡  含有  丰富  的  蛋白质  、  糖类  、  水分  和  少量  脂肪  ，  肉味  鲜美  ，  现在  食用  的  田鸡  大多  为  人工  养殖  。
+        </segment>
+
+        <pos>
+            田鸡#VV  ，#PU  其实#AD  一#CD  种#M  蛙类#NN  ，#PU  因#P  肉质#NN  细嫩#NN  胜似#VV  鸡肉#NN  ，#PU  故称#VV  田鸡#NN    。#PU  它#PN  的#DEG  个头#NN  长得#NN  魁梧#NN  壮实#VV  ，#PU  有#VE  ``#NR  亚洲#NR  之#DEG  蛙#JJ  ''#NN  之#DEG  称#NN    。#PU  雌性#NN  比#P  雄性#NN  大#VA  ，#PU  体长#NN  可#VV  超过#VV  12#CD  厘米#M  ，#PU  体重#NN  250#CD  ～#NN  500#CD  克#M    。#PU  皮肤#NR  较为#AD  粗糙#VV  ，#PU  头部#NN  及#CC  体侧#NN  有#VE  深色#VV  不规则#AD  的#DEC  斑纹#NN    。#PU  背部#NN  呈#VV  黄绿色#NN  略#AD  带#VV  棕色#NN  ，#PU  有#VE  十几#CD  行#M  纵向#AD  排列#VV  的#DEC  肤棱#NN  ，#PU  肤棱#NN  间#LC  散布#VV  小疣粒#NN    。#PU  腹面#VV  白色#JJ  ，#PU  也#AD  有#VV  不规则#AD  的#DEC  斑纹#NN  ，#PU  咽部#NN  和#CC  胸部#NN  还有#AD  灰#JJ  棕色斑#NN    。#PU  前后#LC  肢#NN  有#VE  横#NN  斑#NN    。#PU  由于#P  这些#DT  斑纹#NN  看上去#AD  略#AD  似#P  虎皮#NN  ，#PU  因此#AD  又#AD  称#VV  虎纹蛙#NN    。#PU  趾端#NN  尖#AD  圆#VV  ，#PU  趾间#AD  具#VV  全蹼#NN    。#PU  前肢#VV  粗壮#NN  ，#PU  指垫#AD  发达#VA  ，#PU  呈#VV  灰色#NN    。#PU  雄蛙#AD  具#VV  外#NN  声囊#NN  一#CD  对#M    。#PU  已#AD  列为#VV  国家#NN  级#NN  重点#NN  保护#VV  动物#NN    。#PU    。#PU
+            田鸡#NN  含有#NN  丰富#VA  的#DEC  蛋白质#CD  、#PU  糖类#CD  、#PU  水分#CD  和#CC  少量#CD  脂肪#NN  ，#PU  肉味#NN  鲜美#NN  ，#PU  现在#NT  食用#VV  的#DEC  田鸡#NN  大多#AD  为#VC  人工#JJ  养殖#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 田鸡#VV)  (advmod, 胜似#VV, 其实#AD)  (nummod, 种#M, 一#CD)  (clf, 蛙类#NN, 种#M)  (nsubj, 胜似#VV, 蛙类#NN)  (case, 细嫩#NN, 因#P)  (nn, 细嫩#NN, 肉质#NN)  (prep, 胜似#VV, 细嫩#NN)  (ccomp, 田鸡#VV, 胜似#VV)  (dobj, 胜似#VV, 鸡肉#NN)  (conj, 胜似#VV, 故称#VV)  (dobj, 故称#VV, 田鸡#NN)   (assmod, 魁梧#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 魁梧#NN, 个头#NN)  (nn, 魁梧#NN, 长得#NN)  (nsubj, 壮实#VV, 魁梧#NN)  (root, ROOT#null, 壮实#VV)  (ccomp, 壮实#VV, 有#VE)  (nn, ''#NN, ``#NR)  (assmod, ''#NN, 亚洲#NR)  (case, 亚洲#NR, 之#DEG)  (amod, ''#NN, 蛙#JJ)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (nsubj, 大#VA, 雌性#NN)  (case, 雄性#NN, 比#P)  (prep, 大#VA, 雄性#NN)  (root, ROOT#null, 大#VA)  (nsubj, 超过#VV, 体长#NN)  (mmod, 超过#VV, 可#VV)  (conj, 大#VA, 超过#VV)  (nummod, 厘米#M, 12#CD)  (range, 超过#VV, 厘米#M)  (nsubj, 克#M, 体重#NN)  (nummod, ～#NN, 250#CD)  (nummod, 克#M, 500#CD)  (conj, 大#VA, 克#M)   (nsubj, 粗糙#VV, 皮肤#NR)  (advmod, 粗糙#VV, 较为#AD)  (root, ROOT#null, 粗糙#VV)  (conj, 体侧#NN, 头部#NN)  (cc, 体侧#NN, 及#CC)  (dep, 有#VE, 体侧#NN)  (ccomp, 粗糙#VV, 有#VE)  (relcl, 斑纹#NN, 深色#VV)  (advmod, 深色#VV, 不规则#AD)  (mark, 深色#VV, 的#DEC)  (dobj, 有#VE, 斑纹#NN)   (nsubj, 呈#VV, 背部#NN)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 黄绿色#NN)  (advmod, 带#VV, 略#AD)  (conj, 呈#VV, 带#VV)  (dobj, 带#VV, 棕色#NN)  (conj, 带#VV, 有#VE)  (nummod, 行#M, 十几#CD)  (clf, 肤棱#NN, 行#M)  (advmod, 排列#VV, 纵向#AD)  (relcl, 肤棱#NN, 排列#VV)  (mark, 排列#VV, 的#DEC)  (dobj, 有#VE, 肤棱#NN)  (loc, 散布#VV, 肤棱#NN)  (case, 肤棱#NN, 间#LC)  (conj, 带#VV, 散布#VV)  (dobj, 散布#VV, 小疣粒#NN)   (root, ROOT#null, 腹面#VV)  (nfincl, 棕色斑#NN, 白色#JJ)  (advmod, 有#VV, 也#AD)  (relcl, 斑纹#NN, 有#VV)  (advmod, 有#VV, 不规则#AD)  (mark, 有#VV, 的#DEC)  (conj, 白色#JJ, 斑纹#NN)  (conj, 胸部#NN, 咽部#NN)  (cc, 胸部#NN, 和#CC)  (conj, 白色#JJ, 胸部#NN)  (advmod, 棕色斑#NN, 还有#AD)  (amod, 棕色斑#NN, 灰#JJ)  (dobj, 腹面#VV, 棕色斑#NN)   (dep, 有#VE, 前后#LC)  (dep, 前后#LC, 肢#NN)  (root, ROOT#null, 有#VE)  (nn, 斑#NN, 横#NN)  (dobj, 有#VE, 斑#NN)   (case, 斑纹#NN, 由于#P)  (det, 斑纹#NN, 这些#DT)  (prep, 称#VV, 斑纹#NN)  (advmod, 称#VV, 看上去#AD)  (advmod, 称#VV, 略#AD)  (case, 虎皮#NN, 似#P)  (prep, 称#VV, 虎皮#NN)  (advmod, 称#VV, 因此#AD)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (dobj, 称#VV, 虎纹蛙#NN)   (nsubj, 圆#VV, 趾端#NN)  (advmod, 圆#VV, 尖#AD)  (root, ROOT#null, 圆#VV)  (advmod, 具#VV, 趾间#AD)  (dep, 圆#VV, 具#VV)  (dobj, 具#VV, 全蹼#NN)   (root, ROOT#null, 前肢#VV)  (dobj, 前肢#VV, 粗壮#NN)  (advmod, 发达#VA, 指垫#AD)  (conj, 前肢#VV, 发达#VA)  (conj, 前肢#VV, 呈#VV)  (dobj, 呈#VV, 灰色#NN)   (advmod, 具#VV, 雄蛙#AD)  (root, ROOT#null, 具#VV)  (nn, 声囊#NN, 外#NN)  (dobj, 具#VV, 声囊#NN)  (nummod, 对#M, 一#CD)  (range, 具#VV, 对#M)   (advmod, 列为#VV, 已#AD)  (root, ROOT#null, 列为#VV)  (nn, 重点#NN, 国家#NN)  (nn, 重点#NN, 级#NN)  (dobj, 列为#VV, 重点#NN)  (conj, 列为#VV, 保护#VV)  (dobj, 保护#VV, 动物#NN)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 田鸡#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 脂肪#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, 少量#CD, 蛋白质#CD)  (nummod, 少量#CD, 糖类#CD)  (nummod, 少量#CD, 水分#CD)  (cc, 少量#CD, 和#CC)  (nummod, 脂肪#NN, 少量#CD)  (nsubj, 养殖#NN, 脂肪#NN)  (nn, 鲜美#NN, 肉味#NN)  (nsubj, 养殖#NN, 鲜美#NN)  (dep, 食用#VV, 现在#NT)  (relcl, 田鸡#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 养殖#NN, 田鸡#NN)  (advmod, 养殖#NN, 大多#AD)  (cop, 养殖#NN, 为#VC)  (amod, 养殖#NN, 人工#JJ)  (root, ROOT#null, 养殖#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            蛙肉，性凉味咸，是大补元气治脾虚的营养食品，可以治阴虚牙痛，腰痛及久痢。
+            1.补钙
+            田鸡含有丰富的蛋白质、钙和磷，有助于青少年的生长发育和缓解更年期骨质疏松。
+            2.保健美容
+            所含维生素E和锌、硒等微量元素，能延缓机体衰老，润泽肌肤，防癌抗癌。
+            3.补虚
+            蛙肉是大补元气治脾虚的营养食品。
+        </rawdata>
+
+        <segment>
+            蛙肉  ，  性凉味  咸  ，  是  大补  元气  治  脾虚  的  营养  食品  ，  可以  治  阴虚  牙痛  ，  腰痛  及  久痢  。
+            补钙
+            田鸡  含有  丰富  的  蛋白质  、  钙  和  磷  ，  有助于  青少年  的  生长  发育  和  缓解  更年期  骨质  疏松  。
+            保健  美容
+            所含  维生素E  和  锌  、  硒等  微量  元素  ，  能  延缓  机体  衰老  ，  润泽  肌肤  ，  防癌  抗癌  。
+            补  虚
+            蛙肉  是  大补  元气  治  脾虚  的  营养  食品  。
+        </segment>
+
+        <pos>
+            蛙肉#NN  ，#PU  性凉味#NN  咸#NN  ，#PU  是#VC  大补#NN  元气#NN  治#VV  脾虚#NN  的#DEC  营养#VA  食品#NN  ，#PU  可以#VV  治#VV  阴虚#NN  牙痛#NN  ，#PU  腰痛#VA  及#CC  久痢#VA  。#PU
+            补钙#VV
+            田鸡#NN  含有#NN  丰富#VA  的#DEC  蛋白质#NN  、#PU  钙#NN  和#CC  磷#NN  ，#PU  有助于#VV  青少年#NN  的#DEG  生长#NN  发育#VV  和#CC  缓解#VV  更年期#NN  骨质#NN  疏松#NN  。#PU
+            保健#NN  美容#NN
+            所含#NN  维生素E#NN  和#CC  锌#NN  、#PU  硒等#NN  微量#NN  元素#NN  ，#PU  能#VV  延缓#VV  机体#NN  衰老#NN  ，#PU  润泽#VV  肌肤#NN  ，#PU  防癌#VV  抗癌#NN  。#PU
+            补#VV  虚#AD
+            蛙肉#NN  是#VC  大补#NN  元气#NN  治#VV  脾虚#NN  的#DEC  营养#VA  食品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 蛙肉#NN)  (nn, 咸#NN, 性凉味#NN)  (nsubj, 食品#NN, 咸#NN)  (cop, 食品#NN, 是#VC)  (nn, 元气#NN, 大补#NN)  (nsubj, 治#VV, 元气#NN)  (relcl, 食品#NN, 治#VV)  (dobj, 治#VV, 脾虚#NN)  (mark, 治#VV, 的#DEC)  (nfincl, 食品#NN, 营养#VA)  (root, ROOT#null, 食品#NN)  (mmod, 治#VV, 可以#VV)  (conj, 食品#NN, 治#VV)  (nn, 牙痛#NN, 阴虚#NN)  (dobj, 治#VV, 牙痛#NN)  (conj, 食品#NN, 腰痛#VA)  (cc, 腰痛#VA, 及#CC)  (dep, 腰痛#VA, 久痢#VA)
+            (root, ROOT#null, 补钙#VV)
+            (nn, 含有#NN, 田鸡#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 磷#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钙#NN)  (cc, 磷#NN, 和#CC)  (nsubj, 有助于#VV, 磷#NN)  (root, ROOT#null, 有助于#VV)  (assmod, 生长#NN, 青少年#NN)  (case, 青少年#NN, 的#DEG)  (nsubj, 发育#VV, 生长#NN)  (ccomp, 有助于#VV, 发育#VV)  (cc, 有助于#VV, 和#CC)  (dep, 有助于#VV, 缓解#VV)  (nn, 疏松#NN, 更年期#NN)  (nn, 疏松#NN, 骨质#NN)  (dobj, 缓解#VV, 疏松#NN)
+            (nn, 美容#NN, 保健#NN)  (root, ROOT#null, 美容#NN)
+            (nn, 元素#NN, 所含#NN)  (conj, 元素#NN, 维生素E#NN)  (cc, 元素#NN, 和#CC)  (conj, 元素#NN, 锌#NN)  (nn, 元素#NN, 硒等#NN)  (nn, 元素#NN, 微量#NN)  (nsubj, 延缓#VV, 元素#NN)  (mmod, 延缓#VV, 能#VV)  (root, ROOT#null, 延缓#VV)  (nn, 衰老#NN, 机体#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 延缓#VV, 润泽#VV)  (dobj, 润泽#VV, 肌肤#NN)  (conj, 延缓#VV, 防癌#VV)  (dobj, 防癌#VV, 抗癌#NN)
+            (root, ROOT#null, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (nsubj, 食品#NN, 蛙肉#NN)  (cop, 食品#NN, 是#VC)  (nn, 元气#NN, 大补#NN)  (nsubj, 治#VV, 元气#NN)  (relcl, 食品#NN, 治#VV)  (dobj, 治#VV, 脾虚#NN)  (mark, 治#VV, 的#DEC)  (nfincl, 食品#NN, 营养#VA)  (root, ROOT#null, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        利水消肿  清热解毒  补虚
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            田鸡含有丰富的蛋白质、钙和磷，有助于青少年的生长发育和缓解更年期骨质疏松。所含维生素E和锌、硒等微量元素，能延缓机体衰老，润泽肌肤，防癌抗癌。而且蛙肉性凉味咸而无毒，是大补元气治脾虚的营养食品，可以治阴虚牙痛，腰痛及久痢，适宜于低蛋白血症，精力不足，产生缺乳，肝硬化腹水和神经衰弱者食用。
+            一般人均宜，蛋白血症，精力不足，产生缺乳，肝硬化腹水和神经衰弱者、水肿、神经衰弱者尤宜。
+            田鸡肉中易有寄生虫卵，定要加热至熟透再食用。田鸡可供红烧、炒食，尤以腿肉最为肥嫩。
+            中医认为蛙肉性凉味咸而无毒，是大补元气治脾虚的营养食品，可以治阴虚牙痛，腰痛及久痢，适宜于低蛋白血症，精力不足，产生缺乳，肝硬化腹水和神经衰弱者食用。
+        </rawdata>
+
+        <segment>
+            田鸡  含有  丰富  的  蛋白质  、  钙  和  磷  ，  有助于  青少年  的  生长  发育  和  缓解  更年期  骨质  疏松  。  所含  维生素E  和  锌  、  硒等  微量  元素  ，  能  延缓  机体  衰老  ，  润泽  肌肤  ，  防癌  抗癌  。  而且  蛙肉性  凉味  咸  而  无毒  ，  是  大补  元气  治  脾虚  的  营养  食品  ，  可以  治  阴虚  牙痛  ，  腰痛  及  久痢  ，  适宜于  低蛋白血症  ，  精力  不足  ，  产生  缺乳  ，  肝硬化  腹水  和  神经  衰弱者  食用  。
+            一般  人均  宜  ，  蛋白  血症  ，  精力  不足  ，  产生  缺乳  ，  肝硬化  腹水  和  神经  衰弱者  、  水肿  、  神经  衰弱者  尤宜  。
+            田鸡肉  中  易  有  寄生  虫卵  ，  定要  加热  至  熟透  再  食用  。  田鸡  可  供  红烧  、  炒食  ，  尤以  腿  肉  最为  肥嫩  。
+            中医  认为  蛙肉性  凉味  咸  而  无毒  ，  是  大补  元气  治  脾虚  的  营养  食品  ，  可以  治  阴虚  牙痛  ，  腰痛  及  久痢  ，  适宜于  低蛋白血症  ，  精力  不足  ，  产生  缺乳  ，  肝硬化  腹水  和  神经  衰弱者  食用  。
+        </segment>
+
+        <pos>
+            田鸡#VV  含有#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  钙#NN  和#CC  磷#NN  ，#PU  有助于#VV  青少年#NN  的#DEG  生长#NN  发育#VV  和#CC  缓解#VV  更年期#NN  骨质#NN  疏松#NN    。#PU  所含#VV  维生素E#NN  和#CC  锌#NN  、#PU  硒等#NN  微量#NN  元素#NN  ，#PU  能#VV  延缓#VV  机体#NN  衰老#NN  ，#PU  润泽#VV  肌肤#NN  ，#PU  防癌#VV  抗癌#NN    。#PU  而且#AD  蛙肉性#NN  凉味#NN  咸#NN  而#MSP  无毒#JJ  ，#PU  是#VC  大补#NN  元气#NN  治#VV  脾虚#NN  的#DEC  营养#VA  食品#NN  ，#PU  可以#VV  治#VV  阴虚#NN  牙痛#NN  ，#PU  腰痛#CD  及#CC  久痢#CD  ，#PU  适宜于#VV  低蛋白血症#NN  ，#PU  精力#NN  不足#VA  ，#PU  产生#VV  缺乳#NN  ，#PU  肝硬化#NN  腹水#NN  和#CC  神经#NN  衰弱者#NN  食用#VV    。#PU    。#PU
+            一般#JJ  人均#JJ  宜#NR  ，#PU  蛋白#NN  血症#NN  ，#PU  精力#NN  不足#NN  ，#PU  产生#VV  缺乳#NN  ，#PU  肝硬化#VV  腹水#NN  和#CC  神经#NN  衰弱者#NN  、#PU  水肿#NN  、#PU  神经#NN  衰弱者#NN  尤宜#NN  。#PU
+            田鸡肉#NN  中#LC  易#AD  有#VE  寄生#NN  虫卵#NN  ，#PU  定要#NR  加热#NN  至#CC  熟透#NN  再#AD  食用#VV    。#PU  田鸡#NR  可#VV  供#VV  红烧#NR  、#PU  炒食#NR  ，#PU  尤以#NN  腿#NN  肉#NN  最为#AD  肥嫩#VA    。#PU    。#PU
+            中医#NN  认为#VV  蛙肉性#NN  凉味#NN  咸#VV  而#MSP  无毒#JJ  ，#PU  是#VC  大补#NN  元气#NN  治#VV  脾虚#NN  的#DEC  营养#VA  食品#NN  ，#PU  可以#VV  治#VV  阴虚#NN  牙痛#NN  ，#PU  腰痛#CD  及#CC  久痢#CD  ，#PU  适宜于#VV  低蛋白血症#NN  ，#PU  精力#NN  不足#VA  ，#PU  产生#VV  缺乳#NN  ，#PU  肝硬化#NN  腹水#NN  和#CC  神经#NN  衰弱者#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 田鸡#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 磷#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钙#NN)  (cc, 磷#NN, 和#CC)  (dobj, 田鸡#VV, 磷#NN)  (conj, 田鸡#VV, 有助于#VV)  (assmod, 生长#NN, 青少年#NN)  (case, 青少年#NN, 的#DEG)  (nsubj, 发育#VV, 生长#NN)  (ccomp, 有助于#VV, 发育#VV)  (cc, 发育#VV, 和#CC)  (dep, 发育#VV, 缓解#VV)  (nn, 疏松#NN, 更年期#NN)  (nn, 疏松#NN, 骨质#NN)  (dobj, 缓解#VV, 疏松#NN)   (root, ROOT#null, 所含#VV)  (conj, 元素#NN, 维生素E#NN)  (cc, 元素#NN, 和#CC)  (conj, 元素#NN, 锌#NN)  (nn, 元素#NN, 硒等#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 所含#VV, 元素#NN)  (mmod, 延缓#VV, 能#VV)  (conj, 所含#VV, 延缓#VV)  (nn, 衰老#NN, 机体#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 所含#VV, 润泽#VV)  (dobj, 润泽#VV, 肌肤#NN)  (conj, 所含#VV, 防癌#VV)  (dobj, 防癌#VV, 抗癌#NN)   (advmod, 无毒#JJ, 而且#AD)  (nn, 咸#NN, 蛙肉性#NN)  (nn, 咸#NN, 凉味#NN)  (nsubj, 无毒#JJ, 咸#NN)  (prtmod, 无毒#JJ, 而#MSP)  (root, ROOT#null, 无毒#JJ)  (cop, 食品#NN, 是#VC)  (nn, 元气#NN, 大补#NN)  (nsubj, 治#VV, 元气#NN)  (relcl, 食品#NN, 治#VV)  (dobj, 治#VV, 脾虚#NN)  (mark, 治#VV, 的#DEC)  (nfincl, 食品#NN, 营养#VA)  (conj, 无毒#JJ, 食品#NN)  (mmod, 治#VV, 可以#VV)  (conj, 无毒#JJ, 治#VV)  (nn, 牙痛#NN, 阴虚#NN)  (dobj, 治#VV, 牙痛#NN)  (nummod, 久痢#CD, 腰痛#CD)  (cc, 久痢#CD, 及#CC)  (conj, 无毒#JJ, 久痢#CD)  (dep, 无毒#JJ, 适宜于#VV)  (dobj, 适宜于#VV, 低蛋白血症#NN)  (nsubj, 不足#VA, 精力#NN)  (conj, 无毒#JJ, 不足#VA)  (conj, 无毒#JJ, 产生#VV)  (dobj, 产生#VV, 缺乳#NN)  (nn, 衰弱者#NN, 肝硬化#NN)  (conj, 衰弱者#NN, 腹水#NN)  (cc, 衰弱者#NN, 和#CC)  (nn, 衰弱者#NN, 神经#NN)  (nsubj, 食用#VV, 衰弱者#NN)  (conj, 无毒#JJ, 食用#VV)   (root, ROOT#null, null#null)
+            (amod, 血症#NN, 一般#JJ)  (amod, 血症#NN, 人均#JJ)  (dep, 血症#NN, 宜#NR)  (nn, 血症#NN, 蛋白#NN)  (nsubj, 产生#VV, 血症#NN)  (nn, 不足#NN, 精力#NN)  (nsubj, 产生#VV, 不足#NN)  (root, ROOT#null, 产生#VV)  (dobj, 产生#VV, 缺乳#NN)  (conj, 产生#VV, 肝硬化#VV)  (conj, 尤宜#NN, 腹水#NN)  (cc, 尤宜#NN, 和#CC)  (nn, 尤宜#NN, 神经#NN)  (conj, 尤宜#NN, 衰弱者#NN)  (conj, 尤宜#NN, 水肿#NN)  (nn, 尤宜#NN, 神经#NN)  (nn, 尤宜#NN, 衰弱者#NN)  (dobj, 肝硬化#VV, 尤宜#NN)
+            (loc, 有#VE, 田鸡肉#NN)  (case, 田鸡肉#NN, 中#LC)  (advmod, 有#VE, 易#AD)  (root, ROOT#null, 有#VE)  (nn, 虫卵#NN, 寄生#NN)  (dobj, 有#VE, 虫卵#NN)  (nn, 熟透#NN, 定要#NR)  (conj, 熟透#NN, 加热#NN)  (cc, 熟透#NN, 至#CC)  (nsubj, 食用#VV, 熟透#NN)  (advmod, 食用#VV, 再#AD)  (conj, 有#VE, 食用#VV)   (nsubj, 供#VV, 田鸡#NR)  (mmod, 供#VV, 可#VV)  (root, ROOT#null, 供#VV)  (conj, 炒食#NR, 红烧#NR)  (nsubj, 肥嫩#VA, 炒食#NR)  (nn, 肉#NN, 尤以#NN)  (nn, 肉#NN, 腿#NN)  (nsubj, 肥嫩#VA, 肉#NN)  (advmod, 肥嫩#VA, 最为#AD)  (ccomp, 供#VV, 肥嫩#VA)   (root, ROOT#null, null#null)
+            (nsubj, 认为#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (nn, 凉味#NN, 蛙肉性#NN)  (dobj, 认为#VV, 凉味#NN)  (dep, 认为#VV, 咸#VV)  (dep, 无毒#JJ, 而#MSP)  (dobj, 咸#VV, 无毒#JJ)  (cop, 食品#NN, 是#VC)  (nn, 元气#NN, 大补#NN)  (nsubj, 治#VV, 元气#NN)  (relcl, 食品#NN, 治#VV)  (dobj, 治#VV, 脾虚#NN)  (mark, 治#VV, 的#DEC)  (nfincl, 食品#NN, 营养#VA)  (dep, 无毒#JJ, 食品#NN)  (mmod, 治#VV, 可以#VV)  (conj, 食品#NN, 治#VV)  (nn, 牙痛#NN, 阴虚#NN)  (dobj, 治#VV, 牙痛#NN)  (nummod, 久痢#CD, 腰痛#CD)  (cc, 久痢#CD, 及#CC)  (conj, 食品#NN, 久痢#CD)  (conj, 食品#NN, 适宜于#VV)  (dobj, 适宜于#VV, 低蛋白血症#NN)  (nsubj, 不足#VA, 精力#NN)  (conj, 认为#VV, 不足#VA)  (conj, 认为#VV, 产生#VV)  (dobj, 产生#VV, 缺乳#NN)  (nn, 衰弱者#NN, 肝硬化#NN)  (conj, 衰弱者#NN, 腹水#NN)  (cc, 衰弱者#NN, 和#CC)  (nn, 衰弱者#NN, 神经#NN)  (nsubj, 食用#VV, 衰弱者#NN)  (conj, 认为#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            田鸡肉中易有寄生虫卵，定要加热至熟透再食用。田鸡可供红烧、炒食，尤以腿肉最为肥嫩。
+        </rawdata>
+
+        <segment>
+            田鸡肉  中  易  有  寄生  虫卵  ，  定要  加热  至  熟透  再  食用  。  田鸡  可  供  红烧  、  炒食  ，  尤以  腿  肉  最为  肥嫩  。
+        </segment>
+
+        <pos>
+            田鸡肉#NN  中#LC  易#AD  有#VE  寄生#NN  虫卵#NN  ，#PU  定要#NR  加热#NN  至#CC  熟透#NN  再#AD  食用#VV    。#PU  田鸡#NR  可#VV  供#VV  红烧#NR  、#PU  炒食#NR  ，#PU  尤以#NN  腿#NN  肉#NN  最为#AD  肥嫩#VA    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 有#VE, 田鸡肉#NN)  (case, 田鸡肉#NN, 中#LC)  (advmod, 有#VE, 易#AD)  (root, ROOT#null, 有#VE)  (nn, 虫卵#NN, 寄生#NN)  (dobj, 有#VE, 虫卵#NN)  (nn, 熟透#NN, 定要#NR)  (conj, 熟透#NN, 加热#NN)  (cc, 熟透#NN, 至#CC)  (nsubj, 食用#VV, 熟透#NN)  (advmod, 食用#VV, 再#AD)  (conj, 有#VE, 食用#VV)   (nsubj, 供#VV, 田鸡#NR)  (mmod, 供#VV, 可#VV)  (root, ROOT#null, 供#VV)  (conj, 炒食#NR, 红烧#NR)  (nsubj, 肥嫩#VA, 炒食#NR)  (nn, 肉#NN, 尤以#NN)  (nn, 肉#NN, 腿#NN)  (nsubj, 肥嫩#VA, 肉#NN)  (advmod, 肥嫩#VA, 最为#AD)  (ccomp, 供#VV, 肥嫩#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/281542108248.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\150 田鸡.jpg
+    </picturelocalurl>
+
+</content>

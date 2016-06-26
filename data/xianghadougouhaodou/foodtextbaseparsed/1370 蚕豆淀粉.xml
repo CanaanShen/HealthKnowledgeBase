@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1370
+    </id>
+
+    <foodname>
+        蚕豆淀粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不宜与田螺同食
+        </rawdata>
+
+        <segment>
+            不  宜  与  田螺  同  食
+        </segment>
+
+        <pos>
+            不#AD  宜#NR  与#CC  田螺#NR  同#VV  食#NN
+        </pos>
+
+        <parsing>
+            (neg, 同#VV, 不#AD)  (conj, 田螺#NR, 宜#NR)  (cc, 田螺#NR, 与#CC)  (prep, 同#VV, 田螺#NR)  (root, ROOT#null, 同#VV)  (dobj, 同#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蚕豆又名胡豆、佛豆、罗汉豆、倭豆等，为一年生或越年生草本植物，属豆科植物。是豆类蔬菜中重要的食用豆之一，它既可以炒菜、凉拌，又可以制成各种小食品，是一种大众食物。蚕豆中含有大量蛋白质，在日常食用的豆类中仅次于大豆，蚕豆中含有大量钙、钾、镁、维生素C等，并且氨基酸种类较为齐全，特别是赖氨酸含量丰富。
+        </rawdata>
+
+        <segment>
+            蚕豆  又  名  胡豆  、  佛豆  、  罗汉豆  、  倭豆  等  ，  为  一  年  生  或  越  年生  草本  植物  ，  属  豆科  植物  。  是  豆类  蔬菜  中  重要  的  食用  豆之一  ，  它  既  可以  炒菜  、  凉拌  ，  又  可以  制成  各  种  小  食品  ，  是  一  种  大众  食物  。  蚕豆  中  含有  大量  蛋白质  ，  在  日常  食用  的  豆类  中  仅  次于  大豆  ，  蚕豆  中  含有  大量  钙  、  钾  、  镁  、  维生素C  等  ，  并且  氨基酸  种类  较为  齐全  ，  特别是  赖氨酸  含量  丰富  。
+        </segment>
+
+        <pos>
+            蚕豆#NN  又#CC  名#NN  胡豆#NR  、#PU  佛豆#NR  、#PU  罗汉豆#NR  、#PU  倭豆#NR  等#ETC  ，#PU  为#P  一#CD  年#M  生#VV  或#CC  越#VV  年生#NN  草本#NN  植物#NN  ，#PU  属#VV  豆科#NN  植物#NN    。#PU  是#VC  豆类#NN  蔬菜#NN  中#LC  重要#VA  的#DEC  食用#VV  豆之一#CD  ，#PU  它#PN  既#CC  可以#VV  炒菜#VV  、#PU  凉拌#VV  ，#PU  又#AD  可以#VV  制成#VV  各#DT  种#M  小#JJ  食品#NN  ，#PU  是#VC  一#CD  种#M  大众#NN  食物#NN    。#PU  蚕豆#NN  中#LC  含有#VV  大量#CD  蛋白质#NN  ，#PU  在#P  日常#JJ  食用#VV  的#DEC  豆类#NN  中#LC  仅#AD  次于#VV  大豆#NN  ，#PU  蚕豆#NN  中#LC  含有#VV  大量#CD  钙#NN  、#PU  钾#NN  、#PU  镁#NN  、#PU  维生素C#NN  等#ETC  ，#PU  并且#CC  氨基酸#NN  种类#NN  较为#AD  齐全#VA  ，#PU  特别是#AD  赖氨酸#NN  含量#NN  丰富#VA    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 蚕豆#NN)  (cc, 名#NN, 又#CC)  (nsubj, 生#VV, 名#NN)  (conj, 倭豆#NR, 胡豆#NR)  (conj, 倭豆#NR, 佛豆#NR)  (conj, 倭豆#NR, 罗汉豆#NR)  (nsubj, 生#VV, 倭豆#NR)  (etc, 倭豆#NR, 等#ETC)  (case, 年#M, 为#P)  (nummod, 年#M, 一#CD)  (prep, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (cc, 生#VV, 或#CC)  (dep, 生#VV, 越#VV)  (nn, 植物#NN, 年生#NN)  (nn, 植物#NN, 草本#NN)  (dobj, 越#VV, 植物#NN)  (dep, 生#VV, 属#VV)  (nn, 植物#NN, 豆科#NN)  (dobj, 属#VV, 植物#NN)   (cop, 重要#VA, 是#VC)  (nn, 蔬菜#NN, 豆类#NN)  (loc, 重要#VA, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (root, ROOT#null, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dep, 重要#VA, 食用#VV)  (range, 食用#VV, 豆之一#CD)  (nsubj, 炒菜#VV, 它#PN)  (cc, 炒菜#VV, 既#CC)  (mmod, 炒菜#VV, 可以#VV)  (dep, 食用#VV, 炒菜#VV)  (conj, 炒菜#VV, 凉拌#VV)  (advmod, 制成#VV, 又#AD)  (mmod, 制成#VV, 可以#VV)  (conj, 炒菜#VV, 制成#VV)  (det, 食品#NN, 各#DT)  (clf, 各#DT, 种#M)  (amod, 食品#NN, 小#JJ)  (dobj, 制成#VV, 食品#NN)  (cop, 食物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食物#NN, 种#M)  (nn, 食物#NN, 大众#NN)  (dep, 炒菜#VV, 食物#NN)   (loc, 含有#VV, 蚕豆#NN)  (case, 蚕豆#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 蛋白质#NN, 大量#CD)  (dobj, 含有#VV, 蛋白质#NN)  (case, 豆类#NN, 在#P)  (amod, 豆类#NN, 日常#JJ)  (relcl, 豆类#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (prep, 次于#VV, 豆类#NN)  (case, 豆类#NN, 中#LC)  (advmod, 次于#VV, 仅#AD)  (conj, 含有#VV, 次于#VV)  (dobj, 次于#VV, 大豆#NN)  (loc, 含有#VV, 蚕豆#NN)  (case, 蚕豆#NN, 中#LC)  (conj, 含有#VV, 含有#VV)  (nummod, 维生素C#NN, 大量#CD)  (conj, 维生素C#NN, 钙#NN)  (conj, 维生素C#NN, 钾#NN)  (conj, 维生素C#NN, 镁#NN)  (dobj, 含有#VV, 维生素C#NN)  (etc, 维生素C#NN, 等#ETC)  (cc, 含有#VV, 并且#CC)  (nn, 种类#NN, 氨基酸#NN)  (nsubj, 齐全#VA, 种类#NN)  (advmod, 齐全#VA, 较为#AD)  (conj, 含有#VV, 齐全#VA)  (advmod, 含量#NN, 特别是#AD)  (nn, 含量#NN, 赖氨酸#NN)  (nsubj, 丰富#VA, 含量#NN)  (conj, 齐全#VA, 丰富#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            主治中气不足，倦怠少食，高血压，咯血，衄血，妇女带下等病症。嫩蚕豆煮稀饭能和胃、润肠通便，对习惯性便秘有良效。
+        </rawdata>
+
+        <segment>
+            主治  中气  不足  ，  倦怠  少  食  ，  高血压  ，  咯血  ，  衄血  ，  妇女  带下  等  病症  。  嫩  蚕豆  煮  稀饭  能  和  胃  、  润肠  通便  ，  对  习惯性  便秘  有  良效  。
+        </segment>
+
+        <pos>
+            主治#NN  中气#AD  不足#VA  ，#PU  倦怠#VV  少#JJ  食#NN  ，#PU  高血压#VA  ，#PU  咯血#VA  ，#PU  衄血#VA  ，#PU  妇女#NN  带下#NN  等#ETC  病症#VA    。#PU  嫩#NR  蚕豆#VV  煮#VV  稀饭#NN  能#VV  和#CC  胃#VV  、#PU  润肠#VV  通便#NN  ，#PU  对#P  习惯性#NN  便秘#NN  有#VE  良效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 不足#VA, 主治#NN)  (advmod, 不足#VA, 中气#AD)  (root, ROOT#null, 不足#VA)  (conj, 不足#VA, 倦怠#VV)  (amod, 食#NN, 少#JJ)  (dobj, 倦怠#VV, 食#NN)  (conj, 不足#VA, 高血压#VA)  (conj, 不足#VA, 咯血#VA)  (conj, 不足#VA, 衄血#VA)  (nn, 带下#NN, 妇女#NN)  (nsubj, 病症#VA, 带下#NN)  (etc, 带下#NN, 等#ETC)  (conj, 不足#VA, 病症#VA)   (nsubj, 蚕豆#VV, 嫩#NR)  (xsubj, 煮#VV, 嫩#NR)  (root, ROOT#null, 蚕豆#VV)  (ccomp, 蚕豆#VV, 煮#VV)  (dobj, 煮#VV, 稀饭#NN)  (conj, 煮#VV, 能#VV)  (cc, 煮#VV, 和#CC)  (conj, 煮#VV, 胃#VV)  (conj, 煮#VV, 润肠#VV)  (dobj, 润肠#VV, 通便#NN)  (case, 便秘#NN, 对#P)  (nn, 便秘#NN, 习惯性#NN)  (prep, 有#VE, 便秘#NN)  (conj, 煮#VV, 有#VE)  (dobj, 有#VE, 良效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  抗癌防癌  和胃  利水消肿  明目  抗辐射  通便
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/bc/d0/53436_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1370 蚕豆淀粉.jpg
+    </picturelocalurl>
+
+</content>

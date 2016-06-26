@@ -1,0 +1,432 @@
+<content>
+
+    <id>
+        423
+    </id>
+
+    <foodname>
+        葛根
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        野葛、鹿霍、黄斤、鸡齐根、干葛、甘葛、粉葛、黄葛根
+    </alias>
+
+    <season>
+        冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃寒者慎食。
+        </rawdata>
+
+        <segment>
+            胃寒者  慎食  。
+        </segment>
+
+        <pos>
+            胃寒者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胃寒者#VV)  (dobj, 胃寒者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、高血脂、高血糖及偏头痛等心脑血管病患者、更年期妇女、易上火人群（包括孕妇和婴儿）、常用烟酒者、女性滋容养颜，中老年人日常饮食调理等。　　
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  高  血脂  、  高血糖  及  偏头痛  等  心脑血管病  患者  、  更年期  妇女  、  易上  火  人群  （  包括  孕妇  和  婴儿  ）  、  常用  烟酒者  、  女性  滋容  养颜  ，  中老年  人  日常  饮食  调理  等  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NR  、#PU  高#JJ  血脂#NN  、#PU  高血糖#NR  及#CC  偏头痛#NR  等#ETC  心脑血管病#NN  患者#NN  、#PU  更年期#NN  妇女#NN  、#PU  易上#NN  火#NN  人群#NN  （#PU  包括#VV  孕妇#NN  和#CC  婴儿#NN  ）#PU  、#PU  常用#JJ  烟酒者#NN  、#PU  女性#NN  滋容#NN  养颜#NN  ，#PU  中老年#CD  人#NN  日常#JJ  饮食#NN  调理#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 偏头痛#NR, 高血压#NR)  (amod, 血脂#NN, 高#JJ)  (conj, 偏头痛#NR, 血脂#NN)  (conj, 偏头痛#NR, 高血糖#NR)  (cc, 偏头痛#NR, 及#CC)  (nn, 患者#NN, 偏头痛#NR)  (etc, 偏头痛#NR, 等#ETC)  (nn, 患者#NN, 心脑血管病#NN)  (conj, 调理#NN, 患者#NN)  (nn, 妇女#NN, 更年期#NN)  (conj, 调理#NN, 妇女#NN)  (nn, 人群#NN, 易上#NN)  (nn, 人群#NN, 火#NN)  (nn, 调理#NN, 人群#NN)  (prnmod, 调理#NN, 包括#VV)  (conj, 婴儿#NN, 孕妇#NN)  (cc, 婴儿#NN, 和#CC)  (dobj, 包括#VV, 婴儿#NN)  (amod, 烟酒者#NN, 常用#JJ)  (conj, 调理#NN, 烟酒者#NN)  (nn, 养颜#NN, 女性#NN)  (nn, 养颜#NN, 滋容#NN)  (dep, 调理#NN, 养颜#NN)  (nummod, 人#NN, 中老年#CD)  (nn, 饮食#NN, 人#NN)  (amod, 饮食#NN, 日常#JJ)  (nn, 调理#NN, 饮食#NN)  (dobj, 适宜#VV, 调理#NN)  (etc, 调理#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                181
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                45.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                133
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                572
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                76
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                11.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                51.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            葛根为豆科植物野葛或甘葛藤萝的块根，是中国南方一些省区的一种常食蔬菜，其味甘凉可口，常作煲汤之用，也可作为药物应用。野葛和甘葛藤属多年生落叶藤本，野葛生于山坡、路边草丛中及较阴湿的地方，除新疆、西藏外，全国大部分地区均有分布，甘葛藤栽培或野生于山野灌丛和疏林中，分布于广东、广西、四川、云南等地。
+            早在尧、舜、禹时期，人们就已经开始利用葛藤制麻织布。1972年，江苏吴县草鞋山发掘出三块制作于新石器时代、在今天看来依然技艺精湛的葛布残片，这三块葛布残片是我国从6000多年前就已经开始利用葛根的可靠见证。
+        </rawdata>
+
+        <segment>
+            葛根  为  豆科  植物  野葛  或  甘葛  藤萝  的  块根  ，  是  中国  南方  一些  省区  的  一  种  常食  蔬菜  ，  其味  甘  凉  可口  ，  常作  煲汤  之用  ，  也  可  作为  药物  应用  。  野葛  和  甘  葛藤  属  多年生  落叶  藤本  ，  野葛  生  于  山坡  、  路边  草丛  中  及  较  阴湿  的  地方  ，  除  新疆  、  西藏  外  ，  全国  大部分  地区  均有  分布  ，  甘  葛藤  栽培  或  野生  于  山野  灌丛  和  疏  林中  ，  分布  于  广东  、  广西  、  四川  、  云南  等  地  。
+            早在尧  、  舜  、  禹时期  ，  人们  就  已经  开始  利用  葛藤制  麻织布  。  1972年  ，  江苏  吴县  草鞋  山  发掘  出  三  块  制作  于  新  石器  时代  、  在  今天  看来  依然  技艺  精湛  的  葛布  残片  ，  这  三  块  葛布  残片  是  我国  从  6000多  年  前  就  已经  开始  利用  葛根  的  可靠  见证  。
+        </segment>
+
+        <pos>
+            葛根#AD  为#VC  豆科#NN  植物#NN  野葛#NN  或#CC  甘葛#NN  藤萝#NN  的#DEG  块根#NN  ，#PU  是#VC  中国#NR  南方#NN  一些#CD  省区#NN  的#DEG  一#CD  种#M  常食#JJ  蔬菜#NN  ，#PU  其味#VV  甘#NR  凉#NN  可口#NN  ，#PU  常作#VV  煲汤#NN  之用#NN  ，#PU  也#AD  可#VV  作为#VV  药物#NN  应用#NN    。#PU  野葛#NR  和#CC  甘#NR  葛藤#AD  属#VV  多年生#VV  落叶#NN  藤本#NN  ，#PU  野葛#AD  生#VV  于#P  山坡#NN  、#PU  路边#NN  草丛#NN  中#LC  及#CC  较#AD  阴湿#VV  的#DEC  地方#NN  ，#PU  除#P  新疆#NR  、#PU  西藏#NR  外#LC  ，#PU  全国#NR  大部分#CD  地区#NN  均有#AD  分布#VV  ，#PU  甘#NR  葛藤#AD  栽培#VV  或#CC  野生#JJ  于#P  山野#NN  灌丛#NN  和#CC  疏#NN  林中#NN  ，#PU  分布#VV  于#P  广东#NR  、#PU  广西#NR  、#PU  四川#NR  、#PU  云南#NR  等#ETC  地#NN    。#PU    。#PU
+            早在尧#NR  、#PU  舜#NR  、#PU  禹时期#NR  ，#PU  人们#NN  就#AD  已经#AD  开始#VV  利用#VV  葛藤制#NN  麻织布#NN    。#PU  1972年#NT  ，#PU  江苏#NR  吴县#NN  草鞋#NN  山#NN  发掘#VV  出#VV  三#CD  块#M  制作#VV  于#P  新#JJ  石器#NN  时代#NN  、#PU  在#P  今天#NT  看来#VV  依然#AD  技艺#NN  精湛#VA  的#DEC  葛布#NN  残片#NN  ，#PU  这#DT  三#CD  块#M  葛布#NN  残片#NN  是#VC  我国#NR  从#P  6000多#CD  年#M  前#LC  就#AD  已经#AD  开始#VV  利用#VV  葛根#NN  的#DEC  可靠#JJ  见证#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 块根#NN, 葛根#AD)  (cop, 块根#NN, 为#VC)  (nn, 藤萝#NN, 豆科#NN)  (nn, 藤萝#NN, 植物#NN)  (conj, 藤萝#NN, 野葛#NN)  (cc, 藤萝#NN, 或#CC)  (nn, 藤萝#NN, 甘葛#NN)  (assmod, 块根#NN, 藤萝#NN)  (case, 藤萝#NN, 的#DEG)  (root, ROOT#null, 块根#NN)  (cop, 蔬菜#NN, 是#VC)  (nn, 南方#NN, 中国#NR)  (nn, 省区#NN, 南方#NN)  (nummod, 省区#NN, 一些#CD)  (assmod, 蔬菜#NN, 省区#NN)  (case, 省区#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (amod, 蔬菜#NN, 常食#JJ)  (conj, 块根#NN, 蔬菜#NN)  (conj, 块根#NN, 其味#VV)  (nn, 可口#NN, 甘#NR)  (nn, 可口#NN, 凉#NN)  (dobj, 其味#VV, 可口#NN)  (conj, 块根#NN, 常作#VV)  (nn, 之用#NN, 煲汤#NN)  (dobj, 常作#VV, 之用#NN)  (advmod, 作为#VV, 也#AD)  (mmod, 作为#VV, 可#VV)  (conj, 块根#NN, 作为#VV)  (nn, 应用#NN, 药物#NN)  (dobj, 作为#VV, 应用#NN)   (conj, 甘#NR, 野葛#NR)  (cc, 甘#NR, 和#CC)  (nsubj, 属#VV, 甘#NR)  (advmod, 属#VV, 葛藤#AD)  (root, ROOT#null, 属#VV)  (relcl, 地方#NN, 多年生#VV)  (nn, 藤本#NN, 落叶#NN)  (dobj, 多年生#VV, 藤本#NN)  (advmod, 生#VV, 野葛#AD)  (conj, 多年生#VV, 生#VV)  (case, 草丛#NN, 于#P)  (conj, 草丛#NN, 山坡#NN)  (nn, 草丛#NN, 路边#NN)  (prep, 生#VV, 草丛#NN)  (case, 草丛#NN, 中#LC)  (cc, 多年生#VV, 及#CC)  (advmod, 阴湿#VV, 较#AD)  (conj, 多年生#VV, 阴湿#VV)  (mark, 多年生#VV, 的#DEC)  (dobj, 属#VV, 地方#NN)  (case, 西藏#NR, 除#P)  (conj, 西藏#NR, 新疆#NR)  (prep, 分布#VV, 西藏#NR)  (case, 西藏#NR, 外#LC)  (nn, 地区#NN, 全国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 分布#VV, 地区#NN)  (advmod, 分布#VV, 均有#AD)  (conj, 属#VV, 分布#VV)  (nsubj, 栽培#VV, 甘#NR)  (advmod, 栽培#VV, 葛藤#AD)  (conj, 属#VV, 栽培#VV)  (cc, 栽培#VV, 或#CC)  (amod, 疏#NN, 野生#JJ)  (case, 山野#NN, 于#P)  (prep, 疏#NN, 山野#NN)  (conj, 疏#NN, 灌丛#NN)  (cc, 疏#NN, 和#CC)  (nn, 林中#NN, 疏#NN)  (nsubj, 分布#VV, 林中#NN)  (conj, 栽培#VV, 分布#VV)  (case, 地#NN, 于#P)  (conj, 云南#NR, 广东#NR)  (conj, 云南#NR, 广西#NR)  (conj, 云南#NR, 四川#NR)  (nn, 地#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (prep, 分布#VV, 地#NN)   (root, ROOT#null, null#null)
+            (conj, 禹时期#NR, 早在尧#NR)  (conj, 禹时期#NR, 舜#NR)  (nsubj, 开始#VV, 禹时期#NR)  (nsubj, 开始#VV, 人们#NN)  (advmod, 开始#VV, 就#AD)  (advmod, 开始#VV, 已经#AD)  (conj, 利用#VV, 开始#VV)  (root, ROOT#null, 利用#VV)  (nn, 麻织布#NN, 葛藤制#NN)  (dobj, 利用#VV, 麻织布#NN)   (dep, 发掘#VV, 1972年#NT)  (nn, 草鞋#NN, 江苏#NR)  (nn, 草鞋#NN, 吴县#NN)  (nn, 山#NN, 草鞋#NN)  (nsubj, 发掘#VV, 山#NN)  (root, ROOT#null, 发掘#VV)  (rcomp, 发掘#VV, 出#VV)  (nummod, 块#M, 三#CD)  (dep, 发掘#VV, 块#M)  (conj, 发掘#VV, 制作#VV)  (case, 时代#NN, 于#P)  (amod, 石器#NN, 新#JJ)  (nn, 时代#NN, 石器#NN)  (prep, 制作#VV, 时代#NN)  (case, 今天#NT, 在#P)  (prep, 看来#VV, 今天#NT)  (dep, 发掘#VV, 看来#VV)  (advmod, 精湛#VA, 依然#AD)  (nsubj, 精湛#VA, 技艺#NN)  (relcl, 残片#NN, 精湛#VA)  (mark, 精湛#VA, 的#DEC)  (nn, 残片#NN, 葛布#NN)  (dobj, 看来#VV, 残片#NN)  (det, 葛布#NN, 这#DT)  (nummod, 块#M, 三#CD)  (dep, 这#DT, 块#M)  (nn, 残片#NN, 葛布#NN)  (nsubj, 见证#NN, 残片#NN)  (cop, 见证#NN, 是#VC)  (nsubj, 利用#VV, 我国#NR)  (case, 年#M, 从#P)  (nummod, 年#M, 6000多#CD)  (prep, 利用#VV, 年#M)  (case, 年#M, 前#LC)  (advmod, 利用#VV, 就#AD)  (advmod, 利用#VV, 已经#AD)  (mmod, 利用#VV, 开始#VV)  (relcl, 见证#NN, 利用#VV)  (dobj, 利用#VV, 葛根#NN)  (mark, 利用#VV, 的#DEC)  (amod, 见证#NN, 可靠#JJ)  (conj, 发掘#VV, 见证#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            葛根，味甘、辛，性平，归脾、胃、肺、膀胱经。解肌退热；发表透诊；生津止渴；升阳止泻。主外感发热；头项强痛；麻疹初起；疹出不畅；温病口渴；消渴病；泄泻；痢疾；高血压；冠心病。
+            1.扩张血管
+            葛根总黄酮和葛根素能改善心肌的氧代谢，对心肌代谢产生有益作用，同时能扩张血管，改善微循环，降低血管阻力，使血流量增加，故可用防治心肌缺血，心肌梗死，心律失常，高血压，动脉硬化等病症。
+            2.解肌发表
+            葛根丙酮提取物有使体温恢复正常的作用，对多种发热有效。故常用于发热口渴，心烦不安等病症。
+            3.降糖降脂
+            葛根素有明显的降低血糖的作用，葛根所含的黄酮类化合物有降血脂作用，能降低血清胆固醇，降低油三酯，用于治疗高血糖，高血脂病症，有显著疗效。
+            4.益智作用
+            某些研究表明葛根对学习记忆障碍有明程的治疗作用，葛根醇提取物能显著对抗东度警碱所致的记显碍。可用于治疗老年性痴呆，智力障碍，记忆力差等病症。
+            5.升举阳气，止渴止泻
+            葛根轻清升散，药性升发，柳举阳气，鼓舞机体正气上升，津液布行。升发脾胃清阳空气而止渴，止泻痢。故常用于治疗内热消渴，麻疹透发不畅，腹泻、痢疾等病症。
+            6.祛脂降压
+            葛根能使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。能软化和保护血管，有降低人体中血脂和胆固醇的作用。
+            7.解酒
+            葛根能解乙醇毒性，并能解酒后迅速排泄。可解酒后头痛脑涨，脸红等症状。缓解酒精在胃内吸收，保护胃粘膜。
+            8.养颜护肤
+            葛根能能增强皮肤的抗损伤能力。
+            9.生津止渴
+            葛根润喉去燥，使人清爽舒适。适宜口干、眼干、思虑过度、睡眠不足、讲话过多的人群。
+            10.壮阳壮腰葛
+            葛根能够促进性功能、生精助育。强精益气，提高精液质量，增强精子活力。适用于治疗肾阳虚所致的阳痿、腰痛、小便频数及补五脏之气不足。适用于男子性功能障碍、遗精、阳痿。
+        </rawdata>
+
+        <segment>
+            葛根  ，  味甘  、  辛  ，  性平  ，  归脾  、  胃  、  肺  、  膀胱  经  。  解肌  退热  ；  发表  透诊  ；  生津止渴  ；  升阳  止泻  。  主  外感  发热  ；  头  项  强  痛  ；  麻疹  初  起  ；  疹出  不畅  ；  温病  口渴  ；  消渴病  ；  泄泻  ；  痢疾  ；  高血压  ；  冠心病  。
+            扩张  血管
+            葛根  总  黄酮  和  葛根素  能  改善  心肌  的  氧代谢  ，  对  心肌  代谢  产生  有益  作用  ，  同时  能  扩张  血管  ，  改善  微循环  ，  降低  血管  阻力  ，  使  血流量  增加  ，  故  可  用  防治  心肌  缺血  ，  心肌梗死  ，  心律  失常  ，  高血压  ，  动脉  硬化  等  病症  。
+            解肌  发表
+            葛根  丙酮  提取  物  有  使  体温  恢复  正常  的  作用  ，  对  多  种  发热  有效  。  故常  用于  发热  口渴  ，  心烦  不安  等  病症  。
+            降糖  降脂
+            葛根  素有  明显  的  降低  血糖  的  作用  ，  葛根  所  含  的  黄酮类  化合物  有  降  血脂  作用  ，  能  降低  血清  胆固醇  ，  降低  油三酯  ，  用于  治疗  高血糖  ，  高血脂  病症  ，  有  显著  疗效  。
+            益智  作用
+            某些  研究  表明  葛根  对  学习  记忆  障碍  有  明程  的  治疗  作用  ，  葛根醇  提取  物  能  显著  对抗  东  度  警  碱  所致  的  记显碍  。  可  用于  治疗  老年性  痴呆  ，  智力  障碍  ，  记忆力  差等  病症  。
+            升举  阳气  ，  止渴  止泻
+            葛根  轻  清升散  ，  药性  升发  ，  柳举  阳气  ，  鼓舞  机体  正气  上升  ，  津液  布行  。  升发  脾胃  清阳  空气  而  止渴  ，  止泻痢  。  故常  用于  治疗  内热  消渴  ，  麻疹  透发  不畅  ，  腹泻  、  痢疾  等  病症  。
+            祛脂  降压
+            葛根  能  使  血压  更易  控制  ，  并  使  毛细管  扩张  ，  血  黏度  降低  ，  微循环  改善  。  能  软化  和  保护  血管  ，  有  降低  人体  中  血脂  和  胆固醇  的  作用  。
+            解酒
+            葛根  能  解  乙醇  毒性  ，  并  能  解酒  后  迅速  排泄  。  可  解酒  后  头痛  脑涨  ，  脸红  等  症状  。  缓解  酒精  在  胃内  吸收  ，  保护  胃  粘膜  。
+            养颜  护肤
+            葛根能  能  增强  皮肤  的  抗  损伤  能力  。
+            生津止渴
+            葛根  润喉  去燥  ，  使  人  清爽  舒适  。  适宜  口干  、  眼  干  、  思虑  过度  、  睡眠  不足  、  讲话  过多  的  人群  。
+            .  壮阳  壮  腰葛
+            葛根  能够  促进性  功能  、  生精助育  。  强精  益气  ，  提高  精液  质量  ，  增强  精子  活力  。  适用  于  治疗  肾  阳虚  所致  的  阳痿  、  腰痛  、  小便  频数  及  补  五脏  之气  不足  。  适用  于  男子  性  功能  障碍  、  遗精  、  阳痿  。
+        </segment>
+
+        <pos>
+            葛根#NR  ，#PU  味甘#NR  、#PU  辛#NR  ，#PU  性平#NR  ，#PU  归脾#NR  、#PU  胃#NR  、#PU  肺#NN  、#PU  膀胱#NR  经#VV    。#PU  解肌#NR  退热#VV  ；#PU  发表#VV  透诊#NN  ；#PU  生津止渴#VV  ；#PU  升阳#VV  止泻#NN    。#PU  主#NN  外感#VV  发热#VV  ；#PU  头#DT  项#M  强#JJ  痛#NN  ；#PU  麻疹#AD  初#AD  起#VV  ；#PU  疹出#VV  不畅#NN  ；#PU  温病#VV  口渴#NN  ；#PU  消渴病#VV  ；#PU  泄泻#VV  ；#PU  痢疾#VV  ；#PU  高血压#VV  ；#PU  冠心病#NN    。#PU    。#PU
+            扩张#VV  血管#NN
+            葛根#NR  总#JJ  黄酮#NN  和#CC  葛根素#NN  能#VV  改善#VV  心肌#NN  的#DEG  氧代谢#NN  ，#PU  对#P  心肌#NN  代谢#NN  产生#VV  有益#VA  作用#NN  ，#PU  同时#AD  能#VV  扩张#VV  血管#NN  ，#PU  改善#VV  微循环#NN  ，#PU  降低#VV  血管#NN  阻力#NN  ，#PU  使#VV  血流量#NN  增加#VV  ，#PU  故#AD  可#VV  用#VV  防治#NN  心肌#NN  缺血#NN  ，#PU  心肌梗死#VV  ，#PU  心律#VV  失常#NN  ，#PU  高血压#VV  ，#PU  动脉#NN  硬化#NN  等#ETC  病症#VV  。#PU
+            解肌#NN  发表#VV
+            葛根#NN  丙酮#NN  提取#VV  物#NN  有#VE  使#VV  体温#NN  恢复#VV  正常#NN  的#DEC  作用#NN  ，#PU  对#P  多#CD  种#M  发热#NN  有效#VA    。#PU  故常#AD  用于#VV  发热#NN  口渴#NN  ，#PU  心烦#VV  不安#NN  等#ETC  病症#NN    。#PU    。#PU
+            降糖#JJ  降脂#NN
+            葛根#VV  素有#AD  明显#VA  的#DEC  降低#VV  血糖#NN  的#DEC  作用#NN  ，#PU  葛根#AD  所#MSP  含#VV  的#DEC  黄酮类#NN  化合物#AD  有#VE  降#NN  血脂#NN  作用#NN  ，#PU  能#VV  降低#VV  血清#NN  胆固醇#NN  ，#PU  降低#VV  油三酯#CD  ，#PU  用于#VV  治疗#NN  高血糖#NN  ，#PU  高血脂#VV  病症#NN  ，#PU  有#VE  显著#JJ  疗效#NN  。#PU
+            益智#VV  作用#NN
+            某些#DT  研究#NN  表明#VV  葛根#VV  对#P  学习#NN  记忆#NN  障碍#NN  有#VE  明程#NN  的#DEC  治疗#NN  作用#NN  ，#PU  葛根醇#AD  提取#VV  物#NN  能#VV  显著#JJ  对抗#NN  东#AD  度#VV  警#NN  碱#NN  所致#NN  的#DEC  记显碍#NN    。#PU  可#VV  用于#VV  治疗#NN  老年性#NN  痴呆#NN  ，#PU  智力#VV  障碍#NN  ，#PU  记忆力#VV  差等#NN  病症#NN    。#PU    。#PU
+            升举#NR  阳气#VV  ，#PU  止渴#VV  止泻#NN
+            葛根#NN  轻#JJ  清升散#NN  ，#PU  药性#NN  升发#NN  ，#PU  柳举#NN  阳气#NN  ，#PU  鼓舞#NN  机体#NN  正气#AD  上升#VV  ，#PU  津液#VV  布行#NN    。#PU  升发#NN  脾胃#AD  清阳#VV  空气#NN  而#CC  止渴#NN  ，#PU  止泻痢#VV    。#PU  故常#NR  用于#VV  治疗#VV  内热#NN  消渴#NN  ，#PU  麻疹#VV  透发#NN  不畅#NN  ，#PU  腹泻#NR  、#PU  痢疾#NR  等#ETC  病症#NN    。#PU    。#PU
+            祛脂#NN  降压#VV
+            葛根#NN  能#VV  使#VV  血压#NN  更易#AD  控制#VV  ，#PU  并#CC  使#VV  毛细管#NN  扩张#NN  ，#PU  血#NN  黏度#AD  降低#VV  ，#PU  微循环#NN  改善#VV    。#PU  能#VV  软化#NN  和#CC  保护#NN  血管#NN  ，#PU  有#VE  降低#VV  人体#NR  中#NR  血脂#NN  和#CC  胆固醇#NN  的#DEC  作用#NN    。#PU    。#PU
+            解酒#VV
+            葛根#NN  能#VV  解#VV  乙醇#NN  毒性#NN  ，#PU  并#CC  能#VV  解酒#NN  后#LC  迅速#AD  排泄#VV    。#PU  可#VV  解酒#VV  后#LC  头痛#AD  脑涨#VV  ，#PU  脸红#NN  等#ETC  症状#VV    。#PU  缓解#VV  酒精#NN  在#P  胃内#NR  吸收#VV  ，#PU  保护#VV  胃#NN  粘膜#NN    。#PU    。#PU
+            养颜#NN  护肤#VV
+            葛根能#NN  能#VV  增强#VV  皮肤#NN  的#DEG  抗#JJ  损伤#NN  能力#NN  。#PU
+            生津止渴#VV
+            葛根#NN  润喉#NN  去燥#VV  ，#PU  使#VV  人#NN  清爽#NN  舒适#VA    。#PU  适宜#VA  口干#VA  、#PU  眼#NN  干#VV  、#PU  思虑#NN  过度#AD  、#PU  睡眠#AD  不足#VA  、#PU  讲话#VV  过多#NN  的#DEC  人群#NN    。#PU    。#PU
+            .#NN  壮阳#VV  壮#JJ  腰葛#NN
+            葛根#NN  能够#VV  促进性#VV  功能#NN  、#PU  生精助育#NN    。#PU  强精#NR  益气#VV  ，#PU  提高#VV  精液#NN  质量#NN  ，#PU  增强#VV  精子#NN  活力#NN    。#PU  适用#VV  于#P  治疗#VV  肾#NN  阳虚#NN  所致#NN  的#DEC  阳痿#NR  、#PU  腰痛#NR  、#PU  小便#NR  频数#NN  及#CC  补#VV  五脏#CD  之气#NN  不足#NN    。#PU  适用#VV  于#P  男子#NN  性#NN  功能#NN  障碍#NN  、#PU  遗精#NN  、#PU  阳痿#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 膀胱#NR, 葛根#NR)  (conj, 膀胱#NR, 味甘#NR)  (dep, 膀胱#NR, 辛#NR)  (dep, 膀胱#NR, 性平#NR)  (conj, 膀胱#NR, 归脾#NR)  (conj, 膀胱#NR, 胃#NR)  (conj, 膀胱#NR, 肺#NN)  (nsubj, 经#VV, 膀胱#NR)  (root, ROOT#null, 经#VV)   (nsubj, 退热#VV, 解肌#NR)  (root, ROOT#null, 退热#VV)  (ccomp, 退热#VV, 发表#VV)  (dobj, 发表#VV, 透诊#NN)  (dep, 发表#VV, 生津止渴#VV)  (dep, 发表#VV, 升阳#VV)  (dobj, 升阳#VV, 止泻#NN)   (nsubj, 外感#VV, 主#NN)  (root, ROOT#null, 外感#VV)  (ccomp, 外感#VV, 发热#VV)  (det, 痛#NN, 头#DT)  (clf, 头#DT, 项#M)  (amod, 痛#NN, 强#JJ)  (dobj, 发热#VV, 痛#NN)  (advmod, 起#VV, 麻疹#AD)  (advmod, 起#VV, 初#AD)  (dep, 发热#VV, 起#VV)  (dep, 发热#VV, 疹出#VV)  (dobj, 疹出#VV, 不畅#NN)  (dep, 发热#VV, 温病#VV)  (dobj, 温病#VV, 口渴#NN)  (dep, 发热#VV, 消渴病#VV)  (dep, 发热#VV, 泄泻#VV)  (dep, 发热#VV, 痢疾#VV)  (dep, 发热#VV, 高血压#VV)  (dep, 发热#VV, 冠心病#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)
+            (nn, 葛根素#NN, 葛根#NR)  (amod, 葛根素#NN, 总#JJ)  (conj, 葛根素#NN, 黄酮#NN)  (cc, 葛根素#NN, 和#CC)  (nsubj, 改善#VV, 葛根素#NN)  (mmod, 改善#VV, 能#VV)  (root, ROOT#null, 改善#VV)  (assmod, 氧代谢#NN, 心肌#NN)  (case, 心肌#NN, 的#DEG)  (dobj, 改善#VV, 氧代谢#NN)  (case, 代谢#NN, 对#P)  (nn, 代谢#NN, 心肌#NN)  (prep, 产生#VV, 代谢#NN)  (conj, 改善#VV, 产生#VV)  (nfincl, 作用#NN, 有益#VA)  (dobj, 产生#VV, 作用#NN)  (advmod, 扩张#VV, 同时#AD)  (mmod, 扩张#VV, 能#VV)  (conj, 改善#VV, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (conj, 改善#VV, 改善#VV)  (dobj, 改善#VV, 微循环#NN)  (conj, 改善#VV, 降低#VV)  (nn, 阻力#NN, 血管#NN)  (dobj, 降低#VV, 阻力#NN)  (conj, 改善#VV, 使#VV)  (dobj, 使#VV, 血流量#NN)  (dep, 使#VV, 增加#VV)  (advmod, 用#VV, 故#AD)  (mmod, 用#VV, 可#VV)  (conj, 改善#VV, 用#VV)  (nn, 缺血#NN, 防治#NN)  (nn, 缺血#NN, 心肌#NN)  (dobj, 用#VV, 缺血#NN)  (conj, 改善#VV, 心肌梗死#VV)  (conj, 改善#VV, 心律#VV)  (dobj, 心律#VV, 失常#NN)  (conj, 改善#VV, 高血压#VV)  (nn, 硬化#NN, 动脉#NN)  (nsubj, 病症#VV, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (conj, 改善#VV, 病症#VV)
+            (nsubj, 发表#VV, 解肌#NN)  (root, ROOT#null, 发表#VV)
+            (nn, 丙酮#NN, 葛根#NN)  (nsubj, 提取#VV, 丙酮#NN)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 物#NN)  (conj, 提取#VV, 有#VE)  (relcl, 作用#NN, 使#VV)  (dobj, 使#VV, 体温#NN)  (dep, 使#VV, 恢复#VV)  (dobj, 恢复#VV, 正常#NN)  (mark, 使#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (case, 发热#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 发热#NN, 种#M)  (prep, 有效#VA, 发热#NN)  (conj, 有#VE, 有效#VA)   (advmod, 用于#VV, 故常#AD)  (root, ROOT#null, 用于#VV)  (nn, 口渴#NN, 发热#NN)  (dobj, 用于#VV, 口渴#NN)  (dep, 用于#VV, 心烦#VV)  (nn, 病症#NN, 不安#NN)  (etc, 不安#NN, 等#ETC)  (dobj, 心烦#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (amod, 降脂#NN, 降糖#JJ)  (root, ROOT#null, 降脂#NN)
+            (relcl, 黄酮类#NN, 葛根#VV)  (advmod, 明显#VA, 素有#AD)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 葛根#VV, 作用#NN)  (advmod, 含#VV, 葛根#AD)  (prtmod, 含#VV, 所#MSP)  (conj, 葛根#VV, 含#VV)  (mark, 葛根#VV, 的#DEC)  (nsubj, 有#VE, 黄酮类#NN)  (advmod, 有#VE, 化合物#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血脂#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 降低#VV, 能#VV)  (conj, 有#VE, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 降低#VV)  (range, 降低#VV, 油三酯#CD)  (conj, 降低#VV, 用于#VV)  (nn, 高血糖#NN, 治疗#NN)  (dobj, 用于#VV, 高血糖#NN)  (conj, 有#VE, 高血脂#VV)  (dobj, 高血脂#VV, 病症#NN)  (conj, 有#VE, 有#VE)  (amod, 疗效#NN, 显著#JJ)  (dobj, 有#VE, 疗效#NN)
+            (root, ROOT#null, 益智#VV)  (dobj, 益智#VV, 作用#NN)
+            (det, 研究#NN, 某些#DT)  (nsubj, 表明#VV, 研究#NN)  (xsubj, 葛根#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (ccomp, 表明#VV, 葛根#VV)  (case, 障碍#NN, 对#P)  (nn, 障碍#NN, 学习#NN)  (nn, 障碍#NN, 记忆#NN)  (prep, 有#VE, 障碍#NN)  (relcl, 作用#NN, 有#VE)  (dobj, 有#VE, 明程#NN)  (mark, 有#VE, 的#DEC)  (nn, 作用#NN, 治疗#NN)  (dobj, 葛根#VV, 作用#NN)  (advmod, 提取#VV, 葛根醇#AD)  (conj, 葛根#VV, 提取#VV)  (nsubj, 度#VV, 物#NN)  (mmod, 度#VV, 能#VV)  (amod, 对抗#NN, 显著#JJ)  (dep, 度#VV, 对抗#NN)  (advmod, 度#VV, 东#AD)  (relcl, 记显碍#NN, 度#VV)  (nn, 所致#NN, 警#NN)  (nn, 所致#NN, 碱#NN)  (dobj, 度#VV, 所致#NN)  (mark, 度#VV, 的#DEC)  (dobj, 提取#VV, 记显碍#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 痴呆#NN, 治疗#NN)  (nn, 痴呆#NN, 老年性#NN)  (dobj, 用于#VV, 痴呆#NN)  (conj, 用于#VV, 智力#VV)  (dobj, 智力#VV, 障碍#NN)  (conj, 用于#VV, 记忆力#VV)  (nn, 病症#NN, 差等#NN)  (dobj, 记忆力#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (nsubj, 阳气#VV, 升举#NR)  (root, ROOT#null, 阳气#VV)  (ccomp, 阳气#VV, 止渴#VV)  (dobj, 止渴#VV, 止泻#NN)
+            (nsubj, 上升#VV, 葛根#NN)  (amod, 清升散#NN, 轻#JJ)  (nsubj, 上升#VV, 清升散#NN)  (nn, 升发#NN, 药性#NN)  (nsubj, 上升#VV, 升发#NN)  (nn, 阳气#NN, 柳举#NN)  (nsubj, 上升#VV, 阳气#NN)  (nn, 机体#NN, 鼓舞#NN)  (nsubj, 上升#VV, 机体#NN)  (advmod, 上升#VV, 正气#AD)  (root, ROOT#null, 上升#VV)  (dep, 上升#VV, 津液#VV)  (dobj, 津液#VV, 布行#NN)   (nsubj, 清阳#VV, 升发#NN)  (advmod, 清阳#VV, 脾胃#AD)  (root, ROOT#null, 清阳#VV)  (conj, 止渴#NN, 空气#NN)  (cc, 止渴#NN, 而#CC)  (dobj, 清阳#VV, 止渴#NN)  (conj, 清阳#VV, 止泻痢#VV)   (nsubj, 用于#VV, 故常#NR)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (nn, 消渴#NN, 内热#NN)  (dobj, 治疗#VV, 消渴#NN)  (conj, 治疗#VV, 麻疹#VV)  (nn, 不畅#NN, 透发#NN)  (dobj, 麻疹#VV, 不畅#NN)  (conj, 痢疾#NR, 腹泻#NR)  (nn, 病症#NN, 痢疾#NR)  (etc, 痢疾#NR, 等#ETC)  (dep, 治疗#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (nsubj, 降压#VV, 祛脂#NN)  (root, ROOT#null, 降压#VV)
+            (nsubj, 使#VV, 葛根#NN)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 血压#NN)  (advmod, 控制#VV, 更易#AD)  (dep, 使#VV, 控制#VV)  (cc, 使#VV, 并#CC)  (conj, 使#VV, 使#VV)  (nn, 扩张#NN, 毛细管#NN)  (dobj, 使#VV, 扩张#NN)  (nsubj, 降低#VV, 血#NN)  (advmod, 降低#VV, 黏度#AD)  (dep, 使#VV, 降低#VV)  (nsubj, 改善#VV, 微循环#NN)  (conj, 降低#VV, 改善#VV)   (root, ROOT#null, 能#VV)  (conj, 保护#NN, 软化#NN)  (cc, 保护#NN, 和#CC)  (nn, 血管#NN, 保护#NN)  (dobj, 能#VV, 血管#NN)  (conj, 能#VV, 有#VE)  (relcl, 作用#NN, 降低#VV)  (nn, 中#NR, 人体#NR)  (nn, 胆固醇#NN, 中#NR)  (conj, 胆固醇#NN, 血脂#NN)  (cc, 胆固醇#NN, 和#CC)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 解酒#VV)
+            (nsubj, 排泄#VV, 葛根#NN)  (mmod, 解#VV, 能#VV)  (loc, 排泄#VV, 解#VV)  (nn, 毒性#NN, 乙醇#NN)  (dobj, 解#VV, 毒性#NN)  (cc, 解#VV, 并#CC)  (conj, 解#VV, 能#VV)  (dobj, 能#VV, 解酒#NN)  (case, 解#VV, 后#LC)  (advmod, 排泄#VV, 迅速#AD)  (root, ROOT#null, 排泄#VV)   (dep, 解酒#VV, 可#VV)  (loc, 脑涨#VV, 解酒#VV)  (case, 解酒#VV, 后#LC)  (advmod, 脑涨#VV, 头痛#AD)  (root, ROOT#null, 脑涨#VV)  (nsubj, 症状#VV, 脸红#NN)  (etc, 脸红#NN, 等#ETC)  (ccomp, 脑涨#VV, 症状#VV)   (root, ROOT#null, 缓解#VV)  (dobj, 缓解#VV, 酒精#NN)  (case, 胃内#NR, 在#P)  (prep, 吸收#VV, 胃内#NR)  (conj, 缓解#VV, 吸收#VV)  (ccomp, 吸收#VV, 保护#VV)  (nn, 粘膜#NN, 胃#NN)  (dobj, 保护#VV, 粘膜#NN)   (root, ROOT#null, null#null)
+            (nsubj, 护肤#VV, 养颜#NN)  (root, ROOT#null, 护肤#VV)
+            (nsubj, 增强#VV, 葛根能#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (assmod, 能力#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (amod, 能力#NN, 抗#JJ)  (nn, 能力#NN, 损伤#NN)  (dobj, 增强#VV, 能力#NN)
+            (root, ROOT#null, 生津止渴#VV)
+            (nn, 润喉#NN, 葛根#NN)  (nsubj, 去燥#VV, 润喉#NN)  (root, ROOT#null, 去燥#VV)  (ccomp, 去燥#VV, 使#VV)  (nn, 清爽#NN, 人#NN)  (dobj, 使#VV, 清爽#NN)  (dep, 使#VV, 舒适#VA)   (relcl, 人群#NN, 适宜#VA)  (comod, 适宜#VA, 口干#VA)  (nsubj, 干#VV, 眼#NN)  (conj, 适宜#VA, 干#VV)  (nsubj, 不足#VA, 思虑#NN)  (advmod, 不足#VA, 过度#AD)  (conj, 过度#AD, 睡眠#AD)  (conj, 适宜#VA, 不足#VA)  (conj, 适宜#VA, 讲话#VV)  (dobj, 讲话#VV, 过多#NN)  (mark, 适宜#VA, 的#DEC)  (root, ROOT#null, 人群#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 壮阳#VV)  (amod, 腰葛#NN, 壮#JJ)  (dobj, 壮阳#VV, 腰葛#NN)
+            (nsubj, 促进性#VV, 葛根#NN)  (mmod, 促进性#VV, 能够#VV)  (root, ROOT#null, 促进性#VV)  (conj, 生精助育#NN, 功能#NN)  (dobj, 促进性#VV, 生精助育#NN)   (nsubj, 益气#VV, 强精#NR)  (xsubj, 提高#VV, 强精#NR)  (root, ROOT#null, 益气#VV)  (ccomp, 益气#VV, 提高#VV)  (nn, 质量#NN, 精液#NN)  (dobj, 提高#VV, 质量#NN)  (conj, 提高#VV, 增强#VV)  (nn, 活力#NN, 精子#NN)  (dobj, 增强#VV, 活力#NN)   (root, ROOT#null, 适用#VV)  (case, 频数#NN, 于#P)  (relcl, 频数#NN, 治疗#VV)  (nn, 所致#NN, 肾#NN)  (nn, 所致#NN, 阳虚#NN)  (dobj, 治疗#VV, 所致#NN)  (mark, 治疗#VV, 的#DEC)  (conj, 小便#NR, 阳痿#NR)  (conj, 小便#NR, 腰痛#NR)  (nn, 频数#NN, 小便#NR)  (prep, 适用#VV, 频数#NN)  (cc, 适用#VV, 及#CC)  (dep, 适用#VV, 补#VV)  (nummod, 不足#NN, 五脏#CD)  (nn, 不足#NN, 之气#NN)  (dobj, 补#VV, 不足#NN)   (root, ROOT#null, 适用#VV)  (case, 阳痿#NN, 于#P)  (nn, 功能#NN, 男子#NN)  (nn, 功能#NN, 性#NN)  (nn, 阳痿#NN, 功能#NN)  (conj, 阳痿#NN, 障碍#NN)  (conj, 阳痿#NN, 遗精#NN)  (prep, 适用#VV, 阳痿#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  辅助降血脂  辅助降血糖  止泻  生津止渴  解表  逐水消肿  透疹  升阳  益智  解热降温  辅助降血压  抗心律失常  改善血液循环  扩张外周血管  耐缺氧  抗血栓  抗血小板聚集  解胃肠痉挛  解毒  护肝  抗菌  抗癌防癌  抗氧化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            其主要成分是淀粉，此外含有约12％的黄酮类化合物，包括大豆(黄豆)甙、大豆甙元、葛根素等10余种；并含有胡萝卜甙、氨基酸、香豆素类等；还有蛋白质、氨基酸、糖、和人体必需的铁、钙、铜、硒等矿物质，是老少皆宜的名贵滋补品，有“千年人参”之美誉。早在汉代张仲景的《伤寒论》中就有“葛根汤”这一著名方剂，至今仍是重要的解表方。 《本草正义》谓葛根“最能开发脾胃清阳之气”。
+            葛根味甘微辛，气清香，性凉，主入脾胃经。有发表解肌，升阳透疹，解热生津之功效。用于治疗脾虚泄泻、热病口渴、主治外感发热，头项痛强，麻疹透发不畅，温病口渴，消渴，酒毒，胸痹心痛等病症。常食葛粉能调节人体机能，增强体质，提高机体抗病能力，抗衰延年，永葆青春活力。 现代医学研究，葛根黄酮具有防癌抗癌和雌激素样作用，可促进女性养颜，尤其对中年妇女和绝经期妇女养颜保健作用明显。
+            对女性的保健作用：
+            1.调节内分泌效果
+            食用葛根粉后出现了以下变化：(1)原先的黄褐斑减褪、消失。(2)排卵期出血症消失，白带变得清爽、透明(中年女性)。(3)青春痘明显消退。葛根中所富含高活性的异黄酮能有效调节内分泌。
+            2.修护肌肤的效果
+            98%以上用户反映食用后，全身皮肤显著变的细腻、润滑、有光泽、皮肤弹性增加，斑疹疮痘逐渐减少和消失、脸部皱纹明显减少。
+            3.对降血糖、降血压血脂有功效
+            据法定中药药材与临床介绍葛根素与阿斯皮林合用(每天一次mg)对肾上腺素高血糖有降血糖和较强的降血脂作用。
+            4.丰胸效果
+            根据用户反馈，原先大小不一的乳房下垂者得到明显改善，先天性平胸者乳房明显增大。乳房结实上提、富有弹性。尤其产后乳房松弛有明显结实上提功效。
+        </rawdata>
+
+        <segment>
+            其  主要  成分  是  淀粉  ，  此外  含有  约  12％  的  黄酮类  化合物  ，  包括  大豆  (  黄豆  )  甙  、  大豆  甙元  、  葛根素  等  10  余  种  ；  并  含有  胡萝卜甙  、  氨基酸  、  香豆素  类  等  ；  还有  蛋白质  、  氨基酸  、  糖  、  和  人体  必需  的  铁  、  钙  、  铜  、  硒等  矿物质  ，  是  老少皆宜  的  名贵  滋补品  ，  有  “  千  年  人参  ”  之  美誉  。  早  在  汉代  张仲景  的  《  伤寒论  》  中  就  有  “  葛根  汤  ”  这  一  著名  方剂  ，  至今  仍是  重要  的  解表  方  。      《  本草  正义  》  谓  葛根  “  最能  开发  脾胃  清阳  之  气  ”  。
+            葛根  味甘微辛  ，  气  清香  ，  性凉  ，  主入  脾胃  经  。  有  发表  解肌  ，  升阳  透疹  ，  解热  生  津  之  功效  。  用于  治疗  脾虚  泄泻  、  热病  口渴  、  主治  外感  发热  ，  头  项  痛  强  ，  麻疹  透发  不畅  ，  温病  口渴  ，  消渴  ，  酒毒  ，  胸痹  心痛  等  病症  。  常食  葛粉能  调节  人体  机能  ，  增强  体质  ，  提高  机体  抗病  能力  ，  抗衰  延年  ，  永葆  青春  活力  。    现代  医学  研究  ，  葛根  黄酮  具有  防癌  抗癌  和  雌激素  样  作用  ，  可  促进  女性  养颜  ，  尤其  对  中年  妇女  和  绝经期  妇女  养颜  保健  作用  明显  。
+            对  女性  的  保健  作用  ：
+            调节  内分泌  效果
+            食用  葛根粉  后  出现  了  以下  变化  ：  (  1  )  原先  的  黄褐斑  减褪  、  消失  。  (  2  )  排卵  期  出血症  消失  ，  白带  变得  清爽  、  透明  (  中年  女性  )  。  (  3  )  青春痘  明显  消退  。  葛根  中  所  富含  高活性  的  异  黄酮  能  有效  调节  内分泌  。
+            修护  肌肤  的  效果
+            98%  以上  用户  反映  食用  后  ，  全身  皮肤  显著  变的  细腻  、  润滑  、  有  光泽  、  皮肤  弹性  增加  ，  斑疹  疮痘  逐渐  减少  和  消失  、  脸部  皱纹  明显  减少  。
+            对  降  血糖  、  降  血压  血脂  有  功效
+            据  法定  中药  药材  与  临床  介绍  葛根素  与  阿斯皮林  合用  (  每  天  一  次  mg  )  对  肾上腺素  高血糖  有  降  血糖  和  较  强  的  降  血脂  作用  。
+            丰胸  效果
+            根据  用户  反馈  ，  原先  大小不一  的  乳房  下垂  者  得到  明显  改善  ，  先天性  平胸  者  乳房  明显  增大  。  乳房  结实  上  提  、  富有  弹性  。  尤其  产后  乳房  松弛  有  明显  结实  上  提  功效  。
+        </segment>
+
+        <pos>
+            其#PN  主要#JJ  成分#NN  是#VC  淀粉#VV  ，#PU  此外#AD  含有#VV  约#AD  12#CD  ％#NN  的#DEG  黄酮类#NN  化合物#NN  ，#PU  包括#VV  大豆#NN  -LRB-#NN  黄豆#NN  -RRB-#NN  甙#NN  、#PU  大豆#NN  甙元#NN  、#PU  葛根素#NN  等#ETC  10#CD  余#NN  种#NN  ；#PU  并#AD  含有#VV  胡萝卜甙#CD  、#PU  氨基酸#VV  、#PU  香豆素#CD  类#M  等#ETC  ；#PU  还有#AD  蛋白质#NN  、#PU  氨基酸#NN  、#PU  糖#NN  、#PU  和#NN  人体#VV  必需#VV  的#DEC  铁#NN  、#PU  钙#NN  、#PU  铜#NN  、#PU  硒等#NN  矿物质#NN  ，#PU  是#VC  老少皆宜#NR  的#DEG  名贵#JJ  滋补品#NN  ，#PU  有#VE  ``#NR  千#CD  年#M  人参#JJ  ''#NN  之#DEC  美誉#NN    。#PU  早#AD  在#P  汉代#NN  张仲景#NN  的#DEG  伤寒论#NN  中#LC  就#AD  有#VE  ``#NN  葛根#NN  汤#NN  ''#VV  这#DT  一#CD  著名#JJ  方剂#NN  ，#PU  至今#AD  仍是#VV  重要#VA  的#DEC  解表#NN  方#NN    。#PU  本草#NN  正义#VA  谓#VV  葛根#AD  ``#VV  最能#NN  开发#NN  脾胃#NN  清阳#NN  之#DEG  气#NN  ''#NN    。#PU    。#PU
+            葛根#NR  味甘微辛#VV  ，#PU  气#NN  清香#NN  ，#PU  性凉#NN  ，#PU  主入#NN  脾胃#AD  经#VV    。#PU  有#VE  发表#VV  解肌#NN  ，#PU  升阳#AD  透疹#VV  ，#PU  解热#AD  生#VV  津#NR  之#DEG  功效#NN    。#PU  用于#VV  治疗#VV  脾虚#NN  泄泻#NN  、#PU  热病#NN  口渴#NN  、#PU  主治#NN  外感#NN  发热#NN  ，#PU  头#DT  项#M  痛#NN  强#VA  ，#PU  麻疹#VV  透发#NN  不畅#NN  ，#PU  温病#VV  口渴#NN  ，#PU  消渴#VV  ，#PU  酒毒#VV  ，#PU  胸痹#VV  心痛#NN  等#ETC  病症#NN    。#PU  常食#NN  葛粉能#AD  调节#VV  人体#NN  机能#NN  ，#PU  增强#VV  体质#NN  ，#PU  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  抗衰#VV  延年#NN  ，#PU  永葆#VV  青春#NN  活力#NN    。#PU  现代#JJ  医学#NN  研究#VV  ，#PU  葛根#NN  黄酮#AD  具有#VV  防癌#NN  抗癌#NN  和#CC  雌激素#NN  样#NN  作用#NN  ，#PU  可#VV  促进#VV  女性#NN  养颜#NN  ，#PU  尤其#AD  对#P  中年#NR  妇女#NN  和#CC  绝经期#NN  妇女#NN  养颜#VV  保健#NN  作用#NN  明显#VA    。#PU    。#PU
+            对#P  女性#NN  的#DEG  保健#NN  作用#NN  ：#PU
+            调节#VV  内分泌#NN  效果#NN
+            食用#VV  葛根粉#NN  后#LC  出现#VV  了#AS  以下#JJ  变化#NN  ：#PU  -LRB-#VV  1#CD  -RRB-#NN  原先#JJ  的#DEG  黄褐斑#NN  减褪#NN  、#PU  消失#NN    。#PU  -LRB-#NR  2#CD  -RRB-#NN  排卵#NN  期#NN  出血症#VV  消失#NN  ，#PU  白带#AD  变得#VV  清爽#VA  、#PU  透明#VA  -LRB-#VV  中年#NN  女性#NN  -RRB-#NN    。#PU  -LRB-#NR  3#CD  -RRB-#NN  青春痘#NN  明显#AD  消退#VV    。#PU  葛根#NN  中#LC  所#MSP  富含#VV  高活性#NN  的#DEC  异#NN  黄酮#NN  能#VV  有效#AD  调节#VV  内分泌#NN    。#PU    。#PU
+            修护#VV  肌肤#NN  的#DEG  效果#NN
+            98#CD  %#NN  以上#LC  用户#NN  反映#VV  食用#VV  后#LC  ，#PU  全身#NN  皮肤#VV  显著#JJ  变的#NN  细腻#NN  、#PU  润滑#NN  、#PU  有#VE  光泽#NN  、#PU  皮肤#NN  弹性#AD  增加#VV  ，#PU  斑疹#NN  疮痘#NN  逐渐#AD  减少#VV  和#CC  消失#NN  、#PU  脸部#NN  皱纹#NN  明显#AD  减少#VV  。#PU
+            对#P  降#NN  血糖#NN  、#PU  降#NN  血压#NN  血脂#NN  有#VE  功效#NN
+            据#P  法定#JJ  中药#NN  药材#NN  与#P  临床#NN  介绍#VV  葛根素#NN  与#CC  阿斯皮林#NN  合用#NN  -LRB-#NN  每#DT  天#M  一#CD  次#M  mg#NN  -RRB-#NN  对#P  肾上腺素#NN  高血糖#AD  有#VE  降#NN  血糖#NN  和#CC  较#AD  强#VA  的#DEC  降#NN  血脂#NN  作用#NN  。#PU
+            丰胸#VV  效果#NN
+            根据#P  用户#NN  反馈#VV  ，#PU  原先#AD  大小不一#CD  的#DEG  乳房#NN  下垂#NN  者#NN  得到#VV  明显#JJ  改善#NN  ，#PU  先天性#NN  平胸#NN  者#NN  乳房#NN  明显#AD  增大#VV    。#PU  乳房#NN  结实#VA  上#LC  提#VV  、#PU  富有#VV  弹性#NN    。#PU  尤其#AD  产后#VV  乳房#NN  松弛#NN  有#VE  明显#AD  结实#VA  上#LC  提#VV  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 成分#NN, 其#PN)  (amod, 成分#NN, 主要#JJ)  (nsubj, 美誉#NN, 成分#NN)  (cop, 美誉#NN, 是#VC)  (relcl, 美誉#NN, 淀粉#VV)  (advmod, 含有#VV, 此外#AD)  (ccomp, 淀粉#VV, 含有#VV)  (advmod, 12#CD, 约#AD)  (nummod, ％#NN, 12#CD)  (assmod, 化合物#NN, ％#NN)  (case, ％#NN, 的#DEG)  (nn, 化合物#NN, 黄酮类#NN)  (dobj, 含有#VV, 化合物#NN)  (conj, 含有#VV, 包括#VV)  (nn, 葛根素#NN, 大豆#NN)  (nn, 葛根素#NN, 黄豆#NN)  (conj, 葛根素#NN, 甙#NN)  (nn, 葛根素#NN, 大豆#NN)  (conj, 葛根素#NN, 甙元#NN)  (nn, 种#NN, 葛根素#NN)  (etc, 葛根素#NN, 等#ETC)  (nummod, 种#NN, 10#CD)  (nn, 种#NN, 余#NN)  (dobj, 包括#VV, 种#NN)  (advmod, 含有#VV, 并#AD)  (conj, 含有#VV, 含有#VV)  (range, 含有#VV, 胡萝卜甙#CD)  (dep, 含有#VV, 氨基酸#VV)  (nummod, 类#M, 香豆素#CD)  (dep, 含有#VV, 类#M)  (dep, 含有#VV, 等#ETC)  (advmod, 和#NN, 还有#AD)  (conj, 和#NN, 蛋白质#NN)  (conj, 和#NN, 氨基酸#NN)  (conj, 和#NN, 糖#NN)  (nsubj, 人体#VV, 和#NN)  (dep, 含有#VV, 人体#VV)  (relcl, 矿物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 硒等#NN, 铁#NN)  (conj, 硒等#NN, 钙#NN)  (conj, 硒等#NN, 铜#NN)  (nn, 矿物质#NN, 硒等#NN)  (dobj, 人体#VV, 矿物质#NN)  (cop, 滋补品#NN, 是#VC)  (assmod, 滋补品#NN, 老少皆宜#NR)  (case, 老少皆宜#NR, 的#DEG)  (amod, 滋补品#NN, 名贵#JJ)  (conj, 含有#VV, 滋补品#NN)  (conj, 滋补品#NN, 有#VE)  (nn, ''#NN, ``#NR)  (nummod, 年#M, 千#CD)  (clf, ''#NN, 年#M)  (amod, ''#NN, 人参#JJ)  (dobj, 有#VE, ''#NN)  (mark, 淀粉#VV, 之#DEC)  (root, ROOT#null, 美誉#NN)   (prep, 有#VE, 早#AD)  (case, 伤寒论#NN, 在#P)  (nn, 张仲景#NN, 汉代#NN)  (assmod, 伤寒论#NN, 张仲景#NN)  (case, 张仲景#NN, 的#DEG)  (dep, 早#AD, 伤寒论#NN)  (case, 伤寒论#NN, 中#LC)  (advmod, 有#VE, 就#AD)  (root, ROOT#null, 有#VE)  (nn, 汤#NN, ``#NN)  (nn, 汤#NN, 葛根#NN)  (nsubj, ''#VV, 汤#NN)  (dep, 有#VE, ''#VV)  (det, 方剂#NN, 这#DT)  (dep, 这#DT, 一#CD)  (amod, 方剂#NN, 著名#JJ)  (dobj, ''#VV, 方剂#NN)  (advmod, 仍是#VV, 至今#AD)  (dep, 有#VE, 仍是#VV)  (relcl, 方#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 方#NN, 解表#NN)  (dobj, 仍是#VV, 方#NN)   (nsubj, 正义#VA, 本草#NN)  (dep, ``#VV, 正义#VA)  (mmod, ``#VV, 谓#VV)  (advmod, ``#VV, 葛根#AD)  (root, ROOT#null, ``#VV)  (nn, 脾胃#NN, 最能#NN)  (nn, 脾胃#NN, 开发#NN)  (nn, 清阳#NN, 脾胃#NN)  (assmod, ''#NN, 清阳#NN)  (case, 清阳#NN, 之#DEG)  (nn, ''#NN, 气#NN)  (dobj, ``#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 味甘微辛#VV, 葛根#NR)  (root, ROOT#null, 味甘微辛#VV)  (nn, 清香#NN, 气#NN)  (nsubj, 经#VV, 清香#NN)  (nsubj, 经#VV, 性凉#NN)  (nsubj, 经#VV, 主入#NN)  (advmod, 经#VV, 脾胃#AD)  (ccomp, 味甘微辛#VV, 经#VV)   (root, ROOT#null, 有#VE)  (dep, 有#VE, 发表#VV)  (dobj, 发表#VV, 解肌#NN)  (advmod, 透疹#VV, 升阳#AD)  (dep, 发表#VV, 透疹#VV)  (advmod, 生#VV, 解热#AD)  (ccomp, 透疹#VV, 生#VV)  (assmod, 功效#NN, 津#NR)  (case, 津#NR, 之#DEG)  (dobj, 生#VV, 功效#NN)   (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (nn, 发热#NN, 脾虚#NN)  (conj, 发热#NN, 泄泻#NN)  (nn, 发热#NN, 热病#NN)  (conj, 发热#NN, 口渴#NN)  (nn, 发热#NN, 主治#NN)  (nn, 发热#NN, 外感#NN)  (dobj, 治疗#VV, 发热#NN)  (det, 痛#NN, 头#DT)  (clf, 头#DT, 项#M)  (dep, 强#VA, 痛#NN)  (conj, 治疗#VV, 强#VA)  (conj, 治疗#VV, 麻疹#VV)  (nn, 不畅#NN, 透发#NN)  (dobj, 麻疹#VV, 不畅#NN)  (conj, 治疗#VV, 温病#VV)  (dobj, 温病#VV, 口渴#NN)  (conj, 治疗#VV, 消渴#VV)  (conj, 治疗#VV, 酒毒#VV)  (conj, 治疗#VV, 胸痹#VV)  (nn, 病症#NN, 心痛#NN)  (etc, 心痛#NN, 等#ETC)  (dobj, 胸痹#VV, 病症#NN)   (nsubj, 调节#VV, 常食#NN)  (advmod, 调节#VV, 葛粉能#AD)  (root, ROOT#null, 调节#VV)  (nn, 机能#NN, 人体#NN)  (dobj, 调节#VV, 机能#NN)  (conj, 调节#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)  (conj, 增强#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (conj, 增强#VV, 抗衰#VV)  (dobj, 抗衰#VV, 延年#NN)  (conj, 调节#VV, 永葆#VV)  (nn, 活力#NN, 青春#NN)  (dobj, 永葆#VV, 活力#NN)   (amod, 医学#NN, 现代#JJ)  (nsubj, 研究#VV, 医学#NN)  (root, ROOT#null, 研究#VV)  (nsubj, 具有#VV, 葛根#NN)  (advmod, 具有#VV, 黄酮#AD)  (ccomp, 研究#VV, 具有#VV)  (nn, 样#NN, 防癌#NN)  (conj, 样#NN, 抗癌#NN)  (cc, 样#NN, 和#CC)  (nn, 样#NN, 雌激素#NN)  (nn, 作用#NN, 样#NN)  (dobj, 具有#VV, 作用#NN)  (mmod, 促进#VV, 可#VV)  (dep, 具有#VV, 促进#VV)  (nn, 养颜#NN, 女性#NN)  (dobj, 促进#VV, 养颜#NN)  (advmod, 养颜#VV, 尤其#AD)  (case, 妇女#NN, 对#P)  (nn, 妇女#NN, 中年#NR)  (conj, 妇女#NN, 妇女#NN)  (cc, 妇女#NN, 和#CC)  (nn, 妇女#NN, 绝经期#NN)  (prep, 养颜#VV, 妇女#NN)  (dep, 具有#VV, 养颜#VV)  (nn, 作用#NN, 保健#NN)  (dobj, 养颜#VV, 作用#NN)  (dep, 研究#VV, 明显#VA)   (root, ROOT#null, null#null)
+            (case, 女性#NN, 对#P)  (assmod, 保健#NN, 女性#NN)  (case, 女性#NN, 的#DEG)  (nn, 作用#NN, 保健#NN)  (root, ROOT#null, 作用#NN)
+            (root, ROOT#null, 调节#VV)  (nn, 效果#NN, 内分泌#NN)  (dobj, 调节#VV, 效果#NN)
+            (loc, 出现#VV, 食用#VV)  (dobj, 食用#VV, 葛根粉#NN)  (case, 食用#VV, 后#LC)  (root, ROOT#null, 出现#VV)  (asp, 出现#VV, 了#AS)  (amod, 变化#NN, 以下#JJ)  (dobj, 出现#VV, 变化#NN)  (nummod, -RRB-#NN, 1#CD)  (assmod, 消失#NN, 原先#JJ)  (case, 原先#JJ, 的#DEG)  (nn, 消失#NN, 黄褐斑#NN)  (conj, 消失#NN, 减褪#NN)  (dobj, -LRB-#VV, 消失#NN)   (nummod, -RRB-#NN, 2#CD)  (nn, 期#NN, 排卵#NN)  (nsubj, 出血症#VV, 期#NN)  (conj, -LRB-#VV, 出血症#VV)  (root, -LRB-#VV, 出血症#VV)  (dobj, 出血症#VV, 消失#NN)  (advmod, 清爽#VA, 白带#AD)  (mmod, 清爽#VA, 变得#VV)  (conj, 出血症#VV, 清爽#VA)  (dep, 清爽#VA, 透明#VA)  (nn, -RRB-#NN, 中年#NN)  (nn, -RRB-#NN, 女性#NN)   (nummod, -RRB-#NN, 3#CD)  (nsubj, 消退#VV, 青春痘#NN)  (advmod, 消退#VV, 明显#AD)  (root, ROOT#null, 消退#VV)   (loc, 富含#VV, 葛根#NN)  (case, 葛根#NN, 中#LC)  (prtmod, 富含#VV, 所#MSP)  (relcl, 黄酮#NN, 富含#VV)  (dobj, 富含#VV, 高活性#NN)  (mark, 富含#VV, 的#DEC)  (nn, 黄酮#NN, 异#NN)  (nsubj, 调节#VV, 黄酮#NN)  (mmod, 调节#VV, 能#VV)  (advmod, 调节#VV, 有效#AD)  (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 内分泌#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 修护#VV)  (assmod, 效果#NN, 肌肤#NN)  (case, 肌肤#NN, 的#DEG)  (dobj, 修护#VV, 效果#NN)
+            (nummod, %#NN, 98#CD)  (loc, 反映#VV, %#NN)  (case, %#NN, 以上#LC)  (nsubj, 反映#VV, 用户#NN)  (loc, 皮肤#VV, 反映#VV)  (comod, 反映#VV, 食用#VV)  (case, 反映#VV, 后#LC)  (nsubj, 皮肤#VV, 全身#NN)  (root, ROOT#null, 皮肤#VV)  (amod, 变的#NN, 显著#JJ)  (nn, 润滑#NN, 变的#NN)  (conj, 润滑#NN, 细腻#NN)  (dobj, 皮肤#VV, 润滑#NN)  (conj, 皮肤#VV, 有#VE)  (conj, 皮肤#NN, 光泽#NN)  (nsubj, 增加#VV, 皮肤#NN)  (advmod, 增加#VV, 弹性#AD)  (dep, 有#VE, 增加#VV)  (nn, 疮痘#NN, 斑疹#NN)  (nsubj, 减少#VV, 疮痘#NN)  (advmod, 减少#VV, 逐渐#AD)  (conj, 增加#VV, 减少#VV)  (cc, 增加#VV, 和#CC)  (conj, 皱纹#NN, 消失#NN)  (nn, 皱纹#NN, 脸部#NN)  (nsubj, 减少#VV, 皱纹#NN)  (advmod, 减少#VV, 明显#AD)  (dep, 增加#VV, 减少#VV)
+            (case, 血脂#NN, 对#P)  (nn, 血脂#NN, 降#NN)  (conj, 血脂#NN, 血糖#NN)  (nn, 血脂#NN, 降#NN)  (nn, 血脂#NN, 血压#NN)  (prep, 有#VE, 血脂#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 功效#NN)
+            (case, 介绍#VV, 据#P)  (amod, 中药#NN, 法定#JJ)  (nn, 药材#NN, 中药#NN)  (nsubj, 介绍#VV, 药材#NN)  (case, 临床#NN, 与#P)  (prep, 介绍#VV, 临床#NN)  (prep, 有#VE, 介绍#VV)  (conj, 阿斯皮林#NN, 葛根素#NN)  (cc, 阿斯皮林#NN, 与#CC)  (nn, -LRB-#NN, 阿斯皮林#NN)  (nn, -LRB-#NN, 合用#NN)  (det, -RRB-#NN, 每#DT)  (clf, 每#DT, 天#M)  (nummod, 次#M, 一#CD)  (clf, -RRB-#NN, 次#M)  (nn, -RRB-#NN, mg#NN)  (case, 肾上腺素#NN, 对#P)  (prep, 有#VE, 肾上腺素#NN)  (advmod, 有#VE, 高血糖#AD)  (root, ROOT#null, 有#VE)  (nn, 血糖#NN, 降#NN)  (conj, 作用#NN, 血糖#NN)  (cc, 作用#NN, 和#CC)  (advmod, 强#VA, 较#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血脂#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 丰胸#VV)  (dobj, 丰胸#VV, 效果#NN)
+            (case, 反馈#VV, 根据#P)  (nsubj, 反馈#VV, 用户#NN)  (prep, 增大#VV, 反馈#VV)  (advmod, 得到#VV, 原先#AD)  (assmod, 者#NN, 大小不一#CD)  (case, 大小不一#CD, 的#DEG)  (nn, 者#NN, 乳房#NN)  (nn, 者#NN, 下垂#NN)  (nsubj, 得到#VV, 者#NN)  (conj, 反馈#VV, 得到#VV)  (amod, 改善#NN, 明显#JJ)  (dobj, 得到#VV, 改善#NN)  (nn, 者#NN, 先天性#NN)  (nn, 者#NN, 平胸#NN)  (nsubj, 增大#VV, 者#NN)  (nsubj, 增大#VV, 乳房#NN)  (advmod, 增大#VV, 明显#AD)  (root, ROOT#null, 增大#VV)   (nsubj, 提#VV, 乳房#NN)  (loc, 提#VV, 结实#VA)  (case, 结实#VA, 上#LC)  (root, ROOT#null, 提#VV)  (dep, 提#VV, 富有#VV)  (dobj, 富有#VV, 弹性#NN)   (advmod, 产后#VV, 尤其#AD)  (relcl, 松弛#NN, 产后#VV)  (dobj, 产后#VV, 乳房#NN)  (dep, 有#VE, 松弛#NN)  (root, ROOT#null, 有#VE)  (advmod, 结实#VA, 明显#AD)  (loc, 提#VV, 结实#VA)  (case, 结实#VA, 上#LC)  (dep, 有#VE, 提#VV)  (dobj, 提#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/20161020.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\423 葛根.jpg
+    </picturelocalurl>
+
+</content>

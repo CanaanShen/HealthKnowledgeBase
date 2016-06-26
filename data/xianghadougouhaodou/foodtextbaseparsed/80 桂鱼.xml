@@ -1,0 +1,330 @@
+<content>
+
+    <id>
+        80
+    </id>
+
+    <foodname>
+        桂鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        鳜鱼、鳖花鱼、稣鱼、鲜花鱼、石桂鱼、花鲫鱼
+    </alias>
+
+    <season>
+        春
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有哮喘、咯血的病人，寒湿盛者不宜食用。
+        </rawdata>
+
+        <segment>
+            有  哮喘  、  咯血  的  病人  ，  寒湿  盛  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            有#VE  哮喘#NN  、#PU  咯血#NN  的#DEG  病人#NN  ，#PU  寒湿#AD  盛#VA  者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (conj, 咯血#NN, 哮喘#NN)  (assmod, 病人#NN, 咯血#NN)  (case, 咯血#NN, 的#DEG)  (dobj, 有#VE, 病人#NN)  (advmod, 盛#VA, 寒湿#AD)  (relcl, 者#NN, 盛#VA)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (dep, 有#VE, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜体质衰弱，虚劳赢瘦，脾胃气虚，饮食不香，营养不良之人，老幼、妇女、脾胃虚弱者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  体质  衰弱  ，  虚  劳  赢瘦  ，  脾胃  气虚  ，  饮食  不  香  ，  营养  不良  之  人  ，  老幼  、  妇女  、  脾胃  虚  弱者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VA  体质#NN  衰弱#NN  ，#PU  虚#AD  劳#NN  赢瘦#VA  ，#PU  脾胃#VV  气虚#NN  ，#PU  饮食#NN  不#AD  香#VA  ，#PU  营养#VA  不良#JJ  之#DEG  人#NN  ，#PU  老幼#NN  、#PU  妇女#NN  、#PU  脾胃#NN  虚#AD  弱者#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VA, 尤#NN)  (root, ROOT#null, 适宜#VA)  (nn, 衰弱#NN, 体质#NN)  (nsubj, 赢瘦#VA, 衰弱#NN)  (advmod, 赢瘦#VA, 虚#AD)  (dep, 赢瘦#VA, 劳#NN)  (conj, 适宜#VA, 赢瘦#VA)  (conj, 赢瘦#VA, 脾胃#VV)  (dobj, 脾胃#VV, 气虚#NN)  (nsubj, 香#VA, 饮食#NN)  (neg, 香#VA, 不#AD)  (conj, 赢瘦#VA, 香#VA)  (conj, 赢瘦#VA, 营养#VA)  (assmod, 人#NN, 不良#JJ)  (case, 不良#JJ, 之#DEG)  (nsubj, 弱者#VV, 人#NN)  (conj, 脾胃#NN, 老幼#NN)  (conj, 脾胃#NN, 妇女#NN)  (nsubj, 弱者#VV, 脾胃#NN)  (advmod, 弱者#VV, 虚#AD)  (conj, 适宜#VA, 弱者#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                117
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                19.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                124
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                217
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                295
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                68.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                26.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            桂鱼又叫鳌花鱼、鳜(guì)鱼，肉食性，无鳞鱼类。属于分类学中的脂科鱼类，鳌花鱼是“三花五罗”中最名贵的鱼，鳌花鱼身体侧扁，背部隆起，身体较厚；尖头，是黑龙江中最美丽的一种鱼。
+            鳜鱼身长扁圆，尖头，大嘴，大眼，体青果绿色带金属光泽，体侧有不规则的花黑斑点，小细鳞，尾鳍截形，背鳍前半部为硬棘且有毒素，后半部为软条。鳜鱼肉质细嫩丰满，肥厚鲜美，内部无胆，少刺而著称，故为鱼种之上品。明代医学家李时珍将鳜鱼誉为“水豚”，意指其味鲜美如河豚。另有人将其比成天上的龙肉，说明鳜鱼的风味的确不凡。
+        </rawdata>
+
+        <segment>
+            桂鱼  又叫鳌  花  鱼  、  鳜  (  guì  )  鱼  ，  肉食性  ，  无鳞  鱼类  。  属于  分类学  中的  脂科  鱼类  ，  鳌花  鱼  是  “  三  花  五  罗  ”  中  最  名贵  的  鱼  ，  鳌花鱼  身体  侧扁  ，  背部  隆起  ，  身体  较厚  ；  尖头  ，  是  黑龙江  中  最  美丽  的  一  种  鱼  。
+            鳜鱼  身长  扁圆  ，  尖头  ，  大嘴  ，  大眼  ，  体  青果  绿色  带  金属  光泽  ，  体侧  有  不规则  的  花  黑  斑点  ，  小  细鳞  ，  尾鳍  截形  ，  背鳍  前半部  为  硬棘  且  有  毒素  ，  后半部  为  软  条  。  鳜鱼  肉质  细嫩  丰满  ，  肥厚  鲜美  ，  内部  无胆  ，  少  刺  而  著称  ，  故  为  鱼种  之  上品  。  明代  医学家  李时珍  将  鳜鱼  誉为  “  水豚  ”  ，  意  指  其味  鲜美  如  河豚  。  另  有  人  将  其  比  成天  上  的  龙肉  ，  说明  鳜鱼  的  风味  的确  不凡  。
+        </segment>
+
+        <pos>
+            桂鱼#AD  又叫鳌#VV  花#NN  鱼#NN  、#PU  鳜#NN  -LRB-#NN  guì#NN  -RRB-#NN  鱼#NN  ，#PU  肉食性#VV  ，#PU  无鳞#VV  鱼类#NN    。#PU  属于#VV  分类学#NN  中的#NN  脂科#NN  鱼类#NN  ，#PU  鳌花#NN  鱼#NN  是#VC  ``#NR  三#CD  花#NN  五#CD  罗#NR  ''#NN  中#LC  最#AD  名贵#JJ  的#DEG  鱼#NN  ，#PU  鳌花鱼#VV  身体#NN  侧扁#NN  ，#PU  背部#NN  隆起#NN  ，#PU  身体#NN  较厚#VV  ；#PU  尖头#NN  ，#PU  是#VC  黑龙江#NR  中#NR  最#AD  美丽#VA  的#DEC  一#CD  种#M  鱼#NN    。#PU    。#PU
+            鳜鱼#NN  身长#NN  扁圆#VV  ，#PU  尖头#NN  ，#PU  大嘴#VV  ，#PU  大眼#NN  ，#PU  体#AD  青果#VV  绿色#JJ  带#NN  金属#NN  光泽#NN  ，#PU  体侧#AD  有#VV  不规则#AD  的#DEC  花#NN  黑#JJ  斑点#NN  ，#PU  小#JJ  细鳞#NN  ，#PU  尾鳍#NN  截形#NN  ，#PU  背鳍#NN  前半部#NN  为#VC  硬棘#NN  且#CC  有#VE  毒素#NN  ，#PU  后半部#NN  为#VC  软#JJ  条#NN    。#PU  鳜鱼#NN  肉质#NN  细嫩#NN  丰满#VV  ，#PU  肥厚#NR  鲜美#VV  ，#PU  内部#NN  无胆#NN  ，#PU  少#JJ  刺#NN  而#MSP  著称#VV  ，#PU  故#AD  为#VC  鱼种#NN  之#DEG  上品#NN    。#PU  明代#NN  医学家#NN  李时珍#NN  将#AD  鳜鱼#AD  誉为#VV  ``#NN  水豚#NN  ''#NN  ，#PU  意#NR  指#VV  其味#NN  鲜美#NN  如#AD  河豚#NN    。#PU  另#AD  有#VE  人#NN  将#BA  其#PN  比#P  成天#NN  上#LC  的#DEG  龙肉#NN  ，#PU  说明#VV  鳜鱼#NN  的#DEC  风味#NN  的确#AD  不凡#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 又叫鳌#VV, 桂鱼#AD)  (root, ROOT#null, 又叫鳌#VV)  (nn, 鱼#NN, 花#NN)  (conj, 鱼#NN, 鱼#NN)  (nn, 鱼#NN, 鳜#NN)  (nn, 鱼#NN, guì#NN)  (dobj, 又叫鳌#VV, 鱼#NN)  (conj, 又叫鳌#VV, 肉食性#VV)  (dep, 又叫鳌#VV, 无鳞#VV)  (dobj, 无鳞#VV, 鱼类#NN)   (conj, 鱼#NN, 属于#VV)  (nn, 鱼类#NN, 分类学#NN)  (nn, 鱼类#NN, 中的#NN)  (nn, 鱼类#NN, 脂科#NN)  (dobj, 属于#VV, 鱼类#NN)  (nn, 鱼#NN, 鳌花#NN)  (nsubj, 鱼#NN, 鱼#NN)  (cop, 鱼#NN, 是#VC)  (nn, 花#NN, ``#NR)  (nummod, 花#NN, 三#CD)  (nn, ''#NN, 花#NN)  (nummod, ''#NN, 五#CD)  (nn, ''#NN, 罗#NR)  (dep, 鱼#NN, ''#NN)  (case, ''#NN, 中#LC)  (advmod, 名贵#JJ, 最#AD)  (assmod, 鱼#NN, 名贵#JJ)  (case, 名贵#JJ, 的#DEG)  (root, ROOT#null, 鱼#NN)  (conj, 鱼#NN, 鳌花鱼#VV)  (nn, 侧扁#NN, 身体#NN)  (dobj, 鳌花鱼#VV, 侧扁#NN)  (nn, 隆起#NN, 背部#NN)  (nsubj, 较厚#VV, 隆起#NN)  (nsubj, 较厚#VV, 身体#NN)  (conj, 鱼#NN, 较厚#VV)  (dep, 鱼#NN, 尖头#NN)  (cop, 鱼#NN, 是#VC)  (nn, 中#NR, 黑龙江#NR)  (nn, 鱼#NN, 中#NR)  (advmod, 美丽#VA, 最#AD)  (relcl, 中#NR, 美丽#VA)  (relcl, 鱼#NN, 美丽#VA)  (mark, 美丽#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 鱼#NN, 种#M)  (ccomp, 较厚#VV, 鱼#NN)   (root, ROOT#null, null#null)
+            (nn, 身长#NN, 鳜鱼#NN)  (nsubj, 扁圆#VV, 身长#NN)  (root, ROOT#null, 扁圆#VV)  (nsubj, 硬棘#NN, 尖头#NN)  (relcl, 斑点#NN, 大嘴#VV)  (nsubj, 青果#VV, 大眼#NN)  (advmod, 青果#VV, 体#AD)  (ccomp, 大嘴#VV, 青果#VV)  (amod, 带#NN, 绿色#JJ)  (nn, 光泽#NN, 带#NN)  (nn, 光泽#NN, 金属#NN)  (dobj, 青果#VV, 光泽#NN)  (advmod, 有#VV, 体侧#AD)  (dep, 青果#VV, 有#VV)  (advmod, 有#VV, 不规则#AD)  (mark, 大嘴#VV, 的#DEC)  (nn, 斑点#NN, 花#NN)  (amod, 斑点#NN, 黑#JJ)  (nsubj, 硬棘#NN, 斑点#NN)  (amod, 细鳞#NN, 小#JJ)  (nsubj, 硬棘#NN, 细鳞#NN)  (nn, 截形#NN, 尾鳍#NN)  (nsubj, 硬棘#NN, 截形#NN)  (nn, 前半部#NN, 背鳍#NN)  (nsubj, 硬棘#NN, 前半部#NN)  (cop, 硬棘#NN, 为#VC)  (ccomp, 扁圆#VV, 硬棘#NN)  (cc, 硬棘#NN, 且#CC)  (conj, 硬棘#NN, 有#VE)  (dobj, 有#VE, 毒素#NN)  (nsubj, 条#NN, 后半部#NN)  (cop, 条#NN, 为#VC)  (amod, 条#NN, 软#JJ)  (conj, 硬棘#NN, 条#NN)   (nn, 细嫩#NN, 鳜鱼#NN)  (nn, 细嫩#NN, 肉质#NN)  (nsubj, 丰满#VV, 细嫩#NN)  (root, ROOT#null, 丰满#VV)  (nsubj, 鲜美#VV, 肥厚#NR)  (ccomp, 丰满#VV, 鲜美#VV)  (nn, 无胆#NN, 内部#NN)  (nsubj, 著称#VV, 无胆#NN)  (amod, 刺#NN, 少#JJ)  (nsubj, 著称#VV, 刺#NN)  (prtmod, 著称#VV, 而#MSP)  (ccomp, 鲜美#VV, 著称#VV)  (advmod, 上品#NN, 故#AD)  (cop, 上品#NN, 为#VC)  (assmod, 上品#NN, 鱼种#NN)  (case, 鱼种#NN, 之#DEG)  (dep, 著称#VV, 上品#NN)   (nn, 李时珍#NN, 明代#NN)  (nn, 李时珍#NN, 医学家#NN)  (nsubj, 誉为#VV, 李时珍#NN)  (advmod, 誉为#VV, 将#AD)  (advmod, 誉为#VV, 鳜鱼#AD)  (root, ROOT#null, 誉为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 水豚#NN)  (dobj, 誉为#VV, ''#NN)  (nsubj, 指#VV, 意#NR)  (conj, 誉为#VV, 指#VV)  (nn, 鲜美#NN, 其味#NN)  (nn, 河豚#NN, 鲜美#NN)  (advmod, 河豚#NN, 如#AD)  (dobj, 指#VV, 河豚#NN)   (advmod, 有#VE, 另#AD)  (relcl, 风味#NN, 有#VE)  (nsubj, 说明#VV, 人#NN)  (ba, 说明#VV, 将#BA)  (nsubj, 说明#VV, 其#PN)  (case, 龙肉#NN, 比#P)  (assmod, 龙肉#NN, 成天#NN)  (case, 成天#NN, 上#LC)  (case, 成天#NN, 的#DEG)  (prep, 说明#VV, 龙肉#NN)  (dep, 有#VE, 说明#VV)  (dobj, 说明#VV, 鳜鱼#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 不凡#VV, 风味#NN)  (advmod, 不凡#VV, 的确#AD)  (root, ROOT#null, 不凡#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            桂鱼，味甘、性平，归脾、胃经。补气血；益脾胃。主虚劳嬴瘦；脾胃虚弱；肠风便血。
+        </rawdata>
+
+        <segment>
+            桂鱼  ，  味甘  、  性平  ，  归脾  、  胃经  。  补气  血  ；  益  脾胃  。  主  虚  劳嬴瘦  ；  脾胃  虚弱  ；  肠风便血  。
+        </segment>
+
+        <pos>
+            桂鱼#VV  ，#PU  味甘#NR  、#PU  性平#NR  ，#PU  归脾#VV  、#PU  胃经#VV    。#PU  补气#JJ  血#NN  ；#PU  益#NN  脾胃#NN    。#PU  主#NN  虚#AD  劳嬴瘦#VV  ；#PU  脾胃#NN  虚弱#NN  ；#PU  肠风便血#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 桂鱼#VV)  (conj, 性平#NR, 味甘#NR)  (nsubj, 归脾#VV, 性平#NR)  (ccomp, 桂鱼#VV, 归脾#VV)  (dep, 归脾#VV, 胃经#VV)   (amod, 血#NN, 补气#JJ)  (dep, 脾胃#NN, 血#NN)  (nn, 脾胃#NN, 益#NN)  (root, ROOT#null, 脾胃#NN)   (nsubj, 劳嬴瘦#VV, 主#NN)  (advmod, 劳嬴瘦#VV, 虚#AD)  (root, ROOT#null, 劳嬴瘦#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 劳嬴瘦#VV, 虚弱#NN)  (conj, 劳嬴瘦#VV, 肠风便血#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善生长发育  减肥  补气  补血  补脾胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            桂鱼含有蛋白质、
+        </rawdata>
+
+        <segment>
+            桂鱼  含有  蛋白质  、
+        </segment>
+
+        <pos>
+            桂鱼#NR  含有#NR  蛋白质#AD  、#VV
+        </pos>
+
+        <parsing>
+            (root, 、#VV, 桂鱼#NR)  (dep, 桂鱼#NR, 含有#NR)  (dep, 桂鱼#NR, 蛋白质#AD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            鳜鱼的脊鳍和臀鳍有尖刺，上有毒腺组织，人被刺伤后有肿痛、发热、畏寒等症状，加工时要特别注意，制作菜肴前要剁掉。制馔时，无须剖腹，先在腹后近尾部处有小眼儿的地方，用刀切一下，使腹内鱼肠与鱼身分离，再从嘴中插入两根筷子至腹内，旋转两圈后，将内脏连带鱼鳃一同拉出即可。
+        </rawdata>
+
+        <segment>
+            鳜鱼  的  脊鳍  和  臀鳍  有  尖刺  ，  上有  毒腺  组织  ，  人  被  刺伤  后  有  肿痛  、  发热  、  畏  寒  等  症状  ，  加工  时  要  特别  注意  ，  制作  菜肴  前  要  剁掉  。  制馔  时  ，  无须  剖腹  ，  先  在  腹后  近  尾部  处  有  小  眼儿  的  地方  ，  用刀  切  一下  ，  使  腹内  鱼  肠  与  鱼身  分离  ，  再  从  嘴中  插入  两  根  筷子  至  腹内  ，  旋转  两  圈  后  ，  将  内脏  连带  鱼鳃  一同  拉出  即可  。
+        </segment>
+
+        <pos>
+            鳜鱼#NN  的#DEG  脊鳍#NN  和#CC  臀鳍#NN  有#VE  尖刺#NN  ，#PU  上有#NN  毒腺#NN  组织#NN  ，#PU  人#NN  被#SB  刺伤#VV  后#LC  有#VE  肿痛#NN  、#PU  发热#NN  、#PU  畏#VV  寒#JJ  等#M  症状#NN  ，#PU  加工#NN  时#LC  要#VV  特别#AD  注意#VV  ，#PU  制作#NN  菜肴#NN  前#LC  要#VV  剁掉#VV    。#PU  制馔#NN  时#LC  ，#PU  无须#NN  剖腹#NN  ，#PU  先#AD  在#P  腹后#VV  近#AD  尾部#CD  处#M  有#VE  小#JJ  眼儿#NN  的#DEC  地方#NN  ，#PU  用刀#AD  切#VV  一下#AD  ，#PU  使#VV  腹内#NN  鱼#NN  肠#NN  与#P  鱼身#NN  分离#VV  ，#PU  再#AD  从#P  嘴中#NN  插入#VV  两#CD  根#M  筷子#NN  至#CC  腹内#NN  ，#PU  旋转#VV  两#CD  圈#NN  后#LC  ，#PU  将#AD  内脏#VV  连带#NN  鱼鳃#NN  一同#AD  拉出#VV  即可#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 臀鳍#NN, 鳜鱼#NN)  (case, 鳜鱼#NN, 的#DEG)  (conj, 臀鳍#NN, 脊鳍#NN)  (cc, 臀鳍#NN, 和#CC)  (dep, 有#VE, 臀鳍#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 尖刺#NN)  (nn, 组织#NN, 上有#NN)  (nn, 组织#NN, 毒腺#NN)  (nsubj, 有#VE, 组织#NN)  (nsubj, 有#VE, 人#NN)  (auxpass, 刺伤#VV, 被#SB)  (loc, 有#VE, 刺伤#VV)  (case, 刺伤#VV, 后#LC)  (conj, 有#VE, 有#VE)  (conj, 发热#NN, 肿痛#NN)  (dobj, 有#VE, 发热#NN)  (conj, 有#VE, 畏#VV)  (amod, 等#M, 寒#JJ)  (dep, 症状#NN, 等#M)  (dobj, 畏#VV, 症状#NN)  (loc, 注意#VV, 加工#NN)  (case, 加工#NN, 时#LC)  (mmod, 注意#VV, 要#VV)  (advmod, 注意#VV, 特别#AD)  (conj, 有#VE, 注意#VV)  (nn, 菜肴#NN, 制作#NN)  (loc, 剁掉#VV, 菜肴#NN)  (case, 菜肴#NN, 前#LC)  (dep, 剁掉#VV, 要#VV)  (ccomp, 注意#VV, 剁掉#VV)   (loc, 内脏#VV, 制馔#NN)  (case, 制馔#NN, 时#LC)  (nn, 剖腹#NN, 无须#NN)  (nsubj, 内脏#VV, 剖腹#NN)  (advmod, 内脏#VV, 先#AD)  (case, 腹后#VV, 在#P)  (prep, 内脏#VV, 腹后#VV)  (advmod, 处#M, 近#AD)  (nummod, 处#M, 尾部#CD)  (clf, 地方#NN, 处#M)  (relcl, 地方#NN, 有#VE)  (amod, 眼儿#NN, 小#JJ)  (dobj, 有#VE, 眼儿#NN)  (mark, 有#VE, 的#DEC)  (dobj, 腹后#VV, 地方#NN)  (advmod, 切#VV, 用刀#AD)  (conj, 腹后#VV, 切#VV)  (advmod, 切#VV, 一下#AD)  (conj, 腹后#VV, 使#VV)  (nn, 肠#NN, 腹内#NN)  (nn, 肠#NN, 鱼#NN)  (dobj, 使#VV, 肠#NN)  (case, 鱼身#NN, 与#P)  (prep, 分离#VV, 鱼身#NN)  (dep, 使#VV, 分离#VV)  (advmod, 插入#VV, 再#AD)  (case, 嘴中#NN, 从#P)  (prep, 插入#VV, 嘴中#NN)  (conj, 腹后#VV, 插入#VV)  (nummod, 根#M, 两#CD)  (clf, 腹内#NN, 根#M)  (conj, 腹内#NN, 筷子#NN)  (cc, 腹内#NN, 至#CC)  (dobj, 插入#VV, 腹内#NN)  (conj, 腹后#VV, 旋转#VV)  (nummod, 圈#NN, 两#CD)  (dobj, 旋转#VV, 圈#NN)  (case, 腹后#VV, 后#LC)  (advmod, 内脏#VV, 将#AD)  (root, ROOT#null, 内脏#VV)  (dobj, 内脏#VV, 连带#NN)  (nsubj, 拉出#VV, 鱼鳃#NN)  (advmod, 拉出#VV, 一同#AD)  (conj, 内脏#VV, 拉出#VV)  (dobj, 拉出#VV, 即可#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/281651567920.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\80 桂鱼.jpg
+    </picturelocalurl>
+
+</content>

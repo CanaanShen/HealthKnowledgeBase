@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        207
+    </id>
+
+    <foodname>
+        竹笋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        笋、毛笋、竹芽、竹萌
+    </alias>
+
+    <season>
+        冬、春
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃溃疡、胃出血、肾炎、肝硬化、肠炎者、尿路结石者、低钙、骨质疏松、佝偻病人慎食；儿童不宜多食。
+        </rawdata>
+
+        <segment>
+            胃溃疡  、  胃出血  、  肾炎  、  肝硬化  、  肠炎者  、  尿路结石  者  、  低  钙  、  骨质  疏松  、  佝偻  病人  慎食  ；  儿童  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            胃溃疡#NR  、#PU  胃出血#NR  、#PU  肾炎#NR  、#PU  肝硬化#NR  、#PU  肠炎者#NR  、#PU  尿路结石#NR  者#NN  、#PU  低#JJ  钙#NN  、#PU  骨质#NN  疏松#NN  、#PU  佝偻#NN  病人#NN  慎食#VV  ；#PU  儿童#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 尿路结石#NR, 胃溃疡#NR)  (conj, 尿路结石#NR, 胃出血#NR)  (conj, 尿路结石#NR, 肾炎#NR)  (conj, 尿路结石#NR, 肝硬化#NR)  (conj, 尿路结石#NR, 肠炎者#NR)  (nn, 者#NN, 尿路结石#NR)  (conj, 病人#NN, 者#NN)  (amod, 钙#NN, 低#JJ)  (conj, 病人#NN, 钙#NN)  (nn, 疏松#NN, 骨质#NN)  (conj, 病人#NN, 疏松#NN)  (nn, 病人#NN, 佝偻#NN)  (nsubj, 慎食#VV, 病人#NN)  (root, ROOT#null, 慎食#VV)  (nsubj, 多#VV, 儿童#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (ccomp, 慎食#VV, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜肥胖和习惯性便秘的人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  肥胖  和  习惯性  便秘  的  人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  肥胖#NN  和#CC  习惯性#NN  便秘#NN  的#DEG  人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 习惯性#NN, 肥胖#NN)  (cc, 习惯性#NN, 和#CC)  (nn, 便秘#NN, 习惯性#NN)  (assmod, 人#NN, 便秘#NN)  (case, 便秘#NN, 的#DEG)  (dobj, 适宜#VV, 人#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                389
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.14
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            现代营养学研究表明，竹笋富含蛋白质、胡萝卜素、多种维生素及铁、磷、镁等无机盐和有益健康的多种氨基酸；纤维素含量高，其在肠内可以减少人体对脂肪的吸收，增加肠蠕动，促进消化吸收，减少与高血脂有关疾病的发病率；并含有多种可以防癌的多糖物质，是一种理想的保健美容食品。
+        </rawdata>
+
+        <segment>
+            现代  营养学  研究  表明  ，  竹笋  富含  蛋白质  、  胡萝卜素  、  多  种  维生素  及铁  、  磷  、  镁  等  无机盐  和  有益  健康  的  多  种  氨基酸  ；  纤维素  含量  高  ，  其  在  肠内  可以  减少  人体  对  脂肪  的  吸收  ，  增加  肠  蠕动  ，  促进  消化  吸收  ，  减少  与  高血脂  有关  疾病  的  发病率  ；  并  含有  多  种  可以  防癌  的  多糖  物质  ，  是  一  种  理想  的  保健  美容  食品  。
+        </segment>
+
+        <pos>
+            现代#JJ  营养学#NN  研究#NN  表明#VV  ，#PU  竹笋#NR  富含#NN  蛋白质#NN  、#PU  胡萝卜素#NN  、#PU  多#CD  种#M  维生素#NN  及铁#NN  、#PU  磷#NN  、#PU  镁#NN  等#ETC  无机盐#NN  和#CC  有益#VA  健康#VA  的#DEC  多#CD  种#M  氨基酸#CD  ；#PU  纤维素#CD  含量#NN  高#VA  ，#PU  其#PN  在#P  肠内#NR  可以#VV  减少#VV  人体#NR  对#P  脂肪#NR  的#DEG  吸收#NN  ，#PU  增加#VV  肠#NN  蠕动#NN  ，#PU  促进#VV  消化#NN  吸收#NN  ，#PU  减少#VV  与#P  高血脂#NR  有关#JJ  疾病#NN  的#DEG  发病率#NN  ；#PU  并#CC  含有#VV  多#CD  种#M  可以#VV  防癌#NN  的#DEC  多糖#NN  物质#NN  ，#PU  是#VC  一#CD  种#M  理想#VA  的#DEC  保健#NN  美容#NN  食品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 研究#NN, 现代#JJ)  (nn, 研究#NN, 营养学#NN)  (nsubj, 表明#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (nn, 蛋白质#NN, 竹笋#NR)  (nn, 蛋白质#NN, 富含#NN)  (conj, 镁#NN, 蛋白质#NN)  (conj, 镁#NN, 胡萝卜素#NN)  (nummod, 种#M, 多#CD)  (clf, 及铁#NN, 种#M)  (nn, 及铁#NN, 维生素#NN)  (conj, 镁#NN, 及铁#NN)  (conj, 镁#NN, 磷#NN)  (nn, 无机盐#NN, 镁#NN)  (etc, 镁#NN, 等#ETC)  (dep, 减少#VV, 无机盐#NN)  (cc, 无机盐#NN, 和#CC)  (relcl, 含量#NN, 有益#VA)  (comod, 有益#VA, 健康#VA)  (mark, 有益#VA, 的#DEC)  (nummod, 种#M, 多#CD)  (clf, 纤维素#CD, 种#M)  (nummod, 纤维素#CD, 氨基酸#CD)  (clf, 含量#NN, 纤维素#CD)  (nsubj, 高#VA, 含量#NN)  (dep, 无机盐#NN, 高#VA)  (nsubj, 减少#VV, 其#PN)  (case, 肠内#NR, 在#P)  (prep, 减少#VV, 肠内#NR)  (mmod, 减少#VV, 可以#VV)  (ccomp, 表明#VV, 减少#VV)  (nn, 吸收#NN, 人体#NR)  (case, 脂肪#NR, 对#P)  (assmod, 吸收#NN, 脂肪#NR)  (case, 脂肪#NR, 的#DEG)  (dobj, 减少#VV, 吸收#NN)  (conj, 减少#VV, 增加#VV)  (nn, 蠕动#NN, 肠#NN)  (dobj, 增加#VV, 蠕动#NN)  (conj, 减少#VV, 促进#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 促进#VV, 吸收#NN)  (conj, 减少#VV, 减少#VV)  (case, 疾病#NN, 与#P)  (nn, 疾病#NN, 高血脂#NR)  (amod, 疾病#NN, 有关#JJ)  (assmod, 发病率#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 减少#VV, 发病率#NN)  (cc, 减少#VV, 并#CC)  (conj, 减少#VV, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 可以#VV)  (dobj, 可以#VV, 防癌#NN)  (mark, 可以#VV, 的#DEC)  (nn, 物质#NN, 多糖#NN)  (dobj, 含有#VV, 物质#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (relcl, 食品#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 食品#NN, 保健#NN)  (nn, 食品#NN, 美容#NN)  (conj, 减少#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            中医认为竹笋味甘、微寒，无毒。在药用上具有清热化痰、益气和胃、治消渴、利水道、利膈爽胃等功效。尤其是江浙民间以虫蛀之笋供药用，名“虫笋”，为有效之利尿药，适用于浮肿、腹水、脚气足肿、急性肾炎浮肿、喘咳，糖尿病、消渴烦热等，嫩竹叶、竹茹、竹沥均作药用。
+            1.开胃健脾
+            竹笋独有的清香，具有开胃、促进消化、增强食欲的作用，可用于治疗消化不良，脘痞纳呆之病症。
+            2.宽胸利膈、通肠排便
+            竹笋甘寒通利，其所含有的植物纤维可以增加肠道水分的贮留量，促进胃肠蠕动，降低肠内压力，减少粪便粘度，使粪便变软利排出，用于治疗便秘，预防肠癌。
+            3.降“三高”
+            竹笋具有低糖、低脂的特点，富含植物纤维，可降低体内多余脂肪，消痰化瘀滞，治疗高血压、高血脂、高血糖症，且对消化道癌肿及乳腺癌有一定的预防作用。
+            4.增强机体免疫力
+            竹笋中植物蛋白、维生素及微量元素的含量均很高，有助于增强机体的免疫功能，提高防病抗病能力。
+        </rawdata>
+
+        <segment>
+            中医  认为  竹笋  味甘  、  微寒  ，  无毒  。  在  药用  上  具有  清热  化痰  、  益气  和  胃  、  治  消渴  、  利  水道  、  利膈爽胃  等  功效  。  尤其是  江浙  民间  以  虫蛀  之  笋供  药用  ，  名  “  虫笋  ”  ，  为  有效  之  利尿  药  ，  适用于  浮肿  、  腹水  、  脚气  足肿  、  急性  肾炎  浮肿  、  喘  咳  ，  糖尿病  、  消渴  烦  热  等  ，  嫩竹叶  、  竹茹  、  竹沥  均  作  药用  。
+            开胃  健脾
+            竹笋  独有  的  清香  ，  具有  开胃  、  促进  消化  、  增强  食欲  的  作用  ，  可  用于  治疗  消化不良  ，  脘痞  纳呆  之  病症  。
+            宽  胸  利膈  、  通肠  排便
+            竹笋  甘  寒  通利  ，  其  所含  有的  植物  纤维  可以  增加  肠道  水分  的  贮留量  ，  促进  胃肠  蠕动  ，  降低  肠内  压力  ，  减少  粪便  粘度  ，  使  粪便  变软  利  排出  ，  用于  治疗  便秘  ，  预防  肠癌  。
+            降  “  三  高  ”
+            竹笋  具有  低糖  、  低脂  的  特点  ，  富含  植物  纤维  ，  可  降低  体内  多余  脂肪  ，  消痰化瘀滞  ，  治疗  高血压  、  高  血脂  、  高血糖症  ，  且  对  消化道  癌肿  及  乳腺癌  有  一定  的  预防  作用  。
+            增强  机体  免疫力
+            竹笋  中  植物  蛋白  、  维生素  及  微量  元素  的  含量  均  很  高  ，  有助于  增强  机体  的  免疫  功能  ，  提高  防病  抗病  能力  。
+        </segment>
+
+        <pos>
+            中医#NN  认为#VV  竹笋#VV  味甘#NN  、#PU  微寒#NN  ，#PU  无毒#JJ    。#PU  在#P  药用#NN  上#LC  具有#VV  清热#NN  化痰#NN  、#PU  益气#NN  和#CC  胃#NN  、#PU  治#VV  消渴#NR  、#PU  利#NR  水道#NR  、#PU  利膈爽胃#NR  等#ETC  功效#NN    。#PU  尤其是#AD  江浙#NN  民间#NN  以#P  虫蛀#NN  之#DEG  笋供#NN  药用#VV  ，#PU  名#JJ  ``#NN  虫笋#VV  ''#NN  ，#PU  为#VV  有效#VA  之#DEC  利尿#JJ  药#NN  ，#PU  适用于#VV  浮肿#NR  、#PU  腹水#NR  、#PU  脚气#NR  足肿#NR  、#PU  急性#NR  肾炎#NR  浮肿#NR  、#PU  喘#NR  咳#NN  ，#PU  糖尿病#NN  、#PU  消渴#NN  烦#NN  热#NN  等#ETC  ，#PU  嫩竹叶#NR  、#PU  竹茹#NR  、#PU  竹沥#NR  均#AD  作#VV  药用#NN    。#PU    。#PU
+            开胃#NN  健脾#VV
+            竹笋#VV  独有#VV  的#DEC  清香#NN  ，#PU  具有#VV  开胃#NN  、#PU  促进#VV  消化#NN  、#PU  增强#VV  食欲#NN  的#DEG  作用#NN  ，#PU  可#VV  用于#VV  治疗#NN  消化不良#NN  ，#PU  脘痞#VV  纳呆#NN  之#DEG  病症#NN  。#PU
+            宽#JJ  胸#NN  利膈#NN  、#PU  通肠#NN  排便#NN
+            竹笋#NR  甘#NR  寒#JJ  通利#NN  ，#PU  其#PN  所含#VV  有的#PN  植物#NN  纤维#NN  可以#VV  增加#VV  肠道#NN  水分#NN  的#DEC  贮留量#NN  ，#PU  促进#VV  胃肠#NN  蠕动#NN  ，#PU  降低#VV  肠内#NN  压力#NN  ，#PU  减少#VV  粪便#NN  粘度#NN  ，#PU  使#VV  粪便#NN  变软#VV  利#NR  排出#NN  ，#PU  用于#VV  治疗#NN  便秘#NN  ，#PU  预防#VV  肠癌#NN  。#PU
+            降#NN  ``#VV  三#CD  高#JJ  ''#NN
+            竹笋#VV  具有#VV  低糖#NN  、#PU  低脂#NN  的#DEC  特点#NN  ，#PU  富含#VV  植物#NN  纤维#NN  ，#PU  可#VV  降低#VV  体内#NN  多余#NN  脂肪#NN  ，#PU  消痰化瘀滞#VV  ，#PU  治疗#VV  高血压#NN  、#PU  高#JJ  血脂#NN  、#PU  高血糖症#NN  ，#PU  且#CC  对#P  消化道#NR  癌肿#NN  及#CC  乳腺癌#NN  有#VE  一定#JJ  的#DEG  预防#NN  作用#NN  。#PU
+            增强#VV  机体#NN  免疫力#NN
+            竹笋#NN  中#LC  植物#NN  蛋白#NN  、#PU  维生素#NN  及#CC  微量#NN  元素#NN  的#DEG  含量#NN  均#AD  很#AD  高#VA  ，#PU  有助于#VV  增强#VV  机体#NN  的#DEG  免疫#NN  功能#NN  ，#PU  提高#VV  防病#NN  抗病#NN  能力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 认为#VV, 中医#NN)  (xsubj, 竹笋#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (ccomp, 认为#VV, 竹笋#VV)  (conj, 微寒#NN, 味甘#NN)  (dobj, 竹笋#VV, 微寒#NN)  (conj, 竹笋#VV, 无毒#JJ)   (case, 药用#NN, 在#P)  (prep, 具有#VV, 药用#NN)  (case, 药用#NN, 上#LC)  (root, ROOT#null, 具有#VV)  (nn, 胃#NN, 清热#NN)  (conj, 胃#NN, 化痰#NN)  (conj, 胃#NN, 益气#NN)  (cc, 胃#NN, 和#CC)  (dobj, 具有#VV, 胃#NN)  (dep, 具有#VV, 治#VV)  (conj, 利膈爽胃#NR, 消渴#NR)  (nn, 利膈爽胃#NR, 利#NR)  (conj, 利膈爽胃#NR, 水道#NR)  (nn, 功效#NN, 利膈爽胃#NR)  (etc, 利膈爽胃#NR, 等#ETC)  (dobj, 治#VV, 功效#NN)   (advmod, 民间#NN, 尤其是#AD)  (nn, 民间#NN, 江浙#NN)  (nsubj, 药用#VV, 民间#NN)  (case, 笋供#NN, 以#P)  (assmod, 笋供#NN, 虫蛀#NN)  (case, 虫蛀#NN, 之#DEG)  (prep, 药用#VV, 笋供#NN)  (root, ROOT#null, 药用#VV)  (amod, ``#NN, 名#JJ)  (nsubj, 虫笋#VV, ``#NN)  (ccomp, 药用#VV, 虫笋#VV)  (dobj, 虫笋#VV, ''#NN)  (conj, 虫笋#VV, 为#VV)  (relcl, 药#NN, 有效#VA)  (mark, 有效#VA, 之#DEC)  (amod, 药#NN, 利尿#JJ)  (dobj, 为#VV, 药#NN)  (conj, 虫笋#VV, 适用于#VV)  (conj, 喘#NR, 浮肿#NR)  (conj, 喘#NR, 腹水#NR)  (nn, 喘#NR, 脚气#NR)  (conj, 喘#NR, 足肿#NR)  (nn, 喘#NR, 急性#NR)  (nn, 喘#NR, 肾炎#NR)  (conj, 喘#NR, 浮肿#NR)  (nn, 咳#NN, 喘#NR)  (dobj, 适用于#VV, 咳#NN)  (conj, 热#NN, 糖尿病#NN)  (nn, 热#NN, 消渴#NN)  (nn, 热#NN, 烦#NN)  (nsubj, 作#VV, 热#NN)  (etc, 热#NN, 等#ETC)  (conj, 竹沥#NR, 嫩竹叶#NR)  (conj, 竹沥#NR, 竹茹#NR)  (nsubj, 作#VV, 竹沥#NR)  (advmod, 作#VV, 均#AD)  (conj, 虫笋#VV, 作#VV)  (dobj, 作#VV, 药用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 健脾#VV, 开胃#NN)  (root, ROOT#null, 健脾#VV)
+            (root, ROOT#null, 竹笋#VV)  (relcl, 清香#NN, 独有#VV)  (mark, 独有#VV, 的#DEC)  (dobj, 竹笋#VV, 清香#NN)  (conj, 竹笋#VV, 具有#VV)  (dobj, 具有#VV, 开胃#NN)  (conj, 竹笋#VV, 促进#VV)  (dobj, 促进#VV, 消化#NN)  (conj, 竹笋#VV, 增强#VV)  (assmod, 作用#NN, 食欲#NN)  (case, 食欲#NN, 的#DEG)  (dobj, 增强#VV, 作用#NN)  (mmod, 用于#VV, 可#VV)  (conj, 竹笋#VV, 用于#VV)  (nn, 消化不良#NN, 治疗#NN)  (dobj, 用于#VV, 消化不良#NN)  (conj, 竹笋#VV, 脘痞#VV)  (assmod, 病症#NN, 纳呆#NN)  (case, 纳呆#NN, 之#DEG)  (dobj, 脘痞#VV, 病症#NN)
+            (amod, 胸#NN, 宽#JJ)  (nn, 排便#NN, 胸#NN)  (conj, 排便#NN, 利膈#NN)  (nn, 排便#NN, 通肠#NN)  (root, ROOT#null, 排便#NN)
+            (nn, 通利#NN, 竹笋#NR)  (nn, 通利#NN, 甘#NR)  (amod, 通利#NN, 寒#JJ)  (nsubj, 所含#VV, 通利#NN)  (nsubj, 所含#VV, 其#PN)  (root, ROOT#null, 所含#VV)  (nn, 纤维#NN, 有的#PN)  (nn, 纤维#NN, 植物#NN)  (nsubj, 增加#VV, 纤维#NN)  (mmod, 增加#VV, 可以#VV)  (relcl, 贮留量#NN, 增加#VV)  (nn, 水分#NN, 肠道#NN)  (dobj, 增加#VV, 水分#NN)  (mark, 增加#VV, 的#DEC)  (dobj, 所含#VV, 贮留量#NN)  (conj, 所含#VV, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 所含#VV, 降低#VV)  (nn, 压力#NN, 肠内#NN)  (dobj, 降低#VV, 压力#NN)  (conj, 所含#VV, 减少#VV)  (nn, 粘度#NN, 粪便#NN)  (dobj, 减少#VV, 粘度#NN)  (conj, 所含#VV, 使#VV)  (dobj, 使#VV, 粪便#NN)  (dep, 使#VV, 变软#VV)  (nn, 排出#NN, 利#NR)  (dobj, 变软#VV, 排出#NN)  (conj, 所含#VV, 用于#VV)  (nn, 便秘#NN, 治疗#NN)  (dobj, 用于#VV, 便秘#NN)  (conj, 所含#VV, 预防#VV)  (dobj, 预防#VV, 肠癌#NN)
+            (nsubj, ``#VV, 降#NN)  (root, ROOT#null, ``#VV)  (nummod, ''#NN, 三#CD)  (amod, ''#NN, 高#JJ)  (dobj, ``#VV, ''#NN)
+            (root, ROOT#null, 竹笋#VV)  (relcl, 特点#NN, 具有#VV)  (conj, 低脂#NN, 低糖#NN)  (dobj, 具有#VV, 低脂#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 竹笋#VV, 特点#NN)  (conj, 竹笋#VV, 富含#VV)  (nn, 纤维#NN, 植物#NN)  (dobj, 富含#VV, 纤维#NN)  (mmod, 降低#VV, 可#VV)  (conj, 竹笋#VV, 降低#VV)  (nn, 脂肪#NN, 体内#NN)  (nn, 脂肪#NN, 多余#NN)  (dobj, 降低#VV, 脂肪#NN)  (conj, 竹笋#VV, 消痰化瘀滞#VV)  (conj, 竹笋#VV, 治疗#VV)  (conj, 高血糖症#NN, 高血压#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 高血糖症#NN, 血脂#NN)  (dobj, 治疗#VV, 高血糖症#NN)  (cc, 竹笋#VV, 且#CC)  (case, 乳腺癌#NN, 对#P)  (nn, 乳腺癌#NN, 消化道#NR)  (conj, 乳腺癌#NN, 癌肿#NN)  (cc, 乳腺癌#NN, 及#CC)  (prep, 有#VE, 乳腺癌#NN)  (dep, 竹笋#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 增强#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增强#VV, 免疫力#NN)
+            (loc, 高#VA, 竹笋#NN)  (case, 竹笋#NN, 中#LC)  (nn, 元素#NN, 植物#NN)  (conj, 元素#NN, 蛋白#NN)  (conj, 元素#NN, 维生素#NN)  (cc, 元素#NN, 及#CC)  (nn, 元素#NN, 微量#NN)  (assmod, 含量#NN, 元素#NN)  (case, 元素#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 均#AD)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 有助于#VV)  (ccomp, 有助于#VV, 增强#VV)  (assmod, 功能#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nn, 功能#NN, 免疫#NN)  (dobj, 增强#VV, 功能#NN)  (conj, 增强#VV, 提高#VV)  (nn, 能力#NN, 防病#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  促进消化  通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            竹笋，在我国自古被当作“菜中珍品”，在营养上，过去有不少人认为，竹笋味道虽然鲜美，但是没有什么营养，有的甚至认为“吃一餐笋要刮三天油”。这种认识是不准确的。
+            竹笋含有丰富的蛋白质、氨基酸、脂肪、糖类、钙、磷、铁、胡萝卜素、维生素B1、B2、C，多种维生素和胡萝卜素含量比大白菜含量高一倍多；而且竹笋的蛋白质比较优越，人体必需的赖氨酸、色氨酸、苏氨酸、苯丙氨酸，以及在蛋白质代谢过程中占有重要地位的谷氨酸和有维持蛋白质构型作用的胱氨酸，都有一定的含量，为优良的保健蔬菜。
+            竹笋还具有低脂肪、低糖、多纤维的特点，食用竹笋不仅能促进肠道蠕动，帮助消化，去积食，防便秘，并有预防大肠癌的功效。竹笋含脂肪、淀粉很少，属天然低脂、低热量食品，是肥胖者减肥的佳品。
+        </rawdata>
+
+        <segment>
+            竹笋  ，  在  我国  自古  被  当作  “  菜  中  珍品  ”  ，  在  营养  上  ，  过去  有  不少  人  认为  ，  竹笋  味道  虽然  鲜美  ，  但是  没有  什么  营养  ，  有的  甚至  认为  “  吃  一  餐  笋要  刮  三  天  油  ”  。  这  种  认识  是  不  准确  的  。
+            竹笋  含有  丰富  的  蛋白质  、  氨基酸  、  脂肪  、  糖类  、  钙  、  磷  、  铁  、  胡萝卜素  、  维生素B  B  2  、  C  ，  多  种  维生素  和  胡萝卜素  含量  比  大白菜  含量  高  一  倍  多  ；  而且  竹笋  的  蛋白质  比较  优越  ，  人体  必需  的  赖氨酸  、  色氨酸  、  苏氨酸  、  苯丙氨酸  ，  以及  在  蛋白质  代谢  过程  中  占有  重要  地位  的  谷氨酸  和  有  维持  蛋白质  构型  作用  的  胱氨酸  ，  都  有  一定  的  含量  ，  为  优良  的  保健  蔬菜  。
+            竹笋  还  具有  低  脂肪  、  低糖  、  多  纤维  的  特点  ，  食用  竹笋  不仅  能  促进  肠道  蠕动  ，  帮助  消化  ，  去  积食  ，  防便秘  ，  并  有  预防  大肠  癌的  功效  。  竹笋  含  脂肪  、  淀粉  很少  ，  属  天然  低脂  、  低  热量  食品  ，  是  肥胖者  减肥  的  佳品  。
+        </segment>
+
+        <pos>
+            竹笋#NN  ，#PU  在#P  我国#NR  自古#AD  被#SB  当作#VV  ``#NR  菜#NN  中#LC  珍品#NN  ''#NN  ，#PU  在#P  营养#VA  上#LC  ，#PU  过去#NT  有#VE  不少#CD  人#NN  认为#VV  ，#PU  竹笋#NN  味道#NN  虽然#CS  鲜美#VV  ，#PU  但是#AD  没有#VE  什么#PN  营养#VA  ，#PU  有的#PN  甚至#AD  认为#VV  ``#AD  吃#VV  一#CD  餐#NN  笋要#NN  刮#NN  三#CD  天#M  油#NN  ''#NN    。#PU  这#DT  种#M  认识#NN  是#VC  不#AD  准确#VA  的#DEC    。#PU    。#PU
+            竹笋#NN  含有#NN  丰富#VA  的#DEC  蛋白质#NN  、#PU  氨基酸#NN  、#PU  脂肪#NN  、#PU  糖类#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  胡萝卜素#NN  、#PU  维生素B#NN  B#NN  2#CD  、#PU  C#NN  ，#PU  多#CD  种#M  维生素#NN  和#CC  胡萝卜素#NN  含量#NN  比#P  大白菜#NN  含量#NN  高#VA  一#CD  倍#M  多#AD  ；#PU  而且#AD  竹笋#NR  的#DEG  蛋白质#NN  比较#AD  优越#VA  ，#PU  人体#VV  必需#VV  的#DEC  赖氨酸#NR  、#PU  色氨酸#NR  、#PU  苏氨酸#NR  、#PU  苯丙氨酸#NR  ，#PU  以及#CC  在#P  蛋白质#NN  代谢#NN  过程#NN  中#LC  占有#VV  重要#JJ  地位#NN  的#DEG  谷氨酸#NN  和#CC  有#VE  维持#VV  蛋白质#NN  构型#NN  作用#NN  的#DEC  胱氨酸#NN  ，#PU  都#AD  有#VE  一定#JJ  的#DEG  含量#NN  ，#PU  为#VC  优良#VA  的#DEC  保健#NN  蔬菜#NN  。#PU
+            竹笋#NN  还#AD  具有#VV  低#JJ  脂肪#NN  、#PU  低糖#NN  、#PU  多#CD  纤维#NN  的#DEG  特点#NN  ，#PU  食用#VV  竹笋#NN  不仅#CC  能#VV  促进#VV  肠道#NN  蠕动#NN  ，#PU  帮助#VV  消化#NN  ，#PU  去#VV  积食#NN  ，#PU  防便秘#VV  ，#PU  并#CC  有#VE  预防#NN  大肠#NN  癌的#NN  功效#NN    。#PU  竹笋#AD  含#VV  脂肪#NN  、#PU  淀粉#NN  很少#NN  ，#PU  属#VV  天然#JJ  低脂#NN  、#PU  低#JJ  热量#NN  食品#NN  ，#PU  是#VC  肥胖者#AD  减肥#VV  的#DEC  佳品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 当作#VV, 竹笋#NN)  (case, 我国#NR, 在#P)  (prep, 当作#VV, 我国#NR)  (advmod, 当作#VV, 自古#AD)  (auxpass, 当作#VV, 被#SB)  (root, ROOT#null, 当作#VV)  (nn, ''#NN, ``#NR)  (dep, ''#NN, 菜#NN)  (case, 菜#NN, 中#LC)  (nn, ''#NN, 珍品#NN)  (dobj, 当作#VV, ''#NN)  (case, 营养#VA, 在#P)  (prep, 有#VE, 营养#VA)  (case, 营养#VA, 上#LC)  (tmod, 有#VE, 过去#NT)  (conj, 当作#VV, 有#VE)  (nummod, 人#NN, 不少#CD)  (nsubj, 认为#VV, 人#NN)  (dep, 有#VE, 认为#VV)  (nn, 味道#NN, 竹笋#NN)  (nsubj, 鲜美#VV, 味道#NN)  (advmod, 鲜美#VV, 虽然#CS)  (ccomp, 认为#VV, 鲜美#VV)  (advmod, 认为#VV, 但是#AD)  (dep, 认为#VV, 没有#VE)  (nsubj, 营养#VA, 什么#PN)  (dep, 没有#VE, 营养#VA)  (nsubj, 认为#VV, 有的#PN)  (xsubj, 吃#VV, 有的#PN)  (advmod, 认为#VV, 甚至#AD)  (conj, 当作#VV, 认为#VV)  (advmod, 吃#VV, ``#AD)  (ccomp, 认为#VV, 吃#VV)  (nummod, 餐#NN, 一#CD)  (nn, 刮#NN, 餐#NN)  (nn, 刮#NN, 笋要#NN)  (nn, 油#NN, 刮#NN)  (nummod, 天#M, 三#CD)  (clf, 油#NN, 天#M)  (nn, ''#NN, 油#NN)  (dobj, 吃#VV, ''#NN)   (det, 认识#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 准确#VA, 认识#NN)  (cop, 准确#VA, 是#VC)  (neg, 准确#VA, 不#AD)  (root, ROOT#null, 准确#VA)  (mark, 准确#VA, 的#DEC)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 竹笋#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 含量#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素B#NN, 蛋白质#NN)  (conj, 维生素B#NN, 氨基酸#NN)  (conj, 维生素B#NN, 脂肪#NN)  (conj, 维生素B#NN, 糖类#NN)  (conj, 维生素B#NN, 钙#NN)  (conj, 维生素B#NN, 磷#NN)  (conj, 维生素B#NN, 铁#NN)  (conj, 维生素B#NN, 胡萝卜素#NN)  (nn, 含量#NN, 维生素B#NN)  (conj, 含量#NN, B#NN)  (nummod, B#NN, 2#CD)  (dep, 含量#NN, C#NN)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (conj, 含量#NN, 维生素#NN)  (cc, 含量#NN, 和#CC)  (nn, 含量#NN, 胡萝卜素#NN)  (nsubj, 高#VA, 含量#NN)  (case, 含量#NN, 比#P)  (nn, 含量#NN, 大白菜#NN)  (prep, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nummod, 倍#M, 一#CD)  (dep, 高#VA, 倍#M)  (advmod, 倍#M, 多#AD)  (advmod, 优越#VA, 而且#AD)  (assmod, 蛋白质#NN, 竹笋#NR)  (case, 竹笋#NR, 的#DEG)  (nsubj, 优越#VA, 蛋白质#NN)  (advmod, 优越#VA, 比较#AD)  (conj, 高#VA, 优越#VA)  (conj, 优越#VA, 人体#VV)  (relcl, 苯丙氨酸#NR, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 苯丙氨酸#NR, 赖氨酸#NR)  (conj, 苯丙氨酸#NR, 色氨酸#NR)  (conj, 苯丙氨酸#NR, 苏氨酸#NR)  (dobj, 人体#VV, 苯丙氨酸#NR)  (cc, 优越#VA, 以及#CC)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 蛋白质#NN)  (nn, 过程#NN, 代谢#NN)  (prep, 占有#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (conj, 优越#VA, 占有#VV)  (amod, 地位#NN, 重要#JJ)  (assmod, 谷氨酸#NN, 地位#NN)  (case, 地位#NN, 的#DEG)  (dobj, 占有#VV, 谷氨酸#NN)  (cc, 占有#VV, 和#CC)  (conj, 占有#VV, 有#VE)  (relcl, 胱氨酸#NN, 维持#VV)  (nn, 作用#NN, 蛋白质#NN)  (nn, 作用#NN, 构型#NN)  (dobj, 维持#VV, 作用#NN)  (mark, 维持#VV, 的#DEC)  (dobj, 有#VE, 胱氨酸#NN)  (advmod, 有#VE, 都#AD)  (conj, 优越#VA, 有#VE)  (assmod, 含量#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 含量#NN)  (cop, 蔬菜#NN, 为#VC)  (relcl, 蔬菜#NN, 优良#VA)  (mark, 优良#VA, 的#DEC)  (nn, 蔬菜#NN, 保健#NN)  (conj, 优越#VA, 蔬菜#NN)
+            (nsubj, 具有#VV, 竹笋#NN)  (xsubj, 去#VV, 竹笋#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (amod, 脂肪#NN, 低#JJ)  (conj, 纤维#NN, 脂肪#NN)  (conj, 纤维#NN, 低糖#NN)  (nummod, 纤维#NN, 多#CD)  (assmod, 特点#NN, 纤维#NN)  (case, 纤维#NN, 的#DEG)  (dobj, 具有#VV, 特点#NN)  (conj, 具有#VV, 食用#VV)  (dobj, 食用#VV, 竹笋#NN)  (cc, 具有#VV, 不仅#CC)  (mmod, 促进#VV, 能#VV)  (conj, 具有#VV, 促进#VV)  (nn, 蠕动#NN, 肠道#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 去#VV)  (dobj, 去#VV, 积食#NN)  (conj, 去#VV, 防便秘#VV)  (cc, 促进#VV, 并#CC)  (conj, 促进#VV, 有#VE)  (nn, 功效#NN, 预防#NN)  (nn, 功效#NN, 大肠#NN)  (nn, 功效#NN, 癌的#NN)  (dobj, 有#VE, 功效#NN)   (advmod, 含#VV, 竹笋#AD)  (root, ROOT#null, 含#VV)  (conj, 很少#NN, 脂肪#NN)  (nn, 很少#NN, 淀粉#NN)  (dobj, 含#VV, 很少#NN)  (dep, 含#VV, 属#VV)  (amod, 低脂#NN, 天然#JJ)  (conj, 食品#NN, 低脂#NN)  (amod, 热量#NN, 低#JJ)  (nn, 食品#NN, 热量#NN)  (dobj, 属#VV, 食品#NN)  (cop, 佳品#NN, 是#VC)  (advmod, 减肥#VV, 肥胖者#AD)  (relcl, 佳品#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (conj, 属#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            竹笋适用于炒、烧、拌、炝，也可做配料或馅。竹笋一年四季皆有，但唯有春笋、冬笋味道最佳。烹调时无论是凉拌、煎炒还是熬汤、均鲜嫩清香、是人们喜欢的佳肴之一。
+            食用前应先用开水焯过，以去除笋中的草酸。
+            靠近笋尖部的地方宜顺切，下部宜横切，这样烹制时不但易熟烂，而且更易入味。
+        </rawdata>
+
+        <segment>
+            竹笋  适用  于  炒  、  烧  、  拌  、  炝  ，  也  可  做  配料  或馅  。  竹笋  一  年  四  季  皆  有  ，  但  唯有  春笋  、  冬笋  味道  最佳  。  烹调  时  无论是  凉拌  、  煎炒  还是  熬汤  、  均  鲜嫩  清香  、  是  人们  喜欢  的  佳肴  之一  。
+            食用  前  应  先用  开水  焯过  ，  以  去除笋  中  的  草酸  。
+            靠近  笋尖  部  的  地方  宜  顺切  ，  下部  宜  横切  ，  这样  烹制  时  不但  易  熟烂  ，  而且  更易  入味  。
+        </segment>
+
+        <pos>
+            竹笋#AD  适用#VV  于#P  炒#NR  、#PU  烧#NR  、#PU  拌#NR  、#PU  炝#NR  ，#PU  也#AD  可#VV  做#VV  配料#NN  或馅#NN    。#PU  竹笋#VV  一#CD  年#M  四#CD  季#M  皆#AD  有#VE  ，#PU  但#AD  唯有#VV  春笋#NR  、#PU  冬笋#NR  味道#NN  最佳#JJ    。#PU  烹调#NN  时#LC  无论是#AD  凉拌#NN  、#PU  煎炒#NN  还是#AD  熬汤#VV  、#PU  均#AD  鲜嫩#VV  清香#NN  、#PU  是#VC  人们#NN  喜欢#NN  的#DEC  佳肴#NN  之一#CD    。#PU    。#PU
+            食用#VV  前#LC  应#P  先用#NN  开水#VV  焯过#NN  ，#PU  以#P  去除笋#NN  中#LC  的#DEG  草酸#NN  。#PU
+            靠近#VV  笋尖#CD  部#M  的#DEC  地方#NN  宜#NR  顺切#VV  ，#PU  下部#NN  宜#NR  横切#NN  ，#PU  这样#AD  烹制#VV  时#LC  不但#CC  易#AD  熟烂#VA  ，#PU  而且#CC  更易#AD  入味#VA  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 适用#VV, 竹笋#AD)  (root, ROOT#null, 适用#VV)  (case, 炝#NR, 于#P)  (conj, 炝#NR, 炒#NR)  (conj, 炝#NR, 烧#NR)  (conj, 炝#NR, 拌#NR)  (prep, 适用#VV, 炝#NR)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (dep, 适用#VV, 做#VV)  (nn, 或馅#NN, 配料#NN)  (dobj, 做#VV, 或馅#NN)   (root, ROOT#null, 竹笋#VV)  (nummod, 年#M, 一#CD)  (clf, 季#M, 年#M)  (nummod, 季#M, 四#CD)  (range, 竹笋#VV, 季#M)  (advmod, 有#VE, 皆#AD)  (conj, 竹笋#VV, 有#VE)  (advmod, 唯有#VV, 但#AD)  (dep, 竹笋#VV, 唯有#VV)  (conj, 冬笋#NR, 春笋#NR)  (nn, 味道#NN, 冬笋#NR)  (dobj, 唯有#VV, 味道#NN)  (dep, 竹笋#VV, 最佳#JJ)   (loc, 熬汤#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (advmod, 煎炒#NN, 无论是#AD)  (conj, 煎炒#NN, 凉拌#NN)  (nsubj, 熬汤#VV, 煎炒#NN)  (advmod, 熬汤#VV, 还是#AD)  (relcl, 佳肴#NN, 熬汤#VV)  (advmod, 鲜嫩#VV, 均#AD)  (conj, 熬汤#VV, 鲜嫩#VV)  (dobj, 鲜嫩#VV, 清香#NN)  (cop, 喜欢#NN, 是#VC)  (nn, 喜欢#NN, 人们#NN)  (conj, 熬汤#VV, 喜欢#NN)  (mark, 熬汤#VV, 的#DEC)  (nsubj, 之一#CD, 佳肴#NN)  (root, ROOT#null, 之一#CD)   (root, ROOT#null, null#null)
+            (loc, 开水#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (case, 先用#NN, 应#P)  (prep, 开水#VV, 先用#NN)  (root, ROOT#null, 开水#VV)  (dobj, 开水#VV, 焯过#NN)  (case, 草酸#NN, 以#P)  (assmod, 草酸#NN, 去除笋#NN)  (case, 去除笋#NN, 中#LC)  (case, 去除笋#NN, 的#DEG)  (prep, 开水#VV, 草酸#NN)
+            (relcl, 地方#NN, 靠近#VV)  (nummod, 部#M, 笋尖#CD)  (range, 靠近#VV, 部#M)  (mark, 靠近#VV, 的#DEC)  (nsubj, 顺切#VV, 地方#NN)  (nsubj, 顺切#VV, 宜#NR)  (root, ROOT#null, 顺切#VV)  (nn, 横切#NN, 下部#NN)  (nn, 横切#NN, 宜#NR)  (nsubj, 熟烂#VA, 横切#NN)  (advmod, 烹制#VV, 这样#AD)  (loc, 熟烂#VA, 烹制#VV)  (case, 烹制#VV, 时#LC)  (cc, 熟烂#VA, 不但#CC)  (advmod, 熟烂#VA, 易#AD)  (ccomp, 顺切#VV, 熟烂#VA)  (cc, 熟烂#VA, 而且#CC)  (advmod, 入味#VA, 更易#AD)  (dep, 熟烂#VA, 入味#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071036263296.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\207 竹笋.jpg
+    </picturelocalurl>
+
+</content>

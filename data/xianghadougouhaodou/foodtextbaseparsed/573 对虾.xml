@@ -1,0 +1,376 @@
+<content>
+
+    <id>
+        573
+    </id>
+
+    <foodname>
+        对虾
+    </foodname>
+
+    <firstcategory>
+        鱼虾蟹贝等水产
+    </firstcategory>
+
+    <secondcategory>
+        虾
+    </secondcategory>
+
+    <alias>
+        大虾
+    </alias>
+
+    <season>
+        春
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            老少皆宜；中老年人、孕妇和心血管病患者更适合食用。
+            1. 适宜肾虚阳痿、男性不育症、腰脚瘙弱无力之人食用；适宜中老年人缺钙所致的小腿抽筋者食用；
+            2. 宿疾者、正值上火之时不宜食虾；患过敏性鼻炎、支气管炎、反复发作性过敏性皮炎的老年人不宜吃虾；
+            虾为动风发物，患有皮肤疥癣者忌食。
+        </rawdata>
+
+        <segment>
+            老少皆宜  ；  中老年人  、  孕妇  和  心血管病  患者  更  适合  食用  。
+            适宜  肾虚  阳痿  、  男性  不育症  、  腰  脚  瘙弱  无力  之  人  食用  ；  适宜  中  老年人  缺钙  所致  的  小腿  抽筋  者  食用  ；
+            宿疾者  、  正值  上火  之时  不  宜  食虾  ；  患  过敏性  鼻炎  、  支气管炎  、  反复  发作性  过敏性  皮炎  的  老年人  不  宜  吃  虾  ；
+            虾  为  动  风  发物  ，  患有  皮肤  疥癣  者  忌食  。
+        </segment>
+
+        <pos>
+            老少皆宜#VV  ；#PU  中老年人#NR  、#PU  孕妇#NR  和#CC  心血管病#NR  患者#NN  更#AD  适合#VV  食用#VV  。#PU
+            适宜#VV  肾虚#NN  阳痿#NN  、#PU  男性#NN  不育症#NN  、#PU  腰#NN  脚#NN  瘙弱#NN  无力#NN  之#DEC  人#NN  食用#VV  ；#PU  适宜#VV  中#NR  老年人#NN  缺钙#NN  所致#NN  的#DEG  小腿#NN  抽筋#NN  者#NN  食用#VV  ；#PU
+            宿疾者#NN  、#PU  正值#NN  上火#NN  之时#NN  不#AD  宜#NR  食虾#VV  ；#PU  患#NN  过敏性#NN  鼻炎#NN  、#PU  支气管炎#NR  、#PU  反复#AD  发作性#VV  过敏性#NN  皮炎#NN  的#DEC  老年人#NN  不#AD  宜#NR  吃#VV  虾#NN  ；#PU
+            虾#NN  为#VC  动#NN  风#NN  发物#NN  ，#PU  患有#AD  皮肤#VV  疥癣#NN  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 老少皆宜#VV)  (conj, 心血管病#NR, 中老年人#NR)  (conj, 心血管病#NR, 孕妇#NR)  (cc, 心血管病#NR, 和#CC)  (nn, 患者#NN, 心血管病#NR)  (nsubj, 适合#VV, 患者#NN)  (advmod, 适合#VV, 更#AD)  (ccomp, 老少皆宜#VV, 适合#VV)  (comod, 适合#VV, 食用#VV)
+            (relcl, 人#NN, 适宜#VV)  (nn, 瘙弱#NN, 肾虚#NN)  (conj, 瘙弱#NN, 阳痿#NN)  (nn, 瘙弱#NN, 男性#NN)  (conj, 瘙弱#NN, 不育症#NN)  (nn, 瘙弱#NN, 腰#NN)  (nn, 瘙弱#NN, 脚#NN)  (nn, 无力#NN, 瘙弱#NN)  (dobj, 适宜#VV, 无力#NN)  (mark, 适宜#VV, 之#DEC)  (nsubj, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)  (relcl, 者#NN, 适宜#VV)  (nn, 所致#NN, 中#NR)  (nn, 所致#NN, 老年人#NN)  (nn, 所致#NN, 缺钙#NN)  (assmod, 抽筋#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 抽筋#NN, 小腿#NN)  (dobj, 适宜#VV, 抽筋#NN)  (nsubj, 食用#VV, 者#NN)  (conj, 食用#VV, 食用#VV)
+            (conj, 之时#NN, 宿疾者#NN)  (nn, 之时#NN, 正值#NN)  (nn, 之时#NN, 上火#NN)  (nsubj, 食虾#VV, 之时#NN)  (neg, 食虾#VV, 不#AD)  (prep, 食虾#VV, 宜#NR)  (root, ROOT#null, 食虾#VV)  (nn, 鼻炎#NN, 患#NN)  (nn, 鼻炎#NN, 过敏性#NN)  (conj, 老年人#NN, 鼻炎#NN)  (conj, 老年人#NN, 支气管炎#NR)  (advmod, 发作性#VV, 反复#AD)  (relcl, 老年人#NN, 发作性#VV)  (nn, 皮炎#NN, 过敏性#NN)  (dobj, 发作性#VV, 皮炎#NN)  (mark, 发作性#VV, 的#DEC)  (nsubj, 吃#VV, 老年人#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (ccomp, 食虾#VV, 吃#VV)  (dobj, 吃#VV, 虾#NN)
+            (nsubj, 发物#NN, 虾#NN)  (cop, 发物#NN, 为#VC)  (nn, 发物#NN, 动#NN)  (nn, 发物#NN, 风#NN)  (root, ROOT#null, 发物#NN)  (advmod, 皮肤#VV, 患有#AD)  (conj, 发物#NN, 皮肤#VV)  (nn, 忌食#NN, 疥癣#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 皮肤#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                食部
+            </elename>
+            <elevalue>
+                61%
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水分(克)
+            </elename>
+            <elevalue>
+                76.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量(千卡)
+            </elename>
+            <elevalue>
+                93
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                18.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇(毫克)
+            </elename>
+            <elevalue>
+                193
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                灰分(克)
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A(微克RE)
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                视黄醇(微克)
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                尼克酸(毫克)
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E(毫克)
+            </elename>
+            <elevalue>
+                0.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙(毫克)
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                228
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                215
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                165.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                2.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                33.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            对虾属甲壳尖动物,虾体小者称为虾钱。主要分布于山东、辽宁、河北、天津沿海，以天津河口尾红、爪红的对虾为最好。捕捞旺季为4～5月和9～10月。对虾体长而侧扁，整个身体分头胸部和腹部两部分。头胸部外面衩有坚韧的头胸甲，腹侧有五对细长的步足。腹部被有甲壳，各自分离成节，前面一节压住后面一节，雌虾甲壳为青蓝色，雄虾棕黄色且体型小于雌虾，腹部腹侧有五对片状游泳足，尾部有扇状尾肢。
+        </rawdata>
+
+        <segment>
+            对虾  属  甲壳尖  动物  ,  虾体  小者  称为  虾  钱  。  主要  分布  于  山东  、  辽宁  、  河北  、  天津  沿海  ，  以  天津  河口  尾红  、  爪  红  的  对虾  为  最  好  。  捕捞  旺季  为  4  ～  5月  和  9  ～  10月  。  对虾  体长  而  侧扁  ，  整个  身体  分头  胸部  和  腹部  两部分  。  头  胸部  外面  衩有  坚韧  的  头  胸甲  ，  腹侧  有  五  对  细长  的  步足  。  腹部  被  有  甲壳  ，  各自  分离  成节  ，  前面  一  节  压住  后面  一节  ，  雌  虾  甲壳  为  青蓝色  ，  雄  虾  棕黄色  且  体型  小于  雌  虾  ，  腹部  腹侧  有  五  对  片状  游泳  足  ，  尾部  有  扇状  尾肢  。
+        </segment>
+
+        <pos>
+            对虾#NN  属#NN  甲壳尖#NN  动物#NN  ,#NN  虾体#NN  小者#NN  称为#VV  虾#JJ  钱#NN    。#PU  主要#AD  分布#VV  于#P  山东#NR  、#PU  辽宁#NR  、#PU  河北#NR  、#PU  天津#NR  沿海#NN  ，#PU  以#P  天津#NR  河口#NR  尾红#NN  、#PU  爪#NN  红#VA  的#DEC  对虾#NN  为#VV  最#AD  好#VA    。#PU  捕捞#NN  旺季#NN  为#VC  4#CD  ～#VV  5月#NT  和#CC  9#CD  ～#NN  10月#NT    。#PU  对虾#NN  体长#NN  而#MSP  侧扁#VV  ，#PU  整个#JJ  身体#NN  分头#VV  胸部#NN  和#CC  腹部#NN  两部分#NN    。#PU  头#DT  胸部#CD  外面#NN  衩有#NN  坚韧#NN  的#DEG  头#DT  胸甲#NN  ，#PU  腹侧#AD  有#VE  五#CD  对#P  细长#NN  的#DEG  步足#NN    。#PU  腹部#NR  被#SB  有#VE  甲壳#VV  ，#PU  各自#PN  分离#VV  成节#NN  ，#PU  前面#VV  一#CD  节#NN  压住#NN  后面#NN  一节#CD  ，#PU  雌#NN  虾#NN  甲壳#NN  为#VC  青蓝色#NN  ，#PU  雄#NR  虾#NR  棕黄色#NN  且#CC  体型#NN  小于#VV  雌#NN  虾#NN  ，#PU  腹部#NN  腹侧#NN  有#VE  五#CD  对#P  片状#NN  游泳#NN  足#VA  ，#PU  尾部#AD  有#VE  扇状#NN  尾肢#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 小者#NN, 对虾#NN)  (nn, 小者#NN, 属#NN)  (nn, 小者#NN, 甲壳尖#NN)  (nn, 小者#NN, 动物#NN)  (nn, 小者#NN, 虾体#NN)  (nsubj, 称为#VV, 小者#NN)  (root, ROOT#null, 称为#VV)  (amod, 钱#NN, 虾#JJ)  (dobj, 称为#VV, 钱#NN)   (advmod, 分布#VV, 主要#AD)  (root, ROOT#null, 分布#VV)  (case, 沿海#NN, 于#P)  (conj, 天津#NR, 山东#NR)  (conj, 天津#NR, 辽宁#NR)  (conj, 天津#NR, 河北#NR)  (nn, 沿海#NN, 天津#NR)  (prep, 分布#VV, 沿海#NN)  (case, 对虾#NN, 以#P)  (nn, 尾红#NN, 天津#NR)  (nn, 尾红#NN, 河口#NR)  (conj, 对虾#NN, 尾红#NN)  (nsubj, 红#VA, 爪#NN)  (relcl, 对虾#NN, 红#VA)  (mark, 红#VA, 的#DEC)  (prep, 为#VV, 对虾#NN)  (dep, 分布#VV, 为#VV)  (advmod, 好#VA, 最#AD)  (dep, 分布#VV, 好#VA)   (nn, 旺季#NN, 捕捞#NN)  (nsubj, 为#VC, 旺季#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 4#CD)  (conj, ～#NN, 5月#NT)  (cc, ～#NN, 和#CC)  (nummod, ～#NN, 9#CD)  (dobj, ～#VV, 10月#NT)   (nn, 体长#NN, 对虾#NN)  (nsubj, 侧扁#VV, 体长#NN)  (prtmod, 侧扁#VV, 而#MSP)  (root, ROOT#null, 侧扁#VV)  (amod, 身体#NN, 整个#JJ)  (nsubj, 分头#VV, 身体#NN)  (ccomp, 侧扁#VV, 分头#VV)  (conj, 两部分#NN, 胸部#NN)  (cc, 两部分#NN, 和#CC)  (nn, 两部分#NN, 腹部#NN)  (dobj, 分头#VV, 两部分#NN)   (det, 外面#NN, 头#DT)  (dep, 头#DT, 胸部#CD)  (nsubj, 有#VE, 外面#NN)  (nn, 坚韧#NN, 衩有#NN)  (assmod, 胸甲#NN, 坚韧#NN)  (case, 坚韧#NN, 的#DEG)  (det, 胸甲#NN, 头#DT)  (nsubj, 有#VE, 胸甲#NN)  (advmod, 有#VE, 腹侧#AD)  (root, ROOT#null, 有#VE)  (nummod, 步足#NN, 五#CD)  (case, 细长#NN, 对#P)  (assmod, 步足#NN, 细长#NN)  (case, 细长#NN, 的#DEG)  (dobj, 有#VE, 步足#NN)   (nsubjpass, 有#VE, 腹部#NR)  (auxpass, 有#VE, 被#SB)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 甲壳#VV)  (nsubj, 分离#VV, 各自#PN)  (ccomp, 甲壳#VV, 分离#VV)  (dobj, 分离#VV, 成节#NN)  (conj, 分离#VV, 前面#VV)  (nummod, 后面#NN, 一#CD)  (nn, 后面#NN, 节#NN)  (nn, 后面#NN, 压住#NN)  (dobj, 前面#VV, 后面#NN)  (range, 前面#VV, 一节#CD)  (nn, 甲壳#NN, 雌#NN)  (nn, 甲壳#NN, 虾#NN)  (nsubj, 青蓝色#NN, 甲壳#NN)  (cop, 青蓝色#NN, 为#VC)  (conj, 甲壳#VV, 青蓝色#NN)  (nn, 虾#NR, 雄#NR)  (nn, 体型#NN, 虾#NR)  (conj, 体型#NN, 棕黄色#NN)  (cc, 体型#NN, 且#CC)  (nsubj, 小于#VV, 体型#NN)  (conj, 甲壳#VV, 小于#VV)  (nn, 虾#NN, 雌#NN)  (dobj, 小于#VV, 虾#NN)  (nn, 腹侧#NN, 腹部#NN)  (dep, 有#VE, 腹侧#NN)  (xsubj, 足#VA, 腹侧#NN)  (conj, 甲壳#VV, 有#VE)  (nsubj, 足#VA, 五#CD)  (case, 游泳#NN, 对#P)  (nn, 游泳#NN, 片状#NN)  (prep, 足#VA, 游泳#NN)  (advmod, 有#VE, 尾部#AD)  (conj, 甲壳#VV, 有#VE)  (nn, 尾肢#NN, 扇状#NN)  (dobj, 有#VE, 尾肢#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            虾营养丰富，且其肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物。
+        </rawdata>
+
+        <segment>
+            虾  营养  丰富  ，  且  其  肉质  松软  ，  易  消化  ，  对  身体  虚弱  以及  病  后  需要  调养  的  人  是  极  好  的  食物  。
+        </segment>
+
+        <pos>
+            虾#NN  营养#VA  丰富#VA  ，#PU  且#CC  其#PN  肉质#AD  松软#VV  ，#PU  易#VA  消化#NN  ，#PU  对#P  身体#NN  虚弱#NN  以及#CC  病#NN  后#LC  需要#VV  调养#NN  的#DEC  人#NN  是#VC  极#AD  好#VA  的#DEC  食物#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 虾#NN)  (relcl, 人#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (nsubj, 松软#VV, 其#PN)  (advmod, 松软#VV, 肉质#AD)  (conj, 营养#VA, 松软#VV)  (relcl, 消化#NN, 易#VA)  (nsubj, 需要#VV, 消化#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (cc, 病#NN, 以及#CC)  (prep, 需要#VV, 病#NN)  (case, 病#NN, 后#LC)  (ccomp, 松软#VV, 需要#VV)  (dobj, 需要#VV, 调养#NN)  (mark, 营养#VA, 的#DEC)  (nsubj, 食物#NN, 人#NN)  (cop, 食物#NN, 是#VC)  (advmod, 好#VA, 极#AD)  (relcl, 食物#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (root, ROOT#null, 食物#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  抗氧化  补阴  补肾阳  平肝熄风
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 虾营养丰富，且其肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；
+            2. 虾中含有丰富的镁，镁对心脏活动具有重要的调节作用，能很好的保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗死；
+            3. 虾的通乳作用较强，并且富含磷、钙、对小儿、孕妇尤有补益功效；
+            4. 日本大阪大学的科学家最近发现，虾体内的虾青素有助于消除因时差反应而产生的"时差症"。
+        </rawdata>
+
+        <segment>
+            虾  营养  丰富  ，  且  其  肉质  松软  ，  易  消化  ，  对  身体  虚弱  以及  病  后  需要  调养  的  人  是  极  好  的  食物  ；
+            虾  中  含有  丰富  的  镁  ，  镁  对  心脏  活动  具有  重要  的  调节  作用  ，  能  很  好  的  保护  心血管  系统  ，  它  可  减少  血液  中  胆固醇  含量  ，  防止  动脉  硬化  ，  同时  还  能  扩张  冠状  动脉  ，  有利于  预防  高血压  及  心肌梗死  ；
+            虾  的  通乳  作用  较  强  ，  并且  富含  磷  、  钙  、  对  小儿  、  孕妇  尤有  补益  功效  ；
+            日本  大阪  大学  的  科学家  最近  发现  ，  虾  体内  的  虾青素  有助于  消除  因  时差  反应  而  产生  的  "  时差症  "  。
+        </segment>
+
+        <pos>
+            虾#NN  营养#VA  丰富#VA  ，#PU  且#CC  其#PN  肉质#AD  松软#VV  ，#PU  易#VA  消化#NN  ，#PU  对#P  身体#NN  虚弱#NN  以及#CC  病#NN  后#LC  需要#VV  调养#NN  的#DEC  人#NN  是#VC  极#AD  好#VA  的#DEC  食物#NN  ；#PU
+            虾#NN  中#LC  含有#AD  丰富#VA  的#DEC  镁#NN  ，#PU  镁#NN  对#P  心脏#NN  活动#NN  具有#VV  重要#VA  的#DEC  调节#VV  作用#NN  ，#PU  能#VV  很#AD  好#VA  的#DEC  保护#NN  心血管#NN  系统#NN  ，#PU  它#PN  可#VV  减少#VV  血液#NN  中#LC  胆固醇#NN  含量#NN  ，#PU  防止#VV  动脉#NN  硬化#NN  ，#PU  同时#AD  还#AD  能#VV  扩张#VV  冠状#NN  动脉#NN  ，#PU  有利于#VV  预防#VV  高血压#NN  及#CC  心肌梗死#NN  ；#PU
+            虾#NN  的#DEG  通乳#JJ  作用#NN  较#AD  强#VA  ，#PU  并且#CC  富含#VV  磷#NN  、#PU  钙#NN  、#PU  对#P  小儿#NN  、#PU  孕妇#NN  尤有#NN  补益#NN  功效#VV  ；#PU
+            日本#NR  大阪#NR  大学#NN  的#DEG  科学家#NN  最近#NT  发现#VV  ，#PU  虾#NN  体内#NN  的#DEG  虾青素#NN  有助于#VV  消除#VV  因#P  时差#NN  反应#NN  而#MSP  产生#VV  的#DEC  ''#NN  时差症#NN  ''#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 虾#NN)  (relcl, 人#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (nsubj, 松软#VV, 其#PN)  (advmod, 松软#VV, 肉质#AD)  (conj, 营养#VA, 松软#VV)  (relcl, 消化#NN, 易#VA)  (nsubj, 需要#VV, 消化#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (cc, 病#NN, 以及#CC)  (prep, 需要#VV, 病#NN)  (case, 病#NN, 后#LC)  (ccomp, 松软#VV, 需要#VV)  (dobj, 需要#VV, 调养#NN)  (mark, 营养#VA, 的#DEC)  (nsubj, 食物#NN, 人#NN)  (cop, 食物#NN, 是#VC)  (advmod, 好#VA, 极#AD)  (relcl, 食物#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (root, ROOT#null, 食物#NN)
+            (loc, 丰富#VA, 虾#NN)  (case, 虾#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 镁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 具有#VV, 镁#NN)  (nsubj, 具有#VV, 镁#NN)  (case, 活动#NN, 对#P)  (nn, 活动#NN, 心脏#NN)  (prep, 具有#VV, 活动#NN)  (root, ROOT#null, 具有#VV)  (relcl, 系统#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (relcl, 系统#NN, 调节#VV)  (dobj, 调节#VV, 作用#NN)  (mmod, 好#VA, 能#VV)  (advmod, 好#VA, 很#AD)  (conj, 调节#VV, 好#VA)  (mark, 调节#VV, 的#DEC)  (nn, 系统#NN, 保护#NN)  (nn, 系统#NN, 心血管#NN)  (dobj, 具有#VV, 系统#NN)  (nsubj, 减少#VV, 它#PN)  (mmod, 减少#VV, 可#VV)  (conj, 具有#VV, 减少#VV)  (dep, 含量#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 减少#VV, 含量#NN)  (conj, 具有#VV, 防止#VV)  (nn, 硬化#NN, 动脉#NN)  (nsubj, 扩张#VV, 硬化#NN)  (advmod, 扩张#VV, 同时#AD)  (advmod, 扩张#VV, 还#AD)  (mmod, 扩张#VV, 能#VV)  (ccomp, 防止#VV, 扩张#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 扩张#VV, 动脉#NN)  (dep, 防止#VV, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (conj, 心肌梗死#NN, 高血压#NN)  (cc, 心肌梗死#NN, 及#CC)  (dobj, 预防#VV, 心肌梗死#NN)
+            (assmod, 作用#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (amod, 作用#NN, 通乳#JJ)  (nsubj, 强#VA, 作用#NN)  (advmod, 强#VA, 较#AD)  (root, ROOT#null, 强#VA)  (cc, 强#VA, 并且#CC)  (conj, 强#VA, 富含#VV)  (conj, 钙#NN, 磷#NN)  (dobj, 富含#VV, 钙#NN)  (case, 补益#NN, 对#P)  (conj, 补益#NN, 小儿#NN)  (nn, 补益#NN, 孕妇#NN)  (nn, 补益#NN, 尤有#NN)  (prep, 功效#VV, 补益#NN)  (conj, 强#VA, 功效#VV)
+            (nn, 大学#NN, 日本#NR)  (nn, 大学#NN, 大阪#NR)  (assmod, 科学家#NN, 大学#NN)  (case, 大学#NN, 的#DEG)  (nsubj, 发现#VV, 科学家#NN)  (tmod, 发现#VV, 最近#NT)  (root, ROOT#null, 发现#VV)  (nn, 体内#NN, 虾#NN)  (assmod, 虾青素#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nsubj, 有助于#VV, 虾青素#NN)  (ccomp, 发现#VV, 有助于#VV)  (ccomp, 有助于#VV, 消除#VV)  (case, 反应#NN, 因#P)  (nn, 反应#NN, 时差#NN)  (prep, 产生#VV, 反应#NN)  (prtmod, 产生#VV, 而#MSP)  (relcl, ''#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 时差症#NN)  (dobj, 消除#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1. 整只对虾的烹调方法有红烧、油炸、甜烤，加工成片、段后，可熘、炒、烤、煮汤，制成泥茸，可制虾饺、虾丸；
+            2. 色发红、身软、掉拖的虾不新鲜尽量不吃，腐败变质虾不可食；虾背上的虾线应挑去不吃。
+        </rawdata>
+
+        <segment>
+            整  只  对虾  的  烹调  方法  有  红烧  、  油炸  、  甜  烤  ，  加工  成片  、  段  后  ，  可熘  、  炒  、  烤  、  煮  汤  ，  制成  泥茸  ，  可  制  虾饺  、  虾丸  ；
+            色  发红  、  身  软  、  掉  拖  的  虾  不  新鲜  尽量  不  吃  ，  腐败  变质  虾  不  可食  ；  虾  背上  的  虾线  应  挑去  不  吃  。
+        </segment>
+
+        <pos>
+            整#DT  只#M  对虾#NN  的#DEG  烹调#NN  方法#NN  有#VE  红烧#NR  、#PU  油炸#NR  、#PU  甜#NR  烤#NN  ，#PU  加工#VV  成片#AD  、#PU  段#NN  后#LC  ，#PU  可熘#NR  、#PU  炒#NR  、#PU  烤#NR  、#PU  煮#VV  汤#NN  ，#PU  制成#VV  泥茸#NN  ，#PU  可#VV  制#VV  虾饺#NN  、#PU  虾丸#NN  ；#PU
+            色#NN  发红#VV  、#PU  身#NN  软#JJ  、#PU  掉#JJ  拖#NN  的#DEG  虾#NR  不#AD  新鲜#JJ  尽量#NN  不#AD  吃#VV  ，#PU  腐败#NN  变质#NN  虾#NN  不#AD  可食#VV  ；#PU  虾#NN  背上#NN  的#DEG  虾线#NN  应#P  挑去#NN  不#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (det, 对虾#NN, 整#DT)  (clf, 整#DT, 只#M)  (assmod, 方法#NN, 对虾#NN)  (case, 对虾#NN, 的#DEG)  (nn, 方法#NN, 烹调#NN)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (conj, 甜#NR, 红烧#NR)  (conj, 甜#NR, 油炸#NR)  (nn, 烤#NN, 甜#NR)  (dobj, 有#VE, 烤#NN)  (conj, 有#VE, 加工#VV)  (advmod, 加工#VV, 成片#AD)  (loc, 制成#VV, 段#NN)  (case, 段#NN, 后#LC)  (conj, 烤#NR, 可熘#NR)  (conj, 烤#NR, 炒#NR)  (conj, 汤#NN, 烤#NR)  (relcl, 汤#NN, 煮#VV)  (nsubj, 制成#VV, 汤#NN)  (dep, 加工#VV, 制成#VV)  (dobj, 制成#VV, 泥茸#NN)  (mmod, 制#VV, 可#VV)  (conj, 制成#VV, 制#VV)  (conj, 虾丸#NN, 虾饺#NN)  (dobj, 制#VV, 虾丸#NN)
+            (nsubj, 发红#VV, 色#NN)  (root, ROOT#null, 发红#VV)  (nn, 拖#NN, 身#NN)  (amod, 拖#NN, 软#JJ)  (dep, 软#JJ, 掉#JJ)  (assmod, 尽量#NN, 拖#NN)  (case, 拖#NN, 的#DEG)  (nn, 尽量#NN, 虾#NR)  (neg, 新鲜#JJ, 不#AD)  (amod, 尽量#NN, 新鲜#JJ)  (nsubj, 吃#VV, 尽量#NN)  (neg, 吃#VV, 不#AD)  (conj, 发红#VV, 吃#VV)  (nn, 虾#NN, 腐败#NN)  (nn, 虾#NN, 变质#NN)  (nsubj, 可食#VV, 虾#NN)  (neg, 可食#VV, 不#AD)  (conj, 发红#VV, 可食#VV)  (nn, 背上#NN, 虾#NN)  (assmod, 虾线#NN, 背上#NN)  (case, 背上#NN, 的#DEG)  (nsubj, 吃#VV, 虾线#NN)  (case, 挑去#NN, 应#P)  (prep, 吃#VV, 挑去#NN)  (neg, 吃#VV, 不#AD)  (conj, 发红#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/8/caap_ce.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\573 对虾.jpg
+    </picturelocalurl>
+
+</content>

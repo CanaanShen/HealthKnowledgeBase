@@ -1,0 +1,435 @@
+<content>
+
+    <id>
+        257
+    </id>
+
+    <foodname>
+        银耳
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        白木耳、雪耳、银耳子、白耳子、白耳、桑鹅、五鼎芝
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            外感风寒的人、糖尿病患者慎食。
+        </rawdata>
+
+        <segment>
+            外感  风寒  的  人  、  糖尿病  患者  慎食  。
+        </segment>
+
+        <pos>
+            外感#VV  风寒#NN  的#DEG  人#NN  、#PU  糖尿病#NN  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 外感#VV)  (assmod, 人#NN, 风寒#NN)  (case, 风寒#NN, 的#DEG)  (conj, 慎食#NN, 人#NN)  (nn, 患者#NN, 糖尿病#NN)  (nn, 慎食#NN, 患者#NN)  (dobj, 外感#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜慢性支气管炎、肺原性心脏病、阴火虚旺患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  慢性  支气管炎  、  肺  原性  心脏病  、  阴  火  虚  旺  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  慢性#NN  支气管炎#NN  、#PU  肺#NN  原性#NN  心脏病#NN  、#PU  阴#VA  火#NN  虚#AD  旺#VV  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 心脏病#NN, 慢性#NN)  (conj, 心脏病#NN, 支气管炎#NN)  (nn, 心脏病#NN, 肺#NN)  (nn, 心脏病#NN, 原性#NN)  (dobj, 适宜#VV, 心脏病#NN)  (conj, 适宜#VV, 阴#VA)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 虚#AD)  (conj, 适宜#VV, 旺#VV)  (dobj, 旺#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                200
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                67.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                30.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                369
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                1588
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                82.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            真菌类银耳科银耳属植物，有“菌中之冠”的美称，夏秋季生于阔叶树腐木上，分布于中国浙江、福建、江苏、江西、安徽等十几个省份，目前国内人工栽培使用的树木为椴木、栓皮栎、麻栎、青刚栎、米槠等一百多种。银耳既是名贵的营养滋补佳品，又是扶正强壮的补药。历代皇家贵族都将银耳看做是“延年益寿之品”、“长生不老良药”。
+            子实体纸白至乳白色，胶质，半透明，柔软有弹性，由数片至10余片瓣片组成，形似菊花形、牡丹形或绣球形，直径3-15cm干后收缩，角质，硬而脆，白色或米黄色。子实层生瓣片表面。担子近球形或近卵圆形，纵分隔。春夏秋冬都可人工种植，春秋采收，用老斑竹浸猪油制成竹刀采割，将鲜银耳以清水洗净后，晒干即成。
+        </rawdata>
+
+        <segment>
+            真  菌类  银耳科  银耳  属  植物  ，  有  “  菌中  之  冠  ”  的  美称  ，  夏秋季  生  于  阔叶树  腐木上  ，  分布  于  中国  浙江  、  福建  、  江苏  、  江西  、  安徽  等  十几  个  省份  ，  目前  国内  人工  栽培  使用  的  树木  为  椴木  、  栓皮栎  、  麻栎  、  青刚栎  、  米槠  等  一百  多  种  。  银耳  既  是  名贵  的  营养  滋补  佳品  ，  又是  扶正  强壮  的  补药  。  历代  皇家  贵族  都  将  银耳  看做  是  “  延年益寿  之  品  ”  、  “  长生不老  良药  ”  。
+            子实  体纸  白  至  乳白色  ，  胶质  ，  半透明  ，  柔软  有  弹性  ，  由  数  片  至  10  余  片  瓣  片  组成  ，  形似  菊花形  、  牡丹  形  或  绣球形  ，  直径  3-15  cm  干  后  收缩  ，  角质  ，  硬而脆  ，  白色  或  米黄色  。  子实层  生瓣片  表面  。  担子  近  球形  或  近  卵  圆形  ，  纵  分隔  。  春夏  秋冬  都  可  人工  种植  ，  春秋  采收  ，  用  老  斑竹  浸  猪油  制成  竹刀  采割  ，  将  鲜  银耳  以  清水  洗净  后  ，  晒干  即  成  。
+        </segment>
+
+        <pos>
+            真#AD  菌类#VV  银耳科#NN  银耳#AD  属#VV  植物#NN  ，#PU  有#VE  ``#NN  菌中#NN  之#DEG  冠#NN  ''#NN  的#DEG  美称#NN  ，#PU  夏秋季#AD  生#VV  于#P  阔叶树#NN  腐木上#NN  ，#PU  分布#VV  于#P  中国#NR  浙江#NR  、#PU  福建#NR  、#PU  江苏#NR  、#PU  江西#NR  、#PU  安徽#NR  等#ETC  十几#CD  个#M  省份#NN  ，#PU  目前#NT  国内#NN  人工#AD  栽培#VV  使用#NN  的#DEC  树木#NN  为#VC  椴木#NR  、#PU  栓皮栎#NR  、#PU  麻栎#NR  、#PU  青刚栎#NR  、#PU  米槠#NR  等#ETC  一百#CD  多#CD  种#M    。#PU  银耳#NN  既#CC  是#VC  名贵#JJ  的#DEG  营养#VA  滋补#NN  佳品#NN  ，#PU  又是#VV  扶正#NN  强壮#NN  的#DEG  补药#NN    。#PU  历代#NR  皇家#JJ  贵族#NN  都#AD  将#AD  银耳#VV  看做#NN  是#VC  ``#NN  延年益寿#NN  之#DEG  品#M  ''#NN  、#PU  ``#NN  长生不老#NN  良药#NN  ''#NN    。#PU    。#PU
+            子实#NR  体纸#VV  白#VA  至#CC  乳白色#VA  ，#PU  胶质#VV  ，#PU  半透明#VV  ，#PU  柔软#AD  有#VE  弹性#NN  ，#PU  由#P  数#CD  片#M  至#CC  10#CD  余#NN  片#M  瓣#CD  片#M  组成#VV  ，#PU  形似#VV  菊花形#NN  、#PU  牡丹#AD  形#VV  或#CC  绣球形#VV  ，#PU  直径#NN  3-15#CD  cm#NN  干#VV  后#LC  收缩#VV  ，#PU  角质#VV  ，#PU  硬而脆#VV  ，#PU  白色#JJ  或#CC  米黄色#VV    。#PU  子实层#NN  生瓣片#AD  表面#VA    。#PU  担子#CD  近#AD  球形#NN  或#CC  近#AD  卵#NN  圆形#VV  ，#PU  纵#NN  分隔#VV    。#PU  春夏#NN  秋冬#NN  都#AD  可#VV  人工#AD  种植#VV  ，#PU  春秋#NN  采收#NN  ，#PU  用#P  老#JJ  斑竹#NN  浸#NN  猪油#NN  制成#VV  竹刀#NN  采割#NN  ，#PU  将#AD  鲜#VV  银耳#NN  以#P  清水#NN  洗净#NN  后#LC  ，#PU  晒干#NN  即#AD  成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 菌类#VV, 真#AD)  (root, ROOT#null, 菌类#VV)  (nsubj, 属#VV, 银耳科#NN)  (advmod, 属#VV, 银耳#AD)  (ccomp, 菌类#VV, 属#VV)  (dobj, 属#VV, 植物#NN)  (dep, 属#VV, 有#VE)  (nn, 菌中#NN, ``#NN)  (assmod, 冠#NN, 菌中#NN)  (case, 菌中#NN, 之#DEG)  (nn, ''#NN, 冠#NN)  (assmod, 美称#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dobj, 有#VE, 美称#NN)  (advmod, 生#VV, 夏秋季#AD)  (conj, 属#VV, 生#VV)  (case, 腐木上#NN, 于#P)  (nn, 腐木上#NN, 阔叶树#NN)  (prep, 生#VV, 腐木上#NN)  (conj, 属#VV, 分布#VV)  (case, 省份#NN, 于#P)  (nn, 安徽#NR, 中国#NR)  (conj, 安徽#NR, 浙江#NR)  (conj, 安徽#NR, 福建#NR)  (conj, 安徽#NR, 江苏#NR)  (conj, 安徽#NR, 江西#NR)  (nn, 省份#NN, 安徽#NR)  (etc, 安徽#NR, 等#ETC)  (nummod, 个#M, 十几#CD)  (clf, 省份#NN, 个#M)  (prep, 分布#VV, 省份#NN)  (dep, 为#VC, 目前#NT)  (nsubj, 栽培#VV, 国内#NN)  (advmod, 栽培#VV, 人工#AD)  (relcl, 树木#NN, 栽培#VV)  (dobj, 栽培#VV, 使用#NN)  (mark, 栽培#VV, 的#DEC)  (nsubj, 为#VC, 树木#NN)  (conj, 属#VV, 为#VC)  (conj, 米槠#NR, 椴木#NR)  (conj, 米槠#NR, 栓皮栎#NR)  (conj, 米槠#NR, 麻栎#NR)  (conj, 米槠#NR, 青刚栎#NR)  (dep, 种#M, 米槠#NR)  (etc, 米槠#NR, 等#ETC)  (dep, 种#M, 一百#CD)  (nummod, 种#M, 多#CD)  (dep, 为#VC, 种#M)   (nsubj, 佳品#NN, 银耳#NN)  (cc, 佳品#NN, 既#CC)  (cop, 佳品#NN, 是#VC)  (assmod, 佳品#NN, 名贵#JJ)  (case, 名贵#JJ, 的#DEG)  (nfincl, 佳品#NN, 营养#VA)  (nn, 佳品#NN, 滋补#NN)  (root, ROOT#null, 佳品#NN)  (conj, 佳品#NN, 又是#VV)  (nn, 强壮#NN, 扶正#NN)  (assmod, 补药#NN, 强壮#NN)  (case, 强壮#NN, 的#DEG)  (dobj, 又是#VV, 补药#NN)   (nn, 贵族#NN, 历代#NR)  (amod, 贵族#NN, 皇家#JJ)  (nsubj, 银耳#VV, 贵族#NN)  (advmod, 银耳#VV, 都#AD)  (advmod, 银耳#VV, 将#AD)  (conj, ''#NN, 银耳#VV)  (dobj, 银耳#VV, 看做#NN)  (cop, ''#NN, 是#VC)  (nn, 延年益寿#NN, ``#NN)  (assmod, ''#NN, 延年益寿#NN)  (case, 延年益寿#NN, 之#DEG)  (dep, ''#NN, 品#M)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 长生不老#NN)  (nn, ''#NN, 良药#NN)  (root, ROOT#null, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 白#VA, 子实#NR)  (mmod, 白#VA, 体纸#VV)  (root, ROOT#null, 白#VA)  (dep, 白#VA, 至#CC)  (dep, 白#VA, 乳白色#VA)  (conj, 白#VA, 胶质#VV)  (conj, 白#VA, 半透明#VV)  (advmod, 有#VE, 柔软#AD)  (conj, 白#VA, 有#VE)  (dobj, 有#VE, 弹性#NN)  (case, 片#M, 由#P)  (nummod, 片#M, 数#CD)  (clf, 片#M, 片#M)  (cc, 片#M, 至#CC)  (nummod, 片#M, 10#CD)  (dep, 片#M, 余#NN)  (clf, 片#M, 片#M)  (nummod, 片#M, 瓣#CD)  (prep, 组成#VV, 片#M)  (conj, 白#VA, 组成#VV)  (conj, 白#VA, 形似#VV)  (dobj, 形似#VV, 菊花形#NN)  (advmod, 形#VV, 牡丹#AD)  (conj, 白#VA, 形#VV)  (cc, 形#VV, 或#CC)  (conj, 形#VV, 绣球形#VV)  (nn, cm#NN, 直径#NN)  (nummod, cm#NN, 3-15#CD)  (nsubj, 干#VV, cm#NN)  (loc, 收缩#VV, 干#VV)  (case, 干#VV, 后#LC)  (conj, 白#VA, 收缩#VV)  (conj, 白#VA, 角质#VV)  (conj, 白#VA, 硬而脆#VV)  (conj, 白#VA, 白色#JJ)  (cc, 白#VA, 或#CC)  (conj, 白#VA, 米黄色#VV)   (nsubj, 表面#VA, 子实层#NN)  (advmod, 表面#VA, 生瓣片#AD)  (root, ROOT#null, 表面#VA)   (nummod, 球形#NN, 担子#CD)  (advmod, 担子#CD, 近#AD)  (conj, 卵#NN, 球形#NN)  (cc, 卵#NN, 或#CC)  (advmod, 卵#NN, 近#AD)  (nsubj, 圆形#VV, 卵#NN)  (root, ROOT#null, 圆形#VV)  (nsubj, 分隔#VV, 纵#NN)  (ccomp, 圆形#VV, 分隔#VV)   (nn, 秋冬#NN, 春夏#NN)  (nsubj, 种植#VV, 秋冬#NN)  (advmod, 种植#VV, 都#AD)  (mmod, 种植#VV, 可#VV)  (advmod, 种植#VV, 人工#AD)  (root, ROOT#null, 种植#VV)  (nn, 采收#NN, 春秋#NN)  (nsubj, 制成#VV, 采收#NN)  (case, 猪油#NN, 用#P)  (amod, 斑竹#NN, 老#JJ)  (nn, 猪油#NN, 斑竹#NN)  (nn, 猪油#NN, 浸#NN)  (prep, 制成#VV, 猪油#NN)  (conj, 种植#VV, 制成#VV)  (nn, 采割#NN, 竹刀#NN)  (dobj, 制成#VV, 采割#NN)  (advmod, 鲜#VV, 将#AD)  (conj, 种植#VV, 鲜#VV)  (dobj, 鲜#VV, 银耳#NN)  (case, 洗净#NN, 以#P)  (nn, 洗净#NN, 清水#NN)  (prep, 成#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (nsubj, 成#VV, 晒干#NN)  (advmod, 成#VV, 即#AD)  (dep, 种植#VV, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性平，味甘、淡、无毒。具有强精、补肾、润肠、益胃、补气、和血、强心、壮身、补脑、提神、美容、嫩肤、延年益寿之功效。用于治肺热咳嗽、肺燥干咳、妇女月经不调、胃炎、大便秘结等病症。
+            1.肝脏解毒
+            银耳能提高肝脏解毒能力，起保肝作用；银耳对老年慢性支气管炎、肺原性心脏病有一定疗效。
+            2.清热健胃
+            它也是一味滋补良药，特点是滋润而不腻滞，具有补脾开胃、益气清肠、安眠健胃、补脑、养阴清热、润燥之功，对阴虚火旺不受参茸等温热滋补的病人是一种良好的补品。
+            3.增加免疫力
+            能防止钙的流失，对生长发育十分有益；因富含硒等微量元素，它可以增强机体抗肿瘤的免疫力。
+            4.美容祛斑
+            银耳富有天然特性胶质，加上它的滋阴作用，长期服用可以润肤，并有祛除脸部黄褐斑、雀斑的功效。
+            5.减肥
+            银耳是和种含膳食纤维的减肥食品，它的膳食纤维可助胃肠蠕动，减少脂肪吸收。
+            6.增加耐受力
+            银耳还能增强肿瘤患者对放疗、化疗的耐受力。
+            　
+        </rawdata>
+
+        <segment>
+            性平  ，  味甘  、  淡  、  无毒  。  具有  强  精  、  补肾  、  润肠  、  益胃  、  补气  、  和  血  、  强心  、  壮身  、  补脑  、  提神  、  美容  、  嫩肤  、  延年益寿  之  功效  。  用于  治  肺  热  咳嗽  、  肺燥  干咳  、  妇女  月经不调  、  胃炎  、  大便  秘结  等  病症  。
+            肝脏  解毒
+            银耳  能  提高  肝脏  解毒  能力  ，  起保肝  作用  ；  银耳  对  老年  慢性  支气管炎  、  肺  原性  心脏病  有  一定  疗效  。
+            清热  健胃
+            它  也是  一  味  滋补  良药  ，  特点  是  滋润  而  不  腻滞  ，  具有  补脾  开胃  、  益气  清  肠  、  安眠  健胃  、  补脑  、  养  阴  清热  、  润燥  之功  ，  对  阴虚  火  旺  不  受  参茸  等  温热  滋补  的  病人  是  一  种  良好  的  补品  。
+            增加  免疫力
+            能  防止  钙  的  流失  ，  对  生长  发育  十分  有益  ；  因  富含  硒等  微量  元素  ，  它  可以  增强  机体  抗  肿瘤  的  免疫力  。
+            美容  祛斑
+            银耳  富有  天然  特性  胶质  ，  加上  它  的  滋阴  作用  ，  长期  服用  可以  润肤  ，  并  有  祛除  脸部  黄褐斑  、  雀斑  的  功效  。
+            减肥
+            银耳  是  和  种  含  膳食  纤维  的  减肥  食品  ，  它  的  膳食  纤维  可  助  胃肠  蠕动  ，  减少  脂肪  吸收  。
+            增加  耐受力
+            银耳  还  能  增强  肿瘤  患者  对  放疗  、  化疗  的  耐受力  。
+        </segment>
+
+        <pos>
+            性平#VV  ，#PU  味甘#VV  、#PU  淡#VV  、#PU  无毒#JJ    。#PU  具有#VV  强#JJ  精#NN  、#PU  补肾#NR  、#PU  润肠#NR  、#PU  益胃#NR  、#PU  补气#NR  、#PU  和#NN  血#NN  、#PU  强心#NR  、#PU  壮身#NR  、#PU  补脑#NR  、#PU  提神#NR  、#PU  美容#NR  、#PU  嫩肤#NR  、#PU  延年益寿#NR  之#DEG  功效#NN    。#PU  用于#VV  治#VV  肺#NN  热#NN  咳嗽#NN  、#PU  肺燥#NN  干咳#NN  、#PU  妇女#NN  月经不调#NN  、#PU  胃炎#NN  、#PU  大便#NN  秘结#NN  等#ETC  病症#NN    。#PU    。#PU
+            肝脏#NN  解毒#NN
+            银耳#NN  能#VV  提高#VV  肝脏#NN  解毒#NN  能力#NN  ，#PU  起保肝#VV  作用#NN  ；#PU  银耳#NN  对#P  老年#NN  慢性#NN  支气管炎#NN  、#PU  肺#NN  原性#NN  心脏病#NN  有#VE  一定#JJ  疗效#NN  。#PU
+            清热#NN  健胃#VV
+            它#PN  也是#AD  一#CD  味#NN  滋补#NN  良药#NN  ，#PU  特点#NN  是#VC  滋润#NN  而#CC  不#AD  腻滞#VV  ，#PU  具有#VV  补脾#NN  开胃#NN  、#PU  益气#JJ  清#JJ  肠#NN  、#PU  安眠#NN  健胃#NN  、#PU  补脑#NN  、#PU  养#VV  阴#NN  清热#NN  、#PU  润燥#VV  之功#NN  ，#PU  对#P  阴虚#NN  火#NN  旺#VV  不#AD  受#VV  参茸#NN  等#ETC  温热#NN  滋补#NN  的#DEC  病人#NN  是#VC  一#CD  种#M  良好#VA  的#DEC  补品#NN  。#PU
+            增加#VV  免疫力#NN
+            能#VV  防止#VV  钙#NN  的#DEG  流失#NN  ，#PU  对#P  生长#NN  发育#VV  十分#AD  有益#VA  ；#PU  因#P  富含#NN  硒等#VV  微量#NN  元素#NN  ，#PU  它#PN  可以#VV  增强#VV  机体#NN  抗#NN  肿瘤#NN  的#DEG  免疫力#NN  。#PU
+            美容#NN  祛斑#VV
+            银耳#NN  富有#VV  天然#JJ  特性#NN  胶质#NN  ，#PU  加上#VV  它#PN  的#DEG  滋阴#JJ  作用#NN  ，#PU  长期#AD  服用#VV  可以#VV  润肤#NN  ，#PU  并#CC  有#VE  祛除#NN  脸部#NN  黄褐斑#NN  、#PU  雀斑#NN  的#DEG  功效#NN  。#PU
+            减肥#VV
+            银耳#NN  是#VC  和#P  种#NN  含#VV  膳食#NN  纤维#NN  的#DEC  减肥#VV  食品#NN  ，#PU  它#PN  的#DEG  膳食#NN  纤维#NN  可#VV  助#NN  胃肠#NN  蠕动#NN  ，#PU  减少#VV  脂肪#NN  吸收#VV  。#PU
+            增加#VV  耐受力#NN
+            银耳#NN  还#AD  能#VV  增强#VV  肿瘤#NN  患者#NN  对#P  放疗#NR  、#PU  化疗#NR  的#DEG  耐受力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 性平#VV)  (conj, 性平#VV, 味甘#VV)  (conj, 性平#VV, 淡#VV)  (dep, 性平#VV, 无毒#JJ)   (root, ROOT#null, 具有#VV)  (amod, 精#NN, 强#JJ)  (conj, 延年益寿#NR, 精#NN)  (conj, 延年益寿#NR, 补肾#NR)  (conj, 延年益寿#NR, 润肠#NR)  (conj, 延年益寿#NR, 益胃#NR)  (conj, 延年益寿#NR, 补气#NR)  (nn, 血#NN, 和#NN)  (conj, 延年益寿#NR, 血#NN)  (conj, 嫩肤#NR, 强心#NR)  (conj, 嫩肤#NR, 壮身#NR)  (conj, 嫩肤#NR, 补脑#NR)  (conj, 嫩肤#NR, 提神#NR)  (conj, 嫩肤#NR, 美容#NR)  (conj, 延年益寿#NR, 嫩肤#NR)  (assmod, 功效#NN, 延年益寿#NR)  (case, 延年益寿#NR, 之#DEG)  (dobj, 具有#VV, 功效#NN)   (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治#VV)  (nn, 秘结#NN, 肺#NN)  (nn, 秘结#NN, 热#NN)  (conj, 秘结#NN, 咳嗽#NN)  (nn, 秘结#NN, 肺燥#NN)  (conj, 秘结#NN, 干咳#NN)  (nn, 秘结#NN, 妇女#NN)  (conj, 秘结#NN, 月经不调#NN)  (conj, 秘结#NN, 胃炎#NN)  (nn, 秘结#NN, 大便#NN)  (nn, 病症#NN, 秘结#NN)  (etc, 秘结#NN, 等#ETC)  (dobj, 治#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (nn, 解毒#NN, 肝脏#NN)  (root, ROOT#null, 解毒#NN)
+            (nsubj, 提高#VV, 银耳#NN)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nn, 能力#NN, 肝脏#NN)  (nn, 能力#NN, 解毒#NN)  (dobj, 提高#VV, 能力#NN)  (conj, 提高#VV, 起保肝#VV)  (dobj, 起保肝#VV, 作用#NN)  (nsubj, 有#VE, 银耳#NN)  (case, 心脏病#NN, 对#P)  (nn, 心脏病#NN, 老年#NN)  (nn, 心脏病#NN, 慢性#NN)  (conj, 心脏病#NN, 支气管炎#NN)  (nn, 心脏病#NN, 肺#NN)  (nn, 心脏病#NN, 原性#NN)  (prep, 有#VE, 心脏病#NN)  (conj, 提高#VV, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)
+            (nsubj, 健胃#VV, 清热#NN)  (root, ROOT#null, 健胃#VV)
+            (nn, 良药#NN, 它#PN)  (advmod, 良药#NN, 也是#AD)  (nummod, 良药#NN, 一#CD)  (nn, 良药#NN, 味#NN)  (nn, 良药#NN, 滋补#NN)  (nsubj, 滋润#NN, 良药#NN)  (nsubj, 滋润#NN, 特点#NN)  (cop, 滋润#NN, 是#VC)  (root, ROOT#null, 滋润#NN)  (cc, 滋润#NN, 而#CC)  (neg, 腻滞#VV, 不#AD)  (conj, 滋润#NN, 腻滞#VV)  (relcl, 病人#NN, 具有#VV)  (nn, 开胃#NN, 补脾#NN)  (dep, 滋补#NN, 开胃#NN)  (amod, 肠#NN, 益气#JJ)  (amod, 肠#NN, 清#JJ)  (conj, 开胃#NN, 肠#NN)  (nn, 健胃#NN, 安眠#NN)  (conj, 开胃#NN, 健胃#NN)  (conj, 开胃#NN, 补脑#NN)  (dep, 开胃#NN, 养#VV)  (nn, 清热#NN, 阴#NN)  (dobj, 养#VV, 清热#NN)  (conj, 养#VV, 润燥#VV)  (dobj, 润燥#VV, 之功#NN)  (case, 火#NN, 对#P)  (nn, 火#NN, 阴虚#NN)  (prep, 受#VV, 火#NN)  (mmod, 受#VV, 旺#VV)  (neg, 受#VV, 不#AD)  (conj, 养#VV, 受#VV)  (dobj, 受#VV, 参茸#NN)  (etc, 参茸#NN, 等#ETC)  (nn, 滋补#NN, 温热#NN)  (dobj, 具有#VV, 滋补#NN)  (mark, 具有#VV, 的#DEC)  (nsubj, 补品#NN, 病人#NN)  (cop, 补品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 补品#NN, 种#M)  (relcl, 补品#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (ccomp, 腻滞#VV, 补品#NN)
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 免疫力#NN)
+            (mmod, 防止#VV, 能#VV)  (root, ROOT#null, 防止#VV)  (assmod, 流失#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (nsubj, 发育#VV, 流失#NN)  (case, 生长#NN, 对#P)  (prep, 发育#VV, 生长#NN)  (ccomp, 防止#VV, 发育#VV)  (advmod, 有益#VA, 十分#AD)  (dep, 发育#VV, 有益#VA)  (case, 富含#NN, 因#P)  (prep, 硒等#VV, 富含#NN)  (dep, 发育#VV, 硒等#VV)  (nn, 元素#NN, 微量#NN)  (dobj, 硒等#VV, 元素#NN)  (nsubj, 增强#VV, 它#PN)  (mmod, 增强#VV, 可以#VV)  (dep, 防止#VV, 增强#VV)  (nn, 肿瘤#NN, 机体#NN)  (nn, 肿瘤#NN, 抗#NN)  (assmod, 免疫力#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (dobj, 增强#VV, 免疫力#NN)
+            (nsubj, 祛斑#VV, 美容#NN)  (root, ROOT#null, 祛斑#VV)
+            (nsubj, 富有#VV, 银耳#NN)  (root, ROOT#null, 富有#VV)  (amod, 胶质#NN, 天然#JJ)  (nn, 胶质#NN, 特性#NN)  (dobj, 富有#VV, 胶质#NN)  (conj, 富有#VV, 加上#VV)  (assmod, 作用#NN, 它#PN)  (case, 它#PN, 的#DEG)  (amod, 作用#NN, 滋阴#JJ)  (dobj, 加上#VV, 作用#NN)  (advmod, 服用#VV, 长期#AD)  (conj, 富有#VV, 服用#VV)  (rcomp, 服用#VV, 可以#VV)  (dobj, 服用#VV, 润肤#NN)  (cc, 富有#VV, 并#CC)  (conj, 富有#VV, 有#VE)  (nn, 雀斑#NN, 祛除#NN)  (nn, 雀斑#NN, 脸部#NN)  (conj, 雀斑#NN, 黄褐斑#NN)  (assmod, 功效#NN, 雀斑#NN)  (case, 雀斑#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 减肥#VV)
+            (nsubj, 含#VV, 银耳#NN)  (cop, 含#VV, 是#VC)  (case, 种#NN, 和#P)  (prep, 含#VV, 种#NN)  (root, ROOT#null, 含#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 含#VV, 纤维#NN)  (mark, 含#VV, 的#DEC)  (conj, 含#VV, 减肥#VV)  (dobj, 减肥#VV, 食品#NN)  (assmod, 纤维#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 可#VV, 纤维#NN)  (conj, 含#VV, 可#VV)  (nn, 蠕动#NN, 助#NN)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 可#VV, 蠕动#NN)  (conj, 可#VV, 减少#VV)  (dobj, 减少#VV, 脂肪#NN)  (conj, 减少#VV, 吸收#VV)
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 耐受力#NN)
+            (nsubj, 增强#VV, 银耳#NN)  (advmod, 增强#VV, 还#AD)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (nn, 患者#NN, 肿瘤#NN)  (nn, 耐受力#NN, 患者#NN)  (case, 化疗#NR, 对#P)  (conj, 化疗#NR, 放疗#NR)  (assmod, 耐受力#NN, 化疗#NR)  (case, 化疗#NR, 的#DEG)  (dobj, 增强#VV, 耐受力#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        护肝  美容养颜  抗癌防癌  生津止渴  补虚  润肺  养胃阴  辅助降血脂  升高白细胞  抗血栓  抗胃溃疡  增强造血功能  辅助降血糖  增强免疫力  抗炎  延缓衰老  抗辐射  促进组织生长
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.银耳富含维生素D，能防止钙的流失。
+            2.银耳蛋白质中含有17种氨基酸，人体所必需的氨基酸中的3/4银耳都能提供。
+            3.银耳还含有多种矿物质，如钙、磷、铁、钾、钠、镁、硫等，其中钙、铁的含量很高。
+            4.银耳中还含有海藻糖、多缩戊糖、甘露糖醇等肝糖，营养价值很高，具有扶正强壮的作用，是一种高级滋养补品。
+            5.银耳中还有较丰富的膳食纤维。
+        </rawdata>
+
+        <segment>
+            银耳  富含  维生素D  ，  能  防止  钙  的  流失  。
+            银耳  蛋白质  中  含有  17  种  氨基酸  ，  人体  所  必需  的  氨基酸  中  的  3/4  银耳  都  能  提供  。
+            银耳  还  含有  多  种  矿物质  ，  如  钙  、  磷  、  铁  、  钾  、  钠  、  镁  、  硫  等  ，  其中  钙  、  铁  的  含量  很  高  。
+            银耳  中  还  含有  海藻糖  、  多缩戊糖  、  甘露糖醇  等  肝糖  ，  营养  价值  很  高  ，  具有  扶正  强壮  的  作用  ，  是  一  种  高级  滋养  补品  。
+            银耳  中  还  有  较  丰富  的  膳食  纤维  。
+        </segment>
+
+        <pos>
+            银耳#NN  富含#NN  维生素D#VV  ，#PU  能#VV  防止#VV  钙#NN  的#DEG  流失#NN  。#PU
+            银耳#NN  蛋白质#NN  中#LC  含有#VV  17#CD  种#M  氨基酸#NN  ，#PU  人体#AD  所#MSP  必需#VV  的#DEC  氨基酸#NN  中#LC  的#DEG  3/4#CD  银耳#NN  都#AD  能#VV  提供#VV  。#PU
+            银耳#NN  还#AD  含有#VV  多#CD  种#M  矿物质#NN  ，#PU  如#AD  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  钠#NN  、#PU  镁#NN  、#PU  硫#NN  等#ETC  ，#PU  其中#NN  钙#NN  、#PU  铁#NN  的#DEG  含量#NN  很#AD  高#VA  。#PU
+            银耳#NN  中#LC  还#AD  含有#VV  海藻糖#NR  、#PU  多缩戊糖#NR  、#PU  甘露糖醇#NR  等#ETC  肝糖#NN  ，#PU  营养#VA  价值#NN  很#AD  高#VA  ，#PU  具有#VV  扶正#NN  强壮#NN  的#DEG  作用#NN  ，#PU  是#VC  一#CD  种#M  高级#JJ  滋养#NN  补品#NN  。#PU
+            银耳#NN  中#LC  还#AD  有#VE  较#AD  丰富#VA  的#DEC  膳食#JJ  纤维#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 银耳#NN)  (nsubj, 维生素D#VV, 富含#NN)  (xsubj, 防止#VV, 富含#NN)  (root, ROOT#null, 维生素D#VV)  (mmod, 防止#VV, 能#VV)  (ccomp, 维生素D#VV, 防止#VV)  (assmod, 流失#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 防止#VV, 流失#NN)
+            (nn, 蛋白质#NN, 银耳#NN)  (loc, 含有#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 17#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含有#VV, 氨基酸#NN)  (advmod, 必需#VV, 人体#AD)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (assmod, 银耳#NN, 氨基酸#NN)  (case, 氨基酸#NN, 中#LC)  (case, 氨基酸#NN, 的#DEG)  (nummod, 银耳#NN, 3/4#CD)  (nsubj, 提供#VV, 银耳#NN)  (advmod, 提供#VV, 都#AD)  (dep, 提供#VV, 能#VV)  (conj, 含有#VV, 提供#VV)
+            (nsubj, 含有#VV, 银耳#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 硫#NN, 如#AD)  (conj, 硫#NN, 钙#NN)  (conj, 硫#NN, 磷#NN)  (conj, 硫#NN, 铁#NN)  (conj, 硫#NN, 钾#NN)  (conj, 硫#NN, 钠#NN)  (conj, 硫#NN, 镁#NN)  (nsubj, 高#VA, 硫#NN)  (etc, 硫#NN, 等#ETC)  (nn, 铁#NN, 其中#NN)  (conj, 铁#NN, 钙#NN)  (assmod, 含量#NN, 铁#NN)  (case, 铁#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 含有#VV, 高#VA)
+            (loc, 含有#VV, 银耳#NN)  (case, 银耳#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (relcl, 价值#NN, 含有#VV)  (conj, 甘露糖醇#NR, 海藻糖#NR)  (conj, 甘露糖醇#NR, 多缩戊糖#NR)  (nn, 肝糖#NN, 甘露糖醇#NR)  (etc, 甘露糖醇#NR, 等#ETC)  (dobj, 含有#VV, 肝糖#NN)  (conj, 含有#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 具有#VV)  (nn, 强壮#NN, 扶正#NN)  (assmod, 作用#NN, 强壮#NN)  (case, 强壮#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (cop, 补品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 补品#NN, 种#M)  (amod, 补品#NN, 高级#JJ)  (nn, 补品#NN, 滋养#NN)  (conj, 高#VA, 补品#NN)
+            (loc, 有#VE, 银耳#NN)  (case, 银耳#NN, 中#LC)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (advmod, 丰富#VA, 较#AD)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 纤维#NN, 膳食#JJ)  (dobj, 有#VE, 纤维#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.银耳宜用开水泡发，泡发后应去掉未发开的部分，特别是那些呈淡黄色的东西。
+            2.选用偏黄一些的银耳口感较好，炖好的甜品放入冰箱冰镇后饮用，味道更佳。
+            3.银耳一定要把根部剪掉，这样才容易煮烂，而且一低昂要小火慢煮，直到煮烂为止。这样胶质才会全部被煮出来。
+            4.银耳主要用来做甜菜，以汤菜为主；冰糖银耳含糖量高，睡前不宜食用，以免血黏度增高。
+            5.银耳是一种含粗纤维的减肥食品，配合丰胸效果显著的木瓜同炖，可谓是“美容美体佳品”。
+            6.变质银耳不可食用，以防中毒。
+            7.熟银耳忌久放。　
+        </rawdata>
+
+        <segment>
+            银耳宜  用  开水  泡  发  ，  泡发  后  应  去掉  未发  开  的  部分  ，  特别是  那些  呈  淡黄色  的  东西  。
+            选用  偏  黄  一些  的  银耳  口感  较好  ，  炖  好  的  甜品  放入  冰箱  冰镇  后  饮用  ，  味道  更佳  。
+            银耳  一定  要  把  根部  剪掉  ，  这样  才  容易  煮烂  ，  而且  一  低  昂要  小火  慢煮  ，  直  到  煮烂  为止  。  这样  胶质  才  会  全部  被  煮  出来  。
+            银耳  主要  用来  做  甜菜  ，  以  汤  菜  为主  ；  冰糖  银耳  含糖量  高  ，  睡前  不  宜  食用  ，  以免  血  黏度  增高  。
+            银耳  是  一  种  含  粗  纤维  的  减肥  食品  ，  配合  丰胸  效果  显著  的  木瓜  同  炖  ，  可谓  是  “  美容  美体  佳品  ”  。
+            变质  银耳  不  可  食用  ，  以防  中毒  。
+            熟  银耳忌  久  放  。
+        </segment>
+
+        <pos>
+            银耳宜#NN  用#P  开水#NN  泡#NN  发#VV  ，#PU  泡发#NN  后#LC  应#P  去掉#NN  未发#VV  开#VV  的#DEC  部分#NN  ，#PU  特别是#AD  那些#DT  呈#VV  淡黄色#NN  的#DEG  东西#NN  。#PU
+            选用#NN  偏#AD  黄#NR  一些#CD  的#DEG  银耳#NN  口感#NN  较好#AD  ，#PU  炖#AD  好#VA  的#DEC  甜品#NN  放入#VV  冰箱#NN  冰镇#NN  后#LC  饮用#VV  ，#PU  味道#NN  更佳#VV  。#PU
+            银耳#NN  一定#AD  要#VV  把#BA  根部#AD  剪掉#VV  ，#PU  这样#AD  才#AD  容易#VA  煮烂#VA  ，#PU  而且#CC  一#CD  低#JJ  昂要#NN  小火#VV  慢煮#NN  ，#PU  直#AD  到#P  煮烂#NT  为止#LC    。#PU  这样#JJ  胶质#NN  才#AD  会#VV  全部#AD  被#SB  煮#VV  出来#VV    。#PU    。#PU
+            银耳#NR  主要#JJ  用来#NN  做#VV  甜菜#NN  ，#PU  以#P  汤#NN  菜#NN  为主#VV  ；#PU  冰糖#NN  银耳#NN  含糖量#AD  高#VA  ，#PU  睡前#NN  不#AD  宜#NR  食用#VV  ，#PU  以免#VV  血#NN  黏度#AD  增高#VV  。#PU
+            银耳#NN  是#VC  一#CD  种#M  含#VV  粗#NN  纤维#NN  的#DEC  减肥#VV  食品#NN  ，#PU  配合#VV  丰胸#NN  效果#NN  显著#VA  的#DEC  木瓜#NN  同#CC  炖#NN  ，#PU  可谓#NN  是#VC  ``#NN  美容#NN  美体#NN  佳品#NN  ''#NN  。#PU
+            变质#NR  银耳#VV  不#AD  可#VV  食用#VV  ，#PU  以防#AD  中毒#VV  。#PU
+            熟#JJ  银耳忌#NN  久#AD  放#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 发#VV, 银耳宜#NN)  (case, 泡#NN, 用#P)  (nn, 泡#NN, 开水#NN)  (prep, 发#VV, 泡#NN)  (root, ROOT#null, 发#VV)  (loc, 未发#VV, 泡发#NN)  (case, 泡发#NN, 后#LC)  (case, 去掉#NN, 应#P)  (prep, 未发#VV, 去掉#NN)  (conj, 发#VV, 未发#VV)  (relcl, 部分#NN, 开#VV)  (mark, 开#VV, 的#DEC)  (dobj, 未发#VV, 部分#NN)  (advmod, 呈#VV, 特别是#AD)  (dep, 呈#VV, 那些#DT)  (conj, 发#VV, 呈#VV)  (assmod, 东西#NN, 淡黄色#NN)  (case, 淡黄色#NN, 的#DEG)  (dobj, 呈#VV, 东西#NN)
+            (nsubj, 饮用#VV, 选用#NN)  (advmod, 饮用#VV, 偏#AD)  (nn, 口感#NN, 黄#NR)  (assmod, 口感#NN, 一些#CD)  (case, 一些#CD, 的#DEG)  (nn, 口感#NN, 银耳#NN)  (nsubj, 好#VA, 口感#NN)  (advmod, 好#VA, 较好#AD)  (advmod, 好#VA, 炖#AD)  (relcl, 甜品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nsubj, 放入#VV, 甜品#NN)  (loc, 饮用#VV, 放入#VV)  (nn, 冰镇#NN, 冰箱#NN)  (dobj, 放入#VV, 冰镇#NN)  (case, 放入#VV, 后#LC)  (root, ROOT#null, 饮用#VV)  (nsubj, 更佳#VV, 味道#NN)  (ccomp, 饮用#VV, 更佳#VV)
+            (nsubj, 剪掉#VV, 银耳#NN)  (advmod, 剪掉#VV, 一定#AD)  (mmod, 剪掉#VV, 要#VV)  (ba, 剪掉#VV, 把#BA)  (advmod, 剪掉#VV, 根部#AD)  (root, ROOT#null, 剪掉#VV)  (advmod, 容易#VA, 这样#AD)  (advmod, 容易#VA, 才#AD)  (dep, 剪掉#VV, 容易#VA)  (comod, 容易#VA, 煮烂#VA)  (cc, 剪掉#VV, 而且#CC)  (nummod, 昂要#NN, 一#CD)  (amod, 昂要#NN, 低#JJ)  (nsubj, 小火#VV, 昂要#NN)  (dep, 剪掉#VV, 小火#VV)  (dobj, 小火#VV, 慢煮#NN)  (conj, 剪掉#VV, 直#AD)  (case, 煮烂#NT, 到#P)  (dep, 直#AD, 煮烂#NT)  (case, 煮烂#NT, 为止#LC)   (amod, 胶质#NN, 这样#JJ)  (nsubj, 煮#VV, 胶质#NN)  (advmod, 煮#VV, 才#AD)  (mmod, 煮#VV, 会#VV)  (advmod, 煮#VV, 全部#AD)  (auxpass, 煮#VV, 被#SB)  (root, ROOT#null, 煮#VV)  (comod, 煮#VV, 出来#VV)   (root, ROOT#null, null#null)
+            (nn, 用来#NN, 银耳#NR)  (amod, 用来#NN, 主要#JJ)  (nsubj, 做#VV, 用来#NN)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 甜菜#NN)  (case, 菜#NN, 以#P)  (nn, 菜#NN, 汤#NN)  (prep, 为主#VV, 菜#NN)  (conj, 做#VV, 为主#VV)  (nn, 银耳#NN, 冰糖#NN)  (nsubj, 高#VA, 银耳#NN)  (advmod, 高#VA, 含糖量#AD)  (conj, 做#VV, 高#VA)  (nsubj, 食用#VV, 睡前#NN)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 宜#NR)  (conj, 做#VV, 食用#VV)  (conj, 食用#VV, 以免#VV)  (dobj, 以免#VV, 血#NN)  (advmod, 增高#VV, 黏度#AD)  (dep, 以免#VV, 增高#VV)
+            (nsubj, 炖#NN, 银耳#NN)  (cop, 炖#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 炖#NN, 种#M)  (relcl, 效果#NN, 含#VV)  (nn, 纤维#NN, 粗#NN)  (dobj, 含#VV, 纤维#NN)  (mark, 含#VV, 的#DEC)  (nfincl, 效果#NN, 减肥#VV)  (dobj, 减肥#VV, 食品#NN)  (conj, 减肥#VV, 配合#VV)  (dobj, 配合#VV, 丰胸#NN)  (nsubj, 显著#VA, 效果#NN)  (relcl, 炖#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (conj, 炖#NN, 木瓜#NN)  (cc, 炖#NN, 同#CC)  (root, ROOT#null, 炖#NN)  (nsubj, ''#NN, 可谓#NN)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 美容#NN)  (nn, ''#NN, 美体#NN)  (nn, ''#NN, 佳品#NN)  (conj, 炖#NN, ''#NN)
+            (nsubj, 银耳#VV, 变质#NR)  (xsubj, 食用#VV, 变质#NR)  (root, ROOT#null, 银耳#VV)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 可#VV)  (ccomp, 银耳#VV, 食用#VV)  (advmod, 中毒#VV, 以防#AD)  (dep, 银耳#VV, 中毒#VV)
+            (amod, 银耳忌#NN, 熟#JJ)  (nsubj, 放#VV, 银耳忌#NN)  (advmod, 放#VV, 久#AD)  (root, ROOT#null, 放#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121121151097.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\257 银耳.jpg
+    </picturelocalurl>
+
+</content>

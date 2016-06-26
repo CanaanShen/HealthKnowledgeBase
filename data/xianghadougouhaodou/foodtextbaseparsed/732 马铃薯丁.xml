@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        732
+    </id>
+
+    <foodname>
+        马铃薯丁
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        阳芋、山药蛋、洋番薯、土豆、洋芋、山洋芋、地蛋、洋山芋、荷兰薯、薯仔、茨仔
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇慎食以免增加妊娠风险。想减肥的人尤其应该吃。
+        </rawdata>
+
+        <segment>
+            孕妇  慎  食  以免  增加  妊娠  风险  。  想  减肥  的  人  尤其  应该  吃  。
+        </segment>
+
+        <pos>
+            孕妇#NN  慎#NN  食#NN  以免#VV  增加#VV  妊娠#VV  风险#NN    。#PU  想#VV  减肥#VV  的#DEC  人#NN  尤其#AD  应该#VV  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 食#NN, 孕妇#NN)  (nn, 食#NN, 慎#NN)  (nsubj, 以免#VV, 食#NN)  (xsubj, 妊娠#VV, 食#NN)  (root, ROOT#null, 以免#VV)  (mmod, 妊娠#VV, 增加#VV)  (ccomp, 以免#VV, 妊娠#VV)  (dobj, 妊娠#VV, 风险#NN)   (relcl, 人#NN, 想#VV)  (ccomp, 想#VV, 减肥#VV)  (mark, 想#VV, 的#DEC)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 尤其#AD)  (dep, 吃#VV, 应该#VV)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            多年生草本，但作一年生或一年两季栽培。地下块茎呈圆、卵、椭圆等形，有芽眼，皮红、黄、白或紫色。地上茎呈棱形，有毛。奇数羽状复叶。聚伞花序顶生，花白、红或紫色。浆果球形，绿或紫褐色。种子肾形，黄色。多用块茎繁殖。可入药。
+        </rawdata>
+
+        <segment>
+            多年生  草本  ，  但  作  一  年  生  或  一  年  两  季  栽培  。  地下  块茎  呈  圆  、  卵  、  椭圆  等  形  ，  有  芽眼  ，  皮  红  、  黄  、  白  或  紫色  。  地上茎  呈  棱形  ，  有毛  。  奇数  羽状  复叶  。  聚伞花序  顶生  ，  花白  、  红  或  紫色  。  浆果  球形  ，  绿  或  紫  褐色  。  种子  肾形  ，  黄色  。  多用  块茎  繁殖  。  可  入药  。
+        </segment>
+
+        <pos>
+            多年生#NR  草本#VV  ，#PU  但#AD  作#VV  一#CD  年#M  生#VV  或#CC  一#CD  年#M  两#CD  季#NN  栽培#VV    。#PU  地下#JJ  块茎#NN  呈#VV  圆#VV  、#PU  卵#NN  、#PU  椭圆#NN  等#ETC  形#VV  ，#PU  有#VE  芽眼#NN  ，#PU  皮#VV  红#JJ  、#PU  黄#JJ  、#PU  白#JJ  或#CC  紫色#JJ    。#PU  地上茎#AD  呈#VV  棱形#NN  ，#PU  有毛#VV    。#PU  奇数#NN  羽状#NN  复叶#NN    。#PU  聚伞花序#VV  顶生#NN  ，#PU  花白#JJ  、#PU  红#JJ  或#CC  紫色#JJ    。#PU  浆果#NR  球形#VV  ，#PU  绿#VA  或#CC  紫#VA  褐色#VV    。#PU  种子#NN  肾形#VV  ，#PU  黄色#JJ    。#PU  多用#NN  块茎#VV  繁殖#NN    。#PU  可#VV  入药#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 草本#VV, 多年生#NR)  (root, ROOT#null, 草本#VV)  (advmod, 生#VV, 但#AD)  (dep, 生#VV, 作#VV)  (nummod, 年#M, 一#CD)  (range, 作#VV, 年#M)  (ccomp, 草本#VV, 生#VV)  (cc, 生#VV, 或#CC)  (nummod, 年#M, 一#CD)  (clf, 季#NN, 年#M)  (nummod, 季#NN, 两#CD)  (nsubj, 栽培#VV, 季#NN)  (dep, 生#VV, 栽培#VV)   (amod, 块茎#NN, 地下#JJ)  (nsubj, 圆#VV, 块茎#NN)  (mmod, 圆#VV, 呈#VV)  (root, ROOT#null, 圆#VV)  (conj, 椭圆#NN, 卵#NN)  (prep, 形#VV, 椭圆#NN)  (etc, 椭圆#NN, 等#ETC)  (conj, 圆#VV, 形#VV)  (dep, 圆#VV, 有#VE)  (dobj, 有#VE, 芽眼#NN)  (conj, 圆#VV, 皮#VV)  (conj, 圆#VV, 红#JJ)  (conj, 红#JJ, 黄#JJ)  (conj, 红#JJ, 白#JJ)  (cc, 红#JJ, 或#CC)  (dep, 红#JJ, 紫色#JJ)   (advmod, 呈#VV, 地上茎#AD)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 棱形#NN)  (dep, 呈#VV, 有毛#VV)   (nn, 复叶#NN, 奇数#NN)  (nn, 复叶#NN, 羽状#NN)  (root, ROOT#null, 复叶#NN)   (root, ROOT#null, 聚伞花序#VV)  (dobj, 聚伞花序#VV, 顶生#NN)  (conj, 聚伞花序#VV, 花白#JJ)  (conj, 花白#JJ, 红#JJ)  (cc, 花白#JJ, 或#CC)  (dep, 花白#JJ, 紫色#JJ)   (nsubj, 球形#VV, 浆果#NR)  (root, ROOT#null, 球形#VV)  (ccomp, 球形#VV, 绿#VA)  (cc, 绿#VA, 或#CC)  (dep, 绿#VA, 紫#VA)  (dep, 球形#VV, 褐色#VV)   (nsubj, 肾形#VV, 种子#NN)  (root, ROOT#null, 肾形#VV)  (dep, 肾形#VV, 黄色#JJ)   (nsubj, 块茎#VV, 多用#NN)  (root, ROOT#null, 块茎#VV)  (dobj, 块茎#VV, 繁殖#NN)   (dep, 入药#VV, 可#VV)  (root, ROOT#null, 入药#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            和胃健中解毒消肿,宽肠通便，降糖降脂，活血消肿，益气强身，美容，抗衰老之功效
+        </rawdata>
+
+        <segment>
+            和  胃健  中  解毒  消肿  ,  宽  肠  通便  ，  降糖  降脂  ，  活血  消肿  ，  益气  强身  ，  美容  ，  抗  衰老  之  功效
+        </segment>
+
+        <pos>
+            和#P  胃健#NN  中#LC  解毒#VV  消肿#NN  ,#NN  宽#JJ  肠#NN  通便#NN  ，#PU  降糖#JJ  降脂#NN  ，#PU  活血#VV  消肿#NN  ，#PU  益气#VV  强身#NN  ，#PU  美容#VV  ，#PU  抗#VV  衰老#NN  之#DEG  功效#NN
+        </pos>
+
+        <parsing>
+            (case, 胃健#NN, 和#P)  (prep, 解毒#VV, 胃健#NN)  (case, 胃健#NN, 中#LC)  (root, ROOT#null, 解毒#VV)  (nn, ,#NN, 消肿#NN)  (amod, 肠#NN, 宽#JJ)  (nn, 通便#NN, 肠#NN)  (dep, 降脂#NN, 通便#NN)  (amod, 降脂#NN, 降糖#JJ)  (dobj, 解毒#VV, 降脂#NN)  (conj, 解毒#VV, 活血#VV)  (dobj, 活血#VV, 消肿#NN)  (conj, 解毒#VV, 益气#VV)  (dobj, 益气#VV, 强身#NN)  (conj, 解毒#VV, 美容#VV)  (conj, 解毒#VV, 抗#VV)  (assmod, 功效#NN, 衰老#NN)  (case, 衰老#NN, 之#DEG)  (dobj, 抗#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  除烦  止痢  解毒  补肾  清热  和胃  抗菌  利尿
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/00/41/82176_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\732 马铃薯丁.jpg
+    </picturelocalurl>
+
+</content>

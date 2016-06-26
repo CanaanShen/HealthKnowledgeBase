@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        329
+    </id>
+
+    <foodname>
+        桑葚
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        桑实、桑果、桑枣、乌椹
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者忌食
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  忌食
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  忌食#VV
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                13.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                9.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                5.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            桑葚果实中含有丰富的活性蛋白、维生素、氨基酸、胡萝卜素、矿物质等成分，具有多种功效。常吃桑葚能显著提高人体免疫力，具有延缓衰老，美容养颜的功效。
+        </rawdata>
+
+        <segment>
+            桑葚  果实  中  含有  丰富  的  活性  蛋白  、  维生素  、  氨基酸  、  胡萝卜素  、  矿物质  等  成分  ，  具有  多  种  功效  。  常  吃  桑葚  能  显著  提高  人体  免疫力  ，  具有  延缓  衰老  ，  美容  养颜  的  功效  。
+        </segment>
+
+        <pos>
+            桑葚#VV  果实#NN  中#LC  含有#AD  丰富#VA  的#DEC  活性#NN  蛋白#NN  、#PU  维生素#NN  、#PU  氨基酸#NN  、#PU  胡萝卜素#NN  、#PU  矿物质#NN  等#ETC  成分#NN  ，#PU  具有#VV  多#CD  种#M  功效#NN    。#PU  常#AD  吃#VV  桑葚#NN  能#VV  显著#AD  提高#VV  人体#NN  免疫力#NN  ，#PU  具有#VV  延缓#NN  衰老#NN  ，#PU  美容#VV  养颜#NN  的#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 桑葚#VV)  (loc, 丰富#VA, 果实#NN)  (case, 果实#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 矿物质#NN, 活性#NN)  (conj, 矿物质#NN, 蛋白#NN)  (conj, 矿物质#NN, 维生素#NN)  (conj, 矿物质#NN, 氨基酸#NN)  (conj, 矿物质#NN, 胡萝卜素#NN)  (nn, 成分#NN, 矿物质#NN)  (etc, 矿物质#NN, 等#ETC)  (dobj, 桑葚#VV, 成分#NN)  (conj, 桑葚#VV, 具有#VV)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (dobj, 具有#VV, 功效#NN)   (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 桑葚#NN)  (mmod, 提高#VV, 能#VV)  (advmod, 提高#VV, 显著#AD)  (conj, 吃#VV, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)  (conj, 吃#VV, 具有#VV)  (nn, 衰老#NN, 延缓#NN)  (dobj, 具有#VV, 衰老#NN)  (conj, 吃#VV, 美容#VV)  (assmod, 功效#NN, 养颜#NN)  (case, 养颜#NN, 的#DEG)  (dobj, 美容#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.健脾胃助消化
+            桑葚中含有鞣酸、脂肪酸、苹果酸等营养物质，能促进脂肪、蛋白质及淀粉的消化，故有健脾胃、助消化之功效，可用于治疗因消化不良而导致的腹泻。
+            2.乌发美容
+            桑葚中除含有大量人体所需要营养物质外，还含有乌发素，能使头发变得黑而亮泽，故可用来美容。
+            3.预防血管硬化
+            桑葚中含有鞣酸、苹果酸、维生素C和脂肪酸等。其中所含的脂肪酸主要为亚油酸、油酸、软脂酸、硬脂酸、亚麻酸等。此外，桑葚中含有丰富的白黎芦醇。白黎芦醇是一种有效的抗氧化剂，能抑制低密度脂蛋白的脂质过氧化反应，防止低密度脂蛋白氧化产生的细胞毒素，从而保护细胞的脂质过氧化。白黎芦醇还能降低血小板聚集，从而预防动脉硬化。
+            4.防癌抗癌
+            桑葚中含有大量芦丁，芦丁可阻止结肠癌的形成，可凉血止血、清肝泻火，具抗炎、抗病毒作用。故常吃桑葚还有助于防治脑出血、高血压、视网膜出血、慢性支气管炎等。
+            5.明目
+            常食桑椹可以明目，缓解眼睛疲劳干涩的症状。
+            6.抗衰老
+            桑葚是中老年人健体美颜、抗衰老的佳果与良药。
+        </rawdata>
+
+        <segment>
+            健脾胃  助  消化
+            桑葚  中  含有  鞣酸  、  脂肪酸  、  苹果  酸  等  营养  物质  ，  能  促进  脂肪  、  蛋白质  及  淀粉  的  消化  ，  故  有  健  脾胃  、  助消化  之  功效  ，  可  用于  治疗  因  消化不良  而  导致  的  腹泻  。
+            乌发  美容
+            桑葚  中  除  含有  大量  人体  所  需要  营养  物质  外  ，  还  含有  乌发素  ，  能  使  头发  变得  黑  而  亮泽  ，  故  可  用来  美容  。
+            预防  血管  硬化
+            桑葚  中  含有  鞣酸  、  苹果酸  、  维生素C  和  脂肪酸  等  。  其中  所含  的  脂肪酸  主要  为  亚油酸  、  油酸  、  软脂酸  、  硬脂酸  、  亚麻酸  等  。  此外  ，  桑葚  中  含有  丰富  的  白  黎  芦醇  。  白  黎  芦醇  是  一  种  有效  的  抗氧化剂  ，  能  抑制  低密度  脂蛋白  的  脂质  过氧化  反应  ，  防止  低密度  脂蛋白  氧化  产生  的  细胞  毒素  ，  从而  保护  细胞  的  脂质  过  氧化  。  白  黎  芦醇  还  能  降低  血小板  聚集  ，  从而  预防  动脉  硬化  。
+            防癌  抗癌
+            桑葚  中  含有  大量  芦丁  ，  芦丁  可  阻止  结肠  癌的  形成  ，  可  凉  血  止血  、  清肝泻火  ，  具  抗炎  、  抗  病毒  作用  。  故常  吃  桑葚  还  有助于  防治  脑  出血  、  高血压  、  视网膜  出血  、  慢性  支气管炎  等  。
+            明目
+            常食  桑椹  可以  明目  ，  缓解  眼睛  疲劳  干涩  的  症状  。
+            抗  衰老
+            桑葚  是  中老年人  健体  美颜  、  抗  衰老  的  佳果  与  良药  。
+        </segment>
+
+        <pos>
+            健脾胃#VV  助#NN  消化#NN
+            桑葚#VV  中#NR  含有#NR  鞣酸#NR  、#PU  脂肪酸#NR  、#PU  苹果#NR  酸#NR  等#ETC  营养#VA  物质#NN  ，#PU  能#VV  促进#VV  脂肪#NR  、#PU  蛋白质#NR  及#CC  淀粉#NR  的#DEG  消化#NN  ，#PU  故#AD  有#VE  健#VA  脾胃#NN  、#PU  助消化#NN  之#DEG  功效#NN  ，#PU  可#VV  用于#VV  治疗#VV  因#P  消化不良#VV  而#MSP  导致#VV  的#DEC  腹泻#NN  。#PU
+            乌发#NN  美容#VV
+            桑葚#NN  中#LC  除#P  含有#VV  大量#CD  人体#NN  所#MSP  需要#VV  营养#VA  物质#NN  外#LC  ，#PU  还#AD  含有#VV  乌发素#NN  ，#PU  能#VV  使#VV  头发#NN  变得#VV  黑#VA  而#CC  亮泽#VA  ，#PU  故#AD  可#VV  用来#VV  美容#NN  。#PU
+            预防#VV  血管#NN  硬化#NN
+            桑葚#NR  中#NR  含有#NR  鞣酸#NR  、#PU  苹果酸#NR  、#PU  维生素C#NR  和#CC  脂肪酸#NR  等#ETC    。#PU  其中#NN  所含#NN  的#DEG  脂肪酸#NN  主要#AD  为#VC  亚油酸#NR  、#PU  油酸#NR  、#PU  软脂酸#NR  、#PU  硬脂酸#NR  、#PU  亚麻酸#NR  等#ETC    。#PU  此外#AD  ，#PU  桑葚#NN  中#LC  含有#AD  丰富#VA  的#DEC  白#JJ  黎#NN  芦醇#VV    。#PU  白#JJ  黎#NN  芦醇#NN  是#VC  一#CD  种#M  有效#VA  的#DEC  抗氧化剂#NN  ，#PU  能#VV  抑制#VV  低密度#NN  脂蛋白#NN  的#DEG  脂质#NN  过氧化#NN  反应#NN  ，#PU  防止#VV  低密度#AD  脂蛋白#VV  氧化#AD  产生#VV  的#DEC  细胞#NN  毒素#NN  ，#PU  从而#AD  保护#VV  细胞#NN  的#DEC  脂质#NN  过#AD  氧化#VA    。#PU  白#JJ  黎#NN  芦醇#NN  还#AD  能#VV  降低#VV  血小板#NN  聚集#VV  ，#PU  从而#AD  预防#VV  动脉#NN  硬化#NN    。#PU    。#PU
+            防癌#NN  抗癌#VV
+            桑葚#NN  中#LC  含有#NN  大量#AD  芦丁#VV  ，#PU  芦丁#NR  可#VV  阻止#VV  结肠#NN  癌的#AD  形成#VV  ，#PU  可#VV  凉#VV  血#NN  止血#NN  、#PU  清肝泻火#NN  ，#PU  具#VV  抗炎#NN  、#PU  抗#NN  病毒#NN  作用#NN    。#PU  故常#AD  吃#VV  桑葚#NN  还#AD  有助于#VV  防治#VV  脑#AD  出血#VV  、#PU  高血压#VV  、#PU  视网膜#AD  出血#VV  、#PU  慢性#NN  支气管炎#NN  等#ETC    。#PU    。#PU
+            明目#VV
+            常食#NN  桑椹#NN  可以#VV  明目#NN  ，#PU  缓解#VV  眼睛#NN  疲劳#VA  干涩#VA  的#DEC  症状#NN  。#PU
+            抗#NN  衰老#VV
+            桑葚#NN  是#VC  中老年人#NN  健体#NN  美颜#NN  、#PU  抗#NN  衰老#NN  的#DEG  佳果#NN  与#CC  良药#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 健脾胃#VV)  (nn, 消化#NN, 助#NN)  (dobj, 健脾胃#VV, 消化#NN)
+            (root, ROOT#null, 桑葚#VV)  (nn, 含有#NR, 中#NR)  (nn, 物质#NN, 含有#NR)  (conj, 酸#NR, 鞣酸#NR)  (conj, 酸#NR, 脂肪酸#NR)  (nn, 酸#NR, 苹果#NR)  (nn, 物质#NN, 酸#NR)  (etc, 酸#NR, 等#ETC)  (nfincl, 物质#NN, 营养#VA)  (dobj, 桑葚#VV, 物质#NN)  (mmod, 促进#VV, 能#VV)  (conj, 桑葚#VV, 促进#VV)  (conj, 淀粉#NR, 脂肪#NR)  (conj, 淀粉#NR, 蛋白质#NR)  (cc, 淀粉#NR, 及#CC)  (assmod, 消化#NN, 淀粉#NR)  (case, 淀粉#NR, 的#DEG)  (dobj, 促进#VV, 消化#NN)  (advmod, 有#VE, 故#AD)  (conj, 桑葚#VV, 有#VE)  (relcl, 助消化#NN, 健#VA)  (conj, 助消化#NN, 脾胃#NN)  (assmod, 功效#NN, 助消化#NN)  (case, 助消化#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)  (mmod, 用于#VV, 可#VV)  (conj, 桑葚#VV, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (case, 消化不良#VV, 因#P)  (prep, 导致#VV, 消化不良#VV)  (prtmod, 导致#VV, 而#MSP)  (relcl, 腹泻#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (dobj, 治疗#VV, 腹泻#NN)
+            (nsubj, 美容#VV, 乌发#NN)  (root, ROOT#null, 美容#VV)
+            (loc, 含有#VV, 桑葚#NN)  (case, 桑葚#NN, 中#LC)  (case, 含有#VV, 除#P)  (prep, 含有#VV, 含有#VV)  (nummod, 人体#NN, 大量#CD)  (dobj, 含有#VV, 人体#NN)  (prtmod, 需要#VV, 所#MSP)  (conj, 含有#VV, 需要#VV)  (nfincl, 物质#NN, 营养#VA)  (dobj, 需要#VV, 物质#NN)  (case, 含有#VV, 外#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 乌发素#NN)  (mmod, 使#VV, 能#VV)  (conj, 含有#VV, 使#VV)  (dobj, 使#VV, 头发#NN)  (mmod, 黑#VA, 变得#VV)  (dep, 使#VV, 黑#VA)  (cc, 黑#VA, 而#CC)  (dep, 黑#VA, 亮泽#VA)  (advmod, 用来#VV, 故#AD)  (mmod, 用来#VV, 可#VV)  (dep, 使#VV, 用来#VV)  (dobj, 用来#VV, 美容#NN)
+            (root, ROOT#null, 预防#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 预防#VV, 硬化#NN)
+            (nn, 含有#NR, 桑葚#NR)  (nn, 含有#NR, 中#NR)  (nn, 脂肪酸#NR, 含有#NR)  (conj, 脂肪酸#NR, 鞣酸#NR)  (conj, 脂肪酸#NR, 苹果酸#NR)  (conj, 脂肪酸#NR, 维生素C#NR)  (cc, 脂肪酸#NR, 和#CC)  (root, ROOT#null, 脂肪酸#NR)  (etc, 脂肪酸#NR, 等#ETC)   (nn, 所含#NN, 其中#NN)  (assmod, 脂肪酸#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nsubj, 亚麻酸#NR, 脂肪酸#NN)  (advmod, 亚麻酸#NR, 主要#AD)  (cop, 亚麻酸#NR, 为#VC)  (conj, 亚麻酸#NR, 亚油酸#NR)  (conj, 亚麻酸#NR, 油酸#NR)  (conj, 亚麻酸#NR, 软脂酸#NR)  (conj, 亚麻酸#NR, 硬脂酸#NR)  (root, ROOT#null, 亚麻酸#NR)  (etc, 亚麻酸#NR, 等#ETC)   (advmod, 芦醇#VV, 此外#AD)  (loc, 芦醇#VV, 桑葚#NN)  (case, 桑葚#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 黎#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 黎#NN, 白#JJ)  (nsubj, 芦醇#VV, 黎#NN)  (root, ROOT#null, 芦醇#VV)   (amod, 黎#NN, 白#JJ)  (nn, 芦醇#NN, 黎#NN)  (nsubj, 抗氧化剂#NN, 芦醇#NN)  (cop, 抗氧化剂#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (relcl, 抗氧化剂#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (root, ROOT#null, 抗氧化剂#NN)  (mmod, 抑制#VV, 能#VV)  (relcl, 脂质#NN, 抑制#VV)  (nn, 脂蛋白#NN, 低密度#NN)  (assmod, 反应#NN, 脂蛋白#NN)  (case, 脂蛋白#NN, 的#DEG)  (nn, 反应#NN, 脂质#NN)  (nn, 反应#NN, 过氧化#NN)  (dobj, 抑制#VV, 反应#NN)  (conj, 抑制#VV, 防止#VV)  (advmod, 脂蛋白#VV, 低密度#AD)  (ccomp, 防止#VV, 脂蛋白#VV)  (advmod, 产生#VV, 氧化#AD)  (relcl, 毒素#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, 毒素#NN, 细胞#NN)  (dobj, 脂蛋白#VV, 毒素#NN)  (advmod, 保护#VV, 从而#AD)  (conj, 抑制#VV, 保护#VV)  (dobj, 保护#VV, 细胞#NN)  (mark, 抑制#VV, 的#DEC)  (nsubj, 氧化#VA, 脂质#NN)  (advmod, 氧化#VA, 过#AD)  (conj, 抗氧化剂#NN, 氧化#VA)   (amod, 黎#NN, 白#JJ)  (nn, 芦醇#NN, 黎#NN)  (nsubj, 降低#VV, 芦醇#NN)  (advmod, 降低#VV, 还#AD)  (mmod, 降低#VV, 能#VV)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血小板#NN)  (conj, 降低#VV, 聚集#VV)  (advmod, 预防#VV, 从而#AD)  (dep, 降低#VV, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 预防#VV, 硬化#NN)   (root, ROOT#null, null#null)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (dep, 含有#NN, 桑葚#NN)  (case, 桑葚#NN, 中#LC)  (nsubj, 芦丁#VV, 含有#NN)  (advmod, 芦丁#VV, 大量#AD)  (root, ROOT#null, 芦丁#VV)  (nsubj, 阻止#VV, 芦丁#NR)  (mmod, 阻止#VV, 可#VV)  (ccomp, 芦丁#VV, 阻止#VV)  (dobj, 阻止#VV, 结肠#NN)  (advmod, 形成#VV, 癌的#AD)  (dep, 阻止#VV, 形成#VV)  (mmod, 凉#VV, 可#VV)  (conj, 阻止#VV, 凉#VV)  (nn, 清肝泻火#NN, 血#NN)  (conj, 清肝泻火#NN, 止血#NN)  (dobj, 凉#VV, 清肝泻火#NN)  (conj, 阻止#VV, 具#VV)  (conj, 抗#NN, 抗炎#NN)  (nn, 病毒#NN, 抗#NN)  (nn, 作用#NN, 病毒#NN)  (dobj, 具#VV, 作用#NN)   (advmod, 吃#VV, 故常#AD)  (relcl, 桑葚#NN, 吃#VV)  (nsubj, 有助于#VV, 桑葚#NN)  (advmod, 有助于#VV, 还#AD)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 防治#VV)  (advmod, 出血#VV, 脑#AD)  (dep, 防治#VV, 出血#VV)  (conj, 出血#VV, 高血压#VV)  (advmod, 出血#VV, 视网膜#AD)  (conj, 出血#VV, 出血#VV)  (nn, 支气管炎#NN, 慢性#NN)  (dep, 出血#VV, 支气管炎#NN)  (etc, 支气管炎#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 明目#VV)
+            (nn, 桑椹#NN, 常食#NN)  (nsubj, 可以#VV, 桑椹#NN)  (root, ROOT#null, 可以#VV)  (dobj, 可以#VV, 明目#NN)  (conj, 可以#VV, 缓解#VV)  (nsubj, 疲劳#VA, 眼睛#NN)  (relcl, 症状#NN, 疲劳#VA)  (comod, 疲劳#VA, 干涩#VA)  (mark, 疲劳#VA, 的#DEC)  (dobj, 缓解#VV, 症状#NN)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (nsubj, 良药#NN, 桑葚#NN)  (cop, 良药#NN, 是#VC)  (nn, 衰老#NN, 中老年人#NN)  (nn, 衰老#NN, 健体#NN)  (conj, 衰老#NN, 美颜#NN)  (nn, 衰老#NN, 抗#NN)  (assmod, 良药#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (conj, 良药#NN, 佳果#NN)  (cc, 良药#NN, 与#CC)  (root, ROOT#null, 良药#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  延缓衰老  明目  抗癌防癌  生津止渴  润肠通便  补血  补阴  增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            桑葚汁浓似蜜，甜酸清香，营养丰富，所以桑葚又被称为“民间圣果”。桑葚味甘、性寒，具生津止渴、补肝益肾、滋阴补血、明目安神、黑发、利关节、醒酒等功效。桑葚含有丰富的活性蛋白、维生素、氨基酸、胡萝卜素、矿物质、葡萄糖、蔗糖、果糖、鞣质、苹果酸、钙、维生素B1、维生素B2、维生素C、尼克酸等成分，其营养是苹果的5～6倍，是葡萄的4倍。
+        </rawdata>
+
+        <segment>
+            桑葚  汁浓  似蜜  ，  甜酸  清香  ，  营养  丰富  ，  所以  桑葚  又  被  称为  “  民间  圣果  ”  。  桑葚  味甘  、  性寒  ，  具  生津止渴  、  补肝  益  肾  、  滋阴  补血  、  明目  安神  、  黑发  、  利  关节  、  醒酒  等  功效  。  桑葚  含有  丰富  的  活性  蛋白  、  维生素  、  氨基酸  、  胡萝卜素  、  矿物质  、  葡萄糖  、  蔗糖  、  果糖  、  鞣质  、  苹果  酸  、  钙  、  维生素  B  维生素B2  、  维生素C  、  尼克酸  等  成分  ，  其  营养  是  苹果  的  5～6  倍  ，  是  葡萄  的  4  倍  。
+        </segment>
+
+        <pos>
+            桑葚#NN  汁浓#NN  似蜜#VV  ，#PU  甜酸#AD  清香#VA  ，#PU  营养#VA  丰富#VA  ，#PU  所以#AD  桑葚#NN  又#AD  被#SB  称为#VV  ``#NN  民间#NN  圣果#NN  ''#NN    。#PU  桑葚#NR  味甘#NN  、#PU  性寒#NN  ，#PU  具#VV  生津止渴#NR  、#PU  补肝#NR  益#NR  肾#NR  、#PU  滋阴#NR  补血#NR  、#PU  明目#NR  安神#NR  、#PU  黑发#NR  、#PU  利#NR  关节#NN  、#PU  醒酒#VV  等#ETC  功效#VV    。#PU  桑葚#NN  含有#NN  丰富#VA  的#DEC  活性#NN  蛋白#NR  、#PU  维生素#NN  、#PU  氨基酸#NR  、#PU  胡萝卜素#NR  、#PU  矿物质#NR  、#PU  葡萄糖#NR  、#PU  蔗糖#NR  、#PU  果糖#NR  、#PU  鞣质#NR  、#PU  苹果#NR  酸#NR  、#PU  钙#NR  、#PU  维生素#NN  B#NN  维生素B2#CD  、#PU  维生素C#NR  、#PU  尼克酸#NR  等#ETC  成分#NN  ，#PU  其#PN  营养#VA  是#VC  苹果#VA  的#DEC  5#CD  ～#NN  6#CD  倍#M  ，#PU  是#VC  葡萄#NN  的#DEG  4#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 汁浓#NN, 桑葚#NN)  (nsubj, 似蜜#VV, 汁浓#NN)  (root, ROOT#null, 似蜜#VV)  (advmod, 清香#VA, 甜酸#AD)  (dep, 称为#VV, 清香#VA)  (dep, 清香#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 称为#VV, 所以#AD)  (nsubj, 称为#VV, 桑葚#NN)  (advmod, 称为#VV, 又#AD)  (auxpass, 称为#VV, 被#SB)  (ccomp, 似蜜#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 民间#NN)  (nn, ''#NN, 圣果#NN)  (dobj, 称为#VV, ''#NN)   (nn, 性寒#NN, 桑葚#NR)  (conj, 性寒#NN, 味甘#NN)  (nsubj, 具#VV, 性寒#NN)  (dep, 功效#VV, 具#VV)  (conj, 黑发#NR, 生津止渴#NR)  (nn, 黑发#NR, 补肝#NR)  (nn, 黑发#NR, 益#NR)  (conj, 黑发#NR, 肾#NR)  (nn, 黑发#NR, 滋阴#NR)  (conj, 黑发#NR, 补血#NR)  (nn, 黑发#NR, 明目#NR)  (conj, 黑发#NR, 安神#NR)  (conj, 关节#NN, 黑发#NR)  (nn, 关节#NN, 利#NR)  (dobj, 具#VV, 关节#NN)  (conj, 具#VV, 醒酒#VV)  (dep, 具#VV, 等#ETC)  (root, ROOT#null, 功效#VV)   (nn, 含有#NN, 桑葚#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 活性#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 是#VC, 活性#NN)  (conj, 尼克酸#NR, 蛋白#NR)  (conj, 尼克酸#NR, 维生素#NN)  (conj, 钙#NR, 氨基酸#NR)  (conj, 钙#NR, 胡萝卜素#NR)  (conj, 钙#NR, 矿物质#NR)  (conj, 钙#NR, 葡萄糖#NR)  (conj, 钙#NR, 蔗糖#NR)  (conj, 钙#NR, 果糖#NR)  (conj, 钙#NR, 鞣质#NR)  (nn, 钙#NR, 苹果#NR)  (conj, 钙#NR, 酸#NR)  (conj, 尼克酸#NR, 钙#NR)  (nn, B#NN, 维生素#NN)  (conj, 尼克酸#NR, B#NN)  (nummod, B#NN, 维生素B2#CD)  (conj, 尼克酸#NR, 维生素C#NR)  (nn, 成分#NN, 尼克酸#NR)  (etc, 尼克酸#NR, 等#ETC)  (nsubj, 是#VC, 成分#NN)  (nsubj, 是#VC, 其#PN)  (dvpmod, 是#VC, 营养#VA)  (root, ROOT#null, 是#VC)  (relcl, ～#NN, 苹果#VA)  (mark, 苹果#VA, 的#DEC)  (nummod, ～#NN, 5#CD)  (nummod, 倍#M, 6#CD)  (dep, 是#VC, 倍#M)  (dep, 是#VC, 是#VC)  (assmod, 倍#M, 葡萄#NN)  (case, 葡萄#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (dep, 是#VC, 倍#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            早在两千多年前，桑椹已是中国皇帝御用的补品。因桑椹特殊的生长环境使桑果具有天然生长，无任何污染的特点，所以桑椹又被称为“民间圣果”。
+        </rawdata>
+
+        <segment>
+            早  在  两千  多  年  前  ，  桑椹  已  是  中国  皇帝  御用  的  补品  。  因  桑椹  特殊  的  生长  环境  使  桑果  具有  天然  生长  ，  无  任何  污染  的  特点  ，  所以  桑椹  又  被  称为  “  民间  圣果  ”  。
+        </segment>
+
+        <pos>
+            早#AD  在#P  两千#CD  多#CD  年#M  前#LC  ，#PU  桑椹#AD  已#AD  是#VC  中国#NR  皇帝#NN  御用#NN  的#DEG  补品#NN    。#PU  因#P  桑椹#VV  特殊#VA  的#DEC  生长#NN  环境#NN  使#VV  桑果#NN  具有#VV  天然#JJ  生长#NN  ，#PU  无#VE  任何#DT  污染#NN  的#DEC  特点#NN  ，#PU  所以#AD  桑椹#NN  又#AD  被#SB  称为#VV  ``#NN  民间#NN  圣果#VV  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (prep, 补品#NN, 早#AD)  (case, 年#M, 在#P)  (dep, 年#M, 两千#CD)  (nummod, 年#M, 多#CD)  (dep, 早#AD, 年#M)  (case, 年#M, 前#LC)  (advmod, 补品#NN, 桑椹#AD)  (advmod, 补品#NN, 已#AD)  (cop, 补品#NN, 是#VC)  (nn, 御用#NN, 中国#NR)  (nn, 御用#NN, 皇帝#NN)  (assmod, 补品#NN, 御用#NN)  (case, 御用#NN, 的#DEG)  (root, ROOT#null, 补品#NN)   (case, 桑椹#VV, 因#P)  (prep, 称为#VV, 桑椹#VV)  (relcl, 环境#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nn, 环境#NN, 生长#NN)  (nsubj, 使#VV, 环境#NN)  (relcl, 特点#NN, 使#VV)  (dobj, 使#VV, 桑果#NN)  (dep, 使#VV, 具有#VV)  (amod, 生长#NN, 天然#JJ)  (dobj, 具有#VV, 生长#NN)  (conj, 使#VV, 无#VE)  (det, 污染#NN, 任何#DT)  (dobj, 无#VE, 污染#NN)  (mark, 使#VV, 的#DEC)  (dobj, 桑椹#VV, 特点#NN)  (advmod, 称为#VV, 所以#AD)  (nsubj, 称为#VV, 桑椹#NN)  (advmod, 称为#VV, 又#AD)  (auxpass, 称为#VV, 被#SB)  (root, ROOT#null, 称为#VV)  (dobj, 称为#VV, ``#NN)  (nsubj, 圣果#VV, 民间#NN)  (conj, 称为#VV, 圣果#VV)  (dobj, 圣果#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101644014965.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\329 桑葚.jpg
+    </picturelocalurl>
+
+</content>

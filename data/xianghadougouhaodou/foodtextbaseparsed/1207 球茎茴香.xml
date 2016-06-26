@@ -1,0 +1,143 @@
+<content>
+
+    <id>
+        1207
+    </id>
+
+    <foodname>
+        球茎茴香
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        甜茴香、意大利茴香
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            球茎茴香膨大肥厚的叶鞘部鲜嫩质脆，味清甜，具有比小茴香略淡的清香。含有黄酮甙、茴香苷，香味独特。
+            球茎茴香可生食或熟食，外形新颖独特，很受消费者欢迎，市场前景好。
+        </rawdata>
+
+        <segment>
+            球茎  茴香  膨大  肥厚  的  叶鞘部  鲜嫩  质脆  ，  味  清甜  ，  具有  比  小茴香  略  淡的  清香  。  含有  黄酮甙  、  茴香苷  ，  香味  独特  。
+            球茎  茴香  可  生食  或  熟食  ，  外形  新颖  独特  ，  很  受  消费者  欢迎  ，  市场  前景  好  。
+        </segment>
+
+        <pos>
+            球茎#VV  茴香#NN  膨大#NN  肥厚#NN  的#DEC  叶鞘部#NN  鲜嫩#NN  质脆#VV  ，#PU  味#NN  清甜#NN  ，#PU  具有#VV  比#P  小茴香#NN  略#AD  淡的#VV  清香#NN    。#PU  含有#AD  黄酮甙#VA  、#PU  茴香苷#VA  ，#PU  香味#AD  独特#VA    。#PU    。#PU
+            球茎#NN  茴香#NN  可#VV  生食#NN  或#CC  熟食#NN  ，#PU  外形#AD  新颖#VA  独特#VA  ，#PU  很#AD  受#VV  消费者#NN  欢迎#NN  ，#PU  市场#NN  前景#NN  好#VA  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 鲜嫩#NN, 球茎#VV)  (nn, 肥厚#NN, 茴香#NN)  (nn, 肥厚#NN, 膨大#NN)  (dobj, 球茎#VV, 肥厚#NN)  (mark, 球茎#VV, 的#DEC)  (nn, 鲜嫩#NN, 叶鞘部#NN)  (nsubj, 质脆#VV, 鲜嫩#NN)  (root, ROOT#null, 质脆#VV)  (nn, 清甜#NN, 味#NN)  (nsubj, 淡的#VV, 清甜#NN)  (mmod, 淡的#VV, 具有#VV)  (case, 小茴香#NN, 比#P)  (prep, 淡的#VV, 小茴香#NN)  (advmod, 淡的#VV, 略#AD)  (ccomp, 质脆#VV, 淡的#VV)  (dobj, 淡的#VV, 清香#NN)   (advmod, 黄酮甙#VA, 含有#AD)  (root, ROOT#null, 黄酮甙#VA)  (dep, 黄酮甙#VA, 茴香苷#VA)  (advmod, 独特#VA, 香味#AD)  (dep, 黄酮甙#VA, 独特#VA)   (root, ROOT#null, null#null)
+            (nn, 茴香#NN, 球茎#NN)  (nsubj, 新颖#VA, 茴香#NN)  (mmod, 新颖#VA, 可#VV)  (conj, 熟食#NN, 生食#NN)  (cc, 熟食#NN, 或#CC)  (dep, 新颖#VA, 熟食#NN)  (advmod, 新颖#VA, 外形#AD)  (root, ROOT#null, 新颖#VA)  (comod, 新颖#VA, 独特#VA)  (advmod, 受#VV, 很#AD)  (dep, 新颖#VA, 受#VV)  (nn, 欢迎#NN, 消费者#NN)  (dobj, 受#VV, 欢迎#NN)  (nn, 前景#NN, 市场#NN)  (nsubj, 好#VA, 前景#NN)  (conj, 新颖#VA, 好#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            和胃,消炎止痛,调经
+        </rawdata>
+
+        <segment>
+            和胃  ,  消炎  止痛  ,  调经
+        </segment>
+
+        <pos>
+            和胃#NN  ,#NN  消炎#VV  止痛#NN  ,#NN  调经#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 和胃#NN)  (root, ROOT#null, 消炎#VV)  (nn, 调经#NN, 止痛#NN)  (dobj, 消炎#VV, 调经#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        行气宽中  散寒止痛
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            一般切成细丝放入调味品凉拌生食，也可配以各种肉类炒食。
+        </rawdata>
+
+        <segment>
+            一般  切成  细丝  放入  调味品  凉拌  生食  ，  也可  配以  各  种  肉类  炒食  。
+        </segment>
+
+        <pos>
+            一般#JJ  切成#NN  细丝#NN  放入#VV  调味品#NN  凉拌#NN  生食#NN  ，#PU  也可#AD  配以#VV  各#DT  种#M  肉类#NN  炒食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 切成#NN, 一般#JJ)  (nn, 细丝#NN, 切成#NN)  (nsubj, 放入#VV, 细丝#NN)  (root, ROOT#null, 放入#VV)  (nn, 生食#NN, 调味品#NN)  (nn, 生食#NN, 凉拌#NN)  (dobj, 放入#VV, 生食#NN)  (advmod, 配以#VV, 也可#AD)  (conj, 放入#VV, 配以#VV)  (det, 肉类#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 炒食#NN, 肉类#NN)  (dobj, 配以#VV, 炒食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/8f/4e/20111_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1207 球茎茴香.jpg
+    </picturelocalurl>
+
+</content>

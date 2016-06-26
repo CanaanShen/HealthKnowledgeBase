@@ -1,0 +1,139 @@
+<content>
+
+    <id>
+        860
+    </id>
+
+    <foodname>
+        胡麻籽
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        胡麻籽
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            慢性肠炎、肠泻、牙痛、有白带者忌食。
+        </rawdata>
+
+        <segment>
+            慢性  肠炎  、  肠泻  、  牙痛  、  有  白带者  忌食  。
+        </segment>
+
+        <pos>
+            慢性#VV  肠炎#NR  、#PU  肠泻#NR  、#PU  牙痛#NR  、#PU  有#VE  白带者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 慢性#VV)  (conj, 牙痛#NR, 肠炎#NR)  (conj, 牙痛#NR, 肠泻#NR)  (dobj, 慢性#VV, 牙痛#NR)  (conj, 慢性#VV, 有#VE)  (nn, 忌食#NN, 白带者#NN)  (dobj, 有#VE, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            气虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            气虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            气虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 气虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            胡麻籽是亚麻科植物(学名Linumusitatissimum)的种籽，含有约22%的蛋白质、45%的油脂(其中更含有高达60%的Omega-3脂肪酸)、26%纤维素(14%可溶性、12%不可溶性)、7%碳水化合物、矿物质(钙、铁、磷、镁、锌、铜等)、维生素、木质素(lignin)
+        </rawdata>
+
+        <segment>
+            胡麻籽  是  亚麻科  植物  (  学名  Linumusitatissimum  )  的  种籽  ，  含有  约  22%  的  蛋白质  、  45%  的  油脂  (  其中  更  含有  高达  60%  的  Omega-3  脂肪酸  )  、  26%  纤维素  (  14%  可溶性  、  12%  不  可溶性  )  、  7%  碳水化合物  、  矿物质  (  钙  、  铁  、  磷  、  镁  、  锌  、  铜  等  )  、  维生素  、  木质素  (  lignin  )
+        </segment>
+
+        <pos>
+            胡麻籽#NR  是#VC  亚麻科#NN  植物#NN  -LRB-#VV  学名#VV  Linumusitatissimum#NN  -RRB-#NN  的#DEG  种籽#NN  ，#PU  含有#VV  约#AD  22#CD  %#NN  的#DEC  蛋白质#NN  、#PU  45#CD  %#NN  的#DEG  油脂#NN  -LRB-#NN  其中#NN  更#AD  含有#VV  高达#VV  60#CD  %#NN  的#DEC  Omega-3#CD  脂肪酸#JJ  -RRB-#NN  、#PU  26#CD  %#NN  纤维素#NN  -LRB-#VV  14#CD  %#NN  可溶性#NN  、#PU  12#CD  %#NN  不#AD  可溶性#VV  -RRB-#NN  、#PU  7#CD  %#NN  碳水化合物#NN  、#PU  矿物质#NN  -LRB-#NN  钙#NN  、#PU  铁#NN  、#PU  磷#NN  、#PU  镁#NN  、#PU  锌#NN  、#PU  铜#NN  等#ETC  -RRB-#NN  、#PU  维生素#NN  、#PU  木质素#NN  -LRB-#NN  lignin#NN  -RRB-#NN
+        </pos>
+
+        <parsing>
+            (nsubj, -RRB-#NN, 胡麻籽#NR)  (root, -RRB-#NN, 胡麻籽#NR)  (cop, 胡麻籽#NR, 是#VC)  (cop, -RRB-#NN, 是#VC)  (nn, 植物#NN, 亚麻科#NN)  (nsubj, -LRB-#VV, 植物#NN)  (relcl, 蛋白质#NN, 学名#VV)  (nn, -RRB-#NN, Linumusitatissimum#NN)  (case, -RRB-#NN, 的#DEG)  (dobj, 学名#VV, 种籽#NN)  (conj, 学名#VV, 含有#VV)  (advmod, 22#CD, 约#AD)  (nummod, %#NN, 22#CD)  (dobj, 含有#VV, %#NN)  (mark, 学名#VV, 的#DEC)  (dobj, -LRB-#VV, 蛋白质#NN)  (nummod, %#NN, 45#CD)  (assmod, 其中#NN, %#NN)  (case, %#NN, 的#DEG)  (nn, 其中#NN, 油脂#NN)  (nsubj, 含有#VV, 其中#NN)  (advmod, 含有#VV, 更#AD)  (conj, -LRB-#VV, 含有#VV)  (relcl, -RRB-#NN, 高达#VV)  (nummod, %#NN, 60#CD)  (dobj, 高达#VV, %#NN)  (mark, 高达#VV, 的#DEC)  (nummod, -RRB-#NN, Omega-3#CD)  (amod, -RRB-#NN, 脂肪酸#JJ)  (nummod, 纤维素#NN, 26#CD)  (nn, 纤维素#NN, %#NN)  (nsubj, -LRB-#VV, 纤维素#NN)  (nummod, 可溶性#NN, 14#CD)  (nn, 可溶性#NN, %#NN)  (dobj, -LRB-#VV, 可溶性#NN)  (nummod, %#NN, 12#CD)  (nsubj, 可溶性#VV, %#NN)  (neg, 可溶性#VV, 不#AD)  (conj, -LRB-#VV, 可溶性#VV)  (nummod, 碳水化合物#NN, 7#CD)  (nn, 碳水化合物#NN, %#NN)  (conj, -LRB-#VV, 碳水化合物#NN)  (nn, 钙#NN, 矿物质#NN)  (conj, -LRB-#VV, 钙#NN)  (conj, 铜#NN, 铁#NN)  (conj, 铜#NN, 磷#NN)  (conj, 铜#NN, 镁#NN)  (conj, 铜#NN, 锌#NN)  (dep, -LRB-#VV, 铜#NN)  (dep, -LRB-#VV, 等#ETC)  (etc, 铜#NN, 等#ETC)  (conj, 胡麻籽#NR, 维生素#NN)  (conj, -RRB-#NN, 维生素#NN)  (nn, 胡麻籽#NR, 木质素#NN)  (nn, -RRB-#NN, 木质素#NN)  (nn, 胡麻籽#NR, lignin#NN)  (nn, -RRB-#NN, lignin#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            提高睡眠质量,祛脂降压,通便,止泄,提高免疫力,健脑,润肠,消炎止痛,降糖消渴,抑癌抗瘤,养阴补虚,其他功效
+        </rawdata>
+
+        <segment>
+            提高  睡眠  质量  ,  祛脂  降压  ,  通便  ,  止泄  ,  提高  免疫力  ,  健脑  ,  润肠  ,  消炎  止痛  ,  降糖  消渴  ,  抑癌  抗瘤  ,  养  阴  补  虚  ,  其他  功效
+        </segment>
+
+        <pos>
+            提高#NN  睡眠#NN  质量#NN  ,#NN  祛脂#NN  降压#NN  ,#NN  通便#NN  ,#NN  止泄#NN  ,#NN  提高#VV  免疫力#NN  ,#NN  健脑#NN  ,#NN  润肠#NN  ,#NN  消炎#NN  止痛#NN  ,#NN  降糖#JJ  消渴#NN  ,#NN  抑癌#NN  抗瘤#NN  ,#AD  养#VV  阴#NN  补#NN  虚#AD  ,#VV  其他#DT  功效#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 提高#NN)  (nn, ,#NN, 睡眠#NN)  (nn, ,#NN, 质量#NN)  (nn, ,#NN, 祛脂#NN)  (nn, ,#NN, 降压#NN)  (nn, ,#NN, 通便#NN)  (nn, ,#NN, 止泄#NN)  (root, ROOT#null, 提高#VV)  (nn, ,#NN, 免疫力#NN)  (nn, ,#NN, 健脑#NN)  (nn, ,#NN, 润肠#NN)  (nn, ,#NN, 消炎#NN)  (nn, ,#NN, 止痛#NN)  (amod, ,#NN, 降糖#JJ)  (nn, ,#NN, 消渴#NN)  (nn, 抗瘤#NN, 抑癌#NN)  (nsubj, 养#VV, 抗瘤#NN)  (conj, 提高#VV, 养#VV)  (nn, 补#NN, 阴#NN)  (nsubj, ,#VV, 补#NN)  (advmod, ,#VV, 虚#AD)  (det, 功效#NN, 其他#DT)  (dobj, ,#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        祛风  润肠通便  补血  辅助降血脂  致泻
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/8a/41/82314_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\860 胡麻籽.jpg
+    </picturelocalurl>
+
+</content>

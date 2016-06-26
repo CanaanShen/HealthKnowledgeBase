@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        215
+    </id>
+
+    <foodname>
+        春笋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        笋
+    </alias>
+
+    <season>
+        2-3月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾炎患者忌食
+        </rawdata>
+
+        <segment>
+            肾炎  患者  忌食
+        </segment>
+
+        <pos>
+            肾炎#NN  患者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (nn, 忌食#NN, 肾炎#NN)  (nn, 忌食#NN, 患者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                300
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.78
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            别名笋，为多年生常绿草本植物，食用部分为初生、嫩肥、短壮的芽或鞭。竹原产中国，类型众多，适应性强，分布极广。毛竹、早竹等散生型竹种的地下茎入土较深，竹鞭和笋芽借土层保护，冬季不易受冻害，出笋期主要在春季。
+        </rawdata>
+
+        <segment>
+            别名笋  ，  为  多年生  常绿  草本  植物  ，  食用  部分  为  初生  、  嫩肥  、  短  壮  的  芽  或  鞭  。  竹原  产  中国  ，  类型  众多  ，  适应  性强  ，  分布  极广  。  毛竹  、  早竹  等  散生型  竹  种的  地下茎  入土  较  深  ，  竹鞭  和  笋芽  借  土层  保护  ，  冬季  不  易  受  冻害  ，  出笋期  主要  在  春季  。
+        </segment>
+
+        <pos>
+            别名笋#VV  ，#PU  为#P  多年生#VV  常绿#NN  草本#NN  植物#NN  ，#PU  食用#VV  部分#NN  为#VV  初生#JJ  、#PU  嫩肥#JJ  、#PU  短#JJ  壮#JJ  的#DEG  芽#NN  或#CC  鞭#NN    。#PU  竹原#AD  产#VV  中国#NR  ，#PU  类型#NN  众多#VA  ，#PU  适应#VV  性强#NN  ，#PU  分布#VV  极广#NN    。#PU  毛竹#NR  、#PU  早竹#NR  等#ETC  散生型#NN  竹#NN  种的#NN  地下茎#VV  入土#NN  较#AD  深#VA  ，#PU  竹鞭#NR  和#CC  笋芽#NR  借#VV  土层#NN  保护#NN  ，#PU  冬季#NT  不#AD  易#VA  受#VV  冻害#NN  ，#PU  出笋期#NN  主要#AD  在#VV  春季#NT    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 别名笋#VV)  (case, 多年生#VV, 为#P)  (prep, 为#VV, 多年生#VV)  (nn, 植物#NN, 常绿#NN)  (nn, 植物#NN, 草本#NN)  (dobj, 多年生#VV, 植物#NN)  (conj, 多年生#VV, 食用#VV)  (dobj, 食用#VV, 部分#NN)  (ccomp, 别名笋#VV, 为#VV)  (amod, 鞭#NN, 初生#JJ)  (conj, 初生#JJ, 嫩肥#JJ)  (dep, 初生#JJ, 短#JJ)  (assmod, 鞭#NN, 壮#JJ)  (case, 壮#JJ, 的#DEG)  (conj, 鞭#NN, 芽#NN)  (cc, 鞭#NN, 或#CC)  (dobj, 为#VV, 鞭#NN)   (advmod, 产#VV, 竹原#AD)  (root, ROOT#null, 产#VV)  (dobj, 产#VV, 中国#NR)  (dep, 众多#VA, 类型#NN)  (conj, 产#VV, 众多#VA)  (conj, 产#VV, 适应#VV)  (dobj, 适应#VV, 性强#NN)  (conj, 产#VV, 分布#VV)  (dobj, 分布#VV, 极广#NN)   (conj, 早竹#NR, 毛竹#NR)  (nn, 种的#NN, 早竹#NR)  (etc, 早竹#NR, 等#ETC)  (nn, 种的#NN, 散生型#NN)  (nn, 种的#NN, 竹#NN)  (nsubj, 地下茎#VV, 种的#NN)  (root, ROOT#null, 地下茎#VV)  (nsubj, 深#VA, 入土#NN)  (advmod, 深#VA, 较#AD)  (ccomp, 地下茎#VV, 深#VA)  (conj, 笋芽#NR, 竹鞭#NR)  (cc, 笋芽#NR, 和#CC)  (nsubj, 借#VV, 笋芽#NR)  (conj, 深#VA, 借#VV)  (nn, 保护#NN, 土层#NN)  (dobj, 借#VV, 保护#NN)  (tmod, 易#VA, 冬季#NT)  (neg, 易#VA, 不#AD)  (conj, 受#VV, 易#VA)  (conj, 借#VV, 受#VV)  (dobj, 受#VV, 冻害#NN)  (nsubj, 在#VV, 出笋期#NN)  (advmod, 在#VV, 主要#AD)  (conj, 借#VV, 在#VV)  (dobj, 在#VV, 春季#NT)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.化痰止咳
+            对咽喉部有良好的湿润和物理治疗作用，有利于局部炎症治愈，并能解除局部痒感，从而阻断咳嗽反射。
+            2.消食
+            春笋有助于胃酸的分泌和食物的消化，宜于治疗饮食积滞证。
+            3.补血益气
+            适宜肤色没有光华，失去红润、手脚冰冷的人群。
+            4.明目
+            春笋中含有丰富的维生素A，维生素A对眼睛的发育有十分重要的作用，合成视网膜视杆细胞感光物质。
+            5.健脾
+            春笋适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。
+            6.养颜护肤
+            春笋含有胡萝卜素，有助于维持皮肤细胞组织正常机能，刺激皮肤新陈代谢，保持皮肤润泽细嫩。
+        </rawdata>
+
+        <segment>
+            化痰  止咳
+            对  咽喉  部  有  良好  的  湿润  和  物理  治疗  作用  ，  有利于  局部  炎症  治愈  ，  并  能  解除  局部  痒感  ，  从而  阻断  咳嗽  反射  。
+            消食
+            春笋  有助于  胃酸  的  分泌  和  食物  的  消化  ，  宜于  治疗  饮食  积  滞证  。
+            补血  益气
+            适宜  肤色  没有  光华  ，  失去  红润  、  手脚  冰冷  的  人群  。
+            明目
+            春笋  中  含有  丰富  的  维生素A  ，  维生素A  对  眼睛  的  发育  有  十分  重要  的  作用  ，  合成  视网膜  视杆  细胞  感光  物质  。
+            健脾
+            春笋  适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏  力等症  。
+            养颜  护肤
+            春笋  含有  胡萝卜素  ，  有助于  维持  皮肤  细胞  组织  正常  机能  ，  刺激  皮肤  新陈代谢  ，  保持  皮肤  润泽  细嫩  。
+        </segment>
+
+        <pos>
+            化痰#NN  止咳#VV
+            对#P  咽喉#NN  部#NN  有#VE  良好#VA  的#DEC  湿润#NN  和#CC  物理#NN  治疗#NN  作用#NN  ，#PU  有利于#VV  局部#JJ  炎症#NN  治愈#NN  ，#PU  并#CC  能#VV  解除#VV  局部#JJ  痒感#NN  ，#PU  从而#AD  阻断#VV  咳嗽#NN  反射#NN  。#PU
+            消食#VV
+            春笋#AD  有助于#VV  胃酸#NN  的#DEG  分泌#NN  和#CC  食物#NN  的#DEC  消化#NN  ，#PU  宜于#NN  治疗#NN  饮食#NN  积#VV  滞证#NN  。#PU
+            补血#NN  益气#VV
+            适宜#VV  肤色#NN  没有#VE  光华#NN  ，#PU  失去#VV  红润#NN  、#PU  手脚#VV  冰冷#VA  的#DEC  人群#NN  。#PU
+            明目#VV
+            春笋#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素A#NN  ，#PU  维生素A#NN  对#P  眼睛#NN  的#DEG  发育#NN  有#VE  十分#AD  重要#VA  的#DEC  作用#NN  ，#PU  合成#JJ  视网膜#NN  视杆#VV  细胞#NN  感光#NN  物质#NN  。#PU
+            健脾#VV
+            春笋#NN  适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEG  脘腹#NN  胀满#NN  ，#PU  大便#VV  溏泄#NN  ，#PU  食欲不振#VV  ，#PU  肢#VV  倦乏#NN  力等症#NN  。#PU
+            养颜#NN  护肤#VV
+            春笋#NN  含有#NN  胡萝卜素#NN  ，#PU  有助于#VV  维持#VV  皮肤#NN  细胞#NN  组织#NN  正常#JJ  机能#NN  ，#PU  刺激#VV  皮肤#NN  新陈代谢#NN  ，#PU  保持#VV  皮肤#NN  润泽#NN  细嫩#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 止咳#VV, 化痰#NN)  (root, ROOT#null, 止咳#VV)
+            (case, 部#NN, 对#P)  (nn, 部#NN, 咽喉#NN)  (prep, 有#VE, 部#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 治疗#NN, 湿润#NN)  (cc, 治疗#NN, 和#CC)  (nn, 治疗#NN, 物理#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (dep, 有#VE, 有利于#VV)  (amod, 炎症#NN, 局部#JJ)  (nn, 治愈#NN, 炎症#NN)  (dobj, 有利于#VV, 治愈#NN)  (cc, 有利于#VV, 并#CC)  (mmod, 解除#VV, 能#VV)  (conj, 有利于#VV, 解除#VV)  (amod, 痒感#NN, 局部#JJ)  (dobj, 解除#VV, 痒感#NN)  (advmod, 阻断#VV, 从而#AD)  (conj, 有利于#VV, 阻断#VV)  (nn, 反射#NN, 咳嗽#NN)  (dobj, 阻断#VV, 反射#NN)
+            (root, ROOT#null, 消食#VV)
+            (advmod, 有助于#VV, 春笋#AD)  (relcl, 消化#NN, 有助于#VV)  (assmod, 食物#NN, 胃酸#NN)  (case, 胃酸#NN, 的#DEG)  (conj, 食物#NN, 分泌#NN)  (cc, 食物#NN, 和#CC)  (dobj, 有助于#VV, 食物#NN)  (mark, 有助于#VV, 的#DEC)  (nsubj, 积#VV, 消化#NN)  (nn, 饮食#NN, 宜于#NN)  (nn, 饮食#NN, 治疗#NN)  (nsubj, 积#VV, 饮食#NN)  (root, ROOT#null, 积#VV)  (dobj, 积#VV, 滞证#NN)
+            (nsubj, 益气#VV, 补血#NN)  (root, ROOT#null, 益气#VV)
+            (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 肤色#NN)  (conj, 适宜#VV, 没有#VE)  (dobj, 没有#VE, 光华#NN)  (conj, 适宜#VV, 失去#VV)  (dobj, 失去#VV, 红润#NN)  (conj, 适宜#VV, 手脚#VV)  (relcl, 人群#NN, 冰冷#VA)  (mark, 冰冷#VA, 的#DEC)  (dobj, 手脚#VV, 人群#NN)
+            (root, ROOT#null, 明目#VV)
+            (loc, 丰富#VA, 春笋#NN)  (case, 春笋#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素A#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 有#VE, 维生素A#NN)  (nsubj, 有#VE, 维生素A#NN)  (case, 发育#NN, 对#P)  (assmod, 发育#NN, 眼睛#NN)  (case, 眼睛#NN, 的#DEG)  (prep, 有#VE, 发育#NN)  (root, ROOT#null, 有#VE)  (advmod, 重要#VA, 十分#AD)  (relcl, 作用#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)  (amod, 视网膜#NN, 合成#JJ)  (nsubj, 视杆#VV, 视网膜#NN)  (conj, 有#VE, 视杆#VV)  (nn, 物质#NN, 细胞#NN)  (nn, 物质#NN, 感光#NN)  (dobj, 视杆#VV, 物质#NN)
+            (root, ROOT#null, 健脾#VV)
+            (nsubj, 适用于#VV, 春笋#NN)  (root, ROOT#null, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (assmod, 胀满#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 胀满#NN, 脘腹#NN)  (dobj, 运化#VV, 胀满#NN)  (conj, 适用于#VV, 大便#VV)  (dobj, 大便#VV, 溏泄#NN)  (conj, 适用于#VV, 食欲不振#VV)  (conj, 适用于#VV, 肢#VV)  (nn, 力等症#NN, 倦乏#NN)  (dobj, 肢#VV, 力等症#NN)
+            (nsubj, 护肤#VV, 养颜#NN)  (root, ROOT#null, 护肤#VV)
+            (nn, 胡萝卜素#NN, 春笋#NN)  (nn, 胡萝卜素#NN, 含有#NN)  (nsubj, 有助于#VV, 胡萝卜素#NN)  (xsubj, 维持#VV, 胡萝卜素#NN)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 维持#VV)  (nn, 组织#NN, 皮肤#NN)  (nn, 组织#NN, 细胞#NN)  (nn, 机能#NN, 组织#NN)  (amod, 机能#NN, 正常#JJ)  (dobj, 维持#VV, 机能#NN)  (conj, 维持#VV, 刺激#VV)  (nn, 新陈代谢#NN, 皮肤#NN)  (dobj, 刺激#VV, 新陈代谢#NN)  (dep, 有助于#VV, 保持#VV)  (nn, 细嫩#NN, 皮肤#NN)  (nn, 细嫩#NN, 润泽#NN)  (dobj, 保持#VV, 细嫩#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  促进消化  通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            春笋味道清淡鲜嫩，营养丰富。含有充足的水分、丰富的植物蛋白以及钙、磷、铁等人体必需的营养成分和微量元素，特别是纤维素含量很高，常食有帮助消化、防止便秘的功能。所以春笋是高蛋白、低脂肪、低淀粉、多粗纤维素的营养美食。
+        </rawdata>
+
+        <segment>
+            春笋  味道  清淡  鲜嫩  ，  营养  丰富  。  含有  充足  的  水分  、  丰富  的  植物  蛋白  以及  钙  、  磷  、  铁  等  人体  必需  的  营养  成分  和  微量  元素  ，  特别是  纤维素  含量  很  高  ，  常食  有  帮助  消化  、  防止  便秘  的  功能  。  所以  春笋  是  高蛋白  、  低  脂肪  、  低  淀粉  、  多  粗  纤维素  的  营养  美食  。
+        </segment>
+
+        <pos>
+            春笋#NN  味道#NN  清淡#VA  鲜嫩#VA  ，#PU  营养#VA  丰富#VA    。#PU  含有#AD  充足#VA  的#DEC  水分#NN  、#PU  丰富#VA  的#DEC  植物#NN  蛋白#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  人体#NN  必需#VV  的#DEC  营养#VA  成分#NN  和#CC  微量#JJ  元素#NN  ，#PU  特别是#AD  纤维素#NN  含量#NN  很#AD  高#VA  ，#PU  常食#AD  有#VE  帮助#NN  消化#NN  、#PU  防止#VV  便秘#NN  的#DEC  功能#NN    。#PU  所以#AD  春笋#NN  是#VC  高蛋白#VA  、#PU  低#VA  脂肪#VA  、#PU  低#VA  淀粉#VA  、#PU  多#VA  粗#AD  纤维素#VA  的#DEC  营养#VA  美食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 味道#NN, 春笋#NN)  (nsubj, 清淡#VA, 味道#NN)  (root, ROOT#null, 清淡#VA)  (comod, 清淡#VA, 鲜嫩#VA)  (ccomp, 清淡#VA, 营养#VA)  (dep, 清淡#VA, 丰富#VA)   (advmod, 充足#VA, 含有#AD)  (relcl, 水分#NN, 充足#VA)  (mark, 充足#VA, 的#DEC)  (conj, 元素#NN, 水分#NN)  (relcl, 人体#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 铁#NN, 植物#NN)  (conj, 铁#NN, 蛋白#NN)  (cc, 铁#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 人体#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nsubj, 必需#VV, 人体#NN)  (relcl, 成分#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (conj, 元素#NN, 成分#NN)  (cc, 元素#NN, 和#CC)  (amod, 元素#NN, 微量#JJ)  (nsubj, 高#VA, 元素#NN)  (advmod, 含量#NN, 特别是#AD)  (nn, 含量#NN, 纤维素#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (relcl, 功能#NN, 高#VA)  (advmod, 有#VE, 常食#AD)  (dep, 高#VA, 有#VE)  (nn, 消化#NN, 帮助#NN)  (dobj, 有#VE, 消化#NN)  (conj, 高#VA, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (mark, 高#VA, 的#DEC)  (root, ROOT#null, 功能#NN)   (advmod, 高蛋白#VA, 所以#AD)  (nsubj, 高蛋白#VA, 春笋#NN)  (cop, 高蛋白#VA, 是#VC)  (dep, 美食#VV, 高蛋白#VA)  (dep, 高蛋白#VA, 低#VA)  (conj, 高蛋白#VA, 脂肪#VA)  (dep, 高蛋白#VA, 低#VA)  (conj, 高蛋白#VA, 淀粉#VA)  (dep, 高蛋白#VA, 多#VA)  (advmod, 纤维素#VA, 粗#AD)  (dep, 高蛋白#VA, 纤维素#VA)  (mark, 高蛋白#VA, 的#DEC)  (conj, 高蛋白#VA, 营养#VA)  (root, ROOT#null, 美食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            新鲜竹笋不宜多吃，每人每餐最好不要超过半根。
+        </rawdata>
+
+        <segment>
+            新鲜  竹笋  不  宜  多  吃  ，  每  人  每  餐  最好  不  要  超过  半  根  。
+        </segment>
+
+        <pos>
+            新鲜#JJ  竹笋#NN  不#AD  宜#NR  多#AD  吃#VV  ，#PU  每#DT  人#NN  每#DT  餐#NN  最好#JJ  不#NN  要#VV  超过#VV  半#CD  根#M  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 竹笋#NN, 新鲜#JJ)  (nsubj, 吃#VV, 竹笋#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (det, 人#NN, 每#DT)  (nn, 不#NN, 人#NN)  (det, 餐#NN, 每#DT)  (nn, 不#NN, 餐#NN)  (amod, 不#NN, 最好#JJ)  (nsubj, 超过#VV, 不#NN)  (mmod, 超过#VV, 要#VV)  (conj, 吃#VV, 超过#VV)  (nummod, 根#M, 半#CD)  (range, 超过#VV, 根#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101724395056.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\215 春笋.jpg
+    </picturelocalurl>
+
+</content>

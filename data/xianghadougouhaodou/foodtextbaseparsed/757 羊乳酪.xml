@@ -1,0 +1,136 @@
+<content>
+
+    <id>
+        757
+    </id>
+
+    <foodname>
+        羊乳酪
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高血脂患者不宜食用过多
+        </rawdata>
+
+        <segment>
+            高血脂  患者  不  宜  食用  过多
+        </segment>
+
+        <pos>
+            高血脂#NN  患者#NN  不#AD  宜#NR  食用#VV  过多#NN
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 高血脂#NN)  (nsubj, 食用#VV, 患者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 过多#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            羊乳酪是一种发酵的羊奶制品，是通过发酵过程来制作的，也都含有可以保健的乳酸菌，但是羊奶酪的浓度比羊奶更高，近似固体食物，营养价值也因此更加丰富。每公斤羊乳酪制品都是由10公斤的羊奶浓缩而成，含有丰富的蛋白质、钙、脂肪、磷和维生素等营养成分，是纯天然的食品。就工艺而言，羊乳酪是发酵的羊奶。
+        </rawdata>
+
+        <segment>
+            羊乳酪  是  一  种  发酵  的  羊奶  制品  ，  是  通过  发酵  过程  来  制作  的  ，  也  都  含有  可以  保健  的  乳酸菌  ，  但是  羊奶酪  的  浓度  比  羊奶  更高  ，  近似  固体  食物  ，  营养  价值  也  因此  更加  丰富  。  每  公斤  羊乳酪  制品  都  是  由  10  公斤  的  羊奶  浓缩  而  成  ，  含有  丰富  的  蛋白质  、  钙  、  脂肪  、  磷  和  维生素  等  营养  成分  ，  是  纯天然  的  食品  。  就  工艺  而言  ，  羊  乳酪  是  发酵  的  羊奶  。
+        </segment>
+
+        <pos>
+            羊乳酪#NN  是#VC  一#CD  种#M  发酵#NN  的#DEG  羊奶#NN  制品#NN  ，#PU  是#VC  通过#P  发酵#NN  过程#NN  来#LC  制作#VV  的#DEC  ，#PU  也#AD  都#AD  含有#VV  可以#VV  保健#NN  的#DEC  乳酸菌#NN  ，#PU  但是#AD  羊奶酪#NN  的#DEG  浓度#NN  比#P  羊奶#NN  更高#JJ  ，#PU  近似#VV  固体#NN  食物#NN  ，#PU  营养#VA  价值#NN  也#AD  因此#AD  更加#AD  丰富#VA    。#PU  每#DT  公斤#M  羊乳酪#NN  制品#NN  都#AD  是#VC  由#P  10#CD  公斤#M  的#DEG  羊奶#NN  浓缩#VV  而#MSP  成#VV  ，#PU  含有#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  钙#NN  、#PU  脂肪#NN  、#PU  磷#NN  和#CC  维生素#NN  等#ETC  营养#VA  成分#NN  ，#PU  是#VC  纯天然#NN  的#DEG  食品#NN    。#PU  就#P  工艺#NN  而言#NN  ，#PU  羊#NN  乳酪#NN  是#VC  发酵#NN  的#DEG  羊奶#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 羊乳酪#NN)  (cop, 制品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 发酵#NN, 种#M)  (assmod, 制品#NN, 发酵#NN)  (case, 发酵#NN, 的#DEG)  (nn, 制品#NN, 羊奶#NN)  (root, ROOT#null, 制品#NN)  (cop, 制作#VV, 是#VC)  (case, 过程#NN, 通过#P)  (nn, 过程#NN, 发酵#NN)  (prep, 制作#VV, 过程#NN)  (case, 过程#NN, 来#LC)  (conj, 制品#NN, 制作#VV)  (mark, 制作#VV, 的#DEC)  (advmod, 含有#VV, 也#AD)  (advmod, 含有#VV, 都#AD)  (conj, 制品#NN, 含有#VV)  (relcl, 乳酸菌#NN, 可以#VV)  (dobj, 可以#VV, 保健#NN)  (mark, 可以#VV, 的#DEC)  (dobj, 含有#VV, 乳酸菌#NN)  (advmod, 丰富#VA, 但是#AD)  (assmod, 浓度#NN, 羊奶酪#NN)  (case, 羊奶酪#NN, 的#DEG)  (nsubj, 丰富#VA, 浓度#NN)  (case, 羊奶#NN, 比#P)  (prep, 丰富#VA, 羊奶#NN)  (nfincl, 价值#NN, 更高#JJ)  (dep, 更高#JJ, 近似#VV)  (nn, 食物#NN, 固体#NN)  (dobj, 近似#VV, 食物#NN)  (conj, 近似#VV, 营养#VA)  (nsubj, 丰富#VA, 价值#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 因此#AD)  (advmod, 丰富#VA, 更加#AD)  (conj, 制品#NN, 丰富#VA)   (det, 羊乳酪#NN, 每#DT)  (clf, 每#DT, 公斤#M)  (nn, 制品#NN, 羊乳酪#NN)  (nsubj, 成分#NN, 制品#NN)  (advmod, 成分#NN, 都#AD)  (cop, 成分#NN, 是#VC)  (case, 羊奶#NN, 由#P)  (nummod, 公斤#M, 10#CD)  (assmod, 羊奶#NN, 公斤#M)  (case, 公斤#M, 的#DEG)  (prep, 浓缩#VV, 羊奶#NN)  (relcl, 成分#NN, 浓缩#VV)  (dep, 成#VV, 而#MSP)  (dobj, 浓缩#VV, 成#VV)  (advmod, 丰富#VA, 含有#AD)  (dep, 浓缩#VV, 丰富#VA)  (mark, 浓缩#VV, 的#DEC)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 磷#NN)  (cc, 维生素#NN, 和#CC)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (root, ROOT#null, 成分#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 纯天然#NN)  (case, 纯天然#NN, 的#DEG)  (conj, 成分#NN, 食品#NN)   (case, 而言#NN, 就#P)  (nn, 而言#NN, 工艺#NN)  (prep, 羊奶#NN, 而言#NN)  (dep, 羊奶#NN, 羊#NN)  (nsubj, 羊奶#NN, 乳酪#NN)  (cop, 羊奶#NN, 是#VC)  (assmod, 羊奶#NN, 发酵#NN)  (case, 发酵#NN, 的#DEG)  (root, ROOT#null, 羊奶#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            可用于虚痨羸瘦、消渴、反胃、呃逆、口疮、漆疮等症。
+            1.生津止渴：润喉去燥，使人清爽舒适。适宜口干、眼干、思虑过度、睡眠不足、讲话过多的人群;
+            2.补充能量：含碳水化合物，糖类，能迅速为身体提供能量;
+            适宜营养不良、虚劳赢弱、消渴反胃、肺痨(肺结桉)咳嗽咯血、患有慢性肾炎之人食用。
+        </rawdata>
+
+        <segment>
+            可用  于  虚痨羸瘦  、  消渴  、  反胃  、  呃逆  、  口疮  、  漆疮  等症  。
+            生津止渴  ：  润喉  去燥  ，  使  人  清爽  舒适  。  适宜  口干  、  眼  干  、  思虑  过度  、  睡眠  不足  、  讲话  过多  的  人群  ;
+            补充  能量  ：  含  碳水化合物  ，  糖类  ，  能  迅速  为  身体  提供  能量  ;
+            适宜  营养  不良  、  虚  劳  赢弱  、  消渴  反胃  、  肺痨  (  肺结桉  )  咳嗽  咯血  、  患有  慢性  肾炎  之  人  食用  。
+        </segment>
+
+        <pos>
+            可用#JJ  于#P  虚痨羸瘦#NR  、#PU  消渴#NR  、#PU  反胃#NR  、#PU  呃逆#NR  、#PU  口疮#NR  、#PU  漆疮#NR  等症#NN  。#PU
+            生津止渴#VV  ：#PU  润喉#NN  去燥#NN  ，#PU  使#VV  人#NN  清爽#AD  舒适#VA  。#PU  适宜#VV  口干#VA  、#PU  眼#NN  干#VV  、#PU  思虑#NN  过度#AD  、#PU  睡眠#AD  不足#VA  、#PU  讲话#VV  过多#NN  的#DEC  人群#NN  ;#NN
+            补充#NN  能量#NN  ：#PU  含#VV  碳水化合物#NN  ，#PU  糖类#VV  ，#PU  能#VV  迅速#AD  为#P  身体#NN  提供#VV  能量#NN  ;#NN
+            适宜#VA  营养#VA  不良#JJ  、#PU  虚#AD  劳#NN  赢弱#NN  、#PU  消渴#NN  反胃#NN  、#PU  肺痨#NN  -LRB-#NN  肺结桉#NN  -RRB-#VV  咳嗽#NN  咯血#NN  、#PU  患有#NN  慢性#NN  肾炎#NN  之#DEC  人#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 等症#NN, 可用#JJ)  (case, 漆疮#NR, 于#P)  (conj, 漆疮#NR, 虚痨羸瘦#NR)  (conj, 漆疮#NR, 消渴#NR)  (conj, 漆疮#NR, 反胃#NR)  (conj, 漆疮#NR, 呃逆#NR)  (conj, 漆疮#NR, 口疮#NR)  (prep, 等症#NN, 漆疮#NR)  (root, ROOT#null, 等症#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 生津止渴#VV)  (nn, 去燥#NN, 润喉#NN)  (nsubj, 使#VV, 去燥#NN)  (ccomp, 生津止渴#VV, 使#VV)  (dobj, 使#VV, 人#NN)  (advmod, 舒适#VA, 清爽#AD)  (dep, 使#VV, 舒适#VA)  (conj, 使#VV, 适宜#VV)  (relcl, ;#NN, 口干#VA)  (nsubj, 干#VV, 眼#NN)  (conj, 口干#VA, 干#VV)  (nsubj, 不足#VA, 思虑#NN)  (advmod, 不足#VA, 过度#AD)  (conj, 过度#AD, 睡眠#AD)  (conj, 口干#VA, 不足#VA)  (conj, 口干#VA, 讲话#VV)  (dobj, 讲话#VV, 过多#NN)  (mark, 口干#VA, 的#DEC)  (nn, ;#NN, 人群#NN)  (dobj, 适宜#VV, ;#NN)
+            (root, ROOT#null, null#null)
+            (nn, 能量#NN, 补充#NN)  (nsubj, 含#VV, 能量#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 碳水化合物#NN)  (conj, 含#VV, 糖类#VV)  (mmod, 提供#VV, 能#VV)  (advmod, 提供#VV, 迅速#AD)  (case, 身体#NN, 为#P)  (prep, 提供#VV, 身体#NN)  (conj, 含#VV, 提供#VV)  (nn, ;#NN, 能量#NN)  (dobj, 提供#VV, ;#NN)
+            (root, ROOT#null, null#null)
+            (relcl, 人#NN, 适宜#VA)  (comod, 适宜#VA, 营养#VA)  (amod, 肾炎#NN, 不良#JJ)  (advmod, -RRB-#VV, 虚#AD)  (nn, 肺结桉#NN, 劳#NN)  (conj, 肺结桉#NN, 赢弱#NN)  (nn, 肺结桉#NN, 消渴#NN)  (conj, 肺结桉#NN, 反胃#NN)  (nn, 肺结桉#NN, 肺痨#NN)  (prep, -RRB-#VV, 肺结桉#NN)  (dobj, -RRB-#VV, 咳嗽#NN)  (conj, 肾炎#NN, 咯血#NN)  (nn, 肾炎#NN, 患有#NN)  (nn, 肾炎#NN, 慢性#NN)  (dobj, 适宜#VA, 肾炎#NN)  (mark, 适宜#VA, 之#DEC)  (nsubj, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  辅助降血压  美容养颜  促进组织生长
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/1a/41/82202_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\757 羊乳酪.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,140 @@
+<content>
+
+    <id>
+        785
+    </id>
+
+    <foodname>
+        地笋
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        地古牛、地瓜儿苗叶、银条菜、大草石蚕、甘露子、泽兰、地参
+        泽兰根、地瓜儿、地瓜、地蚕子、地笋子、地藕、野三七、水三七、旱藕
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            脾胃虚弱，腹泻腹痛者禁食;
+        </rawdata>
+
+        <segment>
+            脾胃  虚弱  ，  腹泻  腹痛者  禁食  ;
+        </segment>
+
+        <pos>
+            脾胃#NR  虚弱#VV  ，#PU  腹泻#NN  腹痛者#AD  禁食#VV  ;#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 虚弱#VV, 脾胃#NR)  (root, ROOT#null, 虚弱#VV)  (nsubj, 禁食#VV, 腹泻#NN)  (advmod, 禁食#VV, 腹痛者#AD)  (ccomp, 虚弱#VV, 禁食#VV)  (dobj, 禁食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            地笋含有丰富的淀粉、蛋白质、矿物质，还含有泽兰糖、葡萄糖、丰乳糖、蔗糖、水苏糖等，可为人体提供丰富的能量。
+        </rawdata>
+
+        <segment>
+            地笋  含有  丰富  的  淀粉  、  蛋白质  、  矿物质  ，  还  含有  泽兰  糖  、  葡萄糖  、  丰乳  糖  、  蔗糖  、  水苏糖  等  ，  可为  人体  提供  丰富  的  能量  。
+        </segment>
+
+        <pos>
+            地笋#NN  含有#NN  丰富#VA  的#DEC  淀粉#NR  、#PU  蛋白质#NR  、#PU  矿物质#NR  ，#PU  还#AD  含有#VV  泽兰#NN  糖#NN  、#PU  葡萄糖#NN  、#PU  丰乳#NN  糖#NN  、#PU  蔗糖#NN  、#PU  水苏糖#NN  等#ETC  ，#PU  可为#NN  人体#NN  提供#VV  丰富#VA  的#DEC  能量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 地笋#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 矿物质#NR, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 矿物质#NR, 淀粉#NR)  (conj, 矿物质#NR, 蛋白质#NR)  (nsubj, 含有#VV, 矿物质#NR)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nn, 水苏糖#NN, 泽兰#NN)  (conj, 水苏糖#NN, 糖#NN)  (conj, 水苏糖#NN, 葡萄糖#NN)  (nn, 水苏糖#NN, 丰乳#NN)  (conj, 水苏糖#NN, 糖#NN)  (conj, 水苏糖#NN, 蔗糖#NN)  (dobj, 含有#VV, 水苏糖#NN)  (etc, 水苏糖#NN, 等#ETC)  (nn, 人体#NN, 可为#NN)  (nsubj, 提供#VV, 人体#NN)  (conj, 含有#VV, 提供#VV)  (relcl, 能量#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 提供#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            祛脂降压,利尿消肿,补血益气,活血祛瘀,提高免疫力,疗头痛头晕,健脑,安神除烦,补充能量,明目
+        </rawdata>
+
+        <segment>
+            祛脂  降压  ,  利尿  消肿  ,  补  血  益气  ,  活血  祛瘀  ,  提高  免疫力  ,  疗头痛  头晕  ,  健脑  ,  安神  除烦  ,  补充  能量  ,  明目
+        </segment>
+
+        <pos>
+            祛脂#NR  降压#NN  ,#NN  利尿#NN  消肿#NN  ,#NN  补#NN  血#NN  益气#NN  ,#NN  活血#NN  祛瘀#NN  ,#NN  提高#NN  免疫力#NN  ,#NN  疗头痛#NN  头晕#NN  ,#NN  健脑#NN  ,#NN  安神#NN  除烦#NN  ,#NN  补充#NN  能量#NN  ,#NR  明目#VV
+        </pos>
+
+        <parsing>
+            (dep, 明目#VV, 祛脂#NR)  (dep, 明目#VV, 降压#NN)  (dep, 明目#VV, 利尿#NN)  (dep, 明目#VV, 消肿#NN)  (dep, 明目#VV, 补#NN)  (dep, 明目#VV, 血#NN)  (dep, 明目#VV, 益气#NN)  (dep, 明目#VV, 活血#NN)  (dep, 明目#VV, 祛瘀#NN)  (dep, 明目#VV, 提高#NN)  (dep, 明目#VV, 免疫力#NN)  (dep, 明目#VV, 疗头痛#NN)  (dep, 明目#VV, 头晕#NN)  (dep, 明目#VV, 健脑#NN)  (dep, 明目#VV, 安神#NN)  (dep, 明目#VV, 除烦#NN)  (dep, 明目#VV, 补充#NN)  (dep, 明目#VV, 能量#NN)  (root, ROOT#null, 明目#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        调经  补气  利水  化瘀止血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            地笋可以凉拌或炒食、做汤，或做酱菜等。
+        </rawdata>
+
+        <segment>
+            地笋  可以  凉拌  或  炒  食  、  做  汤  ，  或  做  酱菜  等  。
+        </segment>
+
+        <pos>
+            地笋#NN  可以#VV  凉拌#VV  或#CC  炒#VV  食#NN  、#PU  做#VV  汤#NN  ，#PU  或#CC  做#VV  酱菜#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 凉拌#VV, 地笋#NN)  (mmod, 凉拌#VV, 可以#VV)  (root, ROOT#null, 凉拌#VV)  (cc, 凉拌#VV, 或#CC)  (dep, 凉拌#VV, 炒#VV)  (dobj, 炒#VV, 食#NN)  (conj, 凉拌#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (cc, 凉拌#VV, 或#CC)  (conj, 凉拌#VV, 做#VV)  (dobj, 做#VV, 酱菜#NN)  (etc, 酱菜#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/35/41/82229_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\785 地笋.jpg
+    </picturelocalurl>
+
+</content>

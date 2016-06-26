@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        574
+    </id>
+
+    <foodname>
+        小米面
+    </foodname>
+
+    <firstcategory>
+        谷类
+    </firstcategory>
+
+    <secondcategory>
+        杂粮
+    </secondcategory>
+
+    <alias>
+        粟米面
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            1.小米粉可单独或与其他面粉掺和制做饼、窝头、丝糕、发糕等，糯性小米也可酿酒、酿醋、制糖等。
+            2.宜与大豆或肉类食物混合食用。
+            3.小米的蛋白质营养价值并不比大米更好，因为小米蛋白质的氨基酸组成并不理想，赖氨酸过低而亮氨酸又过高，所以产后不能完全以小米为主食，应注意搭配，以免缺乏其他营养。
+        </rawdata>
+
+        <segment>
+            小米粉  可  单独  或  与  其他  面粉  掺和  制做  饼  、  窝头  、  丝糕  、  发糕  等  ，  糯性  小米  也  可  酿酒  、  酿醋  、  制糖  等  。
+            宜  与  大豆  或  肉类  食物  混合  食用  。
+            小米  的  蛋白质  营养  价值  并不  比  大米  更  好  ，  因为  小米  蛋白质  的  氨基酸  组成  并不  理想  ，  赖氨酸  过低  而  亮氨酸  又  过高  ，  所以  产后  不  能  完全  以  小米  为  主食  ，  应注意  搭配  ，  以免  缺乏  其他  营养  。
+        </segment>
+
+        <pos>
+            小米粉#NN  可#VV  单独#AD  或#CC  与#P  其他#DT  面粉#NN  掺和#NN  制做#VV  饼#NR  、#PU  窝头#NR  、#PU  丝糕#NR  、#PU  发糕#NR  等#ETC  ，#PU  糯性#NN  小米#NN  也#AD  可#VV  酿酒#NN  、#PU  酿醋#NN  、#PU  制糖#NN  等#ETC  。#PU
+            宜#NR  与#CC  大豆#NR  或#CC  肉类#NN  食物#NN  混合#NN  食用#VV  。#PU
+            小米#NR  的#DEG  蛋白质#NN  营养#VA  价值#NN  并不#NN  比#P  大米#NR  更#AD  好#VA  ，#PU  因为#P  小米#NN  蛋白质#NN  的#DEG  氨基酸#NN  组成#NN  并不#NN  理想#VA  ，#PU  赖氨酸#NR  过低#NN  而#CC  亮氨酸#NN  又#AD  过高#VV  ，#PU  所以#AD  产后#NR  不#AD  能#VV  完全#AD  以#P  小米#NR  为#VC  主食#NN  ，#PU  应注意#VV  搭配#NN  ，#PU  以免#VV  缺乏#VV  其他#DT  营养#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可#VV, 小米粉#NN)  (root, ROOT#null, 可#VV)  (advmod, 可#VV, 单独#AD)  (cc, 可#VV, 或#CC)  (case, 掺和#NN, 与#P)  (det, 面粉#NN, 其他#DT)  (nn, 掺和#NN, 面粉#NN)  (prep, 制做#VV, 掺和#NN)  (dep, 可#VV, 制做#VV)  (conj, 发糕#NR, 饼#NR)  (conj, 发糕#NR, 窝头#NR)  (conj, 发糕#NR, 丝糕#NR)  (dobj, 制做#VV, 发糕#NR)  (etc, 发糕#NR, 等#ETC)  (nn, 小米#NN, 糯性#NN)  (nsubj, 可#VV, 小米#NN)  (advmod, 可#VV, 也#AD)  (conj, 可#VV, 可#VV)  (conj, 制糖#NN, 酿酒#NN)  (conj, 制糖#NN, 酿醋#NN)  (dobj, 可#VV, 制糖#NN)  (etc, 制糖#NN, 等#ETC)
+            (conj, 大豆#NR, 宜#NR)  (cc, 大豆#NR, 与#CC)  (conj, 混合#NN, 大豆#NR)  (cc, 混合#NN, 或#CC)  (nn, 混合#NN, 肉类#NN)  (nn, 混合#NN, 食物#NN)  (nsubj, 食用#VV, 混合#NN)  (root, ROOT#null, 食用#VV)
+            (assmod, 蛋白质#NN, 小米#NR)  (case, 小米#NR, 的#DEG)  (nsubj, 营养#VA, 蛋白质#NN)  (relcl, 并不#NN, 营养#VA)  (nn, 并不#NN, 价值#NN)  (nsubj, 好#VA, 并不#NN)  (case, 大米#NR, 比#P)  (prep, 好#VA, 大米#NR)  (advmod, 好#VA, 更#AD)  (root, ROOT#null, 好#VA)  (case, 理想#VA, 因为#P)  (nn, 蛋白质#NN, 小米#NN)  (assmod, 并不#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nn, 并不#NN, 氨基酸#NN)  (nn, 并不#NN, 组成#NN)  (nsubj, 理想#VA, 并不#NN)  (prep, 过高#VV, 理想#VA)  (nn, 亮氨酸#NN, 赖氨酸#NR)  (conj, 亮氨酸#NN, 过低#NN)  (cc, 亮氨酸#NN, 而#CC)  (nsubj, 过高#VV, 亮氨酸#NN)  (advmod, 过高#VV, 又#AD)  (conj, 好#VA, 过高#VV)  (advmod, 主食#NN, 所以#AD)  (nsubj, 主食#NN, 产后#NR)  (xsubj, 营养#VA, 产后#NR)  (neg, 主食#NN, 不#AD)  (mmod, 主食#NN, 能#VV)  (advmod, 主食#NN, 完全#AD)  (case, 小米#NR, 以#P)  (prep, 主食#NN, 小米#NR)  (cop, 主食#NN, 为#VC)  (conj, 好#VA, 主食#NN)  (conj, 主食#NN, 应注意#VV)  (dobj, 应注意#VV, 搭配#NN)  (conj, 主食#NN, 以免#VV)  (mmod, 营养#VA, 缺乏#VV)  (dep, 营养#VA, 其他#DT)  (ccomp, 以免#VV, 营养#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。 是老人、病人、产妇宜用的滋补品；
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。    是  老人  、  病人  、  产妇  宜  用  的  滋补品  ；
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU  是#VC  老人#NN  、#PU  病人#NN  、#PU  产妇#NN  宜#NR  用#VV  的#DEC  滋补品#NN  ；#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (cop, 滋补品#NN, 是#VC)  (conj, 产妇#NN, 老人#NN)  (conj, 产妇#NN, 病人#NN)  (nn, 宜#NR, 产妇#NN)  (nsubj, 用#VV, 宜#NR)  (relcl, 滋补品#NN, 用#VV)  (mark, 用#VV, 的#DEC)  (conj, 食用#VV, 滋补品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                食部
+            </elename>
+            <elevalue>
+                100%
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水分(克)
+            </elename>
+            <elevalue>
+                11.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量(千卡)
+            </elename>
+            <elevalue>
+                357
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                7.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                77.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不溶性纤维(克)
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                灰分(克)
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                尼克酸(毫克)
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙(毫克)
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                159
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                129
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                6.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                6.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                1.18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                2.82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.55
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            小米又称粟米，我国北方许多妇女在生育后，都有用小米加红糖来调养身体的传统；小米面是由小米精加工而成。
+        </rawdata>
+
+        <segment>
+            小米  又  称  粟米  ，  我国  北方  许多  妇女  在  生育  后  ，  都  有用  小米  加  红糖  来  调养  身体  的  传统  ；  小米面  是  由  小米  精  加工  而  成  。
+        </segment>
+
+        <pos>
+            小米#NR  又#AD  称#VV  粟米#VV  ，#PU  我国#NR  北方#NN  许多#CD  妇女#NN  在#P  生育#NN  后#LC  ，#PU  都#AD  有用#VV  小米#AD  加#VV  红糖#NN  来#MSP  调养#VV  身体#NN  的#DEC  传统#NN  ；#PU  小米面#NN  是#VC  由#P  小米#NN  精#JJ  加工#NN  而#MSP  成#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 小米#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 粟米#VV)  (nn, 北方#NN, 我国#NR)  (nn, 妇女#NN, 北方#NN)  (nummod, 妇女#NN, 许多#CD)  (nsubj, 有用#VV, 妇女#NN)  (case, 生育#NN, 在#P)  (prep, 有用#VV, 生育#NN)  (case, 生育#NN, 后#LC)  (advmod, 有用#VV, 都#AD)  (ccomp, 粟米#VV, 有用#VV)  (advmod, 加#VV, 小米#AD)  (relcl, 传统#NN, 加#VV)  (dobj, 加#VV, 红糖#NN)  (prtmod, 调养#VV, 来#MSP)  (dep, 加#VV, 调养#VV)  (dobj, 调养#VV, 身体#NN)  (mark, 加#VV, 的#DEC)  (dobj, 有用#VV, 传统#NN)  (nsubj, 成#VV, 小米面#NN)  (cop, 成#VV, 是#VC)  (case, 加工#NN, 由#P)  (nn, 加工#NN, 小米#NN)  (amod, 加工#NN, 精#JJ)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 称#VV, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            小米味甘咸，有清热解渴、健胃除湿、和胃安眠等功效。
+            1. 小米因富含维生素B1、B12等，具有防止消化不良及口角生疮的功效；
+            2. 小米具有防止泛胃、呕吐的功效；
+            3. 还具有滋阴养血的功能，可以使产妇虚寒的体质得到调养，帮助她们恢复体力；
+            4. 小米具有减轻皱纹、色斑、色素沉着的功效。
+        </rawdata>
+
+        <segment>
+            小米  味甘咸  ，  有  清热  解渴  、  健胃  除湿  、  和  胃  安眠  等  功效  。
+            小米  因  富含  维生素B  B  12  等  ，  具有  防止  消化不良  及  口角  生疮  的  功效  ；
+            小米  具有  防止  泛胃  、  呕吐  的  功效  ；
+            还  具有  滋阴  养  血  的  功能  ，  可以  使  产妇  虚寒  的  体质  得到  调养  ，  帮助  她们  恢复  体力  ；
+            小米  具有  减轻  皱纹  、  色斑  、  色素  沉着  的  功效  。
+        </segment>
+
+        <pos>
+            小米#NN  味甘咸#NN  ，#PU  有#VE  清热#NN  解渴#NN  、#PU  健胃#NN  除湿#NN  、#PU  和#CC  胃#NN  安眠#NN  等#ETC  功效#NN  。#PU
+            小米#NN  因#P  富含#NN  维生素B#NN  B#VV  12#CD  等#M  ，#PU  具有#VV  防止#VV  消化不良#NN  及#CC  口角#NN  生疮#NN  的#DEC  功效#NN  ；#PU
+            小米#NN  具有#VV  防止#VV  泛胃#NN  、#PU  呕吐#NN  的#DEC  功效#NN  ；#PU
+            还#AD  具有#VV  滋阴#AD  养#VV  血#NN  的#DEC  功能#NN  ，#PU  可以#VV  使#VV  产妇#NN  虚寒#NN  的#DEG  体质#NN  得到#VV  调养#NN  ，#PU  帮助#VV  她们#PN  恢复#VV  体力#NN  ；#PU
+            小米#NN  具有#VV  减轻#VV  皱纹#NR  、#PU  色斑#NR  、#PU  色素#NR  沉着#AD  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 味甘咸#NN, 小米#NN)  (dep, 有#VE, 味甘咸#NN)  (root, ROOT#null, 有#VE)  (nn, 解渴#NN, 清热#NN)  (conj, 安眠#NN, 解渴#NN)  (nn, 除湿#NN, 健胃#NN)  (conj, 安眠#NN, 除湿#NN)  (cc, 安眠#NN, 和#CC)  (nn, 安眠#NN, 胃#NN)  (nn, 功效#NN, 安眠#NN)  (etc, 安眠#NN, 等#ETC)  (dobj, 有#VE, 功效#NN)
+            (nsubj, 具有#VV, 小米#NN)  (case, B#VV, 因#P)  (nn, 维生素B#NN, 富含#NN)  (nsubj, B#VV, 维生素B#NN)  (prep, 具有#VV, B#VV)  (nummod, 等#M, 12#CD)  (range, B#VV, 等#M)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 防止#VV)  (conj, 生疮#NN, 消化不良#NN)  (cc, 生疮#NN, 及#CC)  (nn, 生疮#NN, 口角#NN)  (dobj, 防止#VV, 生疮#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+            (nsubj, 具有#VV, 小米#NN)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 防止#VV)  (conj, 呕吐#NN, 泛胃#NN)  (dobj, 防止#VV, 呕吐#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+            (advmod, 具有#VV, 还#AD)  (dep, 使#VV, 具有#VV)  (advmod, 养#VV, 滋阴#AD)  (relcl, 功能#NN, 养#VV)  (dobj, 养#VV, 血#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)  (mmod, 使#VV, 可以#VV)  (root, ROOT#null, 使#VV)  (nn, 虚寒#NN, 产妇#NN)  (assmod, 体质#NN, 虚寒#NN)  (case, 虚寒#NN, 的#DEG)  (dobj, 使#VV, 体质#NN)  (dep, 使#VV, 得到#VV)  (dobj, 得到#VV, 调养#NN)  (dep, 使#VV, 帮助#VV)  (dobj, 帮助#VV, 她们#PN)  (dep, 帮助#VV, 恢复#VV)  (dobj, 恢复#VV, 体力#NN)
+            (nsubj, 具有#VV, 小米#NN)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 减轻#VV)  (conj, 色素#NR, 皱纹#NR)  (conj, 色素#NR, 色斑#NR)  (dobj, 减轻#VV, 色素#NR)  (advmod, 减轻#VV, 沉着#AD)  (mark, 减轻#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  除烦  止痢  解毒  补肾  清热  和胃  抗菌  利尿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 小米因富含维生素B1、B12等，具有防止消化不良及口角生疮的功效；
+            2. 小米具有防止泛胃、呕吐的功效；
+            3. 还具有滋阴养血的功能，可以使产妇虚寒的体质得到调养，帮助她们恢复体力；
+            4. 小米具有减轻皱纹、色斑、色素沉着的功效。
+        </rawdata>
+
+        <segment>
+            小米  因  富含  维生素B  B  12  等  ，  具有  防止  消化不良  及  口角  生疮  的  功效  ；
+            小米  具有  防止  泛胃  、  呕吐  的  功效  ；
+            还  具有  滋阴  养  血  的  功能  ，  可以  使  产妇  虚寒  的  体质  得到  调养  ，  帮助  她们  恢复  体力  ；
+            小米  具有  减轻  皱纹  、  色斑  、  色素  沉着  的  功效  。
+        </segment>
+
+        <pos>
+            小米#NN  因#P  富含#NN  维生素B#NN  B#VV  12#CD  等#M  ，#PU  具有#VV  防止#VV  消化不良#NN  及#CC  口角#NN  生疮#NN  的#DEC  功效#NN  ；#PU
+            小米#NN  具有#VV  防止#VV  泛胃#NN  、#PU  呕吐#NN  的#DEC  功效#NN  ；#PU
+            还#AD  具有#VV  滋阴#AD  养#VV  血#NN  的#DEC  功能#NN  ，#PU  可以#VV  使#VV  产妇#NN  虚寒#NN  的#DEG  体质#NN  得到#VV  调养#NN  ，#PU  帮助#VV  她们#PN  恢复#VV  体力#NN  ；#PU
+            小米#NN  具有#VV  减轻#VV  皱纹#NR  、#PU  色斑#NR  、#PU  色素#NR  沉着#AD  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 小米#NN)  (case, B#VV, 因#P)  (nn, 维生素B#NN, 富含#NN)  (nsubj, B#VV, 维生素B#NN)  (prep, 具有#VV, B#VV)  (nummod, 等#M, 12#CD)  (range, B#VV, 等#M)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 防止#VV)  (conj, 生疮#NN, 消化不良#NN)  (cc, 生疮#NN, 及#CC)  (nn, 生疮#NN, 口角#NN)  (dobj, 防止#VV, 生疮#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+            (nsubj, 具有#VV, 小米#NN)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 防止#VV)  (conj, 呕吐#NN, 泛胃#NN)  (dobj, 防止#VV, 呕吐#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+            (advmod, 具有#VV, 还#AD)  (dep, 使#VV, 具有#VV)  (advmod, 养#VV, 滋阴#AD)  (relcl, 功能#NN, 养#VV)  (dobj, 养#VV, 血#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)  (mmod, 使#VV, 可以#VV)  (root, ROOT#null, 使#VV)  (nn, 虚寒#NN, 产妇#NN)  (assmod, 体质#NN, 虚寒#NN)  (case, 虚寒#NN, 的#DEG)  (dobj, 使#VV, 体质#NN)  (dep, 使#VV, 得到#VV)  (dobj, 得到#VV, 调养#NN)  (dep, 使#VV, 帮助#VV)  (dobj, 帮助#VV, 她们#PN)  (dep, 帮助#VV, 恢复#VV)  (dobj, 恢复#VV, 体力#NN)
+            (nsubj, 具有#VV, 小米#NN)  (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 减轻#VV)  (conj, 色素#NR, 皱纹#NR)  (conj, 色素#NR, 色斑#NR)  (dobj, 减轻#VV, 色素#NR)  (advmod, 减轻#VV, 沉着#AD)  (mark, 减轻#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            小米忌与杏仁同食。1.小米的蛋白质营养价值并不比大米更好，因为小米蛋白质的氨基酸组成并不理想，赖氨酸过低而亮氨酸又过高，所以产后不能完全以小米为主食，应注意搭配，以免缺乏其他营养；
+            2.可单独或与其他面粉掺和制做饼、窝头、丝糕、发糕等，
+        </rawdata>
+
+        <segment>
+            小米忌  与  杏仁  同  食  。    小米  的  蛋白质  营养  价值  并不  比  大米  更  好  ，  因为  小米  蛋白质  的  氨基酸  组成  并不  理想  ，  赖氨酸  过低  而  亮氨酸  又  过高  ，  所以  产后  不  能  完全  以  小米  为  主食  ，  应注意  搭配  ，  以免  缺乏  其他  营养  ；
+            可  单独  或  与  其他  面粉  掺和  制做  饼  、  窝头  、  丝糕  、  发糕  等  ，
+        </segment>
+
+        <pos>
+            小米忌#NR  与#CC  杏仁#NR  同#P  食#NN  。#PU  小米#NR  的#DEG  蛋白质#NN  营养#VA  价值#NN  并不#NN  比#P  大米#NR  更#AD  好#VA  ，#PU  因为#P  小米#NN  蛋白质#NN  的#DEG  氨基酸#NN  组成#NN  并不#NN  理想#VA  ，#PU  赖氨酸#NR  过低#NN  而#CC  亮氨酸#NN  又#AD  过高#VV  ，#PU  所以#AD  产后#NR  不#AD  能#VV  完全#AD  以#P  小米#NR  为#VC  主食#NN  ，#PU  应注意#VV  搭配#NN  ，#PU  以免#VV  缺乏#VV  其他#DT  营养#VA  ；#PU
+            可#VV  单独#JJ  或#CC  与#P  其他#DT  面粉#NN  掺和#NN  制做#NN  饼#NR  、#PU  窝头#NR  、#PU  丝糕#NR  、#PU  发糕#NR  等#ETC  ，#PU
+        </pos>
+
+        <parsing>
+            (conj, 杏仁#NR, 小米忌#NR)  (cc, 杏仁#NR, 与#CC)  (nsubj, 食#NN, 杏仁#NR)  (case, 食#NN, 同#P)  (root, ROOT#null, 食#NN)  (assmod, 蛋白质#NN, 小米#NR)  (case, 小米#NR, 的#DEG)  (nsubj, 营养#VA, 蛋白质#NN)  (relcl, 并不#NN, 营养#VA)  (nn, 并不#NN, 价值#NN)  (nsubj, 好#VA, 并不#NN)  (case, 大米#NR, 比#P)  (prep, 好#VA, 大米#NR)  (advmod, 好#VA, 更#AD)  (conj, 食#NN, 好#VA)  (case, 理想#VA, 因为#P)  (nn, 蛋白质#NN, 小米#NN)  (assmod, 并不#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nn, 并不#NN, 氨基酸#NN)  (nn, 并不#NN, 组成#NN)  (nsubj, 理想#VA, 并不#NN)  (prep, 过高#VV, 理想#VA)  (nn, 亮氨酸#NN, 赖氨酸#NR)  (conj, 亮氨酸#NN, 过低#NN)  (cc, 亮氨酸#NN, 而#CC)  (nsubj, 过高#VV, 亮氨酸#NN)  (advmod, 过高#VV, 又#AD)  (conj, 食#NN, 过高#VV)  (advmod, 主食#NN, 所以#AD)  (nsubj, 主食#NN, 产后#NR)  (xsubj, 营养#VA, 产后#NR)  (neg, 主食#NN, 不#AD)  (mmod, 主食#NN, 能#VV)  (advmod, 主食#NN, 完全#AD)  (case, 小米#NR, 以#P)  (prep, 主食#NN, 小米#NR)  (cop, 主食#NN, 为#VC)  (conj, 食#NN, 主食#NN)  (conj, 主食#NN, 应注意#VV)  (dobj, 应注意#VV, 搭配#NN)  (conj, 主食#NN, 以免#VV)  (mmod, 营养#VA, 缺乏#VV)  (dep, 营养#VA, 其他#DT)  (ccomp, 以免#VV, 营养#VA)
+            (root, ROOT#null, 可#VV)  (dep, 制做#NN, 单独#JJ)  (cc, 单独#JJ, 或#CC)  (case, 面粉#NN, 与#P)  (det, 面粉#NN, 其他#DT)  (prep, 掺和#NN, 面粉#NN)  (dep, 单独#JJ, 掺和#NN)  (dobj, 可#VV, 制做#NN)  (conj, 发糕#NR, 饼#NR)  (conj, 发糕#NR, 窝头#NR)  (conj, 发糕#NR, 丝糕#NR)  (dep, 可#VV, 发糕#NR)  (etc, 发糕#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/75/oj_c.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\574 小米面.jpg
+    </picturelocalurl>
+
+</content>

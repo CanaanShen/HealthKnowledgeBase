@@ -1,0 +1,139 @@
+<content>
+
+    <id>
+        1296
+    </id>
+
+    <foodname>
+        鸡肉肠
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            一般人群，孕妇、儿童、老年人和体弱者少吃或不吃为好；肝肾功能不全者不宜食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  ，  孕妇  、  儿童  、  老年人  和  体弱者  少吃  或  不  吃  为好  ；  肝肾  功能  不全  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  ，#PU  孕妇#NN  、#PU  儿童#NN  、#PU  老年人#NN  和#CC  体弱者#NN  少吃#AD  或#CC  不#AD  吃#VV  为好#NN  ；#PU  肝肾#NN  功能#NN  不全#NN  者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 吃#VV, 人群#NN)  (conj, 体弱者#NN, 孕妇#NN)  (conj, 体弱者#NN, 儿童#NN)  (conj, 体弱者#NN, 老年人#NN)  (cc, 体弱者#NN, 和#CC)  (nsubj, 吃#VV, 体弱者#NN)  (neg, 吃#VV, 少吃#AD)  (cc, 少吃#AD, 或#CC)  (dep, 少吃#AD, 不#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 为好#NN)  (nn, 功能#NN, 肝肾#NN)  (nn, 者#NN, 功能#NN)  (nn, 者#NN, 不全#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 吃#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡肉做的香肠
+        </rawdata>
+
+        <segment>
+            鸡肉  做  的  香肠
+        </segment>
+
+        <pos>
+            鸡肉#AD  做#VV  的#DEC  香肠#NN
+        </pos>
+
+        <parsing>
+            (advmod, 做#VV, 鸡肉#AD)  (relcl, 香肠#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (root, ROOT#null, 香肠#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            含有供给人体需要的蛋白质、脂肪、碳水化合物、各种矿物质和维生素等营养，还具有吸收率高、适口性好、饱腹性强等优点，还适合加工成多种佳肴。
+        </rawdata>
+
+        <segment>
+            含有  供给  人体  需要  的  蛋白质  、  脂肪  、  碳水化合物  、  各种  矿物质  和  维生素  等  营养  ，  还  具有  吸收率  高  、  适口  性好  、  饱腹  性强  等  优点  ，  还  适合  加工  成  多  种  佳肴  。
+        </segment>
+
+        <pos>
+            含有#VV  供给#NN  人体#NN  需要#NN  的#DEG  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  各种#NR  矿物质#NN  和#CC  维生素#NN  等#ETC  营养#VA  ，#PU  还#AD  具有#VV  吸收率#AD  高#VA  、#PU  适口#NN  性好#VA  、#PU  饱腹#AD  性强#VA  等#ETC  优点#NN  ，#PU  还#AD  适合#VV  加工#NN  成#VV  多#CD  种#M  佳肴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含有#VV)  (nn, 需要#NN, 供给#NN)  (nn, 需要#NN, 人体#NN)  (assmod, 维生素#NN, 需要#NN)  (case, 需要#NN, 的#DEG)  (conj, 各种#NR, 蛋白质#NR)  (conj, 各种#NR, 脂肪#NR)  (conj, 各种#NR, 碳水化合物#NR)  (nn, 矿物质#NN, 各种#NR)  (conj, 维生素#NN, 矿物质#NN)  (cc, 维生素#NN, 和#CC)  (dobj, 含有#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (conj, 含有#VV, 营养#VA)  (advmod, 具有#VV, 还#AD)  (dep, 含有#VV, 具有#VV)  (advmod, 高#VA, 吸收率#AD)  (nfincl, 优点#NN, 高#VA)  (nsubj, 性好#VA, 适口#NN)  (dep, 高#VA, 性好#VA)  (advmod, 性强#VA, 饱腹#AD)  (conj, 高#VA, 性强#VA)  (dep, 高#VA, 等#ETC)  (dobj, 具有#VV, 优点#NN)  (advmod, 适合#VV, 还#AD)  (dep, 含有#VV, 适合#VV)  (dobj, 适合#VV, 加工#NN)  (conj, 适合#VV, 成#VV)  (nummod, 种#M, 多#CD)  (clf, 佳肴#NN, 种#M)  (dobj, 成#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鸡肉含蛋白质、脂肪、钙、磷、铁、镁、钾、钠、维生素A、B1、B2、C、E和烟酸等成分。脂肪含量较少，其中含有高度不饱和脂肪酸。用于虚损羸瘦，病后体弱乏力；脾胃虚弱，食少反胃，腹泻；气血不足，头晕心悸，或产后乳汁缺乏；肾虚所致的小便频数，遗精，耳鸣耳聋，月经不调；脾虚水肿；疮疡久不愈合等。猪小肠营养丰富，含有钙、镁、硫胺素、铁、核黄素、锰等人体必需的微量元素和矿物质，但是它的胆固醇含量较高，每百克就含胆固醇183毫克，有血脂偏高者、高胆固醇者不宜食用。
+        </rawdata>
+
+        <segment>
+            鸡肉  含  蛋白质  、  脂肪  、  钙  、  磷  、  铁  、  镁  、  钾  、  钠  、  维生素A  、  B  B2  、  C  、  E  和  烟酸  等  成分  。  脂肪  含量  较  少  ，  其中  含有  高度  不  饱和  脂肪酸  。  用于  虚损  羸瘦  ，  病  后  体弱  乏力  ；  脾胃  虚弱  ，  食少  反胃  ，  腹泻  ；  气血  不足  ，  头晕  心悸  ，  或  产后  乳汁  缺乏  ；  肾虚  所致  的  小便  频数  ，  遗精  ，  耳鸣  耳聋  ，  月经不调  ；  脾虚  水肿  ；  疮疡  久  不  愈合  等  。  猪  小  肠  营养  丰富  ，  含有  钙  、  镁  、  硫胺素  、  铁  、  核  黄素  、  锰等  人体  必需  的  微量  元素  和  矿物质  ，  但是  它  的  胆固醇  含量  较  高  ，  每  百  克  就  含  胆固醇  183  毫克  ，  有  血脂  偏高者  、  高  胆固醇  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            鸡肉#NN  含#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  镁#NN  、#PU  钾#NN  、#PU  钠#NN  、#PU  维生素A#NR  、#PU  B#NR  B2#CD  、#PU  C#NN  、#PU  E#NR  和#CC  烟酸#NR  等#ETC  成分#NN    。#PU  脂肪#NN  含量#NN  较#AD  少#VA  ，#PU  其中#NN  含有#NN  高度#AD  不#AD  饱和#VV  脂肪酸#NN    。#PU  用于#VV  虚损#NN  羸瘦#NN  ，#PU  病#NN  后#LC  体弱#VV  乏力#NN  ；#PU  脾胃#AD  虚弱#VV  ，#PU  食少#VV  反胃#NN  ，#PU  腹泻#VV  ；#PU  气血#VV  不足#NN  ，#PU  头晕#VV  心悸#NN  ，#PU  或#CC  产后#AD  乳汁#AD  缺乏#VV  ；#PU  肾虚#VV  所致#NR  的#DEG  小便#NN  频数#NN  ，#PU  遗精#VV  ，#PU  耳鸣#VV  耳聋#NN  ，#PU  月经不调#NN  ；#PU  脾虚#NN  水肿#NN  ；#PU  疮疡#AD  久#AD  不#AD  愈合#VV  等#ETC    。#PU  猪#NN  小#JJ  肠#NN  营养#VA  丰富#VA  ，#PU  含有#VV  钙#NN  、#PU  镁#NN  、#PU  硫胺素#NN  、#PU  铁#NN  、#PU  核#NN  黄素#NN  、#PU  锰等#NN  人体#NN  必需#VV  的#DEC  微量#NN  元素#NN  和#CC  矿物质#NN  ，#PU  但是#AD  它#PN  的#DEG  胆固醇#NN  含量#NN  较#AD  高#VA  ，#PU  每#DT  百#CD  克#M  就#AD  含#VV  胆固醇#NN  183#CD  毫克#NN  ，#PU  有#VE  血脂#NN  偏高者#NN  、#PU  高#JJ  胆固醇#NN  者#NN  不#AD  宜#NR  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 鸡肉#NN)  (root, ROOT#null, 含#VV)  (conj, 烟酸#NR, 蛋白质#NR)  (conj, 烟酸#NR, 脂肪#NR)  (conj, 烟酸#NR, 钙#NR)  (conj, 烟酸#NR, 磷#NN)  (conj, 烟酸#NR, 铁#NN)  (conj, 烟酸#NR, 镁#NN)  (conj, 烟酸#NR, 钾#NN)  (conj, 烟酸#NR, 钠#NN)  (conj, 烟酸#NR, 维生素A#NR)  (conj, 烟酸#NR, B#NR)  (nummod, B#NR, B2#CD)  (conj, 烟酸#NR, C#NN)  (conj, 烟酸#NR, E#NR)  (cc, 烟酸#NR, 和#CC)  (nn, 成分#NN, 烟酸#NR)  (etc, 烟酸#NR, 等#ETC)  (dobj, 含#VV, 成分#NN)   (nn, 含量#NN, 脂肪#NN)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 较#AD)  (root, ROOT#null, 少#VA)  (nn, 含有#NN, 其中#NN)  (nsubj, 饱和#VV, 含有#NN)  (advmod, 饱和#VV, 高度#AD)  (neg, 饱和#VV, 不#AD)  (conj, 少#VA, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)   (root, ROOT#null, 用于#VV)  (nn, 羸瘦#NN, 虚损#NN)  (dobj, 用于#VV, 羸瘦#NN)  (loc, 体弱#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 用于#VV, 体弱#VV)  (dobj, 体弱#VV, 乏力#NN)  (advmod, 虚弱#VV, 脾胃#AD)  (dep, 用于#VV, 虚弱#VV)  (conj, 虚弱#VV, 食少#VV)  (dobj, 食少#VV, 反胃#NN)  (conj, 虚弱#VV, 腹泻#VV)  (conj, 虚弱#VV, 气血#VV)  (dobj, 气血#VV, 不足#NN)  (conj, 虚弱#VV, 头晕#VV)  (dobj, 头晕#VV, 心悸#NN)  (cc, 虚弱#VV, 或#CC)  (advmod, 缺乏#VV, 产后#AD)  (advmod, 缺乏#VV, 乳汁#AD)  (conj, 虚弱#VV, 缺乏#VV)  (dep, 用于#VV, 肾虚#VV)  (assmod, 频数#NN, 所致#NR)  (case, 所致#NR, 的#DEG)  (nn, 频数#NN, 小便#NN)  (dobj, 肾虚#VV, 频数#NN)  (conj, 肾虚#VV, 遗精#VV)  (conj, 肾虚#VV, 耳鸣#VV)  (dobj, 耳鸣#VV, 耳聋#NN)  (conj, 肾虚#VV, 月经不调#NN)  (nn, 水肿#NN, 脾虚#NN)  (dep, 月经不调#NN, 水肿#NN)  (advmod, 愈合#VV, 疮疡#AD)  (advmod, 愈合#VV, 久#AD)  (neg, 愈合#VV, 不#AD)  (dep, 月经不调#NN, 愈合#VV)  (dep, 月经不调#NN, 等#ETC)   (nn, 肠#NN, 猪#NN)  (amod, 肠#NN, 小#JJ)  (nsubj, 营养#VA, 肠#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (dep, 营养#VA, 含有#VV)  (conj, 锰等#NN, 钙#NN)  (conj, 锰等#NN, 镁#NN)  (conj, 锰等#NN, 硫胺素#NN)  (conj, 锰等#NN, 铁#NN)  (nn, 锰等#NN, 核#NN)  (conj, 锰等#NN, 黄素#NN)  (nn, 人体#NN, 锰等#NN)  (nsubj, 必需#VV, 人体#NN)  (relcl, 矿物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nn, 矿物质#NN, 微量#NN)  (conj, 矿物质#NN, 元素#NN)  (cc, 矿物质#NN, 和#CC)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 高#VA, 但是#AD)  (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 营养#VA, 高#VA)  (det, 者#NN, 每#DT)  (nummod, 克#M, 百#CD)  (dep, 每#DT, 克#M)  (advmod, 含#VV, 就#AD)  (nfincl, 者#NN, 含#VV)  (nn, 毫克#NN, 胆固醇#NN)  (nummod, 毫克#NN, 183#CD)  (dobj, 含#VV, 毫克#NN)  (dep, 含#VV, 有#VE)  (nn, 偏高者#NN, 血脂#NN)  (conj, 胆固醇#NN, 偏高者#NN)  (amod, 胆固醇#NN, 高#JJ)  (dobj, 有#VE, 胆固醇#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 营养#VA, 食用#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/01/81/33025_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1296 鸡肉肠.jpg
+    </picturelocalurl>
+
+</content>

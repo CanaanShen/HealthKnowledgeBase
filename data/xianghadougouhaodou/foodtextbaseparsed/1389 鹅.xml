@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        1389
+    </id>
+
+    <foodname>
+        鹅
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        农雁、舒雁、家雁、鹅肉
+    </alias>
+
+    <season>
+        春、夏、秋、冬
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                245cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                62.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                17.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                19.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                42mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.07mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.23mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.22mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                4.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                58.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                3.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                74mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鹅是鸟纲雁形目鸭科动物的一种。食草动物，鹅肉是理想的高蛋白、低脂肪、低胆固醇的营养健康食品。
+        </rawdata>
+
+        <segment>
+            鹅  是  鸟  纲  雁形目  鸭科  动物  的  一  种  。  食草  动物  ，  鹅肉  是  理想  的  高  蛋白  、  低  脂肪  、  低  胆固醇  的  营养  健康  食品  。
+        </segment>
+
+        <pos>
+            鹅#NN  是#VC  鸟#NN  纲#NN  雁形目#NN  鸭科#JJ  动物#NN  的#DEG  一#CD  种#M    。#PU  食草#JJ  动物#NN  ，#PU  鹅肉#AD  是#VC  理想#VA  的#DEC  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  的#DEG  营养#VA  健康#VA  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 是#VC, 鹅#NN)  (root, ROOT#null, 是#VC)  (nn, 雁形目#NN, 鸟#NN)  (nn, 雁形目#NN, 纲#NN)  (nn, 动物#NN, 雁形目#NN)  (amod, 动物#NN, 鸭科#JJ)  (assmod, 种#M, 动物#NN)  (case, 动物#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (amod, 动物#NN, 食草#JJ)  (dep, 食品#NN, 动物#NN)  (advmod, 食品#NN, 鹅肉#AD)  (cop, 食品#NN, 是#VC)  (relcl, 食品#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (amod, 蛋白#NN, 高#JJ)  (conj, 食品#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 食品#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (assmod, 食品#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nfincl, 食品#NN, 营养#VA)  (comod, 营养#VA, 健康#VA)  (root, ROOT#null, 食品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鹅肉含蛋白质，钙，磷，热量，钾、钠等十多种微量元素。鹅肉含有人体生长发育所必需的各种氨基酸，其组成接近人体所需氨基酸的比例，从生物学价值上来看，鹅肉是全价蛋白质，优质蛋白质。鹅肉中的脂肪含量较低，仅比鸡肉高一点，比其他肉要低得多。鹅肉不仅脂肪含量低，而且品质好，不饱和脂肪酸的含量高，特别是亚麻酸含量均超过其他肉类，对人体健康有利。鹅肉脂肪的熔点亦很低，质地柔软，容易被人体消化吸收。
+        </rawdata>
+
+        <segment>
+            鹅肉  含  蛋白质  ，  钙  ，  磷  ，  热量  ，  钾  、  钠  等  十多  种  微量  元素  。  鹅肉  含有  人体  生长  发育  所  必需  的  各  种  氨基酸  ，  其  组成  接近  人体  所需  氨基酸  的  比例  ，  从  生物学  价值  上  来看  ，  鹅肉  是  全价  蛋白质  ，  优质  蛋白质  。  鹅肉  中  的  脂肪  含量  较  低  ，  仅  比  鸡肉  高  一点  ，  比  其他  肉  要  低得  多  。  鹅肉  不仅  脂肪  含量  低  ，  而且  品质  好  ，  不  饱和  脂肪酸  的  含量  高  ，  特别是  亚麻酸  含量  均  超过  其他  肉类  ，  对  人体  健康  有利  。  鹅肉  脂肪  的  熔点  亦  很  低  ，  质地  柔软  ，  容易  被  人体  消化  吸收  。
+        </segment>
+
+        <pos>
+            鹅肉#NN  含#VV  蛋白质#NN  ，#PU  钙#NN  ，#PU  磷#NN  ，#PU  热量#VV  ，#PU  钾#NN  、#PU  钠#NN  等#ETC  十多#CD  种#M  微量#NN  元素#NN    。#PU  鹅肉#NN  含有#NN  人体#NN  生长#NN  发育#VV  所#MSP  必需#VV  的#DEC  各#DT  种#M  氨基酸#NN  ，#PU  其#PN  组成#VV  接近#VV  人体#NN  所需#NN  氨基酸#NN  的#DEC  比例#NN  ，#PU  从#P  生物学#NN  价值#NN  上#LC  来看#VV  ，#PU  鹅肉#NN  是#VC  全价#NN  蛋白质#NN  ，#PU  优质#JJ  蛋白质#NN    。#PU  鹅肉#NN  中#LC  的#DEG  脂肪#NN  含量#NN  较#AD  低#VA  ，#PU  仅#AD  比#P  鸡肉#NN  高#VA  一点#AD  ，#PU  比#P  其他#DT  肉#NN  要#VV  低得#AD  多#VA    。#PU  鹅肉#NN  不仅#CC  脂肪#NN  含量#NN  低#VA  ，#PU  而且#CC  品质#NN  好#VA  ，#PU  不#AD  饱和#VV  脂肪酸#NN  的#DEC  含量#NN  高#VA  ，#PU  特别是#AD  亚麻酸#NN  含量#NN  均#AD  超过#VV  其他#DT  肉类#NN  ，#PU  对#P  人体#NN  健康#AD  有利#VA    。#PU  鹅肉#NN  脂肪#NN  的#DEG  熔点#NN  亦#AD  很#AD  低#VA  ，#PU  质地#AD  柔软#VA  ，#PU  容易#VA  被#SB  人体#VV  消化#NN  吸收#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 鹅肉#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 蛋白质#NN)  (nsubj, 热量#VV, 钙#NN)  (nsubj, 热量#VV, 磷#NN)  (conj, 含#VV, 热量#VV)  (conj, 钠#NN, 钾#NN)  (nn, 微量#NN, 钠#NN)  (etc, 钠#NN, 等#ETC)  (nummod, 种#M, 十多#CD)  (clf, 微量#NN, 种#M)  (nsubj, 元素#NN, 微量#NN)  (conj, 含#VV, 元素#NN)   (nn, 生长#NN, 鹅肉#NN)  (nn, 生长#NN, 含有#NN)  (nn, 生长#NN, 人体#NN)  (nsubj, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (det, 氨基酸#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 发育#VV, 氨基酸#NN)  (nsubj, 组成#VV, 其#PN)  (conj, 发育#VV, 组成#VV)  (relcl, 比例#NN, 接近#VV)  (nn, 氨基酸#NN, 人体#NN)  (nn, 氨基酸#NN, 所需#NN)  (dobj, 接近#VV, 氨基酸#NN)  (mark, 接近#VV, 的#DEC)  (dobj, 组成#VV, 比例#NN)  (case, 价值#NN, 从#P)  (nn, 价值#NN, 生物学#NN)  (prep, 来看#VV, 价值#NN)  (case, 价值#NN, 上#LC)  (conj, 组成#VV, 来看#VV)  (nsubj, 蛋白质#NN, 鹅肉#NN)  (cop, 蛋白质#NN, 是#VC)  (nn, 蛋白质#NN, 全价#NN)  (dep, 蛋白质#NN, 蛋白质#NN)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 发育#VV, 蛋白质#NN)   (assmod, 含量#NN, 鹅肉#NN)  (case, 鹅肉#NN, 中#LC)  (case, 鹅肉#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 较#AD)  (root, ROOT#null, 低#VA)  (advmod, 高#VA, 仅#AD)  (case, 鸡肉#NN, 比#P)  (prep, 高#VA, 鸡肉#NN)  (dep, 低#VA, 高#VA)  (advmod, 高#VA, 一点#AD)  (case, 肉#NN, 比#P)  (det, 肉#NN, 其他#DT)  (prep, 多#VA, 肉#NN)  (mmod, 多#VA, 要#VV)  (advmod, 多#VA, 低得#AD)  (dep, 低#VA, 多#VA)   (conj, 脂肪#NN, 鹅肉#NN)  (cc, 脂肪#NN, 不仅#CC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (root, ROOT#null, 低#VA)  (cc, 低#VA, 而且#CC)  (nsubj, 好#VA, 品质#NN)  (conj, 低#VA, 好#VA)  (neg, 饱和#VV, 不#AD)  (relcl, 含量#NN, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (mark, 饱和#VV, 的#DEC)  (nsubj, 高#VA, 含量#NN)  (conj, 好#VA, 高#VA)  (advmod, 含量#NN, 特别是#AD)  (nn, 含量#NN, 亚麻酸#NN)  (nsubj, 超过#VV, 含量#NN)  (advmod, 超过#VV, 均#AD)  (conj, 好#VA, 超过#VV)  (det, 肉类#NN, 其他#DT)  (dobj, 超过#VV, 肉类#NN)  (case, 人体#NN, 对#P)  (prep, 有利#VA, 人体#NN)  (advmod, 有利#VA, 健康#AD)  (conj, 好#VA, 有利#VA)   (nn, 脂肪#NN, 鹅肉#NN)  (assmod, 熔点#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nsubj, 低#VA, 熔点#NN)  (advmod, 低#VA, 亦#AD)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)  (advmod, 柔软#VA, 质地#AD)  (dep, 低#VA, 柔软#VA)  (dep, 低#VA, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 人体#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  抗癌防癌  补气  生津止渴  和胃  补虚
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            鹅肉鲜嫩松软，清香不腻，以煨汤居多，也可熏、蒸、烤、烧、酱、糟等。其中鹅肉炖萝卜、鹅肉炖冬瓜等，都是“秋冬养阴”的良菜佳肴。
+        </rawdata>
+
+        <segment>
+            鹅肉  鲜嫩  松软  ，  清香  不  腻  ，  以  煨汤  居多  ，  也  可  熏  、  蒸  、  烤  、  烧  、  酱  、  糟  等  。  其中  鹅肉  炖  萝卜  、  鹅肉  炖  冬瓜  等  ，  都  是  “  秋冬  养  阴  ”  的  良菜  佳肴  。
+        </segment>
+
+        <pos>
+            鹅肉#NN  鲜嫩#NN  松软#VV  ，#PU  清香#NN  不#AD  腻#VV  ，#PU  以#P  煨汤#NN  居多#VV  ，#PU  也#AD  可#VV  熏#NR  、#PU  蒸#NR  、#PU  烤#NR  、#PU  烧#NR  、#PU  酱#NR  、#PU  糟#NR  等#ETC    。#PU  其中#NN  鹅肉#AD  炖#VV  萝卜#NN  、#PU  鹅肉#NN  炖#NN  冬瓜#NN  等#ETC  ，#PU  都#AD  是#VC  ``#AD  秋冬#AD  养#VV  阴#NN  ''#NN  的#DEC  良菜#NN  佳肴#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鲜嫩#NN, 鹅肉#NN)  (nsubj, 松软#VV, 鲜嫩#NN)  (root, ROOT#null, 松软#VV)  (nsubj, 腻#VV, 清香#NN)  (neg, 腻#VV, 不#AD)  (ccomp, 松软#VV, 腻#VV)  (case, 煨汤#NN, 以#P)  (prep, 居多#VV, 煨汤#NN)  (dep, 腻#VV, 居多#VV)  (advmod, 可#VV, 也#AD)  (dep, 腻#VV, 可#VV)  (conj, 糟#NR, 熏#NR)  (conj, 糟#NR, 蒸#NR)  (conj, 糟#NR, 烤#NR)  (conj, 糟#NR, 烧#NR)  (conj, 糟#NR, 酱#NR)  (dobj, 可#VV, 糟#NR)  (etc, 糟#NR, 等#ETC)   (nsubj, 炖#VV, 其中#NN)  (advmod, 炖#VV, 鹅肉#AD)  (root, ROOT#null, 炖#VV)  (conj, 冬瓜#NN, 萝卜#NN)  (nn, 冬瓜#NN, 鹅肉#NN)  (nn, 冬瓜#NN, 炖#NN)  (dobj, 炖#VV, 冬瓜#NN)  (etc, 冬瓜#NN, 等#ETC)  (advmod, 佳肴#NN, 都#AD)  (cop, 佳肴#NN, 是#VC)  (advmod, 养#VV, ``#AD)  (advmod, 养#VV, 秋冬#AD)  (relcl, 佳肴#NN, 养#VV)  (nn, ''#NN, 阴#NN)  (dobj, 养#VV, ''#NN)  (mark, 养#VV, 的#DEC)  (nn, 佳肴#NN, 良菜#NN)  (conj, 炖#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/39/00/57_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1389 鹅.jpg
+    </picturelocalurl>
+
+</content>

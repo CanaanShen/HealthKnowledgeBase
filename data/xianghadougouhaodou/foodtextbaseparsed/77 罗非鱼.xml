@@ -1,0 +1,374 @@
+<content>
+
+    <id>
+        77
+    </id>
+
+    <foodname>
+        罗非鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        吴郭鱼、越南鱼、非洲鲫鱼、福寿鱼、尼罗鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝硬化患者忌食。
+        </rawdata>
+
+        <segment>
+            肝硬化  患者  忌食  。
+        </segment>
+
+        <pos>
+            肝硬化#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肝硬化#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 肝硬化#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜老年人和儿童。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  老年人  和  儿童  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  老年人#NN  和#CC  儿童#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 儿童#NN, 老年人#NN)  (cc, 儿童#NN, 和#CC)  (dobj, 适宜#VV, 儿童#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                161
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                289
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                19.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                22.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            罗非鱼，隶属于鲈形目、鲈形亚目、丽鱼科Cichlidae、罗非鱼属Tilapia(亦称丽鲷科，丽鲷属)。该属原产于非洲，有600多种，目前被养殖的有15种，是世界水产业的重点科研培养的淡水养殖鱼类，且被誉为未来动物性蛋白质的主要来源之一。罗非鱼最早于一九四六年由吴振辉、郭启鄣从新加坡引进到台湾省，为纪念这两个人，先称“吴郭鱼”；一九五七年从越南引进到我国内地，又名“越南鱼”；因其原产于非洲，形似本地鲫鱼，故又有人叫它“非洲鲫鱼”。
+            罗非鱼是一群中小型鱼类，它的外形、个体大小有点类似鲫鱼，鳍条多荆似鳜鱼。广盐性鱼类，海淡水中皆可生存；耐低氧，一般栖息于水的下层，但随水温变化或鱼体大小改变栖息水层。通常生活于淡水中，可以存活于在湖，河，池塘的浅水中。它有很强的适应能力，且对溶氧较少之水有极强之适应性。绝大部分罗非鱼是杂食性，常吃水中植物和碎物。此鱼在面积狭小之水域中亦能繁殖，甚至在水稻田里能够生长。目前我国养殖的主要有尼罗罗非鱼、莫桑比克罗非鱼、奥利亚罗非鱼。罗非鱼的肉味鲜美，肉质细嫩，无肌间刺，无论是红烧还是清烹，味道俱佳。
+        </rawdata>
+
+        <segment>
+            罗非鱼  ，  隶属于  鲈形目  、  鲈形亚目  、  丽  鱼科  Cichlidae  、  罗非鱼  属  Tilapia  (  亦称丽  鲷科  ，  丽鲷属  )  。  该  属  原产  于  非洲  ，  有  600多  种  ，  目前  被  养殖  的  有  15  种  ，  是  世界  水产业  的  重点  科研  培养  的  淡水  养殖  鱼类  ，  且  被  誉为  未来  动物性  蛋白  质  的  主要  来源  之一  。  罗非鱼  最早  于  一九四六年  由  吴振辉  、  郭启鄣  从  新加坡  引进  到  台湾省  ，  为  纪念  这  两  个  人  ，  先  称  “  吴郭鱼  ”  ；  一九五七年  从  越南  引进  到  我  国  内地  ，  又  名  “  越南  鱼  ”  ；  因  其  原产  于  非洲  ，  形似  本地  鲫鱼  ，  故  又  有  人  叫  它  “  非洲  鲫鱼  ”  。
+            罗非鱼  是  一  群  中小型  鱼类  ，  它  的  外形  、  个体  大小  有点  类似  鲫鱼  ，  鳍条  多  荆似  鳜鱼  。  广  盐性  鱼类  ，  海  淡水  中  皆  可  生存  ；  耐  低氧  ，  一般  栖息于  水  的  下层  ，  但  随  水温  变化  或  鱼  体大  小  改变  栖息  水层  。  通常  生活  于  淡水  中  ，  可以  存活  于在湖  ，  河  ，  池塘  的  浅水  中  。  它  有  很  强  的  适应  能力  ，  且  对  溶氧  较  少  之水  有  极  强  之  适应性  。  绝大部分  罗非鱼  是  杂食性  ，  常  吃水  中  植物  和  碎物  。  此  鱼  在  面积  狭小  之  水域  中  亦  能  繁殖  ，  甚至  在  水稻田  里  能够  生长  。  目前  我国  养殖  的  主要  有  尼罗  罗非鱼  、  莫桑比克  罗非鱼  、  奥利亚  罗非鱼  。  罗非鱼  的  肉味  鲜美  ，  肉质  细嫩  ，  无肌间刺  ，  无论是  红烧  还是  清烹  ，  味道  俱佳  。
+        </segment>
+
+        <pos>
+            罗非鱼#VV  ，#PU  隶属于#NR  鲈形目#NR  、#PU  鲈形亚目#NR  、#PU  丽#NR  鱼科#NR  Cichlidae#NR  、#PU  罗非鱼#NR  属#NN  Tilapia#NN  -LRB-#NN  亦称丽#VV  鲷科#NN  ，#PU  丽鲷属#VV  -RRB-#NN    。#PU  该#DT  属#NN  原产#VV  于#P  非洲#NR  ，#PU  有#VE  600多#CD  种#M  ，#PU  目前#NT  被#LB  养殖#NN  的#DEG  有#VE  15#CD  种#M  ，#PU  是#VC  世界#NN  水产业#NN  的#DEC  重点#NN  科研#NN  培养#VV  的#DEC  淡水#NN  养殖#NN  鱼类#NN  ，#PU  且#CC  被#SB  誉为#VV  未来#NT  动物性#AD  蛋白#VV  质#NN  的#DEC  主要#JJ  来源#NN  之一#NN    。#PU  罗非鱼#NR  最早#AD  于#P  一九四六年#NT  由#P  吴振辉#NR  、#PU  郭启鄣#NR  从#P  新加坡#NR  引进#VV  到#P  台湾省#NR  ，#PU  为#P  纪念#VV  这#DT  两#CD  个#M  人#NN  ，#PU  先#AD  称#VV  ``#NN  吴郭鱼#NN  ''#NN  ；#PU  一九五七年#NT  从#P  越南#NR  引进#VV  到#P  我#PN  国#NN  内地#NN  ，#PU  又#CC  名#JJ  ``#NN  越南#NR  鱼#NN  ''#VV  ；#PU  因#P  其#PN  原产#VV  于#P  非洲#NR  ，#PU  形似#VV  本地#NN  鲫鱼#NN  ，#PU  故#AD  又#AD  有#VE  人#NN  叫#VV  它#PN  ``#VV  非洲#NR  鲫鱼#NN  ''#NN    。#PU    。#PU
+            罗非鱼#NN  是#VC  一#CD  群#M  中小型#JJ  鱼类#NN  ，#PU  它#PN  的#DEG  外形#NN  、#PU  个体#NN  大小#NN  有点#VV  类似#JJ  鲫鱼#NN  ，#PU  鳍条#NN  多#AD  荆似#VV  鳜鱼#NN    。#PU  广#AD  盐性#VV  鱼类#NN  ，#PU  海#NN  淡水#NN  中#LC  皆#AD  可#VV  生存#VV  ；#PU  耐#NN  低氧#NN  ，#PU  一般#AD  栖息于#VV  水#NN  的#DEG  下层#NN  ，#PU  但#AD  随#P  水温#NN  变化#NN  或#CC  鱼#NN  体大#NN  小#VA  改变#VV  栖息#NN  水层#NN    。#PU  通常#AD  生活#VV  于#P  淡水#NN  中#LC  ，#PU  可以#VV  存活#VV  于在湖#NN  ，#PU  河#NN  ，#PU  池塘#VV  的#DEC  浅水#NN  中#LC    。#PU  它#PN  有#VE  很#AD  强#VA  的#DEC  适应#VV  能力#NN  ，#PU  且#CC  对#P  溶氧#NN  较#AD  少#VA  之水#NN  有#VE  极#AD  强#VA  之#DEC  适应性#NN    。#PU  绝大部分#NN  罗非鱼#AD  是#VC  杂食性#NN  ，#PU  常#AD  吃水#VV  中#NR  植物#NN  和#CC  碎物#NN    。#PU  此#DT  鱼#NN  在#P  面积#NN  狭小#VA  之#DEC  水域#NN  中#LC  亦#AD  能#VV  繁殖#VV  ，#PU  甚至#AD  在#P  水稻田#NN  里#LC  能够#VV  生长#NN    。#PU  目前#NT  我国#VV  养殖#NN  的#DEC  主要#AD  有#VE  尼罗#NR  罗非鱼#NR  、#PU  莫桑比克#NR  罗非鱼#NR  、#PU  奥利亚#NR  罗非鱼#NN    。#PU  罗非鱼#NN  的#DEG  肉味#NN  鲜美#VV  ，#PU  肉质#NR  细嫩#VV  ，#PU  无肌间刺#NR  ，#PU  无论是#AD  红烧#NR  还是#AD  清烹#VV  ，#PU  味道#NN  俱佳#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 罗非鱼#VV)  (nn, 罗非鱼#NR, 隶属于#NR)  (conj, 罗非鱼#NR, 鲈形目#NR)  (conj, 罗非鱼#NR, 鲈形亚目#NR)  (nn, 罗非鱼#NR, 丽#NR)  (nn, 罗非鱼#NR, 鱼科#NR)  (conj, 罗非鱼#NR, Cichlidae#NR)  (nn, -LRB-#NN, 罗非鱼#NR)  (nn, -LRB-#NN, 属#NN)  (nn, -LRB-#NN, Tilapia#NN)  (ccomp, 罗非鱼#VV, 亦称丽#VV)  (dobj, 亦称丽#VV, 鲷科#NN)  (conj, 亦称丽#VV, 丽鲷属#VV)   (det, 属#NN, 该#DT)  (nsubj, 原产#VV, 属#NN)  (root, ROOT#null, 原产#VV)  (case, 非洲#NR, 于#P)  (prep, 有#VE, 非洲#NR)  (relcl, 鱼类#NN, 有#VE)  (nummod, 种#M, 600多#CD)  (dep, 有#VE, 种#M)  (dep, 培养#VV, 目前#NT)  (auxpass, 培养#VV, 被#LB)  (assmod, 科研#NN, 养殖#NN)  (case, 养殖#NN, 的#DEG)  (relcl, 科研#NN, 有#VE)  (nummod, 种#M, 15#CD)  (dep, 有#VE, 种#M)  (cop, 水产业#NN, 是#VC)  (nn, 水产业#NN, 世界#NN)  (conj, 有#VE, 水产业#NN)  (mark, 有#VE, 的#DEC)  (nn, 科研#NN, 重点#NN)  (nsubj, 培养#VV, 科研#NN)  (conj, 有#VE, 培养#VV)  (mark, 有#VE, 的#DEC)  (nn, 鱼类#NN, 淡水#NN)  (nn, 鱼类#NN, 养殖#NN)  (dobj, 原产#VV, 鱼类#NN)  (cc, 原产#VV, 且#CC)  (auxpass, 誉为#VV, 被#SB)  (conj, 原产#VV, 誉为#VV)  (tmod, 蛋白#VV, 未来#NT)  (advmod, 蛋白#VV, 动物性#AD)  (relcl, 之一#NN, 蛋白#VV)  (dobj, 蛋白#VV, 质#NN)  (mark, 蛋白#VV, 的#DEC)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 来源#NN)  (dobj, 誉为#VV, 之一#NN)   (nsubj, 称#VV, 罗非鱼#NR)  (advmod, 称#VV, 最早#AD)  (case, 一九四六年#NT, 于#P)  (prep, 称#VV, 一九四六年#NT)  (case, 郭启鄣#NR, 由#P)  (conj, 郭启鄣#NR, 吴振辉#NR)  (prep, 称#VV, 郭启鄣#NR)  (case, 新加坡#NR, 从#P)  (prep, 称#VV, 新加坡#NR)  (mmod, 称#VV, 引进#VV)  (case, 台湾省#NR, 到#P)  (prep, 称#VV, 台湾省#NR)  (case, 纪念#VV, 为#P)  (prep, 称#VV, 纪念#VV)  (det, 人#NN, 这#DT)  (nummod, 个#M, 两#CD)  (dep, 这#DT, 个#M)  (dobj, 纪念#VV, 人#NN)  (advmod, 称#VV, 先#AD)  (root, ROOT#null, 称#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 吴郭鱼#NN)  (dobj, 称#VV, ''#NN)  (tmod, 引进#VV, 一九五七年#NT)  (case, 越南#NR, 从#P)  (prep, 引进#VV, 越南#NR)  (dep, 称#VV, 引进#VV)  (case, 我#PN, 到#P)  (prep, 内地#NN, 我#PN)  (nn, 内地#NN, 国#NN)  (dobj, 引进#VV, 内地#NN)  (cc, 引进#VV, 又#CC)  (amod, ``#NN, 名#JJ)  (nn, 鱼#NN, ``#NN)  (nn, 鱼#NN, 越南#NR)  (nsubj, ''#VV, 鱼#NN)  (xsubj, 有#VE, 鱼#NN)  (conj, 引进#VV, ''#VV)  (case, 形似#VV, 因#P)  (nsubj, 形似#VV, 其#PN)  (mmod, 形似#VV, 原产#VV)  (case, 非洲#NR, 于#P)  (prep, 形似#VV, 非洲#NR)  (prep, 有#VE, 形似#VV)  (nn, 鲫鱼#NN, 本地#NN)  (dobj, 形似#VV, 鲫鱼#NN)  (advmod, 有#VE, 故#AD)  (advmod, 有#VE, 又#AD)  (ccomp, ''#VV, 有#VE)  (nsubj, 叫#VV, 人#NN)  (dep, 有#VE, 叫#VV)  (nsubj, ``#VV, 它#PN)  (ccomp, 叫#VV, ``#VV)  (nn, ''#NN, 非洲#NR)  (nn, ''#NN, 鲫鱼#NN)  (dobj, ``#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 鱼类#NN, 罗非鱼#NN)  (cop, 鱼类#NN, 是#VC)  (nummod, 群#M, 一#CD)  (clf, 鱼类#NN, 群#M)  (amod, 鱼类#NN, 中小型#JJ)  (root, ROOT#null, 鱼类#NN)  (assmod, 大小#NN, 它#PN)  (case, 它#PN, 的#DEG)  (conj, 大小#NN, 外形#NN)  (nn, 大小#NN, 个体#NN)  (nsubj, 有点#VV, 大小#NN)  (conj, 鱼类#NN, 有点#VV)  (amod, 鲫鱼#NN, 类似#JJ)  (dobj, 有点#VV, 鲫鱼#NN)  (nsubj, 荆似#VV, 鳍条#NN)  (advmod, 荆似#VV, 多#AD)  (conj, 鱼类#NN, 荆似#VV)  (dobj, 荆似#VV, 鳜鱼#NN)   (advmod, 盐性#VV, 广#AD)  (conj, 改变#VV, 盐性#VV)  (dobj, 盐性#VV, 鱼类#NN)  (nn, 淡水#NN, 海#NN)  (loc, 生存#VV, 淡水#NN)  (case, 淡水#NN, 中#LC)  (advmod, 生存#VV, 皆#AD)  (dep, 生存#VV, 可#VV)  (conj, 盐性#VV, 生存#VV)  (nn, 低氧#NN, 耐#NN)  (nsubj, 栖息于#VV, 低氧#NN)  (advmod, 栖息于#VV, 一般#AD)  (dep, 盐性#VV, 栖息于#VV)  (assmod, 下层#NN, 水#NN)  (case, 水#NN, 的#DEG)  (dobj, 栖息于#VV, 下层#NN)  (advmod, 小#VA, 但#AD)  (case, 体大#NN, 随#P)  (nn, 体大#NN, 水温#NN)  (conj, 体大#NN, 变化#NN)  (cc, 体大#NN, 或#CC)  (nn, 体大#NN, 鱼#NN)  (prep, 小#VA, 体大#NN)  (conj, 盐性#VV, 小#VA)  (root, ROOT#null, 改变#VV)  (nn, 水层#NN, 栖息#NN)  (dobj, 改变#VV, 水层#NN)   (advmod, 生活#VV, 通常#AD)  (root, ROOT#null, 生活#VV)  (case, 浅水#NN, 于#P)  (loc, 存活#VV, 淡水#NN)  (case, 淡水#NN, 中#LC)  (mmod, 存活#VV, 可以#VV)  (relcl, 浅水#NN, 存活#VV)  (dobj, 存活#VV, 于在湖#NN)  (nsubj, 池塘#VV, 河#NN)  (conj, 存活#VV, 池塘#VV)  (mark, 存活#VV, 的#DEC)  (prep, 生活#VV, 浅水#NN)  (case, 浅水#NN, 中#LC)   (dep, 有#VE, 它#PN)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 之水#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nfincl, 之水#NN, 适应#VV)  (dobj, 适应#VV, 能力#NN)  (cc, 适应#VV, 且#CC)  (case, 溶氧#NN, 对#P)  (prep, 少#VA, 溶氧#NN)  (advmod, 少#VA, 较#AD)  (conj, 适应#VV, 少#VA)  (dep, 有#VE, 之水#NN)  (dep, 有#VE, 有#VE)  (advmod, 强#VA, 极#AD)  (relcl, 适应性#NN, 强#VA)  (mark, 强#VA, 之#DEC)  (dobj, 有#VE, 适应性#NN)   (nsubj, 杂食性#NN, 绝大部分#NN)  (advmod, 杂食性#NN, 罗非鱼#AD)  (cop, 杂食性#NN, 是#VC)  (root, ROOT#null, 杂食性#NN)  (advmod, 吃水#VV, 常#AD)  (conj, 杂食性#NN, 吃水#VV)  (nn, 碎物#NN, 中#NR)  (conj, 碎物#NN, 植物#NN)  (cc, 碎物#NN, 和#CC)  (dobj, 吃水#VV, 碎物#NN)   (det, 鱼#NN, 此#DT)  (nsubj, 繁殖#VV, 鱼#NN)  (case, 水域#NN, 在#P)  (nsubj, 狭小#VA, 面积#NN)  (relcl, 水域#NN, 狭小#VA)  (mark, 狭小#VA, 之#DEC)  (prep, 繁殖#VV, 水域#NN)  (case, 水域#NN, 中#LC)  (advmod, 繁殖#VV, 亦#AD)  (mmod, 繁殖#VV, 能#VV)  (root, ROOT#null, 繁殖#VV)  (advmod, 能够#VV, 甚至#AD)  (case, 水稻田#NN, 在#P)  (prep, 能够#VV, 水稻田#NN)  (case, 水稻田#NN, 里#LC)  (dep, 繁殖#VV, 能够#VV)  (dobj, 能够#VV, 生长#NN)   (tmod, 有#VE, 目前#NT)  (nsubj, 有#VE, 我国#VV)  (dobj, 我国#VV, 养殖#NN)  (mark, 我国#VV, 的#DEC)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nn, 奥利亚#NR, 尼罗#NR)  (conj, 奥利亚#NR, 罗非鱼#NR)  (nn, 奥利亚#NR, 莫桑比克#NR)  (conj, 奥利亚#NR, 罗非鱼#NR)  (nn, 罗非鱼#NN, 奥利亚#NR)  (dobj, 有#VE, 罗非鱼#NN)   (assmod, 肉味#NN, 罗非鱼#NN)  (case, 罗非鱼#NN, 的#DEG)  (nsubj, 鲜美#VV, 肉味#NN)  (root, ROOT#null, 鲜美#VV)  (nsubj, 细嫩#VV, 肉质#NR)  (ccomp, 鲜美#VV, 细嫩#VV)  (nsubj, 清烹#VV, 无肌间刺#NR)  (advmod, 清烹#VV, 无论是#AD)  (nsubj, 清烹#VV, 红烧#NR)  (advmod, 清烹#VV, 还是#AD)  (ccomp, 细嫩#VV, 清烹#VV)  (nsubj, 俱佳#VV, 味道#NN)  (ccomp, 清烹#VV, 俱佳#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            有助于儿童身体发育。
+        </rawdata>
+
+        <segment>
+            有助于  儿童  身体  发育  。
+        </segment>
+
+        <pos>
+            有助于#VV  儿童#NN  身体#NN  发育#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有助于#VV)  (nn, 身体#NN, 儿童#NN)  (nsubj, 发育#VV, 身体#NN)  (ccomp, 有助于#VV, 发育#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.罗非鱼蛋白质含量高，富含人体所需的多种必需氨基酸，其中谷氨酸和甘氨酸含量特别高，必需氨基酸组成平衡且含量丰富，属于优质高蛋白产品。鱼蛋白与肉类蛋白相比更易于人体消化和吸收，摄取的营养会被毫无浪费地充分利用。
+            2.罗非鱼视黄醇含量高，视黄醇有助于防治夜盲症、视力减退，有助于治疗多种眼疾，维护免疫系统正常功能，祛除老年斑，促进发育，强壮骨骼，维护皮肤、头发、牙齿、牙龈的健康，有抗呼吸系统感染作用。
+            3.罗非鱼牛磺酸含量高达210-220 mg/100g，牛磺酸可与EPA和DHA媲美，能够有助于降低血液中胆固醇和中性脂肪，调节血压，强化肝功能，促进胰岛素分泌，促进视网膜发育，帮助视力恢复。而畜肉中牛磺酸的含量很低，如牛肉中含量仅为32mg/100g，鸡肉中一点都没有。
+            4.罗非鱼不饱和脂肪含量丰富罗非鱼肌肉中不饱和脂肪酸含量约为54%～58%，且还含有一定量的DHA和EPA。大量研究表明，DHA、EPA有助于人类大脑和视力发育，有助于维护人类健康并预防心脏病、高血压、高血脂、关节炎、中风、皮肤病等多种疾病。
+            5.罗非鱼硒含量丰富，硒是心脏代谢不可缺少的元素，具有很强的抗氧化作用，其效果是维生素E的50-100倍，具有较强的抗衰老和抗癌作用。
+            6.罗非鱼还含有维生素E、硫胺素、核黄素、烟酸与矿物质钾、钠、钙、镁、铁，锰、锌、铜等，是维护正常的生理健康不可缺少的微量元素。
+        </rawdata>
+
+        <segment>
+            罗非鱼  蛋白质  含量  高  ，  富含  人体  所  需  的  多  种  必需  氨基酸  ，  其中  谷氨酸  和  甘氨酸  含量  特别高  ，  必需  氨基酸  组成  平衡  且  含量  丰富  ，  属于  优质  高  蛋白  产品  。  鱼  蛋白  与  肉类  蛋白  相比  更  易于  人体  消化  和  吸收  ，  摄取  的  营养  会  被  毫无  浪费  地  充分  利用  。
+            罗非鱼  视黄醇  含量  高  ，  视黄醇  有助于  防治  夜盲症  、  视力  减退  ，  有助于  治疗  多  种  眼疾  ，  维护  免疫  系统  正常  功能  ，  祛除  老年斑  ，  促进  发育  ，  强壮  骨骼  ，  维护  皮肤  、  头发  、  牙齿  、  牙龈  的  健康  ，  有  抗  呼吸  系统  感染  作用  。
+            罗非鱼  牛磺酸  含量  高达  210-220  mg/100g  ，  牛磺酸  可  与  EPA  和  DHA  媲美  ，  能够  有助于  降低  血液  中  胆固醇  和  中性  脂肪  ，  调节  血压  ，  强化  肝功能  ，  促进  胰岛素  分泌  ，  促进  视网膜  发育  ，  帮助  视力  恢复  。  而  畜  肉  中  牛磺酸  的  含量  很  低  ，  如  牛肉  中  含量  仅  为  32mg/100g  ，  鸡肉  中  一点  都  没有  。
+            罗非鱼  不饱和  脂肪  含量  丰富  罗非鱼  肌肉  中  不  饱和  脂肪酸  含量  约  为  54%  ～58%  ，  且  还  含有  一  定量  的  DHA  和  EPA  。  大量  研究  表明  ，  DHA  、  EPA  有助于  人类  大脑  和  视力  发育  ，  有助于  维护  人类  健康  并  预防  心脏病  、  高血压  、  高  血脂  、  关节炎  、  中风  、  皮肤病  等  多  种  疾病  。
+            罗非鱼硒  含量  丰富  ，  硒是  心脏  代谢  不可缺少  的  元素  ，  具有  很  强  的  抗氧化  作用  ，  其  效果  是  维生素E  的  50  -  100  倍  ，  具有  较  强  的  抗  衰老  和  抗癌  作用  。
+            罗非鱼  还  含有  维生素E  、  硫胺素  、  核黄素  、  烟酸  与  矿物质  钾  、  钠  、  钙  、  镁  、  铁  ，  锰  、  锌  、  铜  等  ，  是  维护  正常  的  生理  健康  不可缺少  的  微量  元素  。
+        </segment>
+
+        <pos>
+            罗非鱼#NN  蛋白质#NN  含量#NN  高#VA  ，#PU  富含#NN  人体#NN  所#MSP  需#VV  的#DEC  多#CD  种#M  必需#VV  氨基酸#NN  ，#PU  其中#NN  谷氨酸#NN  和#CC  甘氨酸#NN  含量#NN  特别高#VA  ，#PU  必需#VV  氨基酸#NN  组成#NN  平衡#NN  且#CC  含量#NN  丰富#VA  ，#PU  属于#VV  优质#JJ  高#JJ  蛋白#NN  产品#NN    。#PU  鱼#NN  蛋白#NN  与#P  肉类#NN  蛋白#NN  相比#VV  更#AD  易于#JJ  人体#NN  消化#NN  和#CC  吸收#VV  ，#PU  摄取#NN  的#DEG  营养#VA  会#NN  被#SB  毫无#VV  浪费#VV  地#NN  充分#AD  利用#VV    。#PU    。#PU
+            罗非鱼#NN  视黄醇#NN  含量#NN  高#VA  ，#PU  视黄醇#AD  有助于#VV  防治#VV  夜盲症#NN  、#PU  视力#NN  减退#NN  ，#PU  有助于#VV  治疗#VV  多#CD  种#M  眼疾#NN  ，#PU  维护#VV  免疫#NN  系统#NN  正常#JJ  功能#NN  ，#PU  祛除#VV  老年斑#NN  ，#PU  促进#VV  发育#NN  ，#PU  强壮#VV  骨骼#NN  ，#PU  维护#VV  皮肤#NN  、#PU  头发#NN  、#PU  牙齿#NN  、#PU  牙龈#NN  的#DEG  健康#NN  ，#PU  有#VE  抗#NN  呼吸#NN  系统#NN  感染#NN  作用#NN  。#PU
+            罗非鱼#NN  牛磺酸#NN  含量#NN  高达#VV  210-220#CD  mg/100g#CD  ，#PU  牛磺酸#NN  可#VV  与#P  EPA#NN  和#CC  DHA#NN  媲美#VV  ，#PU  能够#VV  有助于#VV  降低#VV  血液#NN  中#NR  胆固醇#NN  和#CC  中性#NN  脂肪#NN  ，#PU  调节#VV  血压#NN  ，#PU  强化#VV  肝功能#NN  ，#PU  促进#VV  胰岛素#NN  分泌#NN  ，#PU  促进#VV  视网膜#NN  发育#NN  ，#PU  帮助#VV  视力#NN  恢复#VV    。#PU  而#AD  畜#NN  肉#NN  中#LC  牛磺酸#NN  的#DEG  含量#NN  很#AD  低#VA  ，#PU  如#AD  牛肉#NN  中#LC  含量#NN  仅#AD  为#VC  32mg/100g#CD  ，#PU  鸡肉#NN  中#LC  一点#AD  都#AD  没有#VV    。#PU    。#PU
+            罗非鱼#NN  不饱和#NN  脂肪#NN  含量#NN  丰富#VA  罗非鱼#NN  肌肉#NN  中#LC  不#AD  饱和#VA  脂肪酸#NN  含量#NN  约#AD  为#P  54#CD  %#NN  ～#VV  58#CD  %#NN  ，#PU  且#CC  还#AD  含有#VV  一#CD  定量#NN  的#DEG  DHA#NN  和#CC  EPA#NN    。#PU  大量#CD  研究#NN  表明#VV  ，#PU  DHA#NR  、#PU  EPA#NR  有助于#VV  人类#NN  大脑#NN  和#CC  视力#NN  发育#VV  ，#PU  有助于#VV  维护#VV  人类#NN  健康#NN  并#CC  预防#NN  心脏病#NN  、#PU  高血压#NN  、#PU  高#JJ  血脂#NR  、#PU  关节炎#NR  、#PU  中风#NR  、#PU  皮肤病#NR  等#ETC  多#CD  种#M  疾病#NN    。#PU    。#PU
+            罗非鱼硒#NN  含量#NN  丰富#VA  ，#PU  硒是#VV  心脏#NN  代谢#NN  不可缺少#NN  的#DEG  元素#NN  ，#PU  具有#VV  很#AD  强#VA  的#DEC  抗氧化#JJ  作用#NN  ，#PU  其#PN  效果#NN  是#VC  维生素E#VA  的#DEC  50#CD  -#NN  100#CD  倍#M  ，#PU  具有#VV  较#AD  强#VA  的#DEC  抗#NN  衰老#NN  和#CC  抗癌#NN  作用#NN  。#PU
+            罗非鱼#NN  还#AD  含有#VV  维生素E#NR  、#PU  硫胺素#NR  、#PU  核黄素#NR  、#PU  烟酸#NR  与#CC  矿物质#NR  钾#NN  、#PU  钠#NN  、#PU  钙#NN  、#PU  镁#NN  、#PU  铁#NN  ，#PU  锰#NN  、#PU  锌#NN  、#PU  铜#NN  等#ETC  ，#PU  是#VC  维护#VV  正常#VA  的#DEC  生理#NR  健康#JJ  不可缺少#NN  的#DEC  微量#JJ  元素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含量#NN, 罗非鱼#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nn, 人体#NN, 富含#NN)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (dep, 种#M, 需#VV)  (mark, 需#VV, 的#DEC)  (nummod, 种#M, 多#CD)  (nsubj, 必需#VV, 种#M)  (conj, 高#VA, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)  (nn, 含量#NN, 其中#NN)  (conj, 含量#NN, 谷氨酸#NN)  (cc, 含量#NN, 和#CC)  (nn, 含量#NN, 甘氨酸#NN)  (nsubj, 特别高#VA, 含量#NN)  (conj, 高#VA, 特别高#VA)  (conj, 特别高#VA, 必需#VV)  (nn, 平衡#NN, 氨基酸#NN)  (nn, 平衡#NN, 组成#NN)  (dobj, 必需#VV, 平衡#NN)  (cc, 特别高#VA, 且#CC)  (dep, 丰富#VA, 含量#NN)  (conj, 特别高#VA, 丰富#VA)  (conj, 特别高#VA, 属于#VV)  (amod, 产品#NN, 优质#JJ)  (amod, 产品#NN, 高#JJ)  (nn, 产品#NN, 蛋白#NN)  (dobj, 属于#VV, 产品#NN)   (nn, 蛋白#NN, 鱼#NN)  (nsubj, 相比#VV, 蛋白#NN)  (case, 蛋白#NN, 与#P)  (nn, 蛋白#NN, 肉类#NN)  (prep, 相比#VV, 蛋白#NN)  (root, ROOT#null, 相比#VV)  (advmod, 易于#JJ, 更#AD)  (amod, 人体#NN, 易于#JJ)  (nn, 消化#NN, 人体#NN)  (dobj, 相比#VV, 消化#NN)  (cc, 相比#VV, 和#CC)  (conj, 相比#VV, 吸收#VV)  (assmod, 会#NN, 摄取#NN)  (case, 摄取#NN, 的#DEG)  (nfincl, 会#NN, 营养#VA)  (nsubjpass, 毫无#VV, 会#NN)  (auxpass, 毫无#VV, 被#SB)  (ccomp, 吸收#VV, 毫无#VV)  (dep, 吸收#VV, 浪费#VV)  (dobj, 浪费#VV, 地#NN)  (advmod, 利用#VV, 充分#AD)  (dep, 吸收#VV, 利用#VV)   (root, ROOT#null, null#null)
+            (nn, 含量#NN, 罗非鱼#NN)  (nn, 含量#NN, 视黄醇#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (advmod, 有助于#VV, 视黄醇#AD)  (conj, 高#VA, 有助于#VV)  (ccomp, 有助于#VV, 防治#VV)  (conj, 减退#NN, 夜盲症#NN)  (nn, 减退#NN, 视力#NN)  (dobj, 防治#VV, 减退#NN)  (dep, 有助于#VV, 有助于#VV)  (ccomp, 有助于#VV, 治疗#VV)  (nummod, 种#M, 多#CD)  (clf, 眼疾#NN, 种#M)  (dobj, 治疗#VV, 眼疾#NN)  (conj, 治疗#VV, 维护#VV)  (nn, 系统#NN, 免疫#NN)  (nn, 功能#NN, 系统#NN)  (amod, 功能#NN, 正常#JJ)  (dobj, 维护#VV, 功能#NN)  (conj, 治疗#VV, 祛除#VV)  (dobj, 祛除#VV, 老年斑#NN)  (conj, 治疗#VV, 促进#VV)  (dobj, 促进#VV, 发育#NN)  (conj, 治疗#VV, 强壮#VV)  (dobj, 强壮#VV, 骨骼#NN)  (conj, 治疗#VV, 维护#VV)  (conj, 牙龈#NN, 皮肤#NN)  (conj, 牙龈#NN, 头发#NN)  (conj, 牙龈#NN, 牙齿#NN)  (assmod, 健康#NN, 牙龈#NN)  (case, 牙龈#NN, 的#DEG)  (dobj, 维护#VV, 健康#NN)  (conj, 治疗#VV, 有#VE)  (nn, 系统#NN, 抗#NN)  (nn, 系统#NN, 呼吸#NN)  (nn, 感染#NN, 系统#NN)  (nn, 作用#NN, 感染#NN)  (dobj, 有#VE, 作用#NN)
+            (nn, 含量#NN, 罗非鱼#NN)  (nn, 含量#NN, 牛磺酸#NN)  (nsubj, 高达#VV, 含量#NN)  (root, ROOT#null, 高达#VV)  (dep, mg/100g#CD, 210-220#CD)  (range, 高达#VV, mg/100g#CD)  (nsubj, 媲美#VV, 牛磺酸#NN)  (mmod, 媲美#VV, 可#VV)  (case, DHA#NN, 与#P)  (conj, DHA#NN, EPA#NN)  (cc, DHA#NN, 和#CC)  (prep, 媲美#VV, DHA#NN)  (conj, 高达#VV, 媲美#VV)  (mmod, 有助于#VV, 能够#VV)  (conj, 媲美#VV, 有助于#VV)  (ccomp, 有助于#VV, 降低#VV)  (nn, 脂肪#NN, 血液#NN)  (nn, 脂肪#NN, 中#NR)  (conj, 脂肪#NN, 胆固醇#NN)  (cc, 脂肪#NN, 和#CC)  (nn, 脂肪#NN, 中性#NN)  (dobj, 降低#VV, 脂肪#NN)  (conj, 媲美#VV, 调节#VV)  (dobj, 调节#VV, 血压#NN)  (conj, 媲美#VV, 强化#VV)  (dobj, 强化#VV, 肝功能#NN)  (conj, 媲美#VV, 促进#VV)  (nn, 分泌#NN, 胰岛素#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 媲美#VV, 促进#VV)  (nn, 发育#NN, 视网膜#NN)  (dobj, 促进#VV, 发育#NN)  (conj, 媲美#VV, 帮助#VV)  (dobj, 帮助#VV, 视力#NN)  (dep, 帮助#VV, 恢复#VV)   (advmod, 低#VA, 而#AD)  (nn, 肉#NN, 畜#NN)  (loc, 低#VA, 肉#NN)  (case, 肉#NN, 中#LC)  (assmod, 含量#NN, 牛磺酸#NN)  (case, 牛磺酸#NN, 的#DEG)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)  (advmod, 为#VC, 如#AD)  (loc, 为#VC, 牛肉#NN)  (case, 牛肉#NN, 中#LC)  (nsubj, 为#VC, 含量#NN)  (advmod, 为#VC, 仅#AD)  (conj, 低#VA, 为#VC)  (dep, 为#VC, 32mg/100g#CD)  (loc, 没有#VV, 鸡肉#NN)  (case, 鸡肉#NN, 中#LC)  (advmod, 没有#VV, 一点#AD)  (advmod, 没有#VV, 都#AD)  (dep, 为#VC, 没有#VV)   (root, ROOT#null, null#null)
+            (nn, 脂肪#NN, 罗非鱼#NN)  (nn, 脂肪#NN, 不饱和#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)  (nn, 肌肉#NN, 罗非鱼#NN)  (loc, 饱和#VA, 肌肉#NN)  (case, 肌肉#NN, 中#LC)  (neg, 饱和#VA, 不#AD)  (conj, 丰富#VA, 饱和#VA)  (nn, 含量#NN, 脂肪酸#NN)  (nsubj, ～#VV, 含量#NN)  (advmod, ～#VV, 约#AD)  (case, %#NN, 为#P)  (nummod, %#NN, 54#CD)  (prep, ～#VV, %#NN)  (nummod, %#NN, 58#CD)  (dobj, ～#VV, %#NN)  (cc, ～#VV, 且#CC)  (advmod, 含有#VV, 还#AD)  (dep, ～#VV, 含有#VV)  (nummod, 定量#NN, 一#CD)  (assmod, EPA#NN, 定量#NN)  (case, 定量#NN, 的#DEG)  (conj, EPA#NN, DHA#NN)  (cc, EPA#NN, 和#CC)  (dobj, 含有#VV, EPA#NN)   (nummod, 研究#NN, 大量#CD)  (nsubj, 表明#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (conj, EPA#NR, DHA#NR)  (nsubj, 有助于#VV, EPA#NR)  (ccomp, 表明#VV, 有助于#VV)  (nn, 视力#NN, 人类#NN)  (conj, 视力#NN, 大脑#NN)  (cc, 视力#NN, 和#CC)  (nsubj, 发育#VV, 视力#NN)  (ccomp, 有助于#VV, 发育#VV)  (dep, 有助于#VV, 有助于#VV)  (ccomp, 有助于#VV, 维护#VV)  (nn, 心脏病#NN, 人类#NN)  (conj, 心脏病#NN, 健康#NN)  (cc, 心脏病#NN, 并#CC)  (nn, 心脏病#NN, 预防#NN)  (conj, 疾病#NN, 心脏病#NN)  (dep, 疾病#NN, 高血压#NN)  (amod, 疾病#NN, 高#JJ)  (conj, 皮肤病#NR, 血脂#NR)  (conj, 皮肤病#NR, 关节炎#NR)  (conj, 皮肤病#NR, 中风#NR)  (nn, 疾病#NN, 皮肤病#NR)  (etc, 皮肤病#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 疾病#NN, 种#M)  (dobj, 维护#VV, 疾病#NN)   (root, ROOT#null, null#null)
+            (nn, 含量#NN, 罗非鱼硒#NN)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)  (conj, 丰富#VA, 硒是#VV)  (nn, 不可缺少#NN, 心脏#NN)  (nn, 不可缺少#NN, 代谢#NN)  (assmod, 元素#NN, 不可缺少#NN)  (case, 不可缺少#NN, 的#DEG)  (dobj, 硒是#VV, 元素#NN)  (conj, 丰富#VA, 具有#VV)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (amod, 作用#NN, 抗氧化#JJ)  (dobj, 具有#VV, 作用#NN)  (dep, 是#VC, 其#PN)  (nsubj, 是#VC, 效果#NN)  (conj, 丰富#VA, 是#VC)  (relcl, -#NN, 维生素E#VA)  (mark, 维生素E#VA, 的#DEC)  (nummod, -#NN, 50#CD)  (nummod, 倍#M, 100#CD)  (dep, 是#VC, 倍#M)  (conj, 丰富#VA, 具有#VV)  (advmod, 强#VA, 较#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 抗#NN)  (conj, 作用#NN, 衰老#NN)  (cc, 作用#NN, 和#CC)  (nn, 作用#NN, 抗癌#NN)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 含有#VV, 罗非鱼#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, 矿物质#NR, 维生素E#NR)  (conj, 矿物质#NR, 硫胺素#NR)  (conj, 矿物质#NR, 核黄素#NR)  (conj, 矿物质#NR, 烟酸#NR)  (cc, 矿物质#NR, 与#CC)  (nn, 锌#NN, 矿物质#NR)  (conj, 锌#NN, 钾#NN)  (conj, 锌#NN, 钠#NN)  (conj, 锌#NN, 钙#NN)  (conj, 锌#NN, 镁#NN)  (conj, 锌#NN, 铁#NN)  (conj, 锌#NN, 锰#NN)  (conj, 铜#NN, 锌#NN)  (dobj, 含有#VV, 铜#NN)  (etc, 铜#NN, 等#ETC)  (cop, 元素#NN, 是#VC)  (relcl, 元素#NN, 维护#VV)  (relcl, 不可缺少#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nn, 不可缺少#NN, 生理#NR)  (amod, 不可缺少#NN, 健康#JJ)  (dobj, 维护#VV, 不可缺少#NN)  (mark, 维护#VV, 的#DEC)  (amod, 元素#NN, 微量#JJ)  (conj, 含有#VV, 元素#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.罗非鱼以红烧、清蒸为最好；
+            2.巧去鱼腥味：将鱼去鳞剖腹洗净后，放入盆中倒一些黄酒，就能除区鱼的腥味，并能使鱼滋味鲜美。鲜鱼剖开洗净，在牛奶中泡一会儿既可除腥，又能增加鲜味。吃过鱼后，口里有味时，嚼上三五片茶叶，立刻口气清新。
+            3.罗非鱼洗鱼的窍门：
+            (1)将鱼泡入冷水内，加入两汤匙醋，过两个小时后再去磷，则很容易刮净；
+            (2)如果鱼比较脏，可用淘米水擦洗，不但可以洗净鱼，而且手也不至于太腥；
+            (3)加工鱼时，万一不小心弄破了苦胆，可快速在有苦胆的地方放上小苏打，或者撒点酒，然后用清水洗净，就可去除苦味；
+            (4)鱼身上都有黏液，黏液易沾上污物。洗鱼时，用细盐将鱼身撸一遍，然后用清水冲一下，就能将鱼洗得很干净。
+        </rawdata>
+
+        <segment>
+            罗非鱼  以  红烧  、  清蒸  为  最好  ；
+            巧  去  鱼腥味  ：  将  鱼  去鳞  剖腹  洗净  后  ，  放入  盆中  倒  一些  黄酒  ，  就  能  除  区  鱼  的  腥味  ，  并  能  使  鱼  滋味  鲜美  。  鲜鱼  剖开  洗净  ，  在  牛奶  中  泡  一会儿  既可  除腥  ，  又  能  增加  鲜味  。  吃  过  鱼  后  ，  口里  有味  时  ，  嚼  上  三五  片  茶叶  ，  立刻  口气  清新  。
+            罗非鱼  洗  鱼  的  窍门  ：
+            (  1  )  将  鱼泡  入  冷水  内  ，  加入  两  汤  匙醋  ，  过  两  个  小时  后  再  去  磷  ，  则  很  容易  刮净  ；
+            (  2  )  如果  鱼  比较  脏  ，  可用  淘米水  擦洗  ，  不但  可以  洗净  鱼  ，  而且  手  也  不至于  太  腥  ；
+            (  3  )  加工  鱼时  ，  万一不小心  弄破  了  苦胆  ，  可  快速  在  有  苦胆  的  地方  放上  小  苏打  ，  或者  撒  点  酒  ，  然后  用  清水  洗净  ，  就可  去除  苦味  ；
+            (  4  )  鱼  身上  都  有  黏液  ，  黏液  易  沾上  污物  。  洗  鱼  时  ，  用  细  盐  将  鱼  身撸  一  遍  ，  然后  用  清水  冲  一下  ，  就  能  将  鱼  洗  得  很  干净  。
+        </segment>
+
+        <pos>
+            罗非鱼#NR  以#NR  红烧#NN  、#PU  清蒸#NN  为#VC  最好#JJ  ；#PU
+            巧#NR  去#MSP  鱼腥味#VV  ：#PU  将#BA  鱼#NN  去鳞#NN  剖腹#NN  洗净#NN  后#LC  ，#PU  放入#VV  盆中#NN  倒#VV  一些#CD  黄酒#NN  ，#PU  就#AD  能#VV  除#P  区#NN  鱼#NN  的#DEG  腥味#NN  ，#PU  并#CC  能#VV  使#VV  鱼#NN  滋味#VV  鲜美#NN    。#PU  鲜鱼#NN  剖开#NN  洗净#VV  ，#PU  在#P  牛奶#NN  中#LC  泡#VV  一会儿#CD  既可#NN  除腥#NN  ，#PU  又#AD  能#VV  增加#VV  鲜味#NN    。#PU  吃#VV  过#AS  鱼#NN  后#LC  ，#PU  口里#VV  有味#NN  时#LC  ，#PU  嚼#VV  上#DT  三五#CD  片#M  茶叶#NN  ，#PU  立刻#VV  口气#NN  清新#NN    。#PU    。#PU
+            罗非鱼#NN  洗#VV  鱼#NN  的#DEG  窍门#NN  ：#PU
+            -LRB-#NR  1#CD  -RRB-#NN  将#AD  鱼泡#VV  入#VV  冷水#NN  内#LC  ，#PU  加入#VV  两#CD  汤#NN  匙醋#NN  ，#PU  过#VV  两#CD  个#M  小时#NN  后#LC  再#AD  去#VV  磷#NN  ，#PU  则#AD  很#AD  容易#VA  刮净#NN  ；#PU
+            -LRB-#NR  2#CD  -RRB-#NN  如果#CS  鱼#NN  比较#AD  脏#VA  ，#PU  可用#JJ  淘米水#NN  擦洗#VA  ，#PU  不但#CC  可以#VV  洗净#VV  鱼#NN  ，#PU  而且#CC  手#NN  也#AD  不至于#AD  太#AD  腥#VA  ；#PU
+            -LRB-#NR  3#CD  -RRB-#NN  加工#NN  鱼时#NN  ，#PU  万一不小心#CD  弄破#VV  了#AS  苦胆#NN  ，#PU  可#VV  快速#AD  在#P  有#VE  苦胆#NN  的#DEC  地方#NN  放上#VV  小#JJ  苏打#NN  ，#PU  或者#CC  撒#CD  点#M  酒#NN  ，#PU  然后#AD  用#P  清水#NN  洗净#VV  ，#PU  就可#VV  去除#NN  苦味#NN  ；#PU
+            -LRB-#NR  4#CD  -RRB-#NN  鱼#NN  身上#NN  都#AD  有#VE  黏液#NN  ，#PU  黏液#AD  易#AD  沾上#VV  污物#NN    。#PU  洗#NN  鱼#NN  时#LC  ，#PU  用#P  细#NN  盐#NN  将#BA  鱼#NN  身撸#NN  一#CD  遍#NN  ，#PU  然后#AD  用#P  清水#NN  冲#VV  一下#AD  ，#PU  就#AD  能#VV  将#BA  鱼#NN  洗#VV  得#DER  很#AD  干净#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 清蒸#NN, 罗非鱼#NR)  (nn, 清蒸#NN, 以#NR)  (conj, 清蒸#NN, 红烧#NN)  (nsubj, 为#VC, 清蒸#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 最好#JJ)
+            (nsubj, 鱼腥味#VV, 巧#NR)  (xsubj, 放入#VV, 巧#NR)  (prtmod, 鱼腥味#VV, 去#MSP)  (root, ROOT#null, 鱼腥味#VV)  (ba, 放入#VV, 将#BA)  (nn, 剖腹#NN, 鱼#NN)  (nn, 剖腹#NN, 去鳞#NN)  (nsubj, 放入#VV, 剖腹#NN)  (loc, 放入#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (ccomp, 鱼腥味#VV, 放入#VV)  (dobj, 放入#VV, 盆中#NN)  (dep, 放入#VV, 倒#VV)  (nummod, 黄酒#NN, 一些#CD)  (dobj, 倒#VV, 黄酒#NN)  (advmod, 能#VV, 就#AD)  (dep, 放入#VV, 能#VV)  (case, 鱼#NN, 除#P)  (nn, 鱼#NN, 区#NN)  (assmod, 腥味#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 能#VV, 腥味#NN)  (cc, 放入#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (dep, 放入#VV, 使#VV)  (dobj, 使#VV, 鱼#NN)  (dep, 使#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)   (nn, 剖开#NN, 鲜鱼#NN)  (nsubj, 洗净#VV, 剖开#NN)  (xsubj, 泡#VV, 剖开#NN)  (root, ROOT#null, 洗净#VV)  (case, 牛奶#NN, 在#P)  (prep, 泡#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (ccomp, 洗净#VV, 泡#VV)  (nummod, 除腥#NN, 一会儿#CD)  (nn, 除腥#NN, 既可#NN)  (dobj, 泡#VV, 除腥#NN)  (advmod, 增加#VV, 又#AD)  (mmod, 增加#VV, 能#VV)  (dep, 泡#VV, 增加#VV)  (dobj, 增加#VV, 鲜味#NN)   (loc, 嚼#VV, 吃#VV)  (asp, 吃#VV, 过#AS)  (dobj, 吃#VV, 鱼#NN)  (case, 吃#VV, 后#LC)  (loc, 嚼#VV, 口里#VV)  (dobj, 口里#VV, 有味#NN)  (case, 口里#VV, 时#LC)  (root, ROOT#null, 嚼#VV)  (det, 茶叶#NN, 上#DT)  (nummod, 片#M, 三五#CD)  (dep, 上#DT, 片#M)  (dobj, 嚼#VV, 茶叶#NN)  (conj, 嚼#VV, 立刻#VV)  (nn, 清新#NN, 口气#NN)  (dobj, 立刻#VV, 清新#NN)   (root, ROOT#null, null#null)
+            (nsubj, 洗#VV, 罗非鱼#NN)  (root, ROOT#null, 洗#VV)  (assmod, 窍门#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 洗#VV, 窍门#NN)
+            (nummod, -RRB-#NN, 1#CD)  (advmod, 鱼泡#VV, 将#AD)  (root, ROOT#null, 鱼泡#VV)  (nfincl, 刮净#NN, 入#VV)  (loc, 入#VV, 冷水#NN)  (case, 冷水#NN, 内#LC)  (conj, 入#VV, 加入#VV)  (nummod, 汤#NN, 两#CD)  (nn, 匙醋#NN, 汤#NN)  (dobj, 加入#VV, 匙醋#NN)  (loc, 去#VV, 过#VV)  (nummod, 个#M, 两#CD)  (clf, 小时#NN, 个#M)  (dobj, 过#VV, 小时#NN)  (case, 过#VV, 后#LC)  (advmod, 去#VV, 再#AD)  (conj, 入#VV, 去#VV)  (dobj, 去#VV, 磷#NN)  (advmod, 容易#VA, 则#AD)  (advmod, 容易#VA, 很#AD)  (conj, 入#VV, 容易#VA)  (dobj, 鱼泡#VV, 刮净#NN)
+            (nummod, -RRB-#NN, 2#CD)  (advmod, 脏#VA, 如果#CS)  (dep, 脏#VA, 鱼#NN)  (advmod, 脏#VA, 比较#AD)  (root, ROOT#null, 脏#VA)  (amod, 淘米水#NN, 可用#JJ)  (dep, 擦洗#VA, 淘米水#NN)  (conj, 脏#VA, 擦洗#VA)  (cc, 脏#VA, 不但#CC)  (mmod, 洗净#VV, 可以#VV)  (conj, 脏#VA, 洗净#VV)  (dobj, 洗净#VV, 鱼#NN)  (cc, 脏#VA, 而且#CC)  (nsubj, 腥#VA, 手#NN)  (advmod, 腥#VA, 也#AD)  (advmod, 腥#VA, 不至于#AD)  (advmod, 腥#VA, 太#AD)  (conj, 脏#VA, 腥#VA)
+            (nummod, -RRB-#NN, 3#CD)  (nn, 鱼时#NN, 加工#NN)  (nsubj, 弄破#VV, 鱼时#NN)  (dep, 弄破#VV, 万一不小心#CD)  (root, ROOT#null, 弄破#VV)  (asp, 弄破#VV, 了#AS)  (dobj, 弄破#VV, 苦胆#NN)  (mmod, 放上#VV, 可#VV)  (advmod, 放上#VV, 快速#AD)  (case, 地方#NN, 在#P)  (relcl, 地方#NN, 有#VE)  (dobj, 有#VE, 苦胆#NN)  (mark, 有#VE, 的#DEC)  (prep, 放上#VV, 地方#NN)  (conj, 弄破#VV, 放上#VV)  (amod, 苏打#NN, 小#JJ)  (dobj, 放上#VV, 苏打#NN)  (cc, 弄破#VV, 或者#CC)  (nummod, 点#M, 撒#CD)  (clf, 酒#NN, 点#M)  (conj, 弄破#VV, 酒#NN)  (advmod, 洗净#VV, 然后#AD)  (case, 清水#NN, 用#P)  (prep, 洗净#VV, 清水#NN)  (conj, 弄破#VV, 洗净#VV)  (conj, 弄破#VV, 就可#VV)  (nn, 苦味#NN, 去除#NN)  (dobj, 就可#VV, 苦味#NN)
+            (nummod, -RRB-#NN, 4#CD)  (nn, 身上#NN, 鱼#NN)  (nsubj, 有#VE, 身上#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 黏液#NN)  (advmod, 沾上#VV, 黏液#AD)  (advmod, 沾上#VV, 易#AD)  (conj, 有#VE, 沾上#VV)  (dobj, 沾上#VV, 污物#NN)   (nn, 鱼#NN, 洗#NN)  (loc, 冲#VV, 鱼#NN)  (case, 鱼#NN, 时#LC)  (case, 细#NN, 用#P)  (prep, 冲#VV, 细#NN)  (nsubj, 冲#VV, 盐#NN)  (ba, 冲#VV, 将#BA)  (nn, 身撸#NN, 鱼#NN)  (nn, 遍#NN, 身撸#NN)  (nummod, 遍#NN, 一#CD)  (nsubj, 冲#VV, 遍#NN)  (advmod, 冲#VV, 然后#AD)  (case, 清水#NN, 用#P)  (prep, 冲#VV, 清水#NN)  (root, ROOT#null, 冲#VV)  (advmod, 冲#VV, 一下#AD)  (advmod, 干净#VA, 就#AD)  (mmod, 干净#VA, 能#VV)  (ba, 干净#VA, 将#BA)  (nsubj, 干净#VA, 鱼#NN)  (dep, 干净#VA, 洗#VV)  (dep, 干净#VA, 得#DER)  (advmod, 干净#VA, 很#AD)  (dep, 冲#VV, 干净#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/092047203041.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\77 罗非鱼.jpg
+    </picturelocalurl>
+
+</content>

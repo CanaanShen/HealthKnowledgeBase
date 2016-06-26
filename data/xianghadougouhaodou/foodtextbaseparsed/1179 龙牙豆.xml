@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1179
+    </id>
+
+    <foodname>
+        龙牙豆
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        玉豆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            肾病者不宜。
+        </rawdata>
+
+        <segment>
+            肾病  者  不  宜  。
+        </segment>
+
+        <pos>
+            肾病#NN  者#NN  不#NN  宜#NR  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 肾病#NN)  (nsubj, 宜#NR, 者#NN)  (dep, 宜#NR, 不#NN)  (root, ROOT#null, 宜#NR)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玉豆，色泽浅青，肉厚爽口，品质脆嫩，纤维少，性微温，味微甘，营养价值高，含脂肪油、蛋白、糖类、安基酸、维生素A、C，宜于食用，是餐盘中的美食。
+        </rawdata>
+
+        <segment>
+            玉豆  ，  色泽  浅青  ，  肉厚  爽口  ，  品质  脆嫩  ，  纤维  少  ，  性  微温  ，  味微甘  ，  营养  价值  高  ，  含  脂肪  油  、  蛋白  、  糖类  、  安基酸  、  维生素A  、  C  ，  宜于  食用  ，  是  餐  盘中  的  美食  。
+        </segment>
+
+        <pos>
+            玉豆#NR  ，#PU  色泽#NN  浅青#VV  ，#PU  肉厚#AD  爽口#VV  ，#PU  品质#NN  脆嫩#NN  ，#PU  纤维#NN  少#VA  ，#PU  性#NN  微温#NN  ，#PU  味微甘#VV  ，#PU  营养#VA  价值#NN  高#VA  ，#PU  含#VV  脂肪#NN  油#NN  、#PU  蛋白#NN  、#PU  糖类#NN  、#PU  安基酸#NN  、#PU  维生素A#NN  、#PU  C#NN  ，#PU  宜于#AD  食用#VV  ，#PU  是#VC  餐#NN  盘中#NN  的#DEG  美食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 浅青#VV, 玉豆#NR)  (nsubj, 浅青#VV, 色泽#NN)  (root, ROOT#null, 浅青#VV)  (advmod, 爽口#VV, 肉厚#AD)  (conj, 浅青#VV, 爽口#VV)  (nn, 脆嫩#NN, 品质#NN)  (nsubj, 少#VA, 脆嫩#NN)  (nsubj, 少#VA, 纤维#NN)  (ccomp, 爽口#VV, 少#VA)  (nn, 微温#NN, 性#NN)  (nsubj, 味微甘#VV, 微温#NN)  (conj, 少#VA, 味微甘#VV)  (relcl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (ccomp, 味微甘#VV, 高#VA)  (conj, 浅青#VV, 含#VV)  (nn, C#NN, 脂肪#NN)  (conj, C#NN, 油#NN)  (conj, C#NN, 蛋白#NN)  (conj, C#NN, 糖类#NN)  (conj, C#NN, 安基酸#NN)  (conj, C#NN, 维生素A#NN)  (dobj, 含#VV, C#NN)  (advmod, 食用#VV, 宜于#AD)  (conj, 浅青#VV, 食用#VV)  (cop, 美食#NN, 是#VC)  (nn, 盘中#NN, 餐#NN)  (assmod, 美食#NN, 盘中#NN)  (case, 盘中#NN, 的#DEG)  (conj, 浅青#VV, 美食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            祛脂降压,亮发,壮骨,养颜护肤,抑癌抗瘤
+        </rawdata>
+
+        <segment>
+            祛脂  降压  ,  亮发  ,  壮骨  ,  养颜  护肤  ,  抑癌  抗瘤
+        </segment>
+
+        <pos>
+            祛脂#NN  降压#NN  ,#NN  亮发#NN  ,#NN  壮骨#NN  ,#NN  养颜#AD  护肤#VV  ,#NN  抑癌#NN  抗瘤#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 祛脂#NN)  (nn, ,#NN, 降压#NN)  (nn, ,#NN, 亮发#NN)  (nn, ,#NN, 壮骨#NN)  (advmod, 护肤#VV, 养颜#AD)  (root, ROOT#null, 护肤#VV)  (nn, 抗瘤#NN, 抑癌#NN)  (dobj, 护肤#VV, 抗瘤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/c4/46/18116_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1179 龙牙豆.jpg
+    </picturelocalurl>
+
+</content>

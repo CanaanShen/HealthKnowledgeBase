@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        926
+    </id>
+
+    <foodname>
+        沙鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒伴有头痛，乏力，发热的人及内火偏旺和痰湿偏重之人忌食鸡肉，鸡汤。肥胖症患者和患有热毒疖肿之人忌食；高血压病人和血脂偏高者忌食。鸡肉鸡汤中含脂肪较多，会使血中胆固醇进一步升高，引起动脉硬化，冠心病，使血压持续升高，对病情不利；患有胆囊炎、胆石症的人忌食．以免刺激胆囊，引起胆绞痛发作。
+        </rawdata>
+
+        <segment>
+            感冒  伴有  头痛  ，  乏力  ，  发热  的  人  及  内  火  偏  旺  和  痰湿  偏重  之  人  忌食  鸡肉  ，  鸡汤  。  肥胖症  患者  和  患有  热毒  疖肿  之  人  忌食  ；  高血压  病人  和  血脂  偏高者  忌食  。  鸡肉  鸡汤  中  含  脂肪  较  多  ，  会  使  血中  胆固醇  进一步  升高  ，  引起  动脉硬化  ，  冠心病  ，  使  血压  持续  升高  ，  对  病情  不利  ；  患有  胆囊炎  、  胆石症  的  人  忌食  ．  以免  刺激  胆囊  ，  引起  胆绞痛  发作  。
+        </segment>
+
+        <pos>
+            感冒#NN  伴有#NN  头痛#VV  ，#PU  乏力#NN  ，#PU  发热#NN  的#DEG  人#NN  及#CC  内#NN  火#NN  偏#AD  旺#VV  和#CC  痰湿#VV  偏重#NN  之#DEG  人#NN  忌食#NN  鸡肉#NN  ，#PU  鸡汤#VV    。#PU  肥胖症#NN  患者#NN  和#CC  患有#NN  热毒#NN  疖肿#NN  之#DEG  人#NN  忌食#VV  ；#PU  高血压#NN  病人#NN  和#CC  血脂#NN  偏高者#NN  忌食#VV    。#PU  鸡肉#NN  鸡汤#NN  中#LC  含#VV  脂肪#NN  较#AD  多#VA  ，#PU  会#VV  使#VV  血中#NN  胆固醇#NN  进一步#AD  升高#VV  ，#PU  引起#VV  动脉硬化#NN  ，#PU  冠心病#NN  ，#PU  使#VV  血压#NN  持续#AD  升高#VV  ，#PU  对#P  病情#NN  不利#VA  ；#PU  患有#VV  胆囊炎#NN  、#PU  胆石症#VA  的#DEC  人#NN  忌食#NN  ．#PU  以免#VV  刺激#VV  胆囊#NN  ，#PU  引起#VV  胆绞痛#NN  发作#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 伴有#NN, 感冒#NN)  (nsubj, 头痛#VV, 伴有#NN)  (root, ROOT#null, 头痛#VV)  (nsubj, 旺#VV, 乏力#NN)  (assmod, 火#NN, 发热#NN)  (case, 发热#NN, 的#DEG)  (conj, 火#NN, 人#NN)  (cc, 火#NN, 及#CC)  (nn, 火#NN, 内#NN)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 偏#AD)  (ccomp, 头痛#VV, 旺#VV)  (cc, 旺#VV, 和#CC)  (dep, 旺#VV, 痰湿#VV)  (assmod, 鸡肉#NN, 偏重#NN)  (case, 偏重#NN, 之#DEG)  (nn, 鸡肉#NN, 人#NN)  (nn, 鸡肉#NN, 忌食#NN)  (dobj, 痰湿#VV, 鸡肉#NN)  (conj, 旺#VV, 鸡汤#VV)   (nn, 患者#NN, 肥胖症#NN)  (conj, 疖肿#NN, 患者#NN)  (cc, 疖肿#NN, 和#CC)  (nn, 疖肿#NN, 患有#NN)  (nn, 疖肿#NN, 热毒#NN)  (assmod, 人#NN, 疖肿#NN)  (case, 疖肿#NN, 之#DEG)  (nsubj, 忌食#VV, 人#NN)  (root, ROOT#null, 忌食#VV)  (nn, 偏高者#NN, 高血压#NN)  (conj, 偏高者#NN, 病人#NN)  (cc, 偏高者#NN, 和#CC)  (nn, 偏高者#NN, 血脂#NN)  (nsubj, 忌食#VV, 偏高者#NN)  (ccomp, 忌食#VV, 忌食#VV)   (nsubj, 含#VV, 鸡肉#NN)  (loc, 含#VV, 鸡汤#NN)  (case, 鸡汤#NN, 中#LC)  (dep, 以免#VV, 含#VV)  (nsubj, 多#VA, 脂肪#NN)  (advmod, 多#VA, 较#AD)  (relcl, 忌食#NN, 多#VA)  (mmod, 使#VV, 会#VV)  (dep, 多#VA, 使#VV)  (nn, 胆固醇#NN, 血中#NN)  (dobj, 使#VV, 胆固醇#NN)  (advmod, 升高#VV, 进一步#AD)  (dep, 使#VV, 升高#VV)  (conj, 使#VV, 引起#VV)  (dobj, 引起#VV, 动脉硬化#NN)  (nsubj, 使#VV, 冠心病#NN)  (conj, 多#VA, 使#VV)  (dobj, 使#VV, 血压#NN)  (advmod, 升高#VV, 持续#AD)  (dep, 使#VV, 升高#VV)  (case, 病情#NN, 对#P)  (prep, 不利#VA, 病情#NN)  (conj, 使#VV, 不利#VA)  (conj, 使#VV, 患有#VV)  (dobj, 患有#VV, 胆囊炎#NN)  (conj, 多#VA, 胆石症#VA)  (mark, 多#VA, 的#DEC)  (nn, 忌食#NN, 人#NN)  (dobj, 含#VV, 忌食#NN)  (root, ROOT#null, 以免#VV)  (ccomp, 以免#VV, 刺激#VV)  (dobj, 刺激#VV, 胆囊#NN)  (conj, 刺激#VV, 引起#VV)  (dobj, 引起#VV, 胆绞痛#NN)  (conj, 引起#VV, 发作#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            沙鸡多为群栖性，聚大群于水源处饮水。营简陋巢于地面，雏鸟孵化出即可离巢。行走和飞行能力均强。中国有3种：西藏毛腿沙鸡、毛腿沙鸡、黑腹沙鸡。
+        </rawdata>
+
+        <segment>
+            沙鸡  多  为  群栖性  ，  聚  大群  于  水源处  饮水  。  营  简陋  巢于  地面  ，  雏鸟  孵化  出  即  可  离巢  。  行走  和  飞行  能力  均  强  。  中国  有  3  种  ：  西藏  毛  腿  沙鸡  、  毛  腿  沙鸡  、  黑  腹  沙鸡  。
+        </segment>
+
+        <pos>
+            沙鸡#NN  多#AD  为#VC  群栖性#NN  ，#PU  聚#AD  大群#VV  于#P  水源处#NN  饮水#NN    。#PU  营#VV  简陋#NN  巢于#NN  地面#NN  ，#PU  雏鸟#AD  孵化#VV  出#VV  即#AD  可#VV  离巢#VV    。#PU  行走#NN  和#CC  飞行#NN  能力#NN  均#AD  强#VA    。#PU  中国#NR  有#VE  3#CD  种#M  ：#PU  西藏#NR  毛#NN  腿#NN  沙鸡#NN  、#PU  毛#NN  腿#NN  沙鸡#NN  、#PU  黑#JJ  腹#NN  沙鸡#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 群栖性#NN, 沙鸡#NN)  (advmod, 群栖性#NN, 多#AD)  (cop, 群栖性#NN, 为#VC)  (root, ROOT#null, 群栖性#NN)  (advmod, 大群#VV, 聚#AD)  (conj, 群栖性#NN, 大群#VV)  (case, 饮水#NN, 于#P)  (nn, 饮水#NN, 水源处#NN)  (prep, 大群#VV, 饮水#NN)   (root, ROOT#null, 营#VV)  (nn, 地面#NN, 简陋#NN)  (nn, 地面#NN, 巢于#NN)  (dobj, 营#VV, 地面#NN)  (advmod, 孵化#VV, 雏鸟#AD)  (conj, 营#VV, 孵化#VV)  (comod, 孵化#VV, 出#VV)  (advmod, 离巢#VV, 即#AD)  (dep, 离巢#VV, 可#VV)  (ccomp, 孵化#VV, 离巢#VV)   (conj, 飞行#NN, 行走#NN)  (cc, 飞行#NN, 和#CC)  (nn, 能力#NN, 飞行#NN)  (nsubj, 强#VA, 能力#NN)  (advmod, 强#VA, 均#AD)  (root, ROOT#null, 强#VA)   (dep, 有#VE, 中国#NR)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 3#CD)  (dep, 有#VE, 种#M)  (nn, 腿#NN, 西藏#NR)  (nn, 腿#NN, 毛#NN)  (nn, 沙鸡#NN, 腿#NN)  (conj, 腹#NN, 沙鸡#NN)  (nn, 腿#NN, 毛#NN)  (nn, 沙鸡#NN, 腿#NN)  (conj, 腹#NN, 沙鸡#NN)  (amod, 腹#NN, 黑#JJ)  (nn, 沙鸡#NN, 腹#NN)  (conj, 有#VE, 沙鸡#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸡肉蛋白质的含量比例较高，种类多，而且消化率高，很容易被人体吸收利用，有增强体力、强壮身体的作用。鸡肉含有对人体生长发育有重要作用的磷脂类，是中国人膳食结构中脂肪和磷脂的重要来源之一。鸡肉对营养不良、畏寒怕冷、乏力疲劳、月经不调、贫血、虚弱等有很好的食疗作用。祖国医学认为，鸡肉有温中益气、补虚填精、健脾胃、活血脉、强筋骨的功效。
+        </rawdata>
+
+        <segment>
+            鸡肉  蛋白质  的  含量  比例  较  高  ，  种类  多  ，  而且  消化率  高  ，  很容易  被  人体  吸收  利用  ，  有  增强  体力  、  强壮  身体  的  作用  。  鸡肉  含有  对  人体  生长  发育  有  重要  作用  的  磷脂  类  ，  是  中国人  膳食  结构  中  脂肪  和  磷脂  的  重要  来源  之一  。  鸡肉  对  营养  不良  、  畏  寒  怕冷  、  乏力  疲劳  、  月经  不调  、  贫血  、  虚弱  等  有  很  好  的  食疗  作用  。  祖国  医学  认为  ，  鸡肉  有  温  中  益气  、  补  虚  填  精  、  健脾胃  、  活  血脉  、  强  筋骨  的  功效  。
+        </segment>
+
+        <pos>
+            鸡肉#NN  蛋白质#NN  的#DEG  含量#NN  比例#NN  较#AD  高#VA  ，#PU  种类#NN  多#VA  ，#PU  而且#CC  消化率#NN  高#VA  ，#PU  很容易#NN  被#SB  人体#VV  吸收#VV  利用#VV  ，#PU  有#VE  增强#VV  体力#NN  、#PU  强壮#NN  身体#NN  的#DEC  作用#NN    。#PU  鸡肉#NN  含有#NN  对#P  人体#NN  生长#NN  发育#VV  有#VE  重要#JJ  作用#NN  的#DEC  磷脂#CD  类#M  ，#PU  是#VC  中国人#NN  膳食#NN  结构#NN  中#LC  脂肪#NN  和#CC  磷脂#NN  的#DEG  重要#JJ  来源#NN  之一#NN    。#PU  鸡肉#NN  对#P  营养#VA  不良#JJ  、#PU  畏#VV  寒#JJ  怕冷#NN  、#PU  乏力#AD  疲劳#VA  、#PU  月经#VA  不调#NN  、#PU  贫血#NN  、#PU  虚弱#NN  等#ETC  有#VE  很#AD  好#VA  的#DEC  食疗#JJ  作用#NN    。#PU  祖国#NN  医学#NN  认为#VV  ，#PU  鸡肉#AD  有#VE  温#NN  中#LC  益气#NN  、#PU  补#NN  虚#AD  填#VV  精#JJ  、#PU  健脾胃#JJ  、#PU  活#JJ  血脉#NN  、#PU  强#JJ  筋骨#NN  的#DEC  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋白质#NN, 鸡肉#NN)  (assmod, 含量#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (nsubj, 高#VA, 比例#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (nsubj, 多#VA, 种类#NN)  (conj, 高#VA, 多#VA)  (cc, 高#VA, 而且#CC)  (nsubj, 高#VA, 消化率#NN)  (conj, 高#VA, 高#VA)  (nsubj, 人体#VV, 很容易#NN)  (auxpass, 人体#VV, 被#SB)  (conj, 高#VA, 人体#VV)  (dep, 人体#VV, 吸收#VV)  (dep, 吸收#VV, 利用#VV)  (conj, 高#VA, 有#VE)  (relcl, 作用#NN, 增强#VV)  (conj, 身体#NN, 体力#NN)  (nn, 身体#NN, 强壮#NN)  (dobj, 增强#VV, 身体#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nn, 含有#NN, 鸡肉#NN)  (nsubj, 发育#VV, 含有#NN)  (case, 生长#NN, 对#P)  (nn, 生长#NN, 人体#NN)  (prep, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)  (dep, 类#M, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)  (mark, 有#VE, 的#DEC)  (nummod, 类#M, 磷脂#CD)  (range, 发育#VV, 类#M)  (cop, 之一#NN, 是#VC)  (nn, 结构#NN, 中国人#NN)  (nn, 结构#NN, 膳食#NN)  (dep, 磷脂#NN, 结构#NN)  (case, 结构#NN, 中#LC)  (conj, 磷脂#NN, 脂肪#NN)  (cc, 磷脂#NN, 和#CC)  (assmod, 之一#NN, 磷脂#NN)  (case, 磷脂#NN, 的#DEG)  (amod, 之一#NN, 重要#JJ)  (nn, 之一#NN, 来源#NN)  (conj, 发育#VV, 之一#NN)   (nsubj, 有#VE, 鸡肉#NN)  (case, 虚弱#NN, 对#P)  (relcl, 虚弱#NN, 营养#VA)  (amod, 虚弱#NN, 不良#JJ)  (nfincl, 虚弱#NN, 畏#VV)  (amod, 怕冷#NN, 寒#JJ)  (dobj, 畏#VV, 怕冷#NN)  (advmod, 疲劳#VA, 乏力#AD)  (conj, 畏#VV, 疲劳#VA)  (dep, 疲劳#VA, 月经#VA)  (conj, 虚弱#NN, 不调#NN)  (conj, 虚弱#NN, 贫血#NN)  (prep, 有#VE, 虚弱#NN)  (etc, 虚弱#NN, 等#ETC)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 食疗#JJ)  (dobj, 有#VE, 作用#NN)   (nn, 医学#NN, 祖国#NN)  (nsubj, 认为#VV, 医学#NN)  (xsubj, 有#VE, 医学#NN)  (root, ROOT#null, 认为#VV)  (advmod, 有#VE, 鸡肉#AD)  (ccomp, 认为#VV, 有#VE)  (loc, 填#VV, 温#NN)  (case, 温#NN, 中#LC)  (conj, 补#NN, 益气#NN)  (nsubj, 填#VV, 补#NN)  (advmod, 填#VV, 虚#AD)  (relcl, 功效#NN, 填#VV)  (dep, 筋骨#NN, 精#JJ)  (conj, 精#JJ, 健脾胃#JJ)  (amod, 血脉#NN, 活#JJ)  (conj, 精#JJ, 血脉#NN)  (dep, 精#JJ, 强#JJ)  (dobj, 填#VV, 筋骨#NN)  (mark, 填#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  明目  补气  温中  补阴  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/cc/41/82380_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\926 沙鸡.jpg
+    </picturelocalurl>
+
+</content>

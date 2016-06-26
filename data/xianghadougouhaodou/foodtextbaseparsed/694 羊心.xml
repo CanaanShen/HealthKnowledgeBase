@@ -1,0 +1,230 @@
+<content>
+
+    <id>
+        694
+    </id>
+
+    <foodname>
+        羊心
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                113cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                77.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                13.8g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                5.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                16mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.28mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                1.75mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                5.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                100.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                10mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                104mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            羊的心脏
+        </rawdata>
+
+        <segment>
+            羊  的  心脏
+        </segment>
+
+        <pos>
+            羊#NN  的#DEG  心脏#NN
+        </pos>
+
+        <parsing>
+            (assmod, 心脏#NN, 羊#NN)  (case, 羊#NN, 的#DEG)  (root, ROOT#null, 心脏#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            羊心富含蛋白质、维生素A、铁、烟酸、硒等营养元素，有补心益血的作用。解郁，补心。治膈气，惊悸。
+        </rawdata>
+
+        <segment>
+            羊心  富含  蛋白质  、  维生素A  、  铁  、  烟酸  、  硒等  营养  元素  ，  有  补心  益  血  的  作用  。  解郁  ，  补  心  。  治膈气  ，  惊悸  。
+        </segment>
+
+        <pos>
+            羊心#NN  富含#VV  蛋白质#NN  、#PU  维生素A#NN  、#PU  铁#NN  、#PU  烟酸#NN  、#PU  硒等#NN  营养#VA  元素#NN  ，#PU  有#VE  补心#NN  益#NN  血#NN  的#DEC  作用#NN    。#PU  解郁#VV  ，#PU  补#VV  心#NN    。#PU  治膈气#VV  ，#PU  惊悸#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 羊心#NN)  (root, ROOT#null, 富含#VV)  (conj, 硒等#NN, 蛋白质#NN)  (conj, 硒等#NN, 维生素A#NN)  (conj, 硒等#NN, 铁#NN)  (conj, 硒等#NN, 烟酸#NN)  (nn, 元素#NN, 硒等#NN)  (relcl, 硒等#NN, 营养#VA)  (relcl, 元素#NN, 营养#VA)  (dep, 有#VE, 元素#NN)  (relcl, 作用#NN, 有#VE)  (nn, 血#NN, 补心#NN)  (nn, 血#NN, 益#NN)  (dobj, 有#VE, 血#NN)  (mark, 有#VE, 的#DEC)  (dobj, 富含#VV, 作用#NN)   (root, ROOT#null, 解郁#VV)  (dep, 解郁#VV, 补#VV)  (dobj, 补#VV, 心#NN)   (root, ROOT#null, 治膈气#VV)  (ccomp, 治膈气#VV, 惊悸#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        安神  行气疏肝  补心  增强免疫力  抗病毒
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/93/36/79507_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\694 羊心.jpg
+    </picturelocalurl>
+
+</content>

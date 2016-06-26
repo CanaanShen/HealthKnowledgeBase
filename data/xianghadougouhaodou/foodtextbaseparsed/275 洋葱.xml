@@ -1,0 +1,450 @@
+<content>
+
+    <id>
+        275
+    </id>
+
+    <foodname>
+        洋葱
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        葱蒜类
+    </secondcategory>
+
+    <alias>
+        洋葱头、玉葱、葱头、圆葱、球葱
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            皮肤瘙痒性疾病、眼疾、胃病患者慎食。
+        </rawdata>
+
+        <segment>
+            皮肤  瘙痒  性  疾病  、  眼疾  、  胃病  患者  慎食  。
+        </segment>
+
+        <pos>
+            皮肤#NN  瘙痒#VV  性#NN  疾病#NN  、#PU  眼疾#NN  、#PU  胃病#NN  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 瘙痒#VV, 皮肤#NN)  (root, ROOT#null, 瘙痒#VV)  (nn, 慎食#NN, 性#NN)  (conj, 慎食#NN, 疾病#NN)  (conj, 慎食#NN, 眼疾#NN)  (nn, 慎食#NN, 胃病#NN)  (nn, 慎食#NN, 患者#NN)  (dobj, 瘙痒#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、动脉硬化等心血管疾病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  动脉  硬化  等心  血管  疾病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  、#PU  动脉#NN  硬化#NN  等心#NN  血管#NN  疾病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 疾病#NN, 高血压#NN)  (nn, 疾病#NN, 动脉#NN)  (nn, 疾病#NN, 硬化#NN)  (nn, 疾病#NN, 等心#NN)  (nn, 疾病#NN, 血管#NN)  (nn, 患者#NN, 疾病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                147
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.92
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            洋葱又名球葱、圆葱、玉葱、葱头，属百合科葱属，为2年生草本植物。有关洋葱的原产地说法很多，但多数认为洋葱产于亚洲西南部中亚细亚、小亚细亚的伊朗、阿富汗的高原地区的可能性较大，因为在这些地区至今还能找到洋葱的野生类型。洋葱的起源已有5000多年历史，公元前1000年传到埃及，后传到地中海地区，16世纪传入美国，17世纪传到日本，20世纪初传入我国。洋葱在我国分布很广，南北各地均有栽培，而且种植面积还在不断扩大，是目前我国主栽蔬菜之一。我国已成为洋葱生产量较大的4个国家(中国、印度、美国、日本)之一。我国的种植区域主要是山东、甘肃、内蒙古、新疆等地。
+            洋葱供食用的部位为地下的肥大鳞茎(即葱头)。根据其皮色可分为白皮、黄皮和红皮三种：
+            1.白皮种：鳞茎小，外表白色或略带绿色，肉质柔嫩，汁多辣叶淡，品质佳，适于生食。
+            2.黄皮种：鳞茎中等大小，鳞片较薄，外皮黄色，肉钯白里带黄，肉质细嫩柔软，水分较少，味甜而稍带辣味，品质极佳。
+            3.红皮种：鳞茎大，外皮为紫红色或暗粉红色，肉白里带红，组织致密，质地较脆，肉质不及黄皮种细嫩，水分较多，辣味较重，品质较差，但耐贮藏。国人常惧怕其特有的辛辣香气，而在国外它却被誉为“菜中皇后”，营养价值不低。洋葱的品质要求：以葱头肥大，外皮光泽，不烂，无机械伤和泥土，鲜葱头不带叶；经贮藏后，不松软，不抽苔，鳞片紧密，含水量少，辛辣和甜味浓的为佳。
+        </rawdata>
+
+        <segment>
+            洋葱  又  名  球葱  、  圆  葱  、  玉葱  、  葱头  ，  属  百合科  葱属  ，  为  2  年  生  草本  植物  。  有关  洋葱  的  原产地  说法  很多  ，  但  多数  认为  洋葱  产于  亚洲  西南部  中亚细亚  、  小  亚细亚  的  伊朗  、  阿富汗  的  高原  地区  的  可能性  较大  ，  因为  在  这些  地区  至今  还  能  找到  洋葱  的  野生  类型  。  洋葱  的  起源  已  有  5000多  年  历史  ，  公元前  1000年  传到  埃及  ，  后  传到  地中海  地区  ，  16  世纪  传入  美国  ，  17世纪  传到  日本  ，  20  世纪  初  传入  我  国  。  洋葱  在  我国  分布  很  广  ，  南北  各  地  均  有  栽培  ，  而且  种植  面积  还  在  不断  扩大  ，  是  目前  我国  主栽  蔬菜  之一  。  我国  已  成为  洋葱  生产量  较  大  的  4  个  国家  (  中国  、  印度  、  美国  、  日本  )  之一  。  我国  的  种植  区域  主要  是  山东  、  甘肃  、  内蒙古  、  新疆  等地  。
+            洋葱  供  食用  的  部位  为  地下  的  肥大  鳞茎  (  即  葱头  )  。  根据  其  皮色  可  分为  白皮  、  黄皮  和  红皮  三  种  ：
+            白皮  种  ：  鳞茎  小  ，  外表  白色  或  略带  绿色  ，  肉质  柔嫩  ，  汁多辣叶淡  ，  品质  佳  ，  适于  生食  。
+            黄皮种  ：  鳞茎  中等  大小  ，  鳞片  较  薄  ，  外皮  黄色  ，  肉  钯  白  里  带  黄  ，  肉质  细嫩  柔软  ，  水分  较  少  ，  味  甜  而  稍带  辣味  ，  品质  极佳  。
+            红皮  种  ：  鳞茎  大  ，  外皮  为  紫红色  或  暗  粉红色  ，  肉  白  里  带  红  ，  组织  致密  ，  质地  较  脆  ，  肉质  不  及  黄皮  种  细嫩  ，  水分  较  多  ，  辣味  较重  ，  品质  较差  ，  但  耐  贮藏  。  国人  常  惧怕  其  特有  的  辛辣  香气  ，  而  在  国外  它  却  被  誉为  “  菜  中  皇后  ”  ，  营养  价值  不  低  。  洋葱  的  品质  要求  ：  以  葱头  肥大  ，  外皮  光泽  ，  不烂  ，  无  机械  伤  和  泥土  ，  鲜  葱头  不带叶  ；  经  贮藏  后  ，  不  松软  ，  不抽苔  ，  鳞片  紧密  ，  含水量  少  ，  辛辣  和  甜味  浓的  为佳  。
+        </segment>
+
+        <pos>
+            洋葱#NN  又#CC  名#NN  球葱#VV  、#PU  圆#VV  葱#NN  、#PU  玉葱#NN  、#PU  葱头#NN  ，#PU  属#VV  百合科#CD  葱属#NN  ，#PU  为#VC  2#CD  年#M  生#VV  草本#NN  植物#NN    。#PU  有关#JJ  洋葱#NN  的#DEG  原产地#NN  说法#NN  很多#CD  ，#PU  但#AD  多数#NN  认为#VV  洋葱#VV  产于#VV  亚洲#NR  西南部#NN  中亚细亚#NN  、#PU  小#JJ  亚细亚#NN  的#DEG  伊朗#NR  、#PU  阿富汗#NR  的#DEG  高原#NN  地区#NN  的#DEC  可能性#NN  较大#JJ  ，#PU  因为#P  在#P  这些#DT  地区#NN  至今#AD  还#AD  能#VV  找到#VV  洋葱#NN  的#DEG  野生#JJ  类型#NN    。#PU  洋葱#NN  的#DEG  起源#NN  已#AD  有#VE  5000多#CD  年#M  历史#NN  ，#PU  公元前#NN  1000年#NT  传到#VV  埃及#NR  ，#PU  后#LC  传到#VV  地中海#NR  地区#NN  ，#PU  16#CD  世纪#NN  传入#VV  美国#NR  ，#PU  17世纪#CD  传到#VV  日本#NR  ，#PU  20#CD  世纪#NN  初#LC  传入#VV  我#PN  国#NN    。#PU  洋葱#NN  在#P  我国#NR  分布#VV  很#AD  广#VA  ，#PU  南北#NN  各#DT  地#NN  均#AD  有#VE  栽培#VV  ，#PU  而且#CC  种植#NN  面积#NN  还#AD  在#AD  不断#AD  扩大#VV  ，#PU  是#VC  目前#NT  我国#NN  主栽#NN  蔬菜#NN  之一#NN    。#PU  我国#NN  已#AD  成为#VV  洋葱#NN  生产量#NN  较#AD  大#VA  的#DEC  4#CD  个#M  国家#NN  -LRB-#NR  中国#NR  、#PU  印度#NR  、#PU  美国#NR  、#PU  日本#NR  -RRB-#NN  之一#NN    。#PU  我国#NN  的#DEG  种植#NN  区域#NN  主要#AD  是#VC  山东#NR  、#PU  甘肃#NR  、#PU  内蒙古#NR  、#PU  新疆#NR  等地#NN    。#PU    。#PU
+            洋葱#NN  供#VV  食用#VV  的#DEC  部位#NN  为#P  地下#JJ  的#DEG  肥大#NN  鳞茎#NN  -LRB-#VV  即#AD  葱头#NN  -RRB-#NN  。#PU  根据#P  其#PN  皮色#NN  可#VV  分为#VV  白皮#NR  、#PU  黄皮#NR  和#CC  红皮#NR  三#CD  种#M  ：#PU
+            白皮#VV  种#NN  ：#PU  鳞茎#AD  小#VA  ，#PU  外表#VV  白色#JJ  或#CC  略带#JJ  绿色#NN  ，#PU  肉质#VV  柔嫩#NN  ，#PU  汁多辣叶淡#NN  ，#PU  品质#NN  佳#VA  ，#PU  适于#VV  生食#NN  。#PU
+            黄皮种#VA  ：#PU  鳞茎#VV  中等#JJ  大小#NN  ，#PU  鳞片#NR  较#AD  薄#VV  ，#PU  外皮#NR  黄色#JJ  ，#PU  肉#NN  钯#NN  白#VA  里#LC  带#VV  黄#NR  ，#PU  肉质#VV  细嫩#NN  柔软#NN  ，#PU  水分#NR  较#AD  少#VA  ，#PU  味#VV  甜#NN  而#CC  稍带#NN  辣味#NN  ，#PU  品质#NN  极佳#VA  。#PU
+            红皮#CD  种#M  ：#PU  鳞茎#NR  大#VA  ，#PU  外皮#NR  为#VC  紫红色#NN  或#CC  暗#AD  粉红色#VV  ，#PU  肉#NN  白#VA  里#LC  带#NN  红#VA  ，#PU  组织#NN  致密#NN  ，#PU  质地#NR  较#AD  脆#VV  ，#PU  肉质#NR  不#AD  及#VV  黄皮#CD  种#M  细嫩#NN  ，#PU  水分#NR  较#AD  多#VA  ，#PU  辣味#VV  较重#NN  ，#PU  品质#NN  较差#VA  ，#PU  但#AD  耐#AD  贮藏#VV    。#PU  国人#NN  常#AD  惧怕#VV  其#PN  特有#VV  的#DEC  辛辣#NN  香气#NN  ，#PU  而#CC  在#P  国外#NN  它#PN  却#AD  被#SB  誉为#VV  ``#NN  菜#NN  中#LC  皇后#VV  ''#NN  ，#PU  营养#VA  价值#NN  不#AD  低#VA    。#PU  洋葱#NN  的#DEG  品质#NN  要求#VV  ：#PU  以#P  葱头#AD  肥大#VA  ，#PU  外皮#AD  光泽#VA  ，#PU  不烂#VA  ，#PU  无#VE  机械#NN  伤#NN  和#CC  泥土#VV  ，#PU  鲜#VV  葱头#NN  不带叶#NN  ；#PU  经#P  贮藏#NN  后#LC  ，#PU  不#AD  松软#VV  ，#PU  不抽苔#VA  ，#PU  鳞片#AD  紧密#VA  ，#PU  含水量#AD  少#VA  ，#PU  辛辣#NR  和#CC  甜味#NR  浓的#VV  为佳#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 洋葱#NN)  (cc, 名#NN, 又#CC)  (nsubj, 球葱#VV, 名#NN)  (conj, 生#VV, 球葱#VV)  (conj, 球葱#VV, 圆#VV)  (conj, 葱头#NN, 葱#NN)  (conj, 葱头#NN, 玉葱#NN)  (dobj, 圆#VV, 葱头#NN)  (conj, 球葱#VV, 属#VV)  (nummod, 葱属#NN, 百合科#CD)  (dobj, 属#VV, 葱属#NN)  (conj, 球葱#VV, 为#VC)  (nummod, 年#M, 2#CD)  (dep, 为#VC, 年#M)  (root, ROOT#null, 生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 生#VV, 植物#NN)   (amod, 洋葱#NN, 有关#JJ)  (assmod, 说法#NN, 洋葱#NN)  (case, 洋葱#NN, 的#DEG)  (nn, 说法#NN, 原产地#NN)  (nsubj, 认为#VV, 说法#NN)  (nsubj, 认为#VV, 很多#CD)  (advmod, 认为#VV, 但#AD)  (nsubj, 认为#VV, 多数#NN)  (xsubj, 洋葱#VV, 多数#NN)  (root, ROOT#null, 认为#VV)  (ccomp, 认为#VV, 洋葱#VV)  (relcl, 可能性#NN, 产于#VV)  (nn, 中亚细亚#NN, 亚洲#NR)  (nn, 中亚细亚#NN, 西南部#NN)  (conj, 阿富汗#NR, 中亚细亚#NN)  (amod, 亚细亚#NN, 小#JJ)  (assmod, 阿富汗#NR, 亚细亚#NN)  (case, 亚细亚#NN, 的#DEG)  (conj, 阿富汗#NR, 伊朗#NR)  (assmod, 地区#NN, 阿富汗#NR)  (case, 阿富汗#NR, 的#DEG)  (nn, 地区#NN, 高原#NN)  (dobj, 产于#VV, 地区#NN)  (mark, 产于#VV, 的#DEC)  (dobj, 洋葱#VV, 可能性#NN)  (conj, 洋葱#VV, 较大#JJ)  (case, 能#VV, 因为#P)  (case, 地区#NN, 在#P)  (det, 地区#NN, 这些#DT)  (prep, 能#VV, 地区#NN)  (advmod, 能#VV, 至今#AD)  (advmod, 能#VV, 还#AD)  (prep, 找到#VV, 能#VV)  (conj, 洋葱#VV, 找到#VV)  (assmod, 类型#NN, 洋葱#NN)  (case, 洋葱#NN, 的#DEG)  (amod, 类型#NN, 野生#JJ)  (dobj, 找到#VV, 类型#NN)   (assmod, 起源#NN, 洋葱#NN)  (case, 洋葱#NN, 的#DEG)  (nsubj, 有#VE, 起源#NN)  (advmod, 有#VE, 已#AD)  (root, ROOT#null, 有#VE)  (nummod, 年#M, 5000多#CD)  (clf, 历史#NN, 年#M)  (dobj, 有#VE, 历史#NN)  (nsubj, 传到#VV, 公元前#NN)  (tmod, 传到#VV, 1000年#NT)  (loc, 传到#VV, 传到#VV)  (dobj, 传到#VV, 埃及#NR)  (case, 传到#VV, 后#LC)  (conj, 有#VE, 传到#VV)  (nn, 地区#NN, 地中海#NR)  (dobj, 传到#VV, 地区#NN)  (nummod, 世纪#NN, 16#CD)  (nsubj, 传入#VV, 世纪#NN)  (conj, 有#VE, 传入#VV)  (dobj, 传入#VV, 美国#NR)  (nsubj, 传到#VV, 17世纪#CD)  (conj, 有#VE, 传到#VV)  (dobj, 传到#VV, 日本#NR)  (nummod, 世纪#NN, 20#CD)  (loc, 传入#VV, 世纪#NN)  (case, 世纪#NN, 初#LC)  (conj, 有#VE, 传入#VV)  (nn, 国#NN, 我#PN)  (dobj, 传入#VV, 国#NN)   (nsubj, 分布#VV, 洋葱#NN)  (case, 我国#NR, 在#P)  (prep, 分布#VV, 我国#NR)  (root, ROOT#null, 分布#VV)  (advmod, 广#VA, 很#AD)  (conj, 分布#VV, 广#VA)  (nn, 地#NN, 南北#NN)  (det, 地#NN, 各#DT)  (nsubj, 有#VE, 地#NN)  (advmod, 有#VE, 均#AD)  (dep, 广#VA, 有#VE)  (dep, 有#VE, 栽培#VV)  (cc, 栽培#VV, 而且#CC)  (nn, 面积#NN, 种植#NN)  (nsubj, 扩大#VV, 面积#NN)  (advmod, 扩大#VV, 还#AD)  (advmod, 扩大#VV, 在#AD)  (advmod, 扩大#VV, 不断#AD)  (dep, 栽培#VV, 扩大#VV)  (cop, 之一#NN, 是#VC)  (nn, 主栽#NN, 目前#NT)  (nn, 主栽#NN, 我国#NN)  (nn, 之一#NN, 主栽#NN)  (nn, 之一#NN, 蔬菜#NN)  (conj, 栽培#VV, 之一#NN)   (nsubj, 成为#VV, 我国#NN)  (advmod, 成为#VV, 已#AD)  (root, ROOT#null, 成为#VV)  (nn, 生产量#NN, 洋葱#NN)  (nsubj, 大#VA, 生产量#NN)  (advmod, 大#VA, 较#AD)  (relcl, 之一#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nummod, 个#M, 4#CD)  (clf, 国家#NN, 个#M)  (nn, 之一#NN, 国家#NN)  (conj, 日本#NR, 中国#NR)  (conj, 日本#NR, 印度#NR)  (conj, 日本#NR, 美国#NR)  (nn, 之一#NN, 日本#NR)  (dobj, 成为#VV, 之一#NN)   (assmod, 区域#NN, 我国#NN)  (case, 我国#NN, 的#DEG)  (nn, 区域#NN, 种植#NN)  (nsubj, 等地#NN, 区域#NN)  (advmod, 等地#NN, 主要#AD)  (cop, 等地#NN, 是#VC)  (conj, 新疆#NR, 山东#NR)  (conj, 新疆#NR, 甘肃#NR)  (conj, 新疆#NR, 内蒙古#NR)  (nn, 等地#NN, 新疆#NR)  (root, ROOT#null, 等地#NN)   (root, ROOT#null, null#null)
+            (nsubj, 供#VV, 洋葱#NN)  (root, ROOT#null, 供#VV)  (relcl, 部位#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (dobj, 供#VV, 部位#NN)  (case, 鳞茎#NN, 为#P)  (assmod, 鳞茎#NN, 地下#JJ)  (case, 地下#JJ, 的#DEG)  (nn, 鳞茎#NN, 肥大#NN)  (prep, -LRB-#VV, 鳞茎#NN)  (advmod, -RRB-#NN, 即#AD)  (nn, -RRB-#NN, 葱头#NN)  (case, 皮色#NN, 根据#P)  (nn, 皮色#NN, 其#PN)  (prep, 分为#VV, 皮色#NN)  (mmod, 分为#VV, 可#VV)  (conj, 供#VV, 分为#VV)  (conj, 红皮#NR, 白皮#NR)  (conj, 红皮#NR, 黄皮#NR)  (cc, 红皮#NR, 和#CC)  (dobj, 分为#VV, 红皮#NR)  (nummod, 种#M, 三#CD)  (range, 分为#VV, 种#M)
+            (root, ROOT#null, 白皮#VV)  (dobj, 白皮#VV, 种#NN)  (advmod, 小#VA, 鳞茎#AD)  (conj, 白皮#VV, 小#VA)  (conj, 白皮#VV, 外表#VV)  (amod, 绿色#NN, 白色#JJ)  (cc, 白色#JJ, 或#CC)  (dep, 白色#JJ, 略带#JJ)  (dobj, 外表#VV, 绿色#NN)  (conj, 白皮#VV, 肉质#VV)  (dobj, 肉质#VV, 柔嫩#NN)  (nsubj, 佳#VA, 汁多辣叶淡#NN)  (nsubj, 佳#VA, 品质#NN)  (dep, 白皮#VV, 佳#VA)  (conj, 白皮#VV, 适于#VV)  (dobj, 适于#VV, 生食#NN)
+            (root, ROOT#null, 黄皮种#VA)  (conj, 黄皮种#VA, 鳞茎#VV)  (amod, 大小#NN, 中等#JJ)  (dobj, 鳞茎#VV, 大小#NN)  (nsubj, 薄#VV, 鳞片#NR)  (advmod, 薄#VV, 较#AD)  (conj, 黄皮种#VA, 薄#VV)  (nsubj, 黄色#JJ, 外皮#NR)  (conj, 黄皮种#VA, 黄色#JJ)  (nn, 钯#NN, 肉#NN)  (nsubj, 白#VA, 钯#NN)  (loc, 带#VV, 白#VA)  (case, 白#VA, 里#LC)  (conj, 黄色#JJ, 带#VV)  (dobj, 带#VV, 黄#NR)  (conj, 黄色#JJ, 肉质#VV)  (nn, 柔软#NN, 细嫩#NN)  (dobj, 肉质#VV, 柔软#NN)  (nsubj, 少#VA, 水分#NR)  (advmod, 少#VA, 较#AD)  (conj, 黄皮种#VA, 少#VA)  (conj, 黄皮种#VA, 味#VV)  (conj, 稍带#NN, 甜#NN)  (cc, 稍带#NN, 而#CC)  (nn, 辣味#NN, 稍带#NN)  (dobj, 味#VV, 辣味#NN)  (nsubj, 极佳#VA, 品质#NN)  (dep, 黄皮种#VA, 极佳#VA)
+            (nummod, 种#M, 红皮#CD)  (root, ROOT#null, 种#M)  (nsubj, 大#VA, 鳞茎#NR)  (conj, 种#M, 大#VA)  (nsubj, 紫红色#NN, 外皮#NR)  (cop, 紫红色#NN, 为#VC)  (conj, 种#M, 紫红色#NN)  (cc, 紫红色#NN, 或#CC)  (advmod, 粉红色#VV, 暗#AD)  (conj, 紫红色#NN, 粉红色#VV)  (nsubj, 白#VA, 肉#NN)  (loc, 红#VA, 白#VA)  (case, 白#VA, 里#LC)  (nsubj, 红#VA, 带#NN)  (conj, 种#M, 红#VA)  (nn, 致密#NN, 组织#NN)  (nsubj, 脆#VV, 致密#NN)  (nsubj, 脆#VV, 质地#NR)  (advmod, 脆#VV, 较#AD)  (conj, 种#M, 脆#VV)  (nsubj, 及#VV, 肉质#NR)  (neg, 及#VV, 不#AD)  (conj, 种#M, 及#VV)  (nummod, 种#M, 黄皮#CD)  (clf, 细嫩#NN, 种#M)  (dobj, 及#VV, 细嫩#NN)  (nsubj, 多#VA, 水分#NR)  (advmod, 多#VA, 较#AD)  (conj, 种#M, 多#VA)  (conj, 种#M, 辣味#VV)  (dobj, 辣味#VV, 较重#NN)  (nsubj, 较差#VA, 品质#NN)  (dep, 种#M, 较差#VA)  (advmod, 贮藏#VV, 但#AD)  (advmod, 贮藏#VV, 耐#AD)  (conj, 种#M, 贮藏#VV)   (nsubj, 惧怕#VV, 国人#NN)  (advmod, 惧怕#VV, 常#AD)  (root, ROOT#null, 惧怕#VV)  (nsubj, 特有#VV, 其#PN)  (relcl, 香气#NN, 特有#VV)  (mark, 特有#VV, 的#DEC)  (nn, 香气#NN, 辛辣#NN)  (dobj, 惧怕#VV, 香气#NN)  (cc, 惧怕#VV, 而#CC)  (case, 誉为#VV, 在#P)  (nsubj, 誉为#VV, 国外#NN)  (nsubj, 誉为#VV, 它#PN)  (advmod, 誉为#VV, 却#AD)  (auxpass, 誉为#VV, 被#SB)  (prep, 皇后#VV, 誉为#VV)  (nn, 菜#NN, ``#NN)  (dobj, 誉为#VV, 菜#NN)  (case, 誉为#VV, 中#LC)  (dep, 惧怕#VV, 皇后#VV)  (dobj, 皇后#VV, ''#NN)  (dep, 惧怕#VV, 营养#VA)  (nsubj, 低#VA, 价值#NN)  (neg, 低#VA, 不#AD)  (conj, 惧怕#VV, 低#VA)   (assmod, 品质#NN, 洋葱#NN)  (case, 洋葱#NN, 的#DEG)  (nsubj, 要求#VV, 品质#NN)  (root, ROOT#null, 要求#VV)  (case, 肥大#VA, 以#P)  (advmod, 肥大#VA, 葱头#AD)  (prep, 浓的#VV, 肥大#VA)  (advmod, 光泽#VA, 外皮#AD)  (dep, 肥大#VA, 光泽#VA)  (dep, 肥大#VA, 不烂#VA)  (dep, 肥大#VA, 无#VE)  (nn, 伤#NN, 机械#NN)  (dobj, 无#VE, 伤#NN)  (cc, 无#VE, 和#CC)  (conj, 无#VE, 泥土#VV)  (dep, 无#VE, 鲜#VV)  (nn, 不带叶#NN, 葱头#NN)  (dobj, 鲜#VV, 不带叶#NN)  (case, 贮藏#NN, 经#P)  (prep, 松软#VV, 贮藏#NN)  (case, 贮藏#NN, 后#LC)  (neg, 松软#VV, 不#AD)  (conj, 无#VE, 松软#VV)  (dep, 肥大#VA, 不抽苔#VA)  (advmod, 紧密#VA, 鳞片#AD)  (dep, 肥大#VA, 紧密#VA)  (advmod, 少#VA, 含水量#AD)  (dep, 肥大#VA, 少#VA)  (conj, 甜味#NR, 辛辣#NR)  (cc, 甜味#NR, 和#CC)  (nsubj, 浓的#VV, 甜味#NR)  (ccomp, 要求#VV, 浓的#VV)  (dobj, 浓的#VV, 为佳#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            洋葱性温，味辛甘。有祛痰、利尿、健胃润肠、解毒杀虫等功能，洋葱提取物还具有杀菌作用，可提高胃肠道张力、增加消化道分泌作用。
+            1.杀菌
+            洋葱的辣味能抗寒，抵御流感病毒，有较强的杀菌作用。
+            2.促进消化
+            可用于治疗消化不良、食欲不振、食积内停等症。
+            3.降血压降血脂
+            经常食用对高血压，高血脂和心脑血管病人都有保健作用。
+            4.防癌抗癌延缓衰老
+            洋葱所含的抗氧化剂增强细胞的活力抗癌抗衰老
+            5.补钙
+            有助于增加骨密度防止骨质疏松
+        </rawdata>
+
+        <segment>
+            洋葱  性温  ，  味辛甘  。  有  祛痰  、  利尿  、  健胃  润肠  、  解毒  杀  虫  等  功能  ，  洋葱  提取  物  还  具有  杀菌  作用  ，  可  提高  胃肠道  张力  、  增加  消化道  分泌  作用  。
+            杀菌
+            洋葱  的  辣味  能  抗寒  ，  抵御  流感  病毒  ，  有  较  强  的  杀菌  作用  。
+            促进  消化
+            可  用于  治疗  消化不良  、  食欲不振  、  食积  内停等症  。
+            降  血压  降  血脂
+            经常  食用  对  高血压  ，  高血脂  和  心脑血管病  人都  有  保健  作用  。
+            防癌  抗癌  延缓  衰老
+            洋葱  所  含  的  抗氧化剂  增强  细胞  的  活力  抗癌  抗  衰老
+            补钙
+            有助于  增加  骨密度  防止  骨质  疏松
+        </segment>
+
+        <pos>
+            洋葱#NR  性温#VV  ，#PU  味辛甘#VV    。#PU  有#VE  祛痰#NR  、#PU  利尿#NR  、#PU  健胃#NR  润肠#NR  、#PU  解毒#NR  杀#VV  虫#NN  等#ETC  功能#NN  ，#PU  洋葱#AD  提取#VV  物#NN  还#AD  具有#VV  杀菌#NN  作用#NN  ，#PU  可#VV  提高#VV  胃肠道#NN  张力#NN  、#PU  增加#VV  消化道#NN  分泌#NN  作用#NN    。#PU    。#PU
+            杀菌#VV
+            洋葱#NN  的#DEG  辣味#NN  能#VV  抗寒#VV  ，#PU  抵御#VV  流感#NN  病毒#NN  ，#PU  有#VE  较#AD  强#VA  的#DEC  杀菌#JJ  作用#NN  。#PU
+            促进#VV  消化#NN
+            可#VV  用于#VV  治疗#VV  消化不良#NR  、#PU  食欲不振#NR  、#PU  食积#NR  内停等症#NN  。#PU
+            降#NN  血压#NN  降#VV  血脂#NN
+            经常#AD  食用#VV  对#P  高血压#NN  ，#PU  高血脂#NR  和#CC  心脑血管病#NR  人都#AD  有#VE  保健#NN  作用#NN  。#PU
+            防癌#NN  抗癌#VV  延缓#NN  衰老#NN
+            洋葱#AD  所#MSP  含#VV  的#DEC  抗氧化剂#NN  增强#VV  细胞#NN  的#DEG  活力#NN  抗癌#VV  抗#NN  衰老#NN
+            补钙#VV
+            有助于#VV  增加#VV  骨密度#NN  防止#VV  骨质#VV  疏松#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 性温#VV, 洋葱#NR)  (root, ROOT#null, 性温#VV)  (ccomp, 性温#VV, 味辛甘#VV)   (root, ROOT#null, 有#VE)  (conj, 健胃#NR, 祛痰#NR)  (conj, 健胃#NR, 利尿#NR)  (nn, 解毒#NR, 健胃#NR)  (conj, 解毒#NR, 润肠#NR)  (nsubj, 杀#VV, 解毒#NR)  (dep, 有#VE, 杀#VV)  (nn, 功能#NN, 虫#NN)  (etc, 虫#NN, 等#ETC)  (dobj, 杀#VV, 功能#NN)  (advmod, 提取#VV, 洋葱#AD)  (conj, 具有#VV, 提取#VV)  (dobj, 提取#VV, 物#NN)  (advmod, 具有#VV, 还#AD)  (conj, 有#VE, 具有#VV)  (nn, 作用#NN, 杀菌#NN)  (dobj, 具有#VV, 作用#NN)  (mmod, 提高#VV, 可#VV)  (conj, 有#VE, 提高#VV)  (nn, 张力#NN, 胃肠道#NN)  (dobj, 提高#VV, 张力#NN)  (dep, 有#VE, 增加#VV)  (nn, 作用#NN, 消化道#NN)  (nn, 作用#NN, 分泌#NN)  (dobj, 增加#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 杀菌#VV)
+            (assmod, 辣味#NN, 洋葱#NN)  (case, 洋葱#NN, 的#DEG)  (nsubj, 抗寒#VV, 辣味#NN)  (mmod, 抗寒#VV, 能#VV)  (root, ROOT#null, 抗寒#VV)  (conj, 抗寒#VV, 抵御#VV)  (nn, 病毒#NN, 流感#NN)  (dobj, 抵御#VV, 病毒#NN)  (conj, 抗寒#VV, 有#VE)  (advmod, 强#VA, 较#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (amod, 作用#NN, 杀菌#JJ)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 消化#NN)
+            (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (conj, 食积#NR, 消化不良#NR)  (conj, 食积#NR, 食欲不振#NR)  (nn, 内停等症#NN, 食积#NR)  (dobj, 治疗#VV, 内停等症#NN)
+            (nn, 血压#NN, 降#NN)  (nsubj, 降#VV, 血压#NN)  (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血脂#NN)
+            (advmod, 食用#VV, 经常#AD)  (dep, 有#VE, 食用#VV)  (case, 高血压#NN, 对#P)  (prep, 食用#VV, 高血压#NN)  (conj, 心脑血管病#NR, 高血脂#NR)  (cc, 心脑血管病#NR, 和#CC)  (nsubj, 有#VE, 心脑血管病#NR)  (advmod, 有#VE, 人都#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)  (nn, 衰老#NN, 延缓#NN)  (dobj, 抗癌#VV, 衰老#NN)
+            (advmod, 含#VV, 洋葱#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 抗氧化剂#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 增强#VV, 抗氧化剂#NN)  (root, ROOT#null, 增强#VV)  (assmod, 活力#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 增强#VV, 活力#NN)  (conj, 增强#VV, 抗癌#VV)  (nn, 衰老#NN, 抗#NN)  (dobj, 抗癌#VV, 衰老#NN)
+            (root, ROOT#null, 补钙#VV)
+            (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 增加#VV)  (dobj, 增加#VV, 骨密度#NN)  (dep, 有助于#VV, 防止#VV)  (ccomp, 防止#VV, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  辅助降血糖  延缓衰老  辅助降血压  促进消化  抗癌防癌  抗菌  解毒  健胃  杀虫  理气  促进宫缩  平喘  抗炎
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.洋葱具有发散风寒的作用，是因为洋葱鳞茎和叶子含有一种称为硫化丙烯的油脂性挥发物。
+            2.洋葱营养丰富，且气味辛辣。能刺激胃、肠及消化腺分泌，增进食欲，促进消化，且洋葱不含脂肪，其精油中含有可降低胆固醇的含硫化合物的混合物。
+            3.洋葱是目前所知唯一含前列腺素A的。前列腺素A能扩张血管、降低血液黏度，因而会产生降血压、能减少外周血管和增加冠状动脉的血流量，预防血栓形成作用。对抗人体内儿茶酚胺等升压物质的作用，又能促进钠盐的排泄，从而使血压下降。
+            4.洋葱有一定的提神作用，它能帮助细胞更好地利用葡萄糖，同时降低血糖，供给脑细胞热能，是糖尿病、神志萎顿患者的食疗佳蔬。
+            5.洋葱中含有一种名炎“栎皮黄素”9的物质，这是目前所知最有效的天然抗癌物质之一，它能阻止体内的生物化学机制出现变异，控制癌细胞的生长，从而具有防癌抗癌作用。
+            6.洋葱所含的微量元素硒是一种很强的抗氧化剂，能消除体内的自由基，增强细胞的活力和代谢能力，具有防癌抗衰老的功效。
+            7.洋葱中还含有一定的钙质，近年来，瑞士科学家发现常吃洋葱能提高骨密度，有助于防治骨质疏松症。
+        </rawdata>
+
+        <segment>
+            洋葱  具有  发散  风寒  的  作用  ，  是  因为  洋葱  鳞茎  和  叶子  含有  一  种  称为  硫化  丙烯  的  油脂性  挥发物  。
+            洋葱  营养  丰富  ，  且  气味  辛辣  。  能  刺激  胃  、  肠  及  消化腺  分泌  ，  增进  食欲  ，  促进  消化  ，  且  洋葱  不  含  脂肪  ，  其  精油  中  含有  可  降低  胆固醇  的  含硫化合物  的  混合物  。
+            洋葱  是  目前  所知  唯一  含  前列腺素  A  的  。  前列腺素  A  能  扩张  血管  、  降低  血液  黏度  ，  因而  会  产生  降  血压  、  能  减少  外  周  血管  和  增加  冠状  动脉  的  血流量  ，  预防  血栓  形成  作用  。  对抗  人体  内  儿茶酚  胺等  升压  物质  的  作用  ，  又  能  促进  钠盐  的  排泄  ，  从而  使  血压  下降  。
+            洋葱  有  一定  的  提神  作用  ，  它  能  帮助  细胞  更  好  地  利用  葡萄糖  ，  同时  降低  血糖  ，  供给  脑细胞  热能  ，  是  糖尿病  、  神志  萎顿  患者  的  食疗  佳蔬  。
+            洋葱  中  含有  一  种  名炎  “  栎皮  黄素  ”  9  的  物质  ，  这  是  目前  所知  最  有效  的  天然  抗癌  物质  之一  ，  它  能  阻止  体内  的  生物  化学  机制  出现  变异  ，  控制  癌细胞  的  生长  ，  从而  具有  防癌  抗癌  作用  。
+            洋葱  所  含  的  微量  元素  硒是  一  种  很  强  的  抗氧化剂  ，  能  消除  体内  的  自由基  ，  增强  细胞  的  活力  和  代谢  能力  ，  具有  防癌  抗  衰老  的  功效  。
+            洋葱  中  还  含有  一定  的  钙质  ，  近年  来  ，  瑞士  科学家  发现  常  吃  洋葱  能  提高  骨密度  ，  有助于  防治  骨质  疏松症  。
+        </segment>
+
+        <pos>
+            洋葱#AD  具有#VV  发散#NN  风寒#NN  的#DEG  作用#NN  ，#PU  是#VC  因为#P  洋葱#NR  鳞茎#NN  和#CC  叶子#NN  含有#VV  一#CD  种#M  称为#VV  硫化#NN  丙烯#NN  的#DEC  油脂性#NN  挥发物#NN  。#PU
+            洋葱#AD  营养#VA  丰富#VA  ，#PU  且#CC  气味#AD  辛辣#VA    。#PU  能#VV  刺激#VV  胃#NR  、#PU  肠#NR  及#CC  消化腺#NR  分泌#NN  ，#PU  增进#VV  食欲#NN  ，#PU  促进#VV  消化#NN  ，#PU  且#CC  洋葱#VV  不#AD  含#VV  脂肪#VV  ，#PU  其#PN  精油#NN  中#LC  含有#AD  可#VV  降低#VV  胆固醇#NN  的#DEC  含硫化合物#NN  的#DEC  混合物#NN    。#PU    。#PU
+            洋葱#NN  是#VC  目前#NT  所知#VV  唯一#JJ  含#VV  前列腺素#NN  A#NN  的#DEC    。#PU  前列腺素#NN  A#NN  能#VV  扩张#VV  血管#NN  、#PU  降低#VV  血液#NN  黏度#NN  ，#PU  因而#AD  会#VV  产生#VV  降#VV  血压#NN  、#PU  能#VV  减少#VV  外#NN  周#NN  血管#NN  和#CC  增加#VV  冠状#NN  动脉#NN  的#DEC  血流量#NN  ，#PU  预防#VV  血栓#NN  形成#VV  作用#NN    。#PU  对抗#NN  人体#NN  内#LC  儿茶酚#AD  胺等#VV  升压#VV  物质#NN  的#DEC  作用#NN  ，#PU  又#AD  能#VV  促进#VV  钠盐#NN  的#DEG  排泄#NN  ，#PU  从而#AD  使#VV  血压#NN  下降#VV    。#PU    。#PU
+            洋葱#NN  有#VE  一定#JJ  的#DEG  提神#JJ  作用#NN  ，#PU  它#PN  能#VV  帮助#VV  细胞#NN  更#AD  好#VA  地#DEV  利用#VV  葡萄糖#NN  ，#PU  同时#AD  降低#VV  血糖#NN  ，#PU  供给#NN  脑细胞#NN  热能#NN  ，#PU  是#VC  糖尿病#NN  、#PU  神志#NN  萎顿#NN  患者#NN  的#DEG  食疗#NN  佳蔬#NN  。#PU
+            洋葱#NN  中#LC  含有#NR  一#CD  种#M  名炎#NN  ``#AD  栎皮#VV  黄素#AD  ''#VV  9#CD  的#DEC  物质#NN  ，#PU  这#PN  是#VC  目前#NT  所知#AD  最#AD  有效#VA  的#DEC  天然#JJ  抗癌#NN  物质#NN  之一#NN  ，#PU  它#PN  能#VV  阻止#VV  体内#NN  的#DEC  生物#NN  化学#NN  机制#NN  出现#VV  变异#NN  ，#PU  控制#VV  癌细胞#NN  的#DEG  生长#NN  ，#PU  从而#AD  具有#VV  防癌#NN  抗癌#NN  作用#NN  。#PU
+            洋葱#AD  所#MSP  含#VV  的#DEC  微量#NN  元素#NN  硒是#VV  一#CD  种#M  很#AD  强#VA  的#DEC  抗氧化剂#NN  ，#PU  能#VV  消除#VV  体内#NN  的#DEG  自由基#NN  ，#PU  增强#VV  细胞#NN  的#DEG  活力#NN  和#CC  代谢#NN  能力#NN  ，#PU  具有#VV  防癌#NN  抗#NN  衰老#NN  的#DEG  功效#NN  。#PU
+            洋葱#NN  中#LC  还#AD  含有#VV  一定#JJ  的#DEG  钙质#NN  ，#PU  近年#NT  来#LC  ，#PU  瑞士#NR  科学家#NN  发现#VV  常#AD  吃#VV  洋葱#NN  能#VV  提高#VV  骨密度#NN  ，#PU  有助于#VV  防治#NN  骨质#NN  疏松症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 具有#VV, 洋葱#AD)  (conj, 挥发物#NN, 具有#VV)  (nn, 风寒#NN, 发散#NN)  (assmod, 作用#NN, 风寒#NN)  (case, 风寒#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (cop, 挥发物#NN, 是#VC)  (case, 含有#VV, 因为#P)  (nn, 叶子#NN, 洋葱#NR)  (conj, 叶子#NN, 鳞茎#NN)  (cc, 叶子#NN, 和#CC)  (nsubj, 含有#VV, 叶子#NN)  (prep, 称为#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (range, 含有#VV, 种#M)  (relcl, 挥发物#NN, 称为#VV)  (nn, 丙烯#NN, 硫化#NN)  (dobj, 称为#VV, 丙烯#NN)  (mark, 称为#VV, 的#DEC)  (nn, 挥发物#NN, 油脂性#NN)  (root, ROOT#null, 挥发物#NN)
+            (advmod, 营养#VA, 洋葱#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (advmod, 辛辣#VA, 气味#AD)  (dep, 营养#VA, 辛辣#VA)   (mmod, 刺激#VV, 能#VV)  (root, ROOT#null, 刺激#VV)  (conj, 消化腺#NR, 胃#NR)  (conj, 消化腺#NR, 肠#NR)  (cc, 消化腺#NR, 及#CC)  (nn, 分泌#NN, 消化腺#NR)  (dobj, 刺激#VV, 分泌#NN)  (conj, 刺激#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 刺激#VV, 促进#VV)  (dobj, 促进#VV, 消化#NN)  (cc, 刺激#VV, 且#CC)  (dep, 刺激#VV, 洋葱#VV)  (neg, 含#VV, 不#AD)  (relcl, 混合物#NN, 含#VV)  (relcl, 含硫化合物#NN, 脂肪#VV)  (nsubj, 降低#VV, 其#PN)  (loc, 降低#VV, 精油#NN)  (case, 精油#NN, 中#LC)  (advmod, 降低#VV, 含有#AD)  (mmod, 降低#VV, 可#VV)  (ccomp, 脂肪#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 脂肪#VV, 的#DEC)  (dobj, 含#VV, 含硫化合物#NN)  (mark, 含#VV, 的#DEC)  (dobj, 洋葱#VV, 混合物#NN)   (root, ROOT#null, null#null)
+            (nsubj, 所知#VV, 洋葱#NN)  (cop, 所知#VV, 是#VC)  (tmod, 所知#VV, 目前#NT)  (root, ROOT#null, 所知#VV)  (amod, A#NN, 唯一#JJ)  (nfincl, A#NN, 含#VV)  (dobj, 含#VV, 前列腺素#NN)  (dobj, 所知#VV, A#NN)  (mark, 所知#VV, 的#DEC)   (nn, A#NN, 前列腺素#NN)  (nsubj, 扩张#VV, A#NN)  (mmod, 扩张#VV, 能#VV)  (root, ROOT#null, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (conj, 扩张#VV, 降低#VV)  (nn, 黏度#NN, 血液#NN)  (dobj, 降低#VV, 黏度#NN)  (advmod, 产生#VV, 因而#AD)  (mmod, 产生#VV, 会#VV)  (conj, 扩张#VV, 产生#VV)  (relcl, 血流量#NN, 降#VV)  (dobj, 降#VV, 血压#NN)  (mmod, 减少#VV, 能#VV)  (conj, 降#VV, 减少#VV)  (nn, 血管#NN, 外#NN)  (nn, 血管#NN, 周#NN)  (dobj, 减少#VV, 血管#NN)  (cc, 减少#VV, 和#CC)  (conj, 减少#VV, 增加#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 增加#VV, 动脉#NN)  (mark, 降#VV, 的#DEC)  (dobj, 产生#VV, 血流量#NN)  (conj, 扩张#VV, 预防#VV)  (dobj, 预防#VV, 血栓#NN)  (conj, 预防#VV, 形成#VV)  (dobj, 形成#VV, 作用#NN)   (nsubj, 胺等#VV, 对抗#NN)  (loc, 胺等#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (advmod, 胺等#VV, 儿茶酚#AD)  (root, ROOT#null, 胺等#VV)  (relcl, 作用#NN, 升压#VV)  (dobj, 升压#VV, 物质#NN)  (mark, 升压#VV, 的#DEC)  (dobj, 胺等#VV, 作用#NN)  (advmod, 促进#VV, 又#AD)  (mmod, 促进#VV, 能#VV)  (conj, 胺等#VV, 促进#VV)  (assmod, 排泄#NN, 钠盐#NN)  (case, 钠盐#NN, 的#DEG)  (dobj, 促进#VV, 排泄#NN)  (advmod, 使#VV, 从而#AD)  (conj, 胺等#VV, 使#VV)  (dobj, 使#VV, 血压#NN)  (dep, 使#VV, 下降#VV)   (root, ROOT#null, null#null)
+            (dep, 有#VE, 洋葱#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 提神#JJ)  (dobj, 有#VE, 作用#NN)  (nsubj, 帮助#VV, 它#PN)  (mmod, 帮助#VV, 能#VV)  (conj, 有#VE, 帮助#VV)  (dobj, 帮助#VV, 细胞#NN)  (advmod, 好#VA, 更#AD)  (dvpmod, 利用#VV, 好#VA)  (mark, 好#VA, 地#DEV)  (dep, 帮助#VV, 利用#VV)  (dobj, 利用#VV, 葡萄糖#NN)  (advmod, 降低#VV, 同时#AD)  (dep, 利用#VV, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (nn, 热能#NN, 供给#NN)  (nn, 热能#NN, 脑细胞#NN)  (dep, 佳蔬#NN, 热能#NN)  (cop, 佳蔬#NN, 是#VC)  (conj, 患者#NN, 糖尿病#NN)  (nn, 患者#NN, 神志#NN)  (nn, 患者#NN, 萎顿#NN)  (assmod, 佳蔬#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 佳蔬#NN, 食疗#NN)  (conj, 有#VE, 佳蔬#NN)
+            (loc, 栎皮#VV, 洋葱#NN)  (case, 洋葱#NN, 中#LC)  (nn, 名炎#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 名炎#NN, 种#M)  (nsubj, 栎皮#VV, 名炎#NN)  (advmod, 栎皮#VV, ``#AD)  (root, ROOT#null, 栎皮#VV)  (advmod, ''#VV, 黄素#AD)  (relcl, 物质#NN, ''#VV)  (range, ''#VV, 9#CD)  (mark, ''#VV, 的#DEC)  (dobj, 栎皮#VV, 物质#NN)  (nsubj, 之一#NN, 这#PN)  (cop, 之一#NN, 是#VC)  (tmod, 有效#VA, 目前#NT)  (advmod, 有效#VA, 所知#AD)  (advmod, 有效#VA, 最#AD)  (relcl, 之一#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (amod, 之一#NN, 天然#JJ)  (nn, 之一#NN, 抗癌#NN)  (nn, 之一#NN, 物质#NN)  (conj, 栎皮#VV, 之一#NN)  (nsubj, 阻止#VV, 它#PN)  (mmod, 阻止#VV, 能#VV)  (relcl, 机制#NN, 阻止#VV)  (dobj, 阻止#VV, 体内#NN)  (mark, 阻止#VV, 的#DEC)  (nn, 机制#NN, 生物#NN)  (nn, 机制#NN, 化学#NN)  (nsubj, 出现#VV, 机制#NN)  (conj, 栎皮#VV, 出现#VV)  (dobj, 出现#VV, 变异#NN)  (conj, 栎皮#VV, 控制#VV)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 控制#VV, 生长#NN)  (advmod, 具有#VV, 从而#AD)  (conj, 栎皮#VV, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (nn, 作用#NN, 抗癌#NN)  (dobj, 具有#VV, 作用#NN)
+            (advmod, 含#VV, 洋葱#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 元素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 元素#NN, 微量#NN)  (nsubj, 硒是#VV, 元素#NN)  (root, ROOT#null, 硒是#VV)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (advmod, 强#VA, 很#AD)  (relcl, 抗氧化剂#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (dobj, 硒是#VV, 抗氧化剂#NN)  (mmod, 消除#VV, 能#VV)  (conj, 硒是#VV, 消除#VV)  (assmod, 自由基#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (dobj, 消除#VV, 自由基#NN)  (conj, 消除#VV, 增强#VV)  (assmod, 能力#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (conj, 能力#NN, 活力#NN)  (cc, 能力#NN, 和#CC)  (nn, 能力#NN, 代谢#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 消除#VV, 具有#VV)  (nn, 衰老#NN, 防癌#NN)  (nn, 衰老#NN, 抗#NN)  (assmod, 功效#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)
+            (loc, 含有#VV, 洋葱#NN)  (case, 洋葱#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 钙质#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 含有#VV, 钙质#NN)  (loc, 发现#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (nn, 科学家#NN, 瑞士#NR)  (nsubj, 发现#VV, 科学家#NN)  (xsubj, 吃#VV, 科学家#NN)  (conj, 含有#VV, 发现#VV)  (advmod, 吃#VV, 常#AD)  (ccomp, 发现#VV, 吃#VV)  (dobj, 吃#VV, 洋葱#NN)  (mmod, 提高#VV, 能#VV)  (dep, 发现#VV, 提高#VV)  (dobj, 提高#VV, 骨密度#NN)  (conj, 含有#VV, 有助于#VV)  (nn, 疏松症#NN, 防治#NN)  (nn, 疏松症#NN, 骨质#NN)  (dobj, 有助于#VV, 疏松症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.切洋葱前把刀放在冷水中浸一会，再切洋葱就不会刺眼睛了。
+            2.洋葱中的磺脲丁酸属油脂性挥发液体，长时间烹调易挥发，从而失去降血糖功效。
+            3.炒洋葱的时候，洋葱很容易发软，口感不佳，如果在切好的洋葱中拌入少量的面粉，就可以避免这情况，而且成菜色泽金黄，质地脆嫩。
+            4.烹制时在大火热油中投入切好的洋葱再加上少许白葡萄酒，不仅可防止焦糊，而且味道更鲜美。洋葱易熟，因此不宜在锅中炒制时间过长。
+        </rawdata>
+
+        <segment>
+            切  洋葱  前  把  刀  放在  冷水  中  浸  一会  ，  再  切  洋葱  就  不  会  刺  眼睛  了  。
+            洋葱  中  的  磺脲  丁酸  属  油脂性  挥发  液体  ，  长时间  烹调  易  挥发  ，  从而  失去  降  血糖  功效  。
+            炒  洋葱  的  时候  ，  洋葱  很  容易  发软  ，  口感  不佳  ，  如果  在  切  好  的  洋葱  中  拌入  少量  的  面粉  ，  就  可以  避免  这  情况  ，  而且  成  菜色泽  金黄  ，  质地  脆嫩  。
+            烹制  时在  大火  热  油  中  投入  切  好  的  洋葱  再  加上  少许  白葡萄酒  ，  不仅  可  防止  焦糊  ，  而且  味道  更  鲜美  。  洋葱  易  熟  ，  因此  不  宜在  锅中  炒制  时间  过长  。
+        </segment>
+
+        <pos>
+            切#NN  洋葱#NN  前#LC  把#BA  刀#NN  放在#NN  冷水#NN  中#LC  浸#VV  一会#CD  ，#PU  再#AD  切#VV  洋葱#NN  就#AD  不#AD  会#VV  刺#VV  眼睛#NN  了#AS  。#PU
+            洋葱#NN  中#LC  的#DEG  磺脲#NN  丁酸#AD  属#VV  油脂性#NN  挥发#NN  液体#NN  ，#PU  长时间#NN  烹调#NN  易#AD  挥发#VV  ，#PU  从而#AD  失去#VV  降#NN  血糖#NN  功效#NN  。#PU
+            炒#VV  洋葱#VA  的#DEC  时候#NN  ，#PU  洋葱#VV  很#AD  容易#VA  发软#VA  ，#PU  口感#NN  不佳#NN  ，#PU  如果#CS  在#P  切#NN  好#VA  的#DEC  洋葱#NN  中#LC  拌入#VV  少量#CD  的#DEC  面粉#NN  ，#PU  就#AD  可以#VV  避免#VV  这#DT  情况#NN  ，#PU  而且#CC  成#VV  菜色泽#NN  金黄#NN  ，#PU  质地#VV  脆嫩#NN  。#PU
+            烹制#NN  时在#NN  大火#NN  热#NN  油#NN  中#LC  投入#VV  切#NN  好#VA  的#DEC  洋葱#NN  再#AD  加上#VV  少许#NN  白葡萄酒#NN  ，#PU  不仅#CC  可#VV  防止#VV  焦糊#NN  ，#PU  而且#AD  味道#NN  更#AD  鲜美#VV    。#PU  洋葱#NN  易#AD  熟#VA  ，#PU  因此#AD  不#AD  宜在#VV  锅中#NN  炒制#NN  时间#NN  过长#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 浸#VV, 切#NN)  (loc, 浸#VV, 洋葱#NN)  (case, 洋葱#NN, 前#LC)  (ba, 浸#VV, 把#BA)  (nn, 冷水#NN, 刀#NN)  (nn, 冷水#NN, 放在#NN)  (loc, 浸#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (root, ROOT#null, 浸#VV)  (range, 浸#VV, 一会#CD)  (advmod, 切#VV, 再#AD)  (dep, 浸#VV, 切#VV)  (dobj, 切#VV, 洋葱#NN)  (advmod, 刺#VV, 就#AD)  (neg, 刺#VV, 不#AD)  (mmod, 刺#VV, 会#VV)  (dep, 浸#VV, 刺#VV)  (dobj, 刺#VV, 眼睛#NN)  (dep, 浸#VV, 了#AS)
+            (assmod, 磺脲#NN, 洋葱#NN)  (case, 洋葱#NN, 中#LC)  (case, 洋葱#NN, 的#DEG)  (nsubj, 属#VV, 磺脲#NN)  (advmod, 属#VV, 丁酸#AD)  (root, ROOT#null, 属#VV)  (nn, 液体#NN, 油脂性#NN)  (nn, 液体#NN, 挥发#NN)  (dobj, 属#VV, 液体#NN)  (nn, 烹调#NN, 长时间#NN)  (nsubj, 挥发#VV, 烹调#NN)  (advmod, 挥发#VV, 易#AD)  (conj, 属#VV, 挥发#VV)  (advmod, 失去#VV, 从而#AD)  (conj, 属#VV, 失去#VV)  (nn, 功效#NN, 降#NN)  (nn, 功效#NN, 血糖#NN)  (dobj, 失去#VV, 功效#NN)
+            (root, ROOT#null, 炒#VV)  (relcl, 时候#NN, 洋葱#VA)  (mark, 洋葱#VA, 的#DEC)  (dobj, 炒#VV, 时候#NN)  (conj, 炒#VV, 洋葱#VV)  (advmod, 容易#VA, 很#AD)  (relcl, 面粉#NN, 容易#VA)  (comod, 容易#VA, 发软#VA)  (nn, 不佳#NN, 口感#NN)  (nsubj, 拌入#VV, 不佳#NN)  (advmod, 拌入#VV, 如果#CS)  (case, 洋葱#NN, 在#P)  (nsubj, 好#VA, 切#NN)  (relcl, 洋葱#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (prep, 拌入#VV, 洋葱#NN)  (case, 洋葱#NN, 中#LC)  (ccomp, 容易#VA, 拌入#VV)  (range, 拌入#VV, 少量#CD)  (mark, 容易#VA, 的#DEC)  (dobj, 洋葱#VV, 面粉#NN)  (advmod, 避免#VV, 就#AD)  (mmod, 避免#VV, 可以#VV)  (conj, 炒#VV, 避免#VV)  (det, 情况#NN, 这#DT)  (dobj, 避免#VV, 情况#NN)  (cc, 炒#VV, 而且#CC)  (conj, 炒#VV, 成#VV)  (nn, 金黄#NN, 菜色泽#NN)  (dobj, 成#VV, 金黄#NN)  (conj, 炒#VV, 质地#VV)  (dobj, 质地#VV, 脆嫩#NN)
+            (nn, 热#NN, 烹制#NN)  (nn, 热#NN, 时在#NN)  (nn, 热#NN, 大火#NN)  (nsubj, 投入#VV, 热#NN)  (loc, 投入#VV, 油#NN)  (case, 油#NN, 中#LC)  (root, ROOT#null, 投入#VV)  (nsubj, 好#VA, 切#NN)  (relcl, 洋葱#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 投入#VV, 洋葱#NN)  (advmod, 加上#VV, 再#AD)  (conj, 投入#VV, 加上#VV)  (nn, 白葡萄酒#NN, 少许#NN)  (dobj, 加上#VV, 白葡萄酒#NN)  (cc, 投入#VV, 不仅#CC)  (mmod, 防止#VV, 可#VV)  (conj, 投入#VV, 防止#VV)  (nsubj, 鲜美#VV, 焦糊#NN)  (advmod, 鲜美#VV, 而且#AD)  (nsubj, 鲜美#VV, 味道#NN)  (advmod, 鲜美#VV, 更#AD)  (ccomp, 防止#VV, 鲜美#VV)   (nsubj, 熟#VA, 洋葱#NN)  (advmod, 熟#VA, 易#AD)  (root, ROOT#null, 熟#VA)  (advmod, 宜在#VV, 因此#AD)  (neg, 宜在#VV, 不#AD)  (conj, 熟#VA, 宜在#VV)  (nn, 过长#NN, 锅中#NN)  (nn, 过长#NN, 炒制#NN)  (nn, 过长#NN, 时间#NN)  (dobj, 宜在#VV, 过长#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101310286943.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\275 洋葱.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,248 @@
+<content>
+
+    <id>
+        916
+    </id>
+
+    <foodname>
+        马心
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                104cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                76.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                18.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                2.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                32mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.22mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.29mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                1.99mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                2.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                66.2mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                25mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                11.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                119mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            马的心脏
+        </rawdata>
+
+        <segment>
+            马  的  心脏
+        </segment>
+
+        <pos>
+            马#NN  的#DEG  心脏#NN
+        </pos>
+
+        <parsing>
+            (assmod, 心脏#NN, 马#NN)  (case, 马#NN, 的#DEG)  (root, ROOT#null, 心脏#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            有养心安神的作用。
+        </rawdata>
+
+        <segment>
+            有  养心  安神  的  作用  。
+        </segment>
+
+        <pos>
+            有#VE  养心#NN  安神#NN  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (nn, 安神#NN, 养心#NN)  (assmod, 作用#NN, 安神#NN)  (case, 安神#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        养心安神  抗血栓
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            宰杀后，剖开胸腔取心脏，鲜用或晒干后加工食用。
+        </rawdata>
+
+        <segment>
+            宰杀  后  ，  剖开  胸腔  取  心脏  ，  鲜  用  或  晒干  后  加工  食用  。
+        </segment>
+
+        <pos>
+            宰杀#VV  后#LC  ，#PU  剖开#NN  胸腔#AD  取#VV  心脏#NN  ，#PU  鲜#AD  用#VV  或#CC  晒干#VV  后#LC  加工#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 取#VV, 宰杀#VV)  (case, 宰杀#VV, 后#LC)  (nsubj, 取#VV, 剖开#NN)  (advmod, 取#VV, 胸腔#AD)  (root, ROOT#null, 取#VV)  (dobj, 取#VV, 心脏#NN)  (advmod, 用#VV, 鲜#AD)  (loc, 食用#VV, 用#VV)  (cc, 用#VV, 或#CC)  (conj, 用#VV, 晒干#VV)  (case, 用#VV, 后#LC)  (nsubj, 食用#VV, 加工#NN)  (conj, 取#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/c2/41/82370_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\916 马心.jpg
+    </picturelocalurl>
+
+</content>

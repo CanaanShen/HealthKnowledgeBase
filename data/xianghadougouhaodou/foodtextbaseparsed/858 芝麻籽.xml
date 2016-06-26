@@ -1,0 +1,158 @@
+<content>
+
+    <id>
+        858
+    </id>
+
+    <foodname>
+        芝麻籽
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        黑荏子、交麻、胡麻、巨胜、狗虱、乌麻、乌麻子、油麻、油麻子、黑油麻、脂麻、巨胜子、黑脂麻、乌芝麻、小胡麻、黑芝麻籽
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有慢性肠炎、便溏腹泻、男子阳痿、遗精等病症患者不宜食用。
+        </rawdata>
+
+        <segment>
+            患有  慢性  肠炎  、  便溏  腹泻  、  男子  阳痿  、  遗精  等  病症  患者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            患有#NR  慢性#VV  肠炎#NN  、#PU  便溏#NN  腹泻#NN  、#PU  男子#NN  阳痿#NN  、#PU  遗精#NN  等#ETC  病症#NN  患者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 慢性#VV, 患有#NR)  (root, ROOT#null, 慢性#VV)  (conj, 遗精#NN, 肠炎#NN)  (nn, 遗精#NN, 便溏#NN)  (conj, 遗精#NN, 腹泻#NN)  (nn, 遗精#NN, 男子#NN)  (conj, 遗精#NN, 阳痿#NN)  (nn, 患者#NN, 遗精#NN)  (etc, 遗精#NN, 等#ETC)  (nn, 患者#NN, 病症#NN)  (nsubj, 食用#VV, 患者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (ccomp, 慢性#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            芝麻含有大量的脂肪和蛋白质，还有糖类、维生素A、维生素E、卵磷脂、钙、铁、镁等营养成分；芝麻中的亚油酸有调节胆固醇的作用。
+        </rawdata>
+
+        <segment>
+            芝麻  含有  大量  的  脂肪  和  蛋白质  ，  还有  糖类  、  维生素A  、  维生素E  、  卵磷脂  、  钙  、  铁  、  镁  等  营养  成分  ；  芝麻  中  的  亚油酸  有  调节  胆固醇  的  作用  。
+        </segment>
+
+        <pos>
+            芝麻#NN  含有#VV  大量#CD  的#DEG  脂肪#NN  和#CC  蛋白质#NN  ，#PU  还有#AD  糖类#NR  、#PU  维生素A#NR  、#PU  维生素E#NR  、#PU  卵磷脂#NR  、#PU  钙#NR  、#PU  铁#NN  、#PU  镁#NN  等#ETC  营养#VA  成分#NN  ；#PU  芝麻#NN  中#LC  的#DEG  亚油酸#NN  有#VE  调节#VV  胆固醇#NN  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 芝麻#NN)  (root, ROOT#null, 含有#VV)  (assmod, 蛋白质#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 蛋白质#NN, 脂肪#NN)  (cc, 蛋白质#NN, 和#CC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 营养#VA, 还有#AD)  (conj, 钙#NR, 糖类#NR)  (conj, 钙#NR, 维生素A#NR)  (conj, 钙#NR, 维生素E#NR)  (conj, 钙#NR, 卵磷脂#NR)  (conj, 镁#NN, 钙#NR)  (conj, 镁#NN, 铁#NN)  (nsubj, 营养#VA, 镁#NN)  (etc, 镁#NN, 等#ETC)  (conj, 含有#VV, 营养#VA)  (dobj, 营养#VA, 成分#NN)  (assmod, 亚油酸#NN, 芝麻#NN)  (case, 芝麻#NN, 中#LC)  (case, 芝麻#NN, 的#DEG)  (dep, 有#VE, 亚油酸#NN)  (conj, 含有#VV, 有#VE)  (relcl, 作用#NN, 调节#VV)  (dobj, 调节#VV, 胆固醇#NN)  (mark, 调节#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.芝麻含有大量的脂肪和蛋白质，芝麻中的亚油酸有调节胆固醇的作用；
+            2.芝麻中含有丰富的维生素E，能防止过氧化脂质对皮肤的危害，抵消或中和细胞内有害物质游离基的积聚，可使皮肤白皙润泽，并能防止各种皮肤炎；
+            3.芝麻还具有养血的功效，可以治疗皮肤干枯、粗糙、令皮肤细腻光滑、红润光泽；
+            4.芝麻中含有防止人体发胖的物质蛋黄素、胆碱、肌糖，因此芝麻吃多了也不会发胖。在节食减肥的同时，若配合芝麻的食用，粗糙的皮肤可获得改善。祛脂降压,通乳生乳,亮发,减肥,聪耳,明目,养颜护肤
+        </rawdata>
+
+        <segment>
+            芝麻  含有  大量  的  脂肪  和  蛋白质  ，  芝麻  中  的  亚油酸  有  调节  胆固醇  的  作用  ；
+            芝麻  中  含有  丰富  的  维生素E  ，  能  防止  过  氧化  脂质  对  皮肤  的  危害  ，  抵消  或  中和  细胞内  有害  物质  游离  基  的  积聚  ，  可使  皮肤  白皙  润泽  ，  并能  防止  各  种  皮肤炎  ；
+            芝麻  还  具有  养  血  的  功效  ，  可以  治疗  皮肤  干枯  、  粗糙  、  令  皮肤  细腻  光滑  、  红润  光泽  ；
+            芝麻  中  含有  防止  人体  发胖  的  物质  蛋黄素  、  胆碱  、  肌糖  ，  因此  芝麻  吃  多  了  也  不  会  发胖  。  在  节食  减肥  的  同时  ，  若  配合  芝麻  的  食用  ，  粗糙  的  皮肤  可  获得  改善  。  祛脂  降压  ,  通乳  生乳  ,  亮发  ,  减肥  ,  聪耳  ,  明目  ,  养颜  护肤
+        </segment>
+
+        <pos>
+            芝麻#NN  含有#VV  大量#CD  的#DEG  脂肪#NN  和#CC  蛋白质#NN  ，#PU  芝麻#NN  中#LC  的#DEG  亚油酸#NN  有#VE  调节#VV  胆固醇#NN  的#DEC  作用#NN  ；#PU
+            芝麻#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素E#NN  ，#PU  能#VV  防止#VV  过#AS  氧化#AD  脂质#VV  对#P  皮肤#NN  的#DEG  危害#NN  ，#PU  抵消#NN  或#CC  中和#NN  细胞内#NN  有害#NN  物质#NN  游离#VV  基#NN  的#DEC  积聚#NN  ，#PU  可使#VV  皮肤#NN  白皙#NN  润泽#NN  ，#PU  并能#AD  防止#VV  各#DT  种#M  皮肤炎#NN  ；#PU
+            芝麻#NN  还#AD  具有#VV  养#VV  血#NN  的#DEC  功效#NN  ，#PU  可以#VV  治疗#VV  皮肤#NN  干枯#NN  、#PU  粗糙#NN  、#PU  令#VV  皮肤#NN  细腻#VV  光滑#NN  、#PU  红润#NN  光泽#NN  ；#PU
+            芝麻#NN  中#LC  含有#NN  防止#VV  人体#NN  发胖#NN  的#DEG  物质#NN  蛋黄素#NN  、#PU  胆碱#NN  、#PU  肌糖#NN  ，#PU  因此#AD  芝麻#AD  吃#VV  多#CD  了#SP  也#AD  不#AD  会#VV  发胖#VV    。#PU  在#P  节食#AD  减肥#VV  的#DEC  同时#NN  ，#PU  若#CS  配合#VV  芝麻#NN  的#DEC  食用#VV  ，#PU  粗糙#VV  的#DEC  皮肤#NN  可#VV  获得#VV  改善#NN    。#PU  祛脂#NN  降压#NN  ,#NN  通乳#NN  生乳#NN  ,#NN  亮发#NN  ,#AD  减肥#VV  ,#NN  聪耳#NN  ,#NN  明目#NN  ,#NN  养颜#NN  护肤#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 芝麻#NN)  (root, ROOT#null, 含有#VV)  (assmod, 蛋白质#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 蛋白质#NN, 脂肪#NN)  (cc, 蛋白质#NN, 和#CC)  (dobj, 含有#VV, 蛋白质#NN)  (assmod, 亚油酸#NN, 芝麻#NN)  (case, 芝麻#NN, 中#LC)  (case, 芝麻#NN, 的#DEG)  (dep, 有#VE, 亚油酸#NN)  (conj, 含有#VV, 有#VE)  (relcl, 作用#NN, 调节#VV)  (dobj, 调节#VV, 胆固醇#NN)  (mark, 调节#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, null#null)
+            (loc, 丰富#VA, 芝麻#NN)  (case, 芝麻#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 防止#VV, 维生素E#NN)  (mmod, 防止#VV, 能#VV)  (root, ROOT#null, 防止#VV)  (asp, 防止#VV, 过#AS)  (advmod, 脂质#VV, 氧化#AD)  (relcl, 积聚#NN, 脂质#VV)  (case, 皮肤#NN, 对#P)  (assmod, 危害#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (dobj, 脂质#VV, 危害#NN)  (conj, 中和#NN, 抵消#NN)  (cc, 中和#NN, 或#CC)  (nn, 物质#NN, 中和#NN)  (nn, 物质#NN, 细胞内#NN)  (nn, 物质#NN, 有害#NN)  (nsubj, 游离#VV, 物质#NN)  (dep, 脂质#VV, 游离#VV)  (dobj, 游离#VV, 基#NN)  (mark, 脂质#VV, 的#DEC)  (dobj, 防止#VV, 积聚#NN)  (dep, 防止#VV, 可使#VV)  (nn, 润泽#NN, 皮肤#NN)  (nn, 润泽#NN, 白皙#NN)  (dobj, 可使#VV, 润泽#NN)  (advmod, 防止#VV, 并能#AD)  (conj, 防止#VV, 防止#VV)  (det, 皮肤炎#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 防止#VV, 皮肤炎#NN)
+            (root, ROOT#null, null#null)
+            (nsubj, 具有#VV, 芝麻#NN)  (advmod, 具有#VV, 还#AD)  (dep, 治疗#VV, 具有#VV)  (relcl, 功效#NN, 养#VV)  (dobj, 养#VV, 血#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, 粗糙#NN, 皮肤#NN)  (conj, 粗糙#NN, 干枯#NN)  (dobj, 治疗#VV, 粗糙#NN)  (dep, 治疗#VV, 令#VV)  (dobj, 令#VV, 皮肤#NN)  (dep, 令#VV, 细腻#VV)  (conj, 光泽#NN, 光滑#NN)  (nn, 光泽#NN, 红润#NN)  (dobj, 细腻#VV, 光泽#NN)
+            (root, ROOT#null, null#null)
+            (dep, 含有#NN, 芝麻#NN)  (case, 芝麻#NN, 中#LC)  (nsubj, 防止#VV, 含有#NN)  (root, ROOT#null, 防止#VV)  (nn, 发胖#NN, 人体#NN)  (assmod, 肌糖#NN, 发胖#NN)  (case, 发胖#NN, 的#DEG)  (nn, 肌糖#NN, 物质#NN)  (conj, 肌糖#NN, 蛋黄素#NN)  (conj, 肌糖#NN, 胆碱#NN)  (xsubj, 吃#VV, 肌糖#NN)  (nsubj, 发胖#VV, 肌糖#NN)  (advmod, 发胖#VV, 因此#AD)  (advmod, 吃#VV, 芝麻#AD)  (dep, 发胖#VV, 吃#VV)  (range, 吃#VV, 多#CD)  (dep, 吃#VV, 了#SP)  (advmod, 发胖#VV, 也#AD)  (neg, 发胖#VV, 不#AD)  (dep, 发胖#VV, 会#VV)  (ccomp, 防止#VV, 发胖#VV)   (case, 同时#NN, 在#P)  (advmod, 减肥#VV, 节食#AD)  (relcl, 同时#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (prep, 配合#VV, 同时#NN)  (advmod, 配合#VV, 若#CS)  (relcl, 皮肤#NN, 配合#VV)  (dobj, 配合#VV, 芝麻#NN)  (mark, 配合#VV, 的#DEC)  (relcl, 皮肤#NN, 食用#VV)  (dep, 食用#VV, 粗糙#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 获得#VV, 皮肤#NN)  (mmod, 获得#VV, 可#VV)  (root, ROOT#null, 获得#VV)  (dobj, 获得#VV, 改善#NN)   (nn, 亮发#NN, 祛脂#NN)  (nn, 亮发#NN, 降压#NN)  (nn, 亮发#NN, 通乳#NN)  (nn, 亮发#NN, 生乳#NN)  (nsubj, 减肥#VV, 亮发#NN)  (root, ROOT#null, 减肥#VV)  (nn, 护肤#NN, 聪耳#NN)  (nn, 护肤#NN, 明目#NN)  (nn, 护肤#NN, 养颜#NN)  (dobj, 减肥#VV, 护肤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  延缓衰老  抗氧化  美容养颜  乌须发  润肠通便  补血  补阴  补肝肾  致泻  辅助降血糖
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.芝麻仁外面有一层稍硬的膜，把它碾碎才能使人体吸收到营养，所以整粒的芝麻应加工后再吃;
+            2.芝麻炒制时千万不要炒糊。辨别真假黑芝麻的方法其实很简单，只要找出一个断口的黑芝麻，看断口的部分的颜色，如果断口部分也是黑色的，那就说明是染色的;如果断口部分是白色的，那就说明这种黑芝麻是真的。如果黑芝麻个个乌黑发亮，黑得特别均匀，就值得怀疑，因为正常的黑芝麻虽然也是黑，但会深浅不一。
+        </rawdata>
+
+        <segment>
+            芝麻仁  外面  有  一  层  稍  硬  的  膜  ，  把  它  碾碎  才  能  使  人体  吸收  到  营养  ，  所以  整  粒  的  芝麻  应  加工  后  再  吃  ;
+            芝麻  炒制  时  千万  不  要  炒糊  。  辨别  真假  黑芝麻  的  方法  其实  很  简单  ，  只要  找出  一  个  断口  的  黑芝麻  ，  看  断口  的  部分  的  颜色  ，  如果  断口  部分  也  是  黑色  的  ，  那  就  说明  是  染色  的  ;  如果  断口  部分  是  白色  的  ，  那  就  说明  这  种  黑芝麻  是  真的  。  如果  黑芝麻  个个  乌黑  发亮  ，  黑  得  特别  均匀  ，  就  值得  怀疑  ，  因为  正常  的  黑芝麻  虽然  也  是  黑  ，  但  会  深浅  不一  。
+        </segment>
+
+        <pos>
+            芝麻仁#NN  外面#NN  有#VE  一#CD  层#M  稍#AD  硬#VA  的#DEC  膜#NN  ，#PU  把#BA  它#PN  碾碎#VV  才#AD  能#VV  使#VV  人体#NN  吸收#VV  到#VV  营养#VA  ，#PU  所以#AD  整#DT  粒#NN  的#DEG  芝麻#NN  应#P  加工#NN  后#LC  再#AD  吃#VV  ;#NN
+            芝麻#NN  炒制#NN  时#LC  千万#CD  不#AD  要#VV  炒糊#VV    。#PU  辨别#NN  真假#NN  黑芝麻#NN  的#DEG  方法#NN  其实#AD  很#AD  简单#VA  ，#PU  只要#CS  找出#VV  一#CD  个#M  断口#NN  的#DEG  黑芝麻#NN  ，#PU  看#VV  断口#NN  的#DEG  部分#NN  的#DEC  颜色#NN  ，#PU  如果#CS  断口#NN  部分#NN  也#AD  是#VC  黑色#JJ  的#DEG  ，#PU  那#PN  就#AD  说明#VV  是#VC  染色#NN  的#DEG  ;#NN  如果#CS  断口#NN  部分#NN  是#VC  白色#JJ  的#DEG  ，#PU  那#PN  就#AD  说明#VV  这#DT  种#M  黑芝麻#NN  是#VC  真的#NN    。#PU  如果#CS  黑芝麻#AD  个个#VV  乌黑#NN  发亮#NN  ，#PU  黑#VA  得#DER  特别#AD  均匀#VA  ，#PU  就#AD  值得#VV  怀疑#NN  ，#PU  因为#P  正常#VA  的#DEC  黑芝麻#NN  虽然#CS  也#AD  是#VC  黑#VA  ，#PU  但#AD  会#VV  深浅#AD  不一#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 外面#NN, 芝麻仁#NN)  (nsubj, 有#VE, 外面#NN)  (dep, 使#VV, 有#VE)  (nummod, 层#M, 一#CD)  (clf, 膜#NN, 层#M)  (advmod, 硬#VA, 稍#AD)  (relcl, 膜#NN, 硬#VA)  (mark, 硬#VA, 的#DEC)  (dobj, 有#VE, 膜#NN)  (ba, 碾碎#VV, 把#BA)  (nsubj, 碾碎#VV, 它#PN)  (conj, 有#VE, 碾碎#VV)  (advmod, 使#VV, 才#AD)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人体#NN)  (dep, 使#VV, 吸收#VV)  (comod, 吸收#VV, 到#VV)  (dep, 使#VV, 营养#VA)  (advmod, 吃#VV, 所以#AD)  (det, 粒#NN, 整#DT)  (assmod, 芝麻#NN, 粒#NN)  (case, 粒#NN, 的#DEG)  (nsubj, 吃#VV, 芝麻#NN)  (case, 加工#NN, 应#P)  (prep, 吃#VV, 加工#NN)  (case, 加工#NN, 后#LC)  (advmod, 吃#VV, 再#AD)  (dep, 使#VV, 吃#VV)  (dobj, 吃#VV, ;#NN)
+            (nn, 炒制#NN, 芝麻#NN)  (loc, 要#VV, 炒制#NN)  (case, 炒制#NN, 时#LC)  (nsubj, 要#VV, 千万#CD)  (neg, 要#VV, 不#AD)  (dep, 炒糊#VV, 要#VV)  (root, ROOT#null, 炒糊#VV)   (nn, 黑芝麻#NN, 辨别#NN)  (nn, 黑芝麻#NN, 真假#NN)  (assmod, 方法#NN, 黑芝麻#NN)  (case, 黑芝麻#NN, 的#DEG)  (nsubj, 说明#VV, 方法#NN)  (advmod, 说明#VV, 其实#AD)  (advmod, 简单#VA, 很#AD)  (relcl, 颜色#NN, 简单#VA)  (advmod, 找出#VV, 只要#CS)  (conj, 简单#VA, 找出#VV)  (nummod, 个#M, 一#CD)  (clf, 断口#NN, 个#M)  (assmod, 黑芝麻#NN, 断口#NN)  (case, 断口#NN, 的#DEG)  (dobj, 找出#VV, 黑芝麻#NN)  (dep, 简单#VA, 看#VV)  (assmod, 部分#NN, 断口#NN)  (case, 断口#NN, 的#DEG)  (dobj, 看#VV, 部分#NN)  (mark, 简单#VA, 的#DEC)  (nsubj, 说明#VV, 颜色#NN)  (advmod, 是#VC, 如果#CS)  (nn, 部分#NN, 断口#NN)  (nsubj, 是#VC, 部分#NN)  (advmod, 是#VC, 也#AD)  (dep, 说明#VV, 是#VC)  (dep, 是#VC, 黑色#JJ)  (case, 黑色#JJ, 的#DEG)  (nsubj, 说明#VV, 那#PN)  (advmod, 说明#VV, 就#AD)  (root, ROOT#null, 说明#VV)  (cop, ;#NN, 是#VC)  (assmod, ;#NN, 染色#NN)  (case, 染色#NN, 的#DEG)  (ccomp, 说明#VV, ;#NN)  (advmod, 是#VC, 如果#CS)  (nn, 部分#NN, 断口#NN)  (nsubj, 是#VC, 部分#NN)  (dep, 说明#VV, 是#VC)  (dep, 是#VC, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (nsubj, 说明#VV, 那#PN)  (advmod, 说明#VV, 就#AD)  (conj, 说明#VV, 说明#VV)  (det, 黑芝麻#NN, 这#DT)  (clf, 这#DT, 种#M)  (dobj, 说明#VV, 黑芝麻#NN)  (cop, 真的#NN, 是#VC)  (dep, 说明#VV, 真的#NN)   (advmod, 个个#VV, 如果#CS)  (advmod, 个个#VV, 黑芝麻#AD)  (root, ROOT#null, 个个#VV)  (nn, 发亮#NN, 乌黑#NN)  (dobj, 个个#VV, 发亮#NN)  (dep, 均匀#VA, 黑#VA)  (dep, 均匀#VA, 得#DER)  (advmod, 均匀#VA, 特别#AD)  (dep, 个个#VV, 均匀#VA)  (advmod, 值得#VV, 就#AD)  (dep, 个个#VV, 值得#VV)  (dobj, 值得#VV, 怀疑#NN)  (case, 黑#VA, 因为#P)  (relcl, 黑芝麻#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nsubj, 黑#VA, 黑芝麻#NN)  (advmod, 黑#VA, 虽然#CS)  (advmod, 黑#VA, 也#AD)  (cop, 黑#VA, 是#VC)  (prep, 不一#VV, 黑#VA)  (advmod, 不一#VV, 但#AD)  (mmod, 不一#VV, 会#VV)  (advmod, 不一#VV, 深浅#AD)  (dep, 个个#VV, 不一#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/88/41/82312_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\858 芝麻籽.jpg
+    </picturelocalurl>
+
+</content>

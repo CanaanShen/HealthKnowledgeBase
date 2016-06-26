@@ -1,0 +1,151 @@
+<content>
+
+    <id>
+        688
+    </id>
+
+    <foodname>
+        秋黄瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        早黄瓜
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄瓜又名胡瓜，为张骞出使西域得以引种，故名。本品生熟均能食用。黄瓜含葡萄糖、半乳糖、精氨酸、核黄素和维生素C等。黄瓜头苦味部为葫芦素A、B、C、D。葫芦素C有抗肿瘤作用，且黄瓜藤有良好的降压和降胆固醇的作用。
+        </rawdata>
+
+        <segment>
+            黄瓜  又  名  胡瓜  ，  为  张骞  出使  西域  得以  引种  ，  故名  。  本品  生熟  均  能  食用  。  黄瓜  含  葡萄糖  、  半乳糖  、  精氨酸  、  核黄素  和  维生素C  等  。  黄瓜  头  苦味  部为  葫芦素  A  、  B  、  C  、  D  。  葫芦素  C有抗  肿瘤  作用  ，  且  黄瓜  藤  有  良好  的  降压  和  降  胆固醇  的  作用  。
+        </segment>
+
+        <pos>
+            黄瓜#NN  又#CC  名#NN  胡瓜#VV  ，#PU  为#P  张骞#NN  出使#NN  西域#NN  得以#VV  引种#NN  ，#PU  故名#VV    。#PU  本品#NN  生熟#NN  均#AD  能#VV  食用#VV    。#PU  黄瓜#AD  含#VV  葡萄糖#NR  、#PU  半乳糖#NR  、#PU  精氨酸#NR  、#PU  核黄素#NR  和#CC  维生素C#NR  等#ETC    。#PU  黄瓜#CD  头#M  苦味#NN  部为#VV  葫芦素#NN  A#NN  、#PU  B#NN  、#PU  C#NN  、#PU  D#NN    。#PU  葫芦素#AD  C有抗#VV  肿瘤#NN  作用#NN  ，#PU  且#CC  黄瓜#VV  藤#AD  有#VE  良好#VA  的#DEC  降压#NN  和#CC  降#NN  胆固醇#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 黄瓜#NN)  (cc, 名#NN, 又#CC)  (nsubj, 胡瓜#VV, 名#NN)  (xsubj, 得以#VV, 名#NN)  (root, ROOT#null, 胡瓜#VV)  (case, 西域#NN, 为#P)  (nn, 西域#NN, 张骞#NN)  (nn, 西域#NN, 出使#NN)  (prep, 得以#VV, 西域#NN)  (ccomp, 胡瓜#VV, 得以#VV)  (dobj, 得以#VV, 引种#NN)  (dep, 得以#VV, 故名#VV)   (nn, 生熟#NN, 本品#NN)  (nsubj, 食用#VV, 生熟#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)   (advmod, 含#VV, 黄瓜#AD)  (root, ROOT#null, 含#VV)  (conj, 维生素C#NR, 葡萄糖#NR)  (conj, 维生素C#NR, 半乳糖#NR)  (conj, 维生素C#NR, 精氨酸#NR)  (conj, 维生素C#NR, 核黄素#NR)  (cc, 维生素C#NR, 和#CC)  (dobj, 含#VV, 维生素C#NR)  (etc, 维生素C#NR, 等#ETC)   (nummod, 头#M, 黄瓜#CD)  (clf, 苦味#NN, 头#M)  (nsubj, 部为#VV, 苦味#NN)  (root, ROOT#null, 部为#VV)  (nn, D#NN, 葫芦素#NN)  (conj, D#NN, A#NN)  (conj, D#NN, B#NN)  (conj, D#NN, C#NN)  (dobj, 部为#VV, D#NN)   (advmod, C有抗#VV, 葫芦素#AD)  (root, ROOT#null, C有抗#VV)  (nn, 作用#NN, 肿瘤#NN)  (dobj, C有抗#VV, 作用#NN)  (cc, C有抗#VV, 且#CC)  (dep, C有抗#VV, 黄瓜#VV)  (advmod, 有#VE, 藤#AD)  (relcl, 作用#NN, 有#VE)  (relcl, 胆固醇#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 胆固醇#NN, 降压#NN)  (cc, 胆固醇#NN, 和#CC)  (nn, 胆固醇#NN, 降#NN)  (dobj, 有#VE, 胆固醇#NN)  (mark, 有#VE, 的#DEC)  (dobj, 黄瓜#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,生津止渴,利尿消肿,减肥,健脑,安神除烦,降糖消渴,抑癌抗瘤,抗衰抗辐射
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  生津止渴  ,  利尿  消肿  ,  减肥  ,  健脑  ,  安神  除烦  ,  降糖  消渴  ,  抑癌  抗瘤  ,  抗  衰  抗  辐射
+        </segment>
+
+        <pos>
+            清热#NR  除#P  火#NN  ,#NN  生津止渴#NN  ,#NN  利尿#NN  消肿#NN  ,#NN  减肥#VV  ,#NN  健脑#NN  ,#NN  安神#NN  除烦#NN  ,#NN  降糖#JJ  消渴#JJ  ,#NN  抑癌#NN  抗瘤#NN  ,#NN  抗#NN  衰#VV  抗#NN  辐射#NN
+        </pos>
+
+        <parsing>
+            (nn, 抗#NN, 清热#NR)  (case, ,#NN, 除#P)  (nn, ,#NN, 火#NN)  (nn, ,#NN, 生津止渴#NN)  (nn, ,#NN, 利尿#NN)  (nn, ,#NN, 消肿#NN)  (nfincl, 抗#NN, 减肥#VV)  (nn, ,#NN, 健脑#NN)  (nn, ,#NN, 安神#NN)  (nn, ,#NN, 除烦#NN)  (amod, 抗#NN, 降糖#JJ)  (amod, 抗#NN, 消渴#JJ)  (nn, 抗#NN, 抑癌#NN)  (nn, 抗#NN, 抗瘤#NN)  (nsubj, 衰#VV, 抗#NN)  (root, ROOT#null, 衰#VV)  (nn, 辐射#NN, 抗#NN)  (dobj, 衰#VV, 辐射#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  清热  利水  增强免疫力  辅助降血糖  减肥  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.黄瓜当水果生吃，不宜过多;
+            2.黄瓜中维生素较少，因此常吃黄瓜时应同时吃些其他的蔬果;
+            3.黄瓜尾部含有较多的苦味素，苦味素有抗癌的作用，所以不要把黄瓜尾部全部丢掉;
+            4.有肝病、心血管病、肠胃病以及高血压的人都不要吃腌黄瓜。
+        </rawdata>
+
+        <segment>
+            黄瓜  当  水果  生吃  ，  不  宜  过多  ;
+            黄瓜  中  维生素  较少  ，  因此  常  吃  黄瓜  时  应  同时  吃  些  其他  的  蔬果  ;
+            黄瓜  尾部  含有  较多  的  苦味素  ，  苦味  素有  抗癌  的  作用  ，  所以  不  要  把  黄瓜  尾部  全部  丢掉  ;
+            有  肝病  、  心血管病  、  肠胃病  以及  高血压  的  人  都  不  要  吃  腌黄瓜  。
+        </segment>
+
+        <pos>
+            黄瓜#NN  当#P  水果#NN  生吃#NN  ，#PU  不#AD  宜#NR  过多#VV  ;#NN
+            黄瓜#NN  中#LC  维生素#NN  较少#VV  ，#PU  因此#AD  常#AD  吃#VV  黄瓜#NN  时#LC  应#VV  同时#AD  吃#VV  些#CD  其他#DT  的#DEG  蔬果#NN  ;#NN
+            黄瓜#NN  尾部#VV  含有#NN  较多#NN  的#DEG  苦味素#NN  ，#PU  苦味#VV  素有#NN  抗癌#NN  的#DEG  作用#NN  ，#PU  所以#AD  不#AD  要#VV  把#BA  黄瓜#NN  尾部#NN  全部#AD  丢掉#VV  ;#NN
+            有#VE  肝病#NN  、#PU  心血管病#NN  、#PU  肠胃病#NN  以及#CC  高血压#NN  的#DEC  人#NN  都#AD  不#AD  要#VV  吃#VV  腌黄瓜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 过多#VV, 黄瓜#NN)  (case, 生吃#NN, 当#P)  (nn, 生吃#NN, 水果#NN)  (prep, 过多#VV, 生吃#NN)  (neg, 过多#VV, 不#AD)  (dep, 过多#VV, 宜#NR)  (root, ROOT#null, 过多#VV)  (dobj, 过多#VV, ;#NN)
+            (dep, 维生素#NN, 黄瓜#NN)  (case, 黄瓜#NN, 中#LC)  (nsubj, 较少#VV, 维生素#NN)  (xsubj, 吃#VV, 维生素#NN)  (root, ROOT#null, 较少#VV)  (advmod, 吃#VV, 因此#AD)  (advmod, 吃#VV, 常#AD)  (loc, 吃#VV, 吃#VV)  (dobj, 吃#VV, 黄瓜#NN)  (case, 吃#VV, 时#LC)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 同时#AD)  (ccomp, 较少#VV, 吃#VV)  (nummod, ;#NN, 些#CD)  (assmod, ;#NN, 其他#DT)  (case, 其他#DT, 的#DEG)  (nn, ;#NN, 蔬果#NN)  (dobj, 吃#VV, ;#NN)
+            (nsubj, 尾部#VV, 黄瓜#NN)  (root, ROOT#null, 尾部#VV)  (nn, 较多#NN, 含有#NN)  (assmod, 苦味素#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 尾部#VV, 苦味素#NN)  (conj, 尾部#VV, 苦味#VV)  (nn, 抗癌#NN, 素有#NN)  (assmod, 作用#NN, 抗癌#NN)  (case, 抗癌#NN, 的#DEG)  (dobj, 苦味#VV, 作用#NN)  (advmod, 丢掉#VV, 所以#AD)  (neg, 丢掉#VV, 不#AD)  (mmod, 丢掉#VV, 要#VV)  (ba, 丢掉#VV, 把#BA)  (nn, 尾部#NN, 黄瓜#NN)  (nsubj, 丢掉#VV, 尾部#NN)  (advmod, 丢掉#VV, 全部#AD)  (conj, 尾部#VV, 丢掉#VV)  (dobj, 丢掉#VV, ;#NN)
+            (relcl, 人#NN, 有#VE)  (conj, 高血压#NN, 肝病#NN)  (conj, 高血压#NN, 心血管病#NN)  (conj, 高血压#NN, 肠胃病#NN)  (cc, 高血压#NN, 以及#CC)  (dobj, 有#VE, 高血压#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 都#AD)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 腌黄瓜#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/76/31/78198_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\688 秋黄瓜.jpg
+    </picturelocalurl>
+
+</content>

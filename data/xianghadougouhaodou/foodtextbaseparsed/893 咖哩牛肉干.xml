@@ -1,0 +1,125 @@
+<content>
+
+    <id>
+        893
+    </id>
+
+    <foodname>
+        咖哩牛肉干
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛肉是中国人的第二大肉类食品，仅次于猪肉，牛肉蛋白质含量高，而脂肪含量低，所以味道鲜美，受人喜爱，享有“肉中骄子”的美称。
+            牛腿肉脂肪的含量极少，如果将其周围的脂肪削除掉，脂肪的含量便比腓力肉还少。
+        </rawdata>
+
+        <segment>
+            牛肉  是  中国人  的  第二  大  肉类  食品  ，  仅次于  猪肉  ，  牛肉  蛋白质  含量  高  ，  而  脂肪  含量  低  ，  所以  味道  鲜美  ，  受人  喜爱  ，  享有  “  肉  中  骄子  ”  的  美称  。
+            牛腿  肉  脂肪  的  含量  极少  ，  如果  将  其  周围  的  脂肪  削  除掉  ，  脂肪  的  含量  便  比  腓力  肉  还少  。
+        </segment>
+
+        <pos>
+            牛肉#NN  是#VC  中国人#NN  的#DEG  第二#OD  大#JJ  肉类#NN  食品#NN  ，#PU  仅次于#NR  猪肉#VV  ，#PU  牛肉#NN  蛋白质#NN  含量#NN  高#VA  ，#PU  而#CC  脂肪#NN  含量#NN  低#VA  ，#PU  所以#AD  味道#NN  鲜美#VV  ，#PU  受人#NN  喜爱#NN  ，#PU  享有#VV  ``#NN  肉#NN  中#LC  骄子#AD  ''#VA  的#DEC  美称#NN  。#PU
+            牛腿#NN  肉#NN  脂肪#NN  的#DEG  含量#NN  极少#VA  ，#PU  如果#CS  将#BA  其#PN  周围#NN  的#DEG  脂肪#NN  削#VV  除掉#NN  ，#PU  脂肪#NN  的#DEG  含量#NN  便#AD  比#P  腓力#NN  肉#NN  还少#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 牛肉#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 中国人#NN)  (case, 中国人#NN, 的#DEG)  (dep, 大#JJ, 第二#OD)  (amod, 食品#NN, 大#JJ)  (nn, 食品#NN, 肉类#NN)  (root, ROOT#null, 食品#NN)  (nsubj, 猪肉#VV, 仅次于#NR)  (conj, 食品#NN, 猪肉#VV)  (nn, 含量#NN, 牛肉#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (ccomp, 猪肉#VV, 高#VA)  (cc, 高#VA, 而#CC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 高#VA, 低#VA)  (advmod, 鲜美#VV, 所以#AD)  (nsubj, 鲜美#VV, 味道#NN)  (conj, 食品#NN, 鲜美#VV)  (nn, 喜爱#NN, 受人#NN)  (nsubj, 享有#VV, 喜爱#NN)  (ccomp, 鲜美#VV, 享有#VV)  (nn, 肉#NN, ``#NN)  (loc, ''#VA, 肉#NN)  (case, 肉#NN, 中#LC)  (advmod, ''#VA, 骄子#AD)  (relcl, 美称#NN, ''#VA)  (mark, ''#VA, 的#DEC)  (dobj, 享有#VV, 美称#NN)
+            (nn, 脂肪#NN, 牛腿#NN)  (nn, 脂肪#NN, 肉#NN)  (assmod, 含量#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nsubj, 极少#VA, 含量#NN)  (root, ROOT#null, 极少#VA)  (advmod, 削#VV, 如果#CS)  (ba, 削#VV, 将#BA)  (nn, 周围#NN, 其#PN)  (assmod, 脂肪#NN, 周围#NN)  (case, 周围#NN, 的#DEG)  (nsubj, 削#VV, 脂肪#NN)  (conj, 极少#VA, 削#VV)  (dobj, 削#VV, 除掉#NN)  (assmod, 含量#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nsubj, 还少#VA, 含量#NN)  (advmod, 还少#VA, 便#AD)  (case, 肉#NN, 比#P)  (nn, 肉#NN, 腓力#NN)  (prep, 还少#VA, 肉#NN)  (conj, 极少#VA, 还少#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            牛肉含有丰富的蛋白质，氨基酸组成比猪肉更接近人体需要，能提高机体抗病能力，对生长发育及手术后、病后调养的人在补充失血、修复组织等方面特别适宜。水牛肉性凉；黄牛肉性温。
+        </rawdata>
+
+        <segment>
+            牛肉  含有  丰富  的  蛋白质  ，  氨基酸  组成  比  猪肉  更  接近  人体  需要  ，  能  提高  机体  抗病  能力  ，  对  生长  发育  及  手术  后  、  病  后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  特别  适宜  。  水牛  肉  性凉  ；  黄牛肉  性温  。
+        </segment>
+
+        <pos>
+            牛肉#AD  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  氨基酸#AD  组成#VV  比#P  猪肉#NN  更#AD  接近#VV  人体#NN  需要#NN  ，#PU  能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#VV  及#CC  手术#VV  后#LC  、#PU  病#NN  后#LC  调养#VV  的#DEC  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  特别#AD  适宜#VA    。#PU  水牛#NN  肉#NN  性凉#NN  ；#PU  黄牛肉#AD  性温#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含有#VV, 牛肉#AD)  (relcl, 人#NN, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 组成#VV, 氨基酸#AD)  (conj, 含有#VV, 组成#VV)  (case, 接近#VV, 比#P)  (nsubj, 接近#VV, 猪肉#NN)  (advmod, 接近#VV, 更#AD)  (prep, 组成#VV, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (mmod, 提高#VV, 能#VV)  (dep, 接近#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 生长#NN, 对#P)  (prep, 发育#VV, 生长#NN)  (dep, 接近#VV, 发育#VV)  (cc, 发育#VV, 及#CC)  (conj, 发育#VV, 手术#VV)  (case, 接近#VV, 后#LC)  (loc, 调养#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 含有#VV, 调养#VV)  (mark, 含有#VV, 的#DEC)  (nsubj, 适宜#VA, 人#NN)  (case, 方面#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 方面#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (prep, 适宜#VA, 方面#NN)  (advmod, 适宜#VA, 特别#AD)  (root, ROOT#null, 适宜#VA)   (nn, 性凉#NN, 水牛#NN)  (nn, 性凉#NN, 肉#NN)  (nsubj, 性温#VV, 性凉#NN)  (advmod, 性温#VV, 黄牛肉#AD)  (root, ROOT#null, 性温#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        散寒止痛  补肾阴  壮阳  改善血液循环  增强免疫力  抗炎  促进组织生长  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            将牛肉若干大块，用清水洗净，入清水锅煮至半熟，加用纱布裹包的大茴香、丁香、橘皮、姜片、砂仁、肉桂的香料包和酱油、白糖、盐适量，及煮肉老汤，烧沸后，转用小火焖4小时左右，至牛肉成熟、入味即成。
+        </rawdata>
+
+        <segment>
+            将  牛肉  若干  大块  ，  用  清水  洗净  ，  入  清水  锅  煮  至  半熟  ，  加用  纱布  裹包  的  大茴香  、  丁香  、  橘皮  、  姜片  、  砂仁  、  肉桂  的  香料  包  和  酱油  、  白糖  、  盐  适量  ，  及  煮肉  老汤  ，  烧沸  后  ，  转用  小火焖  4  小时  左右  ，  至  牛肉  成熟  、  入味  即  成  。
+        </segment>
+
+        <pos>
+            将#AD  牛肉#VV  若干#CD  大块#NN  ，#PU  用#VV  清水#NN  洗净#NN  ，#PU  入#VV  清水#NN  锅#NN  煮#VV  至#P  半熟#NR  ，#PU  加用#VV  纱布#NN  裹包#NN  的#DEG  大茴香#NR  、#PU  丁香#NR  、#PU  橘皮#NR  、#PU  姜片#NR  、#PU  砂仁#NR  、#PU  肉桂#NR  的#DEC  香料#NN  包#NN  和#CC  酱油#NN  、#PU  白糖#NN  、#PU  盐#NN  适量#NN  ，#PU  及#CC  煮肉#VV  老汤#NN  ，#PU  烧沸#NN  后#LC  ，#PU  转用#NN  小火焖#NN  4#CD  小时#NN  左右#LC  ，#PU  至#CC  牛肉#AD  成熟#VA  、#PU  入味#AD  即#AD  成#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 牛肉#VV, 将#AD)  (conj, 成熟#VA, 牛肉#VV)  (nummod, 大块#NN, 若干#CD)  (dobj, 牛肉#VV, 大块#NN)  (conj, 牛肉#VV, 用#VV)  (nn, 洗净#NN, 清水#NN)  (dobj, 用#VV, 洗净#NN)  (conj, 牛肉#VV, 入#VV)  (nn, 锅#NN, 清水#NN)  (nsubj, 加用#VV, 锅#NN)  (mmod, 加用#VV, 煮#VV)  (case, 半熟#NR, 至#P)  (prep, 加用#VV, 半熟#NR)  (relcl, 适量#NN, 加用#VV)  (nn, 裹包#NN, 纱布#NN)  (assmod, 肉桂#NR, 裹包#NN)  (case, 裹包#NN, 的#DEG)  (conj, 肉桂#NR, 大茴香#NR)  (conj, 肉桂#NR, 丁香#NR)  (conj, 肉桂#NR, 橘皮#NR)  (conj, 肉桂#NR, 姜片#NR)  (conj, 肉桂#NR, 砂仁#NR)  (dobj, 加用#VV, 肉桂#NR)  (mark, 加用#VV, 的#DEC)  (nn, 适量#NN, 香料#NN)  (conj, 适量#NN, 包#NN)  (cc, 适量#NN, 和#CC)  (conj, 适量#NN, 酱油#NN)  (conj, 适量#NN, 白糖#NN)  (nn, 适量#NN, 盐#NN)  (dobj, 入#VV, 适量#NN)  (cc, 牛肉#VV, 及#CC)  (conj, 牛肉#VV, 煮肉#VV)  (dobj, 煮肉#VV, 老汤#NN)  (loc, 成熟#VA, 烧沸#NN)  (case, 烧沸#NN, 后#LC)  (nn, 小火焖#NN, 转用#NN)  (nsubj, 成熟#VA, 小火焖#NN)  (nummod, 小时#NN, 4#CD)  (loc, 成熟#VA, 小时#NN)  (case, 小时#NN, 左右#LC)  (cc, 成熟#VA, 至#CC)  (advmod, 成熟#VA, 牛肉#AD)  (root, ROOT#null, 成熟#VA)  (advmod, 成#VV, 入味#AD)  (advmod, 成#VV, 即#AD)  (dep, 成熟#VA, 成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/ab/41/82347_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\893 咖哩牛肉干.jpg
+    </picturelocalurl>
+
+</content>

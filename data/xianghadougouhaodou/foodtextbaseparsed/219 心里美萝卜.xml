@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        219
+    </id>
+
+    <foodname>
+        心里美萝卜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        红心萝卜
+    </alias>
+
+    <season>
+        秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃及十二指肠溃疡、慢性胃炎、单纯甲状腺肿、先兆流产、子宫脱垂等患者忌食；阴盛偏寒体质者、脾胃虚寒者慎食。
+        </rawdata>
+
+        <segment>
+            胃  及  十二  指肠  溃疡  、  慢性  胃炎  、  单纯  甲状腺肿  、  先兆  流产  、  子宫  脱垂  等  患者  忌食  ；  阴盛  偏  寒  体质  者  、  脾胃  虚寒者  慎食  。
+        </segment>
+
+        <pos>
+            胃#CD  及#CC  十二#CD  指肠#NN  溃疡#NN  、#PU  慢性#NN  胃炎#NN  、#PU  单纯#VA  甲状腺肿#NN  、#PU  先兆#NN  流产#NN  、#PU  子宫#NN  脱垂#NN  等#ETC  患者#NN  忌食#VV  ；#PU  阴盛#NN  偏#AD  寒#JJ  体质#NN  者#NN  、#PU  脾胃#NN  虚寒者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 十二#CD, 胃#CD)  (cc, 十二#CD, 及#CC)  (nummod, 患者#NN, 十二#CD)  (nn, 溃疡#NN, 指肠#NN)  (conj, 脱垂#NN, 溃疡#NN)  (nn, 胃炎#NN, 慢性#NN)  (conj, 脱垂#NN, 胃炎#NN)  (nfincl, 甲状腺肿#NN, 单纯#VA)  (conj, 脱垂#NN, 甲状腺肿#NN)  (nn, 流产#NN, 先兆#NN)  (conj, 脱垂#NN, 流产#NN)  (nn, 脱垂#NN, 子宫#NN)  (nn, 患者#NN, 脱垂#NN)  (etc, 脱垂#NN, 等#ETC)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (nsubj, 慎食#VV, 阴盛#NN)  (advmod, 慎食#VV, 偏#AD)  (amod, 体质#NN, 寒#JJ)  (nn, 者#NN, 体质#NN)  (conj, 虚寒者#NN, 者#NN)  (nn, 虚寒者#NN, 脾胃#NN)  (prep, 慎食#VV, 虚寒者#NN)  (ccomp, 忌食#VV, 慎食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                116
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                85.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            心里美是一种家常菜，主料为萝卜丝。有的心里美萝卜是辣的，因为本身的生物成分如此。心里美萝卜的营养价值：所含热量较少，纤维素较多，吃后易产生饱胀感，这些都有助于减肥。
+        </rawdata>
+
+        <segment>
+            心里  美  是  一  种  家常菜  ，  主料  为  萝卜丝  。  有的  心里  美  萝卜  是  辣  的  ，  因为  本身  的  生物  成分  如此  。  心里  美  萝卜  的  营养  价值  ：  所含  热量  较  少  ，  纤维素  较  多  ，  吃  后  易  产生  饱胀感  ，  这些  都  有助于  减肥  。
+        </segment>
+
+        <pos>
+            心里#NN  美#NR  是#VC  一#CD  种#M  家常菜#NN  ，#PU  主料#NN  为#VC  萝卜丝#NN    。#PU  有的#PN  心里#NN  美#NR  萝卜#NN  是#VC  辣#VA  的#DEC  ，#PU  因为#P  本身#PN  的#DEG  生物#NN  成分#NN  如此#PN    。#PU  心里#NN  美#NR  萝卜#NN  的#DEG  营养#VA  价值#NN  ：#PU  所含#NN  热量#NN  较#AD  少#VA  ，#PU  纤维素#NN  较#AD  多#VA  ，#PU  吃#VV  后#LC  易#AD  产生#VV  饱胀感#NN  ，#PU  这些#PN  都#AD  有助于#VV  减肥#VV    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 家常菜#NN, 心里#NN)  (nsubj, 家常菜#NN, 美#NR)  (cop, 家常菜#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 家常菜#NN, 种#M)  (root, ROOT#null, 家常菜#NN)  (nsubj, 萝卜丝#NN, 主料#NN)  (cop, 萝卜丝#NN, 为#VC)  (conj, 家常菜#NN, 萝卜丝#NN)   (nsubj, 辣#VA, 有的#PN)  (nn, 萝卜#NN, 心里#NN)  (nn, 萝卜#NN, 美#NR)  (nsubj, 辣#VA, 萝卜#NN)  (cop, 辣#VA, 是#VC)  (root, ROOT#null, 辣#VA)  (mark, 辣#VA, 的#DEC)  (case, 如此#PN, 因为#P)  (assmod, 成分#NN, 本身#PN)  (case, 本身#PN, 的#DEG)  (nn, 成分#NN, 生物#NN)  (nn, 如此#PN, 成分#NN)  (prep, 辣#VA, 如此#PN)   (nn, 萝卜#NN, 心里#NN)  (nn, 萝卜#NN, 美#NR)  (assmod, 价值#NN, 萝卜#NN)  (case, 萝卜#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 少#VA, 价值#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 少#VA, 热量#NN)  (advmod, 少#VA, 较#AD)  (root, ROOT#null, 少#VA)  (nsubj, 多#VA, 纤维素#NN)  (advmod, 多#VA, 较#AD)  (conj, 少#VA, 多#VA)  (loc, 产生#VV, 吃#VV)  (case, 吃#VV, 后#LC)  (advmod, 产生#VV, 易#AD)  (conj, 少#VA, 产生#VV)  (dobj, 产生#VV, 饱胀感#NN)  (nsubj, 有助于#VV, 这些#PN)  (advmod, 有助于#VV, 都#AD)  (conj, 产生#VV, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.有助于减肥
+            萝卜所含热量较少，纤维素较多，吃后易产生饱胀感，这些都有助于减肥。
+            2.防癌抗癌
+            萝卜能诱导人体自身产生干扰素，增加机体免疫力，并能抑制癌细胞的生长，对防癌、抗癌有重要作用。
+            3.软化血管
+            萝卜中的芥子油和精纤维可促进胃肠蠕动，有助于体内废物的排出。常吃萝卜可降低血脂、软化血管、稳定血压，预防冠心病、动脉硬化、胆石症等疾病。
+        </rawdata>
+
+        <segment>
+            有助于  减肥
+            萝卜  所含  热量  较  少  ，  纤维素  较  多  ，  吃  后  易  产生  饱胀感  ，  这些  都  有助于  减肥  。
+            防癌  抗癌
+            萝卜  能  诱导  人体  自身  产生  干扰素  ，  增加  机体  免疫力  ，  并  能  抑制  癌细胞  的  生长  ，  对  防癌  、  抗癌  有  重要  作用  。
+            软化  血管
+            萝卜  中的  芥子  油  和  精纤维  可  促进  胃肠  蠕动  ，  有助于  体内  废物  的  排出  。  常  吃  萝卜  可  降低  血脂  、  软化  血管  、  稳定  血压  ，  预防  冠心病  、  动脉  硬化  、  胆石症  等  疾病  。
+        </segment>
+
+        <pos>
+            有助于#VV  减肥#VV
+            萝卜#NN  所含#NN  热量#NN  较#AD  少#VA  ，#PU  纤维素#NN  较#AD  多#VA  ，#PU  吃#VV  后#LC  易#AD  产生#VV  饱胀感#NN  ，#PU  这些#PN  都#AD  有助于#VV  减肥#VV  。#PU
+            防癌#NN  抗癌#VV
+            萝卜#NR  能#VV  诱导#VV  人体#NN  自身#PN  产生#VV  干扰素#NN  ，#PU  增加#VV  机体#NN  免疫力#NN  ，#PU  并#CC  能#VV  抑制#VV  癌细胞#NN  的#DEG  生长#NN  ，#PU  对#P  防癌#NR  、#PU  抗癌#NR  有#VE  重要#JJ  作用#NN  。#PU
+            软化#VV  血管#NN
+            萝卜#NN  中的#NN  芥子#NN  油#NN  和#CC  精纤维#NN  可#VV  促进#VV  胃肠#NN  蠕动#NN  ，#PU  有助于#VV  体内#NN  废物#NN  的#DEG  排出#NN    。#PU  常#AD  吃#VV  萝卜#NN  可#VV  降低#VV  血脂#NN  、#PU  软化#NN  血管#NN  、#PU  稳定#NN  血压#NN  ，#PU  预防#VV  冠心病#NN  、#PU  动脉#NN  硬化#NN  、#PU  胆石症#NN  等#ETC  疾病#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+            (nn, 热量#NN, 萝卜#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 少#VA, 热量#NN)  (advmod, 少#VA, 较#AD)  (dep, 有助于#VV, 少#VA)  (nsubj, 多#VA, 纤维素#NN)  (advmod, 多#VA, 较#AD)  (conj, 少#VA, 多#VA)  (loc, 产生#VV, 吃#VV)  (case, 吃#VV, 后#LC)  (advmod, 产生#VV, 易#AD)  (conj, 少#VA, 产生#VV)  (dobj, 产生#VV, 饱胀感#NN)  (nsubj, 有助于#VV, 这些#PN)  (advmod, 有助于#VV, 都#AD)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 减肥#VV)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nsubj, 诱导#VV, 萝卜#NR)  (mmod, 诱导#VV, 能#VV)  (root, ROOT#null, 诱导#VV)  (nsubj, 产生#VV, 人体#NN)  (nsubj, 产生#VV, 自身#PN)  (ccomp, 诱导#VV, 产生#VV)  (dobj, 产生#VV, 干扰素#NN)  (conj, 产生#VV, 增加#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增加#VV, 免疫力#NN)  (cc, 产生#VV, 并#CC)  (mmod, 抑制#VV, 能#VV)  (conj, 产生#VV, 抑制#VV)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (case, 抗癌#NR, 对#P)  (conj, 抗癌#NR, 防癌#NR)  (prep, 有#VE, 抗癌#NR)  (conj, 产生#VV, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 软化#VV)  (dobj, 软化#VV, 血管#NN)
+            (nn, 芥子#NN, 萝卜#NN)  (nn, 芥子#NN, 中的#NN)  (nn, 精纤维#NN, 芥子#NN)  (conj, 精纤维#NN, 油#NN)  (cc, 精纤维#NN, 和#CC)  (nsubj, 促进#VV, 精纤维#NN)  (mmod, 促进#VV, 可#VV)  (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 有助于#VV)  (nn, 废物#NN, 体内#NN)  (assmod, 排出#NN, 废物#NN)  (case, 废物#NN, 的#DEG)  (dobj, 有助于#VV, 排出#NN)   (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 萝卜#NN)  (mmod, 降低#VV, 可#VV)  (conj, 吃#VV, 降低#VV)  (conj, 稳定#NN, 血脂#NN)  (nn, 稳定#NN, 软化#NN)  (conj, 稳定#NN, 血管#NN)  (nn, 血压#NN, 稳定#NN)  (dobj, 降低#VV, 血压#NN)  (conj, 吃#VV, 预防#VV)  (conj, 胆石症#NN, 冠心病#NN)  (nn, 胆石症#NN, 动脉#NN)  (conj, 胆石症#NN, 硬化#NN)  (nn, 疾病#NN, 胆石症#NN)  (etc, 胆石症#NN, 等#ETC)  (dobj, 预防#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  减肥  通便  利水  生津止渴  消食积  化痰  降气  止血  排石  抗癌防癌  抗菌  抗病毒  抗真菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            心里美萝卜富含维生素C、碳水化合物等。其中维生素C比一般水果还多。萝卜中的维生素A和B以及钙、磷、铁也较丰富，此外还含有一种有助于消化的淀粉酶和多种营养素，能分解食物中的淀粉、脂肪，以利人体充分吸收。
+            另外，心里美萝卜汁液中存在一种色素，称为花青素，是一类水溶性色素。
+        </rawdata>
+
+        <segment>
+            心里  美  萝卜  富含  维生素C  、  碳水  化合物  等  。  其中  维生素C  比  一般  水果  还  多  。  萝卜  中  的  维生素A  和  B  以及  钙  、  磷  、  铁  也  较  丰富  ，  此外  还  含有  一  种  有助于  消化  的  淀粉酶  和  多种  营养素  ，  能  分解  食物  中  的  淀粉  、  脂肪  ，  以  利  人体  充分  吸收  。
+            另外  ，  心里  美  萝卜  汁液  中  存在  一  种  色素  ，  称为  花青素  ，  是  一  类  水溶性  色素  。
+        </segment>
+
+        <pos>
+            心里#NN  美#NR  萝卜#VV  富含#NN  维生素C#NN  、#PU  碳水#NN  化合物#NN  等#ETC    。#PU  其中#NN  维生素C#NN  比#P  一般#JJ  水果#NN  还#AD  多#VA    。#PU  萝卜#NN  中#LC  的#DEG  维生素A#NN  和#CC  B#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  也#AD  较#AD  丰富#VA  ，#PU  此外#AD  还#AD  含有#VV  一#CD  种#M  有助于#VV  消化#NN  的#DEC  淀粉酶#NN  和#CC  多种#NN  营养素#NN  ，#PU  能#VV  分解#VV  食物#NN  中#LC  的#DEG  淀粉#NN  、#PU  脂肪#NN  ，#PU  以#P  利#NR  人体#NN  充分#AD  吸收#VV    。#PU    。#PU
+            另外#AD  ，#PU  心里#NN  美#NR  萝卜#NN  汁液#NN  中#LC  存在#VV  一#CD  种#M  色素#NN  ，#PU  称为#VV  花青素#NN  ，#PU  是#VC  一#CD  类#M  水溶性#NN  色素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 萝卜#VV, 心里#NN)  (nsubj, 萝卜#VV, 美#NR)  (root, ROOT#null, 萝卜#VV)  (nn, 化合物#NN, 富含#NN)  (conj, 化合物#NN, 维生素C#NN)  (nn, 化合物#NN, 碳水#NN)  (dobj, 萝卜#VV, 化合物#NN)  (etc, 化合物#NN, 等#ETC)   (nn, 维生素C#NN, 其中#NN)  (nsubj, 多#VA, 维生素C#NN)  (case, 水果#NN, 比#P)  (amod, 水果#NN, 一般#JJ)  (prep, 多#VA, 水果#NN)  (advmod, 多#VA, 还#AD)  (root, ROOT#null, 多#VA)   (assmod, 铁#NN, 萝卜#NN)  (case, 萝卜#NN, 中#LC)  (case, 萝卜#NN, 的#DEG)  (conj, 铁#NN, 维生素A#NN)  (cc, 铁#NN, 和#CC)  (conj, 铁#NN, B#NN)  (cc, 铁#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nsubj, 丰富#VA, 铁#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 较#AD)  (root, ROOT#null, 丰富#VA)  (advmod, 含有#VV, 此外#AD)  (advmod, 含有#VV, 还#AD)  (conj, 丰富#VA, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 营养素#NN, 种#M)  (relcl, 营养素#NN, 有助于#VV)  (dobj, 有助于#VV, 消化#NN)  (mark, 有助于#VV, 的#DEC)  (conj, 营养素#NN, 淀粉酶#NN)  (cc, 营养素#NN, 和#CC)  (nn, 营养素#NN, 多种#NN)  (dobj, 含有#VV, 营养素#NN)  (mmod, 分解#VV, 能#VV)  (dep, 含有#VV, 分解#VV)  (assmod, 脂肪#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (conj, 脂肪#NN, 淀粉#NN)  (dobj, 分解#VV, 脂肪#NN)  (case, 人体#NN, 以#P)  (nn, 人体#NN, 利#NR)  (prep, 吸收#VV, 人体#NN)  (advmod, 吸收#VV, 充分#AD)  (dep, 含有#VV, 吸收#VV)   (root, ROOT#null, null#null)
+            (advmod, 存在#VV, 另外#AD)  (nsubj, 存在#VV, 心里#NN)  (nn, 汁液#NN, 美#NR)  (nn, 汁液#NN, 萝卜#NN)  (loc, 存在#VV, 汁液#NN)  (case, 汁液#NN, 中#LC)  (root, ROOT#null, 存在#VV)  (nummod, 种#M, 一#CD)  (clf, 色素#NN, 种#M)  (dobj, 存在#VV, 色素#NN)  (conj, 存在#VV, 称为#VV)  (dobj, 称为#VV, 花青素#NN)  (cop, 色素#NN, 是#VC)  (nummod, 类#M, 一#CD)  (clf, 色素#NN, 类#M)  (nn, 色素#NN, 水溶性#NN)  (conj, 存在#VV, 色素#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.萝卜适用于烧、拌、做汤，也可作配料和点缀。
+            2.凉拌心里美萝卜时，添加适当食醋，不仅可起到消毒作用，而且可使菜肴的色泽更鲜艳，提高菜肴感官质量。
+        </rawdata>
+
+        <segment>
+            萝卜  适用  于  烧  、  拌  、  做  汤  ，  也  可  作  配料  和  点缀  。
+            凉拌  心里  美  萝卜  时  ，  添加  适当  食醋  ，  不仅  可  起到  消毒  作用  ，  而且  可使  菜肴  的  色泽  更  鲜艳  ，  提高  菜肴  感官  质量  。
+        </segment>
+
+        <pos>
+            萝卜#NN  适用#VV  于#P  烧#NR  、#PU  拌#NR  、#PU  做#VV  汤#NN  ，#PU  也#AD  可#VV  作#VV  配料#NN  和#CC  点缀#NN  。#PU
+            凉拌#NN  心里#NN  美#NR  萝卜#NN  时#LC  ，#PU  添加#VV  适当#JJ  食醋#NN  ，#PU  不仅#CC  可#VV  起到#VV  消毒#NN  作用#NN  ，#PU  而且#CC  可使#NN  菜肴#NN  的#DEG  色泽#NN  更#AD  鲜艳#VV  ，#PU  提高#VV  菜肴#NN  感官#NN  质量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适用#VV, 萝卜#NN)  (root, ROOT#null, 适用#VV)  (case, 拌#NR, 于#P)  (conj, 拌#NR, 烧#NR)  (prep, 适用#VV, 拌#NR)  (dep, 适用#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (advmod, 作#VV, 也#AD)  (mmod, 作#VV, 可#VV)  (conj, 适用#VV, 作#VV)  (conj, 点缀#NN, 配料#NN)  (cc, 点缀#NN, 和#CC)  (dobj, 作#VV, 点缀#NN)
+            (nn, 心里#NN, 凉拌#NN)  (nsubj, 添加#VV, 心里#NN)  (nn, 萝卜#NN, 美#NR)  (loc, 添加#VV, 萝卜#NN)  (case, 萝卜#NN, 时#LC)  (root, ROOT#null, 添加#VV)  (amod, 食醋#NN, 适当#JJ)  (dobj, 添加#VV, 食醋#NN)  (cc, 添加#VV, 不仅#CC)  (mmod, 起到#VV, 可#VV)  (conj, 添加#VV, 起到#VV)  (nn, 作用#NN, 消毒#NN)  (dobj, 起到#VV, 作用#NN)  (cc, 添加#VV, 而且#CC)  (nn, 菜肴#NN, 可使#NN)  (assmod, 色泽#NN, 菜肴#NN)  (case, 菜肴#NN, 的#DEG)  (nsubj, 鲜艳#VV, 色泽#NN)  (advmod, 鲜艳#VV, 更#AD)  (conj, 添加#VV, 鲜艳#VV)  (conj, 添加#VV, 提高#VV)  (nn, 质量#NN, 菜肴#NN)  (nn, 质量#NN, 感官#NN)  (dobj, 提高#VV, 质量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101725104937.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\219 心里美萝卜.jpg
+    </picturelocalurl>
+
+</content>

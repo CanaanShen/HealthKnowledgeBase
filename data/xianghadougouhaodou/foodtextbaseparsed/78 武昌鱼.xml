@@ -1,0 +1,207 @@
+<content>
+
+    <id>
+        78
+    </id>
+
+    <foodname>
+        武昌鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        长春鳊、三角鲂、团头鲂
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            慢性痢疾患者忌食。
+        </rawdata>
+
+        <segment>
+            慢性  痢疾  患者  忌食  。
+        </segment>
+
+        <pos>
+            慢性#NN  痢疾#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 痢疾#VV, 慢性#NN)  (root, ROOT#null, 痢疾#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 痢疾#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜贫血、营养不良、体虚、食欲不振者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  贫血  、  营养  不良  、  体虚  、  食欲不振者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  贫血#VA  、#PU  营养#VA  不良#JJ  、#PU  体虚#JJ  、#PU  食欲不振者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (relcl, 食欲不振者#NN, 贫血#VA)  (dep, 贫血#VA, 营养#VA)  (amod, 食欲不振者#NN, 不良#JJ)  (dep, 不良#JJ, 体虚#JJ)  (dobj, 适宜#VV, 食欲不振者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            武昌鱼，属鲤形目鲤科鲌亚科鲂属，属鳊鱼的一种，又名团头鲂。其肉质嫩滑，味道鲜美，是我国主要淡水养殖鱼类之一。原产于长江中游一带通江的湖泊现已推广到全国各地养殖。据《武昌县志》载：鲂，即鳊鱼，又称缩项鳊，产樊口者甲天下。是处水势回旋，深潭无底，渔人置罾捕得之，止此一罾味肥美，余亦较胜别地。”同时，以“鳞白而腹内无黑膜者真。”属名贵淡水鱼菜。又因为现代有毛泽东“才饮长沙水，又食武昌鱼”的词句，使武昌鱼更为闻名遐迩。
+            团头鲂体背部青灰色，两侧银灰色，腹部银白；体侧鳞片基部灰白色，边缘灰黑色，形成灰白相间的条纹。体侧扁而高，呈菱形。头较小，头后背部急剧隆起。正宗武昌鱼只有13根半鱼刺，估计这个奇怪的特点也只有湖北鄂州人才知道，因为武昌鱼的故乡就是鄂州（古称武昌），13根鱼刺的鱼叫鳊鱼，只有13根半鱼刺的鱼才是武昌鱼。
+        </rawdata>
+
+        <segment>
+            武昌鱼  ，  属  鲤形目  鲤科  鲌  亚科  鲂属  ，  属  鳊鱼  的  一  种  ，  又  名团  头鲂  。  其  肉质  嫩滑  ，  味道  鲜美  ，  是  我  国  主要  淡水  养殖  鱼类  之一  。  原产  于  长江  中游  一  带  通江  的  湖泊  现已  推广  到  全  国  各  地  养殖  。  据  《  武昌  县志  》  载  ：  鲂  ，  即  鳊鱼  ，  又  称  缩项鳊  ，  产樊口者  甲天下  。  是  处  水势  回旋  ，  深潭  无底  ，  渔人  置罾捕  得  之  ，  止  此  一  罾味  肥美  ，  余亦  较  胜  别地  。  ”  同时  ，  以  “  鳞白  而  腹内  无  黑  膜  者真  。  ”  属  名贵  淡水  鱼  菜  。  又  因为  现代  有  毛泽东  “  才  饮  长沙  水  ，  又  食  武昌鱼  ”  的  词句  ，  使  武昌鱼  更为  闻名  遐迩  。
+            团头  鲂体  背部  青灰色  ，  两  侧  银灰色  ，  腹部  银白  ；  体侧  鳞片  基部  灰白色  ，  边缘  灰黑色  ，  形成  灰白  相  间的  条纹  。  体  侧扁  而  高  ，  呈  菱形  。  头  较  小  ，  头  后  背部  急剧  隆起  。  正宗  武昌鱼  只有  13  根  半  鱼刺  ，  估计  这个  奇怪  的  特点  也  只  有  湖北  鄂州  人才  知道  ，  因为  武昌鱼  的  故乡  就是  鄂州  （  古  称  武昌  ）  ，  13  根  鱼刺  的  鱼  叫  鳊鱼  ，  只有  13  根  半  鱼刺  的  鱼  才  是  武昌鱼  。
+        </segment>
+
+        <pos>
+            武昌鱼#VV  ，#PU  属#VV  鲤形目#NN  鲤科#NN  鲌#NN  亚科#NN  鲂属#NN  ，#PU  属#VV  鳊鱼#NN  的#DEG  一#CD  种#M  ，#PU  又#AD  名团#VV  头鲂#NN    。#PU  其#PN  肉质#AD  嫩滑#VV  ，#PU  味道#NN  鲜美#NN  ，#PU  是#VC  我#PN  国#NN  主要#JJ  淡水#NN  养殖#NN  鱼类#NN  之一#NN    。#PU  原产#NN  于#P  长江#NR  中游#NN  一#CD  带#NN  通江#NN  的#DEG  湖泊#NN  现已#NN  推广#VV  到#P  全#DT  国#NN  各#DT  地#NN  养殖#NN    。#PU  据#P  武昌#NN  县志#NN  载#VV  ：#PU  鲂#NN  ，#PU  即#AD  鳊鱼#VV  ，#PU  又#AD  称#VV  缩项鳊#NN  ，#PU  产樊口者#VV  甲天下#NN    。#PU  是#VC  处#VV  水势#NN  回旋#NN  ，#PU  深潭#VV  无底#NN  ，#PU  渔人#AD  置罾捕#AD  得#VV  之#DEC  ，#PU  止#VV  此#DT  一#CD  罾味#NN  肥美#NN  ，#PU  余亦#AD  较#AD  胜#VV  别地#NN    。#PU  ''#NN  同时#AD  ，#PU  以#P  ``#NN  鳞白#NN  而#AD  腹内#AD  无#VE  黑#JJ  膜#NN  者真#NN    。#PU  ''#AD  属#VV  名贵#JJ  淡水#NN  鱼#NN  菜#NN    。#PU  又#AD  因为#P  现代#NR  有#VE  毛泽东#NR  ``#NN  才#AD  饮#VV  长沙#NR  水#NN  ，#PU  又#AD  食#NN  武昌鱼#NN  ''#NN  的#DEG  词句#NN  ，#PU  使#VV  武昌鱼#NN  更为#AD  闻名#VV  遐迩#NN    。#PU    。#PU
+            团头#NN  鲂体#NN  背部#NN  青灰色#VV  ，#PU  两#CD  侧#LC  银灰色#NR  ，#PU  腹部#AD  银白#VV  ；#PU  体侧#NN  鳞片#NN  基部#NN  灰白色#NN  ，#PU  边缘#NN  灰黑色#NN  ，#PU  形成#VV  灰白#NN  相#AD  间的#VV  条纹#NN    。#PU  体#NN  侧扁#NN  而#MSP  高#VA  ，#PU  呈#VV  菱形#NN    。#PU  头#NN  较#AD  小#VA  ，#PU  头#NN  后#LC  背部#NN  急剧#AD  隆起#VA    。#PU  正宗#NN  武昌鱼#NN  只有#AD  13#CD  根#M  半#CD  鱼刺#NN  ，#PU  估计#VV  这个#AD  奇怪#VA  的#DEC  特点#NN  也#AD  只#AD  有#VE  湖北#NR  鄂州#NN  人才#NN  知道#VV  ，#PU  因为#P  武昌鱼#NN  的#DEG  故乡#NN  就是#CC  鄂州#NN  （#PU  古#JJ  称#NN  武昌#NN  ）#PU  ，#PU  13#CD  根#M  鱼刺#NN  的#DEG  鱼#NN  叫#VV  鳊鱼#NN  ，#PU  只有#AD  13#CD  根#M  半#CD  鱼刺#NN  的#DEG  鱼#NN  才#AD  是#VC  武昌鱼#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 武昌鱼#VV)  (ccomp, 武昌鱼#VV, 属#VV)  (nn, 鲂属#NN, 鲤形目#NN)  (nn, 鲂属#NN, 鲤科#NN)  (nn, 鲂属#NN, 鲌#NN)  (nn, 鲂属#NN, 亚科#NN)  (dobj, 属#VV, 鲂属#NN)  (conj, 属#VV, 属#VV)  (assmod, 种#M, 鳊鱼#NN)  (case, 鳊鱼#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (range, 属#VV, 种#M)  (advmod, 名团#VV, 又#AD)  (conj, 属#VV, 名团#VV)  (dobj, 名团#VV, 头鲂#NN)   (nsubj, 嫩滑#VV, 其#PN)  (advmod, 嫩滑#VV, 肉质#AD)  (root, ROOT#null, 嫩滑#VV)  (nn, 鲜美#NN, 味道#NN)  (dep, 之一#NN, 鲜美#NN)  (cop, 之一#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 之一#NN, 国#NN)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 淡水#NN)  (nn, 之一#NN, 养殖#NN)  (nn, 之一#NN, 鱼类#NN)  (ccomp, 嫩滑#VV, 之一#NN)   (nsubj, 推广#VV, 原产#NN)  (case, 现已#NN, 于#P)  (nn, 中游#NN, 长江#NR)  (nn, 带#NN, 中游#NN)  (nummod, 带#NN, 一#CD)  (nn, 通江#NN, 带#NN)  (assmod, 现已#NN, 通江#NN)  (case, 通江#NN, 的#DEG)  (nn, 现已#NN, 湖泊#NN)  (prep, 推广#VV, 现已#NN)  (root, ROOT#null, 推广#VV)  (case, 地#NN, 到#P)  (det, 国#NN, 全#DT)  (nn, 地#NN, 国#NN)  (det, 地#NN, 各#DT)  (prep, 养殖#NN, 地#NN)  (dobj, 推广#VV, 养殖#NN)   (case, 县志#NN, 据#P)  (nn, 县志#NN, 武昌#NN)  (prep, 载#VV, 县志#NN)  (root, ROOT#null, 载#VV)  (dobj, 载#VV, 鲂#NN)  (advmod, 鳊鱼#VV, 即#AD)  (conj, 载#VV, 鳊鱼#VV)  (advmod, 称#VV, 又#AD)  (conj, 载#VV, 称#VV)  (dobj, 称#VV, 缩项鳊#NN)  (dep, 载#VV, 产樊口者#VV)  (dobj, 产樊口者#VV, 甲天下#NN)   (cop, 处#VV, 是#VC)  (root, ROOT#null, 处#VV)  (nn, 回旋#NN, 水势#NN)  (dobj, 处#VV, 回旋#NN)  (conj, 处#VV, 深潭#VV)  (dobj, 深潭#VV, 无底#NN)  (advmod, 得#VV, 渔人#AD)  (advmod, 得#VV, 置罾捕#AD)  (conj, 处#VV, 得#VV)  (mark, 处#VV, 之#DEC)  (conj, 处#VV, 止#VV)  (det, 罾味#NN, 此#DT)  (dep, 此#DT, 一#CD)  (nn, 肥美#NN, 罾味#NN)  (dobj, 止#VV, 肥美#NN)  (advmod, 胜#VV, 余亦#AD)  (advmod, 胜#VV, 较#AD)  (conj, 处#VV, 胜#VV)  (dobj, 胜#VV, 别地#NN)   (nsubj, 无#VE, ''#NN)  (advmod, 无#VE, 同时#AD)  (case, 鳞白#NN, 以#P)  (nn, 鳞白#NN, ``#NN)  (prep, 无#VE, 鳞白#NN)  (advmod, 无#VE, 而#AD)  (advmod, 无#VE, 腹内#AD)  (root, ROOT#null, 无#VE)  (amod, 膜#NN, 黑#JJ)  (nn, 者真#NN, 膜#NN)  (dobj, 无#VE, 者真#NN)   (advmod, 属#VV, ''#AD)  (root, ROOT#null, 属#VV)  (amod, 淡水#NN, 名贵#JJ)  (nn, 菜#NN, 淡水#NN)  (nn, 菜#NN, 鱼#NN)  (dobj, 属#VV, 菜#NN)   (prep, 使#VV, 又#AD)  (case, 有#VE, 因为#P)  (dep, 有#VE, 现代#NR)  (dep, 又#AD, 有#VE)  (nn, ``#NN, 毛泽东#NR)  (nsubj, 饮#VV, ``#NN)  (advmod, 饮#VV, 才#AD)  (dep, 有#VE, 饮#VV)  (nn, 水#NN, 长沙#NR)  (dobj, 饮#VV, 水#NN)  (advmod, 使#VV, 又#AD)  (nn, ''#NN, 食#NN)  (nn, ''#NN, 武昌鱼#NN)  (assmod, 词句#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dep, 使#VV, 词句#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 武昌鱼#NN)  (advmod, 闻名#VV, 更为#AD)  (dep, 使#VV, 闻名#VV)  (dobj, 闻名#VV, 遐迩#NN)   (root, ROOT#null, null#null)
+            (nn, 背部#NN, 团头#NN)  (nn, 背部#NN, 鲂体#NN)  (nsubj, 青灰色#VV, 背部#NN)  (root, ROOT#null, 青灰色#VV)  (loc, 银白#VV, 两#CD)  (case, 两#CD, 侧#LC)  (nsubj, 银白#VV, 银灰色#NR)  (advmod, 银白#VV, 腹部#AD)  (ccomp, 青灰色#VV, 银白#VV)  (nn, 灰白色#NN, 体侧#NN)  (nn, 灰白色#NN, 鳞片#NN)  (nn, 灰白色#NN, 基部#NN)  (nsubj, 形成#VV, 灰白色#NN)  (nn, 灰黑色#NN, 边缘#NN)  (nsubj, 形成#VV, 灰黑色#NN)  (ccomp, 银白#VV, 形成#VV)  (dobj, 形成#VV, 灰白#NN)  (advmod, 间的#VV, 相#AD)  (conj, 形成#VV, 间的#VV)  (dobj, 间的#VV, 条纹#NN)   (nn, 侧扁#NN, 体#NN)  (nsubj, 高#VA, 侧扁#NN)  (prtmod, 高#VA, 而#MSP)  (root, ROOT#null, 高#VA)  (dep, 高#VA, 呈#VV)  (dobj, 呈#VV, 菱形#NN)   (nsubj, 小#VA, 头#NN)  (advmod, 小#VA, 较#AD)  (root, ROOT#null, 小#VA)  (loc, 隆起#VA, 头#NN)  (case, 头#NN, 后#LC)  (nsubj, 隆起#VA, 背部#NN)  (advmod, 隆起#VA, 急剧#AD)  (conj, 小#VA, 隆起#VA)   (nn, 武昌鱼#NN, 正宗#NN)  (nn, 鱼刺#NN, 武昌鱼#NN)  (advmod, 根#M, 只有#AD)  (nummod, 根#M, 13#CD)  (clf, 鱼刺#NN, 根#M)  (nummod, 鱼刺#NN, 半#CD)  (nsubj, 估计#VV, 鱼刺#NN)  (root, ROOT#null, 估计#VV)  (advmod, 奇怪#VA, 这个#AD)  (relcl, 特点#NN, 奇怪#VA)  (mark, 奇怪#VA, 的#DEC)  (dobj, 估计#VV, 特点#NN)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 只#AD)  (dep, 估计#VV, 有#VE)  (nn, 鄂州#NN, 湖北#NR)  (dobj, 有#VE, 鄂州#NN)  (nsubj, 知道#VV, 人才#NN)  (conj, 估计#VV, 知道#VV)  (case, 鄂州#NN, 因为#P)  (assmod, 故乡#NN, 武昌鱼#NN)  (case, 武昌鱼#NN, 的#DEG)  (conj, 鄂州#NN, 故乡#NN)  (cc, 鄂州#NN, 就是#CC)  (prep, 叫#VV, 鄂州#NN)  (amod, 武昌#NN, 古#JJ)  (nn, 武昌#NN, 称#NN)  (prnmod, 鄂州#NN, 武昌#NN)  (nummod, 根#M, 13#CD)  (clf, 鱼刺#NN, 根#M)  (assmod, 鱼#NN, 鱼刺#NN)  (case, 鱼刺#NN, 的#DEG)  (nsubj, 叫#VV, 鱼#NN)  (ccomp, 知道#VV, 叫#VV)  (dobj, 叫#VV, 鳊鱼#NN)  (advmod, 根#M, 只有#AD)  (nummod, 根#M, 13#CD)  (clf, 鱼#NN, 根#M)  (nummod, 鱼刺#NN, 半#CD)  (assmod, 鱼#NN, 鱼刺#NN)  (case, 鱼刺#NN, 的#DEG)  (nsubj, 武昌鱼#NN, 鱼#NN)  (advmod, 武昌鱼#NN, 才#AD)  (cop, 武昌鱼#NN, 是#VC)  (conj, 叫#VV, 武昌鱼#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            武昌鱼性温，味甘；具有补虚，益脾，养血，祛风，健胃之功效；可以预防贫血症、低血糖、高血压和动脉血管硬化等疾病。
+            1.开胃健脾
+            武昌鱼有调治脾胃的功效，有开胃健脾、增进食欲的作用。同时，也有利于人体对营养的吸收。
+            2.预防动脉硬化
+            武昌鱼含高蛋白、低胆固醇，经常食用可预防贫血症、低血糖、高血压和动脉硬化等疾病。
+        </rawdata>
+
+        <segment>
+            武昌鱼  性温  ，  味甘  ；  具有  补虚  ，  益脾  ，  养  血  ，  祛风  ，  健胃  之  功效  ；  可以  预防  贫血症  、  低  血糖  、  高血压  和  动脉血  管  硬化  等  疾病  。
+            开胃  健脾
+            武昌鱼  有  调治  脾胃  的  功效  ，  有  开胃  健脾  、  增进  食欲  的  作用  。  同时  ，  也  有利于  人体  对  营养  的  吸收  。
+            预防  动脉  硬化
+            武昌鱼  含  高蛋白  、  低  胆固醇  ，  经常  食用  可  预防  贫血症  、  低  血糖  、  高血压  和  动脉  硬化  等  疾病  。
+        </segment>
+
+        <pos>
+            武昌鱼#VV  性温#NN  ，#PU  味甘#VV  ；#PU  具有#VV  补虚#NN  ，#PU  益脾#VV  ，#PU  养#VV  血#NN  ，#PU  祛风#VV  ，#PU  健胃#NN  之#DEG  功效#NN  ；#PU  可以#VV  预防#VV  贫血症#NN  、#PU  低#JJ  血糖#NN  、#PU  高血压#NN  和#CC  动脉血#NN  管#NN  硬化#NN  等#ETC  疾病#NN  。#PU
+            开胃#NN  健脾#VV
+            武昌鱼#AD  有#VE  调治#NN  脾胃#NN  的#DEG  功效#NN  ，#PU  有#VE  开胃#VV  健脾#NN  、#PU  增进#VV  食欲#NN  的#DEC  作用#NN    。#PU  同时#AD  ，#PU  也#AD  有利于#VV  人体#AD  对#P  营养#VA  的#DEC  吸收#VV    。#PU    。#PU
+            预防#VV  动脉#NN  硬化#NN
+            武昌鱼#NN  含#VV  高蛋白#NN  、#PU  低#JJ  胆固醇#NN  ，#PU  经常#AD  食用#VV  可#VV  预防#NN  贫血症#NN  、#PU  低#JJ  血糖#NN  、#PU  高血压#NN  和#CC  动脉#NN  硬化#NN  等#ETC  疾病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 武昌鱼#VV)  (dobj, 武昌鱼#VV, 性温#NN)  (conj, 武昌鱼#VV, 味甘#VV)  (conj, 武昌鱼#VV, 具有#VV)  (dobj, 具有#VV, 补虚#NN)  (conj, 武昌鱼#VV, 益脾#VV)  (conj, 武昌鱼#VV, 养#VV)  (dobj, 养#VV, 血#NN)  (conj, 武昌鱼#VV, 祛风#VV)  (assmod, 功效#NN, 健胃#NN)  (case, 健胃#NN, 之#DEG)  (conj, 武昌鱼#VV, 功效#NN)  (mmod, 预防#VV, 可以#VV)  (conj, 武昌鱼#VV, 预防#VV)  (conj, 硬化#NN, 贫血症#NN)  (amod, 血糖#NN, 低#JJ)  (conj, 硬化#NN, 血糖#NN)  (conj, 硬化#NN, 高血压#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉血#NN)  (nn, 硬化#NN, 管#NN)  (nn, 疾病#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (dobj, 预防#VV, 疾病#NN)
+            (nsubj, 健脾#VV, 开胃#NN)  (root, ROOT#null, 健脾#VV)
+            (advmod, 有#VE, 武昌鱼#AD)  (root, ROOT#null, 有#VE)  (nn, 脾胃#NN, 调治#NN)  (assmod, 功效#NN, 脾胃#NN)  (case, 脾胃#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)  (dep, 有#VE, 有#VE)  (relcl, 作用#NN, 开胃#VV)  (dobj, 开胃#VV, 健脾#NN)  (conj, 开胃#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (mark, 开胃#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (advmod, 有利于#VV, 同时#AD)  (advmod, 有利于#VV, 也#AD)  (root, ROOT#null, 有利于#VV)  (advmod, 吸收#VV, 人体#AD)  (case, 营养#VA, 对#P)  (prep, 吸收#VV, 营养#VA)  (mark, 营养#VA, 的#DEC)  (ccomp, 有利于#VV, 吸收#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 预防#VV, 硬化#NN)
+            (nsubj, 含#VV, 武昌鱼#NN)  (root, ROOT#null, 含#VV)  (conj, 胆固醇#NN, 高蛋白#NN)  (amod, 胆固醇#NN, 低#JJ)  (dobj, 含#VV, 胆固醇#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 含#VV, 食用#VV)  (rcomp, 食用#VV, 可#VV)  (nn, 贫血症#NN, 预防#NN)  (conj, 硬化#NN, 贫血症#NN)  (amod, 血糖#NN, 低#JJ)  (conj, 硬化#NN, 血糖#NN)  (conj, 硬化#NN, 高血压#NN)  (cc, 硬化#NN, 和#CC)  (nn, 硬化#NN, 动脉#NN)  (nn, 疾病#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (dobj, 食用#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补虚益脾  养血  祛风，  健胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            武昌鱼营养成分丰富，含丰富的蛋白质，另外，还含有胆固醇、维生素A、维生素Bi、维生素B：、维生素C、维生素E、烟酸、钙、铁、锌、镁、铜、磷、钠、硒等。
+        </rawdata>
+
+        <segment>
+            武昌鱼  营养  成分  丰富  ，  含  丰富  的  蛋白质  ，  另外  ，  还  含有  胆固醇  、  维生素A  、  维生素Bi  、  维生素  B  ：  、  维生素C  、  维生素E  、  烟酸  、  钙  、  铁  、  锌  、  镁  、  铜  、  磷  、  钠  、  硒等  。
+        </segment>
+
+        <pos>
+            武昌鱼#NN  营养#NN  成分#NN  丰富#VA  ，#PU  含#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  另外#AD  ，#PU  还#AD  含有#VV  胆固醇#NR  、#PU  维生素A#NR  、#PU  维生素Bi#NR  、#PU  维生素#NR  B#CC  ：#NR  、#PU  维生素C#NR  、#PU  维生素E#NR  、#PU  烟酸#NR  、#PU  钙#NR  、#PU  铁#NR  、#PU  锌#NR  、#PU  镁#NR  、#PU  铜#NR  、#PU  磷#NR  、#PU  钠#NR  、#PU  硒等#NR  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 成分#NN, 武昌鱼#NN)  (nn, 成分#NN, 营养#NN)  (nsubj, 丰富#VA, 成分#NN)  (root, ROOT#null, 丰富#VA)  (conj, 丰富#VA, 含#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, 蛋白质#NN)  (advmod, 含有#VV, 另外#AD)  (advmod, 含有#VV, 还#AD)  (conj, 丰富#VA, 含有#VV)  (conj, 硒等#NR, 胆固醇#NR)  (conj, 硒等#NR, 维生素A#NR)  (conj, 硒等#NR, 维生素Bi#NR)  (conj, 硒等#NR, 维生素#NR)  (cc, 硒等#NR, B#CC)  (conj, 硒等#NR, 维生素C#NR)  (conj, 硒等#NR, 维生素E#NR)  (conj, 硒等#NR, 烟酸#NR)  (conj, 硒等#NR, 钙#NR)  (conj, 硒等#NR, 铁#NR)  (conj, 硒等#NR, 锌#NR)  (conj, 硒等#NR, 镁#NR)  (conj, 硒等#NR, 铜#NR)  (conj, 硒等#NR, 磷#NR)  (conj, 硒等#NR, 钠#NR)  (dobj, 含有#VV, 硒等#NR)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            巧去鱼腥味：
+            1.将鱼去鳞剖腹洗净后，放入盆中倒一些黄酒，就能除区鱼的腥味，并能使鱼滋味鲜美；
+            2.鲜鱼剖开洗净，在牛奶中泡一会儿既可除腥，又能增加鲜味；
+            3.吃过鱼后，口里有味时，嚼上三五片茶叶，立刻口气清新。
+        </rawdata>
+
+        <segment>
+            巧  去  鱼腥味  ：
+            将  鱼  去鳞  剖腹  洗净  后  ，  放入  盆中  倒  一些  黄酒  ，  就  能  除  区  鱼  的  腥味  ，  并  能  使  鱼  滋味  鲜美  ；
+            鲜鱼  剖开  洗净  ，  在  牛奶  中  泡  一会儿  既可  除腥  ，  又  能  增加  鲜味  ；
+            吃过  鱼  后  ，  口里  有味  时  ，  嚼  上  三五  片  茶叶  ，  立刻  口气  清新  。
+        </segment>
+
+        <pos>
+            巧#NN  去#VV  鱼腥味#NN  ：#PU
+            将#BA  鱼#NN  去鳞#NN  剖腹#NN  洗净#VV  后#LC  ，#PU  放入#VV  盆中#NN  倒#VV  一些#CD  黄酒#NN  ，#PU  就#AD  能#VV  除#P  区#NN  鱼#NN  的#DEG  腥味#NN  ，#PU  并#CC  能#VV  使#VV  鱼#NN  滋味#VV  鲜美#NN  ；#PU
+            鲜鱼#NN  剖开#NN  洗净#NN  ，#PU  在#P  牛奶#NN  中#LC  泡#VV  一会儿#CD  既可#NN  除腥#NN  ，#PU  又#AD  能#VV  增加#VV  鲜味#NN  ；#PU
+            吃过#NN  鱼#NN  后#LC  ，#PU  口里#NN  有味#NN  时#LC  ，#PU  嚼#VV  上#DT  三五#CD  片#M  茶叶#NN  ，#PU  立刻#VV  口气#NN  清新#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 去#VV, 巧#NN)  (root, ROOT#null, 去#VV)  (dobj, 去#VV, 鱼腥味#NN)
+            (ba, 洗净#VV, 将#BA)  (nn, 剖腹#NN, 鱼#NN)  (nn, 剖腹#NN, 去鳞#NN)  (nsubj, 洗净#VV, 剖腹#NN)  (loc, 放入#VV, 洗净#VV)  (case, 洗净#VV, 后#LC)  (root, ROOT#null, 放入#VV)  (dobj, 放入#VV, 盆中#NN)  (conj, 放入#VV, 倒#VV)  (nummod, 黄酒#NN, 一些#CD)  (dobj, 倒#VV, 黄酒#NN)  (advmod, 能#VV, 就#AD)  (dep, 放入#VV, 能#VV)  (case, 鱼#NN, 除#P)  (nn, 鱼#NN, 区#NN)  (assmod, 腥味#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 能#VV, 腥味#NN)  (cc, 放入#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (dep, 放入#VV, 使#VV)  (dobj, 使#VV, 鱼#NN)  (dep, 使#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)
+            (nn, 洗净#NN, 鲜鱼#NN)  (nn, 洗净#NN, 剖开#NN)  (nsubj, 泡#VV, 洗净#NN)  (case, 牛奶#NN, 在#P)  (prep, 泡#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (root, ROOT#null, 泡#VV)  (nummod, 除腥#NN, 一会儿#CD)  (nn, 除腥#NN, 既可#NN)  (dobj, 泡#VV, 除腥#NN)  (advmod, 增加#VV, 又#AD)  (mmod, 增加#VV, 能#VV)  (dep, 泡#VV, 增加#VV)  (dobj, 增加#VV, 鲜味#NN)
+            (nn, 鱼#NN, 吃过#NN)  (loc, 嚼#VV, 鱼#NN)  (case, 鱼#NN, 后#LC)  (nn, 有味#NN, 口里#NN)  (loc, 嚼#VV, 有味#NN)  (case, 有味#NN, 时#LC)  (root, ROOT#null, 嚼#VV)  (det, 茶叶#NN, 上#DT)  (nummod, 片#M, 三五#CD)  (dep, 上#DT, 片#M)  (dobj, 嚼#VV, 茶叶#NN)  (conj, 嚼#VV, 立刻#VV)  (nn, 清新#NN, 口气#NN)  (dobj, 立刻#VV, 清新#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/16221841.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\78 武昌鱼.jpg
+    </picturelocalurl>
+
+</content>

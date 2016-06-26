@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        125
+    </id>
+
+    <foodname>
+        鲍鱼
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        鳆鱼、鲍螺、九孔、紫鲍、盘鲍、大鲍、石决明、白戟鱼、阔口鱼、白冀、鲴鱼、明目鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            痛风患者及尿酸高者不宜吃鲍肉，只宜少量喝汤；感冒发烧或阴虚喉痛的人忌食；素有顽癣痼疾之人忌食。
+        </rawdata>
+
+        <segment>
+            痛风  患者  及  尿酸  高者  不  宜  吃  鲍  肉  ，  只  宜  少量  喝  汤  ；  感冒  发烧  或  阴虚  喉痛  的  人  忌食  ；  素有  顽癣  痼疾  之  人  忌食  。
+        </segment>
+
+        <pos>
+            痛风#NN  患者#NN  及#CC  尿酸#NN  高者#NN  不#AD  宜#NR  吃#VV  鲍#NN  肉#NN  ，#PU  只#AD  宜#NR  少量#CD  喝#NN  汤#VV  ；#PU  感冒#NN  发烧#NN  或#CC  阴虚#NN  喉痛#NN  的#DEG  人#NN  忌食#VV  ；#PU  素有#NN  顽癣#NN  痼疾#NN  之#DEG  人#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 高者#NN, 痛风#NN)  (conj, 高者#NN, 患者#NN)  (cc, 高者#NN, 及#CC)  (nn, 高者#NN, 尿酸#NN)  (nsubj, 吃#VV, 高者#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (root, ROOT#null, 吃#VV)  (nn, 肉#NN, 鲍#NN)  (dobj, 吃#VV, 肉#NN)  (advmod, 汤#VV, 只#AD)  (nn, 喝#NN, 宜#NR)  (nummod, 喝#NN, 少量#CD)  (prep, 汤#VV, 喝#NN)  (dep, 吃#VV, 汤#VV)  (nn, 喉痛#NN, 感冒#NN)  (conj, 喉痛#NN, 发烧#NN)  (cc, 喉痛#NN, 或#CC)  (nn, 喉痛#NN, 阴虚#NN)  (assmod, 人#NN, 喉痛#NN)  (case, 喉痛#NN, 的#DEG)  (nsubj, 忌食#VV, 人#NN)  (ccomp, 汤#VV, 忌食#VV)  (nn, 痼疾#NN, 素有#NN)  (nn, 痼疾#NN, 顽癣#NN)  (assmod, 人#NN, 痼疾#NN)  (case, 痼疾#NN, 之#DEG)  (nsubj, 忌食#VV, 人#NN)  (ccomp, 忌食#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜夜尿频、气虚哮喘、血压不稳、精神难以集中者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  夜  尿频  、  气虚  哮喘  、  血压  不稳  、  精神  难以  集中  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  夜#NN  尿频#NR  、#PU  气虚#NR  哮喘#NR  、#PU  血压#NR  不稳#NN  、#PU  精神#NN  难以#AD  集中#VV  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 夜#NN)  (conj, 血压#NR, 尿频#NR)  (nn, 血压#NR, 气虚#NR)  (conj, 血压#NR, 哮喘#NR)  (nn, 精神#NN, 血压#NR)  (conj, 精神#NN, 不稳#NN)  (nsubj, 集中#VV, 精神#NN)  (advmod, 集中#VV, 难以#AD)  (conj, 适宜#VV, 集中#VV)  (dobj, 集中#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                12.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                242
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                266
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                136
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2011.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                22.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                21.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲍鱼是一种原始的海洋贝类，单壳软体动物，鲍鱼呈椭圆形，肉紫红色，只有半面外壳，壳坚厚，扁而宽。主要种类有杂色鲍、半纹鲍、羊鲍、耳鲍和皱纹盘鲍五种。鲍鱼是中国传统的名贵食材，四大海味之首，素有“一口鲍鱼一口金”之说。
+            鲍鱼同鱼类毫无关系，倒跟田螺之类沾亲带故，据考证：盾鱼，因鲍叔牙爱吃，而被称为鲍鱼，形状有的像人的耳朵。螺旋部只留有痕迹，占全壳的极小部分。壳的边缘有9个孔，海水从这里流进，排出，连鲍的呼吸、排泄和生育也得依靠它。所以它又叫"9孔螺"。壳表面粗糙，有黑褐色斑块，内面呈现青、绿、红、蓝等色交相辉映的珍珠光泽。
+            鲜鲍经过去壳、盐渍一段时间，然后煮熟，除去内脏，晒干成干品。它肉质鲜美，营养丰富。"鲍、参、翅、肚"，都是珍贵的海味，而鲍鱼列在海参、鱼翅、鱼肚之首。全世界约有90种鲍，它们的足迹遍及太平洋、大西洋和印度洋。我国渤海海湾产的叫皱纹盘鲍，个体较大；东南沿海产的叫杂色鲍，个体较小；西沙群岛产的半纹鲍、羊鲍，是著名食用鲍。由于天然产量很少，因此价格昂贵。现在，世界上产鲍的国家都在发展人工养殖，我国在20世纪70年代培育出杂色鲍苗，人工养殖获得成功。
+        </rawdata>
+
+        <segment>
+            鲍鱼  是  一  种  原始  的  海洋  贝类  ，  单  壳  软体  动物  ，  鲍鱼  呈  椭圆形  ，  肉  紫红色  ，  只有  半面  外壳  ，  壳  坚厚  ，  扁  而  宽  。  主要  种类  有  杂色  鲍  、  半  纹  鲍  、  羊鲍  、  耳鲍  和  皱纹  盘鲍  五  种  。  鲍鱼  是  中国  传统  的  名贵  食材  ，  四  大  海味  之首  ，  素  有  “  一  口  鲍鱼  一  口  金  ”  之  说  。
+            鲍鱼  同  鱼类  毫  无  关系  ，  倒  跟  田螺  之类  沾亲带故  ，  据  考证  ：  盾  鱼  ，  因  鲍叔  牙  爱吃  ，  而  被  称为  鲍鱼  ，  形状  有的  像人  的  耳朵  。  螺旋  部  只  留有  痕迹  ，  占  全  壳  的  极  小  部分  。  壳  的  边缘  有  9  个  孔  ，  海水  从  这里  流进  ，  排出  ，  连  鲍  的  呼吸  、  排泄  和  生育  也  得  依靠  它  。  所以  它  又叫  "  9孔螺  "  。  壳  表面  粗糙  ，  有  黑褐色  斑块  ，  内面  呈现  青  、  绿  、  红  、  蓝  等色  交相辉映  的  珍珠  光泽  。
+            鲜鲍  经过  去壳  、  盐渍  一  段  时间  ，  然后  煮熟  ，  除去  内脏  ，  晒干  成  干品  。  它  肉质  鲜美  ，  营养  丰富  。  "  鲍  、  参  、  翅  、  肚  "  ，  都  是  珍贵  的  海味  ，  而  鲍鱼  列  在  海参  、  鱼翅  、  鱼肚  之  首  。  全世界  约有  90  种  鲍  ，  它们  的  足迹  遍及  太平洋  、  大西洋  和  印度洋  。  我  国  渤海  海湾  产  的  叫  皱纹  盘鲍  ，  个体  较大  ；  东南  沿海  产  的  叫  杂色  鲍  ，  个体  较小  ；  西沙  群岛  产  的  半  纹  鲍  、  羊鲍  ，  是  著名  食用  鲍  。  由于  天然  产量  很少  ，  因此  价格  昂贵  。  现在  ，  世界上  产鲍  的  国家  都  在  发展  人工  养殖  ，  我国  在  20世纪  70年代  培育  出  杂色  鲍苗  ，  人工  养殖  获得  成功  。
+        </segment>
+
+        <pos>
+            鲍鱼#NN  是#VC  一#CD  种#M  原始#VA  的#DEC  海洋#NN  贝类#NN  ，#PU  单#CD  壳#NN  软体#JJ  动物#NN  ，#PU  鲍鱼#AD  呈#VV  椭圆形#NN  ，#PU  肉#NN  紫红色#NN  ，#PU  只有#AD  半面#VV  外壳#NN  ，#PU  壳#NN  坚厚#NN  ，#PU  扁#NN  而#MSP  宽#VA    。#PU  主要#JJ  种类#NN  有#VE  杂色#NN  鲍#NN  、#PU  半#CD  纹#NN  鲍#NR  、#PU  羊鲍#NR  、#PU  耳鲍#NR  和#CC  皱纹#NR  盘鲍#NN  五#CD  种#M    。#PU  鲍鱼#NN  是#VC  中国#NR  传统#JJ  的#DEG  名贵#JJ  食材#NN  ，#PU  四#CD  大#JJ  海味#NN  之首#NN  ，#PU  素#AD  有#VE  ``#NR  一#CD  口#M  鲍鱼#NN  一#CD  口#M  金#NN  ''#NN  之#DEG  说#NN    。#PU    。#PU
+            鲍鱼#NN  同#P  鱼类#NN  毫#AD  无#VE  关系#NN  ，#PU  倒#VV  跟#P  田螺#NN  之类#NN  沾亲带故#VV  ，#PU  据#P  考证#VV  ：#PU  盾#M  鱼#NN  ，#PU  因#P  鲍叔#VV  牙#NN  爱吃#NN  ，#PU  而#AD  被#SB  称为#VV  鲍鱼#NN  ，#PU  形状#NN  有的#PN  像人#VV  的#DEC  耳朵#NN    。#PU  螺旋#NN  部#NN  只#AD  留有#VV  痕迹#NN  ，#PU  占#VV  全#DT  壳#NN  的#DEG  极#AD  小#VA  部分#NN    。#PU  壳#NN  的#DEG  边缘#NN  有#VE  9#CD  个#M  孔#NR  ，#PU  海水#NN  从#P  这里#PN  流进#VV  ，#PU  排出#NN  ，#PU  连#AD  鲍#VV  的#DEC  呼吸#NN  、#PU  排泄#NN  和#CC  生育#NN  也#AD  得#VV  依靠#VV  它#PN    。#PU  所以#AD  它#PN  又叫#NN  ''#VV  9孔螺#CD  ''#NN    。#PU  壳#NN  表面#NN  粗糙#VV  ，#PU  有#VE  黑褐色#NN  斑块#NN  ，#PU  内面#AD  呈现#VV  青#JJ  、#PU  绿#JJ  、#PU  红#JJ  、#PU  蓝#JJ  等色#NN  交相辉映#NN  的#DEG  珍珠#NN  光泽#NN    。#PU    。#PU
+            鲜鲍#NN  经过#P  去壳#NN  、#PU  盐渍#NN  一#CD  段#M  时间#NN  ，#PU  然后#AD  煮熟#VV  ，#PU  除去#P  内脏#NN  ，#PU  晒干#AD  成#VV  干品#NN    。#PU  它#PN  肉质#AD  鲜美#VA  ，#PU  营养#VA  丰富#VA    。#PU  ''#NN  鲍#NN  、#PU  参#NN  、#PU  翅#NN  、#PU  肚#NN  ''#NN  ，#PU  都#AD  是#VC  珍贵#VA  的#DEC  海味#NN  ，#PU  而#CC  鲍鱼#NR  列#VV  在#P  海参#NR  、#PU  鱼翅#NR  、#PU  鱼肚#NR  之#DEG  首#NN    。#PU  全世界#NN  约有#VV  90#CD  种#M  鲍#NN  ，#PU  它们#PN  的#DEG  足迹#NN  遍及#VV  太平洋#NR  、#PU  大西洋#NR  和#CC  印度洋#NR    。#PU  我#PN  国#NN  渤海#NR  海湾#NN  产#VV  的#DEC  叫#VV  皱纹#NN  盘鲍#NN  ，#PU  个体#NN  较大#JJ  ；#PU  东南#NN  沿海#NN  产#VV  的#DEC  叫#VV  杂色#NN  鲍#NN  ，#PU  个体#NN  较小#VA  ；#PU  西沙#NN  群岛#NN  产#VV  的#DEC  半#CD  纹#NN  鲍#VA  、#PU  羊鲍#VA  ，#PU  是#VC  著名#JJ  食用#VV  鲍#NN    。#PU  由于#P  天然#JJ  产量#NN  很少#VA  ，#PU  因此#AD  价格#NN  昂贵#VA    。#PU  现在#NT  ，#PU  世界上#VV  产鲍#NN  的#DEC  国家#NN  都#AD  在#P  发展#NN  人工#JJ  养殖#NN  ，#PU  我国#AD  在#P  20世纪#CD  70年代#CD  培育#VV  出#VV  杂色#NN  鲍苗#NN  ，#PU  人工#JJ  养殖#NN  获得#VV  成功#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 贝类#NN, 鲍鱼#NN)  (cop, 贝类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 贝类#NN, 种#M)  (relcl, 贝类#NN, 原始#VA)  (mark, 原始#VA, 的#DEC)  (nn, 贝类#NN, 海洋#NN)  (root, ROOT#null, 贝类#NN)  (nummod, 壳#NN, 单#CD)  (nn, 动物#NN, 壳#NN)  (amod, 动物#NN, 软体#JJ)  (nsubj, 呈#VV, 动物#NN)  (advmod, 呈#VV, 鲍鱼#AD)  (conj, 贝类#NN, 呈#VV)  (dobj, 呈#VV, 椭圆形#NN)  (nn, 紫红色#NN, 肉#NN)  (nsubj, 半面#VV, 紫红色#NN)  (advmod, 半面#VV, 只有#AD)  (conj, 贝类#NN, 半面#VV)  (dobj, 半面#VV, 外壳#NN)  (nn, 坚厚#NN, 壳#NN)  (nsubj, 宽#VA, 坚厚#NN)  (nsubj, 宽#VA, 扁#NN)  (prtmod, 宽#VA, 而#MSP)  (conj, 贝类#NN, 宽#VA)   (amod, 种类#NN, 主要#JJ)  (dep, 有#VE, 种类#NN)  (root, ROOT#null, 有#VE)  (nn, 鲍#NN, 杂色#NN)  (conj, 纹#NN, 鲍#NN)  (nummod, 纹#NN, 半#CD)  (nn, 盘鲍#NN, 纹#NN)  (conj, 皱纹#NR, 鲍#NR)  (conj, 皱纹#NR, 羊鲍#NR)  (conj, 皱纹#NR, 耳鲍#NR)  (cc, 皱纹#NR, 和#CC)  (nn, 盘鲍#NN, 皱纹#NR)  (dobj, 有#VE, 盘鲍#NN)  (nummod, 种#M, 五#CD)  (range, 有#VE, 种#M)   (nsubj, 食材#NN, 鲍鱼#NN)  (cop, 食材#NN, 是#VC)  (nn, 食材#NN, 中国#NR)  (assmod, 食材#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (amod, 食材#NN, 名贵#JJ)  (root, ROOT#null, 食材#NN)  (nummod, 之首#NN, 四#CD)  (amod, 之首#NN, 大#JJ)  (nn, 之首#NN, 海味#NN)  (nsubj, 有#VE, 之首#NN)  (advmod, 有#VE, 素#AD)  (conj, 食材#NN, 有#VE)  (nn, 鲍鱼#NN, ``#NR)  (nummod, 口#M, 一#CD)  (clf, 鲍鱼#NN, 口#M)  (nn, ''#NN, 鲍鱼#NN)  (nummod, 口#M, 一#CD)  (clf, ''#NN, 口#M)  (nn, ''#NN, 金#NN)  (assmod, 说#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 说#NN)   (root, ROOT#null, null#null)
+            (nsubj, 无#VE, 鲍鱼#NN)  (case, 鱼类#NN, 同#P)  (prep, 无#VE, 鱼类#NN)  (advmod, 无#VE, 毫#AD)  (root, ROOT#null, 无#VE)  (dobj, 无#VE, 关系#NN)  (dep, 无#VE, 倒#VV)  (case, 沾亲带故#VV, 跟#P)  (nn, 之类#NN, 田螺#NN)  (nsubj, 沾亲带故#VV, 之类#NN)  (xsubj, 称为#VV, 之类#NN)  (prep, 像人#VV, 沾亲带故#VV)  (case, 考证#VV, 据#P)  (prep, 称为#VV, 考证#VV)  (dep, 鱼#NN, 盾#M)  (dobj, 考证#VV, 鱼#NN)  (case, 鲍叔#VV, 因#P)  (prep, 称为#VV, 鲍叔#VV)  (nn, 爱吃#NN, 牙#NN)  (dobj, 鲍叔#VV, 爱吃#NN)  (advmod, 称为#VV, 而#AD)  (auxpass, 称为#VV, 被#SB)  (ccomp, 沾亲带故#VV, 称为#VV)  (dobj, 称为#VV, 鲍鱼#NN)  (nsubj, 像人#VV, 形状#NN)  (nsubj, 像人#VV, 有的#PN)  (relcl, 耳朵#NN, 像人#VV)  (mark, 像人#VV, 的#DEC)  (dobj, 倒#VV, 耳朵#NN)   (nn, 部#NN, 螺旋#NN)  (nsubj, 留有#VV, 部#NN)  (advmod, 留有#VV, 只#AD)  (root, ROOT#null, 留有#VV)  (dobj, 留有#VV, 痕迹#NN)  (conj, 留有#VV, 占#VV)  (det, 壳#NN, 全#DT)  (assmod, 部分#NN, 壳#NN)  (case, 壳#NN, 的#DEG)  (advmod, 小#VA, 极#AD)  (relcl, 部分#NN, 小#VA)  (dobj, 占#VV, 部分#NN)   (assmod, 边缘#NN, 壳#NN)  (case, 壳#NN, 的#DEG)  (dep, 有#VE, 边缘#NN)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 9#CD)  (dep, 有#VE, 个#M)  (nsubj, 流进#VV, 孔#NR)  (nsubj, 流进#VV, 海水#NN)  (case, 这里#PN, 从#P)  (prep, 流进#VV, 这里#PN)  (conj, 有#VE, 流进#VV)  (nsubj, 依靠#VV, 排出#NN)  (advmod, 鲍#VV, 连#AD)  (relcl, 生育#NN, 鲍#VV)  (mark, 鲍#VV, 的#DEC)  (conj, 生育#NN, 呼吸#NN)  (conj, 生育#NN, 排泄#NN)  (cc, 生育#NN, 和#CC)  (nsubj, 依靠#VV, 生育#NN)  (advmod, 依靠#VV, 也#AD)  (mmod, 依靠#VV, 得#VV)  (ccomp, 流进#VV, 依靠#VV)  (dobj, 依靠#VV, 它#PN)   (advmod, ''#VV, 所以#AD)  (nsubj, ''#VV, 它#PN)  (nsubj, ''#VV, 又叫#NN)  (root, ROOT#null, ''#VV)  (nummod, ''#NN, 9孔螺#CD)  (dobj, ''#VV, ''#NN)   (nn, 表面#NN, 壳#NN)  (nsubj, 粗糙#VV, 表面#NN)  (xsubj, 有#VE, 表面#NN)  (root, ROOT#null, 粗糙#VV)  (ccomp, 粗糙#VV, 有#VE)  (nn, 斑块#NN, 黑褐色#NN)  (dobj, 有#VE, 斑块#NN)  (advmod, 呈现#VV, 内面#AD)  (conj, 有#VE, 呈现#VV)  (amod, 等色#NN, 青#JJ)  (conj, 青#JJ, 绿#JJ)  (conj, 青#JJ, 红#JJ)  (dep, 青#JJ, 蓝#JJ)  (nn, 交相辉映#NN, 等色#NN)  (assmod, 光泽#NN, 交相辉映#NN)  (case, 交相辉映#NN, 的#DEG)  (nn, 光泽#NN, 珍珠#NN)  (dobj, 呈现#VV, 光泽#NN)   (root, ROOT#null, null#null)
+            (nsubj, 煮熟#VV, 鲜鲍#NN)  (case, 时间#NN, 经过#P)  (conj, 盐渍#NN, 去壳#NN)  (nn, 时间#NN, 盐渍#NN)  (nummod, 段#M, 一#CD)  (clf, 时间#NN, 段#M)  (prep, 煮熟#VV, 时间#NN)  (advmod, 煮熟#VV, 然后#AD)  (root, ROOT#null, 煮熟#VV)  (case, 内脏#NN, 除去#P)  (prep, 成#VV, 内脏#NN)  (advmod, 成#VV, 晒干#AD)  (dep, 煮熟#VV, 成#VV)  (dobj, 成#VV, 干品#NN)   (nsubj, 鲜美#VA, 它#PN)  (advmod, 鲜美#VA, 肉质#AD)  (root, ROOT#null, 鲜美#VA)  (dep, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (nn, 肚#NN, ''#NN)  (conj, 肚#NN, 鲍#NN)  (conj, 肚#NN, 参#NN)  (conj, 肚#NN, 翅#NN)  (nn, ''#NN, 肚#NN)  (nsubj, 海味#NN, ''#NN)  (advmod, 海味#NN, 都#AD)  (cop, 海味#NN, 是#VC)  (relcl, 海味#NN, 珍贵#VA)  (mark, 珍贵#VA, 的#DEC)  (root, ROOT#null, 海味#NN)  (cc, 海味#NN, 而#CC)  (nsubj, 列#VV, 鲍鱼#NR)  (conj, 海味#NN, 列#VV)  (case, 鱼肚#NR, 在#P)  (conj, 鱼肚#NR, 海参#NR)  (conj, 鱼肚#NR, 鱼翅#NR)  (assmod, 首#NN, 鱼肚#NR)  (case, 鱼肚#NR, 之#DEG)  (dobj, 列#VV, 首#NN)   (nsubj, 约有#VV, 全世界#NN)  (root, ROOT#null, 约有#VV)  (nummod, 种#M, 90#CD)  (clf, 鲍#NN, 种#M)  (dobj, 约有#VV, 鲍#NN)  (assmod, 足迹#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (nsubj, 遍及#VV, 足迹#NN)  (conj, 约有#VV, 遍及#VV)  (conj, 印度洋#NR, 太平洋#NR)  (conj, 印度洋#NR, 大西洋#NR)  (cc, 印度洋#NR, 和#CC)  (dobj, 遍及#VV, 印度洋#NR)   (nn, 国#NN, 我#PN)  (nsubj, 叫#VV, 国#NN)  (nn, 海湾#NN, 渤海#NR)  (nsubj, 产#VV, 海湾#NN)  (nsubj, 叫#VV, 产#VV)  (mark, 产#VV, 的#DEC)  (conj, 食用#VV, 叫#VV)  (nn, 盘鲍#NN, 皱纹#NN)  (dobj, 叫#VV, 盘鲍#NN)  (nsubj, 较大#JJ, 个体#NN)  (conj, 叫#VV, 较大#JJ)  (nn, 沿海#NN, 东南#NN)  (nsubj, 产#VV, 沿海#NN)  (dep, 叫#VV, 产#VV)  (mark, 产#VV, 的#DEC)  (dep, 较大#JJ, 叫#VV)  (nn, 鲍#NN, 杂色#NN)  (dobj, 叫#VV, 鲍#NN)  (nsubj, 较小#VA, 个体#NN)  (conj, 叫#VV, 较小#VA)  (nn, 群岛#NN, 西沙#NN)  (nsubj, 产#VV, 群岛#NN)  (relcl, 纹#NN, 产#VV)  (mark, 产#VV, 的#DEC)  (nummod, 纹#NN, 半#CD)  (nsubj, 鲍#VA, 纹#NN)  (conj, 叫#VV, 鲍#VA)  (dep, 鲍#VA, 羊鲍#VA)  (conj, 叫#VV, 是#VC)  (dep, 是#VC, 著名#JJ)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 鲍#NN)   (case, 很少#VA, 由于#P)  (amod, 产量#NN, 天然#JJ)  (nsubj, 很少#VA, 产量#NN)  (root, ROOT#null, 很少#VA)  (advmod, 昂贵#VA, 因此#AD)  (nsubj, 昂贵#VA, 价格#NN)  (conj, 很少#VA, 昂贵#VA)   (tmod, 培育#VV, 现在#NT)  (relcl, 国家#NN, 世界上#VV)  (dobj, 世界上#VV, 产鲍#NN)  (mark, 世界上#VV, 的#DEC)  (nsubj, 培育#VV, 国家#NN)  (advmod, 培育#VV, 都#AD)  (case, 养殖#NN, 在#P)  (nn, 养殖#NN, 发展#NN)  (amod, 养殖#NN, 人工#JJ)  (prep, 培育#VV, 养殖#NN)  (advmod, 培育#VV, 我国#AD)  (case, 70年代#CD, 在#P)  (dep, 70年代#CD, 20世纪#CD)  (prep, 培育#VV, 70年代#CD)  (root, ROOT#null, 培育#VV)  (rcomp, 培育#VV, 出#VV)  (nn, 鲍苗#NN, 杂色#NN)  (dobj, 培育#VV, 鲍苗#NN)  (amod, 养殖#NN, 人工#JJ)  (nsubj, 获得#VV, 养殖#NN)  (conj, 培育#VV, 获得#VV)  (dobj, 获得#VV, 成功#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提高免疫力
+            鲍鱼肉中能提取一种被称作鲍灵素的生物活性物质，实验表明，它能够提高免疫力，破坏癌细胞代谢过程，能提高抑瘤率，却不损害机体的正常细胞，有保护机体免疫系统的作用。
+            2.调经润肠
+            鲍鱼能双向性调节血压，原因是鲍鱼能“养阴、平肝、固肾”，可调整肾上腺分泌。鲍鱼有调经、润燥利肠之效，可治月经不调、大便秘结等疾患。
+            3.促进生长发育
+            鲍鱼含有丰富的维生素，其中比较特出的是维生素A，维生素A是保护皮肤健康、视力健康以及加强免疫力、促进生长发育的关键营养素。
+            4.药用价值
+            鲍鱼的壳，中药称石决明，因其有明目退翳之功效，古书又称之为“千里光”。石决明还有清热平肝、滋阴潜阳的作用，可用于医治头晕眼花、高血压及其他炎症。
+        </rawdata>
+
+        <segment>
+            提高  免疫力
+            鲍鱼  肉  中  能  提取  一  种  被  称作  鲍灵  素  的  生物  活性  物质  ，  实验  表明  ，  它  能够  提高  免疫力  ，  破坏  癌细胞  代谢  过程  ，  能  提高  抑瘤率  ，  却  不  损害  机体  的  正常  细胞  ，  有  保护  机体  免疫  系统  的  作用  。
+            调经  润肠
+            鲍鱼  能  双向性  调节  血压  ，  原因  是  鲍鱼  能  “  养  阴  、  平肝  、  固  肾  ”  ，  可  调整  肾上腺  分泌  。  鲍鱼  有  调经  、  润燥利  肠  之  效  ，  可治  月经  不调  、  大便  秘结  等  疾患  。
+            促进  生长  发育
+            鲍鱼  含有  丰富  的  维生素  ，  其中  比较  特出  的  是  维生素A  ，  维生素A  是  保护  皮肤  健康  、  视力  健康  以及  加强  免疫力  、  促进  生长  发育  的  关键  营养素  。
+            药用  价值
+            鲍鱼  的  壳  ，  中药  称  石决明  ，  因其  有  明目  退翳  之  功效  ，  古书  又  称之为  “  千里光  ”  。  石决明  还有  清热  平肝  、  滋阴  潜阳  的  作用  ，  可  用于  医治  头晕  眼花  、  高血压  及  其他  炎症  。
+        </segment>
+
+        <pos>
+            提高#VV  免疫力#NN
+            鲍鱼#NN  肉#NN  中#LC  能#VV  提取#VV  一#CD  种#M  被#SB  称作#VV  鲍灵#VV  素#AD  的#DEC  生物#NN  活性#NN  物质#NN  ，#PU  实验#NN  表明#VV  ，#PU  它#PN  能够#VV  提高#VV  免疫力#NN  ，#PU  破坏#VV  癌细胞#NN  代谢#NN  过程#NN  ，#PU  能#VV  提高#VV  抑瘤率#NN  ，#PU  却#AD  不#AD  损害#VV  机体#NN  的#DEG  正常#JJ  细胞#NN  ，#PU  有#VE  保护#VV  机体#NN  免疫#NN  系统#NN  的#DEC  作用#NN  。#PU
+            调经#NN  润肠#VV
+            鲍鱼#NN  能#VV  双向性#AD  调节#VV  血压#NN  ，#PU  原因#NN  是#VC  鲍鱼#NN  能#VV  ``#AD  养#VV  阴#NN  、#PU  平肝#NN  、#PU  固#NN  肾#NN  ''#NN  ，#PU  可#VV  调整#VV  肾上腺#NN  分泌#NN    。#PU  鲍鱼#AD  有#VE  调经#NR  、#PU  润燥利#NR  肠#NN  之#DEG  效#NN  ，#PU  可治#AD  月经#VV  不调#NR  、#PU  大便#NR  秘结#NR  等#ETC  疾患#NN    。#PU    。#PU
+            促进#VV  生长#NN  发育#NN
+            鲍鱼#NN  含有#NN  丰富#VA  的#DEC  维生素#NN  ，#PU  其中#NN  比较#AD  特出#VA  的#DEC  是#VC  维生素A#NN  ，#PU  维生素A#AD  是#VC  保护#NN  皮肤#NN  健康#VA  、#PU  视力#AD  健康#VA  以及#CC  加强#VV  免疫力#NN  、#PU  促进#VV  生长#NN  发育#NN  的#DEC  关键#JJ  营养素#NN  。#PU
+            药用#VV  价值#NN
+            鲍鱼#NN  的#DEG  壳#NN  ，#PU  中药#NN  称#VV  石决明#NN  ，#PU  因其#AD  有#VE  明目#NN  退翳#NN  之#DEG  功效#NN  ，#PU  古书#NN  又#AD  称之为#VV  ``#NR  千里光#CD  ''#NN    。#PU  石决明#VV  还有#AD  清热#AD  平肝#VA  、#PU  滋阴#AD  潜阳#VA  的#DEC  作用#NN  ，#PU  可#VV  用于#VV  医治#VV  头晕#NN  眼花#NN  、#PU  高血压#NN  及#CC  其他#DT  炎症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (nn, 肉#NN, 鲍鱼#NN)  (loc, 提取#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (mmod, 提取#VV, 能#VV)  (root, ROOT#null, 提取#VV)  (nummod, 种#M, 一#CD)  (range, 提取#VV, 种#M)  (auxpass, 称作#VV, 被#SB)  (dep, 提取#VV, 称作#VV)  (relcl, 物质#NN, 鲍灵#VV)  (advmod, 鲍灵#VV, 素#AD)  (mark, 鲍灵#VV, 的#DEC)  (nn, 物质#NN, 生物#NN)  (nn, 物质#NN, 活性#NN)  (dobj, 称作#VV, 物质#NN)  (nsubj, 表明#VV, 实验#NN)  (conj, 提取#VV, 表明#VV)  (nsubj, 提高#VV, 它#PN)  (mmod, 提高#VV, 能够#VV)  (ccomp, 表明#VV, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)  (conj, 提高#VV, 破坏#VV)  (nn, 过程#NN, 癌细胞#NN)  (nn, 过程#NN, 代谢#NN)  (dobj, 破坏#VV, 过程#NN)  (mmod, 提高#VV, 能#VV)  (conj, 提高#VV, 提高#VV)  (dobj, 提高#VV, 抑瘤率#NN)  (advmod, 损害#VV, 却#AD)  (neg, 损害#VV, 不#AD)  (conj, 提高#VV, 损害#VV)  (assmod, 细胞#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (amod, 细胞#NN, 正常#JJ)  (dobj, 损害#VV, 细胞#NN)  (conj, 提高#VV, 有#VE)  (relcl, 作用#NN, 保护#VV)  (nn, 系统#NN, 机体#NN)  (nn, 系统#NN, 免疫#NN)  (dobj, 保护#VV, 系统#NN)  (mark, 保护#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 润肠#VV, 调经#NN)  (root, ROOT#null, 润肠#VV)
+            (nsubj, 调节#VV, 鲍鱼#NN)  (mmod, 调节#VV, 能#VV)  (advmod, 调节#VV, 双向性#AD)  (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 血压#NN)  (dep, 鲍鱼#NN, 原因#NN)  (cop, 鲍鱼#NN, 是#VC)  (ccomp, 调节#VV, 鲍鱼#NN)  (mmod, 养#VV, 能#VV)  (advmod, 养#VV, ``#AD)  (conj, 鲍鱼#NN, 养#VV)  (conj, ''#NN, 阴#NN)  (conj, ''#NN, 平肝#NN)  (nn, ''#NN, 固#NN)  (nn, ''#NN, 肾#NN)  (dobj, 养#VV, ''#NN)  (mmod, 调整#VV, 可#VV)  (ccomp, 调节#VV, 调整#VV)  (conj, 调节#VV, 调整#VV)  (nn, 分泌#NN, 肾上腺#NN)  (dobj, 调整#VV, 分泌#NN)   (advmod, 有#VE, 鲍鱼#AD)  (root, ROOT#null, 有#VE)  (conj, 润燥利#NR, 调经#NR)  (nn, 肠#NN, 润燥利#NR)  (assmod, 效#NN, 肠#NN)  (case, 肠#NN, 之#DEG)  (dobj, 有#VE, 效#NN)  (advmod, 月经#VV, 可治#AD)  (dep, 有#VE, 月经#VV)  (conj, 秘结#NR, 不调#NR)  (nn, 秘结#NR, 大便#NR)  (nn, 疾患#NN, 秘结#NR)  (etc, 秘结#NR, 等#ETC)  (dobj, 月经#VV, 疾患#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 含有#NN, 鲍鱼#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 维生素A#NN, 维生素#NN)  (nsubj, 特出#VA, 其中#NN)  (advmod, 特出#VA, 比较#AD)  (nsubj, 维生素A#NN, 特出#VA)  (mark, 特出#VA, 的#DEC)  (cop, 维生素A#NN, 是#VC)  (root, ROOT#null, 维生素A#NN)  (advmod, 营养素#NN, 维生素A#AD)  (cop, 营养素#NN, 是#VC)  (nn, 皮肤#NN, 保护#NN)  (nsubj, 健康#VA, 皮肤#NN)  (relcl, 营养素#NN, 健康#VA)  (advmod, 健康#VA, 视力#AD)  (conj, 健康#VA, 健康#VA)  (cc, 健康#VA, 以及#CC)  (dep, 健康#VA, 加强#VV)  (dobj, 加强#VV, 免疫力#NN)  (conj, 健康#VA, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)  (mark, 健康#VA, 的#DEC)  (amod, 营养素#NN, 关键#JJ)  (conj, 维生素A#NN, 营养素#NN)
+            (root, ROOT#null, 药用#VV)  (dobj, 药用#VV, 价值#NN)
+            (assmod, 壳#NN, 鲍鱼#NN)  (case, 鲍鱼#NN, 的#DEG)  (nsubj, 称#VV, 壳#NN)  (nsubj, 称#VV, 中药#NN)  (root, ROOT#null, 称#VV)  (nsubj, 有#VE, 石决明#NN)  (advmod, 有#VE, 因其#AD)  (ccomp, 称#VV, 有#VE)  (nn, 退翳#NN, 明目#NN)  (assmod, 功效#NN, 退翳#NN)  (case, 退翳#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)  (nsubj, 称之为#VV, 古书#NN)  (advmod, 称之为#VV, 又#AD)  (conj, 称#VV, 称之为#VV)  (nn, ''#NN, ``#NR)  (nummod, ''#NN, 千里光#CD)  (dobj, 称之为#VV, ''#NN)   (root, ROOT#null, 石决明#VV)  (advmod, 平肝#VA, 还有#AD)  (advmod, 平肝#VA, 清热#AD)  (relcl, 作用#NN, 平肝#VA)  (advmod, 潜阳#VA, 滋阴#AD)  (dep, 平肝#VA, 潜阳#VA)  (mark, 平肝#VA, 的#DEC)  (dobj, 石决明#VV, 作用#NN)  (mmod, 用于#VV, 可#VV)  (conj, 石决明#VV, 用于#VV)  (ccomp, 用于#VV, 医治#VV)  (nn, 眼花#NN, 头晕#NN)  (conj, 炎症#NN, 眼花#NN)  (conj, 炎症#NN, 高血压#NN)  (cc, 炎症#NN, 及#CC)  (det, 炎症#NN, 其他#DT)  (dobj, 医治#VV, 炎症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血压  抗癌防癌  清热  润肠通便  养肝明目  补阴  调经
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鲍鱼含有丰富的蛋白质，还有较多的钙、铁、碘和维生素A等营养元素。
+            2.鲍鱼营养价值极高，富含丰富的球蛋白。
+            3.鲍鱼肉中能提取一种被称作鲍灵素的生物活性物质，有保护机体免疫系统的作用。
+        </rawdata>
+
+        <segment>
+            鲍鱼  含有  丰富  的  蛋白质  ，  还有  较  多  的  钙  、  铁  、  碘和  维生素A  等  营养  元素  。
+            鲍鱼  营养  价值  极高  ，  富含  丰富  的  球蛋白  。
+            鲍鱼  肉  中  能  提取  一  种  被  称作  鲍灵  素  的  生物  活性  物质  ，  有  保护  机体  免疫  系统  的  作用  。
+        </segment>
+
+        <pos>
+            鲍鱼#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  还有#AD  较#AD  多#VA  的#DEC  钙#NN  、#PU  铁#NN  、#PU  碘和#NN  维生素A#NN  等#ETC  营养#VA  元素#NN  。#PU
+            鲍鱼#VV  营养#VA  价值#NN  极高#NN  ，#PU  富含#VV  丰富#VA  的#DEC  球蛋白#NN  。#PU
+            鲍鱼#NN  肉#NN  中#LC  能#VV  提取#VV  一#CD  种#M  被#SB  称作#VV  鲍灵#VV  素#AD  的#DEC  生物#NN  活性#NN  物质#NN  ，#PU  有#VE  保护#VV  机体#NN  免疫#NN  系统#NN  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 鲍鱼#NN)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 营养#VA, 还有#AD)  (advmod, 多#VA, 较#AD)  (relcl, 维生素A#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 维生素A#NN, 钙#NN)  (conj, 维生素A#NN, 铁#NN)  (nn, 维生素A#NN, 碘和#NN)  (nsubj, 营养#VA, 维生素A#NN)  (etc, 维生素A#NN, 等#ETC)  (conj, 含有#VV, 营养#VA)  (dobj, 营养#VA, 元素#NN)
+            (root, ROOT#null, 鲍鱼#VV)  (rcomp, 鲍鱼#VV, 营养#VA)  (nn, 极高#NN, 价值#NN)  (dobj, 鲍鱼#VV, 极高#NN)  (conj, 鲍鱼#VV, 富含#VV)  (relcl, 球蛋白#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 富含#VV, 球蛋白#NN)
+            (nn, 肉#NN, 鲍鱼#NN)  (loc, 提取#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (mmod, 提取#VV, 能#VV)  (dep, 称作#VV, 提取#VV)  (nummod, 种#M, 一#CD)  (range, 提取#VV, 种#M)  (auxpass, 称作#VV, 被#SB)  (root, ROOT#null, 称作#VV)  (relcl, 物质#NN, 鲍灵#VV)  (advmod, 鲍灵#VV, 素#AD)  (mark, 鲍灵#VV, 的#DEC)  (nn, 物质#NN, 生物#NN)  (nn, 物质#NN, 活性#NN)  (dobj, 称作#VV, 物质#NN)  (dep, 称作#VV, 有#VE)  (relcl, 作用#NN, 保护#VV)  (nn, 系统#NN, 机体#NN)  (nn, 系统#NN, 免疫#NN)  (dobj, 保护#VV, 系统#NN)  (mark, 保护#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.鲍鱼要在冷水中浸泡48小时，将干鲍鱼四周刷洗干净，彻底去沙，否则会影响到鲍鱼的口感与品质，然后先蒸后炖。
+            2.“鲜鲍鱼”的烹制十分讲究火候的把握，火候不够则味腥，过火则肉质变韧发硬；所以，鲍鱼非常注重调味的得法，浓淡的适宜，否则鲍鱼本身的鲜味是出不来的。
+        </rawdata>
+
+        <segment>
+            鲍鱼  要  在  冷水  中  浸泡  48  小时  ，  将  干  鲍鱼  四周  刷洗  干净  ，  彻底  去沙  ，  否则  会  影响  到  鲍鱼  的  口感  与  品质  ，  然后  先  蒸  后  炖  。
+            “  鲜  鲍鱼  ”  的  烹制  十分  讲究  火候  的  把握  ，  火候  不够  则  味腥  ，  过火  则  肉质  变  韧  发硬  ；  所以  ，  鲍鱼  非常  注重  调味  的  得法  ，  浓淡  的  适宜  ，  否则  鲍鱼  本身  的  鲜味  是  出  不  来  的  。
+        </segment>
+
+        <pos>
+            鲍鱼#NN  要#VV  在#P  冷水#NN  中#LC  浸泡#VV  48#CD  小时#NN  ，#PU  将#AD  干#VV  鲍鱼#NN  四周#NN  刷洗#AD  干净#VA  ，#PU  彻底#AD  去沙#VA  ，#PU  否则#AD  会#VV  影响#VV  到#VV  鲍鱼#NN  的#DEC  口感#NN  与#CC  品质#NN  ，#PU  然后#AD  先#AD  蒸#VV  后#LC  炖#VV  。#PU
+            ``#VV  鲜#NN  鲍鱼#NN  ''#NN  的#DEC  烹制#NN  十分#AD  讲究#VV  火候#NN  的#DEG  把握#NN  ，#PU  火候#NN  不够#NN  则#AD  味腥#VV  ，#PU  过火#NN  则#AD  肉质#AD  变#VV  韧#NN  发硬#NN  ；#PU  所以#AD  ，#PU  鲍鱼#NN  非常#AD  注重#VV  调味#NN  的#DEG  得法#NN  ，#PU  浓淡#VA  的#DEC  适宜#VA  ，#PU  否则#AD  鲍鱼#VV  本身#PN  的#DEC  鲜味#NN  是#VC  出#VV  不#AD  来#VV  的#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 浸泡#VV, 鲍鱼#NN)  (mmod, 浸泡#VV, 要#VV)  (case, 冷水#NN, 在#P)  (prep, 浸泡#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (root, ROOT#null, 浸泡#VV)  (nummod, 小时#NN, 48#CD)  (dobj, 浸泡#VV, 小时#NN)  (advmod, 干#VV, 将#AD)  (conj, 浸泡#VV, 干#VV)  (nn, 四周#NN, 鲍鱼#NN)  (nsubj, 干净#VA, 四周#NN)  (advmod, 干净#VA, 刷洗#AD)  (relcl, 品质#NN, 干净#VA)  (advmod, 去沙#VA, 彻底#AD)  (dep, 干净#VA, 去沙#VA)  (advmod, 影响#VV, 否则#AD)  (mmod, 影响#VV, 会#VV)  (dep, 干净#VA, 影响#VV)  (rcomp, 影响#VV, 到#VV)  (dobj, 影响#VV, 鲍鱼#NN)  (mark, 干净#VA, 的#DEC)  (conj, 品质#NN, 口感#NN)  (cc, 品质#NN, 与#CC)  (dobj, 干#VV, 品质#NN)  (advmod, 蒸#VV, 然后#AD)  (advmod, 蒸#VV, 先#AD)  (loc, 炖#VV, 蒸#VV)  (case, 蒸#VV, 后#LC)  (dep, 浸泡#VV, 炖#VV)
+            (relcl, 烹制#NN, ``#VV)  (nn, ''#NN, 鲜#NN)  (nn, ''#NN, 鲍鱼#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (nsubj, 讲究#VV, 烹制#NN)  (advmod, 讲究#VV, 十分#AD)  (root, ROOT#null, 讲究#VV)  (assmod, 把握#NN, 火候#NN)  (case, 火候#NN, 的#DEG)  (dobj, 讲究#VV, 把握#NN)  (nn, 不够#NN, 火候#NN)  (nsubj, 味腥#VV, 不够#NN)  (advmod, 味腥#VV, 则#AD)  (conj, 讲究#VV, 味腥#VV)  (nsubj, 变#VV, 过火#NN)  (advmod, 变#VV, 则#AD)  (advmod, 变#VV, 肉质#AD)  (conj, 讲究#VV, 变#VV)  (nn, 发硬#NN, 韧#NN)  (dobj, 变#VV, 发硬#NN)  (advmod, 注重#VV, 所以#AD)  (nsubj, 注重#VV, 鲍鱼#NN)  (advmod, 注重#VV, 非常#AD)  (conj, 讲究#VV, 注重#VV)  (assmod, 得法#NN, 调味#NN)  (case, 调味#NN, 的#DEG)  (dobj, 注重#VV, 得法#NN)  (relcl, 鲜味#NN, 浓淡#VA)  (mark, 浓淡#VA, 的#DEC)  (relcl, 鲜味#NN, 适宜#VA)  (advmod, 鲍鱼#VV, 否则#AD)  (dep, 适宜#VA, 鲍鱼#VV)  (dobj, 鲍鱼#VV, 本身#PN)  (mark, 适宜#VA, 的#DEC)  (nsubj, 来#VV, 鲜味#NN)  (cop, 来#VV, 是#VC)  (mmod, 来#VV, 出#VV)  (neg, 来#VV, 不#AD)  (conj, 讲究#VV, 来#VV)  (mark, 来#VV, 的#DEC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101053074925.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\125 鲍鱼.jpg
+    </picturelocalurl>
+
+</content>

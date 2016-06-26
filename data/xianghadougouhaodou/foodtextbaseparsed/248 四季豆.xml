@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        248
+    </id>
+
+    <foodname>
+        四季豆
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        菜豆、豆角、白饭豆、云扁豆、龙爪豆、龙骨豆、芸豆、二生豆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹胀者忌食。
+        </rawdata>
+
+        <segment>
+            腹胀者  忌食  。
+        </segment>
+
+        <pos>
+            腹胀者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 腹胀者#VV)  (dobj, 腹胀者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                210
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                27.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                123
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                8.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.18
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            四季豆是为豆科一年生缠绕草本植物扁豆的种子。是老百姓餐桌上十分常见的蔬菜之一。根系较发达。茎蔓生、半蔓生或矮生。最常见的为：芸豆和架豆，在浙江衢州叫做清明豆，在中国北方叫豆角等，是餐桌上的常见蔬菜之一。无论单独清炒，还是和肉类同炖，亦或是焯熟凉拌，都很符合人们的口味。
+        </rawdata>
+
+        <segment>
+            四季豆  是  为  豆科  一  年  生  缠绕  草本  植物  扁豆  的  种子  。  是  老百姓  餐桌  上  十分  常见  的  蔬菜  之一  。  根系  较  发达  。  茎  蔓生  、  半  蔓生  或  矮生  。  最  常见  的  为  ：  芸豆  和  架豆  ，  在  浙江  衢州  叫做  清明豆  ，  在  中国  北方  叫  豆角  等  ，  是  餐桌  上  的  常见  蔬菜  之一  。  无论  单独  清炒  ，  还是  和  肉类  同  炖  ，  亦或是  焯熟  凉拌  ，  都  很  符合  人们  的  口味  。
+        </segment>
+
+        <pos>
+            四季豆#CD  是#VC  为#P  豆科#VV  一#CD  年#M  生#VV  缠绕#NN  草本#NN  植物#NN  扁豆#NN  的#DEC  种子#NN    。#PU  是#VC  老百姓#NN  餐桌#NN  上#LC  十分#AD  常见#VA  的#DEC  蔬菜#NN  之一#NN    。#PU  根系#NN  较#AD  发达#VA    。#PU  茎#NR  蔓生#NN  、#PU  半#CD  蔓生#NN  或#CC  矮生#NN    。#PU  最#AD  常见#VA  的#DEC  为#VC  ：#PU  芸豆#NR  和#CC  架豆#NR  ，#PU  在#P  浙江#NR  衢州#NR  叫做#NN  清明豆#NN  ，#PU  在#P  中国#NR  北方#NN  叫#VV  豆角#NN  等#ETC  ，#PU  是#VC  餐桌#NN  上#LC  的#DEG  常见#JJ  蔬菜#NN  之一#NN    。#PU  无论#AD  单独#AD  清炒#VV  ，#PU  还是#CC  和#CC  肉类#VV  同#DT  炖#NN  ，#PU  亦或是#VV  焯熟#NN  凉拌#NN  ，#PU  都#AD  很#AD  符合#VV  人们#NN  的#DEG  口味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 种子#NN, 四季豆#CD)  (cop, 种子#NN, 是#VC)  (case, 豆科#VV, 为#P)  (prep, 生#VV, 豆科#VV)  (nummod, 年#M, 一#CD)  (range, 豆科#VV, 年#M)  (relcl, 种子#NN, 生#VV)  (nn, 扁豆#NN, 缠绕#NN)  (nn, 扁豆#NN, 草本#NN)  (nn, 扁豆#NN, 植物#NN)  (dobj, 生#VV, 扁豆#NN)  (mark, 生#VV, 的#DEC)  (root, ROOT#null, 种子#NN)   (cop, 之一#NN, 是#VC)  (nn, 餐桌#NN, 老百姓#NN)  (loc, 常见#VA, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (advmod, 常见#VA, 十分#AD)  (relcl, 之一#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 之一#NN, 蔬菜#NN)  (root, ROOT#null, 之一#NN)   (nsubj, 发达#VA, 根系#NN)  (advmod, 发达#VA, 较#AD)  (root, ROOT#null, 发达#VA)   (nn, 矮生#NN, 茎#NR)  (conj, 矮生#NN, 蔓生#NN)  (nummod, 蔓生#NN, 半#CD)  (conj, 矮生#NN, 蔓生#NN)  (cc, 矮生#NN, 或#CC)  (root, ROOT#null, 矮生#NN)   (advmod, 常见#VA, 最#AD)  (nsubj, 叫#VV, 常见#VA)  (mark, 常见#VA, 的#DEC)  (cop, 叫#VV, 为#VC)  (conj, 架豆#NR, 芸豆#NR)  (cc, 架豆#NR, 和#CC)  (nsubj, 叫#VV, 架豆#NR)  (case, 清明豆#NN, 在#P)  (nn, 清明豆#NN, 浙江#NR)  (nn, 清明豆#NN, 衢州#NR)  (nn, 清明豆#NN, 叫做#NN)  (prep, 叫#VV, 清明豆#NN)  (case, 北方#NN, 在#P)  (nn, 北方#NN, 中国#NR)  (prep, 叫#VV, 北方#NN)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 豆角#NN)  (etc, 豆角#NN, 等#ETC)  (cop, 之一#NN, 是#VC)  (assmod, 之一#NN, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (case, 餐桌#NN, 的#DEG)  (amod, 之一#NN, 常见#JJ)  (nn, 之一#NN, 蔬菜#NN)  (conj, 叫#VV, 之一#NN)   (advmod, 清炒#VV, 无论#AD)  (advmod, 清炒#VV, 单独#AD)  (root, ROOT#null, 清炒#VV)  (cc, 清炒#VV, 还是#CC)  (cc, 肉类#VV, 和#CC)  (dep, 清炒#VV, 肉类#VV)  (det, 炖#NN, 同#DT)  (dobj, 肉类#VV, 炖#NN)  (conj, 肉类#VV, 亦或是#VV)  (nn, 凉拌#NN, 焯熟#NN)  (dobj, 亦或是#VV, 凉拌#NN)  (advmod, 符合#VV, 都#AD)  (advmod, 符合#VV, 很#AD)  (conj, 肉类#VV, 符合#VV)  (assmod, 口味#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (dobj, 符合#VV, 口味#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性甘、淡、微温，归脾、胃经。化湿而不燥烈，健脾而不滞腻，为脾虚湿停常用之品。有调和脏腑、安养精神、益气健脾、消暑化湿和利水消肿的功效。主治脾虚兼湿、食少便溏，湿浊下注、妇女带下过多，还可用于暑湿伤中、吐泻转筋等证。
+            1.增进食欲
+            四季豆中含有蛋白质和多种氨基酸，经常食用能健脾利胃，增进食欲。夏季多食四季豆能消暑，清口。
+            2.缓解缺铁性贫血
+            四季豆中含有丰富的维生素C和铁，经常食用对缺铁性贫血有益。
+            3.养胃下气
+            主治脾虚兼湿、食少便溏，湿浊下注、妇女带下过多，还可用于暑湿伤中、吐泻转筋等症。
+            4.利水消肿
+            有调和脏腑、安养精神、益气健脾、消暑化湿和利水消肿的功效。
+            5.强壮骨骼
+            虽然四季豆的钙含量不是太多，但是它含有大量的维生素K。男科医院在线咨询专家研究表明，维生素K能增加骨质疏松病人的骨密度，降低骨折的风险。
+        </rawdata>
+
+        <segment>
+            性甘  、  淡  、  微温  ，  归脾  、  胃经  。  化湿  而  不  燥烈  ，  健脾  而  不  滞腻  ，  为  脾虚  湿  停  常  用  之  品  。  有  调和  脏腑  、  安养  精神  、  益气  健脾  、  消暑  化湿  和  利水  消肿  的  功效  。  主治  脾虚  兼湿  、  食少便溏  ，  湿浊  下注  、  妇女  带下  过多  ，  还  可  用于  暑湿  伤  中  、  吐泻  转筋  等  证  。
+            增进  食欲
+            四季豆  中  含有  蛋白质  和  多种  氨基酸  ，  经常  食用  能  健脾  利胃  ，  增进  食欲  。  夏季  多  食  四季豆  能  消暑  ，  清口  。
+            缓解  缺  铁  性  贫血
+            四季豆  中  含有  丰富  的  维生素C  和  铁  ，  经常  食用  对  缺  铁  性  贫血  有益  。
+            养  胃  下气
+            主治  脾虚  兼湿  、  食少便溏  ，  湿浊  下注  、  妇女  带下  过多  ，  还  可  用于  暑湿  伤  中  、  吐泻  转筋  等症  。
+            利水  消肿
+            有  调和  脏腑  、  安养  精神  、  益气  健脾  、  消暑  化湿  和  利水  消肿  的  功效  。
+            强壮  骨骼
+            虽然  四季豆  的  钙  含量  不  是  太  多  ，  但是  它  含有  大量  的  维生素K  。  男科  医院  在线  咨询  专家  研究  表明  ，  维生素K  能  增加  骨质  疏松  病人  的  骨密度  ，  降低  骨折  的  风险  。
+        </segment>
+
+        <pos>
+            性甘#NR  、#PU  淡#NR  、#PU  微温#NR  ，#PU  归脾#NR  、#PU  胃经#NR    。#PU  化湿#NR  而#MSP  不#AD  燥烈#VV  ，#PU  健脾#NN  而#MSP  不#AD  滞腻#VV  ，#PU  为#P  脾虚#NN  湿#NN  停#VV  常#AD  用#VV  之#PN  品#M    。#PU  有#VE  调和#NN  脏腑#NN  、#PU  安养#NN  精神#NN  、#PU  益气#NN  健脾#NN  、#PU  消暑#NN  化湿#NN  和#CC  利水#NN  消肿#NN  的#DEG  功效#NN    。#PU  主治#VV  脾虚#NN  兼湿#NN  、#PU  食少便溏#NN  ，#PU  湿浊#VV  下注#NN  、#PU  妇女#NN  带下#NN  过多#NN  ，#PU  还#AD  可#VV  用于#VV  暑湿#NN  伤#NN  中#NR  、#PU  吐泻#NR  转筋#NR  等#ETC  证#NN    。#PU    。#PU
+            增进#VV  食欲#NN
+            四季豆#CD  中#NR  含有#NR  蛋白质#NN  和#CC  多种#NN  氨基酸#VV  ，#PU  经常#AD  食用#VV  能#VV  健脾#VV  利胃#NN  ，#PU  增进#VV  食欲#NN    。#PU  夏季#NT  多#CD  食#NN  四季豆#CD  能#VV  消暑#VV  ，#PU  清口#VV    。#PU    。#PU
+            缓解#VV  缺#VV  铁#NN  性#NN  贫血#NN
+            四季豆#CD  中#LC  含有#AD  丰富#VA  的#DEC  维生素C#NN  和#CC  铁#NN  ，#PU  经常#AD  食用#VV  对#P  缺#VV  铁#NN  性#NN  贫血#NN  有益#VA  。#PU
+            养#VV  胃#NN  下气#NN
+            主治#NR  脾虚#NN  兼湿#NN  、#PU  食少便溏#NN  ，#PU  湿浊#NN  下注#NN  、#PU  妇女#NN  带下#NN  过多#NN  ，#PU  还#AD  可#VV  用于#VV  暑湿#NN  伤#NN  中#NN  、#PU  吐泻#NN  转筋#NN  等症#NN  。#PU
+            利水#NN  消肿#VV
+            有#VE  调和#NN  脏腑#NN  、#PU  安养#NN  精神#NN  、#PU  益气#NN  健脾#NN  、#PU  消暑#NN  化湿#NN  和#CC  利水#NN  消肿#NN  的#DEG  功效#NN  。#PU
+            强壮#VV  骨骼#NN
+            虽然#CS  四季豆#CD  的#DEG  钙#NN  含量#NN  不#AD  是#VC  太#AD  多#VA  ，#PU  但是#AD  它#PN  含有#VV  大量#CD  的#DEC  维生素K#NN    。#PU  男科#NN  医院#NN  在线#NN  咨询#NN  专家#NN  研究#NN  表明#VV  ，#PU  维生素K#NN  能#VV  增加#VV  骨质#NN  疏松#NN  病人#NN  的#DEG  骨密度#NN  ，#PU  降低#VV  骨折#NN  的#DEG  风险#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 微温#NR, 性甘#NR)  (conj, 微温#NR, 淡#NR)  (dep, 胃经#NR, 微温#NR)  (conj, 胃经#NR, 归脾#NR)  (root, ROOT#null, 胃经#NR)   (nsubj, 燥烈#VV, 化湿#NR)  (prtmod, 燥烈#VV, 而#MSP)  (neg, 燥烈#VV, 不#AD)  (root, ROOT#null, 燥烈#VV)  (nsubj, 滞腻#VV, 健脾#NN)  (prtmod, 滞腻#VV, 而#MSP)  (neg, 滞腻#VV, 不#AD)  (ccomp, 燥烈#VV, 滞腻#VV)  (case, 湿#NN, 为#P)  (nn, 湿#NN, 脾虚#NN)  (prep, 停#VV, 湿#NN)  (dep, 滞腻#VV, 停#VV)  (advmod, 用#VV, 常#AD)  (dobj, 停#VV, 用#VV)  (dobj, 用#VV, 之#PN)  (dep, 用#VV, 品#M)   (root, ROOT#null, 有#VE)  (nn, 脏腑#NN, 调和#NN)  (conj, 消肿#NN, 脏腑#NN)  (nn, 精神#NN, 安养#NN)  (conj, 消肿#NN, 精神#NN)  (nn, 健脾#NN, 益气#NN)  (conj, 消肿#NN, 健脾#NN)  (nn, 化湿#NN, 消暑#NN)  (conj, 消肿#NN, 化湿#NN)  (cc, 消肿#NN, 和#CC)  (nn, 消肿#NN, 利水#NN)  (assmod, 功效#NN, 消肿#NN)  (case, 消肿#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, 主治#VV)  (nn, 食少便溏#NN, 脾虚#NN)  (conj, 食少便溏#NN, 兼湿#NN)  (dobj, 主治#VV, 食少便溏#NN)  (conj, 主治#VV, 湿浊#VV)  (conj, 过多#NN, 下注#NN)  (nn, 过多#NN, 妇女#NN)  (nn, 过多#NN, 带下#NN)  (dobj, 湿浊#VV, 过多#NN)  (advmod, 用于#VV, 还#AD)  (mmod, 用于#VV, 可#VV)  (conj, 主治#VV, 用于#VV)  (nn, 伤#NN, 暑湿#NN)  (nn, 证#NN, 伤#NN)  (conj, 转筋#NR, 中#NR)  (nn, 转筋#NR, 吐泻#NR)  (nn, 证#NN, 转筋#NR)  (etc, 转筋#NR, 等#ETC)  (dobj, 用于#VV, 证#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (nummod, 多种#NN, 四季豆#CD)  (nn, 含有#NR, 中#NR)  (nn, 多种#NN, 含有#NR)  (conj, 多种#NN, 蛋白质#NN)  (cc, 多种#NN, 和#CC)  (nsubj, 氨基酸#VV, 多种#NN)  (xsubj, 健脾#VV, 多种#NN)  (root, ROOT#null, 氨基酸#VV)  (advmod, 食用#VV, 经常#AD)  (dep, 健脾#VV, 食用#VV)  (mmod, 健脾#VV, 能#VV)  (ccomp, 氨基酸#VV, 健脾#VV)  (dobj, 健脾#VV, 利胃#NN)  (conj, 健脾#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)   (nn, 食#NN, 夏季#NT)  (nummod, 食#NN, 多#CD)  (nsubj, 消暑#VV, 食#NN)  (nsubj, 消暑#VV, 四季豆#CD)  (mmod, 消暑#VV, 能#VV)  (root, ROOT#null, 消暑#VV)  (ccomp, 消暑#VV, 清口#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 缓解#VV)  (dep, 缓解#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)
+            (loc, 丰富#VA, 四季豆#CD)  (case, 四季豆#CD, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 铁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 铁#NN, 维生素C#NN)  (cc, 铁#NN, 和#CC)  (nsubj, 食用#VV, 铁#NN)  (advmod, 食用#VV, 经常#AD)  (root, ROOT#null, 食用#VV)  (case, 缺#VV, 对#P)  (prep, 食用#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (conj, 缺#VV, 有益#VA)
+            (root, ROOT#null, 养#VV)  (nn, 下气#NN, 胃#NN)  (dobj, 养#VV, 下气#NN)
+            (nn, 食少便溏#NN, 主治#NR)  (nn, 食少便溏#NN, 脾虚#NN)  (conj, 食少便溏#NN, 兼湿#NN)  (nsubj, 用于#VV, 食少便溏#NN)  (nn, 过多#NN, 湿浊#NN)  (conj, 过多#NN, 下注#NN)  (nn, 过多#NN, 妇女#NN)  (nn, 过多#NN, 带下#NN)  (nsubj, 用于#VV, 过多#NN)  (advmod, 用于#VV, 还#AD)  (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 等症#NN, 暑湿#NN)  (nn, 等症#NN, 伤#NN)  (conj, 等症#NN, 中#NN)  (nn, 等症#NN, 吐泻#NN)  (nn, 等症#NN, 转筋#NN)  (dobj, 用于#VV, 等症#NN)
+            (nsubj, 消肿#VV, 利水#NN)  (root, ROOT#null, 消肿#VV)
+            (root, ROOT#null, 有#VE)  (nn, 脏腑#NN, 调和#NN)  (conj, 消肿#NN, 脏腑#NN)  (nn, 精神#NN, 安养#NN)  (conj, 消肿#NN, 精神#NN)  (nn, 健脾#NN, 益气#NN)  (conj, 消肿#NN, 健脾#NN)  (nn, 化湿#NN, 消暑#NN)  (conj, 消肿#NN, 化湿#NN)  (cc, 消肿#NN, 和#CC)  (nn, 消肿#NN, 利水#NN)  (assmod, 功效#NN, 消肿#NN)  (case, 消肿#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 强壮#VV)  (dobj, 强壮#VV, 骨骼#NN)
+            (advmod, 维生素K#NN, 虽然#CS)  (assmod, 含量#NN, 四季豆#CD)  (case, 四季豆#CD, 的#DEG)  (nn, 含量#NN, 钙#NN)  (prep, 维生素K#NN, 含量#NN)  (neg, 维生素K#NN, 不#AD)  (cop, 维生素K#NN, 是#VC)  (advmod, 多#VA, 太#AD)  (relcl, 维生素K#NN, 多#VA)  (advmod, 含有#VV, 但是#AD)  (nsubj, 含有#VV, 它#PN)  (dep, 多#VA, 含有#VV)  (range, 含有#VV, 大量#CD)  (mark, 多#VA, 的#DEC)  (root, ROOT#null, 维生素K#NN)   (nn, 咨询#NN, 男科#NN)  (nn, 咨询#NN, 医院#NN)  (nn, 咨询#NN, 在线#NN)  (nn, 专家#NN, 咨询#NN)  (nsubj, 表明#VV, 专家#NN)  (nsubj, 表明#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 增加#VV, 维生素K#NN)  (mmod, 增加#VV, 能#VV)  (ccomp, 表明#VV, 增加#VV)  (nn, 病人#NN, 骨质#NN)  (nn, 病人#NN, 疏松#NN)  (assmod, 骨密度#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (dobj, 增加#VV, 骨密度#NN)  (dep, 增加#VV, 降低#VV)  (assmod, 风险#NN, 骨折#NN)  (case, 骨折#NN, 的#DEG)  (dobj, 降低#VV, 风险#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血压
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.新鲜的豆粒中含有大量的水分，所含热量较低，但却含有中等量的维生素A和维生素C。
+            2.成熟的四季豆蛋白质含量约23%~25%，碳水化合物约为6·%~63%，脂肪约为1.5%。
+            3.豆粒所含钙是其所含磷的1/6。在未成熟的豆粒中，这两种元素的含量大致相等（一般认为，膳食中钙与磷的比值低时会使身体对该的利用率降低）。因此，食用四季豆的时候，应注意食用一些高钙低磷的食品，如奶制品和绿叶蔬菜等。
+            4.豆中能提供充分的铁和钾，现代医学证明，四季豆中含有血球凝集素，这是一种蛋白质类的物质，可增加脱氧核糖核酸和核糖核酸的合成。抑制免疫反应和白细胞与淋巴细胞的移动，故能激活肿瘤病人的淋巴细胞产生淋巴病毒，对机体细胞有非特异性的伤害作用，有显著的小腿肿瘤的作用。
+        </rawdata>
+
+        <segment>
+            新鲜  的  豆粒  中  含有  大量  的  水分  ，  所含  热量  较  低  ，  但  却  含有  中等  量  的  维生素A  和  维生素C  。
+            成熟  的  四季豆  蛋白质  含量  约  23%  ~  25%  ，  碳水化合物  约  为  6·  %  ~63%  ，  脂肪  约  为  1.5%  。
+            豆粒  所  含钙  是  其所  含磷  的  1/6  。  在  未成熟  的  豆粒  中  ，  这  两  种  元素  的  含量  大致  相等  （  一般  认为  ，  膳食  中  钙  与  磷  的  比值  低  时  会  使  身体  对  该  的  利用率  降低  ）  。  因此  ，  食用  四季豆  的  时候  ，  应  注意  食用  一些  高  钙  低  磷  的  食品  ，  如  奶制品  和  绿叶  蔬菜  等  。
+            豆中  能  提供  充分  的  铁  和  钾  ，  现代  医学  证明  ，  四季豆  中  含有  血球  凝集素  ，  这  是  一  种  蛋白质  类  的  物质  ，  可增加  脱氧  核糖  核酸  和  核糖核酸  的  合成  。  抑制  免疫  反应  和  白细胞  与  淋巴  细胞  的  移动  ，  故  能  激活  肿瘤  病人  的  淋巴  细胞  产生  淋巴  病毒  ，  对  机体  细胞  有  非  特异性  的  伤害  作用  ，  有  显著  的  小腿  肿瘤  的  作用  。
+        </segment>
+
+        <pos>
+            新鲜#VA  的#DEC  豆粒#NN  中#LC  含有#VV  大量#CD  的#DEG  水分#NN  ，#PU  所含#NN  热量#NN  较#AD  低#VA  ，#PU  但#AD  却#AD  含有#VV  中等#JJ  量#NN  的#DEG  维生素A#NN  和#CC  维生素C#NN  。#PU
+            成熟#VA  的#DEC  四季豆#CD  蛋白质#NN  含量#NN  约#AD  23#CD  %#M  ~#VV  25#CD  %#NN  ，#PU  碳水化合物#AD  约#AD  为#P  6#CD  ·#NR  %#NN  ~#VV  63#CD  %#M  ，#PU  脂肪#NR  约#AD  为#VC  1.5#CD  %#M  。#PU
+            豆粒#CD  所#M  含钙#NN  是#VC  其所#NN  含磷#NN  的#DEG  1/6#CD    。#PU  在#P  未成熟#NN  的#DEG  豆粒#NN  中#LC  ，#PU  这#DT  两#CD  种#M  元素#NN  的#DEG  含量#NN  大致#VV  相等#NN  （#PU  一般#AD  认为#VV  ，#PU  膳食#NN  中#LC  钙#NN  与#P  磷#NN  的#DEG  比值#NN  低#VA  时#LC  会#VV  使#VV  身体#NN  对#P  该#DT  的#DEG  利用率#NN  降低#VV  ）#PU    。#PU  因此#AD  ，#PU  食用#VV  四季豆#CD  的#DEC  时候#NN  ，#PU  应#VV  注意#VV  食用#VV  一些#CD  高#JJ  钙#NN  低#JJ  磷#NN  的#DEG  食品#NN  ，#PU  如#AD  奶制品#VV  和#CC  绿叶#VV  蔬菜#NN  等#ETC    。#PU    。#PU
+            豆中#NN  能#VV  提供#VV  充分#VA  的#DEC  铁#NN  和#CC  钾#NN  ，#PU  现代#JJ  医学#NN  证明#VV  ，#PU  四季豆#CD  中#LC  含有#AD  血球#VV  凝集素#NN  ，#PU  这#PN  是#VC  一#CD  种#M  蛋白质#CD  类#M  的#DEG  物质#NN  ，#PU  可增加#VV  脱氧#AD  核糖#VV  核酸#NN  和#CC  核糖核酸#NN  的#DEC  合成#JJ    。#PU  抑制#VV  免疫#NN  反应#NN  和#CC  白细胞#VV  与#P  淋巴#VV  细胞#NN  的#DEG  移动#NN  ，#PU  故#AD  能#VV  激活#VV  肿瘤#NN  病人#NN  的#DEC  淋巴#NN  细胞#NN  产生#VV  淋巴#NN  病毒#NN  ，#PU  对#P  机体#NN  细胞#NN  有#VE  非#JJ  特异性#NN  的#DEG  伤害#NN  作用#NN  ，#PU  有#VE  显著#VA  的#DEC  小腿#NN  肿瘤#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 豆粒#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (loc, 含有#VV, 豆粒#NN)  (case, 豆粒#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 水分#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 水分#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 较#AD)  (conj, 含有#VV, 低#VA)  (advmod, 含有#VV, 但#AD)  (advmod, 含有#VV, 却#AD)  (conj, 含有#VV, 含有#VV)  (amod, 量#NN, 中等#JJ)  (assmod, 维生素C#NN, 量#NN)  (case, 量#NN, 的#DEG)  (conj, 维生素C#NN, 维生素A#NN)  (cc, 维生素C#NN, 和#CC)  (dobj, 含有#VV, 维生素C#NN)
+            (relcl, 含量#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (nummod, 含量#NN, 四季豆#CD)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, ~#VV, 含量#NN)  (root, ~#VV, 含量#NN)  (advmod, %#M, 约#AD)  (nummod, %#M, 23#CD)  (dep, 含量#NN, %#M)  (nummod, %#NN, 25#CD)  (dobj, 含量#NN, %#NN)  (dobj, ~#VV, %#NN)  (prep, 为#VC, 碳水化合物#AD)  (dep, 碳水化合物#AD, 约#AD)  (case, ~#VV, 为#P)  (nummod, %#NN, 6#CD)  (nsubj, ~#VV, %#NN)  (nummod, %#M, 63#CD)  (range, ~#VV, %#M)  (nsubj, 为#VC, 脂肪#NR)  (advmod, 为#VC, 约#AD)  (conj, 含量#NN, 为#VC)  (conj, ~#VV, 为#VC)  (nummod, %#M, 1.5#CD)  (dep, 为#VC, %#M)
+            (nummod, 所#M, 豆粒#CD)  (clf, 含钙#NN, 所#M)  (nsubj, 是#VC, 含钙#NN)  (root, ROOT#null, 是#VC)  (nn, 含磷#NN, 其所#NN)  (assmod, 1/6#CD, 含磷#NN)  (case, 含磷#NN, 的#DEG)  (dep, 是#VC, 1/6#CD)   (case, 豆粒#NN, 在#P)  (assmod, 豆粒#NN, 未成熟#NN)  (case, 未成熟#NN, 的#DEG)  (prep, 大致#VV, 豆粒#NN)  (case, 豆粒#NN, 中#LC)  (det, 元素#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (assmod, 含量#NN, 元素#NN)  (case, 元素#NN, 的#DEG)  (nsubj, 大致#VV, 含量#NN)  (root, ROOT#null, 大致#VV)  (dobj, 大致#VV, 相等#NN)  (advmod, 认为#VV, 一般#AD)  (dep, 大致#VV, 认为#VV)  (loc, 低#VA, 膳食#NN)  (case, 膳食#NN, 中#LC)  (nsubj, 低#VA, 钙#NN)  (case, 比值#NN, 与#P)  (assmod, 比值#NN, 磷#NN)  (case, 磷#NN, 的#DEG)  (prep, 低#VA, 比值#NN)  (loc, 使#VV, 低#VA)  (case, 低#VA, 时#LC)  (mmod, 使#VV, 会#VV)  (dep, 认为#VV, 使#VV)  (dobj, 使#VV, 身体#NN)  (case, 利用率#NN, 对#P)  (assmod, 利用率#NN, 该#DT)  (case, 该#DT, 的#DEG)  (prep, 降低#VV, 利用率#NN)  (dep, 使#VV, 降低#VV)   (advmod, 注意#VV, 因此#AD)  (relcl, 时候#NN, 食用#VV)  (range, 食用#VV, 四季豆#CD)  (mark, 食用#VV, 的#DEC)  (nsubj, 注意#VV, 时候#NN)  (mmod, 注意#VV, 应#VV)  (root, ROOT#null, 注意#VV)  (ccomp, 注意#VV, 食用#VV)  (nummod, 食品#NN, 一些#CD)  (amod, 钙#NN, 高#JJ)  (nn, 磷#NN, 钙#NN)  (amod, 磷#NN, 低#JJ)  (assmod, 食品#NN, 磷#NN)  (case, 磷#NN, 的#DEG)  (dobj, 食用#VV, 食品#NN)  (advmod, 奶制品#VV, 如#AD)  (conj, 注意#VV, 奶制品#VV)  (cc, 奶制品#VV, 和#CC)  (dep, 奶制品#VV, 绿叶#VV)  (dobj, 绿叶#VV, 蔬菜#NN)  (etc, 蔬菜#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nsubj, 提供#VV, 豆中#NN)  (mmod, 提供#VV, 能#VV)  (root, ROOT#null, 提供#VV)  (relcl, 钾#NN, 充分#VA)  (mark, 充分#VA, 的#DEC)  (conj, 钾#NN, 铁#NN)  (cc, 钾#NN, 和#CC)  (dobj, 提供#VV, 钾#NN)  (amod, 医学#NN, 现代#JJ)  (dep, 证明#VV, 医学#NN)  (conj, 提供#VV, 证明#VV)  (loc, 血球#VV, 四季豆#CD)  (case, 四季豆#CD, 中#LC)  (advmod, 血球#VV, 含有#AD)  (ccomp, 证明#VV, 血球#VV)  (dobj, 血球#VV, 凝集素#NN)  (nsubj, 物质#NN, 这#PN)  (cop, 物质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (nummod, 类#M, 蛋白质#CD)  (assmod, 物质#NN, 类#M)  (case, 类#M, 的#DEG)  (conj, 血球#VV, 物质#NN)  (conj, 提供#VV, 可增加#VV)  (advmod, 核糖#VV, 脱氧#AD)  (dobj, 可增加#VV, 核糖#VV)  (conj, 核糖核酸#NN, 核酸#NN)  (cc, 核糖核酸#NN, 和#CC)  (dobj, 核糖#VV, 核糖核酸#NN)  (mark, 核糖#VV, 的#DEC)  (conj, 提供#VV, 合成#JJ)   (root, ROOT#null, 抑制#VV)  (nn, 反应#NN, 免疫#NN)  (dobj, 抑制#VV, 反应#NN)  (cc, 抑制#VV, 和#CC)  (conj, 抑制#VV, 白细胞#VV)  (case, 细胞#NN, 与#P)  (relcl, 细胞#NN, 淋巴#VV)  (assmod, 移动#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 淋巴#VV, 移动#NN)  (advmod, 激活#VV, 故#AD)  (mmod, 激活#VV, 能#VV)  (conj, 淋巴#VV, 激活#VV)  (nn, 病人#NN, 肿瘤#NN)  (dobj, 激活#VV, 病人#NN)  (mark, 淋巴#VV, 的#DEC)  (nn, 细胞#NN, 淋巴#NN)  (prep, 产生#VV, 细胞#NN)  (relcl, 作用#NN, 产生#VV)  (nn, 病毒#NN, 淋巴#NN)  (dobj, 产生#VV, 病毒#NN)  (case, 细胞#NN, 对#P)  (nn, 细胞#NN, 机体#NN)  (prep, 有#VE, 细胞#NN)  (conj, 产生#VV, 有#VE)  (amod, 特异性#NN, 非#JJ)  (assmod, 作用#NN, 特异性#NN)  (case, 特异性#NN, 的#DEG)  (nn, 作用#NN, 伤害#NN)  (dobj, 有#VE, 作用#NN)  (dep, 产生#VV, 有#VE)  (relcl, 肿瘤#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (nn, 肿瘤#NN, 小腿#NN)  (dobj, 有#VE, 肿瘤#NN)  (mark, 产生#VV, 的#DEC)  (dobj, 白细胞#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            扁豆一定要煮熟以后才能食用，否则会可能出现食物中毒现象。烹调前应用冷水浸泡(或用沸水稍烫)再炒食。另外，调前应将豆筋摘除，否则既影响口感，又不易消化。
+        </rawdata>
+
+        <segment>
+            扁豆  一定  要  煮熟  以后  才  能  食用  ，  否则  会  可能  出现  食物  中毒  现象  。  烹调  前  应用  冷水  浸泡  (  或用  沸水  稍  烫  )  再  炒  食  。  另外  ，  调前  应将  豆筋  摘除  ，  否则  既  影响  口感  ，  又  不  易  消化  。
+        </segment>
+
+        <pos>
+            扁豆#NN  一定#AD  要#VV  煮熟#NN  以后#LC  才#AD  能#VV  食用#VV  ，#PU  否则#AD  会#VV  可能#VV  出现#VV  食物#AD  中毒#VV  现象#NN    。#PU  烹调#NN  前#LC  应用#JJ  冷水#NN  浸泡#NN  -LRB-#NN  或用#NN  沸水#NN  稍#NN  烫#NN  -RRB-#NN  再#AD  炒#VV  食#NN    。#PU  另外#AD  ，#PU  调前#NN  应将#VV  豆筋#NN  摘除#NN  ，#PU  否则#AD  既#CC  影响#VV  口感#NN  ，#PU  又#AD  不#AD  易#VA  消化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 扁豆#NN)  (advmod, 食用#VV, 一定#AD)  (mmod, 食用#VV, 要#VV)  (loc, 食用#VV, 煮熟#NN)  (case, 煮熟#NN, 以后#LC)  (advmod, 食用#VV, 才#AD)  (dep, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)  (advmod, 出现#VV, 否则#AD)  (mmod, 出现#VV, 会#VV)  (mmod, 出现#VV, 可能#VV)  (conj, 食用#VV, 出现#VV)  (advmod, 中毒#VV, 食物#AD)  (relcl, 现象#NN, 中毒#VV)  (dobj, 出现#VV, 现象#NN)   (dep, 冷水#NN, 烹调#NN)  (case, 烹调#NN, 前#LC)  (amod, 冷水#NN, 应用#JJ)  (dep, 炒#VV, 冷水#NN)  (nn, -RRB-#NN, 浸泡#NN)  (nn, -RRB-#NN, 或用#NN)  (nn, -RRB-#NN, 沸水#NN)  (nn, -RRB-#NN, 稍#NN)  (nn, -RRB-#NN, 烫#NN)  (advmod, 炒#VV, 再#AD)  (root, ROOT#null, 炒#VV)  (dobj, 炒#VV, 食#NN)   (advmod, 应将#VV, 另外#AD)  (nsubj, 应将#VV, 调前#NN)  (root, ROOT#null, 应将#VV)  (nn, 摘除#NN, 豆筋#NN)  (dobj, 应将#VV, 摘除#NN)  (advmod, 影响#VV, 否则#AD)  (cc, 影响#VV, 既#CC)  (conj, 应将#VV, 影响#VV)  (dobj, 影响#VV, 口感#NN)  (advmod, 易#VA, 又#AD)  (neg, 易#VA, 不#AD)  (conj, 影响#VV, 易#VA)  (dobj, 易#VA, 消化#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101424273398.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\248 四季豆.jpg
+    </picturelocalurl>
+
+</content>

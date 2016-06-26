@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        715
+    </id>
+
+    <foodname>
+        籼米饭
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用籼米蒸的饭
+        </rawdata>
+
+        <segment>
+            用  籼米  蒸  的  饭
+        </segment>
+
+        <pos>
+            用#VV  籼米#NN  蒸#NN  的#DEG  饭#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 用#VV)  (nn, 蒸#NN, 籼米#NN)  (assmod, 饭#NN, 蒸#NN)  (case, 蒸#NN, 的#DEG)  (dobj, 用#VV, 饭#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            籼米的营养价值和食疗功效与粳米相似，不过米粒较为细长，拈性差，胀性大，饭性偏硬，易饱而吃口较差。
+        </rawdata>
+
+        <segment>
+            籼米  的  营养  价值  和  食疗  功效  与  粳米  相似  ，  不过  米粒  较为  细长  ，  拈性差  ，  胀性  大  ，  饭  性  偏  硬  ，  易  饱  而  吃口  较  差  。
+        </segment>
+
+        <pos>
+            籼米#NN  的#DEG  营养#VA  价值#NN  和#CC  食疗#NN  功效#NN  与#P  粳米#NN  相似#VA  ，#PU  不过#AD  米粒#NN  较为#AD  细长#VA  ，#PU  拈性差#NN  ，#PU  胀性#AD  大#VA  ，#PU  饭#NN  性#NN  偏#AD  硬#VA  ，#PU  易#AD  饱#AD  而#MSP  吃口#VV  较#AD  差#VA  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 功效#NN, 籼米#NN)  (case, 籼米#NN, 的#DEG)  (nfincl, 功效#NN, 营养#VA)  (conj, 功效#NN, 价值#NN)  (cc, 功效#NN, 和#CC)  (nn, 功效#NN, 食疗#NN)  (nsubj, 相似#VA, 功效#NN)  (case, 粳米#NN, 与#P)  (prep, 相似#VA, 粳米#NN)  (root, ROOT#null, 相似#VA)  (advmod, 细长#VA, 不过#AD)  (nsubj, 细长#VA, 米粒#NN)  (advmod, 细长#VA, 较为#AD)  (conj, 相似#VA, 细长#VA)  (nsubj, 大#VA, 拈性差#NN)  (advmod, 大#VA, 胀性#AD)  (conj, 相似#VA, 大#VA)  (nn, 性#NN, 饭#NN)  (nsubj, 硬#VA, 性#NN)  (advmod, 硬#VA, 偏#AD)  (conj, 相似#VA, 硬#VA)  (advmod, 吃口#VV, 易#AD)  (advmod, 吃口#VV, 饱#AD)  (prtmod, 吃口#VV, 而#MSP)  (dep, 差#VA, 吃口#VV)  (advmod, 差#VA, 较#AD)  (conj, 相似#VA, 差#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            水发香菇100克，籼米100克，熟牛肉适量切小丁，同煮成粥后加入葱姜末和猪油、盐、味精、胡椒适量食之。此粥可辅助治疗荨麻疹、慢性胃炎等。
+        </rawdata>
+
+        <segment>
+            水发  香菇  100  克  ，  籼米  100  克  ，  熟  牛肉  适量  切  小  丁  ，  同  煮成  粥后  加入  葱  姜末  和  猪油  、  盐  、  味精  、  胡椒  适量  食  之  。  此  粥可  辅助  治疗  荨麻疹  、  慢性  胃炎  等  。
+        </segment>
+
+        <pos>
+            水发#NN  香菇#VV  100#CD  克#M  ，#PU  籼米#VV  100#CD  克#M  ，#PU  熟#JJ  牛肉#NN  适量#NN  切#VV  小#JJ  丁#NN  ，#PU  同#P  煮成#NR  粥后#VV  加入#VV  葱#NN  姜末#NN  和#CC  猪油#NN  、#PU  盐#NN  、#PU  味精#NN  、#PU  胡椒#NN  适量#NN  食#NN  之#DEC    。#PU  此#PN  粥可#VV  辅助#NN  治疗#VV  荨麻疹#NN  、#PU  慢性#NN  胃炎#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 香菇#VV, 水发#NN)  (root, ROOT#null, 香菇#VV)  (nummod, 克#M, 100#CD)  (range, 香菇#VV, 克#M)  (conj, 香菇#VV, 籼米#VV)  (nummod, 克#M, 100#CD)  (range, 籼米#VV, 克#M)  (amod, 牛肉#NN, 熟#JJ)  (nn, 适量#NN, 牛肉#NN)  (nsubj, 切#VV, 适量#NN)  (conj, 香菇#VV, 切#VV)  (amod, 丁#NN, 小#JJ)  (dobj, 切#VV, 丁#NN)  (case, 煮成#NR, 同#P)  (prep, 粥后#VV, 煮成#NR)  (conj, 切#VV, 粥后#VV)  (dobj, 粥后#VV, 加入#VV)  (nn, 食#NN, 葱#NN)  (conj, 食#NN, 姜末#NN)  (cc, 食#NN, 和#CC)  (conj, 食#NN, 猪油#NN)  (conj, 食#NN, 盐#NN)  (conj, 食#NN, 味精#NN)  (nn, 食#NN, 胡椒#NN)  (nn, 食#NN, 适量#NN)  (dobj, 加入#VV, 食#NN)  (mark, 加入#VV, 之#DEC)   (nsubj, 粥可#VV, 此#PN)  (root, ROOT#null, 粥可#VV)  (dobj, 粥可#VV, 辅助#NN)  (dep, 粥可#VV, 治疗#VV)  (conj, 胃炎#NN, 荨麻疹#NN)  (nn, 胃炎#NN, 慢性#NN)  (dobj, 治疗#VV, 胃炎#NN)  (etc, 胃炎#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/f1/40/82161_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\715 籼米饭.jpg
+    </picturelocalurl>
+
+</content>

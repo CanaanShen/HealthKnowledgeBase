@@ -1,0 +1,414 @@
+<content>
+
+    <id>
+        284
+    </id>
+
+    <foodname>
+        毛豆
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆类
+    </secondcategory>
+
+    <alias>
+        枝豆、菜用大豆
+    </alias>
+
+    <season>
+        夏5月下旬-8月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            幼儿、尿毒症患者忌食，对黄豆有过敏体质者不宜多食。
+        </rawdata>
+
+        <segment>
+            幼儿  、  尿毒症  患者  忌食  ，  对  黄豆  有  过敏  体质  者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            幼儿#NN  、#PU  尿毒症#NN  患者#NN  忌食#NN  ，#PU  对#P  黄豆#NN  有#VE  过敏#NN  体质#NN  者#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 忌食#NN, 幼儿#NN)  (nn, 忌食#NN, 尿毒症#NN)  (nn, 忌食#NN, 患者#NN)  (nsubj, 有#VE, 忌食#NN)  (case, 黄豆#NN, 对#P)  (prep, 有#VE, 黄豆#NN)  (root, ROOT#null, 有#VE)  (nn, 者#NN, 过敏#NN)  (nn, 者#NN, 体质#NN)  (nsubj, 多#VV, 者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (dep, 有#VE, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                123
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                13.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                10.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                135
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                188
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                478
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                3.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.48
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            毛豆，又叫菜用大豆，在日本被叫做枝豆，是大豆作物中专门鲜食嫩荚的蔬菜用大豆，也就是未成熟且呈青绿色的食用大豆（又称黄豆）。毛豆是一年生的农作物，茎粗硬而有细毛，它的荚作扁平形，荚上也有细毛，所以人称为毛豆。一个豆荚内通常有二到三颗豆子，新鲜时，豆荚嫩绿色。
+            大豆原产我国，至今已有5000年的种植史。现在全国普遍种植，在东北、华北、陕、川及长江下游地区均有出产，以长江流域及西南栽培较多，以东北大豆质量最优。
+            大豆是一种其种子含有丰富的蛋白质的豆科植物，一般都指其种子而言。大豆呈椭圆形、球形。种皮颜色有黄色、淡绿色、黑色，各称为黄豆、青豆（与青豆仁即豌豆不同）、黑豆，以黄豆最常见。
+        </rawdata>
+
+        <segment>
+            毛豆  ，  又  叫菜  用  大豆  ，  在  日本  被  叫做  枝豆  ，  是  大豆  作物  中  专门  鲜食  嫩荚  的  蔬菜  用  大豆  ，  也就是  未成熟  且  呈  青绿色  的  食用  大豆  （  又  称  黄豆  ）  。  毛豆  是  一  年  生  的  农作物  ，  茎粗硬  而  有  细毛  ，  它  的  荚作  扁平  形  ，  荚上  也  有  细毛  ，  所以  人称  为  毛豆  。  一  个  豆荚  内  通常  有  二  到  三  颗  豆子  ，  新鲜  时  ，  豆荚  嫩绿色  。
+            大豆  原产  我国  ，  至今  已  有  5000年  的  种植史  。  现在  全  国  普遍  种植  ，  在  东北  、  华北  、  陕  、  川  及  长江  下游  地区  均有  出产  ，  以  长江  流域  及  西南  栽培  较  多  ，  以  东北  大豆  质量  最  优  。
+            大豆  是  一  种  其  种子  含有  丰富  的  蛋白质  的  豆科  植物  ，  一般  都  指  其  种子  而言  。  大豆  呈  椭圆形  、  球形  。  种皮  颜色  有  黄色  、  淡绿色  、  黑色  ，  各  称为  黄豆  、  青豆  （  与  青豆  仁  即  豌豆  不同  ）  、  黑豆  ，  以  黄豆  最  常见  。
+        </segment>
+
+        <pos>
+            毛豆#NN  ，#PU  又#AD  叫菜#AD  用#VV  大豆#NN  ，#PU  在#P  日本#NR  被#SB  叫做#VV  枝豆#NN  ，#PU  是#VC  大豆#NN  作物#NN  中#LC  专门#AD  鲜食#VV  嫩荚#NN  的#DEC  蔬菜#NN  用#VV  大豆#NN  ，#PU  也就是#VV  未成熟#NN  且#CC  呈#VV  青绿色#NN  的#DEC  食用#VV  大豆#NN  （#PU  又#AD  称#VV  黄豆#NN  ）#PU    。#PU  毛豆#NN  是#VC  一#CD  年#M  生#VV  的#DEC  农作物#NN  ，#PU  茎粗硬#NN  而#MSP  有#VE  细毛#NN  ，#PU  它#PN  的#DEG  荚作#NN  扁平#AD  形#VV  ，#PU  荚上#NN  也#AD  有#VE  细毛#NN  ，#PU  所以#AD  人称#NN  为#VC  毛豆#NN    。#PU  一#CD  个#M  豆荚#NN  内#LC  通常#AD  有#VE  二#OD  到#CC  三#CD  颗#M  豆子#NN  ，#PU  新鲜#VA  时#LC  ，#PU  豆荚#AD  嫩绿色#VV    。#PU    。#PU
+            大豆#NN  原产#NN  我国#VV  ，#PU  至今#AD  已#AD  有#VE  5000年#NT  的#DEG  种植史#NN    。#PU  现在#NT  全#DT  国#NN  普遍#AD  种植#VV  ，#PU  在#P  东北#NR  、#PU  华北#NR  、#PU  陕#NR  、#PU  川#NR  及#CC  长江#NR  下游#NN  地区#NN  均有#AD  出产#VV  ，#PU  以#P  长江#NR  流域#NN  及#CC  西南#NN  栽培#VV  较#AD  多#VA  ，#PU  以#P  东北#NN  大豆#NN  质量#NN  最#AD  优#VA    。#PU    。#PU
+            大豆#AD  是#VC  一#CD  种#M  其#PN  种子#NN  含有#NN  丰富#VA  的#DEC  蛋白质#NN  的#DEG  豆科#JJ  植物#NN  ，#PU  一般#AD  都#AD  指#VV  其#PN  种子#NN  而言#NN    。#PU  大豆#NN  呈#VV  椭圆形#NN  、#PU  球形#NN    。#PU  种皮#NN  颜色#AD  有#VE  黄色#JJ  、#PU  淡绿色#NN  、#PU  黑色#JJ  ，#PU  各#AD  称为#VV  黄豆#NN  、#PU  青豆#NN  （#PU  与#P  青豆#NN  仁#NN  即#AD  豌豆#VV  不同#NN  ）#PU  、#PU  黑豆#NN  ，#PU  以#P  黄豆#NN  最#AD  常见#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 毛豆#NN)  (advmod, 用#VV, 又#AD)  (advmod, 用#VV, 叫菜#AD)  (nsubj, 食用#VV, 用#VV)  (dobj, 用#VV, 大豆#NN)  (case, 日本#NR, 在#P)  (prep, 叫做#VV, 日本#NR)  (auxpass, 叫做#VV, 被#SB)  (conj, 用#VV, 叫做#VV)  (dobj, 叫做#VV, 枝豆#NN)  (cop, 蔬菜#NN, 是#VC)  (nn, 作物#NN, 大豆#NN)  (loc, 鲜食#VV, 作物#NN)  (case, 作物#NN, 中#LC)  (advmod, 鲜食#VV, 专门#AD)  (relcl, 蔬菜#NN, 鲜食#VV)  (dobj, 鲜食#VV, 嫩荚#NN)  (mark, 鲜食#VV, 的#DEC)  (conj, 用#VV, 蔬菜#NN)  (conj, 用#VV, 用#VV)  (dobj, 用#VV, 大豆#NN)  (dep, 用#VV, 也就是#VV)  (dobj, 也就是#VV, 未成熟#NN)  (cc, 也就是#VV, 且#CC)  (conj, 也就是#VV, 呈#VV)  (dobj, 呈#VV, 青绿色#NN)  (mark, 用#VV, 的#DEC)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 大豆#NN)  (advmod, 称#VV, 又#AD)  (dep, 食用#VV, 称#VV)  (dobj, 称#VV, 黄豆#NN)   (nsubj, 农作物#NN, 毛豆#NN)  (cop, 农作物#NN, 是#VC)  (nummod, 年#M, 一#CD)  (clf, 农作物#NN, 年#M)  (relcl, 农作物#NN, 生#VV)  (mark, 生#VV, 的#DEC)  (root, ROOT#null, 农作物#NN)  (nsubj, 有#VE, 茎粗硬#NN)  (prtmod, 有#VE, 而#MSP)  (conj, 农作物#NN, 有#VE)  (dobj, 有#VE, 细毛#NN)  (assmod, 荚作#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 形#VV, 荚作#NN)  (advmod, 形#VV, 扁平#AD)  (conj, 有#VE, 形#VV)  (nsubj, 有#VE, 荚上#NN)  (advmod, 有#VE, 也#AD)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 细毛#NN)  (advmod, 毛豆#NN, 所以#AD)  (nsubj, 毛豆#NN, 人称#NN)  (cop, 毛豆#NN, 为#VC)  (conj, 农作物#NN, 毛豆#NN)   (nummod, 个#M, 一#CD)  (clf, 豆荚#NN, 个#M)  (loc, 有#VE, 豆荚#NN)  (case, 豆荚#NN, 内#LC)  (advmod, 有#VE, 通常#AD)  (root, ROOT#null, 有#VE)  (dep, 颗#M, 二#OD)  (cc, 颗#M, 到#CC)  (nummod, 颗#M, 三#CD)  (clf, 豆子#NN, 颗#M)  (dobj, 有#VE, 豆子#NN)  (loc, 嫩绿色#VV, 新鲜#VA)  (case, 新鲜#VA, 时#LC)  (advmod, 嫩绿色#VV, 豆荚#AD)  (conj, 有#VE, 嫩绿色#VV)   (root, ROOT#null, null#null)
+            (nn, 原产#NN, 大豆#NN)  (nsubj, 我国#VV, 原产#NN)  (xsubj, 有#VE, 原产#NN)  (root, ROOT#null, 我国#VV)  (advmod, 有#VE, 至今#AD)  (advmod, 有#VE, 已#AD)  (ccomp, 我国#VV, 有#VE)  (assmod, 种植史#NN, 5000年#NT)  (case, 5000年#NT, 的#DEG)  (dobj, 有#VE, 种植史#NN)   (tmod, 种植#VV, 现在#NT)  (det, 国#NN, 全#DT)  (nsubj, 种植#VV, 国#NN)  (advmod, 种植#VV, 普遍#AD)  (root, ROOT#null, 种植#VV)  (case, 地区#NN, 在#P)  (conj, 长江#NR, 东北#NR)  (conj, 长江#NR, 华北#NR)  (conj, 长江#NR, 陕#NR)  (conj, 长江#NR, 川#NR)  (cc, 长江#NR, 及#CC)  (nn, 地区#NN, 长江#NR)  (nn, 地区#NN, 下游#NN)  (prep, 出产#VV, 地区#NN)  (advmod, 出产#VV, 均有#AD)  (dep, 种植#VV, 出产#VV)  (case, 西南#NN, 以#P)  (nn, 流域#NN, 长江#NR)  (conj, 西南#NN, 流域#NN)  (cc, 西南#NN, 及#CC)  (prep, 多#VA, 西南#NN)  (mmod, 多#VA, 栽培#VV)  (advmod, 多#VA, 较#AD)  (dep, 种植#VV, 多#VA)  (case, 质量#NN, 以#P)  (nn, 质量#NN, 东北#NN)  (nn, 质量#NN, 大豆#NN)  (prep, 优#VA, 质量#NN)  (advmod, 优#VA, 最#AD)  (dep, 多#VA, 优#VA)   (root, ROOT#null, null#null)
+            (advmod, 植物#NN, 大豆#AD)  (cop, 植物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蛋白质#NN, 种#M)  (nn, 含有#NN, 其#PN)  (nn, 含有#NN, 种子#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (assmod, 植物#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (amod, 植物#NN, 豆科#JJ)  (root, ROOT#null, 植物#NN)  (advmod, 指#VV, 一般#AD)  (advmod, 指#VV, 都#AD)  (dep, 植物#NN, 指#VV)  (nn, 而言#NN, 其#PN)  (nn, 而言#NN, 种子#NN)  (dobj, 指#VV, 而言#NN)   (nsubj, 呈#VV, 大豆#NN)  (root, ROOT#null, 呈#VV)  (conj, 球形#NN, 椭圆形#NN)  (dobj, 呈#VV, 球形#NN)   (nsubj, 有#VE, 种皮#NN)  (advmod, 有#VE, 颜色#AD)  (root, ROOT#null, 有#VE)  (amod, 黑豆#NN, 黄色#JJ)  (conj, 黑豆#NN, 淡绿色#NN)  (nfincl, 黄豆#NN, 黑色#JJ)  (advmod, 称为#VV, 各#AD)  (dep, 黑色#JJ, 称为#VV)  (conj, 黑豆#NN, 黄豆#NN)  (conj, 黑豆#NN, 青豆#NN)  (case, 仁#NN, 与#P)  (nn, 仁#NN, 青豆#NN)  (prep, 豌豆#VV, 仁#NN)  (advmod, 豌豆#VV, 即#AD)  (prnmod, 青豆#NN, 豌豆#VV)  (dobj, 豌豆#VV, 不同#NN)  (dobj, 有#VE, 黑豆#NN)  (case, 黄豆#NN, 以#P)  (prep, 常见#VA, 黄豆#NN)  (advmod, 常见#VA, 最#AD)  (conj, 有#VE, 常见#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            毛豆味甘、性平，入脾、大肠经。具有健脾宽中，润燥消水、清热解毒、益气的功效。主治疳积泻痢、腹胀羸瘦、妊娠中毒、疮痈肿毒、外伤出血等。
+        </rawdata>
+
+        <segment>
+            毛豆  味甘  、  性平  ，  入脾  、  大肠  经  。  具有  健脾  宽  中  ，  润燥  消水  、  清热  解毒  、  益气  的  功效  。  主治  疳积泻痢  、  腹胀  羸瘦  、  妊娠  中毒  、  疮痈  肿毒  、  外伤  出血  等  。
+        </segment>
+
+        <pos>
+            毛豆#NR  味甘#NR  、#PU  性平#NR  ，#PU  入脾#NR  、#PU  大肠#NR  经#VV    。#PU  具有#VV  健脾#NN  宽#NN  中#LC  ，#PU  润燥#NN  消水#VA  、#PU  清热#VA  解毒#VA  、#PU  益气#VA  的#DEC  功效#NN    。#PU  主治#VV  疳积泻痢#NN  、#PU  腹胀#NN  羸瘦#NN  、#PU  妊娠#VV  中毒#VV  、#PU  疮痈#VV  肿毒#NN  、#PU  外伤#AD  出血#VV  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 大肠#NR, 毛豆#NR)  (conj, 大肠#NR, 味甘#NR)  (dep, 大肠#NR, 性平#NR)  (conj, 大肠#NR, 入脾#NR)  (nsubj, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (root, ROOT#null, 具有#VV)  (nn, 宽#NN, 健脾#NN)  (loc, 消水#VA, 宽#NN)  (case, 宽#NN, 中#LC)  (nsubj, 消水#VA, 润燥#NN)  (relcl, 功效#NN, 消水#VA)  (dep, 消水#VA, 清热#VA)  (conj, 消水#VA, 解毒#VA)  (dep, 消水#VA, 益气#VA)  (mark, 消水#VA, 的#DEC)  (dobj, 具有#VV, 功效#NN)   (root, ROOT#null, 主治#VV)  (conj, 羸瘦#NN, 疳积泻痢#NN)  (nn, 羸瘦#NN, 腹胀#NN)  (dobj, 主治#VV, 羸瘦#NN)  (conj, 主治#VV, 妊娠#VV)  (comod, 妊娠#VV, 中毒#VV)  (conj, 主治#VV, 疮痈#VV)  (dobj, 疮痈#VV, 肿毒#NN)  (advmod, 出血#VV, 外伤#AD)  (conj, 主治#VV, 出血#VV)  (dep, 主治#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  缓解体力疲劳  辅助降血脂  减肥  增加骨密度  通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.改善人体的新陈代谢
+            毛豆中的脂肪含量明显高于其它种类的蔬菜，但其中多以不饱和脂肪酸为主，如人体必需的亚油酸和亚麻酸，它们可以改善脂肪代谢，有助于降低人体中甘油三酯和胆固醇。
+            2.促进胃肠蠕动
+            毛豆中还含有丰富的食物纤维，不仅能改善便秘，还有利于血压和胆固醇的降低。
+            3.增进食欲
+            毛豆中的钾含量很高，夏天常吃，可以帮助弥补因出汗过多而导致的钾流失，从而缓解由于钾的流失而引起的疲乏无力和食欲下降。
+            4.补铁
+            毛豆中的铁易于吸收，可以作为儿童补充铁的食物之一。
+            5.预防骨质疏松
+            毛豆中含有微量功能性成分黄酮类化合物，特别是大豆异黄酮，被称为天然植物雌激素，在人体内具有雌激素作用，可以改善妇女更年期的不适，防治骨质疏松。
+            5.美容减肥
+            毛豆具养颜润肤、有效改善食欲不振与全身倦怠的功效。毛豆营养丰富均衡，含有有益的活性成分，经常食用，对女性保持苗条身材作用显著。
+            6.降血脂
+            毛豆中含有能清除血管壁上脂肪的化合物，从而起到降血脂和降低血液中胆固醇的作用；对肥胖、高血脂、动脉粥样硬化、冠心病等疾病有预防和辅助治疗的作用。
+        </rawdata>
+
+        <segment>
+            改善  人体  的  新陈代谢
+            毛豆  中  的  脂肪  含量  明显  高于  其它  种类  的  蔬菜  ，  但  其中  多  以  不  饱和  脂肪酸  为主  ，  如  人体  必需  的  亚油酸  和  亚麻酸  ，  它们  可以  改善  脂肪  代谢  ，  有助于  降低  人  体中  甘油  三  酯和  胆固醇  。
+            促进  胃肠  蠕动
+            毛豆  中  还  含有  丰富  的  食物  纤维  ，  不仅  能  改善  便秘  ，  还  有利于  血压  和  胆固醇  的  降低  。
+            增进  食欲
+            毛豆  中  的  钾  含量  很  高  ，  夏天  常  吃  ，  可以  帮助  弥补  因  出汗  过多  而  导致  的  钾  流失  ，  从而  缓解  由于  钾  的  流失  而  引起  的  疲乏  无力  和  食欲  下降  。
+            补铁
+            毛豆  中  的  铁  易于  吸收  ，  可以  作为  儿童  补充  铁  的  食物  之一  。
+            预防  骨质  疏松
+            毛豆  中  含有  微量  功能性  成分  黄酮类  化合物  ，  特别是  大豆  异  黄酮  ，  被  称为  天然  植物  雌  激素  ，  在  人体  内  具有  雌激素  作用  ，  可以  改善  妇女  更年期  的  不适  ，  防治  骨质  疏松  。
+            美容  减肥
+            毛豆  具  养颜  润肤  、  有效  改善  食欲  不振  与  全身  倦怠  的  功效  。  毛豆  营养  丰富  均衡  ，  含有  有益  的  活性  成分  ，  经常  食用  ，  对  女性  保持  苗条  身材  作用  显著  。
+            降  血脂
+            毛豆  中  含有  能  清除  血管  壁上  脂肪  的  化合物  ，  从而  起到  降  血脂  和  降低  血液  中  胆固醇  的  作用  ；  对  肥胖  、  高  血脂  、  动脉  粥样  硬化  、  冠心病  等  疾病  有  预防  和  辅助  治疗  的  作用  。
+        </segment>
+
+        <pos>
+            改善#VV  人体#NN  的#DEG  新陈代谢#NN
+            毛豆#NN  中#LC  的#DEG  脂肪#NN  含量#NN  明显#AD  高于#VV  其它#DT  种类#NN  的#DEG  蔬菜#NN  ，#PU  但#AD  其中#NN  多#AD  以#P  不#AD  饱和#JJ  脂肪酸#NN  为主#VV  ，#PU  如#AD  人体#AD  必需#VV  的#DEC  亚油酸#NN  和#CC  亚麻酸#NN  ，#PU  它们#PN  可以#VV  改善#VV  脂肪#NN  代谢#NN  ，#PU  有助于#VV  降低#VV  人#NN  体中#NN  甘油#NN  三#CD  酯和#NN  胆固醇#NN  。#PU
+            促进#VV  胃肠#NN  蠕动#NN
+            毛豆#NN  中#LC  还#AD  含有#VV  丰富#VA  的#DEC  食物#NN  纤维#NN  ，#PU  不仅#CC  能#VV  改善#VV  便秘#NN  ，#PU  还#AD  有利于#VV  血压#NN  和#CC  胆固醇#NN  的#DEC  降低#VV  。#PU
+            增进#VV  食欲#NN
+            毛豆#NN  中#LC  的#DEG  钾#NN  含量#NN  很#AD  高#VA  ，#PU  夏天#NT  常#AD  吃#VV  ，#PU  可以#VV  帮助#VV  弥补#VV  因#P  出汗#VV  过多#NN  而#MSP  导致#VV  的#DEC  钾#NN  流失#NN  ，#PU  从而#AD  缓解#VV  由于#P  钾#NN  的#DEG  流失#NN  而#MSP  引起#VV  的#DEC  疲乏#NN  无力#NN  和#CC  食欲#AD  下降#VV  。#PU
+            补铁#VV
+            毛豆#NN  中#LC  的#DEG  铁#JJ  易于#NN  吸收#VV  ，#PU  可以#VV  作为#VV  儿童#NN  补充#NN  铁#NN  的#DEG  食物#NN  之一#NN  。#PU
+            预防#NN  骨质#VV  疏松#NN
+            毛豆#NN  中#LC  含有#NN  微量#NN  功能性#NN  成分#NN  黄酮类#VV  化合物#NN  ，#PU  特别是#AD  大豆#VV  异#NN  黄酮#NN  ，#PU  被#SB  称为#VV  天然#JJ  植物#NN  雌#NN  激素#NN  ，#PU  在#P  人体#NN  内#LC  具有#VV  雌激素#NN  作用#NN  ，#PU  可以#VV  改善#VV  妇女#NN  更年期#NN  的#DEG  不适#NN  ，#PU  防治#VV  骨质#NN  疏松#NN  。#PU
+            美容#NN  减肥#VV
+            毛豆#CD  具#M  养颜#NN  润肤#NN  、#PU  有效#JJ  改善#NN  食欲#AD  不振#VV  与#P  全身#NN  倦怠#NN  的#DEG  功效#NN    。#PU  毛豆#AD  营养#VA  丰富#VA  均衡#VA  ，#PU  含有#VV  有益#VA  的#DEC  活性#JJ  成分#NN  ，#PU  经常#AD  食用#VV  ，#PU  对#P  女性#NN  保持#VV  苗条#NN  身材#NN  作用#NN  显著#VA    。#PU    。#PU
+            降#NN  血脂#VA
+            毛豆#NN  中#LC  含有#NN  能#VV  清除#VV  血管#NN  壁上#NN  脂肪#NN  的#DEG  化合物#NN  ，#PU  从而#AD  起到#VV  降#VV  血脂#NN  和#CC  降低#VV  血液#NN  中#LC  胆固醇#NN  的#DEC  作用#NN  ；#PU  对#P  肥胖#NN  、#PU  高#JJ  血脂#NN  、#PU  动脉#NN  粥样#NN  硬化#NN  、#PU  冠心病#NN  等#ETC  疾病#NN  有#VE  预防#VV  和#CC  辅助#NN  治疗#VV  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 改善#VV)  (assmod, 新陈代谢#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 改善#VV, 新陈代谢#NN)
+            (assmod, 含量#NN, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (case, 毛豆#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 明显#AD)  (root, ROOT#null, 高于#VV)  (det, 种类#NN, 其它#DT)  (assmod, 蔬菜#NN, 种类#NN)  (case, 种类#NN, 的#DEG)  (dobj, 高于#VV, 蔬菜#NN)  (advmod, 为主#VV, 但#AD)  (nsubj, 为主#VV, 其中#NN)  (advmod, 为主#VV, 多#AD)  (case, 脂肪酸#NN, 以#P)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (prep, 为主#VV, 脂肪酸#NN)  (conj, 高于#VV, 为主#VV)  (advmod, 亚麻酸#NN, 如#AD)  (advmod, 必需#VV, 人体#AD)  (relcl, 亚麻酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 亚麻酸#NN, 亚油酸#NN)  (cc, 亚麻酸#NN, 和#CC)  (nsubj, 改善#VV, 亚麻酸#NN)  (nsubj, 改善#VV, 它们#PN)  (mmod, 改善#VV, 可以#VV)  (conj, 高于#VV, 改善#VV)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 改善#VV, 代谢#NN)  (conj, 高于#VV, 有助于#VV)  (ccomp, 有助于#VV, 降低#VV)  (nn, 甘油#NN, 人#NN)  (nn, 甘油#NN, 体中#NN)  (nn, 胆固醇#NN, 甘油#NN)  (nummod, 胆固醇#NN, 三#CD)  (nn, 胆固醇#NN, 酯和#NN)  (dobj, 降低#VV, 胆固醇#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)
+            (loc, 含有#VV, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 纤维#NN, 食物#NN)  (dobj, 含有#VV, 纤维#NN)  (cc, 含有#VV, 不仅#CC)  (mmod, 改善#VV, 能#VV)  (dep, 含有#VV, 改善#VV)  (dobj, 改善#VV, 便秘#NN)  (advmod, 有利于#VV, 还#AD)  (nsubj, 降低#VV, 有利于#VV)  (conj, 胆固醇#NN, 血压#NN)  (cc, 胆固醇#NN, 和#CC)  (dobj, 有利于#VV, 胆固醇#NN)  (mark, 有利于#VV, 的#DEC)  (conj, 含有#VV, 降低#VV)
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (assmod, 含量#NN, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (case, 毛豆#NN, 的#DEG)  (nn, 含量#NN, 钾#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (tmod, 吃#VV, 夏天#NT)  (advmod, 吃#VV, 常#AD)  (dep, 高#VA, 吃#VV)  (mmod, 帮助#VV, 可以#VV)  (conj, 高#VA, 帮助#VV)  (ccomp, 帮助#VV, 弥补#VV)  (case, 出汗#VV, 因#P)  (prep, 导致#VV, 出汗#VV)  (dobj, 出汗#VV, 过多#NN)  (prtmod, 导致#VV, 而#MSP)  (relcl, 流失#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (nn, 流失#NN, 钾#NN)  (dobj, 弥补#VV, 流失#NN)  (advmod, 缓解#VV, 从而#AD)  (conj, 高#VA, 缓解#VV)  (case, 流失#NN, 由于#P)  (assmod, 流失#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (prep, 引起#VV, 流失#NN)  (prtmod, 引起#VV, 而#MSP)  (relcl, 无力#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 无力#NN, 疲乏#NN)  (dobj, 缓解#VV, 无力#NN)  (cc, 缓解#VV, 和#CC)  (advmod, 下降#VV, 食欲#AD)  (dep, 缓解#VV, 下降#VV)
+            (root, ROOT#null, 补铁#VV)
+            (assmod, 易于#NN, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (case, 毛豆#NN, 的#DEG)  (amod, 易于#NN, 铁#JJ)  (nsubj, 吸收#VV, 易于#NN)  (xsubj, 作为#VV, 易于#NN)  (root, ROOT#null, 吸收#VV)  (mmod, 作为#VV, 可以#VV)  (ccomp, 吸收#VV, 作为#VV)  (nn, 铁#NN, 儿童#NN)  (nn, 铁#NN, 补充#NN)  (assmod, 之一#NN, 铁#NN)  (case, 铁#NN, 的#DEG)  (nn, 之一#NN, 食物#NN)  (dobj, 作为#VV, 之一#NN)
+            (nsubj, 骨质#VV, 预防#NN)  (root, ROOT#null, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)
+            (loc, 黄酮类#VV, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (nn, 成分#NN, 含有#NN)  (nn, 成分#NN, 微量#NN)  (nn, 成分#NN, 功能性#NN)  (nsubj, 黄酮类#VV, 成分#NN)  (root, ROOT#null, 黄酮类#VV)  (dobj, 黄酮类#VV, 化合物#NN)  (advmod, 大豆#VV, 特别是#AD)  (conj, 黄酮类#VV, 大豆#VV)  (nn, 黄酮#NN, 异#NN)  (dobj, 大豆#VV, 黄酮#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 黄酮类#VV, 称为#VV)  (amod, 植物#NN, 天然#JJ)  (nn, 激素#NN, 植物#NN)  (nn, 激素#NN, 雌#NN)  (dobj, 称为#VV, 激素#NN)  (case, 人体#NN, 在#P)  (prep, 具有#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (conj, 黄酮类#VV, 具有#VV)  (nn, 作用#NN, 雌激素#NN)  (dobj, 具有#VV, 作用#NN)  (mmod, 改善#VV, 可以#VV)  (conj, 黄酮类#VV, 改善#VV)  (nn, 更年期#NN, 妇女#NN)  (assmod, 不适#NN, 更年期#NN)  (case, 更年期#NN, 的#DEG)  (dobj, 改善#VV, 不适#NN)  (conj, 黄酮类#VV, 防治#VV)  (nn, 疏松#NN, 骨质#NN)  (dobj, 防治#VV, 疏松#NN)
+            (nsubj, 减肥#VV, 美容#NN)  (root, ROOT#null, 减肥#VV)
+            (nummod, 具#M, 毛豆#CD)  (clf, 润肤#NN, 具#M)  (nn, 润肤#NN, 养颜#NN)  (conj, 改善#NN, 润肤#NN)  (amod, 改善#NN, 有效#JJ)  (nsubj, 不振#VV, 改善#NN)  (advmod, 不振#VV, 食欲#AD)  (root, ROOT#null, 不振#VV)  (case, 倦怠#NN, 与#P)  (nn, 倦怠#NN, 全身#NN)  (assmod, 功效#NN, 倦怠#NN)  (case, 倦怠#NN, 的#DEG)  (dobj, 不振#VV, 功效#NN)   (advmod, 营养#VA, 毛豆#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (comod, 营养#VA, 均衡#VA)  (dep, 营养#VA, 含有#VV)  (relcl, 成分#NN, 有益#VA)  (mark, 有益#VA, 的#DEC)  (amod, 成分#NN, 活性#JJ)  (dobj, 含有#VV, 成分#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 营养#VA, 食用#VV)  (case, 女性#NN, 对#P)  (prep, 保持#VV, 女性#NN)  (conj, 营养#VA, 保持#VV)  (dobj, 保持#VV, 苗条#NN)  (nn, 作用#NN, 身材#NN)  (nsubj, 显著#VA, 作用#NN)  (dep, 营养#VA, 显著#VA)   (root, ROOT#null, null#null)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (loc, 清除#VV, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (nsubj, 清除#VV, 含有#NN)  (mmod, 清除#VV, 能#VV)  (root, ROOT#null, 清除#VV)  (nn, 脂肪#NN, 血管#NN)  (nn, 脂肪#NN, 壁上#NN)  (assmod, 化合物#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (dobj, 清除#VV, 化合物#NN)  (advmod, 起到#VV, 从而#AD)  (dep, 清除#VV, 起到#VV)  (relcl, 作用#NN, 降#VV)  (dobj, 降#VV, 血脂#NN)  (cc, 降#VV, 和#CC)  (conj, 降#VV, 降低#VV)  (dep, 胆固醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (case, 疾病#NN, 对#P)  (conj, 冠心病#NN, 肥胖#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 冠心病#NN, 血脂#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (conj, 冠心病#NN, 硬化#NN)  (nn, 疾病#NN, 冠心病#NN)  (etc, 冠心病#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (dep, 清除#VV, 有#VE)  (relcl, 作用#NN, 预防#VV)  (cc, 预防#VV, 和#CC)  (nsubj, 治疗#VV, 辅助#NN)  (dep, 预防#VV, 治疗#VV)  (mark, 预防#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            若想把毛豆烫成翠绿色，可加一小撮的盐分。因为盐能使叶绿素趋于安定而防止破坏。由于毛豆中钾的含量较多，能与食盐中的钠保持平衡，因此可消除盐分的不利作用，同时在100克的毛豆中也含有丰富的维生素C，但烫熟后还剩下很多，这便是其特点。维生素C对热的抵抗力较弱，但在毛豆的场合例外。
+            毛豆的吃法，除了直接加盐煮着吃，还可以将剥好的豆与腊肉、辣椒、豆腐干等一同炒食，或加五香调料等制成干豆，可根据个人喜爱选择不同的食用方法。但应注意的是，一定要煮熟或炒熟后再吃。
+        </rawdata>
+
+        <segment>
+            若想  把  毛豆  烫成  翠绿色  ，  可加  一小撮  的  盐分  。  因为  盐  能  使  叶绿素  趋于  安定  而  防止  破坏  。  由于  毛豆  中  钾  的  含量  较  多  ，  能  与  食盐  中  的  钠  保持  平衡  ，  因此  可  消除  盐分  的  不利  作用  ，  同时  在  100  克  的  毛豆  中  也  含有  丰富  的  维生素C  ，  但  烫  熟  后  还  剩下  很多  ，  这  便  是  其  特点  。  维生素C  对  热  的  抵抗力  较弱  ，  但  在  毛豆  的  场合  例外  。
+            毛豆  的  吃法  ，  除了  直接  加盐  煮  着  吃  ，  还  可以  将  剥  好  的  豆与  腊肉  、  辣椒  、  豆腐  干等  一同  炒  食  ，  或加  五香  调料  等  制成  干豆  ，  可  根据  个人  喜爱  选择  不同  的  食用  方法  。  但  应  注意  的  是  ，  一定  要  煮熟  或  炒熟  后  再  吃  。
+        </segment>
+
+        <pos>
+            若想#NN  把#BA  毛豆#NN  烫成#VV  翠绿色#NN  ，#PU  可加#VV  一小撮#CD  的#DEG  盐分#NN    。#PU  因为#P  盐#NN  能#VV  使#VV  叶绿素#NN  趋于#VV  安定#NN  而#MSP  防止#VV  破坏#VV    。#PU  由于#P  毛豆#NN  中#LC  钾#NN  的#DEG  含量#NN  较#AD  多#VA  ，#PU  能#VV  与#P  食盐#NN  中#LC  的#DEG  钠#NN  保持#VV  平衡#NN  ，#PU  因此#AD  可#VV  消除#VV  盐分#NN  的#DEG  不利#JJ  作用#NN  ，#PU  同时#AD  在#P  100#CD  克#M  的#DEG  毛豆#NN  中#LC  也#AD  含有#VV  丰富#VA  的#DEC  维生素C#NN  ，#PU  但#AD  烫#VV  熟#VA  后#LC  还#AD  剩下#VV  很多#CD  ，#PU  这#PN  便#AD  是#VC  其#PN  特点#NN    。#PU  维生素C#NN  对#P  热#NN  的#DEG  抵抗力#NN  较弱#NN  ，#PU  但#AD  在#P  毛豆#NN  的#DEG  场合#NN  例外#VV    。#PU    。#PU
+            毛豆#NN  的#DEG  吃法#NN  ，#PU  除了#P  直接#JJ  加盐#NN  煮#VV  着#AS  吃#VV  ，#PU  还#AD  可以#VV  将#AD  剥#VV  好#VA  的#DEC  豆与#NN  腊肉#NR  、#PU  辣椒#NR  、#PU  豆腐#NR  干等#NN  一同#AD  炒#VV  食#NN  ，#PU  或加#VV  五香#CD  调料#NN  等#ETC  制成#VV  干豆#NN  ，#PU  可#VV  根据#P  个人#NN  喜爱#AD  选择#VV  不同#VA  的#DEC  食用#VV  方法#NN    。#PU  但#AD  应#VV  注意#VV  的#DEC  是#VC  ，#PU  一定#AD  要#VV  煮熟#NN  或#CC  炒熟#NN  后#LC  再#AD  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 烫成#VV, 若想#NN)  (ba, 烫成#VV, 把#BA)  (nsubj, 烫成#VV, 毛豆#NN)  (root, ROOT#null, 烫成#VV)  (dobj, 烫成#VV, 翠绿色#NN)  (conj, 烫成#VV, 可加#VV)  (assmod, 盐分#NN, 一小撮#CD)  (case, 一小撮#CD, 的#DEG)  (dobj, 可加#VV, 盐分#NN)   (case, 使#VV, 因为#P)  (nsubj, 使#VV, 盐#NN)  (mmod, 使#VV, 能#VV)  (prep, 防止#VV, 使#VV)  (dobj, 使#VV, 叶绿素#NN)  (dep, 使#VV, 趋于#VV)  (dobj, 趋于#VV, 安定#NN)  (prtmod, 防止#VV, 而#MSP)  (root, ROOT#null, 防止#VV)  (ccomp, 防止#VV, 破坏#VV)   (case, 多#VA, 由于#P)  (loc, 多#VA, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (assmod, 含量#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 较#AD)  (prep, 消除#VV, 多#VA)  (mmod, 保持#VV, 能#VV)  (case, 钠#NN, 与#P)  (assmod, 钠#NN, 食盐#NN)  (case, 食盐#NN, 中#LC)  (case, 食盐#NN, 的#DEG)  (prep, 保持#VV, 钠#NN)  (dep, 多#VA, 保持#VV)  (dobj, 保持#VV, 平衡#NN)  (advmod, 消除#VV, 因此#AD)  (mmod, 消除#VV, 可#VV)  (root, ROOT#null, 消除#VV)  (assmod, 作用#NN, 盐分#NN)  (case, 盐分#NN, 的#DEG)  (amod, 作用#NN, 不利#JJ)  (dobj, 消除#VV, 作用#NN)  (advmod, 含有#VV, 同时#AD)  (case, 毛豆#NN, 在#P)  (nummod, 克#M, 100#CD)  (assmod, 毛豆#NN, 克#M)  (case, 克#M, 的#DEG)  (prep, 含有#VV, 毛豆#NN)  (case, 毛豆#NN, 中#LC)  (advmod, 含有#VV, 也#AD)  (conj, 消除#VV, 含有#VV)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素C#NN)  (advmod, 剩下#VV, 但#AD)  (loc, 剩下#VV, 烫#VV)  (dep, 烫#VV, 熟#VA)  (case, 烫#VV, 后#LC)  (advmod, 剩下#VV, 还#AD)  (conj, 消除#VV, 剩下#VV)  (range, 剩下#VV, 很多#CD)  (nsubj, 特点#NN, 这#PN)  (advmod, 特点#NN, 便#AD)  (cop, 特点#NN, 是#VC)  (nn, 特点#NN, 其#PN)  (dep, 消除#VV, 特点#NN)   (nsubj, 例外#VV, 维生素C#NN)  (case, 较弱#NN, 对#P)  (assmod, 较弱#NN, 热#NN)  (case, 热#NN, 的#DEG)  (nn, 较弱#NN, 抵抗力#NN)  (prep, 例外#VV, 较弱#NN)  (advmod, 例外#VV, 但#AD)  (case, 场合#NN, 在#P)  (assmod, 场合#NN, 毛豆#NN)  (case, 毛豆#NN, 的#DEG)  (prep, 例外#VV, 场合#NN)  (root, ROOT#null, 例外#VV)   (root, ROOT#null, null#null)
+            (assmod, 吃法#NN, 毛豆#NN)  (case, 毛豆#NN, 的#DEG)  (nsubj, 煮#VV, 吃法#NN)  (case, 加盐#NN, 除了#P)  (amod, 加盐#NN, 直接#JJ)  (prep, 煮#VV, 加盐#NN)  (root, ROOT#null, 煮#VV)  (asp, 煮#VV, 着#AS)  (dep, 煮#VV, 吃#VV)  (advmod, 剥#VV, 还#AD)  (mmod, 剥#VV, 可以#VV)  (advmod, 剥#VV, 将#AD)  (dep, 煮#VV, 剥#VV)  (relcl, 豆与#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 剥#VV, 豆与#NN)  (conj, 豆腐#NR, 腊肉#NR)  (conj, 豆腐#NR, 辣椒#NR)  (nn, 干等#NN, 豆腐#NR)  (nsubj, 炒#VV, 干等#NN)  (advmod, 炒#VV, 一同#AD)  (conj, 煮#VV, 炒#VV)  (dobj, 炒#VV, 食#NN)  (conj, 炒#VV, 或加#VV)  (range, 或加#VV, 五香#CD)  (nsubj, 制成#VV, 调料#NN)  (etc, 调料#NN, 等#ETC)  (conj, 煮#VV, 制成#VV)  (dobj, 制成#VV, 干豆#NN)  (mmod, 选择#VV, 可#VV)  (case, 个人#NN, 根据#P)  (prep, 选择#VV, 个人#NN)  (advmod, 选择#VV, 喜爱#AD)  (conj, 制成#VV, 选择#VV)  (relcl, 方法#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (nfincl, 方法#NN, 食用#VV)  (dobj, 选择#VV, 方法#NN)   (advmod, 注意#VV, 但#AD)  (dep, 注意#VV, 应#VV)  (nsubj, 吃#VV, 注意#VV)  (mark, 注意#VV, 的#DEC)  (cop, 吃#VV, 是#VC)  (advmod, 要#VV, 一定#AD)  (conj, 吃#VV, 要#VV)  (conj, 炒熟#NN, 煮熟#NN)  (cc, 炒熟#NN, 或#CC)  (loc, 吃#VV, 炒熟#NN)  (case, 炒熟#NN, 后#LC)  (advmod, 吃#VV, 再#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081835487670.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\284 毛豆.jpg
+    </picturelocalurl>
+
+</content>

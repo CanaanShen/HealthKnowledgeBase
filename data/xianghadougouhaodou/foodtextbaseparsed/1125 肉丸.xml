@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        1125
+    </id>
+
+    <foodname>
+        肉丸
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肉丸由芋头制成，因此在睡前食用可能导致胃酸过量，对于胃有疾病的同志需要慎食。最好在正常消化时间(成年人通常在半个小时以上)以上食用。而且由于肉丸内部密封，热气腾腾，给儿童喂食的时候要注意避免烫嘴。
+        </rawdata>
+
+        <segment>
+            肉丸  由  芋头  制成  ，  因此  在  睡前  食用  可能  导致  胃酸  过量  ，  对于  胃  有  疾病  的  同志  需要  慎食  。  最好  在  正常  消化  时间  (  成年人  通常  在  半  个  小时  以上  )  以上  食用  。  而且  由于  肉丸  内部  密封  ，  热气  腾腾  ，  给  儿童  喂食  的  时候  要  注意  避免  烫嘴  。
+        </segment>
+
+        <pos>
+            肉丸#NN  由#P  芋头#NN  制成#VV  ，#PU  因此#AD  在#P  睡前#NR  食用#VV  可能#VV  导致#VV  胃酸#NN  过量#AD  ，#PU  对于#P  胃#NN  有#VE  疾病#NN  的#DEC  同志#NN  需要#VV  慎食#NN    。#PU  最好#JJ  在#P  正常#JJ  消化#NN  时间#NN  -LRB-#NN  成年人#NN  通常#AD  在#P  半#CD  个#M  小时#NN  以上#LC  -RRB-#NN  以上#LC  食用#VV    。#PU  而且#AD  由于#P  肉丸#NN  内部#NN  密封#VV  ，#PU  热气#NN  腾腾#NN  ，#PU  给#P  儿童#NN  喂食#VV  的#DEC  时候#NN  要#VV  注意#VV  避免#VV  烫嘴#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制成#VV, 肉丸#NN)  (case, 芋头#NN, 由#P)  (prep, 制成#VV, 芋头#NN)  (root, ROOT#null, 制成#VV)  (advmod, 食用#VV, 因此#AD)  (case, 睡前#NR, 在#P)  (prep, 食用#VV, 睡前#NR)  (conj, 制成#VV, 食用#VV)  (mmod, 导致#VV, 可能#VV)  (relcl, 同志#NN, 导致#VV)  (dobj, 导致#VV, 胃酸#NN)  (advmod, 有#VE, 过量#AD)  (case, 胃#NN, 对于#P)  (prep, 有#VE, 胃#NN)  (dep, 导致#VV, 有#VE)  (dobj, 有#VE, 疾病#NN)  (mark, 导致#VV, 的#DEC)  (dobj, 食用#VV, 同志#NN)  (conj, 食用#VV, 需要#VV)  (dobj, 需要#VV, 慎食#NN)   (amod, -LRB-#NN, 最好#JJ)  (case, 时间#NN, 在#P)  (amod, 消化#NN, 正常#JJ)  (nn, 时间#NN, 消化#NN)  (prep, -LRB-#NN, 时间#NN)  (nsubj, 食用#VV, 成年人#NN)  (advmod, 食用#VV, 通常#AD)  (case, -RRB-#NN, 在#P)  (nummod, 个#M, 半#CD)  (clf, 小时#NN, 个#M)  (dep, -RRB-#NN, 小时#NN)  (case, 小时#NN, 以上#LC)  (case, -RRB-#NN, 以上#LC)  (root, ROOT#null, 食用#VV)   (advmod, 喂食#VV, 而且#AD)  (case, 密封#VV, 由于#P)  (nn, 内部#NN, 肉丸#NN)  (nsubj, 密封#VV, 内部#NN)  (prep, 喂食#VV, 密封#VV)  (nn, 腾腾#NN, 热气#NN)  (nsubj, 喂食#VV, 腾腾#NN)  (case, 儿童#NN, 给#P)  (prep, 喂食#VV, 儿童#NN)  (relcl, 时候#NN, 喂食#VV)  (mark, 喂食#VV, 的#DEC)  (nsubj, 注意#VV, 时候#NN)  (mmod, 注意#VV, 要#VV)  (root, ROOT#null, 注意#VV)  (ccomp, 注意#VV, 避免#VV)  (dobj, 避免#VV, 烫嘴#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            肉丸，就是有肉的丸子，通常由薄皮包裹肉质馅料通过蒸煮烹制而成。
+        </rawdata>
+
+        <segment>
+            肉丸  ，  就是  有  肉  的  丸子  ，  通常  由  薄皮  包裹  肉质  馅料  通过  蒸煮  烹制  而成  。
+        </segment>
+
+        <pos>
+            肉丸#NN  ，#PU  就是#AD  有#VE  肉#NN  的#DEG  丸子#NN  ，#PU  通常#AD  由#P  薄皮#NN  包裹#NN  肉质#NN  馅料#NN  通过#P  蒸煮#NN  烹制#VV  而成#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 肉丸#NN)  (advmod, 有#VE, 就是#AD)  (root, ROOT#null, 有#VE)  (assmod, 丸子#NN, 肉#NN)  (case, 肉#NN, 的#DEG)  (dobj, 有#VE, 丸子#NN)  (advmod, 烹制#VV, 通常#AD)  (case, 馅料#NN, 由#P)  (nn, 馅料#NN, 薄皮#NN)  (nn, 馅料#NN, 包裹#NN)  (nn, 馅料#NN, 肉质#NN)  (prep, 烹制#VV, 馅料#NN)  (case, 蒸煮#NN, 通过#P)  (prep, 烹制#VV, 蒸煮#NN)  (conj, 有#VE, 烹制#VV)  (dobj, 烹制#VV, 而成#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            肉圆既是一道常菜，饮宴也不可缺，主要是取“圆”字寓意“团圆”、“圆满”。“圆”谐音“缘”，尤其适合喜宴，如以鱼、肉两圆混合上席，更有成双、有余的吉兆。
+        </rawdata>
+
+        <segment>
+            肉圆  既  是  一  道  常  菜  ，  饮宴  也  不可缺  ，  主要  是  取  “  圆  ”  字  寓意  “  团圆  ”  、  “  圆满  ”  。  “  圆  ”  谐音  “  缘  ”  ，  尤其  适合  喜宴  ，  如  以  鱼  、  肉  两  圆  混合  上席  ，  更  有  成双  、  有余  的  吉兆  。
+        </segment>
+
+        <pos>
+            肉圆#NN  既#CC  是#VC  一#CD  道#NN  常#NR  菜#NN  ，#PU  饮宴#AD  也#AD  不可缺#VV  ，#PU  主要#AD  是#VC  取#VV  ``#NN  圆#VV  ''#CD  字#M  寓意#VV  ``#AD  团圆#VV  ''#NR  、#PU  ``#NR  圆满#JJ  ''#NN    。#PU  ``#NN  圆#VV  ''#AD  谐音#VV  ``#NN  缘#NN  ''#NN  ，#PU  尤其#AD  适合#VV  喜宴#NN  ，#PU  如#AD  以#P  鱼#NN  、#PU  肉#NN  两#AD  圆#VV  混合#JJ  上席#NN  ，#PU  更#AD  有#VE  成双#NN  、#PU  有余#VV  的#DEC  吉兆#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 菜#NN, 肉圆#NN)  (cc, 菜#NN, 既#CC)  (cop, 菜#NN, 是#VC)  (nummod, 道#NN, 一#CD)  (nn, 菜#NN, 道#NN)  (nn, 菜#NN, 常#NR)  (dep, 寓意#VV, 菜#NN)  (advmod, 不可缺#VV, 饮宴#AD)  (advmod, 不可缺#VV, 也#AD)  (conj, 菜#NN, 不可缺#VV)  (advmod, 取#VV, 主要#AD)  (cop, 取#VV, 是#VC)  (conj, 菜#NN, 取#VV)  (dobj, 取#VV, ``#NN)  (conj, 取#VV, 圆#VV)  (nummod, 字#M, ''#CD)  (range, 圆#VV, 字#M)  (root, ROOT#null, 寓意#VV)  (advmod, 团圆#VV, ``#AD)  (ccomp, 寓意#VV, 团圆#VV)  (conj, ``#NR, ''#NR)  (nn, ''#NN, ``#NR)  (amod, ''#NN, 圆满#JJ)  (dobj, 团圆#VV, ''#NN)   (nsubj, 圆#VV, ``#NN)  (root, ROOT#null, 圆#VV)  (advmod, 谐音#VV, ''#AD)  (relcl, 吉兆#NN, 谐音#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 缘#NN)  (dobj, 谐音#VV, ''#NN)  (advmod, 适合#VV, 尤其#AD)  (conj, 谐音#VV, 适合#VV)  (dobj, 适合#VV, 喜宴#NN)  (advmod, 圆#VV, 如#AD)  (case, 肉#NN, 以#P)  (conj, 肉#NN, 鱼#NN)  (prep, 圆#VV, 肉#NN)  (advmod, 圆#VV, 两#AD)  (conj, 谐音#VV, 圆#VV)  (amod, 上席#NN, 混合#JJ)  (dobj, 圆#VV, 上席#NN)  (advmod, 有#VE, 更#AD)  (conj, 谐音#VV, 有#VE)  (dobj, 有#VE, 成双#NN)  (conj, 谐音#VV, 有余#VV)  (mark, 谐音#VV, 的#DEC)  (dobj, 圆#VV, 吉兆#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  改善营养性贫血  美容养颜  补气  润燥  补血  消肿  补肾阴  补肾气
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            包完的肉丸不宜堆放，会造成表皮的粘连，可以用淀粉隔离。但更好的办法则是将其放入冰箱的冷冻室(结冰层)。
+        </rawdata>
+
+        <segment>
+            包  完  的  肉丸  不  宜  堆放  ，  会  造成  表皮  的  粘连  ，  可以  用  淀粉  隔离  。  但  更  好  的  办法  则  是  将  其  放入  冰箱  的  冷冻室  (  结冰  层  )  。
+        </segment>
+
+        <pos>
+            包#VV  完#VV  的#DEC  肉丸#NN  不#AD  宜#NR  堆放#NN  ，#PU  会#VV  造成#VV  表皮#NN  的#DEG  粘连#NN  ，#PU  可以#VV  用#P  淀粉#NN  隔离#VV    。#PU  但#AD  更#AD  好#VA  的#DEC  办法#NN  则#AD  是#VC  将#BA  其#PN  放入#VV  冰箱#NN  的#DEC  冷冻室#NN  -LRB-#VV  结冰#CD  层#M  -RRB-#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 肉丸#NN, 包#VV)  (comod, 包#VV, 完#VV)  (mark, 包#VV, 的#DEC)  (nsubj, 造成#VV, 肉丸#NN)  (neg, 造成#VV, 不#AD)  (nn, 堆放#NN, 宜#NR)  (dep, 造成#VV, 堆放#NN)  (mmod, 造成#VV, 会#VV)  (root, ROOT#null, 造成#VV)  (assmod, 粘连#NN, 表皮#NN)  (case, 表皮#NN, 的#DEG)  (dobj, 造成#VV, 粘连#NN)  (mmod, 隔离#VV, 可以#VV)  (case, 淀粉#NN, 用#P)  (prep, 隔离#VV, 淀粉#NN)  (conj, 造成#VV, 隔离#VV)   (advmod, 冷冻室#NN, 但#AD)  (advmod, 好#VA, 更#AD)  (relcl, 办法#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nsubj, 冷冻室#NN, 办法#NN)  (advmod, 冷冻室#NN, 则#AD)  (cop, 冷冻室#NN, 是#VC)  (ba, 放入#VV, 将#BA)  (nsubj, 放入#VV, 其#PN)  (relcl, 冷冻室#NN, 放入#VV)  (dobj, 放入#VV, 冰箱#NN)  (mark, 放入#VV, 的#DEC)  (conj, -LRB-#VV, 冷冻室#NN)  (root, -LRB-#VV, 冷冻室#NN)  (nummod, 层#M, 结冰#CD)  (clf, -RRB-#NN, 层#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/17/06/1559_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1125 肉丸.jpg
+    </picturelocalurl>
+
+</content>

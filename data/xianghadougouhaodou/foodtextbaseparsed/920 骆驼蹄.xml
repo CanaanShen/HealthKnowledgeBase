@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        920
+    </id>
+
+    <foodname>
+        骆驼蹄
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            由于骆驼蹄中的胆固醇含量较高，因此有胃肠消化功能减弱的老人一次不能过量食用；而患有肝胆病，动脉硬化和高血压病的人应当少吃或不吃。晚餐吃得太晚或临睡前不宜吃骆驼蹄，以免增加血粘度。猪蹄不可与甘草同吃，否则会引起中毒，但可以用绿豆治疗。
+        </rawdata>
+
+        <segment>
+            由于  骆驼  蹄中  的  胆固醇  含量  较  高  ，  因此  有  胃肠  消化  功能  减弱  的  老人  一  次  不  能  过量  食用  ；  而  患有  肝胆  病  ，  动脉  硬化  和  高血压  病的  人  应当  少吃  或  不  吃  。  晚餐  吃得  太  晚  或  临睡  前  不  宜  吃  骆驼蹄  ，  以免  增加  血  粘度  。  猪蹄  不  可  与  甘草  同吃  ，  否则  会  引起  中毒  ，  但  可以  用  绿豆  治疗  。
+        </segment>
+
+        <pos>
+            由于#P  骆驼#NN  蹄中#NN  的#DEG  胆固醇#NN  含量#NN  较#AD  高#VA  ，#PU  因此#AD  有#VE  胃肠#NN  消化#NN  功能#NN  减弱#NN  的#DEG  老人#NN  一#CD  次#M  不#AD  能#VV  过量#AD  食用#VV  ；#PU  而#CC  患有#NN  肝胆#NN  病#NN  ，#PU  动脉#NN  硬化#NN  和#CC  高血压#NN  病的#CD  人#NN  应当#VV  少吃#NN  或#CC  不#AD  吃#VV    。#PU  晚餐#NN  吃得#NN  太#AD  晚#NN  或#CC  临睡#NN  前#LC  不#AD  宜#NR  吃#VV  骆驼蹄#NN  ，#PU  以免#VV  增加#VV  血#NN  粘度#NN    。#PU  猪蹄#NR  不#AD  可#VV  与#P  甘草#NN  同吃#VV  ，#PU  否则#AD  会#VV  引起#VV  中毒#VV  ，#PU  但#AD  可以#VV  用#P  绿豆#NN  治疗#VV    。#PU
+        </pos>
+
+        <parsing>
+            (case, 高#VA, 由于#P)  (nn, 蹄中#NN, 骆驼#NN)  (assmod, 含量#NN, 蹄中#NN)  (case, 蹄中#NN, 的#DEG)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (prep, 有#VE, 高#VA)  (advmod, 有#VE, 因此#AD)  (root, ROOT#null, 有#VE)  (nn, 功能#NN, 胃肠#NN)  (nn, 功能#NN, 消化#NN)  (nn, 减弱#NN, 功能#NN)  (assmod, 老人#NN, 减弱#NN)  (case, 减弱#NN, 的#DEG)  (dobj, 有#VE, 老人#NN)  (nummod, 次#M, 一#CD)  (range, 有#VE, 次#M)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 能#VV)  (advmod, 食用#VV, 过量#AD)  (conj, 有#VE, 食用#VV)  (cc, 有#VE, 而#CC)  (nn, 病#NN, 患有#NN)  (nn, 病#NN, 肝胆#NN)  (nsubj, 应当#VV, 病#NN)  (nsubj, 应当#VV, 动脉#NN)  (conj, 高血压#NN, 硬化#NN)  (cc, 高血压#NN, 和#CC)  (nn, 人#NN, 高血压#NN)  (nummod, 人#NN, 病的#CD)  (nsubj, 应当#VV, 人#NN)  (dep, 有#VE, 应当#VV)  (dobj, 应当#VV, 少吃#NN)  (cc, 应当#VV, 或#CC)  (neg, 吃#VV, 不#AD)  (conj, 应当#VV, 吃#VV)   (nn, 吃得#NN, 晚餐#NN)  (nsubj, 吃#VV, 吃得#NN)  (advmod, 吃#VV, 太#AD)  (conj, 临睡#NN, 晚#NN)  (cc, 临睡#NN, 或#CC)  (loc, 吃#VV, 临睡#NN)  (case, 临睡#NN, 前#LC)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 宜#NR)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 骆驼蹄#NN)  (conj, 吃#VV, 以免#VV)  (ccomp, 以免#VV, 增加#VV)  (nn, 粘度#NN, 血#NN)  (dobj, 增加#VV, 粘度#NN)   (nsubj, 同吃#VV, 猪蹄#NR)  (neg, 同吃#VV, 不#AD)  (mmod, 同吃#VV, 可#VV)  (case, 甘草#NN, 与#P)  (prep, 同吃#VV, 甘草#NN)  (root, ROOT#null, 同吃#VV)  (advmod, 引起#VV, 否则#AD)  (mmod, 引起#VV, 会#VV)  (ccomp, 同吃#VV, 引起#VV)  (ccomp, 引起#VV, 中毒#VV)  (advmod, 治疗#VV, 但#AD)  (mmod, 治疗#VV, 可以#VV)  (case, 绿豆#NN, 用#P)  (prep, 治疗#VV, 绿豆#NN)  (dep, 引起#VV, 治疗#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            高血压，动脉硬化患者不适宜食用
+        </rawdata>
+
+        <segment>
+            高血压  ，  动脉  硬化  患者  不  适宜  食用
+        </segment>
+
+        <pos>
+            高血压#VV  ，#PU  动脉#NN  硬化#NN  患者#NN  不#AD  适宜#VA  食用#VV
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 高血压#VV)  (nn, 患者#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (nsubj, 适宜#VA, 患者#NN)  (neg, 适宜#VA, 不#AD)  (ccomp, 高血压#VV, 适宜#VA)  (dep, 高血压#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                116cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                72.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                25.6g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                1.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                0.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.01mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                210.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                36mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                55mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            骆驼蹄，含有丰富的胶原蛋白质，脂肪含量也比肥肉低，近年在对老年人衰老原因的研究中发现，人体中胶原蛋白质缺乏，是人衰老的一个重要因素。它能防治皮肤干瘪起皱、增强皮肤弹性和韧性，对延缓衰老和促进儿童生长发育都具有物殊意义。
+        </rawdata>
+
+        <segment>
+            骆驼蹄  ，  含有  丰富  的  胶原  蛋白质  ，  脂肪  含量  也  比  肥肉  低  ，  近年  在  对  老年人  衰老  原因  的  研究  中  发现  ，  人  体中  胶原  蛋白质  缺乏  ，  是  人  衰老  的  一  个  重要  因素  。  它  能  防治  皮肤  干瘪  起皱  、  增强  皮肤  弹性  和  韧性  ，  对  延缓  衰老  和  促进  儿童  生长  发育  都  具有  物  殊  意义  。
+        </segment>
+
+        <pos>
+            骆驼蹄#NR  ，#PU  含有#NR  丰富#VA  的#DEC  胶原#NN  蛋白质#VV  ，#PU  脂肪#NN  含量#NN  也#AD  比#P  肥肉#NN  低#VA  ，#PU  近年#NT  在#P  对#P  老年人#NN  衰老#NN  原因#NN  的#DEG  研究#NN  中#LC  发现#VV  ，#PU  人#NN  体中#NN  胶原#NN  蛋白质#AD  缺乏#VV  ，#PU  是#VC  人#NN  衰老#NN  的#DEG  一#CD  个#M  重要#JJ  因素#NN    。#PU  它#PN  能#VV  防治#VV  皮肤#NN  干瘪#NN  起皱#NN  、#PU  增强#VV  皮肤#NN  弹性#NN  和#CC  韧性#NN  ，#PU  对#P  延缓#NN  衰老#VV  和#CC  促进#VV  儿童#NN  生长#NN  发育#NN  都#AD  具有#VV  物#NN  殊#NN  意义#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 骆驼蹄#NR)  (nsubj, 蛋白质#VV, 含有#NR)  (relcl, 胶原#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 蛋白质#VV, 胶原#NN)  (root, ROOT#null, 蛋白质#VV)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 也#AD)  (case, 肥肉#NN, 比#P)  (prep, 低#VA, 肥肉#NN)  (ccomp, 蛋白质#VV, 低#VA)  (dep, 发现#VV, 近年#NT)  (case, 研究#NN, 在#P)  (case, 原因#NN, 对#P)  (nn, 原因#NN, 老年人#NN)  (nn, 原因#NN, 衰老#NN)  (assmod, 研究#NN, 原因#NN)  (case, 原因#NN, 的#DEG)  (prep, 发现#VV, 研究#NN)  (case, 研究#NN, 中#LC)  (conj, 低#VA, 发现#VV)  (nn, 胶原#NN, 人#NN)  (nn, 胶原#NN, 体中#NN)  (nsubj, 缺乏#VV, 胶原#NN)  (advmod, 缺乏#VV, 蛋白质#AD)  (ccomp, 发现#VV, 缺乏#VV)  (cop, 因素#NN, 是#VC)  (nn, 衰老#NN, 人#NN)  (assmod, 因素#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (nummod, 个#M, 一#CD)  (clf, 因素#NN, 个#M)  (amod, 因素#NN, 重要#JJ)  (conj, 低#VA, 因素#NN)   (nsubj, 防治#VV, 它#PN)  (mmod, 防治#VV, 能#VV)  (relcl, 发育#NN, 防治#VV)  (nn, 起皱#NN, 皮肤#NN)  (nn, 起皱#NN, 干瘪#NN)  (dobj, 防治#VV, 起皱#NN)  (conj, 防治#VV, 增强#VV)  (nn, 韧性#NN, 皮肤#NN)  (conj, 韧性#NN, 弹性#NN)  (cc, 韧性#NN, 和#CC)  (dobj, 增强#VV, 韧性#NN)  (case, 延缓#NN, 对#P)  (prep, 衰老#VV, 延缓#NN)  (conj, 防治#VV, 衰老#VV)  (cc, 防治#VV, 和#CC)  (conj, 防治#VV, 促进#VV)  (nn, 生长#NN, 儿童#NN)  (dobj, 促进#VV, 生长#NN)  (nsubj, 具有#VV, 发育#NN)  (advmod, 具有#VV, 都#AD)  (root, ROOT#null, 具有#VV)  (nn, 意义#NN, 物#NN)  (nn, 意义#NN, 殊#NN)  (dobj, 具有#VV, 意义#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            “填肾精而健腰脚，滋胃液以滑皮肤，长肌肉可愈漏疡，助血脉能充乳汁，较肉尤补。”但一般多用来催乳，治产后气血不足，乳汁缺乏。单用本品或加黄芪、当归炖熟服食。
+        </rawdata>
+
+        <segment>
+            “  填  肾  精  而  健腰脚  ，  滋胃液  以  滑  皮肤  ，  长  肌肉  可  愈  漏疡  ，  助  血脉  能  充  乳汁  ，  较  肉  尤补  。  ”  但  一般  多用  来  催乳  ，  治  产后  气血  不足  ，  乳汁  缺乏  。  单用  本品  或  加  黄芪  、  当归  炖熟  服食  。
+        </segment>
+
+        <pos>
+            ``#NN  填#VV  肾#NN  精#NN  而#MSP  健腰脚#VV  ，#PU  滋胃液#NN  以#P  滑#NN  皮肤#NN  ，#PU  长#AD  肌肉#AD  可#VV  愈#AD  漏疡#VV  ，#PU  助#NN  血脉#NN  能#VV  充#VV  乳汁#NN  ，#PU  较#P  肉#NN  尤补#VV    。#PU  ''#NR  但#AD  一般#JJ  多用#NN  来#MSP  催乳#VV  ，#PU  治#VV  产后#NN  气血#NN  不足#NN  ，#PU  乳汁#AD  缺乏#VV    。#PU  单用#NN  本品#NN  或#CC  加#NR  黄芪#NN  、#PU  当归#NN  炖熟#NN  服食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 填#VV, ``#NN)  (root, ROOT#null, 填#VV)  (nn, 精#NN, 肾#NN)  (dobj, 填#VV, 精#NN)  (prtmod, 健腰脚#VV, 而#MSP)  (conj, 填#VV, 健腰脚#VV)  (nsubj, 漏疡#VV, 滋胃液#NN)  (case, 皮肤#NN, 以#P)  (nn, 皮肤#NN, 滑#NN)  (prep, 漏疡#VV, 皮肤#NN)  (advmod, 漏疡#VV, 长#AD)  (advmod, 漏疡#VV, 肌肉#AD)  (mmod, 漏疡#VV, 可#VV)  (advmod, 漏疡#VV, 愈#AD)  (ccomp, 健腰脚#VV, 漏疡#VV)  (nn, 血脉#NN, 助#NN)  (nsubj, 充#VV, 血脉#NN)  (mmod, 充#VV, 能#VV)  (conj, 漏疡#VV, 充#VV)  (dobj, 充#VV, 乳汁#NN)  (case, 肉#NN, 较#P)  (prep, 尤补#VV, 肉#NN)  (dep, 充#VV, 尤补#VV)   (nsubj, 催乳#VV, ''#NR)  (advmod, 催乳#VV, 但#AD)  (amod, 多用#NN, 一般#JJ)  (nsubj, 催乳#VV, 多用#NN)  (prtmod, 催乳#VV, 来#MSP)  (root, ROOT#null, 催乳#VV)  (ccomp, 催乳#VV, 治#VV)  (nn, 不足#NN, 产后#NN)  (nn, 不足#NN, 气血#NN)  (dobj, 治#VV, 不足#NN)  (advmod, 缺乏#VV, 乳汁#AD)  (dep, 催乳#VV, 缺乏#VV)   (nn, 炖熟#NN, 单用#NN)  (conj, 炖熟#NN, 本品#NN)  (cc, 炖熟#NN, 或#CC)  (nn, 炖熟#NN, 加#NR)  (conj, 炖熟#NN, 黄芪#NN)  (nn, 炖熟#NN, 当归#NN)  (nsubj, 服食#VV, 炖熟#NN)  (root, ROOT#null, 服食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾阳  强筋骨
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/c7/41/82375_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\920 骆驼蹄.jpg
+    </picturelocalurl>
+
+</content>

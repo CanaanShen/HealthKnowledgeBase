@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        67
+    </id>
+
+    <foodname>
+        奶酪
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        乳制品
+    </secondcategory>
+
+    <alias>
+        干酪、乳酪、芝士、起司、计司
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肥胖者慎食。
+        </rawdata>
+
+        <segment>
+            肥胖者  慎食  。
+        </segment>
+
+        <pos>
+            肥胖者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肥胖者#VV)  (dobj, 肥胖者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一把人群均可食用。
+        </rawdata>
+
+        <segment>
+            一  把  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一#CD  把#M  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 把#M, 一#CD)  (clf, 人群#NN, 把#M)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                328
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                25.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                23.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                152
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                799
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                326
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                584.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                6.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            奶酪(其中的一类也叫干酪)是一种发酵的牛奶制品，其性质与常见的酸牛奶有相似之处，都是通过发酵过程来制作的，也都含有可以保健的乳酸菌，但是奶酪的浓度比酸奶更高，近似固体食物，营养价值也因此更加丰富。奶酪源自于西亚，是一种自古流传下来的美食，然而，奶酪的风味却是在欧洲真正开始酝酿。每公斤奶酪制品都是由10公斤的牛奶浓缩而成，含有丰富的蛋白质、钙、脂肪、磷和维生素等营养成分，是纯天然的食品。就工艺而言，奶酪是发酵的牛奶;就营养而言，奶酪是浓缩的牛奶。
+        </rawdata>
+
+        <segment>
+            奶酪  (  其中  的  一  类  也  叫  干酪  )  是  一  种  发酵  的  牛奶  制品  ，  其  性质  与  常见  的  酸牛奶  有  相似之处  ，  都  是  通过  发酵  过程  来  制作  的  ，  也  都  含有  可以  保健  的  乳酸菌  ，  但是  奶酪  的  浓度  比  酸奶  更高  ，  近似  固体  食物  ，  营养  价值  也  因此  更加  丰富  。  奶酪  源自于  西亚  ，  是  一  种  自古  流传  下来  的  美食  ，  然而  ，  奶酪  的  风味  却  是  在  欧洲  真正  开始  酝酿  。  每  公斤  奶酪  制品  都  是  由  10  公斤  的  牛奶  浓缩  而  成  ，  含有  丰富  的  蛋白质  、  钙  、  脂肪  、  磷  和  维生素  等  营养  成分  ，  是  纯天然  的  食品  。  就  工艺  而言  ，  奶酪  是  发酵  的  牛奶  ;  就  营养  而言  ，  奶酪  是  浓缩  的  牛奶  。
+        </segment>
+
+        <pos>
+            奶酪#NN  -LRB-#NN  其中#NN  的#DEG  一#CD  类#M  也#AD  叫#VV  干酪#NN  -RRB-#NN  是#VC  一#CD  种#M  发酵#NN  的#DEG  牛奶#NN  制品#NN  ，#PU  其#PN  性质#NN  与#P  常见#VA  的#DEC  酸牛奶#NN  有#VE  相似之处#NN  ，#PU  都#AD  是#VC  通过#P  发酵#NN  过程#NN  来#LC  制作#VV  的#DEC  ，#PU  也#AD  都#AD  含有#VV  可以#VV  保健#NN  的#DEC  乳酸菌#NN  ，#PU  但是#AD  奶酪#NR  的#DEG  浓度#NN  比#P  酸奶#NR  更高#JJ  ，#PU  近似#VV  固体#NN  食物#NN  ，#PU  营养#VA  价值#NN  也#AD  因此#AD  更加#AD  丰富#VA    。#PU  奶酪#AD  源自于#VV  西亚#NR  ，#PU  是#VC  一#CD  种#M  自古#AD  流传#VV  下来#VV  的#DEC  美食#NN  ，#PU  然而#AD  ，#PU  奶酪#NN  的#DEG  风味#NN  却#AD  是#VC  在#P  欧洲#NR  真正#AD  开始#VV  酝酿#VV    。#PU  每#DT  公斤#M  奶酪#NN  制品#NN  都#AD  是#VC  由#P  10#CD  公斤#M  的#DEG  牛奶#NN  浓缩#VV  而#MSP  成#VV  ，#PU  含有#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  钙#NN  、#PU  脂肪#NN  、#PU  磷#NN  和#CC  维生素#NN  等#ETC  营养#VA  成分#NN  ，#PU  是#VC  纯天然#NN  的#DEG  食品#NN    。#PU  就#P  工艺#NN  而言#NN  ，#PU  奶酪#NN  是#VC  发酵#NN  的#DEG  牛奶#NN  ;#NN  就#AD  营养#VA  而言#NN  ，#PU  奶酪#NN  是#VC  浓缩#NN  的#DEG  牛奶#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 其中#NN, 奶酪#NN)  (assmod, 价值#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nummod, 类#M, 一#CD)  (clf, 价值#NN, 类#M)  (advmod, 叫#VV, 也#AD)  (relcl, 价值#NN, 叫#VV)  (nn, -RRB-#NN, 干酪#NN)  (cop, 制品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 发酵#NN, 种#M)  (assmod, 制品#NN, 发酵#NN)  (case, 发酵#NN, 的#DEG)  (nn, 制品#NN, 牛奶#NN)  (ccomp, 叫#VV, 制品#NN)  (nn, 性质#NN, 其#PN)  (nsubj, 有#VE, 性质#NN)  (case, 酸牛奶#NN, 与#P)  (relcl, 酸牛奶#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (prep, 有#VE, 酸牛奶#NN)  (conj, 制品#NN, 有#VE)  (dobj, 有#VE, 相似之处#NN)  (advmod, 制作#VV, 都#AD)  (cop, 制作#VV, 是#VC)  (case, 过程#NN, 通过#P)  (nn, 过程#NN, 发酵#NN)  (prep, 制作#VV, 过程#NN)  (case, 过程#NN, 来#LC)  (dep, 有#VE, 制作#VV)  (mark, 制作#VV, 的#DEC)  (advmod, 含有#VV, 也#AD)  (advmod, 含有#VV, 都#AD)  (dep, 有#VE, 含有#VV)  (relcl, 乳酸菌#NN, 可以#VV)  (dobj, 可以#VV, 保健#NN)  (mark, 可以#VV, 的#DEC)  (dobj, 含有#VV, 乳酸菌#NN)  (advmod, 更高#JJ, 但是#AD)  (assmod, 浓度#NN, 奶酪#NR)  (case, 奶酪#NR, 的#DEG)  (nsubj, 更高#JJ, 浓度#NN)  (case, 酸奶#NR, 比#P)  (prep, 更高#JJ, 酸奶#NR)  (conj, 制品#NN, 更高#JJ)  (dep, 更高#JJ, 近似#VV)  (nn, 食物#NN, 固体#NN)  (dobj, 近似#VV, 食物#NN)  (conj, 制品#NN, 营养#VA)  (nsubj, 丰富#VA, 价值#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 因此#AD)  (advmod, 丰富#VA, 更加#AD)  (root, ROOT#null, 丰富#VA)   (advmod, 源自于#VV, 奶酪#AD)  (conj, 美食#NN, 源自于#VV)  (dobj, 源自于#VV, 西亚#NR)  (cop, 美食#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 美食#NN, 种#M)  (advmod, 流传#VV, 自古#AD)  (relcl, 美食#NN, 流传#VV)  (comod, 流传#VV, 下来#VV)  (mark, 流传#VV, 的#DEC)  (root, ROOT#null, 美食#NN)  (advmod, 酝酿#VV, 然而#AD)  (assmod, 风味#NN, 奶酪#NN)  (case, 奶酪#NN, 的#DEG)  (nsubj, 酝酿#VV, 风味#NN)  (advmod, 酝酿#VV, 却#AD)  (cop, 酝酿#VV, 是#VC)  (case, 欧洲#NR, 在#P)  (prep, 酝酿#VV, 欧洲#NR)  (advmod, 酝酿#VV, 真正#AD)  (dep, 酝酿#VV, 开始#VV)  (dep, 美食#NN, 酝酿#VV)   (det, 奶酪#NN, 每#DT)  (clf, 每#DT, 公斤#M)  (nn, 制品#NN, 奶酪#NN)  (nsubj, 成分#NN, 制品#NN)  (advmod, 成分#NN, 都#AD)  (cop, 成分#NN, 是#VC)  (case, 牛奶#NN, 由#P)  (nummod, 公斤#M, 10#CD)  (assmod, 牛奶#NN, 公斤#M)  (case, 公斤#M, 的#DEG)  (prep, 浓缩#VV, 牛奶#NN)  (relcl, 成分#NN, 浓缩#VV)  (dep, 成#VV, 而#MSP)  (dobj, 浓缩#VV, 成#VV)  (advmod, 丰富#VA, 含有#AD)  (dep, 浓缩#VV, 丰富#VA)  (mark, 浓缩#VV, 的#DEC)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 磷#NN)  (cc, 维生素#NN, 和#CC)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (root, ROOT#null, 成分#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 纯天然#NN)  (case, 纯天然#NN, 的#DEG)  (conj, 成分#NN, 食品#NN)   (case, 而言#NN, 就#P)  (nn, 而言#NN, 工艺#NN)  (prep, 牛奶#NN, 而言#NN)  (nsubj, 牛奶#NN, 奶酪#NN)  (cop, 牛奶#NN, 是#VC)  (assmod, 牛奶#NN, 发酵#NN)  (case, 发酵#NN, 的#DEG)  (root, ROOT#null, 牛奶#NN)  (nsubj, 营养#VA, ;#NN)  (advmod, 营养#VA, 就#AD)  (conj, 牛奶#NN, 营养#VA)  (dep, 牛奶#NN, 而言#NN)  (nsubj, 牛奶#NN, 奶酪#NN)  (cop, 牛奶#NN, 是#VC)  (assmod, 牛奶#NN, 浓缩#NN)  (case, 浓缩#NN, 的#DEG)  (conj, 牛奶#NN, 牛奶#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补钙
+            奶制品是食物补钙的最佳选择，奶酪正是含钙最多的奶制品，而且这些钙很容易吸收。
+            2.增加人体抵抗力
+            奶酪能增进人体低抗疾病的能力，促进代谢，增强活力，保护眼睛健康并保持肌肤健美。
+            3.促进胃肠蠕动
+            奶酪是的乳酸菌及其代谢产物对人体有一定的保健作用，有利于维持人体肠道内正常菌群的稳定和平衡，防治便秘和腹泻。
+            4.预防心血管疾病
+            奶酪中的脂肪和热能都比较多，但是其胆固醇含量却比较低，对心血管健康也有有利的一面。
+            5.保护牙齿
+            英国牙科医生认为，人们在吃饭时吃一些奶酪，有助于防止龋齿产生。吃含有奶酪的食物，能大大增加牙齿表层的含钙量，从而抑制龋齿发生。奶酪中的乳酸菌及其代谢产物对人体有一定的保健作用。
+        </rawdata>
+
+        <segment>
+            补钙
+            奶制品  是  食物  补钙  的  最佳  选择  ，  奶酪  正  是  含钙  最  多  的  奶制品  ，  而且  这些  钙  很  容易  吸收  。
+            增加  人体  抵抗力
+            奶酪  能  增进  人体  低抗  疾病  的  能力  ，  促进  代谢  ，  增强  活力  ，  保护  眼睛  健康  并  保持  肌肤  健美  。
+            促进  胃肠  蠕动
+            奶酪  是  的  乳酸菌  及其  代谢  产物  对  人体  有  一定  的  保健  作用  ，  有利于  维持  人体  肠道  内  正常  菌群  的  稳定  和  平衡  ，  防治  便秘  和  腹泻  。
+            预防  心  血管  疾病
+            奶酪  中  的  脂肪  和  热能  都  比较  多  ，  但是  其  胆固醇  含量  却  比较  低  ，  对  心血管  健康  也  有  有利  的  一  面  。
+            保护  牙齿
+            英国  牙科  医生  认为  ，  人们  在  吃饭  时  吃  一些  奶酪  ，  有助于  防止  龋齿  产生  。  吃  含有  奶酪  的  食物  ，  能  大大  增加  牙齿  表层  的  含钙量  ，  从而  抑制  龋齿  发生  。  奶酪  中  的  乳酸菌  及其  代谢  产物  对  人体  有  一定  的  保健  作用  。
+        </segment>
+
+        <pos>
+            补钙#VV
+            奶制品#NN  是#VC  食物#NN  补钙#NN  的#DEG  最佳#JJ  选择#NN  ，#PU  奶酪#NN  正#AD  是#VC  含钙#NN  最#AD  多#VA  的#DEC  奶制品#NN  ，#PU  而且#CC  这些#DT  钙#NN  很#AD  容易#VA  吸收#VV  。#PU
+            增加#VV  人体#NN  抵抗力#NN
+            奶酪#NN  能#VV  增进#VV  人体#NN  低抗#NN  疾病#NN  的#DEG  能力#NN  ，#PU  促进#VV  代谢#NN  ，#PU  增强#VV  活力#NN  ，#PU  保护#VV  眼睛#NN  健康#NN  并#CC  保持#VV  肌肤#NN  健美#NN  。#PU
+            促进#VV  胃肠#NN  蠕动#NN
+            奶酪#NN  是#VC  的#DEC  乳酸菌#NN  及其#NN  代谢#NN  产物#NN  对#P  人体#NN  有#VE  一定#JJ  的#DEG  保健#NN  作用#NN  ，#PU  有利于#VV  维持#VV  人体#NN  肠道#NN  内#LC  正常#JJ  菌群#NN  的#DEG  稳定#NN  和#CC  平衡#VA  ，#PU  防治#VV  便秘#NN  和#CC  腹泻#NN  。#PU
+            预防#VV  心#NN  血管#NN  疾病#NN
+            奶酪#NN  中#LC  的#DEG  脂肪#NN  和#CC  热能#NN  都#AD  比较#AD  多#VA  ，#PU  但是#AD  其#PN  胆固醇#NN  含量#NN  却#AD  比较#AD  低#VA  ，#PU  对#P  心血管#NN  健康#AD  也#AD  有#VE  有利#VA  的#DEC  一#CD  面#NN  。#PU
+            保护#VV  牙齿#NN
+            英国#NR  牙科#NN  医生#NN  认为#VV  ，#PU  人们#NN  在#P  吃饭#VV  时#LC  吃#VV  一些#CD  奶酪#NN  ，#PU  有助于#VV  防止#VV  龋齿#AD  产生#VV    。#PU  吃#VV  含有#NN  奶酪#NN  的#DEG  食物#NN  ，#PU  能#VV  大大#AD  增加#VV  牙齿#NN  表层#NN  的#DEG  含钙量#NN  ，#PU  从而#AD  抑制#VV  龋齿#NN  发生#VV    。#PU  奶酪#NN  中#LC  的#DEG  乳酸菌#NN  及其#NN  代谢#NN  产物#NN  对#P  人体#NN  有#VE  一定#JJ  的#DEG  保健#NN  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补钙#VV)
+            (nsubj, 选择#NN, 奶制品#NN)  (cop, 选择#NN, 是#VC)  (nn, 补钙#NN, 食物#NN)  (assmod, 选择#NN, 补钙#NN)  (case, 补钙#NN, 的#DEG)  (amod, 选择#NN, 最佳#JJ)  (root, ROOT#null, 选择#NN)  (nsubj, 奶制品#NN, 奶酪#NN)  (advmod, 奶制品#NN, 正#AD)  (cop, 奶制品#NN, 是#VC)  (nsubj, 多#VA, 含钙#NN)  (advmod, 多#VA, 最#AD)  (relcl, 奶制品#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 选择#NN, 奶制品#NN)  (cc, 选择#NN, 而且#CC)  (det, 钙#NN, 这些#DT)  (nsubj, 容易#VA, 钙#NN)  (advmod, 容易#VA, 很#AD)  (conj, 选择#NN, 容易#VA)  (dep, 容易#VA, 吸收#VV)
+            (root, ROOT#null, 增加#VV)  (nn, 抵抗力#NN, 人体#NN)  (dobj, 增加#VV, 抵抗力#NN)
+            (nsubj, 增进#VV, 奶酪#NN)  (mmod, 增进#VV, 能#VV)  (root, ROOT#null, 增进#VV)  (nn, 疾病#NN, 人体#NN)  (nn, 疾病#NN, 低抗#NN)  (assmod, 能力#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 增进#VV, 能力#NN)  (conj, 增进#VV, 促进#VV)  (dobj, 促进#VV, 代谢#NN)  (conj, 增进#VV, 增强#VV)  (dobj, 增强#VV, 活力#NN)  (conj, 增进#VV, 保护#VV)  (nn, 健康#NN, 眼睛#NN)  (dobj, 保护#VV, 健康#NN)  (cc, 增进#VV, 并#CC)  (conj, 增进#VV, 保持#VV)  (nn, 健美#NN, 肌肤#NN)  (dobj, 保持#VV, 健美#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)
+            (nsubj, 是#VC, 奶酪#NN)  (relcl, 产物#NN, 是#VC)  (mark, 是#VC, 的#DEC)  (nn, 产物#NN, 乳酸菌#NN)  (nn, 产物#NN, 及其#NN)  (nn, 产物#NN, 代谢#NN)  (nsubj, 有#VE, 产物#NN)  (xsubj, 维持#VV, 产物#NN)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 有利于#VV)  (ccomp, 有利于#VV, 维持#VV)  (nn, 肠道#NN, 人体#NN)  (dep, 菌群#NN, 肠道#NN)  (case, 肠道#NN, 内#LC)  (amod, 菌群#NN, 正常#JJ)  (assmod, 稳定#NN, 菌群#NN)  (case, 菌群#NN, 的#DEG)  (dobj, 维持#VV, 稳定#NN)  (cc, 维持#VV, 和#CC)  (conj, 维持#VV, 平衡#VA)  (dep, 有#VE, 防治#VV)  (conj, 腹泻#NN, 便秘#NN)  (cc, 腹泻#NN, 和#CC)  (dobj, 防治#VV, 腹泻#NN)
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (assmod, 热能#NN, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (case, 奶酪#NN, 的#DEG)  (conj, 热能#NN, 脂肪#NN)  (cc, 热能#NN, 和#CC)  (nsubj, 多#VA, 热能#NN)  (advmod, 多#VA, 都#AD)  (advmod, 多#VA, 比较#AD)  (root, ROOT#null, 多#VA)  (advmod, 低#VA, 但是#AD)  (nn, 含量#NN, 其#PN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 却#AD)  (advmod, 低#VA, 比较#AD)  (conj, 多#VA, 低#VA)  (case, 心血管#NN, 对#P)  (prep, 有#VE, 心血管#NN)  (advmod, 有#VE, 健康#AD)  (advmod, 有#VE, 也#AD)  (conj, 多#VA, 有#VE)  (relcl, 面#NN, 有利#VA)  (mark, 有利#VA, 的#DEC)  (nummod, 面#NN, 一#CD)  (dobj, 有#VE, 面#NN)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 牙齿#NN)
+            (nn, 医生#NN, 英国#NR)  (nn, 医生#NN, 牙科#NN)  (nsubj, 认为#VV, 医生#NN)  (root, ROOT#null, 认为#VV)  (nsubj, 吃#VV, 人们#NN)  (case, 吃饭#VV, 在#P)  (prep, 吃#VV, 吃饭#VV)  (case, 吃饭#VV, 时#LC)  (ccomp, 认为#VV, 吃#VV)  (nummod, 奶酪#NN, 一些#CD)  (dobj, 吃#VV, 奶酪#NN)  (dep, 吃#VV, 有助于#VV)  (ccomp, 有助于#VV, 防止#VV)  (advmod, 产生#VV, 龋齿#AD)  (ccomp, 防止#VV, 产生#VV)   (root, ROOT#null, 吃#VV)  (nn, 奶酪#NN, 含有#NN)  (assmod, 食物#NN, 奶酪#NN)  (case, 奶酪#NN, 的#DEG)  (dobj, 吃#VV, 食物#NN)  (mmod, 增加#VV, 能#VV)  (advmod, 增加#VV, 大大#AD)  (conj, 吃#VV, 增加#VV)  (nn, 表层#NN, 牙齿#NN)  (assmod, 含钙量#NN, 表层#NN)  (case, 表层#NN, 的#DEG)  (dobj, 增加#VV, 含钙量#NN)  (advmod, 抑制#VV, 从而#AD)  (conj, 吃#VV, 抑制#VV)  (dobj, 抑制#VV, 龋齿#NN)  (conj, 抑制#VV, 发生#VV)   (assmod, 产物#NN, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (case, 奶酪#NN, 的#DEG)  (nn, 产物#NN, 乳酸菌#NN)  (nn, 产物#NN, 及其#NN)  (nn, 产物#NN, 代谢#NN)  (nsubj, 有#VE, 产物#NN)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            每千克奶酪制品浓缩了10千克牛奶的蛋白质、钙和磷等人体所需的营养素。
+            1.奶酪中维生素A、D、E和维生素B1、B2、B6、B12及叶酸的含量均极丰富，有利于儿童的生长发育。
+            2.奶酪中含有钙、磷、镁等重要矿物质。每100g奶酪钙含量达690-1300mg，其钙磷比值约为1.5~2.0/1，而且大部分的钙与酪蛋白结合，吸收利用率很高，对儿童骨骼生长和健康发育均起到十分重要的作用。
+            3.奶酪中的蛋白质主要是酪蛋白，实际可消化率为97.5%左右，高于全脂牛奶91.9%的消化率。
+            4.奶酪中的脂肪为乳脂肪含量的5.5%~30.6%，乳脂含有一定量的亚油酸和亚麻油酸，为儿童生长发育所必需。乳脂中含有的磷脂酰胆碱和鞘磷脂，与婴幼儿的智力发育有密切关系。
+        </rawdata>
+
+        <segment>
+            每  千  克  奶酪  制品  浓缩  了  10千  克  牛奶  的  蛋白质  、  钙  和  磷  等  人体  所  需  的  营养素  。
+            奶酪  中  维生素A  、  D  、  E和  维生素B  B  2  、  B6  、  B  12  及  叶酸  的  含量  均  极  丰富  ，  有利于  儿童  的  生长  发育  。
+            奶酪  中  含有  钙  、  磷  、  镁  等  重要  矿物质  。  每  100  g  奶酪  钙  含量  达  690-1300  mg  ，  其  钙  磷  比值  约  为  1.5~2.0  /  1  ，  而且  大部分  的  钙  与  酪蛋白  结合  ，  吸收  利用率  很  高  ，  对  儿童  骨骼  生长  和  健康  发育  均  起到  十分  重要  的  作用  。
+            奶酪  中  的  蛋白质  主要  是  酪蛋白  ，  实际  可  消化率  为  97.5%  左右  ，  高于  全脂  牛奶  91.9%  的  消化率  。
+            奶酪  中  的  脂肪  为  乳脂肪  含量  的  5.5%  ~  30.6%  ，  乳脂  含有  一定量  的  亚油酸  和  亚麻  油酸  ，  为  儿童  生长  发育  所  必需  。  乳脂  中  含有  的  磷脂酰  胆碱  和  鞘磷脂  ，  与  婴幼儿  的  智力  发育  有  密切  关系  。
+        </segment>
+
+        <pos>
+            每#DT  千#CD  克#M  奶酪#NN  制品#NN  浓缩#VV  了#AS  10千#CD  克#M  牛奶#NN  的#DEG  蛋白质#NN  、#PU  钙#NN  和#CC  磷#NN  等#ETC  人体#NN  所#MSP  需#VV  的#DEC  营养素#NN  。#PU
+            奶酪#NN  中#LC  维生素A#NR  、#PU  D#NR  、#PU  E和#NR  维生素B#NN  B#VV  2#CD  、#PU  B6#CD  、#PU  B#CD  12#CD  及#CC  叶酸#CD  的#DEG  含量#NN  均#AD  极#AD  丰富#VA  ，#PU  有利于#VV  儿童#NN  的#DEC  生长#NN  发育#NN  。#PU
+            奶酪#NN  中#LC  含有#VV  钙#NN  、#PU  磷#NN  、#PU  镁#NN  等#ETC  重要#JJ  矿物质#NN    。#PU  每#DT  100#CD  g#NN  奶酪#NN  钙#NN  含量#NN  达#VV  690-1300#CD  mg#NN  ，#PU  其#PN  钙#NN  磷#NN  比值#NN  约#AD  为#VC  1.5#CD  ~#NN  2.0#CD  /#NN  1#CD  ，#PU  而且#CC  大部分#CD  的#DEG  钙#NN  与#P  酪蛋白#NN  结合#VV  ，#PU  吸收#VV  利用率#NN  很#AD  高#VA  ，#PU  对#P  儿童#NN  骨骼#NN  生长#NN  和#CC  健康#JJ  发育#NN  均#AD  起到#VV  十分#AD  重要#VA  的#DEC  作用#NN    。#PU    。#PU
+            奶酪#NN  中#LC  的#DEG  蛋白质#NN  主要#AD  是#VC  酪蛋白#NN  ，#PU  实际#AD  可#VV  消化率#VV  为#P  97.5#CD  %#NN  左右#LC  ，#PU  高于#VV  全脂#NN  牛奶#NN  91.9#CD  %#NN  的#DEG  消化率#NN  。#PU
+            奶酪#NN  中#LC  的#DEG  脂肪#NN  为#P  乳脂肪#NN  含量#NN  的#DEG  5.5#CD  %#NN  ~#VV  30.6#CD  %#NN  ，#PU  乳脂#VV  含有#VV  一定量#CD  的#DEC  亚油酸#NN  和#CC  亚麻#NN  油酸#NN  ，#PU  为#P  儿童#NN  生长#NN  发育#VV  所#MSP  必需#VV    。#PU  乳脂#NN  中#LC  含有#NN  的#DEG  磷脂酰#NN  胆碱#NN  和#CC  鞘磷脂#NN  ，#PU  与#P  婴幼儿#NN  的#DEG  智力#NN  发育#VV  有#VE  密切#JJ  关系#NN    。#PU
+        </pos>
+
+        <parsing>
+            (det, 奶酪#NN, 每#DT)  (nummod, 克#M, 千#CD)  (dep, 每#DT, 克#M)  (nn, 制品#NN, 奶酪#NN)  (nsubj, 浓缩#VV, 制品#NN)  (root, ROOT#null, 浓缩#VV)  (asp, 浓缩#VV, 了#AS)  (nummod, 克#M, 10千#CD)  (clf, 牛奶#NN, 克#M)  (assmod, 人体#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钙#NN)  (cc, 磷#NN, 和#CC)  (nn, 人体#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 营养素#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (dobj, 浓缩#VV, 营养素#NN)
+            (loc, B#VV, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (conj, E和#NR, 维生素A#NR)  (conj, E和#NR, D#NR)  (nn, 维生素B#NN, E和#NR)  (nsubj, B#VV, 维生素B#NN)  (root, ROOT#null, B#VV)  (nummod, B#CD, 2#CD)  (nummod, B#CD, B6#CD)  (nummod, 发育#NN, B#CD)  (nummod, 叶酸#CD, 12#CD)  (cc, 叶酸#CD, 及#CC)  (assmod, 含量#NN, 叶酸#CD)  (case, 叶酸#CD, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 均#AD)  (advmod, 丰富#VA, 极#AD)  (relcl, 发育#NN, 丰富#VA)  (dep, 丰富#VA, 有利于#VV)  (dobj, 有利于#VV, 儿童#NN)  (mark, 丰富#VA, 的#DEC)  (nn, 发育#NN, 生长#NN)  (dobj, B#VV, 发育#NN)
+            (loc, 含有#VV, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 镁#NN, 钙#NN)  (conj, 镁#NN, 磷#NN)  (nn, 矿物质#NN, 镁#NN)  (etc, 镁#NN, 等#ETC)  (amod, 矿物质#NN, 重要#JJ)  (dobj, 含有#VV, 矿物质#NN)   (det, g#NN, 每#DT)  (dep, 每#DT, 100#CD)  (nn, 钙#NN, g#NN)  (nn, 钙#NN, 奶酪#NN)  (nn, 含量#NN, 钙#NN)  (nsubj, 达#VV, 含量#NN)  (root, ROOT#null, 达#VV)  (nummod, mg#NN, 690-1300#CD)  (dobj, 达#VV, mg#NN)  (nn, 比值#NN, 其#PN)  (nn, 比值#NN, 钙#NN)  (nn, 比值#NN, 磷#NN)  (nsubj, 为#VC, 比值#NN)  (advmod, 为#VC, 约#AD)  (conj, 达#VV, 为#VC)  (nummod, ~#NN, 1.5#CD)  (nummod, /#NN, 2.0#CD)  (dep, 为#VC, 1#CD)  (cc, 达#VV, 而且#CC)  (assmod, 钙#NN, 大部分#CD)  (case, 大部分#CD, 的#DEG)  (nsubj, 结合#VV, 钙#NN)  (case, 酪蛋白#NN, 与#P)  (prep, 结合#VV, 酪蛋白#NN)  (conj, 达#VV, 结合#VV)  (dep, 结合#VV, 吸收#VV)  (dobj, 吸收#VV, 利用率#NN)  (advmod, 高#VA, 很#AD)  (dep, 吸收#VV, 高#VA)  (case, 发育#NN, 对#P)  (nn, 生长#NN, 儿童#NN)  (nn, 生长#NN, 骨骼#NN)  (conj, 发育#NN, 生长#NN)  (cc, 发育#NN, 和#CC)  (amod, 发育#NN, 健康#JJ)  (prep, 起到#VV, 发育#NN)  (advmod, 起到#VV, 均#AD)  (conj, 结合#VV, 起到#VV)  (advmod, 重要#VA, 十分#AD)  (relcl, 作用#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 起到#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (assmod, 蛋白质#NN, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (case, 奶酪#NN, 的#DEG)  (nsubj, 酪蛋白#NN, 蛋白质#NN)  (advmod, 酪蛋白#NN, 主要#AD)  (cop, 酪蛋白#NN, 是#VC)  (root, ROOT#null, 酪蛋白#NN)  (advmod, 消化率#VV, 实际#AD)  (mmod, 消化率#VV, 可#VV)  (conj, 酪蛋白#NN, 消化率#VV)  (case, %#NN, 为#P)  (nummod, %#NN, 97.5#CD)  (prep, 消化率#VV, %#NN)  (case, %#NN, 左右#LC)  (dep, 酪蛋白#NN, 高于#VV)  (nn, 牛奶#NN, 全脂#NN)  (nn, %#NN, 牛奶#NN)  (nummod, %#NN, 91.9#CD)  (assmod, 消化率#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 高于#VV, 消化率#NN)
+            (assmod, 脂肪#NN, 奶酪#NN)  (case, 奶酪#NN, 中#LC)  (case, 奶酪#NN, 的#DEG)  (nsubj, 必需#VV, 脂肪#NN)  (case, ~#VV, 为#P)  (nn, 含量#NN, 乳脂肪#NN)  (assmod, %#NN, 含量#NN)  (case, 含量#NN, 的#DEG)  (nummod, %#NN, 5.5#CD)  (nsubj, ~#VV, %#NN)  (nummod, %#NN, 30.6#CD)  (dobj, ~#VV, %#NN)  (conj, ~#VV, 乳脂#VV)  (relcl, 油酸#NN, 含有#VV)  (range, 含有#VV, 一定量#CD)  (mark, 含有#VV, 的#DEC)  (conj, 油酸#NN, 亚油酸#NN)  (cc, 油酸#NN, 和#CC)  (nn, 油酸#NN, 亚麻#NN)  (dobj, 乳脂#VV, 油酸#NN)  (case, 生长#NN, 为#P)  (nn, 生长#NN, 儿童#NN)  (prep, 发育#VV, 生长#NN)  (conj, ~#VV, 发育#VV)  (prtmod, 必需#VV, 所#MSP)  (root, ROOT#null, 必需#VV)   (loc, 发育#VV, 乳脂#NN)  (case, 乳脂#NN, 中#LC)  (assmod, 鞘磷脂#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 鞘磷脂#NN, 磷脂酰#NN)  (conj, 鞘磷脂#NN, 胆碱#NN)  (cc, 鞘磷脂#NN, 和#CC)  (nsubj, 发育#VV, 鞘磷脂#NN)  (case, 智力#NN, 与#P)  (assmod, 智力#NN, 婴幼儿#NN)  (case, 婴幼儿#NN, 的#DEG)  (prep, 发育#VV, 智力#NN)  (conj, 有#VE, 发育#VV)  (root, ROOT#null, 有#VE)  (amod, 关系#NN, 密切#JJ)  (dobj, 有#VE, 关系#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            除了制作西式菜肴，奶酪还可以切成小块，配上红酒直接食用，也可加在馒头、面包、饼干、汉堡包里一起吃，或与色拉、面条拌食。
+        </rawdata>
+
+        <segment>
+            除了  制作  西式  菜肴  ，  奶酪  还  可以  切成  小块  ，  配上  红酒  直接  食用  ，  也  可  加在  馒头  、  面包  、  饼干  、  汉堡  包里  一起  吃  ，  或  与  色拉  、  面条  拌食  。
+        </segment>
+
+        <pos>
+            除了#P  制作#NN  西式#NN  菜肴#NN  ，#PU  奶酪#NN  还#AD  可以#VV  切成#VV  小块#NN  ，#PU  配上#VV  红酒#NN  直接#AD  食用#VV  ，#PU  也#AD  可#VV  加在#VV  馒头#NR  、#PU  面包#NR  、#PU  饼干#NR  、#PU  汉堡#NR  包里#NN  一起#AD  吃#VV  ，#PU  或#CC  与#P  色拉#NR  、#PU  面条#NR  拌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (case, 菜肴#NN, 除了#P)  (nn, 菜肴#NN, 制作#NN)  (nn, 菜肴#NN, 西式#NN)  (prep, 切成#VV, 菜肴#NN)  (nsubj, 切成#VV, 奶酪#NN)  (xsubj, 加在#VV, 奶酪#NN)  (advmod, 切成#VV, 还#AD)  (mmod, 切成#VV, 可以#VV)  (root, ROOT#null, 切成#VV)  (dobj, 切成#VV, 小块#NN)  (dep, 切成#VV, 配上#VV)  (dobj, 配上#VV, 红酒#NN)  (advmod, 食用#VV, 直接#AD)  (conj, 配上#VV, 食用#VV)  (advmod, 加在#VV, 也#AD)  (mmod, 加在#VV, 可#VV)  (dep, 吃#VV, 加在#VV)  (conj, 汉堡#NR, 馒头#NR)  (conj, 汉堡#NR, 面包#NR)  (conj, 汉堡#NR, 饼干#NR)  (nn, 包里#NN, 汉堡#NR)  (dobj, 加在#VV, 包里#NN)  (advmod, 吃#VV, 一起#AD)  (dep, 切成#VV, 吃#VV)  (cc, 切成#VV, 或#CC)  (case, 面条#NR, 与#P)  (conj, 面条#NR, 色拉#NR)  (prep, 拌食#VV, 面条#NR)  (dep, 切成#VV, 拌食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081825296764.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\67 奶酪.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        121
+    </id>
+
+    <foodname>
+        梭子蟹
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        蟹
+    </secondcategory>
+
+    <alias>
+        海蟹、海螃蟹、枪蟹、帜
+    </alias>
+
+    <season>
+        4-5月、9-10月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            平素脾胃虚寒、大便溏薄、腹痛隐隐、风寒感冒未愈、宿患风疾、顽固性皮肤瘙痒疾患之人忌食；月经过多、痛经、怀孕妇女忌食，尤忌食蟹爪。
+        </rawdata>
+
+        <segment>
+            平素  脾胃  虚寒  、  大便  溏薄  、  腹痛  隐隐  、  风寒  感冒  未愈  、  宿患风疾  、  顽固性  皮肤  瘙痒  疾患  之  人  忌食  ；  月经  过多  、  痛经  、  怀孕  妇女  忌食  ，  尤忌食  蟹爪  。
+        </segment>
+
+        <pos>
+            平素#NN  脾胃#VV  虚寒#NR  、#PU  大便#NR  溏薄#NR  、#PU  腹痛#NR  隐隐#AD  、#PU  风寒#AD  感冒#VV  未愈#NR  、#PU  宿患风疾#NR  、#PU  顽固性#NR  皮肤#NR  瘙痒#NR  疾患#NN  之#DEC  人#NN  忌食#NN  ；#PU  月经#VV  过多#NN  、#PU  痛经#NN  、#PU  怀孕#VV  妇女#NN  忌食#NN  ，#PU  尤忌食#VV  蟹爪#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 脾胃#VV, 平素#NN)  (root, ROOT#null, 脾胃#VV)  (conj, 腹痛#NR, 虚寒#NR)  (nn, 腹痛#NR, 大便#NR)  (conj, 腹痛#NR, 溏薄#NR)  (nn, 忌食#NN, 腹痛#NR)  (advmod, 感冒#VV, 隐隐#AD)  (conj, 隐隐#AD, 风寒#AD)  (relcl, 腹痛#NR, 感冒#VV)  (relcl, 忌食#NN, 感冒#VV)  (conj, 瘙痒#NR, 未愈#NR)  (conj, 瘙痒#NR, 宿患风疾#NR)  (nn, 瘙痒#NR, 顽固性#NR)  (nn, 瘙痒#NR, 皮肤#NR)  (nn, 疾患#NN, 瘙痒#NR)  (dobj, 感冒#VV, 疾患#NN)  (mark, 感冒#VV, 之#DEC)  (nn, 忌食#NN, 人#NN)  (dobj, 脾胃#VV, 忌食#NN)  (conj, 脾胃#VV, 月经#VV)  (conj, 痛经#NN, 过多#NN)  (dobj, 月经#VV, 痛经#NN)  (conj, 脾胃#VV, 怀孕#VV)  (nn, 忌食#NN, 妇女#NN)  (dobj, 怀孕#VV, 忌食#NN)  (conj, 脾胃#VV, 尤忌食#VV)  (dobj, 尤忌食#VV, 蟹爪#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜跌打损伤、筋断骨碎、瘀血肿痛、产妇胎盘残留、孕妇临产阵缩无力、胎儿迟迟不下者食用，尤以蟹爪为好。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  跌打  损伤  、  筋断骨碎  、  瘀血  肿痛  、  产妇  胎盘  残留  、  孕妇  临产  阵缩  无力  、  胎儿  迟迟  不  下者  食用  ，  尤以  蟹爪  为好  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  跌打#NN  损伤#NN  、#PU  筋断骨碎#NN  、#PU  瘀血#NN  肿痛#NN  、#PU  产妇#NN  胎盘#NN  残留#NN  、#PU  孕妇#NN  临产#NN  阵缩#NN  无力#NN  、#PU  胎儿#VV  迟迟#AD  不#AD  下者#AD  食用#VV  ，#PU  尤以#VV  蟹爪#NN  为好#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 阵缩#NN, 跌打#NN)  (conj, 阵缩#NN, 损伤#NN)  (conj, 阵缩#NN, 筋断骨碎#NN)  (nn, 阵缩#NN, 瘀血#NN)  (conj, 阵缩#NN, 肿痛#NN)  (nn, 阵缩#NN, 产妇#NN)  (nn, 阵缩#NN, 胎盘#NN)  (conj, 阵缩#NN, 残留#NN)  (nn, 阵缩#NN, 孕妇#NN)  (nn, 阵缩#NN, 临产#NN)  (nn, 无力#NN, 阵缩#NN)  (dobj, 适宜#VV, 无力#NN)  (conj, 适宜#VV, 胎儿#VV)  (advmod, 食用#VV, 迟迟#AD)  (neg, 食用#VV, 不#AD)  (advmod, 食用#VV, 下者#AD)  (ccomp, 胎儿#VV, 食用#VV)  (conj, 适宜#VV, 尤以#VV)  (nn, 为好#NN, 蟹爪#NN)  (dobj, 尤以#VV, 为好#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                15.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                142
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                121
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                4.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                280
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                152
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                208
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                481.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                5.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                90.96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            梭子蟹，有些地方俗称“白蟹”。因头胸甲呈梭子形，故名。甲壳的中央有三个突起，所以又称“三疣梭子蟹”，属于甲壳动物。雄性脐尖而光滑，螯长大，壳面带青色；雌性脐圆有绒毛，壳面呈赭色，或有斑点。梭子蟹肉肥味美，有较高的营养价值和经济价值，且适宜于海水暂养增肥。头胸甲梭形，宽几乎为长的2倍；头胸甲表面覆盖有细小的颗粒，具2条颗粒横向隆堤及3个疣状突起；额具2只锐齿；前侧缘具9只锐齿，末齿长刺状，向外突出。螯脚粗壮，长度较头胸甲宽长；长节棱柱形，雄性长节较修长，前缘具4锐棘。
+            梭子蟹的体色随周围环境而变异。生活于砂底的个体，头胸甲呈浅灰绿色，前鳃区具一圆形白斑，螯足大部分为紫红色带白色斑点，一部分或整个腹面为白色，前3对步足长节和腕节也呈白色，掌部为蓝白色，软毛棕色，指节紫蓝色或紫红色，第4对步足为绿色带白斑点，指端紫蓝色。生活在海草间的个体体色较深。为杂食性，鱼、虾、贝、藻均食，甚至也食同类，喜食动物尸体。
+            梭子蟹常见的有红星梭子蟹、远海梭子蟹和三疣梭子蟹等。三种梭子蟹外形极为相像。仔细观察，红星梭子蟹头胸甲表面上有3个血红色卵圆形班，非常明显，区别于其它两种。运海梭子蟹头胸甲上有较粗的颗粒及明显的花白云纹，而三疣梭子蟹头胸甲上的颗粒细小，无花白云纹，有3个疣状突，故名三疣梭子蟹。后者是梭子蟹中数量最多，产量最大的一种，约占梭子蟹总产量的90％左右。此外，中国还产银光梭子蟹、矛形梭子蟹、拥剑梭子蟹、纤手梭子蟹、薄氏梭子蟹等。
+        </rawdata>
+
+        <segment>
+            梭子蟹  ，  有些  地方  俗称  “  白蟹  ”  。  因  头  胸甲  呈  梭子  形  ，  故名  。  甲壳  的  中央  有  三  个  突起  ，  所以  又  称  “  三  疣  梭子蟹  ”  ，  属于  甲壳  动物  。  雄性  脐尖  而  光滑  ，  螯  长大  ，  壳  面带  青色  ；  雌性  脐圆  有  绒毛  ，  壳  面呈  赭色  ，  或  有  斑点  。  梭子  蟹肉  肥  味美  ，  有  较  高  的  营养  价值  和  经济  价值  ，  且  适宜于  海水  暂  养  增肥  。  头  胸甲  梭形  ，  宽  几乎  为  长的  2  倍  ；  头  胸甲  表面  覆盖  有  细小  的  颗粒  ，  具  2  条  颗粒  横向  隆堤  及  3  个  疣状突起  ；  额  具  2  只  锐齿  ；  前  侧  缘  具  9  只  锐齿  ，  末  齿长  刺状  ，  向外  突出  。  螯脚  粗壮  ，  长度  较  头  胸甲  宽长  ；  长  节棱  柱形  ，  雄性  长节  较  修长  ，  前缘  具  4  锐棘  。
+            梭子蟹  的  体色  随  周围  环境  而  变异  。  生活  于  砂  底  的  个体  ，  头  胸甲  呈  浅灰  绿色  ，  前  鳃区  具  一  圆形  白斑  ，  螯足  大部分  为  紫红  色带  白色  斑点  ，  一  部分  或  整个  腹面  为  白色  ，  前  3  对  步足  长节  和  腕节  也  呈  白色  ，  掌部  为  蓝白色  ，  软毛  棕色  ，  指节  紫  蓝色  或  紫红色  ，  第  4  对  步足  为  绿色  带  白  斑点  ，  指端  紫  蓝色  。  生活  在  海草  间  的  个体  体色  较深  。  为  杂食性  ，  鱼  、  虾  、  贝  、  藻均  食  ，  甚至  也  食  同类  ，  喜  食  动物  尸体  。
+            梭子蟹  常见  的  有  红星  梭子蟹  、  远海  梭子蟹  和  三  疣  梭子蟹  等  。  三  种  梭子蟹  外形  极为  相像  。  仔细  观察  ，  红星  梭子蟹  头  胸甲  表面  上  有  3  个  血红色  卵  圆形  班  ，  非常  明显  ，  区别于  其它  两  种  。  运海  梭子蟹  头  胸甲  上  有  较粗  的  颗粒  及  明显  的  花白云纹  ，  而  三  疣  梭子蟹  头  胸甲  上  的  颗粒  细小  ，  无花  白云纹  ，  有  3  个  疣状突  ，  故名  三  疣  梭子蟹  。  后者  是  梭子蟹  中  数量  最  多  ，  产量  最  大  的  一  种  ，  约  占  梭子蟹  总产量  的  90％  左右  。  此外  ，  中国  还  产  银光  梭子蟹  、  矛形  梭子蟹  、  拥  剑  梭子蟹  、  纤手  梭子蟹  、  薄  氏  梭子蟹  等  。
+        </segment>
+
+        <pos>
+            梭子蟹#NN  ，#PU  有些#DT  地方#NN  俗称#NN  ``#NN  白蟹#VV  ''#NN    。#PU  因#P  头#DT  胸甲#NN  呈#VV  梭子#NN  形#VV  ，#PU  故名#VV    。#PU  甲壳#NN  的#DEG  中央#NN  有#VE  三#CD  个#M  突起#NN  ，#PU  所以#AD  又#AD  称#VV  ``#VV  三#CD  疣#NN  梭子蟹#NN  ''#NN  ，#PU  属于#VV  甲壳#JJ  动物#NN    。#PU  雄性#NN  脐尖#NN  而#MSP  光滑#VV  ，#PU  螯#NN  长大#VV  ，#PU  壳#NN  面带#NN  青色#VV  ；#PU  雌性#NN  脐圆#AD  有#VE  绒毛#NN  ，#PU  壳#NN  面呈#VV  赭色#NN  ，#PU  或#CC  有#VE  斑点#NN    。#PU  梭子#NN  蟹肉#VV  肥#NR  味美#NN  ，#PU  有#VE  较#AD  高#VA  的#DEC  营养#VA  价值#NN  和#CC  经济#NN  价值#NN  ，#PU  且#CC  适宜于#NN  海水#NN  暂#AD  养#VV  增肥#NN    。#PU  头#DT  胸甲#NN  梭形#VV  ，#PU  宽#NN  几乎#AD  为#VC  长的#NN  2#CD  倍#M  ；#PU  头#DT  胸甲#CD  表面#NN  覆盖#VV  有#VE  细小#NN  的#DEC  颗粒#NN  ，#PU  具#VV  2#CD  条#M  颗粒#NN  横向#JJ  隆堤#NN  及#CC  3#CD  个#M  疣状突起#NN  ；#PU  额#NN  具#VV  2#CD  只#M  锐齿#NN  ；#PU  前#LC  侧#LC  缘#AD  具#VV  9#CD  只#M  锐齿#NN  ，#PU  末#OD  齿长#NN  刺状#NN  ，#PU  向外#AD  突出#VA    。#PU  螯脚#NR  粗壮#VV  ，#PU  长度#NN  较#P  头#DT  胸甲#NN  宽长#VV  ；#PU  长#JJ  节棱#NN  柱形#NN  ，#PU  雄性#NN  长节#NN  较#AD  修长#VV  ，#PU  前缘#AD  具#VV  4#CD  锐棘#NN    。#PU    。#PU
+            梭子蟹#NN  的#DEG  体色#NN  随#VV  周围#NN  环境#NN  而#CC  变异#NN    。#PU  生活#NN  于#P  砂#NN  底#LC  的#DEG  个体#NN  ，#PU  头#DT  胸甲#NN  呈#VV  浅灰#NN  绿色#NN  ，#PU  前#DT  鳃区#NN  具#VV  一#CD  圆形#NN  白斑#NN  ，#PU  螯足#NR  大部分#CD  为#P  紫红#NR  色带#VV  白色#JJ  斑点#NN  ，#PU  一#CD  部分#NN  或#CC  整个#JJ  腹面#NN  为#VC  白色#JJ  ，#PU  前#DT  3#CD  对#M  步足#NN  长节#NN  和#CC  腕节#NN  也#AD  呈#VV  白色#JJ  ，#PU  掌部#NR  为#VC  蓝白色#NN  ，#PU  软毛#NR  棕色#VA  ，#PU  指节#NR  紫#VA  蓝色#CD  或#CC  紫红色#CD  ，#PU  第#NR  4#CD  对#M  步足#NN  为#VC  绿色#JJ  带#NN  白#JJ  斑点#NN  ，#PU  指端#NR  紫#VA  蓝色#VV    。#PU  生活#VV  在#P  海草#NN  间#LC  的#DEC  个体#NN  体色#NN  较深#VV    。#PU  为#P  杂食性#NN  ，#PU  鱼#NN  、#PU  虾#NN  、#PU  贝#NN  、#PU  藻均#NN  食#NN  ，#PU  甚至#AD  也#AD  食#NN  同类#VV  ，#PU  喜#VA  食#NN  动物#NN  尸体#NN    。#PU    。#PU
+            梭子蟹#NN  常见#VA  的#DEC  有#VE  红星#NN  梭子蟹#NN  、#PU  远海#NN  梭子蟹#NN  和#CC  三#CD  疣#NN  梭子蟹#NN  等#ETC    。#PU  三#CD  种#M  梭子蟹#NN  外形#NN  极为#AD  相像#VA    。#PU  仔细#AD  观察#VV  ，#PU  红星#NN  梭子蟹#NN  头#DT  胸甲#CD  表面#NN  上#LC  有#VE  3#CD  个#M  血红色#NN  卵#NN  圆形#CD  班#M  ，#PU  非常#AD  明显#VA  ，#PU  区别于#VV  其它#DT  两#CD  种#M    。#PU  运海#NN  梭子蟹#NN  头#DT  胸甲#NN  上#LC  有#VE  较粗#NN  的#DEG  颗粒#NN  及#CC  明显#VA  的#DEC  花白云纹#NN  ，#PU  而#CC  三#CD  疣#NN  梭子蟹#NN  头#DT  胸甲#NN  上#LC  的#DEG  颗粒#NN  细小#NN  ，#PU  无花#NN  白云纹#NN  ，#PU  有#VE  3#CD  个#M  疣状突#NN  ，#PU  故名#VV  三#CD  疣#NN  梭子蟹#NN    。#PU  后者#PN  是#VC  梭子蟹#NN  中#LC  数量#NN  最#AD  多#VA  ，#PU  产量#NN  最#AD  大#VA  的#DEC  一#CD  种#M  ，#PU  约#AD  占#VV  梭子蟹#NN  总产量#NN  的#DEG  90#CD  ％#NN  左右#LC    。#PU  此外#AD  ，#PU  中国#NR  还#AD  产#VV  银光#NN  梭子蟹#NN  、#PU  矛形#NN  梭子蟹#NN  、#PU  拥#NN  剑#VV  梭子蟹#NN  、#PU  纤手#NN  梭子蟹#NN  、#PU  薄#NN  氏#NN  梭子蟹#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 白蟹#VV, 梭子蟹#NN)  (det, 地方#NN, 有些#DT)  (nsubj, 白蟹#VV, 地方#NN)  (nn, ``#NN, 俗称#NN)  (nsubj, 白蟹#VV, ``#NN)  (root, ROOT#null, 白蟹#VV)  (dobj, 白蟹#VV, ''#NN)   (case, 呈#VV, 因#P)  (det, 胸甲#NN, 头#DT)  (nsubj, 呈#VV, 胸甲#NN)  (prep, 形#VV, 呈#VV)  (dobj, 呈#VV, 梭子#NN)  (root, ROOT#null, 形#VV)  (dep, 形#VV, 故名#VV)   (assmod, 中央#NN, 甲壳#NN)  (case, 甲壳#NN, 的#DEG)  (dep, 有#VE, 中央#NN)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 三#CD)  (clf, 突起#NN, 个#M)  (dobj, 有#VE, 突起#NN)  (advmod, 称#VV, 所以#AD)  (advmod, 称#VV, 又#AD)  (conj, 有#VE, 称#VV)  (ccomp, 称#VV, ``#VV)  (nummod, ''#NN, 三#CD)  (nn, ''#NN, 疣#NN)  (nn, ''#NN, 梭子蟹#NN)  (dobj, ``#VV, ''#NN)  (conj, ``#VV, 属于#VV)  (amod, 动物#NN, 甲壳#JJ)  (dobj, 属于#VV, 动物#NN)   (nn, 脐尖#NN, 雄性#NN)  (nsubj, 光滑#VV, 脐尖#NN)  (prtmod, 光滑#VV, 而#MSP)  (root, ROOT#null, 光滑#VV)  (nsubj, 长大#VV, 螯#NN)  (ccomp, 光滑#VV, 长大#VV)  (nn, 面带#NN, 壳#NN)  (nsubj, 青色#VV, 面带#NN)  (conj, 长大#VV, 青色#VV)  (nsubj, 有#VE, 雌性#NN)  (advmod, 有#VE, 脐圆#AD)  (ccomp, 青色#VV, 有#VE)  (dobj, 有#VE, 绒毛#NN)  (nsubj, 面呈#VV, 壳#NN)  (conj, 有#VE, 面呈#VV)  (dobj, 面呈#VV, 赭色#NN)  (cc, 面呈#VV, 或#CC)  (conj, 面呈#VV, 有#VE)  (dobj, 有#VE, 斑点#NN)   (nsubj, 蟹肉#VV, 梭子#NN)  (root, ROOT#null, 蟹肉#VV)  (nn, 味美#NN, 肥#NR)  (dobj, 蟹肉#VV, 味美#NN)  (conj, 蟹肉#VV, 有#VE)  (advmod, 高#VA, 较#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (conj, 价值#NN, 价值#NN)  (cc, 价值#NN, 和#CC)  (nn, 价值#NN, 经济#NN)  (dobj, 有#VE, 价值#NN)  (cc, 蟹肉#VV, 且#CC)  (nn, 海水#NN, 适宜于#NN)  (nsubj, 养#VV, 海水#NN)  (advmod, 养#VV, 暂#AD)  (conj, 蟹肉#VV, 养#VV)  (dobj, 养#VV, 增肥#NN)   (det, 胸甲#NN, 头#DT)  (nsubj, 梭形#VV, 胸甲#NN)  (root, ROOT#null, 梭形#VV)  (nsubj, 为#VC, 宽#NN)  (advmod, 为#VC, 几乎#AD)  (ccomp, 梭形#VV, 为#VC)  (dep, 倍#M, 长的#NN)  (nummod, 倍#M, 2#CD)  (dep, 为#VC, 倍#M)  (det, 表面#NN, 头#DT)  (dep, 头#DT, 胸甲#CD)  (nsubj, 覆盖#VV, 表面#NN)  (conj, 为#VC, 覆盖#VV)  (relcl, 颗粒#NN, 有#VE)  (dobj, 有#VE, 细小#NN)  (mark, 有#VE, 的#DEC)  (dobj, 覆盖#VV, 颗粒#NN)  (conj, 覆盖#VV, 具#VV)  (nummod, 条#M, 2#CD)  (clf, 颗粒#NN, 条#M)  (nn, 隆堤#NN, 颗粒#NN)  (amod, 隆堤#NN, 横向#JJ)  (conj, 疣状突起#NN, 隆堤#NN)  (cc, 疣状突起#NN, 及#CC)  (nummod, 个#M, 3#CD)  (clf, 疣状突起#NN, 个#M)  (dobj, 具#VV, 疣状突起#NN)  (nsubj, 具#VV, 额#NN)  (conj, 为#VC, 具#VV)  (nummod, 只#M, 2#CD)  (clf, 锐齿#NN, 只#M)  (dobj, 具#VV, 锐齿#NN)  (loc, 具#VV, 前#LC)  (case, 前#LC, 侧#LC)  (advmod, 具#VV, 缘#AD)  (conj, 为#VC, 具#VV)  (nummod, 只#M, 9#CD)  (clf, 锐齿#NN, 只#M)  (dobj, 具#VV, 锐齿#NN)  (nummod, 齿长#NN, 末#OD)  (nn, 刺状#NN, 齿长#NN)  (nsubj, 突出#VA, 刺状#NN)  (advmod, 突出#VA, 向外#AD)  (conj, 为#VC, 突出#VA)   (nsubj, 粗壮#VV, 螯脚#NR)  (root, ROOT#null, 粗壮#VV)  (nsubj, 宽长#VV, 长度#NN)  (case, 胸甲#NN, 较#P)  (det, 胸甲#NN, 头#DT)  (prep, 宽长#VV, 胸甲#NN)  (ccomp, 粗壮#VV, 宽长#VV)  (amod, 节棱#NN, 长#JJ)  (nn, 柱形#NN, 节棱#NN)  (nsubj, 修长#VV, 柱形#NN)  (nn, 长节#NN, 雄性#NN)  (nsubj, 修长#VV, 长节#NN)  (advmod, 修长#VV, 较#AD)  (conj, 宽长#VV, 修长#VV)  (advmod, 具#VV, 前缘#AD)  (conj, 宽长#VV, 具#VV)  (nummod, 锐棘#NN, 4#CD)  (dobj, 具#VV, 锐棘#NN)   (root, ROOT#null, null#null)
+            (assmod, 体色#NN, 梭子蟹#NN)  (case, 梭子蟹#NN, 的#DEG)  (nsubj, 随#VV, 体色#NN)  (root, ROOT#null, 随#VV)  (nn, 变异#NN, 周围#NN)  (conj, 变异#NN, 环境#NN)  (cc, 变异#NN, 而#CC)  (dobj, 随#VV, 变异#NN)   (nsubj, 蓝色#VV, 生活#NN)  (case, 个体#NN, 于#P)  (assmod, 个体#NN, 砂#NN)  (case, 砂#NN, 底#LC)  (case, 砂#NN, 的#DEG)  (prep, 蓝色#VV, 个体#NN)  (det, 胸甲#NN, 头#DT)  (dep, 呈#VV, 胸甲#NN)  (dep, 个体#NN, 呈#VV)  (nn, 绿色#NN, 浅灰#NN)  (dobj, 呈#VV, 绿色#NN)  (det, 鳃区#NN, 前#DT)  (nsubj, 具#VV, 鳃区#NN)  (dep, 个体#NN, 具#VV)  (nummod, 白斑#NN, 一#CD)  (nn, 白斑#NN, 圆形#NN)  (dobj, 具#VV, 白斑#NN)  (nsubj, 色带#VV, 螯足#NR)  (dep, 色带#VV, 大部分#CD)  (case, 紫红#NR, 为#P)  (prep, 色带#VV, 紫红#NR)  (dep, 个体#NN, 色带#VV)  (amod, 斑点#NN, 白色#JJ)  (dobj, 色带#VV, 斑点#NN)  (nummod, 部分#NN, 一#CD)  (conj, 腹面#NN, 部分#NN)  (cc, 腹面#NN, 或#CC)  (amod, 腹面#NN, 整个#JJ)  (nsubj, 为#VC, 腹面#NN)  (dep, 个体#NN, 为#VC)  (dep, 为#VC, 白色#JJ)  (det, 步足#NN, 前#DT)  (nummod, 对#M, 3#CD)  (dep, 前#DT, 对#M)  (nn, 腕节#NN, 步足#NN)  (conj, 腕节#NN, 长节#NN)  (cc, 腕节#NN, 和#CC)  (nsubj, 白色#JJ, 腕节#NN)  (advmod, 白色#JJ, 也#AD)  (mmod, 白色#JJ, 呈#VV)  (dep, 个体#NN, 白色#JJ)  (nsubj, 蓝白色#NN, 掌部#NR)  (cop, 蓝白色#NN, 为#VC)  (dep, 个体#NN, 蓝白色#NN)  (nsubj, 棕色#VA, 软毛#NR)  (dep, 个体#NN, 棕色#VA)  (nsubj, 紫#VA, 指节#NR)  (dep, 个体#NN, 紫#VA)  (nummod, 紫红色#CD, 蓝色#CD)  (cc, 紫红色#CD, 或#CC)  (dep, 紫#VA, 紫红色#CD)  (nn, 步足#NN, 第#NR)  (nummod, 对#M, 4#CD)  (clf, 步足#NN, 对#M)  (nsubj, 斑点#NN, 步足#NN)  (cop, 斑点#NN, 为#VC)  (amod, 带#NN, 绿色#JJ)  (nn, 斑点#NN, 带#NN)  (amod, 斑点#NN, 白#JJ)  (dep, 个体#NN, 斑点#NN)  (nsubj, 紫#VA, 指端#NR)  (dep, 个体#NN, 紫#VA)  (root, ROOT#null, 蓝色#VV)   (relcl, 体色#NN, 生活#VV)  (case, 海草#NN, 在#P)  (prep, 生活#VV, 海草#NN)  (case, 海草#NN, 间#LC)  (mark, 生活#VV, 的#DEC)  (nn, 体色#NN, 个体#NN)  (nsubj, 较深#VV, 体色#NN)  (root, ROOT#null, 较深#VV)   (case, 杂食性#NN, 为#P)  (prep, 同类#VV, 杂食性#NN)  (conj, 藻均#NN, 鱼#NN)  (conj, 藻均#NN, 虾#NN)  (conj, 藻均#NN, 贝#NN)  (nn, 食#NN, 藻均#NN)  (nsubj, 同类#VV, 食#NN)  (advmod, 同类#VV, 甚至#AD)  (advmod, 同类#VV, 也#AD)  (dep, 同类#VV, 食#NN)  (root, ROOT#null, 同类#VV)  (conj, 同类#VV, 喜#VA)  (nsubj, 尸体#NN, 食#NN)  (nn, 尸体#NN, 动物#NN)  (conj, 同类#VV, 尸体#NN)   (root, ROOT#null, null#null)
+            (nsubj, 常见#VA, 梭子蟹#NN)  (dep, 有#VE, 常见#VA)  (mark, 常见#VA, 的#DEC)  (root, ROOT#null, 有#VE)  (nn, 梭子蟹#NN, 红星#NN)  (conj, 梭子蟹#NN, 梭子蟹#NN)  (nn, 梭子蟹#NN, 远海#NN)  (conj, 梭子蟹#NN, 梭子蟹#NN)  (cc, 梭子蟹#NN, 和#CC)  (nummod, 梭子蟹#NN, 三#CD)  (nn, 梭子蟹#NN, 疣#NN)  (dobj, 有#VE, 梭子蟹#NN)  (etc, 梭子蟹#NN, 等#ETC)   (nummod, 种#M, 三#CD)  (clf, 外形#NN, 种#M)  (nn, 外形#NN, 梭子蟹#NN)  (nsubj, 相像#VA, 外形#NN)  (advmod, 相像#VA, 极为#AD)  (root, ROOT#null, 相像#VA)   (advmod, 观察#VV, 仔细#AD)  (root, ROOT#null, 观察#VV)  (nn, 梭子蟹#NN, 红星#NN)  (nn, 表面#NN, 梭子蟹#NN)  (det, 表面#NN, 头#DT)  (dep, 头#DT, 胸甲#CD)  (loc, 有#VE, 表面#NN)  (case, 表面#NN, 上#LC)  (dep, 观察#VV, 有#VE)  (nummod, 个#M, 3#CD)  (clf, 卵#NN, 个#M)  (nn, 卵#NN, 血红色#NN)  (dobj, 有#VE, 卵#NN)  (nummod, 班#M, 圆形#CD)  (range, 有#VE, 班#M)  (advmod, 明显#VA, 非常#AD)  (conj, 观察#VV, 明显#VA)  (conj, 观察#VV, 区别于#VV)  (dep, 区别于#VV, 其它#DT)  (nummod, 种#M, 两#CD)  (dep, 其它#DT, 种#M)   (nn, 梭子蟹#NN, 运海#NN)  (nsubj, 有#VE, 梭子蟹#NN)  (det, 胸甲#NN, 头#DT)  (loc, 有#VE, 胸甲#NN)  (case, 胸甲#NN, 上#LC)  (root, ROOT#null, 有#VE)  (assmod, 颗粒#NN, 较粗#NN)  (case, 较粗#NN, 的#DEG)  (conj, 花白云纹#NN, 颗粒#NN)  (cc, 花白云纹#NN, 及#CC)  (relcl, 花白云纹#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 有#VE, 花白云纹#NN)  (cc, 有#VE, 而#CC)  (nummod, 梭子蟹#NN, 三#CD)  (nn, 梭子蟹#NN, 疣#NN)  (nn, 胸甲#NN, 梭子蟹#NN)  (det, 胸甲#NN, 头#DT)  (assmod, 细小#NN, 胸甲#NN)  (case, 胸甲#NN, 上#LC)  (case, 胸甲#NN, 的#DEG)  (nn, 细小#NN, 颗粒#NN)  (nsubj, 有#VE, 细小#NN)  (nn, 白云纹#NN, 无花#NN)  (nsubj, 有#VE, 白云纹#NN)  (conj, 有#VE, 有#VE)  (nummod, 个#M, 3#CD)  (clf, 疣状突#NN, 个#M)  (dobj, 有#VE, 疣状突#NN)  (conj, 有#VE, 故名#VV)  (nummod, 梭子蟹#NN, 三#CD)  (nn, 梭子蟹#NN, 疣#NN)  (dobj, 故名#VV, 梭子蟹#NN)   (nsubj, 是#VC, 后者#PN)  (root, ROOT#null, 是#VC)  (loc, 多#VA, 梭子蟹#NN)  (case, 梭子蟹#NN, 中#LC)  (nsubj, 多#VA, 数量#NN)  (advmod, 多#VA, 最#AD)  (dep, 种#M, 多#VA)  (nsubj, 大#VA, 产量#NN)  (advmod, 大#VA, 最#AD)  (conj, 多#VA, 大#VA)  (mark, 多#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (advmod, 占#VV, 约#AD)  (conj, 是#VC, 占#VV)  (nn, 总产量#NN, 梭子蟹#NN)  (assmod, ％#NN, 总产量#NN)  (case, 总产量#NN, 的#DEG)  (nummod, ％#NN, 90#CD)  (loc, 占#VV, ％#NN)  (case, ％#NN, 左右#LC)   (advmod, 产#VV, 此外#AD)  (nsubj, 产#VV, 中国#NR)  (advmod, 产#VV, 还#AD)  (conj, 剑#VV, 产#VV)  (nn, 拥#NN, 银光#NN)  (conj, 拥#NN, 梭子蟹#NN)  (nn, 拥#NN, 矛形#NN)  (conj, 拥#NN, 梭子蟹#NN)  (dobj, 产#VV, 拥#NN)  (root, ROOT#null, 剑#VV)  (conj, 梭子蟹#NN, 梭子蟹#NN)  (nn, 梭子蟹#NN, 纤手#NN)  (conj, 梭子蟹#NN, 梭子蟹#NN)  (nn, 梭子蟹#NN, 薄#NN)  (nn, 梭子蟹#NN, 氏#NN)  (dobj, 剑#VV, 梭子蟹#NN)  (etc, 梭子蟹#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            梭子蟹，味咸；性寒。滋阴养血；解毒疗伤。主血枯经闭；漆疮；关节扭伤。
+            1.抗结核
+            螃蟹还有抗结核作用，吃蟹对结核病的康复大有补益。
+            2.滋补解毒
+            螃蟹有清热解毒、补骨添髓、养筋活血、通经络、利肢节、续绝伤、滋肝阴、充胃液之功效。对于淤血、损伤、黄疸、腰腿酸痛和风湿性关节炎等疾病有一定的食疗效果。
+        </rawdata>
+
+        <segment>
+            梭子蟹  ，  味咸  ；  性寒  。  滋阴  养  血  ；  解毒  疗伤  。  主血枯  经闭  ；  漆疮  ；  关节  扭伤  。
+            抗  结核
+            螃蟹  还有  抗  结核  作用  ，  吃蟹  对  结核病  的  康复  大有  补益  。
+            滋补  解毒
+            螃蟹  有  清热  解毒  、  补  骨  添髓  、  养筋  活血  、  通  经络  、  利  肢节  、  续  绝  伤  、  滋肝  阴  、  充  胃液  之  功效  。  对于  淤血  、  损伤  、  黄疸  、  腰腿  酸痛  和  风湿性  关节炎  等  疾病  有  一定  的  食疗  效果  。
+        </segment>
+
+        <pos>
+            梭子蟹#NN  ，#PU  味咸#VV  ；#PU  性寒#VV    。#PU  滋阴#NN  养#VV  血#NN  ；#PU  解毒#AD  疗伤#VA    。#PU  主血枯#NR  经闭#VV  ；#PU  漆疮#VV  ；#PU  关节#NN  扭伤#NN    。#PU    。#PU
+            抗#NN  结核#VV
+            螃蟹#NR  还有#AD  抗#NN  结核#NN  作用#NN  ，#PU  吃蟹#NN  对#P  结核病#NN  的#DEG  康复#NN  大有#VV  补益#NN  。#PU
+            滋补#NN  解毒#VV
+            螃蟹#NN  有#VE  清热#NN  解毒#NN  、#PU  补#NN  骨#NN  添髓#NN  、#PU  养筋#NN  活血#NN  、#PU  通#NN  经络#NN  、#PU  利#NR  肢节#NR  、#PU  续#NN  绝#NN  伤#NN  、#PU  滋肝#NN  阴#NN  、#PU  充#NR  胃液#NN  之#DEG  功效#NN    。#PU  对于#P  淤血#NN  、#PU  损伤#NN  、#PU  黄疸#NN  、#PU  腰腿#NN  酸痛#NN  和#CC  风湿性#NN  关节炎#NN  等#ETC  疾病#NN  有#VE  一定#JJ  的#DEG  食疗#NN  效果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味咸#VV, 梭子蟹#NN)  (root, ROOT#null, 味咸#VV)  (conj, 味咸#VV, 性寒#VV)   (nsubj, 养#VV, 滋阴#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)  (advmod, 疗伤#VA, 解毒#AD)  (conj, 养#VV, 疗伤#VA)   (nsubj, 经闭#VV, 主血枯#NR)  (root, ROOT#null, 经闭#VV)  (ccomp, 经闭#VV, 漆疮#VV)  (nn, 扭伤#NN, 关节#NN)  (dobj, 漆疮#VV, 扭伤#NN)   (root, ROOT#null, null#null)
+            (nsubj, 结核#VV, 抗#NN)  (root, ROOT#null, 结核#VV)
+            (nn, 结核#NN, 螃蟹#NR)  (advmod, 结核#NN, 还有#AD)  (nn, 结核#NN, 抗#NN)  (nn, 作用#NN, 结核#NN)  (nsubj, 大有#VV, 作用#NN)  (nsubj, 大有#VV, 吃蟹#NN)  (case, 康复#NN, 对#P)  (assmod, 康复#NN, 结核病#NN)  (case, 结核病#NN, 的#DEG)  (prep, 大有#VV, 康复#NN)  (root, ROOT#null, 大有#VV)  (dobj, 大有#VV, 补益#NN)
+            (nsubj, 解毒#VV, 滋补#NN)  (root, ROOT#null, 解毒#VV)
+            (dep, 有#VE, 螃蟹#NN)  (root, ROOT#null, 有#VE)  (nn, 解毒#NN, 清热#NN)  (conj, 充#NR, 解毒#NN)  (nn, 添髓#NN, 补#NN)  (nn, 添髓#NN, 骨#NN)  (conj, 充#NR, 添髓#NN)  (nn, 活血#NN, 养筋#NN)  (conj, 充#NR, 活血#NN)  (nn, 经络#NN, 通#NN)  (conj, 充#NR, 经络#NN)  (nn, 肢节#NR, 利#NR)  (conj, 充#NR, 肢节#NR)  (nn, 伤#NN, 续#NN)  (nn, 伤#NN, 绝#NN)  (conj, 充#NR, 伤#NN)  (nn, 阴#NN, 滋肝#NN)  (conj, 充#NR, 阴#NN)  (nn, 胃液#NN, 充#NR)  (assmod, 功效#NN, 胃液#NN)  (case, 胃液#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)   (case, 疾病#NN, 对于#P)  (conj, 关节炎#NN, 淤血#NN)  (conj, 关节炎#NN, 损伤#NN)  (conj, 关节炎#NN, 黄疸#NN)  (nn, 关节炎#NN, 腰腿#NN)  (conj, 关节炎#NN, 酸痛#NN)  (cc, 关节炎#NN, 和#CC)  (nn, 关节炎#NN, 风湿性#NN)  (nn, 疾病#NN, 关节炎#NN)  (etc, 关节炎#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (root, ROOT#null, 有#VE)  (assmod, 效果#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 效果#NN, 食疗#NN)  (dobj, 有#VE, 效果#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        活血  补阴
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.螃蟹含有丰富的蛋白质，较少的脂肪和碳水化合物。
+            2.蟹黄中的胆固醇含量较高。
+            3.螃蟹含有丰富的钙、磷、钾、钠、镁、硒等微量元素。
+            4.螃蟹中含有丰富的维生素D。
+        </rawdata>
+
+        <segment>
+            螃蟹  含有  丰富  的  蛋白质  ，  较  少  的  脂肪  和  碳水化合物  。
+            蟹黄  中  的  胆固醇  含量  较  高  。
+            螃蟹  含有  丰富  的  钙  、  磷  、  钾  、  钠  、  镁  、  硒等  微量  元素  。
+            螃蟹  中  含有  丰富  的  维生素D  。
+        </segment>
+
+        <pos>
+            螃蟹#VV  含有#AD  丰富#VA  的#DEC  蛋白质#NN  ，#PU  较#AD  少#VA  的#DEC  脂肪#NN  和#CC  碳水化合物#NN  。#PU
+            蟹黄#NN  中#LC  的#DEG  胆固醇#NN  含量#NN  较#AD  高#VA  。#PU
+            螃蟹#NN  含有#VV  丰富#VA  的#DEC  钙#NN  、#PU  磷#NN  、#PU  钾#NN  、#PU  钠#NN  、#PU  镁#NN  、#PU  硒等#NN  微量#NN  元素#NN  。#PU
+            螃蟹#NN  中#LC  含有#VV  丰富#VA  的#DEC  维生素D#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 螃蟹#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 螃蟹#VV, 蛋白质#NN)  (advmod, 少#VA, 较#AD)  (relcl, 碳水化合物#NN, 少#VA)  (mark, 少#VA, 的#DEC)  (conj, 碳水化合物#NN, 脂肪#NN)  (cc, 碳水化合物#NN, 和#CC)  (dep, 螃蟹#VV, 碳水化合物#NN)
+            (assmod, 含量#NN, 蟹黄#NN)  (case, 蟹黄#NN, 中#LC)  (case, 蟹黄#NN, 的#DEG)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)
+            (nsubj, 含有#VV, 螃蟹#NN)  (root, ROOT#null, 含有#VV)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 微量#NN, 钙#NN)  (conj, 微量#NN, 磷#NN)  (conj, 微量#NN, 钾#NN)  (conj, 微量#NN, 钠#NN)  (conj, 微量#NN, 镁#NN)  (nn, 微量#NN, 硒等#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)
+            (loc, 含有#VV, 螃蟹#NN)  (case, 螃蟹#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, 维生素D#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素D#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            雌蟹红膏满盖，口味极佳。梭子蟹可鲜食，或蒸、或煎、或炒，或一切两半炖豆板酱，或用蟹炒年糕、炒咸菜、煮豆腐，是沿海一带居民餐桌上的常菜。亦可腌食，就是将新鲜梭子蟹投入盐卤中浸泡，数日后即可食用，俗称“新风抢蟹’。
+            1.螃蟹性咸寒，又是食腐动物，所以吃时必蘸姜末醋汁来祛寒杀菌，不宜单食；
+            2.螃蟹的鳃、沙包、内脏含有大量细菌和毒素，吃时一定要去掉；
+            3.醉蟹或腌蟹等未熟透的蟹不宜食用，应蒸熟煮透后再吃；存放过久的熟蟹也不宜食用；不宜与茶水同食，吃蟹时和吃蟹后1小时内忌饮茶水；蟹肥正是柿子熟的季节，应当注意忌蟹与柿子混吃；
+            4.挑选蟹时应注意：必须是活的且动作灵活，用手翻过螃蟹后，能够马上翻过身来，好的河蟹还能不断吐沫并有响声；
+            5.螃蟹清洗：先在螃蟹桶里倒入少量的白酒去腥，等螃蟹略有昏迷的时候用锅铲的背面将螃蟹抽晕，用手迅速抓住它的背部，拿刷子朝着已经成平面状的螃蟹腹部猛刷，角落不要遗漏，检查没有淤泥后丢入另一桶中，用清水冲净即可；
+            6.切忌食生蟹及未煮熟的蟹，民间虽有生吃螃蟹活吃虾的说法，但这是不可取的；
+            7.螃蟹肉味鲜美，营养丰富，但死螃蟹忌食之；因为螃蟹喜食动物尸体等腐烂性物质，故其胃肠中常带致病细菌和有毒物质，一旦死后，这些病菌大量繁殖；另外，螃蟹体内还含有较多的组氨酸，组氨酸易分解，可在脱羧酶的作用下产生组胺和类组氨物质，尤其是当螃蟹死后，组氨酸分解更迅速，随着螃蟹死的时间越长，体内积累的组氨越多，而当组氨积蓄到一定数量时即会造成中毒。
+        </rawdata>
+
+        <segment>
+            雌蟹红膏满盖  ，  口味  极佳  。  梭子蟹  可  鲜食  ，  或蒸  、  或  煎  、  或  炒  ，  或  一切  两  半  炖  豆板酱  ，  或用蟹  炒  年糕  、  炒  咸菜  、  煮  豆腐  ，  是  沿海  一带  居民  餐桌  上  的  常菜  。  亦  可  腌食  ，  就是  将  新鲜  梭子蟹  投入  盐卤  中  浸泡  ，  数日后  即  可  食用  ，  俗称  “  新风  抢蟹  ’  。
+            螃蟹  性咸寒  ，  又  是  食腐  动物  ，  所以  吃  时必蘸  姜末  醋汁  来  祛寒  杀菌  ，  不  宜  单食  ；
+            螃蟹  的鳃  、  沙包  、  内脏  含有  大量  细菌  和  毒素  ，  吃  时  一定  要  去掉  ；
+            醉蟹  或  腌蟹  等  未  熟透  的  蟹不宜  食用  ，  应  蒸熟  煮  透  后  再  吃  ；  存放  过久  的  熟蟹  也  不  宜  食用  ；  不  宜  与  茶水  同  食  ，  吃蟹  时  和  吃蟹  后  1  小时  内忌  饮  茶水  ；  蟹肥  正  是  柿子  熟  的  季节  ，  应当  注意  忌蟹  与  柿子  混吃  ；
+            挑选  蟹时  应  注意  ：  必须  是  活的  且  动作  灵活  ，  用手  翻过  螃蟹  后  ，  能够  马上  翻过  身来  ，  好的  河蟹  还  能  不断  吐沫  并  有  响声  ；
+            螃蟹  清洗  ：  先  在  螃蟹  桶  里  倒入  少量  的  白酒  去  腥  ，  等  螃蟹  略有  昏迷  的  时候  用  锅铲  的  背面  将  螃蟹  抽晕  ，  用手  迅速  抓住  它  的  背部  ，  拿  刷子  朝着  已经  成  平面状  的  螃蟹  腹部  猛刷  ，  角落  不  要  遗漏  ，  检查  没有  淤泥  后  丢入  另  一  桶  中  ，  用  清水  冲  净  即可  ；
+            切忌  食  生蟹  及  未  煮熟  的蟹  ，  民间  虽  有  生吃  螃蟹  活  吃  虾  的  说法  ，  但  这  是  不  可  取的  ；
+            螃蟹  肉味  鲜美  ，  营养  丰富  ，  但  死  螃蟹  忌食  之  ；  因为  螃蟹  喜  食  动物  尸体  等  腐烂  性  物质  ，  故  其  胃肠  中常  带  致病  细菌  和  有毒  物质  ，  一旦  死后  ，  这些  病菌  大量  繁殖  ；  另外  ，  螃蟹  体内  还  含有  较多  的  组氨酸  ，  组氨酸  易  分解  ，  可在  脱  羧酶  的  作用  下  产生  组胺  和  类  组  氨  物质  ，  尤其是  当  螃蟹  死后  ，  组氨酸  分解  更  迅速  ，  随着  螃蟹  死的  时间  越长  ，  体内  积累  的  组氨  越多  ，  而  当  组氨  积蓄  到  一定  数量  时  即  会  造成  中毒  。
+        </segment>
+
+        <pos>
+            雌蟹红膏满盖#VV  ，#PU  口味#NN  极佳#VV    。#PU  梭子蟹#NN  可#VV  鲜食#VV  ，#PU  或蒸#VV  、#PU  或#CC  煎#NR  、#PU  或#CC  炒#NR  ，#PU  或#CC  一切#DT  两#CD  半#CD  炖#NN  豆板酱#VV  ，#PU  或用蟹#VV  炒#NN  年糕#NN  、#PU  炒#VV  咸菜#NN  、#PU  煮#VV  豆腐#NN  ，#PU  是#VC  沿海#NN  一带#CD  居民#NN  餐桌#NN  上#LC  的#DEG  常菜#NN    。#PU  亦#AD  可#VV  腌食#VV  ，#PU  就是#CC  将#BA  新鲜#JJ  梭子蟹#NN  投入#VV  盐卤#NN  中#LC  浸泡#NN  ，#PU  数日后#AD  即#AD  可#VV  食用#VV  ，#PU  俗称#AD  ``#VV  新风#NN  抢蟹#NN  '#NN    。#PU    。#PU
+            螃蟹#NN  性咸寒#NN  ，#PU  又#AD  是#VC  食腐#JJ  动物#NN  ，#PU  所以#AD  吃#VV  时必蘸#NN  姜末#NN  醋汁#NN  来#MSP  祛寒#VV  杀菌#NN  ，#PU  不#AD  宜#NR  单食#VV  ；#PU
+            螃蟹#NR  的鳃#NR  、#PU  沙包#NR  、#PU  内脏#NR  含有#NR  大量#CD  细菌#NN  和#CC  毒素#NN  ，#PU  吃#VV  时#LC  一定#AD  要#VV  去掉#VV  ；#PU
+            醉蟹#NR  或#CC  腌蟹#NR  等#ETC  未#AD  熟透#VV  的#DEC  蟹不宜#NN  食用#VV  ，#PU  应#P  蒸熟#NR  煮#VV  透#NN  后#LC  再#AD  吃#VV  ；#PU  存放#VV  过久#NN  的#DEC  熟蟹#NN  也#AD  不#AD  宜#NR  食用#VV  ；#PU  不#AD  宜#NR  与#CC  茶水#NR  同#P  食#NN  ，#PU  吃蟹#NN  时#LC  和#CC  吃蟹#NN  后#LC  1#CD  小时#NN  内忌#AD  饮#VV  茶水#NN  ；#PU  蟹肥#NR  正#AD  是#VC  柿子#NN  熟#VA  的#DEC  季节#NN  ，#PU  应当#VV  注意#NN  忌蟹#NN  与#CC  柿子#NN  混吃#NN  ；#PU
+            挑选#VV  蟹时#NN  应#VV  注意#VV  ：#PU  必须#VV  是#VC  活的#NN  且#CC  动作#NN  灵活#VA  ，#PU  用手#NN  翻过#NN  螃蟹#NN  后#LC  ，#PU  能够#VV  马上#AD  翻过#VV  身来#NN  ，#PU  好的#NN  河蟹#NN  还#AD  能#VV  不断#AD  吐沫#VV  并#AD  有#VE  响声#NN  ；#PU
+            螃蟹#NR  清洗#VV  ：#PU  先#AD  在#P  螃蟹#CD  桶#M  里#LC  倒入#VV  少量#CD  的#DEC  白酒#NN  去#VV  腥#NN  ，#PU  等#CC  螃蟹#VV  略有#AD  昏迷#VV  的#DEC  时候#NN  用#P  锅铲#NR  的#DEG  背面#NN  将#AD  螃蟹#VV  抽晕#NN  ，#PU  用手#AD  迅速#AD  抓住#VV  它#PN  的#DEG  背部#NN  ，#PU  拿#VV  刷子#NN  朝着#P  已经#AD  成#VV  平面状#NN  的#DEC  螃蟹#NN  腹部#NN  猛刷#VV  ，#PU  角落#NR  不#AD  要#VV  遗漏#NN  ，#PU  检查#NN  没有#VE  淤泥#NN  后#LC  丢入#VV  另#AD  一#CD  桶#M  中#LC  ，#PU  用#P  清水#NR  冲#VV  净#JJ  即可#NN  ；#PU
+            切忌#VV  食#NN  生蟹#NN  及#CC  未#AD  煮熟#VV  的蟹#NN  ，#PU  民间#NN  虽#CS  有#VE  生吃#NN  螃蟹#NN  活#NN  吃#VV  虾#NN  的#DEC  说法#NN  ，#PU  但#AD  这#PN  是#VC  不#AD  可#VV  取的#VV  ；#PU
+            螃蟹#NN  肉味#NN  鲜美#NN  ，#PU  营养#VA  丰富#VA  ，#PU  但#AD  死#VV  螃蟹#VV  忌食#NN  之#DEC  ；#PU  因为#P  螃蟹#VA  喜#VA  食#NN  动物#NN  尸体#NN  等#ETC  腐烂#NN  性#NN  物质#NN  ，#PU  故#AD  其#PN  胃肠#NN  中常#AD  带#VV  致病#NN  细菌#NN  和#CC  有毒#NN  物质#NN  ，#PU  一旦#CS  死后#VA  ，#PU  这些#DT  病菌#NN  大量#AD  繁殖#VV  ；#PU  另外#AD  ，#PU  螃蟹#NN  体内#NN  还#AD  含有#VV  较多#NR  的#DEG  组氨酸#NN  ，#PU  组氨酸#NR  易#AD  分解#VV  ，#PU  可在#NN  脱#NN  羧酶#NN  的#DEG  作用#NN  下#LC  产生#VV  组胺#NN  和#CC  类#NN  组#VV  氨#NN  物质#NN  ，#PU  尤其是#AD  当#P  螃蟹#NN  死后#NN  ，#PU  组氨酸#NR  分解#VV  更#AD  迅速#VA  ，#PU  随着#P  螃蟹#NN  死的#NN  时间#NN  越长#VV  ，#PU  体内#NN  积累#VV  的#DEC  组氨#NN  越多#NN  ，#PU  而#CC  当#P  组氨#NN  积蓄#NN  到#CC  一定#JJ  数量#NN  时#LC  即#AD  会#VV  造成#VV  中毒#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 雌蟹红膏满盖#VV)  (nsubj, 极佳#VV, 口味#NN)  (ccomp, 雌蟹红膏满盖#VV, 极佳#VV)   (nsubj, 可#VV, 梭子蟹#NN)  (root, ROOT#null, 可#VV)  (nfincl, 餐桌#NN, 鲜食#VV)  (conj, 鲜食#VV, 或蒸#VV)  (prep, 豆板酱#VV, 或#CC)  (dep, 或#CC, 煎#NR)  (cc, 煎#NR, 或#CC)  (dep, 煎#NR, 炒#NR)  (cc, 或#CC, 或#CC)  (det, 炖#NN, 一切#DT)  (dep, 一切#DT, 两#CD)  (nummod, 炖#NN, 半#CD)  (dep, 或#CC, 炖#NN)  (conj, 鲜食#VV, 豆板酱#VV)  (conj, 鲜食#VV, 或用蟹#VV)  (nn, 年糕#NN, 炒#NN)  (dobj, 或用蟹#VV, 年糕#NN)  (conj, 鲜食#VV, 炒#VV)  (dobj, 炒#VV, 咸菜#NN)  (conj, 鲜食#VV, 煮#VV)  (dobj, 煮#VV, 豆腐#NN)  (cop, 沿海#NN, 是#VC)  (conj, 鲜食#VV, 沿海#NN)  (nummod, 餐桌#NN, 一带#CD)  (nn, 餐桌#NN, 居民#NN)  (assmod, 常菜#NN, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (case, 餐桌#NN, 的#DEG)  (dobj, 可#VV, 常菜#NN)   (advmod, 腌食#VV, 亦#AD)  (dep, 腌食#VV, 可#VV)  (root, ROOT#null, 腌食#VV)  (cc, 腌食#VV, 就是#CC)  (ba, 投入#VV, 将#BA)  (amod, 梭子蟹#NN, 新鲜#JJ)  (nsubj, 投入#VV, 梭子蟹#NN)  (dep, 腌食#VV, 投入#VV)  (dep, 浸泡#NN, 盐卤#NN)  (case, 盐卤#NN, 中#LC)  (dobj, 投入#VV, 浸泡#NN)  (advmod, 食用#VV, 数日后#AD)  (advmod, 食用#VV, 即#AD)  (dep, 食用#VV, 可#VV)  (dep, 腌食#VV, 食用#VV)  (advmod, ``#VV, 俗称#AD)  (dep, 腌食#VV, ``#VV)  (nn, '#NN, 新风#NN)  (nn, '#NN, 抢蟹#NN)   (root, ROOT#null, null#null)
+            (nn, 性咸寒#NN, 螃蟹#NN)  (nsubj, 动物#NN, 性咸寒#NN)  (advmod, 动物#NN, 又#AD)  (cop, 动物#NN, 是#VC)  (amod, 动物#NN, 食腐#JJ)  (root, ROOT#null, 动物#NN)  (advmod, 单食#VV, 所以#AD)  (dep, 单食#VV, 吃#VV)  (nn, 醋汁#NN, 时必蘸#NN)  (nn, 醋汁#NN, 姜末#NN)  (dobj, 吃#VV, 醋汁#NN)  (prtmod, 祛寒#VV, 来#MSP)  (conj, 吃#VV, 祛寒#VV)  (dobj, 祛寒#VV, 杀菌#NN)  (neg, 单食#VV, 不#AD)  (prep, 单食#VV, 宜#NR)  (conj, 动物#NN, 单食#VV)
+            (nn, 含有#NR, 螃蟹#NR)  (conj, 含有#NR, 的鳃#NR)  (conj, 含有#NR, 沙包#NR)  (nn, 含有#NR, 内脏#NR)  (nn, 毒素#NN, 含有#NR)  (nummod, 毒素#NN, 大量#CD)  (conj, 毒素#NN, 细菌#NN)  (cc, 毒素#NN, 和#CC)  (nsubj, 去掉#VV, 毒素#NN)  (loc, 去掉#VV, 吃#VV)  (case, 吃#VV, 时#LC)  (advmod, 去掉#VV, 一定#AD)  (dep, 去掉#VV, 要#VV)  (root, ROOT#null, 去掉#VV)
+            (conj, 腌蟹#NR, 醉蟹#NR)  (cc, 腌蟹#NR, 或#CC)  (nn, 蟹不宜#NN, 腌蟹#NR)  (etc, 腌蟹#NR, 等#ETC)  (advmod, 熟透#VV, 未#AD)  (relcl, 腌蟹#NR, 熟透#VV)  (relcl, 蟹不宜#NN, 熟透#VV)  (mark, 熟透#VV, 的#DEC)  (nsubj, 食用#VV, 蟹不宜#NN)  (root, ROOT#null, 食用#VV)  (case, 煮#VV, 应#P)  (nsubj, 煮#VV, 蒸熟#NR)  (prep, 吃#VV, 煮#VV)  (dobj, 煮#VV, 透#NN)  (case, 煮#VV, 后#LC)  (advmod, 吃#VV, 再#AD)  (conj, 食用#VV, 吃#VV)  (relcl, 熟蟹#NN, 存放#VV)  (dobj, 存放#VV, 过久#NN)  (mark, 存放#VV, 的#DEC)  (nsubj, 食用#VV, 熟蟹#NN)  (advmod, 食用#VV, 也#AD)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 食用#VV, 食用#VV)  (neg, 饮#VV, 不#AD)  (conj, 茶水#NR, 宜#NR)  (cc, 茶水#NR, 与#CC)  (nsubj, 饮#VV, 茶水#NR)  (case, 食#NN, 同#P)  (prep, 饮#VV, 食#NN)  (loc, 饮#VV, 吃蟹#NN)  (case, 吃蟹#NN, 时#LC)  (dep, 吃蟹#NN, 和#CC)  (dep, 吃蟹#NN, 吃蟹#NN)  (case, 吃蟹#NN, 后#LC)  (nummod, 小时#NN, 1#CD)  (nsubj, 饮#VV, 小时#NN)  (advmod, 饮#VV, 内忌#AD)  (conj, 食用#VV, 饮#VV)  (dobj, 饮#VV, 茶水#NN)  (nsubj, 季节#NN, 蟹肥#NR)  (advmod, 季节#NN, 正#AD)  (cop, 季节#NN, 是#VC)  (nsubj, 熟#VA, 柿子#NN)  (relcl, 季节#NN, 熟#VA)  (mark, 熟#VA, 的#DEC)  (conj, 食用#VV, 季节#NN)  (conj, 季节#NN, 应当#VV)  (nn, 混吃#NN, 注意#NN)  (conj, 混吃#NN, 忌蟹#NN)  (cc, 混吃#NN, 与#CC)  (nn, 混吃#NN, 柿子#NN)  (dobj, 应当#VV, 混吃#NN)
+            (dep, 注意#VV, 挑选#VV)  (dobj, 挑选#VV, 蟹时#NN)  (conj, 挑选#VV, 应#VV)  (root, ROOT#null, 注意#VV)  (mmod, 活的#NN, 必须#VV)  (cop, 活的#NN, 是#VC)  (ccomp, 注意#VV, 活的#NN)  (cc, 活的#NN, 且#CC)  (nsubj, 灵活#VA, 动作#NN)  (dep, 活的#NN, 灵活#VA)  (nn, 螃蟹#NN, 用手#NN)  (nn, 螃蟹#NN, 翻过#NN)  (loc, 翻过#VV, 螃蟹#NN)  (case, 螃蟹#NN, 后#LC)  (mmod, 翻过#VV, 能够#VV)  (advmod, 翻过#VV, 马上#AD)  (conj, 活的#NN, 翻过#VV)  (dobj, 翻过#VV, 身来#NN)  (nn, 河蟹#NN, 好的#NN)  (nsubj, 吐沫#VV, 河蟹#NN)  (advmod, 吐沫#VV, 还#AD)  (mmod, 吐沫#VV, 能#VV)  (advmod, 吐沫#VV, 不断#AD)  (conj, 活的#NN, 吐沫#VV)  (advmod, 有#VE, 并#AD)  (dep, 注意#VV, 有#VE)  (dobj, 有#VE, 响声#NN)
+            (nsubj, 清洗#VV, 螃蟹#NR)  (root, ROOT#null, 清洗#VV)  (advmod, 倒入#VV, 先#AD)  (case, 桶#M, 在#P)  (nummod, 桶#M, 螃蟹#CD)  (prep, 倒入#VV, 桶#M)  (case, 桶#M, 里#LC)  (relcl, 白酒#NN, 倒入#VV)  (range, 倒入#VV, 少量#CD)  (mark, 倒入#VV, 的#DEC)  (nsubj, 去#VV, 白酒#NN)  (ccomp, 清洗#VV, 去#VV)  (dobj, 去#VV, 腥#NN)  (cc, 去#VV, 等#CC)  (conj, 去#VV, 螃蟹#VV)  (advmod, 昏迷#VV, 略有#AD)  (relcl, 时候#NN, 昏迷#VV)  (mark, 昏迷#VV, 的#DEC)  (dobj, 螃蟹#VV, 时候#NN)  (case, 背面#NN, 用#P)  (assmod, 背面#NN, 锅铲#NR)  (case, 锅铲#NR, 的#DEG)  (prep, 螃蟹#VV, 背面#NN)  (advmod, 螃蟹#VV, 将#AD)  (dep, 螃蟹#VV, 螃蟹#VV)  (dobj, 螃蟹#VV, 抽晕#NN)  (advmod, 抓住#VV, 用手#AD)  (advmod, 抓住#VV, 迅速#AD)  (conj, 去#VV, 抓住#VV)  (assmod, 背部#NN, 它#PN)  (case, 它#PN, 的#DEG)  (dobj, 抓住#VV, 背部#NN)  (conj, 去#VV, 拿#VV)  (dobj, 拿#VV, 刷子#NN)  (case, 猛刷#VV, 朝着#P)  (advmod, 成#VV, 已经#AD)  (relcl, 腹部#NN, 成#VV)  (dobj, 成#VV, 平面状#NN)  (mark, 成#VV, 的#DEC)  (nn, 腹部#NN, 螃蟹#NN)  (nsubj, 猛刷#VV, 腹部#NN)  (prep, 丢入#VV, 猛刷#VV)  (nsubj, 要#VV, 角落#NR)  (neg, 要#VV, 不#AD)  (ccomp, 猛刷#VV, 要#VV)  (dobj, 要#VV, 遗漏#NN)  (dep, 没有#VE, 检查#NN)  (conj, 要#VV, 没有#VE)  (dobj, 没有#VE, 淤泥#NN)  (case, 猛刷#VV, 后#LC)  (conj, 去#VV, 丢入#VV)  (advmod, 桶#M, 另#AD)  (nummod, 桶#M, 一#CD)  (loc, 丢入#VV, 桶#M)  (case, 桶#M, 中#LC)  (case, 清水#NR, 用#P)  (prep, 冲#VV, 清水#NR)  (conj, 去#VV, 冲#VV)  (amod, 即可#NN, 净#JJ)  (dobj, 冲#VV, 即可#NN)
+            (dep, 有#VE, 切忌#VV)  (nn, 生蟹#NN, 食#NN)  (dobj, 切忌#VV, 生蟹#NN)  (cc, 切忌#VV, 及#CC)  (advmod, 煮熟#VV, 未#AD)  (conj, 切忌#VV, 煮熟#VV)  (dobj, 煮熟#VV, 的蟹#NN)  (nsubj, 有#VE, 民间#NN)  (advmod, 有#VE, 虽#CS)  (root, ROOT#null, 有#VE)  (nn, 活#NN, 生吃#NN)  (nn, 活#NN, 螃蟹#NN)  (nsubj, 吃#VV, 活#NN)  (relcl, 说法#NN, 吃#VV)  (dobj, 吃#VV, 虾#NN)  (mark, 吃#VV, 的#DEC)  (dobj, 有#VE, 说法#NN)  (advmod, 取的#VV, 但#AD)  (nsubj, 取的#VV, 这#PN)  (cop, 取的#VV, 是#VC)  (neg, 取的#VV, 不#AD)  (dep, 取的#VV, 可#VV)  (conj, 有#VE, 取的#VV)
+            (nn, 鲜美#NN, 螃蟹#NN)  (nn, 鲜美#NN, 肉味#NN)  (nsubj, 营养#VA, 鲜美#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 死#VV, 但#AD)  (conj, 营养#VA, 死#VV)  (dobj, 死#VV, 螃蟹#VV)  (dobj, 螃蟹#VV, 忌食#NN)  (mark, 螃蟹#VV, 之#DEC)  (case, 螃蟹#VA, 因为#P)  (prep, 带#VV, 螃蟹#VA)  (comod, 螃蟹#VA, 喜#VA)  (nn, 尸体#NN, 食#NN)  (nn, 尸体#NN, 动物#NN)  (nn, 物质#NN, 尸体#NN)  (etc, 尸体#NN, 等#ETC)  (nn, 物质#NN, 腐烂#NN)  (nn, 物质#NN, 性#NN)  (dobj, 螃蟹#VA, 物质#NN)  (advmod, 带#VV, 故#AD)  (nn, 胃肠#NN, 其#PN)  (nsubj, 带#VV, 胃肠#NN)  (advmod, 带#VV, 中常#AD)  (conj, 营养#VA, 带#VV)  (nn, 物质#NN, 致病#NN)  (conj, 物质#NN, 细菌#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 有毒#NN)  (dobj, 带#VV, 物质#NN)  (advmod, 死后#VA, 一旦#CS)  (dep, 繁殖#VV, 死后#VA)  (det, 病菌#NN, 这些#DT)  (nsubj, 繁殖#VV, 病菌#NN)  (advmod, 繁殖#VV, 大量#AD)  (conj, 营养#VA, 繁殖#VV)  (advmod, 含有#VV, 另外#AD)  (nn, 体内#NN, 螃蟹#NN)  (nsubj, 含有#VV, 体内#NN)  (advmod, 含有#VV, 还#AD)  (conj, 营养#VA, 含有#VV)  (assmod, 组氨酸#NN, 较多#NR)  (case, 较多#NR, 的#DEG)  (dobj, 含有#VV, 组氨酸#NN)  (nsubj, 分解#VV, 组氨酸#NR)  (advmod, 分解#VV, 易#AD)  (conj, 营养#VA, 分解#VV)  (nn, 羧酶#NN, 可在#NN)  (nn, 羧酶#NN, 脱#NN)  (assmod, 作用#NN, 羧酶#NN)  (case, 羧酶#NN, 的#DEG)  (loc, 产生#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (conj, 营养#VA, 产生#VV)  (conj, 类#NN, 组胺#NN)  (cc, 类#NN, 和#CC)  (dobj, 产生#VV, 类#NN)  (conj, 产生#VV, 组#VV)  (nn, 物质#NN, 氨#NN)  (dobj, 组#VV, 物质#NN)  (advmod, 分解#VV, 尤其是#AD)  (case, 死后#NN, 当#P)  (nn, 死后#NN, 螃蟹#NN)  (prep, 分解#VV, 死后#NN)  (nsubj, 分解#VV, 组氨酸#NR)  (dep, 营养#VA, 分解#VV)  (advmod, 迅速#VA, 更#AD)  (relcl, 越多#NN, 迅速#VA)  (case, 时间#NN, 随着#P)  (nn, 时间#NN, 螃蟹#NN)  (nn, 时间#NN, 死的#NN)  (prep, 越长#VV, 时间#NN)  (dep, 迅速#VA, 越长#VV)  (nsubj, 积累#VV, 体内#NN)  (ccomp, 越长#VV, 积累#VV)  (mark, 迅速#VA, 的#DEC)  (nn, 越多#NN, 组氨#NN)  (dobj, 分解#VV, 越多#NN)  (cc, 分解#VV, 而#CC)  (case, 数量#NN, 当#P)  (nn, 积蓄#NN, 组氨#NN)  (conj, 数量#NN, 积蓄#NN)  (cc, 数量#NN, 到#CC)  (amod, 数量#NN, 一定#JJ)  (prep, 造成#VV, 数量#NN)  (case, 数量#NN, 时#LC)  (advmod, 造成#VV, 即#AD)  (mmod, 造成#VV, 会#VV)  (conj, 分解#VV, 造成#VV)  (ccomp, 造成#VV, 中毒#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/301034084257.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\121 梭子蟹.jpg
+    </picturelocalurl>
+
+</content>

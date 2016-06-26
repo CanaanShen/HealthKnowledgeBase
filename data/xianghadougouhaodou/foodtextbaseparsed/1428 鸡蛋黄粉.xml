@@ -1,0 +1,143 @@
+<content>
+
+    <id>
+        1428
+    </id>
+
+    <foodname>
+        鸡蛋黄粉
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            哮喘患者、高胆固醇者忌吃(或少吃)鸡蛋黄;胃功能不全的儿童及皮肤生疮化脓的儿童也不宜多吃。
+        </rawdata>
+
+        <segment>
+            哮喘  患者  、  高  胆固醇  者忌  吃  (  或  少吃  )  鸡蛋黄  ;  胃  功能  不全  的  儿童  及  皮肤  生疮  化脓  的  儿童  也  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            哮喘#NN  患者#NN  、#PU  高#JJ  胆固醇#NN  者忌#AD  吃#VV  -LRB-#NN  或#CC  少吃#NN  -RRB-#NN  鸡蛋黄#NN  ;#NN  胃#NN  功能#NN  不全#NN  的#DEC  儿童#NN  及#CC  皮肤#NN  生疮#NN  化脓#NN  的#DEG  儿童#NN  也#AD  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 哮喘#NN)  (conj, 化脓#NN, 患者#NN)  (amod, 胆固醇#NN, 高#JJ)  (nn, 儿童#NN, 胆固醇#NN)  (advmod, 吃#VV, 者忌#AD)  (relcl, 胆固醇#NN, 吃#VV)  (relcl, 儿童#NN, 吃#VV)  (cc, -RRB-#NN, 或#CC)  (nn, -RRB-#NN, 少吃#NN)  (nn, 胃#NN, 鸡蛋黄#NN)  (nn, 胃#NN, ;#NN)  (nn, 功能#NN, 胃#NN)  (nn, 不全#NN, 功能#NN)  (dobj, 吃#VV, 不全#NN)  (mark, 吃#VV, 的#DEC)  (conj, 化脓#NN, 儿童#NN)  (cc, 化脓#NN, 及#CC)  (nn, 化脓#NN, 皮肤#NN)  (nn, 化脓#NN, 生疮#NN)  (assmod, 儿童#NN, 化脓#NN)  (case, 化脓#NN, 的#DEG)  (nsubj, 吃#VV, 儿童#NN)  (advmod, 吃#VV, 也#AD)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蛋黄粉指鸡蛋经打蛋、过滤、消毒、喷雾干燥或经发酵干燥制成的蛋制品。
+        </rawdata>
+
+        <segment>
+            蛋黄  粉指  鸡蛋  经  打蛋  、  过滤  、  消毒  、  喷雾  干燥  或  经  发酵  干燥  制成  的  蛋制品  。
+        </segment>
+
+        <pos>
+            蛋黄#NN  粉指#NN  鸡蛋#NN  经#P  打蛋#NN  、#PU  过滤#NN  、#PU  消毒#NN  、#PU  喷雾#NN  干燥#VV  或#CC  经#P  发酵#NN  干燥#VV  制成#VV  的#DEC  蛋制品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 鸡蛋#NN, 蛋黄#NN)  (nn, 鸡蛋#NN, 粉指#NN)  (nsubj, 干燥#VV, 鸡蛋#NN)  (case, 喷雾#NN, 经#P)  (conj, 喷雾#NN, 打蛋#NN)  (conj, 喷雾#NN, 过滤#NN)  (conj, 喷雾#NN, 消毒#NN)  (prep, 干燥#VV, 喷雾#NN)  (root, ROOT#null, 干燥#VV)  (cc, 干燥#VV, 或#CC)  (case, 发酵#NN, 经#P)  (prep, 干燥#VV, 发酵#NN)  (dep, 干燥#VV, 干燥#VV)  (relcl, 蛋制品#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (dobj, 干燥#VV, 蛋制品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            蛋黄粉中含有丰富的脂肪，包括中性脂肪、卵磷脂、胆固醇等;也含有丰富的钙、磷、铁等矿物质;同时含有丰富的蛋白质，而且是高生物价的蛋白质;而且含有丰富的维生素，其中以维生素A、维生素D、维生素B最多。
+        </rawdata>
+
+        <segment>
+            蛋黄粉  中  含有  丰富  的  脂肪  ，  包括  中性  脂肪  、  卵磷脂  、  胆固醇  等  ;  也  含有  丰富  的  钙  、  磷  、  铁  等  矿物质  ;  同时  含有  丰富  的  蛋白质  ，  而且  是  高生  物价  的  蛋白质  ;  而且  含有  丰富  的  维生素  ，  其中  以  维生素A  、  维生素D  、  维生素  B  最  多  。
+        </segment>
+
+        <pos>
+            蛋黄粉#NN  中#LC  含有#VV  丰富#VA  的#DEC  脂肪#NN  ，#PU  包括#VV  中性#NN  脂肪#NN  、#PU  卵磷脂#NN  、#PU  胆固醇#NN  等#ETC  ;#NN  也#AD  含有#AD  丰富#VA  的#DEC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ;#NN  同时#AD  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  而且#CC  是#VC  高生#NN  物价#NN  的#DEG  蛋白质#JJ  ;#NN  而且#CC  含有#NN  丰富#VA  的#DEC  维生素#NN  ，#PU  其中#NN  以#P  维生素A#NN  、#PU  维生素D#NN  、#PU  维生素#NN  B#NN  最#AD  多#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 蛋黄粉#NN)  (case, 蛋黄粉#NN, 中#LC)  (relcl, ;#NN, 含有#VV)  (relcl, 脂肪#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 脂肪#NN)  (conj, 含有#VV, 包括#VV)  (nn, 胆固醇#NN, 中性#NN)  (conj, 胆固醇#NN, 脂肪#NN)  (conj, 胆固醇#NN, 卵磷脂#NN)  (nn, ;#NN, 胆固醇#NN)  (etc, 胆固醇#NN, 等#ETC)  (dobj, 包括#VV, ;#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 含有#AD)  (dep, 包括#VV, 丰富#VA)  (mark, 含有#VV, 的#DEC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, ;#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nn, ;#NN, 矿物质#NN)  (nsubj, 含有#VV, ;#NN)  (advmod, 含有#VV, 同时#AD)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (cc, 含有#VV, 而且#CC)  (cop, 维生素#NN, 是#VC)  (nn, 物价#NN, 高生#NN)  (assmod, 含有#NN, 物价#NN)  (case, 物价#NN, 的#DEG)  (amod, 含有#NN, 蛋白质#JJ)  (conj, 含有#NN, ;#NN)  (cc, 含有#NN, 而且#CC)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, 含有#VV, 维生素#NN)  (nsubj, 多#VA, 其中#NN)  (case, B#NN, 以#P)  (conj, 维生素#NN, 维生素A#NN)  (conj, 维生素#NN, 维生素D#NN)  (nn, B#NN, 维生素#NN)  (prep, 多#VA, B#NN)  (advmod, 多#VA, 最#AD)  (conj, 含有#VV, 多#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  延缓衰老  护肝  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蛋黄粉中含有丰富的脂肪，包括中性脂肪、卵磷脂、胆固醇等；也含有丰富的钙、磷、铁等矿物质；同时含有丰富的蛋白质，而且是高生物价的蛋白质；而且含有丰富的维生素，其中以维生素A、维生素D、维生素B最多。
+            蛋黄中的卵磷脂被人体消化后可以释放出胆碱，胆碱通过血液到达大脑，可以避免智力衰退，增强记忆力；医学专家认为卵磷脂是老年性痴呆的克星；蛋黄中的卵磷脂可促进肝细胞再生，还可提高人体血浆蛋白的含量，促进机体的新陈代谢，增强免疫力。
+        </rawdata>
+
+        <segment>
+            蛋黄粉  中  含有  丰富  的  脂肪  ，  包括  中性  脂肪  、  卵磷脂  、  胆固醇  等  ；  也  含有  丰富  的  钙  、  磷  、  铁  等  矿物质  ；  同时  含有  丰富  的  蛋白质  ，  而且  是  高生  物价  的  蛋白质  ；  而且  含有  丰富  的  维生素  ，  其中  以  维生素A  、  维生素D  、  维生素  B  最  多  。
+            蛋黄  中  的  卵磷脂  被  人体  消化  后  可以  释放  出  胆碱  ，  胆碱  通过  血液  到达  大脑  ，  可以  避免  智力  衰退  ，  增强  记忆力  ；  医学  专家  认为  卵磷脂  是  老年性  痴呆  的  克星  ；  蛋黄  中  的  卵磷脂  可  促进  肝细胞  再生  ，  还可  提高  人体  血浆  蛋白  的  含量  ，  促进  机体  的  新陈代谢  ，  增强  免疫力  。
+        </segment>
+
+        <pos>
+            蛋黄粉#NN  中#LC  含有#VV  丰富#VA  的#DEC  脂肪#NN  ，#PU  包括#VV  中性#NN  脂肪#NN  、#PU  卵磷脂#NN  、#PU  胆固醇#NN  等#ETC  ；#PU  也#AD  含有#VV  丰富#VA  的#DEC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ；#PU  同时#AD  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  而且#CC  是#VC  高生#NN  物价#NN  的#DEG  蛋白质#NN  ；#PU  而且#CC  含有#VV  丰富#VA  的#DEC  维生素#NN  ，#PU  其中#NN  以#P  维生素A#NN  、#PU  维生素D#NN  、#PU  维生素#NN  B#NN  最#AD  多#VA  。#PU
+            蛋黄#NN  中#LC  的#DEG  卵磷脂#NN  被#SB  人体#VV  消化#NN  后#LC  可以#VV  释放#VV  出#VV  胆碱#NN  ，#PU  胆碱#NR  通过#P  血液#NN  到达#VV  大脑#NN  ，#PU  可以#VV  避免#VV  智力#NN  衰退#VV  ，#PU  增强#VV  记忆力#NN  ；#PU  医学#NN  专家#NN  认为#VV  卵磷脂#AD  是#VC  老年性#NN  痴呆#NN  的#DEG  克星#NN  ；#PU  蛋黄#NN  中#LC  的#DEG  卵磷脂#NN  可#VV  促进#VV  肝细胞#AD  再生#VV  ，#PU  还可#AD  提高#VV  人体#NN  血浆#NN  蛋白#NN  的#DEG  含量#NN  ，#PU  促进#VV  机体#NN  的#DEG  新陈代谢#NN  ，#PU  增强#VV  免疫力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 蛋黄粉#NN)  (case, 蛋黄粉#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, 脂肪#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 脂肪#NN)  (conj, 含有#VV, 包括#VV)  (nn, 胆固醇#NN, 中性#NN)  (conj, 胆固醇#NN, 脂肪#NN)  (conj, 胆固醇#NN, 卵磷脂#NN)  (dobj, 包括#VV, 胆固醇#NN)  (etc, 胆固醇#NN, 等#ETC)  (advmod, 含有#VV, 也#AD)  (conj, 含有#VV, 含有#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 含有#VV, 同时#AD)  (conj, 含有#VV, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (cc, 含有#VV, 而且#CC)  (cop, 蛋白质#NN, 是#VC)  (nn, 物价#NN, 高生#NN)  (assmod, 蛋白质#NN, 物价#NN)  (case, 物价#NN, 的#DEG)  (conj, 含有#VV, 蛋白质#NN)  (cc, 含有#VV, 而且#CC)  (dep, 含有#VV, 含有#VV)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素#NN)  (nsubj, 多#VA, 其中#NN)  (case, B#NN, 以#P)  (conj, 维生素#NN, 维生素A#NN)  (conj, 维生素#NN, 维生素D#NN)  (nn, B#NN, 维生素#NN)  (prep, 多#VA, B#NN)  (advmod, 多#VA, 最#AD)  (conj, 含有#VV, 多#VA)
+            (assmod, 卵磷脂#NN, 蛋黄#NN)  (case, 蛋黄#NN, 中#LC)  (case, 蛋黄#NN, 的#DEG)  (nsubj, 释放#VV, 卵磷脂#NN)  (auxpass, 人体#VV, 被#SB)  (loc, 释放#VV, 人体#VV)  (dobj, 人体#VV, 消化#NN)  (case, 人体#VV, 后#LC)  (mmod, 释放#VV, 可以#VV)  (root, ROOT#null, 释放#VV)  (rcomp, 释放#VV, 出#VV)  (dobj, 释放#VV, 胆碱#NN)  (nsubj, 到达#VV, 胆碱#NR)  (case, 血液#NN, 通过#P)  (prep, 到达#VV, 血液#NN)  (conj, 释放#VV, 到达#VV)  (dobj, 到达#VV, 大脑#NN)  (mmod, 避免#VV, 可以#VV)  (conj, 到达#VV, 避免#VV)  (dobj, 避免#VV, 智力#NN)  (dep, 避免#VV, 衰退#VV)  (dep, 到达#VV, 增强#VV)  (dobj, 增强#VV, 记忆力#NN)  (nn, 专家#NN, 医学#NN)  (nsubj, 认为#VV, 专家#NN)  (xsubj, 克星#NN, 专家#NN)  (conj, 释放#VV, 认为#VV)  (advmod, 克星#NN, 卵磷脂#AD)  (cop, 克星#NN, 是#VC)  (nn, 痴呆#NN, 老年性#NN)  (assmod, 克星#NN, 痴呆#NN)  (case, 痴呆#NN, 的#DEG)  (ccomp, 认为#VV, 克星#NN)  (assmod, 卵磷脂#NN, 蛋黄#NN)  (case, 蛋黄#NN, 中#LC)  (case, 蛋黄#NN, 的#DEG)  (nsubj, 促进#VV, 卵磷脂#NN)  (xsubj, 再生#VV, 卵磷脂#NN)  (mmod, 促进#VV, 可#VV)  (conj, 释放#VV, 促进#VV)  (advmod, 再生#VV, 肝细胞#AD)  (ccomp, 促进#VV, 再生#VV)  (advmod, 提高#VV, 还可#AD)  (conj, 再生#VV, 提高#VV)  (nn, 蛋白#NN, 人体#NN)  (nn, 蛋白#NN, 血浆#NN)  (assmod, 含量#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 提高#VV, 含量#NN)  (conj, 再生#VV, 促进#VV)  (assmod, 新陈代谢#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 再生#VV, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/90/02/656_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1428 鸡蛋黄粉.jpg
+    </picturelocalurl>
+
+</content>

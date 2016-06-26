@@ -1,0 +1,288 @@
+<content>
+
+    <id>
+        498
+    </id>
+
+    <foodname>
+        全蝎
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        全虫、蝎子
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇人群应忌食或少食
+        </rawdata>
+
+        <segment>
+            孕妇  人群  应  忌食  或  少  食
+        </segment>
+
+        <pos>
+            孕妇#NN  人群#NN  应#VV  忌食#JJ  或#CC  少#JJ  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 人群#NN, 孕妇#NN)  (nsubj, 应#VV, 人群#NN)  (root, ROOT#null, 应#VV)  (amod, 食#NN, 忌食#JJ)  (cc, 忌食#JJ, 或#CC)  (dep, 忌食#JJ, 少#JJ)  (dobj, 应#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阴虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阴虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阴虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阴虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                177cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                48.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                26.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                4.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                7.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.03mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                1.09mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                7.59mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                1.7mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                115.7mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                120mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                30.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                207mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            全蝎，中药名。为钳蝎科动物东亚钳蝎Buthus martensii Karsch的干燥体。春末至秋初捕捉，除去泥沙，置沸水或沸盐水中，煮至全身僵硬，捞出，置通风处，阴干。
+            本品头胸部与前腹部呈扁平长椭圆形，后腹部呈尾状，皱缩弯曲，完整者体长约6cm。头胸部呈绿褐色，前面有1对短小的螫肢和1对较长大的钳状脚须，形似蟹螯，背面覆有梯形背甲，腹面有足4对，均为7节，末端各具2爪钩；前腹部由7节组成，第7节色深，背甲上有5条隆脊线。背面绿褐色，后腹部棕黄色，6节，节上均有纵沟，末节有锐钩状毒刺，毒刺下方无距。气微腥，味咸。
+        </rawdata>
+
+        <segment>
+            全蝎  ，  中  药名  。  为  钳蝎  科  动物  东亚  钳蝎  Buthus  martensii  Karsch  的  干燥  体  。  春末  至  秋初  捕捉  ，  除去  泥沙  ，  置  沸水  或  沸盐  水  中  ，  煮至  全身  僵硬  ，  捞出  ，  置  通风  处  ，  阴干  。
+            本品  头胸部  与  前  腹部  呈  扁平  长  椭圆形  ，  后  腹  部呈  尾状  ，  皱缩  弯曲  ，  完整  者  体长  约6cm  。  头胸部  呈  绿  褐色  ，  前面  有  1  对  短小  的  螫肢  和  1  对  较  长大  的  钳状  脚须  ，  形似  蟹螯  ，  背面  覆有  梯形  背  甲  ，  腹面  有  足  4  对  ，  均  为  7  节  ，  末端  各  具  2  爪钩  ；  前  腹部  由  7  节  组成  ，  第  7  节  色  深  ，  背  甲  上  有  5  条  隆  脊线  。  背面  绿  褐色  ，  后  腹部  棕黄色  ，  6  节  ，  节上  均  有  纵沟  ，  末节  有锐  钩状  毒刺  ，  毒刺  下方  无  距  。  气  微  腥  ，  味咸  。
+        </segment>
+
+        <pos>
+            全蝎#VV  ，#PU  中#NR  药名#VV    。#PU  为#P  钳蝎#VV  科#NN  动物#NN  东亚#NR  钳蝎#NN  Buthus#VV  martensii#NN  Karsch#NN  的#DEG  干燥#NN  体#NN    。#PU  春末#NR  至#CC  秋初#NR  捕捉#VV  ，#PU  除去#P  泥沙#NN  ，#PU  置#VV  沸水#CD  或#CC  沸盐#CD  水#NN  中#LC  ，#PU  煮至#AD  全身#VV  僵硬#NN  ，#PU  捞出#VV  ，#PU  置#VV  通风#NN  处#NN  ，#PU  阴干#VV    。#PU    。#PU
+            本品#NN  头胸部#NN  与#P  前#JJ  腹部#NN  呈#VV  扁平#NR  长#JJ  椭圆形#NN  ，#PU  后#DT  腹#NN  部呈#VV  尾状#NN  ，#PU  皱缩#VV  弯曲#NN  ，#PU  完整#JJ  者#NN  体长#VV  约6cm#CD    。#PU  头胸部#AD  呈#VV  绿#JJ  褐色#NN  ，#PU  前面#NR  有#VE  1#CD  对#P  短小#NR  的#DEG  螫肢#CD  和#CC  1#CD  对#P  较#AD  长大#VV  的#DEC  钳状#NN  脚须#VV  ，#PU  形似#VV  蟹螯#NN  ，#PU  背面#NN  覆有#NN  梯形#NN  背#VV  甲#CD  ，#PU  腹面#NR  有#VE  足#VV  4#CD  对#M  ，#PU  均#AD  为#VC  7#CD  节#NN  ，#PU  末端#NR  各#AD  具#VV  2#CD  爪钩#NN  ；#PU  前#DT  腹部#NN  由#P  7#CD  节#NN  组成#VV  ，#PU  第#NR  7#CD  节#NN  色#NN  深#VA  ，#PU  背#VV  甲#CD  上#LC  有#VE  5#CD  条#M  隆#VV  脊线#NN    。#PU  背面#NN  绿#JJ  褐色#NN  ，#PU  后#DT  腹部#CD  棕黄色#NN  ，#PU  6#CD  节#NN  ，#PU  节上#NN  均#AD  有#VE  纵沟#NN  ，#PU  末节#VV  有锐#NN  钩状#NN  毒刺#NN  ，#PU  毒刺#NN  下方#NN  无#VE  距#VV    。#PU  气#NN  微#AD  腥#VV  ，#PU  味咸#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 全蝎#VV)  (nsubj, 药名#VV, 中#NR)  (ccomp, 全蝎#VV, 药名#VV)   (case, 钳蝎#VV, 为#P)  (prep, Buthus#VV, 钳蝎#VV)  (nn, 动物#NN, 科#NN)  (dobj, 钳蝎#VV, 动物#NN)  (nn, 钳蝎#NN, 东亚#NR)  (nsubj, Buthus#VV, 钳蝎#NN)  (root, ROOT#null, Buthus#VV)  (nn, Karsch#NN, martensii#NN)  (assmod, 体#NN, Karsch#NN)  (case, Karsch#NN, 的#DEG)  (nn, 体#NN, 干燥#NN)  (dobj, Buthus#VV, 体#NN)   (conj, 秋初#NR, 春末#NR)  (cc, 秋初#NR, 至#CC)  (nsubj, 捕捉#VV, 秋初#NR)  (xsubj, 全身#VV, 秋初#NR)  (root, ROOT#null, 捕捉#VV)  (case, 泥沙#NN, 除去#P)  (prep, 全身#VV, 泥沙#NN)  (mmod, 全身#VV, 置#VV)  (nummod, 沸盐#CD, 沸水#CD)  (cc, 沸盐#CD, 或#CC)  (nummod, 水#NN, 沸盐#CD)  (loc, 全身#VV, 水#NN)  (case, 水#NN, 中#LC)  (advmod, 全身#VV, 煮至#AD)  (ccomp, 捕捉#VV, 全身#VV)  (dobj, 全身#VV, 僵硬#NN)  (conj, 全身#VV, 捞出#VV)  (conj, 全身#VV, 置#VV)  (nn, 处#NN, 通风#NN)  (dobj, 置#VV, 处#NN)  (conj, 全身#VV, 阴干#VV)   (root, ROOT#null, null#null)
+            (nn, 头胸部#NN, 本品#NN)  (nsubj, 呈#VV, 头胸部#NN)  (case, 腹部#NN, 与#P)  (amod, 腹部#NN, 前#JJ)  (prep, 呈#VV, 腹部#NN)  (root, ROOT#null, 呈#VV)  (nn, 椭圆形#NN, 扁平#NR)  (amod, 椭圆形#NN, 长#JJ)  (dobj, 呈#VV, 椭圆形#NN)  (det, 腹#NN, 后#DT)  (nsubj, 部呈#VV, 腹#NN)  (conj, 呈#VV, 部呈#VV)  (dobj, 部呈#VV, 尾状#NN)  (conj, 部呈#VV, 皱缩#VV)  (dobj, 皱缩#VV, 弯曲#NN)  (amod, 者#NN, 完整#JJ)  (nsubj, 体长#VV, 者#NN)  (conj, 呈#VV, 体长#VV)  (range, 体长#VV, 约6cm#CD)   (advmod, 呈#VV, 头胸部#AD)  (dep, 有#VE, 呈#VV)  (amod, 褐色#NN, 绿#JJ)  (dobj, 呈#VV, 褐色#NN)  (nsubj, 有#VE, 前面#NR)  (xsubj, 脚须#VV, 前面#NR)  (conj, 呈#VV, 有#VE)  (nsubj, 脚须#VV, 1#CD)  (case, 1#CD, 对#P)  (assmod, 1#CD, 短小#NR)  (case, 短小#NR, 的#DEG)  (nummod, 1#CD, 螫肢#CD)  (cc, 1#CD, 和#CC)  (prep, 脚须#VV, 1#CD)  (case, 钳状#NN, 对#P)  (advmod, 长大#VV, 较#AD)  (relcl, 钳状#NN, 长大#VV)  (mark, 长大#VV, 的#DEC)  (prep, 脚须#VV, 钳状#NN)  (dep, 有#VE, 脚须#VV)  (dep, 有#VE, 形似#VV)  (dobj, 形似#VV, 蟹螯#NN)  (nn, 梯形#NN, 背面#NN)  (nn, 梯形#NN, 覆有#NN)  (nsubj, 背#VV, 梯形#NN)  (conj, 呈#VV, 背#VV)  (range, 背#VV, 甲#CD)  (dep, 有#VE, 腹面#NR)  (conj, 呈#VV, 有#VE)  (dep, 有#VE, 足#VV)  (nummod, 对#M, 4#CD)  (range, 足#VV, 对#M)  (advmod, 节#NN, 均#AD)  (cop, 节#NN, 为#VC)  (nummod, 节#NN, 7#CD)  (dep, 足#VV, 节#NN)  (nsubj, 具#VV, 末端#NR)  (advmod, 具#VV, 各#AD)  (conj, 呈#VV, 具#VV)  (nummod, 爪钩#NN, 2#CD)  (dobj, 具#VV, 爪钩#NN)  (det, 腹部#NN, 前#DT)  (nsubj, 组成#VV, 腹部#NN)  (case, 节#NN, 由#P)  (nummod, 节#NN, 7#CD)  (prep, 组成#VV, 节#NN)  (conj, 呈#VV, 组成#VV)  (nn, 色#NN, 第#NR)  (nummod, 色#NN, 7#CD)  (nn, 色#NN, 节#NN)  (nsubj, 深#VA, 色#NN)  (conj, 呈#VV, 深#VA)  (conj, 呈#VV, 背#VV)  (loc, 背#VV, 甲#CD)  (case, 甲#CD, 上#LC)  (root, ROOT#null, 有#VE)  (nummod, 条#M, 5#CD)  (nsubj, 隆#VV, 条#M)  (dep, 有#VE, 隆#VV)  (dobj, 隆#VV, 脊线#NN)   (nn, 褐色#NN, 背面#NN)  (amod, 褐色#NN, 绿#JJ)  (nsubj, 有#VE, 褐色#NN)  (det, 棕黄色#NN, 后#DT)  (dep, 后#DT, 腹部#CD)  (nsubj, 有#VE, 棕黄色#NN)  (nummod, 节#NN, 6#CD)  (nsubj, 有#VE, 节#NN)  (nsubj, 有#VE, 节上#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 纵沟#NN)  (dep, 有#VE, 末节#VV)  (nn, 毒刺#NN, 有锐#NN)  (nn, 毒刺#NN, 钩状#NN)  (dobj, 末节#VV, 毒刺#NN)  (nn, 下方#NN, 毒刺#NN)  (dep, 无#VE, 下方#NN)  (conj, 有#VE, 无#VE)  (dep, 无#VE, 距#VV)   (nsubj, 腥#VV, 气#NN)  (advmod, 腥#VV, 微#AD)  (root, ROOT#null, 腥#VV)  (dep, 腥#VV, 味咸#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            息风镇痉，通络止痛，攻毒散结。
+        </rawdata>
+
+        <segment>
+            息风  镇痉  ，  通络  止痛  ，  攻毒  散结  。
+        </segment>
+
+        <pos>
+            息风#NR  镇痉#VV  ，#PU  通络#NN  止痛#NN  ，#PU  攻毒#AD  散结#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 镇痉#VV, 息风#NR)  (root, ROOT#null, 镇痉#VV)  (nn, 止痛#NN, 通络#NN)  (nsubj, 散结#VV, 止痛#NN)  (advmod, 散结#VV, 攻毒#AD)  (ccomp, 镇痉#VV, 散结#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        止痛  散结  通络  祛风解痉  抗血栓  升血糖  抗真菌  抗虫  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            飞蟹肉质细嫩、洁白，富含蛋白质、脂肪及多种矿物质。飞蟹在冬季徊游季节个体最为健壮，一般重250克左右，最大可达500克。雌蟹红膏满盖，口味极佳。飞蟹可鲜食，或蒸、或煎、或炒，或一切两半炖豆板酱，或用蟹炒年糕、炒咸菜、煮豆腐，是沿海一带居民餐桌上的常菜。亦可腌食，就是将新鲜飞蟹投入盐卤中浸泡，数日后即可食用，俗称“新风抢蟹’。过去，渔民因飞蟹产量高，常挑选膏满活蟹，将黄剔入碗中，风吹日晒令其凝固，即成“蟹黄饼”，风味特佳，但产量少，一般人难尝此味。
+        </rawdata>
+
+        <segment>
+            飞蟹  肉质  细嫩  、  洁白  ，  富含  蛋白质  、  脂肪  及  多  种  矿物质  。  飞蟹  在  冬季  徊游  季节  个体  最为  健壮  ，  一般  重  250  克  左右  ，  最  大  可  达  500  克  。  雌蟹红膏满盖  ，  口味  极佳  。  飞蟹  可  鲜食  ，  或蒸  、  或  煎  、  或  炒  ，  或  一切  两  半  炖  豆板酱  ，  或用蟹  炒  年糕  、  炒  咸菜  、  煮  豆腐  ，  是  沿海  一带  居民  餐桌  上  的  常菜  。  亦  可  腌食  ，  就是  将  新鲜  飞蟹  投入  盐卤  中  浸泡  ，  数日后  即  可  食用  ，  俗称  “  新风  抢蟹  ’  。  过去  ，  渔民  因  飞蟹  产量  高  ，  常  挑选  膏满活蟹  ，  将  黄剔入  碗  中  ，  风吹日晒  令其  凝固  ，  即  成  “  蟹黄  饼  ”  ，  风味  特佳  ，  但  产量  少  ，  一般  人  难  尝  此  味  。
+        </segment>
+
+        <pos>
+            飞蟹#NN  肉质#VV  细嫩#NN  、#PU  洁白#NN  ，#PU  富含#NN  蛋白质#NN  、#PU  脂肪#NN  及#CC  多#CD  种#M  矿物质#NN    。#PU  飞蟹#NN  在#P  冬季#NN  徊游#NN  季节#NN  个体#NN  最为#AD  健壮#VA  ，#PU  一般#AD  重#VA  250#CD  克#M  左右#LC  ，#PU  最#AD  大#VA  可#VV  达#VV  500#CD  克#M    。#PU  雌蟹红膏满盖#VV  ，#PU  口味#NN  极佳#VV    。#PU  飞蟹#NR  可#VV  鲜食#VV  ，#PU  或蒸#VV  、#PU  或#CC  煎#NR  、#PU  或#CC  炒#NR  ，#PU  或#CC  一切#DT  两#CD  半#CD  炖#NN  豆板酱#VV  ，#PU  或用蟹#VV  炒#NN  年糕#NN  、#PU  炒#VV  咸菜#NN  、#PU  煮#VV  豆腐#NN  ，#PU  是#VC  沿海#NN  一带#CD  居民#NN  餐桌#NN  上#LC  的#DEG  常菜#NN    。#PU  亦#AD  可#VV  腌食#VV  ，#PU  就是#CC  将#BA  新鲜#JJ  飞蟹#NN  投入#VV  盐卤#NN  中#LC  浸泡#NN  ，#PU  数日后#AD  即#AD  可#VV  食用#VV  ，#PU  俗称#AD  ``#VV  新风#NN  抢蟹#NN  '#NN    。#PU  过去#NT  ，#PU  渔民#NN  因#P  飞蟹#NN  产量#NN  高#VA  ，#PU  常#AD  挑选#VV  膏满活蟹#NN  ，#PU  将#AD  黄剔入#VV  碗#NN  中#LC  ，#PU  风吹日晒#VV  令其#NN  凝固#NN  ，#PU  即#AD  成#VV  ``#NN  蟹黄#NN  饼#NN  ''#NN  ，#PU  风味#VV  特佳#NN  ，#PU  但#AD  产量#NN  少#VA  ，#PU  一般#JJ  人#NN  难#AD  尝#VV  此#DT  味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 肉质#VV, 飞蟹#NN)  (root, ROOT#null, 肉质#VV)  (conj, 矿物质#NN, 细嫩#NN)  (dep, 矿物质#NN, 洁白#NN)  (nn, 蛋白质#NN, 富含#NN)  (conj, 矿物质#NN, 蛋白质#NN)  (conj, 矿物质#NN, 脂肪#NN)  (cc, 矿物质#NN, 及#CC)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (dobj, 肉质#VV, 矿物质#NN)   (nsubj, 健壮#VA, 飞蟹#NN)  (case, 个体#NN, 在#P)  (nn, 个体#NN, 冬季#NN)  (nn, 个体#NN, 徊游#NN)  (nn, 个体#NN, 季节#NN)  (prep, 健壮#VA, 个体#NN)  (advmod, 健壮#VA, 最为#AD)  (root, ROOT#null, 健壮#VA)  (advmod, 重#VA, 一般#AD)  (dep, 健壮#VA, 重#VA)  (nummod, 克#M, 250#CD)  (loc, 大#VA, 克#M)  (case, 克#M, 左右#LC)  (advmod, 大#VA, 最#AD)  (conj, 健壮#VA, 大#VA)  (conj, 达#VV, 可#VV)  (conj, 健壮#VA, 达#VV)  (nummod, 克#M, 500#CD)  (range, 达#VV, 克#M)   (root, ROOT#null, 雌蟹红膏满盖#VV)  (nsubj, 极佳#VV, 口味#NN)  (ccomp, 雌蟹红膏满盖#VV, 极佳#VV)   (nsubj, 可#VV, 飞蟹#NR)  (root, ROOT#null, 可#VV)  (nfincl, 餐桌#NN, 鲜食#VV)  (conj, 鲜食#VV, 或蒸#VV)  (prep, 豆板酱#VV, 或#CC)  (dep, 或#CC, 煎#NR)  (cc, 煎#NR, 或#CC)  (dep, 煎#NR, 炒#NR)  (cc, 或#CC, 或#CC)  (det, 炖#NN, 一切#DT)  (dep, 一切#DT, 两#CD)  (nummod, 炖#NN, 半#CD)  (dep, 或#CC, 炖#NN)  (conj, 鲜食#VV, 豆板酱#VV)  (conj, 鲜食#VV, 或用蟹#VV)  (nn, 年糕#NN, 炒#NN)  (dobj, 或用蟹#VV, 年糕#NN)  (conj, 鲜食#VV, 炒#VV)  (dobj, 炒#VV, 咸菜#NN)  (conj, 鲜食#VV, 煮#VV)  (dobj, 煮#VV, 豆腐#NN)  (cop, 沿海#NN, 是#VC)  (conj, 鲜食#VV, 沿海#NN)  (nummod, 餐桌#NN, 一带#CD)  (nn, 餐桌#NN, 居民#NN)  (assmod, 常菜#NN, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (case, 餐桌#NN, 的#DEG)  (dobj, 可#VV, 常菜#NN)   (advmod, 腌食#VV, 亦#AD)  (dep, 腌食#VV, 可#VV)  (root, ROOT#null, 腌食#VV)  (cc, 腌食#VV, 就是#CC)  (ba, 投入#VV, 将#BA)  (amod, 飞蟹#NN, 新鲜#JJ)  (nsubj, 投入#VV, 飞蟹#NN)  (dep, 腌食#VV, 投入#VV)  (dep, 浸泡#NN, 盐卤#NN)  (case, 盐卤#NN, 中#LC)  (dobj, 投入#VV, 浸泡#NN)  (advmod, 食用#VV, 数日后#AD)  (advmod, 食用#VV, 即#AD)  (dep, 食用#VV, 可#VV)  (dep, 腌食#VV, 食用#VV)  (advmod, ``#VV, 俗称#AD)  (dep, 腌食#VV, ``#VV)  (nn, '#NN, 新风#NN)  (nn, '#NN, 抢蟹#NN)   (tmod, 挑选#VV, 过去#NT)  (nsubj, 挑选#VV, 渔民#NN)  (case, 高#VA, 因#P)  (nn, 产量#NN, 飞蟹#NN)  (nsubj, 高#VA, 产量#NN)  (prep, 挑选#VV, 高#VA)  (advmod, 挑选#VV, 常#AD)  (root, ROOT#null, 挑选#VV)  (dobj, 挑选#VV, 膏满活蟹#NN)  (advmod, 黄剔入#VV, 将#AD)  (conj, 挑选#VV, 黄剔入#VV)  (loc, 黄剔入#VV, 碗#NN)  (case, 碗#NN, 中#LC)  (conj, 挑选#VV, 风吹日晒#VV)  (nn, 凝固#NN, 令其#NN)  (dobj, 风吹日晒#VV, 凝固#NN)  (advmod, 成#VV, 即#AD)  (conj, 挑选#VV, 成#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蟹黄#NN)  (nn, ''#NN, 饼#NN)  (dobj, 成#VV, ''#NN)  (conj, 挑选#VV, 风味#VV)  (dobj, 风味#VV, 特佳#NN)  (advmod, 少#VA, 但#AD)  (nsubj, 少#VA, 产量#NN)  (conj, 挑选#VV, 少#VA)  (amod, 人#NN, 一般#JJ)  (nsubj, 尝#VV, 人#NN)  (advmod, 尝#VV, 难#AD)  (conj, 挑选#VV, 尝#VV)  (det, 味#NN, 此#DT)  (dobj, 尝#VV, 味#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/151856396188.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\498 全蝎.jpg
+    </picturelocalurl>
+
+</content>

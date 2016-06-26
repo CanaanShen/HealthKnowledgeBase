@@ -1,0 +1,137 @@
+<content>
+
+    <id>
+        960
+    </id>
+
+    <foodname>
+        鸡蛋粉
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        全蛋粉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡蛋粉是指鲜蛋经过打蛋、分离、过滤、均质、巴氏杀菌、喷雾干燥而制成的干蛋产品。鸡蛋粉营养丰富,热值高,且是全价蛋白质。其营养成份与人体需要相宜,所以誉为人类最理想的滋补品。
+        </rawdata>
+
+        <segment>
+            鸡  蛋粉  是  指  鲜蛋  经过  打蛋  、  分离  、  过滤  、  均质  、  巴  氏  杀菌  、  喷雾  干燥  而  制成  的  干蛋  产品  。  鸡蛋  粉  营养  丰富  ,  热值  高  ,  且  是  全价  蛋白质  。  其  营养  成份  与  人体  需要  相宜  ,  所以  誉为  人类  最  理想  的  滋补品  。
+        </segment>
+
+        <pos>
+            鸡#NN  蛋粉#NN  是#VC  指#VV  鲜蛋#NN  经过#P  打蛋#NN  、#PU  分离#VV  、#PU  过滤#NR  、#PU  均质#NR  、#PU  巴#NR  氏#NR  杀菌#NR  、#PU  喷雾#NR  干燥#NN  而#MSP  制成#VV  的#DEC  干蛋#NN  产品#NN    。#PU  鸡蛋#NN  粉#NN  营养#VA  丰富#VA  ,#AD  热值#VV  高#JJ  ,#NN  且#CC  是#VC  全价#NN  蛋白质#NN    。#PU  其#PN  营养#VA  成份#NN  与#CC  人体#NN  需要#NN  相宜#NN  ,#NN  所以#AD  誉为#VV  人类#NN  最#AD  理想#VA  的#DEC  滋补品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋粉#NN, 鸡#NN)  (nsubj, 指#VV, 蛋粉#NN)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (nsubj, 分离#VV, 鲜蛋#NN)  (case, 打蛋#NN, 经过#P)  (prep, 分离#VV, 打蛋#NN)  (relcl, 产品#NN, 分离#VV)  (conj, 喷雾#NR, 过滤#NR)  (conj, 喷雾#NR, 均质#NR)  (nn, 喷雾#NR, 巴#NR)  (nn, 喷雾#NR, 氏#NR)  (conj, 喷雾#NR, 杀菌#NR)  (nn, 干燥#NN, 喷雾#NR)  (nsubj, 制成#VV, 干燥#NN)  (prtmod, 制成#VV, 而#MSP)  (conj, 分离#VV, 制成#VV)  (mark, 分离#VV, 的#DEC)  (nn, 产品#NN, 干蛋#NN)  (dobj, 指#VV, 产品#NN)   (nn, 粉#NN, 鸡蛋#NN)  (nsubj, 营养#VA, 粉#NN)  (xsubj, 热值#VV, 粉#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (ccomp, 营养#VA, 热值#VV)  (amod, ,#NN, 高#JJ)  (cc, 热值#VV, 且#CC)  (cop, 蛋白质#NN, 是#VC)  (nn, 蛋白质#NN, 全价#NN)  (conj, 热值#VV, 蛋白质#NN)   (nsubj, 营养#VA, 其#PN)  (nfincl, 成份#NN, 营养#VA)  (conj, 需要#NN, 成份#NN)  (cc, 需要#NN, 与#CC)  (nn, 需要#NN, 人体#NN)  (nn, ,#NN, 需要#NN)  (nn, ,#NN, 相宜#NN)  (advmod, 誉为#VV, 所以#AD)  (root, ROOT#null, 誉为#VV)  (nsubj, 理想#VA, 人类#NN)  (advmod, 理想#VA, 最#AD)  (relcl, 滋补品#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (dobj, 誉为#VV, 滋补品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.鸡蛋粉富含DHA和卵磷脂，对神经系统和身体发育有利，能健脑益智，改善记忆力，并促进肝细胞再生；
+            2.鸡蛋粉中含有较多的维生素B2和其他微量元素，可以分解和氧化人体内的致癌物质，具有防癌作用；
+            3.鸡蛋粉中蛋白质对肝脏组织损伤有修复作用。
+        </rawdata>
+
+        <segment>
+            鸡  蛋粉  富含  DHA  和  卵磷脂  ，  对  神经  系统  和  身体  发育  有利  ，  能  健脑  益智  ，  改善  记忆力  ，  并  促进  肝细胞  再生  ；
+            鸡  蛋粉  中  含有  较多  的  维生素B2  和  其他  微量  元素  ，  可以  分解  和  氧化  人体  内  的  致癌  物质  ，  具有  防癌  作用  ；
+            鸡蛋粉  中  蛋白质  对  肝脏  组织  损伤  有  修复  作用  。
+        </segment>
+
+        <pos>
+            鸡#NN  蛋粉#NN  富含#NN  DHA#NN  和#CC  卵磷脂#NN  ，#PU  对#P  神经#NN  系统#NN  和#CC  身体#NN  发育#VV  有利#VA  ，#PU  能#VV  健脑#VV  益智#NN  ，#PU  改善#VV  记忆力#NN  ，#PU  并#CC  促进#VV  肝细胞#AD  再生#VV  ；#PU
+            鸡#NN  蛋粉#NN  中#LC  含有#AD  较多#VA  的#DEC  维生素B2#CD  和#P  其他#DT  微量#NN  元素#NN  ，#PU  可以#VV  分解#VV  和#CC  氧化#VV  人体#NN  内#LC  的#DEG  致癌#NN  物质#NN  ，#PU  具有#VV  防癌#NN  作用#NN  ；#PU
+            鸡蛋粉#NN  中#LC  蛋白质#NN  对#P  肝脏#NN  组织#NN  损伤#AD  有#VE  修复#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 鸡#NN)  (nn, 富含#NN, 蛋粉#NN)  (nn, 卵磷脂#NN, 富含#NN)  (conj, 卵磷脂#NN, DHA#NN)  (cc, 卵磷脂#NN, 和#CC)  (nsubj, 发育#VV, 卵磷脂#NN)  (xsubj, 再生#VV, 卵磷脂#NN)  (case, 身体#NN, 对#P)  (nn, 身体#NN, 神经#NN)  (conj, 身体#NN, 系统#NN)  (cc, 身体#NN, 和#CC)  (prep, 发育#VV, 身体#NN)  (root, ROOT#null, 发育#VV)  (dep, 发育#VV, 有利#VA)  (mmod, 健脑#VV, 能#VV)  (conj, 发育#VV, 健脑#VV)  (dobj, 健脑#VV, 益智#NN)  (dep, 发育#VV, 改善#VV)  (dobj, 改善#VV, 记忆力#NN)  (cc, 发育#VV, 并#CC)  (conj, 发育#VV, 促进#VV)  (advmod, 再生#VV, 肝细胞#AD)  (ccomp, 促进#VV, 再生#VV)
+            (nn, 蛋粉#NN, 鸡#NN)  (loc, 较多#VA, 蛋粉#NN)  (case, 蛋粉#NN, 中#LC)  (advmod, 较多#VA, 含有#AD)  (relcl, 元素#NN, 较多#VA)  (mark, 较多#VA, 的#DEC)  (nummod, 元素#NN, 维生素B2#CD)  (case, 微量#NN, 和#P)  (det, 微量#NN, 其他#DT)  (prep, 元素#NN, 微量#NN)  (nsubj, 分解#VV, 元素#NN)  (mmod, 分解#VV, 可以#VV)  (root, ROOT#null, 分解#VV)  (cc, 分解#VV, 和#CC)  (dep, 分解#VV, 氧化#VV)  (assmod, 物质#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (nn, 物质#NN, 致癌#NN)  (dobj, 氧化#VV, 物质#NN)  (dep, 分解#VV, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 具有#VV, 作用#NN)
+            (loc, 有#VE, 鸡蛋粉#NN)  (case, 鸡蛋粉#NN, 中#LC)  (nsubj, 有#VE, 蛋白质#NN)  (case, 组织#NN, 对#P)  (nn, 组织#NN, 肝脏#NN)  (prep, 有#VE, 组织#NN)  (advmod, 有#VE, 损伤#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 修复#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  延缓衰老  护肝  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 鸡蛋粉富含DHA和卵磷脂，对神经系统和身体发育有利，能健脑益智，改善记忆力，并促进肝细胞再生；
+            2. 鸡蛋粉中含有较多的维生素B2和其他微量元素，可以分解和氧化人体内的致癌物质，具有防癌作用；
+            3. 鸡蛋粉中蛋白质对肝脏组织损伤有修复作用。
+        </rawdata>
+
+        <segment>
+            鸡  蛋粉  富含  DHA  和  卵磷脂  ，  对  神经  系统  和  身体  发育  有利  ，  能  健脑  益智  ，  改善  记忆力  ，  并  促进  肝细胞  再生  ；
+            鸡  蛋粉  中  含有  较多  的  维生素B2  和  其他  微量  元素  ，  可以  分解  和  氧化  人体  内  的  致癌  物质  ，  具有  防癌  作用  ；
+            鸡蛋粉  中  蛋白质  对  肝脏  组织  损伤  有  修复  作用  。
+        </segment>
+
+        <pos>
+            鸡#NN  蛋粉#NN  富含#NN  DHA#NN  和#CC  卵磷脂#NN  ，#PU  对#P  神经#NN  系统#NN  和#CC  身体#NN  发育#VV  有利#VA  ，#PU  能#VV  健脑#VV  益智#NN  ，#PU  改善#VV  记忆力#NN  ，#PU  并#CC  促进#VV  肝细胞#AD  再生#VV  ；#PU
+            鸡#NN  蛋粉#NN  中#LC  含有#AD  较多#VA  的#DEC  维生素B2#CD  和#P  其他#DT  微量#NN  元素#NN  ，#PU  可以#VV  分解#VV  和#CC  氧化#VV  人体#NN  内#LC  的#DEG  致癌#NN  物质#NN  ，#PU  具有#VV  防癌#NN  作用#NN  ；#PU
+            鸡蛋粉#NN  中#LC  蛋白质#NN  对#P  肝脏#NN  组织#NN  损伤#AD  有#VE  修复#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 鸡#NN)  (nn, 富含#NN, 蛋粉#NN)  (nn, 卵磷脂#NN, 富含#NN)  (conj, 卵磷脂#NN, DHA#NN)  (cc, 卵磷脂#NN, 和#CC)  (nsubj, 发育#VV, 卵磷脂#NN)  (xsubj, 再生#VV, 卵磷脂#NN)  (case, 身体#NN, 对#P)  (nn, 身体#NN, 神经#NN)  (conj, 身体#NN, 系统#NN)  (cc, 身体#NN, 和#CC)  (prep, 发育#VV, 身体#NN)  (root, ROOT#null, 发育#VV)  (dep, 发育#VV, 有利#VA)  (mmod, 健脑#VV, 能#VV)  (conj, 发育#VV, 健脑#VV)  (dobj, 健脑#VV, 益智#NN)  (dep, 发育#VV, 改善#VV)  (dobj, 改善#VV, 记忆力#NN)  (cc, 发育#VV, 并#CC)  (conj, 发育#VV, 促进#VV)  (advmod, 再生#VV, 肝细胞#AD)  (ccomp, 促进#VV, 再生#VV)
+            (nn, 蛋粉#NN, 鸡#NN)  (loc, 较多#VA, 蛋粉#NN)  (case, 蛋粉#NN, 中#LC)  (advmod, 较多#VA, 含有#AD)  (relcl, 元素#NN, 较多#VA)  (mark, 较多#VA, 的#DEC)  (nummod, 元素#NN, 维生素B2#CD)  (case, 微量#NN, 和#P)  (det, 微量#NN, 其他#DT)  (prep, 元素#NN, 微量#NN)  (nsubj, 分解#VV, 元素#NN)  (mmod, 分解#VV, 可以#VV)  (root, ROOT#null, 分解#VV)  (cc, 分解#VV, 和#CC)  (dep, 分解#VV, 氧化#VV)  (assmod, 物质#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (nn, 物质#NN, 致癌#NN)  (dobj, 氧化#VV, 物质#NN)  (dep, 分解#VV, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 具有#VV, 作用#NN)
+            (loc, 有#VE, 鸡蛋粉#NN)  (case, 鸡蛋粉#NN, 中#LC)  (nsubj, 有#VE, 蛋白质#NN)  (case, 组织#NN, 对#P)  (nn, 组织#NN, 肝脏#NN)  (prep, 有#VE, 组织#NN)  (advmod, 有#VE, 损伤#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 修复#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/ec/41/82412_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\960 鸡蛋粉.jpg
+    </picturelocalurl>
+
+</content>

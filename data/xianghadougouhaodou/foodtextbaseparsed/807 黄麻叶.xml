@@ -1,0 +1,147 @@
+<content>
+
+    <id>
+        807
+    </id>
+
+    <foodname>
+        黄麻叶
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        苦麻木
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            孕妇人群应忌食或少食;
+        </rawdata>
+
+        <segment>
+            孕妇  人群  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            孕妇#NN  人群#NN  应#P  忌食#NN  或少#VV  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 人群#NN, 孕妇#NN)  (nsubj, 或少#VV, 人群#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (nn, ;#NN, 食#NN)  (dobj, 或少#VV, ;#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为椴树科植物黄麻的叶。
+            一年生草本，高1～2米，全株无毛。叶卵圆状披针形或披针形，长5～12厘米，宽2～5厘米，基部圆形，先端渐尖，边缘具整齐粗锯齿，最下部2齿伸长为尾状裂片；叶柄长1～3.5厘米；托叶线形，长约5～8毫米。
+            原产东南亚；我国南方各省普遍栽培。
+        </rawdata>
+
+        <segment>
+            为  椴树  科  植物  黄麻  的  叶  。
+            一  年  生  草本  ，  高  2  米  ，  全  株  无毛  。  叶  卵  圆状  披  针形  或  披  针形  ，  长  5～12  厘米  ，  宽  2  ～  5  厘米  ，  基部  圆形  ，  先端  渐  尖  ，  边缘  具  整齐  粗  锯齿  ，  最下部  2  齿  伸长  为  尾状  裂片  ；  叶柄长  1～3.5  厘米  ；  托叶  线形  ，  长  约  5  ～  8  毫米  。
+            原产  东南亚  ；  我国  南方  各  省  普遍  栽培  。
+        </segment>
+
+        <pos>
+            为#VC  椴树#NN  科#NN  植物#NN  黄麻#NN  的#DEG  叶#NN  。#PU
+            一#CD  年#M  生#VV  草本#NN  ，#PU  高#JJ  2#CD  米#M  ，#PU  全#DT  株#M  无毛#NN    。#PU  叶#NR  卵#NN  圆状#NN  披#NN  针形#VV  或#CC  披#AD  针形#VV  ，#PU  长#VV  5#CD  ～#NN  12#CD  厘米#M  ，#PU  宽#JJ  2#CD  ～#NN  5#CD  厘米#M  ，#PU  基部#VV  圆形#NN  ，#PU  先端#VV  渐#AD  尖#VV  ，#PU  边缘#NN  具#VV  整齐#VA  粗#NN  锯齿#NN  ，#PU  最下部#NR  2#CD  齿#NN  伸长#NN  为#VC  尾状#NN  裂片#NN  ；#PU  叶柄长#VV  1#CD  ～#NN  3.5#CD  厘米#M  ；#PU  托叶#VV  线形#NN  ，#PU  长#AD  约#AD  5#CD  ～#VV  8#CD  毫米#NN    。#PU    。#PU
+            原产#VV  东南亚#NR  ；#PU  我国#NR  南方#NN  各#DT  省#NN  普遍#AD  栽培#VV  。#PU
+        </pos>
+
+        <parsing>
+            (cop, 叶#NN, 为#VC)  (nn, 黄麻#NN, 椴树#NN)  (nn, 黄麻#NN, 科#NN)  (nn, 黄麻#NN, 植物#NN)  (assmod, 叶#NN, 黄麻#NN)  (case, 黄麻#NN, 的#DEG)  (root, ROOT#null, 叶#NN)
+            (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 草本#NN)  (amod, 米#M, 高#JJ)  (nummod, 米#M, 2#CD)  (conj, 生#VV, 米#M)  (det, 无毛#NN, 全#DT)  (clf, 全#DT, 株#M)  (conj, 生#VV, 无毛#NN)   (nn, 披#NN, 叶#NR)  (nn, 披#NN, 卵#NN)  (nn, 披#NN, 圆状#NN)  (nsubj, 针形#VV, 披#NN)  (mmod, 针形#VV, 针形#VV)  (cc, 针形#VV, 或#CC)  (advmod, 针形#VV, 披#AD)  (root, ROOT#null, 针形#VV)  (conj, 针形#VV, 长#VV)  (nummod, ～#NN, 5#CD)  (nummod, 厘米#M, 12#CD)  (range, 长#VV, 厘米#M)  (amod, ～#NN, 宽#JJ)  (nummod, ～#NN, 2#CD)  (nummod, 厘米#M, 5#CD)  (range, ～#NN, 厘米#M)  (conj, 针形#VV, 基部#VV)  (dobj, 基部#VV, 圆形#NN)  (mmod, 尖#VV, 先端#VV)  (advmod, 尖#VV, 渐#AD)  (conj, 针形#VV, 尖#VV)  (nsubj, 具#VV, 边缘#NN)  (ccomp, 尖#VV, 具#VV)  (rcomp, 具#VV, 整齐#VA)  (nn, 锯齿#NN, 粗#NN)  (dobj, 具#VV, 锯齿#NN)  (nn, 伸长#NN, 最下部#NR)  (nummod, 伸长#NN, 2#CD)  (nn, 伸长#NN, 齿#NN)  (nsubj, 裂片#NN, 伸长#NN)  (cop, 裂片#NN, 为#VC)  (nn, 裂片#NN, 尾状#NN)  (conj, 具#VV, 裂片#NN)  (conj, 针形#VV, 叶柄长#VV)  (nummod, ～#NN, 1#CD)  (nummod, 厘米#M, 3.5#CD)  (range, 叶柄长#VV, 厘米#M)  (conj, 针形#VV, 托叶#VV)  (dobj, 托叶#VV, 线形#NN)  (advmod, ～#VV, 长#AD)  (advmod, 5#CD, 约#AD)  (dep, ～#VV, 5#CD)  (nummod, 毫米#NN, 8#CD)  (dobj, ～#VV, 毫米#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 原产#VV)  (dobj, 原产#VV, 东南亚#NR)  (nn, 南方#NN, 我国#NR)  (nsubj, 栽培#VV, 南方#NN)  (det, 省#NN, 各#DT)  (nsubj, 栽培#VV, 省#NN)  (advmod, 栽培#VV, 普遍#AD)  (dep, 原产#VV, 栽培#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,通乳生乳,通便,止血凉血,润肠
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  通乳  生乳  ,  通便  ,  止血  凉  血  ,  润肠
+        </segment>
+
+        <pos>
+            清热#NN  除#P  火#NN  ,#NN  通乳#NN  生乳#NN  ,#NN  通便#NN  ,#NN  止血#AD  凉#VV  血#NN  ,#NN  润肠#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 凉#VV, 清热#NN)  (case, ,#NN, 除#P)  (nn, ,#NN, 火#NN)  (nn, ,#NN, 通乳#NN)  (nn, ,#NN, 生乳#NN)  (nn, ,#NN, 通便#NN)  (advmod, 凉#VV, 止血#AD)  (root, ROOT#null, 凉#VV)  (nn, 润肠#NN, 血#NN)  (dobj, 凉#VV, 润肠#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  排脓  止血  理气
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            夏、秋季采收，鲜用或晒干
+        </rawdata>
+
+        <segment>
+            夏  、  秋季  采收  ，  鲜  用  或  晒干
+        </segment>
+
+        <pos>
+            夏#CD  、#PU  秋季#NT  采收#NN  ，#PU  鲜#AD  用#VV  或#CC  晒干#VV
+        </pos>
+
+        <parsing>
+            (dep, 用#VV, 夏#CD)  (nn, 采收#NN, 秋季#NT)  (nsubj, 用#VV, 采收#NN)  (advmod, 用#VV, 鲜#AD)  (root, ROOT#null, 用#VV)  (cc, 用#VV, 或#CC)  (conj, 用#VV, 晒干#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/4f/41/82255_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\807 黄麻叶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,302 @@
+<content>
+
+    <id>
+        1149
+    </id>
+
+    <foodname>
+        榆钱
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        榆荚仁、榆实、榆于、榆仁
+    </alias>
+
+    <season>
+        春
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                36cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                85.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                4.8g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                0.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                4.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                3.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                122mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.04mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.12mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                11mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.54mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                0.7mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                62mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                7.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            榆钱果实中含有烟酸、抗坏血酸等酸性物质。同时，还含有大量的无机盐。
+        </rawdata>
+
+        <segment>
+            榆钱  果实  中  含有  烟酸  、  抗坏血酸  等  酸性  物质  。  同时  ，  还  含有  大量  的  无机盐  。
+        </segment>
+
+        <pos>
+            榆钱#NN  果实#NN  中#LC  含有#VV  烟酸#NR  、#PU  抗坏血酸#NR  等#ETC  酸性#NN  物质#NN    。#PU  同时#AD  ，#PU  还#AD  含有#VV  大量#CD  的#DEG  无机盐#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 榆钱#NN)  (loc, 含有#VV, 果实#NN)  (case, 果实#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 抗坏血酸#NR, 烟酸#NR)  (nn, 物质#NN, 抗坏血酸#NR)  (etc, 抗坏血酸#NR, 等#ETC)  (nn, 物质#NN, 酸性#NN)  (dobj, 含有#VV, 物质#NN)   (advmod, 含有#VV, 同时#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 无机盐#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 无机盐#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,化痰止咳,消食,利尿消肿,安神除烦
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  化痰  止咳  ,  消食  ,  利尿  消肿  ,  安神  除烦
+        </segment>
+
+        <pos>
+            清热#NN  除#P  火#NN  ,#NN  化痰#NN  止咳#NN  ,#NN  消食#NN  ,#NN  利尿#AD  消肿#VV  ,#NN  安神#NN  除烦#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 消肿#VV, 清热#NN)  (case, ,#NN, 除#P)  (nn, ,#NN, 火#NN)  (nn, ,#NN, 化痰#NN)  (nn, ,#NN, 止咳#NN)  (nn, ,#NN, 消食#NN)  (advmod, 消肿#VV, 利尿#AD)  (root, ROOT#null, 消肿#VV)  (nn, 除烦#NN, 安神#NN)  (dobj, 消肿#VV, 除烦#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        健脾  安神  清热利湿  杀虫  消肿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            榆钱果实中含有烟酸、抗坏血酸等酸性物质。同时，还含有大量的无机盐，可健牌和胃, 治食欲不振。
+            1、清热安神：榆钱果实中含有大量水分、烟酸、抗坏血酸及无机盐等，其中钙、磷含量较为丰富，有清热安神之效，可治疗神经衰弱、失眠。
+            2、利尿消肿：榆钱果实中的烟酸、种子油有清热解毒，杀虫消肿的作用，可杀多种人体寄生虫，同时，榆钱还可通过利小便而消肿。
+            3、止咳化痰：榆钱味辛入肺经，能清肺热，降肺气，榆钱种子油有润肺止咳化痰之功，故可用于治疗咳嗽痰稠之病症。
+            4、和胃健脾：暖胃，治疗胃寒症。适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。
+            5、消食：有助于胃酸的分泌和食物的消化，宜于治疗饮食积滞证。
+        </rawdata>
+
+        <segment>
+            榆钱  果实  中  含有  烟酸  、  抗坏血酸  等  酸性  物质  。  同时  ，  还  含有  大量  的  无机盐  ，  可  健牌  和  胃  ,    治  食欲  不振  。
+            清热  安神  ：  榆钱  果实  中  含有  大量  水分  、  烟酸  、  抗坏血酸  及  无机盐  等  ，  其中  钙  、  磷  含量  较为  丰富  ，  有  清热  安神  之  效  ，  可  治疗  神经  衰弱  、  失眠  。
+            利尿  消肿  ：  榆钱  果实  中  的  烟酸  、  种子  油  有  清热  解毒  ，  杀虫  消肿  的  作用  ，  可  杀  多  种  人体  寄生虫  ，  同时  ，  榆钱  还  可  通过  利小便  而  消肿  。
+            止咳  化痰  ：  榆钱  味辛  入  肺经  ，  能  清  肺  热  ，  降肺  气  ，  榆钱  种子  油有  润肺  止咳  化痰  之功  ，  故  可  用于  治疗  咳嗽  痰稠  之  病症  。
+            和  胃  健脾  ：  暖胃  ，  治疗  胃  寒症  。  适用  于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏  力等症  。
+            消食  ：  有助于  胃酸  的  分泌  和  食物  的  消化  ，  宜于  治疗  饮食  积  滞证  。
+        </segment>
+
+        <pos>
+            榆钱#NN  果实#NN  中#LC  含有#VV  烟酸#NR  、#PU  抗坏血酸#NR  等#ETC  酸性#NN  物质#NN    。#PU  同时#AD  ，#PU  还#AD  含有#VV  大量#CD  的#DEG  无机盐#NN  ，#PU  可#VV  健牌#NN  和#CC  胃#NN  ,#NN  治#VV  食欲#NN  不振#VV    。#PU    。#PU
+            清热#NR  安神#VV  ：#PU  榆钱#NN  果实#NN  中#LC  含有#VV  大量#CD  水分#NR  、#PU  烟酸#NR  、#PU  抗坏血酸#NR  及#CC  无机盐#NR  等#ETC  ，#PU  其中#NN  钙#VA  、#PU  磷#NN  含量#NN  较为#AD  丰富#VA  ，#PU  有#VE  清热#NN  安神#NN  之#DEC  效#NN  ，#PU  可#VV  治疗#VV  神经#NN  衰弱#NN  、#PU  失眠#NN  。#PU
+            利尿#NR  消肿#VV  ：#PU  榆钱#NN  果实#NN  中#LC  的#DEG  烟酸#NN  、#PU  种子#NN  油#NN  有#VE  清热#NN  解毒#NN  ，#PU  杀虫#VV  消肿#NN  的#DEG  作用#NN  ，#PU  可#VV  杀#VV  多#CD  种#M  人体#NN  寄生虫#NN  ，#PU  同时#AD  ，#PU  榆钱#NN  还#AD  可#VV  通过#P  利小便#NN  而#MSP  消肿#VV  。#PU
+            止咳#NR  化痰#VV  ：#PU  榆钱#NN  味辛#AD  入#VV  肺经#NN  ，#PU  能#VV  清#JJ  肺#NN  热#NN  ，#PU  降肺#VV  气#NN  ，#PU  榆钱#VV  种子#NN  油有#NN  润肺#NN  止咳#NN  化痰#NN  之功#NN  ，#PU  故#AD  可#VV  用于#VV  治疗#NN  咳嗽#NN  痰稠#NN  之#DEG  病症#NN  。#PU
+            和#CC  胃#VV  健脾#NN  ：#PU  暖胃#VV  ，#PU  治疗#VV  胃#NN  寒症#NN    。#PU  适用#NN  于#P  脾气#NN  虚弱#VV  ，#PU  运化#VV  无力#NN  所致#NN  的#DEG  脘腹#NN  胀满#NN  ，#PU  大便#VV  溏泄#NN  ，#PU  食欲不振#VV  ，#PU  肢#VV  倦乏#NN  力等症#NN    。#PU    。#PU
+            消食#VV  ：#PU  有助于#VV  胃酸#NN  的#DEG  分泌#NN  和#CC  食物#NN  的#DEC  消化#NN  ，#PU  宜于#AD  治疗#VV  饮食#NN  积#VV  滞证#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 榆钱#NN)  (loc, 含有#VV, 果实#NN)  (case, 果实#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 抗坏血酸#NR, 烟酸#NR)  (nn, 物质#NN, 抗坏血酸#NR)  (etc, 抗坏血酸#NR, 等#ETC)  (nn, 物质#NN, 酸性#NN)  (dobj, 含有#VV, 物质#NN)   (advmod, 含有#VV, 同时#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 无机盐#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 无机盐#NN)  (dep, 含有#VV, 可#VV)  (conj, 胃#NN, 健牌#NN)  (cc, 胃#NN, 和#CC)  (nn, ,#NN, 胃#NN)  (dep, 含有#VV, 治#VV)  (dobj, 治#VV, 食欲#NN)  (conj, 治#VV, 不振#VV)   (root, ROOT#null, null#null)
+            (nsubj, 安神#VV, 清热#NR)  (root, ROOT#null, 安神#VV)  (nn, 果实#NN, 榆钱#NN)  (loc, 含有#VV, 果实#NN)  (case, 果实#NN, 中#LC)  (ccomp, 安神#VV, 含有#VV)  (nummod, 效#NN, 大量#CD)  (conj, 无机盐#NR, 水分#NR)  (conj, 无机盐#NR, 烟酸#NR)  (conj, 无机盐#NR, 抗坏血酸#NR)  (cc, 无机盐#NR, 及#CC)  (nsubj, 钙#VA, 无机盐#NR)  (etc, 无机盐#NR, 等#ETC)  (nsubj, 钙#VA, 其中#NN)  (relcl, 效#NN, 钙#VA)  (nn, 含量#NN, 磷#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 较为#AD)  (conj, 钙#VA, 丰富#VA)  (conj, 钙#VA, 有#VE)  (nn, 安神#NN, 清热#NN)  (dobj, 有#VE, 安神#NN)  (mark, 钙#VA, 之#DEC)  (dobj, 含有#VV, 效#NN)  (mmod, 治疗#VV, 可#VV)  (conj, 安神#VV, 治疗#VV)  (nn, 失眠#NN, 神经#NN)  (conj, 失眠#NN, 衰弱#NN)  (dobj, 治疗#VV, 失眠#NN)
+            (nsubj, 消肿#VV, 利尿#NR)  (root, ROOT#null, 消肿#VV)  (nn, 果实#NN, 榆钱#NN)  (assmod, 油#NN, 果实#NN)  (case, 果实#NN, 中#LC)  (case, 果实#NN, 的#DEG)  (conj, 油#NN, 烟酸#NN)  (nn, 油#NN, 种子#NN)  (nsubj, 有#VE, 油#NN)  (ccomp, 消肿#VV, 有#VE)  (nn, 解毒#NN, 清热#NN)  (dobj, 有#VE, 解毒#NN)  (conj, 有#VE, 杀虫#VV)  (assmod, 作用#NN, 消肿#NN)  (case, 消肿#NN, 的#DEG)  (dobj, 杀虫#VV, 作用#NN)  (mmod, 杀#VV, 可#VV)  (conj, 有#VE, 杀#VV)  (nummod, 种#M, 多#CD)  (clf, 寄生虫#NN, 种#M)  (nn, 寄生虫#NN, 人体#NN)  (dobj, 杀#VV, 寄生虫#NN)  (advmod, 消肿#VV, 同时#AD)  (nsubj, 消肿#VV, 榆钱#NN)  (advmod, 消肿#VV, 还#AD)  (mmod, 消肿#VV, 可#VV)  (case, 利小便#NN, 通过#P)  (prep, 消肿#VV, 利小便#NN)  (prtmod, 消肿#VV, 而#MSP)  (conj, 消肿#VV, 消肿#VV)
+            (nsubj, 化痰#VV, 止咳#NR)  (root, ROOT#null, 化痰#VV)  (nsubj, 入#VV, 榆钱#NN)  (advmod, 入#VV, 味辛#AD)  (ccomp, 化痰#VV, 入#VV)  (dobj, 入#VV, 肺经#NN)  (conj, 入#VV, 能#VV)  (amod, 肺#NN, 清#JJ)  (nn, 热#NN, 肺#NN)  (dobj, 能#VV, 热#NN)  (conj, 入#VV, 降肺#VV)  (dobj, 降肺#VV, 气#NN)  (conj, 入#VV, 榆钱#VV)  (nn, 之功#NN, 种子#NN)  (nn, 之功#NN, 油有#NN)  (nn, 之功#NN, 润肺#NN)  (nn, 之功#NN, 止咳#NN)  (nn, 之功#NN, 化痰#NN)  (dobj, 榆钱#VV, 之功#NN)  (advmod, 用于#VV, 故#AD)  (mmod, 用于#VV, 可#VV)  (conj, 入#VV, 用于#VV)  (nn, 痰稠#NN, 治疗#NN)  (nn, 痰稠#NN, 咳嗽#NN)  (assmod, 病症#NN, 痰稠#NN)  (case, 痰稠#NN, 之#DEG)  (dobj, 用于#VV, 病症#NN)
+            (cc, 胃#VV, 和#CC)  (root, ROOT#null, 胃#VV)  (dobj, 胃#VV, 健脾#NN)  (conj, 胃#VV, 暖胃#VV)  (conj, 胃#VV, 治疗#VV)  (nn, 寒症#NN, 胃#NN)  (dobj, 治疗#VV, 寒症#NN)   (nsubj, 虚弱#VV, 适用#NN)  (case, 脾气#NN, 于#P)  (prep, 虚弱#VV, 脾气#NN)  (root, ROOT#null, 虚弱#VV)  (conj, 虚弱#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (assmod, 胀满#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 胀满#NN, 脘腹#NN)  (dobj, 运化#VV, 胀满#NN)  (conj, 虚弱#VV, 大便#VV)  (dobj, 大便#VV, 溏泄#NN)  (conj, 虚弱#VV, 食欲不振#VV)  (conj, 虚弱#VV, 肢#VV)  (nn, 力等症#NN, 倦乏#NN)  (dobj, 肢#VV, 力等症#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 消食#VV)  (relcl, 消化#NN, 有助于#VV)  (assmod, 食物#NN, 胃酸#NN)  (case, 胃酸#NN, 的#DEG)  (conj, 食物#NN, 分泌#NN)  (cc, 食物#NN, 和#CC)  (dobj, 有助于#VV, 食物#NN)  (mark, 有助于#VV, 的#DEC)  (nsubj, 治疗#VV, 消化#NN)  (advmod, 治疗#VV, 宜于#AD)  (ccomp, 消食#VV, 治疗#VV)  (dobj, 治疗#VV, 饮食#NN)  (conj, 治疗#VV, 积#VV)  (dobj, 积#VV, 滞证#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            生吃。把新鲜的榆钱洗净放在盘里，加入白糖吃，简单方便。若喜吃咸食，可放入盐、酱油、香醋、辣椒油、葱花、芫荽等作料。
+            煮粥。将榆钱洗净，以葱花或蒜苗炒后加开水烧开。下大米或小米煮粥，米将熟时再放榆钱继续煮5－8分钟。加适量调料，即成榆钱粥。
+            笼蒸。先将榆钱洗净，拌以玉米面或白面做成窝头，上笼蒸半小时即可起锅。或将洗净的榆钱拌上面粉，搅拌均匀，直接上笼蒸熟，放入调料，吃起来香甜柔软，口感极佳。
+            做馅。将榆钱洗净、切碎，加虾仁、肉或鸡蛋调匀后，包水饺、蒸包子、卷煎饼，清新爽口，美味无穷。
+            制酱：老了的榆钱可以制酱。将榆钱晒干磨成粉后加作料发酵一段时间便成酱，拿来作餐桌上的小吃，十分美味。
+        </rawdata>
+
+        <segment>
+            生吃  。  把  新鲜  的  榆钱  洗净  放  在  盘  里  ，  加入  白糖  吃  ，  简单  方便  。  若  喜  吃  咸  食  ，  可放  入  盐  、  酱油  、  香醋  、  辣椒油  、  葱花  、  芫荽  等  作料  。
+            煮粥  。  将  榆钱  洗净  ，  以  葱花  或  蒜苗  炒  后加  开水  烧开  。  下  大  米  或  小米  煮粥  ，  米  将  熟  时  再放  榆钱  继续  煮5－8  分钟  。  加  适量  调料  ，  即  成  榆钱粥  。
+            笼蒸  。  先  将  榆钱  洗净  ，  拌以  玉米面  或  白面  做成  窝头  ，  上  笼  蒸  半  小时  即可  起锅  。  或将  洗净  的  榆钱  拌上  面粉  ，  搅拌  均匀  ，  直接  上  笼  蒸熟  ，  放入  调料  ，  吃  起来  香甜  柔软  ，  口感  极佳  。
+            做馅  。  将  榆钱  洗净  、  切碎  ，  加  虾仁  、  肉  或  鸡蛋  调匀  后  ，  包  水饺  、  蒸  包子  、  卷  煎饼  ，  清新  爽口  ，  美味  无穷  。
+            制酱  ：  老  了  的  榆钱  可以  制酱  。  将  榆钱  晒干  磨成粉  后加  作料  发酵  一  段  时间  便  成  酱  ，  拿来  作  餐桌  上  的  小吃  ，  十分  美味  。
+        </segment>
+
+        <pos>
+            生吃#VV    。#PU  把#BA  新鲜#VA  的#DEC  榆钱#NN  洗净#NN  放#VV  在#P  盘#M  里#LC  ，#PU  加入#VV  白糖#NN  吃#VV  ，#PU  简单#VA  方便#VA    。#PU  若#CS  喜#AD  吃#VV  咸#NN  食#NN  ，#PU  可放#AD  入#VV  盐#NN  、#PU  酱油#NR  、#PU  香醋#NR  、#PU  辣椒油#NR  、#PU  葱花#NR  、#PU  芫荽#NR  等#ETC  作料#NN    。#PU    。#PU
+            煮粥#VV    。#PU  将#AD  榆钱#VV  洗净#NN  ，#PU  以#P  葱花#NN  或#CC  蒜苗#NN  炒#NN  后加#VV  开水#NN  烧开#NN    。#PU  下#DT  大#JJ  米#M  或#CC  小米#VV  煮粥#NN  ，#PU  米#M  将#AD  熟#VA  时#LC  再放#NN  榆钱#VV  继续#JJ  煮5#CD  －#PU  8#CD  分钟#M    。#PU  加#NR  适量#NN  调料#VV  ，#PU  即#AD  成#VV  榆钱粥#NN    。#PU    。#PU
+            笼蒸#VV    。#PU  先#AD  将#AD  榆钱#VV  洗净#NN  ，#PU  拌以#VV  玉米面#NN  或#CC  白面#NN  做成#NN  窝头#NN  ，#PU  上#VV  笼#NN  蒸#NN  半#CD  小时#NN  即可#NN  起锅#NN    。#PU  或将#VV  洗净#NN  的#DEG  榆钱#NN  拌上#NN  面粉#NN  ，#PU  搅拌#AD  均匀#VA  ，#PU  直接#AD  上#VV  笼#NN  蒸熟#NN  ，#PU  放入#VV  调料#NN  ，#PU  吃#VV  起来#VV  香甜#NN  柔软#NN  ，#PU  口感#VV  极佳#NN    。#PU    。#PU
+            做馅#VV    。#PU  将#AD  榆钱#VV  洗净#NN  、#PU  切碎#NN  ，#PU  加#VV  虾仁#NN  、#PU  肉#NN  或#CC  鸡蛋#NN  调匀#NN  后#LC  ，#PU  包#VV  水饺#NN  、#PU  蒸#NN  包子#NN  、#PU  卷#VV  煎饼#NN  ，#PU  清新#VV  爽口#NN  ，#PU  美味#AD  无穷#VA    。#PU    。#PU
+            制酱#VV  ：#PU  老#NR  了#VV  的#DEC  榆钱#NN  可以#VV  制酱#VV    。#PU  将#AD  榆钱#VV  晒干#NN  磨成粉#NN  后加#NN  作料#NN  发酵#NN  一#CD  段#M  时间#NN  便#AD  成#VV  酱#NN  ，#PU  拿来#VV  作#VV  餐桌#NN  上#LC  的#DEG  小吃#NN  ，#PU  十分#AD  美味#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 生吃#VV)   (ba, 放#VV, 把#BA)  (relcl, 洗净#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 洗净#NN, 榆钱#NN)  (nsubj, 放#VV, 洗净#NN)  (root, ROOT#null, 放#VV)  (case, 盘#M, 在#P)  (prep, 放#VV, 盘#M)  (case, 盘#M, 里#LC)  (dep, 放#VV, 加入#VV)  (dobj, 加入#VV, 白糖#NN)  (conj, 加入#VV, 吃#VV)  (dep, 放#VV, 简单#VA)  (comod, 简单#VA, 方便#VA)   (advmod, 吃#VV, 若#CS)  (advmod, 吃#VV, 喜#AD)  (dep, 入#VV, 吃#VV)  (nn, 食#NN, 咸#NN)  (dobj, 吃#VV, 食#NN)  (advmod, 入#VV, 可放#AD)  (root, ROOT#null, 入#VV)  (conj, 作料#NN, 盐#NN)  (conj, 芫荽#NR, 酱油#NR)  (conj, 芫荽#NR, 香醋#NR)  (conj, 芫荽#NR, 辣椒油#NR)  (conj, 芫荽#NR, 葱花#NR)  (nn, 作料#NN, 芫荽#NR)  (etc, 芫荽#NR, 等#ETC)  (dobj, 入#VV, 作料#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 煮粥#VV)   (advmod, 榆钱#VV, 将#AD)  (root, ROOT#null, 榆钱#VV)  (dobj, 榆钱#VV, 洗净#NN)  (case, 炒#NN, 以#P)  (conj, 炒#NN, 葱花#NN)  (cc, 炒#NN, 或#CC)  (nn, 炒#NN, 蒜苗#NN)  (prep, 后加#VV, 炒#NN)  (dep, 榆钱#VV, 后加#VV)  (nn, 烧开#NN, 开水#NN)  (dobj, 后加#VV, 烧开#NN)   (det, 再放#NN, 下#DT)  (amod, 米#M, 大#JJ)  (dep, 再放#NN, 米#M)  (cc, 小米#VV, 或#CC)  (dep, 再放#NN, 小米#VV)  (dobj, 小米#VV, 煮粥#NN)  (dep, 熟#VA, 米#M)  (advmod, 熟#VA, 将#AD)  (conj, 小米#VV, 熟#VA)  (case, 小米#VV, 时#LC)  (nsubj, 榆钱#VV, 再放#NN)  (root, ROOT#null, 榆钱#VV)  (amod, 分钟#M, 继续#JJ)  (dep, 分钟#M, 煮5#CD)  (nummod, 分钟#M, 8#CD)  (range, 榆钱#VV, 分钟#M)   (nn, 适量#NN, 加#NR)  (nsubj, 调料#VV, 适量#NN)  (xsubj, 成#VV, 适量#NN)  (root, ROOT#null, 调料#VV)  (advmod, 成#VV, 即#AD)  (ccomp, 调料#VV, 成#VV)  (dobj, 成#VV, 榆钱粥#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 笼蒸#VV)   (advmod, 榆钱#VV, 先#AD)  (advmod, 榆钱#VV, 将#AD)  (root, ROOT#null, 榆钱#VV)  (dobj, 榆钱#VV, 洗净#NN)  (conj, 榆钱#VV, 拌以#VV)  (conj, 白面#NN, 玉米面#NN)  (cc, 白面#NN, 或#CC)  (nn, 窝头#NN, 白面#NN)  (nn, 窝头#NN, 做成#NN)  (dobj, 拌以#VV, 窝头#NN)  (conj, 榆钱#VV, 上#VV)  (nn, 蒸#NN, 笼#NN)  (nn, 小时#NN, 蒸#NN)  (nummod, 小时#NN, 半#CD)  (nn, 起锅#NN, 小时#NN)  (nn, 起锅#NN, 即可#NN)  (dobj, 上#VV, 起锅#NN)   (root, ROOT#null, 或将#VV)  (assmod, 面粉#NN, 洗净#NN)  (case, 洗净#NN, 的#DEG)  (nn, 面粉#NN, 榆钱#NN)  (nn, 面粉#NN, 拌上#NN)  (dobj, 或将#VV, 面粉#NN)  (advmod, 均匀#VA, 搅拌#AD)  (conj, 或将#VV, 均匀#VA)  (advmod, 上#VV, 直接#AD)  (conj, 或将#VV, 上#VV)  (nn, 蒸熟#NN, 笼#NN)  (dobj, 上#VV, 蒸熟#NN)  (conj, 或将#VV, 放入#VV)  (dobj, 放入#VV, 调料#NN)  (conj, 或将#VV, 吃#VV)  (rcomp, 吃#VV, 起来#VV)  (nn, 柔软#NN, 香甜#NN)  (dobj, 吃#VV, 柔软#NN)  (conj, 或将#VV, 口感#VV)  (dobj, 口感#VV, 极佳#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 做馅#VV)   (advmod, 榆钱#VV, 将#AD)  (root, ROOT#null, 榆钱#VV)  (conj, 切碎#NN, 洗净#NN)  (dobj, 榆钱#VV, 切碎#NN)  (conj, 榆钱#VV, 加#VV)  (conj, 调匀#NN, 虾仁#NN)  (conj, 调匀#NN, 肉#NN)  (cc, 调匀#NN, 或#CC)  (nn, 调匀#NN, 鸡蛋#NN)  (loc, 加#VV, 调匀#NN)  (case, 调匀#NN, 后#LC)  (conj, 榆钱#VV, 包#VV)  (conj, 包子#NN, 水饺#NN)  (nn, 包子#NN, 蒸#NN)  (dobj, 包#VV, 包子#NN)  (conj, 榆钱#VV, 卷#VV)  (dobj, 卷#VV, 煎饼#NN)  (conj, 榆钱#VV, 清新#VV)  (dobj, 清新#VV, 爽口#NN)  (advmod, 无穷#VA, 美味#AD)  (conj, 榆钱#VV, 无穷#VA)   (root, ROOT#null, null#null)
+            (relcl, 榆钱#NN, 制酱#VV)  (nsubj, 了#VV, 老#NR)  (ccomp, 制酱#VV, 了#VV)  (mark, 制酱#VV, 的#DEC)  (nsubj, 制酱#VV, 榆钱#NN)  (dep, 制酱#VV, 可以#VV)  (root, ROOT#null, 制酱#VV)   (advmod, 榆钱#VV, 将#AD)  (root, ROOT#null, 榆钱#VV)  (nn, 后加#NN, 晒干#NN)  (nn, 后加#NN, 磨成粉#NN)  (nn, 发酵#NN, 后加#NN)  (nn, 发酵#NN, 作料#NN)  (nn, 时间#NN, 发酵#NN)  (nummod, 段#M, 一#CD)  (clf, 时间#NN, 段#M)  (dobj, 榆钱#VV, 时间#NN)  (advmod, 成#VV, 便#AD)  (dep, 榆钱#VV, 成#VV)  (dobj, 成#VV, 酱#NN)  (mmod, 作#VV, 拿来#VV)  (dep, 榆钱#VV, 作#VV)  (assmod, 小吃#NN, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (case, 餐桌#NN, 的#DEG)  (dobj, 作#VV, 小吃#NN)  (advmod, 美味#VV, 十分#AD)  (dep, 榆钱#VV, 美味#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/ca/40/16586_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1149 榆钱.jpg
+    </picturelocalurl>
+
+</content>

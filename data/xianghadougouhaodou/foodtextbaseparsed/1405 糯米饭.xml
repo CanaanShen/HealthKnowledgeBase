@@ -1,0 +1,133 @@
+<content>
+
+    <id>
+        1405
+    </id>
+
+    <foodname>
+        糯米饭
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用糯米做成的饭就是糯米饭。主要食材是糯米，也可加入其他食材，各有风味。糯米营养丰富，可提供人体所必须的能量。
+        </rawdata>
+
+        <segment>
+            用  糯米  做成  的  饭  就  是  糯米饭  。  主要  食材  是  糯米  ，  也  可  加入  其他  食材  ，  各  有  风味  。  糯米  营养  丰富  ，  可  提供  人体  所  必须  的  能量  。
+        </segment>
+
+        <pos>
+            用#P  糯米#NN  做成#NN  的#DEG  饭#NN  就#AD  是#VC  糯米饭#NN    。#PU  主要#JJ  食材#NN  是#VC  糯米#NN  ，#PU  也#AD  可#VV  加入#VV  其他#DT  食材#NN  ，#PU  各#AD  有#VE  风味#NN    。#PU  糯米#AD  营养#VA  丰富#VA  ，#PU  可#VV  提供#VV  人体#CD  所#M  必须#VV  的#DEC  能量#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 做成#NN, 用#P)  (nn, 做成#NN, 糯米#NN)  (assmod, 饭#NN, 做成#NN)  (case, 做成#NN, 的#DEG)  (nsubj, 糯米饭#NN, 饭#NN)  (advmod, 糯米饭#NN, 就#AD)  (cop, 糯米饭#NN, 是#VC)  (root, ROOT#null, 糯米饭#NN)   (amod, 食材#NN, 主要#JJ)  (nsubj, 糯米#NN, 食材#NN)  (cop, 糯米#NN, 是#VC)  (root, ROOT#null, 糯米#NN)  (advmod, 加入#VV, 也#AD)  (mmod, 加入#VV, 可#VV)  (conj, 糯米#NN, 加入#VV)  (det, 食材#NN, 其他#DT)  (dobj, 加入#VV, 食材#NN)  (advmod, 有#VE, 各#AD)  (conj, 糯米#NN, 有#VE)  (dobj, 有#VE, 风味#NN)   (advmod, 营养#VA, 糯米#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mmod, 提供#VV, 可#VV)  (dep, 营养#VA, 提供#VV)  (nummod, 所#M, 人体#CD)  (clf, 能量#NN, 所#M)  (relcl, 能量#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 提供#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.糯米含有蛋白质、脂肪、糖类、钙、磷、铁、维生素B1、维生索B2、烟酸及淀粉等，营养丰富，为温补强壮食品，具有补中益气，健脾养胃，止虚汗之功效，对脾胃虚寒，食欲不佳，腹胀腹泻有一定缓解作用；
+            2.糯米有收涩作用，对尿频，盗汗有较好的食疗效果。
+        </rawdata>
+
+        <segment>
+            糯米  含有  蛋白质  、  脂肪  、  糖类  、  钙  、  磷  、  铁  、  维生素  B  维生索B2  、  烟酸  及  淀粉  等  ，  营养  丰富  ，  为  温补  强壮  食品  ，  具有  补  中  益气  ，  健脾  养  胃  ，  止  虚汗  之  功效  ，  对  脾胃  虚寒  ，  食欲  不佳  ，  腹胀  腹泻  有  一定  缓解  作用  ；
+            糯米  有  收涩  作用  ，  对  尿频  ，  盗汗  有  较好  的  食疗  效果  。
+        </segment>
+
+        <pos>
+            糯米#NN  含有#NN  蛋白质#NN  、#PU  脂肪#NN  、#PU  糖类#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  维生素#NN  B#NN  维生索B2#CD  、#PU  烟酸#NN  及#CC  淀粉#NN  等#ETC  ，#PU  营养#VA  丰富#VA  ，#PU  为#P  温补#VV  强壮#VV  食品#NN  ，#PU  具有#VV  补#NN  中#LC  益气#NN  ，#PU  健脾#AD  养#VV  胃#NN  ，#PU  止#VV  虚汗#NR  之#DEG  功效#NN  ，#PU  对#P  脾胃#NR  虚寒#VV  ，#PU  食欲#VV  不佳#NN  ，#PU  腹胀#VV  腹泻#NN  有#VE  一定#JJ  缓解#NN  作用#NN  ；#PU
+            糯米#AD  有#VE  收涩#NN  作用#NN  ，#PU  对#P  尿频#NN  ，#PU  盗汗#AD  有#VE  较好#JJ  的#DEG  食疗#NN  效果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 维生素#NN, 糯米#NN)  (nn, 维生素#NN, 含有#NN)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 糖类#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (nn, B#NN, 维生素#NN)  (conj, 淀粉#NN, B#NN)  (nummod, B#NN, 维生索B2#CD)  (conj, 淀粉#NN, 烟酸#NN)  (cc, 淀粉#NN, 及#CC)  (nsubj, 营养#VA, 淀粉#NN)  (etc, 淀粉#NN, 等#ETC)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (case, 强壮#VV, 为#P)  (mmod, 强壮#VV, 温补#VV)  (prep, 有#VE, 强壮#VV)  (dobj, 强壮#VV, 食品#NN)  (ccomp, 强壮#VV, 具有#VV)  (conj, 强壮#VV, 具有#VV)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (dobj, 具有#VV, 益气#NN)  (advmod, 养#VV, 健脾#AD)  (ccomp, 强壮#VV, 养#VV)  (conj, 强壮#VV, 养#VV)  (dobj, 养#VV, 胃#NN)  (ccomp, 强壮#VV, 止#VV)  (conj, 强壮#VV, 止#VV)  (assmod, 功效#NN, 虚汗#NR)  (case, 虚汗#NR, 之#DEG)  (dobj, 止#VV, 功效#NN)  (case, 脾胃#NR, 对#P)  (prep, 虚寒#VV, 脾胃#NR)  (ccomp, 强壮#VV, 虚寒#VV)  (conj, 强壮#VV, 虚寒#VV)  (ccomp, 强壮#VV, 食欲#VV)  (conj, 强壮#VV, 食欲#VV)  (dobj, 食欲#VV, 不佳#NN)  (ccomp, 强壮#VV, 腹胀#VV)  (conj, 强壮#VV, 腹胀#VV)  (dobj, 腹胀#VV, 腹泻#NN)  (dep, 营养#VA, 有#VE)  (amod, 作用#NN, 一定#JJ)  (nn, 作用#NN, 缓解#NN)  (dobj, 有#VE, 作用#NN)
+            (advmod, 有#VE, 糯米#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 收涩#NN)  (dobj, 有#VE, 作用#NN)  (case, 尿频#NN, 对#P)  (prep, 有#VE, 尿频#NN)  (advmod, 有#VE, 盗汗#AD)  (dep, 有#VE, 有#VE)  (assmod, 效果#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 效果#NN, 食疗#NN)  (dobj, 有#VE, 效果#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.将浸泡过香菇及虾米的水，倒入米饭内味道更香。因此浸泡的时侯要分两次浸泡，第一次浸泡时间不要太长，略泡开一下，把水倒去。第二次重新加少量水浸泡;
+            2.米饭刚倒下去会结成团，加入水份后就会散开;
+            3.因腊肠和虾米都有咸味了，只加生抽，不需要再加盐。
+        </rawdata>
+
+        <segment>
+            将  浸泡  过  香菇  及  虾米  的  水  ，  倒入  米饭  内  味道  更  香  。  因此  浸泡  的  时侯  要  分  两  次  浸泡  ，  第一  次  浸泡  时间  不要  太长  ，  略  泡开  一下  ，  把  水  倒去  。  第二  次  重新  加  少量  水  浸泡  ;
+            米饭  刚  倒  下去  会  结成  团  ，  加入  水份  后  就  会  散开  ;
+            因  腊肠  和  虾米  都  有  咸味  了  ，  只加生抽  ，  不  需要  再  加盐  。
+        </segment>
+
+        <pos>
+            将#AD  浸泡#VV  过#AS  香菇#NN  及#CC  虾米#NN  的#DEC  水#NN  ，#PU  倒入#NN  米饭#NN  内#LC  味道#NN  更#AD  香#VA    。#PU  因此#AD  浸泡#VV  的#DEC  时侯#NN  要#VV  分#VV  两#CD  次#M  浸泡#NN  ，#PU  第一#OD  次#M  浸泡#VV  时间#NN  不要#NN  太长#NN  ，#PU  略#AD  泡开#VV  一下#AD  ，#PU  把#BA  水#NN  倒去#VV    。#PU  第二#OD  次#M  重新#AD  加#VV  少量#CD  水#NN  浸泡#NN  ;#NN    。#PU
+            米饭#NN  刚#AD  倒#AD  下去#VV  会#VV  结成#VV  团#NN  ，#PU  加入#VV  水份#NN  后#LC  就#AD  会#VV  散开#VV  ;#NN
+            因#P  腊肠#NN  和#CC  虾米#NN  都#AD  有#VE  咸味#VV  了#AS  ，#PU  只加生抽#VV  ，#PU  不#AD  需要#VV  再#AD  加盐#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 浸泡#VV, 将#AD)  (relcl, 水#NN, 浸泡#VV)  (asp, 浸泡#VV, 过#AS)  (conj, 虾米#NN, 香菇#NN)  (cc, 虾米#NN, 及#CC)  (dobj, 浸泡#VV, 虾米#NN)  (mark, 浸泡#VV, 的#DEC)  (nsubj, 香#VA, 水#NN)  (nn, 米饭#NN, 倒入#NN)  (loc, 香#VA, 米饭#NN)  (case, 米饭#NN, 内#LC)  (nsubj, 香#VA, 味道#NN)  (advmod, 香#VA, 更#AD)  (root, ROOT#null, 香#VA)   (advmod, 浸泡#VV, 因此#AD)  (relcl, 时侯#NN, 浸泡#VV)  (mark, 浸泡#VV, 的#DEC)  (nsubj, 分#VV, 时侯#NN)  (mmod, 分#VV, 要#VV)  (root, ROOT#null, 分#VV)  (nummod, 次#M, 两#CD)  (clf, 浸泡#NN, 次#M)  (dobj, 分#VV, 浸泡#NN)  (ordmod, 次#M, 第一#OD)  (dep, 浸泡#VV, 次#M)  (conj, 分#VV, 浸泡#VV)  (nn, 太长#NN, 时间#NN)  (nn, 太长#NN, 不要#NN)  (dobj, 浸泡#VV, 太长#NN)  (advmod, 泡开#VV, 略#AD)  (conj, 分#VV, 泡开#VV)  (advmod, 泡开#VV, 一下#AD)  (ba, 倒去#VV, 把#BA)  (nsubj, 倒去#VV, 水#NN)  (conj, 分#VV, 倒去#VV)   (ordmod, 次#M, 第二#OD)  (dep, 加#VV, 次#M)  (advmod, 加#VV, 重新#AD)  (root, ROOT#null, 加#VV)  (nummod, ;#NN, 少量#CD)  (nn, ;#NN, 水#NN)  (nn, ;#NN, 浸泡#NN)  (dobj, 加#VV, ;#NN)
+            (nsubj, 结成#VV, 米饭#NN)  (advmod, 结成#VV, 刚#AD)  (advmod, 结成#VV, 倒#AD)  (mmod, 结成#VV, 下去#VV)  (mmod, 结成#VV, 会#VV)  (root, ROOT#null, 结成#VV)  (dobj, 结成#VV, 团#NN)  (loc, 散开#VV, 加入#VV)  (dobj, 加入#VV, 水份#NN)  (case, 加入#VV, 后#LC)  (advmod, 散开#VV, 就#AD)  (mmod, 散开#VV, 会#VV)  (conj, 结成#VV, 散开#VV)  (dobj, 散开#VV, ;#NN)
+            (case, 虾米#NN, 因#P)  (conj, 虾米#NN, 腊肠#NN)  (cc, 虾米#NN, 和#CC)  (prep, 有#VE, 虾米#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 咸味#VV)  (asp, 咸味#VV, 了#AS)  (dep, 咸味#VV, 只加生抽#VV)  (neg, 加盐#VV, 不#AD)  (mmod, 加盐#VV, 需要#VV)  (advmod, 加盐#VV, 再#AD)  (dep, 有#VE, 加盐#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/ec/16/5868_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1405 糯米饭.jpg
+    </picturelocalurl>
+
+</content>

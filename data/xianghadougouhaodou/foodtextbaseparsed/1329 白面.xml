@@ -1,0 +1,108 @@
+<content>
+
+    <id>
+        1329
+    </id>
+
+    <foodname>
+        白面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            “白面”在全国的很多农村是用来称小麦的粉，学术的名字叫“面粉”，常常被简称为“白面”，人们在说“白面”的时候，就知道指的是白面粉。
+        </rawdata>
+
+        <segment>
+            “  白面  ”  在  全国  的  很多  农村  是  用来  称  小麦  的粉  ，  学术  的  名字  叫  “  面粉  ”  ，  常常  被  简称  为  “  白面  ”  ，  人们  在  说  “  白面  ”  的  时候  ，  就  知道  指  的  是  白  面粉  。
+        </segment>
+
+        <pos>
+            ``#NN  白面#NN  ''#NN  在#P  全国#NN  的#DEG  很多#CD  农村#NN  是#VC  用来#NN  称#NN  小麦#NN  的粉#NN  ，#PU  学术#NN  的#DEG  名字#NN  叫#VV  ``#NN  面粉#NN  ''#NN  ，#PU  常常#AD  被#LB  简称#NN  为#P  ``#NN  白面#VV  ''#NN  ，#PU  人们#NN  在#P  说#VV  ``#NN  白面#NN  ''#NN  的#DEC  时候#NN  ，#PU  就#AD  知道#VV  指#VV  的#DEC  是#VC  白#JJ  面粉#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, ''#NN, ``#NN)  (nn, ''#NN, 白面#NN)  (nsubj, 的粉#NN, ''#NN)  (case, 农村#NN, 在#P)  (assmod, 农村#NN, 全国#NN)  (case, 全国#NN, 的#DEG)  (nummod, 农村#NN, 很多#CD)  (prep, 的粉#NN, 农村#NN)  (cop, 的粉#NN, 是#VC)  (nn, 的粉#NN, 用来#NN)  (nn, 的粉#NN, 称#NN)  (nn, 的粉#NN, 小麦#NN)  (root, ROOT#null, 的粉#NN)  (assmod, 名字#NN, 学术#NN)  (case, 学术#NN, 的#DEG)  (nsubj, 叫#VV, 名字#NN)  (conj, 的粉#NN, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 面粉#NN)  (dobj, 叫#VV, ''#NN)  (advmod, 白面#VV, 常常#AD)  (auxpass, 白面#VV, 被#LB)  (nsubj, 白面#VV, 简称#NN)  (case, ``#NN, 为#P)  (prep, 白面#VV, ``#NN)  (nsubj, 面粉#NN, 白面#VV)  (dobj, 白面#VV, ''#NN)  (nsubj, 知道#VV, 人们#NN)  (case, 时候#NN, 在#P)  (relcl, 时候#NN, 说#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 白面#NN)  (dobj, 说#VV, ''#NN)  (mark, 说#VV, 的#DEC)  (prep, 知道#VV, 时候#NN)  (advmod, 知道#VV, 就#AD)  (conj, 白面#VV, 知道#VV)  (ccomp, 知道#VV, 指#VV)  (mark, 白面#VV, 的#DEC)  (cop, 面粉#NN, 是#VC)  (amod, 面粉#NN, 白#JJ)  (conj, 的粉#NN, 面粉#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养心、益肾、除热、止渴
+            主治：脏躁、烦热、消渴、泄痢、痈肿、外伤出血及烫伤等。
+        </rawdata>
+
+        <segment>
+            养心  、  益肾  、  除热  、  止渴
+            主治  ：  脏躁  、  烦热  、  消渴  、  泄痢  、  痈肿  、  外伤  出血  及  烫伤  等  。
+        </segment>
+
+        <pos>
+            养心#NR  、#PU  益肾#NR  、#PU  除热#NR  、#PU  止渴#NR
+            。#NR
+            主治#VV  ：#PU  脏躁#NR  、#PU  烦热#NR  、#PU  消渴#NR  、#PU  泄痢#NR  、#PU  痈肿#NR  、#PU  外伤#NR  出血#VV  及#CC  烫伤#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 止渴#NR, 养心#NR)  (conj, 止渴#NR, 益肾#NR)  (conj, 止渴#NR, 除热#NR)  (root, ROOT#null, 止渴#NR)
+            (root, ROOT#null, 主治#VV)  (conj, 外伤#NR, 脏躁#NR)  (conj, 外伤#NR, 烦热#NR)  (conj, 外伤#NR, 消渴#NR)  (conj, 外伤#NR, 泄痢#NR)  (conj, 外伤#NR, 痈肿#NR)  (nsubj, 出血#VV, 外伤#NR)  (ccomp, 主治#VV, 出血#VV)  (cc, 出血#VV, 及#CC)  (conj, 出血#VV, 烫伤#VV)  (dep, 出血#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/29/a3/41769_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1329 白面.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        69
+    </id>
+
+    <foodname>
+        奶油
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        乳制品
+    </secondcategory>
+
+    <alias>
+        淇淋、激凌、克林姆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            冠心病、高血压、糖尿病，动脉硬化患者忌食；孕妇和肥胖者慎食。
+        </rawdata>
+
+        <segment>
+            冠心病  、  高血压  、  糖尿病  ，  动脉  硬化  患者  忌食  ；  孕妇  和  肥胖者  慎食  。
+        </segment>
+
+        <pos>
+            冠心病#NN  、#PU  高血压#NN  、#PU  糖尿病#NN  ，#PU  动脉#NN  硬化#NN  患者#NN  忌食#VV  ；#PU  孕妇#NR  和#CC  肥胖者#NR  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 糖尿病#NN, 冠心病#NN)  (conj, 糖尿病#NN, 高血压#NN)  (nsubj, 忌食#VV, 糖尿病#NN)  (nn, 患者#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (conj, 肥胖者#NR, 孕妇#NR)  (cc, 肥胖者#NR, 和#CC)  (nsubj, 慎食#VV, 肥胖者#NR)  (ccomp, 忌食#VV, 慎食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜缺乏维生素A的人和儿童。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  缺乏  维生素A  的  人和  儿童  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  缺乏#VV  维生素A#NN  的#DEC  人和#NN  儿童#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (relcl, 儿童#NN, 缺乏#VV)  (dobj, 缺乏#VV, 维生素A#NN)  (mark, 缺乏#VV, 的#DEC)  (nn, 儿童#NN, 人和#NN)  (dobj, 适宜#VV, 儿童#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                879
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                17.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                209
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                297
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素D（微克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                226
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                268
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            奶油（Cream），是从牛奶、羊奶中提取的黄色或白色脂肪性半固体食品，它是由未均质化之前的生牛乳顶层的牛奶脂肪含量较高的一层制得的乳制品。奶香浓郁，可用来涂抹面包和馒头，或制作蛋糕和糖果。奶油是西式早餐中常见的添加物，也常见于各式西餐中，人们摄入奶油的机会较多。
+            奶油在类型上分为动物奶油和植脂奶油。动物奶油是由牛奶中的脂肪分离获得的。而植物奶油是以大豆等植物油和水、盐、奶粉等加工而成的。从口感上说，动物奶油口味更棒一些。植脂奶油就是平常我们能在蛋糕店买到的那种。热量比一般动物性奶油少一半以上，且饱和脂肪酸较少，不含胆固醇。动物奶油在大型超市会有卖的，品牌较多。植物奶油可在烘焙市场买到。做西点基本和常用的黄油，还是要用块状的黄油。
+            奶油按照制造方法可以分为三类：鲜制奶油：用杀菌稀奶油制成的淡或咸的奶油。酸制奶油：用杀菌稀奶油，经过添加发酵剂发酵制成的淡或咸的奶油。重制奶油：用熔融了的稀奶油或奶油制成。
+        </rawdata>
+
+        <segment>
+            奶油  （  Cream  ）  ，  是  从  牛奶  、  羊奶  中  提取  的  黄色  或  白色  脂肪性  半固体  食品  ，  它  是  由  未  均  质化  之前  的  生  牛乳  顶层  的  牛奶  脂肪  含量  较  高  的  一  层  制得  的  乳制品  。  奶香  浓郁  ，  可  用来  涂抹  面包  和  馒头  ，  或  制作  蛋糕  和  糖果  。  奶油  是  西式  早餐  中  常见  的  添加物  ，  也  常见于  各  式  西餐  中  ，  人们  摄入  奶油  的  机会  较  多  。
+            奶油  在  类型  上  分为  动物  奶油  和  植脂  奶油  。  动物  奶油  是  由  牛奶  中  的  脂肪  分离  获得  的  。  而  植物  奶油  是  以  大豆  等  植物油  和  水  、  盐  、  奶粉  等  加工  而  成  的  。  从  口感  上  说  ，  动物  奶油  口味  更  棒  一些  。  植脂  奶油  就是  平常  我们  能  在  蛋糕  店  买到  的  那  种  。  热量  比  一般  动物性  奶油  少  一半  以上  ，  且  饱和  脂肪酸  较少  ，  不  含  胆固醇  。  动物  奶油  在  大型  超市  会  有  卖的  ，  品牌  较  多  。  植物  奶油  可  在  烘焙  市场  买到  。  做  西点  基本  和  常用  的  黄油  ，  还是  要  用  块状  的  黄油  。
+            奶油  按照  制造  方法  可以  分为  三类  ：  鲜制  奶油  ：  用  杀菌  稀  奶油  制成  的  淡或  咸的  奶油  。  酸制  奶油  ：  用  杀菌  稀  奶油  ，  经过  添加  发酵剂  发酵  制成  的  淡或  咸的  奶油  。  重制  奶油  ：  用  熔融  了  的  稀  奶油  或  奶油  制成  。
+        </segment>
+
+        <pos>
+            奶油#NN  （#PU  Cream#NR  ）#PU  ，#PU  是#VC  从#P  牛奶#NN  、#PU  羊奶#NN  中#LC  提取#VV  的#DEC  黄色#JJ  或#CC  白色#JJ  脂肪性#NN  半固体#JJ  食品#NN  ，#PU  它#PN  是#VC  由#P  未#AD  均#AD  质化#VV  之前#LC  的#DEG  生#VV  牛乳#NN  顶层#NN  的#DEG  牛奶#NN  脂肪#NN  含量#NN  较#AD  高#VA  的#DEC  一#CD  层#M  制得#NN  的#DEC  乳制品#NN    。#PU  奶香#AD  浓郁#VA  ，#PU  可#VV  用来#VV  涂抹#NN  面包#NN  和#CC  馒头#NN  ，#PU  或#CC  制作#VV  蛋糕#NN  和#CC  糖果#NN    。#PU  奶油#NN  是#VC  西式#NN  早餐#NN  中#LC  常见#VA  的#DEC  添加物#NN  ，#PU  也#AD  常见于#VV  各#DT  式#M  西餐#NN  中#LC  ，#PU  人们#NN  摄入#VV  奶油#NN  的#DEC  机会#NN  较#AD  多#VA    。#PU    。#PU
+            奶油#NN  在#P  类型#NN  上#LC  分为#VV  动物#NN  奶油#NN  和#CC  植脂#NN  奶油#NN    。#PU  动物#NN  奶油#NN  是#VC  由#P  牛奶#NN  中#LC  的#DEG  脂肪#NN  分离#VV  获得#VV  的#DEC    。#PU  而#AD  植物#NN  奶油#NN  是#VC  以#P  大豆#NN  等#ETC  植物油#NN  和#CC  水#NN  、#PU  盐#NN  、#PU  奶粉#NN  等#ETC  加工#NN  而#MSP  成#VV  的#DEC    。#PU  从#P  口感#NN  上#LC  说#VV  ，#PU  动物#NN  奶油#NN  口味#NN  更#AD  棒#VV  一些#CD    。#PU  植脂#NN  奶油#VV  就是#AD  平常#NN  我们#PN  能#VV  在#P  蛋糕#NN  店#NN  买到#VV  的#DEC  那#DT  种#NN    。#PU  热量#AD  比#P  一般#JJ  动物性#NN  奶油#NN  少#VV  一半#CD  以上#LC  ，#PU  且#CC  饱和#AD  脂肪酸#VV  较少#NN  ，#PU  不#AD  含#VV  胆固醇#NN    。#PU  动物#NN  奶油#NN  在#P  大型#JJ  超市#NN  会#VV  有#VE  卖的#NN  ，#PU  品牌#NN  较#AD  多#VA    。#PU  植物#NN  奶油#NN  可#VV  在#P  烘焙#NN  市场#NN  买到#VV    。#PU  做#VV  西点#NR  基本#JJ  和#CC  常用#JJ  的#DEG  黄油#NN  ，#PU  还是#AD  要#VV  用#VV  块状#NN  的#DEG  黄油#NN    。#PU    。#PU
+            奶油#NN  按照#P  制造#NN  方法#NN  可以#VV  分为#VV  三类#CD  ：#PU  鲜制#VV  奶油#NN  ：#PU  用#P  杀菌#NN  稀#NN  奶油#NN  制成#VV  的#DEC  淡或#NN  咸的#VV  奶油#NN    。#PU  酸制#NR  奶油#VV  ：#PU  用#P  杀菌#NN  稀#VV  奶油#NN  ，#PU  经过#P  添加#VV  发酵剂#NN  发酵#NN  制成#VV  的#DEC  淡或#NN  咸的#VV  奶油#NN    。#PU  重制#NN  奶油#NN  ：#PU  用#P  熔融#VV  了#AS  的#DEC  稀#NN  奶油#NN  或#CC  奶油#NN  制成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 食品#NN, 奶油#NN)  (prnmod, 奶油#NN, Cream#NR)  (cop, 食品#NN, 是#VC)  (case, 羊奶#NN, 从#P)  (nn, 羊奶#NN, 牛奶#NN)  (prep, 提取#VV, 羊奶#NN)  (case, 羊奶#NN, 中#LC)  (relcl, 食品#NN, 提取#VV)  (mark, 提取#VV, 的#DEC)  (amod, 脂肪性#NN, 黄色#JJ)  (cc, 黄色#JJ, 或#CC)  (dep, 黄色#JJ, 白色#JJ)  (nn, 食品#NN, 脂肪性#NN)  (amod, 食品#NN, 半固体#JJ)  (root, ROOT#null, 食品#NN)  (nsubj, 乳制品#NN, 它#PN)  (cop, 乳制品#NN, 是#VC)  (case, 质化#VV, 由#P)  (advmod, 质化#VV, 未#AD)  (advmod, 质化#VV, 均#AD)  (assmod, 乳制品#NN, 质化#VV)  (case, 质化#VV, 之前#LC)  (case, 质化#VV, 的#DEG)  (relcl, 乳制品#NN, 生#VV)  (nn, 顶层#NN, 牛乳#NN)  (assmod, 含量#NN, 顶层#NN)  (case, 顶层#NN, 的#DEG)  (nn, 含量#NN, 牛奶#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (relcl, 制得#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nummod, 层#M, 一#CD)  (clf, 制得#NN, 层#M)  (dobj, 生#VV, 制得#NN)  (mark, 生#VV, 的#DEC)  (conj, 食品#NN, 乳制品#NN)   (advmod, 浓郁#VA, 奶香#AD)  (root, ROOT#null, 浓郁#VA)  (mmod, 用来#VV, 可#VV)  (conj, 浓郁#VA, 用来#VV)  (nn, 馒头#NN, 涂抹#NN)  (conj, 馒头#NN, 面包#NN)  (cc, 馒头#NN, 和#CC)  (dobj, 用来#VV, 馒头#NN)  (cc, 浓郁#VA, 或#CC)  (dep, 浓郁#VA, 制作#VV)  (conj, 糖果#NN, 蛋糕#NN)  (cc, 糖果#NN, 和#CC)  (dobj, 制作#VV, 糖果#NN)   (nsubj, 添加物#NN, 奶油#NN)  (cop, 添加物#NN, 是#VC)  (nn, 早餐#NN, 西式#NN)  (dep, 添加物#NN, 早餐#NN)  (case, 早餐#NN, 中#LC)  (relcl, 添加物#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (root, ROOT#null, 添加物#NN)  (advmod, 常见于#VV, 也#AD)  (conj, 添加物#NN, 常见于#VV)  (det, 西餐#NN, 各#DT)  (clf, 各#DT, 式#M)  (loc, 多#VA, 西餐#NN)  (case, 西餐#NN, 中#LC)  (nsubj, 摄入#VV, 人们#NN)  (relcl, 机会#NN, 摄入#VV)  (dobj, 摄入#VV, 奶油#NN)  (mark, 摄入#VV, 的#DEC)  (nsubj, 多#VA, 机会#NN)  (advmod, 多#VA, 较#AD)  (conj, 添加物#NN, 多#VA)   (root, ROOT#null, null#null)
+            (nsubj, 分为#VV, 奶油#NN)  (case, 类型#NN, 在#P)  (prep, 分为#VV, 类型#NN)  (case, 类型#NN, 上#LC)  (root, ROOT#null, 分为#VV)  (nn, 奶油#NN, 动物#NN)  (conj, 奶油#NN, 奶油#NN)  (cc, 奶油#NN, 和#CC)  (nn, 奶油#NN, 植脂#NN)  (dobj, 分为#VV, 奶油#NN)   (nn, 奶油#NN, 动物#NN)  (nsubj, 分离#VV, 奶油#NN)  (cop, 分离#VV, 是#VC)  (case, 脂肪#NN, 由#P)  (assmod, 脂肪#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (prep, 分离#VV, 脂肪#NN)  (root, ROOT#null, 分离#VV)  (comod, 分离#VV, 获得#VV)  (mark, 分离#VV, 的#DEC)   (advmod, 成#VV, 而#AD)  (dep, 成#VV, 植物#NN)  (nsubj, 成#VV, 奶油#NN)  (cop, 成#VV, 是#VC)  (case, 加工#NN, 以#P)  (nn, 植物油#NN, 大豆#NN)  (etc, 大豆#NN, 等#ETC)  (conj, 加工#NN, 植物油#NN)  (cc, 加工#NN, 和#CC)  (conj, 奶粉#NN, 水#NN)  (conj, 奶粉#NN, 盐#NN)  (nn, 加工#NN, 奶粉#NN)  (etc, 奶粉#NN, 等#ETC)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (root, ROOT#null, 成#VV)  (mark, 成#VV, 的#DEC)   (case, 口感#NN, 从#P)  (prep, 说#VV, 口感#NN)  (case, 口感#NN, 上#LC)  (root, ROOT#null, 说#VV)  (nn, 口味#NN, 动物#NN)  (nn, 口味#NN, 奶油#NN)  (nsubj, 棒#VV, 口味#NN)  (advmod, 棒#VV, 更#AD)  (ccomp, 说#VV, 棒#VV)  (range, 棒#VV, 一些#CD)   (nsubj, 奶油#VV, 植脂#NN)  (root, ROOT#null, 奶油#VV)  (advmod, 买到#VV, 就是#AD)  (nsubj, 买到#VV, 平常#NN)  (dep, 买到#VV, 我们#PN)  (mmod, 买到#VV, 能#VV)  (case, 店#NN, 在#P)  (nn, 店#NN, 蛋糕#NN)  (prep, 买到#VV, 店#NN)  (relcl, 种#NN, 买到#VV)  (mark, 买到#VV, 的#DEC)  (det, 种#NN, 那#DT)  (dobj, 奶油#VV, 种#NN)   (advmod, 少#VV, 热量#AD)  (case, 奶油#NN, 比#P)  (amod, 动物性#NN, 一般#JJ)  (nn, 奶油#NN, 动物性#NN)  (prep, 少#VV, 奶油#NN)  (root, ROOT#null, 少#VV)  (loc, 少#VV, 一半#CD)  (case, 一半#CD, 以上#LC)  (cc, 少#VV, 且#CC)  (advmod, 脂肪酸#VV, 饱和#AD)  (dep, 少#VV, 脂肪酸#VV)  (dobj, 脂肪酸#VV, 较少#NN)  (neg, 含#VV, 不#AD)  (dep, 少#VV, 含#VV)  (dobj, 含#VV, 胆固醇#NN)   (nn, 奶油#NN, 动物#NN)  (nsubj, 有#VE, 奶油#NN)  (case, 超市#NN, 在#P)  (amod, 超市#NN, 大型#JJ)  (prep, 有#VE, 超市#NN)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 卖的#NN)  (nsubj, 多#VA, 品牌#NN)  (advmod, 多#VA, 较#AD)  (conj, 有#VE, 多#VA)   (nn, 奶油#NN, 植物#NN)  (nsubj, 买到#VV, 奶油#NN)  (mmod, 买到#VV, 可#VV)  (case, 市场#NN, 在#P)  (nn, 市场#NN, 烘焙#NN)  (prep, 买到#VV, 市场#NN)  (root, ROOT#null, 买到#VV)   (root, ROOT#null, 做#VV)  (nn, 黄油#NN, 西点#NR)  (assmod, 黄油#NN, 基本#JJ)  (cc, 基本#JJ, 和#CC)  (dep, 基本#JJ, 常用#JJ)  (case, 基本#JJ, 的#DEG)  (dobj, 做#VV, 黄油#NN)  (advmod, 用#VV, 还是#AD)  (mmod, 用#VV, 要#VV)  (conj, 做#VV, 用#VV)  (assmod, 黄油#NN, 块状#NN)  (case, 块状#NN, 的#DEG)  (dobj, 用#VV, 黄油#NN)   (root, ROOT#null, null#null)
+            (nsubj, 咸的#VV, 奶油#NN)  (case, 淡或#NN, 按照#P)  (nn, 方法#NN, 制造#NN)  (nsubj, 分为#VV, 方法#NN)  (mmod, 分为#VV, 可以#VV)  (relcl, 淡或#NN, 分为#VV)  (range, 分为#VV, 三类#CD)  (dep, 分为#VV, 鲜制#VV)  (dobj, 鲜制#VV, 奶油#NN)  (case, 奶油#NN, 用#P)  (nn, 奶油#NN, 杀菌#NN)  (nn, 奶油#NN, 稀#NN)  (prep, 制成#VV, 奶油#NN)  (conj, 分为#VV, 制成#VV)  (mark, 分为#VV, 的#DEC)  (prep, 咸的#VV, 淡或#NN)  (root, ROOT#null, 咸的#VV)  (dobj, 咸的#VV, 奶油#NN)   (nsubj, 奶油#VV, 酸制#NR)  (xsubj, 稀#VV, 酸制#NR)  (root, ROOT#null, 奶油#VV)  (case, 杀菌#NN, 用#P)  (prep, 稀#VV, 杀菌#NN)  (ccomp, 奶油#VV, 稀#VV)  (dobj, 稀#VV, 奶油#NN)  (case, 淡或#NN, 经过#P)  (relcl, 淡或#NN, 添加#VV)  (nn, 发酵#NN, 发酵剂#NN)  (dobj, 添加#VV, 发酵#NN)  (conj, 添加#VV, 制成#VV)  (mark, 添加#VV, 的#DEC)  (prep, 咸的#VV, 淡或#NN)  (dep, 稀#VV, 咸的#VV)  (dobj, 咸的#VV, 奶油#NN)   (nn, 奶油#NN, 重制#NN)  (nsubj, 制成#VV, 奶油#NN)  (case, 奶油#NN, 用#P)  (relcl, 奶油#NN, 熔融#VV)  (asp, 熔融#VV, 了#AS)  (mark, 熔融#VV, 的#DEC)  (nn, 奶油#NN, 稀#NN)  (conj, 奶油#NN, 奶油#NN)  (cc, 奶油#NN, 或#CC)  (prep, 制成#VV, 奶油#NN)  (root, ROOT#null, 制成#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            奶油的脂肪含量比牛奶增加了20～25倍，而其余的成分如非脂乳固体（蛋白质、乳糖）及水分都大大降低，是维生素A和维生素D含量很高的调料。
+        </rawdata>
+
+        <segment>
+            奶油  的  脂肪  含量  比  牛奶  增加  了  20  ～  25  倍  ，  而  其余  的  成分  如  非脂乳  固体  （  蛋白质  、  乳糖  ）  及  水分  都  大大  降低  ，  是  维生素A  和  维生素D  含量  很  高  的  调料  。
+        </segment>
+
+        <pos>
+            奶油#NN  的#DEG  脂肪#NN  含量#NN  比#P  牛奶#NN  增加#VV  了#AS  20#CD  ～#NN  25#CD  倍#M  ，#PU  而#CC  其余#DT  的#DEG  成分#NN  如#AD  非脂乳#NN  固体#NN  （#PU  蛋白质#NN  、#PU  乳糖#NN  ）#PU  及#CC  水分#NN  都#AD  大大#AD  降低#VV  ，#PU  是#VC  维生素A#NN  和#CC  维生素D#NN  含量#NN  很#AD  高#VA  的#DEC  调料#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含量#NN, 奶油#NN)  (case, 奶油#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 增加#VV, 含量#NN)  (case, 牛奶#NN, 比#P)  (prep, 增加#VV, 牛奶#NN)  (root, ROOT#null, 增加#VV)  (asp, 增加#VV, 了#AS)  (nummod, ～#NN, 20#CD)  (nummod, 倍#M, 25#CD)  (range, 增加#VV, 倍#M)  (cc, 增加#VV, 而#CC)  (assmod, 成分#NN, 其余#DT)  (case, 其余#DT, 的#DEG)  (nsubj, 降低#VV, 成分#NN)  (advmod, 降低#VV, 如#AD)  (nn, 固体#NN, 非脂乳#NN)  (nn, 水分#NN, 固体#NN)  (conj, 乳糖#NN, 蛋白质#NN)  (conj, 水分#NN, 乳糖#NN)  (prnmod, 水分#NN, 乳糖#NN)  (cc, 水分#NN, 及#CC)  (nsubj, 降低#VV, 水分#NN)  (advmod, 降低#VV, 都#AD)  (advmod, 降低#VV, 大大#AD)  (conj, 增加#VV, 降低#VV)  (cop, 调料#NN, 是#VC)  (conj, 维生素D#NN, 维生素A#NN)  (cc, 维生素D#NN, 和#CC)  (nn, 含量#NN, 维生素D#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (relcl, 调料#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (conj, 增加#VV, 调料#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  增加骨密度  促进消化  美容养颜  抗癌防癌  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            奶油在所有动物性脂肪中是较佳的一种，奶油和牛奶成分大致相同，但各组成成分的含量都有了改变，其中奶油的脂肪含量比牛奶约增加了2025倍，而其余的成分如非脂乳固体（蛋白质、乳糖）及水分都大大降低。奶油的维生素A和维生素D含量很高，在人体内的消化吸收率较高，可达95%以上。
+        </rawdata>
+
+        <segment>
+            奶油  在  所有  动物性  脂肪  中  是  较  佳  的  一  种  ，  奶油  和  牛奶  成分  大致  相同  ，  但  各  组成  成分  的  含量  都  有  了  改变  ，  其中  奶油  的  脂肪  含量  比  牛奶  约  增加  了  2025  倍  ，  而  其余  的  成分  如  非脂乳  固体  （  蛋白质  、  乳糖  ）  及  水分  都  大大  降低  。  奶油  的  维生素A  和  维生素D  含量  很  高  ，  在  人体  内  的  消化  吸收率  较  高  ，  可达  95%  以上  。
+        </segment>
+
+        <pos>
+            奶油#NN  在#P  所有#DT  动物性#NN  脂肪#NN  中#LC  是#VC  较#AD  佳#VA  的#DEC  一#CD  种#M  ，#PU  奶油#NN  和#CC  牛奶#NN  成分#NN  大致#AD  相同#VA  ，#PU  但#AD  各#DT  组成#NN  成分#NN  的#DEG  含量#NN  都#AD  有#VE  了#AS  改变#NN  ，#PU  其中#NN  奶油#NN  的#DEG  脂肪#NN  含量#NN  比#P  牛奶#NN  约#AD  增加#VV  了#AS  2025#CD  倍#M  ，#PU  而#CC  其余#DT  的#DEG  成分#NN  如#AD  非脂乳#NN  固体#NN  （#PU  蛋白质#NN  、#PU  乳糖#NN  ）#PU  及#CC  水分#NN  都#AD  大大#AD  降低#VV    。#PU  奶油#NN  的#DEG  维生素A#NN  和#CC  维生素D#NN  含量#NN  很#AD  高#VA  ，#PU  在#P  人体#NN  内#LC  的#DEG  消化#NN  吸收率#NN  较#AD  高#VA  ，#PU  可达#VV  95#CD  %#NN  以上#LC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 是#VC, 奶油#NN)  (case, 脂肪#NN, 在#P)  (det, 脂肪#NN, 所有#DT)  (nn, 脂肪#NN, 动物性#NN)  (prep, 是#VC, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (root, ROOT#null, 是#VC)  (advmod, 佳#VA, 较#AD)  (dep, 种#M, 佳#VA)  (mark, 佳#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (conj, 牛奶#NN, 奶油#NN)  (cc, 牛奶#NN, 和#CC)  (nn, 成分#NN, 牛奶#NN)  (nsubj, 相同#VA, 成分#NN)  (advmod, 相同#VA, 大致#AD)  (conj, 是#VC, 相同#VA)  (advmod, 有#VE, 但#AD)  (det, 成分#NN, 各#DT)  (nn, 成分#NN, 组成#NN)  (assmod, 含量#NN, 成分#NN)  (case, 成分#NN, 的#DEG)  (nsubj, 有#VE, 含量#NN)  (advmod, 有#VE, 都#AD)  (conj, 是#VC, 有#VE)  (asp, 有#VE, 了#AS)  (dobj, 有#VE, 改变#NN)  (nn, 奶油#NN, 其中#NN)  (assmod, 含量#NN, 奶油#NN)  (case, 奶油#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 增加#VV, 含量#NN)  (case, 牛奶#NN, 比#P)  (prep, 增加#VV, 牛奶#NN)  (advmod, 增加#VV, 约#AD)  (conj, 是#VC, 增加#VV)  (asp, 增加#VV, 了#AS)  (nummod, 倍#M, 2025#CD)  (dep, 增加#VV, 倍#M)  (cc, 是#VC, 而#CC)  (assmod, 成分#NN, 其余#DT)  (case, 其余#DT, 的#DEG)  (nsubj, 降低#VV, 成分#NN)  (advmod, 降低#VV, 如#AD)  (nn, 固体#NN, 非脂乳#NN)  (nn, 水分#NN, 固体#NN)  (conj, 乳糖#NN, 蛋白质#NN)  (conj, 水分#NN, 乳糖#NN)  (prnmod, 水分#NN, 乳糖#NN)  (cc, 水分#NN, 及#CC)  (nsubj, 降低#VV, 水分#NN)  (advmod, 降低#VV, 都#AD)  (advmod, 降低#VV, 大大#AD)  (conj, 是#VC, 降低#VV)   (assmod, 含量#NN, 奶油#NN)  (case, 奶油#NN, 的#DEG)  (conj, 含量#NN, 维生素A#NN)  (cc, 含量#NN, 和#CC)  (nn, 含量#NN, 维生素D#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (case, 人体#NN, 在#P)  (assmod, 吸收率#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (nn, 吸收率#NN, 消化#NN)  (nsubj, 高#VA, 吸收率#NN)  (advmod, 高#VA, 较#AD)  (conj, 高#VA, 高#VA)  (dep, 高#VA, 可达#VV)  (nummod, %#NN, 95#CD)  (loc, 可达#VV, %#NN)  (case, %#NN, 以上#LC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            由鲜牛奶制成的奶油可以制作香滑美味的西餐、汤类、可口的咖啡、奶昔、奶茶以及甜点。
+            蛋糕房里用来制作蛋糕的“鲜奶油”根本与奶油无关，它的主要成分是植物奶精，实际上是氢化植物油、淀粉水解物、一些蛋白质成分和其他食品添加剂的混合物。氢化植物油含有“反式脂肪酸”，大量食用对心脏具有一定的危害，这在国际上已经形成共识，所以平时应尽量少吃。
+        </rawdata>
+
+        <segment>
+            由  鲜  牛奶  制成  的  奶油  可以  制作  香滑  美味  的  西餐  、  汤类  、  可口  的  咖啡  、  奶昔  、  奶茶  以及  甜点  。
+            蛋糕  房  里  用来  制作  蛋糕  的  “  鲜奶油  ”  根本  与  奶油  无关  ，  它  的  主要  成分  是  植物  奶精  ，  实际上  是  氢化  植物油  、  淀粉  水解  物  、  一些  蛋白质  成分  和  其他  食品  添加剂  的  混合物  。  氢化  植物油  含有  “  反式脂肪酸  ”  ，  大量  食用  对  心脏  具有  一定  的  危害  ，  这  在  国际  上  已经  形成  共识  ，  所以  平时  应  尽量  少吃  。
+        </segment>
+
+        <pos>
+            由#P  鲜#NN  牛奶#NN  制成#VV  的#DEC  奶油#NN  可以#VV  制作#VV  香滑#NN  美味#NN  的#DEG  西餐#NN  、#PU  汤类#NR  、#PU  可口#NN  的#DEG  咖啡#NR  、#PU  奶昔#NR  、#PU  奶茶#NR  以及#CC  甜点#NR  。#PU
+            蛋糕#NN  房#NN  里#LC  用来#AD  制作#VV  蛋糕#NN  的#DEC  ``#NN  鲜奶油#NN  ''#NN  根本#NN  与#CC  奶油#NN  无关#VV  ，#PU  它#PN  的#DEG  主要#JJ  成分#NN  是#VC  植物#NN  奶精#NN  ，#PU  实际上#AD  是#VC  氢化#NN  植物油#NN  、#PU  淀粉#NN  水解#NN  物#NN  、#PU  一些#CD  蛋白质#JJ  成分#NN  和#CC  其他#DT  食品#NN  添加剂#NN  的#DEG  混合物#NN    。#PU  氢化#NN  植物油#NN  含有#NN  ``#AD  反式脂肪酸#VV  ''#NN  ，#PU  大量#AD  食用#VV  对#P  心脏#NN  具有#VV  一定#JJ  的#DEG  危害#NN  ，#PU  这#PN  在#P  国际#NN  上#LC  已经#AD  形成#VV  共识#NN  ，#PU  所以#AD  平时#AD  应#VV  尽量#VV  少吃#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 牛奶#NN, 由#P)  (nn, 牛奶#NN, 鲜#NN)  (prep, 制成#VV, 牛奶#NN)  (relcl, 奶油#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (nsubj, 制作#VV, 奶油#NN)  (mmod, 制作#VV, 可以#VV)  (root, ROOT#null, 制作#VV)  (nn, 美味#NN, 香滑#NN)  (assmod, 西餐#NN, 美味#NN)  (case, 美味#NN, 的#DEG)  (conj, 甜点#NR, 西餐#NN)  (conj, 甜点#NR, 汤类#NR)  (assmod, 甜点#NR, 可口#NN)  (case, 可口#NN, 的#DEG)  (conj, 甜点#NR, 咖啡#NR)  (conj, 甜点#NR, 奶昔#NR)  (conj, 甜点#NR, 奶茶#NR)  (cc, 甜点#NR, 以及#CC)  (dobj, 制作#VV, 甜点#NR)
+            (nn, 房#NN, 蛋糕#NN)  (loc, 制作#VV, 房#NN)  (case, 房#NN, 里#LC)  (advmod, 制作#VV, 用来#AD)  (relcl, 奶油#NN, 制作#VV)  (dobj, 制作#VV, 蛋糕#NN)  (mark, 制作#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 鲜奶油#NN)  (nn, 奶油#NN, ''#NN)  (conj, 奶油#NN, 根本#NN)  (cc, 奶油#NN, 与#CC)  (nsubj, 无关#VV, 奶油#NN)  (root, ROOT#null, 无关#VV)  (assmod, 成分#NN, 它#PN)  (case, 它#PN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 奶精#NN, 成分#NN)  (cop, 奶精#NN, 是#VC)  (nn, 奶精#NN, 植物#NN)  (ccomp, 无关#VV, 奶精#NN)  (advmod, 混合物#NN, 实际上#AD)  (cop, 混合物#NN, 是#VC)  (nn, 植物油#NN, 氢化#NN)  (conj, 食品#NN, 植物油#NN)  (nn, 物#NN, 淀粉#NN)  (nn, 物#NN, 水解#NN)  (conj, 食品#NN, 物#NN)  (nummod, 成分#NN, 一些#CD)  (amod, 成分#NN, 蛋白质#JJ)  (conj, 食品#NN, 成分#NN)  (cc, 食品#NN, 和#CC)  (det, 食品#NN, 其他#DT)  (nn, 添加剂#NN, 食品#NN)  (assmod, 混合物#NN, 添加剂#NN)  (case, 添加剂#NN, 的#DEG)  (conj, 奶精#NN, 混合物#NN)   (nn, 含有#NN, 氢化#NN)  (nn, 含有#NN, 植物油#NN)  (nsubj, 反式脂肪酸#VV, 含有#NN)  (advmod, 反式脂肪酸#VV, ``#AD)  (dep, 尽量#VV, 反式脂肪酸#VV)  (dobj, 反式脂肪酸#VV, ''#NN)  (advmod, 食用#VV, 大量#AD)  (dep, 具有#VV, 食用#VV)  (case, 心脏#NN, 对#P)  (prep, 具有#VV, 心脏#NN)  (conj, 反式脂肪酸#VV, 具有#VV)  (assmod, 危害#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 具有#VV, 危害#NN)  (nsubj, 形成#VV, 这#PN)  (case, 国际#NN, 在#P)  (prep, 形成#VV, 国际#NN)  (case, 国际#NN, 上#LC)  (advmod, 形成#VV, 已经#AD)  (conj, 反式脂肪酸#VV, 形成#VV)  (dobj, 形成#VV, 共识#NN)  (advmod, 尽量#VV, 所以#AD)  (advmod, 尽量#VV, 平时#AD)  (mmod, 尽量#VV, 应#VV)  (root, ROOT#null, 尽量#VV)  (dobj, 尽量#VV, 少吃#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/08182821802.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\69 奶油.jpg
+    </picturelocalurl>
+
+</content>

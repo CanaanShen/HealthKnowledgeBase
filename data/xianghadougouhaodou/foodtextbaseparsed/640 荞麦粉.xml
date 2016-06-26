@@ -1,0 +1,368 @@
+<content>
+
+    <id>
+        640
+    </id>
+
+    <foodname>
+        荞麦粉
+    </foodname>
+
+    <firstcategory>
+        谷类
+    </firstcategory>
+
+    <secondcategory>
+        杂粮
+    </secondcategory>
+
+    <alias>
+        荞麦面
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            1.人群均可食用，对于糖尿病人更为适宜。
+            2.适宜食欲不振、饮食不香、肠胃积滞、慢性泄泻、出黄汗之人和夏季痧症者食用。
+        </rawdata>
+
+        <segment>
+            人群  均  可  食用  ，  对于  糖尿病人  更为  适宜  。
+            适宜  食欲  不振  、  饮食  不  香  、  肠胃  积滞  、  慢性  泄泻  、  出黄  汗  之  人和  夏季  痧症者  食用  。
+        </segment>
+
+        <pos>
+            人群#NN  均#AD  可#VV  食用#VV  ，#PU  对于#P  糖尿病人#NN  更为#AD  适宜#VA  。#PU
+            适宜#VA  食欲#VA  不振#VV  、#PU  饮食#NN  不#AD  香#VA  、#PU  肠胃#VV  积滞#NR  、#PU  慢性#NR  泄泻#NR  、#PU  出黄#NR  汗#NN  之#DEC  人和#NN  夏季#NT  痧症者#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (case, 糖尿病人#NN, 对于#P)  (prep, 适宜#VA, 糖尿病人#NN)  (advmod, 适宜#VA, 更为#AD)  (dep, 食用#VV, 适宜#VA)
+            (relcl, 人和#NN, 适宜#VA)  (comod, 适宜#VA, 食欲#VA)  (dep, 适宜#VA, 不振#VV)  (nsubj, 香#VA, 饮食#NN)  (neg, 香#VA, 不#AD)  (dep, 适宜#VA, 香#VA)  (conj, 适宜#VA, 肠胃#VV)  (conj, 出黄#NR, 积滞#NR)  (nn, 出黄#NR, 慢性#NR)  (conj, 出黄#NR, 泄泻#NR)  (nn, 汗#NN, 出黄#NR)  (dobj, 肠胃#VV, 汗#NN)  (mark, 适宜#VA, 之#DEC)  (nsubj, 痧症者#VV, 人和#NN)  (tmod, 痧症者#VV, 夏季#NT)  (root, ROOT#null, 痧症者#VV)  (ccomp, 痧症者#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                食部
+            </elename>
+            <elevalue>
+                100%
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水分(克)
+            </elename>
+            <elevalue>
+                19.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量(千卡)
+            </elename>
+            <elevalue>
+                316
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                9.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不溶性纤维(克)
+            </elename>
+            <elevalue>
+                5.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                灰分(克)
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                尼克酸(毫克)
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E(毫克)
+            </elename>
+            <elevalue>
+                1.73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙(毫克)
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                244
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                320
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                4.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                2.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                5.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.89
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                1.31
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            莜麦禾谷类作物，学名裸燕麦，根据播种期早晚分为夏征麦和秋蔽麦。莜麦籽粒瘦长，有腹沟，表面生有茸毛，尤以顶部显著，形状为筒形或纺锤形，莜麦是营养丰富的粮食作物，在禾谷类作物中蛋白质含量最高，且含有人体必需的8种氨基酸，其组成也较平衡。由于莜麦营养丰富，耐饥抗寒，在自治区西部被誉为一宝。
+        </rawdata>
+
+        <segment>
+            莜麦  禾  谷类  作物  ，  学名裸  燕麦  ，  根据  播种期  早晚  分为  夏征  麦  和  秋蔽麦  。  莜麦  籽粒  瘦长  ，  有  腹沟  ，  表面生  有  茸毛  ，  尤以  顶部  显著  ，  形状  为  筒形  或  纺锤形  ，  莜麦  是  营养  丰富  的  粮食  作物  ，  在  禾  谷类  作物  中  蛋白质  含量  最高  ，  且  含有  人体  必需  的  8  种  氨基酸  ，  其  组成  也  较  平衡  。  由于  莜麦  营养  丰富  ，  耐饥  抗寒  ，  在  自治区  西部  被  誉为  一  宝  。
+        </segment>
+
+        <pos>
+            莜麦#NN  禾#AD  谷类#VV  作物#NN  ，#PU  学名裸#VV  燕麦#NN  ，#PU  根据#P  播种期#NN  早晚#NN  分为#VV  夏征#NN  麦#NN  和#CC  秋蔽麦#NN    。#PU  莜麦#NN  籽粒#NN  瘦长#VV  ，#PU  有#VE  腹沟#NN  ，#PU  表面生#NR  有#VE  茸毛#NN  ，#PU  尤以#NN  顶部#NN  显著#VA  ，#PU  形状#NN  为#VC  筒形#CD  或#CC  纺锤形#CD  ，#PU  莜麦#NR  是#VC  营养#VA  丰富#VA  的#DEC  粮食#NN  作物#NN  ，#PU  在#P  禾#NN  谷类#NN  作物#NN  中#LC  蛋白质#VV  含量#NN  最高#JJ  ，#PU  且#CC  含有#VV  人体#AD  必需#VV  的#DEC  8#CD  种#M  氨基酸#NN  ，#PU  其#PN  组成#VV  也#AD  较#AD  平衡#VA    。#PU  由于#P  莜麦#AD  营养#VA  丰富#VA  ，#PU  耐饥#AD  抗寒#VA  ，#PU  在#P  自治区#NN  西部#NN  被#SB  誉为#VV  一#CD  宝#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 谷类#VV, 莜麦#NN)  (advmod, 谷类#VV, 禾#AD)  (root, ROOT#null, 谷类#VV)  (dobj, 谷类#VV, 作物#NN)  (conj, 谷类#VV, 学名裸#VV)  (dobj, 学名裸#VV, 燕麦#NN)  (case, 早晚#NN, 根据#P)  (nn, 早晚#NN, 播种期#NN)  (prep, 分为#VV, 早晚#NN)  (conj, 谷类#VV, 分为#VV)  (nn, 秋蔽麦#NN, 夏征#NN)  (conj, 秋蔽麦#NN, 麦#NN)  (cc, 秋蔽麦#NN, 和#CC)  (dobj, 分为#VV, 秋蔽麦#NN)   (nn, 籽粒#NN, 莜麦#NN)  (nsubj, 瘦长#VV, 籽粒#NN)  (root, ROOT#null, 瘦长#VV)  (ccomp, 瘦长#VV, 有#VE)  (dobj, 有#VE, 腹沟#NN)  (dep, 有#VE, 表面生#NR)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 茸毛#NN)  (nn, 顶部#NN, 尤以#NN)  (nsubj, 显著#VA, 顶部#NN)  (conj, 有#VE, 显著#VA)  (nsubj, 为#VC, 形状#NN)  (conj, 有#VE, 为#VC)  (nummod, 纺锤形#CD, 筒形#CD)  (cc, 纺锤形#CD, 或#CC)  (dep, 为#VC, 纺锤形#CD)  (nsubj, 作物#NN, 莜麦#NR)  (cop, 作物#NN, 是#VC)  (relcl, 作物#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (nn, 作物#NN, 粮食#NN)  (conj, 有#VE, 作物#NN)  (case, 作物#NN, 在#P)  (nn, 作物#NN, 禾#NN)  (nn, 作物#NN, 谷类#NN)  (prep, 蛋白质#VV, 作物#NN)  (case, 作物#NN, 中#LC)  (conj, 有#VE, 蛋白质#VV)  (dobj, 蛋白质#VV, 含量#NN)  (dep, 蛋白质#VV, 最高#JJ)  (cc, 最高#JJ, 且#CC)  (dep, 最高#JJ, 含有#VV)  (advmod, 必需#VV, 人体#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含有#VV, 氨基酸#NN)  (nsubj, 平衡#VA, 其#PN)  (mmod, 平衡#VA, 组成#VV)  (advmod, 平衡#VA, 也#AD)  (advmod, 平衡#VA, 较#AD)  (dep, 有#VE, 平衡#VA)   (case, 营养#VA, 由于#P)  (advmod, 营养#VA, 莜麦#AD)  (prep, 誉为#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 抗寒#VA, 耐饥#AD)  (dep, 营养#VA, 抗寒#VA)  (case, 自治区#NN, 在#P)  (prep, 誉为#VV, 自治区#NN)  (nsubjpass, 誉为#VV, 西部#NN)  (auxpass, 誉为#VV, 被#SB)  (root, ROOT#null, 誉为#VV)  (nummod, 宝#NN, 一#CD)  (dobj, 誉为#VV, 宝#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            有益气力，续精神，利耳目、降气宽肠，健胃之功效。可催乳、降低胆固醇、预防心脏病、糖尿病、对中老年人常见的心脑血管疾病有一定的预防作用。
+        </rawdata>
+
+        <segment>
+            有益  气力  ，  续  精神  ，  利  耳目  、  降  气宽肠  ，  健胃  之  功效  。  可  催乳  、  降低  胆固醇  、  预防  心脏病  、  糖尿病  、  对  中老年人  常见  的  心脑  血管  疾病  有  一定  的  预防  作用  。
+        </segment>
+
+        <pos>
+            有益#VA  气力#VA  ，#PU  续#NN  精神#NN  ，#PU  利#NR  耳目#NN  、#PU  降#NN  气宽肠#VA  ，#PU  健胃#VA  之#DEC  功效#NN    。#PU  可#VV  催乳#NN  、#PU  降低#VV  胆固醇#NN  、#PU  预防#NN  心脏病#NN  、#PU  糖尿病#NN  、#PU  对#P  中老年人#AD  常见#VA  的#DEC  心脑#NN  血管#NN  疾病#NN  有#VE  一定#JJ  的#DEG  预防#NN  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 功效#NN, 有益#VA)  (comod, 有益#VA, 气力#VA)  (nn, 精神#NN, 续#NN)  (nsubj, 气宽肠#VA, 精神#NN)  (nn, 降#NN, 利#NR)  (conj, 降#NN, 耳目#NN)  (nsubj, 气宽肠#VA, 降#NN)  (ccomp, 有益#VA, 气宽肠#VA)  (conj, 气宽肠#VA, 健胃#VA)  (mark, 有益#VA, 之#DEC)  (root, ROOT#null, 功效#NN)   (root, ROOT#null, 可#VV)  (dobj, 可#VV, 催乳#NN)  (conj, 可#VV, 降低#VV)  (conj, 糖尿病#NN, 胆固醇#NN)  (nn, 糖尿病#NN, 预防#NN)  (conj, 糖尿病#NN, 心脏病#NN)  (dobj, 降低#VV, 糖尿病#NN)  (case, 疾病#NN, 对#P)  (advmod, 常见#VA, 中老年人#AD)  (relcl, 疾病#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (prep, 有#VE, 疾病#NN)  (conj, 可#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.养麦面含有70%的淀粉和7%-13%的蛋白质，且其蛋白质中的氨基酸组成比较平衡，赖氨酸、苏氨酸的含量较丰富。荞麦面含有脂肪2％－3％，其中对人体有益的汕酸、亚油酸含量也很高。这两种脂肪酸在人体内起着降低血脂的作用，同时又是一种重要激素—前列腺素的重要组成部分。
+            2.荞麦面中的维生素D1、B2是小麦粉的3—20倍，为一般谷物所罕见。荞麦面的最大营养特点是一般食物很少具备的，即同时含有大量烟酸和芦丁。这两种物质都具有降低血脂和血清胆固醇的作用，对高血压和心脏病有重要的防治作用，是治疗心血管病的良药。
+            3.荞麦面还含有较多的矿物质，特别是磷、铁、镁，对于维持人体心血管系统和造血系统的正常生理功能具有重要意义。
+            4.每100克的能量约为1411千焦。
+        </rawdata>
+
+        <segment>
+            养麦面  含有  70%  的  淀粉  和  7%  -13%  的  蛋白质  ，  且  其  蛋白质  中  的  氨基酸  组成  比较  平衡  ，  赖氨酸  、  苏氨酸  的  含量  较  丰富  。  荞麦  面  含有  脂肪  2％  －3％  ，  其中  对  人体  有益  的  汕酸  、  亚油酸  含量  也  很  高  。  这  两  种  脂肪酸  在  人体  内  起着  降低  血脂  的  作用  ，  同时  又  是  一  种  重要  激素  —  前列腺素  的  重要  组成  部分  。
+            荞麦  面  中  的  维生素  D  B2  是  小麦粉  的  3  —  20  倍  ，  为  一般  谷物  所  罕见  。  荞麦  面的  最大  营养  特点  是  一般  食物  很少  具备  的  ，  即  同时  含有  大量  烟酸  和  芦丁  。  这  两  种  物质  都  具有  降低  血脂  和  血清  胆固醇  的  作用  ，  对  高血压  和  心脏病  有  重要  的  防治  作用  ，  是  治疗  心血管病  的  良药  。
+            荞麦  面  还  含有  较多  的  矿物质  ，  特别是  磷  、  铁  、  镁  ，  对于  维持  人体  心血管  系统  和  造血  系统  的  正常  生理  功能  具有  重要  意义  。
+            每  100  克  的  能量  约  为  1411千焦  。
+        </segment>
+
+        <pos>
+            养麦面#NN  含有#VV  70#CD  %#NN  的#DEG  淀粉#NN  和#CC  7#CD  %#NN  -13#CD  %#NN  的#DEG  蛋白质#NN  ，#PU  且#CC  其#PN  蛋白质#NN  中#LC  的#DEG  氨基酸#NN  组成#NN  比较#AD  平衡#VA  ，#PU  赖氨酸#NN  、#PU  苏氨酸#NN  的#DEG  含量#NN  较#AD  丰富#VA    。#PU  荞麦#CD  面#M  含有#NN  脂肪#NN  2#CD  ％#CD  －#PU  3#CD  ％#NN  ，#PU  其中#NN  对#P  人体#NN  有益#VA  的#DEC  汕酸#NN  、#PU  亚油酸#NN  含量#NN  也#AD  很#AD  高#VA    。#PU  这#DT  两#CD  种#M  脂肪酸#NN  在#P  人体#NN  内#LC  起着#VV  降低#VV  血脂#NN  的#DEC  作用#NN  ，#PU  同时#AD  又#AD  是#VC  一#CD  种#M  重要#JJ  激素#NN  --#NN  前列腺素#NN  的#DEG  重要#JJ  组成#NN  部分#NN    。#PU    。#PU
+            荞麦#VV  面#NN  中#LC  的#DEG  维生素#NN  D#VV  B2#CD  是#VC  小麦粉#NN  的#DEC  3#CD  --#NN  20#CD  倍#M  ，#PU  为#P  一般#JJ  谷物#NN  所#MSP  罕见#VA    。#PU  荞麦#NN  面的#NN  最大#JJ  营养#VA  特点#NN  是#VC  一般#JJ  食物#NN  很少#AD  具备#VV  的#DEC  ，#PU  即#AD  同时#AD  含有#VV  大量#CD  烟酸#NN  和#CC  芦丁#NN    。#PU  这#DT  两#CD  种#M  物质#NN  都#AD  具有#VV  降低#VV  血脂#NN  和#CC  血清#NN  胆固醇#NN  的#DEC  作用#NN  ，#PU  对#P  高血压#NN  和#CC  心脏病#NN  有#VE  重要#VA  的#DEC  防治#NN  作用#NN  ，#PU  是#VC  治疗#VV  心血管病#NN  的#DEC  良药#NN    。#PU    。#PU
+            荞麦#CD  面#M  还#AD  含有#VV  较多#NN  的#DEG  矿物质#NN  ，#PU  特别是#AD  磷#NN  、#PU  铁#NN  、#PU  镁#NN  ，#PU  对于#P  维持#VV  人体#NN  心血管#NN  系统#NN  和#CC  造血#NN  系统#NN  的#DEG  正常#JJ  生理#NN  功能#NN  具有#VV  重要#JJ  意义#NN  。#PU
+            每#DT  100#CD  克#M  的#DEG  能量#NN  约#AD  为#VC  1411千焦#CD  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 养麦面#NN)  (root, ROOT#null, 含有#VV)  (nummod, %#NN, 70#CD)  (assmod, 淀粉#NN, %#NN)  (case, %#NN, 的#DEG)  (conj, %#NN, 淀粉#NN)  (cc, %#NN, 和#CC)  (nummod, %#NN, 7#CD)  (nn, %#NN, %#NN)  (nummod, %#NN, -13#CD)  (assmod, 蛋白质#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 含有#VV, 蛋白质#NN)  (cc, 含有#VV, 且#CC)  (nn, 组成#NN, 其#PN)  (assmod, 组成#NN, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (case, 蛋白质#NN, 的#DEG)  (nn, 组成#NN, 氨基酸#NN)  (nsubj, 平衡#VA, 组成#NN)  (advmod, 平衡#VA, 比较#AD)  (conj, 含有#VV, 平衡#VA)  (conj, 苏氨酸#NN, 赖氨酸#NN)  (assmod, 含量#NN, 苏氨酸#NN)  (case, 苏氨酸#NN, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 较#AD)  (conj, 平衡#VA, 丰富#VA)   (nummod, 面#M, 荞麦#CD)  (clf, 脂肪#NN, 面#M)  (nn, 脂肪#NN, 含有#NN)  (nn, ％#NN, 脂肪#NN)  (nummod, ％#NN, 2#CD)  (nummod, 3#CD, ％#CD)  (nummod, ％#NN, 3#CD)  (nsubj, 有益#VA, ％#NN)  (nsubj, 有益#VA, 其中#NN)  (case, 人体#NN, 对#P)  (prep, 有益#VA, 人体#NN)  (relcl, 含量#NN, 有益#VA)  (mark, 有益#VA, 的#DEC)  (conj, 亚油酸#NN, 汕酸#NN)  (nn, 含量#NN, 亚油酸#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)   (det, 脂肪酸#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 起着#VV, 脂肪酸#NN)  (case, 人体#NN, 在#P)  (prep, 起着#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (root, ROOT#null, 起着#VV)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 起着#VV, 作用#NN)  (advmod, 部分#NN, 同时#AD)  (advmod, 部分#NN, 又#AD)  (cop, 部分#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 激素#NN, 种#M)  (amod, 激素#NN, 重要#JJ)  (nn, 前列腺素#NN, 激素#NN)  (assmod, 部分#NN, 前列腺素#NN)  (case, 前列腺素#NN, 的#DEG)  (amod, 部分#NN, 重要#JJ)  (nn, 部分#NN, 组成#NN)  (conj, 起着#VV, 部分#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 荞麦#VV)  (assmod, 维生素#NN, 面#NN)  (case, 面#NN, 中#LC)  (case, 面#NN, 的#DEG)  (dobj, 荞麦#VV, 维生素#NN)  (conj, 荞麦#VV, D#VV)  (nummod, --#NN, B2#CD)  (cop, 小麦粉#NN, 是#VC)  (relcl, --#NN, 小麦粉#NN)  (mark, 小麦粉#NN, 的#DEC)  (nummod, --#NN, 3#CD)  (nummod, 倍#M, 20#CD)  (range, D#VV, 倍#M)  (case, 谷物#NN, 为#P)  (amod, 谷物#NN, 一般#JJ)  (prep, 罕见#VA, 谷物#NN)  (prtmod, 罕见#VA, 所#MSP)  (dep, 荞麦#VV, 罕见#VA)   (nn, 面的#NN, 荞麦#NN)  (nn, 特点#NN, 面的#NN)  (amod, 特点#NN, 最大#JJ)  (relcl, 面的#NN, 营养#VA)  (relcl, 特点#NN, 营养#VA)  (nsubj, 具备#VV, 特点#NN)  (cop, 具备#VV, 是#VC)  (amod, 食物#NN, 一般#JJ)  (nsubj, 具备#VV, 食物#NN)  (advmod, 具备#VV, 很少#AD)  (root, ROOT#null, 具备#VV)  (mark, 具备#VV, 的#DEC)  (advmod, 含有#VV, 即#AD)  (advmod, 含有#VV, 同时#AD)  (conj, 具备#VV, 含有#VV)  (nummod, 芦丁#NN, 大量#CD)  (conj, 芦丁#NN, 烟酸#NN)  (cc, 芦丁#NN, 和#CC)  (dobj, 含有#VV, 芦丁#NN)   (det, 物质#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 具有#VV, 物质#NN)  (advmod, 具有#VV, 都#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 降低#VV)  (conj, 胆固醇#NN, 血脂#NN)  (cc, 胆固醇#NN, 和#CC)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (case, 心脏病#NN, 对#P)  (conj, 心脏病#NN, 高血压#NN)  (cc, 心脏病#NN, 和#CC)  (prep, 有#VE, 心脏病#NN)  (conj, 具有#VV, 有#VE)  (relcl, 作用#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 作用#NN, 防治#NN)  (dobj, 有#VE, 作用#NN)  (cop, 良药#NN, 是#VC)  (relcl, 良药#NN, 治疗#VV)  (dobj, 治疗#VV, 心血管病#NN)  (mark, 治疗#VV, 的#DEC)  (conj, 具有#VV, 良药#NN)   (root, ROOT#null, null#null)
+            (nummod, 面#M, 荞麦#CD)  (nsubj, 含有#VV, 面#M)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 矿物质#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 镁#NN, 特别是#AD)  (conj, 镁#NN, 磷#NN)  (conj, 镁#NN, 铁#NN)  (nsubj, 具有#VV, 镁#NN)  (case, 维持#VV, 对于#P)  (prep, 具有#VV, 维持#VV)  (nn, 系统#NN, 人体#NN)  (nn, 系统#NN, 心血管#NN)  (conj, 系统#NN, 系统#NN)  (cc, 系统#NN, 和#CC)  (nn, 系统#NN, 造血#NN)  (assmod, 功能#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (amod, 功能#NN, 正常#JJ)  (nn, 功能#NN, 生理#NN)  (dobj, 维持#VV, 功能#NN)  (conj, 含有#VV, 具有#VV)  (amod, 意义#NN, 重要#JJ)  (dobj, 具有#VV, 意义#NN)
+            (assmod, 能量#NN, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (case, 每#DT, 的#DEG)  (nsubj, 为#VC, 能量#NN)  (advmod, 为#VC, 约#AD)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 1411千焦#CD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.荞麦面看起来色泽不佳，但用它做成扒糕或面条，佐以麻酱或羊肉汤，别具一番风味；
+            2.荞麦去壳后可直接烧制荞麦米饭，荞麦磨成粉可做糕饼、面条、水饺皮、凉粉等，荞麦还可作麦片和糖果的原料。
+            3.荞麦的嫩叶可作蔬菜食用。
+            4.荞麦粒可以用来煮粥。
+            5.荞麦面忌黄鱼、猪肝，荞麦性寒，黄鱼，易致消化不良。
+            6.荞麦中所含蛋白质及其他过敏物质，可引起某些人的过敏反应，凡体质易过敏者当慎重或不食荞麦。
+        </rawdata>
+
+        <segment>
+            荞麦  面  看  起来  色泽  不  佳  ，  但  用  它  做成  扒糕  或  面条  ，  佐以  麻酱  或  羊肉汤  ，  别  具  一  番  风味  ；
+            荞麦  去壳  后  可  直接  烧制  荞麦  米饭  ，  荞麦  磨成粉  可做  糕饼  、  面条  、  水饺  皮  、  凉粉  等  ，  荞麦  还  可作  麦片  和  糖果  的  原料  。
+            荞麦  的  嫩叶  可作  蔬菜  食用  。
+            荞麦  粒  可以  用来  煮粥  。
+            荞麦  面忌  黄鱼  、  猪肝  ，  荞麦  性寒  ，  黄鱼  ，  易致  消化不良  。
+            荞麦  中  所  含  蛋白质  及  其他  过敏  物质  ，  可  引起  某些  人  的  过敏  反应  ，  凡  体质  易  过敏  者  当  慎重  或不  食  荞麦  。
+        </segment>
+
+        <pos>
+            荞麦#NN  面#NN  看#VV  起来#VV  色泽#NN  不#AD  佳#VA  ，#PU  但#AD  用#P  它#PN  做成#VV  扒糕#NN  或#CC  面条#NN  ，#PU  佐以#VV  麻酱#NN  或#CC  羊肉汤#NN  ，#PU  别#DT  具#VV  一#CD  番#M  风味#NN  ；#PU
+            荞麦#NN  去壳#NN  后#LC  可#VV  直接#AD  烧制#VV  荞麦#NN  米饭#NN  ，#PU  荞麦#NN  磨成粉#NN  可做#VV  糕饼#NR  、#PU  面条#NR  、#PU  水饺#NR  皮#NR  、#PU  凉粉#NR  等#ETC  ，#PU  荞麦#NN  还#AD  可作#VV  麦片#NN  和#CC  糖果#NN  的#DEG  原料#NN  。#PU
+            荞麦#NN  的#DEG  嫩叶#NN  可作#VV  蔬菜#NN  食用#VV  。#PU
+            荞麦#NN  粒#NN  可以#VV  用来#VV  煮粥#NN  。#PU
+            荞麦#NR  面忌#NR  黄鱼#NR  、#PU  猪肝#NR  ，#PU  荞麦#NR  性寒#VV  ，#PU  黄鱼#NN  ，#PU  易致#AD  消化不良#VV  。#PU
+            荞麦#NN  中#LC  所#MSP  含#VV  蛋白质#NN  及#CC  其他#DT  过敏#NN  物质#NN  ，#PU  可#VV  引起#VV  某些#DT  人#NN  的#DEG  过敏#NN  反应#NN  ，#PU  凡#AD  体质#NN  易#AD  过敏#VV  者#NN  当#P  慎重#NN  或不#VV  食#NN  荞麦#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 面#NN, 荞麦#NN)  (nsubj, 佳#VA, 面#NN)  (ccomp, 佳#VA, 看#VV)  (rcomp, 看#VV, 起来#VV)  (nsubj, 佳#VA, 色泽#NN)  (neg, 佳#VA, 不#AD)  (root, ROOT#null, 佳#VA)  (advmod, 做成#VV, 但#AD)  (case, 它#PN, 用#P)  (prep, 做成#VV, 它#PN)  (conj, 佳#VA, 做成#VV)  (conj, 面条#NN, 扒糕#NN)  (cc, 面条#NN, 或#CC)  (dobj, 做成#VV, 面条#NN)  (dep, 做成#VV, 佐以#VV)  (conj, 羊肉汤#NN, 麻酱#NN)  (cc, 羊肉汤#NN, 或#CC)  (dobj, 佐以#VV, 羊肉汤#NN)  (dep, 具#VV, 别#DT)  (conj, 做成#VV, 具#VV)  (nummod, 番#M, 一#CD)  (clf, 风味#NN, 番#M)  (dobj, 具#VV, 风味#NN)
+            (nn, 去壳#NN, 荞麦#NN)  (loc, 烧制#VV, 去壳#NN)  (case, 去壳#NN, 后#LC)  (mmod, 烧制#VV, 可#VV)  (advmod, 烧制#VV, 直接#AD)  (root, ROOT#null, 烧制#VV)  (nn, 米饭#NN, 荞麦#NN)  (dobj, 烧制#VV, 米饭#NN)  (nn, 磨成粉#NN, 荞麦#NN)  (nsubj, 可做#VV, 磨成粉#NN)  (conj, 烧制#VV, 可做#VV)  (conj, 凉粉#NR, 糕饼#NR)  (conj, 凉粉#NR, 面条#NR)  (nn, 凉粉#NR, 水饺#NR)  (conj, 凉粉#NR, 皮#NR)  (dobj, 可做#VV, 凉粉#NR)  (etc, 凉粉#NR, 等#ETC)  (nsubj, 可作#VV, 荞麦#NN)  (advmod, 可作#VV, 还#AD)  (conj, 烧制#VV, 可作#VV)  (conj, 糖果#NN, 麦片#NN)  (cc, 糖果#NN, 和#CC)  (assmod, 原料#NN, 糖果#NN)  (case, 糖果#NN, 的#DEG)  (dobj, 可作#VV, 原料#NN)
+            (assmod, 嫩叶#NN, 荞麦#NN)  (case, 荞麦#NN, 的#DEG)  (nsubj, 可作#VV, 嫩叶#NN)  (root, ROOT#null, 可作#VV)  (nsubj, 食用#VV, 蔬菜#NN)  (ccomp, 可作#VV, 食用#VV)
+            (nn, 粒#NN, 荞麦#NN)  (nsubj, 用来#VV, 粒#NN)  (mmod, 用来#VV, 可以#VV)  (root, ROOT#null, 用来#VV)  (dobj, 用来#VV, 煮粥#NN)
+            (nn, 猪肝#NR, 荞麦#NR)  (nn, 猪肝#NR, 面忌#NR)  (conj, 猪肝#NR, 黄鱼#NR)  (nsubj, 性寒#VV, 猪肝#NR)  (nsubj, 性寒#VV, 荞麦#NR)  (root, ROOT#null, 性寒#VV)  (nsubj, 消化不良#VV, 黄鱼#NN)  (advmod, 消化不良#VV, 易致#AD)  (ccomp, 性寒#VV, 消化不良#VV)
+            (loc, 含#VV, 荞麦#NN)  (case, 荞麦#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (conj, 物质#NN, 蛋白质#NN)  (cc, 物质#NN, 及#CC)  (det, 过敏#NN, 其他#DT)  (nn, 物质#NN, 过敏#NN)  (dobj, 含#VV, 物质#NN)  (mmod, 引起#VV, 可#VV)  (dep, 含#VV, 引起#VV)  (det, 人#NN, 某些#DT)  (assmod, 反应#NN, 人#NN)  (case, 人#NN, 的#DEG)  (nn, 反应#NN, 过敏#NN)  (dobj, 引起#VV, 反应#NN)  (advmod, 者#NN, 凡#AD)  (nsubj, 过敏#VV, 体质#NN)  (advmod, 过敏#VV, 易#AD)  (relcl, 者#NN, 过敏#VV)  (nsubj, 或不#VV, 者#NN)  (case, 慎重#NN, 当#P)  (prep, 或不#VV, 慎重#NN)  (conj, 含#VV, 或不#VV)  (nn, 荞麦#NN, 食#NN)  (dobj, 或不#VV, 荞麦#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/82/pe_c.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\640 荞麦粉.jpg
+    </picturelocalurl>
+
+</content>

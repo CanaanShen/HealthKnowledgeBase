@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        265
+    </id>
+
+    <foodname>
+        木耳
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        黑木耳、云耳、桑耳、松耳、中国黑真菌
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有出血性疾病、腹泻者、孕妇慎食。
+        </rawdata>
+
+        <segment>
+            有  出  血性  疾病  、  腹泻者  、  孕妇  慎食  。
+        </segment>
+
+        <pos>
+            有#VE  出#VV  血性#NN  疾病#NN  、#PU  腹泻者#NN  、#PU  孕妇#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (dep, 有#VE, 出#VV)  (nn, 慎食#NN, 血性#NN)  (conj, 慎食#NN, 疾病#NN)  (conj, 慎食#NN, 腹泻者#NN)  (nn, 慎食#NN, 孕妇#NN)  (dobj, 出#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜心脑血管疾病、结石症患者食用，特别适合缺铁的人士、矿工、冶金工人、纺织工、理发师食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  心脑  血管  疾病  、  结石  症患者  食用  ，  特别  适合  缺  铁  的  人士  、  矿工  、  冶金  工人  、  纺织工  、  理发师  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  心脑#NN  血管#NN  疾病#NN  、#PU  结石#AD  症患者#AD  食用#VV  ，#PU  特别#AD  适合#VV  缺#VV  铁#NN  的#DEC  人士#NN  、#PU  矿工#NN  、#PU  冶金#NN  工人#NN  、#PU  纺织工#NN  、#PU  理发师#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (relcl, 理发师#NN, 适宜#VV)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 适宜#VV, 疾病#NN)  (advmod, 食用#VV, 结石#AD)  (advmod, 食用#VV, 症患者#AD)  (conj, 适宜#VV, 食用#VV)  (advmod, 适合#VV, 特别#AD)  (conj, 适宜#VV, 适合#VV)  (dep, 适合#VV, 缺#VV)  (dobj, 缺#VV, 铁#NN)  (mark, 适宜#VV, 的#DEC)  (conj, 冶金#NN, 人士#NN)  (conj, 冶金#NN, 矿工#NN)  (nn, 理发师#NN, 冶金#NN)  (conj, 理发师#NN, 工人#NN)  (conj, 理发师#NN, 纺织工#NN)  (nsubj, 食用#VV, 理发师#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                12.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                65.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                29.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                100
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                11.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                247
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                292
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                757
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                48.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                152
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                97.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                3.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                8.86
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            木耳，为木耳属的食用菌，是子实体胶质，成圆盘形，耳形不规则形，直径3-12厘米。新鲜时软，干后成角 质。口感细嫩，风味特殊，是一种营养丰富的著名食用菌。它的别名很多，因生长于腐木之上，其形似人的耳朵，故名木耳；又似蛾蝶玉立，又名木蛾；因它的味道有如鸡肉鲜美，故亦名树鸡、木机（古南楚人谓鸡为机）：重瓣的木耳在树上互相镶嵌，宛如片片浮云，又有云耳之称。
+            人们经常食用的木耳，主要有两种：一种是腹面平滑、色黑、而背面多毛呈灰色或灰褐色的，称毛木耳（通称野木耳）；另一种是两面光滑、黑褐色、半透明的，称为光木耳（也称黑木耳）。毛木耳朵较大，但质地粗韧，不易嚼碎，味不佳，价格低廉。光木耳质软味鲜，滑而带爽，营养丰富，是人工大量栽培的一种。
+            黑木耳营养极为丰富，据史料记载，它是上古时代帝王独享之佳品。主要分布于黑龙江、福建、台湾、湖北、广东、广西、四川、贵州、云南等地。生长于栎、杨、榕、槐等120多种阔叶树的腐木上，单生或群生。目前人工培植以椴木的和袋料的为主。
+        </rawdata>
+
+        <segment>
+            木耳  ，  为  木耳  属  的  食用菌  ，  是  子  实体  胶质  ，  成  圆盘形  ，  耳  形  不  规则  形  ，  直径  3  -  12  厘米  。  新鲜  时  软  ，  干  后成  角  质  。  口感  细嫩  ，  风味  特殊  ，  是  一  种  营养  丰富  的  著名  食用菌  。  它  的  别名  很多  ，  因  生长  于腐木  之上  ，  其  形似  人  的  耳朵  ，  故名  木耳  ；  又  似  蛾蝶  玉立  ，  又  名  木蛾  ；  因  它  的  味道  有如  鸡肉  鲜美  ，  故亦  名树  鸡  、  木机  （  古  南  楚人  谓  鸡  为  机  ）  ：  重  瓣的  木耳  在  树上  互相  镶嵌  ，  宛如  片片  浮云  ，  又  有  云  耳  之  称  。
+            人们  经常  食用  的  木耳  ，  主要  有  两  种  ：  一  种  是  腹面  平滑  、  色黑  、  而  背面  多毛  呈  灰色  或  灰褐色  的  ，  称  毛木耳  （  通称  野木耳  ）  ；  另  一  种  是  两  面  光滑  、  黑褐色  、  半透明  的  ，  称为  光  木耳  （  也  称  黑木耳  ）  。  毛木耳  朵  较  大  ，  但  质地  粗韧  ，  不  易  嚼碎  ，  味  不  佳  ，  价格  低廉  。  光  木耳  质  软  味鲜  ，  滑而带爽  ，  营养  丰富  ，  是  人工  大量  栽培  的  一  种  。
+            黑木耳  营养  极为  丰富  ，  据  史料  记载  ，  它  是  上古  时代  帝王  独享  之  佳品  。  主要  分布  于  黑龙江  、  福建  、  台湾  、  湖北  、  广东  、  广西  、  四川  、  贵州  、  云南  等  地  。  生长  于栎  、  杨  、  榕  、  槐等  120多  种  阔叶树  的  腐木  上  ，  单  生  或  群生  。  目前  人工  培植  以  椴木  的  和  袋料  的  为主  。
+        </segment>
+
+        <pos>
+            木耳#NN  ，#PU  为#P  木耳#VV  属#VV  的#DEC  食用菌#NN  ，#PU  是#VC  子#NN  实体#NN  胶质#NN  ，#PU  成#VV  圆盘形#NN  ，#PU  耳#AD  形#VV  不#AD  规则#NN  形#VV  ，#PU  直径#NN  3#CD  -#NN  12#CD  厘米#M    。#PU  新鲜#VA  时#LC  软#VA  ，#PU  干#VV  后成#CD  角#M  质#NN    。#PU  口感#NR  细嫩#VV  ，#PU  风味#AD  特殊#VA  ，#PU  是#VC  一#CD  种#M  营养#VA  丰富#VA  的#DEC  著名#JJ  食用菌#NN    。#PU  它#PN  的#DEG  别名#NN  很多#CD  ，#PU  因#P  生长#NN  于腐木#NN  之上#LC  ，#PU  其#PN  形似#VV  人#NN  的#DEG  耳朵#NN  ，#PU  故名#VV  木耳#NN  ；#PU  又#AD  似#P  蛾蝶#NR  玉立#VV  ，#PU  又#CC  名#NN  木蛾#VV  ；#PU  因#P  它#PN  的#DEG  味道#NN  有如#VV  鸡肉#NN  鲜美#NN  ，#PU  故亦#NR  名树#NN  鸡#NN  、#PU  木机#NR  （#PU  古#JJ  南#NN  楚人#NN  谓#VV  鸡#NN  为#VC  机#NN  ）#PU  ：#PU  重#JJ  瓣的#NN  木耳#NN  在#P  树上#NR  互相#AD  镶嵌#VV  ，#PU  宛如#NN  片片#NN  浮云#NN  ，#PU  又#AD  有#VE  云#NN  耳#NN  之#DEG  称#NN    。#PU    。#PU
+            人们#NN  经常#AD  食用#VV  的#DEC  木耳#NN  ，#PU  主要#AD  有#VE  两#CD  种#M  ：#PU  一#CD  种#M  是#VC  腹面#NN  平滑#VA  、#PU  色黑#VA  、#PU  而#AD  背面#NN  多毛#AD  呈#VV  灰色#NN  或#CC  灰褐色#NN  的#DEC  ，#PU  称#VV  毛木耳#VV  （#PU  通称#NN  野木耳#NN  ）#PU  ；#PU  另#AD  一#CD  种#M  是#VC  两#CD  面#NN  光滑#VA  、#PU  黑褐色#VA  、#PU  半透明#VA  的#DEC  ，#PU  称为#VV  光#NN  木耳#NN  （#PU  也#AD  称#VV  黑木耳#NN  ）#PU    。#PU  毛木耳#CD  朵#M  较#AD  大#VA  ，#PU  但#AD  质地#AD  粗韧#VA  ，#PU  不#AD  易#VA  嚼碎#VA  ，#PU  味#NN  不#AD  佳#VA  ，#PU  价格#NN  低廉#VA    。#PU  光#NN  木耳#VV  质#NN  软#JJ  味鲜#NN  ，#PU  滑而带爽#VV  ，#PU  营养#VA  丰富#VA  ，#PU  是#VC  人工#AD  大量#AD  栽培#VV  的#DEC  一#CD  种#M    。#PU    。#PU
+            黑木耳#NN  营养#VA  极为#AD  丰富#VA  ，#PU  据#P  史料#NN  记载#NN  ，#PU  它#PN  是#VC  上古#NN  时代#NN  帝王#NN  独享#NN  之#DEG  佳品#NN    。#PU  主要#AD  分布#VV  于#P  黑龙江#NR  、#PU  福建#NR  、#PU  台湾#NR  、#PU  湖北#NR  、#PU  广东#NR  、#PU  广西#NR  、#PU  四川#NR  、#PU  贵州#NR  、#PU  云南#NR  等#ETC  地#NN    。#PU  生长#NN  于栎#NR  、#PU  杨#NR  、#PU  榕#NR  、#PU  槐等#NR  120多#CD  种#M  阔叶树#NN  的#DEG  腐木#NN  上#LC  ，#PU  单#NN  生#VV  或#CC  群生#VV    。#PU  目前#NT  人工#AD  培植#VV  以#MSP  椴木#VV  的#DEC  和#CC  袋料#NN  的#DEC  为主#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 形#VV, 木耳#NN)  (case, 木耳#VV, 为#P)  (prep, 形#VV, 木耳#VV)  (relcl, 食用菌#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (dobj, 木耳#VV, 食用菌#NN)  (cop, 胶质#NN, 是#VC)  (nn, 胶质#NN, 子#NN)  (nn, 胶质#NN, 实体#NN)  (conj, 木耳#VV, 胶质#NN)  (conj, 木耳#VV, 成#VV)  (dobj, 成#VV, 圆盘形#NN)  (advmod, 形#VV, 耳#AD)  (conj, 木耳#VV, 形#VV)  (neg, 形#VV, 不#AD)  (dobj, 形#VV, 规则#NN)  (root, ROOT#null, 形#VV)  (nn, -#NN, 直径#NN)  (nummod, -#NN, 3#CD)  (nummod, 厘米#M, 12#CD)  (conj, 形#VV, 厘米#M)   (loc, 软#VA, 新鲜#VA)  (case, 新鲜#VA, 时#LC)  (root, ROOT#null, 软#VA)  (conj, 软#VA, 干#VV)  (nummod, 角#M, 后成#CD)  (clf, 质#NN, 角#M)  (dobj, 干#VV, 质#NN)   (nsubj, 细嫩#VV, 口感#NR)  (root, ROOT#null, 细嫩#VV)  (advmod, 特殊#VA, 风味#AD)  (ccomp, 细嫩#VV, 特殊#VA)  (cop, 食用菌#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食用菌#NN, 种#M)  (relcl, 食用菌#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (amod, 食用菌#NN, 著名#JJ)  (dep, 特殊#VA, 食用菌#NN)   (assmod, 别名#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 很多#CD, 别名#NN)  (root, ROOT#null, 很多#CD)  (case, 于腐木#NN, 因#P)  (nn, 于腐木#NN, 生长#NN)  (prep, 形似#VV, 于腐木#NN)  (case, 于腐木#NN, 之上#LC)  (nsubj, 形似#VV, 其#PN)  (conj, 很多#CD, 形似#VV)  (assmod, 耳朵#NN, 人#NN)  (case, 人#NN, 的#DEG)  (dobj, 形似#VV, 耳朵#NN)  (conj, 形似#VV, 故名#VV)  (dobj, 故名#VV, 木耳#NN)  (advmod, 玉立#VV, 又#AD)  (case, 蛾蝶#NR, 似#P)  (prep, 玉立#VV, 蛾蝶#NR)  (conj, 形似#VV, 玉立#VV)  (cc, 很多#CD, 又#CC)  (nsubj, 木蛾#VV, 名#NN)  (conj, 很多#CD, 木蛾#VV)  (case, 有如#VV, 因#P)  (assmod, 味道#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 有如#VV, 味道#NN)  (prep, 有#VE, 有如#VV)  (nn, 鲜美#NN, 鸡肉#NN)  (dep, 木耳#NN, 鲜美#NN)  (nn, 鸡#NN, 故亦#NR)  (nn, 鸡#NN, 名树#NN)  (conj, 木耳#NN, 鸡#NN)  (dep, 木耳#NN, 木机#NR)  (amod, 楚人#NN, 古#JJ)  (nn, 楚人#NN, 南#NN)  (nsubj, 谓#VV, 楚人#NN)  (prnmod, 木机#NR, 谓#VV)  (dobj, 谓#VV, 鸡#NN)  (cop, 机#NN, 为#VC)  (dep, 谓#VV, 机#NN)  (amod, 木耳#NN, 重#JJ)  (nn, 木耳#NN, 瓣的#NN)  (dobj, 有如#VV, 木耳#NN)  (case, 树上#NR, 在#P)  (prep, 镶嵌#VV, 树上#NR)  (advmod, 镶嵌#VV, 互相#AD)  (dep, 有如#VV, 镶嵌#VV)  (nn, 浮云#NN, 宛如#NN)  (nn, 浮云#NN, 片片#NN)  (nsubj, 有#VE, 浮云#NN)  (advmod, 有#VE, 又#AD)  (ccomp, 木蛾#VV, 有#VE)  (nn, 耳#NN, 云#NN)  (assmod, 称#NN, 耳#NN)  (case, 耳#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 人们#NN)  (advmod, 食用#VV, 经常#AD)  (relcl, 木耳#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 有#VE, 木耳#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (nummod, 种#M, 一#CD)  (dep, 平滑#VA, 种#M)  (cop, 平滑#VA, 是#VC)  (nsubj, 平滑#VA, 腹面#NN)  (conj, 有#VE, 平滑#VA)  (dep, 平滑#VA, 色黑#VA)  (advmod, 呈#VV, 而#AD)  (nsubj, 呈#VV, 背面#NN)  (advmod, 呈#VV, 多毛#AD)  (conj, 平滑#VA, 呈#VV)  (conj, 灰褐色#NN, 灰色#NN)  (cc, 灰褐色#NN, 或#CC)  (dobj, 呈#VV, 灰褐色#NN)  (mark, 平滑#VA, 的#DEC)  (conj, 平滑#VA, 称#VV)  (ccomp, 称#VV, 毛木耳#VV)  (nn, 野木耳#NN, 通称#NN)  (dep, 毛木耳#VV, 野木耳#NN)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (dep, 光滑#VA, 种#M)  (cop, 光滑#VA, 是#VC)  (nummod, 面#NN, 两#CD)  (nsubj, 光滑#VA, 面#NN)  (conj, 平滑#VA, 光滑#VA)  (conj, 光滑#VA, 黑褐色#VA)  (dep, 光滑#VA, 半透明#VA)  (mark, 光滑#VA, 的#DEC)  (conj, 平滑#VA, 称为#VV)  (nn, 木耳#NN, 光#NN)  (dobj, 称为#VV, 木耳#NN)  (advmod, 称#VV, 也#AD)  (dep, 有#VE, 称#VV)  (dobj, 称#VV, 黑木耳#NN)   (nummod, 朵#M, 毛木耳#CD)  (nsubj, 大#VA, 朵#M)  (advmod, 大#VA, 较#AD)  (root, ROOT#null, 大#VA)  (advmod, 粗韧#VA, 但#AD)  (advmod, 粗韧#VA, 质地#AD)  (conj, 大#VA, 粗韧#VA)  (neg, 易#VA, 不#AD)  (conj, 大#VA, 易#VA)  (comod, 易#VA, 嚼碎#VA)  (nsubj, 佳#VA, 味#NN)  (neg, 佳#VA, 不#AD)  (conj, 大#VA, 佳#VA)  (nsubj, 低廉#VA, 价格#NN)  (conj, 大#VA, 低廉#VA)   (nsubj, 木耳#VV, 光#NN)  (root, ROOT#null, 木耳#VV)  (nn, 味鲜#NN, 质#NN)  (amod, 味鲜#NN, 软#JJ)  (dobj, 木耳#VV, 味鲜#NN)  (conj, 木耳#VV, 滑而带爽#VV)  (conj, 木耳#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (conj, 木耳#VV, 是#VC)  (advmod, 栽培#VV, 人工#AD)  (advmod, 栽培#VV, 大量#AD)  (dep, 种#M, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (root, ROOT#null, null#null)
+            (nsubj, 营养#VA, 黑木耳#NN)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 极为#AD)  (dep, 营养#VA, 丰富#VA)  (case, 记载#NN, 据#P)  (nn, 记载#NN, 史料#NN)  (prep, 佳品#NN, 记载#NN)  (nsubj, 佳品#NN, 它#PN)  (cop, 佳品#NN, 是#VC)  (nn, 时代#NN, 上古#NN)  (nn, 独享#NN, 时代#NN)  (nn, 独享#NN, 帝王#NN)  (assmod, 佳品#NN, 独享#NN)  (case, 独享#NN, 之#DEG)  (conj, 营养#VA, 佳品#NN)   (advmod, 分布#VV, 主要#AD)  (root, ROOT#null, 分布#VV)  (case, 地#NN, 于#P)  (conj, 云南#NR, 黑龙江#NR)  (conj, 云南#NR, 福建#NR)  (conj, 云南#NR, 台湾#NR)  (conj, 云南#NR, 湖北#NR)  (conj, 云南#NR, 广东#NR)  (conj, 云南#NR, 广西#NR)  (conj, 云南#NR, 四川#NR)  (conj, 云南#NR, 贵州#NR)  (nn, 地#NN, 云南#NR)  (etc, 云南#NR, 等#ETC)  (prep, 分布#VV, 地#NN)   (nsubj, 生#VV, 生长#NN)  (conj, 槐等#NR, 于栎#NR)  (conj, 槐等#NR, 杨#NR)  (conj, 槐等#NR, 榕#NR)  (nn, 阔叶树#NN, 槐等#NR)  (nummod, 种#M, 120多#CD)  (clf, 阔叶树#NN, 种#M)  (assmod, 腐木#NN, 阔叶树#NN)  (case, 阔叶树#NN, 的#DEG)  (loc, 生#VV, 腐木#NN)  (case, 腐木#NN, 上#LC)  (nsubj, 生#VV, 单#NN)  (root, ROOT#null, 生#VV)  (cc, 生#VV, 或#CC)  (conj, 生#VV, 群生#VV)   (tmod, 培植#VV, 目前#NT)  (advmod, 培植#VV, 人工#AD)  (nsubj, 为主#VV, 培植#VV)  (prtmod, 椴木#VV, 以#MSP)  (conj, 袋料#NN, 椴木#VV)  (mark, 椴木#VV, 的#DEC)  (cc, 袋料#NN, 和#CC)  (dobj, 培植#VV, 袋料#NN)  (mark, 培植#VV, 的#DEC)  (root, ROOT#null, 为主#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补气血
+            木耳被营养学家誉为‘素中之荤’和‘素中之王’，每100克黑木耳中含铁185毫克，它比绿叶蔬菜中含铁量最高的菠菜高出20倍，比动物性食品中含铁量最高的猪肝还高出约7倍，是各种荤素食品中含铁量最多养血驻颜，令人肌肤红润，容光焕发，并可防治缺铁性贫血；减少血小板凝块，预防血栓的发生，预防动脉粥样硬化和冠心病的发生。
+            2.减肥防癌治便秘
+            能够促进胃肠蠕动，促进肠道脂肪食物的排泄、减少食物中脂肪的吸收，从而防止肥胖；同时，由于这两种物质能促进胃肠蠕动，防止便秘，有利于体内大便中有毒物质的及时清除和排出，从而起到预防直肠癌及其它消化系统癌症的作用。所以，老年人特别是有便秘习惯的老年人，坚持食用黑木耳，常食木耳粥，对预防多种老年疾病、抗癌、防癌，延缓衰老都有良好的效果。
+            3.清肠胃
+            木耳可以把残留在人体消化系统内的灰尘、杂质吸附集中起来排出体外，从而起到清胃涤肠的作用，它对胆结石、肾结石等内源性异物也有比较显著的化解功能。
+        </rawdata>
+
+        <segment>
+            补气  血
+            木耳  被  营养  学家  誉为  ‘  素中之荤  ’  和  ‘  素  中  之  王  ’  ，  每  100  克  黑木耳  中  含铁  185  毫克  ，  它  比  绿叶  蔬菜  中  含铁  量  最  高  的  菠菜  高出  20  倍  ，  比  动物性  食品  中  含铁  量  最  高  的  猪肝  还  高出  约  7  倍  ，  是  各  种  荤素  食品  中  含铁  量  最  多  养  血  驻颜  ，  令  人  肌肤  红润  ，  容光  焕发  ，  并可  防治  缺  铁  性  贫血  ；  减少  血  小板  凝块  ，  预防  血栓  的  发生  ，  预防  动脉  粥样  硬化  和  冠心病  的  发生  。
+            减肥  防癌  治  便秘
+            能够  促进  胃肠  蠕动  ，  促进  肠道  脂肪  食物  的  排泄  、  减少  食物  中  脂肪  的  吸收  ，  从而  防止  肥胖  ；  同时  ，  由于  这  两  种  物质  能  促进  胃肠  蠕动  ，  防止  便秘  ，  有利于  体内  大便  中  有毒物  质的  及时  清除  和  排出  ，  从而  起到  预防  直肠癌  及  其它  消化  系统  癌症  的  作用  。  所以  ，  老年人  特别是  有  便秘  习惯  的  老年人  ，  坚持  食用  黑木耳  ，  常食  木耳粥  ，  对  预防  多  种  老年  疾病  、  抗癌  、  防癌  ，  延缓  衰老  都  有  良好  的  效果  。
+            清  肠胃
+            木耳  可以  把  残留  在  人体  消化  系统  内  的  灰尘  、  杂质  吸附  集中  起来  排出  体外  ，  从而  起到  清胃涤肠  的  作用  ，  它  对  胆结石  、  肾  结石  等内  源性  异物  也  有  比较  显著  的  化解  功能  。
+        </segment>
+
+        <pos>
+            补气#VV  血#NN
+            木耳#NR  被#SB  营养#VA  学家#NN  誉为#VV  `#PU  素中之荤#NR  '#CD  和#CC  `#PU  素#AD  中#NR  之#DEG  王#CD  '#VV  ，#PU  每#DT  100#CD  克#M  黑木耳#NN  中#LC  含铁#VV  185#CD  毫克#NN  ，#PU  它#PN  比#P  绿叶#NN  蔬菜#NN  中#LC  含铁#NN  量#NN  最#AD  高#VA  的#DEC  菠菜#NN  高出#VV  20#CD  倍#M  ，#PU  比#P  动物性#NN  食品#NN  中#LC  含铁#NN  量#NN  最#AD  高#VA  的#DEC  猪肝#NN  还#AD  高出#VV  约#AD  7#CD  倍#M  ，#PU  是#VC  各#DT  种#M  荤素#NN  食品#NN  中#LC  含铁#VV  量#NN  最#AD  多#AD  养#VV  血#NN  驻颜#NN  ，#PU  令#VV  人#NN  肌肤#VV  红润#NN  ，#PU  容光#VV  焕发#NN  ，#PU  并可#VV  防治#NN  缺#VV  铁#NN  性#NN  贫血#NN  ；#PU  减少#VV  血#NN  小板#NN  凝块#NN  ，#PU  预防#VV  血栓#NR  的#DEG  发生#NN  ，#PU  预防#VV  动脉#NN  粥样#NN  硬化#NN  和#CC  冠心病#NN  的#DEG  发生#NN  。#PU
+            减肥#VV  防癌#NN  治#VV  便秘#NN
+            能够#VV  促进#VV  胃肠#NN  蠕动#NN  ，#PU  促进#VV  肠道#NN  脂肪#NN  食物#NN  的#DEC  排泄#NN  、#PU  减少#VV  食物#NN  中#LC  脂肪#NN  的#DEG  吸收#NN  ，#PU  从而#AD  防止#VV  肥胖#NN  ；#PU  同时#AD  ，#PU  由于#P  这#DT  两#CD  种#M  物质#NN  能#VV  促进#VV  胃肠#NN  蠕动#NN  ，#PU  防止#VV  便秘#NN  ，#PU  有利于#VV  体内#NN  大便#NN  中#LC  有毒物#NN  质的#NN  及时#AD  清除#VV  和#CC  排出#VV  ，#PU  从而#AD  起到#VV  预防#VV  直肠癌#NN  及#CC  其它#DT  消化#NN  系统#NN  癌症#NN  的#DEC  作用#NN    。#PU  所以#AD  ，#PU  老年人#NN  特别是#AD  有#VE  便秘#NN  习惯#NN  的#DEG  老年人#NN  ，#PU  坚持#VV  食用#VV  黑木耳#NN  ，#PU  常食#VV  木耳粥#NN  ，#PU  对#P  预防#VV  多#CD  种#M  老年#NN  疾病#NN  、#PU  抗癌#NN  、#PU  防癌#NN  ，#PU  延缓#NN  衰老#NN  都#AD  有#VE  良好#VA  的#DEC  效果#NN    。#PU    。#PU
+            清#JJ  肠胃#NN
+            木耳#NN  可以#VV  把#BA  残留#NR  在#P  人体#NN  消化#NN  系统#NN  内#LC  的#DEG  灰尘#NN  、#PU  杂质#NN  吸附#NN  集中#VV  起来#VV  排出#NN  体外#NN  ，#PU  从而#AD  起到#VV  清胃涤肠#NN  的#DEG  作用#NN  ，#PU  它#PN  对#P  胆结石#NN  、#PU  肾#NN  结石#NN  等内#NN  源性#NN  异物#NN  也#AD  有#VE  比较#AD  显著#VA  的#DEC  化解#NN  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补气#VV)  (dobj, 补气#VV, 血#NN)
+            (nsubjpass, 营养#VA, 木耳#NR)  (auxpass, 营养#VA, 被#SB)  (relcl, 学家#NN, 营养#VA)  (nsubj, 誉为#VV, 学家#NN)  (root, ROOT#null, 誉为#VV)  (dep, '#CD, 素中之荤#NR)  (cc, 誉为#VV, 和#CC)  (advmod, '#VV, 素#AD)  (assmod, 王#CD, 中#NR)  (case, 中#NR, 之#DEG)  (dep, '#VV, 王#CD)  (det, 黑木耳#NN, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (loc, 含铁#VV, 黑木耳#NN)  (case, 黑木耳#NN, 中#LC)  (conj, '#VV, 含铁#VV)  (nummod, 毫克#NN, 185#CD)  (dobj, 含铁#VV, 毫克#NN)  (nsubj, 高出#VV, 它#PN)  (case, 菠菜#NN, 比#P)  (nn, 蔬菜#NN, 绿叶#NN)  (loc, 高#VA, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (nn, 量#NN, 含铁#NN)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 最#AD)  (relcl, 菠菜#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (prep, 高出#VV, 菠菜#NN)  (conj, 誉为#VV, 高出#VV)  (nummod, 倍#M, 20#CD)  (range, 高出#VV, 倍#M)  (case, 食品#NN, 比#P)  (nn, 食品#NN, 动物性#NN)  (prep, 高#VA, 食品#NN)  (case, 食品#NN, 中#LC)  (nn, 量#NN, 含铁#NN)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 最#AD)  (relcl, 猪肝#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nsubj, 高出#VV, 猪肝#NN)  (advmod, 高出#VV, 还#AD)  (conj, 誉为#VV, 高出#VV)  (advmod, 倍#M, 约#AD)  (nummod, 倍#M, 7#CD)  (range, 高出#VV, 倍#M)  (cop, 养#VV, 是#VC)  (det, 荤素#NN, 各#DT)  (clf, 各#DT, 种#M)  (dep, 养#VV, 荤素#NN)  (loc, 含铁#VV, 食品#NN)  (case, 食品#NN, 中#LC)  (conj, 养#VV, 含铁#VV)  (dobj, 含铁#VV, 量#NN)  (advmod, 养#VV, 最#AD)  (advmod, 养#VV, 多#AD)  (conj, 誉为#VV, 养#VV)  (nn, 驻颜#NN, 血#NN)  (dobj, 养#VV, 驻颜#NN)  (conj, 养#VV, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 肌肤#VV)  (dobj, 肌肤#VV, 红润#NN)  (conj, 养#VV, 容光#VV)  (dobj, 容光#VV, 焕发#NN)  (conj, 养#VV, 并可#VV)  (dobj, 并可#VV, 防治#NN)  (dep, 并可#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (conj, 养#VV, 减少#VV)  (nn, 凝块#NN, 血#NN)  (nn, 凝块#NN, 小板#NN)  (dobj, 减少#VV, 凝块#NN)  (conj, 养#VV, 预防#VV)  (assmod, 发生#NN, 血栓#NR)  (case, 血栓#NR, 的#DEG)  (dobj, 预防#VV, 发生#NN)  (conj, 养#VV, 预防#VV)  (nn, 冠心病#NN, 动脉#NN)  (nn, 冠心病#NN, 粥样#NN)  (conj, 冠心病#NN, 硬化#NN)  (cc, 冠心病#NN, 和#CC)  (assmod, 发生#NN, 冠心病#NN)  (case, 冠心病#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+            (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 防癌#NN)  (conj, 减肥#VV, 治#VV)  (dobj, 治#VV, 便秘#NN)
+            (root, ROOT#null, 能够#VV)  (relcl, 排泄#NN, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 促进#VV)  (nn, 食物#NN, 肠道#NN)  (nn, 食物#NN, 脂肪#NN)  (dobj, 促进#VV, 食物#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 能够#VV, 排泄#NN)  (conj, 能够#VV, 减少#VV)  (dep, 脂肪#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (assmod, 吸收#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (dobj, 减少#VV, 吸收#NN)  (advmod, 防止#VV, 从而#AD)  (dep, 能够#VV, 防止#VV)  (dobj, 防止#VV, 肥胖#NN)  (advmod, 起到#VV, 同时#AD)  (case, 促进#VV, 由于#P)  (det, 物质#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 促进#VV, 物质#NN)  (mmod, 促进#VV, 能#VV)  (prep, 起到#VV, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (conj, 促进#VV, 有利于#VV)  (nn, 大便#NN, 体内#NN)  (loc, 清除#VV, 大便#NN)  (case, 大便#NN, 中#LC)  (nn, 质的#NN, 有毒物#NN)  (nsubj, 清除#VV, 质的#NN)  (advmod, 清除#VV, 及时#AD)  (ccomp, 有利于#VV, 清除#VV)  (cc, 清除#VV, 和#CC)  (conj, 清除#VV, 排出#VV)  (advmod, 起到#VV, 从而#AD)  (dep, 能够#VV, 起到#VV)  (relcl, 作用#NN, 预防#VV)  (conj, 癌症#NN, 直肠癌#NN)  (cc, 癌症#NN, 及#CC)  (det, 系统#NN, 其它#DT)  (nn, 系统#NN, 消化#NN)  (nn, 癌症#NN, 系统#NN)  (dobj, 预防#VV, 癌症#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)   (advmod, 有#VE, 所以#AD)  (nsubj, 有#VE, 老年人#NN)  (advmod, 有#VE, 特别是#AD)  (root, ROOT#null, 有#VE)  (nn, 习惯#NN, 便秘#NN)  (assmod, 老年人#NN, 习惯#NN)  (case, 习惯#NN, 的#DEG)  (dobj, 有#VE, 老年人#NN)  (conj, 有#VE, 坚持#VV)  (ccomp, 坚持#VV, 食用#VV)  (dobj, 食用#VV, 黑木耳#NN)  (dep, 坚持#VV, 常食#VV)  (dobj, 常食#VV, 木耳粥#NN)  (case, 预防#VV, 对#P)  (prep, 有#VE, 预防#VV)  (nummod, 种#M, 多#CD)  (clf, 防癌#NN, 种#M)  (nn, 防癌#NN, 老年#NN)  (conj, 防癌#NN, 疾病#NN)  (conj, 防癌#NN, 抗癌#NN)  (dobj, 预防#VV, 防癌#NN)  (nn, 衰老#NN, 延缓#NN)  (nsubj, 有#VE, 衰老#NN)  (advmod, 有#VE, 都#AD)  (conj, 有#VE, 有#VE)  (relcl, 效果#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (dobj, 有#VE, 效果#NN)   (root, ROOT#null, null#null)
+            (amod, 肠胃#NN, 清#JJ)  (root, ROOT#null, 肠胃#NN)
+            (nsubj, 集中#VV, 木耳#NN)  (mmod, 集中#VV, 可以#VV)  (ba, 集中#VV, 把#BA)  (nn, 吸附#NN, 残留#NR)  (case, 系统#NN, 在#P)  (nn, 系统#NN, 人体#NN)  (nn, 系统#NN, 消化#NN)  (assmod, 吸附#NN, 系统#NN)  (case, 系统#NN, 内#LC)  (case, 系统#NN, 的#DEG)  (conj, 吸附#NN, 灰尘#NN)  (nn, 吸附#NN, 杂质#NN)  (nsubj, 集中#VV, 吸附#NN)  (root, ROOT#null, 集中#VV)  (rcomp, 集中#VV, 起来#VV)  (nn, 体外#NN, 排出#NN)  (dobj, 集中#VV, 体外#NN)  (advmod, 起到#VV, 从而#AD)  (dep, 集中#VV, 起到#VV)  (assmod, 作用#NN, 清胃涤肠#NN)  (case, 清胃涤肠#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)  (nsubj, 有#VE, 它#PN)  (case, 异物#NN, 对#P)  (conj, 等内#NN, 胆结石#NN)  (nn, 等内#NN, 肾#NN)  (nn, 等内#NN, 结石#NN)  (nn, 异物#NN, 等内#NN)  (nn, 异物#NN, 源性#NN)  (prep, 有#VE, 异物#NN)  (advmod, 有#VE, 也#AD)  (conj, 集中#VV, 有#VE)  (advmod, 显著#VA, 比较#AD)  (relcl, 功能#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (nn, 功能#NN, 化解#NN)  (dobj, 有#VE, 功能#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.木耳中铁的含量极为丰富，故常吃木耳能养血驻颜，令人肌肤红润，容光焕发，并可防治缺铁性贫血。
+            2.木耳含有维生素K，能减少血液凝块，预防血栓症的发生，有防治动脉粥样硬化和冠心病的作用。
+            3.木耳中的胶质可把残留在人体消化系统内的灰尘、杂质吸附集中起来排出体外，从而起到清胃涤肠的作用。
+            4.木耳含有抗肿瘤活性物质，能增强机体免疫力，经常食用可防癌抗癌。
+        </rawdata>
+
+        <segment>
+            木耳  中  铁  的  含量  极为  丰富  ，  故常  吃  木耳  能  养  血  驻颜  ，  令  人  肌肤  红润  ，  容光  焕发  ，  并可  防治  缺  铁  性  贫血  。
+            木耳  含有  维生素K  ，  能  减少  血液  凝块  ，  预防  血栓症  的  发生  ，  有  防治  动脉  粥样  硬化  和  冠心病  的  作用  。
+            木耳  中  的  胶质  可  把  残留  在  人体  消化  系统  内  的  灰尘  、  杂质  吸附  集中  起来  排出  体外  ，  从而  起到  清胃涤肠  的  作用  。
+            木耳  含有  抗  肿瘤  活性  物质  ，  能  增强  机体  免疫力  ，  经常  食用  可  防癌  抗癌  。
+        </segment>
+
+        <pos>
+            木耳#NN  中#LC  铁#NN  的#DEG  含量#NN  极为#AD  丰富#VA  ，#PU  故常#AD  吃#VV  木耳#NN  能#VV  养#VV  血#NN  驻颜#NN  ，#PU  令#VV  人#NN  肌肤#VV  红润#NN  ，#PU  容光#VV  焕发#NN  ，#PU  并可#NN  防治#NN  缺#VV  铁#NN  性#NN  贫血#NN  。#PU
+            木耳#NN  含有#VV  维生素K#NN  ，#PU  能#VV  减少#VV  血液#NN  凝块#NN  ，#PU  预防#VV  血栓症#NN  的#DEG  发生#NN  ，#PU  有#VE  防治#NN  动脉#NN  粥样#NN  硬化#NN  和#CC  冠心病#NN  的#DEG  作用#NN  。#PU
+            木耳#NN  中#LC  的#DEG  胶质#NN  可#VV  把#BA  残留#NR  在#P  人体#NN  消化#NN  系统#NN  内#LC  的#DEG  灰尘#NN  、#PU  杂质#NN  吸附#NN  集中#VV  起来#VV  排出#NN  体外#NN  ，#PU  从而#AD  起到#VV  清胃涤肠#NN  的#DEG  作用#NN  。#PU
+            木耳#NN  含有#NN  抗#VV  肿瘤#NN  活性#NN  物质#NN  ，#PU  能#VV  增强#VV  机体#NN  免疫力#NN  ，#PU  经常#AD  食用#VV  可#VV  防癌#NN  抗癌#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 木耳#NN)  (case, 木耳#NN, 中#LC)  (assmod, 含量#NN, 铁#NN)  (case, 铁#NN, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 极为#AD)  (root, ROOT#null, 丰富#VA)  (advmod, 吃#VV, 故常#AD)  (conj, 丰富#VA, 吃#VV)  (dobj, 吃#VV, 木耳#NN)  (mmod, 养#VV, 能#VV)  (conj, 吃#VV, 养#VV)  (nn, 驻颜#NN, 血#NN)  (dobj, 养#VV, 驻颜#NN)  (conj, 丰富#VA, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 肌肤#VV)  (dobj, 肌肤#VV, 红润#NN)  (conj, 丰富#VA, 容光#VV)  (dobj, 容光#VV, 焕发#NN)  (nn, 防治#NN, 并可#NN)  (nsubj, 缺#VV, 防治#NN)  (conj, 丰富#VA, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)
+            (nsubj, 含有#VV, 木耳#NN)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 维生素K#NN)  (mmod, 减少#VV, 能#VV)  (conj, 含有#VV, 减少#VV)  (nn, 凝块#NN, 血液#NN)  (dobj, 减少#VV, 凝块#NN)  (conj, 含有#VV, 预防#VV)  (assmod, 发生#NN, 血栓症#NN)  (case, 血栓症#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)  (conj, 含有#VV, 有#VE)  (nn, 粥样#NN, 防治#NN)  (nn, 粥样#NN, 动脉#NN)  (nn, 冠心病#NN, 粥样#NN)  (conj, 冠心病#NN, 硬化#NN)  (cc, 冠心病#NN, 和#CC)  (assmod, 作用#NN, 冠心病#NN)  (case, 冠心病#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (assmod, 胶质#NN, 木耳#NN)  (case, 木耳#NN, 中#LC)  (case, 木耳#NN, 的#DEG)  (nsubj, 集中#VV, 胶质#NN)  (mmod, 集中#VV, 可#VV)  (ba, 集中#VV, 把#BA)  (nn, 吸附#NN, 残留#NR)  (case, 系统#NN, 在#P)  (nn, 系统#NN, 人体#NN)  (nn, 系统#NN, 消化#NN)  (assmod, 吸附#NN, 系统#NN)  (case, 系统#NN, 内#LC)  (case, 系统#NN, 的#DEG)  (conj, 吸附#NN, 灰尘#NN)  (nn, 吸附#NN, 杂质#NN)  (nsubj, 集中#VV, 吸附#NN)  (root, ROOT#null, 集中#VV)  (rcomp, 集中#VV, 起来#VV)  (nn, 体外#NN, 排出#NN)  (dobj, 集中#VV, 体外#NN)  (advmod, 起到#VV, 从而#AD)  (dep, 集中#VV, 起到#VV)  (assmod, 作用#NN, 清胃涤肠#NN)  (case, 清胃涤肠#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+            (nn, 含有#NN, 木耳#NN)  (nsubj, 抗#VV, 含有#NN)  (root, ROOT#null, 抗#VV)  (nn, 物质#NN, 肿瘤#NN)  (nn, 物质#NN, 活性#NN)  (dobj, 抗#VV, 物质#NN)  (mmod, 增强#VV, 能#VV)  (conj, 抗#VV, 增强#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增强#VV, 免疫力#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 抗#VV, 食用#VV)  (rcomp, 食用#VV, 可#VV)  (nn, 抗癌#NN, 防癌#NN)  (dobj, 食用#VV, 抗癌#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            泡发干木耳应用温水也可以用烧开米汤泡发，使木耳肥大松软，味道鲜美。
+        </rawdata>
+
+        <segment>
+            泡  发干  木耳  应用  温水  也  可以  用  烧开  米汤  泡发  ，  使  木耳  肥大  松软  ，  味道  鲜美  。
+        </segment>
+
+        <pos>
+            泡#NN  发干#NN  木耳#NN  应用#NN  温水#NN  也#AD  可以#VV  用#P  烧开#NN  米汤#NN  泡发#NN  ，#PU  使#VV  木耳#NN  肥大#VV  松软#NN  ，#PU  味道#NN  鲜美#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 温水#NN, 泡#NN)  (nn, 温水#NN, 发干#NN)  (nn, 温水#NN, 木耳#NN)  (nn, 温水#NN, 应用#NN)  (nsubj, 使#VV, 温水#NN)  (advmod, 使#VV, 也#AD)  (mmod, 使#VV, 可以#VV)  (case, 泡发#NN, 用#P)  (nn, 泡发#NN, 烧开#NN)  (nn, 泡发#NN, 米汤#NN)  (prep, 使#VV, 泡发#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 木耳#NN)  (dep, 使#VV, 肥大#VV)  (dobj, 肥大#VV, 松软#NN)  (nsubj, 鲜美#VV, 味道#NN)  (conj, 使#VV, 鲜美#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121448384148.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\265 木耳.jpg
+    </picturelocalurl>
+
+</content>

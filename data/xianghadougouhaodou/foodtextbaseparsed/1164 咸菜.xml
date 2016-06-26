@@ -1,0 +1,157 @@
+<content>
+
+    <id>
+        1164
+    </id>
+
+    <foodname>
+        咸菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            鱼和咸菜不能一起吃,鱼类的肉属于高蛋白食品，咸菜在腌制过程中，其含氮物质部分转变为亚硝酸盐，当成菜与鱼一起烧煮时，鱼肉蛋白质中的胺与亚硝酸盐化合为亚硝胺，这是一种致癌物质，可引起消化道癌肿，故鱼与咸菜不宜配食。
+        </rawdata>
+
+        <segment>
+            鱼  和  咸菜  不  能  一起  吃  ,  鱼类  的  肉  属于  高蛋白  食品  ，  咸菜  在  腌制  过程  中  ，  其  含  氮  物质  部分  转变  为  亚硝酸盐  ，  当成  菜  与  鱼  一起  烧煮  时  ，  鱼肉  蛋白质  中  的  胺与  亚硝酸盐化  合为  亚硝胺  ，  这  是  一  种  致癌  物质  ，  可  引起  消化道  癌肿  ，  故  鱼  与  咸菜  不  宜  配食  。
+        </segment>
+
+        <pos>
+            鱼#NN  和#CC  咸菜#NN  不#AD  能#VV  一起#AD  吃#VV  ,#NN  鱼类#NN  的#DEC  肉#NN  属于#VV  高蛋白#JJ  食品#NN  ，#PU  咸菜#NN  在#P  腌制#NN  过程#NN  中#LC  ，#PU  其#PN  含#VV  氮#JJ  物质#NN  部分#NN  转变#NN  为#VC  亚硝酸盐#NN  ，#PU  当成#NR  菜#NN  与#CC  鱼#NN  一起#AD  烧煮#VV  时#LC  ，#PU  鱼肉#NN  蛋白质#NN  中#LC  的#DEG  胺与#NN  亚硝酸盐化#AD  合为#VV  亚硝胺#NN  ，#PU  这#PN  是#VC  一#CD  种#M  致癌#NN  物质#NN  ，#PU  可#VV  引起#VV  消化道#NN  癌肿#NN  ，#PU  故#AD  鱼#NN  与#CC  咸菜#NN  不#AD  宜#NR  配食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 咸菜#NN, 鱼#NN)  (cc, 咸菜#NN, 和#CC)  (nsubj, 吃#VV, 咸菜#NN)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 能#VV)  (advmod, 吃#VV, 一起#AD)  (relcl, 肉#NN, 吃#VV)  (dobj, 吃#VV, 鱼类#NN)  (mark, 吃#VV, 的#DEC)  (nsubj, 属于#VV, 肉#NN)  (root, ROOT#null, 属于#VV)  (amod, 食品#NN, 高蛋白#JJ)  (dobj, 属于#VV, 食品#NN)  (dep, 亚硝酸盐#NN, 咸菜#NN)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 腌制#NN)  (prep, 亚硝酸盐#NN, 过程#NN)  (case, 过程#NN, 中#LC)  (nsubj, 含#VV, 其#PN)  (relcl, 转变#NN, 含#VV)  (amod, 部分#NN, 氮#JJ)  (nn, 部分#NN, 物质#NN)  (dobj, 含#VV, 部分#NN)  (nsubj, 亚硝酸盐#NN, 转变#NN)  (cop, 亚硝酸盐#NN, 为#VC)  (conj, 属于#VV, 亚硝酸盐#NN)  (nn, 鱼#NN, 当成#NR)  (conj, 鱼#NN, 菜#NN)  (cc, 鱼#NN, 与#CC)  (nsubj, 烧煮#VV, 鱼#NN)  (advmod, 烧煮#VV, 一起#AD)  (loc, 合为#VV, 烧煮#VV)  (case, 烧煮#VV, 时#LC)  (nn, 蛋白质#NN, 鱼肉#NN)  (assmod, 胺与#NN, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 合为#VV, 胺与#NN)  (advmod, 合为#VV, 亚硝酸盐化#AD)  (conj, 亚硝酸盐#NN, 合为#VV)  (dobj, 合为#VV, 亚硝胺#NN)  (nsubj, 物质#NN, 这#PN)  (cop, 物质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (nn, 物质#NN, 致癌#NN)  (conj, 亚硝酸盐#NN, 物质#NN)  (mmod, 引起#VV, 可#VV)  (conj, 亚硝酸盐#NN, 引起#VV)  (nn, 癌肿#NN, 消化道#NN)  (dobj, 引起#VV, 癌肿#NN)  (advmod, 配食#VV, 故#AD)  (conj, 咸菜#NN, 鱼#NN)  (cc, 咸菜#NN, 与#CC)  (nsubj, 配食#VV, 咸菜#NN)  (neg, 配食#VV, 不#AD)  (prep, 配食#VV, 宜#NR)  (conj, 亚硝酸盐#NN, 配食#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            老人小孩少食
+        </rawdata>
+
+        <segment>
+            老人  小孩  少  食
+        </segment>
+
+        <pos>
+            老人#NN  小孩#NN  少#VV  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 小孩#NN, 老人#NN)  (nsubj, 少#VV, 小孩#NN)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用食盐等调味料腌渍后的蔬菜。有较强的咸味。可长期保存。
+        </rawdata>
+
+        <segment>
+            用  食盐  等  调味料  腌渍  后  的  蔬菜  。  有  较  强  的  咸味  。  可  长期  保存  。
+        </segment>
+
+        <pos>
+            用#P  食盐#NN  等#ETC  调味料#VV  腌渍#NN  后#LC  的#DEG  蔬菜#NN    。#PU  有#VE  较#AD  强#VA  的#DEC  咸味#NN    。#PU  可#VV  长期#AD  保存#VV    。#PU
+        </pos>
+
+        <parsing>
+            (case, 食盐#NN, 用#P)  (prep, 调味料#VV, 食盐#NN)  (etc, 食盐#NN, 等#ETC)  (root, ROOT#null, 调味料#VV)  (assmod, 蔬菜#NN, 腌渍#NN)  (case, 腌渍#NN, 后#LC)  (case, 腌渍#NN, 的#DEG)  (dobj, 调味料#VV, 蔬菜#NN)   (root, ROOT#null, 有#VE)  (advmod, 强#VA, 较#AD)  (relcl, 咸味#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (dobj, 有#VE, 咸味#NN)   (mmod, 保存#VV, 可#VV)  (advmod, 保存#VV, 长期#AD)  (root, ROOT#null, 保存#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,生津止渴,安神除烦,润肠,抑癌抗瘤
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  生津止渴  ,  安神  除烦  ,  润肠  ,  抑癌  抗瘤
+        </segment>
+
+        <pos>
+            清热#NN  除#P  火#NN  ,#NN  生津止渴#NN  ,#NN  安神#NN  除烦#NN  ,#NN  润肠#VV  ,#NN  抑癌#NN  抗瘤#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 润肠#VV, 清热#NN)  (case, ,#NN, 除#P)  (nn, ,#NN, 火#NN)  (nn, ,#NN, 生津止渴#NN)  (nn, ,#NN, 安神#NN)  (nn, ,#NN, 除烦#NN)  (root, ROOT#null, 润肠#VV)  (nn, 抗瘤#NN, 抑癌#NN)  (dobj, 润肠#VV, 抗瘤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        开胃  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            用食盐在一段时间内腌制。
+        </rawdata>
+
+        <segment>
+            用  食盐  在  一段  时间  内  腌制  。
+        </segment>
+
+        <pos>
+            用#P  食盐#NN  在#P  一段#CD  时间#NN  内#LC  腌制#VV  。#PU
+        </pos>
+
+        <parsing>
+            (case, 食盐#NN, 用#P)  (prep, 腌制#VV, 食盐#NN)  (case, 时间#NN, 在#P)  (nummod, 时间#NN, 一段#CD)  (prep, 腌制#VV, 时间#NN)  (case, 时间#NN, 内#LC)  (root, ROOT#null, 腌制#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/d8/06/1752_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1164 咸菜.jpg
+    </picturelocalurl>
+
+</content>

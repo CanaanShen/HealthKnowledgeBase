@@ -1,0 +1,144 @@
+<content>
+
+    <id>
+        1054
+    </id>
+
+    <foodname>
+        猪排
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜于气血不足，阴虚纳差者；湿热痰滞内蕴者慎服；肥胖、血脂较高者不宜多食。
+        </rawdata>
+
+        <segment>
+            适宜于  气血  不足  ，  阴虚  纳  差者  ；  湿热  痰滞  内蕴  者  慎服  ；  肥胖  、  血脂  较  高者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            适宜于#NN  气血#AD  不足#VA  ，#PU  阴虚#VV  纳#NR  差者#NN  ；#PU  湿热#NN  痰滞#NN  内蕴#VV  者#NN  慎服#NN  ；#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  不#AD  宜#NR  多#CD  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 不足#VA, 适宜于#NN)  (advmod, 不足#VA, 气血#AD)  (root, ROOT#null, 不足#VA)  (conj, 不足#VA, 阴虚#VV)  (nn, 差者#NN, 纳#NR)  (dobj, 阴虚#VV, 差者#NN)  (nn, 痰滞#NN, 湿热#NN)  (nsubj, 内蕴#VV, 痰滞#NN)  (conj, 不足#VA, 内蕴#VV)  (nn, 慎服#NN, 者#NN)  (dobj, 内蕴#VV, 慎服#NN)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (conj, 不足#VA, 高者#VV)  (neg, 高者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 高者#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪排骨提供人体生理活动必需的优质蛋白质、脂肪，尤其是丰富的钙质可维护骨骼健康。
+        </rawdata>
+
+        <segment>
+            猪排  骨  提供  人体  生理  活动  必需  的  优质  蛋白质  、  脂肪  ，  尤其是  丰富  的  钙质  可  维护  骨骼  健康  。
+        </segment>
+
+        <pos>
+            猪排#NN  骨#NN  提供#VV  人体#NN  生理#NN  活动#NN  必需#VV  的#DEC  优质#JJ  蛋白质#NN  、#PU  脂肪#NN  ，#PU  尤其是#AD  丰富#VA  的#DEC  钙质#NN  可#VV  维护#VV  骨骼#NN  健康#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 骨#NN, 猪排#NN)  (nsubj, 提供#VV, 骨#NN)  (root, ROOT#null, 提供#VV)  (nn, 活动#NN, 人体#NN)  (nn, 活动#NN, 生理#NN)  (nsubj, 必需#VV, 活动#NN)  (relcl, 脂肪#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (amod, 脂肪#NN, 优质#JJ)  (conj, 脂肪#NN, 蛋白质#NN)  (dobj, 提供#VV, 脂肪#NN)  (advmod, 维护#VV, 尤其是#AD)  (relcl, 钙质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 维护#VV, 钙质#NN)  (mmod, 维护#VV, 可#VV)  (conj, 提供#VV, 维护#VV)  (dobj, 维护#VV, 骨骼#NN)  (dep, 维护#VV, 健康#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            猪排骨具有滋阴润燥、益精补血的功效；适宜于气血不足，阴虚纳差者。
+        </rawdata>
+
+        <segment>
+            猪排  骨  具有  滋阴  润燥  、  益精  补血  的  功效  ；  适宜于  气血  不足  ，  阴虚  纳  差者  。
+        </segment>
+
+        <pos>
+            猪排#NN  骨#VV  具有#VV  滋阴#NN  润燥#NN  、#PU  益精#NN  补血#NN  的#DEC  功效#NN  ；#PU  适宜于#NN  气血#AD  不足#VA  ，#PU  阴虚#VV  纳#NR  差者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 骨#VV, 猪排#NN)  (root, ROOT#null, 骨#VV)  (relcl, 功效#NN, 具有#VV)  (nn, 补血#NN, 滋阴#NN)  (conj, 补血#NN, 润燥#NN)  (nn, 补血#NN, 益精#NN)  (dobj, 具有#VV, 补血#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 骨#VV, 功效#NN)  (nsubj, 不足#VA, 适宜于#NN)  (advmod, 不足#VA, 气血#AD)  (conj, 骨#VV, 不足#VA)  (conj, 骨#VV, 阴虚#VV)  (nn, 差者#NN, 纳#NR)  (dobj, 阴虚#VV, 差者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.猪肉烹调前莫用热水清洗，因猪肉中含有一种肌溶蛋白的物质，在15摄氏度以上的水中易溶解，若用热水浸泡就会散失很多营养，同时口味也欠佳；
+            2.猪肉应煮熟，因为猪肉中有时会有寄生虫，如果生吃或调理不完全时，可能会在肝脏或脑部寄生有钩绦虫。
+        </rawdata>
+
+        <segment>
+            猪肉  烹调  前  莫  用  热水  清洗  ，  因  猪肉  中  含有  一  种  肌溶  蛋白  的  物质  ，  在  15  摄氏度  以上  的  水中  易  溶解  ，  若  用  热水  浸泡  就  会  散失  很多  营养  ，  同时  口味  也  欠佳  ；
+            猪肉  应  煮熟  ，  因为  猪肉  中  有时  会  有  寄生虫  ，  如果  生吃  或  调理  不完全  时  ，  可能  会  在  肝脏  或  脑部  寄生  有  钩  绦虫  。
+        </segment>
+
+        <pos>
+            猪肉#NN  烹调#NN  前#LC  莫#NN  用#P  热水#NN  清洗#VV  ，#PU  因#P  猪肉#NN  中#LC  含有#VV  一#CD  种#M  肌溶#NN  蛋白#NN  的#DEG  物质#NN  ，#PU  在#P  15#CD  摄氏度#M  以上#LC  的#DEG  水中#NN  易#AD  溶解#VA  ，#PU  若#CS  用#P  热水#NN  浸泡#NN  就#P  会#VV  散失#VV  很多#CD  营养#VA  ，#PU  同时#AD  口味#NN  也#AD  欠佳#VA  ；#PU
+            猪肉#NN  应#P  煮熟#NN  ，#PU  因为#P  猪肉#NN  中#LC  有时#AD  会#VV  有#VE  寄生虫#NN  ，#PU  如果#CS  生吃#VV  或#CC  调理#VV  不完全#JJ  时#NN  ，#PU  可能#VV  会#VV  在#P  肝脏#NN  或#CC  脑部#NN  寄生#NN  有#VE  钩#NN  绦虫#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 烹调#NN, 猪肉#NN)  (loc, 清洗#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nsubj, 清洗#VV, 莫#NN)  (case, 热水#NN, 用#P)  (prep, 清洗#VV, 热水#NN)  (root, ROOT#null, 清洗#VV)  (case, 猪肉#NN, 因#P)  (prep, 含有#VV, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (dep, 清洗#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 蛋白#NN, 种#M)  (nn, 蛋白#NN, 肌溶#NN)  (assmod, 物质#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 含有#VV, 物质#NN)  (case, 摄氏度#M, 在#P)  (nummod, 摄氏度#M, 15#CD)  (assmod, 水中#NN, 摄氏度#M)  (case, 摄氏度#M, 以上#LC)  (case, 摄氏度#M, 的#DEG)  (nsubj, 溶解#VA, 水中#NN)  (advmod, 溶解#VA, 易#AD)  (conj, 清洗#VV, 溶解#VA)  (advmod, 营养#VA, 若#CS)  (case, 浸泡#NN, 用#P)  (nn, 浸泡#NN, 热水#NN)  (prep, 营养#VA, 浸泡#NN)  (case, 散失#VV, 就#P)  (mmod, 散失#VV, 会#VV)  (prep, 营养#VA, 散失#VV)  (range, 散失#VV, 很多#CD)  (dep, 溶解#VA, 营养#VA)  (advmod, 欠佳#VA, 同时#AD)  (nsubj, 欠佳#VA, 口味#NN)  (advmod, 欠佳#VA, 也#AD)  (conj, 溶解#VA, 欠佳#VA)
+            (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 猪肉#NN)  (case, 煮熟#NN, 应#P)  (prep, 有#VE, 煮熟#NN)  (case, 猪肉#NN, 因为#P)  (prep, 有#VE, 猪肉#NN)  (case, 猪肉#NN, 中#LC)  (advmod, 有#VE, 有时#AD)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 寄生虫#NN)  (advmod, 生吃#VV, 如果#CS)  (conj, 有#VE, 生吃#VV)  (cc, 生吃#VV, 或#CC)  (dep, 生吃#VV, 调理#VV)  (amod, 时#NN, 不完全#JJ)  (dobj, 调理#VV, 时#NN)  (mmod, 有#VE, 可能#VV)  (mmod, 有#VE, 会#VV)  (case, 寄生#NN, 在#P)  (conj, 寄生#NN, 肝脏#NN)  (cc, 寄生#NN, 或#CC)  (nn, 寄生#NN, 脑部#NN)  (prep, 有#VE, 寄生#NN)  (conj, 有#VE, 有#VE)  (nn, 绦虫#NN, 钩#NN)  (dobj, 有#VE, 绦虫#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/0d/00/13_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1054 猪排.jpg
+    </picturelocalurl>
+
+</content>

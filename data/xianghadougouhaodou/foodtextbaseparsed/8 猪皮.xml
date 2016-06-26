@@ -1,0 +1,358 @@
+<content>
+
+    <id>
+        8
+    </id>
+
+    <foodname>
+        猪皮
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        肉皮
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            外感咽痛、寒下利者忌食；患有肝病疾病、动脉硬化、高血压病的患者慎食。
+        </rawdata>
+
+        <segment>
+            外感  咽痛  、  寒下  利者  忌食  ；  患有  肝病  疾病  、  动脉  硬化  、  高血压  病的  患者  慎食  。
+        </segment>
+
+        <pos>
+            外感#VV  咽痛#NN  、#PU  寒下#NN  利者#NN  忌食#NN  ；#PU  患有#VV  肝病#NN  疾病#NN  、#PU  动脉#NN  硬化#NN  、#PU  高血压#NN  病的#NN  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 外感#VV)  (conj, 忌食#NN, 咽痛#NN)  (nn, 忌食#NN, 寒下#NN)  (nn, 忌食#NN, 利者#NN)  (dobj, 外感#VV, 忌食#NN)  (dep, 外感#VV, 患有#VV)  (nn, 慎食#NN, 肝病#NN)  (conj, 慎食#NN, 疾病#NN)  (nn, 慎食#NN, 动脉#NN)  (conj, 慎食#NN, 硬化#NN)  (nn, 慎食#NN, 高血压#NN)  (nn, 慎食#NN, 病的#NN)  (nn, 慎食#NN, 患者#NN)  (dobj, 患有#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜阴虚之人心烦、咽痛、下利者食用；适宜妇女血枯、月经不调者食用；也适宜血友病人出血者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  阴虚  之  人  心烦  、  咽痛  、  下  利者  食用  ；  适宜  妇女  血枯  、  月经  不  调  者  食用  ；  也  适宜  血友  病人  出血  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VA  阴虚#NN  之#DEG  人#NN  心烦#VA  、#PU  咽痛#VA  、#PU  下#DT  利者#NN  食用#VV  ；#PU  适宜#VV  妇女#NN  血枯#NN  、#PU  月经#VV  不#AD  调#JJ  者#NN  食用#VV  ；#PU  也#AD  适宜#VA  血友#NN  病人#NN  出血#VV  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VA, 尤#NN)  (root, ROOT#null, 适宜#VA)  (assmod, 人#NN, 阴虚#NN)  (case, 阴虚#NN, 之#DEG)  (nsubj, 心烦#VA, 人#NN)  (conj, 适宜#VA, 心烦#VA)  (dep, 心烦#VA, 咽痛#VA)  (det, 利者#NN, 下#DT)  (dep, 食用#VV, 利者#NN)  (conj, 心烦#VA, 食用#VV)  (conj, 心烦#VA, 适宜#VV)  (nn, 血枯#NN, 妇女#NN)  (dobj, 适宜#VV, 血枯#NN)  (conj, 心烦#VA, 月经#VV)  (neg, 调#JJ, 不#AD)  (amod, 者#NN, 调#JJ)  (dobj, 月经#VV, 者#NN)  (dep, 月经#VV, 食用#VV)  (advmod, 适宜#VA, 也#AD)  (conj, 心烦#VA, 适宜#VA)  (nn, 病人#NN, 血友#NN)  (nsubj, 出血#VV, 病人#NN)  (conj, 适宜#VA, 出血#VV)  (dobj, 出血#VV, 者#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                363
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                27.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                28.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                15.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                100
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                5.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B12（微克）
+            </elename>
+            <elevalue>
+                4.53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                72.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.67
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                4.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                46.9
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪皮，又称肉皮，是一种蛋白质含量很高的肉制品原料。在日常生活中，不少人买回带皮的猪肉时，总习惯把皮切掉弃之。殊不知您扔掉的是很好的营养保健品。近年来，科学家们发现，经常食用猪皮或猪蹄有延缓衰老和抗癌的作用。以猪皮为原料加工成的皮花肉、皮冻、火腿等肉制品，不但韧性好，色、香、味、口感俱佳，而且对人的皮肤、筋腱、骨骼、毛发都有重要的生理保健作用。
+            猪皮为常食之物，但作为药物，早有记载。东汉张仲景《伤寒论》中的猪肤汤，就是以猪皮为主药。猪肤汤，治少阴病下利、咽痛、胸满、心烦。另外，猪肤也可以加工煎炼成动物胶，如今市售的“新阿胶”就是用猪皮代替驴皮熬胶而成的“阿胶”。东汉名医张仲景在《伤寒论》中创制了“猪肤汤”一方，认为具有“和血脉，润肌肤”的功效。
+        </rawdata>
+
+        <segment>
+            猪皮  ，  又  称  肉皮  ，  是  一  种  蛋白质  含量  很  高  的  肉制品  原料  。  在  日常  生活  中  ，  不少  人  买回  带  皮  的  猪肉  时  ，  总  习惯  把  皮  切掉  弃之  。  殊  不  知  您  扔掉  的  是  很  好  的  营养  保健品  。  近年  来  ，  科学家们  发现  ，  经常  食用  猪皮  或  猪蹄  有  延缓  衰老  和  抗癌  的  作用  。  以  猪皮  为  原料  加工  成  的  皮花  肉  、  皮冻  、  火腿  等  肉  制品  ，  不但  韧性  好  ，  色  、  香  、  味  、  口感  俱佳  ，  而且  对人  的  皮肤  、  筋腱  、  骨骼  、  毛发  都  有  重要  的  生理  保健  作用  。
+            猪皮  为  常食  之物  ，  但  作为  药物  ，  早有  记载  。  东汉  张仲景  《  伤寒论  》  中  的  猪肤  汤  ，  就是  以  猪皮  为主  药  。  猪肤  汤  ，  治  少  阴  病  下利  、  咽痛  、  胸满  、  心烦  。  另外  ，  猪肤  也  可以  加工  煎  炼成  动物胶  ，  如今  市售  的  “  新  阿胶  ”  就  是  用  猪皮  代替  驴  皮  熬  胶  而  成  的  “  阿胶  ”  。  东汉  名医  张仲景  在  《  伤寒论  》  中  创制  了  “  猪肤  汤  ”  一  方  ，  认为  具有  “  和  血脉  ，  润  肌肤  ”  的  功效  。
+        </segment>
+
+        <pos>
+            猪皮#VV  ，#PU  又#AD  称#VV  肉皮#NN  ，#PU  是#VC  一#CD  种#M  蛋白质#NN  含量#NN  很#AD  高#VA  的#DEC  肉制品#JJ  原料#NN    。#PU  在#P  日常#JJ  生活#NN  中#LC  ，#PU  不少#CD  人#NN  买回#VV  带#VV  皮#NN  的#DEG  猪肉#NN  时#LC  ，#PU  总#JJ  习惯#NN  把#BA  皮#NN  切掉#VV  弃之#NN    。#PU  殊#NR  不#AD  知#VV  您#PN  扔掉#VV  的#DEC  是#VC  很#AD  好#VA  的#DEC  营养#VA  保健品#NN    。#PU  近年#NT  来#LC  ，#PU  科学家们#NN  发现#VV  ，#PU  经常#AD  食用#VV  猪皮#NN  或#CC  猪蹄#NN  有#VE  延缓#VV  衰老#NN  和#CC  抗癌#NN  的#DEC  作用#NN    。#PU  以#P  猪皮#NN  为#VV  原料#NN  加工#NN  成#VV  的#DEC  皮花#VV  肉#NN  、#PU  皮冻#NN  、#PU  火腿#NN  等#ETC  肉#NN  制品#NN  ，#PU  不但#CC  韧性#AD  好#VA  ，#PU  色#NN  、#PU  香#NN  、#PU  味#NN  、#PU  口感#NN  俱佳#NN  ，#PU  而且#CC  对人#VV  的#DEC  皮肤#NN  、#PU  筋腱#NN  、#PU  骨骼#NN  、#PU  毛发#NN  都#AD  有#VE  重要#VA  的#DEC  生理#NN  保健#NN  作用#NN    。#PU    。#PU
+            猪皮#NN  为#VC  常食#NN  之物#NN  ，#PU  但#AD  作为#P  药物#NN  ，#PU  早有#NN  记载#VV    。#PU  东汉#NR  张仲景#VV  伤寒论#NN  中#LC  的#DEG  猪肤#NN  汤#NN  ，#PU  就是#CC  以#P  猪皮#NN  为主#VV  药#NN    。#PU  猪肤#NR  汤#VV  ，#PU  治#VV  少#JJ  阴#NN  病#JJ  下利#NN  、#PU  咽痛#NR  、#PU  胸满#NR  、#PU  心烦#NR    。#PU  另外#AD  ，#PU  猪肤#NN  也#AD  可以#VV  加工#NN  煎#NN  炼成#NN  动物胶#VV  ，#PU  如今#NT  市售#VV  的#DEC  ``#NR  新#JJ  阿胶#NN  ''#NN  就#AD  是#VC  用#P  猪皮#NN  代替#VV  驴#NN  皮#NN  熬#NN  胶#NN  而#MSP  成#VV  的#DEC  ``#NN  阿胶#NN  ''#NN    。#PU  东汉#NR  名医#NN  张仲景#NN  在#P  伤寒论#NN  中#LC  创制#VV  了#AS  ``#NN  猪肤#NN  汤#AD  ''#VV  一#CD  方#M  ，#PU  认为#VV  具有#VV  ``#NN  和#CC  血脉#NN  ，#PU  润#VV  肌肤#NN  ''#NN  的#DEC  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪皮#VV)  (advmod, 称#VV, 又#AD)  (ccomp, 猪皮#VV, 称#VV)  (dep, 原料#NN, 肉皮#NN)  (cop, 原料#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 原料#NN, 种#M)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (relcl, 原料#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 原料#NN, 肉制品#JJ)  (ccomp, 称#VV, 原料#NN)   (case, 生活#NN, 在#P)  (amod, 生活#NN, 日常#JJ)  (prep, 买回#VV, 生活#NN)  (case, 生活#NN, 中#LC)  (nummod, 人#NN, 不少#CD)  (nsubj, 买回#VV, 人#NN)  (root, ROOT#null, 买回#VV)  (loc, 买回#VV, 带#VV)  (assmod, 猪肉#NN, 皮#NN)  (case, 皮#NN, 的#DEG)  (dobj, 带#VV, 猪肉#NN)  (case, 带#VV, 时#LC)  (amod, 习惯#NN, 总#JJ)  (nsubj, 切掉#VV, 习惯#NN)  (ba, 切掉#VV, 把#BA)  (nsubj, 切掉#VV, 皮#NN)  (conj, 买回#VV, 切掉#VV)  (dobj, 切掉#VV, 弃之#NN)   (nsubj, 知#VV, 殊#NR)  (neg, 知#VV, 不#AD)  (root, ROOT#null, 知#VV)  (nsubj, 扔掉#VV, 您#PN)  (nsubj, 保健品#NN, 扔掉#VV)  (mark, 扔掉#VV, 的#DEC)  (cop, 保健品#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, 保健品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nfincl, 保健品#NN, 营养#VA)  (ccomp, 知#VV, 保健品#NN)   (loc, 发现#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (nsubj, 发现#VV, 科学家们#NN)  (xsubj, 食用#VV, 科学家们#NN)  (root, ROOT#null, 发现#VV)  (advmod, 食用#VV, 经常#AD)  (ccomp, 发现#VV, 食用#VV)  (conj, 猪蹄#NN, 猪皮#NN)  (cc, 猪蹄#NN, 或#CC)  (dep, 有#VE, 猪蹄#NN)  (dep, 发现#VV, 有#VE)  (relcl, 作用#NN, 延缓#VV)  (conj, 抗癌#NN, 衰老#NN)  (cc, 抗癌#NN, 和#CC)  (dobj, 延缓#VV, 抗癌#NN)  (mark, 延缓#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (case, 猪皮#NN, 以#P)  (prep, 为#VV, 猪皮#NN)  (relcl, 毛发#NN, 为#VV)  (nn, 加工#NN, 原料#NN)  (dobj, 为#VV, 加工#NN)  (conj, 为#VV, 成#VV)  (mark, 为#VV, 的#DEC)  (relcl, 毛发#NN, 皮花#VV)  (conj, 火腿#NN, 肉#NN)  (conj, 火腿#NN, 皮冻#NN)  (nn, 制品#NN, 火腿#NN)  (etc, 火腿#NN, 等#ETC)  (nn, 制品#NN, 肉#NN)  (dobj, 皮花#VV, 制品#NN)  (cc, 皮花#VV, 不但#CC)  (advmod, 好#VA, 韧性#AD)  (conj, 皮花#VV, 好#VA)  (conj, 口感#NN, 色#NN)  (conj, 口感#NN, 香#NN)  (conj, 口感#NN, 味#NN)  (nn, 俱佳#NN, 口感#NN)  (conj, 皮花#VV, 俱佳#NN)  (cc, 皮花#VV, 而且#CC)  (conj, 皮花#VV, 对人#VV)  (mark, 皮花#VV, 的#DEC)  (conj, 毛发#NN, 皮肤#NN)  (conj, 毛发#NN, 筋腱#NN)  (conj, 毛发#NN, 骨骼#NN)  (nsubj, 有#VE, 毛发#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 作用#NN, 生理#NN)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 之物#NN, 猪皮#NN)  (cop, 之物#NN, 为#VC)  (nn, 之物#NN, 常食#NN)  (root, ROOT#null, 之物#NN)  (advmod, 记载#VV, 但#AD)  (case, 药物#NN, 作为#P)  (prep, 记载#VV, 药物#NN)  (nsubj, 记载#VV, 早有#NN)  (conj, 之物#NN, 记载#VV)   (nsubj, 张仲景#VV, 东汉#NR)  (root, ROOT#null, 张仲景#VV)  (assmod, 汤#NN, 伤寒论#NN)  (case, 伤寒论#NN, 中#LC)  (case, 伤寒论#NN, 的#DEG)  (nn, 汤#NN, 猪肤#NN)  (dobj, 张仲景#VV, 汤#NN)  (cc, 张仲景#VV, 就是#CC)  (case, 猪皮#NN, 以#P)  (prep, 为主#VV, 猪皮#NN)  (conj, 张仲景#VV, 为主#VV)  (dobj, 为主#VV, 药#NN)   (nsubj, 汤#VV, 猪肤#NR)  (root, ROOT#null, 汤#VV)  (ccomp, 汤#VV, 治#VV)  (amod, 阴#NN, 少#JJ)  (nn, 下利#NN, 阴#NN)  (amod, 下利#NN, 病#JJ)  (conj, 心烦#NR, 下利#NN)  (conj, 心烦#NR, 咽痛#NR)  (conj, 心烦#NR, 胸满#NR)  (dobj, 治#VV, 心烦#NR)   (advmod, 可以#VV, 另外#AD)  (nsubj, 可以#VV, 猪肤#NN)  (advmod, 可以#VV, 也#AD)  (dep, 动物胶#VV, 可以#VV)  (nn, 炼成#NN, 加工#NN)  (nn, 炼成#NN, 煎#NN)  (dobj, 可以#VV, 炼成#NN)  (root, ROOT#null, 动物胶#VV)  (dep, 市售#VV, 如今#NT)  (relcl, ''#NN, 市售#VV)  (mark, 市售#VV, 的#DEC)  (nn, 阿胶#NN, ``#NR)  (amod, 阿胶#NN, 新#JJ)  (nn, ''#NN, 阿胶#NN)  (nsubj, ''#NN, ''#NN)  (advmod, ''#NN, 就#AD)  (cop, ''#NN, 是#VC)  (case, 猪皮#NN, 用#P)  (prep, 代替#VV, 猪皮#NN)  (relcl, ''#NN, 代替#VV)  (nn, 胶#NN, 驴#NN)  (nn, 胶#NN, 皮#NN)  (nn, 胶#NN, 熬#NN)  (dobj, 代替#VV, 胶#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 代替#VV, 成#VV)  (mark, 代替#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 阿胶#NN)  (ccomp, 动物胶#VV, ''#NN)   (nn, 张仲景#NN, 东汉#NR)  (nn, 张仲景#NN, 名医#NN)  (nsubj, 创制#VV, 张仲景#NN)  (case, 伤寒论#NN, 在#P)  (prep, 创制#VV, 伤寒论#NN)  (case, 伤寒论#NN, 中#LC)  (root, ROOT#null, 创制#VV)  (asp, 创制#VV, 了#AS)  (nn, 猪肤#NN, ``#NN)  (nsubj, ''#VV, 猪肤#NN)  (advmod, ''#VV, 汤#AD)  (relcl, 功效#NN, ''#VV)  (nummod, 方#M, 一#CD)  (range, ''#VV, 方#M)  (conj, ''#VV, 认为#VV)  (ccomp, 认为#VV, 具有#VV)  (conj, 血脉#NN, ``#NN)  (cc, 血脉#NN, 和#CC)  (dobj, 具有#VV, 血脉#NN)  (conj, ''#VV, 润#VV)  (nn, ''#NN, 肌肤#NN)  (dobj, 润#VV, ''#NN)  (mark, ''#VV, 的#DEC)  (dobj, 创制#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            猪皮味甘、性凉。有活血止血、补益精血、滋润肌肤、光泽头发、减少皱纹、延缓衰老的作用。主治鼻衄，齿衄，大便出血，痔疮出血，贫血，紫癜，月经过多，崩漏等。
+        </rawdata>
+
+        <segment>
+            猪皮  味  甘  、  性凉  。  有  活血  止血  、  补益  精血  、  滋润  肌肤  、  光泽  头发  、  减少  皱纹  、  延缓  衰老  的  作用  。  主治  鼻衄  ，  齿衄  ，  大便  出血  ，  痔疮  出血  ，  贫血  ，  紫癜  ，  月经  过多  ，  崩漏  等  。
+        </segment>
+
+        <pos>
+            猪皮#NN  味#VV  甘#NR  、#PU  性凉#NR    。#PU  有#VE  活血#NR  止血#NR  、#PU  补益#NR  精血#NR  、#PU  滋润#NR  肌肤#NR  、#PU  光泽#NR  头发#NN  、#PU  减少#VV  皱纹#NR  、#PU  延缓#NR  衰老#NN  的#DEG  作用#NN    。#PU  主治#NR  鼻衄#VV  ，#PU  齿衄#NN  ，#PU  大便#AD  出血#VV  ，#PU  痔疮#AD  出血#VV  ，#PU  贫血#VV  ，#PU  紫癜#VV  ，#PU  月经#VV  过多#NN  ，#PU  崩漏#VV  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 猪皮#NN)  (root, ROOT#null, 味#VV)  (conj, 性凉#NR, 甘#NR)  (dobj, 味#VV, 性凉#NR)   (root, ROOT#null, 有#VE)  (nn, 光泽#NR, 活血#NR)  (conj, 光泽#NR, 止血#NR)  (nn, 光泽#NR, 补益#NR)  (conj, 光泽#NR, 精血#NR)  (nn, 光泽#NR, 滋润#NR)  (conj, 光泽#NR, 肌肤#NR)  (nn, 头发#NN, 光泽#NR)  (dobj, 有#VE, 头发#NN)  (conj, 有#VE, 减少#VV)  (conj, 延缓#NR, 皱纹#NR)  (nn, 衰老#NN, 延缓#NR)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 减少#VV, 作用#NN)   (nsubj, 鼻衄#VV, 主治#NR)  (root, ROOT#null, 鼻衄#VV)  (nsubj, 出血#VV, 齿衄#NN)  (advmod, 出血#VV, 大便#AD)  (ccomp, 鼻衄#VV, 出血#VV)  (advmod, 出血#VV, 痔疮#AD)  (conj, 出血#VV, 出血#VV)  (conj, 出血#VV, 贫血#VV)  (conj, 出血#VV, 紫癜#VV)  (dep, 出血#VV, 月经#VV)  (dobj, 月经#VV, 过多#NN)  (conj, 出血#VV, 崩漏#VV)  (dep, 出血#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  清热  止血  补阴  抗休克  增强造血功能  促进组织生长  抗胃溃疡  清咽润喉
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            猪皮里蛋白质含量是猪肉的2.5倍，碳水化合物的含量比猪肉高4倍，而脂肪含量却只有猪肉的1/2。肉皮(包括猪蹄、猪尾)含蛋白质26.4%，是猪肉的2.5倍，而且90%以上是大分子胶原蛋白和弹性蛋白，其含量可与熊掌媲美。
+            胶原蛋白对皮肤有特殊的营养作用，能促进皮肤细胞吸收和贮存水分，防止皮肤干瘪起皱，使其丰富饱满平整光滑；弹性蛋白，能使皮肤的弹性增加，韧性增强，血液循环旺盛，营养供应充足，皱纹舒展，变浅或消失，皮肤显得娇嫩、细腻、光滑。
+            由于猪皮含有的胶原蛋白能减慢机体细胞老化，因此，经常食用猪皮或猪蹄有延缓衰老和抗癌的作用。
+        </rawdata>
+
+        <segment>
+            猪皮  里  蛋白质  含量  是  猪肉  的  5  倍  ，  碳水化合物  的  含量  比  猪肉  高  4  倍  ，  而  脂肪  含量  却  只有  猪肉  的  1/2  。  肉皮  (  包括  猪蹄  、  猪尾  )  含  蛋白质  26.4%  ，  是  猪肉  的  2.5  倍  ，  而且  90%  以上  是  大分子  胶原  蛋白  和  弹性  蛋白  ，  其  含量  可  与  熊掌  媲美  。
+            胶原  蛋白  对  皮肤  有  特殊  的  营养  作用  ，  能  促进  皮肤  细胞  吸收  和  贮存  水分  ，  防止  皮肤  干瘪  起皱  ，  使  其  丰富  饱满  平整  光滑  ；  弹性  蛋白  ，  能  使  皮肤  的  弹性  增加  ，  韧性  增强  ，  血液  循环  旺盛  ，  营养  供应  充足  ，  皱纹  舒展  ，  变浅  或  消失  ，  皮肤  显得  娇嫩  、  细腻  、  光滑  。
+            由于  猪皮  含  有的  胶原  蛋白  能  减慢  机体  细胞  老化  ，  因此  ，  经常  食用  猪皮  或  猪蹄  有  延缓  衰老  和  抗癌  的  作用  。
+        </segment>
+
+        <pos>
+            猪皮#NN  里#LC  蛋白质#NN  含量#NN  是#VC  猪肉#NN  的#DEG  5#CD  倍#M  ，#PU  碳水化合物#NN  的#DEG  含量#NN  比#P  猪肉#NN  高#VA  4#CD  倍#M  ，#PU  而#CC  脂肪#NN  含量#NN  却#AD  只有#VV  猪肉#NN  的#DEG  1/2#CD    。#PU  肉皮#NN  -LRB-#NN  包括#VV  猪蹄#NR  、#PU  猪尾#NR  -RRB-#NN  含#VV  蛋白质#NR  26.4#CD  %#NN  ，#PU  是#VC  猪肉#NN  的#DEG  2.5#CD  倍#M  ，#PU  而且#CC  90#CD  %#NN  以上#LC  是#VC  大分子#NN  胶原#NN  蛋白#NN  和#CC  弹性#NN  蛋白#NN  ，#PU  其#PN  含量#NN  可#VV  与#P  熊掌#NN  媲美#VV    。#PU    。#PU
+            胶原#NR  蛋白#VV  对#P  皮肤#NR  有#VE  特殊#VA  的#DEC  营养#VA  作用#NN  ，#PU  能#VV  促进#VV  皮肤#NN  细胞#NN  吸收#VV  和#CC  贮存#VV  水分#NN  ，#PU  防止#VV  皮肤#NN  干瘪#NN  起皱#NN  ，#PU  使#VV  其#PN  丰富#VA  饱满#VA  平整#NN  光滑#NN  ；#PU  弹性#VV  蛋白#NN  ，#PU  能#VV  使#VV  皮肤#NR  的#DEG  弹性#NN  增加#VV  ，#PU  韧性#AD  增强#VV  ，#PU  血液#NN  循环#AD  旺盛#VA  ，#PU  营养#VA  供应#NN  充足#VA  ，#PU  皱纹#NR  舒展#VV  ，#PU  变浅#NN  或#CC  消失#NN  ，#PU  皮肤#AD  显得#VV  娇嫩#NR  、#PU  细腻#NR  、#PU  光滑#NR  。#PU
+            由于#P  猪皮#NN  含#VV  有的#PN  胶原#NN  蛋白#NN  能#VV  减慢#NN  机体#NN  细胞#NN  老化#NN  ，#PU  因此#AD  ，#PU  经常#AD  食用#VV  猪皮#NN  或#CC  猪蹄#NN  有#VE  延缓#VV  衰老#NN  和#CC  抗癌#NN  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 是#VC, 猪皮#NN)  (case, 猪皮#NN, 里#LC)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (assmod, 倍#M, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nummod, 倍#M, 5#CD)  (dep, 是#VC, 倍#M)  (assmod, 含量#NN, 碳水化合物#NN)  (case, 碳水化合物#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (case, 猪肉#NN, 比#P)  (prep, 高#VA, 猪肉#NN)  (conj, 是#VC, 高#VA)  (nummod, 倍#M, 4#CD)  (dep, 高#VA, 倍#M)  (cc, 是#VC, 而#CC)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 只有#VV, 含量#NN)  (advmod, 只有#VV, 却#AD)  (conj, 是#VC, 只有#VV)  (assmod, 1/2#CD, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (range, 只有#VV, 1/2#CD)   (nn, -LRB-#NN, 肉皮#NN)  (root, ROOT#null, 包括#VV)  (conj, 猪尾#NR, 猪蹄#NR)  (nn, -RRB-#NN, 猪尾#NR)  (ccomp, 包括#VV, 含#VV)  (nn, %#NN, 蛋白质#NR)  (nummod, %#NN, 26.4#CD)  (dobj, 含#VV, %#NN)  (conj, 含#VV, 是#VC)  (assmod, 倍#M, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nummod, 倍#M, 2.5#CD)  (dep, 是#VC, 倍#M)  (cc, 是#VC, 而且#CC)  (nummod, %#NN, 90#CD)  (loc, 蛋白#NN, %#NN)  (case, %#NN, 以上#LC)  (cop, 蛋白#NN, 是#VC)  (nn, 蛋白#NN, 大分子#NN)  (nn, 蛋白#NN, 胶原#NN)  (conj, 蛋白#NN, 蛋白#NN)  (cc, 蛋白#NN, 和#CC)  (nn, 蛋白#NN, 弹性#NN)  (conj, 是#VC, 蛋白#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 媲美#VV, 含量#NN)  (mmod, 媲美#VV, 可#VV)  (case, 熊掌#NN, 与#P)  (prep, 媲美#VV, 熊掌#NN)  (conj, 含#VV, 媲美#VV)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 胶原#NR)  (mmod, 有#VE, 蛋白#VV)  (case, 皮肤#NR, 对#P)  (prep, 有#VE, 皮肤#NR)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nfincl, 作用#NN, 营养#VA)  (dobj, 有#VE, 作用#NN)  (mmod, 促进#VV, 能#VV)  (conj, 有#VE, 促进#VV)  (nn, 细胞#NN, 皮肤#NN)  (dobj, 促进#VV, 细胞#NN)  (dep, 促进#VV, 吸收#VV)  (cc, 促进#VV, 和#CC)  (conj, 促进#VV, 贮存#VV)  (dobj, 贮存#VV, 水分#NN)  (conj, 有#VE, 防止#VV)  (nn, 起皱#NN, 皮肤#NN)  (nn, 起皱#NN, 干瘪#NN)  (dobj, 防止#VV, 起皱#NN)  (conj, 有#VE, 使#VV)  (nsubj, 丰富#VA, 其#PN)  (ccomp, 使#VV, 丰富#VA)  (comod, 丰富#VA, 饱满#VA)  (nn, 光滑#NN, 平整#NN)  (dobj, 丰富#VA, 光滑#NN)  (conj, 有#VE, 弹性#VV)  (dobj, 弹性#VV, 蛋白#NN)  (mmod, 使#VV, 能#VV)  (conj, 有#VE, 使#VV)  (assmod, 弹性#NN, 皮肤#NR)  (case, 皮肤#NR, 的#DEG)  (dobj, 使#VV, 弹性#NN)  (dep, 使#VV, 增加#VV)  (advmod, 增强#VV, 韧性#AD)  (conj, 有#VE, 增强#VV)  (nsubj, 旺盛#VA, 血液#NN)  (advmod, 旺盛#VA, 循环#AD)  (conj, 有#VE, 旺盛#VA)  (relcl, 供应#NN, 营养#VA)  (nsubj, 充足#VA, 供应#NN)  (conj, 有#VE, 充足#VA)  (nsubj, 舒展#VV, 皱纹#NR)  (conj, 有#VE, 舒展#VV)  (conj, 消失#NN, 变浅#NN)  (cc, 消失#NN, 或#CC)  (nsubj, 显得#VV, 消失#NN)  (advmod, 显得#VV, 皮肤#AD)  (ccomp, 舒展#VV, 显得#VV)  (conj, 光滑#NR, 娇嫩#NR)  (conj, 光滑#NR, 细腻#NR)  (dobj, 显得#VV, 光滑#NR)
+            (case, 含#VV, 由于#P)  (nsubj, 含#VV, 猪皮#NN)  (prep, 有#VE, 含#VV)  (nn, 蛋白#NN, 有的#PN)  (nn, 蛋白#NN, 胶原#NN)  (dobj, 含#VV, 蛋白#NN)  (conj, 含#VV, 能#VV)  (nn, 老化#NN, 减慢#NN)  (nn, 老化#NN, 机体#NN)  (nn, 老化#NN, 细胞#NN)  (dobj, 能#VV, 老化#NN)  (advmod, 有#VE, 因此#AD)  (advmod, 食用#VV, 经常#AD)  (conj, 有#VE, 食用#VV)  (conj, 猪蹄#NN, 猪皮#NN)  (cc, 猪蹄#NN, 或#CC)  (dobj, 食用#VV, 猪蹄#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 延缓#VV)  (conj, 抗癌#NN, 衰老#NN)  (cc, 抗癌#NN, 和#CC)  (dobj, 延缓#VV, 抗癌#NN)  (mark, 延缓#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.家庭中食用猪皮的方法很多，如肉皮胶冻，可随意佐餐或当零食吃。
+            2.肉皮晾干后，经油炸。再通过合理的烹调，即可以做成可口的类似鱼肚的美味佳肴。例如：将油炸好的肉皮，放入温水中发透，洗净，切成小条。食用时，以鸡汤或肉汤，煨炖炸好的肉皮，再加笋片、黄瓜片、黄酒、盐、味精等，佐餐食用。
+        </rawdata>
+
+        <segment>
+            家庭  中  食用  猪皮  的  方法  很多  ，  如  肉皮  胶冻  ，  可  随意  佐餐  或当  零食  吃  。
+            肉皮  晾干  后  ，  经  油炸  。  再  通过  合理  的  烹调  ，  即  可以  做成  可口  的  类似  鱼肚  的  美味  佳肴  。  例如  ：  将  油炸  好的  肉皮  ，  放入  温水  中  发透  ，  洗净  ，  切成  小  条  。  食用  时  ，  以  鸡汤  或  肉汤  ，  煨炖  炸  好的  肉皮  ，  再  加  笋片  、  黄瓜片  、  黄酒  、  盐  、  味精  等  ，  佐餐  食用  。
+        </segment>
+
+        <pos>
+            家庭#NN  中#LC  食用#VV  猪皮#NN  的#DEC  方法#NN  很多#CD  ，#PU  如#AD  肉皮#NN  胶冻#NN  ，#PU  可#VV  随意#VV  佐餐#NN  或当#NN  零食#CD  吃#VV  。#PU
+            肉皮#NN  晾干#NN  后#LC  ，#PU  经#VV  油炸#NN    。#PU  再#AD  通过#P  合理#VA  的#DEC  烹调#NN  ，#PU  即#AD  可以#VV  做成#VV  可口#NN  的#DEG  类似#JJ  鱼肚#NN  的#DEC  美味#NN  佳肴#VV    。#PU  例如#AD  ：#PU  将#AD  油炸#VV  好的#NN  肉皮#NR  ，#PU  放入#VV  温水#NN  中#LC  发透#VV  ，#PU  洗净#VV  ，#PU  切成#NN  小#JJ  条#NN    。#PU  食用#VV  时#LC  ，#PU  以#P  鸡汤#NN  或#CC  肉汤#NN  ，#PU  煨炖#AD  炸#VV  好的#NN  肉皮#NN  ，#PU  再#AD  加#VV  笋片#NN  、#PU  黄瓜片#NN  、#PU  黄酒#NN  、#PU  盐#NN  、#PU  味精#NN  等#ETC  ，#PU  佐餐#AD  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 食用#VV, 家庭#NN)  (case, 家庭#NN, 中#LC)  (relcl, 方法#NN, 食用#VV)  (dobj, 食用#VV, 猪皮#NN)  (mark, 食用#VV, 的#DEC)  (nsubj, 随意#VV, 方法#NN)  (nsubj, 随意#VV, 很多#CD)  (advmod, 胶冻#NN, 如#AD)  (nn, 胶冻#NN, 肉皮#NN)  (nsubj, 随意#VV, 胶冻#NN)  (mmod, 随意#VV, 可#VV)  (root, ROOT#null, 随意#VV)  (nn, 或当#NN, 佐餐#NN)  (dobj, 随意#VV, 或当#NN)  (range, 随意#VV, 零食#CD)  (dep, 随意#VV, 吃#VV)
+            (nn, 晾干#NN, 肉皮#NN)  (loc, 经#VV, 晾干#NN)  (case, 晾干#NN, 后#LC)  (root, ROOT#null, 经#VV)  (dobj, 经#VV, 油炸#NN)   (advmod, 做成#VV, 再#AD)  (case, 烹调#NN, 通过#P)  (relcl, 烹调#NN, 合理#VA)  (mark, 合理#VA, 的#DEC)  (prep, 做成#VV, 烹调#NN)  (advmod, 做成#VV, 即#AD)  (mmod, 做成#VV, 可以#VV)  (relcl, 美味#NN, 做成#VV)  (assmod, 鱼肚#NN, 可口#NN)  (case, 可口#NN, 的#DEG)  (amod, 鱼肚#NN, 类似#JJ)  (dobj, 做成#VV, 鱼肚#NN)  (mark, 做成#VV, 的#DEC)  (nsubj, 佳肴#VV, 美味#NN)  (root, ROOT#null, 佳肴#VV)   (advmod, 发透#VV, 例如#AD)  (advmod, 油炸#VV, 将#AD)  (nfincl, 好的#NN, 油炸#VV)  (prep, 发透#VV, 好的#NN)  (conj, 好的#NN, 肉皮#NR)  (nsubj, 发透#VV, 放入#VV)  (loc, 放入#VV, 温水#NN)  (case, 温水#NN, 中#LC)  (root, ROOT#null, 发透#VV)  (dep, 发透#VV, 洗净#VV)  (nsubj, 条#NN, 切成#NN)  (amod, 条#NN, 小#JJ)  (dep, 发透#VV, 条#NN)   (loc, 炸#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (case, 肉汤#NN, 以#P)  (conj, 肉汤#NN, 鸡汤#NN)  (cc, 肉汤#NN, 或#CC)  (prep, 炸#VV, 肉汤#NN)  (advmod, 炸#VV, 煨炖#AD)  (root, ROOT#null, 炸#VV)  (nn, 肉皮#NN, 好的#NN)  (dobj, 炸#VV, 肉皮#NN)  (advmod, 加#VV, 再#AD)  (dep, 炸#VV, 加#VV)  (conj, 味精#NN, 笋片#NN)  (conj, 味精#NN, 黄瓜片#NN)  (conj, 味精#NN, 黄酒#NN)  (conj, 味精#NN, 盐#NN)  (dobj, 加#VV, 味精#NN)  (etc, 味精#NN, 等#ETC)  (advmod, 食用#VV, 佐餐#AD)  (dep, 加#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081340172762.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\8 猪皮.jpg
+    </picturelocalurl>
+
+</content>

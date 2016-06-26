@@ -1,0 +1,147 @@
+<content>
+
+    <id>
+        1016
+    </id>
+
+    <foodname>
+        文蛤丸
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            病属邪热痰结者宜之，气虚有寒者忌食
+        </rawdata>
+
+        <segment>
+            病  属  邪热痰结者  宜  之  ，  气虚  有  寒者  忌食
+        </segment>
+
+        <pos>
+            病#JJ  属#NN  邪热痰结者#VV  宜#NR  之#PN  ，#PU  气虚#AD  有#VE  寒者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (amod, 属#NN, 病#JJ)  (nsubj, 邪热痰结者#VV, 属#NN)  (root, ROOT#null, 邪热痰结者#VV)  (nsubj, 有#VE, 宜#NR)  (nsubj, 有#VE, 之#PN)  (advmod, 有#VE, 气虚#AD)  (ccomp, 邪热痰结者#VV, 有#VE)  (nn, 忌食#NN, 寒者#NN)  (dobj, 有#VE, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            文蛤丸由文蛤肉制成，文蛤主要产于沿海一带，其经济价值高、营养丰富、肉质鲜美，为如东县出口创汇的主要海产品之一。
+        </rawdata>
+
+        <segment>
+            文蛤  丸由  文蛤  肉  制成  ，  文蛤  主要  产于  沿海  一带  ，  其  经济  价值  高  、  营养  丰富  、  肉质  鲜美  ，  为  如东县  出口  创汇  的  主要  海产品  之一  。
+        </segment>
+
+        <pos>
+            文蛤#NN  丸由#NN  文蛤#VV  肉#NN  制成#VV  ，#PU  文蛤#NN  主要#AD  产于#VV  沿海#NN  一带#CD  ，#PU  其#PN  经济#NN  价值#NN  高#VA  、#PU  营养#VA  丰富#VA  、#PU  肉质#VA  鲜美#VV  ，#PU  为#VC  如东县#NN  出口#NN  创汇#NN  的#DEG  主要#JJ  海产品#NN  之一#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 丸由#NN, 文蛤#NN)  (nsubj, 文蛤#VV, 丸由#NN)  (root, ROOT#null, 文蛤#VV)  (dobj, 文蛤#VV, 肉#NN)  (conj, 文蛤#VV, 制成#VV)  (nsubj, 产于#VV, 文蛤#NN)  (advmod, 产于#VV, 主要#AD)  (conj, 文蛤#VV, 产于#VV)  (dobj, 产于#VV, 沿海#NN)  (range, 产于#VV, 一带#CD)  (nsubj, 高#VA, 其#PN)  (nn, 价值#NN, 经济#NN)  (nsubj, 高#VA, 价值#NN)  (dep, 鲜美#VV, 高#VA)  (dep, 高#VA, 营养#VA)  (conj, 高#VA, 丰富#VA)  (dep, 高#VA, 肉质#VA)  (conj, 文蛤#VV, 鲜美#VV)  (cop, 之一#NN, 为#VC)  (nn, 创汇#NN, 如东县#NN)  (nn, 创汇#NN, 出口#NN)  (assmod, 之一#NN, 创汇#NN)  (case, 创汇#NN, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 海产品#NN)  (conj, 文蛤#VV, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            文蛤丸能清热利湿、化痰、散结、润五脏、止消渴、健脾胃、治赤目和增乳液。
+        </rawdata>
+
+        <segment>
+            文蛤丸  能  清热  利湿  、  化痰  、  散结  、  润  五脏  、  止  消渴  、  健脾胃  、  治赤目  和  增  乳液  。
+        </segment>
+
+        <pos>
+            文蛤丸#NN  能#VV  清热#VV  利湿#NR  、#PU  化痰#NR  、#PU  散结#NR  、#PU  润#NR  五脏#CD  、#PU  止#VV  消渴#NN  、#PU  健脾胃#NN  、#PU  治赤目#NN  和#CC  增#NN  乳液#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 清热#VV, 文蛤丸#NN)  (mmod, 清热#VV, 能#VV)  (root, ROOT#null, 清热#VV)  (conj, 润#NR, 利湿#NR)  (conj, 润#NR, 化痰#NR)  (conj, 润#NR, 散结#NR)  (dobj, 清热#VV, 润#NR)  (range, 清热#VV, 五脏#CD)  (dep, 清热#VV, 止#VV)  (conj, 乳液#NN, 消渴#NN)  (conj, 乳液#NN, 健脾胃#NN)  (conj, 乳液#NN, 治赤目#NN)  (cc, 乳液#NN, 和#CC)  (nn, 乳液#NN, 增#NN)  (dobj, 止#VV, 乳液#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含有蛋白质10%，脂肪1.2%，碳水化合物2.5%，还含有人体易吸收的各种氨基酸和维生素及钙、钾、镁、磷、铁等多种人体必需的矿物质。
+            1.文蛤丸味甘、咸，性微寒。有清热利湿、化痰、散结的功效，对肝癌有明显的抑制作用，对哮喘、慢性气管炎、甲状腺肿大、淋巴结核等病也有明显疗效。
+            2.食用文蛤丸，有润五脏、止消渴，健脾胃，治赤目，增乳液的功能。
+        </rawdata>
+
+        <segment>
+            含有  蛋白质    %  ，  脂肪  1.2%  ，  碳水化合物  2.5%  ，  还  含有  人体  易  吸收  的  各  种  氨基酸  和  维生素  及  钙  、  钾  、  镁  、  磷  、  铁  等  多  种  人体  必需  的  矿物质  。
+            文蛤  丸味  甘  、  咸  ，  性微寒  。  有  清热  利湿  、  化痰  、  散结  的  功效  ，  对  肝癌  有  明显  的  抑制  作用  ，  对  哮喘  、  慢性  气管炎  、  甲状腺  肿大  、  淋巴  结核  等  病  也  有  明显  疗效  。
+            食用  文蛤丸  ，  有润  五脏  、  止  消渴  ，  健脾胃  ，  治  赤目  ，  增  乳液  的  功能  。
+        </segment>
+
+        <pos>
+            含有#NN  蛋白质#VV  %#NN  ，#PU  脂肪#VV  1.2#CD  %#NN  ，#PU  碳水化合物#VV  2.5#CD  %#NN  ，#PU  还#AD  含有#VV  人体#AD  易#AD  吸收#VV  的#DEC  各#DT  种#M  氨基酸#NN  和#CC  维生素#NN  及#CC  钙#NN  、#PU  钾#NN  、#PU  镁#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  人体#NN  必需#VV  的#DEC  矿物质#NN  。#PU
+            文蛤#AD  丸味#VV  甘#NR  、#PU  咸#NR  ，#PU  性微寒#VV    。#PU  有#VE  清热#NR  利湿#NR  、#PU  化痰#NR  、#PU  散结#NR  的#DEG  功效#NN  ，#PU  对#P  肝癌#NN  有#VE  明显#VA  的#DEC  抑制#NN  作用#NN  ，#PU  对#P  哮喘#NR  、#PU  慢性#NR  气管炎#NR  、#PU  甲状腺#NR  肿大#NR  、#PU  淋巴#NR  结核#NR  等#ETC  病#NN  也#AD  有#VE  明显#JJ  疗效#NN    。#PU    。#PU
+            食用#VV  文蛤丸#NN  ，#PU  有润#VV  五脏#CD  、#PU  止#VV  消渴#NN  ，#PU  健脾胃#VV  ，#PU  治#VV  赤目#NN  ，#PU  增#VV  乳液#NN  的#DEG  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 含有#NN)  (root, ROOT#null, 蛋白质#VV)  (dobj, 蛋白质#VV, %#NN)  (conj, 蛋白质#VV, 脂肪#VV)  (nummod, %#NN, 1.2#CD)  (dobj, 脂肪#VV, %#NN)  (conj, 蛋白质#VV, 碳水化合物#VV)  (nummod, %#NN, 2.5#CD)  (dobj, 碳水化合物#VV, %#NN)  (advmod, 含有#VV, 还#AD)  (conj, 蛋白质#VV, 含有#VV)  (advmod, 吸收#VV, 人体#AD)  (advmod, 吸收#VV, 易#AD)  (relcl, 矿物质#NN, 吸收#VV)  (mark, 吸收#VV, 的#DEC)  (det, 矿物质#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 铁#NN, 氨基酸#NN)  (cc, 铁#NN, 和#CC)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 钾#NN)  (conj, 铁#NN, 镁#NN)  (conj, 铁#NN, 磷#NN)  (nn, 人体#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (nsubj, 必需#VV, 人体#NN)  (relcl, 矿物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)
+            (advmod, 丸味#VV, 文蛤#AD)  (root, ROOT#null, 丸味#VV)  (conj, 咸#NR, 甘#NR)  (dobj, 丸味#VV, 咸#NR)  (dep, 丸味#VV, 性微寒#VV)   (root, ROOT#null, 有#VE)  (nn, 散结#NR, 清热#NR)  (conj, 散结#NR, 利湿#NR)  (conj, 散结#NR, 化痰#NR)  (assmod, 功效#NN, 散结#NR)  (case, 散结#NR, 的#DEG)  (dobj, 有#VE, 功效#NN)  (case, 肝癌#NN, 对#P)  (prep, 有#VE, 肝癌#NN)  (conj, 有#VE, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (case, 病#NN, 对#P)  (conj, 结核#NR, 哮喘#NR)  (nn, 结核#NR, 慢性#NR)  (conj, 结核#NR, 气管炎#NR)  (nn, 结核#NR, 甲状腺#NR)  (conj, 结核#NR, 肿大#NR)  (nn, 结核#NR, 淋巴#NR)  (nn, 病#NN, 结核#NR)  (etc, 结核#NR, 等#ETC)  (prep, 有#VE, 病#NN)  (advmod, 有#VE, 也#AD)  (conj, 有#VE, 有#VE)  (amod, 疗效#NN, 明显#JJ)  (dobj, 有#VE, 疗效#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 文蛤丸#NN)  (conj, 食用#VV, 有润#VV)  (range, 有润#VV, 五脏#CD)  (conj, 食用#VV, 止#VV)  (dobj, 止#VV, 消渴#NN)  (conj, 食用#VV, 健脾胃#VV)  (conj, 食用#VV, 治#VV)  (dobj, 治#VV, 赤目#NN)  (conj, 食用#VV, 增#VV)  (assmod, 功能#NN, 乳液#NN)  (case, 乳液#NN, 的#DEG)  (dobj, 增#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/24/42/82468_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1016 文蛤丸.jpg
+    </picturelocalurl>
+
+</content>

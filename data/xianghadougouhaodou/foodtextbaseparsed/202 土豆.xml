@@ -1,0 +1,466 @@
+<content>
+
+    <id>
+        202
+    </id>
+
+    <foodname>
+        土豆
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        洋芋、地蛋、山药蛋、洋番薯、马铃薯、馍馍蛋
+    </alias>
+
+    <season>
+        6月中旬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇慎食。
+        </rawdata>
+
+        <segment>
+            孕妇  慎食  。
+        </segment>
+
+        <pos>
+            孕妇#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。尤适宜低蛋白饮食的肾病患者、糖尿病患者食用。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。  尤  适宜  低  蛋白  饮食  的  肾病  患者  、  糖尿病  患者  食用  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VV  低#JJ  蛋白#NN  饮食#NN  的#DEC  肾病#NN  患者#NN  、#PU  糖尿病#NN  患者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤#AD)  (relcl, 患者#NN, 适宜#VV)  (amod, 蛋白#NN, 低#JJ)  (nn, 饮食#NN, 蛋白#NN)  (dobj, 适宜#VV, 饮食#NN)  (mark, 适宜#VV, 的#DEC)  (nn, 患者#NN, 肾病#NN)  (conj, 患者#NN, 患者#NN)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 食用#VV, 患者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                76
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                17.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                342
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            土豆（马铃薯）是茄科茄属植物，俗名地豆子，多年生草本，但作一年生或一年两季栽培。地下块茎呈圆、卵、椭圆形等，有芽眼，皮红、黄、白或紫色。地上茎呈棱形，有毛。奇数羽状复叶。聚伞花序顶生，花白、红或紫色。浆果球形，绿或紫褐色。种子肾形，黄色。多用块茎繁殖。性喜冷凉高燥，对土壤适应性较强，但以疏松肥沃的砂质土为佳。在中国各地，马铃薯的称呼又有不同，东北称土豆、华北称山药蛋、西北称洋芋、江浙一带称洋番芋，广东及香港称之为薯仔。
+        </rawdata>
+
+        <segment>
+            土豆  （  马铃薯  ）  是  茄科  茄属  植物  ，  俗名  地  豆子  ，  多年生  草本  ，  但  作  一  年  生  或  一  年  两  季  栽培  。  地下  块茎  呈  圆  、  卵  、  椭圆形  等  ，  有  芽眼  ，  皮  红  、  黄  、  白  或  紫色  。  地上茎  呈  棱形  ，  有毛  。  奇数  羽状  复叶  。  聚伞花序  顶生  ，  花白  、  红  或  紫色  。  浆果  球形  ，  绿  或  紫  褐色  。  种子  肾形  ，  黄色  。  多用  块茎  繁殖  。  性  喜  冷  凉  高燥  ，  对  土壤  适应性  较  强  ，  但  以  疏松  肥沃  的  砂  质  土  为佳  。  在  中国  各地  ，  马铃薯  的  称呼  又  有  不同  ，  东北  称  土豆  、  华北  称  山药蛋  、  西北  称  洋芋  、  江浙  一带  称  洋番芋  ，  广东  及  香港  称之为  薯仔  。
+        </segment>
+
+        <pos>
+            土豆#NN  （#PU  马铃薯#NN  ）#PU  是#VC  茄科#NN  茄属#NN  植物#NN  ，#PU  俗名#VA  地#DEV  豆子#VV  ，#PU  多年生#VV  草本#NN  ，#PU  但#AD  作#VV  一#CD  年#M  生#VV  或#CC  一#CD  年#M  两#CD  季#NN  栽培#VV    。#PU  地下#JJ  块茎#NN  呈#VV  圆#VV  、#PU  卵#NN  、#PU  椭圆形#NN  等#ETC  ，#PU  有#VE  芽眼#NN  ，#PU  皮#VV  红#JJ  、#PU  黄#JJ  、#PU  白#NR  或#CC  紫色#NN    。#PU  地上茎#AD  呈#VV  棱形#NN  ，#PU  有毛#VV    。#PU  奇数#NN  羽状#NN  复叶#NN    。#PU  聚伞花序#VV  顶生#NN  ，#PU  花白#JJ  、#PU  红#JJ  或#CC  紫色#JJ    。#PU  浆果#NR  球形#VV  ，#PU  绿#VA  或#CC  紫#VA  褐色#VV    。#PU  种子#NN  肾形#VV  ，#PU  黄色#JJ    。#PU  多用#NN  块茎#VV  繁殖#NN    。#PU  性#NN  喜#AD  冷#VV  凉#NN  高燥#NN  ，#PU  对#P  土壤#NN  适应性#NN  较#AD  强#VA  ，#PU  但#AD  以#P  疏松#NN  肥沃#NN  的#DEG  砂#NN  质#NN  土#NR  为佳#VV    。#PU  在#P  中国#NR  各地#NN  ，#PU  马铃薯#NN  的#DEG  称呼#NN  又#AD  有#VE  不同#NN  ，#PU  东北#NN  称#NN  土豆#NN  、#PU  华北#NR  称#NN  山药蛋#NN  、#PU  西北#NN  称#VV  洋芋#NR  、#PU  江浙#NR  一带#CD  称#NN  洋番芋#VV  ，#PU  广东#NR  及#CC  香港#NR  称之为#VV  薯仔#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 植物#NN, 土豆#NN)  (prnmod, 土豆#NN, 马铃薯#NN)  (cop, 植物#NN, 是#VC)  (nn, 植物#NN, 茄科#NN)  (nn, 植物#NN, 茄属#NN)  (root, ROOT#null, 植物#NN)  (dvpmod, 豆子#VV, 俗名#VA)  (mark, 俗名#VA, 地#DEV)  (conj, 植物#NN, 豆子#VV)  (conj, 植物#NN, 多年生#VV)  (dobj, 多年生#VV, 草本#NN)  (advmod, 作#VV, 但#AD)  (conj, 植物#NN, 作#VV)  (nummod, 年#M, 一#CD)  (range, 作#VV, 年#M)  (conj, 植物#NN, 生#VV)  (cc, 生#VV, 或#CC)  (nummod, 年#M, 一#CD)  (clf, 季#NN, 年#M)  (nummod, 季#NN, 两#CD)  (nsubj, 栽培#VV, 季#NN)  (dep, 生#VV, 栽培#VV)   (amod, 块茎#NN, 地下#JJ)  (nsubj, 呈#VV, 块茎#NN)  (root, ROOT#null, 呈#VV)  (comod, 呈#VV, 圆#VV)  (conj, 椭圆形#NN, 卵#NN)  (dobj, 呈#VV, 椭圆形#NN)  (etc, 椭圆形#NN, 等#ETC)  (conj, 呈#VV, 有#VE)  (dobj, 有#VE, 芽眼#NN)  (conj, 呈#VV, 皮#VV)  (amod, 紫色#NN, 红#JJ)  (dep, 红#JJ, 黄#JJ)  (conj, 紫色#NN, 白#NR)  (cc, 紫色#NN, 或#CC)  (dobj, 皮#VV, 紫色#NN)   (advmod, 呈#VV, 地上茎#AD)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 棱形#NN)  (dep, 呈#VV, 有毛#VV)   (nn, 复叶#NN, 奇数#NN)  (nn, 复叶#NN, 羽状#NN)  (root, ROOT#null, 复叶#NN)   (root, ROOT#null, 聚伞花序#VV)  (dobj, 聚伞花序#VV, 顶生#NN)  (conj, 聚伞花序#VV, 花白#JJ)  (conj, 花白#JJ, 红#JJ)  (cc, 花白#JJ, 或#CC)  (dep, 花白#JJ, 紫色#JJ)   (nsubj, 球形#VV, 浆果#NR)  (root, ROOT#null, 球形#VV)  (ccomp, 球形#VV, 绿#VA)  (cc, 绿#VA, 或#CC)  (dep, 绿#VA, 紫#VA)  (dep, 球形#VV, 褐色#VV)   (nsubj, 肾形#VV, 种子#NN)  (root, ROOT#null, 肾形#VV)  (dep, 肾形#VV, 黄色#JJ)   (nsubj, 块茎#VV, 多用#NN)  (root, ROOT#null, 块茎#VV)  (dobj, 块茎#VV, 繁殖#NN)   (nsubj, 冷#VV, 性#NN)  (advmod, 冷#VV, 喜#AD)  (root, ROOT#null, 冷#VV)  (nn, 高燥#NN, 凉#NN)  (dobj, 冷#VV, 高燥#NN)  (case, 适应性#NN, 对#P)  (nn, 适应性#NN, 土壤#NN)  (prep, 强#VA, 适应性#NN)  (advmod, 强#VA, 较#AD)  (conj, 冷#VV, 强#VA)  (advmod, 为佳#VV, 但#AD)  (case, 质#NN, 以#P)  (nn, 肥沃#NN, 疏松#NN)  (assmod, 质#NN, 肥沃#NN)  (case, 肥沃#NN, 的#DEG)  (nn, 质#NN, 砂#NN)  (prep, 为佳#VV, 质#NN)  (nsubj, 为佳#VV, 土#NR)  (conj, 冷#VV, 为佳#VV)   (case, 各地#NN, 在#P)  (nn, 各地#NN, 中国#NR)  (prep, 有#VE, 各地#NN)  (assmod, 称呼#NN, 马铃薯#NN)  (case, 马铃薯#NN, 的#DEG)  (nsubj, 有#VE, 称呼#NN)  (advmod, 有#VE, 又#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 不同#NN)  (nn, 西北#NN, 东北#NN)  (nn, 西北#NN, 称#NN)  (conj, 西北#NN, 土豆#NN)  (nn, 西北#NN, 华北#NR)  (nn, 西北#NN, 称#NN)  (conj, 西北#NN, 山药蛋#NN)  (nsubj, 称#VV, 西北#NN)  (conj, 有#VE, 称#VV)  (conj, 江浙#NR, 洋芋#NR)  (nn, 称#NN, 江浙#NR)  (nummod, 称#NN, 一带#CD)  (nsubj, 洋番芋#VV, 称#NN)  (ccomp, 称#VV, 洋番芋#VV)  (conj, 香港#NR, 广东#NR)  (cc, 香港#NR, 及#CC)  (nsubj, 称之为#VV, 香港#NR)  (ccomp, 洋番芋#VV, 称之为#VV)  (dobj, 称之为#VV, 薯仔#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补充营养、可作主食
+            土豆含有丰富的维生素及钙、钾等微量元素，且易于消化吸收，营养丰富。能供给人体大量的热能，人只靠马铃薯和全脂牛奶就足以维持生命和健康，在欧美国家特别是北美，土豆早就成为第二主食。
+            2.和中养胃、健脾利湿
+            土豆含有大量淀粉以及蛋白质、B族维生素、维生素C等，能促进脾胃的消化功能。
+            3.宽肠通便
+            土豆含有大量膳食纤维，能宽肠通便，帮助机体及时排泄代谢毒素，防止便秘，预防肠道疾病的发生。
+            3. 降糖降脂、美容养颜
+            土豆能供给人体大量有特殊保护作用的黏液蛋白。能促持消化道、呼吸道以及关节腔、浆膜腔的润滑，预防心血管和系统的脂肪沉积，保持血管的弹性，有利于预防动脉粥样硬化的发生。土豆同时又是一种碱性蔬菜，有利于体内酸碱平衡，中和体内代谢后产生的酸性物质，从而有一定的美容、抗衰老作用，经常吃土豆的人身体健康，老得慢。
+            4.利水消肿
+            土豆所含的钾能取代体内的钠，同时能将钠排出体外，有利于高血压和肾炎水肿患者的康复。
+            5.减肥
+            土豆是富含膳食纤维的食物中，比较少见的同时含有大量维生素、矿物质的食物，每148克土豆产生的热量仅为100卡路里，真正的淀粉含量不到2%，只含0.1%的脂肪，能有效控制人们日常饮食中脂肪总量的摄入。
+            6.美容护肤
+            土豆有很好的呵护肌肤、保养容颜的功效。新鲜土豆汁液直接涂敷于面部，增白作用十分显着。人的皮肤容易在炎热的夏日被晒伤、晒黑，土豆汁对清除色斑效果明显，并且没有副作用。土豆对眼周皮肤也有显着的美颜效果。将熟土豆切片，贴在眼睛上，能减轻下眼袋的浮肿。把土豆切成片敷在脸上，具有美容护肤、减少皱纹的良好效果。年轻人皮肤油脂分泌旺盛，常受青春痘、痤疮困扰，用棉花沾新鲜土豆汁涂抹患处可以解决这个问题。
+        </rawdata>
+
+        <segment>
+            补充  营养  、  可作  主食
+            土豆  含有  丰富  的  维生素  及  钙  、  钾  等  微量  元素  ，  且  易于  消化  吸收  ，  营养  丰富  。  能  供给  人体  大量  的  热能  ，  人  只  靠  马铃薯  和  全脂  牛奶  就  足以  维持  生命  和  健康  ，  在  欧  美  国家  特别是  北美  ，  土豆  早  就  成为  第二  主食  。
+            和  中  养  胃  、  健脾  利湿
+            土豆  含有  大量  淀粉  以及  蛋白质  、  B  族  维生素  、  维生素C  等  ，  能  促进  脾胃  的  消化  功能  。
+            宽  肠  通便
+            土豆  含有  大量  膳食  纤维  ，  能  宽  肠  通便  ，  帮助  机体  及时  排泄  代谢  毒素  ，  防止  便秘  ，  预防  肠道  疾病  的  发生  。
+            降糖  降脂  、  美容  养颜
+            土豆  能  供给  人体  大量  有  特殊  保护  作用  的  黏液  蛋白  。  能  促持  消化道  、  呼吸道  以及  关节  腔  、  浆膜  腔  的  润滑  ，  预防  心血管  和  系统  的  脂肪  沉积  ，  保持  血管  的  弹性  ，  有利于  预防  动脉  粥样  硬化  的  发生  。  土豆  同时  又  是  一  种  碱性  蔬菜  ，  有利于  体内  酸碱  平衡  ，  中和  体内  代谢  后  产生  的  酸性  物质  ，  从而  有  一定  的  美容  、  抗  衰老  作用  ，  经常  吃  土豆  的  人  身体  健康  ，  老  得  慢  。
+            利水  消肿
+            土豆  所含  的  钾能  取代  体内  的  钠  ，  同时  能  将  钠  排出  体外  ，  有利于  高血压  和  肾炎  水肿  患者  的  康复  。
+            减肥
+            土豆  是  富含  膳食  纤维  的  食物  中  ，  比较  少  见  的  同时  含有  大量  维生素  、  矿物质  的  食物  ，  每  8  克  土豆  产生  的  热量  仅  为  100  卡  路里  ，  真正  的  淀粉  含量  不到  2%  ，  只  含  0.1%  的  脂肪  ，  能  有效  控制  人们  日常  饮食  中  脂肪  总量  的  摄入  。
+            美容  护肤
+            土豆  有  很  好  的  呵护  肌肤  、  保养  容颜  的  功效  。  新鲜  土豆  汁液  直接  涂敷于  面部  ，  增白  作用  十分  显着  。  人  的  皮肤  容易  在  炎热  的  夏日  被  晒伤  、  晒黑  ，  土豆汁  对  清除  色斑  效果  明显  ，  并且  没有  副作用  。  土豆  对眼  周  皮肤  也  有  显着  的  美颜  效果  。  将  熟  土豆  切片  ，  贴在  眼睛  上  ，  能  减轻  下  眼袋  的  浮肿  。  把  土豆  切成  片敷  在  脸上  ，  具有  美容  护肤  、  减少  皱纹  的  良好  效果  。  年轻  人  皮肤  油脂  分泌  旺盛  ，  常受  青春痘  、  痤疮  困扰  ，  用  棉花  沾  新鲜  土豆汁  涂抹  患处  可以  解决  这个  问题  。
+        </segment>
+
+        <pos>
+            补充#NN  营养#VA  、#PU  可作#VA  主食#VA
+            土豆#VV  含有#AD  丰富#VA  的#DEC  维生素#NN  及#CC  钙#NN  、#PU  钾#NN  等#ETC  微量#JJ  元素#NN  ，#PU  且#CC  易于#VV  消化#NN  吸收#NN  ，#PU  营养#VA  丰富#VA    。#PU  能#VV  供给#NN  人体#NN  大量#CD  的#DEC  热能#NN  ，#PU  人#NN  只#AD  靠#P  马铃薯#NN  和#CC  全脂#NN  牛奶#NN  就#AD  足以#VV  维持#VV  生命#NN  和#CC  健康#VA  ，#PU  在#P  欧#NR  美#NR  国家#NN  特别是#AD  北美#NR  ，#PU  土豆#NN  早#AD  就#AD  成为#VV  第二#OD  主食#NN    。#PU    。#PU
+            和#P  中#NR  养#VV  胃#NN  、#PU  健脾#NN  利湿#NN
+            土豆#NN  含有#VV  大量#CD  淀粉#NN  以及#CC  蛋白质#NN  、#PU  B#NN  族#NN  维生素#NN  、#PU  维生素C#NN  等#ETC  ，#PU  能#VV  促进#VV  脾胃#NN  的#DEG  消化#NN  功能#NN  。#PU
+            宽#JJ  肠#NN  通便#VV
+            土豆#NN  含有#NN  大量#AD  膳食#VV  纤维#NN  ，#PU  能#VV  宽#JJ  肠#NN  通便#NN  ，#PU  帮助#VV  机体#NN  及时#AD  排泄#VV  代谢#NN  毒素#NN  ，#PU  防止#VV  便秘#NN  ，#PU  预防#VV  肠道#NN  疾病#NN  的#DEG  发生#NN  。#PU
+            降糖#JJ  降脂#NN  、#PU  美容#NN  养颜#NN
+            土豆#NN  能#VV  供给#NN  人体#VV  大量#AD  有#VE  特殊#JJ  保护#NN  作用#NN  的#DEC  黏液#NN  蛋白#NN    。#PU  能#VV  促持#VV  消化道#NN  、#PU  呼吸道#NN  以及#CC  关节#NN  腔#M  、#PU  浆膜#CD  腔#M  的#DEG  润滑#NN  ，#PU  预防#VV  心血管#NN  和#CC  系统#NN  的#DEG  脂肪#NN  沉积#NN  ，#PU  保持#VV  血管#NN  的#DEG  弹性#NN  ，#PU  有利于#VV  预防#VV  动脉#NN  粥样#NN  硬化#NN  的#DEG  发生#NN    。#PU  土豆#NR  同时#AD  又#AD  是#VC  一#CD  种#M  碱性#NN  蔬菜#NN  ，#PU  有利于#VV  体内#NN  酸碱#NN  平衡#VA  ，#PU  中和#VV  体内#NN  代谢#NN  后#LC  产生#VV  的#DEC  酸性#NN  物质#NN  ，#PU  从而#AD  有#VE  一定#JJ  的#DEG  美容#NN  、#PU  抗#NN  衰老#NN  作用#NN  ，#PU  经常#AD  吃#VV  土豆#NN  的#DEC  人#NN  身体#NN  健康#VA  ，#PU  老#NR  得#VV  慢#VA    。#PU    。#PU
+            利水#NN  消肿#VV
+            土豆#NN  所含#NN  的#DEG  钾能#NN  取代#VV  体内#NN  的#DEG  钠#NN  ，#PU  同时#AD  能#VV  将#BA  钠#NN  排出#NN  体外#NN  ，#PU  有利于#VV  高血压#NN  和#CC  肾炎#NN  水肿#NN  患者#NN  的#DEG  康复#NN  。#PU
+            减肥#VV
+            土豆#NR  是#VC  富含#NN  膳食#NN  纤维#NN  的#DEC  食物#NN  中#LC  ，#PU  比较#AD  少#VV  见#VV  的#DEC  同时#AD  含有#VV  大量#CD  维生素#NN  、#PU  矿物质#NN  的#DEC  食物#NN  ，#PU  每#DT  8#CD  克#M  土豆#AD  产生#VV  的#DEC  热量#NN  仅#AD  为#P  100#CD  卡#NN  路里#VV  ，#PU  真正#VA  的#DEC  淀粉#NN  含量#NN  不到#AD  2#CD  %#VV  ，#PU  只#AD  含#VV  0.1#CD  %#NN  的#DEG  脂肪#NN  ，#PU  能#VV  有效#JJ  控制#NN  人们#NN  日常#JJ  饮食#NN  中#LC  脂肪#VV  总量#NN  的#DEG  摄入#NN  。#PU
+            美容#NN  护肤#VV
+            土豆#NN  有#VE  很#AD  好#VA  的#DEC  呵护#NN  肌肤#NN  、#PU  保养#NN  容颜#NN  的#DEG  功效#NN    。#PU  新鲜#JJ  土豆#NN  汁液#NN  直接#JJ  涂敷于#NN  面部#VV  ，#PU  增白#NN  作用#NN  十分#AD  显着#VA    。#PU  人#NN  的#DEG  皮肤#NN  容易#VA  在#P  炎热#NN  的#DEG  夏日#NN  被#SB  晒伤#VV  、#PU  晒黑#VV  ，#PU  土豆汁#AD  对#P  清除#VV  色斑#NN  效果#NN  明显#VA  ，#PU  并且#CC  没有#VE  副作用#NN    。#PU  土豆#NR  对眼#CD  周#M  皮肤#NN  也#AD  有#VE  显着#NN  的#DEG  美颜#NN  效果#NN    。#PU  将#BA  熟#JJ  土豆#NN  切片#NN  ，#PU  贴在#NN  眼睛#NN  上#LC  ，#PU  能#VV  减轻#VV  下#DT  眼袋#NN  的#DEG  浮肿#NN    。#PU  把#BA  土豆#NN  切成#NN  片敷#NN  在#P  脸上#NR  ，#PU  具有#VV  美容#VV  护肤#NN  、#PU  减少#VV  皱纹#NN  的#DEC  良好#JJ  效果#NN    。#PU  年轻#JJ  人#NN  皮肤#VV  油脂#NN  分泌#AD  旺盛#VA  ，#PU  常受#VV  青春痘#NR  、#PU  痤疮#NR  困扰#NN  ，#PU  用#P  棉花#NN  沾#NN  新鲜#JJ  土豆汁#NN  涂抹#NN  患处#NN  可以#VV  解决#VV  这个#NN  问题#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 补充#NN)  (root, ROOT#null, 营养#VA)  (dep, 营养#VA, 可作#VA)  (dep, 营养#VA, 主食#VA)
+            (root, ROOT#null, 土豆#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 钾#NN, 维生素#NN)  (cc, 钾#NN, 及#CC)  (conj, 钾#NN, 钙#NN)  (nn, 元素#NN, 钾#NN)  (etc, 钾#NN, 等#ETC)  (amod, 元素#NN, 微量#JJ)  (dobj, 土豆#VV, 元素#NN)  (cc, 土豆#VV, 且#CC)  (conj, 土豆#VV, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)  (conj, 土豆#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (relcl, 热能#NN, 能#VV)  (nn, 人体#NN, 供给#NN)  (dobj, 能#VV, 人体#NN)  (range, 能#VV, 大量#CD)  (mark, 能#VV, 的#DEC)  (nsubj, 足以#VV, 热能#NN)  (xsubj, 维持#VV, 热能#NN)  (nsubj, 足以#VV, 人#NN)  (xsubj, 维持#VV, 人#NN)  (advmod, 足以#VV, 只#AD)  (case, 牛奶#NN, 靠#P)  (conj, 牛奶#NN, 马铃薯#NN)  (cc, 牛奶#NN, 和#CC)  (nn, 牛奶#NN, 全脂#NN)  (prep, 足以#VV, 牛奶#NN)  (advmod, 足以#VV, 就#AD)  (root, ROOT#null, 足以#VV)  (ccomp, 足以#VV, 维持#VV)  (dobj, 维持#VV, 生命#NN)  (cc, 维持#VV, 和#CC)  (conj, 维持#VV, 健康#VA)  (case, 北美#NR, 在#P)  (nn, 美#NR, 欧#NR)  (nn, 国家#NN, 美#NR)  (nn, 北美#NR, 国家#NN)  (advmod, 北美#NR, 特别是#AD)  (prep, 成为#VV, 北美#NR)  (nsubj, 成为#VV, 土豆#NN)  (advmod, 成为#VV, 早#AD)  (advmod, 成为#VV, 就#AD)  (conj, 足以#VV, 成为#VV)  (nummod, 主食#NN, 第二#OD)  (dobj, 成为#VV, 主食#NN)   (root, ROOT#null, null#null)
+            (case, 中#NR, 和#P)  (prep, 养#VV, 中#NR)  (root, ROOT#null, 养#VV)  (conj, 利湿#NN, 胃#NN)  (nn, 利湿#NN, 健脾#NN)  (dobj, 养#VV, 利湿#NN)
+            (nsubj, 含有#VV, 土豆#NN)  (root, ROOT#null, 含有#VV)  (nummod, 蛋白质#NN, 大量#CD)  (conj, 蛋白质#NN, 淀粉#NN)  (cc, 蛋白质#NN, 以及#CC)  (conj, 维生素C#NN, 蛋白质#NN)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (conj, 维生素C#NN, 维生素#NN)  (dobj, 含有#VV, 维生素C#NN)  (etc, 维生素C#NN, 等#ETC)  (mmod, 促进#VV, 能#VV)  (conj, 含有#VV, 促进#VV)  (assmod, 功能#NN, 脾胃#NN)  (case, 脾胃#NN, 的#DEG)  (nn, 功能#NN, 消化#NN)  (dobj, 促进#VV, 功能#NN)
+            (amod, 肠#NN, 宽#JJ)  (nsubj, 通便#VV, 肠#NN)  (root, ROOT#null, 通便#VV)
+            (nn, 含有#NN, 土豆#NN)  (nsubj, 膳食#VV, 含有#NN)  (advmod, 膳食#VV, 大量#AD)  (root, ROOT#null, 膳食#VV)  (dobj, 膳食#VV, 纤维#NN)  (conj, 膳食#VV, 能#VV)  (amod, 肠#NN, 宽#JJ)  (nn, 通便#NN, 肠#NN)  (dobj, 能#VV, 通便#NN)  (conj, 膳食#VV, 帮助#VV)  (dobj, 帮助#VV, 机体#NN)  (advmod, 排泄#VV, 及时#AD)  (dep, 帮助#VV, 排泄#VV)  (nn, 毒素#NN, 代谢#NN)  (dobj, 排泄#VV, 毒素#NN)  (conj, 膳食#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (conj, 膳食#VV, 预防#VV)  (nn, 疾病#NN, 肠道#NN)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+            (amod, 降脂#NN, 降糖#JJ)  (conj, 养颜#NN, 降脂#NN)  (nn, 养颜#NN, 美容#NN)  (root, ROOT#null, 养颜#NN)
+            (nsubj, 人体#VV, 土豆#NN)  (mmod, 人体#VV, 能#VV)  (dep, 人体#VV, 供给#NN)  (root, ROOT#null, 人体#VV)  (advmod, 有#VE, 大量#AD)  (relcl, 蛋白#NN, 有#VE)  (amod, 作用#NN, 特殊#JJ)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)  (mark, 有#VE, 的#DEC)  (nn, 蛋白#NN, 黏液#NN)  (dobj, 人体#VV, 蛋白#NN)   (mmod, 促持#VV, 能#VV)  (root, ROOT#null, 促持#VV)  (conj, 关节#NN, 消化道#NN)  (conj, 关节#NN, 呼吸道#NN)  (cc, 关节#NN, 以及#CC)  (conj, 润滑#NN, 关节#NN)  (dep, 关节#NN, 腔#M)  (nummod, 腔#M, 浆膜#CD)  (assmod, 润滑#NN, 腔#M)  (case, 腔#M, 的#DEG)  (dobj, 促持#VV, 润滑#NN)  (conj, 促持#VV, 预防#VV)  (conj, 系统#NN, 心血管#NN)  (cc, 系统#NN, 和#CC)  (assmod, 沉积#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (nn, 沉积#NN, 脂肪#NN)  (dobj, 预防#VV, 沉积#NN)  (conj, 促持#VV, 保持#VV)  (assmod, 弹性#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 保持#VV, 弹性#NN)  (conj, 促持#VV, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (assmod, 发生#NN, 硬化#NN)  (case, 硬化#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)   (nsubj, 蔬菜#NN, 土豆#NR)  (advmod, 蔬菜#NN, 同时#AD)  (advmod, 蔬菜#NN, 又#AD)  (cop, 蔬菜#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (nn, 蔬菜#NN, 碱性#NN)  (dep, 慢#VA, 蔬菜#NN)  (conj, 蔬菜#NN, 有利于#VV)  (nn, 酸碱#NN, 体内#NN)  (dobj, 有利于#VV, 酸碱#NN)  (dep, 有利于#VV, 平衡#VA)  (conj, 蔬菜#NN, 中和#VV)  (nn, 代谢#NN, 体内#NN)  (loc, 产生#VV, 代谢#NN)  (case, 代谢#NN, 后#LC)  (relcl, 物质#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, 物质#NN, 酸性#NN)  (dobj, 中和#VV, 物质#NN)  (advmod, 有#VE, 从而#AD)  (conj, 蔬菜#NN, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (conj, 作用#NN, 美容#NN)  (nn, 作用#NN, 抗#NN)  (nn, 作用#NN, 衰老#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 吃#VV, 经常#AD)  (relcl, 身体#NN, 吃#VV)  (dobj, 吃#VV, 土豆#NN)  (mark, 吃#VV, 的#DEC)  (nn, 身体#NN, 人#NN)  (nsubj, 健康#VA, 身体#NN)  (conj, 蔬菜#NN, 健康#VA)  (nsubj, 得#VV, 老#NR)  (conj, 蔬菜#NN, 得#VV)  (root, ROOT#null, 慢#VA)   (root, ROOT#null, null#null)
+            (nsubj, 消肿#VV, 利水#NN)  (root, ROOT#null, 消肿#VV)
+            (nn, 所含#NN, 土豆#NN)  (assmod, 钾能#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nsubj, 取代#VV, 钾能#NN)  (root, ROOT#null, 取代#VV)  (assmod, 钠#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (dobj, 取代#VV, 钠#NN)  (advmod, 有利于#VV, 同时#AD)  (mmod, 有利于#VV, 能#VV)  (ba, 有利于#VV, 将#BA)  (nn, 体外#NN, 钠#NN)  (nn, 体外#NN, 排出#NN)  (nsubj, 有利于#VV, 体外#NN)  (conj, 取代#VV, 有利于#VV)  (conj, 水肿#NN, 高血压#NN)  (cc, 水肿#NN, 和#CC)  (nn, 水肿#NN, 肾炎#NN)  (nn, 患者#NN, 水肿#NN)  (assmod, 康复#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (dobj, 有利于#VV, 康复#NN)
+            (root, ROOT#null, 减肥#VV)
+            (nsubj, 少#VV, 土豆#NR)  (cop, 纤维#NN, 是#VC)  (nn, 纤维#NN, 富含#NN)  (nn, 纤维#NN, 膳食#NN)  (relcl, 食物#NN, 纤维#NN)  (mark, 纤维#NN, 的#DEC)  (loc, 少#VV, 食物#NN)  (case, 食物#NN, 中#LC)  (advmod, 少#VV, 比较#AD)  (root, ROOT#null, 少#VV)  (relcl, 食物#NN, 见#VV)  (mark, 见#VV, 的#DEC)  (advmod, 含有#VV, 同时#AD)  (relcl, 食物#NN, 含有#VV)  (nummod, 矿物质#NN, 大量#CD)  (conj, 矿物质#NN, 维生素#NN)  (dobj, 含有#VV, 矿物质#NN)  (mark, 含有#VV, 的#DEC)  (dobj, 少#VV, 食物#NN)  (det, 热量#NN, 每#DT)  (nummod, 克#M, 8#CD)  (dep, 每#DT, 克#M)  (advmod, 产生#VV, 土豆#AD)  (relcl, 热量#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nsubj, 脂肪#VV, 热量#NN)  (advmod, 脂肪#VV, 仅#AD)  (case, 路里#VV, 为#P)  (nummod, 卡#NN, 100#CD)  (nsubj, 路里#VV, 卡#NN)  (prep, 脂肪#VV, 路里#VV)  (relcl, 含量#NN, 真正#VA)  (mark, 真正#VA, 的#DEC)  (nn, 含量#NN, 淀粉#NN)  (nsubj, %#VV, 含量#NN)  (advmod, 2#CD, 不到#AD)  (dep, %#VV, 2#CD)  (ccomp, 路里#VV, %#VV)  (advmod, 含#VV, 只#AD)  (conj, %#VV, 含#VV)  (nummod, %#NN, 0.1#CD)  (assmod, 脂肪#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 含#VV, 脂肪#NN)  (conj, %#VV, 能#VV)  (amod, 人们#NN, 有效#JJ)  (nn, 人们#NN, 控制#NN)  (nn, 饮食#NN, 人们#NN)  (amod, 饮食#NN, 日常#JJ)  (dobj, 能#VV, 饮食#NN)  (case, 路里#VV, 中#LC)  (conj, 少#VV, 脂肪#VV)  (assmod, 摄入#NN, 总量#NN)  (case, 总量#NN, 的#DEG)  (dobj, 脂肪#VV, 摄入#NN)
+            (nsubj, 护肤#VV, 美容#NN)  (root, ROOT#null, 护肤#VV)
+            (dep, 有#VE, 土豆#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 肌肤#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 肌肤#NN, 呵护#NN)  (conj, 容颜#NN, 肌肤#NN)  (nn, 容颜#NN, 保养#NN)  (assmod, 功效#NN, 容颜#NN)  (case, 容颜#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)   (amod, 土豆#NN, 新鲜#JJ)  (nn, 汁液#NN, 土豆#NN)  (nn, 涂敷于#NN, 汁液#NN)  (amod, 涂敷于#NN, 直接#JJ)  (nsubj, 面部#VV, 涂敷于#NN)  (root, ROOT#null, 面部#VV)  (nn, 作用#NN, 增白#NN)  (nsubj, 显着#VA, 作用#NN)  (advmod, 显着#VA, 十分#AD)  (ccomp, 面部#VV, 显着#VA)   (assmod, 皮肤#NN, 人#NN)  (case, 人#NN, 的#DEG)  (nsubj, 容易#VA, 皮肤#NN)  (xsubj, 晒伤#VV, 皮肤#NN)  (root, ROOT#null, 容易#VA)  (case, 夏日#NN, 在#P)  (assmod, 夏日#NN, 炎热#NN)  (case, 炎热#NN, 的#DEG)  (prep, 晒伤#VV, 夏日#NN)  (auxpass, 晒伤#VV, 被#SB)  (dep, 容易#VA, 晒伤#VV)  (dep, 晒伤#VV, 晒黑#VV)  (advmod, 明显#VA, 土豆汁#AD)  (case, 清除#VV, 对#P)  (prep, 明显#VA, 清除#VV)  (dobj, 清除#VV, 色斑#NN)  (dobj, 明显#VA, 效果#NN)  (conj, 晒伤#VV, 明显#VA)  (cc, 晒伤#VV, 并且#CC)  (conj, 晒伤#VV, 没有#VE)  (dobj, 没有#VE, 副作用#NN)   (nn, 皮肤#NN, 土豆#NR)  (nummod, 周#M, 对眼#CD)  (clf, 皮肤#NN, 周#M)  (nsubj, 有#VE, 皮肤#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (assmod, 效果#NN, 显着#NN)  (case, 显着#NN, 的#DEG)  (nn, 效果#NN, 美颜#NN)  (dobj, 有#VE, 效果#NN)   (ba, 减轻#VV, 将#BA)  (amod, 土豆#NN, 熟#JJ)  (nn, 切片#NN, 土豆#NN)  (nsubj, 减轻#VV, 切片#NN)  (nn, 眼睛#NN, 贴在#NN)  (loc, 减轻#VV, 眼睛#NN)  (case, 眼睛#NN, 上#LC)  (mmod, 减轻#VV, 能#VV)  (root, ROOT#null, 减轻#VV)  (det, 眼袋#NN, 下#DT)  (assmod, 浮肿#NN, 眼袋#NN)  (case, 眼袋#NN, 的#DEG)  (dobj, 减轻#VV, 浮肿#NN)   (ba, 具有#VV, 把#BA)  (nn, 片敷#NN, 土豆#NN)  (nn, 片敷#NN, 切成#NN)  (nsubj, 具有#VV, 片敷#NN)  (case, 脸上#NR, 在#P)  (prep, 具有#VV, 脸上#NR)  (root, ROOT#null, 具有#VV)  (relcl, 效果#NN, 美容#VV)  (dobj, 美容#VV, 护肤#NN)  (conj, 美容#VV, 减少#VV)  (dobj, 减少#VV, 皱纹#NN)  (mark, 美容#VV, 的#DEC)  (amod, 效果#NN, 良好#JJ)  (dobj, 具有#VV, 效果#NN)   (amod, 人#NN, 年轻#JJ)  (nsubj, 皮肤#VV, 人#NN)  (root, ROOT#null, 皮肤#VV)  (dobj, 皮肤#VV, 油脂#NN)  (advmod, 旺盛#VA, 分泌#AD)  (dep, 皮肤#VV, 旺盛#VA)  (dep, 旺盛#VA, 常受#VV)  (conj, 痤疮#NR, 青春痘#NR)  (nn, 困扰#NN, 痤疮#NR)  (dobj, 常受#VV, 困扰#NN)  (case, 患处#NN, 用#P)  (nn, 沾#NN, 棉花#NN)  (nn, 土豆汁#NN, 沾#NN)  (amod, 土豆汁#NN, 新鲜#JJ)  (nn, 患处#NN, 土豆汁#NN)  (nn, 患处#NN, 涂抹#NN)  (prep, 解决#VV, 患处#NN)  (mmod, 解决#VV, 可以#VV)  (conj, 旺盛#VA, 解决#VV)  (nn, 问题#NN, 这个#NN)  (dobj, 解决#VV, 问题#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        健脾  减肥  美容  降血脂  降血糖
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            从营养角度来看，土豆比大米、面粉具有更多的优点，能供给人体大量的热能，可称为“十全十美的食物”。人只靠马铃薯和全脂牛奶就足以维持生命和健康。因为马铃薯的营养成分非常全面，营养结构也较合理，只是蛋白质、钙和维生素A的量稍低，而这正好用全脂牛奶来补充。马铃薯块茎水分多、脂肪少、单位体积的热量相当低，所含的维生素C是苹果的10倍，B族维生素是苹果的4倍，各种矿物质是苹果的几倍至几十倍不等，食用后有很好的饱腹感。
+        </rawdata>
+
+        <segment>
+            从  营养  角度  来看  ，  土豆  比  大米  、  面粉  具有  更  多  的  优点  ，  能  供给  人体  大量  的  热能  ，  可  称为  “  十全十美  的  食物  ”  。  人  只  靠  马铃薯  和  全脂  牛奶  就  足以  维持  生命  和  健康  。  因为  马铃薯  的  营养  成分  非常  全面  ，  营养  结构  也  较  合理  ，  只是  蛋白质  、  钙  和  维生素A  的  量  稍低  ，  而  这  正好  用  全脂  牛奶  来  补充  。  马铃薯  块茎  水分  多  、  脂肪  少  、  单位  体积  的  热量  相当  低  ，  所含  的  维生素C  是  苹果  的  10  倍  ，  B  族  维生素  是  苹果  的  4  倍  ，  各  种  矿物质  是  苹果  的  几  倍  至  几十  倍  不等  ，  食用  后  有  很  好  的  饱腹感  。
+        </segment>
+
+        <pos>
+            从#P  营养#VA  角度#NN  来看#VV  ，#PU  土豆#NN  比#P  大米#NN  、#PU  面粉#NN  具有#VV  更#AD  多#VA  的#DEC  优点#NN  ，#PU  能#VV  供给#NN  人体#NN  大量#CD  的#DEG  热能#NN  ，#PU  可#VV  称为#VV  ``#VV  十全十美#CD  的#DEC  食物#NN  ''#NN    。#PU  人#NN  只#AD  靠#P  马铃薯#NN  和#CC  全脂#NN  牛奶#NN  就#AD  足以#VV  维持#VV  生命#NN  和#CC  健康#VA    。#PU  因为#P  马铃薯#NN  的#DEG  营养#VA  成分#NN  非常#AD  全面#VA  ，#PU  营养#VA  结构#NN  也#AD  较#AD  合理#VA  ，#PU  只是#AD  蛋白质#NR  、#PU  钙#NR  和#CC  维生素A#NR  的#DEG  量#NN  稍低#VA  ，#PU  而#CC  这#PN  正好#AD  用#P  全脂#NN  牛奶#NN  来#LC  补充#VV    。#PU  马铃薯#NN  块茎#NN  水分#AD  多#VA  、#PU  脂肪#AD  少#VA  、#PU  单位#NN  体积#NN  的#DEG  热量#NN  相当#AD  低#VA  ，#PU  所含#VA  的#DEC  维生素C#NN  是#VC  苹果#NN  的#DEG  10#CD  倍#M  ，#PU  B#NN  族#NN  维生素#NN  是#VC  苹果#NN  的#DEG  4#CD  倍#M  ，#PU  各#DT  种#M  矿物质#NN  是#VC  苹果#NN  的#DEG  几#CD  倍#M  至#CC  几十#CD  倍#M  不等#AD  ，#PU  食用#VV  后#LC  有#VE  很#AD  好#VA  的#DEC  饱腹感#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 角度#NN, 从#P)  (nfincl, 角度#NN, 营养#VA)  (prep, 来看#VV, 角度#NN)  (root, ROOT#null, 来看#VV)  (nsubj, 具有#VV, 土豆#NN)  (case, 面粉#NN, 比#P)  (conj, 面粉#NN, 大米#NN)  (prep, 具有#VV, 面粉#NN)  (ccomp, 来看#VV, 具有#VV)  (advmod, 多#VA, 更#AD)  (relcl, 优点#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 具有#VV, 优点#NN)  (dep, 来看#VV, 能#VV)  (nn, 人体#NN, 供给#NN)  (nn, 热能#NN, 人体#NN)  (assmod, 热能#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 能#VV, 热能#NN)  (mmod, 称为#VV, 可#VV)  (conj, 来看#VV, 称为#VV)  (relcl, ''#NN, ``#VV)  (range, ``#VV, 十全十美#CD)  (mark, ``#VV, 的#DEC)  (nn, ''#NN, 食物#NN)  (dobj, 称为#VV, ''#NN)   (nsubj, 足以#VV, 人#NN)  (xsubj, 维持#VV, 人#NN)  (advmod, 足以#VV, 只#AD)  (case, 牛奶#NN, 靠#P)  (conj, 牛奶#NN, 马铃薯#NN)  (cc, 牛奶#NN, 和#CC)  (nn, 牛奶#NN, 全脂#NN)  (prep, 足以#VV, 牛奶#NN)  (advmod, 足以#VV, 就#AD)  (root, ROOT#null, 足以#VV)  (ccomp, 足以#VV, 维持#VV)  (dobj, 维持#VV, 生命#NN)  (cc, 维持#VV, 和#CC)  (conj, 维持#VV, 健康#VA)   (case, 全面#VA, 因为#P)  (assmod, 成分#NN, 马铃薯#NN)  (case, 马铃薯#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 全面#VA, 成分#NN)  (advmod, 全面#VA, 非常#AD)  (prep, 合理#VA, 全面#VA)  (conj, 全面#VA, 营养#VA)  (nsubj, 合理#VA, 结构#NN)  (advmod, 合理#VA, 也#AD)  (advmod, 合理#VA, 较#AD)  (root, ROOT#null, 合理#VA)  (advmod, 稍低#VA, 只是#AD)  (conj, 维生素A#NR, 蛋白质#NR)  (conj, 维生素A#NR, 钙#NR)  (cc, 维生素A#NR, 和#CC)  (assmod, 量#NN, 维生素A#NR)  (case, 维生素A#NR, 的#DEG)  (nsubj, 稍低#VA, 量#NN)  (conj, 合理#VA, 稍低#VA)  (cc, 合理#VA, 而#CC)  (nsubj, 补充#VV, 这#PN)  (advmod, 补充#VV, 正好#AD)  (case, 牛奶#NN, 用#P)  (nn, 牛奶#NN, 全脂#NN)  (prep, 补充#VV, 牛奶#NN)  (case, 牛奶#NN, 来#LC)  (conj, 合理#VA, 补充#VV)   (nn, 块茎#NN, 马铃薯#NN)  (nsubj, 多#VA, 块茎#NN)  (advmod, 多#VA, 水分#AD)  (relcl, 维生素C#NN, 多#VA)  (advmod, 少#VA, 脂肪#AD)  (conj, 多#VA, 少#VA)  (nn, 体积#NN, 单位#NN)  (assmod, 热量#NN, 体积#NN)  (case, 体积#NN, 的#DEG)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 相当#AD)  (conj, 多#VA, 低#VA)  (conj, 多#VA, 所含#VA)  (mark, 多#VA, 的#DEC)  (nsubj, 是#VC, 维生素C#NN)  (root, ROOT#null, 是#VC)  (assmod, 倍#M, 苹果#NN)  (case, 苹果#NN, 的#DEG)  (nummod, 倍#M, 10#CD)  (dep, 是#VC, 倍#M)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nsubj, 是#VC, 维生素#NN)  (conj, 是#VC, 是#VC)  (assmod, 倍#M, 苹果#NN)  (case, 苹果#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (dep, 是#VC, 倍#M)  (det, 矿物质#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 是#VC, 矿物质#NN)  (conj, 是#VC, 是#VC)  (assmod, 倍#M, 苹果#NN)  (case, 苹果#NN, 的#DEG)  (nummod, 倍#M, 几#CD)  (clf, 倍#M, 倍#M)  (cc, 倍#M, 至#CC)  (nummod, 倍#M, 几十#CD)  (dep, 是#VC, 倍#M)  (advmod, 倍#M, 不等#AD)  (loc, 有#VE, 食用#VV)  (case, 食用#VV, 后#LC)  (conj, 是#VC, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 饱腹感#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 饱腹感#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.不吃发芽的土豆
+            已经长芽的土豆禁止食用，大量食用会引起急性中毒。
+            2.去皮挖眼
+            吃土豆一定要去皮，有芽眼的部分应挖去，土豆皮中含有生物碱，大量食用会有恶心，腹泻等现象。土豆切开后容易氧化变黑，属正常现象，不会造成危害。
+            去皮的方法：
+            准备一张锡纸(烘焙用的)，将锡纸亮面朝外，揉成一团，用锡纸团将土豆表皮搓揉一遍，将搓揉过的小土豆放入清水盆中，土豆皮便悉数漂浮出来了。
+            削皮的方法：
+            削皮时，只削掉薄薄的一层，因为土豆皮下面的汁液有丰富的蛋白质。
+            3.冷水浸泡
+            削皮后的土豆不能马上烧煮，应浸在凉水中，以免氧化发黑，但注意不要泡得太久而致使水溶性维生素等营养流失。
+            4.土豆表面往往有蓝青色的斑点，配菜时不美观，如在煮土豆的水里放些醋(每千克土豆放一汤匙)斑点就会消失。
+            5.要用文火煮烧，才能均匀地熟烂，若急火煮烧，会使外层熟烂甚至开裂，里面却是生的。
+            6.土豆一煮就烂，即使带皮煮也难保持完整。如果用于冷拌或做土豆丁，可以在煮土豆的水里加些腌菜的盐水或醋，土豆煮后就能保持完整。
+        </rawdata>
+
+        <segment>
+            不吃  发芽  的  土豆
+            已经  长芽  的  土豆  禁止  食用  ，  大量  食用  会  引起  急性  中毒  。
+            去皮  挖  眼
+            吃  土豆  一定  要  去皮  ，  有  芽眼  的  部分  应  挖去  ，  土豆  皮  中  含有  生物  碱  ，  大量  食用  会  有  恶心  ，  腹泻  等  现象  。  土豆  切开  后  容易  氧化  变黑  ，  属  正常  现象  ，  不  会  造成  危害  。
+            去皮  的  方法  ：
+            准备  一  张  锡纸  (  烘焙  用  的  )  ，  将  锡纸  亮  面  朝  外  ，  揉成  一  团  ，  用  锡纸团  将  土豆  表皮  搓揉  一  遍  ，  将  搓揉  过  的  小  土豆  放入  清水  盆中  ，  土豆  皮便  悉数  漂浮  出来  了  。
+            削皮  的  方法  ：
+            削皮  时  ，  只  削掉  薄薄  的  一  层  ，  因为  土豆  皮下  面的  汁液  有  丰富  的  蛋白质  。
+            冷水  浸泡
+            削皮  后  的  土豆  不  能  马上  烧煮  ，  应  浸在  凉水  中  ，  以免  氧化  发黑  ，  但  注意  不  要  泡  得  太  久  而  致使  水溶性  维生素  等  营养  流失  。
+            土豆  表面  往往  有  蓝青  色  的  斑点  ，  配菜  时  不  美观  ，  如在  煮  土豆  的  水里  放  些  醋  (  每  千  克  土豆  放  一  汤匙  )  斑点  就  会  消失  。
+            要  用  文火  煮  烧  ，  才  能  均匀地  熟烂  ，  若  急火  煮  烧  ，  会  使  外层  熟烂  甚至  开裂  ，  里面  却  是  生  的  。
+            土豆  一  煮  就  烂  ，  即使  带  皮  煮  也  难  保持  完整  。  如果  用于  冷拌  或  做  土豆  丁  ，  可以  在  煮  土豆  的  水里  加些  腌菜  的  盐水  或  醋  ，  土豆  煮  后  就  能  保持  完整  。
+        </segment>
+
+        <pos>
+            不吃#VV  发芽#NN  的#DEG  土豆#NN
+            已经#AD  长芽#VV  的#DEC  土豆#NN  禁止#VV  食用#VV  ，#PU  大量#AD  食用#VV  会#VV  引起#VV  急性#NN  中毒#VV  。#PU
+            去皮#NN  挖#VV  眼#NN
+            吃#VV  土豆#NN  一定#AD  要#VV  去皮#VV  ，#PU  有#VE  芽眼#NN  的#DEC  部分#NN  应#VV  挖去#NN  ，#PU  土豆#NN  皮#NN  中#LC  含有#VV  生物#NN  碱#NN  ，#PU  大量#AD  食用#VV  会#VV  有#VE  恶心#NN  ，#PU  腹泻#VV  等#ETC  现象#NN    。#PU  土豆#NN  切开#NN  后#LC  容易#VA  氧化#VV  变黑#NN  ，#PU  属#VV  正常#JJ  现象#NN  ，#PU  不#AD  会#VV  造成#VV  危害#NN    。#PU    。#PU
+            去皮#VA  的#DEC  方法#NN  ：#PU
+            准备#VV  一#CD  张#M  锡纸#NN  -LRB-#NN  烘焙#VV  用#VV  的#DEC  -RRB-#NN  ，#PU  将#AD  锡纸#VV  亮#VV  面#NN  朝#NR  外#NN  ，#PU  揉成#VV  一#CD  团#NN  ，#PU  用#P  锡纸团#NR  将#AD  土豆#VV  表皮#NR  搓揉#NR  一#CD  遍#NN  ，#PU  将#AD  搓揉#VV  过#AS  的#DEC  小#JJ  土豆#NN  放入#VV  清水#NN  盆中#NN  ，#PU  土豆#NN  皮便#NN  悉数#AD  漂浮#VV  出来#VV  了#AS  。#PU
+            削皮#VA  的#DEC  方法#NN  ：#PU
+            削皮#NN  时#LC  ，#PU  只#AD  削掉#VV  薄薄#NN  的#DEG  一#CD  层#M  ，#PU  因为#P  土豆#VV  皮下#NN  面的#NN  汁液#AD  有#VE  丰富#VA  的#DEC  蛋白质#NN  。#PU
+            冷水#NN  浸泡#VV
+            削皮#NN  后#LC  的#DEG  土豆#NN  不#AD  能#VV  马上#AD  烧煮#VV  ，#PU  应#P  浸在#NN  凉水#NN  中#LC  ，#PU  以免#VV  氧化#VV  发黑#NN  ，#PU  但#AD  注意#VV  不#AD  要#VV  泡#VV  得#DER  太#AD  久#VA  而#MSP  致使#VV  水溶性#NN  维生素#NN  等#ETC  营养#VA  流失#VV  。#PU
+            土豆#NN  表面#NN  往往#AD  有#VE  蓝青#NN  色#NN  的#DEG  斑点#NN  ，#PU  配菜#NN  时#LC  不#AD  美观#VV  ，#PU  如在#AD  煮#VV  土豆#NN  的#DEC  水里#NN  放#VV  些#CD  醋#NN  -LRB-#VV  每#DT  千#CD  克#M  土豆#NN  放#VV  一#CD  汤匙#NN  -RRB-#NN  斑点#NN  就#AD  会#VV  消失#VV  。#PU
+            要#VV  用#P  文火#NN  煮#VV  烧#NN  ，#PU  才#AD  能#VV  均匀地#VV  熟烂#NN  ，#PU  若#CS  急火#AD  煮#VV  烧#NN  ，#PU  会#VV  使#VV  外层#NN  熟烂#NN  甚至#AD  开裂#VV  ，#PU  里面#NN  却#AD  是#VC  生#VV  的#DEC  。#PU
+            土豆#NN  一#AD  煮#VV  就#P  烂#NN  ，#PU  即使#AD  带#NN  皮#NN  煮#VV  也#AD  难#AD  保持#VV  完整#NN    。#PU  如果#CS  用于#VV  冷拌#NN  或#CC  做#VV  土豆#NN  丁#NN  ，#PU  可以#VV  在#P  煮#VV  土豆#NN  的#DEG  水里#NN  加些#NN  腌菜#NN  的#DEG  盐水#NN  或#CC  醋#NN  ，#PU  土豆#AD  煮#VV  后#LC  就#AD  能#VV  保持#VV  完整#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 不吃#VV)  (assmod, 土豆#NN, 发芽#NN)  (case, 发芽#NN, 的#DEG)  (dobj, 不吃#VV, 土豆#NN)
+            (advmod, 长芽#VV, 已经#AD)  (relcl, 土豆#NN, 长芽#VV)  (mark, 长芽#VV, 的#DEC)  (nsubj, 禁止#VV, 土豆#NN)  (xsubj, 食用#VV, 土豆#NN)  (root, ROOT#null, 禁止#VV)  (ccomp, 禁止#VV, 食用#VV)  (advmod, 食用#VV, 大量#AD)  (dep, 食用#VV, 食用#VV)  (mmod, 引起#VV, 会#VV)  (dep, 禁止#VV, 引起#VV)  (dobj, 引起#VV, 急性#NN)  (dep, 引起#VV, 中毒#VV)
+            (nsubj, 挖#VV, 去皮#NN)  (root, ROOT#null, 挖#VV)  (dobj, 挖#VV, 眼#NN)
+            (root, ROOT#null, 吃#VV)  (nsubj, 去皮#VV, 土豆#NN)  (advmod, 去皮#VV, 一定#AD)  (dep, 去皮#VV, 要#VV)  (nfincl, 现象#NN, 去皮#VV)  (relcl, 部分#NN, 有#VE)  (dobj, 有#VE, 芽眼#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 应#VV, 部分#NN)  (conj, 去皮#VV, 应#VV)  (dobj, 应#VV, 挖去#NN)  (nn, 皮#NN, 土豆#NN)  (loc, 含有#VV, 皮#NN)  (case, 皮#NN, 中#LC)  (conj, 应#VV, 含有#VV)  (nn, 碱#NN, 生物#NN)  (dobj, 含有#VV, 碱#NN)  (advmod, 食用#VV, 大量#AD)  (conj, 应#VV, 食用#VV)  (mmod, 有#VE, 会#VV)  (dep, 食用#VV, 有#VE)  (dobj, 有#VE, 恶心#NN)  (conj, 应#VV, 腹泻#VV)  (dep, 去皮#VV, 等#ETC)  (dobj, 吃#VV, 现象#NN)   (nsubj, 氧化#VV, 土豆#NN)  (loc, 氧化#VV, 切开#NN)  (case, 切开#NN, 后#LC)  (dep, 氧化#VV, 容易#VA)  (root, ROOT#null, 氧化#VV)  (dobj, 氧化#VV, 变黑#NN)  (conj, 氧化#VV, 属#VV)  (amod, 现象#NN, 正常#JJ)  (dobj, 属#VV, 现象#NN)  (neg, 造成#VV, 不#AD)  (mmod, 造成#VV, 会#VV)  (conj, 氧化#VV, 造成#VV)  (dobj, 造成#VV, 危害#NN)   (root, ROOT#null, null#null)
+            (nn, 方法#NN, 去皮#VA)  (mark, 去皮#VA, 的#DEC)  (root, ROOT#null, 方法#NN)
+            (relcl, 土豆#NN, 准备#VV)  (nummod, 张#M, 一#CD)  (clf, -LRB-#NN, 张#M)  (nn, -LRB-#NN, 锡纸#NN)  (dep, 准备#VV, 烘焙#VV)  (relcl, -RRB-#NN, 用#VV)  (mark, 用#VV, 的#DEC)  (advmod, 亮#VV, 将#AD)  (mmod, 亮#VV, 锡纸#VV)  (conj, 烘焙#VV, 亮#VV)  (nn, 外#NN, 面#NN)  (nn, 外#NN, 朝#NR)  (dobj, 亮#VV, 外#NN)  (conj, 烘焙#VV, 揉成#VV)  (nummod, 团#NN, 一#CD)  (dobj, 揉成#VV, 团#NN)  (case, 锡纸团#NR, 用#P)  (prep, 土豆#VV, 锡纸团#NR)  (advmod, 土豆#VV, 将#AD)  (conj, 烘焙#VV, 土豆#VV)  (nn, 搓揉#NR, 表皮#NR)  (nn, 遍#NN, 搓揉#NR)  (nummod, 遍#NN, 一#CD)  (dobj, 土豆#VV, 遍#NN)  (advmod, 搓揉#VV, 将#AD)  (conj, 烘焙#VV, 搓揉#VV)  (asp, 搓揉#VV, 过#AS)  (mark, 准备#VV, 的#DEC)  (amod, 土豆#NN, 小#JJ)  (nsubj, 放入#VV, 土豆#NN)  (root, ROOT#null, 放入#VV)  (nn, 盆中#NN, 清水#NN)  (dobj, 放入#VV, 盆中#NN)  (nn, 皮便#NN, 土豆#NN)  (nsubj, 漂浮#VV, 皮便#NN)  (advmod, 漂浮#VV, 悉数#AD)  (conj, 放入#VV, 漂浮#VV)  (rcomp, 漂浮#VV, 出来#VV)  (asp, 漂浮#VV, 了#AS)
+            (nn, 方法#NN, 削皮#VA)  (mark, 削皮#VA, 的#DEC)  (root, ROOT#null, 方法#NN)
+            (loc, 削掉#VV, 削皮#NN)  (case, 削皮#NN, 时#LC)  (advmod, 削掉#VV, 只#AD)  (root, ROOT#null, 削掉#VV)  (assmod, 层#M, 薄薄#NN)  (case, 薄薄#NN, 的#DEG)  (nummod, 层#M, 一#CD)  (range, 削掉#VV, 层#M)  (case, 土豆#VV, 因为#P)  (prep, 有#VE, 土豆#VV)  (nn, 面的#NN, 皮下#NN)  (dobj, 土豆#VV, 面的#NN)  (advmod, 有#VE, 汁液#AD)  (dep, 削掉#VV, 有#VE)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 有#VE, 蛋白质#NN)
+            (nsubj, 浸泡#VV, 冷水#NN)  (root, ROOT#null, 浸泡#VV)
+            (assmod, 土豆#NN, 削皮#NN)  (case, 削皮#NN, 后#LC)  (case, 削皮#NN, 的#DEG)  (nsubj, 烧煮#VV, 土豆#NN)  (neg, 烧煮#VV, 不#AD)  (mmod, 烧煮#VV, 能#VV)  (advmod, 烧煮#VV, 马上#AD)  (root, ROOT#null, 烧煮#VV)  (case, 凉水#NN, 应#P)  (nn, 凉水#NN, 浸在#NN)  (prep, 以免#VV, 凉水#NN)  (case, 凉水#NN, 中#LC)  (conj, 烧煮#VV, 以免#VV)  (ccomp, 以免#VV, 氧化#VV)  (dobj, 氧化#VV, 发黑#NN)  (dep, 流失#VV, 但#AD)  (dep, 流失#VV, 注意#VV)  (neg, 久#VA, 不#AD)  (mmod, 久#VA, 要#VV)  (dep, 久#VA, 泡#VV)  (dep, 久#VA, 得#DER)  (advmod, 久#VA, 太#AD)  (dep, 注意#VV, 久#VA)  (prtmod, 致使#VV, 而#MSP)  (dep, 注意#VV, 致使#VV)  (nn, 维生素#NN, 水溶性#NN)  (dobj, 致使#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (dep, 致使#VV, 营养#VA)  (conj, 烧煮#VV, 流失#VV)
+            (nn, 表面#NN, 土豆#NN)  (nsubj, 有#VE, 表面#NN)  (advmod, 有#VE, 往往#AD)  (root, ROOT#null, 有#VE)  (nn, 色#NN, 蓝青#NN)  (assmod, 斑点#NN, 色#NN)  (case, 色#NN, 的#DEG)  (dobj, 有#VE, 斑点#NN)  (loc, 美观#VV, 配菜#NN)  (case, 配菜#NN, 时#LC)  (neg, 美观#VV, 不#AD)  (dep, 有#VE, 美观#VV)  (advmod, 煮#VV, 如在#AD)  (relcl, 水里#NN, 煮#VV)  (dobj, 煮#VV, 土豆#NN)  (mark, 煮#VV, 的#DEC)  (nsubj, 放#VV, 水里#NN)  (ccomp, 美观#VV, 放#VV)  (nummod, 醋#NN, 些#CD)  (dobj, 放#VV, 醋#NN)  (det, 土豆#NN, 每#DT)  (nummod, 克#M, 千#CD)  (dep, 每#DT, 克#M)  (dobj, -LRB-#VV, 土豆#NN)  (conj, 美观#VV, 放#VV)  (nummod, 斑点#NN, 一#CD)  (nn, 斑点#NN, 汤匙#NN)  (dobj, 放#VV, 斑点#NN)  (advmod, 消失#VV, 就#AD)  (dep, 消失#VV, 会#VV)  (dep, 美观#VV, 消失#VV)
+            (mmod, 煮#VV, 要#VV)  (case, 文火#NN, 用#P)  (prep, 煮#VV, 文火#NN)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 烧#NN)  (advmod, 均匀地#VV, 才#AD)  (mmod, 均匀地#VV, 能#VV)  (dep, 煮#VV, 均匀地#VV)  (dobj, 均匀地#VV, 熟烂#NN)  (advmod, 煮#VV, 若#CS)  (advmod, 煮#VV, 急火#AD)  (conj, 煮#VV, 煮#VV)  (dobj, 煮#VV, 烧#NN)  (mmod, 使#VV, 会#VV)  (conj, 煮#VV, 使#VV)  (nn, 熟烂#NN, 外层#NN)  (dobj, 使#VV, 熟烂#NN)  (advmod, 开裂#VV, 甚至#AD)  (dep, 使#VV, 开裂#VV)  (nsubj, 生#VV, 里面#NN)  (advmod, 生#VV, 却#AD)  (cop, 生#VV, 是#VC)  (dep, 煮#VV, 生#VV)  (mark, 生#VV, 的#DEC)
+            (nsubj, 煮#VV, 土豆#NN)  (advmod, 煮#VV, 一#AD)  (root, ROOT#null, 煮#VV)  (case, 烂#NN, 就#P)  (prep, 煮#VV, 烂#NN)  (advmod, 皮#NN, 即使#AD)  (nn, 皮#NN, 带#NN)  (nsubj, 煮#VV, 皮#NN)  (conj, 煮#VV, 煮#VV)  (advmod, 保持#VV, 也#AD)  (advmod, 保持#VV, 难#AD)  (dep, 煮#VV, 保持#VV)  (dobj, 保持#VV, 完整#NN)   (advmod, 用于#VV, 如果#CS)  (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 冷拌#NN)  (cc, 用于#VV, 或#CC)  (conj, 用于#VV, 做#VV)  (nn, 丁#NN, 土豆#NN)  (dobj, 做#VV, 丁#NN)  (mmod, 保持#VV, 可以#VV)  (case, 煮#VV, 在#P)  (prep, 保持#VV, 煮#VV)  (assmod, 腌菜#NN, 土豆#NN)  (case, 土豆#NN, 的#DEG)  (nn, 腌菜#NN, 水里#NN)  (nn, 腌菜#NN, 加些#NN)  (assmod, 醋#NN, 腌菜#NN)  (case, 腌菜#NN, 的#DEG)  (conj, 醋#NN, 盐水#NN)  (cc, 醋#NN, 或#CC)  (dobj, 煮#VV, 醋#NN)  (advmod, 煮#VV, 土豆#AD)  (conj, 煮#VV, 煮#VV)  (case, 煮#VV, 后#LC)  (advmod, 保持#VV, 就#AD)  (mmod, 保持#VV, 能#VV)  (conj, 用于#VV, 保持#VV)  (dobj, 保持#VV, 完整#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071031173191.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\202 土豆.jpg
+    </picturelocalurl>
+
+</content>

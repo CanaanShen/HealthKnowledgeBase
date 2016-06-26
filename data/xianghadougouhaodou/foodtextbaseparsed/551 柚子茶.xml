@@ -1,0 +1,177 @@
+<content>
+
+    <id>
+        551
+    </id>
+
+    <foodname>
+        柚子茶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        蜂蜜柚子茶
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            柚子茶是中国南方传统的以柚子、蔗糖等为原料的养生饮品。在广东云浮一带，将柚子挖空里面的柚子肉，放入茶叶，密封，放在通风阴凉处，制成柚子茶，时间越久越好。韩国人将柚子配以蜂蜜，制成蜂蜜柚子茶，其营养丰富、风味独特且具有良好的保健功效。
+        </rawdata>
+
+        <segment>
+            柚子  茶  是  中国  南方  传统  的  以  柚子  、  蔗糖  等  为  原料  的  养生  饮品  。  在  广东  云浮  一带  ，  将  柚子  挖空  里面  的  柚子  肉  ，  放入  茶叶  ，  密封  ，  放在  通风  阴凉处  ，  制成  柚子  茶  ，  时间  越  久  越  好  。  韩国人  将  柚子  配  以  蜂蜜  ，  制成  蜂蜜  柚子  茶  ，  其  营养  丰富  、  风味  独特  且  具有  良好  的  保健  功效  。
+        </segment>
+
+        <pos>
+            柚子#NN  茶#NN  是#VC  中国#NR  南方#NN  传统#JJ  的#DEG  以#P  柚子#NN  、#PU  蔗糖#NN  等#ETC  为#VV  原料#NN  的#DEC  养生#NN  饮品#NN    。#PU  在#P  广东#NR  云浮#VV  一带#CD  ，#PU  将#BA  柚子#NN  挖空#NN  里面#NN  的#DEG  柚子#NN  肉#NN  ，#PU  放入#VV  茶叶#NN  ，#PU  密封#VV  ，#PU  放在#VV  通风#NN  阴凉处#NN  ，#PU  制成#VV  柚子#NN  茶#NN  ，#PU  时间#NN  越#AD  久#VA  越#AD  好#VA    。#PU  韩国人#NN  将#BA  柚子#NN  配#NN  以#P  蜂蜜#NN  ，#PU  制成#VV  蜂蜜#NN  柚子#NN  茶#NN  ，#PU  其#PN  营养#VA  丰富#VA  、#PU  风味#VA  独特#VA  且#CC  具有#VV  良好#VA  的#DEC  保健#NN  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 茶#NN, 柚子#NN)  (nsubj, 饮品#NN, 茶#NN)  (cop, 饮品#NN, 是#VC)  (nn, 南方#NN, 中国#NR)  (nn, 饮品#NN, 南方#NN)  (assmod, 饮品#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (case, 蔗糖#NN, 以#P)  (conj, 蔗糖#NN, 柚子#NN)  (prep, 为#VV, 蔗糖#NN)  (etc, 蔗糖#NN, 等#ETC)  (relcl, 南方#NN, 为#VV)  (relcl, 饮品#NN, 为#VV)  (dobj, 为#VV, 原料#NN)  (mark, 为#VV, 的#DEC)  (nn, 饮品#NN, 养生#NN)  (root, ROOT#null, 饮品#NN)   (case, 广东#NR, 在#P)  (prep, 云浮#VV, 广东#NR)  (root, ROOT#null, 云浮#VV)  (range, 云浮#VV, 一带#CD)  (ba, 放入#VV, 将#BA)  (nn, 里面#NN, 柚子#NN)  (nn, 里面#NN, 挖空#NN)  (assmod, 肉#NN, 里面#NN)  (case, 里面#NN, 的#DEG)  (nn, 肉#NN, 柚子#NN)  (nsubj, 放入#VV, 肉#NN)  (conj, 云浮#VV, 放入#VV)  (dobj, 放入#VV, 茶叶#NN)  (conj, 放入#VV, 密封#VV)  (conj, 放入#VV, 放在#VV)  (nn, 阴凉处#NN, 通风#NN)  (dobj, 放在#VV, 阴凉处#NN)  (conj, 云浮#VV, 制成#VV)  (nn, 茶#NN, 柚子#NN)  (dobj, 制成#VV, 茶#NN)  (dep, 久#VA, 时间#NN)  (advmod, 久#VA, 越#AD)  (conj, 云浮#VV, 久#VA)  (advmod, 好#VA, 越#AD)  (dep, 久#VA, 好#VA)   (nsubj, 制成#VV, 韩国人#NN)  (ba, 制成#VV, 将#BA)  (nn, 配#NN, 柚子#NN)  (nsubj, 制成#VV, 配#NN)  (case, 蜂蜜#NN, 以#P)  (prep, 制成#VV, 蜂蜜#NN)  (root, ROOT#null, 制成#VV)  (nn, 茶#NN, 蜂蜜#NN)  (nn, 茶#NN, 柚子#NN)  (dobj, 制成#VV, 茶#NN)  (nsubj, 营养#VA, 其#PN)  (conj, 制成#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (ccomp, 营养#VA, 风味#VA)  (comod, 风味#VA, 独特#VA)  (cc, 制成#VV, 且#CC)  (dep, 制成#VV, 具有#VV)  (relcl, 功效#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 功效#NN, 保健#NN)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            柚子果肉性寒，味甘、酸，有止咳平喘、清热化痰、健脾消食、解酒除烦的医疗作用；柚皮又名橘红，广橘红性温，味苦、辛，有理气化痰、健脾消食、散寒燥湿的作用。
+            1.促进伤口愈合
+            具有健胃、润肺、补血、清肠、利便等功效，可促进伤口愈合，对败血病等有良好的辅助疗效。
+            2.降低血粘度降血糖
+            可降低血液的黏滞度，减少血栓的形成，故而对脑血管疾病，如脑血栓、中风等也有较好的预防作用。鲜柚肉由于含有类似胰岛素的成分，更是糖尿病患者的理想食品。
+            3.防癌防中风
+            中老年人如果患有脑血管疾病，常吃柚子有助于预防脑中风的发生。柚子含有大量维生素C和钙元素，有助于防止肠癌和胃癌的发生。
+            4.助消化
+            理气化痰、润肺清肠、补血健脾等功效，能治食少、口淡、消化不良等症，能帮助消化、除痰止渴、理气散结。
+            5.促进胎儿的生长发育
+            柚子还有增强体质的功效，它帮助身体更容易吸收入钙及铁质，所含的天然叶酸，对于怀孕中的妇女们，有预防贫血症状发生和促进胎儿发育的功效。
+        </rawdata>
+
+        <segment>
+            柚子  果肉性  寒  ，  味甘  、  酸  ，  有  止咳  平喘  、  清热  化痰  、  健脾  消食  、  解酒  除  烦  的  医疗  作用  ；  柚皮  又  名  橘红  ，  广  橘红  性温  ，  味苦  、  辛  ，  有理  气化痰  、  健脾  消食  、  散寒燥  湿的  作用  。
+            促进  伤口  愈合
+            具有  健胃  、  润肺  、  补血  、  清  肠  、  利便  等  功效  ，  可  促进  伤口  愈合  ，  对  败血病  等  有  良好  的  辅助  疗效  。
+            降低  血  粘度  降  血糖
+            可降低  血液  的  黏滞度  ，  减少  血栓  的  形成  ，  故而  对  脑血管  疾病  ，  如  脑血栓  、  中风  等  也  有  较好  的  预防  作用  。  鲜柚  肉  由于  含有  类似  胰岛素  的  成分  ，  更  是  糖尿病  患者  的  理想  食品  。
+            防癌  防  中风
+            中老年人  如果  患有  脑血管  疾病  ，  常  吃  柚子  有助于  预防  脑  中风  的  发生  。  柚子  含有  大量  维生素C  和  钙  元素  ，  有助于  防止  肠癌  和  胃癌  的  发生  。
+            助消化
+            理气  化痰  、  润肺  清肠  、  补血  健脾  等  功效  ，  能  治  食  少  、  口淡  、  消化不良  等症  ，  能  帮助  消化  、  除痰  止渴  、  理  气  散结  。
+            促进  胎儿  的  生长  发育
+            柚子  还有  增强  体质  的  功效  ，  它  帮助  身体  更  容易  吸收  入  钙  及  铁质  ，  所含  的  天然  叶酸  ，  对于  怀孕  中  的  妇女们  ，  有  预防  贫血  症状  发生  和  促进  胎儿  发育  的  功效  。
+        </segment>
+
+        <pos>
+            柚子#NN  果肉性#NN  寒#JJ  ，#PU  味甘#VA  、#PU  酸#VA  ，#PU  有#VE  止咳#NN  平喘#NN  、#PU  清热#NN  化痰#NN  、#PU  健脾#NN  消食#NN  、#PU  解酒#VV  除#P  烦#NR  的#DEG  医疗#NN  作用#NN  ；#PU  柚皮#VV  又#AD  名#NN  橘红#JJ  ，#PU  广#VA  橘红#JJ  性温#NN  ，#PU  味苦#NN  、#PU  辛#NN  ，#PU  有理#NN  气化痰#NN  、#PU  健脾#NN  消食#NN  、#PU  散寒燥#NN  湿的#NN  作用#NN  。#PU
+            促进#VV  伤口#NN  愈合#NN
+            具有#VV  健胃#NR  、#PU  润肺#NR  、#PU  补血#NR  、#PU  清#JJ  肠#NN  、#PU  利便#NR  等#ETC  功效#NN  ，#PU  可#VV  促进#VV  伤口#NN  愈合#NN  ，#PU  对#P  败血病#NN  等#ETC  有#VE  良好#VA  的#DEC  辅助#NN  疗效#NN  。#PU
+            降低#VV  血#NN  粘度#NN  降#NN  血糖#NN
+            可降低#VV  血液#NN  的#DEG  黏滞度#NN  ，#PU  减少#VV  血栓#NN  的#DEG  形成#NN  ，#PU  故而#VV  对#P  脑血管#NN  疾病#NN  ，#PU  如#AD  脑血栓#NN  、#PU  中风#NN  等#ETC  也#AD  有#VE  较好#JJ  的#DEG  预防#NN  作用#NN    。#PU  鲜柚#NN  肉#NN  由于#P  含有#VV  类似#JJ  胰岛素#NN  的#DEG  成分#NN  ，#PU  更#AD  是#VC  糖尿病#NN  患者#NN  的#DEG  理想#JJ  食品#NN    。#PU    。#PU
+            防癌#NN  防#NN  中风#NN
+            中老年人#NN  如果#CS  患有#AD  脑血管#VV  疾病#NN  ，#PU  常#AD  吃#VV  柚子#NN  有助于#VV  预防#VV  脑#NN  中风#NN  的#DEG  发生#NN    。#PU  柚子#NN  含有#NN  大量#AD  维生素C#VV  和#CC  钙#VV  元素#NN  ，#PU  有助于#VV  防止#VV  肠癌#NN  和#CC  胃癌#NN  的#DEG  发生#NN    。#PU    。#PU
+            助消化#VV
+            理气#NR  化痰#NR  、#PU  润肺#NR  清肠#NR  、#PU  补血#NR  健脾#NR  等#ETC  功效#NN  ，#PU  能#VV  治#VV  食#NN  少#VA  、#PU  口淡#VA  、#PU  消化不良#VA  等症#NN  ，#PU  能#VV  帮助#VV  消化#NN  、#PU  除痰#VV  止渴#NN  、#PU  理#AD  气#NN  散结#VV  。#PU
+            促进#VV  胎儿#NN  的#DEC  生长#NN  发育#VV
+            柚子#NN  还有#AD  增强#VV  体质#NN  的#DEC  功效#NN  ，#PU  它#PN  帮助#VV  身体#NN  更#AD  容易#VA  吸收#VV  入#VV  钙#NN  及#CC  铁质#NN  ，#PU  所含#VV  的#DEC  天然#JJ  叶酸#NN  ，#PU  对于#P  怀孕#VV  中#NR  的#DEG  妇女们#NN  ，#PU  有#VE  预防#NN  贫血#NN  症状#AD  发生#VV  和#CC  促进#VV  胎儿#AD  发育#VV  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 果肉性#NN, 柚子#NN)  (nsubj, 寒#JJ, 果肉性#NN)  (root, ROOT#null, 寒#JJ)  (conj, 寒#JJ, 味甘#VA)  (dep, 味甘#VA, 酸#VA)  (dep, 寒#JJ, 有#VE)  (nn, 平喘#NN, 止咳#NN)  (conj, 作用#NN, 平喘#NN)  (nn, 化痰#NN, 清热#NN)  (conj, 作用#NN, 化痰#NN)  (nn, 消食#NN, 健脾#NN)  (conj, 作用#NN, 消食#NN)  (nfincl, 性温#NN, 解酒#VV)  (case, 烦#NR, 除#P)  (assmod, 作用#NN, 烦#NR)  (case, 烦#NR, 的#DEG)  (nn, 作用#NN, 医疗#NN)  (dobj, 解酒#VV, 作用#NN)  (conj, 解酒#VV, 柚皮#VV)  (advmod, 柚皮#VV, 又#AD)  (dobj, 柚皮#VV, 名#NN)  (conj, 解酒#VV, 橘红#JJ)  (conj, 解酒#VV, 广#VA)  (amod, 性温#NN, 橘红#JJ)  (dep, 作用#NN, 性温#NN)  (conj, 作用#NN, 味苦#NN)  (dep, 作用#NN, 辛#NN)  (nn, 气化痰#NN, 有理#NN)  (conj, 作用#NN, 气化痰#NN)  (nn, 消食#NN, 健脾#NN)  (conj, 作用#NN, 消食#NN)  (nn, 作用#NN, 散寒燥#NN)  (nn, 作用#NN, 湿的#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 促进#VV, 愈合#NN)
+            (root, ROOT#null, 具有#VV)  (conj, 利便#NR, 健胃#NR)  (conj, 利便#NR, 润肺#NR)  (conj, 利便#NR, 补血#NR)  (amod, 肠#NN, 清#JJ)  (conj, 利便#NR, 肠#NN)  (nn, 功效#NN, 利便#NR)  (etc, 利便#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)  (mmod, 促进#VV, 可#VV)  (conj, 具有#VV, 促进#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 促进#VV, 愈合#NN)  (case, 败血病#NN, 对#P)  (prep, 有#VE, 败血病#NN)  (etc, 败血病#NN, 等#ETC)  (conj, 具有#VV, 有#VE)  (relcl, 疗效#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 疗效#NN, 辅助#NN)  (dobj, 有#VE, 疗效#NN)
+            (root, ROOT#null, 降低#VV)  (nn, 血糖#NN, 血#NN)  (nn, 血糖#NN, 粘度#NN)  (nn, 血糖#NN, 降#NN)  (dobj, 降低#VV, 血糖#NN)
+            (root, ROOT#null, 可降低#VV)  (assmod, 黏滞度#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (dobj, 可降低#VV, 黏滞度#NN)  (conj, 可降低#VV, 减少#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 减少#VV, 形成#NN)  (conj, 可降低#VV, 故而#VV)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 脑血管#NN)  (prep, 有#VE, 疾病#NN)  (advmod, 中风#NN, 如#AD)  (conj, 中风#NN, 脑血栓#NN)  (nsubj, 有#VE, 中风#NN)  (etc, 中风#NN, 等#ETC)  (advmod, 有#VE, 也#AD)  (dep, 可降低#VV, 有#VE)  (assmod, 作用#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)   (nn, 肉#NN, 鲜柚#NN)  (nsubj, 食品#NN, 肉#NN)  (case, 含有#VV, 由于#P)  (prep, 食品#NN, 含有#VV)  (amod, 胰岛素#NN, 类似#JJ)  (assmod, 成分#NN, 胰岛素#NN)  (case, 胰岛素#NN, 的#DEG)  (dobj, 含有#VV, 成分#NN)  (advmod, 食品#NN, 更#AD)  (cop, 食品#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (assmod, 食品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (root, ROOT#null, 食品#NN)   (root, ROOT#null, null#null)
+            (nn, 中风#NN, 防癌#NN)  (nn, 中风#NN, 防#NN)  (root, ROOT#null, 中风#NN)
+            (nsubj, 吃#VV, 中老年人#NN)  (advmod, 脑血管#VV, 如果#CS)  (advmod, 脑血管#VV, 患有#AD)  (dep, 吃#VV, 脑血管#VV)  (dobj, 脑血管#VV, 疾病#NN)  (advmod, 吃#VV, 常#AD)  (dep, 有助于#VV, 吃#VV)  (dobj, 吃#VV, 柚子#NN)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 预防#VV)  (nn, 中风#NN, 脑#NN)  (assmod, 发生#NN, 中风#NN)  (case, 中风#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)   (nn, 含有#NN, 柚子#NN)  (nsubj, 维生素C#VV, 含有#NN)  (advmod, 维生素C#VV, 大量#AD)  (root, ROOT#null, 维生素C#VV)  (cc, 维生素C#VV, 和#CC)  (dep, 维生素C#VV, 钙#VV)  (dobj, 钙#VV, 元素#NN)  (conj, 维生素C#VV, 有助于#VV)  (ccomp, 有助于#VV, 防止#VV)  (conj, 胃癌#NN, 肠癌#NN)  (cc, 胃癌#NN, 和#CC)  (assmod, 发生#NN, 胃癌#NN)  (case, 胃癌#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 助消化#VV)
+            (nn, 健脾#NR, 理气#NR)  (conj, 健脾#NR, 化痰#NR)  (nn, 健脾#NR, 润肺#NR)  (conj, 健脾#NR, 清肠#NR)  (nn, 健脾#NR, 补血#NR)  (nn, 功效#NN, 健脾#NR)  (etc, 健脾#NR, 等#ETC)  (nsubj, 治#VV, 功效#NN)  (mmod, 治#VV, 能#VV)  (root, ROOT#null, 治#VV)  (nsubj, 少#VA, 食#NN)  (nfincl, 等症#NN, 少#VA)  (conj, 少#VA, 口淡#VA)  (dep, 少#VA, 消化不良#VA)  (dobj, 治#VV, 等症#NN)  (mmod, 帮助#VV, 能#VV)  (conj, 治#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (conj, 治#VV, 除痰#VV)  (dobj, 除痰#VV, 止渴#NN)  (advmod, 散结#VV, 理#AD)  (prep, 散结#VV, 气#NN)  (conj, 治#VV, 散结#VV)
+            (relcl, 生长#NN, 促进#VV)  (dobj, 促进#VV, 胎儿#NN)  (mark, 促进#VV, 的#DEC)  (nsubj, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)
+            (nn, 功效#NN, 柚子#NN)  (advmod, 功效#NN, 还有#AD)  (relcl, 功效#NN, 增强#VV)  (dobj, 增强#VV, 体质#NN)  (mark, 增强#VV, 的#DEC)  (nsubj, 帮助#VV, 功效#NN)  (xsubj, 吸收#VV, 功效#NN)  (nsubj, 帮助#VV, 它#PN)  (xsubj, 吸收#VV, 它#PN)  (root, ROOT#null, 帮助#VV)  (nsubj, 容易#VA, 身体#NN)  (advmod, 容易#VA, 更#AD)  (ccomp, 帮助#VV, 容易#VA)  (ccomp, 帮助#VV, 吸收#VV)  (conj, 帮助#VV, 吸收#VV)  (relcl, 叶酸#NN, 入#VV)  (conj, 铁质#NN, 钙#NN)  (cc, 铁质#NN, 及#CC)  (dobj, 入#VV, 铁质#NN)  (conj, 入#VV, 所含#VV)  (mark, 入#VV, 的#DEC)  (amod, 叶酸#NN, 天然#JJ)  (dobj, 吸收#VV, 叶酸#NN)  (case, 怀孕#VV, 对于#P)  (prep, 发生#VV, 怀孕#VV)  (assmod, 妇女们#NN, 中#NR)  (case, 中#NR, 的#DEG)  (dobj, 怀孕#VV, 妇女们#NN)  (conj, 怀孕#VV, 有#VE)  (nn, 贫血#NN, 预防#NN)  (dobj, 有#VE, 贫血#NN)  (advmod, 发生#VV, 症状#AD)  (conj, 吸收#VV, 发生#VV)  (cc, 发生#VV, 和#CC)  (dep, 发生#VV, 促进#VV)  (advmod, 发育#VV, 胎儿#AD)  (relcl, 功效#NN, 发育#VV)  (mark, 发育#VV, 的#DEC)  (dobj, 促进#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.含有丰富蛋白质、糖类、有机酸、维生素A原、B1、B2、C、P和钙、磷、镁、钠等营养成分，其中，每100克柚肉含维生素C57毫克，比梨高10倍，含钙519毫克，大大超过其它水果。
+            2.柚子含有生理活性物质皮甙、橙皮甙等，柚皮甙可降血液循环的粘滞度，减少血栓的形成。
+            3.柚中含有大量的维生素C，能降低血液中有胆固醇。
+            4.柚子的果胶不仅可降低低密度脂蛋白水平，而且可以减少动脉壁的损坏程度。
+            5.含丰富的天然叶酸，对于怀孕中的妇女们，有预防贫血发生和促进胎儿发育的功效。
+        </rawdata>
+
+        <segment>
+            含有  丰富  蛋白质  、  糖类  、  有机酸  、  维生素A  原  、  B  B2  、  C  、  P  和  钙  、  磷  、  镁  、  钠  等  营养  成分  ，  其中  ，  每  100  克  柚肉含  维生素C  57  毫克  ，  比梨  高  10  倍  ，  含钙  519  毫克  ，  大大  超过  其它  水果  。
+            柚子  含有  生理  活性  物质  皮甙  、  橙皮甙  等  ，  柚皮甙  可降  血液  循环  的  粘滞度  ，  减少  血栓  的  形成  。
+            柚  中  含有  大量  的  维生素C  ，  能  降低  血液  中  有胆  固醇  。
+            柚子  的  果胶  不仅  可  降低  低  密度  脂蛋白  水平  ，  而且  可以  减少  动脉  壁  的  损坏  程度  。
+            含  丰富  的  天然  叶酸  ，  对于  怀孕  中  的  妇女们  ，  有  预防  贫血  发生  和  促进  胎儿  发育  的  功效  。
+        </segment>
+
+        <pos>
+            含有#NR  丰富#VV  蛋白质#NR  、#PU  糖类#NR  、#PU  有机酸#NR  、#PU  维生素A#NR  原#JJ  、#PU  B#NN  B2#CD  、#PU  C#NN  、#PU  P#NN  和#CC  钙#NN  、#PU  磷#NN  、#PU  镁#NN  、#PU  钠#NN  等#ETC  营养#VA  成分#NN  ，#PU  其中#NN  ，#PU  每#DT  100#CD  克#M  柚肉含#NN  维生素C#VV  57#CD  毫克#NN  ，#PU  比梨#VV  高#JJ  10#CD  倍#M  ，#PU  含钙#VV  519#CD  毫克#NN  ，#PU  大大#AD  超过#VV  其它#DT  水果#NN  。#PU
+            柚子#NN  含有#NN  生理#NN  活性#VV  物质#NN  皮甙#NN  、#PU  橙皮甙#NN  等#ETC  ，#PU  柚皮甙#VV  可降#NN  血液#NN  循环#NN  的#DEG  粘滞度#NN  ，#PU  减少#VV  血栓#NN  的#DEG  形成#NN  。#PU
+            柚#NN  中#LC  含有#VV  大量#CD  的#DEG  维生素C#NN  ，#PU  能#VV  降低#VV  血液#NN  中#LC  有胆#JJ  固醇#NN  。#PU
+            柚子#NN  的#DEG  果胶#NN  不仅#CC  可#VV  降低#VV  低#JJ  密度#NN  脂蛋白#JJ  水平#NN  ，#PU  而且#CC  可以#VV  减少#VV  动脉#NN  壁#NN  的#DEG  损坏#VV  程度#NN  。#PU
+            含#VV  丰富#VA  的#DEC  天然#JJ  叶酸#NN  ，#PU  对于#P  怀孕#VV  中#NR  的#DEC  妇女们#NN  ，#PU  有#VE  预防#NN  贫血#NN  发生#VV  和#CC  促进#VV  胎儿#AD  发育#VV  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 丰富#VV, 含有#NR)  (root, ROOT#null, 丰富#VV)  (conj, 维生素A#NR, 蛋白质#NR)  (conj, 维生素A#NR, 糖类#NR)  (conj, 维生素A#NR, 有机酸#NR)  (nn, 成分#NN, 维生素A#NR)  (amod, 成分#NN, 原#JJ)  (conj, 成分#NN, B#NN)  (nummod, B#NN, B2#CD)  (conj, 钠#NN, C#NN)  (conj, 钠#NN, P#NN)  (cc, 钠#NN, 和#CC)  (conj, 钠#NN, 钙#NN)  (conj, 钠#NN, 磷#NN)  (conj, 钠#NN, 镁#NN)  (nn, 成分#NN, 钠#NN)  (etc, 钠#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 丰富#VV, 成分#NN)  (nsubj, 维生素C#VV, 其中#NN)  (det, 柚肉含#NN, 每#DT)  (nummod, 克#M, 100#CD)  (dep, 每#DT, 克#M)  (nsubj, 维生素C#VV, 柚肉含#NN)  (conj, 丰富#VV, 维生素C#VV)  (nummod, 毫克#NN, 57#CD)  (dobj, 维生素C#VV, 毫克#NN)  (conj, 维生素C#VV, 比梨#VV)  (amod, 倍#M, 高#JJ)  (nummod, 倍#M, 10#CD)  (range, 比梨#VV, 倍#M)  (conj, 维生素C#VV, 含钙#VV)  (nummod, 毫克#NN, 519#CD)  (dobj, 含钙#VV, 毫克#NN)  (advmod, 超过#VV, 大大#AD)  (conj, 维生素C#VV, 超过#VV)  (det, 水果#NN, 其它#DT)  (dobj, 超过#VV, 水果#NN)
+            (nn, 生理#NN, 柚子#NN)  (nn, 生理#NN, 含有#NN)  (nsubj, 活性#VV, 生理#NN)  (root, ROOT#null, 活性#VV)  (nn, 橙皮甙#NN, 物质#NN)  (conj, 橙皮甙#NN, 皮甙#NN)  (dobj, 活性#VV, 橙皮甙#NN)  (etc, 橙皮甙#NN, 等#ETC)  (conj, 活性#VV, 柚皮甙#VV)  (nn, 循环#NN, 可降#NN)  (nn, 循环#NN, 血液#NN)  (assmod, 粘滞度#NN, 循环#NN)  (case, 循环#NN, 的#DEG)  (dobj, 柚皮甙#VV, 粘滞度#NN)  (conj, 活性#VV, 减少#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (dobj, 减少#VV, 形成#NN)
+            (loc, 含有#VV, 柚#NN)  (case, 柚#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 维生素C#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 维生素C#NN)  (mmod, 降低#VV, 能#VV)  (conj, 含有#VV, 降低#VV)  (dep, 固醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (amod, 固醇#NN, 有胆#JJ)  (dobj, 降低#VV, 固醇#NN)
+            (assmod, 果胶#NN, 柚子#NN)  (case, 柚子#NN, 的#DEG)  (nsubj, 降低#VV, 果胶#NN)  (cc, 降低#VV, 不仅#CC)  (mmod, 降低#VV, 可#VV)  (root, ROOT#null, 降低#VV)  (amod, 密度#NN, 低#JJ)  (nn, 水平#NN, 密度#NN)  (amod, 水平#NN, 脂蛋白#JJ)  (dobj, 降低#VV, 水平#NN)  (cc, 降低#VV, 而且#CC)  (mmod, 减少#VV, 可以#VV)  (dep, 降低#VV, 减少#VV)  (nn, 壁#NN, 动脉#NN)  (assmod, 程度#NN, 壁#NN)  (case, 壁#NN, 的#DEG)  (nfincl, 程度#NN, 损坏#VV)  (dobj, 减少#VV, 程度#NN)
+            (dep, 有#VE, 含#VV)  (relcl, 叶酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 叶酸#NN, 天然#JJ)  (dobj, 含#VV, 叶酸#NN)  (case, 妇女们#NN, 对于#P)  (relcl, 妇女们#NN, 怀孕#VV)  (dobj, 怀孕#VV, 中#NR)  (mark, 怀孕#VV, 的#DEC)  (prep, 有#VE, 妇女们#NN)  (root, ROOT#null, 有#VE)  (nn, 贫血#NN, 预防#NN)  (nsubj, 发生#VV, 贫血#NN)  (dep, 有#VE, 发生#VV)  (cc, 有#VE, 和#CC)  (dep, 有#VE, 促进#VV)  (advmod, 发育#VV, 胎儿#AD)  (relcl, 功效#NN, 发育#VV)  (mark, 发育#VV, 的#DEC)  (dobj, 促进#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121859465762.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\551 柚子茶.jpg
+    </picturelocalurl>
+
+</content>

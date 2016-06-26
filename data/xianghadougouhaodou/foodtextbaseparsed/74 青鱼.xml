@@ -1,0 +1,346 @@
+<content>
+
+    <id>
+        74
+    </id>
+
+    <foodname>
+        青鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        鲭、青鲩、乌青、螺蛳青、黑鲩、乌鲩、黑鲭、乌鲭、铜青、青棒、五侯青
+    </alias>
+
+    <season>
+        9-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃蕴热者不宜食用；瘙痒性皮肤病、内热、荨麻疹、癣病者应忌食。
+        </rawdata>
+
+        <segment>
+            脾胃蕴  热者  不  宜  食用  ；  瘙痒  性  皮肤病  、  内热  、  荨麻疹  、  癣病者  应  忌食  。
+        </segment>
+
+        <pos>
+            脾胃蕴#NR  热者#VV  不#AD  宜#NR  食用#VV  ；#PU  瘙痒#NN  性#NN  皮肤病#NR  、#PU  内热#NR  、#PU  荨麻疹#NR  、#PU  癣病者#NR  应#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热者#VV, 脾胃蕴#NR)  (xsubj, 食用#VV, 脾胃蕴#NR)  (root, ROOT#null, 热者#VV)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (ccomp, 热者#VV, 食用#VV)  (nn, 性#NN, 瘙痒#NN)  (nsubj, 应#VV, 性#NN)  (conj, 癣病者#NR, 皮肤病#NR)  (conj, 癣病者#NR, 内热#NR)  (conj, 癣病者#NR, 荨麻疹#NR)  (nsubj, 应#VV, 癣病者#NR)  (conj, 热者#VV, 应#VV)  (dobj, 应#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜各类水肿、肝炎、肾炎、脚气脚弱之人食用； 适宜脾胃虚弱，气血不足，营养不良之人食用；适宜高脂血症，高胆固醇血症，动脉硬化者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  各  类  水肿  、  肝炎  、  肾炎  、  脚气  脚  弱  之  人  食用  ；  适宜  脾胃  虚弱  ，  气血  不足  ，  营养  不良  之  人  食用  ；  适宜  高  脂血症  ，  高  胆固醇血症  ，  动脉  硬化  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  各#DT  类#M  水肿#NN  、#PU  肝炎#NN  、#PU  肾炎#NN  、#PU  脚气#NN  脚#NN  弱#VA  之#DEC  人#NN  食用#VV  ；#PU  适宜#VV  脾胃#NN  虚弱#NN  ，#PU  气血#AD  不足#VA  ，#PU  营养#VA  不良#JJ  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  高#JJ  脂血症#NN  ，#PU  高#JJ  胆固醇血症#NN  ，#PU  动脉#NN  硬化#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (det, 脚气#NN, 各#DT)  (clf, 各#DT, 类#M)  (conj, 脚气#NN, 水肿#NN)  (conj, 脚气#NN, 肝炎#NN)  (conj, 脚气#NN, 肾炎#NN)  (nn, 脚#NN, 脚气#NN)  (nsubj, 弱#VA, 脚#NN)  (relcl, 人#NN, 弱#VA)  (mark, 弱#VA, 之#DEC)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 适宜#VV, 适宜#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 适宜#VV, 虚弱#NN)  (advmod, 不足#VA, 气血#AD)  (dep, 适宜#VV, 不足#VA)  (dep, 不足#VA, 营养#VA)  (assmod, 人#NN, 不良#JJ)  (case, 不良#JJ, 之#DEG)  (dobj, 营养#VA, 人#NN)  (conj, 营养#VA, 食用#VV)  (conj, 适宜#VV, 适宜#VV)  (amod, 脂血症#NN, 高#JJ)  (dobj, 适宜#VV, 脂血症#NN)  (amod, 胆固醇血症#NN, 高#JJ)  (nsubj, 食用#VV, 胆固醇血症#NN)  (nn, 者#NN, 动脉#NN)  (nn, 者#NN, 硬化#NN)  (nsubj, 食用#VV, 者#NN)  (dep, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                118
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                20.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                108
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.81
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                184
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                325
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                47.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                6.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                37.69
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            青鱼主要分布于我国长江以南的平原地区，长江以北较稀少；它是长江中、下游和沿江湖泊里的重要渔业资源和各湖泊、池塘中的主要养殖对象，为我国淡水养殖的“四大家鱼”之一。
+            青鱼体长，略呈圆筒形，尾部侧扁，腹部圆，无腹棱。头部稍平扁，尾部侧扁。口端位，呈弧形。上颌稍长于下颌。无须。下咽齿1行，呈臼齿状，咀嚼面光滑，无槽纹。背鳍和臀鳍无硬刺，背鳍与腹鳍相对。体背及体侧上半部青黑色，腹部灰白色，各鳍均呈灰黑色。体圆筒形。腹部平圆，无腹棱。尾部稍侧扁。吻钝，但较草鱼尖突。上颌骨后端伸达眼前缘下方。眼间隔约为眼径的3.5倍。鳃耙15～21个，短小，乳突状。咽齿一行,4(5)/5(4),左右一般不对称，齿面宽大，臼状。鳞大，圆形。侧线鳞39～45。体青黑色，背部更深；各鳍灰黑色，偶鳍尤深。背鳍软条7-9枚；臀鳍软条8-10枚，体长可达122厘米。
+        </rawdata>
+
+        <segment>
+            青鱼  主要  分布  于  我  国  长江  以南  的  平原  地区  ，  长江  以北  较  稀少  ；  它  是  长江  中  、  下游  和  沿江  湖泊  里  的  重要  渔业  资源  和  各  湖泊  、  池塘  中  的  主要  养殖  对象  ，  为  我  国  淡水  养殖  的  “  四  大家  鱼  ”  之一  。
+            青鱼  体长  ，  略  呈  圆筒形  ，  尾部  侧扁  ，  腹部  圆  ，  无  腹棱  。  头部  稍平扁  ，  尾部  侧扁  。  口  端  位  ，  呈  弧形  。  上颌  稍长  于下颌  。  无须  。  下  咽齿  ，  呈臼  齿状  ，  咀嚼  面  光滑  ，  无槽纹  。  背鳍  和  臀鳍  无  硬  刺  ，  背鳍  与  腹鳍  相对  。  体背  及  体侧  上半部  青  黑色  ，  腹部  灰白色  ，  各  鳍均  呈  灰黑色  。  体  圆筒形  。  腹部  平圆  ，  无  腹棱  。  尾部  稍  侧扁  。  吻钝  ，  但  较  草鱼  尖突  。  上颌骨  后端  伸达  眼  前缘  下方  。  眼  间隔  约  为  眼径  的  3.5  倍  。  鳃耙  15  ～  21  个  ，  短小  ，  乳突状  。  咽齿  一行  ,  4  (  5  )  /  5  (  4  )  ,  左右  一般  不  对称  ，  齿面  宽大  ，  臼状  。  鳞大  ，  圆形  。  侧线鳞  39  ～  45  。  体青  黑色  ，  背部  更深  ；  各  鳍  灰黑色  ，  偶鳍  尤  深  。  背鳍  软  条  7  -  9  枚  ；  臀鳍  软  条  8  -  10  枚  ，  体长  可达  122  厘米  。
+        </segment>
+
+        <pos>
+            青鱼#NR  主要#AD  分布#VV  于#P  我#PN  国#NN  长江#NR  以南#LC  的#DEG  平原#NN  地区#NN  ，#PU  长江#NR  以北#LC  较#AD  稀少#VV  ；#PU  它#PN  是#VC  长江#NR  中#NN  、#PU  下游#NN  和#CC  沿江#NN  湖泊#NN  里#LC  的#DEG  重要#JJ  渔业#NN  资源#NN  和#CC  各#DT  湖泊#NN  、#PU  池塘#NN  中#LC  的#DEG  主要#JJ  养殖#NN  对象#NN  ，#PU  为#P  我#PN  国#NN  淡水#NN  养殖#NN  的#DEG  ``#NR  四#CD  大家#PN  鱼#NN  ''#VV  之一#NN  。#PU
+            青鱼#NR  体长#VV  ，#PU  略#AD  呈#VV  圆筒形#NN  ，#PU  尾部#VV  侧扁#NN  ，#PU  腹部#AD  圆#VV  ，#PU  无#VE  腹棱#NN    。#PU  头部#NR  稍平扁#VV  ，#PU  尾部#VV  侧扁#NN    。#PU  口#NN  端#NN  位#VV  ，#PU  呈#VV  弧形#NN    。#PU  上颌#NN  稍长#NN  于下颌#NN    。#PU  无须#VV    。#PU  下#VV  咽齿#NN  ，#PU  呈臼#VV  齿状#NN  ，#PU  咀嚼#VV  面#NN  光滑#NN  ，#PU  无槽纹#VV    。#PU  背鳍#NN  和#CC  臀鳍#NN  无#VE  硬#JJ  刺#NN  ，#PU  背鳍#VV  与#CC  腹鳍#VV  相对#AD    。#PU  体背#NN  及#CC  体侧#NN  上半部#NN  青#NR  黑色#JJ  ，#PU  腹部#JJ  灰白色#NN  ，#PU  各#DT  鳍均#NN  呈#VV  灰黑色#NN    。#PU  体#NN  圆筒形#VV    。#PU  腹部#NR  平圆#VV  ，#PU  无#VE  腹棱#NN    。#PU  尾部#NN  稍#NN  侧扁#NN    。#PU  吻钝#NN  ，#PU  但#AD  较#AD  草鱼#VV  尖突#VV    。#PU  上颌骨#NN  后端#NN  伸达#VV  眼#NN  前缘#NN  下方#NN    。#PU  眼#NN  间隔#NN  约#AD  为#VC  眼径#NN  的#DEG  3.5#CD  倍#M    。#PU  鳃耙#VV  15#CD  ～#NN  21#CD  个#M  ，#PU  短小#VV  ，#PU  乳突状#VV    。#PU  咽齿#NN  一行#NN  ,#NN  4#CD  -LRB-#NN  5#CD  -RRB-#NN  /#NN  5#CD  -LRB-#NN  4#CD  -RRB-#NN  ,#CD  左右#LC  一般#AD  不#AD  对称#VV  ，#PU  齿面#VV  宽大#NN  ，#PU  臼状#VV    。#PU  鳞大#VV  ，#PU  圆形#VV    。#PU  侧线鳞#VV  39#CD  ～#VV  45#CD    。#PU  体青#NR  黑色#JJ  ，#PU  背部#NN  更深#NN  ；#PU  各#DT  鳍#NN  灰黑色#VV  ，#PU  偶鳍#NN  尤#NN  深#VA    。#PU  背鳍#VV  软#JJ  条#NN  7#CD  -#NN  9#CD  枚#M  ；#PU  臀鳍#VV  软#JJ  条#NN  8#CD  -#NN  10#CD  枚#M  ，#PU  体长#AD  可达#VV  122#CD  厘米#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 分布#VV, 青鱼#NR)  (advmod, 分布#VV, 主要#AD)  (root, ROOT#null, 分布#VV)  (case, 长江#NR, 于#P)  (nn, 国#NN, 我#PN)  (nn, 长江#NR, 国#NN)  (assmod, 地区#NN, 长江#NR)  (case, 长江#NR, 以南#LC)  (case, 长江#NR, 的#DEG)  (nn, 地区#NN, 平原#NN)  (dobj, 分布#VV, 地区#NN)  (loc, 稀少#VV, 长江#NR)  (case, 长江#NR, 以北#LC)  (advmod, 稀少#VV, 较#AD)  (conj, 分布#VV, 稀少#VV)  (nsubj, 对象#NN, 它#PN)  (cop, 对象#NN, 是#VC)  (nn, 湖泊#NN, 长江#NR)  (conj, 湖泊#NN, 中#NN)  (conj, 湖泊#NN, 下游#NN)  (cc, 湖泊#NN, 和#CC)  (nn, 湖泊#NN, 沿江#NN)  (assmod, 资源#NN, 湖泊#NN)  (case, 湖泊#NN, 里#LC)  (case, 湖泊#NN, 的#DEG)  (amod, 资源#NN, 重要#JJ)  (nn, 资源#NN, 渔业#NN)  (assmod, 对象#NN, 资源#NN)  (cc, 资源#NN, 和#CC)  (det, 池塘#NN, 各#DT)  (conj, 池塘#NN, 湖泊#NN)  (dep, 资源#NN, 池塘#NN)  (case, 池塘#NN, 中#LC)  (case, 资源#NN, 的#DEG)  (amod, 对象#NN, 主要#JJ)  (nn, 对象#NN, 养殖#NN)  (conj, 分布#VV, 对象#NN)  (case, 鱼#NN, 为#P)  (nn, 养殖#NN, 我#PN)  (nn, 养殖#NN, 国#NN)  (nn, 养殖#NN, 淡水#NN)  (assmod, 鱼#NN, 养殖#NN)  (case, 养殖#NN, 的#DEG)  (nn, 鱼#NN, ``#NR)  (nummod, 鱼#NN, 四#CD)  (nn, 鱼#NN, 大家#PN)  (prep, ''#VV, 鱼#NN)  (conj, 分布#VV, ''#VV)  (dobj, ''#VV, 之一#NN)
+            (nsubj, 体长#VV, 青鱼#NR)  (root, ROOT#null, 体长#VV)  (advmod, 呈#VV, 略#AD)  (ccomp, 体长#VV, 呈#VV)  (dobj, 呈#VV, 圆筒形#NN)  (dep, 呈#VV, 尾部#VV)  (dobj, 尾部#VV, 侧扁#NN)  (advmod, 圆#VV, 腹部#AD)  (conj, 尾部#VV, 圆#VV)  (conj, 尾部#VV, 无#VE)  (dobj, 无#VE, 腹棱#NN)   (nsubj, 稍平扁#VV, 头部#NR)  (root, ROOT#null, 稍平扁#VV)  (ccomp, 稍平扁#VV, 尾部#VV)  (dobj, 尾部#VV, 侧扁#NN)   (nn, 端#NN, 口#NN)  (nsubj, 位#VV, 端#NN)  (root, ROOT#null, 位#VV)  (dep, 位#VV, 呈#VV)  (dobj, 呈#VV, 弧形#NN)   (nn, 于下颌#NN, 上颌#NN)  (nn, 于下颌#NN, 稍长#NN)  (root, ROOT#null, 于下颌#NN)   (root, ROOT#null, 无须#VV)   (root, ROOT#null, 下#VV)  (dobj, 下#VV, 咽齿#NN)  (conj, 下#VV, 呈臼#VV)  (dobj, 呈臼#VV, 齿状#NN)  (conj, 下#VV, 咀嚼#VV)  (nn, 光滑#NN, 面#NN)  (dobj, 咀嚼#VV, 光滑#NN)  (conj, 下#VV, 无槽纹#VV)   (conj, 臀鳍#NN, 背鳍#NN)  (cc, 臀鳍#NN, 和#CC)  (nsubj, 无#VE, 臀鳍#NN)  (root, ROOT#null, 无#VE)  (amod, 刺#NN, 硬#JJ)  (dobj, 无#VE, 刺#NN)  (conj, 无#VE, 背鳍#VV)  (cc, 无#VE, 与#CC)  (conj, 无#VE, 腹鳍#VV)  (advmod, 腹鳍#VV, 相对#AD)   (conj, 上半部#NN, 体背#NN)  (cc, 上半部#NN, 及#CC)  (nn, 上半部#NN, 体侧#NN)  (nn, 灰白色#NN, 上半部#NN)  (nn, 灰白色#NN, 青#NR)  (nfincl, 灰白色#NN, 黑色#JJ)  (dep, 黑色#JJ, 腹部#JJ)  (dep, 鳍均#NN, 灰白色#NN)  (det, 鳍均#NN, 各#DT)  (nsubj, 呈#VV, 鳍均#NN)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 灰黑色#NN)   (nsubj, 圆筒形#VV, 体#NN)  (root, ROOT#null, 圆筒形#VV)   (nsubj, 平圆#VV, 腹部#NR)  (root, ROOT#null, 平圆#VV)  (ccomp, 平圆#VV, 无#VE)  (dobj, 无#VE, 腹棱#NN)   (nn, 侧扁#NN, 尾部#NN)  (nn, 侧扁#NN, 稍#NN)  (root, ROOT#null, 侧扁#NN)   (nsubj, 草鱼#VV, 吻钝#NN)  (advmod, 草鱼#VV, 但#AD)  (advmod, 草鱼#VV, 较#AD)  (dep, 尖突#VV, 草鱼#VV)  (root, ROOT#null, 尖突#VV)   (nn, 后端#NN, 上颌骨#NN)  (nsubj, 伸达#VV, 后端#NN)  (root, ROOT#null, 伸达#VV)  (nn, 下方#NN, 眼#NN)  (nn, 下方#NN, 前缘#NN)  (dobj, 伸达#VV, 下方#NN)   (nn, 间隔#NN, 眼#NN)  (nsubj, 为#VC, 间隔#NN)  (advmod, 为#VC, 约#AD)  (root, ROOT#null, 为#VC)  (assmod, 倍#M, 眼径#NN)  (case, 眼径#NN, 的#DEG)  (nummod, 倍#M, 3.5#CD)  (dep, 为#VC, 倍#M)   (root, ROOT#null, 鳃耙#VV)  (nummod, ～#NN, 15#CD)  (nummod, 个#M, 21#CD)  (range, 鳃耙#VV, 个#M)  (conj, 鳃耙#VV, 短小#VV)  (conj, 鳃耙#VV, 乳突状#VV)   (nn, 一行#NN, 咽齿#NN)  (nn, ,#NN, 一行#NN)  (nummod, -LRB-#NN, 4#CD)  (nummod, -RRB-#NN, 5#CD)  (nummod, -LRB-#NN, 5#CD)  (nummod, -RRB-#NN, 4#CD)  (case, ,#CD, 左右#LC)  (advmod, 对称#VV, 一般#AD)  (neg, 对称#VV, 不#AD)  (root, ROOT#null, 对称#VV)  (dep, 对称#VV, 齿面#VV)  (dobj, 齿面#VV, 宽大#NN)  (conj, 对称#VV, 臼状#VV)   (root, ROOT#null, 鳞大#VV)  (ccomp, 鳞大#VV, 圆形#VV)   (root, ROOT#null, 侧线鳞#VV)  (range, 侧线鳞#VV, 39#CD)  (range, ～#VV, 45#CD)   (nn, 更深#NN, 体青#NR)  (relcl, 体青#NR, 黑色#JJ)  (relcl, 更深#NN, 黑色#JJ)  (dep, 黑色#JJ, 背部#NN)  (nsubj, 灰黑色#VV, 更深#NN)  (det, 鳍#NN, 各#DT)  (nsubj, 灰黑色#VV, 鳍#NN)  (root, ROOT#null, 灰黑色#VV)  (nn, 尤#NN, 偶鳍#NN)  (nsubj, 深#VA, 尤#NN)  (ccomp, 灰黑色#VV, 深#VA)   (root, ROOT#null, 背鳍#VV)  (amod, 条#NN, 软#JJ)  (nn, -#NN, 条#NN)  (nummod, -#NN, 7#CD)  (nummod, 枚#M, 9#CD)  (range, 背鳍#VV, 枚#M)  (conj, 背鳍#VV, 臀鳍#VV)  (amod, 条#NN, 软#JJ)  (nn, -#NN, 条#NN)  (nummod, -#NN, 8#CD)  (nummod, 枚#M, 10#CD)  (range, 臀鳍#VV, 枚#M)  (advmod, 可达#VV, 体长#AD)  (conj, 背鳍#VV, 可达#VV)  (nummod, 厘米#M, 122#CD)  (range, 可达#VV, 厘米#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.青鱼肉性味甘、平，无毒，有益气化湿、和中、截疟、养肝明目、养胃的功效；主治脚气湿痹、烦闷、疟疾、血淋等症。
+            2.其胆性味苦、寒，有毒，可以泻热、消炎、明目、退翳，外用主治目赤肿痛、结膜炎、翳障、喉痹、暴聋、恶疮、白秃等症；内服能治扁桃体炎。（由于胆汁有毒，不宜滥服。过量吞食青鱼胆会发生中毒，半小时后，轻者恶心、呕吐、腹痛、水样大便；重者腹泻后昏迷、尿少、无尿、视力模糊、巩膜黄染，继之骚动、抽搐、牙关紧闭、四肢强直、口吐白沫、两眼球上窜、呼吸深快。如若治疗不及时，会导致死亡。）
+        </rawdata>
+
+        <segment>
+            青  鱼肉  性味甘  、  平  ，  无毒  ，  有益  气化湿  、  和  中  、  截疟  、  养肝  明目  、  养  胃  的  功效  ；  主治  脚气  湿痹  、  烦闷  、  疟疾  、  血淋等症  。
+            其  胆性味苦  、  寒  ，  有毒  ，  可以  泻热  、  消炎  、  明目  、  退翳  ，  外用  主治  目赤  肿痛  、  结膜炎  、  翳障  、  喉痹  、  暴聋  、  恶疮  、  白秃等症  ；  内服  能  治  扁桃体炎  。  （  由于  胆汁  有毒  ，  不  宜  滥服  。  过量  吞食  青鱼胆  会  发生  中毒  ，  半小时  后  ，  轻者  恶心  、  呕吐  、  腹痛  、  水样  大便  ；  重者  腹泻  后  昏迷  、  尿少  、  无尿  、  视力  模糊  、  巩膜  黄染  ，  继之  骚动  、  抽搐  、  牙关  紧闭  、  四  肢  强直  、  口  吐  白沫  、  两  眼  球  上窜  、  呼吸  深  快  。  如若  治疗  不  及时  ，  会  导致  死亡  。  ）
+        </segment>
+
+        <pos>
+            青#NR  鱼肉#VV  性味甘#NN  、#PU  平#NN  ，#PU  无毒#JJ  ，#PU  有益#VA  气化湿#VA  、#PU  和#P  中#NR  、#PU  截疟#NR  、#PU  养肝#NR  明目#VV  、#PU  养#VV  胃#NN  的#DEG  功效#NN  ；#PU  主治#VV  脚气#NN  湿痹#NN  、#PU  烦闷#NN  、#PU  疟疾#NN  、#PU  血淋等症#NN  。#PU
+            其#PN  胆性味苦#VV  、#PU  寒#JJ  ，#PU  有毒#VV  ，#PU  可以#VV  泻热#NR  、#PU  消炎#NR  、#PU  明目#NR  、#PU  退翳#NR  ，#PU  外用#AD  主治#AD  目赤#VV  肿痛#NR  、#PU  结膜炎#NR  、#PU  翳障#NR  、#PU  喉痹#NR  、#PU  暴聋#NR  、#PU  恶疮#NR  、#PU  白秃等症#NR  ；#PU  内服#AD  能#VV  治#VV  扁桃体炎#NN    。#PU  （#PU  由于#P  胆汁#VV  有毒#CD  ，#PU  不#NN  宜#NR  滥服#VA    。#PU  过量#AD  吞食#AD  青鱼胆#AD  会#VV  发生#VV  中毒#VV  ，#PU  半小时#NN  后#LC  ，#PU  轻者#NN  恶心#NN  、#PU  呕吐#NN  、#PU  腹痛#NN  、#PU  水样#NN  大便#NN  ；#PU  重者#NN  腹泻#NN  后#LC  昏迷#NR  、#PU  尿少#NR  、#PU  无尿#NR  、#PU  视力#NR  模糊#NN  、#PU  巩膜#NN  黄染#NN  ，#PU  继之#NN  骚动#NN  、#PU  抽搐#NN  、#PU  牙关#NN  紧闭#NN  、#PU  四#CD  肢#NN  强直#NN  、#PU  口#NN  吐#NN  白沫#NN  、#PU  两#CD  眼#NN  球#NN  上窜#NN  、#PU  呼吸#NN  深#AD  快#VA    。#PU  如若#NN  治疗#NN  不#AD  及时#VA  ，#PU  会#VV  导致#VV  死亡#VV    。#PU  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鱼肉#VV, 青#NR)  (root, ROOT#null, 鱼肉#VV)  (conj, 平#NN, 性味甘#NN)  (dobj, 鱼肉#VV, 平#NN)  (conj, 鱼肉#VV, 无毒#JJ)  (conj, 鱼肉#VV, 有益#VA)  (comod, 有益#VA, 气化湿#VA)  (case, 养肝#NR, 和#P)  (conj, 养肝#NR, 中#NR)  (conj, 养肝#NR, 截疟#NR)  (prep, 明目#VV, 养肝#NR)  (conj, 鱼肉#VV, 明目#VV)  (conj, 鱼肉#VV, 养#VV)  (assmod, 功效#NN, 胃#NN)  (case, 胃#NN, 的#DEG)  (dobj, 养#VV, 功效#NN)  (conj, 鱼肉#VV, 主治#VV)  (nn, 血淋等症#NN, 脚气#NN)  (conj, 血淋等症#NN, 湿痹#NN)  (conj, 血淋等症#NN, 烦闷#NN)  (conj, 血淋等症#NN, 疟疾#NN)  (dobj, 主治#VV, 血淋等症#NN)
+            (nsubj, 胆性味苦#VV, 其#PN)  (root, ROOT#null, 胆性味苦#VV)  (conj, 胆性味苦#VV, 寒#JJ)  (conj, 胆性味苦#VV, 有毒#VV)  (dep, 胆性味苦#VV, 可以#VV)  (conj, 退翳#NR, 泻热#NR)  (conj, 退翳#NR, 消炎#NR)  (conj, 退翳#NR, 明目#NR)  (dobj, 可以#VV, 退翳#NR)  (advmod, 目赤#VV, 外用#AD)  (advmod, 目赤#VV, 主治#AD)  (conj, 胆性味苦#VV, 目赤#VV)  (conj, 白秃等症#NR, 肿痛#NR)  (conj, 白秃等症#NR, 结膜炎#NR)  (conj, 白秃等症#NR, 翳障#NR)  (conj, 白秃等症#NR, 喉痹#NR)  (conj, 白秃等症#NR, 暴聋#NR)  (conj, 白秃等症#NR, 恶疮#NR)  (dobj, 目赤#VV, 白秃等症#NR)  (advmod, 治#VV, 内服#AD)  (mmod, 治#VV, 能#VV)  (conj, 胆性味苦#VV, 治#VV)  (dobj, 治#VV, 扁桃体炎#NN)   (case, 有毒#CD, 由于#P)  (mmod, 有毒#CD, 胆汁#VV)  (dep, 滥服#VA, 有毒#CD)  (dep, 有毒#CD, 不#NN)  (nsubj, 滥服#VA, 宜#NR)  (root, ROOT#null, 滥服#VA)   (advmod, 发生#VV, 过量#AD)  (advmod, 发生#VV, 吞食#AD)  (advmod, 发生#VV, 青鱼胆#AD)  (mmod, 发生#VV, 会#VV)  (dep, 快#VA, 发生#VV)  (comod, 发生#VV, 中毒#VV)  (loc, 快#VA, 半小时#NN)  (case, 半小时#NN, 后#LC)  (nn, 水样#NN, 轻者#NN)  (conj, 水样#NN, 恶心#NN)  (conj, 水样#NN, 呕吐#NN)  (conj, 水样#NN, 腹痛#NN)  (nn, 大便#NN, 水样#NN)  (nsubj, 快#VA, 大便#NN)  (nn, 腹泻#NN, 重者#NN)  (dep, 呼吸#NN, 腹泻#NN)  (case, 腹泻#NN, 后#LC)  (conj, 视力#NR, 昏迷#NR)  (conj, 视力#NR, 尿少#NR)  (conj, 视力#NR, 无尿#NR)  (nn, 模糊#NN, 视力#NR)  (conj, 呼吸#NN, 模糊#NN)  (nn, 黄染#NN, 巩膜#NN)  (dep, 呼吸#NN, 黄染#NN)  (nn, 骚动#NN, 继之#NN)  (conj, 呼吸#NN, 骚动#NN)  (conj, 呼吸#NN, 抽搐#NN)  (nn, 紧闭#NN, 牙关#NN)  (conj, 呼吸#NN, 紧闭#NN)  (nummod, 强直#NN, 四#CD)  (nn, 强直#NN, 肢#NN)  (conj, 呼吸#NN, 强直#NN)  (nn, 白沫#NN, 口#NN)  (nn, 白沫#NN, 吐#NN)  (conj, 呼吸#NN, 白沫#NN)  (nummod, 上窜#NN, 两#CD)  (nn, 上窜#NN, 眼#NN)  (nn, 上窜#NN, 球#NN)  (conj, 呼吸#NN, 上窜#NN)  (nsubj, 快#VA, 呼吸#NN)  (advmod, 快#VA, 深#AD)  (root, ROOT#null, 快#VA)   (nn, 治疗#NN, 如若#NN)  (nsubj, 及时#VA, 治疗#NN)  (neg, 及时#VA, 不#AD)  (root, ROOT#null, 及时#VA)  (mmod, 导致#VV, 会#VV)  (dep, 及时#VA, 导致#VV)  (ccomp, 导致#VV, 死亡#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  抗癌防癌  补气  和胃  除痹  化湿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.青鱼中除含有丰富蛋白质、脂肪外，还含丰富的硒、碘等微量元素，故有抗衰老、抗癌作用；
+            2.鱼肉中富含核酸，这是人体细胞所必须的物质，核酸食品可延缓衰老，辅助疾病的治疗。
+        </rawdata>
+
+        <segment>
+            青鱼  中  除  含有  丰富  蛋白质  、  脂肪  外  ，  还  含  丰富  的硒  、  碘等  微量  元素  ，  故  有  抗  衰老  、  抗癌  作用  ；
+            鱼肉  中  富含  核酸  ，  这  是  人体  细胞  所  必须  的  物质  ，  核酸  食品  可  延缓  衰老  ，  辅助  疾病  的  治疗  。
+        </segment>
+
+        <pos>
+            青鱼#NN  中#LC  除#P  含有#AD  丰富#VV  蛋白质#NN  、#PU  脂肪#NN  外#LC  ，#PU  还#AD  含#VV  丰富#VA  的硒#NN  、#PU  碘等#NN  微量#NN  元素#NN  ，#PU  故#AD  有#VE  抗#NN  衰老#NN  、#PU  抗癌#NN  作用#NN  ；#PU
+            鱼肉#NN  中#LC  富含#NR  核酸#VV  ，#PU  这#PN  是#VC  人体#NN  细胞#NN  所#MSP  必须#VV  的#DEC  物质#NN  ，#PU  核酸#NN  食品#NN  可#VV  延缓#VV  衰老#NN  ，#PU  辅助#VV  疾病#NN  的#DEG  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含#VV, 青鱼#NN)  (case, 青鱼#NN, 中#LC)  (case, 丰富#VV, 除#P)  (advmod, 丰富#VV, 含有#AD)  (prep, 含#VV, 丰富#VV)  (conj, 脂肪#NN, 蛋白质#NN)  (dobj, 丰富#VV, 脂肪#NN)  (case, 丰富#VV, 外#LC)  (advmod, 含#VV, 还#AD)  (root, ROOT#null, 含#VV)  (rcomp, 含#VV, 丰富#VA)  (conj, 元素#NN, 的硒#NN)  (nn, 元素#NN, 碘等#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 含#VV, 元素#NN)  (advmod, 有#VE, 故#AD)  (conj, 含#VV, 有#VE)  (nn, 抗癌#NN, 抗#NN)  (conj, 抗癌#NN, 衰老#NN)  (nn, 作用#NN, 抗癌#NN)  (dobj, 有#VE, 作用#NN)
+            (loc, 核酸#VV, 鱼肉#NN)  (case, 鱼肉#NN, 中#LC)  (nsubj, 核酸#VV, 富含#NR)  (root, ROOT#null, 核酸#VV)  (nsubj, 物质#NN, 这#PN)  (cop, 物质#NN, 是#VC)  (nn, 细胞#NN, 人体#NN)  (nsubj, 必须#VV, 细胞#NN)  (prtmod, 必须#VV, 所#MSP)  (relcl, 物质#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (ccomp, 核酸#VV, 物质#NN)  (nn, 食品#NN, 核酸#NN)  (nsubj, 延缓#VV, 食品#NN)  (mmod, 延缓#VV, 可#VV)  (conj, 物质#NN, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (conj, 延缓#VV, 辅助#VV)  (assmod, 治疗#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 辅助#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            收拾青鱼的窍门：右手握刀，左手按住鱼的头部，刀从尾部向头部用力刮去鳞片，然后用右手大拇指和食指将鱼鳃挖出，用剪刀从青鱼的口部至脐眼处剖开腹部，挖出内脏，用水冲洗干净，腹部的黑膜用刀刮一刮，再冲洗干净。
+        </rawdata>
+
+        <segment>
+            收拾  青鱼  的  窍门  ：  右手  握  刀  ，  左手  按住  鱼  的  头部  ，  刀  从  尾部  向  头部  用力  刮去  鳞片  ，  然后  用  右手  大拇指  和  食指  将  鱼鳃  挖出  ，  用  剪刀  从  青鱼  的  口部  至  脐眼处  剖开  腹部  ，  挖出  内脏  ，  用水  冲洗  干净  ，  腹部  的  黑  膜  用  刀  刮  一  刮  ，  再  冲洗  干净  。
+        </segment>
+
+        <pos>
+            收拾#VV  青鱼#NN  的#DEG  窍门#NN  ：#PU  右手#VV  握#CD  刀#M  ，#PU  左手#VV  按住#NN  鱼#NN  的#DEC  头部#NN  ，#PU  刀#NN  从#P  尾部#NN  向#P  头部#NN  用力#NN  刮去#VV  鳞片#NN  ，#PU  然后#AD  用#P  右手#NR  大拇指#NN  和#CC  食指#NN  将#AD  鱼鳃#VV  挖出#NN  ，#PU  用#P  剪刀#NN  从#P  青鱼#NN  的#DEG  口部#NN  至#CC  脐眼处#NN  剖开#VV  腹部#NN  ，#PU  挖出#VV  内脏#NN  ，#PU  用水#NN  冲洗#AD  干净#VA  ，#PU  腹部#NN  的#DEG  黑#JJ  膜#NN  用#P  刀#NN  刮#VV  一#CD  刮#NN  ，#PU  再#AD  冲洗#AD  干净#VA  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 头部#NN, 收拾#VV)  (assmod, 窍门#NN, 青鱼#NN)  (case, 青鱼#NN, 的#DEG)  (dobj, 收拾#VV, 窍门#NN)  (conj, 收拾#VV, 右手#VV)  (nummod, 刀#M, 握#CD)  (range, 右手#VV, 刀#M)  (conj, 收拾#VV, 左手#VV)  (nn, 鱼#NN, 按住#NN)  (dobj, 左手#VV, 鱼#NN)  (mark, 收拾#VV, 的#DEC)  (nsubj, 刮去#VV, 头部#NN)  (nsubj, 刮去#VV, 刀#NN)  (case, 尾部#NN, 从#P)  (prep, 刮去#VV, 尾部#NN)  (case, 用力#NN, 向#P)  (nn, 用力#NN, 头部#NN)  (prep, 刮去#VV, 用力#NN)  (root, ROOT#null, 刮去#VV)  (dobj, 刮去#VV, 鳞片#NN)  (advmod, 鱼鳃#VV, 然后#AD)  (case, 食指#NN, 用#P)  (nn, 食指#NN, 右手#NR)  (conj, 食指#NN, 大拇指#NN)  (cc, 食指#NN, 和#CC)  (prep, 鱼鳃#VV, 食指#NN)  (advmod, 鱼鳃#VV, 将#AD)  (conj, 刮去#VV, 鱼鳃#VV)  (dobj, 鱼鳃#VV, 挖出#NN)  (case, 剪刀#NN, 用#P)  (prep, 剖开#VV, 剪刀#NN)  (case, 脐眼处#NN, 从#P)  (assmod, 脐眼处#NN, 青鱼#NN)  (case, 青鱼#NN, 的#DEG)  (conj, 脐眼处#NN, 口部#NN)  (cc, 脐眼处#NN, 至#CC)  (prep, 剖开#VV, 脐眼处#NN)  (conj, 刮去#VV, 剖开#VV)  (dobj, 剖开#VV, 腹部#NN)  (dep, 刮去#VV, 挖出#VV)  (dobj, 挖出#VV, 内脏#NN)  (nsubj, 干净#VA, 用水#NN)  (advmod, 干净#VA, 冲洗#AD)  (conj, 刮去#VV, 干净#VA)  (assmod, 膜#NN, 腹部#NN)  (case, 腹部#NN, 的#DEG)  (amod, 膜#NN, 黑#JJ)  (nsubj, 刮#VV, 膜#NN)  (case, 刀#NN, 用#P)  (prep, 刮#VV, 刀#NN)  (conj, 刮去#VV, 刮#VV)  (nummod, 刮#NN, 一#CD)  (dobj, 刮#VV, 刮#NN)  (advmod, 干净#VA, 再#AD)  (advmod, 干净#VA, 冲洗#AD)  (conj, 刮去#VV, 干净#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/092031236323.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\74 青鱼.jpg
+    </picturelocalurl>
+
+</content>

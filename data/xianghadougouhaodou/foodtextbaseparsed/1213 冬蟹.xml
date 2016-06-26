@@ -1,0 +1,103 @@
+<content>
+
+    <id>
+        1213
+    </id>
+
+    <foodname>
+        冬蟹
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            海鲜类一种
+        </rawdata>
+
+        <segment>
+            海鲜  类  一  种
+        </segment>
+
+        <pos>
+            海鲜#CD  类#M  一#CD  种#M
+        </pos>
+
+        <parsing>
+            (nummod, 类#M, 海鲜#CD)  (clf, 种#M, 类#M)  (nummod, 种#M, 一#CD)  (root, ROOT#null, 种#M)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        清热  消肿毒  活血祛瘀  镇痛
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            肉多，脂膏肥满，味鲜美，营养丰富。蛋白质含量高，还含有多种微量元素及矿物质，对身体有很好的滋补作用。还有抗结核作用，吃冬蟹对结核病的康复大有补益。具有清热解毒、补骨添髓、养筋活血、通经络、利肢节、续绝伤、滋肝阴、充胃液之功效。对于淤血、损伤、黄疸、腰腿酸痛和风湿性关节炎等疾病有一定的食疗效果。
+        </rawdata>
+
+        <segment>
+            肉多  ，  脂膏  肥满  ，  味  鲜美  ，  营养  丰富  。  蛋白质  含量  高  ，  还  含有  多  种  微量  元素  及  矿物质  ，  对  身体  有  很  好  的  滋补  作用  。  还有  抗  结核  作用  ，  吃  冬蟹  对  结核病  的  康复  大有  补益  。  具有  清热  解毒  、  补  骨  添髓  、  养筋  活血  、  通  经络  、  利  肢节  、  续  绝  伤  、  滋肝  阴  、  充  胃液  之  功效  。  对于  淤血  、  损伤  、  黄疸  、  腰腿  酸痛  和  风湿性  关节炎  等  疾病  有  一定  的  食疗  效果  。
+        </segment>
+
+        <pos>
+            肉多#VV  ，#PU  脂膏#NN  肥满#NN  ，#PU  味#AD  鲜美#VA  ，#PU  营养#VA  丰富#VA    。#PU  蛋白质#NN  含量#NN  高#VA  ，#PU  还#AD  含有#VV  多#CD  种#M  微量#NN  元素#NN  及#CC  矿物质#NN  ，#PU  对#P  身体#NN  有#VE  很#AD  好#VA  的#DEC  滋补#JJ  作用#NN    。#PU  还有#AD  抗#NN  结核#NN  作用#NN  ，#PU  吃#VV  冬蟹#NN  对#P  结核病#NN  的#DEG  康复#NN  大有#VV  补益#NN    。#PU  具有#VV  清热#NN  解毒#NN  、#PU  补#NN  骨#NN  添髓#NN  、#PU  养筋#NN  活血#NN  、#PU  通#NN  经络#NN  、#PU  利#NR  肢节#NR  、#PU  续#NN  绝#NN  伤#NN  、#PU  滋肝#NN  阴#NN  、#PU  充#NR  胃液#NN  之#DEG  功效#NN    。#PU  对于#P  淤血#NN  、#PU  损伤#NN  、#PU  黄疸#NN  、#PU  腰腿#NN  酸痛#NN  和#CC  风湿性#NN  关节炎#NN  等#ETC  疾病#NN  有#VE  一定#JJ  的#DEG  食疗#NN  效果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肉多#VV)  (nn, 肥满#NN, 脂膏#NN)  (nsubj, 鲜美#VA, 肥满#NN)  (advmod, 鲜美#VA, 味#AD)  (ccomp, 肉多#VV, 鲜美#VA)  (dep, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (advmod, 含有#VV, 还#AD)  (dep, 高#VA, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (nn, 矿物质#NN, 微量#NN)  (conj, 矿物质#NN, 元素#NN)  (cc, 矿物质#NN, 及#CC)  (dobj, 含有#VV, 矿物质#NN)  (case, 身体#NN, 对#P)  (prep, 有#VE, 身体#NN)  (dep, 高#VA, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 滋补#JJ)  (dobj, 有#VE, 作用#NN)   (advmod, 吃#VV, 还有#AD)  (nn, 作用#NN, 抗#NN)  (nn, 作用#NN, 结核#NN)  (nsubj, 吃#VV, 作用#NN)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 冬蟹#NN)  (case, 结核病#NN, 对#P)  (assmod, 康复#NN, 结核病#NN)  (case, 结核病#NN, 的#DEG)  (nsubj, 大有#VV, 康复#NN)  (conj, 吃#VV, 大有#VV)  (dobj, 大有#VV, 补益#NN)   (root, ROOT#null, 具有#VV)  (nn, 解毒#NN, 清热#NN)  (conj, 充#NR, 解毒#NN)  (nn, 添髓#NN, 补#NN)  (nn, 添髓#NN, 骨#NN)  (conj, 充#NR, 添髓#NN)  (nn, 活血#NN, 养筋#NN)  (conj, 充#NR, 活血#NN)  (nn, 经络#NN, 通#NN)  (conj, 充#NR, 经络#NN)  (nn, 肢节#NR, 利#NR)  (conj, 充#NR, 肢节#NR)  (nn, 伤#NN, 续#NN)  (nn, 伤#NN, 绝#NN)  (conj, 充#NR, 伤#NN)  (nn, 阴#NN, 滋肝#NN)  (conj, 充#NR, 阴#NN)  (nn, 胃液#NN, 充#NR)  (assmod, 功效#NN, 胃液#NN)  (case, 胃液#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)   (case, 疾病#NN, 对于#P)  (conj, 关节炎#NN, 淤血#NN)  (conj, 关节炎#NN, 损伤#NN)  (conj, 关节炎#NN, 黄疸#NN)  (nn, 关节炎#NN, 腰腿#NN)  (conj, 关节炎#NN, 酸痛#NN)  (cc, 关节炎#NN, 和#CC)  (nn, 关节炎#NN, 风湿性#NN)  (nn, 疾病#NN, 关节炎#NN)  (etc, 关节炎#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (root, ROOT#null, 有#VE)  (assmod, 效果#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 效果#NN, 食疗#NN)  (dobj, 有#VE, 效果#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/4e/50/20558_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1213 冬蟹.jpg
+    </picturelocalurl>
+
+</content>

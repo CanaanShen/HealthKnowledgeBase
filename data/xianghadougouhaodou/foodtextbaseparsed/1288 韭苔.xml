@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1288
+    </id>
+
+    <foodname>
+        韭苔
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        韭花
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阴虚火旺、有眼病和胃肠虚弱者不宜多食;
+        </rawdata>
+
+        <segment>
+            阴虚  火  旺  、  有  眼病  和  胃肠  虚弱  者  不  宜  多  食  ;
+        </segment>
+
+        <pos>
+            阴虚#NN  火#NN  旺#VV  、#PU  有#VE  眼病#NN  和#CC  胃肠#NN  虚弱#NN  者#NN  不#AD  宜#NR  多#CD  食#NN  ;#VV
+        </pos>
+
+        <parsing>
+            (nn, 火#NN, 阴虚#NN)  (nsubj, 旺#VV, 火#NN)  (relcl, 者#NN, 旺#VV)  (dep, 旺#VV, 有#VE)  (conj, 胃肠#NN, 眼病#NN)  (cc, 胃肠#NN, 和#CC)  (nn, 虚弱#NN, 胃肠#NN)  (dobj, 有#VE, 虚弱#NN)  (nsubj, ;#VV, 者#NN)  (neg, ;#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (prep, ;#VV, 食#NN)  (root, ROOT#null, ;#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            韭为多年生草本植物，叶细长而扁，丛生。在全国广泛栽培，亦有野生植株。韭苔，韭菜生长到一定阶段时在中央部分长出的细长的茎，顶上开花结实，嫩的可以当菜吃。
+        </rawdata>
+
+        <segment>
+            韭为  多年生  草本  植物  ，  叶  细长  而  扁  ，  丛生  。  在  全国  广泛  栽培  ，  亦  有  野生  植株  。  韭苔  ，  韭菜  生长  到  一定  阶段  时  在  中央  部分  长出  的  细长  的茎  ，  顶上  开花  结实  ，  嫩的  可以  当  菜  吃  。
+        </segment>
+
+        <pos>
+            韭为#NN  多年生#VV  草本#NN  植物#NN  ，#PU  叶#NR  细长#NN  而#MSP  扁#VV  ，#PU  丛生#VV    。#PU  在#P  全国#NR  广泛#AD  栽培#VV  ，#PU  亦#AD  有#VE  野生#JJ  植株#NN    。#PU  韭苔#VV  ，#PU  韭菜#NN  生长#NN  到#P  一定#JJ  阶段#NN  时#LC  在#P  中央#NN  部分#NN  长出#VV  的#DEC  细长#NN  的茎#VV  ，#PU  顶上#NR  开花#JJ  结实#VA  ，#PU  嫩的#AD  可以#VV  当#VV  菜#NN  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 多年生#VV, 韭为#NN)  (root, ROOT#null, 多年生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 多年生#VV, 植物#NN)  (nn, 细长#NN, 叶#NR)  (nsubj, 扁#VV, 细长#NN)  (prtmod, 扁#VV, 而#MSP)  (conj, 多年生#VV, 扁#VV)  (dep, 扁#VV, 丛生#VV)   (case, 全国#NR, 在#P)  (prep, 栽培#VV, 全国#NR)  (advmod, 栽培#VV, 广泛#AD)  (root, ROOT#null, 栽培#VV)  (advmod, 有#VE, 亦#AD)  (dep, 栽培#VV, 有#VE)  (amod, 植株#NN, 野生#JJ)  (dobj, 有#VE, 植株#NN)   (relcl, 细长#NN, 韭苔#VV)  (nn, 生长#NN, 韭菜#NN)  (nsubj, 长出#VV, 生长#NN)  (case, 阶段#NN, 到#P)  (amod, 阶段#NN, 一定#JJ)  (prep, 长出#VV, 阶段#NN)  (case, 阶段#NN, 时#LC)  (case, 部分#NN, 在#P)  (nn, 部分#NN, 中央#NN)  (prep, 长出#VV, 部分#NN)  (ccomp, 韭苔#VV, 长出#VV)  (mark, 韭苔#VV, 的#DEC)  (nsubj, 的茎#VV, 细长#NN)  (root, ROOT#null, 的茎#VV)  (nn, 菜#NN, 顶上#NR)  (amod, 菜#NN, 开花#JJ)  (dep, 当#VV, 结实#VA)  (advmod, 当#VV, 嫩的#AD)  (dep, 当#VV, 可以#VV)  (relcl, 顶上#NR, 当#VV)  (relcl, 菜#NN, 当#VV)  (nsubj, 吃#VV, 菜#NN)  (ccomp, 的茎#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            韭花食之能生津开胃，增强食欲，促进消化。韭花富含钙、磷、铁、胡萝卜素、核黄素、抗坏血酸等有益健康的成分。
+        </rawdata>
+
+        <segment>
+            韭花  食  之  能  生津  开胃  ，  增强  食欲  ，  促进  消化  。  韭花  富  含钙  、  磷  、  铁  、  胡萝卜素  、  核黄素  、  抗坏血酸  等  有益  健康  的  成分  。
+        </segment>
+
+        <pos>
+            韭花#NN  食#NN  之#PN  能#VV  生津#VV  开胃#NN  ，#PU  增强#VV  食欲#NN  ，#PU  促进#VV  消化#NN    。#PU  韭花#NN  富#VV  含钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  胡萝卜素#NN  、#PU  核黄素#NN  、#PU  抗坏血酸#NN  等#ETC  有益#VA  健康#VA  的#DEC  成分#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 食#NN, 韭花#NN)  (nsubj, 生津#VV, 食#NN)  (nsubj, 生津#VV, 之#PN)  (mmod, 生津#VV, 能#VV)  (root, ROOT#null, 生津#VV)  (dobj, 生津#VV, 开胃#NN)  (conj, 生津#VV, 增强#VV)  (dobj, 增强#VV, 食欲#NN)  (conj, 生津#VV, 促进#VV)  (dobj, 促进#VV, 消化#NN)   (nsubj, 富#VV, 韭花#NN)  (root, ROOT#null, 富#VV)  (conj, 抗坏血酸#NN, 含钙#NN)  (conj, 抗坏血酸#NN, 磷#NN)  (conj, 抗坏血酸#NN, 铁#NN)  (conj, 抗坏血酸#NN, 胡萝卜素#NN)  (conj, 抗坏血酸#NN, 核黄素#NN)  (nn, 成分#NN, 抗坏血酸#NN)  (etc, 抗坏血酸#NN, 等#ETC)  (relcl, 抗坏血酸#NN, 有益#VA)  (relcl, 成分#NN, 有益#VA)  (comod, 有益#VA, 健康#VA)  (mark, 有益#VA, 的#DEC)  (dobj, 富#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  抗菌  镇痛  镇静催眠  利尿  祛痰  抗虫  抗真菌  抗癌防癌  解毒  杀虫  解表  通阳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/fd/2d/11773_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1288 韭苔.jpg
+    </picturelocalurl>
+
+</content>

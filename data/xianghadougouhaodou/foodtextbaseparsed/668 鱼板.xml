@@ -1,0 +1,214 @@
+<content>
+
+    <id>
+        668
+    </id>
+
+    <foodname>
+        鱼板
+    </foodname>
+
+    <firstcategory>
+        鱼虾蟹贝等水产
+    </firstcategory>
+
+    <secondcategory>
+        其它
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            吃鱼前后忌喝茶，忌与猪肝同食影响消化;不宜与西红柿同食。
+        </rawdata>
+
+        <segment>
+            吃鱼  前后  忌喝茶  ，  忌与  猪肝  同  食  影响  消化  ;  不  宜  与  西红柿  同  食  。
+        </segment>
+
+        <pos>
+            吃鱼#NN  前后#LC  忌喝茶#NN  ，#PU  忌与#NN  猪肝#NN  同#P  食#NN  影响#NN  消化#NN  ;#VV  不#AD  宜#NR  与#CC  西红柿#NR  同#DT  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 忌喝茶#NN, 吃鱼#NN)  (case, 吃鱼#NN, 前后#LC)  (nsubj, ;#VV, 忌喝茶#NN)  (nn, 猪肝#NN, 忌与#NN)  (nsubj, ;#VV, 猪肝#NN)  (case, 消化#NN, 同#P)  (nn, 消化#NN, 食#NN)  (nn, 消化#NN, 影响#NN)  (prep, ;#VV, 消化#NN)  (root, ROOT#null, ;#VV)  (neg, ;#VV, 不#AD)  (conj, 西红柿#NR, 宜#NR)  (cc, 西红柿#NR, 与#CC)  (nn, 食#NN, 西红柿#NR)  (det, 食#NN, 同#DT)  (dobj, ;#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人都可使用
+        </rawdata>
+
+        <segment>
+            一般  人  都  可  使用
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  都#AD  可#VV  使用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 使用#VV, 人#NN)  (advmod, 使用#VV, 都#AD)  (dep, 使用#VV, 可#VV)  (root, ROOT#null, 使用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                107.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                12.70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                1.30
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鱼板是日本一种以鱼浆为原料而制成的食品，所使用的鱼是白身鱼，即鱼肉为白色的鱼种，有别于鱼肉为红色的赤身鱼。将鱼肉捣碎磨成糊状后，置于日本冷杉或白桧等较无气味的木板上成型，然后经过蒸或烤等工序即制成鱼板。目前宫城县的鱼板生产量和消费量都是日本第一。
+        </rawdata>
+
+        <segment>
+            鱼板  是  日本  一  种  以  鱼浆  为  原料  而  制成  的  食品  ，  所  使用  的  鱼  是  白  身  鱼  ，  即  鱼肉  为  白色  的  鱼种  ，  有别于  鱼肉  为  红色  的  赤身  鱼  。  将  鱼肉  捣碎  磨成  糊状  后  ，  置于  日本  冷杉  或  白桧  等  较  无气味  的  木板  上  成型  ，  然后  经过  蒸  或  烤  等  工序  即  制成  鱼板  。  目前  宫城  县  的  鱼板  生产量  和  消费量  都  是  日本  第一  。
+        </segment>
+
+        <pos>
+            鱼板#NN  是#VC  日本#NR  一#CD  种#M  以#P  鱼浆#NN  为#VV  原料#NN  而#MSP  制成#VV  的#DEC  食品#NN  ，#PU  所#MSP  使用#VV  的#DEC  鱼#NN  是#VC  白#JJ  身#NN  鱼#NN  ，#PU  即#AD  鱼肉#NN  为#VC  白色#JJ  的#DEG  鱼种#NN  ，#PU  有别于#NN  鱼肉#NN  为#VC  红色#JJ  的#DEG  赤身#NN  鱼#NN    。#PU  将#AD  鱼肉#VV  捣碎#NN  磨成#NN  糊状#NN  后#LC  ，#PU  置于#VV  日本#NR  冷杉#NR  或#CC  白桧#NR  等#ETC  较#AD  无气味#VA  的#DEC  木板#NN  上#LC  成型#NN  ，#PU  然后#AD  经过#P  蒸#NR  或#CC  烤#NR  等#ETC  工序#NN  即#AD  制成#VV  鱼板#NN    。#PU  目前#NT  宫城#VV  县#NN  的#DEG  鱼板#NN  生产量#NN  和#CC  消费量#NN  都#AD  是#VC  日本#NR  第一#OD    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 鱼板#NN)  (cop, 食品#NN, 是#VC)  (nn, 食品#NN, 日本#NR)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (case, 鱼浆#NN, 以#P)  (prep, 为#VV, 鱼浆#NN)  (relcl, 日本#NR, 为#VV)  (relcl, 食品#NN, 为#VV)  (dobj, 为#VV, 原料#NN)  (prtmod, 制成#VV, 而#MSP)  (conj, 为#VV, 制成#VV)  (mark, 为#VV, 的#DEC)  (root, ROOT#null, 食品#NN)  (prtmod, 使用#VV, 所#MSP)  (relcl, 鱼#NN, 使用#VV)  (mark, 使用#VV, 的#DEC)  (nsubj, 鱼#NN, 鱼#NN)  (cop, 鱼#NN, 是#VC)  (amod, 身#NN, 白#JJ)  (nn, 鱼#NN, 身#NN)  (conj, 食品#NN, 鱼#NN)  (advmod, 鱼肉#NN, 即#AD)  (nsubj, 鱼种#NN, 鱼肉#NN)  (cop, 鱼种#NN, 为#VC)  (assmod, 鱼种#NN, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (conj, 食品#NN, 鱼种#NN)  (nn, 鱼肉#NN, 有别于#NN)  (nsubj, 鱼#NN, 鱼肉#NN)  (cop, 鱼#NN, 为#VC)  (assmod, 鱼#NN, 红色#JJ)  (case, 红色#JJ, 的#DEG)  (nn, 鱼#NN, 赤身#NN)  (conj, 食品#NN, 鱼#NN)   (advmod, 鱼肉#VV, 将#AD)  (root, ROOT#null, 鱼肉#VV)  (nn, 糊状#NN, 捣碎#NN)  (nn, 糊状#NN, 磨成#NN)  (loc, 鱼肉#VV, 糊状#NN)  (case, 糊状#NN, 后#LC)  (dep, 鱼肉#VV, 置于#VV)  (nn, 白桧#NR, 日本#NR)  (conj, 白桧#NR, 冷杉#NR)  (cc, 白桧#NR, 或#CC)  (nn, 成型#NN, 白桧#NR)  (etc, 白桧#NR, 等#ETC)  (advmod, 无气味#VA, 较#AD)  (relcl, 木板#NN, 无气味#VA)  (mark, 无气味#VA, 的#DEC)  (dep, 成型#NN, 木板#NN)  (case, 木板#NN, 上#LC)  (dobj, 置于#VV, 成型#NN)  (advmod, 制成#VV, 然后#AD)  (case, 工序#NN, 经过#P)  (conj, 烤#NR, 蒸#NR)  (cc, 烤#NR, 或#CC)  (nn, 工序#NN, 烤#NR)  (etc, 烤#NR, 等#ETC)  (prep, 制成#VV, 工序#NN)  (advmod, 制成#VV, 即#AD)  (conj, 鱼肉#VV, 制成#VV)  (dobj, 制成#VV, 鱼板#NN)   (dep, 宫城#VV, 目前#NT)  (root, ROOT#null, 宫城#VV)  (assmod, 生产量#NN, 县#NN)  (case, 县#NN, 的#DEG)  (nn, 生产量#NN, 鱼板#NN)  (conj, 第一#OD, 生产量#NN)  (cc, 生产量#NN, 和#CC)  (nsubj, 日本#NR, 消费量#NN)  (advmod, 日本#NR, 都#AD)  (cop, 日本#NR, 是#VC)  (dep, 生产量#NN, 日本#NR)  (conj, 宫城#VV, 第一#OD)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            通乳生乳,养肝,利尿消肿,亮发,健脑,有益心血管,益乳,健脾,养颜护肤
+        </rawdata>
+
+        <segment>
+            通乳  生乳  ,  养肝  ,  利尿  消肿  ,  亮发  ,  健脑  ,  有益  心血管  ,  益乳  ,  健脾  ,  养颜  护肤
+        </segment>
+
+        <pos>
+            通乳#NN  生乳#VV  ,#NN  养肝#NN  ,#NN  利尿#NN  消肿#NN  ,#NN  亮发#NN  ,#NN  健脑#NN  ,#AD  有益#VA  心血管#NN  ,#NN  益乳#NN  ,#AD  健脾#VV  ,#NN  养颜#NN  护肤#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 生乳#VV, 通乳#NN)  (root, ROOT#null, 生乳#VV)  (nn, ,#NN, 养肝#NN)  (nn, ,#NN, 利尿#NN)  (nn, ,#NN, 消肿#NN)  (nn, 健脑#NN, 亮发#NN)  (nsubj, 有益#VA, 健脑#NN)  (conj, 生乳#VV, 有益#VA)  (nn, 益乳#NN, 心血管#NN)  (nsubj, 健脾#VV, 益乳#NN)  (conj, 生乳#VV, 健脾#VV)  (nn, 护肤#NN, 养颜#NN)  (dobj, 健脾#VV, 护肤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 鱼肉营养丰富，具有滋补健胃、利水消肿、通乳、清热解毒、止嗽下气的功效；
+            2. 鱼肉含有丰富的镁元素，对心血管系统有很好的保护作用，有利于预防高血压、心肌梗死等心血管疾病；
+            3. 鱼肉中富含维生素A、铁、钙、磷等，常吃鱼还有养肝补血、泽肤养发健美的功效。
+        </rawdata>
+
+        <segment>
+            鱼肉  营养  丰富  ，  具有  滋补  健胃  、  利水  消肿  、  通乳  、  清热  解毒  、  止嗽  下气  的  功效  ；
+            鱼肉  含有  丰富  的  镁  元素  ，  对  心血管  系统  有  很  好  的  保护  作用  ，  有利于  预防  高血压  、  心肌梗死  等  心血管  疾病  ；
+            鱼肉  中  富含  维生素A  、  铁  、  钙  、  磷  等  ，  常  吃鱼  还  有  养肝  补血  、  泽肤  养  发  健美  的  功效  。
+        </segment>
+
+        <pos>
+            鱼肉#NN  营养#VA  丰富#VA  ，#PU  具有#VV  滋补#NR  健胃#NR  、#PU  利水#NR  消肿#NR  、#PU  通乳#NR  、#PU  清热#NR  解毒#NR  、#PU  止嗽#NR  下气#NN  的#DEG  功效#NN  ；#PU
+            鱼肉#NN  含有#NN  丰富#VA  的#DEC  镁#NN  元素#NN  ，#PU  对#P  心血管#NN  系统#NN  有#VE  很#AD  好#VA  的#DEC  保护#NN  作用#NN  ，#PU  有利于#VV  预防#VV  高血压#NR  、#PU  心肌梗死#NR  等#ETC  心血管#NN  疾病#NN  ；#PU
+            鱼肉#NN  中#LC  富含#NN  维生素A#NN  、#PU  铁#NN  、#PU  钙#NN  、#PU  磷#NN  等#ETC  ，#PU  常#AD  吃鱼#AD  还#AD  有#VE  养肝#NN  补血#NN  、#PU  泽肤#AD  养#VV  发#VV  健美#NN  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 鱼肉#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (dep, 营养#VA, 具有#VV)  (nn, 止嗽#NR, 滋补#NR)  (conj, 止嗽#NR, 健胃#NR)  (nn, 止嗽#NR, 利水#NR)  (conj, 止嗽#NR, 消肿#NR)  (conj, 止嗽#NR, 通乳#NR)  (nn, 止嗽#NR, 清热#NR)  (conj, 止嗽#NR, 解毒#NR)  (nn, 下气#NN, 止嗽#NR)  (assmod, 功效#NN, 下气#NN)  (case, 下气#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)
+            (nn, 含有#NN, 鱼肉#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 元素#NN, 镁#NN)  (nsubj, 有#VE, 元素#NN)  (case, 系统#NN, 对#P)  (nn, 系统#NN, 心血管#NN)  (prep, 有#VE, 系统#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)  (dep, 有#VE, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (conj, 心肌梗死#NR, 高血压#NR)  (nn, 疾病#NN, 心肌梗死#NR)  (etc, 心肌梗死#NR, 等#ETC)  (nn, 疾病#NN, 心血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (dep, 磷#NN, 鱼肉#NN)  (case, 鱼肉#NN, 中#LC)  (nn, 磷#NN, 富含#NN)  (conj, 磷#NN, 维生素A#NN)  (conj, 磷#NN, 铁#NN)  (conj, 磷#NN, 钙#NN)  (nsubj, 有#VE, 磷#NN)  (etc, 磷#NN, 等#ETC)  (advmod, 有#VE, 常#AD)  (advmod, 有#VE, 吃鱼#AD)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (nn, 补血#NN, 养肝#NN)  (dobj, 有#VE, 补血#NN)  (advmod, 养#VV, 泽肤#AD)  (dep, 有#VE, 养#VV)  (relcl, 功效#NN, 发#VV)  (dobj, 发#VV, 健美#NN)  (mark, 发#VV, 的#DEC)  (dobj, 养#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            制作鱼板的程序分为取鱼肉、水洗、碾绞、压磨、置板、蒸熟、冷却、装箱等步骤。中国菜中的鱼板多是将鱼去皮以刀法制成板形
+        </rawdata>
+
+        <segment>
+            制作  鱼板  的  程序  分为  取  鱼肉  、  水洗  、  碾绞  、  压磨  、  置板  、  蒸熟  、  冷却  、  装箱  等  步骤  。  中国  菜  中  的  鱼  板  多  是  将  鱼  去皮  以  刀法  制成  板形
+        </segment>
+
+        <pos>
+            制作#VV  鱼板#NN  的#DEC  程序#NN  分为#VV  取#VV  鱼肉#NR  、#PU  水洗#NR  、#PU  碾绞#NR  、#PU  压磨#NR  、#PU  置板#NR  、#PU  蒸熟#NR  、#PU  冷却#NR  、#PU  装箱#NR  等#ETC  步骤#NN  。#PU  中国#NR  菜#NN  中#LC  的#DEG  鱼#NN  板#NN  多#AD  是#VC  将#BA  鱼#NN  去皮#NN  以#P  刀法#NN  制成#VV  板形#NN
+        </pos>
+
+        <parsing>
+            (relcl, 程序#NN, 制作#VV)  (dobj, 制作#VV, 鱼板#NN)  (mark, 制作#VV, 的#DEC)  (nsubj, 取#VV, 程序#NN)  (mmod, 取#VV, 分为#VV)  (root, ROOT#null, 取#VV)  (conj, 装箱#NR, 鱼肉#NR)  (conj, 装箱#NR, 水洗#NR)  (conj, 装箱#NR, 碾绞#NR)  (conj, 装箱#NR, 压磨#NR)  (conj, 装箱#NR, 置板#NR)  (conj, 装箱#NR, 蒸熟#NR)  (conj, 装箱#NR, 冷却#NR)  (nn, 步骤#NN, 装箱#NR)  (etc, 装箱#NR, 等#ETC)  (dobj, 取#VV, 步骤#NN)  (nn, 板#NN, 中国#NR)  (assmod, 板#NN, 菜#NN)  (case, 菜#NN, 中#LC)  (case, 菜#NN, 的#DEG)  (nn, 板#NN, 鱼#NN)  (nsubj, 制成#VV, 板#NN)  (advmod, 制成#VV, 多#AD)  (cop, 制成#VV, 是#VC)  (ba, 制成#VV, 将#BA)  (nn, 去皮#NN, 鱼#NN)  (nsubj, 制成#VV, 去皮#NN)  (case, 刀法#NN, 以#P)  (prep, 制成#VV, 刀法#NN)  (conj, 取#VV, 制成#VV)  (dobj, 制成#VV, 板形#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374481593.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\668 鱼板.jpg
+    </picturelocalurl>
+
+</content>

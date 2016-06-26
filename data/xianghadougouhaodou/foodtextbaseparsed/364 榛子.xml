@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        364
+    </id>
+
+    <foodname>
+        榛子
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        山板栗、尖栗、棰子、平榛、山反栗、槌子
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胆功能严重不良者应慎食。
+        </rawdata>
+
+        <segment>
+            胆功能  严重  不良  者  应  慎食  。
+        </segment>
+
+        <pos>
+            胆功能#NR  严重#JJ  不良#JJ  者#NN  应#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 胆功能#NR)  (amod, 者#NN, 严重#JJ)  (amod, 者#NN, 不良#JJ)  (nsubj, 应#VV, 者#NN)  (root, ROOT#null, 应#VV)  (dobj, 应#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人皆可食用。也是癌症、糖尿病人适合食用的坚果补品。
+        </rawdata>
+
+        <segment>
+            一般  人  皆  可  食用  。  也  是  癌症  、  糖尿  病人  适合  食用  的  坚果  补品  。
+        </segment>
+
+        <pos>
+            一般#JJ  人#NN  皆#AD  可#VV  食用#VV    。#PU  也#AD  是#VC  癌症#NN  、#PU  糖尿#NN  病人#NN  适合#VV  食用#VV  的#DEC  坚果#NN  补品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 皆#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 补品#NN, 也#AD)  (cop, 补品#NN, 是#VC)  (conj, 病人#NN, 癌症#NN)  (nn, 病人#NN, 糖尿#NN)  (nn, 补品#NN, 病人#NN)  (relcl, 病人#NN, 适合#VV)  (relcl, 补品#NN, 适合#VV)  (comod, 适合#VV, 食用#VV)  (mark, 适合#VV, 的#DEC)  (nn, 补品#NN, 坚果#NN)  (root, ROOT#null, 补品#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                617
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                12.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                37.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                25.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                12.9
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            榛树，属桦木科榛属植物，又称山板栗、尖栗、棰子等。在世界范围内榛属有约20个品种，分布于亚洲、欧洲及北美洲；在中国境内有8个种类2个变种，分布于东北、华东、华北、西北及西南地区。榛树是果材兼用的优良树种。榛子，榛树的果实，形似栗子，外壳坚硬，果仁肥白而圆，有香气，含油脂量很大，吃起来特别香美，余味绵绵，因此成为最受人们欢迎的坚果类食品之一，有“坚果之王”的称呼，与扁桃、核桃、腰果并称为“四大坚果”。
+            榛树世界约有20个种，广泛分布在亚洲、欧洲、北美洲的温带地区。被学术界确认的有9个种，即美洲榛、欧洲榛、土耳其榛等，但真正有食用价值的仅为欧洲榛。中国天然分布的有8个种另有两个变种，主要分布在东北三省、华北各省、西南横断山脉及西北的甘肃、陕西和内蒙古等地的山区。
+        </rawdata>
+
+        <segment>
+            榛树  ，  属  桦木科  榛属  植物  ，  又称山  板栗  、  尖栗  、  棰子  等  。  在  世界  范围  内  榛属  有约  20  个  品种  ，  分布  于  亚洲  、  欧洲  及  北美洲  ；  在  中国  境内  有  8  个  种类  2  个  变种  ，  分布  于  东北  、  华东  、  华北  、  西北  及  西南  地区  。  榛树  是  果材  兼用  的  优良  树种  。  榛子  ，  榛树  的  果实  ，  形似  栗子  ，  外壳  坚硬  ，  果仁  肥  白  而  圆  ，  有  香气  ，  含油  脂量  很  大  ，  吃  起来  特别  香美  ，  余味  绵绵  ，  因此  成为  最  受  人们  欢迎  的  坚果  类  食品  之一  ，  有  “  坚果  之  王  ”  的  称呼  ，  与  扁桃  、  核桃  、  腰果  并称  为  “  四  大  坚果  ”  。
+            榛树  世界  约  有  20  个  种  ，  广泛  分布  在  亚洲  、  欧洲  、  北美洲  的  温带  地区  。  被  学术界  确认  的  有  9  个  种  ，  即  美洲榛  、  欧洲榛  、  土耳其  榛等  ，  但  真正  有  食用  价值  的  仅  为  欧洲榛  。  中国  天然  分布  的  有  8  个  种  另  有  两  个  变种  ，  主要  分布  在  东北  三  省  、  华北  各  省  、  西南  横断  山脉  及  西北  的  甘肃  、  陕西  和  内蒙古  等  地  的  山区  。
+        </segment>
+
+        <pos>
+            榛树#VV  ，#PU  属#VV  桦木科#NN  榛属#NN  植物#NN  ，#PU  又称山#VV  板栗#NR  、#PU  尖栗#NR  、#PU  棰子#NR  等#ETC    。#PU  在#P  世界#NN  范围#NN  内#LC  榛属#AD  有约#VV  20#CD  个#M  品种#NN  ，#PU  分布#VV  于#P  亚洲#NR  、#PU  欧洲#NR  及#CC  北美洲#NR  ；#PU  在#P  中国#NR  境内#NN  有#VE  8#CD  个#M  种类#NN  2#CD  个#M  变种#NN  ，#PU  分布#VV  于#P  东北#NN  、#PU  华东#NR  、#PU  华北#NR  、#PU  西北#NN  及#CC  西南#NN  地区#NN    。#PU  榛树#NN  是#VC  果材#NN  兼用#NN  的#DEG  优良#JJ  树种#NN    。#PU  榛子#NN  ，#PU  榛树#NR  的#DEG  果实#NN  ，#PU  形似#VV  栗子#VV  ，#PU  外壳#VV  坚硬#NN  ，#PU  果仁#VV  肥#NR  白#NR  而#MSP  圆#VV  ，#PU  有#VE  香气#NN  ，#PU  含油#VV  脂量#NN  很#AD  大#VA  ，#PU  吃#VV  起来#VV  特别#JJ  香美#NN  ，#PU  余味#VV  绵绵#NN  ，#PU  因此#AD  成为#VV  最#AD  受#VV  人们#NN  欢迎#NN  的#DEC  坚果#CD  类#M  食品#NN  之一#NN  ，#PU  有#VE  ``#NN  坚果#NN  之#DEG  王#NN  ''#NN  的#DEC  称呼#NN  ，#PU  与#CC  扁桃#NR  、#PU  核桃#NR  、#PU  腰果#NR  并称#NN  为#VC  ``#NR  四#CD  大#JJ  坚果#NN  ''#NN    。#PU    。#PU
+            榛树#NN  世界#NN  约#AD  有#VE  20#CD  个#M  种#NN  ，#PU  广泛#AD  分布#VV  在#P  亚洲#NR  、#PU  欧洲#NR  、#PU  北美洲#NR  的#DEG  温带#NN  地区#NN    。#PU  被#LB  学术界#NN  确认#VV  的#DEC  有#VE  9#CD  个#M  种#M  ，#PU  即#AD  美洲榛#NR  、#PU  欧洲榛#NR  、#PU  土耳其#NR  榛等#VV  ，#PU  但#AD  真正#AD  有#VE  食用#VV  价值#NN  的#DEC  仅#AD  为#VC  欧洲榛#NN    。#PU  中国#NR  天然#JJ  分布#NN  的#DEG  有#VE  8#CD  个#M  种#NN  另#AD  有#VE  两#CD  个#M  变种#NN  ，#PU  主要#AD  分布#VV  在#P  东北#NN  三#CD  省#NN  、#PU  华北#NR  各#DT  省#NN  、#PU  西南#NN  横断#NN  山脉#NN  及#CC  西北#NN  的#DEG  甘肃#NR  、#PU  陕西#NR  和#CC  内蒙古#NR  等#ETC  地#NN  的#DEG  山区#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 榛树#VV)  (ccomp, 榛树#VV, 属#VV)  (nn, 植物#NN, 桦木科#NN)  (nn, 植物#NN, 榛属#NN)  (dobj, 属#VV, 植物#NN)  (conj, 属#VV, 又称山#VV)  (conj, 棰子#NR, 板栗#NR)  (conj, 棰子#NR, 尖栗#NR)  (dobj, 又称山#VV, 棰子#NR)  (etc, 棰子#NR, 等#ETC)   (case, 范围#NN, 在#P)  (nn, 范围#NN, 世界#NN)  (prep, 有约#VV, 范围#NN)  (case, 范围#NN, 内#LC)  (advmod, 有约#VV, 榛属#AD)  (root, ROOT#null, 有约#VV)  (nummod, 个#M, 20#CD)  (clf, 品种#NN, 个#M)  (dobj, 有约#VV, 品种#NN)  (dep, 有约#VV, 分布#VV)  (case, 北美洲#NR, 于#P)  (conj, 北美洲#NR, 亚洲#NR)  (conj, 北美洲#NR, 欧洲#NR)  (cc, 北美洲#NR, 及#CC)  (prep, 分布#VV, 北美洲#NR)  (case, 境内#NN, 在#P)  (nn, 境内#NN, 中国#NR)  (prep, 有#VE, 境内#NN)  (dep, 有约#VV, 有#VE)  (nummod, 个#M, 8#CD)  (clf, 种类#NN, 个#M)  (nn, 变种#NN, 种类#NN)  (nummod, 个#M, 2#CD)  (clf, 变种#NN, 个#M)  (dobj, 有#VE, 变种#NN)  (dep, 有约#VV, 分布#VV)  (case, 地区#NN, 于#P)  (conj, 西北#NN, 东北#NN)  (conj, 西北#NN, 华东#NR)  (conj, 西北#NN, 华北#NR)  (conj, 地区#NN, 西北#NN)  (cc, 地区#NN, 及#CC)  (nn, 地区#NN, 西南#NN)  (prep, 分布#VV, 地区#NN)   (nsubj, 树种#NN, 榛树#NN)  (cop, 树种#NN, 是#VC)  (nn, 兼用#NN, 果材#NN)  (assmod, 树种#NN, 兼用#NN)  (case, 兼用#NN, 的#DEG)  (amod, 树种#NN, 优良#JJ)  (root, ROOT#null, 树种#NN)   (dep, 并称#NN, 榛子#NN)  (assmod, 果实#NN, 榛树#NR)  (case, 榛树#NR, 的#DEG)  (dep, 并称#NN, 果实#NN)  (mmod, 栗子#VV, 形似#VV)  (relcl, 称呼#NN, 栗子#VV)  (ccomp, 栗子#VV, 外壳#VV)  (conj, 栗子#VV, 外壳#VV)  (dobj, 外壳#VV, 坚硬#NN)  (ccomp, 栗子#VV, 果仁#VV)  (conj, 栗子#VV, 果仁#VV)  (nn, 白#NR, 肥#NR)  (dobj, 果仁#VV, 白#NR)  (prtmod, 圆#VV, 而#MSP)  (conj, 果仁#VV, 圆#VV)  (ccomp, 栗子#VV, 有#VE)  (conj, 栗子#VV, 有#VE)  (dobj, 有#VE, 香气#NN)  (ccomp, 栗子#VV, 含油#VV)  (conj, 栗子#VV, 含油#VV)  (dobj, 含油#VV, 脂量#NN)  (advmod, 大#VA, 很#AD)  (dep, 含油#VV, 大#VA)  (mmod, 起来#VV, 吃#VV)  (ccomp, 栗子#VV, 起来#VV)  (conj, 栗子#VV, 起来#VV)  (amod, 香美#NN, 特别#JJ)  (dobj, 起来#VV, 香美#NN)  (ccomp, 栗子#VV, 余味#VV)  (conj, 栗子#VV, 余味#VV)  (dobj, 余味#VV, 绵绵#NN)  (advmod, 成为#VV, 因此#AD)  (ccomp, 栗子#VV, 成为#VV)  (conj, 栗子#VV, 成为#VV)  (advmod, 受#VV, 最#AD)  (relcl, 之一#NN, 受#VV)  (nn, 欢迎#NN, 人们#NN)  (dobj, 受#VV, 欢迎#NN)  (mark, 受#VV, 的#DEC)  (nummod, 类#M, 坚果#CD)  (clf, 之一#NN, 类#M)  (nn, 之一#NN, 食品#NN)  (dobj, 成为#VV, 之一#NN)  (ccomp, 栗子#VV, 有#VE)  (conj, 栗子#VV, 有#VE)  (nn, 坚果#NN, ``#NN)  (assmod, ''#NN, 坚果#NN)  (case, 坚果#NN, 之#DEG)  (nn, ''#NN, 王#NN)  (dobj, 有#VE, ''#NN)  (mark, 栗子#VV, 的#DEC)  (dep, 并称#NN, 称呼#NN)  (cc, 并称#NN, 与#CC)  (conj, 腰果#NR, 扁桃#NR)  (conj, 腰果#NR, 核桃#NR)  (nn, 并称#NN, 腰果#NR)  (nsubj, ''#NN, 并称#NN)  (cop, ''#NN, 为#VC)  (nn, ''#NN, ``#NR)  (nummod, ''#NN, 四#CD)  (amod, ''#NN, 大#JJ)  (nn, ''#NN, 坚果#NN)  (root, ROOT#null, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 世界#NN, 榛树#NN)  (nsubj, 有#VE, 世界#NN)  (advmod, 有#VE, 约#AD)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 20#CD)  (clf, 种#NN, 个#M)  (nsubj, 分布#VV, 种#NN)  (advmod, 分布#VV, 广泛#AD)  (dep, 有#VE, 分布#VV)  (case, 北美洲#NR, 在#P)  (conj, 北美洲#NR, 亚洲#NR)  (conj, 北美洲#NR, 欧洲#NR)  (assmod, 地区#NN, 北美洲#NR)  (case, 北美洲#NR, 的#DEG)  (nn, 地区#NN, 温带#NN)  (dobj, 分布#VV, 地区#NN)   (auxpass, 确认#VV, 被#LB)  (nsubj, 确认#VV, 学术界#NN)  (dep, 有#VE, 确认#VV)  (mark, 确认#VV, 的#DEC)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 9#CD)  (dep, 有#VE, 个#M)  (dep, 个#M, 种#M)  (advmod, 土耳其#NR, 即#AD)  (conj, 土耳其#NR, 美洲榛#NR)  (conj, 土耳其#NR, 欧洲榛#NR)  (nsubj, 榛等#VV, 土耳其#NR)  (conj, 有#VE, 榛等#VV)  (advmod, 有#VE, 但#AD)  (advmod, 有#VE, 真正#AD)  (conj, 有#VE, 有#VE)  (nsubj, 欧洲榛#NN, 食用#VV)  (dobj, 食用#VV, 价值#NN)  (mark, 食用#VV, 的#DEC)  (advmod, 欧洲榛#NN, 仅#AD)  (cop, 欧洲榛#NN, 为#VC)  (dep, 有#VE, 欧洲榛#NN)   (nn, 分布#NN, 中国#NR)  (amod, 分布#NN, 天然#JJ)  (assmod, 种#NN, 分布#NN)  (case, 分布#NN, 的#DEG)  (nfincl, 种#NN, 有#VE)  (nummod, 个#M, 8#CD)  (dep, 有#VE, 个#M)  (nsubj, 有#VE, 种#NN)  (advmod, 有#VE, 另#AD)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 两#CD)  (clf, 变种#NN, 个#M)  (nsubj, 分布#VV, 变种#NN)  (advmod, 分布#VV, 主要#AD)  (dep, 有#VE, 分布#VV)  (case, 地#NN, 在#P)  (nn, 西北#NN, 东北#NN)  (nummod, 省#NN, 三#CD)  (conj, 西北#NN, 省#NN)  (nn, 西北#NN, 华北#NR)  (det, 省#NN, 各#DT)  (conj, 西北#NN, 省#NN)  (nn, 山脉#NN, 西南#NN)  (nn, 山脉#NN, 横断#NN)  (conj, 西北#NN, 山脉#NN)  (cc, 西北#NN, 及#CC)  (assmod, 地#NN, 西北#NN)  (case, 西北#NN, 的#DEG)  (conj, 内蒙古#NR, 甘肃#NR)  (conj, 内蒙古#NR, 陕西#NR)  (cc, 内蒙古#NR, 和#CC)  (nn, 地#NN, 内蒙古#NR)  (etc, 内蒙古#NR, 等#ETC)  (assmod, 山区#NN, 地#NN)  (case, 地#NN, 的#DEG)  (dobj, 分布#VV, 山区#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强体质
+            榛子本身富含油脂（大多为不饱和脂肪酸）其含量达到60.5%，使所含的脂溶性维生素更易为人体所吸收，对体弱、病后虚羸、易饥饿的人都有很好的补养作用。
+            2.润泽肌肤
+            它的维生素E含量高达36%，能有效地延缓衰老，防治血管硬化，润泽肌肤的功效。
+            3.预防便秘
+            榛子本身有一种天然的香气，具有开胃的功效，丰富的纤维素还有助消化和防治便秘的作用。
+            4.预防心血管疾病
+            榛子还具有降低胆固醇的作用，避免了肉类中饱和脂肪酸对身体的危害，能够有效地防止心脑血管疾病的发生。
+            5.明目健脑
+            增强记忆榛子中含有丰富的维生素A源、B1、B2及烟酸，有利于维持正常视力和上皮组织细胞的正常生长和神经系统的健康，促进消化系统功能，增进食欲，提高记忆，防止衰老。
+            6.驱虫
+            小孩子吃有驱虫的功效。
+        </rawdata>
+
+        <segment>
+            增强  体质
+            榛子  本身  富含  油脂  （  大多  为  不  饱和  脂肪酸  ）  其  含量  达到  .  5%  ，  使  所含  的  脂溶性  维生素  更易  为  人体  所  吸收  ，  对  体弱  、  病  后  虚羸  、  易  饥饿  的  人  都  有  很  好  的  补养  作用  。
+            润泽  肌肤
+            它的  维生素E  含量  高达  36%  ，  能  有效  地  延缓  衰老  ，  防治  血管  硬化  ，  润泽  肌肤  的  功效  。
+            预防  便秘
+            榛子  本身  有  一  种  天然  的  香气  ，  具有  开胃  的  功效  ，  丰富  的  纤维素  还  有助  消化  和  防治  便秘  的  作用  。
+            预防  心  血管  疾病
+            榛子  还  具有  降低  胆固醇  的  作用  ，  避免  了  肉类  中  饱和  脂肪酸  对  身体  的  危害  ，  能够  有效  地  防止  心脑  血管  疾病  的  发生  。
+            明目  健脑
+            增强  记忆  榛子  中  含有  丰富  的  维生素A  源  、  B  B2  及  烟酸  ，  有利于  维持  正常  视力  和  上皮  组织  细胞  的  正常  生长  和  神经  系统  的  健康  ，  促进  消化  系统  功能  ，  增进  食欲  ，  提高  记忆  ，  防止  衰老  。
+            驱虫
+            小孩子  吃  有  驱虫  的  功效  。
+        </segment>
+
+        <pos>
+            增强#VV  体质#NN
+            榛子#NN  本身#PN  富含#AD  油脂#VV  （#PU  大多#AD  为#VV  不#AD  饱和#JJ  脂肪酸#NN  ）#PU  其#PN  含量#NN  达到#VV  .#NR  5#CD  %#NN  ，#PU  使#VV  所含#NN  的#DEG  脂溶性#NN  维生素#NN  更易#NN  为#P  人体#NN  所#MSP  吸收#VV  ，#PU  对#P  体弱#VA  、#PU  病#NN  后#LC  虚羸#VV  、#PU  易#AD  饥饿#VA  的#DEC  人#NN  都#AD  有#VE  很#AD  好#VA  的#DEC  补养#JJ  作用#NN  。#PU
+            润泽#NN  肌肤#VV
+            它的#NN  维生素E#NN  含量#NN  高达#VV  36#CD  %#NN  ，#PU  能#VV  有效#VA  地#DEV  延缓#VV  衰老#NN  ，#PU  防治#VV  血管#NN  硬化#NN  ，#PU  润泽#VV  肌肤#NN  的#DEG  功效#NN  。#PU
+            预防#NN  便秘#VV
+            榛子#NN  本身#PN  有#VE  一#CD  种#M  天然#JJ  的#DEG  香气#NN  ，#PU  具有#VV  开胃#NN  的#DEG  功效#NN  ，#PU  丰富#VA  的#DEC  纤维素#NN  还#AD  有助#VV  消化#NN  和#CC  防治#NN  便秘#NN  的#DEG  作用#NN  。#PU
+            预防#VV  心#NN  血管#NN  疾病#NN
+            榛子#NN  还#AD  具有#VV  降低#VV  胆固醇#NN  的#DEC  作用#NN  ，#PU  避免#VV  了#AS  肉类#NN  中#LC  饱和#AD  脂肪酸#VV  对#P  身体#NN  的#DEG  危害#NN  ，#PU  能够#VV  有效#VA  地#DEV  防止#VV  心脑#NN  血管#NN  疾病#NN  的#DEG  发生#NN  。#PU
+            明目#NN  健脑#VV
+            增强#VV  记忆#NN  榛子#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素A#JJ  源#NN  、#PU  B#VV  B2#CD  及#CC  烟酸#CD  ，#PU  有利于#VV  维持#VV  正常#JJ  视力#NN  和#CC  上皮#NN  组织#NN  细胞#NN  的#DEG  正常#JJ  生长#NN  和#CC  神经#NN  系统#NN  的#DEG  健康#NN  ，#PU  促进#VV  消化#NN  系统#NN  功能#NN  ，#PU  增进#VV  食欲#NN  ，#PU  提高#VV  记忆#NN  ，#PU  防止#VV  衰老#NN  。#PU
+            驱虫#VV
+            小孩子#AD  吃#VV  有#VE  驱虫#NN  的#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 体质#NN)
+            (nsubj, 油脂#VV, 榛子#NN)  (nsubj, 油脂#VV, 本身#PN)  (advmod, 油脂#VV, 富含#AD)  (root, ROOT#null, 油脂#VV)  (advmod, 为#VV, 大多#AD)  (dep, 油脂#VV, 为#VV)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (dobj, 为#VV, 脂肪酸#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 达到#VV, 含量#NN)  (conj, 油脂#VV, 达到#VV)  (nummod, %#NN, 5#CD)  (dobj, 达到#VV, %#NN)  (conj, 达到#VV, 使#VV)  (assmod, 更易#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 更易#NN, 脂溶性#NN)  (nn, 更易#NN, 维生素#NN)  (dobj, 使#VV, 更易#NN)  (case, 人体#NN, 为#P)  (prep, 吸收#VV, 人体#NN)  (prtmod, 吸收#VV, 所#MSP)  (dep, 使#VV, 吸收#VV)  (case, 人#NN, 对#P)  (relcl, 人#NN, 体弱#VA)  (loc, 虚羸#VV, 病#NN)  (case, 病#NN, 后#LC)  (dep, 体弱#VA, 虚羸#VV)  (advmod, 饥饿#VA, 易#AD)  (dep, 体弱#VA, 饥饿#VA)  (mark, 体弱#VA, 的#DEC)  (prep, 有#VE, 人#NN)  (advmod, 有#VE, 都#AD)  (conj, 达到#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 补养#JJ)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 肌肤#VV, 润泽#NN)  (root, ROOT#null, 肌肤#VV)
+            (nn, 含量#NN, 它的#NN)  (nn, 含量#NN, 维生素E#NN)  (nsubj, 高达#VV, 含量#NN)  (root, ROOT#null, 高达#VV)  (nummod, %#NN, 36#CD)  (dobj, 高达#VV, %#NN)  (mmod, 延缓#VV, 能#VV)  (dvpmod, 延缓#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 高达#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (conj, 高达#VV, 防治#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防治#VV, 硬化#NN)  (conj, 高达#VV, 润泽#VV)  (assmod, 功效#NN, 肌肤#NN)  (case, 肌肤#NN, 的#DEG)  (dobj, 润泽#VV, 功效#NN)
+            (nsubj, 便秘#VV, 预防#NN)  (root, ROOT#null, 便秘#VV)
+            (nsubj, 有#VE, 榛子#NN)  (nsubj, 有#VE, 本身#PN)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 香气#NN, 种#M)  (assmod, 香气#NN, 天然#JJ)  (case, 天然#JJ, 的#DEG)  (dobj, 有#VE, 香气#NN)  (conj, 有#VE, 具有#VV)  (assmod, 功效#NN, 开胃#NN)  (case, 开胃#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (relcl, 纤维素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 有助#VV, 纤维素#NN)  (advmod, 有助#VV, 还#AD)  (conj, 有#VE, 有助#VV)  (conj, 防治#NN, 消化#NN)  (cc, 防治#NN, 和#CC)  (nn, 便秘#NN, 防治#NN)  (assmod, 作用#NN, 便秘#NN)  (case, 便秘#NN, 的#DEG)  (dobj, 有助#VV, 作用#NN)
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (nsubj, 具有#VV, 榛子#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (loc, 脂肪酸#VV, 避免#VV)  (asp, 避免#VV, 了#AS)  (dobj, 避免#VV, 肉类#NN)  (case, 避免#VV, 中#LC)  (advmod, 脂肪酸#VV, 饱和#AD)  (dep, 具有#VV, 脂肪酸#VV)  (case, 身体#NN, 对#P)  (assmod, 危害#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (dobj, 脂肪酸#VV, 危害#NN)  (mmod, 防止#VV, 能够#VV)  (dvpmod, 防止#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 脂肪酸#VV, 防止#VV)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (assmod, 发生#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)
+            (nsubj, 健脑#VV, 明目#NN)  (root, ROOT#null, 健脑#VV)
+            (root, ROOT#null, 增强#VV)  (nn, 榛子#NN, 记忆#NN)  (loc, 丰富#VA, 榛子#NN)  (case, 榛子#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 源#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 源#NN, 维生素A#JJ)  (dobj, 增强#VV, 源#NN)  (conj, 增强#VV, B#VV)  (nummod, 烟酸#CD, B2#CD)  (cc, 烟酸#CD, 及#CC)  (range, B#VV, 烟酸#CD)  (conj, 增强#VV, 有利于#VV)  (ccomp, 有利于#VV, 维持#VV)  (amod, 视力#NN, 正常#JJ)  (conj, 组织#NN, 视力#NN)  (cc, 组织#NN, 和#CC)  (nn, 组织#NN, 上皮#NN)  (nn, 细胞#NN, 组织#NN)  (assmod, 生长#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (amod, 生长#NN, 正常#JJ)  (conj, 系统#NN, 生长#NN)  (cc, 系统#NN, 和#CC)  (nn, 系统#NN, 神经#NN)  (assmod, 健康#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (dobj, 维持#VV, 健康#NN)  (conj, 增强#VV, 促进#VV)  (nn, 功能#NN, 消化#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 促进#VV, 功能#NN)  (conj, 增强#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增强#VV, 提高#VV)  (dobj, 提高#VV, 记忆#NN)  (conj, 提高#VV, 防止#VV)  (dobj, 防止#VV, 衰老#NN)
+            (root, ROOT#null, 驱虫#VV)
+            (advmod, 吃#VV, 小孩子#AD)  (root, ROOT#null, 吃#VV)  (relcl, 功效#NN, 有#VE)  (dobj, 有#VE, 驱虫#NN)  (mark, 有#VE, 的#DEC)  (dobj, 吃#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  延缓衰老  明目  促进消化  抗氧化  抗癌防癌  补脾胃  润肺止咳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            榛子营养丰富，果仁中出除含有蛋白质、脂肪、糖类外，胡萝卜素、维生素B1、维生素B2、维生素E含量也很丰富；榛子中人体所需的8种氨基酸样样俱全，其含量远远高过核桃；榛子中各种微量元素如钙、磷、铁含量也高于其他坚果。
+        </rawdata>
+
+        <segment>
+            榛子  营养  丰富  ，  果仁  中  出  除  含有  蛋白质  、  脂肪  、  糖类  外  ，  胡萝卜素  、  维生素  B  维生素B2  、  维生素E  含量  也  很  丰富  ；  榛子  中  人体  所  需  的  8  种  氨基酸  样样  俱全  ，  其  含量  远远  高过  核桃  ；  榛子  中  各  种  微量  元素  如  钙  、  磷  、  铁  含量  也  高于  其他  坚果  。
+        </segment>
+
+        <pos>
+            榛子#NN  营养#VA  丰富#VA  ，#PU  果仁#NN  中#LC  出#VV  除#P  含有#NR  蛋白质#NR  、#PU  脂肪#NR  、#PU  糖类#NR  外#LC  ，#PU  胡萝卜素#VV  、#PU  维生素#NN  B#VV  维生素B2#CD  、#PU  维生素E#NN  含量#NN  也#AD  很#AD  丰富#VA  ；#PU  榛子#NN  中#LC  人体#NN  所#MSP  需#VV  的#DEC  8#CD  种#M  氨基酸#NN  样样#AD  俱全#VA  ，#PU  其#PN  含量#NN  远远#AD  高过#AD  核桃#VA  ；#PU  榛子#NN  中#LC  各#DT  种#M  微量#NN  元素#NN  如#AD  钙#NN  、#PU  磷#NN  、#PU  铁#NN  含量#NN  也#AD  高于#VV  其他#DT  坚果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 榛子#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (loc, 胡萝卜素#VV, 果仁#NN)  (case, 果仁#NN, 中#LC)  (mmod, 胡萝卜素#VV, 出#VV)  (case, 糖类#NR, 除#P)  (nn, 糖类#NR, 含有#NR)  (conj, 糖类#NR, 蛋白质#NR)  (conj, 糖类#NR, 脂肪#NR)  (prep, 胡萝卜素#VV, 糖类#NR)  (case, 糖类#NR, 外#LC)  (conj, 营养#VA, 胡萝卜素#VV)  (nsubj, B#VV, 维生素#NN)  (conj, 营养#VA, B#VV)  (range, B#VV, 维生素B2#CD)  (nn, 含量#NN, 维生素E#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (conj, 营养#VA, 丰富#VA)  (loc, 俱全#VA, 榛子#NN)  (case, 榛子#NN, 中#LC)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 氨基酸#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 俱全#VA, 氨基酸#NN)  (advmod, 俱全#VA, 样样#AD)  (conj, 营养#VA, 俱全#VA)  (nn, 含量#NN, 其#PN)  (nsubj, 核桃#VA, 含量#NN)  (advmod, 核桃#VA, 远远#AD)  (advmod, 核桃#VA, 高过#AD)  (conj, 营养#VA, 核桃#VA)  (loc, 高于#VV, 榛子#NN)  (case, 榛子#NN, 中#LC)  (det, 微量#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 元素#NN, 微量#NN)  (nsubj, 高于#VV, 元素#NN)  (advmod, 高于#VV, 如#AD)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 含量#NN, 铁#NN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 也#AD)  (dep, 营养#VA, 高于#VV)  (det, 坚果#NN, 其他#DT)  (dobj, 高于#VV, 坚果#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.将榛子炒熟，勿焦，随时食用，去壳嚼肉，量不拘，可开胃进食、明目、增进体力。
+            2.可以配伍其他食材制作成粥等。如大米榛仁粥，五仁虾托等。
+        </rawdata>
+
+        <segment>
+            将  榛子  炒熟  ，  勿焦  ，  随时  食用  ，  去  壳  嚼肉  ，  量  不拘  ，  可  开胃  进食  、  明目  、  增进  体力  。
+            可以  配伍  其他  食材  制作  成粥  等  。  如  大米  榛仁粥  ，  五  仁  虾  托  等  。
+        </segment>
+
+        <pos>
+            将#AD  榛子#VV  炒熟#NN  ，#PU  勿焦#NN  ，#PU  随时#AD  食用#VV  ，#PU  去#VV  壳#NN  嚼肉#NN  ，#PU  量#NN  不拘#NN  ，#PU  可#VV  开胃#AD  进食#VV  、#PU  明目#VV  、#PU  增进#VV  体力#NN  。#PU
+            可以#VV  配伍#VV  其他#DT  食材#NN  制作#NN  成粥#NN  等#ETC    。#PU  如#AD  大米#NN  榛仁粥#VV  ，#PU  五#CD  仁#NN  虾#VV  托#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 榛子#VV, 将#AD)  (root, ROOT#null, 榛子#VV)  (dobj, 榛子#VV, 炒熟#NN)  (nsubj, 食用#VV, 勿焦#NN)  (advmod, 食用#VV, 随时#AD)  (conj, 榛子#VV, 食用#VV)  (conj, 榛子#VV, 去#VV)  (nn, 嚼肉#NN, 壳#NN)  (dobj, 去#VV, 嚼肉#NN)  (nn, 不拘#NN, 量#NN)  (nsubj, 进食#VV, 不拘#NN)  (mmod, 进食#VV, 可#VV)  (advmod, 进食#VV, 开胃#AD)  (conj, 榛子#VV, 进食#VV)  (conj, 进食#VV, 明目#VV)  (dep, 进食#VV, 增进#VV)  (dobj, 增进#VV, 体力#NN)
+            (mmod, 配伍#VV, 可以#VV)  (root, ROOT#null, 配伍#VV)  (det, 成粥#NN, 其他#DT)  (nn, 成粥#NN, 食材#NN)  (nn, 成粥#NN, 制作#NN)  (dobj, 配伍#VV, 成粥#NN)  (etc, 成粥#NN, 等#ETC)   (advmod, 大米#NN, 如#AD)  (nsubj, 榛仁粥#VV, 大米#NN)  (root, ROOT#null, 榛仁粥#VV)  (nummod, 仁#NN, 五#CD)  (nsubj, 虾#VV, 仁#NN)  (ccomp, 榛仁粥#VV, 虾#VV)  (dobj, 虾#VV, 托#NN)  (etc, 托#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101442207708.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\364 榛子.jpg
+    </picturelocalurl>
+
+</content>

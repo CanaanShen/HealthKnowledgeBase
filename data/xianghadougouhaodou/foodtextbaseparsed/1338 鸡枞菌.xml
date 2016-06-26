@@ -1,0 +1,215 @@
+<content>
+
+    <id>
+        1338
+    </id>
+
+    <foodname>
+        鸡枞菌
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        鸡枞菌、伞把菇、蚁枞、豆鸡菇
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            鸡枞可炒食、清蒸、烧汤、晒干后油炸可做调料。将洗净晾干的鸡纵放在火上烧熟，然后加佐料凉拌。除了凉拌还可配肉炒、烧、炖、做汤；配鸡同烧或同炖味道更美。
+        </rawdata>
+
+        <segment>
+            鸡枞  可  炒  食  、  清蒸  、  烧  汤  、  晒干  后  油炸  可做  调料  。  将  洗净  晾干  的  鸡  纵  放  在  火上  烧熟  ，  然后  加  佐料  凉拌  。  除了  凉拌  还  可  配肉  炒  、  烧  、  炖  、  做  汤  ；  配  鸡  同  烧  或  同  炖  味道  更美  。
+        </segment>
+
+        <pos>
+            鸡枞#NN  可#VV  炒#VV  食#NN  、#PU  清蒸#NN  、#PU  烧#NN  汤#NN  、#PU  晒干#NN  后#LC  油炸#AD  可做#VV  调料#NN    。#PU  将#BA  洗净#NN  晾干#NN  的#DEG  鸡#NN  纵#NN  放#VV  在#P  火上#NN  烧熟#NN  ，#PU  然后#AD  加#VV  佐料#NN  凉拌#NN    。#PU  除了#P  凉拌#NN  还#AD  可#VV  配肉#VV  炒#NR  、#PU  烧#NR  、#PU  炖#NR  、#PU  做#VV  汤#NN  ；#PU  配#VV  鸡#NN  同#DT  烧#NN  或#CC  同#P  炖#NN  味道#NN  更美#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可做#VV, 鸡枞#NN)  (mmod, 炒#VV, 可#VV)  (loc, 可做#VV, 炒#VV)  (conj, 晒干#NN, 食#NN)  (conj, 晒干#NN, 清蒸#NN)  (nn, 晒干#NN, 烧#NN)  (conj, 晒干#NN, 汤#NN)  (dobj, 炒#VV, 晒干#NN)  (case, 炒#VV, 后#LC)  (advmod, 可做#VV, 油炸#AD)  (root, ROOT#null, 可做#VV)  (dobj, 可做#VV, 调料#NN)   (ba, 放#VV, 将#BA)  (nn, 晾干#NN, 洗净#NN)  (assmod, 纵#NN, 晾干#NN)  (case, 晾干#NN, 的#DEG)  (nn, 纵#NN, 鸡#NN)  (nsubj, 放#VV, 纵#NN)  (root, ROOT#null, 放#VV)  (case, 烧熟#NN, 在#P)  (nn, 烧熟#NN, 火上#NN)  (prep, 放#VV, 烧熟#NN)  (advmod, 加#VV, 然后#AD)  (dep, 放#VV, 加#VV)  (nn, 凉拌#NN, 佐料#NN)  (dobj, 加#VV, 凉拌#NN)   (case, 凉拌#NN, 除了#P)  (prep, 配肉#VV, 凉拌#NN)  (advmod, 配肉#VV, 还#AD)  (mmod, 配肉#VV, 可#VV)  (root, ROOT#null, 配肉#VV)  (conj, 炖#NR, 炒#NR)  (conj, 炖#NR, 烧#NR)  (dobj, 配肉#VV, 炖#NR)  (conj, 配肉#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (conj, 配肉#VV, 配#VV)  (nn, 烧#NN, 鸡#NN)  (det, 烧#NN, 同#DT)  (dobj, 配#VV, 烧#NN)  (cc, 配肉#VV, 或#CC)  (case, 味道#NN, 同#P)  (nn, 味道#NN, 炖#NN)  (prep, 更美#VV, 味道#NN)  (conj, 配肉#VV, 更美#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质，阳虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  ，  阳虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  ，#PU  阳虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)  (conj, 适宜#VV, 阳虚#VV)  (dobj, 阳虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡枞为真菌植物门真菌鸡的子实体。产于四川、贵州、云南、广东、广西、福建、台湾、江苏等地。鸡枞是云南著名特产，因肥硕壮实、质细丝白、清香可口，可与鸡肉相媲美，故名鸡枞。
+            鸡枞菌肉细嫩，气味浓香，味道鲜美，属著名的野生食用蘑菇之一，畅销于国内外市场。根据鸡枞的颜色和形态特点，分为黑皮、白皮、黄皮、花皮等许多类型。味道以黑皮（青皮）鸡枞最好。此外，还有鸡枞花等真菌的子实体，味道同鸡枞一样鲜美。
+        </rawdata>
+
+        <segment>
+            鸡枞  为  真菌  植物  门  真菌  鸡  的  子  实体  。  产于  四川  、  贵州  、  云南  、  广东  、  广西  、  福建  、  台湾  、  江苏  等地  。  鸡枞  是  云南  著名  特产  ，  因  肥硕  壮实  、  质  细  丝  白  、  清香  可口  ，  可  与  鸡肉  相  媲美  ，  故名  鸡枞  。
+            鸡枞菌  肉  细嫩  ，  气味  浓香  ，  味道  鲜美  ，  属  著名  的  野生  食用  蘑菇  之一  ，  畅销  于  国内外  市场  。  根据  鸡枞  的  颜色  和  形态  特点  ，  分为  黑  皮  、  白皮  、  黄皮  、  花皮  等  许多  类型  。  味道  以  黑  皮  （  青皮  ）  鸡枞  最好  。  此外  ，  还有  鸡枞  花  等  真菌  的  子实体  ，  味道  同  鸡枞  一样  鲜美  。
+        </segment>
+
+        <pos>
+            鸡枞#NN  为#P  真菌#NN  植物#NN  门#NN  真菌#VV  鸡#NN  的#DEG  子#NN  实体#NN    。#PU  产于#NR  四川#NR  、#PU  贵州#NR  、#PU  云南#NR  、#PU  广东#NR  、#PU  广西#NR  、#PU  福建#NR  、#PU  台湾#NR  、#PU  江苏#NR  等地#VV    。#PU  鸡枞#AD  是#VC  云南#NR  著名#JJ  特产#NN  ，#PU  因#P  肥硕#VV  壮实#NN  、#PU  质#NN  细#NN  丝#NN  白#JJ  、#PU  清香#JJ  可口#NN  ，#PU  可#VV  与#P  鸡肉#NN  相#AD  媲美#VV  ，#PU  故名#VV  鸡枞#NN    。#PU    。#PU
+            鸡枞菌#NN  肉#NN  细嫩#VV  ，#PU  气味#NR  浓香#VV  ，#PU  味道#NN  鲜美#NN  ，#PU  属#VV  著名#VA  的#DEC  野生#JJ  食用#VV  蘑菇#NN  之一#NN  ，#PU  畅销#VV  于#P  国内外#NN  市场#NN    。#PU  根据#P  鸡枞#NN  的#DEG  颜色#NN  和#CC  形态#NN  特点#NN  ，#PU  分为#VV  黑#JJ  皮#NR  、#PU  白皮#NR  、#PU  黄皮#NR  、#PU  花皮#NR  等#ETC  许多#CD  类型#NN    。#PU  味道#NN  以#P  黑#JJ  皮#NN  （#PU  青皮#NN  ）#PU  鸡枞#VV  最好#JJ    。#PU  此外#AD  ，#PU  还有#AD  鸡枞#VV  花#NN  等#ETC  真菌#NN  的#DEG  子实体#NN  ，#PU  味道#NN  同#P  鸡枞#NR  一样#VA  鲜美#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 真菌#VV, 鸡枞#NN)  (case, 门#NN, 为#P)  (nn, 门#NN, 真菌#NN)  (nn, 门#NN, 植物#NN)  (prep, 真菌#VV, 门#NN)  (root, ROOT#null, 真菌#VV)  (assmod, 实体#NN, 鸡#NN)  (case, 鸡#NN, 的#DEG)  (nn, 实体#NN, 子#NN)  (dobj, 真菌#VV, 实体#NN)   (nn, 江苏#NR, 产于#NR)  (conj, 江苏#NR, 四川#NR)  (conj, 江苏#NR, 贵州#NR)  (conj, 江苏#NR, 云南#NR)  (conj, 江苏#NR, 广东#NR)  (conj, 江苏#NR, 广西#NR)  (conj, 江苏#NR, 福建#NR)  (conj, 江苏#NR, 台湾#NR)  (nsubj, 等地#VV, 江苏#NR)  (root, ROOT#null, 等地#VV)   (advmod, 特产#NN, 鸡枞#AD)  (cop, 特产#NN, 是#VC)  (nn, 特产#NN, 云南#NR)  (amod, 特产#NN, 著名#JJ)  (root, ROOT#null, 特产#NN)  (case, 肥硕#VV, 因#P)  (prep, 媲美#VV, 肥硕#VV)  (conj, 丝#NN, 壮实#NN)  (nn, 丝#NN, 质#NN)  (nn, 丝#NN, 细#NN)  (nn, 可口#NN, 丝#NN)  (amod, 可口#NN, 白#JJ)  (dep, 白#JJ, 清香#JJ)  (dobj, 肥硕#VV, 可口#NN)  (mmod, 媲美#VV, 可#VV)  (case, 鸡肉#NN, 与#P)  (prep, 媲美#VV, 鸡肉#NN)  (advmod, 媲美#VV, 相#AD)  (conj, 特产#NN, 媲美#VV)  (dep, 特产#NN, 故名#VV)  (dobj, 故名#VV, 鸡枞#NN)   (root, ROOT#null, null#null)
+            (nn, 肉#NN, 鸡枞菌#NN)  (nsubj, 细嫩#VV, 肉#NN)  (root, ROOT#null, 细嫩#VV)  (nsubj, 浓香#VV, 气味#NR)  (ccomp, 细嫩#VV, 浓香#VV)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 属#VV, 鲜美#NN)  (ccomp, 浓香#VV, 属#VV)  (relcl, 之一#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (amod, 之一#NN, 野生#JJ)  (relcl, 蘑菇#NN, 食用#VV)  (nn, 之一#NN, 蘑菇#NN)  (dobj, 属#VV, 之一#NN)  (conj, 属#VV, 畅销#VV)  (case, 市场#NN, 于#P)  (nn, 市场#NN, 国内外#NN)  (prep, 畅销#VV, 市场#NN)   (case, 特点#NN, 根据#P)  (assmod, 特点#NN, 鸡枞#NN)  (case, 鸡枞#NN, 的#DEG)  (conj, 特点#NN, 颜色#NN)  (cc, 特点#NN, 和#CC)  (nn, 特点#NN, 形态#NN)  (prep, 分为#VV, 特点#NN)  (root, ROOT#null, 分为#VV)  (amod, 类型#NN, 黑#JJ)  (conj, 花皮#NR, 皮#NR)  (conj, 花皮#NR, 白皮#NR)  (conj, 花皮#NR, 黄皮#NR)  (nn, 类型#NN, 花皮#NR)  (etc, 花皮#NR, 等#ETC)  (nummod, 类型#NN, 许多#CD)  (dobj, 分为#VV, 类型#NN)   (nsubj, 最好#JJ, 味道#NN)  (case, 青皮#NN, 以#P)  (amod, 青皮#NN, 黑#JJ)  (dep, 青皮#NN, 皮#NN)  (prep, 最好#JJ, 青皮#NN)  (mmod, 最好#JJ, 鸡枞#VV)  (root, ROOT#null, 最好#JJ)   (advmod, 一样#VA, 此外#AD)  (advmod, 一样#VA, 还有#AD)  (dep, 一样#VA, 鸡枞#VV)  (nn, 真菌#NN, 花#NN)  (etc, 花#NN, 等#ETC)  (assmod, 子实体#NN, 真菌#NN)  (case, 真菌#NN, 的#DEG)  (dobj, 鸡枞#VV, 子实体#NN)  (nsubj, 一样#VA, 味道#NN)  (case, 鸡枞#NR, 同#P)  (prep, 一样#VA, 鸡枞#NR)  (dep, 鲜美#VA, 一样#VA)  (root, ROOT#null, 鲜美#VA)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.鸡枞能健脾和胃，令人食欲大增;
+            2.它内含钙、磷、铁、蛋白质等多种营养成分，是体弱，病后和老年人的佳肴;
+            3.鸡枞的另一特点是含磷量高，是需要补磷人士的佳肴;
+            4.常食鸡枞还能提高机体免疫力，抵制癌细胞，降低血糖;
+            5.鸡枞有养血润燥功能，对于妇女也很适合。
+        </rawdata>
+
+        <segment>
+            鸡枞  能  健脾  和  胃  ，  令  人  食欲  大增  ;
+            它  内含  钙  、  磷  、  铁  、  蛋白质  等  多  种  营养  成分  ，  是  体弱  ，  病  后  和  老年人  的  佳肴  ;
+            鸡枞  的  另  一  特  点  是  含磷量  高  ，  是  需要  补  磷  人士  的  佳肴  ;
+            常食  鸡枞  还  能  提高  机体  免疫力  ，  抵制  癌  细胞  ，  降低  血糖  ;
+            鸡枞  有  养血润燥  功能  ，  对于  妇女  也  很  适合  。
+        </segment>
+
+        <pos>
+            鸡枞#NN  能#VV  健脾#NN  和#CC  胃#NN  ，#PU  令#VV  人#NN  食欲#VV  大增#NN  ;#NN
+            它#PN  内含#VV  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  蛋白质#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN  ，#PU  是#VC  体弱#NN  ，#PU  病#NN  后#LC  和#CC  老年人#NN  的#DEG  佳肴#NN  ;#VV
+            鸡枞#NN  的#DEG  另#DT  一#CD  特#JJ  点#NN  是#VC  含磷量#AD  高#VA  ，#PU  是#VC  需要#NN  补#NN  磷#NN  人士#NN  的#DEC  佳肴#NN  ;#NN
+            常食#NN  鸡枞#NN  还#AD  能#VV  提高#VV  机体#VV  免疫力#NN  ，#PU  抵制#VV  癌#NN  细胞#NN  ，#PU  降低#VV  血糖#NN  ;#NN
+            鸡枞#AD  有#VE  养血润燥#NN  功能#NN  ，#PU  对于#P  妇女#NN  也#AD  很#AD  适合#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 令#VV, 鸡枞#NN)  (mmod, 令#VV, 能#VV)  (conj, 胃#NN, 健脾#NN)  (cc, 胃#NN, 和#CC)  (dep, 令#VV, 胃#NN)  (root, ROOT#null, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 食欲#VV)  (nn, ;#NN, 大增#NN)  (dobj, 食欲#VV, ;#NN)
+            (nsubj, 内含#VV, 它#PN)  (root, ROOT#null, 内含#VV)  (conj, 蛋白质#NN, 钙#NN)  (conj, 蛋白质#NN, 磷#NN)  (conj, 蛋白质#NN, 铁#NN)  (nn, 成分#NN, 蛋白质#NN)  (etc, 蛋白质#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (relcl, 蛋白质#NN, 营养#VA)  (relcl, 成分#NN, 营养#VA)  (dep, 体弱#NN, 成分#NN)  (cop, 体弱#NN, 是#VC)  (ccomp, 内含#VV, 体弱#NN)  (assmod, 佳肴#NN, 病#NN)  (case, 病#NN, 后#LC)  (cc, 病#NN, 和#CC)  (dep, 病#NN, 老年人#NN)  (case, 病#NN, 的#DEG)  (nsubj, ;#VV, 佳肴#NN)  (conj, 体弱#NN, ;#VV)
+            (assmod, 点#NN, 鸡枞#NN)  (case, 鸡枞#NN, 的#DEG)  (det, 点#NN, 另#DT)  (dep, 另#DT, 一#CD)  (amod, 点#NN, 特#JJ)  (nsubj, ;#NN, 点#NN)  (cop, ;#NN, 是#VC)  (advmod, 高#VA, 含磷量#AD)  (relcl, ;#NN, 高#VA)  (cop, 人士#NN, 是#VC)  (nn, 人士#NN, 需要#NN)  (nn, 人士#NN, 补#NN)  (nn, 人士#NN, 磷#NN)  (dep, 高#VA, 人士#NN)  (mark, 高#VA, 的#DEC)  (nn, ;#NN, 佳肴#NN)  (root, ROOT#null, ;#NN)
+            (nn, 鸡枞#NN, 常食#NN)  (nsubj, 提高#VV, 鸡枞#NN)  (advmod, 提高#VV, 还#AD)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nfincl, ;#NN, 机体#VV)  (dobj, 机体#VV, 免疫力#NN)  (conj, 机体#VV, 抵制#VV)  (nn, 细胞#NN, 癌#NN)  (dobj, 抵制#VV, 细胞#NN)  (conj, 机体#VV, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (dobj, 提高#VV, ;#NN)
+            (advmod, 有#VE, 鸡枞#AD)  (root, ROOT#null, 有#VE)  (nn, 功能#NN, 养血润燥#NN)  (dobj, 有#VE, 功能#NN)  (case, 妇女#NN, 对于#P)  (prep, 适合#VV, 妇女#NN)  (advmod, 适合#VV, 也#AD)  (advmod, 适合#VV, 很#AD)  (dep, 有#VE, 适合#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  促进消化  健脾  和胃  抗病毒  辅助降血糖
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            明代杨慎曾把鸡枞菌比作仙境中的琼汁玉液，其质地细腻，兼具脆、香、鲜、甜等风味特色，品尝一次，终生难忘。鸡枞菌性平味甘，有补益肠胃、疗痔止血、益胃、清神、治痔等功效。之功效，可治脾虚纳呆、消化不良、痔疮出血等症。鸡枞菌色泽洁白，肉质细嫩，清香四溢，口感清脆，是著名的野生食用菌。
+            1. 鸡枞菌能健脾和胃，令人食欲大增。
+            2. 鸡枞菌内含钙、磷、铁、蛋白质等多种营养成分，是体弱，病后和老年人的佳肴。
+            3. 鸡枞菌的另一特点是含磷量高，是需要补磷人士的佳肴。
+            4. 常食鸡枞菌还能提高机体免疫力，抵制癌细胞，降低血糖。
+            5. 鸡枞菌有养血润燥功能，对于妇女也很适合。
+        </rawdata>
+
+        <segment>
+            明代  杨慎  曾  把  鸡  枞菌  比作  仙境  中  的  琼汁  玉液  ，  其  质地  细腻  ，  兼具  脆  、  香  、  鲜  、  甜  等  风味  特色  ，  品尝  一  次  ，  终生  难忘  。  鸡  枞菌性平味  甘  ，  有  补益  肠胃  、  疗痔  止血  、  益胃  、  清  神  、  治痔  等  功效  。  之  功效  ，  可治  脾虚  纳呆  、  消化不良  、  痔疮  出血  等症  。  鸡枞菌  色泽  洁白  ，  肉质  细嫩  ，  清香  四  溢  ，  口感  清脆  ，  是  著名  的  野生  食用菌  。
+            鸡枞菌  能  健脾  和  胃  ，  令  人  食欲  大增  。
+            鸡枞菌  内  含钙  、  磷  、  铁  、  蛋白质  等  多  种  营养  成分  ，  是  体弱  ，  病  后  和  老年人  的  佳肴  。
+            鸡枞菌  的  另  一  特  点  是  含磷量  高  ，  是  需要  补  磷  人士  的  佳肴  。
+            常食  鸡枞菌  还  能  提高  机体  免疫力  ，  抵制  癌  细胞  ，  降低  血糖  。
+            鸡枞菌  有  养  血润燥  功能  ，  对于  妇女  也  很  适合  。
+        </segment>
+
+        <pos>
+            明代#NN  杨慎#NN  曾#AD  把#BA  鸡#NN  枞菌#NN  比作#VV  仙境#NN  中#LC  的#DEG  琼汁#NN  玉液#NN  ，#PU  其#PN  质地#VV  细腻#NN  ，#PU  兼具#VV  脆#NR  、#PU  香#NR  、#PU  鲜#NR  、#PU  甜#NR  等#ETC  风味#NN  特色#NN  ，#PU  品尝#VV  一#CD  次#M  ，#PU  终生#JJ  难忘#VA    。#PU  鸡#NN  枞菌性平味#NN  甘#NR  ，#PU  有#VE  补益#NN  肠胃#NN  、#PU  疗痔#NN  止血#NN  、#PU  益胃#NN  、#PU  清#JJ  神#JJ  、#PU  治痔#NN  等#ETC  功效#NN    。#PU  之#PN  功效#VV  ，#PU  可治#NR  脾虚#NR  纳呆#NR  、#PU  消化不良#NR  、#PU  痔疮#NR  出血#VV  等症#NN    。#PU  鸡枞菌#NN  色泽#NN  洁白#VV  ，#PU  肉质#VV  细嫩#NN  ，#PU  清香#VV  四#CD  溢#NN  ，#PU  口感#VV  清脆#NN  ，#PU  是#VC  著名#VA  的#DEC  野生#JJ  食用菌#NN    。#PU    。#PU
+            鸡枞菌#NN  能#VV  健脾#VV  和#CC  胃#VV  ，#PU  令#VV  人#NN  食欲#VV  大增#NN  。#PU
+            鸡枞菌#NN  内#LC  含钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  蛋白质#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN  ，#PU  是#VC  体弱#NN  ，#PU  病#NN  后#LC  和#CC  老年人#NN  的#DEG  佳肴#NN  。#PU
+            鸡枞菌#NN  的#DEG  另#DT  一#CD  特#JJ  点#NN  是#VC  含磷量#AD  高#VA  ，#PU  是#VC  需要#NN  补#NN  磷#NN  人士#NN  的#DEC  佳肴#NN  。#PU
+            常食#NR  鸡枞菌#VV  还#AD  能#VV  提高#VV  机体#NN  免疫力#NN  ，#PU  抵制#VV  癌#NN  细胞#NN  ，#PU  降低#VV  血糖#NN  。#PU
+            鸡枞菌#NN  有#VE  养#VV  血润燥#NN  功能#NN  ，#PU  对于#P  妇女#NN  也#AD  很#AD  适合#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 杨慎#NN, 明代#NN)  (nsubj, 比作#VV, 杨慎#NN)  (advmod, 比作#VV, 曾#AD)  (ba, 比作#VV, 把#BA)  (nn, 枞菌#NN, 鸡#NN)  (nsubj, 比作#VV, 枞菌#NN)  (root, ROOT#null, 比作#VV)  (assmod, 玉液#NN, 仙境#NN)  (case, 仙境#NN, 中#LC)  (case, 仙境#NN, 的#DEG)  (nn, 玉液#NN, 琼汁#NN)  (dobj, 比作#VV, 玉液#NN)  (nsubj, 质地#VV, 其#PN)  (conj, 比作#VV, 质地#VV)  (dobj, 质地#VV, 细腻#NN)  (conj, 质地#VV, 兼具#VV)  (conj, 甜#NR, 脆#NR)  (conj, 甜#NR, 香#NR)  (conj, 甜#NR, 鲜#NR)  (nn, 特色#NN, 甜#NR)  (etc, 甜#NR, 等#ETC)  (nn, 特色#NN, 风味#NN)  (dobj, 兼具#VV, 特色#NN)  (conj, 质地#VV, 品尝#VV)  (nummod, 次#M, 一#CD)  (range, 品尝#VV, 次#M)  (conj, 质地#VV, 终生#JJ)  (dep, 比作#VV, 难忘#VA)   (nn, 枞菌性平味#NN, 鸡#NN)  (nsubj, 有#VE, 枞菌性平味#NN)  (dep, 有#VE, 甘#NR)  (root, ROOT#null, 有#VE)  (nn, 肠胃#NN, 补益#NN)  (conj, 治痔#NN, 肠胃#NN)  (nn, 止血#NN, 疗痔#NN)  (conj, 治痔#NN, 止血#NN)  (conj, 治痔#NN, 益胃#NN)  (amod, 治痔#NN, 清#JJ)  (amod, 治痔#NN, 神#JJ)  (nn, 功效#NN, 治痔#NN)  (etc, 治痔#NN, 等#ETC)  (dobj, 有#VE, 功效#NN)   (nsubj, 功效#VV, 之#PN)  (root, ROOT#null, 功效#VV)  (nn, 痔疮#NR, 可治#NR)  (nn, 痔疮#NR, 脾虚#NR)  (conj, 痔疮#NR, 纳呆#NR)  (conj, 痔疮#NR, 消化不良#NR)  (nsubj, 出血#VV, 痔疮#NR)  (ccomp, 功效#VV, 出血#VV)  (dobj, 出血#VV, 等症#NN)   (nn, 色泽#NN, 鸡枞菌#NN)  (nsubj, 洁白#VV, 色泽#NN)  (root, ROOT#null, 洁白#VV)  (conj, 食用菌#NN, 肉质#VV)  (dobj, 肉质#VV, 细嫩#NN)  (conj, 肉质#VV, 清香#VV)  (nummod, 溢#NN, 四#CD)  (dobj, 清香#VV, 溢#NN)  (conj, 肉质#VV, 口感#VV)  (dobj, 口感#VV, 清脆#NN)  (cop, 食用菌#NN, 是#VC)  (relcl, 食用菌#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (amod, 食用菌#NN, 野生#JJ)  (ccomp, 洁白#VV, 食用菌#NN)   (root, ROOT#null, null#null)
+            (nsubj, 健脾#VV, 鸡枞菌#NN)  (mmod, 健脾#VV, 能#VV)  (root, ROOT#null, 健脾#VV)  (cc, 健脾#VV, 和#CC)  (dep, 健脾#VV, 胃#VV)  (dep, 健脾#VV, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 食欲#VV)  (dobj, 食欲#VV, 大增#NN)
+            (loc, 体弱#NN, 鸡枞菌#NN)  (case, 鸡枞菌#NN, 内#LC)  (conj, 蛋白质#NN, 含钙#NN)  (conj, 蛋白质#NN, 磷#NN)  (conj, 蛋白质#NN, 铁#NN)  (nn, 成分#NN, 蛋白质#NN)  (etc, 蛋白质#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (relcl, 蛋白质#NN, 营养#VA)  (relcl, 成分#NN, 营养#VA)  (dep, 体弱#NN, 成分#NN)  (cop, 体弱#NN, 是#VC)  (root, ROOT#null, 体弱#NN)  (assmod, 佳肴#NN, 病#NN)  (case, 病#NN, 后#LC)  (cc, 病#NN, 和#CC)  (dep, 病#NN, 老年人#NN)  (case, 病#NN, 的#DEG)  (dep, 体弱#NN, 佳肴#NN)
+            (assmod, 点#NN, 鸡枞菌#NN)  (case, 鸡枞菌#NN, 的#DEG)  (det, 点#NN, 另#DT)  (dep, 另#DT, 一#CD)  (amod, 点#NN, 特#JJ)  (nsubj, 佳肴#NN, 点#NN)  (cop, 佳肴#NN, 是#VC)  (advmod, 高#VA, 含磷量#AD)  (relcl, 佳肴#NN, 高#VA)  (cop, 人士#NN, 是#VC)  (nn, 人士#NN, 需要#NN)  (nn, 人士#NN, 补#NN)  (nn, 人士#NN, 磷#NN)  (dep, 高#VA, 人士#NN)  (mark, 高#VA, 的#DEC)  (root, ROOT#null, 佳肴#NN)
+            (nsubj, 鸡枞菌#VV, 常食#NR)  (xsubj, 提高#VV, 常食#NR)  (root, ROOT#null, 鸡枞菌#VV)  (advmod, 提高#VV, 还#AD)  (mmod, 提高#VV, 能#VV)  (ccomp, 鸡枞菌#VV, 提高#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 提高#VV, 免疫力#NN)  (conj, 鸡枞菌#VV, 抵制#VV)  (nn, 细胞#NN, 癌#NN)  (dobj, 抵制#VV, 细胞#NN)  (conj, 鸡枞菌#VV, 降低#VV)  (dobj, 降低#VV, 血糖#NN)
+            (dep, 有#VE, 鸡枞菌#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 养#VV)  (nn, 功能#NN, 血润燥#NN)  (dobj, 养#VV, 功能#NN)  (case, 妇女#NN, 对于#P)  (prep, 适合#VV, 妇女#NN)  (advmod, 适合#VV, 也#AD)  (advmod, 适合#VV, 很#AD)  (conj, 有#VE, 适合#VV)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            每年春末至秋季(9至10月)生于林缘、路边、荒坡、墓地等土中，基部根状必与白蚁窝相连。栽培料用杂木屑、麸皮、蔗糖、石膏、以及蚁巢等
+        </rawdata>
+
+        <segment>
+            每  年  春末  至  秋季  (  9  至  10月  )  生  于  林缘  、  路边  、  荒坡  、  墓地  等  土中  ，  基部  根状  必  与  白蚁  窝  相连  。  栽培  料  用  杂  木屑  、  麸皮  、  蔗糖  、  石膏  、  以及  蚁巢  等
+        </segment>
+
+        <pos>
+            每#DT  年#M  春末#NN  至#P  秋季#NT  -LRB-#VV  9#CD  至#P  10月#NT  -RRB-#AD  生#VV  于#P  林缘#NR  、#PU  路边#NR  、#PU  荒坡#NR  、#PU  墓地#NR  等#ETC  土中#NN  ，#PU  基部#AD  根状#AD  必#AD  与#P  白蚁#NN  窝#NN  相连#VV  。#PU  栽培#VV  料#NN  用#VV  杂#NR  木屑#NR  、#PU  麸皮#NR  、#PU  蔗糖#NR  、#PU  石膏#NR  、#PU  以及#CC  蚁巢#NN  等#ETC
+        </pos>
+
+        <parsing>
+            (det, 春末#NN, 每#DT)  (clf, 每#DT, 年#M)  (nsubj, -LRB-#VV, 春末#NN)  (root, -LRB-#VV, 春末#NN)  (case, 秋季#NT, 至#P)  (prep, 春末#NN, 秋季#NT)  (prep, -LRB-#VV, 秋季#NT)  (range, 春末#NN, 9#CD)  (range, -LRB-#VV, 9#CD)  (case, 10月#NT, 至#P)  (prep, 生#VV, 10月#NT)  (dep, 栽培#VV, 生#VV)  (case, 土中#NN, 于#P)  (conj, 墓地#NR, 林缘#NR)  (conj, 墓地#NR, 路边#NR)  (conj, 墓地#NR, 荒坡#NR)  (nn, 土中#NN, 墓地#NR)  (etc, 墓地#NR, 等#ETC)  (prep, 生#VV, 土中#NN)  (advmod, 相连#VV, 基部#AD)  (advmod, 相连#VV, 根状#AD)  (advmod, 相连#VV, 必#AD)  (case, 窝#NN, 与#P)  (nn, 窝#NN, 白蚁#NN)  (prep, 相连#VV, 窝#NN)  (dep, 生#VV, 相连#VV)  (conj, 春末#NN, 栽培#VV)  (conj, -LRB-#VV, 栽培#VV)  (dobj, 栽培#VV, 料#NN)  (conj, 栽培#VV, 用#VV)  (nn, 蚁巢#NN, 杂#NR)  (conj, 石膏#NR, 木屑#NR)  (conj, 石膏#NR, 麸皮#NR)  (conj, 石膏#NR, 蔗糖#NR)  (dep, 蚁巢#NN, 石膏#NR)  (cc, 蚁巢#NN, 以及#CC)  (dobj, 用#VV, 蚁巢#NN)  (etc, 蚁巢#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/4e/a9/43342_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1338 鸡枞菌.jpg
+    </picturelocalurl>
+
+</content>

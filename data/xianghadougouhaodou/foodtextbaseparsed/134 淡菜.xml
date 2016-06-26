@@ -1,0 +1,354 @@
+<content>
+
+    <id>
+        134
+    </id>
+
+    <foodname>
+        淡菜
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        厚壳贻贝、壳菜、青口、贻贝、翡翠贻贝、扁顶蛤、菲律宾偏顶蛤、壳菜、海蜌、红蛤、珠菜、东海夫人、海红
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            淡菜补肾填精，诸无所忌。
+        </rawdata>
+
+        <segment>
+            淡菜  补  肾  填  精  ，  诸无所忌  。
+        </segment>
+
+        <pos>
+            淡菜#NN  补#NN  肾#NN  填#VV  精#NN  ，#PU  诸无所忌#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肾#NN, 淡菜#NN)  (nn, 肾#NN, 补#NN)  (nsubj, 填#VV, 肾#NN)  (root, ROOT#null, 填#VV)  (dobj, 填#VV, 精#NN)  (conj, 填#VV, 诸无所忌#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜中老年人体质虚弱、气血不足、营养不良者，高血压病、动脉硬化、耳鸣眩晕者，肾虚之腰痛、阳痿、盗汗、小便余沥、妇女白带多者，患有瘿瘤（甲状腺肿）、疝瘕者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  中  老年人  体质  虚弱  、  气血  不足  、  营养  不良  者  ，  高血压  病  、  动脉  硬化  、  耳鸣  眩晕  者  ，  肾虚  之  腰痛  、  阳痿  、  盗汗  、  小便  余沥  、  妇女  白带  多者  ，  患有  瘿瘤  （  甲状腺肿  ）  、  疝瘕者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  中#NR  老年人#NN  体质#NN  虚弱#NN  、#PU  气血#NN  不足#NN  、#PU  营养#VA  不良#JJ  者#NN  ，#PU  高血压#NN  病#NN  、#PU  动脉#NN  硬化#NN  、#PU  耳鸣#NR  眩晕#NN  者#NN  ，#PU  肾虚#NR  之#DEG  腰痛#NR  、#PU  阳痿#NR  、#PU  盗汗#NR  、#PU  小便#NR  余沥#NN  、#PU  妇女#NN  白带#NN  多者#NN  ，#PU  患有#NN  瘿瘤#NN  （#PU  甲状腺肿#NN  ）#PU  、#PU  疝瘕者#NR    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NR)  (root, ROOT#null, 适宜#VV)  (nn, 虚弱#NN, 中#NR)  (nn, 虚弱#NN, 老年人#NN)  (nn, 虚弱#NN, 体质#NN)  (conj, 疝瘕者#NR, 虚弱#NN)  (nn, 不足#NN, 气血#NN)  (conj, 疝瘕者#NR, 不足#NN)  (nfincl, 者#NN, 营养#VA)  (amod, 者#NN, 不良#JJ)  (dep, 疝瘕者#NR, 者#NN)  (nn, 病#NN, 高血压#NN)  (conj, 疝瘕者#NR, 病#NN)  (nn, 硬化#NN, 动脉#NN)  (conj, 疝瘕者#NR, 硬化#NN)  (nn, 者#NN, 耳鸣#NR)  (nn, 者#NN, 眩晕#NN)  (dep, 疝瘕者#NR, 者#NN)  (assmod, 余沥#NN, 肾虚#NR)  (case, 肾虚#NR, 之#DEG)  (conj, 小便#NR, 腰痛#NR)  (conj, 小便#NR, 阳痿#NR)  (conj, 小便#NR, 盗汗#NR)  (nn, 余沥#NN, 小便#NR)  (conj, 疝瘕者#NR, 余沥#NN)  (nn, 多者#NN, 妇女#NN)  (nn, 多者#NN, 白带#NN)  (dep, 疝瘕者#NR, 多者#NN)  (nn, 瘿瘤#NN, 患有#NN)  (conj, 疝瘕者#NR, 瘿瘤#NN)  (prnmod, 瘿瘤#NN, 甲状腺肿#NN)  (dobj, 适宜#VV, 疝瘕者#NR)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                355
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                47.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                9.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                20.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                493
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                嘌呤（毫克）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                7.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                157
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                454
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                264
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                779
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                169
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                12.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                6.71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                120.47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.27
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            淡菜是贻贝科动物的贝肉，也叫壳菜或青口。煮熟去壳晒干而成，因煮制时没有加盐，故称淡菜。淡菜在中国北方俗称海红，是驰名中外的海产食品之一。产于浙江、福建、山东、辽宁等省沿海。
+            海洋软休动贻贝是一些双壳类软体动物，壳青黑褐色，生活在海滨岩石上。贻贝是贝类养殖事业中的重要种类，世界许多地区都有养殖，特别是北欧、北美以及澳大利亚等地区养殖贻贝很盛行，生产数量也很大。淡菜的经济价值很高，也有一定的药食价值。
+            由于淡菜所含的营养成分很丰富，其营养价值高于一般的贝类和鱼、虾、肉等，对促进新陈代谢，保证大脑和身体活动的营养供给具有积极的作用，所以有人称淡菜为“海中鸡蛋”。
+        </rawdata>
+
+        <segment>
+            淡菜  是  贻贝科  动物  的  贝肉  ，  也  叫  壳菜  或  青口  。  煮熟  去壳  晒干  而  成  ，  因  煮制  时  没有  加盐  ，  故称  淡菜  。  淡菜  在  中国  北方  俗称  海  红  ，  是  驰名  中外  的  海产  食品  之一  。  产于  浙江  、  福建  、  山东  、  辽宁  等  省  沿海  。
+            海洋  软  休  动  贻贝  是  一些  双壳类  软体  动物  ，  壳青  黑褐色  ，  生活  在  海滨  岩石  上  。  贻贝  是  贝类  养殖  事业  中  的  重要  种类  ，  世界  许多  地区  都  有  养殖  ，  特别是  北欧  、  北美  以及  澳大利亚  等  地区  养殖  贻贝  很  盛行  ，  生产  数量  也  很  大  。  淡菜  的  经济  价值  很  高  ，  也  有  一定  的  药食  价值  。
+            由于  淡菜  所  含  的  营养  成分  很  丰富  ，  其  营养  价值  高于  一般  的  贝类  和  鱼  、  虾  、  肉  等  ，  对  促进  新陈代谢  ，  保证  大脑  和  身体  活动  的  营养  供给  具有  积极  的  作用  ，  所以  有  人  称  淡菜  为  “  海中  鸡蛋  ”  。
+        </segment>
+
+        <pos>
+            淡菜#AD  是#VC  贻贝科#JJ  动物#NN  的#DEG  贝肉#NN  ，#PU  也#AD  叫#VV  壳菜#NN  或#CC  青口#NN    。#PU  煮熟#NN  去壳#AD  晒干#VV  而#MSP  成#VV  ，#PU  因#P  煮制#NN  时#LC  没有#VE  加盐#NN  ，#PU  故称#VV  淡菜#NN    。#PU  淡菜#NR  在#P  中国#NR  北方#NN  俗称#VV  海#NN  红#VA  ，#PU  是#VC  驰名#VV  中外#NN  的#DEC  海产#NN  食品#NN  之一#NN    。#PU  产于#NR  浙江#NR  、#PU  福建#NR  、#PU  山东#NR  、#PU  辽宁#NR  等#ETC  省#NN  沿海#NN    。#PU    。#PU
+            海洋#NN  软#JJ  休#NN  动#NN  贻贝#AD  是#VC  一些#CD  双壳类#NN  软体#JJ  动物#NN  ，#PU  壳青#VV  黑褐色#NN  ，#PU  生活#VV  在#P  海滨#NN  岩石#NN  上#LC    。#PU  贻贝#NN  是#VC  贝类#NN  养殖#NN  事业#NN  中#LC  的#DEG  重要#JJ  种类#NN  ，#PU  世界#NN  许多#CD  地区#NN  都#AD  有#VE  养殖#NN  ，#PU  特别是#AD  北欧#NR  、#PU  北美#NR  以及#CC  澳大利亚#NR  等#ETC  地区#NN  养殖#NN  贻贝#NN  很#AD  盛行#VA  ，#PU  生产#NN  数量#NN  也#AD  很#AD  大#VA    。#PU  淡菜#NN  的#DEG  经济#NN  价值#NN  很#AD  高#VA  ，#PU  也#AD  有#VE  一定#JJ  的#DEG  药食#JJ  价值#NN    。#PU    。#PU
+            由于#P  淡菜#AD  所#MSP  含#VV  的#DEC  营养#VA  成分#NN  很#AD  丰富#VA  ，#PU  其#PN  营养#VA  价值#NN  高于#VV  一般#JJ  的#DEG  贝类#NN  和#CC  鱼#NN  、#PU  虾#NN  、#PU  肉#NN  等#ETC  ，#PU  对#P  促进#VV  新陈代谢#NN  ，#PU  保证#VV  大脑#NN  和#CC  身体#NN  活动#NN  的#DEC  营养#VA  供给#NN  具有#VV  积极#VA  的#DEC  作用#NN  ，#PU  所以#AD  有#VE  人#NN  称#VV  淡菜#NN  为#P  ``#NN  海中#VV  鸡蛋#NN  ''#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 贝肉#NN, 淡菜#AD)  (cop, 贝肉#NN, 是#VC)  (amod, 动物#NN, 贻贝科#JJ)  (assmod, 贝肉#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (root, ROOT#null, 贝肉#NN)  (advmod, 叫#VV, 也#AD)  (dep, 贝肉#NN, 叫#VV)  (conj, 青口#NN, 壳菜#NN)  (cc, 青口#NN, 或#CC)  (dobj, 叫#VV, 青口#NN)   (nsubj, 晒干#VV, 煮熟#NN)  (advmod, 晒干#VV, 去壳#AD)  (root, ROOT#null, 晒干#VV)  (dep, 成#VV, 而#MSP)  (dobj, 晒干#VV, 成#VV)  (case, 煮制#NN, 因#P)  (prep, 没有#VE, 煮制#NN)  (case, 煮制#NN, 时#LC)  (conj, 晒干#VV, 没有#VE)  (dobj, 没有#VE, 加盐#NN)  (conj, 晒干#VV, 故称#VV)  (dobj, 故称#VV, 淡菜#NN)   (nsubj, 俗称#VV, 淡菜#NR)  (case, 北方#NN, 在#P)  (nn, 北方#NN, 中国#NR)  (prep, 俗称#VV, 北方#NN)  (root, ROOT#null, 俗称#VV)  (dobj, 俗称#VV, 海#NN)  (dep, 俗称#VV, 红#VA)  (cop, 之一#NN, 是#VC)  (relcl, 之一#NN, 驰名#VV)  (dobj, 驰名#VV, 中外#NN)  (mark, 驰名#VV, 的#DEC)  (nn, 之一#NN, 海产#NN)  (nn, 之一#NN, 食品#NN)  (conj, 俗称#VV, 之一#NN)   (nn, 辽宁#NR, 产于#NR)  (conj, 辽宁#NR, 浙江#NR)  (conj, 辽宁#NR, 福建#NR)  (conj, 辽宁#NR, 山东#NR)  (nn, 沿海#NN, 辽宁#NR)  (etc, 辽宁#NR, 等#ETC)  (nn, 沿海#NN, 省#NN)  (root, ROOT#null, 沿海#NN)   (root, ROOT#null, null#null)
+            (nn, 休#NN, 海洋#NN)  (amod, 休#NN, 软#JJ)  (nn, 动#NN, 休#NN)  (nsubj, 动物#NN, 动#NN)  (advmod, 动物#NN, 贻贝#AD)  (cop, 动物#NN, 是#VC)  (nummod, 双壳类#NN, 一些#CD)  (nn, 动物#NN, 双壳类#NN)  (amod, 动物#NN, 软体#JJ)  (root, ROOT#null, 动物#NN)  (conj, 动物#NN, 壳青#VV)  (dobj, 壳青#VV, 黑褐色#NN)  (conj, 动物#NN, 生活#VV)  (case, 岩石#NN, 在#P)  (nn, 岩石#NN, 海滨#NN)  (prep, 生活#VV, 岩石#NN)  (case, 岩石#NN, 上#LC)   (nsubj, 种类#NN, 贻贝#NN)  (cop, 种类#NN, 是#VC)  (nn, 事业#NN, 贝类#NN)  (nn, 事业#NN, 养殖#NN)  (assmod, 种类#NN, 事业#NN)  (case, 事业#NN, 中#LC)  (case, 事业#NN, 的#DEG)  (amod, 种类#NN, 重要#JJ)  (root, ROOT#null, 种类#NN)  (nn, 地区#NN, 世界#NN)  (nummod, 地区#NN, 许多#CD)  (nsubj, 有#VE, 地区#NN)  (advmod, 有#VE, 都#AD)  (conj, 种类#NN, 有#VE)  (dobj, 有#VE, 养殖#NN)  (advmod, 盛行#VA, 特别是#AD)  (conj, 澳大利亚#NR, 北欧#NR)  (conj, 澳大利亚#NR, 北美#NR)  (cc, 澳大利亚#NR, 以及#CC)  (nn, 地区#NN, 澳大利亚#NR)  (etc, 澳大利亚#NR, 等#ETC)  (nn, 贻贝#NN, 地区#NN)  (nn, 贻贝#NN, 养殖#NN)  (nsubj, 盛行#VA, 贻贝#NN)  (advmod, 盛行#VA, 很#AD)  (conj, 种类#NN, 盛行#VA)  (nn, 数量#NN, 生产#NN)  (nsubj, 大#VA, 数量#NN)  (advmod, 大#VA, 也#AD)  (advmod, 大#VA, 很#AD)  (conj, 盛行#VA, 大#VA)   (assmod, 价值#NN, 淡菜#NN)  (case, 淡菜#NN, 的#DEG)  (nn, 价值#NN, 经济#NN)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (advmod, 有#VE, 也#AD)  (dep, 高#VA, 有#VE)  (assmod, 价值#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 价值#NN, 药食#JJ)  (dobj, 有#VE, 价值#NN)   (root, ROOT#null, null#null)
+            (case, 丰富#VA, 由于#P)  (advmod, 含#VV, 淡菜#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 成分#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 丰富#VA, 成分#NN)  (advmod, 丰富#VA, 很#AD)  (prep, 有#VE, 丰富#VA)  (nsubj, 营养#VA, 其#PN)  (conj, 丰富#VA, 营养#VA)  (nsubj, 高于#VV, 价值#NN)  (dep, 丰富#VA, 高于#VV)  (assmod, 肉#NN, 一般#JJ)  (case, 一般#JJ, 的#DEG)  (conj, 肉#NN, 贝类#NN)  (cc, 肉#NN, 和#CC)  (conj, 肉#NN, 鱼#NN)  (conj, 肉#NN, 虾#NN)  (dobj, 高于#VV, 肉#NN)  (etc, 肉#NN, 等#ETC)  (case, 供给#NN, 对#P)  (relcl, 供给#NN, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 促进#VV, 保证#VV)  (conj, 活动#NN, 大脑#NN)  (cc, 活动#NN, 和#CC)  (nn, 活动#NN, 身体#NN)  (dobj, 保证#VV, 活动#NN)  (mark, 促进#VV, 的#DEC)  (nfincl, 供给#NN, 营养#VA)  (prep, 具有#VV, 供给#NN)  (dep, 丰富#VA, 具有#VV)  (relcl, 作用#NN, 积极#VA)  (mark, 积极#VA, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (advmod, 有#VE, 所以#AD)  (root, ROOT#null, 有#VE)  (nsubj, 称#VV, 人#NN)  (dep, 有#VE, 称#VV)  (dobj, 称#VV, 淡菜#NN)  (case, ``#NN, 为#P)  (prep, 海中#VV, ``#NN)  (dep, 称#VV, 海中#VV)  (nn, ''#NN, 鸡蛋#NN)  (dobj, 海中#VV, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            咸，温。归肝、肾经。补肝肾，益精血，消瘿瘤。治虚劳羸瘦，眩晕，盗汗，阳痿，腰痛，吐血，崩漏，带下，瘿瘤，疝瘕。
+        </rawdata>
+
+        <segment>
+            咸  ，  温  。  归肝  、  肾经  。  补肝  肾  ，  益  精血  ，  消瘿瘤  。  治  虚  劳羸瘦  ，  眩晕  ，  盗汗  ，  阳痿  ，  腰痛  ，  吐血  ，  崩漏  ，  带下  ，  瘿瘤  ，  疝瘕  。
+        </segment>
+
+        <pos>
+            咸#VV  ，#PU  温#NN    。#PU  归肝#VA  、#PU  肾经#VA    。#PU  补肝#NR  肾#VV  ，#PU  益#NN  精血#NN  ，#PU  消瘿瘤#VV    。#PU  治#VV  虚#AD  劳羸瘦#VV  ，#PU  眩晕#VV  ，#PU  盗汗#VV  ，#PU  阳痿#VV  ，#PU  腰痛#VV  ，#PU  吐血#VV  ，#PU  崩漏#VV  ，#PU  带下#VV  ，#PU  瘿瘤#VV  ，#PU  疝瘕#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 咸#VV)  (dep, 咸#VV, 温#NN)   (root, ROOT#null, 归肝#VA)  (dep, 归肝#VA, 肾经#VA)   (nsubj, 肾#VV, 补肝#NR)  (root, ROOT#null, 肾#VV)  (nn, 精血#NN, 益#NN)  (nsubj, 消瘿瘤#VV, 精血#NN)  (ccomp, 肾#VV, 消瘿瘤#VV)   (mmod, 劳羸瘦#VV, 治#VV)  (advmod, 劳羸瘦#VV, 虚#AD)  (root, ROOT#null, 劳羸瘦#VV)  (dep, 劳羸瘦#VV, 眩晕#VV)  (dep, 劳羸瘦#VV, 盗汗#VV)  (dep, 劳羸瘦#VV, 阳痿#VV)  (dep, 劳羸瘦#VV, 腰痛#VV)  (dep, 劳羸瘦#VV, 吐血#VV)  (dep, 劳羸瘦#VV, 崩漏#VV)  (dep, 劳羸瘦#VV, 带下#VV)  (dep, 劳羸瘦#VV, 瘿瘤#VV)  (dep, 劳羸瘦#VV, 疝瘕#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            淡菜的营养价值很高，并有一定的药用价值。淡菜蛋白质含量高达59％，其中含有8种人体必需的氨基酸，脂肪含量为7％，且大多是不饱和脂肪酸。另外，淡菜还含有丰富的钙、磷、铁、锌和维生素B、烟酸等。
+        </rawdata>
+
+        <segment>
+            淡菜  的  营养  价值  很  高  ，  并  有一定  的  药用  价值  。  淡菜  蛋白质  含量  高  达  59％  ，  其中  含有  8  种  人体  必需  的  氨基酸  ，  脂肪  含量  为  7％  ，  且  大多  是  不  饱和  脂肪酸  。  另外  ，  淡菜  还  含有  丰富  的  钙  、  磷  、  铁  、  锌  和  维生素B  、  烟酸  等  。
+        </segment>
+
+        <pos>
+            淡菜#NN  的#DEG  营养#VA  价值#NN  很#AD  高#VA  ，#PU  并#CC  有一定#CD  的#DEG  药用#NN  价值#VV    。#PU  淡菜#NN  蛋白质#NN  含量#NN  高#AD  达#VV  59#CD  ％#NN  ，#PU  其中#NN  含有#VV  8#CD  种#M  人体#AD  必需#VV  的#DEC  氨基酸#NN  ，#PU  脂肪#NN  含量#NN  为#VC  7#CD  ％#NN  ，#PU  且#CC  大多#AD  是#VC  不#AD  饱和#JJ  脂肪酸#NN    。#PU  另外#AD  ，#PU  淡菜#NN  还#AD  含有#VV  丰富#VA  的#DEC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  锌#NN  和#CC  维生素B#NN  、#PU  烟酸#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 价值#NN, 淡菜#NN)  (case, 淡菜#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (cc, 高#VA, 并#CC)  (assmod, 药用#NN, 有一定#CD)  (case, 有一定#CD, 的#DEG)  (nsubj, 价值#VV, 药用#NN)  (conj, 高#VA, 价值#VV)   (nn, 含量#NN, 淡菜#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 达#VV, 含量#NN)  (advmod, 达#VV, 高#AD)  (root, ROOT#null, 达#VV)  (nummod, ％#NN, 59#CD)  (dobj, 达#VV, ％#NN)  (nsubj, 含有#VV, 其中#NN)  (conj, 达#VV, 含有#VV)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (advmod, 必需#VV, 人体#AD)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 含有#VV, 氨基酸#NN)  (nn, 含量#NN, 脂肪#NN)  (nsubj, ％#NN, 含量#NN)  (cop, ％#NN, 为#VC)  (nummod, ％#NN, 7#CD)  (conj, 达#VV, ％#NN)  (cc, ％#NN, 且#CC)  (advmod, 脂肪酸#NN, 大多#AD)  (cop, 脂肪酸#NN, 是#VC)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (conj, ％#NN, 脂肪酸#NN)   (advmod, 含有#VV, 另外#AD)  (nsubj, 含有#VV, 淡菜#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nsubj, 烟酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 烟酸#NN, 钙#NN)  (conj, 烟酸#NN, 磷#NN)  (conj, 烟酸#NN, 铁#NN)  (conj, 烟酸#NN, 锌#NN)  (cc, 烟酸#NN, 和#CC)  (conj, 烟酸#NN, 维生素B#NN)  (conj, 含有#VV, 烟酸#NN)  (etc, 烟酸#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            食用前应将淡菜干放入碗中，加入热水烫至发松回软，捞出摘去淡菜中心带毛的黑色肠胃，褪去沙粒，在清水内洗净，然后放入锅中，加入清水，用小火炖烂，可供食用。
+            淡菜干用排骨或鸡煨汤，味道极鲜。淡菜和萝卜同炒，有特殊风味，将淡菜干放在油锅中煎成黄色，煮成汤料，其味道不亚于虾米汤。也可同西洋菜，大骨一同煲汤。
+        </rawdata>
+
+        <segment>
+            食用  前  应将  淡菜  干  放入  碗  中  ，  加入  热水  烫  至  发松回软  ，  捞出  摘去  淡菜  中心  带  毛  的  黑色  肠胃  ，  褪去  沙粒  ，  在  清水  内  洗净  ，  然后  放入  锅中  ，  加入  清水  ，  用  小  火  炖烂  ，  可供  食用  。
+            淡菜  干  用  排骨  或  鸡煨  汤  ，  味道  极  鲜  。  淡菜  和  萝卜  同炒  ，  有  特殊  风味  ，  将  淡菜  干  放在  油锅  中  煎成  黄色  ，  煮成  汤料  ，  其  味道  不  亚于  虾米  汤  。  也  可  同  西  洋菜  ，  大  骨  一同  煲汤  。
+        </segment>
+
+        <pos>
+            食用#VV  前#DT  应将#CD  淡菜#NN  干#VV  放入#VV  碗#NN  中#LC  ，#PU  加入#VV  热水#NN  烫#NN  至#CC  发松回软#NN  ，#PU  捞出#VV  摘去#NN  淡菜#NN  中心#NN  带#VV  毛#NN  的#DEC  黑色#JJ  肠胃#NN  ，#PU  褪去#VV  沙粒#NN  ，#PU  在#P  清水#NN  内#LC  洗净#VV  ，#PU  然后#AD  放入#VV  锅中#NN  ，#PU  加入#VV  清水#NN  ，#PU  用#P  小#JJ  火#NN  炖烂#VV  ，#PU  可供#AD  食用#VV  。#PU
+            淡菜#NN  干#VV  用#P  排骨#NN  或#CC  鸡煨#NN  汤#NN  ，#PU  味道#NN  极#AD  鲜#VA    。#PU  淡菜#NR  和#CC  萝卜#NR  同炒#VV  ，#PU  有#VE  特殊#JJ  风味#NN  ，#PU  将#AD  淡菜#AD  干#VV  放在#NN  油锅#NN  中#LC  煎成#NN  黄色#JJ  ，#PU  煮成#JJ  汤料#NN  ，#PU  其#PN  味道#NN  不#AD  亚于#VV  虾米#NN  汤#NN    。#PU  也#AD  可#VV  同#P  西#NN  洋菜#NN  ，#PU  大#JJ  骨#NN  一同#AD  煲汤#VV    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 放入#VV, 食用#VV)  (det, 淡菜#NN, 前#DT)  (dep, 前#DT, 应将#CD)  (dobj, 食用#VV, 淡菜#NN)  (mmod, 放入#VV, 干#VV)  (root, ROOT#null, 放入#VV)  (loc, 放入#VV, 碗#NN)  (case, 碗#NN, 中#LC)  (ccomp, 放入#VV, 加入#VV)  (conj, 放入#VV, 加入#VV)  (nn, 发松回软#NN, 热水#NN)  (conj, 发松回软#NN, 烫#NN)  (cc, 发松回软#NN, 至#CC)  (dobj, 加入#VV, 发松回软#NN)  (ccomp, 放入#VV, 捞出#VV)  (conj, 放入#VV, 捞出#VV)  (nn, 中心#NN, 摘去#NN)  (nn, 中心#NN, 淡菜#NN)  (nsubj, 带#VV, 中心#NN)  (relcl, 肠胃#NN, 带#VV)  (dobj, 带#VV, 毛#NN)  (mark, 带#VV, 的#DEC)  (amod, 肠胃#NN, 黑色#JJ)  (dobj, 捞出#VV, 肠胃#NN)  (ccomp, 放入#VV, 褪去#VV)  (conj, 放入#VV, 褪去#VV)  (dobj, 褪去#VV, 沙粒#NN)  (case, 清水#NN, 在#P)  (prep, 洗净#VV, 清水#NN)  (case, 清水#NN, 内#LC)  (ccomp, 放入#VV, 洗净#VV)  (conj, 放入#VV, 洗净#VV)  (advmod, 放入#VV, 然后#AD)  (ccomp, 放入#VV, 放入#VV)  (conj, 放入#VV, 放入#VV)  (dobj, 放入#VV, 锅中#NN)  (ccomp, 放入#VV, 加入#VV)  (conj, 放入#VV, 加入#VV)  (dobj, 加入#VV, 清水#NN)  (case, 火#NN, 用#P)  (amod, 火#NN, 小#JJ)  (prep, 炖烂#VV, 火#NN)  (ccomp, 放入#VV, 炖烂#VV)  (conj, 放入#VV, 炖烂#VV)  (advmod, 食用#VV, 可供#AD)  (ccomp, 放入#VV, 食用#VV)  (conj, 放入#VV, 食用#VV)
+            (nsubj, 干#VV, 淡菜#NN)  (root, ROOT#null, 干#VV)  (case, 汤#NN, 用#P)  (conj, 汤#NN, 排骨#NN)  (cc, 汤#NN, 或#CC)  (nn, 汤#NN, 鸡煨#NN)  (prep, 干#VV, 汤#NN)  (nsubj, 鲜#VA, 味道#NN)  (advmod, 鲜#VA, 极#AD)  (conj, 干#VV, 鲜#VA)   (conj, 萝卜#NR, 淡菜#NR)  (cc, 萝卜#NR, 和#CC)  (nsubj, 同炒#VV, 萝卜#NR)  (root, ROOT#null, 同炒#VV)  (ccomp, 同炒#VV, 有#VE)  (amod, 风味#NN, 特殊#JJ)  (dobj, 有#VE, 风味#NN)  (advmod, 干#VV, 将#AD)  (advmod, 干#VV, 淡菜#AD)  (conj, 有#VE, 干#VV)  (nn, 油锅#NN, 放在#NN)  (loc, 黄色#JJ, 油锅#NN)  (case, 油锅#NN, 中#LC)  (nsubj, 黄色#JJ, 煎成#NN)  (nfincl, 汤料#NN, 黄色#JJ)  (dep, 黄色#JJ, 煮成#JJ)  (dobj, 干#VV, 汤料#NN)  (nn, 味道#NN, 其#PN)  (nsubj, 亚于#VV, 味道#NN)  (neg, 亚于#VV, 不#AD)  (dep, 有#VE, 亚于#VV)  (nn, 汤#NN, 虾米#NN)  (dobj, 亚于#VV, 汤#NN)   (advmod, 煲汤#VV, 也#AD)  (mmod, 煲汤#VV, 可#VV)  (case, 洋菜#NN, 同#P)  (nn, 洋菜#NN, 西#NN)  (prep, 煲汤#VV, 洋菜#NN)  (amod, 骨#NN, 大#JJ)  (dvpmod, 煲汤#VV, 骨#NN)  (advmod, 煲汤#VV, 一同#AD)  (root, ROOT#null, 煲汤#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101110328515.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\134 淡菜.jpg
+    </picturelocalurl>
+
+</content>

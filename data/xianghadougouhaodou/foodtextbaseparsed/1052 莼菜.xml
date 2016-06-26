@@ -1,0 +1,169 @@
+<content>
+
+    <id>
+        1052
+    </id>
+
+    <foodname>
+        莼菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        马蹄菜、湖菜、水荷叶、花案菜、莼、茆、屏风、水葵、水芹、露葵、丝莼、瑰莼、马蹄草、缺盆草、锦带、马粟草
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食；经期、孕妇人群应忌食或少食
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ；  经期  、  孕妇  人群  应  忌食  或  少  食
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#P  忌食#NN  或少#VV  食#NN  ；#PU  经期#NR  、#PU  孕妇#NR  人群#NN  应#VV  忌食#JJ  或#CC  少#JJ  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 或少#VV, 体质#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (dobj, 或少#VV, 食#NN)  (conj, 孕妇#NR, 经期#NR)  (nn, 人群#NN, 孕妇#NR)  (dep, 应#VV, 人群#NN)  (conj, 或少#VV, 应#VV)  (amod, 食#NN, 忌食#JJ)  (cc, 忌食#JJ, 或#CC)  (dep, 忌食#JJ, 少#JJ)  (dobj, 应#VV, 食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            莼菜或作菁菜，学名Braseniaschreberi。又名蒪菜、马蹄菜、湖菜等，多年生宿根水生草本植物。鲜美滑嫩，为珍贵蔬菜之一。莼菜含有丰富的胶质蛋白、碳水化合物，脂肪、多种维生素和矿物质，常食莼菜具有药食两用的保健作用，正合黄帝内经中药食同源的理念。
+        </rawdata>
+
+        <segment>
+            莼菜  或  作菁菜  ，  学名  Braseniaschreberi  。  又  名  蒪菜  、  马蹄  菜  、  湖  菜  等  ，  多年生  宿根  水生  草本  植物  。  鲜美  滑嫩  ，  为  珍贵  蔬菜  之一  。  莼菜  含有  丰富  的  胶质  蛋白  、  碳水化合物  ，  脂肪  、  多  种  维生素  和  矿物质  ，  常食  莼菜  具有  药食  两  用  的  保健  作用  ，  正  合  黄帝  内经  中药  食  同源  的  理念  。
+        </segment>
+
+        <pos>
+            莼菜#NN  或#CC  作菁菜#NN  ，#PU  学名#AD  Braseniaschreberi#VV    。#PU  又#AD  名#JJ  蒪菜#NN  、#PU  马蹄#NN  菜#NN  、#PU  湖#NN  菜#NN  等#ETC  ，#PU  多年生#AD  宿根#VV  水生#NN  草本#NN  植物#NN    。#PU  鲜美#NR  滑嫩#VV  ，#PU  为#VC  珍贵#JJ  蔬菜#NN  之一#NN    。#PU  莼菜#AD  含有#VV  丰富#VA  的#DEC  胶质#NN  蛋白#NN  、#PU  碳水化合物#NR  ，#PU  脂肪#NR  、#PU  多#CD  种#M  维生素#NN  和#CC  矿物质#NR  ，#PU  常食#AD  莼菜#VV  具有#VV  药食#NR  两#CD  用#NN  的#DEC  保健#NN  作用#NN  ，#PU  正#AD  合#VV  黄帝#NN  内经#NN  中药#NN  食#NN  同源#VV  的#DEC  理念#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 作菁菜#NN, 莼菜#NN)  (cc, 作菁菜#NN, 或#CC)  (dep, Braseniaschreberi#VV, 作菁菜#NN)  (advmod, Braseniaschreberi#VV, 学名#AD)  (root, ROOT#null, Braseniaschreberi#VV)   (advmod, 宿根#VV, 又#AD)  (amod, 蒪菜#NN, 名#JJ)  (conj, 菜#NN, 蒪菜#NN)  (nn, 菜#NN, 马蹄#NN)  (conj, 菜#NN, 菜#NN)  (nn, 菜#NN, 湖#NN)  (prep, 宿根#VV, 菜#NN)  (etc, 菜#NN, 等#ETC)  (advmod, 宿根#VV, 多年生#AD)  (root, ROOT#null, 宿根#VV)  (nn, 植物#NN, 水生#NN)  (nn, 植物#NN, 草本#NN)  (dobj, 宿根#VV, 植物#NN)   (nsubj, 滑嫩#VV, 鲜美#NR)  (root, ROOT#null, 滑嫩#VV)  (cop, 之一#NN, 为#VC)  (amod, 之一#NN, 珍贵#JJ)  (nn, 之一#NN, 蔬菜#NN)  (ccomp, 滑嫩#VV, 之一#NN)   (advmod, 含有#VV, 莼菜#AD)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 蛋白#NN, 胶质#NN)  (conj, 矿物质#NR, 蛋白#NN)  (dep, 矿物质#NR, 碳水化合物#NR)  (conj, 矿物质#NR, 脂肪#NR)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (conj, 矿物质#NR, 维生素#NN)  (cc, 矿物质#NR, 和#CC)  (dobj, 含有#VV, 矿物质#NR)  (advmod, 莼菜#VV, 常食#AD)  (dep, 含有#VV, 莼菜#VV)  (relcl, 作用#NN, 具有#VV)  (nn, 用#NN, 药食#NR)  (nummod, 用#NN, 两#CD)  (dobj, 具有#VV, 用#NN)  (mark, 具有#VV, 的#DEC)  (nn, 作用#NN, 保健#NN)  (dobj, 莼菜#VV, 作用#NN)  (advmod, 合#VV, 正#AD)  (dep, 含有#VV, 合#VV)  (nn, 食#NN, 黄帝#NN)  (nn, 食#NN, 内经#NN)  (nn, 食#NN, 中药#NN)  (nsubj, 同源#VV, 食#NN)  (relcl, 理念#NN, 同源#VV)  (mark, 同源#VV, 的#DEC)  (dobj, 合#VV, 理念#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            对胃火旺而致牙龈肿痛者，食之有保健作用。其粘质部分在动物筛选试验中，认为有抗癌作用。
+        </rawdata>
+
+        <segment>
+            对  胃  火  旺  而  致  牙龈  肿痛者  ，  食  之  有  保健  作用  。  其  粘质  部分  在  动物  筛选  试验  中  ，  认为  有  抗癌  作用  。
+        </segment>
+
+        <pos>
+            对#P  胃#NN  火#NN  旺#VV  而#MSP  致#VV  牙龈#NN  肿痛者#NN  ，#PU  食#NN  之#PN  有#VE  保健#NN  作用#NN    。#PU  其#PN  粘质#NN  部分#NN  在#P  动物#NN  筛选#NN  试验#NN  中#LC  ，#PU  认为#VV  有#VE  抗癌#NN  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 旺#VV, 对#P)  (nn, 火#NN, 胃#NN)  (nsubj, 旺#VV, 火#NN)  (prep, 有#VE, 旺#VV)  (prtmod, 致#VV, 而#MSP)  (dep, 旺#VV, 致#VV)  (nn, 肿痛者#NN, 牙龈#NN)  (dobj, 致#VV, 肿痛者#NN)  (dep, 有#VE, 食#NN)  (dep, 有#VE, 之#PN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)   (nn, 部分#NN, 其#PN)  (nn, 部分#NN, 粘质#NN)  (nsubj, 有#VE, 部分#NN)  (case, 试验#NN, 在#P)  (nn, 试验#NN, 动物#NN)  (nn, 试验#NN, 筛选#NN)  (prep, 有#VE, 试验#NN)  (case, 试验#NN, 中#LC)  (mmod, 有#VE, 认为#VV)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 抗癌#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  改善营养性贫血  抗菌  利水消肿  清热解毒  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            风肉肉质细嫩，味道鲜美，富含磷、钾、钠等微量矿物质，还含有脂肪、蛋白质等元素，具有开胃、消食等功效。
+        </rawdata>
+
+        <segment>
+            风  肉肉  质  细嫩  ，  味道  鲜美  ，  富  含磷  、  钾  、  钠  等  微量  矿物质  ，  还  含有  脂肪  、  蛋白质  等  元素  ，  具有  开胃  、  消食  等  功效  。
+        </segment>
+
+        <pos>
+            风#NN  肉肉#NN  质#NN  细嫩#VV  ，#PU  味道#NN  鲜美#NN  ，#PU  富#VV  含磷#NN  、#PU  钾#NN  、#PU  钠#NN  等#ETC  微量#NN  矿物质#NN  ，#PU  还#AD  含有#VV  脂肪#NR  、#PU  蛋白质#NR  等#ETC  元素#NN  ，#PU  具有#VV  开胃#NR  、#PU  消食#NR  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 质#NN, 风#NN)  (nn, 质#NN, 肉肉#NN)  (nsubj, 细嫩#VV, 质#NN)  (root, ROOT#null, 细嫩#VV)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 富#VV, 鲜美#NN)  (ccomp, 细嫩#VV, 富#VV)  (conj, 钠#NN, 含磷#NN)  (conj, 钠#NN, 钾#NN)  (nn, 矿物质#NN, 钠#NN)  (etc, 钠#NN, 等#ETC)  (nn, 矿物质#NN, 微量#NN)  (dobj, 富#VV, 矿物质#NN)  (advmod, 含有#VV, 还#AD)  (conj, 富#VV, 含有#VV)  (conj, 蛋白质#NR, 脂肪#NR)  (nn, 元素#NN, 蛋白质#NR)  (etc, 蛋白质#NR, 等#ETC)  (dobj, 含有#VV, 元素#NN)  (conj, 富#VV, 具有#VV)  (conj, 消食#NR, 开胃#NR)  (nn, 功效#NN, 消食#NR)  (etc, 消食#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.莼菜可炒食，更可与鲫鱼、豆腐等一起做菜做汤、其色、香、味俱佳;
+            2.由于含有较多的单宁物质，与铁器相遇会变黑，所以忌用铁锅烹制;
+            3.不可加醋食用，否则损伤毛发;
+            4.应用于消渴：莼菜和鲫鱼各适量，加盐调味做汤，一天分2次吃，连吃半个月左右。
+        </rawdata>
+
+        <segment>
+            莼菜  可  炒  食  ，  更  可  与  鲫鱼  、  豆腐  等  一起  做菜  做  汤  、  其色  、  香  、  味  俱佳  ;
+            由于  含有  较多  的  单宁  物质  ，  与  铁器  相遇  会  变黑  ，  所以  忌用  铁锅  烹制  ;
+            不  可  加醋  食用  ，  否则  损伤  毛发  ;
+            应用于  消渴  ：  莼菜  和  鲫鱼  各  适量  ，  加盐  调味  做  汤  ，  一  天  分  2  次  吃  ，  连  吃  半  个  月  左右  。
+        </segment>
+
+        <pos>
+            莼菜#NN  可#VV  炒#VV  食#NN  ，#PU  更#AD  可#VV  与#P  鲫鱼#NR  、#PU  豆腐#NR  等#ETC  一起#AD  做菜#AD  做#VV  汤#NR  、#PU  其色#NR  、#PU  香#NR  、#PU  味#NR  俱佳#NN  ;#NN
+            由于#P  含有#VV  较多#NN  的#DEG  单宁#NN  物质#NN  ，#PU  与#P  铁器#NN  相遇#NN  会#VV  变黑#VV  ，#PU  所以#AD  忌用#NN  铁锅#NN  烹制#VV  ;#NN
+            不#AD  可#VV  加醋#VV  食用#VV  ，#PU  否则#AD  损伤#VV  毛发#NN  ;#NN
+            应用于#NR  消渴#VV  ：#PU  莼菜#NR  和#CC  鲫鱼#NR  各#DT  适量#NN  ，#PU  加盐#NR  调味#AD  做#VV  汤#NN  ，#PU  一#CD  天#M  分#VV  2#CD  次#M  吃#VV  ，#PU  连#AD  吃#VV  半#CD  个#M  月#NN  左右#LC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 炒#VV, 莼菜#NN)  (mmod, 炒#VV, 可#VV)  (root, ROOT#null, 炒#VV)  (dobj, 炒#VV, 食#NN)  (advmod, 做#VV, 更#AD)  (mmod, 做#VV, 可#VV)  (case, 豆腐#NR, 与#P)  (conj, 豆腐#NR, 鲫鱼#NR)  (prep, 做#VV, 豆腐#NR)  (etc, 豆腐#NR, 等#ETC)  (advmod, 做#VV, 一起#AD)  (advmod, 做#VV, 做菜#AD)  (conj, 炒#VV, 做#VV)  (conj, 味#NR, 汤#NR)  (conj, 味#NR, 其色#NR)  (conj, 味#NR, 香#NR)  (nn, ;#NN, 味#NR)  (nn, ;#NN, 俱佳#NN)  (dobj, 做#VV, ;#NN)
+            (case, 含有#VV, 由于#P)  (prep, 烹制#VV, 含有#VV)  (assmod, 物质#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nn, 物质#NN, 单宁#NN)  (dobj, 含有#VV, 物质#NN)  (case, 相遇#NN, 与#P)  (nn, 相遇#NN, 铁器#NN)  (prep, 变黑#VV, 相遇#NN)  (dep, 变黑#VV, 会#VV)  (conj, 含有#VV, 变黑#VV)  (advmod, 烹制#VV, 所以#AD)  (nsubj, 烹制#VV, 忌用#NN)  (nsubj, 烹制#VV, 铁锅#NN)  (root, ROOT#null, 烹制#VV)  (dobj, 烹制#VV, ;#NN)
+            (neg, 加醋#VV, 不#AD)  (mmod, 加醋#VV, 可#VV)  (root, ROOT#null, 加醋#VV)  (ccomp, 加醋#VV, 食用#VV)  (advmod, 损伤#VV, 否则#AD)  (dep, 加醋#VV, 损伤#VV)  (nn, ;#NN, 毛发#NN)  (dobj, 损伤#VV, ;#NN)
+            (nsubj, 消渴#VV, 应用于#NR)  (root, ROOT#null, 消渴#VV)  (conj, 鲫鱼#NR, 莼菜#NR)  (cc, 鲫鱼#NR, 和#CC)  (nn, 适量#NN, 鲫鱼#NR)  (det, 适量#NN, 各#DT)  (nsubj, 做#VV, 适量#NN)  (nsubj, 做#VV, 加盐#NR)  (advmod, 做#VV, 调味#AD)  (ccomp, 消渴#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (nummod, 天#M, 一#CD)  (dep, 分#VV, 天#M)  (conj, 消渴#VV, 分#VV)  (nummod, 次#M, 2#CD)  (range, 分#VV, 次#M)  (conj, 分#VV, 吃#VV)  (advmod, 吃#VV, 连#AD)  (conj, 分#VV, 吃#VV)  (nummod, 个#M, 半#CD)  (clf, 月#NN, 个#M)  (loc, 吃#VV, 月#NN)  (case, 月#NN, 左右#LC)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/81/32/12929_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1052 莼菜.jpg
+    </picturelocalurl>
+
+</content>

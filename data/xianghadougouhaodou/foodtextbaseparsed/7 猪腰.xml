@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        7
+    </id>
+
+    <foodname>
+        猪腰
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        猪肾、猪腰子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            血脂偏高者、高胆固醇者忌食。
+        </rawdata>
+
+        <segment>
+            血脂  偏高者  、  高  胆固醇  者  忌食  。
+        </segment>
+
+        <pos>
+            血脂#VV  偏高者#NN  、#PU  高#JJ  胆固醇#NN  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 血脂#VV)  (conj, 忌食#NN, 偏高者#NN)  (amod, 忌食#NN, 高#JJ)  (nn, 忌食#NN, 胆固醇#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 血脂#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜肾虚之人腰酸腰痛、遗精、盗汗者食用；适宜老年人肾虚耳聋、耳鸣者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  肾虚  之  人  腰酸  腰痛  、  遗精  、  盗汗  者  食用  ；  适宜  老年人  肾虚  耳聋  、  耳鸣  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  肾虚#NN  之#DEC  人#NN  腰酸#VV  腰痛#NR  、#PU  遗精#NR  、#PU  盗汗#NR  者#NN  食用#VV  ；#PU  适宜#VV  老年人#NN  肾虚#NN  耳聋#NN  、#PU  耳鸣#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 人#NN, 适宜#VV)  (dobj, 适宜#VV, 肾虚#NN)  (mark, 适宜#VV, 之#DEC)  (nsubj, 腰酸#VV, 人#NN)  (root, ROOT#null, 腰酸#VV)  (conj, 盗汗#NR, 腰痛#NR)  (conj, 盗汗#NR, 遗精#NR)  (nn, 者#NN, 盗汗#NR)  (nsubj, 食用#VV, 者#NN)  (ccomp, 腰酸#VV, 食用#VV)  (conj, 腰酸#VV, 适宜#VV)  (nn, 者#NN, 老年人#NN)  (nn, 者#NN, 肾虚#NN)  (conj, 者#NN, 耳聋#NN)  (nn, 者#NN, 耳鸣#NN)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                15.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                354
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                嘌呤（毫克）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                41
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                1.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                215
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                217
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                134.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                111.77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪腰，即猪肾。
+        </rawdata>
+
+        <segment>
+            猪腰  ，  即  猪  肾  。
+        </segment>
+
+        <pos>
+            猪腰#VV  ，#PU  即#AD  猪#NN  肾#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪腰#VV)  (advmod, 猪#NN, 即#AD)  (nsubj, 肾#VV, 猪#NN)  (ccomp, 猪腰#VV, 肾#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            猪腰子味甘咸、性平，入肾经；有补肾、强腰、益气的作用。可用于治疗肾虚腰痛、水肿、耳聋等症。
+        </rawdata>
+
+        <segment>
+            猪腰  子  味甘咸  、  性平  ，  入  肾经  ；  有  补肾  、  强腰  、  益气  的  作用  。  可  用于  治疗  肾虚  腰痛  、  水肿  、  耳聋  等症  。
+        </segment>
+
+        <pos>
+            猪腰#VV  子#NN  味甘咸#NN  、#PU  性平#NN  ，#PU  入#VV  肾经#NN  ；#PU  有#VE  补肾#NR  、#PU  强腰#NR  、#PU  益气#NR  的#DEG  作用#NN    。#PU  可#VV  用于#VV  治疗#VV  肾虚#NN  腰痛#NN  、#PU  水肿#NN  、#PU  耳聋#NN  等症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪腰#VV)  (nn, 性平#NN, 子#NN)  (conj, 性平#NN, 味甘咸#NN)  (dobj, 猪腰#VV, 性平#NN)  (conj, 猪腰#VV, 入#VV)  (dobj, 入#VV, 肾经#NN)  (conj, 猪腰#VV, 有#VE)  (conj, 益气#NR, 补肾#NR)  (conj, 益气#NR, 强腰#NR)  (assmod, 作用#NN, 益气#NR)  (case, 益气#NR, 的#DEG)  (dobj, 有#VE, 作用#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (nn, 等症#NN, 肾虚#NN)  (conj, 等症#NN, 腰痛#NN)  (conj, 等症#NN, 水肿#NN)  (nn, 等症#NN, 耳聋#NN)  (dobj, 治疗#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾气，通膀胱  健肾补腰
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            猪腰含有蛋白质、脂肪、碳水化合物、钙、磷、铁和维生素等，有健肾补腰、和肾理气之功效。
+        </rawdata>
+
+        <segment>
+            猪腰  含有  蛋白质  、  脂肪  、  碳水化合物  、  钙  、  磷  、  铁  和  维生素  等  ，  有  健肾  补  腰  、  和  肾  理气  之  功效  。
+        </segment>
+
+        <pos>
+            猪腰#NN  含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  和#CC  维生素#NN  等#ETC  ，#PU  有#VE  健肾#NR  补#NN  腰#NN  、#PU  和#CC  肾#NN  理气#NN  之#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 猪腰#NN)  (root, ROOT#null, 含有#VV)  (conj, 钙#NR, 蛋白质#NR)  (conj, 钙#NR, 脂肪#NR)  (conj, 钙#NR, 碳水化合物#NR)  (conj, 维生素#NN, 钙#NR)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (cc, 维生素#NN, 和#CC)  (dobj, 含有#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (conj, 含有#VV, 有#VE)  (nn, 理气#NN, 健肾#NR)  (nn, 腰#NN, 补#NN)  (dep, 理气#NN, 腰#NN)  (cc, 理气#NN, 和#CC)  (nn, 理气#NN, 肾#NN)  (assmod, 功效#NN, 理气#NN)  (case, 理气#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.家庭中烹调猪腰菜肴最好使用鲜猪腰，如果选用冷冻后的猪腰，由于组织结构的变化，猪腰内部的“游离水”结冻而增大体积，迫使猪腰组织疏松，影响成菜的效果。因此家庭购买猪腰后要趁鲜制作菜肴，短时间内可放保险室内保鲜，如果必须放冰箱内冷冻，解冻后的腰花不宜制作腰花菜肴，可把猪腰切成丝或片，再用来制作菜肴。
+            2.猪腰子用于炒、爆、炸、炝、拌，如“炒腰花”、“宫保腰块”、“烩桃仁腰卷”等。
+            3.炒腰花时加上葱段、姜片和青椒，味道鲜美。
+            4. 猪腰子切片后，为去臊味，用葱姜汁泡约2小时，换两次清水，泡至腰片发白膨胀即成。
+            5.将猪腰子剥去薄膜，剖开，剔去筋，切成所需的片或花，用清水漂洗一遍，捞起沥干。
+        </rawdata>
+
+        <segment>
+            家庭  中  烹调  猪腰  菜肴  最好  使用  鲜  猪腰  ，  如果  选用  冷冻  后  的  猪腰  ，  由于  组织  结构  的  变化  ，  猪腰  内部  的  “  游离  水  ”  结冻  而  增大  体积  ，  迫使  猪腰  组织  疏松  ，  影响  成  菜  的  效果  。  因此  家庭  购买  猪腰  后  要  趁鲜  制作  菜肴  ，  短  时间  内  可放  保险  室内  保鲜  ，  如果  必须  放  冰箱  内  冷冻  ，  解冻  后  的  腰花  不宜  制作  腰花  菜肴  ，  可把  猪腰  切成  丝  或  片  ，  再  用  来  制作  菜肴  。
+            猪腰  子  用于  炒  、  爆  、  炸  、  炝  、  拌  ，  如  “  炒  腰花  ”  、  “  宫保  腰  块  ”  、  “  烩桃仁  腰  卷  ”  等  。
+            炒  腰花  时  加上  葱段  、  姜片  和  青椒  ，  味道  鲜美  。
+            猪腰  子  切片  后  ，  为  去  臊味  ，  用  葱  姜汁  泡约  2  小时  ，  换  两  次  清水  ，  泡  至  腰片  发白  膨胀  即  成  。
+            将  猪腰  子  剥去  薄膜  ，  剖开  ，  剔去筋  ，  切成  所  需  的  片  或  花  ，  用  清水  漂洗  一  遍  ，  捞起  沥干  。
+        </segment>
+
+        <pos>
+            家庭#NN  中#LC  烹调#AD  猪腰#VV  菜肴#NR  最好#JJ  使用#NN  鲜#NN  猪腰#NN  ，#PU  如果#CS  选用#VV  冷冻#NN  后#LC  的#DEG  猪腰#NN  ，#PU  由于#P  组织#NN  结构#NN  的#DEG  变化#NN  ，#PU  猪腰#NN  内部#NN  的#DEG  ``#NN  游离#VV  水#NN  ''#NN  结冻#NN  而#MSP  增大#VV  体积#NN  ，#PU  迫使#VV  猪腰#NN  组织#NN  疏松#VV  ，#PU  影响#VV  成#VV  菜#NN  的#DEC  效果#NN    。#PU  因此#AD  家庭#NN  购买#VV  猪腰#NN  后#LC  要#VV  趁鲜#AD  制作#VV  菜肴#NN  ，#PU  短#JJ  时间#NN  内#LC  可放#VV  保险#NN  室内#NN  保鲜#NN  ，#PU  如果#CS  必须#VV  放#VV  冰箱#NN  内#LC  冷冻#NN  ，#PU  解冻#NN  后#LC  的#DEG  腰花#NN  不宜#AD  制作#VV  腰花#NN  菜肴#NN  ，#PU  可把#VV  猪腰#NN  切成#NN  丝#NN  或#CC  片#M  ，#PU  再#AD  用#VV  来#MSP  制作#VV  菜肴#NN    。#PU    。#PU
+            猪腰#NN  子#NN  用于#VV  炒#VA  、#PU  爆#VV  、#PU  炸#VV  、#PU  炝#NN  、#PU  拌#VV  ，#PU  如#AD  ``#NN  炒#VV  腰花#NN  ''#NN  、#PU  ``#CD  宫保#NN  腰#NN  块#M  ''#NN  、#PU  ``#CD  烩桃仁#NN  腰#NN  卷#M  ''#NN  等#ETC  。#PU
+            炒#NR  腰花#NN  时#LC  加上#VV  葱段#NR  、#PU  姜片#NR  和#CC  青椒#NR  ，#PU  味道#NN  鲜美#VV  。#PU
+            猪腰#NN  子#NN  切片#NN  后#LC  ，#PU  为#P  去#VV  臊味#NN  ，#PU  用#P  葱#NN  姜汁#NN  泡约#VV  2#CD  小时#NN  ，#PU  换#VV  两#CD  次#M  清水#NN  ，#PU  泡#NR  至#CC  腰片#NR  发白#NN  膨胀#NN  即#AD  成#VV  。#PU
+            将#AD  猪腰#VV  子#NN  剥去#NN  薄膜#NN  ，#PU  剖开#VV  ，#PU  剔去筋#VV  ，#PU  切成#VV  所#MSP  需#VV  的#DEC  片#M  或#CC  花#VV  ，#PU  用#P  清水#NN  漂洗#VV  一#CD  遍#NN  ，#PU  捞起#VV  沥干#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 猪腰#VV, 家庭#NN)  (case, 家庭#NN, 中#LC)  (advmod, 猪腰#VV, 烹调#AD)  (root, ROOT#null, 猪腰#VV)  (nn, 猪腰#NN, 菜肴#NR)  (amod, 猪腰#NN, 最好#JJ)  (nn, 猪腰#NN, 使用#NN)  (nn, 猪腰#NN, 鲜#NN)  (dobj, 猪腰#VV, 猪腰#NN)  (advmod, 选用#VV, 如果#CS)  (conj, 猪腰#VV, 选用#VV)  (assmod, 猪腰#NN, 冷冻#NN)  (case, 冷冻#NN, 后#LC)  (case, 冷冻#NN, 的#DEG)  (dobj, 选用#VV, 猪腰#NN)  (case, 游离#VV, 由于#P)  (nn, 结构#NN, 组织#NN)  (assmod, 变化#NN, 结构#NN)  (case, 结构#NN, 的#DEG)  (nsubj, 游离#VV, 变化#NN)  (nn, 内部#NN, 猪腰#NN)  (assmod, ``#NN, 内部#NN)  (case, 内部#NN, 的#DEG)  (nsubj, 游离#VV, ``#NN)  (prep, 增大#VV, 游离#VV)  (nn, 结冻#NN, 水#NN)  (nn, 结冻#NN, ''#NN)  (dobj, 游离#VV, 结冻#NN)  (prtmod, 增大#VV, 而#MSP)  (conj, 猪腰#VV, 增大#VV)  (dobj, 增大#VV, 体积#NN)  (conj, 猪腰#VV, 迫使#VV)  (nn, 组织#NN, 猪腰#NN)  (dobj, 迫使#VV, 组织#NN)  (dep, 迫使#VV, 疏松#VV)  (conj, 猪腰#VV, 影响#VV)  (relcl, 效果#NN, 成#VV)  (dobj, 成#VV, 菜#NN)  (mark, 成#VV, 的#DEC)  (dobj, 影响#VV, 效果#NN)   (advmod, 制作#VV, 因此#AD)  (nsubj, 购买#VV, 家庭#NN)  (loc, 制作#VV, 购买#VV)  (dobj, 购买#VV, 猪腰#NN)  (case, 购买#VV, 后#LC)  (mmod, 制作#VV, 要#VV)  (advmod, 制作#VV, 趁鲜#AD)  (root, ROOT#null, 制作#VV)  (dobj, 制作#VV, 菜肴#NN)  (amod, 时间#NN, 短#JJ)  (loc, 可放#VV, 时间#NN)  (case, 时间#NN, 内#LC)  (conj, 制作#VV, 可放#VV)  (nn, 保鲜#NN, 保险#NN)  (nn, 保鲜#NN, 室内#NN)  (dobj, 可放#VV, 保鲜#NN)  (advmod, 放#VV, 如果#CS)  (mmod, 放#VV, 必须#VV)  (conj, 制作#VV, 放#VV)  (dep, 冷冻#NN, 冰箱#NN)  (case, 冰箱#NN, 内#LC)  (dobj, 放#VV, 冷冻#NN)  (assmod, 腰花#NN, 解冻#NN)  (case, 解冻#NN, 后#LC)  (case, 解冻#NN, 的#DEG)  (nsubj, 制作#VV, 腰花#NN)  (advmod, 制作#VV, 不宜#AD)  (conj, 制作#VV, 制作#VV)  (nn, 菜肴#NN, 腰花#NN)  (dobj, 制作#VV, 菜肴#NN)  (conj, 制作#VV, 可把#VV)  (nn, 丝#NN, 猪腰#NN)  (nn, 丝#NN, 切成#NN)  (dobj, 可把#VV, 丝#NN)  (cc, 制作#VV, 或#CC)  (conj, 制作#VV, 片#M)  (advmod, 用#VV, 再#AD)  (conj, 制作#VV, 用#VV)  (prtmod, 制作#VV, 来#MSP)  (dep, 制作#VV, 制作#VV)  (dobj, 制作#VV, 菜肴#NN)   (root, ROOT#null, null#null)
+            (nn, 子#NN, 猪腰#NN)  (nsubj, 用于#VV, 子#NN)  (root, ROOT#null, 用于#VV)  (dep, 用于#VV, 炒#VA)  (conj, 炒#VA, 爆#VV)  (conj, 炒#VA, 炸#VV)  (conj, 炒#VA, 炝#NN)  (conj, 炒#VA, 拌#VV)  (advmod, ``#NN, 如#AD)  (nsubj, 炒#VV, ``#NN)  (ccomp, 拌#VV, 炒#VV)  (nn, ''#NN, 腰花#NN)  (dobj, 炒#VV, ''#NN)  (nummod, 块#M, ``#CD)  (nn, 腰#NN, 宫保#NN)  (dep, 块#M, 腰#NN)  (clf, ''#NN, 块#M)  (conj, 炒#VA, ''#NN)  (nummod, 卷#M, ``#CD)  (nn, 腰#NN, 烩桃仁#NN)  (dep, 卷#M, 腰#NN)  (clf, ''#NN, 卷#M)  (dep, 炒#VA, ''#NN)  (etc, ''#NN, 等#ETC)
+            (nsubj, 加上#VV, 炒#NR)  (loc, 加上#VV, 腰花#NN)  (case, 腰花#NN, 时#LC)  (root, ROOT#null, 加上#VV)  (conj, 青椒#NR, 葱段#NR)  (conj, 青椒#NR, 姜片#NR)  (cc, 青椒#NR, 和#CC)  (nsubj, 鲜美#VV, 青椒#NR)  (nsubj, 鲜美#VV, 味道#NN)  (ccomp, 加上#VV, 鲜美#VV)
+            (nn, 切片#NN, 猪腰#NN)  (nn, 切片#NN, 子#NN)  (loc, 泡约#VV, 切片#NN)  (case, 切片#NN, 后#LC)  (case, 去#VV, 为#P)  (prep, 泡约#VV, 去#VV)  (dobj, 去#VV, 臊味#NN)  (case, 姜汁#NN, 用#P)  (nn, 姜汁#NN, 葱#NN)  (prep, 泡约#VV, 姜汁#NN)  (root, ROOT#null, 泡约#VV)  (nummod, 小时#NN, 2#CD)  (dobj, 泡约#VV, 小时#NN)  (conj, 泡约#VV, 换#VV)  (nummod, 次#M, 两#CD)  (clf, 清水#NN, 次#M)  (dobj, 换#VV, 清水#NN)  (conj, 腰片#NR, 泡#NR)  (cc, 腰片#NR, 至#CC)  (nn, 膨胀#NN, 腰片#NR)  (nn, 膨胀#NN, 发白#NN)  (nsubj, 成#VV, 膨胀#NN)  (advmod, 成#VV, 即#AD)  (conj, 泡约#VV, 成#VV)
+            (advmod, 猪腰#VV, 将#AD)  (root, ROOT#null, 猪腰#VV)  (nn, 薄膜#NN, 子#NN)  (nn, 薄膜#NN, 剥去#NN)  (dobj, 猪腰#VV, 薄膜#NN)  (conj, 猪腰#VV, 剖开#VV)  (conj, 猪腰#VV, 剔去筋#VV)  (conj, 猪腰#VV, 切成#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 遍#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (clf, 遍#NN, 片#M)  (cc, 花#VV, 或#CC)  (nfincl, 遍#NN, 花#VV)  (case, 清水#NN, 用#P)  (prep, 漂洗#VV, 清水#NN)  (dep, 花#VV, 漂洗#VV)  (range, 漂洗#VV, 一#CD)  (dobj, 切成#VV, 遍#NN)  (conj, 猪腰#VV, 捞起#VV)  (dobj, 捞起#VV, 沥干#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081339441767.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\7 猪腰.jpg
+    </picturelocalurl>
+
+</content>

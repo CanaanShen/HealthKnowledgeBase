@@ -1,0 +1,214 @@
+<content>
+
+    <id>
+        43
+    </id>
+
+    <foodname>
+        鸭血
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        鸭肉
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高胆固醇血症、肝病、高血压、冠心病患者忌食
+        </rawdata>
+
+        <segment>
+            高  胆固醇血症  、  肝病  、  高血压  、  冠心病  患者  忌食
+        </segment>
+
+        <pos>
+            高#JJ  胆固醇血症#NN  、#PU  肝病#NN  、#PU  高血压#NN  、#PU  冠心病#NN  患者#NN  忌食#NN
+        </pos>
+
+        <parsing>
+            (amod, 冠心病#NN, 高#JJ)  (conj, 冠心病#NN, 胆固醇血症#NN)  (conj, 冠心病#NN, 肝病#NN)  (conj, 冠心病#NN, 高血压#NN)  (nn, 忌食#NN, 冠心病#NN)  (nn, 忌食#NN, 患者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                55
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸭血为家鸭的血液。以取鲜血为好。味咸，性寒。能补血、解毒。用于失血血虚，或小儿白痢似鱼冻者，可以取鲜血趁热饮，或冲入热酒服。
+        </rawdata>
+
+        <segment>
+            鸭  血  为  家鸭  的  血液  。  以取  鲜血  为好  。  味咸  ，  性寒  。  能  补血  、  解毒  。  用于  失血血虚  ，  或  小儿  白痢  似  鱼冻者  ，  可以  取  鲜血  趁  热饮  ，  或  冲入  热  酒服  。
+        </segment>
+
+        <pos>
+            鸭#NN  血#NN  为#VC  家鸭#NN  的#DEG  血液#NN    。#PU  以取#NN  鲜血#NN  为好#NN    。#PU  味咸#VV  ，#PU  性寒#VV    。#PU  能#VV  补血#VV  、#PU  解毒#VV    。#PU  用于#VV  失血血虚#NN  ，#PU  或#CC  小儿#NN  白痢#NN  似#P  鱼冻者#NN  ，#PU  可以#VV  取#VV  鲜血#NN  趁#P  热饮#NN  ，#PU  或#CC  冲入#VV  热#JJ  酒服#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 血#NN, 鸭#NN)  (nsubj, 血液#NN, 血#NN)  (cop, 血液#NN, 为#VC)  (assmod, 血液#NN, 家鸭#NN)  (case, 家鸭#NN, 的#DEG)  (root, ROOT#null, 血液#NN)   (nn, 为好#NN, 以取#NN)  (nn, 为好#NN, 鲜血#NN)  (root, ROOT#null, 为好#NN)   (root, ROOT#null, 味咸#VV)  (ccomp, 味咸#VV, 性寒#VV)   (mmod, 补血#VV, 能#VV)  (root, ROOT#null, 补血#VV)  (dep, 补血#VV, 解毒#VV)   (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 失血血虚#NN)  (cc, 用于#VV, 或#CC)  (nn, 白痢#NN, 小儿#NN)  (dep, 取#VV, 白痢#NN)  (case, 鱼冻者#NN, 似#P)  (prep, 取#VV, 鱼冻者#NN)  (mmod, 取#VV, 可以#VV)  (conj, 用于#VV, 取#VV)  (dobj, 取#VV, 鲜血#NN)  (case, 热饮#NN, 趁#P)  (prep, 取#VV, 热饮#NN)  (cc, 用于#VV, 或#CC)  (conj, 用于#VV, 冲入#VV)  (amod, 酒服#NN, 热#JJ)  (dobj, 冲入#VV, 酒服#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.预防缺铁性贫血
+            动物血中含铁量较高，而且以血红素铁的形式存在，容易被人体吸收利用。处于生长发育阶段的儿童和孕妇或哺乳期妇女多吃些有动物血的菜肴，可以防治缺铁性贫血，并能有效地预防中老年人患冠心病、动脉硬化等症。
+            2.人体“清道夫”
+            鸭血还能较好地清除人体内的粉尘和有害金属微粒对人体的损害；现代医学研究发现，鸭血中的蛋白质经胃酸分解后，可产生一种消毒及润肠的物质，这种物质能与进入人体内的粉尘和有害金属微粒起生化反应，然后通过排泄将这些有害物带出体外，堪称人体污物的“清道夫”。
+            3.止血凝血
+            鸭血含有维生素Ｋ，能促使血液凝固，因此有止血作用。
+            4.病后调养
+            鸭血还能为人体提供多种微量元素，对营养不良、肾脏疾患、心血管疾病的病后的调养都有益处，可用于治疗头晕目眩、吐血衄血、崩漏血晕、损伤出血以及惊厥癫痫等症。
+        </rawdata>
+
+        <segment>
+            预防  缺  铁  性  贫血
+            动物  血中  含铁  量  较  高  ，  而且  以  血红素  铁的  形式  存在  ，  容易  被  人体  吸收  利用  。  处于  生长  发育  阶段  的  儿童  和  孕妇  或  哺乳期  妇女  多  吃  些  有  动物  血  的  菜肴  ，  可以  防治  缺  铁  性  贫血  ，  并  能  有效  地  预防  中  老年人  患  冠心病  、  动脉  硬化  等症  。
+            人体  “  清道夫  ”
+            鸭血  还  能  较好  地  清除  人体  内  的  粉尘  和  有害  金属  微粒  对  人体  的  损害  ；  现代  医学  研究  发现  ，  鸭  血  中  的  蛋白质  经  胃酸  分解  后  ，  可  产生  一  种  消毒  及  润肠  的  物质  ，  这  种  物质  能  与  进入  人体  内  的  粉尘  和  有害  金属  微粒  起  生化  反应  ，  然后  通过  排泄  将  这些  有害物  带出  体外  ，  堪称  人体  污物  的  “  清道夫  ”  。
+            止血  凝血
+            鸭  血  含有  维生素Ｋ  ，  能  促使  血液  凝固  ，  因此  有  止血  作用  。
+            病  后  调养
+            鸭血  还  能  为  人体  提供  多  种  微量  元素  ，  对  营养  不良  、  肾脏  疾患  、  心血管  疾病  的  病后  的  调养  都  有  益处  ，  可  用于  治疗  头晕  目眩  、  吐血  衄血  、  崩漏  血晕  、  损伤  出血  以及  惊厥  癫痫  等症  。
+        </segment>
+
+        <pos>
+            预防#NN  缺#VV  铁#NN  性#NN  贫血#NN
+            动物#NN  血中#NN  含铁#NN  量#NN  较#AD  高#VA  ，#PU  而且#CC  以#P  血红素#NN  铁的#NN  形式#NN  存在#VV  ，#PU  容易#VA  被#SB  人体#VV  吸收#VV  利用#VV    。#PU  处于#VV  生长#NN  发育#NN  阶段#NN  的#DEC  儿童#NN  和#CC  孕妇#NN  或#CC  哺乳期#NN  妇女#NN  多#AD  吃#VV  些#CD  有#VE  动物#NN  血#NN  的#DEC  菜肴#NN  ，#PU  可以#VV  防治#VV  缺#VV  铁#NN  性#NN  贫血#NN  ，#PU  并#CC  能#VV  有效#VA  地#DEV  预防#VV  中#NR  老年人#NN  患#NN  冠心病#NN  、#PU  动脉#NN  硬化#NN  等症#NN    。#PU    。#PU
+            人体#NN  ``#VV  清道夫#NN  ''#NN
+            鸭血#NR  还#AD  能#VV  较好#AD  地#DEV  清除#VV  人体#NN  内#LC  的#DEG  粉尘#NN  和#CC  有害#VV  金属#NN  微粒#NN  对#P  人体#NR  的#DEG  损害#NN  ；#PU  现代#JJ  医学#NN  研究#NN  发现#VV  ，#PU  鸭#NN  血#NN  中#LC  的#DEG  蛋白质#NN  经#P  胃酸#AD  分解#VV  后#LC  ，#PU  可#VV  产生#VV  一#CD  种#M  消毒#NN  及#CC  润肠#NN  的#DEC  物质#NN  ，#PU  这#DT  种#M  物质#NN  能#VV  与#P  进入#VV  人体#CD  内#LC  的#DEC  粉尘#NN  和#CC  有害#NN  金属#NN  微粒#NN  起#LC  生化#VV  反应#NN  ，#PU  然后#AD  通过#P  排泄#NR  将#BA  这些#DT  有害物#NN  带出#VV  体外#NN  ，#PU  堪称#VV  人体#NN  污物#NN  的#DEG  ``#NN  清道夫#NN  ''#NN  。#PU
+            止血#NN  凝血#VV
+            鸭#NN  血#NN  含有#NN  维生素Ｋ#NN  ，#PU  能#VV  促使#VV  血液#NN  凝固#VV  ，#PU  因此#AD  有#VE  止血#NN  作用#NN  。#PU
+            病#NN  后#LC  调养#VV
+            鸭血#NR  还#AD  能#VV  为#P  人体#NR  提供#VV  多#CD  种#M  微量#NN  元素#NN  ，#PU  对#P  营养#VA  不良#JJ  、#PU  肾脏#JJ  疾患#NN  、#PU  心血管#NN  疾病#NN  的#DEG  病后#NN  的#DEG  调养#NN  都#AD  有#VE  益处#NN  ，#PU  可#VV  用于#VV  治疗#VV  头晕#NN  目眩#NN  、#PU  吐血#VV  衄血#NN  、#PU  崩漏#NN  血晕#NN  、#PU  损伤#AD  出血#VV  以及#CC  惊厥#NN  癫痫#NN  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 缺#VV, 预防#NN)  (root, ROOT#null, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)
+            (nn, 量#NN, 动物#NN)  (nn, 量#NN, 血中#NN)  (nn, 量#NN, 含铁#NN)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 较#AD)  (dep, 吸收#VV, 高#VA)  (cc, 高#VA, 而且#CC)  (case, 形式#NN, 以#P)  (nn, 形式#NN, 血红素#NN)  (nn, 形式#NN, 铁的#NN)  (prep, 存在#VV, 形式#NN)  (dep, 高#VA, 存在#VV)  (dep, 高#VA, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (root, ROOT#null, 吸收#VV)  (comod, 吸收#VV, 利用#VV)   (relcl, 妇女#NN, 处于#VV)  (nn, 阶段#NN, 生长#NN)  (nn, 阶段#NN, 发育#NN)  (dobj, 处于#VV, 阶段#NN)  (mark, 处于#VV, 的#DEC)  (conj, 妇女#NN, 儿童#NN)  (cc, 妇女#NN, 和#CC)  (conj, 妇女#NN, 孕妇#NN)  (cc, 妇女#NN, 或#CC)  (nn, 妇女#NN, 哺乳期#NN)  (nsubj, 吃#VV, 妇女#NN)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (nummod, 菜肴#NN, 些#CD)  (relcl, 菜肴#NN, 有#VE)  (nn, 血#NN, 动物#NN)  (dobj, 有#VE, 血#NN)  (mark, 有#VE, 的#DEC)  (dobj, 吃#VV, 菜肴#NN)  (mmod, 防治#VV, 可以#VV)  (conj, 吃#VV, 防治#VV)  (nfincl, 等症#NN, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (cc, 缺#VV, 并#CC)  (mmod, 预防#VV, 能#VV)  (dvpmod, 预防#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 缺#VV, 预防#VV)  (nn, 老年人#NN, 中#NR)  (dobj, 预防#VV, 老年人#NN)  (nn, 等症#NN, 患#NN)  (conj, 等症#NN, 冠心病#NN)  (nn, 等症#NN, 动脉#NN)  (nn, 等症#NN, 硬化#NN)  (dobj, 防治#VV, 等症#NN)   (root, ROOT#null, null#null)
+            (nsubj, ``#VV, 人体#NN)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 清道夫#NN)  (dobj, ``#VV, ''#NN)
+            (nsubj, 清除#VV, 鸭血#NR)  (advmod, 能#VV, 还#AD)  (dvpmod, 清除#VV, 能#VV)  (advmod, 能#VV, 较好#AD)  (mark, 能#VV, 地#DEV)  (root, ROOT#null, 清除#VV)  (assmod, 粉尘#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (dobj, 清除#VV, 粉尘#NN)  (cc, 清除#VV, 和#CC)  (conj, 清除#VV, 有害#VV)  (nn, 微粒#NN, 金属#NN)  (nn, 损害#NN, 微粒#NN)  (case, 人体#NR, 对#P)  (assmod, 损害#NN, 人体#NR)  (case, 人体#NR, 的#DEG)  (dobj, 有害#VV, 损害#NN)  (amod, 研究#NN, 现代#JJ)  (nn, 研究#NN, 医学#NN)  (nsubj, 发现#VV, 研究#NN)  (conj, 清除#VV, 发现#VV)  (nn, 血#NN, 鸭#NN)  (assmod, 蛋白质#NN, 血#NN)  (case, 血#NN, 中#LC)  (case, 血#NN, 的#DEG)  (nsubj, 可#VV, 蛋白质#NN)  (case, 分解#VV, 经#P)  (advmod, 分解#VV, 胃酸#AD)  (prep, 可#VV, 分解#VV)  (case, 分解#VV, 后#LC)  (ccomp, 发现#VV, 可#VV)  (relcl, 物质#NN, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 润肠#NN, 种#M)  (conj, 润肠#NN, 消毒#NN)  (cc, 润肠#NN, 及#CC)  (dobj, 产生#VV, 润肠#NN)  (mark, 产生#VV, 的#DEC)  (dobj, 可#VV, 物质#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 生化#VV, 物质#NN)  (mmod, 生化#VV, 能#VV)  (case, 微粒#NN, 与#P)  (relcl, 微粒#NN, 进入#VV)  (loc, 进入#VV, 人体#CD)  (case, 人体#CD, 内#LC)  (mark, 进入#VV, 的#DEC)  (conj, 有害#NN, 粉尘#NN)  (cc, 有害#NN, 和#CC)  (nn, 微粒#NN, 有害#NN)  (nn, 微粒#NN, 金属#NN)  (prep, 生化#VV, 微粒#NN)  (case, 微粒#NN, 起#LC)  (conj, 清除#VV, 生化#VV)  (dobj, 生化#VV, 反应#NN)  (advmod, 带出#VV, 然后#AD)  (case, 排泄#NR, 通过#P)  (prep, 带出#VV, 排泄#NR)  (ba, 带出#VV, 将#BA)  (det, 有害物#NN, 这些#DT)  (nsubj, 带出#VV, 有害物#NN)  (ccomp, 生化#VV, 带出#VV)  (conj, 生化#VV, 带出#VV)  (dobj, 带出#VV, 体外#NN)  (ccomp, 生化#VV, 堪称#VV)  (nn, 污物#NN, 人体#NN)  (assmod, ''#NN, 污物#NN)  (case, 污物#NN, 的#DEG)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 清道夫#NN)  (dobj, 堪称#VV, ''#NN)
+            (nsubj, 凝血#VV, 止血#NN)  (root, ROOT#null, 凝血#VV)
+            (nn, 维生素Ｋ#NN, 鸭#NN)  (nn, 维生素Ｋ#NN, 血#NN)  (nn, 维生素Ｋ#NN, 含有#NN)  (nsubj, 促使#VV, 维生素Ｋ#NN)  (mmod, 促使#VV, 能#VV)  (root, ROOT#null, 促使#VV)  (dobj, 促使#VV, 血液#NN)  (dep, 促使#VV, 凝固#VV)  (advmod, 有#VE, 因此#AD)  (dep, 促使#VV, 有#VE)  (nn, 作用#NN, 止血#NN)  (dobj, 有#VE, 作用#NN)
+            (loc, 调养#VV, 病#NN)  (case, 病#NN, 后#LC)  (root, ROOT#null, 调养#VV)
+            (nsubj, 提供#VV, 鸭血#NR)  (advmod, 提供#VV, 还#AD)  (mmod, 提供#VV, 能#VV)  (case, 人体#NR, 为#P)  (prep, 提供#VV, 人体#NR)  (root, ROOT#null, 提供#VV)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (nn, 元素#NN, 微量#NN)  (dobj, 提供#VV, 元素#NN)  (case, 调养#NN, 对#P)  (nfincl, 疾患#NN, 营养#VA)  (amod, 疾患#NN, 不良#JJ)  (dep, 不良#JJ, 肾脏#JJ)  (conj, 病后#NN, 疾患#NN)  (nn, 疾病#NN, 心血管#NN)  (assmod, 病后#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (assmod, 调养#NN, 病后#NN)  (case, 病后#NN, 的#DEG)  (prep, 有#VE, 调养#NN)  (advmod, 有#VE, 都#AD)  (dep, 提供#VV, 有#VE)  (dobj, 有#VE, 益处#NN)  (dep, 提供#VV, 可#VV)  (rcomp, 可#VV, 用于#VV)  (dep, 可#VV, 治疗#VV)  (nn, 目眩#NN, 头晕#NN)  (dobj, 治疗#VV, 目眩#NN)  (conj, 治疗#VV, 吐血#VV)  (dobj, 吐血#VV, 衄血#NN)  (nn, 血晕#NN, 崩漏#NN)  (conj, 治疗#VV, 血晕#NN)  (advmod, 出血#VV, 损伤#AD)  (conj, 治疗#VV, 出血#VV)  (cc, 治疗#VV, 以及#CC)  (nn, 等症#NN, 惊厥#NN)  (nn, 等症#NN, 癫痫#NN)  (dep, 治疗#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善营养性贫血  通便  解毒  补血  增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鸭血中含有钴、铁等多种微量元素，并含有丰富的维生素K。
+        </rawdata>
+
+        <segment>
+            鸭血  中  含有  钴  、  铁  等  多  种  微量  元素  ，  并  含有  丰富  的  维生素K  。
+        </segment>
+
+        <pos>
+            鸭血#NN  中#LC  含有#NN  钴#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  微量#JJ  元素#NN  ，#PU  并#AD  含有#VV  丰富#VA  的#DEC  维生素K#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 鸭血#NN)  (case, 鸭血#NN, 中#LC)  (nn, 铁#NN, 含有#NN)  (conj, 铁#NN, 钴#NN)  (nn, 元素#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (amod, 元素#NN, 微量#JJ)  (nsubj, 含有#VV, 元素#NN)  (advmod, 含有#VV, 并#AD)  (root, ROOT#null, 含有#VV)  (relcl, 维生素K#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素K#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.食用动物血无论烧、煮一定要氽透。
+            2.烹调时应配有葱、姜、辣椒等佐料去除异味，另外也不宜单独烹饪。
+        </rawdata>
+
+        <segment>
+            食用  动物  血  无论  烧  、  煮  一定  要  氽透  。
+            烹调  时  应  配有  葱  、  姜  、  辣椒  等  佐料  去除  异味  ，  另外  也  不  宜  单独  烹饪  。
+        </segment>
+
+        <pos>
+            食用#VV  动物#NN  血#NN  无论#AD  烧#NN  、#PU  煮#VV  一定#AD  要#VV  氽透#VV  。#PU
+            烹调#NN  时#LC  应#VV  配有#VV  葱#NN  、#PU  姜#NN  、#PU  辣椒#NN  等#ETC  佐料#NN  去除#NN  异味#NN  ，#PU  另外#AD  也#AD  不#AD  宜#NR  单独#AD  烹饪#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 食用#VV)  (nn, 血#NN, 动物#NN)  (nn, 烧#NN, 血#NN)  (advmod, 烧#NN, 无论#AD)  (dobj, 食用#VV, 烧#NN)  (mmod, 氽透#VV, 煮#VV)  (advmod, 氽透#VV, 一定#AD)  (dep, 氽透#VV, 要#VV)  (conj, 食用#VV, 氽透#VV)
+            (loc, 配有#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (mmod, 配有#VV, 应#VV)  (root, ROOT#null, 配有#VV)  (conj, 辣椒#NN, 葱#NN)  (conj, 辣椒#NN, 姜#NN)  (nn, 异味#NN, 辣椒#NN)  (etc, 辣椒#NN, 等#ETC)  (nn, 异味#NN, 佐料#NN)  (nn, 异味#NN, 去除#NN)  (dobj, 配有#VV, 异味#NN)  (advmod, 烹饪#VV, 另外#AD)  (advmod, 烹饪#VV, 也#AD)  (neg, 烹饪#VV, 不#AD)  (prep, 烹饪#VV, 宜#NR)  (advmod, 烹饪#VV, 单独#AD)  (conj, 配有#VV, 烹饪#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081639368190.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\43 鸭血.jpg
+    </picturelocalurl>
+
+</content>

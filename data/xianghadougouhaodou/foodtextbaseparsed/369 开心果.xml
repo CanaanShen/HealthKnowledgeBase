@@ -1,0 +1,258 @@
+<content>
+
+    <id>
+        369
+    </id>
+
+    <foodname>
+        开心果
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        阿月浑子、胡棒子、无名子
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肥胖、高血脂者慎食。
+        </rawdata>
+
+        <segment>
+            肥胖  、  高血脂  者  慎食  。
+        </segment>
+
+        <pos>
+            肥胖#VV  、#PU  高血脂#VV  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肥胖#VV)  (dep, 肥胖#VV, 高血脂#VV)  (nn, 慎食#NN, 者#NN)  (dobj, 高血脂#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                614
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                20.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                21.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                8.2
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            开心果，为漆树科落叶小乔木无名木的果实。“开心果”以“开心解郁”的功效而得名，是现在人们生活中十分常见的休闲干果。它主要产于叙利亚、伊拉克、伊朗、前苏联西南部和南欧，我国仅在新疆等边远地区有栽培。开心果果仁含有维生素E等成分，有抗衰老的作用，能增强体质。古代波斯国国王视之为“仙果”。开心果在我国作为食疗滋补品应用，已有千年以上的历史了。
+            传说五世纪时的波希战争中，波斯人英勇无比，在恶劣的环境中愈战愈勇，最终打败了希腊人，其“秘密武器”就是士兵们吃了一种神奇的干果—开心果。因此，古代波斯国国王将开心果视为“仙果”。开心果也被称为是“美国花生”。
+        </rawdata>
+
+        <segment>
+            开心果  ，  为  漆树科  落叶  小  乔木  无名  木  的  果实  。  “  开心果  ”  以  “  开心  解郁  ”  的  功效  而  得名  ，  是  现在  人们  生活  中  十分  常见  的  休闲  干果  。  它  主要  产于  叙利亚  、  伊拉克  、  伊朗  、  前  苏联  西南部  和  南欧  ，  我国  仅在  新疆  等  边远  地区  有  栽培  。  开心果  果仁  含有  维生素E  等  成分  ，  有  抗  衰老  的  作用  ，  能  增强  体质  。  古代  波斯国  国王  视之  为  “  仙果  ”  。  开心  果  在  我国  作为  食疗  滋补品  应用  ，  已  有  千  年  以上  的  历史  了  。
+            传说  五  世纪  时  的  波希战争  中  ，  波斯人  英勇  无比  ，  在  恶劣  的  环境  中  愈  战  愈  勇  ，  最终  打败  了  希腊人  ，  其  “  秘密  武器  ”  就  是  士兵们  吃  了  一  种  神奇  的  干果  —  开心果  。  因此  ，  古代  波斯国  国王  将  开心果  视为  “  仙果  ”  。  开心  果  也  被  称为  是  “  美国  花生  ”  。
+        </segment>
+
+        <pos>
+            开心果#VV  ，#PU  为#P  漆树科#NN  落叶#VV  小#JJ  乔木#NN  无名#NN  木#NN  的#DEG  果实#NN    。#PU  ``#NN  开心果#NN  ''#NN  以#P  ``#AD  开心#VA  解郁#VA  ''#VA  的#DEC  功效#NN  而#MSP  得名#VV  ，#PU  是#VC  现在#NT  人们#NN  生活#NN  中#LC  十分#AD  常见#VA  的#DEC  休闲#NN  干果#NN    。#PU  它#PN  主要#AD  产于#VV  叙利亚#NR  、#PU  伊拉克#NR  、#PU  伊朗#NR  、#PU  前#JJ  苏联#NR  西南部#NN  和#CC  南欧#NN  ，#PU  我国#NN  仅在#NN  新疆#NR  等#ETC  边远#JJ  地区#NN  有#VE  栽培#VV    。#PU  开心果#VV  果仁#NN  含有#NN  维生素E#NN  等#ETC  成分#NN  ，#PU  有#VE  抗#NN  衰老#NN  的#DEG  作用#NN  ，#PU  能#VV  增强#VV  体质#NN    。#PU  古代#NN  波斯国#NN  国王#NN  视之#NN  为#P  ``#NN  仙果#VV  ''#NN    。#PU  开心#VA  果#NN  在#P  我国#NR  作为#P  食疗#NN  滋补品#VV  应用#NN  ，#PU  已#AD  有#VE  千#CD  年#M  以上#LC  的#DEG  历史#NN  了#SP    。#PU    。#PU
+            传说#NN  五#CD  世纪#NN  时#LC  的#DEG  波希战争#NN  中#LC  ，#PU  波斯人#NN  英勇#AD  无比#VV  ，#PU  在#P  恶劣#VA  的#DEC  环境#NN  中#LC  愈#AD  战#VV  愈#AD  勇#VV  ，#PU  最终#AD  打败#VV  了#AS  希腊人#NN  ，#PU  其#PN  ``#VV  秘密#JJ  武器#NN  ''#NN  就#AD  是#VC  士兵们#NN  吃#VV  了#AS  一#CD  种#M  神奇#JJ  的#DEG  干果#NN  --#NN  开心果#NN    。#PU  因此#AD  ，#PU  古代#NN  波斯国#NR  国王#NN  将#AD  开心果#AD  视为#VV  ``#NN  仙果#NN  ''#NN    。#PU  开心#VA  果#NN  也#AD  被#SB  称为#VV  是#VC  ``#NR  美国#NR  花生#JJ  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 开心果#VV)  (case, 漆树科#NN, 为#P)  (prep, 落叶#VV, 漆树科#NN)  (dep, 开心果#VV, 落叶#VV)  (amod, 乔木#NN, 小#JJ)  (nn, 木#NN, 乔木#NN)  (nn, 木#NN, 无名#NN)  (assmod, 果实#NN, 木#NN)  (case, 木#NN, 的#DEG)  (dobj, 落叶#VV, 果实#NN)   (nn, ''#NN, ``#NN)  (nn, ''#NN, 开心果#NN)  (nsubj, 得名#VV, ''#NN)  (case, 功效#NN, 以#P)  (advmod, 开心#VA, ``#AD)  (relcl, 功效#NN, 开心#VA)  (comod, 开心#VA, 解郁#VA)  (comod, 开心#VA, ''#VA)  (mark, 开心#VA, 的#DEC)  (prep, 得名#VV, 功效#NN)  (prtmod, 得名#VV, 而#MSP)  (root, ROOT#null, 得名#VV)  (cop, 干果#NN, 是#VC)  (tmod, 常见#VA, 现在#NT)  (nn, 生活#NN, 人们#NN)  (loc, 常见#VA, 生活#NN)  (case, 生活#NN, 中#LC)  (advmod, 常见#VA, 十分#AD)  (relcl, 干果#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 干果#NN, 休闲#NN)  (dep, 得名#VV, 干果#NN)   (nsubj, 产于#VV, 它#PN)  (advmod, 产于#VV, 主要#AD)  (root, ROOT#null, 产于#VV)  (conj, 苏联#NR, 叙利亚#NR)  (conj, 苏联#NR, 伊拉克#NR)  (conj, 苏联#NR, 伊朗#NR)  (amod, 苏联#NR, 前#JJ)  (nn, 南欧#NN, 苏联#NR)  (conj, 南欧#NN, 西南部#NN)  (cc, 南欧#NN, 和#CC)  (dobj, 产于#VV, 南欧#NN)  (nn, 仅在#NN, 我国#NN)  (nn, 地区#NN, 仅在#NN)  (nn, 地区#NN, 新疆#NR)  (etc, 新疆#NR, 等#ETC)  (amod, 地区#NN, 边远#JJ)  (dep, 有#VE, 地区#NN)  (conj, 产于#VV, 有#VE)  (dep, 有#VE, 栽培#VV)   (root, ROOT#null, 开心果#VV)  (nn, 维生素E#NN, 果仁#NN)  (nn, 维生素E#NN, 含有#NN)  (nn, 成分#NN, 维生素E#NN)  (etc, 维生素E#NN, 等#ETC)  (dobj, 开心果#VV, 成分#NN)  (conj, 开心果#VV, 有#VE)  (nn, 衰老#NN, 抗#NN)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (mmod, 增强#VV, 能#VV)  (conj, 开心果#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)   (nn, 视之#NN, 古代#NN)  (nn, 视之#NN, 波斯国#NN)  (nn, 视之#NN, 国王#NN)  (nsubj, 仙果#VV, 视之#NN)  (case, ``#NN, 为#P)  (prep, 仙果#VV, ``#NN)  (root, ROOT#null, 仙果#VV)  (dobj, 仙果#VV, ''#NN)   (root, ROOT#null, 开心#VA)  (nsubj, 滋补品#VV, 果#NN)  (xsubj, 有#VE, 果#NN)  (case, 我国#NR, 在#P)  (prep, 滋补品#VV, 我国#NR)  (case, 食疗#NN, 作为#P)  (prep, 滋补品#VV, 食疗#NN)  (dep, 开心#VA, 滋补品#VV)  (dobj, 滋补品#VV, 应用#NN)  (advmod, 有#VE, 已#AD)  (dep, 滋补品#VV, 有#VE)  (nummod, 年#M, 千#CD)  (assmod, 历史#NN, 年#M)  (case, 年#M, 以上#LC)  (case, 年#M, 的#DEG)  (dobj, 有#VE, 历史#NN)  (dep, 有#VE, 了#SP)   (root, ROOT#null, null#null)
+            (nn, 波希战争#NN, 传说#NN)  (nummod, 世纪#NN, 五#CD)  (assmod, 波希战争#NN, 世纪#NN)  (case, 世纪#NN, 时#LC)  (case, 世纪#NN, 的#DEG)  (loc, 无比#VV, 波希战争#NN)  (case, 波希战争#NN, 中#LC)  (nsubj, 无比#VV, 波斯人#NN)  (advmod, 无比#VV, 英勇#AD)  (conj, 吃#VV, 无比#VV)  (case, 环境#NN, 在#P)  (relcl, 环境#NN, 恶劣#VA)  (mark, 恶劣#VA, 的#DEC)  (prep, 战#VV, 环境#NN)  (case, 环境#NN, 中#LC)  (advmod, 战#VV, 愈#AD)  (dep, 无比#VV, 战#VV)  (advmod, 勇#VV, 愈#AD)  (dep, 战#VV, 勇#VV)  (advmod, 打败#VV, 最终#AD)  (dep, 无比#VV, 打败#VV)  (asp, 打败#VV, 了#AS)  (dobj, 打败#VV, 希腊人#NN)  (nsubj, ``#VV, 其#PN)  (conj, 无比#VV, ``#VV)  (amod, ''#NN, 秘密#JJ)  (nn, ''#NN, 武器#NN)  (dobj, ``#VV, ''#NN)  (advmod, 士兵们#NN, 就#AD)  (cop, 士兵们#NN, 是#VC)  (dep, ``#VV, 士兵们#NN)  (root, ROOT#null, 吃#VV)  (asp, 吃#VV, 了#AS)  (nummod, 种#M, 一#CD)  (clf, 开心果#NN, 种#M)  (assmod, 开心果#NN, 神奇#JJ)  (case, 神奇#JJ, 的#DEG)  (nn, 开心果#NN, 干果#NN)  (dobj, 吃#VV, 开心果#NN)   (advmod, 视为#VV, 因此#AD)  (nsubj, 视为#VV, 古代#NN)  (nn, 国王#NN, 波斯国#NR)  (nsubj, 视为#VV, 国王#NN)  (advmod, 视为#VV, 将#AD)  (advmod, 视为#VV, 开心果#AD)  (root, ROOT#null, 视为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 仙果#NN)  (dobj, 视为#VV, ''#NN)   (relcl, 果#NN, 开心#VA)  (nsubj, 称为#VV, 果#NN)  (advmod, 称为#VV, 也#AD)  (auxpass, 称为#VV, 被#SB)  (conj, ''#NN, 称为#VV)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 美国#NR)  (amod, ''#NN, 花生#JJ)  (root, ROOT#null, ''#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性温，味辛、涩；温肾暖脾，补益虚损，调中顺气，能治疗神经衰弱、浮肿、贫血、营养不良、慢性泻痢等症。　
+            1.祛压降脂
+            开心果富含精氨酸，它不仅可以缓解动脉硬化的发生，有助于降低血脂，还能降低心脏病发作危险，降低胆固醇，缓解急性精神压力反应等。
+            2.明目
+            开心果紫红色的果衣，含有花青素，这是一种天然抗氧化物质，而翠绿色的果仁中则含有丰富的叶黄素，它不仅仅可以抗氧化，而且对保护视网膜也很有好处。
+            3.减肥
+            开心果每天吃上28克开心果，大概是49颗左右，不仅不用担心发胖，还有助于控制体重。这是因为吃饱的感觉通常需要20分钟，吃开心果可以通过剥壳延长食用时间，让人产生饱腹感和满足感，从而帮助减少食量和控制体重。
+            4.抗衰老
+            开心果营养丰富，其种仁含蛋白质约20%，含糖15%～18%，还可以榨油。果仁还含有维生素E，有抗衰老的作用，能增强体质。
+            5.润肠通便
+            开心果由于开心果中含有丰富的油脂，因此有润肠通便的作用，有助于机体排毒。
+        </rawdata>
+
+        <segment>
+            性温  ，  味辛  、  涩  ；  温  肾  暖脾  ，  补益  虚损  ，  调  中  顺气  ，  能  治疗  神经  衰弱  、  浮肿  、  贫血  、  营养  不良  、  慢性  泻痢  等症  。
+            祛压  降脂
+            开心果  富含  精氨酸  ，  它  不仅  可以  缓解  动脉  硬化  的  发生  ，  有助于  降低  血脂  ，  还  能  降低  心脏病  发作  危险  ，  降低  胆固醇  ，  缓解  急性  精神  压力  反应  等  。
+            明目
+            开心果  紫红色  的  果衣  ，  含有  花青素  ，  这  是  一  种  天然  抗氧化  物质  ，  而  翠绿色  的  果仁  中  则  含有  丰富  的  叶黄素  ，  它  不仅仅  可以  抗氧化  ，  而且  对  保护  视网膜  也  很  有  好处  。
+            减肥
+            开心果  每天  吃上  28  克  开心果  ，  大概  是  49  颗  左右  ，  不仅  不用  担心  发胖  ，  还  有助于  控制  体重  。  这  是  因为  吃饱  的  感觉  通常  需要  20  分钟  ，  吃  开心果  可以  通过  剥壳  延长  食用  时间  ，  让  人  产生  饱腹  感和  满足感  ，  从而  帮助  减少  食量  和  控制  体重  。
+            抗  衰老
+            开心果  营养  丰富  ，  其  种仁  含  蛋白质  约  20%  ，  含糖  15%  ～  18%  ，  还  可以  榨油  。  果仁  还  含有  维生素E  ，  有  抗  衰老  的  作用  ，  能  增强  体质  。
+            润肠  通便
+            开心果  由于  开心果  中  含有  丰富  的  油脂  ，  因此  有  润肠  通便  的  作用  ，  有助于  机体  排毒  。
+        </segment>
+
+        <pos>
+            性温#NR  ，#PU  味辛#NR  、#PU  涩#NR  ；#PU  温#NN  肾#NN  暖脾#NN  ，#PU  补益#NN  虚损#NN  ，#PU  调#NN  中#LC  顺气#VV  ，#PU  能#VV  治疗#VV  神经#NN  衰弱#VA  、#PU  浮肿#VA  、#PU  贫血#VA  、#PU  营养#VA  不良#JJ  、#PU  慢性#JJ  泻痢#NN  等症#NN  。#PU
+            祛压#NN  降脂#VV
+            开心果#NN  富含#NN  精氨酸#NN  ，#PU  它#PN  不仅#CC  可以#VV  缓解#VV  动脉#NN  硬化#NN  的#DEG  发生#NN  ，#PU  有助于#VV  降低#VV  血脂#NN  ，#PU  还#AD  能#VV  降低#VV  心脏病#NN  发作#VV  危险#NN  ，#PU  降低#VV  胆固醇#NN  ，#PU  缓解#VV  急性#NN  精神#NN  压力#NN  反应#NN  等#ETC  。#PU
+            明目#VV
+            开心果#NN  紫红色#NN  的#DEG  果衣#NN  ，#PU  含有#NR  花青素#VV  ，#PU  这#PN  是#VC  一#CD  种#M  天然#JJ  抗氧化#NN  物质#NN  ，#PU  而#CC  翠绿色#NN  的#DEG  果仁#NN  中#LC  则#AD  含有#VV  丰富#VA  的#DEC  叶黄素#NN  ，#PU  它#PN  不仅仅#AD  可以#VV  抗氧化#NN  ，#PU  而且#CC  对#P  保护#NN  视网膜#NN  也#AD  很#AD  有#VE  好处#NN  。#PU
+            减肥#VV
+            开心果#NN  每天#AD  吃上#VV  28#CD  克#M  开心果#NN  ，#PU  大概#AD  是#VC  49#CD  颗#M  左右#LC  ，#PU  不仅#CC  不用#VV  担心#VV  发胖#NN  ，#PU  还#AD  有助于#VV  控制#VV  体重#NN    。#PU  这#PN  是#VC  因为#P  吃饱#NN  的#DEG  感觉#NN  通常#AD  需要#VV  20#CD  分钟#M  ，#PU  吃#VV  开心果#NN  可以#VV  通过#P  剥壳#NN  延长#VV  食用#VV  时间#NN  ，#PU  让#VV  人#NN  产生#VV  饱腹#NN  感和#NN  满足感#NN  ，#PU  从而#AD  帮助#VV  减少#VV  食量#NN  和#CC  控制#NN  体重#NN    。#PU    。#PU
+            抗#NN  衰老#VV
+            开心果#NN  营养#VA  丰富#VA  ，#PU  其#PN  种仁#AD  含#VV  蛋白质#NR  约#AD  20#CD  %#NN  ，#PU  含糖#NR  15#CD  %#NN  ～#VV  18#CD  %#NN  ，#PU  还#AD  可以#VV  榨油#VV    。#PU  果仁#NN  还#AD  含有#VV  维生素E#NN  ，#PU  有#VE  抗#NN  衰老#NN  的#DEG  作用#NN  ，#PU  能#VV  增强#VV  体质#NN    。#PU    。#PU
+            润肠#NN  通便#VV
+            开心果#NN  由于#P  开心果#NN  中#LC  含有#AD  丰富#VA  的#DEC  油脂#NN  ，#PU  因此#AD  有#VE  润肠#NN  通便#NN  的#DEG  作用#NN  ，#PU  有助于#VV  机体#VV  排毒#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 顺气#VV, 性温#NR)  (xsubj, 治疗#VV, 性温#NR)  (conj, 涩#NR, 味辛#NR)  (nsubj, 顺气#VV, 涩#NR)  (xsubj, 治疗#VV, 涩#NR)  (nn, 暖脾#NN, 温#NN)  (nn, 暖脾#NN, 肾#NN)  (nsubj, 顺气#VV, 暖脾#NN)  (xsubj, 治疗#VV, 暖脾#NN)  (nn, 虚损#NN, 补益#NN)  (nsubj, 顺气#VV, 虚损#NN)  (xsubj, 治疗#VV, 虚损#NN)  (loc, 顺气#VV, 调#NN)  (case, 调#NN, 中#LC)  (root, ROOT#null, 顺气#VV)  (mmod, 治疗#VV, 能#VV)  (ccomp, 顺气#VV, 治疗#VV)  (nn, 泻痢#NN, 神经#NN)  (relcl, 神经#NN, 衰弱#VA)  (relcl, 泻痢#NN, 衰弱#VA)  (conj, 衰弱#VA, 浮肿#VA)  (conj, 衰弱#VA, 贫血#VA)  (dep, 衰弱#VA, 营养#VA)  (amod, 泻痢#NN, 不良#JJ)  (dep, 不良#JJ, 慢性#JJ)  (nn, 等症#NN, 泻痢#NN)  (dobj, 治疗#VV, 等症#NN)
+            (nsubj, 降脂#VV, 祛压#NN)  (root, ROOT#null, 降脂#VV)
+            (nn, 精氨酸#NN, 开心果#NN)  (nn, 精氨酸#NN, 富含#NN)  (nsubj, 缓解#VV, 精氨酸#NN)  (xsubj, 降低#VV, 精氨酸#NN)  (nsubj, 缓解#VV, 它#PN)  (xsubj, 降低#VV, 它#PN)  (cc, 缓解#VV, 不仅#CC)  (mmod, 缓解#VV, 可以#VV)  (root, ROOT#null, 缓解#VV)  (nn, 硬化#NN, 动脉#NN)  (assmod, 发生#NN, 硬化#NN)  (case, 硬化#NN, 的#DEG)  (dobj, 缓解#VV, 发生#NN)  (dep, 缓解#VV, 有助于#VV)  (ccomp, 有助于#VV, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (advmod, 降低#VV, 还#AD)  (mmod, 降低#VV, 能#VV)  (conj, 降低#VV, 降低#VV)  (nsubj, 发作#VV, 心脏病#NN)  (nfincl, 危险#NN, 发作#VV)  (dobj, 降低#VV, 危险#NN)  (conj, 降低#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 缓解#VV)  (nn, 精神#NN, 急性#NN)  (nn, 压力#NN, 精神#NN)  (nn, 反应#NN, 压力#NN)  (dobj, 缓解#VV, 反应#NN)  (etc, 反应#NN, 等#ETC)
+            (root, ROOT#null, 明目#VV)
+            (nn, 紫红色#NN, 开心果#NN)  (assmod, 果衣#NN, 紫红色#NN)  (case, 紫红色#NN, 的#DEG)  (nsubj, 花青素#VV, 果衣#NN)  (nsubj, 花青素#VV, 含有#NR)  (root, ROOT#null, 花青素#VV)  (nsubj, 物质#NN, 这#PN)  (cop, 物质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (amod, 物质#NN, 天然#JJ)  (nn, 物质#NN, 抗氧化#NN)  (ccomp, 花青素#VV, 物质#NN)  (cc, 物质#NN, 而#CC)  (assmod, 果仁#NN, 翠绿色#NN)  (case, 翠绿色#NN, 的#DEG)  (loc, 含有#VV, 果仁#NN)  (case, 果仁#NN, 中#LC)  (advmod, 含有#VV, 则#AD)  (conj, 物质#NN, 含有#VV)  (relcl, 叶黄素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 叶黄素#NN)  (nsubj, 可以#VV, 它#PN)  (prep, 可以#VV, 不仅仅#AD)  (conj, 物质#NN, 可以#VV)  (dobj, 可以#VV, 抗氧化#NN)  (cc, 可以#VV, 而且#CC)  (case, 视网膜#NN, 对#P)  (nn, 视网膜#NN, 保护#NN)  (prep, 有#VE, 视网膜#NN)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 很#AD)  (dep, 可以#VV, 有#VE)  (dobj, 有#VE, 好处#NN)
+            (root, ROOT#null, 减肥#VV)
+            (nsubj, 吃上#VV, 开心果#NN)  (advmod, 吃上#VV, 每天#AD)  (root, ROOT#null, 吃上#VV)  (nummod, 克#M, 28#CD)  (clf, 开心果#NN, 克#M)  (dobj, 吃上#VV, 开心果#NN)  (advmod, 是#VC, 大概#AD)  (conj, 吃上#VV, 是#VC)  (nummod, 颗#M, 49#CD)  (loc, 是#VC, 颗#M)  (case, 颗#M, 左右#LC)  (cc, 吃上#VV, 不仅#CC)  (mmod, 担心#VV, 不用#VV)  (conj, 吃上#VV, 担心#VV)  (nsubj, 有助于#VV, 发胖#NN)  (advmod, 有助于#VV, 还#AD)  (ccomp, 担心#VV, 有助于#VV)  (ccomp, 有助于#VV, 控制#VV)  (dobj, 控制#VV, 体重#NN)   (nsubj, 是#VC, 这#PN)  (root, ROOT#null, 是#VC)  (case, 需要#VV, 因为#P)  (assmod, 感觉#NN, 吃饱#NN)  (case, 吃饱#NN, 的#DEG)  (nsubj, 需要#VV, 感觉#NN)  (advmod, 需要#VV, 通常#AD)  (prep, 是#VC, 需要#VV)  (nummod, 分钟#M, 20#CD)  (range, 需要#VV, 分钟#M)  (conj, 需要#VV, 吃#VV)  (dobj, 吃#VV, 开心果#NN)  (mmod, 延长#VV, 可以#VV)  (case, 剥壳#NN, 通过#P)  (prep, 延长#VV, 剥壳#NN)  (conj, 吃#VV, 延长#VV)  (dep, 延长#VV, 食用#VV)  (dobj, 食用#VV, 时间#NN)  (dep, 需要#VV, 让#VV)  (dobj, 让#VV, 人#NN)  (dep, 让#VV, 产生#VV)  (nn, 满足感#NN, 饱腹#NN)  (nn, 满足感#NN, 感和#NN)  (dobj, 产生#VV, 满足感#NN)  (advmod, 帮助#VV, 从而#AD)  (conj, 需要#VV, 帮助#VV)  (ccomp, 帮助#VV, 减少#VV)  (conj, 控制#NN, 食量#NN)  (cc, 控制#NN, 和#CC)  (nn, 体重#NN, 控制#NN)  (dobj, 减少#VV, 体重#NN)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (nsubj, 营养#VA, 开心果#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nsubj, 含#VV, 其#PN)  (advmod, 含#VV, 种仁#AD)  (conj, 营养#VA, 含#VV)  (nn, %#NN, 蛋白质#NR)  (advmod, 20#CD, 约#AD)  (nummod, %#NN, 20#CD)  (dobj, 含#VV, %#NN)  (nn, %#NN, 含糖#NR)  (nummod, %#NN, 15#CD)  (nsubj, ～#VV, %#NN)  (nummod, %#NN, 18#CD)  (dobj, ～#VV, %#NN)  (advmod, 榨油#VV, 还#AD)  (dep, 榨油#VV, 可以#VV)  (conj, ～#VV, 榨油#VV)   (nsubj, 含有#VV, 果仁#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 维生素E#NN)  (conj, 含有#VV, 有#VE)  (nn, 衰老#NN, 抗#NN)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (mmod, 增强#VV, 能#VV)  (conj, 含有#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)   (root, ROOT#null, null#null)
+            (nsubj, 通便#VV, 润肠#NN)  (root, ROOT#null, 通便#VV)
+            (nsubj, 丰富#VA, 开心果#NN)  (case, 开心果#NN, 由于#P)  (prep, 丰富#VA, 开心果#NN)  (case, 开心果#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 油脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 有#VE, 油脂#NN)  (advmod, 有#VE, 因此#AD)  (root, ROOT#null, 有#VE)  (nn, 通便#NN, 润肠#NN)  (assmod, 作用#NN, 通便#NN)  (case, 通便#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 有助于#VV)  (ccomp, 有助于#VV, 机体#VV)  (dobj, 机体#VV, 排毒#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血脂  延缓衰老  明目  通便  温中  补肾阳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            开心果果仁是高营养的食品，每100果仁含维生素A20微克，叶酸59微克，含铁3毫克，含磷440毫克，含钾970毫克，含钠270毫克，含钙120毫克，同时还含有烟酸、泛酸、矿物质等。种仁含油率高达45.1％。由于开心果中含有丰富的油脂，因此有润肠通便的作用，有助于机体排毒。
+        </rawdata>
+
+        <segment>
+            开心果  果仁  是  高  营养  的  食品  ，  每  0  果仁  含  维生素A  20  微克  ，  叶酸  59  微克  ，  含铁  3  毫克  ，  含磷  440  毫克  ，  含钾  970  毫克  ，  含钠  270  毫克  ，  含钙  120  毫克  ，  同时  还  含有  烟酸  、  泛酸  、  矿物质  等  。  种仁  含油率  高达  45.1％  。  由于  开心果  中  含有  丰富  的  油脂  ，  因此  有  润肠  通便  的  作用  ，  有助于  机体  排毒  。
+        </segment>
+
+        <pos>
+            开心果#NN  果仁#NN  是#VC  高#AD  营养#VA  的#DEC  食品#NN  ，#PU  每#DT  0#CD  果仁#NN  含#VV  维生素A#VV  20#CD  微克#NN  ，#PU  叶酸#VV  59#CD  微克#NN  ，#PU  含铁#VV  3#CD  毫克#NN  ，#PU  含磷#VV  440#CD  毫克#NN  ，#PU  含钾#VV  970#CD  毫克#NN  ，#PU  含钠#VV  270#CD  毫克#NN  ，#PU  含钙#VV  120#CD  毫克#NN  ，#PU  同时#AD  还#AD  含有#VV  烟酸#NR  、#PU  泛酸#NR  、#PU  矿物质#NR  等#ETC    。#PU  种仁#NN  含油率#NN  高达#VV  45.1#CD  ％#NN    。#PU  由于#P  开心果#NN  中#LC  含有#AD  丰富#VA  的#DEC  油脂#NN  ，#PU  因此#AD  有#VE  润肠#NN  通便#NN  的#DEG  作用#NN  ，#PU  有助于#VV  机体#VV  排毒#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 果仁#NN, 开心果#NN)  (nsubj, 食品#NN, 果仁#NN)  (cop, 食品#NN, 是#VC)  (advmod, 营养#VA, 高#AD)  (relcl, 食品#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (root, ROOT#null, 食品#NN)  (det, 果仁#NN, 每#DT)  (dep, 每#DT, 0#CD)  (nsubj, 维生素A#VV, 果仁#NN)  (mmod, 维生素A#VV, 含#VV)  (conj, 食品#NN, 维生素A#VV)  (nummod, 微克#NN, 20#CD)  (dobj, 维生素A#VV, 微克#NN)  (ccomp, 维生素A#VV, 叶酸#VV)  (conj, 维生素A#VV, 叶酸#VV)  (nummod, 微克#NN, 59#CD)  (dobj, 叶酸#VV, 微克#NN)  (ccomp, 维生素A#VV, 含铁#VV)  (conj, 维生素A#VV, 含铁#VV)  (nummod, 毫克#NN, 3#CD)  (dobj, 含铁#VV, 毫克#NN)  (ccomp, 维生素A#VV, 含磷#VV)  (conj, 维生素A#VV, 含磷#VV)  (nummod, 毫克#NN, 440#CD)  (dobj, 含磷#VV, 毫克#NN)  (ccomp, 维生素A#VV, 含钾#VV)  (conj, 维生素A#VV, 含钾#VV)  (nummod, 毫克#NN, 970#CD)  (dobj, 含钾#VV, 毫克#NN)  (ccomp, 维生素A#VV, 含钠#VV)  (conj, 维生素A#VV, 含钠#VV)  (nummod, 毫克#NN, 270#CD)  (dobj, 含钠#VV, 毫克#NN)  (ccomp, 维生素A#VV, 含钙#VV)  (conj, 维生素A#VV, 含钙#VV)  (nummod, 毫克#NN, 120#CD)  (dobj, 含钙#VV, 毫克#NN)  (advmod, 含有#VV, 同时#AD)  (advmod, 含有#VV, 还#AD)  (ccomp, 维生素A#VV, 含有#VV)  (conj, 维生素A#VV, 含有#VV)  (conj, 矿物质#NR, 烟酸#NR)  (conj, 矿物质#NR, 泛酸#NR)  (dobj, 含有#VV, 矿物质#NR)  (etc, 矿物质#NR, 等#ETC)   (nn, 含油率#NN, 种仁#NN)  (nsubj, 高达#VV, 含油率#NN)  (root, ROOT#null, 高达#VV)  (nummod, ％#NN, 45.1#CD)  (dobj, 高达#VV, ％#NN)   (case, 有#VE, 由于#P)  (loc, 丰富#VA, 开心果#NN)  (case, 开心果#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 油脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, 有#VE, 油脂#NN)  (advmod, 有#VE, 因此#AD)  (prep, 有助于#VV, 有#VE)  (nn, 通便#NN, 润肠#NN)  (assmod, 作用#NN, 通便#NN)  (case, 通便#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 机体#VV)  (dobj, 机体#VV, 排毒#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            开心果种仁营养极为丰富，果仁中富含脂肪、蛋白质、糖、维生素、无机盐等。果仁味鲜美，具有特香味，不仅鲜食，炒食，还广泛用于制糖，糕点，巧克力，烤面包，冰淇淋，蜜饯，干果罐头等食品工业及榨高级食用油。
+        </rawdata>
+
+        <segment>
+            开心果  种仁  营养  极为  丰富  ，  果仁  中  富含  脂肪  、  蛋白质  、  糖  、  维生素  、  无机盐  等  。  果仁  味  鲜美  ，  具有  特  香味  ，  不仅  鲜食  ，  炒食  ，  还  广泛  用于  制糖  ，  糕点  ，  巧克力  ，  烤面包  ，  冰淇淋  ，  蜜饯  ，  干果  罐头  等  食品  工业  及榨  高级  食用油  。
+        </segment>
+
+        <pos>
+            开心果#NN  种仁#AD  营养#VA  极为#AD  丰富#VA  ，#PU  果仁#NN  中#LC  富含#VV  脂肪#NN  、#PU  蛋白质#NN  、#PU  糖#NN  、#PU  维生素#NN  、#PU  无机盐#NN  等#ETC    。#PU  果仁#VV  味#NN  鲜美#NN  ，#PU  具有#VV  特#JJ  香味#NN  ，#PU  不仅#CC  鲜食#VV  ，#PU  炒食#VV  ，#PU  还#AD  广泛#AD  用于#VV  制糖#NN  ，#PU  糕点#VV  ，#PU  巧克力#VV  ，#PU  烤面包#VV  ，#PU  冰淇淋#VV  ，#PU  蜜饯#VV  ，#PU  干果#VV  罐头#NR  等#ETC  食品#NN  工业#NN  及榨#NN  高级#JJ  食用油#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 开心果#NN)  (xsubj, 丰富#VA, 开心果#NN)  (advmod, 营养#VA, 种仁#AD)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 极为#AD)  (dep, 营养#VA, 丰富#VA)  (loc, 富含#VV, 果仁#NN)  (case, 果仁#NN, 中#LC)  (dep, 丰富#VA, 富含#VV)  (conj, 无机盐#NN, 脂肪#NN)  (conj, 无机盐#NN, 蛋白质#NN)  (conj, 无机盐#NN, 糖#NN)  (conj, 无机盐#NN, 维生素#NN)  (dobj, 富含#VV, 无机盐#NN)  (etc, 无机盐#NN, 等#ETC)   (root, ROOT#null, 果仁#VV)  (nn, 鲜美#NN, 味#NN)  (dobj, 果仁#VV, 鲜美#NN)  (conj, 果仁#VV, 具有#VV)  (amod, 香味#NN, 特#JJ)  (dobj, 具有#VV, 香味#NN)  (cc, 果仁#VV, 不仅#CC)  (conj, 果仁#VV, 鲜食#VV)  (conj, 果仁#VV, 炒食#VV)  (advmod, 用于#VV, 还#AD)  (advmod, 用于#VV, 广泛#AD)  (conj, 果仁#VV, 用于#VV)  (dobj, 用于#VV, 制糖#NN)  (conj, 果仁#VV, 糕点#VV)  (conj, 果仁#VV, 巧克力#VV)  (conj, 果仁#VV, 烤面包#VV)  (conj, 果仁#VV, 冰淇淋#VV)  (conj, 果仁#VV, 蜜饯#VV)  (dep, 果仁#VV, 干果#VV)  (nn, 工业#NN, 罐头#NR)  (etc, 罐头#NR, 等#ETC)  (nn, 工业#NN, 食品#NN)  (nn, 及榨#NN, 工业#NN)  (nn, 食用油#NN, 及榨#NN)  (amod, 食用油#NN, 高级#JJ)  (dobj, 干果#VV, 食用油#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/111437207027.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\369 开心果.jpg
+    </picturelocalurl>
+
+</content>

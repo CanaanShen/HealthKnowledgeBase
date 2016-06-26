@@ -1,0 +1,193 @@
+<content>
+
+    <id>
+        424
+    </id>
+
+    <foodname>
+        黄芪
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        黄耆、独根、箭芪、绵芪、口芪、黑皮芪、白皮芪、红芪、独芪
+    </alias>
+
+    <season>
+        采收一般在秋季植株枯萎时进行
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹胀、风热咳嗽、感冒者；表实邪盛，气滞湿阻，食积停滞，痈疽初起或溃后热毒尚盛等实证，以及阴虚阳亢者忌食。
+        </rawdata>
+
+        <segment>
+            腹胀  、  风热  咳嗽  、  感冒  者  ；  表实  邪盛  ，  气滞  湿阻  ，  食积  停滞  ，  痈疽  初  起  或  溃后热毒  尚  盛  等  实证  ，  以及  阴虚  阳亢者  忌食  。
+        </segment>
+
+        <pos>
+            腹胀#NR  、#PU  风热#NR  咳嗽#NR  、#PU  感冒#NR  者#NN  ；#PU  表实#NR  邪盛#VV  ，#PU  气滞#VV  湿阻#NN  ，#PU  食积#AD  停滞#VA  ，#PU  痈疽#NN  初#AD  起#VV  或#CC  溃后热毒#NN  尚#AD  盛#VA  等#ETC  实证#NN  ，#PU  以及#CC  阴虚#VV  阳亢者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 感冒#NR, 腹胀#NR)  (nn, 感冒#NR, 风热#NR)  (conj, 感冒#NR, 咳嗽#NR)  (nn, 者#NN, 感冒#NR)  (nsubj, 邪盛#VV, 者#NN)  (xsubj, 气滞#VV, 者#NN)  (nsubj, 邪盛#VV, 表实#NR)  (xsubj, 气滞#VV, 表实#NR)  (root, ROOT#null, 邪盛#VV)  (ccomp, 邪盛#VV, 气滞#VV)  (nsubj, 停滞#VA, 湿阻#NN)  (advmod, 停滞#VA, 食积#AD)  (nfincl, 实证#NN, 停滞#VA)  (nsubj, 起#VV, 痈疽#NN)  (advmod, 起#VV, 初#AD)  (conj, 停滞#VA, 起#VV)  (cc, 停滞#VA, 或#CC)  (nsubj, 盛#VA, 溃后热毒#NN)  (advmod, 盛#VA, 尚#AD)  (dep, 停滞#VA, 盛#VA)  (dep, 停滞#VA, 等#ETC)  (dobj, 气滞#VV, 实证#NN)  (cc, 气滞#VV, 以及#CC)  (conj, 气滞#VV, 阴虚#VV)  (nn, 忌食#NN, 阳亢者#NN)  (dobj, 阴虚#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄芪（huáng　qí），又名黄耆，为豆科植物黄芪或内蒙黄芪的干燥根。清朝绣宫内称其为“补气诸药之最”，民间也流传着“常喝黄芪汤，防病保健康”的顺口溜，意思是说经常用黄芪煎汤或用黄芪泡水代茶饮，具有良好的 防病保健作用。
+            黄芪和人参均属补气良药，人参偏重于大补元气，回阳救逆，常用于虚脱、休克等急症，效果较好。而黄芪则以补虚为主，常用于体衰日久、言语低弱、脉细无力者。有些人一遇天气变化就容易感冒，中医称为“表不固”，可用黄芪来固表，常服黄芪可以避免经常性的感冒。
+            黄芪产于内蒙古、山西、甘肃、黑龙江等地，为国家三级保护植物。黄芪的药用迄今已有2000多年的历史，中药材黄芪为豆科草本植物蒙古黄芪、膜荚黄芪的根，具有补气固表、利水退肿、托毒排脓、生肌等功效。黄芪属约有2000种，除大洋洲外，全世界亚热带和温带地区均产，但主要产于北温带。中国产270余种，分布于东北至西南部。
+        </rawdata>
+
+        <segment>
+            黄芪  （  huáng  qí  ）  ，  又  名  黄耆  ，  为  豆科  植物  黄芪  或  内蒙  黄芪  的  干燥  根  。  清朝  绣  宫内  称  其  为  “  补气  诸  药  之  最  ”  ，  民间  也  流传  着  “  常喝  黄芪汤  ，  防病  保  健康  ”  的  顺口溜  ，  意思  是  说  经常  用  黄芪煎  汤  或用  黄芪  泡  水  代  茶  饮  ，  具有  良好  的  防病  保健  作用  。
+            黄芪  和  人参  均  属  补气  良药  ，  人参  偏重于  大补  元气  ，  回阳救逆  ，  常  用  于  虚脱  、  休克  等  急症  ，  效果  较好  。  而  黄芪  则  以  补虚  为主  ，  常  用  于  体衰  日久  、  言语  低  弱  、  脉细  无力  者  。  有些  人  一  遇  天气  变化  就  容易  感冒  ，  中医  称为  “  表不固  ”  ，  可用  黄芪  来  固表  ，  常服  黄芪  可以  避免  经常性  的  感冒  。
+            黄芪  产于  内蒙古  、  山西  、  甘肃  、  黑龙江  等地  ，  为  国家  三  级  保护  植物  。  黄芪  的  药用  迄今  已  有  2000多  年  的  历史  ，  中药材  黄芪  为  豆科  草本  植物  蒙古  黄芪  、  膜荚  黄芪  的  根  ，  具有  补气  固  表  、  利水退肿  、  托  毒  排脓  、  生肌  等  功效  。  黄芪  属  约  有  2000  种  ，  除  大洋洲  外  ，  全世界  亚热带  和  温带  地区  均  产  ，  但  主要  产于  北温带  。  中国  产  270  余  种  ，  分布  于  东北  至  西南部  。
+        </segment>
+
+        <pos>
+            黄芪#NN  （#PU  huáng#NN  qí#NN  ）#PU  ，#PU  又#CC  名#NN  黄耆#VV  ，#PU  为#VC  豆科#NN  植物#NN  黄芪#NN  或#CC  内蒙#NN  黄芪#NN  的#DEG  干燥#CD  根#M    。#PU  清朝#NR  绣#NN  宫内#NN  称#VV  其#PN  为#P  ``#NR  补气#VV  诸#DT  药#NN  之#DEG  最#AD  ''#VV  ，#PU  民间#NN  也#AD  流传#VV  着#AS  ``#NN  常喝#NN  黄芪汤#NN  ，#PU  防病#VV  保#NR  健康#JJ  ''#NN  的#DEC  顺口溜#NN  ，#PU  意思#NN  是#VC  说#VV  经常#AD  用#P  黄芪煎#NR  汤#NR  或用#NN  黄芪#NN  泡#NN  水#NN  代#VV  茶#NN  饮#NN  ，#PU  具有#VV  良好#VA  的#DEC  防病#NN  保健#NN  作用#NN    。#PU    。#PU
+            黄芪#NN  和#CC  人参#NN  均#AD  属#VV  补气#NN  良药#NN  ，#PU  人参#VV  偏重于#NN  大补#NN  元气#NN  ，#PU  回阳救逆#VV  ，#PU  常#AD  用#VV  于#P  虚脱#NR  、#PU  休克#NR  等#ETC  急症#NN  ，#PU  效果#NN  较好#JJ    。#PU  而#MSP  黄芪#VV  则#AD  以#P  补虚#NN  为主#VV  ，#PU  常#AD  用#VV  于#P  体衰#NN  日久#VA  、#PU  言语#VA  低#VA  弱#VA  、#PU  脉细#VA  无力#NN  者#NN    。#PU  有些#DT  人#NN  一#CD  遇#NN  天气#NN  变化#NN  就#AD  容易#VA  感冒#VA  ，#PU  中医#NN  称为#VV  ``#NN  表不固#NN  ''#NN  ，#PU  可用#JJ  黄芪#NN  来#MSP  固表#VV  ，#PU  常服#NN  黄芪#NN  可以#VV  避免#VV  经常性#NN  的#DEG  感冒#NN    。#PU    。#PU
+            黄芪#NR  产于#NR  内蒙古#NR  、#PU  山西#NR  、#PU  甘肃#NR  、#PU  黑龙江#NR  等地#VV  ，#PU  为#VV  国家#NN  三#CD  级#M  保护#NN  植物#NN    。#PU  黄芪#NR  的#DEG  药用#NN  迄今#AD  已#AD  有#VE  2000多#CD  年#M  的#DEG  历史#NN  ，#PU  中药材#AD  黄芪#VV  为#P  豆科#NR  草本#NR  植物#NN  蒙古#NR  黄芪#NN  、#PU  膜荚#NN  黄芪#NN  的#DEG  根#M  ，#PU  具有#VV  补气#VV  固#NN  表#VV  、#PU  利水退肿#VA  、#PU  托#VA  毒#VV  排脓#NR  、#PU  生肌#NR  等#ETC  功效#NN    。#PU  黄芪#NN  属#VV  约#AD  有#VE  2000#CD  种#M  ，#PU  除#P  大洋洲#NR  外#LC  ，#PU  全世界#NN  亚热带#NN  和#CC  温带#NN  地区#NN  均#AD  产#VV  ，#PU  但#AD  主要#AD  产于#VV  北温带#NN    。#PU  中国#NR  产#VV  270#CD  余#VV  种#M  ，#PU  分布#VV  于#P  东北#NN  至#CC  西南部#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 名#NN, 黄芪#NN)  (nn, qí#NN, huáng#NN)  (prnmod, 黄芪#NN, qí#NN)  (cc, 名#NN, 又#CC)  (nsubj, 黄耆#VV, 名#NN)  (root, ROOT#null, 黄耆#VV)  (ccomp, 黄耆#VV, 为#VC)  (nn, 黄芪#NN, 豆科#NN)  (nn, 黄芪#NN, 植物#NN)  (conj, 黄芪#NN, 黄芪#NN)  (cc, 黄芪#NN, 或#CC)  (nn, 黄芪#NN, 内蒙#NN)  (assmod, 根#M, 黄芪#NN)  (case, 黄芪#NN, 的#DEG)  (nummod, 根#M, 干燥#CD)  (dep, 为#VC, 根#M)   (nn, 宫内#NN, 清朝#NR)  (nn, 宫内#NN, 绣#NN)  (nsubj, 称#VV, 宫内#NN)  (root, ROOT#null, 称#VV)  (nsubj, 补气#VV, 其#PN)  (case, ``#NR, 为#P)  (prep, 补气#VV, ``#NR)  (ccomp, 称#VV, 补气#VV)  (det, 药#NN, 诸#DT)  (assmod, 顺口溜#NN, 药#NN)  (case, 药#NN, 之#DEG)  (advmod, ''#VV, 最#AD)  (relcl, 顺口溜#NN, ''#VV)  (nsubj, 流传#VV, 民间#NN)  (advmod, 流传#VV, 也#AD)  (ccomp, ''#VV, 流传#VV)  (asp, 流传#VV, 着#AS)  (nn, 黄芪汤#NN, ``#NN)  (nn, 黄芪汤#NN, 常喝#NN)  (dobj, 流传#VV, 黄芪汤#NN)  (dep, 流传#VV, 防病#VV)  (nn, ''#NN, 保#NR)  (amod, ''#NN, 健康#JJ)  (dobj, 防病#VV, ''#NN)  (mark, ''#VV, 的#DEC)  (dobj, 补气#VV, 顺口溜#NN)  (nsubj, 说#VV, 意思#NN)  (cop, 说#VV, 是#VC)  (conj, 补气#VV, 说#VV)  (advmod, 代#VV, 经常#AD)  (case, 水#NN, 用#P)  (nn, 水#NN, 黄芪煎#NR)  (nn, 水#NN, 汤#NR)  (nn, 水#NN, 或用#NN)  (nn, 水#NN, 黄芪#NN)  (nn, 水#NN, 泡#NN)  (prep, 代#VV, 水#NN)  (ccomp, 说#VV, 代#VV)  (nn, 饮#NN, 茶#NN)  (dobj, 代#VV, 饮#NN)  (dep, 说#VV, 具有#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (nn, 作用#NN, 防病#NN)  (nn, 作用#NN, 保健#NN)  (dobj, 具有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (conj, 人参#NN, 黄芪#NN)  (cc, 人参#NN, 和#CC)  (nsubj, 属#VV, 人参#NN)  (advmod, 属#VV, 均#AD)  (root, ROOT#null, 属#VV)  (nn, 良药#NN, 补气#NN)  (dobj, 属#VV, 良药#NN)  (conj, 属#VV, 人参#VV)  (nn, 元气#NN, 偏重于#NN)  (nn, 元气#NN, 大补#NN)  (dobj, 人参#VV, 元气#NN)  (conj, 属#VV, 回阳救逆#VV)  (advmod, 用#VV, 常#AD)  (conj, 属#VV, 用#VV)  (case, 急症#NN, 于#P)  (conj, 休克#NR, 虚脱#NR)  (nn, 急症#NN, 休克#NR)  (etc, 休克#NR, 等#ETC)  (prep, 用#VV, 急症#NN)  (conj, 属#VV, 效果#NN)  (conj, 属#VV, 较好#JJ)   (prtmod, 黄芪#VV, 而#MSP)  (root, ROOT#null, 黄芪#VV)  (advmod, 为主#VV, 则#AD)  (case, 补虚#NN, 以#P)  (prep, 为主#VV, 补虚#NN)  (ccomp, 黄芪#VV, 为主#VV)  (advmod, 用#VV, 常#AD)  (dep, 黄芪#VV, 用#VV)  (case, 者#NN, 于#P)  (nsubj, 日久#VA, 体衰#NN)  (relcl, 无力#NN, 日久#VA)  (dep, 日久#VA, 言语#VA)  (dep, 日久#VA, 低#VA)  (conj, 日久#VA, 弱#VA)  (dep, 日久#VA, 脉细#VA)  (nn, 者#NN, 无力#NN)  (prep, 用#VV, 者#NN)   (det, 人#NN, 有些#DT)  (nn, 遇#NN, 人#NN)  (nummod, 遇#NN, 一#CD)  (nn, 天气#NN, 遇#NN)  (nn, 变化#NN, 天气#NN)  (nsubj, 容易#VA, 变化#NN)  (advmod, 容易#VA, 就#AD)  (root, ROOT#null, 容易#VA)  (comod, 容易#VA, 感冒#VA)  (nsubj, 称为#VV, 中医#NN)  (conj, 容易#VA, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 表不固#NN)  (dobj, 称为#VV, ''#NN)  (amod, 黄芪#NN, 可用#JJ)  (nsubj, 固表#VV, 黄芪#NN)  (prtmod, 固表#VV, 来#MSP)  (conj, 容易#VA, 固表#VV)  (nn, 黄芪#NN, 常服#NN)  (nsubj, 避免#VV, 黄芪#NN)  (mmod, 避免#VV, 可以#VV)  (conj, 容易#VA, 避免#VV)  (assmod, 感冒#NN, 经常性#NN)  (case, 经常性#NN, 的#DEG)  (dobj, 避免#VV, 感冒#NN)   (root, ROOT#null, null#null)
+            (nn, 黑龙江#NR, 黄芪#NR)  (nn, 黑龙江#NR, 产于#NR)  (conj, 黑龙江#NR, 内蒙古#NR)  (conj, 黑龙江#NR, 山西#NR)  (conj, 黑龙江#NR, 甘肃#NR)  (nsubj, 等地#VV, 黑龙江#NR)  (root, ROOT#null, 等地#VV)  (ccomp, 等地#VV, 为#VV)  (nn, 植物#NN, 国家#NN)  (nummod, 级#M, 三#CD)  (clf, 植物#NN, 级#M)  (nn, 植物#NN, 保护#NN)  (dobj, 为#VV, 植物#NN)   (assmod, 药用#NN, 黄芪#NR)  (case, 黄芪#NR, 的#DEG)  (nsubj, 有#VE, 药用#NN)  (advmod, 有#VE, 迄今#AD)  (advmod, 有#VE, 已#AD)  (root, ROOT#null, 有#VE)  (nummod, 年#M, 2000多#CD)  (assmod, 历史#NN, 年#M)  (case, 年#M, 的#DEG)  (dobj, 有#VE, 历史#NN)  (advmod, 黄芪#VV, 中药材#AD)  (conj, 有#VE, 黄芪#VV)  (case, 黄芪#NN, 为#P)  (nn, 黄芪#NN, 豆科#NR)  (nn, 黄芪#NN, 草本#NR)  (nn, 黄芪#NN, 植物#NN)  (nn, 黄芪#NN, 蒙古#NR)  (conj, 黄芪#NN, 黄芪#NN)  (nn, 黄芪#NN, 膜荚#NN)  (assmod, 根#M, 黄芪#NN)  (case, 黄芪#NN, 的#DEG)  (dobj, 黄芪#VV, 根#M)  (mmod, 补气#VV, 具有#VV)  (conj, 有#VE, 补气#VV)  (dobj, 补气#VV, 固#NN)  (dep, 补气#VV, 表#VV)  (conj, 表#VV, 利水退肿#VA)  (dep, 表#VV, 托#VA)  (dep, 有#VE, 毒#VV)  (conj, 生肌#NR, 排脓#NR)  (nn, 功效#NN, 生肌#NR)  (etc, 生肌#NR, 等#ETC)  (dobj, 毒#VV, 功效#NN)   (nsubj, 有#VE, 黄芪#NN)  (mmod, 有#VE, 属#VV)  (advmod, 有#VE, 约#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 2000#CD)  (dep, 有#VE, 种#M)  (case, 大洋洲#NR, 除#P)  (prep, 产#VV, 大洋洲#NR)  (case, 大洋洲#NR, 外#LC)  (nn, 地区#NN, 全世界#NN)  (conj, 地区#NN, 亚热带#NN)  (cc, 地区#NN, 和#CC)  (nn, 地区#NN, 温带#NN)  (nsubj, 产#VV, 地区#NN)  (advmod, 产#VV, 均#AD)  (conj, 有#VE, 产#VV)  (advmod, 产于#VV, 但#AD)  (advmod, 产于#VV, 主要#AD)  (conj, 有#VE, 产于#VV)  (dobj, 产于#VV, 北温带#NN)   (nsubj, 产#VV, 中国#NR)  (root, ROOT#null, 产#VV)  (range, 产#VV, 270#CD)  (conj, 产#VV, 余#VV)  (dobj, 余#VV, 种#M)  (conj, 余#VV, 分布#VV)  (case, 西南部#NN, 于#P)  (conj, 西南部#NN, 东北#NN)  (cc, 西南部#NN, 至#CC)  (prep, 分布#VV, 西南部#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘性微温。归肺、脾、肝、肾经。补齐固表，托疮生肌。主治体虚自汗，久泻，脱肛，子宫脱垂，慢性肾炎，体虚浮肿，慢性溃疡，疮口久不愈合。
+            1.益气固表
+            生用黄芪，有益气固表、利水消肿、脱毒、生肌的功效，适用于自汗、盗汗、血痹、浮肿、痈疽不溃或溃久不敛等症。
+            2.补气养血
+            蜜炙黄芪有补气、养血、益中功效，适用于内伤劳倦、脾虚泄泻、气虚、血虚、气衰等症。
+            3.降血压
+            现代医学证明，黄芪具有降低血液黏稠度、减少血栓形成、降低血压、保护心脏、双向调节血糖、抗自由基损伤、抗衰老、抗缺氧、抗肿瘤、增强机体免疫力作用，可用来治疗心脏病、高血压、糖尿病等症。黄芪还能扩张血管，改善皮肤血液循环和营养状况，故对慢性溃疡久不愈合者有效。其还能消除肾炎患者的蛋白尿，保护肝脏，防止肝糖原减少。
+        </rawdata>
+
+        <segment>
+            味甘性  微温  。  归肺  、  脾  、  肝  、  肾经  。  补齐  固表  ，  托疮生肌  。  主治  体  虚自汗  ，  久泻  ，  脱肛  ，  子宫  脱垂  ，  慢性  肾炎  ，  体  虚  浮肿  ，  慢性  溃疡  ，  疮口  久  不  愈合  。
+            益气  固  表
+            生  用  黄芪  ，  有  益气  固表  、  利水  消肿  、  脱  毒  、  生肌  的  功效  ，  适用  于  自汗  、  盗汗  、  血痹  、  浮肿  、  痈疽  不  溃或溃久不敛等症  。
+            补气  养  血
+            蜜炙  黄芪  有  补气  、  养  血  、  益中  功效  ，  适用于  内伤  劳倦  、  脾虚  泄泻  、  气虚  、  血虚  、  气  衰  等症  。
+            降  血压
+            现代  医学  证明  ，  黄芪  具有  降低  血液  黏稠度  、  减少  血栓  形成  、  降低  血压  、  保护  心脏  、  双向  调节  血糖  、  抗  自由基  损伤  、  抗  衰老  、  抗  缺氧  、  抗  肿瘤  、  增强  机体  免疫力  作用  ，  可  用来  治疗  心脏病  、  高血压  、  糖尿病  等症  。  黄芪  还  能  扩张  血管  ，  改善  皮肤  血液  循环  和  营养  状况  ，  故  对  慢性  溃疡  久  不  愈合者  有效  。  其  还  能  消除  肾炎  患者  的  蛋白  尿  ，  保护  肝脏  ，  防止  肝糖  原  减少  。
+        </segment>
+
+        <pos>
+            味甘性#NN  微温#VV    。#PU  归肺#NR  、#PU  脾#NR  、#PU  肝#NR  、#PU  肾经#NR    。#PU  补齐#NR  固表#VV  ，#PU  托疮生肌#VV    。#PU  主治#NN  体#NN  虚自汗#VV  ，#PU  久泻#NN  ，#PU  脱肛#NN  ，#PU  子宫#NN  脱垂#NN  ，#PU  慢性#NN  肾炎#NN  ，#PU  体#NN  虚#AD  浮肿#VV  ，#PU  慢性#VV  溃疡#NN  ，#PU  疮口#NN  久#AD  不#AD  愈合#VV    。#PU    。#PU
+            益气#NN  固#AD  表#VV
+            生#VV  用#P  黄芪#NN  ，#PU  有#VE  益气#NN  固表#NN  、#PU  利水#NN  消肿#NN  、#PU  脱#NN  毒#NN  、#PU  生肌#NN  的#DEG  功效#NN  ，#PU  适用#NN  于#P  自汗#NR  、#PU  盗汗#NR  、#PU  血痹#NR  、#PU  浮肿#NR  、#PU  痈疽#NR  不#AD  溃或溃久不敛等症#VV  。#PU
+            补气#NN  养#VV  血#NN
+            蜜炙#NN  黄芪#NN  有#VE  补气#NN  、#PU  养#VV  血#NN  、#PU  益中#NN  功效#NN  ，#PU  适用于#VV  内伤#NR  劳倦#NR  、#PU  脾虚#NR  泄泻#NR  、#PU  气虚#NR  、#PU  血虚#NR  、#PU  气#NN  衰#VV  等症#NN  。#PU
+            降#NN  血压#VA
+            现代#JJ  医学#NN  证明#VV  ，#PU  黄芪#NN  具有#VV  降低#VV  血液#NN  黏稠度#NN  、#PU  减少#VV  血栓#NN  形成#NN  、#PU  降低#VV  血压#NN  、#PU  保护#VV  心脏#NN  、#PU  双向#AD  调节#VV  血糖#NN  、#PU  抗#VV  自由基#NR  损伤#NR  、#PU  抗#NR  衰老#NR  、#PU  抗#NR  缺氧#NR  、#PU  抗#NR  肿瘤#NN  、#PU  增强#VV  机体#NN  免疫力#NN  作用#NN  ，#PU  可#VV  用来#VV  治疗#NN  心脏病#NN  、#PU  高血压#NN  、#PU  糖尿病#NN  等症#NN    。#PU  黄芪#NN  还#AD  能#VV  扩张#VV  血管#NN  ，#PU  改善#VV  皮肤#NN  血液#NN  循环#NN  和#CC  营养#VA  状况#NN  ，#PU  故#AD  对#P  慢性#NN  溃疡#NN  久#AD  不#AD  愈合者#AD  有效#VA    。#PU  其#PN  还#AD  能#VV  消除#VV  肾炎#NN  患者#NN  的#DEG  蛋白#NN  尿#NN  ，#PU  保护#VV  肝脏#NN  ，#PU  防止#VV  肝糖#NN  原#AD  减少#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 微温#VV, 味甘性#NN)  (root, ROOT#null, 微温#VV)   (conj, 肾经#NR, 归肺#NR)  (conj, 肾经#NR, 脾#NR)  (conj, 肾经#NR, 肝#NR)  (root, ROOT#null, 肾经#NR)   (nsubj, 固表#VV, 补齐#NR)  (root, ROOT#null, 固表#VV)  (ccomp, 固表#VV, 托疮生肌#VV)   (nn, 体#NN, 主治#NN)  (nsubj, 虚自汗#VV, 体#NN)  (root, ROOT#null, 虚自汗#VV)  (nsubj, 浮肿#VV, 久泻#NN)  (nsubj, 浮肿#VV, 脱肛#NN)  (nn, 脱垂#NN, 子宫#NN)  (nsubj, 浮肿#VV, 脱垂#NN)  (nn, 肾炎#NN, 慢性#NN)  (nsubj, 浮肿#VV, 肾炎#NN)  (nsubj, 浮肿#VV, 体#NN)  (advmod, 浮肿#VV, 虚#AD)  (ccomp, 虚自汗#VV, 浮肿#VV)  (dep, 浮肿#VV, 慢性#VV)  (dobj, 慢性#VV, 溃疡#NN)  (nsubj, 愈合#VV, 疮口#NN)  (advmod, 愈合#VV, 久#AD)  (neg, 愈合#VV, 不#AD)  (conj, 浮肿#VV, 愈合#VV)   (root, ROOT#null, null#null)
+            (nsubj, 表#VV, 益气#NN)  (advmod, 表#VV, 固#AD)  (root, ROOT#null, 表#VV)
+            (root, ROOT#null, 生#VV)  (case, 黄芪#NN, 用#P)  (prep, 生#VV, 黄芪#NN)  (dep, 生#VV, 有#VE)  (nn, 生肌#NN, 益气#NN)  (conj, 生肌#NN, 固表#NN)  (nn, 生肌#NN, 利水#NN)  (conj, 生肌#NN, 消肿#NN)  (nn, 生肌#NN, 脱#NN)  (conj, 生肌#NN, 毒#NN)  (assmod, 功效#NN, 生肌#NN)  (case, 生肌#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)  (nsubj, 溃或溃久不敛等症#VV, 适用#NN)  (case, 痈疽#NR, 于#P)  (conj, 痈疽#NR, 自汗#NR)  (conj, 痈疽#NR, 盗汗#NR)  (conj, 痈疽#NR, 血痹#NR)  (conj, 痈疽#NR, 浮肿#NR)  (prep, 溃或溃久不敛等症#VV, 痈疽#NR)  (neg, 溃或溃久不敛等症#VV, 不#AD)  (dep, 生#VV, 溃或溃久不敛等症#VV)
+            (nsubj, 养#VV, 补气#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)
+            (nn, 黄芪#NN, 蜜炙#NN)  (nsubj, 有#VE, 黄芪#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 补气#NN)  (conj, 有#VE, 养#VV)  (conj, 功效#NN, 血#NN)  (nn, 功效#NN, 益中#NN)  (dobj, 养#VV, 功效#NN)  (conj, 有#VE, 适用于#VV)  (nn, 气#NN, 内伤#NR)  (conj, 血虚#NR, 劳倦#NR)  (nn, 血虚#NR, 脾虚#NR)  (conj, 血虚#NR, 泄泻#NR)  (conj, 血虚#NR, 气虚#NR)  (conj, 气#NN, 血虚#NR)  (dobj, 适用于#VV, 气#NN)  (conj, 适用于#VV, 衰#VV)  (dobj, 衰#VV, 等症#NN)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (amod, 医学#NN, 现代#JJ)  (nsubj, 证明#VV, 医学#NN)  (root, ROOT#null, 证明#VV)  (nsubj, 具有#VV, 黄芪#NN)  (ccomp, 证明#VV, 具有#VV)  (nfincl, 作用#NN, 降低#VV)  (nn, 黏稠度#NN, 血液#NN)  (dobj, 降低#VV, 黏稠度#NN)  (conj, 降低#VV, 减少#VV)  (nn, 形成#NN, 血栓#NN)  (dobj, 减少#VV, 形成#NN)  (conj, 降低#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (conj, 降低#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)  (advmod, 调节#VV, 双向#AD)  (conj, 降低#VV, 调节#VV)  (dobj, 调节#VV, 血糖#NN)  (conj, 降低#VV, 抗#VV)  (nn, 抗#NR, 自由基#NR)  (conj, 抗#NR, 损伤#NR)  (nn, 抗#NR, 抗#NR)  (conj, 抗#NR, 衰老#NR)  (nn, 抗#NR, 抗#NR)  (conj, 抗#NR, 缺氧#NR)  (nn, 肿瘤#NN, 抗#NR)  (dobj, 抗#VV, 肿瘤#NN)  (conj, 降低#VV, 增强#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 增强#VV, 免疫力#NN)  (dobj, 具有#VV, 作用#NN)  (mmod, 用来#VV, 可#VV)  (conj, 具有#VV, 用来#VV)  (nn, 等症#NN, 治疗#NN)  (conj, 等症#NN, 心脏病#NN)  (conj, 等症#NN, 高血压#NN)  (nn, 等症#NN, 糖尿病#NN)  (dobj, 用来#VV, 等症#NN)   (nsubj, 扩张#VV, 黄芪#NN)  (advmod, 扩张#VV, 还#AD)  (mmod, 扩张#VV, 能#VV)  (root, ROOT#null, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (conj, 扩张#VV, 改善#VV)  (nn, 循环#NN, 皮肤#NN)  (nn, 循环#NN, 血液#NN)  (conj, 状况#NN, 循环#NN)  (cc, 状况#NN, 和#CC)  (relcl, 状况#NN, 营养#VA)  (dobj, 改善#VV, 状况#NN)  (advmod, 有效#VA, 故#AD)  (case, 溃疡#NN, 对#P)  (nn, 溃疡#NN, 慢性#NN)  (prep, 有效#VA, 溃疡#NN)  (advmod, 有效#VA, 久#AD)  (neg, 有效#VA, 不#AD)  (advmod, 有效#VA, 愈合者#AD)  (conj, 扩张#VV, 有效#VA)   (nsubj, 消除#VV, 其#PN)  (advmod, 消除#VV, 还#AD)  (mmod, 消除#VV, 能#VV)  (root, ROOT#null, 消除#VV)  (nn, 患者#NN, 肾炎#NN)  (assmod, 尿#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (nn, 尿#NN, 蛋白#NN)  (dobj, 消除#VV, 尿#NN)  (conj, 消除#VV, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (conj, 消除#VV, 防止#VV)  (dobj, 防止#VV, 肝糖#NN)  (advmod, 减少#VV, 原#AD)  (dep, 防止#VV, 减少#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血压
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            黄芪含皂甙、蔗糖、多糖、多种氨基酸、叶酸及硒、锌、铜等多种微量元素。
+        </rawdata>
+
+        <segment>
+            黄芪含  皂甙  、  蔗糖  、  多糖  、  多  种  氨基酸  、  叶酸  及硒  、  锌  、  铜  等  多  种  微量  元素  。
+        </segment>
+
+        <pos>
+            黄芪含#VV  皂甙#NR  、#PU  蔗糖#NR  、#PU  多糖#NR  、#PU  多#CD  种#M  氨基酸#NN  、#PU  叶酸#NN  及硒#NN  、#PU  锌#NN  、#PU  铜#NN  等#ETC  多#CD  种#M  微量#JJ  元素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄芪含#VV)  (conj, 多糖#NR, 皂甙#NR)  (conj, 多糖#NR, 蔗糖#NR)  (conj, 铜#NN, 多糖#NR)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 铜#NN, 氨基酸#NN)  (nn, 及硒#NN, 叶酸#NN)  (conj, 铜#NN, 及硒#NN)  (conj, 铜#NN, 锌#NN)  (nn, 元素#NN, 铜#NN)  (etc, 铜#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (amod, 元素#NN, 微量#JJ)  (dobj, 黄芪含#VV, 元素#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.脾胃虚弱、食欲不振、食少便溏、肢倦无力等症，常与党参、白术、山药同用；
+            2.气虚下陷、内脏下垂，如脱肛、子宫脱落、胃下垂等，常与党参、升麻、柴胡等同用，方如补中益气汤。
+        </rawdata>
+
+        <segment>
+            脾胃  虚弱  、  食欲不振  、  食少便溏  、  肢倦  无力  等症  ，  常  与  党参  、  白术  、  山药  同用  ；
+            气虚  下陷  、  内脏  下垂  ，  如  脱肛  、  子宫  脱落  、  胃下垂  等  ，  常与  党参  、  升麻  、  柴胡  等  同用  ，  方  如  补  中  益气  汤  。
+        </segment>
+
+        <pos>
+            脾胃#NR  虚弱#NR  、#PU  食欲不振#NR  、#PU  食少便溏#NR  、#PU  肢倦#NR  无力#NN  等症#NN  ，#PU  常#AD  与#P  党参#NR  、#PU  白术#NR  、#PU  山药#NR  同用#VV  ；#PU
+            气虚#NN  下陷#NN  、#PU  内脏#NN  下垂#NN  ，#PU  如#AD  脱肛#NN  、#PU  子宫#NN  脱落#NN  、#PU  胃下垂#NN  等#ETC  ，#PU  常与#NR  党参#NR  、#PU  升麻#NR  、#PU  柴胡#NR  等#ETC  同用#NN  ，#PU  方#NN  如#P  补#NN  中#LC  益气#VV  汤#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肢倦#NR, 脾胃#NR)  (conj, 肢倦#NR, 虚弱#NR)  (conj, 肢倦#NR, 食欲不振#NR)  (conj, 肢倦#NR, 食少便溏#NR)  (nn, 等症#NN, 肢倦#NR)  (nn, 等症#NN, 无力#NN)  (nsubj, 同用#VV, 等症#NN)  (advmod, 同用#VV, 常#AD)  (case, 山药#NR, 与#P)  (conj, 山药#NR, 党参#NR)  (conj, 山药#NR, 白术#NR)  (prep, 同用#VV, 山药#NR)  (root, ROOT#null, 同用#VV)
+            (nn, 下垂#NN, 气虚#NN)  (conj, 下垂#NN, 下陷#NN)  (nn, 下垂#NN, 内脏#NN)  (nsubj, 益气#VV, 下垂#NN)  (advmod, 胃下垂#NN, 如#AD)  (conj, 胃下垂#NN, 脱肛#NN)  (nn, 胃下垂#NN, 子宫#NN)  (conj, 胃下垂#NN, 脱落#NN)  (nsubj, 益气#VV, 胃下垂#NN)  (etc, 胃下垂#NN, 等#ETC)  (nn, 柴胡#NR, 常与#NR)  (conj, 柴胡#NR, 党参#NR)  (conj, 柴胡#NR, 升麻#NR)  (nn, 同用#NN, 柴胡#NR)  (etc, 柴胡#NR, 等#ETC)  (nsubj, 益气#VV, 同用#NN)  (nsubj, 益气#VV, 方#NN)  (case, 补#NN, 如#P)  (prep, 益气#VV, 补#NN)  (case, 补#NN, 中#LC)  (root, ROOT#null, 益气#VV)  (dobj, 益气#VV, 汤#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/1610454.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\424 黄芪.jpg
+    </picturelocalurl>
+
+</content>

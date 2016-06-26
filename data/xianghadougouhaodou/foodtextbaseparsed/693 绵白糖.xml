@@ -1,0 +1,155 @@
+<content>
+
+    <id>
+        693
+    </id>
+
+    <foodname>
+        绵白糖
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        绵糖、白糖
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者不宜食用。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 食用#VV, 患者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            质地绵软、细腻，结晶颗粒细小，并在生产过程中喷入了2.5%左右的转化糖浆。
+        </rawdata>
+
+        <segment>
+            质地  绵软  、  细腻  ，  结晶  颗粒  细小  ，  并  在  生产  过程  中  喷入  了  5%  左右  的  转化  糖浆  。
+        </segment>
+
+        <pos>
+            质地#NR  绵软#NR  、#PU  细腻#NR  ，#PU  结晶#NN  颗粒#NN  细小#NN  ，#PU  并#AD  在#P  生产#NN  过程#NN  中#LC  喷入#VV  了#AS  5#CD  %#NN  左右#LC  的#DEG  转化#NN  糖浆#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 细腻#NR, 质地#NR)  (conj, 细腻#NR, 绵软#NR)  (nsubj, 喷入#VV, 细腻#NR)  (nn, 颗粒#NN, 结晶#NN)  (nsubj, 喷入#VV, 颗粒#NN)  (dep, 喷入#VV, 细小#NN)  (advmod, 喷入#VV, 并#AD)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 生产#NN)  (prep, 喷入#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 喷入#VV)  (asp, 喷入#VV, 了#AS)  (nummod, %#NN, 5#CD)  (assmod, 糖浆#NN, %#NN)  (case, %#NN, 左右#LC)  (case, %#NN, 的#DEG)  (nn, 糖浆#NN, 转化#NN)  (dobj, 喷入#VV, 糖浆#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.适当食用白糖有助于提高机体对钙的吸收，但过多就会妨碍钙的吸收；
+            2.吃糖后应及时漱口或刷牙，以防龋齿的产生；
+            3.糖尿病病人不易直接食用食糖，最好是以甜味剂替代;
+            4.白砂糖味甘、性平，归脾、肺经；有润肺生津、止咳、和中益肺、舒缓肝气、滋阴、调味、除口臭、解盐卤毒之功效。
+        </rawdata>
+
+        <segment>
+            适当  食用  白糖  有助于  提高  机体  对  钙  的  吸收  ，  但  过多  就  会  妨碍  钙  的  吸收  ；
+            吃  糖  后  应  及时  漱口  或  刷牙  ，  以防  龋齿  的  产生  ；
+            糖尿病  病人  不易  直接  食用  食糖  ，  最好  是  以  甜味剂  替代  ;
+            白砂糖  味  甘  、  性平  ，  归脾  、  肺经  ；  有  润肺  生津  、  止咳  、  和  中益肺  、  舒缓  肝气  、  滋阴  、  调味  、  除  口臭  、  解  盐卤  毒  之  功效  。
+        </segment>
+
+        <pos>
+            适当#AD  食用#VV  白糖#AD  有助于#VV  提高#VV  机体#NR  对#P  钙#NN  的#DEG  吸收#NN  ，#PU  但#AD  过多#NN  就#AD  会#VV  妨碍#VV  钙#NN  的#DEG  吸收#NN  ；#PU
+            吃#VV  糖#NN  后#LC  应#VV  及时#AD  漱口#VV  或#CC  刷牙#VV  ，#PU  以防#VV  龋齿#NN  的#DEG  产生#NN  ；#PU
+            糖尿病#NN  病人#NN  不易#NN  直接#AD  食用#VV  食糖#NN  ，#PU  最好#JJ  是#VC  以#P  甜味剂#NN  替代#VV  ;#NN
+            白砂糖#NN  味#VV  甘#NR  、#PU  性平#NR  ，#PU  归脾#NR  、#PU  肺经#NR  ；#PU  有#VE  润肺#NR  生津#NN  、#PU  止咳#NN  、#PU  和#CC  中益肺#NR  、#PU  舒缓#NR  肝气#NR  、#PU  滋阴#NR  、#PU  调味#NR  、#PU  除#P  口臭#NN  、#PU  解#VV  盐卤#NN  毒#NN  之#DEC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 适当#AD)  (dep, 有助于#VV, 食用#VV)  (advmod, 有助于#VV, 白糖#AD)  (root, ROOT#null, 有助于#VV)  (ccomp, 有助于#VV, 提高#VV)  (nn, 吸收#NN, 机体#NR)  (case, 钙#NN, 对#P)  (assmod, 吸收#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 提高#VV, 吸收#NN)  (advmod, 妨碍#VV, 但#AD)  (nsubj, 妨碍#VV, 过多#NN)  (advmod, 妨碍#VV, 就#AD)  (mmod, 妨碍#VV, 会#VV)  (dep, 有助于#VV, 妨碍#VV)  (assmod, 吸收#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 妨碍#VV, 吸收#NN)
+            (loc, 漱口#VV, 吃#VV)  (dobj, 吃#VV, 糖#NN)  (case, 吃#VV, 后#LC)  (mmod, 漱口#VV, 应#VV)  (advmod, 漱口#VV, 及时#AD)  (root, ROOT#null, 漱口#VV)  (cc, 漱口#VV, 或#CC)  (conj, 漱口#VV, 刷牙#VV)  (conj, 漱口#VV, 以防#VV)  (assmod, 产生#NN, 龋齿#NN)  (case, 龋齿#NN, 的#DEG)  (dobj, 以防#VV, 产生#NN)
+            (nn, 不易#NN, 糖尿病#NN)  (nn, 不易#NN, 病人#NN)  (nsubj, 食用#VV, 不易#NN)  (advmod, 食用#VV, 直接#AD)  (dep, 替代#VV, 食用#VV)  (dobj, 食用#VV, 食糖#NN)  (dep, 食用#VV, 最好#JJ)  (cop, 替代#VV, 是#VC)  (case, 甜味剂#NN, 以#P)  (prep, 替代#VV, 甜味剂#NN)  (root, ROOT#null, 替代#VV)  (dobj, 替代#VV, ;#NN)
+            (nsubj, 味#VV, 白砂糖#NN)  (root, ROOT#null, 味#VV)  (conj, 肺经#NR, 甘#NR)  (dep, 肺经#NR, 性平#NR)  (conj, 肺经#NR, 归脾#NR)  (dobj, 味#VV, 肺经#NR)  (conj, 味#VV, 有#VE)  (nn, 功效#NN, 润肺#NR)  (conj, 功效#NN, 生津#NN)  (dep, 功效#NN, 止咳#NN)  (cc, 功效#NN, 和#CC)  (conj, 调味#NR, 中益肺#NR)  (nn, 调味#NR, 舒缓#NR)  (conj, 调味#NR, 肝气#NR)  (conj, 调味#NR, 滋阴#NR)  (conj, 功效#NN, 调味#NR)  (case, 口臭#NN, 除#P)  (prep, 解#VV, 口臭#NN)  (relcl, 功效#NN, 解#VV)  (nn, 毒#NN, 盐卤#NN)  (dobj, 解#VV, 毒#NN)  (mark, 解#VV, 之#DEC)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗菌  解毒  清热  凉血  止痒  软坚  杀虫  催吐
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.炒菜时不小心把盐放多了，加入适量白糖，就可解咸；
+            2.糖很容易生螨，存放日久的糖不要生吃，应煮开后食用。
+        </rawdata>
+
+        <segment>
+            炒菜  时  不  小心  把  盐  放  多  了  ，  加入  适量  白糖  ，  就  可解  咸  ；
+            糖  很  容易  生螨  ，  存放  日久  的  糖  不  要  生吃  ，  应  煮开  后  食用  。
+        </segment>
+
+        <pos>
+            炒菜#NN  时#LC  不#AD  小心#VV  把#BA  盐#NN  放#VV  多#VA  了#AS  ，#PU  加入#VV  适量#NN  白糖#NN  ，#PU  就#AD  可解#VV  咸#NN  ；#PU
+            糖#NN  很#AD  容易#VA  生螨#VA  ，#PU  存放#VV  日久#NN  的#DEC  糖#NN  不#AD  要#VV  生吃#VV  ，#PU  应#P  煮开#NN  后#LC  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 小心#VV, 炒菜#NN)  (case, 炒菜#NN, 时#LC)  (neg, 小心#VV, 不#AD)  (root, ROOT#null, 小心#VV)  (ba, 放#VV, 把#BA)  (nsubj, 放#VV, 盐#NN)  (ccomp, 小心#VV, 放#VV)  (dep, 放#VV, 多#VA)  (asp, 多#VA, 了#AS)  (dep, 放#VV, 加入#VV)  (nn, 白糖#NN, 适量#NN)  (dobj, 加入#VV, 白糖#NN)  (advmod, 可解#VV, 就#AD)  (conj, 小心#VV, 可解#VV)  (dobj, 可解#VV, 咸#NN)
+            (nsubj, 容易#VA, 糖#NN)  (advmod, 容易#VA, 很#AD)  (root, ROOT#null, 容易#VA)  (comod, 容易#VA, 生螨#VA)  (relcl, 糖#NN, 存放#VV)  (dobj, 存放#VV, 日久#NN)  (mark, 存放#VV, 的#DEC)  (nsubj, 生吃#VV, 糖#NN)  (neg, 生吃#VV, 不#AD)  (dep, 生吃#VV, 要#VV)  (conj, 容易#VA, 生吃#VV)  (case, 煮开#NN, 应#P)  (prep, 食用#VV, 煮开#NN)  (case, 煮开#NN, 后#LC)  (conj, 容易#VA, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/58/30/12376_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\693 绵白糖.jpg
+    </picturelocalurl>
+
+</content>

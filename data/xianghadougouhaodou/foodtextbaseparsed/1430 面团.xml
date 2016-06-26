@@ -1,0 +1,121 @@
+<content>
+
+    <id>
+        1430
+    </id>
+
+    <foodname>
+        面团
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            面粉和其他成分的混合物,具备足够的硬度可资揉捏或卷绕
+        </rawdata>
+
+        <segment>
+            面粉  和  其他  成分  的  混合物  ,  具备  足够  的  硬度  可资  揉  捏  或  卷绕
+        </segment>
+
+        <pos>
+            面粉#NN  和#CC  其他#DT  成分#NN  的#DEG  混合物#NN  ,#AD  具备#VV  足够#VA  的#DEC  硬度#NN  可资#NN  揉#AD  捏#VV  或#CC  卷绕#VV
+        </pos>
+
+        <parsing>
+            (conj, 混合物#NN, 面粉#NN)  (cc, 混合物#NN, 和#CC)  (det, 成分#NN, 其他#DT)  (assmod, 混合物#NN, 成分#NN)  (case, 成分#NN, 的#DEG)  (nsubj, 具备#VV, 混合物#NN)  (root, ROOT#null, 具备#VV)  (relcl, 硬度#NN, 足够#VA)  (mark, 足够#VA, 的#DEC)  (dobj, 具备#VV, 硬度#NN)  (nsubj, 捏#VV, 可资#NN)  (advmod, 捏#VV, 揉#AD)  (conj, 具备#VV, 捏#VV)  (cc, 捏#VV, 或#CC)  (conj, 捏#VV, 卷绕#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            面包含有蛋白质、脂肪、碳水化合物、少量维生素及钙、钾、镁、锌等矿物质，口味多样，易于消化、吸收，食用方便，在日常生活中颇受人们喜爱。
+        </rawdata>
+
+        <segment>
+            面包  含有  蛋白质  、  脂肪  、  碳水化合物  、  少量  维生素  及  钙  、  钾  、  镁  、  锌  等  矿物质  ，  口味  多样  ，  易于  消化  、  吸收  ，  食用  方便  ，  在  日常  生活  中  颇  受  人们  喜爱  。
+        </segment>
+
+        <pos>
+            面包#NN  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  少量#CD  维生素#NN  及#CC  钙#NN  、#PU  钾#NN  、#PU  镁#NN  、#PU  锌#NN  等#ETC  矿物质#NN  ，#PU  口味#NN  多样#VA  ，#PU  易于#VV  消化#NN  、#PU  吸收#VV  ，#PU  食用#VV  方便#NN  ，#PU  在#P  日常#JJ  生活#NN  中#LC  颇#AD  受#VV  人们#NN  喜爱#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 面包#NN)  (root, ROOT#null, 含有#VV)  (conj, 锌#NN, 蛋白质#NN)  (conj, 锌#NN, 脂肪#NN)  (conj, 锌#NN, 碳水化合物#NN)  (nummod, 维生素#NN, 少量#CD)  (conj, 锌#NN, 维生素#NN)  (cc, 锌#NN, 及#CC)  (conj, 锌#NN, 钙#NN)  (conj, 锌#NN, 钾#NN)  (conj, 锌#NN, 镁#NN)  (nn, 矿物质#NN, 锌#NN)  (etc, 锌#NN, 等#ETC)  (dobj, 含有#VV, 矿物质#NN)  (nsubj, 多样#VA, 口味#NN)  (conj, 含有#VV, 多样#VA)  (conj, 含有#VV, 易于#VV)  (dobj, 易于#VV, 消化#NN)  (conj, 易于#VV, 吸收#VV)  (conj, 易于#VV, 食用#VV)  (dobj, 食用#VV, 方便#NN)  (case, 生活#NN, 在#P)  (amod, 生活#NN, 日常#JJ)  (prep, 受#VV, 生活#NN)  (case, 生活#NN, 中#LC)  (advmod, 受#VV, 颇#AD)  (conj, 易于#VV, 受#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 受#VV, 喜爱#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/c9/19/6601_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1430 面团.jpg
+    </picturelocalurl>
+
+</content>

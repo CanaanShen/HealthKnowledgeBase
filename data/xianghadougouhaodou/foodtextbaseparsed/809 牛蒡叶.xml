@@ -1,0 +1,143 @@
+<content>
+
+    <id>
+        809
+    </id>
+
+    <foodname>
+        牛蒡叶
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        大夫叶
+    </alias>
+
+    <season>
+        春、夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            脾虚便溏者禁服。;
+        </rawdata>
+
+        <segment>
+            脾虚  便  溏者  禁服  。  ;
+        </segment>
+
+        <pos>
+            脾虚#NN  便#AD  溏者#VV  禁服#NN  。#PU  ;#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 溏者#VV, 脾虚#NN)  (advmod, 溏者#VV, 便#AD)  (dep, ;#VV, 溏者#VV)  (dobj, 溏者#VV, 禁服#NN)  (root, ROOT#null, ;#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛蒡叶含抗菌物质最多，又含氧化酶。
+            牛蒡的嫩茎叶（苗）或叶。春季采收，洗净鲜用，或晒干用。
+        </rawdata>
+
+        <segment>
+            牛蒡  叶  含  抗菌  物质  最多  ，  又  含  氧化酶  。
+            牛蒡  的  嫩茎  叶  （  苗  ）  或  叶  。  春季  采收  ，  洗净  鲜  用  ，  或  晒干  用  。
+        </segment>
+
+        <pos>
+            牛蒡#NN  叶#NN  含#VV  抗菌#NN  物质#NN  最多#AD  ，#PU  又#AD  含#VV  氧化酶#NN  。#PU
+            牛蒡#NN  的#DEG  嫩茎#NR  叶#NR  （#PU  苗#NR  ）#PU  或#CC  叶#NN    。#PU  春季#NT  采收#VV  ，#PU  洗净#NN  鲜#AD  用#VV  ，#PU  或#CC  晒干#AD  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 叶#NN, 牛蒡#NN)  (nsubj, 含#VV, 叶#NN)  (relcl, 物质#NN, 含#VV)  (dobj, 含#VV, 抗菌#NN)  (nsubj, 含#VV, 物质#NN)  (advmod, 含#VV, 最多#AD)  (advmod, 含#VV, 又#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 氧化酶#NN)
+            (assmod, 叶#NN, 牛蒡#NN)  (case, 牛蒡#NN, 的#DEG)  (nn, 叶#NN, 嫩茎#NR)  (conj, 叶#NN, 叶#NR)  (prnmod, 叶#NR, 苗#NR)  (cc, 叶#NN, 或#CC)  (root, ROOT#null, 叶#NN)   (tmod, 采收#VV, 春季#NT)  (root, ROOT#null, 采收#VV)  (nsubj, 用#VV, 洗净#NN)  (advmod, 用#VV, 鲜#AD)  (ccomp, 采收#VV, 用#VV)  (cc, 用#VV, 或#CC)  (advmod, 用#VV, 晒干#AD)  (dep, 用#VV, 用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热除火,化痰止咳,润肺,解毒,通便,亮发,疗头痛头晕,益肝,润肠,其他功效
+        </rawdata>
+
+        <segment>
+            清热  除  火  ,  化痰  止咳  ,  润肺  ,  解毒  ,  通便  ,  亮发  ,  疗头痛  头晕  ,  益肝  ,  润肠  ,  其他  功效
+        </segment>
+
+        <pos>
+            清热#NR  除#P  火#NN  ,#NN  化痰#NN  止咳#NN  ,#NN  润肺#NN  ,#NN  解毒#NN  ,#NN  通便#NN  ,#NN  亮发#NN  ,#NN  疗头痛#NN  头晕#NN  ,#NN  益肝#NN  ,#NN  润肠#NN  ,#VV  其他#DT  功效#NN
+        </pos>
+
+        <parsing>
+            (nsubj, ,#VV, 清热#NR)  (root, ,#VV, 清热#NR)  (case, 润肠#NN, 除#P)  (nn, 润肠#NN, 火#NN)  (nn, 润肠#NN, 化痰#NN)  (nn, 润肠#NN, 止咳#NN)  (nn, 润肠#NN, 润肺#NN)  (nn, 润肠#NN, 解毒#NN)  (nn, 润肠#NN, 通便#NN)  (nn, 润肠#NN, 亮发#NN)  (nn, 润肠#NN, 疗头痛#NN)  (nn, 润肠#NN, 头晕#NN)  (nn, 润肠#NN, 益肝#NN)  (prep, 清热#NR, 润肠#NN)  (prep, ,#VV, 润肠#NN)  (det, 功效#NN, 其他#DT)  (dobj, 清热#NR, 功效#NN)  (dobj, ,#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  消肿止痛  清热除烦
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            可以煮食，炒食，煎水代茶。
+        </rawdata>
+
+        <segment>
+            可以  煮食  ，  炒食  ，  煎水  代  茶  。
+        </segment>
+
+        <pos>
+            可以#VV  煮食#NN  ，#PU  炒食#VV  ，#PU  煎水#CD  代#M  茶#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 可以#VV)  (dobj, 可以#VV, 煮食#NN)  (conj, 可以#VV, 炒食#VV)  (nummod, 代#M, 煎水#CD)  (clf, 茶#NN, 代#M)  (dep, 可以#VV, 茶#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/51/41/82257_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\809 牛蒡叶.jpg
+    </picturelocalurl>
+
+</content>

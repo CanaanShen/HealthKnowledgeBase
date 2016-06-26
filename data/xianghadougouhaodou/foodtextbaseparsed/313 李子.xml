@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        313
+    </id>
+
+    <foodname>
+        李子
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        麦李、脆李、金沙李、嘉庆子、李实、嘉应子
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            溃疡病及急、慢性胃肠炎、IGA肾病患者忌服；脾虚痰湿及小儿不宜多吃。
+        </rawdata>
+
+        <segment>
+            溃疡病  及急  、  慢性  胃肠炎  、  IGA  肾病  患者  忌服  ；  脾虚  痰湿  及  小儿  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            溃疡病#NR  及急#NR  、#PU  慢性#NR  胃肠炎#NR  、#PU  IGA#NR  肾病#NN  患者#NN  忌服#VV  ；#PU  脾虚#NR  痰湿#NN  及#CC  小儿#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, IGA#NR, 溃疡病#NR)  (conj, IGA#NR, 及急#NR)  (nn, IGA#NR, 慢性#NR)  (conj, IGA#NR, 胃肠炎#NR)  (nn, 患者#NN, IGA#NR)  (nn, 患者#NN, 肾病#NN)  (nsubj, 忌服#VV, 患者#NN)  (root, ROOT#null, 忌服#VV)  (nn, 小儿#NN, 脾虚#NR)  (conj, 小儿#NN, 痰湿#NN)  (cc, 小儿#NN, 及#CC)  (nsubj, 吃#VV, 小儿#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (ccomp, 忌服#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。发热、口渴、虚痨骨蒸、肝病腹水者，教师、演员音哑或失音者，慢性肝炎、肝硬化者尤益食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  发热  、  口渴  、  虚痨骨蒸  、  肝病  腹水  者  ，  教师  、  演员  音哑  或  失音者  ，  慢性  肝炎  、  肝硬化  者  尤益  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  发热#NN  、#PU  口渴#NN  、#PU  虚痨骨蒸#NN  、#PU  肝病#NN  腹水#NN  者#NN  ，#PU  教师#NN  、#PU  演员#NN  音哑#NN  或#CC  失音者#NN  ，#PU  慢性#JJ  肝炎#NN  、#PU  肝硬化#NN  者#NN  尤益#AD  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (conj, 腹水#NN, 发热#NN)  (conj, 腹水#NN, 口渴#NN)  (conj, 腹水#NN, 虚痨骨蒸#NN)  (nn, 腹水#NN, 肝病#NN)  (nn, 者#NN, 腹水#NN)  (dep, 者#NN, 者#NN)  (conj, 演员#NN, 教师#NN)  (nn, 失音者#NN, 演员#NN)  (conj, 失音者#NN, 音哑#NN)  (cc, 失音者#NN, 或#CC)  (dep, 者#NN, 失音者#NN)  (amod, 肝炎#NN, 慢性#JJ)  (conj, 者#NN, 肝炎#NN)  (nn, 者#NN, 肝硬化#NN)  (nsubj, 食用#VV, 者#NN)  (advmod, 食用#VV, 尤益#AD)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                8.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                150
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                144
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            李子是蔷薇科植物李的果实，俗称“恐龙蛋”。我国大部分地区均产。7～8月间采收成熟果实，洗净，去核鲜用，或晒干用。饱满圆润，玲珑剔透，形态美艳，口味甘甜，是人们喜食的传统果品之一。它既可鲜食，又可以制成罐头、果脯，是夏季的主要水果之一。
+        </rawdata>
+
+        <segment>
+            李子  是  蔷薇科  植物  李  的  果实  ，  俗称  “  恐龙蛋  ”  。  我国  大部分  地区  均  产  。  7  ～  8月  间  采收  成熟  果实  ，  洗净  ，  去核  鲜用  ，  或  晒干  用  。  饱满  圆润  ，  玲珑  剔透  ，  形态  美艳  ，  口味  甘甜  ，  是  人们  喜  食  的  传统  果品  之一  。  它  既  可  鲜食  ，  又可以  制成  罐头  、  果脯  ，  是  夏季  的  主要  水果  之一  。
+        </segment>
+
+        <pos>
+            李子#AD  是#VC  蔷薇科#JJ  植物#NN  李#NR  的#DEG  果实#NN  ，#PU  俗称#VV  ``#NN  恐龙蛋#NN  ''#NN    。#PU  我国#NR  大部分#CD  地区#NN  均#AD  产#VV    。#PU  7#CD  ～#NN  8月#NT  间#LC  采收#VV  成熟#VA  果实#NN  ，#PU  洗净#VV  ，#PU  去核#VV  鲜用#NN  ，#PU  或#CC  晒干#AD  用#VV    。#PU  饱满#VA  圆润#VA  ，#PU  玲珑#AD  剔透#VV  ，#PU  形态#NN  美艳#VV  ，#PU  口味#NN  甘甜#NN  ，#PU  是#VC  人们#NN  喜#VA  食#NN  的#DEG  传统#JJ  果品#NN  之一#NN    。#PU  它#PN  既#CC  可#VV  鲜食#VV  ，#PU  又可以#AD  制成#VV  罐头#NN  、#PU  果脯#NN  ，#PU  是#VC  夏季#NT  的#DEG  主要#JJ  水果#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 果实#NN, 李子#AD)  (cop, 果实#NN, 是#VC)  (amod, 植物#NN, 蔷薇科#JJ)  (nn, 果实#NN, 植物#NN)  (assmod, 果实#NN, 李#NR)  (case, 李#NR, 的#DEG)  (root, ROOT#null, 果实#NN)  (dep, 果实#NN, 俗称#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 恐龙蛋#NN)  (dobj, 俗称#VV, ''#NN)   (nn, 地区#NN, 我国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 产#VV, 地区#NN)  (advmod, 产#VV, 均#AD)  (root, ROOT#null, 产#VV)   (nummod, ～#NN, 7#CD)  (loc, 采收#VV, 8月#NT)  (case, 8月#NT, 间#LC)  (root, ROOT#null, 采收#VV)  (nfincl, 果实#NN, 成熟#VA)  (dobj, 采收#VV, 果实#NN)  (conj, 采收#VV, 洗净#VV)  (conj, 采收#VV, 去核#VV)  (dobj, 去核#VV, 鲜用#NN)  (cc, 采收#VV, 或#CC)  (advmod, 用#VV, 晒干#AD)  (conj, 采收#VV, 用#VV)   (root, ROOT#null, 饱满#VA)  (comod, 饱满#VA, 圆润#VA)  (advmod, 剔透#VV, 玲珑#AD)  (dep, 饱满#VA, 剔透#VV)  (nsubj, 美艳#VV, 形态#NN)  (ccomp, 剔透#VV, 美艳#VV)  (nn, 甘甜#NN, 口味#NN)  (dep, 之一#NN, 甘甜#NN)  (cop, 之一#NN, 是#VC)  (nsubj, 喜#VA, 人们#NN)  (relcl, 食#NN, 喜#VA)  (assmod, 之一#NN, 食#NN)  (case, 食#NN, 的#DEG)  (amod, 之一#NN, 传统#JJ)  (nn, 之一#NN, 果品#NN)  (ccomp, 美艳#VV, 之一#NN)   (nsubj, 鲜食#VV, 它#PN)  (cc, 鲜食#VV, 既#CC)  (mmod, 鲜食#VV, 可#VV)  (root, ROOT#null, 鲜食#VV)  (advmod, 制成#VV, 又可以#AD)  (conj, 鲜食#VV, 制成#VV)  (conj, 果脯#NN, 罐头#NN)  (dobj, 制成#VV, 果脯#NN)  (cop, 之一#NN, 是#VC)  (assmod, 之一#NN, 夏季#NT)  (case, 夏季#NT, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 水果#NN)  (dep, 鲜食#VV, 之一#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性平、味甘、酸；入肝、肾经。具有生津止渴、清肝除热、利水的功效；主治阴虚内热，骨蒸痨热，消渴引饮，肝胆湿热，腹水，小便不利等病症。
+            1.促进消化
+            李子能促进胃酸和胃消化酶的分泌，有增加肠胃蠕动的作用，因而食李能促进消化，增加食欲，为胃酸缺乏、食后饱胀、大便秘结者的食疗良品。
+            2.清肝利水
+            生食之对于治疗肝硬化腹水大有种益。
+            3.降压、导泻、镇咳
+            可加快肠道蠕动，促进干燥的大便排出，同时也具有止咳祛痰的作用。
+            4.美容养颜
+            可以“去粉滓黑黯”，“令人面泽”，对汗斑、脸生黑斑等有良效。
+        </rawdata>
+
+        <segment>
+            性平  、  味  甘  、  酸  ；  入肝  、  肾经  。  具有  生津止渴  、  清肝除热  、  利水  的  功效  ；  主治  阴虚  内热  ，  骨蒸痨  热  ，  消渴  引饮  ，  肝胆  湿热  ，  腹水  ，  小便  不利  等  病症  。
+            促进  消化
+            李子能  促进  胃酸  和  胃  消化酶  的  分泌  ，  有  增加  肠胃  蠕动  的  作用  ，  因而  食李  能  促进  消化  ，  增加  食欲  ，  为  胃酸  缺乏  、  食  后  饱胀  、  大便  秘结  者  的  食疗  良品  。
+            清  肝利水
+            生食  之  对于  治疗  肝硬化  腹水  大  有  种益  。
+            降压  、  导泻  、  镇咳
+            可  加快  肠道  蠕动  ，  促进  干燥  的  大便  排出  ，  同时  也  具有  止咳  祛痰  的  作用  。
+            美容  养颜
+            可以  “  去  粉滓黑黯  ”  ，  “  令  人  面泽  ”  ，  对  汗斑  、  脸生  黑斑  等  有  良效  。
+        </segment>
+
+        <pos>
+            性平#NR  、#PU  味#NR  甘#NR  、#PU  酸#NR  ；#PU  入肝#NR  、#PU  肾经#NR    。#PU  具有#VV  生津止渴#NR  、#PU  清肝除热#NR  、#PU  利水#NR  的#DEG  功效#NN  ；#PU  主治#VV  阴虚#NN  内热#NN  ，#PU  骨蒸痨#VV  热#NN  ，#PU  消渴#VV  引饮#NN  ，#PU  肝胆#AD  湿热#VA  ，#PU  腹水#NN  ，#PU  小便#AD  不利#VA  等#ETC  病症#NN    。#PU    。#PU
+            促进#VV  消化#NN
+            李子能#NN  促进#VV  胃酸#NN  和#CC  胃#NN  消化酶#NN  的#DEG  分泌#NN  ，#PU  有#VE  增加#VV  肠胃#NN  蠕动#NN  的#DEC  作用#NN  ，#PU  因而#AD  食李#NN  能#VV  促进#VV  消化#NN  ，#PU  增加#VV  食欲#NN  ，#PU  为#P  胃酸#NN  缺乏#VV  、#PU  食#NN  后#LC  饱胀#NN  、#PU  大便#NN  秘结#NN  者#NN  的#DEG  食疗#NN  良品#VV  。#PU
+            清#JJ  肝利水#NN
+            生食#NN  之#DEG  对于#P  治疗#NN  肝硬化#NN  腹水#NN  大#AD  有#VE  种益#NN  。#PU
+            降压#VA  、#PU  导泻#VA  、#PU  镇咳#VA
+            可#VV  加快#VV  肠道#NN  蠕动#NN  ，#PU  促进#VV  干燥#NN  的#DEG  大便#NN  排出#NN  ，#PU  同时#AD  也#AD  具有#VV  止咳#NN  祛痰#NN  的#DEG  作用#NN  。#PU
+            美容#NN  养颜#VV
+            可以#VV  ``#NN  去#MSP  粉滓黑黯#VV  ''#NN  ，#PU  ``#AD  令#VV  人#NN  面泽#VV  ''#NN  ，#PU  对#P  汗斑#NN  、#PU  脸生#NN  黑斑#NN  等#ETC  有#VE  良效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 酸#NR, 性平#NR)  (nn, 酸#NR, 味#NR)  (conj, 酸#NR, 甘#NR)  (dep, 肾经#NR, 酸#NR)  (conj, 肾经#NR, 入肝#NR)  (root, ROOT#null, 肾经#NR)   (root, ROOT#null, 具有#VV)  (conj, 利水#NR, 生津止渴#NR)  (conj, 利水#NR, 清肝除热#NR)  (assmod, 功效#NN, 利水#NR)  (case, 利水#NR, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (conj, 具有#VV, 主治#VV)  (nn, 内热#NN, 阴虚#NN)  (dobj, 主治#VV, 内热#NN)  (conj, 具有#VV, 骨蒸痨#VV)  (dobj, 骨蒸痨#VV, 热#NN)  (conj, 具有#VV, 消渴#VV)  (nsubj, 湿热#VA, 引饮#NN)  (advmod, 湿热#VA, 肝胆#AD)  (nfincl, 病症#NN, 湿热#VA)  (nsubj, 不利#VA, 腹水#NN)  (advmod, 不利#VA, 小便#AD)  (conj, 湿热#VA, 不利#VA)  (dep, 湿热#VA, 等#ETC)  (dobj, 消渴#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 消化#NN)
+            (nsubj, 促进#VV, 李子能#NN)  (root, ROOT#null, 促进#VV)  (conj, 胃#NN, 胃酸#NN)  (cc, 胃#NN, 和#CC)  (nn, 消化酶#NN, 胃#NN)  (assmod, 分泌#NN, 消化酶#NN)  (case, 消化酶#NN, 的#DEG)  (dobj, 促进#VV, 分泌#NN)  (conj, 促进#VV, 有#VE)  (relcl, 作用#NN, 增加#VV)  (nn, 蠕动#NN, 肠胃#NN)  (dobj, 增加#VV, 蠕动#NN)  (mark, 增加#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (advmod, 促进#VV, 因而#AD)  (nsubj, 促进#VV, 食李#NN)  (mmod, 促进#VV, 能#VV)  (conj, 促进#VV, 促进#VV)  (dobj, 促进#VV, 消化#NN)  (conj, 促进#VV, 增加#VV)  (dobj, 增加#VV, 食欲#NN)  (case, 胃酸#NN, 为#P)  (prep, 缺乏#VV, 胃酸#NN)  (conj, 增加#VV, 缺乏#VV)  (loc, 良品#VV, 食#NN)  (case, 食#NN, 后#LC)  (conj, 者#NN, 饱胀#NN)  (nn, 者#NN, 大便#NN)  (nn, 者#NN, 秘结#NN)  (assmod, 食疗#NN, 者#NN)  (case, 者#NN, 的#DEG)  (nsubj, 良品#VV, 食疗#NN)  (conj, 促进#VV, 良品#VV)
+            (amod, 肝利水#NN, 清#JJ)  (root, ROOT#null, 肝利水#NN)
+            (assmod, 腹水#NN, 生食#NN)  (case, 生食#NN, 之#DEG)  (case, 肝硬化#NN, 对于#P)  (nn, 肝硬化#NN, 治疗#NN)  (prep, 腹水#NN, 肝硬化#NN)  (nsubj, 有#VE, 腹水#NN)  (advmod, 有#VE, 大#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 种益#NN)
+            (root, ROOT#null, 降压#VA)  (conj, 降压#VA, 导泻#VA)  (dep, 降压#VA, 镇咳#VA)
+            (mmod, 加快#VV, 可#VV)  (root, ROOT#null, 加快#VV)  (nn, 蠕动#NN, 肠道#NN)  (dobj, 加快#VV, 蠕动#NN)  (conj, 加快#VV, 促进#VV)  (assmod, 排出#NN, 干燥#NN)  (case, 干燥#NN, 的#DEG)  (nn, 排出#NN, 大便#NN)  (dobj, 促进#VV, 排出#NN)  (advmod, 具有#VV, 同时#AD)  (advmod, 具有#VV, 也#AD)  (dep, 加快#VV, 具有#VV)  (nn, 祛痰#NN, 止咳#NN)  (assmod, 作用#NN, 祛痰#NN)  (case, 祛痰#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 养颜#VV, 美容#NN)  (root, ROOT#null, 养颜#VV)
+            (root, ROOT#null, 可以#VV)  (dobj, 可以#VV, ``#NN)  (prtmod, 粉滓黑黯#VV, 去#MSP)  (conj, 可以#VV, 粉滓黑黯#VV)  (dobj, 粉滓黑黯#VV, ''#NN)  (advmod, 令#VV, ``#AD)  (dep, 可以#VV, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 面泽#VV)  (dobj, 面泽#VV, ''#NN)  (case, 黑斑#NN, 对#P)  (conj, 黑斑#NN, 汗斑#NN)  (nn, 黑斑#NN, 脸生#NN)  (prep, 有#VE, 黑斑#NN)  (etc, 黑斑#NN, 等#ETC)  (dep, 可以#VV, 有#VE)  (dobj, 有#VE, 良效#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        护肝  辅助降血压  促进消化  美容养颜  生津止渴  清热  消食积
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            李子的果实含有丰富的糖、维生素、果酸、氨基酸等营养成分。具有很高的营养价值。
+        </rawdata>
+
+        <segment>
+            李子  的  果实  含有  丰富  的  糖  、  维生素  、  果酸  、  氨基酸  等  营养  成分  。  具有  很  高  的  营养  价值  。
+        </segment>
+
+        <pos>
+            李子#NN  的#DEG  果实#NN  含有#VV  丰富#VA  的#DEC  糖#NN  、#PU  维生素#NN  、#PU  果酸#NN  、#PU  氨基酸#NN  等#ETC  营养#VA  成分#NN    。#PU  具有#VV  很#AD  高#VA  的#DEC  营养#VA  价值#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 果实#NN, 李子#NN)  (case, 李子#NN, 的#DEG)  (nsubj, 含有#VV, 果实#NN)  (root, ROOT#null, 含有#VV)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 氨基酸#NN, 糖#NN)  (conj, 氨基酸#NN, 维生素#NN)  (conj, 氨基酸#NN, 果酸#NN)  (nn, 成分#NN, 氨基酸#NN)  (etc, 氨基酸#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)   (root, ROOT#null, 具有#VV)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (dobj, 具有#VV, 价值#NN)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.未熟透的李子不要吃；
+            2.李子含高量的果酸，多食易生痰湿、伤脾胃，又损齿。
+        </rawdata>
+
+        <segment>
+            未  熟透  的  李子  不  要  吃  ；
+            李子  含  高量  的  果酸  ，  多  食  易  生痰湿  、  伤  脾胃  ，  又损齿  。
+        </segment>
+
+        <pos>
+            未#AD  熟透#VV  的#DEC  李子#NN  不#AD  要#VV  吃#VV  ；#PU
+            李子#AD  含#VV  高量#NN  的#DEC  果酸#NN  ，#PU  多#CD  食#NN  易#AD  生痰湿#VV  、#PU  伤#VV  脾胃#NN  ，#PU  又损齿#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 熟透#VV, 未#AD)  (relcl, 李子#NN, 熟透#VV)  (mark, 熟透#VV, 的#DEC)  (nsubj, 吃#VV, 李子#NN)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 要#VV)  (root, ROOT#null, 吃#VV)
+            (advmod, 含#VV, 李子#AD)  (relcl, 果酸#NN, 含#VV)  (dobj, 含#VV, 高量#NN)  (mark, 含#VV, 的#DEC)  (nsubj, 生痰湿#VV, 果酸#NN)  (nummod, 食#NN, 多#CD)  (nsubj, 生痰湿#VV, 食#NN)  (advmod, 生痰湿#VV, 易#AD)  (root, ROOT#null, 生痰湿#VV)  (dep, 生痰湿#VV, 伤#VV)  (dobj, 伤#VV, 脾胃#NN)  (conj, 生痰湿#VV, 又损齿#VV)
+        </parsing>
+
+        <tag>
+
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101605163341.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\313 李子.jpg
+    </picturelocalurl>
+
+</content>
