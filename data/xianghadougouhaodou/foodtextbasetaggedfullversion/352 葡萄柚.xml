@@ -1,0 +1,240 @@
+<content>
+
+    <id>
+        352
+    </id>
+
+    <foodname>
+        葡萄柚
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        西柚
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            尿毒症患者慎食。
+        </rawdata>
+
+        <segment>
+            尿毒症  患者  慎食  。
+        </segment>
+
+        <pos>
+            尿毒症#VV  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 尿毒症#VV)  (nn, 慎食#NN, 患者#NN)  (dobj, 尿毒症#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            尿毒症  患者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压、心血管疾病者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  、  心  血管  疾病  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  高血压#NN  、#PU  心#NN  血管#NN  疾病#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 疾病#NN, 高血压#NN)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (nn, 者#NN, 疾病#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  高血压  心血管疾病者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                7.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            葡萄柚又叫西柚，葡萄柚起源于亚洲，它是人工种植的树种，早期欧洲人拿来当装饰﹑布置庭院用，后被带到加勒比周围各岛屿，它是化妆品﹑香水的主要原料之一。约1940年前后，葡萄柚被引入我国试种，至今并未推广，仍只有浙江、广东、四川等省有少量零星种植。
+            从植物分类学上比较，葡萄柚与中国原产的柚十分相似。两种同属柑橘属，只是葡萄柚果实比柚小皮较薄，常多果成串，状似葡萄，故其中英文名皆称葡萄柚。葡萄柚具有皮薄，红果肉等特点。葡萄柚及其果汁在北美、欧洲各国和日本，是很多家庭早餐必备的水果和饮料，已经成为柑橘类水果中消费量仅次于甜橙的重要农产品。
+            目前，市场上常见的西柚（葡萄柚）有3个主要品种。果肉白色的马叙葡萄柚（Marsh），又称无核葡萄柚，是多倍体，品种内也有果肉红色的品系；果肉白色的邓肯葡萄柚（Duncan），果较大，果皮较厚，种子较多，果肉略带苦味；果肉红色的汤姆逊葡萄柚（Thompson）。此外，还有的品种果肉为淡黄色或粉红色或近无色透明。
+        </rawdata>
+
+        <segment>
+            葡萄柚  又  叫  西柚  ，  葡萄柚  起源于  亚洲  ，  它  是  人工  种植  的  树种  ，  早期  欧洲人  拿来  当  装饰  ﹑  布置  庭院  用  ，  后  被  带到  加勒比  周围  各  岛屿  ，  它  是  化妆品  ﹑  香水  的  主要  原料  之一  。  约  1940年  前后  ，  葡萄柚  被  引入  我  国  试种  ，  至今  并  未  推广  ，  仍  只  有  浙江  、  广东  、  四川  等  省  有  少量  零星  种植  。
+            从  植物  分类学  上  比较  ，  葡萄柚  与  中国  原产  的  柚十分  相似  。  两  种  同属  柑橘属  ，  只是  葡萄柚  果实  比柚  小  皮  较  薄  ，  常  多  果  成串  ，  状似  葡萄  ，  故  其中  英文  名  皆  称  葡萄柚  。  葡萄柚  具有  皮薄  ，  红果肉  等  特点  。  葡萄柚  及其  果汁  在  北美  、  欧洲  各  国  和  日本  ，  是  很多  家庭  早餐  必备  的  水果  和  饮料  ，  已经  成为  柑橘  类  水果  中  消费量  仅次于  甜橙  的  重要  农产品  。
+            目前  ，  市场  上  常见  的  西柚  （  葡萄柚  ）  有  3  个  主要  品种  。  果肉  白色  的  马  叙  葡萄柚  （  Marsh  ）  ，  又  称  无核  葡萄柚  ，  是  多倍体  ，  品种  内  也  有  果肉  红色  的  品系  ；  果肉  白色  的  邓肯  葡萄柚  （  Duncan  ）  ，  果  较大  ，  果皮  较厚  ，  种子  较多  ，  果肉  略带  苦味  ；  果肉  红色  的  汤姆  逊  葡萄柚  （  Thompson  ）  。  此外  ，  还  有的  品种  果肉  为  淡黄色  或  粉红色  或  近  无色  透明  。
+        </segment>
+
+        <pos>
+            葡萄柚#NN  又#AD  叫#VV  西柚#NN  ，#PU  葡萄柚#AD  起源于#VV  亚洲#NR  ，#PU  它#PN  是#VC  人工#JJ  种植#NN  的#DEG  树种#NN  ，#PU  早期#NN  欧洲人#NN  拿来#VV  当#P  装饰#NN  布置#AD  庭院#AD  用#VV  ，#PU  后#LC  被#SB  带到#VV  加勒比#NR  周围#NN  各#DT  岛屿#NN  ，#PU  它#PN  是#VC  化妆品#NN  香水#NN  的#DEG  主要#JJ  原料#NN  之一#NN    。#PU  约#AD  1940年#NT  前后#LC  ，#PU  葡萄柚#AD  被#SB  引入#VV  我#PN  国#NN  试种#NN  ，#PU  至今#AD  并#AD  未#AD  推广#VV  ，#PU  仍#AD  只#AD  有#VE  浙江#NR  、#PU  广东#NR  、#PU  四川#NR  等#ETC  省#NN  有#VE  少量#CD  零星#AD  种植#VV    。#PU    。#PU
+            从#P  植物#NN  分类学#NN  上#LC  比较#VV  ，#PU  葡萄柚#AD  与#P  中国#NR  原产#NN  的#DEG  柚十分#CD  相似#VA    。#PU  两#CD  种#M  同属#NN  柑橘属#VV  ，#PU  只是#AD  葡萄柚#NN  果实#NN  比柚#NN  小#JJ  皮#NN  较#AD  薄#VA  ，#PU  常#AD  多#VA  果#NN  成串#NN  ，#PU  状似#AD  葡萄#VA  ，#PU  故#AD  其中#NN  英文#NN  名#NN  皆#AD  称#VV  葡萄柚#NN    。#PU  葡萄柚#NN  具有#VV  皮薄#NN  ，#PU  红果肉#NN  等#ETC  特点#NN    。#PU  葡萄柚#NR  及其#VV  果汁#NN  在#P  北美#NR  、#PU  欧洲#NR  各#DT  国#NN  和#CC  日本#NR  ，#PU  是#VC  很多#CD  家庭#NN  早餐#NN  必备#VV  的#DEC  水果#NN  和#CC  饮料#NN  ，#PU  已经#AD  成为#VV  柑橘#NN  类#NN  水果#NN  中#LC  消费量#NN  仅次于#AD  甜橙#VV  的#DEC  重要#JJ  农产品#NN    。#PU    。#PU
+            目前#NT  ，#PU  市场#NN  上#LC  常见#VA  的#DEC  西柚#NN  （#PU  葡萄柚#NN  ）#PU  有#VE  3#CD  个#M  主要#JJ  品种#NN    。#PU  果肉#NR  白色#JJ  的#DEG  马#NN  叙#NR  葡萄柚#VV  （#PU  Marsh#CD  ）#PU  ，#PU  又#CC  称#VV  无核#VV  葡萄柚#NN  ，#PU  是#VC  多倍体#NN  ，#PU  品种#NN  内#LC  也#AD  有#VE  果肉#NR  红色#JJ  的#DEG  品系#NN  ；#PU  果肉#VV  白色#JJ  的#DEG  邓肯#NN  葡萄柚#NN  （#PU  Duncan#NN  ）#PU  ，#PU  果#NN  较大#JJ  ，#PU  果皮#VV  较厚#NN  ，#PU  种子#NN  较多#NN  ，#PU  果肉#VV  略带#NN  苦味#NN  ；#PU  果肉#VV  红色#JJ  的#DEG  汤姆#NN  逊#NN  葡萄柚#NN  （#PU  Thompson#NN  ）#PU    。#PU  此外#AD  ，#PU  还#AD  有的#PN  品种#NN  果肉#VV  为#VC  淡黄色#CD  或#CC  粉红色#CD  或#CC  近#AD  无色#CD  透明#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 叫#VV, 葡萄柚#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 西柚#NN)  (advmod, 起源于#VV, 葡萄柚#AD)  (dep, 叫#VV, 起源于#VV)  (dobj, 起源于#VV, 亚洲#NR)  (nsubj, 树种#NN, 它#PN)  (cop, 树种#NN, 是#VC)  (amod, 种植#NN, 人工#JJ)  (assmod, 树种#NN, 种植#NN)  (case, 种植#NN, 的#DEG)  (conj, 叫#VV, 树种#NN)  (nn, 欧洲人#NN, 早期#NN)  (nsubj, 带到#VV, 欧洲人#NN)  (mmod, 带到#VV, 拿来#VV)  (case, 用#VV, 当#P)  (dep, 用#VV, 装饰#NN)  (advmod, 用#VV, 布置#AD)  (advmod, 用#VV, 庭院#AD)  (prep, 带到#VV, 用#VV)  (case, 用#VV, 后#LC)  (auxpass, 带到#VV, 被#SB)  (conj, 叫#VV, 带到#VV)  (nn, 周围#NN, 加勒比#NR)  (nn, 岛屿#NN, 周围#NN)  (det, 岛屿#NN, 各#DT)  (dobj, 带到#VV, 岛屿#NN)  (nsubj, 之一#NN, 它#PN)  (cop, 之一#NN, 是#VC)  (nn, 香水#NN, 化妆品#NN)  (assmod, 之一#NN, 香水#NN)  (case, 香水#NN, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 原料#NN)  (conj, 叫#VV, 之一#NN)   (advmod, 引入#VV, 约#AD)  (loc, 引入#VV, 1940年#NT)  (case, 1940年#NT, 前后#LC)  (advmod, 引入#VV, 葡萄柚#AD)  (auxpass, 引入#VV, 被#SB)  (root, ROOT#null, 引入#VV)  (nn, 国#NN, 我#PN)  (nn, 试种#NN, 国#NN)  (dobj, 引入#VV, 试种#NN)  (advmod, 推广#VV, 至今#AD)  (advmod, 推广#VV, 并#AD)  (advmod, 推广#VV, 未#AD)  (dep, 引入#VV, 推广#VV)  (advmod, 有#VE, 仍#AD)  (advmod, 有#VE, 只#AD)  (conj, 引入#VV, 有#VE)  (conj, 四川#NR, 浙江#NR)  (conj, 四川#NR, 广东#NR)  (nn, 省#NN, 四川#NR)  (etc, 四川#NR, 等#ETC)  (dep, 有#VE, 省#NN)  (xsubj, 种植#VV, 省#NN)  (dep, 有#VE, 有#VE)  (nsubj, 种植#VV, 少量#CD)  (advmod, 种植#VV, 零星#AD)   (root, ROOT#null, null#null)
+            (case, 分类学#NN, 从#P)  (nn, 分类学#NN, 植物#NN)  (prep, 比较#VV, 分类学#NN)  (case, 分类学#NN, 上#LC)  (root, ROOT#null, 比较#VV)  (advmod, 相似#VA, 葡萄柚#AD)  (case, 柚十分#CD, 与#P)  (nn, 原产#NN, 中国#NR)  (assmod, 柚十分#CD, 原产#NN)  (case, 原产#NN, 的#DEG)  (prep, 相似#VA, 柚十分#CD)  (dep, 比较#VV, 相似#VA)   (nummod, 种#M, 两#CD)  (clf, 同属#NN, 种#M)  (nsubj, 柑橘属#VV, 同属#NN)  (root, ROOT#null, 柑橘属#VV)  (advmod, 薄#VA, 只是#AD)  (nn, 比柚#NN, 葡萄柚#NN)  (nn, 比柚#NN, 果实#NN)  (nn, 皮#NN, 比柚#NN)  (amod, 皮#NN, 小#JJ)  (nsubj, 薄#VA, 皮#NN)  (advmod, 薄#VA, 较#AD)  (ccomp, 柑橘属#VV, 薄#VA)  (advmod, 多#VA, 常#AD)  (dep, 薄#VA, 多#VA)  (nn, 成串#NN, 果#NN)  (nsubj, 葡萄#VA, 成串#NN)  (advmod, 葡萄#VA, 状似#AD)  (conj, 薄#VA, 葡萄#VA)  (advmod, 称#VV, 故#AD)  (nn, 名#NN, 其中#NN)  (nn, 名#NN, 英文#NN)  (nsubj, 称#VV, 名#NN)  (advmod, 称#VV, 皆#AD)  (dep, 薄#VA, 称#VV)  (dobj, 称#VV, 葡萄柚#NN)   (nsubj, 具有#VV, 葡萄柚#NN)  (root, ROOT#null, 具有#VV)  (dep, 特点#NN, 皮薄#NN)  (nn, 特点#NN, 红果肉#NN)  (etc, 红果肉#NN, 等#ETC)  (dobj, 具有#VV, 特点#NN)   (nsubj, 及其#VV, 葡萄柚#NR)  (root, ROOT#null, 及其#VV)  (dobj, 及其#VV, 果汁#NN)  (case, 日本#NR, 在#P)  (conj, 日本#NR, 北美#NR)  (nn, 国#NN, 欧洲#NR)  (det, 国#NN, 各#DT)  (conj, 日本#NR, 国#NN)  (cc, 日本#NR, 和#CC)  (prep, 饮料#NN, 日本#NR)  (cop, 饮料#NN, 是#VC)  (nummod, 早餐#NN, 很多#CD)  (nn, 早餐#NN, 家庭#NN)  (nsubj, 必备#VV, 早餐#NN)  (relcl, 饮料#NN, 必备#VV)  (mark, 必备#VV, 的#DEC)  (conj, 饮料#NN, 水果#NN)  (cc, 饮料#NN, 和#CC)  (dep, 及其#VV, 饮料#NN)  (advmod, 成为#VV, 已经#AD)  (conj, 饮料#NN, 成为#VV)  (nn, 水果#NN, 柑橘#NN)  (nn, 水果#NN, 类#NN)  (loc, 甜橙#VV, 水果#NN)  (case, 水果#NN, 中#LC)  (nsubj, 甜橙#VV, 消费量#NN)  (advmod, 甜橙#VV, 仅次于#AD)  (relcl, 农产品#NN, 甜橙#VV)  (mark, 甜橙#VV, 的#DEC)  (amod, 农产品#NN, 重要#JJ)  (dobj, 成为#VV, 农产品#NN)   (root, ROOT#null, null#null)
+            (tmod, 有#VE, 目前#NT)  (loc, 有#VE, 市场#NN)  (case, 市场#NN, 上#LC)  (relcl, 西柚#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (dep, 有#VE, 西柚#NN)  (prnmod, 西柚#NN, 葡萄柚#NN)  (root, ROOT#null, 有#VE)  (nummod, 个#M, 3#CD)  (clf, 品种#NN, 个#M)  (amod, 品种#NN, 主要#JJ)  (dobj, 有#VE, 品种#NN)   (nn, 马#NN, 果肉#NR)  (assmod, 马#NN, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (nsubj, 葡萄柚#VV, 马#NN)  (nsubj, 葡萄柚#VV, 叙#NR)  (root, ROOT#null, 葡萄柚#VV)  (dep, 称#VV, Marsh#CD)  (cc, 称#VV, 又#CC)  (ccomp, 葡萄柚#VV, 称#VV)  (ccomp, 称#VV, 无核#VV)  (dobj, 无核#VV, 葡萄柚#NN)  (cop, 多倍体#NN, 是#VC)  (conj, 称#VV, 多倍体#NN)  (loc, 有#VE, 品种#NN)  (case, 品种#NN, 内#LC)  (advmod, 有#VE, 也#AD)  (conj, 称#VV, 有#VE)  (nn, 品系#NN, 果肉#NR)  (assmod, 品系#NN, 红色#JJ)  (case, 红色#JJ, 的#DEG)  (dobj, 有#VE, 品系#NN)  (conj, 称#VV, 果肉#VV)  (assmod, 葡萄柚#NN, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (nn, 葡萄柚#NN, 邓肯#NN)  (dobj, 果肉#VV, 葡萄柚#NN)  (prnmod, 葡萄柚#NN, Duncan#NN)  (nsubj, 较大#JJ, 果#NN)  (conj, 称#VV, 较大#JJ)  (dep, 较大#JJ, 果皮#VV)  (dobj, 果皮#VV, 较厚#NN)  (nn, 较多#NN, 种子#NN)  (nsubj, 果肉#VV, 较多#NN)  (conj, 称#VV, 果肉#VV)  (nn, 苦味#NN, 略带#NN)  (dobj, 果肉#VV, 苦味#NN)  (conj, 称#VV, 果肉#VV)  (assmod, 葡萄柚#NN, 红色#JJ)  (case, 红色#JJ, 的#DEG)  (nn, 葡萄柚#NN, 汤姆#NN)  (nn, 葡萄柚#NN, 逊#NN)  (dobj, 果肉#VV, 葡萄柚#NN)  (dep, 葡萄柚#VV, Thompson#NN)   (advmod, 果肉#VV, 此外#AD)  (advmod, 果肉#VV, 还#AD)  (nsubj, 果肉#VV, 有的#PN)  (nsubj, 果肉#VV, 品种#NN)  (root, ROOT#null, 果肉#VV)  (ccomp, 果肉#VV, 为#VC)  (nummod, 粉红色#CD, 淡黄色#CD)  (cc, 粉红色#CD, 或#CC)  (dep, 无色#CD, 粉红色#CD)  (cc, 无色#CD, 或#CC)  (advmod, 无色#CD, 近#AD)  (dep, 为#VC, 无色#CD)  (dep, 果肉#VV, 透明#VA)
+        </parsing>
+
+        <tag>
+            人工种植  早期欧洲人  周围岛屿  带到岛屿  化妆品香水  引入试种  四川  浙江  广东  植物分类学  比较  果实比柚  小皮  成串葡萄  红果肉特点  日本  北美  家庭早餐  必备饮料  柑橘水果  甜橙农产品  成为农产品  西柚常见  果皮较厚  种子较多  略带苦味  果肉苦味  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.治疗高血压及肾脏病
+            高血压患者常服用降压药，以排除体内多余的钠，维持身体正常的生化代谢平衡，但同时往往又使体内必需的钾流失。而钾对于维护心脏、血管、肾脏的功能，是非常重要的。西柚是少有的富含钾而几乎不含钠的水果。因此，是高血压、心脏病及肾脏病患者的最佳食疗水果。
+            2.预防心脏病
+            当人体过多地摄取高脂肪、高热量食物时，营养过剩，血脂增高，大量脂质尤其是低密度脂蛋白黏附于动脉血管内壁，引起动脉硬化，导致心、脑、肾等重要脏器供血不足，引起心脏病或大脑及肾病等病变。西柚含有丰富的果胶成分，可降低低密度脂蛋白胆固醇的含量，减轻动脉血管壁的损伤，维护血管功能，预防心脏病。
+            3.孕妇保健
+            西柚还含有天然叶酸。叶酸不但对早期妊娠非常重要，在整个怀孕期也同样必不可少。孕期随着胎儿身体组织迅速成长，孕妇需要大量叶酸来满足胎儿的需要。叶酸缺乏不仅会使妊娠高血压症、胎盘早剥的发生率增高，更会导致孕妇患上巨幼红细胞贫血，出现胎儿宫内发育迟缓、早产及新生儿低出生体重。因此，西柚也是孕期妇女首选的水果。
+            4.肌肤美容
+            葡萄柚对于肌肤具有洁净与润泽的功效。它所含的活性成份，如：碳水化合物，氨基酸与果酸，都具有润泽与深层洁肤的功效，类黄酮能增加毛细血管壁的渗透性与抵抗力。这些成份所产生的共同作用，让葡萄柚具有完美的净化功能。
+        </rawdata>
+
+        <segment>
+            治疗  高血压  及  肾脏病
+            高血压  患者  常服  用  降压药  ，  以  排除  体内  多余  的  钠  ，  维持  身体  正常  的  生化  代谢  平衡  ，  但  同时  往往  又  使  体内  必需  的  钾  流失  。  而  钾  对于  维护  心脏  、  血管  、  肾脏  的  功能  ，  是  非常  重要  的  。  西柚  是  少有的  富含  钾  而  几乎  不  含  钠  的  水果  。  因此  ，  是  高血压  、  心脏病  及  肾脏病  患者  的  最佳  食疗  水果  。
+            预防  心脏病
+            当  人体  过多地  摄取  高  脂肪  、  高  热量  食物  时  ，  营养  过剩  ，  血脂  增高  ，  大量  脂质  尤其是  低密度  脂蛋白  黏  附于  动脉血  管  内壁  ，  引起  动脉硬化  ，  导致  心  、  脑  、  肾  等  重要  脏器  供  血  不足  ，  引起  心脏病  或  大脑  及  肾病  等  病变  。  西柚  含有  丰富  的  果胶  成分  ，  可降低  低  密度  脂蛋白  胆固醇  的  含量  ，  减轻  动脉血  管壁  的  损伤  ，  维护  血管  功能  ，  预防  心脏病  。
+            孕妇  保健
+            西柚  还  含有  天然  叶酸  。  叶酸  不但  对  早期  妊娠  非常  重要  ，  在  整个  怀孕期  也  同样  必不可少  。  孕期  随着  胎儿  身体  组织  迅速  成长  ，  孕妇  需要  大量  叶酸  来  满足  胎儿  的  需要  。  叶酸  缺乏  不仅  会  使  妊娠  高血压症  、  胎盘  早  剥  的  发生率  增高  ，  更  会  导致  孕妇  患上  巨  幼  红  细胞  贫血  ，  出现  胎儿  宫内  发育  迟缓  、  早产  及  新生儿  低  出生  体重  。  因此  ，  西柚  也  是  孕期  妇女  首选  的  水果  。
+            肌肤  美容
+            葡萄柚  对于  肌肤  具有  洁净  与  润泽  的  功效  。  它  所含  的  活性  成份  ，  如  ：  碳水化合物  ，  氨基酸  与  果酸  ，  都  具有  润泽  与  深层  洁肤  的  功效  ，  类  黄酮  能  增加  毛细血管  壁  的  渗透性  与  抵抗力  。  这些  成份  所  产生  的  共同  作用  ，  让  葡萄柚  具有  完美  的  净化  功能  。
+        </segment>
+
+        <pos>
+            治疗#VV  高血压#NN  及#CC  肾脏病#NN
+            高血压#NN  患者#NN  常服#AD  用#VV  降压药#NN  ，#PU  以#MSP  排除#VV  体内#NN  多余#NN  的#DEG  钠#NN  ，#PU  维持#VV  身体#NN  正常#VA  的#DEC  生化#NN  代谢#AD  平衡#VA  ，#PU  但#AD  同时#AD  往往#AD  又#AD  使#VV  体内#NN  必需#VV  的#DEC  钾#NN  流失#NN    。#PU  而#AD  钾#NN  对于#P  维护#VV  心脏#NN  、#PU  血管#NN  、#PU  肾脏#NN  的#DEG  功能#NN  ，#PU  是#VC  非常#AD  重要#VA  的#DEC    。#PU  西柚#NN  是#VC  少有的#NN  富含#NN  钾#NN  而#CC  几乎#AD  不#AD  含#VV  钠#NN  的#DEC  水果#NN    。#PU  因此#AD  ，#PU  是#VC  高血压#NN  、#PU  心脏病#NN  及#CC  肾脏病#NN  患者#NN  的#DEG  最佳#JJ  食疗#NN  水果#NN    。#PU    。#PU
+            预防#VV  心脏病#NN
+            当#P  人体#NN  过多地#NN  摄取#VV  高#JJ  脂肪#NN  、#PU  高#JJ  热量#NN  食物#NN  时#LC  ，#PU  营养#VA  过剩#VA  ，#PU  血脂#AD  增高#VV  ，#PU  大量#AD  脂质#VV  尤其是#AD  低密度#NR  脂蛋白#NN  黏#NN  附于#JJ  动脉血#NN  管#NN  内壁#NN  ，#PU  引起#VV  动脉硬化#NN  ，#PU  导致#VV  心#NN  、#PU  脑#NN  、#PU  肾#NN  等#ETC  重要#JJ  脏器#NN  供#NN  血#NN  不足#VA  ，#PU  引起#VV  心脏病#NN  或#CC  大脑#NN  及#CC  肾病#NN  等#ETC  病变#NN    。#PU  西柚#VV  含有#AD  丰富#VA  的#DEC  果胶#JJ  成分#NN  ，#PU  可降低#VV  低#JJ  密度#NN  脂蛋白#NN  胆固醇#NN  的#DEG  含量#NN  ，#PU  减轻#VV  动脉血#NN  管壁#NN  的#DEG  损伤#NN  ，#PU  维护#VV  血管#NN  功能#NN  ，#PU  预防#VV  心脏病#NN    。#PU    。#PU
+            孕妇#VV  保健#NN
+            西柚#NN  还#AD  含有#VV  天然#JJ  叶酸#NN    。#PU  叶酸#NN  不但#CC  对#P  早期#NN  妊娠#VV  非常#AD  重要#VA  ，#PU  在#P  整个#JJ  怀孕期#NN  也#AD  同样#AD  必不可少#VA    。#PU  孕期#NN  随着#P  胎儿#NN  身体#NN  组织#NN  迅速#AD  成长#VV  ，#PU  孕妇#AD  需要#VV  大量#CD  叶酸#NN  来#MSP  满足#VV  胎儿#NN  的#DEG  需要#NN    。#PU  叶酸#AD  缺乏#VV  不仅#CC  会#VV  使#VV  妊娠#VV  高血压症#NR  、#PU  胎盘#NR  早#JJ  剥#NN  的#DEC  发生率#NN  增高#VV  ，#PU  更#AD  会#VV  导致#VV  孕妇#NN  患上#VV  巨#JJ  幼#NN  红#JJ  细胞#NN  贫血#NN  ，#PU  出现#VV  胎儿#NN  宫内#NN  发育#VV  迟缓#NN  、#PU  早产#NN  及#CC  新生儿#NN  低#JJ  出生#NN  体重#NN    。#PU  因此#AD  ，#PU  西柚#NN  也#AD  是#VC  孕期#NN  妇女#NN  首选#JJ  的#DEG  水果#NN    。#PU    。#PU
+            肌肤#NN  美容#VV
+            葡萄柚#NN  对于#P  肌肤#NN  具有#VV  洁净#JJ  与#P  润泽#NN  的#DEG  功效#NN    。#PU  它#PN  所含#NN  的#DEG  活性#NN  成份#NN  ，#PU  如#VV  ：#PU  碳水化合物#NN  ，#PU  氨基酸#AD  与#P  果酸#NN  ，#PU  都#AD  具有#VV  润泽#NN  与#CC  深层#NN  洁肤#NN  的#DEG  功效#NN  ，#PU  类#NN  黄酮#NN  能#VV  增加#VV  毛细血管#NN  壁#NN  的#DEG  渗透性#NN  与#CC  抵抗力#NN    。#PU  这些#DT  成份#NN  所#MSP  产生#VV  的#DEC  共同#JJ  作用#NN  ，#PU  让#VV  葡萄柚#NN  具有#VV  完美#NN  的#DEG  净化#NN  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 治疗#VV)  (conj, 肾脏病#NN, 高血压#NN)  (cc, 肾脏病#NN, 及#CC)  (dobj, 治疗#VV, 肾脏病#NN)
+            (nn, 患者#NN, 高血压#NN)  (nsubj, 用#VV, 患者#NN)  (advmod, 用#VV, 常服#AD)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 降压药#NN)  (prtmod, 排除#VV, 以#MSP)  (conj, 用#VV, 排除#VV)  (nn, 多余#NN, 体内#NN)  (assmod, 钠#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (dobj, 排除#VV, 钠#NN)  (conj, 用#VV, 维持#VV)  (nsubj, 平衡#VA, 身体#NN)  (relcl, 生化#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nsubj, 平衡#VA, 生化#NN)  (advmod, 平衡#VA, 代谢#AD)  (relcl, 流失#NN, 平衡#VA)  (advmod, 使#VV, 但#AD)  (advmod, 使#VV, 同时#AD)  (advmod, 使#VV, 往往#AD)  (advmod, 使#VV, 又#AD)  (conj, 平衡#VA, 使#VV)  (dobj, 使#VV, 体内#NN)  (dep, 使#VV, 必需#VV)  (mark, 平衡#VA, 的#DEC)  (nn, 流失#NN, 钾#NN)  (dobj, 维持#VV, 流失#NN)   (advmod, 维护#VV, 而#AD)  (nsubj, 维护#VV, 钾#NN)  (advmod, 维护#VV, 对于#P)  (conj, 重要#VA, 维护#VV)  (conj, 肾脏#NN, 心脏#NN)  (conj, 肾脏#NN, 血管#NN)  (assmod, 功能#NN, 肾脏#NN)  (case, 肾脏#NN, 的#DEG)  (dobj, 维护#VV, 功能#NN)  (cop, 重要#VA, 是#VC)  (advmod, 重要#VA, 非常#AD)  (root, ROOT#null, 重要#VA)  (mark, 重要#VA, 的#DEC)   (nsubj, 水果#NN, 西柚#NN)  (cop, 水果#NN, 是#VC)  (nn, 钾#NN, 少有的#NN)  (nn, 钾#NN, 富含#NN)  (conj, 水果#NN, 钾#NN)  (cc, 水果#NN, 而#CC)  (advmod, 含#VV, 几乎#AD)  (neg, 含#VV, 不#AD)  (relcl, 水果#NN, 含#VV)  (dobj, 含#VV, 钠#NN)  (mark, 含#VV, 的#DEC)  (root, ROOT#null, 水果#NN)   (advmod, 是#VC, 因此#AD)  (root, ROOT#null, 是#VC)  (conj, 患者#NN, 高血压#NN)  (conj, 患者#NN, 心脏病#NN)  (cc, 患者#NN, 及#CC)  (nn, 患者#NN, 肾脏病#NN)  (assmod, 食疗#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 食疗#NN, 最佳#JJ)  (nsubj, 水果#NN, 食疗#NN)  (dep, 是#VC, 水果#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 心脏病#NN)
+            (case, 摄取#VV, 当#P)  (nn, 过多地#NN, 人体#NN)  (nsubj, 摄取#VV, 过多地#NN)  (prep, 营养#VA, 摄取#VV)  (amod, 脂肪#NN, 高#JJ)  (conj, 食物#NN, 脂肪#NN)  (amod, 食物#NN, 高#JJ)  (nn, 食物#NN, 热量#NN)  (dobj, 摄取#VV, 食物#NN)  (case, 摄取#VV, 时#LC)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 过剩#VA)  (advmod, 增高#VV, 血脂#AD)  (conj, 营养#VA, 增高#VV)  (advmod, 脂质#VV, 大量#AD)  (conj, 营养#VA, 脂质#VV)  (advmod, 内壁#NN, 尤其是#AD)  (nn, 黏#NN, 低密度#NR)  (nn, 黏#NN, 脂蛋白#NN)  (nn, 内壁#NN, 黏#NN)  (amod, 内壁#NN, 附于#JJ)  (nn, 内壁#NN, 动脉血#NN)  (nn, 内壁#NN, 管#NN)  (dobj, 脂质#VV, 内壁#NN)  (conj, 营养#VA, 引起#VV)  (dobj, 引起#VV, 动脉硬化#NN)  (conj, 营养#VA, 导致#VV)  (conj, 肾#NN, 心#NN)  (conj, 肾#NN, 脑#NN)  (nn, 血#NN, 肾#NN)  (etc, 肾#NN, 等#ETC)  (amod, 血#NN, 重要#JJ)  (nn, 血#NN, 脏器#NN)  (nn, 血#NN, 供#NN)  (dobj, 导致#VV, 血#NN)  (dep, 导致#VV, 不足#VA)  (conj, 营养#VA, 引起#VV)  (conj, 肾病#NN, 心脏病#NN)  (cc, 肾病#NN, 或#CC)  (conj, 肾病#NN, 大脑#NN)  (cc, 肾病#NN, 及#CC)  (nn, 病变#NN, 肾病#NN)  (etc, 肾病#NN, 等#ETC)  (dobj, 引起#VV, 病变#NN)   (root, ROOT#null, 西柚#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (amod, 成分#NN, 果胶#JJ)  (dobj, 西柚#VV, 成分#NN)  (conj, 西柚#VV, 可降低#VV)  (amod, 密度#NN, 低#JJ)  (nn, 胆固醇#NN, 密度#NN)  (nn, 胆固醇#NN, 脂蛋白#NN)  (assmod, 含量#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 可降低#VV, 含量#NN)  (conj, 西柚#VV, 减轻#VV)  (nn, 管壁#NN, 动脉血#NN)  (assmod, 损伤#NN, 管壁#NN)  (case, 管壁#NN, 的#DEG)  (dobj, 减轻#VV, 损伤#NN)  (conj, 西柚#VV, 维护#VV)  (nn, 功能#NN, 血管#NN)  (dobj, 维护#VV, 功能#NN)  (conj, 西柚#VV, 预防#VV)  (dobj, 预防#VV, 心脏病#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 保健#NN)
+            (nsubj, 含有#VV, 西柚#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (amod, 叶酸#NN, 天然#JJ)  (dobj, 含有#VV, 叶酸#NN)   (nsubj, 重要#VA, 叶酸#NN)  (cc, 重要#VA, 不但#CC)  (case, 早期#NN, 对#P)  (prep, 重要#VA, 早期#NN)  (mmod, 重要#VA, 妊娠#VV)  (advmod, 重要#VA, 非常#AD)  (root, ROOT#null, 重要#VA)  (case, 怀孕期#NN, 在#P)  (amod, 怀孕期#NN, 整个#JJ)  (prep, 必不可少#VA, 怀孕期#NN)  (advmod, 必不可少#VA, 也#AD)  (advmod, 必不可少#VA, 同样#AD)  (dep, 重要#VA, 必不可少#VA)   (nsubj, 满足#VV, 孕期#NN)  (case, 需要#VV, 随着#P)  (nn, 组织#NN, 胎儿#NN)  (nn, 组织#NN, 身体#NN)  (nsubj, 成长#VV, 组织#NN)  (advmod, 成长#VV, 迅速#AD)  (dep, 需要#VV, 成长#VV)  (advmod, 需要#VV, 孕妇#AD)  (prep, 满足#VV, 需要#VV)  (nummod, 叶酸#NN, 大量#CD)  (dobj, 需要#VV, 叶酸#NN)  (prtmod, 满足#VV, 来#MSP)  (root, ROOT#null, 满足#VV)  (assmod, 需要#NN, 胎儿#NN)  (case, 胎儿#NN, 的#DEG)  (dobj, 满足#VV, 需要#NN)   (advmod, 缺乏#VV, 叶酸#AD)  (nfincl, 宫内#NN, 缺乏#VV)  (cc, 缺乏#VV, 不仅#CC)  (mmod, 使#VV, 会#VV)  (dep, 缺乏#VV, 使#VV)  (relcl, 发生率#NN, 妊娠#VV)  (conj, 胎盘#NR, 高血压症#NR)  (nn, 剥#NN, 胎盘#NR)  (amod, 剥#NN, 早#JJ)  (dobj, 妊娠#VV, 剥#NN)  (mark, 妊娠#VV, 的#DEC)  (dobj, 使#VV, 发生率#NN)  (dep, 使#VV, 增高#VV)  (advmod, 导致#VV, 更#AD)  (mmod, 导致#VV, 会#VV)  (conj, 缺乏#VV, 导致#VV)  (dobj, 导致#VV, 孕妇#NN)  (dep, 导致#VV, 患上#VV)  (amod, 幼#NN, 巨#JJ)  (nn, 细胞#NN, 幼#NN)  (amod, 细胞#NN, 红#JJ)  (nn, 贫血#NN, 细胞#NN)  (dobj, 患上#VV, 贫血#NN)  (dep, 缺乏#VV, 出现#VV)  (dobj, 出现#VV, 胎儿#NN)  (nsubj, 发育#VV, 宫内#NN)  (root, ROOT#null, 发育#VV)  (conj, 新生儿#NN, 迟缓#NN)  (conj, 新生儿#NN, 早产#NN)  (cc, 新生儿#NN, 及#CC)  (nn, 出生#NN, 新生儿#NN)  (amod, 出生#NN, 低#JJ)  (nn, 体重#NN, 出生#NN)  (dobj, 发育#VV, 体重#NN)   (advmod, 孕期#NN, 因此#AD)  (nsubj, 孕期#NN, 西柚#NN)  (advmod, 孕期#NN, 也#AD)  (cop, 孕期#NN, 是#VC)  (root, ROOT#null, 孕期#NN)  (nsubj, 水果#NN, 妇女#NN)  (assmod, 水果#NN, 首选#JJ)  (case, 首选#JJ, 的#DEG)  (conj, 孕期#NN, 水果#NN)   (root, ROOT#null, null#null)
+            (nsubj, 美容#VV, 肌肤#NN)  (root, ROOT#null, 美容#VV)
+            (nsubj, 具有#VV, 葡萄柚#NN)  (case, 肌肤#NN, 对于#P)  (prep, 具有#VV, 肌肤#NN)  (root, ROOT#null, 具有#VV)  (amod, 功效#NN, 洁净#JJ)  (case, 润泽#NN, 与#P)  (assmod, 功效#NN, 润泽#NN)  (case, 润泽#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)   (nsubj, 具有#VV, 它#PN)  (assmod, 成份#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 成份#NN, 活性#NN)  (dep, 具有#VV, 成份#NN)  (conj, 具有#VV, 如#VV)  (dobj, 如#VV, 碳水化合物#NN)  (advmod, 具有#VV, 氨基酸#AD)  (case, 果酸#NN, 与#P)  (prep, 具有#VV, 果酸#NN)  (advmod, 具有#VV, 都#AD)  (root, ROOT#null, 具有#VV)  (conj, 深层#NN, 润泽#NN)  (cc, 深层#NN, 与#CC)  (nn, 洁肤#NN, 深层#NN)  (assmod, 功效#NN, 洁肤#NN)  (case, 洁肤#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (nn, 黄酮#NN, 类#NN)  (nsubj, 增加#VV, 黄酮#NN)  (mmod, 增加#VV, 能#VV)  (conj, 具有#VV, 增加#VV)  (nn, 壁#NN, 毛细血管#NN)  (assmod, 抵抗力#NN, 壁#NN)  (case, 壁#NN, 的#DEG)  (conj, 抵抗力#NN, 渗透性#NN)  (cc, 抵抗力#NN, 与#CC)  (dobj, 增加#VV, 抵抗力#NN)   (det, 成份#NN, 这些#DT)  (nsubj, 产生#VV, 成份#NN)  (prtmod, 产生#VV, 所#MSP)  (relcl, 作用#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (amod, 作用#NN, 共同#JJ)  (dep, 让#VV, 作用#NN)  (root, ROOT#null, 让#VV)  (dobj, 让#VV, 葡萄柚#NN)  (dep, 让#VV, 具有#VV)  (assmod, 功能#NN, 完美#NN)  (case, 完美#NN, 的#DEG)  (nn, 功能#NN, 净化#NN)  (dobj, 具有#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            治疗肾脏病  高血压患者  体内多余  排除钠  身体平衡  生化正常  生化平衡  流失平衡  维持流失  维护功能  含水果  肾脏病患者  最佳食疗  预防心脏病  人体过多地  高脂肪  高食物  热量食物  摄取食物  过剩营养  附于内壁  动脉血内壁  脂质内壁  导致血  大脑  肾病病变  西柚  低密度  密度胆固醇  脂蛋白胆固醇  动脉血管壁  减轻损伤  血管功能  孕妇保健  天然叶酸  含有叶酸  整个怀孕期  胎儿组织  身体组织  需要叶酸  满足需要  妊娠发生率  胎盘  高血压症  早剥  妊娠剥  导致孕妇  巨幼  红细胞  细胞贫血  患上贫血  出现胎儿  迟缓  早产  新生儿出生  低出生  出生体重  发育体重  美容  洁净功效  活性成份  润泽  深层洁肤  渗透性  增加抵抗力  净化功能  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            葡萄柚含有丰富的营养成分，是集预防疾病及保健与美容于一身的水果。其果肉柔嫩，多汁爽口，略有香气，味偏酸、带苦味及麻舌味。西柚中含有宝贵的天然维生素P和丰富的维生素C以及可溶性纤维素，是含糖分较少的水果。维生素P可以增强皮肤及毛孔的功能，有利于皮肤保健和美容。维生素C可参与人体胶原蛋白合成，促进抗体的生成，以增强肌体的解毒功能。减肥人士的餐单都少不了它。
+        </rawdata>
+
+        <segment>
+            葡萄柚  含有  丰富  的  营养  成分  ，  是  集  预防  疾病  及  保健  与  美容  于  一身  的  水果  。  其  果肉  柔嫩  ，  多汁  爽口  ，  略  有  香气  ，  味  偏  酸  、  带  苦味  及  麻舌味  。  西柚  中  含有  宝贵  的  天然  维生素  P和  丰富  的  维生素C  以及  可溶性  纤维素  ，  是  含糖  分  较  少  的  水果  。  维生素  P  可以  增强  皮肤  及  毛孔  的  功能  ，  有  利于  皮肤  保健  和  美容  。  维生素C  可  参与  人体  胶原  蛋白  合成  ，  促进  抗体  的  生成  ，  以  增强  肌体  的  解毒  功能  。  减肥  人士  的  餐单  都  少不了  它  。
+        </segment>
+
+        <pos>
+            葡萄柚#VV  含有#AD  丰富#VA  的#DEC  营养#VA  成分#NN  ，#PU  是#VC  集#VV  预防#NN  疾病#NN  及#CC  保健#NN  与#CC  美容#NN  于#P  一身#CD  的#DEG  水果#NN    。#PU  其#PN  果肉#AD  柔嫩#VV  ，#PU  多汁#NN  爽口#NN  ，#PU  略#AD  有#VE  香气#NN  ，#PU  味#NN  偏#AD  酸#VA  、#PU  带#VV  苦味#NN  及#CC  麻舌味#NN    。#PU  西柚#NN  中#LC  含有#AD  宝贵#VA  的#DEC  天然#JJ  维生素#NN  P和#AD  丰富#VA  的#DEC  维生素C#NN  以及#CC  可溶性#NN  纤维素#VV  ，#PU  是#VC  含糖#CD  分#M  较#AD  少#VA  的#DEC  水果#NN    。#PU  维生素#NN  P#NN  可以#VV  增强#VV  皮肤#NN  及#CC  毛孔#NN  的#DEG  功能#NN  ，#PU  有#VE  利于#VV  皮肤#NN  保健#NN  和#CC  美容#NN    。#PU  维生素C#NR  可#VV  参与#VV  人体#NN  胶原#NN  蛋白#NN  合成#JJ  ，#PU  促进#VV  抗体#NN  的#DEG  生成#NN  ，#PU  以#MSP  增强#VV  肌体#NN  的#DEG  解毒#NN  功能#NN    。#PU  减肥#VV  人士#NN  的#DEC  餐单#NN  都#AD  少不了#VV  它#PN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 葡萄柚#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 葡萄柚#VV, 成分#NN)  (conj, 集#VV, 是#VC)  (cop, 集#VV, 是#VC)  (conj, 葡萄柚#VV, 集#VV)  (nn, 美容#NN, 预防#NN)  (conj, 美容#NN, 疾病#NN)  (cc, 美容#NN, 及#CC)  (conj, 美容#NN, 保健#NN)  (cc, 美容#NN, 与#CC)  (dobj, 集#VV, 美容#NN)  (case, 水果#NN, 于#P)  (assmod, 水果#NN, 一身#CD)  (case, 一身#CD, 的#DEG)  (prep, 集#VV, 水果#NN)   (nsubj, 柔嫩#VV, 其#PN)  (advmod, 柔嫩#VV, 果肉#AD)  (root, ROOT#null, 柔嫩#VV)  (nn, 爽口#NN, 多汁#NN)  (nsubj, 有#VE, 爽口#NN)  (advmod, 有#VE, 略#AD)  (ccomp, 柔嫩#VV, 有#VE)  (dobj, 有#VE, 香气#NN)  (nsubj, 酸#VA, 味#NN)  (advmod, 酸#VA, 偏#AD)  (conj, 有#VE, 酸#VA)  (dep, 酸#VA, 带#VV)  (conj, 麻舌味#NN, 苦味#NN)  (cc, 麻舌味#NN, 及#CC)  (dobj, 带#VV, 麻舌味#NN)   (loc, 丰富#VA, 西柚#NN)  (case, 西柚#NN, 中#LC)  (advmod, 宝贵#VA, 含有#AD)  (relcl, 维生素#NN, 宝贵#VA)  (mark, 宝贵#VA, 的#DEC)  (amod, 维生素#NN, 天然#JJ)  (nsubj, 丰富#VA, 维生素#NN)  (advmod, 丰富#VA, P和#AD)  (relcl, 可溶性#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 可溶性#NN, 维生素C#NN)  (cc, 可溶性#NN, 以及#CC)  (nsubj, 纤维素#VV, 可溶性#NN)  (root, ROOT#null, 纤维素#VV)  (cop, 水果#NN, 是#VC)  (nummod, 分#M, 含糖#CD)  (clf, 水果#NN, 分#M)  (advmod, 少#VA, 较#AD)  (relcl, 水果#NN, 少#VA)  (mark, 少#VA, 的#DEC)  (ccomp, 纤维素#VV, 水果#NN)   (nn, P#NN, 维生素#NN)  (nsubj, 增强#VV, P#NN)  (mmod, 增强#VV, 可以#VV)  (root, ROOT#null, 增强#VV)  (conj, 毛孔#NN, 皮肤#NN)  (cc, 毛孔#NN, 及#CC)  (assmod, 功能#NN, 毛孔#NN)  (case, 毛孔#NN, 的#DEG)  (dobj, 增强#VV, 功能#NN)  (conj, 增强#VV, 有#VE)  (dep, 有#VE, 利于#VV)  (nn, 保健#NN, 皮肤#NN)  (dobj, 利于#VV, 保健#NN)  (cc, 利于#VV, 和#CC)  (dep, 利于#VV, 美容#NN)   (nsubj, 参与#VV, 维生素C#NR)  (mmod, 参与#VV, 可#VV)  (root, ROOT#null, 参与#VV)  (nn, 蛋白#NN, 人体#NN)  (nn, 蛋白#NN, 胶原#NN)  (dobj, 参与#VV, 蛋白#NN)  (conj, 参与#VV, 合成#JJ)  (conj, 参与#VV, 促进#VV)  (assmod, 生成#NN, 抗体#NN)  (case, 抗体#NN, 的#DEG)  (dobj, 促进#VV, 生成#NN)  (prtmod, 增强#VV, 以#MSP)  (conj, 参与#VV, 增强#VV)  (assmod, 功能#NN, 肌体#NN)  (case, 肌体#NN, 的#DEG)  (nn, 功能#NN, 解毒#NN)  (dobj, 增强#VV, 功能#NN)   (relcl, 餐单#NN, 减肥#VV)  (dobj, 减肥#VV, 人士#NN)  (mark, 减肥#VV, 的#DEC)  (nsubj, 少不了#VV, 餐单#NN)  (advmod, 少不了#VV, 都#AD)  (root, ROOT#null, 少不了#VV)  (dobj, 少不了#VV, 它#PN)
+        </parsing>
+
+        <tag>
+            预防美容  疾病  柔嫩  多汁爽口  麻舌味  苦味  维生素宝贵  天然维生素  维生素丰富  可溶性丰富  维生素C  毛孔  增强功能  皮肤保健  利于保健  人体蛋白  胶原蛋白  参与蛋白  促进生成  解毒功能  减肥餐单  减肥人士  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101742558719.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\352 葡萄柚.jpg
+    </picturelocalurl>
+
+</content>

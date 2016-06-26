@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        83
+    </id>
+
+    <foodname>
+        黄鳝
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        鳝鱼、长鱼、无鳞公子、海蛇、蛆鱼、黄蛆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            瘙痒性皮肤病、红斑狼疮、肠胃不佳者忌食。
+        </rawdata>
+
+        <segment>
+            瘙痒  性  皮肤病  、  红斑狼疮  、  肠胃  不佳者  忌食  。
+        </segment>
+
+        <pos>
+            瘙痒#VV  性#NN  皮肤病#NN  、#PU  红斑狼疮#NN  、#PU  肠胃#NN  不佳者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 瘙痒#VV)  (nn, 忌食#NN, 性#NN)  (conj, 忌食#NN, 皮肤病#NN)  (conj, 忌食#NN, 红斑狼疮#NN)  (nn, 忌食#NN, 肠胃#NN)  (nn, 忌食#NN, 不佳者#NN)  (dobj, 瘙痒#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            瘙痒性皮肤病  红斑狼疮  肠胃不佳者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜糖尿病、贫血、子宫下垂、内痔出血患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  糖尿病  、  贫血  、  子宫  下垂  、  内痔  出血  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  糖尿病#NN  、#PU  贫血#NN  、#PU  子宫#NN  下垂#NN  、#PU  内痔#NN  出血#VV  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 内痔#NN, 糖尿病#NN)  (conj, 内痔#NN, 贫血#NN)  (nn, 内痔#NN, 子宫#NN)  (conj, 内痔#NN, 下垂#NN)  (dobj, 适宜#VV, 内痔#NN)  (conj, 适宜#VV, 出血#VV)  (dobj, 出血#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  糖尿病  贫血  子宫下垂  内痔出血  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                89
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                126
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                206
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                263
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                70.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                34.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.22
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鳝鱼，也叫黄鳝，长鱼海蛇等，味鲜肉美，刺少肉厚，常生活在稻田、小河、小溪、池塘、河渠、湖泊等淤于质水底层，在我国各地均有生产，以长江流域、辽宁和天津产量较多，产期在6～10月，以6～8月所产的最肥。鳝鱼体型似蛇，圆筒状。头粗尾细，体表有一层光滑的粘膜保护去，无鳞，色泽黄褐色，体则有不规则的暗黑斑点，各鳍不发达基本消失，全身只有一根三棱刺，肉嫩味美。还有一种为山黄鳝目前只在云南陇川县有分布，国内其他地区没有分布。
+            黄鳝不仅为席上佳肴，其肉、血、头、皮均有一定的药用价值。据《本草纲目》记载，黄鳝有补血、补气、消炎、消毒、除风湿等功效。黄鳝肉性味甘、温，有补中益血，治虚损之功效，民间用以入药，可治疗虚劳咳嗽、湿热身痒、肠风痔漏、耳聋等症。黄鳝头煅灰，空腹温酒送服，能治妇女乳核硬痛。其骨入药，兼治臁疮，疗效颇显著。其血滴入耳中，能治慢性化脓性中耳炎;滴入鼻中可治鼻衄(鼻出血);特别是外用时能治口眼歪斜，颜面神经麻痹。有人说“鳝鱼是眼药”，过去患眼疾的人都知道吃鳝鱼有好处。常吃鳝鱼有很强的补益功能，特别对身体虚弱、病后以及产后之人更为明显。它的血还可以治疗口眼歪斜。祖国医学认为，它有补气养血、温阳健脾、滋补肝肾、祛风通络等医疗保健功能。
+        </rawdata>
+
+        <segment>
+            鳝鱼  ，  也  叫  黄鳝  ，  长  鱼  海蛇  等  ，  味  鲜肉  美  ，  刺少  肉厚  ，  常  生活  在  稻田  、  小河  、  小溪  、  池塘  、  河渠  、  湖泊  等  淤  于  质  水  底层  ，  在  我国  各地  均  有  生产  ，  以  长江  流域  、  辽宁  和  天津  产量  较  多  ，  产期  在  6  ～  10月  ，  以  6  ～  8月  所  产  的  最  肥  。  鳝鱼  体型  似  蛇  ，  圆筒状  。  头  粗  尾  细  ，  体表  有  一  层  光滑  的  粘膜  保护  去  ，  无鳞  ，  色泽  黄褐色  ，  体  则  有  不规则  的  暗黑  斑点  ，  各  鳍  不  发达  基本  消失  ，  全身  只有  一  根  三棱刺  ，  肉嫩  味美  。  还有  一  种  为  山  黄鳝  目前  只  在  云南  陇川县  有  分布  ，  国内  其他  地区  没有  分布  。
+            黄鳝  不仅  为  席上  佳肴  ，  其  肉  、  血  、  头  、  皮  均  有  一  定  的  药用  价值  。  据  《  本草  纲目  》  记载  ，  黄鳝  有  补血  、  补气  、  消炎  、  消毒  、  除  风湿  等  功效  。  黄鳝  肉性  味  甘  、  温  ，  有  补  中  益  血  ，  治  虚损  之  功效  ，  民间  用以  入药  ，  可治疗  虚劳  咳嗽  、  湿热  身  痒  、  肠  风  痔漏  、  耳聋  等症  。  黄鳝  头煅灰  ，  空腹  温酒  送服  ，  能  治  妇女  乳核硬痛  。  其  骨  入药  ，  兼治  臁疮  ，  疗效  颇  显著  。  其  血滴  入耳  中  ，  能  治  慢性  化脓  性  中  耳炎  ;  滴入  鼻中  可治  鼻衄  (  鼻出血  )  ;  特别是  外用  时能  治  口  眼  歪斜  ，  颜面  神经  麻痹  。  有  人  说  “  鳝鱼  是  眼药  ”  ，  过去  患  眼疾  的  人  都  知道  吃  鳝鱼  有  好处  。  常  吃  鳝鱼  有  很  强  的  补益  功能  ，  特别  对  身体  虚弱  、  病  后  以及  产后  之  人  更为  明显  。  它  的  血  还  可以  治疗  口眼  歪斜  。  祖国  医学  认为  ，  它  有  补气  养  血  、  温阳  健脾  、  滋补  肝肾  、  祛风  通络  等  医疗  保健  功能  。
+        </segment>
+
+        <pos>
+            鳝鱼#VV  ，#PU  也#AD  叫#VV  黄鳝#NN  ，#PU  长#VV  鱼#NN  海蛇#NN  等#ETC  ，#PU  味#AD  鲜肉#VV  美#NR  ，#PU  刺少#VV  肉厚#NN  ，#PU  常#AD  生活#VV  在#P  稻田#NN  、#PU  小河#NN  、#PU  小溪#NN  、#PU  池塘#NN  、#PU  河渠#NN  、#PU  湖泊#NN  等#ETC  淤#VA  于#P  质#NN  水#NN  底层#NN  ，#PU  在#P  我国#NN  各地#NN  均#AD  有#VE  生产#NN  ，#PU  以#P  长江#NR  流域#NN  、#PU  辽宁#NR  和#CC  天津#NR  产量#NN  较#AD  多#VA  ，#PU  产期#VV  在#P  6#CD  ～#JJ  10月#NT  ，#PU  以#P  6#CD  ～#NN  8月#NT  所#MSP  产#VV  的#DEC  最#NN  肥#NR    。#PU  鳝鱼#NN  体型#NN  似#P  蛇#NN  ，#PU  圆筒状#VV    。#PU  头#DT  粗#CD  尾#M  细#NN  ，#PU  体表#AD  有#VE  一#CD  层#M  光滑#NN  的#DEG  粘膜#NN  保护#NN  去#VV  ，#PU  无鳞#NN  ，#PU  色泽#NN  黄褐色#NN  ，#PU  体#NN  则#AD  有#VV  不规则#AD  的#DEC  暗黑#NN  斑点#VV  ，#PU  各#DT  鳍#NN  不#AD  发达#JJ  基本#JJ  消失#NN  ，#PU  全身#VV  只有#AD  一#CD  根#M  三棱刺#CD  ，#PU  肉嫩#VV  味美#NN    。#PU  还有#AD  一#CD  种#M  为#VC  山#NN  黄鳝#NN  目前#NT  只#AD  在#P  云南#NR  陇川县#AD  有#VE  分布#NN  ，#PU  国内#NN  其他#DT  地区#NN  没有#VV  分布#VV    。#PU    。#PU
+            黄鳝#NN  不仅#CC  为#P  席上#NN  佳肴#NN  ，#PU  其#PN  肉#NN  、#PU  血#NN  、#PU  头#NN  、#PU  皮#NN  均#AD  有#VE  一#CD  定#VV  的#DEC  药用#JJ  价值#NN    。#PU  据#P  本草#NN  纲目#NN  记载#NN  ，#PU  黄鳝#AD  有#VE  补血#NR  、#PU  补气#NR  、#PU  消炎#NR  、#PU  消毒#NN  、#PU  除#P  风湿#NN  等#ETC  功效#NN    。#PU  黄鳝#NN  肉性#AD  味#VV  甘#NR  、#PU  温#NN  ，#PU  有#VE  补#NN  中#LC  益#JJ  血#NN  ，#PU  治#VV  虚损#NN  之#DEG  功效#NN  ，#PU  民间#NN  用以#VV  入药#NN  ，#PU  可治疗#VV  虚劳#NN  咳嗽#NN  、#PU  湿热#NN  身#NN  痒#NN  、#PU  肠#NN  风#NN  痔漏#NN  、#PU  耳聋#NN  等症#NN    。#PU  黄鳝#NR  头煅灰#VV  ，#PU  空腹#NN  温酒#NN  送服#NN  ，#PU  能#VV  治#VV  妇女#NN  乳核硬痛#NN    。#PU  其#PN  骨#AD  入药#VV  ，#PU  兼治#NR  臁疮#VV  ，#PU  疗效#NN  颇#AD  显著#VA    。#PU  其#PN  血滴#VV  入耳#NN  中#LC  ，#PU  能#VV  治#VV  慢性#NN  化脓#NN  性#NN  中#LC  耳炎#NN  ;#NN  滴入#NN  鼻中#NN  可治#NN  鼻衄#NN  -LRB-#NN  鼻出血#NN  -RRB-#NN  ;#VV  特别是#AD  外用#NN  时能#NN  治#VV  口#NN  眼#NN  歪斜#NN  ，#PU  颜面#VV  神经#NN  麻痹#NN    。#PU  有#VE  人#NN  说#VV  ``#NN  鳝鱼#NN  是#VC  眼药#NN  ''#NN  ，#PU  过去#NT  患#AD  眼疾#VV  的#DEC  人#NN  都#AD  知道#VV  吃#VV  鳝鱼#AD  有#VE  好处#NN    。#PU  常#AD  吃#VV  鳝鱼#NN  有#VE  很#AD  强#VA  的#DEC  补益#NN  功能#NN  ，#PU  特别#AD  对#P  身体#NN  虚弱#NN  、#PU  病#NN  后#LC  以及#CC  产后#NN  之#DEG  人#NN  更为#AD  明显#VA    。#PU  它#PN  的#DEG  血#NN  还#AD  可以#VV  治疗#VV  口眼#NN  歪斜#NN    。#PU  祖国#NN  医学#NN  认为#VV  ，#PU  它#PN  有#VE  补气#NN  养#VV  血#NN  、#PU  温阳#NN  健脾#NN  、#PU  滋补#NN  肝肾#NN  、#PU  祛风#NN  通络#NN  等#ETC  医疗#NN  保健#NN  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 鳝鱼#VV)  (advmod, 叫#VV, 也#AD)  (conj, 鳝鱼#VV, 叫#VV)  (dobj, 叫#VV, 黄鳝#NN)  (conj, 鳝鱼#VV, 长#VV)  (nn, 海蛇#NN, 鱼#NN)  (dobj, 长#VV, 海蛇#NN)  (etc, 海蛇#NN, 等#ETC)  (advmod, 鲜肉#VV, 味#AD)  (conj, 鳝鱼#VV, 鲜肉#VV)  (dobj, 鲜肉#VV, 美#NR)  (conj, 鳝鱼#VV, 刺少#VV)  (dobj, 刺少#VV, 肉厚#NN)  (advmod, 生活#VV, 常#AD)  (conj, 鳝鱼#VV, 生活#VV)  (case, 最#NN, 在#P)  (conj, 湖泊#NN, 稻田#NN)  (conj, 湖泊#NN, 小河#NN)  (conj, 湖泊#NN, 小溪#NN)  (conj, 湖泊#NN, 池塘#NN)  (conj, 湖泊#NN, 河渠#NN)  (nn, 最#NN, 湖泊#NN)  (etc, 湖泊#NN, 等#ETC)  (relcl, 湖泊#NN, 淤#VA)  (relcl, 最#NN, 淤#VA)  (case, 底层#NN, 于#P)  (nn, 底层#NN, 质#NN)  (nn, 底层#NN, 水#NN)  (prep, 淤#VA, 底层#NN)  (case, 各地#NN, 在#P)  (nn, 各地#NN, 我国#NN)  (prep, 有#VE, 各地#NN)  (advmod, 有#VE, 均#AD)  (dep, 淤#VA, 有#VE)  (dobj, 有#VE, 生产#NN)  (case, 产量#NN, 以#P)  (nn, 流域#NN, 长江#NR)  (conj, 产量#NN, 流域#NN)  (conj, 产量#NN, 辽宁#NR)  (cc, 产量#NN, 和#CC)  (nn, 产量#NN, 天津#NR)  (prep, 多#VA, 产量#NN)  (advmod, 多#VA, 较#AD)  (dep, 淤#VA, 多#VA)  (mmod, 产#VV, 产期#VV)  (case, 10月#NT, 在#P)  (nummod, 10月#NT, 6#CD)  (prep, 产#VV, 10月#NT)  (case, ～#NN, 以#P)  (nummod, ～#NN, 6#CD)  (tmod, 产#VV, 8月#NT)  (prtmod, 产#VV, 所#MSP)  (dep, 淤#VA, 产#VV)  (mark, 淤#VA, 的#DEC)  (prep, 肥#NR, 最#NN)  (dobj, 生活#VV, 肥#NR)   (nn, 体型#NN, 鳝鱼#NN)  (nsubj, 圆筒状#VV, 体型#NN)  (case, 蛇#NN, 似#P)  (prep, 圆筒状#VV, 蛇#NN)  (root, ROOT#null, 圆筒状#VV)   (det, 细#NN, 头#DT)  (nummod, 尾#M, 粗#CD)  (dep, 头#DT, 尾#M)  (nsubj, 有#VE, 细#NN)  (advmod, 有#VE, 体表#AD)  (relcl, 暗黑#NN, 有#VE)  (nummod, 层#M, 一#CD)  (clf, 光滑#NN, 层#M)  (assmod, 保护#NN, 光滑#NN)  (case, 光滑#NN, 的#DEG)  (nn, 保护#NN, 粘膜#NN)  (nsubj, 去#VV, 保护#NN)  (dep, 有#VE, 去#VV)  (nsubj, 有#VV, 无鳞#NN)  (nn, 黄褐色#NN, 色泽#NN)  (nsubj, 有#VV, 黄褐色#NN)  (nsubj, 有#VV, 体#NN)  (advmod, 有#VV, 则#AD)  (conj, 有#VE, 有#VV)  (advmod, 有#VV, 不规则#AD)  (mark, 有#VE, 的#DEC)  (nsubj, 斑点#VV, 暗黑#NN)  (root, ROOT#null, 斑点#VV)  (det, 鳍#NN, 各#DT)  (nn, 消失#NN, 鳍#NN)  (neg, 发达#JJ, 不#AD)  (amod, 消失#NN, 发达#JJ)  (amod, 消失#NN, 基本#JJ)  (nsubj, 全身#VV, 消失#NN)  (ccomp, 斑点#VV, 全身#VV)  (advmod, 根#M, 只有#AD)  (nummod, 根#M, 一#CD)  (clf, 三棱刺#CD, 根#M)  (range, 全身#VV, 三棱刺#CD)  (conj, 全身#VV, 肉嫩#VV)  (dobj, 肉嫩#VV, 味美#NN)   (advmod, 黄鳝#NN, 还有#AD)  (nummod, 种#M, 一#CD)  (dep, 黄鳝#NN, 种#M)  (cop, 黄鳝#NN, 为#VC)  (nn, 黄鳝#NN, 山#NN)  (root, ROOT#null, 黄鳝#NN)  (tmod, 有#VE, 目前#NT)  (advmod, 有#VE, 只#AD)  (case, 云南#NR, 在#P)  (prep, 有#VE, 云南#NR)  (advmod, 有#VE, 陇川县#AD)  (dep, 黄鳝#NN, 有#VE)  (dobj, 有#VE, 分布#NN)  (nn, 地区#NN, 国内#NN)  (det, 地区#NN, 其他#DT)  (nsubj, 分布#VV, 地区#NN)  (dep, 分布#VV, 没有#VV)  (conj, 有#VE, 分布#VV)   (root, ROOT#null, null#null)
+            (conj, 佳肴#NN, 黄鳝#NN)  (cc, 佳肴#NN, 不仅#CC)  (case, 席上#NN, 为#P)  (prep, 佳肴#NN, 席上#NN)  (nsubj, 有#VE, 佳肴#NN)  (nsubj, 有#VE, 其#PN)  (conj, 皮#NN, 肉#NN)  (conj, 皮#NN, 血#NN)  (conj, 皮#NN, 头#NN)  (nsubj, 有#VE, 皮#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (nummod, 价值#NN, 一#CD)  (relcl, 价值#NN, 定#VV)  (mark, 定#VV, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 有#VE, 价值#NN)   (case, 记载#NN, 据#P)  (nn, 纲目#NN, 本草#NN)  (nn, 记载#NN, 纲目#NN)  (prep, 有#VE, 记载#NN)  (advmod, 有#VE, 黄鳝#AD)  (root, ROOT#null, 有#VE)  (conj, 消炎#NR, 补血#NR)  (conj, 消炎#NR, 补气#NR)  (conj, 功效#NN, 消炎#NR)  (conj, 功效#NN, 消毒#NN)  (case, 风湿#NN, 除#P)  (prep, 功效#NN, 风湿#NN)  (etc, 风湿#NN, 等#ETC)  (dobj, 有#VE, 功效#NN)   (nsubj, 味#VV, 黄鳝#NN)  (advmod, 味#VV, 肉性#AD)  (root, ROOT#null, 味#VV)  (conj, 温#NN, 甘#NR)  (dobj, 味#VV, 温#NN)  (conj, 味#VV, 有#VE)  (dep, 血#NN, 补#NN)  (case, 补#NN, 中#LC)  (amod, 血#NN, 益#JJ)  (dobj, 有#VE, 血#NN)  (conj, 味#VV, 治#VV)  (assmod, 功效#NN, 虚损#NN)  (case, 虚损#NN, 之#DEG)  (dobj, 治#VV, 功效#NN)  (dep, 用以#VV, 民间#NN)  (conj, 味#VV, 用以#VV)  (dobj, 用以#VV, 入药#NN)  (conj, 味#VV, 可治疗#VV)  (nn, 咳嗽#NN, 虚劳#NN)  (conj, 等症#NN, 咳嗽#NN)  (nn, 痒#NN, 湿热#NN)  (nn, 痒#NN, 身#NN)  (conj, 等症#NN, 痒#NN)  (nn, 痔漏#NN, 肠#NN)  (nn, 痔漏#NN, 风#NN)  (conj, 等症#NN, 痔漏#NN)  (nn, 等症#NN, 耳聋#NN)  (dobj, 可治疗#VV, 等症#NN)   (nsubj, 头煅灰#VV, 黄鳝#NR)  (root, ROOT#null, 头煅灰#VV)  (nn, 送服#NN, 空腹#NN)  (nn, 送服#NN, 温酒#NN)  (nsubj, 治#VV, 送服#NN)  (mmod, 治#VV, 能#VV)  (ccomp, 头煅灰#VV, 治#VV)  (nn, 乳核硬痛#NN, 妇女#NN)  (dobj, 治#VV, 乳核硬痛#NN)   (nsubj, 入药#VV, 其#PN)  (advmod, 入药#VV, 骨#AD)  (root, ROOT#null, 入药#VV)  (nsubj, 臁疮#VV, 兼治#NR)  (ccomp, 入药#VV, 臁疮#VV)  (nsubj, 显著#VA, 疗效#NN)  (advmod, 显著#VA, 颇#AD)  (ccomp, 臁疮#VV, 显著#VA)   (nsubj, 血滴#VV, 其#PN)  (loc, ;#VV, 血滴#VV)  (dobj, 血滴#VV, 入耳#NN)  (case, 血滴#VV, 中#LC)  (mmod, 治#VV, 能#VV)  (loc, ;#VV, 治#VV)  (nn, 性#NN, 慢性#NN)  (nn, 性#NN, 化脓#NN)  (dobj, 治#VV, 性#NN)  (case, 治#VV, 中#LC)  (nn, -RRB-#NN, 耳炎#NN)  (nn, -RRB-#NN, ;#NN)  (nn, -RRB-#NN, 滴入#NN)  (nn, -RRB-#NN, 鼻中#NN)  (nn, -RRB-#NN, 可治#NN)  (nn, -RRB-#NN, 鼻衄#NN)  (nn, -RRB-#NN, 鼻出血#NN)  (root, ROOT#null, ;#VV)  (advmod, 时能#NN, 特别是#AD)  (nn, 时能#NN, 外用#NN)  (nsubj, 治#VV, 时能#NN)  (ccomp, ;#VV, 治#VV)  (nn, 歪斜#NN, 口#NN)  (nn, 歪斜#NN, 眼#NN)  (dobj, 治#VV, 歪斜#NN)  (conj, 治#VV, 颜面#VV)  (nn, 麻痹#NN, 神经#NN)  (dobj, 颜面#VV, 麻痹#NN)   (relcl, 人#NN, 有#VE)  (nsubj, 说#VV, 人#NN)  (dep, 有#VE, 说#VV)  (nn, 鳝鱼#NN, ``#NN)  (nsubj, ''#NN, 鳝鱼#NN)  (cop, ''#NN, 是#VC)  (nn, ''#NN, 眼药#NN)  (ccomp, 说#VV, ''#NN)  (tmod, 眼疾#VV, 过去#NT)  (advmod, 眼疾#VV, 患#AD)  (conj, ''#NN, 眼疾#VV)  (mark, 有#VE, 的#DEC)  (nsubj, 知道#VV, 人#NN)  (xsubj, 有#VE, 人#NN)  (advmod, 知道#VV, 都#AD)  (root, ROOT#null, 知道#VV)  (mmod, 有#VE, 吃#VV)  (advmod, 有#VE, 鳝鱼#AD)  (ccomp, 知道#VV, 有#VE)  (dobj, 有#VE, 好处#NN)   (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 鳝鱼#NN)  (conj, 吃#VV, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 功能#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 功能#NN, 补益#NN)  (dobj, 有#VE, 功能#NN)  (advmod, 明显#VA, 特别#AD)  (case, 人#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (assmod, 人#NN, 病#NN)  (case, 病#NN, 后#LC)  (cc, 病#NN, 以及#CC)  (dep, 病#NN, 产后#NN)  (case, 病#NN, 之#DEG)  (prep, 明显#VA, 人#NN)  (advmod, 明显#VA, 更为#AD)  (dep, 吃#VV, 明显#VA)   (assmod, 血#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 治疗#VV, 血#NN)  (advmod, 治疗#VV, 还#AD)  (mmod, 治疗#VV, 可以#VV)  (root, ROOT#null, 治疗#VV)  (nn, 歪斜#NN, 口眼#NN)  (dobj, 治疗#VV, 歪斜#NN)   (nn, 医学#NN, 祖国#NN)  (nsubj, 认为#VV, 医学#NN)  (root, ROOT#null, 认为#VV)  (dep, 有#VE, 它#PN)  (ccomp, 认为#VV, 有#VE)  (nsubj, 养#VV, 补气#NN)  (dep, 有#VE, 养#VV)  (conj, 通络#NN, 血#NN)  (nn, 通络#NN, 温阳#NN)  (conj, 通络#NN, 健脾#NN)  (nn, 通络#NN, 滋补#NN)  (conj, 通络#NN, 肝肾#NN)  (nn, 通络#NN, 祛风#NN)  (nn, 功能#NN, 通络#NN)  (etc, 通络#NN, 等#ETC)  (nn, 功能#NN, 医疗#NN)  (nn, 功能#NN, 保健#NN)  (dobj, 养#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            刺少肉厚  湖泊  稻田  小河  小溪  池塘  河渠  我国各地  产量  流域  鳝鱼体型  粘膜保护  色泽黄褐色  斑点  发达消失  基本消失  肉嫩味美  国内地区  定价值  药用价值  本草纲目  纲目记载  消炎  补血  补气  功效  消毒  益血  虚劳咳嗽  痔漏  耳聋等症  可治疗等症  空腹送服  温酒送服  妇女乳核硬痛  入药  疗效显著  血滴入耳  外用时能  神经麻痹  颜面麻痹  知道  补益功能  口眼歪斜  治疗歪斜  祖国医学  温阳通络  健脾  滋补通络  肝肾  祛风通络  通络功能  医疗功能  保健功能  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强记忆力
+            鳝鱼中含有丰富的DHA和卵磷脂，经常摄取卵磷脂，记忆力可以提高20%。故食用鳝鱼肉有补脑健身的功效。
+            2.糖尿病患者理想食品
+            它所含的特种物质“鳝鱼素”，能降血糖和调节血糖，对糖尿病有较好的治疗作用，加之所含脂肪极少，因而是糖尿病患者的理想食品。
+            3，保护视力
+            可以增进视力，促进皮膜的新陈代谢。
+        </rawdata>
+
+        <segment>
+            增强  记忆力
+            鳝鱼  中  含有  丰富  的  DHA  和  卵磷脂  ，  经常  摄取  卵磷脂  ，  记忆力  可以  提高  20%  。  故  食用  鳝鱼  肉  有  补脑  健身  的  功效  。
+            糖尿病  患者  理想  食品
+            它  所含  的  特种  物质  “  鳝鱼素  ”  ，  能  降  血糖  和  调节  血糖  ，  对  糖尿病  有  较好  的  治疗  作用  ，  加之  所含  脂肪  极少  ，  因而  是  糖尿病  患者  的  理想  食品  。
+            3  ，  保护  视力
+            可以  增进  视力  ，  促进  皮膜  的  新陈代谢  。
+        </segment>
+
+        <pos>
+            增强#VV  记忆力#NN
+            鳝鱼#NN  中#LC  含有#AD  丰富#VA  的#DEC  DHA#NN  和#CC  卵磷脂#NN  ，#PU  经常#AD  摄取#VV  卵磷脂#NN  ，#PU  记忆力#NN  可以#VV  提高#VV  20#CD  %#NN    。#PU  故#AD  食用#VV  鳝鱼#NN  肉#NN  有#VE  补脑#AD  健身#VV  的#DEC  功效#NN    。#PU    。#PU
+            糖尿病#NN  患者#NN  理想#JJ  食品#NN
+            它#PN  所含#NN  的#DEG  特种#JJ  物质#NN  ``#NN  鳝鱼素#AD  ''#VV  ，#PU  能#VV  降#VV  血糖#NN  和#CC  调节#VV  血糖#NN  ，#PU  对#P  糖尿病#NN  有#VE  较好#JJ  的#DEG  治疗#NN  作用#NN  ，#PU  加之#AD  所含#NN  脂肪#NN  极少#NN  ，#PU  因而#AD  是#VC  糖尿病#NN  患者#NN  的#DEG  理想#JJ  食品#NN  。#PU
+            3#CD  ，#PU  保护#VV  视力#NN
+            可以#VV  增进#VV  视力#NN  ，#PU  促进#VV  皮膜#NN  的#DEG  新陈代谢#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 记忆力#NN)
+            (loc, 丰富#VA, 鳝鱼#NN)  (case, 鳝鱼#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 卵磷脂#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 卵磷脂#NN, DHA#NN)  (cc, 卵磷脂#NN, 和#CC)  (nsubj, 摄取#VV, 卵磷脂#NN)  (advmod, 摄取#VV, 经常#AD)  (root, ROOT#null, 摄取#VV)  (dobj, 摄取#VV, 卵磷脂#NN)  (nsubj, 提高#VV, 记忆力#NN)  (mmod, 提高#VV, 可以#VV)  (conj, 摄取#VV, 提高#VV)  (nummod, %#NN, 20#CD)  (dobj, 提高#VV, %#NN)   (advmod, 食用#VV, 故#AD)  (relcl, 肉#NN, 食用#VV)  (dobj, 食用#VV, 鳝鱼#NN)  (dep, 有#VE, 肉#NN)  (root, ROOT#null, 有#VE)  (advmod, 健身#VV, 补脑#AD)  (relcl, 功效#NN, 健身#VV)  (mark, 健身#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, null#null)
+            (nn, 患者#NN, 糖尿病#NN)  (dep, 食品#NN, 患者#NN)  (amod, 食品#NN, 理想#JJ)  (root, ROOT#null, 食品#NN)
+            (nsubj, ''#VV, 它#PN)  (xsubj, 降#VV, 它#PN)  (assmod, ``#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (amod, ``#NN, 特种#JJ)  (nn, ``#NN, 物质#NN)  (nsubj, ''#VV, ``#NN)  (xsubj, 降#VV, ``#NN)  (advmod, ''#VV, 鳝鱼素#AD)  (root, ROOT#null, ''#VV)  (mmod, 降#VV, 能#VV)  (ccomp, ''#VV, 降#VV)  (dobj, 降#VV, 血糖#NN)  (cc, 降#VV, 和#CC)  (conj, 降#VV, 调节#VV)  (dobj, 调节#VV, 血糖#NN)  (case, 糖尿病#NN, 对#P)  (prep, 有#VE, 糖尿病#NN)  (dep, ''#VV, 有#VE)  (assmod, 作用#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 食品#NN, 加之#AD)  (nn, 极少#NN, 所含#NN)  (nn, 极少#NN, 脂肪#NN)  (nsubj, 食品#NN, 极少#NN)  (advmod, 食品#NN, 因而#AD)  (cop, 食品#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (assmod, 食品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (conj, ''#VV, 食品#NN)
+            (dep, 保护#VV, 3#CD)  (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 视力#NN)
+            (mmod, 增进#VV, 可以#VV)  (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 视力#NN)  (dep, 增进#VV, 促进#VV)  (assmod, 新陈代谢#NN, 皮膜#NN)  (case, 皮膜#NN, 的#DEG)  (dobj, 促进#VV, 新陈代谢#NN)
+        </parsing>
+
+        <tag>
+            增强记忆力  卵磷脂丰富  DHA  摄取卵磷脂  食用肉  食用鳝鱼  健身功效  糖尿病患者  理想食品  调节血糖  所含极少  脂肪极少  保护视力  增进视力  促进新陈代谢  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  辅助降血糖  明目  补气  祛风除湿  补血  强筋骨  补肝肾
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鳝鱼富含DHA和卵磷脂它是构成人体各器官组织细胞膜的主要成分，而且是脑细胞不可缺少的营养。
+            2.鳝鱼特含降低血糖和调节血糖的“鳝鱼素”，且所含脂肪极少是糖尿病患者的理想食品。
+            3.鳝鱼含丰富维生素A，能增进视力，促进皮膜的新陈代谢。
+        </rawdata>
+
+        <segment>
+            鳝鱼  富含  DHA  和  卵磷脂  它  是  构成  人体  各  器官  组织  细胞膜  的  主要  成分  ，  而且  是  脑  细胞  不  可  缺少  的  营养  。
+            鳝鱼  特  含  降低  血糖  和  调节  血糖  的  “  鳝鱼素  ”  ，  且  所  含  脂肪  极少  是  糖尿病  患者  的  理想  食品  。
+            鳝鱼  含  丰富  维生素A  ，  能  增进  视力  ，  促进  皮膜  的  新陈代谢  。
+        </segment>
+
+        <pos>
+            鳝鱼#NN  富含#NN  DHA#NN  和#CC  卵磷脂#NN  它#PN  是#VC  构成#VV  人体#NR  各#DT  器官#NN  组织#NN  细胞膜#NN  的#DEC  主要#JJ  成分#NN  ，#PU  而且#CC  是#VC  脑#NN  细胞#NN  不#AD  可#VV  缺少#VV  的#DEC  营养#VA  。#PU
+            鳝鱼#NN  特#AD  含#VV  降低#VV  血糖#NN  和#CC  调节#VV  血糖#NN  的#DEC  ``#NN  鳝鱼素#NN  ''#NN  ，#PU  且#CC  所#MSP  含#VV  脂肪#NN  极少#NN  是#VC  糖尿病#NN  患者#NN  的#DEC  理想#JJ  食品#NN  。#PU
+            鳝鱼#NN  含#VV  丰富#VV  维生素A#NN  ，#PU  能#VV  增进#VV  视力#NN  ，#PU  促进#VV  皮膜#NN  的#DEC  新陈代谢#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 鳝鱼#NN)  (nn, 卵磷脂#NN, 富含#NN)  (conj, 卵磷脂#NN, DHA#NN)  (cc, 卵磷脂#NN, 和#CC)  (nsubj, 成分#NN, 卵磷脂#NN)  (nsubj, 成分#NN, 它#PN)  (cop, 成分#NN, 是#VC)  (relcl, 成分#NN, 构成#VV)  (nn, 组织#NN, 人体#NR)  (det, 组织#NN, 各#DT)  (nn, 组织#NN, 器官#NN)  (nn, 细胞膜#NN, 组织#NN)  (dobj, 构成#VV, 细胞膜#NN)  (mark, 构成#VV, 的#DEC)  (amod, 成分#NN, 主要#JJ)  (root, ROOT#null, 成分#NN)  (cc, 成分#NN, 而且#CC)  (cop, 缺少#VV, 是#VC)  (nn, 细胞#NN, 脑#NN)  (nsubj, 缺少#VV, 细胞#NN)  (neg, 缺少#VV, 不#AD)  (dep, 缺少#VV, 可#VV)  (conj, 成分#NN, 缺少#VV)  (mark, 缺少#VV, 的#DEC)  (conj, 缺少#VV, 营养#VA)
+            (nsubj, 含#VV, 鳝鱼#NN)  (advmod, 含#VV, 特#AD)  (root, ROOT#null, 含#VV)  (relcl, ''#NN, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 调节#VV)  (dobj, 调节#VV, 血糖#NN)  (mark, 降低#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 鳝鱼素#NN)  (dobj, 含#VV, ''#NN)  (cc, 含#VV, 且#CC)  (prtmod, 含#VV, 所#MSP)  (dep, 含#VV, 含#VV)  (nn, 极少#NN, 脂肪#NN)  (nsubj, 患者#NN, 极少#NN)  (cop, 患者#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (relcl, 食品#NN, 患者#NN)  (mark, 患者#NN, 的#DEC)  (amod, 食品#NN, 理想#JJ)  (dobj, 含#VV, 食品#NN)
+            (nsubj, 含#VV, 鳝鱼#NN)  (root, ROOT#null, 含#VV)  (relcl, 新陈代谢#NN, 丰富#VV)  (dobj, 丰富#VV, 维生素A#NN)  (mmod, 增进#VV, 能#VV)  (conj, 丰富#VV, 增进#VV)  (dobj, 增进#VV, 视力#NN)  (conj, 增进#VV, 促进#VV)  (dobj, 促进#VV, 皮膜#NN)  (mark, 丰富#VV, 的#DEC)  (dobj, 含#VV, 新陈代谢#NN)
+        </parsing>
+
+        <tag>
+            鳝鱼富含  富含卵磷脂  DHA  器官组织  组织细胞膜  构成细胞膜  降低血糖  调节血糖  脂肪极少  糖尿病患者  理想食品  丰富新陈代谢  维生素A丰富  增进视力  促进皮膜  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            将鳝鱼背朝下铺在砧板上，用刀背从头至尾拍打一遍，这样可使烹调时受热均匀，更易入味。鳝鱼肉紧，拍打时可用力大些。
+        </rawdata>
+
+        <segment>
+            将  鳝鱼  背  朝  下铺  在  砧板  上  ，  用  刀背  从头至尾  拍打  一  遍  ，  这样  可使  烹调  时  受热  均匀  ，  更  易  入味  。  鳝鱼  肉紧  ，  拍打  时  可  用力  大  些  。
+        </segment>
+
+        <pos>
+            将#AD  鳝鱼#AD  背#VV  朝#P  下铺#NN  在#P  砧板#NN  上#LC  ，#PU  用#P  刀背#NN  从头至尾#NN  拍打#VV  一#CD  遍#NN  ，#PU  这样#AD  可使#VV  烹调#NN  时#LC  受热#AD  均匀#VA  ，#PU  更#AD  易#VA  入味#NN    。#PU  鳝鱼#NR  肉紧#VV  ，#PU  拍打#NN  时#LC  可#VV  用力#VA  大#JJ  些#M    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 背#VV, 将#AD)  (advmod, 背#VV, 鳝鱼#AD)  (root, ROOT#null, 背#VV)  (case, 拍打#VV, 朝#P)  (nsubj, 拍打#VV, 下铺#NN)  (case, 砧板#NN, 在#P)  (prep, 拍打#VV, 砧板#NN)  (case, 砧板#NN, 上#LC)  (case, 从头至尾#NN, 用#P)  (nn, 从头至尾#NN, 刀背#NN)  (prep, 拍打#VV, 从头至尾#NN)  (prep, 均匀#VA, 拍打#VV)  (nummod, 遍#NN, 一#CD)  (dobj, 拍打#VV, 遍#NN)  (advmod, 可使#VV, 这样#AD)  (dep, 拍打#VV, 可使#VV)  (dobj, 可使#VV, 烹调#NN)  (case, 拍打#VV, 时#LC)  (advmod, 均匀#VA, 受热#AD)  (nfincl, 入味#NN, 均匀#VA)  (advmod, 易#VA, 更#AD)  (dep, 均匀#VA, 易#VA)  (dobj, 背#VV, 入味#NN)   (nsubj, 肉紧#VV, 鳝鱼#NR)  (xsubj, 用力#VA, 鳝鱼#NR)  (root, ROOT#null, 肉紧#VV)  (loc, 用力#VA, 拍打#NN)  (case, 拍打#NN, 时#LC)  (mmod, 用力#VA, 可#VV)  (ccomp, 肉紧#VV, 用力#VA)  (amod, 些#M, 大#JJ)  (dep, 用力#VA, 些#M)
+        </parsing>
+
+        <tag>
+            刀背从头至尾  拍打遍  可使烹调  肉紧  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/092112239771.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\83 黄鳝.jpg
+    </picturelocalurl>
+
+</content>

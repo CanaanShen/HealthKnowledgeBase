@@ -1,0 +1,212 @@
+<content>
+
+    <id>
+        530
+    </id>
+
+    <foodname>
+        麦芽糖
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        食品
+    </secondcategory>
+
+    <alias>
+        饴糖、糖稀、胶饴
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热内郁、中满吐逆、糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            湿热  内郁  、  中  满  吐  逆  、  糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            湿热#VV  内郁#NN  、#PU  中#NR  满#JJ  吐#NN  逆#NN  、#PU  糖尿病#NN  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 湿热#VV)  (conj, 忌食#NN, 内郁#NN)  (nn, 吐#NN, 中#NR)  (amod, 吐#NN, 满#JJ)  (nn, 逆#NN, 吐#NN)  (conj, 忌食#NN, 逆#NN)  (nn, 患者#NN, 糖尿病#NN)  (nn, 忌食#NN, 患者#NN)  (dobj, 湿热#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            湿热内郁  中满吐逆  糖尿病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                331
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            麦芽糖是米、大麦、粟或玉蜀黍等粮食经发酵制成的糖类食品。甜味不大，能增加菜肴品种的色泽和香味。全国各地均产。有软硬两种，软者为黄褐色浓稠液体，粘性很大，称胶饴；硬者系软糖经搅拌，混入空气后凝固而成，为多孔之黄白色糖饼，称白饴糖。药用以胶饴为佳。麦芽糖属双糖类，白色针状结晶，易溶于水。味甜但不及蔗糖，有健脾胃、润肺止咳的功效。
+        </rawdata>
+
+        <segment>
+            麦芽糖  是  米  、  大麦  、  粟  或  玉蜀黍  等  粮食  经  发酵  制成  的  糖类  食品  。  甜味  不大  ，  能  增加  菜肴  品种  的  色泽  和  香味  。  全国  各  地  均  产  。  有  软硬  两  种  ，  软  者  为  黄褐色  浓稠  液体  ，  粘性  很  大  ，  称  胶饴  ；  硬  者  系  软糖  经  搅拌  ，  混入  空气  后  凝固  而成  ，  为  多孔  之  黄白色  糖饼  ，  称  白  饴糖  。  药用  以  胶饴  为佳  。  麦芽糖  属  双糖类  ，  白色  针状  结晶  ，  易  溶于  水  。  味  甜  但  不及  蔗糖  ，  有  健  脾胃  、  润肺  止咳  的  功效  。
+        </segment>
+
+        <pos>
+            麦芽糖#NN  是#VC  米#M  、#PU  大麦#NN  、#PU  粟#NN  或#CC  玉蜀黍#NN  等#ETC  粮食#NN  经#P  发酵#NN  制成#VV  的#DEC  糖类#JJ  食品#NN    。#PU  甜味#NR  不大#VV  ，#PU  能#VV  增加#VV  菜肴#NN  品种#NN  的#DEG  色泽#NN  和#CC  香味#NN    。#PU  全国#NR  各#DT  地#NN  均#AD  产#VV    。#PU  有#VE  软硬#JJ  两#CD  种#M  ，#PU  软#JJ  者#NN  为#P  黄褐色#NN  浓稠#VV  液体#NN  ，#PU  粘性#NN  很#AD  大#VA  ，#PU  称#VV  胶饴#VV  ；#PU  硬#JJ  者#NN  系#VC  软糖#NN  经#P  搅拌#NN  ，#PU  混入#VV  空气#NN  后#LC  凝固#VV  而成#NN  ，#PU  为#P  多孔#NN  之#DEG  黄白色#NN  糖饼#VV  ，#PU  称#VV  白#JJ  饴糖#NN    。#PU  药用#NN  以#P  胶饴#NN  为佳#VV    。#PU  麦芽糖#NN  属#VV  双糖类#NN  ，#PU  白色#JJ  针状#NN  结晶#NN  ，#PU  易#AD  溶于#VV  水#NN    。#PU  味#NN  甜#NN  但#AD  不及#NR  蔗糖#VV  ，#PU  有#VE  健#VA  脾胃#VA  、#PU  润肺#VA  止咳#VA  的#DEC  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 麦芽糖#NN)  (cop, 食品#NN, 是#VC)  (clf, 食品#NN, 米#M)  (conj, 玉蜀黍#NN, 大麦#NN)  (conj, 玉蜀黍#NN, 粟#NN)  (cc, 玉蜀黍#NN, 或#CC)  (nn, 粮食#NN, 玉蜀黍#NN)  (etc, 玉蜀黍#NN, 等#ETC)  (nsubj, 制成#VV, 粮食#NN)  (case, 发酵#NN, 经#P)  (prep, 制成#VV, 发酵#NN)  (relcl, 食品#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (amod, 食品#NN, 糖类#JJ)  (root, ROOT#null, 食品#NN)   (nsubj, 不大#VV, 甜味#NR)  (xsubj, 增加#VV, 甜味#NR)  (root, ROOT#null, 不大#VV)  (mmod, 增加#VV, 能#VV)  (ccomp, 不大#VV, 增加#VV)  (nn, 品种#NN, 菜肴#NN)  (assmod, 香味#NN, 品种#NN)  (case, 品种#NN, 的#DEG)  (conj, 香味#NN, 色泽#NN)  (cc, 香味#NN, 和#CC)  (dobj, 增加#VV, 香味#NN)   (nn, 地#NN, 全国#NR)  (det, 地#NN, 各#DT)  (nsubj, 产#VV, 地#NN)  (advmod, 产#VV, 均#AD)  (root, ROOT#null, 产#VV)   (root, ROOT#null, 有#VE)  (amod, 种#M, 软硬#JJ)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (amod, 者#NN, 软#JJ)  (nsubj, 浓稠#VV, 者#NN)  (case, 黄褐色#NN, 为#P)  (prep, 浓稠#VV, 黄褐色#NN)  (conj, 有#VE, 浓稠#VV)  (dobj, 浓稠#VV, 液体#NN)  (nsubj, 大#VA, 粘性#NN)  (advmod, 大#VA, 很#AD)  (conj, 有#VE, 大#VA)  (conj, 有#VE, 称#VV)  (ccomp, 称#VV, 胶饴#VV)  (amod, 者#NN, 硬#JJ)  (nsubj, 软糖#NN, 者#NN)  (cop, 软糖#NN, 系#VC)  (ccomp, 胶饴#VV, 软糖#NN)  (case, 搅拌#NN, 经#P)  (prep, 凝固#VV, 搅拌#NN)  (loc, 凝固#VV, 混入#VV)  (dobj, 混入#VV, 空气#NN)  (case, 混入#VV, 后#LC)  (dep, 有#VE, 凝固#VV)  (dobj, 凝固#VV, 而成#NN)  (case, 黄白色#NN, 为#P)  (assmod, 黄白色#NN, 多孔#NN)  (case, 多孔#NN, 之#DEG)  (prep, 糖饼#VV, 黄白色#NN)  (conj, 凝固#VV, 糖饼#VV)  (conj, 凝固#VV, 称#VV)  (amod, 饴糖#NN, 白#JJ)  (dobj, 称#VV, 饴糖#NN)   (nsubj, 为佳#VV, 药用#NN)  (case, 胶饴#NN, 以#P)  (prep, 为佳#VV, 胶饴#NN)  (root, ROOT#null, 为佳#VV)   (nsubj, 属#VV, 麦芽糖#NN)  (root, ROOT#null, 属#VV)  (dobj, 属#VV, 双糖类#NN)  (amod, 针状#NN, 白色#JJ)  (nn, 结晶#NN, 针状#NN)  (nsubj, 溶于#VV, 结晶#NN)  (advmod, 溶于#VV, 易#AD)  (conj, 属#VV, 溶于#VV)  (dobj, 溶于#VV, 水#NN)   (nn, 甜#NN, 味#NN)  (nsubj, 蔗糖#VV, 甜#NN)  (advmod, 蔗糖#VV, 但#AD)  (nsubj, 蔗糖#VV, 不及#NR)  (root, ROOT#null, 蔗糖#VV)  (ccomp, 蔗糖#VV, 有#VE)  (relcl, 功效#NN, 健#VA)  (comod, 健#VA, 脾胃#VA)  (ccomp, 健#VA, 润肺#VA)  (comod, 润肺#VA, 止咳#VA)  (mark, 健#VA, 的#DEC)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            大麦  玉蜀黍粮食  制成食品  糖类食品  不大  菜肴品种  色泽  增加香味  软者  浓稠液体  硬者  混入空气  凝固而成  黄白色  白饴糖  为佳  白色针状  针状结晶  溶于水  蔗糖  健润肺  止咳润肺  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            麦芽糖有着食用价值之余，亦有其食疗功效，它性温味甘，与水溶解后会化作葡萄糖，作为医学上的营养料，可用作养颜、补脾益气、润肺止咳、缓急止痛、滋润内脏、开胃除烦、通便秘等，主治脾胃虚弱、气短乏力、纳食减少、虚寒腹痛、肺燥咳嗽、干咳少痰、咽痛。
+        </rawdata>
+
+        <segment>
+            麦芽糖  有  着  食用  价值  之余  ，  亦  有  其  食疗  功效  ，  它  性温味  甘  ，  与水  溶解  后  会  化作  葡萄糖  ，  作为  医学  上  的  营养  料  ，  可  用作  养颜  、  补脾  益气  、  润肺  止咳  、  缓急  止痛  、  滋润  内脏  、  开胃  除烦  、  通便  秘等  ，  主治  脾胃  虚弱  、  气短  乏力  、  纳食  减少  、  虚寒  腹痛  、  肺燥  咳嗽  、  干咳  少痰  、  咽痛  。
+        </segment>
+
+        <pos>
+            麦芽糖#NR  有#VE  着#AS  食用#VV  价值#NN  之余#LC  ，#PU  亦#AD  有#VE  其#PN  食疗#NN  功效#VV  ，#PU  它#PN  性温味#VV  甘#NR  ，#PU  与水#NN  溶解#NN  后#LC  会#VV  化作#NN  葡萄糖#NN  ，#PU  作为#P  医学#NN  上#LC  的#DEC  营养#VA  料#NN  ，#PU  可#VV  用作#VV  养颜#NN  、#PU  补脾#NN  益气#NN  、#PU  润肺#NN  止咳#NN  、#PU  缓急#NN  止痛#NN  、#PU  滋润#NN  内脏#NN  、#PU  开胃#NN  除烦#NN  、#PU  通便#NN  秘等#NN  ，#PU  主治#VV  脾胃#NN  虚弱#NN  、#PU  气短#NN  乏力#NN  、#PU  纳食#NN  减少#NN  、#PU  虚寒#NN  腹痛#NN  、#PU  肺燥#NN  咳嗽#NN  、#PU  干咳#NN  少痰#NN  、#PU  咽痛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 麦芽糖#NR)  (root, ROOT#null, 有#VE)  (asp, 有#VE, 着#AS)  (mmod, 有#VE, 食用#VV)  (loc, 有#VE, 价值#NN)  (case, 价值#NN, 之余#LC)  (advmod, 有#VE, 亦#AD)  (relcl, 料#NN, 有#VE)  (nn, 食疗#NN, 其#PN)  (nsubj, 功效#VV, 食疗#NN)  (dep, 有#VE, 功效#VV)  (nsubj, 性温味#VV, 它#PN)  (ccomp, 功效#VV, 性温味#VV)  (dobj, 性温味#VV, 甘#NR)  (nn, 溶解#NN, 与水#NN)  (loc, 会#VV, 溶解#NN)  (case, 溶解#NN, 后#LC)  (conj, 性温味#VV, 会#VV)  (nn, 葡萄糖#NN, 化作#NN)  (dobj, 会#VV, 葡萄糖#NN)  (case, 医学#NN, 作为#P)  (prep, 性温味#VV, 医学#NN)  (case, 医学#NN, 上#LC)  (mark, 有#VE, 的#DEC)  (nfincl, 料#NN, 营养#VA)  (dobj, 有#VE, 料#NN)  (mmod, 用作#VV, 可#VV)  (conj, 有#VE, 用作#VV)  (conj, 通便#NN, 养颜#NN)  (nn, 通便#NN, 补脾#NN)  (conj, 通便#NN, 益气#NN)  (nn, 通便#NN, 润肺#NN)  (conj, 通便#NN, 止咳#NN)  (nn, 通便#NN, 缓急#NN)  (conj, 通便#NN, 止痛#NN)  (nn, 通便#NN, 滋润#NN)  (conj, 通便#NN, 内脏#NN)  (nn, 通便#NN, 开胃#NN)  (conj, 通便#NN, 除烦#NN)  (nn, 秘等#NN, 通便#NN)  (dobj, 用作#VV, 秘等#NN)  (conj, 有#VE, 主治#VV)  (nn, 咽痛#NN, 脾胃#NN)  (conj, 咽痛#NN, 虚弱#NN)  (nn, 咽痛#NN, 气短#NN)  (conj, 咽痛#NN, 乏力#NN)  (nn, 咽痛#NN, 纳食#NN)  (conj, 咽痛#NN, 减少#NN)  (nn, 咽痛#NN, 虚寒#NN)  (conj, 咽痛#NN, 腹痛#NN)  (nn, 咽痛#NN, 肺燥#NN)  (conj, 咽痛#NN, 咳嗽#NN)  (nn, 咽痛#NN, 干咳#NN)  (conj, 咽痛#NN, 少痰#NN)  (dobj, 主治#VV, 咽痛#NN)
+        </parsing>
+
+        <tag>
+            与水溶解  化作葡萄糖  养颜  补脾通便  益气  润肺通便  止咳  缓急通便  止痛  滋润通便  内脏  开胃通便  除烦  通便秘等  用作秘等  脾胃咽痛  虚弱  气短咽痛  乏力  纳食咽痛  减少  虚寒咽痛  腹痛  肺燥咽痛  咳嗽  干咳咽痛  少痰  主治咽痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            溶化饮，入汤药，噙咽，或入糖果等。饴糖主要用于加工焦糖酱色及糖果、果汁饮料，造酒、罐头、豆酱、酱油，药用等方面。药用以秋饴糖为佳。
+        </rawdata>
+
+        <segment>
+            溶化饮  ，  入  汤药  ，  噙咽  ，  或  入  糖果  等  。  饴糖  主要  用于  加工  焦糖  酱色  及  糖果  、  果汁  饮料  ，  造酒  、  罐头  、  豆酱  、  酱油  ，  药用  等  方面  。  药用  以  秋  饴糖  为佳  。
+        </segment>
+
+        <pos>
+            溶化饮#VV  ，#PU  入#VV  汤药#NN  ，#PU  噙咽#VV  ，#PU  或#CC  入#VV  糖果#NN  等#ETC    。#PU  饴糖#NN  主要#AD  用于#VV  加工#NN  焦糖#NN  酱色#NN  及#CC  糖果#NN  、#PU  果汁#NN  饮料#NN  ，#PU  造酒#NR  、#PU  罐头#NR  、#PU  豆酱#NR  、#PU  酱油#NR  ，#PU  药用#NN  等#ETC  方面#NN    。#PU  药用#NN  以#P  秋#NN  饴糖#NN  为佳#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 溶化饮#VV)  (conj, 溶化饮#VV, 入#VV)  (dobj, 入#VV, 汤药#NN)  (conj, 溶化饮#VV, 噙咽#VV)  (cc, 溶化饮#VV, 或#CC)  (conj, 溶化饮#VV, 入#VV)  (dobj, 入#VV, 糖果#NN)  (etc, 糖果#NN, 等#ETC)   (nsubj, 用于#VV, 饴糖#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (nn, 饮料#NN, 加工#NN)  (nn, 饮料#NN, 焦糖#NN)  (conj, 饮料#NN, 酱色#NN)  (cc, 饮料#NN, 及#CC)  (conj, 饮料#NN, 糖果#NN)  (nn, 饮料#NN, 果汁#NN)  (dep, 药用#NN, 饮料#NN)  (conj, 酱油#NR, 造酒#NR)  (conj, 酱油#NR, 罐头#NR)  (conj, 酱油#NR, 豆酱#NR)  (dep, 药用#NN, 酱油#NR)  (nn, 方面#NN, 药用#NN)  (etc, 药用#NN, 等#ETC)  (dobj, 用于#VV, 方面#NN)   (nsubj, 为佳#VV, 药用#NN)  (case, 饴糖#NN, 以#P)  (nn, 饴糖#NN, 秋#NN)  (prep, 为佳#VV, 饴糖#NN)  (root, ROOT#null, 为佳#VV)
+        </parsing>
+
+        <tag>
+            加工饮料  焦糖饮料  酱色  糖果  果汁饮料  酱油  造酒  罐头  豆酱  药用方面  用于方面  为佳  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121848404743.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\530 麦芽糖.jpg
+    </picturelocalurl>
+
+</content>

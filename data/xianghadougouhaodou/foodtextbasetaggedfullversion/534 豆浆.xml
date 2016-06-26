@@ -1,0 +1,438 @@
+<content>
+
+    <id>
+        534
+    </id>
+
+    <foodname>
+        豆浆
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        腐浆、豆腐浆
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            急性胃炎和慢性浅表性胃炎患者，痛风病人，肾结石患者，胃溃疡患者忌食。
+        </rawdata>
+
+        <segment>
+            急性  胃炎  和  慢性  浅  表性  胃炎  患者  ，  痛风  病人  ，  肾  结石  患者  ，  胃溃疡  患者  忌食  。
+        </segment>
+
+        <pos>
+            急性#NN  胃炎#NN  和#CC  慢性#NN  浅#NN  表性#VV  胃炎#NN  患者#NN  ，#PU  痛风#VV  病人#NN  ，#PU  肾#VV  结石#NN  患者#NN  ，#PU  胃溃疡#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 浅#NN, 急性#NN)  (conj, 浅#NN, 胃炎#NN)  (cc, 浅#NN, 和#CC)  (nn, 浅#NN, 慢性#NN)  (nsubj, 表性#VV, 浅#NN)  (root, ROOT#null, 表性#VV)  (nn, 患者#NN, 胃炎#NN)  (dobj, 表性#VV, 患者#NN)  (conj, 表性#VV, 痛风#VV)  (dobj, 痛风#VV, 病人#NN)  (conj, 表性#VV, 肾#VV)  (nn, 患者#NN, 结石#NN)  (dobj, 肾#VV, 患者#NN)  (conj, 表性#VV, 胃溃疡#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 胃溃疡#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            急性胃炎  慢性浅表性胃炎  患者  痛风病人  肾结石  患者  胃溃疡  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。特别适合女性和老人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  特别  适合  女性  和  老人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  特别#AD  适合#VV  女性#NN  和#CC  老人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 特别#AD)  (root, ROOT#null, 适合#VV)  (conj, 老人#NN, 女性#NN)  (cc, 老人#NN, 和#CC)  (dobj, 适合#VV, 老人#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  特别适合  女性  老人  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                48
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                93.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆浆是将大豆用水泡后磨碎、过滤、煮沸而成。豆浆营养非常丰富，且易于消化吸收。豆浆是防治高血脂、高血压、动肪硬化、缺铁性贫血、气喘等疾病的理想食品。
+            鲜豆浆四季都可饮用。春秋饮豆浆，滋阴润燥，调和阴阳；夏饮豆浆，消热防暑，生津解渴；冬饮豆浆，祛寒暖胃，滋养进补。其实，除了传统的黄豆浆外，豆浆还有很多花样，红枣、枸杞、绿豆、百合等都可以成为豆浆的配料。
+        </rawdata>
+
+        <segment>
+            豆浆  是  将  大豆  用  水泡  后  磨碎  、  过滤  、  煮沸  而  成  。  豆浆  营养  非常  丰富  ，  且  易于  消化  吸收  。  豆浆  是  防治  高  血脂  、  高  血压  、  动肪  硬化  、  缺铁性  贫血  、  气喘  等  疾病  的  理想  食品  。
+            鲜  豆浆  四  季  都  可  饮用  。  春秋  饮  豆浆  ，  滋阴  润燥  ，  调和  阴阳  ；  夏  饮  豆浆  ，  消热  防暑  ，  生  津  解渴  ；  冬  饮  豆浆  ，  祛寒  暖胃  ，  滋养  进  补  。  其实  ，  除了  传统  的  黄豆浆  外  ，  豆浆  还有  很多  花样  ，  红枣  、  枸杞  、  绿豆  、  百合  等  都  可以  成为  豆浆  的  配料  。
+        </segment>
+
+        <pos>
+            豆浆#NN  是#VC  将#AD  大豆#VV  用#P  水泡#NN  后#LC  磨碎#NR  、#PU  过滤#NR  、#PU  煮沸#NR  而#MSP  成#VV    。#PU  豆浆#AD  营养#VA  非常#AD  丰富#VA  ，#PU  且#CC  易于#VV  消化#NN  吸收#NN    。#PU  豆浆#NN  是#VC  防治#NN  高#JJ  血脂#NN  、#PU  高#JJ  血压#NN  、#PU  动肪#NN  硬化#NN  、#PU  缺铁性#NN  贫血#NN  、#PU  气喘#NN  等#ETC  疾病#NN  的#DEG  理想#JJ  食品#NN    。#PU    。#PU
+            鲜#NN  豆浆#VV  四#CD  季#M  都#AD  可#VV  饮用#VV    。#PU  春秋#NN  饮#NN  豆浆#VV  ，#PU  滋阴#VV  润燥#NN  ，#PU  调和#VV  阴阳#NN  ；#PU  夏#VV  饮#NN  豆浆#NN  ，#PU  消热#VV  防暑#NN  ，#PU  生#VV  津#NR  解渴#NN  ；#PU  冬#NN  饮#NN  豆浆#NN  ，#PU  祛寒#AD  暖胃#VV  ，#PU  滋养#AD  进#VV  补#NN    。#PU  其实#AD  ，#PU  除了#P  传统#JJ  的#DEG  黄豆浆#NN  外#LC  ，#PU  豆浆#NN  还有#AD  很多#CD  花样#JJ  ，#PU  红枣#JJ  、#PU  枸杞#NN  、#PU  绿豆#NN  、#PU  百合#CD  等#M  都#NN  可以#VV  成为#VV  豆浆#NN  的#DEG  配料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 大豆#VV, 豆浆#NN)  (cop, 大豆#VV, 是#VC)  (advmod, 大豆#VV, 将#AD)  (root, ROOT#null, 大豆#VV)  (case, 水泡#NN, 用#P)  (prep, 成#VV, 水泡#NN)  (case, 水泡#NN, 后#LC)  (conj, 煮沸#NR, 磨碎#NR)  (conj, 煮沸#NR, 过滤#NR)  (nsubj, 成#VV, 煮沸#NR)  (prtmod, 成#VV, 而#MSP)  (ccomp, 大豆#VV, 成#VV)   (advmod, 营养#VA, 豆浆#AD)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 非常#AD)  (conj, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (dep, 营养#VA, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)   (nsubj, 食品#NN, 豆浆#NN)  (cop, 食品#NN, 是#VC)  (nn, 血脂#NN, 防治#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 气喘#NN, 血脂#NN)  (amod, 血压#NN, 高#JJ)  (conj, 气喘#NN, 血压#NN)  (nn, 硬化#NN, 动肪#NN)  (conj, 气喘#NN, 硬化#NN)  (nn, 贫血#NN, 缺铁性#NN)  (conj, 气喘#NN, 贫血#NN)  (nn, 疾病#NN, 气喘#NN)  (etc, 气喘#NN, 等#ETC)  (assmod, 食品#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (root, ROOT#null, 食品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 豆浆#VV, 鲜#NN)  (root, ROOT#null, 豆浆#VV)  (nummod, 季#M, 四#CD)  (range, 豆浆#VV, 季#M)  (advmod, 饮用#VV, 都#AD)  (dep, 饮用#VV, 可#VV)  (conj, 豆浆#VV, 饮用#VV)   (nn, 饮#NN, 春秋#NN)  (nsubj, 豆浆#VV, 饮#NN)  (root, ROOT#null, 豆浆#VV)  (ccomp, 豆浆#VV, 滋阴#VV)  (dobj, 滋阴#VV, 润燥#NN)  (conj, 滋阴#VV, 调和#VV)  (dobj, 调和#VV, 阴阳#NN)  (conj, 滋阴#VV, 夏#VV)  (nn, 豆浆#NN, 饮#NN)  (dobj, 夏#VV, 豆浆#NN)  (conj, 夏#VV, 消热#VV)  (dobj, 消热#VV, 防暑#NN)  (conj, 夏#VV, 生#VV)  (nn, 解渴#NN, 津#NR)  (dobj, 生#VV, 解渴#NN)  (nn, 豆浆#NN, 冬#NN)  (nn, 豆浆#NN, 饮#NN)  (nsubj, 暖胃#VV, 豆浆#NN)  (advmod, 暖胃#VV, 祛寒#AD)  (dep, 滋阴#VV, 暖胃#VV)  (advmod, 进#VV, 滋养#AD)  (conj, 滋阴#VV, 进#VV)  (dobj, 进#VV, 补#NN)   (advmod, 可以#VV, 其实#AD)  (case, 黄豆浆#NN, 除了#P)  (assmod, 黄豆浆#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (prep, 可以#VV, 黄豆浆#NN)  (case, 黄豆浆#NN, 外#LC)  (nsubj, 可以#VV, 豆浆#NN)  (advmod, 可以#VV, 还有#AD)  (nummod, 都#NN, 很多#CD)  (relcl, 都#NN, 花样#JJ)  (dep, 花样#JJ, 红枣#JJ)  (conj, 都#NN, 枸杞#NN)  (conj, 都#NN, 绿豆#NN)  (nummod, 等#M, 百合#CD)  (clf, 都#NN, 等#M)  (nsubj, 可以#VV, 都#NN)  (conj, 成为#VV, 可以#VV)  (root, ROOT#null, 成为#VV)  (assmod, 配料#NN, 豆浆#NN)  (case, 豆浆#NN, 的#DEG)  (dobj, 成为#VV, 配料#NN)
+        </parsing>
+
+        <tag>
+            大豆  煮沸  磨碎  过滤  消化吸收  易于吸收  防治血脂  高血脂  高血压  动肪硬化  缺铁性贫血  气喘疾病  理想食品  滋阴润燥  调和阴阳  消热防暑  成为配料  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.脑血管保健液
+            多喝鲜豆浆可预防老年痴呆症的发生。常饮豆浆可维持正常的营养平衡，全面调节内分泌系统，降低血压、血脂，减轻心血管负担，增加心脏活力，优化血液循环，保护心血管，并有平补肝肾、增强免疫等功效，所以有科学家称豆浆为“心血管保健液”。
+            2.降血糖
+            最近国外有学者研究证实，豆品饮料具有降血糖作用，豆浆是糖尿病患者极其宝贵的食物，因为糖尿病患者摄取大豆富含水溶性纤维的食物，均有助于控制血糖。
+            3.养颜
+            现代营养研究认为，鲜豆浆除了含有植物雌激素以外，还有大豆蛋白、异黄酮、卵磷脂等物质，对某些癌症如乳腺癌、子宫癌还有一定的预防作用，是一味天然的雌激素补充剂。同时，豆浆还含有一种牛奶所没有的植物雌激素“黄豆苷原”，该物质可调节女性内分泌系统的功能。每天喝上300~500毫升的鲜豆浆，可明显改善女性心态和身体素质，延缓皮肤衰老达到美容效果，并能减少青少年女性面部青春痘、暗疮的发生，使皮肤白皙润泽。
+            4.防治癌症
+            豆浆中的蛋白质和硒、钼等都有很强的抑癌和治癌能力，特别对胃癌、肠癌、乳腺癌有特效。据调查不喝豆浆的人发生癌症的概率要比常喝豆浆的人提高50%。
+            5.防止脑中风
+            豆浆中所含的镁、钙元素，能明显地降低脑血脂，改善脑血流，从而有效的防止脑梗塞、脑出血的发生。豆浆中所含的卵磷脂，还能减少脑细胞死亡，提高脑功能。
+        </rawdata>
+
+        <segment>
+            脑血管  保健液
+            多  喝  鲜  豆浆  可  预防  老年  痴呆症  的  发生  。  常  饮  豆浆  可  维持  正常  的  营养  平衡  ，  全面  调节  内分泌  系统  ，  降低  血压  、  血脂  ，  减轻  心血管  负担  ，  增加  心脏  活力  ，  优化  血液  循环  ，  保护  心血管  ，  并  有平补肝  肾  、  增强  免疫  等  功效  ，  所以  有  科学家  称  豆浆  为  “  心血管  保健液  ”  。
+            降  血糖
+            最近  国外  有  学者  研究  证实  ，  豆品  饮料  具有  降  血糖  作用  ，  豆浆  是  糖尿病  患者  极其  宝贵  的  食物  ，  因为  糖尿病  患者  摄取  大豆  富含  水溶性  纤维  的  食物  ，  均  有助于  控制  血糖  。
+            养颜
+            现代  营养  研究  认为  ，  鲜  豆浆  除了  含有  植物  雌激素  以外  ，  还有  大豆  蛋白  、  异  黄酮  、  卵磷脂  等  物质  ，  对  某些  癌症  如  乳腺癌  、  子宫癌  还有  一定  的  预防  作用  ，  是  一  味  天然  的  雌激素  补充  剂  。  同时  ，  豆浆  还  含有  一  种  牛奶  所  没有  的  植物  雌激素  “  黄豆  苷原  ”  ，  该  物质  可  调节  女性  内分泌  系统  的  功能  。  每  天  喝上  300  ~  500  毫升  的  鲜  豆浆  ，  可  明显  改善  女性  心态  和  身体  素质  ，  延缓  皮肤  衰老  达到  美容  效果  ，  并  能  减少  青少年  女性  面部  青春痘  、  暗疮  的  发生  ，  使  皮肤  白皙  润泽  。
+            防治  癌症
+            豆浆  中  的  蛋白质  和硒  、  钼等  都  有  很  强  的  抑癌  和  治癌  能力  ，  特别  对  胃癌  、  肠癌  、  乳腺癌  有  特效  。  据  调查  不喝  豆浆  的  人  发生  癌症  的  概率  要  比  常喝  豆浆  的  人  提高  50%  。
+            防止  脑中风
+            豆浆  中  所  含  的  镁  、  钙  元素  ，  能  明显  地  降低  脑  血脂  ，  改善  脑  血流  ，  从而  有效  的  防止  脑  梗塞  、  脑出血  的  发生  。  豆浆  中  所  含  的  卵磷脂  ，  还  能  减少  脑  细胞  死亡  ，  提高  脑  功能  。
+        </segment>
+
+        <pos>
+            脑血管#NN  保健液#VV
+            多#CD  喝#NN  鲜#AD  豆浆#VV  可#VV  预防#VV  老年#NN  痴呆症#NN  的#DEC  发生#NN    。#PU  常#NR  饮#NN  豆浆#NN  可#VV  维持#VV  正常#VA  的#DEC  营养#VA  平衡#NN  ，#PU  全面#AD  调节#VV  内分泌#NN  系统#NN  ，#PU  降低#VV  血压#NN  、#PU  血脂#NN  ，#PU  减轻#VV  心血管#NN  负担#NN  ，#PU  增加#VV  心脏#NN  活力#NN  ，#PU  优化#VV  血液#NN  循环#NN  ，#PU  保护#VV  心血管#NN  ，#PU  并#CC  有平补肝#NN  肾#NN  、#PU  增强#NN  免疫#NN  等#ETC  功效#NN  ，#PU  所以#AD  有#VE  科学家#NN  称#VV  豆浆#NN  为#P  ``#NN  心血管#VV  保健液#NN  ''#NN    。#PU    。#PU
+            降#VV  血糖#NN
+            最近#NT  国外#NN  有#VE  学者#NN  研究#NN  证实#VV  ，#PU  豆品#NN  饮料#NN  具有#VV  降#NN  血糖#NN  作用#NN  ，#PU  豆浆#NN  是#VC  糖尿病#NN  患者#NN  极其#AD  宝贵#VA  的#DEC  食物#NN  ，#PU  因为#P  糖尿病#NN  患者#NN  摄取#AD  大豆#VV  富含#NN  水溶性#NN  纤维#NN  的#DEG  食物#NN  ，#PU  均#AD  有助于#VV  控制#VV  血糖#NN  。#PU
+            养颜#VV
+            现代#JJ  营养#VA  研究#NN  认为#VV  ，#PU  鲜#NN  豆浆#NN  除了#P  含有#NN  植物#NN  雌激素#NN  以外#LC  ，#PU  还有#AD  大豆#NN  蛋白#NN  、#PU  异#NN  黄酮#NN  、#PU  卵磷脂#NN  等#ETC  物质#NN  ，#PU  对#P  某些#DT  癌症#NN  如#AD  乳腺癌#NN  、#PU  子宫癌#NN  还有#AD  一定#JJ  的#DEG  预防#NN  作用#NN  ，#PU  是#VC  一#CD  味#NN  天然#JJ  的#DEG  雌激素#NN  补充#NN  剂#NN    。#PU  同时#AD  ，#PU  豆浆#NN  还#AD  含有#VV  一#CD  种#M  牛奶#NN  所#MSP  没有#VV  的#DEC  植物#NN  雌激素#NN  ``#NN  黄豆#NN  苷原#NN  ''#NN  ，#PU  该#DT  物质#NN  可#VV  调节#VV  女性#NN  内分泌#NN  系统#NN  的#DEG  功能#NN    。#PU  每#DT  天#M  喝上#NN  300#CD  ~#VV  500#CD  毫升#M  的#DEC  鲜#NN  豆浆#VV  ，#PU  可#VV  明显#AD  改善#VV  女性#NN  心态#NN  和#CC  身体#NN  素质#NN  ，#PU  延缓#VV  皮肤#NN  衰老#NN  达到#VV  美容#NN  效果#NN  ，#PU  并#CC  能#VV  减少#VV  青少年#NN  女性#NN  面部#NN  青春痘#NN  、#PU  暗疮#NN  的#DEG  发生#NN  ，#PU  使#VV  皮肤#NN  白皙#VV  润泽#NN    。#PU    。#PU
+            防治#VV  癌症#NN
+            豆浆#NN  中#LC  的#DEG  蛋白质#NN  和硒#NN  、#PU  钼等#NN  都#AD  有#VE  很#AD  强#VA  的#DEC  抑癌#NN  和#CC  治癌#NN  能力#NN  ，#PU  特别#AD  对#P  胃癌#NR  、#PU  肠癌#NR  、#PU  乳腺癌#NR  有#VE  特效#NN    。#PU  据#P  调查#NN  不喝#VV  豆浆#NN  的#DEC  人#NN  发生#VV  癌症#NN  的#DEC  概率#NN  要#VV  比#P  常喝#NN  豆浆#NN  的#DEG  人#NN  提高#VV  50#CD  %#NN    。#PU    。#PU
+            防止#VV  脑中风#NN
+            豆浆#NN  中#LC  所#MSP  含#VV  的#DEC  镁#NN  、#PU  钙#NN  元素#NN  ，#PU  能#VV  明显#VA  地#DEV  降低#VV  脑#NN  血脂#NN  ，#PU  改善#VV  脑#NN  血流#NN  ，#PU  从而#AD  有效#VA  的#DEV  防止#VV  脑#NN  梗塞#NN  、#PU  脑出血#NN  的#DEG  发生#NN    。#PU  豆浆#NN  中#LC  所#MSP  含#VV  的#DEC  卵磷脂#NN  ，#PU  还#AD  能#VV  减少#VV  脑#NN  细胞#NN  死亡#VV  ，#PU  提高#VV  脑#NN  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 保健液#VV, 脑血管#NN)  (root, ROOT#null, 保健液#VV)
+            (nummod, 喝#NN, 多#CD)  (nsubj, 豆浆#VV, 喝#NN)  (advmod, 豆浆#VV, 鲜#AD)  (root, ROOT#null, 豆浆#VV)  (mmod, 预防#VV, 可#VV)  (relcl, 发生#NN, 预防#VV)  (nn, 痴呆症#NN, 老年#NN)  (dobj, 预防#VV, 痴呆症#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 豆浆#VV, 发生#NN)   (nn, 豆浆#NN, 常#NR)  (nn, 豆浆#NN, 饮#NN)  (nsubj, 维持#VV, 豆浆#NN)  (mmod, 维持#VV, 可#VV)  (root, ROOT#null, 维持#VV)  (relcl, 平衡#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nfincl, 平衡#NN, 营养#VA)  (dobj, 维持#VV, 平衡#NN)  (advmod, 调节#VV, 全面#AD)  (conj, 维持#VV, 调节#VV)  (nn, 系统#NN, 内分泌#NN)  (dobj, 调节#VV, 系统#NN)  (conj, 维持#VV, 降低#VV)  (conj, 血脂#NN, 血压#NN)  (dobj, 降低#VV, 血脂#NN)  (conj, 维持#VV, 减轻#VV)  (nn, 负担#NN, 心血管#NN)  (dobj, 减轻#VV, 负担#NN)  (conj, 维持#VV, 增加#VV)  (nn, 活力#NN, 心脏#NN)  (dobj, 增加#VV, 活力#NN)  (conj, 维持#VV, 优化#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 优化#VV, 循环#NN)  (conj, 维持#VV, 保护#VV)  (dobj, 保护#VV, 心血管#NN)  (cc, 维持#VV, 并#CC)  (nn, 免疫#NN, 有平补肝#NN)  (conj, 免疫#NN, 肾#NN)  (nn, 免疫#NN, 增强#NN)  (nn, 功效#NN, 免疫#NN)  (etc, 免疫#NN, 等#ETC)  (dep, 有#VE, 功效#NN)  (advmod, 有#VE, 所以#AD)  (conj, 维持#VV, 有#VE)  (nsubj, 称#VV, 科学家#NN)  (dep, 有#VE, 称#VV)  (dobj, 称#VV, 豆浆#NN)  (case, ``#NN, 为#P)  (prep, 心血管#VV, ``#NN)  (dep, 称#VV, 心血管#VV)  (nn, ''#NN, 保健液#NN)  (dobj, 心血管#VV, ''#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血糖#NN)
+            (dep, 有#VE, 最近#NT)  (dep, 有#VE, 国外#NN)  (root, ROOT#null, 有#VE)  (nn, 研究#NN, 学者#NN)  (nsubj, 证实#VV, 研究#NN)  (dep, 有#VE, 证实#VV)  (nn, 饮料#NN, 豆品#NN)  (nsubj, 具有#VV, 饮料#NN)  (ccomp, 证实#VV, 具有#VV)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血糖#NN)  (dobj, 具有#VV, 作用#NN)  (nsubj, 食物#NN, 豆浆#NN)  (cop, 食物#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 宝贵#VA, 患者#NN)  (advmod, 宝贵#VA, 极其#AD)  (relcl, 食物#NN, 宝贵#VA)  (mark, 宝贵#VA, 的#DEC)  (conj, 有#VE, 食物#NN)  (case, 大豆#VV, 因为#P)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 大豆#VV, 患者#NN)  (advmod, 大豆#VV, 摄取#AD)  (prep, 有助于#VV, 大豆#VV)  (nn, 纤维#NN, 富含#NN)  (nn, 纤维#NN, 水溶性#NN)  (assmod, 食物#NN, 纤维#NN)  (case, 纤维#NN, 的#DEG)  (dobj, 大豆#VV, 食物#NN)  (advmod, 有助于#VV, 均#AD)  (conj, 有#VE, 有助于#VV)  (ccomp, 有助于#VV, 控制#VV)  (dobj, 控制#VV, 血糖#NN)
+            (root, ROOT#null, 养颜#VV)
+            (amod, 研究#NN, 现代#JJ)  (relcl, 研究#NN, 营养#VA)  (nsubj, 认为#VV, 研究#NN)  (root, ROOT#null, 认为#VV)  (nn, 豆浆#NN, 鲜#NN)  (nsubj, 剂#NN, 豆浆#NN)  (case, 雌激素#NN, 除了#P)  (nn, 雌激素#NN, 含有#NN)  (nn, 雌激素#NN, 植物#NN)  (prep, 剂#NN, 雌激素#NN)  (case, 雌激素#NN, 以外#LC)  (advmod, 剂#NN, 还有#AD)  (nn, 卵磷脂#NN, 大豆#NN)  (conj, 卵磷脂#NN, 蛋白#NN)  (nn, 卵磷脂#NN, 异#NN)  (conj, 卵磷脂#NN, 黄酮#NN)  (nn, 物质#NN, 卵磷脂#NN)  (etc, 卵磷脂#NN, 等#ETC)  (dep, 剂#NN, 物质#NN)  (case, 作用#NN, 对#P)  (det, 癌症#NN, 某些#DT)  (nn, 子宫癌#NN, 癌症#NN)  (advmod, 子宫癌#NN, 如#AD)  (conj, 子宫癌#NN, 乳腺癌#NN)  (nn, 预防#NN, 子宫癌#NN)  (advmod, 预防#NN, 还有#AD)  (assmod, 预防#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 预防#NN)  (prep, 剂#NN, 作用#NN)  (cop, 剂#NN, 是#VC)  (nummod, 味#NN, 一#CD)  (nn, 剂#NN, 味#NN)  (assmod, 剂#NN, 天然#JJ)  (case, 天然#JJ, 的#DEG)  (nn, 剂#NN, 雌激素#NN)  (nn, 剂#NN, 补充#NN)  (ccomp, 认为#VV, 剂#NN)   (advmod, 含有#VV, 同时#AD)  (nsubj, 含有#VV, 豆浆#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 牛奶#NN, 种#M)  (nsubj, 没有#VV, 牛奶#NN)  (prtmod, 没有#VV, 所#MSP)  (relcl, ''#NN, 没有#VV)  (mark, 没有#VV, 的#DEC)  (nn, ''#NN, 植物#NN)  (nn, ''#NN, 雌激素#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 黄豆#NN)  (nn, ''#NN, 苷原#NN)  (dobj, 含有#VV, ''#NN)  (det, 物质#NN, 该#DT)  (nsubj, 调节#VV, 物质#NN)  (mmod, 调节#VV, 可#VV)  (conj, 含有#VV, 调节#VV)  (nn, 系统#NN, 女性#NN)  (nn, 系统#NN, 内分泌#NN)  (assmod, 功能#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (dobj, 调节#VV, 功能#NN)   (det, 喝上#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, 鲜#NN, 喝上#NN)  (nummod, 鲜#NN, 300#CD)  (nummod, 毫升#M, 500#CD)  (range, ~#VV, 毫升#M)  (mark, ~#VV, 的#DEC)  (nsubj, 豆浆#VV, 鲜#NN)  (xsubj, 改善#VV, 鲜#NN)  (root, ROOT#null, 豆浆#VV)  (mmod, 改善#VV, 可#VV)  (advmod, 改善#VV, 明显#AD)  (ccomp, 豆浆#VV, 改善#VV)  (nn, 素质#NN, 女性#NN)  (conj, 素质#NN, 心态#NN)  (cc, 素质#NN, 和#CC)  (nn, 素质#NN, 身体#NN)  (dobj, 改善#VV, 素质#NN)  (conj, 改善#VV, 延缓#VV)  (nn, 衰老#NN, 皮肤#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 延缓#VV, 达到#VV)  (nn, 效果#NN, 美容#NN)  (dobj, 达到#VV, 效果#NN)  (cc, 改善#VV, 并#CC)  (mmod, 减少#VV, 能#VV)  (conj, 改善#VV, 减少#VV)  (nn, 暗疮#NN, 青少年#NN)  (nn, 暗疮#NN, 女性#NN)  (nn, 暗疮#NN, 面部#NN)  (conj, 暗疮#NN, 青春痘#NN)  (assmod, 发生#NN, 暗疮#NN)  (case, 暗疮#NN, 的#DEG)  (dobj, 减少#VV, 发生#NN)  (dep, 改善#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 白皙#VV)  (dobj, 白皙#VV, 润泽#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 癌症#NN)
+            (assmod, 钼等#NN, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (case, 豆浆#NN, 的#DEG)  (nn, 钼等#NN, 蛋白质#NN)  (conj, 钼等#NN, 和硒#NN)  (nsubj, 有#VE, 钼等#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 能力#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (conj, 能力#NN, 抑癌#NN)  (cc, 能力#NN, 和#CC)  (nn, 能力#NN, 治癌#NN)  (dobj, 有#VE, 能力#NN)  (advmod, 有#VE, 特别#AD)  (case, 乳腺癌#NR, 对#P)  (conj, 乳腺癌#NR, 胃癌#NR)  (conj, 乳腺癌#NR, 肠癌#NR)  (prep, 有#VE, 乳腺癌#NR)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 特效#NN)   (case, 调查#NN, 据#P)  (prep, 不喝#VV, 调查#NN)  (relcl, 人#NN, 不喝#VV)  (dobj, 不喝#VV, 豆浆#NN)  (mark, 不喝#VV, 的#DEC)  (nsubj, 发生#VV, 人#NN)  (relcl, 概率#NN, 发生#VV)  (dobj, 发生#VV, 癌症#NN)  (mark, 发生#VV, 的#DEC)  (nsubj, 提高#VV, 概率#NN)  (mmod, 提高#VV, 要#VV)  (case, 人#NN, 比#P)  (nn, 豆浆#NN, 常喝#NN)  (assmod, 人#NN, 豆浆#NN)  (case, 豆浆#NN, 的#DEG)  (prep, 提高#VV, 人#NN)  (root, ROOT#null, 提高#VV)  (nummod, %#NN, 50#CD)  (dobj, 提高#VV, %#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防止#VV)  (dobj, 防止#VV, 脑中风#NN)
+            (loc, 含#VV, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 元素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 元素#NN, 镁#NN)  (nn, 元素#NN, 钙#NN)  (dep, 降低#VV, 元素#NN)  (mmod, 降低#VV, 能#VV)  (dvpmod, 降低#VV, 明显#VA)  (mark, 明显#VA, 地#DEV)  (root, ROOT#null, 降低#VV)  (nn, 血脂#NN, 脑#NN)  (dobj, 降低#VV, 血脂#NN)  (dep, 降低#VV, 改善#VV)  (nn, 血流#NN, 脑#NN)  (dobj, 改善#VV, 血流#NN)  (advmod, 防止#VV, 从而#AD)  (dvpmod, 防止#VV, 有效#VA)  (mark, 有效#VA, 的#DEV)  (conj, 降低#VV, 防止#VV)  (nn, 脑出血#NN, 脑#NN)  (conj, 脑出血#NN, 梗塞#NN)  (assmod, 发生#NN, 脑出血#NN)  (case, 脑出血#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)   (loc, 含#VV, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 卵磷脂#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 减少#VV, 卵磷脂#NN)  (advmod, 减少#VV, 还#AD)  (mmod, 减少#VV, 能#VV)  (root, ROOT#null, 减少#VV)  (dobj, 减少#VV, 脑#NN)  (nsubj, 死亡#VV, 细胞#NN)  (conj, 减少#VV, 死亡#VV)  (dep, 死亡#VV, 提高#VV)  (nn, 功能#NN, 脑#NN)  (dobj, 提高#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            老年痴呆症  预防痴呆症  平衡正常  维持平衡  内分泌系统  调节系统  血压  降低血脂  心血管负担  减轻负担  心脏活力  增加活力  血液循环  优化循环  保护心血管  有平补肝免疫  增强免疫  免疫功效  学者研究  豆品饮料  糖尿病患者  患者宝贵  食物宝贵  富含纤维  水溶性纤维  大豆食物  控制血糖  养颜  现代研究  研究营养  含有雌激素  植物雌激素  大豆卵磷脂  黄酮  癌症子宫癌  乳腺癌  子宫癌预防  女性系统  调节功能  女性素质  心态  身体素质  改善素质  皮肤衰老  延缓衰老  美容效果  达到效果  青少年暗疮  女性暗疮  面部暗疮  青春痘  白皙润泽  防治癌症  蛋白质钼等  和硒  抑癌  治癌能力  胃癌  肠癌  不喝人  防止脑中风  改善血流  脑出血  梗塞  含卵磷脂  减少脑  提高功能  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  延缓衰老  美容养颜  抗癌防癌  解毒  利水  清肺化痰  润肠通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.豆浆中含有大豆皂甙、异黄酮、大豆低聚糖等具有显著保健功能的特殊保健因子。
+            2.豆浆含有丰富的植物蛋白，磷脂，维生素B1.B2，烟酸和铁、钙等矿物质，尤其是钙的含量，虽不及豆腐高，但比其他任何乳类都丰富。
+        </rawdata>
+
+        <segment>
+            豆浆  中  含有  大豆  皂甙  、  异  黄酮  、  大豆  低  聚糖  等  具有  显著  保健  功能  的  特殊  保健  因子  。
+            豆浆  含有  丰富  的  植物  蛋白  ，  磷脂  ，  维生素B1.B2  ，  烟酸  和  铁  、  钙  等  矿物质  ，  尤其是  钙  的  含量  ，  虽  不  及  豆腐  高  ，  但  比  其他  任何  乳类  都  丰富  。
+        </segment>
+
+        <pos>
+            豆浆#NN  中#LC  含有#AD  大豆#VV  皂甙#NN  、#PU  异#NN  黄酮#NN  、#PU  大豆#NR  低#JJ  聚糖#NN  等#ETC  具有#VV  显著#JJ  保健#NN  功能#NN  的#DEC  特殊#JJ  保健#NN  因子#NN  。#PU
+            豆浆#NN  含有#NN  丰富#VA  的#DEC  植物#NN  蛋白#NN  ，#PU  磷脂#VV  ，#PU  维生素B1.B2#CD  ，#PU  烟酸#NN  和#CC  铁#NN  、#PU  钙#NN  等#ETC  矿物质#VV  ，#PU  尤其是#AD  钙#NN  的#DEG  含量#NN  ，#PU  虽#CS  不#AD  及#CC  豆腐#AD  高#VA  ，#PU  但#AD  比#P  其他#DT  任何#DT  乳类#NN  都#AD  丰富#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 大豆#VV, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (advmod, 大豆#VV, 含有#AD)  (root, ROOT#null, 大豆#VV)  (conj, 聚糖#NN, 皂甙#NN)  (nn, 黄酮#NN, 异#NN)  (conj, 聚糖#NN, 黄酮#NN)  (nn, 聚糖#NN, 大豆#NR)  (amod, 聚糖#NN, 低#JJ)  (nn, 因子#NN, 聚糖#NN)  (etc, 聚糖#NN, 等#ETC)  (relcl, 聚糖#NN, 具有#VV)  (relcl, 因子#NN, 具有#VV)  (amod, 保健#NN, 显著#JJ)  (nn, 功能#NN, 保健#NN)  (dobj, 具有#VV, 功能#NN)  (mark, 具有#VV, 的#DEC)  (amod, 因子#NN, 特殊#JJ)  (nn, 因子#NN, 保健#NN)  (dobj, 大豆#VV, 因子#NN)
+            (nn, 含有#NN, 豆浆#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 蛋白#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 蛋白#NN, 植物#NN)  (nsubj, 磷脂#VV, 蛋白#NN)  (root, ROOT#null, 磷脂#VV)  (nsubj, 矿物质#VV, 维生素B1.B2#CD)  (conj, 钙#NN, 烟酸#NN)  (cc, 钙#NN, 和#CC)  (conj, 钙#NN, 铁#NN)  (nsubj, 矿物质#VV, 钙#NN)  (etc, 钙#NN, 等#ETC)  (ccomp, 磷脂#VV, 矿物质#VV)  (advmod, 高#VA, 尤其是#AD)  (assmod, 含量#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 虽#CS)  (neg, 高#VA, 不#AD)  (cc, 不#AD, 及#CC)  (dep, 不#AD, 豆腐#AD)  (ccomp, 矿物质#VV, 高#VA)  (advmod, 丰富#VA, 但#AD)  (case, 乳类#NN, 比#P)  (det, 乳类#NN, 其他#DT)  (det, 乳类#NN, 任何#DT)  (prep, 丰富#VA, 乳类#NN)  (advmod, 丰富#VA, 都#AD)  (conj, 高#VA, 丰富#VA)
+        </parsing>
+
+        <tag>
+            皂甙  黄酮  低聚糖  聚糖因子  显著保健  保健功能  特殊因子  保健因子  大豆因子  含有丰富  蛋白丰富  植物蛋白  磷脂  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.生豆浆加热到80～90度的时候，会出现大量的白色泡沫，很多人误以为此时豆浆已经煮熟，但实际上这是一种假沸现象，此时的温度不能破坏豆浆中的皂甙物质。正确的煮豆浆方法应该是，在出现假沸现象后继续加热3～5分钟，使泡沫完全消失。
+            2.有些人为了保险起见，将豆浆反复煮好几遍，这样虽然去除了豆浆中的有害物质，同时也造成了营养物质流失，因此，煮豆浆要恰倒好处，控制好加热时间，千万不能反复煮。
+            3.成年人每天饮1~2次即可，每次250~350毫升；儿童200~230毫升即可。
+            4.忌喝未煮熟的豆浆；忌在豆浆里打鸡蛋；忌冲红糖；忌装保温瓶；忌喝超量；忌空腹饮豆浆；忌与药物同饮。
+        </rawdata>
+
+        <segment>
+            生  豆浆  加热  到  80  ～  90  度  的  时候  ，  会  出现  大量  的  白色  泡沫  ，  很多  人  误  以为  此时  豆浆  已经  煮熟  ，  但  实际上  这  是  一  种  假沸  现象  ，  此时  的  温度  不  能  破坏  豆浆  中  的  皂甙  物质  。  正确  的  煮  豆浆  方法  应该  是  ，  在  出现  假沸  现象  后  继续  加热  3  ～  5  分钟  ，  使  泡沫  完全  消失  。
+            有些  人  为了  保险  起见  ，  将  豆浆  反复  煮好  几遍  ，  这样  虽然  去  除了  豆浆  中  的  有害  物质  ，  同时  也  造成  了  营养  物质  流失  ，  因此  ，  煮  豆浆  要  恰  倒  好处  ，  控制  好  加热  时间  ，  千万  不  能  反复  煮  。
+            成年人  每  天  饮  1  ~  2  次  即可  ，  每次  250  ~  350  毫升  ；  儿童  200  ~  230  毫升  即可  。
+            忌喝  未  煮熟  的  豆浆  ；  忌在  豆浆  里  打  鸡蛋  ；  忌冲  红糖  ；  忌装  保温瓶  ；  忌喝  超量  ；  忌  空腹  饮  豆浆  ；  忌与  药物  同  饮  。  
+        </segment>
+
+        <pos>
+            生#VV  豆浆#NR  加热#CD  到#CC  80#CD  ～#NN  90#CD  度#M  的#DEC  时候#NN  ，#PU  会#VV  出现#VV  大量#CD  的#DEG  白色#JJ  泡沫#NN  ，#PU  很多#CD  人#NN  误#NN  以为#VV  此时#NT  豆浆#AD  已经#AD  煮熟#VV  ，#PU  但#AD  实际上#AD  这#PN  是#VC  一#CD  种#M  假沸#NN  现象#NN  ，#PU  此时#NT  的#DEG  温度#NN  不#AD  能#VV  破坏#VV  豆浆#NN  中#LC  的#DEG  皂甙#NN  物质#NN    。#PU  正确#VA  的#DEC  煮#VV  豆浆#NN  方法#NN  应该#VV  是#VC  ，#PU  在#P  出现#VV  假沸#NN  现象#NN  后#LC  继续#VV  加热#VV  3#CD  ～#NN  5#CD  分钟#M  ，#PU  使#VV  泡沫#NN  完全#AD  消失#VV    。#PU    。#PU
+            有些#DT  人#NN  为了#P  保险#NN  起见#NN  ，#PU  将#AD  豆浆#VV  反复#AD  煮好#VV  几遍#NN  ，#PU  这样#AD  虽然#CS  去#VV  除了#P  豆浆#NN  中#LC  的#DEG  有害#NN  物质#NN  ，#PU  同时#AD  也#AD  造成#VV  了#AS  营养#VA  物质#NN  流失#NN  ，#PU  因此#AD  ，#PU  煮#VV  豆浆#NN  要#VV  恰#AD  倒#VV  好处#NN  ，#PU  控制#VV  好#JJ  加热#NN  时间#NN  ，#PU  千万#CD  不#AD  能#VV  反复#AD  煮#VV  。#PU
+            成年人#VV  每#DT  天#M  饮#NN  1#CD  ~#NN  2#CD  次#M  即可#NN  ，#PU  每次#VV  250#CD  ~#NN  350#CD  毫升#M  ；#PU  儿童#NN  200#CD  ~#NN  230#CD  毫升#M  即可#NN  。#PU
+            忌喝#VV  未#AD  煮熟#VV  的#DEC  豆浆#NN  ；#PU  忌在#NN  豆浆#NN  里#LC  打#VV  鸡蛋#NN  ；#PU  忌冲#VV  红糖#NN  ；#PU  忌装#VV  保温瓶#NN  ；#PU  忌喝#VV  超量#NN  ；#PU  忌#VV  空腹#NN  饮#NN  豆浆#NN  ；#PU  忌与#VV  药物#NN  同#DT  饮#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 时候#NN, 生#VV)  (nn, ～#NN, 豆浆#NR)  (nummod, 80#CD, 加热#CD)  (cc, 80#CD, 到#CC)  (nummod, ～#NN, 80#CD)  (nummod, 度#M, 90#CD)  (range, 生#VV, 度#M)  (mark, 生#VV, 的#DEC)  (nsubj, 出现#VV, 时候#NN)  (mmod, 出现#VV, 会#VV)  (root, ROOT#null, 出现#VV)  (assmod, 泡沫#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (amod, 泡沫#NN, 白色#JJ)  (dobj, 出现#VV, 泡沫#NN)  (nummod, 人#NN, 很多#CD)  (nn, 误#NN, 人#NN)  (nsubj, 以为#VV, 误#NN)  (conj, 出现#VV, 以为#VV)  (dep, 煮熟#VV, 此时#NT)  (advmod, 煮熟#VV, 豆浆#AD)  (advmod, 煮熟#VV, 已经#AD)  (ccomp, 以为#VV, 煮熟#VV)  (advmod, 现象#NN, 但#AD)  (advmod, 现象#NN, 实际上#AD)  (nsubj, 现象#NN, 这#PN)  (cop, 现象#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 现象#NN, 种#M)  (nn, 现象#NN, 假沸#NN)  (conj, 出现#VV, 现象#NN)  (assmod, 温度#NN, 此时#NT)  (case, 此时#NT, 的#DEG)  (nsubj, 破坏#VV, 温度#NN)  (neg, 破坏#VV, 不#AD)  (mmod, 破坏#VV, 能#VV)  (conj, 现象#NN, 破坏#VV)  (assmod, 物质#NN, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (case, 豆浆#NN, 的#DEG)  (nn, 物质#NN, 皂甙#NN)  (dobj, 破坏#VV, 物质#NN)   (relcl, 方法#NN, 正确#VA)  (mark, 正确#VA, 的#DEC)  (nfincl, 方法#NN, 煮#VV)  (dobj, 煮#VV, 豆浆#NN)  (nsubj, 加热#VV, 方法#NN)  (mmod, 加热#VV, 应该#VV)  (dep, 加热#VV, 是#VC)  (case, 出现#VV, 在#P)  (prep, 加热#VV, 出现#VV)  (nn, 现象#NN, 假沸#NN)  (dobj, 出现#VV, 现象#NN)  (case, 出现#VV, 后#LC)  (mmod, 加热#VV, 继续#VV)  (root, ROOT#null, 加热#VV)  (nummod, ～#NN, 3#CD)  (nummod, 分钟#M, 5#CD)  (range, 加热#VV, 分钟#M)  (dep, 加热#VV, 使#VV)  (dobj, 使#VV, 泡沫#NN)  (advmod, 消失#VV, 完全#AD)  (dep, 使#VV, 消失#VV)   (root, ROOT#null, null#null)
+            (det, 人#NN, 有些#DT)  (nsubj, 煮好#VV, 人#NN)  (case, 豆浆#VV, 为了#P)  (nn, 起见#NN, 保险#NN)  (dep, 豆浆#VV, 起见#NN)  (advmod, 豆浆#VV, 将#AD)  (prep, 煮好#VV, 豆浆#VV)  (advmod, 煮好#VV, 反复#AD)  (root, ROOT#null, 煮好#VV)  (dobj, 煮好#VV, 几遍#NN)  (advmod, 去#VV, 这样#AD)  (advmod, 去#VV, 虽然#CS)  (conj, 煮好#VV, 去#VV)  (case, 豆浆#NN, 除了#P)  (assmod, 物质#NN, 豆浆#NN)  (case, 豆浆#NN, 中#LC)  (case, 豆浆#NN, 的#DEG)  (nn, 物质#NN, 有害#NN)  (dobj, 去#VV, 物质#NN)  (advmod, 造成#VV, 同时#AD)  (advmod, 造成#VV, 也#AD)  (conj, 煮好#VV, 造成#VV)  (asp, 造成#VV, 了#AS)  (relcl, 流失#NN, 营养#VA)  (nn, 流失#NN, 物质#NN)  (dobj, 造成#VV, 流失#NN)  (advmod, 煮#VV, 因此#AD)  (conj, 煮好#VV, 煮#VV)  (dobj, 煮#VV, 豆浆#NN)  (mmod, 倒#VV, 要#VV)  (advmod, 倒#VV, 恰#AD)  (conj, 煮#VV, 倒#VV)  (dobj, 倒#VV, 好处#NN)  (dep, 煮#VV, 控制#VV)  (amod, 加热#NN, 好#JJ)  (nn, 时间#NN, 加热#NN)  (dobj, 控制#VV, 时间#NN)  (dep, 煮#VV, 千万#CD)  (neg, 煮#VV, 不#AD)  (mmod, 煮#VV, 能#VV)  (advmod, 煮#VV, 反复#AD)  (conj, 煮#VV, 煮#VV)
+            (root, ROOT#null, 成年人#VV)  (det, 饮#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, ~#NN, 饮#NN)  (nummod, ~#NN, 1#CD)  (nummod, 次#M, 2#CD)  (clf, 即可#NN, 次#M)  (dobj, 成年人#VV, 即可#NN)  (conj, 成年人#VV, 每次#VV)  (nummod, ~#NN, 250#CD)  (nummod, 毫升#M, 350#CD)  (range, 每次#VV, 毫升#M)  (nn, ~#NN, 儿童#NN)  (nummod, ~#NN, 200#CD)  (nummod, 毫升#M, 230#CD)  (clf, 即可#NN, 毫升#M)  (conj, 成年人#VV, 即可#NN)
+            (root, ROOT#null, 忌喝#VV)  (advmod, 煮熟#VV, 未#AD)  (relcl, 豆浆#NN, 煮熟#VV)  (mark, 煮熟#VV, 的#DEC)  (dobj, 忌喝#VV, 豆浆#NN)  (nn, 豆浆#NN, 忌在#NN)  (loc, 打#VV, 豆浆#NN)  (case, 豆浆#NN, 里#LC)  (conj, 忌喝#VV, 打#VV)  (dobj, 打#VV, 鸡蛋#NN)  (conj, 忌喝#VV, 忌冲#VV)  (dobj, 忌冲#VV, 红糖#NN)  (conj, 忌喝#VV, 忌装#VV)  (dobj, 忌装#VV, 保温瓶#NN)  (conj, 忌喝#VV, 忌喝#VV)  (dobj, 忌喝#VV, 超量#NN)  (conj, 忌喝#VV, 忌#VV)  (nn, 豆浆#NN, 空腹#NN)  (nn, 豆浆#NN, 饮#NN)  (dobj, 忌#VV, 豆浆#NN)  (conj, 忌喝#VV, 忌与#VV)  (nn, 饮#NN, 药物#NN)  (det, 饮#NN, 同#DT)  (dobj, 忌与#VV, 饮#NN)
+        </parsing>
+
+        <tag>
+            生时候  白色泡沫  出现泡沫  假沸现象  方法正确  出现现象  保险起见  煮好几遍  流失营养  造成流失  好加热  加热时间  控制时间  成年人即可  忌冲红糖  忌装保温瓶  忌喝超量  忌与饮  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121844058657.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\534 豆浆.jpg
+    </picturelocalurl>
+
+</content>

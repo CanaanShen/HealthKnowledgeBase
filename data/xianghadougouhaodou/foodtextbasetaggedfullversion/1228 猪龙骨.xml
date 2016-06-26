@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        1228
+    </id>
+
+    <foodname>
+        猪龙骨
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            心脑血管系统疾病患者不适宜食用猪龙骨
+        </rawdata>
+
+        <segment>
+            心脑血管  系统  疾病  患者  不  适宜  食用猪  龙骨
+        </segment>
+
+        <pos>
+            心脑血管#NN  系统#NN  疾病#NN  患者#NN  不#AD  适宜#VV  食用猪#NN  龙骨#NN
+        </pos>
+
+        <parsing>
+            (nn, 疾病#NN, 心脑血管#NN)  (nn, 疾病#NN, 系统#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 适宜#VV, 患者#NN)  (neg, 适宜#VV, 不#AD)  (root, ROOT#null, 适宜#VV)  (nn, 龙骨#NN, 食用猪#NN)  (dobj, 适宜#VV, 龙骨#NN)
+        </parsing>
+
+        <tag>
+            心脑血管系统疾病  患者  不适宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪的脊背，肉瘦，脂肪少
+        </rawdata>
+
+        <segment>
+            猪  的  脊背  ，  肉瘦  ，  脂肪  少
+        </segment>
+
+        <pos>
+            猪#NN  的#DEG  脊背#NN  ，#PU  肉瘦#VV  ，#PU  脂肪#NN  少#VA
+        </pos>
+
+        <parsing>
+            (assmod, 脊背#NN, 猪#NN)  (case, 猪#NN, 的#DEG)  (dep, 肉瘦#VV, 脊背#NN)  (root, ROOT#null, 肉瘦#VV)  (nsubj, 少#VA, 脂肪#NN)  (ccomp, 肉瘦#VV, 少#VA)
+        </parsing>
+
+        <tag>
+            肉瘦  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            滋补肾阴、填补精髓、肾虚耳鸣、腰膝酸软、阳痿、遗精 、烦热和贫血 。
+        </rawdata>
+
+        <segment>
+            滋补  肾  阴  、  填补  精髓  、  肾虚  耳鸣  、  腰膝  酸软  、  阳痿  、  遗精    、  烦  热和  贫血    。
+        </segment>
+
+        <pos>
+            滋补#NN  肾#AD  阴#VA  、#PU  填补#VV  精髓#NR  、#PU  肾虚#NR  耳鸣#NR  、#PU  腰膝#NR  酸软#NR  、#PU  阳痿#NR  、#PU  遗精#NR  、#PU  烦#NR  热和#NN  贫血#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 阴#VA, 滋补#NN)  (advmod, 阴#VA, 肾#AD)  (root, ROOT#null, 阴#VA)  (dep, 阴#VA, 填补#VV)  (conj, 烦#NR, 精髓#NR)  (nn, 烦#NR, 肾虚#NR)  (conj, 烦#NR, 耳鸣#NR)  (nn, 烦#NR, 腰膝#NR)  (conj, 烦#NR, 酸软#NR)  (conj, 烦#NR, 阳痿#NR)  (conj, 烦#NR, 遗精#NR)  (nn, 贫血#NN, 烦#NR)  (nn, 贫血#NN, 热和#NN)  (dobj, 填补#VV, 贫血#NN)
+        </parsing>
+
+        <tag>
+            热和贫血  填补贫血  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  增加骨密度  增强造血功能
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            猪龙骨中含有大量骨髓，烹煮时柔软多脂的骨髓就会释出。骨髓可以用在调味汁、汤或煨菜里，并加入意大利炖菜中，另外也可以趁热作为开胃小点的涂酱
+        </rawdata>
+
+        <segment>
+            猪  龙骨  中  含有  大量  骨髓  ，  烹煮  时  柔软  多脂  的  骨髓  就  会  释出  。  骨髓  可以  用在  调味汁  、  汤  或  煨菜里  ，  并  加入  意大利  炖菜  中  ，  另外  也  可以  趁热  作为  开胃  小点  的  涂酱
+        </segment>
+
+        <pos>
+            猪#NN  龙骨#NN  中#LC  含有#NN  大量#AD  骨髓#VV  ，#PU  烹煮#NN  时#LC  柔软#NN  多脂#NN  的#DEG  骨髓#NN  就#AD  会#VV  释出#VV  。#PU  骨髓#NN  可以#VV  用在#VV  调味汁#NR  、#PU  汤#NR  或#CC  煨菜里#NR  ，#PU  并#CC  加入#VV  意大利#NR  炖菜#NN  中#LC  ，#PU  另外#AD  也#AD  可以#VV  趁热#VV  作为#P  开胃#NN  小点#NN  的#DEG  涂酱#NN
+        </pos>
+
+        <parsing>
+            (nn, 龙骨#NN, 猪#NN)  (loc, 骨髓#VV, 龙骨#NN)  (case, 龙骨#NN, 中#LC)  (nsubj, 骨髓#VV, 含有#NN)  (advmod, 骨髓#VV, 大量#AD)  (root, ROOT#null, 骨髓#VV)  (loc, 释出#VV, 烹煮#NN)  (case, 烹煮#NN, 时#LC)  (nn, 多脂#NN, 柔软#NN)  (assmod, 骨髓#NN, 多脂#NN)  (case, 多脂#NN, 的#DEG)  (nsubj, 释出#VV, 骨髓#NN)  (advmod, 释出#VV, 就#AD)  (dep, 释出#VV, 会#VV)  (conj, 骨髓#VV, 释出#VV)  (nsubj, 用在#VV, 骨髓#NN)  (mmod, 用在#VV, 可以#VV)  (conj, 骨髓#VV, 用在#VV)  (conj, 煨菜里#NR, 调味汁#NR)  (conj, 煨菜里#NR, 汤#NR)  (cc, 煨菜里#NR, 或#CC)  (dobj, 用在#VV, 煨菜里#NR)  (cc, 骨髓#VV, 并#CC)  (loc, 趁热#VV, 加入#VV)  (nn, 炖菜#NN, 意大利#NR)  (dobj, 加入#VV, 炖菜#NN)  (case, 加入#VV, 中#LC)  (advmod, 趁热#VV, 另外#AD)  (advmod, 趁热#VV, 也#AD)  (mmod, 趁热#VV, 可以#VV)  (conj, 骨髓#VV, 趁热#VV)  (case, 小点#NN, 作为#P)  (nn, 小点#NN, 开胃#NN)  (assmod, 涂酱#NN, 小点#NN)  (case, 小点#NN, 的#DEG)  (dobj, 趁热#VV, 涂酱#NN)
+        </parsing>
+
+        <tag>
+            骨髓  柔软多脂  煨菜里  调味汁  加入炖菜  开胃小点  趁热涂酱  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/7b/56/22139_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1228 猪龙骨.jpg
+    </picturelocalurl>
+
+</content>

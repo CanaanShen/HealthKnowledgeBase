@@ -1,0 +1,226 @@
+<content>
+
+    <id>
+        66
+    </id>
+
+    <foodname>
+        松花蛋
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        蛋类
+    </secondcategory>
+
+    <alias>
+        皮蛋、变蛋、灰包蛋
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            少儿、脾阳不足、寒湿下痢者、心血管病、肝肾疾病患者少食。
+        </rawdata>
+
+        <segment>
+            少儿  、  脾阳  不足  、  寒湿  下  痢者  、  心血管病  、  肝肾  疾病  患者  少  食  。
+        </segment>
+
+        <pos>
+            少儿#JJ  、#PU  脾阳#JJ  不足#NN  、#PU  寒湿#NN  下#LC  痢者#NN  、#PU  心血管病#NN  、#PU  肝肾#NN  疾病#NN  患者#NN  少#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 不足#NN, 少儿#JJ)  (dep, 少儿#JJ, 脾阳#JJ)  (conj, 疾病#NN, 不足#NN)  (dep, 痢者#NN, 寒湿#NN)  (case, 寒湿#NN, 下#LC)  (conj, 疾病#NN, 痢者#NN)  (conj, 疾病#NN, 心血管病#NN)  (nn, 疾病#NN, 肝肾#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 少#VV, 患者#NN)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            少儿  脾阳不足  寒湿下痢者  心血管病  肝肾疾病  患者  少食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜火旺者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  火旺者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  火旺者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 火旺者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  火旺者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                200
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            松花蛋也叫皮蛋，是以鸭蛋为原料，利用蛋在碱性溶液中，能使蛋白质凝胶的特性，使之变成富有弹性的固体，腌制加工而成的食品，因为腌制过程中特有的真菌群会在内部表面形成类似松花一样的花纹得名。但是，皮蛋制作如果配方控制不良，会使蛋白质在碱性溶液中反而发生水解，蛋白质变性呈为蛋白，就不能食用。如果蛋壳有裂痕或配方控制不佳，也会让蛋内之硫化氢外溢，变成金黄色。正常的皮蛋是为墨绿色且有松花及富弹性。
+            皮蛋之所以有特殊风味，是因为经过强碱作用后，原本具有的含硫胺基酸被分解产生硫化氢及氨，再加上浸渍液中配料的气味，就产生特有的味道了。而皮蛋的颜色则是因蛋白质在强碱作用下，蛋白部分会呈现红褐或黑褐色，蛋黄则呈现墨绿或澄红色。
+        </rawdata>
+
+        <segment>
+            松花蛋  也  叫  皮蛋  ，  是  以  鸭蛋  为  原料  ，  利用  蛋  在  碱性  溶液  中  ，  能使  蛋白质  凝胶  的  特性  ，  使  之  变成  富有  弹性  的  固体  ，  腌制  加工  而  成  的  食品  ，  因为  腌制  过程  中  特有  的  真菌  群  会  在  内部  表面  形成  类似  松花  一样  的  花纹  得名  。  但是  ，  皮蛋  制作  如果  配方  控制  不良  ，  会  使  蛋白质  在  碱性  溶液  中  反而  发生  水解  ，  蛋白质  变性  呈  为  蛋白  ，  就  不  能  食用  。  如果  蛋壳  有  裂痕  或  配方  控制  不佳  ，  也  会  让  蛋  内  之  硫化氢  外溢  ，  变成  金黄色  。  正常  的  皮蛋  是  为  墨绿色  且  有  松花  及  富  弹性  。
+            皮蛋  之所以  有  特殊  风味  ，  是  因为  经过  强碱  作用  后  ，  原本  具有  的  含  硫胺  基酸  被  分解  产生  硫化氢  及氨  ，  再加上  浸渍  液中  配料  的  气味  ，  就  产生  特有  的  味道  了  。  而  皮蛋  的  颜色  则  是  因  蛋白质  在  强碱  作用  下  ，  蛋白  部分  会  呈现  红褐  或  黑褐色  ，  蛋黄  则  呈现  墨绿  或  澄红色  。
+        </segment>
+
+        <pos>
+            松花蛋#AD  也#AD  叫#VV  皮蛋#NN  ，#PU  是#VC  以#P  鸭蛋#NN  为#VV  原料#NN  ，#PU  利用#VV  蛋#NN  在#P  碱性#NN  溶液#NN  中#LC  ，#PU  能使#AD  蛋白质#VV  凝胶#NN  的#DEC  特性#NN  ，#PU  使#VV  之#PN  变成#VV  富有#VV  弹性#NN  的#DEC  固体#NN  ，#PU  腌制#VV  加工#NN  而#MSP  成#VV  的#DEC  食品#NN  ，#PU  因为#P  腌制#NN  过程#NN  中#LC  特有#VV  的#DEC  真菌#CD  群#M  会#VV  在#P  内部#NN  表面#NN  形成#VV  类似#JJ  松花#NN  一样#VA  的#DEC  花纹#NN  得名#VV    。#PU  但是#AD  ，#PU  皮蛋#NN  制作#NN  如果#CS  配方#VV  控制#NN  不良#JJ  ，#PU  会#VV  使#VV  蛋白质#NN  在#P  碱性#NN  溶液#NN  中#LC  反而#AD  发生#VV  水解#NN  ，#PU  蛋白质#VV  变性#NN  呈#VV  为#P  蛋白#NN  ，#PU  就#AD  不#AD  能#VV  食用#VV    。#PU  如果#CS  蛋壳#AD  有#VE  裂痕#NN  或#CC  配方#NN  控制#VV  不佳#NN  ，#PU  也#AD  会#VV  让#VV  蛋#NN  内#LC  之#DEG  硫化氢#NN  外溢#NN  ，#PU  变成#VV  金黄色#JJ    。#PU  正常#VA  的#DEC  皮蛋#NN  是#VC  为#P  墨绿色#VV  且#CC  有#VE  松花#NN  及#CC  富#VV  弹性#NN    。#PU    。#PU
+            皮蛋#NN  之所以#AD  有#VE  特殊#JJ  风味#NN  ，#PU  是#VC  因为#P  经过#P  强碱#NN  作用#NN  后#LC  ，#PU  原本#AD  具有#VV  的#DEC  含#VV  硫胺#NN  基酸#NN  被#SB  分解#VV  产生#VV  硫化氢#NN  及氨#NN  ，#PU  再加上#VV  浸渍#NN  液中#NN  配料#NN  的#DEC  气味#NN  ，#PU  就#AD  产生#VV  特有#JJ  的#DEG  味道#NN  了#SP    。#PU  而#AD  皮蛋#NN  的#DEG  颜色#NN  则#AD  是#VC  因#P  蛋白质#VV  在#P  强碱#NN  作用#NN  下#LC  ，#PU  蛋白#NN  部分#NN  会#VV  呈现#VV  红褐#NN  或#CC  黑褐色#NN  ，#PU  蛋黄#NN  则#AD  呈现#VV  墨绿#NN  或#CC  澄红色#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 叫#VV, 松花蛋#AD)  (advmod, 叫#VV, 也#AD)  (relcl, 花纹#NN, 叫#VV)  (dobj, 叫#VV, 皮蛋#NN)  (cop, 食品#NN, 是#VC)  (case, 鸭蛋#NN, 以#P)  (prep, 为#VV, 鸭蛋#NN)  (relcl, 食品#NN, 为#VV)  (dobj, 为#VV, 原料#NN)  (conj, 为#VV, 利用#VV)  (nsubj, 蛋白质#VV, 蛋#NN)  (case, 溶液#NN, 在#P)  (nn, 溶液#NN, 碱性#NN)  (prep, 蛋白质#VV, 溶液#NN)  (case, 溶液#NN, 中#LC)  (advmod, 蛋白质#VV, 能使#AD)  (relcl, 特性#NN, 蛋白质#VV)  (dobj, 蛋白质#VV, 凝胶#NN)  (mark, 蛋白质#VV, 的#DEC)  (dobj, 利用#VV, 特性#NN)  (conj, 为#VV, 使#VV)  (dobj, 使#VV, 之#PN)  (dep, 使#VV, 变成#VV)  (relcl, 固体#NN, 富有#VV)  (dobj, 富有#VV, 弹性#NN)  (mark, 富有#VV, 的#DEC)  (dobj, 变成#VV, 固体#NN)  (conj, 为#VV, 腌制#VV)  (dobj, 腌制#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 腌制#VV, 成#VV)  (mark, 为#VV, 的#DEC)  (conj, 叫#VV, 食品#NN)  (case, 过程#NN, 因为#P)  (nn, 过程#NN, 腌制#NN)  (prep, 特有#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (conj, 叫#VV, 特有#VV)  (mark, 叫#VV, 的#DEC)  (nummod, 群#M, 真菌#CD)  (clf, 花纹#NN, 群#M)  (mmod, 形成#VV, 会#VV)  (case, 表面#NN, 在#P)  (nn, 表面#NN, 内部#NN)  (prep, 形成#VV, 表面#NN)  (relcl, 花纹#NN, 形成#VV)  (amod, 松花#NN, 类似#JJ)  (dobj, 形成#VV, 松花#NN)  (dep, 形成#VV, 一样#VA)  (mark, 形成#VV, 的#DEC)  (nsubj, 得名#VV, 花纹#NN)  (root, ROOT#null, 得名#VV)   (advmod, 配方#VV, 但是#AD)  (nn, 制作#NN, 皮蛋#NN)  (nsubj, 配方#VV, 制作#NN)  (advmod, 配方#VV, 如果#CS)  (dep, 食用#VV, 配方#VV)  (dobj, 配方#VV, 控制#NN)  (conj, 配方#VV, 不良#JJ)  (mmod, 使#VV, 会#VV)  (conj, 配方#VV, 使#VV)  (dobj, 使#VV, 蛋白质#NN)  (case, 溶液#NN, 在#P)  (nn, 溶液#NN, 碱性#NN)  (prep, 发生#VV, 溶液#NN)  (case, 溶液#NN, 中#LC)  (advmod, 发生#VV, 反而#AD)  (dep, 使#VV, 发生#VV)  (dobj, 发生#VV, 水解#NN)  (conj, 配方#VV, 蛋白质#VV)  (dobj, 蛋白质#VV, 变性#NN)  (mmod, 食用#VV, 呈#VV)  (case, 蛋白#NN, 为#P)  (prep, 食用#VV, 蛋白#NN)  (advmod, 食用#VV, 就#AD)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)   (advmod, 有#VE, 如果#CS)  (advmod, 有#VE, 蛋壳#AD)  (root, ROOT#null, 有#VE)  (conj, 配方#NN, 裂痕#NN)  (cc, 配方#NN, 或#CC)  (nsubj, 控制#VV, 配方#NN)  (dep, 有#VE, 控制#VV)  (dobj, 控制#VV, 不佳#NN)  (advmod, 让#VV, 也#AD)  (mmod, 让#VV, 会#VV)  (dep, 有#VE, 让#VV)  (assmod, 外溢#NN, 蛋#NN)  (case, 蛋#NN, 内#LC)  (case, 蛋#NN, 之#DEG)  (nn, 外溢#NN, 硫化氢#NN)  (dobj, 让#VV, 外溢#NN)  (conj, 让#VV, 变成#VV)  (conj, 让#VV, 金黄色#JJ)   (relcl, 皮蛋#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nsubj, 是#VC, 皮蛋#NN)  (root, ROOT#null, 是#VC)  (case, 墨绿色#VV, 为#P)  (prep, 是#VC, 墨绿色#VV)  (cc, 墨绿色#VV, 且#CC)  (dep, 墨绿色#VV, 有#VE)  (dobj, 有#VE, 松花#NN)  (cc, 墨绿色#VV, 及#CC)  (dep, 墨绿色#VV, 富#VV)  (dobj, 富#VV, 弹性#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 皮蛋#NN)  (advmod, 有#VE, 之所以#AD)  (root, ROOT#null, 有#VE)  (amod, 风味#NN, 特殊#JJ)  (dobj, 有#VE, 风味#NN)  (cop, 产生#VV, 是#VC)  (case, 分解#VV, 因为#P)  (case, 作用#NN, 经过#P)  (nn, 作用#NN, 强碱#NN)  (prep, 具有#VV, 作用#NN)  (case, 作用#NN, 后#LC)  (advmod, 具有#VV, 原本#AD)  (relcl, 基酸#NN, 具有#VV)  (mark, 具有#VV, 的#DEC)  (nfincl, 基酸#NN, 含#VV)  (dobj, 含#VV, 硫胺#NN)  (nsubjpass, 分解#VV, 基酸#NN)  (auxpass, 分解#VV, 被#SB)  (prep, 产生#VV, 分解#VV)  (relcl, 气味#NN, 产生#VV)  (nn, 及氨#NN, 硫化氢#NN)  (dobj, 产生#VV, 及氨#NN)  (conj, 产生#VV, 再加上#VV)  (nn, 配料#NN, 浸渍#NN)  (nn, 配料#NN, 液中#NN)  (dobj, 再加上#VV, 配料#NN)  (mark, 产生#VV, 的#DEC)  (dobj, 分解#VV, 气味#NN)  (advmod, 产生#VV, 就#AD)  (conj, 有#VE, 产生#VV)  (assmod, 味道#NN, 特有#JJ)  (case, 特有#JJ, 的#DEG)  (dobj, 产生#VV, 味道#NN)  (dep, 产生#VV, 了#SP)   (advmod, 是#VC, 而#AD)  (assmod, 颜色#NN, 皮蛋#NN)  (case, 皮蛋#NN, 的#DEG)  (nsubj, 是#VC, 颜色#NN)  (advmod, 是#VC, 则#AD)  (root, ROOT#null, 是#VC)  (case, 蛋白质#VV, 因#P)  (prep, 是#VC, 蛋白质#VV)  (case, 作用#NN, 在#P)  (nn, 作用#NN, 强碱#NN)  (prep, 蛋白质#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (nn, 部分#NN, 蛋白#NN)  (nsubj, 呈现#VV, 部分#NN)  (mmod, 呈现#VV, 会#VV)  (conj, 是#VC, 呈现#VV)  (conj, 黑褐色#NN, 红褐#NN)  (cc, 黑褐色#NN, 或#CC)  (dobj, 呈现#VV, 黑褐色#NN)  (nsubj, 呈现#VV, 蛋黄#NN)  (advmod, 呈现#VV, 则#AD)  (conj, 是#VC, 呈现#VV)  (conj, 澄红色#NN, 墨绿#NN)  (cc, 澄红色#NN, 或#CC)  (dobj, 呈现#VV, 澄红色#NN)
+        </parsing>
+
+        <tag>
+            叫花纹  为食品  碱性溶液  蛋白质特性  蛋白质凝胶  利用特性  富有固体  富有弹性  变成固体  腌制加工  腌制过程  内部表面  形成花纹  类似松花  形成松花  得名  皮蛋制作  配方控制  蛋白质变性  食用  裂痕  控制不佳  硫化氢外溢  皮蛋正常  特殊风味  产生气味  浸渍配料  液中配料  再加上配料  分解气味  产生味道  蛋白部分  红褐  呈现黑褐色  墨绿  呈现澄红色  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味辛、涩、甘、咸，能泻热、醒酒、去大肠火，治泻痢，能散能敛。
+        </rawdata>
+
+        <segment>
+            味辛  、  涩  、  甘  、  咸  ，  能  泻热  、  醒酒  、  去  大肠  火  ，  治泻痢  ，  能  散  能敛  。
+        </segment>
+
+        <pos>
+            味辛#NR  、#PU  涩#NR  、#PU  甘#NR  、#PU  咸#NR  ，#PU  能#VV  泻热#VV  、#PU  醒酒#VV  、#PU  去#VV  大肠#NN  火#NN  ，#PU  治泻痢#VV  ，#PU  能#VV  散#JJ  能敛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 咸#NR, 味辛#NR)  (conj, 咸#NR, 涩#NR)  (conj, 咸#NR, 甘#NR)  (nsubj, 泻热#VV, 咸#NR)  (mmod, 泻热#VV, 能#VV)  (root, ROOT#null, 泻热#VV)  (conj, 泻热#VV, 醒酒#VV)  (conj, 泻热#VV, 去#VV)  (nn, 火#NN, 大肠#NN)  (dobj, 去#VV, 火#NN)  (conj, 泻热#VV, 治泻痢#VV)  (conj, 泻热#VV, 能#VV)  (amod, 能敛#NN, 散#JJ)  (dobj, 能#VV, 能敛#NN)
+        </parsing>
+
+        <tag>
+            泻热  散能敛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            松花蛋较鸭蛋含更多矿物质，脂肪和总热量却稍有下降，它能刺激消化器官，增进食欲，促进营养的消化吸收，中和胃酸，清凉，降压。具有润肺、养阴止血、凉肠、止泻、降压之功效。此外，松花蛋还有保护血管的作用。同时还有提高智商，保护大脑的功能。
+        </rawdata>
+
+        <segment>
+            松花蛋  较  鸭蛋  含  更多  矿物质  ，  脂肪  和  总  热量  却  稍有  下降  ，  它  能  刺激  消化  器官  ，  增进  食欲  ，  促进  营养  的  消化  吸收  ，  中  和  胃酸  ，  清凉  ，  降压  。  具有  润肺  、  养  阴  止血  、  凉肠  、  止泻  、  降压  之  功效  。  此外  ，  松花蛋  还有  保护  血管  的  作用  。  同时  还  有  提高  智商  ，  保护  大脑  的  功能  。
+        </segment>
+
+        <pos>
+            松花蛋#NN  较#AD  鸭蛋#AD  含#VV  更多#JJ  矿物质#NN  ，#PU  脂肪#NN  和#CC  总#JJ  热量#NN  却#AD  稍有#AD  下降#VV  ，#PU  它#PN  能#VV  刺激#VV  消化#NN  器官#NN  ，#PU  增进#VV  食欲#NN  ，#PU  促进#VV  营养#VA  的#DEC  消化#NN  吸收#NN  ，#PU  中#NR  和#CC  胃酸#NR  ，#PU  清凉#VV  ，#PU  降压#VV    。#PU  具有#VV  润肺#NN  、#PU  养#VV  阴#NN  止血#NN  、#PU  凉肠#NN  、#PU  止泻#NN  、#PU  降压#NN  之#DEG  功效#NN    。#PU  此外#AD  ，#PU  松花蛋#VV  还有#AD  保护#VV  血管#NN  的#DEG  作用#NN    。#PU  同时#AD  还#AD  有#VE  提高#VV  智商#NN  ，#PU  保护#VV  大脑#NN  的#DEC  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 松花蛋#NN)  (advmod, 含#VV, 较#AD)  (advmod, 含#VV, 鸭蛋#AD)  (root, ROOT#null, 含#VV)  (amod, 矿物质#NN, 更多#JJ)  (dobj, 含#VV, 矿物质#NN)  (conj, 热量#NN, 脂肪#NN)  (cc, 热量#NN, 和#CC)  (amod, 热量#NN, 总#JJ)  (nsubj, 下降#VV, 热量#NN)  (advmod, 下降#VV, 却#AD)  (advmod, 下降#VV, 稍有#AD)  (conj, 含#VV, 下降#VV)  (nsubj, 刺激#VV, 它#PN)  (mmod, 刺激#VV, 能#VV)  (conj, 含#VV, 刺激#VV)  (nn, 器官#NN, 消化#NN)  (dobj, 刺激#VV, 器官#NN)  (conj, 刺激#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 刺激#VV, 促进#VV)  (relcl, 吸收#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (nn, 吸收#NN, 消化#NN)  (dobj, 促进#VV, 吸收#NN)  (conj, 胃酸#NR, 中#NR)  (cc, 胃酸#NR, 和#CC)  (nsubj, 清凉#VV, 胃酸#NR)  (conj, 含#VV, 清凉#VV)  (ccomp, 清凉#VV, 降压#VV)   (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 润肺#NN)  (conj, 具有#VV, 养#VV)  (nn, 降压#NN, 阴#NN)  (conj, 降压#NN, 止血#NN)  (conj, 降压#NN, 凉肠#NN)  (conj, 降压#NN, 止泻#NN)  (assmod, 功效#NN, 降压#NN)  (case, 降压#NN, 之#DEG)  (dobj, 养#VV, 功效#NN)   (advmod, 松花蛋#VV, 此外#AD)  (root, ROOT#null, 松花蛋#VV)  (advmod, 保护#VV, 还有#AD)  (dep, 松花蛋#VV, 保护#VV)  (assmod, 作用#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 保护#VV, 作用#NN)   (advmod, 有#VE, 同时#AD)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (relcl, 功能#NN, 提高#VV)  (dobj, 提高#VV, 智商#NN)  (conj, 提高#VV, 保护#VV)  (dobj, 保护#VV, 大脑#NN)  (mark, 提高#VV, 的#DEC)  (dobj, 有#VE, 功能#NN)
+        </parsing>
+
+        <tag>
+            更多矿物质  脂肪  总热量  消化器官  刺激器官  增进食欲  吸收营养  消化吸收  促进吸收  降压  止血  凉肠  止泻  提高功能  提高智商  保护大脑  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.直接沾佐料吃，如酱油、酱油膏、辣椒酱等。
+            2.直接拌姜片或啤酒食用。
+            3.制成各种料理，如皮蛋豆腐、糖醋皮蛋、三色蛋、皮蛋瘦肉粥、翡翠皮蛋羹等。
+            松花蛋最好蒸煮后食用。在食用松花蛋时，加点点陈醋，醋能杀菌，又能中和松花蛋的一部分碱性，吃起来也更有味。
+            但皮蛋这种食物少吃无妨，多吃却对身体有不良影响。因为皮蛋是透过混合纯碱、石灰、盐和氧化铅，将鸭蛋包裹而腌制的，当中含有铅，所以如果经常食用，有机会引起铅中毒。 这会导致失眠、不能集中注意力、贫血、关节痛、思维缓慢、脑功能受影响等症状。此外，铅更会取代钙质，影响钙的摄取，可能造成缺钙。
+        </rawdata>
+
+        <segment>
+            直接  沾  佐料  吃  ，  如  酱油  、  酱油膏  、  辣椒酱  等  。
+            直接拌  姜片  或  啤酒  食用  。
+            制成  各  种  料理  ，  如  皮蛋  豆腐  、  糖醋  皮蛋  、  三色  蛋  、  皮蛋  瘦肉粥  、  翡翠  皮蛋  羹  等  。
+            松花蛋  最好  蒸  煮  后  食用  。  在  食用  松花蛋  时  ，  加点点  陈醋  ，  醋  能  杀菌  ，  又  能  中和  松花蛋  的  一  部分  碱性  ，  吃  起来  也  更  有味  。
+            但  皮蛋  这  种  食物  少吃  无妨  ，  多  吃  却  对  身体  有  不良  影响  。  因为  皮蛋  是  透过  混合  纯碱  、  石灰  、  盐  和  氧化铅  ，  将  鸭蛋  包裹  而  腌制  的  ，  当中  含有  铅  ，  所以  如果  经常  食用  ，  有  机会  引起  铅  中毒  。    这  会  导致  失眠  、  不  能  集中  注意力  、  贫血  、  关节痛  、  思维  缓慢  、  脑  功能  受  影响  等  症状  。  此外  ，  铅  更  会  取代  钙质  ，  影响  钙  的  摄取  ，  可能  造成  缺钙  。
+        </segment>
+
+        <pos>
+            直接#JJ  沾#NN  佐料#AD  吃#VV  ，#PU  如#P  酱油#NR  、#PU  酱油膏#NR  、#PU  辣椒酱#NR  等#ETC  。#PU
+            直接拌#NR  姜片#NN  或#CC  啤酒#NN  食用#VV  。#PU
+            制成#VV  各#DT  种#M  料理#NN  ，#PU  如#AD  皮蛋#NN  豆腐#NN  、#PU  糖醋#NN  皮蛋#NN  、#PU  三色#CD  蛋#NN  、#PU  皮蛋#NN  瘦肉粥#NN  、#PU  翡翠#NN  皮蛋#NN  羹#NN  等#ETC  。#PU
+            松花蛋#NR  最好#JJ  蒸#NN  煮#VV  后#LC  食用#VV    。#PU  在#P  食用#VV  松花蛋#NN  时#LC  ，#PU  加点点#NN  陈醋#NN  ，#PU  醋#AD  能#VV  杀菌#VV  ，#PU  又#AD  能#VV  中和#VV  松花蛋#NN  的#DEC  一#CD  部分#M  碱性#NN  ，#PU  吃#VV  起来#VV  也#AD  更#AD  有味#VV    。#PU    。#PU
+            但#AD  皮蛋#NR  这#DT  种#M  食物#NN  少吃#NN  无妨#VV  ，#PU  多#AD  吃#VV  却#AD  对#P  身体#NN  有#VE  不良#JJ  影响#NN    。#PU  因为#P  皮蛋#NN  是#VC  透过#VV  混合#NN  纯碱#NN  、#PU  石灰#NN  、#PU  盐#NN  和#CC  氧化铅#NN  ，#PU  将#AD  鸭蛋#VV  包裹#NN  而#CC  腌制#NN  的#DEC  ，#PU  当中#NN  含有#VV  铅#NN  ，#PU  所以#AD  如果#CS  经常#AD  食用#VV  ，#PU  有#VE  机会#NN  引起#VV  铅#NN  中毒#VV    。#PU  这#PN  会#VV  导致#VV  失眠#VA  、#PU  不#AD  能#VV  集中#VV  注意力#NN  、#PU  贫血#NN  、#PU  关节痛#NN  、#PU  思维#NN  缓慢#VA  、#PU  脑#NN  功能#NN  受#VV  影响#NN  等#ETC  症状#NN    。#PU  此外#AD  ，#PU  铅#NN  更#AD  会#VV  取代#VV  钙质#NN  ，#PU  影响#VV  钙#NN  的#DEG  摄取#NN  ，#PU  可能#VV  造成#VV  缺钙#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 沾#NN, 直接#JJ)  (nsubj, 吃#VV, 沾#NN)  (advmod, 吃#VV, 佐料#AD)  (root, ROOT#null, 吃#VV)  (case, 辣椒酱#NR, 如#P)  (conj, 辣椒酱#NR, 酱油#NR)  (conj, 辣椒酱#NR, 酱油膏#NR)  (prep, 吃#VV, 辣椒酱#NR)  (etc, 辣椒酱#NR, 等#ETC)
+            (nn, 啤酒#NN, 直接拌#NR)  (conj, 啤酒#NN, 姜片#NN)  (cc, 啤酒#NN, 或#CC)  (nsubj, 食用#VV, 啤酒#NN)  (root, ROOT#null, 食用#VV)
+            (root, ROOT#null, 制成#VV)  (det, 料理#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 制成#VV, 料理#NN)  (advmod, 羹#NN, 如#AD)  (nn, 豆腐#NN, 皮蛋#NN)  (conj, 羹#NN, 豆腐#NN)  (nn, 皮蛋#NN, 糖醋#NN)  (conj, 羹#NN, 皮蛋#NN)  (nummod, 蛋#NN, 三色#CD)  (conj, 羹#NN, 蛋#NN)  (nn, 瘦肉粥#NN, 皮蛋#NN)  (conj, 羹#NN, 瘦肉粥#NN)  (nn, 羹#NN, 翡翠#NN)  (nn, 羹#NN, 皮蛋#NN)  (dep, 制成#VV, 羹#NN)  (etc, 羹#NN, 等#ETC)
+            (nn, 蒸#NN, 松花蛋#NR)  (amod, 蒸#NN, 最好#JJ)  (nsubj, 食用#VV, 蒸#NN)  (loc, 食用#VV, 煮#VV)  (case, 煮#VV, 后#LC)  (root, ROOT#null, 食用#VV)   (case, 食用#VV, 在#P)  (prep, 能#VV, 食用#VV)  (dobj, 食用#VV, 松花蛋#NN)  (case, 食用#VV, 时#LC)  (nn, 陈醋#NN, 加点点#NN)  (nsubj, 能#VV, 陈醋#NN)  (advmod, 能#VV, 醋#AD)  (dep, 杀菌#VV, 能#VV)  (root, ROOT#null, 杀菌#VV)  (advmod, 中和#VV, 又#AD)  (mmod, 中和#VV, 能#VV)  (relcl, 碱性#NN, 中和#VV)  (dobj, 中和#VV, 松花蛋#NN)  (mark, 中和#VV, 的#DEC)  (nummod, 部分#M, 一#CD)  (clf, 碱性#NN, 部分#M)  (nsubj, 有味#VV, 碱性#NN)  (ccomp, 有味#VV, 吃#VV)  (rcomp, 吃#VV, 起来#VV)  (advmod, 有味#VV, 也#AD)  (advmod, 有味#VV, 更#AD)  (ccomp, 杀菌#VV, 有味#VV)   (root, ROOT#null, null#null)
+            (advmod, 无妨#VV, 但#AD)  (nsubj, 无妨#VV, 皮蛋#NR)  (xsubj, 有#VE, 皮蛋#NR)  (det, 食物#NN, 这#DT)  (clf, 这#DT, 种#M)  (nn, 少吃#NN, 食物#NN)  (nsubj, 无妨#VV, 少吃#NN)  (xsubj, 有#VE, 少吃#NN)  (root, ROOT#null, 无妨#VV)  (advmod, 吃#VV, 多#AD)  (dep, 有#VE, 吃#VV)  (advmod, 有#VE, 却#AD)  (case, 身体#NN, 对#P)  (prep, 有#VE, 身体#NN)  (ccomp, 无妨#VV, 有#VE)  (amod, 影响#NN, 不良#JJ)  (dobj, 有#VE, 影响#NN)   (case, 透过#VV, 因为#P)  (nsubj, 透过#VV, 皮蛋#NN)  (cop, 透过#VV, 是#VC)  (prep, 含有#VV, 透过#VV)  (nn, 氧化铅#NN, 混合#NN)  (conj, 氧化铅#NN, 纯碱#NN)  (conj, 氧化铅#NN, 石灰#NN)  (conj, 氧化铅#NN, 盐#NN)  (cc, 氧化铅#NN, 和#CC)  (dobj, 透过#VV, 氧化铅#NN)  (advmod, 鸭蛋#VV, 将#AD)  (conj, 透过#VV, 鸭蛋#VV)  (conj, 腌制#NN, 包裹#NN)  (cc, 腌制#NN, 而#CC)  (dobj, 鸭蛋#VV, 腌制#NN)  (mark, 透过#VV, 的#DEC)  (nsubj, 含有#VV, 当中#NN)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 铅#NN)  (advmod, 引起#VV, 所以#AD)  (advmod, 食用#VV, 如果#CS)  (advmod, 食用#VV, 经常#AD)  (dep, 引起#VV, 食用#VV)  (dep, 食用#VV, 有#VE)  (dobj, 有#VE, 机会#NN)  (conj, 含有#VV, 引起#VV)  (dobj, 引起#VV, 铅#NN)  (conj, 引起#VV, 中毒#VV)   (nsubj, 导致#VV, 这#PN)  (xsubj, 失眠#VA, 这#PN)  (mmod, 导致#VV, 会#VV)  (root, ROOT#null, 导致#VV)  (ccomp, 导致#VV, 失眠#VA)  (neg, 集中#VV, 不#AD)  (mmod, 集中#VV, 能#VV)  (dep, 失眠#VA, 集中#VV)  (conj, 思维#NN, 注意力#NN)  (conj, 思维#NN, 贫血#NN)  (conj, 思维#NN, 关节痛#NN)  (nsubj, 缓慢#VA, 思维#NN)  (nfincl, 症状#NN, 缓慢#VA)  (nn, 功能#NN, 脑#NN)  (nsubj, 受#VV, 功能#NN)  (conj, 缓慢#VA, 受#VV)  (dobj, 受#VV, 影响#NN)  (etc, 影响#NN, 等#ETC)  (dobj, 集中#VV, 症状#NN)   (advmod, 取代#VV, 此外#AD)  (nsubj, 取代#VV, 铅#NN)  (advmod, 取代#VV, 更#AD)  (mmod, 取代#VV, 会#VV)  (conj, 造成#VV, 取代#VV)  (dobj, 取代#VV, 钙质#NN)  (conj, 取代#VV, 影响#VV)  (assmod, 摄取#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 影响#VV, 摄取#NN)  (conj, 取代#VV, 可能#VV)  (root, ROOT#null, 造成#VV)  (dobj, 造成#VV, 缺钙#NN)
+        </parsing>
+
+        <tag>
+            辣椒酱  酱油膏  啤酒  姜片  食用  制成料理  皮蛋豆腐  糖醋皮蛋  皮蛋瘦肉粥  最好蒸  加点点陈醋  杀菌  中和碱性  食物少吃  无妨  不良影响  混合氧化铅  纯碱  石灰  透过氧化铅  包裹  鸭蛋腌制  含有铅  导致  注意力  贫血  关节痛  思维缓慢  集中症状  取代钙质  影响摄取  造成缺钙  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081827521359.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\66 松花蛋.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,114 @@
+<content>
+
+    <id>
+        495
+    </id>
+
+    <foodname>
+        白参
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为人参经特殊加工而成的一种中药，区别于红参。指人参加工的产品中，除红参以外的各种加工，如生晒参、白糖参、白干参等，一般统称为白参。
+        </rawdata>
+
+        <segment>
+            为  人参  经  特殊  加工  而  成  的  一  种  中药  ，  区别于  红参  。  指人  参加  工  的  产品  中  ，  除  红参  以外  的  各  种  加工  ，  如  生晒参  、  白糖  参  、  白干  参等  ，  一般  统称  为  白  参  。
+        </segment>
+
+        <pos>
+            为#P  人参#VV  经#P  特殊#JJ  加工#NN  而#MSP  成#VV  的#DEC  一#CD  种#M  中药#NN  ，#PU  区别于#AD  红参#VV    。#PU  指人#AD  参加#VV  工#NN  的#DEC  产品#NN  中#LC  ，#PU  除#P  红参#NN  以外#LC  的#DEG  各#DT  种#M  加工#NN  ，#PU  如#AD  生晒参#NR  、#PU  白糖#NR  参#NR  、#PU  白干#NR  参等#VV  ，#PU  一般#JJ  统称#NN  为#VC  白#JJ  参#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 人参#VV, 为#P)  (prep, 红参#VV, 人参#VV)  (case, 加工#NN, 经#P)  (amod, 加工#NN, 特殊#JJ)  (prep, 成#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (relcl, 中药#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 中药#NN, 种#M)  (dobj, 人参#VV, 中药#NN)  (advmod, 红参#VV, 区别于#AD)  (root, ROOT#null, 红参#VV)   (advmod, 参加#VV, 指人#AD)  (relcl, 产品#NN, 参加#VV)  (dobj, 参加#VV, 工#NN)  (mark, 参加#VV, 的#DEC)  (loc, 参等#VV, 产品#NN)  (case, 产品#NN, 中#LC)  (case, 红参#NN, 除#P)  (assmod, 加工#NN, 红参#NN)  (case, 红参#NN, 以外#LC)  (case, 红参#NN, 的#DEG)  (det, 加工#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 参等#VV, 加工#NN)  (advmod, 参等#VV, 如#AD)  (conj, 白糖#NR, 生晒参#NR)  (nsubj, 参等#VV, 白糖#NR)  (conj, 白干#NR, 参#NR)  (nsubj, 参等#VV, 白干#NR)  (root, ROOT#null, 参等#VV)  (amod, 统称#NN, 一般#JJ)  (nsubj, 参#NN, 统称#NN)  (cop, 参#NN, 为#VC)  (amod, 参#NN, 白#JJ)  (ccomp, 参等#VV, 参#NN)
+        </parsing>
+
+        <tag>
+            特殊加工  成中药  人参中药  红参  参加产品  参加工  白糖  生晒参  参等  一般统称  白参  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.大补元气：适于元气虚脱。
+            2.补脾益肺：可治脾，肺气虚。
+            3.生津止渴：用于津伤口渴，消渴。
+            4.安神增智：主治气血不足引起的心神不安，失眠健忘，常配养心安神药。
+        </rawdata>
+
+        <segment>
+            大补  元气  ：  适于  元气  虚脱  。
+            补脾益肺  ：  可治脾  ，  肺  气虚  。
+            生津止渴  ：  用于  津  伤  口渴  ，  消渴  。
+            安神  增智  ：  主治  气血  不足  引起  的  心神不安  ，  失眠  健忘  ，  常  配  养心安  神药  。
+        </segment>
+
+        <pos>
+            大补#VV  元气#NN  ：#PU  适于#VV  元气#NN  虚脱#NN  。#PU
+            补脾益肺#VV  ：#PU  可治脾#NN  ，#PU  肺#NN  气虚#VV  。#PU
+            生津止渴#VV  ：#PU  用于#VV  津#NR  伤#NN  口渴#NN  ，#PU  消渴#VV  。#PU
+            安神#NR  增智#VV  ：#PU  主治#NN  气血#NN  不足#NN  引起#VV  的#DEC  心神不安#NN  ，#PU  失眠#NN  健忘#NN  ，#PU  常#AD  配#VV  养心安#NN  神药#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 大补#VV)  (dobj, 大补#VV, 元气#NN)  (dep, 大补#VV, 适于#VV)  (nn, 虚脱#NN, 元气#NN)  (dobj, 适于#VV, 虚脱#NN)
+            (root, ROOT#null, 补脾益肺#VV)  (nsubj, 气虚#VV, 可治脾#NN)  (nsubj, 气虚#VV, 肺#NN)  (ccomp, 补脾益肺#VV, 气虚#VV)
+            (root, ROOT#null, 生津止渴#VV)  (ccomp, 生津止渴#VV, 用于#VV)  (nn, 口渴#NN, 津#NR)  (nn, 口渴#NN, 伤#NN)  (dobj, 用于#VV, 口渴#NN)  (conj, 用于#VV, 消渴#VV)
+            (nsubj, 增智#VV, 安神#NR)  (root, ROOT#null, 增智#VV)  (nn, 不足#NN, 主治#NN)  (nn, 不足#NN, 气血#NN)  (nsubj, 引起#VV, 不足#NN)  (relcl, 心神不安#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nsubj, 配#VV, 心神不安#NN)  (nn, 健忘#NN, 失眠#NN)  (nsubj, 配#VV, 健忘#NN)  (advmod, 配#VV, 常#AD)  (ccomp, 增智#VV, 配#VV)  (nn, 神药#NN, 养心安#NN)  (dobj, 配#VV, 神药#NN)
+        </parsing>
+
+        <tag>
+            大补元气  元气虚脱  适于虚脱  用于口渴  增智  主治不足  气血不足  失眠健忘  养心安神药  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/15184635139.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\495 白参.jpg
+    </picturelocalurl>
+
+</content>

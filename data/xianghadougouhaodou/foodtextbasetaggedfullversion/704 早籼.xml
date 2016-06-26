@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        704
+    </id>
+
+    <foodname>
+        早籼
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            糖尿病患者不宜多食
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  不  宜  多  食
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  不#AD  宜#NR  多#VV  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 多#VV, 患者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            糖尿病  患者  不宜多食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            根据稻谷收获季节，分为早籼米和晚籼米。早籼米米粒宽厚而较短，呈粉白色，腹白大，粉质多，质地脆弱易碎，粘性小于晚籼米，质量较差
+        </rawdata>
+
+        <segment>
+            根据  稻谷  收获  季节  ，  分为  早籼米  和  晚  籼米  。  早籼米  米粒  宽厚  而  较短  ，  呈  粉白色  ，  腹  白  大  ，  粉质多  ，  质地  脆弱  易碎  ，  粘性  小于  晚  籼米  ，  质量  较差
+        </segment>
+
+        <pos>
+            根据#P  稻谷#NN  收获#NN  季节#NN  ，#PU  分为#VV  早籼米#NN  和#CC  晚#NN  籼米#NN  。#PU  早籼米#NN  米粒#NN  宽厚#NN  而#MSP  较短#VV  ，#PU  呈#VV  粉白色#NN  ，#PU  腹#NN  白#VA  大#VA  ，#PU  粉质多#NN  ，#PU  质地#AD  脆弱#VA  易碎#VA  ，#PU  粘性#NN  小于#VV  晚#NN  籼米#NN  ，#PU  质量#NN  较差#VA
+        </pos>
+
+        <parsing>
+            (case, 季节#NN, 根据#P)  (nn, 季节#NN, 稻谷#NN)  (nn, 季节#NN, 收获#NN)  (prep, 分为#VV, 季节#NN)  (root, ROOT#null, 分为#VV)  (conj, 籼米#NN, 早籼米#NN)  (cc, 籼米#NN, 和#CC)  (nn, 籼米#NN, 晚#NN)  (dobj, 分为#VV, 籼米#NN)  (nn, 宽厚#NN, 早籼米#NN)  (nn, 宽厚#NN, 米粒#NN)  (nsubj, 较短#VV, 宽厚#NN)  (prtmod, 较短#VV, 而#MSP)  (dep, 分为#VV, 较短#VV)  (conj, 分为#VV, 呈#VV)  (dobj, 呈#VV, 粉白色#NN)  (nsubj, 白#VA, 腹#NN)  (conj, 分为#VV, 白#VA)  (comod, 白#VA, 大#VA)  (nsubj, 脆弱#VA, 粉质多#NN)  (advmod, 脆弱#VA, 质地#AD)  (conj, 白#VA, 脆弱#VA)  (comod, 脆弱#VA, 易碎#VA)  (nsubj, 小于#VV, 粘性#NN)  (ccomp, 脆弱#VA, 小于#VV)  (nn, 籼米#NN, 晚#NN)  (dobj, 小于#VV, 籼米#NN)  (nsubj, 较差#VA, 质量#NN)  (conj, 白#VA, 较差#VA)
+        </parsing>
+
+        <tag>
+            稻谷季节  收获季节  分为籼米  米粒宽厚  粉质多脆弱  易碎脆弱  小于籼米  质量较差  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            大米是提供B族维生素的主要来源，是预防脚气病、消除口腔炎症的重要食疗资源
+        </rawdata>
+
+        <segment>
+            大米  是  提供  B  族  维生素  的  主要  来源  ，  是  预防  脚气病  、  消除  口腔  炎症  的  重要  食疗  资源
+        </segment>
+
+        <pos>
+            大米#AD  是#VC  提供#VV  B#NN  族#NN  维生素#NN  的#DEC  主要#JJ  来源#NN  ，#PU  是#VC  预防#VV  脚气病#NN  、#PU  消除#VV  口腔#NN  炎症#NN  的#DEC  重要#JJ  食疗#NN  资源#NN
+        </pos>
+
+        <parsing>
+            (advmod, 来源#NN, 大米#AD)  (cop, 来源#NN, 是#VC)  (relcl, 来源#NN, 提供#VV)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 提供#VV, 维生素#NN)  (mark, 提供#VV, 的#DEC)  (amod, 来源#NN, 主要#JJ)  (root, ROOT#null, 来源#NN)  (cop, 资源#NN, 是#VC)  (relcl, 资源#NN, 预防#VV)  (dobj, 预防#VV, 脚气病#NN)  (conj, 预防#VV, 消除#VV)  (nn, 炎症#NN, 口腔#NN)  (dobj, 消除#VV, 炎症#NN)  (mark, 预防#VV, 的#DEC)  (amod, 资源#NN, 重要#JJ)  (nn, 资源#NN, 食疗#NN)  (dep, 来源#NN, 资源#NN)
+        </parsing>
+
+        <tag>
+            提供来源  提供维生素  预防资源  预防脚气病  口腔炎症  消除炎症  食疗资源  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补气  健脾止泻  温中
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/e5/40/82149_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\704 早籼.jpg
+    </picturelocalurl>
+
+</content>

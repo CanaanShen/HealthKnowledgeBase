@@ -1,0 +1,292 @@
+<content>
+
+    <id>
+        1047
+    </id>
+
+    <foodname>
+        方便面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        泡面、杯面、快熟面、速食面、碗面、公仔面
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            方便面只是作为一种应急食物，并非是主食。所以大家在不必要的情况之下尽量少食用方便面。如果长期食用，可能会引发胃肠方面的疾病。小小的方便面其实并不简单，科学合理的食用，才能让方便面方便我们的生活。方便面只适于救急，一天最多吃一次，可不能天天吃.
+        </rawdata>
+
+        <segment>
+            方便面  只是  作为  一  种  应急  食物  ，  并  非  是  主食  。  所以  大家  在  不必  要  的  情况  之下  尽量  少  食用  方便面  。  如果  长期  食用  ，  可能  会  引发  胃肠  方面  的  疾病  。  小小  的  方便面  其实  并不  简单  ，  科学  合理  的  食用  ，  才  能  让  方便面  方便  我们  的  生活  。  方便面  只  适于  救急  ，  一  天  最多  吃  一  次  ，  可  不  能  天天  吃  .
+        </segment>
+
+        <pos>
+            方便面#NN  只是#AD  作为#VV  一#CD  种#M  应急#NN  食物#NN  ，#PU  并#CC  非#AD  是#VC  主食#NN    。#PU  所以#AD  大家#PN  在#P  不必#AD  要#VV  的#DEC  情况#NN  之下#LC  尽量#AD  少#VA  食用#VV  方便面#NN    。#PU  如果#CS  长期#AD  食用#VV  ，#PU  可能#VV  会#VV  引发#VV  胃肠#NN  方面#NN  的#DEG  疾病#NN    。#PU  小小#JJ  的#DEG  方便面#NN  其实#AD  并不#AD  简单#VA  ，#PU  科学#AD  合理#VA  的#DEC  食用#VV  ，#PU  才#AD  能#VV  让#VV  方便面#NN  方便#VV  我们#PN  的#DEG  生活#NN    。#PU  方便面#NN  只#AD  适于#VV  救急#NN  ，#PU  一#CD  天#M  最多#AD  吃#VV  一#CD  次#M  ，#PU  可#VV  不#AD  能#VV  天天#AD  吃#VV  .#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 作为#VV, 方便面#NN)  (advmod, 作为#VV, 只是#AD)  (root, ROOT#null, 作为#VV)  (nummod, 种#M, 一#CD)  (clf, 食物#NN, 种#M)  (nn, 食物#NN, 应急#NN)  (dobj, 作为#VV, 食物#NN)  (cc, 作为#VV, 并#CC)  (advmod, 主食#NN, 非#AD)  (cop, 主食#NN, 是#VC)  (conj, 作为#VV, 主食#NN)   (advmod, 少#VA, 所以#AD)  (nsubj, 少#VA, 大家#PN)  (case, 情况#NN, 在#P)  (advmod, 要#VV, 不必#AD)  (relcl, 情况#NN, 要#VV)  (mark, 要#VV, 的#DEC)  (prep, 少#VA, 情况#NN)  (case, 情况#NN, 之下#LC)  (advmod, 少#VA, 尽量#AD)  (conj, 食用#VV, 少#VA)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 方便面#NN)   (advmod, 食用#VV, 如果#CS)  (advmod, 食用#VV, 长期#AD)  (root, ROOT#null, 食用#VV)  (mmod, 引发#VV, 可能#VV)  (mmod, 引发#VV, 会#VV)  (dep, 食用#VV, 引发#VV)  (nn, 方面#NN, 胃肠#NN)  (assmod, 疾病#NN, 方面#NN)  (case, 方面#NN, 的#DEG)  (dobj, 引发#VV, 疾病#NN)   (assmod, 方便面#NN, 小小#JJ)  (case, 小小#JJ, 的#DEG)  (nsubj, 食用#VV, 方便面#NN)  (advmod, 食用#VV, 其实#AD)  (advmod, 简单#VA, 并不#AD)  (nsubj, 食用#VV, 简单#VA)  (advmod, 合理#VA, 科学#AD)  (dep, 简单#VA, 合理#VA)  (mark, 简单#VA, 的#DEC)  (root, ROOT#null, 食用#VV)  (advmod, 让#VV, 才#AD)  (mmod, 让#VV, 能#VV)  (dep, 食用#VV, 让#VV)  (dobj, 让#VV, 方便面#NN)  (dep, 让#VV, 方便#VV)  (assmod, 生活#NN, 我们#PN)  (case, 我们#PN, 的#DEG)  (dobj, 方便#VV, 生活#NN)   (nsubj, 适于#VV, 方便面#NN)  (advmod, 适于#VV, 只#AD)  (root, ROOT#null, 适于#VV)  (dobj, 适于#VV, 救急#NN)  (nummod, 天#M, 一#CD)  (dep, 吃#VV, 天#M)  (advmod, 吃#VV, 最多#AD)  (conj, 适于#VV, 吃#VV)  (nummod, 次#M, 一#CD)  (range, 吃#VV, 次#M)  (mmod, 吃#VV, 可#VV)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 能#VV)  (advmod, 吃#VV, 天天#AD)  (conj, 适于#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+            只是作为一种应急食物  非是主食  大家  不必要  情况之下尽量少  如果长期  可能会引发胃肠方面  疾病  小小  其实  不简单  科学合理  才能让  方便我们  生活  只适于救急  一天最多吃一次  可不能天天吃  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                472cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                3.6g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                9.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                21.1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                60.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.12mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.06mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                2.28mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                1144mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                25mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                4.1mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            方便面，方便就是它的主要特征，它是完美口味的快餐，超市里都有卖，又有好多种口味，让你尽情挑选，可以用锅，煮着吃，也可用微波炉，面条更加筋道。方便面按工艺划分主要有：油炸方便面、非油炸方便面、湿法方便面三种。按工艺流程方便面设备主要分三类：油炸方便面传统设备、非油炸热干风设备、TOM湿法方便面生产设备三种。
+        </rawdata>
+
+        <segment>
+            方便面  ，  方便  就  是  它  的  主要  特征  ，  它  是  完美  口味  的  快餐  ，  超市  里  都  有  卖  ，  又  有  好多  种  口味  ，  让  你  尽情  挑选  ，  可以  用锅  ，  煮  着  吃  ，  也  可  用  微波炉  ，  面条  更加  筋道  。  方便面  按  工艺  划分  主要  有  ：  油炸  方便面  、  非  油炸  方便面  、  湿  法  方便面  三  种  。  按  工艺  流程  方便面  设备  主要  分  三  类  ：  油炸  方便面  传统  设备  、  非油炸  热干  风  设备  、  TOM  湿法  方便面  生产  设备  三  种  。
+        </segment>
+
+        <pos>
+            方便面#NN  ，#PU  方便#NN  就#AD  是#VC  它#PN  的#DEG  主要#JJ  特征#NN  ，#PU  它#PN  是#VC  完美#NN  口味#NN  的#DEG  快餐#NN  ，#PU  超市#NN  里#LC  都#AD  有#VE  卖#VV  ，#PU  又#AD  有#VE  好多#CD  种#M  口味#NN  ，#PU  让#VV  你#PN  尽情#AD  挑选#VV  ，#PU  可以#VV  用锅#NN  ，#PU  煮#VV  着#AS  吃#VV  ，#PU  也#AD  可#VV  用#VV  微波炉#NN  ，#PU  面条#NN  更加#AD  筋道#VA    。#PU  方便面#NN  按#P  工艺#NN  划分#NN  主要#AD  有#VE  ：#PU  油炸#VV  方便面#NN  、#PU  非#JJ  油炸#NN  方便面#NN  、#PU  湿#NN  法#NN  方便面#NN  三#CD  种#M    。#PU  按#P  工艺#NN  流程#NN  方便面#NN  设备#NN  主要#AD  分#VV  三#CD  类#M  ：#PU  油炸#VV  方便面#NN  传统#NN  设备#NN  、#PU  非油炸#NN  热干#NN  风#NN  设备#NN  、#PU  TOM#NN  湿法#NN  方便面#NN  生产#NN  设备#NN  三#CD  种#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 特征#NN, 方便面#NN)  (nsubj, 特征#NN, 方便#NN)  (advmod, 特征#NN, 就#AD)  (cop, 特征#NN, 是#VC)  (assmod, 特征#NN, 它#PN)  (case, 它#PN, 的#DEG)  (amod, 特征#NN, 主要#JJ)  (root, ROOT#null, 特征#NN)  (nsubj, 快餐#NN, 它#PN)  (cop, 快餐#NN, 是#VC)  (nn, 口味#NN, 完美#NN)  (assmod, 快餐#NN, 口味#NN)  (case, 口味#NN, 的#DEG)  (conj, 特征#NN, 快餐#NN)  (loc, 有#VE, 超市#NN)  (case, 超市#NN, 里#LC)  (advmod, 有#VE, 都#AD)  (conj, 特征#NN, 有#VE)  (dep, 有#VE, 卖#VV)  (advmod, 有#VE, 又#AD)  (conj, 有#VE, 有#VE)  (nummod, 种#M, 好多#CD)  (clf, 口味#NN, 种#M)  (dobj, 有#VE, 口味#NN)  (conj, 有#VE, 让#VV)  (dobj, 让#VV, 你#PN)  (advmod, 挑选#VV, 尽情#AD)  (dep, 让#VV, 挑选#VV)  (conj, 有#VE, 可以#VV)  (dobj, 可以#VV, 用锅#NN)  (conj, 有#VE, 煮#VV)  (asp, 煮#VV, 着#AS)  (dep, 煮#VV, 吃#VV)  (advmod, 用#VV, 也#AD)  (mmod, 用#VV, 可#VV)  (conj, 有#VE, 用#VV)  (dobj, 用#VV, 微波炉#NN)  (nsubj, 筋道#VA, 面条#NN)  (advmod, 筋道#VA, 更加#AD)  (conj, 特征#NN, 筋道#VA)   (nsubj, 有#VE, 方便面#NN)  (case, 划分#NN, 按#P)  (nn, 划分#NN, 工艺#NN)  (prep, 有#VE, 划分#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (conj, 有#VE, 油炸#VV)  (conj, 法#NN, 方便面#NN)  (amod, 方便面#NN, 非#JJ)  (nn, 方便面#NN, 油炸#NN)  (conj, 法#NN, 方便面#NN)  (nn, 法#NN, 湿#NN)  (nn, 方便面#NN, 法#NN)  (dobj, 油炸#VV, 方便面#NN)  (nummod, 种#M, 三#CD)  (range, 油炸#VV, 种#M)   (case, 流程#NN, 按#P)  (nn, 流程#NN, 工艺#NN)  (prep, 分#VV, 流程#NN)  (nn, 设备#NN, 方便面#NN)  (nsubj, 分#VV, 设备#NN)  (advmod, 分#VV, 主要#AD)  (root, ROOT#null, 分#VV)  (nummod, 类#M, 三#CD)  (range, 分#VV, 类#M)  (conj, 分#VV, 油炸#VV)  (nn, 设备#NN, 方便面#NN)  (nn, 设备#NN, 传统#NN)  (conj, 设备#NN, 设备#NN)  (nn, 设备#NN, 非油炸#NN)  (nn, 设备#NN, 热干#NN)  (nn, 设备#NN, 风#NN)  (conj, 设备#NN, 设备#NN)  (nn, 设备#NN, TOM#NN)  (nn, 设备#NN, 湿法#NN)  (nn, 设备#NN, 方便面#NN)  (nn, 设备#NN, 生产#NN)  (dobj, 油炸#VV, 设备#NN)  (nummod, 种#M, 三#CD)  (range, 油炸#VV, 种#M)
+        </parsing>
+
+        <tag>
+            完美口味  特征  快餐  面条筋道  工艺划分  工艺流程  传统设备  非油炸设备  热干设备  TOM设备  湿法设备  生产设备  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            方便面的主要成分是小麦面粉、棕榈油、调味酱和脱水蔬菜叶等
+        </rawdata>
+
+        <segment>
+            方便面  的  主要  成分  是  小麦  面粉  、  棕榈油  、  调味酱  和  脱水  蔬菜  叶  等
+        </segment>
+
+        <pos>
+            方便面#NN  的#DEG  主要#JJ  成分#NN  是#VC  小麦#NN  面粉#NN  、#PU  棕榈油#NN  、#PU  调味酱#NN  和#CC  脱水#NN  蔬菜#NN  叶#NN  等#ETC
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 方便面#NN)  (case, 方便面#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 叶#NN, 成分#NN)  (cop, 叶#NN, 是#VC)  (nn, 叶#NN, 小麦#NN)  (conj, 叶#NN, 面粉#NN)  (conj, 叶#NN, 棕榈油#NN)  (conj, 叶#NN, 调味酱#NN)  (cc, 叶#NN, 和#CC)  (nn, 叶#NN, 脱水#NN)  (nn, 叶#NN, 蔬菜#NN)  (root, ROOT#null, 叶#NN)  (etc, 叶#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            随着方便面的制作工艺越来越先进，里面的营养成分也增加了不少。在方便面的面块和调料包中，人体必需的6大营养素———水、蛋白质、脂肪、碳水化合物、矿物质、维生素全具备了，因此营养比较全面。
+            调料包中的脱水蔬菜基本保存了原有蔬菜的营养，只不过因为量比较小，所以方便面中维生素含量稍显不足。但膳食平衡是建立在食物合理搭配的前提上的，只要在吃方便面的时候，多搭配些蔬菜、水果等含维生素丰富的食物就行了。他还告诉记者，目前国内外都在开发新的营养型方便面，比如加碘或铁的营养强化型方便面、减肥型方便面、适合糖尿病人食用的方便面等，将来可满足不同人群的营养需要。
+        </rawdata>
+
+        <segment>
+            随着  方便面  的  制作  工艺  越来越  先进  ，  里面  的  营养  成分  也  增加  了  不少  。  在  方便面  的  面块  和  调料  包  中  ，  人体  必需  的  6  大  营养素  ———  水  、  蛋白质  、  脂肪  、  碳水化合物  、  矿物质  、  维生素  全  具备  了  ，  因此  营养  比较  全面  。
+            调料  包  中  的  脱水  蔬菜  基本  保存  了  原有  蔬菜  的  营养  ，  只不过  因为  量  比较  小  ，  所以  方便面  中  维生素  含量  稍  显  不足  。  但  膳食  平衡  是  建立  在  食物  合理  搭配  的  前提  上  的  ，  只要  在  吃  方便面  的  时候  ，  多  搭配  些  蔬菜  、  水果  等  含  维生素  丰富  的  食物  就  行了  。  他  还  告诉  记者  ，  目前  国内外  都  在  开发  新  的  营养型  方便面  ，  比如  加碘  或  铁的  营养  强化型  方便面  、  减肥  型  方便面  、  适合  糖尿  病人  食用  的  方便面  等  ，  将来  可满足  不同  人群  的  营养  需要  。
+        </segment>
+
+        <pos>
+            随着#P  方便面#NN  的#DEG  制作#NN  工艺#NN  越来越#AD  先进#VA  ，#PU  里面#NN  的#DEG  营养#VA  成分#NN  也#AD  增加#VV  了#AS  不少#CD    。#PU  在#P  方便面#NN  的#DEG  面块#NN  和#CC  调料#NN  包#NN  中#LC  ，#PU  人体#AD  必需#VV  的#DEC  6#CD  大#JJ  营养素#NN  --#AD  --#VV  --#NN  水#NN  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  矿物质#NR  、#PU  维生素#NN  全#AD  具备#VV  了#AS  ，#PU  因此#AD  营养#VA  比较#AD  全面#VA    。#PU    。#PU
+            调料#NN  包#NN  中#LC  的#DEG  脱水#JJ  蔬菜#NN  基本#AD  保存#VV  了#AS  原有#JJ  蔬菜#NN  的#DEG  营养#VA  ，#PU  只不过#VV  因为#P  量#NN  比较#AD  小#VA  ，#PU  所以#AD  方便面#NN  中#LC  维生素#NN  含量#NN  稍#AD  显#VA  不足#NN    。#PU  但#AD  膳食#NN  平衡#NN  是#VC  建立#VV  在#P  食物#VV  合理#JJ  搭配#NN  的#DEC  前提#NN  上#LC  的#DEC  ，#PU  只要#CS  在#P  吃#VV  方便面#NN  的#DEC  时候#NN  ，#PU  多#AD  搭配#CD  些#M  蔬菜#NN  、#PU  水果#NN  等#ETC  含#VV  维生素#NN  丰富#VA  的#DEC  食物#NN  就#AD  行了#VV    。#PU  他#PN  还#AD  告诉#VV  记者#NN  ，#PU  目前#NT  国内外#NN  都#AD  在#VV  开发#NN  新#VA  的#DEC  营养型#NN  方便面#NN  ，#PU  比如#AD  加碘#NN  或#CC  铁的#NN  营养#VA  强化型#VV  方便面#NN  、#PU  减肥#VV  型#NN  方便面#NN  、#PU  适合#VV  糖尿#NN  病人#NN  食用#VV  的#DEC  方便面#NN  等#ETC  ，#PU  将来#NT  可满足#VV  不同#JJ  人群#NN  的#DEG  营养#VA  需要#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 先进#VA, 随着#P)  (assmod, 工艺#NN, 方便面#NN)  (case, 方便面#NN, 的#DEG)  (nn, 工艺#NN, 制作#NN)  (nsubj, 先进#VA, 工艺#NN)  (advmod, 先进#VA, 越来越#AD)  (prep, 增加#VV, 先进#VA)  (assmod, 成分#NN, 里面#NN)  (case, 里面#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 增加#VV, 成分#NN)  (advmod, 增加#VV, 也#AD)  (root, ROOT#null, 增加#VV)  (asp, 增加#VV, 了#AS)  (dep, 增加#VV, 不少#CD)   (case, 包#NN, 在#P)  (assmod, 包#NN, 方便面#NN)  (case, 方便面#NN, 的#DEG)  (conj, 包#NN, 面块#NN)  (cc, 包#NN, 和#CC)  (nn, 包#NN, 调料#NN)  (prep, --#VV, 包#NN)  (root, --#VV, 包#NN)  (case, 包#NN, 中#LC)  (advmod, 必需#VV, 人体#AD)  (relcl, 营养素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 营养素#NN, 6#CD)  (amod, 营养素#NN, 大#JJ)  (nsubj, 包#NN, 营养素#NN)  (nsubj, --#VV, 营养素#NN)  (conj, 维生素#NN, 水#NN)  (conj, 矿物质#NR, 蛋白质#NR)  (conj, 矿物质#NR, 脂肪#NR)  (conj, 矿物质#NR, 碳水化合物#NR)  (conj, 维生素#NN, 矿物质#NR)  (nsubj, 具备#VV, 维生素#NN)  (advmod, 具备#VV, 全#AD)  (conj, 包#NN, 具备#VV)  (conj, --#VV, 具备#VV)  (asp, 具备#VV, 了#AS)  (advmod, 全面#VA, 因此#AD)  (dep, 全面#VA, 营养#VA)  (advmod, 全面#VA, 比较#AD)  (conj, 具备#VV, 全面#VA)   (root, ROOT#null, null#null)
+            (nn, 包#NN, 调料#NN)  (assmod, 蔬菜#NN, 包#NN)  (case, 包#NN, 中#LC)  (case, 包#NN, 的#DEG)  (amod, 蔬菜#NN, 脱水#JJ)  (nsubj, 保存#VV, 蔬菜#NN)  (advmod, 保存#VV, 基本#AD)  (root, ROOT#null, 保存#VV)  (asp, 保存#VV, 了#AS)  (amod, 蔬菜#NN, 原有#JJ)  (assmod, 不足#NN, 蔬菜#NN)  (case, 蔬菜#NN, 的#DEG)  (nfincl, 不足#NN, 营养#VA)  (dep, 营养#VA, 只不过#VV)  (case, 小#VA, 因为#P)  (nsubj, 小#VA, 量#NN)  (advmod, 小#VA, 比较#AD)  (prep, 只不过#VV, 小#VA)  (advmod, 显#VA, 所以#AD)  (loc, 显#VA, 方便面#NN)  (case, 方便面#NN, 中#LC)  (nn, 含量#NN, 维生素#NN)  (nsubj, 显#VA, 含量#NN)  (advmod, 显#VA, 稍#AD)  (conj, 小#VA, 显#VA)  (dobj, 保存#VV, 不足#NN)   (advmod, 建立#VV, 但#AD)  (nn, 平衡#NN, 膳食#NN)  (nsubj, 建立#VV, 平衡#NN)  (cop, 建立#VV, 是#VC)  (root, ROOT#null, 建立#VV)  (case, 前提#NN, 在#P)  (relcl, 前提#NN, 食物#VV)  (amod, 搭配#NN, 合理#JJ)  (dobj, 食物#VV, 搭配#NN)  (mark, 食物#VV, 的#DEC)  (prep, 建立#VV, 前提#NN)  (case, 前提#NN, 上#LC)  (mark, 建立#VV, 的#DEC)  (advmod, 含#VV, 只要#CS)  (case, 水果#NN, 在#P)  (relcl, 时候#NN, 吃#VV)  (dobj, 吃#VV, 方便面#NN)  (mark, 吃#VV, 的#DEC)  (dep, 水果#NN, 时候#NN)  (advmod, 些#M, 多#AD)  (nummod, 些#M, 搭配#CD)  (clf, 水果#NN, 些#M)  (conj, 水果#NN, 蔬菜#NN)  (prep, 含#VV, 水果#NN)  (etc, 水果#NN, 等#ETC)  (relcl, 食物#NN, 含#VV)  (dobj, 含#VV, 维生素#NN)  (conj, 含#VV, 丰富#VA)  (mark, 含#VV, 的#DEC)  (nsubj, 行了#VV, 食物#NN)  (advmod, 行了#VV, 就#AD)  (conj, 建立#VV, 行了#VV)   (nsubj, 告诉#VV, 他#PN)  (advmod, 告诉#VV, 还#AD)  (root, ROOT#null, 告诉#VV)  (dobj, 告诉#VV, 记者#NN)  (tmod, 在#VV, 目前#NT)  (nsubj, 在#VV, 国内外#NN)  (advmod, 在#VV, 都#AD)  (dep, 告诉#VV, 在#VV)  (nn, 方便面#NN, 开发#NN)  (relcl, 开发#NN, 新#VA)  (relcl, 方便面#NN, 新#VA)  (mark, 新#VA, 的#DEC)  (nn, 方便面#NN, 营养型#NN)  (dobj, 在#VV, 方便面#NN)  (advmod, 营养#VA, 比如#AD)  (conj, 铁的#NN, 加碘#NN)  (cc, 铁的#NN, 或#CC)  (nsubj, 营养#VA, 铁的#NN)  (conj, 在#VV, 营养#VA)  (conj, 营养#VA, 强化型#VV)  (dobj, 强化型#VV, 方便面#NN)  (conj, 营养#VA, 减肥#VV)  (nn, 方便面#NN, 型#NN)  (dobj, 减肥#VV, 方便面#NN)  (conj, 营养#VA, 适合#VV)  (nn, 病人#NN, 糖尿#NN)  (nsubj, 食用#VV, 病人#NN)  (relcl, 方便面#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (dobj, 适合#VV, 方便面#NN)  (etc, 方便面#NN, 等#ETC)  (tmod, 可满足#VV, 将来#NT)  (conj, 在#VV, 可满足#VV)  (amod, 人群#NN, 不同#JJ)  (assmod, 需要#NN, 人群#NN)  (case, 人群#NN, 的#DEG)  (nfincl, 需要#NN, 营养#VA)  (dobj, 可满足#VV, 需要#NN)
+        </parsing>
+
+        <tag>
+            制作工艺  工艺先进  增加  必需营养素  大营养素  矿物质  蛋白质  脂肪  碳水化合物  脱水蔬菜  原有蔬菜  保存不足  膳食平衡  建立  食物前提  合理搭配  食物搭配  吃时候  水果  含食物  告诉记者  加碘  铁的营养  糖尿病人  不同人群  可满足需要  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            方便面除了是可以速食食用外，在某些地区也有人以烹调的方式食用方便面，例如以一般煮面条的方式煮方便面。在福建的金门等地区流行一种炒方便面，就是将方便面先煮过后，然后下锅炒，搭配菜叶或肉丝一同食用。
+            虽然方便面是设计成冲泡后食用，但是也有人不经冲泡便直接吃，在台湾某些品牌的方便面，例如“王子面”、“科学面”等，又或者泰国出产的“妈咪面”，人们多半便是直接压碎后混合调味粉食用。这种吃法可能是小学生发明的。在台湾，卤味摊贩有时候用方便面做为材料之一；在香港，茶餐厅可吃到的“捞丁”是方便面以捞面的方式食用；亦有炒方便面。
+        </rawdata>
+
+        <segment>
+            方便面  除了  是  可以  速食  食用  外  ，  在  某些  地区  也  有  人  以  烹调  的  方式  食用  方便面  ，  例如  以  一般  煮  面条  的  方式  煮  方便面  。  在  福建  的  金门  等  地区  流行  一  种  炒  方便面  ，  就是  将  方便面  先  煮  过  后  ，  然后  下锅  炒  ，  搭配  菜叶  或  肉丝  一同  食用  。
+            虽然  方便面  是  设计  成  冲泡  后  食用  ，  但是  也  有  人  不经  冲泡  便  直接  吃  ，  在  台湾  某些  品牌  的  方便面  ，  例如  “  王子面  ”  、  “  科学  面  ”  等  ，  又  或者  泰国  出产  的  “  妈咪  面  ”  ，  人们  多半  便  是  直接  压碎  后  混合  调味  粉  食用  。  这  种  吃法  可能  是  小学生  发明  的  。  在  台湾  ，  卤味  摊贩  有时候  用  方便面  做为  材料  之一  ；  在  香港  ，  茶  餐厅  可  吃到  的  “  捞丁  ”  是  方便面  以  捞  面的  方式  食用  ；  亦  有  炒  方便面  。
+        </segment>
+
+        <pos>
+            方便面#NN  除了#P  是#VC  可以#VV  速食#AD  食用#VV  外#LC  ，#PU  在#P  某些#DT  地区#NN  也#AD  有#VE  人#NN  以#P  烹调#NN  的#DEG  方式#NN  食用#VV  方便面#NN  ，#PU  例如#AD  以#P  一般#AD  煮#VV  面条#NN  的#DEC  方式#NN  煮#VV  方便面#NN    。#PU  在#P  福建#NR  的#DEG  金门#NR  等#ETC  地区#NN  流行#VV  一#CD  种#M  炒#NN  方便面#NN  ，#PU  就是#CC  将#BA  方便面#NN  先#AD  煮#VV  过#AS  后#LC  ，#PU  然后#AD  下锅#VV  炒#NN  ，#PU  搭配#NR  菜叶#NN  或#CC  肉丝#NN  一同#AD  食用#VV    。#PU    。#PU
+            虽然#CS  方便面#NN  是#VC  设计#NN  成#VV  冲泡#NN  后#LC  食用#VV  ，#PU  但是#AD  也#AD  有#VE  人#NN  不经#NN  冲泡#NN  便#AD  直接#AD  吃#VV  ，#PU  在#P  台湾#NR  某些#DT  品牌#NN  的#DEG  方便面#NN  ，#PU  例如#AD  ``#VV  王子面#NN  ''#NN  、#PU  ``#NN  科学#NN  面#NN  ''#NN  等#ETC  ，#PU  又#CC  或者#CC  泰国#NR  出产#VV  的#DEC  ``#NN  妈咪#VV  面#NN  ''#NN  ，#PU  人们#NN  多半#AD  便#AD  是#VC  直接#JJ  压碎#NN  后#LC  混合#JJ  调味#NN  粉#AD  食用#VV    。#PU  这#DT  种#M  吃法#NN  可能#VV  是#VC  小学生#AD  发明#VV  的#DEC    。#PU  在#P  台湾#NR  ，#PU  卤味#NN  摊贩#NN  有时候#AD  用#VV  方便面#NN  做为#P  材料#NN  之一#NN  ；#PU  在#P  香港#NR  ，#PU  茶#NN  餐厅#NN  可#VV  吃到#VV  的#DEC  ``#NN  捞丁#NN  ''#NN  是#VC  方便面#NN  以#P  捞#NN  面的#NN  方式#NN  食用#VV  ；#PU  亦#AD  有#VE  炒#NN  方便面#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 方便面#NN)  (case, 食用#VV, 除了#P)  (cop, 食用#VV, 是#VC)  (mmod, 食用#VV, 可以#VV)  (advmod, 食用#VV, 速食#AD)  (prep, 有#VE, 食用#VV)  (case, 食用#VV, 外#LC)  (case, 地区#NN, 在#P)  (det, 地区#NN, 某些#DT)  (prep, 有#VE, 地区#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nsubj, 食用#VV, 人#NN)  (case, 方式#NN, 以#P)  (assmod, 方式#NN, 烹调#NN)  (case, 烹调#NN, 的#DEG)  (prep, 食用#VV, 方式#NN)  (dep, 有#VE, 食用#VV)  (dobj, 食用#VV, 方便面#NN)  (advmod, 煮#VV, 例如#AD)  (case, 方式#NN, 以#P)  (advmod, 煮#VV, 一般#AD)  (relcl, 方式#NN, 煮#VV)  (dobj, 煮#VV, 面条#NN)  (mark, 煮#VV, 的#DEC)  (prep, 煮#VV, 方式#NN)  (conj, 有#VE, 煮#VV)  (dobj, 煮#VV, 方便面#NN)   (case, 地区#NN, 在#P)  (assmod, 地区#NN, 福建#NR)  (case, 福建#NR, 的#DEG)  (nn, 地区#NN, 金门#NR)  (etc, 金门#NR, 等#ETC)  (prep, 流行#VV, 地区#NN)  (root, ROOT#null, 流行#VV)  (nummod, 种#M, 一#CD)  (clf, 方便面#NN, 种#M)  (nn, 方便面#NN, 炒#NN)  (dobj, 流行#VV, 方便面#NN)  (cc, 流行#VV, 就是#CC)  (ba, 下锅#VV, 将#BA)  (nsubj, 下锅#VV, 方便面#NN)  (advmod, 煮#VV, 先#AD)  (loc, 下锅#VV, 煮#VV)  (asp, 煮#VV, 过#AS)  (case, 煮#VV, 后#LC)  (advmod, 下锅#VV, 然后#AD)  (dep, 流行#VV, 下锅#VV)  (dobj, 下锅#VV, 炒#NN)  (nn, 肉丝#NN, 搭配#NR)  (conj, 肉丝#NN, 菜叶#NN)  (cc, 肉丝#NN, 或#CC)  (nsubj, 食用#VV, 肉丝#NN)  (advmod, 食用#VV, 一同#AD)  (conj, 下锅#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (advmod, 食用#VV, 虽然#CS)  (nsubj, 食用#VV, 方便面#NN)  (cop, 成#VV, 是#VC)  (nsubj, 成#VV, 设计#NN)  (loc, 食用#VV, 成#VV)  (dobj, 成#VV, 冲泡#NN)  (case, 成#VV, 后#LC)  (dep, 有#VE, 食用#VV)  (advmod, 有#VE, 但是#AD)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nn, 冲泡#NN, 人#NN)  (nn, 冲泡#NN, 不经#NN)  (nsubj, 吃#VV, 冲泡#NN)  (advmod, 吃#VV, 便#AD)  (advmod, 吃#VV, 直接#AD)  (dep, 有#VE, 吃#VV)  (case, 方便面#NN, 在#P)  (nn, 品牌#NN, 台湾#NR)  (det, 品牌#NN, 某些#DT)  (assmod, 方便面#NN, 品牌#NN)  (case, 品牌#NN, 的#DEG)  (prep, ``#VV, 方便面#NN)  (advmod, ``#VV, 例如#AD)  (dep, 有#VE, ``#VV)  (nn, ''#NN, 王子面#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 科学#NN)  (nn, ''#NN, 面#NN)  (dobj, ``#VV, ''#NN)  (etc, ''#NN, 等#ETC)  (cc, 有#VE, 又#CC)  (cc, 妈咪#VV, 或者#CC)  (nsubj, 出产#VV, 泰国#NR)  (relcl, ``#NN, 出产#VV)  (mark, 出产#VV, 的#DEC)  (nsubj, 妈咪#VV, ``#NN)  (dep, 有#VE, 妈咪#VV)  (nn, ''#NN, 面#NN)  (dobj, 妈咪#VV, ''#NN)  (nsubj, 压碎#NN, 人们#NN)  (advmod, 压碎#NN, 多半#AD)  (advmod, 压碎#NN, 便#AD)  (cop, 压碎#NN, 是#VC)  (amod, 压碎#NN, 直接#JJ)  (loc, 食用#VV, 压碎#NN)  (case, 压碎#NN, 后#LC)  (amod, 调味#NN, 混合#JJ)  (nsubj, 食用#VV, 调味#NN)  (advmod, 食用#VV, 粉#AD)  (conj, 妈咪#VV, 食用#VV)   (det, 吃法#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 发明#VV, 吃法#NN)  (mmod, 发明#VV, 可能#VV)  (cop, 发明#VV, 是#VC)  (advmod, 发明#VV, 小学生#AD)  (root, ROOT#null, 发明#VV)  (mark, 发明#VV, 的#DEC)   (case, 台湾#NR, 在#P)  (prep, 用#VV, 台湾#NR)  (nn, 摊贩#NN, 卤味#NN)  (nsubj, 用#VV, 摊贩#NN)  (advmod, 用#VV, 有时候#AD)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 方便面#NN)  (case, 之一#NN, 做为#P)  (nn, 之一#NN, 材料#NN)  (prep, 用#VV, 之一#NN)  (case, 香港#NR, 在#P)  (prep, 方便面#NN, 香港#NR)  (nn, 餐厅#NN, 茶#NN)  (nsubj, 吃到#VV, 餐厅#NN)  (dep, 吃到#VV, 可#VV)  (relcl, ''#NN, 吃到#VV)  (mark, 吃到#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 捞丁#NN)  (nsubj, 方便面#NN, ''#NN)  (cop, 方便面#NN, 是#VC)  (conj, 用#VV, 方便面#NN)  (case, 方式#NN, 以#P)  (nn, 方式#NN, 捞#NN)  (nn, 方式#NN, 面的#NN)  (prep, 食用#VV, 方式#NN)  (conj, 方便面#NN, 食用#VV)  (advmod, 有#VE, 亦#AD)  (dep, 用#VV, 有#VE)  (nn, 方便面#NN, 炒#NN)  (dobj, 有#VE, 方便面#NN)
+        </parsing>
+
+        <tag>
+            煮方式  流行  下锅炒  肉丝  菜叶  不经冲泡  混合调味  发明  卤味摊贩  面的方式  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/c3/03/963_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1047 方便面.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,426 @@
+<content>
+
+    <id>
+        209
+    </id>
+
+    <foodname>
+        山药
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        薯蓣、山芋、诸薯、延草、薯药、大薯、淮山、铁棍山药
+    </alias>
+
+    <season>
+        秋8-10月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            山药有收涩的作用，故大便燥结者不宜食用；另外有实邪者忌食山药。
+        </rawdata>
+
+        <segment>
+            山药  有  收  涩的  作用  ，  故  大便  燥结  者  不  宜  食用  ；  另外  有  实邪者  忌食  山药  。
+        </segment>
+
+        <pos>
+            山药#NN  有#VE  收#VV  涩的#NN  作用#NN  ，#PU  故#AD  大便#NN  燥结#NN  者#NN  不#AD  宜#NR  食用#VV  ；#PU  另外#AD  有#VE  实邪者#NN  忌食#NN  山药#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 有#VE, 山药#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 收#VV)  (nn, 作用#NN, 涩的#NN)  (dobj, 收#VV, 作用#NN)  (advmod, 食用#VV, 故#AD)  (nn, 者#NN, 大便#NN)  (nn, 者#NN, 燥结#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 有#VE, 食用#VV)  (advmod, 有#VE, 另外#AD)  (conj, 有#VE, 有#VE)  (nn, 山药#NN, 实邪者#NN)  (nn, 山药#NN, 忌食#NN)  (dobj, 有#VE, 山药#NN)
+        </parsing>
+
+        <tag>
+            收涩的作用  故大便燥结者不宜  另外  实邪者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜糖尿病患者、腹胀、病后虚弱者、慢性肾炎患者、长期腹泻者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  糖尿病  患者  、  腹胀  、  病  后  虚弱者  、  慢性  肾炎  患者  、  长期  腹泻者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  糖尿病#NN  患者#NN  、#PU  腹胀#NN  、#PU  病#NN  后#LC  虚弱者#NN  、#PU  慢性#NN  肾炎#NN  患者#NN  、#PU  长期#JJ  腹泻者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 患者#NN, 糖尿病#NN)  (conj, 腹泻者#NN, 患者#NN)  (conj, 腹泻者#NN, 腹胀#NN)  (dep, 虚弱者#NN, 病#NN)  (case, 病#NN, 后#LC)  (conj, 腹泻者#NN, 虚弱者#NN)  (nn, 患者#NN, 慢性#NN)  (nn, 患者#NN, 肾炎#NN)  (conj, 腹泻者#NN, 患者#NN)  (amod, 腹泻者#NN, 长期#JJ)  (dobj, 适宜#VV, 腹泻者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  糖尿病  患者  腹胀  病后虚弱者  慢性肾炎  患者  长期腹泻者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                12.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                213
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                18.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            薯蓣，通称山药。多年生草本植物，茎蔓生，常带紫色，块根圆柱形，叶子对生，卵形或椭圆形，花乳白色，雌雄异株。
+            原产山西平遥、介休，现分布于我国华北、西北及长江流域的江西各省区。栽种者称家山药，野生者称野山药；中药材称淮山，淮山药、怀山药等。因其营养丰富，自古以来就被视为物美价廉的补虚佳品，既可作主粮，又可作蔬菜，还可以制成糖葫芦之类的小吃。我国主产于河南省北部，河北、山西、山东及中南、西南等地区也有栽培。冬季茎叶枯萎后采挖，切去根头，洗净，干燥。中国栽培的山药主要有普通的山药和田薯两大类。普通的山药块茎较小，其中尤以古怀庆府（今河南焦作境内，含博爱、沁阳、武陟、温县等县）所产山药名贵，习称“怀山药”，素有“怀参”之称，为全国之冠。现国内有两个地方的山药已申请了国家地理标志保护产品，一种是“铁棍山药”其产自河南焦作；另一种是“陈集山药”其产自山东省菏泽市陈集镇，包括“鸡皮糙山药”和“西施种子山药”。
+            山药除含蛋白质、碳水化合物、钙、磷、铁、胡萝卜素及维生素等多种营养成分外，尚含淀粉酶、胆碱、粘液汁酶及薯蓣皂苷等。其中的淀粉酶又叫消化素，能分解淀粉等物质，若与碱性物质相混合，则淀粉酶作用消失。补而不腻，香而不燥。历代医家盛赞山药为“理虚之要药”。
+        </rawdata>
+
+        <segment>
+            薯蓣  ，  通称  山药  。  多年生  草本  植物  ，  茎  蔓生  ，  常  带  紫色  ，  块根  圆柱形  ，  叶子  对生  ，  卵形  或  椭圆形  ，  花  乳白色  ，  雌雄异株  。
+            原  产  山西  平遥  、  介休  ，  现  分布  于  我国  华北  、  西北  及  长江  流域  的  江西  各  省区  。  栽种  者  称  家  山药  ，  野生  者  称  野  山药  ；  中药材  称  淮山  ，  淮  山药  、  怀  山药  等  。  因  其  营养  丰富  ，  自古以来  就  被  视为  物美价廉  的  补虚  佳品  ，  既可  作  主粮  ，  又可作  蔬菜  ，  还  可以  制成  糖葫芦  之类  的  小吃  。  我  国  主产  于  河南省  北部  ，  河北  、  山西  、  山东  及  中南  、  西南  等  地区  也  有  栽培  。  冬季  茎叶  枯萎  后  采挖  ，  切去  根头  ，  洗净  ，  干燥  。  中国  栽培  的  山药  主要  有  普通  的  山药  和  田薯  两  大  类  。  普通  的  山药  块茎  较  小  ，  其中  尤  以  古  怀  庆  府  （  今  河南  焦作  境内  ，  含  博爱  、  沁阳  、  武陟  、  温县  等  县  ）  所  产  山药  名贵  ，  习  称  “  怀  山药  ”  ，  素  有  “  怀参  ”  之  称  ，  为  全国  之  冠  。  现  国内  有  两  个  地方  的  山药  已  申请  了  国家  地理  标志  保护  产品  ，  一  种  是  “  铁棍  山药  ”  其  产自  河南  焦作  ；  另  一  种  是  “  陈集  山药  ”  其  产自  山东省  菏泽市  陈  集镇  ，  包括  “  鸡皮  糙  山药  ”  和  “  西施  种子  山药  ”  。
+            山药  除  含  蛋白质  、  碳水化合物  、  钙  、  磷  、  铁  、  胡萝卜素  及  维生素  等  多  种  营养  成  分外  ，  尚  含  淀粉酶  、  胆碱  、  粘液  汁酶  及  薯蓣  皂苷  等  。  其中  的  淀粉酶  又  叫  消化素  ，  能  分解  淀粉  等  物质  ，  若  与  碱性  物质  相混合  ，  则  淀粉酶  作用  消失  。  补  而  不  腻  ，  香而不燥  。  历代  医家  盛赞  山药  为  “  理虚  之  要  药  ”  。
+        </segment>
+
+        <pos>
+            薯蓣#VV  ，#PU  通称#VV  山药#NN    。#PU  多年生#NN  草本#NN  植物#NN  ，#PU  茎#NN  蔓生#NN  ，#PU  常#AD  带#VV  紫色#NN  ，#PU  块根#VV  圆柱形#NN  ，#PU  叶子#VV  对生#NN  ，#PU  卵形#NN  或#CC  椭圆形#NN  ，#PU  花#NN  乳白色#NN  ，#PU  雌雄异株#VV    。#PU    。#PU
+            原#AD  产#VV  山西#NR  平遥#NN  、#PU  介休#NN  ，#PU  现#AD  分布#VV  于#P  我国#NR  华北#NR  、#PU  西北#NN  及#CC  长江#NR  流域#NN  的#DEG  江西#NR  各#DT  省区#NN    。#PU  栽种#NN  者#NN  称#VV  家#JJ  山药#NN  ，#PU  野生#JJ  者#NN  称#VV  野#JJ  山药#NN  ；#PU  中药材#AD  称#VV  淮山#NN  ，#PU  淮#VV  山药#NN  、#PU  怀#NN  山药#NN  等#ETC    。#PU  因#P  其#PN  营养#VA  丰富#VA  ，#PU  自古以来#AD  就#AD  被#SB  视为#VV  物美价廉#VV  的#DEC  补虚#NN  佳品#NN  ，#PU  既可#AD  作#VV  主粮#NN  ，#PU  又可作#VV  蔬菜#NN  ，#PU  还#AD  可以#VV  制成#VV  糖葫芦#NN  之类#NN  的#DEG  小吃#NN    。#PU  我#PN  国#NN  主产#VV  于#P  河南省#NR  北部#NN  ，#PU  河北#NR  、#PU  山西#NR  、#PU  山东#NR  及#CC  中南#NN  、#PU  西南#NN  等#ETC  地区#NN  也#AD  有#VE  栽培#VV    。#PU  冬季#NT  茎叶#NN  枯萎#NN  后#LC  采挖#VV  ，#PU  切去#VV  根头#NN  ，#PU  洗净#VV  ，#PU  干燥#VV    。#PU  中国#NR  栽培#VV  的#DEC  山药#NN  主要#AD  有#VE  普通#JJ  的#DEG  山药#NN  和#CC  田薯#NN  两#CD  大#JJ  类#M    。#PU  普通#JJ  的#DEG  山药#NN  块茎#NN  较#AD  小#VA  ，#PU  其中#NN  尤#NN  以#P  古#JJ  怀#NN  庆#NN  府#NN  （#PU  今#NT  河南#NR  焦作#VV  境内#NN  ，#PU  含#VV  博爱#NR  、#PU  沁阳#NR  、#PU  武陟#NR  、#PU  温县#NR  等#ETC  县#NN  ）#PU  所#MSP  产#VV  山药#VV  名贵#JJ  ，#PU  习#NR  称#VV  ``#VV  怀#NN  山药#NN  ''#NN  ，#PU  素#AD  有#VE  ``#NN  怀参#NN  ''#NN  之#DEG  称#NN  ，#PU  为#VC  全国#NR  之#DEG  冠#NN    。#PU  现#AD  国内#NN  有#VE  两#CD  个#M  地方#NN  的#DEC  山药#NN  已#AD  申请#VV  了#AS  国家#NN  地理#NN  标志#NN  保护#NN  产品#NN  ，#PU  一#CD  种#M  是#VC  ``#NN  铁棍#NN  山药#NN  ''#NN  其#PN  产自#VV  河南#NR  焦作#NN  ；#PU  另#AD  一#CD  种#M  是#VC  ``#NN  陈集#NN  山药#NN  ''#NN  其#PN  产自#VV  山东省#NR  菏泽市#NR  陈#NR  集镇#NN  ，#PU  包括#VV  ``#NN  鸡皮#NN  糙#NN  山药#NN  ''#NN  和#CC  ``#NN  西施#NN  种子#NN  山药#NN  ''#NN    。#PU    。#PU
+            山药#NN  除#P  含#VV  蛋白质#NN  、#PU  碳水化合物#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  胡萝卜素#NN  及#CC  维生素#NN  等#ETC  多#CD  种#M  营养#VA  成#VV  分外#NN  ，#PU  尚#AD  含#VV  淀粉酶#NR  、#PU  胆碱#NR  、#PU  粘液#NR  汁酶#NR  及#CC  薯蓣#NR  皂苷#NN  等#ETC    。#PU  其中#NN  的#DEG  淀粉酶#NN  又#AD  叫#VV  消化素#NN  ，#PU  能#VV  分解#VV  淀粉#NN  等#ETC  物质#NN  ，#PU  若#CS  与#P  碱性#NN  物质#NN  相混合#VV  ，#PU  则#AD  淀粉酶#VV  作用#NN  消失#NN    。#PU  补#NN  而#AD  不#AD  腻#VV  ，#PU  香而不燥#VV    。#PU  历代#NN  医家#NN  盛赞#NN  山药#NN  为#VC  ``#NN  理虚#NN  之#DEG  要#JJ  药#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 薯蓣#VV)  (ccomp, 薯蓣#VV, 通称#VV)  (dobj, 通称#VV, 山药#NN)   (nn, 植物#NN, 多年生#NN)  (nn, 植物#NN, 草本#NN)  (nsubj, 带#VV, 植物#NN)  (nn, 蔓生#NN, 茎#NN)  (nsubj, 带#VV, 蔓生#NN)  (advmod, 带#VV, 常#AD)  (root, ROOT#null, 带#VV)  (dobj, 带#VV, 紫色#NN)  (conj, 带#VV, 块根#VV)  (dobj, 块根#VV, 圆柱形#NN)  (conj, 带#VV, 叶子#VV)  (dobj, 叶子#VV, 对生#NN)  (conj, 椭圆形#NN, 卵形#NN)  (cc, 椭圆形#NN, 或#CC)  (nsubj, 雌雄异株#VV, 椭圆形#NN)  (nn, 乳白色#NN, 花#NN)  (nsubj, 雌雄异株#VV, 乳白色#NN)  (conj, 带#VV, 雌雄异株#VV)   (root, ROOT#null, null#null)
+            (advmod, 产#VV, 原#AD)  (root, ROOT#null, 产#VV)  (nn, 介休#NN, 山西#NR)  (conj, 介休#NN, 平遥#NN)  (dobj, 产#VV, 介休#NN)  (advmod, 分布#VV, 现#AD)  (dep, 产#VV, 分布#VV)  (case, 省区#NN, 于#P)  (nn, 西北#NN, 我国#NR)  (conj, 西北#NN, 华北#NR)  (conj, 省区#NN, 西北#NN)  (cc, 省区#NN, 及#CC)  (nn, 流域#NN, 长江#NR)  (assmod, 省区#NN, 流域#NN)  (case, 流域#NN, 的#DEG)  (nn, 省区#NN, 江西#NR)  (det, 省区#NN, 各#DT)  (prep, 分布#VV, 省区#NN)   (nn, 者#NN, 栽种#NN)  (nsubj, 称#VV, 者#NN)  (root, ROOT#null, 称#VV)  (amod, 山药#NN, 家#JJ)  (dep, 者#NN, 山药#NN)  (amod, 者#NN, 野生#JJ)  (dobj, 称#VV, 者#NN)  (dep, 称#VV, 称#VV)  (amod, 山药#NN, 野#JJ)  (dobj, 称#VV, 山药#NN)  (advmod, 称#VV, 中药材#AD)  (conj, 称#VV, 称#VV)  (dobj, 称#VV, 淮山#NN)  (conj, 称#VV, 淮#VV)  (conj, 山药#NN, 山药#NN)  (nn, 山药#NN, 怀#NN)  (dobj, 淮#VV, 山药#NN)  (etc, 山药#NN, 等#ETC)   (case, 营养#VA, 因#P)  (nsubj, 营养#VA, 其#PN)  (prep, 视为#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 视为#VV, 自古以来#AD)  (advmod, 视为#VV, 就#AD)  (auxpass, 视为#VV, 被#SB)  (root, ROOT#null, 视为#VV)  (relcl, 佳品#NN, 物美价廉#VV)  (mark, 物美价廉#VV, 的#DEC)  (nn, 佳品#NN, 补虚#NN)  (dobj, 视为#VV, 佳品#NN)  (advmod, 作#VV, 既可#AD)  (conj, 视为#VV, 作#VV)  (dobj, 作#VV, 主粮#NN)  (dep, 视为#VV, 又可作#VV)  (dobj, 又可作#VV, 蔬菜#NN)  (advmod, 制成#VV, 还#AD)  (mmod, 制成#VV, 可以#VV)  (conj, 视为#VV, 制成#VV)  (nn, 之类#NN, 糖葫芦#NN)  (assmod, 小吃#NN, 之类#NN)  (case, 之类#NN, 的#DEG)  (dobj, 制成#VV, 小吃#NN)   (nn, 国#NN, 我#PN)  (nsubj, 主产#VV, 国#NN)  (root, ROOT#null, 主产#VV)  (case, 北部#NN, 于#P)  (nn, 北部#NN, 河南省#NR)  (prep, 有#VE, 北部#NN)  (conj, 山东#NR, 河北#NR)  (conj, 山东#NR, 山西#NR)  (conj, 地区#NN, 山东#NR)  (cc, 地区#NN, 及#CC)  (conj, 西南#NN, 中南#NN)  (nn, 地区#NN, 西南#NN)  (etc, 西南#NN, 等#ETC)  (nsubj, 有#VE, 地区#NN)  (advmod, 有#VE, 也#AD)  (ccomp, 主产#VV, 有#VE)  (dep, 有#VE, 栽培#VV)   (tmod, 采挖#VV, 冬季#NT)  (nn, 枯萎#NN, 茎叶#NN)  (loc, 采挖#VV, 枯萎#NN)  (case, 枯萎#NN, 后#LC)  (root, ROOT#null, 采挖#VV)  (dep, 采挖#VV, 切去#VV)  (dobj, 切去#VV, 根头#NN)  (conj, 采挖#VV, 洗净#VV)  (conj, 采挖#VV, 干燥#VV)   (nsubj, 栽培#VV, 中国#NR)  (relcl, 山药#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nsubj, 有#VE, 山药#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (assmod, 田薯#NN, 普通#JJ)  (case, 普通#JJ, 的#DEG)  (conj, 田薯#NN, 山药#NN)  (cc, 田薯#NN, 和#CC)  (dobj, 有#VE, 田薯#NN)  (nummod, 类#M, 两#CD)  (amod, 类#M, 大#JJ)  (range, 有#VE, 类#M)   (assmod, 块茎#NN, 普通#JJ)  (case, 普通#JJ, 的#DEG)  (nn, 块茎#NN, 山药#NN)  (nsubj, 小#VA, 块茎#NN)  (advmod, 小#VA, 较#AD)  (root, ROOT#null, 小#VA)  (nn, 尤#NN, 其中#NN)  (nsubj, 名贵#JJ, 尤#NN)  (case, 府#NN, 以#P)  (amod, 庆#NN, 古#JJ)  (nn, 庆#NN, 怀#NN)  (nn, 府#NN, 庆#NN)  (prep, 名贵#JJ, 府#NN)  (dep, 焦作#VV, 今#NT)  (dep, 焦作#VV, 河南#NR)  (prnmod, 府#NN, 焦作#VV)  (dobj, 焦作#VV, 境内#NN)  (conj, 焦作#VV, 含#VV)  (conj, 温县#NR, 博爱#NR)  (conj, 温县#NR, 沁阳#NR)  (conj, 温县#NR, 武陟#NR)  (nn, 县#NN, 温县#NR)  (etc, 温县#NR, 等#ETC)  (dobj, 含#VV, 县#NN)  (prtmod, 名贵#JJ, 所#MSP)  (mmod, 名贵#JJ, 产#VV)  (mmod, 名贵#JJ, 山药#VV)  (conj, 小#VA, 名贵#JJ)  (nsubj, 称#VV, 习#NR)  (xsubj, ``#VV, 习#NR)  (conj, 小#VA, 称#VV)  (ccomp, 称#VV, ``#VV)  (nn, ''#NN, 怀#NN)  (nn, ''#NN, 山药#NN)  (dobj, ``#VV, ''#NN)  (advmod, 有#VE, 素#AD)  (conj, ``#VV, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 怀参#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)  (cop, 冠#NN, 为#VC)  (assmod, 冠#NN, 全国#NR)  (case, 全国#NR, 之#DEG)  (conj, ``#VV, 冠#NN)   (advmod, 申请#VV, 现#AD)  (dep, 有#VE, 国内#NN)  (relcl, 山药#NN, 有#VE)  (nummod, 个#M, 两#CD)  (clf, 地方#NN, 个#M)  (dobj, 有#VE, 地方#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 申请#VV, 山药#NN)  (advmod, 申请#VV, 已#AD)  (root, ROOT#null, 申请#VV)  (asp, 申请#VV, 了#AS)  (nn, 产品#NN, 国家#NN)  (nn, 产品#NN, 地理#NN)  (nn, 产品#NN, 标志#NN)  (nn, 产品#NN, 保护#NN)  (dobj, 申请#VV, 产品#NN)  (nummod, 种#M, 一#CD)  (dep, ''#NN, 种#M)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 铁棍#NN)  (nn, ''#NN, 山药#NN)  (conj, 申请#VV, ''#NN)  (nsubj, 产自#VV, 其#PN)  (conj, 申请#VV, 产自#VV)  (nn, 焦作#NN, 河南#NR)  (dobj, 产自#VV, 焦作#NN)  (advmod, 种#M, 另#AD)  (nummod, 种#M, 一#CD)  (dep, ''#NN, 种#M)  (cop, ''#NN, 是#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 陈集#NN)  (nn, ''#NN, 山药#NN)  (conj, 产自#VV, ''#NN)  (nsubj, 产自#VV, 其#PN)  (dep, 申请#VV, 产自#VV)  (nn, 陈#NR, 山东省#NR)  (nn, 陈#NR, 菏泽市#NR)  (nn, 集镇#NN, 陈#NR)  (dobj, 产自#VV, 集镇#NN)  (conj, 产自#VV, 包括#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 鸡皮#NN)  (nn, ''#NN, 糙#NN)  (nn, ''#NN, 山药#NN)  (conj, ''#NN, ''#NN)  (cc, ''#NN, 和#CC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 西施#NN)  (nn, ''#NN, 种子#NN)  (nn, ''#NN, 山药#NN)  (dobj, 包括#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含#VV, 山药#NN)  (case, 分外#NN, 除#P)  (nfincl, 分外#NN, 含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 碳水化合物#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (conj, 维生素#NN, 胡萝卜素#NN)  (cc, 维生素#NN, 及#CC)  (dobj, 含#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (range, 含#VV, 种#M)  (conj, 含#VV, 营养#VA)  (dep, 含#VV, 成#VV)  (prep, 含#VV, 分外#NN)  (advmod, 含#VV, 尚#AD)  (root, ROOT#null, 含#VV)  (conj, 薯蓣#NR, 淀粉酶#NR)  (conj, 薯蓣#NR, 胆碱#NR)  (nn, 薯蓣#NR, 粘液#NR)  (conj, 薯蓣#NR, 汁酶#NR)  (cc, 薯蓣#NR, 及#CC)  (nn, 皂苷#NN, 薯蓣#NR)  (dobj, 含#VV, 皂苷#NN)  (etc, 皂苷#NN, 等#ETC)   (assmod, 淀粉酶#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nsubj, 叫#VV, 淀粉酶#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (dobj, 叫#VV, 消化素#NN)  (mmod, 分解#VV, 能#VV)  (conj, 叫#VV, 分解#VV)  (nn, 物质#NN, 淀粉#NN)  (etc, 淀粉#NN, 等#ETC)  (dobj, 分解#VV, 物质#NN)  (advmod, 相混合#VV, 若#CS)  (case, 物质#NN, 与#P)  (nn, 物质#NN, 碱性#NN)  (prep, 相混合#VV, 物质#NN)  (dep, 淀粉酶#VV, 相混合#VV)  (advmod, 淀粉酶#VV, 则#AD)  (conj, 分解#VV, 淀粉酶#VV)  (nn, 消失#NN, 作用#NN)  (dobj, 淀粉酶#VV, 消失#NN)   (nsubj, 腻#VV, 补#NN)  (advmod, 腻#VV, 而#AD)  (neg, 腻#VV, 不#AD)  (root, ROOT#null, 腻#VV)  (ccomp, 腻#VV, 香而不燥#VV)   (nn, 山药#NN, 历代#NN)  (nn, 山药#NN, 医家#NN)  (nn, 山药#NN, 盛赞#NN)  (nsubj, ''#NN, 山药#NN)  (cop, ''#NN, 为#VC)  (nn, 理虚#NN, ``#NN)  (assmod, ''#NN, 理虚#NN)  (case, 理虚#NN, 之#DEG)  (amod, 药#NN, 要#JJ)  (nn, ''#NN, 药#NN)  (root, ROOT#null, ''#NN)
+        </parsing>
+
+        <tag>
+            薯蓣  多年生植物  草本植物  块根圆柱形  叶子对生  椭圆形  卵形  介休  平遥  省区  西北  野生者  营养丰富  物美价廉佳品  补虚佳品  视为佳品  又可作蔬菜  糖葫芦之类  制成小吃  主产  山东  河北  山西  中南  西南地区  茎叶枯萎  采挖  切去根头  古庆  焦作境内  温县  博爱  沁阳  武陟  国家产品  地理产品  标志产品  保护产品  申请产品  产自焦作  产自集镇  维生素  蛋白质  碳水化合物  胡萝卜素  胆碱  汁酶  淀粉酶消失  要药  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            山药，味甘，性平；归肺、脾、肾经。补脾；养肺；固肾；益精。主脾虚泄泻；食少浮肿；肺虚咳喘；消渴；遗精；带下；肾虚尿频；外用治痈肿；瘰疬。
+            1.健脾益胃助消化
+            有利于脾胃消化吸收功能，是一味平补脾胃的药食两用之品。不论脾阳亏或胃阴虚，皆可食用。临床上常与胃肠饮同用治脾胃虚弱，食少体倦，泄泻等病症。
+            2.滋肾益精
+            强健机体，滋肾益精的作用。大凡肾亏遗精、妇女白带多、小便频数等症，皆可服之。
+            3.降低血糖
+            有降低血糖的作用。可用于治疗糖尿病，是糖尿病人的食疗佳品。
+            4.延年益寿
+            有效阻止血脂在血管壁的沉淀，预防心血疾病。取得益志安神，延年益寿的功效。
+        </rawdata>
+
+        <segment>
+            山药  ，  味甘  ，  性平  ；  归  肺  、  脾  、  肾  经  。  补脾  ；  养肺  ；  固肾  ；  益精  。  主  脾虚  泄泻  ；  食少  浮肿  ；  肺  虚  咳喘  ；  消渴  ；  遗精  ；  带下  ；  肾虚  尿频  ；  外用  治痈肿  ；  瘰疬  。
+            健脾  益胃  助  消化
+            有利于  脾胃  消化  吸收  功能  ，  是  一  味  平补  脾胃  的  药  食  两  用  之  品  。  不论  脾阳  亏  或  胃  阴虚  ，  皆  可  食用  。  临床  上  常与  胃肠  饮  同用  治  脾胃  虚弱  ，  食  少  体倦  ，  泄泻  等  病症  。
+            滋肾  益精
+            强健  机体  ，  滋肾  益精  的  作用  。  大凡  肾亏  遗精  、  妇女  白带  多  、  小便  频数  等症  ，  皆  可  服  之  。
+            降低  血糖
+            有  降低  血糖  的  作用  。  可  用于  治疗  糖尿病  ，  是  糖尿病人  的  食疗  佳品  。
+            延年益寿
+            有效  阻止  血脂  在  血管  壁  的  沉淀  ，  预防  心血  疾病  。  取得  益志  安神  ，  延年益寿  的  功效  。
+        </segment>
+
+        <pos>
+            山药#NN  ，#PU  味甘#NN  ，#PU  性平#NN  ；#PU  归#VV  肺#NN  、#PU  脾#NN  、#PU  肾#NN  经#VV    。#PU  补脾#VV  ；#PU  养肺#VV  ；#PU  固肾#VV  ；#PU  益精#VV    。#PU  主#JJ  脾虚#NN  泄泻#VV  ；#PU  食少#VV  浮肿#NN  ；#PU  肺#NN  虚#AD  咳喘#VV  ；#PU  消渴#VV  ；#PU  遗精#VV  ；#PU  带下#VV  ；#PU  肾虚#VV  尿频#NN  ；#PU  外用#VV  治痈肿#NN  ；#PU  瘰疬#VV    。#PU    。#PU
+            健脾#NN  益胃#VV  助#NN  消化#NN
+            有利于#VV  脾胃#VV  消化#NN  吸收#NN  功能#NN  ，#PU  是#VC  一#CD  味#NN  平补#VV  脾胃#NN  的#DEG  药#NN  食#NN  两#CD  用#NN  之#DEC  品#M    。#PU  不论#AD  脾阳#NN  亏#NN  或#CC  胃#NN  阴虚#VV  ，#PU  皆#AD  可#VV  食用#VV    。#PU  临床#NN  上#LC  常与#NN  胃肠#NN  饮#NN  同用#AD  治#VV  脾胃#NN  虚弱#NN  ，#PU  食#NN  少#VV  体倦#NN  ，#PU  泄泻#NN  等#ETC  病症#VV    。#PU    。#PU
+            滋肾#NN  益精#VV
+            强健#NN  机体#VV  ，#PU  滋肾#VV  益精#NN  的#DEG  作用#NN    。#PU  大凡#NR  肾亏#NN  遗精#NN  、#PU  妇女#NN  白带#AD  多#VA  、#PU  小便#VV  频数#NN  等症#NN  ，#PU  皆#AD  可#VV  服#VV  之#PN    。#PU    。#PU
+            降低#VV  血糖#NN
+            有#VE  降低#VV  血糖#NN  的#DEC  作用#NN    。#PU  可#VV  用于#VV  治疗#VV  糖尿病#NN  ，#PU  是#VC  糖尿病人#NN  的#DEC  食疗#NN  佳品#NN    。#PU    。#PU
+            延年益寿#VV
+            有效#AD  阻止#VV  血脂#NR  在#P  血管#NN  壁#NN  的#DEG  沉淀#NN  ，#PU  预防#VV  心血#NN  疾病#NN    。#PU  取得#VV  益志#NN  安神#NN  ，#PU  延年益寿#NN  的#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 归#VV, 山药#NN)  (nsubj, 归#VV, 味甘#NN)  (nsubj, 归#VV, 性平#NN)  (root, ROOT#null, 归#VV)  (conj, 肾#NN, 肺#NN)  (conj, 肾#NN, 脾#NN)  (dobj, 归#VV, 肾#NN)  (conj, 归#VV, 经#VV)   (root, ROOT#null, 补脾#VV)  (ccomp, 补脾#VV, 养肺#VV)  (dep, 养肺#VV, 固肾#VV)  (dep, 养肺#VV, 益精#VV)   (amod, 脾虚#NN, 主#JJ)  (nsubj, 泄泻#VV, 脾虚#NN)  (root, ROOT#null, 泄泻#VV)  (ccomp, 泄泻#VV, 食少#VV)  (dobj, 食少#VV, 浮肿#NN)  (nsubj, 咳喘#VV, 肺#NN)  (advmod, 咳喘#VV, 虚#AD)  (dep, 食少#VV, 咳喘#VV)  (conj, 食少#VV, 消渴#VV)  (conj, 食少#VV, 遗精#VV)  (conj, 食少#VV, 带下#VV)  (conj, 食少#VV, 肾虚#VV)  (dobj, 肾虚#VV, 尿频#NN)  (conj, 食少#VV, 外用#VV)  (dobj, 外用#VV, 治痈肿#NN)  (conj, 食少#VV, 瘰疬#VV)   (root, ROOT#null, null#null)
+            (nsubj, 益胃#VV, 健脾#NN)  (root, ROOT#null, 益胃#VV)  (nn, 消化#NN, 助#NN)  (dobj, 益胃#VV, 消化#NN)
+            (root, ROOT#null, 有利于#VV)  (ccomp, 有利于#VV, 脾胃#VV)  (nn, 吸收#NN, 消化#NN)  (nn, 功能#NN, 吸收#NN)  (dobj, 脾胃#VV, 功能#NN)  (cop, 平补#VV, 是#VC)  (nummod, 味#NN, 一#CD)  (nsubj, 平补#VV, 味#NN)  (dep, 有利于#VV, 平补#VV)  (assmod, 食#NN, 脾胃#NN)  (case, 脾胃#NN, 的#DEG)  (nn, 食#NN, 药#NN)  (nn, 用#NN, 食#NN)  (nummod, 用#NN, 两#CD)  (dobj, 平补#VV, 用#NN)  (mark, 平补#VV, 之#DEC)  (dep, 平补#VV, 品#M)   (advmod, 胃#NN, 不论#AD)  (nn, 胃#NN, 脾阳#NN)  (conj, 胃#NN, 亏#NN)  (cc, 胃#NN, 或#CC)  (nsubj, 阴虚#VV, 胃#NN)  (xsubj, 食用#VV, 胃#NN)  (root, ROOT#null, 阴虚#VV)  (advmod, 食用#VV, 皆#AD)  (dep, 食用#VV, 可#VV)  (ccomp, 阴虚#VV, 食用#VV)   (loc, 治#VV, 临床#NN)  (case, 临床#NN, 上#LC)  (nn, 饮#NN, 常与#NN)  (nn, 饮#NN, 胃肠#NN)  (nsubj, 治#VV, 饮#NN)  (advmod, 治#VV, 同用#AD)  (root, ROOT#null, 治#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 治#VV, 虚弱#NN)  (nsubj, 少#VV, 食#NN)  (conj, 治#VV, 少#VV)  (dobj, 少#VV, 体倦#NN)  (nsubj, 病症#VV, 泄泻#NN)  (etc, 泄泻#NN, 等#ETC)  (conj, 治#VV, 病症#VV)   (root, ROOT#null, null#null)
+            (nsubj, 益精#VV, 滋肾#NN)  (root, ROOT#null, 益精#VV)
+            (nsubj, 机体#VV, 强健#NN)  (root, ROOT#null, 机体#VV)  (ccomp, 机体#VV, 滋肾#VV)  (assmod, 作用#NN, 益精#NN)  (case, 益精#NN, 的#DEG)  (dobj, 滋肾#VV, 作用#NN)   (nn, 妇女#NN, 大凡#NR)  (nn, 妇女#NN, 肾亏#NN)  (conj, 妇女#NN, 遗精#NN)  (nsubj, 多#VA, 妇女#NN)  (advmod, 多#VA, 白带#AD)  (root, ROOT#null, 多#VA)  (dep, 多#VA, 小便#VV)  (nn, 等症#NN, 频数#NN)  (dobj, 小便#VV, 等症#NN)  (advmod, 服#VV, 皆#AD)  (mmod, 服#VV, 可#VV)  (conj, 多#VA, 服#VV)  (dobj, 服#VV, 之#PN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血糖#NN)
+            (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (relcl, 佳品#NN, 治疗#VV)  (dobj, 治疗#VV, 糖尿病#NN)  (cop, 糖尿病人#NN, 是#VC)  (conj, 治疗#VV, 糖尿病人#NN)  (mark, 治疗#VV, 的#DEC)  (nn, 佳品#NN, 食疗#NN)  (dobj, 用于#VV, 佳品#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 延年益寿#VV)
+            (advmod, 阻止#VV, 有效#AD)  (root, ROOT#null, 阻止#VV)  (nn, 沉淀#NN, 血脂#NR)  (case, 壁#NN, 在#P)  (nn, 壁#NN, 血管#NN)  (assmod, 沉淀#NN, 壁#NN)  (case, 壁#NN, 的#DEG)  (dobj, 阻止#VV, 沉淀#NN)  (dep, 阻止#VV, 预防#VV)  (nn, 疾病#NN, 心血#NN)  (dobj, 预防#VV, 疾病#NN)   (root, ROOT#null, 取得#VV)  (nn, 安神#NN, 益志#NN)  (dobj, 取得#VV, 安神#NN)  (assmod, 功效#NN, 延年益寿#NN)  (case, 延年益寿#NN, 的#DEG)  (conj, 取得#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            补脾  主脾虚  泄泻  食少浮肿  肾虚尿频  外用治痈肿  益胃消化  消化吸收  吸收功能  脾胃功能  平补用  阴虚  脾胃虚弱  益精  机体  肾亏妇女  遗精  频数等症  小便等症  降低血糖  治疗佳品  治疗糖尿病  食疗佳品  用于佳品  阻止沉淀  心血疾病  预防疾病  益志安神  取得安神  延年益寿  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血脂  降血糖  助消化  固精  补肺  健脾  补肾  提高免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.山药所含的热量和碳水化合物只有同一质量红薯的一半左右，不含脂肪，蛋白质含量较红薯高。
+            2.山药的主要成分是淀粉，其中的一部分可以转化为淀粉的分解产物糊精，糊精可以帮助消化，所以山药是可以生吃的芋类食品。
+            3.山药含有多种微量元素，其中钾的含量较高，所含维生素的种类和数量较少，几乎不含胡萝卜素。
+            4.山药的叶是胡萝卜素的极好来源，也是钙、铁、维生素C的良好来源。
+        </rawdata>
+
+        <segment>
+            山药  所  含  的  热量  和  碳水化合物  只有  同一  质量  红薯  的  一半  左右  ，  不  含  脂肪  ，  蛋白质  含量  较  红薯  高  。
+            山药  的  主要  成分  是  淀粉  ，  其中  的  一  部分  可以  转化  为  淀粉  的  分解  产物  糊精  ，  糊精  可以  帮助  消化  ，  所以  山药  是  可以  生吃  的  芋类  食品  。
+            山药  含有  多  种  微量  元素  ，  其中  钾  的  含量  较  高  ，  所含  维生素  的  种类  和  数量  较  少  ，  几乎  不  含  胡萝卜素  。
+            山药  的  叶  是  胡萝卜素  的  极好  来源  ，  也  是  钙  、  铁  、  维生素C  的  良好  来源  。
+        </segment>
+
+        <pos>
+            山药#AD  所#MSP  含#VV  的#DEC  热量#NN  和#CC  碳水化合物#NN  只有#AD  同一#CD  质量#NN  红薯#NN  的#DEG  一半#CD  左右#LC  ，#PU  不#AD  含#VV  脂肪#NN  ，#PU  蛋白质#NN  含量#NN  较#AD  红薯#AD  高#VA  。#PU
+            山药#NN  的#DEG  主要#JJ  成分#NN  是#VC  淀粉#NN  ，#PU  其中#NN  的#DEG  一#CD  部分#NN  可以#VV  转化#VV  为#P  淀粉#NN  的#DEG  分解#VV  产物#NN  糊精#NN  ，#PU  糊精#NN  可以#VV  帮助#VV  消化#NN  ，#PU  所以#AD  山药#NN  是#VC  可以#VV  生吃#NN  的#DEC  芋类#JJ  食品#NN  。#PU
+            山药#NN  含有#VV  多#CD  种#M  微量#NN  元素#NN  ，#PU  其中#NN  钾#NN  的#DEG  含量#NN  较#AD  高#VA  ，#PU  所含#NN  维生素#NN  的#DEG  种类#NN  和#CC  数量#NN  较#AD  少#VA  ，#PU  几乎#AD  不#AD  含#VV  胡萝卜素#NN  。#PU
+            山药#NN  的#DEG  叶#NN  是#VC  胡萝卜素#NN  的#DEG  极好#JJ  来源#NN  ，#PU  也#AD  是#VC  钙#NN  、#PU  铁#NN  、#PU  维生素C#NN  的#DEG  良好#JJ  来源#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 山药#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 碳水化合物#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 碳水化合物#NN, 热量#NN)  (cc, 碳水化合物#NN, 和#CC)  (nsubj, 含#VV, 碳水化合物#NN)  (advmod, 一半#CD, 只有#AD)  (nummod, 红薯#NN, 同一#CD)  (nn, 红薯#NN, 质量#NN)  (assmod, 一半#CD, 红薯#NN)  (case, 红薯#NN, 的#DEG)  (loc, 含#VV, 一半#CD)  (case, 一半#CD, 左右#LC)  (neg, 含#VV, 不#AD)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 脂肪#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (advmod, 高#VA, 红薯#AD)  (conj, 含#VV, 高#VA)
+            (assmod, 成分#NN, 山药#NN)  (case, 山药#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 淀粉#NN, 成分#NN)  (cop, 淀粉#NN, 是#VC)  (root, ROOT#null, 淀粉#NN)  (assmod, 部分#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nummod, 部分#NN, 一#CD)  (nsubj, 转化#VV, 部分#NN)  (mmod, 转化#VV, 可以#VV)  (conj, 淀粉#NN, 转化#VV)  (case, 淀粉#NN, 为#P)  (assmod, 糊精#NN, 淀粉#NN)  (case, 淀粉#NN, 的#DEG)  (nfincl, 糊精#NN, 分解#VV)  (dobj, 分解#VV, 产物#NN)  (dobj, 转化#VV, 糊精#NN)  (nsubj, 帮助#VV, 糊精#NN)  (mmod, 帮助#VV, 可以#VV)  (conj, 淀粉#NN, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (advmod, 食品#NN, 所以#AD)  (nsubj, 食品#NN, 山药#NN)  (cop, 食品#NN, 是#VC)  (relcl, 食品#NN, 可以#VV)  (dobj, 可以#VV, 生吃#NN)  (mark, 可以#VV, 的#DEC)  (amod, 食品#NN, 芋类#JJ)  (conj, 淀粉#NN, 食品#NN)
+            (nsubj, 含有#VV, 山药#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)  (nn, 钾#NN, 其中#NN)  (assmod, 含量#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 含有#VV, 高#VA)  (nn, 维生素#NN, 所含#NN)  (assmod, 数量#NN, 维生素#NN)  (case, 维生素#NN, 的#DEG)  (conj, 数量#NN, 种类#NN)  (cc, 数量#NN, 和#CC)  (nsubj, 少#VA, 数量#NN)  (advmod, 少#VA, 较#AD)  (conj, 高#VA, 少#VA)  (advmod, 含#VV, 几乎#AD)  (neg, 含#VV, 不#AD)  (conj, 含有#VV, 含#VV)  (dobj, 含#VV, 胡萝卜素#NN)
+            (assmod, 叶#NN, 山药#NN)  (case, 山药#NN, 的#DEG)  (nsubj, 来源#NN, 叶#NN)  (cop, 来源#NN, 是#VC)  (assmod, 来源#NN, 胡萝卜素#NN)  (case, 胡萝卜素#NN, 的#DEG)  (amod, 来源#NN, 极好#JJ)  (root, ROOT#null, 来源#NN)  (advmod, 来源#NN, 也#AD)  (cop, 来源#NN, 是#VC)  (conj, 维生素C#NN, 钙#NN)  (conj, 维生素C#NN, 铁#NN)  (assmod, 来源#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (amod, 来源#NN, 良好#JJ)  (conj, 来源#NN, 来源#NN)
+        </parsing>
+
+        <tag>
+            含碳水化合物  热量  质量红薯  分解产物  转化糊精  帮助消化  芋类食品  淀粉  含有  所含维生素  数量  种类  胡萝卜素  极好来源  维生素C  良好来源  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.去皮
+            宜去皮食用,以免产生麻、刺等异常口感。山药皮中所含的皂角素或黏液里含的植物碱，少数人接触会引起山药过敏而发痒，处理山药时应避免直接接触。削完山药的手不要乱碰，马上多洗几遍手，要不然就会抓哪儿哪儿痒。
+            2.怎样让山药不脱手
+            山药在剥皮之后，表面的粘液使其变的很滑，难以抓牢或稳稳的放在且板上，切成想要的形状，这时候，可以在双手上涂些盐和醋，再拿山药的时候就不会手滑了，也不会影响山药的正常味道。
+            3.浸泡
+            山药切片后需立即浸泡在盐水中，以防止氧化发黑。
+            4.山药鲜品多用于虚劳咳嗽及消渴病，炒熟食用治脾胃、肾气亏虚。
+        </rawdata>
+
+        <segment>
+            去皮
+            宜  去皮  食用  ,  以免  产生  麻  、  刺  等  异常  口感  。  山药  皮  中  所  含  的  皂角素  或  黏液  里  含  的  植物碱  ，  少数  人  接触  会  引起  山药  过敏  而  发痒  ，  处理  山药  时  应  避免  直接  接触  。  削  完  山药  的  手  不  要  乱碰  ，  马上  多  洗  几  遍  手  ，  要不然  就  会  抓  哪儿  哪儿  痒  。
+            怎样  让  山药  不  脱手
+            山药  在  剥皮  之后  ，  表面  的  粘液  使其  变的  很  滑  ，  难以  抓牢  或  稳稳  的  放在  且  板  上  ，  切成  想要  的  形状  ，  这时候  ，  可以  在  双手  上  涂  些  盐  和  醋  ，  再  拿  山药  的  时候  就  不  会  手  滑了  ，  也  不  会  影响  山药  的  正常  味道  。
+            浸泡
+            山药  切片  后  需  立即  浸泡  在  盐水  中  ，  以  防止  氧化  发黑  。
+            山药  鲜品  多用  于  虚  劳  咳嗽  及  消渴病  ，  炒熟  食用  治  脾胃  、  肾气  亏  虚  。
+        </segment>
+
+        <pos>
+            去皮#VV
+            宜#NR  去皮#NN  食用#VV  ,#NN  以免#VV  产生#VV  麻#NN  、#PU  刺#NN  等#ETC  异常#AD  口感#VV    。#PU  山药#NN  皮#NN  中#LC  所#MSP  含#VV  的#DEC  皂角素#NN  或#CC  黏液#NN  里#LC  含#VV  的#DEC  植物碱#NN  ，#PU  少数#CD  人#NN  接触#NN  会#VV  引起#VV  山药#NN  过敏#NN  而#MSP  发痒#VV  ，#PU  处理#VV  山药#NN  时#LC  应#VV  避免#VV  直接#JJ  接触#NN    。#PU  削#AD  完#VV  山药#NN  的#DEC  手#NN  不#AD  要#VV  乱碰#AD  ，#PU  马上#AD  多#AD  洗#VV  几#CD  遍#CD  手#M  ，#PU  要不然#AD  就#AD  会#VV  抓#VV  哪儿#NN  哪儿#NN  痒#NN    。#PU    。#PU
+            怎样#AD  让#VV  山药#NN  不#AD  脱手#VV
+            山药#VV  在#P  剥皮#NN  之后#LC  ，#PU  表面#VA  的#DEC  粘液#NN  使其#NN  变的#NN  很#AD  滑#VV  ，#PU  难以#AD  抓牢#VV  或#CC  稳稳#AD  的#DEC  放在#NN  且#CC  板#NN  上#LC  ，#PU  切成#NN  想要#NN  的#DEG  形状#NN  ，#PU  这时候#NR  ，#PU  可以#VV  在#P  双手#NN  上#LC  涂#CD  些#M  盐#NN  和#CC  醋#NN  ，#PU  再#AD  拿#VV  山药#NN  的#DEC  时候#NN  就#AD  不#AD  会#VV  手#NN  滑了#NN  ，#PU  也#AD  不#AD  会#VV  影响#NN  山药#NN  的#DEG  正常#JJ  味道#NN  。#PU
+            浸泡#VV
+            山药#NN  切片#NN  后#LC  需#VV  立即#AD  浸泡#VV  在#P  盐水#NN  中#LC  ，#PU  以#MSP  防止#VV  氧化#VV  发黑#NN  。#PU
+            山药#NN  鲜品#NN  多用#VV  于#P  虚#AD  劳#NN  咳嗽#NN  及#CC  消渴病#NN  ，#PU  炒熟#AD  食用#VV  治#VV  脾胃#NN  、#PU  肾气#NN  亏#NN  虚#AD  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 去皮#VV)
+            (nn, 去皮#NN, 宜#NR)  (nsubj, 食用#VV, 去皮#NN)  (root, ROOT#null, 食用#VV)  (conj, 食用#VV, 以免#VV)  (ccomp, 以免#VV, 产生#VV)  (conj, 刺#NN, 麻#NN)  (dobj, 产生#VV, 刺#NN)  (etc, 刺#NN, 等#ETC)  (advmod, 口感#VV, 异常#AD)  (dep, 食用#VV, 口感#VV)   (nn, 皮#NN, 山药#NN)  (loc, 含#VV, 皮#NN)  (case, 皮#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 黏液#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 黏液#NN, 皂角素#NN)  (cc, 黏液#NN, 或#CC)  (loc, 含#VV, 黏液#NN)  (case, 黏液#NN, 里#LC)  (relcl, 植物碱#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 引起#VV, 植物碱#NN)  (xsubj, 避免#VV, 植物碱#NN)  (nummod, 人#NN, 少数#CD)  (nsubj, 引起#VV, 人#NN)  (xsubj, 避免#VV, 人#NN)  (nsubj, 引起#VV, 接触#NN)  (xsubj, 避免#VV, 接触#NN)  (mmod, 引起#VV, 会#VV)  (root, ROOT#null, 引起#VV)  (nn, 过敏#NN, 山药#NN)  (dobj, 引起#VV, 过敏#NN)  (prtmod, 发痒#VV, 而#MSP)  (conj, 引起#VV, 发痒#VV)  (loc, 避免#VV, 处理#VV)  (dobj, 处理#VV, 山药#NN)  (case, 处理#VV, 时#LC)  (mmod, 避免#VV, 应#VV)  (ccomp, 发痒#VV, 避免#VV)  (amod, 接触#NN, 直接#JJ)  (dobj, 避免#VV, 接触#NN)   (advmod, 完#VV, 削#AD)  (relcl, 手#NN, 完#VV)  (dobj, 完#VV, 山药#NN)  (mark, 完#VV, 的#DEC)  (nsubj, 洗#VV, 手#NN)  (neg, 洗#VV, 不#AD)  (mmod, 洗#VV, 要#VV)  (advmod, 洗#VV, 乱碰#AD)  (advmod, 洗#VV, 马上#AD)  (advmod, 洗#VV, 多#AD)  (root, ROOT#null, 洗#VV)  (dep, 手#M, 几#CD)  (nummod, 手#M, 遍#CD)  (range, 洗#VV, 手#M)  (advmod, 抓#VV, 要不然#AD)  (advmod, 抓#VV, 就#AD)  (mmod, 抓#VV, 会#VV)  (dep, 洗#VV, 抓#VV)  (nn, 痒#NN, 哪儿#NN)  (nn, 痒#NN, 哪儿#NN)  (dobj, 抓#VV, 痒#NN)   (root, ROOT#null, null#null)
+            (advmod, 让#VV, 怎样#AD)  (root, ROOT#null, 让#VV)  (dobj, 让#VV, 山药#NN)  (neg, 脱手#VV, 不#AD)  (dep, 让#VV, 脱手#VV)
+            (relcl, 板#NN, 山药#VV)  (case, 剥皮#NN, 在#P)  (prep, 滑#VV, 剥皮#NN)  (case, 剥皮#NN, 之后#LC)  (relcl, 变的#NN, 表面#VA)  (mark, 表面#VA, 的#DEC)  (nn, 变的#NN, 粘液#NN)  (nn, 变的#NN, 使其#NN)  (nsubj, 滑#VV, 变的#NN)  (advmod, 滑#VV, 很#AD)  (ccomp, 山药#VV, 滑#VV)  (advmod, 抓牢#VV, 难以#AD)  (dep, 滑#VV, 抓牢#VV)  (cc, 山药#VV, 或#CC)  (dep, 山药#VV, 稳稳#AD)  (mark, 山药#VV, 的#DEC)  (conj, 板#NN, 放在#NN)  (cc, 板#NN, 且#CC)  (loc, 会#VV, 板#NN)  (case, 板#NN, 上#LC)  (nn, 想要#NN, 切成#NN)  (assmod, 形状#NN, 想要#NN)  (case, 想要#NN, 的#DEG)  (nsubj, 会#VV, 形状#NN)  (nsubj, 会#VV, 这时候#NR)  (mmod, 拿#VV, 可以#VV)  (case, 醋#NN, 在#P)  (dep, 醋#NN, 双手#NN)  (case, 双手#NN, 上#LC)  (nummod, 些#M, 涂#CD)  (clf, 醋#NN, 些#M)  (conj, 醋#NN, 盐#NN)  (cc, 醋#NN, 和#CC)  (prep, 拿#VV, 醋#NN)  (advmod, 拿#VV, 再#AD)  (relcl, 时候#NN, 拿#VV)  (dobj, 拿#VV, 山药#NN)  (mark, 拿#VV, 的#DEC)  (nsubj, 会#VV, 时候#NN)  (advmod, 会#VV, 就#AD)  (neg, 会#VV, 不#AD)  (root, ROOT#null, 会#VV)  (nn, 滑了#NN, 手#NN)  (dobj, 会#VV, 滑了#NN)  (advmod, 会#VV, 也#AD)  (neg, 会#VV, 不#AD)  (dep, 会#VV, 会#VV)  (nn, 山药#NN, 影响#NN)  (assmod, 味道#NN, 山药#NN)  (case, 山药#NN, 的#DEG)  (amod, 味道#NN, 正常#JJ)  (dobj, 会#VV, 味道#NN)
+            (root, ROOT#null, 浸泡#VV)
+            (nsubj, 浸泡#VV, 山药#NN)  (loc, 浸泡#VV, 切片#NN)  (case, 切片#NN, 后#LC)  (mmod, 浸泡#VV, 需#VV)  (advmod, 浸泡#VV, 立即#AD)  (root, ROOT#null, 浸泡#VV)  (case, 盐水#NN, 在#P)  (prep, 浸泡#VV, 盐水#NN)  (case, 盐水#NN, 中#LC)  (prtmod, 防止#VV, 以#MSP)  (conj, 浸泡#VV, 防止#VV)  (ccomp, 防止#VV, 氧化#VV)  (dobj, 氧化#VV, 发黑#NN)
+            (nn, 鲜品#NN, 山药#NN)  (nsubj, 多用#VV, 鲜品#NN)  (root, ROOT#null, 多用#VV)  (case, 食用#VV, 于#P)  (advmod, 食用#VV, 虚#AD)  (nn, 咳嗽#NN, 劳#NN)  (conj, 消渴病#NN, 咳嗽#NN)  (cc, 消渴病#NN, 及#CC)  (prep, 食用#VV, 消渴病#NN)  (advmod, 食用#VV, 炒熟#AD)  (prep, 多用#VV, 食用#VV)  (rcomp, 食用#VV, 治#VV)  (conj, 亏#NN, 脾胃#NN)  (nn, 亏#NN, 肾气#NN)  (dobj, 食用#VV, 亏#NN)  (advmod, 多用#VV, 虚#AD)
+        </parsing>
+
+        <tag>
+            去皮  产生刺  含黏液  皂角素  含植物碱  避免接触  完手  变的表面  粘液变的  切成想要  拿时候  正常味道  浸泡  氧化发黑  多用  消渴病  咳嗽  食用亏  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071037487698.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\209 山药.jpg
+    </picturelocalurl>
+
+</content>

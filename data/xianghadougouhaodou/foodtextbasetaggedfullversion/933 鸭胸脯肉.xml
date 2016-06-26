@@ -1,0 +1,124 @@
+<content>
+
+    <id>
+        933
+    </id>
+
+    <foodname>
+        鸭胸脯肉
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            人们常言“鸡鸭鱼肉”四大荤，鸭肉本身蛋白质含量比畜肉含量高得多，脂肪含量适中且分布较均匀。鸭肉中的脂肪酸熔点低，易于消化。所含B族维生素和维生素E较其他肉类多。
+        </rawdata>
+
+        <segment>
+            人们  常言  “  鸡鸭鱼肉  ”  四大荤  ，  鸭肉  本身  蛋白质  含量  比  畜  肉  含量  高  得  多  ，  脂肪  含量  适中  且  分布  较  均匀  。  鸭肉  中  的  脂肪酸  熔点  低  ，  易于  消化  。  所含  B  族  维生素  和  维生素E  较  其他  肉类  多  。
+        </segment>
+
+        <pos>
+            人们#NN  常言#NN  ``#NN  鸡鸭鱼肉#AD  ''#VV  四大荤#CD  ，#PU  鸭肉#NN  本身#PN  蛋白质#NN  含量#NN  比#P  畜#NN  肉#NN  含量#NN  高#VA  得#DER  多#VA  ，#PU  脂肪#NN  含量#NN  适中#NN  且#CC  分布#NN  较#AD  均匀#VA    。#PU  鸭肉#NN  中#LC  的#DEG  脂肪酸#NN  熔点#AD  低#VA  ，#PU  易于#VV  消化#NN    。#PU  所含#NR  B#NN  族#NN  维生素#NN  和#CC  维生素E#NN  较#P  其他#DT  肉类#NN  多#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, ``#NN, 人们#NN)  (nn, ``#NN, 常言#NN)  (nsubj, ''#VV, ``#NN)  (advmod, ''#VV, 鸡鸭鱼肉#AD)  (root, ROOT#null, ''#VV)  (range, ''#VV, 四大荤#CD)  (nsubj, 多#VA, 鸭肉#NN)  (nn, 含量#NN, 本身#PN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 多#VA, 含量#NN)  (case, 含量#NN, 比#P)  (nn, 含量#NN, 畜#NN)  (nn, 含量#NN, 肉#NN)  (prep, 多#VA, 含量#NN)  (dep, 多#VA, 高#VA)  (dep, 多#VA, 得#DER)  (conj, ''#VV, 多#VA)  (nn, 含量#NN, 脂肪#NN)  (nn, 分布#NN, 含量#NN)  (conj, 分布#NN, 适中#NN)  (cc, 分布#NN, 且#CC)  (nsubj, 均匀#VA, 分布#NN)  (advmod, 均匀#VA, 较#AD)  (conj, ''#VV, 均匀#VA)   (assmod, 脂肪酸#NN, 鸭肉#NN)  (case, 鸭肉#NN, 中#LC)  (case, 鸭肉#NN, 的#DEG)  (nsubj, 低#VA, 脂肪酸#NN)  (advmod, 低#VA, 熔点#AD)  (root, ROOT#null, 低#VA)  (dep, 低#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)   (nn, 族#NN, 所含#NR)  (nn, 族#NN, B#NN)  (nn, 维生素E#NN, 族#NN)  (conj, 维生素E#NN, 维生素#NN)  (cc, 维生素E#NN, 和#CC)  (nsubj, 多#VA, 维生素E#NN)  (case, 肉类#NN, 较#P)  (det, 肉类#NN, 其他#DT)  (prep, 多#VA, 肉类#NN)  (root, ROOT#null, 多#VA)
+        </parsing>
+
+        <tag>
+            适中  分布均匀  脂肪酸  易于消化  维生素E  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸭胸脯肉相对于全鸭肉，蛋白质含量高，脂肪含量却低。
+        </rawdata>
+
+        <segment>
+            鸭  胸脯  肉  相对于  全  鸭肉  ，  蛋白质  含量  高  ，  脂肪  含量  却  低  。
+        </segment>
+
+        <pos>
+            鸭#NR  胸脯#NN  肉#NN  相对于#NN  全#DT  鸭肉#NN  ，#PU  蛋白质#NN  含量#NN  高#VA  ，#PU  脂肪#NN  含量#NN  却#AD  低#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 相对于#NN, 鸭#NR)  (nn, 相对于#NN, 胸脯#NN)  (nn, 相对于#NN, 肉#NN)  (nn, 鸭肉#NN, 相对于#NN)  (det, 鸭肉#NN, 全#DT)  (nsubj, 高#VA, 鸭肉#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 却#AD)  (conj, 高#VA, 低#VA)
+        </parsing>
+
+        <tag>
+            胸脯相对于  相对于鸭肉  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹调时加入少量盐，肉汤会更鲜美;
+            2.鸭肉是一种美味佳肴，用鸭子可制成烤鸭、板鸭、香酥鸭、鸭骨汤、熘鸭片、熘干鸭条、炒鸭心花、香菜鸭肝、扒鸭掌等上乘佳肴。鸭肉适于滋补，是各种美味名菜的主要原料。
+        </rawdata>
+
+        <segment>
+            烹调  时  加入  少量  盐  ，  肉汤  会  更  鲜美  ;
+            鸭肉  是  一  种  美味  佳肴  ，  用  鸭子  可  制成  烤鸭  、  板鸭  、  香酥鸭  、  鸭  骨  汤  、  熘鸭片  、  熘干  鸭  条  、  炒  鸭  心花  、  香菜  鸭肝  、  扒鸭掌  等上  乘  佳肴  。  鸭肉  适于  滋补  ，  是  各  种  美味  名菜  的  主要  原料  。
+        </segment>
+
+        <pos>
+            烹调#NN  时#LC  加入#VV  少量#CD  盐#NN  ，#PU  肉汤#AD  会#VV  更#AD  鲜美#VV  ;#NN
+            鸭肉#NN  是#VC  一#CD  种#M  美味#NN  佳肴#NN  ，#PU  用#P  鸭子#NN  可#VV  制成#VV  烤鸭#NR  、#PU  板鸭#NR  、#PU  香酥鸭#NR  、#PU  鸭#NR  骨#NR  汤#NR  、#PU  熘鸭片#NR  、#PU  熘干#NR  鸭#CD  条#M  、#PU  炒#CD  鸭#NN  心花#NR  、#PU  香菜#NR  鸭肝#NR  、#PU  扒鸭掌#NR  等上#NN  乘#VV  佳肴#NN    。#PU  鸭肉#AD  适于#VV  滋补#NN  ，#PU  是#VC  各#DT  种#M  美味#NN  名菜#NN  的#DEG  主要#JJ  原料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 加入#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (root, ROOT#null, 加入#VV)  (nummod, 盐#NN, 少量#CD)  (dobj, 加入#VV, 盐#NN)  (advmod, 鲜美#VV, 肉汤#AD)  (mmod, 鲜美#VV, 会#VV)  (advmod, 鲜美#VV, 更#AD)  (conj, 加入#VV, 鲜美#VV)  (dobj, 鲜美#VV, ;#NN)
+            (nsubj, 佳肴#NN, 鸭肉#NN)  (cop, 佳肴#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 佳肴#NN, 种#M)  (nn, 佳肴#NN, 美味#NN)  (root, ROOT#null, 佳肴#NN)  (case, 鸭子#NN, 用#P)  (prep, 制成#VV, 鸭子#NN)  (mmod, 制成#VV, 可#VV)  (conj, 佳肴#NN, 制成#VV)  (conj, 熘干#NR, 烤鸭#NR)  (conj, 熘干#NR, 板鸭#NR)  (conj, 熘干#NR, 香酥鸭#NR)  (nn, 熘干#NR, 鸭#NR)  (nn, 熘干#NR, 骨#NR)  (conj, 熘干#NR, 汤#NR)  (conj, 熘干#NR, 熘鸭片#NR)  (nn, 鸭#NN, 熘干#NR)  (nummod, 条#M, 鸭#CD)  (clf, 炒#CD, 条#M)  (clf, 鸭#NN, 炒#CD)  (dobj, 制成#VV, 鸭#NN)  (conj, 扒鸭掌#NR, 心花#NR)  (nn, 扒鸭掌#NR, 香菜#NR)  (conj, 扒鸭掌#NR, 鸭肝#NR)  (nn, 等上#NN, 扒鸭掌#NR)  (nsubj, 乘#VV, 等上#NN)  (conj, 佳肴#NN, 乘#VV)  (dobj, 乘#VV, 佳肴#NN)   (advmod, 适于#VV, 鸭肉#AD)  (root, ROOT#null, 适于#VV)  (dobj, 适于#VV, 滋补#NN)  (cop, 原料#NN, 是#VC)  (det, 美味#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 名菜#NN, 美味#NN)  (assmod, 原料#NN, 名菜#NN)  (case, 名菜#NN, 的#DEG)  (amod, 原料#NN, 主要#JJ)  (dep, 适于#VV, 原料#NN)
+        </parsing>
+
+        <tag>
+            加入盐  美味佳肴  熘干  烤鸭  板鸭  香酥鸭  熘鸭片  制成鸭  扒鸭掌  心花  鸭肝  适于滋补  美味名菜  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/d2/41/82386_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\933 鸭胸脯肉.jpg
+    </picturelocalurl>
+
+</content>

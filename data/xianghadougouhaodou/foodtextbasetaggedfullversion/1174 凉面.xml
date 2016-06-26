@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1174
+    </id>
+
+    <foodname>
+        凉面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        凉拌面、过水面、冷面
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            凉面又称“过水面”。北京的过水面是把煮熟的热面直接放入冷水中过一下，由于是凉面，拌面的所有作料都是生冷的，首先菜码是黄瓜丝，水萝卜丝、用水焯过的绿豆芽，然后浇上调稀了的芝麻酱，再配上青蒜或刚上市的新蒜瓣。
+        </rawdata>
+
+        <segment>
+            凉面  又  称  “  过  水面  ”  。  北京  的  过  水面  是  把  煮熟  的  热  面  直接  放入  冷水  中  过  一下  ，  由于  是  凉面  ，  拌面  的  所有  作料  都  是  生冷  的  ，  首先  菜  码  是  黄瓜丝  ，  水  萝卜  丝  、  用水  焯过  的  绿豆芽  ，  然后  浇  上调  稀  了  的  芝麻酱  ，  再  配上  青蒜  或  刚  上市  的  新  蒜瓣  。
+        </segment>
+
+        <pos>
+            凉面#NR  又#AD  称#VV  ``#VV  过#AS  水面#NN  ''#NN    。#PU  北京#NR  的#DEG  过#VV  水面#NN  是#VC  把#BA  煮熟#NN  的#DEG  热#JJ  面#NN  直接#AD  放入#VV  冷水#NN  中#LC  过#VV  一下#AD  ，#PU  由于#P  是#VC  凉面#NN  ，#PU  拌面#NN  的#DEG  所有#DT  作料#NN  都#AD  是#VC  生冷#VA  的#DEC  ，#PU  首先#AD  菜#NN  码#NN  是#VC  黄瓜丝#NN  ，#PU  水#NN  萝卜#VV  丝#NN  、#PU  用水#NN  焯过#NN  的#DEG  绿豆芽#NN  ，#PU  然后#AD  浇#VV  上调#AD  稀#VV  了#AS  的#DEC  芝麻酱#NN  ，#PU  再#AD  配上#VV  青蒜#NN  或#CC  刚#AD  上市#VV  的#DEC  新#JJ  蒜瓣#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 凉面#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, ``#VV)  (asp, ``#VV, 过#AS)  (nn, ''#NN, 水面#NN)  (dobj, ``#VV, ''#NN)   (assmod, 水面#NN, 北京#NR)  (case, 北京#NR, 的#DEG)  (nfincl, 水面#NN, 过#VV)  (nsubj, 蒜瓣#NN, 水面#NN)  (cop, 蒜瓣#NN, 是#VC)  (ba, 放入#VV, 把#BA)  (assmod, 面#NN, 煮熟#NN)  (case, 煮熟#NN, 的#DEG)  (amod, 面#NN, 热#JJ)  (nsubj, 放入#VV, 面#NN)  (advmod, 放入#VV, 直接#AD)  (relcl, 蒜瓣#NN, 放入#VV)  (loc, 放入#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (conj, 放入#VV, 过#VV)  (advmod, 过#VV, 一下#AD)  (case, 凉面#NN, 由于#P)  (cop, 凉面#NN, 是#VC)  (prep, 生冷#VA, 凉面#NN)  (assmod, 作料#NN, 拌面#NN)  (case, 拌面#NN, 的#DEG)  (det, 作料#NN, 所有#DT)  (nsubj, 生冷#VA, 作料#NN)  (advmod, 生冷#VA, 都#AD)  (cop, 生冷#VA, 是#VC)  (conj, 放入#VV, 生冷#VA)  (mark, 生冷#VA, 的#DEC)  (advmod, 黄瓜丝#NN, 首先#AD)  (nn, 码#NN, 菜#NN)  (nsubj, 黄瓜丝#NN, 码#NN)  (cop, 黄瓜丝#NN, 是#VC)  (conj, 生冷#VA, 黄瓜丝#NN)  (nsubj, 萝卜#VV, 水#NN)  (conj, 放入#VV, 萝卜#VV)  (conj, 用水#NN, 丝#NN)  (nn, 焯过#NN, 用水#NN)  (assmod, 绿豆芽#NN, 焯过#NN)  (case, 焯过#NN, 的#DEG)  (dobj, 萝卜#VV, 绿豆芽#NN)  (advmod, 浇#VV, 然后#AD)  (dep, 放入#VV, 浇#VV)  (advmod, 稀#VV, 上调#AD)  (relcl, 芝麻酱#NN, 稀#VV)  (asp, 稀#VV, 了#AS)  (mark, 稀#VV, 的#DEC)  (dobj, 浇#VV, 芝麻酱#NN)  (advmod, 配上#VV, 再#AD)  (dep, 放入#VV, 配上#VV)  (dobj, 配上#VV, 青蒜#NN)  (cc, 配上#VV, 或#CC)  (advmod, 上市#VV, 刚#AD)  (dep, 配上#VV, 上市#VV)  (mark, 放入#VV, 的#DEC)  (amod, 蒜瓣#NN, 新#JJ)  (root, ROOT#null, 蒜瓣#NN)
+        </parsing>
+
+        <tag>
+            热面  作料生冷  用水焯过  萝卜绿豆芽  稀芝麻酱  配上青蒜  新蒜瓣  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            凉面主要含有蛋白质、脂肪、碳水化合物等营养元素。
+        </rawdata>
+
+        <segment>
+            凉面  主要  含有  蛋白质  、  脂肪  、  碳水  化合物  等  营养  元素  。
+        </segment>
+
+        <pos>
+            凉面#NN  主要#AD  含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水#NR  化合物#NR  等#ETC  营养#VA  元素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 凉面#NN)  (advmod, 含有#VV, 主要#AD)  (root, ROOT#null, 含有#VV)  (conj, 化合物#NR, 蛋白质#NR)  (conj, 化合物#NR, 脂肪#NR)  (nn, 化合物#NR, 碳水#NR)  (nn, 元素#NN, 化合物#NR)  (etc, 化合物#NR, 等#ETC)  (nfincl, 元素#NN, 营养#VA)  (dobj, 含有#VV, 元素#NN)
+        </parsing>
+
+        <tag>
+            含有  化合物  蛋白质  脂肪  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            凉面做法很简单，先在锅内将水烧开，把手擀面条或机轧面条下锅煮软，用筷子挑散，不要粘连，捞出在清凉水中冲一遍，放在原开水锅中，继续开锅煮，然后往锅中加些凉水，再煮至熟捞出，放在凉开水中过一遍，捞出盛碗中用蔬菜、作料拌和，即可食之。
+        </rawdata>
+
+        <segment>
+            凉面  做法  很  简单  ，  先  在  锅  内  将  水  烧开  ，  把手  擀面条  或  机轧  面条  下锅  煮  软  ，  用  筷子  挑散  ，  不要  粘连  ，  捞出  在  清凉  水中  冲  一  遍  ，  放在  原  开水  锅中  ，  继续  开锅  煮  ，  然后  往  锅中  加些  凉水  ，  再  煮  至  熟  捞出  ，  放在  凉开水  中  过  一  遍  ，  捞出  盛  碗  中用  蔬菜  、  作料  拌和  ，  即  可  食  之  。
+        </segment>
+
+        <pos>
+            凉面#NN  做法#NN  很#AD  简单#VA  ，#PU  先#AD  在#P  锅#NN  内#LC  将#BA  水#NN  烧开#VV  ，#PU  把手#NN  擀面条#NN  或#CC  机轧#NN  面条#NN  下锅#VV  煮#VV  软#VA  ，#PU  用#VV  筷子#NN  挑散#NN  ，#PU  不要#VV  粘连#NN  ，#PU  捞出#AD  在#P  清凉#NN  水中#NN  冲#VV  一#CD  遍#NN  ，#PU  放在#VV  原#JJ  开水#NN  锅中#NN  ，#PU  继续#VV  开锅#AD  煮#VV  ，#PU  然后#AD  往#VV  锅中#NN  加些#NN  凉水#NN  ，#PU  再#AD  煮#VV  至#VV  熟#JJ  捞出#NN  ，#PU  放在#NN  凉开水#NN  中#LC  过#VV  一#CD  遍#NN  ，#PU  捞出#VA  盛#VA  碗#NN  中用#NN  蔬菜#NN  、#PU  作料#NN  拌和#NN  ，#PU  即#AD  可#VV  食#NN  之#DEC  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 做法#NN, 凉面#NN)  (nsubj, 简单#VA, 做法#NN)  (advmod, 简单#VA, 很#AD)  (root, ROOT#null, 简单#VA)  (advmod, 烧开#VV, 先#AD)  (case, 锅#NN, 在#P)  (prep, 烧开#VV, 锅#NN)  (case, 锅#NN, 内#LC)  (ba, 烧开#VV, 将#BA)  (nsubj, 烧开#VV, 水#NN)  (dep, 简单#VA, 烧开#VV)  (nn, 面条#NN, 把手#NN)  (conj, 面条#NN, 擀面条#NN)  (cc, 面条#NN, 或#CC)  (nn, 面条#NN, 机轧#NN)  (nsubj, 下锅#VV, 面条#NN)  (ccomp, 烧开#VV, 下锅#VV)  (mmod, 软#VA, 煮#VV)  (dobj, 下锅#VV, 软#VA)  (ccomp, 软#VA, 用#VV)  (conj, 软#VA, 用#VV)  (nn, 挑散#NN, 筷子#NN)  (dobj, 用#VV, 挑散#NN)  (ccomp, 软#VA, 不要#VV)  (conj, 软#VA, 不要#VV)  (dobj, 不要#VV, 粘连#NN)  (advmod, 冲#VV, 捞出#AD)  (case, 水中#NN, 在#P)  (nn, 水中#NN, 清凉#NN)  (prep, 冲#VV, 水中#NN)  (ccomp, 软#VA, 冲#VV)  (conj, 软#VA, 冲#VV)  (nummod, 遍#NN, 一#CD)  (dobj, 冲#VV, 遍#NN)  (ccomp, 软#VA, 放在#VV)  (conj, 软#VA, 放在#VV)  (amod, 锅中#NN, 原#JJ)  (nn, 锅中#NN, 开水#NN)  (dobj, 放在#VV, 锅中#NN)  (mmod, 煮#VV, 继续#VV)  (advmod, 煮#VV, 开锅#AD)  (ccomp, 软#VA, 煮#VV)  (conj, 软#VA, 煮#VV)  (advmod, 往#VV, 然后#AD)  (ccomp, 软#VA, 往#VV)  (conj, 软#VA, 往#VV)  (nn, 凉水#NN, 锅中#NN)  (nn, 凉水#NN, 加些#NN)  (dobj, 往#VV, 凉水#NN)  (advmod, 至#VV, 再#AD)  (mmod, 至#VV, 煮#VV)  (ccomp, 软#VA, 至#VV)  (conj, 软#VA, 至#VV)  (amod, 捞出#NN, 熟#JJ)  (dobj, 至#VV, 捞出#NN)  (nn, 凉开水#NN, 放在#NN)  (loc, 过#VV, 凉开水#NN)  (case, 凉开水#NN, 中#LC)  (ccomp, 软#VA, 过#VV)  (conj, 软#VA, 过#VV)  (nummod, 遍#NN, 一#CD)  (dobj, 过#VV, 遍#NN)  (ccomp, 软#VA, 捞出#VA)  (conj, 软#VA, 捞出#VA)  (comod, 捞出#VA, 盛#VA)  (nn, 拌和#NN, 碗#NN)  (nn, 拌和#NN, 中用#NN)  (conj, 拌和#NN, 蔬菜#NN)  (nn, 拌和#NN, 作料#NN)  (dobj, 捞出#VA, 拌和#NN)  (advmod, 可#VV, 即#AD)  (ccomp, 软#VA, 可#VV)  (conj, 软#VA, 可#VV)  (dobj, 可#VV, 食#NN)  (mark, 软#VA, 之#DEC)
+        </parsing>
+
+        <tag>
+            做法简单  把手面条  擀面条  机轧面条  筷子挑散  不要粘连  清凉水中  原锅中  开水锅中  放在锅中  锅中凉水  加些凉水  熟捞出  放在凉开水  软捞出  中用拌和  蔬菜  作料拌和  捞出拌和  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/03/07/1795_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1174 凉面.jpg
+    </picturelocalurl>
+
+</content>

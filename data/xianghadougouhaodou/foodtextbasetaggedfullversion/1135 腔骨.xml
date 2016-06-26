@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        1135
+    </id>
+
+    <foodname>
+        腔骨
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            腔骨包含脊椎骨。指胸腔的骨头，所以应该说是指排骨的下半部分（远脊椎近肚皮的那一端），比较多肉，骨头比较软。
+        </rawdata>
+
+        <segment>
+            腔骨  包含  脊椎骨  。  指  胸腔  的  骨头  ，  所以  应该  说  是  指  排骨  的  下半  部分  （  远  脊椎  近  肚皮  的  那  一  端  ）  ，  比较  多肉  ，  骨头  比较  软  。
+        </segment>
+
+        <pos>
+            腔骨#NN  包含#VV  脊椎骨#NN    。#PU  指#VV  胸腔#NN  的#DEC  骨头#NN  ，#PU  所以#AD  应该#VV  说#VV  是#VC  指#VV  排骨#NN  的#DEC  下半#NN  部分#NN  （#PU  远#AD  脊椎#VV  近#AD  肚皮#CD  的#DEG  那#DT  一#CD  端#NN  ）#PU  ，#PU  比较#AD  多肉#VA  ，#PU  骨头#NN  比较#AD  软#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 包含#VV, 腔骨#NN)  (root, ROOT#null, 包含#VV)  (dobj, 包含#VV, 脊椎骨#NN)   (relcl, 骨头#NN, 指#VV)  (dobj, 指#VV, 胸腔#NN)  (mark, 指#VV, 的#DEC)  (nsubj, 多肉#VA, 骨头#NN)  (advmod, 多肉#VA, 所以#AD)  (mmod, 说#VV, 应该#VV)  (dep, 多肉#VA, 说#VV)  (cop, 部分#NN, 是#VC)  (relcl, 部分#NN, 指#VV)  (dobj, 指#VV, 排骨#NN)  (mark, 指#VV, 的#DEC)  (nn, 部分#NN, 下半#NN)  (ccomp, 说#VV, 部分#NN)  (advmod, 脊椎#VV, 远#AD)  (dep, 部分#NN, 脊椎#VV)  (advmod, 肚皮#CD, 近#AD)  (assmod, 端#NN, 肚皮#CD)  (case, 肚皮#CD, 的#DEG)  (det, 端#NN, 那#DT)  (dep, 那#DT, 一#CD)  (dobj, 脊椎#VV, 端#NN)  (advmod, 多肉#VA, 比较#AD)  (root, ROOT#null, 多肉#VA)  (nsubj, 软#VA, 骨头#NN)  (advmod, 软#VA, 比较#AD)  (conj, 多肉#VA, 软#VA)
+        </parsing>
+
+        <tag>
+            包含脊椎骨  指骨头  骨头多肉  指部分  下半部分  脊椎端  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  增加骨密度  增强造血功能
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/8c/3e/16012_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1135 腔骨.jpg
+    </picturelocalurl>
+
+</content>

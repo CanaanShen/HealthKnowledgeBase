@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        753
+    </id>
+
+    <foodname>
+        大磨牌豆奶粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆奶粉是一种新型固体饮料，它综合了大豆和牛奶的营养成份，具有口感细腻，香味浓郁，营养丰富，携带方便等特点。
+        </rawdata>
+
+        <segment>
+            豆奶粉  是  一  种  新型  固体  饮料  ，  它  综合  了  大豆  和  牛奶  的  营养  成份  ，  具有  口感  细腻  ，  香味  浓郁  ，  营养  丰富  ，  携带  方便  等  特点  。
+        </segment>
+
+        <pos>
+            豆奶粉#NN  是#VC  一#CD  种#M  新型#JJ  固体#NN  饮料#NN  ，#PU  它#PN  综合#VV  了#AS  大豆#NN  和#CC  牛奶#NN  的#DEG  营养#VA  成份#NN  ，#PU  具有#VV  口感#NN  细腻#NN  ，#PU  香味#AD  浓郁#VA  ，#PU  营养#VA  丰富#VA  ，#PU  携带#VV  方便#NN  等#ETC  特点#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 饮料#NN, 豆奶粉#NN)  (cop, 饮料#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 饮料#NN, 种#M)  (amod, 饮料#NN, 新型#JJ)  (nn, 饮料#NN, 固体#NN)  (root, ROOT#null, 饮料#NN)  (nsubj, 综合#VV, 它#PN)  (conj, 饮料#NN, 综合#VV)  (asp, 综合#VV, 了#AS)  (conj, 牛奶#NN, 大豆#NN)  (cc, 牛奶#NN, 和#CC)  (assmod, 成份#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nfincl, 成份#NN, 营养#VA)  (dobj, 综合#VV, 成份#NN)  (conj, 饮料#NN, 具有#VV)  (nn, 细腻#NN, 口感#NN)  (dobj, 具有#VV, 细腻#NN)  (advmod, 浓郁#VA, 香味#AD)  (conj, 饮料#NN, 浓郁#VA)  (conj, 浓郁#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (dep, 浓郁#VA, 携带#VV)  (nn, 特点#NN, 方便#NN)  (etc, 方便#NN, 等#ETC)  (dobj, 携带#VV, 特点#NN)
+        </parsing>
+
+        <tag>
+            新型饮料  固体饮料  牛奶  大豆  综合成份  口感细腻  营养丰富  方便特点  携带特点  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            提高人体免疫力，延缓衰老。以减轻或避免引起更年期综合症
+        </rawdata>
+
+        <segment>
+            提高  人体  免疫力  ，  延缓  衰老  。  以  减轻  或  避免  引起  更年期  综合症
+        </segment>
+
+        <pos>
+            提高#NN  人体#NN  免疫力#VV  ，#PU  延缓#NN  衰老#VV  。#PU  以#MSP  减轻#VV  或#CC  避免#VV  引起#VV  更年期#NN  综合症#NN
+        </pos>
+
+        <parsing>
+            (nn, 人体#NN, 提高#NN)  (nsubj, 免疫力#VV, 人体#NN)  (xsubj, 减轻#VV, 人体#NN)  (root, ROOT#null, 免疫力#VV)  (nsubj, 衰老#VV, 延缓#NN)  (dep, 减轻#VV, 衰老#VV)  (prtmod, 减轻#VV, 以#MSP)  (ccomp, 免疫力#VV, 减轻#VV)  (cc, 减轻#VV, 或#CC)  (dep, 减轻#VV, 避免#VV)  (ccomp, 避免#VV, 引起#VV)  (nn, 综合症#NN, 更年期#NN)  (dobj, 引起#VV, 综合症#NN)
+        </parsing>
+
+        <tag>
+            提高人体  更年期综合症  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血脂  补钙
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/16/41/82198_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\753 大磨牌豆奶粉.jpg
+    </picturelocalurl>
+
+</content>

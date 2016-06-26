@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        154
+    </id>
+
+    <foodname>
+        芹菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        旱芹、样芹菜、药芹、香芹、蒲芹
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、肠滑不固者、血压偏低者、婚育期男士慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  肠  滑  不  固者  、  血压  偏低者  、  婚育期  男士  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  、#PU  肠#NN  滑#NN  不#AD  固者#VV  、#PU  血压#VV  偏低者#NN  、#PU  婚育期#NN  男士#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 滑#NN, 脾胃#NN)  (conj, 滑#NN, 虚寒#NN)  (nn, 滑#NN, 肠#NN)  (nsubj, 固者#VV, 滑#NN)  (neg, 固者#VV, 不#AD)  (root, ROOT#null, 固者#VV)  (dep, 固者#VV, 血压#VV)  (conj, 慎食#NN, 偏低者#NN)  (nn, 慎食#NN, 婚育期#NN)  (nn, 慎食#NN, 男士#NN)  (dobj, 血压#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒  肠滑不固者  血压偏低者  婚育期男士  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                48
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                154
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                73.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            伞形科旱芹属二年生草本，又称旱芹、药芹，以叶柄作为蔬菜食用。原产于地中海地区和中东，古代希腊人和罗马人用于调味，古代中国亦用于医药。古代芹菜的形态与现今的野芹菜相似，《齐民要术》有关于芹菜栽培技术的记载，所指多属水芹。直至李时珍著《本草纲目》，才有旱芹和水芹之分。18世纪末期，芹菜经培育形成大而多汁的肉质直立叶柄，可食用部分为其叶柄。芹菜的特点是多筋，但近年来已培育成一些少筋的变种，著名者如帕斯卡尔(Pascal)。在欧洲，芹菜通常作为蔬菜煮食或作为汤料及蔬菜炖肉等的佐料；在美国，生芹菜常用来做开胃菜或沙拉。芹菜的果实(或称籽)细小，具有与植株相似的香味，可用作佐料，特别用於汤和腌菜。
+            说到富含膳食纤维的食物，人们往往首先会想到芹菜杆、白菜梆、韭菜筋，这些富含菜筋、口感比较粗糙的食物。有些食物虽然口感不粗糙，但是也富含膳食纤维。
+            以芹菜为例，它的膳食纤维其实并不算很高，其中口感粗糙的“菜筋”是植物组织中的维管束结构，并不等同于膳食纤维。膳食纤维可以分为可溶性膳食纤维和不可溶膳食纤维两大类。食物中那些口感粗糙的部分，主要是不可溶膳食纤维，也就是通常所说的粗纤维，而可溶性膳食纤维则没有那种粗糙的口感。所以说，一种食物粗纤维多，并不代表总膳食纤维就一定多，像红薯、豌豆等没有“筋”的食物，其总膳食纤维含量却很高。
+        </rawdata>
+
+        <segment>
+            伞形科  旱芹属  二  年  生  草本  ，  又  称  旱芹  、  药芹  ，  以  叶柄  作为  蔬菜  食用  。  原  产  于  地中海  地区  和  中东  ，  古代  希腊人  和  罗马人  用  于  调味  ，  古代  中国  亦  用于  医药  。  古代  芹菜  的  形态  与  现今  的  野芹菜  相似  ，  《  齐  民  要  术  》  有  关于  芹菜  栽培  技术  的  记载  ，  所指  多  属  水芹  。  直至  李时珍  著  《  本草  纲目  》  ，  才  有  旱芹  和  水芹  之  分  。  18  世纪  末期  ，  芹菜  经  培育  形成  大而  多汁  的  肉质  直立  叶柄  ，  可食用  部分  为  其  叶柄  。  芹菜  的  特点  是  多筋  ，  但  近年  来  已  培育  成  一些  少筋  的  变种  ，  著名者  如  帕斯卡尔  (  Pascal  )  。  在  欧洲  ，  芹菜  通常  作为  蔬菜  煮  食  或  作为  汤料  及  蔬菜  炖肉  等  的  佐料  ；  在  美国  ，  生  芹菜  常  用来  做  开胃菜  或  沙拉  。  芹菜  的  果实  (  或称籽  )  细小  ，  具有  与  植株  相似  的  香味  ，  可  用作  佐料  ，  特别  用於  汤  和  腌菜  。
+            说到  富含  膳食  纤维  的  食物  ，  人们  往往  首先  会  想到  芹菜  杆  、  白菜梆  、  韭菜筋  ，  这些  富含  菜筋  、  口感  比较  粗糙  的  食物  。  有些  食物  虽然  口感  不  粗糙  ，  但是  也  富含  膳食  纤维  。
+            以  芹菜  为例  ，  它  的  膳食  纤维  其实  并不  算  很  高  ，  其中  口感  粗糙  的  “  菜筋  ”  是  植物  组织  中  的  维管束  结构  ，  并  不  等同于  膳食  纤维  。  膳食  纤维  可以  分为  可溶性  膳食  纤维  和  不可溶  膳食  纤维  两  大  类  。  食物  中  那些  口感  粗糙  的  部分  ，  主要  是  不  可溶  膳食  纤维  ，  也就是  通常  所  说  的  粗  纤维  ，  而  可溶性  膳食  纤维  则  没有  那  种  粗糙  的  口感  。  所以  说  ，  一  种  食物  粗  纤维  多  ，  并不  代表  总  膳食  纤维  就  一定  多  ，  像  红薯  、  豌豆  等  没有  “  筋  ”  的  食物  ，  其  总  膳食  纤维  含量  却  很  高  。
+        </segment>
+
+        <pos>
+            伞形科#NN  旱芹属#NN  二#CD  年#M  生#VV  草本#NN  ，#PU  又#AD  称#VV  旱芹#NR  、#PU  药芹#NR  ，#PU  以#P  叶柄#NN  作为#P  蔬菜#NN  食用#VV    。#PU  原#AD  产#VV  于#P  地中海#NR  地区#NN  和#CC  中东#NR  ，#PU  古代#NN  希腊人#NN  和#CC  罗马人#NN  用#VV  于#P  调味#NN  ，#PU  古代#NN  中国#NR  亦#AD  用于#VV  医药#NN    。#PU  古代#NN  芹菜#NN  的#DEG  形态#NN  与#P  现今#NT  的#DEG  野芹菜#NN  相似#VA  ，#PU  齐#NR  民#NN  要#VV  术#AD  有#VE  关于#P  芹菜#NN  栽培#VV  技术#NN  的#DEC  记载#NN  ，#PU  所指#NN  多#AD  属#VV  水芹#NN    。#PU  直至#CC  李时珍#AD  著#VV  本草#NN  纲目#NN  ，#PU  才#AD  有#VE  旱芹#NN  和#CC  水芹#NN  之#DEC  分#VV    。#PU  18#CD  世纪#NN  末期#VV  ，#PU  芹菜#NN  经#P  培育#VV  形成#VV  大而#NN  多汁#NN  的#DEC  肉质#NN  直立#NN  叶柄#NN  ，#PU  可食用#NN  部分#NN  为#P  其#PN  叶柄#VV    。#PU  芹菜#NN  的#DEG  特点#NN  是#VC  多筋#NN  ，#PU  但#AD  近年#NT  来#LC  已#AD  培育#VV  成#VV  一些#CD  少筋#NN  的#DEC  变种#NN  ，#PU  著名者#NN  如#CS  帕斯卡尔#AD  -LRB-#VV  Pascal#NN  -RRB-#NN    。#PU  在#P  欧洲#NR  ，#PU  芹菜#NN  通常#AD  作为#P  蔬菜#NN  煮#VV  食#NN  或#CC  作为#P  汤料#NN  及#CC  蔬菜#NN  炖肉#NN  等#ETC  的#DEG  佐料#NN  ；#PU  在#P  美国#NR  ，#PU  生#VV  芹菜#AD  常#AD  用来#AD  做#VV  开胃菜#NN  或#CC  沙拉#NN    。#PU  芹菜#NN  的#DEG  果实#NN  -LRB-#NN  或称籽#NN  -RRB-#NN  细小#VV  ，#PU  具有#VV  与#P  植株#NN  相似#VA  的#DEC  香味#NN  ，#PU  可#VV  用作#VV  佐料#NN  ，#PU  特别#AD  用於#VV  汤#NN  和#CC  腌菜#NN    。#PU    。#PU
+            说到#NN  富含#VV  膳食#NN  纤维#NN  的#DEG  食物#NN  ，#PU  人们#NN  往往#AD  首先#AD  会#VV  想到#VV  芹菜#NN  杆#VA  、#PU  白菜梆#VA  、#PU  韭菜筋#VA  ，#PU  这些#DT  富含#NN  菜筋#NN  、#PU  口感#NN  比较#AD  粗糙#VA  的#DEC  食物#NN    。#PU  有些#DT  食物#NN  虽然#CS  口感#NN  不#AD  粗糙#VV  ，#PU  但是#AD  也#AD  富含#VV  膳食#NN  纤维#NN    。#PU    。#PU
+            以#P  芹菜#NN  为例#VV  ，#PU  它#PN  的#DEG  膳食#NN  纤维#NN  其实#AD  并不#NR  算#VV  很#AD  高#VA  ，#PU  其中#NN  口感#NN  粗糙#NN  的#DEG  ``#NN  菜筋#NN  ''#NN  是#VC  植物#NN  组织#NN  中#LC  的#DEG  维管束#NN  结构#NN  ，#PU  并#CC  不#AD  等同于#VV  膳食#NN  纤维#NN    。#PU  膳食#NN  纤维#NN  可以#VV  分为#VV  可溶性#NN  膳食#NN  纤维#NN  和#CC  不可溶#NN  膳食#NN  纤维#NN  两#CD  大#JJ  类#M    。#PU  食物#NN  中#LC  那些#DT  口感#NN  粗糙#NN  的#DEG  部分#NN  ，#PU  主要#AD  是#VC  不#AD  可溶#VV  膳食#NN  纤维#NN  ，#PU  也就是#AD  通常#AD  所#MSP  说#VV  的#DEC  粗#NN  纤维#NN  ，#PU  而#CC  可溶性#NN  膳食#NN  纤维#NN  则#AD  没有#VE  那#DT  种#M  粗糙#NN  的#DEG  口感#NN    。#PU  所以#AD  说#VV  ，#PU  一#CD  种#M  食物#NN  粗#NN  纤维#NN  多#VA  ，#PU  并不#NN  代表#NN  总#JJ  膳食#NN  纤维#NN  就#AD  一定#AD  多#VA  ，#PU  像#P  红薯#NR  、#PU  豌豆#NR  等#ETC  没有#VE  ``#NN  筋#NN  ''#NN  的#DEC  食物#NN  ，#PU  其#PN  总#JJ  膳食#NN  纤维#NN  含量#NN  却#AD  很#AD  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 旱芹属#NN, 伞形科#NN)  (nsubj, 生#VV, 旱芹属#NN)  (nummod, 年#M, 二#CD)  (dep, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 草本#NN)  (advmod, 称#VV, 又#AD)  (conj, 生#VV, 称#VV)  (conj, 药芹#NR, 旱芹#NR)  (nsubj, 食用#VV, 药芹#NR)  (case, 叶柄#NN, 以#P)  (prep, 食用#VV, 叶柄#NN)  (case, 蔬菜#NN, 作为#P)  (prep, 食用#VV, 蔬菜#NN)  (ccomp, 称#VV, 食用#VV)   (advmod, 产#VV, 原#AD)  (root, ROOT#null, 产#VV)  (case, 地区#NN, 于#P)  (nn, 地区#NN, 地中海#NR)  (prep, 产#VV, 地区#NN)  (cc, 产#VV, 和#CC)  (nsubj, 用#VV, 中东#NR)  (nn, 罗马人#NN, 古代#NN)  (conj, 罗马人#NN, 希腊人#NN)  (cc, 罗马人#NN, 和#CC)  (nsubj, 用#VV, 罗马人#NN)  (dep, 产#VV, 用#VV)  (case, 调味#NN, 于#P)  (prep, 用#VV, 调味#NN)  (nsubj, 用于#VV, 古代#NN)  (nsubj, 用于#VV, 中国#NR)  (advmod, 用于#VV, 亦#AD)  (dep, 产#VV, 用于#VV)  (dobj, 用于#VV, 医药#NN)   (nn, 芹菜#NN, 古代#NN)  (assmod, 形态#NN, 芹菜#NN)  (case, 芹菜#NN, 的#DEG)  (nsubj, 相似#VA, 形态#NN)  (case, 野芹菜#NN, 与#P)  (assmod, 野芹菜#NN, 现今#NT)  (case, 现今#NT, 的#DEG)  (prep, 相似#VA, 野芹菜#NN)  (root, ROOT#null, 相似#VA)  (nn, 民#NN, 齐#NR)  (nsubj, 有#VE, 民#NN)  (mmod, 有#VE, 要#VV)  (advmod, 有#VE, 术#AD)  (conj, 相似#VA, 有#VE)  (case, 芹菜#NN, 关于#P)  (prep, 栽培#VV, 芹菜#NN)  (relcl, 记载#NN, 栽培#VV)  (dobj, 栽培#VV, 技术#NN)  (mark, 栽培#VV, 的#DEC)  (dobj, 有#VE, 记载#NN)  (nsubj, 属#VV, 所指#NN)  (advmod, 属#VV, 多#AD)  (conj, 相似#VA, 属#VV)  (dobj, 属#VV, 水芹#NN)   (cc, 著#VV, 直至#CC)  (advmod, 著#VV, 李时珍#AD)  (nsubj, 分#VV, 著#VV)  (nn, 纲目#NN, 本草#NN)  (dobj, 著#VV, 纲目#NN)  (advmod, 有#VE, 才#AD)  (dep, 著#VV, 有#VE)  (conj, 水芹#NN, 旱芹#NN)  (cc, 水芹#NN, 和#CC)  (dobj, 有#VE, 水芹#NN)  (mark, 著#VV, 之#DEC)  (root, ROOT#null, 分#VV)   (nummod, 世纪#NN, 18#CD)  (nsubj, 末期#VV, 世纪#NN)  (root, ROOT#null, 末期#VV)  (nsubj, 叶柄#VV, 芹菜#NN)  (case, 培育#VV, 经#P)  (prep, 叶柄#VV, 培育#VV)  (relcl, 叶柄#NN, 形成#VV)  (nn, 多汁#NN, 大而#NN)  (dobj, 形成#VV, 多汁#NN)  (mark, 形成#VV, 的#DEC)  (nn, 叶柄#NN, 肉质#NN)  (nn, 叶柄#NN, 直立#NN)  (dobj, 培育#VV, 叶柄#NN)  (nn, 部分#NN, 可食用#NN)  (nsubj, 叶柄#VV, 部分#NN)  (case, 其#PN, 为#P)  (prep, 叶柄#VV, 其#PN)  (ccomp, 末期#VV, 叶柄#VV)   (assmod, 特点#NN, 芹菜#NN)  (case, 芹菜#NN, 的#DEG)  (nsubj, 多筋#NN, 特点#NN)  (cop, 多筋#NN, 是#VC)  (root, ROOT#null, 多筋#NN)  (advmod, 培育#VV, 但#AD)  (loc, 培育#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (advmod, 培育#VV, 已#AD)  (conj, 多筋#NN, 培育#VV)  (relcl, 变种#NN, 成#VV)  (nummod, 少筋#NN, 一些#CD)  (dobj, 成#VV, 少筋#NN)  (mark, 成#VV, 的#DEC)  (dobj, 培育#VV, 变种#NN)  (nsubj, -LRB-#VV, 著名者#NN)  (advmod, -LRB-#VV, 如#CS)  (advmod, -LRB-#VV, 帕斯卡尔#AD)  (nn, -RRB-#NN, Pascal#NN)   (case, 欧洲#NR, 在#P)  (prep, 煮#VV, 欧洲#NR)  (nsubj, 煮#VV, 芹菜#NN)  (advmod, 煮#VV, 通常#AD)  (case, 蔬菜#NN, 作为#P)  (prep, 煮#VV, 蔬菜#NN)  (root, ROOT#null, 煮#VV)  (conj, 佐料#NN, 食#NN)  (cc, 佐料#NN, 或#CC)  (case, 炖肉#NN, 作为#P)  (conj, 炖肉#NN, 汤料#NN)  (cc, 炖肉#NN, 及#CC)  (nn, 炖肉#NN, 蔬菜#NN)  (assmod, 佐料#NN, 炖肉#NN)  (etc, 炖肉#NN, 等#ETC)  (case, 炖肉#NN, 的#DEG)  (dobj, 煮#VV, 佐料#NN)  (case, 美国#NR, 在#P)  (prep, 做#VV, 美国#NR)  (mmod, 做#VV, 生#VV)  (advmod, 做#VV, 芹菜#AD)  (advmod, 做#VV, 常#AD)  (advmod, 做#VV, 用来#AD)  (conj, 煮#VV, 做#VV)  (conj, 沙拉#NN, 开胃菜#NN)  (cc, 沙拉#NN, 或#CC)  (dobj, 做#VV, 沙拉#NN)   (assmod, -RRB-#NN, 芹菜#NN)  (case, 芹菜#NN, 的#DEG)  (nn, -RRB-#NN, 果实#NN)  (nn, -RRB-#NN, 或称籽#NN)  (root, ROOT#null, 细小#VV)  (dep, 用作#VV, 具有#VV)  (case, 植株#NN, 与#P)  (prep, 相似#VA, 植株#NN)  (relcl, 香味#NN, 相似#VA)  (mark, 相似#VA, 的#DEC)  (dobj, 具有#VV, 香味#NN)  (mmod, 用作#VV, 可#VV)  (ccomp, 细小#VV, 用作#VV)  (dobj, 用作#VV, 佐料#NN)  (advmod, 用於#VV, 特别#AD)  (dep, 用作#VV, 用於#VV)  (conj, 腌菜#NN, 汤#NN)  (cc, 腌菜#NN, 和#CC)  (dobj, 用於#VV, 腌菜#NN)   (root, ROOT#null, null#null)
+            (nsubj, 富含#VV, 说到#NN)  (root, ROOT#null, 富含#VV)  (nn, 纤维#NN, 膳食#NN)  (assmod, 食物#NN, 纤维#NN)  (case, 纤维#NN, 的#DEG)  (nsubj, 想到#VV, 食物#NN)  (nsubj, 想到#VV, 人们#NN)  (advmod, 想到#VV, 往往#AD)  (advmod, 想到#VV, 首先#AD)  (mmod, 想到#VV, 会#VV)  (relcl, 食物#NN, 想到#VV)  (nsubj, 杆#VA, 芹菜#NN)  (ccomp, 想到#VV, 杆#VA)  (conj, 杆#VA, 白菜梆#VA)  (dep, 杆#VA, 韭菜筋#VA)  (det, 富含#NN, 这些#DT)  (nn, 口感#NN, 富含#NN)  (conj, 口感#NN, 菜筋#NN)  (nsubj, 粗糙#VA, 口感#NN)  (advmod, 粗糙#VA, 比较#AD)  (conj, 杆#VA, 粗糙#VA)  (mark, 想到#VV, 的#DEC)  (dobj, 富含#VV, 食物#NN)   (det, 食物#NN, 有些#DT)  (nsubj, 富含#VV, 食物#NN)  (advmod, 粗糙#VV, 虽然#CS)  (nsubj, 粗糙#VV, 口感#NN)  (neg, 粗糙#VV, 不#AD)  (dep, 富含#VV, 粗糙#VV)  (advmod, 富含#VV, 但是#AD)  (advmod, 富含#VV, 也#AD)  (root, ROOT#null, 富含#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 富含#VV, 纤维#NN)   (root, ROOT#null, null#null)
+            (case, 芹菜#NN, 以#P)  (prep, 为例#VV, 芹菜#NN)  (root, ROOT#null, 为例#VV)  (assmod, 纤维#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 算#VV, 纤维#NN)  (xsubj, 高#VA, 纤维#NN)  (advmod, 算#VV, 其实#AD)  (nsubj, 算#VV, 并不#NR)  (xsubj, 高#VA, 并不#NR)  (ccomp, 为例#VV, 算#VV)  (advmod, 高#VA, 很#AD)  (ccomp, 算#VV, 高#VA)  (nn, 粗糙#NN, 其中#NN)  (nn, 粗糙#NN, 口感#NN)  (assmod, ''#NN, 粗糙#NN)  (case, 粗糙#NN, 的#DEG)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 菜筋#NN)  (nsubj, 结构#NN, ''#NN)  (cop, 结构#NN, 是#VC)  (nn, 组织#NN, 植物#NN)  (assmod, 结构#NN, 组织#NN)  (case, 组织#NN, 中#LC)  (case, 组织#NN, 的#DEG)  (nn, 结构#NN, 维管束#NN)  (conj, 算#VV, 结构#NN)  (cc, 为例#VV, 并#CC)  (neg, 等同于#VV, 不#AD)  (dep, 为例#VV, 等同于#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 等同于#VV, 纤维#NN)   (nn, 纤维#NN, 膳食#NN)  (nsubj, 分为#VV, 纤维#NN)  (mmod, 分为#VV, 可以#VV)  (root, ROOT#null, 分为#VV)  (nn, 纤维#NN, 可溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (conj, 纤维#NN, 纤维#NN)  (cc, 纤维#NN, 和#CC)  (nn, 纤维#NN, 不可溶#NN)  (nn, 纤维#NN, 膳食#NN)  (dobj, 分为#VV, 纤维#NN)  (nummod, 类#M, 两#CD)  (amod, 类#M, 大#JJ)  (range, 分为#VV, 类#M)   (dep, 部分#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (det, 粗糙#NN, 那些#DT)  (nn, 粗糙#NN, 口感#NN)  (assmod, 部分#NN, 粗糙#NN)  (case, 粗糙#NN, 的#DEG)  (nsubj, 纤维#NN, 部分#NN)  (advmod, 纤维#NN, 主要#AD)  (cop, 纤维#NN, 是#VC)  (neg, 可溶#VV, 不#AD)  (relcl, 纤维#NN, 可溶#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 可溶#VV, 纤维#NN)  (advmod, 说#VV, 也就是#AD)  (advmod, 说#VV, 通常#AD)  (prtmod, 说#VV, 所#MSP)  (dep, 可溶#VV, 说#VV)  (mark, 可溶#VV, 的#DEC)  (nn, 纤维#NN, 粗#NN)  (root, ROOT#null, 纤维#NN)  (cc, 纤维#NN, 而#CC)  (nn, 纤维#NN, 可溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 没有#VE, 纤维#NN)  (advmod, 没有#VE, 则#AD)  (conj, 纤维#NN, 没有#VE)  (det, 粗糙#NN, 那#DT)  (clf, 那#DT, 种#M)  (assmod, 口感#NN, 粗糙#NN)  (case, 粗糙#NN, 的#DEG)  (dobj, 没有#VE, 口感#NN)   (advmod, 高#VA, 所以#AD)  (relcl, 食物#NN, 说#VV)  (nummod, 种#M, 一#CD)  (clf, 粗#NN, 种#M)  (nn, 粗#NN, 食物#NN)  (nn, 纤维#NN, 粗#NN)  (nsubj, 多#VA, 纤维#NN)  (ccomp, 说#VV, 多#VA)  (nn, 代表#NN, 并不#NN)  (nn, 膳食#NN, 代表#NN)  (amod, 膳食#NN, 总#JJ)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 多#VA, 纤维#NN)  (advmod, 多#VA, 就#AD)  (advmod, 多#VA, 一定#AD)  (conj, 多#VA, 多#VA)  (case, 豌豆#NR, 像#P)  (conj, 豌豆#NR, 红薯#NR)  (prep, 没有#VE, 豌豆#NR)  (etc, 豌豆#NR, 等#ETC)  (conj, 多#VA, 没有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 筋#NN)  (dobj, 没有#VE, ''#NN)  (mark, 说#VV, 的#DEC)  (nsubj, 高#VA, 食物#NN)  (nsubj, 高#VA, 其#PN)  (amod, 膳食#NN, 总#JJ)  (nn, 纤维#NN, 膳食#NN)  (nn, 含量#NN, 纤维#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 却#AD)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+            伞形科旱芹属  药芹  古代罗马人  希腊人  用于医药  形态相似  栽培记载  栽培技术  本草纲目  水芹  末期  形成叶柄  大而多汁  形成多汁  肉质叶柄  直立叶柄  培育叶柄  可食用部分  成变种  培育变种  汤料  蔬菜炖肉  沙拉  开胃菜  细小  香味相似  用作佐料  用於腌菜  膳食纤维  想到食物  富含口感  菜筋  口感粗糙  富含食物  富含纤维  为例  植物组织  维管束结构  等同于纤维  可溶性纤维  不可溶纤维  分为纤维  没有口感  说食物  并不代表  代表膳食  总膳食  豌豆  红薯  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.平肝降压
+            菜含酸性的降压成分，临床对于原发性、妊娠性及更年期高血压均有效。
+            2.镇静安神
+            多食芹菜有利于安定情绪，消除烦躁。
+            3.防癌抗癌
+            它经肠内消化作用产生一种木质素或肠内脂的物质，这类物质是一种抗氧化剂，高浓度时可抑制肠内细菌产生的致癌物质。它还可以加快粪便在肠内的运转时间，减少致癌物与结肠粘膜的接触达到预防结肠癌的目的。
+            4.养血补虚
+            芹菜含铁量较高，能补充妇女经血的损失，食之能避免皮肤苍白、干燥、面色无华，而且可使目光有神，头发黑亮。
+            5.清热解毒
+            春季气候干燥，人们往往感到口干舌燥气喘心烦，身体不适，常吃些芹菜有助于清热解毒，去病强身。肝火过旺，皮肤粗糙及经常失眠、头疼的人可适当多吃些。
+            6.减肥
+            当你嘴巴里正在咀嚼芹菜的同时，你消耗的热能远大于芹菜给予你的能量。　
+        </rawdata>
+
+        <segment>
+            平肝  降压
+            菜  含  酸性  的  降压  成分  ，  临床  对于  原发性  、  妊娠  性  及  更年期  高血压  均  有效  。
+            镇静  安神
+            多  食  芹菜  有利于  安定  情绪  ，  消除  烦躁  。
+            防癌  抗癌
+            它  经  肠内  消化  作用  产生  一  种  木质素  或  肠内脂  的  物质  ，  这  类  物质  是  一  种  抗氧化剂  ，  高  浓度  时  可  抑制  肠内  细菌  产生  的  致癌  物质  。  它  还  可以  加快  粪便  在  肠内  的  运转  时间  ，  减少  致癌物  与  结肠  粘膜  的  接触  达到  预防  结肠  癌的  目的  。
+            养  血  补  虚
+            芹菜  含铁  量  较  高  ，  能  补充  妇女  经血  的  损失  ，  食  之  能  避免  皮肤  苍白  、  干燥  、  面色  无华  ，  而且  可使  目光  有神  ，  头发  黑亮  。
+            清热  解毒
+            春季  气候  干燥  ，  人们  往往  感到  口干舌燥  气喘  心烦  ，  身体  不适  ，  常  吃  些  芹菜  有助于  清热  解毒  ，  去病  强身  。  肝火  过旺  ，  皮肤  粗糙  及  经常  失眠  、  头疼  的  人  可  适当  多  吃  些  。
+            减肥
+            当  你  嘴巴  里  正在  咀嚼  芹菜  的  同时  ，  你  消耗  的  热能  远大  于  芹菜  给予  你  的  能量  。
+        </segment>
+
+        <pos>
+            平肝#NN  降压#VV
+            菜#NN  含#VV  酸性#NN  的#DEG  降压#JJ  成分#NN  ，#PU  临床#NN  对于#P  原发性#VV  、#PU  妊娠#VV  性#NN  及#CC  更年期#NN  高血压#NN  均#AD  有效#VA  。#PU
+            镇静#NN  安神#VV
+            多#CD  食#NN  芹菜#AD  有利于#VV  安定#NN  情绪#NN  ，#PU  消除#VV  烦躁#NN  。#PU
+            防癌#NN  抗癌#VV
+            它#PN  经#P  肠内#NN  消化#NN  作用#NN  产生#VV  一#CD  种#M  木质素#NN  或#CC  肠内脂#NN  的#DEG  物质#NN  ，#PU  这#DT  类#M  物质#NN  是#VC  一#CD  种#M  抗氧化剂#NN  ，#PU  高#JJ  浓度#NN  时#LC  可#VV  抑制#VV  肠内#AD  细菌#AD  产生#VV  的#DEC  致癌#NN  物质#NN    。#PU  它#PN  还#AD  可以#VV  加快#VV  粪便#NN  在#P  肠内#NN  的#DEG  运转#VV  时间#NN  ，#PU  减少#VV  致癌物#NN  与#CC  结肠#NN  粘膜#NN  的#DEC  接触#NN  达到#VV  预防#NN  结肠#NN  癌的#JJ  目的#NN    。#PU    。#PU
+            养#VV  血#NN  补#VV  虚#AD
+            芹菜#NN  含铁#VV  量#NN  较#AD  高#VA  ，#PU  能#VV  补充#VV  妇女#NN  经血#NN  的#DEC  损失#NN  ，#PU  食#NN  之#PN  能#VV  避免#VV  皮肤#NR  苍白#NR  、#PU  干燥#NR  、#PU  面色#NR  无华#NN  ，#PU  而且#CC  可使#NN  目光#NN  有神#NN  ，#PU  头发#NN  黑亮#VV  。#PU
+            清热#NN  解毒#VV
+            春季#NT  气候#NN  干燥#VV  ，#PU  人们#NN  往往#AD  感到#VV  口干舌燥#NN  气喘#NN  心烦#NN  ，#PU  身体#NN  不适#NN  ，#PU  常#AD  吃#VV  些#CD  芹菜#NN  有助于#VV  清热#VV  解毒#NN  ，#PU  去病#VV  强身#NN    。#PU  肝火#NR  过旺#VV  ，#PU  皮肤#NN  粗糙#NN  及#CC  经常#JJ  失眠#NN  、#PU  头疼#NN  的#DEG  人#NN  可#VV  适当#AD  多#AD  吃#VV  些#CD    。#PU    。#PU
+            减肥#VV
+            当#P  你#PN  嘴巴#NN  里#LC  正在#AD  咀嚼#VV  芹菜#NN  的#DEC  同时#NN  ，#PU  你#PN  消耗#VV  的#DEC  热能#NN  远大#VA  于#P  芹菜#NN  给予#VV  你#PN  的#DEG  能量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 降压#VV, 平肝#NN)  (root, ROOT#null, 降压#VV)
+            (nsubj, 含#VV, 菜#NN)  (root, ROOT#null, 含#VV)  (assmod, 成分#NN, 酸性#NN)  (case, 酸性#NN, 的#DEG)  (amod, 成分#NN, 降压#JJ)  (dobj, 含#VV, 成分#NN)  (nsubj, 有效#VA, 临床#NN)  (case, 原发性#VV, 对于#P)  (prep, 有效#VA, 原发性#VV)  (dep, 原发性#VV, 妊娠#VV)  (conj, 高血压#NN, 性#NN)  (cc, 高血压#NN, 及#CC)  (nn, 高血压#NN, 更年期#NN)  (dobj, 妊娠#VV, 高血压#NN)  (advmod, 有效#VA, 均#AD)  (conj, 含#VV, 有效#VA)
+            (nsubj, 安神#VV, 镇静#NN)  (root, ROOT#null, 安神#VV)
+            (nummod, 食#NN, 多#CD)  (nsubj, 有利于#VV, 食#NN)  (advmod, 有利于#VV, 芹菜#AD)  (root, ROOT#null, 有利于#VV)  (nn, 情绪#NN, 安定#NN)  (dobj, 有利于#VV, 情绪#NN)  (dep, 有利于#VV, 消除#VV)  (dobj, 消除#VV, 烦躁#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nsubj, 产生#VV, 它#PN)  (case, 作用#NN, 经#P)  (nn, 作用#NN, 肠内#NN)  (nn, 作用#NN, 消化#NN)  (prep, 产生#VV, 作用#NN)  (root, ROOT#null, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 肠内脂#NN, 种#M)  (conj, 肠内脂#NN, 木质素#NN)  (cc, 肠内脂#NN, 或#CC)  (assmod, 物质#NN, 肠内脂#NN)  (case, 肠内脂#NN, 的#DEG)  (dobj, 产生#VV, 物质#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 类#M)  (nsubj, 抗氧化剂#NN, 物质#NN)  (cop, 抗氧化剂#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (conj, 产生#VV, 抗氧化剂#NN)  (amod, 浓度#NN, 高#JJ)  (loc, 抑制#VV, 浓度#NN)  (case, 浓度#NN, 时#LC)  (mmod, 抑制#VV, 可#VV)  (conj, 产生#VV, 抑制#VV)  (advmod, 产生#VV, 肠内#AD)  (advmod, 产生#VV, 细菌#AD)  (relcl, 物质#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, 物质#NN, 致癌#NN)  (dobj, 抑制#VV, 物质#NN)   (nsubj, 加快#VV, 它#PN)  (advmod, 加快#VV, 还#AD)  (mmod, 加快#VV, 可以#VV)  (root, ROOT#null, 加快#VV)  (dobj, 加快#VV, 粪便#NN)  (case, 接触#NN, 在#P)  (assmod, 接触#NN, 肠内#NN)  (case, 肠内#NN, 的#DEG)  (relcl, 接触#NN, 运转#VV)  (dobj, 运转#VV, 时间#NN)  (conj, 运转#VV, 减少#VV)  (conj, 结肠#NN, 致癌物#NN)  (cc, 结肠#NN, 与#CC)  (nn, 粘膜#NN, 结肠#NN)  (dobj, 减少#VV, 粘膜#NN)  (mark, 运转#VV, 的#DEC)  (prep, 达到#VV, 接触#NN)  (dep, 加快#VV, 达到#VV)  (nn, 结肠#NN, 预防#NN)  (nn, 目的#NN, 结肠#NN)  (amod, 目的#NN, 癌的#JJ)  (dobj, 达到#VV, 目的#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)  (conj, 养#VV, 补#VV)  (advmod, 补#VV, 虚#AD)
+            (nsubj, 含铁#VV, 芹菜#NN)  (root, ROOT#null, 含铁#VV)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 较#AD)  (relcl, 损失#NN, 高#VA)  (mmod, 补充#VV, 能#VV)  (dep, 高#VA, 补充#VV)  (nn, 经血#NN, 妇女#NN)  (dobj, 补充#VV, 经血#NN)  (mark, 高#VA, 的#DEC)  (dobj, 含铁#VV, 损失#NN)  (nsubj, 避免#VV, 食#NN)  (nsubj, 避免#VV, 之#PN)  (mmod, 避免#VV, 能#VV)  (conj, 含铁#VV, 避免#VV)  (nn, 面色#NR, 皮肤#NR)  (conj, 面色#NR, 苍白#NR)  (conj, 面色#NR, 干燥#NR)  (nn, 无华#NN, 面色#NR)  (dobj, 避免#VV, 无华#NN)  (cc, 含铁#VV, 而且#CC)  (nn, 有神#NN, 可使#NN)  (nn, 有神#NN, 目光#NN)  (nsubj, 黑亮#VV, 有神#NN)  (nsubj, 黑亮#VV, 头发#NN)  (conj, 含铁#VV, 黑亮#VV)
+            (nsubj, 解毒#VV, 清热#NN)  (root, ROOT#null, 解毒#VV)
+            (tmod, 干燥#VV, 春季#NT)  (nsubj, 干燥#VV, 气候#NN)  (root, ROOT#null, 干燥#VV)  (nsubj, 感到#VV, 人们#NN)  (advmod, 感到#VV, 往往#AD)  (ccomp, 干燥#VV, 感到#VV)  (nn, 心烦#NN, 口干舌燥#NN)  (nn, 心烦#NN, 气喘#NN)  (dobj, 感到#VV, 心烦#NN)  (nn, 不适#NN, 身体#NN)  (nsubj, 有助于#VV, 不适#NN)  (xsubj, 清热#VV, 不适#NN)  (advmod, 吃#VV, 常#AD)  (dep, 有助于#VV, 吃#VV)  (nummod, 芹菜#NN, 些#CD)  (dobj, 吃#VV, 芹菜#NN)  (conj, 感到#VV, 有助于#VV)  (ccomp, 有助于#VV, 清热#VV)  (dobj, 清热#VV, 解毒#NN)  (conj, 清热#VV, 去病#VV)  (dobj, 去病#VV, 强身#NN)   (nsubj, 过旺#VV, 肝火#NR)  (root, ROOT#null, 过旺#VV)  (nn, 粗糙#NN, 皮肤#NN)  (conj, 头疼#NN, 粗糙#NN)  (cc, 头疼#NN, 及#CC)  (amod, 头疼#NN, 经常#JJ)  (conj, 头疼#NN, 失眠#NN)  (assmod, 人#NN, 头疼#NN)  (case, 头疼#NN, 的#DEG)  (nsubj, 吃#VV, 人#NN)  (mmod, 吃#VV, 可#VV)  (advmod, 吃#VV, 适当#AD)  (advmod, 吃#VV, 多#AD)  (ccomp, 过旺#VV, 吃#VV)  (range, 吃#VV, 些#CD)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 减肥#VV)
+            (case, 同时#NN, 当#P)  (nsubj, 咀嚼#VV, 你#PN)  (loc, 咀嚼#VV, 嘴巴#NN)  (case, 嘴巴#NN, 里#LC)  (advmod, 咀嚼#VV, 正在#AD)  (relcl, 同时#NN, 咀嚼#VV)  (dobj, 咀嚼#VV, 芹菜#NN)  (mark, 咀嚼#VV, 的#DEC)  (prep, 给予#VV, 同时#NN)  (nsubj, 消耗#VV, 你#PN)  (relcl, 热能#NN, 消耗#VV)  (mark, 消耗#VV, 的#DEC)  (nsubj, 远大#VA, 热能#NN)  (dep, 给予#VV, 远大#VA)  (case, 芹菜#NN, 于#P)  (prep, 给予#VV, 芹菜#NN)  (root, ROOT#null, 给予#VV)  (assmod, 能量#NN, 你#PN)  (case, 你#PN, 的#DEG)  (dobj, 给予#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+            降压  临床有效  更年期高血压  妊娠高血压  安神  安定情绪  有利于情绪  消除烦躁  抗癌  产生  肠内脂  木质素  高浓度  加快粪便  运转接触  运转时间  致癌物  结肠粘膜  减少粘膜  预防结肠  妇女经血  补充经血  含铁损失  面色  苍白  干燥  避免无华  可使有神  目光有神  口干舌燥心烦  气喘心烦  感到心烦  身体不适  清热解毒  去病强身  过旺  皮肤粗糙  经常头疼  失眠  减肥  咀嚼同时  消耗热能  热能远大  给予能量  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        安神  降血压  抗癌  解毒  清热  止血  益智
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            茎叶含芹菜甙、佛手柑内酯、有机酸、
+        </rawdata>
+
+        <segment>
+            茎叶  含  芹菜甙  、  佛手柑  内酯  、  有机酸  、
+        </segment>
+
+        <pos>
+            茎叶#NR  含#VV  芹菜甙#NN  、#PU  佛手柑#NN  内酯#NN  、#PU  有机酸#NN  、#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 茎叶#NR)  (root, ROOT#null, 含#VV)  (conj, 有机酸#NN, 芹菜甙#NN)  (nn, 有机酸#NN, 佛手柑#NN)  (conj, 有机酸#NN, 内酯#NN)  (nn, 、#NN, 有机酸#NN)
+        </parsing>
+
+        <tag>
+            佛手柑有机酸  内酯  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.芹菜可炒、拌、炝或做配料，也可作馅心。
+            2.很多人只吃芹菜杆，其实芹菜叶的降压效果很好，营养成分很高，而且滋味爽口。择下的芹菜叶可以凉拌，增加个下酒小菜。芹菜叶中所含的维生素C比茎多，含有的胡萝卜素也比茎部高，因此吃时不要把能吃的嫩叶扔掉。我们可以将芹菜叶做汤，长期食用可以帮助人安眠入睡，使皮肤有光泽。
+            3.用于高血压病、眩晕头痛、面红目赤、血淋、痈肿等症。可用鲜芹菜500克，捣取汁，开水冲服，每日1剂。
+            4.应用于大便出血：水芹适量，洗净捣烂，取汁半碗，调红糖适量服。
+            5.应用于痄腮：鲜水芹适量，捣烂取汁，加酸醋服，外搽患处。
+        </rawdata>
+
+        <segment>
+            芹菜  可  炒  、  拌  、  炝或  做  配料  ，  也  可  作  馅心  。
+            很多  人  只  吃  芹菜杆  ，  其实  芹菜叶  的  降压  效果  很  好  ，  营养  成分  很  高  ，  而且  滋味  爽口  。  择下  的  芹菜  叶  可以  凉拌  ，  增加  个  下酒  小菜  。  芹菜  叶  中  所  含  的  维生素C  比  茎多  ，  含有  的  胡萝卜素  也  比  茎部  高  ，  因此  吃  时  不  要  把  能吃  的  嫩叶  扔掉  。  我们  可以  将  芹菜  叶  做  汤  ，  长期  食用  可以  帮助  人  安眠  入睡  ，  使  皮肤  有  光泽  。
+            用于  高血压  病  、  眩晕  头痛  、  面红  目  赤  、  血淋  、  痈肿  等症  。  可用  鲜  芹菜  500  克  ，  捣取汁  ，  开水  冲服  ，  每  日  1  剂  。
+            应用于  大便  出血  ：  水芹  适量  ，  洗净  捣烂  ，  取汁半  碗  ，  调  红糖  适量  服  。
+            应用于  痄腮  ：  鲜  水芹  适量  ，  捣烂  取汁  ，  加酸醋服  ，  外搽  患处  。
+        </segment>
+
+        <pos>
+            芹菜#NR  可#VV  炒#NR  、#PU  拌#NR  、#PU  炝或#NR  做#VV  配料#NN  ，#PU  也#AD  可#VV  作#VV  馅心#NN  。#PU
+            很多#CD  人#NN  只#AD  吃#VV  芹菜杆#NN  ，#PU  其实#AD  芹菜叶#NN  的#DEG  降压#NN  效果#NN  很#AD  好#VA  ，#PU  营养#VA  成分#NN  很#AD  高#VA  ，#PU  而且#CC  滋味#NN  爽口#VA    。#PU  择下#NN  的#DEG  芹菜#NN  叶#NN  可以#VV  凉拌#VV  ，#PU  增加#VV  个#M  下酒#JJ  小菜#NN    。#PU  芹菜#NN  叶#NN  中#LC  所#MSP  含#VV  的#DEC  维生素C#NN  比#P  茎多#VV  ，#PU  含有#NN  的#DEG  胡萝卜素#NN  也#AD  比#P  茎部#NN  高#VA  ，#PU  因此#AD  吃#VV  时#LC  不#AD  要#VV  把#BA  能吃#NN  的#DEG  嫩叶#NN  扔掉#VV    。#PU  我们#PN  可以#VV  将#BA  芹菜#NN  叶#NN  做#VV  汤#NN  ，#PU  长期#AD  食用#VV  可以#VV  帮助#VV  人#NN  安眠#VV  入睡#NN  ，#PU  使#VV  皮肤#NN  有#VE  光泽#NN    。#PU    。#PU
+            用于#VV  高血压#NN  病#JJ  、#PU  眩晕#NN  头痛#NN  、#PU  面红#CD  目#M  赤#NR  、#PU  血淋#NR  、#PU  痈肿#NR  等症#NN    。#PU  可用#JJ  鲜#NN  芹菜#VV  500#CD  克#M  ，#PU  捣取汁#NN  ，#PU  开水#AD  冲服#VV  ，#PU  每#DT  日#M  1#CD  剂#NN    。#PU    。#PU
+            应用于#NN  大便#NN  出血#VV  ：#PU  水芹#VV  适量#NN  ，#PU  洗净#VV  捣烂#NN  ，#PU  取汁半#VV  碗#NN  ，#PU  调#VV  红糖#NN  适量#NN  服#NN  。#PU
+            应用于#NR  痄腮#VV  ：#PU  鲜#NN  水芹#VV  适量#NN  ，#PU  捣烂#VV  取汁#NN  ，#PU  加酸醋服#VV  ，#PU  外搽#VV  患处#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 做#VV, 芹菜#NR)  (mmod, 做#VV, 可#VV)  (conj, 炝或#NR, 炒#NR)  (conj, 炝或#NR, 拌#NR)  (prep, 做#VV, 炝或#NR)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 配料#NN)  (advmod, 作#VV, 也#AD)  (mmod, 作#VV, 可#VV)  (dep, 做#VV, 作#VV)  (dobj, 作#VV, 馅心#NN)
+            (nummod, 人#NN, 很多#CD)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 只#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 芹菜杆#NN)  (advmod, 好#VA, 其实#AD)  (assmod, 效果#NN, 芹菜叶#NN)  (case, 芹菜叶#NN, 的#DEG)  (nn, 效果#NN, 降压#NN)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 很#AD)  (conj, 吃#VV, 好#VA)  (relcl, 成分#NN, 营养#VA)  (nsubj, 高#VA, 成分#NN)  (advmod, 高#VA, 很#AD)  (conj, 好#VA, 高#VA)  (cc, 好#VA, 而且#CC)  (nsubj, 爽口#VA, 滋味#NN)  (conj, 好#VA, 爽口#VA)   (assmod, 叶#NN, 择下#NN)  (case, 择下#NN, 的#DEG)  (nn, 叶#NN, 芹菜#NN)  (nsubj, 凉拌#VV, 叶#NN)  (mmod, 凉拌#VV, 可以#VV)  (root, ROOT#null, 凉拌#VV)  (dep, 凉拌#VV, 增加#VV)  (dep, 小菜#NN, 个#M)  (amod, 小菜#NN, 下酒#JJ)  (dobj, 增加#VV, 小菜#NN)   (nn, 叶#NN, 芹菜#NN)  (loc, 含#VV, 叶#NN)  (case, 叶#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 维生素C#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 扔掉#VV, 维生素C#NN)  (case, 茎多#VV, 比#P)  (prep, 扔掉#VV, 茎多#VV)  (assmod, 胡萝卜素#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 高#VA, 胡萝卜素#NN)  (advmod, 高#VA, 也#AD)  (case, 茎部#NN, 比#P)  (prep, 高#VA, 茎部#NN)  (ccomp, 茎多#VV, 高#VA)  (advmod, 吃#VV, 因此#AD)  (dep, 高#VA, 吃#VV)  (case, 茎多#VV, 时#LC)  (neg, 扔掉#VV, 不#AD)  (mmod, 扔掉#VV, 要#VV)  (ba, 扔掉#VV, 把#BA)  (assmod, 嫩叶#NN, 能吃#NN)  (case, 能吃#NN, 的#DEG)  (nsubj, 扔掉#VV, 嫩叶#NN)  (root, ROOT#null, 扔掉#VV)   (nsubj, 做#VV, 我们#PN)  (mmod, 做#VV, 可以#VV)  (ba, 做#VV, 将#BA)  (nn, 叶#NN, 芹菜#NN)  (nsubj, 做#VV, 叶#NN)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 汤#NN)  (advmod, 帮助#VV, 长期#AD)  (mmod, 帮助#VV, 食用#VV)  (mmod, 帮助#VV, 可以#VV)  (ccomp, 做#VV, 帮助#VV)  (conj, 做#VV, 帮助#VV)  (dobj, 帮助#VV, 人#NN)  (dep, 帮助#VV, 安眠#VV)  (dobj, 安眠#VV, 入睡#NN)  (ccomp, 做#VV, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 有#VE)  (dobj, 有#VE, 光泽#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 用于#VV)  (nn, 等症#NN, 高血压#NN)  (amod, 等症#NN, 病#JJ)  (nn, 头痛#NN, 眩晕#NN)  (conj, 等症#NN, 头痛#NN)  (nummod, 目#M, 面红#CD)  (clf, 等症#NN, 目#M)  (conj, 痈肿#NR, 赤#NR)  (conj, 痈肿#NR, 血淋#NR)  (nn, 等症#NN, 痈肿#NR)  (dobj, 用于#VV, 等症#NN)   (amod, 鲜#NN, 可用#JJ)  (nsubj, 芹菜#VV, 鲜#NN)  (root, ROOT#null, 芹菜#VV)  (nummod, 克#M, 500#CD)  (range, 芹菜#VV, 克#M)  (nsubj, 冲服#VV, 捣取汁#NN)  (advmod, 冲服#VV, 开水#AD)  (conj, 芹菜#VV, 冲服#VV)  (dep, 剂#NN, 每#DT)  (clf, 每#DT, 日#M)  (nummod, 剂#NN, 1#CD)  (conj, 芹菜#VV, 剂#NN)   (root, ROOT#null, null#null)
+            (nn, 大便#NN, 应用于#NN)  (nsubj, 出血#VV, 大便#NN)  (root, ROOT#null, 出血#VV)  (conj, 出血#VV, 水芹#VV)  (dobj, 水芹#VV, 适量#NN)  (conj, 出血#VV, 洗净#VV)  (dobj, 洗净#VV, 捣烂#NN)  (conj, 出血#VV, 取汁半#VV)  (dobj, 取汁半#VV, 碗#NN)  (conj, 出血#VV, 调#VV)  (nn, 服#NN, 红糖#NN)  (nn, 服#NN, 适量#NN)  (dobj, 调#VV, 服#NN)
+            (nsubj, 痄腮#VV, 应用于#NR)  (root, ROOT#null, 痄腮#VV)  (nsubj, 水芹#VV, 鲜#NN)  (ccomp, 痄腮#VV, 水芹#VV)  (dobj, 水芹#VV, 适量#NN)  (conj, 水芹#VV, 捣烂#VV)  (dobj, 捣烂#VV, 取汁#NN)  (conj, 水芹#VV, 加酸醋服#VV)  (conj, 水芹#VV, 外搽#VV)  (dobj, 外搽#VV, 患处#NN)
+        </parsing>
+
+        <tag>
+            降压效果  滋味爽口  凉拌  下酒小菜  增加小菜  含维生素C  胡萝卜素  扔掉  帮助人  安眠入睡  高血压等症  病等症  眩晕头痛  痈肿  血淋  用于等症  可用鲜  应用于大便  出血  水芹适量  洗净捣烂  取汁半碗  痄腮  捣烂取汁  外搽患处  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/060956349007.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\154 芹菜.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        1097
+    </id>
+
+    <foodname>
+        袖珍菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        小平菇、姬菇
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚弱，过敏者慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚弱  ，  过敏  者  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#NR  虚弱#VV  ，#PU  过敏#NN  者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 虚弱#VV, 脾胃#NR)  (root, ROOT#null, 虚弱#VV)  (nn, 者#NN, 过敏#NN)  (nsubj, 慎食#VV, 者#NN)  (ccomp, 虚弱#VV, 慎食#VV)
+        </parsing>
+
+        <tag>
+            脾胃虚弱  过敏者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质，湿热体质，痰湿体质，阳虚体质，阴虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  ，  湿热  体质  ，  痰湿  体质  ，  阳虚  体质  ，  阴虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  ，#PU  湿热#VV  体质#NN  ，#PU  痰湿#VV  体质#NN  ，#PU  阳虚#VV  体质#NN  ，#PU  阴虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)  (conj, 适宜#VV, 湿热#VV)  (dobj, 湿热#VV, 体质#NN)  (conj, 适宜#VV, 痰湿#VV)  (dobj, 痰湿#VV, 体质#NN)  (conj, 适宜#VV, 阳虚#VV)  (dobj, 阳虚#VV, 体质#NN)  (conj, 适宜#VV, 阴虚#VV)  (dobj, 阴虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  湿热体质  痰湿体质  阳虚体质  阴虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            别名：小平菇、姬菇，隶属于真菌门，担子菌纲，伞菌目，侧耳科，侧耳属。袖珍菇属于营养高，热量低的健康食品，含有蛋白质、糖份，脂肪、维生素和铁、钙等微量元素，其蛋白质的含量高于一般蔬菜。袖珍菇所含氨基酸种类十分丰富。其中含有人体所必需的八种氨基酸，长期食用有降低高血压和降低胆固醇含量的功能
+        </rawdata>
+
+        <segment>
+            别名  ：  小  平菇  、  姬菇  ，  隶属于  真菌  门  ，  担子菌纲  ，  伞菌目  ，  侧  耳科  ，  侧耳  属  。  袖珍  菇  属于  营养  高  ，  热量  低  的  健康  食品  ，  含有  蛋白质  、  糖份  ，  脂肪  、  维生素  和  铁  、  钙  等  微量  元素  ，  其  蛋白质  的  含量  高于  一般  蔬菜  。  袖珍  菇所含  氨基酸  种类  十分  丰富  。  其中  含有  人体  所  必需  的  八  种  氨基酸  ，  长期  食用  有  降低  高血压  和  降低  胆固醇  含量  的  功能
+        </segment>
+
+        <pos>
+            别名#VV  ：#PU  小#JJ  平菇#NN  、#PU  姬菇#NN  ，#PU  隶属于#VV  真菌#CD  门#M  ，#PU  担子菌纲#VV  ，#PU  伞菌目#CD  ，#PU  侧#LC  耳科#VV  ，#PU  侧耳#AD  属#VV    。#PU  袖珍#NR  菇#AD  属于#VV  营养#VA  高#VA  ，#PU  热量#AD  低#VA  的#DEC  健康#JJ  食品#NN  ，#PU  含有#VV  蛋白质#NN  、#PU  糖份#NN  ，#PU  脂肪#NN  、#PU  维生素#NN  和#CC  铁#NN  、#PU  钙#NN  等#ETC  微量#NN  元素#NN  ，#PU  其#PN  蛋白质#VV  的#DEC  含量#NN  高于#VV  一般#JJ  蔬菜#NN    。#PU  袖珍#NN  菇所含#NN  氨基酸#NN  种类#NN  十分#AD  丰富#VA    。#PU  其中#NN  含有#VV  人体#AD  所#MSP  必需#VV  的#DEC  八#CD  种#M  氨基酸#NN  ，#PU  长期#AD  食用#VV  有#VE  降低#VV  高血压#NN  和#CC  降低#VV  胆固醇#NN  含量#NN  的#DEC  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 别名#VV)  (amod, 姬菇#NN, 小#JJ)  (conj, 姬菇#NN, 平菇#NN)  (nsubj, 耳科#VV, 姬菇#NN)  (loc, 耳科#VV, 隶属于#VV)  (nummod, 门#M, 真菌#CD)  (range, 隶属于#VV, 门#M)  (conj, 隶属于#VV, 担子菌纲#VV)  (conj, 隶属于#VV, 伞菌目#CD)  (case, 隶属于#VV, 侧#LC)  (ccomp, 别名#VV, 耳科#VV)  (advmod, 属#VV, 侧耳#AD)  (conj, 耳科#VV, 属#VV)   (nsubj, 属于#VV, 袖珍#NR)  (advmod, 属于#VV, 菇#AD)  (relcl, 含量#NN, 属于#VV)  (relcl, 食品#NN, 营养#VA)  (comod, 营养#VA, 高#VA)  (advmod, 低#VA, 热量#AD)  (dep, 营养#VA, 低#VA)  (mark, 营养#VA, 的#DEC)  (amod, 食品#NN, 健康#JJ)  (dobj, 属于#VV, 食品#NN)  (conj, 属于#VV, 含有#VV)  (conj, 糖份#NN, 蛋白质#NN)  (dobj, 含有#VV, 糖份#NN)  (conj, 钙#NN, 脂肪#NN)  (conj, 钙#NN, 维生素#NN)  (cc, 钙#NN, 和#CC)  (conj, 钙#NN, 铁#NN)  (nn, 元素#NN, 钙#NN)  (etc, 钙#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (nsubj, 蛋白质#VV, 元素#NN)  (nsubj, 蛋白质#VV, 其#PN)  (conj, 属于#VV, 蛋白质#VV)  (mark, 属于#VV, 的#DEC)  (nsubj, 高于#VV, 含量#NN)  (root, ROOT#null, 高于#VV)  (amod, 蔬菜#NN, 一般#JJ)  (dobj, 高于#VV, 蔬菜#NN)   (nn, 种类#NN, 袖珍#NN)  (nn, 种类#NN, 菇所含#NN)  (nn, 种类#NN, 氨基酸#NN)  (nsubj, 丰富#VA, 种类#NN)  (advmod, 丰富#VA, 十分#AD)  (root, ROOT#null, 丰富#VA)   (nsubj, 含有#VV, 其中#NN)  (root, ROOT#null, 含有#VV)  (advmod, 必需#VV, 人体#AD)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 八#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 食用#VV, 氨基酸#NN)  (advmod, 食用#VV, 长期#AD)  (ccomp, 含有#VV, 食用#VV)  (relcl, 功能#NN, 有#VE)  (dep, 有#VE, 降低#VV)  (dobj, 降低#VV, 高血压#NN)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 降低#VV)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 降低#VV, 含量#NN)  (mark, 有#VE, 的#DEC)  (dobj, 食用#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            别名  小姬菇  平菇  食品营养  健康食品  属于食品  蛋白质  含有糖份  一般蔬菜  高于蔬菜  袖珍种类  菇所含种类  氨基酸种类  种类丰富  必需氨基酸  降低高血压  食用功能  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            新鲜秀珍菇含粗蛋白、碳水化合物、纤维、硫胺素、核黄素、烟酸、钙、铁、钾、钠、磷。其中蛋白质的含量，比目前国内栽培的平菇、双孢蘑菇、香菇和草菇都高，而且人体八种必需氨基酸全都具备，其含量占所有氨基酸总量的35%以上。所以经常食用秀珍菇，可以增强人体健康。另据最近研究证实，秀珍菇含有的一些生理活性物质，具有诱发干扰素的合成，提高人体免疫功能，具有防癌、抗癌的作用。秀珍菇含脂肪、淀粉很少，是糖尿病人和肥胖症患者的理想食品，还有降低胆固醇的作用。人们称为“健康食品”、“安全食品”。
+        </rawdata>
+
+        <segment>
+            新鲜  秀珍菇含  粗  蛋白  、  碳水化合物  、  纤维  、  硫胺素  、  核黄素  、  烟酸  、  钙  、  铁  、  钾  、  钠  、  磷  。  其中  蛋白质  的  含量  ，  比  目前  国内  栽培  的  平菇  、  双孢  蘑菇  、  香菇  和  草菇  都  高  ，  而且  人体  八  种  必需  氨基酸  全都  具备  ，  其  含量  占  所有  氨基酸  总量  的  35%  以上  。  所以  经常  食用  秀珍菇  ，  可以  增强  人体  健康  。  另据  最近  研究  证实  ，  秀  珍菇含  有的  一些  生理  活性  物质  ，  具有  诱发  干扰素  的  合成  ，  提高  人体  免疫  功能  ，  具有  防癌  、  抗癌  的  作用  。  秀珍  菇含  脂肪  、  淀粉  很少  ，  是  糖尿病  人和  肥胖症  患者  的  理想  食品  ，  还有  降低  胆固醇  的  作用  。  人们  称为  “  健康  食品  ”  、  “  安全  食品  ”  。
+        </segment>
+
+        <pos>
+            新鲜#JJ  秀珍菇含#NN  粗#VV  蛋白#NN  、#PU  碳水化合物#NN  、#PU  纤维#NN  、#PU  硫胺素#NN  、#PU  核黄素#NN  、#PU  烟酸#NN  、#PU  钙#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  钠#NN  、#PU  磷#NN    。#PU  其中#NN  蛋白质#NN  的#DEG  含量#NN  ，#PU  比#P  目前#NT  国内#NN  栽培#VV  的#DEC  平菇#NN  、#PU  双孢#NN  蘑菇#NN  、#PU  香菇#NN  和#CC  草菇#NN  都#AD  高#VA  ，#PU  而且#CC  人体#VV  八#CD  种#M  必需#VV  氨基酸#NN  全都#NN  具备#VV  ，#PU  其#PN  含量#NN  占#VV  所有#DT  氨基酸#NN  总量#NN  的#DEG  35#CD  %#NN  以上#LC    。#PU  所以#AD  经常#AD  食用#VV  秀珍菇#NN  ，#PU  可以#VV  增强#VV  人体#NN  健康#NN    。#PU  另据#NN  最近#NT  研究#NN  证实#VV  ，#PU  秀#NN  珍菇含#VV  有的#PN  一些#CD  生理#NN  活性#NN  物质#NN  ，#PU  具有#VV  诱发#NN  干扰素#NN  的#DEG  合成#JJ  ，#PU  提高#VV  人体#NN  免疫#NN  功能#NN  ，#PU  具有#VV  防癌#VA  、#PU  抗癌#VA  的#DEC  作用#NN    。#PU  秀珍#NR  菇含#NR  脂肪#NR  、#PU  淀粉#NR  很少#VV  ，#PU  是#VC  糖尿病#NN  人和#NN  肥胖症#NN  患者#NN  的#DEG  理想#JJ  食品#NN  ，#PU  还有#AD  降低#VV  胆固醇#NN  的#DEG  作用#NN    。#PU  人们#NN  称为#VV  ``#NN  健康#JJ  食品#NN  ''#NN  、#PU  ``#NN  安全#NN  食品#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 秀珍菇含#NN, 新鲜#JJ)  (nsubj, 粗#VV, 秀珍菇含#NN)  (root, ROOT#null, 粗#VV)  (conj, 磷#NN, 蛋白#NN)  (conj, 磷#NN, 碳水化合物#NN)  (conj, 磷#NN, 纤维#NN)  (conj, 磷#NN, 硫胺素#NN)  (conj, 磷#NN, 核黄素#NN)  (conj, 磷#NN, 烟酸#NN)  (conj, 磷#NN, 钙#NN)  (conj, 磷#NN, 铁#NN)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 钠#NN)  (dobj, 粗#VV, 磷#NN)   (nn, 蛋白质#NN, 其中#NN)  (assmod, 含量#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (case, 目前#NT, 比#P)  (prep, 栽培#VV, 目前#NT)  (nsubj, 栽培#VV, 国内#NN)  (relcl, 草菇#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (conj, 草菇#NN, 平菇#NN)  (nn, 草菇#NN, 双孢#NN)  (conj, 草菇#NN, 蘑菇#NN)  (conj, 草菇#NN, 香菇#NN)  (cc, 草菇#NN, 和#CC)  (nsubj, 高#VA, 草菇#NN)  (advmod, 高#VA, 都#AD)  (root, ROOT#null, 高#VA)  (cc, 高#VA, 而且#CC)  (dep, 高#VA, 人体#VV)  (nummod, 种#M, 八#CD)  (range, 人体#VV, 种#M)  (conj, 人体#VV, 必需#VV)  (nn, 全都#NN, 氨基酸#NN)  (dobj, 必需#VV, 全都#NN)  (conj, 人体#VV, 具备#VV)  (nn, 含量#NN, 其#PN)  (nsubj, 占#VV, 含量#NN)  (conj, 高#VA, 占#VV)  (det, 氨基酸#NN, 所有#DT)  (nn, 总量#NN, 氨基酸#NN)  (assmod, %#NN, 总量#NN)  (case, 总量#NN, 的#DEG)  (nummod, %#NN, 35#CD)  (loc, 占#VV, %#NN)  (case, %#NN, 以上#LC)   (advmod, 食用#VV, 所以#AD)  (advmod, 食用#VV, 经常#AD)  (conj, 增强#VV, 食用#VV)  (dobj, 食用#VV, 秀珍菇#NN)  (conj, 食用#VV, 可以#VV)  (root, ROOT#null, 增强#VV)  (nn, 健康#NN, 人体#NN)  (dobj, 增强#VV, 健康#NN)   (nsubj, 证实#VV, 另据#NN)  (tmod, 证实#VV, 最近#NT)  (nsubj, 证实#VV, 研究#NN)  (root, ROOT#null, 证实#VV)  (nsubj, 珍菇含#VV, 秀#NN)  (ccomp, 证实#VV, 珍菇含#VV)  (nn, 物质#NN, 有的#PN)  (nummod, 物质#NN, 一些#CD)  (nn, 物质#NN, 生理#NN)  (nn, 物质#NN, 活性#NN)  (dobj, 珍菇含#VV, 物质#NN)  (conj, 珍菇含#VV, 具有#VV)  (nn, 干扰素#NN, 诱发#NN)  (assmod, 功能#NN, 干扰素#NN)  (case, 干扰素#NN, 的#DEG)  (nfincl, 功能#NN, 合成#JJ)  (dep, 合成#JJ, 提高#VV)  (nn, 免疫#NN, 人体#NN)  (dobj, 提高#VV, 免疫#NN)  (dobj, 具有#VV, 功能#NN)  (conj, 具有#VV, 具有#VV)  (relcl, 作用#NN, 防癌#VA)  (dep, 防癌#VA, 抗癌#VA)  (mark, 防癌#VA, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (nn, 淀粉#NR, 秀珍#NR)  (nn, 淀粉#NR, 菇含#NR)  (conj, 淀粉#NR, 脂肪#NR)  (nsubj, 很少#VV, 淀粉#NR)  (root, ROOT#null, 很少#VV)  (cop, 食品#NN, 是#VC)  (nn, 人和#NN, 糖尿病#NN)  (nn, 患者#NN, 人和#NN)  (nn, 患者#NN, 肥胖症#NN)  (assmod, 食品#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 食品#NN, 理想#JJ)  (ccomp, 很少#VV, 食品#NN)  (advmod, 降低#VV, 还有#AD)  (dep, 食品#NN, 降低#VV)  (assmod, 作用#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 降低#VV, 作用#NN)   (nsubj, 称为#VV, 人们#NN)  (root, ROOT#null, 称为#VV)  (nn, 食品#NN, ``#NN)  (amod, 食品#NN, 健康#JJ)  (nn, 食品#NN, 食品#NN)  (conj, 食品#NN, ''#NN)  (nn, 食品#NN, ``#NN)  (nn, 食品#NN, 安全#NN)  (nn, ''#NN, 食品#NN)  (dobj, 称为#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            新鲜秀珍菇含  栽培草菇  平菇  双孢草菇  蘑菇  香菇  氨基酸全都  必需全都  氨基酸总量  食用秀珍菇  人体健康  增强健康  证实  诱发干扰素  人体免疫  提高免疫  淀粉  脂肪  很少  糖尿病人和  人和患者  肥胖症患者  理想食品  称为  健康食品  食品食品  安全食品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗癌防癌  发散风寒  补肾阳  活血通络  辅助降血脂  增强免疫力  抗胃溃疡
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.形态特征。幼菇的菇盖呈灰白色，菌褶菌柄呈白色，菌柄多为偏生，少近于中生。子实体多为丛生，少于单生;
+            2.生态特征。秋末春初生于杨、柳等阔叶树的树干与倒木上。但同一种类有地区性的差异，如日本小平菇其菌盖幼时为黑色，有的朵形较大，易开伞。
+        </rawdata>
+
+        <segment>
+            形态  特征  。  幼菇  的  菇盖  呈  灰白色  ，  菌褶  菌柄  呈  白色  ，  菌柄  多  为  偏生  ，  少  近于  中  生  。  子实  体  多  为  丛生  ，  少于  单生  ;
+            生态  特征  。  秋末  春初  生  于杨  、  柳等  阔叶树  的  树干  与  倒木  上  。  但  同  一  种  类有  地区性  的  差异  ，  如  日本  小  平菇  其  菌盖  幼时  为  黑色  ，  有的  朵形  较  大  ，  易  开伞  。
+        </segment>
+
+        <pos>
+            形态#NN  特征#NN    。#PU  幼菇#NN  的#DEG  菇盖#NN  呈#VV  灰白色#NN  ，#PU  菌褶#NN  菌柄#AD  呈#VV  白色#JJ  ，#PU  菌柄#AD  多#AD  为#VV  偏生#NN  ，#PU  少#JJ  近于#NN  中#LC  生#VV    。#PU  子实#NN  体#NN  多#AD  为#VC  丛生#NN  ，#PU  少于#VV  单生#NN  ;#NN    。#PU
+            生态#NN  特征#NN    。#PU  秋末#NR  春初#AD  生#VV  于杨#NR  、#PU  柳等#NR  阔叶树#NN  的#DEG  树干#NN  与#CC  倒木#NN  上#LC    。#PU  但#AD  同#P  一#CD  种#M  类有#NN  地区性#NN  的#DEG  差异#NN  ，#PU  如#AD  日本#NR  小#JJ  平菇#NN  其#PN  菌盖#VV  幼时#NN  为#VC  黑色#JJ  ，#PU  有的#PN  朵形#NN  较#AD  大#VA  ，#PU  易#AD  开伞#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 特征#NN, 形态#NN)  (root, ROOT#null, 特征#NN)   (assmod, 菇盖#NN, 幼菇#NN)  (case, 幼菇#NN, 的#DEG)  (nsubj, 呈#VV, 菇盖#NN)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 灰白色#NN)  (nsubj, 呈#VV, 菌褶#NN)  (advmod, 呈#VV, 菌柄#AD)  (conj, 呈#VV, 呈#VV)  (nfincl, 偏生#NN, 白色#JJ)  (advmod, 为#VV, 菌柄#AD)  (advmod, 为#VV, 多#AD)  (dep, 白色#JJ, 为#VV)  (dobj, 呈#VV, 偏生#NN)  (amod, 近于#NN, 少#JJ)  (loc, 生#VV, 近于#NN)  (case, 近于#NN, 中#LC)  (conj, 呈#VV, 生#VV)   (nn, 体#NN, 子实#NN)  (nsubj, 丛生#NN, 体#NN)  (advmod, 丛生#NN, 多#AD)  (cop, 丛生#NN, 为#VC)  (root, ROOT#null, 丛生#NN)  (conj, 丛生#NN, 少于#VV)  (nn, ;#NN, 单生#NN)  (dobj, 少于#VV, ;#NN)
+            (nn, 特征#NN, 生态#NN)  (root, ROOT#null, 特征#NN)   (nsubj, 生#VV, 秋末#NR)  (advmod, 生#VV, 春初#AD)  (root, ROOT#null, 生#VV)  (conj, 柳等#NR, 于杨#NR)  (nn, 阔叶树#NN, 柳等#NR)  (assmod, 倒木#NN, 阔叶树#NN)  (case, 阔叶树#NN, 的#DEG)  (conj, 倒木#NN, 树干#NN)  (cc, 倒木#NN, 与#CC)  (loc, 生#VV, 倒木#NN)  (case, 倒木#NN, 上#LC)   (advmod, 菌盖#VV, 但#AD)  (case, 差异#NN, 同#P)  (nummod, 种#M, 一#CD)  (clf, 地区性#NN, 种#M)  (nn, 地区性#NN, 类有#NN)  (assmod, 差异#NN, 地区性#NN)  (case, 地区性#NN, 的#DEG)  (prep, 菌盖#VV, 差异#NN)  (advmod, 菌盖#VV, 如#AD)  (nn, 平菇#NN, 日本#NR)  (amod, 平菇#NN, 小#JJ)  (nsubj, 菌盖#VV, 平菇#NN)  (nsubj, 菌盖#VV, 其#PN)  (root, ROOT#null, 菌盖#VV)  (nsubj, 为#VC, 幼时#NN)  (ccomp, 菌盖#VV, 为#VC)  (dep, 为#VC, 黑色#JJ)  (nn, 朵形#NN, 有的#PN)  (nsubj, 大#VA, 朵形#NN)  (advmod, 大#VA, 较#AD)  (conj, 为#VC, 大#VA)  (advmod, 开伞#VV, 易#AD)  (conj, 为#VC, 开伞#VV)
+        </parsing>
+
+        <tag>
+            形态特征  少近于  生态特征  柳等  于杨  阔叶树  倒木  树干  类有地区性  小平菇  菌盖  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/2e/38/14382_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1097 袖珍菇.jpg
+    </picturelocalurl>
+
+</content>

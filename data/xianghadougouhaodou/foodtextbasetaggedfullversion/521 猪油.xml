@@ -1,0 +1,246 @@
+<content>
+
+    <id>
+        521
+    </id>
+
+    <foodname>
+        猪油
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        大油、荤油
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            老年人、肥胖和心脑血管病患者、外感诸病、大便滑泻者慎食。
+        </rawdata>
+
+        <segment>
+            老年人  、  肥胖  和  心脑血管病  患者  、  外感  诸病  、  大便  滑泻者  慎食  。
+        </segment>
+
+        <pos>
+            老年人#NN  、#PU  肥胖#NN  和#CC  心脑血管病#NN  患者#NN  、#PU  外感#NN  诸病#NN  、#PU  大便#NN  滑泻者#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 心脑血管病#NN, 老年人#NN)  (conj, 心脑血管病#NN, 肥胖#NN)  (cc, 心脑血管病#NN, 和#CC)  (nn, 大便#NN, 心脑血管病#NN)  (conj, 大便#NN, 患者#NN)  (nn, 大便#NN, 外感#NN)  (conj, 大便#NN, 诸病#NN)  (nsubj, 滑泻者#VV, 大便#NN)  (root, ROOT#null, 滑泻者#VV)  (dobj, 滑泻者#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            老年人  肥胖  心脑血管病  患者  外感诸病  大便滑泻者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜寒冷地区。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  寒冷  地区  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  寒冷#VA  地区#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nfincl, 地区#NN, 寒冷#VA)  (dobj, 适宜#VV, 地区#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  寒冷地区  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                897
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                99.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                93
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                5.21
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪油，为猪科动物猪的脂肪油，在西方被称为猪脂肪。猪油色泽白或黄白，具有猪油的特殊香味，深受人们欢迎。很多人都认为炒菜若不用猪油菜就不香。猪油的熔点较羊油、牛油为低，一般低于人的体温，容易被人体吸收。它是饮食业使用最普遍的食用油。
+        </rawdata>
+
+        <segment>
+            猪油  ，  为  猪科  动物  猪  的  脂肪  油  ，  在  西方  被  称为  猪  脂肪  。  猪油  色泽  白  或  黄白  ，  具有  猪油  的  特殊  香味  ，  深  受  人们  欢迎  。  很多  人  都  认为  炒菜  若  不  用  猪油  菜  就  不  香  。  猪油  的  熔点  较  羊油  、  牛油  为  低  ，  一般  低于  人  的  体温  ，  容易  被  人体  吸收  。  它  是  饮食业  使用  最  普遍  的  食用油  。
+        </segment>
+
+        <pos>
+            猪油#VV  ，#PU  为#P  猪科#JJ  动物#NN  猪#NN  的#DEG  脂肪#NN  油#NN  ，#PU  在#P  西方#NN  被#SB  称为#VV  猪#NN  脂肪#NN    。#PU  猪油#VV  色泽#NN  白#VA  或#CC  黄白#VA  ，#PU  具有#VV  猪油#NN  的#DEC  特殊#JJ  香味#NN  ，#PU  深#AD  受#VV  人们#NN  欢迎#NN    。#PU  很多#CD  人#NN  都#AD  认为#VV  炒菜#NN  若#CS  不#AD  用#P  猪油#NN  菜#NN  就#AD  不#AD  香#VA    。#PU  猪油#NN  的#DEG  熔点#NN  较#AD  羊油#VA  、#PU  牛油#VV  为#P  低#VA  ，#PU  一般#AD  低于#VV  人#NN  的#DEC  体温#NN  ，#PU  容易#VA  被#SB  人体#VV  吸收#VV    。#PU  它#PN  是#VC  饮食业#NN  使用#NN  最#AD  普遍#VA  的#DEC  食用油#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪油#VV)  (case, 猪#NN, 为#P)  (amod, 动物#NN, 猪科#JJ)  (nn, 猪#NN, 动物#NN)  (assmod, 油#NN, 猪#NN)  (case, 猪#NN, 的#DEG)  (nn, 油#NN, 脂肪#NN)  (nsubj, 称为#VV, 油#NN)  (case, 西方#NN, 在#P)  (prep, 称为#VV, 西方#NN)  (auxpass, 称为#VV, 被#SB)  (ccomp, 猪油#VV, 称为#VV)  (nn, 脂肪#NN, 猪#NN)  (dobj, 称为#VV, 脂肪#NN)   (root, ROOT#null, 猪油#VV)  (nsubj, 白#VA, 色泽#NN)  (relcl, 香味#NN, 白#VA)  (cc, 白#VA, 或#CC)  (dep, 白#VA, 黄白#VA)  (conj, 白#VA, 具有#VV)  (dobj, 具有#VV, 猪油#NN)  (mark, 白#VA, 的#DEC)  (amod, 香味#NN, 特殊#JJ)  (dobj, 猪油#VV, 香味#NN)  (advmod, 受#VV, 深#AD)  (conj, 猪油#VV, 受#VV)  (nn, 欢迎#NN, 人们#NN)  (dobj, 受#VV, 欢迎#NN)   (nummod, 人#NN, 很多#CD)  (nsubj, 认为#VV, 人#NN)  (advmod, 认为#VV, 都#AD)  (root, ROOT#null, 认为#VV)  (nsubj, 香#VA, 炒菜#NN)  (advmod, 香#VA, 若#CS)  (neg, 香#VA, 不#AD)  (case, 菜#NN, 用#P)  (nn, 菜#NN, 猪油#NN)  (prep, 香#VA, 菜#NN)  (advmod, 香#VA, 就#AD)  (neg, 香#VA, 不#AD)  (ccomp, 认为#VV, 香#VA)   (assmod, 熔点#NN, 猪油#NN)  (case, 猪油#NN, 的#DEG)  (nsubj, 羊油#VA, 熔点#NN)  (advmod, 羊油#VA, 较#AD)  (root, ROOT#null, 羊油#VA)  (dep, 羊油#VA, 牛油#VV)  (case, 低#VA, 为#P)  (prep, 低于#VV, 低#VA)  (advmod, 低于#VV, 一般#AD)  (relcl, 体温#NN, 低于#VV)  (dobj, 低于#VV, 人#NN)  (mark, 低于#VV, 的#DEC)  (dobj, 牛油#VV, 体温#NN)  (conj, 羊油#VA, 容易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 容易#VA, 人体#VV)  (dep, 容易#VA, 吸收#VV)   (nsubj, 食用油#NN, 它#PN)  (cop, 食用油#NN, 是#VC)  (nn, 使用#NN, 饮食业#NN)  (nsubj, 普遍#VA, 使用#NN)  (advmod, 普遍#VA, 最#AD)  (relcl, 食用油#NN, 普遍#VA)  (mark, 普遍#VA, 的#DEC)  (root, ROOT#null, 食用油#NN)
+        </parsing>
+
+        <tag>
+            猪科动物  称为脂肪  特殊香味  人们欢迎  熔点羊油  低于体温  低于人  牛油体温  饮食业使用  使用普遍  食用油普遍  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            猪油味甘、性凉； 有补虚、润燥、解毒的作用；可治脏腑枯涩、大便不利、燥咳、皮肤皲裂等症；可药用内服、熬膏或入丸剂。
+            外用作膏油涂敷患部。
+        </rawdata>
+
+        <segment>
+            猪油  味甘  、  性凉  ；  有  补  虚  、  润燥  、  解毒  的  作用  ；  可治  脏腑  枯涩  、  大便  不利  、  燥咳  、  皮肤  皲裂  等症  ；  可  药用  内服  、  熬膏  或  入  丸剂  。
+            外用  作  膏油  涂敷患部  。
+        </segment>
+
+        <pos>
+            猪油#VV  味甘#NN  、#PU  性凉#NN  ；#PU  有#VE  补#VV  虚#AD  、#PU  润燥#AD  、#PU  解毒#AD  的#DEC  作用#NN  ；#PU  可治#VV  脏腑#NN  枯涩#NN  、#PU  大便#VV  不利#JJ  、#PU  燥咳#JJ  、#PU  皮肤#JJ  皲裂#NN  等症#NN  ；#PU  可#VV  药用#VV  内服#NN  、#PU  熬膏#NN  或#CC  入#VV  丸剂#NN  。#PU
+            外用#AD  作#VV  膏油#NN  涂敷患部#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 猪油#VV)  (conj, 性凉#NN, 味甘#NN)  (dobj, 猪油#VV, 性凉#NN)  (conj, 猪油#VV, 有#VE)  (relcl, 作用#NN, 补#VV)  (advmod, 补#VV, 虚#AD)  (conj, 虚#AD, 润燥#AD)  (conj, 虚#AD, 解毒#AD)  (mark, 补#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (conj, 猪油#VV, 可治#VV)  (nn, 枯涩#NN, 脏腑#NN)  (dobj, 可治#VV, 枯涩#NN)  (conj, 猪油#VV, 大便#VV)  (amod, 皲裂#NN, 不利#JJ)  (conj, 不利#JJ, 燥咳#JJ)  (dep, 不利#JJ, 皮肤#JJ)  (nn, 等症#NN, 皲裂#NN)  (dobj, 大便#VV, 等症#NN)  (mmod, 药用#VV, 可#VV)  (conj, 猪油#VV, 药用#VV)  (conj, 熬膏#NN, 内服#NN)  (dobj, 药用#VV, 熬膏#NN)  (cc, 猪油#VV, 或#CC)  (conj, 猪油#VV, 入#VV)  (dobj, 入#VV, 丸剂#NN)
+            (advmod, 作#VV, 外用#AD)  (root, ROOT#null, 作#VV)  (nn, 涂敷患部#NN, 膏油#NN)  (dobj, 作#VV, 涂敷患部#NN)
+        </parsing>
+
+        <tag>
+            性凉  味甘  脏腑枯涩  可治枯涩  不利皲裂  皲裂等症  大便等症  内服  药用熬膏  膏油涂敷患部  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗氧化  抗癌防癌  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            动物油的油脂与一般植物油相比，有不可替代的特殊香味，可以增进人们的食欲。特别与萝卜、粉丝及豆制品相配时，可以获得用其他调料难以达到的美味。
+            动物油中含有多种脂肪酸，饱和脂肪酸和不饱和脂肪酸的含量相当，几乎平分秋色，具有一定的营养，并且能提供极高的热量。
+        </rawdata>
+
+        <segment>
+            动物油  的  油脂  与  一般  植物油  相比  ，  有  不可  替代  的  特殊  香味  ，  可以  增进  人们  的  食欲  。  特别  与  萝卜  、  粉丝  及  豆制品  相配  时  ，  可以  获得  用  其他  调料  难以  达到  的  美味  。
+            动物油  中  含有  多  种  脂肪酸  ，  饱和  脂肪酸  和  不  饱和  脂肪酸  的  含量  相当  ，  几乎  平分秋色  ，  具有  一定  的  营养  ，  并且  能  提供  极高  的  热量  。
+        </segment>
+
+        <pos>
+            动物油#NN  的#DEG  油脂#NN  与#P  一般#JJ  植物油#NN  相比#VV  ，#PU  有#VE  不可#AD  替代#VV  的#DEC  特殊#JJ  香味#NN  ，#PU  可以#VV  增进#VV  人们#NN  的#DEG  食欲#NN    。#PU  特别#AD  与#P  萝卜#NR  、#PU  粉丝#NR  及#CC  豆制品#NR  相配#VV  时#LC  ，#PU  可以#VV  获得#VV  用#P  其他#DT  调料#NN  难以#AD  达到#VV  的#DEC  美味#NN    。#PU    。#PU
+            动物油#NN  中#LC  含有#VV  多#CD  种#M  脂肪酸#NN  ，#PU  饱和#NN  脂肪酸#NN  和#CC  不#AD  饱和#VV  脂肪酸#NN  的#DEC  含量#NN  相当#AD  ，#PU  几乎#AD  平分秋色#VV  ，#PU  具有#VV  一定#JJ  的#DEG  营养#VA  ，#PU  并且#CC  能#VV  提供#VV  极高#NN  的#DEC  热量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 油脂#NN, 动物油#NN)  (case, 动物油#NN, 的#DEG)  (nsubj, 相比#VV, 油脂#NN)  (case, 植物油#NN, 与#P)  (amod, 植物油#NN, 一般#JJ)  (prep, 相比#VV, 植物油#NN)  (root, ROOT#null, 相比#VV)  (dep, 相比#VV, 有#VE)  (advmod, 替代#VV, 不可#AD)  (relcl, 香味#NN, 替代#VV)  (mark, 替代#VV, 的#DEC)  (amod, 香味#NN, 特殊#JJ)  (dobj, 有#VE, 香味#NN)  (mmod, 增进#VV, 可以#VV)  (conj, 相比#VV, 增进#VV)  (assmod, 食欲#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (dobj, 增进#VV, 食欲#NN)   (advmod, 相配#VV, 特别#AD)  (case, 豆制品#NR, 与#P)  (conj, 豆制品#NR, 萝卜#NR)  (conj, 豆制品#NR, 粉丝#NR)  (cc, 豆制品#NR, 及#CC)  (prep, 相配#VV, 豆制品#NR)  (loc, 获得#VV, 相配#VV)  (case, 相配#VV, 时#LC)  (mmod, 获得#VV, 可以#VV)  (root, ROOT#null, 获得#VV)  (case, 调料#NN, 用#P)  (det, 调料#NN, 其他#DT)  (prep, 达到#VV, 调料#NN)  (advmod, 达到#VV, 难以#AD)  (relcl, 美味#NN, 达到#VV)  (mark, 达到#VV, 的#DEC)  (dobj, 获得#VV, 美味#NN)   (root, ROOT#null, null#null)
+            (loc, 含有#VV, 动物油#NN)  (case, 动物油#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 脂肪酸#NN, 种#M)  (dobj, 含有#VV, 脂肪酸#NN)  (nn, 脂肪酸#NN, 饱和#NN)  (conj, 含量#NN, 脂肪酸#NN)  (cc, 含量#NN, 和#CC)  (neg, 饱和#VV, 不#AD)  (relcl, 含量#NN, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (mark, 饱和#VV, 的#DEC)  (nsubj, 平分秋色#VV, 含量#NN)  (advmod, 平分秋色#VV, 相当#AD)  (advmod, 平分秋色#VV, 几乎#AD)  (conj, 含有#VV, 平分秋色#VV)  (conj, 含有#VV, 具有#VV)  (assmod, 热量#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (relcl, 热量#NN, 营养#VA)  (cc, 营养#VA, 并且#CC)  (mmod, 提供#VV, 能#VV)  (dep, 营养#VA, 提供#VV)  (dobj, 提供#VV, 极高#NN)  (mark, 营养#VA, 的#DEC)  (dobj, 具有#VV, 热量#NN)
+        </parsing>
+
+        <tag>
+            动物油  一般植物油  相比  替代香味  特殊香味  增进食欲  豆制品  萝卜  粉丝  达到美味  获得美味  含有脂肪酸  饱和脂肪酸  热量营养  提供极高  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            猪油不宜用于凉拌和炸食。用它调味的食品要趁热食用，放凉后会有一种油腥气，影响人的食欲。
+        </rawdata>
+
+        <segment>
+            猪油  不  宜  用于  凉拌  和  炸食  。  用  它  调味  的  食品  要  趁热  食用  ，  放  凉  后  会  有  一  种  油  腥气  ，  影响  人  的  食欲  。
+        </segment>
+
+        <pos>
+            猪油#NN  不#AD  宜#NR  用于#VV  凉拌#NN  和#CC  炸食#NN    。#PU  用#P  它#PN  调味#VV  的#DEC  食品#NN  要#VV  趁热#AD  食用#VV  ，#PU  放#VV  凉#NN  后#LC  会#VV  有#VE  一#CD  种#M  油#NN  腥气#NN  ，#PU  影响#VV  人#NN  的#DEG  食欲#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 用于#VV, 猪油#NN)  (neg, 用于#VV, 不#AD)  (prep, 用于#VV, 宜#NR)  (root, ROOT#null, 用于#VV)  (conj, 炸食#NN, 凉拌#NN)  (cc, 炸食#NN, 和#CC)  (dobj, 用于#VV, 炸食#NN)   (case, 它#PN, 用#P)  (prep, 调味#VV, 它#PN)  (relcl, 食品#NN, 调味#VV)  (mark, 调味#VV, 的#DEC)  (nsubj, 食用#VV, 食品#NN)  (mmod, 食用#VV, 要#VV)  (advmod, 食用#VV, 趁热#AD)  (root, ROOT#null, 食用#VV)  (loc, 有#VE, 放#VV)  (dobj, 放#VV, 凉#NN)  (case, 放#VV, 后#LC)  (mmod, 有#VE, 会#VV)  (ccomp, 食用#VV, 有#VE)  (conj, 食用#VV, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 腥气#NN, 种#M)  (nn, 腥气#NN, 油#NN)  (dobj, 有#VE, 腥气#NN)  (ccomp, 食用#VV, 影响#VV)  (conj, 食用#VV, 影响#VV)  (assmod, 食欲#NN, 人#NN)  (case, 人#NN, 的#DEG)  (dobj, 影响#VV, 食欲#NN)
+        </parsing>
+
+        <tag>
+            凉拌  用于炸食  调味食品  食用  影响食欲  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/23145149.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\521 猪油.jpg
+    </picturelocalurl>
+
+</content>

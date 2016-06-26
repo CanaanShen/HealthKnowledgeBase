@@ -1,0 +1,402 @@
+<content>
+
+    <id>
+        351
+    </id>
+
+    <foodname>
+        枇杷
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        腊兄、金丸、卢橘、粗客
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾虚泄泻者、糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            脾虚  泄泻者  、  糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            脾虚#VV  泄泻者#NN  、#PU  糖尿病#NN  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾虚#VV)  (conj, 患者#NN, 泄泻者#NN)  (nn, 患者#NN, 糖尿病#NN)  (nn, 忌食#NN, 患者#NN)  (dobj, 脾虚#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            脾虚泄泻者  糖尿病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用，尤适宜肺痿咳嗽、胸闷多痰、劳伤吐血者及坏血病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  ，  尤  适宜  肺痿  咳嗽  、  胸闷  多痰  、  劳伤  吐血  者  及  坏血病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  ，#PU  尤#AD  适宜#VV  肺痿#NR  咳嗽#NR  、#PU  胸闷#NR  多痰#NR  、#PU  劳伤#NR  吐血#NN  者#NN  及#CC  坏血病#NN  患者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (advmod, 适宜#VV, 尤#AD)  (dep, 食用#VV, 适宜#VV)  (nn, 劳伤#NR, 肺痿#NR)  (conj, 劳伤#NR, 咳嗽#NR)  (nn, 劳伤#NR, 胸闷#NR)  (conj, 劳伤#NR, 多痰#NR)  (nn, 者#NN, 劳伤#NR)  (nn, 者#NN, 吐血#NN)  (conj, 患者#NN, 者#NN)  (cc, 患者#NN, 及#CC)  (nn, 患者#NN, 坏血病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  肺痿咳嗽  胸闷多痰  劳伤吐血者  坏血病  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                9.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                122
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.72
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            枇杷，中文古名芦橘，又名金丸、芦枝，是蔷薇科中的苹果亚科的一个属，为常绿小乔木，原产中国东南部，因果子形状似琵琶乐器而名。枇杷是我国南方特有的珍稀水果，枇杷与大部分果树不同，秋日养蕾，冬季开花，春来结子，夏初成熟，承四时雨露，为“果中独备四时气者”；其果肉柔软多汁，酸甜适度，味道鲜美，被誉为“果中之皇”。
+            枇杷树冠呈圆状，树干颇短，一般树高3至4米。叶厚，深绿色，背面有绒毛，边缘成锯齿状。枇杷树形颇美，而且生长迅速，叶绿茂盛，在不少地方被栽种为园艺观赏值物。
+        </rawdata>
+
+        <segment>
+            枇杷  ，  中文  古名  芦橘  ，  又  名  金丸  、  芦枝  ，  是  蔷薇科  中  的  苹果  亚科  的  一  个  属  ，  为  常绿  小  乔木  ，  原产  中国  东南部  ，  因果  子  形状  似  琵琶  乐器  而  名  。  枇杷  是  我  国  南方  特有  的  珍稀  水果  ，  枇杷  与  大部分  果树  不同  ，  秋日  养蕾  ，  冬季  开花  ，  春来  结子  ，  夏初  成熟  ，  承  四  时  雨露  ，  为  “  果  中  独备  四  时  气  者  ”  ；  其  果肉  柔软  多汁  ，  酸甜  适度  ，  味道  鲜美  ，  被  誉为  “  果  中  之  皇  ”  。
+            枇杷  树冠  呈  圆状  ，  树干  颇  短  ，  一般  树  高  3  至  4  米  。  叶厚  ，  深绿色  ，  背面  有  绒毛  ，  边缘  成  锯齿状  。  枇杷  树形  颇  美  ，  而且  生长  迅速  ，  叶绿  茂盛  ，  在  不少  地方  被  栽种  为  园艺  观赏  值物  。
+        </segment>
+
+        <pos>
+            枇杷#NN  ，#PU  中文#NN  古名#VV  芦橘#NN  ，#PU  又#CC  名#JJ  金丸#NN  、#PU  芦枝#NN  ，#PU  是#VC  蔷薇科#NN  中#LC  的#DEG  苹果#NN  亚科#NN  的#DEC  一#CD  个#M  属#NN  ，#PU  为#P  常绿#VV  小#JJ  乔木#NN  ，#PU  原产#NR  中国#NR  东南部#NN  ，#PU  因果#NN  子#NN  形状#NN  似#P  琵琶#NN  乐器#VV  而#CC  名#NN    。#PU  枇杷#NR  是#VC  我#PN  国#NN  南方#NN  特有#VV  的#DEC  珍稀#JJ  水果#NN  ，#PU  枇杷#CD  与#CC  大部分#CD  果树#NN  不同#VA  ，#PU  秋日#NN  养蕾#NN  ，#PU  冬季#NT  开花#JJ  ，#PU  春来#VV  结子#NN  ，#PU  夏初#AD  成熟#VA  ，#PU  承#VV  四#CD  时#LC  雨露#NN  ，#PU  为#P  ``#NN  果#NN  中#LC  独备#VV  四#CD  时#LC  气#NN  者#NN  ''#VV  ；#PU  其#PN  果肉#VV  柔软#NN  多汁#NN  ，#PU  酸甜#VV  适度#AD  ，#PU  味道#NN  鲜美#NN  ，#PU  被#SB  誉为#VV  ``#NN  果#NN  中#LC  之#DEG  皇#NN  ''#NN    。#PU    。#PU
+            枇杷#NN  树冠#AD  呈#VV  圆状#NN  ，#PU  树干#NN  颇#AD  短#VA  ，#PU  一般#JJ  树#NN  高#VA  3#CD  至#CC  4#CD  米#M    。#PU  叶厚#VV  ，#PU  深绿色#NN  ，#PU  背面#NN  有#VE  绒毛#NN  ，#PU  边缘#NN  成#VV  锯齿状#NN    。#PU  枇杷#NN  树形#NN  颇#AD  美#NR  ，#PU  而且#CC  生长#NN  迅速#VA  ，#PU  叶绿#VV  茂盛#NN  ，#PU  在#P  不少#CD  地方#NN  被#LB  栽种#NN  为#P  园艺#NN  观赏#VV  值物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 古名#VV, 枇杷#NN)  (nsubj, 古名#VV, 中文#NN)  (root, ROOT#null, 古名#VV)  (dobj, 古名#VV, 芦橘#NN)  (cc, 古名#VV, 又#CC)  (amod, 芦枝#NN, 名#JJ)  (conj, 芦枝#NN, 金丸#NN)  (nsubj, 乐器#VV, 芦枝#NN)  (cop, 亚科#NN, 是#VC)  (assmod, 亚科#NN, 蔷薇科#NN)  (case, 蔷薇科#NN, 中#LC)  (case, 蔷薇科#NN, 的#DEG)  (nn, 亚科#NN, 苹果#NN)  (relcl, 属#NN, 亚科#NN)  (mark, 亚科#NN, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 属#NN, 个#M)  (nsubj, 乐器#VV, 属#NN)  (case, 常绿#VV, 为#P)  (prep, 乐器#VV, 常绿#VV)  (amod, 乔木#NN, 小#JJ)  (dobj, 常绿#VV, 乔木#NN)  (nn, 东南部#NN, 原产#NR)  (nn, 东南部#NN, 中国#NR)  (nsubj, 乐器#VV, 东南部#NN)  (nn, 形状#NN, 因果#NN)  (nn, 形状#NN, 子#NN)  (nsubj, 乐器#VV, 形状#NN)  (case, 琵琶#NN, 似#P)  (prep, 乐器#VV, 琵琶#NN)  (conj, 古名#VV, 乐器#VV)  (cc, 乐器#VV, 而#CC)  (dep, 乐器#VV, 名#NN)   (nsubj, 水果#NN, 枇杷#NR)  (cop, 水果#NN, 是#VC)  (nn, 南方#NN, 我#PN)  (nn, 南方#NN, 国#NN)  (nsubj, 特有#VV, 南方#NN)  (relcl, 水果#NN, 特有#VV)  (mark, 特有#VV, 的#DEC)  (amod, 水果#NN, 珍稀#JJ)  (root, ROOT#null, 水果#NN)  (nummod, 大部分#CD, 枇杷#CD)  (cc, 大部分#CD, 与#CC)  (nummod, 果树#NN, 大部分#CD)  (nsubj, 不同#VA, 果树#NN)  (conj, 水果#NN, 不同#VA)  (nn, 养蕾#NN, 秋日#NN)  (nsubj, 开花#JJ, 养蕾#NN)  (tmod, 开花#JJ, 冬季#NT)  (conj, 水果#NN, 开花#JJ)  (conj, 开花#JJ, 春来#VV)  (dobj, 春来#VV, 结子#NN)  (advmod, 成熟#VA, 夏初#AD)  (conj, 开花#JJ, 成熟#VA)  (conj, 开花#JJ, 承#VV)  (dep, 雨露#NN, 四#CD)  (case, 四#CD, 时#LC)  (dobj, 承#VV, 雨露#NN)  (case, 果#NN, 为#P)  (nn, 果#NN, ``#NN)  (prep, 独备#VV, 果#NN)  (case, 果#NN, 中#LC)  (conj, 开花#JJ, 独备#VV)  (loc, 独备#VV, 四#CD)  (case, 四#CD, 时#LC)  (nn, 者#NN, 气#NN)  (nsubj, ''#VV, 者#NN)  (dep, 水果#NN, ''#VV)  (nsubj, 果肉#VV, 其#PN)  (ccomp, ''#VV, 果肉#VV)  (nn, 多汁#NN, 柔软#NN)  (dobj, 果肉#VV, 多汁#NN)  (conj, 果肉#VV, 酸甜#VV)  (advmod, 誉为#VV, 适度#AD)  (nn, 鲜美#NN, 味道#NN)  (dep, 誉为#VV, 鲜美#NN)  (auxpass, 誉为#VV, 被#SB)  (conj, 水果#NN, 誉为#VV)  (nn, 果#NN, ``#NN)  (assmod, ''#NN, 果#NN)  (case, 果#NN, 中#LC)  (case, 果#NN, 之#DEG)  (nn, ''#NN, 皇#NN)  (dobj, 誉为#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 呈#VV, 枇杷#NN)  (advmod, 呈#VV, 树冠#AD)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 圆状#NN)  (nsubj, 短#VA, 树干#NN)  (advmod, 短#VA, 颇#AD)  (conj, 呈#VV, 短#VA)  (amod, 树#NN, 一般#JJ)  (nsubj, 高#VA, 树#NN)  (conj, 短#VA, 高#VA)  (dep, 米#M, 3#CD)  (cc, 米#M, 至#CC)  (nummod, 米#M, 4#CD)  (dep, 高#VA, 米#M)   (root, ROOT#null, 叶厚#VV)  (dep, 有#VE, 深绿色#NN)  (dep, 有#VE, 背面#NN)  (ccomp, 叶厚#VV, 有#VE)  (dobj, 有#VE, 绒毛#NN)  (nsubj, 成#VV, 边缘#NN)  (conj, 有#VE, 成#VV)  (dobj, 成#VV, 锯齿状#NN)   (nn, 树形#NN, 枇杷#NN)  (nsubj, 迅速#VA, 树形#NN)  (advmod, 迅速#VA, 颇#AD)  (dep, 生长#NN, 美#NR)  (cc, 生长#NN, 而且#CC)  (dep, 迅速#VA, 生长#NN)  (root, ROOT#null, 迅速#VA)  (conj, 迅速#VA, 叶绿#VV)  (dobj, 叶绿#VV, 茂盛#NN)  (case, 地方#NN, 在#P)  (nummod, 地方#NN, 不少#CD)  (prep, 观赏#VV, 地方#NN)  (auxpass, 观赏#VV, 被#LB)  (nsubj, 观赏#VV, 栽种#NN)  (case, 园艺#NN, 为#P)  (prep, 观赏#VV, 园艺#NN)  (conj, 迅速#VA, 观赏#VV)  (dobj, 观赏#VV, 值物#NN)
+        </parsing>
+
+        <tag>
+            古名芦橘  名芦枝  金丸  蔷薇科  苹果亚科  小乔木  常绿乔木  因果形状  特有水果  珍稀水果  果树不同  秋日养蕾  春来结子  柔软多汁  果肉多汁  味道鲜美  一般树  叶厚  树形迅速  叶绿茂盛  观赏值物  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            枇杷性凉，味甘酸，有润肺止咳、止渴、和胃的功效，常用于咽干烦渴、咳嗽吐血、呃逆等症。
+            1.促进消化
+            枇杷中所含的有机酸，能刺激消化腺分泌，对增进食欲、帮助消化吸收、止渴解暑有相当的作用。
+            2.润肺止咳
+            枇杷中含有苦杏仁甙，能够润肺止咳、祛痰，治疗各种咳嗽。
+            3.预防感冒
+            枇杷果实及叶有抑制流感病毒作用，常吃可以预防四时感冒。
+            4.防止呕吐
+            枇杷叶可晾干制成茶叶，有泄热下气、和胃降逆之功效，为止呕之良品，可治疗各种呕吐呃逆。
+            5.减肥
+            枇杷富含粗纤维及矿物元素。每百克枇杷肉中含0.4克蛋白质、6.6克碳水化合物，并且含有维生素B1和维生素C，是很有效的减肥果品。
+        </rawdata>
+
+        <segment>
+            枇杷  性凉  ，  味甘酸  ，  有  润肺  止咳  、  止渴  、  和  胃  的  功效  ，  常  用  于  咽  干  烦渴  、  咳嗽  吐血  、  呃逆  等症  。
+            促进  消化
+            枇杷  中  所  含  的  有机酸  ，  能  刺激  消化腺  分泌  ，  对  增进  食欲  、  帮助  消化  吸收  、  止渴  解暑  有  相当  的  作用  。
+            润肺  止咳
+            枇杷  中  含有  苦杏仁甙  ，  能够  润肺  止咳  、  祛痰  ，  治疗  各  种  咳嗽  。
+            预防  感冒
+            枇杷  果实  及叶  有  抑制  流感  病毒  作用  ，  常  吃  可以  预防  四  时  感冒  。
+            防止  呕吐
+            枇杷  叶可  晾干  制成  茶叶  ，  有  泄  热  下气  、  和  胃  降  逆  之  功效  ，  为止  呕之良品  ，  可治疗  各  种  呕吐  呃逆  。
+            减肥
+            枇杷  富含  粗  纤维  及  矿物  元素  。  每  百  克  枇杷  肉  中  含  4  克  蛋白质  、  6.6  克  碳水化合物  ，  并且  含有  维生素B1  和  维生素C  ，  是  很  有效  的  减肥  果品  。
+        </segment>
+
+        <pos>
+            枇杷#NR  性凉#VV  ，#PU  味甘酸#NN  ，#PU  有#VE  润肺#NR  止咳#NR  、#PU  止渴#NR  、#PU  和#CC  胃#NR  的#DEG  功效#NN  ，#PU  常#AD  用#VV  于#P  咽#AD  干#VV  烦渴#NR  、#PU  咳嗽#NR  吐血#NR  、#PU  呃逆#NR  等症#NN  。#PU
+            促进#VV  消化#NN
+            枇杷#NN  中#LC  所#MSP  含#VV  的#DEC  有机酸#NN  ，#PU  能#VV  刺激#VV  消化腺#NN  分泌#NN  ，#PU  对#P  增进#VV  食欲#NN  、#PU  帮助#VV  消化#NN  吸收#VV  、#PU  止渴#VV  解暑#NN  有#VE  相当#JJ  的#DEG  作用#NN  。#PU
+            润肺#NN  止咳#VV
+            枇杷#NN  中#LC  含有#NR  苦杏仁甙#VV  ，#PU  能够#VV  润肺#NN  止咳#NN  、#PU  祛痰#NN  ，#PU  治疗#VV  各#DT  种#M  咳嗽#NN  。#PU
+            预防#NN  感冒#VV
+            枇杷#NN  果实#NN  及叶#AD  有#VE  抑制#VV  流感#NN  病毒#NN  作用#NN  ，#PU  常#AD  吃#VV  可以#VV  预防#VV  四#CD  时#LC  感冒#NN  。#PU
+            防止#VV  呕吐#NN
+            枇杷#NN  叶可#NN  晾干#AD  制成#VV  茶叶#NN  ，#PU  有#VE  泄#NN  热#NN  下气#NN  、#PU  和#CC  胃#VV  降#NN  逆#NN  之#DEG  功效#NN  ，#PU  为止#LC  呕之良品#VV  ，#PU  可治疗#VV  各#DT  种#M  呕吐#NN  呃逆#NN  。#PU
+            减肥#VV
+            枇杷#NN  富含#VV  粗#NN  纤维#NN  及#CC  矿物#NN  元素#NN    。#PU  每#DT  百#CD  克#M  枇杷#NN  肉#NN  中#LC  含#VV  4#CD  克#M  蛋白质#NN  、#PU  6.6#CD  克#M  碳水化合物#NN  ，#PU  并且#CC  含有#VV  维生素B1#CD  和#CC  维生素C#CD  ，#PU  是#VC  很#AD  有效#VA  的#DEC  减肥#VV  果品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性凉#VV, 枇杷#NR)  (root, ROOT#null, 性凉#VV)  (nsubj, 有#VE, 味甘酸#NN)  (ccomp, 性凉#VV, 有#VE)  (nn, 胃#NR, 润肺#NR)  (conj, 胃#NR, 止咳#NR)  (dep, 胃#NR, 止渴#NR)  (cc, 胃#NR, 和#CC)  (assmod, 功效#NN, 胃#NR)  (case, 胃#NR, 的#DEG)  (dobj, 有#VE, 功效#NN)  (advmod, 用#VV, 常#AD)  (conj, 有#VE, 用#VV)  (case, 干#VV, 于#P)  (advmod, 干#VV, 咽#AD)  (prep, 用#VV, 干#VV)  (conj, 呃逆#NR, 烦渴#NR)  (nn, 呃逆#NR, 咳嗽#NR)  (conj, 呃逆#NR, 吐血#NR)  (nn, 等症#NN, 呃逆#NR)  (dobj, 干#VV, 等症#NN)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 消化#NN)
+            (loc, 含#VV, 枇杷#NN)  (case, 枇杷#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 有机酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 刺激#VV, 有机酸#NN)  (mmod, 刺激#VV, 能#VV)  (root, ROOT#null, 刺激#VV)  (nn, 分泌#NN, 消化腺#NN)  (dobj, 刺激#VV, 分泌#NN)  (case, 增进#VV, 对#P)  (prep, 有#VE, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增进#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 吸收#VV)  (conj, 增进#VV, 止渴#VV)  (dobj, 止渴#VV, 解暑#NN)  (dep, 刺激#VV, 有#VE)  (assmod, 作用#NN, 相当#JJ)  (case, 相当#JJ, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 止咳#VV, 润肺#NN)  (root, ROOT#null, 止咳#VV)
+            (loc, 苦杏仁甙#VV, 枇杷#NN)  (case, 枇杷#NN, 中#LC)  (nsubj, 苦杏仁甙#VV, 含有#NR)  (xsubj, 能够#VV, 含有#NR)  (root, ROOT#null, 苦杏仁甙#VV)  (ccomp, 苦杏仁甙#VV, 能够#VV)  (nn, 祛痰#NN, 润肺#NN)  (conj, 祛痰#NN, 止咳#NN)  (dobj, 能够#VV, 祛痰#NN)  (conj, 能够#VV, 治疗#VV)  (det, 咳嗽#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 治疗#VV, 咳嗽#NN)
+            (nsubj, 感冒#VV, 预防#NN)  (root, ROOT#null, 感冒#VV)
+            (nn, 果实#NN, 枇杷#NN)  (nsubj, 有#VE, 果实#NN)  (advmod, 有#VE, 及叶#AD)  (root, ROOT#null, 有#VE)  (nfincl, 感冒#NN, 抑制#VV)  (nn, 作用#NN, 流感#NN)  (nn, 作用#NN, 病毒#NN)  (dobj, 抑制#VV, 作用#NN)  (advmod, 吃#VV, 常#AD)  (conj, 抑制#VV, 吃#VV)  (mmod, 预防#VV, 可以#VV)  (loc, 吃#VV, 预防#VV)  (range, 预防#VV, 四#CD)  (case, 预防#VV, 时#LC)  (dobj, 有#VE, 感冒#NN)
+            (root, ROOT#null, 防止#VV)  (dobj, 防止#VV, 呕吐#NN)
+            (nn, 叶可#NN, 枇杷#NN)  (nsubj, 呕之良品#VV, 叶可#NN)  (advmod, 制成#VV, 晾干#AD)  (loc, 呕之良品#VV, 制成#VV)  (dobj, 制成#VV, 茶叶#NN)  (conj, 制成#VV, 有#VE)  (nn, 下气#NN, 泄#NN)  (nn, 下气#NN, 热#NN)  (dobj, 有#VE, 下气#NN)  (cc, 制成#VV, 和#CC)  (dep, 制成#VV, 胃#VV)  (dobj, 胃#VV, 降#NN)  (assmod, 功效#NN, 逆#NN)  (case, 逆#NN, 之#DEG)  (dobj, 胃#VV, 功效#NN)  (range, 胃#VV, 功效#NN)  (case, 制成#VV, 为止#LC)  (root, ROOT#null, 呕之良品#VV)  (ccomp, 呕之良品#VV, 可治疗#VV)  (det, 呕吐#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 呃逆#NN, 呕吐#NN)  (dobj, 可治疗#VV, 呃逆#NN)
+            (root, ROOT#null, 减肥#VV)
+            (nsubj, 富含#VV, 枇杷#NN)  (root, ROOT#null, 富含#VV)  (nn, 元素#NN, 粗#NN)  (conj, 元素#NN, 纤维#NN)  (cc, 元素#NN, 及#CC)  (nn, 元素#NN, 矿物#NN)  (dobj, 富含#VV, 元素#NN)   (det, 枇杷#NN, 每#DT)  (nummod, 克#M, 百#CD)  (dep, 每#DT, 克#M)  (nn, 肉#NN, 枇杷#NN)  (loc, 含#VV, 肉#NN)  (case, 肉#NN, 中#LC)  (conj, 减肥#VV, 含#VV)  (nummod, 克#M, 4#CD)  (clf, 蛋白质#NN, 克#M)  (conj, 碳水化合物#NN, 蛋白质#NN)  (nummod, 克#M, 6.6#CD)  (clf, 碳水化合物#NN, 克#M)  (dobj, 含#VV, 碳水化合物#NN)  (cc, 含#VV, 并且#CC)  (conj, 含#VV, 含有#VV)  (nummod, 维生素C#CD, 维生素B1#CD)  (cc, 维生素C#CD, 和#CC)  (range, 含有#VV, 维生素C#CD)  (cop, 有效#VA, 是#VC)  (advmod, 有效#VA, 很#AD)  (conj, 含#VV, 有效#VA)  (mark, 有效#VA, 的#DEC)  (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 果品#NN)
+        </parsing>
+
+        <tag>
+            性凉  烦渴  吐血  促进消化  含有机酸  消化腺分泌  刺激分泌  增进食欲  帮助消化  止渴解暑  止咳  润肺祛痰  能够祛痰  治疗咳嗽  感冒  防止呕吐  制成茶叶  呕吐呃逆  可治疗呃逆  富含  碳水化合物  蛋白质  减肥果品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  生津止渴  降气  润肺
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            枇杷不仅味道好，其营养也相当丰富，据分析，其主要成分有糖类、蛋白质、脂肪、纤维素、果胶、胡萝卜素、鞣质、苹果酸、柠檬酸、钾、磷、铁、钙以及维生素 A、B、C等。其中，特别是胡萝卜素的含量丰富，在水果中高居第3位。
+            而且，其含糖的种类电相当丰富，主要由葡萄糖、果糖 和蔗糖组成，另外，枇杷中丰富的维生素B，对保护视力、保持皮肤健康润泽，促进儿童的身体发育都有着十分重要的作用。
+            枇杷不论是叶、果和核都含有扁桃苷，有润肺、止咳的功效。
+            枇杷叶亦是中药的一种，以大块枇杷叶晒干入药，有清肺胃热，降气化痰的功用，常有与其他药材制成“川贝枇杷膏”。但枇杷与其他相关的植物一样，种子及新叶轻微带有毒性，生吃会释放出微量氰化物，但因其味苦，一般不会吃足以致害的分量。
+        </rawdata>
+
+        <segment>
+            枇杷  不仅  味道好  ，  其  营养  也  相当  丰富  ，  据  分析  ，  其  主要  成分  有  糖类  、  蛋白质  、  脂肪  、  纤维素  、  果胶  、  胡萝卜素  、  鞣质  、  苹果酸  、  柠檬酸  、  钾  、  磷  、  铁  、  钙  以及  维生素  A  、  B  、  C  等  。  其中  ，  特别是  胡萝卜素  的  含量  丰富  ，  在  水果  中  高居第  3  位  。
+            而且  ，  其  含糖  的  种类  电  相当  丰富  ，  主要  由  葡萄糖  、  果糖  和  蔗糖  组成  ，  另外  ，  枇杷  中  丰富  的  维生素  B  ，  对  保护  视力  、  保持  皮肤  健康  润泽  ，  促进  儿童  的  身体  发育  都  有  着  十分  重要  的  作用  。
+            枇杷  不论是  叶  、  果  和  核都  含有  扁桃苷  ，  有  润肺  、  止咳  的  功效  。
+            枇杷  叶  亦  是  中药  的  一  种  ，  以  大块  枇杷  叶  晒干  入药  ，  有  清肺胃热  ，  降气  化痰  的  功用  ，  常  有  与  其他  药材  制成  “  川贝  枇杷膏  ”  。  但  枇杷  与  其他  相关  的  植物  一样  ，  种子  及新  叶轻微  带有  毒性  ，  生吃  会  释放  出  微量  氰化物  ，  但  因  其  味苦  ，  一般  不  会  吃  足以  致  害  的  分量  。
+        </segment>
+
+        <pos>
+            枇杷#NN  不仅#CC  味道好#NN  ，#PU  其#PN  营养#VA  也#AD  相当#AD  丰富#VA  ，#PU  据#P  分析#NN  ，#PU  其#PN  主要#JJ  成分#NN  有#VE  糖类#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  纤维素#NR  、#PU  果胶#NR  、#PU  胡萝卜素#NR  、#PU  鞣质#NR  、#PU  苹果酸#NR  、#PU  柠檬酸#NR  、#PU  钾#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  钙#NN  以及#CC  维生素#NN  A#NN  、#PU  B#NN  、#PU  C#NN  等#ETC    。#PU  其中#NN  ，#PU  特别是#AD  胡萝卜素#NN  的#DEG  含量#NN  丰富#VA  ，#PU  在#P  水果#NN  中#LC  高居第#VV  3#CD  位#M    。#PU    。#PU
+            而且#AD  ，#PU  其#PN  含糖#NN  的#DEG  种类#NN  电#NN  相当#AD  丰富#VA  ，#PU  主要#AD  由#P  葡萄糖#NR  、#PU  果糖#NR  和#CC  蔗糖#NR  组成#VV  ，#PU  另外#AD  ，#PU  枇杷#NN  中#LC  丰富#VA  的#DEC  维生素#NN  B#VA  ，#PU  对#P  保护#NN  视力#VV  、#PU  保持#VV  皮肤#NR  健康#JJ  润泽#NN  ，#PU  促进#VV  儿童#NN  的#DEC  身体#NN  发育#NN  都#AD  有#VE  着#AS  十分#AD  重要#VA  的#DEC  作用#NN  。#PU
+            枇杷#NN  不论是#NN  叶#NN  、#PU  果#NN  和#CC  核都#NN  含有#NN  扁桃苷#VV  ，#PU  有#VE  润肺#NN  、#PU  止咳#NN  的#DEG  功效#NN  。#PU
+            枇杷#NN  叶#NN  亦#AD  是#VC  中药#NN  的#DEG  一#CD  种#M  ，#PU  以#P  大块#NN  枇杷#VV  叶#NR  晒干#NN  入药#NN  ，#PU  有#VE  清肺胃热#NN  ，#PU  降气#VV  化痰#NN  的#DEG  功用#NN  ，#PU  常#AD  有#VE  与#P  其他#DT  药材#NN  制成#VV  ``#NN  川贝#NN  枇杷膏#NN  ''#NN    。#PU  但#AD  枇杷#NN  与#P  其他#DT  相关#VA  的#DEC  植物#NN  一样#VA  ，#PU  种子#NN  及新#NN  叶轻微#AD  带有#VV  毒性#NN  ，#PU  生吃#NN  会#VV  释放#VV  出#VV  微量#NN  氰化物#NN  ，#PU  但#AD  因#P  其#PN  味苦#VV  ，#PU  一般#AD  不#AD  会#VV  吃#VV  足以#VV  致#VV  害#VV  的#DEC  分量#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 味道好#NN, 枇杷#NN)  (cc, 味道好#NN, 不仅#CC)  (nsubj, 营养#VA, 味道好#NN)  (nsubj, 营养#VA, 其#PN)  (conj, 有#VE, 营养#VA)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 相当#AD)  (dep, 营养#VA, 丰富#VA)  (case, 分析#NN, 据#P)  (prep, 有#VE, 分析#NN)  (dep, 有#VE, 其#PN)  (amod, 成分#NN, 主要#JJ)  (dep, 有#VE, 成分#NN)  (root, ROOT#null, 有#VE)  (conj, 柠檬酸#NR, 糖类#NR)  (conj, 柠檬酸#NR, 蛋白质#NR)  (conj, 柠檬酸#NR, 脂肪#NR)  (conj, 柠檬酸#NR, 纤维素#NR)  (conj, 柠檬酸#NR, 果胶#NR)  (conj, 柠檬酸#NR, 胡萝卜素#NR)  (conj, 柠檬酸#NR, 鞣质#NR)  (conj, 柠檬酸#NR, 苹果酸#NR)  (conj, C#NN, 柠檬酸#NR)  (conj, 维生素#NN, 钾#NN)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (conj, 维生素#NN, 钙#NN)  (cc, 维生素#NN, 以及#CC)  (nn, A#NN, 维生素#NN)  (conj, C#NN, A#NN)  (conj, C#NN, B#NN)  (dobj, 有#VE, C#NN)  (etc, C#NN, 等#ETC)   (nsubj, 丰富#VA, 其中#NN)  (advmod, 含量#NN, 特别是#AD)  (assmod, 含量#NN, 胡萝卜素#NN)  (case, 胡萝卜素#NN, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)  (case, 水果#NN, 在#P)  (prep, 高居第#VV, 水果#NN)  (case, 水果#NN, 中#LC)  (conj, 丰富#VA, 高居第#VV)  (nummod, 位#M, 3#CD)  (range, 高居第#VV, 位#M)   (root, ROOT#null, null#null)
+            (advmod, 有#VE, 而且#AD)  (nn, 含糖#NN, 其#PN)  (assmod, 种类#NN, 含糖#NN)  (case, 含糖#NN, 的#DEG)  (nsubj, 丰富#VA, 种类#NN)  (nsubj, 丰富#VA, 电#NN)  (advmod, 丰富#VA, 相当#AD)  (relcl, 发育#NN, 丰富#VA)  (advmod, 组成#VV, 主要#AD)  (case, 蔗糖#NR, 由#P)  (conj, 蔗糖#NR, 葡萄糖#NR)  (conj, 蔗糖#NR, 果糖#NR)  (cc, 蔗糖#NR, 和#CC)  (prep, 组成#VV, 蔗糖#NR)  (dep, 丰富#VA, 组成#VV)  (advmod, B#VA, 另外#AD)  (loc, B#VA, 枇杷#NN)  (case, 枇杷#NN, 中#LC)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, B#VA, 维生素#NN)  (conj, 丰富#VA, B#VA)  (case, 保护#NN, 对#P)  (prep, 视力#VV, 保护#NN)  (conj, 丰富#VA, 视力#VV)  (dep, 丰富#VA, 保持#VV)  (nn, 润泽#NN, 皮肤#NR)  (amod, 润泽#NN, 健康#JJ)  (dobj, 保持#VV, 润泽#NN)  (conj, 保持#VV, 促进#VV)  (dobj, 促进#VV, 儿童#NN)  (mark, 丰富#VA, 的#DEC)  (nn, 发育#NN, 身体#NN)  (nsubj, 有#VE, 发育#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (asp, 有#VE, 着#AS)  (advmod, 重要#VA, 十分#AD)  (relcl, 作用#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (nn, 含有#NN, 枇杷#NN)  (nn, 含有#NN, 不论是#NN)  (conj, 含有#NN, 叶#NN)  (conj, 含有#NN, 果#NN)  (cc, 含有#NN, 和#CC)  (nn, 含有#NN, 核都#NN)  (nsubj, 扁桃苷#VV, 含有#NN)  (root, ROOT#null, 扁桃苷#VV)  (ccomp, 扁桃苷#VV, 有#VE)  (conj, 止咳#NN, 润肺#NN)  (assmod, 功效#NN, 止咳#NN)  (case, 止咳#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)
+            (nn, 叶#NN, 枇杷#NN)  (nsubj, 是#VC, 叶#NN)  (advmod, 是#VC, 亦#AD)  (root, ROOT#null, 是#VC)  (assmod, 种#M, 中药#NN)  (case, 中药#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (case, 大块#NN, 以#P)  (prep, 枇杷#VV, 大块#NN)  (conj, 是#VC, 枇杷#VV)  (nn, 入药#NN, 叶#NR)  (nn, 入药#NN, 晒干#NN)  (dobj, 枇杷#VV, 入药#NN)  (conj, 是#VC, 有#VE)  (dobj, 有#VE, 清肺胃热#NN)  (conj, 是#VC, 降气#VV)  (assmod, 功用#NN, 化痰#NN)  (case, 化痰#NN, 的#DEG)  (dobj, 降气#VV, 功用#NN)  (advmod, 有#VE, 常#AD)  (conj, 是#VC, 有#VE)  (case, 药材#NN, 与#P)  (det, 药材#NN, 其他#DT)  (prep, 制成#VV, 药材#NN)  (relcl, ''#NN, 制成#VV)  (nn, 枇杷膏#NN, ``#NN)  (nn, 枇杷膏#NN, 川贝#NN)  (dobj, 制成#VV, 枇杷膏#NN)  (dobj, 有#VE, ''#NN)   (advmod, 一样#VA, 但#AD)  (nsubj, 一样#VA, 枇杷#NN)  (case, 植物#NN, 与#P)  (det, 植物#NN, 其他#DT)  (relcl, 植物#NN, 相关#VA)  (mark, 相关#VA, 的#DEC)  (prep, 一样#VA, 植物#NN)  (root, ROOT#null, 一样#VA)  (nn, 及新#NN, 种子#NN)  (nsubj, 带有#VV, 及新#NN)  (advmod, 带有#VV, 叶轻微#AD)  (conj, 一样#VA, 带有#VV)  (dobj, 带有#VV, 毒性#NN)  (nsubj, 释放#VV, 生吃#NN)  (mmod, 释放#VV, 会#VV)  (conj, 一样#VA, 释放#VV)  (rcomp, 释放#VV, 出#VV)  (nn, 氰化物#NN, 微量#NN)  (dobj, 释放#VV, 氰化物#NN)  (advmod, 足以#VV, 但#AD)  (case, 味苦#VV, 因#P)  (nsubj, 味苦#VV, 其#PN)  (xsubj, 吃#VV, 其#PN)  (prep, 足以#VV, 味苦#VV)  (advmod, 吃#VV, 一般#AD)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 会#VV)  (ccomp, 味苦#VV, 吃#VV)  (conj, 释放#VV, 足以#VV)  (ccomp, 足以#VV, 致#VV)  (relcl, 分量#NN, 害#VV)  (mark, 害#VV, 的#DEC)  (dobj, 致#VV, 分量#NN)
+        </parsing>
+
+        <tag>
+            味道好营养  柠檬酸  糖类  蛋白质  脂肪  纤维素  果胶  胡萝卜素  鞣质  苹果酸  种类丰富  电丰富  发育丰富  蔗糖  葡萄糖  果糖  维生素丰富  健康润泽  保持润泽  促进儿童  身体发育  不论是含有  核都含有  止咳  润肺  晒干入药  降气功用  植物相关  带有毒性  微量氰化物  释放氰化物  害分量  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.尚未成熟的枇杷切勿食用。
+            2.枇杷果核中含有苦杏仁甙，有毒，千万不要误食，以免危害健康及生命。
+            3.吃枇杷时要剥皮。除了鲜吃外，亦有以枇杷肉制成糖水罐头，或以枇杷酿酒。
+            4.枇杷不仅果肉可入药，其核、叶、根也有药用价值。鲜枇杷洗净，生吃，就能治疗口干烦渴等不适。另外，将鲜枇杷50克，洗净去皮，加冰糖5克，熬半小时后服用，对于扁桃体发炎引起的咽喉红肿疼痛特别有效。
+        </rawdata>
+
+        <segment>
+            尚  未  成熟  的  枇杷  切勿  食用  。
+            枇杷  果核  中含有  苦杏仁甙  ，  有毒  ，  千万  不  要  误食  ，  以免  危害  健康  及  生命  。
+            吃  枇杷  时  要  剥皮  。  除了  鲜  吃  外  ，  亦  有  以  枇杷  肉制  成  糖水  罐头  ，  或以  枇杷  酿酒  。
+            枇杷  不仅  果肉  可  入药  ，  其  核  、  叶  、  根  也  有  药用  价值  。  鲜  枇杷  洗净  ，  生吃  ，  就  能  治疗  口干  烦渴  等  不适  。  另外  ，  将  鲜  枇杷  50  克  ，  洗净  去皮  ，  加  冰糖  5  克  ，  熬  半  小时  后  服用  ，  对于  扁桃体  发炎  引起  的  咽喉  红肿  疼痛  特别  有效  。
+        </segment>
+
+        <pos>
+            尚#AD  未#AD  成熟#VA  的#DEC  枇杷#NN  切勿#VV  食用#VV  。#PU
+            枇杷#NN  果核#NN  中含有#NN  苦杏仁甙#VV  ，#PU  有毒#NN  ，#PU  千万#CD  不#AD  要#VV  误食#VV  ，#PU  以免#VV  危害#NN  健康#AD  及#VV  生命#NN  。#PU
+            吃#VV  枇杷#NN  时#LC  要#VV  剥皮#VV    。#PU  除了#P  鲜#AD  吃#VV  外#LC  ，#PU  亦#AD  有#VE  以#P  枇杷#NN  肉制#NN  成#VV  糖水#NN  罐头#NN  ，#PU  或以#NN  枇杷#VV  酿酒#NN    。#PU    。#PU
+            枇杷#NR  不仅#CC  果肉#NR  可#VV  入药#VV  ，#PU  其#PN  核#NN  、#PU  叶#NR  、#PU  根#M  也#AD  有#VE  药用#NN  价值#NN    。#PU  鲜#NN  枇杷#NN  洗净#VV  ，#PU  生吃#NN  ，#PU  就#AD  能#VV  治疗#VV  口干#NN  烦渴#NN  等#ETC  不适#NN    。#PU  另外#AD  ，#PU  将#AD  鲜#AD  枇杷#VV  50#CD  克#M  ，#PU  洗净#VV  去皮#NN  ，#PU  加#VV  冰糖#NN  5#CD  克#M  ，#PU  熬#VV  半#CD  小时#NN  后#LC  服用#VV  ，#PU  对于#P  扁桃体#NN  发炎#NN  引起#VV  的#DEC  咽喉#NN  红肿#NN  疼痛#NN  特别#AD  有效#VA    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 成熟#VA, 尚#AD)  (advmod, 成熟#VA, 未#AD)  (relcl, 枇杷#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (nsubj, 切勿#VV, 枇杷#NN)  (root, ROOT#null, 切勿#VV)  (ccomp, 切勿#VV, 食用#VV)
+            (nn, 中含有#NN, 枇杷#NN)  (nn, 中含有#NN, 果核#NN)  (nsubj, 苦杏仁甙#VV, 中含有#NN)  (root, ROOT#null, 苦杏仁甙#VV)  (nsubj, 误食#VV, 有毒#NN)  (dep, 误食#VV, 千万#CD)  (neg, 误食#VV, 不#AD)  (dep, 误食#VV, 要#VV)  (ccomp, 苦杏仁甙#VV, 误食#VV)  (dep, 误食#VV, 以免#VV)  (dobj, 以免#VV, 危害#NN)  (advmod, 及#VV, 健康#AD)  (dep, 以免#VV, 及#VV)  (dobj, 及#VV, 生命#NN)
+            (loc, 剥皮#VV, 吃#VV)  (dobj, 吃#VV, 枇杷#NN)  (case, 吃#VV, 时#LC)  (dep, 剥皮#VV, 要#VV)  (root, ROOT#null, 剥皮#VV)   (case, 吃#VV, 除了#P)  (advmod, 吃#VV, 鲜#AD)  (prep, 有#VE, 吃#VV)  (case, 吃#VV, 外#LC)  (advmod, 有#VE, 亦#AD)  (root, ROOT#null, 有#VE)  (case, 成#VV, 以#P)  (nn, 肉制#NN, 枇杷#NN)  (nsubj, 成#VV, 肉制#NN)  (prep, 枇杷#VV, 成#VV)  (nn, 罐头#NN, 糖水#NN)  (dobj, 成#VV, 罐头#NN)  (nsubj, 枇杷#VV, 或以#NN)  (dep, 有#VE, 枇杷#VV)  (dobj, 枇杷#VV, 酿酒#NN)   (root, ROOT#null, null#null)
+            (conj, 果肉#NR, 枇杷#NR)  (cc, 果肉#NR, 不仅#CC)  (nsubj, 入药#VV, 果肉#NR)  (mmod, 入药#VV, 可#VV)  (root, ROOT#null, 入药#VV)  (nn, 核#NN, 其#PN)  (conj, 价值#NN, 核#NN)  (conj, 价值#NN, 叶#NR)  (clf, 价值#NN, 根#M)  (advmod, 有#VE, 也#AD)  (relcl, 价值#NN, 有#VE)  (dobj, 有#VE, 药用#NN)  (dep, 入药#VV, 价值#NN)   (nn, 枇杷#NN, 鲜#NN)  (nsubj, 洗净#VV, 枇杷#NN)  (root, ROOT#null, 洗净#VV)  (nsubj, 治疗#VV, 生吃#NN)  (advmod, 治疗#VV, 就#AD)  (mmod, 治疗#VV, 能#VV)  (ccomp, 洗净#VV, 治疗#VV)  (nn, 烦渴#NN, 口干#NN)  (nn, 不适#NN, 烦渴#NN)  (etc, 烦渴#NN, 等#ETC)  (dobj, 治疗#VV, 不适#NN)   (advmod, 有效#VA, 另外#AD)  (advmod, 枇杷#VV, 将#AD)  (advmod, 枇杷#VV, 鲜#AD)  (relcl, 红肿#NN, 枇杷#VV)  (nummod, 克#M, 50#CD)  (range, 枇杷#VV, 克#M)  (conj, 枇杷#VV, 洗净#VV)  (dobj, 洗净#VV, 去皮#NN)  (conj, 枇杷#VV, 加#VV)  (dobj, 加#VV, 冰糖#NN)  (nummod, 克#M, 5#CD)  (range, 加#VV, 克#M)  (loc, 服用#VV, 熬#VV)  (nummod, 小时#NN, 半#CD)  (dobj, 熬#VV, 小时#NN)  (case, 熬#VV, 后#LC)  (conj, 枇杷#VV, 服用#VV)  (case, 发炎#NN, 对于#P)  (nn, 发炎#NN, 扁桃体#NN)  (prep, 引起#VV, 发炎#NN)  (conj, 枇杷#VV, 引起#VV)  (mark, 枇杷#VV, 的#DEC)  (nn, 红肿#NN, 咽喉#NN)  (nsubj, 有效#VA, 红肿#NN)  (nsubj, 有效#VA, 疼痛#NN)  (advmod, 有效#VA, 特别#AD)  (root, ROOT#null, 有效#VA)
+        </parsing>
+
+        <tag>
+            切勿  果核中含有  剥皮  糖水罐头  入药  口干烦渴  烦渴不适  治疗不适  洗净去皮  扁桃体发炎  咽喉红肿  红肿有效  疼痛有效  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/111101211176.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\351 枇杷.jpg
+    </picturelocalurl>
+
+</content>

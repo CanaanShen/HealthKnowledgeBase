@@ -1,0 +1,222 @@
+<content>
+
+    <id>
+        331
+    </id>
+
+    <foodname>
+        蔓越莓
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        蔓越橘、小红莓
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃久虚者少食。
+        </rawdata>
+
+        <segment>
+            脾胃  久  虚  者  少  食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  久#AD  虚#AD  者#NN  少#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 少#VV, 脾胃#NN)  (advmod, 少#VV, 久#AD)  (advmod, 少#VV, 虚#AD)  (dobj, 少#VV, 者#NN)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            脾胃久虚者少食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                45
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蔓越莓，又称蔓越橘、小红莓，是杜鹃花科越橘属红莓苔子亚属（学名：Oxycoccos，又名毛蒿豆亚属）的俗称，此亚属的物种均为常绿灌木，主要生长在北半球的凉爽地带酸性泥炭土壤中。花深粉红色，总状花序。蔓越莓是一种表皮及果肉都是鲜红色，生长在矮藤上的小圆浆果。可做水果食用，具有独特的酸甜口味，清新爽口；也可用来做成果汁、果酱等。
+            蔓越莓需要特殊的环境及气候条件，因此全球产区不到4万英亩，生长在北半球的凉爽地带酸性泥炭土壤中，全球产区不到4万英亩，仅限于美国北部的马萨诸塞、威斯康辛、新泽西、俄勒冈、华盛顿等五州，加拿大的魁北克、英属哥伦比亚二省，以及南美的智利。产量有限、十分珍贵，因而有“北美的红宝石”之称。
+        </rawdata>
+
+        <segment>
+            蔓越莓  ，  又  称  蔓越橘  、  小  红莓  ，  是  杜鹃花科  越橘  属  红莓苔子  亚属  （  学名  ：  Oxycoccos  ，  又  名  毛蒿豆  亚属  ）  的  俗称  ，  此  亚属  的  物种  均为  常绿  灌木  ，  主要  生长  在  北半球  的  凉爽  地带  酸性  泥炭  土壤  中  。  花  深  粉红色  ，  总状花序  。  蔓越莓  是  一  种  表皮  及  果肉  都  是  鲜红色  ，  生长  在  矮  藤  上  的  小圆  浆果  。  可做  水果  食用  ，  具有  独特  的  酸甜  口味  ，  清新  爽口  ；  也  可  用来  做成  果汁  、  果酱  等  。
+            蔓越莓  需要  特殊  的  环境  及  气候  条件  ，  因此  全球  产区  不到  4万  英亩  ，  生长  在  北半球  的  凉爽  地带  酸性  泥炭  土壤  中  ，  全球  产区  不到  4万  英亩  ，  仅  限于  美国  北部  的  马萨诸塞  、  威斯康辛  、  新泽西  、  俄勒冈  、  华盛顿  等  五  州  ，  加拿大  的  魁北克  、  英属  哥伦比亚  二  省  ，  以及  南美  的  智利  。  产量  有限  、  十分  珍贵  ，  因而  有  “  北美  的  红宝石  ”  之  称  。
+        </segment>
+
+        <pos>
+            蔓越莓#VV  ，#PU  又#AD  称#VV  蔓越橘#JJ  、#PU  小#JJ  红莓#NN  ，#PU  是#VC  杜鹃花科#NN  越橘#NN  属#VV  红莓苔子#NR  亚属#NN  （#PU  学名#VV  ：#PU  Oxycoccos#VA  ，#PU  又#CC  名#JJ  毛蒿豆#NN  亚属#NN  ）#PU  的#DEG  俗称#NN  ，#PU  此#PN  亚属#VA  的#DEC  物种#NN  均为#NN  常绿#NN  灌木#VV  ，#PU  主要#JJ  生长#NN  在#P  北半球#NR  的#DEG  凉爽#NN  地带#NN  酸性#VV  泥炭#NN  土壤#NN  中#LC    。#PU  花#NN  深#AD  粉红色#VV  ，#PU  总状花序#VV    。#PU  蔓越莓#NN  是#VC  一#CD  种#M  表皮#NR  及#CC  果肉#NR  都#AD  是#VC  鲜红色#NN  ，#PU  生长#NN  在#P  矮#JJ  藤#NN  上#LC  的#DEG  小圆#NN  浆果#VV    。#PU  可做#NN  水果#NN  食用#VV  ，#PU  具有#VV  独特#VA  的#DEC  酸甜#NN  口味#NN  ，#PU  清新#VV  爽口#NN  ；#PU  也#AD  可#VV  用来#VV  做成#NN  果汁#NN  、#PU  果酱#NN  等#ETC    。#PU    。#PU
+            蔓越莓#NR  需要#VV  特殊#VA  的#DEC  环境#NN  及#CC  气候#NN  条件#NN  ，#PU  因此#AD  全球#NN  产区#NN  不到#AD  4万#CD  英亩#VV  ，#PU  生长#NN  在#P  北半球#NR  的#DEG  凉爽#NN  地带#NN  酸性#VV  泥炭#NN  土壤#NN  中#LC  ，#PU  全球#NN  产区#VV  不到#AD  4万#CD  英亩#NN  ，#PU  仅#AD  限于#VV  美国#NR  北部#NN  的#DEG  马萨诸塞#NN  、#PU  威斯康辛#NR  、#PU  新泽西#NR  、#PU  俄勒冈#NR  、#PU  华盛顿#NR  等#ETC  五#CD  州#NN  ，#PU  加拿大#NR  的#DEG  魁北克#NN  、#PU  英属#NR  哥伦比亚#NR  二#CD  省#NN  ，#PU  以及#CC  南美#NR  的#DEG  智利#NR    。#PU  产量#NN  有限#VA  、#PU  十分#AD  珍贵#VA  ，#PU  因而#AD  有#VE  ``#NR  北美#NR  的#DEG  红宝石#JJ  ''#NN  之#DEG  称#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 常绿#NN, 蔓越莓#VV)  (advmod, 称#VV, 又#AD)  (conj, 属#VV, 称#VV)  (amod, 红莓#NN, 蔓越橘#JJ)  (dep, 蔓越橘#JJ, 小#JJ)  (dobj, 称#VV, 红莓#NN)  (cop, 越橘#NN, 是#VC)  (nn, 越橘#NN, 杜鹃花科#NN)  (dep, 称#VV, 越橘#NN)  (ccomp, 蔓越莓#VV, 属#VV)  (nn, 亚属#NN, 红莓苔子#NR)  (assmod, 俗称#NN, 亚属#NN)  (prnmod, 亚属#NN, 学名#VV)  (dep, 学名#VV, Oxycoccos#VA)  (cc, Oxycoccos#VA, 又#CC)  (amod, 亚属#NN, 名#JJ)  (nn, 亚属#NN, 毛蒿豆#NN)  (dep, Oxycoccos#VA, 亚属#NN)  (case, 亚属#NN, 的#DEG)  (dobj, 属#VV, 俗称#NN)  (nsubj, 亚属#VA, 此#PN)  (dep, 属#VV, 亚属#VA)  (mark, 蔓越莓#VV, 的#DEC)  (nn, 常绿#NN, 物种#NN)  (nn, 常绿#NN, 均为#NN)  (nsubj, 灌木#VV, 常绿#NN)  (root, ROOT#null, 灌木#VV)  (amod, 生长#NN, 主要#JJ)  (nsubj, 酸性#VV, 生长#NN)  (case, 地带#NN, 在#P)  (assmod, 地带#NN, 北半球#NR)  (case, 北半球#NR, 的#DEG)  (nn, 地带#NN, 凉爽#NN)  (prep, 酸性#VV, 地带#NN)  (ccomp, 灌木#VV, 酸性#VV)  (nn, 土壤#NN, 泥炭#NN)  (loc, 酸性#VV, 土壤#NN)  (case, 土壤#NN, 中#LC)   (nsubj, 粉红色#VV, 花#NN)  (advmod, 粉红色#VV, 深#AD)  (root, ROOT#null, 粉红色#VV)  (ccomp, 粉红色#VV, 总状花序#VV)   (nsubj, 是#VC, 蔓越莓#NN)  (root, ROOT#null, 是#VC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (conj, 果肉#NR, 表皮#NR)  (cc, 果肉#NR, 及#CC)  (nsubj, 鲜红色#NN, 果肉#NR)  (advmod, 鲜红色#NN, 都#AD)  (cop, 鲜红色#NN, 是#VC)  (conj, 是#VC, 鲜红色#NN)  (nsubj, 浆果#VV, 生长#NN)  (case, 小圆#NN, 在#P)  (amod, 藤#NN, 矮#JJ)  (assmod, 小圆#NN, 藤#NN)  (case, 藤#NN, 上#LC)  (case, 藤#NN, 的#DEG)  (prep, 浆果#VV, 小圆#NN)  (conj, 鲜红色#NN, 浆果#VV)   (nn, 水果#NN, 可做#NN)  (nsubj, 食用#VV, 水果#NN)  (root, ROOT#null, 食用#VV)  (conj, 食用#VV, 具有#VV)  (relcl, 口味#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 口味#NN, 酸甜#NN)  (dobj, 具有#VV, 口味#NN)  (conj, 食用#VV, 清新#VV)  (dobj, 清新#VV, 爽口#NN)  (advmod, 用来#VV, 也#AD)  (mmod, 用来#VV, 可#VV)  (conj, 食用#VV, 用来#VV)  (nn, 果酱#NN, 做成#NN)  (conj, 果酱#NN, 果汁#NN)  (dobj, 用来#VV, 果酱#NN)  (etc, 果酱#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nsubj, 需要#VV, 蔓越莓#NR)  (root, ROOT#null, 需要#VV)  (relcl, 条件#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (conj, 条件#NN, 环境#NN)  (cc, 条件#NN, 及#CC)  (nn, 条件#NN, 气候#NN)  (dobj, 需要#VV, 条件#NN)  (advmod, 英亩#VV, 因此#AD)  (nn, 产区#NN, 全球#NN)  (nsubj, 英亩#VV, 产区#NN)  (advmod, 4万#CD, 不到#AD)  (dep, 英亩#VV, 4万#CD)  (conj, 需要#VV, 英亩#VV)  (nsubj, 酸性#VV, 生长#NN)  (case, 地带#NN, 在#P)  (assmod, 地带#NN, 北半球#NR)  (case, 北半球#NR, 的#DEG)  (nn, 地带#NN, 凉爽#NN)  (prep, 酸性#VV, 地带#NN)  (loc, 产区#VV, 酸性#VV)  (nn, 土壤#NN, 泥炭#NN)  (dobj, 酸性#VV, 土壤#NN)  (case, 酸性#VV, 中#LC)  (nsubj, 产区#VV, 全球#NN)  (conj, 需要#VV, 产区#VV)  (advmod, 4万#CD, 不到#AD)  (nummod, 英亩#NN, 4万#CD)  (dobj, 产区#VV, 英亩#NN)  (advmod, 限于#VV, 仅#AD)  (conj, 产区#VV, 限于#VV)  (nn, 北部#NN, 美国#NR)  (assmod, 马萨诸塞#NN, 北部#NN)  (case, 北部#NN, 的#DEG)  (conj, 智利#NR, 马萨诸塞#NN)  (conj, 华盛顿#NR, 威斯康辛#NR)  (conj, 华盛顿#NR, 新泽西#NR)  (conj, 华盛顿#NR, 俄勒冈#NR)  (nn, 州#NN, 华盛顿#NR)  (etc, 华盛顿#NR, 等#ETC)  (nummod, 州#NN, 五#CD)  (dep, 智利#NR, 州#NN)  (assmod, 魁北克#NN, 加拿大#NR)  (case, 加拿大#NR, 的#DEG)  (conj, 智利#NR, 魁北克#NN)  (nn, 哥伦比亚#NR, 英属#NR)  (nn, 省#NN, 哥伦比亚#NR)  (nummod, 省#NN, 二#CD)  (dep, 智利#NR, 省#NN)  (cc, 智利#NR, 以及#CC)  (assmod, 智利#NR, 南美#NR)  (case, 南美#NR, 的#DEG)  (dobj, 限于#VV, 智利#NR)   (nsubj, 有限#VA, 产量#NN)  (root, ROOT#null, 有限#VA)  (advmod, 珍贵#VA, 十分#AD)  (dep, 有限#VA, 珍贵#VA)  (advmod, 有#VE, 因而#AD)  (dep, 有限#VA, 有#VE)  (nn, ''#NN, ``#NR)  (assmod, ''#NN, 北美#NR)  (case, 北美#NR, 的#DEG)  (amod, ''#NN, 红宝石#JJ)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)
+        </parsing>
+
+        <tag>
+            蔓越橘红莓  杜鹃花科越橘  名亚属  毛蒿豆亚属  物种常绿  均为常绿  灌木  凉爽地带  泥炭土壤  果肉  表皮  矮藤  可做水果  食用  口味独特  酸甜口味  清新爽口  做成果酱  果汁  用来果酱  条件特殊  环境  气候条件  需要条件  全球产区  酸性土壤  产区英亩  马萨诸塞  华盛顿  威斯康辛  新泽西  俄勒冈  产量有限  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.可预防妇女常见的泌尿道感染问题
+            每天喝约350CC以上的蔓越莓果汁或是蔓越莓营养辅助品，对于预防泌尿道感染及膀胱炎很有帮助。
+            2.降低胃溃疡及胃癌的发生率
+            蔓越莓可以有效抑制幽门螺旋杆菌附着于肠胃内。幽门螺旋杆菌就是导致胃溃疡甚至胃癌发生的主因。
+            3.美容养颜
+            蔓越莓含维生素C、类黄酮素等抗氧化物质及丰富果胶，能养颜美容、改善便秘，帮助排出体内毒素及多余脂肪。
+            4.抗老化、避免老年痴呆
+            蔓越莓具有一种非常强力的抵抗自由基物质-生物黄酮，而且它的含量高居于一般常见的20种蔬果之冠，尤其在这个处处充满着自由基伤害的大环境里，想要靠自然健康的方法来抵抗衰老更是难上加难，而经常或是每天食用蔓越莓就是其中的好方法之一。
+            5.减少心血管老化病变
+            在蔓越莓当中，不但含有高量的单元不饱和脂肪酸和生育三烯醇外，还有另一种抗氧化尖兵-浓缩单宁酸，因此无论是荤食或是素食者，都能够利用蔓越莓来保护心血管健康
+        </rawdata>
+
+        <segment>
+            可  预防  妇女  常见  的  泌尿  道  感染  问题
+            每  天  喝  约  350  CC  以上  的  蔓越莓  果汁  或是  蔓越莓  营养  辅助品  ，  对于  预防  泌尿  道  感染  及  膀胱炎  很  有  帮助  。
+            降低  胃溃疡  及  胃癌  的  发生率
+            蔓越莓  可以  有效  抑制  幽门  螺旋  杆菌  附着  于  肠  胃内  。  幽门  螺旋  杆菌  就是  导致  胃溃疡  甚至  胃癌  发生  的  主因  。
+            美容  养颜
+            蔓越莓  含  维生素C  、  类  黄酮素  等  抗氧化  物质  及  丰富  果胶  ，  能  养颜  美容  、  改善  便秘  ，  帮助  排出  体  内毒素  及  多余  脂肪  。
+            抗  老化  、  避免  老年  痴呆
+            蔓越莓  具有  一  种  非常  强力  的  抵抗  自由基  物质  -  生物  黄酮  ，  而且  它  的  含量  高  居于  一般  常见  的  20  种  蔬果  之冠  ，  尤其  在  这个  处处  充满  着  自由基  伤害  的  大  环境  里  ，  想要  靠  自然  健康  的  方法  来  抵抗  衰老  更  是  难上加难  ，  而  经常  或是  每天  食用  蔓越莓  就  是  其中  的  好  方法  之一  。
+            减少  心血管  老化  病变
+            在  蔓越莓  当中  ，  不但  含有  高量  的  单元  不  饱和  脂肪酸  和  生育  三  烯醇  外  ，  还有  另  一  种  抗氧化  尖兵  -  浓缩  单宁酸  ，  因此  无论是  荤食  或是  素食者  ，  都  能够  利用  蔓越  莓来  保护  心血管  健康
+        </segment>
+
+        <pos>
+            可#VV  预防#VV  妇女#NN  常见#VA  的#DEC  泌尿#NN  道#NN  感染#NN  问题#NN
+            每#DT  天#M  喝#NN  约#AD  350#CD  CC#NN  以上#LC  的#DEG  蔓越莓#NN  果汁#NN  或是#NN  蔓越莓#AD  营养#VA  辅助品#VA  ，#PU  对于#P  预防#VV  泌尿#NN  道#NN  感染#NN  及#CC  膀胱炎#VV  很#AD  有#VE  帮助#NN  。#PU
+            降低#VV  胃溃疡#NN  及#CC  胃癌#NN  的#DEG  发生率#NN
+            蔓越莓#NN  可以#VV  有效#AD  抑制#VV  幽门#NN  螺旋#NN  杆菌#NN  附着#VV  于#P  肠#NN  胃内#NN    。#PU  幽门#NN  螺旋#NN  杆菌#VV  就是#AD  导致#VV  胃溃疡#AD  甚至#AD  胃癌#AD  发生#VV  的#DEC  主因#NN    。#PU    。#PU
+            美容#NN  养颜#VV
+            蔓越莓#NN  含#VV  维生素C#NN  、#PU  类#NN  黄酮素#NN  等#ETC  抗氧化#NN  物质#NN  及#CC  丰富#VV  果胶#NN  ，#PU  能#VV  养颜#VV  美容#NN  、#PU  改善#VV  便秘#NN  ，#PU  帮助#VV  排出#NN  体#VV  内毒素#NN  及#CC  多余#NN  脂肪#NN  。#PU
+            抗#VV  老化#NN  、#PU  避免#VV  老年#NN  痴呆#NN
+            蔓越莓#NR  具有#VV  一#CD  种#M  非常#AD  强力#VV  的#DEC  抵抗#VV  自由基#NN  物质#NN  -#NN  生物#NN  黄酮#NN  ，#PU  而且#AD  它#PN  的#DEG  含量#NN  高#AD  居于#VV  一般#AD  常见#VA  的#DEC  20#CD  种#M  蔬果#JJ  之冠#NN  ，#PU  尤其#AD  在#P  这个#VV  处处#PN  充满#VV  着#AS  自由基#NN  伤害#NN  的#DEC  大#JJ  环境#NN  里#LC  ，#PU  想要#AD  靠#P  自然#AD  健康#VA  的#DEC  方法#NN  来#LC  抵抗#VV  衰老#NN  更#AD  是#VC  难上加难#NN  ，#PU  而#AD  经常#AD  或是#VV  每天#NN  食用#VV  蔓越莓#CD  就#AD  是#VC  其中#NN  的#DEC  好#JJ  方法#NN  之一#NN  。#PU
+            减少#VV  心血管#NN  老化#NN  病变#NN
+            在#P  蔓越莓#VV  当中#NN  ，#PU  不但#CC  含有#VV  高量#NN  的#DEC  单元#NR  不#AD  饱和#JJ  脂肪酸#NN  和#CC  生育#NN  三#CD  烯醇#NN  外#LC  ，#PU  还有#AD  另#DT  一#CD  种#M  抗氧化#NN  尖兵#AD  -#VV  浓缩#NN  单宁酸#NN  ，#PU  因此#AD  无论是#AD  荤食#VV  或是#VV  素食者#NN  ，#PU  都#AD  能够#VV  利用#VV  蔓越#NN  莓来#NN  保护#NN  心血管#NN  健康#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 可#VV)  (nfincl, 问题#NN, 预防#VV)  (nsubj, 常见#VA, 妇女#NN)  (relcl, 感染#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nn, 感染#NN, 泌尿#NN)  (nn, 感染#NN, 道#NN)  (dobj, 预防#VV, 感染#NN)  (dobj, 可#VV, 问题#NN)
+            (det, 喝#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, CC#NN, 喝#NN)  (advmod, 350#CD, 约#AD)  (nummod, CC#NN, 350#CD)  (assmod, 或是#NN, CC#NN)  (case, CC#NN, 以上#LC)  (case, CC#NN, 的#DEG)  (nn, 或是#NN, 蔓越莓#NN)  (nn, 或是#NN, 果汁#NN)  (nsubj, 营养#VA, 或是#NN)  (advmod, 营养#VA, 蔓越莓#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 辅助品#VA)  (case, 预防#VV, 对于#P)  (prep, 有#VE, 预防#VV)  (nn, 感染#NN, 泌尿#NN)  (nn, 感染#NN, 道#NN)  (dobj, 预防#VV, 感染#NN)  (cc, 预防#VV, 及#CC)  (conj, 预防#VV, 膀胱炎#VV)  (advmod, 有#VE, 很#AD)  (dep, 营养#VA, 有#VE)  (dobj, 有#VE, 帮助#NN)
+            (root, ROOT#null, 降低#VV)  (conj, 胃癌#NN, 胃溃疡#NN)  (cc, 胃癌#NN, 及#CC)  (assmod, 发生率#NN, 胃癌#NN)  (case, 胃癌#NN, 的#DEG)  (dobj, 降低#VV, 发生率#NN)
+            (nsubj, 抑制#VV, 蔓越莓#NN)  (mmod, 抑制#VV, 可以#VV)  (advmod, 抑制#VV, 有效#AD)  (root, ROOT#null, 抑制#VV)  (nn, 杆菌#NN, 幽门#NN)  (nn, 杆菌#NN, 螺旋#NN)  (dobj, 抑制#VV, 杆菌#NN)  (dep, 抑制#VV, 附着#VV)  (case, 胃内#NN, 于#P)  (nn, 胃内#NN, 肠#NN)  (prep, 附着#VV, 胃内#NN)   (nn, 螺旋#NN, 幽门#NN)  (nsubj, 杆菌#VV, 螺旋#NN)  (root, ROOT#null, 杆菌#VV)  (advmod, 导致#VV, 就是#AD)  (relcl, 主因#NN, 导致#VV)  (advmod, 发生#VV, 胃溃疡#AD)  (advmod, 发生#VV, 甚至#AD)  (advmod, 发生#VV, 胃癌#AD)  (ccomp, 导致#VV, 发生#VV)  (mark, 导致#VV, 的#DEC)  (dobj, 杆菌#VV, 主因#NN)   (root, ROOT#null, null#null)
+            (nsubj, 养颜#VV, 美容#NN)  (root, ROOT#null, 养颜#VV)
+            (nsubj, 含#VV, 蔓越莓#NN)  (root, ROOT#null, 含#VV)  (conj, 黄酮素#NN, 维生素C#NN)  (nn, 黄酮素#NN, 类#NN)  (nn, 物质#NN, 黄酮素#NN)  (etc, 黄酮素#NN, 等#ETC)  (nn, 物质#NN, 抗氧化#NN)  (dobj, 含#VV, 物质#NN)  (cc, 含#VV, 及#CC)  (conj, 含#VV, 丰富#VV)  (dobj, 丰富#VV, 果胶#NN)  (mmod, 养颜#VV, 能#VV)  (conj, 含#VV, 养颜#VV)  (dobj, 养颜#VV, 美容#NN)  (conj, 含#VV, 改善#VV)  (dobj, 改善#VV, 便秘#NN)  (conj, 含#VV, 帮助#VV)  (dobj, 帮助#VV, 排出#NN)  (dep, 帮助#VV, 体#VV)  (conj, 脂肪#NN, 内毒素#NN)  (cc, 脂肪#NN, 及#CC)  (nn, 脂肪#NN, 多余#NN)  (dobj, 体#VV, 脂肪#NN)
+            (root, ROOT#null, 抗#VV)  (dobj, 抗#VV, 老化#NN)  (conj, 抗#VV, 避免#VV)  (nn, 痴呆#NN, 老年#NN)  (dobj, 避免#VV, 痴呆#NN)
+            (nsubj, 具有#VV, 蔓越莓#NR)  (root, ROOT#null, 具有#VV)  (nummod, 种#M, 一#CD)  (clf, 黄酮#NN, 种#M)  (advmod, 强力#VV, 非常#AD)  (relcl, 黄酮#NN, 强力#VV)  (mark, 强力#VV, 的#DEC)  (relcl, 黄酮#NN, 抵抗#VV)  (nn, -#NN, 自由基#NN)  (nn, -#NN, 物质#NN)  (nn, 黄酮#NN, 生物#NN)  (dobj, 具有#VV, 黄酮#NN)  (advmod, 居于#VV, 而且#AD)  (assmod, 含量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 居于#VV, 含量#NN)  (advmod, 居于#VV, 高#AD)  (conj, 具有#VV, 居于#VV)  (advmod, 常见#VA, 一般#AD)  (relcl, 之冠#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nummod, 种#M, 20#CD)  (clf, 之冠#NN, 种#M)  (amod, 之冠#NN, 蔬果#JJ)  (dobj, 居于#VV, 之冠#NN)  (advmod, 抵抗#VV, 尤其#AD)  (case, 这个#VV, 在#P)  (prep, 抵抗#VV, 这个#VV)  (nsubj, 充满#VV, 处处#PN)  (relcl, 环境#NN, 充满#VV)  (asp, 充满#VV, 着#AS)  (nn, 伤害#NN, 自由基#NN)  (dobj, 充满#VV, 伤害#NN)  (mark, 充满#VV, 的#DEC)  (amod, 环境#NN, 大#JJ)  (dobj, 这个#VV, 环境#NN)  (case, 这个#VV, 里#LC)  (advmod, 抵抗#VV, 想要#AD)  (case, 方法#NN, 靠#P)  (advmod, 健康#VA, 自然#AD)  (relcl, 方法#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (prep, 抵抗#VV, 方法#NN)  (case, 方法#NN, 来#LC)  (dep, 难上加难#NN, 抵抗#VV)  (dobj, 抵抗#VV, 衰老#NN)  (advmod, 难上加难#NN, 更#AD)  (cop, 难上加难#NN, 是#VC)  (conj, 具有#VV, 难上加难#NN)  (dep, 食用#VV, 而#AD)  (advmod, 或是#VV, 经常#AD)  (conj, 食用#VV, 或是#VV)  (dobj, 或是#VV, 每天#NN)  (conj, 具有#VV, 食用#VV)  (nummod, 之一#NN, 蔓越莓#CD)  (advmod, 其中#NN, 就#AD)  (cop, 其中#NN, 是#VC)  (relcl, 之一#NN, 其中#NN)  (mark, 其中#NN, 的#DEC)  (amod, 之一#NN, 好#JJ)  (nn, 之一#NN, 方法#NN)  (dobj, 食用#VV, 之一#NN)
+            (root, ROOT#null, 减少#VV)  (nn, 病变#NN, 心血管#NN)  (nn, 病变#NN, 老化#NN)  (dobj, 减少#VV, 病变#NN)
+            (case, 烯醇#NN, 在#P)  (relcl, 烯醇#NN, 蔓越莓#VV)  (dobj, 蔓越莓#VV, 当中#NN)  (cc, 蔓越莓#VV, 不但#CC)  (conj, 蔓越莓#VV, 含有#VV)  (dobj, 含有#VV, 高量#NN)  (mark, 蔓越莓#VV, 的#DEC)  (nn, 生育#NN, 单元#NR)  (neg, 饱和#JJ, 不#AD)  (amod, 生育#NN, 饱和#JJ)  (conj, 生育#NN, 脂肪酸#NN)  (cc, 生育#NN, 和#CC)  (nn, 烯醇#NN, 生育#NN)  (nummod, 烯醇#NN, 三#CD)  (prep, 或是#VV, 烯醇#NN)  (case, 烯醇#NN, 外#LC)  (advmod, -#VV, 还有#AD)  (det, 抗氧化#NN, 另#DT)  (nummod, 种#M, 一#CD)  (dep, 另#DT, 种#M)  (nsubj, -#VV, 抗氧化#NN)  (advmod, -#VV, 尖兵#AD)  (nn, 单宁酸#NN, 浓缩#NN)  (dobj, -#VV, 单宁酸#NN)  (advmod, 或是#VV, 因此#AD)  (advmod, 或是#VV, 无论是#AD)  (mmod, 或是#VV, 荤食#VV)  (root, ROOT#null, 或是#VV)  (dobj, 或是#VV, 素食者#NN)  (advmod, 利用#VV, 都#AD)  (mmod, 利用#VV, 能够#VV)  (conj, 或是#VV, 利用#VV)  (nn, 健康#NN, 蔓越#NN)  (nn, 健康#NN, 莓来#NN)  (nn, 健康#NN, 保护#NN)  (nn, 健康#NN, 心血管#NN)  (dobj, 利用#VV, 健康#NN)
+        </parsing>
+
+        <tag>
+            妇女常见  感染常见  泌尿感染  预防感染  辅助品营养  胃癌  胃溃疡  降低发生率  幽门杆菌  螺旋杆菌  抑制杆菌  幽门螺旋  导致主因  杆菌主因  黄酮素  维生素C  果胶丰富  养颜美容  改善便秘  帮助排出  内毒素  多余脂肪  老年痴呆  避免痴呆  强力黄酮  抵抗黄酮  生物黄酮  之冠常见  蔬果之冠  居于之冠  充满环境  自由基伤害  充满伤害  大环境  这个环境  方法健康  抵抗衰老  心血管病变  老化病变  减少病变  含有高量  饱和生育  脂肪酸  生育烯醇  浓缩单宁酸  蔓越健康  莓来健康  保护健康  心血管健康  利用健康  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蔓越莓不仅富含维他命C，更含有丰富的植化素，包含花青素、前花青素、鞣花酸等等，可说是超级抗氧化剂。
+        </rawdata>
+
+        <segment>
+            蔓越莓  不仅  富含  维他命  C  ，  更  含有  丰富  的  植化素  ，  包含  花青素  、  前  花青素  、  鞣花酸  等等  ，  可说是  超级  抗氧化剂  。
+        </segment>
+
+        <pos>
+            蔓越莓#NN  不仅#CC  富含#VV  维他命#NN  C#NN  ，#PU  更#AD  含有#VV  丰富#VA  的#DEC  植化素#NN  ，#PU  包含#VV  花青素#NN  、#PU  前#JJ  花青素#NN  、#PU  鞣花酸#NN  等等#ETC  ，#PU  可说是#VV  超级#JJ  抗氧化剂#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 蔓越莓#NN)  (cc, 富含#VV, 不仅#CC)  (root, ROOT#null, 富含#VV)  (nn, C#NN, 维他命#NN)  (dobj, 富含#VV, C#NN)  (advmod, 含有#VV, 更#AD)  (conj, 富含#VV, 含有#VV)  (relcl, 植化素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 植化素#NN)  (conj, 富含#VV, 包含#VV)  (conj, 鞣花酸#NN, 花青素#NN)  (amod, 花青素#NN, 前#JJ)  (conj, 鞣花酸#NN, 花青素#NN)  (dobj, 包含#VV, 鞣花酸#NN)  (etc, 鞣花酸#NN, 等等#ETC)  (conj, 富含#VV, 可说是#VV)  (amod, 抗氧化剂#NN, 超级#JJ)  (dobj, 可说是#VV, 抗氧化剂#NN)
+        </parsing>
+
+        <tag>
+            富含C  植化素丰富  含有植化素  前花青素  包含鞣花酸  超级抗氧化剂  可说是抗氧化剂  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            蔓越莓的相关提取物有以下几种：蔓越莓咀嚼片、蔓越莓果汁、蔓越莓胶囊、蔓越莓醋、蔓越莓干。
+        </rawdata>
+
+        <segment>
+            蔓越莓  的  相关  提取  物  有  以下  几  种  ：  蔓越莓  咀嚼片  、  蔓越莓  果汁  、  蔓越莓  胶囊  、  蔓越  莓醋  、  蔓越  莓干  。
+        </segment>
+
+        <pos>
+            蔓越莓#NN  的#DEG  相关#JJ  提取#VV  物#NN  有#VE  以下#JJ  几#CD  种#M  ：#PU  蔓越莓#VV  咀嚼片#NN  、#PU  蔓越莓#NN  果汁#NN  、#PU  蔓越莓#NN  胶囊#NN  、#PU  蔓越#NN  莓醋#NN  、#PU  蔓越#NN  莓干#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 物#NN, 蔓越莓#NN)  (case, 蔓越莓#NN, 的#DEG)  (amod, 物#NN, 相关#JJ)  (relcl, 物#NN, 提取#VV)  (dep, 有#VE, 物#NN)  (root, ROOT#null, 有#VE)  (amod, 种#M, 以下#JJ)  (nummod, 种#M, 几#CD)  (dep, 有#VE, 种#M)  (conj, 有#VE, 蔓越莓#VV)  (conj, 蔓越#NN, 咀嚼片#NN)  (nn, 蔓越#NN, 蔓越莓#NN)  (conj, 蔓越#NN, 果汁#NN)  (nn, 蔓越#NN, 蔓越莓#NN)  (conj, 蔓越#NN, 胶囊#NN)  (nn, 蔓越#NN, 蔓越#NN)  (conj, 蔓越#NN, 莓醋#NN)  (nn, 莓干#NN, 蔓越#NN)  (dobj, 蔓越莓#VV, 莓干#NN)
+        </parsing>
+
+        <tag>
+            相关物  提取物  咀嚼片  果汁  胶囊  蔓越蔓越  莓醋  蔓越莓干  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/102147247103.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\331 蔓越莓.jpg
+    </picturelocalurl>
+
+</content>

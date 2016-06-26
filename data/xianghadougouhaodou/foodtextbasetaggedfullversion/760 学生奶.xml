@@ -1,0 +1,162 @@
+<content>
+
+    <id>
+        760
+    </id>
+
+    <foodname>
+        学生奶
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        学生饮用奶
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有高血脂、高血压、血栓等心血管系统疾病，以及糖尿病、肥胖等代谢性疾病的人应该喝脱脂牛奶。
+        </rawdata>
+
+        <segment>
+            有  高血脂  、  高  血压  、  血栓  等  心血管  系统  疾病  ，  以及  糖尿病  、  肥胖  等  代谢性  疾病  的  人  应该  喝  脱脂  牛奶  。
+        </segment>
+
+        <pos>
+            有#VE  高血脂#NN  、#PU  高#JJ  血压#NN  、#PU  血栓#NN  等#ETC  心血管#NN  系统#NN  疾病#NN  ，#PU  以及#CC  糖尿病#NN  、#PU  肥胖#NN  等#ETC  代谢性#NN  疾病#NN  的#DEG  人#NN  应该#VV  喝#VV  脱脂#NN  牛奶#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (conj, 血栓#NN, 高血脂#NN)  (amod, 血压#NN, 高#JJ)  (conj, 血栓#NN, 血压#NN)  (nn, 系统#NN, 血栓#NN)  (etc, 血栓#NN, 等#ETC)  (nn, 系统#NN, 心血管#NN)  (nn, 疾病#NN, 系统#NN)  (dobj, 有#VE, 疾病#NN)  (cc, 有#VE, 以及#CC)  (conj, 肥胖#NN, 糖尿病#NN)  (nn, 疾病#NN, 肥胖#NN)  (etc, 肥胖#NN, 等#ETC)  (nn, 疾病#NN, 代谢性#NN)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dep, 喝#VV, 人#NN)  (mmod, 喝#VV, 应该#VV)  (conj, 有#VE, 喝#VV)  (nn, 牛奶#NN, 脱脂#NN)  (dobj, 喝#VV, 牛奶#NN)
+        </parsing>
+
+        <tag>
+            高血脂  高血压  血栓  心血管系统疾病  糖尿病  肥胖  代谢性疾病  人应该喝脱脂牛奶  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            “学生奶”是“学生饮用奶”的学生奶简称，是为在校专供学生饮用的牛奶。“学生饮用奶计划”，是指由政府提倡并在政府的行政与政策的支持下，通过专项计划向在校中小学生提供由定点企业按国家标准生产的学生饮用奶。
+        </rawdata>
+
+        <segment>
+            “  学生奶  ”  是  “  学生  饮用奶  ”  的  学生  奶  简称  ，  是  为  在校  专供  学生  饮用  的  牛奶  。  “  学生  饮用奶  计划  ”  ，  是  指  由  政府  提倡  并在  政府  的  行政  与  政策  的  支持  下  ，  通过  专项  计划  向  在校  中  小  学生  提供  由  定点  企业  按  国家  标准  生产  的  学生  饮用奶  。
+        </segment>
+
+        <pos>
+            ``#NN  学生奶#NN  ''#AD  是#VC  ``#NR  学生#NN  饮用奶#NN  ''#NN  的#DEG  学生#NN  奶#NN  简称#NN  ，#PU  是#VC  为#P  在校#NN  专供#NN  学生#NN  饮用#VV  的#DEC  牛奶#NN    。#PU  ``#NR  学生#NN  饮用奶#NN  计划#VV  ''#NN  ，#PU  是#VC  指#VV  由#P  政府#NN  提倡#VV  并在#VV  政府#NN  的#DEC  行政#NN  与#CC  政策#NN  的#DEC  支持#NN  下#LC  ，#PU  通过#P  专项#NN  计划#NN  向#P  在校#NR  中#NR  小#JJ  学生#NN  提供#VV  由#P  定点#JJ  企业#NN  按#P  国家#NN  标准#NN  生产#VV  的#DEC  学生#NN  饮用奶#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 学生奶#NN, ``#NN)  (nsubj, 简称#NN, 学生奶#NN)  (advmod, 简称#NN, ''#AD)  (cop, 简称#NN, 是#VC)  (nn, 学生#NN, ``#NR)  (nn, ''#NN, 学生#NN)  (nn, ''#NN, 饮用奶#NN)  (assmod, 简称#NN, ''#NN)  (case, ''#NN, 的#DEG)  (nn, 简称#NN, 学生#NN)  (nn, 简称#NN, 奶#NN)  (root, ROOT#null, 简称#NN)  (cop, 牛奶#NN, 是#VC)  (case, 学生#NN, 为#P)  (nn, 学生#NN, 在校#NN)  (nn, 学生#NN, 专供#NN)  (prep, 饮用#VV, 学生#NN)  (relcl, 牛奶#NN, 饮用#VV)  (mark, 饮用#VV, 的#DEC)  (conj, 简称#NN, 牛奶#NN)   (nn, 学生#NN, ``#NR)  (nn, 饮用奶#NN, 学生#NN)  (nsubj, 计划#VV, 饮用奶#NN)  (root, ROOT#null, 计划#VV)  (nsubj, 提供#VV, ''#NN)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (relcl, 支持#NN, 指#VV)  (case, 政府#NN, 由#P)  (prep, 提倡#VV, 政府#NN)  (relcl, 政策#NN, 提倡#VV)  (ccomp, 提倡#VV, 并在#VV)  (dobj, 并在#VV, 政府#NN)  (mark, 提倡#VV, 的#DEC)  (conj, 政策#NN, 行政#NN)  (cc, 政策#NN, 与#CC)  (dobj, 指#VV, 政策#NN)  (mark, 指#VV, 的#DEC)  (loc, 提供#VV, 支持#NN)  (case, 支持#NN, 下#LC)  (case, 计划#NN, 通过#P)  (nn, 计划#NN, 专项#NN)  (prep, 提供#VV, 计划#NN)  (case, 学生#NN, 向#P)  (nn, 中#NR, 在校#NR)  (nn, 学生#NN, 中#NR)  (amod, 学生#NN, 小#JJ)  (prep, 提供#VV, 学生#NN)  (ccomp, 计划#VV, 提供#VV)  (case, 企业#NN, 由#P)  (amod, 企业#NN, 定点#JJ)  (prep, 生产#VV, 企业#NN)  (case, 标准#NN, 按#P)  (nn, 标准#NN, 国家#NN)  (prep, 生产#VV, 标准#NN)  (relcl, 饮用奶#NN, 生产#VV)  (mark, 生产#VV, 的#DEC)  (nn, 饮用奶#NN, 学生#NN)  (dobj, 提供#VV, 饮用奶#NN)
+        </parsing>
+
+        <tag>
+            学生简称  在校学生  专供学生  饮用牛奶  学生饮用奶  指支持  提倡政策  并在政府  行政  专项计划  小学生  定点企业  国家标准  生产饮用奶  提供饮用奶  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.美国一项新研究发现，每天至少摄入一次低脂肪牛奶或者牛奶制品的人，与心脏病有关的肾功能削弱危险可降低37%。此外，牛奶中所含的蛋白质、维生素D和镁，对心脏有益;
+            2.高血压患者一般都知道低盐、低脂饮食有助于血压控制，于是对喝牛奶是否有好处往往容易产生疑虑。其实，高血压患者多喝点牛奶，特别是低脂、脱脂牛奶，以及多吃些奶制品，对降低血压能起到一定的辅助作用;
+            3.牛奶的维生素A能使人体鳞状细胞癌及其他细胞癌消退，并刺激人体抗肿瘤的免疫系统；维生素C能抑制内源性亚硝胺的合成，并抑制致癌化合物对人体组织细胞的影响；钙能改变结肠粘膜的增殖，降低结肠癌的发生。牛奶中的脂肪含量是致癌的决定因素，全脂牛奶的脂肪含量为低脂、脱脂牛奶的数倍，牛奶中的脂肪属动物脂肪，脂肪可提供热量，热量、动物脂肪的大量摄入与乳腺癌、结直肠癌、肺癌、前列腺癌、宫颈癌、子宫内膜癌有关。
+        </rawdata>
+
+        <segment>
+            美国  一  项  新  研究  发现  ，  每天  至少  摄入  一  次  低  脂肪  牛奶  或者  牛奶  制品  的  人  ，  与  心脏病  有关  的  肾  功能  削弱  危险  可  降低  37%  。  此外  ，  牛奶  中  所  含  的  蛋白质  、  维生素D  和  镁  ，  对  心脏  有益  ;
+            高血压  患者  一般  都  知道  低盐  、  低脂  饮食  有助于  血压  控制  ，  于是  对喝  牛奶  是否  有  好处  往往  容易  产生  疑虑  。  其实  ，  高血压  患者  多  喝  点  牛奶  ，  特别是  低脂  、  脱脂  牛奶  ，  以及  多  吃  些  奶制品  ，  对  降低  血压  能  起到  一定  的  辅助  作用  ;
+            牛奶  的  维生素A  能  使  人体  鳞状  细胞  癌  及  其他  细胞癌  消退  ，  并  刺激  人体  抗  肿瘤  的  免疫  系统  ；  维生素C  能  抑制  内源性  亚硝胺  的  合成  ，  并  抑制  致癌  化合物  对  人体  组织  细胞  的  影响  ；  钙  能  改变  结肠  粘膜  的  增殖  ，  降低  结肠  癌的  发生  。  牛奶  中  的  脂肪  含量  是  致癌  的  决定  因素  ，  全脂  牛奶  的  脂肪  含量  为  低脂  、  脱脂  牛奶  的  数倍  ，  牛奶  中  的  脂肪  属  动物  脂肪  ，  脂肪  可  提供  热量  ，  热量  、  动物  脂肪  的  大量  摄入  与  乳腺癌  、  结  直  肠癌  、  肺癌  、  前列  腺癌  、  宫颈癌  、  子宫内膜癌  有关  。
+        </segment>
+
+        <pos>
+            美国#NR  一#CD  项#M  新#JJ  研究#NN  发现#VV  ，#PU  每天#AD  至少#AD  摄入#VV  一#CD  次#M  低#JJ  脂肪#NN  牛奶#NN  或者#CC  牛奶#NN  制品#NN  的#DEC  人#NN  ，#PU  与#P  心脏病#NN  有关#JJ  的#DEG  肾#NN  功能#NN  削弱#VV  危险#NN  可#VV  降低#VV  37#CD  %#NN  。#PU  此外#AD  ，#PU  牛奶#NN  中#LC  所#MSP  含#VV  的#DEC  蛋白质#NN  、#PU  维生素D#NN  和#CC  镁#NN  ，#PU  对#P  心脏#NN  有益#VA  ;#VA
+            高血压#NN  患者#NN  一般#AD  都#AD  知道#VV  低盐#NR  、#PU  低脂#NR  饮食#NN  有助于#VV  血压#NN  控制#VV  ，#PU  于是#AD  对喝#NN  牛奶#NN  是否#AD  有#VE  好处#NN  往往#AD  容易#VA  产生#VV  疑虑#NN  。#PU  其实#AD  ，#PU  高血压#NN  患者#NN  多#VV  喝#CD  点#M  牛奶#NN  ，#PU  特别是#AD  低脂#VV  、#PU  脱脂#VV  牛奶#NN  ，#PU  以及#CC  多#AD  吃#VV  些#CD  奶制品#NN  ，#PU  对#P  降低#VV  血压#NN  能#VV  起到#VV  一定#JJ  的#DEG  辅助#NN  作用#NN  ;#NN
+            牛奶#NN  的#DEG  维生素A#NN  能#VV  使#VV  人体#NN  鳞状#VV  细胞#NN  癌#NN  及#CC  其他#DT  细胞癌#NN  消退#NN  ，#PU  并#CC  刺激#VV  人体#NN  抗#NN  肿瘤#NN  的#DEG  免疫#NN  系统#NN  ；#PU  维生素C#VV  能#VV  抑制#VV  内源性#NN  亚硝胺#NN  的#DEC  合成#JJ  ，#PU  并#CC  抑制#VV  致癌#NN  化合物#NN  对#P  人体#NN  组织#NN  细胞#NN  的#DEG  影响#NN  ；#PU  钙#AD  能#VV  改变#VV  结肠#NN  粘膜#NN  的#DEG  增殖#NN  ，#PU  降低#VV  结肠#NN  癌的#NN  发生#VV    。#PU  牛奶#NN  中#LC  的#DEG  脂肪#NN  含量#NN  是#VC  致癌#NN  的#DEG  决定#NN  因素#NN  ，#PU  全脂#NN  牛奶#NN  的#DEG  脂肪#NN  含量#NN  为#VC  低脂#NR  、#PU  脱脂#NR  牛奶#NN  的#DEG  数倍#NN  ，#PU  牛奶#NN  中#LC  的#DEG  脂肪#NN  属#VV  动物#NN  脂肪#NN  ，#PU  脂肪#NN  可#VV  提供#VV  热量#NN  ，#PU  热量#NN  、#PU  动物#NN  脂肪#NN  的#DEG  大量#CD  摄入#NN  与#P  乳腺癌#NR  、#PU  结#NR  直#AD  肠癌#VV  、#PU  肺癌#NR  、#PU  前列#NN  腺癌#NR  、#PU  宫颈癌#NR  、#PU  子宫内膜癌#NR  有关#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 研究#NN, 美国#NR)  (nummod, 项#M, 一#CD)  (clf, 研究#NN, 项#M)  (amod, 研究#NN, 新#JJ)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (advmod, 摄入#VV, 每天#AD)  (advmod, 摄入#VV, 至少#AD)  (relcl, 人#NN, 摄入#VV)  (nummod, 次#M, 一#CD)  (clf, 制品#NN, 次#M)  (amod, 制品#NN, 低#JJ)  (nn, 制品#NN, 脂肪#NN)  (conj, 制品#NN, 牛奶#NN)  (cc, 制品#NN, 或者#CC)  (nn, 制品#NN, 牛奶#NN)  (dobj, 摄入#VV, 制品#NN)  (mark, 摄入#VV, 的#DEC)  (nsubj, 削弱#VV, 人#NN)  (case, 功能#NN, 与#P)  (nn, 功能#NN, 心脏病#NN)  (assmod, 功能#NN, 有关#JJ)  (case, 有关#JJ, 的#DEG)  (nn, 功能#NN, 肾#NN)  (prep, 削弱#VV, 功能#NN)  (ccomp, 发现#VV, 削弱#VV)  (nsubj, 降低#VV, 危险#NN)  (mmod, 降低#VV, 可#VV)  (relcl, 镁#NN, 降低#VV)  (nummod, %#NN, 37#CD)  (dobj, 降低#VV, %#NN)  (advmod, 含#VV, 此外#AD)  (loc, 含#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (conj, 降低#VV, 含#VV)  (mark, 降低#VV, 的#DEC)  (conj, 镁#NN, 蛋白质#NN)  (conj, 镁#NN, 维生素D#NN)  (cc, 镁#NN, 和#CC)  (dobj, 削弱#VV, 镁#NN)  (case, 心脏#NN, 对#P)  (prep, 有益#VA, 心脏#NN)  (dep, 削弱#VV, 有益#VA)  (comod, 有益#VA, ;#VA)
+            (nn, 患者#NN, 高血压#NN)  (nsubj, 知道#VV, 患者#NN)  (advmod, 知道#VV, 一般#AD)  (advmod, 知道#VV, 都#AD)  (root, ROOT#null, 知道#VV)  (conj, 低脂#NR, 低盐#NR)  (nn, 饮食#NN, 低脂#NR)  (dobj, 知道#VV, 饮食#NN)  (dep, 知道#VV, 有助于#VV)  (dobj, 有助于#VV, 血压#NN)  (dep, 有助于#VV, 控制#VV)  (advmod, 有#VE, 于是#AD)  (nn, 牛奶#NN, 对喝#NN)  (nsubj, 有#VE, 牛奶#NN)  (advmod, 有#VE, 是否#AD)  (ccomp, 控制#VV, 有#VE)  (nsubj, 容易#VA, 好处#NN)  (advmod, 容易#VA, 往往#AD)  (dep, 有#VE, 容易#VA)  (dep, 容易#VA, 产生#VV)  (dobj, 产生#VV, 疑虑#NN)  (advmod, 多#VV, 其实#AD)  (nn, 患者#NN, 高血压#NN)  (nsubj, 多#VV, 患者#NN)  (conj, 有#VE, 多#VV)  (nummod, 点#M, 喝#CD)  (clf, 牛奶#NN, 点#M)  (dobj, 多#VV, 牛奶#NN)  (advmod, 低脂#VV, 特别是#AD)  (conj, 有#VE, 低脂#VV)  (conj, 有助于#VV, 脱脂#VV)  (dobj, 脱脂#VV, 牛奶#NN)  (cc, 有助于#VV, 以及#CC)  (advmod, 吃#VV, 多#AD)  (conj, 有助于#VV, 吃#VV)  (nummod, 奶制品#NN, 些#CD)  (dobj, 吃#VV, 奶制品#NN)  (case, 降低#VV, 对#P)  (prep, 起到#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (mmod, 起到#VV, 能#VV)  (conj, 有助于#VV, 起到#VV)  (assmod, ;#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, ;#NN, 辅助#NN)  (nn, ;#NN, 作用#NN)  (dobj, 起到#VV, ;#NN)
+            (assmod, 维生素A#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nsubj, 使#VV, 维生素A#NN)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人体#NN)  (dep, 使#VV, 鳞状#VV)  (nn, 癌#NN, 细胞#NN)  (conj, 消退#NN, 癌#NN)  (cc, 消退#NN, 及#CC)  (det, 细胞癌#NN, 其他#DT)  (nn, 消退#NN, 细胞癌#NN)  (dobj, 鳞状#VV, 消退#NN)  (cc, 鳞状#VV, 并#CC)  (conj, 鳞状#VV, 刺激#VV)  (nn, 肿瘤#NN, 人体#NN)  (nn, 肿瘤#NN, 抗#NN)  (assmod, 系统#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (nn, 系统#NN, 免疫#NN)  (dobj, 刺激#VV, 系统#NN)  (conj, 鳞状#VV, 维生素C#VV)  (mmod, 抑制#VV, 能#VV)  (relcl, 化合物#NN, 抑制#VV)  (nn, 亚硝胺#NN, 内源性#NN)  (dobj, 抑制#VV, 亚硝胺#NN)  (mark, 抑制#VV, 的#DEC)  (nfincl, 化合物#NN, 合成#JJ)  (cc, 合成#JJ, 并#CC)  (dep, 合成#JJ, 抑制#VV)  (dobj, 抑制#VV, 致癌#NN)  (nn, 影响#NN, 化合物#NN)  (case, 细胞#NN, 对#P)  (nn, 组织#NN, 人体#NN)  (nn, 细胞#NN, 组织#NN)  (assmod, 影响#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 维生素C#VV, 影响#NN)  (advmod, 改变#VV, 钙#AD)  (mmod, 改变#VV, 能#VV)  (conj, 鳞状#VV, 改变#VV)  (nn, 粘膜#NN, 结肠#NN)  (assmod, 增殖#NN, 粘膜#NN)  (case, 粘膜#NN, 的#DEG)  (dobj, 改变#VV, 增殖#NN)  (conj, 鳞状#VV, 降低#VV)  (nn, 癌的#NN, 结肠#NN)  (dobj, 降低#VV, 癌的#NN)  (dep, 使#VV, 发生#VV)   (assmod, 含量#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 因素#NN, 含量#NN)  (cop, 因素#NN, 是#VC)  (assmod, 因素#NN, 致癌#NN)  (case, 致癌#NN, 的#DEG)  (nn, 因素#NN, 决定#NN)  (root, ROOT#null, 因素#NN)  (nn, 牛奶#NN, 全脂#NN)  (assmod, 含量#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 数倍#NN, 含量#NN)  (cop, 数倍#NN, 为#VC)  (conj, 脱脂#NR, 低脂#NR)  (nn, 牛奶#NN, 脱脂#NR)  (assmod, 数倍#NN, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (conj, 因素#NN, 数倍#NN)  (assmod, 脂肪#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nsubj, 属#VV, 脂肪#NN)  (conj, 数倍#NN, 属#VV)  (nn, 脂肪#NN, 动物#NN)  (dobj, 属#VV, 脂肪#NN)  (nsubj, 提供#VV, 脂肪#NN)  (mmod, 提供#VV, 可#VV)  (conj, 数倍#NN, 提供#VV)  (dobj, 提供#VV, 热量#NN)  (conj, 动物#NN, 热量#NN)  (nn, 脂肪#NN, 动物#NN)  (assmod, 摄入#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nummod, 摄入#NN, 大量#CD)  (nsubj, 肠癌#VV, 摄入#NN)  (case, 结#NR, 与#P)  (conj, 结#NR, 乳腺癌#NR)  (prep, 肠癌#VV, 结#NR)  (advmod, 肠癌#VV, 直#AD)  (conj, 数倍#NN, 肠癌#VV)  (conj, 子宫内膜癌#NR, 肺癌#NR)  (nn, 子宫内膜癌#NR, 前列#NN)  (conj, 子宫内膜癌#NR, 腺癌#NR)  (conj, 子宫内膜癌#NR, 宫颈癌#NR)  (nsubj, 有关#VV, 子宫内膜癌#NR)  (conj, 数倍#NN, 有关#VV)
+        </parsing>
+
+        <tag>
+            新研究  摄入人  低制品  脂肪制品  牛奶制品  摄入制品  心脏病功能  降低镁  削弱镁  高血压患者  低脂  低盐  知道饮食  有助于血压  对喝牛奶  好处容易  产生疑虑  脱脂牛奶  降低血压  维生素A  细胞癌消退  鳞状消退  人体肿瘤  免疫系统  刺激系统  抑制化合物  内源性亚硝胺  抑制亚硝胺  抑制致癌  化合物影响  人体组织  组织细胞  维生素C影响  结肠粘膜  改变增殖  结肠癌的  降低癌的  决定因素  全脂牛奶  数倍  动物脂肪  提供热量  子宫内膜癌  肺癌  腺癌  宫颈癌  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  增加骨密度  通便  固齿  生津止渴  清热  润燥  健胃  补阴  补肺
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.煮牛奶时不要加糖，须待煮熟离火后再加；加热时不要煮沸，也不要久煮，否则会破坏营养素，影响人体吸收；科学的方法是用旺火煮奶，奶将要开时马上离火，然后再加热，如此反复3～4次，既能保持牛奶的养分，又能有效地杀死奶中的细菌；
+            2.牛奶加蜂蜜是非常好的搭配，并还有治疗贫血和缓解痛经的作用；
+            3.炸鱼前先把鱼浸入牛奶片刻，既能除腥，又能增强佳味；在做冻过的鱼时，汤中加些牛奶，会使鱼的味道更鲜；
+            4.婴儿喝纯牛奶需经过适当稀释；
+            5.袋装牛奶不宜长时间浸泡在热水中加热，这样会破坏牛奶中的营养成分；而且在高温下，塑料袋中的一些化学成分易分解产生对人体有害的物质。
+        </rawdata>
+
+        <segment>
+            煮  牛奶  时  不  要  加糖  ，  须  待  煮熟  离  火  后  再  加  ；  加热  时  不要  煮沸  ，  也  不  要  久煮  ，  否则  会  破坏  营养素  ，  影响  人体  吸收  ；  科学  的  方法  是  用  旺火  煮奶  ，  奶将  要  开时  马上  离火  ，  然后  再  加热  ，  如此  反复  3  ～  4  次  ，  既  能  保持  牛奶  的  养分  ，  又  能  有效  地  杀死  奶中  的  细菌  ；
+            牛奶  加  蜂蜜  是  非常  好  的  搭配  ，  并  还有  治疗  贫血  和  缓解  痛经  的  作用  ；
+            炸鱼  前  先  把  鱼  浸入  牛奶  片刻  ，  既  能  除腥  ，  又  能  增强  佳味  ；  在  做  冻过  的  鱼  时  ，  汤  中  加些  牛奶  ，  会  使  鱼  的  味道  更鲜  ；
+            婴儿  喝  纯  牛奶  需  经过  适当  稀释  ；
+            袋装  牛奶  不  宜  长时间  浸泡  在  热水  中  加热  ，  这样  会  破坏  牛奶  中  的  营养  成分  ；  而且  在  高温  下  ，  塑料袋  中  的  一些  化学  成分  易  分解  产生  对  人体  有害  的  物质  。
+        </segment>
+
+        <pos>
+            煮#VV  牛奶#NN  时#LC  不#AD  要#VV  加糖#NN  ，#PU  须#VV  待#VV  煮熟#NN  离#P  火#NN  后#LC  再#AD  加#VV  ；#PU  加热#NN  时#LC  不要#VV  煮沸#NN  ，#PU  也#AD  不#AD  要#VV  久煮#NN  ，#PU  否则#AD  会#VV  破坏#NN  营养素#NN  ，#PU  影响#NN  人体#NN  吸收#VV  ；#PU  科学#NN  的#DEG  方法#NN  是#VC  用#P  旺火#NN  煮奶#NN  ，#PU  奶将#AD  要#VV  开时#NN  马上#AD  离火#VV  ，#PU  然后#AD  再#AD  加热#VV  ，#PU  如此#AD  反复#AD  3#CD  ～#NN  4#CD  次#M  ，#PU  既#CC  能#VV  保持#VV  牛奶#NN  的#DEC  养分#NN  ，#PU  又#AD  能#VV  有效#VA  地#DEV  杀死#VV  奶中#NN  的#DEC  细菌#NN  ；#PU
+            牛奶#NN  加#VV  蜂蜜#NN  是#VC  非常#AD  好#VA  的#DEC  搭配#NN  ，#PU  并#CC  还有#AD  治疗#VV  贫血#NN  和#CC  缓解#VV  痛经#NN  的#DEG  作用#NN  ；#PU
+            炸鱼#NN  前#LC  先#AD  把#BA  鱼#NN  浸入#VV  牛奶#NN  片刻#NN  ，#PU  既#CC  能#VV  除腥#NN  ，#PU  又#AD  能#VV  增强#VV  佳味#NN  ；#PU  在#P  做#VV  冻过#NN  的#DEG  鱼#NN  时#LC  ，#PU  汤#NN  中#LC  加些#VV  牛奶#NN  ，#PU  会#VV  使#VV  鱼#NN  的#DEG  味道#NN  更鲜#VV  ；#PU
+            婴儿#NN  喝#NN  纯#JJ  牛奶#NN  需#VV  经过#VV  适当#JJ  稀释#NN  ；#PU
+            袋装#NN  牛奶#NN  不#AD  宜#NR  长时间#NN  浸泡#NN  在#P  热水#NN  中#LC  加热#VV  ，#PU  这样#AD  会#VV  破坏#VV  牛奶#NN  中#LC  的#DEG  营养#VA  成分#NN  ；#PU  而且#CC  在#P  高温#NN  下#LC  ，#PU  塑料袋#NN  中#LC  的#DEG  一些#CD  化学#NN  成分#NN  易#AD  分解#VV  产生#VV  对#P  人体#NN  有害#NN  的#DEG  物质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 要#VV, 煮#VV)  (dobj, 煮#VV, 牛奶#NN)  (case, 煮#VV, 时#LC)  (neg, 要#VV, 不#AD)  (dep, 吸收#VV, 要#VV)  (dobj, 要#VV, 加糖#NN)  (mmod, 待#VV, 须#VV)  (conj, 要#VV, 待#VV)  (dobj, 待#VV, 煮熟#NN)  (case, 火#NN, 离#P)  (prep, 加#VV, 火#NN)  (case, 火#NN, 后#LC)  (advmod, 加#VV, 再#AD)  (conj, 要#VV, 加#VV)  (loc, 不要#VV, 加热#NN)  (case, 加热#NN, 时#LC)  (conj, 要#VV, 不要#VV)  (dobj, 不要#VV, 煮沸#NN)  (advmod, 要#VV, 也#AD)  (neg, 要#VV, 不#AD)  (conj, 要#VV, 要#VV)  (dobj, 要#VV, 久煮#NN)  (advmod, 会#VV, 否则#AD)  (conj, 要#VV, 会#VV)  (nn, 营养素#NN, 破坏#NN)  (dobj, 会#VV, 营养素#NN)  (nn, 人体#NN, 影响#NN)  (nsubj, 吸收#VV, 人体#NN)  (xsubj, 离火#VV, 人体#NN)  (root, ROOT#null, 吸收#VV)  (assmod, 方法#NN, 科学#NN)  (case, 科学#NN, 的#DEG)  (nsubj, 要#VV, 方法#NN)  (cop, 要#VV, 是#VC)  (case, 煮奶#NN, 用#P)  (nn, 煮奶#NN, 旺火#NN)  (prep, 要#VV, 煮奶#NN)  (advmod, 要#VV, 奶将#AD)  (dep, 离火#VV, 要#VV)  (dobj, 要#VV, 开时#NN)  (advmod, 离火#VV, 马上#AD)  (ccomp, 吸收#VV, 离火#VV)  (advmod, 加热#VV, 然后#AD)  (advmod, 加热#VV, 再#AD)  (dep, 离火#VV, 加热#VV)  (advmod, ～#NN, 如此#AD)  (advmod, ～#NN, 反复#AD)  (nummod, ～#NN, 3#CD)  (nummod, 次#M, 4#CD)  (range, ～#NN, 次#M)  (cc, ～#NN, 既#CC)  (conj, ～#NN, 能#VV)  (relcl, 养分#NN, 保持#VV)  (dobj, 保持#VV, 牛奶#NN)  (mark, 保持#VV, 的#DEC)  (dobj, 能#VV, 养分#NN)  (advmod, 能#VV, 又#AD)  (dep, 离火#VV, 能#VV)  (dvpmod, 杀死#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (relcl, 细菌#NN, 杀死#VV)  (dobj, 杀死#VV, 奶中#NN)  (mark, 杀死#VV, 的#DEC)  (dobj, 能#VV, 细菌#NN)
+            (nsubj, 加#VV, 牛奶#NN)  (root, ROOT#null, 加#VV)  (dobj, 加#VV, 蜂蜜#NN)  (cop, 搭配#NN, 是#VC)  (advmod, 好#VA, 非常#AD)  (relcl, 搭配#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (conj, 加#VV, 搭配#NN)  (cc, 加#VV, 并#CC)  (advmod, 治疗#VV, 还有#AD)  (conj, 加#VV, 治疗#VV)  (dobj, 治疗#VV, 贫血#NN)  (cc, 治疗#VV, 和#CC)  (conj, 治疗#VV, 缓解#VV)  (assmod, 作用#NN, 痛经#NN)  (case, 痛经#NN, 的#DEG)  (dobj, 缓解#VV, 作用#NN)
+            (loc, 浸入#VV, 炸鱼#NN)  (case, 炸鱼#NN, 前#LC)  (advmod, 浸入#VV, 先#AD)  (ba, 浸入#VV, 把#BA)  (nsubj, 浸入#VV, 鱼#NN)  (root, ROOT#null, 浸入#VV)  (nn, 片刻#NN, 牛奶#NN)  (dobj, 浸入#VV, 片刻#NN)  (cc, 浸入#VV, 既#CC)  (dep, 浸入#VV, 能#VV)  (dobj, 能#VV, 除腥#NN)  (advmod, 增强#VV, 又#AD)  (mmod, 增强#VV, 能#VV)  (conj, 浸入#VV, 增强#VV)  (dobj, 增强#VV, 佳味#NN)  (case, 做#VV, 在#P)  (prep, 加些#VV, 做#VV)  (assmod, 鱼#NN, 冻过#NN)  (case, 冻过#NN, 的#DEG)  (dobj, 做#VV, 鱼#NN)  (case, 做#VV, 时#LC)  (loc, 加些#VV, 汤#NN)  (case, 汤#NN, 中#LC)  (conj, 浸入#VV, 加些#VV)  (dobj, 加些#VV, 牛奶#NN)  (mmod, 使#VV, 会#VV)  (conj, 浸入#VV, 使#VV)  (assmod, 味道#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 使#VV, 味道#NN)  (dep, 使#VV, 更鲜#VV)
+            (nn, 喝#NN, 婴儿#NN)  (nn, 牛奶#NN, 喝#NN)  (amod, 牛奶#NN, 纯#JJ)  (nsubj, 经过#VV, 牛奶#NN)  (mmod, 经过#VV, 需#VV)  (root, ROOT#null, 经过#VV)  (amod, 稀释#NN, 适当#JJ)  (dobj, 经过#VV, 稀释#NN)
+            (nn, 牛奶#NN, 袋装#NN)  (nsubj, 加热#VV, 牛奶#NN)  (neg, 加热#VV, 不#AD)  (nn, 浸泡#NN, 宜#NR)  (nn, 浸泡#NN, 长时间#NN)  (dep, 加热#VV, 浸泡#NN)  (case, 热水#NN, 在#P)  (prep, 加热#VV, 热水#NN)  (case, 热水#NN, 中#LC)  (root, ROOT#null, 加热#VV)  (advmod, 破坏#VV, 这样#AD)  (mmod, 破坏#VV, 会#VV)  (conj, 加热#VV, 破坏#VV)  (assmod, 成分#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 破坏#VV, 成分#NN)  (cc, 加热#VV, 而且#CC)  (case, 高温#NN, 在#P)  (prep, 产生#VV, 高温#NN)  (case, 高温#NN, 下#LC)  (assmod, 成分#NN, 塑料袋#NN)  (case, 塑料袋#NN, 中#LC)  (case, 塑料袋#NN, 的#DEG)  (nummod, 成分#NN, 一些#CD)  (nn, 成分#NN, 化学#NN)  (nsubj, 产生#VV, 成分#NN)  (advmod, 产生#VV, 易#AD)  (mmod, 产生#VV, 分解#VV)  (conj, 加热#VV, 产生#VV)  (case, 有害#NN, 对#P)  (nn, 有害#NN, 人体#NN)  (assmod, 物质#NN, 有害#NN)  (case, 有害#NN, 的#DEG)  (dobj, 产生#VV, 物质#NN)
+        </parsing>
+
+        <tag>
+            不要煮沸  破坏营养素  影响人体  吸收  旺火煮奶  保持养分  保持牛奶  杀死细菌  杀死奶中  治疗贫血  牛奶片刻  浸入片刻  增强佳味  加些牛奶  纯牛奶  适当稀释  经过稀释  袋装牛奶  长时间浸泡  加热  人体有害  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/1d/41/82205_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\760 学生奶.jpg
+    </picturelocalurl>
+
+</content>

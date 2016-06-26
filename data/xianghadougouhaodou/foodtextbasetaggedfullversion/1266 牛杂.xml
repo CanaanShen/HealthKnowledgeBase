@@ -1,0 +1,206 @@
+<content>
+
+    <id>
+        1266
+    </id>
+
+    <foodname>
+        牛杂
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒病者应戒食牛杂中的白萝卜，最好也忌食牛杂。服人参及滋补药品期间忌食牛杂中的白萝卜，最好也忌食牛杂。牛杂胆固醇含量高，患有心血管疾病的人不要食用。正常人也不宜多吃。空腹多吃牛杂会得胃病。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  病者  应  戒食牛杂  中  的  白  萝卜  ，  最好  也  忌食  牛杂  。  服人  参及  滋补  药品  期间  忌食  牛杂  中  的  白  萝卜  ，  最好  也  忌食  牛杂  。  牛杂  胆固醇  含量  高  ，  患有  心血管  疾病  的  人  不  要  食用  。  正常  人  也  不  宜  多  吃  。  空腹  多  吃  牛  杂  会  得  胃病  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  病者#VV  应#P  戒食牛杂#NN  中#LC  的#DEG  白#JJ  萝卜#NN  ，#PU  最好#JJ  也#AD  忌食#VV  牛杂#NN    。#PU  服人#NN  参及#NN  滋补#VV  药品#NN  期间#NN  忌食#NN  牛杂#NN  中#LC  的#DEG  白#JJ  萝卜#NN  ，#PU  最好#JJ  也#AD  忌食#VV  牛杂#NN    。#PU  牛杂#NN  胆固醇#NN  含量#NN  高#VA  ，#PU  患有#NN  心血管#NN  疾病#NN  的#DEG  人#NN  不#AD  要#VV  食用#VV    。#PU  正常#JJ  人#NN  也#AD  不#AD  宜#NR  多#AD  吃#VV    。#PU  空腹#NN  多#AD  吃#VV  牛#NN  杂#NN  会#VV  得#DER  胃病#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 虚寒#NN, 脾胃#NN)  (nsubj, 病者#VV, 虚寒#NN)  (root, ROOT#null, 病者#VV)  (case, 戒食牛杂#NN, 应#P)  (assmod, 萝卜#NN, 戒食牛杂#NN)  (case, 戒食牛杂#NN, 中#LC)  (case, 戒食牛杂#NN, 的#DEG)  (amod, 萝卜#NN, 白#JJ)  (dep, 牛杂#NN, 萝卜#NN)  (amod, 牛杂#NN, 最好#JJ)  (advmod, 忌食#VV, 也#AD)  (nfincl, 牛杂#NN, 忌食#VV)  (dobj, 病者#VV, 牛杂#NN)   (nn, 参及#NN, 服人#NN)  (nsubj, 滋补#VV, 参及#NN)  (root, ROOT#null, 滋补#VV)  (nn, 期间#NN, 药品#NN)  (nn, 牛杂#NN, 期间#NN)  (nn, 牛杂#NN, 忌食#NN)  (assmod, 萝卜#NN, 牛杂#NN)  (case, 牛杂#NN, 中#LC)  (case, 牛杂#NN, 的#DEG)  (amod, 萝卜#NN, 白#JJ)  (dep, 牛杂#NN, 萝卜#NN)  (amod, 牛杂#NN, 最好#JJ)  (advmod, 忌食#VV, 也#AD)  (nfincl, 牛杂#NN, 忌食#VV)  (dobj, 滋补#VV, 牛杂#NN)   (nn, 含量#NN, 牛杂#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nn, 疾病#NN, 患有#NN)  (nn, 疾病#NN, 心血管#NN)  (assmod, 人#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (nsubj, 食用#VV, 人#NN)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 要#VV)  (conj, 高#VA, 食用#VV)   (amod, 人#NN, 正常#JJ)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 也#AD)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)   (nsubj, 吃#VV, 空腹#NN)  (advmod, 吃#VV, 多#AD)  (dep, 胃病#VV, 吃#VV)  (nn, 杂#NN, 牛#NN)  (dobj, 吃#VV, 杂#NN)  (dep, 胃病#VV, 会#VV)  (dep, 胃病#VV, 得#DER)  (root, ROOT#null, 胃病#VV)
+        </parsing>
+
+        <tag>
+            脾胃虚寒病者  戒食  白萝卜  最好  忌食  服人参及滋补药品期间  忌食  白萝卜  最好  忌食  胆固醇含量高  患有  心血管疾病  人不要  正常人  不宜多吃  空腹多吃  胃病  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质可吃
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  可吃
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  可吃#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (nn, 可吃#NN, 体质#NN)  (dobj, 气虚#VV, 可吃#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质可吃  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用牛肉和牛的其他内脏熬上几个小时做成的一种食品，可以吃的方法有很多，比如说牛杂火锅，牛杂海鲜，牛杂串，牛杂碎等。制作时需以“十三香”为主要的卤水香料，缺一样味道就变了。主料包括茴香、花椒、八角、桂皮、陈皮、沙姜、豆蔻等；牛之杂有牛肚(牛有四肚均可入馔，但蜂窝肚是最好吃的)、牛膀、牛肠、牛横利和牛肺等。吃的时候来点辣椒油再加点胡椒粉，味道可口，营养价值高。
+        </rawdata>
+
+        <segment>
+            用  牛肉  和  牛  的  其他  内脏  熬  上  几  个  小时  做成  的  一  种  食品  ，  可以  吃  的  方法  有  很多  ，  比如说  牛杂  火锅  ，  牛杂  海鲜  ，  牛杂串  ，  牛  杂碎  等  。  制作  时  需  以  “  十三  香  ”  为  主要  的  卤水  香料  ，  缺一样  味道  就  变了  。  主料  包括  茴香  、  花椒  、  八角  、  桂皮  、  陈皮  、  沙姜  、  豆蔻  等  ；  牛  之  杂  有  牛  肚  (  牛  有  四  肚  均  可  入馔  ，  但  蜂窝  肚  是  最  好吃  的  )  、  牛膀  、  牛肠  、  牛横利  和  牛肺  等  。  吃  的  时候  来  点  辣椒油  再加点  胡椒粉  ，  味道  可口  ，  营养  价值  高  。
+        </segment>
+
+        <pos>
+            用#P  牛肉#NN  和#CC  牛#NN  的#DEG  其他#DT  内脏#NN  熬#NN  上#LC  几#CD  个#M  小时#NN  做成#VV  的#DEC  一#CD  种#M  食品#NN  ，#PU  可以#VV  吃#VV  的#DEC  方法#NN  有#VE  很多#CD  ，#PU  比如说#AD  牛杂#VV  火锅#NN  ，#PU  牛杂#VV  海鲜#NN  ，#PU  牛杂串#NN  ，#PU  牛#NN  杂碎#VV  等#ETC    。#PU  制作#VV  时#LC  需#VV  以#P  ``#NR  十三#CD  香#NN  ''#NN  为#VV  主要#JJ  的#DEG  卤水#NN  香料#NN  ，#PU  缺一样#CD  味道#NN  就#AD  变了#VV    。#PU  主料#NR  包括#VV  茴香#CD  、#PU  花椒#CD  、#PU  八角#CD  、#PU  桂皮#CD  、#PU  陈皮#CD  、#PU  沙姜#CD  、#PU  豆蔻#VV  等#ETC  ；#PU  牛#NN  之#DEG  杂#NN  有#VE  牛#NN  肚#NN  -LRB-#NN  牛#NN  有#VE  四#CD  肚#NN  均#AD  可#VV  入馔#NN  ，#PU  但#AD  蜂窝#NN  肚#NN  是#VC  最#AD  好吃#VV  的#DEC  -RRB-#NR  、#PU  牛膀#NR  、#PU  牛肠#NR  、#PU  牛横利#NR  和#CC  牛肺#NR  等#ETC    。#PU  吃#VV  的#DEC  时候#NN  来#LC  点#M  辣椒油#NN  再加点#AD  胡椒粉#VA  ，#PU  味道#NN  可口#VA  ，#PU  营养#VA  价值#NN  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (case, 小时#NN, 用#P)  (conj, 牛#NN, 牛肉#NN)  (cc, 牛#NN, 和#CC)  (assmod, 熬#NN, 牛#NN)  (case, 牛#NN, 的#DEG)  (det, 内脏#NN, 其他#DT)  (nn, 熬#NN, 内脏#NN)  (dep, 小时#NN, 熬#NN)  (case, 熬#NN, 上#LC)  (nummod, 个#M, 几#CD)  (clf, 小时#NN, 个#M)  (prep, 做成#VV, 小时#NN)  (relcl, 食品#NN, 做成#VV)  (mark, 做成#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (nsubj, 吃#VV, 食品#NN)  (dep, 吃#VV, 可以#VV)  (relcl, 方法#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (dep, 有#VE, 方法#NN)  (root, ROOT#null, 有#VE)  (dep, 牛杂#VV, 很多#CD)  (advmod, 牛杂#VV, 比如说#AD)  (dep, 有#VE, 牛杂#VV)  (dobj, 牛杂#VV, 火锅#NN)  (dep, 牛杂#VV, 牛杂#VV)  (dobj, 牛杂#VV, 海鲜#NN)  (nsubj, 杂碎#VV, 牛杂串#NN)  (nsubj, 杂碎#VV, 牛#NN)  (dep, 牛杂#VV, 杂碎#VV)  (dep, 牛杂#VV, 等#ETC)   (loc, 为#VV, 制作#VV)  (case, 制作#VV, 时#LC)  (mmod, 为#VV, 需#VV)  (case, ''#NN, 以#P)  (nn, 香#NN, ``#NR)  (nummod, 香#NN, 十三#CD)  (nn, ''#NN, 香#NN)  (prep, 为#VV, ''#NN)  (root, ROOT#null, 为#VV)  (assmod, 香料#NN, 主要#JJ)  (case, 主要#JJ, 的#DEG)  (nn, 香料#NN, 卤水#NN)  (dobj, 为#VV, 香料#NN)  (nummod, 味道#NN, 缺一样#CD)  (nsubj, 变了#VV, 味道#NN)  (advmod, 变了#VV, 就#AD)  (conj, 为#VV, 变了#VV)   (nsubj, 包括#VV, 主料#NR)  (root, ROOT#null, 包括#VV)  (nummod, 沙姜#CD, 茴香#CD)  (nummod, 沙姜#CD, 花椒#CD)  (nummod, 沙姜#CD, 八角#CD)  (nummod, 沙姜#CD, 桂皮#CD)  (nummod, 沙姜#CD, 陈皮#CD)  (range, 包括#VV, 沙姜#CD)  (conj, 包括#VV, 豆蔻#VV)  (dep, 包括#VV, 等#ETC)  (assmod, 杂#NN, 牛#NN)  (case, 牛#NN, 之#DEG)  (dep, 有#VE, 杂#NN)  (conj, 包括#VV, 有#VE)  (nn, 牛#NN, 牛#NN)  (nn, 牛#NN, 肚#NN)  (dep, 有#VE, 牛#NN)  (dep, 有#VE, 有#VE)  (nummod, 肚#NN, 四#CD)  (nsubj, 可#VV, 肚#NN)  (advmod, 可#VV, 均#AD)  (dep, 有#VE, 可#VV)  (dobj, 可#VV, 入馔#NN)  (advmod, 牛肺#NR, 但#AD)  (nn, 肚#NN, 蜂窝#NN)  (nsubj, 牛肺#NR, 肚#NN)  (cop, 牛肺#NR, 是#VC)  (advmod, 好吃#VV, 最#AD)  (relcl, 牛肺#NR, 好吃#VV)  (mark, 好吃#VV, 的#DEC)  (conj, 牛肺#NR, 牛膀#NR)  (conj, 牛肺#NR, 牛肠#NR)  (conj, 牛肺#NR, 牛横利#NR)  (cc, 牛肺#NR, 和#CC)  (conj, 包括#VV, 牛肺#NR)  (etc, 牛肺#NR, 等#ETC)   (relcl, 时候#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (loc, 胡椒粉#VA, 时候#NN)  (case, 时候#NN, 来#LC)  (dep, 辣椒油#NN, 点#M)  (nsubj, 胡椒粉#VA, 辣椒油#NN)  (advmod, 胡椒粉#VA, 再加点#AD)  (root, ROOT#null, 胡椒粉#VA)  (nsubj, 可口#VA, 味道#NN)  (conj, 胡椒粉#VA, 可口#VA)  (conj, 胡椒粉#VA, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (dep, 胡椒粉#VA, 高#VA)
+        </parsing>
+
+        <tag>
+            做成食品  吃方法  卤水香料  包括  好吃牛肺  牛膀  牛肠  牛横利  吃时候  辣椒油胡椒粉  味道可口  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            由于养肝,养胃,明目,健脾,补肾,强筋,其蛋白质较高，营养丰富。且很容易被胃肠吸收，是有益于健康的绝佳食品，后被人们称之为“牛杂碎”。
+        </rawdata>
+
+        <segment>
+            由于  养肝  ,  养  胃  ,  明目  ,  健脾  ,  补  肾  ,  强筋  ,  其  蛋白质  较  高  ，  营养  丰富  。  且  很  容易  被  胃肠  吸收  ，  是  有益于  健康  的  绝佳  食品  ，  后被  人们  称之为  “  牛  杂碎  ”  。
+        </segment>
+
+        <pos>
+            由于#P  养肝#NN  ,#NN  养#VV  胃#NN  ,#NN  明目#NN  ,#NN  健脾#NN  ,#NN  补#VV  肾#NN  ,#NN  强筋#NN  ,#NN  其#PN  蛋白质#VV  较#AD  高#VA  ，#PU  营养#VA  丰富#VA    。#PU  且#CC  很#AD  容易#VA  被#LB  胃肠#NN  吸收#VV  ，#PU  是#VC  有益于#VV  健康#VA  的#DEC  绝佳#JJ  食品#NN  ，#PU  后被#VV  人们#NN  称之为#NN  ``#VV  牛#NN  杂碎#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (case, 养#VV, 由于#P)  (nn, ,#NN, 养肝#NN)  (prep, 蛋白质#VV, 养#VV)  (nn, ,#NN, 胃#NN)  (nn, ,#NN, 明目#NN)  (nn, ,#NN, 健脾#NN)  (conj, 养#VV, 补#VV)  (nn, ,#NN, 肾#NN)  (nn, ,#NN, 强筋#NN)  (nsubj, 蛋白质#VV, 其#PN)  (xsubj, 高#VA, 其#PN)  (root, ROOT#null, 蛋白质#VV)  (advmod, 高#VA, 较#AD)  (ccomp, 蛋白质#VV, 高#VA)  (dep, 高#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (cc, 有益于#VV, 且#CC)  (advmod, 容易#VA, 很#AD)  (dep, 被#LB, 容易#VA)  (dep, 有益于#VV, 被#LB)  (nsubj, 吸收#VV, 胃肠#NN)  (dep, 被#LB, 吸收#VV)  (conj, 有益于#VV, 是#VC)  (cop, 有益于#VV, 是#VC)  (conj, ``#VV, 有益于#VV)  (relcl, 食品#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (amod, 食品#NN, 绝佳#JJ)  (dobj, 有益于#VV, 食品#NN)  (dep, 有益于#VV, 后被#VV)  (nn, 称之为#NN, 人们#NN)  (dobj, 后被#VV, 称之为#NN)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 牛#NN)  (nn, ''#NN, 杂碎#NN)  (dobj, ``#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            营养丰富  食品健康  绝佳食品  有益于食品  人们称之为  后被称之为  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            牛肝为牛科动物黄牛或水牛的肝脏。 性味甘、平，入肝经 。牛肝为优质完全蛋白质食品，每百克含蛋白质21.8克；含铁9毫克，维生素A高达18300国际单位，维生素B22.3毫克，烟酸16.2 毫克，维生素C18毫克。此外尚含钙、磷、铜、维生素B1、D及多种酶 。牛肝因富含优质蛋白、铁、铜及维生素A、B、C等，所以是治疗营养不良性贫血的要物，又具有卓越的补肝明目功能。
+            牛肾
+            牛肾为牛科动物黄牛或水牛的肾脏。牛肾性味甘、温，归肾经。其含蛋白质、碳水化合物、脂肪、磷、铁、维生素（B1、B2、C、A）、尼克酸等。能益精，补益肾气 、去湿痹。
+        </rawdata>
+
+        <segment>
+            牛肝  为  牛科  动物  黄牛  或  水牛  的  肝脏  。    性味  甘  、  平  ，  入  肝经    。  牛肝  为  优质  完全  蛋白质  食品  ，  每  百  克  含  蛋白质  .  8  克  ；  含铁  9  毫克  ，  维生素A  高达  18300  国际  单位  ，  维生素  B  22.3  毫克  ，  烟酸  16.2  毫克  ，  维生素C  18  毫克  。  此外  尚  含钙  、  磷  、  铜  、  维生素  B  D  及  多种酶    。  牛肝  因  富含  优质  蛋白  、  铁  、  铜  及  维生素A  、  B  、  C  等  ，  所以  是  治疗  营养  不良性  贫血  的  要物  ，  又  具有  卓越  的  补肝  明目  功能  。
+            牛  肾
+            牛  肾  为  牛科  动物  黄牛  或  水牛  的  肾脏  。  牛肾性  味  甘  、  温  ，  归  肾  经  。  其  含  蛋白质  、  碳水化合物  、  脂肪  、  磷  、  铁  、  维生素  （  B  B2  、  C  、  A  ）  、  尼克酸  等  。  能  益精  ，  补益  肾气    、  去湿痹  。
+        </segment>
+
+        <pos>
+            牛肝#NN  为#VC  牛科#JJ  动物#NN  黄牛#NN  或#CC  水牛#NN  的#DEG  肝脏#NN    。#PU  性味#VV  甘#NR  、#PU  平#NN  ，#PU  入#VV  肝经#NN    。#PU  牛肝#NN  为#VC  优质#JJ  完全#JJ  蛋白质#NN  食品#NN  ，#PU  每#DT  百#CD  克#M  含#VV  蛋白质#NN  .#NN  8#CD  克#M  ；#PU  含铁#VV  9#CD  毫克#NN  ，#PU  维生素A#AD  高达#VV  18300#CD  国际#NN  单位#NN  ，#PU  维生素#NN  B#VV  22.3#CD  毫克#NN  ，#PU  烟酸#VV  16.2#CD  毫克#NN  ，#PU  维生素C#VV  18#CD  毫克#NN    。#PU  此外#AD  尚#AD  含钙#VV  、#PU  磷#NN  、#PU  铜#NN  、#PU  维生素#NN  B#NN  D#NN  及#CC  多种酶#VV    。#PU  牛肝#NN  因#P  富含#VV  优质#JJ  蛋白#NN  、#PU  铁#NN  、#PU  铜#NN  及#CC  维生素A#NN  、#PU  B#NN  、#PU  C#NN  等#ETC  ，#PU  所以#AD  是#VC  治疗#VV  营养#VA  不良性#NN  贫血#NN  的#DEC  要物#NN  ，#PU  又#AD  具有#VV  卓越#VA  的#DEC  补肝#NN  明目#NN  功能#NN    。#PU    。#PU
+            牛#NN  肾#VV
+            牛#NN  肾#NN  为#VC  牛科#JJ  动物#NN  黄牛#NN  或#CC  水牛#NN  的#DEG  肾脏#NN    。#PU  牛肾性#AD  味#VV  甘#NR  、#PU  温#NN  ，#PU  归#VV  肾#NN  经#VV    。#PU  其#PN  含#VV  蛋白质#NR  、#PU  碳水化合物#NR  、#PU  脂肪#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  维生素#NN  （#PU  B#VV  B2#CD  、#PU  C#NN  、#PU  A#NN  ）#PU  、#PU  尼克酸#NR  等#ETC    。#PU  能#VV  益精#NN  ，#PU  补益#VV  肾气#NN  、#PU  去湿痹#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 肝脏#NN, 牛肝#NN)  (cop, 肝脏#NN, 为#VC)  (amod, 动物#NN, 牛科#JJ)  (nn, 水牛#NN, 动物#NN)  (conj, 水牛#NN, 黄牛#NN)  (cc, 水牛#NN, 或#CC)  (assmod, 肝脏#NN, 水牛#NN)  (case, 水牛#NN, 的#DEG)  (root, ROOT#null, 肝脏#NN)   (root, ROOT#null, 性味#VV)  (conj, 平#NN, 甘#NR)  (dobj, 性味#VV, 平#NN)  (conj, 性味#VV, 入#VV)  (dobj, 入#VV, 肝经#NN)   (nsubj, 食品#NN, 牛肝#NN)  (cop, 食品#NN, 为#VC)  (amod, 蛋白质#NN, 优质#JJ)  (amod, 蛋白质#NN, 完全#JJ)  (nn, 食品#NN, 蛋白质#NN)  (root, ROOT#null, 食品#NN)  (dep, 含#VV, 每#DT)  (nummod, 克#M, 百#CD)  (dep, 每#DT, 克#M)  (conj, 食品#NN, 含#VV)  (nn, .#NN, 蛋白质#NN)  (nummod, 克#M, 8#CD)  (range, 含#VV, 克#M)  (conj, 食品#NN, 含铁#VV)  (nummod, 毫克#NN, 9#CD)  (dobj, 含铁#VV, 毫克#NN)  (advmod, 高达#VV, 维生素A#AD)  (conj, 食品#NN, 高达#VV)  (range, 高达#VV, 18300#CD)  (nn, 单位#NN, 国际#NN)  (nsubj, B#VV, 单位#NN)  (nsubj, B#VV, 维生素#NN)  (conj, 食品#NN, B#VV)  (nummod, 毫克#NN, 22.3#CD)  (dobj, B#VV, 毫克#NN)  (conj, B#VV, 烟酸#VV)  (nummod, 毫克#NN, 16.2#CD)  (dobj, 烟酸#VV, 毫克#NN)  (conj, B#VV, 维生素C#VV)  (nummod, 毫克#NN, 18#CD)  (dobj, 维生素C#VV, 毫克#NN)   (advmod, 含钙#VV, 此外#AD)  (advmod, 含钙#VV, 尚#AD)  (root, ROOT#null, 含钙#VV)  (conj, B#NN, 磷#NN)  (conj, B#NN, 铜#NN)  (nn, B#NN, 维生素#NN)  (nn, D#NN, B#NN)  (dep, 含钙#VV, D#NN)  (cc, 含钙#VV, 及#CC)  (dep, 含钙#VV, 多种酶#VV)   (nsubj, 具有#VV, 牛肝#NN)  (case, 富含#VV, 因#P)  (prep, 具有#VV, 富含#VV)  (amod, C#NN, 优质#JJ)  (conj, C#NN, 蛋白#NN)  (conj, C#NN, 铁#NN)  (conj, C#NN, 铜#NN)  (cc, C#NN, 及#CC)  (conj, C#NN, 维生素A#NN)  (conj, C#NN, B#NN)  (dobj, 富含#VV, C#NN)  (etc, C#NN, 等#ETC)  (advmod, 具有#VV, 所以#AD)  (cop, 要物#NN, 是#VC)  (relcl, 要物#NN, 治疗#VV)  (rcomp, 治疗#VV, 营养#VA)  (nn, 贫血#NN, 不良性#NN)  (dobj, 治疗#VV, 贫血#NN)  (mark, 治疗#VV, 的#DEC)  (dep, 具有#VV, 要物#NN)  (advmod, 具有#VV, 又#AD)  (root, ROOT#null, 具有#VV)  (relcl, 功能#NN, 卓越#VA)  (mark, 卓越#VA, 的#DEC)  (nn, 功能#NN, 补肝#NN)  (nn, 功能#NN, 明目#NN)  (dobj, 具有#VV, 功能#NN)   (root, ROOT#null, null#null)
+            (nsubj, 肾#VV, 牛#NN)  (root, ROOT#null, 肾#VV)
+            (nn, 肾#NN, 牛#NN)  (nsubj, 肾脏#NN, 肾#NN)  (cop, 肾脏#NN, 为#VC)  (amod, 动物#NN, 牛科#JJ)  (nn, 水牛#NN, 动物#NN)  (conj, 水牛#NN, 黄牛#NN)  (cc, 水牛#NN, 或#CC)  (assmod, 肾脏#NN, 水牛#NN)  (case, 水牛#NN, 的#DEG)  (root, ROOT#null, 肾脏#NN)   (advmod, 味#VV, 牛肾性#AD)  (root, ROOT#null, 味#VV)  (conj, 温#NN, 甘#NR)  (dobj, 味#VV, 温#NN)  (dep, 味#VV, 归#VV)  (dobj, 归#VV, 肾#NN)  (conj, 归#VV, 经#VV)   (nsubj, 含#VV, 其#PN)  (root, ROOT#null, 含#VV)  (conj, 尼克酸#NR, 蛋白质#NR)  (conj, 尼克酸#NR, 碳水化合物#NR)  (conj, 尼克酸#NR, 脂肪#NR)  (conj, 尼克酸#NR, 磷#NN)  (conj, 尼克酸#NR, 铁#NN)  (conj, 尼克酸#NR, 维生素#NN)  (prnmod, 维生素#NN, B#VV)  (nummod, A#NN, B2#CD)  (conj, A#NN, C#NN)  (dobj, B#VV, A#NN)  (dobj, 含#VV, 尼克酸#NR)  (etc, 尼克酸#NR, 等#ETC)   (root, ROOT#null, 能#VV)  (dobj, 能#VV, 益精#NN)  (conj, 能#VV, 补益#VV)  (conj, 去湿痹#NN, 肾气#NN)  (dobj, 补益#VV, 去湿痹#NN)
+        </parsing>
+
+        <tag>
+            牛科动物  动物水牛  黄牛  性味平  优质蛋白质  完全蛋白质  蛋白质食品  含铁毫克  国际单位  烟酸毫克  维生素C毫克  含钙  优质C  富含C  治疗要物  不良性贫血  治疗贫血  功能卓越  补肝功能  明目功能  尼克酸  碳水化合物  脂肪  肾气  补益去湿痹  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.把萝卜装到沙锅，放沙锅2/3的水，开始大火煮;
+            2.将盛牛腩盘中的水倒净，把八角、香叶、桂皮、姜、蒜码放到牛腩上，晾至到沙锅烧开;
+            3.沙锅烧开后，把盖子拿走继续大火煮萝卜;
+            4.这时把炒菜锅拿来，倒点色拉油，油烧至7成熟时放入牛腩，牛肚，牛肠等内脏及配料，翻炒;
+            5.炒出香味时放入两大勺酱油用来调色且入味;
+            6.再翻炒两下后就全部倒入沸腾的萝卜汤中;
+            7.加入香葱，改小火慢慢炖。2小时后再来揭锅放盐
+        </rawdata>
+
+        <segment>
+            把  萝卜  装到  沙锅  ，  放  沙锅  2/3  的  水  ，  开始  大火  煮  ;
+            将  盛  牛腩  盘中  的  水  倒  净  ，  把  八  角  、  香叶  、  桂皮  、  姜  、  蒜码  放到  牛腩  上  ，  晾至到  沙锅  烧开  ;
+            沙锅  烧开  后  ，  把  盖子  拿走  继续  大火  煮  萝卜  ;
+            这时  把  炒菜锅  拿来  ，  倒  点  色拉油  ，  油烧  至  7  成熟  时  放入  牛腩  ，  牛肚  ，  牛肠  等  内脏  及  配料  ，  翻炒  ;
+            炒  出  香味  时  放入  两  大  勺  酱油  用来  调色  且  入味  ;
+            再  翻炒  两  下  后  就  全部  倒入  沸腾  的  萝卜  汤中  ;
+            加入  香葱  ，  改小  火  慢慢  炖  。  2  小时  后  再  来  揭锅  放  盐
+        </segment>
+
+        <pos>
+            把#BA  萝卜#NN  装到#NN  沙锅#NN  ，#PU  放#VV  沙锅#VV  2/3#CD  的#DEC  水#NN  ，#PU  开始#VV  大火#AD  煮#VV  ;#NN
+            将#AD  盛#VA  牛腩#VA  盘中#VA  的#DEC  水#NN  倒#VV  净#JJ  ，#PU  把#BA  八#CD  角#M  、#PU  香叶#NN  、#PU  桂皮#NN  、#PU  姜#NN  、#PU  蒜码#NN  放到#NN  牛腩#NN  上#LC  ，#PU  晾至到#AD  沙锅#VV  烧开#VV  ;#NN
+            沙锅#NN  烧开#NN  后#LC  ，#PU  把#BA  盖子#NN  拿走#NN  继续#VV  大火#AD  煮#VV  萝卜#NN  ;#NN
+            这时#AD  把#BA  炒菜锅#NN  拿来#VV  ，#PU  倒#VV  点#M  色拉油#NN  ，#PU  油烧#CD  至#CC  7#CD  成熟#VA  时#LC  放入#VV  牛腩#NN  ，#PU  牛肚#NN  ，#PU  牛肠#NR  等#ETC  内脏#NN  及#CC  配料#NN  ，#PU  翻炒#AD  ;#VV
+            炒#NN  出#VV  香味#NN  时#LC  放入#VV  两#CD  大#JJ  勺#NN  酱油#NN  用来#NN  调色#NN  且#CC  入味#NN  ;#NN
+            再#AD  翻炒#VV  两#CD  下#LC  后#LC  就#AD  全部#AD  倒入#VV  沸腾#NN  的#DEC  萝卜#NN  汤中#VV  ;#NN
+            加入#VV  香葱#VV  ，#PU  改小#NN  火#NN  慢慢#AD  炖#VV  。#PU  2#CD  小时#NN  后#LC  再#AD  来#MSP  揭锅#VV  放#VV  盐#NN
+        </pos>
+
+        <parsing>
+            (ba, 放#VV, 把#BA)  (nn, 沙锅#NN, 萝卜#NN)  (nn, 沙锅#NN, 装到#NN)  (nsubj, 放#VV, 沙锅#NN)  (root, ROOT#null, 放#VV)  (relcl, 水#NN, 沙锅#VV)  (range, 沙锅#VV, 2/3#CD)  (mark, 沙锅#VV, 的#DEC)  (dobj, 放#VV, 水#NN)  (mmod, 煮#VV, 开始#VV)  (advmod, 煮#VV, 大火#AD)  (dep, 放#VV, 煮#VV)  (dobj, 煮#VV, ;#NN)
+            (advmod, 盛#VA, 将#AD)  (relcl, 水#NN, 盛#VA)  (comod, 盛#VA, 牛腩#VA)  (comod, 盛#VA, 盘中#VA)  (mark, 盛#VA, 的#DEC)  (nsubj, 倒#VV, 水#NN)  (root, ROOT#null, 倒#VV)  (nfincl, ;#NN, 净#JJ)  (ba, 烧开#VV, 把#BA)  (nummod, 角#M, 八#CD)  (clf, 牛腩#NN, 角#M)  (conj, 放到#NN, 香叶#NN)  (conj, 放到#NN, 桂皮#NN)  (conj, 放到#NN, 姜#NN)  (nn, 放到#NN, 蒜码#NN)  (nn, 牛腩#NN, 放到#NN)  (loc, 沙锅#VV, 牛腩#NN)  (case, 牛腩#NN, 上#LC)  (advmod, 沙锅#VV, 晾至到#AD)  (dep, 烧开#VV, 沙锅#VV)  (dep, 净#JJ, 烧开#VV)  (dobj, 倒#VV, ;#NN)
+            (nn, 烧开#NN, 沙锅#NN)  (loc, 煮#VV, 烧开#NN)  (case, 烧开#NN, 后#LC)  (ba, 煮#VV, 把#BA)  (nn, 拿走#NN, 盖子#NN)  (nsubj, 煮#VV, 拿走#NN)  (mmod, 煮#VV, 继续#VV)  (advmod, 煮#VV, 大火#AD)  (root, ROOT#null, 煮#VV)  (nn, ;#NN, 萝卜#NN)  (dobj, 煮#VV, ;#NN)
+            (advmod, 拿来#VV, 这时#AD)  (ba, 拿来#VV, 把#BA)  (nsubj, 拿来#VV, 炒菜锅#NN)  (root, ROOT#null, 拿来#VV)  (dep, 拿来#VV, 倒#VV)  (dep, 色拉油#NN, 点#M)  (dobj, 倒#VV, 色拉油#NN)  (nummod, 7#CD, 油烧#CD)  (cc, 7#CD, 至#CC)  (conj, 放入#VV, 7#CD)  (loc, 放入#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (conj, 拿来#VV, 放入#VV)  (dobj, 放入#VV, 牛腩#NN)  (nsubj, ;#VV, 牛肚#NN)  (nn, 配料#NN, 牛肠#NR)  (etc, 牛肠#NR, 等#ETC)  (conj, 配料#NN, 内脏#NN)  (cc, 配料#NN, 及#CC)  (nsubj, ;#VV, 配料#NN)  (advmod, ;#VV, 翻炒#AD)  (dep, 拿来#VV, ;#VV)
+            (nsubj, 放入#VV, 炒#NN)  (loc, 放入#VV, 出#VV)  (dobj, 出#VV, 香味#NN)  (case, 出#VV, 时#LC)  (root, ROOT#null, 放入#VV)  (nummod, ;#NN, 两#CD)  (amod, ;#NN, 大#JJ)  (nn, ;#NN, 勺#NN)  (nn, ;#NN, 酱油#NN)  (nn, ;#NN, 用来#NN)  (conj, ;#NN, 调色#NN)  (cc, ;#NN, 且#CC)  (nn, ;#NN, 入味#NN)  (dobj, 放入#VV, ;#NN)
+            (advmod, 翻炒#VV, 再#AD)  (loc, 倒入#VV, 翻炒#VV)  (loc, 翻炒#VV, 两#CD)  (case, 两#CD, 下#LC)  (case, 翻炒#VV, 后#LC)  (advmod, 倒入#VV, 就#AD)  (advmod, 倒入#VV, 全部#AD)  (relcl, 萝卜#NN, 倒入#VV)  (dobj, 倒入#VV, 沸腾#NN)  (mark, 倒入#VV, 的#DEC)  (nsubj, 汤中#VV, 萝卜#NN)  (root, ROOT#null, 汤中#VV)  (dobj, 汤中#VV, ;#NN)
+            (loc, 揭锅#VV, 加入#VV)  (nfincl, 小时#NN, 香葱#VV)  (nn, 火#NN, 改小#NN)  (nsubj, 炖#VV, 火#NN)  (advmod, 炖#VV, 慢慢#AD)  (ccomp, 香葱#VV, 炖#VV)  (nummod, 小时#NN, 2#CD)  (dobj, 加入#VV, 小时#NN)  (case, 加入#VV, 后#LC)  (advmod, 揭锅#VV, 再#AD)  (prtmod, 揭锅#VV, 来#MSP)  (conj, 放#VV, 揭锅#VV)  (root, ROOT#null, 放#VV)  (dobj, 放#VV, 盐#NN)
+        </parsing>
+
+        <tag>
+            萝卜沙锅  装到沙锅  沙锅水  香叶  桂皮  蒜码放到  放到牛腩  沙锅烧开  盖子拿走  拿来  配料  内脏  倒入萝卜  倒入沸腾  汤中  加入小时  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/47/0a/2631_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1266 牛杂.jpg
+    </picturelocalurl>
+
+</content>

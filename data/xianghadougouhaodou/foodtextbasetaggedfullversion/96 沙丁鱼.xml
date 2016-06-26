@@ -1,0 +1,358 @@
+<content>
+
+    <id>
+        96
+    </id>
+
+    <foodname>
+        沙丁鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        沙鲻
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            痛风、肝硬化病人不宜食用。
+        </rawdata>
+
+        <segment>
+            痛风  、  肝硬化  病人  不  宜  食用  。
+        </segment>
+
+        <pos>
+            痛风#NN  、#PU  肝硬化#NN  病人#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 病人#NN, 痛风#NN)  (nn, 病人#NN, 肝硬化#NN)  (nsubj, 食用#VV, 病人#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            痛风  肝硬化病人不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群皆可食用。沙丁鱼可以防止血栓的形成，尤其适用于心脏病人。
+        </rawdata>
+
+        <segment>
+            一般  人群  皆  可  食用  。  沙丁鱼  可以  防止  血栓  的  形成  ，  尤其  适用  于  心脏  病人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  皆#AD  可#VV  食用#VV    。#PU  沙丁鱼#NR  可以#VV  防止#VV  血栓#NN  的#DEG  形成#NN  ，#PU  尤其#AD  适用#VV  于#P  心脏#NN  病人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 皆#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 防止#VV, 沙丁鱼#NR)  (mmod, 防止#VV, 可以#VV)  (root, ROOT#null, 防止#VV)  (assmod, 形成#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (nsubj, 适用#VV, 形成#NN)  (advmod, 适用#VV, 尤其#AD)  (ccomp, 防止#VV, 适用#VV)  (case, 病人#NN, 于#P)  (nn, 病人#NN, 心脏#NN)  (prep, 适用#VV, 病人#NN)
+        </parsing>
+
+        <tag>
+            一般人群皆可  可以防止血栓  形成  尤其适用  心脏病人  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                89
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                19.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                158
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                嘌呤（毫克）
+            </elename>
+            <elevalue>
+                0
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                184
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                183
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                136
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                91.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                48.95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            沙丁鱼，为鲱科某些食用鱼类的统称，尤指沙丁鱼属、拟沙丁鱼属和小沙丁鱼属的种类。沙丁鱼一名也指制成油浸鱼罐头的普通鲱以及其它小型的鲱或鲱状鱼。中国沙丁鱼类主要为小沙丁鱼属约10余种，以金色小沙丁鱼和裘氏小沙丁鱼产量最高。沙丁鱼体延长、侧扁。腹部具棱鳞，体被圆鳞，无侧线。所有沙丁鱼均为经济鱼种，可鲜食，也可干制、盐制或熏制，亦可浓煮成鱼粉或
+        </rawdata>
+
+        <segment>
+            沙丁鱼  ，  为  鲱科  某些  食用  鱼类  的  统称  ，  尤指  沙丁鱼  属  、  拟  沙丁鱼  属  和  小  沙丁鱼  属  的  种类  。  沙丁鱼  一  名  也指  制成  油  浸  鱼  罐头  的  普通  鲱  以及  其它  小型  的  鲱或鲱状鱼  。  中国  沙丁鱼  类  主要  为  小  沙丁鱼  属约  10  余  种  ，  以  金色  小  沙丁鱼  和  裘氏  小  沙丁鱼  产量  最  高  。  沙丁鱼  体  延长  、  侧扁  。  腹部  具棱鳞  ，  体被  圆鳞  ，  无  侧线  。  所有  沙丁鱼  均  为  经济  鱼种  ，  可  鲜食  ，  也可  干制  、  盐  制  或  熏制  ，  亦可浓  煮成  鱼粉  或
+        </segment>
+
+        <pos>
+            沙丁鱼#VV  ，#PU  为#P  鲱科#VV  某些#DT  食用#VV  鱼类#NN  的#DEC  统称#NN  ，#PU  尤指#NN  沙丁鱼#AD  属#VV  、#PU  拟#VV  沙丁鱼#AD  属#VV  和#P  小#JJ  沙丁鱼#NN  属#VV  的#DEC  种类#NN    。#PU  沙丁鱼#NR  一#CD  名#M  也指#NN  制成#VV  油#NN  浸#NN  鱼#NN  罐头#NN  的#DEG  普通#JJ  鲱#NN  以及#CC  其它#DT  小型#JJ  的#DEG  鲱或鲱状鱼#NN    。#PU  中国#NR  沙丁鱼#CD  类#M  主要#AD  为#P  小#JJ  沙丁鱼#NN  属约#VV  10#CD  余#VV  种#NN  ，#PU  以#MSP  金色#VV  小#JJ  沙丁鱼#NN  和#CC  裘氏#NR  小#JJ  沙丁鱼#NN  产量#NN  最#AD  高#VA    。#PU  沙丁鱼#NN  体#NN  延长#VV  、#PU  侧扁#VV    。#PU  腹部#NR  具棱鳞#VV  ，#PU  体被#NN  圆鳞#NN  ，#PU  无#VE  侧线#NN    。#PU  所有#DT  沙丁鱼#NN  均#AD  为#VC  经济#NN  鱼种#NN  ，#PU  可#VV  鲜食#NN  ，#PU  也可#VV  干制#NN  、#PU  盐#NN  制#NN  或#CC  熏制#NN  ，#PU  亦可浓#VV  煮成#NN  鱼粉#NN  或#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 沙丁鱼#VV)  (case, 鲱科#VV, 为#P)  (prep, 属#VV, 鲱科#VV)  (det, 统称#NN, 某些#DT)  (relcl, 统称#NN, 食用#VV)  (dobj, 食用#VV, 鱼类#NN)  (mark, 食用#VV, 的#DEC)  (dobj, 鲱科#VV, 统称#NN)  (nsubj, 属#VV, 尤指#NN)  (advmod, 属#VV, 沙丁鱼#AD)  (ccomp, 沙丁鱼#VV, 属#VV)  (dep, 沙丁鱼#VV, 拟#VV)  (advmod, 属#VV, 沙丁鱼#AD)  (ccomp, 拟#VV, 属#VV)  (case, 沙丁鱼#NN, 和#P)  (amod, 沙丁鱼#NN, 小#JJ)  (prep, 属#VV, 沙丁鱼#NN)  (relcl, 种类#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (dobj, 属#VV, 种类#NN)   (nn, 也指#NN, 沙丁鱼#NR)  (nummod, 名#M, 一#CD)  (clf, 也指#NN, 名#M)  (nsubj, 制成#VV, 也指#NN)  (root, ROOT#null, 制成#VV)  (nn, 浸#NN, 油#NN)  (nn, 罐头#NN, 浸#NN)  (nn, 罐头#NN, 鱼#NN)  (assmod, 鲱#NN, 罐头#NN)  (case, 罐头#NN, 的#DEG)  (amod, 鲱#NN, 普通#JJ)  (conj, 鲱或鲱状鱼#NN, 鲱#NN)  (cc, 鲱或鲱状鱼#NN, 以及#CC)  (det, 鲱或鲱状鱼#NN, 其它#DT)  (assmod, 鲱或鲱状鱼#NN, 小型#JJ)  (case, 小型#JJ, 的#DEG)  (dobj, 制成#VV, 鲱或鲱状鱼#NN)   (nn, 沙丁鱼#NN, 中国#NR)  (nummod, 类#M, 沙丁鱼#CD)  (clf, 沙丁鱼#NN, 类#M)  (advmod, 余#VV, 主要#AD)  (case, 属约#VV, 为#P)  (amod, 沙丁鱼#NN, 小#JJ)  (nsubj, 属约#VV, 沙丁鱼#NN)  (prep, 余#VV, 属约#VV)  (range, 属约#VV, 10#CD)  (nfincl, 沙丁鱼#NN, 余#VV)  (dobj, 余#VV, 种#NN)  (prtmod, 金色#VV, 以#MSP)  (dep, 余#VV, 金色#VV)  (amod, 沙丁鱼#NN, 小#JJ)  (conj, 沙丁鱼#NN, 沙丁鱼#NN)  (cc, 沙丁鱼#NN, 和#CC)  (nn, 沙丁鱼#NN, 裘氏#NR)  (amod, 沙丁鱼#NN, 小#JJ)  (nn, 产量#NN, 沙丁鱼#NN)  (nsubj, 高#VA, 产量#NN)  (advmod, 高#VA, 最#AD)  (root, ROOT#null, 高#VA)   (nn, 体#NN, 沙丁鱼#NN)  (nsubj, 延长#VV, 体#NN)  (root, ROOT#null, 延长#VV)  (dep, 延长#VV, 侧扁#VV)   (nsubj, 具棱鳞#VV, 腹部#NR)  (root, ROOT#null, 具棱鳞#VV)  (nn, 圆鳞#NN, 体被#NN)  (dep, 无#VE, 圆鳞#NN)  (ccomp, 具棱鳞#VV, 无#VE)  (dobj, 无#VE, 侧线#NN)   (det, 沙丁鱼#NN, 所有#DT)  (nsubj, 鱼种#NN, 沙丁鱼#NN)  (advmod, 鱼种#NN, 均#AD)  (cop, 鱼种#NN, 为#VC)  (nn, 鱼种#NN, 经济#NN)  (root, ROOT#null, 鱼种#NN)  (conj, 鱼种#NN, 可#VV)  (dobj, 可#VV, 鲜食#NN)  (conj, 鱼种#NN, 也可#VV)  (conj, 熏制#NN, 干制#NN)  (nn, 熏制#NN, 盐#NN)  (conj, 熏制#NN, 制#NN)  (cc, 熏制#NN, 或#CC)  (dobj, 也可#VV, 熏制#NN)  (conj, 鱼种#NN, 亦可浓#VV)  (nn, 或#NN, 煮成#NN)  (nn, 或#NN, 鱼粉#NN)  (dobj, 亦可浓#VV, 或#NN)
+        </parsing>
+
+        <tag>
+            食用统称  食用鱼类  鲱科统称  属种类  制成  普通鲱  延长  体被圆鳞  经济鱼种  熏制  干制  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.预防心脏疾病
+            沙丁鱼含有丰富的能够促进健康的Omega-3s、EPA和DHA.。这些基本的脂肪酸能够帮助身体里的血液流动畅通，保持一个健康的心脏，防止患心血管疾病的可能性。
+            2.促进胎儿发育
+            沙丁鱼富含磷脂，孕妇在妊娠期应多吃鱼类， 对于胎儿的大脑发育具有促进的有利作用。
+            3.补钙
+            沙丁鱼含丰富的钙，可以防止因缺钙引起的骨质疏松。
+        </rawdata>
+
+        <segment>
+            预防  心脏  疾病
+            沙丁鱼  含有  丰富  的  能够  促进  健康  的  Omega  -    、  EPA  和  DHA  .  。  这些  基本  的  脂肪酸  能够  帮助  身体  里  的  血液  流动  畅通  ，  保持  一  个  健康  的  心脏  ，  防止  患  心血管  疾病  的  可能性  。
+            促进  胎儿  发育
+            沙丁鱼  富含  磷脂  ，  孕妇  在  妊娠期  应  多  吃  鱼类  ，  对于  胎儿  的  大脑  发育  具有  促进  的  有利  作用  。
+            补钙
+            沙丁鱼  含  丰富  的  钙  ，  可以  防止  因  缺钙  引起  的  骨质  疏松  。
+        </segment>
+
+        <pos>
+            预防#VV  心脏#NN  疾病#NN
+            沙丁鱼#NN  含有#NN  丰富#VA  的#DEC  能够#VV  促进#VV  健康#VA  的#DEC  Omega#NN  -#NN  、#PU  EPA#NN  和#CC  DHA#NN  .#NN    。#PU  这些#DT  基本#JJ  的#DEG  脂肪酸#NN  能够#VV  帮助#VV  身体#NN  里#LC  的#DEG  血液#NN  流动#NN  畅通#NN  ，#PU  保持#VV  一#CD  个#M  健康#VA  的#DEC  心脏#NN  ，#PU  防止#VV  患#VV  心血管#NN  疾病#NN  的#DEG  可能性#NN    。#PU    。#PU
+            促进#VV  胎儿#NN  发育#NN
+            沙丁鱼#NN  富含#NN  磷脂#NN  ，#PU  孕妇#NN  在#P  妊娠期#NR  应#VV  多#AD  吃#VV  鱼类#NN  ，#PU  对于#P  胎儿#NN  的#DEG  大脑#NN  发育#NN  具有#VV  促进#VV  的#DEC  有利#JJ  作用#NN  。#PU
+            补钙#VV
+            沙丁鱼#NN  含#VV  丰富#VA  的#DEC  钙#NN  ，#PU  可以#VV  防止#VV  因#P  缺钙#NN  引起#VV  的#DEC  骨质#NN  疏松#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心脏#NN)  (dobj, 预防#VV, 疾病#NN)
+            (nn, 含有#NN, 沙丁鱼#NN)  (nsubj, 丰富#VA, 含有#NN)  (nsubj, 促进#VV, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (mmod, 促进#VV, 能够#VV)  (root, ROOT#null, 促进#VV)  (relcl, .#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (nn, .#NN, Omega#NN)  (conj, .#NN, EPA#NN)  (cc, .#NN, 和#CC)  (nn, .#NN, DHA#NN)   (det, 脂肪酸#NN, 这些#DT)  (assmod, 脂肪酸#NN, 基本#JJ)  (case, 基本#JJ, 的#DEG)  (nsubj, 帮助#VV, 脂肪酸#NN)  (mmod, 帮助#VV, 能够#VV)  (root, ROOT#null, 帮助#VV)  (assmod, 畅通#NN, 身体#NN)  (case, 身体#NN, 里#LC)  (case, 身体#NN, 的#DEG)  (nn, 畅通#NN, 血液#NN)  (nn, 畅通#NN, 流动#NN)  (dobj, 帮助#VV, 畅通#NN)  (conj, 帮助#VV, 保持#VV)  (nummod, 个#M, 一#CD)  (clf, 心脏#NN, 个#M)  (relcl, 心脏#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (dobj, 保持#VV, 心脏#NN)  (conj, 帮助#VV, 防止#VV)  (ccomp, 防止#VV, 患#VV)  (nn, 疾病#NN, 心血管#NN)  (assmod, 可能性#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 患#VV, 可能性#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 胎儿#NN)  (dobj, 促进#VV, 发育#NN)
+            (nn, 磷脂#NN, 沙丁鱼#NN)  (nn, 磷脂#NN, 富含#NN)  (nsubj, 吃#VV, 磷脂#NN)  (nsubj, 吃#VV, 孕妇#NN)  (case, 妊娠期#NR, 在#P)  (prep, 吃#VV, 妊娠期#NR)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 鱼类#NN)  (case, 发育#NN, 对于#P)  (assmod, 发育#NN, 胎儿#NN)  (case, 胎儿#NN, 的#DEG)  (nn, 发育#NN, 大脑#NN)  (prep, 具有#VV, 发育#NN)  (dep, 吃#VV, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (mark, 促进#VV, 的#DEC)  (amod, 作用#NN, 有利#JJ)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 补钙#VV)
+            (nsubj, 含#VV, 沙丁鱼#NN)  (root, ROOT#null, 含#VV)  (relcl, 钙#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, 钙#NN)  (mmod, 防止#VV, 可以#VV)  (conj, 含#VV, 防止#VV)  (case, 缺钙#NN, 因#P)  (prep, 引起#VV, 缺钙#NN)  (relcl, 疏松#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 疏松#NN, 骨质#NN)  (dobj, 防止#VV, 疏松#NN)
+        </parsing>
+
+        <tag>
+            心脏疾病  预防疾病  含有丰富  .健康  血液畅通  流动畅通  帮助畅通  心脏健康  保持心脏  心血管疾病  可能性  胎儿发育  促进发育  富含磷脂  大脑发育  补钙  钙丰富  骨质疏松  防止疏松  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助改善记忆  辅助降血脂  改善营养性贫血  护肝
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            沙丁鱼富有惊人的营养价值， 一罐沙丁鱼犹如一个营养丰富的发电站，富含磷脂 即OMEGA-3脂肪酸、蛋白质和钙。
+            咸水鱼类具有保护心血管健康的特殊成分—磷脂 即OMEGA-3脂肪酸。根据美国心血管协会的网站内容显示，这种特殊脂肪酸可以减少甘油三酸脂的产生(造成血栓的有害脂肪酸)，并有逐渐降低血压和减缓动脉粥样硬化速度的神奇作用。
+            孕妇在妊娠期应多吃鱼类，如沙丁鱼，因为沙丁鱼富含磷脂。同时沙丁鱼中的磷脂对于胎儿的大脑发育具有促进的有利作用。除了磷脂，沙丁鱼还含有大量钙质，尤其是鱼骨中。罐装沙丁鱼的鱼骨很松软，可以安全食用。
+            我们的身体需要足够的矿物质，沙丁鱼也因其丰富的钙含量适合于不同年龄层的人。如果我们每日的钙质摄取量不足的话，持续的缺钙会导致骨头脆弱，而最终引起骨质疏松。对于那些想吃沙丁鱼又讨厌鱼腥味的人来说，可以通过煮熟的沙丁鱼来吸收氧化钙。
+        </rawdata>
+
+        <segment>
+            沙丁鱼  富有  惊人  的  营养  价值  ，  一  罐  沙丁鱼  犹如  一  个  营养  丰富  的  发电站  ，  富含  磷脂  即  OMEGA-3  脂肪酸  、  蛋白质  和  钙  。
+            咸水  鱼类  具有  保护  心血管  健康  的  特殊  成分  —  磷脂  即  OMEGA-3  脂肪酸  。  根据  美国  心血管  协会  的  网站  内容  显示  ，  这  种  特殊  脂肪酸  可以  减少  甘油  三  酸脂  的  产生  (  造成  血栓  的  有害  脂肪酸  )  ，  并  有  逐渐  降低  血压  和  减缓  动脉  粥样  硬化  速度  的  神奇  作用  。
+            孕妇  在  妊娠期  应  多  吃  鱼类  ，  如  沙丁鱼  ，  因为  沙丁鱼  富含  磷脂  。  同时  沙丁鱼  中  的  磷脂  对于  胎儿  的  大脑  发育  具有  促进  的  有利  作用  。  除了  磷脂  ，  沙丁鱼  还  含有  大量  钙质  ，  尤其是  鱼骨  中  。  罐装  沙丁鱼  的  鱼骨  很  松软  ，  可以  安全  食用  。
+            我们  的  身体  需要  足够  的  矿物质  ，  沙丁鱼  也  因  其  丰富  的  钙  含量  适合  于  不同  年龄层  的  人  。  如果  我们  每  日  的  钙质  摄取量  不足  的话  ，  持续  的  缺钙  会  导致  骨头  脆弱  ，  而  最终  引起  骨质  疏松  。  对于  那些  想吃  沙丁鱼  又  讨厌  鱼腥味  的  人  来说  ，  可以  通过  煮熟  的  沙丁鱼  来  吸收  氧化钙  。
+        </segment>
+
+        <pos>
+            沙丁鱼#NN  富有#VV  惊人#VA  的#DEC  营养#VA  价值#NN  ，#PU  一#CD  罐#M  沙丁鱼#NN  犹如#VV  一#CD  个#M  营养#VA  丰富#VA  的#DEC  发电站#NN  ，#PU  富含#AD  磷脂#VV  即#AD  OMEGA-3#CD  脂肪酸#NN  、#PU  蛋白质#NN  和#CC  钙#NN  。#PU
+            咸水#NN  鱼类#NN  具有#VV  保护#NN  心血管#NN  健康#VA  的#DEC  特殊#JJ  成分#NN  --#AD  磷脂#VV  即#AD  OMEGA-3#CD  脂肪酸#NN    。#PU  根据#P  美国#NR  心血管#NN  协会#NN  的#DEG  网站#NN  内容#NN  显示#VV  ，#PU  这#DT  种#M  特殊#JJ  脂肪酸#NN  可以#VV  减少#VV  甘油#NR  三#CD  酸脂#NN  的#DEC  产生#NN  -LRB-#NN  造成#VV  血栓#NN  的#DEG  有害#NN  脂肪酸#NN  -RRB-#NN  ，#PU  并#CC  有#VE  逐渐#AD  降低#VV  血压#NN  和#CC  减缓#VV  动脉#NN  粥样#NN  硬化#NN  速度#NN  的#DEC  神奇#JJ  作用#NN    。#PU    。#PU
+            孕妇#NN  在#P  妊娠期#NR  应#VV  多#AD  吃#VV  鱼类#NN  ，#PU  如#P  沙丁鱼#NN  ，#PU  因为#P  沙丁鱼#NN  富含#VV  磷脂#NN    。#PU  同时#AD  沙丁鱼#NN  中#LC  的#DEG  磷脂#NN  对于#P  胎儿#NN  的#DEG  大脑#NN  发育#VV  具有#VV  促进#VV  的#DEC  有利#JJ  作用#NN    。#PU  除了#P  磷脂#NN  ，#PU  沙丁鱼#NN  还#AD  含有#VV  大量#CD  钙质#NN  ，#PU  尤其是#AD  鱼骨#VV  中#NR    。#PU  罐装#NN  沙丁鱼#NN  的#DEG  鱼骨#NN  很#AD  松软#VV  ，#PU  可以#VV  安全#AD  食用#VV    。#PU    。#PU
+            我们#PN  的#DEG  身体#NN  需要#VV  足够#VA  的#DEC  矿物质#NN  ，#PU  沙丁鱼#NN  也#AD  因#P  其#PN  丰富#VA  的#DEC  钙#NN  含量#NN  适合#VV  于#P  不同#JJ  年龄层#NN  的#DEG  人#NN    。#PU  如果#CS  我们#PN  每#DT  日#M  的#DEG  钙质#NN  摄取量#AD  不足#VA  的话#SP  ，#PU  持续#VV  的#DEC  缺钙#NN  会#VV  导致#VV  骨头#AD  脆弱#VA  ，#PU  而#CC  最终#AD  引起#VV  骨质#NN  疏松#NN    。#PU  对于#P  那些#DT  想吃#NN  沙丁鱼#NN  又#AD  讨厌#VV  鱼腥味#NN  的#DEC  人#NN  来说#VV  ，#PU  可以#VV  通过#P  煮熟#NN  的#DEG  沙丁鱼#NN  来#MSP  吸收#VV  氧化钙#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富有#VV, 沙丁鱼#NN)  (root, ROOT#null, 富有#VV)  (relcl, 价值#NN, 惊人#VA)  (mark, 惊人#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (dobj, 富有#VV, 价值#NN)  (nummod, 罐#M, 一#CD)  (clf, 沙丁鱼#NN, 罐#M)  (nsubj, 犹如#VV, 沙丁鱼#NN)  (conj, 富有#VV, 犹如#VV)  (nummod, 个#M, 一#CD)  (clf, 发电站#NN, 个#M)  (relcl, 发电站#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (dobj, 犹如#VV, 发电站#NN)  (advmod, 磷脂#VV, 富含#AD)  (conj, 富有#VV, 磷脂#VV)  (advmod, 钙#NN, 即#AD)  (nummod, 钙#NN, OMEGA-3#CD)  (conj, 钙#NN, 脂肪酸#NN)  (conj, 钙#NN, 蛋白质#NN)  (cc, 钙#NN, 和#CC)  (dobj, 磷脂#VV, 钙#NN)
+            (nn, 鱼类#NN, 咸水#NN)  (nsubj, 具有#VV, 鱼类#NN)  (relcl, 成分#NN, 具有#VV)  (nn, 心血管#NN, 保护#NN)  (dobj, 具有#VV, 心血管#NN)  (conj, 具有#VV, 健康#VA)  (mark, 具有#VV, 的#DEC)  (amod, 成分#NN, 特殊#JJ)  (nsubj, 磷脂#VV, 成分#NN)  (root, ROOT#null, 磷脂#VV)  (advmod, 脂肪酸#NN, 即#AD)  (nummod, 脂肪酸#NN, OMEGA-3#CD)  (dobj, 磷脂#VV, 脂肪酸#NN)   (case, 协会#NN, 根据#P)  (nn, 协会#NN, 美国#NR)  (nn, 协会#NN, 心血管#NN)  (assmod, 内容#NN, 协会#NN)  (case, 协会#NN, 的#DEG)  (nn, 内容#NN, 网站#NN)  (nsubj, 显示#VV, 内容#NN)  (root, ROOT#null, 显示#VV)  (det, 脂肪酸#NN, 这#DT)  (clf, 这#DT, 种#M)  (amod, 脂肪酸#NN, 特殊#JJ)  (nsubj, 减少#VV, 脂肪酸#NN)  (mmod, 减少#VV, 可以#VV)  (relcl, -LRB-#NN, 减少#VV)  (nn, 酸脂#NN, 甘油#NR)  (nummod, 酸脂#NN, 三#CD)  (dobj, 减少#VV, 酸脂#NN)  (mark, 减少#VV, 的#DEC)  (nn, -LRB-#NN, 产生#NN)  (ccomp, 显示#VV, 造成#VV)  (assmod, -RRB-#NN, 血栓#NN)  (case, 血栓#NN, 的#DEG)  (nn, -RRB-#NN, 有害#NN)  (nn, -RRB-#NN, 脂肪酸#NN)  (cc, 造成#VV, 并#CC)  (conj, 造成#VV, 有#VE)  (advmod, 降低#VV, 逐渐#AD)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 减缓#VV)  (nn, 速度#NN, 动脉#NN)  (nn, 速度#NN, 粥样#NN)  (nn, 速度#NN, 硬化#NN)  (dobj, 减缓#VV, 速度#NN)  (mark, 降低#VV, 的#DEC)  (amod, 作用#NN, 神奇#JJ)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 孕妇#NN)  (case, 妊娠期#NR, 在#P)  (prep, 吃#VV, 妊娠期#NR)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 鱼类#NN)  (case, 沙丁鱼#NN, 如#P)  (prep, 富含#VV, 沙丁鱼#NN)  (case, 沙丁鱼#NN, 因为#P)  (prep, 富含#VV, 沙丁鱼#NN)  (dep, 吃#VV, 富含#VV)  (dobj, 富含#VV, 磷脂#NN)   (advmod, 发育#VV, 同时#AD)  (assmod, 磷脂#NN, 沙丁鱼#NN)  (case, 沙丁鱼#NN, 中#LC)  (case, 沙丁鱼#NN, 的#DEG)  (nsubj, 发育#VV, 磷脂#NN)  (case, 大脑#NN, 对于#P)  (assmod, 大脑#NN, 胎儿#NN)  (case, 胎儿#NN, 的#DEG)  (prep, 发育#VV, 大脑#NN)  (conj, 具有#VV, 发育#VV)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (mark, 促进#VV, 的#DEC)  (amod, 作用#NN, 有利#JJ)  (dobj, 具有#VV, 作用#NN)   (case, 磷脂#NN, 除了#P)  (prep, 含有#VV, 磷脂#NN)  (nsubj, 含有#VV, 沙丁鱼#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 钙质#NN, 大量#CD)  (dobj, 含有#VV, 钙质#NN)  (advmod, 鱼骨#VV, 尤其是#AD)  (conj, 含有#VV, 鱼骨#VV)  (dobj, 鱼骨#VV, 中#NR)   (nn, 沙丁鱼#NN, 罐装#NN)  (assmod, 鱼骨#NN, 沙丁鱼#NN)  (case, 沙丁鱼#NN, 的#DEG)  (nsubj, 松软#VV, 鱼骨#NN)  (xsubj, 食用#VV, 鱼骨#NN)  (advmod, 松软#VV, 很#AD)  (root, ROOT#null, 松软#VV)  (mmod, 食用#VV, 可以#VV)  (advmod, 食用#VV, 安全#AD)  (ccomp, 松软#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (assmod, 身体#NN, 我们#PN)  (case, 我们#PN, 的#DEG)  (nsubj, 需要#VV, 身体#NN)  (root, ROOT#null, 需要#VV)  (relcl, 矿物质#NN, 足够#VA)  (mark, 足够#VA, 的#DEC)  (dobj, 需要#VV, 矿物质#NN)  (nsubj, 适合#VV, 沙丁鱼#NN)  (advmod, 适合#VV, 也#AD)  (case, 含量#NN, 因#P)  (nsubj, 丰富#VA, 其#PN)  (relcl, 含量#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 含量#NN, 钙#NN)  (prep, 适合#VV, 含量#NN)  (conj, 需要#VV, 适合#VV)  (case, 年龄层#NN, 于#P)  (amod, 年龄层#NN, 不同#JJ)  (assmod, 人#NN, 年龄层#NN)  (case, 年龄层#NN, 的#DEG)  (dobj, 适合#VV, 人#NN)   (advmod, 不足#VA, 如果#CS)  (nn, 钙质#NN, 我们#PN)  (assmod, 钙质#NN, 每#DT)  (clf, 每#DT, 日#M)  (case, 每#DT, 的#DEG)  (nsubj, 不足#VA, 钙质#NN)  (advmod, 不足#VA, 摄取量#AD)  (dep, 会#VV, 不足#VA)  (dep, 不足#VA, 的话#SP)  (relcl, 缺钙#NN, 持续#VV)  (mark, 持续#VV, 的#DEC)  (nsubj, 会#VV, 缺钙#NN)  (dep, 导致#VV, 会#VV)  (root, ROOT#null, 导致#VV)  (advmod, 脆弱#VA, 骨头#AD)  (ccomp, 导致#VV, 脆弱#VA)  (cc, 脆弱#VA, 而#CC)  (advmod, 引起#VV, 最终#AD)  (dep, 脆弱#VA, 引起#VV)  (nn, 疏松#NN, 骨质#NN)  (dobj, 引起#VV, 疏松#NN)   (case, 沙丁鱼#NN, 对于#P)  (det, 想吃#NN, 那些#DT)  (nn, 沙丁鱼#NN, 想吃#NN)  (prep, 讨厌#VV, 沙丁鱼#NN)  (advmod, 讨厌#VV, 又#AD)  (relcl, 人#NN, 讨厌#VV)  (dobj, 讨厌#VV, 鱼腥味#NN)  (mark, 讨厌#VV, 的#DEC)  (nsubj, 来说#VV, 人#NN)  (xsubj, 吸收#VV, 人#NN)  (root, ROOT#null, 来说#VV)  (mmod, 吸收#VV, 可以#VV)  (case, 沙丁鱼#NN, 通过#P)  (assmod, 沙丁鱼#NN, 煮熟#NN)  (case, 煮熟#NN, 的#DEG)  (prep, 吸收#VV, 沙丁鱼#NN)  (prtmod, 吸收#VV, 来#MSP)  (ccomp, 来说#VV, 吸收#VV)  (dobj, 吸收#VV, 氧化钙#NN)
+        </parsing>
+
+        <tag>
+            价值惊人  富有价值  发电站营养  营养丰富  犹如发电站  磷脂钙  咸水鱼类  保护心血管  磷脂脂肪酸  心血管协会  网站内容  显示  特殊脂肪酸  减少酸脂  降低血压  动脉速度  粥样速度  硬化速度  减缓速度  富含磷脂  含有钙质  松软  矿物质足够  需要矿物质  不同年龄层  适合人  钙质不足  持续缺钙  导致  骨质疏松  讨厌人  讨厌鱼腥味  来说  吸收氧化钙  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            烹调方法多样，为更有效利用鱼中的DHA烹调尽量少用油炸。在烹调沙丁鱼时，可先将其用盐腌一下，然后再放入啤酒里煮30分钟，这样可去除沙丁鱼的腥臭味。
+        </rawdata>
+
+        <segment>
+            烹调  方法  多样  ，  为  更  有效  利用  鱼  中  的  DHA  烹调  尽量  少  用  油炸  。  在  烹调  沙丁鱼  时  ，  可  先  将  其  用  盐腌  一下  ，  然后  再  放入  啤酒  里  煮  30  分钟  ，  这样  可  去除  沙丁鱼  的  腥臭味  。
+        </segment>
+
+        <pos>
+            烹调#NN  方法#NN  多样#VA  ，#PU  为#P  更#AD  有效#VA  利用#VV  鱼#NN  中#LC  的#DEG  DHA#NN  烹调#NN  尽量#AD  少#VA  用#VV  油炸#NN    。#PU  在#P  烹调#NN  沙丁鱼#NN  时#LC  ，#PU  可#VV  先#AD  将#BA  其#PN  用#P  盐腌#NN  一下#AD  ，#PU  然后#AD  再#AD  放入#VV  啤酒#NN  里#LC  煮#VV  30#CD  分钟#M  ，#PU  这样#AD  可#VV  去除#VV  沙丁鱼#NN  的#DEG  腥臭味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 方法#NN, 烹调#NN)  (nsubj, 多样#VA, 方法#NN)  (conj, 用#VV, 多样#VA)  (case, 有效#VA, 为#P)  (advmod, 有效#VA, 更#AD)  (prep, 利用#VV, 有效#VA)  (relcl, 烹调#NN, 利用#VV)  (assmod, DHA#NN, 鱼#NN)  (case, 鱼#NN, 中#LC)  (case, 鱼#NN, 的#DEG)  (dobj, 利用#VV, DHA#NN)  (nsubj, 少#VA, 烹调#NN)  (advmod, 少#VA, 尽量#AD)  (conj, 多样#VA, 少#VA)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 油炸#NN)   (case, 沙丁鱼#NN, 在#P)  (nn, 沙丁鱼#NN, 烹调#NN)  (prep, 放入#VV, 沙丁鱼#NN)  (case, 沙丁鱼#NN, 时#LC)  (mmod, 放入#VV, 可#VV)  (advmod, 放入#VV, 先#AD)  (ba, 放入#VV, 将#BA)  (nsubj, 放入#VV, 其#PN)  (case, 盐腌#NN, 用#P)  (prep, 放入#VV, 盐腌#NN)  (advmod, 放入#VV, 一下#AD)  (advmod, 放入#VV, 然后#AD)  (advmod, 放入#VV, 再#AD)  (root, ROOT#null, 放入#VV)  (loc, 放入#VV, 啤酒#NN)  (case, 啤酒#NN, 里#LC)  (conj, 放入#VV, 煮#VV)  (nummod, 分钟#M, 30#CD)  (range, 煮#VV, 分钟#M)  (advmod, 去除#VV, 这样#AD)  (mmod, 去除#VV, 可#VV)  (dep, 放入#VV, 去除#VV)  (assmod, 腥臭味#NN, 沙丁鱼#NN)  (case, 沙丁鱼#NN, 的#DEG)  (dobj, 去除#VV, 腥臭味#NN)
+        </parsing>
+
+        <tag>
+            烹调方法  方法多样  利用烹调  利用DHA  去除腥臭味  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100947209626.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\96 沙丁鱼.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,150 @@
+<content>
+
+    <id>
+        666
+    </id>
+
+    <foodname>
+        高筋面粉
+    </foodname>
+
+    <firstcategory>
+        谷类
+    </firstcategory>
+
+    <secondcategory>
+        面
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                333.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                67.70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                1.80
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                11.60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维素(克)
+            </elename>
+            <elevalue>
+                5.50
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            高筋面粉的蛋白质含量平均为13.5%，通常蛋白质含量在11.5%以上就可叫做高筋面粉。蛋白质含量高，因此筋度强，多用来做面包等。
+        </rawdata>
+
+        <segment>
+            高筋  面粉  的  蛋白质  含量  平均  为  .  5%  ，  通常  蛋白质  含量  在  11.5%  以上  就  可  叫做  高筋  面粉  。  蛋白质  含量  高  ，  因此  筋度  强  ，  多用  来  做  面包  等  。
+        </segment>
+
+        <pos>
+            高筋#NN  面粉#NN  的#DEG  蛋白质#NN  含量#NN  平均#AD  为#P  .#VV  5#CD  %#NN  ，#PU  通常#AD  蛋白质#VV  含量#NN  在#P  11.5#CD  %#NN  以上#LC  就#AD  可#VV  叫做#VV  高筋#NN  面粉#NN    。#PU  蛋白质#NN  含量#NN  高#VA  ，#PU  因此#AD  筋度#AD  强#VA  ，#PU  多用#NR  来#MSP  做#VV  面包#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 面粉#NN, 高筋#NN)  (assmod, 含量#NN, 面粉#NN)  (case, 面粉#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 叫做#VV, 含量#NN)  (advmod, 叫做#VV, 平均#AD)  (case, .#VV, 为#P)  (nummod, %#NN, 5#CD)  (dobj, .#VV, %#NN)  (advmod, 蛋白质#VV, 通常#AD)  (conj, .#VV, 蛋白质#VV)  (dobj, 蛋白质#VV, 含量#NN)  (case, %#NN, 在#P)  (nummod, %#NN, 11.5#CD)  (prep, 叫做#VV, %#NN)  (case, %#NN, 以上#LC)  (advmod, 叫做#VV, 就#AD)  (mmod, 叫做#VV, 可#VV)  (root, ROOT#null, 叫做#VV)  (nn, 面粉#NN, 高筋#NN)  (dobj, 叫做#VV, 面粉#NN)   (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (advmod, 强#VA, 因此#AD)  (advmod, 强#VA, 筋度#AD)  (conj, 高#VA, 强#VA)  (nsubj, 做#VV, 多用#NR)  (prtmod, 做#VV, 来#MSP)  (conj, 高#VA, 做#VV)  (dobj, 做#VV, 面包#NN)  (etc, 面包#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            高筋面粉  叫做面粉  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养心、益肾、除热、止渴 主治脏躁、烦热、消渴、泄痢、痈肿、外伤出血及烫伤等。
+        </rawdata>
+
+        <segment>
+            养心  、  益肾  、  除热  、  止渴  主治  脏躁  、  烦热  、  消渴  、  泄痢  、  痈肿  、  外伤  出血  及  烫伤  等  。
+        </segment>
+
+        <pos>
+            养心#NR  、#PU  益肾#NR  、#PU  除热#NR  、#PU  止渴#NR  主治#NR  脏躁#NR  、#PU  烦热#NR  、#PU  消渴#NR  、#PU  泄痢#NR  、#PU  痈肿#NR  、#PU  外伤#NN  出血#VV  及#CC  烫伤#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 痈肿#NR, 养心#NR)  (conj, 痈肿#NR, 益肾#NR)  (conj, 痈肿#NR, 除热#NR)  (nn, 痈肿#NR, 止渴#NR)  (nn, 痈肿#NR, 主治#NR)  (conj, 痈肿#NR, 脏躁#NR)  (conj, 痈肿#NR, 烦热#NR)  (conj, 痈肿#NR, 消渴#NR)  (conj, 痈肿#NR, 泄痢#NR)  (conj, 外伤#NN, 痈肿#NR)  (nsubj, 出血#VV, 外伤#NN)  (root, ROOT#null, 出血#VV)  (cc, 出血#VV, 及#CC)  (conj, 出血#VV, 烫伤#VV)  (dep, 出血#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+            痈肿  养心  益肾  除热  脏躁  烦热  消渴  泄痢  出血  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374473179.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\666 高筋面粉.jpg
+    </picturelocalurl>
+
+</content>

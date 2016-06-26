@@ -1,0 +1,146 @@
+<content>
+
+    <id>
+        1350
+    </id>
+
+    <foodname>
+        干苔菜
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        苔条、条浒苔、干苔、石发、海苔、海苔菜、海青菜、海菜
+    </alias>
+
+    <season>
+        春、冬
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            苔菜为藻类植物一般生长在中潮带石沼中。苔菜我国沿海皆有分布
+        </rawdata>
+
+        <segment>
+            苔菜  为  藻类  植物  一般  生长  在  中潮  带  石沼  中  。  苔菜  我  国  沿海  皆  有  分布
+        </segment>
+
+        <pos>
+            苔菜#NN  为#P  藻类#JJ  植物#NN  一般#JJ  生长#NN  在#P  中潮#NR  带#VV  石沼#NN  中#LC  。#PU  苔菜#VV  我#PN  国#NN  沿海#NN  皆#AD  有#VE  分布#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 苔菜#VV, 苔菜#NN)  (case, 带#VV, 为#P)  (amod, 植物#NN, 藻类#JJ)  (nn, 生长#NN, 植物#NN)  (amod, 生长#NN, 一般#JJ)  (dep, 带#VV, 生长#NN)  (case, 中潮#NR, 在#P)  (prep, 带#VV, 中潮#NR)  (prep, 苔菜#VV, 带#VV)  (loc, 带#VV, 石沼#NN)  (case, 石沼#NN, 中#LC)  (root, ROOT#null, 苔菜#VV)  (nn, 国#NN, 我#PN)  (dobj, 苔菜#VV, 国#NN)  (nsubj, 有#VE, 沿海#NN)  (advmod, 有#VE, 皆#AD)  (conj, 苔菜#VV, 有#VE)  (dobj, 有#VE, 分布#NN)
+        </parsing>
+
+        <tag>
+            藻类植物  植物生长  一般生长  苔菜国  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            苔菜是高蛋白、高膳食纤维、低脂肪、低能量，且富含矿物质和维生素的天然理想营养食品的原料。
+        </rawdata>
+
+        <segment>
+            苔菜  是  高蛋白  、  高  膳食  纤维  、  低  脂肪  、  低  能量  ，  且  富含  矿物质  和  维生素  的  天然  理想  营养  食品  的  原料  。
+        </segment>
+
+        <pos>
+            苔菜#NN  是#VC  高蛋白#NN  、#PU  高#JJ  膳食#NN  纤维#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  能量#NN  ，#PU  且#CC  富含#VV  矿物质#NN  和#CC  维生素#NN  的#DEG  天然#JJ  理想#VA  营养#VA  食品#NN  的#DEC  原料#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 能量#NN, 苔菜#NN)  (cop, 能量#NN, 是#VC)  (conj, 能量#NN, 高蛋白#NN)  (amod, 膳食#NN, 高#JJ)  (nn, 纤维#NN, 膳食#NN)  (conj, 能量#NN, 纤维#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 能量#NN, 脂肪#NN)  (amod, 能量#NN, 低#JJ)  (root, ROOT#null, 能量#NN)  (cc, 能量#NN, 且#CC)  (conj, 能量#NN, 富含#VV)  (conj, 维生素#NN, 矿物质#NN)  (cc, 维生素#NN, 和#CC)  (assmod, 原料#NN, 维生素#NN)  (case, 维生素#NN, 的#DEG)  (amod, 原料#NN, 天然#JJ)  (relcl, 原料#NN, 理想#VA)  (comod, 理想#VA, 营养#VA)  (dobj, 理想#VA, 食品#NN)  (mark, 理想#VA, 的#DEC)  (dobj, 富含#VV, 原料#NN)
+        </parsing>
+
+        <tag>
+            高蛋白  高膳食  膳食纤维  低脂肪  低能量  维生素  矿物质  天然原料  原料理想  营养理想  理想食品  富含原料  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        消食积  化痰  消肿毒  软坚散结  辅助降血压  辅助降血脂
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.新鲜苔条晒干后可以吃.把它切碎磨细后,撒在糕饼点心中有一股特殊香味;
+            2.条苔菜是沿海人民常采持食用或用作饲料的藻类,可以鲜食,也可晒干贮存,也可以烹食。还有人民把苔条拌入面粉中作苔条饼，既增色又具独特的清香味;
+            3.苔菜的纤维质有解毒烟碱的作用，对吸烟者有好处。条苔菜含碘较多。
+        </rawdata>
+
+        <segment>
+            新鲜  苔条  晒干  后  可以  吃  .  把  它  切碎  磨细  后  ,  撒在  糕饼  点  心中  有  一  股  特殊  香味  ;
+            条苔菜  是  沿海  人民  常  采持  食用  或  用作  饲料  的  藻类  ,  可以  鲜食  ,  也可  晒干  贮存  ,  也可以  烹食  。  还有  人民  把  苔条  拌入  面粉  中  作苔  条  饼  ，  既  增色  又  具  独特  的  清香味  ;
+            苔菜  的  纤维质  有  解毒  烟碱  的  作用  ，  对  吸烟者  有  好处  。  条苔  菜  含碘  较  多  。
+        </segment>
+
+        <pos>
+            新鲜#JJ  苔条#NN  晒干#NN  后#LC  可以#VV  吃#VV  .#NN  把#BA  它#PN  切碎#NN  磨细#NN  后#LC  ,#AD  撒在#VV  糕饼#CD  点#M  心中#AD  有#VE  一#CD  股#M  特殊#JJ  香味#NN  ;#NN
+            条苔菜#NN  是#VC  沿海#NN  人民#NN  常#AD  采持#AD  食用#VV  或#CC  用作#VV  饲料#NN  的#DEC  藻类#NN  ,#NN  可以#VV  鲜食#VV  ,#NN  也可#NN  晒干#NN  贮存#VV  ,#NN  也可以#NN  烹食#NN  。#PU  还有#AD  人民#NN  把#BA  苔条#NN  拌入#VV  面粉#NN  中#LC  作苔#CD  条#M  饼#NN  ，#PU  既#CC  增色#AD  又#AD  具#VV  独特#VA  的#DEC  清香味#NN  ;#NN
+            苔菜#NN  的#DEG  纤维质#NN  有#VE  解毒#NN  烟碱#NN  的#DEG  作用#NN  ，#PU  对#P  吸烟者#NN  有#VE  好处#NN    。#PU  条苔#NN  菜#NN  含碘#NN  较#AD  多#VA    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 苔条#NN, 新鲜#JJ)  (xsubj, 吃#VV, 苔条#NN)  (nsubj, 有#VE, 苔条#NN)  (loc, 吃#VV, 晒干#NN)  (case, 晒干#NN, 后#LC)  (mmod, 吃#VV, 可以#VV)  (conj, 有#VE, 吃#VV)  (ba, 撒在#VV, 把#BA)  (nsubj, 撒在#VV, 它#PN)  (nn, 磨细#NN, 切碎#NN)  (loc, 撒在#VV, 磨细#NN)  (case, 磨细#NN, 后#LC)  (conj, 吃#VV, 撒在#VV)  (nummod, 点#M, 糕饼#CD)  (range, 撒在#VV, 点#M)  (advmod, 有#VE, 心中#AD)  (root, ROOT#null, 有#VE)  (nummod, 股#M, 一#CD)  (clf, ;#NN, 股#M)  (amod, ;#NN, 特殊#JJ)  (nn, ;#NN, 香味#NN)  (dobj, 有#VE, ;#NN)
+            (nsubj, 人民#NN, 条苔菜#NN)  (cop, 人民#NN, 是#VC)  (nn, 人民#NN, 沿海#NN)  (root, ROOT#null, 人民#NN)  (advmod, 食用#VV, 常#AD)  (advmod, 食用#VV, 采持#AD)  (relcl, ,#NN, 食用#VV)  (cc, 食用#VV, 或#CC)  (dep, 食用#VV, 用作#VV)  (dobj, 用作#VV, 饲料#NN)  (mark, 食用#VV, 的#DEC)  (nn, ,#NN, 藻类#NN)  (mmod, 鲜食#VV, 可以#VV)  (conj, 人民#NN, 鲜食#VV)  (nn, 晒干#NN, 也可#NN)  (dobj, 鲜食#VV, 晒干#NN)  (dep, 鲜食#VV, 贮存#VV)  (nn, 烹食#NN, 也可以#NN)  (dobj, 贮存#VV, 烹食#NN)  (advmod, 拌入#VV, 还有#AD)  (nsubj, 拌入#VV, 人民#NN)  (ba, 拌入#VV, 把#BA)  (nsubj, 拌入#VV, 苔条#NN)  (conj, 人民#NN, 拌入#VV)  (dep, 饼#NN, 面粉#NN)  (case, 面粉#NN, 中#LC)  (nummod, 条#M, 作苔#CD)  (clf, 饼#NN, 条#M)  (dobj, 拌入#VV, 饼#NN)  (cc, 拌入#VV, 既#CC)  (advmod, 具#VV, 增色#AD)  (advmod, 具#VV, 又#AD)  (dep, 拌入#VV, 具#VV)  (relcl, ;#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, ;#NN, 清香味#NN)  (dobj, 具#VV, ;#NN)
+            (assmod, 纤维质#NN, 苔菜#NN)  (case, 苔菜#NN, 的#DEG)  (nsubj, 有#VE, 纤维质#NN)  (root, ROOT#null, 有#VE)  (nn, 烟碱#NN, 解毒#NN)  (assmod, 作用#NN, 烟碱#NN)  (case, 烟碱#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (case, 吸烟者#NN, 对#P)  (prep, 有#VE, 吸烟者#NN)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 好处#NN)   (nn, 含碘#NN, 条苔#NN)  (nn, 含碘#NN, 菜#NN)  (nsubj, 多#VA, 含碘#NN)  (advmod, 多#VA, 较#AD)  (root, ROOT#null, 多#VA)
+        </parsing>
+
+        <tag>
+            新鲜苔条  切碎磨细  沿海人民  用作饲料  鲜食晒干  贮存烹食  拌入饼  纤维质  解毒烟碱  条苔含碘  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/e6/b7/47078_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1350 干苔菜.jpg
+    </picturelocalurl>
+
+</content>

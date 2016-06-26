@@ -1,0 +1,442 @@
+<content>
+
+    <id>
+        281
+    </id>
+
+    <foodname>
+        绿豆芽
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆类
+    </secondcategory>
+
+    <alias>
+        巧芽、豆芽菜、如意菜、掐菜、银芽、银针、银苗、芽心
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 虚寒者#VV, 脾胃#NN)  (root, ROOT#null, 虚寒者#VV)  (dobj, 虚寒者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜便秘、心血管疾病、消化道癌症患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  便秘  、  心血管  疾病  、  消化道  癌症  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  便秘#NN  、#PU  心血管#NN  疾病#NN  、#PU  消化道#NN  癌症#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 癌症#NN, 便秘#NN)  (nn, 癌症#NN, 心血管#NN)  (conj, 癌症#NN, 疾病#NN)  (nn, 癌症#NN, 消化道#NN)  (nn, 患者#NN, 癌症#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  便秘  心血管疾病  消化道癌症  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                6.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                95.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            绿豆芽为豆科植物绿豆的种子浸罨后发出的嫩芽。食用芽菜是近年来的新时尚，芽菜中以绿豆芽最为便宜，而且营养丰富，是自然食用主义者所推崇的食品之一。绿豆在发芽的过程中，维生素C会增加很多，所以绿豆芽的营养价值比绿豆更大。
+            绿豆芽有很高的药用价值，据说第二次世界大战中，美国海军因无意中吃了受潮发芽的绿豆，竟治愈了困扰全军多日的坏血病，这是因为豆芽中含有丰富的维生素C。《本草纲目》：诸豆生芽、皆腥韧不堪，惟此豆之芽，白美独异，今人视为寻常，而古人未知者也。但受湿热郁浥之气，故颇发疮动气，与绿豆之性，稍有不同。
+        </rawdata>
+
+        <segment>
+            绿豆  芽  为  豆科  植物  绿豆  的  种子  浸罨  后  发出  的  嫩芽  。  食用  芽  菜  是  近年  来  的  新  时尚  ，  芽  菜  中  以  绿豆  芽  最为  便宜  ，  而且  营养  丰富  ，  是  自然  食用  主义者  所  推崇  的  食品  之一  。  绿豆  在  发芽  的  过程  中  ，  维生素C  会  增加  很多  ，  所以  绿豆  芽  的  营养  价值  比  绿豆  更  大  。
+            绿豆  芽  有  很  高  的  药用  价值  ，  据说  第二  次  世界  大战  中  ，  美国  海军  因  无意  中  吃  了  受潮  发芽  的  绿豆  ，  竟  治愈  了  困扰  全  军  多日  的  坏血病  ，  这  是  因为  豆芽  中  含有  丰富  的  维生素C  。  《  本草  纲目  》  ：  诸豆生芽  、  皆  腥  韧  不堪  ，  惟此豆之芽  ，  白  美  独异  ，  今人  视为  寻常  ，  而  古人  未  知者  也  。  但  受  湿热  郁浥之气  ，  故  颇  发疮  动气  ，  与  绿豆  之  性  ，  稍有  不同  。
+        </segment>
+
+        <pos>
+            绿豆#NN  芽#VV  为#P  豆科#NN  植物#NN  绿豆#NN  的#DEG  种子#NN  浸罨#NN  后#LC  发出#VV  的#DEC  嫩芽#NN    。#PU  食用#VV  芽#NN  菜#NN  是#VC  近年#NT  来#LC  的#DEG  新#JJ  时尚#NN  ，#PU  芽#NN  菜#NN  中#LC  以#P  绿豆#NN  芽#NN  最为#AD  便宜#VA  ，#PU  而且#CC  营养#VA  丰富#VA  ，#PU  是#VC  自然#AD  食用#VV  主义者#CD  所#M  推崇#NN  的#DEC  食品#NN  之一#NN    。#PU  绿豆#NN  在#P  发芽#NN  的#DEG  过程#NN  中#LC  ，#PU  维生素C#AD  会#VV  增加#VV  很多#CD  ，#PU  所以#AD  绿豆#NN  芽#NN  的#DEG  营养#VA  价值#NN  比#P  绿豆#NN  更#AD  大#VA    。#PU    。#PU
+            绿豆#NN  芽#AD  有#VE  很#AD  高#VA  的#DEC  药用#JJ  价值#NN  ，#PU  据说#AD  第二#OD  次#M  世界#NN  大战#NN  中#LC  ，#PU  美国#NR  海军#NN  因#P  无意#VV  中#NR  吃#VV  了#AS  受潮#NN  发芽#NN  的#DEG  绿豆#NN  ，#PU  竟#AD  治愈#VV  了#AS  困扰#VV  全#DT  军#NN  多日#NN  的#DEC  坏血病#NN  ，#PU  这#PN  是#VC  因为#P  豆芽#NN  中#LC  含有#AD  丰富#VA  的#DEC  维生素C#NN    。#PU  本草#NN  纲目#NN  ：#PU  诸豆生芽#AD  、#PU  皆#AD  腥#VV  韧#NN  不堪#NN  ，#PU  惟此豆之芽#VV  ，#PU  白#NR  美#NR  独异#NN  ，#PU  今人#AD  视为#VV  寻常#NN  ，#PU  而#CC  古人#AD  未#AD  知者#VV  也#AD    。#PU  但#AD  受#VV  湿热#NN  郁浥之气#NN  ，#PU  故#AD  颇#AD  发疮#VV  动气#NN  ，#PU  与#P  绿豆#NN  之#DEG  性#NN  ，#PU  稍有#NN  不同#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 芽#VV, 绿豆#NN)  (root, ROOT#null, 芽#VV)  (case, 浸罨#NN, 为#P)  (nn, 绿豆#NN, 豆科#NN)  (nn, 绿豆#NN, 植物#NN)  (assmod, 浸罨#NN, 绿豆#NN)  (case, 绿豆#NN, 的#DEG)  (nn, 浸罨#NN, 种子#NN)  (prep, 发出#VV, 浸罨#NN)  (case, 浸罨#NN, 后#LC)  (relcl, 嫩芽#NN, 发出#VV)  (mark, 发出#VV, 的#DEC)  (dobj, 芽#VV, 嫩芽#NN)   (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 芽#NN)  (nsubj, 时尚#NN, 菜#NN)  (cop, 时尚#NN, 是#VC)  (assmod, 时尚#NN, 近年#NT)  (case, 近年#NT, 来#LC)  (case, 近年#NT, 的#DEG)  (amod, 时尚#NN, 新#JJ)  (dep, 食用#VV, 时尚#NN)  (nn, 菜#NN, 芽#NN)  (loc, 便宜#VA, 菜#NN)  (case, 菜#NN, 中#LC)  (case, 芽#NN, 以#P)  (nn, 芽#NN, 绿豆#NN)  (prep, 便宜#VA, 芽#NN)  (advmod, 便宜#VA, 最为#AD)  (conj, 时尚#NN, 便宜#VA)  (cc, 便宜#VA, 而且#CC)  (dep, 便宜#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 之一#NN, 是#VC)  (advmod, 食用#VV, 自然#AD)  (relcl, 之一#NN, 食用#VV)  (nummod, 所#M, 主义者#CD)  (clf, 推崇#NN, 所#M)  (dobj, 食用#VV, 推崇#NN)  (mark, 食用#VV, 的#DEC)  (nn, 之一#NN, 食品#NN)  (conj, 时尚#NN, 之一#NN)   (nsubj, 增加#VV, 绿豆#NN)  (case, 过程#NN, 在#P)  (assmod, 过程#NN, 发芽#NN)  (case, 发芽#NN, 的#DEG)  (prep, 增加#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (advmod, 增加#VV, 维生素C#AD)  (mmod, 增加#VV, 会#VV)  (root, ROOT#null, 增加#VV)  (range, 增加#VV, 很多#CD)  (advmod, 大#VA, 所以#AD)  (nn, 芽#NN, 绿豆#NN)  (assmod, 价值#NN, 芽#NN)  (case, 芽#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 大#VA, 价值#NN)  (case, 绿豆#NN, 比#P)  (prep, 大#VA, 绿豆#NN)  (advmod, 大#VA, 更#AD)  (conj, 增加#VV, 大#VA)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 绿豆#NN)  (advmod, 有#VE, 芽#AD)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 很#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 有#VE, 价值#NN)  (advmod, 治愈#VV, 据说#AD)  (ordmod, 次#M, 第二#OD)  (clf, 大战#NN, 次#M)  (nn, 大战#NN, 世界#NN)  (loc, 治愈#VV, 大战#NN)  (case, 大战#NN, 中#LC)  (nn, 海军#NN, 美国#NR)  (nsubj, 治愈#VV, 海军#NN)  (case, 无意#VV, 因#P)  (prep, 治愈#VV, 无意#VV)  (nsubj, 吃#VV, 中#NR)  (ccomp, 无意#VV, 吃#VV)  (asp, 吃#VV, 了#AS)  (nn, 发芽#NN, 受潮#NN)  (assmod, 绿豆#NN, 发芽#NN)  (case, 发芽#NN, 的#DEG)  (dobj, 吃#VV, 绿豆#NN)  (advmod, 治愈#VV, 竟#AD)  (conj, 有#VE, 治愈#VV)  (asp, 治愈#VV, 了#AS)  (relcl, 坏血病#NN, 困扰#VV)  (det, 军#NN, 全#DT)  (nn, 多日#NN, 军#NN)  (dobj, 困扰#VV, 多日#NN)  (mark, 困扰#VV, 的#DEC)  (dobj, 治愈#VV, 坏血病#NN)  (nsubj, 维生素C#NN, 这#PN)  (cop, 维生素C#NN, 是#VC)  (case, 豆芽#NN, 因为#P)  (prep, 丰富#VA, 豆芽#NN)  (case, 豆芽#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 有#VE, 维生素C#NN)   (nn, 纲目#NN, 本草#NN)  (nsubj, 腥#VV, 纲目#NN)  (advmod, 腥#VV, 诸豆生芽#AD)  (conj, 诸豆生芽#AD, 皆#AD)  (root, ROOT#null, 腥#VV)  (nn, 不堪#NN, 韧#NN)  (dobj, 腥#VV, 不堪#NN)  (conj, 腥#VV, 惟此豆之芽#VV)  (nn, 美#NR, 白#NR)  (nn, 独异#NN, 美#NR)  (nsubj, 视为#VV, 独异#NN)  (advmod, 视为#VV, 今人#AD)  (ccomp, 惟此豆之芽#VV, 视为#VV)  (dobj, 视为#VV, 寻常#NN)  (cc, 视为#VV, 而#CC)  (advmod, 知者#VV, 古人#AD)  (advmod, 知者#VV, 未#AD)  (dep, 视为#VV, 知者#VV)  (advmod, 知者#VV, 也#AD)   (advmod, 发疮#VV, 但#AD)  (dep, 发疮#VV, 受#VV)  (nn, 郁浥之气#NN, 湿热#NN)  (dobj, 受#VV, 郁浥之气#NN)  (advmod, 发疮#VV, 故#AD)  (advmod, 发疮#VV, 颇#AD)  (root, ROOT#null, 发疮#VV)  (dobj, 发疮#VV, 动气#NN)  (case, 性#NN, 与#P)  (assmod, 性#NN, 绿豆#NN)  (case, 绿豆#NN, 之#DEG)  (prep, 不同#VA, 性#NN)  (nsubj, 不同#VA, 稍有#NN)  (dep, 发疮#VV, 不同#VA)
+        </parsing>
+
+        <tag>
+            豆科绿豆  植物绿豆  种子浸罨  发出嫩芽  食用芽  新时尚  营养丰富  食用推崇  增加  药用价值  世界大战  受潮发芽  困扰坏血病  困扰多日  治愈坏血病  维生素C丰富  本草纲目  视为寻常  湿热郁浥之气  发疮动气  稍有不同  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            绿豆芽性凉味甘，不仅能清暑热、通经脉、解诸毒，还能补肾、利尿、消肿、滋阴壮阳，调五脏、美肌肤、利湿热，适用于湿热郁滞、食少体倦、热病烦渴、大便秘结、小便不利、目赤肿痛、口鼻生疮等患者，还能降血脂和软化血管。
+            1.清热解暑
+            中医认为经常食用绿豆芽可清热解毒，利尿除湿，解酒毒热毒。
+            2.消除紧张
+            具有保护肌肉、皮肤、血管的作用，消除紧张综合征。
+            3.治疗口腔溃疡
+            绿豆芽中含有核黄素，口腔溃疡的人很适合食用。
+            4.防治便秘
+            绿豆芽富含膳食纤维，是便秘患者的健康蔬菜，有预防消化道癌症（食道癌、胃癌、直肠癌）的功效。
+            5.减少胆固醇的堆积
+            它有清除血管壁中胆固醇和脂肪的堆积、防止心血管病变的作用。
+        </rawdata>
+
+        <segment>
+            绿豆  芽  性  凉  味甘  ，  不仅  能  清  暑热  、  通  经脉  、  解诸毒  ，  还  能  补肾  、  利尿  、  消肿  、  滋阴壮阳  ，  调  五脏  、  美  肌肤  、  利湿  热  ，  适用于  湿热  郁滞  、  食少  体倦  、  热病  烦渴  、  大便  秘结  、  小便  不利  、  目赤  肿痛  、  口鼻  生疮  等  患者  ，  还  能  降  血脂  和  软化  血管  。
+            清热  解暑
+            中医  认为  经常  食用  绿豆  芽  可  清热  解毒  ，  利尿  除湿  ，  解酒  毒  热  毒  。
+            消除  紧张
+            具有  保护  肌肉  、  皮肤  、  血管  的  作用  ，  消除  紧张  综合  征  。
+            治疗  口腔  溃疡
+            绿豆  芽  中  含有  核黄素  ，  口腔  溃疡  的  人  很  适合  食用  。
+            防治  便秘
+            绿豆  芽  富含  膳食  纤维  ，  是  便秘  患者  的  健康  蔬菜  ，  有  预防  消化道  癌症  （  食道癌  、  胃癌  、  直肠癌  ）  的  功效  。
+            减少  胆固醇  的  堆积
+            它  有  清除  血  管壁  中  胆固醇  和  脂肪  的  堆积  、  防止  心血管病  变的  作用  。
+        </segment>
+
+        <pos>
+            绿豆#NN  芽#NN  性#NN  凉#VV  味甘#NN  ，#PU  不仅#CC  能#VV  清#JJ  暑热#NN  、#PU  通#VV  经脉#NN  、#PU  解诸毒#VV  ，#PU  还#AD  能#VV  补肾#NR  、#PU  利尿#NR  、#PU  消肿#NR  、#PU  滋阴壮阳#NR  ，#PU  调#VV  五脏#CD  、#PU  美#NR  肌肤#NN  、#PU  利湿#NN  热#NN  ，#PU  适用于#VV  湿热#NN  郁滞#NN  、#PU  食少#NN  体倦#NN  、#PU  热病#NN  烦渴#NN  、#PU  大便#NN  秘结#NN  、#PU  小便#AD  不利#VA  、#PU  目赤#NN  肿痛#NN  、#PU  口鼻#NN  生疮#NN  等#ETC  患者#NN  ，#PU  还#AD  能#VV  降#NN  血脂#NN  和#CC  软化#NN  血管#NN  。#PU
+            清热#NN  解暑#VV
+            中医#NN  认为#VV  经常#AD  食用#VV  绿豆#NN  芽#NN  可#VV  清热#VV  解毒#NN  ，#PU  利尿#VV  除湿#NN  ，#PU  解酒#AD  毒#VV  热#JJ  毒#NN  。#PU
+            消除#VV  紧张#NN
+            具有#VV  保护#VV  肌肉#NN  、#PU  皮肤#NN  、#PU  血管#NN  的#DEC  作用#NN  ，#PU  消除#VV  紧张#JJ  综合#NN  征#VV  。#PU
+            治疗#VV  口腔#NN  溃疡#NN
+            绿豆#NN  芽#NN  中#LC  含有#NR  核黄素#VV  ，#PU  口腔#NN  溃疡#NN  的#DEG  人#NN  很#AD  适合#VV  食用#VV  。#PU
+            防治#VV  便秘#NN
+            绿豆#NN  芽#NN  富含#NN  膳食#NN  纤维#NN  ，#PU  是#VC  便秘#NN  患者#NN  的#DEG  健康#JJ  蔬菜#NN  ，#PU  有#VE  预防#VV  消化道#JJ  癌症#NN  （#PU  食道癌#NR  、#PU  胃癌#NR  、#PU  直肠癌#NR  ）#PU  的#DEC  功效#NN  。#PU
+            减少#VV  胆固醇#NN  的#DEG  堆积#NN
+            它#PN  有#VE  清除#VV  血#NN  管壁#NN  中#LC  胆固醇#NN  和#CC  脂肪#NN  的#DEC  堆积#NN  、#PU  防止#VV  心血管病#VV  变的#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 性#NN, 绿豆#NN)  (nn, 性#NN, 芽#NN)  (nsubj, 凉#VV, 性#NN)  (root, ROOT#null, 凉#VV)  (dobj, 凉#VV, 味甘#NN)  (cc, 凉#VV, 不仅#CC)  (conj, 凉#VV, 能#VV)  (amod, 暑热#NN, 清#JJ)  (dobj, 能#VV, 暑热#NN)  (conj, 凉#VV, 通#VV)  (dobj, 通#VV, 经脉#NN)  (conj, 凉#VV, 解诸毒#VV)  (advmod, 能#VV, 还#AD)  (conj, 凉#VV, 能#VV)  (conj, 滋阴壮阳#NR, 补肾#NR)  (conj, 滋阴壮阳#NR, 利尿#NR)  (conj, 滋阴壮阳#NR, 消肿#NR)  (dobj, 能#VV, 滋阴壮阳#NR)  (conj, 凉#VV, 调#VV)  (nummod, 热#NN, 五脏#CD)  (nn, 肌肤#NN, 美#NR)  (conj, 热#NN, 肌肤#NN)  (nn, 热#NN, 利湿#NN)  (dobj, 调#VV, 热#NN)  (conj, 凉#VV, 适用于#VV)  (nn, 郁滞#NN, 湿热#NN)  (dep, 患者#NN, 郁滞#NN)  (nn, 体倦#NN, 食少#NN)  (conj, 郁滞#NN, 体倦#NN)  (nn, 烦渴#NN, 热病#NN)  (conj, 郁滞#NN, 烦渴#NN)  (nn, 秘结#NN, 大便#NN)  (conj, 郁滞#NN, 秘结#NN)  (advmod, 不利#VA, 小便#AD)  (conj, 郁滞#NN, 不利#VA)  (nn, 肿痛#NN, 目赤#NN)  (conj, 郁滞#NN, 肿痛#NN)  (nn, 生疮#NN, 口鼻#NN)  (dep, 郁滞#NN, 生疮#NN)  (etc, 生疮#NN, 等#ETC)  (dobj, 适用于#VV, 患者#NN)  (advmod, 能#VV, 还#AD)  (conj, 凉#VV, 能#VV)  (nn, 血管#NN, 降#NN)  (conj, 血管#NN, 血脂#NN)  (cc, 血管#NN, 和#CC)  (nn, 血管#NN, 软化#NN)  (dobj, 能#VV, 血管#NN)
+            (nsubj, 解暑#VV, 清热#NN)  (root, ROOT#null, 解暑#VV)
+            (nsubj, 认为#VV, 中医#NN)  (xsubj, 食用#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (advmod, 食用#VV, 经常#AD)  (ccomp, 认为#VV, 食用#VV)  (nn, 芽#NN, 绿豆#NN)  (dobj, 食用#VV, 芽#NN)  (mmod, 清热#VV, 可#VV)  (dep, 认为#VV, 清热#VV)  (dobj, 清热#VV, 解毒#NN)  (conj, 清热#VV, 利尿#VV)  (dobj, 利尿#VV, 除湿#NN)  (advmod, 毒#VV, 解酒#AD)  (conj, 清热#VV, 毒#VV)  (amod, 毒#NN, 热#JJ)  (dobj, 毒#VV, 毒#NN)
+            (root, ROOT#null, 消除#VV)  (dobj, 消除#VV, 紧张#NN)
+            (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 保护#VV)  (conj, 血管#NN, 肌肉#NN)  (conj, 血管#NN, 皮肤#NN)  (dobj, 保护#VV, 血管#NN)  (mark, 保护#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (conj, 具有#VV, 消除#VV)  (amod, 综合#NN, 紧张#JJ)  (dobj, 消除#VV, 综合#NN)  (conj, 消除#VV, 征#VV)
+            (root, ROOT#null, 治疗#VV)  (nn, 溃疡#NN, 口腔#NN)  (dobj, 治疗#VV, 溃疡#NN)
+            (nn, 芽#NN, 绿豆#NN)  (loc, 核黄素#VV, 芽#NN)  (case, 芽#NN, 中#LC)  (nsubj, 核黄素#VV, 含有#NR)  (root, ROOT#null, 核黄素#VV)  (nn, 溃疡#NN, 口腔#NN)  (assmod, 人#NN, 溃疡#NN)  (case, 溃疡#NN, 的#DEG)  (nsubj, 适合#VV, 人#NN)  (advmod, 适合#VV, 很#AD)  (ccomp, 核黄素#VV, 适合#VV)  (comod, 适合#VV, 食用#VV)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 便秘#NN)
+            (nn, 纤维#NN, 绿豆#NN)  (nn, 纤维#NN, 芽#NN)  (nn, 纤维#NN, 富含#NN)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 蔬菜#NN, 纤维#NN)  (cop, 蔬菜#NN, 是#VC)  (nn, 患者#NN, 便秘#NN)  (assmod, 蔬菜#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (amod, 蔬菜#NN, 健康#JJ)  (root, ROOT#null, 蔬菜#NN)  (conj, 蔬菜#NN, 有#VE)  (relcl, 功效#NN, 预防#VV)  (amod, 癌症#NN, 消化道#JJ)  (dobj, 预防#VV, 癌症#NN)  (conj, 直肠癌#NR, 食道癌#NR)  (conj, 直肠癌#NR, 胃癌#NR)  (prnmod, 癌症#NN, 直肠癌#NR)  (mark, 预防#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 减少#VV)  (assmod, 堆积#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 减少#VV, 堆积#NN)
+            (nsubj, 有#VE, 它#PN)  (root, ROOT#null, 有#VE)  (relcl, 堆积#NN, 清除#VV)  (nn, 管壁#NN, 血#NN)  (dep, 脂肪#NN, 管壁#NN)  (case, 管壁#NN, 中#LC)  (conj, 脂肪#NN, 胆固醇#NN)  (cc, 脂肪#NN, 和#CC)  (dobj, 清除#VV, 脂肪#NN)  (mark, 清除#VV, 的#DEC)  (dobj, 有#VE, 堆积#NN)  (conj, 有#VE, 防止#VV)  (ccomp, 防止#VV, 心血管病#VV)  (amod, 作用#NN, 变的#JJ)  (dobj, 心血管病#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            清暑热  滋阴壮阳  补肾  消肿  湿热郁滞  食少体倦  热病烦渴  大便秘结  目赤肿痛  口鼻生疮  适用于患者  血脂  软化血管  解暑  食用芽  清热解毒  利尿除湿  热毒  消除紧张  肌肉  皮肤  保护血管  紧张综合  消除综合  口腔溃疡  治疗溃疡  防治便秘  绿豆纤维  富含纤维  膳食纤维  便秘患者  健康蔬菜  预防功效  消化道癌症  预防癌症  直肠癌  食道癌  胃癌  胆固醇  减少堆积  清除堆积  清除脂肪  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  减肥  抗癌防癌  解毒  利水  清暑
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.绿豆芽热量较低，水分和膳食纤维较高。
+            2.绿豆芽中除了含有在发芽过程中生成的维生素C以外，还含有原来豆中所含有的优质植物性蛋白和维生素B1、维生素B2、钙、钾、磷和铁等丰富的矿物质。
+            3.豆类发芽时在种子内部贮存的部分淀粉和蛋白质在酶的作用下分解，转化成自身生长所需的糖类和氨基酸，使豆类中的淀粉和蛋白质利用率大大提高。
+        </rawdata>
+
+        <segment>
+            绿豆  芽  热量  较  低  ，  水分  和  膳食  纤维  较  高  。
+            绿豆  芽  中  除了  含有  在  发芽  过程  中  生成  的  维生素C  以外  ，  还  含有  原来  豆中  所含  有的  优质  植物性  蛋白  和  维生素  B  维生素B2  、  钙  、  钾  、  磷  和  铁  等  丰富  的  矿物质  。
+            豆类  发芽  时  在  种子  内部  贮存  的  部分  淀粉  和  蛋白质  在  酶的  作用  下  分解  ，  转化  成  自身  生长  所  需  的  糖类  和  氨基酸  ，  使  豆类  中  的  淀粉  和  蛋白质  利用率  大大  提高  。
+        </segment>
+
+        <pos>
+            绿豆#NN  芽#NN  热量#NN  较#AD  低#VA  ，#PU  水分#NN  和#CC  膳食#NN  纤维#NN  较#AD  高#VA  。#PU
+            绿豆#NN  芽#NN  中#LC  除了#P  含有#AD  在#P  发芽#NN  过程#NN  中#LC  生成#VV  的#DEC  维生素C#NN  以外#LC  ，#PU  还#AD  含有#VV  原来#JJ  豆中#NN  所含#VV  有的#PN  优质#JJ  植物性#NN  蛋白#NN  和#CC  维生素#NN  B#VV  维生素B2#CD  、#PU  钙#NN  、#PU  钾#NN  、#PU  磷#NN  和#CC  铁#NN  等#ETC  丰富#VA  的#DEC  矿物质#NN  。#PU
+            豆类#VV  发芽#NN  时#LC  在#P  种子#NN  内部#NN  贮存#VV  的#DEC  部分#CD  淀粉#NN  和#CC  蛋白质#NN  在#P  酶的#NN  作用#NN  下#LC  分解#VV  ，#PU  转化#VV  成#VV  自身#PN  生长#NN  所#MSP  需#VV  的#DEC  糖类#NN  和#CC  氨基酸#NN  ，#PU  使#VV  豆类#NN  中#LC  的#DEG  淀粉#NN  和#CC  蛋白质#NN  利用率#NN  大大#AD  提高#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 热量#NN, 绿豆#NN)  (nn, 热量#NN, 芽#NN)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 较#AD)  (root, ROOT#null, 低#VA)  (conj, 膳食#NN, 水分#NN)  (cc, 膳食#NN, 和#CC)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 高#VA, 纤维#NN)  (advmod, 高#VA, 较#AD)  (conj, 低#VA, 高#VA)
+            (nn, 芽#NN, 绿豆#NN)  (loc, 所含#VV, 芽#NN)  (case, 芽#NN, 中#LC)  (case, 维生素C#NN, 除了#P)  (advmod, 生成#VV, 含有#AD)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 发芽#NN)  (prep, 生成#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (relcl, 维生素C#NN, 生成#VV)  (mark, 生成#VV, 的#DEC)  (prep, 所含#VV, 维生素C#NN)  (case, 维生素C#NN, 以外#LC)  (advmod, 含有#VV, 还#AD)  (conj, 所含#VV, 含有#VV)  (amod, 豆中#NN, 原来#JJ)  (dobj, 含有#VV, 豆中#NN)  (root, ROOT#null, 所含#VV)  (nsubj, B#VV, 有的#PN)  (amod, 植物性#NN, 优质#JJ)  (nn, 维生素#NN, 植物性#NN)  (conj, 维生素#NN, 蛋白#NN)  (cc, 维生素#NN, 和#CC)  (nsubj, B#VV, 维生素#NN)  (relcl, 矿物质#NN, B#VV)  (range, B#VV, 维生素B2#CD)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 钾#NN)  (conj, 铁#NN, 磷#NN)  (cc, 铁#NN, 和#CC)  (nsubj, 丰富#VA, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, B#VV, 丰富#VA)  (mark, B#VV, 的#DEC)  (dobj, 所含#VV, 矿物质#NN)
+            (loc, 贮存#VV, 豆类#VV)  (dobj, 豆类#VV, 发芽#NN)  (case, 豆类#VV, 时#LC)  (case, 内部#NN, 在#P)  (nn, 内部#NN, 种子#NN)  (prep, 贮存#VV, 内部#NN)  (relcl, 蛋白质#NN, 贮存#VV)  (mark, 贮存#VV, 的#DEC)  (nummod, 蛋白质#NN, 部分#CD)  (conj, 蛋白质#NN, 淀粉#NN)  (cc, 蛋白质#NN, 和#CC)  (nsubj, 分解#VV, 蛋白质#NN)  (case, 作用#NN, 在#P)  (nn, 作用#NN, 酶的#NN)  (prep, 分解#VV, 作用#NN)  (case, 作用#NN, 下#LC)  (root, ROOT#null, 分解#VV)  (conj, 分解#VV, 转化#VV)  (relcl, 氨基酸#NN, 成#VV)  (nn, 生长#NN, 自身#PN)  (dobj, 成#VV, 生长#NN)  (prtmod, 需#VV, 所#MSP)  (conj, 成#VV, 需#VV)  (mark, 成#VV, 的#DEC)  (conj, 氨基酸#NN, 糖类#NN)  (cc, 氨基酸#NN, 和#CC)  (dobj, 转化#VV, 氨基酸#NN)  (conj, 分解#VV, 使#VV)  (assmod, 利用率#NN, 豆类#NN)  (case, 豆类#NN, 中#LC)  (case, 豆类#NN, 的#DEG)  (conj, 利用率#NN, 淀粉#NN)  (cc, 利用率#NN, 和#CC)  (nn, 利用率#NN, 蛋白质#NN)  (dobj, 使#VV, 利用率#NN)  (advmod, 提高#VV, 大大#AD)  (dep, 使#VV, 提高#VV)
+        </parsing>
+
+        <tag>
+            绿豆热量  水分  膳食纤维  发芽过程  生成维生素C  原来豆中  含有豆中  优质植物性  植物性维生素  B矿物质  铁丰富  所含矿物质  豆类发芽  种子内部  贮存蛋白质  淀粉  分解  成氨基酸  糖类  转化氨基酸  蛋白质利用率  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.绿豆芽性寒，烹调时应配上一点姜丝，以中和它的寒性，十分适于夏季食用。
+            2.烹调时油盐不宜过多，要尽量保持其清淡的性味和爽口的特点。
+            3.炒绿豆芽时，可适当加些醋，以保存水分和维生素C。
+        </rawdata>
+
+        <segment>
+            绿豆  芽  性寒  ，  烹调  时  应  配上  一点  姜丝  ，  以  中和  它  的  寒性  ，  十分  适于  夏季  食用  。
+            烹调  时  油盐  不  宜  过多  ，  要  尽量  保持  其  清淡  的  性味  和  爽口  的  特点  。
+            炒  绿豆  芽  时  ，  可  适当  加些  醋  ，  以  保存  水分  和  维生素C  。
+        </segment>
+
+        <pos>
+            绿豆#NN  芽#NN  性寒#VV  ，#PU  烹调#NN  时#LC  应#VV  配上#VV  一点#CD  姜丝#NN  ，#PU  以#MSP  中和#VV  它#PN  的#DEG  寒性#NN  ，#PU  十分#AD  适于#VV  夏季#NT  食用#VV  。#PU
+            烹调#NN  时#LC  油盐#NN  不#AD  宜#NR  过多#VV  ，#PU  要#VV  尽量#VV  保持#VV  其#PN  清淡#VA  的#DEC  性味#NN  和#CC  爽口#NN  的#DEC  特点#NN  。#PU
+            炒#NN  绿豆#NN  芽#NN  时#LC  ，#PU  可#VV  适当#AD  加些#VV  醋#NN  ，#PU  以#MSP  保存#VV  水分#NN  和#CC  维生素C#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 芽#NN, 绿豆#NN)  (nsubj, 性寒#VV, 芽#NN)  (root, ROOT#null, 性寒#VV)  (loc, 配上#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (mmod, 配上#VV, 应#VV)  (conj, 食用#VV, 配上#VV)  (nummod, 姜丝#NN, 一点#CD)  (dobj, 配上#VV, 姜丝#NN)  (prtmod, 中和#VV, 以#MSP)  (conj, 配上#VV, 中和#VV)  (assmod, 寒性#NN, 它#PN)  (case, 它#PN, 的#DEG)  (dobj, 中和#VV, 寒性#NN)  (advmod, 适于#VV, 十分#AD)  (conj, 配上#VV, 适于#VV)  (tmod, 食用#VV, 夏季#NT)  (ccomp, 性寒#VV, 食用#VV)
+            (loc, 过多#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (nsubj, 过多#VV, 油盐#NN)  (neg, 过多#VV, 不#AD)  (prep, 过多#VV, 宜#NR)  (root, ROOT#null, 过多#VV)  (mmod, 尽量#VV, 要#VV)  (conj, 过多#VV, 尽量#VV)  (relcl, 特点#NN, 保持#VV)  (nsubj, 清淡#VA, 其#PN)  (relcl, 爽口#NN, 清淡#VA)  (mark, 清淡#VA, 的#DEC)  (conj, 爽口#NN, 性味#NN)  (cc, 爽口#NN, 和#CC)  (dobj, 保持#VV, 爽口#NN)  (mark, 保持#VV, 的#DEC)  (dobj, 尽量#VV, 特点#NN)
+            (nn, 芽#NN, 炒#NN)  (nn, 芽#NN, 绿豆#NN)  (loc, 加些#VV, 芽#NN)  (case, 芽#NN, 时#LC)  (mmod, 加些#VV, 可#VV)  (advmod, 加些#VV, 适当#AD)  (root, ROOT#null, 加些#VV)  (dobj, 加些#VV, 醋#NN)  (prtmod, 保存#VV, 以#MSP)  (dep, 加些#VV, 保存#VV)  (conj, 维生素C#NN, 水分#NN)  (cc, 维生素C#NN, 和#CC)  (dobj, 保存#VV, 维生素C#NN)
+        </parsing>
+
+        <tag>
+            性寒  配上姜丝  中和寒性  过多  保持特点  爽口清淡  性味  保持爽口  尽量特点  加些醋  水分  保存维生素C  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081835124451.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\281 绿豆芽.jpg
+    </picturelocalurl>
+
+</content>

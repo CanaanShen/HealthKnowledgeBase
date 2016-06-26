@@ -1,0 +1,294 @@
+<content>
+
+    <id>
+        436
+    </id>
+
+    <foodname>
+        沙参
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        南沙参、泡参、泡沙参
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            风寒咳嗽及中寒便溏者禁服；痰热咳嗽者慎服。
+        </rawdata>
+
+        <segment>
+            风寒  咳嗽  及  中  寒便  溏者  禁服  ；  痰热  咳嗽  者  慎服  。
+        </segment>
+
+        <pos>
+            风寒#NN  咳嗽#NN  及#CC  中#NR  寒便#NN  溏者#NN  禁服#VV  ；#PU  痰热#NN  咳嗽#VV  者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 溏者#NN, 风寒#NN)  (conj, 溏者#NN, 咳嗽#NN)  (cc, 溏者#NN, 及#CC)  (nn, 溏者#NN, 中#NR)  (nn, 溏者#NN, 寒便#NN)  (nsubj, 禁服#VV, 溏者#NN)  (root, ROOT#null, 禁服#VV)  (nsubj, 咳嗽#VV, 痰热#NN)  (ccomp, 禁服#VV, 咳嗽#VV)  (nn, 慎服#NN, 者#NN)  (dobj, 咳嗽#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            风寒咳嗽  中寒便溏者禁服  痰热咳嗽者  慎服  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                21.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                5.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                978
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                5870
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                104
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                585
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                180
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为桔梗科沙参属植物四叶沙参、杏叶沙参或其同属植物，以根入药。秋季刨采，除去地上部分及须根，刮去粗皮，即时晒干。
+            南沙参与北沙参的区别：
+            据古代文献记载，前人所用沙参，系南沙参。至清代载有沙参分南、北两种。一般认为两药功效相似，均属养阴药，具有养阴清肺，益胃生津的功效。然南沙参又称大沙参、空 沙参，其形粗大，质较疏松，功效较差，专长于入“肺”，偏于清肺祛痰止咳；北沙参，又称北条参、细条参，其形细长，质坚疏密，功效较佳，专长于入“胃”，偏于养阴生津止渴，说法各异 。
+        </rawdata>
+
+        <segment>
+            为  桔梗科  沙参  属  植物  四  叶  沙参  、  杏叶  沙参  或  其  同属  植物  ，  以  根  入药  。  秋季  刨采  ，  除去  地上  部分  及  须根  ，  刮去  粗皮  ，  即时  晒干  。
+            南沙  参与  北  沙参  的  区别  ：
+            据  古代  文献  记载  ，  前人  所  用  沙参  ，  系  南  沙参  。  至  清代  载有  沙参  分  南  、  北  两  种  。  一般  认为  两  药  功效  相似  ，  均  属  养阴药  ，  具有  养阴清肺  ，  益胃  生  津  的  功效  。  然南  沙参  又  称  大  沙参  、  空  沙参  ，  其形  粗大  ，  质  较  疏松  ，  功效  较差  ，  专长  于  入  “  肺  ”  ，  偏于  清肺  祛痰  止咳  ；  北  沙参  ，  又  称  北条参  、  细条  参  ，  其形  细长  ，  质坚  疏密  ，  功效  较  佳  ，  专长  于  入  “  胃  ”  ，  偏于  养  阴  生津止渴  ，  说法  各异    。
+        </segment>
+
+        <pos>
+            为#P  桔梗科#NN  沙参#NN  属#VV  植物#NN  四#CD  叶#NR  沙参#NN  、#PU  杏叶#NN  沙参#NN  或#CC  其#PN  同属#NN  植物#NN  ，#PU  以#P  根#M  入药#NN    。#PU  秋季#NT  刨采#VV  ，#PU  除去#P  地上#NN  部分#NN  及#CC  须根#NN  ，#PU  刮去#NN  粗皮#NN  ，#PU  即时#AD  晒干#VV    。#PU    。#PU
+            南沙#NR  参与#VV  北#NN  沙参#NN  的#DEG  区别#NN  ：#PU
+            据#P  古代#NN  文献#NN  记载#NN  ，#PU  前人#AD  所#MSP  用#VV  沙参#NN  ，#PU  系#VC  南#NN  沙参#NN    。#PU  至#P  清代#NR  载有#VV  沙参#CD  分#M  南#NN  、#PU  北#NN  两#CD  种#M    。#PU  一般#AD  认为#VV  两#CD  药#NN  功效#AD  相似#VA  ，#PU  均#AD  属#VV  养阴药#NN  ，#PU  具有#VV  养阴清肺#NN  ，#PU  益胃#AD  生#VV  津#NR  的#DEG  功效#NN    。#PU  然南#NN  沙参#NN  又#AD  称#VV  大#JJ  沙参#NN  、#PU  空#NN  沙参#VV  ，#PU  其形#NN  粗大#NN  ，#PU  质#NN  较#AD  疏松#VV  ，#PU  功效#NN  较差#NN  ，#PU  专长#NR  于#P  入#VV  ``#NN  肺#NN  ''#NN  ，#PU  偏于#VV  清肺#NN  祛痰#NN  止咳#NN  ；#PU  北#NN  沙参#NN  ，#PU  又#AD  称#VV  北条参#VA  、#PU  细条#VV  参#NN  ，#PU  其形#VV  细长#NN  ，#PU  质坚#VV  疏密#NN  ，#PU  功效#NR  较#AD  佳#VA  ，#PU  专长#NR  于#P  入#VV  ``#NN  胃#NN  ''#NN  ，#PU  偏于#AD  养#VV  阴#NN  生津止渴#NN  ，#PU  说法#NN  各异#VA    。#PU
+        </pos>
+
+        <parsing>
+            (case, 沙参#NN, 为#P)  (nn, 沙参#NN, 桔梗科#NN)  (prep, 属#VV, 沙参#NN)  (root, ROOT#null, 属#VV)  (nn, 同属#NN, 植物#NN)  (nummod, 同属#NN, 四#CD)  (nn, 沙参#NN, 叶#NR)  (conj, 同属#NN, 沙参#NN)  (nn, 沙参#NN, 杏叶#NN)  (conj, 同属#NN, 沙参#NN)  (cc, 同属#NN, 或#CC)  (nn, 同属#NN, 其#PN)  (nn, 植物#NN, 同属#NN)  (dobj, 属#VV, 植物#NN)  (dep, 入药#NN, 以#P)  (dep, 入药#NN, 根#M)  (dep, 属#VV, 入药#NN)   (tmod, 刨采#VV, 秋季#NT)  (root, ROOT#null, 刨采#VV)  (case, 须根#NN, 除去#P)  (nn, 部分#NN, 地上#NN)  (conj, 须根#NN, 部分#NN)  (cc, 须根#NN, 及#CC)  (prep, 晒干#VV, 须根#NN)  (nn, 粗皮#NN, 刮去#NN)  (nsubj, 晒干#VV, 粗皮#NN)  (advmod, 晒干#VV, 即时#AD)  (ccomp, 刨采#VV, 晒干#VV)   (root, ROOT#null, null#null)
+            (nsubj, 参与#VV, 南沙#NR)  (root, ROOT#null, 参与#VV)  (nn, 沙参#NN, 北#NN)  (assmod, 区别#NN, 沙参#NN)  (case, 沙参#NN, 的#DEG)  (dobj, 参与#VV, 区别#NN)
+            (case, 记载#NN, 据#P)  (nn, 记载#NN, 古代#NN)  (nn, 记载#NN, 文献#NN)  (prep, 用#VV, 记载#NN)  (advmod, 用#VV, 前人#AD)  (prtmod, 用#VV, 所#MSP)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 沙参#NN)  (cop, 沙参#NN, 系#VC)  (nn, 沙参#NN, 南#NN)  (dep, 用#VV, 沙参#NN)   (case, 清代#NR, 至#P)  (prep, 载有#VV, 清代#NR)  (root, ROOT#null, 载有#VV)  (nummod, 分#M, 沙参#CD)  (clf, 北#NN, 分#M)  (conj, 北#NN, 南#NN)  (dobj, 载有#VV, 北#NN)  (nummod, 种#M, 两#CD)  (range, 载有#VV, 种#M)   (advmod, 认为#VV, 一般#AD)  (root, ROOT#null, 认为#VV)  (nummod, 药#NN, 两#CD)  (nsubj, 相似#VA, 药#NN)  (advmod, 相似#VA, 功效#AD)  (ccomp, 认为#VV, 相似#VA)  (advmod, 属#VV, 均#AD)  (conj, 相似#VA, 属#VV)  (dobj, 属#VV, 养阴药#NN)  (dep, 相似#VA, 具有#VV)  (dobj, 具有#VV, 养阴清肺#NN)  (advmod, 生#VV, 益胃#AD)  (conj, 相似#VA, 生#VV)  (assmod, 功效#NN, 津#NR)  (case, 津#NR, 的#DEG)  (dobj, 生#VV, 功效#NN)   (nn, 沙参#NN, 然南#NN)  (nsubj, 称#VV, 沙参#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (amod, 空#NN, 大#JJ)  (conj, 空#NN, 沙参#NN)  (dobj, 称#VV, 空#NN)  (dep, 称#VV, 沙参#VV)  (nn, 粗大#NN, 其形#NN)  (nsubj, 疏松#VV, 粗大#NN)  (nsubj, 疏松#VV, 质#NN)  (advmod, 疏松#VV, 较#AD)  (ccomp, 沙参#VV, 疏松#VV)  (nn, 较差#NN, 功效#NN)  (nsubj, 偏于#VV, 较差#NN)  (nsubj, 偏于#VV, 专长#NR)  (case, 入#VV, 于#P)  (prep, 偏于#VV, 入#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 肺#NN)  (dobj, 入#VV, ''#NN)  (conj, 疏松#VV, 偏于#VV)  (nn, 止咳#NN, 清肺#NN)  (nn, 止咳#NN, 祛痰#NN)  (dobj, 偏于#VV, 止咳#NN)  (nn, 沙参#NN, 北#NN)  (nsubj, 称#VV, 沙参#NN)  (advmod, 称#VV, 又#AD)  (conj, 疏松#VV, 称#VV)  (ccomp, 称#VV, 北条参#VA)  (conj, 称#VV, 细条#VV)  (dobj, 细条#VV, 参#NN)  (conj, 称#VV, 其形#VV)  (dobj, 其形#VV, 细长#NN)  (conj, 称#VV, 质坚#VV)  (dobj, 质坚#VV, 疏密#NN)  (nsubj, 佳#VA, 功效#NR)  (advmod, 佳#VA, 较#AD)  (conj, 疏松#VV, 佳#VA)  (nsubj, 养#VV, 专长#NR)  (case, 入#VV, 于#P)  (prep, 养#VV, 入#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 胃#NN)  (dobj, 入#VV, ''#NN)  (advmod, 养#VV, 偏于#AD)  (conj, 疏松#VV, 养#VV)  (nn, 生津止渴#NN, 阴#NN)  (dobj, 养#VV, 生津止渴#NN)  (nsubj, 各异#VA, 说法#NN)  (conj, 疏松#VV, 各异#VA)
+        </parsing>
+
+        <tag>
+            植物同属  同属植物  刨采  地上部分  须根  刮去粗皮  参与区别  古代记载  文献记载  载有北  药相似  大空  功效较差  清肺止咳  祛痰止咳  偏于止咳  细条参  质坚疏密  说法各异  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            甘，凉。清热养阴，润肺止咳。主治气管炎，百日咳，肺热咳嗽，咯痰黄稠。
+            沙参具有滋阴生津、清热凉血之功，配合放 化疗用于肿瘤患者，尤其是对晚期肿瘤病人血枯阴亏、肺阴虚之肺癌、消化道肿瘤术后气阴两虚或因放疗而伤阴引起的津枯液燥者，具有较好的疗效。
+        </rawdata>
+
+        <segment>
+            甘  ，  凉  。  清热  养  阴  ，  润肺  止咳  。  主治  气管炎  ，  百日咳  ，  肺  热  咳嗽  ，  咯痰黄稠  。
+            沙参  具有  滋阴  生津  、  清热  凉  血  之功  ，  配合  放  化疗  用于  肿瘤  患者  ，  尤其是  对  晚期  肿瘤病  人血  枯阴亏  、  肺  阴虚  之  肺癌  、  消化道  肿瘤  术后  气  阴  两  虚  或因  放疗  而  伤  阴  引起  的  津枯液  燥者  ，  具有  较好  的  疗效  。
+        </segment>
+
+        <pos>
+            甘#NR  ，#PU  凉#VV    。#PU  清热#AD  养#VV  阴#NN  ，#PU  润肺#VV  止咳#NN    。#PU  主治#NR  气管炎#VV  ，#PU  百日咳#CD  ，#PU  肺#NN  热#NN  咳嗽#VV  ，#PU  咯痰黄稠#VV    。#PU    。#PU
+            沙参#NR  具有#VV  滋阴#NN  生津#NN  、#PU  清热#NN  凉#NN  血#NN  之功#NN  ，#PU  配合#VV  放#VV  化疗#NR  用于#VV  肿瘤#NN  患者#NN  ，#PU  尤其是#AD  对#P  晚期#NN  肿瘤病#NN  人血#NN  枯阴亏#NN  、#PU  肺#NN  阴虚#NN  之#DEG  肺癌#NN  、#PU  消化道#NN  肿瘤#NN  术后#NN  气#NN  阴#VA  两#CD  虚#AD  或因#VV  放疗#NN  而#CC  伤#NN  阴#VA  引起#VV  的#DEC  津枯液#NN  燥者#NN  ，#PU  具有#VV  较好#JJ  的#DEG  疗效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 凉#VV, 甘#NR)  (root, ROOT#null, 凉#VV)   (advmod, 养#VV, 清热#AD)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阴#NN)  (dep, 养#VV, 润肺#VV)  (dobj, 润肺#VV, 止咳#NN)   (nsubj, 气管炎#VV, 主治#NR)  (root, ROOT#null, 气管炎#VV)  (nsubj, 咳嗽#VV, 百日咳#CD)  (nn, 热#NN, 肺#NN)  (nsubj, 咳嗽#VV, 热#NN)  (ccomp, 气管炎#VV, 咳嗽#VV)  (ccomp, 咳嗽#VV, 咯痰黄稠#VV)   (root, ROOT#null, null#null)
+            (nsubj, 具有#VV, 沙参#NR)  (root, ROOT#null, 具有#VV)  (nn, 之功#NN, 滋阴#NN)  (conj, 之功#NN, 生津#NN)  (nn, 之功#NN, 清热#NN)  (nn, 之功#NN, 凉#NN)  (nn, 之功#NN, 血#NN)  (dobj, 具有#VV, 之功#NN)  (conj, 具有#VV, 配合#VV)  (relcl, 燥者#NN, 放#VV)  (nsubj, 用于#VV, 化疗#NR)  (dep, 或因#VV, 用于#VV)  (nn, 患者#NN, 肿瘤#NN)  (dobj, 用于#VV, 患者#NN)  (advmod, 或因#VV, 尤其是#AD)  (case, 气#NN, 对#P)  (nn, 阴虚#NN, 晚期#NN)  (nn, 阴虚#NN, 肿瘤病#NN)  (nn, 阴虚#NN, 人血#NN)  (conj, 阴虚#NN, 枯阴亏#NN)  (nn, 阴虚#NN, 肺#NN)  (assmod, 气#NN, 阴虚#NN)  (case, 阴虚#NN, 之#DEG)  (conj, 气#NN, 肺癌#NN)  (nn, 气#NN, 消化道#NN)  (nn, 气#NN, 肿瘤#NN)  (nn, 气#NN, 术后#NN)  (prep, 阴#VA, 气#NN)  (conj, 或因#VV, 阴#VA)  (dep, 阴#VA, 两#CD)  (advmod, 或因#VV, 虚#AD)  (relcl, 伤#NN, 或因#VV)  (conj, 伤#NN, 放疗#NN)  (cc, 伤#NN, 而#CC)  (dobj, 放#VV, 伤#NN)  (conj, 放#VV, 阴#VA)  (dep, 阴#VA, 引起#VV)  (mark, 放#VV, 的#DEC)  (nn, 燥者#NN, 津枯液#NN)  (dobj, 配合#VV, 燥者#NN)  (conj, 具有#VV, 具有#VV)  (assmod, 疗效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 具有#VV, 疗效#NN)
+        </parsing>
+
+        <tag>
+            润肺止咳  滋阴之功  生津  清热之功  放燥者  肿瘤患者  用于患者  晚期阴虚  肿瘤病阴虚  人血阴虚  枯阴亏  津枯液燥者  配合燥者  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            现代研究发现，南沙参含生物碱、挥发油等，具有降低体温、镇痛、强心等作用；北沙参含黄酮、 皂甙等，具有祛痰、抗真石、强心等作用。
+            南沙参养阴清热 润肺化痰 治疗阴虚久咳 痨嗽痰血 燥咳痰少；虚热喉痹（润肺止咳）。北沙参胃阴虚津液不足咽干口渴（养胃生津）。
+        </rawdata>
+
+        <segment>
+            现代  研究  发现  ，  南沙  参含  生物碱  、  挥发油  等  ，  具有  降低  体温  、  镇痛  、  强心  等  作用  ；  北  沙参  含  黄酮  、    皂甙  等  ，  具有  祛痰  、  抗  真  石  、  强心  等  作用  。
+            南沙  参养  阴  清热  润肺  化痰  治疗  阴虚  久咳  痨嗽痰血  燥  咳痰  少  ；  虚热喉痹  （  润肺  止咳  ）  。  北  沙参  胃  阴虚  津液  不足  咽  干  口渴  （  养  胃  生  津  ）  。
+        </segment>
+
+        <pos>
+            现代#JJ  研究#NN  发现#VV  ，#PU  南沙#NN  参含#NN  生物碱#NN  、#PU  挥发油#NN  等#ETC  ，#PU  具有#VV  降低#VV  体温#NR  、#PU  镇痛#NR  、#PU  强心#NR  等#ETC  作用#NN  ；#PU  北#NN  沙参#NN  含#VV  黄酮#NR  、#PU  皂甙#NR  等#ETC  ，#PU  具有#VV  祛痰#NN  、#PU  抗#NN  真#NN  石#NN  、#PU  强心#NN  等#ETC  作用#NN  。#PU
+            南沙#NN  参养#NN  阴#VA  清热#NN  润肺#NN  化痰#NN  治疗#NN  阴虚#NN  久咳#NN  痨嗽痰血#NN  燥#NN  咳痰#VA  少#VA  ；#PU  虚热喉痹#NN  （#PU  润肺#JJ  止咳#NN  ）#PU    。#PU  北#NN  沙参#NN  胃#NN  阴虚#NN  津液#NN  不足#NN  咽#NN  干#VV  口渴#NN  （#PU  养#VV  胃#NN  生#VV  津#NR  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 研究#NN, 现代#JJ)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nn, 挥发油#NN, 南沙#NN)  (nn, 挥发油#NN, 参含#NN)  (conj, 挥发油#NN, 生物碱#NN)  (nsubj, 具有#VV, 挥发油#NN)  (etc, 挥发油#NN, 等#ETC)  (ccomp, 发现#VV, 具有#VV)  (dep, 具有#VV, 降低#VV)  (conj, 强心#NR, 体温#NR)  (conj, 强心#NR, 镇痛#NR)  (nn, 作用#NN, 强心#NR)  (etc, 强心#NR, 等#ETC)  (dobj, 降低#VV, 作用#NN)  (nn, 沙参#NN, 北#NN)  (nsubj, 含#VV, 沙参#NN)  (conj, 具有#VV, 含#VV)  (conj, 皂甙#NR, 黄酮#NR)  (dobj, 含#VV, 皂甙#NR)  (etc, 皂甙#NR, 等#ETC)  (conj, 具有#VV, 具有#VV)  (conj, 强心#NN, 祛痰#NN)  (nn, 强心#NN, 抗#NN)  (nn, 强心#NN, 真#NN)  (conj, 强心#NN, 石#NN)  (nn, 作用#NN, 强心#NN)  (etc, 强心#NN, 等#ETC)  (dobj, 具有#VV, 作用#NN)
+            (nn, 参养#NN, 南沙#NN)  (nsubj, 阴#VA, 参养#NN)  (conj, 咳痰#VA, 阴#VA)  (nn, 燥#NN, 清热#NN)  (nn, 燥#NN, 润肺#NN)  (nn, 燥#NN, 化痰#NN)  (nn, 燥#NN, 治疗#NN)  (nn, 燥#NN, 阴虚#NN)  (nn, 燥#NN, 久咳#NN)  (nn, 燥#NN, 痨嗽痰血#NN)  (nsubj, 咳痰#VA, 燥#NN)  (root, ROOT#null, 咳痰#VA)  (comod, 咳痰#VA, 少#VA)  (dobj, 咳痰#VA, 虚热喉痹#NN)  (dep, 止咳#NN, 润肺#JJ)  (dep, 咳痰#VA, 止咳#NN)   (nn, 咽#NN, 北#NN)  (nn, 咽#NN, 沙参#NN)  (nn, 咽#NN, 胃#NN)  (nn, 咽#NN, 阴虚#NN)  (nn, 咽#NN, 津液#NN)  (nn, 咽#NN, 不足#NN)  (nsubj, 干#VV, 咽#NN)  (root, ROOT#null, 干#VV)  (dobj, 干#VV, 口渴#NN)  (dep, 干#VV, 养#VV)  (dobj, 养#VV, 胃#NN)  (conj, 养#VV, 生#VV)  (dobj, 生#VV, 津#NR)
+        </parsing>
+
+        <tag>
+            现代研究  南沙挥发油  参含挥发油  生物碱  强心  体温  镇痛  皂甙  黄酮  祛痰  南沙参养  燥咳痰  咳痰虚热喉痹  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.肺热咳嗽者，可单味水煎服。
+            2.若肺热较盛者，可加清肺之桑白皮、地骨皮。
+            3.久嗽不已者，可配止咳化痰之款冬花、炙百部。
+            4.久咳声哑者，再伍养阴敛肺之玄参、诃子。
+            5.若津伤较重，舌绛少津者，是可用鲜沙参与鲜生地、鲜石斛等配伍，以增养阴生津之效。
+        </rawdata>
+
+        <segment>
+            肺  热  咳嗽  者  ，  可  单味  水  煎服  。
+            若  肺  热  较  盛者  ，  可加  清肺  之  桑白皮  、  地  骨皮  。
+            久嗽不已  者  ，  可  配  止咳  化痰  之  款冬  花  、  炙百  部  。
+            久  咳声  哑  者  ，  再  伍养  阴  敛肺  之  玄参  、  诃子  。
+            若  津  伤  较重  ，  舌绛少津者  ，  是  可用  鲜沙  参与  鲜  生地  、  鲜石斛  等  配伍  ，  以  增养  阴  生  津  之  效  。
+        </segment>
+
+        <pos>
+            肺#NN  热#NN  咳嗽#VV  者#NN  ，#PU  可#VV  单味#VV  水#NN  煎服#NN  。#PU
+            若#CS  肺#NN  热#NN  较#AD  盛者#VA  ，#PU  可加#VV  清肺#NN  之#DEG  桑白皮#NN  、#PU  地#NN  骨皮#NN  。#PU
+            久嗽不已#NN  者#NN  ，#PU  可#VV  配#VV  止咳#NN  化痰#NN  之#DEG  款冬#JJ  花#NN  、#PU  炙百#CD  部#M  。#PU
+            久#AD  咳声#VV  哑#NN  者#NN  ，#PU  再#AD  伍养#VV  阴#NN  敛肺#NN  之#DEG  玄参#NN  、#PU  诃子#NN  。#PU
+            若#CS  津#NR  伤#VV  较重#NN  ，#PU  舌绛少津者#NN  ，#PU  是#VC  可用#JJ  鲜沙#NN  参与#VV  鲜#NR  生地#NR  、#PU  鲜石斛#NR  等#ETC  配伍#NN  ，#PU  以#P  增养#NN  阴#NN  生#VV  津#NR  之#DEG  效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 热#NN, 肺#NN)  (nsubj, 咳嗽#VV, 热#NN)  (root, ROOT#null, 咳嗽#VV)  (dobj, 咳嗽#VV, 者#NN)  (mmod, 单味#VV, 可#VV)  (conj, 咳嗽#VV, 单味#VV)  (nn, 煎服#NN, 水#NN)  (dobj, 单味#VV, 煎服#NN)
+            (advmod, 盛者#VA, 若#CS)  (nn, 热#NN, 肺#NN)  (nsubj, 盛者#VA, 热#NN)  (advmod, 盛者#VA, 较#AD)  (root, ROOT#null, 盛者#VA)  (dep, 盛者#VA, 可加#VV)  (assmod, 骨皮#NN, 清肺#NN)  (case, 清肺#NN, 之#DEG)  (conj, 骨皮#NN, 桑白皮#NN)  (nn, 骨皮#NN, 地#NN)  (dobj, 可加#VV, 骨皮#NN)
+            (nn, 者#NN, 久嗽不已#NN)  (nsubj, 配#VV, 者#NN)  (mmod, 配#VV, 可#VV)  (root, ROOT#null, 配#VV)  (nn, 化痰#NN, 止咳#NN)  (assmod, 花#NN, 化痰#NN)  (case, 化痰#NN, 之#DEG)  (amod, 花#NN, 款冬#JJ)  (dobj, 配#VV, 花#NN)  (nummod, 部#M, 炙百#CD)  (dep, 配#VV, 部#M)
+            (advmod, 咳声#VV, 久#AD)  (root, ROOT#null, 咳声#VV)  (nn, 者#NN, 哑#NN)  (dobj, 咳声#VV, 者#NN)  (advmod, 伍养#VV, 再#AD)  (dep, 咳声#VV, 伍养#VV)  (nn, 敛肺#NN, 阴#NN)  (assmod, 诃子#NN, 敛肺#NN)  (case, 敛肺#NN, 之#DEG)  (conj, 诃子#NN, 玄参#NN)  (dobj, 伍养#VV, 诃子#NN)
+            (advmod, 伤#VV, 若#CS)  (nsubj, 伤#VV, 津#NR)  (dep, 鲜沙#NN, 伤#VV)  (dobj, 伤#VV, 较重#NN)  (nsubj, 鲜沙#NN, 舌绛少津者#NN)  (cop, 鲜沙#NN, 是#VC)  (amod, 鲜沙#NN, 可用#JJ)  (root, ROOT#null, 鲜沙#NN)  (conj, 鲜沙#NN, 参与#VV)  (nn, 鲜石斛#NR, 鲜#NR)  (conj, 鲜石斛#NR, 生地#NR)  (nn, 配伍#NN, 鲜石斛#NR)  (etc, 鲜石斛#NR, 等#ETC)  (dobj, 参与#VV, 配伍#NN)  (case, 阴#NN, 以#P)  (nn, 阴#NN, 增养#NN)  (prep, 生#VV, 阴#NN)  (dep, 鲜沙#NN, 生#VV)  (assmod, 效#NN, 津#NR)  (case, 津#NR, 之#DEG)  (dobj, 生#VV, 效#NN)
+        </parsing>
+
+        <tag>
+            咳嗽者  单味煎服  热盛者  桑白皮  可加骨皮  止咳化痰  款冬花  咳声者  玄参  伍养诃子  可用鲜沙  鲜石斛  生地  参与配伍  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201306/071729389.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\436 沙参.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,192 @@
+<content>
+
+    <id>
+        437
+    </id>
+
+    <foodname>
+        荷叶
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        蕸、莲叶、鲜荷叶、干荷叶、荷叶炭
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            体瘦气血虚弱者慎服。
+        </rawdata>
+
+        <segment>
+            体瘦  气血  虚  弱者  慎服  。
+        </segment>
+
+        <pos>
+            体瘦#NN  气血#NN  虚#AD  弱者#VV  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 气血#NN, 体瘦#NN)  (nsubj, 弱者#VV, 气血#NN)  (advmod, 弱者#VV, 虚#AD)  (root, ROOT#null, 弱者#VV)  (dobj, 弱者#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            体瘦气血虚弱者  慎服  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荷叶，为睡莲科植物莲的叶。莲多年生水生草本，生于水泽、池塘、湖沼或水田内，野生或栽培。广布于南北各地。6至7月花未开放时采收，除去叶柄，晒至七八成干，对折成半圆形，晒干。夏季亦用鲜叶或初生嫩叶。
+        </rawdata>
+
+        <segment>
+            荷叶  ，  为  睡莲  科  植物  莲  的  叶  。  莲  多  年  生  水生  草本  ，  生于  水泽  、  池塘  、  湖沼  或  水田  内  ，  野生  或  栽培  。  广布  于  南  北  各  地  。  6  至  7月  花  未  开放  时  采收  ，  除去  叶柄  ，  晒  至  七八  成  干  ，  对  折成  半圆形  ，  晒干  。  夏季  亦  用  鲜叶  或  初生  嫩叶  。
+        </segment>
+
+        <pos>
+            荷叶#VV  ，#PU  为#VV  睡莲#VV  科#NN  植物#NN  莲#NN  的#DEC  叶#NN    。#PU  莲#VV  多#CD  年#M  生#VV  水生#NN  草本#NN  ，#PU  生于#VV  水泽#NR  、#PU  池塘#NR  、#PU  湖沼#NR  或#CC  水田#NR  内#NN  ，#PU  野生#JJ  或#CC  栽培#VV    。#PU  广布#VV  于#P  南#NN  北#NN  各#DT  地#NN    。#PU  6#CD  至#P  7月#NT  花#NN  未#AD  开放#VV  时#LC  采收#VV  ，#PU  除去#P  叶柄#NN  ，#PU  晒#CD  至#CC  七八#CD  成#VV  干#VV  ，#PU  对#P  折成#NN  半圆形#NN  ，#PU  晒干#VV    。#PU  夏季#NT  亦#AD  用#P  鲜叶#NN  或#CC  初生#NN  嫩叶#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 荷叶#VV)  (dep, 荷叶#VV, 为#VV)  (relcl, 叶#NN, 睡莲#VV)  (nn, 莲#NN, 科#NN)  (nn, 莲#NN, 植物#NN)  (dobj, 睡莲#VV, 莲#NN)  (mark, 睡莲#VV, 的#DEC)  (dobj, 为#VV, 叶#NN)   (root, ROOT#null, 莲#VV)  (nummod, 年#M, 多#CD)  (range, 莲#VV, 年#M)  (conj, 莲#VV, 生#VV)  (nn, 草本#NN, 水生#NN)  (dobj, 生#VV, 草本#NN)  (conj, 莲#VV, 生于#VV)  (conj, 水田#NR, 水泽#NR)  (conj, 水田#NR, 池塘#NR)  (conj, 水田#NR, 湖沼#NR)  (cc, 水田#NR, 或#CC)  (nn, 内#NN, 水田#NR)  (dobj, 生于#VV, 内#NN)  (conj, 莲#VV, 野生#JJ)  (cc, 莲#VV, 或#CC)  (conj, 莲#VV, 栽培#VV)   (root, ROOT#null, 广布#VV)  (case, 地#NN, 于#P)  (nn, 北#NN, 南#NN)  (nn, 地#NN, 北#NN)  (det, 地#NN, 各#DT)  (prep, 广布#VV, 地#NN)   (nsubj, 采收#VV, 6#CD)  (xsubj, 干#VV, 6#CD)  (case, 开放#VV, 至#P)  (tmod, 开放#VV, 7月#NT)  (nsubj, 开放#VV, 花#NN)  (advmod, 开放#VV, 未#AD)  (prep, 采收#VV, 开放#VV)  (case, 开放#VV, 时#LC)  (root, ROOT#null, 采收#VV)  (case, 叶柄#NN, 除去#P)  (prep, 干#VV, 叶柄#NN)  (nummod, 七八#CD, 晒#CD)  (cc, 七八#CD, 至#CC)  (dep, 干#VV, 七八#CD)  (mmod, 干#VV, 成#VV)  (ccomp, 采收#VV, 干#VV)  (case, 半圆形#NN, 对#P)  (nn, 半圆形#NN, 折成#NN)  (prep, 晒干#VV, 半圆形#NN)  (conj, 干#VV, 晒干#VV)   (tmod, 嫩叶#VV, 夏季#NT)  (advmod, 嫩叶#VV, 亦#AD)  (case, 初生#NN, 用#P)  (conj, 初生#NN, 鲜叶#NN)  (cc, 初生#NN, 或#CC)  (prep, 嫩叶#VV, 初生#NN)  (root, ROOT#null, 嫩叶#VV)
+        </parsing>
+
+        <tag>
+            睡莲叶  睡莲莲  水生草本  水田  水泽  池塘  湖沼  生于内  广布  采收  折成半圆形  初生  鲜叶  嫩叶  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味苦辛微涩、性凉，归心、肝、脾经；清香升散；具有消暑利湿，健脾升阳，散瘀止血的功效；主治暑热烦渴，头痛眩晕，水肿，食少腹胀，泻痢，白带，脱肛，吐血，衄血，咯血，便血，崩漏，产后恶露不净，损伤瘀血。
+            1.降血脂
+            荷叶碱是荷叶中提取的生物碱，荷叶碱可扩张血管，清热解暑，有降血压的作用。
+            2.防治心血管疾病
+            荷叶是“药食两用”的食物，荷叶中富含的黄酮类物质，是大多数氧自由基的清除剂，可以提高SOD（超氧化物歧化酶）的活力，减少MDA（脂质过氧化物丙二醛）及0X－LDL（氧化低密度脂蛋白）的生成，它可以增加冠脉流量，对实验性心肌梗塞有对抗作用；对急性心肌缺血有保护作用；对治疗冠心病、高血压等有显著效果；对降低舒张压，防治心律失常、心血管病等也起重要作用。
+            2.减肥
+            荷叶中的生物碱有降血脂作用，且临床上常用于肥胖症的治疗。荷叶减肥原理，即服用后在人体肠壁上形成一层脂肪隔离膜，有效阻止脂肪的吸收，从根本上减重，并更有效的控制反弹。
+        </rawdata>
+
+        <segment>
+            味苦辛微涩  、  性凉  ，  归心  、  肝  、  脾经  ；  清香  升散  ；  具有  消暑  利湿  ，  健脾  升阳  ，  散瘀  止血  的  功效  ；  主治  暑热  烦渴  ，  头痛  眩晕  ，  水肿  ，  食少  腹胀  ，  泻痢  ，  白带  ，  脱肛  ，  吐血  ，  衄血  ，  咯血  ，  便血  ，  崩漏  ，  产后  恶露  不净  ，  损伤  瘀血  。
+            降  血脂
+            荷叶  碱  是  荷叶  中  提取  的  生物碱  ，  荷叶  碱  可  扩张  血管  ，  清热  解暑  ，  有  降  血压  的  作用  。
+            防治  心  血管  疾病
+            荷叶  是  “  药  食  两  用  ”  的  食物  ，  荷叶  中  富含  的  黄酮类  物质  ，  是  大多数  氧  自由基  的  清除  剂  ，  可以  提高  SOD  （  超氧化物  歧化酶  ）  的  活力  ，  减少  MDA  （  脂质  过氧化物  丙  二醛  ）  及  0X－LDL  （  氧化  低密度  脂蛋白  ）  的  生成  ，  它  可以  增加  冠脉  流量  ，  对  实验性  心肌  梗塞  有  对抗  作用  ；  对  急性  心肌  缺血  有  保护  作用  ；  对  治疗  冠心病  、  高血压  等  有  显著  效果  ；  对  降低  舒张压  ，  防治  心律  失常  、  心血管病  等  也  起  重要  作用  。
+            减肥
+            荷叶  中  的  生物  碱  有  降  血脂  作用  ，  且  临床  上  常用  于  肥胖症  的  治疗  。  荷叶  减肥  原理  ，  即  服用  后  在  人体  肠  壁上  形成  一  层  脂肪  隔离  膜  ，  有效  阻止  脂肪  的  吸收  ，  从  根本  上  减重  ，  并  更  有效  的  控制  反弹  。
+        </segment>
+
+        <pos>
+            味苦辛微涩#CD  、#PU  性凉#VV  ，#PU  归心#VA  、#PU  肝#VA  、#PU  脾经#VA  ；#PU  清香#VV  升散#NN  ；#PU  具有#VV  消暑#NN  利湿#NN  ，#PU  健脾#VV  升阳#NN  ，#PU  散瘀#VV  止血#NR  的#DEG  功效#NN  ；#PU  主治#VV  暑热#VV  烦渴#NN  ，#PU  头痛#VV  眩晕#NN  ，#PU  水肿#VV  ，#PU  食少#VV  腹胀#NN  ，#PU  泻痢#VV  ，#PU  白带#VV  ，#PU  脱肛#VV  ，#PU  吐血#VV  ，#PU  衄血#VV  ，#PU  咯血#VV  ，#PU  便血#VV  ，#PU  崩漏#VV  ，#PU  产后#VV  恶露#NN  不净#NN  ，#PU  损伤#VV  瘀血#NN  。#PU
+            降#NN  血脂#VA
+            荷叶#NN  碱#NN  是#VC  荷叶#NN  中#LC  提取#VV  的#DEC  生物碱#NN  ，#PU  荷叶#AD  碱#VV  可#VV  扩张#VV  血管#NN  ，#PU  清热#VV  解暑#NN  ，#PU  有#VE  降#NN  血压#NN  的#DEC  作用#NN  。#PU
+            防治#VV  心#NN  血管#NN  疾病#NN
+            荷叶#NR  是#VC  ``#NR  药#NN  食#NN  两#CD  用#VV  ''#NN  的#DEC  食物#NN  ，#PU  荷叶#VV  中#NR  富含#NN  的#DEG  黄酮类#NN  物质#NN  ，#PU  是#VC  大多数#CD  氧#NN  自由基#NN  的#DEC  清除#VV  剂#VV  ，#PU  可以#VV  提高#VV  SOD#NR  （#PU  超氧化物#NN  歧化酶#NN  ）#PU  的#DEG  活力#NN  ，#PU  减少#VV  MDA#CD  （#PU  脂质#NN  过氧化物#NN  丙#VV  二醛#CD  ）#PU  及#CC  0X#CD  －#PU  LDL#CD  （#PU  氧化#NR  低密度#NR  脂蛋白#NN  ）#PU  的#DEC  生成#NN  ，#PU  它#PN  可以#VV  增加#VV  冠脉#NN  流量#NN  ，#PU  对#P  实验性#NN  心肌#NN  梗塞#NN  有#VE  对抗#NN  作用#NN  ；#PU  对#P  急性#NN  心肌#NN  缺血#NN  有#VE  保护#NN  作用#NN  ；#PU  对#P  治疗#NN  冠心病#NN  、#PU  高血压#NN  等#ETC  有#VE  显著#JJ  效果#NN  ；#PU  对#P  降低#VV  舒张压#NN  ，#PU  防治#NN  心律#NN  失常#NN  、#PU  心血管病#NN  等#ETC  也#AD  起#VV  重要#JJ  作用#NN  。#PU
+            减肥#VV
+            荷叶#NN  中#LC  的#DEG  生物#NN  碱#NN  有#VE  降#NN  血脂#NN  作用#NN  ，#PU  且#CC  临床#NN  上#LC  常用#JJ  于#P  肥胖症#NN  的#DEG  治疗#NN    。#PU  荷叶#AD  减肥#VV  原理#NN  ，#PU  即#AD  服用#VV  后#LC  在#P  人体#NN  肠#NN  壁上#NN  形成#VV  一#CD  层#M  脂肪#NN  隔离#NN  膜#NN  ，#PU  有效#AD  阻止#VV  脂肪#NN  的#DEG  吸收#NN  ，#PU  从#P  根本#NN  上#LC  减重#VV  ，#PU  并#CC  更#AD  有效#VA  的#DEC  控制#NN  反弹#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 性凉#VV, 味苦辛微涩#CD)  (root, ROOT#null, 性凉#VV)  (ccomp, 性凉#VV, 归心#VA)  (conj, 归心#VA, 肝#VA)  (dep, 归心#VA, 脾经#VA)  (dep, 归心#VA, 清香#VV)  (dobj, 清香#VV, 升散#NN)  (dep, 归心#VA, 具有#VV)  (nn, 利湿#NN, 消暑#NN)  (dobj, 具有#VV, 利湿#NN)  (conj, 具有#VV, 健脾#VV)  (dobj, 健脾#VV, 升阳#NN)  (conj, 具有#VV, 散瘀#VV)  (assmod, 功效#NN, 止血#NR)  (case, 止血#NR, 的#DEG)  (dobj, 散瘀#VV, 功效#NN)  (mmod, 暑热#VV, 主治#VV)  (dep, 归心#VA, 暑热#VV)  (dobj, 暑热#VV, 烦渴#NN)  (ccomp, 暑热#VV, 头痛#VV)  (conj, 暑热#VV, 头痛#VV)  (dobj, 头痛#VV, 眩晕#NN)  (ccomp, 暑热#VV, 水肿#VV)  (conj, 暑热#VV, 水肿#VV)  (ccomp, 暑热#VV, 食少#VV)  (conj, 暑热#VV, 食少#VV)  (dobj, 食少#VV, 腹胀#NN)  (ccomp, 暑热#VV, 泻痢#VV)  (conj, 暑热#VV, 泻痢#VV)  (ccomp, 暑热#VV, 白带#VV)  (conj, 暑热#VV, 白带#VV)  (ccomp, 暑热#VV, 脱肛#VV)  (conj, 暑热#VV, 脱肛#VV)  (ccomp, 暑热#VV, 吐血#VV)  (conj, 暑热#VV, 吐血#VV)  (ccomp, 暑热#VV, 衄血#VV)  (conj, 暑热#VV, 衄血#VV)  (ccomp, 暑热#VV, 咯血#VV)  (conj, 暑热#VV, 咯血#VV)  (ccomp, 暑热#VV, 便血#VV)  (conj, 暑热#VV, 便血#VV)  (ccomp, 暑热#VV, 崩漏#VV)  (conj, 暑热#VV, 崩漏#VV)  (ccomp, 暑热#VV, 产后#VV)  (conj, 暑热#VV, 产后#VV)  (nn, 不净#NN, 恶露#NN)  (dobj, 产后#VV, 不净#NN)  (ccomp, 暑热#VV, 损伤#VV)  (conj, 暑热#VV, 损伤#VV)  (dobj, 损伤#VV, 瘀血#NN)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (nn, 碱#NN, 荷叶#NN)  (nsubj, 生物碱#NN, 碱#NN)  (cop, 生物碱#NN, 是#VC)  (loc, 提取#VV, 荷叶#NN)  (case, 荷叶#NN, 中#LC)  (relcl, 生物碱#NN, 提取#VV)  (mark, 提取#VV, 的#DEC)  (root, ROOT#null, 生物碱#NN)  (advmod, 碱#VV, 荷叶#AD)  (conj, 生物碱#NN, 碱#VV)  (mmod, 扩张#VV, 可#VV)  (relcl, 作用#NN, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (conj, 扩张#VV, 清热#VV)  (dobj, 清热#VV, 解暑#NN)  (conj, 扩张#VV, 有#VE)  (nn, 血压#NN, 降#NN)  (dobj, 有#VE, 血压#NN)  (mark, 扩张#VV, 的#DEC)  (dobj, 碱#VV, 作用#NN)
+            (root, ROOT#null, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)
+            (nsubj, 食物#NN, 荷叶#NR)  (cop, 食物#NN, 是#VC)  (nn, 食#NN, ``#NR)  (nn, 食#NN, 药#NN)  (nn, 食物#NN, 食#NN)  (nummod, 食物#NN, 两#CD)  (relcl, 食#NN, 用#VV)  (relcl, 食物#NN, 用#VV)  (dobj, 用#VV, ''#NN)  (mark, 用#VV, 的#DEC)  (root, ROOT#null, 食物#NN)  (conj, 食物#NN, 荷叶#VV)  (nn, 富含#NN, 中#NR)  (assmod, 物质#NN, 富含#NN)  (case, 富含#NN, 的#DEG)  (nn, 物质#NN, 黄酮类#NN)  (dobj, 荷叶#VV, 物质#NN)  (cop, 自由基#NN, 是#VC)  (nummod, 自由基#NN, 大多数#CD)  (nn, 自由基#NN, 氧#NN)  (nsubj, 清除#VV, 自由基#NN)  (mark, 自由基#NN, 的#DEC)  (conj, 食物#NN, 清除#VV)  (relcl, 生成#NN, 剂#VV)  (mmod, 提高#VV, 可以#VV)  (ccomp, 剂#VV, 提高#VV)  (assmod, 活力#NN, SOD#NR)  (nn, 歧化酶#NN, 超氧化物#NN)  (prnmod, SOD#NR, 歧化酶#NN)  (case, SOD#NR, 的#DEG)  (dobj, 提高#VV, 活力#NN)  (conj, 提高#VV, 减少#VV)  (range, 减少#VV, MDA#CD)  (nn, 过氧化物#NN, 脂质#NN)  (nsubj, 丙#VV, 过氧化物#NN)  (dep, 减少#VV, 丙#VV)  (range, 丙#VV, 二醛#CD)  (cc, 提高#VV, 及#CC)  (nummod, LDL#CD, 0X#CD)  (conj, 提高#VV, LDL#CD)  (nn, 脂蛋白#NN, 氧化#NR)  (nn, 脂蛋白#NN, 低密度#NR)  (dep, 提高#VV, 脂蛋白#NN)  (mark, 剂#VV, 的#DEC)  (dobj, 清除#VV, 生成#NN)  (nsubj, 增加#VV, 它#PN)  (mmod, 增加#VV, 可以#VV)  (conj, 食物#NN, 增加#VV)  (nn, 流量#NN, 冠脉#NN)  (dobj, 增加#VV, 流量#NN)  (case, 梗塞#NN, 对#P)  (nn, 梗塞#NN, 实验性#NN)  (nn, 梗塞#NN, 心肌#NN)  (prep, 有#VE, 梗塞#NN)  (dep, 增加#VV, 有#VE)  (nn, 作用#NN, 对抗#NN)  (dobj, 有#VE, 作用#NN)  (case, 缺血#NN, 对#P)  (nn, 缺血#NN, 急性#NN)  (nn, 缺血#NN, 心肌#NN)  (prep, 有#VE, 缺血#NN)  (dep, 增加#VV, 有#VE)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)  (case, 高血压#NN, 对#P)  (nn, 高血压#NN, 治疗#NN)  (conj, 高血压#NN, 冠心病#NN)  (prep, 有#VE, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (dep, 增加#VV, 有#VE)  (amod, 效果#NN, 显著#JJ)  (dobj, 有#VE, 效果#NN)  (case, 降低#VV, 对#P)  (prep, 起#VV, 降低#VV)  (dobj, 降低#VV, 舒张压#NN)  (nn, 心血管病#NN, 防治#NN)  (nn, 心血管病#NN, 心律#NN)  (conj, 心血管病#NN, 失常#NN)  (nsubj, 起#VV, 心血管病#NN)  (etc, 心血管病#NN, 等#ETC)  (advmod, 起#VV, 也#AD)  (conj, 食物#NN, 起#VV)  (amod, 作用#NN, 重要#JJ)  (dobj, 起#VV, 作用#NN)
+            (root, ROOT#null, 减肥#VV)
+            (assmod, 碱#NN, 荷叶#NN)  (case, 荷叶#NN, 中#LC)  (case, 荷叶#NN, 的#DEG)  (nn, 碱#NN, 生物#NN)  (dep, 有#VE, 碱#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 降#NN)  (nn, 作用#NN, 血脂#NN)  (dobj, 有#VE, 作用#NN)  (cc, 有#VE, 且#CC)  (loc, 治疗#NN, 临床#NN)  (case, 临床#NN, 上#LC)  (amod, 治疗#NN, 常用#JJ)  (case, 肥胖症#NN, 于#P)  (assmod, 治疗#NN, 肥胖症#NN)  (case, 肥胖症#NN, 的#DEG)  (conj, 有#VE, 治疗#NN)   (advmod, 减肥#VV, 荷叶#AD)  (relcl, 反弹#NN, 减肥#VV)  (dobj, 减肥#VV, 原理#NN)  (advmod, 服用#VV, 即#AD)  (loc, 形成#VV, 服用#VV)  (case, 服用#VV, 后#LC)  (case, 壁上#NN, 在#P)  (nn, 壁上#NN, 人体#NN)  (nn, 壁上#NN, 肠#NN)  (prep, 形成#VV, 壁上#NN)  (dep, 减肥#VV, 形成#VV)  (nummod, 层#M, 一#CD)  (clf, 膜#NN, 层#M)  (nn, 膜#NN, 脂肪#NN)  (nn, 膜#NN, 隔离#NN)  (dobj, 形成#VV, 膜#NN)  (advmod, 阻止#VV, 有效#AD)  (conj, 减肥#VV, 阻止#VV)  (assmod, 吸收#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (dobj, 阻止#VV, 吸收#NN)  (case, 根本#NN, 从#P)  (prep, 减重#VV, 根本#NN)  (case, 根本#NN, 上#LC)  (conj, 减肥#VV, 减重#VV)  (cc, 减肥#VV, 并#CC)  (advmod, 有效#VA, 更#AD)  (conj, 减肥#VV, 有效#VA)  (mark, 减肥#VV, 的#DEC)  (nn, 反弹#NN, 控制#NN)  (root, ROOT#null, 反弹#NN)
+        </parsing>
+
+        <tag>
+            性凉  清香升散  消暑利湿  健脾升阳  散瘀功效  暑热烦渴  头痛眩晕  食少腹胀  恶露不净  产后不净  损伤瘀血  降血脂  提取生物碱  扩张血管  清热解暑  血管疾病  防治疾病  用食  用食物  剂生成  超氧化物歧化酶  提高活力  脂质过氧化物  清除生成  冠脉流量  增加流量  实验性梗塞  心肌梗塞  急性缺血  心肌缺血  治疗高血压  冠心病  显著效果  降低舒张压  防治心血管病  心律心血管病  失常  常用治疗  肥胖症  减肥反弹  人体壁上  形成膜  阻止吸收  控制反弹  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            荷叶含有莲碱、原荷叶碱和荷叶碱等多种生物碱及维生素C，另外，还含有柠檬酸、苹果酸、葡萄糖酸、草酸、琥珀酸及其它抗有丝分裂作用的碱性成分。药理研究发现，荷叶具有解热、抑菌、解痉作用。 经过炮制后的荷叶味苦涩、微咸，性辛凉，具有清暑利湿、升阳发散、祛瘀止血等作用，对多种病症均有一定疗效。
+        </rawdata>
+
+        <segment>
+            荷叶  含有  莲碱  、  原荷叶碱  和  荷叶  碱  等  多  种  生物碱  及  维生素C  ，  另外  ，  还  含有  柠檬酸  、  苹果酸  、  葡萄  糖酸  、  草酸  、  琥珀酸  及  其它  抗  有丝分裂  作用  的  碱性  成分  。  药理  研究  发现  ，  荷叶  具有  解热  、  抑菌  、  解痉  作用  。    经过  炮制  后  的  荷叶  味  苦涩  、  微咸  ，  性辛凉  ，  具有  清暑  利湿  、  升阳  发散  、  祛瘀  止血  等  作用  ，  对  多  种  病症  均  有  一定  疗效  。
+        </segment>
+
+        <pos>
+            荷叶#NN  含有#VV  莲碱#NR  、#PU  原荷叶碱#NR  和#CC  荷叶#NR  碱#NR  等#ETC  多#CD  种#M  生物碱#NN  及#CC  维生素C#NN  ，#PU  另外#AD  ，#PU  还#AD  含有#VV  柠檬酸#NR  、#PU  苹果酸#NR  、#PU  葡萄#NR  糖酸#NR  、#PU  草酸#NR  、#PU  琥珀酸#NR  及#CC  其它#DT  抗#NN  有丝分裂#NN  作用#NN  的#DEG  碱性#JJ  成分#NN    。#PU  药理#NN  研究#NN  发现#VV  ，#PU  荷叶#NN  具有#VV  解热#NR  、#PU  抑菌#NR  、#PU  解痉#NR  作用#NN    。#PU  经过#P  炮制#NN  后#LC  的#DEG  荷叶#NN  味#AD  苦涩#VA  、#PU  微咸#VA  ，#PU  性辛凉#VV  ，#PU  具有#VV  清暑#NR  利湿#NR  、#PU  升阳#NR  发散#NR  、#PU  祛瘀#NR  止血#NR  等#ETC  作用#NN  ，#PU  对#P  多#CD  种#M  病症#NN  均#AD  有#VE  一定#JJ  疗效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 荷叶#NN)  (root, ROOT#null, 含有#VV)  (conj, 碱#NR, 莲碱#NR)  (conj, 碱#NR, 原荷叶碱#NR)  (cc, 碱#NR, 和#CC)  (nn, 碱#NR, 荷叶#NR)  (nn, 维生素C#NN, 碱#NR)  (etc, 碱#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 维生素C#NN, 种#M)  (conj, 维生素C#NN, 生物碱#NN)  (cc, 维生素C#NN, 及#CC)  (dobj, 含有#VV, 维生素C#NN)  (advmod, 含有#VV, 另外#AD)  (advmod, 含有#VV, 还#AD)  (conj, 含有#VV, 含有#VV)  (conj, 琥珀酸#NR, 柠檬酸#NR)  (conj, 琥珀酸#NR, 苹果酸#NR)  (nn, 琥珀酸#NR, 葡萄#NR)  (conj, 琥珀酸#NR, 糖酸#NR)  (conj, 琥珀酸#NR, 草酸#NR)  (conj, 有丝分裂#NN, 琥珀酸#NR)  (cc, 有丝分裂#NN, 及#CC)  (det, 抗#NN, 其它#DT)  (nn, 有丝分裂#NN, 抗#NN)  (nn, 作用#NN, 有丝分裂#NN)  (assmod, 成分#NN, 作用#NN)  (case, 作用#NN, 的#DEG)  (amod, 成分#NN, 碱性#JJ)  (dobj, 含有#VV, 成分#NN)   (nn, 研究#NN, 药理#NN)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 具有#VV, 荷叶#NN)  (ccomp, 发现#VV, 具有#VV)  (conj, 解痉#NR, 解热#NR)  (conj, 解痉#NR, 抑菌#NR)  (nn, 作用#NN, 解痉#NR)  (dobj, 具有#VV, 作用#NN)   (case, 炮制#NN, 经过#P)  (assmod, 荷叶#NN, 炮制#NN)  (case, 炮制#NN, 后#LC)  (case, 炮制#NN, 的#DEG)  (nsubj, 苦涩#VA, 荷叶#NN)  (advmod, 苦涩#VA, 味#AD)  (root, ROOT#null, 苦涩#VA)  (dep, 苦涩#VA, 微咸#VA)  (conj, 苦涩#VA, 性辛凉#VV)  (dep, 苦涩#VA, 具有#VV)  (nn, 止血#NR, 清暑#NR)  (conj, 止血#NR, 利湿#NR)  (nn, 止血#NR, 升阳#NR)  (conj, 止血#NR, 发散#NR)  (nn, 止血#NR, 祛瘀#NR)  (nn, 作用#NN, 止血#NR)  (etc, 止血#NR, 等#ETC)  (dobj, 具有#VV, 作用#NN)  (case, 病症#NN, 对#P)  (nummod, 种#M, 多#CD)  (clf, 病症#NN, 种#M)  (prep, 有#VE, 病症#NN)  (advmod, 有#VE, 均#AD)  (conj, 苦涩#VA, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            生物碱  含有维生素C  琥珀酸  柠檬酸  苹果酸  糖酸  草酸  药理研究  解痉  解热  抑菌  止血  利湿  发散  一定疗效  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.清热解暑宜生用，散瘀止血宜炒炭用。
+            2.新鲜者善清夏季之暑邪，临床常与鲜藿香、鲜佩兰、西瓜翠衣等配伍应用。
+            3.既能清热解暑，又能升发脾阳，对暑热泄泻，常与扁豆等配伍应用。
+            4.此外，对脾虚气陷，大便泄泻者，也可加入补脾胃药中同用。
+        </rawdata>
+
+        <segment>
+            清热  解暑  宜  生用  ，  散瘀  止血  宜  炒炭  用  。
+            新鲜  者  善  清  夏季  之  暑邪  ，  临床  常与  鲜  藿香  、  鲜  佩兰  、  西瓜  翠衣  等  配伍  应用  。
+            既  能  清热  解暑  ，  又  能  升发  脾阳  ，  对  暑热  泄泻  ，  常  与  扁豆  等  配伍  应用  。
+            此外  ，  对  脾虚  气  陷  ，  大便  泄泻者  ，  也  可  加入  补脾  胃药  中  同用  。
+        </segment>
+
+        <pos>
+            清热#NN  解暑#VV  宜#NR  生用#NN  ，#PU  散瘀#NN  止血#NN  宜#NR  炒炭#AD  用#VV  。#PU
+            新鲜#JJ  者#NN  善#VA  清#VA  夏季#NT  之#DEG  暑邪#NN  ，#PU  临床#NN  常与#NN  鲜#VV  藿香#NR  、#PU  鲜#NR  佩兰#NR  、#PU  西瓜#NR  翠衣#NR  等#ETC  配伍#NN  应用#NN  。#PU
+            既#CC  能#VV  清热#VV  解暑#NN  ，#PU  又#AD  能#VV  升发#VV  脾阳#NN  ，#PU  对#P  暑热#NN  泄泻#VV  ，#PU  常#AD  与#P  扁豆#NN  等#ETC  配伍#VV  应用#NN  。#PU
+            此外#AD  ，#PU  对#P  脾虚#NN  气#NN  陷#NN  ，#PU  大便#AD  泄泻者#VV  ，#PU  也#AD  可#VV  加入#VV  补脾#NN  胃药#NN  中#LC  同用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 解暑#VV, 清热#NN)  (root, ROOT#null, 解暑#VV)  (nn, 生用#NN, 宜#NR)  (dobj, 解暑#VV, 生用#NN)  (nn, 止血#NN, 散瘀#NN)  (nsubj, 用#VV, 止血#NN)  (nsubj, 用#VV, 宜#NR)  (advmod, 用#VV, 炒炭#AD)  (conj, 解暑#VV, 用#VV)
+            (amod, 者#NN, 新鲜#JJ)  (nsubj, 善#VA, 者#NN)  (root, ROOT#null, 善#VA)  (comod, 善#VA, 清#VA)  (assmod, 暑邪#NN, 夏季#NT)  (case, 夏季#NT, 之#DEG)  (dobj, 善#VA, 暑邪#NN)  (nn, 常与#NN, 临床#NN)  (nsubj, 鲜#VV, 常与#NN)  (conj, 善#VA, 鲜#VV)  (conj, 翠衣#NR, 藿香#NR)  (nn, 翠衣#NR, 鲜#NR)  (conj, 翠衣#NR, 佩兰#NR)  (nn, 翠衣#NR, 西瓜#NR)  (nn, 应用#NN, 翠衣#NR)  (etc, 翠衣#NR, 等#ETC)  (nn, 应用#NN, 配伍#NN)  (dobj, 鲜#VV, 应用#NN)
+            (cc, 清热#VV, 既#CC)  (mmod, 清热#VV, 能#VV)  (root, ROOT#null, 清热#VV)  (dobj, 清热#VV, 解暑#NN)  (advmod, 升发#VV, 又#AD)  (mmod, 升发#VV, 能#VV)  (dep, 清热#VV, 升发#VV)  (dobj, 升发#VV, 脾阳#NN)  (case, 暑热#NN, 对#P)  (prep, 泄泻#VV, 暑热#NN)  (dep, 清热#VV, 泄泻#VV)  (advmod, 配伍#VV, 常#AD)  (case, 扁豆#NN, 与#P)  (prep, 配伍#VV, 扁豆#NN)  (etc, 扁豆#NN, 等#ETC)  (dep, 清热#VV, 配伍#VV)  (dobj, 配伍#VV, 应用#NN)
+            (advmod, 泄泻者#VV, 此外#AD)  (case, 陷#NN, 对#P)  (nn, 陷#NN, 脾虚#NN)  (nn, 陷#NN, 气#NN)  (prep, 泄泻者#VV, 陷#NN)  (advmod, 泄泻者#VV, 大便#AD)  (root, ROOT#null, 泄泻者#VV)  (advmod, 加入#VV, 也#AD)  (mmod, 加入#VV, 可#VV)  (ccomp, 泄泻者#VV, 加入#VV)  (nn, 胃药#NN, 补脾#NN)  (dep, 同用#NN, 胃药#NN)  (case, 胃药#NN, 中#LC)  (dobj, 加入#VV, 同用#NN)
+        </parsing>
+
+        <tag>
+            解暑生用  散瘀止血  新鲜者  临床常与  翠衣  藿香  佩兰  配伍应用  清热解暑  升发脾阳  补脾胃药  加入同用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101504584524.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\437 荷叶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,194 @@
+<content>
+
+    <id>
+        40
+    </id>
+
+    <foodname>
+        鸭腿
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        鸭肉
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            鸭肉忌与兔肉、杨梅、核桃、鳖、木耳、胡桃、大蒜、荞麦同食。
+        </rawdata>
+
+        <segment>
+            鸭肉  忌与  兔肉  、  杨梅  、  核桃  、  鳖  、  木耳  、  胡桃  、  大蒜  、  荞麦  同食  。
+        </segment>
+
+        <pos>
+            鸭肉#NN  忌与#VV  兔肉#NR  、#PU  杨梅#NR  、#PU  核桃#NR  、#PU  鳖#NR  、#PU  木耳#NR  、#PU  胡桃#NR  、#PU  大蒜#NR  、#PU  荞麦#NR  同食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 忌与#VV, 鸭肉#NN)  (root, ROOT#null, 忌与#VV)  (conj, 荞麦#NR, 兔肉#NR)  (conj, 荞麦#NR, 杨梅#NR)  (conj, 荞麦#NR, 核桃#NR)  (conj, 荞麦#NR, 鳖#NR)  (conj, 荞麦#NR, 木耳#NR)  (conj, 荞麦#NR, 胡桃#NR)  (conj, 荞麦#NR, 大蒜#NR)  (nn, 同食#NN, 荞麦#NR)  (dobj, 忌与#VV, 同食#NN)
+        </parsing>
+
+        <tag>
+            鸭肉忌与兔肉  杨梅  核桃  木耳  胡桃  大蒜  荞麦同食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸭肉是一种美味佳肴，适于滋补，是各种美味名菜的主要原料。人们常言“鸡鸭鱼肉”四大荤，鸭肉蛋白质含量比畜肉含量高得多，脂肪含量适中且分布较均匀。
+        </rawdata>
+
+        <segment>
+            鸭肉  是  一  种  美味  佳肴  ，  适于  滋补  ，  是  各  种  美味  名菜  的  主要  原料  。  人们  常言  “  鸡鸭鱼肉  ”  四大荤  ，  鸭肉  蛋白质  含量  比  畜  肉  含量  高  得  多  ，  脂肪  含量  适中  且  分布  较  均匀  。
+        </segment>
+
+        <pos>
+            鸭肉#AD  是#VC  一#CD  种#M  美味#NN  佳肴#NN  ，#PU  适于#VV  滋补#NN  ，#PU  是#VC  各#DT  种#M  美味#NN  名菜#NN  的#DEG  主要#JJ  原料#NN    。#PU  人们#NN  常言#NN  ``#NN  鸡鸭鱼肉#AD  ''#VV  四大荤#CD  ，#PU  鸭肉#NN  蛋白质#NN  含量#NN  比#P  畜#NN  肉#NN  含量#NN  高#VA  得#DER  多#VA  ，#PU  脂肪#NN  含量#NN  适中#NN  且#CC  分布#NN  较#AD  均匀#VA    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 佳肴#NN, 鸭肉#AD)  (cop, 佳肴#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 佳肴#NN, 种#M)  (nn, 佳肴#NN, 美味#NN)  (root, ROOT#null, 佳肴#NN)  (conj, 佳肴#NN, 适于#VV)  (dobj, 适于#VV, 滋补#NN)  (cop, 原料#NN, 是#VC)  (det, 美味#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 名菜#NN, 美味#NN)  (assmod, 原料#NN, 名菜#NN)  (case, 名菜#NN, 的#DEG)  (amod, 原料#NN, 主要#JJ)  (conj, 佳肴#NN, 原料#NN)   (nn, ``#NN, 人们#NN)  (nn, ``#NN, 常言#NN)  (nsubj, ''#VV, ``#NN)  (advmod, ''#VV, 鸡鸭鱼肉#AD)  (root, ROOT#null, ''#VV)  (range, ''#VV, 四大荤#CD)  (nn, 含量#NN, 鸭肉#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 多#VA, 含量#NN)  (case, 含量#NN, 比#P)  (nn, 含量#NN, 畜#NN)  (nn, 含量#NN, 肉#NN)  (prep, 多#VA, 含量#NN)  (dep, 多#VA, 高#VA)  (dep, 多#VA, 得#DER)  (conj, ''#VV, 多#VA)  (nn, 含量#NN, 脂肪#NN)  (nn, 分布#NN, 含量#NN)  (conj, 分布#NN, 适中#NN)  (cc, 分布#NN, 且#CC)  (nsubj, 均匀#VA, 分布#NN)  (advmod, 均匀#VA, 较#AD)  (conj, ''#VV, 均匀#VA)
+        </parsing>
+
+        <tag>
+            美味佳肴  适于滋补  美味名菜  原料  适中  分布均匀  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸭子吃的食物多为水生物，故其肉性昧甘、寒，入肺胃肾经，有滋补、养胃、补肾、除痨热骨蒸、消水肿、止热痢、止咳化痰等作用。
+        </rawdata>
+
+        <segment>
+            鸭子  吃  的  食物  多  为  水  生物  ，  故  其  肉性  昧甘  、  寒  ，  入  肺  胃  肾经  ，  有  滋补  、  养  胃  、  补肾  、  除痨  热  骨蒸  、  消  水肿  、  止  热痢  、  止咳  化痰  等  作用  。
+        </segment>
+
+        <pos>
+            鸭子#AD  吃#VV  的#DEC  食物#NN  多#AD  为#VC  水#NN  生物#NN  ，#PU  故#AD  其#PN  肉性#VV  昧甘#NN  、#PU  寒#JJ  ，#PU  入#VV  肺#NN  胃#NN  肾经#NN  ，#PU  有#VE  滋补#NN  、#PU  养#VV  胃#NR  、#PU  补肾#NR  、#PU  除痨#NR  热#JJ  骨蒸#NN  、#PU  消#VV  水肿#NN  、#PU  止#VV  热痢#NN  、#PU  止咳#NN  化痰#NN  等#ETC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 吃#VV, 鸭子#AD)  (relcl, 食物#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, 生物#NN, 食物#NN)  (advmod, 生物#NN, 多#AD)  (cop, 生物#NN, 为#VC)  (nn, 生物#NN, 水#NN)  (root, ROOT#null, 生物#NN)  (advmod, 肉性#VV, 故#AD)  (nsubj, 肉性#VV, 其#PN)  (conj, 生物#NN, 肉性#VV)  (dobj, 肉性#VV, 昧甘#NN)  (conj, 肉性#VV, 寒#JJ)  (conj, 肉性#VV, 入#VV)  (nn, 肾经#NN, 肺#NN)  (nn, 肾经#NN, 胃#NN)  (dobj, 入#VV, 肾经#NN)  (conj, 肉性#VV, 有#VE)  (dobj, 有#VE, 滋补#NN)  (conj, 肉性#VV, 养#VV)  (conj, 除痨#NR, 胃#NR)  (conj, 除痨#NR, 补肾#NR)  (nn, 骨蒸#NN, 除痨#NR)  (amod, 骨蒸#NN, 热#JJ)  (dobj, 养#VV, 骨蒸#NN)  (conj, 肉性#VV, 消#VV)  (dobj, 消#VV, 水肿#NN)  (conj, 肉性#VV, 止#VV)  (conj, 化痰#NN, 热痢#NN)  (nn, 化痰#NN, 止咳#NN)  (nn, 作用#NN, 化痰#NN)  (etc, 化痰#NN, 等#ETC)  (dobj, 止#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            吃食物  肉性昧甘  除痨  补肾  热骨蒸  热痢  止咳化痰  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鸭腿中的脂肪酸熔点低，易于消化。
+            2.所含B族维生素和维生素E较其他肉类多，能有效抵抗脚气病，神经炎和多种炎症，还能抗衰老。
+            3.鸭腿中含有较为丰富的烟酸，它是构成人体内两种重要辅酶的成分之一，对心肌梗死等心脏疾病患者有保护作用。
+        </rawdata>
+
+        <segment>
+            鸭  腿  中  的  脂肪酸  熔点  低  ，  易于  消化  。
+            所  含  B  族  维生素  和  维生素E  较  其他  肉类  多  ，  能  有效  抵抗  脚气病  ，  神经炎  和  多种  炎症  ，  还  能  抗  衰老  。
+            鸭  腿  中  含有  较为  丰富  的  烟酸  ，  它  是  构成  人体  内  两  种  重要  辅酶  的  成分之一  ，  对  心肌梗死  等  心脏  疾病  患者  有  保护  作用  。
+        </segment>
+
+        <pos>
+            鸭#NN  腿#NN  中#LC  的#DEG  脂肪酸#NN  熔点#AD  低#VA  ，#PU  易于#VV  消化#NN  。#PU
+            所#MSP  含#VV  B#NN  族#NN  维生素#NN  和#CC  维生素E#NN  较#P  其他#DT  肉类#NN  多#VA  ，#PU  能#VV  有效#AD  抵抗#VV  脚气病#NN  ，#PU  神经炎#NN  和#CC  多种#NN  炎症#NN  ，#PU  还#AD  能#VV  抗#VV  衰老#NN  。#PU
+            鸭#NN  腿#NN  中#LC  含有#NN  较为#AD  丰富#VA  的#DEC  烟酸#NN  ，#PU  它#PN  是#VC  构成#NN  人体#NN  内#LC  两#CD  种#M  重要#JJ  辅酶#NN  的#DEG  成分之一#CD  ，#PU  对#P  心肌梗死#NN  等#ETC  心脏#NN  疾病#NN  患者#NN  有#VE  保护#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 腿#NN, 鸭#NN)  (assmod, 脂肪酸#NN, 腿#NN)  (case, 腿#NN, 中#LC)  (case, 腿#NN, 的#DEG)  (nsubj, 低#VA, 脂肪酸#NN)  (advmod, 低#VA, 熔点#AD)  (root, ROOT#null, 低#VA)  (dep, 低#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)
+            (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 含#VV, 维生素#NN)  (cc, 含#VV, 和#CC)  (nsubj, 多#VA, 维生素E#NN)  (case, 肉类#NN, 较#P)  (det, 肉类#NN, 其他#DT)  (prep, 多#VA, 肉类#NN)  (dep, 含#VV, 多#VA)  (mmod, 抵抗#VV, 能#VV)  (advmod, 抵抗#VV, 有效#AD)  (conj, 含#VV, 抵抗#VV)  (dobj, 抵抗#VV, 脚气病#NN)  (conj, 多种#NN, 神经炎#NN)  (cc, 多种#NN, 和#CC)  (nn, 炎症#NN, 多种#NN)  (nsubj, 抗#VV, 炎症#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 能#VV)  (dep, 含#VV, 抗#VV)  (dobj, 抗#VV, 衰老#NN)
+            (nn, 腿#NN, 鸭#NN)  (loc, 丰富#VA, 腿#NN)  (case, 腿#NN, 中#LC)  (nsubj, 丰富#VA, 含有#NN)  (advmod, 丰富#VA, 较为#AD)  (relcl, 烟酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 是#VC, 烟酸#NN)  (nsubj, 是#VC, 它#PN)  (root, ROOT#null, 是#VC)  (nn, 人体#NN, 构成#NN)  (dep, 辅酶#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (nummod, 种#M, 两#CD)  (clf, 辅酶#NN, 种#M)  (amod, 辅酶#NN, 重要#JJ)  (assmod, 成分之一#CD, 辅酶#NN)  (case, 辅酶#NN, 的#DEG)  (dep, 是#VC, 成分之一#CD)  (case, 患者#NN, 对#P)  (nn, 疾病#NN, 心肌梗死#NN)  (etc, 心肌梗死#NN, 等#ETC)  (nn, 疾病#NN, 心脏#NN)  (nn, 患者#NN, 疾病#NN)  (prep, 有#VE, 患者#NN)  (conj, 是#VC, 有#VE)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            脂肪酸  易于消化  抵抗脚气病  神经炎  多种炎症  含有丰富  烟酸丰富  构成人体  心肌梗死疾病  心脏疾病  疾病患者  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.烹调时加入少量盐，肉汤会更鲜美。
+            2.公鸭肉性微寒，母鸡肉性微温。入药以老而白、白而骨乌者为佳。用老而肥大之鸭同海参炖食，具有很大的滋补功效，炖出的鸭汁，善补五脏之阴和虚痨之热。
+            3.鸭肉与海带共炖食，可软化血管，降低血压，对老年性动脉硬化和高血压、心脏病有较好的疗效。
+            4.鸭肉与竹笋共炖食，可治疗老年人痔疮下血。因此，民间认为鸭是“补虚劳的圣药”。
+        </rawdata>
+
+        <segment>
+            烹调  时  加入  少量  盐  ，  肉汤  会  更  鲜美  。
+            公鸭  肉  性微寒  ，  母鸡  肉  性  微温  。  入药  以  老而  白  、  白  而  骨乌者  为佳  。  用  老而  肥大  之  鸭  同  海参  炖食  ，  具有  很  大  的  滋补  功效  ，  炖  出  的  鸭汁  ，  善  补  五  脏  之  阴  和  虚痨  之  热  。
+            鸭肉  与  海带  共  炖食  ，  可  软化  血管  ，  降低  血压  ，  对  老年性  动脉  硬化  和  高血压  、  心脏病  有  较好  的  疗效  。
+            鸭肉  与  竹笋  共  炖  食  ，  可治疗  老年人  痔疮  下  血  。  因此  ，  民间  认为  鸭  是  “  补  虚  劳  的  圣药  ”  。
+        </segment>
+
+        <pos>
+            烹调#NN  时#LC  加入#VV  少量#CD  盐#NN  ，#PU  肉汤#NN  会#VV  更#AD  鲜美#VV  。#PU
+            公鸭#NN  肉#NN  性微寒#VV  ，#PU  母鸡#VV  肉#NN  性#NN  微温#NN    。#PU  入药#NN  以#P  老而#NR  白#NR  、#PU  白#NR  而#CC  骨乌者#NR  为佳#VV    。#PU  用#P  老而#NN  肥大#NN  之#DEG  鸭#NN  同#P  海参#NR  炖食#VV  ，#PU  具有#VV  很#AD  大#VA  的#DEC  滋补#NN  功效#NN  ，#PU  炖#VV  出#VV  的#DEC  鸭汁#NN  ，#PU  善#VA  补#VV  五#CD  脏#NN  之#DEG  阴#NN  和#CC  虚痨#NN  之#DEG  热#NN    。#PU    。#PU
+            鸭肉#NR  与#CC  海带#NR  共#AD  炖食#VV  ，#PU  可#VV  软化#VV  血管#NN  ，#PU  降低#VV  血压#NN  ，#PU  对#P  老年性#NN  动脉#NN  硬化#NN  和#CC  高血压#NN  、#PU  心脏病#NN  有#VE  较好#JJ  的#DEG  疗效#NN  。#PU
+            鸭肉#NN  与#CC  竹笋#NN  共#AD  炖#VV  食#NN  ，#PU  可治疗#VV  老年人#NN  痔疮#NN  下#LC  血#NN    。#PU  因此#AD  ，#PU  民间#NN  认为#VV  鸭#AD  是#VC  ``#NN  补#NN  虚#AD  劳#NN  的#DEG  圣药#NN  ''#VV    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 加入#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (root, ROOT#null, 加入#VV)  (nummod, 盐#NN, 少量#CD)  (dobj, 加入#VV, 盐#NN)  (nsubj, 鲜美#VV, 肉汤#NN)  (mmod, 鲜美#VV, 会#VV)  (advmod, 鲜美#VV, 更#AD)  (conj, 加入#VV, 鲜美#VV)
+            (nn, 肉#NN, 公鸭#NN)  (nsubj, 性微寒#VV, 肉#NN)  (root, ROOT#null, 性微寒#VV)  (ccomp, 性微寒#VV, 母鸡#VV)  (nn, 微温#NN, 肉#NN)  (nn, 微温#NN, 性#NN)  (dobj, 母鸡#VV, 微温#NN)   (nsubj, 为佳#VV, 入药#NN)  (case, 骨乌者#NR, 以#P)  (nn, 骨乌者#NR, 老而#NR)  (conj, 骨乌者#NR, 白#NR)  (conj, 骨乌者#NR, 白#NR)  (cc, 骨乌者#NR, 而#CC)  (prep, 为佳#VV, 骨乌者#NR)  (root, ROOT#null, 为佳#VV)   (case, 鸭#NN, 用#P)  (nn, 肥大#NN, 老而#NN)  (assmod, 鸭#NN, 肥大#NN)  (case, 肥大#NN, 之#DEG)  (prep, 炖食#VV, 鸭#NN)  (case, 海参#NR, 同#P)  (prep, 炖食#VV, 海参#NR)  (root, ROOT#null, 炖食#VV)  (conj, 炖食#VV, 具有#VV)  (advmod, 大#VA, 很#AD)  (relcl, 功效#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nn, 功效#NN, 滋补#NN)  (dobj, 具有#VV, 功效#NN)  (conj, 炖食#VV, 炖#VV)  (relcl, 鸭汁#NN, 出#VV)  (mark, 出#VV, 的#DEC)  (dobj, 炖#VV, 鸭汁#NN)  (conj, 炖食#VV, 善#VA)  (conj, 炖食#VV, 补#VV)  (nummod, 脏#NN, 五#CD)  (assmod, 阴#NN, 脏#NN)  (case, 脏#NN, 之#DEG)  (conj, 虚痨#NN, 阴#NN)  (cc, 虚痨#NN, 和#CC)  (assmod, 热#NN, 虚痨#NN)  (case, 虚痨#NN, 之#DEG)  (dobj, 补#VV, 热#NN)   (root, ROOT#null, null#null)
+            (conj, 海带#NR, 鸭肉#NR)  (cc, 海带#NR, 与#CC)  (nsubj, 炖食#VV, 海带#NR)  (xsubj, 软化#VV, 海带#NR)  (advmod, 炖食#VV, 共#AD)  (root, ROOT#null, 炖食#VV)  (mmod, 软化#VV, 可#VV)  (ccomp, 炖食#VV, 软化#VV)  (dobj, 软化#VV, 血管#NN)  (conj, 软化#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (case, 心脏病#NN, 对#P)  (nn, 心脏病#NN, 老年性#NN)  (nn, 心脏病#NN, 动脉#NN)  (conj, 心脏病#NN, 硬化#NN)  (cc, 心脏病#NN, 和#CC)  (conj, 心脏病#NN, 高血压#NN)  (prep, 有#VE, 心脏病#NN)  (conj, 软化#VV, 有#VE)  (assmod, 疗效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)
+            (conj, 竹笋#NN, 鸭肉#NN)  (cc, 竹笋#NN, 与#CC)  (nsubj, 炖#VV, 竹笋#NN)  (advmod, 炖#VV, 共#AD)  (root, ROOT#null, 炖#VV)  (dobj, 炖#VV, 食#NN)  (conj, 炖#VV, 可治疗#VV)  (nn, 痔疮#NN, 老年人#NN)  (dep, 血#NN, 痔疮#NN)  (case, 痔疮#NN, 下#LC)  (dobj, 可治疗#VV, 血#NN)   (advmod, 认为#VV, 因此#AD)  (nsubj, 认为#VV, 民间#NN)  (xsubj, ``#NN, 民间#NN)  (root, ROOT#null, 认为#VV)  (advmod, ``#NN, 鸭#AD)  (cop, ``#NN, 是#VC)  (ccomp, 认为#VV, ``#NN)  (nsubj, ''#VV, 补#NN)  (advmod, ''#VV, 虚#AD)  (assmod, 圣药#NN, 劳#NN)  (case, 劳#NN, 的#DEG)  (prep, ''#VV, 圣药#NN)  (dep, 认为#VV, ''#VV)
+        </parsing>
+
+        <tag>
+            加入盐  母鸡微温  为佳  老而肥大  炖食  滋补功效  出鸭汁  海带  鸭肉  软化血管  降低血压  老年性心脏病  动脉心脏病  硬化  高血压  竹笋  老年人痔疮  可治疗血  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081646509021.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\40 鸭腿.jpg
+    </picturelocalurl>
+
+</content>

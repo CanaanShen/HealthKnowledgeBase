@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1107
+    </id>
+
+    <foodname>
+        全脂奶粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不宜用沸水冲调奶粉。奶粉忌日晒、潮湿，用后须排出袋内空气，扎紧袋口保存；不要空腹喝牛奶，同时还应吃些面包、糕点等，以延长牛奶在消化道中的停留时间，使其得到充分消化;胃功能较弱的人不宜大量饮用；肾病患者不宜过多饮用。
+        </rawdata>
+
+        <segment>
+            不宜用  沸水  冲  调  奶粉  。  奶粉  忌日  晒  、  潮湿  ，  用后  须  排出  袋内  空气  ，  扎紧  袋口  保存  ；  不要  空腹  喝  牛奶  ，  同时  还  应  吃  些  面包  、  糕点  等  ，  以  延长  牛奶  在  消化道  中  的  停留  时间  ，  使  其  得到  充分  消化  ;  胃  功能  较弱  的  人  不  宜  大量  饮用  ；  肾病  患者  不  宜  过多  饮用  。
+        </segment>
+
+        <pos>
+            不宜用#NN  沸水#VV  冲#NN  调#NN  奶粉#NN    。#PU  奶粉#VV  忌日#NN  晒#NN  、#PU  潮湿#VV  ，#PU  用后#AD  须#VV  排出#NN  袋内#NN  空气#NN  ，#PU  扎紧#VV  袋口#NN  保存#NN  ；#PU  不要#VV  空腹#NN  喝#NN  牛奶#NN  ，#PU  同时#AD  还#AD  应#VV  吃#VV  些#CD  面包#NR  、#PU  糕点#NR  等#ETC  ，#PU  以#MSP  延长#VV  牛奶#NN  在#P  消化道#NN  中#LC  的#DEG  停留#NN  时间#NN  ，#PU  使#VV  其#PN  得到#VV  充分#JJ  消化#NN  ;#NN  胃#NN  功能#NN  较弱#NN  的#DEC  人#NN  不#AD  宜#NR  大量#AD  饮用#VV  ；#PU  肾病#NN  患者#NN  不#AD  宜#NR  过多#VV  饮用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 沸水#VV, 不宜用#NN)  (root, ROOT#null, 沸水#VV)  (nn, 奶粉#NN, 冲#NN)  (nn, 奶粉#NN, 调#NN)  (dobj, 沸水#VV, 奶粉#NN)   (relcl, 人#NN, 奶粉#VV)  (nn, 晒#NN, 忌日#NN)  (dobj, 奶粉#VV, 晒#NN)  (conj, 奶粉#VV, 潮湿#VV)  (advmod, 须#VV, 用后#AD)  (conj, 奶粉#VV, 须#VV)  (nn, 空气#NN, 排出#NN)  (nn, 空气#NN, 袋内#NN)  (dobj, 须#VV, 空气#NN)  (conj, 奶粉#VV, 扎紧#VV)  (nn, 保存#NN, 袋口#NN)  (dobj, 扎紧#VV, 保存#NN)  (conj, 奶粉#VV, 不要#VV)  (nn, 牛奶#NN, 空腹#NN)  (nn, 牛奶#NN, 喝#NN)  (dobj, 不要#VV, 牛奶#NN)  (advmod, 吃#VV, 同时#AD)  (advmod, 吃#VV, 还#AD)  (mmod, 吃#VV, 应#VV)  (conj, 奶粉#VV, 吃#VV)  (nummod, 糕点#NR, 些#CD)  (conj, 糕点#NR, 面包#NR)  (dobj, 吃#VV, 糕点#NR)  (etc, 糕点#NR, 等#ETC)  (prtmod, 延长#VV, 以#MSP)  (conj, 奶粉#VV, 延长#VV)  (nn, 时间#NN, 牛奶#NN)  (case, 消化道#NN, 在#P)  (assmod, 时间#NN, 消化道#NN)  (case, 消化道#NN, 中#LC)  (case, 消化道#NN, 的#DEG)  (nn, 时间#NN, 停留#NN)  (dobj, 延长#VV, 时间#NN)  (conj, 奶粉#VV, 使#VV)  (nsubj, 得到#VV, 其#PN)  (ccomp, 使#VV, 得到#VV)  (amod, 较弱#NN, 充分#JJ)  (nn, 较弱#NN, 消化#NN)  (nn, 较弱#NN, ;#NN)  (nn, 较弱#NN, 胃#NN)  (nn, 较弱#NN, 功能#NN)  (dobj, 得到#VV, 较弱#NN)  (mark, 奶粉#VV, 的#DEC)  (nsubj, 饮用#VV, 人#NN)  (neg, 饮用#VV, 不#AD)  (dobj, 饮用#VV, 宜#NR)  (advmod, 饮用#VV, 大量#AD)  (root, ROOT#null, 饮用#VV)  (nn, 患者#NN, 肾病#NN)  (nsubj, 过多#VV, 患者#NN)  (neg, 过多#VV, 不#AD)  (prep, 过多#VV, 宜#NR)  (ccomp, 饮用#VV, 过多#VV)  (dobj, 过多#VV, 饮用#NN)
+        </parsing>
+
+        <tag>
+            不宜用沸水冲调奶粉  奶粉忌日晒  潮湿  用后须排出袋内空气  扎紧袋口保存  不要空腹喝牛奶  还应吃些面包  糕点  以延长牛奶  消化道中  停留时间  使其得到充分消化  胃功能较弱  人不宜大量饮用  肾病  患者  不宜过多饮用  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            全脂奶粉用纯乳生产的，基本保持了乳中的原有营养成分，蛋白质不低于24%，脂肪不低于26%，乳糖不低于37%。生产1千克全脂奶粉约需8－9千克牛奶，食用时每份奶粉需8倍的温开水冲调。全脂的脂肪比低脂和脱脂高。
+        </rawdata>
+
+        <segment>
+            全脂  奶粉  用  纯乳  生产  的  ，  基本  保持  了乳  中  的  原  有  营养  成分  ，  蛋白质  不  低于  24%  ，  脂肪  不  低于  26%  ，  乳糖  不  低于  37%  。  生产  1千  克  全脂  奶粉  约需  8－9千  克  牛奶  ，  食用  时  每  份  奶粉  需  8  倍  的  温开水  冲调  。  全脂  的  脂肪  比  低脂  和  脱脂  高  。
+        </segment>
+
+        <pos>
+            全脂#VV  奶粉#AD  用#VV  纯乳#NN  生产#NN  的#DEC  ，#PU  基本#AD  保持#VV  了乳#NN  中#LC  的#DEG  原#AD  有#VE  营养#VA  成分#NN  ，#PU  蛋白质#AD  不#AD  低于#VV  24#CD  %#NN  ，#PU  脂肪#AD  不#AD  低于#VV  26#CD  %#NN  ，#PU  乳糖#AD  不#AD  低于#VV  37#CD  %#NN    。#PU  生产#NN  1千#CD  克#M  全脂#NN  奶粉#NN  约需#NN  8#CD  －#PU  9千#CD  克#M  牛奶#NN  ，#PU  食用#VV  时#LC  每#DT  份#M  奶粉#AD  需#VV  8#CD  倍#M  的#DEC  温开水#NN  冲调#VV    。#PU  全脂#NN  的#DEG  脂肪#NN  比#P  低脂#NN  和#CC  脱脂#NN  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 全脂#VV)  (advmod, 用#VV, 奶粉#AD)  (dobj, 全脂#VV, 用#VV)  (nn, 生产#NN, 纯乳#NN)  (dobj, 用#VV, 生产#NN)  (mark, 用#VV, 的#DEC)  (advmod, 保持#VV, 基本#AD)  (conj, 全脂#VV, 保持#VV)  (assmod, %#NN, 了乳#NN)  (case, 了乳#NN, 中#LC)  (case, 了乳#NN, 的#DEG)  (advmod, 有#VE, 原#AD)  (nfincl, %#NN, 有#VE)  (nfincl, 成分#NN, 营养#VA)  (dobj, 有#VE, 成分#NN)  (advmod, 低于#VV, 蛋白质#AD)  (neg, 低于#VV, 不#AD)  (dep, 有#VE, 低于#VV)  (range, 低于#VV, 24#CD)  (dobj, 保持#VV, %#NN)  (advmod, 低于#VV, 脂肪#AD)  (neg, 低于#VV, 不#AD)  (conj, 全脂#VV, 低于#VV)  (nummod, %#NN, 26#CD)  (dobj, 低于#VV, %#NN)  (advmod, 低于#VV, 乳糖#AD)  (neg, 低于#VV, 不#AD)  (conj, 全脂#VV, 低于#VV)  (nummod, %#NN, 37#CD)  (dobj, 低于#VV, %#NN)   (nn, 约需#NN, 生产#NN)  (nummod, 克#M, 1千#CD)  (clf, 约需#NN, 克#M)  (nn, 约需#NN, 全脂#NN)  (nn, 约需#NN, 奶粉#NN)  (dep, 克#M, 约需#NN)  (dep, 克#M, 8#CD)  (nummod, 克#M, 9千#CD)  (clf, 牛奶#NN, 克#M)  (nsubj, 冲调#VV, 牛奶#NN)  (loc, 冲调#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (det, 温开水#NN, 每#DT)  (clf, 每#DT, 份#M)  (advmod, 需#VV, 奶粉#AD)  (relcl, 温开水#NN, 需#VV)  (nummod, 倍#M, 8#CD)  (range, 需#VV, 倍#M)  (mark, 需#VV, 的#DEC)  (nsubj, 冲调#VV, 温开水#NN)  (root, ROOT#null, 冲调#VV)   (assmod, 脂肪#NN, 全脂#NN)  (case, 全脂#NN, 的#DEG)  (nsubj, 高#VA, 脂肪#NN)  (case, 脱脂#NN, 比#P)  (conj, 脱脂#NN, 低脂#NN)  (cc, 脱脂#NN, 和#CC)  (prep, 高#VA, 脱脂#NN)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+            纯乳生产  生产约需  全脂约需  奶粉约需  需温开水  冲调  脱脂  低脂  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            全脂奶粉含有牛奶中的优质蛋白质、脂肪、多种维生素以及钙、磷、铁等矿物质，是适合天天饮用的营养佳品，可防止皮肤干燥及暗沉，使皮肤白皙，有光泽；也可补充丰富的钙质
+        </rawdata>
+
+        <segment>
+            全脂  奶粉  含有  牛奶  中  的  优质  蛋白质  、  脂肪  、  多  种  维生素  以及  钙  、  磷  、  铁  等  矿物质  ，  是  适合  天天  饮用  的  营养  佳品  ，  可防止  皮肤  干燥  及  暗沉  ，  使  皮肤  白皙  ，  有光泽  ；  也  可  补充  丰富  的  钙质
+        </segment>
+
+        <pos>
+            全脂#VV  奶粉#NN  含有#NN  牛奶#NN  中#LC  的#DEG  优质#JJ  蛋白质#NN  、#PU  脂肪#NN  、#PU  多#CD  种#M  维生素#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  是#VC  适合#VV  天天#NN  饮用#NN  的#DEC  营养#VA  佳品#NN  ，#PU  可防止#AD  皮肤#VV  干燥#NN  及#CC  暗沉#NN  ，#PU  使#VV  皮肤#NN  白皙#NN  ，#PU  有光泽#VV  ；#PU  也#AD  可#VV  补充#VV  丰富#VA  的#DEC  钙质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 全脂#VV)  (nn, 牛奶#NN, 奶粉#NN)  (nn, 牛奶#NN, 含有#NN)  (assmod, 蛋白质#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (nummod, 种#M, 多#CD)  (clf, 钙#NN, 种#M)  (conj, 钙#NN, 维生素#NN)  (cc, 钙#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 全脂#VV, 矿物质#NN)  (cop, 佳品#NN, 是#VC)  (relcl, 佳品#NN, 适合#VV)  (nn, 饮用#NN, 天天#NN)  (dobj, 适合#VV, 饮用#NN)  (mark, 适合#VV, 的#DEC)  (nfincl, 佳品#NN, 营养#VA)  (conj, 全脂#VV, 佳品#NN)  (advmod, 皮肤#VV, 可防止#AD)  (conj, 全脂#VV, 皮肤#VV)  (conj, 暗沉#NN, 干燥#NN)  (cc, 暗沉#NN, 及#CC)  (dobj, 皮肤#VV, 暗沉#NN)  (conj, 全脂#VV, 使#VV)  (nn, 白皙#NN, 皮肤#NN)  (dobj, 使#VV, 白皙#NN)  (dep, 使#VV, 有光泽#VV)  (advmod, 补充#VV, 也#AD)  (mmod, 补充#VV, 可#VV)  (conj, 全脂#VV, 补充#VV)  (relcl, 钙质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 补充#VV, 钙质#NN)
+        </parsing>
+
+        <tag>
+            奶粉牛奶  含有牛奶  优质蛋白质  全脂矿物质  适合佳品  天天饮用  适合饮用  干燥  皮肤暗沉  皮肤白皙  钙质丰富  补充钙质  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  辅助降血压  美容养颜  促进组织生长
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            不要购买漏气及结块奶粉
+        </rawdata>
+
+        <segment>
+            不要  购买  漏气  及  结块  奶粉
+        </segment>
+
+        <pos>
+            不要#NN  购买#VV  漏气#NN  及#CC  结块#NN  奶粉#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 购买#VV, 不要#NN)  (root, ROOT#null, 购买#VV)  (conj, 奶粉#NN, 漏气#NN)  (cc, 奶粉#NN, 及#CC)  (nn, 奶粉#NN, 结块#NN)  (dobj, 购买#VV, 奶粉#NN)
+        </parsing>
+
+        <tag>
+            漏气  结块奶粉  购买奶粉  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/4c/39/14668_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1107 全脂奶粉.jpg
+    </picturelocalurl>
+
+</content>

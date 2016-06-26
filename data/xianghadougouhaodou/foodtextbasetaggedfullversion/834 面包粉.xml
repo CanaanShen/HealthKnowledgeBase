@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        834
+    </id>
+
+    <foodname>
+        面包粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            面包粉，硬麦制作而成，面筋含量高，一般控制在32.5~34.0%之间。面筋质量好、韧性大、弹性好，吹泡体积大。国外已发展到白面包专用粉、汉堡包专用粉、油炸面包专用粉等。
+        </rawdata>
+
+        <segment>
+            面包粉  ，  硬麦  制作  而  成  ，  面筋  含量  高  ，  一般  控制  在  .5~34.0%  之间  。  面筋质  量好  、  韧性  大  、  弹性  好  ，  吹泡  体积  大  。  国外  已  发展  到  白面包  专用  粉  、  汉堡包  专用  粉  、  油  炸  面包  专用  粉等  。
+        </segment>
+
+        <pos>
+            面包粉#VV  ，#PU  硬麦#NN  制作#VV  而#MSP  成#VV  ，#PU  面筋#NN  含量#NN  高#VA  ，#PU  一般#AD  控制#VV  在#P  .5#CD  ~#NN  34.0#CD  %#NN  之间#LC    。#PU  面筋质#AD  量好#VA  、#PU  韧性#AD  大#VA  、#PU  弹性#AD  好#VA  ，#PU  吹泡#NN  体积#NN  大#VA    。#PU  国外#NN  已#AD  发展#VV  到#VV  白面包#NR  专用#JJ  粉#NN  、#PU  汉堡包#NR  专用#JJ  粉#NN  、#PU  油#NN  炸#VV  面包#NR  专用#JJ  粉等#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 面包粉#VV)  (nsubj, 制作#VV, 硬麦#NN)  (ccomp, 面包粉#VV, 制作#VV)  (prtmod, 成#VV, 而#MSP)  (dep, 制作#VV, 成#VV)  (nn, 含量#NN, 面筋#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 制作#VV, 高#VA)  (advmod, 控制#VV, 一般#AD)  (conj, 制作#VV, 控制#VV)  (case, %#NN, 在#P)  (nummod, ~#NN, .5#CD)  (nummod, %#NN, 34.0#CD)  (prep, 控制#VV, %#NN)  (case, %#NN, 之间#LC)   (advmod, 量好#VA, 面筋质#AD)  (root, ROOT#null, 量好#VA)  (advmod, 大#VA, 韧性#AD)  (conj, 量好#VA, 大#VA)  (advmod, 好#VA, 弹性#AD)  (conj, 量好#VA, 好#VA)  (nn, 体积#NN, 吹泡#NN)  (dep, 大#VA, 体积#NN)  (dep, 量好#VA, 大#VA)   (nsubj, 发展#VV, 国外#NN)  (advmod, 发展#VV, 已#AD)  (root, ROOT#null, 发展#VV)  (comod, 发展#VV, 到#VV)  (nn, 粉#NN, 白面包#NR)  (amod, 粉#NN, 专用#JJ)  (conj, 油#NN, 粉#NN)  (nn, 粉#NN, 汉堡包#NR)  (amod, 粉#NN, 专用#JJ)  (conj, 油#NN, 粉#NN)  (nsubj, 炸#VV, 油#NN)  (ccomp, 发展#VV, 炸#VV)  (nn, 粉等#NN, 面包#NR)  (amod, 粉等#NN, 专用#JJ)  (dobj, 炸#VV, 粉等#NN)
+        </parsing>
+
+        <tag>
+            吹泡体积  发展  专用粉  专用粉等  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/1a/31/12570_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\834 面包粉.jpg
+    </picturelocalurl>
+
+</content>

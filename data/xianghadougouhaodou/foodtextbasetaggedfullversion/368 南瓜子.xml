@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        368
+    </id>
+
+    <foodname>
+        南瓜子
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        北瓜子、南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子、南瓜子仁
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃热病人慎食。
+        </rawdata>
+
+        <segment>
+            胃  热  病人  慎食  。
+        </segment>
+
+        <pos>
+            胃#VV  热#NN  病人#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胃#VV)  (nn, 慎食#NN, 热#NN)  (nn, 慎食#NN, 病人#NN)  (dobj, 胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            胃热病人  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜卫生条件较差地区人群、蛔虫病，蛲虫病，绦虫病，钩虫病、血吸虫病患者，和后手足浮肿和缺乳、糖尿病、前列腺肥大患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  卫生  条件  较差  地区  人群  、  蛔虫病  ，  蛲虫病  ，  绦虫病  ，  钩虫病  、  血吸虫病  患者  ，  和  后  手足  浮肿  和  缺乳  、  糖尿病  、  前列腺  肥大  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  卫生#NN  条件#NN  较差#NN  地区#NN  人群#NN  、#PU  蛔虫病#NN  ，#PU  蛲虫病#NN  ，#PU  绦虫病#NN  ，#PU  钩虫病#NN  、#PU  血吸虫病#NN  患者#NN  ，#PU  和#CC  后#DT  手足#NN  浮肿#NN  和#CC  缺乳#NN  、#PU  糖尿病#NN  、#PU  前列腺#NN  肥大#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NR)  (root, ROOT#null, 适宜#VV)  (nn, 人群#NN, 卫生#NN)  (nn, 人群#NN, 条件#NN)  (nn, 人群#NN, 较差#NN)  (nn, 人群#NN, 地区#NN)  (conj, 患者#NN, 人群#NN)  (dep, 患者#NN, 蛔虫病#NN)  (dep, 患者#NN, 蛲虫病#NN)  (dep, 患者#NN, 绦虫病#NN)  (conj, 患者#NN, 钩虫病#NN)  (nn, 患者#NN, 血吸虫病#NN)  (dep, 患者#NN, 患者#NN)  (cc, 患者#NN, 和#CC)  (det, 患者#NN, 后#DT)  (nn, 患者#NN, 手足#NN)  (conj, 患者#NN, 浮肿#NN)  (cc, 患者#NN, 和#CC)  (conj, 患者#NN, 缺乳#NN)  (conj, 患者#NN, 糖尿病#NN)  (nn, 患者#NN, 前列腺#NN)  (nn, 患者#NN, 肥大#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  卫生条件较差地区人群  蛔虫病  蛲虫病  绦虫病  钩虫病  血吸虫病  患者  后手足浮肿  缺乳  糖尿病  前列腺肥大  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                566
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                33.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                36.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                143.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                13.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                1159
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                102
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                20.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.78
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.64
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            南瓜子为葫芦科一年生蔓生藤本植物南瓜的种子。主产于浙江、江苏、河北、山东、山西、四川等地。夏、秋果实成熟时采收，取子，晒干。种子扁椭圆形，一端较长，外表面黄白色，边缘稍有棱，长约1.2～2.0cm，宽0.6～1.2cm，表面稍有毛茸。种皮较厚，种脐位于尖的一端。除去种皮，可见绿色菲薄胚乳，内有两枚黄色肥厚子叶。气香，性平，味微甘。主治驱虫，消肿。用于治绦虫、蛔虫、产后手足浮肿、百日咳、痔疮。
+        </rawdata>
+
+        <segment>
+            南瓜子  为  葫芦科  一  年  生  蔓生  藤本  植物  南瓜  的  种子  。  主产  于  浙江  、  江苏  、  河北  、  山东  、  山西  、  四川  等地  。  夏  、  秋  果实  成熟  时  采收  ，  取子  ，  晒干  。  种子  扁  椭圆形  ，  一  端  较长  ，  外表  面黄  白色  ，  边缘  稍有棱  ，  长约  2～2.0cm  ，  宽  0.6～1.2cm  ，  表面  稍  有  毛茸  。  种皮  较厚  ，  种脐  位于  尖  的  一  端  。  除去  种皮  ，  可  见  绿色  菲薄  胚乳  ，  内有  两  枚  黄色  肥厚  子叶  。  气香  ，  性平  ，  味  微甘  。  主治  驱虫  ，  消肿  。  用于  治  绦虫  、  蛔虫  、  产后  手足  浮肿  、  百日咳  、  痔疮  。
+        </segment>
+
+        <pos>
+            南瓜子#NR  为#P  葫芦科#VV  一#CD  年#M  生#VV  蔓生#VV  藤本#NN  植物#NN  南瓜#NN  的#DEC  种子#NN    。#PU  主产#NN  于#P  浙江#NR  、#PU  江苏#NR  、#PU  河北#NR  、#PU  山东#NR  、#PU  山西#NR  、#PU  四川#NR  等地#VV    。#PU  夏#NN  、#PU  秋#NN  果实#NN  成熟#VA  时#LC  采收#VV  ，#PU  取子#NN  ，#PU  晒干#VV    。#PU  种子#NN  扁#NN  椭圆形#NN  ，#PU  一#CD  端#NN  较长#VV  ，#PU  外表#NN  面黄#VV  白色#JJ  ，#PU  边缘#NN  稍有棱#NN  ，#PU  长约#VV  2#CD  ～#NN  2.0#CD  cm#NN  ，#PU  宽#VA  0.6#CD  ～#NN  1.2#CD  cm#NN  ，#PU  表面#NN  稍#AD  有#VE  毛茸#NN    。#PU  种皮#NN  较厚#VV  ，#PU  种脐#NR  位于#VV  尖#NN  的#DEG  一#CD  端#NN    。#PU  除去#P  种皮#NN  ，#PU  可#VV  见#VV  绿色#JJ  菲薄#NN  胚乳#NN  ，#PU  内有#VV  两#CD  枚#M  黄色#JJ  肥厚#NN  子叶#NN    。#PU  气香#VV  ，#PU  性平#NN  ，#PU  味#AD  微甘#VV    。#PU  主治#NR  驱虫#VV  ，#PU  消肿#VV    。#PU  用于#VV  治#VV  绦虫#NR  、#PU  蛔虫#NR  、#PU  产后#NR  手足#VV  浮肿#CD  、#PU  百日咳#CD  、#PU  痔疮#CD    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生#VV, 南瓜子#NR)  (case, 葫芦科#VV, 为#P)  (prep, 生#VV, 葫芦科#VV)  (nummod, 年#M, 一#CD)  (range, 葫芦科#VV, 年#M)  (root, ROOT#null, 生#VV)  (relcl, 种子#NN, 蔓生#VV)  (nn, 南瓜#NN, 藤本#NN)  (nn, 南瓜#NN, 植物#NN)  (dobj, 蔓生#VV, 南瓜#NN)  (mark, 蔓生#VV, 的#DEC)  (dobj, 生#VV, 种子#NN)   (nsubj, 等地#VV, 主产#NN)  (case, 四川#NR, 于#P)  (conj, 四川#NR, 浙江#NR)  (conj, 四川#NR, 江苏#NR)  (conj, 四川#NR, 河北#NR)  (conj, 四川#NR, 山东#NR)  (conj, 四川#NR, 山西#NR)  (prep, 等地#VV, 四川#NR)  (root, ROOT#null, 等地#VV)   (conj, 秋#NN, 夏#NN)  (nn, 果实#NN, 秋#NN)  (nsubj, 采收#VV, 果实#NN)  (loc, 采收#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (root, ROOT#null, 采收#VV)  (nsubj, 晒干#VV, 取子#NN)  (ccomp, 采收#VV, 晒干#VV)   (nn, 椭圆形#NN, 种子#NN)  (nn, 椭圆形#NN, 扁#NN)  (nsubj, 较长#VV, 椭圆形#NN)  (nummod, 端#NN, 一#CD)  (nsubj, 较长#VV, 端#NN)  (root, ROOT#null, 较长#VV)  (nsubj, 面黄#VV, 外表#NN)  (ccomp, 较长#VV, 面黄#VV)  (nfincl, 稍有棱#NN, 白色#JJ)  (dep, 白色#JJ, 边缘#NN)  (dobj, 面黄#VV, 稍有棱#NN)  (conj, 面黄#VV, 长约#VV)  (nummod, ～#NN, 2#CD)  (nummod, cm#NN, 2.0#CD)  (dobj, 长约#VV, cm#NN)  (conj, 面黄#VV, 宽#VA)  (nummod, ～#NN, 0.6#CD)  (nummod, cm#NN, 1.2#CD)  (nsubj, 有#VE, cm#NN)  (nsubj, 有#VE, 表面#NN)  (advmod, 有#VE, 稍#AD)  (conj, 较长#VV, 有#VE)  (dobj, 有#VE, 毛茸#NN)   (nsubj, 较厚#VV, 种皮#NN)  (root, ROOT#null, 较厚#VV)  (nsubj, 位于#VV, 种脐#NR)  (ccomp, 较厚#VV, 位于#VV)  (assmod, 端#NN, 尖#NN)  (case, 尖#NN, 的#DEG)  (nummod, 端#NN, 一#CD)  (dobj, 位于#VV, 端#NN)   (case, 种皮#NN, 除去#P)  (prep, 见#VV, 种皮#NN)  (mmod, 见#VV, 可#VV)  (root, ROOT#null, 见#VV)  (amod, 胚乳#NN, 绿色#JJ)  (nn, 胚乳#NN, 菲薄#NN)  (dobj, 见#VV, 胚乳#NN)  (dep, 见#VV, 内有#VV)  (nummod, 枚#M, 两#CD)  (clf, 子叶#NN, 枚#M)  (amod, 子叶#NN, 黄色#JJ)  (nn, 子叶#NN, 肥厚#NN)  (dobj, 内有#VV, 子叶#NN)   (root, ROOT#null, 气香#VV)  (nsubj, 微甘#VV, 性平#NN)  (advmod, 微甘#VV, 味#AD)  (ccomp, 气香#VV, 微甘#VV)   (nsubj, 驱虫#VV, 主治#NR)  (root, ROOT#null, 驱虫#VV)  (ccomp, 驱虫#VV, 消肿#VV)   (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治#VV)  (conj, 产后#NR, 绦虫#NR)  (conj, 产后#NR, 蛔虫#NR)  (dobj, 治#VV, 产后#NR)  (dep, 用于#VV, 手足#VV)  (nummod, 痔疮#CD, 浮肿#CD)  (nummod, 痔疮#CD, 百日咳#CD)  (range, 手足#VV, 痔疮#CD)
+        </parsing>
+
+        <tag>
+            蔓生种子  藤本南瓜  植物南瓜  蔓生南瓜  四川  浙江  江苏  河北  山东  山西  等地  采收  种子椭圆形  较长  面黄稍有棱  长约cm  较厚  位于端  绿色胚乳  菲薄胚乳  黄色子叶  肥厚子叶  内有子叶  气香  驱虫  用于  产后  绦虫  蛔虫  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平。能补脾益气，下乳汁，润肺燥，驱虫。用于脾虚营养不良，消瘦乏力；脾虚水肿；产后缺乳；百日咳，咳嗽咽干；绦虫、蛔虫和血吸虫病。
+            1.杀灭人体内寄生虫
+            南瓜子具有很好的杀灭血吸虫幼虫的作用，对于已经成熟的成虫，也能使其变性和虫数减少．对于血吸虫病也有一定的治疗作用；南瓜子也是有效的驱绦虫剂，且没有毒性和任何副作用，对蛲虫病、绦虫病、钩虫病等患者均有明显的效果。
+            2.防治前列腺疾
+            美国研究发现，每天吃上50克左右的南瓜子，可有效地防治前列腺疾病，这是由于前列腺的分泌激素功能要依靠脂肪酸，而南瓜子就富含脂肪酸，可使列腺保持良好功能；所含的活性成分可消除前列腺炎初期的肿胀，同时还有预防前列腺癌的作用；
+            3.缓解静止性心绞痛
+            南瓜子含有丰富的泛酸，这种物质可以缓解静止性心绞痛，并有降压的作用。
+            4.治产背工足浮肿、糖尿病
+            据《中国药植图鉴》纪录：炒后煎服，可治产背工足浮肿、糖尿病。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  。  能  补脾  益气  ，  下  乳汁  ，  润肺燥  ，  驱虫  。  用于  脾虚  营养  不良  ，  消瘦  乏力  ；  脾虚  水肿  ；  产后  缺乳  ；  百日  咳  ，  咳嗽  咽  干  ；  绦虫  、  蛔虫  和  血吸虫病  。
+            杀灭  人  体内  寄生虫
+            南瓜子  具有  很  好  的  杀灭  血吸虫  幼虫  的  作用  ，  对于  已经  成熟  的  成虫  ，  也  能  使  其  变性  和  虫数  减少  ．  对于  血吸虫病  也  有  一定  的  治疗  作用  ；  南瓜子  也  是  有效  的  驱  绦虫剂  ，  且  没有  毒性  和  任何  副作用  ，  对  蛲虫病  、  绦虫病  、  钩虫病  等  患者  均  有  明显  的  效果  。
+            防治  前列  腺疾
+            美国  研究  发现  ，  每  天  吃上  50  克  左右  的  南瓜子  ，  可  有效  地  防治  前列腺  疾病  ，  这  是  由于  前列腺  的  分泌  激素  功能  要  依靠  脂肪酸  ，  而  南瓜子  就  富含  脂肪酸  ，  可使  列腺  保持  良好  功能  ；  所  含  的  活性  成分  可  消除  前列  腺炎  初期  的  肿胀  ，  同时  还  有  预防  前列  腺癌  的  作用  ；
+            缓解  静止  性  心  绞痛
+            南瓜子  含有  丰富  的  泛酸  ，  这  种  物质  可以  缓解  静止  性  心  绞痛  ，  并  有  降压  的  作用  。
+            治  产  背  工足  浮肿  、  糖尿病
+            据  《  中国  药  植  图鉴  》  纪录  ：  炒  后  煎服  ，  可治  产  背  工足  浮肿  、  糖尿病  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV    。#PU  能#VV  补脾#VV  益气#NN  ，#PU  下#VV  乳汁#NN  ，#PU  润肺燥#VV  ，#PU  驱虫#VV    。#PU  用于#VV  脾虚#NN  营养#VA  不良#JJ  ，#PU  消瘦#VV  乏力#NN  ；#PU  脾虚#VV  水肿#NN  ；#PU  产后#VV  缺乳#NN  ；#PU  百日#NT  咳#VV  ，#PU  咳嗽#NN  咽#AD  干#VV  ；#PU  绦虫#CD  、#PU  蛔虫#CD  和#CC  血吸虫病#CD    。#PU    。#PU
+            杀灭#CD  人#NN  体内#NN  寄生虫#NN
+            南瓜子#AD  具有#VV  很#AD  好#VA  的#DEC  杀灭#NN  血吸虫#NN  幼虫#NN  的#DEC  作用#NN  ，#PU  对于#P  已经#AD  成熟#VA  的#DEC  成虫#NN  ，#PU  也#AD  能#VV  使#VV  其#PN  变性#NN  和#CC  虫数#NN  减少#VV  ．#PU  对于#P  血吸虫病#NN  也#AD  有#VE  一定#JJ  的#DEG  治疗#NN  作用#NN  ；#PU  南瓜子#NN  也#AD  是#VC  有效#VA  的#DEC  驱#NN  绦虫剂#NN  ，#PU  且#CC  没有#VE  毒性#NN  和#CC  任何#DT  副作用#NN  ，#PU  对#P  蛲虫病#NR  、#PU  绦虫病#NR  、#PU  钩虫病#NR  等#ETC  患者#NN  均#AD  有#VE  明显#VA  的#DEC  效果#NN  。#PU
+            防治#NN  前列#NN  腺疾#NN
+            美国#NR  研究#NN  发现#VV  ，#PU  每#DT  天#M  吃上#VV  50#CD  克#M  左右#LC  的#DEG  南瓜子#NN  ，#PU  可#VV  有效#VA  地#DEV  防治#VV  前列腺#NN  疾病#NN  ，#PU  这#PN  是#VC  由于#P  前列腺#NN  的#DEG  分泌#NN  激素#NN  功能#NN  要#VV  依靠#VV  脂肪酸#NN  ，#PU  而#AD  南瓜子#NN  就#AD  富含#VV  脂肪酸#NN  ，#PU  可使#NN  列腺#AD  保持#VV  良好#JJ  功能#NN  ；#PU  所#MSP  含#VV  的#DEC  活性#NN  成分#NN  可#VV  消除#VV  前列#NN  腺炎#NN  初期#NN  的#DEG  肿胀#NN  ，#PU  同时#AD  还#AD  有#VE  预防#VV  前列#NN  腺癌#NN  的#DEC  作用#NN  ；#PU
+            缓解#VV  静止#NN  性#NN  心#NN  绞痛#NN
+            南瓜子#NN  含有#NN  丰富#VA  的#DEC  泛酸#NN  ，#PU  这#DT  种#M  物质#NN  可以#VV  缓解#VV  静止#NN  性#NN  心#NN  绞痛#NN  ，#PU  并#CC  有#VE  降压#NN  的#DEG  作用#NN  。#PU
+            治#NN  产#NN  背#VV  工足#NN  浮肿#NN  、#PU  糖尿病#NN
+            据#P  中国#NR  药#NN  植#VV  图鉴#NN  纪录#NN  ：#PU  炒#NN  后#LC  煎服#NN  ，#PU  可治#AD  产#VV  背#VV  工足#NN  浮肿#NN  、#PU  糖尿病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性平#VV)   (mmod, 补脾#VV, 能#VV)  (root, ROOT#null, 补脾#VV)  (dobj, 补脾#VV, 益气#NN)  (conj, 补脾#VV, 下#VV)  (dobj, 下#VV, 乳汁#NN)  (conj, 补脾#VV, 润肺燥#VV)  (conj, 补脾#VV, 驱虫#VV)   (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 脾虚#NN)  (conj, 用于#VV, 营养#VA)  (conj, 用于#VV, 不良#JJ)  (dep, 用于#VV, 消瘦#VV)  (dobj, 消瘦#VV, 乏力#NN)  (conj, 用于#VV, 脾虚#VV)  (dobj, 脾虚#VV, 水肿#NN)  (conj, 用于#VV, 产后#VV)  (dobj, 产后#VV, 缺乳#NN)  (tmod, 咳#VV, 百日#NT)  (conj, 用于#VV, 咳#VV)  (nsubj, 干#VV, 咳嗽#NN)  (advmod, 干#VV, 咽#AD)  (ccomp, 咳#VV, 干#VV)  (nummod, 血吸虫病#CD, 绦虫#CD)  (nummod, 血吸虫病#CD, 蛔虫#CD)  (cc, 血吸虫病#CD, 和#CC)  (conj, 用于#VV, 血吸虫病#CD)   (root, ROOT#null, null#null)
+            (nummod, 人#NN, 杀灭#CD)  (nn, 寄生虫#NN, 人#NN)  (nn, 寄生虫#NN, 体内#NN)  (root, ROOT#null, 寄生虫#NN)
+            (advmod, 具有#VV, 南瓜子#AD)  (relcl, 作用#NN, 具有#VV)  (advmod, 好#VA, 很#AD)  (relcl, 幼虫#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 幼虫#NN, 杀灭#NN)  (nn, 幼虫#NN, 血吸虫#NN)  (dobj, 具有#VV, 幼虫#NN)  (mark, 具有#VV, 的#DEC)  (nsubj, 使#VV, 作用#NN)  (case, 成虫#NN, 对于#P)  (advmod, 成熟#VA, 已经#AD)  (relcl, 成虫#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (prep, 使#VV, 成虫#NN)  (advmod, 使#VV, 也#AD)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (nn, 虫数#NN, 其#PN)  (conj, 虫数#NN, 变性#NN)  (cc, 虫数#NN, 和#CC)  (dobj, 使#VV, 虫数#NN)  (dep, 使#VV, 减少#VV)  (case, 血吸虫病#NN, 对于#P)  (prep, 有#VE, 血吸虫病#NN)  (advmod, 有#VE, 也#AD)  (conj, 使#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (nsubj, 绦虫剂#NN, 南瓜子#NN)  (advmod, 绦虫剂#NN, 也#AD)  (cop, 绦虫剂#NN, 是#VC)  (relcl, 绦虫剂#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (nn, 绦虫剂#NN, 驱#NN)  (dep, 有#VE, 绦虫剂#NN)  (cc, 绦虫剂#NN, 且#CC)  (dep, 绦虫剂#NN, 没有#VE)  (conj, 副作用#NN, 毒性#NN)  (cc, 副作用#NN, 和#CC)  (det, 副作用#NN, 任何#DT)  (dobj, 没有#VE, 副作用#NN)  (case, 患者#NN, 对#P)  (conj, 钩虫病#NR, 蛲虫病#NR)  (conj, 钩虫病#NR, 绦虫病#NR)  (nn, 患者#NN, 钩虫病#NR)  (etc, 钩虫病#NR, 等#ETC)  (prep, 有#VE, 患者#NN)  (advmod, 有#VE, 均#AD)  (conj, 有#VE, 有#VE)  (relcl, 效果#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 有#VE, 效果#NN)
+            (nn, 腺疾#NN, 防治#NN)  (nn, 腺疾#NN, 前列#NN)  (root, ROOT#null, 腺疾#NN)
+            (nn, 研究#NN, 美国#NR)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (dep, 吃上#VV, 每#DT)  (clf, 每#DT, 天#M)  (ccomp, 发现#VV, 吃上#VV)  (nummod, 克#M, 50#CD)  (assmod, 南瓜子#NN, 克#M)  (case, 克#M, 左右#LC)  (case, 克#M, 的#DEG)  (dobj, 吃上#VV, 南瓜子#NN)  (mmod, 防治#VV, 可#VV)  (dvpmod, 防治#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 吃上#VV, 防治#VV)  (nn, 疾病#NN, 前列腺#NN)  (dobj, 防治#VV, 疾病#NN)  (nsubj, 是#VC, 这#PN)  (conj, 吃上#VV, 是#VC)  (case, 依靠#VV, 由于#P)  (assmod, 功能#NN, 前列腺#NN)  (case, 前列腺#NN, 的#DEG)  (nn, 功能#NN, 分泌#NN)  (nn, 功能#NN, 激素#NN)  (nsubj, 依靠#VV, 功能#NN)  (mmod, 依靠#VV, 要#VV)  (prep, 是#VC, 依靠#VV)  (dobj, 依靠#VV, 脂肪酸#NN)  (advmod, 富含#VV, 而#AD)  (nsubj, 富含#VV, 南瓜子#NN)  (advmod, 富含#VV, 就#AD)  (conj, 吃上#VV, 富含#VV)  (dobj, 富含#VV, 脂肪酸#NN)  (nsubj, 保持#VV, 可使#NN)  (advmod, 保持#VV, 列腺#AD)  (conj, 吃上#VV, 保持#VV)  (amod, 功能#NN, 良好#JJ)  (dobj, 保持#VV, 功能#NN)  (prtmod, 含#VV, 所#MSP)  (relcl, 成分#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 成分#NN, 活性#NN)  (nsubj, 消除#VV, 成分#NN)  (mmod, 消除#VV, 可#VV)  (conj, 吃上#VV, 消除#VV)  (nn, 初期#NN, 前列#NN)  (nn, 初期#NN, 腺炎#NN)  (assmod, 肿胀#NN, 初期#NN)  (case, 初期#NN, 的#DEG)  (dobj, 消除#VV, 肿胀#NN)  (advmod, 有#VE, 同时#AD)  (advmod, 有#VE, 还#AD)  (conj, 吃上#VV, 有#VE)  (relcl, 作用#NN, 预防#VV)  (nn, 腺癌#NN, 前列#NN)  (dobj, 预防#VV, 腺癌#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 心#NN, 静止#NN)  (nn, 心#NN, 性#NN)  (nn, 绞痛#NN, 心#NN)  (dobj, 缓解#VV, 绞痛#NN)
+            (nn, 含有#NN, 南瓜子#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 泛酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 缓解#VV, 泛酸#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 缓解#VV, 物质#NN)  (mmod, 缓解#VV, 可以#VV)  (root, ROOT#null, 缓解#VV)  (nn, 心#NN, 静止#NN)  (nn, 心#NN, 性#NN)  (nn, 绞痛#NN, 心#NN)  (dobj, 缓解#VV, 绞痛#NN)  (cc, 缓解#VV, 并#CC)  (dep, 缓解#VV, 有#VE)  (assmod, 作用#NN, 降压#NN)  (case, 降压#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (nn, 产#NN, 治#NN)  (nsubj, 背#VV, 产#NN)  (root, ROOT#null, 背#VV)  (nn, 糖尿病#NN, 工足#NN)  (conj, 糖尿病#NN, 浮肿#NN)  (dobj, 背#VV, 糖尿病#NN)
+            (case, 药#NN, 据#P)  (nn, 药#NN, 中国#NR)  (prep, 植#VV, 药#NN)  (root, ROOT#null, 植#VV)  (nn, 纪录#NN, 图鉴#NN)  (dobj, 植#VV, 纪录#NN)  (loc, 背#VV, 炒#NN)  (case, 炒#NN, 后#LC)  (nsubj, 背#VV, 煎服#NN)  (advmod, 产#VV, 可治#AD)  (conj, 背#VV, 产#VV)  (dep, 植#VV, 背#VV)  (nn, 糖尿病#NN, 工足#NN)  (conj, 糖尿病#NN, 浮肿#NN)  (dobj, 背#VV, 糖尿病#NN)
+        </parsing>
+
+        <tag>
+            味甘  补脾益气  用于脾虚  消瘦乏力  脾虚水肿  产后缺乳  体内寄生虫  杀灭幼虫  血吸虫幼虫  成虫成熟  虫数  变性  绦虫剂有效  毒性  没有副作用  钩虫病  蛲虫病  绦虫病  效果明显  防治腺疾  前列腺疾  前列腺疾病  防治疾病  分泌功能  激素功能  依靠脂肪酸  富含脂肪酸  良好功能  保持功能  前列初期  腺炎初期  消除肿胀  前列腺癌  预防腺癌  缓解绞痛  含有丰富  泛酸丰富  工足糖尿病  浮肿  图鉴纪录  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血压  利水消肿  解胃肠痉挛  抗虫
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含丰富的指肪油（为亚麻仁油酸、油酸等的甘油酯）、蛋白质、胡萝卜素、维生素B1、B2、C，南瓜子氨酸等成分。对绦虫，蛔虫有明显的驱虫作用，对牛肉绦虫或猪肉绦虫的中段及后段都有麻痹作用。
+        </rawdata>
+
+        <segment>
+            含  丰富  的  指肪  油  （  为  亚麻  仁  油酸  、  油  酸  等  的  甘油酯  ）  、  蛋白质  、  胡萝卜素  、  维生素B  B  2  、  C  ，  南瓜子  氨酸  等  成分  。  对  绦虫  ，  蛔虫  有  明显  的  驱虫  作用  ，  对  牛肉  绦虫  或  猪肉  绦虫  的  中段  及  后段  都  有  麻痹  作用  。
+        </segment>
+
+        <pos>
+            含#VV  丰富#VA  的#DEC  指肪#NN  油#NN  （#PU  为#P  亚麻#NN  仁#VV  油酸#NN  、#PU  油#NN  酸#NN  等#ETC  的#DEC  甘油酯#NN  ）#PU  、#PU  蛋白质#NR  、#PU  胡萝卜素#NR  、#PU  维生素B#NR  B#NN  2#CD  、#PU  C#NN  ，#PU  南瓜子#VV  氨酸#NN  等#ETC  成分#NN    。#PU  对#P  绦虫#NN  ，#PU  蛔虫#AD  有#VE  明显#VA  的#DEC  驱虫#JJ  作用#NN  ，#PU  对#P  牛肉#NN  绦虫#NN  或#CC  猪肉#NN  绦虫#NN  的#DEG  中段#NN  及#CC  后段#NN  都#AD  有#VE  麻痹#NN  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (relcl, 油#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 油#NN, 指肪#NN)  (nn, C#NN, 油#NN)  (case, 亚麻#NN, 为#P)  (prep, 仁#VV, 亚麻#NN)  (relcl, 甘油酯#NN, 仁#VV)  (conj, 酸#NN, 油酸#NN)  (nn, 酸#NN, 油#NN)  (dobj, 仁#VV, 酸#NN)  (etc, 酸#NN, 等#ETC)  (mark, 仁#VV, 的#DEC)  (prnmod, C#NN, 甘油酯#NN)  (conj, 维生素B#NR, 蛋白质#NR)  (conj, 维生素B#NR, 胡萝卜素#NR)  (nn, B#NN, 维生素B#NR)  (conj, C#NN, B#NN)  (nummod, B#NN, 2#CD)  (dobj, 含#VV, C#NN)  (conj, 含#VV, 南瓜子#VV)  (nn, 成分#NN, 氨酸#NN)  (etc, 氨酸#NN, 等#ETC)  (dobj, 南瓜子#VV, 成分#NN)   (case, 绦虫#NN, 对#P)  (prep, 有#VE, 绦虫#NN)  (advmod, 有#VE, 蛔虫#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (amod, 作用#NN, 驱虫#JJ)  (dobj, 有#VE, 作用#NN)  (case, 后段#NN, 对#P)  (nn, 绦虫#NN, 牛肉#NN)  (conj, 绦虫#NN, 绦虫#NN)  (cc, 绦虫#NN, 或#CC)  (nn, 绦虫#NN, 猪肉#NN)  (assmod, 后段#NN, 绦虫#NN)  (case, 绦虫#NN, 的#DEG)  (conj, 后段#NN, 中段#NN)  (cc, 后段#NN, 及#CC)  (prep, 有#VE, 后段#NN)  (advmod, 有#VE, 都#AD)  (dep, 有#VE, 有#VE)  (nn, 作用#NN, 麻痹#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            油丰富  仁甘油酯  维生素B  蛋白质  胡萝卜素  牛肉绦虫  猪肉绦虫  后段  中段  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            生嚼，炒食，研末，或煎汤。
+            炒制南瓜子，以香脆为度，不可炒太久。
+        </rawdata>
+
+        <segment>
+            生嚼  ，  炒食  ，  研末  ，  或  煎  汤  。
+            炒制  南瓜子  ，  以  香脆  为度  ，  不  可  炒  太  久  。
+        </segment>
+
+        <pos>
+            生嚼#NN  ，#PU  炒食#NN  ，#PU  研末#VV  ，#PU  或#CC  煎#VV  汤#NN  。#PU
+            炒制#NN  南瓜子#NN  ，#PU  以#P  香脆#NN  为度#NN  ，#PU  不#AD  可#VV  炒#VV  太#AD  久#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 研末#VV, 生嚼#NN)  (nsubj, 研末#VV, 炒食#NN)  (root, ROOT#null, 研末#VV)  (cc, 研末#VV, 或#CC)  (dep, 研末#VV, 煎#VV)  (dobj, 煎#VV, 汤#NN)
+            (nn, 南瓜子#NN, 炒制#NN)  (nsubj, 炒#VV, 南瓜子#NN)  (case, 为度#NN, 以#P)  (nn, 为度#NN, 香脆#NN)  (prep, 炒#VV, 为度#NN)  (neg, 炒#VV, 不#AD)  (mmod, 炒#VV, 可#VV)  (root, ROOT#null, 炒#VV)  (advmod, 久#VA, 太#AD)  (dep, 炒#VV, 久#VA)
+        </parsing>
+
+        <tag>
+            研末  香脆为度  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/111436017742.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\368 南瓜子.jpg
+    </picturelocalurl>
+
+</content>

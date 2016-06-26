@@ -1,0 +1,426 @@
+<content>
+
+    <id>
+        314
+    </id>
+
+    <foodname>
+        猕猴桃
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        藤梨、阳桃、白毛桃、毛梨子、布冬、猕猴梨、羊桃、几维果、木子、毛木果、奇异果
+    </alias>
+
+    <season>
+        9-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾虚便溏者、风寒感冒、疟疾、寒湿痢、慢性胃炎、痛经、闭经、小儿腹泻者不宜。
+        </rawdata>
+
+        <segment>
+            脾虚  便  溏者  、  风寒  感冒  、  疟疾  、  寒湿痢  、  慢性  胃炎  、  痛经  、  闭经  、  小儿  腹泻  者  不  宜  。
+        </segment>
+
+        <pos>
+            脾虚#NN  便#AD  溏者#VV  、#PU  风寒#VV  感冒#NR  、#PU  疟疾#NN  、#PU  寒湿痢#NR  、#PU  慢性#NR  胃炎#NR  、#PU  痛经#NR  、#PU  闭经#NR  、#PU  小儿#NR  腹泻#NN  者#NN  不#NN  宜#NR  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 溏者#VV, 脾虚#NN)  (advmod, 溏者#VV, 便#AD)  (root, ROOT#null, 溏者#VV)  (dep, 溏者#VV, 风寒#VV)  (conj, 宜#NR, 感冒#NR)  (conj, 宜#NR, 疟疾#NN)  (conj, 小儿#NR, 寒湿痢#NR)  (nn, 小儿#NR, 慢性#NR)  (conj, 小儿#NR, 胃炎#NR)  (conj, 小儿#NR, 痛经#NR)  (conj, 小儿#NR, 闭经#NR)  (nn, 不#NN, 小儿#NR)  (nn, 不#NN, 腹泻#NN)  (nn, 不#NN, 者#NN)  (nn, 宜#NR, 不#NN)  (dobj, 风寒#VV, 宜#NR)
+        </parsing>
+
+        <tag>
+            脾虚便溏者  风寒感冒  疟疾  寒湿痢  慢性胃炎  痛经  闭经  小儿腹泻者不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜便秘者、癌症患者、高血压患者、冠心病患者、心血管疾病患者、食欲不振、消化不良者、航空、高原、矿井等特种工作人员。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  便秘  者  、  癌症  患者  、  高血压  患者  、  冠心病  患者  、  心血管  疾病  患者  、  食欲不振  、  消化不良  者  、  航空  、  高原  、  矿井  等  特种  工作  人员  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  便秘#NN  者#NN  、#PU  癌症#NN  患者#NN  、#PU  高血压#NN  患者#NN  、#PU  冠心病#NN  患者#NN  、#PU  心血管#NN  疾病#NN  患者#NN  、#PU  食欲不振#NN  、#PU  消化不良#NN  者#NN  、#PU  航空#NN  、#PU  高原#NN  、#PU  矿井#NN  等#ETC  特种#JJ  工作#NN  人员#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 疾病#NN, 便秘#NN)  (conj, 疾病#NN, 者#NN)  (nn, 疾病#NN, 癌症#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 疾病#NN, 高血压#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 疾病#NN, 冠心病#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 疾病#NN, 心血管#NN)  (nn, 人员#NN, 疾病#NN)  (conj, 矿井#NN, 患者#NN)  (conj, 矿井#NN, 食欲不振#NN)  (nn, 矿井#NN, 消化不良#NN)  (conj, 矿井#NN, 者#NN)  (conj, 矿井#NN, 航空#NN)  (conj, 矿井#NN, 高原#NN)  (nn, 人员#NN, 矿井#NN)  (etc, 矿井#NN, 等#ETC)  (amod, 人员#NN, 特种#JJ)  (nn, 人员#NN, 工作#NN)  (dobj, 适宜#VV, 人员#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  便秘者  癌症  患者  高血压  患者  冠心病  患者  心血管疾病  患者  食欲不振  消化不良者  航空  高原  矿井  特种工作人员  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                14.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                130
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                144
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.73
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猕猴桃是猕猴桃科植物猕猴桃的果实。很多人以为是新西兰特产，其实它的祖籍是中国，原名狝猴桃，一个世纪以前才引进入新西兰。猕猴桃一般是椭圆形的，深褐色并带毛的表皮一般不食用，而其内则是呈亮绿色的果肉和一排黑色的种子。猕猴桃的质地柔软，味道有时被描述为草莓、香蕉、凤梨三者的混合。因猕猴喜食，故名猕猴桃；亦有说法是因为果皮覆毛，貌似猕猴而得名。
+            1904年，新西兰一位名叫伊莎贝尔的女校长到中国湖北宜昌看望她的姐姐，并把中国的猕猴桃种子带回了新西兰。回新西兰后，伊莎贝尔将种子转送给当地的果树专家，之后辗转送到当地知名的园艺专家亚历山大手中，培植出新西兰第一株奇异果树。迄今为止，新西兰出产的绿色奇异果已经风行全世界，而新西兰在奇异果营销、研发和价格方面的影响力，也是世界第一。而中国国内陕西省西安市周至县和毗邻的宝鸡市眉县因盛产猕猴桃成为名符其实的猕猴桃之乡周至素以资源丰富、风光秀丽而被誉为金周至。近年来，坚持以开放、开发、发展为主线，围绕结构调整，着力培养特色经济并取得了显著成效，走出了一条具有周至特色的县域经济发展新路子。
+        </rawdata>
+
+        <segment>
+            猕猴桃  是  猕猴桃科  植物  猕猴桃  的  果实  。  很多  人  以为  是  新西兰  特产  ，  其实  它  的  祖籍  是  中国  ，  原名  狝  猴桃  ，  一  个  世纪  以前  才  引进  入  新西兰  。  猕猴桃  一般  是  椭圆形  的  ，  深褐色  并  带  毛  的  表皮  一般  不  食用  ，  而  其内  则  是  呈亮  绿色  的  果肉  和  一  排  黑色  的  种子  。  猕猴桃  的  质地  柔软  ，  味道  有时  被  描述  为  草莓  、  香蕉  、  凤梨  三  者  的  混合  。  因  猕猴  喜  食  ，  故名  猕猴桃  ；  亦  有  说法  是  因为  果皮  覆毛  ，  貌似  猕猴  而  得名  。
+            1904年  ，  新西兰  一  位  名叫  伊莎贝尔  的  女  校长  到  中国  湖北  宜昌  看望  她  的  姐姐  ，  并  把  中国  的  猕猴桃  种子  带回  了  新西兰  。  回  新西兰  后  ，  伊莎贝尔  将  种子  转送  给  当地  的  果树  专家  ，  之后  辗转  送到  当地  知名  的  园艺  专家  亚历山大  手中  ，  培植  出  新西兰  第一  株  奇异  果树  。  迄今  为止  ，  新西兰  出产  的  绿色  奇异  果  已经  风行  全世界  ，  而  新西兰  在  奇异  果  营销  、  研发  和  价格  方面  的  影响力  ，  也  是  世界  第一  。  而  中国  国内  陕西省  西安市  周至县  和  毗邻  的  宝鸡市  眉县  因  盛产  猕猴桃  成为  名符其实  的  猕猴桃  之  乡  周至  素以  资源  丰富  、  风光  秀丽  而  被  誉为  金  周至  。  近年  来  ，  坚持  以  开放  、  开发  、  发展  为  主线  ，  围绕  结构  调整  ，  着力  培养  特色  经济  并  取得  了  显著  成效  ，  走出  了  一  条  具有  周至  特色  的  县域  经济  发展  新  路子  。
+        </segment>
+
+        <pos>
+            猕猴桃#NN  是#VC  猕猴桃科#NN  植物#NN  猕猴桃#NN  的#DEG  果实#NN    。#PU  很多#CD  人#NN  以为#VV  是#VC  新西兰#NR  特产#NN  ，#PU  其实#AD  它#PN  的#DEG  祖籍#NN  是#VC  中国#NR  ，#PU  原名#VV  狝#NN  猴桃#NN  ，#PU  一#CD  个#M  世纪#NN  以前#LC  才#AD  引进#VV  入#VV  新西兰#NR    。#PU  猕猴桃#NN  一般#AD  是#VC  椭圆形#NN  的#DEG  ，#PU  深褐色#NN  并#AD  带#VV  毛#NN  的#DEC  表皮#NN  一般#AD  不#AD  食用#VV  ，#PU  而#CC  其内#NN  则#AD  是#VC  呈亮#NR  绿色#JJ  的#DEG  果肉#NN  和#CC  一#CD  排#M  黑色#JJ  的#DEG  种子#NN    。#PU  猕猴桃#NN  的#DEG  质地#NN  柔软#VV  ，#PU  味道#NN  有时#AD  被#SB  描述#VV  为#P  草莓#NR  、#PU  香蕉#NR  、#PU  凤梨#NR  三#CD  者#NN  的#DEG  混合#NN    。#PU  因#P  猕猴#VV  喜#AD  食#NN  ，#PU  故名#VV  猕猴桃#NN  ；#PU  亦#AD  有#VE  说法#NN  是#VC  因为#P  果皮#VV  覆毛#NN  ，#PU  貌似#VV  猕猴#NN  而#MSP  得名#VV    。#PU    。#PU
+            1904年#NT  ，#PU  新西兰#NR  一#CD  位#M  名叫#VV  伊莎贝尔#NN  的#DEC  女#JJ  校长#NN  到#P  中国#NR  湖北#NR  宜昌#NR  看望#VV  她#PN  的#DEG  姐姐#NN  ，#PU  并#CC  把#BA  中国#NR  的#DEG  猕猴桃#NN  种子#NN  带回#VV  了#AS  新西兰#NR    。#PU  回#VV  新西兰#NR  后#LC  ，#PU  伊莎贝尔#AD  将#BA  种子#NN  转送#NN  给#P  当地#NN  的#DEG  果树#NN  专家#NN  ，#PU  之后#AD  辗转#AD  送到#VV  当地#NN  知名#VA  的#DEC  园艺#NN  专家#NN  亚历山大#NN  手中#NN  ，#PU  培植#VV  出#VV  新西兰#NR  第一#OD  株#M  奇异#NN  果树#NN    。#PU  迄今#AD  为止#LC  ，#PU  新西兰#NR  出产#VV  的#DEC  绿色#JJ  奇异#NN  果#NN  已经#AD  风行#VV  全世界#VV  ，#PU  而#AD  新西兰#NR  在#P  奇异#NN  果#NN  营销#NN  、#PU  研发#NN  和#CC  价格#NN  方面#NN  的#DEG  影响力#NN  ，#PU  也#AD  是#VC  世界#NN  第一#OD    。#PU  而#AD  中国#NR  国内#NN  陕西省#NR  西安市#NR  周至县#NN  和#CC  毗邻#VV  的#DEC  宝鸡市#NN  眉县#NN  因#P  盛产#NN  猕猴桃#AD  成为#VV  名符其实#NN  的#DEG  猕猴桃#NN  之#DEG  乡#NN  周至#NN  素以#NN  资源#NN  丰富#VA  、#PU  风光#NN  秀丽#NN  而#MSP  被#SB  誉为#VV  金#NN  周至#NN    。#PU  近年#NT  来#LC  ，#PU  坚持#VV  以#P  开放#NN  、#PU  开发#NN  、#PU  发展#NN  为#VV  主线#NN  ，#PU  围绕#VV  结构#NN  调整#NN  ，#PU  着力#AD  培养#VV  特色#NN  经济#NN  并#CC  取得#VV  了#AS  显著#JJ  成效#NN  ，#PU  走出#VV  了#AS  一#CD  条#M  具有#VV  周至#NN  特色#NN  的#DEC  县域#NN  经济#NN  发展#NN  新#JJ  路子#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果实#NN, 猕猴桃#NN)  (cop, 果实#NN, 是#VC)  (nn, 猕猴桃#NN, 猕猴桃科#NN)  (nn, 猕猴桃#NN, 植物#NN)  (assmod, 果实#NN, 猕猴桃#NN)  (case, 猕猴桃#NN, 的#DEG)  (root, ROOT#null, 果实#NN)   (nummod, 人#NN, 很多#CD)  (nsubj, 以为#VV, 人#NN)  (root, ROOT#null, 以为#VV)  (cop, 特产#NN, 是#VC)  (nn, 特产#NN, 新西兰#NR)  (ccomp, 以为#VV, 特产#NN)  (advmod, 中国#NR, 其实#AD)  (assmod, 祖籍#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 中国#NR, 祖籍#NN)  (cop, 中国#NR, 是#VC)  (dep, 特产#NN, 中国#NR)  (conj, 中国#NR, 原名#VV)  (nn, 猴桃#NN, 狝#NN)  (dobj, 原名#VV, 猴桃#NN)  (nummod, 个#M, 一#CD)  (clf, 世纪#NN, 个#M)  (loc, 引进#VV, 世纪#NN)  (case, 世纪#NN, 以前#LC)  (advmod, 引进#VV, 才#AD)  (conj, 中国#NR, 引进#VV)  (dep, 引进#VV, 入#VV)  (dobj, 入#VV, 新西兰#NR)   (nsubj, 椭圆形#NN, 猕猴桃#NN)  (advmod, 椭圆形#NN, 一般#AD)  (cop, 椭圆形#NN, 是#VC)  (root, ROOT#null, 椭圆形#NN)  (case, 椭圆形#NN, 的#DEG)  (nsubj, 带#VV, 深褐色#NN)  (advmod, 带#VV, 并#AD)  (relcl, 表皮#NN, 带#VV)  (dobj, 带#VV, 毛#NN)  (mark, 带#VV, 的#DEC)  (nsubj, 食用#VV, 表皮#NN)  (advmod, 食用#VV, 一般#AD)  (neg, 食用#VV, 不#AD)  (conj, 椭圆形#NN, 食用#VV)  (cc, 椭圆形#NN, 而#CC)  (nsubj, 种子#NN, 其内#NN)  (advmod, 种子#NN, 则#AD)  (cop, 种子#NN, 是#VC)  (nn, 果肉#NN, 呈亮#NR)  (assmod, 果肉#NN, 绿色#JJ)  (case, 绿色#JJ, 的#DEG)  (conj, 种子#NN, 果肉#NN)  (cc, 种子#NN, 和#CC)  (nummod, 排#M, 一#CD)  (clf, 种子#NN, 排#M)  (assmod, 种子#NN, 黑色#JJ)  (case, 黑色#JJ, 的#DEG)  (conj, 椭圆形#NN, 种子#NN)   (assmod, 质地#NN, 猕猴桃#NN)  (case, 猕猴桃#NN, 的#DEG)  (nsubj, 柔软#VV, 质地#NN)  (root, ROOT#null, 柔软#VV)  (nsubj, 描述#VV, 味道#NN)  (advmod, 描述#VV, 有时#AD)  (auxpass, 描述#VV, 被#SB)  (ccomp, 柔软#VV, 描述#VV)  (case, 者#NN, 为#P)  (conj, 凤梨#NR, 草莓#NR)  (conj, 凤梨#NR, 香蕉#NR)  (nn, 者#NN, 凤梨#NR)  (nummod, 者#NN, 三#CD)  (assmod, 混合#NN, 者#NN)  (case, 者#NN, 的#DEG)  (dobj, 描述#VV, 混合#NN)   (case, 猕猴#VV, 因#P)  (prep, 得名#VV, 猕猴#VV)  (advmod, 猕猴#VV, 喜#AD)  (dobj, 猕猴#VV, 食#NN)  (conj, 猕猴#VV, 故名#VV)  (dobj, 故名#VV, 猕猴桃#NN)  (advmod, 有#VE, 亦#AD)  (conj, 猕猴#VV, 有#VE)  (nsubj, 是#VC, 说法#NN)  (dep, 有#VE, 是#VC)  (case, 果皮#VV, 因为#P)  (prep, 是#VC, 果皮#VV)  (dobj, 果皮#VV, 覆毛#NN)  (conj, 猕猴#VV, 貌似#VV)  (dobj, 貌似#VV, 猕猴#NN)  (prtmod, 得名#VV, 而#MSP)  (root, ROOT#null, 得名#VV)   (root, ROOT#null, null#null)
+            (tmod, 看望#VV, 1904年#NT)  (nsubj, 看望#VV, 新西兰#NR)  (nummod, 位#M, 一#CD)  (clf, 校长#NN, 位#M)  (relcl, 校长#NN, 名叫#VV)  (dobj, 名叫#VV, 伊莎贝尔#NN)  (mark, 名叫#VV, 的#DEC)  (amod, 校长#NN, 女#JJ)  (nsubj, 看望#VV, 校长#NN)  (case, 宜昌#NR, 到#P)  (nn, 宜昌#NR, 中国#NR)  (nn, 宜昌#NR, 湖北#NR)  (prep, 看望#VV, 宜昌#NR)  (root, ROOT#null, 看望#VV)  (assmod, 姐姐#NN, 她#PN)  (case, 她#PN, 的#DEG)  (dobj, 看望#VV, 姐姐#NN)  (cc, 看望#VV, 并#CC)  (ba, 带回#VV, 把#BA)  (assmod, 种子#NN, 中国#NR)  (case, 中国#NR, 的#DEG)  (nn, 种子#NN, 猕猴桃#NN)  (nsubj, 带回#VV, 种子#NN)  (conj, 看望#VV, 带回#VV)  (asp, 带回#VV, 了#AS)  (dobj, 带回#VV, 新西兰#NR)   (loc, 送到#VV, 回#VV)  (dobj, 回#VV, 新西兰#NR)  (case, 回#VV, 后#LC)  (advmod, 送到#VV, 伊莎贝尔#AD)  (ba, 送到#VV, 将#BA)  (nn, 转送#NN, 种子#NN)  (nsubj, 送到#VV, 转送#NN)  (case, 专家#NN, 给#P)  (assmod, 专家#NN, 当地#NN)  (case, 当地#NN, 的#DEG)  (nn, 专家#NN, 果树#NN)  (prep, 送到#VV, 专家#NN)  (advmod, 送到#VV, 之后#AD)  (advmod, 送到#VV, 辗转#AD)  (root, ROOT#null, 送到#VV)  (nsubj, 知名#VA, 当地#NN)  (relcl, 手中#NN, 知名#VA)  (mark, 知名#VA, 的#DEC)  (nn, 手中#NN, 园艺#NN)  (nn, 手中#NN, 专家#NN)  (nn, 手中#NN, 亚历山大#NN)  (dobj, 送到#VV, 手中#NN)  (dep, 送到#VV, 培植#VV)  (rcomp, 培植#VV, 出#VV)  (nn, 果树#NN, 新西兰#NR)  (ordmod, 株#M, 第一#OD)  (clf, 果树#NN, 株#M)  (nn, 果树#NN, 奇异#NN)  (dobj, 培植#VV, 果树#NN)   (loc, 风行#VV, 迄今#AD)  (case, 迄今#AD, 为止#LC)  (nn, 奇异#NN, 新西兰#NR)  (relcl, 新西兰#NR, 出产#VV)  (relcl, 奇异#NN, 出产#VV)  (mark, 出产#VV, 的#DEC)  (amod, 奇异#NN, 绿色#JJ)  (nsubj, 风行#VV, 奇异#NN)  (nsubj, 风行#VV, 果#NN)  (advmod, 风行#VV, 已经#AD)  (root, ROOT#null, 风行#VV)  (relcl, 世界#NN, 全世界#VV)  (advmod, 是#VC, 而#AD)  (nsubj, 是#VC, 新西兰#NR)  (case, 影响力#NN, 在#P)  (nn, 价格#NN, 奇异#NN)  (nn, 价格#NN, 果#NN)  (conj, 价格#NN, 营销#NN)  (conj, 价格#NN, 研发#NN)  (cc, 价格#NN, 和#CC)  (nn, 方面#NN, 价格#NN)  (assmod, 影响力#NN, 方面#NN)  (case, 方面#NN, 的#DEG)  (prep, 是#VC, 影响力#NN)  (advmod, 是#VC, 也#AD)  (ccomp, 全世界#VV, 是#VC)  (dep, 第一#OD, 世界#NN)  (range, 风行#VV, 第一#OD)   (advmod, 成为#VV, 而#AD)  (nn, 国内#NN, 中国#NR)  (nn, 周至县#NN, 国内#NN)  (nn, 西安市#NR, 陕西省#NR)  (nn, 周至县#NN, 西安市#NR)  (conj, 眉县#NN, 周至县#NN)  (cc, 眉县#NN, 和#CC)  (relcl, 眉县#NN, 毗邻#VV)  (mark, 毗邻#VV, 的#DEC)  (nn, 眉县#NN, 宝鸡市#NN)  (nsubj, 成为#VV, 眉县#NN)  (case, 盛产#NN, 因#P)  (prep, 成为#VV, 盛产#NN)  (advmod, 成为#VV, 猕猴桃#AD)  (root, ROOT#null, 成为#VV)  (assmod, 猕猴桃#NN, 名符其实#NN)  (case, 名符其实#NN, 的#DEG)  (assmod, 乡#NN, 猕猴桃#NN)  (case, 猕猴桃#NN, 之#DEG)  (dobj, 成为#VV, 乡#NN)  (nn, 资源#NN, 周至#NN)  (nn, 资源#NN, 素以#NN)  (nsubj, 丰富#VA, 资源#NN)  (conj, 成为#VV, 丰富#VA)  (nn, 秀丽#NN, 风光#NN)  (nsubj, 誉为#VV, 秀丽#NN)  (prtmod, 誉为#VV, 而#MSP)  (auxpass, 誉为#VV, 被#SB)  (conj, 丰富#VA, 誉为#VV)  (nn, 周至#NN, 金#NN)  (dobj, 誉为#VV, 周至#NN)   (loc, 坚持#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (root, ROOT#null, 坚持#VV)  (case, 发展#NN, 以#P)  (conj, 发展#NN, 开放#NN)  (conj, 发展#NN, 开发#NN)  (prep, 为#VV, 发展#NN)  (ccomp, 坚持#VV, 为#VV)  (dobj, 为#VV, 主线#NN)  (conj, 坚持#VV, 围绕#VV)  (nn, 调整#NN, 结构#NN)  (dobj, 围绕#VV, 调整#NN)  (advmod, 培养#VV, 着力#AD)  (conj, 坚持#VV, 培养#VV)  (nn, 经济#NN, 特色#NN)  (dobj, 培养#VV, 经济#NN)  (cc, 培养#VV, 并#CC)  (conj, 培养#VV, 取得#VV)  (asp, 取得#VV, 了#AS)  (amod, 成效#NN, 显著#JJ)  (dobj, 取得#VV, 成效#NN)  (conj, 坚持#VV, 走出#VV)  (asp, 走出#VV, 了#AS)  (nummod, 条#M, 一#CD)  (clf, 路子#NN, 条#M)  (relcl, 路子#NN, 具有#VV)  (nn, 特色#NN, 周至#NN)  (dobj, 具有#VV, 特色#NN)  (mark, 具有#VV, 的#DEC)  (nn, 发展#NN, 县域#NN)  (nn, 发展#NN, 经济#NN)  (nn, 路子#NN, 发展#NN)  (amod, 路子#NN, 新#JJ)  (dobj, 走出#VV, 路子#NN)
+        </parsing>
+
+        <tag>
+            原名猴桃  带表皮  果肉  椭圆形  柔软  凤梨  草莓  香蕉  描述混合  猕猴食  果皮覆毛  貌似猕猴  得名  名叫校长  名叫伊莎贝尔  女校长  看望姐姐  种子转送  果树专家  当地知名  手中知名  园艺手中  专家手中  亚历山大手中  送到手中  奇异果树  培植果树  出产新西兰  出产奇异  绿色奇异  风行  全世界世界  奇异价格  营销  研发  价格方面  影响力  国内周至县  毗邻眉县  宝鸡市眉县  成为乡  周至资源  资源丰富  风光秀丽  誉为周至  坚持  开放  开发  结构调整  围绕调整  特色经济  培养经济  显著成效  取得成效  周至特色  县域发展  经济发展  发展路子  新路子  走出路子  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.降低胆固醇
+            食用其外皮为最佳地选择。奇异果中所含纤维，有三分之一是果胶，特别是皮和果肉接触部分。果胶可降低血中胆固醇浓度，预防心血管疾病。
+            2.促消化
+            它含有的膳食纤维不仅能够降低胆固醇，而且可以帮助消化，防止便秘，清除体内有害代谢物。
+            3.降血脂
+            抑制胆固醇在动脉内壁的沉积，从而防治动脉硬化，可改善心肌功能，防治心脏病等。
+            4.防癌抑肿瘤
+            常吃烧烤食物能使癌症的发病率升高，因为烧烤食物下肚后会在体内进行硝化反应，产生出致癌物。而猕猴桃中富含的维生素C作为一种抗氧化剂，能够有效抑制这种硝化反应，防止癌症发生。
+            5.增强体质
+            猕猴桃亦是滋补强壮之品，其中的营养物质可明显提高肌体活性，促进新陈代谢，协调肌体机能，阻断致癌物质，增强体质，延缓衰老。
+        </rawdata>
+
+        <segment>
+            降低  胆固醇
+            食用  其  外皮  为  最  佳地  选择  。  奇异  果  中  所  含  纤维  ，  有  三分之一  是  果胶  ，  特别是  皮和  果肉  接触  部分  。  果胶  可  降低  血中  胆固醇  浓度  ，  预防  心  血管  疾病  。
+            促  消化
+            它  含有  的  膳食  纤维  不仅  能够  降低  胆固醇  ，  而且  可以  帮助  消化  ，  防止  便秘  ，  清除  体内  有害  代谢物  。
+            降  血脂
+            抑制  胆固醇  在  动脉  内壁  的  沉积  ，  从而  防治  动脉  硬化  ，  可改善  心肌  功能  ，  防治  心脏病  等  。
+            防癌  抑  肿瘤
+            常  吃  烧烤  食物  能使  癌症  的  发病率  升高  ，  因为  烧烤  食物  下肚  后  会  在  体内  进行  硝化  反应  ，  产生  出  致癌物  。  而  猕猴桃  中  富含  的  维生素C  作为  一  种  抗氧化剂  ，  能够  有效  抑制  这  种  硝化反应  ，  防止  癌症  发生  。
+            增强  体质
+            猕猴桃  亦  是  滋补  强壮  之  品  ，  其中  的  营养  物质  可  明显  提高  肌体  活性  ，  促进  新陈代谢  ，  协调  肌体  机能  ，  阻断  致癌  物质  ，  增强  体质  ，  延缓  衰老  。
+        </segment>
+
+        <pos>
+            降低#VV  胆固醇#NN
+            食用#VV  其#PN  外皮#NN  为#VC  最#AD  佳地#JJ  选择#NN    。#PU  奇异#NN  果#NN  中#LC  所#MSP  含#VV  纤维#NN  ，#PU  有#VE  三分之一#CD  是#VC  果胶#NN  ，#PU  特别是#AD  皮和#VV  果肉#JJ  接触#NN  部分#NN    。#PU  果胶#NN  可#VV  降低#VV  血中#NN  胆固醇#NN  浓度#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN    。#PU    。#PU
+            促#VV  消化#NN
+            它#PN  含有#NN  的#DEG  膳食#NN  纤维#NN  不仅#CC  能够#VV  降低#VV  胆固醇#NN  ，#PU  而且#CC  可以#VV  帮助#VV  消化#NN  ，#PU  防止#VV  便秘#NN  ，#PU  清除#VV  体内#NN  有害#NN  代谢物#NN  。#PU
+            降#NN  血脂#VA
+            抑制#VV  胆固醇#NN  在#P  动脉#NN  内壁#NN  的#DEG  沉积#NN  ，#PU  从而#AD  防治#VV  动脉#NN  硬化#NN  ，#PU  可改善#VV  心肌#NN  功能#NN  ，#PU  防治#VV  心脏病#NN  等#ETC  。#PU
+            防癌#NN  抑#NN  肿瘤#NN
+            常#AD  吃#VV  烧烤#NN  食物#NN  能使#NN  癌症#NN  的#DEC  发病率#NN  升高#VV  ，#PU  因为#P  烧烤#NN  食物#NN  下肚#NN  后#LC  会#VV  在#P  体内#NN  进行#VV  硝化#NN  反应#NN  ，#PU  产生#VV  出#VV  致癌物#NN    。#PU  而#MSP  猕猴桃#VV  中#NR  富含#NN  的#DEG  维生素C#NN  作为#VV  一#CD  种#M  抗氧化剂#NN  ，#PU  能够#VV  有效#AD  抑制#VV  这#DT  种#M  硝化反应#NN  ，#PU  防止#VV  癌症#NN  发生#VV    。#PU    。#PU
+            增强#VV  体质#NN
+            猕猴桃#NN  亦#AD  是#VC  滋补#VV  强壮#NN  之#DEC  品#M  ，#PU  其中#NN  的#DEG  营养#VA  物质#NN  可#VV  明显#AD  提高#VV  肌体#NN  活性#NN  ，#PU  促进#VV  新陈代谢#NN  ，#PU  协调#VV  肌体#NN  机能#NN  ，#PU  阻断#VV  致癌#NN  物质#NN  ，#PU  增强#VV  体质#NN  ，#PU  延缓#VV  衰老#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)
+            (relcl, 外皮#NN, 食用#VV)  (dobj, 食用#VV, 其#PN)  (nsubj, 选择#NN, 外皮#NN)  (cop, 选择#NN, 为#VC)  (advmod, 佳地#JJ, 最#AD)  (amod, 选择#NN, 佳地#JJ)  (root, ROOT#null, 选择#NN)   (nsubj, 含#VV, 奇异#NN)  (loc, 含#VV, 果#NN)  (case, 果#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 纤维#NN)  (dep, 含#VV, 有#VE)  (dep, 果胶#NN, 三分之一#CD)  (cop, 果胶#NN, 是#VC)  (dep, 有#VE, 果胶#NN)  (advmod, 皮和#VV, 特别是#AD)  (dep, 含#VV, 皮和#VV)  (amod, 部分#NN, 果肉#JJ)  (nn, 部分#NN, 接触#NN)  (dobj, 皮和#VV, 部分#NN)   (nsubj, 降低#VV, 果胶#NN)  (mmod, 降低#VV, 可#VV)  (root, ROOT#null, 降低#VV)  (nn, 浓度#NN, 血中#NN)  (nn, 浓度#NN, 胆固醇#NN)  (dobj, 降低#VV, 浓度#NN)  (conj, 降低#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促#VV)  (dobj, 促#VV, 消化#NN)
+            (nsubj, 降低#VV, 它#PN)  (assmod, 纤维#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 降低#VV, 纤维#NN)  (cc, 降低#VV, 不仅#CC)  (mmod, 降低#VV, 能够#VV)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (cc, 降低#VV, 而且#CC)  (mmod, 帮助#VV, 可以#VV)  (dep, 降低#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (conj, 帮助#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (conj, 帮助#VV, 清除#VV)  (nn, 代谢物#NN, 体内#NN)  (nn, 代谢物#NN, 有害#NN)  (dobj, 清除#VV, 代谢物#NN)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (root, ROOT#null, 抑制#VV)  (nn, 沉积#NN, 胆固醇#NN)  (case, 内壁#NN, 在#P)  (nn, 内壁#NN, 动脉#NN)  (assmod, 沉积#NN, 内壁#NN)  (case, 内壁#NN, 的#DEG)  (dobj, 抑制#VV, 沉积#NN)  (advmod, 防治#VV, 从而#AD)  (conj, 抑制#VV, 防治#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 防治#VV, 硬化#NN)  (conj, 抑制#VV, 可改善#VV)  (nn, 功能#NN, 心肌#NN)  (dobj, 可改善#VV, 功能#NN)  (conj, 抑制#VV, 防治#VV)  (dobj, 防治#VV, 心脏病#NN)  (etc, 心脏病#NN, 等#ETC)
+            (nn, 肿瘤#NN, 防癌#NN)  (nn, 肿瘤#NN, 抑#NN)  (root, ROOT#null, 肿瘤#NN)
+            (advmod, 吃#VV, 常#AD)  (relcl, 发病率#NN, 吃#VV)  (nn, 癌症#NN, 烧烤#NN)  (nn, 癌症#NN, 食物#NN)  (nn, 癌症#NN, 能使#NN)  (dobj, 吃#VV, 癌症#NN)  (mark, 吃#VV, 的#DEC)  (nsubj, 升高#VV, 发病率#NN)  (root, ROOT#null, 升高#VV)  (case, 下肚#NN, 因为#P)  (nn, 下肚#NN, 烧烤#NN)  (nn, 下肚#NN, 食物#NN)  (prep, 进行#VV, 下肚#NN)  (case, 下肚#NN, 后#LC)  (mmod, 进行#VV, 会#VV)  (case, 体内#NN, 在#P)  (prep, 进行#VV, 体内#NN)  (conj, 升高#VV, 进行#VV)  (nn, 反应#NN, 硝化#NN)  (dobj, 进行#VV, 反应#NN)  (dep, 升高#VV, 产生#VV)  (rcomp, 产生#VV, 出#VV)  (dobj, 产生#VV, 致癌物#NN)   (prtmod, 猕猴桃#VV, 而#MSP)  (root, ROOT#null, 猕猴桃#VV)  (nn, 富含#NN, 中#NR)  (assmod, 维生素C#NN, 富含#NN)  (case, 富含#NN, 的#DEG)  (dobj, 猕猴桃#VV, 维生素C#NN)  (conj, 猕猴桃#VV, 作为#VV)  (nummod, 种#M, 一#CD)  (clf, 抗氧化剂#NN, 种#M)  (dobj, 作为#VV, 抗氧化剂#NN)  (mmod, 抑制#VV, 能够#VV)  (advmod, 抑制#VV, 有效#AD)  (conj, 猕猴桃#VV, 抑制#VV)  (det, 硝化反应#NN, 这#DT)  (clf, 这#DT, 种#M)  (dobj, 抑制#VV, 硝化反应#NN)  (dep, 猕猴桃#VV, 防止#VV)  (nsubj, 发生#VV, 癌症#NN)  (ccomp, 防止#VV, 发生#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 体质#NN)
+            (nsubj, 滋补#VV, 猕猴桃#NN)  (advmod, 滋补#VV, 亦#AD)  (cop, 滋补#VV, 是#VC)  (root, ROOT#null, 滋补#VV)  (dobj, 滋补#VV, 强壮#NN)  (mark, 滋补#VV, 之#DEC)  (dep, 滋补#VV, 品#M)  (assmod, 物质#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nfincl, 物质#NN, 营养#VA)  (nsubj, 提高#VV, 物质#NN)  (mmod, 提高#VV, 可#VV)  (advmod, 提高#VV, 明显#AD)  (conj, 滋补#VV, 提高#VV)  (nn, 活性#NN, 肌体#NN)  (dobj, 提高#VV, 活性#NN)  (conj, 提高#VV, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 提高#VV, 协调#VV)  (nn, 机能#NN, 肌体#NN)  (dobj, 协调#VV, 机能#NN)  (conj, 提高#VV, 阻断#VV)  (nn, 物质#NN, 致癌#NN)  (dobj, 阻断#VV, 物质#NN)  (conj, 提高#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)  (conj, 提高#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)
+        </parsing>
+
+        <tag>
+            降低胆固醇  食用外皮  果肉部分  接触部分  皮和部分  血中浓度  胆固醇浓度  降低浓度  血管疾病  预防疾病  膳食纤维  帮助消化  防止便秘  体内代谢物  有害代谢物  清除代谢物  降血脂  胆固醇沉积  动脉内壁  抑制沉积  动脉硬化  防治硬化  心肌功能  可改善功能  防治心脏病  防癌肿瘤  吃发病率  烧烤癌症  食物癌症  能使癌症  升高  烧烤下肚  食物下肚  硝化反应  进行反应  产生致癌物  维生素C  作为抗氧化剂  抑制硝化反应  增强体质  滋补强壮  肌体活性  提高活性  促进新陈代谢  肌体机能  协调机能  延缓衰老  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  明目  减肥  抗癌防癌  生津止渴  清热  健胃  利水通淋  耐缺氧  辅助降血脂  抗动脉粥样硬化  抗炎  护肝
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.猕猴桃含有丰富的碳水化合物，维生素和微量元素。尤其是维生素C、维生素A叶酸的含量较高。维生素C的含量是苹果的十倍左右。被誉为“维生素C之王”。
+            2.猕猴桃外皮含有丰富果胶。
+            3.猕猴桃属低脂低热量水果，还有丰富的叶酸、膳食纤维、低钠高钾等。
+            4.猕猴桃中含有多种氨基酸，像麸氨酸及精氨酸这两种氨基酸可作为脑部神经传导物质、可促进生长激素分泌。
+            5.果肉中黑色颗粒部分，有丰富的维生素E。
+            6.世界上消费量最大的前26种水果中，猕猴桃最为丰富全面。猕猴桃果实中的Vc、Mg及微量元素含量最高，猕猴桃由于较重香蕉及柑桔含有的钾而位居榜首。
+        </rawdata>
+
+        <segment>
+            猕猴桃  含有  丰富  的  碳水化合物  ，  维生素  和  微量  元素  。  尤其是  维生素C  、  维生素A  叶酸  的  含量  较  高  。  维生素C  的  含量  是  苹果  的  十  倍  左右  。  被  誉为  “  维生素C  之  王  ”  。
+            猕猴桃  外皮  含有  丰富  果胶  。
+            猕猴桃  属  低脂  低  热量  水果  ，  还有  丰富  的  叶酸  、  膳食  纤维  、  低  钠  高  钾  等  。
+            猕猴桃  中  含有  多  种  氨基酸  ，  像麸  氨酸  及  精氨酸  这  两  种  氨基酸  可  作为  脑部  神经  传导  物质  、  可  促进  生长  激素  分泌  。
+            果肉  中  黑色  颗粒  部分  ，  有  丰富  的  维生素E  。
+            世界上  消费量  最  大  的  前  26  种  水果  中  ，  猕猴桃  最为  丰富  全面  。  猕猴桃  果实  中  的  Vc  、  Mg  及  微量  元素  含量  最高  ，  猕猴桃  由于  较重  香蕉  及  柑桔  含有  的  钾  而  位居  榜首  。
+        </segment>
+
+        <pos>
+            猕猴桃#NN  含有#VV  丰富#VA  的#DEC  碳水化合物#NN  ，#PU  维生素#NN  和#CC  微量#JJ  元素#NN    。#PU  尤其是#AD  维生素C#NR  、#PU  维生素A#NR  叶酸#NN  的#DEG  含量#NN  较#AD  高#VA    。#PU  维生素C#NN  的#DEG  含量#NN  是#VC  苹果#NN  的#DEG  十#CD  倍#M  左右#LC    。#PU  被#SB  誉为#VV  ``#NN  维生素C#NN  之#DEG  王#NN  ''#NN    。#PU    。#PU
+            猕猴桃#NN  外皮#NN  含有#NN  丰富#VV  果胶#NN  。#PU
+            猕猴桃#AD  属#VV  低脂#NR  低#JJ  热量#NN  水果#NN  ，#PU  还有#AD  丰富#VA  的#DEC  叶酸#NN  、#PU  膳食#NN  纤维#NN  、#PU  低#JJ  钠#NN  高#JJ  钾#NN  等#ETC  。#PU
+            猕猴桃#NN  中#LC  含有#VV  多#CD  种#M  氨基酸#NN  ，#PU  像麸#NN  氨酸#NN  及#CC  精氨酸#NR  这#DT  两#CD  种#M  氨基酸#NN  可#VV  作为#P  脑部#NN  神经#NN  传导#VV  物质#NN  、#PU  可#VV  促进#VV  生长#NN  激素#NN  分泌#NN  。#PU
+            果肉#NN  中#LC  黑色#JJ  颗粒#NN  部分#NN  ，#PU  有#VE  丰富#VA  的#DEC  维生素E#NN  。#PU
+            世界上#NN  消费量#NN  最#AD  大#VA  的#DEC  前#DT  26#CD  种#M  水果#NN  中#LC  ，#PU  猕猴桃#NN  最为#AD  丰富#VA  全面#VA    。#PU  猕猴桃#NN  果实#NN  中#LC  的#DEG  Vc#NR  、#PU  Mg#NR  及#CC  微量#NR  元素#NN  含量#NN  最高#AD  ，#PU  猕猴桃#AD  由于#P  较重#VV  香蕉#NN  及#CC  柑桔#NN  含有#NN  的#DEG  钾#NN  而#MSP  位居#VV  榜首#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 猕猴桃#NN)  (root, ROOT#null, 含有#VV)  (relcl, 碳水化合物#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, 元素#NN, 碳水化合物#NN)  (conj, 元素#NN, 维生素#NN)  (cc, 元素#NN, 和#CC)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)   (advmod, 含量#NN, 尤其是#AD)  (conj, 维生素A#NR, 维生素C#NR)  (nn, 叶酸#NN, 维生素A#NR)  (assmod, 含量#NN, 叶酸#NN)  (case, 叶酸#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)   (assmod, 含量#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (assmod, 倍#M, 苹果#NN)  (case, 苹果#NN, 的#DEG)  (nummod, 倍#M, 十#CD)  (loc, 是#VC, 倍#M)  (case, 倍#M, 左右#LC)   (auxpass, 誉为#VV, 被#SB)  (root, ROOT#null, 誉为#VV)  (nn, 维生素C#NN, ``#NN)  (assmod, ''#NN, 维生素C#NN)  (case, 维生素C#NN, 之#DEG)  (nn, ''#NN, 王#NN)  (dobj, 誉为#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 含有#NN, 猕猴桃#NN)  (nn, 含有#NN, 外皮#NN)  (nsubj, 丰富#VV, 含有#NN)  (root, ROOT#null, 丰富#VV)  (dobj, 丰富#VV, 果胶#NN)
+            (advmod, 属#VV, 猕猴桃#AD)  (root, ROOT#null, 属#VV)  (nn, 热量#NN, 低脂#NR)  (amod, 热量#NN, 低#JJ)  (nn, 水果#NN, 热量#NN)  (dep, 钾#NN, 水果#NN)  (advmod, 钾#NN, 还有#AD)  (relcl, 叶酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 钾#NN, 叶酸#NN)  (nn, 纤维#NN, 膳食#NN)  (conj, 钾#NN, 纤维#NN)  (amod, 钠#NN, 低#JJ)  (nn, 钾#NN, 钠#NN)  (amod, 钾#NN, 高#JJ)  (dobj, 属#VV, 钾#NN)  (etc, 钾#NN, 等#ETC)
+            (loc, 含有#VV, 猕猴桃#NN)  (case, 猕猴桃#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含有#VV, 氨基酸#NN)  (nn, 氨酸#NN, 像麸#NN)  (conj, 氨基酸#NN, 氨酸#NN)  (cc, 氨基酸#NN, 及#CC)  (nn, 氨基酸#NN, 精氨酸#NR)  (det, 氨基酸#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 传导#VV, 氨基酸#NN)  (mmod, 传导#VV, 可#VV)  (case, 神经#NN, 作为#P)  (nn, 神经#NN, 脑部#NN)  (prep, 传导#VV, 神经#NN)  (conj, 含有#VV, 传导#VV)  (dobj, 传导#VV, 物质#NN)  (mmod, 促进#VV, 可#VV)  (dep, 传导#VV, 促进#VV)  (nn, 分泌#NN, 生长#NN)  (nn, 分泌#NN, 激素#NN)  (dobj, 促进#VV, 分泌#NN)
+            (loc, 有#VE, 果肉#NN)  (case, 果肉#NN, 中#LC)  (amod, 部分#NN, 黑色#JJ)  (nn, 部分#NN, 颗粒#NN)  (dep, 有#VE, 部分#NN)  (root, ROOT#null, 有#VE)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 有#VE, 维生素E#NN)
+            (nn, 消费量#NN, 世界上#NN)  (nsubj, 丰富#VA, 消费量#NN)  (advmod, 大#VA, 最#AD)  (relcl, 水果#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (det, 水果#NN, 前#DT)  (nummod, 种#M, 26#CD)  (dep, 前#DT, 种#M)  (loc, 丰富#VA, 水果#NN)  (case, 水果#NN, 中#LC)  (nsubj, 丰富#VA, 猕猴桃#NN)  (advmod, 丰富#VA, 最为#AD)  (root, ROOT#null, 丰富#VA)  (comod, 丰富#VA, 全面#VA)   (nn, 果实#NN, 猕猴桃#NN)  (assmod, 含量#NN, 果实#NN)  (case, 果实#NN, 中#LC)  (case, 果实#NN, 的#DEG)  (conj, 微量#NR, Vc#NR)  (conj, 微量#NR, Mg#NR)  (cc, 微量#NR, 及#CC)  (nn, 含量#NN, 微量#NR)  (nn, 含量#NN, 元素#NN)  (nsubj, 位居#VV, 含量#NN)  (advmod, 位居#VV, 最高#AD)  (advmod, 位居#VV, 猕猴桃#AD)  (case, 较重#VV, 由于#P)  (prep, 位居#VV, 较重#VV)  (conj, 柑桔#NN, 香蕉#NN)  (cc, 柑桔#NN, 及#CC)  (nn, 含有#NN, 柑桔#NN)  (assmod, 钾#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (dobj, 较重#VV, 钾#NN)  (prtmod, 位居#VV, 而#MSP)  (root, ROOT#null, 位居#VV)  (dobj, 位居#VV, 榜首#NN)
+        </parsing>
+
+        <tag>
+            碳水化合物丰富  维生素A  维生素C  誉为  外皮含有  果胶丰富  低热量  热量水果  叶酸丰富  膳食纤维  低钠  高钾  含有氨基酸  像麸氨酸  脑部神经  生长分泌  激素分泌  促进分泌  黑色部分  颗粒部分  维生素E丰富  世界上消费量  消费量丰富  全面丰富  微量  Vc  Mg  香蕉  柑桔含有  较重钾  位居榜首  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.坚硬状态的猕猴桃并不好吃。糖分很低，果实酸涩，还让人感觉刺口。因为其中含有大量蛋白酶，会分解舌头和口腔黏膜的蛋白质，引起不适感。 所以，猕猴桃一定要放熟才能食用。
+            2.猕猴桃的成熟需要几天时间，很多性急的人往往等不及。如果希望它快点成熟，不妨把猕猴桃和已经成熟的其他水果放在一起。这样，苹果、香蕉、西红柿等水果散发出的天然催熟气体“乙烯”，就会传染猕猴桃，促进它变软变甜。
+            3.催熟后，用手指肚轻轻按压猕猴桃的两端附近，如果感觉不再坚硬，按压处有轻微的变形，但也不是很软，就是最佳的食用状态。把它切开，用勺挖食，正好酸甜适口。猕猴桃可以在饭后吃，它含有的大量蛋白酶可以帮助消化。
+        </rawdata>
+
+        <segment>
+            坚硬  状态  的  猕猴桃  并不  好吃  。  糖分  很  低  ，  果实  酸涩  ，  还  让  人  感觉  刺  口  。  因为  其中  含有  大量  蛋白酶  ，  会  分解  舌头  和  口腔  黏膜  的  蛋白质  ，  引起  不适感  。    所以  ，  猕猴桃  一定  要  放  熟  才  能  食用  。
+            猕猴桃  的  成熟  需要  几  天  时间  ，  很多  性急  的  人  往往  等  不  及  。  如果  希望  它  快点  成熟  ，  不妨  把  猕猴桃  和  已经  成熟  的  其他  水果  放在  一起  。  这样  ，  苹果  、  香蕉  、  西红柿  等  水果  散  发出  的  天然  催熟  气体  “  乙烯  ”  ，  就  会  传染  猕猴桃  ，  促进  它  变软  变甜  。
+            催熟  后  ，  用  手指  肚  轻轻  按压  猕猴桃  的  两  端  附近  ，  如果  感觉  不  再  坚硬  ，  按压处  有  轻微  的  变形  ，  但  也  不  是  很  软  ，  就是  最  佳  的  食用  状态  。  把  它  切开  ，  用勺  挖  食  ，  正好  酸  甜  适口  。  猕猴桃  可以  在  饭后  吃  ，  它  含有  的  大量  蛋白酶  可以  帮助  消化  。
+        </segment>
+
+        <pos>
+            坚硬#JJ  状态#NN  的#DEG  猕猴桃#NN  并不#VV  好吃#NN    。#PU  糖分#NN  很#AD  低#VA  ，#PU  果实#NN  酸涩#VA  ，#PU  还#AD  让#VV  人#NN  感觉#VV  刺#CD  口#M    。#PU  因为#P  其中#NN  含有#VV  大量#CD  蛋白酶#NN  ，#PU  会#VV  分解#VV  舌头#NN  和#CC  口腔#NN  黏膜#NN  的#DEG  蛋白质#NN  ，#PU  引起#VV  不适感#NN    。#PU  所以#AD  ，#PU  猕猴桃#NN  一定#AD  要#VV  放#VV  熟#JJ  才#NN  能#VV  食用#VV    。#PU    。#PU
+            猕猴桃#NN  的#DEG  成熟#VA  需要#VV  几#CD  天#M  时间#NN  ，#PU  很多#CD  性急#NN  的#DEC  人#NN  往往#AD  等#VV  不#AD  及#VV    。#PU  如果#CS  希望#VV  它#PN  快点#VV  成熟#VA  ，#PU  不妨#NN  把#BA  猕猴桃#NN  和#CC  已经#AD  成熟#VA  的#DEC  其他#DT  水果#NN  放在#NN  一起#VV    。#PU  这样#AD  ，#PU  苹果#NR  、#PU  香蕉#NR  、#PU  西红柿#NR  等#ETC  水果#NN  散#JJ  发出#VV  的#DEC  天然#JJ  催熟#NN  气体#NN  ``#NN  乙烯#NN  ''#VV  ，#PU  就#AD  会#VV  传染#VV  猕猴桃#NN  ，#PU  促进#VV  它#PN  变软#NN  变甜#NN    。#PU    。#PU
+            催熟#NN  后#LC  ，#PU  用#P  手指#VV  肚#NN  轻轻#NN  按压#NN  猕猴桃#NN  的#DEC  两#CD  端#NN  附近#NN  ，#PU  如果#CS  感觉#VV  不#AD  再#AD  坚硬#VA  ，#PU  按压处#AD  有#VE  轻微#NN  的#DEC  变形#NN  ，#PU  但#AD  也#AD  不#AD  是#VC  很#AD  软#VA  ，#PU  就是#AD  最#AD  佳#VA  的#DEC  食用#VV  状态#NN    。#PU  把#BA  它#PN  切开#VV  ，#PU  用勺#NN  挖#VV  食#NN  ，#PU  正好#AD  酸#VV  甜#NN  适口#NN    。#PU  猕猴桃#AD  可以#VV  在#P  饭后#NR  吃#VV  ，#PU  它#PN  含有#NN  的#DEG  大量#CD  蛋白酶#NN  可以#VV  帮助#VV  消化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 状态#NN, 坚硬#JJ)  (assmod, 猕猴桃#NN, 状态#NN)  (case, 状态#NN, 的#DEG)  (nsubj, 并不#VV, 猕猴桃#NN)  (root, ROOT#null, 并不#VV)  (dobj, 并不#VV, 好吃#NN)   (nsubj, 低#VA, 糖分#NN)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)  (nsubj, 酸涩#VA, 果实#NN)  (conj, 低#VA, 酸涩#VA)  (advmod, 让#VV, 还#AD)  (conj, 酸涩#VA, 让#VV)  (dobj, 让#VV, 人#NN)  (dep, 让#VV, 感觉#VV)  (nummod, 口#M, 刺#CD)  (range, 感觉#VV, 口#M)   (case, 含有#VV, 因为#P)  (nsubj, 含有#VV, 其中#NN)  (prep, 分解#VV, 含有#VV)  (nummod, 蛋白酶#NN, 大量#CD)  (dobj, 含有#VV, 蛋白酶#NN)  (mmod, 分解#VV, 会#VV)  (root, ROOT#null, 分解#VV)  (conj, 口腔#NN, 舌头#NN)  (cc, 口腔#NN, 和#CC)  (nn, 黏膜#NN, 口腔#NN)  (assmod, 蛋白质#NN, 黏膜#NN)  (case, 黏膜#NN, 的#DEG)  (dobj, 分解#VV, 蛋白质#NN)  (dep, 分解#VV, 引起#VV)  (dobj, 引起#VV, 不适感#NN)   (advmod, 放#VV, 所以#AD)  (nsubj, 放#VV, 猕猴桃#NN)  (advmod, 放#VV, 一定#AD)  (mmod, 放#VV, 要#VV)  (dep, 食用#VV, 放#VV)  (amod, 才#NN, 熟#JJ)  (dobj, 放#VV, 才#NN)  (dep, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, null#null)
+            (assmod, 人#NN, 猕猴桃#NN)  (case, 猕猴桃#NN, 的#DEG)  (relcl, 人#NN, 成熟#VA)  (dep, 成熟#VA, 需要#VV)  (nummod, 天#M, 几#CD)  (clf, 时间#NN, 天#M)  (dobj, 需要#VV, 时间#NN)  (nummod, 性急#NN, 很多#CD)  (conj, 需要#VV, 性急#NN)  (mark, 成熟#VA, 的#DEC)  (nsubj, 等#VV, 人#NN)  (xsubj, 及#VV, 人#NN)  (advmod, 等#VV, 往往#AD)  (root, ROOT#null, 等#VV)  (neg, 及#VV, 不#AD)  (ccomp, 等#VV, 及#VV)   (advmod, 希望#VV, 如果#CS)  (root, ROOT#null, 希望#VV)  (nsubj, 快点#VV, 它#PN)  (ccomp, 希望#VV, 快点#VV)  (ccomp, 快点#VV, 成熟#VA)  (nsubj, 一起#VV, 不妨#NN)  (ba, 一起#VV, 把#BA)  (conj, 放在#NN, 猕猴桃#NN)  (cc, 放在#NN, 和#CC)  (advmod, 成熟#VA, 已经#AD)  (relcl, 放在#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (det, 水果#NN, 其他#DT)  (nn, 放在#NN, 水果#NN)  (nsubj, 一起#VV, 放在#NN)  (conj, 快点#VV, 一起#VV)   (advmod, ''#VV, 这样#AD)  (conj, 西红柿#NR, 苹果#NR)  (conj, 西红柿#NR, 香蕉#NR)  (nn, 水果#NN, 西红柿#NR)  (etc, 西红柿#NR, 等#ETC)  (nsubj, ''#VV, 水果#NN)  (xsubj, 传染#VV, 水果#NN)  (amod, ``#NN, 散#JJ)  (relcl, 催熟#NN, 发出#VV)  (mark, 发出#VV, 的#DEC)  (amod, 催熟#NN, 天然#JJ)  (nn, ``#NN, 催熟#NN)  (nn, ``#NN, 气体#NN)  (nn, 乙烯#NN, ``#NN)  (nsubj, ''#VV, 乙烯#NN)  (xsubj, 传染#VV, 乙烯#NN)  (root, ROOT#null, ''#VV)  (advmod, 传染#VV, 就#AD)  (mmod, 传染#VV, 会#VV)  (ccomp, ''#VV, 传染#VV)  (dobj, 传染#VV, 猕猴桃#NN)  (dep, 传染#VV, 促进#VV)  (nn, 变甜#NN, 它#PN)  (nn, 变甜#NN, 变软#NN)  (dobj, 促进#VV, 变甜#NN)   (root, ROOT#null, null#null)
+            (loc, 软#VA, 催熟#NN)  (case, 催熟#NN, 后#LC)  (case, 附近#NN, 用#P)  (relcl, 端#NN, 手指#VV)  (nn, 猕猴桃#NN, 肚#NN)  (nn, 猕猴桃#NN, 轻轻#NN)  (nn, 猕猴桃#NN, 按压#NN)  (dobj, 手指#VV, 猕猴桃#NN)  (mark, 手指#VV, 的#DEC)  (nummod, 端#NN, 两#CD)  (nn, 附近#NN, 端#NN)  (prep, 软#VA, 附近#NN)  (advmod, 感觉#VV, 如果#CS)  (dep, 软#VA, 感觉#VV)  (neg, 坚硬#VA, 不#AD)  (advmod, 坚硬#VA, 再#AD)  (relcl, 变形#NN, 坚硬#VA)  (advmod, 有#VE, 按压处#AD)  (dep, 坚硬#VA, 有#VE)  (dobj, 有#VE, 轻微#NN)  (mark, 坚硬#VA, 的#DEC)  (dobj, 感觉#VV, 变形#NN)  (advmod, 软#VA, 但#AD)  (advmod, 软#VA, 也#AD)  (neg, 软#VA, 不#AD)  (cop, 软#VA, 是#VC)  (advmod, 软#VA, 很#AD)  (conj, 食用#VV, 软#VA)  (advmod, 佳#VA, 就是#AD)  (advmod, 佳#VA, 最#AD)  (dep, 软#VA, 佳#VA)  (mark, 软#VA, 的#DEC)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 状态#NN)   (ba, 切开#VV, 把#BA)  (nsubj, 切开#VV, 它#PN)  (root, ROOT#null, 切开#VV)  (nsubj, 挖#VV, 用勺#NN)  (ccomp, 切开#VV, 挖#VV)  (dobj, 挖#VV, 食#NN)  (advmod, 酸#VV, 正好#AD)  (dep, 切开#VV, 酸#VV)  (nn, 适口#NN, 甜#NN)  (dobj, 酸#VV, 适口#NN)   (advmod, 吃#VV, 猕猴桃#AD)  (mmod, 吃#VV, 可以#VV)  (case, 饭后#NR, 在#P)  (prep, 吃#VV, 饭后#NR)  (dep, 帮助#VV, 吃#VV)  (nsubj, 帮助#VV, 它#PN)  (assmod, 蛋白酶#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nummod, 蛋白酶#NN, 大量#CD)  (nsubj, 帮助#VV, 蛋白酶#NN)  (mmod, 帮助#VV, 可以#VV)  (root, ROOT#null, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)
+        </parsing>
+
+        <tag>
+            坚硬状态  并不好吃  果实酸涩  含有蛋白酶  舌头  口腔黏膜  分解蛋白质  熟才  人成熟  需要时间  希望  放在成熟  水果放在  西红柿  苹果  香蕉  发出催熟  天然催熟  变软变甜  促进变甜  手指端  变形坚硬  感觉变形  食用状态  切开  帮助消化  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/102039317712.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\314 猕猴桃.jpg
+    </picturelocalurl>
+
+</content>

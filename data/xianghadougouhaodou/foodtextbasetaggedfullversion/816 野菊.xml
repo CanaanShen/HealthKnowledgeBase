@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        816
+    </id>
+
+    <foodname>
+        野菊
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        苦薏、野山菊、路边菊、黄菊仔、野黄菊、鬼仔菊、山九月菊、野菊花、土菊花、草菊
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            野菊为菊科植物野菊，广布我国各地（除被疆外），其花、叶可入药，有消炎、杀菌的作用，有极高的药用价值。
+        </rawdata>
+
+        <segment>
+            野菊  为  菊科  植物  野菊  ，  广布  我国  各地  （  除  被  疆外  ）  ，  其  花  、  叶可  入药  ，  有  消炎  、  杀菌  的  作用  ，  有  极  高  的  药用  价值  。
+        </segment>
+
+        <pos>
+            野菊#NN  为#VC  菊科#NN  植物#NN  野菊#NN  ，#PU  广布#NN  我国#VV  各地#NN  （#PU  除#P  被#SB  疆外#VV  ）#PU  ，#PU  其#PN  花#NN  、#PU  叶可#NN  入药#NN  ，#PU  有#VE  消炎#VA  、#PU  杀菌#VA  的#DEC  作用#NN  ，#PU  有#VE  极#AD  高#VA  的#DEC  药用#JJ  价值#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 野菊#NN, 野菊#NN)  (cop, 野菊#NN, 为#VC)  (nn, 野菊#NN, 菊科#NN)  (nn, 野菊#NN, 植物#NN)  (root, ROOT#null, 野菊#NN)  (nsubj, 我国#VV, 广布#NN)  (conj, 野菊#NN, 我国#VV)  (dobj, 我国#VV, 各地#NN)  (advmod, 疆外#VV, 除#P)  (auxpass, 疆外#VV, 被#SB)  (dep, 我国#VV, 疆外#VV)  (nn, 入药#NN, 其#PN)  (conj, 入药#NN, 花#NN)  (nn, 入药#NN, 叶可#NN)  (nsubj, 有#VE, 入药#NN)  (conj, 野菊#NN, 有#VE)  (relcl, 作用#NN, 消炎#VA)  (dep, 消炎#VA, 杀菌#VA)  (mark, 消炎#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)  (conj, 有#VE, 有#VE)  (advmod, 高#VA, 极#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 药用#JJ)  (dobj, 有#VE, 价值#NN)
+        </parsing>
+
+        <tag>
+            我国各地  叶可入药  药用价值  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            清热解毒。治温热头痛、赤眼、痢疾、鼻炎、支气管炎、咽喉肿痛、湿疹、皮肤瘙痒。
+        </rawdata>
+
+        <segment>
+            清热  解毒  。  治  温热  头痛  、  赤眼  、  痢疾  、  鼻炎  、  支气管炎  、  咽喉  肿痛  、  湿疹  、  皮肤  瘙痒  。
+        </segment>
+
+        <pos>
+            清热#NN  解毒#VV    。#PU  治#VV  温热#NN  头痛#NN  、#PU  赤眼#NR  、#PU  痢疾#NR  、#PU  鼻炎#NR  、#PU  支气管炎#NR  、#PU  咽喉#NN  肿痛#NN  、#PU  湿疹#NR  、#PU  皮肤#NR  瘙痒#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 解毒#VV, 清热#NN)  (root, ROOT#null, 解毒#VV)   (root, ROOT#null, 治#VV)  (nn, 头痛#NN, 温热#NN)  (conj, 瘙痒#NR, 头痛#NN)  (conj, 支气管炎#NR, 赤眼#NR)  (conj, 支气管炎#NR, 痢疾#NR)  (conj, 支气管炎#NR, 鼻炎#NR)  (conj, 瘙痒#NR, 支气管炎#NR)  (nn, 肿痛#NN, 咽喉#NN)  (conj, 瘙痒#NR, 肿痛#NN)  (conj, 瘙痒#NR, 湿疹#NR)  (nn, 瘙痒#NR, 皮肤#NR)  (dobj, 治#VV, 瘙痒#NR)
+        </parsing>
+
+        <tag>
+            解毒  温热头痛  支气管炎  赤眼  痢疾  鼻炎  瘙痒  咽喉肿痛  湿疹  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热解毒
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/59/41/82265_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\816 野菊.jpg
+    </picturelocalurl>
+
+</content>

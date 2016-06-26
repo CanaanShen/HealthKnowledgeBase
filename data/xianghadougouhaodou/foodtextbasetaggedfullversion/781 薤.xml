@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        781
+    </id>
+
+    <foodname>
+        薤
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        皎头
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            气虚者慎食;
+        </rawdata>
+
+        <segment>
+            气虚  者  慎食  ;
+        </segment>
+
+        <pos>
+            气虚#NN  者#NN  慎食#VV  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 气虚#NN)  (nsubj, 慎食#VV, 者#NN)  (root, ROOT#null, 慎食#VV)  (dobj, 慎食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            气虚者  慎食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为百合科葱属多年生草本，一种蔬菜类植物。鳞茎球形，似洋葱，白色，是主要的食用部分。薤白净透明、皮软肉糯、脆嫩无渣、香气浓郁，自古被视为席上佐餐佳品。它的鳞茎和嫩叶均可炒食、煮食，鳞茎可醋渍、盐渍、蜜渍加工成腌渍蔬菜，制成罐头远销。
+        </rawdata>
+
+        <segment>
+            为  百合科  葱  属  多年生  草本  ，  一  种  蔬菜类  植物  。  鳞茎  球形  ，  似  洋葱  ，  白色  ，  是  主要  的  食用  部分  。  薤白  净  透明  、  皮软  肉糯  、  脆嫩  无渣  、  香气  浓郁  ，  自古  被  视为  席上  佐餐  佳品  。  它  的  鳞茎  和  嫩叶  均  可  炒  食  、  煮食  ，  鳞茎  可  醋渍  、  盐渍  、  蜜渍  加工  成  腌渍  蔬菜  ，  制成  罐头  远销  。
+        </segment>
+
+        <pos>
+            为#P  百合科#CD  葱#NN  属#VV  多年生#NN  草本#NN  ，#PU  一#CD  种#M  蔬菜类#VV  植物#NN    。#PU  鳞茎#NR  球形#VV  ，#PU  似#P  洋葱#NN  ，#PU  白色#JJ  ，#PU  是#VC  主要#JJ  的#DEG  食用#VV  部分#NN    。#PU  薤白#NN  净#AD  透明#VA  、#PU  皮软#VV  肉糯#NN  、#PU  脆嫩#AD  无渣#VA  、#PU  香气#AD  浓郁#VA  ，#PU  自古#AD  被#SB  视为#VV  席上#NN  佐餐#NN  佳品#NN    。#PU  它#PN  的#DEG  鳞茎#NN  和#CC  嫩叶#NN  均#AD  可#VV  炒#VV  食#NN  、#PU  煮食#NN  ，#PU  鳞茎#VV  可#VV  醋渍#NN  、#PU  盐渍#NN  、#PU  蜜渍#NN  加工#NN  成#VV  腌渍#JJ  蔬菜#NN  ，#PU  制成#VV  罐头#NN  远销#VV    。#PU
+        </pos>
+
+        <parsing>
+            (case, 葱#NN, 为#P)  (nummod, 葱#NN, 百合科#CD)  (prep, 属#VV, 葱#NN)  (root, ROOT#null, 属#VV)  (nn, 草本#NN, 多年生#NN)  (dobj, 属#VV, 草本#NN)  (nummod, 种#M, 一#CD)  (dep, 蔬菜类#VV, 种#M)  (dep, 属#VV, 蔬菜类#VV)  (dobj, 蔬菜类#VV, 植物#NN)   (nsubj, 球形#VV, 鳞茎#NR)  (root, ROOT#null, 球形#VV)  (case, 洋葱#NN, 似#P)  (conj, 部分#NN, 洋葱#NN)  (dep, 洋葱#NN, 白色#JJ)  (cop, 部分#NN, 是#VC)  (assmod, 部分#NN, 主要#JJ)  (case, 主要#JJ, 的#DEG)  (nfincl, 部分#NN, 食用#VV)  (ccomp, 球形#VV, 部分#NN)   (nsubj, 透明#VA, 薤白#NN)  (advmod, 透明#VA, 净#AD)  (root, ROOT#null, 透明#VA)  (conj, 透明#VA, 皮软#VV)  (dobj, 皮软#VV, 肉糯#NN)  (advmod, 无渣#VA, 脆嫩#AD)  (conj, 透明#VA, 无渣#VA)  (advmod, 浓郁#VA, 香气#AD)  (conj, 透明#VA, 浓郁#VA)  (advmod, 视为#VV, 自古#AD)  (auxpass, 视为#VV, 被#SB)  (conj, 透明#VA, 视为#VV)  (nn, 佳品#NN, 席上#NN)  (nn, 佳品#NN, 佐餐#NN)  (dobj, 视为#VV, 佳品#NN)   (assmod, 嫩叶#NN, 它#PN)  (case, 它#PN, 的#DEG)  (conj, 嫩叶#NN, 鳞茎#NN)  (cc, 嫩叶#NN, 和#CC)  (nsubj, 炒#VV, 嫩叶#NN)  (advmod, 炒#VV, 均#AD)  (mmod, 炒#VV, 可#VV)  (root, ROOT#null, 炒#VV)  (conj, 煮食#NN, 食#NN)  (dobj, 炒#VV, 煮食#NN)  (conj, 炒#VV, 鳞茎#VV)  (rcomp, 鳞茎#VV, 可#VV)  (conj, 加工#NN, 醋渍#NN)  (conj, 加工#NN, 盐渍#NN)  (nn, 加工#NN, 蜜渍#NN)  (dobj, 鳞茎#VV, 加工#NN)  (conj, 鳞茎#VV, 成#VV)  (amod, 蔬菜#NN, 腌渍#JJ)  (dobj, 成#VV, 蔬菜#NN)  (conj, 炒#VV, 制成#VV)  (dobj, 制成#VV, 罐头#NN)  (conj, 制成#VV, 远销#VV)
+        </parsing>
+
+        <tag>
+            多年生草本  蔬菜类植物  球形  部分  洋葱  皮软肉糯  席上佳品  佐餐佳品  视为佳品  嫩叶  醋渍  盐渍  蜜渍加工  鳞茎加工  腌渍蔬菜  制成罐头  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            薤有一定的药用保健价值。食薤有增进食欲，帮助消化，解除油腻，健脾开胃，温中通阴，舒筋益气，通神安魂，散瘀止痛等医疗效果。
+        </rawdata>
+
+        <segment>
+            薤有  一定  的  药用  保健  价值  。  食薤  有  增进  食欲  ，  帮助  消化  ，  解除  油腻  ，  健脾  开胃  ，  温  中  通  阴  ，  舒筋  益气  ，  通神  安魂  ，  散瘀  止痛  等  医疗  效果  。
+        </segment>
+
+        <pos>
+            薤有#VV  一定#JJ  的#DEG  药用#NN  保健#NN  价值#NN    。#PU  食薤#NN  有#VE  增进#VV  食欲#NN  ，#PU  帮助#VV  消化#NN  ，#PU  解除#VV  油腻#NN  ，#PU  健脾#VV  开胃#NN  ，#PU  温#NN  中#LC  通#VV  阴#NN  ，#PU  舒筋#VV  益气#NN  ，#PU  通神#VV  安魂#NN  ，#PU  散瘀#VV  止痛#NN  等#ETC  医疗#NN  效果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 薤有#VV)  (assmod, 价值#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 价值#NN, 药用#NN)  (nn, 价值#NN, 保健#NN)  (dobj, 薤有#VV, 价值#NN)   (dep, 有#VE, 食薤#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增进#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 解除#VV)  (dobj, 解除#VV, 油腻#NN)  (dep, 增进#VV, 健脾#VV)  (dobj, 健脾#VV, 开胃#NN)  (loc, 通#VV, 温#NN)  (case, 温#NN, 中#LC)  (dep, 增进#VV, 通#VV)  (dobj, 通#VV, 阴#NN)  (conj, 通#VV, 舒筋#VV)  (dobj, 舒筋#VV, 益气#NN)  (conj, 通#VV, 通神#VV)  (dobj, 通神#VV, 安魂#NN)  (conj, 通#VV, 散瘀#VV)  (nn, 效果#NN, 止痛#NN)  (etc, 止痛#NN, 等#ETC)  (nn, 效果#NN, 医疗#NN)  (dobj, 散瘀#VV, 效果#NN)
+        </parsing>
+
+        <tag>
+            药用价值  保健价值  增进食欲  帮助消化  解除油腻  健脾开胃  舒筋益气  通神安魂  止痛效果  医疗效果  散瘀效果  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  健脾开胃  散瘀止痛
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/31/41/82225_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\781 薤.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,402 @@
+<content>
+
+    <id>
+        682
+    </id>
+
+    <foodname>
+        黄桃
+    </foodname>
+
+    <firstcategory>
+        水果、花茶、坚果
+    </firstcategory>
+
+    <secondcategory>
+        鲜果
+    </secondcategory>
+
+    <alias>
+        桃实、桃子
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            内热偏盛、易生疮疖、糖尿病患者不宜多吃，婴儿、糖尿病患者、孕妇、月经过多忌食。
+        </rawdata>
+
+        <segment>
+            内热  偏  盛  、  易生  疮疖  、  糖尿病  患者  不  宜  多  吃  ，  婴儿  、  糖尿病  患者  、  孕妇  、  月经  过多  忌食  。
+        </segment>
+
+        <pos>
+            内热#NN  偏#AD  盛#VA  、#PU  易生#NN  疮疖#NN  、#PU  糖尿病#NN  患者#NN  不#AD  宜#NR  多#AD  吃#VV  ，#PU  婴儿#NN  、#PU  糖尿病#NN  患者#NN  、#PU  孕妇#NN  、#PU  月经#NN  过多#NN  忌食#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 盛#VA, 内热#NN)  (advmod, 盛#VA, 偏#AD)  (root, ROOT#null, 盛#VA)  (nn, 患者#NN, 易生#NN)  (conj, 患者#NN, 疮疖#NN)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 吃#VV, 患者#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (conj, 盛#VA, 吃#VV)  (conj, 过多#NN, 婴儿#NN)  (nn, 患者#NN, 糖尿病#NN)  (conj, 过多#NN, 患者#NN)  (conj, 过多#NN, 孕妇#NN)  (nn, 过多#NN, 月经#NN)  (nsubj, 忌食#VA, 过多#NN)  (dep, 盛#VA, 忌食#VA)
+        </parsing>
+
+        <tag>
+            内热偏盛  易生疮疖  糖尿病  患者  不宜多吃  婴儿  糖尿病  患者  孕妇  月经过多  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适合老年体虚、肠燥便秘者、身体瘦弱、阳虚肾亏者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适合  老年  体虚  、  肠燥  便秘  者  、  身体  瘦弱  、  阳虚  肾亏  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适合#VV  老年#NN  体虚#NN  、#PU  肠燥#NN  便秘#NN  者#NN  、#PU  身体#NN  瘦弱#NN  、#PU  阳虚#NN  肾亏#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 尤其#AD)  (relcl, 者#NN, 适合#VV)  (nn, 体虚#NN, 老年#NN)  (conj, 肾亏#NN, 体虚#NN)  (nn, 者#NN, 肠燥#NN)  (nn, 者#NN, 便秘#NN)  (conj, 肾亏#NN, 者#NN)  (nn, 瘦弱#NN, 身体#NN)  (conj, 肾亏#NN, 瘦弱#NN)  (nn, 肾亏#NN, 阳虚#NN)  (dobj, 适合#VV, 肾亏#NN)  (nsubj, 食用#VV, 者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤其适合  老年体虚  肠燥便秘者  身体瘦弱  阳虚肾亏者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                食部
+            </elename>
+            <elevalue>
+                86%
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水分(克)
+            </elename>
+            <elevalue>
+                86.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量(千卡)
+            </elename>
+            <elevalue>
+                51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                12.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不溶性纤维(克)
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                灰分(克)
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素(微克)
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                尼克酸(毫克)
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E(毫克)
+            </elename>
+            <elevalue>
+                1.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                166
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                5.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            桃为蔷薇科植物或山桃的成熟果实。原产我国陕西、甘肃一带。目前分布很广，主要产区是河北、山东、北京、陕西、山西、河南、甘肃、浙江等省市。根据分布地区和性状特征，可分为北方品种群、南方品种群、黄肉桃品种群、蟠桃品种群和油桃品种群。北方品种群果实尖端有突尖，果肉脆或柔软多汁；南方品种群果实顶端圆，果肉柔软多汁；黄肉桃品种群的果肉为黄色；蟠桃品种群的果实扁平形；油桃品种群果面光滑。
+            人们总是把桃作为福寿祥瑞的象征，在民间素有"寿桃"和"仙桃"的美称。在果品资源中，桃以其果形美观，肉质甜美被称为"天下第一果"。
+        </rawdata>
+
+        <segment>
+            桃  为  蔷薇科  植物  或  山桃  的  成熟  果实  。  原产  我  国  陕西  、  甘肃  一带  。  目前  分布  很  广  ，  主要  产区  是  河北  、  山东  、  北京  、  陕西  、  山西  、  河南  、  甘肃  、  浙江  等  省  市  。  根据  分布  地区  和  性状  特征  ，  可  分为  北方  品种  群  、  南方  品  种群  、  黄肉桃  品  种群  、  蟠桃  品  种群  和  油桃  品  种群  。  北方  品种  群  果实  尖端  有  突尖  ，  果肉  脆  或  柔软  多汁  ；  南方  品种  群  果实  顶端  圆  ，  果肉  柔软  多汁  ；  黄肉桃  品  种群  的  果肉  为  黄色  ；  蟠桃  品  种群  的  果实  扁平形  ；  油桃  品  种群  果面  光滑  。
+            人们  总是  把  桃  作为  福寿  祥瑞  的  象征  ，  在  民间  素有  "  寿桃  "  和  "  仙桃  "  的  美称  。  在  果品  资源  中  ，  桃  以  其  果形  美观  ，  肉质  甜美  被  称为  "  天下  第一  果  "  。
+        </segment>
+
+        <pos>
+            桃#NN  为#VC  蔷薇科#NR  植物#NN  或#CC  山桃#NN  的#DEG  成熟#VA  果实#NN    。#PU  原产#VV  我#PN  国#NN  陕西#NR  、#PU  甘肃#NR  一带#CD    。#PU  目前#NT  分布#VV  很#AD  广#VA  ，#PU  主要#JJ  产区#NN  是#VC  河北#NR  、#PU  山东#NR  、#PU  北京#NR  、#PU  陕西#NR  、#PU  山西#NR  、#PU  河南#NR  、#PU  甘肃#NR  、#PU  浙江#NR  等#ETC  省#NN  市#NN    。#PU  根据#P  分布#NN  地区#NN  和#CC  性状#JJ  特征#NN  ，#PU  可#VV  分为#VV  北方#NN  品种#NN  群#M  、#PU  南方#NN  品#M  种群#NN  、#PU  黄肉桃#CD  品#M  种群#NN  、#PU  蟠桃#CD  品#M  种群#NN  和#CC  油桃#CD  品#M  种群#NN    。#PU  北方#NN  品种#NN  群#M  果实#NN  尖端#JJ  有#NN  突尖#VV  ，#PU  果肉#NR  脆#NN  或#CC  柔软#NN  多汁#VA  ；#PU  南方#NN  品种#NN  群#M  果实#NN  顶端#NN  圆#VV  ，#PU  果肉#NN  柔软#AD  多汁#VA  ；#PU  黄肉桃#CD  品#M  种群#NN  的#DEG  果肉#NN  为#VC  黄色#JJ  ；#PU  蟠桃#CD  品#M  种群#NN  的#DEG  果实#NN  扁平形#VA  ；#PU  油桃#CD  品#M  种群#NN  果面#AD  光滑#VA    。#PU    。#PU
+            人们#NN  总是#AD  把#BA  桃#NN  作为#VV  福寿#NN  祥瑞#NN  的#DEG  象征#VV  ，#PU  在#P  民间#NN  素有#NN  ''#VV  寿桃#NN  ''#NN  和#CC  ''#NN  仙桃#NN  ''#NN  的#DEC  美称#NN    。#PU  在#P  果品#NN  资源#NN  中#LC  ，#PU  桃#NN  以#P  其#PN  果形#VV  美观#NN  ，#PU  肉质#NN  甜美#NN  被#SB  称为#VV  ''#NN  天下#NN  第一#OD  果#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果实#NN, 桃#NN)  (cop, 果实#NN, 为#VC)  (nn, 山桃#NN, 蔷薇科#NR)  (conj, 山桃#NN, 植物#NN)  (cc, 山桃#NN, 或#CC)  (assmod, 果实#NN, 山桃#NN)  (case, 山桃#NN, 的#DEG)  (nfincl, 果实#NN, 成熟#VA)  (root, ROOT#null, 果实#NN)   (root, ROOT#null, 原产#VV)  (nn, 国#NN, 我#PN)  (nn, 甘肃#NR, 国#NN)  (conj, 甘肃#NR, 陕西#NR)  (dobj, 原产#VV, 甘肃#NR)  (range, 原产#VV, 一带#CD)   (dep, 广#VA, 目前#NT)  (mmod, 广#VA, 分布#VV)  (advmod, 广#VA, 很#AD)  (root, ROOT#null, 广#VA)  (amod, 产区#NN, 主要#JJ)  (nsubj, 市#NN, 产区#NN)  (cop, 市#NN, 是#VC)  (conj, 浙江#NR, 河北#NR)  (conj, 浙江#NR, 山东#NR)  (conj, 浙江#NR, 北京#NR)  (conj, 浙江#NR, 陕西#NR)  (conj, 浙江#NR, 山西#NR)  (conj, 浙江#NR, 河南#NR)  (conj, 浙江#NR, 甘肃#NR)  (nn, 市#NN, 浙江#NR)  (etc, 浙江#NR, 等#ETC)  (nn, 市#NN, 省#NN)  (conj, 广#VA, 市#NN)   (case, 特征#NN, 根据#P)  (nn, 地区#NN, 分布#NN)  (conj, 特征#NN, 地区#NN)  (cc, 特征#NN, 和#CC)  (amod, 特征#NN, 性状#JJ)  (prep, 分为#VV, 特征#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (nn, 品种#NN, 北方#NN)  (dobj, 分为#VV, 品种#NN)  (clf, 种群#NN, 群#M)  (nn, 种群#NN, 南方#NN)  (clf, 种群#NN, 品#M)  (conj, 种群#NN, 种群#NN)  (nummod, 品#M, 黄肉桃#CD)  (clf, 种群#NN, 品#M)  (conj, 种群#NN, 种群#NN)  (nummod, 品#M, 蟠桃#CD)  (clf, 种群#NN, 品#M)  (conj, 种群#NN, 种群#NN)  (cc, 种群#NN, 和#CC)  (nummod, 品#M, 油桃#CD)  (clf, 种群#NN, 品#M)  (dobj, 分为#VV, 种群#NN)  (range, 分为#VV, 种群#NN)   (nn, 品种#NN, 北方#NN)  (nn, 果实#NN, 品种#NN)  (dep, 果实#NN, 群#M)  (nn, 有#NN, 果实#NN)  (amod, 有#NN, 尖端#JJ)  (nsubj, 突尖#VV, 有#NN)  (root, ROOT#null, 突尖#VV)  (nn, 柔软#NN, 果肉#NR)  (conj, 柔软#NN, 脆#NN)  (cc, 柔软#NN, 或#CC)  (nsubj, 多汁#VA, 柔软#NN)  (ccomp, 突尖#VV, 多汁#VA)  (nn, 品种#NN, 南方#NN)  (nn, 顶端#NN, 品种#NN)  (clf, 顶端#NN, 群#M)  (nn, 顶端#NN, 果实#NN)  (nsubj, 圆#VV, 顶端#NN)  (conj, 多汁#VA, 圆#VV)  (nsubj, 多汁#VA, 果肉#NN)  (advmod, 多汁#VA, 柔软#AD)  (conj, 多汁#VA, 多汁#VA)  (nummod, 品#M, 黄肉桃#CD)  (clf, 种群#NN, 品#M)  (assmod, 果肉#NN, 种群#NN)  (case, 种群#NN, 的#DEG)  (nsubj, 为#VC, 果肉#NN)  (conj, 多汁#VA, 为#VC)  (dep, 为#VC, 黄色#JJ)  (nummod, 品#M, 蟠桃#CD)  (clf, 种群#NN, 品#M)  (assmod, 果实#NN, 种群#NN)  (case, 种群#NN, 的#DEG)  (nsubj, 扁平形#VA, 果实#NN)  (conj, 多汁#VA, 扁平形#VA)  (nummod, 品#M, 油桃#CD)  (clf, 种群#NN, 品#M)  (nsubj, 光滑#VA, 种群#NN)  (advmod, 光滑#VA, 果面#AD)  (conj, 多汁#VA, 光滑#VA)   (root, ROOT#null, null#null)
+            (nsubj, 作为#VV, 人们#NN)  (advmod, 作为#VV, 总是#AD)  (ba, 作为#VV, 把#BA)  (nsubj, 作为#VV, 桃#NN)  (root, ROOT#null, 作为#VV)  (nn, 祥瑞#NN, 福寿#NN)  (assmod, 美称#NN, 祥瑞#NN)  (case, 祥瑞#NN, 的#DEG)  (relcl, 美称#NN, 象征#VV)  (case, 素有#NN, 在#P)  (nn, 素有#NN, 民间#NN)  (prep, ''#VV, 素有#NN)  (ccomp, 象征#VV, ''#VV)  (nn, ''#NN, 寿桃#NN)  (conj, ''#NN, ''#NN)  (cc, ''#NN, 和#CC)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 仙桃#NN)  (dobj, ''#VV, ''#NN)  (mark, 象征#VV, 的#DEC)  (dobj, 作为#VV, 美称#NN)   (case, 资源#NN, 在#P)  (nn, 资源#NN, 果品#NN)  (prep, 果形#VV, 资源#NN)  (case, 资源#NN, 中#LC)  (nsubj, 果形#VV, 桃#NN)  (case, 其#PN, 以#P)  (prep, 果形#VV, 其#PN)  (root, ROOT#null, 果形#VV)  (dobj, 果形#VV, 美观#NN)  (nn, 甜美#NN, 肉质#NN)  (nsubjpass, 称为#VV, 甜美#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 果形#VV, 称为#VV)  (nn, 天下#NN, ''#NN)  (nn, ''#NN, 天下#NN)  (nummod, ''#NN, 第一#OD)  (nn, ''#NN, 果#NN)  (dobj, 称为#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            山桃  植物  原产  甘肃  陕西  浙江  河北  山东  北京  山西  河南  分布地区  性状特征  北方品种  分为品种  南方种群  分为种群  品种果实  尖端有  突尖  柔软多汁  南方品种  品种顶端  果实顶端  果肉多汁  果实扁平形  种群光滑  福寿祥瑞  象征美称  民间素有  作为美称  果品资源  果形美观  肉质甜美  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            桃肉味甘酸、性温，归胃、大肠经；可敛肺生津、养阴敛汗、润燥活血。桃仁味苦甘、性平、有小毒；可活血消积、润肠。
+            1.补益气血、养阴生津
+            对大病之后，气血亏虚，面黄肌瘦，心悸气短者、慢性支气管炎、支气管扩张症、肺纤维化、肺不张、矽肺、肺结核等出现的干咳、咳血、慢性发热、盗汗等症有辅助食疗效果。
+            2.补气益血
+            桃的含铁量较高，是缺铁性贫血病人的理想辅助食物。
+            3.缓解水肿
+            桃含钾多，含钠少，适合水肿病人食用。
+            4.活血润肠
+            桃仁有活血化淤、润肠通便作用，可用于闭经、跌打损伤等的辅助治疗。
+            5.降血压
+            有抗凝血作用，并能抑制咳嗽中枢而止咳。同时能使血压下降，可用于高血压病人的辅助治疗。
+        </rawdata>
+
+        <segment>
+            桃  肉  味甘酸  、  性温  ，  归胃  、  大肠  经  ；  可  敛肺  生津  、  养阴敛汗  、  润燥  活血  。  桃仁  味  苦  甘  、  性平  、  有  小  毒  ；  可  活血  消积  、  润肠  。
+            补益  气血  、  养阴生津
+            对  大病  之后  ，  气血  亏  虚  ，  面黄肌瘦  ，  心悸  气短者  、  慢性  支气管炎  、  支  气管  扩张症  、  肺  纤维化  、  肺不张  、  矽肺  、  肺结核  等  出现  的  干咳  、  咳血  、  慢性  发热  、  盗汗  等  症有  辅助  食疗  效果  。
+            补气  益  血
+            桃  的  含铁  量  较  高  ，  是  缺铁性  贫血  病人  的  理想  辅助  食物  。
+            缓解  水肿
+            桃  含  钾多  ，  含  钠少  ，  适合  水肿  病人  食用  。
+            活血  润肠
+            桃仁  有  活血  化淤  、  润肠  通便  作用  ，  可  用于  闭经  、  跌打  损伤  等  的  辅助  治疗  。
+            降  血压
+            有  抗凝  血  作用  ，  并  能  抑制  咳嗽  中枢  而  止咳  。  同时  能  使  血压  下降  ，  可  用于  高血压  病人  的  辅助  治疗  。
+        </segment>
+
+        <pos>
+            桃#VV  肉#NN  味甘酸#NN  、#PU  性温#NN  ，#PU  归胃#VV  、#PU  大肠#AD  经#VV  ；#PU  可#VV  敛肺#VV  生津#NR  、#PU  养阴敛汗#NR  、#PU  润燥#NR  活血#NN    。#PU  桃仁#VV  味#NN  苦#NN  甘#NR  、#PU  性平#NR  、#PU  有#VE  小#JJ  毒#NN  ；#PU  可#VV  活血#VV  消积#NN  、#PU  润肠#VV    。#PU    。#PU
+            补益#NN  气血#VA  、#PU  养阴生津#VA
+            对#P  大病#NN  之后#LC  ，#PU  气血#NN  亏#NN  虚#AD  ，#PU  面黄肌瘦#VV  ，#PU  心悸#VV  气短者#NN  、#PU  慢性#NN  支气管炎#NN  、#PU  支#M  气管#NN  扩张症#NN  、#PU  肺#NN  纤维化#NN  、#PU  肺不张#NR  、#PU  矽肺#NR  、#PU  肺结核#NR  等#ETC  出现#VV  的#DEC  干咳#NN  、#PU  咳血#NN  、#PU  慢性#NN  发热#NN  、#PU  盗汗#NN  等#ETC  症有#JJ  辅助#NN  食疗#NN  效果#NN  。#PU
+            补气#NN  益#VV  血#NN
+            桃#NN  的#DEG  含铁#NN  量#NN  较#AD  高#VA  ，#PU  是#VC  缺铁性#NN  贫血#NN  病人#NN  的#DEG  理想#JJ  辅助#NN  食物#NN  。#PU
+            缓解#VV  水肿#NN
+            桃#NN  含#VV  钾多#NN  ，#PU  含#VV  钠少#NN  ，#PU  适合#VV  水肿#NN  病人#NN  食用#VV  。#PU
+            活血#NN  润肠#VV
+            桃仁#AD  有#VE  活血#NN  化淤#NN  、#PU  润肠#NN  通便#NN  作用#NN  ，#PU  可#VV  用于#VV  闭经#NN  、#PU  跌打#NN  损伤#NN  等#ETC  的#DEG  辅助#NN  治疗#NN  。#PU
+            降#NN  血压#VA
+            有#VE  抗凝#NN  血#NN  作用#NN  ，#PU  并#AD  能#VV  抑制#VV  咳嗽#NN  中枢#NN  而#CC  止咳#NN    。#PU  同时#AD  能#VV  使#VV  血压#NN  下降#VV  ，#PU  可#VV  用于#VV  高血压#NN  病人#NN  的#DEG  辅助#NN  治疗#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 桃#VV)  (nn, 性温#NN, 肉#NN)  (conj, 性温#NN, 味甘酸#NN)  (dobj, 桃#VV, 性温#NN)  (conj, 桃#VV, 归胃#VV)  (advmod, 经#VV, 大肠#AD)  (conj, 桃#VV, 经#VV)  (mmod, 敛肺#VV, 可#VV)  (conj, 桃#VV, 敛肺#VV)  (conj, 润燥#NR, 生津#NR)  (conj, 润燥#NR, 养阴敛汗#NR)  (nn, 活血#NN, 润燥#NR)  (dobj, 敛肺#VV, 活血#NN)   (root, ROOT#null, 桃仁#VV)  (nn, 苦#NN, 味#NN)  (nn, 性平#NR, 苦#NN)  (conj, 性平#NR, 甘#NR)  (dobj, 桃仁#VV, 性平#NR)  (conj, 桃仁#VV, 有#VE)  (amod, 毒#NN, 小#JJ)  (dobj, 有#VE, 毒#NN)  (mmod, 活血#VV, 可#VV)  (conj, 桃仁#VV, 活血#VV)  (dobj, 活血#VV, 消积#NN)  (conj, 桃仁#VV, 润肠#VV)   (root, ROOT#null, null#null)
+            (nsubj, 气血#VA, 补益#NN)  (root, ROOT#null, 气血#VA)  (dep, 气血#VA, 养阴生津#VA)
+            (case, 大病#NN, 对#P)  (prep, 面黄肌瘦#VV, 大病#NN)  (case, 大病#NN, 之后#LC)  (nn, 亏#NN, 气血#NN)  (nsubj, 面黄肌瘦#VV, 亏#NN)  (advmod, 面黄肌瘦#VV, 虚#AD)  (root, ROOT#null, 面黄肌瘦#VV)  (dep, 面黄肌瘦#VV, 心悸#VV)  (conj, 盗汗#NN, 气短者#NN)  (nn, 支气管炎#NN, 慢性#NN)  (conj, 盗汗#NN, 支气管炎#NN)  (clf, 扩张症#NN, 支#M)  (nn, 扩张症#NN, 气管#NN)  (conj, 盗汗#NN, 扩张症#NN)  (nn, 纤维化#NN, 肺#NN)  (conj, 盗汗#NN, 纤维化#NN)  (conj, 肺结核#NR, 肺不张#NR)  (conj, 肺结核#NR, 矽肺#NR)  (nn, 干咳#NN, 肺结核#NR)  (etc, 肺结核#NR, 等#ETC)  (relcl, 肺结核#NR, 出现#VV)  (relcl, 干咳#NN, 出现#VV)  (mark, 出现#VV, 的#DEC)  (conj, 盗汗#NN, 干咳#NN)  (conj, 盗汗#NN, 咳血#NN)  (nn, 发热#NN, 慢性#NN)  (conj, 盗汗#NN, 发热#NN)  (nn, 效果#NN, 盗汗#NN)  (etc, 盗汗#NN, 等#ETC)  (amod, 效果#NN, 症有#JJ)  (nn, 效果#NN, 辅助#NN)  (nn, 效果#NN, 食疗#NN)  (dobj, 心悸#VV, 效果#NN)
+            (nsubj, 益#VV, 补气#NN)  (root, ROOT#null, 益#VV)  (dobj, 益#VV, 血#NN)
+            (assmod, 量#NN, 桃#NN)  (case, 桃#NN, 的#DEG)  (nn, 量#NN, 含铁#NN)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (cop, 食物#NN, 是#VC)  (nn, 病人#NN, 缺铁性#NN)  (nn, 病人#NN, 贫血#NN)  (assmod, 食物#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (amod, 食物#NN, 理想#JJ)  (nn, 食物#NN, 辅助#NN)  (conj, 高#VA, 食物#NN)
+            (root, ROOT#null, 缓解#VV)  (dobj, 缓解#VV, 水肿#NN)
+            (nsubj, 含#VV, 桃#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 钾多#NN)  (conj, 含#VV, 含#VV)  (dobj, 含#VV, 钠少#NN)  (conj, 含#VV, 适合#VV)  (nn, 病人#NN, 水肿#NN)  (dobj, 适合#VV, 病人#NN)  (conj, 适合#VV, 食用#VV)
+            (nsubj, 润肠#VV, 活血#NN)  (root, ROOT#null, 润肠#VV)
+            (advmod, 有#VE, 桃仁#AD)  (root, ROOT#null, 有#VE)  (nn, 通便#NN, 活血#NN)  (conj, 通便#NN, 化淤#NN)  (nn, 通便#NN, 润肠#NN)  (nn, 作用#NN, 通便#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 用于#VV, 可#VV)  (dep, 有#VE, 用于#VV)  (conj, 损伤#NN, 闭经#NN)  (nn, 损伤#NN, 跌打#NN)  (assmod, 治疗#NN, 损伤#NN)  (etc, 损伤#NN, 等#ETC)  (case, 损伤#NN, 的#DEG)  (nn, 治疗#NN, 辅助#NN)  (dobj, 用于#VV, 治疗#NN)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (root, ROOT#null, 有#VE)  (nn, 作用#NN, 抗凝#NN)  (nn, 作用#NN, 血#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 抑制#VV, 并#AD)  (mmod, 抑制#VV, 能#VV)  (conj, 有#VE, 抑制#VV)  (nn, 止咳#NN, 咳嗽#NN)  (conj, 止咳#NN, 中枢#NN)  (cc, 止咳#NN, 而#CC)  (dobj, 抑制#VV, 止咳#NN)   (advmod, 使#VV, 同时#AD)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 血压#NN)  (dep, 使#VV, 下降#VV)  (mmod, 用于#VV, 可#VV)  (dep, 使#VV, 用于#VV)  (nn, 病人#NN, 高血压#NN)  (assmod, 治疗#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (nn, 治疗#NN, 辅助#NN)  (dobj, 用于#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+            性温  味甘酸  润燥  生津  养阴敛汗  敛肺活血  桃仁  小毒  活血消积  补益气血  气短者  慢性支气管炎  气管扩张症  纤维化  肺不张  矽肺  出现肺结核  出现干咳  咳血  慢性发热  盗汗效果  症有效果  辅助效果  食疗效果  心悸效果  缺铁性病人  贫血病人  理想食物  辅助食物  缓解水肿  水肿病人  适合病人  活血通便  化淤  润肠通便  闭经  跌打损伤  辅助治疗  用于治疗  降血压  咳嗽止咳  中枢  抑制止咳  高血压病人  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善营养性贫血  通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.桃子性味平和，含有多种维生素，果酸以及钙，磷，铁等矿物质，尤其是铁的含量较高。
+            2.新鲜的桃子含水量较高约89%，热量较低，其热量主要来源于甜味中的天然糖
+            3.桃的含铁量较高，是缺铁性贫血病人的理想辅助食物；
+            4.桃含钾多，含钠少，适合水肿病人食用；
+            5.桃仁提取物有抗凝血作用，并能抑制咳嗽中枢而止咳，同时能使血压下降，可用于高血压病人的辅助治疗。
+        </rawdata>
+
+        <segment>
+            桃子  性味  平和  ，  含有  多  种  维生素  ，  果酸  以及  钙  ，  磷  ，  铁  等  矿物质  ，  尤其是  铁  的  含量  较  高  。
+            新鲜  的  桃子  含水量  较  高  约  89%  ，  热量  较  低  ，  其  热量  主要  来源于  甜味  中  的  天然糖
+            桃  的  含铁  量  较  高  ，  是  缺铁性  贫血  病人  的  理想  辅助  食物  ；
+            桃  含  钾多  ，  含  钠少  ，  适合  水肿  病人  食用  ；
+            桃仁  提取  物  有  抗凝  血  作用  ，  并  能  抑制  咳嗽  中枢  而  止咳  ，  同时  能  使  血压  下降  ，  可  用于  高血压  病人  的  辅助  治疗  。
+        </segment>
+
+        <pos>
+            桃子#NN  性味#VV  平和#NR  ，#PU  含有#VV  多#CD  种#M  维生素#NN  ，#PU  果酸#CD  以及#CC  钙#CD  ，#PU  磷#NN  ，#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  尤其是#AD  铁#NN  的#DEG  含量#NN  较#AD  高#VA  。#PU
+            新鲜#VA  的#DEC  桃子#NN  含水量#NN  较#AD  高#VA  约#AD  89#CD  %#NN  ，#PU  热量#NN  较#AD  低#VA  ，#PU  其#PN  热量#AD  主要#AD  来源于#VV  甜味#NN  中#LC  的#DEG  天然糖#NN
+            桃#NN  的#DEG  含铁#NN  量#NN  较#AD  高#VA  ，#PU  是#VC  缺铁性#NN  贫血#NN  病人#NN  的#DEG  理想#JJ  辅助#NN  食物#NN  ；#PU
+            桃#NN  含#VV  钾多#NN  ，#PU  含#VV  钠少#NN  ，#PU  适合#VV  水肿#NN  病人#NN  食用#VV  ；#PU
+            桃仁#NN  提取#VV  物#NN  有#VE  抗凝#NN  血#NN  作用#NN  ，#PU  并#CC  能#VV  抑制#VV  咳嗽#NN  中枢#NN  而#CC  止咳#NN  ，#PU  同时#AD  能#VV  使#VV  血压#NN  下降#VV  ，#PU  可#VV  用于#VV  高血压#NN  病人#NN  的#DEG  辅助#NN  治疗#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性味#VV, 桃子#NN)  (root, ROOT#null, 性味#VV)  (dobj, 性味#VV, 平和#NR)  (conj, 性味#VV, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (dobj, 含有#VV, 维生素#NN)  (nummod, 钙#CD, 果酸#CD)  (cc, 钙#CD, 以及#CC)  (conj, 性味#VV, 钙#CD)  (nsubj, 高#VA, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nsubj, 高#VA, 矿物质#NN)  (advmod, 高#VA, 尤其是#AD)  (assmod, 含量#NN, 铁#NN)  (case, 铁#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 性味#VV, 高#VA)
+            (relcl, 含水量#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 含水量#NN, 桃子#NN)  (nsubj, 高#VA, 含水量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (advmod, 89#CD, 约#AD)  (nummod, %#NN, 89#CD)  (dobj, 高#VA, %#NN)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 较#AD)  (conj, 高#VA, 低#VA)  (nsubj, 来源于#VV, 其#PN)  (advmod, 来源于#VV, 热量#AD)  (advmod, 来源于#VV, 主要#AD)  (conj, 高#VA, 来源于#VV)  (assmod, 天然糖#NN, 甜味#NN)  (case, 甜味#NN, 中#LC)  (case, 甜味#NN, 的#DEG)  (dobj, 来源于#VV, 天然糖#NN)
+            (assmod, 量#NN, 桃#NN)  (case, 桃#NN, 的#DEG)  (nn, 量#NN, 含铁#NN)  (nsubj, 高#VA, 量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (cop, 食物#NN, 是#VC)  (nn, 病人#NN, 缺铁性#NN)  (nn, 病人#NN, 贫血#NN)  (assmod, 食物#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (amod, 食物#NN, 理想#JJ)  (nn, 食物#NN, 辅助#NN)  (conj, 高#VA, 食物#NN)
+            (nsubj, 含#VV, 桃#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 钾多#NN)  (conj, 含#VV, 含#VV)  (dobj, 含#VV, 钠少#NN)  (conj, 含#VV, 适合#VV)  (nn, 病人#NN, 水肿#NN)  (dobj, 适合#VV, 病人#NN)  (conj, 适合#VV, 食用#VV)
+            (nsubj, 提取#VV, 桃仁#NN)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 物#NN)  (conj, 提取#VV, 有#VE)  (nn, 作用#NN, 抗凝#NN)  (nn, 作用#NN, 血#NN)  (dobj, 有#VE, 作用#NN)  (cc, 提取#VV, 并#CC)  (mmod, 抑制#VV, 能#VV)  (dep, 提取#VV, 抑制#VV)  (nn, 止咳#NN, 咳嗽#NN)  (conj, 止咳#NN, 中枢#NN)  (cc, 止咳#NN, 而#CC)  (dobj, 抑制#VV, 止咳#NN)  (advmod, 使#VV, 同时#AD)  (mmod, 使#VV, 能#VV)  (dep, 提取#VV, 使#VV)  (dobj, 使#VV, 血压#NN)  (dep, 使#VV, 下降#VV)  (mmod, 用于#VV, 可#VV)  (dep, 下降#VV, 用于#VV)  (nn, 病人#NN, 高血压#NN)  (assmod, 治疗#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (nn, 治疗#NN, 辅助#NN)  (dobj, 用于#VV, 治疗#NN)
+        </parsing>
+
+        <tag>
+            性味  含有维生素  含水量新鲜  桃子含水量  来源于天然糖  缺铁性病人  贫血病人  理想食物  辅助食物  水肿病人  适合病人  提取物  咳嗽止咳  中枢  抑制止咳  高血压病人  辅助治疗  用于治疗  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            食用前要将桃毛洗净，以免刺入皮肤，引起皮疹，或吸入呼吸道，引起咳嗽、咽喉刺痒等症。
+        </rawdata>
+
+        <segment>
+            食用  前  要  将  桃  毛  洗净  ，  以免  刺入  皮肤  ，  引起  皮疹  ，  或  吸入  呼吸道  ，  引起  咳嗽  、  咽喉  刺痒  等症  。
+        </segment>
+
+        <pos>
+            食用#VV  前#LC  要#VV  将#AD  桃#VV  毛#NN  洗净#NN  ，#PU  以免#VV  刺入#VV  皮肤#NN  ，#PU  引起#VV  皮疹#NN  ，#PU  或#CC  吸入#VV  呼吸道#NN  ，#PU  引起#VV  咳嗽#NN  、#PU  咽喉#NN  刺痒#NN  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 桃#VV, 食用#VV)  (case, 食用#VV, 前#LC)  (mmod, 桃#VV, 要#VV)  (advmod, 桃#VV, 将#AD)  (root, ROOT#null, 桃#VV)  (nn, 洗净#NN, 毛#NN)  (dobj, 桃#VV, 洗净#NN)  (conj, 桃#VV, 以免#VV)  (ccomp, 以免#VV, 刺入#VV)  (dobj, 刺入#VV, 皮肤#NN)  (conj, 桃#VV, 引起#VV)  (dobj, 引起#VV, 皮疹#NN)  (cc, 桃#VV, 或#CC)  (conj, 桃#VV, 吸入#VV)  (dobj, 吸入#VV, 呼吸道#NN)  (conj, 桃#VV, 引起#VV)  (conj, 等症#NN, 咳嗽#NN)  (nn, 等症#NN, 咽喉#NN)  (nn, 等症#NN, 刺痒#NN)  (dobj, 引起#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            刺入皮肤  吸入呼吸道  咳嗽  咽喉等症  刺痒等症  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/125/jej_k.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\682 黄桃.jpg
+    </picturelocalurl>
+
+</content>

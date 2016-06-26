@@ -1,0 +1,168 @@
+<content>
+
+    <id>
+        1285
+    </id>
+
+    <foodname>
+        腰花
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            适宜肾虚之人腰酸腰痛、遗精、盗汗者食用；适宜老年人肾虚耳聋、耳鸣者食用。血脂偏高者、高胆固醇者忌食。
+        </rawdata>
+
+        <segment>
+            适宜  肾虚  之  人  腰酸  腰痛  、  遗精  、  盗汗  者  食用  ；  适宜  老年人  肾虚  耳聋  、  耳鸣  者  食用  。  血脂  偏高者  、  高  胆固醇  者  忌食  。
+        </segment>
+
+        <pos>
+            适宜#VV  肾虚#NN  之#DEC  人#NN  腰酸#VV  腰痛#NR  、#PU  遗精#NR  、#PU  盗汗#NR  者#NN  食用#VV  ；#PU  适宜#VV  老年人#NN  肾虚#NN  耳聋#NN  、#PU  耳鸣#NN  者#NN  食用#VV    。#PU  血脂#NN  偏高者#NN  、#PU  高#JJ  胆固醇#NN  者#NN  忌食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 人#NN, 适宜#VV)  (dobj, 适宜#VV, 肾虚#NN)  (mark, 适宜#VV, 之#DEC)  (nsubj, 腰酸#VV, 人#NN)  (root, ROOT#null, 腰酸#VV)  (conj, 盗汗#NR, 腰痛#NR)  (conj, 盗汗#NR, 遗精#NR)  (nn, 者#NN, 盗汗#NR)  (nsubj, 食用#VV, 者#NN)  (ccomp, 腰酸#VV, 食用#VV)  (conj, 腰酸#VV, 适宜#VV)  (nn, 者#NN, 老年人#NN)  (nn, 者#NN, 肾虚#NN)  (conj, 者#NN, 耳聋#NN)  (nn, 者#NN, 耳鸣#NN)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)   (nn, 偏高者#NN, 血脂#NN)  (conj, 忌食#NN, 偏高者#NN)  (amod, 胆固醇#NN, 高#JJ)  (nn, 忌食#NN, 胆固醇#NN)  (nn, 忌食#NN, 者#NN)  (root, ROOT#null, 忌食#NN)
+        </parsing>
+
+        <tag>
+            适宜  肾虚  人腰酸腰痛  遗精  盗汗者  适宜  老年人肾虚耳聋  耳鸣者  血脂偏高者  高胆固醇者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            动物肾脏富含维生素B12、B6、H、复合维生素C、肌醇、叶酸、泛酸。含锌、锰、硒较多，蛋白质含量较高。俗称“腰花”。
+        </rawdata>
+
+        <segment>
+            动物  肾脏  富含  维生素B1  B6  、  H  、  复合  维生素C  、  肌醇  、  叶酸  、  泛酸  。  含锌  、  锰  、  硒较多  ，  蛋白质  含量  较  高  。  俗称  “  腰花  ”  。
+        </segment>
+
+        <pos>
+            动物#NN  肾脏#NN  富含#VV  维生素B1#CD  B6#CD  、#PU  H#NN  、#PU  复合#JJ  维生素C#NN  、#PU  肌醇#NN  、#PU  叶酸#NN  、#PU  泛酸#NN    。#PU  含锌#NR  、#PU  锰#NR  、#PU  硒较多#NR  ，#PU  蛋白质#NN  含量#NN  较#AD  高#VA    。#PU  俗称#NN  ``#VV  腰花#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肾脏#NN, 动物#NN)  (nsubj, 富含#VV, 肾脏#NN)  (root, ROOT#null, 富含#VV)  (nummod, B6#CD, 维生素B1#CD)  (nummod, 泛酸#NN, B6#CD)  (conj, 泛酸#NN, H#NN)  (amod, 维生素C#NN, 复合#JJ)  (conj, 泛酸#NN, 维生素C#NN)  (conj, 泛酸#NN, 肌醇#NN)  (conj, 泛酸#NN, 叶酸#NN)  (dobj, 富含#VV, 泛酸#NN)   (conj, 硒较多#NR, 含锌#NR)  (conj, 硒较多#NR, 锰#NR)  (dep, 含量#NN, 硒较多#NR)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)   (nsubj, ``#VV, 俗称#NN)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 腰花#NN)  (dobj, ``#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            动物肾脏  复合维生素C  肌醇  叶酸  富含泛酸  硒较多  含锌  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            补肾气、通膀胱、消积滞、止消渴
+        </rawdata>
+
+        <segment>
+            补  肾气  、  通  膀胱  、  消积滞  、  止  消渴
+        </segment>
+
+        <pos>
+            补#VV  肾气#NN  、#PU  通#NN  膀胱#NN  、#PU  消积滞#NN  、#PU  止#VV  消渴#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补#VV)  (conj, 消积滞#NN, 肾气#NN)  (nn, 消积滞#NN, 通#NN)  (conj, 消积滞#NN, 膀胱#NN)  (dobj, 补#VV, 消积滞#NN)  (conj, 补#VV, 止#VV)  (dobj, 止#VV, 消渴#NN)
+        </parsing>
+
+        <tag>
+            消积滞  肾气  膀胱  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾气  通膀胱  健肾补腰
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            腰花子具有补肾气、通膀胱、消积滞、止消渴之功效。可用于治疗肾虚腰痛、水肿、耳聋等症。
+        </rawdata>
+
+        <segment>
+            腰花子  具有  补  肾气  、  通  膀胱  、  消积滞  、  止  消渴  之  功效  。  可  用于  治疗  肾虚  腰痛  、  水肿  、  耳聋  等症  。
+        </segment>
+
+        <pos>
+            腰花子#NN  具有#VV  补#NN  肾气#VA  、#PU  通#VA  膀胱#VA  、#PU  消积滞#VA  、#PU  止#VV  消渴#NN  之#DEC  功效#NN    。#PU  可#VV  用于#VV  治疗#VV  肾虚#NN  腰痛#NN  、#PU  水肿#NN  、#PU  耳聋#NN  等症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 腰花子#NN)  (root, ROOT#null, 具有#VV)  (nsubj, 肾气#VA, 补#NN)  (relcl, 功效#NN, 肾气#VA)  (dep, 肾气#VA, 通#VA)  (conj, 肾气#VA, 膀胱#VA)  (dep, 肾气#VA, 消积滞#VA)  (conj, 肾气#VA, 止#VV)  (dobj, 止#VV, 消渴#NN)  (mark, 肾气#VA, 之#DEC)  (dobj, 具有#VV, 功效#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (nn, 等症#NN, 肾虚#NN)  (conj, 等症#NN, 腰痛#NN)  (conj, 等症#NN, 水肿#NN)  (nn, 等症#NN, 耳聋#NN)  (dobj, 治疗#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            补肾气  功效肾气  用于  肾虚等症  腰痛  水肿  耳聋等症  治疗等症  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.去除猪腰腥臊味第一招：白酒去除法
+            把猪腰子立起来，顺着有白色经络的地方切下去，将猪腰子纵向切成两半。白色经络一定要全部去除并且尽量保证猪腰的完整。经络不能食用，要扔掉。在小碗里倒入白酒并用手反复捏洗猪腰子使酒能够迅速渗透到猪腰子里面。特别提示：白酒加入的比例一般为一只猪腰子加一两白酒。
+            2.去除猪腰腥臊味第二招：花椒去除法
+            先在火上烧开半锅水，锅开后，在水中加入三小勺花椒，煮三分钟。三分钟后将火关掉，把花椒水倒入碗中放凉，把放凉的花椒水倒在猪腰上泡五分钟。别忘了经络也要全部去除啊！
+        </rawdata>
+
+        <segment>
+            去除  猪腰  腥  臊味  第一  招  ：  白酒  去  除法
+            把  猪  腰子  立  起来  ，  顺着  有  白色  经络  的  地方  切  下去  ，  将  猪腰  子  纵向  切成  两  半  。  白色  经络  一定  要  全部  去除  并且  尽量  保证  猪腰  的  完整  。  经络  不  能  食用  ，  要  扔掉  。  在  小  碗里  倒入  白酒  并用  手  反复  捏  洗  猪  腰子  使  酒  能够  迅速  渗透  到  猪腰  子  里面  。  特别  提示  ：  白酒  加入  的  比例  一般  为  一  只  猪  腰子  加  一  两  白  酒  。
+            去除  猪腰  腥  臊味  第二  招  ：  花椒  去  除法
+            先  在  火上  烧开  半锅水  ，  锅  开后  ，  在  水中  加入  三  小勺  花椒  ，  煮三  分钟  。  三  分钟  后  将  火  关掉  ，  把  花椒  水  倒入  碗  中放  凉  ，  把  放  凉  的  花椒  水  倒在  猪腰  上  泡  五  分钟  。  别  忘  了  经络  也  要  全部  去除  啊  ！
+        </segment>
+
+        <pos>
+            去除#NN  猪腰#NN  腥#NN  臊味#NN  第一#OD  招#NN  ：#PU  白酒#NN  去#MSP  除法#VV
+            把#BA  猪#NN  腰子#NN  立#VV  起来#VV  ，#PU  顺着#AD  有#VE  白色#JJ  经络#NN  的#DEC  地方#NN  切#VV  下去#VV  ，#PU  将#BA  猪腰#NN  子#NN  纵向#AD  切成#VV  两#CD  半#CD    。#PU  白色#JJ  经络#NN  一定#AD  要#VV  全部#AD  去除#VV  并且#CC  尽量#VV  保证#VV  猪腰#NN  的#DEC  完整#NN    。#PU  经络#NN  不#AD  能#VV  食用#VV  ，#PU  要#VV  扔掉#NN    。#PU  在#P  小#JJ  碗里#NN  倒入#NN  白酒#NN  并用#NN  手#NN  反复#AD  捏#VV  洗#NN  猪#NN  腰子#NN  使#VV  酒#NN  能够#VV  迅速#AD  渗透#VV  到#VV  猪腰#NN  子#NN  里面#NN    。#PU  特别#AD  提示#VV  ：#PU  白酒#NN  加入#VV  的#DEC  比例#NN  一般#AD  为#P  一#CD  只#M  猪#NN  腰子#NN  加#VV  一#CD  两#CD  白#JJ  酒#NN    。#PU    。#PU
+            去除#NN  猪腰#NN  腥#AD  臊味#VV  第二#OD  招#NN  ：#PU  花椒#AD  去#VV  除法#NN
+            先#AD  在#P  火上#NR  烧开#VV  半锅水#NN  ，#PU  锅#VV  开后#NN  ，#PU  在#P  水中#NR  加入#VV  三#CD  小勺#NN  花椒#NN  ，#PU  煮三#CD  分钟#M    。#PU  三#CD  分钟#M  后#LC  将#BA  火#NN  关掉#NN  ，#PU  把#BA  花椒#NN  水#NN  倒入#NN  碗#AD  中放#VV  凉#NN  ，#PU  把#BA  放#VV  凉#NN  的#DEC  花椒#NN  水#NN  倒在#NN  猪腰#NN  上#LC  泡#VV  五#CD  分钟#M    。#PU  别#DT  忘#VV  了#AS  经络#NN  也#AD  要#VV  全部#AD  去除#VV  啊#SP  ！#PU    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 腥#NN, 去除#NN)  (nn, 腥#NN, 猪腰#NN)  (nn, 臊味#NN, 腥#NN)  (nn, 招#NN, 臊味#NN)  (nummod, 招#NN, 第一#OD)  (nsubj, 除法#VV, 招#NN)  (nsubj, 除法#VV, 白酒#NN)  (prtmod, 除法#VV, 去#MSP)  (root, ROOT#null, 除法#VV)
+            (ba, 立#VV, 把#BA)  (nn, 腰子#NN, 猪#NN)  (nsubj, 立#VV, 腰子#NN)  (root, ROOT#null, 立#VV)  (comod, 立#VV, 起来#VV)  (advmod, 有#VE, 顺着#AD)  (relcl, 地方#NN, 有#VE)  (amod, 经络#NN, 白色#JJ)  (dobj, 有#VE, 经络#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 切#VV, 地方#NN)  (ccomp, 立#VV, 切#VV)  (comod, 切#VV, 下去#VV)  (ba, 切成#VV, 将#BA)  (nn, 子#NN, 猪腰#NN)  (nsubj, 切成#VV, 子#NN)  (advmod, 切成#VV, 纵向#AD)  (dep, 立#VV, 切成#VV)  (range, 切成#VV, 两#CD)  (range, 切成#VV, 半#CD)   (amod, 经络#NN, 白色#JJ)  (nsubj, 去除#VV, 经络#NN)  (advmod, 去除#VV, 一定#AD)  (mmod, 去除#VV, 要#VV)  (advmod, 去除#VV, 全部#AD)  (root, ROOT#null, 去除#VV)  (cc, 去除#VV, 并且#CC)  (dep, 去除#VV, 尽量#VV)  (relcl, 完整#NN, 保证#VV)  (dobj, 保证#VV, 猪腰#NN)  (mark, 保证#VV, 的#DEC)  (dobj, 尽量#VV, 完整#NN)   (nsubj, 食用#VV, 经络#NN)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 能#VV)  (root, ROOT#null, 食用#VV)  (dep, 食用#VV, 要#VV)  (dobj, 要#VV, 扔掉#NN)   (case, 倒入#NN, 在#P)  (amod, 碗里#NN, 小#JJ)  (nn, 倒入#NN, 碗里#NN)  (prep, 捏#VV, 倒入#NN)  (nn, 手#NN, 白酒#NN)  (nn, 手#NN, 并用#NN)  (nsubj, 捏#VV, 手#NN)  (advmod, 捏#VV, 反复#AD)  (conj, 使#VV, 捏#VV)  (nn, 腰子#NN, 洗#NN)  (nn, 腰子#NN, 猪#NN)  (dobj, 捏#VV, 腰子#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 酒#NN)  (mmod, 渗透#VV, 能够#VV)  (advmod, 渗透#VV, 迅速#AD)  (dep, 使#VV, 渗透#VV)  (rcomp, 渗透#VV, 到#VV)  (nn, 里面#NN, 猪腰#NN)  (nn, 里面#NN, 子#NN)  (dobj, 渗透#VV, 里面#NN)   (advmod, 提示#VV, 特别#AD)  (relcl, 比例#NN, 提示#VV)  (dobj, 提示#VV, 白酒#NN)  (conj, 提示#VV, 加入#VV)  (mark, 提示#VV, 的#DEC)  (nsubj, 加#VV, 比例#NN)  (advmod, 加#VV, 一般#AD)  (case, 腰子#NN, 为#P)  (nummod, 只#M, 一#CD)  (clf, 腰子#NN, 只#M)  (nn, 腰子#NN, 猪#NN)  (prep, 加#VV, 腰子#NN)  (root, ROOT#null, 加#VV)  (nummod, 酒#NN, 一#CD)  (nummod, 酒#NN, 两#CD)  (amod, 酒#NN, 白#JJ)  (dobj, 加#VV, 酒#NN)   (root, ROOT#null, null#null)
+            (nn, 猪腰#NN, 去除#NN)  (nsubj, 臊味#VV, 猪腰#NN)  (advmod, 臊味#VV, 腥#AD)  (root, ROOT#null, 臊味#VV)  (nummod, 招#NN, 第二#OD)  (dobj, 臊味#VV, 招#NN)  (advmod, 去#VV, 花椒#AD)  (conj, 臊味#VV, 去#VV)  (dobj, 去#VV, 除法#NN)
+            (advmod, 烧开#VV, 先#AD)  (case, 火上#NR, 在#P)  (prep, 烧开#VV, 火上#NR)  (root, ROOT#null, 烧开#VV)  (dobj, 烧开#VV, 半锅水#NN)  (conj, 烧开#VV, 锅#VV)  (dobj, 锅#VV, 开后#NN)  (case, 水中#NR, 在#P)  (prep, 加入#VV, 水中#NR)  (conj, 烧开#VV, 加入#VV)  (nummod, 花椒#NN, 三#CD)  (nn, 花椒#NN, 小勺#NN)  (dobj, 加入#VV, 花椒#NN)  (nummod, 分钟#M, 煮三#CD)  (conj, 烧开#VV, 分钟#M)   (nummod, 分钟#M, 三#CD)  (loc, 中放#VV, 分钟#M)  (case, 分钟#M, 后#LC)  (ba, 中放#VV, 将#BA)  (nn, 关掉#NN, 火#NN)  (nsubj, 中放#VV, 关掉#NN)  (ba, 中放#VV, 把#BA)  (nn, 倒入#NN, 花椒#NN)  (nn, 倒入#NN, 水#NN)  (nsubj, 中放#VV, 倒入#NN)  (advmod, 中放#VV, 碗#AD)  (root, ROOT#null, 中放#VV)  (dobj, 中放#VV, 凉#NN)  (ba, 泡#VV, 把#BA)  (relcl, 花椒#NN, 放#VV)  (dobj, 放#VV, 凉#NN)  (mark, 放#VV, 的#DEC)  (nsubj, 泡#VV, 花椒#NN)  (nn, 猪腰#NN, 水#NN)  (nn, 猪腰#NN, 倒在#NN)  (loc, 泡#VV, 猪腰#NN)  (case, 猪腰#NN, 上#LC)  (dep, 中放#VV, 泡#VV)  (nummod, 分钟#M, 五#CD)  (range, 泡#VV, 分钟#M)   (det, 经络#NN, 别#DT)  (nfincl, 经络#NN, 忘#VV)  (asp, 忘#VV, 了#AS)  (nsubj, 去除#VV, 经络#NN)  (advmod, 去除#VV, 也#AD)  (mmod, 去除#VV, 要#VV)  (advmod, 去除#VV, 全部#AD)  (root, ROOT#null, 去除#VV)  (dep, 去除#VV, 啊#SP)
+        </parsing>
+
+        <tag>
+            除法  白色经络  保证完整  保证猪腰  尽量完整  食用  小碗里  碗里倒入  猪腰里面  渗透里面  提示比例  提示白酒  去除猪腰  臊味招  烧开半锅水  小勺花椒  加入花椒  花椒倒入  中放凉  放花椒  倒在猪腰  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/fb/2d/11771_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1285 腰花.jpg
+    </picturelocalurl>
+
+</content>

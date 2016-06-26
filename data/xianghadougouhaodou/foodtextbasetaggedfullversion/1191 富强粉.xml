@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1191
+    </id>
+
+    <foodname>
+        富强粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            精白面粉缺乏膳食纤维等营养成分，长期食用会影响人体的胃肠功能并造成营养不良;病湿热者忌食面条。消化系统疾病者勿食。
+        </rawdata>
+
+        <segment>
+            精白  面粉  缺乏  膳食  纤维  等  营养  成分  ，  长期  食用  会  影响  人体  的  胃肠  功能  并  造成  营养  不良  ;  病  湿  热者  忌食  面条  。  消化  系统  疾病  者  勿食  。
+        </segment>
+
+        <pos>
+            精白#NN  面粉#NN  缺乏#VV  膳食#NN  纤维#NN  等#ETC  营养#VA  成分#NN  ，#PU  长期#AD  食用#VV  会#VV  影响#NN  人体#NN  的#DEC  胃肠#NN  功能#NN  并#CC  造成#VV  营养#VA  不良#JJ  ;#NN  病#JJ  湿#NN  热者#VV  忌食#NN  面条#NN    。#PU  消化#NN  系统#NN  疾病#NN  者#NN  勿食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 面粉#NN, 精白#NN)  (nsubj, 缺乏#VV, 面粉#NN)  (root, ROOT#null, 缺乏#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 缺乏#VV, 纤维#NN)  (etc, 纤维#NN, 等#ETC)  (conj, 缺乏#VV, 营养#VA)  (nsubj, 食用#VV, 成分#NN)  (advmod, 食用#VV, 长期#AD)  (conj, 缺乏#VV, 食用#VV)  (relcl, 功能#NN, 会#VV)  (nn, 人体#NN, 影响#NN)  (dobj, 会#VV, 人体#NN)  (mark, 会#VV, 的#DEC)  (nn, 功能#NN, 胃肠#NN)  (dobj, 食用#VV, 功能#NN)  (cc, 食用#VV, 并#CC)  (conj, 食用#VV, 造成#VV)  (ccomp, 造成#VV, 营养#VA)  (amod, ;#NN, 不良#JJ)  (nn, 湿#NN, ;#NN)  (amod, 湿#NN, 病#JJ)  (nsubj, 热者#VV, 湿#NN)  (conj, 缺乏#VV, 热者#VV)  (nn, 面条#NN, 忌食#NN)  (dobj, 热者#VV, 面条#NN)   (nn, 疾病#NN, 消化#NN)  (nn, 疾病#NN, 系统#NN)  (nn, 者#NN, 疾病#NN)  (nsubj, 勿食#VV, 者#NN)  (root, ROOT#null, 勿食#VV)
+        </parsing>
+
+        <tag>
+            精白面粉缺乏膳食纤维  营养成分  长期  会影响人体  胃肠功能  造成营养不良  病湿热者  忌食面条  消化系统疾病者勿食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            富强粉(特一粉)是以国家标准为依据，按照优于国家标准的企业内控标准，以进口和国产优质小麦为原料，采用先进的设备制作而成。
+        </rawdata>
+
+        <segment>
+            富强粉  (  特一粉  )  是  以  国家  标准  为  依据  ，  按照  优于  国家  标准  的  企业  内  控  标准  ，  以  进口  和  国产  优质  小麦  为  原料  ，  采用  先进  的  设备  制作  而  成  。
+        </segment>
+
+        <pos>
+            富强粉#NN  -LRB-#NN  特一粉#CD  -RRB-#NN  是#VC  以#P  国家#NN  标准#NN  为#VV  依据#NN  ，#PU  按照#P  优于#VV  国家#NN  标准#NN  的#DEC  企业#NN  内#LC  控#VV  标准#NN  ，#PU  以#P  进口#NN  和#CC  国产#JJ  优质#JJ  小麦#NN  为#VV  原料#NN  ，#PU  采用#VV  先进#VA  的#DEC  设备#NN  制作#NN  而#MSP  成#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, -LRB-#NN, 富强粉#NN)  (nummod, -RRB-#NN, 特一粉#CD)  (cop, 为#VV, 是#VC)  (case, 标准#NN, 以#P)  (nn, 标准#NN, 国家#NN)  (prep, 为#VV, 标准#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 依据#NN)  (case, 企业#NN, 按照#P)  (relcl, 企业#NN, 优于#VV)  (nn, 标准#NN, 国家#NN)  (dobj, 优于#VV, 标准#NN)  (mark, 优于#VV, 的#DEC)  (prep, 控#VV, 企业#NN)  (case, 企业#NN, 内#LC)  (dep, 为#VV, 控#VV)  (dobj, 控#VV, 标准#NN)  (case, 小麦#NN, 以#P)  (conj, 小麦#NN, 进口#NN)  (cc, 小麦#NN, 和#CC)  (amod, 小麦#NN, 国产#JJ)  (amod, 小麦#NN, 优质#JJ)  (prep, 为#VV, 小麦#NN)  (dep, 为#VV, 为#VV)  (dobj, 为#VV, 原料#NN)  (dep, 为#VV, 采用#VV)  (relcl, 制作#NN, 先进#VA)  (mark, 先进#VA, 的#DEC)  (nn, 制作#NN, 设备#NN)  (dobj, 采用#VV, 制作#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 采用#VV, 成#VV)
+        </parsing>
+
+        <tag>
+            国家标准  优于企业  优于标准  进口  国产小麦  优质小麦  制作先进  设备制作  采用制作  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养心益肾除热止渴
+        </rawdata>
+
+        <segment>
+            养心  益  肾  除  热  止渴
+        </segment>
+
+        <pos>
+            养心#NN  益#NN  肾#NN  除#P  热#NN  止渴#VV
+        </pos>
+
+        <parsing>
+            (nn, 肾#NN, 养心#NN)  (nn, 肾#NN, 益#NN)  (nsubj, 止渴#VV, 肾#NN)  (case, 热#NN, 除#P)  (prep, 止渴#VV, 热#NN)  (root, ROOT#null, 止渴#VV)
+        </parsing>
+
+        <tag>
+            止渴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  除烦  止痢  解毒  补肾  清热  和胃  抗菌  利尿
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/e7/4a/19175_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1191 富强粉.jpg
+    </picturelocalurl>
+
+</content>

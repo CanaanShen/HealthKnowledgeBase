@@ -1,0 +1,136 @@
+<content>
+
+    <id>
+        1372
+    </id>
+
+    <foodname>
+        杜仲
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        丝楝树皮、丝棉皮、棉树皮、胶树
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴虚火旺者慎服。
+        </rawdata>
+
+        <segment>
+            阴虚  火  旺  者  慎服  。
+        </segment>
+
+        <pos>
+            阴虚#NN  火#NN  旺#VV  者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 火#NN, 阴虚#NN)  (nsubj, 旺#VV, 火#NN)  (root, ROOT#null, 旺#VV)  (nn, 慎服#NN, 者#NN)  (dobj, 旺#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            阴虚火旺者  慎服  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            药用杜仲，即为杜仲科植物杜仲的干燥树皮，是中国名贵滋补药材。其味甘，性温。有补益肝肾、强筋壮骨、调理冲任、固经安胎的功效。 可治疗肾阳虚引起的腰腿痛或酸软无力，肝气虚引起的胞胎不固，阴囊湿痒等症。在《神农本草经》中被列为上品。
+        </rawdata>
+
+        <segment>
+            药用  杜仲  ，  即  为  杜仲科  植物  杜仲  的  干燥  树皮  ，  是  中国  名贵  滋补  药材  。  其味  甘  ，  性温  。  有  补益  肝肾  、  强筋壮骨  、  调理  冲任  、  固经  安胎  的  功效  。    可治疗  肾  阳虚  引起  的  腰腿  痛  或  酸软  无力  ，  肝气  虚  引起  的  胞胎  不  固  ，  阴囊  湿痒  等症  。  在  《  神农  本草经  》  中  被  列为  上品  。
+        </segment>
+
+        <pos>
+            药用#NR  杜仲#VV  ，#PU  即#AD  为#VC  杜仲科#NN  植物#NN  杜仲#NN  的#DEG  干燥#NN  树皮#NN  ，#PU  是#VC  中国#NR  名贵#JJ  滋补#NN  药材#NN    。#PU  其味#VV  甘#NR  ，#PU  性温#VV    。#PU  有#VE  补益#NR  肝肾#NR  、#PU  强筋壮骨#NR  、#PU  调理#NR  冲任#NR  、#PU  固经#NR  安胎#NN  的#DEG  功效#NN    。#PU  可治疗#AD  肾#VV  阳虚#AD  引起#VV  的#DEC  腰腿#NN  痛#NN  或#CC  酸软#NN  无力#NN  ，#PU  肝气#AD  虚#AD  引起#VV  的#DEC  胞胎#NN  不#AD  固#VV  ，#PU  阴囊#VV  湿痒#NN  等症#NN    。#PU  在#P  神农#NN  本草经#NN  中#LC  被#SB  列为#VV  上品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 杜仲#VV, 药用#NR)  (root, ROOT#null, 杜仲#VV)  (advmod, 树皮#NN, 即#AD)  (cop, 树皮#NN, 为#VC)  (nn, 杜仲#NN, 杜仲科#NN)  (nn, 杜仲#NN, 植物#NN)  (assmod, 树皮#NN, 杜仲#NN)  (case, 杜仲#NN, 的#DEG)  (nn, 树皮#NN, 干燥#NN)  (ccomp, 杜仲#VV, 树皮#NN)  (cop, 药材#NN, 是#VC)  (nn, 滋补#NN, 中国#NR)  (amod, 滋补#NN, 名贵#JJ)  (nn, 药材#NN, 滋补#NN)  (dep, 树皮#NN, 药材#NN)   (root, ROOT#null, 其味#VV)  (dobj, 其味#VV, 甘#NR)  (conj, 其味#VV, 性温#VV)   (root, ROOT#null, 有#VE)  (nn, 固经#NR, 补益#NR)  (conj, 固经#NR, 肝肾#NR)  (conj, 固经#NR, 强筋壮骨#NR)  (nn, 固经#NR, 调理#NR)  (conj, 固经#NR, 冲任#NR)  (nn, 安胎#NN, 固经#NR)  (assmod, 功效#NN, 安胎#NN)  (case, 安胎#NN, 的#DEG)  (dobj, 有#VE, 功效#NN)   (advmod, 肾#VV, 可治疗#AD)  (relcl, 胞胎#NN, 肾#VV)  (advmod, 引起#VV, 阳虚#AD)  (relcl, 无力#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 无力#NN, 腰腿#NN)  (conj, 无力#NN, 痛#NN)  (cc, 无力#NN, 或#CC)  (nn, 无力#NN, 酸软#NN)  (dobj, 肾#VV, 无力#NN)  (advmod, 引起#VV, 肝气#AD)  (advmod, 引起#VV, 虚#AD)  (dep, 肾#VV, 引起#VV)  (mark, 肾#VV, 的#DEC)  (nsubj, 固#VV, 胞胎#NN)  (neg, 固#VV, 不#AD)  (root, ROOT#null, 固#VV)  (ccomp, 固#VV, 阴囊#VV)  (nn, 等症#NN, 湿痒#NN)  (dobj, 阴囊#VV, 等症#NN)   (case, 本草经#NN, 在#P)  (nn, 本草经#NN, 神农#NN)  (prep, 列为#VV, 本草经#NN)  (case, 本草经#NN, 中#LC)  (auxpass, 列为#VV, 被#SB)  (root, ROOT#null, 列为#VV)  (dobj, 列为#VV, 上品#NN)
+        </parsing>
+
+        <tag>
+            干燥树皮  名贵滋补  滋补药材  固经  肝肾  强筋壮骨  冲任  肾胞胎  腰腿无力  酸软无力  湿痒等症  阴囊等症  神农本草经  列为上品  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            含杜仲胶、杜仲甙、京尼平、有机酸、维生素C及微量生物碱。
+            1.降血压 杜仲在降低血压、防治血管硬化、冠心病，抗衰老、抗肿瘤等方面均有疗效。
+            2.强筋健骨 表现为眩晕、腰膝酸痛、筋骨痿弱等。常见于高血压病、眩晕症、脑血管意外后遗症、慢性肾脏疾病、脊髓灰质炎等。
+            3.预防习惯性流产 表现为尿频或尿有余沥、阴下湿痒、阳痿、孕妇体弱、胎动不安或腰坠痛等。常见于慢性前列腺疾病、性功能障碍、不育症、先兆流产或习惯性流产等。
+            4.治疗慢性病 用于慢性关节疾病、骨结核、痛经、功能失调性子宫出血、慢性盆腔炎等疾病而出现肝肾亏虚征候者。
+        </rawdata>
+
+        <segment>
+            含  杜仲胶  、  杜仲甙  、  京尼平  、  有机酸  、  维生素C  及  微量  生物碱  。
+            降  血压  杜仲  在  降低  血压  、  防治  血管  硬化  、  冠心病  ，  抗  衰老  、  抗  肿瘤  等  方面  均  有  疗效  。
+            强筋健  骨  表现  为  眩晕  、  腰膝  酸痛  、  筋骨  痿弱  等  。  常见于  高血压  病  、  眩晕症  、  脑血管  意外  后遗症  、  慢性  肾脏  疾病  、  脊髓  灰质炎  等  。
+            预防  习惯性  流产  表现  为  尿频  或  尿  有  余沥  、  阴  下  湿  痒  、  阳痿  、  孕妇  体弱  、  胎动  不安  或  腰坠痛  等  。  常见于  慢性  前列腺  疾病  、  性  功能  障碍  、  不育症  、  先兆  流产  或  习惯性  流产  等  。
+            治疗  慢性病  用于  慢性  关节  疾病  、  骨结核  、  痛经  、  功能  失调性  子宫  出血  、  慢性  盆腔  炎等  疾病  而  出现  肝  肾亏  虚  征候  者  。
+        </segment>
+
+        <pos>
+            含#VV  杜仲胶#NR  、#PU  杜仲甙#NR  、#PU  京尼平#NR  、#PU  有机酸#NR  、#PU  维生素C#NR  及#CC  微量#NR  生物碱#NN  。#PU
+            降#NN  血压#NN  杜仲#NN  在#P  降低#VV  血压#NN  、#PU  防治#NN  血管#NN  硬化#NN  、#PU  冠心病#NN  ，#PU  抗#VV  衰老#NN  、#PU  抗#VV  肿瘤#NN  等#ETC  方面#NN  均#AD  有#VE  疗效#NN  。#PU
+            强筋健#NN  骨#NN  表现#NN  为#VC  眩晕#NN  、#PU  腰膝#NN  酸痛#NN  、#PU  筋骨#NN  痿弱#NN  等#ETC    。#PU  常见于#NN  高血压#VV  病#JJ  、#PU  眩晕症#JJ  、#PU  脑血管#JJ  意外#NN  后遗症#NN  、#PU  慢性#NN  肾脏#NN  疾病#NN  、#PU  脊髓#NN  灰质炎#NN  等#ETC    。#PU    。#PU
+            预防#VV  习惯性#NN  流产#NN  表现#NN  为#P  尿频#NN  或#CC  尿#NN  有#VE  余沥#NN  、#PU  阴#NN  下#LC  湿#NN  痒#NR  、#PU  阳痿#NR  、#PU  孕妇#NR  体弱#NR  、#PU  胎动#NR  不安#NN  或#CC  腰坠痛#NN  等#ETC    。#PU  常见于#NN  慢性#VV  前列腺#NN  疾病#NN  、#PU  性#NN  功能#NN  障碍#NN  、#PU  不育症#NN  、#PU  先兆#NN  流产#NN  或#CC  习惯性#NN  流产#NN  等#ETC    。#PU    。#PU
+            治疗#NN  慢性病#NN  用于#VV  慢性#NN  关节#NN  疾病#NN  、#PU  骨结核#NN  、#PU  痛经#NN  、#PU  功能#NN  失调性#NN  子宫#NN  出血#VV  、#PU  慢性#VV  盆腔#NN  炎等#NN  疾病#NN  而#MSP  出现#VV  肝#NN  肾亏#NN  虚#AD  征候#VV  者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (conj, 微量#NR, 杜仲胶#NR)  (conj, 微量#NR, 杜仲甙#NR)  (conj, 微量#NR, 京尼平#NR)  (conj, 微量#NR, 有机酸#NR)  (conj, 微量#NR, 维生素C#NR)  (cc, 微量#NR, 及#CC)  (nn, 生物碱#NN, 微量#NR)  (dobj, 含#VV, 生物碱#NN)
+            (nn, 杜仲#NN, 降#NN)  (nn, 杜仲#NN, 血压#NN)  (nsubj, 有#VE, 杜仲#NN)  (case, 方面#NN, 在#P)  (nfincl, 方面#NN, 降低#VV)  (conj, 冠心病#NN, 血压#NN)  (nn, 冠心病#NN, 防治#NN)  (nn, 冠心病#NN, 血管#NN)  (conj, 冠心病#NN, 硬化#NN)  (dobj, 降低#VV, 冠心病#NN)  (conj, 降低#VV, 抗#VV)  (dobj, 抗#VV, 衰老#NN)  (conj, 降低#VV, 抗#VV)  (dobj, 抗#VV, 肿瘤#NN)  (etc, 肿瘤#NN, 等#ETC)  (prep, 有#VE, 方面#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 疗效#NN)
+            (nn, 表现#NN, 强筋健#NN)  (nn, 表现#NN, 骨#NN)  (nsubj, 痿弱#NN, 表现#NN)  (cop, 痿弱#NN, 为#VC)  (conj, 痿弱#NN, 眩晕#NN)  (nn, 痿弱#NN, 腰膝#NN)  (conj, 痿弱#NN, 酸痛#NN)  (nn, 痿弱#NN, 筋骨#NN)  (root, ROOT#null, 痿弱#NN)  (etc, 痿弱#NN, 等#ETC)   (nsubj, 高血压#VV, 常见于#NN)  (root, ROOT#null, 高血压#VV)  (amod, 疾病#NN, 病#JJ)  (conj, 病#JJ, 眩晕症#JJ)  (dep, 病#JJ, 脑血管#JJ)  (nn, 疾病#NN, 意外#NN)  (conj, 疾病#NN, 后遗症#NN)  (nn, 疾病#NN, 慢性#NN)  (nn, 疾病#NN, 肾脏#NN)  (conj, 灰质炎#NN, 疾病#NN)  (nn, 灰质炎#NN, 脊髓#NN)  (dobj, 高血压#VV, 灰质炎#NN)  (etc, 灰质炎#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (relcl, 表现#NN, 预防#VV)  (nn, 流产#NN, 习惯性#NN)  (dobj, 预防#VV, 流产#NN)  (nsubj, 有#VE, 表现#NN)  (case, 尿#NN, 为#P)  (conj, 尿#NN, 尿频#NN)  (cc, 尿#NN, 或#CC)  (prep, 有#VE, 尿#NN)  (root, ROOT#null, 有#VE)  (conj, 腰坠痛#NN, 余沥#NN)  (dep, 湿#NN, 阴#NN)  (case, 阴#NN, 下#LC)  (nn, 腰坠痛#NN, 湿#NN)  (conj, 胎动#NR, 痒#NR)  (conj, 胎动#NR, 阳痿#NR)  (nn, 胎动#NR, 孕妇#NR)  (conj, 胎动#NR, 体弱#NR)  (nn, 不安#NN, 胎动#NR)  (conj, 腰坠痛#NN, 不安#NN)  (cc, 腰坠痛#NN, 或#CC)  (dobj, 有#VE, 腰坠痛#NN)  (etc, 腰坠痛#NN, 等#ETC)   (nsubj, 慢性#VV, 常见于#NN)  (root, ROOT#null, 慢性#VV)  (nn, 流产#NN, 前列腺#NN)  (conj, 流产#NN, 疾病#NN)  (nn, 流产#NN, 性#NN)  (nn, 流产#NN, 功能#NN)  (conj, 流产#NN, 障碍#NN)  (conj, 流产#NN, 不育症#NN)  (nn, 流产#NN, 先兆#NN)  (conj, 流产#NN, 流产#NN)  (cc, 流产#NN, 或#CC)  (nn, 流产#NN, 习惯性#NN)  (dobj, 慢性#VV, 流产#NN)  (etc, 流产#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nn, 慢性病#NN, 治疗#NN)  (nsubj, 用于#VV, 慢性病#NN)  (root, ROOT#null, 用于#VV)  (nn, 失调性#NN, 慢性#NN)  (nn, 失调性#NN, 关节#NN)  (conj, 失调性#NN, 疾病#NN)  (conj, 失调性#NN, 骨结核#NN)  (conj, 失调性#NN, 痛经#NN)  (nn, 失调性#NN, 功能#NN)  (nn, 子宫#NN, 失调性#NN)  (nsubj, 出血#VV, 子宫#NN)  (ccomp, 用于#VV, 出血#VV)  (dep, 出血#VV, 慢性#VV)  (nn, 疾病#NN, 盆腔#NN)  (nn, 疾病#NN, 炎等#NN)  (dobj, 慢性#VV, 疾病#NN)  (prtmod, 出现#VV, 而#MSP)  (dep, 用于#VV, 出现#VV)  (nn, 肾亏#NN, 肝#NN)  (dobj, 出现#VV, 肾亏#NN)  (advmod, 征候#VV, 虚#AD)  (dep, 用于#VV, 征候#VV)  (dobj, 征候#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            微量  京尼平  有机酸  维生素C  防治冠心病  血管冠心病  硬化  降低冠心病  强筋健表现  眩晕  腰膝痿弱  酸痛  筋骨痿弱  病疾病  意外疾病  后遗症  慢性疾病  肾脏疾病  脊髓灰质炎  高血压灰质炎  预防表现  习惯性流产  预防流产  腰坠痛  余沥  胎动  阳痿  体弱  不安  前列腺流产  功能流产  障碍  不育症  先兆流产  慢性流产  治疗慢性病  用于  慢性失调性  关节失调性  骨结核  痛经  功能失调性  失调性子宫  盆腔疾病  炎等疾病  出现肾亏  征候者  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肝肾  强筋骨  安胎
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/1d/02/541_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1372 杜仲.jpg
+    </picturelocalurl>
+
+</content>

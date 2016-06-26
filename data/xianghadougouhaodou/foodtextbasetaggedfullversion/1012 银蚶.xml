@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1012
+    </id>
+
+    <foodname>
+        银蚶
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        蚶子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            气血不足、营养不良、虚寒性胃痛、消化不良、贫血和体质虚弱等病患者适宜食用。有传染性病如肝炎、伤寒、痢疾以及发热的病人不宜食用。
+        </rawdata>
+
+        <segment>
+            气血  不足  、  营养  不良  、  虚  寒性  胃痛  、  消化不良  、  贫血  和  体质  虚弱  等  病  患者  适宜  食用  。  有  传染  性病  如  肝炎  、  伤寒  、  痢疾  以及  发热  的  病人  不  宜  食用  。
+        </segment>
+
+        <pos>
+            气血#NN  不足#VA  、#PU  营养#VA  不良#JJ  、#PU  虚#AD  寒性#VV  胃痛#NR  、#PU  消化不良#NR  、#PU  贫血#NR  和#CC  体质#NR  虚弱#NN  等#ETC  病#NN  患者#NN  适宜#VA  食用#VV    。#PU  有#VE  传染#NN  性病#NN  如#AD  肝炎#NN  、#PU  伤寒#NN  、#PU  痢疾#NN  以及#CC  发热#NN  的#DEG  病人#NN  不#AD  宜#NR  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 不足#VA, 气血#NN)  (root, ROOT#null, 不足#VA)  (dep, 不足#VA, 营养#VA)  (amod, 病#NN, 不良#JJ)  (advmod, 寒性#VV, 虚#AD)  (nfincl, 病#NN, 寒性#VV)  (conj, 体质#NR, 胃痛#NR)  (conj, 体质#NR, 消化不良#NR)  (conj, 体质#NR, 贫血#NR)  (cc, 体质#NR, 和#CC)  (nn, 虚弱#NN, 体质#NR)  (dobj, 寒性#VV, 虚弱#NN)  (etc, 虚弱#NN, 等#ETC)  (nn, 患者#NN, 病#NN)  (nsubj, 适宜#VA, 患者#NN)  (conj, 不足#VA, 适宜#VA)  (dep, 适宜#VA, 食用#VV)   (root, ROOT#null, 有#VE)  (nn, 性病#NN, 传染#NN)  (dobj, 有#VE, 性病#NN)  (advmod, 食用#VV, 如#AD)  (conj, 发热#NN, 肝炎#NN)  (conj, 发热#NN, 伤寒#NN)  (conj, 发热#NN, 痢疾#NN)  (cc, 发热#NN, 以及#CC)  (assmod, 病人#NN, 发热#NN)  (case, 发热#NN, 的#DEG)  (nsubj, 食用#VV, 病人#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (dep, 有#VE, 食用#VV)
+        </parsing>
+
+        <tag>
+            气血不足  营养不良  虚寒性胃痛  消化不良  贫血  体质虚弱  患者  适宜  传染性病如肝炎  伤寒  痢疾  发热  病人不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蚶子是蚶类动物的总称，是双壳纲中比较原始的类型。蚶子的肉味鲜美，营养丰富，是沿海各地普遍食用的海产品。中国蚶子的种类很多，其中分布最广、数量最多的有毛蚶、泥蚶和魁蚶等。蚶子喜欢生活在内湾河口附近的软泥底质中，因为它没有水管，所以潜入泥面下的深度不大，只是在泥底的表层埋栖。
+        </rawdata>
+
+        <segment>
+            蚶子  是  蚶类  动物  的  总称  ，  是  双壳纲  中  比较  原始  的  类型  。  蚶子  的  肉味  鲜美  ，  营养  丰富  ，  是  沿海  各地  普遍  食用  的  海产品  。  中国  蚶子  的  种类  很多  ，  其中  分布  最  广  、  数量  最  多  的  有毛蚶  、  泥蚶  和  魁蚶  等  。  蚶子  喜欢  生活  在  内湾  河口  附近  的  软泥  底质  中  ，  因为  它  没有  水管  ，  所以  潜入  泥面  下  的  深度  不  大  ，  只是  在  泥底  的  表层  埋栖  。
+        </segment>
+
+        <pos>
+            蚶子#AD  是#VC  蚶类#JJ  动物#NN  的#DEG  总称#NN  ，#PU  是#VC  双壳纲#NN  中#LC  比较#AD  原始#VA  的#DEC  类型#NN    。#PU  蚶子#NN  的#DEG  肉味#NN  鲜美#VV  ，#PU  营养#VA  丰富#VA  ，#PU  是#VC  沿海#NN  各地#NN  普遍#AD  食用#VV  的#DEC  海产品#NN    。#PU  中国#NR  蚶子#NN  的#DEG  种类#NN  很多#CD  ，#PU  其中#NN  分布#VV  最#AD  广#VA  、#PU  数量#NN  最#AD  多#VA  的#DEC  有毛蚶#NR  、#PU  泥蚶#NR  和#CC  魁蚶#NR  等#ETC    。#PU  蚶子#NR  喜欢#VV  生活#NN  在#P  内湾#NR  河口#NR  附近#NN  的#DEG  软泥#NN  底质#NN  中#LC  ，#PU  因为#P  它#PN  没有#VE  水管#NN  ，#PU  所以#AD  潜入#NN  泥面#NN  下#LC  的#DEG  深度#NN  不#AD  大#VA  ，#PU  只是#AD  在#P  泥底#NN  的#DEG  表层#NN  埋栖#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 总称#NN, 蚶子#AD)  (cop, 总称#NN, 是#VC)  (amod, 动物#NN, 蚶类#JJ)  (assmod, 总称#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (root, ROOT#null, 总称#NN)  (cop, 类型#NN, 是#VC)  (loc, 原始#VA, 双壳纲#NN)  (case, 双壳纲#NN, 中#LC)  (advmod, 原始#VA, 比较#AD)  (relcl, 类型#NN, 原始#VA)  (mark, 原始#VA, 的#DEC)  (dep, 总称#NN, 类型#NN)   (assmod, 肉味#NN, 蚶子#NN)  (case, 蚶子#NN, 的#DEG)  (nsubj, 鲜美#VV, 肉味#NN)  (root, ROOT#null, 鲜美#VV)  (conj, 海产品#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 海产品#NN, 是#VC)  (nn, 各地#NN, 沿海#NN)  (nsubj, 食用#VV, 各地#NN)  (advmod, 食用#VV, 普遍#AD)  (relcl, 海产品#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (ccomp, 鲜美#VV, 海产品#NN)   (nn, 蚶子#NN, 中国#NR)  (assmod, 种类#NN, 蚶子#NN)  (case, 蚶子#NN, 的#DEG)  (nsubj, 分布#VV, 种类#NN)  (nsubj, 分布#VV, 很多#CD)  (nsubj, 分布#VV, 其中#NN)  (root, ROOT#null, 分布#VV)  (advmod, 广#VA, 最#AD)  (relcl, 魁蚶#NR, 广#VA)  (nsubj, 多#VA, 数量#NN)  (advmod, 多#VA, 最#AD)  (dep, 广#VA, 多#VA)  (mark, 广#VA, 的#DEC)  (conj, 魁蚶#NR, 有毛蚶#NR)  (conj, 魁蚶#NR, 泥蚶#NR)  (cc, 魁蚶#NR, 和#CC)  (dobj, 分布#VV, 魁蚶#NR)  (etc, 魁蚶#NR, 等#ETC)   (nsubj, 喜欢#VV, 蚶子#NR)  (root, ROOT#null, 喜欢#VV)  (nsubj, 埋栖#VV, 生活#NN)  (case, 底质#NN, 在#P)  (nn, 河口#NR, 内湾#NR)  (nn, 附近#NN, 河口#NR)  (assmod, 底质#NN, 附近#NN)  (case, 附近#NN, 的#DEG)  (nn, 底质#NN, 软泥#NN)  (prep, 埋栖#VV, 底质#NN)  (case, 底质#NN, 中#LC)  (case, 没有#VE, 因为#P)  (dep, 没有#VE, 它#PN)  (prep, 埋栖#VV, 没有#VE)  (dobj, 没有#VE, 水管#NN)  (advmod, 大#VA, 所以#AD)  (nn, 泥面#NN, 潜入#NN)  (assmod, 深度#NN, 泥面#NN)  (case, 泥面#NN, 下#LC)  (case, 泥面#NN, 的#DEG)  (nsubj, 大#VA, 深度#NN)  (neg, 大#VA, 不#AD)  (dep, 埋栖#VV, 大#VA)  (advmod, 埋栖#VV, 只是#AD)  (case, 表层#NN, 在#P)  (assmod, 表层#NN, 泥底#NN)  (case, 泥底#NN, 的#DEG)  (prep, 埋栖#VV, 表层#NN)  (ccomp, 喜欢#VV, 埋栖#VV)
+        </parsing>
+
+        <tag>
+            蚶类动物  类型原始  鲜美  营养丰富  沿海各地  食用海产品  分布  魁蚶  有毛蚶  泥蚶  喜欢  软泥底质  没有水管  潜入泥面  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            蚶肉富含蛋白质、灰分以及各种维生素等营养成分。蚶肉性温，味甘，具有补血、健胃之功效，可有效治疗胃痛、消化不良、贫血等疾病。
+        </rawdata>
+
+        <segment>
+            蚶肉  富含  蛋白质  、  灰分  以及  各  种  维生素  等  营养  成分  。  蚶肉  性温  ，  味甘  ，  具有  补血  、  健胃  之  功效  ，  可  有效  治疗  胃痛  、  消化不良  、  贫血  等  疾病  。
+        </segment>
+
+        <pos>
+            蚶肉#NN  富含#VV  蛋白质#NN  、#PU  灰分#NN  以及#CC  各#DT  种#M  维生素#NN  等#ETC  营养#VA  成分#NN    。#PU  蚶肉#NR  性温#VV  ，#PU  味甘#NN  ，#PU  具有#VV  补血#NN  、#PU  健胃#NN  之#DEG  功效#NN  ，#PU  可#VV  有效#AD  治疗#VV  胃痛#NR  、#PU  消化不良#NR  、#PU  贫血#NR  等#ETC  疾病#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 蚶肉#NN)  (root, ROOT#null, 富含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 灰分#NN)  (cc, 维生素#NN, 以及#CC)  (det, 维生素#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 营养#VA, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 富含#VV, 成分#NN)   (nsubj, 性温#VV, 蚶肉#NR)  (root, ROOT#null, 性温#VV)  (nsubj, 具有#VV, 味甘#NN)  (ccomp, 性温#VV, 具有#VV)  (conj, 健胃#NN, 补血#NN)  (assmod, 功效#NN, 健胃#NN)  (case, 健胃#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)  (mmod, 治疗#VV, 可#VV)  (advmod, 治疗#VV, 有效#AD)  (conj, 具有#VV, 治疗#VV)  (conj, 贫血#NR, 胃痛#NR)  (conj, 贫血#NR, 消化不良#NR)  (nn, 疾病#NN, 贫血#NR)  (etc, 贫血#NR, 等#ETC)  (dobj, 治疗#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+            富含  蛋白质  灰分  维生素营养  性温  健胃  补血  贫血  胃痛  消化不良  治疗疾病  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补气  温中  健胃  补血  改善血液循环
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            将蚶子放在钵中，倒入清水，用竹帚洗刷（要连续刷洗，不能中断，防止蚶子吸入泥水），至壳发白，倒掉泥水，再用清水淘洗干净，放入沸水中略烫（不要烫得太熟，以免肉色发紫，没有鲜味），随即取出。如壳不易剥开，可将蚶子翻动几下，再放入沸水中略烫。将烫好的蚶子剥去半边壳，放入盘中，撒姜末，葱末，淋上酱油、酒、麻油即成。
+        </rawdata>
+
+        <segment>
+            将  蚶子  放在  钵中  ，  倒入  清水  ，  用  竹帚  洗刷  （  要  连续  刷洗  ，  不  能  中断  ，  防止  蚶子  吸入  泥水  ）  ，  至壳  发白  ，  倒掉  泥水  ，  再  用  清水  淘洗  干净  ，  放入  沸水  中略  烫  （  不要  烫得  太  熟  ，  以免  肉色  发紫  ，  没有  鲜味  ）  ，  随即  取出  。  如  壳  不  易  剥开  ，  可将  蚶子  翻动  几  下  ，  再  放入  沸水  中  略  烫  。  将  烫好  的  蚶子  剥去  半  边  壳  ，  放入  盘中  ，  撒  姜末  ，  葱  末  ，  淋上  酱油  、  酒  、  麻油  即  成  。
+        </segment>
+
+        <pos>
+            将#AD  蚶子#VV  放在#NN  钵中#NN  ，#PU  倒入#VV  清水#NN  ，#PU  用#VV  竹帚#JJ  洗刷#NN  （#PU  要#VV  连续#AD  刷洗#VV  ，#PU  不#AD  能#VV  中断#VV  ，#PU  防止#VV  蚶子#NN  吸入#VV  泥水#NN  ）#PU  ，#PU  至壳#VV  发白#NN  ，#PU  倒掉#VV  泥水#NN  ，#PU  再#AD  用#P  清水#NN  淘洗#NN  干净#VA  ，#PU  放入#VV  沸水#NN  中略#NN  烫#NN  （#PU  不要#NN  烫得#NN  太#AD  熟#VA  ，#PU  以免#VV  肉色#VV  发紫#NN  ，#PU  没有#VE  鲜味#NN  ）#PU  ，#PU  随即#AD  取出#VV    。#PU  如#AD  壳#NN  不#AD  易#AD  剥开#VV  ，#PU  可将#NN  蚶子#NN  翻动#NN  几#CD  下#LC  ，#PU  再#AD  放入#VV  沸水#NN  中#LC  略#AD  烫#VV    。#PU  将#AD  烫好#VV  的#DEC  蚶子#NN  剥去#VV  半#CD  边#NN  壳#NN  ，#PU  放入#VV  盘中#NN  ，#PU  撒#VV  姜末#NN  ，#PU  葱#NN  末#LC  ，#PU  淋上#NN  酱油#NN  、#PU  酒#NN  、#PU  麻油#NN  即#AD  成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 蚶子#VV, 将#AD)  (root, ROOT#null, 蚶子#VV)  (nn, 钵中#NN, 放在#NN)  (dobj, 蚶子#VV, 钵中#NN)  (dep, 蚶子#VV, 倒入#VV)  (dobj, 倒入#VV, 清水#NN)  (conj, 倒入#VV, 用#VV)  (amod, 洗刷#NN, 竹帚#JJ)  (dobj, 用#VV, 洗刷#NN)  (mmod, 刷洗#VV, 要#VV)  (advmod, 刷洗#VV, 连续#AD)  (prnmod, 洗刷#NN, 刷洗#VV)  (neg, 能#VV, 不#AD)  (ccomp, 刷洗#VV, 能#VV)  (conj, 刷洗#VV, 能#VV)  (comod, 能#VV, 中断#VV)  (ccomp, 刷洗#VV, 防止#VV)  (dobj, 防止#VV, 蚶子#NN)  (dep, 防止#VV, 吸入#VV)  (dobj, 吸入#VV, 泥水#NN)  (conj, 倒入#VV, 至壳#VV)  (dobj, 至壳#VV, 发白#NN)  (conj, 倒入#VV, 倒掉#VV)  (dobj, 倒掉#VV, 泥水#NN)  (advmod, 干净#VA, 再#AD)  (case, 淘洗#NN, 用#P)  (nn, 淘洗#NN, 清水#NN)  (prep, 干净#VA, 淘洗#NN)  (conj, 倒入#VV, 干净#VA)  (conj, 倒入#VV, 放入#VV)  (nn, 烫#NN, 沸水#NN)  (nn, 烫#NN, 中略#NN)  (dobj, 放入#VV, 烫#NN)  (nn, 烫得#NN, 不要#NN)  (nsubj, 熟#VA, 烫得#NN)  (advmod, 熟#VA, 太#AD)  (dep, 放入#VV, 熟#VA)  (conj, 熟#VA, 以免#VV)  (ccomp, 以免#VV, 肉色#VV)  (dobj, 肉色#VV, 发紫#NN)  (dep, 熟#VA, 没有#VE)  (dobj, 没有#VE, 鲜味#NN)  (advmod, 取出#VV, 随即#AD)  (conj, 倒入#VV, 取出#VV)   (advmod, 剥开#VV, 如#AD)  (nsubj, 剥开#VV, 壳#NN)  (neg, 剥开#VV, 不#AD)  (advmod, 剥开#VV, 易#AD)  (root, ROOT#null, 剥开#VV)  (nn, 翻动#NN, 可将#NN)  (nn, 翻动#NN, 蚶子#NN)  (nsubj, 烫#VV, 翻动#NN)  (loc, 放入#VV, 几#CD)  (case, 几#CD, 下#LC)  (advmod, 放入#VV, 再#AD)  (loc, 烫#VV, 放入#VV)  (dobj, 放入#VV, 沸水#NN)  (case, 放入#VV, 中#LC)  (advmod, 烫#VV, 略#AD)  (conj, 剥开#VV, 烫#VV)   (advmod, 烫好#VV, 将#AD)  (relcl, 蚶子#NN, 烫好#VV)  (mark, 烫好#VV, 的#DEC)  (nsubj, 剥去#VV, 蚶子#NN)  (root, ROOT#null, 剥去#VV)  (nummod, 边#NN, 半#CD)  (nn, 壳#NN, 边#NN)  (dobj, 剥去#VV, 壳#NN)  (conj, 剥去#VV, 放入#VV)  (dobj, 放入#VV, 盘中#NN)  (conj, 放入#VV, 撒#VV)  (dobj, 撒#VV, 姜末#NN)  (loc, 成#VV, 葱#NN)  (case, 葱#NN, 末#LC)  (nn, 麻油#NN, 淋上#NN)  (conj, 麻油#NN, 酱油#NN)  (conj, 麻油#NN, 酒#NN)  (nsubj, 成#VV, 麻油#NN)  (advmod, 成#VV, 即#AD)  (conj, 剥去#VV, 成#VV)
+        </parsing>
+
+        <tag>
+            放在钵中  蚶子钵中  倒入清水  竹帚洗刷  防止蚶子  吸入泥水  至壳发白  倒掉泥水  清水淘洗  不要烫得  肉色发紫  没有鲜味  剥开  可将翻动  蚶子翻动  烫好蚶子  剥去壳  淋上麻油  酱油  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/1f/42/82463_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1012 银蚶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1243
+    </id>
+
+    <foodname>
+        玉米糁
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        玉米碴子
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            玉米忌和田螺同食，否则会中毒；不宜与牡蛎同食，否则会阻碍锌的吸收。
+        </rawdata>
+
+        <segment>
+            玉米忌  和  田螺  同食  ，  否则  会  中毒  ；  不  宜  与  牡蛎  同  食  ，  否则  会  阻碍  锌  的  吸收  。
+        </segment>
+
+        <pos>
+            玉米忌#NR  和#CC  田螺#NR  同食#VV  ，#PU  否则#AD  会#VV  中毒#VV  ；#PU  不#AD  宜#NR  与#CC  牡蛎#NR  同#P  食#NN  ，#PU  否则#AD  会#VV  阻碍#VV  锌#NN  的#DEG  吸收#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 田螺#NR, 玉米忌#NR)  (cc, 田螺#NR, 和#CC)  (nsubj, 同食#VV, 田螺#NR)  (xsubj, 中毒#VV, 田螺#NR)  (root, ROOT#null, 同食#VV)  (advmod, 中毒#VV, 否则#AD)  (dep, 中毒#VV, 会#VV)  (ccomp, 同食#VV, 中毒#VV)  (neg, 阻碍#VV, 不#AD)  (conj, 牡蛎#NR, 宜#NR)  (cc, 牡蛎#NR, 与#CC)  (nsubj, 阻碍#VV, 牡蛎#NR)  (case, 食#NN, 同#P)  (prep, 阻碍#VV, 食#NN)  (advmod, 阻碍#VV, 否则#AD)  (mmod, 阻碍#VV, 会#VV)  (conj, 同食#VV, 阻碍#VV)  (assmod, 吸收#NN, 锌#NN)  (case, 锌#NN, 的#DEG)  (dobj, 阻碍#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+            玉米忌  田螺  否则会中毒  不宜  牡蛎  否则会阻碍锌  吸收  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玉米成熟后去皮也可不去，上磨子粉碎成小颗粒，大约是放在手里有沙粒感的大小，也可磨成很细的面粉状，就叫玉米糁。
+        </rawdata>
+
+        <segment>
+            玉米  成熟  后  去皮  也  可  不去  ，  上  磨子  粉碎  成  小  颗粒  ，  大约  是  放在  手里  有  沙粒感  的  大小  ，  也  可  磨成  很  细  的  面  粉状  ，  就叫  玉米糁  。
+        </segment>
+
+        <pos>
+            玉米#VV  成熟#VA  后#LC  去皮#NR  也#AD  可#VV  不去#VV  ，#PU  上#DT  磨子#NN  粉碎#VA  成#VV  小#JJ  颗粒#NN  ，#PU  大约#AD  是#VC  放在#NN  手里#AD  有#VE  沙粒感#NN  的#DEC  大小#NN  ，#PU  也#AD  可#VV  磨成#VV  很#AD  细#VA  的#DEC  面#NN  粉状#NN  ，#PU  就叫#VV  玉米糁#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 不去#VV, 玉米#VV)  (dep, 玉米#VV, 成熟#VA)  (case, 玉米#VV, 后#LC)  (nsubj, 不去#VV, 去皮#NR)  (advmod, 不去#VV, 也#AD)  (mmod, 不去#VV, 可#VV)  (root, ROOT#null, 不去#VV)  (det, 磨子#NN, 上#DT)  (nsubj, 粉碎#VA, 磨子#NN)  (ccomp, 不去#VV, 粉碎#VA)  (dep, 不去#VV, 成#VV)  (amod, 颗粒#NN, 小#JJ)  (dobj, 成#VV, 颗粒#NN)  (advmod, 大小#NN, 大约#AD)  (cop, 大小#NN, 是#VC)  (nsubj, 有#VE, 放在#NN)  (advmod, 有#VE, 手里#AD)  (relcl, 大小#NN, 有#VE)  (dobj, 有#VE, 沙粒感#NN)  (mark, 有#VE, 的#DEC)  (conj, 不去#VV, 大小#NN)  (advmod, 磨成#VV, 也#AD)  (mmod, 磨成#VV, 可#VV)  (conj, 大小#NN, 磨成#VV)  (advmod, 细#VA, 很#AD)  (relcl, 粉状#NN, 细#VA)  (mark, 细#VA, 的#DEC)  (nn, 粉状#NN, 面#NN)  (dobj, 磨成#VV, 粉状#NN)  (dep, 大小#NN, 就叫#VV)  (dobj, 就叫#VV, 玉米糁#NN)
+        </parsing>
+
+        <tag>
+            不去  磨子粉碎  小颗粒  磨成粉状  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            玉米糁含有丰富的营养素。经研究发现玉米中含有大量的卵磷脂、亚油酸、谷物醇、维生素E、纤维素等，具有降血压、降血脂、抗动脉硬化、预防肠癌、美容养颜、延缓衰老等多种保健功效，也是糖尿病人的适宜佳品。
+        </rawdata>
+
+        <segment>
+            玉米糁  含有  丰富  的  营养素  。  经  研究  发现  玉米  中  含有  大量  的  卵磷脂  、  亚油酸  、  谷物醇  、  维生素E  、  纤维素  等  ，  具有  降  血压  、  降  血脂  、  抗  动脉硬化  、  预防  肠癌  、  美容  养颜  、  延缓  衰老  等  多  种  保健  功效  ，  也  是  糖尿病人  的  适宜  佳品  。
+        </segment>
+
+        <pos>
+            玉米糁#NN  含有#VV  丰富#VA  的#DEC  营养素#NN    。#PU  经#P  研究#NN  发现#NN  玉米#NN  中#LC  含有#VV  大量#CD  的#DEG  卵磷脂#NR  、#PU  亚油酸#NR  、#PU  谷物醇#NR  、#PU  维生素E#NR  、#PU  纤维素#NR  等#ETC  ，#PU  具有#VV  降#NN  血压#NN  、#PU  降#NN  血脂#NN  、#PU  抗#NN  动脉硬化#NN  、#PU  预防#NN  肠癌#NN  、#PU  美容#NN  养颜#NN  、#PU  延缓#NN  衰老#NN  等#ETC  多#CD  种#M  保健#NN  功效#NN  ，#PU  也#AD  是#VC  糖尿病人#NN  的#DEC  适宜#VV  佳品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 玉米糁#NN)  (root, ROOT#null, 含有#VV)  (relcl, 营养素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 营养素#NN)   (case, 玉米#NN, 经#P)  (nn, 玉米#NN, 研究#NN)  (nn, 玉米#NN, 发现#NN)  (prep, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (nsubj, 适宜#VV, 含有#VV)  (assmod, 纤维素#NR, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, 纤维素#NR, 卵磷脂#NR)  (conj, 纤维素#NR, 亚油酸#NR)  (conj, 纤维素#NR, 谷物醇#NR)  (conj, 纤维素#NR, 维生素E#NR)  (dobj, 含有#VV, 纤维素#NR)  (etc, 纤维素#NR, 等#ETC)  (dep, 含有#VV, 具有#VV)  (nn, 衰老#NN, 降#NN)  (conj, 衰老#NN, 血压#NN)  (nn, 衰老#NN, 降#NN)  (conj, 衰老#NN, 血脂#NN)  (nn, 衰老#NN, 抗#NN)  (conj, 衰老#NN, 动脉硬化#NN)  (nn, 衰老#NN, 预防#NN)  (conj, 衰老#NN, 肠癌#NN)  (nn, 衰老#NN, 美容#NN)  (conj, 衰老#NN, 养颜#NN)  (nn, 衰老#NN, 延缓#NN)  (nn, 功效#NN, 衰老#NN)  (etc, 衰老#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (nn, 功效#NN, 保健#NN)  (dobj, 具有#VV, 功效#NN)  (advmod, 糖尿病人#NN, 也#AD)  (cop, 糖尿病人#NN, 是#VC)  (conj, 含有#VV, 糖尿病人#NN)  (mark, 含有#VV, 的#DEC)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+            营养素丰富  含有营养素  研究玉米  纤维素  卵磷脂  亚油酸  谷物醇  维生素E  血压  血脂  动脉硬化  预防衰老  肠癌  美容衰老  养颜  延缓衰老  衰老功效  保健功效  适宜佳品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  通便  抗癌防癌  和胃  利水消肿  抗辐射  明目
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            吃的时候烧开了水，一手拿勺子，一手把粉碎的玉米小颗粒均匀的撒入锅内，撒完后继续搅匀，然后再烧开两三次，熟后的或稀或稠的糊状就叫糁子白粥
+        </rawdata>
+
+        <segment>
+            吃  的  时候  烧开  了  水  ，  一  手  拿  勺子  ，  一  手把  粉碎  的  玉米  小  颗粒  均匀  的  撒入  锅内  ，  撒完  后  继续  搅匀  ，  然后  再  烧开  两  三  次  ，  熟  后  的  或稀或稠  的  糊状  就叫  糁子  白粥
+        </segment>
+
+        <pos>
+            吃#VV  的#DEC  时候#NN  烧开#VV  了#AS  水#NN  ，#PU  一#CD  手#M  拿#VV  勺子#NN  ，#PU  一#AD  手把#VV  粉碎#VA  的#DEC  玉米#NR  小#JJ  颗粒#NN  均匀#VA  的#DEC  撒入#NN  锅内#NN  ，#PU  撒完#NN  后#LC  继续#VV  搅匀#VV  ，#PU  然后#AD  再#AD  烧开#VV  两#CD  三#CD  次#M  ，#PU  熟#VA  后#LC  的#DEG  或稀或稠#NN  的#DEG  糊状#NN  就叫#NN  糁子#VV  白粥#NN
+        </pos>
+
+        <parsing>
+            (relcl, 时候#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, 烧开#VV, 时候#NN)  (assmod, 或稀或稠#NN, 烧开#VV)  (asp, 烧开#VV, 了#AS)  (dobj, 烧开#VV, 水#NN)  (nummod, 手#M, 一#CD)  (dep, 拿#VV, 手#M)  (conj, 烧开#VV, 拿#VV)  (dobj, 拿#VV, 勺子#NN)  (advmod, 手把#VV, 一#AD)  (conj, 烧开#VV, 手把#VV)  (relcl, 颗粒#NN, 粉碎#VA)  (mark, 粉碎#VA, 的#DEC)  (nn, 颗粒#NN, 玉米#NR)  (amod, 颗粒#NN, 小#JJ)  (nsubj, 均匀#VA, 颗粒#NN)  (relcl, 锅内#NN, 均匀#VA)  (mark, 均匀#VA, 的#DEC)  (nn, 锅内#NN, 撒入#NN)  (dobj, 手把#VV, 锅内#NN)  (loc, 搅匀#VV, 撒完#NN)  (case, 撒完#NN, 后#LC)  (dep, 搅匀#VV, 继续#VV)  (conj, 烧开#VV, 搅匀#VV)  (advmod, 烧开#VV, 然后#AD)  (advmod, 烧开#VV, 再#AD)  (conj, 烧开#VV, 烧开#VV)  (range, 烧开#VV, 两#CD)  (nummod, 次#M, 三#CD)  (range, 烧开#VV, 次#M)  (conj, 烧开#VV, 熟#VA)  (case, 烧开#VV, 后#LC)  (case, 烧开#VV, 的#DEG)  (assmod, 就叫#NN, 或稀或稠#NN)  (case, 或稀或稠#NN, 的#DEG)  (nn, 就叫#NN, 糊状#NN)  (nsubj, 糁子#VV, 就叫#NN)  (root, ROOT#null, 糁子#VV)  (dobj, 糁子#VV, 白粥#NN)
+        </parsing>
+
+        <tag>
+            吃时候  烧开水  颗粒粉碎  小颗粒  颗粒均匀  锅内均匀  撒入锅内  手把锅内  糊状就叫  糁子白粥  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/f1/5d/24049_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1243 玉米糁.jpg
+    </picturelocalurl>
+
+</content>

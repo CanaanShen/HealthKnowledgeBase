@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        382
+    </id>
+
+    <foodname>
+        米饭
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        米面制品
+    </secondcategory>
+
+    <alias>
+        白饭、饭
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者不宜多食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 多#VV, 患者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            糖尿病  患者  不宜多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                115
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                25.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.92
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.58
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            米饭，是一种把稻米与水煮成的食物。米饭是中国、日本和韩国等东亚地区最主要的粮食。米饭的制法为一杯米加一杯半到一杯的水，煮出来的米适当的膨胀，里面全熟，去除水份后即成。在香港的酒楼和茶餐厅，白饭亦有俗称为靓仔。米是五谷之首，米饭更是人们日常饮食中的主角之一；一味米饭，与五味调配，几乎可以供给全身所需营养。
+            米饭的面世，可追溯至粥。由于烹煮粥水控制水量的要求比米饭低，上古的华夏民众后来慢慢掌握不同水量时的烹煮效果，就发展出较饱满的米饭。现代由于打磨谷粒的技术比古代越趋先进，因此民众食用的米饭亦逐渐由糙米改用白米，甚至出现无洗米等净白米，但已失去存于糙米表面即谷糠的各种营养，而几乎只剩下淀粉质等糖份，因此亦引发现代民众患糖尿病个案上升的其中原因。
+        </rawdata>
+
+        <segment>
+            米饭  ，  是  一  种  把  稻米  与  水煮  成  的  食物  。  米饭  是  中国  、  日本  和  韩国  等  东亚  地区  最  主要  的  粮食  。  米饭  的  制法  为  一  杯  米  加  一  杯  半  到  一  杯  的  水  ，  煮出  来  的  米  适当  的  膨胀  ，  里面  全  熟  ，  去除  水份  后  即  成  。  在  香港  的  酒楼  和  茶  餐厅  ，  白饭  亦  有  俗称  为  靓仔  。  米  是  五  谷  之首  ，  米饭  更  是  人们  日常  饮食  中  的  主角  之一  ；  一味  米饭  ，  与  五  味  调配  ，  几乎  可以  供给  全身  所  需  营养  。
+            米饭  的  面世  ，  可  追溯  至粥  。  由于  烹煮  粥水  控制  水量  的  要求  比  米饭  低  ，  上古  的  华夏  民众  后来  慢慢  掌握  不同  水量  时  的  烹煮  效果  ，  就  发展  出  较  饱满  的  米饭  。  现代  由于  打磨  谷粒  的  技术  比  古代  越  趋  先进  ，  因此  民众  食用  的  米饭  亦  逐渐  由  糙米  改用  白米  ，  甚至  出现  无  洗米  等  净  白米  ，  但  已  失去  存于  糙米  表面  即  谷糠  的  各  种  营养  ，  而  几乎  只  剩下  淀粉质  等  糖份  ，  因此  亦  引发  现代  民众  患  糖尿病  个案  上升  的  其中  原因  。
+        </segment>
+
+        <pos>
+            米饭#VV  ，#PU  是#VC  一#CD  种#M  把#BA  稻米#NN  与#P  水煮#NN  成#VV  的#DEC  食物#NN    。#PU  米饭#NN  是#VC  中国#NR  、#PU  日本#NR  和#CC  韩国#NR  等#ETC  东亚#NR  地区#NN  最#AD  主要#VA  的#DEC  粮食#NN    。#PU  米饭#NN  的#DEG  制法#NN  为#VC  一#CD  杯#NN  米#M  加#NR  一#CD  杯#NN  半#CD  到#CC  一#CD  杯#NN  的#DEG  水#NN  ，#PU  煮出#NT  来#LC  的#DEG  米#M  适当#VA  的#DEC  膨胀#NN  ，#PU  里面#NN  全#AD  熟#VA  ，#PU  去除#NN  水份#NN  后#LC  即#AD  成#VV    。#PU  在#P  香港#NR  的#DEG  酒楼#NN  和#CC  茶#NN  餐厅#NN  ，#PU  白饭#AD  亦#AD  有#VE  俗称#NN  为#VC  靓仔#NN    。#PU  米#M  是#VC  五#CD  谷#NN  之首#NN  ，#PU  米饭#AD  更#AD  是#VC  人们#NN  日常#JJ  饮食#NN  中#LC  的#DEG  主角#NN  之一#NN  ；#PU  一味#CD  米饭#NN  ，#PU  与#P  五#CD  味#NN  调配#NN  ，#PU  几乎#AD  可以#VV  供给#NN  全身#NN  所#MSP  需#VV  营养#VA    。#PU    。#PU
+            米饭#VA  的#DEC  面世#VV  ，#PU  可#VV  追溯#VV  至粥#NN    。#PU  由于#P  烹煮#NN  粥水#NN  控制#VV  水量#NN  的#DEC  要求#NN  比#P  米饭#NN  低#VA  ，#PU  上古#NN  的#DEG  华夏#NR  民众#NN  后来#AD  慢慢#AD  掌握#VV  不同#JJ  水量#NN  时#LC  的#DEG  烹煮#NN  效果#NN  ，#PU  就#AD  发展#VV  出#VV  较#AD  饱满#VA  的#DEC  米饭#NN    。#PU  现代#NR  由于#P  打磨#NN  谷粒#NN  的#DEG  技术#NN  比#P  古代#NN  越#AD  趋#VV  先进#VA  ，#PU  因此#AD  民众#NN  食用#VV  的#DEC  米饭#NN  亦#AD  逐渐#AD  由#P  糙米#NN  改用#NN  白米#NN  ，#PU  甚至#AD  出现#VV  无#VE  洗米#NN  等#ETC  净#JJ  白米#NN  ，#PU  但#AD  已#AD  失去#VV  存于#NN  糙米#NN  表面#NN  即#AD  谷糠#VV  的#DEC  各#DT  种#M  营养#VA  ，#PU  而#CC  几乎#AD  只#AD  剩下#VV  淀粉质#NN  等#ETC  糖份#NN  ，#PU  因此#AD  亦#AD  引发#VV  现代#JJ  民众#NN  患#NN  糖尿病#NN  个案#VV  上升#VV  的#DEC  其中#NN  原因#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 米饭#VV)  (cop, 食物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食物#NN, 种#M)  (ba, 成#VV, 把#BA)  (nsubj, 成#VV, 稻米#NN)  (case, 水煮#NN, 与#P)  (prep, 成#VV, 水煮#NN)  (relcl, 食物#NN, 成#VV)  (mark, 成#VV, 的#DEC)  (ccomp, 米饭#VV, 食物#NN)   (nsubj, 粮食#NN, 米饭#NN)  (cop, 粮食#NN, 是#VC)  (conj, 韩国#NR, 中国#NR)  (conj, 韩国#NR, 日本#NR)  (cc, 韩国#NR, 和#CC)  (nn, 地区#NN, 韩国#NR)  (etc, 韩国#NR, 等#ETC)  (nn, 地区#NN, 东亚#NR)  (nsubj, 主要#VA, 地区#NN)  (advmod, 主要#VA, 最#AD)  (relcl, 粮食#NN, 主要#VA)  (mark, 主要#VA, 的#DEC)  (root, ROOT#null, 粮食#NN)   (assmod, 制法#NN, 米饭#NN)  (case, 米饭#NN, 的#DEG)  (nsubj, 水#NN, 制法#NN)  (cop, 水#NN, 为#VC)  (nummod, 杯#NN, 一#CD)  (nn, 杯#NN, 杯#NN)  (dep, 杯#NN, 米#M)  (nn, 杯#NN, 加#NR)  (nummod, 杯#NN, 一#CD)  (nn, 杯#NN, 杯#NN)  (nummod, 一#CD, 半#CD)  (cc, 一#CD, 到#CC)  (nummod, 杯#NN, 一#CD)  (assmod, 水#NN, 杯#NN)  (case, 杯#NN, 的#DEG)  (root, ROOT#null, 水#NN)  (assmod, 膨胀#NN, 煮出#NT)  (case, 煮出#NT, 来#LC)  (case, 煮出#NT, 的#DEG)  (clf, 膨胀#NN, 米#M)  (relcl, 膨胀#NN, 适当#VA)  (mark, 适当#VA, 的#DEC)  (nsubj, 熟#VA, 膨胀#NN)  (nsubj, 熟#VA, 里面#NN)  (advmod, 熟#VA, 全#AD)  (conj, 水#NN, 熟#VA)  (nn, 水份#NN, 去除#NN)  (loc, 成#VV, 水份#NN)  (case, 水份#NN, 后#LC)  (advmod, 成#VV, 即#AD)  (conj, 水#NN, 成#VV)   (case, 餐厅#NN, 在#P)  (assmod, 餐厅#NN, 香港#NR)  (case, 香港#NR, 的#DEG)  (conj, 餐厅#NN, 酒楼#NN)  (cc, 餐厅#NN, 和#CC)  (nn, 餐厅#NN, 茶#NN)  (prep, 有#VE, 餐厅#NN)  (advmod, 有#VE, 白饭#AD)  (advmod, 有#VE, 亦#AD)  (root, ROOT#null, 有#VE)  (nsubj, 靓仔#NN, 俗称#NN)  (cop, 靓仔#NN, 为#VC)  (dep, 有#VE, 靓仔#NN)   (dep, 全身#NN, 米#M)  (cop, 之首#NN, 是#VC)  (nummod, 之首#NN, 五#CD)  (nn, 之首#NN, 谷#NN)  (nfincl, 全身#NN, 之首#NN)  (advmod, 之一#NN, 米饭#AD)  (advmod, 之一#NN, 更#AD)  (cop, 之一#NN, 是#VC)  (nn, 饮食#NN, 人们#NN)  (amod, 饮食#NN, 日常#JJ)  (assmod, 之一#NN, 饮食#NN)  (case, 饮食#NN, 中#LC)  (case, 饮食#NN, 的#DEG)  (nn, 之一#NN, 主角#NN)  (conj, 之首#NN, 之一#NN)  (nummod, 米饭#NN, 一味#CD)  (dep, 可以#VV, 米饭#NN)  (case, 调配#NN, 与#P)  (nummod, 味#NN, 五#CD)  (nn, 调配#NN, 味#NN)  (prep, 可以#VV, 调配#NN)  (advmod, 可以#VV, 几乎#AD)  (dep, 之首#NN, 可以#VV)  (nn, 全身#NN, 供给#NN)  (nsubj, 需#VV, 全身#NN)  (prtmod, 需#VV, 所#MSP)  (dep, 营养#VA, 需#VV)  (root, ROOT#null, 营养#VA)   (root, ROOT#null, null#null)
+            (dvpmod, 面世#VV, 米饭#VA)  (dep, 米饭#VA, 的#DEC)  (root, ROOT#null, 面世#VV)  (mmod, 追溯#VV, 可#VV)  (dep, 面世#VV, 追溯#VV)  (dobj, 追溯#VV, 至粥#NN)   (case, 低#VA, 由于#P)  (nn, 粥水#NN, 烹煮#NN)  (nsubj, 控制#VV, 粥水#NN)  (relcl, 要求#NN, 控制#VV)  (dobj, 控制#VV, 水量#NN)  (mark, 控制#VV, 的#DEC)  (nsubj, 低#VA, 要求#NN)  (case, 米饭#NN, 比#P)  (prep, 低#VA, 米饭#NN)  (prep, 发展#VV, 低#VA)  (assmod, 民众#NN, 上古#NN)  (case, 上古#NN, 的#DEG)  (nn, 民众#NN, 华夏#NR)  (nsubj, 掌握#VV, 民众#NN)  (advmod, 掌握#VV, 后来#AD)  (advmod, 掌握#VV, 慢慢#AD)  (conj, 低#VA, 掌握#VV)  (amod, 水量#NN, 不同#JJ)  (assmod, 效果#NN, 水量#NN)  (case, 水量#NN, 时#LC)  (case, 水量#NN, 的#DEG)  (nn, 效果#NN, 烹煮#NN)  (dobj, 掌握#VV, 效果#NN)  (advmod, 发展#VV, 就#AD)  (root, ROOT#null, 发展#VV)  (rcomp, 发展#VV, 出#VV)  (advmod, 饱满#VA, 较#AD)  (relcl, 米饭#NN, 饱满#VA)  (mark, 饱满#VA, 的#DEC)  (dobj, 发展#VV, 米饭#NN)   (nsubj, 先进#VA, 现代#NR)  (case, 趋#VV, 由于#P)  (nn, 谷粒#NN, 打磨#NN)  (assmod, 技术#NN, 谷粒#NN)  (case, 谷粒#NN, 的#DEG)  (nsubj, 趋#VV, 技术#NN)  (case, 古代#NN, 比#P)  (prep, 趋#VV, 古代#NN)  (advmod, 趋#VV, 越#AD)  (prep, 先进#VA, 趋#VV)  (root, ROOT#null, 先进#VA)  (advmod, 个案#VV, 因此#AD)  (nsubj, 食用#VV, 民众#NN)  (relcl, 米饭#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 个案#VV, 米饭#NN)  (advmod, 个案#VV, 亦#AD)  (advmod, 个案#VV, 逐渐#AD)  (case, 白米#NN, 由#P)  (nn, 白米#NN, 糙米#NN)  (nn, 白米#NN, 改用#NN)  (prep, 个案#VV, 白米#NN)  (advmod, 无#VE, 甚至#AD)  (mmod, 无#VE, 出现#VV)  (dep, 白米#NN, 无#VE)  (nn, 白米#NN, 洗米#NN)  (etc, 洗米#NN, 等#ETC)  (amod, 白米#NN, 净#JJ)  (dobj, 无#VE, 白米#NN)  (advmod, 失去#VV, 但#AD)  (advmod, 失去#VV, 已#AD)  (dep, 白米#NN, 失去#VV)  (nn, 表面#NN, 存于#NN)  (nn, 表面#NN, 糙米#NN)  (nsubj, 谷糠#VV, 表面#NN)  (advmod, 谷糠#VV, 即#AD)  (relcl, 糖份#NN, 谷糠#VV)  (mark, 谷糠#VV, 的#DEC)  (dep, 营养#VA, 各#DT)  (clf, 各#DT, 种#M)  (nfincl, 糖份#NN, 营养#VA)  (cc, 营养#VA, 而#CC)  (advmod, 剩下#VV, 几乎#AD)  (advmod, 剩下#VV, 只#AD)  (dep, 营养#VA, 剩下#VV)  (dobj, 剩下#VV, 淀粉质#NN)  (etc, 淀粉质#NN, 等#ETC)  (dobj, 失去#VV, 糖份#NN)  (advmod, 引发#VV, 因此#AD)  (advmod, 引发#VV, 亦#AD)  (dep, 白米#NN, 引发#VV)  (amod, 糖尿病#NN, 现代#JJ)  (nn, 糖尿病#NN, 民众#NN)  (nn, 糖尿病#NN, 患#NN)  (dobj, 引发#VV, 糖尿病#NN)  (conj, 先进#VA, 个案#VV)  (relcl, 原因#NN, 上升#VV)  (mark, 上升#VV, 的#DEC)  (nn, 原因#NN, 其中#NN)  (dobj, 个案#VV, 原因#NN)
+        </parsing>
+
+        <tag>
+            成食物  韩国  中国  日本  膨胀适当  去除水份  餐厅  酒楼  人们饮食  日常饮食  供给全身  面世  追溯至粥  烹煮粥水  控制要求  控制水量  不同水量  烹煮效果  掌握效果  发展  打磨谷粒  糙米白米  改用白米  洗米白米  净白米  存于表面  糙米表面  谷糠糖份  剩下淀粉质  失去糖份  现代糖尿病  民众糖尿病  引发糖尿病  上升原因  个案原因  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            大米性平、味甘； 有补中益气、健脾养胃、益精强志、和五脏、通血脉、聪耳明目、止烦、止渴、止泻的功效。
+            1.补中益气
+            适宜肤色没有光华，失去红润、手脚冰冷的人群。
+            2.健脾养胃
+            适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。中和胃酸，缓解胃痛。
+            3.明目
+            可预防治疗眼部干燥、视力模糊、结膜充血，视神经炎、双眼下垂、瞳孔扩大、近视等眼部疾病。
+            4.止烦
+            含多种氨基酸和维生素，可调节新陈代谢，起到镇静安神的作用。含有多种氨基酸和有机酸，消除疲劳，帮助睡眠。
+            5.止泻
+            适宜脾虚型腹泻患者，症状是：久泻不愈、面色萎黄、食欲减退、大便稀薄且有不消化食物。
+        </rawdata>
+
+        <segment>
+            大米  性平  、  味  甘  ；  有补  中  益气  、  健脾  养  胃  、  益精  强志  、  和  五脏  、  通  血脉  、  聪耳  明目  、  止烦  、  止渴  、  止泻  的  功效  。
+            补  中  益气
+            适宜  肤色  没有  光华  ，  失去  红润  、  手脚  冰冷  的  人群  。
+            健脾  养  胃
+            适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏力  等症  。  中和  胃酸  ，  缓解  胃痛  。
+            明目
+            可  预防  治疗  眼部  干燥  、  视力  模糊  、  结膜  充血  ，  视神经炎  、  双眼  下垂  、  瞳孔  扩大  、  近视  等  眼部  疾病  。
+            止烦
+            含多  种  氨基酸  和  维生素  ，  可  调节  新陈代谢  ，  起到  镇静  安神  的  作用  。  含有  多  种  氨基酸  和  有机酸  ，  消除  疲劳  ，  帮助  睡眠  。
+            止泻
+            适宜  脾虚  型  腹泻  患者  ，  症状  是  ：  久泻不愈  、  面色  萎黄  、  食欲  减退  、  大便  稀薄  且  有  不消化  食物  。
+        </segment>
+
+        <pos>
+            大米#VV  性平#NN  、#PU  味#VV  甘#NR  ；#PU  有补#VV  中#NR  益气#NN  、#PU  健脾#VV  养#VV  胃#NN  、#PU  益精#NN  强志#NN  、#PU  和#CC  五脏#CD  、#PU  通#VV  血脉#NR  、#PU  聪耳#NR  明目#NR  、#PU  止烦#NR  、#PU  止渴#NR  、#PU  止泻#NR  的#DEC  功效#NN  。#PU
+            补#VV  中#NR  益气#NN
+            适宜#VV  肤色#NN  没有#VE  光华#NN  ，#PU  失去#VV  红润#NN  、#PU  手脚#VV  冰冷#VA  的#DEC  人群#NN  。#PU
+            健脾#NN  养#VV  胃#NN
+            适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEC  脘腹#NN  胀满#VV  ，#PU  大便#NN  溏泄#NN  ，#PU  食欲不振#NN  ，#PU  肢#AD  倦乏力#VV  等症#NN    。#PU  中和#NR  胃酸#VV  ，#PU  缓解#VV  胃痛#NN    。#PU    。#PU
+            明目#VV
+            可#VV  预防#VV  治疗#NN  眼部#NN  干燥#NN  、#PU  视力#NN  模糊#NN  、#PU  结膜#NN  充血#NN  ，#PU  视神经炎#NR  、#PU  双眼#NN  下垂#NN  、#PU  瞳孔#JJ  扩大#NN  、#PU  近视#NR  等#ETC  眼部#NN  疾病#NN  。#PU
+            止烦#VV
+            含多#CD  种#M  氨基酸#NN  和#CC  维生素#NN  ，#PU  可#VV  调节#VV  新陈代谢#NN  ，#PU  起到#VV  镇静#NN  安神#NN  的#DEG  作用#NN    。#PU  含有#VV  多#CD  种#M  氨基酸#NN  和#CC  有机酸#NN  ，#PU  消除#VV  疲劳#VA  ，#PU  帮助#VV  睡眠#VV    。#PU    。#PU
+            止泻#VV
+            适宜#VV  脾虚#CD  型#M  腹泻#NN  患者#NN  ，#PU  症状#AD  是#VC  ：#PU  久泻不愈#NR  、#PU  面色#NR  萎黄#NR  、#PU  食欲#NR  减退#NR  、#PU  大便#NR  稀薄#NN  且#CC  有#VE  不消化#NN  食物#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 大米#VV)  (dobj, 大米#VV, 性平#NN)  (conj, 大米#VV, 味#VV)  (dobj, 味#VV, 甘#NR)  (conj, 大米#VV, 有补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 有补#VV, 益气#NN)  (conj, 大米#VV, 健脾#VV)  (relcl, 功效#NN, 养#VV)  (conj, 强志#NN, 胃#NN)  (nn, 强志#NN, 益精#NN)  (dep, 养#VV, 强志#NN)  (cc, 强志#NN, 和#CC)  (dep, 强志#NN, 五脏#CD)  (dep, 养#VV, 通#VV)  (conj, 止泻#NR, 血脉#NR)  (nn, 止泻#NR, 聪耳#NR)  (conj, 止泻#NR, 明目#NR)  (conj, 止泻#NR, 止烦#NR)  (conj, 止泻#NR, 止渴#NR)  (dobj, 通#VV, 止泻#NR)  (mark, 养#VV, 的#DEC)  (dobj, 健脾#VV, 功效#NN)
+            (root, ROOT#null, 补#VV)  (nn, 益气#NN, 中#NR)  (dobj, 补#VV, 益气#NN)
+            (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 肤色#NN)  (conj, 适宜#VV, 没有#VE)  (dobj, 没有#VE, 光华#NN)  (conj, 适宜#VV, 失去#VV)  (dobj, 失去#VV, 红润#NN)  (conj, 适宜#VV, 手脚#VV)  (relcl, 人群#NN, 冰冷#VA)  (mark, 冰冷#VA, 的#DEC)  (dobj, 手脚#VV, 人群#NN)
+            (nsubj, 养#VV, 健脾#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 胃#NN)
+            (relcl, 脘腹#NN, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (dobj, 运化#VV, 所致#NN)  (mark, 适用于#VV, 的#DEC)  (nsubj, 胀满#VV, 脘腹#NN)  (root, ROOT#null, 胀满#VV)  (nn, 溏泄#NN, 大便#NN)  (nsubj, 倦乏力#VV, 溏泄#NN)  (nsubj, 倦乏力#VV, 食欲不振#NN)  (advmod, 倦乏力#VV, 肢#AD)  (ccomp, 胀满#VV, 倦乏力#VV)  (dobj, 倦乏力#VV, 等症#NN)   (nsubj, 胃酸#VV, 中和#NR)  (root, ROOT#null, 胃酸#VV)  (ccomp, 胃酸#VV, 缓解#VV)  (dobj, 缓解#VV, 胃痛#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 明目#VV)
+            (mmod, 预防#VV, 可#VV)  (root, ROOT#null, 预防#VV)  (nn, 干燥#NN, 治疗#NN)  (nn, 干燥#NN, 眼部#NN)  (conj, 近视#NR, 干燥#NN)  (nn, 模糊#NN, 视力#NN)  (conj, 近视#NR, 模糊#NN)  (nn, 充血#NN, 结膜#NN)  (dep, 近视#NR, 充血#NN)  (conj, 近视#NR, 视神经炎#NR)  (nn, 下垂#NN, 双眼#NN)  (conj, 近视#NR, 下垂#NN)  (amod, 扩大#NN, 瞳孔#JJ)  (conj, 近视#NR, 扩大#NN)  (nn, 疾病#NN, 近视#NR)  (etc, 近视#NR, 等#ETC)  (nn, 疾病#NN, 眼部#NN)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 止烦#VV)
+            (nummod, 种#M, 含多#CD)  (clf, 维生素#NN, 种#M)  (conj, 维生素#NN, 氨基酸#NN)  (cc, 维生素#NN, 和#CC)  (dep, 调节#VV, 维生素#NN)  (mmod, 调节#VV, 可#VV)  (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 新陈代谢#NN)  (conj, 调节#VV, 起到#VV)  (nn, 安神#NN, 镇静#NN)  (assmod, 作用#NN, 安神#NN)  (case, 安神#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)   (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 有机酸#NN, 种#M)  (conj, 有机酸#NN, 氨基酸#NN)  (cc, 有机酸#NN, 和#CC)  (dobj, 含有#VV, 有机酸#NN)  (conj, 含有#VV, 消除#VV)  (dep, 消除#VV, 疲劳#VA)  (conj, 含有#VV, 帮助#VV)  (ccomp, 帮助#VV, 睡眠#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 止泻#VV)
+            (dep, 稀薄#NN, 适宜#VV)  (nummod, 型#M, 脾虚#CD)  (clf, 腹泻#NN, 型#M)  (nn, 患者#NN, 腹泻#NN)  (dobj, 适宜#VV, 患者#NN)  (advmod, 稀薄#NN, 症状#AD)  (cop, 稀薄#NN, 是#VC)  (conj, 大便#NR, 久泻不愈#NR)  (nn, 大便#NR, 面色#NR)  (conj, 大便#NR, 萎黄#NR)  (nn, 大便#NR, 食欲#NR)  (conj, 大便#NR, 减退#NR)  (nn, 稀薄#NN, 大便#NR)  (root, ROOT#null, 稀薄#NN)  (cc, 稀薄#NN, 且#CC)  (dep, 稀薄#NN, 有#VE)  (nn, 食物#NN, 不消化#NN)  (dobj, 有#VE, 食物#NN)
+        </parsing>
+
+        <tag>
+            大米性平  有补益气  养功效  益精强志  止泻  血脉  明目  止烦  止渴  健脾功效  适宜肤色  没有光华  失去红润  人群冰冷  手脚人群  适用于脘腹  脾气虚弱  适用于虚弱  无力所致  运化所致  胀满  大便溏泄  倦乏力等症  胃酸  缓解胃痛  治疗干燥  眼部干燥  视力模糊  结膜充血  近视  视神经炎  双眼下垂  瞳孔扩大  眼部疾病  预防疾病  维生素  氨基酸  调节新陈代谢  镇静安神  含有有机酸  腹泻患者  适宜患者  久泻不愈  萎黄  减退  不消化食物  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        健脾养胃  明目  止渴  止泻
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            米饭的主要成份是碳水化合物，米饭中的蛋白质主要是米精蛋白，氨基酸的组成比较完全，人体容易消化吸收。糙米饭中的矿物质、膳食纤维、B族维生素（特别是维生素B1）含量都较精米米饭中的要高，但米饭中的赖氨酸含量较低。
+        </rawdata>
+
+        <segment>
+            米饭  的  主要  成份  是  碳水化合物  ，  米饭  中  的  蛋白质  主要  是  米  精蛋白  ，  氨基酸  的  组成  比较  完全  ，  人体  容易  消化  吸收  。  糙米饭  中  的  矿物质  、  膳食  纤维  、  B  族  维生素  （  特别是  维生素B1  ）  含量  都  较  精米  米饭  中  的  要  高  ，  但  米饭  中  的  赖氨酸  含量  较  低  。
+        </segment>
+
+        <pos>
+            米饭#NN  的#DEG  主要#JJ  成份#NN  是#VC  碳水化合物#VV  ，#PU  米饭#NN  中#LC  的#DEG  蛋白质#NN  主要#AD  是#VC  米#M  精蛋白#NN  ，#PU  氨基酸#VV  的#DEC  组成#VV  比较#AD  完全#AD  ，#PU  人体#AD  容易#VA  消化#NN  吸收#NN    。#PU  糙米饭#NN  中#LC  的#DEG  矿物质#NN  、#PU  膳食#NN  纤维#NN  、#PU  B#NN  族#NN  维生素#NN  （#PU  特别是#AD  维生素B1#CD  ）#PU  含量#NN  都#AD  较#P  精米#NN  米饭#NN  中#LC  的#DEG  要#AD  高#VA  ，#PU  但#AD  米饭#VV  中#NR  的#DEG  赖氨酸#NN  含量#NN  较#AD  低#VA    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成份#NN, 米饭#NN)  (case, 米饭#NN, 的#DEG)  (amod, 成份#NN, 主要#JJ)  (nsubj, 吸收#NN, 成份#NN)  (cop, 吸收#NN, 是#VC)  (relcl, 吸收#NN, 碳水化合物#VV)  (assmod, 蛋白质#NN, 米饭#NN)  (case, 米饭#NN, 中#LC)  (case, 米饭#NN, 的#DEG)  (nsubj, 精蛋白#NN, 蛋白质#NN)  (advmod, 精蛋白#NN, 主要#AD)  (cop, 精蛋白#NN, 是#VC)  (dep, 精蛋白#NN, 米#M)  (ccomp, 碳水化合物#VV, 精蛋白#NN)  (dep, 精蛋白#NN, 氨基酸#VV)  (mark, 碳水化合物#VV, 的#DEC)  (mmod, 容易#VA, 组成#VV)  (advmod, 容易#VA, 比较#AD)  (advmod, 容易#VA, 完全#AD)  (advmod, 容易#VA, 人体#AD)  (nfincl, 吸收#NN, 容易#VA)  (nn, 吸收#NN, 消化#NN)  (root, ROOT#null, 吸收#NN)   (assmod, 含量#NN, 糙米饭#NN)  (case, 糙米饭#NN, 中#LC)  (case, 糙米饭#NN, 的#DEG)  (conj, 维生素#NN, 矿物质#NN)  (nn, 维生素#NN, 膳食#NN)  (conj, 维生素#NN, 纤维#NN)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nn, 含量#NN, 维生素#NN)  (advmod, 维生素B1#CD, 特别是#AD)  (prnmod, 维生素#NN, 维生素B1#CD)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 都#AD)  (case, 含量#NN, 较#P)  (nn, 米饭#NN, 精米#NN)  (assmod, 含量#NN, 米饭#NN)  (case, 米饭#NN, 中#LC)  (case, 米饭#NN, 的#DEG)  (advmod, 高#VA, 要#AD)  (nfincl, 含量#NN, 高#VA)  (advmod, 米饭#VV, 但#AD)  (dep, 高#VA, 米饭#VV)  (assmod, 赖氨酸#NN, 中#NR)  (case, 中#NR, 的#DEG)  (dobj, 米饭#VV, 赖氨酸#NN)  (prep, 低#VA, 含量#NN)  (advmod, 低#VA, 较#AD)  (root, ROOT#null, 低#VA)
+        </parsing>
+
+        <tag>
+            碳水化合物吸收  消化吸收  矿物质  膳食维生素  纤维  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.洗米
+            洗米一定不要超过3次，如果超过3次后，米里的营养就会大量流失，这样蒸出来的米饭香味也会减少。记住洗米不要超过3次。
+            2.泡米
+            先把米在冷水里浸泡1个小时。这样可以让米粒充分的吸收水分。这样蒸出来米饭会粒粒饱满。
+            3.米和水的比例
+            蒸米饭时，米和水的比例应该是1:1.2。有一个特别简单的方法来测量水的量，用食指放入米水里，只要水超出米有食指的第一个关节就可以。
+            4.增香
+            如果您家里的米已经是陈米，没关系，陈米也可以蒸出新米的味道。就是在经过前三道工序后，我们在锅里加入少量的精盐或花生油，记住花生油必须烧熟的，而且是晾凉的。只要在锅里加入少许就可以煮了。可以插上电，开始蒸。蒸好了，粒粒晶莹剔透饱满，米香四益。
+        </rawdata>
+
+        <segment>
+            洗米
+            洗  米  一定  不  要  超过  3  次  ，  如果  超过  3  次  后  ，  米里  的  营养  就  会  大量  流失  ，  这样  蒸  出来  的  米饭  香味  也  会  减少  。  记住  洗米  不  要  超过  3  次  。
+            泡  米
+            先  把  米  在  冷水  里  浸泡  1  个  小时  。  这样  可以  让  米粒  充分  的  吸收  水分  。  这样  蒸  出来  米饭  会  粒粒  饱满  。
+            米  和  水  的  比例
+            蒸  米饭  时  ，  米  和  水  的  比例  应该  是  1.2  。  有  一  个  特别  简单  的  方法  来  测量  水  的  量  ，  用  食指  放入  米  水里  ，  只要  水  超出  米  有  食指  的  第一  个  关节  就  可以  。
+            增香
+            如果  您  家里  的  米  已经  是  陈米  ，  没关系  ，  陈米  也  可以  蒸出  新米  的  味道  。  就是  在  经过  前  三  道  工序  后  ，  我们  在  锅里  加入  少量  的  精盐  或  花生油  ，  记住  花生油  必须  烧熟  的  ，  而且  是  晾凉  的  。  只要  在  锅里  加入  少许  就  可以  煮  了  。  可以  插上  电  ，  开始  蒸  。  蒸  好  了  ，  粒粒  晶莹  剔透  饱满  ，  米香  四  益  。
+        </segment>
+
+        <pos>
+            洗米#VV
+            洗#CD  米#M  一定#AD  不#AD  要#VV  超过#VV  3#CD  次#M  ，#PU  如果#CS  超过#VV  3#CD  次#M  后#LC  ，#PU  米里#VV  的#DEC  营养#VA  就#P  会#VV  大量#CD  流失#NN  ，#PU  这样#AD  蒸#VV  出来#VV  的#DEC  米饭#NN  香味#NN  也#AD  会#VV  减少#VV    。#PU  记住#NN  洗米#NN  不#AD  要#VV  超过#VV  3#CD  次#M    。#PU    。#PU
+            泡#CD  米#M
+            先#AD  把#BA  米#M  在#P  冷水#NN  里#LC  浸泡#VV  1#CD  个#M  小时#NN    。#PU  这样#PN  可以#VV  让#VV  米粒#AD  充分#VA  的#DEC  吸收#NN  水分#VV    。#PU  这样#AD  蒸#AD  出来#VV  米饭#NN  会#VV  粒粒#AD  饱满#VA    。#PU    。#PU
+            米#M  和#P  水#NN  的#DEG  比例#NN
+            蒸#NN  米饭#NN  时#LC  ，#PU  米#M  和#P  水#NN  的#DEG  比例#NN  应该#VV  是#VC  1.2#CD    。#PU  有#VE  一#CD  个#M  特别#AD  简单#VA  的#DEC  方法#NN  来#VV  测量#NN  水#NN  的#DEC  量#NN  ，#PU  用#P  食指#NN  放入#VV  米#M  水里#NN  ，#PU  只要#CS  水#NN  超出#VV  米#M  有#VE  食指#NN  的#DEC  第一#OD  个#M  关节#NN  就#AD  可以#VV    。#PU    。#PU
+            增香#VV
+            如果#CS  您#PN  家里#VV  的#DEC  米#M  已经#AD  是#VC  陈米#NN  ，#PU  没关系#VV  ，#PU  陈米#VV  也#AD  可以#VV  蒸出#VV  新米#NN  的#DEC  味道#NN    。#PU  就是#AD  在#P  经过#P  前#DT  三#CD  道#NN  工序#NN  后#LC  ，#PU  我们#PN  在#P  锅里#AD  加入#VV  少量#CD  的#DEC  精盐#NN  或#CC  花生油#NN  ，#PU  记住#AD  花生油#VV  必须#VV  烧熟#VA  的#DEC  ，#PU  而且#AD  是#VC  晾凉#VA  的#DEC    。#PU  只要#CS  在#P  锅里#NR  加入#VV  少许#NN  就#AD  可以#VV  煮#VV  了#AS    。#PU  可以#VV  插上#VV  电#NN  ，#PU  开始#VV  蒸#NN    。#PU  蒸#AD  好#VA  了#AS  ，#PU  粒粒#NN  晶莹#NN  剔透#AD  饱满#VA  ，#PU  米香#VV  四#CD  益#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 洗米#VV)
+            (nummod, 米#M, 洗#CD)  (clf, 香味#NN, 米#M)  (advmod, 超过#VV, 一定#AD)  (neg, 超过#VV, 不#AD)  (mmod, 超过#VV, 要#VV)  (relcl, 香味#NN, 超过#VV)  (nummod, 次#M, 3#CD)  (range, 超过#VV, 次#M)  (advmod, 超过#VV, 如果#CS)  (conj, 超过#VV, 超过#VV)  (nummod, 次#M, 3#CD)  (loc, 超过#VV, 次#M)  (case, 次#M, 后#LC)  (conj, 超过#VV, 米里#VV)  (mark, 超过#VV, 的#DEC)  (dep, 出来#VV, 营养#VA)  (case, 会#VV, 就#P)  (prep, 出来#VV, 会#VV)  (nummod, 流失#NN, 大量#CD)  (dobj, 会#VV, 流失#NN)  (advmod, 蒸#VV, 这样#AD)  (conj, 会#VV, 蒸#VV)  (relcl, 香味#NN, 出来#VV)  (mark, 出来#VV, 的#DEC)  (nn, 香味#NN, 米饭#NN)  (nsubj, 减少#VV, 香味#NN)  (advmod, 减少#VV, 也#AD)  (dep, 减少#VV, 会#VV)  (root, ROOT#null, 减少#VV)   (nn, 洗米#NN, 记住#NN)  (nsubj, 超过#VV, 洗米#NN)  (neg, 超过#VV, 不#AD)  (mmod, 超过#VV, 要#VV)  (root, ROOT#null, 超过#VV)  (nummod, 次#M, 3#CD)  (range, 超过#VV, 次#M)   (root, ROOT#null, null#null)
+            (nummod, 米#M, 泡#CD)  (root, ROOT#null, 米#M)
+            (advmod, 浸泡#VV, 先#AD)  (ba, 浸泡#VV, 把#BA)  (dep, 浸泡#VV, 米#M)  (case, 冷水#NN, 在#P)  (prep, 浸泡#VV, 冷水#NN)  (case, 冷水#NN, 里#LC)  (root, ROOT#null, 浸泡#VV)  (nummod, 个#M, 1#CD)  (clf, 小时#NN, 个#M)  (dobj, 浸泡#VV, 小时#NN)   (nsubj, 让#VV, 这样#PN)  (mmod, 让#VV, 可以#VV)  (root, ROOT#null, 让#VV)  (advmod, 充分#VA, 米粒#AD)  (relcl, 吸收#NN, 充分#VA)  (mark, 充分#VA, 的#DEC)  (dobj, 让#VV, 吸收#NN)  (dep, 让#VV, 水分#VV)   (advmod, 出来#VV, 这样#AD)  (advmod, 出来#VV, 蒸#AD)  (dep, 饱满#VA, 出来#VV)  (dobj, 出来#VV, 米饭#NN)  (mmod, 饱满#VA, 会#VV)  (advmod, 饱满#VA, 粒粒#AD)  (root, ROOT#null, 饱满#VA)   (root, ROOT#null, null#null)
+            (clf, 比例#NN, 米#M)  (case, 水#NN, 和#P)  (prep, 的#DEG, 水#NN)  (nn, 比例#NN, 的#DEG)  (root, ROOT#null, 比例#NN)
+            (nn, 米饭#NN, 蒸#NN)  (loc, 应该#VV, 米饭#NN)  (case, 米饭#NN, 时#LC)  (clf, 比例#NN, 米#M)  (case, 水#NN, 和#P)  (assmod, 比例#NN, 水#NN)  (case, 水#NN, 的#DEG)  (nsubj, 应该#VV, 比例#NN)  (conj, 是#VC, 应该#VV)  (root, ROOT#null, 是#VC)  (dep, 是#VC, 1.2#CD)   (root, ROOT#null, 有#VE)  (nummod, 个#M, 一#CD)  (clf, 量#NN, 个#M)  (advmod, 简单#VA, 特别#AD)  (relcl, 方法#NN, 简单#VA)  (mark, 简单#VA, 的#DEC)  (nsubj, 来#VV, 方法#NN)  (relcl, 量#NN, 来#VV)  (nn, 水#NN, 测量#NN)  (dobj, 来#VV, 水#NN)  (mark, 来#VV, 的#DEC)  (dobj, 有#VE, 量#NN)  (case, 食指#NN, 用#P)  (prep, 放入#VV, 食指#NN)  (conj, 有#VE, 放入#VV)  (dep, 水里#NN, 米#M)  (dobj, 放入#VV, 水里#NN)  (advmod, 超出#VV, 只要#CS)  (dobj, 超出#VV, 水#NN)  (dep, 可以#VV, 超出#VV)  (clf, 关节#NN, 米#M)  (relcl, 关节#NN, 有#VE)  (dobj, 有#VE, 食指#NN)  (mark, 有#VE, 的#DEC)  (ordmod, 个#M, 第一#OD)  (clf, 关节#NN, 个#M)  (dobj, 超出#VV, 关节#NN)  (advmod, 可以#VV, 就#AD)  (conj, 有#VE, 可以#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增香#VV)
+            (advmod, 家里#VV, 如果#CS)  (dobj, 家里#VV, 您#PN)  (nsubj, 陈米#NN, 家里#VV)  (mark, 家里#VV, 的#DEC)  (dep, 家里#VV, 米#M)  (advmod, 陈米#NN, 已经#AD)  (cop, 陈米#NN, 是#VC)  (root, ROOT#null, 陈米#NN)  (conj, 陈米#NN, 没关系#VV)  (conj, 陈米#NN, 陈米#VV)  (advmod, 蒸出#VV, 也#AD)  (mmod, 蒸出#VV, 可以#VV)  (relcl, 味道#NN, 蒸出#VV)  (dobj, 蒸出#VV, 新米#NN)  (mark, 蒸出#VV, 的#DEC)  (dobj, 陈米#VV, 味道#NN)   (advmod, 花生油#VV, 就是#AD)  (case, 工序#NN, 在#P)  (case, 工序#NN, 经过#P)  (det, 道#NN, 前#DT)  (dep, 前#DT, 三#CD)  (nn, 工序#NN, 道#NN)  (prep, 花生油#VV, 工序#NN)  (case, 工序#NN, 后#LC)  (nsubj, 花生油#VV, 我们#PN)  (case, 花生油#NN, 在#P)  (advmod, 加入#VV, 锅里#AD)  (relcl, 花生油#NN, 加入#VV)  (range, 加入#VV, 少量#CD)  (mark, 加入#VV, 的#DEC)  (conj, 花生油#NN, 精盐#NN)  (cc, 花生油#NN, 或#CC)  (prep, 花生油#VV, 花生油#NN)  (advmod, 花生油#VV, 记住#AD)  (root, ROOT#null, 花生油#VV)  (ccomp, 花生油#VV, 必须#VV)  (dep, 晾凉#VA, 烧熟#VA)  (mark, 烧熟#VA, 的#DEC)  (advmod, 晾凉#VA, 而且#AD)  (cop, 晾凉#VA, 是#VC)  (conj, 花生油#VV, 晾凉#VA)  (mark, 晾凉#VA, 的#DEC)   (advmod, 加入#VV, 只要#CS)  (case, 锅里#NR, 在#P)  (prep, 加入#VV, 锅里#NR)  (root, ROOT#null, 加入#VV)  (dobj, 加入#VV, 少许#NN)  (advmod, 煮#VV, 就#AD)  (mmod, 煮#VV, 可以#VV)  (conj, 加入#VV, 煮#VV)  (asp, 煮#VV, 了#AS)   (mmod, 插上#VV, 可以#VV)  (root, ROOT#null, 插上#VV)  (dobj, 插上#VV, 电#NN)  (dep, 插上#VV, 开始#VV)  (dobj, 开始#VV, 蒸#NN)   (advmod, 好#VA, 蒸#AD)  (root, ROOT#null, 好#VA)  (asp, 好#VA, 了#AS)  (nn, 晶莹#NN, 粒粒#NN)  (dep, 饱满#VA, 晶莹#NN)  (advmod, 饱满#VA, 剔透#AD)  (conj, 好#VA, 饱满#VA)  (conj, 好#VA, 米香#VV)  (nummod, 益#NN, 四#CD)  (dobj, 米香#VV, 益#NN)
+        </parsing>
+
+        <tag>
+            超过香味  出来香味  减少  记住洗米  浸泡小时  吸收充分  方法简单  超出水  超出关节  增香  蒸出味道  蒸出新米  陈米味道  加入花生油  精盐  加入少许  插上电  开始蒸  粒粒晶莹  米香益  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091441466522.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\382 米饭.jpg
+    </picturelocalurl>
+
+</content>

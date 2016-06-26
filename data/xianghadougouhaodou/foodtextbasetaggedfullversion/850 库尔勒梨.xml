@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        850
+    </id>
+
+    <foodname>
+        库尔勒梨
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        香梨
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            一座有名的城市叫库尔勒，孔雀河流贯、形成肥美的绿洲，这里所产的香梨全国闻名。库尔勒香梨产于中国新疆库尔勒。该梨皮薄肉细，汁多味甜，酥脆爽口；极耐贮藏及地域性极强等优点。成熟时果面黄绿，阳面有红晕，储藏后变鲜黄，果肉白色微带绿，肉质细白，质地酥脆，汁多浓甜，香味浓郁。这种梨上市时间最长，个小色黄，脆甜爽口。
+        </rawdata>
+
+        <segment>
+            一  座  有名  的  城市  叫  库尔勒  ，  孔雀  河流贯  、  形成  肥美  的  绿洲  ，  这里  所  产  的  香梨  全  国  闻名  。  库尔勒  香梨  产于  中国  新疆  库尔勒  。  该  梨皮薄肉细  ，  汁多味甜  ，  酥脆  爽口  ；  极  耐  贮藏  及  地域性  极强  等  优点  。  成熟  时  果面  黄绿  ，  阳面  有  红晕  ，  储藏  后变  鲜黄  ，  果肉  白色  微带绿  ，  肉质  细白  ，  质地  酥脆  ，  汁多浓甜  ，  香味  浓郁  。  这  种  梨上市  时间  最  长  ，  个  小  色黄  ，  脆  甜  爽口  。
+        </segment>
+
+        <pos>
+            一#CD  座#M  有名#VA  的#DEC  城市#NN  叫#VV  库尔勒#NN  ，#PU  孔雀#VV  河流贯#NN  、#PU  形成#VV  肥美#NN  的#DEG  绿洲#NN  ，#PU  这里#PN  所#MSP  产#VV  的#DEC  香梨#NN  全#DT  国#NN  闻名#VV    。#PU  库尔勒#NN  香梨#NN  产于#VV  中国#NR  新疆#NR  库尔勒#NN    。#PU  该#DT  梨皮薄肉细#NN  ，#PU  汁多味甜#NN  ，#PU  酥脆#NN  爽口#NN  ；#PU  极#AD  耐#VV  贮藏#NN  及#CC  地域性#NN  极强#NN  等#ETC  优点#NN    。#PU  成熟#VA  时#LC  果面#VV  黄绿#NN  ，#PU  阳面#AD  有#VE  红晕#NN  ，#PU  储藏#VV  后变#NN  鲜黄#NN  ，#PU  果肉#VV  白色#JJ  微带绿#NN  ，#PU  肉质#VV  细白#NN  ，#PU  质地#VV  酥脆#NN  ，#PU  汁多浓甜#VV  ，#PU  香味#AD  浓郁#VA    。#PU  这#DT  种#M  梨上市#NN  时间#NN  最#AD  长#VA  ，#PU  个#M  小#JJ  色黄#NN  ，#PU  脆#NN  甜#AD  爽口#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 座#M, 一#CD)  (clf, 城市#NN, 座#M)  (relcl, 城市#NN, 有名#VA)  (mark, 有名#VA, 的#DEC)  (nsubj, 叫#VV, 城市#NN)  (relcl, 香梨#NN, 叫#VV)  (dobj, 叫#VV, 库尔勒#NN)  (conj, 叫#VV, 孔雀#VV)  (dobj, 孔雀#VV, 河流贯#NN)  (conj, 叫#VV, 形成#VV)  (assmod, 绿洲#NN, 肥美#NN)  (case, 肥美#NN, 的#DEG)  (dobj, 形成#VV, 绿洲#NN)  (nsubj, 产#VV, 这里#PN)  (prtmod, 产#VV, 所#MSP)  (conj, 叫#VV, 产#VV)  (mark, 叫#VV, 的#DEC)  (nsubj, 闻名#VV, 香梨#NN)  (det, 国#NN, 全#DT)  (nsubj, 闻名#VV, 国#NN)  (root, ROOT#null, 闻名#VV)   (nn, 香梨#NN, 库尔勒#NN)  (nsubj, 产于#VV, 香梨#NN)  (root, ROOT#null, 产于#VV)  (nn, 库尔勒#NN, 中国#NR)  (nn, 库尔勒#NN, 新疆#NR)  (dobj, 产于#VV, 库尔勒#NN)   (det, 梨皮薄肉细#NN, 该#DT)  (nsubj, 耐#VV, 梨皮薄肉细#NN)  (nsubj, 耐#VV, 汁多味甜#NN)  (nn, 爽口#NN, 酥脆#NN)  (nsubj, 耐#VV, 爽口#NN)  (advmod, 耐#VV, 极#AD)  (root, ROOT#null, 耐#VV)  (conj, 极强#NN, 贮藏#NN)  (cc, 极强#NN, 及#CC)  (nn, 极强#NN, 地域性#NN)  (nn, 优点#NN, 极强#NN)  (etc, 极强#NN, 等#ETC)  (dobj, 耐#VV, 优点#NN)   (loc, 有#VE, 成熟#VA)  (case, 成熟#VA, 时#LC)  (dep, 有#VE, 果面#VV)  (dobj, 果面#VV, 黄绿#NN)  (advmod, 有#VE, 阳面#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 红晕#NN)  (conj, 有#VE, 储藏#VV)  (nn, 鲜黄#NN, 后变#NN)  (dobj, 储藏#VV, 鲜黄#NN)  (conj, 有#VE, 果肉#VV)  (amod, 微带绿#NN, 白色#JJ)  (dobj, 果肉#VV, 微带绿#NN)  (conj, 有#VE, 肉质#VV)  (dobj, 肉质#VV, 细白#NN)  (conj, 有#VE, 质地#VV)  (dobj, 质地#VV, 酥脆#NN)  (conj, 有#VE, 汁多浓甜#VV)  (advmod, 浓郁#VA, 香味#AD)  (conj, 有#VE, 浓郁#VA)   (det, 时间#NN, 这#DT)  (clf, 这#DT, 种#M)  (nn, 时间#NN, 梨上市#NN)  (nsubj, 长#VA, 时间#NN)  (advmod, 长#VA, 最#AD)  (root, ROOT#null, 长#VA)  (clf, 色黄#NN, 个#M)  (amod, 色黄#NN, 小#JJ)  (nsubj, 爽口#VA, 色黄#NN)  (nsubj, 爽口#VA, 脆#NN)  (advmod, 爽口#VA, 甜#AD)  (conj, 长#VA, 爽口#VA)
+        </parsing>
+
+        <tag>
+            城市有名  叫香梨  孔雀河流贯  形成绿洲  闻名  库尔勒香梨  产于库尔勒  酥脆爽口  贮藏  地域性极强  极强优点  果面黄绿  后变鲜黄  储藏鲜黄  白色微带绿  果肉微带绿  肉质细白  质地酥脆  梨上市时间  小色黄  色黄爽口  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            生津止渴,润肺,祛脂降压,解毒,解酒,利尿消肿,通便
+        </rawdata>
+
+        <segment>
+            生津止渴  ,  润肺  ,  祛脂  降压  ,  解毒  ,  解酒  ,  利尿  消肿  ,  通便
+        </segment>
+
+        <pos>
+            生津止渴#NN  ,#NN  润肺#NN  ,#NN  祛脂#NN  降压#NN  ,#NN  解毒#NN  ,#NN  解酒#NN  ,#AD  利尿#VV  消肿#NN  ,#NN  通便#NN
+        </pos>
+
+        <parsing>
+            (nn, 解酒#NN, 生津止渴#NN)  (nn, 解酒#NN, 润肺#NN)  (nn, 解酒#NN, 祛脂#NN)  (nn, 解酒#NN, 降压#NN)  (nn, 解酒#NN, 解毒#NN)  (nsubj, 利尿#VV, 解酒#NN)  (root, ROOT#null, 利尿#VV)  (nn, 通便#NN, 消肿#NN)  (dobj, 利尿#VV, 通便#NN)
+        </parsing>
+
+        <tag>
+            生津止渴解酒  润肺解酒  祛脂解酒  降压解酒  解毒解酒  消肿通便  利尿通便  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清咽润喉  护肝  通便  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            梨可清喉降火，播音、演唱人员经常食用煮好的熟梨，能增加口中的津液，起到保养嗓子的作用。
+        </rawdata>
+
+        <segment>
+            梨可清喉  降火  ，  播音  、  演唱  人员  经常  食用  煮好  的  熟梨  ，  能  增加  口中  的  津液  ，  起到  保养  嗓子  的  作用  。
+        </segment>
+
+        <pos>
+            梨可清喉#NR  降火#VV  ，#PU  播音#VV  、#PU  演唱#VV  人员#NN  经常#AD  食用#VV  煮好#NN  的#DEC  熟梨#NN  ，#PU  能#VV  增加#VV  口中#NN  的#DEG  津液#NN  ，#PU  起到#VV  保养#NN  嗓子#NN  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 降火#VV, 梨可清喉#NR)  (xsubj, 播音#VV, 梨可清喉#NR)  (root, ROOT#null, 降火#VV)  (ccomp, 降火#VV, 播音#VV)  (conj, 播音#VV, 演唱#VV)  (nsubj, 食用#VV, 人员#NN)  (advmod, 食用#VV, 经常#AD)  (relcl, 熟梨#NN, 食用#VV)  (dobj, 食用#VV, 煮好#NN)  (mark, 食用#VV, 的#DEC)  (dobj, 演唱#VV, 熟梨#NN)  (mmod, 增加#VV, 能#VV)  (conj, 播音#VV, 增加#VV)  (assmod, 津液#NN, 口中#NN)  (case, 口中#NN, 的#DEG)  (dobj, 增加#VV, 津液#NN)  (conj, 播音#VV, 起到#VV)  (nn, 嗓子#NN, 保养#NN)  (assmod, 作用#NN, 嗓子#NN)  (case, 嗓子#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            降火  食用熟梨  食用煮好  演唱熟梨  增加津液  保养嗓子  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/80/41/82304_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\850 库尔勒梨.jpg
+    </picturelocalurl>
+
+</content>

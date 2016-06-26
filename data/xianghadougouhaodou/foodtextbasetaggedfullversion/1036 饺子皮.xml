@@ -1,0 +1,162 @@
+<content>
+
+    <id>
+        1036
+    </id>
+
+    <foodname>
+        饺子皮
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            包饺子的皮
+        </rawdata>
+
+        <segment>
+            包饺子  的  皮
+        </segment>
+
+        <pos>
+            包饺子#NN  的#DEG  皮#NN
+        </pos>
+
+        <parsing>
+            (assmod, 皮#NN, 包饺子#NN)  (case, 包饺子#NN, 的#DEG)  (root, ROOT#null, 皮#NN)
+        </parsing>
+
+        <tag>
+            包饺子  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            营养价值很高，所含的B族维生素和矿物质对人体健康很有益处。对于更年期妇女，食用未精制的小麦还能缓解更年期综合症；患有脚气病、末梢神经炎者宜食小麦面粉；体虚自汗盗汗多汗者，宜食浮小麦。
+        </rawdata>
+
+        <segment>
+            营养  价值  很  高  ，  所  含  的  B  族  维生素  和  矿物质  对  人体  健康  很  有  益处  。  对于  更年期  妇女  ，  食用  未  精制  的  小麦  还  能  缓解  更年期  综合症  ；  患有  脚气病  、  末梢  神经炎  者  宜食  小麦  面粉  ；  体  虚  自  汗  盗汗  多汗者  ，  宜食浮  小麦  。
+        </segment>
+
+        <pos>
+            营养#VA  价值#NN  很#AD  高#VA  ，#PU  所#MSP  含#VV  的#DEC  B#CD  族#NN  维生素#NN  和#CC  矿物质#NN  对#P  人体#NN  健康#AD  很#AD  有#VE  益处#NN    。#PU  对于#P  更年期#VV  妇女#NN  ，#PU  食用#VV  未#AD  精制#JJ  的#DEG  小麦#NN  还#AD  能#VV  缓解#VV  更年期#NN  综合症#NN  ；#PU  患有#VV  脚气病#NN  、#PU  末梢#VV  神经炎#NN  者#NN  宜食#VV  小麦#NN  面粉#NN  ；#PU  体#AD  虚#AD  自#P  汗#NN  盗汗#VV  多汗者#NN  ，#PU  宜食浮#VV  小麦#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (dep, 营养#VA, 高#VA)  (prtmod, 含#VV, 所#MSP)  (relcl, 矿物质#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nummod, 族#NN, B#CD)  (nn, 矿物质#NN, 族#NN)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (nsubj, 有#VE, 矿物质#NN)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (advmod, 有#VE, 健康#AD)  (advmod, 有#VE, 很#AD)  (conj, 高#VA, 有#VE)  (dobj, 有#VE, 益处#NN)   (case, 者#NN, 对于#P)  (nfincl, 者#NN, 更年期#VV)  (dobj, 更年期#VV, 妇女#NN)  (conj, 更年期#VV, 食用#VV)  (advmod, 缓解#VV, 未#AD)  (assmod, 小麦#NN, 精制#JJ)  (case, 精制#JJ, 的#DEG)  (prep, 缓解#VV, 小麦#NN)  (advmod, 缓解#VV, 还#AD)  (mmod, 缓解#VV, 能#VV)  (conj, 更年期#VV, 缓解#VV)  (nn, 综合症#NN, 更年期#NN)  (dobj, 缓解#VV, 综合症#NN)  (conj, 更年期#VV, 患有#VV)  (dobj, 患有#VV, 脚气病#NN)  (conj, 更年期#VV, 末梢#VV)  (dobj, 末梢#VV, 神经炎#NN)  (prep, 宜食#VV, 者#NN)  (root, ROOT#null, 宜食#VV)  (nn, 面粉#NN, 小麦#NN)  (dobj, 宜食#VV, 面粉#NN)  (advmod, 盗汗#VV, 体#AD)  (advmod, 盗汗#VV, 虚#AD)  (case, 汗#NN, 自#P)  (prep, 盗汗#VV, 汗#NN)  (conj, 宜食#VV, 盗汗#VV)  (dobj, 盗汗#VV, 多汗者#NN)  (dep, 宜食#VV, 宜食浮#VV)  (dobj, 宜食浮#VV, 小麦#NN)
+        </parsing>
+
+        <tag>
+            含矿物质  维生素  更年期妇女  更年期综合症  缓解综合症  患有脚气病  末梢神经炎  小麦面粉  宜食面粉  盗汗多汗者  宜食浮小麦  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            中筋面粉500公克，水1杯
+            1.将2/3份量的中筋面粉放入容器中，用手挖一个凹槽，再将水慢慢倒入;
+            2.用二手用力抓捏面粉，揉成面团;
+            3.在桌上撒上剩余的1/3份量的中筋面粉，将面团放在桌上用力来回揉捏，揉至表面光滑为止;
+            4.使用菜刀将面团分切成数块，并搓成直径约2公分的圆条状;
+            5.将面粉条再用菜刀分切成约2公分的小块，整理成圆形后，用手掌将每一小块压成圆饼状;
+            6.一手拿扞面棍，一手拿小圆饼状的面团，以顺时钟方向旋转的方式慢慢杆成直径约7公分的饺子皮。
+        </rawdata>
+
+        <segment>
+            中筋  面粉  500  公克  ，  水  1  杯
+            将  2/3  份量  的  中筋  面粉  放入  容器  中  ，  用手  挖  一  个  凹槽  ，  再  将  水  慢慢  倒入  ;
+            用  二手  用  力抓  捏  面粉  ，  揉成  面团  ;
+            在  桌  上  撒  上  剩余  的  1/3  份量  的  中筋  面粉  ，  将  面团  放在  桌  上  用力  来回  揉捏  ，  揉  至  表面  光滑  为止  ;
+            使用  菜刀  将  面团  分  切成  数  块  ，  并  搓成  直径  约  2  公分  的  圆  条状  ;
+            将  面粉  条  再  用  菜刀  分  切  成约  2  公分  的  小块  ，  整理  成  圆形  后  ，  用  手掌  将  每  一  小  块  压成  圆  饼状  ;
+            一  手拿扞  面棍  ，  一  手  拿  小圆  饼状  的  面团  ，  以  顺时  钟  方向  旋转  的  方式  慢慢  杆成  直径  约  7  公分  的  饺子皮  。
+        </segment>
+
+        <pos>
+            中筋#VV  面粉#NN  500#CD  公克#NN  ，#PU  水#NN  1#CD  杯#NN
+            将#BA  2/3#CD  份量#NN  的#DEG  中筋#NN  面粉#NN  放入#VV  容器#NN  中#LC  ，#PU  用手#AD  挖#VV  一#CD  个#M  凹槽#NN  ，#PU  再#AD  将#BA  水#NN  慢慢#AD  倒入#VV  ;#NN
+            用#P  二手#CD  用#NN  力抓#NN  捏#VV  面粉#NN  ，#PU  揉成#VV  面团#NN  ;#NN
+            在#P  桌#NN  上#LC  撒#NN  上#LC  剩余#VV  的#DEC  1/3#CD  份量#NN  的#DEG  中筋#NN  面粉#NN  ，#PU  将#AD  面团#NN  放在#NN  桌#NN  上#LC  用力#AD  来回#VV  揉捏#NN  ，#PU  揉#NN  至#P  表面#NN  光滑#NN  为止#LC  ;#VV
+            使用#VV  菜刀#NN  将#BA  面团#CD  分#M  切成#VV  数#CD  块#M  ，#PU  并#CC  搓成#VV  直径#NN  约#AD  2#CD  公分#NN  的#DEC  圆#VV  条状#NN  ;#NN
+            将#BA  面粉#NN  条#NN  再#AD  用#P  菜刀#CD  分#M  切#VV  成约#NR  2#CD  公分#NN  的#DEG  小块#NN  ，#PU  整理#VV  成#VV  圆形#NN  后#LC  ，#PU  用#P  手掌#NN  将#AD  每#DT  一#CD  小#JJ  块#M  压成#VV  圆#VV  饼状#NN  ;#NN
+            一#CD  手拿扞#NN  面棍#NN  ，#PU  一#CD  手#NN  拿#VV  小圆#NN  饼状#NN  的#DEG  面团#NN  ，#PU  以#P  顺时#NR  钟#NN  方向#NN  旋转#NN  的#DEG  方式#NN  慢慢#AD  杆成#VV  直径#NN  约#AD  7#CD  公分#NN  的#DEG  饺子皮#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 中筋#VV)  (nn, 公克#NN, 面粉#NN)  (nummod, 公克#NN, 500#CD)  (dobj, 中筋#VV, 公克#NN)  (nn, 杯#NN, 水#NN)  (nummod, 杯#NN, 1#CD)  (conj, 中筋#VV, 杯#NN)
+            (ba, 放入#VV, 将#BA)  (nummod, 份量#NN, 2/3#CD)  (assmod, 面粉#NN, 份量#NN)  (case, 份量#NN, 的#DEG)  (nn, 面粉#NN, 中筋#NN)  (nsubj, 放入#VV, 面粉#NN)  (root, ROOT#null, 放入#VV)  (loc, 放入#VV, 容器#NN)  (case, 容器#NN, 中#LC)  (advmod, 挖#VV, 用手#AD)  (dep, 放入#VV, 挖#VV)  (nummod, 个#M, 一#CD)  (clf, 凹槽#NN, 个#M)  (dobj, 挖#VV, 凹槽#NN)  (advmod, 倒入#VV, 再#AD)  (ba, 倒入#VV, 将#BA)  (nsubj, 倒入#VV, 水#NN)  (advmod, 倒入#VV, 慢慢#AD)  (dep, 放入#VV, 倒入#VV)  (dobj, 倒入#VV, ;#NN)
+            (case, 力抓#NN, 用#P)  (nummod, 用#NN, 二手#CD)  (nn, 力抓#NN, 用#NN)  (prep, 捏#VV, 力抓#NN)  (root, ROOT#null, 捏#VV)  (dobj, 捏#VV, 面粉#NN)  (dep, 捏#VV, 揉成#VV)  (nn, ;#NN, 面团#NN)  (dobj, 揉成#VV, ;#NN)
+            (case, 桌#NN, 在#P)  (prep, 剩余#VV, 桌#NN)  (case, 桌#NN, 上#LC)  (loc, 剩余#VV, 撒#NN)  (case, 撒#NN, 上#LC)  (relcl, 份量#NN, 剩余#VV)  (mark, 剩余#VV, 的#DEC)  (nummod, 份量#NN, 1/3#CD)  (assmod, 面粉#NN, 份量#NN)  (case, 份量#NN, 的#DEG)  (nn, 面粉#NN, 中筋#NN)  (nsubj, 来回#VV, 面粉#NN)  (advmod, 来回#VV, 将#AD)  (nn, 桌#NN, 面团#NN)  (nn, 桌#NN, 放在#NN)  (loc, 来回#VV, 桌#NN)  (case, 桌#NN, 上#LC)  (advmod, 来回#VV, 用力#AD)  (root, ROOT#null, 来回#VV)  (dobj, 来回#VV, 揉捏#NN)  (nsubj, ;#VV, 揉#NN)  (case, 光滑#NN, 至#P)  (nn, 光滑#NN, 表面#NN)  (prep, ;#VV, 光滑#NN)  (case, 光滑#NN, 为止#LC)  (conj, 来回#VV, ;#VV)
+            (nsubj, 圆#VV, 使用#VV)  (dobj, 使用#VV, 菜刀#NN)  (ba, 切成#VV, 将#BA)  (nummod, 分#M, 面团#CD)  (nsubj, 切成#VV, 分#M)  (conj, 使用#VV, 切成#VV)  (nummod, 块#M, 数#CD)  (range, 切成#VV, 块#M)  (cc, 使用#VV, 并#CC)  (dep, 使用#VV, 搓成#VV)  (nn, 公分#NN, 直径#NN)  (advmod, 2#CD, 约#AD)  (nummod, 公分#NN, 2#CD)  (dobj, 搓成#VV, 公分#NN)  (mark, 使用#VV, 的#DEC)  (root, ROOT#null, 圆#VV)  (nn, ;#NN, 条状#NN)  (dobj, 圆#VV, ;#NN)
+            (ba, 圆#VV, 将#BA)  (nn, 条#NN, 面粉#NN)  (nsubj, 圆#VV, 条#NN)  (advmod, 切#VV, 再#AD)  (case, 分#M, 用#P)  (nummod, 分#M, 菜刀#CD)  (prep, 切#VV, 分#M)  (loc, 圆#VV, 切#VV)  (nn, 公分#NN, 成约#NR)  (nummod, 公分#NN, 2#CD)  (assmod, 小块#NN, 公分#NN)  (case, 公分#NN, 的#DEG)  (dobj, 切#VV, 小块#NN)  (conj, 切#VV, 整理#VV)  (rcomp, 整理#VV, 成#VV)  (dobj, 整理#VV, 圆形#NN)  (case, 切#VV, 后#LC)  (case, 手掌#NN, 用#P)  (prep, 圆#VV, 手掌#NN)  (advmod, 圆#VV, 将#AD)  (dep, 圆#VV, 每#DT)  (nummod, 块#M, 一#CD)  (amod, 块#M, 小#JJ)  (dep, 每#DT, 块#M)  (mmod, 圆#VV, 压成#VV)  (root, ROOT#null, 圆#VV)  (nn, ;#NN, 饼状#NN)  (dobj, 圆#VV, ;#NN)
+            (nummod, 手拿扞#NN, 一#CD)  (nn, 面棍#NN, 手拿扞#NN)  (nsubj, 拿#VV, 面棍#NN)  (nummod, 手#NN, 一#CD)  (nsubj, 拿#VV, 手#NN)  (root, ROOT#null, 拿#VV)  (nn, 饼状#NN, 小圆#NN)  (assmod, 面团#NN, 饼状#NN)  (case, 饼状#NN, 的#DEG)  (dobj, 拿#VV, 面团#NN)  (case, 方式#NN, 以#P)  (nn, 方向#NN, 顺时#NR)  (nn, 方向#NN, 钟#NN)  (nn, 旋转#NN, 方向#NN)  (assmod, 方式#NN, 旋转#NN)  (case, 旋转#NN, 的#DEG)  (prep, 杆成#VV, 方式#NN)  (advmod, 杆成#VV, 慢慢#AD)  (conj, 拿#VV, 杆成#VV)  (nn, 公分#NN, 直径#NN)  (advmod, 7#CD, 约#AD)  (nummod, 公分#NN, 7#CD)  (assmod, 饺子皮#NN, 公分#NN)  (case, 公分#NN, 的#DEG)  (dobj, 杆成#VV, 饺子皮#NN)
+        </parsing>
+
+        <tag>
+            面粉公克  中筋公克  中筋面粉  剩余份量  来回揉捏  表面光滑  使用菜刀  直径公分  搓成公分  整理圆形  手拿扞面棍  小圆饼状  方向旋转  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/61/32/12897_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1036 饺子皮.jpg
+    </picturelocalurl>
+
+</content>

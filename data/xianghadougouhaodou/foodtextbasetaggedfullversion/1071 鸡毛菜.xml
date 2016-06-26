@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1071
+    </id>
+
+    <foodname>
+        鸡毛菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        青菜、小白菜、上海青
+    </alias>
+
+    <season>
+        春、夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            脾胃虚寒者忌食;
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  忌食  ;
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒者#VV  忌食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 虚寒者#VV, 脾胃#NN)  (root, ROOT#null, 虚寒者#VV)  (nn, ;#NN, 忌食#NN)  (dobj, 虚寒者#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒者  忌食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡毛菜又名青菜、小白菜、上海青，是十字花科蔬菜大白菜的变种，为含维生素和矿物质最丰富的蔬菜之一，而且鸡毛菜是小白菜的嫩苗，口感和质地更为柔嫩，味道清香，是大众特别喜欢的一种蔬菜。
+        </rawdata>
+
+        <segment>
+            鸡毛  菜  又  名  青菜  、  小白菜  、  上海  青  ，  是  十字花科  蔬菜  大白菜  的  变种  ，  为  含  维生素  和  矿物质  最  丰富  的  蔬菜  之一  ，  而且  鸡毛  菜  是  小白菜  的  嫩苗  ，  口感  和  质地  更为  柔嫩  ，  味道  清香  ，  是  大众  特别  喜欢  的  一  种  蔬菜  。
+        </segment>
+
+        <pos>
+            鸡毛#NN  菜#NN  又#AD  名#VV  青菜#NR  、#PU  小白菜#NR  、#PU  上海#NR  青#NR  ，#PU  是#VC  十字花科#CD  蔬菜#NN  大白菜#NN  的#DEG  变种#NN  ，#PU  为#P  含#VV  维生素#NN  和#CC  矿物质#VV  最#AD  丰富#VA  的#DEC  蔬菜#NN  之一#CD  ，#PU  而且#CC  鸡毛#VV  菜#NN  是#VC  小白菜#NN  的#DEC  嫩苗#NN  ，#PU  口感#NR  和#CC  质地#NR  更为#AD  柔嫩#VV  ，#PU  味道#NN  清香#NN  ，#PU  是#VC  大众#NR  特别#JJ  喜欢#NN  的#DEG  一#CD  种#M  蔬菜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 鸡毛#NN)  (nsubj, 名#VV, 菜#NN)  (advmod, 名#VV, 又#AD)  (root, ROOT#null, 名#VV)  (conj, 上海#NR, 青菜#NR)  (conj, 上海#NR, 小白菜#NR)  (nn, 青#NR, 上海#NR)  (dobj, 名#VV, 青#NR)  (cop, 变种#NN, 是#VC)  (nummod, 大白菜#NN, 十字花科#CD)  (nn, 大白菜#NN, 蔬菜#NN)  (assmod, 变种#NN, 大白菜#NN)  (case, 大白菜#NN, 的#DEG)  (conj, 名#VV, 变种#NN)  (case, 含#VV, 为#P)  (prep, 柔嫩#VV, 含#VV)  (dobj, 含#VV, 维生素#NN)  (cc, 含#VV, 和#CC)  (conj, 含#VV, 矿物质#VV)  (advmod, 丰富#VA, 最#AD)  (relcl, 蔬菜#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 矿物质#VV, 蔬菜#NN)  (range, 矿物质#VV, 之一#CD)  (cc, 含#VV, 而且#CC)  (dep, 含#VV, 鸡毛#VV)  (nsubj, 小白菜#NN, 菜#NN)  (cop, 小白菜#NN, 是#VC)  (relcl, 嫩苗#NN, 小白菜#NN)  (mark, 小白菜#NN, 的#DEC)  (dobj, 鸡毛#VV, 嫩苗#NN)  (conj, 质地#NR, 口感#NR)  (cc, 质地#NR, 和#CC)  (nsubj, 柔嫩#VV, 质地#NR)  (advmod, 柔嫩#VV, 更为#AD)  (conj, 名#VV, 柔嫩#VV)  (nn, 清香#NN, 味道#NN)  (dep, 蔬菜#NN, 清香#NN)  (cop, 蔬菜#NN, 是#VC)  (nn, 喜欢#NN, 大众#NR)  (amod, 喜欢#NN, 特别#JJ)  (assmod, 蔬菜#NN, 喜欢#NN)  (case, 喜欢#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (conj, 名#VV, 蔬菜#NN)
+        </parsing>
+
+        <tag>
+            上海  青菜  小白菜  蔬菜大白菜  蔬菜丰富  矿物质蔬菜  鸡毛嫩苗  质地  口感  味道清香  特别喜欢  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            富含蛋白质，具有维持钾钠平衡;消除水肿。提高免疫力。调低血压，缓冲贫血，有利于生长发育。
+        </rawdata>
+
+        <segment>
+            富含  蛋白质  ，  具有  维持  钾  钠  平衡  ;  消除  水肿  。  提高  免疫力  。  调低  血压  ，  缓冲  贫血  ，  有利于  生长  发育  。
+        </segment>
+
+        <pos>
+            富含#NR  蛋白质#VV  ，#PU  具有#VV  维持#VV  钾#NN  钠#NN  平衡#NN  ;#NN  消除#VV  水肿#NN    。#PU  提高#VV  免疫力#NN    。#PU  调低#VV  血压#NN  ，#PU  缓冲#VV  贫血#NN  ，#PU  有利于#VV  生长#NN  发育#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 富含#NR)  (root, ROOT#null, 蛋白质#VV)  (conj, 消除#VV, 具有#VV)  (nfincl, ;#NN, 维持#VV)  (nn, 平衡#NN, 钾#NN)  (nn, 平衡#NN, 钠#NN)  (dobj, 维持#VV, 平衡#NN)  (dobj, 具有#VV, ;#NN)  (ccomp, 蛋白质#VV, 消除#VV)  (dobj, 消除#VV, 水肿#NN)   (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)   (root, ROOT#null, 调低#VV)  (dobj, 调低#VV, 血压#NN)  (conj, 调低#VV, 缓冲#VV)  (dobj, 缓冲#VV, 贫血#NN)  (conj, 调低#VV, 有利于#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 有利于#VV, 发育#NN)
+        </parsing>
+
+        <tag>
+            维持平衡  消除水肿  提高免疫力  调低血压  缓冲贫血  生长发育  有利于发育  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        化痰  软坚  清热泻火
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            小白菜不易生食。用小白菜制作菜肴，炒、煮的时间不宜过长，以免损失营养。小白菜包裹后冷藏只能维持2-3天，如两根一起贮藏，可稍延长1-2天。小白菜的食用方法很多，可清炒或是与香菇、蘑菇、笋和炒，小白菜汤有利于减肥
+        </rawdata>
+
+        <segment>
+            小白菜  不  易  生食  。  用  小白菜  制作  菜肴  ，  炒  、  煮  的  时间  不  宜  过长  ，  以免  损失  营养  。  小白菜  包裹  后  冷藏  只  能  维持  2-3  天  ，  如  两  根  一起  贮藏  ，  可  稍  延长  1-2  天  。  小白菜  的  食用  方法  很多  ，  可  清炒  或是  与  香菇  、  蘑菇  、  笋和炒  ，  小  白  菜  汤  有利于  减肥
+        </segment>
+
+        <pos>
+            小白菜#NN  不#AD  易#AD  生食#VV    。#PU  用#P  小白菜#NN  制作#VV  菜肴#NN  ，#PU  炒#VV  、#PU  煮#VV  的#DEC  时间#NN  不#AD  宜#NR  过长#VV  ，#PU  以免#VV  损失#NN  营养#VA    。#PU  小白菜#NN  包裹#NN  后#LC  冷藏#AD  只#AD  能#VV  维持#VV  2-3#CD  天#M  ，#PU  如#P  两#CD  根#M  一起#AD  贮藏#VV  ，#PU  可#VV  稍#AD  延长#VV  1-2#CD  天#M    。#PU  小白菜#NN  的#DEG  食用#VV  方法#NN  很多#CD  ，#PU  可#VV  清炒#VV  或是#NN  与#P  香菇#NR  、#PU  蘑菇#NR  、#PU  笋和炒#NR  ，#PU  小#JJ  白#JJ  菜#NN  汤#AD  有利于#VV  减肥#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生食#VV, 小白菜#NN)  (neg, 生食#VV, 不#AD)  (advmod, 生食#VV, 易#AD)  (root, ROOT#null, 生食#VV)   (case, 小白菜#NN, 用#P)  (prep, 制作#VV, 小白菜#NN)  (relcl, 时间#NN, 制作#VV)  (dobj, 制作#VV, 菜肴#NN)  (conj, 制作#VV, 炒#VV)  (dep, 炒#VV, 煮#VV)  (mark, 制作#VV, 的#DEC)  (nsubj, 过长#VV, 时间#NN)  (neg, 过长#VV, 不#AD)  (prep, 过长#VV, 宜#NR)  (root, ROOT#null, 过长#VV)  (ccomp, 过长#VV, 以免#VV)  (nsubj, 营养#VA, 损失#NN)  (ccomp, 以免#VV, 营养#VA)   (nsubj, 维持#VV, 小白菜#NN)  (loc, 维持#VV, 包裹#NN)  (case, 包裹#NN, 后#LC)  (advmod, 维持#VV, 冷藏#AD)  (advmod, 维持#VV, 只#AD)  (mmod, 维持#VV, 能#VV)  (root, ROOT#null, 维持#VV)  (nummod, 天#M, 2-3#CD)  (range, 维持#VV, 天#M)  (case, 根#M, 如#P)  (nummod, 根#M, 两#CD)  (prep, 贮藏#VV, 根#M)  (advmod, 贮藏#VV, 一起#AD)  (dep, 维持#VV, 贮藏#VV)  (mmod, 延长#VV, 可#VV)  (advmod, 延长#VV, 稍#AD)  (dep, 维持#VV, 延长#VV)  (nummod, 天#M, 1-2#CD)  (range, 延长#VV, 天#M)   (assmod, 方法#NN, 小白菜#NN)  (case, 小白菜#NN, 的#DEG)  (nfincl, 方法#NN, 食用#VV)  (nsubj, 清炒#VV, 方法#NN)  (dep, 清炒#VV, 很多#CD)  (mmod, 清炒#VV, 可#VV)  (root, ROOT#null, 清炒#VV)  (dobj, 清炒#VV, 或是#NN)  (case, 笋和炒#NR, 与#P)  (conj, 笋和炒#NR, 香菇#NR)  (conj, 笋和炒#NR, 蘑菇#NR)  (prep, 有利于#VV, 笋和炒#NR)  (amod, 菜#NN, 小#JJ)  (amod, 菜#NN, 白#JJ)  (nsubj, 有利于#VV, 菜#NN)  (advmod, 有利于#VV, 汤#AD)  (conj, 清炒#VV, 有利于#VV)  (ccomp, 有利于#VV, 减肥#VV)
+        </parsing>
+
+        <tag>
+            生食  制作时间  制作菜肴  过长  损失营养  维持  小白菜  清炒  笋和炒  香菇  蘑菇  小菜  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/ad/34/13485_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1071 鸡毛菜.jpg
+    </picturelocalurl>
+
+</content>

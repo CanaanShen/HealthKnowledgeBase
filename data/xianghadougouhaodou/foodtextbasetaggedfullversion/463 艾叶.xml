@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        463
+    </id>
+
+    <foodname>
+        艾叶
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        艾、艾草、冰台、艾蒿、医草、灸草、蕲艾、黄草、家艾、甜艾、草蓬、艾蓬、狼尾蒿子、香艾、野莲头、阿及艾、陈艾、灰草、大艾叶、杜艾叶、萎蒿
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴虚血热者慎用。
+        </rawdata>
+
+        <segment>
+            阴虚  血  热者  慎用  。
+        </segment>
+
+        <pos>
+            阴虚#NN  血#NN  热者#VV  慎用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 血#NN, 阴虚#NN)  (nsubj, 热者#VV, 血#NN)  (root, ROOT#null, 热者#VV)  (dobj, 热者#VV, 慎用#NN)
+        </parsing>
+
+        <tag>
+            阴虚血热者慎用  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阴虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阴虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阴虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阴虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阴虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为菊科植物艾的干燥叶。艾为多年生草本，高45～120厘米。茎直立，圆形，质硬，基部木质化，被灰白色软毛，从中部以上分枝。生长于路旁、草地、荒野等处。亦有栽培者。春、夏二季，花未开、叶茂盛时采摘，晒干或阴干。　
+        </rawdata>
+
+        <segment>
+            为  菊科  植物  艾的  干燥  叶  。  艾为  多年生  草本  ，  高  45  ～  120  厘米  。  茎  直立  ，  圆形  ，  质硬  ，  基部  木质化  ，  被  灰白色  软毛  ，  从  中部  以上  分枝  。  生长  于路旁  、  草地  、  荒野  等  处  。  亦有  栽培者  。  春  、  夏  二  季  ，  花  未开  、  叶茂盛  时  采摘  ，  晒干  或  阴干  。
+        </segment>
+
+        <pos>
+            为#P  菊科#NN  植物#NN  艾的#VV  干燥#NN  叶#NN    。#PU  艾为#NN  多年生#VV  草本#NN  ，#PU  高#JJ  45#CD  ～#NN  120#CD  厘米#M    。#PU  茎#NR  直立#VV  ，#PU  圆形#NR  ，#PU  质硬#VV  ，#PU  基部#NN  木质化#NN  ，#PU  被#SB  灰白色#VV  软毛#NN  ，#PU  从#P  中部#NN  以上#LC  分枝#VV    。#PU  生长#NN  于路旁#NR  、#PU  草地#NR  、#PU  荒野#NR  等#ETC  处#VV    。#PU  亦有#NN  栽培者#VV    。#PU  春#NT  、#PU  夏#NN  二#OD  季#NN  ，#PU  花#NN  未开#VA  、#PU  叶茂盛#VA  时#LC  采摘#VV  ，#PU  晒干#VV  或#CC  阴干#VV    。#PU
+        </pos>
+
+        <parsing>
+            (case, 植物#NN, 为#P)  (nn, 植物#NN, 菊科#NN)  (prep, 艾的#VV, 植物#NN)  (root, ROOT#null, 艾的#VV)  (nn, 叶#NN, 干燥#NN)  (dobj, 艾的#VV, 叶#NN)   (nsubj, 多年生#VV, 艾为#NN)  (root, ROOT#null, 多年生#VV)  (dobj, 多年生#VV, 草本#NN)  (amod, ～#NN, 高#JJ)  (nummod, ～#NN, 45#CD)  (nummod, 厘米#M, 120#CD)  (conj, 多年生#VV, 厘米#M)   (nsubj, 直立#VV, 茎#NR)  (root, ROOT#null, 直立#VV)  (nsubj, 质硬#VV, 圆形#NR)  (ccomp, 直立#VV, 质硬#VV)  (nn, 木质化#NN, 基部#NN)  (nsubj, 灰白色#VV, 木质化#NN)  (auxpass, 灰白色#VV, 被#SB)  (ccomp, 质硬#VV, 灰白色#VV)  (dobj, 灰白色#VV, 软毛#NN)  (case, 中部#NN, 从#P)  (prep, 分枝#VV, 中部#NN)  (case, 中部#NN, 以上#LC)  (dep, 灰白色#VV, 分枝#VV)   (nsubj, 处#VV, 生长#NN)  (conj, 荒野#NR, 于路旁#NR)  (conj, 荒野#NR, 草地#NR)  (nsubj, 处#VV, 荒野#NR)  (etc, 荒野#NR, 等#ETC)  (root, ROOT#null, 处#VV)   (nsubj, 栽培者#VV, 亦有#NN)  (root, ROOT#null, 栽培者#VV)   (conj, 夏#NN, 春#NT)  (tmod, 采摘#VV, 夏#NN)  (nummod, 季#NN, 二#OD)  (nsubj, 未开#VA, 季#NN)  (nsubj, 未开#VA, 花#NN)  (loc, 采摘#VV, 未开#VA)  (dep, 未开#VA, 叶茂盛#VA)  (case, 未开#VA, 时#LC)  (root, ROOT#null, 采摘#VV)  (ccomp, 采摘#VV, 晒干#VV)  (cc, 晒干#VV, 或#CC)  (conj, 晒干#VV, 阴干#VV)
+        </parsing>
+
+        <tag>
+            菊科植物  艾的叶  多年生草本  高～  直立  基部木质化  灰白色软毛  荒野  于路旁  草地  季未开  花未开  采摘  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            苦辛，温。入脾、肝、肾经。理气血，逐寒湿；温经，止血，安胎。治心腹冷痛，泄泻转筋，久痢，吐衄，下血，月经不调，崩漏，带下，胎动不安，痈疡，疥癣。
+        </rawdata>
+
+        <segment>
+            苦辛  ，  温  。  入脾  、  肝  、  肾经  。  理  气血  ，  逐  寒湿  ；  温经  ，  止血  ，  安胎  。  治  心腹  冷痛  ，  泄泻  转筋  ，  久痢  ，  吐衄  ，  下血  ，  月经不调  ，  崩漏  ，  带下  ，  胎动  不安  ，  痈疡  ，  疥癣  。
+        </segment>
+
+        <pos>
+            苦辛#VV  ，#PU  温#NN    。#PU  入脾#VA  、#PU  肝#VA  、#PU  肾经#VA    。#PU  理#AD  气血#VV  ，#PU  逐#NR  寒湿#VV  ；#PU  温经#NR  ，#PU  止血#VV  ，#PU  安胎#VV    。#PU  治#VV  心腹#NN  冷痛#NN  ，#PU  泄泻#VV  转筋#NN  ，#PU  久痢#VV  ，#PU  吐衄#VV  ，#PU  下血#VV  ，#PU  月经不调#VV  ，#PU  崩漏#VV  ，#PU  带下#VV  ，#PU  胎动#VV  不安#NN  ，#PU  痈疡#VV  ，#PU  疥癣#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 苦辛#VV)  (dep, 苦辛#VV, 温#NN)   (root, ROOT#null, 入脾#VA)  (conj, 入脾#VA, 肝#VA)  (dep, 入脾#VA, 肾经#VA)   (advmod, 气血#VV, 理#AD)  (root, ROOT#null, 气血#VV)  (nsubj, 寒湿#VV, 逐#NR)  (ccomp, 气血#VV, 寒湿#VV)  (nsubj, 止血#VV, 温经#NR)  (ccomp, 寒湿#VV, 止血#VV)  (ccomp, 止血#VV, 安胎#VV)   (root, ROOT#null, 治#VV)  (nn, 冷痛#NN, 心腹#NN)  (dobj, 治#VV, 冷痛#NN)  (conj, 治#VV, 泄泻#VV)  (dobj, 泄泻#VV, 转筋#NN)  (conj, 泄泻#VV, 久痢#VV)  (conj, 泄泻#VV, 吐衄#VV)  (conj, 泄泻#VV, 下血#VV)  (conj, 泄泻#VV, 月经不调#VV)  (conj, 泄泻#VV, 崩漏#VV)  (conj, 泄泻#VV, 带下#VV)  (conj, 泄泻#VV, 胎动#VV)  (dobj, 胎动#VV, 不安#NN)  (conj, 泄泻#VV, 痈疡#VV)  (conj, 泄泻#VV, 疥癣#VV)
+        </parsing>
+
+        <tag>
+            苦辛  气血  心腹冷痛  泄泻转筋  胎动不安  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗菌  抗过敏  散寒止痛  祛湿  止痒  止血  镇静催眠  抗休克  抗血栓  利胆  镇咳  祛痰  促进宫缩  抗真菌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            内服：煎汤，1～3钱；入丸、散或捣汁。
+            外用：捣绒作炷或制成艾条熏灸，捣敷、煎水熏洗或炒热温熨。　
+        </rawdata>
+
+        <segment>
+            内服  ：  煎  汤  ，  1～3  钱  ；  入丸  、  散  或  捣汁  。
+            外用  ：  捣  绒  作炷  或  制成  艾条熏灸  ，  捣敷  、  煎  水  熏  洗  或  炒  热  温熨  。
+        </segment>
+
+        <pos>
+            内服#VV  ：#PU  煎#NN  汤#NN  ，#PU  1#CD  ～#VV  3#CD  钱#NN  ；#PU  入丸#JJ  、#PU  散#JJ  或#CC  捣汁#JJ  。#PU
+            外用#VV  ：#PU  捣#NN  绒#NN  作炷#VV  或#CC  制成#VV  艾条熏灸#NN  ，#PU  捣敷#NN  、#PU  煎#NN  水#NN  熏#NN  洗#NN  或#CC  炒#NN  热#NN  温熨#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 内服#VV)  (nn, 汤#NN, 煎#NN)  (nsubj, ～#VV, 汤#NN)  (dep, ～#VV, 1#CD)  (nummod, 钱#NN, 3#CD)  (dobj, ～#VV, 钱#NN)  (dep, ～#VV, 入丸#JJ)  (conj, 入丸#JJ, 散#JJ)  (cc, 入丸#JJ, 或#CC)  (dep, 入丸#JJ, 捣汁#JJ)
+            (root, ROOT#null, 外用#VV)  (nn, 绒#NN, 捣#NN)  (nsubj, 作炷#VV, 绒#NN)  (ccomp, 外用#VV, 作炷#VV)  (cc, 作炷#VV, 或#CC)  (dep, 作炷#VV, 制成#VV)  (dobj, 制成#VV, 艾条熏灸#NN)  (conj, 熏#NN, 捣敷#NN)  (nn, 熏#NN, 煎#NN)  (nn, 熏#NN, 水#NN)  (nn, 炒#NN, 熏#NN)  (conj, 炒#NN, 洗#NN)  (cc, 炒#NN, 或#CC)  (nn, 热#NN, 炒#NN)  (nsubj, 温熨#VV, 热#NN)  (dep, 外用#VV, 温熨#VV)
+        </parsing>
+
+        <tag>
+            内服  外用  制成艾条熏灸  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/179477.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\463 艾叶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        1306
+    </id>
+
+    <foodname>
+        骆驼掌
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胆石症，脂肪肝，肝硬化，高血压，冠心病，动脉硬化，神经性疾病的患者不适宜食用
+        </rawdata>
+
+        <segment>
+            胆石症  ，  脂肪肝  ，  肝硬化  ，  高血压  ，  冠心病  ，  动脉  硬化  ，  神经性  疾病  的  患者  不  适宜  食用
+        </segment>
+
+        <pos>
+            胆石症#VV  ，#PU  脂肪肝#NR  ，#PU  肝硬化#VV  ，#PU  高血压#NR  ，#PU  冠心病#NN  ，#PU  动脉#NN  硬化#VV  ，#PU  神经性#JJ  疾病#NN  的#DEG  患者#NN  不#AD  适宜#VA  食用#VV
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 胆石症#VV)  (nsubj, 肝硬化#VV, 脂肪肝#NR)  (ccomp, 胆石症#VV, 肝硬化#VV)  (nsubj, 硬化#VV, 高血压#NR)  (nsubj, 硬化#VV, 冠心病#NN)  (nsubj, 硬化#VV, 动脉#NN)  (ccomp, 肝硬化#VV, 硬化#VV)  (amod, 疾病#NN, 神经性#JJ)  (assmod, 患者#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (nsubj, 适宜#VA, 患者#NN)  (neg, 适宜#VA, 不#AD)  (ccomp, 硬化#VV, 适宜#VA)  (dep, 胆石症#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            胆石症  脂肪肝  肝硬化  高血压  冠心病  动脉硬化  神经性疾病  患者  不适宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            乳母，儿童青少年，老人，久病体虚人群
+        </rawdata>
+
+        <segment>
+            乳母  ，  儿童  青少年  ，  老人  ，  久病  体  虚  人群
+        </segment>
+
+        <pos>
+            乳母#VV  ，#PU  儿童#NN  青少年#NN  ，#PU  老人#NN  ，#PU  久病#AD  体#VV  虚#AD  人群#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 乳母#VV)  (nn, 青少年#NN, 儿童#NN)  (nsubj, 体#VV, 青少年#NN)  (dep, 体#VV, 老人#NN)  (advmod, 体#VV, 久病#AD)  (ccomp, 乳母#VV, 体#VV)  (advmod, 体#VV, 虚#AD)  (dobj, 体#VV, 人群#NN)
+        </parsing>
+
+        <tag>
+            乳母  儿童青少年  老人  久病体虚人群  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                310cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                21.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                72.8g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                0.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                26mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.03mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                170.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                152mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                0.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                360mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            骆驼掌含有丰富的胶原蛋白质，脂肪含量也比肥肉低，近年在对老年人衰老原因的研究中发现，人体中胶原蛋白质缺乏，是人衰老的一个重要因素。它能防治皮肤干瘪起皱、增强皮肤弹性和韧性，对延缓衰老和促进儿童生长发育都具有物殊意义。
+        </rawdata>
+
+        <segment>
+            骆驼  掌  含有  丰富  的  胶原  蛋白质  ，  脂肪  含量  也  比  肥肉  低  ，  近年  在  对  老年人  衰老  原因  的  研究  中  发现  ，  人  体中  胶原  蛋白质  缺乏  ，  是  人  衰老  的  一  个  重要  因素  。  它  能  防治  皮肤  干瘪  起皱  、  增强  皮肤  弹性  和  韧性  ，  对  延缓  衰老  和  促进  儿童  生长  发育  都  具有  物  殊  意义  。
+        </segment>
+
+        <pos>
+            骆驼#NN  掌#NN  含有#NN  丰富#VA  的#DEC  胶原#NN  蛋白质#VV  ，#PU  脂肪#NN  含量#NN  也#AD  比#P  肥肉#NN  低#VA  ，#PU  近年#NT  在#P  对#P  老年人#NN  衰老#NN  原因#NN  的#DEG  研究#NN  中#LC  发现#VV  ，#PU  人#NN  体中#NN  胶原#NN  蛋白质#AD  缺乏#VV  ，#PU  是#VC  人#NN  衰老#NN  的#DEG  一#CD  个#M  重要#JJ  因素#NN    。#PU  它#PN  能#VV  防治#VV  皮肤#NN  干瘪#NN  起皱#NN  、#PU  增强#VV  皮肤#NN  弹性#NN  和#CC  韧性#NN  ，#PU  对#P  延缓#NN  衰老#VV  和#CC  促进#VV  儿童#NN  生长#NN  发育#NN  都#AD  具有#VV  物#NN  殊#NN  意义#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 骆驼#NN)  (nn, 含有#NN, 掌#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 胶原#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 蛋白质#VV, 胶原#NN)  (root, ROOT#null, 蛋白质#VV)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 也#AD)  (case, 肥肉#NN, 比#P)  (prep, 低#VA, 肥肉#NN)  (ccomp, 蛋白质#VV, 低#VA)  (dep, 发现#VV, 近年#NT)  (case, 研究#NN, 在#P)  (case, 原因#NN, 对#P)  (nn, 原因#NN, 老年人#NN)  (nn, 原因#NN, 衰老#NN)  (assmod, 研究#NN, 原因#NN)  (case, 原因#NN, 的#DEG)  (prep, 发现#VV, 研究#NN)  (case, 研究#NN, 中#LC)  (conj, 低#VA, 发现#VV)  (nn, 胶原#NN, 人#NN)  (nn, 胶原#NN, 体中#NN)  (nsubj, 缺乏#VV, 胶原#NN)  (advmod, 缺乏#VV, 蛋白质#AD)  (ccomp, 发现#VV, 缺乏#VV)  (cop, 因素#NN, 是#VC)  (nn, 衰老#NN, 人#NN)  (assmod, 因素#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (nummod, 个#M, 一#CD)  (clf, 因素#NN, 个#M)  (amod, 因素#NN, 重要#JJ)  (conj, 低#VA, 因素#NN)   (nsubj, 防治#VV, 它#PN)  (mmod, 防治#VV, 能#VV)  (relcl, 发育#NN, 防治#VV)  (nn, 起皱#NN, 皮肤#NN)  (nn, 起皱#NN, 干瘪#NN)  (dobj, 防治#VV, 起皱#NN)  (conj, 防治#VV, 增强#VV)  (nn, 韧性#NN, 皮肤#NN)  (conj, 韧性#NN, 弹性#NN)  (cc, 韧性#NN, 和#CC)  (dobj, 增强#VV, 韧性#NN)  (case, 延缓#NN, 对#P)  (prep, 衰老#VV, 延缓#NN)  (conj, 防治#VV, 衰老#VV)  (cc, 防治#VV, 和#CC)  (conj, 防治#VV, 促进#VV)  (nn, 生长#NN, 儿童#NN)  (dobj, 促进#VV, 生长#NN)  (nsubj, 具有#VV, 发育#NN)  (advmod, 具有#VV, 都#AD)  (root, ROOT#null, 具有#VV)  (nn, 意义#NN, 物#NN)  (nn, 意义#NN, 殊#NN)  (dobj, 具有#VV, 意义#NN)
+        </parsing>
+
+        <tag>
+            骆驼含有  含有丰富  胶原丰富  老年人原因  衰老原因  体中胶原  防治发育  皮肤起皱  干瘪起皱  防治起皱  皮肤韧性  弹性  增强韧性  儿童生长  促进生长  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            骆驼掌味甘、咸，性平。作用较多，如《随息居饮食谱》所载，能“填肾精而健腰脚，滋胃液以滑皮肤，长肌肉可愈漏疡，助血脉能充乳汁，较肉尤补。”但一般多用来催乳，治产后气血不足，乳汁缺乏。
+        </rawdata>
+
+        <segment>
+            骆驼  掌味甘  、  咸  ，  性平  。  作用  较  多  ，  如  《  随  息  居  饮  食谱  》  所  载  ，  能  “  填  肾  精  而  健腰脚  ，  滋胃液  以  滑  皮肤  ，  长  肌肉  可  愈  漏疡  ，  助  血脉  能  充  乳汁  ，  较  肉  尤补  。  ”  但  一般  多用  来  催乳  ，  治  产后  气血  不足  ，  乳汁  缺乏  。
+        </segment>
+
+        <pos>
+            骆驼#VV  掌味甘#NN  、#PU  咸#NN  ，#PU  性平#VV    。#PU  作用#NN  较#AD  多#VA  ，#PU  如#AD  随#P  息#NN  居#VV  饮#NN  食谱#NN  所#MSP  载#VV  ，#PU  能#VV  ``#AD  填#VV  肾#NN  精#NN  而#MSP  健腰脚#VV  ，#PU  滋胃液#NN  以#P  滑#NN  皮肤#NN  ，#PU  长#AD  肌肉#AD  可#VV  愈#AD  漏疡#VV  ，#PU  助#NN  血脉#NN  能#VV  充#VV  乳汁#NN  ，#PU  较#P  肉#NN  尤补#VV    。#PU  ''#NR  但#AD  一般#JJ  多用#NN  来#MSP  催乳#VV  ，#PU  治#VV  产后#NN  气血#NN  不足#NN  ，#PU  乳汁#AD  缺乏#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 骆驼#VV)  (conj, 咸#NN, 掌味甘#NN)  (dobj, 骆驼#VV, 咸#NN)  (conj, 骆驼#VV, 性平#VV)   (nsubj, 多#VA, 作用#NN)  (advmod, 多#VA, 较#AD)  (root, ROOT#null, 多#VA)  (advmod, 载#VV, 如#AD)  (case, 息#NN, 随#P)  (prep, 居#VV, 息#NN)  (dep, 载#VV, 居#VV)  (nn, 食谱#NN, 饮#NN)  (dobj, 居#VV, 食谱#NN)  (prtmod, 载#VV, 所#MSP)  (conj, 多#VA, 载#VV)  (mmod, 填#VV, 能#VV)  (advmod, 填#VV, ``#AD)  (dep, 载#VV, 填#VV)  (nn, 精#NN, 肾#NN)  (dobj, 填#VV, 精#NN)  (prtmod, 健腰脚#VV, 而#MSP)  (dep, 载#VV, 健腰脚#VV)  (nsubj, 漏疡#VV, 滋胃液#NN)  (case, 皮肤#NN, 以#P)  (nn, 皮肤#NN, 滑#NN)  (prep, 漏疡#VV, 皮肤#NN)  (advmod, 漏疡#VV, 长#AD)  (advmod, 漏疡#VV, 肌肉#AD)  (mmod, 漏疡#VV, 可#VV)  (advmod, 漏疡#VV, 愈#AD)  (conj, 多#VA, 漏疡#VV)  (nn, 血脉#NN, 助#NN)  (nsubj, 充#VV, 血脉#NN)  (mmod, 充#VV, 能#VV)  (conj, 多#VA, 充#VV)  (dobj, 充#VV, 乳汁#NN)  (case, 肉#NN, 较#P)  (prep, 尤补#VV, 肉#NN)  (dep, 充#VV, 尤补#VV)   (nsubj, 催乳#VV, ''#NR)  (advmod, 催乳#VV, 但#AD)  (amod, 多用#NN, 一般#JJ)  (nsubj, 催乳#VV, 多用#NN)  (prtmod, 催乳#VV, 来#MSP)  (root, ROOT#null, 催乳#VV)  (ccomp, 催乳#VV, 治#VV)  (nn, 不足#NN, 产后#NN)  (nn, 不足#NN, 气血#NN)  (dobj, 治#VV, 不足#NN)  (advmod, 缺乏#VV, 乳汁#AD)  (dep, 催乳#VV, 缺乏#VV)
+        </parsing>
+
+        <tag>
+            骆驼咸  一般多用  催乳  产后不足  气血不足  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾阳  强筋骨
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/44/2e/11844_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1306 骆驼掌.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,172 @@
+<content>
+
+    <id>
+        1343
+    </id>
+
+    <foodname>
+        南美虾
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        白脚虾、或称凡纳对虾
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            对海鲜过敏的人勿食。
+        </rawdata>
+
+        <segment>
+            对  海鲜  过敏  的  人  勿  食  。
+        </segment>
+
+        <pos>
+            对#P  海鲜#NN  过敏#NN  的#DEG  人#NN  勿#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 过敏#NN, 对#P)  (nn, 过敏#NN, 海鲜#NN)  (assmod, 人#NN, 过敏#NN)  (case, 过敏#NN, 的#DEG)  (nsubj, 勿#VV, 人#NN)  (root, ROOT#null, 勿#VV)  (dobj, 勿#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            海鲜过敏  人勿食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜乳母，电脑，办公室人群，熬夜人群，老人
+        </rawdata>
+
+        <segment>
+            适宜  乳母  ，  电脑  ，  办公室  人群  ，  熬夜  人群  ，  老人
+        </segment>
+
+        <pos>
+            适宜#VV  乳母#NN  ，#PU  电脑#NN  ，#PU  办公室#NN  人群#NN  ，#PU  熬夜#VV  人群#NN  ，#PU  老人#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (dep, 人群#NN, 乳母#NN)  (dep, 人群#NN, 电脑#NN)  (nn, 人群#NN, 办公室#NN)  (dobj, 适宜#VV, 人群#NN)  (conj, 适宜#VV, 熬夜#VV)  (dobj, 熬夜#VV, 人群#NN)  (conj, 适宜#VV, 老人#NN)
+        </parsing>
+
+        <tag>
+            适宜  乳母  电脑  办公室人群  熬夜人群  老人  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            原产地集中在厄瓜多尔沿岸，是世界上养殖产量最高的三大虾种之一，营养价值可高了。
+        </rawdata>
+
+        <segment>
+            原  产地  集中  在  厄瓜多尔  沿岸  ，  是  世界  上  养殖  产量  最  高  的  三  大  虾  种  之一  ，  营养  价值  可  高  了  。
+        </segment>
+
+        <pos>
+            原#JJ  产地#NN  集中#VV  在#P  厄瓜多尔#NR  沿岸#NN  ，#PU  是#VC  世界#NN  上#LC  养殖#NN  产量#NN  最#AD  高#VA  的#DEC  三#CD  大#JJ  虾#CD  种#M  之一#NN  ，#PU  营养#VA  价值#NN  可#AD  高#VA  了#AS  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 产地#NN, 原#JJ)  (nsubj, 集中#VV, 产地#NN)  (root, ROOT#null, 集中#VV)  (case, 沿岸#NN, 在#P)  (nn, 沿岸#NN, 厄瓜多尔#NR)  (prep, 集中#VV, 沿岸#NN)  (cop, 之一#NN, 是#VC)  (loc, 高#VA, 世界#NN)  (case, 世界#NN, 上#LC)  (nn, 产量#NN, 养殖#NN)  (nsubj, 高#VA, 产量#NN)  (advmod, 高#VA, 最#AD)  (relcl, 之一#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nummod, 之一#NN, 三#CD)  (amod, 之一#NN, 大#JJ)  (nummod, 种#M, 虾#CD)  (clf, 之一#NN, 种#M)  (conj, 集中#VV, 之一#NN)  (relcl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 可#AD)  (conj, 集中#VV, 高#VA)  (asp, 高#VA, 了#AS)
+        </parsing>
+
+        <tag>
+            原产地  集中  养殖产量  价值营养  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            通乳生乳,壮阳壮腰,补肾虚,提高免疫力,安神除烦,强筋
+        </rawdata>
+
+        <segment>
+            通乳  生乳  ,  壮阳壮腰  ,  补  肾虚  ,  提高  免疫力  ,  安神  除烦  ,  强筋
+        </segment>
+
+        <pos>
+            通乳#NN  生乳#NN  ,#NN  壮阳壮腰#NN  ,#NN  补#NN  肾虚#NN  ,#AD  提高#VV  免疫力#NN  ,#NN  安神#NN  除烦#NN  ,#NN  强筋#NN
+        </pos>
+
+        <parsing>
+            (nn, 肾虚#NN, 通乳#NN)  (nn, 肾虚#NN, 生乳#NN)  (nn, 肾虚#NN, 壮阳壮腰#NN)  (nn, 肾虚#NN, 补#NN)  (nsubj, 提高#VV, 肾虚#NN)  (root, ROOT#null, 提高#VV)  (nn, 强筋#NN, 免疫力#NN)  (nn, 强筋#NN, 安神#NN)  (nn, 强筋#NN, 除烦#NN)  (dobj, 提高#VV, 强筋#NN)
+        </parsing>
+
+        <tag>
+            通乳肾虚  生乳肾虚  壮阳壮腰肾虚  免疫力强筋  安神强筋  除烦强筋  提高强筋  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  抗氧化  补肾阳  托毒
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.现代医学研究证实，南美虾的营养价值极高，能增强人体的免疫力和性功能，补肾壮阳，抗早衰。常吃鲜虾(炒、烧、炖皆可)，温酒送服，可医治肾虚阳痿、畏寒、体倦、腰膝酸痛等病症。
+            2.如果妇女产后乳汁少或无乳汁，鲜虾肉500克，研碎，黄酒热服，每日3次，连服几日，可起催乳作用。
+            3.虾皮有镇静作用，常用来治疗神经衰弱，植物神经功能紊乱诸症。
+            4.另外，南美虾是可以为大脑提供营养的美味食品。南美虾中含有三种重要的脂肪酸，能使人长时间保持精力集中。
+            中医认为，南美虾性味甘、咸、温，具有开胃化痰、补气壮阳、益气通乳等功效，对肾虚阳萎、腰酸膝软、筋骨疼痛、中风引起的半身不遂等病症有一定的疗效。不过，南美虾为发物，人身上生疮或阴虚火旺时，不宜吃虾。
+        </rawdata>
+
+        <segment>
+            现代  医学  研究  证实  ，  南美  虾  的  营养  价值  极高  ，  能  增强  人体  的  免疫力  和  性功能  ，  补  肾  壮阳  ，  抗  早衰  。  常  吃  鲜  虾  (  炒  、  烧  、  炖  皆  可  )  ，  温酒  送服  ，  可医治  肾虚  阳痿  、  畏寒  、  体倦  、  腰膝  酸痛  等  病症  。
+            如果  妇女  产后  乳汁  少  或  无乳汁  ，  鲜  虾  肉  500  克  ，  研碎  ，  黄酒  热服  ，  每  日  3  次  ，  连  服  几日  ，  可  起  催乳  作用  。
+            虾皮  有  镇静  作用  ，  常  用来  治疗  神经  衰弱  ，  植物  神经  功能  紊乱  诸症  。
+            另外  ，  南美  虾  是  可以  为  大脑  提供  营养  的  美味  食品  。  南美  虾  中  含有  三  种  重要  的  脂肪酸  ，  能  使  人  长  时间  保持  精力  集中  。
+            中医  认为  ，  南美  虾  性味甘  、  咸  、  温  ，  具有  开胃  化痰  、  补气  壮  阳  、  益气  通乳  等  功效  ，  对  肾虚  阳萎  、  腰酸  膝软  、  筋骨  疼痛  、  中风  引起  的  半身不遂  等  病症  有  一定  的  疗效  。  不过  ，  南美  虾  为  发物  ，  人身  上  生疮  或  阴虚  火  旺时  ，  不  宜  吃  虾  。
+        </segment>
+
+        <pos>
+            现代#JJ  医学#NN  研究#NN  证实#VV  ，#PU  南美#NR  虾#NN  的#DEG  营养#VA  价值#NN  极高#NN  ，#PU  能#VV  增强#VV  人体#NN  的#DEG  免疫力#NN  和#CC  性功能#NN  ，#PU  补#VV  肾#NN  壮阳#NN  ，#PU  抗#VV  早衰#NN    。#PU  常#AD  吃#VV  鲜#NN  虾#NN  -LRB-#NN  炒#NR  、#PU  烧#NR  、#PU  炖#NR  皆#AD  可#VV  -RRB-#VV  ，#PU  温酒#VV  送服#NN  ，#PU  可医治#VV  肾虚#NR  阳痿#NR  、#PU  畏寒#NR  、#PU  体倦#NR  、#PU  腰膝#NR  酸痛#NR  等#ETC  病症#NN    。#PU    。#PU
+            如果#CS  妇女#NN  产后#NN  乳汁#NN  少#VA  或#CC  无乳汁#VA  ，#PU  鲜#NN  虾#NN  肉#NN  500#CD  克#M  ，#PU  研碎#VV  ，#PU  黄酒#VV  热服#NN  ，#PU  每#DT  日#M  3#CD  次#M  ，#PU  连#AD  服#VV  几日#NN  ，#PU  可#VV  起#VV  催乳#NN  作用#NN  。#PU
+            虾皮#AD  有#VE  镇静#NN  作用#NN  ，#PU  常#AD  用来#VV  治疗#NN  神经#NN  衰弱#NN  ，#PU  植物#NN  神经#NN  功能#NN  紊乱#AD  诸症#VV  。#PU
+            另外#AD  ，#PU  南美#NR  虾#NN  是#VC  可以#VV  为#P  大脑#NN  提供#VV  营养#VA  的#DEC  美味#JJ  食品#NN    。#PU  南美#NR  虾#NN  中#LC  含有#VV  三#CD  种#M  重要#VA  的#DEC  脂肪酸#NN  ，#PU  能#VV  使#VV  人#NN  长#JJ  时间#NN  保持#VV  精力#NN  集中#VV    。#PU    。#PU
+            中医#NN  认为#VV  ，#PU  南美#NR  虾#NN  性味甘#NN  、#PU  咸#NN  、#PU  温#NN  ，#PU  具有#VV  开胃#NN  化痰#NN  、#PU  补气#NR  壮#JJ  阳#NN  、#PU  益气#NN  通乳#NN  等#ETC  功效#NN  ，#PU  对#P  肾虚#NN  阳萎#NN  、#PU  腰酸#NN  膝软#NN  、#PU  筋骨#NN  疼痛#NN  、#PU  中风#AD  引起#VV  的#DEC  半身不遂#NN  等#ETC  病症#NN  有#VE  一定#JJ  的#DEG  疗效#NN    。#PU  不过#AD  ，#PU  南美#NR  虾#NN  为#P  发物#NN  ，#PU  人身#NN  上#LC  生疮#NN  或#CC  阴虚#NN  火#NN  旺时#VV  ，#PU  不#AD  宜#NR  吃#VV  虾#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 研究#NN, 现代#JJ)  (nn, 研究#NN, 医学#NN)  (nsubj, 证实#VV, 研究#NN)  (root, ROOT#null, 证实#VV)  (nn, 虾#NN, 南美#NR)  (assmod, 极高#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (nfincl, 极高#NN, 营养#VA)  (nn, 极高#NN, 价值#NN)  (nsubj, 增强#VV, 极高#NN)  (mmod, 增强#VV, 能#VV)  (ccomp, 证实#VV, 增强#VV)  (assmod, 性功能#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (conj, 性功能#NN, 免疫力#NN)  (cc, 性功能#NN, 和#CC)  (dobj, 增强#VV, 性功能#NN)  (conj, 增强#VV, 补#VV)  (nn, 壮阳#NN, 肾#NN)  (dobj, 补#VV, 壮阳#NN)  (conj, 增强#VV, 抗#VV)  (dobj, 抗#VV, 早衰#NN)   (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (nn, -LRB-#NN, 鲜#NN)  (nn, -LRB-#NN, 虾#NN)  (conj, 炖#NR, 炒#NR)  (conj, 炖#NR, 烧#NR)  (nsubj, -RRB-#VV, 炖#NR)  (advmod, -RRB-#VV, 皆#AD)  (mmod, -RRB-#VV, 可#VV)  (conj, -RRB-#VV, 温酒#VV)  (dobj, 温酒#VV, 送服#NN)  (conj, -RRB-#VV, 可医治#VV)  (nn, 酸痛#NR, 肾虚#NR)  (conj, 酸痛#NR, 阳痿#NR)  (conj, 酸痛#NR, 畏寒#NR)  (conj, 酸痛#NR, 体倦#NR)  (nn, 酸痛#NR, 腰膝#NR)  (nn, 病症#NN, 酸痛#NR)  (etc, 酸痛#NR, 等#ETC)  (dobj, 可医治#VV, 病症#NN)   (root, ROOT#null, null#null)
+            (advmod, 少#VA, 如果#CS)  (nn, 乳汁#NN, 妇女#NN)  (nn, 乳汁#NN, 产后#NN)  (nsubj, 少#VA, 乳汁#NN)  (dep, 起#VV, 少#VA)  (cc, 少#VA, 或#CC)  (dep, 少#VA, 无乳汁#VA)  (nn, 肉#NN, 鲜#NN)  (nn, 肉#NN, 虾#NN)  (nsubj, 克#M, 肉#NN)  (nummod, 克#M, 500#CD)  (conj, 少#VA, 克#M)  (conj, 克#M, 研碎#VV)  (conj, 克#M, 黄酒#VV)  (dobj, 黄酒#VV, 热服#NN)  (dep, 次#M, 每#DT)  (clf, 每#DT, 日#M)  (nummod, 次#M, 3#CD)  (conj, 克#M, 次#M)  (advmod, 服#VV, 连#AD)  (conj, 克#M, 服#VV)  (dobj, 服#VV, 几日#NN)  (mmod, 起#VV, 可#VV)  (root, ROOT#null, 起#VV)  (nn, 作用#NN, 催乳#NN)  (dobj, 起#VV, 作用#NN)
+            (advmod, 有#VE, 虾皮#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 镇静#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 用来#VV, 常#AD)  (conj, 有#VE, 用来#VV)  (nn, 衰弱#NN, 治疗#NN)  (nn, 衰弱#NN, 神经#NN)  (dobj, 用来#VV, 衰弱#NN)  (nn, 功能#NN, 植物#NN)  (nn, 功能#NN, 神经#NN)  (nsubj, 诸症#VV, 功能#NN)  (advmod, 诸症#VV, 紊乱#AD)  (dep, 有#VE, 诸症#VV)
+            (advmod, 提供#VV, 另外#AD)  (dep, 提供#VV, 南美#NR)  (nsubj, 提供#VV, 虾#NN)  (cop, 提供#VV, 是#VC)  (mmod, 提供#VV, 可以#VV)  (case, 大脑#NN, 为#P)  (prep, 提供#VV, 大脑#NN)  (root, ROOT#null, 提供#VV)  (relcl, 食品#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (amod, 食品#NN, 美味#JJ)  (dobj, 提供#VV, 食品#NN)   (nsubj, 含有#VV, 南美#NR)  (loc, 含有#VV, 虾#NN)  (case, 虾#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 三#CD)  (clf, 脂肪酸#NN, 种#M)  (relcl, 脂肪酸#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 含有#VV, 脂肪酸#NN)  (mmod, 使#VV, 能#VV)  (conj, 含有#VV, 使#VV)  (nn, 时间#NN, 人#NN)  (amod, 时间#NN, 长#JJ)  (dobj, 使#VV, 时间#NN)  (dep, 使#VV, 保持#VV)  (dobj, 保持#VV, 精力#NN)  (conj, 保持#VV, 集中#VV)   (root, ROOT#null, null#null)
+            (nsubj, 认为#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (nn, 温#NN, 南美#NR)  (nn, 温#NN, 虾#NN)  (conj, 温#NN, 性味甘#NN)  (conj, 温#NN, 咸#NN)  (nsubj, 具有#VV, 温#NN)  (ccomp, 认为#VV, 具有#VV)  (nn, 化痰#NN, 开胃#NN)  (conj, 通乳#NN, 化痰#NN)  (nn, 阳#NN, 补气#NR)  (amod, 阳#NN, 壮#JJ)  (conj, 通乳#NN, 阳#NN)  (nn, 通乳#NN, 益气#NN)  (nn, 功效#NN, 通乳#NN)  (etc, 通乳#NN, 等#ETC)  (dobj, 具有#VV, 功效#NN)  (case, 病症#NN, 对#P)  (nn, 阳萎#NN, 肾虚#NN)  (conj, 半身不遂#NN, 阳萎#NN)  (nn, 膝软#NN, 腰酸#NN)  (conj, 半身不遂#NN, 膝软#NN)  (nn, 疼痛#NN, 筋骨#NN)  (conj, 半身不遂#NN, 疼痛#NN)  (advmod, 引起#VV, 中风#AD)  (relcl, 半身不遂#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 病症#NN, 半身不遂#NN)  (etc, 半身不遂#NN, 等#ETC)  (prep, 有#VE, 病症#NN)  (conj, 具有#VV, 有#VE)  (assmod, 疗效#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)   (advmod, 旺时#VV, 不过#AD)  (nn, 虾#NN, 南美#NR)  (nsubj, 旺时#VV, 虾#NN)  (xsubj, 吃#VV, 虾#NN)  (case, 发物#NN, 为#P)  (prep, 旺时#VV, 发物#NN)  (loc, 旺时#VV, 人身#NN)  (case, 人身#NN, 上#LC)  (conj, 阴虚#NN, 生疮#NN)  (cc, 阴虚#NN, 或#CC)  (nn, 火#NN, 阴虚#NN)  (nsubj, 旺时#VV, 火#NN)  (xsubj, 吃#VV, 火#NN)  (root, ROOT#null, 旺时#VV)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (ccomp, 旺时#VV, 吃#VV)  (dobj, 吃#VV, 虾#NN)
+        </parsing>
+
+        <tag>
+            现代研究  医学研究  证实  价值极高  免疫力  增强性功能  温酒送服  酸痛  阳痿  畏寒  体倦  可医治病症  妇女乳汁  产后乳汁  黄酒热服  治疗衰弱  神经衰弱  用来衰弱  植物功能  神经功能  食品营养  美味食品  提供食品  含有脂肪酸  长时间  保持精力  开胃化痰  壮阳  益气通乳  通乳功效  肾虚阳萎  腰酸膝软  筋骨疼痛  半身不遂病症  阴虚  生疮  旺时  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/a5/ad/44453_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1343 南美虾.jpg
+    </picturelocalurl>
+
+</content>

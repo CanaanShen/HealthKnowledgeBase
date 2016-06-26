@@ -1,0 +1,346 @@
+<content>
+
+    <id>
+        407
+    </id>
+
+    <foodname>
+        大麦
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        元麦、稞麦、饭麦、赤膊麦、裸大麦
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            怀孕期间和哺乳期内妇女忌食。
+        </rawdata>
+
+        <segment>
+            怀孕  期间  和  哺乳期  内  妇女  忌食  。
+        </segment>
+
+        <pos>
+            怀孕#VV  期间#NN  和#CC  哺乳期#NN  内#LC  妇女#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 怀孕#VV)  (dep, 忌食#NN, 期间#NN)  (cc, 期间#NN, 和#CC)  (dep, 期间#NN, 哺乳期#NN)  (case, 哺乳期#NN, 内#LC)  (nn, 忌食#NN, 妇女#NN)  (dobj, 怀孕#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            怀孕期间  哺乳期内妇女  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用，尤适宜胃气虚弱、消化不良者；凡肝病、食欲不振、伤食后胃满腹胀者、妇女回乳时乳房胀痛者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  ，  尤  适宜  胃  气  虚弱  、  消化不良  者  ；  凡  肝病  、  食欲不振  、  伤  食  后  胃  满  腹胀者  、  妇女  回乳  时  乳房  胀痛者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  ，#PU  尤#NN  适宜#VV  胃#NN  气#NN  虚弱#NN  、#PU  消化不良#NN  者#NN  ；#PU  凡#AD  肝病#NN  、#PU  食欲不振#NN  、#PU  伤#NN  食#NN  后#LC  胃#AD  满#VV  腹胀者#NN  、#PU  妇女#NN  回乳#NN  时#LC  乳房#VV  胀痛者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (nsubj, 适宜#VV, 尤#NN)  (conj, 食用#VV, 适宜#VV)  (nn, 者#NN, 胃#NN)  (nn, 者#NN, 气#NN)  (conj, 者#NN, 虚弱#NN)  (nn, 者#NN, 消化不良#NN)  (dobj, 适宜#VV, 者#NN)  (advmod, 伤#NN, 凡#AD)  (conj, 伤#NN, 肝病#NN)  (conj, 伤#NN, 食欲不振#NN)  (nsubj, 乳房#VV, 伤#NN)  (loc, 乳房#VV, 食#NN)  (case, 食#NN, 后#LC)  (advmod, 满#VV, 胃#AD)  (loc, 乳房#VV, 满#VV)  (conj, 回乳#NN, 腹胀者#NN)  (nn, 回乳#NN, 妇女#NN)  (dobj, 满#VV, 回乳#NN)  (case, 满#VV, 时#LC)  (conj, 食用#VV, 乳房#VV)  (dobj, 乳房#VV, 胀痛者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  胃气虚弱  消化不良者  凡肝病  食欲不振  伤食后胃满腹胀者  妇女回乳时乳房胀痛者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                307
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                10.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                73.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                9.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                生物素（微克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                381
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                49
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                158
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                6.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                4.36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                9.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.23
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            大麦，属禾本科植物，是我国古老粮种之一，已有几千年的种植历史。世界谷类作物中，大麦的种植总面积和总产量仅次于小麦、水稻、玉米、而居第四位。我国的大麦现多产于淮河流域及其以北地区。大麦子粒扁平，中间宽、两端较尖，呈纺锤形，成熟时皮大麦的子粒与内、外稃紧密粘合，而裸大麦则易分离。
+            我国栽培的大麦主要有多棱大麦和二棱大麦两个亚种。根据带稃或稞粒的特征，再分为多棱皮大麦、多棱裸大麦、二棱皮大麦、二棱裸大麦四个变种，粮食生产上所称的大麦一般系指皮大麦：裸大麦在不同地区有元麦、青稞、米大麦等俗称。
+            全世界大麦约1/2的产量用作饲料，其余供人类食用，或用以制麦芽糖。啤酒主要用大麦芽制造，总产量的10％以上用于制造啤酒。
+        </rawdata>
+
+        <segment>
+            大麦  ，  属  禾本科  植物  ，  是  我  国  古老  粮种  之一  ，  已  有  几千  年  的  种植  历史  。  世界  谷类  作物  中  ，  大麦  的  种植  总  面积  和  总  产量  仅次于  小麦  、  水稻  、  玉米  、  而  居  第四  位  。  我国  的  大麦  现  多产  于  淮河  流域  及  其  以北  地区  。  大麦  子粒  扁平  ，  中间  宽  、  两  端  较  尖  ，  呈  纺锤形  ，  成熟  时  皮  大麦  的  子粒  与  内  、  外稃  紧密  粘合  ，  而  裸大麦  则  易  分离  。
+            我国  栽培  的  大麦  主要  有  多棱  大麦  和  二  棱  大麦  两  个  亚种  。  根据  带稃  或  稞粒  的  特征  ，  再  分为  多  棱皮  大麦  、  多  棱裸  大麦  、  二棱皮  大麦  、  二棱裸  大麦  四  个  变种  ，  粮食  生产  上  所  称  的  大麦  一般  系指  皮  大麦  ：  裸大麦  在  不同  地区  有  元麦  、  青稞  、  米  大麦  等  俗称  。
+            全世界  大麦  约  1/2  的  产量  用作  饲料  ，  其余  供  人类  食用  ，  或  用以  制  麦芽糖  。  啤酒  主要  用  大  麦芽  制造  ，  总  产量  的  10％  以上  用于  制造  啤酒  。
+        </segment>
+
+        <pos>
+            大麦#NN  ，#PU  属#VV  禾本科#NN  植物#NN  ，#PU  是#VC  我#PN  国#NN  古老#VA  粮种#NN  之一#NN  ，#PU  已#AD  有#VE  几千#CD  年#M  的#DEG  种植#NN  历史#NN    。#PU  世界#NN  谷类#NN  作物#NN  中#LC  ，#PU  大麦#NN  的#DEG  种植#NN  总#JJ  面积#NN  和#CC  总#JJ  产量#NN  仅次于#VV  小麦#NN  、#PU  水稻#NN  、#PU  玉米#NN  、#PU  而#MSP  居#VV  第四#OD  位#M    。#PU  我国#NN  的#DEG  大麦#NN  现#AD  多产#VV  于#P  淮河#NR  流域#NN  及#CC  其#PN  以北#LC  地区#NN    。#PU  大麦#NN  子粒#NN  扁平#VV  ，#PU  中间#NN  宽#VA  、#PU  两#CD  端#NN  较#AD  尖#VA  ，#PU  呈#VV  纺锤形#NN  ，#PU  成熟#VA  时#LC  皮#NN  大麦#NN  的#DEG  子粒#NN  与#P  内#NN  、#PU  外稃#NN  紧密#AD  粘合#VV  ，#PU  而#CC  裸大麦#NN  则#AD  易#AD  分离#VV    。#PU    。#PU
+            我国#AD  栽培#VV  的#DEC  大麦#NN  主要#AD  有#VE  多棱#NN  大麦#NN  和#CC  二#CD  棱#NN  大麦#NN  两#CD  个#M  亚种#NN    。#PU  根据#P  带稃#NN  或#CC  稞粒#NN  的#DEG  特征#NN  ，#PU  再#AD  分为#VV  多#CD  棱皮#NN  大麦#NN  、#PU  多#CD  棱裸#NN  大麦#NN  、#PU  二棱皮#CD  大麦#NN  、#PU  二棱裸#CD  大麦#NN  四#CD  个#M  变种#NN  ，#PU  粮食#NN  生产#NN  上#LC  所#MSP  称#VV  的#DEC  大麦#NN  一般#AD  系指#VV  皮#NN  大麦#NN  ：#PU  裸大麦#AD  在#P  不同#JJ  地区#NN  有#VE  元麦#NN  、#PU  青稞#NN  、#PU  米#M  大麦#NN  等#ETC  俗称#NN    。#PU    。#PU
+            全世界#NN  大麦#NN  约#AD  1/2#CD  的#DEG  产量#NN  用作#VV  饲料#NN  ，#PU  其余#DT  供#NN  人类#NN  食用#VV  ，#PU  或#CC  用以#VV  制#VV  麦芽糖#NN    。#PU  啤酒#NN  主要#AD  用#VV  大#JJ  麦芽#NN  制造#NN  ，#PU  总#JJ  产量#NN  的#DEG  10#CD  ％#NN  以上#LC  用于#VV  制造#NN  啤酒#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 属#VV, 大麦#NN)  (root, ROOT#null, 属#VV)  (nn, 植物#NN, 禾本科#NN)  (dobj, 属#VV, 植物#NN)  (cop, 之一#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nsubj, 古老#VA, 国#NN)  (relcl, 粮种#NN, 古老#VA)  (nn, 之一#NN, 粮种#NN)  (conj, 属#VV, 之一#NN)  (advmod, 有#VE, 已#AD)  (conj, 属#VV, 有#VE)  (nummod, 年#M, 几千#CD)  (assmod, 历史#NN, 年#M)  (case, 年#M, 的#DEG)  (nn, 历史#NN, 种植#NN)  (dobj, 有#VE, 历史#NN)   (nn, 谷类#NN, 世界#NN)  (nsubj, 仅次于#VV, 谷类#NN)  (loc, 仅次于#VV, 作物#NN)  (case, 作物#NN, 中#LC)  (assmod, 种植#NN, 大麦#NN)  (case, 大麦#NN, 的#DEG)  (nn, 产量#NN, 种植#NN)  (amod, 面积#NN, 总#JJ)  (conj, 产量#NN, 面积#NN)  (cc, 产量#NN, 和#CC)  (amod, 产量#NN, 总#JJ)  (nsubj, 仅次于#VV, 产量#NN)  (root, ROOT#null, 仅次于#VV)  (conj, 玉米#NN, 小麦#NN)  (conj, 玉米#NN, 水稻#NN)  (dobj, 仅次于#VV, 玉米#NN)  (prtmod, 居#VV, 而#MSP)  (conj, 仅次于#VV, 居#VV)  (ordmod, 位#M, 第四#OD)  (range, 居#VV, 位#M)   (assmod, 大麦#NN, 我国#NN)  (case, 我国#NN, 的#DEG)  (nsubj, 多产#VV, 大麦#NN)  (advmod, 多产#VV, 现#AD)  (root, ROOT#null, 多产#VV)  (case, 地区#NN, 于#P)  (nn, 流域#NN, 淮河#NR)  (dep, 地区#NN, 流域#NN)  (cc, 流域#NN, 及#CC)  (dep, 流域#NN, 其#PN)  (case, 其#PN, 以北#LC)  (prep, 多产#VV, 地区#NN)   (nn, 子粒#NN, 大麦#NN)  (nsubj, 扁平#VV, 子粒#NN)  (loc, 粘合#VV, 扁平#VV)  (nsubj, 宽#VA, 中间#NN)  (ccomp, 扁平#VV, 宽#VA)  (nummod, 端#NN, 两#CD)  (nsubj, 尖#VA, 端#NN)  (advmod, 尖#VA, 较#AD)  (conj, 宽#VA, 尖#VA)  (dep, 尖#VA, 呈#VV)  (dobj, 呈#VV, 纺锤形#NN)  (conj, 宽#VA, 成熟#VA)  (case, 扁平#VV, 时#LC)  (nn, 大麦#NN, 皮#NN)  (assmod, 子粒#NN, 大麦#NN)  (case, 大麦#NN, 的#DEG)  (nsubj, 粘合#VV, 子粒#NN)  (case, 外稃#NN, 与#P)  (conj, 外稃#NN, 内#NN)  (prep, 粘合#VV, 外稃#NN)  (advmod, 粘合#VV, 紧密#AD)  (root, ROOT#null, 粘合#VV)  (cc, 粘合#VV, 而#CC)  (nsubj, 分离#VV, 裸大麦#NN)  (advmod, 分离#VV, 则#AD)  (advmod, 分离#VV, 易#AD)  (conj, 粘合#VV, 分离#VV)   (root, ROOT#null, null#null)
+            (advmod, 栽培#VV, 我国#AD)  (relcl, 大麦#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nsubj, 有#VE, 大麦#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nn, 大麦#NN, 多棱#NN)  (conj, 棱#NN, 大麦#NN)  (cc, 棱#NN, 和#CC)  (nummod, 棱#NN, 二#CD)  (nn, 大麦#NN, 棱#NN)  (nn, 亚种#NN, 大麦#NN)  (nummod, 个#M, 两#CD)  (clf, 亚种#NN, 个#M)  (dobj, 有#VE, 亚种#NN)   (case, 特征#NN, 根据#P)  (conj, 稞粒#NN, 带稃#NN)  (cc, 稞粒#NN, 或#CC)  (assmod, 特征#NN, 稞粒#NN)  (case, 稞粒#NN, 的#DEG)  (prep, 系指#VV, 特征#NN)  (advmod, 分为#VV, 再#AD)  (relcl, 大麦#NN, 分为#VV)  (nummod, 棱皮#NN, 多#CD)  (nn, 大麦#NN, 棱皮#NN)  (conj, 大麦#NN, 大麦#NN)  (nummod, 棱裸#NN, 多#CD)  (nn, 大麦#NN, 棱裸#NN)  (conj, 大麦#NN, 大麦#NN)  (nummod, 大麦#NN, 二棱皮#CD)  (conj, 大麦#NN, 大麦#NN)  (nummod, 大麦#NN, 二棱裸#CD)  (nn, 变种#NN, 大麦#NN)  (nummod, 个#M, 四#CD)  (clf, 变种#NN, 个#M)  (dobj, 分为#VV, 变种#NN)  (nn, 生产#NN, 粮食#NN)  (loc, 称#VV, 生产#NN)  (case, 生产#NN, 上#LC)  (prtmod, 称#VV, 所#MSP)  (dep, 分为#VV, 称#VV)  (mark, 分为#VV, 的#DEC)  (nsubj, 系指#VV, 大麦#NN)  (advmod, 系指#VV, 一般#AD)  (root, ROOT#null, 系指#VV)  (nn, 大麦#NN, 皮#NN)  (dobj, 系指#VV, 大麦#NN)  (advmod, 有#VE, 裸大麦#AD)  (case, 地区#NN, 在#P)  (amod, 地区#NN, 不同#JJ)  (prep, 有#VE, 地区#NN)  (conj, 系指#VV, 有#VE)  (conj, 大麦#NN, 元麦#NN)  (conj, 大麦#NN, 青稞#NN)  (clf, 大麦#NN, 米#M)  (nn, 俗称#NN, 大麦#NN)  (etc, 大麦#NN, 等#ETC)  (dobj, 有#VE, 俗称#NN)   (root, ROOT#null, null#null)
+            (nn, 大麦#NN, 全世界#NN)  (nn, 产量#NN, 大麦#NN)  (advmod, 1/2#CD, 约#AD)  (assmod, 产量#NN, 1/2#CD)  (case, 1/2#CD, 的#DEG)  (nsubj, 用作#VV, 产量#NN)  (root, ROOT#null, 用作#VV)  (dobj, 用作#VV, 饲料#NN)  (det, 供#NN, 其余#DT)  (nn, 人类#NN, 供#NN)  (nsubj, 食用#VV, 人类#NN)  (conj, 用作#VV, 食用#VV)  (cc, 食用#VV, 或#CC)  (dep, 食用#VV, 用以#VV)  (ccomp, 用以#VV, 制#VV)  (dobj, 制#VV, 麦芽糖#NN)   (nsubj, 用#VV, 啤酒#NN)  (advmod, 用#VV, 主要#AD)  (root, ROOT#null, 用#VV)  (amod, 麦芽#NN, 大#JJ)  (nn, 制造#NN, 麦芽#NN)  (dobj, 用#VV, 制造#NN)  (amod, 产量#NN, 总#JJ)  (assmod, ％#NN, 产量#NN)  (case, 产量#NN, 的#DEG)  (nummod, ％#NN, 10#CD)  (loc, 用于#VV, ％#NN)  (case, ％#NN, 以上#LC)  (conj, 用#VV, 用于#VV)  (nn, 啤酒#NN, 制造#NN)  (dobj, 用于#VV, 啤酒#NN)
+        </parsing>
+
+        <tag>
+            禾本科植物  国古老  粮种古老  种植历史  世界谷类  种植产量  总面积  总产量  小麦  水稻  仅次于玉米  多产  粘合  稞粒  带稃  分为变种  粮食生产  系指  不同地区  用作饲料  大麦芽  麦芽制造  制造啤酒  用于啤酒  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            大麦芽性凉、味甘、咸，归脾、胃经；具有益气宽中、消渴除热、并且有回乳的功效；对滋补虚劳、强脉益肤、充实五脏、消化谷食、止泻、宽肠利水、小便淋痛、消化不良、饱闷腹胀有明显疗效。
+        </rawdata>
+
+        <segment>
+            大  麦芽  性  凉  、  味甘  、  咸  ，  归脾  、  胃经  ；  具有  益气  宽  中  、  消渴  除热  、  并且  有  回乳  的  功效  ；  对  滋补  虚  劳  、  强脉益肤  、  充实  五脏  、  消化  谷食  、  止泻  、  宽  肠  利水  、  小便  淋痛  、  消化不良  、  饱  闷  腹胀  有  明显  疗效  。
+        </segment>
+
+        <pos>
+            大#JJ  麦芽#NN  性#NN  凉#VA  、#PU  味甘#VA  、#PU  咸#VA  ，#PU  归脾#VV  、#PU  胃经#VV  ；#PU  具有#VV  益气#NR  宽#JJ  中#NR  、#PU  消渴#NN  除热#NN  、#PU  并且#CC  有#VE  回乳#NN  的#DEC  功效#NN  ；#PU  对#P  滋补#NR  虚#AD  劳#NN  、#PU  强脉益肤#NN  、#PU  充实#NN  五脏#CD  、#PU  消化#NN  谷食#NN  、#PU  止泻#NN  、#PU  宽#JJ  肠#NN  利水#NN  、#PU  小便#NN  淋痛#NN  、#PU  消化不良#NN  、#PU  饱#AD  闷#VV  腹胀#NN  有#VE  明显#JJ  疗效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 性#NN, 大#JJ)  (nn, 性#NN, 麦芽#NN)  (nsubj, 凉#VA, 性#NN)  (root, ROOT#null, 凉#VA)  (conj, 凉#VA, 味甘#VA)  (dep, 凉#VA, 咸#VA)  (conj, 凉#VA, 归脾#VV)  (conj, 归脾#VV, 胃经#VV)  (dep, 归脾#VV, 具有#VV)  (nn, 功效#NN, 益气#NR)  (amod, 功效#NN, 宽#JJ)  (conj, 功效#NN, 中#NR)  (nn, 除热#NN, 消渴#NN)  (dep, 功效#NN, 除热#NN)  (cc, 功效#NN, 并且#CC)  (relcl, 功效#NN, 有#VE)  (dobj, 有#VE, 回乳#NN)  (mark, 有#VE, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (case, 滋补#NR, 对#P)  (prep, 有#VE, 滋补#NR)  (advmod, 有#VE, 虚#AD)  (conj, 腹胀#NN, 劳#NN)  (conj, 腹胀#NN, 强脉益肤#NN)  (conj, 腹胀#NN, 充实#NN)  (nummod, 充实#NN, 五脏#CD)  (nn, 谷食#NN, 消化#NN)  (conj, 腹胀#NN, 谷食#NN)  (conj, 腹胀#NN, 止泻#NN)  (amod, 利水#NN, 宽#JJ)  (nn, 利水#NN, 肠#NN)  (conj, 腹胀#NN, 利水#NN)  (nn, 淋痛#NN, 小便#NN)  (conj, 腹胀#NN, 淋痛#NN)  (conj, 腹胀#NN, 消化不良#NN)  (advmod, 闷#VV, 饱#AD)  (relcl, 腹胀#NN, 闷#VV)  (prep, 有#VE, 腹胀#NN)  (conj, 归脾#VV, 有#VE)  (amod, 疗效#NN, 明显#JJ)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            大性  宽功效  消渴除热  强脉益肤  充实  消化谷食  止泻  宽利水  小便淋痛  消化不良  闷腹胀  明显疗效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  回乳  健脾  行气宽中  利水  和胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            大麦，具坚果香味，碳水化合物含量较高，蛋白质、钙、磷含量中等，含少量B族维生素。因为大麦含谷蛋白(一种有弹性的蛋白质)量少，所以不能做多孔面包，可做不发酵食物，在北非及亚洲部分地区尤喜用大麦粉做麦片粥，大麦是这些地区的主要食物之一。珍珠麦(圆形大麦米)是经研磨除去外壳和麸皮层的大麦粒，加入汤内煮食，见於世界各地。大麦麦秆柔软，多用作牲畜铺草，也大量用作粗饲料。
+        </rawdata>
+
+        <segment>
+            大麦  ，  具  坚果  香味  ，  碳水化合物  含量  较  高  ，  蛋白质  、  钙  、  磷  含量  中等  ，  含  少量  B  族  维生素  。  因为  大麦  含  谷  蛋白  (  一  种  有  弹性  的  蛋白质  )  量少  ，  所以  不  能  做  多孔  面包  ，  可做  不  发酵  食物  ，  在  北非  及  亚洲  部分  地区  尤  喜  用  大麦  粉做  麦片粥  ，  大麦  是  这些  地区  的  主要  食物  之一  。  珍珠  麦  (  圆形  大麦米  )  是  经  研磨  除去  外壳  和  麸皮层  的  大  麦粒  ，  加入  汤  内  煮  食  ，  见  於  世界  各地  。  大麦  麦秆  柔软  ，  多用作  牲畜  铺草  ，  也  大量  用作  粗饲料  。
+        </segment>
+
+        <pos>
+            大麦#NN  ，#PU  具#VV  坚果#NN  香味#NN  ，#PU  碳水化合物#NN  含量#NN  较#AD  高#VA  ，#PU  蛋白质#NN  、#PU  钙#NN  、#PU  磷#NN  含量#NN  中等#JJ  ，#PU  含#VV  少量#CD  B#NN  族#NN  维生素#NN    。#PU  因为#P  大麦#NN  含#VV  谷#NN  蛋白#NN  -LRB-#NN  一#CD  种#M  有#VE  弹性#NN  的#DEC  蛋白质#NN  -RRB-#NN  量少#VV  ，#PU  所以#AD  不#AD  能#VV  做#VV  多孔#NN  面包#NN  ，#PU  可做#VV  不#AD  发酵#NN  食物#NN  ，#PU  在#P  北非#NR  及#CC  亚洲#NR  部分#NN  地区#NN  尤#VV  喜#AD  用#VV  大麦#NN  粉做#NN  麦片粥#NN  ，#PU  大麦#NN  是#VC  这些#DT  地区#NN  的#DEG  主要#JJ  食物#NN  之一#NN    。#PU  珍珠#NN  麦#NN  -LRB-#NN  圆形#NN  大麦米#NN  -RRB-#NN  是#VC  经#P  研磨#VV  除去#P  外壳#NN  和#CC  麸皮层#NN  的#DEG  大#JJ  麦粒#NN  ，#PU  加入#VV  汤#NN  内#LC  煮#VV  食#NN  ，#PU  见#VV  於#NN  世界#NN  各地#NN    。#PU  大麦#NN  麦秆#NN  柔软#VV  ，#PU  多用作#NN  牲畜#NN  铺草#NN  ，#PU  也#AD  大量#AD  用作#VV  粗饲料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具#VV, 大麦#NN)  (root, ROOT#null, 具#VV)  (nn, 香味#NN, 坚果#NN)  (dobj, 具#VV, 香味#NN)  (nn, 含量#NN, 碳水化合物#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 具#VV, 高#VA)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钙#NN)  (nn, 含量#NN, 磷#NN)  (nsubj, 维生素#NN, 含量#NN)  (nfincl, 维生素#NN, 中等#JJ)  (dep, 中等#JJ, 含#VV)  (nummod, 族#NN, 少量#CD)  (nn, 族#NN, B#NN)  (dobj, 含#VV, 族#NN)  (conj, 具#VV, 维生素#NN)   (case, 含#VV, 因为#P)  (nsubj, 含#VV, 大麦#NN)  (prep, 有#VE, 含#VV)  (nn, -LRB-#NN, 谷#NN)  (nn, -LRB-#NN, 蛋白#NN)  (nummod, 种#M, 一#CD)  (range, 含#VV, 种#M)  (relcl, -RRB-#NN, 有#VE)  (dobj, 有#VE, 弹性#NN)  (mark, 有#VE, 的#DEC)  (nn, -RRB-#NN, 蛋白质#NN)  (root, ROOT#null, 量少#VV)  (advmod, 用#VV, 所以#AD)  (neg, 做#VV, 不#AD)  (mmod, 做#VV, 能#VV)  (dep, 用#VV, 做#VV)  (nn, 面包#NN, 多孔#NN)  (dobj, 做#VV, 面包#NN)  (conj, 做#VV, 可做#VV)  (neg, 可做#VV, 不#AD)  (nn, 食物#NN, 发酵#NN)  (dobj, 可做#VV, 食物#NN)  (case, 地区#NN, 在#P)  (conj, 地区#NN, 北非#NR)  (cc, 地区#NN, 及#CC)  (nn, 地区#NN, 亚洲#NR)  (nn, 地区#NN, 部分#NN)  (prep, 尤#VV, 地区#NN)  (conj, 做#VV, 尤#VV)  (advmod, 用#VV, 喜#AD)  (ccomp, 量少#VV, 用#VV)  (nn, 麦片粥#NN, 大麦#NN)  (nn, 麦片粥#NN, 粉做#NN)  (dobj, 用#VV, 麦片粥#NN)  (nsubj, 之一#NN, 大麦#NN)  (cop, 之一#NN, 是#VC)  (det, 地区#NN, 这些#DT)  (assmod, 之一#NN, 地区#NN)  (case, 地区#NN, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 食物#NN)  (dep, 用#VV, 之一#NN)   (nn, -RRB-#NN, 珍珠#NN)  (nn, -RRB-#NN, 麦#NN)  (nn, -RRB-#NN, 圆形#NN)  (nn, -RRB-#NN, 大麦米#NN)  (root, ROOT#null, 是#VC)  (case, 研磨#VV, 经#P)  (prep, 是#VC, 研磨#VV)  (case, 麸皮层#NN, 除去#P)  (conj, 麸皮层#NN, 外壳#NN)  (cc, 麸皮层#NN, 和#CC)  (assmod, 麦粒#NN, 麸皮层#NN)  (case, 麸皮层#NN, 的#DEG)  (amod, 麦粒#NN, 大#JJ)  (dobj, 研磨#VV, 麦粒#NN)  (loc, 煮#VV, 加入#VV)  (dobj, 加入#VV, 汤#NN)  (case, 加入#VV, 内#LC)  (conj, 研磨#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)  (conj, 研磨#VV, 见#VV)  (nn, 各地#NN, 於#NN)  (nn, 各地#NN, 世界#NN)  (dobj, 见#VV, 各地#NN)   (nn, 麦秆#NN, 大麦#NN)  (nsubj, 柔软#VV, 麦秆#NN)  (root, ROOT#null, 柔软#VV)  (nn, 铺草#NN, 多用作#NN)  (nn, 铺草#NN, 牲畜#NN)  (nsubj, 用作#VV, 铺草#NN)  (advmod, 用作#VV, 也#AD)  (advmod, 用作#VV, 大量#AD)  (ccomp, 柔软#VV, 用作#VV)  (dobj, 用作#VV, 粗饲料#NN)
+        </parsing>
+
+        <tag>
+            坚果香味  量少  多孔面包  发酵食物  可做食物  部分地区  粉做麦片粥  麸皮层  外壳  大麦粒  研磨麦粒  加入汤  世界各地  柔软  多用作铺草  牲畜铺草  用作粗饲料  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.大麦磨成粉称为大麦面，可制作饼、馍、吃口筋柔香；
+            2.大麦磨成粗粉粒称为大麦糁子，可制作粥、饭；
+            3.大麦制作麦片，作麦片粥或掺入一部分糯米粉作麦片糕；
+            4.食用时先制成粉，再经烘炒深加工制成糌粑，是西藏人民的主要食物。
+        </rawdata>
+
+        <segment>
+            大麦  磨成粉  称为  大  麦面  ，  可  制作  饼  、  馍  、  吃口  筋柔香  ；
+            大麦  磨成  粗粉粒  称为  大麦  糁子  ，  可  制作粥  、  饭  ；
+            大麦  制作  麦片  ，  作  麦片粥  或  掺入  一部分  糯米粉  作  麦片糕  ；
+            食用  时  先  制成粉  ，  再经烘  炒  深加工  制成  糌粑  ，  是  西藏  人民  的  主要  食物  。
+        </segment>
+
+        <pos>
+            大麦#NN  磨成粉#NN  称为#VV  大#JJ  麦面#NN  ，#PU  可#VV  制作#VV  饼#NR  、#PU  馍#NR  、#PU  吃口#NR  筋柔香#NN  ；#PU
+            大麦#NN  磨成#NN  粗粉粒#NN  称为#VV  大麦#NN  糁子#NN  ，#PU  可#VV  制作粥#NN  、#PU  饭#NN  ；#PU
+            大麦#NN  制作#NN  麦片#NN  ，#PU  作#VV  麦片粥#NN  或#CC  掺入#VV  一部分#CD  糯米粉#NN  作#VV  麦片糕#NN  ；#PU
+            食用#VV  时#LC  先#AD  制成粉#VV  ，#PU  再经烘#NN  炒#NN  深加工#NN  制成#VV  糌粑#NN  ，#PU  是#VC  西藏#NR  人民#NN  的#DEG  主要#JJ  食物#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 磨成粉#NN, 大麦#NN)  (nsubj, 称为#VV, 磨成粉#NN)  (root, ROOT#null, 称为#VV)  (amod, 麦面#NN, 大#JJ)  (dobj, 称为#VV, 麦面#NN)  (mmod, 制作#VV, 可#VV)  (conj, 称为#VV, 制作#VV)  (conj, 吃口#NR, 饼#NR)  (conj, 吃口#NR, 馍#NR)  (nn, 筋柔香#NN, 吃口#NR)  (dobj, 制作#VV, 筋柔香#NN)
+            (nn, 粗粉粒#NN, 大麦#NN)  (nn, 粗粉粒#NN, 磨成#NN)  (nsubj, 称为#VV, 粗粉粒#NN)  (root, ROOT#null, 称为#VV)  (nn, 糁子#NN, 大麦#NN)  (dobj, 称为#VV, 糁子#NN)  (conj, 称为#VV, 可#VV)  (conj, 饭#NN, 制作粥#NN)  (dobj, 可#VV, 饭#NN)
+            (nn, 麦片#NN, 大麦#NN)  (nn, 麦片#NN, 制作#NN)  (nsubj, 作#VV, 麦片#NN)  (root, ROOT#null, 作#VV)  (dobj, 作#VV, 麦片粥#NN)  (cc, 作#VV, 或#CC)  (conj, 作#VV, 掺入#VV)  (nummod, 糯米粉#NN, 一部分#CD)  (dobj, 掺入#VV, 糯米粉#NN)  (conj, 掺入#VV, 作#VV)  (dobj, 作#VV, 麦片糕#NN)
+            (loc, 制成粉#VV, 食用#VV)  (case, 食用#VV, 时#LC)  (advmod, 制成粉#VV, 先#AD)  (root, ROOT#null, 制成粉#VV)  (nn, 深加工#NN, 再经烘#NN)  (nn, 深加工#NN, 炒#NN)  (nsubj, 制成#VV, 深加工#NN)  (ccomp, 制成粉#VV, 制成#VV)  (dobj, 制成#VV, 糌粑#NN)  (cop, 食物#NN, 是#VC)  (nn, 人民#NN, 西藏#NR)  (assmod, 食物#NN, 人民#NN)  (case, 人民#NN, 的#DEG)  (amod, 食物#NN, 主要#JJ)  (conj, 制成粉#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+            大麦面  称为麦面  制作筋柔香  磨成粗粉粒  称为糁子  制作麦片  掺入糯米粉  再经烘深加工  制成糌粑  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091414122524.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\407 大麦.jpg
+    </picturelocalurl>
+
+</content>

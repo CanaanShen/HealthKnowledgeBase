@@ -1,0 +1,124 @@
+<content>
+
+    <id>
+        389
+    </id>
+
+    <foodname>
+        大米粥
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        米面制品
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            大米粥是中国经常食用的家常饭，特别是早餐。大米性味甘平，有和胃气、补脾虚、壮筋骨、和五脏的功效。
+        </rawdata>
+
+        <segment>
+            大  米粥  是  中国  经常  食用  的  家常饭  ，  特别是  早餐  。  大米  性味甘平  ，  有  和  胃气  、  补  脾虚  、  壮  筋骨  、  和  五脏  的  功效  。
+        </segment>
+
+        <pos>
+            大#JJ  米粥#NN  是#VC  中国#NR  经常#AD  食用#VV  的#DEC  家常饭#NN  ，#PU  特别是#AD  早餐#NN    。#PU  大米#NR  性味甘平#VV  ，#PU  有#VE  和#P  胃气#NN  、#PU  补#NN  脾虚#NN  、#PU  壮#JJ  筋骨#NN  、#PU  和#CC  五脏#CD  的#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 米粥#NN, 大#JJ)  (nsubj, 早餐#NN, 米粥#NN)  (cop, 早餐#NN, 是#VC)  (nn, 家常饭#NN, 中国#NR)  (advmod, 食用#VV, 经常#AD)  (relcl, 中国#NR, 食用#VV)  (relcl, 家常饭#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (dep, 早餐#NN, 家常饭#NN)  (advmod, 早餐#NN, 特别是#AD)  (root, ROOT#null, 早餐#NN)   (nsubj, 性味甘平#VV, 大米#NR)  (root, ROOT#null, 性味甘平#VV)  (ccomp, 性味甘平#VV, 有#VE)  (case, 补#NN, 和#P)  (conj, 补#NN, 胃气#NN)  (prep, 功效#NN, 补#NN)  (conj, 功效#NN, 脾虚#NN)  (amod, 筋骨#NN, 壮#JJ)  (dep, 功效#NN, 筋骨#NN)  (cc, 功效#NN, 和#CC)  (assmod, 功效#NN, 五脏#CD)  (case, 五脏#CD, 的#DEG)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            大米粥  食用中国  食用家常饭  功效  脾虚  壮筋骨  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            大米性味甘平,有和胃气、补脾虚、壮筋骨、和五脏的功效。
+        </rawdata>
+
+        <segment>
+            大米  性味甘平  ,  有  和  胃气  、  补  脾虚  、  壮  筋骨  、  和  五脏  的  功效  。
+        </segment>
+
+        <pos>
+            大米#NN  性味甘平#NN  ,#AD  有#VE  和#P  胃气#NN  、#PU  补#NN  脾虚#NN  、#PU  壮#JJ  筋骨#NN  、#PU  和#CC  五脏#CD  的#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 性味甘平#NN, 大米#NN)  (nsubj, 有#VE, 性味甘平#NN)  (root, ROOT#null, 有#VE)  (case, 补#NN, 和#P)  (conj, 补#NN, 胃气#NN)  (prep, 功效#NN, 补#NN)  (conj, 功效#NN, 脾虚#NN)  (amod, 筋骨#NN, 壮#JJ)  (dep, 功效#NN, 筋骨#NN)  (cc, 功效#NN, 和#CC)  (assmod, 功效#NN, 五脏#CD)  (case, 五脏#CD, 的#DEG)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            大米性味甘平  功效  脾虚  壮筋骨  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            大米是中国人的主食之一，由稻子的子实脱壳而成。稻米中氨基酸的组成比较全，蛋白质主要是米精蛋白，易于消化吸收，无论是家庭用餐还是去餐馆，米饭都是必不可少的。
+            大米可提供丰富B族维生素；大米具有补中益气、健脾养胃、益精强志、和五脏、通血脉、聪耳明目、止烦、止渴、止泻的功效；米粥具有补脾、和胃、清肺功效。
+        </rawdata>
+
+        <segment>
+            大米  是  中国人  的  主食  之一  ，  由  稻子  的  子实  脱壳  而  成  。  稻米  中  氨基酸  的  组成  比较  全  ，  蛋白质  主要  是  米  精蛋白  ，  易于  消化  吸收  ，  无论是  家庭  用餐  还是  去  餐馆  ，  米饭  都  是  必不可少  的  。
+            大米  可  提供  丰富  B  族  维生素  ；  大米  具有  补  中  益气  、  健脾  养  胃  、  益精  强志  、  和  五脏  、  通  血脉  、  聪耳  明目  、  止烦  、  止渴  、  止泻  的  功效  ；  米粥  具有  补脾  、  和  胃  、  清  肺  功效  。
+        </segment>
+
+        <pos>
+            大米#AD  是#VC  中国人#NN  的#DEG  主食#NN  之一#NN  ，#PU  由#P  稻子#NN  的#DEG  子实#NN  脱壳#NN  而#MSP  成#VV    。#PU  稻米#NN  中#LC  氨基酸#NN  的#DEG  组成#NN  比较#AD  全#VA  ，#PU  蛋白质#NN  主要#AD  是#VC  米#M  精蛋白#NN  ，#PU  易于#VV  消化#NN  吸收#NN  ，#PU  无论是#AD  家庭#NN  用餐#NN  还是#AD  去#VV  餐馆#NN  ，#PU  米饭#NN  都#AD  是#VC  必不可少#VA  的#DEC    。#PU    。#PU
+            大米#NR  可#VV  提供#VV  丰富#VA  B#NN  族#NN  维生素#NN  ；#PU  大米#NR  具有#VV  补#NN  中#LC  益气#NN  、#PU  健脾#VV  养#VV  胃#NN  、#PU  益精#NN  强志#NN  、#PU  和#CC  五脏#CD  、#PU  通#VV  血脉#VA  、#PU  聪耳#VA  明目#VA  、#PU  止烦#VA  、#PU  止渴#VA  、#PU  止泻#VA  的#DEC  功效#NN  ；#PU  米粥#VV  具有#VV  补脾#NN  、#PU  和#P  胃#JJ  、#PU  清#JJ  肺#NN  功效#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 之一#NN, 大米#AD)  (cop, 之一#NN, 是#VC)  (assmod, 之一#NN, 中国人#NN)  (case, 中国人#NN, 的#DEG)  (nn, 之一#NN, 主食#NN)  (root, ROOT#null, 之一#NN)  (case, 脱壳#NN, 由#P)  (assmod, 脱壳#NN, 稻子#NN)  (case, 稻子#NN, 的#DEG)  (nn, 脱壳#NN, 子实#NN)  (prep, 成#VV, 脱壳#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 之一#NN, 成#VV)   (loc, 全#VA, 稻米#NN)  (case, 稻米#NN, 中#LC)  (assmod, 组成#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 全#VA, 组成#NN)  (advmod, 全#VA, 比较#AD)  (root, ROOT#null, 全#VA)  (nsubj, 精蛋白#NN, 蛋白质#NN)  (advmod, 精蛋白#NN, 主要#AD)  (cop, 精蛋白#NN, 是#VC)  (dep, 精蛋白#NN, 米#M)  (conj, 全#VA, 精蛋白#NN)  (conj, 精蛋白#NN, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)  (advmod, 去#VV, 无论是#AD)  (nn, 用餐#NN, 家庭#NN)  (nsubj, 去#VV, 用餐#NN)  (advmod, 去#VV, 还是#AD)  (conj, 全#VA, 去#VV)  (dobj, 去#VV, 餐馆#NN)  (nsubj, 必不可少#VA, 米饭#NN)  (advmod, 必不可少#VA, 都#AD)  (cop, 必不可少#VA, 是#VC)  (conj, 全#VA, 必不可少#VA)  (mark, 必不可少#VA, 的#DEC)   (root, ROOT#null, null#null)
+            (nsubj, 提供#VV, 大米#NR)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (rcomp, 提供#VV, 丰富#VA)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 提供#VV, 维生素#NN)  (nsubj, 具有#VV, 大米#NR)  (conj, 提供#VV, 具有#VV)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (dobj, 具有#VV, 益气#NN)  (conj, 具有#VV, 健脾#VV)  (rcomp, 健脾#VV, 养#VV)  (conj, 强志#NN, 胃#NN)  (nn, 强志#NN, 益精#NN)  (dep, 健脾#VV, 强志#NN)  (cc, 强志#NN, 和#CC)  (dep, 强志#NN, 五脏#CD)  (conj, 具有#VV, 通#VV)  (relcl, 功效#NN, 血脉#VA)  (dep, 血脉#VA, 聪耳#VA)  (conj, 血脉#VA, 明目#VA)  (conj, 血脉#VA, 止烦#VA)  (conj, 血脉#VA, 止渴#VA)  (dep, 血脉#VA, 止泻#VA)  (mark, 血脉#VA, 的#DEC)  (dobj, 通#VV, 功效#NN)  (mmod, 具有#VV, 米粥#VV)  (conj, 具有#VV, 具有#VV)  (dobj, 具有#VV, 补脾#NN)  (case, 肺#NN, 和#P)  (amod, 肺#NN, 胃#JJ)  (dep, 胃#JJ, 清#JJ)  (prep, 功效#VV, 肺#NN)  (conj, 具有#VV, 功效#VV)
+        </parsing>
+
+        <tag>
+            子实脱壳  氨基酸  消化吸收  易于吸收  家庭用餐  米饭必不可少  提供维生素  益精强志  功效血脉  胃肺  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121843165840.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\389 大米粥.jpg
+    </picturelocalurl>
+
+</content>

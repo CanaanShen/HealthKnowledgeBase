@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        811
+    </id>
+
+    <foodname>
+        掐不齐
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        鸡眼草、牛黄草
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            脾胃虚寒者勿食;
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  者  勿食  ;
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  者#NN  勿食#VV  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 脾胃#NN)  (nn, 者#NN, 虚寒#NN)  (nsubj, 勿食#VV, 者#NN)  (root, ROOT#null, 勿食#VV)  (dobj, 勿食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒者勿食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            掐不齐为豆科植物鸡眼草的嫩茎叶。分布我国南部、中部及华北等地。
+        </rawdata>
+
+        <segment>
+            掐不齐  为  豆科  植物  鸡眼  草  的  嫩茎叶  。  分布  我国  南部  、  中部  及  华北  等  地  。
+        </segment>
+
+        <pos>
+            掐不齐#NN  为#P  豆科#NN  植物#NN  鸡眼#VV  草#NN  的#DEG  嫩茎叶#NN    。#PU  分布#VV  我国#NR  南部#NN  、#PU  中部#NN  及#CC  华北#NR  等#ETC  地#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鸡眼#VV, 掐不齐#NN)  (case, 植物#NN, 为#P)  (nn, 植物#NN, 豆科#NN)  (prep, 鸡眼#VV, 植物#NN)  (root, ROOT#null, 鸡眼#VV)  (assmod, 嫩茎叶#NN, 草#NN)  (case, 草#NN, 的#DEG)  (dobj, 鸡眼#VV, 嫩茎叶#NN)   (root, ROOT#null, 分布#VV)  (nn, 南部#NN, 我国#NR)  (conj, 华北#NR, 南部#NN)  (conj, 华北#NR, 中部#NN)  (cc, 华北#NR, 及#CC)  (nn, 地#NN, 华北#NR)  (etc, 华北#NR, 等#ETC)  (dobj, 分布#VV, 地#NN)
+        </parsing>
+
+        <tag>
+            豆科植物  鸡眼嫩茎叶  分布地  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            掐不齐性味苦味，具有清热解毒、健脾利湿的功效。治感冒发烧、暑湿、吐泻、虐疾、痢疾、传染性肝炎、热淋、白浊等。
+        </rawdata>
+
+        <segment>
+            掐不齐性  味  苦味  ，  具有  清热  解毒  、  健脾  利湿  的  功效  。  治  感冒  发烧  、  暑湿  、  吐泻  、  虐疾  、  痢疾  、  传染性  肝炎  、  热淋  、  白浊  等  。
+        </segment>
+
+        <pos>
+            掐不齐性#NN  味#NN  苦味#VV  ，#PU  具有#VV  清热#NN  解毒#NN  、#PU  健脾#NN  利湿#NN  的#DEG  功效#NN    。#PU  治#VV  感冒#NR  发烧#NR  、#PU  暑湿#NR  、#PU  吐泻#NR  、#PU  虐疾#NR  、#PU  痢疾#NR  、#PU  传染性#NR  肝炎#NN  、#PU  热淋#NR  、#PU  白浊#NR  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 味#NN, 掐不齐性#NN)  (nsubj, 苦味#VV, 味#NN)  (root, ROOT#null, 苦味#VV)  (ccomp, 苦味#VV, 具有#VV)  (nn, 利湿#NN, 清热#NN)  (conj, 利湿#NN, 解毒#NN)  (nn, 利湿#NN, 健脾#NN)  (assmod, 功效#NN, 利湿#NN)  (case, 利湿#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)   (root, ROOT#null, 治#VV)  (nn, 传染性#NR, 感冒#NR)  (conj, 传染性#NR, 发烧#NR)  (conj, 传染性#NR, 暑湿#NR)  (conj, 传染性#NR, 吐泻#NR)  (conj, 传染性#NR, 虐疾#NR)  (conj, 传染性#NR, 痢疾#NR)  (nn, 肝炎#NN, 传染性#NR)  (conj, 白浊#NR, 肝炎#NN)  (conj, 白浊#NR, 热淋#NR)  (dobj, 治#VV, 白浊#NR)  (etc, 白浊#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            苦味  清热利湿  解毒  健脾利湿  传染性  发烧  暑湿  吐泻  虐疾  痢疾  白浊  热淋  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        利水  清暑  截疟
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            若治中暑；可内服：煎汤，0.5～1两
+        </rawdata>
+
+        <segment>
+            若  治  中暑  ；  可  内服  ：  煎  汤  ，  5  ～  1  两
+        </segment>
+
+        <pos>
+            若#CS  治#VV  中暑#NN  ；#PU  可#VV  内服#VV  ：#PU  煎#VV  汤#NN  ，#PU  5#CD  ～#VV  1#CD  两#CD
+        </pos>
+
+        <parsing>
+            (advmod, 治#VV, 若#CS)  (conj, ～#VV, 治#VV)  (root, ～#VV, 治#VV)  (dobj, 治#VV, 中暑#NN)  (dep, 内服#VV, 可#VV)  (dep, 治#VV, 内服#VV)  (dep, 治#VV, 煎#VV)  (dobj, 煎#VV, 汤#NN)  (dep, 治#VV, 5#CD)  (dobj, 治#VV, 1#CD)  (dobj, ～#VV, 1#CD)  (range, 治#VV, 两#CD)  (range, ～#VV, 两#CD)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/53/41/82259_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\811 掐不齐.jpg
+    </picturelocalurl>
+
+</content>

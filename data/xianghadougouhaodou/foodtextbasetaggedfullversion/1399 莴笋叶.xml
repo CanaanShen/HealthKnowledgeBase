@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1399
+    </id>
+
+    <foodname>
+        莴笋叶
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        莴苣菜
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            莴笋叶营养丰富，还具有清热安神、清肝利胆、养胃的功效。适宜胃病、维生素C缺乏、肥胖、高胆固醇、神经衰弱、肝胆病患者食用。
+        </rawdata>
+
+        <segment>
+            莴笋  叶  营养  丰富  ，  还  具有  清热  安神  、  清肝利胆  、  养  胃  的  功效  。  适宜  胃病  、  维生素C  缺乏  、  肥胖  、  高  胆固醇  、  神经  衰弱  、  肝胆  病  患者  食用  。
+        </segment>
+
+        <pos>
+            莴笋#NN  叶#NN  营养#VA  丰富#VA  ，#PU  还#AD  具有#VV  清热#NN  安神#NN  、#PU  清肝利胆#NN  、#PU  养#VV  胃#NN  的#DEC  功效#NN    。#PU  适宜#VA  胃病#VA  、#PU  维生素C#VV  缺乏#VV  、#PU  肥胖#NN  、#PU  高#JJ  胆固醇#NN  、#PU  神经#NN  衰弱#NN  、#PU  肝胆#NR  病#JJ  患者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 叶#NN, 莴笋#NN)  (nsubj, 营养#VA, 叶#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 具有#VV, 还#AD)  (dep, 营养#VA, 具有#VV)  (nn, 安神#NN, 清热#NN)  (conj, 功效#NN, 安神#NN)  (conj, 功效#NN, 清肝利胆#NN)  (relcl, 功效#NN, 养#VV)  (dobj, 养#VV, 胃#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)   (relcl, 患者#NN, 适宜#VA)  (comod, 适宜#VA, 胃病#VA)  (ccomp, 适宜#VA, 维生素C#VV)  (comod, 维生素C#VV, 缺乏#VV)  (conj, 患者#NN, 肥胖#NN)  (amod, 胆固醇#NN, 高#JJ)  (conj, 患者#NN, 胆固醇#NN)  (nn, 衰弱#NN, 神经#NN)  (conj, 患者#NN, 衰弱#NN)  (nn, 患者#NN, 肝胆#NR)  (amod, 患者#NN, 病#JJ)  (nsubj, 食用#VV, 患者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            叶营养  营养丰富  清热安神  清肝利胆  养功效  患者适宜  胃病适宜  肥胖  高胆固醇  神经衰弱  病患者  食用  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            莴笋叶利五脏、通经脉、清胃热、清热利尿，应用于小便不利、尿血、乳汁不通。
+        </rawdata>
+
+        <segment>
+            莴笋  叶  利  五脏  、  通  经脉  、  清  胃  热  、  清热  利尿  ，  应用于  小便  不利  、  尿血  、  乳汁  不通  。
+        </segment>
+
+        <pos>
+            莴笋#VV  叶#NR  利#NR  五脏#CD  、#PU  通#VV  经脉#NN  、#PU  清#JJ  胃#NN  热#NN  、#PU  清热#NN  利尿#NN  ，#PU  应用于#AD  小便#VV  不利#JJ  、#PU  尿血#JJ  、#PU  乳汁#JJ  不通#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 莴笋#VV)  (nn, 利#NR, 叶#NR)  (dobj, 莴笋#VV, 利#NR)  (range, 莴笋#VV, 五脏#CD)  (conj, 莴笋#VV, 通#VV)  (conj, 利尿#NN, 经脉#NN)  (amod, 胃#NN, 清#JJ)  (nn, 热#NN, 胃#NN)  (conj, 利尿#NN, 热#NN)  (nn, 利尿#NN, 清热#NN)  (dobj, 通#VV, 利尿#NN)  (advmod, 小便#VV, 应用于#AD)  (conj, 莴笋#VV, 小便#VV)  (amod, 不通#NN, 不利#JJ)  (conj, 不利#JJ, 尿血#JJ)  (dep, 不利#JJ, 乳汁#JJ)  (dobj, 小便#VV, 不通#NN)
+        </parsing>
+
+        <tag>
+            莴笋  经脉  清胃  清热利尿  不利不通  小便不通  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血压  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            莴笋叶多食使人目糊，不过只要停食数天，就能自行恢复。
+        </rawdata>
+
+        <segment>
+            莴笋  叶  多  食  使  人  目糊  ，  不过  只要  停食  数天  ，  就  能  自行  恢复  。
+        </segment>
+
+        <pos>
+            莴笋#NR  叶#NR  多#CD  食#NN  使#VV  人#NN  目糊#VV  ，#PU  不过#AD  只要#CS  停食#VV  数天#NN  ，#PU  就#AD  能#VV  自行#AD  恢复#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 食#NN, 莴笋#NR)  (nn, 食#NN, 叶#NR)  (nummod, 食#NN, 多#CD)  (nsubj, 使#VV, 食#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 目糊#VV)  (advmod, 停食#VV, 不过#AD)  (advmod, 停食#VV, 只要#CS)  (conj, 使#VV, 停食#VV)  (dobj, 停食#VV, 数天#NN)  (advmod, 恢复#VV, 就#AD)  (mmod, 恢复#VV, 能#VV)  (advmod, 恢复#VV, 自行#AD)  (conj, 使#VV, 恢复#VV)
+        </parsing>
+
+        <tag>
+            停食数天  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/45/2f/12101_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1399 莴笋叶.jpg
+    </picturelocalurl>
+
+</content>

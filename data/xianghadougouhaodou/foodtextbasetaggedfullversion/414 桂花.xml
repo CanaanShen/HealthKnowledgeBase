@@ -1,0 +1,176 @@
+<content>
+
+    <id>
+        414
+    </id>
+
+    <foodname>
+        桂花
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        木樨、月桂、金桂、岩桂、九里香、七里香
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            体质偏热，火热内盛者慎食。
+        </rawdata>
+
+        <segment>
+            体质  偏  热  ，  火热  内盛  者  慎食  。
+        </segment>
+
+        <pos>
+            体质#VV  偏#AD  热#NN  ，#PU  火热#VV  内盛#NN  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 体质#VV)  (advmod, 体质#VV, 偏#AD)  (dobj, 体质#VV, 热#NN)  (conj, 体质#VV, 火热#VV)  (nn, 慎食#NN, 内盛#NN)  (nn, 慎食#NN, 者#NN)  (dobj, 火热#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            体质偏热  火热内盛者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜口臭者、牙痛者、慢性支气管炎患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  口臭  者  、  牙痛者  、  慢性  支气管炎  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  口臭#NN  者#NN  、#PU  牙痛者#NN  、#PU  慢性#NN  支气管炎#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 支气管炎#NN, 口臭#NN)  (conj, 支气管炎#NN, 者#NN)  (conj, 支气管炎#NN, 牙痛者#NN)  (nn, 支气管炎#NN, 慢性#NN)  (nn, 患者#NN, 支气管炎#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  口臭者  牙痛者  慢性支气管炎  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            木犀科木犀属植物桂花，以花、果实及根入药。秋季采花；冬季采果；四季采根，分别晒干。桂花是一种具有观赀陛和药用价值的花，以桂花做原料制作的桂
+        </rawdata>
+
+        <segment>
+            木犀科  木犀  属  植物  桂花  ，  以  花  、  果实  及根  入药  。  秋季  采花  ；  冬季  采果  ；  四  季  采根  ，  分别  晒干  。  桂花  是  一  种  具有  观赀陛  和  药用  价值  的  花  ，  以  桂花  做  原料  制作  的桂
+        </segment>
+
+        <pos>
+            木犀科#NN  木犀#AD  属#VV  植物#NN  桂花#NN  ，#PU  以#P  花#NN  、#PU  果实#NN  及根#VV  入药#NN    。#PU  秋季#NT  采花#VV  ；#PU  冬季#NT  采果#VV  ；#PU  四#CD  季#M  采根#NN  ，#PU  分别#AD  晒干#VV    。#PU  桂花#NN  是#VC  一#CD  种#M  具有#VV  观赀陛#NN  和#CC  药用#NN  价值#NN  的#DEC  花#NN  ，#PU  以#P  桂花#NN  做#VV  原料#NN  制作#NN  的桂#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 木犀科#NN)  (advmod, 属#VV, 木犀#AD)  (root, ROOT#null, 属#VV)  (nn, 桂花#NN, 植物#NN)  (dobj, 属#VV, 桂花#NN)  (case, 果实#NN, 以#P)  (conj, 果实#NN, 花#NN)  (prep, 及根#VV, 果实#NN)  (conj, 属#VV, 及根#VV)  (dobj, 及根#VV, 入药#NN)   (tmod, 采花#VV, 秋季#NT)  (root, ROOT#null, 采花#VV)  (tmod, 采果#VV, 冬季#NT)  (ccomp, 采花#VV, 采果#VV)  (nummod, 季#M, 四#CD)  (clf, 采根#NN, 季#M)  (nsubj, 晒干#VV, 采根#NN)  (advmod, 晒干#VV, 分别#AD)  (ccomp, 采果#VV, 晒干#VV)   (nsubj, 花#NN, 桂花#NN)  (cop, 花#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 花#NN, 种#M)  (relcl, 花#NN, 具有#VV)  (conj, 药用#NN, 观赀陛#NN)  (cc, 药用#NN, 和#CC)  (nn, 价值#NN, 药用#NN)  (dobj, 具有#VV, 价值#NN)  (mark, 具有#VV, 的#DEC)  (root, ROOT#null, 花#NN)  (case, 桂花#NN, 以#P)  (prep, 做#VV, 桂花#NN)  (conj, 花#NN, 做#VV)  (nn, 的桂#NN, 原料#NN)  (nn, 的桂#NN, 制作#NN)  (dobj, 做#VV, 的桂#NN)
+        </parsing>
+
+        <tag>
+            采花  观赀陛  药用价值  原料的桂  制作的桂  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.花的功效
+            辛，温。散寒破结，化痰止咳。用于牙痛，咳喘痰多，经闭腹痛。
+            2.果的功效
+            辛、甘，温。暖胃，平肝，散寒。用于虚寒胃痛。
+            3.根的功效
+            甘、微涩，平。祛风湿，散寒。用于风湿筋骨疼痛，腰痛，肾虚牙痛。
+        </rawdata>
+
+        <segment>
+            花的  功效
+            辛  ，  温  。  散  寒  破结  ，  化痰  止咳  。  用于  牙痛  ，  咳喘  痰多  ，  经闭  腹痛  。
+            果  的  功效
+            辛  、  甘  ，  温  。  暖胃  ，  平肝  ，  散寒  。  用于  虚寒  胃痛  。
+            根的  功效
+            甘  、  微涩  ，  平  。  祛风湿  ，  散寒  。  用于  风湿  筋骨  疼痛  ，  腰痛  ，  肾虚  牙痛  。
+        </segment>
+
+        <pos>
+            花的#NN  功效#VV
+            辛#VV  ，#PU  温#NN    。#PU  散#JJ  寒#JJ  破结#NN  ，#PU  化痰#AD  止咳#VV    。#PU  用于#VV  牙痛#NN  ，#PU  咳喘#VV  痰多#NN  ，#PU  经闭#VV  腹痛#NN    。#PU    。#PU
+            果#NN  的#DEG  功效#NN
+            辛#VV  、#PU  甘#NR  ，#PU  温#NN    。#PU  暖胃#VV  ，#PU  平肝#NN  ，#PU  散寒#VV    。#PU  用于#VV  虚寒#NN  胃痛#NN    。#PU    。#PU
+            根的#NN  功效#VV
+            甘#NR  、#PU  微涩#NR  ，#PU  平#VV    。#PU  祛风湿#VV  ，#PU  散寒#VV    。#PU  用于#VV  风湿#NN  筋骨#NN  疼痛#NN  ，#PU  腰痛#VV  ，#PU  肾虚#VV  牙痛#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 功效#VV, 花的#NN)  (root, ROOT#null, 功效#VV)
+            (root, ROOT#null, 辛#VV)  (dep, 辛#VV, 温#NN)   (amod, 破结#NN, 散#JJ)  (amod, 破结#NN, 寒#JJ)  (dep, 止咳#VV, 破结#NN)  (advmod, 止咳#VV, 化痰#AD)  (root, ROOT#null, 止咳#VV)   (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 牙痛#NN)  (conj, 用于#VV, 咳喘#VV)  (dobj, 咳喘#VV, 痰多#NN)  (conj, 用于#VV, 经闭#VV)  (dobj, 经闭#VV, 腹痛#NN)   (root, ROOT#null, null#null)
+            (assmod, 功效#NN, 果#NN)  (case, 果#NN, 的#DEG)  (root, ROOT#null, 功效#NN)
+            (root, ROOT#null, 辛#VV)  (conj, 辛#VV, 甘#NR)  (conj, 辛#VV, 温#NN)   (root, ROOT#null, 暖胃#VV)  (nsubj, 散寒#VV, 平肝#NN)  (ccomp, 暖胃#VV, 散寒#VV)   (root, ROOT#null, 用于#VV)  (nn, 胃痛#NN, 虚寒#NN)  (dobj, 用于#VV, 胃痛#NN)   (root, ROOT#null, null#null)
+            (nsubj, 功效#VV, 根的#NN)  (root, ROOT#null, 功效#VV)
+            (conj, 微涩#NR, 甘#NR)  (dep, 平#VV, 微涩#NR)  (root, ROOT#null, 平#VV)   (root, ROOT#null, 祛风湿#VV)  (ccomp, 祛风湿#VV, 散寒#VV)   (root, ROOT#null, 用于#VV)  (nn, 疼痛#NN, 风湿#NN)  (nn, 疼痛#NN, 筋骨#NN)  (dobj, 用于#VV, 疼痛#NN)  (conj, 用于#VV, 腰痛#VV)  (conj, 用于#VV, 肾虚#VV)  (dobj, 肾虚#VV, 牙痛#NN)
+        </parsing>
+
+        <tag>
+            功效  散破结  寒破结  止咳  用于牙痛  咳喘痰多  经闭腹痛  暖胃  虚寒胃痛  用于胃痛  风湿疼痛  筋骨疼痛  用于疼痛  肾虚牙痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        化痰  止咳  生津
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            桂花味香，持久，可制糕点、糖果，并可酿酒。
+        </rawdata>
+
+        <segment>
+            桂花  味香  ，  持久  ，  可  制  糕点  、  糖果  ，  并  可  酿酒  。
+        </segment>
+
+        <pos>
+            桂花#NN  味香#VV  ，#PU  持久#VV  ，#PU  可#VV  制#VV  糕点#NN  、#PU  糖果#NN  ，#PU  并#CC  可#VV  酿酒#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味香#VV, 桂花#NN)  (xsubj, 制#VV, 桂花#NN)  (root, ROOT#null, 味香#VV)  (dep, 制#VV, 持久#VV)  (mmod, 制#VV, 可#VV)  (ccomp, 味香#VV, 制#VV)  (conj, 糖果#NN, 糕点#NN)  (dobj, 制#VV, 糖果#NN)  (cc, 制#VV, 并#CC)  (dep, 制#VV, 可#VV)  (dobj, 可#VV, 酿酒#NN)
+        </parsing>
+
+        <tag>
+            味香  糖果  糕点  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121604397769.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\414 桂花.jpg
+    </picturelocalurl>
+
+</content>

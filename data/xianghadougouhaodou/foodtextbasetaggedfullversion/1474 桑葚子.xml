@@ -1,0 +1,198 @@
+<content>
+
+    <id>
+        1474
+    </id>
+
+    <foodname>
+        桑葚子
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        桑葚、桑实、桑果、桑枣、乌椹、桑椹子、葚、文武实、黑椹、桑枣、桑粒、桑藨
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            熬桑葚膏时忌用铁器。因桑椹中含有溶血性过敏物质及透明质酸，过量食用后容易发生溶血性肠炎。
+            少年儿童不宜多吃桑椹。因为桑椹内含有较多的胰蛋白酶抑制物-鞣酸，会影响人体对铁、钙、锌等物质的吸收。
+            脾虚便溏者亦不宜吃桑葚。桑葚含糖量高，糖尿病人应忌食。
+        </rawdata>
+
+        <segment>
+            熬  桑葚  膏时忌  用  铁器  。  因  桑椹  中  含有  溶血性  过敏  物质  及  透明质  酸  ，  过量  食用  后  容易  发生  溶  血性  肠炎  。
+            少年  儿童  不  宜  多  吃  桑椹  。  因为  桑椹  内  含有  较多  的  胰蛋白酶  抑制物  -  鞣酸  ，  会  影响  人体  对铁  、  钙  、  锌  等  物质  的  吸收  。
+            脾虚  便  溏者  亦  不  宜  吃  桑葚  。  桑葚  含糖量  高  ，  糖尿病人  应  忌食  。
+        </segment>
+
+        <pos>
+            熬#NN  桑葚#NN  膏时忌#AD  用#VV  铁器#NN    。#PU  因#P  桑椹#NN  中#LC  含有#AD  溶血性#VV  过敏#NN  物质#NN  及#CC  透明质#NN  酸#NN  ，#PU  过量#AD  食用#VV  后#LC  容易#VA  发生#VV  溶#NN  血性#NN  肠炎#NN    。#PU    。#PU
+            少年#NN  儿童#NN  不#AD  宜#NR  多#AD  吃#VV  桑椹#NN    。#PU  因为#P  桑椹#NN  内#LC  含有#NN  较多#NN  的#DEG  胰蛋白酶#NN  抑制物#VV  -#NN  鞣酸#NN  ，#PU  会#VV  影响#VV  人体#NN  对铁#NN  、#PU  钙#NN  、#PU  锌#NN  等#ETC  物质#NN  的#DEG  吸收#NN    。#PU    。#PU
+            脾虚#NN  便#AD  溏者#AD  亦#AD  不#AD  宜#NR  吃#VV  桑葚#NN    。#PU  桑葚#NN  含糖量#AD  高#VA  ，#PU  糖尿病人#AD  应#VV  忌食#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 桑葚#NN, 熬#NN)  (nsubj, 用#VV, 桑葚#NN)  (advmod, 用#VV, 膏时忌#AD)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 铁器#NN)   (case, 溶血性#VV, 因#P)  (loc, 溶血性#VV, 桑椹#NN)  (case, 桑椹#NN, 中#LC)  (advmod, 溶血性#VV, 含有#AD)  (prep, 发生#VV, 溶血性#VV)  (nn, 酸#NN, 过敏#NN)  (conj, 酸#NN, 物质#NN)  (cc, 酸#NN, 及#CC)  (nn, 酸#NN, 透明质#NN)  (dobj, 溶血性#VV, 酸#NN)  (advmod, 食用#VV, 过量#AD)  (loc, 容易#VA, 食用#VV)  (case, 食用#VV, 后#LC)  (conj, 溶血性#VV, 容易#VA)  (root, ROOT#null, 发生#VV)  (nn, 肠炎#NN, 溶#NN)  (nn, 肠炎#NN, 血性#NN)  (dobj, 发生#VV, 肠炎#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, null#null)
+            (nn, 儿童#NN, 少年#NN)  (nsubj, 吃#VV, 儿童#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 桑椹#NN)   (case, 抑制物#VV, 因为#P)  (loc, 抑制物#VV, 桑椹#NN)  (case, 桑椹#NN, 内#LC)  (nn, 较多#NN, 含有#NN)  (assmod, 胰蛋白酶#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nsubj, 抑制物#VV, 胰蛋白酶#NN)  (prep, 影响#VV, 抑制物#VV)  (dobj, 抑制物#VV, 鞣酸#NN)  (mmod, 影响#VV, 会#VV)  (root, ROOT#null, 影响#VV)  (nn, 锌#NN, 人体#NN)  (conj, 锌#NN, 对铁#NN)  (conj, 锌#NN, 钙#NN)  (nn, 物质#NN, 锌#NN)  (etc, 锌#NN, 等#ETC)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 影响#VV, 吸收#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, null#null)
+            (nsubj, 吃#VV, 脾虚#NN)  (advmod, 吃#VV, 便#AD)  (advmod, 吃#VV, 溏者#AD)  (advmod, 吃#VV, 亦#AD)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 桑葚#NN)   (nsubj, 高#VA, 桑葚#NN)  (advmod, 高#VA, 含糖量#AD)  (root, ROOT#null, 高#VA)  (advmod, 应#VV, 糖尿病人#AD)  (dep, 高#VA, 应#VV)  (dobj, 应#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            熬桑葚膏时忌用铁器  桑椹中含有溶血性过敏物质  透明质酸  过量  后容易发生溶血性肠炎  少年儿童不宜多吃桑椹  桑椹内含有较多  胰蛋白酶抑制物-鞣酸  会影响人体对铁  物质  吸收  脾虚便溏者亦不宜吃桑葚  桑葚含糖量高  糖尿病人应  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+            人群:幼儿人群应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+            人群  :  幼儿  人群  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+            人群#NN  :#NN  幼儿#NN  人群#NN  应#P  忌食#NN  或少#VV  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+            (nn, 人群#NN, 人群#NN)  (nn, 人群#NN, 幼儿#NN)  (nsubj, 或少#VV, 人群#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (nn, ;#NN, 食#NN)  (dobj, 或少#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质  忌食或少食  人群:幼儿人群  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            桑葚果实中含有丰富的活性蛋白、维生素、氨基酸、胡萝卜素、矿物质等成分，具有多种功效。常吃桑葚能显著提高人体免疫力，具有延缓衰老，美容养颜的功效。
+        </rawdata>
+
+        <segment>
+            桑葚  果实  中  含有  丰富  的  活性  蛋白  、  维生素  、  氨基酸  、  胡萝卜素  、  矿物质  等  成分  ，  具有  多  种  功效  。  常  吃  桑葚  能  显著  提高  人体  免疫力  ，  具有  延缓  衰老  ，  美容  养颜  的  功效  。
+        </segment>
+
+        <pos>
+            桑葚#VV  果实#NN  中#LC  含有#AD  丰富#VA  的#DEC  活性#NN  蛋白#NN  、#PU  维生素#NN  、#PU  氨基酸#NN  、#PU  胡萝卜素#NN  、#PU  矿物质#NN  等#ETC  成分#NN  ，#PU  具有#VV  多#CD  种#M  功效#NN    。#PU  常#AD  吃#VV  桑葚#NN  能#VV  显著#AD  提高#VV  人体#NN  免疫力#NN  ，#PU  具有#VV  延缓#NN  衰老#NN  ，#PU  美容#VV  养颜#NN  的#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 桑葚#VV)  (loc, 丰富#VA, 果实#NN)  (case, 果实#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 矿物质#NN, 活性#NN)  (conj, 矿物质#NN, 蛋白#NN)  (conj, 矿物质#NN, 维生素#NN)  (conj, 矿物质#NN, 氨基酸#NN)  (conj, 矿物质#NN, 胡萝卜素#NN)  (nn, 成分#NN, 矿物质#NN)  (etc, 矿物质#NN, 等#ETC)  (dobj, 桑葚#VV, 成分#NN)  (conj, 桑葚#VV, 具有#VV)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (dobj, 具有#VV, 功效#NN)   (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 桑葚#NN)  (mmod, 提高#VV, 能#VV)  (advmod, 提高#VV, 显著#AD)  (conj, 吃#VV, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)  (conj, 吃#VV, 具有#VV)  (nn, 衰老#NN, 延缓#NN)  (dobj, 具有#VV, 衰老#NN)  (conj, 吃#VV, 美容#VV)  (assmod, 功效#NN, 养颜#NN)  (case, 养颜#NN, 的#DEG)  (dobj, 美容#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            桑葚  活性矿物质  蛋白  维生素  氨基酸  胡萝卜素  人体免疫力  提高免疫力  延缓衰老  美容功效  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            具有补肝益肾、生津润肠、乌发明目、止渴解毒、养颜等功效，适用于阴血不足、肝肾阴亏、腰膝酸软、目暗耳鸣、头晕目眩、盗汗及津伤口渴、消渴、肠燥便秘等症。
+            1.桑椹中的脂肪酸具有分解脂肪、降低血脂，防止血管硬化等作用;
+            2.桑椹含有乌发素，能使头发变的黑而亮泽;
+            3.桑椹有改善皮肤(包括头皮)血液供应，营养肌肤，使皮肤白嫩及乌发等作用，并能延缓衰老;
+            4.桑椹具有免疫促进作用，可以防癌抗癌;
+            5.桑椹主入肝肾，善滋阴养血、生津润燥，适于肝肾阴血不足及津亏消渴，肠燥等症;
+            6.常食桑椹可以明目，缓解眼睛疲劳干涩的症状。
+            7.夏天可饮用桑葚汁，不仅可补充体力，还可提高性生活质量。是很多治疗死精症的方剂的重要组成药物。
+        </rawdata>
+
+        <segment>
+            具有  补肝  益  肾  、  生津  润肠  、  乌发  明目  、  止渴  解毒  、  养颜  等  功效  ，  适用于  阴  血  不足  、  肝肾  阴亏  、  腰膝  酸软  、  目暗  耳鸣  、  头晕  目眩  、  盗汗  及  津伤  口渴  、  消渴  、  肠燥  便秘  等症  。
+            桑椹  中  的  脂肪酸  具有  分解  脂肪  、  降低  血脂  ，  防止  血管  硬化  等  作用  ;
+            桑椹  含有  乌发素  ，  能  使  头发  变的  黑  而  亮泽  ;
+            桑椹  有  改善  皮肤  (  包括  头皮  )  血液  供应  ，  营养  肌肤  ，  使  皮肤  白嫩  及  乌发  等  作用  ，  并  能  延缓  衰老  ;
+            桑椹  具有  免疫  促进  作用  ，  可以  防癌  抗癌  ;
+            桑椹  主入  肝肾  ，  善  滋阴  养  血  、  生津润燥  ，  适于  肝肾  阴  血  不足  及  津  亏  消渴  ，  肠  燥等症  ;
+            常食  桑椹  可以  明目  ，  缓解  眼睛  疲劳  干涩  的  症状  。
+            夏天  可  饮用  桑葚汁  ，  不仅  可  补充  体力  ，  还可  提高  性生活  质量  。  是  很多  治疗  死精症  的  方剂  的  重要  组成  药物  。
+        </segment>
+
+        <pos>
+            具有#VV  补肝#NN  益#NN  肾#NN  、#PU  生津#NN  润肠#NN  、#PU  乌发#NN  明目#NN  、#PU  止渴#NN  解毒#NN  、#PU  养颜#NN  等#ETC  功效#NN  ，#PU  适用于#VV  阴#NN  血#NN  不足#NN  、#PU  肝肾#NN  阴亏#NN  、#PU  腰膝#NN  酸软#NN  、#PU  目暗#NN  耳鸣#NN  、#PU  头晕#NN  目眩#NN  、#PU  盗汗#NN  及#CC  津伤#NN  口渴#NN  、#PU  消渴#NN  、#PU  肠燥#NN  便秘#NN  等症#NN  。#PU
+            桑椹#NN  中#LC  的#DEG  脂肪酸#NN  具有#VV  分解#VV  脂肪#NN  、#PU  降低#VV  血脂#NN  ，#PU  防止#VV  血管#NN  硬化#NN  等#ETC  作用#NN  ;#NN
+            桑椹#NN  含有#NN  乌发素#VV  ，#PU  能#VV  使#VV  头发#NN  变的#NN  黑#VA  而#MSP  亮泽#VV  ;#NN
+            桑椹#NN  有#VE  改善#VV  皮肤#NN  -LRB-#NN  包括#VV  头皮#NN  -RRB-#NN  血液#NN  供应#NN  ，#PU  营养#VA  肌肤#VA  ，#PU  使#VV  皮肤#VV  白嫩#NN  及#CC  乌发#NN  等#ETC  作用#NN  ，#PU  并#CC  能#VV  延缓#VV  衰老#NN  ;#NN
+            桑椹#NN  具有#VV  免疫#NN  促进#VV  作用#NN  ，#PU  可以#VV  防癌#VV  抗癌#NN  ;#NN
+            桑椹#NN  主入#NN  肝肾#VV  ，#PU  善#VA  滋阴#AD  养#VV  血#NN  、#PU  生津润燥#NN  ，#PU  适于#VV  肝肾#NN  阴#NN  血#NN  不足#NN  及#CC  津#NR  亏#NN  消渴#NN  ，#PU  肠#VV  燥等症#NN  ;#NN
+            常食#NN  桑椹#NN  可以#VV  明目#NN  ，#PU  缓解#VV  眼睛#NN  疲劳#VA  干涩#VA  的#DEC  症状#NN  。#PU
+            夏天#NT  可#VV  饮用#VV  桑葚汁#NN  ，#PU  不仅#CC  可#VV  补充#VV  体力#NN  ，#PU  还可#AD  提高#VV  性生活#NN  质量#NN    。#PU  是#VC  很多#CD  治疗#VV  死精症#NN  的#DEG  方剂#NN  的#DEC  重要#JJ  组成#NN  药物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 具有#VV)  (nn, 养颜#NN, 补肝#NN)  (nn, 养颜#NN, 益#NN)  (conj, 养颜#NN, 肾#NN)  (nn, 养颜#NN, 生津#NN)  (conj, 养颜#NN, 润肠#NN)  (nn, 养颜#NN, 乌发#NN)  (conj, 养颜#NN, 明目#NN)  (nn, 养颜#NN, 止渴#NN)  (conj, 养颜#NN, 解毒#NN)  (nn, 功效#NN, 养颜#NN)  (etc, 养颜#NN, 等#ETC)  (dobj, 具有#VV, 功效#NN)  (conj, 具有#VV, 适用于#VV)  (nn, 等症#NN, 阴#NN)  (nn, 等症#NN, 血#NN)  (conj, 等症#NN, 不足#NN)  (nn, 等症#NN, 肝肾#NN)  (conj, 等症#NN, 阴亏#NN)  (nn, 等症#NN, 腰膝#NN)  (conj, 等症#NN, 酸软#NN)  (nn, 等症#NN, 目暗#NN)  (conj, 等症#NN, 耳鸣#NN)  (nn, 等症#NN, 头晕#NN)  (conj, 等症#NN, 目眩#NN)  (conj, 等症#NN, 盗汗#NN)  (cc, 等症#NN, 及#CC)  (nn, 等症#NN, 津伤#NN)  (conj, 等症#NN, 口渴#NN)  (conj, 等症#NN, 消渴#NN)  (nn, 等症#NN, 肠燥#NN)  (nn, 等症#NN, 便秘#NN)  (dobj, 适用于#VV, 等症#NN)
+            (assmod, 脂肪酸#NN, 桑椹#NN)  (case, 桑椹#NN, 中#LC)  (case, 桑椹#NN, 的#DEG)  (nsubj, 具有#VV, 脂肪酸#NN)  (root, ROOT#null, 具有#VV)  (nfincl, ;#NN, 分解#VV)  (dobj, 分解#VV, 脂肪#NN)  (conj, 分解#VV, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (conj, 分解#VV, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (nn, 作用#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (dobj, 防止#VV, 作用#NN)  (dobj, 具有#VV, ;#NN)
+            (nn, 含有#NN, 桑椹#NN)  (nsubj, 乌发素#VV, 含有#NN)  (xsubj, 使#VV, 含有#NN)  (root, ROOT#null, 乌发素#VV)  (mmod, 使#VV, 能#VV)  (ccomp, 乌发素#VV, 使#VV)  (nn, 变的#NN, 头发#NN)  (dobj, 使#VV, 变的#NN)  (dep, 使#VV, 黑#VA)  (prtmod, 亮泽#VV, 而#MSP)  (dep, 使#VV, 亮泽#VV)  (dobj, 亮泽#VV, ;#NN)
+            (dep, 有#VE, 桑椹#NN)  (xsubj, 改善#VV, 桑椹#NN)  (root, ROOT#null, 有#VE)  (nn, -LRB-#NN, 皮肤#NN)  (conj, 改善#VV, 包括#VV)  (nn, 供应#NN, 头皮#NN)  (nn, 供应#NN, 血液#NN)  (dobj, 包括#VV, 供应#NN)  (dep, 改善#VV, 营养#VA)  (comod, 营养#VA, 肌肤#VA)  (dep, 改善#VV, 使#VV)  (ccomp, 使#VV, 皮肤#VV)  (conj, 乌发#NN, 白嫩#NN)  (cc, 乌发#NN, 及#CC)  (nn, 作用#NN, 乌发#NN)  (etc, 乌发#NN, 等#ETC)  (dobj, 皮肤#VV, 作用#NN)  (cc, 改善#VV, 并#CC)  (mmod, 延缓#VV, 能#VV)  (dep, 改善#VV, 延缓#VV)  (nn, ;#NN, 衰老#NN)  (dobj, 延缓#VV, ;#NN)
+            (nsubj, 具有#VV, 桑椹#NN)  (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 免疫#NN)  (conj, 具有#VV, 促进#VV)  (dobj, 促进#VV, 作用#NN)  (mmod, 防癌#VV, 可以#VV)  (conj, 促进#VV, 防癌#VV)  (nn, ;#NN, 抗癌#NN)  (dobj, 防癌#VV, ;#NN)
+            (nn, 主入#NN, 桑椹#NN)  (nsubj, 肝肾#VV, 主入#NN)  (xsubj, 养#VV, 主入#NN)  (root, ROOT#null, 肝肾#VV)  (dep, 养#VV, 善#VA)  (advmod, 养#VV, 滋阴#AD)  (ccomp, 肝肾#VV, 养#VV)  (conj, 生津润燥#NN, 血#NN)  (dobj, 养#VV, 生津润燥#NN)  (conj, 养#VV, 适于#VV)  (nn, 不足#NN, 肝肾#NN)  (nn, 不足#NN, 阴#NN)  (nn, 不足#NN, 血#NN)  (conj, 消渴#NN, 不足#NN)  (cc, 消渴#NN, 及#CC)  (nn, 消渴#NN, 津#NR)  (nn, 消渴#NN, 亏#NN)  (dobj, 适于#VV, 消渴#NN)  (conj, 养#VV, 肠#VV)  (nn, ;#NN, 燥等症#NN)  (dobj, 肠#VV, ;#NN)
+            (nn, 桑椹#NN, 常食#NN)  (nsubj, 可以#VV, 桑椹#NN)  (root, ROOT#null, 可以#VV)  (dobj, 可以#VV, 明目#NN)  (conj, 可以#VV, 缓解#VV)  (nsubj, 疲劳#VA, 眼睛#NN)  (relcl, 症状#NN, 疲劳#VA)  (comod, 疲劳#VA, 干涩#VA)  (mark, 疲劳#VA, 的#DEC)  (dobj, 缓解#VV, 症状#NN)
+            (tmod, 饮用#VV, 夏天#NT)  (mmod, 饮用#VV, 可#VV)  (root, ROOT#null, 饮用#VV)  (dobj, 饮用#VV, 桑葚汁#NN)  (cc, 饮用#VV, 不仅#CC)  (mmod, 补充#VV, 可#VV)  (conj, 饮用#VV, 补充#VV)  (dobj, 补充#VV, 体力#NN)  (advmod, 提高#VV, 还可#AD)  (conj, 饮用#VV, 提高#VV)  (nn, 质量#NN, 性生活#NN)  (dobj, 提高#VV, 质量#NN)   (cop, 药物#NN, 是#VC)  (nummod, 药物#NN, 很多#CD)  (relcl, 药物#NN, 治疗#VV)  (assmod, 方剂#NN, 死精症#NN)  (case, 死精症#NN, 的#DEG)  (dobj, 治疗#VV, 方剂#NN)  (mark, 治疗#VV, 的#DEC)  (amod, 药物#NN, 重要#JJ)  (nn, 药物#NN, 组成#NN)  (root, ROOT#null, 药物#NN)
+        </parsing>
+
+        <tag>
+            补肝养颜  生津养颜  润肠  乌发养颜  明目  止渴养颜  解毒  养颜功效  肝肾等症  阴亏  腰膝等症  酸软  目暗等症  耳鸣  头晕等症  目眩  盗汗  津伤等症  口渴  肠燥等症  便秘等症  适用于等症  脂肪酸  分解脂肪  降低血脂  血管硬化  桑椹含有  头发变的  头皮供应  血液供应  包括供应  肌肤营养  白嫩  桑椹主入  肝肾不足  适于消渴  常食桑椹  眼睛疲劳  症状疲劳  干涩疲劳  缓解症状  饮用桑葚汁  补充体力  性生活质量  提高质量  治疗药物  死精症  治疗方剂  组成药物  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  延缓衰老  明目  抗癌防癌  生津止渴  润肠通便  补血  补阴  增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            早在两千多年前，桑椹已是中国皇帝御用的补品。因桑椹特殊的生长环境使桑果具有天然生长，无任何污染的特点，所以桑椹又被称为“民间圣果”。
+        </rawdata>
+
+        <segment>
+            早  在  两千  多  年  前  ，  桑椹  已  是  中国  皇帝  御用  的  补品  。  因  桑椹  特殊  的  生长  环境  使  桑果  具有  天然  生长  ，  无  任何  污染  的  特点  ，  所以  桑椹  又  被  称为  “  民间  圣果  ”  。
+        </segment>
+
+        <pos>
+            早#AD  在#P  两千#CD  多#CD  年#M  前#LC  ，#PU  桑椹#AD  已#AD  是#VC  中国#NR  皇帝#NN  御用#NN  的#DEG  补品#NN    。#PU  因#P  桑椹#VV  特殊#VA  的#DEC  生长#NN  环境#NN  使#VV  桑果#NN  具有#VV  天然#JJ  生长#NN  ，#PU  无#VE  任何#DT  污染#NN  的#DEC  特点#NN  ，#PU  所以#AD  桑椹#NN  又#AD  被#SB  称为#VV  ``#NN  民间#NN  圣果#VV  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (prep, 补品#NN, 早#AD)  (case, 年#M, 在#P)  (dep, 年#M, 两千#CD)  (nummod, 年#M, 多#CD)  (dep, 早#AD, 年#M)  (case, 年#M, 前#LC)  (advmod, 补品#NN, 桑椹#AD)  (advmod, 补品#NN, 已#AD)  (cop, 补品#NN, 是#VC)  (nn, 御用#NN, 中国#NR)  (nn, 御用#NN, 皇帝#NN)  (assmod, 补品#NN, 御用#NN)  (case, 御用#NN, 的#DEG)  (root, ROOT#null, 补品#NN)   (case, 桑椹#VV, 因#P)  (prep, 称为#VV, 桑椹#VV)  (relcl, 环境#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nn, 环境#NN, 生长#NN)  (nsubj, 使#VV, 环境#NN)  (relcl, 特点#NN, 使#VV)  (dobj, 使#VV, 桑果#NN)  (dep, 使#VV, 具有#VV)  (amod, 生长#NN, 天然#JJ)  (dobj, 具有#VV, 生长#NN)  (conj, 使#VV, 无#VE)  (det, 污染#NN, 任何#DT)  (dobj, 无#VE, 污染#NN)  (mark, 使#VV, 的#DEC)  (dobj, 桑椹#VV, 特点#NN)  (advmod, 称为#VV, 所以#AD)  (nsubj, 称为#VV, 桑椹#NN)  (advmod, 称为#VV, 又#AD)  (auxpass, 称为#VV, 被#SB)  (root, ROOT#null, 称为#VV)  (dobj, 称为#VV, ``#NN)  (nsubj, 圣果#VV, 民间#NN)  (conj, 称为#VV, 圣果#VV)  (dobj, 圣果#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            皇帝御用  环境特殊  生长环境  使特点  天然生长  桑椹特点  称为  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/f9/26/75513_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1474 桑葚子.jpg
+    </picturelocalurl>
+
+</content>

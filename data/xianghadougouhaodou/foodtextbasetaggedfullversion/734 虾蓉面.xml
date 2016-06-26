@@ -1,0 +1,146 @@
+<content>
+
+    <id>
+        734
+    </id>
+
+    <foodname>
+        虾蓉面
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不宜与高酸性食物同时食用，否则会导致营养不能吸收
+        </rawdata>
+
+        <segment>
+            不宜与  高  酸性  食物  同时  食用  ，  否则  会  导致  营养  不  能  吸收
+        </segment>
+
+        <pos>
+            不宜与#NR  高#JJ  酸性#NN  食物#VV  同时#AD  食用#VV  ，#PU  否则#AD  会#VV  导致#VV  营养#VA  不#AD  能#VV  吸收#VV
+        </pos>
+
+        <parsing>
+            (nn, 酸性#NN, 不宜与#NR)  (amod, 酸性#NN, 高#JJ)  (nsubj, 食物#VV, 酸性#NN)  (root, ROOT#null, 食物#VV)  (advmod, 食用#VV, 同时#AD)  (ccomp, 食物#VV, 食用#VV)  (advmod, 导致#VV, 否则#AD)  (mmod, 导致#VV, 会#VV)  (dep, 食用#VV, 导致#VV)  (ccomp, 导致#VV, 营养#VA)  (neg, 吸收#VV, 不#AD)  (dep, 吸收#VV, 能#VV)  (dep, 导致#VV, 吸收#VV)
+        </parsing>
+
+        <tag>
+            不宜与高酸性食物  否则会导致营养不能吸收  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            面条是一种用谷物或豆类的面粉加水磨成面团，之后或者压或擀制成片再切或压，或者使用搓、拉、捏等手段，制成条状或小片状，最后经煮、炒、烩、炸而成的一种食品。虾蓉面的主要营养成分有蛋白质、脂肪、碳水化合物等；同时含有丰富的钾、碘、镁、磷等微量元素和维生素a等成分。
+        </rawdata>
+
+        <segment>
+            面条  是  一  种  用  谷物  或  豆类  的  面粉  加水  磨成  面团  ，  之后  或者压  或  擀制  成片  再  切  或  压  ，  或者  使用  搓  、  拉  、  捏  等  手段  ，  制成  条状  或  小  片状  ，  最后  经煮  、  炒  、  烩  、  炸  而  成  的  一  种  食品  。  虾蓉  面的  主要  营养  成分  有  蛋白质  、  脂肪  、  碳水  化合物  等  ；  同时  含有  丰富  的  钾  、  碘  、  镁  、  磷  等  微量  元素  和  维生素  a  等  成分  。
+        </segment>
+
+        <pos>
+            面条#NR  是#VC  一#CD  种#M  用#P  谷物#NN  或#CC  豆类#NN  的#DEG  面粉#NN  加水#NN  磨成#NN  面团#VV  ，#PU  之后#AD  或者压#NR  或#CC  擀制#NR  成片#AD  再#AD  切#VV  或#CC  压#VV  ，#PU  或者#CC  使用#VV  搓#NN  、#PU  拉#NN  、#PU  捏#VV  等#ETC  手段#NN  ，#PU  制成#VV  条状#NN  或#CC  小#JJ  片状#NN  ，#PU  最后#AD  经煮#VA  、#PU  炒#VA  、#PU  烩#VA  、#PU  炸#VV  而#MSP  成#VV  的#DEC  一#CD  种#M  食品#NN    。#PU  虾蓉#NN  面的#NN  主要#AD  营养#VA  成分#NN  有#VE  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水#NN  化合物#NN  等#ETC  ；#PU  同时#AD  含有#VV  丰富#VA  的#DEC  钾#NN  、#PU  碘#NN  、#PU  镁#NN  、#PU  磷#NN  等#ETC  微量#NN  元素#NN  和#CC  维生素#NN  a#NN  等#ETC  成分#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 面条#NR)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (case, 磨成#NN, 用#P)  (conj, 豆类#NN, 谷物#NN)  (cc, 豆类#NN, 或#CC)  (assmod, 磨成#NN, 豆类#NN)  (case, 豆类#NN, 的#DEG)  (nn, 磨成#NN, 面粉#NN)  (nn, 磨成#NN, 加水#NN)  (prep, 面团#VV, 磨成#NN)  (relcl, 食品#NN, 面团#VV)  (advmod, 切#VV, 之后#AD)  (conj, 擀制#NR, 或者压#NR)  (cc, 擀制#NR, 或#CC)  (nsubj, 切#VV, 擀制#NR)  (advmod, 切#VV, 成片#AD)  (advmod, 切#VV, 再#AD)  (ccomp, 面团#VV, 切#VV)  (cc, 切#VV, 或#CC)  (conj, 切#VV, 压#VV)  (cc, 切#VV, 或者#CC)  (conj, 切#VV, 使用#VV)  (dep, 手段#NN, 搓#NN)  (conj, 搓#NN, 拉#NN)  (dep, 搓#NN, 捏#VV)  (dep, 搓#NN, 等#ETC)  (dobj, 使用#VV, 手段#NN)  (conj, 切#VV, 制成#VV)  (conj, 片状#NN, 条状#NN)  (cc, 片状#NN, 或#CC)  (amod, 片状#NN, 小#JJ)  (dobj, 制成#VV, 片状#NN)  (advmod, 经煮#VA, 最后#AD)  (conj, 切#VV, 经煮#VA)  (conj, 经煮#VA, 炒#VA)  (dep, 经煮#VA, 烩#VA)  (conj, 切#VV, 炸#VV)  (prtmod, 成#VV, 而#MSP)  (dep, 炸#VV, 成#VV)  (mark, 面团#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (root, ROOT#null, 食品#NN)   (nn, 面的#NN, 虾蓉#NN)  (nsubj, 营养#VA, 面的#NN)  (advmod, 营养#VA, 主要#AD)  (relcl, 成分#NN, 营养#VA)  (dep, 有#VE, 成分#NN)  (root, ROOT#null, 有#VE)  (conj, 化合物#NN, 蛋白质#NN)  (conj, 化合物#NN, 脂肪#NN)  (nn, 化合物#NN, 碳水#NN)  (dobj, 有#VE, 化合物#NN)  (etc, 化合物#NN, 等#ETC)  (advmod, 含有#VV, 同时#AD)  (conj, 有#VE, 含有#VV)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 碘#NN)  (conj, 磷#NN, 镁#NN)  (nn, 微量#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (conj, a#NN, 元素#NN)  (cc, a#NN, 和#CC)  (nn, a#NN, 维生素#NN)  (nn, 成分#NN, a#NN)  (etc, a#NN, 等#ETC)  (dobj, 含有#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+            豆类  谷物  面粉磨成  加水磨成  面团食品  使用手段  条状  小片状  制成片状  虾蓉面的  面的营养  蛋白质  脂肪  碳水化合物  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            虾蓉面易于消食,养胃,活血祛瘀,提高免疫力,补充能量、通乳汁、保护心血管、病后调养等功效。
+        </rawdata>
+
+        <segment>
+            虾蓉面  易于  消食  ,  养胃  ,  活血  祛瘀  ,  提高  免疫力  ,  补充  能量  、  通  乳汁  、  保护  心血管  、  病  后  调养  等  功效  。
+        </segment>
+
+        <pos>
+            虾蓉面#NN  易于#NN  消食#NN  ,#NN  养胃#NN  ,#NN  活血#NN  祛瘀#NN  ,#AD  提高#VV  免疫力#NR  ,#NR  补充#NN  能量#NN  、#PU  通#NN  乳汁#NN  、#PU  保护#NN  心血管#NN  、#PU  病#JJ  后#JJ  调养#NN  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 祛瘀#NN, 虾蓉面#NN)  (nn, 祛瘀#NN, 易于#NN)  (nn, 祛瘀#NN, 消食#NN)  (nn, 祛瘀#NN, 养胃#NN)  (nn, 祛瘀#NN, 活血#NN)  (nsubj, 提高#VV, 祛瘀#NN)  (root, ROOT#null, 提高#VV)  (nn, 能量#NN, 免疫力#NR)  (nn, 能量#NN, 补充#NN)  (conj, 调养#NN, 能量#NN)  (nn, 乳汁#NN, 通#NN)  (conj, 调养#NN, 乳汁#NN)  (nn, 心血管#NN, 保护#NN)  (conj, 调养#NN, 心血管#NN)  (amod, 调养#NN, 病#JJ)  (amod, 调养#NN, 后#JJ)  (nn, 功效#NN, 调养#NN)  (etc, 调养#NN, 等#ETC)  (dobj, 提高#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            易于祛瘀  消食祛瘀  养胃祛瘀  活血祛瘀  补充能量  乳汁  保护心血管  病调养  后调养  调养功效  提高功效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        除烦  止痢  解毒  补肾  清热  和胃  美容养颜  抗菌  利尿
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.新鲜切面不宜存放时间过长，以免营养成分受损；
+            2.买来的切面有时碱味很重，在面条快煮好的时候，加入几滴醋，可以使面条碱味全消，面条的颜色也会由黄变白。
+            3.就品种来说，常吃的有汤面条，捞面条、卤面条、炒面条、炯面条、蒸面条、烩面条、拉面条等。从形状上说，有一厘米宽的宽面、窄如韭叶的窄面、细如发丝的龙须面，也有菱形的面叶儿、绵长不规则的面片等。从味道上说，有淡味、咸味、辣味、酸味等。
+        </rawdata>
+
+        <segment>
+            新鲜  切面  不  宜  存放  时间  过长  ，  以免  营养  成分  受损  ；
+            买来  的  切面  有时  碱味  很  重  ，  在  面条  快  煮好  的  时候  ，  加入  几  滴  醋  ，  可以  使  面条  碱  味  全  消  ，  面条  的  颜色  也  会  由  黄变白  。
+            就  品种  来说  ，  常  吃  的  有  汤面  条  ，  捞  面条  、  卤面  条  、  炒  面条  、  炯  面条  、  蒸  面条  、  烩面  条  、  拉面  条  等  。  从  形状  上  说  ，  有  一  厘米  宽  的  宽面  、  窄  如  韭叶  的  窄面  、  细如  发丝  的  龙须面  ，  也  有  菱形  的  面  叶儿  、  绵长  不规则  的  面片  等  。  从  味道  上  说  ，  有  淡味  、  咸味  、  辣味  、  酸味  等  。
+        </segment>
+
+        <pos>
+            新鲜#JJ  切面#NN  不#AD  宜#NR  存放#VV  时间#NN  过长#NN  ，#PU  以免#VV  营养#VA  成分#NN  受损#VV  ；#PU
+            买来#NN  的#DEG  切面#NN  有时#AD  碱味#VV  很#AD  重#VA  ，#PU  在#P  面条#NR  快#VA  煮好#VA  的#DEC  时候#NN  ，#PU  加入#VV  几#CD  滴#NN  醋#NN  ，#PU  可以#VV  使#VV  面条#NN  碱#NN  味#VV  全#DT  消#NN  ，#PU  面条#NN  的#DEG  颜色#NN  也#AD  会#VV  由#P  黄变白#NN  。#PU
+            就#P  品种#NN  来说#VV  ，#PU  常#AD  吃#VV  的#DEC  有#VE  汤面#CD  条#M  ，#PU  捞#VV  面条#NN  、#PU  卤面#CD  条#M  、#PU  炒#VV  面条#NR  、#PU  炯#NR  面条#NR  、#PU  蒸#NR  面条#NN  、#PU  烩面#CD  条#M  、#PU  拉面#CD  条#M  等#ETC    。#PU  从#P  形状#NN  上#LC  说#VV  ，#PU  有#VE  一#CD  厘米#M  宽#NN  的#DEG  宽面#NN  、#PU  窄#VA  如#P  韭叶#NN  的#DEG  窄面#NN  、#PU  细如#VV  发丝#NN  的#DEG  龙须面#NN  ，#PU  也#AD  有#VE  菱形#NN  的#DEC  面#NN  叶儿#NN  、#PU  绵长#VV  不规则#AD  的#DEC  面片#NN  等#ETC    。#PU  从#P  味道#NN  上#LC  说#VV  ，#PU  有#VE  淡味#NR  、#PU  咸味#NR  、#PU  辣味#NR  、#PU  酸味#NR  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 切面#NN, 新鲜#JJ)  (nsubj, 存放#VV, 切面#NN)  (neg, 存放#VV, 不#AD)  (dep, 存放#VV, 宜#NR)  (root, ROOT#null, 存放#VV)  (nn, 过长#NN, 时间#NN)  (dobj, 存放#VV, 过长#NN)  (conj, 存放#VV, 以免#VV)  (relcl, 成分#NN, 营养#VA)  (nsubj, 受损#VV, 成分#NN)  (ccomp, 以免#VV, 受损#VV)
+            (assmod, 切面#NN, 买来#NN)  (case, 买来#NN, 的#DEG)  (nsubj, 碱味#VV, 切面#NN)  (advmod, 碱味#VV, 有时#AD)  (root, ROOT#null, 碱味#VV)  (advmod, 重#VA, 很#AD)  (relcl, 时候#NN, 重#VA)  (case, 面条#NR, 在#P)  (prep, 快#VA, 面条#NR)  (dep, 重#VA, 快#VA)  (comod, 快#VA, 煮好#VA)  (mark, 重#VA, 的#DEC)  (dobj, 碱味#VV, 时候#NN)  (conj, 碱味#VV, 加入#VV)  (nummod, 醋#NN, 几#CD)  (nn, 醋#NN, 滴#NN)  (dobj, 加入#VV, 醋#NN)  (mmod, 使#VV, 可以#VV)  (conj, 碱味#VV, 使#VV)  (nn, 碱#NN, 面条#NN)  (dobj, 使#VV, 碱#NN)  (dep, 使#VV, 味#VV)  (det, 消#NN, 全#DT)  (dobj, 味#VV, 消#NN)  (assmod, 颜色#NN, 面条#NN)  (case, 面条#NN, 的#DEG)  (nsubj, 会#VV, 颜色#NN)  (advmod, 会#VV, 也#AD)  (conj, 碱味#VV, 会#VV)  (case, 黄变白#NN, 由#P)  (prep, 会#VV, 黄变白#NN)
+            (case, 品种#NN, 就#P)  (prep, 来说#VV, 品种#NN)  (root, ROOT#null, 来说#VV)  (advmod, 吃#VV, 常#AD)  (dvpmod, 有#VE, 吃#VV)  (dep, 吃#VV, 的#DEC)  (conj, 来说#VV, 有#VE)  (nummod, 条#M, 汤面#CD)  (dep, 有#VE, 条#M)  (conj, 来说#VV, 捞#VV)  (dobj, 捞#VV, 面条#NN)  (nummod, 条#M, 卤面#CD)  (conj, 来说#VV, 条#M)  (conj, 来说#VV, 炒#VV)  (conj, 蒸#NR, 面条#NR)  (nn, 蒸#NR, 炯#NR)  (conj, 蒸#NR, 面条#NR)  (nn, 面条#NN, 蒸#NR)  (dobj, 炒#VV, 面条#NN)  (nummod, 条#M, 烩面#CD)  (conj, 来说#VV, 条#M)  (nummod, 条#M, 拉面#CD)  (conj, 来说#VV, 条#M)  (dep, 来说#VV, 等#ETC)   (case, 形状#NN, 从#P)  (prep, 说#VV, 形状#NN)  (case, 形状#NN, 上#LC)  (root, ROOT#null, 说#VV)  (ccomp, 说#VV, 有#VE)  (nummod, 厘米#M, 一#CD)  (clf, 宽#NN, 厘米#M)  (assmod, 宽面#NN, 宽#NN)  (case, 宽#NN, 的#DEG)  (conj, 面片#NN, 宽面#NN)  (relcl, 叶儿#NN, 窄#VA)  (case, 窄面#NN, 如#P)  (assmod, 窄面#NN, 韭叶#NN)  (case, 韭叶#NN, 的#DEG)  (prep, 窄#VA, 窄面#NN)  (dep, 窄#VA, 细如#VV)  (assmod, 龙须面#NN, 发丝#NN)  (case, 发丝#NN, 的#DEG)  (dobj, 细如#VV, 龙须面#NN)  (advmod, 有#VE, 也#AD)  (conj, 窄#VA, 有#VE)  (dobj, 有#VE, 菱形#NN)  (mark, 窄#VA, 的#DEC)  (nn, 叶儿#NN, 面#NN)  (conj, 面片#NN, 叶儿#NN)  (relcl, 面片#NN, 绵长#VV)  (advmod, 绵长#VV, 不规则#AD)  (mark, 绵长#VV, 的#DEC)  (dobj, 有#VE, 面片#NN)  (etc, 面片#NN, 等#ETC)   (case, 味道#NN, 从#P)  (prep, 说#VV, 味道#NN)  (case, 味道#NN, 上#LC)  (root, ROOT#null, 说#VV)  (ccomp, 说#VV, 有#VE)  (conj, 酸味#NR, 淡味#NR)  (conj, 酸味#NR, 咸味#NR)  (conj, 酸味#NR, 辣味#NR)  (dobj, 有#VE, 酸味#NR)  (etc, 酸味#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            新鲜切面  时间过长  存放过长  碱味时候  加入醋  来说  宽面  细如龙须面  叶儿  绵长面片  酸味  淡味  咸味  辣味  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/03/41/82179_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\734 虾蓉面.jpg
+    </picturelocalurl>
+
+</content>

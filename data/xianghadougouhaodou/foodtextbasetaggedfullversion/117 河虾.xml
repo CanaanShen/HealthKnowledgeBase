@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        117
+    </id>
+
+    <foodname>
+        河虾
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        虾
+    </secondcategory>
+
+    <alias>
+        日本沼虾、青虾
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            宿疾者、正值上火之时者、体质过敏，患过敏性鼻炎、支气管炎、反复发作性过敏性皮炎的老年人、患有皮肤疥癣者忌食。
+        </rawdata>
+
+        <segment>
+            宿疾者  、  正值  上火  之  时  者  、  体质  过敏  ，  患  过敏性  鼻炎  、  支气管炎  、  反复  发作性  过敏性  皮炎  的  老年人  、  患有  皮肤  疥癣  者  忌食  。
+        </segment>
+
+        <pos>
+            宿疾者#CD  、#PU  正值#NR  上火#VV  之#PN  时#LC  者#NN  、#PU  体质#NN  过敏#NN  ，#PU  患#NN  过敏性#NN  鼻炎#NN  、#PU  支气管炎#NN  、#PU  反复#NN  发作性#NN  过敏性#NN  皮炎#NN  的#DEG  老年人#NN  、#PU  患有#NN  皮肤#NN  疥癣#NN  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 上火#VV, 宿疾者#CD)  (nsubj, 上火#VV, 正值#NR)  (root, ROOT#null, 上火#VV)  (dep, 忌食#NN, 之#PN)  (case, 之#PN, 时#LC)  (conj, 皮炎#NN, 者#NN)  (nn, 皮炎#NN, 体质#NN)  (conj, 皮炎#NN, 过敏#NN)  (nn, 皮炎#NN, 患#NN)  (nn, 皮炎#NN, 过敏性#NN)  (conj, 皮炎#NN, 鼻炎#NN)  (conj, 皮炎#NN, 支气管炎#NN)  (nn, 皮炎#NN, 反复#NN)  (nn, 皮炎#NN, 发作性#NN)  (nn, 皮炎#NN, 过敏性#NN)  (assmod, 忌食#NN, 皮炎#NN)  (case, 皮炎#NN, 的#DEG)  (conj, 忌食#NN, 老年人#NN)  (nn, 忌食#NN, 患有#NN)  (nn, 忌食#NN, 皮肤#NN)  (nn, 忌食#NN, 疥癣#NN)  (nn, 忌食#NN, 者#NN)  (dobj, 上火#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            宿疾者  正值上火之时者  体质过敏  患过敏性鼻炎  支气管炎  反复发作性过敏性皮炎  老年人  患有  皮肤疥癣者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜中老年人、孕妇、心血管病患者、肾虚阳痿、男性不育症、腰脚无力之人；适宜中老年人缺钙所致的小腿抽筋者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  中  老年人  、  孕妇  、  心血管病  患者  、  肾虚  阳痿  、  男性  不育症  、  腰  脚  无力  之人  ；  适宜  中  老年人  缺钙  所致  的  小腿  抽筋  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  中#NR  老年人#NN  、#PU  孕妇#NN  、#PU  心血管病#NN  患者#NN  、#PU  肾虚#NN  阳痿#NN  、#PU  男性#NN  不育症#NN  、#PU  腰#NN  脚#NN  无力#NN  之人#NN  ；#PU  适宜#VV  中#NR  老年人#NN  缺钙#NN  所致#NN  的#DEG  小腿#NN  抽筋#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 无力#NN, 中#NR)  (conj, 无力#NN, 老年人#NN)  (conj, 无力#NN, 孕妇#NN)  (nn, 无力#NN, 心血管病#NN)  (conj, 无力#NN, 患者#NN)  (nn, 无力#NN, 肾虚#NN)  (conj, 无力#NN, 阳痿#NN)  (nn, 无力#NN, 男性#NN)  (conj, 无力#NN, 不育症#NN)  (nn, 无力#NN, 腰#NN)  (nn, 无力#NN, 脚#NN)  (nn, 之人#NN, 无力#NN)  (dobj, 适宜#VV, 之人#NN)  (conj, 适宜#VV, 适宜#VV)  (nn, 所致#NN, 中#NR)  (nn, 所致#NN, 老年人#NN)  (nn, 所致#NN, 缺钙#NN)  (assmod, 者#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 者#NN, 小腿#NN)  (nn, 者#NN, 抽筋#NN)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  中老年人  孕妇  心血管病  患者  肾虚阳痿  男性不育症  腰脚无力之人  适宜  中老年人缺钙所致  小腿抽筋者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                16.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                240
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                48
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素D（微克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                5.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                325
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                186
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                329
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                133.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                29.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            河虾，为长臂虾科动物青虾等多种淡水虾，广泛分布于我国江河、湖泊、水库和池塘中，是优质的淡水虾类。它肉质细嫩，味道鲜美，营养丰富，是高蛋白低脂肪的水产食品，颇得消费者青睐。
+        </rawdata>
+
+        <segment>
+            河虾  ，  为  长臂虾科  动物  青虾  等  多  种  淡水  虾  ，  广泛  分布  于  我国  江河  、  湖泊  、  水库  和  池塘  中  ，  是  优质  的  淡水  虾类  。  它  肉质  细嫩  ，  味道  鲜美  ，  营养  丰富  ，  是  高蛋白  低  脂肪  的  水产  食品  ，  颇得  消费者  青睐  。
+        </segment>
+
+        <pos>
+            河虾#VV  ，#PU  为#VC  长臂虾科#NN  动物#NN  青虾#NN  等#ETC  多#CD  种#M  淡水#NN  虾#NN  ，#PU  广泛#AD  分布#VV  于#P  我国#NN  江河#NN  、#PU  湖泊#NN  、#PU  水库#NN  和#CC  池塘#NN  中#LC  ，#PU  是#VC  优质#JJ  的#DEG  淡水#NN  虾类#NN    。#PU  它#PN  肉质#AD  细嫩#VV  ，#PU  味道#NN  鲜美#VA  ，#PU  营养#VA  丰富#VA  ，#PU  是#VC  高蛋白#VV  低#JJ  脂肪#NN  的#DEC  水产#NN  食品#NN  ，#PU  颇得#VV  消费者#NN  青睐#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 河虾#VV)  (cop, 虾#NN, 为#VC)  (nn, 青虾#NN, 长臂虾科#NN)  (nn, 青虾#NN, 动物#NN)  (nn, 虾#NN, 青虾#NN)  (etc, 青虾#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 虾#NN, 种#M)  (nn, 虾#NN, 淡水#NN)  (ccomp, 河虾#VV, 虾#NN)  (advmod, 分布#VV, 广泛#AD)  (conj, 虾#NN, 分布#VV)  (case, 池塘#NN, 于#P)  (nn, 池塘#NN, 我国#NN)  (conj, 池塘#NN, 江河#NN)  (conj, 池塘#NN, 湖泊#NN)  (conj, 池塘#NN, 水库#NN)  (cc, 池塘#NN, 和#CC)  (prep, 分布#VV, 池塘#NN)  (case, 池塘#NN, 中#LC)  (cop, 虾类#NN, 是#VC)  (assmod, 虾类#NN, 优质#JJ)  (case, 优质#JJ, 的#DEG)  (nn, 虾类#NN, 淡水#NN)  (conj, 虾#NN, 虾类#NN)   (nsubj, 细嫩#VV, 它#PN)  (advmod, 细嫩#VV, 肉质#AD)  (root, ROOT#null, 细嫩#VV)  (nsubj, 鲜美#VA, 味道#NN)  (ccomp, 细嫩#VV, 鲜美#VA)  (conj, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 食品#NN, 是#VC)  (relcl, 食品#NN, 高蛋白#VV)  (amod, 脂肪#NN, 低#JJ)  (dobj, 高蛋白#VV, 脂肪#NN)  (mark, 高蛋白#VV, 的#DEC)  (nn, 食品#NN, 水产#NN)  (conj, 营养#VA, 食品#NN)  (conj, 营养#VA, 颇得#VV)  (nn, 青睐#NN, 消费者#NN)  (dobj, 颇得#VV, 青睐#NN)
+        </parsing>
+
+        <tag>
+            长臂虾科青虾  动物青虾  我国池塘  江河  湖泊  水库  淡水虾类  细嫩  味道鲜美  营养丰富  高蛋白食品  低脂肪  高蛋白脂肪  水产食品  消费者青睐  颇得青睐  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增强人体免疫力
+            虾的营养价值极高，能增强人体的免疫力和性功能，补肾壮阳，抗早衰，可医治肾虚阳痿、畏寒、体倦、腰膝酸痛等病症。
+            2.通乳汁
+            如果妇女产后乳汁少或无乳汁，鲜虾肉500克，研碎，黄酒热服，每日3次，连服几日，可起催乳作用。
+            3.缓解神经衰弱
+            虾皮有镇静作用，常用来治疗神经衰弱，植物神经功能紊乱诸症。海虾是可以为大脑提供营养的美味食品。海虾中含有三种重要的脂肪酸，能使人长时间保持精力集中。
+            4.有利于病后恢复
+            虾营养丰富，且其肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物。
+            5.预防动脉硬化
+            虾中含有丰富的镁，镁对心脏活动具有重要的调节作用，能很好的保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗死。
+            6.消除“时差症”
+            日本大阪大学的科学家最近发现，虾体内的虾青素有助于消除因时差反应而产生的“时差症”。
+        </rawdata>
+
+        <segment>
+            增强  人体  免疫力
+            虾  的  营养  价值  极高  ，  能  增强  人体  的  免疫力  和  性功能  ，  补  肾  壮阳  ，  抗  早衰  ，  可  医治  肾虚  阳痿  、  畏寒  、  体倦  、  腰膝  酸痛  等  病症  。
+            通  乳汁
+            如果  妇女  产后  乳汁  少  或  无乳汁  ，  鲜  虾  肉  500  克  ，  研碎  ，  黄酒  热服  ，  每  日  3  次  ，  连  服  几日  ，  可  起  催乳  作用  。
+            缓解  神经  衰弱
+            虾皮  有  镇静  作用  ，  常  用来  治疗  神经  衰弱  ，  植物  神经  功能  紊乱  诸症  。  海虾  是  可以  为  大脑  提供  营养  的  美味  食品  。  海虾  中含有  三  种  重要  的  脂肪酸  ，  能  使  人  长  时间  保持  精力  集中  。
+            有利于  病后  恢复
+            虾  营养  丰富  ，  且  其  肉质  松软  ，  易  消化  ，  对  身体  虚弱  以及  病  后  需要  调养  的  人  是  极  好  的  食物  。
+            预防  动脉  硬化
+            虾  中  含有  丰富  的  镁  ，  镁  对  心脏  活动  具有  重要  的  调节  作用  ，  能  很  好  的  保护  心血管  系统  ，  它  可  减少  血液  中  胆固醇  含量  ，  防止  动脉  硬化  ，  同时  还  能  扩张  冠状  动脉  ，  有利于  预防  高血压  及  心肌梗死  。
+            消除  “  时差症  ”
+            日本  大阪  大学  的  科学家  最近  发现  ，  虾  体内  的  虾青素  有助于  消除  因  时差  反应  而  产生  的  “  时差症  ”  。
+        </segment>
+
+        <pos>
+            增强#VV  人体#NN  免疫力#NN
+            虾#NN  的#DEG  营养#VA  价值#NN  极高#NN  ，#PU  能#VV  增强#VV  人体#NN  的#DEG  免疫力#NN  和#CC  性功能#NN  ，#PU  补#VV  肾#NN  壮阳#NN  ，#PU  抗#VV  早衰#NN  ，#PU  可#VV  医治#VV  肾虚#NR  阳痿#NR  、#PU  畏寒#NR  、#PU  体倦#NR  、#PU  腰膝#NR  酸痛#NR  等#ETC  病症#NN  。#PU
+            通#VV  乳汁#NN
+            如果#CS  妇女#NN  产后#NN  乳汁#NN  少#VA  或#CC  无乳汁#VA  ，#PU  鲜#NN  虾#NN  肉#NN  500#CD  克#M  ，#PU  研碎#VV  ，#PU  黄酒#VV  热服#NN  ，#PU  每#DT  日#M  3#CD  次#M  ，#PU  连#AD  服#VV  几日#NN  ，#PU  可#VV  起#VV  催乳#NN  作用#NN  。#PU
+            缓解#VV  神经#NN  衰弱#NN
+            虾皮#NN  有#VE  镇静#NN  作用#NN  ，#PU  常#AD  用来#VV  治疗#NN  神经#NN  衰弱#NN  ，#PU  植物#NN  神经#NN  功能#NN  紊乱#AD  诸症#VV    。#PU  海虾#NN  是#VC  可以#VV  为#P  大脑#NN  提供#VV  营养#VA  的#DEC  美味#JJ  食品#NN    。#PU  海虾#AD  中含有#VV  三#CD  种#M  重要#VA  的#DEC  脂肪酸#NN  ，#PU  能#VV  使#VV  人#NN  长#JJ  时间#NN  保持#VV  精力#NN  集中#VV    。#PU    。#PU
+            有利于#VV  病后#AD  恢复#VV
+            虾#NN  营养#VA  丰富#VA  ，#PU  且#CC  其#PN  肉质#AD  松软#VV  ，#PU  易#VA  消化#NN  ，#PU  对#P  身体#NN  虚弱#NN  以及#CC  病#NN  后#LC  需要#VV  调养#NN  的#DEC  人#NN  是#VC  极#AD  好#VA  的#DEC  食物#NN  。#PU
+            预防#VV  动脉#NN  硬化#NN
+            虾#NN  中#LC  含有#AD  丰富#VA  的#DEC  镁#NN  ，#PU  镁#NN  对#P  心脏#NN  活动#NN  具有#VV  重要#VA  的#DEC  调节#VV  作用#NN  ，#PU  能#VV  很#AD  好#VA  的#DEC  保护#NN  心血管#NN  系统#NN  ，#PU  它#PN  可#VV  减少#VV  血液#NN  中#LC  胆固醇#NN  含量#NN  ，#PU  防止#VV  动脉#NN  硬化#NN  ，#PU  同时#AD  还#AD  能#VV  扩张#VV  冠状#NN  动脉#NN  ，#PU  有利于#VV  预防#VV  高血压#NN  及#CC  心肌梗死#NN  。#PU
+            消除#VV  ``#NN  时差症#NN  ''#NN
+            日本#NR  大阪#NR  大学#NN  的#DEG  科学家#NN  最近#NT  发现#VV  ，#PU  虾#NN  体内#NN  的#DEG  虾青素#NN  有助于#VV  消除#VV  因#P  时差#NN  反应#NN  而#MSP  产生#VV  的#DEC  ``#NN  时差症#NN  ''#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增强#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 增强#VV, 免疫力#NN)
+            (assmod, 极高#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (nfincl, 极高#NN, 营养#VA)  (nn, 极高#NN, 价值#NN)  (nsubj, 增强#VV, 极高#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (assmod, 性功能#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (conj, 性功能#NN, 免疫力#NN)  (cc, 性功能#NN, 和#CC)  (dobj, 增强#VV, 性功能#NN)  (conj, 增强#VV, 补#VV)  (nn, 壮阳#NN, 肾#NN)  (dobj, 补#VV, 壮阳#NN)  (conj, 增强#VV, 抗#VV)  (dobj, 抗#VV, 早衰#NN)  (mmod, 医治#VV, 可#VV)  (conj, 增强#VV, 医治#VV)  (nn, 酸痛#NR, 肾虚#NR)  (conj, 酸痛#NR, 阳痿#NR)  (conj, 酸痛#NR, 畏寒#NR)  (conj, 酸痛#NR, 体倦#NR)  (nn, 酸痛#NR, 腰膝#NR)  (nn, 病症#NN, 酸痛#NR)  (etc, 酸痛#NR, 等#ETC)  (dobj, 医治#VV, 病症#NN)
+            (root, ROOT#null, 通#VV)  (dobj, 通#VV, 乳汁#NN)
+            (advmod, 少#VA, 如果#CS)  (nn, 乳汁#NN, 妇女#NN)  (nn, 乳汁#NN, 产后#NN)  (nsubj, 少#VA, 乳汁#NN)  (dep, 起#VV, 少#VA)  (cc, 少#VA, 或#CC)  (dep, 少#VA, 无乳汁#VA)  (nn, 肉#NN, 鲜#NN)  (nn, 肉#NN, 虾#NN)  (nsubj, 克#M, 肉#NN)  (nummod, 克#M, 500#CD)  (conj, 少#VA, 克#M)  (conj, 克#M, 研碎#VV)  (conj, 克#M, 黄酒#VV)  (dobj, 黄酒#VV, 热服#NN)  (dep, 次#M, 每#DT)  (clf, 每#DT, 日#M)  (nummod, 次#M, 3#CD)  (conj, 克#M, 次#M)  (advmod, 服#VV, 连#AD)  (conj, 克#M, 服#VV)  (dobj, 服#VV, 几日#NN)  (mmod, 起#VV, 可#VV)  (root, ROOT#null, 起#VV)  (nn, 作用#NN, 催乳#NN)  (dobj, 起#VV, 作用#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 衰弱#NN, 神经#NN)  (dobj, 缓解#VV, 衰弱#NN)
+            (dep, 有#VE, 虾皮#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 镇静#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 用来#VV, 常#AD)  (conj, 有#VE, 用来#VV)  (nn, 衰弱#NN, 治疗#NN)  (nn, 衰弱#NN, 神经#NN)  (dobj, 用来#VV, 衰弱#NN)  (nn, 功能#NN, 植物#NN)  (nn, 功能#NN, 神经#NN)  (nsubj, 诸症#VV, 功能#NN)  (advmod, 诸症#VV, 紊乱#AD)  (conj, 有#VE, 诸症#VV)   (nsubj, 提供#VV, 海虾#NN)  (cop, 提供#VV, 是#VC)  (mmod, 提供#VV, 可以#VV)  (case, 大脑#NN, 为#P)  (prep, 提供#VV, 大脑#NN)  (root, ROOT#null, 提供#VV)  (relcl, 食品#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (amod, 食品#NN, 美味#JJ)  (dobj, 提供#VV, 食品#NN)   (advmod, 中含有#VV, 海虾#AD)  (root, ROOT#null, 中含有#VV)  (nummod, 种#M, 三#CD)  (clf, 脂肪酸#NN, 种#M)  (relcl, 脂肪酸#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 中含有#VV, 脂肪酸#NN)  (mmod, 使#VV, 能#VV)  (dep, 中含有#VV, 使#VV)  (nn, 时间#NN, 人#NN)  (amod, 时间#NN, 长#JJ)  (dobj, 使#VV, 时间#NN)  (dep, 使#VV, 保持#VV)  (dobj, 保持#VV, 精力#NN)  (dep, 使#VV, 集中#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 有利于#VV)  (advmod, 恢复#VV, 病后#AD)  (ccomp, 有利于#VV, 恢复#VV)
+            (nsubj, 营养#VA, 虾#NN)  (relcl, 人#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 且#CC)  (nsubj, 松软#VV, 其#PN)  (advmod, 松软#VV, 肉质#AD)  (conj, 营养#VA, 松软#VV)  (relcl, 消化#NN, 易#VA)  (nsubj, 需要#VV, 消化#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 身体#NN)  (conj, 病#NN, 虚弱#NN)  (cc, 病#NN, 以及#CC)  (prep, 需要#VV, 病#NN)  (case, 病#NN, 后#LC)  (ccomp, 松软#VV, 需要#VV)  (dobj, 需要#VV, 调养#NN)  (mark, 营养#VA, 的#DEC)  (nsubj, 食物#NN, 人#NN)  (cop, 食物#NN, 是#VC)  (advmod, 好#VA, 极#AD)  (relcl, 食物#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (root, ROOT#null, 食物#NN)
+            (root, ROOT#null, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 预防#VV, 硬化#NN)
+            (loc, 丰富#VA, 虾#NN)  (case, 虾#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 镁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 具有#VV, 镁#NN)  (nsubj, 具有#VV, 镁#NN)  (case, 活动#NN, 对#P)  (nn, 活动#NN, 心脏#NN)  (prep, 具有#VV, 活动#NN)  (root, ROOT#null, 具有#VV)  (relcl, 系统#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (relcl, 系统#NN, 调节#VV)  (dobj, 调节#VV, 作用#NN)  (mmod, 好#VA, 能#VV)  (advmod, 好#VA, 很#AD)  (conj, 调节#VV, 好#VA)  (mark, 调节#VV, 的#DEC)  (nn, 系统#NN, 保护#NN)  (nn, 系统#NN, 心血管#NN)  (dobj, 具有#VV, 系统#NN)  (nsubj, 减少#VV, 它#PN)  (mmod, 减少#VV, 可#VV)  (conj, 具有#VV, 减少#VV)  (dep, 含量#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 减少#VV, 含量#NN)  (conj, 具有#VV, 防止#VV)  (nn, 硬化#NN, 动脉#NN)  (nsubj, 扩张#VV, 硬化#NN)  (advmod, 扩张#VV, 同时#AD)  (advmod, 扩张#VV, 还#AD)  (mmod, 扩张#VV, 能#VV)  (ccomp, 防止#VV, 扩张#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 扩张#VV, 动脉#NN)  (dep, 防止#VV, 有利于#VV)  (ccomp, 有利于#VV, 预防#VV)  (conj, 心肌梗死#NN, 高血压#NN)  (cc, 心肌梗死#NN, 及#CC)  (dobj, 预防#VV, 心肌梗死#NN)
+            (root, ROOT#null, 消除#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 时差症#NN)  (dobj, 消除#VV, ''#NN)
+            (nn, 大学#NN, 日本#NR)  (nn, 大学#NN, 大阪#NR)  (assmod, 科学家#NN, 大学#NN)  (case, 大学#NN, 的#DEG)  (nsubj, 发现#VV, 科学家#NN)  (tmod, 发现#VV, 最近#NT)  (root, ROOT#null, 发现#VV)  (nn, 体内#NN, 虾#NN)  (assmod, 虾青素#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nsubj, 有助于#VV, 虾青素#NN)  (ccomp, 发现#VV, 有助于#VV)  (ccomp, 有助于#VV, 消除#VV)  (case, 反应#NN, 因#P)  (nn, 反应#NN, 时差#NN)  (prep, 产生#VV, 反应#NN)  (prtmod, 产生#VV, 而#MSP)  (relcl, ''#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 时差症#NN)  (dobj, 消除#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            人体免疫力  增强免疫力  价值极高  增强性功能  酸痛  阳痿  畏寒  体倦  医治病症  妇女乳汁  产后乳汁  黄酒热服  神经衰弱  缓解衰弱  治疗衰弱  用来衰弱  植物功能  神经功能  食品营养  美味食品  提供食品  中含有脂肪酸  长时间  保持精力  虾营养  人营养  营养丰富  需要调养  动脉硬化  预防硬化  镁丰富  心脏活动  调节系统  保护系统  心血管系统  冠状动脉  扩张动脉  高血压  预防心肌梗死  消除  科学家  虾青素  时差反应  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        通乳  抗氧化  补肾阳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.虾中含有20%的蛋白质，是蛋白质含量很高的食品之一，是鱼、蛋、奶的几倍甚至十几倍，虾和鱼肉相比，所含的人体必需氨基酸缬氨酸并不高，但却是营养均衡的蛋白质来源，另外，虾类含有甘氨酸，这种氨基酸的含量越高，虾的甜味就越高。
+            2.虾和鱼肉禽肉相比，脂肪含量少，并且几乎不含作为能量来源的动物糖质，虾中的胆固醇含量较高，同时含有丰富的能降低人体血清胆固醇的牛磺酸，虾含有丰富的钾、碘、镁、磷等微量元素和维生素A等成分。
+        </rawdata>
+
+        <segment>
+            虾  中  含有  20%  的  蛋白质  ，  是  蛋白质  含量  很  高  的  食品  之一  ，  是  鱼  、  蛋  、  奶的  几  倍  甚至  十几  倍  ，  虾  和  鱼肉  相比  ，  所  含  的  人体  必需  氨基酸  缬氨酸  并不  高  ，  但  却  是  营养  均衡  的  蛋白质  来源  ，  另外  ，  虾  类  含有  甘氨酸  ，  这  种  氨基酸  的  含量  越  高  ，  虾  的  甜味  就  越高  。
+            虾  和  鱼肉  禽肉  相比  ，  脂肪  含量  少  ，  并且  几乎  不  含  作为  能量  来源  的  动物  糖质  ，  虾  中  的  胆固醇  含量  较  高  ，  同时  含有  丰富  的  能  降低  人体  血清  胆固醇  的  牛磺酸  ，  虾  含有  丰富  的  钾  、  碘  、  镁  、  磷  等  微量  元素  和  维生素A  等  成分  。
+        </segment>
+
+        <pos>
+            虾#NN  中#LC  含有#VV  20#CD  %#NN  的#DEG  蛋白质#NN  ，#PU  是#VC  蛋白质#NN  含量#NN  很#AD  高#VA  的#DEC  食品#NN  之一#NN  ，#PU  是#VC  鱼#NN  、#PU  蛋#NN  、#PU  奶的#NN  几#CD  倍#M  甚至#AD  十几#CD  倍#M  ，#PU  虾#NR  和#CC  鱼肉#NR  相比#VV  ，#PU  所#MSP  含#VV  的#DEC  人体#NN  必需#VV  氨基酸#NN  缬氨酸#NN  并不#NN  高#VA  ，#PU  但#AD  却#AD  是#VC  营养#VA  均衡#VA  的#DEC  蛋白质#NN  来源#NN  ，#PU  另外#AD  ，#PU  虾#CD  类#M  含有#NN  甘氨酸#VV  ，#PU  这#DT  种#M  氨基酸#NN  的#DEG  含量#NN  越#AD  高#VA  ，#PU  虾#NR  的#DEG  甜味#NN  就#AD  越高#VV  。#PU
+            虾#NR  和#CC  鱼肉#NR  禽肉#AD  相比#VV  ，#PU  脂肪#NN  含量#NN  少#VA  ，#PU  并且#CC  几乎#AD  不#AD  含#VV  作为#P  能量#NN  来源#NN  的#DEG  动物#NN  糖质#NN  ，#PU  虾#NN  中#LC  的#DEG  胆固醇#NN  含量#NN  较#AD  高#VA  ，#PU  同时#AD  含有#VV  丰富#VA  的#DEC  能#VV  降低#VV  人体#NN  血清#NN  胆固醇#NN  的#DEC  牛磺酸#NN  ，#PU  虾#NR  含有#VV  丰富#VA  的#DEC  钾#NN  、#PU  碘#NN  、#PU  镁#NN  、#PU  磷#NN  等#ETC  微量#NN  元素#NN  和#CC  维生素A#NN  等#ETC  成分#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 虾#NN)  (case, 虾#NN, 中#LC)  (dep, 倍#M, 含有#VV)  (nummod, %#NN, 20#CD)  (assmod, 蛋白质#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 含有#VV, 蛋白质#NN)  (cop, 之一#NN, 是#VC)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (relcl, 之一#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nn, 之一#NN, 食品#NN)  (conj, 含有#VV, 之一#NN)  (conj, 含有#VV, 是#VC)  (conj, 奶的#NN, 鱼#NN)  (conj, 奶的#NN, 蛋#NN)  (dep, 倍#M, 奶的#NN)  (nummod, 倍#M, 几#CD)  (dep, 是#VC, 倍#M)  (advmod, 倍#M, 甚至#AD)  (nummod, 倍#M, 十几#CD)  (root, ROOT#null, 倍#M)  (conj, 鱼肉#NR, 虾#NR)  (cc, 鱼肉#NR, 和#CC)  (nsubj, 相比#VV, 鱼肉#NR)  (conj, 倍#M, 相比#VV)  (prtmod, 含#VV, 所#MSP)  (relcl, 人体#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 必需#VV, 人体#NN)  (conj, 倍#M, 必需#VV)  (nn, 并不#NN, 氨基酸#NN)  (nn, 并不#NN, 缬氨酸#NN)  (dobj, 必需#VV, 并不#NN)  (conj, 必需#VV, 高#VA)  (advmod, 来源#NN, 但#AD)  (advmod, 来源#NN, 却#AD)  (cop, 来源#NN, 是#VC)  (relcl, 来源#NN, 营养#VA)  (comod, 营养#VA, 均衡#VA)  (mark, 营养#VA, 的#DEC)  (nn, 来源#NN, 蛋白质#NN)  (conj, 倍#M, 来源#NN)  (advmod, 甘氨酸#VV, 另外#AD)  (nummod, 类#M, 虾#CD)  (clf, 含有#NN, 类#M)  (nsubj, 甘氨酸#VV, 含有#NN)  (conj, 倍#M, 甘氨酸#VV)  (det, 氨基酸#NN, 这#DT)  (clf, 这#DT, 种#M)  (assmod, 含量#NN, 氨基酸#NN)  (case, 氨基酸#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 越#AD)  (ccomp, 甘氨酸#VV, 高#VA)  (assmod, 甜味#NN, 虾#NR)  (case, 虾#NR, 的#DEG)  (nsubj, 越高#VV, 甜味#NN)  (advmod, 越高#VV, 就#AD)  (conj, 倍#M, 越高#VV)
+            (conj, 鱼肉#NR, 虾#NR)  (cc, 鱼肉#NR, 和#CC)  (nsubj, 相比#VV, 鱼肉#NR)  (advmod, 相比#VV, 禽肉#AD)  (root, ROOT#null, 相比#VV)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 少#VA, 含量#NN)  (conj, 相比#VV, 少#VA)  (cc, 少#VA, 并且#CC)  (advmod, 含#VV, 几乎#AD)  (neg, 含#VV, 不#AD)  (conj, 少#VA, 含#VV)  (case, 来源#NN, 作为#P)  (nn, 来源#NN, 能量#NN)  (assmod, 糖质#NN, 来源#NN)  (case, 来源#NN, 的#DEG)  (nn, 糖质#NN, 动物#NN)  (dobj, 含#VV, 糖质#NN)  (assmod, 含量#NN, 虾#NN)  (case, 虾#NN, 中#LC)  (case, 虾#NN, 的#DEG)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 少#VA, 高#VA)  (advmod, 含有#VV, 同时#AD)  (conj, 少#VA, 含有#VV)  (relcl, 牛磺酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (mmod, 降低#VV, 能#VV)  (relcl, 牛磺酸#NN, 降低#VV)  (nn, 胆固醇#NN, 人体#NN)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 含有#VV, 牛磺酸#NN)  (nsubj, 含有#VV, 虾#NR)  (conj, 相比#VV, 含有#VV)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 碘#NN)  (conj, 磷#NN, 镁#NN)  (nn, 元素#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nn, 元素#NN, 微量#NN)  (conj, 维生素A#NN, 元素#NN)  (cc, 维生素A#NN, 和#CC)  (nn, 成分#NN, 维生素A#NN)  (etc, 维生素A#NN, 等#ETC)  (dobj, 含有#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+            含有蛋白质  含人体  氨基酸并不  缬氨酸并不  必需并不  来源营养  均衡营养  蛋白质来源  相比  能量来源  动物糖质  牛磺酸丰富  降低牛磺酸  人体胆固醇  血清胆固醇  降低胆固醇  含有牛磺酸  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            教你如何快速的去虾线：
+            1.虾买回来后，先清洗一下
+            2.将虾的长须，以及多余的部分剪去
+            3.在虾的第二指节处，用牙签抽出虾肠
+            4.处理好的虾再清洗一下待用
+        </rawdata>
+
+        <segment>
+            教  你  如何  快速  的  去虾线  ：
+            虾  买回来  后  ，  先  清洗  一下
+            将  虾  的  长须  ，  以及  多余  的  部分  剪去
+            在  虾  的  第二  指节  处  ，  用  牙签  抽出  虾肠
+            处理  好  的  虾再  清洗  一下  待用
+        </segment>
+
+        <pos>
+            教#NN  你#PN  如何#AD  快速#VA  的#DEC  去虾线#NN  ：#PU
+            虾#NN  买回来#NN  后#LC  ，#PU  先#AD  清洗#VV  一下#AD
+            将#AD  虾#VV  的#DEC  长须#VV  ，#PU  以及#CC  多余#VV  的#DEC  部分#NN  剪去#VV
+            在#P  虾#NN  的#DEG  第二#OD  指节#NN  处#LC  ，#PU  用#P  牙签#NN  抽出#VV  虾肠#NN
+            处理#NN  好#VA  的#DEC  虾再#NN  清洗#NN  一下#AD  待用#VV
+        </pos>
+
+        <parsing>
+            (nn, 去虾线#NN, 教#NN)  (nsubj, 快速#VA, 你#PN)  (advmod, 快速#VA, 如何#AD)  (relcl, 去虾线#NN, 快速#VA)  (mark, 快速#VA, 的#DEC)  (root, ROOT#null, 去虾线#NN)
+            (nn, 买回来#NN, 虾#NN)  (loc, 清洗#VV, 买回来#NN)  (case, 买回来#NN, 后#LC)  (advmod, 清洗#VV, 先#AD)  (root, ROOT#null, 清洗#VV)  (advmod, 清洗#VV, 一下#AD)
+            (advmod, 虾#VV, 将#AD)  (relcl, 部分#NN, 虾#VV)  (mark, 虾#VV, 的#DEC)  (relcl, 部分#NN, 长须#VV)  (cc, 长须#VV, 以及#CC)  (dep, 长须#VV, 多余#VV)  (mark, 长须#VV, 的#DEC)  (nsubj, 剪去#VV, 部分#NN)  (root, ROOT#null, 剪去#VV)
+            (case, 指节#NN, 在#P)  (assmod, 指节#NN, 虾#NN)  (case, 虾#NN, 的#DEG)  (nummod, 指节#NN, 第二#OD)  (prep, 抽出#VV, 指节#NN)  (case, 指节#NN, 处#LC)  (case, 牙签#NN, 用#P)  (prep, 抽出#VV, 牙签#NN)  (root, ROOT#null, 抽出#VV)  (dobj, 抽出#VV, 虾肠#NN)
+            (nsubj, 好#VA, 处理#NN)  (relcl, 清洗#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 清洗#NN, 虾再#NN)  (nsubj, 待用#VV, 清洗#NN)  (advmod, 待用#VV, 一下#AD)  (root, ROOT#null, 待用#VV)
+        </parsing>
+
+        <tag>
+            去虾线快速  虾部分  长须部分  剪去  抽出虾肠  虾再清洗  待用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101035026270.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\117 河虾.jpg
+    </picturelocalurl>
+
+</content>

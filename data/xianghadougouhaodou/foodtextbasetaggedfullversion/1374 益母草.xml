@@ -1,0 +1,162 @@
+<content>
+
+    <id>
+        1374
+    </id>
+
+    <foodname>
+        益母草
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        益母蒿、益母艾、红花艾、坤草、茺蔚、三角胡麻、四楞子棵野麻、九塔花、山麻、九节草
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            1.阴虚血少、月经过多、寒滑泻利者禁服。
+            2.孕妇忌食。
+            3.益母草忌铁器。
+        </rawdata>
+
+        <segment>
+            阴虚  血  少  、  月经  过多  、  寒滑泻  利者  禁服  。
+            孕妇  忌食  。
+            益母草  忌铁器  。
+        </segment>
+
+        <pos>
+            阴虚#NN  血#NN  少#VA  、#PU  月经#VA  过多#VA  、#PU  寒滑泻#VA  利者#VV  禁服#NN  。#PU
+            孕妇#VV  忌食#NN  。#PU
+            益母草#VV  忌铁器#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 血#NN, 阴虚#NN)  (nsubj, 少#VA, 血#NN)  (conj, 利者#VV, 少#VA)  (dep, 少#VA, 月经#VA)  (conj, 少#VA, 过多#VA)  (dep, 少#VA, 寒滑泻#VA)  (root, ROOT#null, 利者#VV)  (dobj, 利者#VV, 禁服#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 忌食#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 益母草#VV)  (dobj, 益母草#VV, 忌铁器#NN)
+        </parsing>
+
+        <tag>
+            1.阴虚血少  月经过多  寒滑泻利者禁服  2.孕妇  忌食  3.  忌铁器  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            益母草为唇形科植物益母草的全草。一年或二年生草本，夏季开花。生于山野荒地、田埂、草地等。全国大部分地区均有分布。在夏季生长茂盛花未全开时采摘。
+            鲜益母草：幼苗期无茎，基生叶圆心形，边缘5～9浅裂，每裂片有2～3钝齿。花前期茎呈方柱形 ，上部多分枝，四面凹下成纵沟，长30～60cm，直径0.2～0.5cm ；表面青绿色；质鲜嫩，断面中部有髓。叶交互对生，有柄；叶片青绿色，质鲜嫩，揉之有汁；下部茎生叶掌状3 裂，上部叶羽状深裂或浅裂成3 片，裂片全缘或具少数锯齿。气微，味微苦。
+            干益母草：茎表面灰绿色或黄绿色；体轻，质韧，断面中部有髓。叶片灰绿色，多皱缩、破碎，易脱落。轮伞花序腋生，小花淡紫色，花萼筒状，花冠二唇形。切段者长约2cm。生于山野荒地、田埂、草地等。全国大部分地区均有分布。
+        </rawdata>
+
+        <segment>
+            益母草  为  唇形科  植物  益母草  的  全  草  。  一  年  或  二  年  生  草本  ，  夏季  开花  。  生于  山野  荒地  、  田埂  、  草地  等  。  全国  大部分  地区  均有  分布  。  在  夏季  生长  茂盛  花  未  全开  时  采摘  。
+            鲜  益  母草  ：  幼  苗期  无茎  ，  基  生叶  圆  心形  ，  边缘  9  浅  裂  ，  每  裂  片  有  2  ～  3  钝齿  。  花  前期  茎呈方  柱形  ，  上部  多  分枝  ，  四面  凹下  成  纵沟  ，  长  30  ～  60  cm  ，  直径  0.2～0.5cm  ；  表面  青绿色  ；  质  鲜嫩  ，  断面  中部  有髓  。  叶  交互  对生  ，  有柄  ；  叶片  青绿色  ，  质  鲜嫩  ，  揉之有汁  ；  下部  茎生叶  掌状  3  裂  ，  上部  叶  羽状  深  裂  或  浅  裂成  3  片  ，  裂片  全  缘  或  具  少数  锯齿  。  气微  ，  味微苦  。
+            干  益  母草  ：  茎  表面  灰绿色  或  黄绿色  ；  体轻  ，  质  韧  ，  断面  中部  有髓  。  叶片  灰绿色  ，  多  皱缩  、  破碎  ，  易  脱落  。  轮伞  花序  腋生  ，  小花  淡紫色  ，  花萼  筒状  ，  花冠  二  唇形  。  切  段  者  长约2cm  。  生于  山野  荒地  、  田埂  、  草地  等  。  全国  大部分  地区  均有  分布  。
+        </segment>
+
+        <pos>
+            益母草#NN  为#VC  唇形科#NN  植物#NN  益母草#NN  的#DEG  全#DT  草#NN    。#PU  一#CD  年#M  或#CC  二#CD  年#M  生#VV  草本#NN  ，#PU  夏季#NT  开花#JJ    。#PU  生于#NN  山野#VV  荒地#NR  、#PU  田埂#NR  、#PU  草地#NR  等#ETC    。#PU  全国#NR  大部分#CD  地区#NN  均有#AD  分布#VV    。#PU  在#P  夏季#NT  生长#NN  茂盛#NN  花#NN  未#AD  全开#VV  时#LC  采摘#VV    。#PU    。#PU
+            鲜#NN  益#NN  母草#VV  ：#PU  幼#NN  苗期#NN  无茎#VV  ，#PU  基#NN  生叶#NN  圆#VV  心形#NN  ，#PU  边缘#NN  9#CD  浅#NN  裂#VV  ，#PU  每#DT  裂#CD  片#M  有#VE  2#CD  ～#NN  3#CD  钝齿#NN    。#PU  花#NN  前期#JJ  茎呈方#NN  柱形#VV  ，#PU  上部#NN  多#AD  分枝#VV  ，#PU  四面#CD  凹下#NN  成#VV  纵沟#NN  ，#PU  长#VV  30#CD  ～#NN  60#CD  cm#NN  ，#PU  直径#NN  0.2#CD  ～#VV  0.5#CD  cm#NN  ；#PU  表面#NN  青绿色#VV  ；#PU  质#NN  鲜嫩#VV  ，#PU  断面#VV  中部#NN  有髓#NN    。#PU  叶#NR  交互#VV  对生#NN  ，#PU  有柄#VV  ；#PU  叶片#AD  青绿色#VV  ，#PU  质#NN  鲜嫩#NN  ，#PU  揉之有汁#VV  ；#PU  下部#NN  茎生叶#VV  掌状#NR  3#CD  裂#NN  ，#PU  上部#VV  叶#NR  羽状#NR  深#NR  裂#NN  或#CC  浅#NN  裂成#NN  3#CD  片#M  ，#PU  裂片#VV  全#DT  缘#NN  或#CC  具#VV  少数#CD  锯齿#NN    。#PU  气微#VV  ，#PU  味微苦#VV    。#PU    。#PU
+            干#VV  益#NN  母草#NN  ：#PU  茎#VV  表面#NN  灰绿色#NN  或#CC  黄绿色#NN  ；#PU  体轻#VV  ，#PU  质#NN  韧#NN  ，#PU  断面#VV  中部#NN  有髓#NN    。#PU  叶片#NR  灰绿色#VV  ，#PU  多#AD  皱缩#VA  、#PU  破碎#VA  ，#PU  易#AD  脱落#VA    。#PU  轮伞#VV  花序#NN  腋生#NN  ，#PU  小花#VV  淡紫色#JJ  ，#PU  花萼#VV  筒状#NN  ，#PU  花冠#VV  二#CD  唇形#NN    。#PU  切#VV  段#NN  者#NN  长约2cm#CD    。#PU  生于#NN  山野#VV  荒地#NR  、#PU  田埂#NR  、#PU  草地#NR  等#ETC    。#PU  全国#NR  大部分#CD  地区#NN  均有#AD  分布#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 草#NN, 益母草#NN)  (cop, 草#NN, 为#VC)  (nn, 益母草#NN, 唇形科#NN)  (nn, 益母草#NN, 植物#NN)  (assmod, 草#NN, 益母草#NN)  (case, 益母草#NN, 的#DEG)  (det, 草#NN, 全#DT)  (root, ROOT#null, 草#NN)   (nummod, 年#M, 一#CD)  (clf, 年#M, 年#M)  (cc, 年#M, 或#CC)  (nummod, 年#M, 二#CD)  (conj, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 草本#NN)  (dep, 生#VV, 夏季#NT)  (conj, 生#VV, 开花#JJ)   (nsubj, 山野#VV, 生于#NN)  (root, ROOT#null, 山野#VV)  (conj, 草地#NR, 荒地#NR)  (conj, 草地#NR, 田埂#NR)  (dobj, 山野#VV, 草地#NR)  (etc, 草地#NR, 等#ETC)   (nn, 地区#NN, 全国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 分布#VV, 地区#NN)  (advmod, 分布#VV, 均有#AD)  (root, ROOT#null, 分布#VV)   (case, 全开#VV, 在#P)  (tmod, 全开#VV, 夏季#NT)  (nn, 花#NN, 生长#NN)  (nn, 花#NN, 茂盛#NN)  (nsubj, 全开#VV, 花#NN)  (advmod, 全开#VV, 未#AD)  (prep, 采摘#VV, 全开#VV)  (case, 全开#VV, 时#LC)  (root, ROOT#null, 采摘#VV)   (root, ROOT#null, null#null)
+            (nn, 益#NN, 鲜#NN)  (nsubj, 母草#VV, 益#NN)  (root, ROOT#null, 母草#VV)  (nn, 苗期#NN, 幼#NN)  (nsubj, 无茎#VV, 苗期#NN)  (ccomp, 母草#VV, 无茎#VV)  (nn, 生叶#NN, 基#NN)  (nsubj, 圆#VV, 生叶#NN)  (ccomp, 无茎#VV, 圆#VV)  (dobj, 圆#VV, 心形#NN)  (nn, 浅#NN, 边缘#NN)  (nummod, 浅#NN, 9#CD)  (nsubj, 裂#VV, 浅#NN)  (conj, 无茎#VV, 裂#VV)  (dep, 有#VE, 每#DT)  (nummod, 片#M, 裂#CD)  (dep, 每#DT, 片#M)  (ccomp, 裂#VV, 有#VE)  (nummod, ～#NN, 2#CD)  (nummod, 钝齿#NN, 3#CD)  (dobj, 有#VE, 钝齿#NN)   (nn, 茎呈方#NN, 花#NN)  (amod, 茎呈方#NN, 前期#JJ)  (nsubj, 柱形#VV, 茎呈方#NN)  (root, ROOT#null, 柱形#VV)  (nsubj, 分枝#VV, 上部#NN)  (advmod, 分枝#VV, 多#AD)  (ccomp, 柱形#VV, 分枝#VV)  (nummod, 凹下#NN, 四面#CD)  (nsubj, 成#VV, 凹下#NN)  (conj, 分枝#VV, 成#VV)  (dobj, 成#VV, 纵沟#NN)  (conj, 分枝#VV, 长#VV)  (nummod, ～#NN, 30#CD)  (nummod, cm#NN, 60#CD)  (dobj, 长#VV, cm#NN)  (nsubj, ～#VV, 直径#NN)  (nsubj, ～#VV, 0.2#CD)  (nummod, cm#NN, 0.5#CD)  (dobj, ～#VV, cm#NN)  (nsubj, 青绿色#VV, 表面#NN)  (conj, 分枝#VV, 青绿色#VV)  (nsubj, 鲜嫩#VV, 质#NN)  (conj, 分枝#VV, 鲜嫩#VV)  (conj, 分枝#VV, 断面#VV)  (nn, 有髓#NN, 中部#NN)  (dobj, 断面#VV, 有髓#NN)   (nsubj, 交互#VV, 叶#NR)  (root, ROOT#null, 交互#VV)  (dobj, 交互#VV, 对生#NN)  (conj, 交互#VV, 有柄#VV)  (advmod, 青绿色#VV, 叶片#AD)  (conj, 交互#VV, 青绿色#VV)  (nn, 鲜嫩#NN, 质#NN)  (nsubj, 揉之有汁#VV, 鲜嫩#NN)  (ccomp, 青绿色#VV, 揉之有汁#VV)  (nsubj, 茎生叶#VV, 下部#NN)  (ccomp, 揉之有汁#VV, 茎生叶#VV)  (nn, 裂#NN, 掌状#NR)  (nummod, 裂#NN, 3#CD)  (dobj, 茎生叶#VV, 裂#NN)  (conj, 交互#VV, 上部#VV)  (nn, 裂#NN, 叶#NR)  (nn, 裂#NN, 羽状#NR)  (nn, 裂#NN, 深#NR)  (conj, 裂成#NN, 裂#NN)  (cc, 裂成#NN, 或#CC)  (nn, 裂成#NN, 浅#NN)  (dobj, 上部#VV, 裂成#NN)  (nummod, 片#M, 3#CD)  (range, 上部#VV, 片#M)  (conj, 交互#VV, 裂片#VV)  (det, 缘#NN, 全#DT)  (dobj, 裂片#VV, 缘#NN)  (cc, 交互#VV, 或#CC)  (conj, 交互#VV, 具#VV)  (nummod, 锯齿#NN, 少数#CD)  (dobj, 具#VV, 锯齿#NN)   (root, ROOT#null, 气微#VV)  (ccomp, 气微#VV, 味微苦#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 干#VV)  (nn, 母草#NN, 益#NN)  (dobj, 干#VV, 母草#NN)  (conj, 干#VV, 茎#VV)  (nn, 黄绿色#NN, 表面#NN)  (conj, 黄绿色#NN, 灰绿色#NN)  (cc, 黄绿色#NN, 或#CC)  (dobj, 茎#VV, 黄绿色#NN)  (conj, 干#VV, 体轻#VV)  (nn, 韧#NN, 质#NN)  (conj, 干#VV, 韧#NN)  (conj, 干#VV, 断面#VV)  (nn, 有髓#NN, 中部#NN)  (dobj, 断面#VV, 有髓#NN)   (nsubj, 灰绿色#VV, 叶片#NR)  (xsubj, 皱缩#VA, 叶片#NR)  (root, ROOT#null, 灰绿色#VV)  (advmod, 皱缩#VA, 多#AD)  (ccomp, 灰绿色#VV, 皱缩#VA)  (dep, 皱缩#VA, 破碎#VA)  (advmod, 脱落#VA, 易#AD)  (dep, 皱缩#VA, 脱落#VA)   (root, ROOT#null, 轮伞#VV)  (nn, 腋生#NN, 花序#NN)  (dobj, 轮伞#VV, 腋生#NN)  (conj, 轮伞#VV, 小花#VV)  (conj, 轮伞#VV, 淡紫色#JJ)  (conj, 轮伞#VV, 花萼#VV)  (dobj, 花萼#VV, 筒状#NN)  (conj, 轮伞#VV, 花冠#VV)  (nummod, 唇形#NN, 二#CD)  (dobj, 花冠#VV, 唇形#NN)   (root, ROOT#null, 切#VV)  (nn, 者#NN, 段#NN)  (dobj, 切#VV, 者#NN)  (range, 切#VV, 长约2cm#CD)   (nsubj, 山野#VV, 生于#NN)  (root, ROOT#null, 山野#VV)  (conj, 草地#NR, 荒地#NR)  (conj, 草地#NR, 田埂#NR)  (dobj, 山野#VV, 草地#NR)  (etc, 草地#NR, 等#ETC)   (nn, 地区#NN, 全国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 分布#VV, 地区#NN)  (advmod, 分布#VV, 均有#AD)  (root, ROOT#null, 分布#VV)
+        </parsing>
+
+        <tag>
+            山野  草地  荒地  田埂  分布  采摘  母草  前期茎呈方  柱形  中部有髓  断面有髓  交互对生  茎生叶裂  上部裂成  裂片缘  气微  表面黄绿色  灰绿色  花序腋生  轮伞腋生  花萼筒状  花冠唇形  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            益母草嫩茎叶含有蛋白质、碳水化合物等多种营养成分。性味辛苦凉。
+            1.对子宫有收缩兴奋的作用。
+            2.抗血小板凝聚作用。
+            3.保护心脏，对血管壁有直接扩张作用。
+            4.美容养颜，防衰老。
+            5.具有活血、法瘀、调经、消水的功效.
+            6.缓解月经不调、浮肿下水、尿血、泻血、痢疾、痔疾等症。
+        </rawdata>
+
+        <segment>
+            益母草  嫩茎叶  含有  蛋白质  、  碳水  化合物  等  多  种  营养  成分  。  性味  辛苦  凉  。
+            对  子宫  有  收缩  兴奋  的  作用  。
+            抗  血小板  凝聚  作用  。
+            保护  心脏  ，  对  血  管壁  有  直接  扩张  作用  。
+            美容  养颜  ，  防  衰老  。
+            具有  活血  、  法瘀  、  调经  、  消水  的  功效  .
+            缓解  月经  不调  、  浮肿  下水  、  尿血  、  泻血  、  痢疾  、  痔疾  等症  。
+        </segment>
+
+        <pos>
+            益母草#NN  嫩茎叶#VV  含有#NN  蛋白质#NN  、#PU  碳水#NN  化合物#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN    。#PU  性味#NN  辛苦#VA  凉#VA    。#PU    。#PU
+            对#P  子宫#NN  有#VE  收缩#AD  兴奋#VA  的#DEC  作用#NN  。#PU
+            抗#NN  血小板#AD  凝聚#VV  作用#NN  。#PU
+            保护#NN  心脏#NN  ，#PU  对#P  血#NN  管壁#AD  有#VE  直接#JJ  扩张#NN  作用#NN  。#PU
+            美容#NR  养颜#VV  ，#PU  防#VV  衰老#NN  。#PU
+            具有#VV  活血#NR  、#PU  法瘀#NR  、#PU  调经#NR  、#PU  消水#NR  的#DEC  功效#NN  .#NN
+            缓解#VV  月经#NR  不调#NR  、#PU  浮肿#NR  下水#NR  、#PU  尿血#NR  、#PU  泻血#NR  、#PU  痢疾#NR  、#PU  痔疾#NR  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 嫩茎叶#VV, 益母草#NN)  (root, ROOT#null, 嫩茎叶#VV)  (nn, 化合物#NN, 含有#NN)  (conj, 化合物#NN, 蛋白质#NN)  (nn, 化合物#NN, 碳水#NN)  (nn, 成分#NN, 化合物#NN)  (etc, 化合物#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nfincl, 成分#NN, 营养#VA)  (dobj, 嫩茎叶#VV, 成分#NN)   (nsubj, 辛苦#VA, 性味#NN)  (root, ROOT#null, 辛苦#VA)  (comod, 辛苦#VA, 凉#VA)   (root, ROOT#null, null#null)
+            (case, 子宫#NN, 对#P)  (prep, 有#VE, 子宫#NN)  (root, ROOT#null, 有#VE)  (advmod, 兴奋#VA, 收缩#AD)  (relcl, 作用#NN, 兴奋#VA)  (mark, 兴奋#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 凝聚#VV, 抗#NN)  (advmod, 凝聚#VV, 血小板#AD)  (root, ROOT#null, 凝聚#VV)  (dobj, 凝聚#VV, 作用#NN)
+            (nn, 心脏#NN, 保护#NN)  (nsubj, 有#VE, 心脏#NN)  (case, 血#NN, 对#P)  (prep, 有#VE, 血#NN)  (advmod, 有#VE, 管壁#AD)  (root, ROOT#null, 有#VE)  (amod, 扩张#NN, 直接#JJ)  (nn, 作用#NN, 扩张#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 养颜#VV, 美容#NR)  (root, ROOT#null, 养颜#VV)  (ccomp, 养颜#VV, 防#VV)  (dobj, 防#VV, 衰老#NN)
+            (relcl, .#NN, 具有#VV)  (root, .#NN, 具有#VV)  (conj, 消水#NR, 活血#NR)  (conj, 消水#NR, 法瘀#NR)  (conj, 消水#NR, 调经#NR)  (dobj, 具有#VV, 消水#NR)  (mark, 具有#VV, 的#DEC)  (nn, 具有#VV, 功效#NN)  (nn, .#NN, 功效#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 痔疾#NR, 月经#NR)  (conj, 痔疾#NR, 不调#NR)  (nn, 痔疾#NR, 浮肿#NR)  (conj, 痔疾#NR, 下水#NR)  (conj, 痔疾#NR, 尿血#NR)  (conj, 痔疾#NR, 泻血#NR)  (conj, 痔疾#NR, 痢疾#NR)  (nn, 等症#NN, 痔疾#NR)  (dobj, 缓解#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            含有化合物  蛋白质  碳水化合物  性味辛苦  凝聚  保护心脏  养颜  消水  活血  法瘀  调经  痔疾  不调  下水  尿血  泻血  痢疾  缓解等症  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/1f/02/543_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1374 益母草.jpg
+    </picturelocalurl>
+
+</content>

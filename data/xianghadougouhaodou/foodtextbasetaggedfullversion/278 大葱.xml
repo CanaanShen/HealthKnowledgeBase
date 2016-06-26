@@ -1,0 +1,458 @@
+<content>
+
+    <id>
+        278
+    </id>
+
+    <foodname>
+        大葱
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        葱蒜类
+    </secondcategory>
+
+    <alias>
+        葱、青葱、四季葱、事菜
+    </alias>
+
+    <season>
+        初冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            眼疾患者、患有胃肠道疾病特别是溃疡病的人、表虚、多汗者忌食。有腋臭的人在夏季应慎食。
+        </rawdata>
+
+        <segment>
+            眼疾  患者  、  患有  胃肠道  疾病  特别是  溃疡病  的  人  、  表虚  、  多汗  者  忌食  。  有  腋臭  的  人  在  夏季  应  慎食  。
+        </segment>
+
+        <pos>
+            眼疾#NN  患者#NN  、#PU  患有#NN  胃肠道#NN  疾病#NN  特别是#AD  溃疡病#NN  的#DEG  人#NN  、#PU  表虚#NN  、#PU  多汗#NN  者#NN  忌食#NN    。#PU  有#VE  腋臭#NN  的#DEC  人#NN  在#P  夏季#NT  应#VV  慎食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 眼疾#NN)  (conj, 忌食#NN, 患者#NN)  (nn, 疾病#NN, 患有#NN)  (nn, 疾病#NN, 胃肠道#NN)  (nn, 忌食#NN, 疾病#NN)  (advmod, 忌食#NN, 特别是#AD)  (assmod, 忌食#NN, 溃疡病#NN)  (case, 溃疡病#NN, 的#DEG)  (conj, 忌食#NN, 人#NN)  (conj, 忌食#NN, 表虚#NN)  (nn, 忌食#NN, 多汗#NN)  (nn, 忌食#NN, 者#NN)  (root, ROOT#null, 忌食#NN)   (relcl, 人#NN, 有#VE)  (dobj, 有#VE, 腋臭#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 慎食#VV, 人#NN)  (case, 夏季#NT, 在#P)  (prep, 慎食#VV, 夏季#NT)  (dep, 慎食#VV, 应#VV)  (root, ROOT#null, 慎食#VV)
+        </parsing>
+
+        <tag>
+            眼疾  患者  胃肠道疾病特别是溃疡病  表虚  多汗者  忌食  腋臭  夏季应  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。脑力劳动者更适宜。（过多食用葱会损伤视力。）
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  脑力  劳动者  更  适宜  。  （  过多  食用  葱会  损伤  视力  。  ）
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  脑力#NN  劳动者#NN  更#AD  适宜#VA    。#PU  （#PU  过多#NR  食用#NT  葱会#NN  损伤#NR  视力#VV    。#PU  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nn, 劳动者#NN, 脑力#NN)  (nsubj, 适宜#VA, 劳动者#NN)  (advmod, 适宜#VA, 更#AD)  (root, ROOT#null, 适宜#VA)   (dep, 视力#VV, 过多#NR)  (dep, 视力#VV, 食用#NT)  (dep, 视力#VV, 葱会#NN)  (dep, 视力#VV, 损伤#NR)  (root, ROOT#null, 视力#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  脑力劳动者更适宜  过多  葱会损伤视力  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                11.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                144
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.67
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                91.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            葱属百合科，是多年生草本植物葱的茎与叶，上部为青色葱叶，下部为白色葱白。
+            原产于西伯利亚，我国栽培历史悠久，分布广泛，而以山东、河北、河南等省为重要产地。大葱耐寒抗热，适应性强，四季均可上市。普通大葱，原产我国，遍及南北各地。叶圆而中空，叶鞘基部抱合成“假茎”，幼嫩时叶和葱白都能食用。
+            根据葱白的长短又分为两个类型。大葱植株高大，葱白洁白而味甜，在北方栽培较多。
+            葱是日常厨房里的必备之物，北方以大葱为主，它不仅可作调味之品，而且能防治疫病，可谓佳蔬良药。大葱多用于煎炒烹炸；南方多产小葱，是一种常用调料，又叫香葱，一般都是生食或拌凉菜用。
+        </rawdata>
+
+        <segment>
+            葱  属  百合科  ，  是  多年生  草本  植物  葱  的  茎与叶  ，  上部  为  青色  葱叶  ，  下部  为  白色  葱白  。
+            原  产  于  西伯利亚  ，  我国  栽培  历史  悠久  ，  分布  广泛  ，  而  以  山东  、  河北  、  河南  等  省  为  重要  产地  。  大葱  耐寒  抗热  ，  适应  性强  ，  四  季  均  可  上市  。  普通  大葱  ，  原产  我国  ，  遍及  南北  各  地  。  叶  圆  而  中空  ，  叶鞘  基部  抱  合成  “  假茎  ”  ，  幼嫩  时  叶  和  葱白  都  能  食用  。
+            根据  葱白  的  长短  又  分为  两  个  类型  。  大葱  植株  高大  ，  葱白  洁白  而  味甜  ，  在  北方  栽培  较  多  。
+            葱  是  日常  厨房  里  的  必备  之物  ，  北方  以  大葱  为主  ，  它  不仅  可作  调味  之  品  ，  而且  能  防治  疫病  ，  可谓  佳蔬  良药  。  大葱  多  用  于  煎炒  烹炸  ；  南方  多产  小葱  ，  是  一  种  常用  调料  ，  又  叫  香葱  ，  一般  都  是  生食  或  拌凉菜  用  。
+        </segment>
+
+        <pos>
+            葱#NN  属#VV  百合科#CD  ，#PU  是#VC  多年生#VV  草本#NN  植物#NN  葱#NN  的#DEC  茎与叶#NN  ，#PU  上部#NN  为#VC  青色#NN  葱叶#NN  ，#PU  下部#NN  为#VC  白色#JJ  葱白#NN  。#PU
+            原#AD  产#VV  于#P  西伯利亚#NN  ，#PU  我国#AD  栽培#VV  历史#NN  悠久#VA  ，#PU  分布#VV  广泛#VA  ，#PU  而#CC  以#P  山东#NR  、#PU  河北#NR  、#PU  河南#NR  等#ETC  省#NN  为#VV  重要#JJ  产地#NN    。#PU  大葱#NN  耐寒#NN  抗热#VV  ，#PU  适应#VV  性强#NN  ，#PU  四#CD  季#NN  均#AD  可#VV  上市#VV    。#PU  普通#JJ  大葱#NN  ，#PU  原产#AD  我国#VV  ，#PU  遍及#VV  南北#NN  各#DT  地#NN    。#PU  叶#NR  圆#VV  而#MSP  中空#VV  ，#PU  叶鞘#NN  基部#AD  抱#VV  合成#JJ  ``#NN  假茎#NN  ''#NN  ，#PU  幼嫩#NN  时#LC  叶#NR  和#CC  葱白#NR  都#AD  能#VV  食用#VV    。#PU    。#PU
+            根据#P  葱白#NN  的#DEG  长短#NN  又#AD  分为#VV  两#CD  个#M  类型#NN    。#PU  大葱#NN  植株#AD  高大#VA  ，#PU  葱白#VV  洁白#NN  而#CC  味甜#NN  ，#PU  在#P  北方#NN  栽培#VV  较#AD  多#VA    。#PU    。#PU
+            葱#NN  是#VC  日常#JJ  厨房#NN  里#LC  的#DEG  必备#VV  之物#NN  ，#PU  北方#NN  以#P  大葱#NN  为主#VV  ，#PU  它#PN  不仅#CC  可作#VV  调味#NN  之#DEG  品#M  ，#PU  而且#CC  能#VV  防治#NN  疫病#NN  ，#PU  可谓#VV  佳蔬#NN  良药#NN    。#PU  大葱#NN  多#AD  用#VV  于#P  煎炒#NN  烹炸#NN  ；#PU  南方#NN  多产#NN  小葱#NN  ，#PU  是#VC  一#CD  种#M  常用#JJ  调料#NN  ，#PU  又#AD  叫#VV  香葱#NN  ，#PU  一般#AD  都#AD  是#VC  生食#NN  或#CC  拌凉菜#NN  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 葱#NN)  (root, ROOT#null, 属#VV)  (range, 属#VV, 百合科#CD)  (cop, 茎与叶#NN, 是#VC)  (relcl, 茎与叶#NN, 多年生#VV)  (nn, 葱#NN, 草本#NN)  (nn, 葱#NN, 植物#NN)  (dobj, 多年生#VV, 葱#NN)  (mark, 多年生#VV, 的#DEC)  (conj, 属#VV, 茎与叶#NN)  (nsubj, 葱叶#NN, 上部#NN)  (cop, 葱叶#NN, 为#VC)  (nn, 葱叶#NN, 青色#NN)  (conj, 属#VV, 葱叶#NN)  (nsubj, 葱白#NN, 下部#NN)  (cop, 葱白#NN, 为#VC)  (amod, 葱白#NN, 白色#JJ)  (conj, 属#VV, 葱白#NN)
+            (advmod, 产#VV, 原#AD)  (root, ROOT#null, 产#VV)  (case, 西伯利亚#NN, 于#P)  (prep, 产#VV, 西伯利亚#NN)  (advmod, 栽培#VV, 我国#AD)  (dep, 产#VV, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)  (conj, 栽培#VV, 悠久#VA)  (dep, 产#VV, 分布#VV)  (dep, 分布#VV, 广泛#VA)  (cc, 分布#VV, 而#CC)  (case, 省#NN, 以#P)  (conj, 河南#NR, 山东#NR)  (conj, 河南#NR, 河北#NR)  (nn, 省#NN, 河南#NR)  (etc, 河南#NR, 等#ETC)  (prep, 为#VV, 省#NN)  (dep, 分布#VV, 为#VV)  (amod, 产地#NN, 重要#JJ)  (dobj, 为#VV, 产地#NN)   (nn, 耐寒#NN, 大葱#NN)  (nsubj, 抗热#VV, 耐寒#NN)  (root, ROOT#null, 抗热#VV)  (ccomp, 抗热#VV, 适应#VV)  (dobj, 适应#VV, 性强#NN)  (nummod, 季#NN, 四#CD)  (nsubj, 上市#VV, 季#NN)  (advmod, 上市#VV, 均#AD)  (dep, 上市#VV, 可#VV)  (dep, 适应#VV, 上市#VV)   (amod, 大葱#NN, 普通#JJ)  (dep, 我国#VV, 大葱#NN)  (advmod, 我国#VV, 原产#AD)  (root, ROOT#null, 我国#VV)  (ccomp, 我国#VV, 遍及#VV)  (nn, 地#NN, 南北#NN)  (det, 地#NN, 各#DT)  (dobj, 遍及#VV, 地#NN)   (nsubj, 圆#VV, 叶#NR)  (root, ROOT#null, 圆#VV)  (prtmod, 中空#VV, 而#MSP)  (dep, 圆#VV, 中空#VV)  (nsubj, 抱#VV, 叶鞘#NN)  (advmod, 抱#VV, 基部#AD)  (ccomp, 中空#VV, 抱#VV)  (amod, ''#NN, 合成#JJ)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 假茎#NN)  (dobj, 抱#VV, ''#NN)  (loc, 食用#VV, 幼嫩#NN)  (case, 幼嫩#NN, 时#LC)  (conj, 葱白#NR, 叶#NR)  (cc, 葱白#NR, 和#CC)  (nsubj, 食用#VV, 葱白#NR)  (advmod, 食用#VV, 都#AD)  (dep, 食用#VV, 能#VV)  (conj, 抱#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (case, 葱白#NN, 根据#P)  (assmod, 长短#NN, 葱白#NN)  (case, 葱白#NN, 的#DEG)  (nsubj, 分为#VV, 长短#NN)  (advmod, 分为#VV, 又#AD)  (root, ROOT#null, 分为#VV)  (nummod, 个#M, 两#CD)  (clf, 类型#NN, 个#M)  (dobj, 分为#VV, 类型#NN)   (nsubj, 高大#VA, 大葱#NN)  (advmod, 高大#VA, 植株#AD)  (root, ROOT#null, 高大#VA)  (dep, 高大#VA, 葱白#VV)  (conj, 味甜#NN, 洁白#NN)  (cc, 味甜#NN, 而#CC)  (dobj, 葱白#VV, 味甜#NN)  (case, 北方#NN, 在#P)  (prep, 多#VA, 北方#NN)  (mmod, 多#VA, 栽培#VV)  (advmod, 多#VA, 较#AD)  (conj, 高大#VA, 多#VA)   (root, ROOT#null, null#null)
+            (nsubj, 之物#NN, 葱#NN)  (cop, 之物#NN, 是#VC)  (amod, 厨房#NN, 日常#JJ)  (assmod, 之物#NN, 厨房#NN)  (case, 厨房#NN, 里#LC)  (case, 厨房#NN, 的#DEG)  (nfincl, 之物#NN, 必备#VV)  (root, ROOT#null, 之物#NN)  (nsubj, 为主#VV, 北方#NN)  (case, 大葱#NN, 以#P)  (prep, 为主#VV, 大葱#NN)  (conj, 之物#NN, 为主#VV)  (nsubj, 可作#VV, 它#PN)  (cc, 可作#VV, 不仅#CC)  (conj, 之物#NN, 可作#VV)  (assmod, 疫病#NN, 调味#NN)  (case, 调味#NN, 之#DEG)  (nfincl, 疫病#NN, 品#M)  (cc, 品#M, 而且#CC)  (conj, 品#M, 能#VV)  (nn, 疫病#NN, 防治#NN)  (dobj, 可作#VV, 疫病#NN)  (conj, 可作#VV, 可谓#VV)  (nn, 良药#NN, 佳蔬#NN)  (dobj, 可谓#VV, 良药#NN)   (nsubj, 用#VV, 大葱#NN)  (advmod, 用#VV, 多#AD)  (root, ROOT#null, 用#VV)  (case, 烹炸#NN, 于#P)  (nn, 烹炸#NN, 煎炒#NN)  (prep, 用#VV, 烹炸#NN)  (nn, 小葱#NN, 南方#NN)  (nn, 小葱#NN, 多产#NN)  (dep, 调料#NN, 小葱#NN)  (cop, 调料#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 调料#NN, 种#M)  (amod, 调料#NN, 常用#JJ)  (conj, 用#VV, 调料#NN)  (advmod, 叫#VV, 又#AD)  (dep, 用#VV, 叫#VV)  (dobj, 叫#VV, 香葱#NN)  (advmod, 拌凉菜#NN, 一般#AD)  (advmod, 拌凉菜#NN, 都#AD)  (cop, 拌凉菜#NN, 是#VC)  (conj, 拌凉菜#NN, 生食#NN)  (cc, 拌凉菜#NN, 或#CC)  (dep, 叫#VV, 拌凉菜#NN)  (conj, 用#VV, 用#VV)
+        </parsing>
+
+        <tag>
+            多年生茎与叶  多年生葱  青色葱叶  白色葱白  栽培历史  河南  山东  河北  抗热  适应性强  我国  分为类型  洁白  葱白味甜  日常厨房  防治疫病  可作疫病  佳蔬良药  可谓良药  煎炒烹炸  南方小葱  多产小葱  常用调料  拌凉菜  生食  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.舒张血管
+            大葱富含维生素C，有舒张小血管，促进血液循环的作用，可防止血压升高所致的头晕，使大脑保持灵活，并预防老年痴呆。大葱的挥发油和辣素，能祛除腥膻等油腻厚味菜肴中的异味，产生特殊香气，如果与蘑菇同食还可以起到促进血液循环的作用。
+            2.降胆固醇
+            大葱可降低坏胆固醇的堆积，经常吃葱的人，即便脂多体胖，其胆固醇并不增高，而且体质强壮。葱叶部分比葱白部分含有更多的维生素A、C及钙。
+            3.缓解疲劳
+            生葱像洋葱一样，含烯丙基硫醚，这种物质会刺激胃液的分泌，且有助于食欲的增进。与含维生素B1含量较多的食物一起摄取时，会促进食物的淀粉及糖质变为热量，可以缓解疲劳。
+            4.壮阳补阴
+            大葱中的各种维生素能保证人体激素正常分泌，还能有效刺激性欲，从而“壮阳补阴”。因此，对男性来说，每周吃3次大葱或细香葱，可炒菜、凉拌食用，也能当成调味剂，以达到壮阳补阴的功效。
+            5.解毒调味
+            大葱味辛，性微温，具有发表通阳、解毒调味的作用。主要用于风寒感冒、阴寒腹痛、恶寒发热、头痛鼻塞、乳汁不通，二便不利等。大葱含有挥发油，油中的主要成分为蒜素，又含有二烯丙基硫醚、草酸钙。另外，还含有脂肪、糖类，胡萝卜素等，维生素B、C，烟酸，钙，镁，铁等成分。
+            6.预防癌症
+            香葱所含的果胶，可明显地减少结肠癌的发生，有抗癌作用。葱内的蒜辣素也可以抑制癌细胞的生长;葱还含有微量元素硒，可降低胃液内的亚硝酸盐含量，对预防胃癌及多种癌症有一定作用。
+            7.发汗抑菌
+            大葱具有刺激身体汗腺，达到发汗散热之作用;葱油可以刺激上呼吸道，使黏痰易于咳出。葱中所含大蒜素，具有明显的抵御细菌、病毒的作用，尤其对痢疾杆菌和皮肤真菌抑制作用更强。
+        </rawdata>
+
+        <segment>
+            舒张  血管
+            大葱  富含  维生素C  ，  有  舒张  小  血管  ，  促进  血液  循环  的  作用  ，  可  防止  血压  升高  所致  的  头晕  ，  使  大脑  保持  灵活  ，  并  预防  老年  痴呆  。  大葱  的  挥发油  和  辣素  ，  能  祛除  腥膻  等  油腻  厚味  菜肴  中  的  异味  ，  产生  特殊  香气  ，  如果  与  蘑菇  同  食  还  可以  起到  促进  血液  循环  的  作用  。
+            降  胆固醇
+            大葱  可  降低  坏  胆固醇  的  堆积  ，  经常  吃  葱  的  人  ，  即便  脂多  体胖  ，  其  胆固醇  并不  增高  ，  而且  体质  强壮  。  葱叶  部分  比  葱白  部分  含有  更  多  的  维生素A  、  C  及  钙  。
+            缓解  疲劳
+            生  葱  像  洋葱  一样  ，  含烯  丙基  硫醚  ，  这  种  物质  会  刺激  胃液  的  分泌  ，  且  有  助于  食欲  的  增进  。  与  含  维生素B1  含量  较  多  的  食物  一起  摄取  时  ，  会  促进  食物  的  淀粉  及  糖质  变为  热量  ，  可以  缓解  疲劳  。
+            壮阳  补  阴
+            大葱  中  的  各  种  维生素  能  保证  人体  激素  正常  分泌  ，  还  能  有效  刺激  性欲  ，  从而  “  壮阳  补  阴  ”  。  因此  ，  对  男性  来说  ，  每  周  吃  3  次  大葱  或  细香葱  ，  可  炒菜  、  凉拌  食用  ，  也  能  当成  调味  剂  ，  以  达到  壮阳  补  阴  的  功效  。
+            解毒  调味
+            大葱  味辛  ，  性  微温  ，  具有  发表  通阳  、  解毒  调味  的  作用  。  主要  用于  风寒  感冒  、  阴  寒  腹痛  、  恶  寒  发热  、  头痛  鼻塞  、  乳汁  不通  ，  二  便  不利  等  。  大葱  含有  挥发油  ，  油  中  的  主要  成分  为  蒜素  ，  又  含有  二  烯  丙基  硫醚  、  草  酸  钙  。  另外  ，  还  含有  脂肪  、  糖类  ，  胡萝卜素  等  ，  维生素B  、  C  ，  烟酸  ，  钙  ，  镁  ，  铁  等  成分  。
+            预防  癌症
+            香葱  所  含  的  果胶  ，  可  明显  地  减少  结肠  癌的  发生  ，  有  抗癌  作用  。  葱  内  的  蒜  辣  素  也  可以  抑制  癌细胞  的  生长  ;  葱  还  含有  微量  元素  硒  ，  可  降低  胃液  内  的  亚硝酸盐  含量  ，  对  预防  胃癌  及  多种  癌症  有  一定  作用  。
+            发汗  抑菌
+            大葱  具有  刺激  身体  汗腺  ，  达到  发汗  散热  之  作用  ;  葱  油  可以  刺激  上  呼吸道  ，  使  黏痰  易于  咳出  。  葱  中  所含  大蒜素  ，  具有  明显  的  抵御  细菌  、  病毒  的  作用  ，  尤其  对  痢疾  杆菌  和  皮肤  真菌  抑制  作用  更  强  。
+        </segment>
+
+        <pos>
+            舒张#VV  血管#NN
+            大葱#NN  富含#NN  维生素C#VV  ，#PU  有#VE  舒张#VV  小#JJ  血管#NN  ，#PU  促进#VV  血液#NN  循环#NN  的#DEC  作用#NN  ，#PU  可#VV  防止#VV  血压#AD  升高#VV  所致#NN  的#DEG  头晕#NN  ，#PU  使#VV  大脑#NN  保持#VV  灵活#VA  ，#PU  并#CC  预防#VV  老年#NN  痴呆#NN    。#PU  大葱#NN  的#DEG  挥发油#NN  和#CC  辣素#NN  ，#PU  能#VV  祛除#VV  腥膻#NR  等#ETC  油腻#NN  厚味#NN  菜肴#NN  中#LC  的#DEG  异味#NN  ，#PU  产生#VV  特殊#JJ  香气#NN  ，#PU  如果#CS  与#P  蘑菇#NR  同#DT  食#NN  还#AD  可以#VV  起到#VV  促进#VV  血液#NN  循环#NN  的#DEC  作用#NN    。#PU    。#PU
+            降#VV  胆固醇#NN
+            大葱#NN  可#VV  降低#VV  坏#JJ  胆固醇#NN  的#DEG  堆积#NN  ，#PU  经常#AD  吃#VV  葱#NN  的#DEG  人#NN  ，#PU  即便#AD  脂多#VV  体胖#NN  ，#PU  其#PN  胆固醇#NN  并不#AD  增高#VV  ，#PU  而且#CC  体质#VV  强壮#NN    。#PU  葱叶#NN  部分#NN  比#P  葱白#NN  部分#NN  含有#VV  更#AD  多#VA  的#DEC  维生素A#NN  、#PU  C#NN  及#CC  钙#NN    。#PU    。#PU
+            缓解#NN  疲劳#VA
+            生#VV  葱#NN  像#P  洋葱#NR  一样#VA  ，#PU  含烯#NN  丙基#NN  硫醚#NN  ，#PU  这#DT  种#M  物质#NN  会#VV  刺激#VV  胃液#NN  的#DEC  分泌#NN  ，#PU  且#CC  有#VE  助于#NN  食欲#NN  的#DEC  增进#VV    。#PU  与#P  含#VV  维生素B1#CD  含量#NN  较#AD  多#VA  的#DEC  食物#NN  一起#AD  摄取#VV  时#LC  ，#PU  会#VV  促进#VV  食物#NN  的#DEC  淀粉#NN  及#CC  糖质#NN  变为#NN  热量#VV  ，#PU  可以#VV  缓解#VV  疲劳#VA    。#PU    。#PU
+            壮阳#NN  补#NN  阴#VA
+            大葱#NN  中#LC  的#DEG  各#DT  种#M  维生素#NN  能#VV  保证#VV  人体#AD  激素#VV  正常#JJ  分泌#NN  ，#PU  还#AD  能#VV  有效#AD  刺激#VV  性欲#NN  ，#PU  从而#AD  ``#VV  壮阳#NN  补#NN  阴#NN  ''#NN    。#PU  因此#AD  ，#PU  对#P  男性#NN  来说#VV  ，#PU  每#DT  周#M  吃#VV  3#CD  次#M  大葱#NN  或#CC  细香葱#NN  ，#PU  可#VV  炒菜#NN  、#PU  凉拌#AD  食用#VV  ，#PU  也#AD  能#VV  当成#VV  调味#NN  剂#NN  ，#PU  以#MSP  达到#VV  壮阳#NN  补#VV  阴#VA  的#DEC  功效#NN    。#PU    。#PU
+            解毒#NN  调味#VV
+            大葱#NR  味辛#VV  ，#PU  性#NN  微温#NN  ，#PU  具有#VV  发表#VV  通阳#NN  、#PU  解毒#NN  调味#NN  的#DEC  作用#NN    。#PU  主要#AD  用于#VV  风寒#NN  感冒#NN  、#PU  阴#NN  寒#JJ  腹痛#NN  、#PU  恶#JJ  寒#JJ  发热#NN  、#PU  头痛#NN  鼻塞#NN  、#PU  乳汁#NN  不通#NN  ，#PU  二#CD  便#AD  不利#VA  等#ETC    。#PU  大葱#NN  含有#NN  挥发油#VV  ，#PU  油#NN  中#LC  的#DEG  主要#JJ  成分#NN  为#P  蒜素#NN  ，#PU  又#AD  含有#VV  二#CD  烯#NN  丙基#NN  硫醚#NN  、#PU  草#NN  酸#NN  钙#NN    。#PU  另外#AD  ，#PU  还#AD  含有#VV  脂肪#NN  、#PU  糖类#NN  ，#PU  胡萝卜素#VV  等#ETC  ，#PU  维生素B#NN  、#PU  C#NN  ，#PU  烟酸#NN  ，#PU  钙#VV  ，#PU  镁#NN  ，#PU  铁#NN  等#ETC  成分#NN    。#PU    。#PU
+            预防#VV  癌症#NN
+            香葱#VV  所#MSP  含#VV  的#DEC  果胶#NN  ，#PU  可#VV  明显#VA  地#DEV  减少#VV  结肠#NN  癌的#NN  发生#NN  ，#PU  有#VE  抗癌#NN  作用#NN    。#PU  葱#NN  内#LC  的#DEG  蒜#NN  辣#NN  素#AD  也#AD  可以#VV  抑制#VV  癌细胞#NN  的#DEG  生长#NN  ;#NN  葱#NN  还#AD  含有#VV  微量#NN  元素#NN  硒#NN  ，#PU  可#VV  降低#VV  胃液#NN  内#LC  的#DEG  亚硝酸盐#NN  含量#NN  ，#PU  对#P  预防#NN  胃癌#NN  及#CC  多种#NN  癌症#NN  有#VE  一定#JJ  作用#NN    。#PU    。#PU
+            发汗#NN  抑菌#VV
+            大葱#AD  具有#VV  刺激#VV  身体#NN  汗腺#NN  ，#PU  达到#VV  发汗#NN  散热#NN  之#DEC  作用#NN  ;#NN  葱#NN  油#NN  可以#VV  刺激#VV  上#DT  呼吸道#NN  ，#PU  使#VV  黏痰#NN  易于#VV  咳出#NN    。#PU  葱#NN  中#LC  所含#AD  大蒜素#VA  ，#PU  具有#VV  明显#VA  的#DEC  抵御#VV  细菌#NN  、#PU  病毒#NN  的#DEC  作用#NN  ，#PU  尤其#AD  对#P  痢疾#NN  杆菌#NN  和#CC  皮肤#NN  真菌#NN  抑制#VV  作用#NN  更#AD  强#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 舒张#VV)  (dobj, 舒张#VV, 血管#NN)
+            (nn, 富含#NN, 大葱#NN)  (nsubj, 维生素C#VV, 富含#NN)  (xsubj, 使#VV, 富含#NN)  (root, ROOT#null, 维生素C#VV)  (dep, 使#VV, 有#VE)  (relcl, 作用#NN, 舒张#VV)  (amod, 血管#NN, 小#JJ)  (dobj, 舒张#VV, 血管#NN)  (conj, 舒张#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (mark, 舒张#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (mmod, 防止#VV, 可#VV)  (conj, 有#VE, 防止#VV)  (advmod, 升高#VV, 血压#AD)  (ccomp, 防止#VV, 升高#VV)  (assmod, 头晕#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (dobj, 升高#VV, 头晕#NN)  (ccomp, 维生素C#VV, 使#VV)  (dobj, 使#VV, 大脑#NN)  (dep, 使#VV, 保持#VV)  (dep, 保持#VV, 灵活#VA)  (cc, 使#VV, 并#CC)  (conj, 使#VV, 预防#VV)  (nn, 痴呆#NN, 老年#NN)  (dobj, 预防#VV, 痴呆#NN)   (assmod, 辣素#NN, 大葱#NN)  (case, 大葱#NN, 的#DEG)  (conj, 辣素#NN, 挥发油#NN)  (cc, 辣素#NN, 和#CC)  (nsubj, 祛除#VV, 辣素#NN)  (mmod, 祛除#VV, 能#VV)  (root, ROOT#null, 祛除#VV)  (nn, 菜肴#NN, 腥膻#NR)  (etc, 腥膻#NR, 等#ETC)  (nn, 菜肴#NN, 油腻#NN)  (nn, 菜肴#NN, 厚味#NN)  (assmod, 异味#NN, 菜肴#NN)  (case, 菜肴#NN, 中#LC)  (case, 菜肴#NN, 的#DEG)  (dobj, 祛除#VV, 异味#NN)  (dep, 祛除#VV, 产生#VV)  (amod, 香气#NN, 特殊#JJ)  (dobj, 产生#VV, 香气#NN)  (advmod, 可以#VV, 如果#CS)  (case, 食#NN, 与#P)  (nn, 食#NN, 蘑菇#NR)  (det, 食#NN, 同#DT)  (prep, 可以#VV, 食#NN)  (advmod, 可以#VV, 还#AD)  (conj, 起到#VV, 可以#VV)  (conj, 祛除#VV, 起到#VV)  (relcl, 作用#NN, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降#VV)  (dobj, 降#VV, 胆固醇#NN)
+            (nsubj, 降低#VV, 大葱#NN)  (mmod, 降低#VV, 可#VV)  (root, ROOT#null, 降低#VV)  (amod, 胆固醇#NN, 坏#JJ)  (assmod, 堆积#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 降低#VV, 堆积#NN)  (advmod, 吃#VV, 经常#AD)  (conj, 降低#VV, 吃#VV)  (assmod, 人#NN, 葱#NN)  (case, 葱#NN, 的#DEG)  (dobj, 吃#VV, 人#NN)  (advmod, 脂多#VV, 即便#AD)  (conj, 降低#VV, 脂多#VV)  (dobj, 脂多#VV, 体胖#NN)  (nn, 胆固醇#NN, 其#PN)  (dep, 增高#VV, 胆固醇#NN)  (advmod, 增高#VV, 并不#AD)  (conj, 降低#VV, 增高#VV)  (cc, 降低#VV, 而且#CC)  (conj, 降低#VV, 体质#VV)  (dobj, 体质#VV, 强壮#NN)   (nn, 部分#NN, 葱叶#NN)  (nsubj, 含有#VV, 部分#NN)  (case, 部分#NN, 比#P)  (nn, 部分#NN, 葱白#NN)  (prep, 含有#VV, 部分#NN)  (root, ROOT#null, 含有#VV)  (advmod, 多#VA, 更#AD)  (relcl, 钙#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 钙#NN, 维生素A#NN)  (conj, 钙#NN, C#NN)  (cc, 钙#NN, 及#CC)  (dobj, 含有#VV, 钙#NN)   (root, ROOT#null, null#null)
+            (nsubj, 疲劳#VA, 缓解#NN)  (root, ROOT#null, 疲劳#VA)
+            (nsubj, 增进#VV, 生#VV)  (nsubj, 一样#VA, 葱#NN)  (case, 洋葱#NR, 像#P)  (prep, 一样#VA, 洋葱#NR)  (relcl, 分泌#NN, 一样#VA)  (nn, 硫醚#NN, 含烯#NN)  (nn, 硫醚#NN, 丙基#NN)  (nsubj, 刺激#VV, 硫醚#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 刺激#VV, 物质#NN)  (mmod, 刺激#VV, 会#VV)  (conj, 一样#VA, 刺激#VV)  (dobj, 刺激#VV, 胃液#NN)  (mark, 一样#VA, 的#DEC)  (dobj, 生#VV, 分泌#NN)  (cc, 生#VV, 且#CC)  (conj, 生#VV, 有#VE)  (nn, 食欲#NN, 助于#NN)  (dobj, 有#VE, 食欲#NN)  (mark, 生#VV, 的#DEC)  (root, ROOT#null, 增进#VV)   (case, 含#VV, 与#P)  (prep, 促进#VV, 含#VV)  (nummod, 含量#NN, 维生素B1#CD)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 较#AD)  (relcl, 食物#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 含#VV, 食物#NN)  (advmod, 摄取#VV, 一起#AD)  (conj, 含#VV, 摄取#VV)  (case, 含#VV, 时#LC)  (mmod, 促进#VV, 会#VV)  (relcl, 变为#NN, 促进#VV)  (dobj, 促进#VV, 食物#NN)  (mark, 促进#VV, 的#DEC)  (conj, 变为#NN, 淀粉#NN)  (cc, 变为#NN, 及#CC)  (nn, 变为#NN, 糖质#NN)  (nsubj, 热量#VV, 变为#NN)  (root, ROOT#null, 热量#VV)  (dep, 缓解#VV, 可以#VV)  (ccomp, 热量#VV, 缓解#VV)  (dep, 热量#VV, 疲劳#VA)   (root, ROOT#null, null#null)
+            (nn, 补#NN, 壮阳#NN)  (nsubj, 阴#VA, 补#NN)  (root, ROOT#null, 阴#VA)
+            (assmod, 维生素#NN, 大葱#NN)  (case, 大葱#NN, 中#LC)  (case, 大葱#NN, 的#DEG)  (det, 维生素#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 保证#VV, 维生素#NN)  (xsubj, 激素#VV, 维生素#NN)  (mmod, 保证#VV, 能#VV)  (root, ROOT#null, 保证#VV)  (advmod, 激素#VV, 人体#AD)  (ccomp, 保证#VV, 激素#VV)  (amod, 分泌#NN, 正常#JJ)  (dobj, 激素#VV, 分泌#NN)  (advmod, 刺激#VV, 还#AD)  (mmod, 刺激#VV, 能#VV)  (advmod, 刺激#VV, 有效#AD)  (dep, 激素#VV, 刺激#VV)  (dobj, 刺激#VV, 性欲#NN)  (advmod, ``#VV, 从而#AD)  (dep, 激素#VV, ``#VV)  (nn, ''#NN, 壮阳#NN)  (nn, ''#NN, 补#NN)  (nn, ''#NN, 阴#NN)  (dobj, ``#VV, ''#NN)   (advmod, 来说#VV, 因此#AD)  (case, 男性#NN, 对#P)  (prep, 来说#VV, 男性#NN)  (conj, 补#VV, 来说#VV)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 周#M)  (conj, 来说#VV, 吃#VV)  (nummod, 次#M, 3#CD)  (clf, 细香葱#NN, 次#M)  (conj, 细香葱#NN, 大葱#NN)  (cc, 细香葱#NN, 或#CC)  (dobj, 吃#VV, 细香葱#NN)  (conj, 来说#VV, 可#VV)  (dobj, 可#VV, 炒菜#NN)  (advmod, 食用#VV, 凉拌#AD)  (conj, 来说#VV, 食用#VV)  (advmod, 当成#VV, 也#AD)  (mmod, 当成#VV, 能#VV)  (conj, 来说#VV, 当成#VV)  (nn, 剂#NN, 调味#NN)  (dobj, 当成#VV, 剂#NN)  (prtmod, 达到#VV, 以#MSP)  (conj, 来说#VV, 达到#VV)  (dobj, 达到#VV, 壮阳#NN)  (root, ROOT#null, 补#VV)  (relcl, 功效#NN, 阴#VA)  (mark, 阴#VA, 的#DEC)  (dobj, 补#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 调味#VV, 解毒#NN)  (root, ROOT#null, 调味#VV)
+            (nsubj, 味辛#VV, 大葱#NR)  (root, ROOT#null, 味辛#VV)  (nn, 微温#NN, 性#NN)  (nsubj, 具有#VV, 微温#NN)  (ccomp, 味辛#VV, 具有#VV)  (relcl, 作用#NN, 发表#VV)  (conj, 调味#NN, 通阳#NN)  (nn, 调味#NN, 解毒#NN)  (dobj, 发表#VV, 调味#NN)  (mark, 发表#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (nn, 感冒#NN, 风寒#NN)  (conj, 不通#NN, 感冒#NN)  (nn, 腹痛#NN, 阴#NN)  (amod, 腹痛#NN, 寒#JJ)  (conj, 不通#NN, 腹痛#NN)  (amod, 发热#NN, 恶#JJ)  (amod, 发热#NN, 寒#JJ)  (conj, 不通#NN, 发热#NN)  (nn, 鼻塞#NN, 头痛#NN)  (conj, 不通#NN, 鼻塞#NN)  (nn, 不通#NN, 乳汁#NN)  (dobj, 用于#VV, 不通#NN)  (dep, 不利#VA, 二#CD)  (advmod, 不利#VA, 便#AD)  (dep, 用于#VV, 不利#VA)  (dep, 用于#VV, 等#ETC)   (nn, 含有#NN, 大葱#NN)  (nsubj, 挥发油#VV, 含有#NN)  (root, ROOT#null, 挥发油#VV)  (assmod, 成分#NN, 油#NN)  (case, 油#NN, 中#LC)  (case, 油#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 含有#VV, 成分#NN)  (case, 蒜素#NN, 为#P)  (prep, 含有#VV, 蒜素#NN)  (advmod, 含有#VV, 又#AD)  (ccomp, 挥发油#VV, 含有#VV)  (nummod, 烯#NN, 二#CD)  (nn, 钙#NN, 烯#NN)  (nn, 钙#NN, 丙基#NN)  (conj, 钙#NN, 硫醚#NN)  (nn, 钙#NN, 草#NN)  (nn, 钙#NN, 酸#NN)  (dobj, 含有#VV, 钙#NN)   (advmod, 含有#VV, 另外#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (conj, 糖类#NN, 脂肪#NN)  (dobj, 含有#VV, 糖类#NN)  (dep, 含有#VV, 胡萝卜素#VV)  (dep, 含有#VV, 等#ETC)  (conj, C#NN, 维生素B#NN)  (nsubj, 钙#VV, C#NN)  (nsubj, 钙#VV, 烟酸#NN)  (conj, 含有#VV, 钙#VV)  (nsubj, 成分#NN, 镁#NN)  (nn, 成分#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, 含有#VV, 成分#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (root, ROOT#null, 香葱#VV)  (prtmod, 含#VV, 所#MSP)  (relcl, 果胶#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dobj, 香葱#VV, 果胶#NN)  (mmod, 减少#VV, 可#VV)  (dvpmod, 减少#VV, 明显#VA)  (mark, 明显#VA, 地#DEV)  (conj, 香葱#VV, 减少#VV)  (nn, 发生#NN, 结肠#NN)  (nn, 发生#NN, 癌的#NN)  (dobj, 减少#VV, 发生#NN)  (conj, 香葱#VV, 有#VE)  (nn, 作用#NN, 抗癌#NN)  (dobj, 有#VE, 作用#NN)   (assmod, 辣#NN, 葱#NN)  (case, 葱#NN, 内#LC)  (case, 葱#NN, 的#DEG)  (nn, 辣#NN, 蒜#NN)  (nsubj, 抑制#VV, 辣#NN)  (advmod, 抑制#VV, 素#AD)  (advmod, 抑制#VV, 也#AD)  (mmod, 抑制#VV, 可以#VV)  (root, ROOT#null, 抑制#VV)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (nn, 葱#NN, ;#NN)  (nsubj, 含有#VV, 葱#NN)  (advmod, 含有#VV, 还#AD)  (conj, 抑制#VV, 含有#VV)  (nn, 硒#NN, 微量#NN)  (nn, 硒#NN, 元素#NN)  (dobj, 含有#VV, 硒#NN)  (mmod, 降低#VV, 可#VV)  (dep, 含有#VV, 降低#VV)  (assmod, 含量#NN, 胃液#NN)  (case, 胃液#NN, 内#LC)  (case, 胃液#NN, 的#DEG)  (nn, 含量#NN, 亚硝酸盐#NN)  (dobj, 降低#VV, 含量#NN)  (case, 癌症#NN, 对#P)  (nn, 癌症#NN, 预防#NN)  (conj, 癌症#NN, 胃癌#NN)  (cc, 癌症#NN, 及#CC)  (nn, 癌症#NN, 多种#NN)  (prep, 有#VE, 癌症#NN)  (dep, 含有#VV, 有#VE)  (amod, 作用#NN, 一定#JJ)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 抑菌#VV, 发汗#NN)  (root, ROOT#null, 抑菌#VV)
+            (advmod, 具有#VV, 大葱#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 刺激#VV)  (nn, 汗腺#NN, 身体#NN)  (dobj, 刺激#VV, 汗腺#NN)  (conj, 刺激#VV, 达到#VV)  (nn, 散热#NN, 发汗#NN)  (dobj, 达到#VV, 散热#NN)  (mark, 刺激#VV, 之#DEC)  (dobj, 具有#VV, 作用#NN)  (nn, 油#NN, ;#NN)  (nn, 油#NN, 葱#NN)  (nsubj, 刺激#VV, 油#NN)  (mmod, 刺激#VV, 可以#VV)  (dep, 具有#VV, 刺激#VV)  (det, 呼吸道#NN, 上#DT)  (dobj, 刺激#VV, 呼吸道#NN)  (conj, 刺激#VV, 使#VV)  (dobj, 使#VV, 黏痰#NN)  (dep, 使#VV, 易于#VV)  (dobj, 易于#VV, 咳出#NN)   (loc, 大蒜素#VA, 葱#NN)  (case, 葱#NN, 中#LC)  (advmod, 大蒜素#VA, 所含#AD)  (root, ROOT#null, 大蒜素#VA)  (dep, 大蒜素#VA, 具有#VV)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (relcl, 作用#NN, 抵御#VV)  (conj, 病毒#NN, 细菌#NN)  (dobj, 抵御#VV, 病毒#NN)  (mark, 抵御#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (advmod, 抑制#VV, 尤其#AD)  (case, 真菌#NN, 对#P)  (nn, 真菌#NN, 痢疾#NN)  (conj, 真菌#NN, 杆菌#NN)  (cc, 真菌#NN, 和#CC)  (nn, 真菌#NN, 皮肤#NN)  (prep, 抑制#VV, 真菌#NN)  (conj, 大蒜素#VA, 抑制#VV)  (nsubj, 强#VA, 作用#NN)  (advmod, 强#VA, 更#AD)  (conj, 大蒜素#VA, 强#VA)
+        </parsing>
+
+        <tag>
+            舒张血管  小血管  血液循环  促进循环  升高头晕  老年痴呆  预防痴呆  辣素  挥发油  油腻菜肴  厚味菜肴  祛除异味  特殊香气  产生香气  坏胆固醇  降低堆积  脂多体胖  体质强壮  葱叶部分  葱白部分  含有钙  缓解疲劳  葱一样  分泌一样  含烯硫醚  丙基硫醚  刺激胃液  助于食欲  增进  促进变为  促进食物  淀粉  糖质变为  热量  保证  正常分泌  激素分泌  刺激性欲  当成剂  达到壮阳  味辛  通阳  解毒调味  发表调味  风寒感冒  寒腹痛  恶发热  寒发热  头痛鼻塞  乳汁不通  用于不通  脂肪  含有糖类  预防癌症  含果胶  香葱果胶  癌细胞  抑制生长  含有硒  胃癌  多种癌症  抑菌  身体汗腺  刺激汗腺  发汗散热  达到散热  刺激呼吸道  易于咳出  细菌  抵御病毒  痢疾真菌  杆菌  皮肤真菌  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进消化  抗菌  镇痛  镇静催眠  利尿  祛痰  抗虫  抗真菌  抗癌防癌  解毒  杀虫  解表  通阳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            大葱含胡萝卜素、维生素B、维生素C及铁、钙、磷、镁等矿物质外，还含葱辣素，具有较强的杀菌及抑制细菌、病毒的功效，吃生葱有预防及治疗感冒的作用。每天生吃三棵葱（大约60克），可以起到很好的预防流感的作用。
+        </rawdata>
+
+        <segment>
+            大葱  含  胡萝卜素  、  维生素B  、  维生素C  及  铁  、  钙  、  磷  、  镁  等  矿物质  外  ，  还  含  葱  辣素  ，  具有  较  强  的  杀菌  及  抑制  细菌  、  病毒  的  功效  ，  吃  生  葱  有  预防  及  治疗  感冒  的  作用  。  每  天  生吃  三  棵  葱  （  大约  60  克  ）  ，  可以  起到  很  好  的  预防  流感  的  作用  。
+        </segment>
+
+        <pos>
+            大葱#NR  含#VV  胡萝卜素#NN  、#PU  维生素B#NN  、#PU  维生素C#NN  及#CC  铁#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  镁#NN  等#ETC  矿物质#NN  外#LC  ，#PU  还#AD  含#VV  葱#NN  辣素#NN  ，#PU  具有#VV  较#AD  强#VA  的#DEC  杀菌#NN  及#CC  抑制#VV  细菌#NN  、#PU  病毒#NN  的#DEG  功效#NN  ，#PU  吃#VV  生#VV  葱#NN  有#VE  预防#NN  及#CC  治疗#NN  感冒#NN  的#DEC  作用#NN    。#PU  每#DT  天#M  生吃#NN  三#CD  棵#NN  葱#NN  （#PU  大约#AD  60#CD  克#M  ）#PU  ，#PU  可以#VV  起到#VV  很#AD  好#VA  的#DEC  预防#VV  流感#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 大葱#NR)  (mmod, 含#VV, 含#VV)  (conj, 镁#NN, 胡萝卜素#NN)  (conj, 镁#NN, 维生素B#NN)  (conj, 镁#NN, 维生素C#NN)  (cc, 镁#NN, 及#CC)  (conj, 镁#NN, 铁#NN)  (conj, 镁#NN, 钙#NN)  (conj, 镁#NN, 磷#NN)  (nn, 矿物质#NN, 镁#NN)  (etc, 镁#NN, 等#ETC)  (loc, 含#VV, 矿物质#NN)  (case, 矿物质#NN, 外#LC)  (advmod, 含#VV, 还#AD)  (root, ROOT#null, 含#VV)  (nn, 辣素#NN, 葱#NN)  (dobj, 含#VV, 辣素#NN)  (conj, 含#VV, 具有#VV)  (advmod, 强#VA, 较#AD)  (relcl, 杀菌#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (dobj, 具有#VV, 杀菌#NN)  (cc, 含#VV, 及#CC)  (conj, 含#VV, 抑制#VV)  (conj, 病毒#NN, 细菌#NN)  (assmod, 功效#NN, 病毒#NN)  (case, 病毒#NN, 的#DEG)  (dobj, 抑制#VV, 功效#NN)  (conj, 含#VV, 吃#VV)  (relcl, 作用#NN, 生#VV)  (dobj, 生#VV, 葱#NN)  (conj, 生#VV, 有#VE)  (conj, 治疗#NN, 预防#NN)  (cc, 治疗#NN, 及#CC)  (nn, 感冒#NN, 治疗#NN)  (dobj, 有#VE, 感冒#NN)  (mark, 生#VV, 的#DEC)  (dobj, 吃#VV, 作用#NN)   (det, 生吃#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, 棵#NN, 生吃#NN)  (nummod, 棵#NN, 三#CD)  (nn, 葱#NN, 棵#NN)  (nsubj, 起到#VV, 葱#NN)  (advmod, 克#M, 大约#AD)  (nummod, 克#M, 60#CD)  (prnmod, 葱#NN, 克#M)  (mmod, 起到#VV, 可以#VV)  (root, ROOT#null, 起到#VV)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (relcl, 作用#NN, 预防#VV)  (dobj, 预防#VV, 流感#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            病毒  细菌  抑制功效  治疗感冒  预防流感  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.葱可生吃，也可凉拌当小菜食用，作为调料，多用于荤、腥、膻、以及其他有异味的菜肴、汤羹中，对没有异味的菜肴、汤羹也起增味增香作用。
+            2.根据主料的不同，可切成葱段和葱末掺合使用，均不宜煎、炸过久。
+            3.葱叶因富含维生素A原，不应轻易丢弃不用。
+            4.葱中含有的烯丙基硫醚由于是属于挥发性，因此泡在水里或煮得过久，都会使其效果丧失。
+            5.在加入味增汁熄火之后，再洒上葱花，即可使香味更可口，且可发挥烯丙基硫醚的效果。
+            6.葱与维生素B1含量较多的食品一起摄取。因为具有消除臭味的作用，因此像猪肉或羊肉等带有腥味的菜肴务必要使用葱来调味。
+        </rawdata>
+
+        <segment>
+            葱  可  生吃  ，  也  可  凉拌  当  小菜  食用  ，  作为  调料  ，  多用于  荤  、  腥  、  膻  、  以及  其他  有  异味  的  菜肴  、  汤  羹  中  ，  对  没有  异味  的  菜肴  、  汤  羹  也  起增味  增香  作用  。
+            根据  主料  的  不同  ，  可  切成  葱段  和  葱末  掺合  使用  ，  均  不  宜  煎  、  炸  过久  。
+            葱叶  因  富含  维生素A  原  ，  不  应  轻易  丢弃  不用  。
+            葱  中  含有  的烯  丙基  硫醚  由于  是  属于  挥发性  ，  因此  泡在  水里  或  煮得  过久  ，  都  会  使  其  效果  丧失  。
+            在  加入  味  增汁  熄火  之后  ，  再  洒上  葱花  ，  即  可  使  香味  更  可口  ，  且  可  发挥  烯丙基  硫醚  的  效果  。
+            葱  与  维生素B1  含量  较  多  的  食品  一起  摄取  。  因为  具有  消除  臭味  的  作用  ，  因此  像  猪肉  或  羊肉  等  带有  腥味  的  菜肴  务必  要  使用  葱  来  调味  。
+        </segment>
+
+        <pos>
+            葱#NN  可#VV  生吃#VV  ，#PU  也#AD  可#VV  凉拌#VV  当#P  小菜#NN  食用#VV  ，#PU  作为#P  调料#NN  ，#PU  多用于#NR  荤#NR  、#PU  腥#NR  、#PU  膻#NR  、#PU  以及#CC  其他#DT  有#VE  异味#NN  的#DEC  菜肴#NN  、#PU  汤#NN  羹#NN  中#LC  ，#PU  对#P  没有#VE  异味#NN  的#DEC  菜肴#NN  、#PU  汤#NN  羹#NN  也#AD  起增味#VV  增香#NN  作用#NN  。#PU
+            根据#P  主料#NN  的#DEG  不同#NN  ，#PU  可#VV  切成#VV  葱段#NN  和#CC  葱末#NN  掺合#NN  使用#NN  ，#PU  均#AD  不#AD  宜#NR  煎#VV  、#PU  炸#VV  过久#NN  。#PU
+            葱叶#NN  因#P  富含#NN  维生素A#NN  原#AD  ，#PU  不#AD  应#VV  轻易#AD  丢弃#VV  不用#VV  。#PU
+            葱#NN  中#LC  含有#NN  的烯#NN  丙基#NN  硫醚#NN  由于#P  是#VC  属于#VV  挥发性#NN  ，#PU  因此#AD  泡在#NR  水里#NN  或#CC  煮得#NN  过久#VV  ，#PU  都#AD  会#VV  使#VV  其#PN  效果#NN  丧失#VV  。#PU
+            在#P  加入#VV  味#NN  增汁#NN  熄火#NN  之后#LC  ，#PU  再#AD  洒上#VV  葱花#NN  ，#PU  即#AD  可#VV  使#VV  香味#NN  更#AD  可口#VV  ，#PU  且#CC  可#VV  发挥#VV  烯丙基#NN  硫醚#NN  的#DEG  效果#NN  。#PU
+            葱#NN  与#CC  维生素B1#CD  含量#NN  较#AD  多#VA  的#DEC  食品#NN  一起#AD  摄取#VV    。#PU  因为#P  具有#VV  消除#VV  臭味#NN  的#DEC  作用#NN  ，#PU  因此#AD  像#P  猪肉#NN  或#CC  羊肉#NN  等#ETC  带有#VV  腥味#NN  的#DEC  菜肴#NN  务必#AD  要#VV  使用#VV  葱#NN  来#MSP  调味#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 凉拌#VV, 葱#NN)  (xsubj, 凉拌#VV, 葱#NN)  (dep, 生吃#VV, 可#VV)  (dep, 凉拌#VV, 生吃#VV)  (advmod, 凉拌#VV, 也#AD)  (mmod, 凉拌#VV, 可#VV)  (root, ROOT#null, 凉拌#VV)  (case, 小菜#NN, 当#P)  (prep, 食用#VV, 小菜#NN)  (ccomp, 凉拌#VV, 食用#VV)  (case, 调料#NN, 作为#P)  (prep, 起增味#VV, 调料#NN)  (nn, 羹#NN, 多用于#NR)  (conj, 膻#NR, 荤#NR)  (conj, 膻#NR, 腥#NR)  (dep, 羹#NN, 膻#NR)  (cc, 羹#NN, 以及#CC)  (det, 羹#NN, 其他#DT)  (relcl, 羹#NN, 有#VE)  (dobj, 有#VE, 异味#NN)  (mark, 有#VE, 的#DEC)  (conj, 羹#NN, 菜肴#NN)  (nn, 羹#NN, 汤#NN)  (loc, 起增味#VV, 羹#NN)  (case, 羹#NN, 中#LC)  (case, 羹#NN, 对#P)  (relcl, 羹#NN, 没有#VE)  (dobj, 没有#VE, 异味#NN)  (mark, 没有#VE, 的#DEC)  (conj, 羹#NN, 菜肴#NN)  (nn, 羹#NN, 汤#NN)  (prep, 起增味#VV, 羹#NN)  (advmod, 起增味#VV, 也#AD)  (conj, 凉拌#VV, 起增味#VV)  (nn, 作用#NN, 增香#NN)  (dobj, 起增味#VV, 作用#NN)
+            (case, 不同#NN, 根据#P)  (assmod, 不同#NN, 主料#NN)  (case, 主料#NN, 的#DEG)  (prep, 切成#VV, 不同#NN)  (mmod, 切成#VV, 可#VV)  (root, ROOT#null, 切成#VV)  (conj, 使用#NN, 葱段#NN)  (cc, 使用#NN, 和#CC)  (nn, 使用#NN, 葱末#NN)  (nn, 使用#NN, 掺合#NN)  (dobj, 切成#VV, 使用#NN)  (advmod, 煎#VV, 均#AD)  (neg, 煎#VV, 不#AD)  (prep, 煎#VV, 宜#NR)  (conj, 切成#VV, 煎#VV)  (dep, 切成#VV, 炸#VV)  (dobj, 炸#VV, 过久#NN)
+            (nsubj, 丢弃#VV, 葱叶#NN)  (case, 应#VV, 因#P)  (nn, 维生素A#NN, 富含#NN)  (nsubj, 应#VV, 维生素A#NN)  (advmod, 应#VV, 原#AD)  (neg, 应#VV, 不#AD)  (prep, 丢弃#VV, 应#VV)  (advmod, 丢弃#VV, 轻易#AD)  (root, ROOT#null, 丢弃#VV)  (comod, 丢弃#VV, 不用#VV)
+            (loc, 过久#VV, 葱#NN)  (case, 葱#NN, 中#LC)  (nn, 硫醚#NN, 含有#NN)  (nn, 硫醚#NN, 的烯#NN)  (nn, 硫醚#NN, 丙基#NN)  (nsubj, 过久#VV, 硫醚#NN)  (xsubj, 使#VV, 硫醚#NN)  (case, 属于#VV, 由于#P)  (conj, 属于#VV, 是#VC)  (cop, 属于#VV, 是#VC)  (prep, 过久#VV, 属于#VV)  (dobj, 属于#VV, 挥发性#NN)  (advmod, 过久#VV, 因此#AD)  (nn, 煮得#NN, 泡在#NR)  (conj, 煮得#NN, 水里#NN)  (cc, 煮得#NN, 或#CC)  (nsubj, 过久#VV, 煮得#NN)  (xsubj, 使#VV, 煮得#NN)  (root, ROOT#null, 过久#VV)  (advmod, 使#VV, 都#AD)  (mmod, 使#VV, 会#VV)  (ccomp, 过久#VV, 使#VV)  (nn, 效果#NN, 其#PN)  (dobj, 使#VV, 效果#NN)  (dep, 使#VV, 丧失#VV)
+            (case, 加入#VV, 在#P)  (prep, 洒上#VV, 加入#VV)  (nn, 熄火#NN, 味#NN)  (nn, 熄火#NN, 增汁#NN)  (dobj, 加入#VV, 熄火#NN)  (case, 加入#VV, 之后#LC)  (advmod, 洒上#VV, 再#AD)  (root, ROOT#null, 洒上#VV)  (dobj, 洒上#VV, 葱花#NN)  (advmod, 使#VV, 即#AD)  (mmod, 使#VV, 可#VV)  (dep, 洒上#VV, 使#VV)  (dobj, 使#VV, 香味#NN)  (advmod, 可口#VV, 更#AD)  (dep, 使#VV, 可口#VV)  (cc, 洒上#VV, 且#CC)  (mmod, 发挥#VV, 可#VV)  (dep, 洒上#VV, 发挥#VV)  (nn, 硫醚#NN, 烯丙基#NN)  (assmod, 效果#NN, 硫醚#NN)  (case, 硫醚#NN, 的#DEG)  (dobj, 发挥#VV, 效果#NN)
+            (conj, 含量#NN, 葱#NN)  (cc, 含量#NN, 与#CC)  (nummod, 含量#NN, 维生素B1#CD)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 较#AD)  (relcl, 食品#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nsubj, 摄取#VV, 食品#NN)  (advmod, 摄取#VV, 一起#AD)  (root, ROOT#null, 摄取#VV)   (case, 具有#VV, 因为#P)  (prep, 带有#VV, 具有#VV)  (relcl, 作用#NN, 消除#VV)  (dobj, 消除#VV, 臭味#NN)  (mark, 消除#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (advmod, 带有#VV, 因此#AD)  (case, 羊肉#NN, 像#P)  (conj, 羊肉#NN, 猪肉#NN)  (cc, 羊肉#NN, 或#CC)  (prep, 带有#VV, 羊肉#NN)  (etc, 羊肉#NN, 等#ETC)  (relcl, 菜肴#NN, 带有#VV)  (dobj, 带有#VV, 腥味#NN)  (mark, 带有#VV, 的#DEC)  (nsubj, 使用#VV, 菜肴#NN)  (advmod, 使用#VV, 务必#AD)  (mmod, 使用#VV, 要#VV)  (root, ROOT#null, 使用#VV)  (dobj, 使用#VV, 葱#NN)  (prtmod, 调味#VV, 来#MSP)  (conj, 使用#VV, 调味#VV)
+        </parsing>
+
+        <tag>
+            凉拌  没有异味  葱段  葱末使用  掺合使用  切成使用  富含维生素A  丢弃  含有硫醚  的烯硫醚  丙基硫醚  属于挥发性  煮得  水里  过久  增汁熄火  加入熄火  洒上葱花  烯丙基硫醚  发挥效果  摄取  消除臭味  羊肉  猪肉  带有菜肴  带有腥味  使用葱  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/10133131310.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\278 大葱.jpg
+    </picturelocalurl>
+
+</content>

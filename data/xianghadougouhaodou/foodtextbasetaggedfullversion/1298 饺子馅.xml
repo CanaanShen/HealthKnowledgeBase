@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        1298
+    </id>
+
+    <foodname>
+        饺子馅
+    </foodname>
+
+    <firstcategory>
+        菜品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            特禀体质
+        </rawdata>
+
+        <segment>
+            特禀  体质
+        </segment>
+
+        <pos>
+            特禀#NN  体质#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 体质#VV, 特禀#NN)  (root, ROOT#null, 体质#VV)
+        </parsing>
+
+        <tag>
+            特禀体质  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            健康#JJ  体质#NN  平和质#VV  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (amod, 体质#NN, 健康#JJ)  (nsubj, 平和质#VV, 体质#NN)  (root, ROOT#null, 平和质#VV)  (ccomp, 平和质#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            指包在饺子面皮里面的肉、菜、糖等食材，通常是将食材用刀剁碎后与调味料混合搅拌制成，主要分为荤馅和素馅。
+        </rawdata>
+
+        <segment>
+            指  包在  饺子  面皮  里面  的  肉  、  菜  、  糖  等  食材  ，  通常  是  将  食材  用  刀  剁碎  后  与  调味料  混合  搅拌  制成  ，  主要  分为  荤馅  和  素馅  。
+        </segment>
+
+        <pos>
+            指#VV  包在#NN  饺子#NN  面皮#NN  里面#NN  的#DEC  肉#NN  、#PU  菜#NN  、#PU  糖#NN  等#ETC  食材#NN  ，#PU  通常#AD  是#VC  将#BA  食材#NN  用#P  刀#NN  剁碎#NN  后#LC  与#P  调味料#NN  混合#VV  搅拌#NN  制成#VV  ，#PU  主要#AD  分为#VV  荤馅#NN  和#CC  素馅#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 食材#NN, 指#VV)  (nn, 里面#NN, 包在#NN)  (nn, 里面#NN, 饺子#NN)  (nn, 里面#NN, 面皮#NN)  (dobj, 指#VV, 里面#NN)  (mark, 指#VV, 的#DEC)  (conj, 糖#NN, 肉#NN)  (conj, 糖#NN, 菜#NN)  (nn, 食材#NN, 糖#NN)  (etc, 糖#NN, 等#ETC)  (nsubj, 混合#VV, 食材#NN)  (advmod, 混合#VV, 通常#AD)  (cop, 混合#VV, 是#VC)  (ba, 混合#VV, 将#BA)  (nsubj, 混合#VV, 食材#NN)  (case, 剁碎#NN, 用#P)  (nn, 剁碎#NN, 刀#NN)  (prep, 混合#VV, 剁碎#NN)  (case, 剁碎#NN, 后#LC)  (case, 调味料#NN, 与#P)  (prep, 混合#VV, 调味料#NN)  (root, ROOT#null, 混合#VV)  (dobj, 混合#VV, 搅拌#NN)  (conj, 混合#VV, 制成#VV)  (advmod, 分为#VV, 主要#AD)  (dep, 混合#VV, 分为#VV)  (conj, 素馅#NN, 荤馅#NN)  (cc, 素馅#NN, 和#CC)  (dobj, 分为#VV, 素馅#NN)
+        </parsing>
+
+        <tag>
+            指食材  包在里面  饺子里面  面皮里面  混合搅拌  荤馅  分为素馅  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            饺子馅中的猪肉或鸡肉、羊肉、海鲜等富含优质蛋白、青菜富含多种营养素。做饺子皮的面粉含有淀粉、纤维素、糖等；常吃饺子有利于补充人体所需的各种营养，符合现代人健康饮食的最佳标准。
+        </rawdata>
+
+        <segment>
+            饺子馅  中  的  猪肉  或  鸡肉  、  羊肉  、  海鲜  等  富含  优质  蛋白  、  青菜  富含  多种  营养素  。  做  饺子  皮的  面粉  含有  淀粉  、  纤维素  、  糖  等  ；  常  吃  饺子  有利于  补充  人体  所  需  的  各  种  营养  ，  符合  现代  人  健康  饮食  的  最佳  标准  。
+        </segment>
+
+        <pos>
+            饺子馅#NN  中#LC  的#DEG  猪肉#NN  或#CC  鸡肉#NN  、#PU  羊肉#NN  、#PU  海鲜#NN  等#ETC  富含#NN  优质#JJ  蛋白#NN  、#PU  青菜#NN  富含#NN  多种#VV  营养素#NN    。#PU  做#VV  饺子#NN  皮的#NN  面粉#NN  含有#NN  淀粉#NN  、#PU  纤维素#NN  、#PU  糖#NN  等#ETC  ；#PU  常#AD  吃#VV  饺子#NN  有利于#VV  补充#NN  人体#NN  所#MSP  需#VV  的#DEC  各#DT  种#M  营养#VA  ，#PU  符合#VV  现代#JJ  人#NN  健康#JJ  饮食#NN  的#DEC  最佳#JJ  标准#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 富含#NN, 饺子馅#NN)  (case, 饺子馅#NN, 中#LC)  (case, 饺子馅#NN, 的#DEG)  (conj, 海鲜#NN, 猪肉#NN)  (cc, 海鲜#NN, 或#CC)  (conj, 海鲜#NN, 鸡肉#NN)  (conj, 海鲜#NN, 羊肉#NN)  (nn, 富含#NN, 海鲜#NN)  (etc, 海鲜#NN, 等#ETC)  (nn, 蛋白#NN, 富含#NN)  (amod, 蛋白#NN, 优质#JJ)  (conj, 富含#NN, 蛋白#NN)  (nn, 富含#NN, 青菜#NN)  (nsubj, 多种#VV, 富含#NN)  (root, ROOT#null, 多种#VV)  (dobj, 多种#VV, 营养素#NN)   (root, ROOT#null, 做#VV)  (nn, 糖#NN, 饺子#NN)  (nn, 糖#NN, 皮的#NN)  (nn, 糖#NN, 面粉#NN)  (nn, 糖#NN, 含有#NN)  (conj, 糖#NN, 淀粉#NN)  (conj, 糖#NN, 纤维素#NN)  (dobj, 做#VV, 糖#NN)  (etc, 糖#NN, 等#ETC)  (advmod, 吃#VV, 常#AD)  (conj, 做#VV, 吃#VV)  (dobj, 吃#VV, 饺子#NN)  (conj, 做#VV, 有利于#VV)  (nn, 人体#NN, 补充#NN)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 标准#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 标准#NN, 各#DT)  (clf, 各#DT, 种#M)  (relcl, 标准#NN, 营养#VA)  (dep, 营养#VA, 符合#VV)  (amod, 人#NN, 现代#JJ)  (nn, 饮食#NN, 人#NN)  (amod, 饮食#NN, 健康#JJ)  (dobj, 符合#VV, 饮食#NN)  (mark, 营养#VA, 的#DEC)  (amod, 标准#NN, 最佳#JJ)  (dobj, 有利于#VV, 标准#NN)
+        </parsing>
+
+        <tag>
+            猪肉  鸡肉  羊肉  海鲜富含  富含蛋白  优质蛋白  青菜富含  多种营养素  补充人体  需标准  标准营养  现代人  健康饮食  符合饮食  最佳标准  有利于标准  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            把洗净晾干的蔬菜切碎，拌上适量食油，随即把拌好的肉馅倒入，混合均匀即可。用这种方法包出的饺子，吃起来鲜嫩、爽口，又有较多的汁水。
+        </rawdata>
+
+        <segment>
+            把  洗净  晾干  的  蔬菜  切碎  ，  拌上  适量  食油  ，  随即  把  拌好  的  肉馅  倒入  ，  混合  均匀  即  可  。  用  这  种  方法  包出  的  饺子  ，  吃  起来  鲜嫩  、  爽口  ，  又  有  较多  的  汁水  。
+        </segment>
+
+        <pos>
+            把#BA  洗净#NN  晾干#NN  的#DEG  蔬菜#NN  切碎#NN  ，#PU  拌上#AD  适量#VV  食油#NN  ，#PU  随即#NN  把#BA  拌好#NN  的#DEG  肉馅#NN  倒入#VV  ，#PU  混合#NN  均匀#VA  即#AD  可#VV    。#PU  用#P  这#DT  种#M  方法#NN  包出#VV  的#DEC  饺子#NN  ，#PU  吃#VV  起来#VV  鲜嫩#NR  、#PU  爽口#NR  ，#PU  又#AD  有#VE  较多#NN  的#DEG  汁水#NN    。#PU
+        </pos>
+
+        <parsing>
+            (ba, 适量#VV, 把#BA)  (nn, 晾干#NN, 洗净#NN)  (assmod, 切碎#NN, 晾干#NN)  (case, 晾干#NN, 的#DEG)  (nn, 切碎#NN, 蔬菜#NN)  (nsubj, 适量#VV, 切碎#NN)  (advmod, 适量#VV, 拌上#AD)  (root, ROOT#null, 适量#VV)  (dobj, 适量#VV, 食油#NN)  (nsubj, 倒入#VV, 随即#NN)  (ba, 倒入#VV, 把#BA)  (assmod, 肉馅#NN, 拌好#NN)  (case, 拌好#NN, 的#DEG)  (nsubj, 倒入#VV, 肉馅#NN)  (conj, 适量#VV, 倒入#VV)  (nsubj, 均匀#VA, 混合#NN)  (conj, 适量#VV, 均匀#VA)  (advmod, 可#VV, 即#AD)  (dep, 适量#VV, 可#VV)   (case, 方法#NN, 用#P)  (det, 方法#NN, 这#DT)  (clf, 这#DT, 种#M)  (prep, 包出#VV, 方法#NN)  (relcl, 饺子#NN, 包出#VV)  (mark, 包出#VV, 的#DEC)  (nsubj, 吃#VV, 饺子#NN)  (root, ROOT#null, 吃#VV)  (comod, 吃#VV, 起来#VV)  (conj, 爽口#NR, 鲜嫩#NR)  (nsubj, 有#VE, 爽口#NR)  (advmod, 有#VE, 又#AD)  (conj, 吃#VV, 有#VE)  (assmod, 汁水#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 有#VE, 汁水#NN)
+        </parsing>
+
+        <tag>
+            洗净晾干  蔬菜切碎  适量食油  混合均匀  包出饺子  爽口  鲜嫩  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/3a/83/33594_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1298 饺子馅.jpg
+    </picturelocalurl>
+
+</content>

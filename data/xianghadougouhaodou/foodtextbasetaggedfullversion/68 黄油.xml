@@ -1,0 +1,318 @@
+<content>
+
+    <id>
+        68
+    </id>
+
+    <foodname>
+        黄油
+    </foodname>
+
+    <firstcategory>
+        蛋奶类
+    </firstcategory>
+
+    <secondcategory>
+        乳制品
+    </secondcategory>
+
+    <alias>
+        白脱油
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、肥胖者、糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            孕妇  、  肥胖者  、  糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            孕妇#NN  、#PU  肥胖者#NN  、#PU  糖尿病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 糖尿病#NN, 孕妇#NN)  (conj, 糖尿病#NN, 肥胖者#NN)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            孕妇  肥胖者  糖尿病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                888
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                296
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                40.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄油是将牛奶中的稀奶油和脱脂乳分离后，稀奶油经搅拌而成的。黄油从制作工艺来分，可以分为生黄油(从生牛奶直接制作)，超细黄油(只能采用巴氏菌消毒过的未经冷藏牛奶或奶油)，细质黄油(采用部分冷冻过的牛奶)。在口味上，还可以分为原味，半盐和加盐的黄油。黄油与奶酪的最大区别在于成分，黄油的脂肪含量更高。
+            黄油分食品黄油和润滑黄油，润滑黄油又称润滑脂，是润滑油的一种。这里重点介绍食品黄油：蒙古语称“希日陶苏”，其味道独特纯香，含有丰富的营养物质，是牧民招待宾客的佳品。黄油可以从奶皮子里提，可以从白油中提，也可以从鲜奶凝结出的油皮中提取。
+        </rawdata>
+
+        <segment>
+            黄油  是  将  牛奶  中  的  稀  奶油  和  脱脂乳  分离  后  ，  稀  奶油  经  搅拌  而  成  的  。  黄油  从  制作  工艺  来  分  ，  可以  分  为生  黄油  (  从  生  牛奶  直接  制作  )  ，  超细  黄油  (  只  能  采用  巴氏菌  消毒  过  的  未经  冷藏  牛奶  或  奶油  )  ，  细质  黄油  (  采用  部分  冷冻  过  的  牛奶  )  。  在  口味  上  ，  还  可以  分为  原味  ，  半  盐  和  加盐  的  黄油  。  黄油  与  奶酪  的  最大  区别  在于  成分  ，  黄油  的  脂肪  含量  更  高  。
+            黄油分  食品  黄油  和  润滑  黄油  ，  润滑  黄油  又  称  润滑脂  ，  是  润滑油  的  一  种  。  这里  重点  介绍  食品  黄油  ：  蒙古语  称  “  希  日  陶苏  ”  ，  其  味道  独特  纯  香  ，  含有  丰富  的  营养  物质  ，  是  牧民  招待  宾客  的  佳品  。  黄油  可以  从奶  皮子  里  提  ，  可以  从  白油  中  提  ，  也可以  从  鲜奶  凝结  出  的  油皮  中  提取  。
+        </segment>
+
+        <pos>
+            黄油#NN  是#VC  将#BA  牛奶#NN  中#LC  的#DEG  稀#NN  奶油#NN  和#CC  脱脂乳#NN  分离#VV  后#LC  ，#PU  稀#NN  奶油#NN  经#P  搅拌#NN  而#MSP  成#VV  的#DEC    。#PU  黄油#NN  从#P  制作#NN  工艺#NN  来#LC  分#VV  ，#PU  可以#VV  分#VV  为生#NN  黄油#NN  -LRB-#NN  从#P  生#VV  牛奶#NN  直接#AD  制作#VV  -RRB-#NN  ，#PU  超细#NN  黄油#NN  -LRB-#NN  只#AD  能#VV  采用#VV  巴氏菌#NN  消毒#NN  过#VV  的#DEC  未经#NN  冷藏#NN  牛奶#NN  或#CC  奶油#NN  -RRB-#NN  ，#PU  细质#NN  黄油#NN  -LRB-#AD  采用#VV  部分#CD  冷冻#VV  过#AS  的#DEC  牛奶#NN  -RRB-#NN    。#PU  在#P  口味#NN  上#LC  ，#PU  还#AD  可以#VV  分为#VV  原味#NN  ，#PU  半#CD  盐#NN  和#CC  加盐#NN  的#DEG  黄油#NN    。#PU  黄油#NN  与#CC  奶酪#NN  的#DEG  最大#JJ  区别#NN  在于#VV  成分#NN  ，#PU  黄油#NN  的#DEG  脂肪#NN  含量#NN  更#AD  高#VA    。#PU    。#PU
+            黄油分#JJ  食品#NN  黄油#NN  和#CC  润滑#NN  黄油#VV  ，#PU  润滑#NN  黄油#NN  又#AD  称#VV  润滑脂#NN  ，#PU  是#VC  润滑油#NN  的#DEG  一#CD  种#M    。#PU  这里#PN  重点#NN  介绍#NN  食品#NN  黄油#VV  ：#PU  蒙古语#NR  称#VV  ``#VV  希#NR  日#NR  陶苏#NN  ''#NN  ，#PU  其#PN  味道#NN  独特#JJ  纯#JJ  香#NN  ，#PU  含有#AD  丰富#VA  的#DEC  营养#VA  物质#NN  ，#PU  是#VC  牧民#NN  招待#VV  宾客#NN  的#DEC  佳品#NN    。#PU  黄油#NN  可以#VV  从奶#NN  皮子#NN  里#LC  提#VV  ，#PU  可以#VV  从#P  白油#NN  中#LC  提#VV  ，#PU  也可以#AD  从#P  鲜奶#AD  凝结#VV  出#VV  的#DEC  油皮#NN  中#LC  提取#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 成#VV, 黄油#NN)  (cop, 成#VV, 是#VC)  (ba, 分离#VV, 将#BA)  (assmod, 脱脂乳#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (nn, 脱脂乳#NN, 稀#NN)  (conj, 脱脂乳#NN, 奶油#NN)  (cc, 脱脂乳#NN, 和#CC)  (nsubj, 分离#VV, 脱脂乳#NN)  (loc, 成#VV, 分离#VV)  (case, 分离#VV, 后#LC)  (nn, 奶油#NN, 稀#NN)  (nsubj, 成#VV, 奶油#NN)  (case, 搅拌#NN, 经#P)  (prep, 成#VV, 搅拌#NN)  (prtmod, 成#VV, 而#MSP)  (root, ROOT#null, 成#VV)  (mark, 成#VV, 的#DEC)   (nsubj, 分#VV, 黄油#NN)  (case, 工艺#NN, 从#P)  (nn, 工艺#NN, 制作#NN)  (prep, 分#VV, 工艺#NN)  (case, 工艺#NN, 来#LC)  (root, ROOT#null, 分#VV)  (mmod, 分#VV, 可以#VV)  (dep, 分#VV, 分#VV)  (dobj, 分#VV, 为生#NN)  (nn, -LRB-#NN, 黄油#NN)  (case, 生#VV, 从#P)  (prep, 制作#VV, 生#VV)  (dobj, 生#VV, 牛奶#NN)  (advmod, 制作#VV, 直接#AD)  (conj, 分#VV, 制作#VV)  (nn, -LRB-#NN, 超细#NN)  (nn, -LRB-#NN, 黄油#NN)  (advmod, 采用#VV, 只#AD)  (mmod, 采用#VV, 能#VV)  (conj, 制作#VV, 采用#VV)  (nn, 消毒#NN, 巴氏菌#NN)  (nsubj, 过#VV, 消毒#NN)  (relcl, -RRB-#NN, 过#VV)  (mark, 过#VV, 的#DEC)  (nn, -RRB-#NN, 未经#NN)  (nn, -RRB-#NN, 冷藏#NN)  (conj, -RRB-#NN, 牛奶#NN)  (cc, -RRB-#NN, 或#CC)  (nn, -RRB-#NN, 奶油#NN)  (nn, 黄油#NN, 细质#NN)  (nsubj, 采用#VV, 黄油#NN)  (conj, 采用#VV, 采用#VV)  (nummod, -RRB-#NN, 部分#CD)  (relcl, -RRB-#NN, 冷冻#VV)  (asp, 冷冻#VV, 过#AS)  (mark, 冷冻#VV, 的#DEC)  (nn, -RRB-#NN, 牛奶#NN)   (case, 口味#NN, 在#P)  (prep, 分为#VV, 口味#NN)  (case, 口味#NN, 上#LC)  (advmod, 分为#VV, 还#AD)  (mmod, 分为#VV, 可以#VV)  (root, ROOT#null, 分为#VV)  (dep, 黄油#NN, 原味#NN)  (nummod, 盐#NN, 半#CD)  (conj, 黄油#NN, 盐#NN)  (cc, 黄油#NN, 和#CC)  (assmod, 黄油#NN, 加盐#NN)  (case, 加盐#NN, 的#DEG)  (dobj, 分为#VV, 黄油#NN)   (conj, 奶酪#NN, 黄油#NN)  (cc, 奶酪#NN, 与#CC)  (assmod, 区别#NN, 奶酪#NN)  (case, 奶酪#NN, 的#DEG)  (amod, 区别#NN, 最大#JJ)  (nsubj, 在于#VV, 区别#NN)  (root, ROOT#null, 在于#VV)  (dobj, 在于#VV, 成分#NN)  (assmod, 含量#NN, 黄油#NN)  (case, 黄油#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 更#AD)  (dep, 在于#VV, 高#VA)   (root, ROOT#null, null#null)
+            (amod, 食品#NN, 黄油分#JJ)  (nn, 润滑#NN, 食品#NN)  (conj, 润滑#NN, 黄油#NN)  (cc, 润滑#NN, 和#CC)  (nsubj, 黄油#VV, 润滑#NN)  (root, ROOT#null, 黄油#VV)  (nn, 黄油#NN, 润滑#NN)  (nsubj, 称#VV, 黄油#NN)  (advmod, 称#VV, 又#AD)  (ccomp, 黄油#VV, 称#VV)  (dep, 是#VC, 润滑脂#NN)  (ccomp, 称#VV, 是#VC)  (assmod, 种#M, 润滑油#NN)  (case, 润滑油#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (nsubj, 黄油#VV, 这里#PN)  (nn, 食品#NN, 重点#NN)  (nn, 食品#NN, 介绍#NN)  (nsubj, 黄油#VV, 食品#NN)  (root, ROOT#null, 黄油#VV)  (nsubj, 称#VV, 蒙古语#NR)  (ccomp, 黄油#VV, 称#VV)  (ccomp, 称#VV, ``#VV)  (nn, 日#NR, 希#NR)  (nn, ''#NN, 日#NR)  (nn, ''#NN, 陶苏#NN)  (dobj, ``#VV, ''#NN)  (nn, 味道#NN, 其#PN)  (nn, 香#NN, 味道#NN)  (amod, 香#NN, 独特#JJ)  (amod, 香#NN, 纯#JJ)  (dep, 佳品#NN, 香#NN)  (advmod, 丰富#VA, 含有#AD)  (relcl, 物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 物质#NN, 营养#VA)  (dep, 佳品#NN, 物质#NN)  (cop, 佳品#NN, 是#VC)  (nsubj, 招待#VV, 牧民#NN)  (relcl, 佳品#NN, 招待#VV)  (dobj, 招待#VV, 宾客#NN)  (mark, 招待#VV, 的#DEC)  (conj, 称#VV, 佳品#NN)   (nsubj, 提#VV, 黄油#NN)  (mmod, 提#VV, 可以#VV)  (nn, 皮子#NN, 从奶#NN)  (loc, 提#VV, 皮子#NN)  (case, 皮子#NN, 里#LC)  (root, ROOT#null, 提#VV)  (mmod, 提#VV, 可以#VV)  (case, 白油#NN, 从#P)  (prep, 提#VV, 白油#NN)  (case, 白油#NN, 中#LC)  (conj, 提#VV, 提#VV)  (advmod, 提取#VV, 也可以#AD)  (case, 油皮#NN, 从#P)  (advmod, 凝结#VV, 鲜奶#AD)  (relcl, 油皮#NN, 凝结#VV)  (comod, 凝结#VV, 出#VV)  (mark, 凝结#VV, 的#DEC)  (prep, 提取#VV, 油皮#NN)  (case, 油皮#NN, 中#LC)  (conj, 提#VV, 提取#VV)
+        </parsing>
+
+        <tag>
+            脱脂乳  奶油  制作工艺  巴氏菌消毒  分为  最大区别  在于  食品润滑  重点食品  介绍食品  独特香  纯香  招待佳品  招待宾客  从奶皮子  凝结油皮  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增加饱腹感
+            黄油富含脂肪，维持体温和保护内脏；提供必需脂肪酸；促进这些脂溶性维生素的吸收；饱腹感。
+            2.促进身体发育
+            黄油富含铜，铜是人体健康不可缺少的微量营养素，对于血液、中枢神经和免疫系统，头发、皮肤和骨骼组织以及脑子和肝、心等内脏的发育和功能有重要影响。
+            3.改善贫血
+            适量食用天然黄油可改善因食用不饱和脂肪酸或人造黄油而导致的贫血症状。
+        </rawdata>
+
+        <segment>
+            增加  饱腹感
+            黄油  富含  脂肪  ，  维持  体温  和  保护  内脏  ；  提供  必需  脂肪酸  ；  促进  这些  脂溶性  维生素  的  吸收  ；  饱腹感  。
+            促进  身体  发育
+            黄油富  含铜  ，  铜  是  人体  健康  不  可  缺少  的  微量  营养素  ，  对于  血液  、  中枢  神经  和  免疫  系统  ，  头发  、  皮肤  和  骨骼  组织  以及  脑子  和肝  、  心  等  内脏  的  发育  和  功能  有  重要  影响  。
+            改善  贫血
+            适量  食用  天然  黄油  可  改善  因  食用  不  饱和  脂肪酸  或  人造  黄油  而  导致  的  贫血  症状  。
+        </segment>
+
+        <pos>
+            增加#VV  饱腹感#NN
+            黄油#NN  富含#VV  脂肪#NN  ，#PU  维持#VV  体温#NN  和#CC  保护#NN  内脏#NN  ；#PU  提供#VV  必需#VV  脂肪酸#NN  ；#PU  促进#VV  这些#DT  脂溶性#NN  维生素#NN  的#DEC  吸收#NN  ；#PU  饱腹感#VV  。#PU
+            促进#VV  身体#NN  发育#NN
+            黄油富#NR  含铜#VV  ，#PU  铜#NN  是#VC  人体#AD  健康#AD  不#AD  可#VV  缺少#VV  的#DEC  微量#NN  营养素#NN  ，#PU  对于#P  血液#NN  、#PU  中枢#NN  神经#NN  和#CC  免疫#NN  系统#NN  ，#PU  头发#NN  、#PU  皮肤#NN  和#CC  骨骼#NN  组织#NN  以及#CC  脑子#NN  和肝#NN  、#PU  心#NN  等#ETC  内脏#NN  的#DEG  发育#NN  和#CC  功能#NN  有#VE  重要#JJ  影响#NN  。#PU
+            改善#VV  贫血#NN
+            适量#NN  食用#VV  天然#JJ  黄油#NN  可#VV  改善#VV  因#P  食用#VV  不#AD  饱和#JJ  脂肪酸#NN  或#CC  人造#JJ  黄油#NN  而#MSP  导致#VV  的#DEC  贫血#NN  症状#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 饱腹感#NN)
+            (nsubj, 富含#VV, 黄油#NN)  (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 脂肪#NN)  (conj, 富含#VV, 维持#VV)  (conj, 保护#NN, 体温#NN)  (cc, 保护#NN, 和#CC)  (nn, 内脏#NN, 保护#NN)  (dobj, 维持#VV, 内脏#NN)  (conj, 富含#VV, 提供#VV)  (relcl, 吸收#NN, 必需#VV)  (dobj, 必需#VV, 脂肪酸#NN)  (conj, 必需#VV, 促进#VV)  (det, 脂溶性#NN, 这些#DT)  (nn, 维生素#NN, 脂溶性#NN)  (dobj, 促进#VV, 维生素#NN)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 吸收#NN)  (conj, 富含#VV, 饱腹感#VV)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 身体#NN)  (dobj, 促进#VV, 发育#NN)
+            (nsubj, 含铜#VV, 黄油富#NR)  (root, ROOT#null, 含铜#VV)  (nsubj, 营养素#NN, 铜#NN)  (cop, 营养素#NN, 是#VC)  (advmod, 缺少#VV, 人体#AD)  (advmod, 缺少#VV, 健康#AD)  (neg, 缺少#VV, 不#AD)  (dep, 缺少#VV, 可#VV)  (relcl, 营养素#NN, 缺少#VV)  (mark, 缺少#VV, 的#DEC)  (nn, 营养素#NN, 微量#NN)  (ccomp, 含铜#VV, 营养素#NN)  (case, 系统#NN, 对于#P)  (conj, 免疫#NN, 血液#NN)  (nn, 免疫#NN, 中枢#NN)  (conj, 免疫#NN, 神经#NN)  (cc, 免疫#NN, 和#CC)  (nn, 系统#NN, 免疫#NN)  (prep, 有#VE, 系统#NN)  (conj, 组织#NN, 头发#NN)  (conj, 组织#NN, 皮肤#NN)  (cc, 组织#NN, 和#CC)  (nn, 组织#NN, 骨骼#NN)  (conj, 内脏#NN, 组织#NN)  (cc, 内脏#NN, 以及#CC)  (nn, 心#NN, 脑子#NN)  (conj, 心#NN, 和肝#NN)  (nn, 内脏#NN, 心#NN)  (etc, 心#NN, 等#ETC)  (assmod, 功能#NN, 内脏#NN)  (case, 内脏#NN, 的#DEG)  (conj, 功能#NN, 发育#NN)  (cc, 功能#NN, 和#CC)  (dep, 有#VE, 功能#NN)  (conj, 营养素#NN, 有#VE)  (amod, 影响#NN, 重要#JJ)  (dobj, 有#VE, 影响#NN)
+            (root, ROOT#null, 改善#VV)  (dobj, 改善#VV, 贫血#NN)
+            (nsubj, 食用#VV, 适量#NN)  (root, ROOT#null, 食用#VV)  (amod, 黄油#NN, 天然#JJ)  (dobj, 食用#VV, 黄油#NN)  (mmod, 改善#VV, 可#VV)  (conj, 食用#VV, 改善#VV)  (case, 食用#VV, 因#P)  (prep, 导致#VV, 食用#VV)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (conj, 黄油#NN, 脂肪酸#NN)  (cc, 黄油#NN, 或#CC)  (amod, 黄油#NN, 人造#JJ)  (dobj, 食用#VV, 黄油#NN)  (prtmod, 导致#VV, 而#MSP)  (relcl, 症状#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (nn, 症状#NN, 贫血#NN)  (dobj, 改善#VV, 症状#NN)
+        </parsing>
+
+        <tag>
+            增加饱腹感  富含脂肪  体温  保护内脏  维持内脏  必需吸收  必需脂肪酸  脂溶性维生素  促进维生素  提供吸收  身体发育  促进发育  含铜  缺少营养素  微量营养素  血液  中枢免疫  神经  免疫系统  头发  皮肤  骨骼组织  功能  改善贫血  食用  饱和脂肪酸  导致症状  贫血症状  改善症状  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            黄油营养是奶制品之首，主要成分是脂肪，其含量远高于奶油，其含量在90%左右，剩下的主要是水分、胆固醇，还含有多种脂溶性维生素，基本不含蛋白质。可炸鱼，煎牛排，烤面包，涂抹面包吃，不仅营养丰富，而且很香醇味美，绵甜可口。
+        </rawdata>
+
+        <segment>
+            黄油  营养  是  奶制品  之首  ，  主要  成分  是  脂肪  ，  其  含量  远  高于  奶油  ，  其  含量  在  90%  左右  ，  剩下  的  主要  是  水分  、  胆固醇  ，  还  含有  多种  脂溶性  维生素  ，  基本  不  含  蛋白质  。  可  炸鱼  ，  煎  牛排  ，  烤面包  ，  涂抹  面包  吃  ，  不仅  营养  丰富  ，  而且  很  香醇  味美  ，  绵甜  可口  。
+        </segment>
+
+        <pos>
+            黄油#AD  营养#VA  是#VC  奶制品#NN  之首#NN  ，#PU  主要#JJ  成分#NN  是#VC  脂肪#NN  ，#PU  其#PN  含量#NN  远#AD  高于#VV  奶油#NN  ，#PU  其#PN  含量#NN  在#P  90#CD  %#NN  左右#LC  ，#PU  剩下#VV  的#DEC  主要#AD  是#VC  水分#NN  、#PU  胆固醇#NN  ，#PU  还#AD  含有#VV  多种#NN  脂溶性#NN  维生素#NN  ，#PU  基本#AD  不#AD  含#VV  蛋白质#NN    。#PU  可#VV  炸鱼#NN  ，#PU  煎#VV  牛排#NN  ，#PU  烤面包#VV  ，#PU  涂抹#AD  面包#AD  吃#VV  ，#PU  不仅#CC  营养#VA  丰富#VA  ，#PU  而且#CC  很#AD  香醇#VV  味美#NN  ，#PU  绵甜#VV  可口#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 营养#VA, 黄油#AD)  (conj, 之首#NN, 营养#VA)  (cop, 之首#NN, 是#VC)  (nn, 之首#NN, 奶制品#NN)  (root, ROOT#null, 之首#NN)  (amod, 成分#NN, 主要#JJ)  (nsubj, 脂肪#NN, 成分#NN)  (cop, 脂肪#NN, 是#VC)  (conj, 之首#NN, 脂肪#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 远#AD)  (conj, 之首#NN, 高于#VV)  (dobj, 高于#VV, 奶油#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 胆固醇#NN, 含量#NN)  (case, %#NN, 在#P)  (nummod, %#NN, 90#CD)  (prep, 胆固醇#NN, %#NN)  (case, %#NN, 左右#LC)  (nsubj, 胆固醇#NN, 剩下#VV)  (mark, 剩下#VV, 的#DEC)  (advmod, 胆固醇#NN, 主要#AD)  (cop, 胆固醇#NN, 是#VC)  (conj, 胆固醇#NN, 水分#NN)  (conj, 之首#NN, 胆固醇#NN)  (advmod, 含有#VV, 还#AD)  (conj, 胆固醇#NN, 含有#VV)  (nn, 维生素#NN, 多种#NN)  (nn, 维生素#NN, 脂溶性#NN)  (dobj, 含有#VV, 维生素#NN)  (advmod, 含#VV, 基本#AD)  (neg, 含#VV, 不#AD)  (conj, 胆固醇#NN, 含#VV)  (dobj, 含#VV, 蛋白质#NN)   (root, ROOT#null, 可#VV)  (dobj, 可#VV, 炸鱼#NN)  (conj, 可#VV, 煎#VV)  (dobj, 煎#VV, 牛排#NN)  (conj, 可#VV, 烤面包#VV)  (advmod, 吃#VV, 涂抹#AD)  (advmod, 吃#VV, 面包#AD)  (conj, 可#VV, 吃#VV)  (cc, 可#VV, 不仅#CC)  (conj, 可#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 可#VV, 而且#CC)  (advmod, 香醇#VV, 很#AD)  (conj, 可#VV, 香醇#VV)  (dobj, 香醇#VV, 味美#NN)  (conj, 可#VV, 绵甜#VV)  (dobj, 绵甜#VV, 可口#NN)
+        </parsing>
+
+        <tag>
+            奶制品之首  脂肪  高于奶油  胆固醇  水分  多种维生素  脂溶性维生素  含有维生素  营养丰富  香醇味美  绵甜可口  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            黄油一般很少被直接食用，通常作为烹调食物的辅料。
+        </rawdata>
+
+        <segment>
+            黄油  一般  很少  被  直接  食用  ，  通常  作为  烹调  食物  的  辅料  。
+        </segment>
+
+        <pos>
+            黄油#NR  一般#JJ  很少#NN  被#SB  直接#AD  食用#VV  ，#PU  通常#AD  作为#VV  烹调#NN  食物#NN  的#DEG  辅料#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 很少#NN, 黄油#NR)  (amod, 很少#NN, 一般#JJ)  (nsubj, 食用#VV, 很少#NN)  (auxpass, 食用#VV, 被#SB)  (advmod, 食用#VV, 直接#AD)  (root, ROOT#null, 食用#VV)  (advmod, 作为#VV, 通常#AD)  (dep, 食用#VV, 作为#VV)  (nn, 食物#NN, 烹调#NN)  (assmod, 辅料#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (dobj, 作为#VV, 辅料#NN)
+        </parsing>
+
+        <tag>
+            一般很少  食用  烹调食物  作为辅料  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081828068660.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\68 黄油.jpg
+    </picturelocalurl>
+
+</content>

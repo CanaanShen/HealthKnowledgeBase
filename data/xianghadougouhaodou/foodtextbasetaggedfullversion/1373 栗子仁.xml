@@ -1,0 +1,153 @@
+<content>
+
+    <id>
+        1373
+    </id>
+
+    <foodname>
+        栗子仁
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        板栗仁、大栗仁、栗果仁、毛栗仁、棋子仁、栗楔仁
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病人忌食；婴幼儿、消化不良者、患有风湿病的人不宜多食。
+        </rawdata>
+
+        <segment>
+            糖尿病人  忌食  ；  婴幼儿  、  消化不良  者  、  患有  风湿病  的  人  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            糖尿病人#NR  忌食#VV  ；#PU  婴幼儿#NN  、#PU  消化不良#NN  者#NN  、#PU  患有#NN  风湿病#NN  的#DEG  人#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 忌食#VV, 糖尿病人#NR)  (root, ROOT#null, 忌食#VV)  (conj, 风湿病#NN, 婴幼儿#NN)  (nn, 风湿病#NN, 消化不良#NN)  (conj, 风湿病#NN, 者#NN)  (nn, 风湿病#NN, 患有#NN)  (assmod, 人#NN, 风湿病#NN)  (case, 风湿病#NN, 的#DEG)  (nsubj, 多#VV, 人#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (ccomp, 忌食#VV, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            糖尿病人  忌食  婴幼儿  消化不良者  患有  风湿病  人不宜多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            栗子，又名板栗，不仅含有大量淀粉，而且含有蛋白质、脂肪、B族维生素等多种营养成分，素有“干果之王”的美称。栗子可代粮，与枣、柿子并称为“铁杆庄稼”、“木本粮食”，是一种价廉物美、富有营养的滋补品及补养良药。
+        </rawdata>
+
+        <segment>
+            栗子  ，  又  名  板栗  ，  不仅  含有  大量  淀粉  ，  而且  含有  蛋白质  、  脂肪  、  B  族  维生素  等  多  种  营养  成分  ，  素  有  “  干果  之  王  ”  的  美称  。  栗子  可  代粮  ，  与枣  、  柿子  并称  为  “  铁杆  庄稼  ”  、  “  木本  粮食  ”  ，  是  一  种  价廉物美  、  富有  营养  的  滋补品  及  补养  良药  。
+        </segment>
+
+        <pos>
+            栗子#AD  ，#PU  又#AD  名#JJ  板栗#NN  ，#PU  不仅#AD  含有#VV  大量#CD  淀粉#NN  ，#PU  而且#CC  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  B#NN  族#NN  维生素#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN  ，#PU  素#AD  有#VE  ``#VV  干果#NN  之#DEG  王#NN  ''#NN  的#DEC  美称#NN    。#PU  栗子#NR  可#VV  代粮#VV  ，#PU  与枣#NN  、#PU  柿子#NN  并称#NN  为#P  ``#NN  铁杆#VV  庄稼#NN  ''#NN  、#PU  ``#NN  木本#NN  粮食#NN  ''#NN  ，#PU  是#VC  一#CD  种#M  价廉物美#NN  、#PU  富有#VV  营养#VA  的#DEC  滋补品#NN  及#CC  补养#NN  良药#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含有#VV, 栗子#AD)  (advmod, 含有#VV, 又#AD)  (amod, 板栗#NN, 名#JJ)  (dep, 含有#VV, 板栗#NN)  (advmod, 含有#VV, 不仅#AD)  (root, ROOT#null, 含有#VV)  (nummod, 淀粉#NN, 大量#CD)  (dobj, 含有#VV, 淀粉#NN)  (cc, 含有#VV, 而且#CC)  (dep, 含有#VV, 含有#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)  (advmod, 有#VE, 素#AD)  (conj, 含有#VV, 有#VE)  (relcl, 美称#NN, ``#VV)  (assmod, ''#NN, 干果#NN)  (case, 干果#NN, 之#DEG)  (nn, ''#NN, 王#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 有#VE, 美称#NN)   (nsubj, 代粮#VV, 栗子#NR)  (mmod, 代粮#VV, 可#VV)  (root, ROOT#null, 代粮#VV)  (conj, 柿子#NN, 与枣#NN)  (nn, 并称#NN, 柿子#NN)  (nsubj, 铁杆#VV, 并称#NN)  (case, ``#NN, 为#P)  (prep, 铁杆#VV, ``#NN)  (ccomp, 代粮#VV, 铁杆#VV)  (nn, ''#NN, 庄稼#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 木本#NN)  (nn, ''#NN, 粮食#NN)  (dobj, 铁杆#VV, ''#NN)  (cop, 价廉物美#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 价廉物美#NN, 种#M)  (conj, 代粮#VV, 价廉物美#NN)  (conj, 代粮#VV, 富有#VV)  (relcl, 良药#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (conj, 良药#NN, 滋补品#NN)  (cc, 良药#NN, 及#CC)  (nn, 良药#NN, 补养#NN)  (dobj, 富有#VV, 良药#NN)
+        </parsing>
+
+        <tag>
+            名板栗  含有淀粉  维生素  蛋白质  脂肪  代粮  与枣  柿子并称  良药营养  滋补品  补养良药  富有良药  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.栗子中所含的丰富的不饱和脂肪酸和维生素、矿物质，能防治高血压病、冠心病、动脉硬化、骨质疏等疾病，是抗衰老、延年益寿的滋补佳品；
+            2.栗子含有核黄素，常吃栗子对日久难愈的小儿口舌生疮和成人口腔溃疡有益；
+            3.栗子是碳水化合物含量较高的干果品种，能供给人体较多的热能，并能帮助脂肪代谢，具有益气健脾，厚补胃肠的作用；
+            4.栗子含有丰富的维生素C，能够维持牙齿、骨骼、血管肌肉的正常功用，可以预防和治疗骨质疏松，腰腿酸软，筋骨疼痛、乏力等，延缓人体衰老，是老年人理想的保健果品
+        </rawdata>
+
+        <segment>
+            栗子  中  所  含  的  丰富  的  不饱和  脂肪酸  和  维生素  、  矿物质  ，  能  防治  高血压  病  、  冠心病  、  动脉  硬化  、  骨质  疏  等  疾病  ，  是  抗  衰老  、  延年益寿  的  滋补  佳品  ；
+            栗子  含有  核黄素  ，  常  吃  栗子  对  日久  难愈  的  小儿  口舌  生疮  和  成人  口腔  溃疡  有益  ；
+            栗子  是  碳水化合物  含量  较  高  的  干果  品种  ，  能  供给  人体  较  多  的  热能  ，  并  能  帮助  脂肪  代谢  ，  具有  益气  健脾  ，  厚  补  胃肠  的  作用  ；
+            栗子  含有  丰富  的  维生素C  ，  能够  维持  牙齿  、  骨骼  、  血管  肌肉  的  正常  功用  ，  可以  预防  和  治疗  骨质  疏松  ，  腰腿  酸软  ，  筋骨  疼痛  、  乏力  等  ，  延缓  人体  衰老  ，  是  老年人  理想  的  保健  果品
+        </segment>
+
+        <pos>
+            栗子#NN  中#LC  所#MSP  含#VV  的#DEC  丰富#VA  的#DEC  不饱和#NN  脂肪酸#NN  和#CC  维生素#NN  、#PU  矿物质#NN  ，#PU  能#VV  防治#VV  高血压#NN  病#NN  、#PU  冠心病#NN  、#PU  动脉#NN  硬化#NN  、#PU  骨质#NN  疏#NN  等#ETC  疾病#NN  ，#PU  是#VC  抗#NR  衰老#NR  、#PU  延年益寿#NR  的#DEG  滋补#NN  佳品#NN  ；#PU
+            栗子#NN  含有#NN  核黄素#NN  ，#PU  常#AD  吃#VV  栗子#NN  对#P  日久#NN  难愈#NN  的#DEG  小儿#NN  口舌#NN  生疮#NN  和#CC  成人#NN  口腔#NN  溃疡#AD  有益#VA  ；#PU
+            栗子#NN  是#VC  碳水化合物#NN  含量#NN  较#AD  高#VA  的#DEC  干果#JJ  品种#NN  ，#PU  能#VV  供给#NN  人体#NN  较#AD  多#VA  的#DEC  热能#NN  ，#PU  并#CC  能#VV  帮助#VV  脂肪#NN  代谢#VV  ，#PU  具有#VV  益气#NN  健脾#NN  ，#PU  厚#NN  补#VV  胃肠#NN  的#DEG  作用#NN  ；#PU
+            栗子#VV  含有#AD  丰富#VA  的#DEC  维生素C#NN  ，#PU  能够#VV  维持#VV  牙齿#NN  、#PU  骨骼#NN  、#PU  血管#NN  肌肉#NN  的#DEG  正常#JJ  功用#NN  ，#PU  可以#VV  预防#VV  和#CC  治疗#VV  骨质#NN  疏松#NN  ，#PU  腰腿#VV  酸软#NN  ，#PU  筋骨#VV  疼痛#NN  、#PU  乏力#NN  等#ETC  ，#PU  延缓#VV  人体#NN  衰老#NN  ，#PU  是#VC  老年人#NN  理想#VA  的#DEC  保健#NN  果品#NN
+        </pos>
+
+        <parsing>
+            (loc, 含#VV, 栗子#NN)  (case, 栗子#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 矿物质#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 矿物质#NN, 不饱和#NN)  (conj, 矿物质#NN, 脂肪酸#NN)  (cc, 矿物质#NN, 和#CC)  (conj, 矿物质#NN, 维生素#NN)  (nsubj, 防治#VV, 矿物质#NN)  (mmod, 防治#VV, 能#VV)  (root, ROOT#null, 防治#VV)  (nn, 疏#NN, 高血压#NN)  (conj, 疏#NN, 病#NN)  (conj, 疏#NN, 冠心病#NN)  (nn, 疏#NN, 动脉#NN)  (conj, 疏#NN, 硬化#NN)  (nn, 疏#NN, 骨质#NN)  (nn, 疾病#NN, 疏#NN)  (etc, 疏#NN, 等#ETC)  (dobj, 防治#VV, 疾病#NN)  (cop, 佳品#NN, 是#VC)  (nn, 延年益寿#NR, 抗#NR)  (conj, 延年益寿#NR, 衰老#NR)  (assmod, 佳品#NN, 延年益寿#NR)  (case, 延年益寿#NR, 的#DEG)  (nn, 佳品#NN, 滋补#NN)  (dep, 防治#VV, 佳品#NN)
+            (root, ROOT#null, null#null)
+            (nn, 核黄素#NN, 栗子#NN)  (nn, 核黄素#NN, 含有#NN)  (nsubj, 吃#VV, 核黄素#NN)  (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 栗子#NN)  (case, 口腔#NN, 对#P)  (nn, 难愈#NN, 日久#NN)  (assmod, 口腔#NN, 难愈#NN)  (case, 难愈#NN, 的#DEG)  (nn, 口腔#NN, 小儿#NN)  (nn, 口腔#NN, 口舌#NN)  (conj, 口腔#NN, 生疮#NN)  (cc, 口腔#NN, 和#CC)  (nn, 口腔#NN, 成人#NN)  (prep, 有益#VA, 口腔#NN)  (advmod, 有益#VA, 溃疡#AD)  (conj, 吃#VV, 有益#VA)
+            (root, ROOT#null, null#null)
+            (nsubj, 品种#NN, 栗子#NN)  (cop, 品种#NN, 是#VC)  (nn, 含量#NN, 碳水化合物#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (relcl, 品种#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 品种#NN, 干果#JJ)  (root, ROOT#null, 品种#NN)  (conj, 品种#NN, 能#VV)  (nn, 人体#NN, 供给#NN)  (nsubj, 多#VA, 人体#NN)  (advmod, 多#VA, 较#AD)  (relcl, 热能#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (dobj, 能#VV, 热能#NN)  (cc, 能#VV, 并#CC)  (mmod, 帮助#VV, 能#VV)  (conj, 能#VV, 帮助#VV)  (dobj, 帮助#VV, 脂肪#NN)  (dep, 帮助#VV, 代谢#VV)  (conj, 能#VV, 具有#VV)  (nn, 健脾#NN, 益气#NN)  (dobj, 具有#VV, 健脾#NN)  (nsubj, 补#VV, 厚#NN)  (conj, 品种#NN, 补#VV)  (assmod, 作用#NN, 胃肠#NN)  (case, 胃肠#NN, 的#DEG)  (dobj, 补#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 栗子#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 栗子#VV, 维生素C#NN)  (mmod, 维持#VV, 能够#VV)  (conj, 栗子#VV, 维持#VV)  (conj, 肌肉#NN, 牙齿#NN)  (conj, 肌肉#NN, 骨骼#NN)  (nn, 肌肉#NN, 血管#NN)  (assmod, 功用#NN, 肌肉#NN)  (case, 肌肉#NN, 的#DEG)  (amod, 功用#NN, 正常#JJ)  (dobj, 维持#VV, 功用#NN)  (mmod, 预防#VV, 可以#VV)  (conj, 维持#VV, 预防#VV)  (cc, 预防#VV, 和#CC)  (dep, 预防#VV, 治疗#VV)  (nn, 疏松#NN, 骨质#NN)  (dobj, 治疗#VV, 疏松#NN)  (conj, 维持#VV, 腰腿#VV)  (dobj, 腰腿#VV, 酸软#NN)  (conj, 维持#VV, 筋骨#VV)  (conj, 乏力#NN, 疼痛#NN)  (dobj, 筋骨#VV, 乏力#NN)  (etc, 乏力#NN, 等#ETC)  (conj, 维持#VV, 延缓#VV)  (nn, 衰老#NN, 人体#NN)  (dobj, 延缓#VV, 衰老#NN)  (cop, 果品#NN, 是#VC)  (nsubj, 理想#VA, 老年人#NN)  (relcl, 果品#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 果品#NN, 保健#NN)  (conj, 维持#VV, 果品#NN)
+        </parsing>
+
+        <tag>
+            含矿物质  矿物质丰富  不饱和矿物质  脂肪酸  防治疾病  延年益寿  滋补佳品  栗子核黄素  含有核黄素  日久难愈  小儿口腔  口舌口腔  生疮  成人口腔  干果品种  供给人体  帮助脂肪  益气健脾  维生素C丰富  栗子维生素C  牙齿  骨骼  血管肌肉  正常功用  维持功用  骨质疏松  治疗疏松  腰腿酸软  疼痛  筋骨乏力  人体衰老  延缓衰老  老年人理想  果品理想  保健果品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  延缓衰老  明目  促进消化  抗氧化  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1. 栗子可生食，煮食，炒食，或与肉类炖食；2. 生板栗巧去皮：用刀将板栗切成两瓣，去掉外壳后放入盆里，加上开水浸泡一会儿后用筷子搅拌，板栗皮就会脱去，但应注意浸泡时间不宜过长，以免营养丢失；3. 栗子生吃难消化，熟食又容易滞气，一次吃得太多会伤脾胃，每天最多吃10个就可以了。
+        </rawdata>
+
+        <segment>
+            栗子  可  生食  ，  煮食  ，  炒食  ，  或  与  肉类  炖食  ；  2  .  生  板栗  巧  去皮  ：  用  刀  将  板栗  切成  两  瓣  ，  去掉  外壳  后  放入  盆  里  ，  加上  开水  浸泡  一会儿  后用  筷子  搅拌  ，  板栗  皮  就  会  脱去  ，  但  应  注意  浸泡  时间  不  宜  过长  ，  以免  营养  丢失  ；  3  .  栗子  生吃  难  消化  ，  熟食  又  容易  滞气  ，  一  次  吃  得  太  多  会  伤  脾胃  ，  每  天  最多  吃  10  个  就  可以  了  。
+        </segment>
+
+        <pos>
+            栗子#NR  可#VV  生食#NN  ，#PU  煮食#VV  ，#PU  炒食#VV  ，#PU  或#CC  与#P  肉类#CD  炖食#CD  ；#PU  2#CD  .#CD  生#VV  板栗#NN  巧#NN  去皮#NN  ：#PU  用#P  刀#NN  将#AD  板栗#VV  切成#NR  两#CD  瓣#NN  ，#PU  去掉#NN  外壳#NN  后#LC  放入#VV  盆#NN  里#LC  ，#PU  加上#AD  开水#VV  浸泡#NR  一会儿#CD  后用#JJ  筷子#NN  搅拌#NN  ，#PU  板栗#NN  皮#NN  就#AD  会#VV  脱去#NN  ，#PU  但#AD  应#VV  注意#VV  浸泡#NN  时间#NN  不#AD  宜#NR  过长#VV  ，#PU  以免#VV  营养#VA  丢失#VV  ；#PU  3#CD  .#NN  栗子#VV  生吃#NN  难#NN  消化#NN  ，#PU  熟食#NR  又#AD  容易#VA  滞气#VA  ，#PU  一#CD  次#M  吃#VV  得#DER  太#AD  多#AD  会#VV  伤#NN  脾胃#NN  ，#PU  每#DT  天#M  最多#AD  吃#VV  10#CD  个#M  就#AD  可以#VV  了#AS  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 可#VV, 栗子#NR)  (root, ROOT#null, 可#VV)  (dobj, 可#VV, 生食#NN)  (conj, 可#VV, 煮食#VV)  (conj, 可#VV, 炒食#VV)  (cc, 可#VV, 或#CC)  (case, .#CD, 与#P)  (dep, .#CD, 肉类#CD)  (nummod, 2#CD, 炖食#CD)  (dep, .#CD, 2#CD)  (dep, 可#VV, 生#VV)  (nn, 去皮#NN, 板栗#NN)  (nn, 去皮#NN, 巧#NN)  (dobj, 生#VV, 去皮#NN)  (case, 板栗#VV, 用#P)  (nsubj, 板栗#VV, 刀#NN)  (advmod, 板栗#VV, 将#AD)  (prep, 开水#VV, 板栗#VV)  (nn, 瓣#NN, 切成#NR)  (nummod, 瓣#NN, 两#CD)  (dobj, 板栗#VV, 瓣#NN)  (nn, 外壳#NN, 去掉#NN)  (loc, 放入#VV, 外壳#NN)  (case, 外壳#NN, 后#LC)  (dep, 板栗#VV, 放入#VV)  (dobj, 放入#VV, 盆#NN)  (case, 板栗#VV, 里#LC)  (advmod, 开水#VV, 加上#AD)  (dep, 可#VV, 开水#VV)  (nn, 搅拌#NN, 浸泡#NR)  (nummod, 搅拌#NN, 一会儿#CD)  (amod, 搅拌#NN, 后用#JJ)  (nn, 搅拌#NN, 筷子#NN)  (dobj, 开水#VV, 搅拌#NN)  (nn, 皮#NN, 板栗#NN)  (nsubj, 会#VV, 皮#NN)  (advmod, 会#VV, 就#AD)  (conj, 可#VV, 会#VV)  (dobj, 会#VV, 脱去#NN)  (advmod, 注意#VV, 但#AD)  (mmod, 注意#VV, 应#VV)  (conj, 可#VV, 注意#VV)  (nn, 时间#NN, 浸泡#NN)  (dobj, 注意#VV, 时间#NN)  (neg, 过长#VV, 不#AD)  (dep, 过长#VV, 宜#NR)  (dep, 注意#VV, 过长#VV)  (conj, 过长#VV, 以免#VV)  (ccomp, 以免#VV, 营养#VA)  (dep, 注意#VV, 丢失#VV)  (nummod, .#NN, 3#CD)  (conj, 可#VV, 栗子#VV)  (nn, 消化#NN, 生吃#NN)  (nn, 消化#NN, 难#NN)  (dobj, 栗子#VV, 消化#NN)  (nsubj, 容易#VA, 熟食#NR)  (advmod, 容易#VA, 又#AD)  (conj, 可#VV, 容易#VA)  (comod, 容易#VA, 滞气#VA)  (nummod, 次#M, 一#CD)  (nsubj, 会#VV, 次#M)  (dep, 会#VV, 吃#VV)  (dep, 会#VV, 得#DER)  (advmod, 会#VV, 太#AD)  (advmod, 会#VV, 多#AD)  (conj, 可#VV, 会#VV)  (nn, 脾胃#NN, 伤#NN)  (dobj, 会#VV, 脾胃#NN)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (advmod, 吃#VV, 最多#AD)  (dep, 可以#VV, 吃#VV)  (nummod, 个#M, 10#CD)  (range, 吃#VV, 个#M)  (advmod, 可以#VV, 就#AD)  (conj, 可#VV, 可以#VV)  (asp, 可以#VV, 了#AS)
+        </parsing>
+
+        <tag>
+            板栗去皮  板栗瓣  去掉外壳  后用搅拌  筷子搅拌  开水搅拌  浸泡时间  注意时间  生吃消化  栗子消化  滞气容易  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/7c/d3/54140_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1373 栗子仁.jpg
+    </picturelocalurl>
+
+</content>

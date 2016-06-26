@@ -1,0 +1,180 @@
+<content>
+
+    <id>
+        1459
+    </id>
+
+    <foodname>
+        甜玉米
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        蔬菜玉米
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病者慎食。
+        </rawdata>
+
+        <segment>
+            糖尿病  者  慎食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  者#NN  慎食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 糖尿病#NN)  (nsubj, 慎食#VV, 者#NN)  (root, ROOT#null, 慎食#VV)
+        </parsing>
+
+        <tag>
+            糖尿病者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            健康体质平和质，瘀血体质
+        </rawdata>
+
+        <segment>
+            健康  体质  平和质  ，  瘀血  体质
+        </segment>
+
+        <pos>
+            健康#JJ  体质#NN  平和质#VV  ，#PU  瘀血#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (amod, 体质#NN, 健康#JJ)  (nsubj, 平和质#VV, 体质#NN)  (root, ROOT#null, 平和质#VV)  (ccomp, 平和质#VV, 瘀血#VV)  (dobj, 瘀血#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            健康体质平和质  瘀血体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            甜玉米，又称蔬菜玉米，禾本科，玉米属。玉米的甜质型亚种。甜玉米是欧美、韩国和日本等发达国家的主要蔬菜之一。因其具有丰富的营养、甜、鲜、脆、嫩的特色而深受各阶层消费者青睐。生产中的甜玉米可以分为普通玉米、超甜玉米和加强型甜玉米三类，超甜玉米由于含糖量高、适宜采收期长而得到广泛种植。中国是糯玉米的世界起源中心，栽培历史悠久。糯玉米营养丰富，食用价值高，被当今世界广泛用作保健的营养食物。
+        </rawdata>
+
+        <segment>
+            甜玉米  ，  又  称  蔬菜  玉米  ，  禾本科  ，  玉米  属  。  玉米  的  甜质型  亚种  。  甜玉米  是  欧  美  、  韩国  和  日本  等  发达  国家  的  主要  蔬菜  之一  。  因  其  具有  丰富  的  营养  、  甜  、  鲜  、  脆  、  嫩的  特色  而  深  受  各  阶层  消费者  青睐  。  生产  中  的  甜玉米  可以  分为  普通  玉米  、  超  甜  玉米  和  加强型  甜玉米  三  类  ，  超  甜  玉米  由于  含糖量  高  、  适宜  采收  期  长  而  得到  广泛  种植  。  中国  是  糯玉米  的  世界  起源  中心  ，  栽培  历史  悠久  。  糯玉米  营养  丰富  ，  食用  价值  高  ，  被  当今  世界  广泛  用作  保健  的  营养  食物  。
+        </segment>
+
+        <pos>
+            甜玉米#NN  ，#PU  又#AD  称#VV  蔬菜#NN  玉米#NN  ，#PU  禾本科#NN  ，#PU  玉米#AD  属#VV    。#PU  玉米#NN  的#DEG  甜质型#NN  亚种#VV    。#PU  甜玉米#NN  是#VC  欧#NR  美#NR  、#PU  韩国#NR  和#CC  日本#NR  等#ETC  发达#JJ  国家#NN  的#DEG  主要#JJ  蔬菜#NN  之一#NN    。#PU  因#P  其#PN  具有#VV  丰富#VA  的#DEC  营养#VA  、#PU  甜#VA  、#PU  鲜#VA  、#PU  脆#VA  、#PU  嫩的#VA  特色#NN  而#CC  深#AD  受#VV  各#DT  阶层#NN  消费者#NN  青睐#NN    。#PU  生产#NN  中#LC  的#DEG  甜玉米#NN  可以#VV  分为#VV  普通#JJ  玉米#NN  、#PU  超#VV  甜#NN  玉米#NN  和#CC  加强型#NN  甜玉米#NN  三#CD  类#M  ，#PU  超#VV  甜#NN  玉米#NN  由于#P  含糖量#AD  高#VA  、#PU  适宜#VA  采收#CD  期#M  长#VA  而#MSP  得到#VV  广泛#JJ  种植#NN    。#PU  中国#NR  是#VC  糯玉米#NN  的#DEG  世界#NN  起源#NN  中心#NN  ，#PU  栽培#VV  历史#NN  悠久#VA    。#PU  糯玉米#AD  营养#VA  丰富#VA  ，#PU  食用#VV  价值#NN  高#VA  ，#PU  被#LB  当今#NT  世界#NN  广泛#AD  用作#VV  保健#NN  的#DEG  营养#VA  食物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 甜玉米#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (nn, 玉米#NN, 蔬菜#NN)  (dobj, 称#VV, 玉米#NN)  (nsubj, 属#VV, 禾本科#NN)  (advmod, 属#VV, 玉米#AD)  (conj, 称#VV, 属#VV)   (assmod, 甜质型#NN, 玉米#NN)  (case, 玉米#NN, 的#DEG)  (nsubj, 亚种#VV, 甜质型#NN)  (root, ROOT#null, 亚种#VV)   (nsubj, 之一#NN, 甜玉米#NN)  (cop, 之一#NN, 是#VC)  (nn, 日本#NR, 欧#NR)  (conj, 日本#NR, 美#NR)  (conj, 日本#NR, 韩国#NR)  (cc, 日本#NR, 和#CC)  (nn, 国家#NN, 日本#NR)  (etc, 日本#NR, 等#ETC)  (amod, 国家#NN, 发达#JJ)  (assmod, 之一#NN, 国家#NN)  (case, 国家#NN, 的#DEG)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 蔬菜#NN)  (root, ROOT#null, 之一#NN)   (case, 其#PN, 因#P)  (prep, 具有#VV, 其#PN)  (root, ROOT#null, 具有#VV)  (relcl, 特色#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 特色#NN, 营养#VA)  (conj, 营养#VA, 甜#VA)  (conj, 营养#VA, 鲜#VA)  (conj, 营养#VA, 脆#VA)  (dep, 营养#VA, 嫩的#VA)  (dobj, 具有#VV, 特色#NN)  (cc, 具有#VV, 而#CC)  (advmod, 受#VV, 深#AD)  (dep, 具有#VV, 受#VV)  (det, 阶层#NN, 各#DT)  (nn, 青睐#NN, 阶层#NN)  (nn, 青睐#NN, 消费者#NN)  (dobj, 受#VV, 青睐#NN)   (assmod, 甜玉米#NN, 生产#NN)  (case, 生产#NN, 中#LC)  (case, 生产#NN, 的#DEG)  (nsubj, 分为#VV, 甜玉米#NN)  (mmod, 分为#VV, 可以#VV)  (root, ROOT#null, 分为#VV)  (amod, 玉米#NN, 普通#JJ)  (dobj, 分为#VV, 玉米#NN)  (conj, 分为#VV, 超#VV)  (nn, 甜玉米#NN, 甜#NN)  (conj, 甜玉米#NN, 玉米#NN)  (cc, 甜玉米#NN, 和#CC)  (nn, 甜玉米#NN, 加强型#NN)  (dobj, 超#VV, 甜玉米#NN)  (nummod, 类#M, 三#CD)  (range, 超#VV, 类#M)  (conj, 分为#VV, 超#VV)  (nn, 玉米#NN, 甜#NN)  (dobj, 超#VV, 玉米#NN)  (case, 高#VA, 由于#P)  (advmod, 高#VA, 含糖量#AD)  (prep, 得到#VV, 高#VA)  (dep, 高#VA, 适宜#VA)  (nummod, 期#M, 采收#CD)  (dep, 长#VA, 期#M)  (dep, 高#VA, 长#VA)  (prtmod, 得到#VV, 而#MSP)  (conj, 分为#VV, 得到#VV)  (amod, 种植#NN, 广泛#JJ)  (dobj, 得到#VV, 种植#NN)   (nsubj, 中心#NN, 中国#NR)  (cop, 中心#NN, 是#VC)  (assmod, 中心#NN, 糯玉米#NN)  (case, 糯玉米#NN, 的#DEG)  (nn, 中心#NN, 世界#NN)  (nn, 中心#NN, 起源#NN)  (root, ROOT#null, 中心#NN)  (conj, 中心#NN, 栽培#VV)  (nsubj, 悠久#VA, 历史#NN)  (conj, 中心#NN, 悠久#VA)   (advmod, 营养#VA, 糯玉米#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (dep, 营养#VA, 食用#VV)  (dobj, 食用#VV, 价值#NN)  (conj, 食用#VV, 高#VA)  (auxpass, 用作#VV, 被#LB)  (nn, 世界#NN, 当今#NT)  (nsubj, 用作#VV, 世界#NN)  (advmod, 用作#VV, 广泛#AD)  (dep, 营养#VA, 用作#VV)  (assmod, 食物#NN, 保健#NN)  (case, 保健#NN, 的#DEG)  (nfincl, 食物#NN, 营养#VA)  (dobj, 用作#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+            蔬菜玉米  甜质型  亚种  日本  韩国  发达国家  特色丰富  阶层青睐  消费者青睐  普通玉米  分为玉米  广泛种植  得到种植  糯玉米  世界中心  起源中心  历史悠久  营养丰富  食用价值  用作食物  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            益肺宁心
+            ;健脾开胃
+            ;利水通淋
+            ;防癌
+            ;降胆固醇
+            ;健脑
+        </rawdata>
+
+        <segment>
+            益肺  宁心
+            ;  健脾  开胃
+            ;  利水通淋
+            ;  防癌
+            ;  降  胆固醇
+            ;  健脑
+        </segment>
+
+        <pos>
+            益肺#NN  宁心#VV
+            ;#NN  健脾#NN  开胃#NN
+            ;#NN  利水通淋#VV
+            ;#NN  防癌#VV
+            ;#AD  降#VV  胆固醇#NN
+            ;#NN  健脑#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 宁心#VV, 益肺#NN)  (root, ROOT#null, 宁心#VV)
+            (nn, 开胃#NN, ;#NN)  (nn, 开胃#NN, 健脾#NN)  (root, ROOT#null, 开胃#NN)
+            (nsubj, 利水通淋#VV, ;#NN)  (root, ROOT#null, 利水通淋#VV)
+            (nsubj, 防癌#VV, ;#NN)  (root, ROOT#null, 防癌#VV)
+            (advmod, 降#VV, ;#AD)  (root, ROOT#null, 降#VV)  (dobj, 降#VV, 胆固醇#NN)
+            (nsubj, 健脑#VV, ;#NN)  (root, ROOT#null, 健脑#VV)
+        </parsing>
+
+        <tag>
+            宁心  健脾开胃  防癌  健脑  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            葡萄糖、蔗糖、果糖含量是普通玉米的2-8倍，蛋白质含量13％以上。以水溶性蛋白为主，粗脂肪含量9.9％，比普通玉米高出l倍左右。籽粒中富含VB1、VB2、VB5、VB6、VC、VE、胡萝卜素和l8种氨基酸等营养元素.在所有主食中，玉米的营养价值和保健作用最高。玉米含有7种“抗衰剂”即钙、谷胱甘肽、维生素、镁、硒、维生素E和脂肪酸。
+            经测定，每l00克玉米能提供近300毫克的钙，几乎与乳制品中所含的钙差不多。丰富的钙可以起到降血压的功效。玉米中所含有的胡萝素被人体吸收后转化为维生素A，具有防癌作用。植物纤维素能加速致癌物质和其他毒物的排出。天然维生素E则有促进细胞分裂，延缓衰老，降低血清胆固醇、防止皮肤病变的功能，还能减轻动脉硬化和脑功能衰退。玉米含有的黄体素、黄质有利于延缓眼睛老化。
+        </rawdata>
+
+        <segment>
+            葡萄糖  、  蔗糖  、  果糖  含量  是  普通  玉米  的  8  倍  ，  蛋白质  含量  13％  以上  。  以  水溶性  蛋白  为主  ，  粗  脂肪  含量  9.9％  ，  比  普通  玉米  高出  l  倍  左右  。  籽粒  中  富含  VB  VB2  、  VB5  、  VB6  、  VC  、  VE  、  胡萝卜素  和  l8  种  氨基酸  等  营养  元素  .  在  所有  主食  中  ，  玉米  的  营养  价值  和  保健  作用  最高  。  玉米  含有  7  种  “  抗  衰  剂  ”  即  钙  、  谷胱甘肽  、  维生素  、  镁  、  硒  、  维生素E  和  脂肪酸  。
+            经  测定  ，  每  l00  克  玉米  能  提供  近  300  毫克  的  钙  ，  几乎  与  乳制品  中  所含  的  钙  差不多  。  丰富  的  钙  可以  起到  降  血压  的  功效  。  玉米  中  所含  有的  胡萝素  被  人体  吸收  后转  化为  维生素A  ，  具有  防癌  作用  。  植物  纤维素  能  加速  致癌  物质  和  其他  毒物  的  排出  。  天然  维生素E  则  有  促进  细胞  分裂  ，  延缓  衰老  ，  降低  血清  胆固醇  、  防止  皮肤病  变的  功能  ，  还  能  减轻  动脉  硬化  和  脑  功能  衰退  。  玉米  含  有的  黄体素  、  黄  质  有利于  延缓  眼睛  老化  。
+        </segment>
+
+        <pos>
+            葡萄糖#NR  、#PU  蔗糖#NR  、#PU  果糖#NR  含量#NN  是#VC  普通#JJ  玉米#NN  的#DEG  8#CD  倍#M  ，#PU  蛋白质#VV  含量#NN  13#CD  ％#NN  以上#LC    。#PU  以#P  水溶性#NN  蛋白#NN  为主#VV  ，#PU  粗#VV  脂肪#NN  含量#NN  9.9#CD  ％#NN  ，#PU  比#P  普通#JJ  玉米#NN  高出#VV  l#CD  倍#M  左右#LC    。#PU  籽粒#NN  中#LC  富含#AD  VB#VV  VB2#CD  、#PU  VB5#CD  、#PU  VB6#CD  、#PU  VC#CD  、#PU  VE#CD  、#PU  胡萝卜素#CD  和#CC  l8#CD  种#M  氨基酸#NN  等#ETC  营养#VA  元素#NN  .#VV  在#P  所有#DT  主食#NN  中#LC  ，#PU  玉米#VV  的#DEC  营养#VA  价值#NN  和#CC  保健#NN  作用#NN  最高#AD    。#PU  玉米#NN  含有#NN  7#CD  种#M  ``#NN  抗#AD  衰#VV  剂#NN  ''#NN  即#AD  钙#NN  、#PU  谷胱甘肽#NN  、#PU  维生素#NN  、#PU  镁#NN  、#PU  硒#NN  、#PU  维生素E#NN  和#CC  脂肪酸#NN    。#PU    。#PU
+            经#P  测定#NN  ，#PU  每#DT  l00#CD  克#M  玉米#VV  能#VV  提供#VV  近#AD  300#CD  毫克#NN  的#DEC  钙#NN  ，#PU  几乎#AD  与#P  乳制品#NN  中#LC  所含#VV  的#DEC  钙#VV  差不多#AD    。#PU  丰富#VA  的#DEC  钙#NN  可以#VV  起到#VV  降#NN  血压#VA  的#DEC  功效#NN    。#PU  玉米#NN  中#LC  所含#NN  有的#PN  胡萝素#VV  被#SB  人体#VV  吸收#VV  后转#NN  化为#VV  维生素A#NN  ，#PU  具有#VV  防癌#NN  作用#NN    。#PU  植物#NN  纤维素#NN  能#VV  加速#VV  致癌#NN  物质#NN  和#CC  其他#DT  毒物#NN  的#DEG  排出#NN    。#PU  天然#JJ  维生素E#NN  则#AD  有#VE  促进#VV  细胞#NN  分裂#NN  ，#PU  延缓#VV  衰老#NN  ，#PU  降低#VV  血清#NN  胆固醇#NN  、#PU  防止#VV  皮肤病#VV  变的#NN  功能#NN  ，#PU  还#AD  能#VV  减轻#VV  动脉#NN  硬化#NN  和#CC  脑#NN  功能#NN  衰退#VV    。#PU  玉米#NN  含#VV  有的#PN  黄体素#JJ  、#PU  黄#JJ  质#NN  有利于#VV  延缓#NN  眼睛#NN  老化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 果糖#NR, 葡萄糖#NR)  (conj, 果糖#NR, 蔗糖#NR)  (nn, 含量#NN, 果糖#NR)  (nsubj, 是#VC, 含量#NN)  (root, ROOT#null, 是#VC)  (amod, 玉米#NN, 普通#JJ)  (assmod, 倍#M, 玉米#NN)  (case, 玉米#NN, 的#DEG)  (nummod, 倍#M, 8#CD)  (dep, 是#VC, 倍#M)  (conj, 是#VC, 蛋白质#VV)  (nn, ％#NN, 含量#NN)  (nummod, ％#NN, 13#CD)  (loc, 蛋白质#VV, ％#NN)  (case, ％#NN, 以上#LC)   (case, 蛋白#NN, 以#P)  (nn, 蛋白#NN, 水溶性#NN)  (prep, 为主#VV, 蛋白#NN)  (root, ROOT#null, 为主#VV)  (dep, 为主#VV, 粗#VV)  (nn, 含量#NN, 脂肪#NN)  (nn, ％#NN, 含量#NN)  (nummod, ％#NN, 9.9#CD)  (dobj, 粗#VV, ％#NN)  (case, 玉米#NN, 比#P)  (amod, 玉米#NN, 普通#JJ)  (prep, 高出#VV, 玉米#NN)  (conj, 为主#VV, 高出#VV)  (nummod, 倍#M, l#CD)  (loc, 高出#VV, 倍#M)  (case, 倍#M, 左右#LC)   (loc, VB#VV, 籽粒#NN)  (case, 籽粒#NN, 中#LC)  (advmod, VB#VV, 富含#AD)  (root, ROOT#null, VB#VV)  (nummod, l8#CD, VB2#CD)  (nummod, l8#CD, VB5#CD)  (nummod, l8#CD, VB6#CD)  (nummod, l8#CD, VC#CD)  (nummod, l8#CD, VE#CD)  (nummod, l8#CD, 胡萝卜素#CD)  (cc, l8#CD, 和#CC)  (range, VB#VV, l8#CD)  (dep, 氨基酸#NN, 种#M)  (nsubj, 营养#VA, 氨基酸#NN)  (etc, 氨基酸#NN, 等#ETC)  (conj, VB#VV, 营养#VA)  (nsubj, .#VV, 元素#NN)  (case, 主食#NN, 在#P)  (det, 主食#NN, 所有#DT)  (prep, 玉米#VV, 主食#NN)  (case, 主食#NN, 中#LC)  (relcl, 作用#NN, 玉米#VV)  (mark, 玉米#VV, 的#DEC)  (nfincl, 作用#NN, 营养#VA)  (conj, 作用#NN, 价值#NN)  (cc, 作用#NN, 和#CC)  (nn, 作用#NN, 保健#NN)  (dobj, .#VV, 作用#NN)  (advmod, .#VV, 最高#AD)   (nn, 含有#NN, 玉米#NN)  (nn, ``#NN, 含有#NN)  (nummod, 种#M, 7#CD)  (clf, ``#NN, 种#M)  (nsubj, 衰#VV, ``#NN)  (advmod, 衰#VV, 抗#AD)  (root, ROOT#null, 衰#VV)  (nn, ''#NN, 剂#NN)  (nn, 脂肪酸#NN, ''#NN)  (advmod, 脂肪酸#NN, 即#AD)  (conj, 脂肪酸#NN, 钙#NN)  (conj, 脂肪酸#NN, 谷胱甘肽#NN)  (conj, 脂肪酸#NN, 维生素#NN)  (conj, 脂肪酸#NN, 镁#NN)  (conj, 脂肪酸#NN, 硒#NN)  (conj, 脂肪酸#NN, 维生素E#NN)  (cc, 脂肪酸#NN, 和#CC)  (dobj, 衰#VV, 脂肪酸#NN)   (root, ROOT#null, null#null)
+            (case, 测定#NN, 经#P)  (prep, 玉米#VV, 测定#NN)  (dep, 玉米#VV, 每#DT)  (nummod, 克#M, l00#CD)  (dep, 每#DT, 克#M)  (nsubj, 钙#VV, 玉米#VV)  (mmod, 提供#VV, 能#VV)  (relcl, 钙#NN, 提供#VV)  (advmod, 300#CD, 近#AD)  (nummod, 毫克#NN, 300#CD)  (dobj, 提供#VV, 毫克#NN)  (mark, 提供#VV, 的#DEC)  (dobj, 玉米#VV, 钙#NN)  (advmod, 所含#VV, 几乎#AD)  (case, 乳制品#NN, 与#P)  (prep, 所含#VV, 乳制品#NN)  (case, 乳制品#NN, 中#LC)  (dep, 玉米#VV, 所含#VV)  (mark, 玉米#VV, 的#DEC)  (root, ROOT#null, 钙#VV)  (advmod, 钙#VV, 差不多#AD)   (relcl, 钙#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 起到#VV, 钙#NN)  (mmod, 起到#VV, 可以#VV)  (root, ROOT#null, 起到#VV)  (nsubj, 血压#VA, 降#NN)  (relcl, 功效#NN, 血压#VA)  (mark, 血压#VA, 的#DEC)  (dobj, 起到#VV, 功效#NN)   (dep, 所含#NN, 玉米#NN)  (case, 玉米#NN, 中#LC)  (dep, 胡萝素#VV, 所含#NN)  (nsubj, 胡萝素#VV, 有的#PN)  (xsubj, 人体#VV, 有的#PN)  (root, ROOT#null, 胡萝素#VV)  (auxpass, 人体#VV, 被#SB)  (ccomp, 胡萝素#VV, 人体#VV)  (dep, 胡萝素#VV, 吸收#VV)  (dobj, 吸收#VV, 后转#NN)  (conj, 胡萝素#VV, 化为#VV)  (dobj, 化为#VV, 维生素A#NN)  (conj, 化为#VV, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 具有#VV, 作用#NN)   (nn, 纤维素#NN, 植物#NN)  (nsubj, 加速#VV, 纤维素#NN)  (mmod, 加速#VV, 能#VV)  (root, ROOT#null, 加速#VV)  (nn, 物质#NN, 致癌#NN)  (conj, 毒物#NN, 物质#NN)  (cc, 毒物#NN, 和#CC)  (det, 毒物#NN, 其他#DT)  (assmod, 排出#NN, 毒物#NN)  (case, 毒物#NN, 的#DEG)  (dobj, 加速#VV, 排出#NN)   (amod, 维生素E#NN, 天然#JJ)  (nsubj, 有#VE, 维生素E#NN)  (advmod, 有#VE, 则#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 促进#VV)  (nn, 分裂#NN, 细胞#NN)  (dobj, 促进#VV, 分裂#NN)  (dep, 促进#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (conj, 延缓#VV, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 延缓#VV, 防止#VV)  (dep, 衰退#VV, 皮肤病#VV)  (nn, 功能#NN, 变的#NN)  (dobj, 皮肤病#VV, 功能#NN)  (advmod, 减轻#VV, 还#AD)  (mmod, 减轻#VV, 能#VV)  (conj, 皮肤病#VV, 减轻#VV)  (nn, 功能#NN, 动脉#NN)  (conj, 功能#NN, 硬化#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 脑#NN)  (dobj, 减轻#VV, 功能#NN)  (ccomp, 防止#VV, 衰退#VV)   (nsubj, 含#VV, 玉米#NN)  (root, ROOT#null, 含#VV)  (nn, 质#NN, 有的#PN)  (amod, 质#NN, 黄体素#JJ)  (dep, 黄体素#JJ, 黄#JJ)  (dobj, 含#VV, 质#NN)  (conj, 含#VV, 有利于#VV)  (nn, 老化#NN, 延缓#NN)  (nn, 老化#NN, 眼睛#NN)  (dobj, 有利于#VV, 老化#NN)
+        </parsing>
+
+        <tag>
+            果糖  葡萄糖  蔗糖  普通玉米  水溶性蛋白  为主  VB  氨基酸营养  玉米含有  脂肪酸  谷胱甘肽  提供钙  提供毫克  玉米钙  钙丰富  降血压  功效血压  吸收后转  化为维生素A  植物纤维素  加速排出  天然维生素E  细胞分裂  促进分裂  延缓衰老  血清胆固醇  降低胆固醇  变的功能  皮肤病功能  动脉功能  硬化  减轻功能  黄体素质  延缓老化  眼睛老化  有利于老化  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/03/30/12291_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1459 甜玉米.jpg
+    </picturelocalurl>
+
+</content>

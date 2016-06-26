@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        155
+    </id>
+
+    <foodname>
+        菠菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        菠棱菜、赤根菜、波斯草、鹦鹉菜、鼠根菜、角菜
+    </alias>
+
+    <season>
+        春、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾炎、肾结石患者、胃肠虚寒、腹泻者忌食。
+        </rawdata>
+
+        <segment>
+            肾炎  、  肾  结石  患者  、  胃肠  虚寒  、  腹泻者  忌食  。
+        </segment>
+
+        <pos>
+            肾炎#NR  、#PU  肾#NR  结石#VV  患者#NN  、#PU  胃肠#NN  虚寒#NN  、#PU  腹泻者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肾#NR, 肾炎#NR)  (nsubj, 结石#VV, 肾#NR)  (root, ROOT#null, 结石#VV)  (conj, 忌食#NN, 患者#NN)  (nn, 忌食#NN, 胃肠#NN)  (conj, 忌食#NN, 虚寒#NN)  (nn, 忌食#NN, 腹泻者#NN)  (dobj, 结石#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            肾炎  肾结石  患者  胃肠虚寒  腹泻者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                487
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                2920
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                380
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                311
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                85.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.97
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.66
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            菠菜属藜科一年生成二年生蔬菜。它原名叫做“菠薐菜”，因其当中的“薐”字难认不方便，简成两个字了。古代中国人称之为“红嘴绿鹦哥”，以叶片及嫩茎供食用。原产波斯，2000年前已有栽培，唐期时传入中国，现各地均有栽培，是一种常年供应市场的绿叶蔬菜。菠菜茎叶柔软滑嫩、味美色鲜，含有丰富维生素 C、胡萝卜素、蛋白质，以及铁、钙、磷等矿物质。除以鲜菜食用外，还可脱水制干和速冻。
+            菠菜按叶形可分为尖叶和圆叶两个类型。尖叶型，叶片呈箭头型，叶柄长而叶肉较薄，根粗大而含糖分多，品质佳，秋、冬毯子菠菜属此类型。圆叶型，叶片呈圆形，卵圆形成椭圆形，叶大肉肥厚，叶柄短阔，草酸含量高，春、夏季菠菜多属此类型。春秋两季均可播种，而以秋播为主。中国北方也有冬季播种、来春收获的，俗称埋头菠菜。条播或撒播均可。
+        </rawdata>
+
+        <segment>
+            菠菜  属  藜科  一  年  生成  二  年  生  蔬菜  。  它  原名  叫做  “  菠薐菜  ”  ，  因其  当中  的  “  薐  ”  字  难  认  不  方便  ，  简成  两  个  字  了  。  古代  中国人  称  之  为  “  红  嘴  绿  鹦哥  ”  ，  以  叶片  及  嫩茎  供  食用  。  原产  波斯  ，  2000年  前  已  有  栽培  ，  唐  期  时  传入  中国  ，  现  各  地  均  有  栽培  ，  是  一  种  常年  供应  市场  的  绿叶  蔬菜  。  菠菜  茎叶  柔软  滑嫩  、  味美  色鲜  ，  含有  丰富  维生素  C  、  胡萝卜素  、  蛋白质  ，  以及  铁  、  钙  、  磷  等  矿物质  。  除以  鲜菜  食用  外  ，  还  可  脱水  制  干  和  速冻  。
+            菠菜  按  叶形  可  分为  尖叶  和  圆  叶  两  个  类型  。  尖  叶型  ，  叶片  呈  箭头型  ，  叶柄长  而  叶肉  较  薄  ，  根  粗大  而  含糖  分多  ，  品质  佳  ，  秋  、  冬  毯子  菠菜  属  此  类型  。  圆  叶型  ，  叶片  呈  圆形  ，  卵  圆  形成  椭圆形  ，  叶  大肉  肥厚  ，  叶柄  短阔  ，  草酸  含量  高  ，  春  、  夏季  菠菜  多  属  此  类型  。  春秋  两  季  均  可  播种  ，  而  以  秋播  为主  。  中国  北方  也  有  冬季  播种  、  来  春  收获  的  ，  俗称  埋头  菠菜  。  条播  或  撒播  均  可  。
+        </segment>
+
+        <pos>
+            菠菜#NN  属#VV  藜科#NR  一#CD  年#M  生成#NN  二#CD  年#M  生#VV  蔬菜#NN    。#PU  它#PN  原名#VV  叫做#NN  ``#NN  菠薐菜#NN  ''#VV  ，#PU  因其#NN  当中#NN  的#DEG  ``#NN  薐#NN  ''#NN  字#NN  难#AD  认#AD  不#AD  方便#VA  ，#PU  简成#VV  两#CD  个#M  字#NN  了#AS    。#PU  古代#NN  中国人#NN  称#VV  之#PN  为#P  ``#VV  红#JJ  嘴#NN  绿#JJ  鹦哥#NN  ''#NN  ，#PU  以#P  叶片#NN  及#CC  嫩茎#NN  供#NN  食用#VV    。#PU  原产#NR  波斯#VV  ，#PU  2000年#NT  前#LC  已#AD  有#VE  栽培#VV  ，#PU  唐#NR  期#NN  时#LC  传入#VV  中国#NR  ，#PU  现#AD  各#DT  地#NN  均#AD  有#VE  栽培#VV  ，#PU  是#VC  一#CD  种#M  常年#AD  供应#VV  市场#NN  的#DEC  绿叶#JJ  蔬菜#NN    。#PU  菠菜#AD  茎叶#VV  柔软#NN  滑嫩#NN  、#PU  味美#NN  色鲜#NN  ，#PU  含有#AD  丰富#VV  维生素#NN  C#NN  、#PU  胡萝卜素#NN  、#PU  蛋白质#NN  ，#PU  以及#CC  铁#NN  、#PU  钙#NN  、#PU  磷#NN  等#ETC  矿物质#NN    。#PU  除以#NR  鲜菜#VV  食用#VV  外#NN  ，#PU  还#AD  可#VV  脱水#VV  制#NN  干#VV  和#CC  速冻#VV    。#PU    。#PU
+            菠菜#NN  按#P  叶形#NN  可#VV  分为#VV  尖叶#NN  和#CC  圆#VV  叶#NR  两#CD  个#M  类型#NN    。#PU  尖#NR  叶型#VV  ，#PU  叶片#NN  呈#VV  箭头型#NN  ，#PU  叶柄长#NN  而#CC  叶肉#NN  较#AD  薄#VA  ，#PU  根#M  粗大#NN  而#MSP  含糖#VV  分多#NN  ，#PU  品质#NN  佳#VA  ，#PU  秋#NN  、#PU  冬#NN  毯子#NN  菠菜#AD  属#VV  此#DT  类型#NN    。#PU  圆#VV  叶型#NN  ，#PU  叶片#AD  呈#VV  圆形#NN  ，#PU  卵#NN  圆#VV  形成#VV  椭圆形#NN  ，#PU  叶#NR  大肉#VV  肥厚#NN  ，#PU  叶柄#AD  短阔#VV  ，#PU  草酸#NN  含量#NN  高#VA  ，#PU  春#NT  、#PU  夏季#NT  菠菜#AD  多#VA  属#VV  此#DT  类型#NN    。#PU  春秋#NN  两#CD  季#NN  均#AD  可#VV  播种#VV  ，#PU  而#CC  以#P  秋播#NN  为主#VV    。#PU  中国#NR  北方#NN  也#AD  有#VE  冬季#NN  播种#NN  、#PU  来#VV  春#NT  收获#NN  的#DEC  ，#PU  俗称#NN  埋头#NN  菠菜#NN    。#PU  条播#NN  或#CC  撒播#NN  均#AD  可#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 菠菜#NN)  (root, ROOT#null, 属#VV)  (nn, 生成#NN, 藜科#NR)  (nummod, 年#M, 一#CD)  (clf, 生成#NN, 年#M)  (dobj, 属#VV, 生成#NN)  (nummod, 年#M, 二#CD)  (range, 属#VV, 年#M)  (conj, 属#VV, 生#VV)  (dobj, 生#VV, 蔬菜#NN)   (nsubj, 原名#VV, 它#PN)  (root, ROOT#null, 原名#VV)  (nn, 菠薐菜#NN, 叫做#NN)  (nn, 菠薐菜#NN, ``#NN)  (dobj, 原名#VV, 菠薐菜#NN)  (dep, 原名#VV, ''#VV)  (nn, 当中#NN, 因其#NN)  (assmod, 字#NN, 当中#NN)  (case, 当中#NN, 的#DEG)  (nn, 字#NN, ``#NN)  (nn, 字#NN, 薐#NN)  (nn, 字#NN, ''#NN)  (nsubj, 方便#VA, 字#NN)  (advmod, 方便#VA, 难#AD)  (advmod, 方便#VA, 认#AD)  (neg, 方便#VA, 不#AD)  (ccomp, ''#VV, 方便#VA)  (dep, 方便#VA, 简成#VV)  (nummod, 个#M, 两#CD)  (clf, 字#NN, 个#M)  (dobj, 简成#VV, 字#NN)  (dep, 方便#VA, 了#AS)   (nn, 中国人#NN, 古代#NN)  (nsubj, 称#VV, 中国人#NN)  (root, ROOT#null, 称#VV)  (dobj, 称#VV, 之#PN)  (case, ``#VV, 为#P)  (prep, 食用#VV, ``#VV)  (amod, 嘴#NN, 红#JJ)  (nn, 鹦哥#NN, 嘴#NN)  (amod, 鹦哥#NN, 绿#JJ)  (nn, ''#NN, 鹦哥#NN)  (dobj, ``#VV, ''#NN)  (case, 供#NN, 以#P)  (conj, 供#NN, 叶片#NN)  (cc, 供#NN, 及#CC)  (nn, 供#NN, 嫩茎#NN)  (prep, 食用#VV, 供#NN)  (dep, 称#VV, 食用#VV)   (nsubj, 波斯#VV, 原产#NR)  (xsubj, 有#VE, 原产#NR)  (root, ROOT#null, 波斯#VV)  (loc, 有#VE, 2000年#NT)  (case, 2000年#NT, 前#LC)  (advmod, 有#VE, 已#AD)  (ccomp, 波斯#VV, 有#VE)  (dep, 有#VE, 栽培#VV)  (nsubj, 传入#VV, 唐#NR)  (loc, 传入#VV, 期#NN)  (case, 期#NN, 时#LC)  (dep, 栽培#VV, 传入#VV)  (dobj, 传入#VV, 中国#NR)  (advmod, 有#VE, 现#AD)  (det, 地#NN, 各#DT)  (dep, 有#VE, 地#NN)  (advmod, 有#VE, 均#AD)  (conj, 栽培#VV, 有#VE)  (dep, 有#VE, 栽培#VV)  (cop, 蔬菜#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (advmod, 供应#VV, 常年#AD)  (relcl, 蔬菜#NN, 供应#VV)  (dobj, 供应#VV, 市场#NN)  (mark, 供应#VV, 的#DEC)  (amod, 蔬菜#NN, 绿叶#JJ)  (conj, 有#VE, 蔬菜#NN)   (advmod, 茎叶#VV, 菠菜#AD)  (root, ROOT#null, 茎叶#VV)  (nn, 色鲜#NN, 柔软#NN)  (conj, 色鲜#NN, 滑嫩#NN)  (nn, 色鲜#NN, 味美#NN)  (dobj, 茎叶#VV, 色鲜#NN)  (advmod, 丰富#VV, 含有#AD)  (dep, 茎叶#VV, 丰富#VV)  (nn, 磷#NN, 维生素#NN)  (conj, 磷#NN, C#NN)  (conj, 磷#NN, 胡萝卜素#NN)  (dep, 磷#NN, 蛋白质#NN)  (cc, 磷#NN, 以及#CC)  (conj, 磷#NN, 铁#NN)  (conj, 磷#NN, 钙#NN)  (nn, 矿物质#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (dobj, 丰富#VV, 矿物质#NN)   (nsubj, 鲜菜#VV, 除以#NR)  (xsubj, 食用#VV, 除以#NR)  (root, ROOT#null, 鲜菜#VV)  (ccomp, 鲜菜#VV, 食用#VV)  (dobj, 食用#VV, 外#NN)  (advmod, 脱水#VV, 还#AD)  (mmod, 脱水#VV, 可#VV)  (conj, 食用#VV, 脱水#VV)  (dobj, 脱水#VV, 制#NN)  (conj, 脱水#VV, 干#VV)  (cc, 干#VV, 和#CC)  (conj, 干#VV, 速冻#VV)   (root, ROOT#null, null#null)
+            (nsubj, 分为#VV, 菠菜#NN)  (case, 叶形#NN, 按#P)  (prep, 分为#VV, 叶形#NN)  (mmod, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dobj, 分为#VV, 尖叶#NN)  (cc, 分为#VV, 和#CC)  (conj, 分为#VV, 圆#VV)  (nn, 类型#NN, 叶#NR)  (nummod, 个#M, 两#CD)  (clf, 类型#NN, 个#M)  (dobj, 圆#VV, 类型#NN)   (nsubj, 叶型#VV, 尖#NR)  (root, ROOT#null, 叶型#VV)  (nsubj, 呈#VV, 叶片#NN)  (ccomp, 叶型#VV, 呈#VV)  (dobj, 呈#VV, 箭头型#NN)  (conj, 叶肉#NN, 叶柄长#NN)  (cc, 叶肉#NN, 而#CC)  (nsubj, 薄#VA, 叶肉#NN)  (advmod, 薄#VA, 较#AD)  (conj, 呈#VV, 薄#VA)  (dep, 粗大#NN, 根#M)  (nsubj, 含糖#VV, 粗大#NN)  (prtmod, 含糖#VV, 而#MSP)  (conj, 薄#VA, 含糖#VV)  (dobj, 含糖#VV, 分多#NN)  (nsubj, 佳#VA, 品质#NN)  (conj, 薄#VA, 佳#VA)  (conj, 毯子#NN, 秋#NN)  (nn, 毯子#NN, 冬#NN)  (nsubj, 属#VV, 毯子#NN)  (advmod, 属#VV, 菠菜#AD)  (conj, 薄#VA, 属#VV)  (det, 类型#NN, 此#DT)  (dobj, 属#VV, 类型#NN)   (conj, 属#VV, 圆#VV)  (dobj, 圆#VV, 叶型#NN)  (advmod, 呈#VV, 叶片#AD)  (conj, 圆#VV, 呈#VV)  (dobj, 呈#VV, 圆形#NN)  (nsubj, 形成#VV, 卵#NN)  (mmod, 形成#VV, 圆#VV)  (conj, 圆#VV, 形成#VV)  (dobj, 形成#VV, 椭圆形#NN)  (nsubj, 大肉#VV, 叶#NR)  (conj, 圆#VV, 大肉#VV)  (dobj, 大肉#VV, 肥厚#NN)  (advmod, 短阔#VV, 叶柄#AD)  (conj, 圆#VV, 短阔#VV)  (nn, 含量#NN, 草酸#NN)  (nsubj, 高#VA, 含量#NN)  (ccomp, 短阔#VV, 高#VA)  (conj, 夏季#NT, 春#NT)  (tmod, 多#VA, 夏季#NT)  (advmod, 多#VA, 菠菜#AD)  (conj, 高#VA, 多#VA)  (root, ROOT#null, 属#VV)  (det, 类型#NN, 此#DT)  (dobj, 属#VV, 类型#NN)   (nn, 季#NN, 春秋#NN)  (nummod, 季#NN, 两#CD)  (nsubj, 播种#VV, 季#NN)  (advmod, 播种#VV, 均#AD)  (mmod, 播种#VV, 可#VV)  (root, ROOT#null, 播种#VV)  (cc, 播种#VV, 而#CC)  (case, 秋播#NN, 以#P)  (prep, 为主#VV, 秋播#NN)  (dep, 播种#VV, 为主#VV)   (nn, 北方#NN, 中国#NR)  (nsubj, 有#VE, 北方#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nn, 播种#NN, 冬季#NN)  (conj, 菠菜#NN, 播种#NN)  (dep, 菠菜#NN, 来#VV)  (nn, 收获#NN, 春#NT)  (dobj, 来#VV, 收获#NN)  (mark, 来#VV, 的#DEC)  (nn, 菠菜#NN, 俗称#NN)  (nn, 菠菜#NN, 埋头#NN)  (dobj, 有#VE, 菠菜#NN)   (conj, 撒播#NN, 条播#NN)  (cc, 撒播#NN, 或#CC)  (nsubj, 可#VV, 撒播#NN)  (advmod, 可#VV, 均#AD)  (root, ROOT#null, 可#VV)
+        </parsing>
+
+        <tag>
+            叫做菠薐菜  原名菠薐菜  字方便  简成字  古代中国人  红嘴  绿鹦哥  波斯  供应蔬菜  供应市场  绿叶蔬菜  柔软色鲜  滑嫩  味美色鲜  茎叶色鲜  矿物质丰富  鲜菜  食用外  脱水制  分为尖叶  叶型  叶肉  叶柄长  含糖分多  形成椭圆形  大肉肥厚  冬季播种  撒播  条播  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.通肠导便、防治痔疮
+            菠菜含有大量的植物粗纤维，具有促进肠道蠕动的作用，利于排便，且能促进胰腺分泌，帮助消化。对于痔疮、慢性胰腺炎、便秘、肛裂等病症有治疗作用。
+            2.促进生长发育、增强抗病能力
+            菠菜中所含的胡萝卜素，在人体内转变成维生素A，能维护正常视力和上皮细胞的健康，增加预防传染病的能力，促进儿童生长发育。
+            3.保障营养、增进健康
+            菠菜中含有丰富的胡萝卜素、维生素C、钙、磷及一定量的铁、维生素E等有益成分，能供给人体多种营养物质;其所含铁质，对缺铁性贫血有较好的辅助治疗作用。
+            4.促进人体新陈代谢
+            菠菜中所含微量元素物质，能促进人体新陈代谢，增进身体健康。大量食用菠菜，可降低中风的危险。
+            5.清洁皮肤、抗衰老
+            菠菜提取物具有促进培养细胞增殖的作用，既抗衰老又能增强青春活力。我国民间以菠菜捣烂取汁，每周洗脸数次，连续使用一段时间，可清洁皮肤毛孔，减少皱纹及色素斑，保持皮肤光洁。
+        </rawdata>
+
+        <segment>
+            通  肠  导便  、  防治  痔疮
+            菠菜  含有  大量  的  植物  粗  纤维  ，  具有  促进  肠道  蠕动  的  作用  ，  利于  排便  ，  且  能  促进  胰腺  分泌  ，  帮助  消化  。  对于  痔疮  、  慢性  胰腺炎  、  便秘  、  肛裂  等  病症  有  治疗  作用  。
+            促进  生长  发育  、  增强  抗病  能力
+            菠菜  中  所  含  的  胡萝卜素  ，  在  人体  内转  变成  维生素A  ，  能  维护  正常  视力  和  上皮  细胞  的  健康  ，  增加  预防  传染病  的  能力  ，  促进  儿童  生长  发育  。
+            保障  营养  、  增进  健康
+            菠菜  中  含有  丰富  的  胡萝卜素  、  维生素C  、  钙  、  磷  及  一定量  的  铁  、  维生素E  等  有益  成分  ，  能  供给  人体  多  种  营养  物质  ;  其所  含铁质  ，  对  缺  铁  性  贫血  有  较好  的  辅助  治疗  作用  。
+            促进  人体  新陈代谢
+            菠菜  中  所  含  微量  元素  物质  ，  能  促进  人体  新陈代谢  ，  增进  身体  健康  。  大量  食用  菠菜  ，  可  降低  中风  的  危险  。
+            清洁  皮肤  、  抗  衰老
+            菠菜  提  取物  具有  促进  培养  细胞  增殖  的  作用  ，  既  抗  衰老  又  能  增强  青春  活力  。  我国  民间  以  菠菜  捣烂  取汁  ，  每  周  洗脸  数次  ，  连续  使用  一  段  时间  ，  可  清洁  皮肤  毛孔  ，  减少  皱纹  及  色素  斑  ，  保持  皮肤  光洁  。
+        </segment>
+
+        <pos>
+            通#VV  肠#NN  导便#NN  、#PU  防治#NN  痔疮#NN
+            菠菜#AD  含有#VV  大量#CD  的#DEG  植物#NN  粗#NN  纤维#NN  ，#PU  具有#VV  促进#VV  肠道#NN  蠕动#NN  的#DEC  作用#NN  ，#PU  利于#VV  排便#NN  ，#PU  且#CC  能#VV  促进#VV  胰腺#NN  分泌#NN  ，#PU  帮助#VV  消化#NN    。#PU  对于#P  痔疮#NR  、#PU  慢性#NR  胰腺炎#NR  、#PU  便秘#NR  、#PU  肛裂#NR  等#ETC  病症#NN  有#VE  治疗#NN  作用#NN    。#PU    。#PU
+            促进#VV  生长#NN  发育#NN  、#PU  增强#VV  抗病#NN  能力#NN
+            菠菜#NN  中#LC  所#MSP  含#VV  的#DEC  胡萝卜素#NN  ，#PU  在#P  人体#NN  内转#NN  变成#VV  维生素A#NN  ，#PU  能#VV  维护#VV  正常#JJ  视力#NN  和#CC  上皮#NN  细胞#NN  的#DEG  健康#NN  ，#PU  增加#VV  预防#VV  传染病#NN  的#DEC  能力#NN  ，#PU  促进#VV  儿童#NN  生长#NN  发育#NN  。#PU
+            保障#NN  营养#VA  、#PU  增进#VV  健康#VA
+            菠菜#NN  中#LC  含有#AD  丰富#VA  的#DEC  胡萝卜素#NN  、#PU  维生素C#NN  、#PU  钙#NN  、#PU  磷#NN  及#CC  一定量#CD  的#DEG  铁#NN  、#PU  维生素E#NN  等#ETC  有益#VA  成分#NN  ，#PU  能#VV  供给#NN  人体#NN  多#CD  种#M  营养#VA  物质#NN  ;#VV  其所#NN  含铁质#NN  ，#PU  对#P  缺#VV  铁#NN  性#NN  贫血#NN  有#VE  较好#JJ  的#DEG  辅助#NN  治疗#NN  作用#NN  。#PU
+            促进#VV  人体#NN  新陈代谢#NN
+            菠菜#NN  中#LC  所#MSP  含#VV  微量#NN  元素#NN  物质#NN  ，#PU  能#VV  促进#VV  人体#NN  新陈代谢#NN  ，#PU  增进#VV  身体#NN  健康#NN    。#PU  大量#AD  食用#VV  菠菜#NN  ，#PU  可#VV  降低#VV  中风#NN  的#DEG  危险#NN    。#PU    。#PU
+            清洁#NR  皮肤#NN  、#PU  抗#NN  衰老#NN
+            菠菜#NN  提#VV  取物#NN  具有#VV  促进#VV  培养#VV  细胞#NN  增殖#NN  的#DEC  作用#NN  ，#PU  既#CC  抗#NN  衰老#NN  又#AD  能#VV  增强#VV  青春#NN  活力#NN    。#PU  我国#NN  民间#NN  以#P  菠菜#NN  捣烂#VV  取汁#NN  ，#PU  每#DT  周#M  洗脸#VV  数次#NN  ，#PU  连续#AD  使用#VV  一#CD  段#M  时间#NN  ，#PU  可#VV  清洁#VV  皮肤#NN  毛孔#NN  ，#PU  减少#VV  皱纹#NN  及#CC  色素#NN  斑#NN  ，#PU  保持#VV  皮肤#NN  光洁#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 通#VV)  (nn, 痔疮#NN, 肠#NN)  (conj, 痔疮#NN, 导便#NN)  (nn, 痔疮#NN, 防治#NN)  (dobj, 通#VV, 痔疮#NN)
+            (advmod, 含有#VV, 菠菜#AD)  (root, ROOT#null, 含有#VV)  (assmod, 纤维#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 纤维#NN, 植物#NN)  (nn, 纤维#NN, 粗#NN)  (dobj, 含有#VV, 纤维#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (nn, 蠕动#NN, 肠道#NN)  (dobj, 促进#VV, 蠕动#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (conj, 含有#VV, 利于#VV)  (dobj, 利于#VV, 排便#NN)  (cc, 含有#VV, 且#CC)  (mmod, 促进#VV, 能#VV)  (conj, 含有#VV, 促进#VV)  (nn, 分泌#NN, 胰腺#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 含有#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)   (case, 病症#NN, 对于#P)  (conj, 肛裂#NR, 痔疮#NR)  (nn, 肛裂#NR, 慢性#NR)  (conj, 肛裂#NR, 胰腺炎#NR)  (conj, 肛裂#NR, 便秘#NR)  (nn, 病症#NN, 肛裂#NR)  (etc, 肛裂#NR, 等#ETC)  (prep, 有#VE, 病症#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)  (conj, 促进#VV, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)
+            (loc, 含#VV, 菠菜#NN)  (case, 菠菜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 胡萝卜素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 变成#VV, 胡萝卜素#NN)  (case, 内转#NN, 在#P)  (nn, 内转#NN, 人体#NN)  (prep, 变成#VV, 内转#NN)  (root, ROOT#null, 变成#VV)  (dobj, 变成#VV, 维生素A#NN)  (mmod, 维护#VV, 能#VV)  (conj, 变成#VV, 维护#VV)  (amod, 视力#NN, 正常#JJ)  (conj, 健康#NN, 视力#NN)  (cc, 健康#NN, 和#CC)  (nn, 细胞#NN, 上皮#NN)  (assmod, 健康#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 维护#VV, 健康#NN)  (conj, 变成#VV, 增加#VV)  (relcl, 能力#NN, 预防#VV)  (dobj, 预防#VV, 传染病#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 增加#VV, 能力#NN)  (conj, 变成#VV, 促进#VV)  (nn, 发育#NN, 儿童#NN)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)
+            (nsubj, 营养#VA, 保障#NN)  (root, ROOT#null, 营养#VA)  (dep, 营养#VA, 增进#VV)  (dep, 营养#VA, 健康#VA)
+            (loc, 有益#VA, 菠菜#NN)  (case, 菠菜#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 胡萝卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素E#NN, 胡萝卜素#NN)  (conj, 维生素E#NN, 维生素C#NN)  (conj, 维生素E#NN, 钙#NN)  (conj, 维生素E#NN, 磷#NN)  (cc, 维生素E#NN, 及#CC)  (assmod, 铁#NN, 一定量#CD)  (case, 一定量#CD, 的#DEG)  (conj, 维生素E#NN, 铁#NN)  (nsubj, 有益#VA, 维生素E#NN)  (etc, 维生素E#NN, 等#ETC)  (relcl, 成分#NN, 有益#VA)  (nsubj, ;#VV, 成分#NN)  (relcl, 物质#NN, 能#VV)  (nn, 人体#NN, 供给#NN)  (dobj, 能#VV, 人体#NN)  (nummod, 种#M, 多#CD)  (range, 能#VV, 种#M)  (conj, 能#VV, 营养#VA)  (nsubj, ;#VV, 物质#NN)  (root, ROOT#null, ;#VV)  (nn, 含铁质#NN, 其所#NN)  (dobj, ;#VV, 含铁质#NN)  (case, 缺#VV, 对#P)  (prep, 有#VE, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (conj, ;#VV, 有#VE)  (assmod, 作用#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 促进#VV, 新陈代谢#NN)
+            (loc, 含#VV, 菠菜#NN)  (case, 菠菜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (nn, 物质#NN, 微量#NN)  (nn, 物质#NN, 元素#NN)  (dobj, 含#VV, 物质#NN)  (mmod, 促进#VV, 能#VV)  (conj, 含#VV, 促进#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 含#VV, 增进#VV)  (nn, 健康#NN, 身体#NN)  (dobj, 增进#VV, 健康#NN)   (advmod, 食用#VV, 大量#AD)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 菠菜#NN)  (mmod, 降低#VV, 可#VV)  (dep, 食用#VV, 降低#VV)  (assmod, 危险#NN, 中风#NN)  (case, 中风#NN, 的#DEG)  (dobj, 降低#VV, 危险#NN)   (root, ROOT#null, null#null)
+            (nn, 衰老#NN, 清洁#NR)  (conj, 衰老#NN, 皮肤#NN)  (nn, 衰老#NN, 抗#NN)  (root, ROOT#null, 衰老#NN)
+            (nsubj, 提#VV, 菠菜#NN)  (root, ROOT#null, 提#VV)  (dobj, 提#VV, 取物#NN)  (conj, 提#VV, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (ccomp, 促进#VV, 培养#VV)  (nn, 增殖#NN, 细胞#NN)  (dobj, 培养#VV, 增殖#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (cc, 提#VV, 既#CC)  (nn, 衰老#NN, 抗#NN)  (nsubj, 增强#VV, 衰老#NN)  (advmod, 增强#VV, 又#AD)  (mmod, 增强#VV, 能#VV)  (conj, 提#VV, 增强#VV)  (nn, 活力#NN, 青春#NN)  (dobj, 增强#VV, 活力#NN)   (nn, 民间#NN, 我国#NN)  (nsubj, 捣烂#VV, 民间#NN)  (case, 菠菜#NN, 以#P)  (prep, 捣烂#VV, 菠菜#NN)  (root, ROOT#null, 捣烂#VV)  (dobj, 捣烂#VV, 取汁#NN)  (dep, 洗脸#VV, 每#DT)  (clf, 每#DT, 周#M)  (conj, 捣烂#VV, 洗脸#VV)  (dobj, 洗脸#VV, 数次#NN)  (advmod, 使用#VV, 连续#AD)  (conj, 捣烂#VV, 使用#VV)  (nummod, 段#M, 一#CD)  (clf, 时间#NN, 段#M)  (dobj, 使用#VV, 时间#NN)  (mmod, 清洁#VV, 可#VV)  (conj, 捣烂#VV, 清洁#VV)  (nn, 毛孔#NN, 皮肤#NN)  (dobj, 清洁#VV, 毛孔#NN)  (conj, 捣烂#VV, 减少#VV)  (conj, 斑#NN, 皱纹#NN)  (cc, 斑#NN, 及#CC)  (nn, 斑#NN, 色素#NN)  (dobj, 减少#VV, 斑#NN)  (conj, 捣烂#VV, 保持#VV)  (nn, 光洁#NN, 皮肤#NN)  (dobj, 保持#VV, 光洁#NN)
+        </parsing>
+
+        <tag>
+            导便  防治痔疮  植物纤维  含有纤维  肠道蠕动  促进蠕动  利于排便  胰腺分泌  促进分泌  帮助消化  肛裂  胰腺炎  便秘  生长发育  促进发育  抗病能力  增强能力  含胡萝卜素  人体内转  变成维生素A  正常视力  上皮细胞  维护健康  预防能力  预防传染病  增加能力  儿童发育  保障营养  胡萝卜素丰富  维生素C  维生素E有益  供给人体  人体新陈代谢  促进新陈代谢  身体健康  增进健康  食用  降低危险  衰老  细胞增殖  培养增殖  青春活力  增强活力  我国民间  捣烂取汁  洗脸数次  使用时间  皮肤毛孔  清洁毛孔  减少斑  皮肤光洁  保持光洁  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  明目  通便  平肝  润燥  止血  补血  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            菠菜中含有大量的β胡萝卜素和铁，也是维生素B6、叶酸、铁和钾的极佳来源。其中丰富的铁对缺铁性贫血有改善作用，能令人面色红润，光彩照人，因此被推崇为养颜佳品。菠菜叶中含有铬和一种类胰岛素样物质，其作用与胰岛素非常相似，能使血糖保持稳定。丰富的B族维生素含量使其能够防止口角炎、夜盲症等维生素缺乏症的发生。菠菜中含有大量的抗氧化剂如维生素E和硒元素，具有抗衰老、促进细胞增殖作用，既能激活大脑功能，又可增强青春活力，有助于防止大脑的老化，防止老年痴呆症。哈佛大学的一项研究还发现，每周食用2～4次菠菜的中老年人，因摄入了维生素A和胡萝卜素，可降低患视网膜退化的危险，从而保护视力。
+        </rawdata>
+
+        <segment>
+            菠菜  中  含有  大量  的  β  胡萝卜素  和  铁  ，  也  是  维生素  B  叶酸  、  铁  和  钾  的  极佳  来源  。  其中  丰富  的  铁  对  缺  铁  性  贫血  有  改善  作用  ，  能  令  人  面色  红润  ，  光彩  照人  ，  因此  被  推崇  为  养颜  佳品  。  菠菜  叶  中  含有  铬  和  一  种  类  胰岛素  样  物质  ，  其  作用  与  胰岛素  非常  相似  ，  能  使  血糖  保持  稳定  。  丰富  的  B  族  维生素  含量  使  其  能够  防止  口角炎  、  夜盲症  等  维生素  缺乏症  的  发生  。  菠菜  中  含有  大量  的  抗氧化剂  如  维生素E  和硒  元素  ，  具有  抗  衰老  、  促进  细胞  增殖  作用  ，  既  能  激活  大脑  功能  ，  又  可  增强  青春  活力  ，  有助于  防止  大脑  的  老化  ，  防止  老年  痴呆症  。  哈佛  大学  的  一  项  研究  还  发现  ，  每  周  食用  2  ～  4  次  菠菜  的  中老年人  ，  因  摄入  了  维生素A  和  胡萝卜素  ，  可  降低  患  视网膜  退化  的  危险  ，  从而  保护  视力  。
+        </segment>
+
+        <pos>
+            菠菜#NN  中#LC  含有#VV  大量#CD  的#DEG  β#NN  胡萝卜素#NN  和#CC  铁#NN  ，#PU  也#AD  是#VC  维生素#NN  B#NN  叶酸#NN  、#PU  铁#NN  和#CC  钾#NN  的#DEG  极佳#JJ  来源#NN    。#PU  其中#NN  丰富#VA  的#DEC  铁#NN  对#P  缺#VV  铁#NN  性#NN  贫血#NN  有#VE  改善#NN  作用#NN  ，#PU  能#VV  令#VV  人#NN  面色#VV  红润#NN  ，#PU  光彩#NN  照人#NN  ，#PU  因此#AD  被#SB  推崇#VV  为#P  养颜#NN  佳品#NN    。#PU  菠菜#VV  叶#NR  中#NR  含有#NN  铬#NN  和#CC  一#CD  种#M  类#NN  胰岛素#NN  样#NN  物质#NN  ，#PU  其#PN  作用#NN  与#P  胰岛素#NN  非常#AD  相似#VA  ，#PU  能#VV  使#VV  血糖#NN  保持#VV  稳定#NN    。#PU  丰富#VA  的#DEC  B#NN  族#NN  维生素#NN  含量#NN  使#VV  其#PN  能够#VV  防止#VV  口角炎#NR  、#PU  夜盲症#NR  等#ETC  维生素#NN  缺乏症#NN  的#DEG  发生#NN    。#PU  菠菜#NN  中#LC  含有#VV  大量#CD  的#DEG  抗氧化剂#NN  如#AD  维生素E#NN  和硒#VV  元素#NN  ，#PU  具有#VV  抗#NN  衰老#NN  、#PU  促进#VV  细胞#NN  增殖#NN  作用#NN  ，#PU  既#CC  能#VV  激活#VV  大脑#NN  功能#NN  ，#PU  又#AD  可#VV  增强#VV  青春#NN  活力#NN  ，#PU  有助于#VV  防止#VV  大脑#NN  的#DEG  老化#NN  ，#PU  防止#VV  老年#VV  痴呆症#NN    。#PU  哈佛#NR  大学#NN  的#DEG  一#CD  项#M  研究#NN  还#AD  发现#VV  ，#PU  每#DT  周#M  食用#VV  2#CD  ～#NN  4#CD  次#M  菠菜#NN  的#DEG  中老年人#NN  ，#PU  因#P  摄入#VV  了#AS  维生素A#NN  和#CC  胡萝卜素#NN  ，#PU  可#VV  降低#VV  患#NN  视网膜#NN  退化#VV  的#DEC  危险#NN  ，#PU  从而#AD  保护#VV  视力#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 菠菜#NN)  (case, 菠菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 铁#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 铁#NN, β#NN)  (conj, 铁#NN, 胡萝卜素#NN)  (cc, 铁#NN, 和#CC)  (dobj, 含有#VV, 铁#NN)  (advmod, 来源#NN, 也#AD)  (cop, 来源#NN, 是#VC)  (nn, 钾#NN, 维生素#NN)  (nn, 钾#NN, B#NN)  (conj, 钾#NN, 叶酸#NN)  (conj, 钾#NN, 铁#NN)  (cc, 钾#NN, 和#CC)  (assmod, 来源#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (amod, 来源#NN, 极佳#JJ)  (conj, 含有#VV, 来源#NN)   (nsubj, 丰富#VA, 其中#NN)  (relcl, 铁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 有#VE, 铁#NN)  (case, 缺#VV, 对#P)  (prep, 有#VE, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 改善#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 令#VV, 能#VV)  (conj, 有#VE, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 面色#VV)  (dobj, 面色#VV, 红润#NN)  (nn, 照人#NN, 光彩#NN)  (dep, 推崇#VV, 照人#NN)  (advmod, 推崇#VV, 因此#AD)  (auxpass, 推崇#VV, 被#SB)  (conj, 有#VE, 推崇#VV)  (case, 佳品#NN, 为#P)  (nn, 佳品#NN, 养颜#NN)  (prep, 推崇#VV, 佳品#NN)   (root, ROOT#null, 菠菜#VV)  (nn, 铬#NN, 叶#NR)  (nn, 铬#NN, 中#NR)  (nn, 铬#NN, 含有#NN)  (conj, 物质#NN, 铬#NN)  (cc, 物质#NN, 和#CC)  (nummod, 种#M, 一#CD)  (clf, 胰岛素#NN, 种#M)  (nn, 胰岛素#NN, 类#NN)  (nn, 物质#NN, 胰岛素#NN)  (nn, 物质#NN, 样#NN)  (dobj, 菠菜#VV, 物质#NN)  (nn, 作用#NN, 其#PN)  (dep, 相似#VA, 作用#NN)  (case, 胰岛素#NN, 与#P)  (prep, 相似#VA, 胰岛素#NN)  (advmod, 相似#VA, 非常#AD)  (conj, 菠菜#VV, 相似#VA)  (mmod, 使#VV, 能#VV)  (conj, 菠菜#VV, 使#VV)  (dobj, 使#VV, 血糖#NN)  (dep, 使#VV, 保持#VV)  (dobj, 保持#VV, 稳定#NN)   (relcl, 含量#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nn, 含量#NN, 维生素#NN)  (nsubj, 使#VV, 含量#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 其#PN)  (mmod, 防止#VV, 能够#VV)  (dep, 使#VV, 防止#VV)  (conj, 夜盲症#NR, 口角炎#NR)  (nn, 缺乏症#NN, 夜盲症#NR)  (etc, 夜盲症#NR, 等#ETC)  (nn, 缺乏症#NN, 维生素#NN)  (assmod, 发生#NN, 缺乏症#NN)  (case, 缺乏症#NN, 的#DEG)  (dobj, 防止#VV, 发生#NN)   (loc, 含有#VV, 菠菜#NN)  (case, 菠菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 抗氧化剂#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 抗氧化剂#NN)  (advmod, 和硒#VV, 如#AD)  (nsubj, 和硒#VV, 维生素E#NN)  (dep, 含有#VV, 和硒#VV)  (dobj, 和硒#VV, 元素#NN)  (conj, 和硒#VV, 具有#VV)  (nn, 衰老#NN, 抗#NN)  (dobj, 具有#VV, 衰老#NN)  (conj, 和硒#VV, 促进#VV)  (nn, 作用#NN, 细胞#NN)  (nn, 作用#NN, 增殖#NN)  (dobj, 促进#VV, 作用#NN)  (cc, 和硒#VV, 既#CC)  (mmod, 激活#VV, 能#VV)  (conj, 和硒#VV, 激活#VV)  (nn, 功能#NN, 大脑#NN)  (dobj, 激活#VV, 功能#NN)  (advmod, 增强#VV, 又#AD)  (mmod, 增强#VV, 可#VV)  (conj, 和硒#VV, 增强#VV)  (nn, 活力#NN, 青春#NN)  (dobj, 增强#VV, 活力#NN)  (conj, 和硒#VV, 有助于#VV)  (ccomp, 有助于#VV, 防止#VV)  (assmod, 老化#NN, 大脑#NN)  (case, 大脑#NN, 的#DEG)  (dobj, 防止#VV, 老化#NN)  (conj, 和硒#VV, 防止#VV)  (ccomp, 防止#VV, 老年#VV)  (dobj, 老年#VV, 痴呆症#NN)   (nn, 大学#NN, 哈佛#NR)  (assmod, 研究#NN, 大学#NN)  (case, 大学#NN, 的#DEG)  (nummod, 项#M, 一#CD)  (clf, 研究#NN, 项#M)  (nsubj, 发现#VV, 研究#NN)  (advmod, 发现#VV, 还#AD)  (root, ROOT#null, 发现#VV)  (det, 危险#NN, 每#DT)  (clf, 每#DT, 周#M)  (relcl, 危险#NN, 食用#VV)  (nummod, ～#NN, 2#CD)  (nummod, 次#M, 4#CD)  (clf, 菠菜#NN, 次#M)  (assmod, 中老年人#NN, 菠菜#NN)  (case, 菠菜#NN, 的#DEG)  (dobj, 食用#VV, 中老年人#NN)  (case, 摄入#VV, 因#P)  (prep, 退化#VV, 摄入#VV)  (asp, 摄入#VV, 了#AS)  (conj, 胡萝卜素#NN, 维生素A#NN)  (cc, 胡萝卜素#NN, 和#CC)  (dobj, 摄入#VV, 胡萝卜素#NN)  (mmod, 降低#VV, 可#VV)  (conj, 摄入#VV, 降低#VV)  (nn, 视网膜#NN, 患#NN)  (dobj, 降低#VV, 视网膜#NN)  (conj, 食用#VV, 退化#VV)  (mark, 食用#VV, 的#DEC)  (nsubj, 保护#VV, 危险#NN)  (advmod, 保护#VV, 从而#AD)  (ccomp, 发现#VV, 保护#VV)  (dobj, 保护#VV, 视力#NN)
+        </parsing>
+
+        <tag>
+            含有铁  极佳来源  铁丰富  面色红润  光彩照人  养颜佳品  保持稳定  夜盲症  口角炎  维生素缺乏症  含有抗氧化剂  大脑功能  激活功能  青春活力  增强活力  防止老化  老年痴呆症  食用危险  食用中老年人  维生素A  摄入胡萝卜素  降低视网膜  保护视力  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            菠菜含有草酸，草酸与钙质结合易形成，草酸钙，它会影响人体对钙的吸收。在吃菠菜前，可先用开水烫一下或用水煮一下，然后再凉拌、炒食或做汤，这样既可保全菠菜的营养成分，又除掉了80%以上的草酸。
+        </rawdata>
+
+        <segment>
+            菠菜  含有  草酸  ，  草酸  与  钙质  结合  易  形成  ，  草酸  钙  ，  它  会  影响  人体  对  钙  的  吸收  。  在  吃  菠菜  前  ，  可  先用  开水  烫  一下  或用  水煮  一下  ，  然后  再  凉拌  、  炒  食  或  做  汤  ，  这样  既  可  保全  菠菜  的  营养  成分  ，  又  除掉  了  80%  以上  的  草酸  。
+        </segment>
+
+        <pos>
+            菠菜#NN  含有#NN  草酸#VV  ，#PU  草酸#NN  与#P  钙质#NN  结合#VV  易#AD  形成#VV  ，#PU  草酸#VV  钙#NN  ，#PU  它#PN  会#VV  影响#VV  人体#NR  对#P  钙#NN  的#DEG  吸收#NN    。#PU  在#P  吃#VV  菠菜#NN  前#LC  ，#PU  可#VV  先用#VV  开水#NN  烫#VV  一下#AD  或用#AD  水煮#VV  一下#AD  ，#PU  然后#AD  再#AD  凉拌#VV  、#PU  炒#VV  食#NN  或#CC  做#VV  汤#NN  ，#PU  这样#AD  既#CC  可#VV  保全#NN  菠菜#NN  的#DEG  营养#VA  成分#NN  ，#PU  又#AD  除掉#VV  了#AS  80#CD  %#NN  以上#LC  的#DEG  草酸#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 菠菜#NN)  (nsubj, 草酸#VV, 含有#NN)  (root, ROOT#null, 草酸#VV)  (nsubj, 结合#VV, 草酸#NN)  (case, 钙质#NN, 与#P)  (prep, 结合#VV, 钙质#NN)  (ccomp, 草酸#VV, 结合#VV)  (advmod, 形成#VV, 易#AD)  (conj, 结合#VV, 形成#VV)  (dep, 结合#VV, 草酸#VV)  (dobj, 草酸#VV, 钙#NN)  (nsubj, 影响#VV, 它#PN)  (mmod, 影响#VV, 会#VV)  (conj, 结合#VV, 影响#VV)  (nn, 吸收#NN, 人体#NR)  (case, 钙#NN, 对#P)  (assmod, 吸收#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (dobj, 影响#VV, 吸收#NN)   (case, 吃#VV, 在#P)  (prep, 先用#VV, 吃#VV)  (dobj, 吃#VV, 菠菜#NN)  (case, 吃#VV, 前#LC)  (mmod, 先用#VV, 可#VV)  (root, ROOT#null, 先用#VV)  (dobj, 先用#VV, 开水#NN)  (mmod, 水煮#VV, 烫#VV)  (advmod, 水煮#VV, 一下#AD)  (advmod, 水煮#VV, 或用#AD)  (conj, 先用#VV, 水煮#VV)  (advmod, 水煮#VV, 一下#AD)  (advmod, 凉拌#VV, 然后#AD)  (advmod, 凉拌#VV, 再#AD)  (dep, 水煮#VV, 凉拌#VV)  (conj, 先用#VV, 炒#VV)  (dobj, 炒#VV, 食#NN)  (cc, 先用#VV, 或#CC)  (conj, 先用#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (advmod, 可#VV, 这样#AD)  (cc, 可#VV, 既#CC)  (conj, 先用#VV, 可#VV)  (nn, 菠菜#NN, 保全#NN)  (assmod, 成分#NN, 菠菜#NN)  (case, 菠菜#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 可#VV, 成分#NN)  (advmod, 除掉#VV, 又#AD)  (conj, 可#VV, 除掉#VV)  (asp, 除掉#VV, 了#AS)  (nummod, %#NN, 80#CD)  (assmod, 草酸#NN, %#NN)  (case, %#NN, 以上#LC)  (case, %#NN, 的#DEG)  (dobj, 除掉#VV, 草酸#NN)
+        </parsing>
+
+        <tag>
+            草酸钙  影响吸收  先用开水  除掉草酸  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051944228300.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\155 菠菜.jpg
+    </picturelocalurl>
+
+</content>

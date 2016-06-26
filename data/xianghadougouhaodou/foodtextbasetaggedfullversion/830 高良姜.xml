@@ -1,0 +1,174 @@
+<content>
+
+    <id>
+        830
+    </id>
+
+    <foodname>
+        高良姜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        高凉姜、很姜、蛮姜、小良姜、海良姜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阴虚有热者禁服
+        </rawdata>
+
+        <segment>
+            阴虚  有  热者  禁服
+        </segment>
+
+        <pos>
+            阴虚#AD  有#VE  热者#NN  禁服#NN
+        </pos>
+
+        <parsing>
+            (advmod, 有#VE, 阴虚#AD)  (root, ROOT#null, 有#VE)  (nn, 禁服#NN, 热者#NN)  (dobj, 有#VE, 禁服#NN)
+        </parsing>
+
+        <tag>
+            阴虚  热者禁服  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阴虚质、湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阴虚  质  、  湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阴虚#NN  质#NN  、#PU  湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阴虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阴虚质  湿热质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            根茎含有高良姜素、山柰、皮素、及挥发油。高良姜的辛辣成分为高良姜酚。
+        </rawdata>
+
+        <segment>
+            根茎  含有  高良姜  素  、  山柰  、  皮素  、  及  挥发油  。  高良姜  的  辛辣  成分  为  高良  姜酚  。
+        </segment>
+
+        <pos>
+            根茎#NN  含有#NN  高良姜#VV  素#AD  、#PU  山柰#AD  、#PU  皮素#AD  、#PU  及#CC  挥发油#VV    。#PU  高良姜#NN  的#DEG  辛辣#NN  成分#NN  为#P  高良#NN  姜酚#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 根茎#NN)  (dep, 高良姜#VV, 含有#NN)  (root, ROOT#null, 高良姜#VV)  (advmod, 高良姜#VV, 素#AD)  (conj, 素#AD, 山柰#AD)  (conj, 素#AD, 皮素#AD)  (cc, 高良姜#VV, 及#CC)  (conj, 高良姜#VV, 挥发油#VV)   (assmod, 成分#NN, 高良姜#NN)  (case, 高良姜#NN, 的#DEG)  (nn, 成分#NN, 辛辣#NN)  (nsubj, 姜酚#VV, 成分#NN)  (case, 高良#NN, 为#P)  (prep, 姜酚#VV, 高良#NN)  (root, ROOT#null, 姜酚#VV)
+        </parsing>
+
+        <tag>
+            根茎含有  姜酚  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            辛，热。归脾、胃经。温胃散寒，消食止痛。用于脘腹冷痛，胃寒呕吐，嗳气吞酸。
+        </rawdata>
+
+        <segment>
+            辛  ，  热  。  归脾  、  胃经  。  温胃  散寒  ，  消食  止痛  。  用于  脘腹冷痛  ，  胃寒  呕吐  ，  嗳气  吞酸  。
+        </segment>
+
+        <pos>
+            辛#VV  ，#PU  热#NN    。#PU  归脾#VA  、#PU  胃经#VA    。#PU  温胃#NR  散寒#VV  ，#PU  消食#VV  止痛#NN    。#PU  用于#VV  脘腹冷痛#NN  ，#PU  胃寒#VV  呕吐#NN  ，#PU  嗳气#VV  吞酸#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 辛#VV)  (dep, 辛#VV, 热#NN)   (root, ROOT#null, 归脾#VA)  (dep, 归脾#VA, 胃经#VA)   (nsubj, 散寒#VV, 温胃#NR)  (root, ROOT#null, 散寒#VV)  (ccomp, 散寒#VV, 消食#VV)  (dobj, 消食#VV, 止痛#NN)   (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 脘腹冷痛#NN)  (conj, 用于#VV, 胃寒#VV)  (dobj, 胃寒#VV, 呕吐#NN)  (conj, 用于#VV, 嗳气#VV)  (dobj, 嗳气#VV, 吞酸#NN)
+        </parsing>
+
+        <tag>
+            散寒  消食止痛  用于脘腹冷痛  胃寒呕吐  嗳气吞酸  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        温中  行气止痛  镇痛  耐缺氧  抗血栓  止泻  抗胃溃疡  利胆  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含有高良姜素（Galangin）、山柰（Kaempferide）、皮素（Quercetin）及挥发油。油的主要成分为1,8-桉叶素（1,8-Cineole）和桂皮酸甲脂（Methyl cinnamate）。高良姜的辛辣成分为高良姜酚（Galangol）。有温脾胃、祛风寒、行气止痛的作用。
+        </rawdata>
+
+        <segment>
+            含有  高良姜  素  （  Galangin  ）  、  山柰  （  Kaempferide  ）  、  皮素  （  Quercetin  ）  及  挥发油  。  油  的  主要  成分  为  1  ,  8-桉叶素  （  1  ,  8-Cineole  ）  和  桂皮酸  甲脂  （  Methyl  cinnamate  ）  。  高良姜  的  辛辣  成分  为  高良姜  酚  （  Galangol  ）  。  有  温  脾胃  、  祛风寒  、  行气  止痛  的  作用  。
+        </segment>
+
+        <pos>
+            含有#VV  高良姜#VV  素#AD  （#PU  Galangin#NN  ）#PU  、#PU  山柰#NN  （#PU  Kaempferide#NN  ）#PU  、#PU  皮素#NN  （#PU  Quercetin#NR  ）#PU  及#CC  挥发油#VV    。#PU  油#NN  的#DEG  主要#JJ  成分#NN  为#VC  1#CD  ,#VV  8-桉叶素#CD  （#PU  1#CD  ,#NN  8-Cineole#CD  ）#PU  和#CC  桂皮酸#VV  甲脂#CD  （#PU  Methyl#AD  cinnamate#VV  ）#PU    。#PU  高良姜#NN  的#DEG  辛辣#NN  成分#NN  为#VC  高良姜#NN  酚#NN  （#PU  Galangol#VV  ）#PU    。#PU  有#VE  温#NN  脾胃#NR  、#PU  祛风寒#NR  、#PU  行气#NR  止痛#NN  的#DEG  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含有#VV)  (nfincl, Galangin#NN, 高良姜#VV)  (advmod, 高良姜#VV, 素#AD)  (conj, 皮素#NN, Galangin#NN)  (nn, 皮素#NN, 山柰#NN)  (prnmod, 皮素#NN, Kaempferide#NN)  (dobj, 含有#VV, 皮素#NN)  (prnmod, 皮素#NN, Quercetin#NR)  (cc, 含有#VV, 及#CC)  (conj, 含有#VV, 挥发油#VV)   (assmod, 成分#NN, 油#NN)  (case, 油#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 为#VC, 成分#NN)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 1#CD)  (range, ,#VV, 8-桉叶素#CD)  (nsubj, ,#NN, 1#CD)  (range, ,#NN, 8-Cineole#CD)  (cc, ,#VV, 和#CC)  (conj, ,#VV, 桂皮酸#VV)  (range, 桂皮酸#VV, 甲脂#CD)  (advmod, cinnamate#VV, Methyl#AD)  (dep, 桂皮酸#VV, cinnamate#VV)   (assmod, 成分#NN, 高良姜#NN)  (case, 高良姜#NN, 的#DEG)  (nn, 成分#NN, 辛辣#NN)  (nsubj, 酚#NN, 成分#NN)  (cop, 酚#NN, 为#VC)  (nn, 酚#NN, 高良姜#NN)  (root, ROOT#null, 酚#NN)  (dep, 酚#NN, Galangol#VV)   (root, ROOT#null, 有#VE)  (nn, 止痛#NN, 温#NN)  (conj, 行气#NR, 脾胃#NR)  (conj, 行气#NR, 祛风寒#NR)  (nn, 止痛#NN, 行气#NR)  (assmod, 作用#NN, 止痛#NN)  (case, 止痛#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            Galangin  山柰皮素  含有皮素  行气  脾胃  祛风寒  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            凡中焦寒凝，或冷物所伤，脘腹冷痛者，可与干姜同用；若脾胃虚弱而脘腹冷痛者，可与人参、白术配伍，以补虚温中止痛。若痰饮内停而致呕吐清水痰涎者，可与党参、胃肠饮组合。凡肝郁气滞，胃有寒凝，症见脘腹疼痛者可与香附组合
+        </rawdata>
+
+        <segment>
+            凡  中焦  寒凝  ，  或  冷物  所伤  ，  脘腹冷痛者  ，  可  与  干姜  同用  ；  若  脾胃  虚弱  而  脘腹冷痛者  ，  可  与  人参  、  白术  配伍  ，  以  补  虚  温  中  止痛  。  若痰  饮  内  停  而  致  呕吐  清水  痰涎者  ，  可  与  党参  、  胃肠  饮  组合  。  凡  肝郁  气滞  ，  胃有  寒凝  ，  症见脘腹  疼痛  者  可  与  香附  组合
+        </segment>
+
+        <pos>
+            凡#AD  中焦#NN  寒凝#VV  ，#PU  或#CC  冷物#VV  所伤#NN  ，#PU  脘腹冷痛者#VV  ，#PU  可#VV  与#P  干姜#NN  同用#VV  ；#PU  若#CS  脾胃#VV  虚弱#NN  而#CC  脘腹冷痛者#NN  ，#PU  可#VV  与#P  人参#NR  、#PU  白术#NR  配伍#VV  ，#PU  以#MSP  补#VV  虚#AD  温#NN  中#LC  止痛#VV    。#PU  若痰#NN  饮#NN  内#LC  停#VV  而#MSP  致#VV  呕吐#NN  清水#NN  痰涎者#NN  ，#PU  可#VV  与#P  党参#NN  、#PU  胃肠#NN  饮#VV  组合#NN    。#PU  凡#AD  肝郁#NN  气滞#VV  ，#PU  胃有#NN  寒凝#NN  ，#PU  症见脘腹#VV  疼痛#NN  者#NN  可#VV  与#CC  香附#VV  组合#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 中焦#NN, 凡#AD)  (nsubj, 寒凝#VV, 中焦#NN)  (xsubj, 止痛#VV, 中焦#NN)  (root, ROOT#null, 寒凝#VV)  (cc, 冷物#VV, 或#CC)  (conj, 止痛#VV, 冷物#VV)  (dobj, 冷物#VV, 所伤#NN)  (conj, 冷物#VV, 脘腹冷痛者#VV)  (mmod, 同用#VV, 可#VV)  (case, 干姜#NN, 与#P)  (prep, 同用#VV, 干姜#NN)  (conj, 冷物#VV, 同用#VV)  (advmod, 脾胃#VV, 若#CS)  (conj, 冷物#VV, 脾胃#VV)  (conj, 脘腹冷痛者#NN, 虚弱#NN)  (cc, 脘腹冷痛者#NN, 而#CC)  (dobj, 脾胃#VV, 脘腹冷痛者#NN)  (mmod, 配伍#VV, 可#VV)  (case, 白术#NR, 与#P)  (conj, 白术#NR, 人参#NR)  (prep, 配伍#VV, 白术#NR)  (conj, 冷物#VV, 配伍#VV)  (prtmod, 补#VV, 以#MSP)  (conj, 冷物#VV, 补#VV)  (advmod, 止痛#VV, 虚#AD)  (loc, 止痛#VV, 温#NN)  (case, 温#NN, 中#LC)  (ccomp, 寒凝#VV, 止痛#VV)   (nsubj, 停#VV, 若痰#NN)  (xsubj, 致#VV, 若痰#NN)  (loc, 停#VV, 饮#NN)  (case, 饮#NN, 内#LC)  (root, ROOT#null, 停#VV)  (prtmod, 致#VV, 而#MSP)  (ccomp, 停#VV, 致#VV)  (nn, 痰涎者#NN, 呕吐#NN)  (nn, 痰涎者#NN, 清水#NN)  (dobj, 致#VV, 痰涎者#NN)  (mmod, 饮#VV, 可#VV)  (case, 胃肠#NN, 与#P)  (conj, 胃肠#NN, 党参#NN)  (prep, 饮#VV, 胃肠#NN)  (dep, 停#VV, 饮#VV)  (dobj, 饮#VV, 组合#NN)   (advmod, 肝郁#NN, 凡#AD)  (nsubj, 气滞#VV, 肝郁#NN)  (root, ROOT#null, 气滞#VV)  (nn, 寒凝#NN, 胃有#NN)  (nsubj, 症见脘腹#VV, 寒凝#NN)  (ccomp, 气滞#VV, 症见脘腹#VV)  (nn, 者#NN, 疼痛#NN)  (dobj, 症见脘腹#VV, 者#NN)  (dep, 症见脘腹#VV, 可#VV)  (cc, 症见脘腹#VV, 与#CC)  (conj, 症见脘腹#VV, 香附#VV)  (dobj, 香附#VV, 组合#NN)
+        </parsing>
+
+        <tag>
+            冷物所伤  虚弱  脾胃脘腹冷痛者  白术  人参  呕吐痰涎者  清水痰涎者  胃肠  党参  气滞  胃有寒凝  症见脘腹者  香附组合  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/68/41/82280_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\830 高良姜.jpg
+    </picturelocalurl>
+
+</content>

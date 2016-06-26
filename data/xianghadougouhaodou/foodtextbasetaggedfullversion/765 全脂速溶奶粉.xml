@@ -1,0 +1,122 @@
+<content>
+
+    <id>
+        765
+    </id>
+
+    <foodname>
+        全脂速溶奶粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            奶粉是将牛奶除去水分后制成的粉末，它适宜保存。
+        </rawdata>
+
+        <segment>
+            奶粉  是  将  牛奶  除去  水分  后  制成  的  粉末  ，  它  适宜  保存  。
+        </segment>
+
+        <pos>
+            奶粉#NN  是#VC  将#BA  牛奶#NN  除去#P  水分#NN  后#LC  制成#VV  的#DEC  粉末#NN  ，#PU  它#PN  适宜#VV  保存#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 粉末#NN, 奶粉#NN)  (cop, 粉末#NN, 是#VC)  (ba, 制成#VV, 将#BA)  (nsubj, 制成#VV, 牛奶#NN)  (case, 水分#NN, 除去#P)  (prep, 制成#VV, 水分#NN)  (case, 水分#NN, 后#LC)  (relcl, 粉末#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (root, ROOT#null, 粉末#NN)  (nsubj, 适宜#VV, 它#PN)  (conj, 粉末#NN, 适宜#VV)  (dobj, 适宜#VV, 保存#NN)
+        </parsing>
+
+        <tag>
+            制成粉末  适宜保存  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            奶粉中的5大营养成份的功效
+            1.蛋白质：供给机体营养;
+            2.脂肪：供给机体营养及能量，提供牛奶浓香;
+            3.糖类：牛奶中含有乳糖，乳糖对于幼儿发育非常重要，它能促进人体肠道内有益菌的成长，仰制肠内异常发酵，有利肠道健康;
+            4.矿物质：矿物质又称无机盐，是人体构成不可缺少的物质，包含钙、铁、磷、锌、铜、锰、钼等，特别是含钙丰富，且钙磷比例合理，吸收率高;
+            5.维生素：牛奶中含有已知的所有维生素，其作用：维生素A促进正常生长与繁殖维持上皮组织与视力；维生素B参与体内糖及能量代谢；维生素C抗坏血病；维生素D能调节各代谢骨骼组织中的造骨细胞的钙化能力；维生素E抗氧化衰老。
+        </rawdata>
+
+        <segment>
+            奶粉  中  的  5  大  营养  成份  的  功效
+            蛋白质  ：  供给  机体  营养  ;
+            脂肪  ：  供给  机体  营养  及  能量  ，  提供  牛奶  浓香  ;
+            糖类  ：  牛奶  中  含有  乳糖  ，  乳糖  对于  幼儿  发育  非常  重要  ，  它  能  促进  人体  肠道  内  有  益菌  的  成长  ，  仰制  肠内  异常  发酵  ，  有利  肠道  健康  ;
+            矿物质  ：  矿物质  又  称  无机盐  ，  是  人体  构成  不可缺少  的  物质  ，  包含  钙  、  铁  、  磷  、  锌  、  铜  、  锰  、  钼等  ，  特别是  含钙  丰富  ，  且  钙  磷  比例  合理  ，  吸收率  高  ;
+            维生素  ：  牛奶  中  含有  已知  的  所有  维生素  ，  其  作用  ：  维生素A  促进  正常  生长  与  繁殖  维持  上皮  组织  与  视力  ；  维生素  B  参与  体内  糖  及  能量  代谢  ；  维生素C  抗  坏血病  ；  维生素D  能  调节  各  代谢  骨骼  组织  中  的  造  骨  细胞  的  钙化  能力  ；  维生素E  抗氧化  衰老  。
+        </segment>
+
+        <pos>
+            奶粉#NN  中#LC  的#DEG  5#CD  大#JJ  营养#VA  成份#NN  的#DEG  功效#NN
+            蛋白质#VV  ：#PU  供给#NN  机体#NN  营养#VA  ;#VV
+            脂肪#VV  ：#PU  供给#NN  机体#NN  营养#VA  及#CC  能量#NN  ，#PU  提供#VV  牛奶#NN  浓香#NN  ;#NN
+            糖类#VV  ：#PU  牛奶#NN  中#LC  含有#AD  乳糖#VA  ，#PU  乳糖#NN  对于#P  幼儿#NN  发育#NN  非常#AD  重要#VA  ，#PU  它#PN  能#VV  促进#VV  人体#NN  肠道#NN  内#LC  有#VE  益菌#NN  的#DEC  成长#NN  ，#PU  仰制#NN  肠内#NN  异常#VA  发酵#NN  ，#PU  有利#JJ  肠道#NN  健康#AD  ;#VV
+            矿物质#NR  ：#PU  矿物质#NR  又#AD  称#VV  无机盐#NN  ，#PU  是#VC  人体#AD  构成#VV  不可缺少#NN  的#DEC  物质#NN  ，#PU  包含#VV  钙#NN  、#PU  铁#NN  、#PU  磷#NN  、#PU  锌#NN  、#PU  铜#NN  、#PU  锰#NN  、#PU  钼等#NN  ，#PU  特别是#AD  含钙#NN  丰富#VA  ，#PU  且#CC  钙#NN  磷#NN  比例#NN  合理#VA  ，#PU  吸收率#VV  高#JJ  ;#NN
+            维生素#NN  ：#PU  牛奶#NN  中#LC  含有#VV  已知#NN  的#DEG  所有#DT  维生素#NN  ，#PU  其#PN  作用#NN  ：#PU  维生素A#AD  促进#VV  正常#JJ  生长#NN  与#P  繁殖#NN  维持#VV  上皮#NN  组织#NN  与#CC  视力#NN  ；#PU  维生素#NN  B#AD  参与#VV  体内#NN  糖#NN  及#CC  能量#NN  代谢#NN  ；#PU  维生素C#VV  抗#NN  坏血病#NN  ；#PU  维生素D#NN  能#VV  调节#VV  各#DT  代谢#NN  骨骼#NN  组织#NN  中#LC  的#DEG  造#VV  骨#NN  细胞#NN  的#DEC  钙化#NN  能力#NN  ；#PU  维生素E#NN  抗氧化#VV  衰老#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 5#CD, 奶粉#NN)  (case, 奶粉#NN, 中#LC)  (case, 奶粉#NN, 的#DEG)  (nn, 功效#NN, 5#CD)  (amod, 成份#NN, 大#JJ)  (nfincl, 成份#NN, 营养#VA)  (assmod, 功效#NN, 成份#NN)  (case, 成份#NN, 的#DEG)  (root, ROOT#null, 功效#NN)
+            (root, ROOT#null, 蛋白质#VV)  (nn, 机体#NN, 供给#NN)  (nsubj, 营养#VA, 机体#NN)  (ccomp, 蛋白质#VV, 营养#VA)  (dep, 蛋白质#VV, ;#VV)
+            (root, ROOT#null, 脂肪#VV)  (nn, 机体#NN, 供给#NN)  (nsubj, 营养#VA, 机体#NN)  (ccomp, 脂肪#VV, 营养#VA)  (cc, 营养#VA, 及#CC)  (nsubj, 提供#VV, 能量#NN)  (conj, 营养#VA, 提供#VV)  (nn, ;#NN, 牛奶#NN)  (nn, ;#NN, 浓香#NN)  (dobj, 提供#VV, ;#NN)
+            (root, ROOT#null, 糖类#VV)  (loc, 乳糖#VA, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (advmod, 乳糖#VA, 含有#AD)  (ccomp, 糖类#VV, 乳糖#VA)  (nsubj, 重要#VA, 乳糖#NN)  (case, 发育#NN, 对于#P)  (nn, 发育#NN, 幼儿#NN)  (prep, 重要#VA, 发育#NN)  (advmod, 重要#VA, 非常#AD)  (conj, 乳糖#VA, 重要#VA)  (nsubj, 促进#VV, 它#PN)  (mmod, 促进#VV, 能#VV)  (conj, 乳糖#VA, 促进#VV)  (nn, 肠道#NN, 人体#NN)  (loc, 有#VE, 肠道#NN)  (case, 肠道#NN, 内#LC)  (relcl, 成长#NN, 有#VE)  (dobj, 有#VE, 益菌#NN)  (mark, 有#VE, 的#DEC)  (dobj, 促进#VV, 成长#NN)  (nn, 肠内#NN, 仰制#NN)  (nsubj, 异常#VA, 肠内#NN)  (conj, 乳糖#VA, 异常#VA)  (nsubj, ;#VV, 发酵#NN)  (amod, 肠道#NN, 有利#JJ)  (nsubj, ;#VV, 肠道#NN)  (advmod, ;#VV, 健康#AD)  (dep, 糖类#VV, ;#VV)
+            (nsubj, 称#VV, 矿物质#NR)  (nsubj, 称#VV, 矿物质#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (nsubj, 物质#NN, 无机盐#NN)  (cop, 物质#NN, 是#VC)  (advmod, 构成#VV, 人体#AD)  (relcl, 物质#NN, 构成#VV)  (dobj, 构成#VV, 不可缺少#NN)  (mark, 构成#VV, 的#DEC)  (ccomp, 称#VV, 物质#NN)  (conj, 物质#NN, 包含#VV)  (conj, 钼等#NN, 钙#NN)  (conj, 钼等#NN, 铁#NN)  (conj, 钼等#NN, 磷#NN)  (conj, 钼等#NN, 锌#NN)  (conj, 钼等#NN, 铜#NN)  (conj, 钼等#NN, 锰#NN)  (dobj, 包含#VV, 钼等#NN)  (advmod, 含钙#NN, 特别是#AD)  (nsubj, 丰富#VA, 含钙#NN)  (conj, 物质#NN, 丰富#VA)  (cc, 物质#NN, 且#CC)  (nn, 比例#NN, 钙#NN)  (nn, 比例#NN, 磷#NN)  (nsubj, 合理#VA, 比例#NN)  (conj, 物质#NN, 合理#VA)  (conj, 物质#NN, 吸收率#VV)  (amod, ;#NN, 高#JJ)  (dobj, 吸收率#VV, ;#NN)
+            (nsubj, 含有#VV, 维生素#NN)  (loc, 含有#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 维生素#NN, 已知#NN)  (case, 已知#NN, 的#DEG)  (det, 维生素#NN, 所有#DT)  (dobj, 含有#VV, 维生素#NN)  (nsubj, 作用#NN, 其#PN)  (conj, 含有#VV, 作用#NN)  (advmod, 促进#VV, 维生素A#AD)  (dep, 维持#VV, 促进#VV)  (amod, 生长#NN, 正常#JJ)  (dobj, 促进#VV, 生长#NN)  (case, 繁殖#NN, 与#P)  (prep, 维持#VV, 繁殖#NN)  (conj, 含有#VV, 维持#VV)  (nn, 视力#NN, 上皮#NN)  (conj, 视力#NN, 组织#NN)  (cc, 视力#NN, 与#CC)  (dobj, 维持#VV, 视力#NN)  (nsubj, 参与#VV, 维生素#NN)  (advmod, 参与#VV, B#AD)  (conj, 含有#VV, 参与#VV)  (nn, 代谢#NN, 体内#NN)  (conj, 代谢#NN, 糖#NN)  (cc, 代谢#NN, 及#CC)  (nn, 代谢#NN, 能量#NN)  (dobj, 参与#VV, 代谢#NN)  (conj, 含有#VV, 维生素C#VV)  (nn, 坏血病#NN, 抗#NN)  (dobj, 维生素C#VV, 坏血病#NN)  (nsubj, 调节#VV, 维生素D#NN)  (mmod, 调节#VV, 能#VV)  (conj, 含有#VV, 调节#VV)  (det, 组织#NN, 各#DT)  (nn, 组织#NN, 代谢#NN)  (nn, 组织#NN, 骨骼#NN)  (assmod, 能力#NN, 组织#NN)  (case, 组织#NN, 中#LC)  (case, 组织#NN, 的#DEG)  (relcl, 能力#NN, 造#VV)  (nn, 细胞#NN, 骨#NN)  (dobj, 造#VV, 细胞#NN)  (mark, 造#VV, 的#DEC)  (nn, 能力#NN, 钙化#NN)  (dobj, 调节#VV, 能力#NN)  (nsubj, 抗氧化#VV, 维生素E#NN)  (conj, 含有#VV, 抗氧化#VV)  (dobj, 抗氧化#VV, 衰老#NN)
+        </parsing>
+
+        <tag>
+            大成份  供给机体  机体营养  脂肪  糖类  幼儿发育  人体肠道  促进成长  仰制肠内  肠内异常  有利肠道  构成不可缺少  包含钼等  含钙丰富  比例合理  含有维生素  正常生长  促进生长  上皮视力  维持视力  体内代谢  能量代谢  参与代谢  维生素C坏血病  代谢组织  骨骼组织  造能力  钙化能力  调节能力  抗氧化衰老  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  增加骨密度  通便  固齿  生津止渴  清热  润燥  健胃  补阴  补肺
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/21/41/82209_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\765 全脂速溶奶粉.jpg
+    </picturelocalurl>
+
+</content>

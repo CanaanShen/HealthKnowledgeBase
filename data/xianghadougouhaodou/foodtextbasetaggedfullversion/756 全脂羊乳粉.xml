@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        756
+    </id>
+
+    <foodname>
+        全脂羊乳粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            羊奶粉样品奶食品有牛奶,马奶,山羊奶等。在欧美国家羊奶被视为乳品中精品,称作“贵族奶”。国际营养学界誉为“奶中之王”。
+        </rawdata>
+
+        <segment>
+            羊奶粉  样品奶  食品  有  牛奶  ,  马奶  ,  山羊奶  等  。  在  欧  美  国家  羊奶  被  视为  乳品  中  精品  ,  称作  “  贵族奶  ”  。  国际  营养  学界  誉为  “  奶中  之  王  ”  。
+        </segment>
+
+        <pos>
+            羊奶粉#NN  样品奶#NN  食品#NN  有#VE  牛奶#NN  ,#NN  马奶#NN  ,#NN  山羊奶#NN  等#ETC    。#PU  在#P  欧#NR  美#NR  国家#NN  羊奶#NN  被#SB  视为#VV  乳品#NN  中#LC  精品#NN  ,#NN  称作#VV  ``#NN  贵族奶#NN  ''#NN    。#PU  国际#NN  营养#VA  学界#AD  誉为#VV  ``#NN  奶中#NN  之#DEG  王#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 食品#NN, 羊奶粉#NN)  (nn, 食品#NN, 样品奶#NN)  (dep, 有#VE, 食品#NN)  (root, ROOT#null, 有#VE)  (nn, 山羊奶#NN, 牛奶#NN)  (nn, 山羊奶#NN, 马奶#NN)  (dobj, 有#VE, 山羊奶#NN)  (etc, 山羊奶#NN, 等#ETC)   (case, 视为#VV, 在#P)  (nn, 美#NR, 欧#NR)  (nn, 羊奶#NN, 美#NR)  (nn, 羊奶#NN, 国家#NN)  (nsubjpass, 视为#VV, 羊奶#NN)  (auxpass, 视为#VV, 被#SB)  (prep, 称作#VV, 视为#VV)  (dobj, 视为#VV, 乳品#NN)  (case, 视为#VV, 中#LC)  (nn, ,#NN, 精品#NN)  (root, ROOT#null, 称作#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 贵族奶#NN)  (dobj, 称作#VV, ''#NN)   (nsubj, 誉为#VV, 国际#NN)  (dep, 誉为#VV, 营养#VA)  (dep, 誉为#VV, 学界#AD)  (root, ROOT#null, 誉为#VV)  (nn, 奶中#NN, ``#NN)  (assmod, ''#NN, 奶中#NN)  (case, 奶中#NN, 之#DEG)  (nn, ''#NN, 王#NN)  (dobj, 誉为#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            羊奶粉食品  样品奶食品  牛奶山羊奶  马奶山羊奶  国家羊奶  视为乳品  称作  誉为  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            益五脏、补劳损、养心肺、利皮肤、润毛发、明目、使人润泽。
+        </rawdata>
+
+        <segment>
+            益  五脏  、  补  劳损  、  养心肺  、  利  皮肤  、  润  毛发  、  明目  、  使  人  润泽  。
+        </segment>
+
+        <pos>
+            益#VV  五脏#CD  、#PU  补#VV  劳损#NR  、#PU  养心肺#NR  、#PU  利#NR  皮肤#NR  、#PU  润#NR  毛发#NN  、#PU  明目#VV  、#PU  使#VV  人#NN  润泽#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 益#VV)  (range, 益#VV, 五脏#CD)  (conj, 益#VV, 补#VV)  (conj, 润#NR, 劳损#NR)  (conj, 润#NR, 养心肺#NR)  (nn, 润#NR, 利#NR)  (conj, 润#NR, 皮肤#NR)  (nn, 毛发#NN, 润#NR)  (dobj, 补#VV, 毛发#NN)  (conj, 益#VV, 明目#VV)  (conj, 益#VV, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 润泽#VV)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        延缓衰老  辅助降血压  美容养颜  促进组织生长
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/19/41/82201_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\756 全脂羊乳粉.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1359
+    </id>
+
+    <foodname>
+        猪腱子肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高胆固醇、高脂肪、老年人、儿童、消化力弱的人不宜多吃。
+        </rawdata>
+
+        <segment>
+            高  胆固醇  、  高  脂肪  、  老年人  、  儿童  、  消化  力弱  的  人  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            高#JJ  胆固醇#NN  、#PU  高#JJ  脂肪#NN  、#PU  老年人#NN  、#PU  儿童#NN  、#PU  消化#NN  力弱#NN  的#DEG  人#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 胆固醇#NN, 高#JJ)  (conj, 力弱#NN, 胆固醇#NN)  (amod, 脂肪#NN, 高#JJ)  (conj, 力弱#NN, 脂肪#NN)  (conj, 力弱#NN, 老年人#NN)  (conj, 力弱#NN, 儿童#NN)  (nn, 力弱#NN, 消化#NN)  (assmod, 人#NN, 力弱#NN)  (case, 力弱#NN, 的#DEG)  (nsubj, 吃#VV, 人#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+            高胆固醇  高脂肪  老年人  儿童  消化力弱  人不宜多吃  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪腱子肉是猪小腿上的肌肉，有肉膜包裹的，内藏筋，硬度适中，纹路规则，最适合卤味.精确的说应该是后腿中间半肉半筋的一小条
+        </rawdata>
+
+        <segment>
+            猪  腱子肉  是  猪  小腿  上  的  肌肉  ，  有  肉膜  包裹  的  ，  内藏筋  ，  硬度  适中  ，  纹路  规则  ，  最  适合  卤味  .  精确  的  说  应该  是  后腿  中间  半  肉  半筋  的  一  小  条
+        </segment>
+
+        <pos>
+            猪#NN  腱子肉#VV  是#VC  猪#NN  小腿#NN  上#LC  的#DEG  肌肉#NN  ，#PU  有#VE  肉膜#VV  包裹#NN  的#DEC  ，#PU  内藏筋#VV  ，#PU  硬度#VV  适中#NN  ，#PU  纹路#VV  规则#NN  ，#PU  最#AD  适合#VV  卤味#NN  .#NN  精确#VA  的#DEC  说#VV  应该#VV  是#VC  后腿#NN  中间#NN  半#CD  肉#NN  半筋#NN  的#DEG  一#CD  小#JJ  条#M
+        </pos>
+
+        <parsing>
+            (nsubj, 肌肉#NN, 猪#NN)  (mmod, 肌肉#NN, 腱子肉#VV)  (cop, 肌肉#NN, 是#VC)  (nn, 小腿#NN, 猪#NN)  (assmod, 肌肉#NN, 小腿#NN)  (case, 小腿#NN, 上#LC)  (case, 小腿#NN, 的#DEG)  (root, ROOT#null, 肌肉#NN)  (ccomp, 肌肉#NN, 有#VE)  (conj, 肌肉#NN, 有#VE)  (dobj, 有#VE, 肉膜#VV)  (dobj, 肉膜#VV, 包裹#NN)  (mark, 肉膜#VV, 的#DEC)  (ccomp, 肌肉#NN, 内藏筋#VV)  (conj, 肌肉#NN, 内藏筋#VV)  (ccomp, 肌肉#NN, 硬度#VV)  (conj, 肌肉#NN, 硬度#VV)  (dobj, 硬度#VV, 适中#NN)  (ccomp, 肌肉#NN, 纹路#VV)  (conj, 肌肉#NN, 纹路#VV)  (dobj, 纹路#VV, 规则#NN)  (advmod, 适合#VV, 最#AD)  (ccomp, 肌肉#NN, 适合#VV)  (conj, 肌肉#NN, 适合#VV)  (nn, .#NN, 卤味#NN)  (relcl, 中间#NN, 精确#VA)  (mark, 精确#VA, 的#DEC)  (nfincl, 中间#NN, 说#VV)  (mmod, 后腿#NN, 应该#VV)  (cop, 后腿#NN, 是#VC)  (ccomp, 说#VV, 后腿#NN)  (dobj, 适合#VV, 中间#NN)  (nummod, 半筋#NN, 半#CD)  (nn, 半筋#NN, 肉#NN)  (assmod, 条#M, 半筋#NN)  (case, 半筋#NN, 的#DEG)  (nummod, 条#M, 一#CD)  (amod, 条#M, 小#JJ)  (range, 适合#VV, 条#M)
+        </parsing>
+
+        <tag>
+            肉膜包裹  硬度适中  纹路规则  中间精确  适合中间  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1、富含蛋白质，氨基酸组成接近人体需要，能提高机体抗病能力，对生长发育及术后，病后调养的人在补充失血、修复组织等方面特别适宜。 　　2、有补中益气，滋养脾胃，强健筋骨，化痰息风，止渴止涎之功效，适宜于中气下隐、气短体虚、筋骨酸软、贫血久病及面黄目眩之人食用；
+        </rawdata>
+
+        <segment>
+            富含  蛋白质  ，  氨基酸  组成  接近  人体  需要  ，  能  提高  机体  抗病  能力  ，  对  生长  发育  及  术后  ，  病后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  特别  适宜  。    2  、  有  补  中  益气  ，  滋养  脾胃  ，  强健  筋骨  ，  化痰  息风  ，  止渴  止涎  之  功效  ，  适宜于  中气  下  隐  、  气短  体虚  、  筋骨  酸软  、  贫血  久病  及  面黄  目眩  之  人  食用  ；
+        </segment>
+
+        <pos>
+            富含#NN  蛋白质#NN  ，#PU  氨基酸#AD  组成#VV  接近#VV  人体#NN  需要#NN  ，#PU  能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#NN  及#CC  术后#VV  ，#PU  病后#NN  调养#NN  的#DEG  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  特别#AD  适宜#VA  。#PU  2#CD  、#PU  有#VE  补#NN  中#LC  益气#NN  ，#PU  滋养#VV  脾胃#NN  ，#PU  强健#VV  筋骨#NN  ，#PU  化痰#VV  息风#NN  ，#PU  止渴#VV  止涎#NR  之#DEG  功效#NN  ，#PU  适宜于#NN  中气#NN  下#VV  隐#NN  、#PU  气短#NN  体虚#NN  、#PU  筋骨#NN  酸软#NN  、#PU  贫血#NN  久病#NN  及#CC  面黄#NN  目眩#NN  之#DEG  人#NN  食用#VV  ；#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋白质#NN, 富含#NN)  (nsubj, 接近#VV, 蛋白质#NN)  (advmod, 接近#VV, 氨基酸#AD)  (mmod, 接近#VV, 组成#VV)  (root, ROOT#null, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (mmod, 提高#VV, 能#VV)  (dep, 接近#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 发育#NN, 对#P)  (nn, 发育#NN, 生长#NN)  (prep, 食用#VV, 发育#NN)  (cc, 发育#NN, 及#CC)  (dep, 发育#NN, 术后#VV)  (nn, 调养#NN, 病后#NN)  (assmod, 人#NN, 调养#NN)  (case, 调养#NN, 的#DEG)  (nsubj, 适宜#VA, 人#NN)  (case, 方面#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 方面#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (prep, 适宜#VA, 方面#NN)  (advmod, 适宜#VA, 特别#AD)  (ccomp, 术后#VV, 适宜#VA)  (dep, 滋养#VV, 2#CD)  (dep, 益气#NN, 有#VE)  (dobj, 有#VE, 补#NN)  (case, 有#VE, 中#LC)  (nsubj, 滋养#VV, 益气#NN)  (conj, 适宜#VA, 滋养#VV)  (dobj, 滋养#VV, 脾胃#NN)  (conj, 滋养#VV, 强健#VV)  (dobj, 强健#VV, 筋骨#NN)  (conj, 滋养#VV, 化痰#VV)  (dobj, 化痰#VV, 息风#NN)  (conj, 滋养#VV, 止渴#VV)  (assmod, 功效#NN, 止涎#NR)  (case, 止涎#NR, 之#DEG)  (dobj, 止渴#VV, 功效#NN)  (nn, 中气#NN, 适宜于#NN)  (nsubj, 下#VV, 中气#NN)  (conj, 适宜#VA, 下#VV)  (conj, 目眩#NN, 隐#NN)  (nn, 目眩#NN, 气短#NN)  (conj, 目眩#NN, 体虚#NN)  (nn, 目眩#NN, 筋骨#NN)  (conj, 目眩#NN, 酸软#NN)  (nn, 目眩#NN, 贫血#NN)  (conj, 目眩#NN, 久病#NN)  (cc, 目眩#NN, 及#CC)  (nn, 目眩#NN, 面黄#NN)  (assmod, 人#NN, 目眩#NN)  (case, 目眩#NN, 之#DEG)  (dobj, 下#VV, 人#NN)  (dep, 接近#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            富含蛋白质  人体需要  接近需要  机体能力  抗病能力  提高能力  生长发育  病后调养  人适宜  补充组织  失血  修复组织  组织方面  滋养脾胃  强健筋骨  化痰息风  止渴功效  适宜于中气  气短目眩  体虚  筋骨目眩  酸软  贫血目眩  久病  面黄目眩  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  改善营养性贫血  美容养颜  补气  润燥  补血  消肿  补肾阴  补肾气
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/90/c5/50576_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1359 猪腱子肉.jpg
+    </picturelocalurl>
+
+</content>

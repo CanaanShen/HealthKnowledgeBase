@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        700
+    </id>
+
+    <foodname>
+        紫红糯米
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        血糯米、紫米
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            需要注意的是，血糯米由于黏性强，容易生痰，所以发热、咳嗽、痰稠黄以及肠胃功能较差者，不宜多食。
+        </rawdata>
+
+        <segment>
+            需要  注意  的  是  ，  血  糯米  由于  黏性  强  ，  容易  生痰  ，  所以  发热  、  咳嗽  、  痰稠黄  以及  肠胃  功能  较  差者  ，  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            需要#VV  注意#NN  的#DEC  是#VC  ，#PU  血#NN  糯米#NN  由于#P  黏性#AD  强#VA  ，#PU  容易#VA  生痰#VV  ，#PU  所以#AD  发热#NR  、#PU  咳嗽#NR  、#PU  痰稠黄#NR  以及#CC  肠胃#NR  功能#NN  较#AD  差者#VA  ，#PU  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生痰#VV, 需要#VV)  (dobj, 需要#VV, 注意#NN)  (mark, 需要#VV, 的#DEC)  (cop, 生痰#VV, 是#VC)  (nn, 糯米#NN, 血#NN)  (nsubj, 生痰#VV, 糯米#NN)  (case, 强#VA, 由于#P)  (advmod, 强#VA, 黏性#AD)  (prep, 生痰#VV, 强#VA)  (dep, 强#VA, 容易#VA)  (root, ROOT#null, 生痰#VV)  (advmod, 差者#VA, 所以#AD)  (conj, 肠胃#NR, 发热#NR)  (conj, 肠胃#NR, 咳嗽#NR)  (conj, 肠胃#NR, 痰稠黄#NR)  (cc, 肠胃#NR, 以及#CC)  (nn, 功能#NN, 肠胃#NR)  (nsubj, 差者#VA, 功能#NN)  (advmod, 差者#VA, 较#AD)  (conj, 生痰#VV, 差者#VA)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (conj, 生痰#VV, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            需要注意  血糯米  黏性强  容易生痰  发热  咳嗽  痰稠黄  肠胃功能较差者  不宜多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            紫米是稻米中的珍贵品种，属于糯米类，紫米熬制的米粥清香油亮、软糯适口，因其含有丰富的营养，具有很好的滋补作用，因此被人们称为“补血米”、“长寿米”
+        </rawdata>
+
+        <segment>
+            紫  米  是  稻米  中  的  珍贵  品种  ，  属于  糯米  类  ，  紫  米  熬制  的  米粥  清香  油亮  、  软糯  适口  ，  因其  含有  丰富  的  营养  ，  具有  很  好  的  滋补  作用  ，  因此  被  人们  称为  “  补血  米  ”  、  “  长寿  米  ”
+        </segment>
+
+        <pos>
+            紫#VA  米#M  是#VC  稻米#NN  中#LC  的#DEG  珍贵#JJ  品种#NN  ，#PU  属于#VV  糯米#CD  类#M  ，#PU  紫#VA  米#M  熬制#NN  的#DEG  米粥#NN  清香#AD  油亮#VA  、#PU  软糯#VV  适口#NN  ，#PU  因其#VA  含有#VA  丰富#VA  的#DEV  营养#VA  ，#PU  具有#VV  很#AD  好#VA  的#DEC  滋补#JJ  作用#NN  ，#PU  因此#AD  被#LB  人们#NN  称为#VV  ``#NR  补血#CD  米#M  ''#NN  、#PU  ``#NR  长寿#NR  米#M  ''#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 紫#VA)  (dep, 紫#VA, 米#M)  (cop, 品种#NN, 是#VC)  (assmod, 品种#NN, 稻米#NN)  (case, 稻米#NN, 中#LC)  (case, 稻米#NN, 的#DEG)  (amod, 品种#NN, 珍贵#JJ)  (conj, 紫#VA, 品种#NN)  (conj, 紫#VA, 属于#VV)  (nummod, 类#M, 糯米#CD)  (range, 属于#VV, 类#M)  (conj, 紫#VA, 紫#VA)  (dep, 紫#VA, 米#M)  (assmod, 米粥#NN, 熬制#NN)  (case, 熬制#NN, 的#DEG)  (nsubj, 油亮#VA, 米粥#NN)  (advmod, 油亮#VA, 清香#AD)  (dep, 紫#VA, 油亮#VA)  (conj, 油亮#VA, 软糯#VV)  (dobj, 软糯#VV, 适口#NN)  (dvpmod, 营养#VA, 因其#VA)  (dep, 因其#VA, 含有#VA)  (dep, 因其#VA, 丰富#VA)  (mark, 因其#VA, 的#DEV)  (conj, 油亮#VA, 营养#VA)  (conj, 油亮#VA, 具有#VV)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 滋补#JJ)  (dobj, 具有#VV, 作用#NN)  (advmod, 称为#VV, 因此#AD)  (auxpass, 称为#VV, 被#LB)  (nsubj, 称为#VV, 人们#NN)  (conj, 油亮#VA, 称为#VV)  (nn, ''#NN, ``#NR)  (nummod, 米#M, 补血#CD)  (clf, ''#NN, 米#M)  (conj, ''#NN, ''#NN)  (nn, 长寿#NR, ``#NR)  (nn, ''#NN, 长寿#NR)  (dep, ''#NN, 米#M)  (dobj, 称为#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            珍贵品种  米粥油亮  软糯适口  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            具有开胃益中、健脾暖肝、明目活血、滑涩补精之功，对于少年白发、妇女产后虚弱、病后体虚以及贫血、肾虚均有很好的补养作用。
+        </rawdata>
+
+        <segment>
+            具有  开胃  益中  、  健脾  暖肝  、  明目  活血  、  滑涩  补  精  之  功  ，  对于  少年  白发  、  妇女  产后  虚弱  、  病  后体  虚  以及  贫血  、  肾虚  均  有  很  好  的  补养  作用  。
+        </segment>
+
+        <pos>
+            具有#VV  开胃#NR  益中#NR  、#PU  健脾#NR  暖肝#NR  、#PU  明目#NR  活血#NR  、#PU  滑涩#NR  补#NN  精#NN  之#DEG  功#NN  ，#PU  对于#P  少年#NN  白发#NN  、#PU  妇女#NN  产后#NN  虚弱#NN  、#PU  病#JJ  后体#NN  虚#AD  以及#CC  贫血#VV  、#PU  肾虚#AD  均#AD  有#VE  很#AD  好#VA  的#DEC  补养#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 具有#VV)  (nn, 滑涩#NR, 开胃#NR)  (conj, 滑涩#NR, 益中#NR)  (nn, 滑涩#NR, 健脾#NR)  (conj, 滑涩#NR, 暖肝#NR)  (nn, 滑涩#NR, 明目#NR)  (conj, 滑涩#NR, 活血#NR)  (nn, 精#NN, 滑涩#NR)  (nn, 精#NN, 补#NN)  (assmod, 功#NN, 精#NN)  (case, 精#NN, 之#DEG)  (dobj, 具有#VV, 功#NN)  (case, 后体#NN, 对于#P)  (nn, 白发#NN, 少年#NN)  (conj, 后体#NN, 白发#NN)  (nn, 虚弱#NN, 妇女#NN)  (nn, 虚弱#NN, 产后#NN)  (conj, 后体#NN, 虚弱#NN)  (amod, 后体#NN, 病#JJ)  (prep, 贫血#VV, 后体#NN)  (advmod, 贫血#VV, 虚#AD)  (cc, 贫血#VV, 以及#CC)  (conj, 具有#VV, 贫血#VV)  (advmod, 有#VE, 肾虚#AD)  (advmod, 有#VE, 均#AD)  (dep, 贫血#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 补养#JJ)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            滑涩  益中  暖肝  活血  少年白发  妇女虚弱  产后虚弱  病后体  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  解毒  补肾  清热  和胃  抗菌  利尿  除烦  止痢
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            紫米直接食用容易因其粘性导致肠胃消化不良，若加入莲子、麦片或与白米以3：1的比例一起混煮，就可以避免肠胃问题。
+        </rawdata>
+
+        <segment>
+            紫  米  直接  食用  容易  因  其  粘性  导致  肠胃  消化不良  ，  若  加入  莲子  、  麦片  或  与  白米  以  3：1  的  比例  一起  混煮  ，  就  可以  避免  肠胃  问题  。
+        </segment>
+
+        <pos>
+            紫#VA  米#M  直接#AD  食用#VV  容易#VA  因#P  其#PN  粘性#AD  导致#VV  肠胃#VV  消化不良#NN  ，#PU  若#CS  加入#VV  莲子#NR  、#PU  麦片#NR  或#CC  与#P  白米#NN  以#P  3#CD  ：#PU  1#CD  的#DEG  比例#NN  一起#AD  混煮#VV  ，#PU  就#AD  可以#VV  避免#VV  肠胃#NN  问题#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 导致#VV, 紫#VA)  (dep, 紫#VA, 米#M)  (advmod, 食用#VV, 直接#AD)  (dep, 紫#VA, 食用#VV)  (dep, 紫#VA, 容易#VA)  (case, 其#PN, 因#P)  (prep, 导致#VV, 其#PN)  (advmod, 导致#VV, 粘性#AD)  (root, ROOT#null, 导致#VV)  (ccomp, 导致#VV, 肠胃#VV)  (dobj, 肠胃#VV, 消化不良#NN)  (advmod, 加入#VV, 若#CS)  (conj, 肠胃#VV, 加入#VV)  (conj, 麦片#NR, 莲子#NR)  (dobj, 加入#VV, 麦片#NR)  (cc, 肠胃#VV, 或#CC)  (case, 白米#NN, 与#P)  (prep, 混煮#VV, 白米#NN)  (case, 比例#NN, 以#P)  (nummod, 1#CD, 3#CD)  (assmod, 比例#NN, 1#CD)  (case, 1#CD, 的#DEG)  (prep, 混煮#VV, 比例#NN)  (advmod, 混煮#VV, 一起#AD)  (conj, 肠胃#VV, 混煮#VV)  (advmod, 避免#VV, 就#AD)  (mmod, 避免#VV, 可以#VV)  (conj, 肠胃#VV, 避免#VV)  (nn, 问题#NN, 肠胃#NN)  (dobj, 避免#VV, 问题#NN)
+        </parsing>
+
+        <tag>
+            导致  肠胃消化不良  麦片  莲子  肠胃问题  避免问题  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/e1/40/82145_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\700 紫红糯米.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        326
+    </id>
+
+    <foodname>
+        无花果
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        文先果、奶浆果、树地瓜、映日果、明目果、密果、阿驲、阿驿、底珍、天生子、优昙钵、蜜果、文仙果、品仙果、挣桃
+    </alias>
+
+    <season>
+        秋、6月中旬-10月冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脂肪肝患者、脑血管意外患者、腹泻者、正常血钾性周期性麻痹等患者不适宜食用；大便溏薄者不宜生食。
+        </rawdata>
+
+        <segment>
+            脂肪肝  患者  、  脑血管  意外  患者  、  腹泻者  、  正常  血钾  性  周期性  麻痹  等  患者  不  适宜  食用  ；  大便  溏薄  者  不  宜  生食  。
+        </segment>
+
+        <pos>
+            脂肪肝#NN  患者#NN  、#PU  脑血管#NN  意外#NN  患者#NN  、#PU  腹泻者#NN  、#PU  正常#JJ  血钾#NN  性#NN  周期性#NN  麻痹#NN  等#ETC  患者#NN  不#AD  适宜#VV  食用#VV  ；#PU  大便#NN  溏薄#NN  者#NN  不#AD  宜#NR  生食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 脂肪肝#NN)  (conj, 麻痹#NN, 患者#NN)  (nn, 患者#NN, 脑血管#NN)  (nn, 患者#NN, 意外#NN)  (conj, 麻痹#NN, 患者#NN)  (conj, 麻痹#NN, 腹泻者#NN)  (amod, 血钾#NN, 正常#JJ)  (nn, 周期性#NN, 血钾#NN)  (nn, 周期性#NN, 性#NN)  (nn, 麻痹#NN, 周期性#NN)  (nn, 患者#NN, 麻痹#NN)  (etc, 麻痹#NN, 等#ETC)  (nsubj, 适宜#VV, 患者#NN)  (neg, 适宜#VV, 不#AD)  (root, ROOT#null, 适宜#VV)  (comod, 适宜#VV, 食用#VV)  (nn, 者#NN, 大便#NN)  (nn, 者#NN, 溏薄#NN)  (nsubj, 生食#VV, 者#NN)  (neg, 生食#VV, 不#AD)  (prep, 生食#VV, 宜#NR)  (conj, 适宜#VV, 生食#VV)
+        </parsing>
+
+        <tag>
+            脂肪肝  患者  脑血管意外  患者  腹泻者  正常血钾性周期性麻痹  患者  不适宜  大便溏薄者不宜生食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。消化不良者、食欲不振者、高血脂患者、高血压患者、冠心病患者、动脉硬化患者、癌症患者、便秘者适宜食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  消化不良  者  、  食欲不振者  、  高血脂  患者  、  高血压  患者  、  冠心病  患者  、  动脉  硬化  患者  、  癌症  患者  、  便秘  者  适宜  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  消化不良#NN  者#NN  、#PU  食欲不振者#NR  、#PU  高血脂#NN  患者#NN  、#PU  高血压#NN  患者#NN  、#PU  冠心病#NN  患者#NN  、#PU  动脉#NN  硬化#NN  患者#NN  、#PU  癌症#NN  患者#NN  、#PU  便秘#NR  者#NN  适宜#VV  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nn, 者#NN, 消化不良#NN)  (conj, 便秘#NR, 者#NN)  (conj, 便秘#NR, 食欲不振者#NR)  (nn, 患者#NN, 高血脂#NN)  (conj, 便秘#NR, 患者#NN)  (nn, 患者#NN, 高血压#NN)  (conj, 便秘#NR, 患者#NN)  (nn, 患者#NN, 冠心病#NN)  (conj, 便秘#NR, 患者#NN)  (nn, 患者#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (conj, 便秘#NR, 患者#NN)  (nn, 患者#NN, 癌症#NN)  (conj, 便秘#NR, 患者#NN)  (nn, 者#NN, 便秘#NR)  (nsubj, 适宜#VV, 者#NN)  (root, ROOT#null, 适宜#VV)  (comod, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  消化不良者  食欲不振者  高血脂  患者  高血压  患者  冠心病  患者  动脉硬化  患者  癌症  患者  便秘者适宜  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.82
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                67
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                212
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                5.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.67
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            无花果原产阿拉伯南部，后传入叙利亚、土耳其等地，目前地中海沿岸诸国栽培最盛。无花果是人类最早栽培的果树树种之一，从公元前3000年左右至今已有近5000年的栽培历史。古罗马时代有一株神圣的无花果树，因为它曾庇护过罗马创立者罗募路斯王子，躲过了凶残的妖婆和啄木鸟的追赶，这株无花果后来被命名为”守护之神“。在地中海沿岸国家的古老传说中，无花果被称为“圣果”，作祭祀用果品。
+            无花果是桑科植物无花果的果实。由于无花果树叶厚大浓绿，而所开的花却很小，经常被枝叶掩盖，不易被人们发现，当果子露出时，花已脱落，所以人们认为它是不花而实，故命名为无花果。无花果熟时软烂，味甘甜如柿而无核，营养丰富而全面，除含有人体必需的多种氨基酸、维生素、矿物质外，还含有柠檬酸、延胡索酸、琥珀酸、奎宁酸、脂肪酶、蛋白酶等多种成分，具有很好的食疗功效。
+        </rawdata>
+
+        <segment>
+            无花果  原产  阿拉伯  南部  ，  后  传入  叙利亚  、  土耳其  等地  ，  目前  地中海  沿岸  诸国  栽培  最  盛  。  无花  果是  人类  最早  栽培  的  果树  树种  之一  ，  从  公元前  3000年  左右  至今  已  有  近  5000年  的  栽培  历史  。  古罗马  时代  有  一  株  神圣  的  无花  果树  ，  因为  它  曾  庇护  过  罗马  创立者  罗募路斯  王子  ，  躲过  了  凶残  的  妖婆  和  啄木鸟  的  追赶  ，  这  株  无花果  后来  被  命名  为  ”  守护  之  神  “  。  在  地中海  沿岸  国家  的  古老  传说  中  ，  无花果  被  称为  “  圣果  ”  ，  作  祭祀  用  果品  。
+            无花  果是  桑科  植物  无花果  的  果实  。  由于  无花果  树叶  厚  大  浓绿  ，  而  所  开  的  花  却  很  小  ，  经常  被  枝叶  掩盖  ，  不易  被  人们  发现  ，  当  果子  露出  时  ，  花  已  脱落  ，  所以  人们  认为  它  是  不花而实  ，  故  命名  为  无花果  。  无花果  熟  时  软  烂  ，  味  甘甜  如柿  而  无核  ，  营养  丰富  而  全面  ，  除  含有  人体  必需  的  多  种  氨基酸  、  维生素  、  矿物质  外  ，  还  含有  柠檬酸  、  延胡索酸  、  琥珀酸  、  奎宁酸  、  脂肪酶  、  蛋白酶  等  多  种  成分  ，  具有  很  好  的  食疗  功效  。
+        </segment>
+
+        <pos>
+            无花果#NN  原产#NN  阿拉伯#NR  南部#NN  ，#PU  后#DT  传入#NN  叙利亚#NR  、#PU  土耳其#NR  等地#VV  ，#PU  目前#NT  地中海#NR  沿岸#NN  诸国#AD  栽培#VV  最#AD  盛#VA    。#PU  无花#AD  果是#VV  人类#NN  最早#AD  栽培#VV  的#DEC  果树#NN  树种#NN  之一#NN  ，#PU  从#P  公元前#NT  3000年#NT  左右#LC  至今#AD  已#AD  有#VE  近#VV  5000年#NT  的#DEC  栽培#VV  历史#NN    。#PU  古罗马#NN  时代#NN  有#VE  一#CD  株#M  神圣#VA  的#DEC  无花#NN  果树#NN  ，#PU  因为#P  它#PN  曾#AD  庇护#VV  过#AS  罗马#NR  创立者#AD  罗募路斯#VV  王子#NN  ，#PU  躲过#VV  了#AS  凶残#NN  的#DEG  妖婆#NN  和#CC  啄木鸟#NN  的#DEC  追赶#NN  ，#PU  这#DT  株#M  无花果#NN  后来#AD  被#SB  命名#VV  为#P  ''#NN  守护#VV  之#DEC  神#JJ  ``#NN    。#PU  在#P  地中海#NR  沿岸#NN  国家#NN  的#DEG  古老#VA  传说#NN  中#LC  ，#PU  无花果#NN  被#SB  称为#VV  ``#NN  圣果#NN  ''#NN  ，#PU  作#VV  祭祀#NN  用#VV  果品#NN    。#PU    。#PU
+            无花#NN  果是#VV  桑科#NN  植物#NN  无花果#NN  的#DEG  果实#NN    。#PU  由于#P  无花果#AD  树叶#VV  厚#JJ  大#JJ  浓绿#NN  ，#PU  而#CC  所#MSP  开#VV  的#DEC  花#NN  却#AD  很#AD  小#VA  ，#PU  经常#AD  被#SB  枝叶#VV  掩盖#NN  ，#PU  不易#NN  被#LB  人们#NN  发现#VV  ，#PU  当#P  果子#AD  露出#VV  时#LC  ，#PU  花#NN  已#AD  脱落#VV  ，#PU  所以#AD  人们#NN  认为#VV  它#PN  是#VC  不花而实#NN  ，#PU  故#AD  命名#VV  为#VV  无花果#NN    。#PU  无花果#VV  熟#VA  时#LC  软#JJ  烂#NN  ，#PU  味#AD  甘甜#VV  如柿#NN  而#CC  无核#NN  ，#PU  营养#VA  丰富#VA  而#CC  全面#AD  ，#PU  除#P  含有#NN  人体#AD  必需#VV  的#DEC  多#CD  种#M  氨基酸#NN  、#PU  维生素#NN  、#PU  矿物质#NN  外#LC  ，#PU  还#AD  含有#VV  柠檬酸#NR  、#PU  延胡索酸#NR  、#PU  琥珀酸#NR  、#PU  奎宁酸#NR  、#PU  脂肪酶#NR  、#PU  蛋白酶#NR  等#ETC  多#CD  种#M  成分#NN  ，#PU  具有#VV  很#AD  好#VA  的#DEC  食疗#NN  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 南部#NN, 无花果#NN)  (nn, 南部#NN, 原产#NN)  (nn, 南部#NN, 阿拉伯#NR)  (nsubj, 等地#VV, 南部#NN)  (xsubj, 盛#VA, 南部#NN)  (det, 传入#NN, 后#DT)  (nsubj, 等地#VV, 传入#NN)  (xsubj, 盛#VA, 传入#NN)  (conj, 土耳其#NR, 叙利亚#NR)  (nsubj, 等地#VV, 土耳其#NR)  (xsubj, 盛#VA, 土耳其#NR)  (root, ROOT#null, 等地#VV)  (tmod, 栽培#VV, 目前#NT)  (nn, 沿岸#NN, 地中海#NR)  (nsubj, 栽培#VV, 沿岸#NN)  (advmod, 栽培#VV, 诸国#AD)  (dep, 盛#VA, 栽培#VV)  (advmod, 盛#VA, 最#AD)  (ccomp, 等地#VV, 盛#VA)   (advmod, 果是#VV, 无花#AD)  (root, ROOT#null, 果是#VV)  (nsubj, 栽培#VV, 人类#NN)  (advmod, 栽培#VV, 最早#AD)  (relcl, 之一#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nn, 之一#NN, 果树#NN)  (nn, 之一#NN, 树种#NN)  (dobj, 果是#VV, 之一#NN)  (case, 3000年#NT, 从#P)  (nn, 3000年#NT, 公元前#NT)  (prep, 有#VE, 3000年#NT)  (case, 3000年#NT, 左右#LC)  (advmod, 有#VE, 至今#AD)  (advmod, 有#VE, 已#AD)  (dep, 果是#VV, 有#VE)  (nsubj, 栽培#VV, 近#VV)  (dobj, 近#VV, 5000年#NT)  (mark, 近#VV, 的#DEC)  (dep, 有#VE, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)   (nn, 时代#NN, 古罗马#NN)  (dep, 有#VE, 时代#NN)  (root, ROOT#null, 有#VE)  (nummod, 株#M, 一#CD)  (clf, 果树#NN, 株#M)  (relcl, 果树#NN, 神圣#VA)  (mark, 神圣#VA, 的#DEC)  (nn, 果树#NN, 无花#NN)  (dobj, 有#VE, 果树#NN)  (case, 庇护#VV, 因为#P)  (nsubj, 庇护#VV, 它#PN)  (advmod, 庇护#VV, 曾#AD)  (prep, 命名#VV, 庇护#VV)  (asp, 庇护#VV, 过#AS)  (nsubj, 罗募路斯#VV, 罗马#NR)  (advmod, 罗募路斯#VV, 创立者#AD)  (relcl, 追赶#NN, 罗募路斯#VV)  (dobj, 罗募路斯#VV, 王子#NN)  (conj, 罗募路斯#VV, 躲过#VV)  (asp, 躲过#VV, 了#AS)  (assmod, 啄木鸟#NN, 凶残#NN)  (case, 凶残#NN, 的#DEG)  (conj, 啄木鸟#NN, 妖婆#NN)  (cc, 啄木鸟#NN, 和#CC)  (dobj, 躲过#VV, 啄木鸟#NN)  (mark, 罗募路斯#VV, 的#DEC)  (dobj, 庇护#VV, 追赶#NN)  (det, 无花果#NN, 这#DT)  (clf, 这#DT, 株#M)  (nsubj, 命名#VV, 无花果#NN)  (advmod, 命名#VV, 后来#AD)  (auxpass, 命名#VV, 被#SB)  (conj, 有#VE, 命名#VV)  (case, ''#NN, 为#P)  (prep, 守护#VV, ''#NN)  (relcl, ``#NN, 守护#VV)  (mark, 守护#VV, 之#DEC)  (amod, ``#NN, 神#JJ)  (dobj, 命名#VV, ``#NN)   (case, 传说#NN, 在#P)  (nn, 沿岸#NN, 地中海#NR)  (nn, 国家#NN, 沿岸#NN)  (assmod, 传说#NN, 国家#NN)  (case, 国家#NN, 的#DEG)  (nfincl, 传说#NN, 古老#VA)  (prep, 称为#VV, 传说#NN)  (case, 传说#NN, 中#LC)  (nsubj, 称为#VV, 无花果#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 用#VV, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 圣果#NN)  (dobj, 称为#VV, ''#NN)  (dep, 称为#VV, 作#VV)  (dobj, 作#VV, 祭祀#NN)  (root, ROOT#null, 用#VV)  (dobj, 用#VV, 果品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 果是#VV, 无花#NN)  (root, ROOT#null, 果是#VV)  (nn, 无花果#NN, 桑科#NN)  (nn, 无花果#NN, 植物#NN)  (assmod, 果实#NN, 无花果#NN)  (case, 无花果#NN, 的#DEG)  (dobj, 果是#VV, 果实#NN)   (case, 小#VA, 由于#P)  (advmod, 树叶#VV, 无花果#AD)  (relcl, 花#NN, 树叶#VV)  (amod, 浓绿#NN, 厚#JJ)  (amod, 浓绿#NN, 大#JJ)  (dobj, 树叶#VV, 浓绿#NN)  (cc, 树叶#VV, 而#CC)  (prtmod, 开#VV, 所#MSP)  (dep, 树叶#VV, 开#VV)  (mark, 树叶#VV, 的#DEC)  (nsubj, 小#VA, 花#NN)  (advmod, 小#VA, 却#AD)  (advmod, 小#VA, 很#AD)  (prep, 被#LB, 小#VA)  (advmod, 枝叶#VV, 经常#AD)  (auxpass, 枝叶#VV, 被#SB)  (dep, 小#VA, 枝叶#VV)  (dobj, 枝叶#VV, 掩盖#NN)  (nsubjpass, 被#LB, 不易#NN)  (root, ROOT#null, 被#LB)  (nsubj, 发现#VV, 人们#NN)  (dep, 被#LB, 发现#VV)  (case, 露出#VV, 当#P)  (advmod, 露出#VV, 果子#AD)  (prep, 脱落#VV, 露出#VV)  (case, 露出#VV, 时#LC)  (nsubj, 脱落#VV, 花#NN)  (advmod, 脱落#VV, 已#AD)  (ccomp, 发现#VV, 脱落#VV)  (advmod, 认为#VV, 所以#AD)  (nsubj, 认为#VV, 人们#NN)  (conj, 被#LB, 认为#VV)  (nsubj, 不花而实#NN, 它#PN)  (cop, 不花而实#NN, 是#VC)  (ccomp, 认为#VV, 不花而实#NN)  (advmod, 命名#VV, 故#AD)  (conj, 不花而实#NN, 命名#VV)  (dep, 命名#VV, 为#VV)  (dobj, 为#VV, 无花果#NN)   (root, ROOT#null, 无花果#VV)  (dep, 烂#NN, 熟#VA)  (case, 熟#VA, 时#LC)  (amod, 烂#NN, 软#JJ)  (dobj, 无花果#VV, 烂#NN)  (advmod, 甘甜#VV, 味#AD)  (conj, 无花果#VV, 甘甜#VV)  (conj, 无核#NN, 如柿#NN)  (cc, 无核#NN, 而#CC)  (dobj, 甘甜#VV, 无核#NN)  (conj, 无花果#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 无花果#VV, 而#CC)  (advmod, 含有#VV, 全面#AD)  (case, 矿物质#NN, 除#P)  (nsubj, 必需#VV, 含有#NN)  (advmod, 必需#VV, 人体#AD)  (relcl, 矿物质#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (conj, 矿物质#NN, 氨基酸#NN)  (conj, 矿物质#NN, 维生素#NN)  (prep, 含有#VV, 矿物质#NN)  (case, 矿物质#NN, 外#LC)  (advmod, 含有#VV, 还#AD)  (conj, 无花果#VV, 含有#VV)  (conj, 蛋白酶#NR, 柠檬酸#NR)  (conj, 蛋白酶#NR, 延胡索酸#NR)  (conj, 蛋白酶#NR, 琥珀酸#NR)  (conj, 蛋白酶#NR, 奎宁酸#NR)  (conj, 蛋白酶#NR, 脂肪酶#NR)  (nn, 成分#NN, 蛋白酶#NR)  (etc, 蛋白酶#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (dobj, 含有#VV, 成分#NN)  (conj, 无花果#VV, 具有#VV)  (advmod, 好#VA, 很#AD)  (relcl, 功效#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 功效#NN, 食疗#NN)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            原产南部  等地  栽培历史  古罗马时代  果树神圣  无花果树  罗募路斯追赶  罗募路斯王子  妖婆  躲过啄木鸟  庇护追赶  沿岸国家  果是果实  树叶花  厚浓绿  大浓绿  树叶浓绿  枝叶掩盖  软烂  如柿  甘甜无核  营养丰富  必需矿物质  氨基酸  维生素  蛋白酶  柠檬酸  延胡索酸  琥珀酸  奎宁酸  脂肪酶  食疗功效  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.无花果可食率高，鲜果可食用部分达97%，干果和蜜饯类达100%，且含酸量低，无硬大的种子，因此尤适老人和儿童食用。
+            2.无花果含有苹果酸、柠檬酸、脂肪酶、蛋白酶、水解酶等，能帮助人体对食物的消化，促进食欲，又因其含有多种脂类，故具有润肠通便的效果。
+            3.无花果所含的脂肪酶、水解酶等有降低血脂和分解血脂的功能，可减少脂肪在血管内的沉积，进而起到降血压、预防冠心病的作用。
+            4.无花果有抗炎消肿之功，可利咽消肿。
+            5.未成熟果实的乳浆中含有补骨脂素、佛柑内酯等活性成分，其成熟果实的果汁中可提取一种芳香物质苯甲醛，二者都具有防癌抗癌、增强机体抗病能力的作用，可以预防多种癌症的发生，延缓移植性腺癌、淋巴肉瘤的发展，促使其退化，并对正常细胞不会产生毒害。
+        </rawdata>
+
+        <segment>
+            无花果  可食率  高  ，  鲜果  可  食用  部分  达  97%  ，  干果  和  蜜饯  类  达  100%  ，  且  含  酸量  低  ，  无  硬  大  的  种子  ，  因此  尤适  老人  和  儿童  食用  。
+            无花果  含有  苹果酸  、  柠檬酸  、  脂肪酶  、  蛋白酶  、  水解酶  等  ，  能  帮助  人体  对  食物  的  消化  ，  促进  食欲  ，  又  因  其  含有  多  种  脂类  ，  故  具有  润肠  通便  的  效果  。
+            无花果  所  含  的  脂肪酶  、  水解酶  等  有  降低  血脂  和  分解  血脂  的  功能  ，  可  减少  脂肪  在  血管  内  的  沉积  ，  进而  起到  降  血压  、  预防  冠心  病  的  作用  。
+            无花果  有  抗炎  消肿  之功  ，  可  利咽  消肿  。
+            未成熟  果实  的  乳浆  中  含有  补骨  脂素  、  佛柑  内酯  等  活性  成分  ，  其  成熟  果实  的  果汁  中  可  提取  一  种  芳香  物质  苯  甲醛  ，  二  者  都  具有  防癌  抗癌  、  增强  机体  抗病  能力  的  作用  ，  可以  预防  多  种  癌症  的  发生  ，  延缓  移植性  腺癌  、  淋巴  肉瘤  的  发展  ，  促使  其  退化  ，  并  对  正常  细胞  不  会  产生  毒害  。
+        </segment>
+
+        <pos>
+            无花果#NN  可食率#AD  高#VA  ，#PU  鲜果#AD  可#VV  食用#VV  部分#NN  达#VV  97#CD  %#NN  ，#PU  干果#NN  和#CC  蜜饯#NN  类#NN  达#VV  100#CD  %#NN  ，#PU  且#CC  含#VV  酸量#NN  低#VA  ，#PU  无#VE  硬#AD  大#VA  的#DEC  种子#NN  ，#PU  因此#AD  尤适#NR  老人#NN  和#CC  儿童#NN  食用#VV  。#PU
+            无花果#NN  含有#VV  苹果酸#NR  、#PU  柠檬酸#NR  、#PU  脂肪酶#NR  、#PU  蛋白酶#NR  、#PU  水解酶#NR  等#ETC  ，#PU  能#VV  帮助#VV  人体#VV  对#P  食物#NN  的#DEG  消化#NN  ，#PU  促进#VV  食欲#NN  ，#PU  又#AD  因#P  其#PN  含有#VV  多#CD  种#M  脂类#NN  ，#PU  故#AD  具有#VV  润肠#NN  通便#NN  的#DEG  效果#NN  。#PU
+            无花果#AD  所#MSP  含#VV  的#DEC  脂肪酶#NN  、#PU  水解酶#NN  等#ETC  有#VE  降低#VV  血脂#NN  和#CC  分解#VV  血脂#NN  的#DEC  功能#NN  ，#PU  可#VV  减少#VV  脂肪#NR  在#P  血管#NN  内#LC  的#DEG  沉积#NN  ，#PU  进而#AD  起到#VV  降#VV  血压#NN  、#PU  预防#NN  冠心#NN  病#NN  的#DEC  作用#NN  。#PU
+            无花果#AD  有#VE  抗炎#NN  消肿#NN  之功#NN  ，#PU  可#VV  利咽#VV  消肿#NN  。#PU
+            未成熟#NN  果实#NN  的#DEG  乳浆#NN  中#LC  含有#VV  补骨#NN  脂素#NN  、#PU  佛柑#NN  内酯#NN  等#ETC  活性#NN  成分#NN  ，#PU  其#PN  成熟#VA  果实#NN  的#DEG  果汁#NN  中#LC  可#VV  提取#VV  一#CD  种#M  芳香#JJ  物质#NN  苯#NN  甲醛#NN  ，#PU  二#CD  者#NN  都#AD  具有#VV  防癌#NN  抗癌#NN  、#PU  增强#VV  机体#NN  抗病#NN  能力#NN  的#DEG  作用#NN  ，#PU  可以#VV  预防#VV  多#CD  种#M  癌症#NN  的#DEC  发生#NN  ，#PU  延缓#VV  移植性#NN  腺癌#NN  、#PU  淋巴#VV  肉瘤#NR  的#DEG  发展#NN  ，#PU  促使#VV  其#PN  退化#VV  ，#PU  并#CC  对#P  正常#JJ  细胞#NN  不#AD  会#VV  产生#VV  毒害#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 高#VA, 无花果#NN)  (advmod, 高#VA, 可食率#AD)  (root, ROOT#null, 高#VA)  (advmod, 食用#VV, 鲜果#AD)  (mmod, 食用#VV, 可#VV)  (conj, 达#VV, 食用#VV)  (dobj, 食用#VV, 部分#NN)  (conj, 高#VA, 达#VV)  (nummod, %#NN, 97#CD)  (dobj, 达#VV, %#NN)  (conj, 蜜饯#NN, 干果#NN)  (cc, 蜜饯#NN, 和#CC)  (nn, 类#NN, 蜜饯#NN)  (nsubj, 达#VV, 类#NN)  (conj, 达#VV, 达#VV)  (nummod, %#NN, 100#CD)  (dobj, 达#VV, %#NN)  (cc, 达#VV, 且#CC)  (conj, 达#VV, 含#VV)  (dobj, 含#VV, 酸量#NN)  (conj, 含#VV, 低#VA)  (conj, 达#VV, 无#VE)  (advmod, 大#VA, 硬#AD)  (relcl, 种子#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 无#VE, 种子#NN)  (advmod, 食用#VV, 因此#AD)  (nn, 儿童#NN, 尤适#NR)  (conj, 儿童#NN, 老人#NN)  (cc, 儿童#NN, 和#CC)  (nsubj, 食用#VV, 儿童#NN)  (conj, 达#VV, 食用#VV)
+            (nsubj, 含有#VV, 无花果#NN)  (root, ROOT#null, 含有#VV)  (conj, 水解酶#NR, 苹果酸#NR)  (conj, 水解酶#NR, 柠檬酸#NR)  (conj, 水解酶#NR, 脂肪酶#NR)  (conj, 水解酶#NR, 蛋白酶#NR)  (dobj, 含有#VV, 水解酶#NR)  (etc, 水解酶#NR, 等#ETC)  (mmod, 帮助#VV, 能#VV)  (conj, 含有#VV, 帮助#VV)  (ccomp, 帮助#VV, 人体#VV)  (case, 食物#NN, 对#P)  (assmod, 消化#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (dobj, 人体#VV, 消化#NN)  (conj, 含有#VV, 促进#VV)  (dobj, 促进#VV, 食欲#NN)  (advmod, 含有#VV, 又#AD)  (case, 其#PN, 因#P)  (prep, 含有#VV, 其#PN)  (conj, 含有#VV, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 脂类#NN, 种#M)  (dobj, 含有#VV, 脂类#NN)  (advmod, 具有#VV, 故#AD)  (conj, 含有#VV, 具有#VV)  (nn, 通便#NN, 润肠#NN)  (assmod, 效果#NN, 通便#NN)  (case, 通便#NN, 的#DEG)  (dobj, 具有#VV, 效果#NN)
+            (advmod, 含#VV, 无花果#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 脂肪酶#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 水解酶#NN, 脂肪酶#NN)  (nsubj, 有#VE, 水解酶#NN)  (etc, 水解酶#NN, 等#ETC)  (root, ROOT#null, 有#VE)  (relcl, 功能#NN, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 分解#VV)  (dobj, 分解#VV, 血脂#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 功能#NN)  (mmod, 减少#VV, 可#VV)  (conj, 有#VE, 减少#VV)  (nn, 沉积#NN, 脂肪#NR)  (case, 血管#NN, 在#P)  (assmod, 沉积#NN, 血管#NN)  (case, 血管#NN, 内#LC)  (case, 血管#NN, 的#DEG)  (dobj, 减少#VV, 沉积#NN)  (advmod, 起到#VV, 进而#AD)  (conj, 有#VE, 起到#VV)  (relcl, 作用#NN, 降#VV)  (conj, 病#NN, 血压#NN)  (nn, 病#NN, 预防#NN)  (nn, 病#NN, 冠心#NN)  (dobj, 降#VV, 病#NN)  (mark, 降#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+            (advmod, 有#VE, 无花果#AD)  (root, ROOT#null, 有#VE)  (nn, 之功#NN, 抗炎#NN)  (nn, 之功#NN, 消肿#NN)  (dobj, 有#VE, 之功#NN)  (mmod, 利咽#VV, 可#VV)  (dep, 有#VE, 利咽#VV)  (dobj, 利咽#VV, 消肿#NN)
+            (nn, 果实#NN, 未成熟#NN)  (assmod, 乳浆#NN, 果实#NN)  (case, 果实#NN, 的#DEG)  (loc, 含有#VV, 乳浆#NN)  (case, 乳浆#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nn, 内酯#NN, 补骨#NN)  (conj, 内酯#NN, 脂素#NN)  (nn, 内酯#NN, 佛柑#NN)  (nn, 成分#NN, 内酯#NN)  (etc, 内酯#NN, 等#ETC)  (nn, 成分#NN, 活性#NN)  (dobj, 含有#VV, 成分#NN)  (nsubj, 提取#VV, 其#PN)  (relcl, 果实#NN, 成熟#VA)  (assmod, 果汁#NN, 果实#NN)  (case, 果实#NN, 的#DEG)  (loc, 提取#VV, 果汁#NN)  (case, 果汁#NN, 中#LC)  (mmod, 提取#VV, 可#VV)  (conj, 含有#VV, 提取#VV)  (nummod, 种#M, 一#CD)  (clf, 甲醛#NN, 种#M)  (amod, 甲醛#NN, 芳香#JJ)  (nn, 甲醛#NN, 物质#NN)  (nn, 甲醛#NN, 苯#NN)  (dobj, 提取#VV, 甲醛#NN)  (nummod, 者#NN, 二#CD)  (nsubj, 具有#VV, 者#NN)  (advmod, 具有#VV, 都#AD)  (conj, 含有#VV, 具有#VV)  (nn, 抗癌#NN, 防癌#NN)  (dobj, 具有#VV, 抗癌#NN)  (conj, 具有#VV, 增强#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (assmod, 作用#NN, 能力#NN)  (case, 能力#NN, 的#DEG)  (dobj, 增强#VV, 作用#NN)  (conj, 具有#VV, 可以#VV)  (relcl, 发生#NN, 预防#VV)  (nummod, 种#M, 多#CD)  (clf, 癌症#NN, 种#M)  (dobj, 预防#VV, 癌症#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 可以#VV, 发生#NN)  (conj, 具有#VV, 延缓#VV)  (nn, 腺癌#NN, 移植性#NN)  (dobj, 延缓#VV, 腺癌#NN)  (conj, 具有#VV, 淋巴#VV)  (assmod, 发展#NN, 肉瘤#NR)  (case, 肉瘤#NR, 的#DEG)  (dobj, 淋巴#VV, 发展#NN)  (conj, 具有#VV, 促使#VV)  (nsubj, 退化#VV, 其#PN)  (ccomp, 促使#VV, 退化#VV)  (cc, 具有#VV, 并#CC)  (case, 细胞#NN, 对#P)  (amod, 细胞#NN, 正常#JJ)  (prep, 产生#VV, 细胞#NN)  (neg, 产生#VV, 不#AD)  (mmod, 产生#VV, 会#VV)  (conj, 具有#VV, 产生#VV)  (dobj, 产生#VV, 毒害#NN)
+        </parsing>
+
+        <tag>
+            食用部分  蜜饯  干果  儿童  老人  水解酶  苹果酸  柠檬酸  蛋白酶  人体消化  促进食欲  含有脂类  润肠通便  含脂肪酶  降低功能  降低血脂  分解血脂  减少沉积  抗炎之功  消肿之功  利咽消肿  未成熟果实  补骨内酯  脂素  佛柑内酯  果实成熟  芳香甲醛  提取甲醛  防癌抗癌  机体能力  抗病能力  预防癌症  移植性腺癌  延缓腺癌  淋巴发展  正常细胞  产生毒害  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  促进消化  通便  抗癌防癌  生津止渴  清热  消肿毒  补脾胃  致泻  镇痛  增强免疫力  抗氧化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.无花果含有丰富的氨基酸，鲜果为1.0%，干果5.3%;目前已经发现18种。不仅因人体必须的8种氨基酸皆有而表现出较高的利用价值，且尤以天门冬氨酸(1.9%干重)含量最高，对抗白血病和恢复体力，消除疲劳有很好的作用。因此，国外将一种无花果饮品作为“咔啡代用品”。
+            2.无花果干物质含量很高，鲜果为14-20%，干果达70%以上。其中，可被人体直接吸收利用的葡萄糖含量占34.3%(干重)，果糖占31.2%(干重)而蔗糖仅占7.82%(干重)。所以热卡较低，在日本被称为低热量食品。国内医学研究证明，是一种减肥保健食品。
+            3.无花果含有多糖，占6.49%(干重)，主要为阿拉伯糖和半乳糖，对抗衰老有一定作用。
+            4.无花果含有多种维生素，特别是含有较多的胡萝卜素，鲜果为30mg/100g,干果为70mg/100g，居于桃、葡萄、梅、梨、柑桔、甜柿以上。
+        </rawdata>
+
+        <segment>
+            无花果  含有  丰富  的  氨基酸  ，  鲜果  为  1.0%  ，  干果  5.3%  ;  目前  已经  发现  18  种  。  不仅  因  人体  必须  的  8  种  氨基酸  皆  有  而  表现  出  较  高  的  利用  价值  ，  且  尤  以  天门冬  氨酸  (  1.9%  干重  )  含量  最高  ，  对抗  白血病  和  恢复  体力  ，  消除  疲劳  有  很  好  的  作用  。  因此  ，  国外  将  一  种  无花果  饮品  作为  “  咔啡  代用品  ”  。
+            无花  果干  物质  含量  很  高  ，  鲜果  为  14-20%  ，  干果  达  70%  以上  。  其中  ，  可  被  人体  直接  吸收  利用  的  葡萄糖  含量  占  34.3%  (  干重  )  ，  果糖  占  31.2%  (  干重  )  而  蔗糖  仅  占  7.82%  (  干重  )  。  所以  热  卡  较  低  ，  在  日本  被  称为  低  热量  食品  。  国内  医学  研究  证明  ，  是  一  种  减肥  保健  食品  。
+            无花果  含有  多糖  ，  占  6.49%  (  干重  )  ，  主要  为  阿拉伯糖  和  半乳糖  ，  对抗  衰老  有一定  作用  。
+            无花果  含有  多  种  维生素  ，  特别是  含有  较多  的  胡萝卜素  ，  鲜果  为  30mg/100g  ,  干果  为  70mg/100g  ，  居于  桃  、  葡萄  、  梅  、  梨  、  柑桔  、  甜柿  以上  。
+        </segment>
+
+        <pos>
+            无花果#NN  含有#NN  丰富#VA  的#DEC  氨基酸#NN  ，#PU  鲜果#NN  为#VC  1.0#CD  %#NN  ，#PU  干果#NR  5.3#CD  %#NN  ;#NN  目前#NT  已经#AD  发现#VV  18#CD  种#M    。#PU  不仅#AD  因#P  人体#NR  必须#VV  的#DEC  8#CD  种#M  氨基酸#NN  皆#AD  有#VE  而#MSP  表现#VV  出#VV  较#AD  高#VA  的#DEC  利用#NN  价值#NN  ，#PU  且#CC  尤#AD  以#P  天门冬#NN  氨酸#NN  -LRB-#VV  1.9#CD  %#JJ  干重#NN  -RRB-#NN  含量#NN  最高#JJ  ，#PU  对抗#VV  白血病#NN  和#CC  恢复#VV  体力#NN  ，#PU  消除#VV  疲劳#VA  有#VE  很#AD  好#VA  的#DEC  作用#NN    。#PU  因此#AD  ，#PU  国外#NN  将#BA  一#CD  种#M  无花果#NN  饮品#NN  作为#P  ``#NN  咔啡#VV  代用品#VV  ''#NN    。#PU    。#PU
+            无花#NN  果干#NN  物质#NN  含量#NN  很#AD  高#VA  ，#PU  鲜果#NN  为#VC  14-20#CD  %#NN  ，#PU  干果#NN  达#VV  70#CD  %#NN  以上#LC    。#PU  其中#NN  ，#PU  可#VV  被#LB  人体#NR  直接#AD  吸收#VV  利用#VV  的#DEC  葡萄糖#NN  含量#NN  占#VV  34.3#CD  %#JJ  -LRB-#NN  干重#NN  -RRB-#NN  ，#PU  果糖#AD  占#VV  31.2#CD  %#NN  -LRB-#NN  干重#NR  -RRB-#NN  而#CC  蔗糖#NN  仅#AD  占#VV  7.82#CD  %#JJ  -LRB-#NN  干重#NN  -RRB-#NN    。#PU  所以#AD  热#JJ  卡#NN  较#AD  低#VA  ，#PU  在#P  日本#NR  被#SB  称为#VV  低#JJ  热量#NN  食品#NN    。#PU  国内#NN  医学#NN  研究#NN  证明#VV  ，#PU  是#VC  一#CD  种#M  减肥#VV  保健#NN  食品#NN    。#PU    。#PU
+            无花果#NN  含有#VV  多糖#NN  ，#PU  占#VV  6.49#CD  %#VV  -LRB-#NN  干重#NN  -RRB-#NN  ，#PU  主要#AD  为#VC  阿拉伯糖#CD  和#CC  半乳糖#CD  ，#PU  对抗#VV  衰老#NN  有一定#CD  作用#NN  。#PU
+            无花果#NN  含有#VV  多#CD  种#M  维生素#NN  ，#PU  特别是#AD  含有#NN  较多#NN  的#DEG  胡萝卜素#NN  ，#PU  鲜果#NN  为#VC  30mg/100g#CD  ,#NN  干果#NN  为#VC  70mg/100g#CD  ，#PU  居于#VV  桃#NR  、#PU  葡萄#NR  、#PU  梅#NR  、#PU  梨#NR  、#PU  柑桔#NR  、#PU  甜柿#NR  以上#LC  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 无花果#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 氨基酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, %#NN, 氨基酸#NN)  (nsubj, %#NN, 鲜果#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 1.0#CD)  (root, ROOT#null, %#NN)  (nn, %#NN, 干果#NR)  (nummod, %#NN, 5.3#CD)  (nn, ;#NN, %#NN)  (nsubj, 发现#VV, ;#NN)  (tmod, 发现#VV, 目前#NT)  (advmod, 发现#VV, 已经#AD)  (conj, %#NN, 发现#VV)  (nummod, 种#M, 18#CD)  (range, 发现#VV, 种#M)   (advmod, 必须#VV, 不仅#AD)  (case, 人体#NR, 因#P)  (prep, 必须#VV, 人体#NR)  (relcl, 氨基酸#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 有#VE, 氨基酸#NN)  (advmod, 有#VE, 皆#AD)  (root, ROOT#null, 有#VE)  (prtmod, 出#VV, 而#MSP)  (mmod, 出#VV, 表现#VV)  (conj, 有#VE, 出#VV)  (advmod, 高#VA, 较#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nn, 价值#NN, 利用#NN)  (dobj, 出#VV, 价值#NN)  (cc, 出#VV, 且#CC)  (advmod, -LRB-#VV, 尤#AD)  (case, 氨酸#NN, 以#P)  (nn, 氨酸#NN, 天门冬#NN)  (prep, -LRB-#VV, 氨酸#NN)  (nummod, 含量#NN, 1.9#CD)  (amod, 含量#NN, %#JJ)  (nn, 含量#NN, 干重#NN)  (dobj, -LRB-#VV, 含量#NN)  (dep, -LRB-#VV, 最高#JJ)  (dep, 最高#JJ, 对抗#VV)  (dobj, 对抗#VV, 白血病#NN)  (cc, -LRB-#VV, 和#CC)  (conj, -LRB-#VV, 恢复#VV)  (dobj, 恢复#VV, 体力#NN)  (dep, 出#VV, 消除#VV)  (dep, 消除#VV, 疲劳#VA)  (dep, 有#VE, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)   (advmod, 咔啡#VV, 因此#AD)  (nsubj, 咔啡#VV, 国外#NN)  (ba, 咔啡#VV, 将#BA)  (nummod, 种#M, 一#CD)  (clf, 饮品#NN, 种#M)  (nn, 饮品#NN, 无花果#NN)  (nsubj, 咔啡#VV, 饮品#NN)  (case, ``#NN, 作为#P)  (prep, 咔啡#VV, ``#NN)  (conj, 代用品#VV, 咔啡#VV)  (root, ROOT#null, 代用品#VV)  (dobj, 代用品#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 含量#NN, 无花#NN)  (nn, 含量#NN, 果干#NN)  (nn, 含量#NN, 物质#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (nsubj, %#NN, 鲜果#NN)  (cop, %#NN, 为#VC)  (nummod, %#NN, 14-20#CD)  (conj, 高#VA, %#NN)  (nsubj, 达#VV, 干果#NN)  (conj, 高#VA, 达#VV)  (nummod, %#NN, 70#CD)  (loc, 达#VV, %#NN)  (case, %#NN, 以上#LC)   (nsubj, 占#VV, 其中#NN)  (mmod, 被#LB, 可#VV)  (relcl, 含量#NN, 被#LB)  (nsubj, 吸收#VV, 人体#NR)  (advmod, 吸收#VV, 直接#AD)  (dep, 被#LB, 吸收#VV)  (comod, 吸收#VV, 利用#VV)  (mark, 被#LB, 的#DEC)  (nn, 含量#NN, 葡萄糖#NN)  (nsubj, 占#VV, 含量#NN)  (root, ROOT#null, 占#VV)  (nummod, -RRB-#NN, 34.3#CD)  (amod, -RRB-#NN, %#JJ)  (nn, -RRB-#NN, 干重#NN)  (advmod, 占#VV, 果糖#AD)  (conj, 占#VV, 占#VV)  (nummod, -LRB-#NN, 31.2#CD)  (nn, -LRB-#NN, %#NN)  (nn, 蔗糖#NN, 干重#NR)  (cc, 蔗糖#NN, 而#CC)  (nsubj, 占#VV, 蔗糖#NN)  (advmod, 占#VV, 仅#AD)  (conj, 占#VV, 占#VV)  (nummod, -RRB-#NN, 7.82#CD)  (amod, -RRB-#NN, %#JJ)  (nn, -RRB-#NN, 干重#NN)   (advmod, 低#VA, 所以#AD)  (amod, 卡#NN, 热#JJ)  (nsubj, 低#VA, 卡#NN)  (advmod, 低#VA, 较#AD)  (root, ROOT#null, 低#VA)  (case, 日本#NR, 在#P)  (prep, 称为#VV, 日本#NR)  (auxpass, 称为#VV, 被#SB)  (conj, 低#VA, 称为#VV)  (amod, 热量#NN, 低#JJ)  (nn, 食品#NN, 热量#NN)  (dobj, 称为#VV, 食品#NN)   (nn, 研究#NN, 国内#NN)  (nn, 研究#NN, 医学#NN)  (nsubj, 证明#VV, 研究#NN)  (root, ROOT#null, 证明#VV)  (conj, 减肥#VV, 是#VC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (ccomp, 证明#VV, 减肥#VV)  (nn, 食品#NN, 保健#NN)  (dobj, 减肥#VV, 食品#NN)   (root, ROOT#null, null#null)
+            (nsubj, 含有#VV, 无花果#NN)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 多糖#NN)  (conj, 含有#VV, 占#VV)  (range, 占#VV, 6.49#CD)  (conj, 占#VV, %#VV)  (nn, -RRB-#NN, 干重#NN)  (advmod, 为#VC, 主要#AD)  (conj, 含有#VV, 为#VC)  (nummod, 半乳糖#CD, 阿拉伯糖#CD)  (cc, 半乳糖#CD, 和#CC)  (dep, 为#VC, 半乳糖#CD)  (conj, 含有#VV, 对抗#VV)  (nn, 作用#NN, 衰老#NN)  (nummod, 作用#NN, 有一定#CD)  (dobj, 对抗#VV, 作用#NN)
+            (nsubj, 含有#VV, 无花果#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 维生素#NN, 种#M)  (dobj, 含有#VV, 维生素#NN)  (advmod, 较多#NN, 特别是#AD)  (nn, 较多#NN, 含有#NN)  (assmod, 胡萝卜素#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dep, 为#VC, 胡萝卜素#NN)  (nsubj, 为#VC, 鲜果#NN)  (conj, 含有#VV, 为#VC)  (dep, 为#VC, 30mg/100g#CD)  (nsubj, 为#VC, 干果#NN)  (conj, 为#VC, 为#VC)  (dep, 为#VC, 70mg/100g#CD)  (conj, 含有#VV, 居于#VV)  (conj, 甜柿#NR, 桃#NR)  (conj, 甜柿#NR, 葡萄#NR)  (conj, 甜柿#NR, 梅#NR)  (conj, 甜柿#NR, 梨#NR)  (conj, 甜柿#NR, 柑桔#NR)  (loc, 居于#VV, 甜柿#NR)  (case, 甜柿#NR, 以上#LC)
+        </parsing>
+
+        <tag>
+            含有丰富  氨基酸丰富  必须氨基酸  利用价值  天门冬氨酸  对抗白血病  恢复体力  热卡  低热量  热量食品  称为食品  国内研究  医学研究  证明  保健食品  减肥食品  含有多糖  含有维生素  含有较多  胡萝卜素  甜柿  葡萄  柑桔  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.无花果同番木瓜一样，不仅可以当水果鲜食，也可用于烹饪菜肴。
+            2.将新鲜的无花果切成片，临睡前贴在眼下部皮肤上，坚持使用可减轻下眼袋。
+            3.无花果除鲜食、药用外，还可加工制干、制果脯、果酱、果汁、果茶、果酒、饮料、罐头等。无花果干无任何化学添加剂，味道浓厚、甘甜，在国内外市场极为畅销。无花果汁、饮料具有独特的清香味，生津止渴，老幼皆宜。
+        </rawdata>
+
+        <segment>
+            无花果  同  番木瓜  一样  ，  不仅  可以  当  水果  鲜食  ，  也可  用于  烹饪  菜肴  。
+            将  新鲜  的  无花果  切  成片  ，  临  睡前  贴在  眼下  部  皮肤上  ，  坚持  使用  可  减轻  下  眼袋  。
+            无花果  除  鲜食  、  药用  外  ，  还  可加  工制  干  、  制  果脯  、  果酱  、  果汁  、  果茶  、  果酒  、  饮料  、  罐头  等  。  无花  果干  无  任何  化学  添加剂  ，  味道  浓厚  、  甘甜  ，  在  国内外  市场  极为  畅销  。  无花  果汁  、  饮料  具有  独特  的  清香味  ，  生津止渴  ，  老幼  皆  宜  。
+        </segment>
+
+        <pos>
+            无花果#NN  同#P  番木瓜#NR  一样#VA  ，#PU  不仅#CC  可以#VV  当#P  水果#NN  鲜食#NN  ，#PU  也可#AD  用于#VV  烹饪#NN  菜肴#NN  。#PU
+            将#AD  新鲜#VA  的#DEC  无花果#NN  切#VV  成片#AD  ，#PU  临#P  睡前#NN  贴在#NN  眼下#AD  部#NN  皮肤上#NN  ，#PU  坚持#VV  使用#VV  可#VV  减轻#VV  下#DT  眼袋#NN  。#PU
+            无花果#NN  除#P  鲜食#NR  、#PU  药用#NR  外#LC  ，#PU  还#AD  可加#AD  工制#AD  干#VV  、#PU  制#VV  果脯#NN  、#PU  果酱#NN  、#PU  果汁#NN  、#PU  果茶#NN  、#PU  果酒#NN  、#PU  饮料#NN  、#PU  罐头#NN  等#ETC    。#PU  无花#NN  果干#AD  无#VE  任何#DT  化学#NN  添加剂#NN  ，#PU  味道#NN  浓厚#NN  、#PU  甘甜#NN  ，#PU  在#P  国内外#NN  市场#NN  极为#AD  畅销#VV    。#PU  无花#VV  果汁#NN  、#PU  饮料#NN  具有#VV  独特#VA  的#DEC  清香味#NN  ，#PU  生津止渴#VV  ，#PU  老幼#VV  皆#AD  宜#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 一样#VA, 无花果#NN)  (case, 番木瓜#NR, 同#P)  (prep, 一样#VA, 番木瓜#NR)  (root, ROOT#null, 一样#VA)  (cc, 一样#VA, 不仅#CC)  (mmod, 用于#VV, 可以#VV)  (case, 鲜食#NN, 当#P)  (nn, 鲜食#NN, 水果#NN)  (prep, 用于#VV, 鲜食#NN)  (advmod, 用于#VV, 也可#AD)  (dep, 一样#VA, 用于#VV)  (nn, 菜肴#NN, 烹饪#NN)  (dobj, 用于#VV, 菜肴#NN)
+            (advmod, 新鲜#VA, 将#AD)  (relcl, 无花果#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nsubj, 切#VV, 无花果#NN)  (root, ROOT#null, 切#VV)  (advmod, 切#VV, 成片#AD)  (case, 贴在#NN, 临#P)  (nn, 贴在#NN, 睡前#NN)  (prep, 坚持#VV, 贴在#NN)  (advmod, 坚持#VV, 眼下#AD)  (nn, 皮肤上#NN, 部#NN)  (nsubj, 坚持#VV, 皮肤上#NN)  (conj, 切#VV, 坚持#VV)  (ccomp, 坚持#VV, 使用#VV)  (mmod, 减轻#VV, 可#VV)  (dep, 坚持#VV, 减轻#VV)  (det, 眼袋#NN, 下#DT)  (dobj, 减轻#VV, 眼袋#NN)
+            (nsubj, 干#VV, 无花果#NN)  (case, 药用#NR, 除#P)  (conj, 药用#NR, 鲜食#NR)  (prep, 干#VV, 药用#NR)  (case, 药用#NR, 外#LC)  (advmod, 干#VV, 还#AD)  (advmod, 干#VV, 可加#AD)  (advmod, 干#VV, 工制#AD)  (root, ROOT#null, 干#VV)  (dep, 干#VV, 制#VV)  (conj, 饮料#NN, 果脯#NN)  (conj, 饮料#NN, 果酱#NN)  (conj, 饮料#NN, 果汁#NN)  (conj, 饮料#NN, 果茶#NN)  (conj, 饮料#NN, 果酒#NN)  (dep, 制#VV, 饮料#NN)  (dep, 饮料#NN, 罐头#NN)  (etc, 罐头#NN, 等#ETC)   (nsubj, 无#VE, 无花#NN)  (advmod, 无#VE, 果干#AD)  (root, ROOT#null, 无#VE)  (det, 甘甜#NN, 任何#DT)  (nn, 甘甜#NN, 化学#NN)  (conj, 甘甜#NN, 添加剂#NN)  (nn, 甘甜#NN, 味道#NN)  (conj, 甘甜#NN, 浓厚#NN)  (dobj, 无#VE, 甘甜#NN)  (case, 市场#NN, 在#P)  (nn, 市场#NN, 国内外#NN)  (prep, 畅销#VV, 市场#NN)  (advmod, 畅销#VV, 极为#AD)  (conj, 无#VE, 畅销#VV)   (root, ROOT#null, 无花#VV)  (conj, 饮料#NN, 果汁#NN)  (dobj, 无花#VV, 饮料#NN)  (conj, 无花#VV, 具有#VV)  (relcl, 清香味#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (dobj, 具有#VV, 清香味#NN)  (conj, 无花#VV, 生津止渴#VV)  (dep, 无花#VV, 老幼#VV)  (advmod, 老幼#VV, 皆#AD)  (dobj, 老幼#VV, 宜#NR)
+        </parsing>
+
+        <tag>
+            水果鲜食  烹饪菜肴  用于菜肴  睡前贴在  减轻眼袋  药用  果脯  果酱  果汁  果茶  果酒  化学甘甜  添加剂  味道甘甜  浓厚  国内外市场  无花饮料  清香味独特  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101633187846.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\326 无花果.jpg
+    </picturelocalurl>
+
+</content>

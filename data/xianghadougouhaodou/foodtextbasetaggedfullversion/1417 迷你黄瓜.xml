@@ -1,0 +1,124 @@
+<content>
+
+    <id>
+        1417
+    </id>
+
+    <foodname>
+        迷你黄瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        荷兰乳黄瓜
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            迷你型黄瓜原产地为荷兰，在欧洲其它国家也有类似的品种。瓜短小，长15cm以内；表面光滑，无刺无瘤；瓜皮绿色，有光泽。雌性系，每节都长瓜。目前我国已育成多个品种，并已在生产上大量栽培。此瓜口感脆嫩，常作为水果食用。
+        </rawdata>
+
+        <segment>
+            迷你型  黄瓜  原  产地  为  荷兰  ，  在  欧洲  其它  国家  也  有  类似  的  品种  。  瓜  短小  ，  长  15  cm  以内  ；  表面  光滑  ，  无  刺无瘤  ；  瓜皮  绿色  ，  有光泽  。  雌性  系  ，  每节  都  长瓜  。  目前  我国  已  育成  多  个  品种  ，  并  已  在  生产  上  大量  栽培  。  此  瓜  口感  脆嫩  ，  常  作为  水果  食用  。
+        </segment>
+
+        <pos>
+            迷你型#NN  黄瓜#NN  原#JJ  产地#NN  为#P  荷兰#NR  ，#PU  在#P  欧洲#NR  其它#DT  国家#NN  也#AD  有#VE  类似#VA  的#DEC  品种#NN    。#PU  瓜#NN  短小#VV  ，#PU  长#VV  15#CD  cm#NN  以内#LC  ；#PU  表面#VA  光滑#VA  ，#PU  无#VE  刺无瘤#NN  ；#PU  瓜皮#VV  绿色#NN  ，#PU  有光泽#VV    。#PU  雌性#NN  系#VC  ，#PU  每节#NN  都#AD  长瓜#VV    。#PU  目前#NT  我国#AD  已#AD  育成#VV  多#CD  个#M  品种#NN  ，#PU  并#CC  已#AD  在#P  生产#NN  上#LC  大量#AD  栽培#VV    。#PU  此#PN  瓜#NN  口感#NN  脆嫩#VV  ，#PU  常#AD  作为#P  水果#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 黄瓜#NN, 迷你型#NN)  (nn, 产地#NN, 黄瓜#NN)  (amod, 产地#NN, 原#JJ)  (nsubj, 有#VE, 产地#NN)  (case, 荷兰#NR, 为#P)  (prep, 有#VE, 荷兰#NR)  (case, 国家#NN, 在#P)  (nn, 国家#NN, 欧洲#NR)  (det, 国家#NN, 其它#DT)  (prep, 有#VE, 国家#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (relcl, 品种#NN, 类似#VA)  (mark, 类似#VA, 的#DEC)  (dobj, 有#VE, 品种#NN)   (nsubj, 短小#VV, 瓜#NN)  (root, ROOT#null, 短小#VV)  (ccomp, 短小#VV, 长#VV)  (nummod, cm#NN, 15#CD)  (loc, 长#VV, cm#NN)  (case, cm#NN, 以内#LC)  (dep, 长#VV, 表面#VA)  (comod, 表面#VA, 光滑#VA)  (dep, 表面#VA, 无#VE)  (dobj, 无#VE, 刺无瘤#NN)  (dep, 长#VV, 瓜皮#VV)  (dobj, 瓜皮#VV, 绿色#NN)  (dep, 长#VV, 有光泽#VV)   (nsubj, 长瓜#VV, 雌性#NN)  (cop, 长瓜#VV, 系#VC)  (nsubj, 长瓜#VV, 每节#NN)  (advmod, 长瓜#VV, 都#AD)  (root, ROOT#null, 长瓜#VV)   (tmod, 育成#VV, 目前#NT)  (advmod, 育成#VV, 我国#AD)  (advmod, 育成#VV, 已#AD)  (root, ROOT#null, 育成#VV)  (nummod, 个#M, 多#CD)  (clf, 品种#NN, 个#M)  (dobj, 育成#VV, 品种#NN)  (cc, 育成#VV, 并#CC)  (advmod, 栽培#VV, 已#AD)  (case, 生产#NN, 在#P)  (prep, 栽培#VV, 生产#NN)  (case, 生产#NN, 上#LC)  (advmod, 栽培#VV, 大量#AD)  (dep, 育成#VV, 栽培#VV)   (nsubj, 脆嫩#VV, 此#PN)  (xsubj, 食用#VV, 此#PN)  (nn, 口感#NN, 瓜#NN)  (nsubj, 脆嫩#VV, 口感#NN)  (xsubj, 食用#VV, 口感#NN)  (root, ROOT#null, 脆嫩#VV)  (advmod, 食用#VV, 常#AD)  (case, 水果#NN, 作为#P)  (prep, 食用#VV, 水果#NN)  (ccomp, 脆嫩#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            迷你型黄瓜  黄瓜产地  原产地  品种类似  短小  光滑表面  瓜皮绿色  长瓜  育成品种  脆嫩  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            迷你黄瓜味甘，性凉。能清热止渴，利水消肿，清火解毒，降压去脂，改善动脉硬化。
+        </rawdata>
+
+        <segment>
+            迷你  黄瓜  味甘  ，  性凉  。  能  清热  止渴  ，  利水  消肿  ，  清火  解毒  ，  降压  去脂  ，  改善  动脉  硬化  。
+        </segment>
+
+        <pos>
+            迷你#NN  黄瓜#NN  味甘#VV  ，#PU  性凉#VV    。#PU  能#VV  清热#VV  止渴#NN  ，#PU  利水#VV  消肿#NN  ，#PU  清火#VV  解毒#NN  ，#PU  降压#VV  去脂#NN  ，#PU  改善#VV  动脉#NN  硬化#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 黄瓜#NN, 迷你#NN)  (nsubj, 味甘#VV, 黄瓜#NN)  (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性凉#VV)   (mmod, 清热#VV, 能#VV)  (root, ROOT#null, 清热#VV)  (dobj, 清热#VV, 止渴#NN)  (conj, 清热#VV, 利水#VV)  (dobj, 利水#VV, 消肿#NN)  (conj, 清热#VV, 清火#VV)  (dobj, 清火#VV, 解毒#NN)  (conj, 清热#VV, 降压#VV)  (dobj, 降压#VV, 去脂#NN)  (conj, 清热#VV, 改善#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 改善#VV, 硬化#NN)
+        </parsing>
+
+        <tag>
+            迷你黄瓜  味甘  清热止渴  利水消肿  清火解毒  降压去脂  动脉硬化  改善硬化  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  减肥
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.黄瓜当水果生吃，不宜过多;
+            2.黄瓜中维生素较少，因此常吃黄瓜时应同时吃些其他的蔬果。
+        </rawdata>
+
+        <segment>
+            黄瓜  当  水果  生吃  ，  不  宜  过多  ;
+            黄瓜  中  维生素  较少  ，  因此  常  吃  黄瓜  时  应  同时  吃  些  其他  的  蔬果  。
+        </segment>
+
+        <pos>
+            黄瓜#NN  当#P  水果#NN  生吃#NN  ，#PU  不#AD  宜#NR  过多#VV  ;#NN
+            黄瓜#NR  中#NR  维生素#NN  较少#NN  ，#PU  因此#AD  常#AD  吃#VV  黄瓜#NN  时#LC  应#VV  同时#AD  吃#VV  些#CD  其他#DT  的#DEG  蔬果#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 过多#VV, 黄瓜#NN)  (case, 生吃#NN, 当#P)  (nn, 生吃#NN, 水果#NN)  (prep, 过多#VV, 生吃#NN)  (neg, 过多#VV, 不#AD)  (dep, 过多#VV, 宜#NR)  (root, ROOT#null, 过多#VV)  (dobj, 过多#VV, ;#NN)
+            (nn, 中#NR, 黄瓜#NR)  (nn, 较少#NN, 中#NR)  (nn, 较少#NN, 维生素#NN)  (nsubj, 吃#VV, 较少#NN)  (advmod, 吃#VV, 因此#AD)  (advmod, 吃#VV, 常#AD)  (loc, 吃#VV, 吃#VV)  (dobj, 吃#VV, 黄瓜#NN)  (case, 吃#VV, 时#LC)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 同时#AD)  (root, ROOT#null, 吃#VV)  (nummod, 蔬果#NN, 些#CD)  (assmod, 蔬果#NN, 其他#DT)  (case, 其他#DT, 的#DEG)  (dobj, 吃#VV, 蔬果#NN)
+        </parsing>
+
+        <tag>
+            水果生吃  过多  维生素较少  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/98/ef/61336_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1417 迷你黄瓜.jpg
+    </picturelocalurl>
+
+</content>

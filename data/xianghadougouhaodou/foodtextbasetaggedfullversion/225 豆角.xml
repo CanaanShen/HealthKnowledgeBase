@@ -1,0 +1,366 @@
+<content>
+
+    <id>
+        225
+    </id>
+
+    <foodname>
+        豆角
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        长角豆、带豆、裙带豆
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹胀者忌食。
+        </rawdata>
+
+        <segment>
+            腹胀者  忌食  。
+        </segment>
+
+        <pos>
+            腹胀者#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 腹胀者#VV)  (dobj, 腹胀者#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            腹胀者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜妇女多白带者、皮肤瘙痒、急性肠炎者、癌症、急性肠胃炎、食欲不振者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  妇女  多  白带者  、  皮肤  瘙痒  、  急性  肠炎  者  、  癌症  、  急性  肠  胃炎  、  食欲不振者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  妇女#NN  多#CD  白带者#NN  、#PU  皮肤#NN  瘙痒#NN  、#PU  急性#NN  肠炎#NN  者#NN  、#PU  癌症#NN  、#PU  急性#NN  肠#NN  胃炎#NN  、#PU  食欲不振者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 白带者#NN, 妇女#NN)  (nummod, 白带者#NN, 多#CD)  (conj, 食欲不振者#NN, 白带者#NN)  (nn, 瘙痒#NN, 皮肤#NN)  (conj, 食欲不振者#NN, 瘙痒#NN)  (nn, 者#NN, 急性#NN)  (nn, 者#NN, 肠炎#NN)  (conj, 食欲不振者#NN, 者#NN)  (conj, 食欲不振者#NN, 癌症#NN)  (nn, 胃炎#NN, 急性#NN)  (nn, 胃炎#NN, 肠#NN)  (conj, 食欲不振者#NN, 胃炎#NN)  (dobj, 适宜#VV, 食欲不振者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  妇女多白带者  皮肤瘙痒  急性肠炎者  癌症  急性肠胃炎  食欲不振者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                6.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                200
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素K（微克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                207
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.41
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆角，是夏天盛产的蔬菜。含有各种维生素和矿物质等。嫩豆荚肉质肥厚，炒食脆嫩，也可烫后凉拌或腌泡。豆荚长而像管状，质脆而身软，常见有白豆角和青豆角两种。
+        </rawdata>
+
+        <segment>
+            豆角  ，  是  夏天  盛产  的  蔬菜  。  含有  各  种  维生素  和  矿物质  等  。  嫩豆荚  肉质  肥厚  ，  炒  食  脆嫩  ，  也可烫  后  凉拌  或  腌泡  。  豆荚  长  而  像  管状  ，  质  脆  而  身软  ，  常见  有  白  豆角  和  青豆  角  两  种  。
+        </segment>
+
+        <pos>
+            豆角#VV  ，#PU  是#VC  夏天#NT  盛产#VV  的#DEC  蔬菜#NN    。#PU  含有#VV  各#DT  种#M  维生素#NN  和#CC  矿物质#NN  等#ETC    。#PU  嫩豆荚#NN  肉质#NN  肥厚#VV  ，#PU  炒#NN  食#NN  脆嫩#NN  ，#PU  也可烫#NN  后#LC  凉拌#VV  或#CC  腌泡#VV    。#PU  豆荚#AD  长#VA  而#CC  像#P  管状#NR  ，#PU  质#NN  脆#NN  而#MSP  身软#VV  ，#PU  常见#VA  有#VE  白#JJ  豆角#NN  和#CC  青豆#NN  角#NN  两#CD  种#M    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 豆角#VV)  (cop, 蔬菜#NN, 是#VC)  (tmod, 盛产#VV, 夏天#NT)  (relcl, 蔬菜#NN, 盛产#VV)  (mark, 盛产#VV, 的#DEC)  (ccomp, 豆角#VV, 蔬菜#NN)   (root, ROOT#null, 含有#VV)  (det, 维生素#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (dobj, 含有#VV, 矿物质#NN)  (etc, 矿物质#NN, 等#ETC)   (nn, 肉质#NN, 嫩豆荚#NN)  (nsubj, 肥厚#VV, 肉质#NN)  (root, ROOT#null, 肥厚#VV)  (nn, 脆嫩#NN, 炒#NN)  (nn, 脆嫩#NN, 食#NN)  (nsubj, 凉拌#VV, 脆嫩#NN)  (loc, 凉拌#VV, 也可烫#NN)  (case, 也可烫#NN, 后#LC)  (ccomp, 肥厚#VV, 凉拌#VV)  (cc, 凉拌#VV, 或#CC)  (conj, 凉拌#VV, 腌泡#VV)   (advmod, 长#VA, 豆荚#AD)  (conj, 有#VE, 长#VA)  (cc, 长#VA, 而#CC)  (case, 管状#NR, 像#P)  (prep, 身软#VV, 管状#NR)  (nn, 脆#NN, 质#NN)  (nsubj, 身软#VV, 脆#NN)  (prtmod, 身软#VV, 而#MSP)  (dep, 长#VA, 身软#VV)  (dep, 长#VA, 常见#VA)  (root, ROOT#null, 有#VE)  (amod, 豆角#NN, 白#JJ)  (conj, 角#NN, 豆角#NN)  (cc, 角#NN, 和#CC)  (nn, 角#NN, 青豆#NN)  (dobj, 有#VE, 角#NN)  (nummod, 种#M, 两#CD)  (range, 有#VE, 种#M)
+        </parsing>
+
+        <tag>
+            盛产蔬菜  维生素  含有矿物质  嫩豆荚肉质  肥厚  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            豇豆性味甘平，有健脾和胃、补肾止带的功效，特别适合脾胃虚弱所导致的食积、腹胀以及肾虚遗精、白带增多者食用。
+        </rawdata>
+
+        <segment>
+            豇豆  性味甘平  ，  有  健脾  和  胃  、  补  肾  止  带  的  功效  ，  特别  适合  脾胃  虚弱  所  导致  的  食积  、  腹胀  以及  肾虚  遗精  、  白带  增多  者  食用  。
+        </segment>
+
+        <pos>
+            豇豆#NR  性味甘平#VV  ，#PU  有#VE  健脾#NN  和#CC  胃#NN  、#PU  补#VV  肾#NN  止#LC  带#VV  的#DEC  功效#NN  ，#PU  特别#AD  适合#VV  脾胃#NN  虚弱#NN  所#MSP  导致#VV  的#DEC  食积#NR  、#PU  腹胀#NR  以及#CC  肾虚#NR  遗精#NN  、#PU  白带#NN  增多#VV  者#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性味甘平#VV, 豇豆#NR)  (root, ROOT#null, 性味甘平#VV)  (relcl, 白带#NN, 有#VE)  (conj, 胃#NN, 健脾#NN)  (cc, 胃#NN, 和#CC)  (dobj, 有#VE, 胃#NN)  (conj, 有#VE, 补#VV)  (loc, 带#VV, 肾#NN)  (case, 肾#NN, 止#LC)  (relcl, 功效#NN, 带#VV)  (mark, 带#VV, 的#DEC)  (dobj, 补#VV, 功效#NN)  (advmod, 适合#VV, 特别#AD)  (conj, 有#VE, 适合#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 适合#VV, 虚弱#NN)  (prtmod, 导致#VV, 所#MSP)  (conj, 适合#VV, 导致#VV)  (mark, 有#VE, 的#DEC)  (conj, 肾虚#NR, 食积#NR)  (conj, 肾虚#NR, 腹胀#NR)  (cc, 肾虚#NR, 以及#CC)  (nn, 白带#NN, 肾虚#NR)  (conj, 白带#NN, 遗精#NN)  (nsubj, 增多#VV, 白带#NN)  (ccomp, 性味甘平#VV, 增多#VV)  (dobj, 增多#VV, 者#NN)  (conj, 增多#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            带功效  脾胃虚弱  适合虚弱  肾虚  食积  腹胀  白带  遗精  增多者  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  促进消化
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            豆角含丰富维生素B、C和植物蛋白质，能使人头脑宁静，调理消化系统，消除胸膈胀满。可防治急性肠胃炎，呕吐腹泻。
+        </rawdata>
+
+        <segment>
+            豆角  含  丰富  维生素B  、  C  和  植物  蛋白质  ，  能  使  人  头脑  宁静  ，  调理  消化  系统  ，  消除  胸膈  胀满  。  可  防治  急性  肠  胃炎  ，  呕吐  腹泻  。
+        </segment>
+
+        <pos>
+            豆角#NN  含#VV  丰富#VV  维生素B#NN  、#PU  C#NN  和#CC  植物#NN  蛋白质#NN  ，#PU  能#VV  使#VV  人#NN  头脑#NN  宁静#VV  ，#PU  调理#VV  消化#NN  系统#NN  ，#PU  消除#VV  胸膈#NN  胀满#NN    。#PU  可#VV  防治#VV  急性#NN  肠#NN  胃炎#NN  ，#PU  呕吐#VV  腹泻#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 使#VV, 豆角#NN)  (mmod, 使#VV, 含#VV)  (dep, 使#VV, 丰富#VV)  (conj, 蛋白质#NN, 维生素B#NN)  (conj, 蛋白质#NN, C#NN)  (cc, 蛋白质#NN, 和#CC)  (nn, 蛋白质#NN, 植物#NN)  (dobj, 丰富#VV, 蛋白质#NN)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (nn, 头脑#NN, 人#NN)  (dobj, 使#VV, 头脑#NN)  (dep, 使#VV, 宁静#VV)  (conj, 使#VV, 调理#VV)  (nn, 系统#NN, 消化#NN)  (dobj, 调理#VV, 系统#NN)  (conj, 使#VV, 消除#VV)  (nn, 胀满#NN, 胸膈#NN)  (dobj, 消除#VV, 胀满#NN)   (mmod, 防治#VV, 可#VV)  (root, ROOT#null, 防治#VV)  (nn, 胃炎#NN, 急性#NN)  (nn, 胃炎#NN, 肠#NN)  (dobj, 防治#VV, 胃炎#NN)  (dep, 防治#VV, 呕吐#VV)  (dobj, 呕吐#VV, 腹泻#NN)
+        </parsing>
+
+        <tag>
+            维生素B  植物蛋白质  蛋白质丰富  消化系统  调理系统  胸膈胀满  消除胀满  急性胃炎  防治胃炎  呕吐腹泻  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            豆角无论单独清炒，还是和肉类同炖，亦或是焯熟凉拌都很符合人们的口味。但是要注意的是：
+            1.烹调前应将豆筋摘除，否则既影响口感，又不易消化。
+            2.烹煮时间宜长不宜短，要保证豆角熟透，否则会发生中毒。
+        </rawdata>
+
+        <segment>
+            豆角  无论  单独  清炒  ，  还是  和  肉类  同  炖  ，  亦或是  焯熟  凉拌  都  很  符合  人们  的  口味  。  但是  要  注意  的  是  ：
+            烹调  前  应将  豆筋  摘除  ，  否则  既  影响  口感  ，  又  不  易  消化  。
+            烹煮  时间  宜长  不宜短  ，  要  保证  豆角  熟透  ，  否则  会  发生  中毒  。
+        </segment>
+
+        <pos>
+            豆角#NN  无论#CS  单独#AD  清炒#VA  ，#PU  还是#CC  和#P  肉类#NR  同#DT  炖#NN  ，#PU  亦或是#NN  焯熟#NN  凉拌#NN  都#AD  很#AD  符合#VV  人们#NN  的#DEG  口味#NN  。#PU  但是#AD  要#VV  注意#VV  的#DEC  是#VC  ：#PU
+            烹调#NN  前#LC  应将#AD  豆筋#VV  摘除#NN  ，#PU  否则#AD  既#CC  影响#VV  口感#NN  ，#PU  又#AD  不#AD  易#VA  消化#NN  。#PU
+            烹煮#NN  时间#NN  宜长#VV  不宜短#NN  ，#PU  要#VV  保证#VV  豆角#NN  熟透#NN  ，#PU  否则#AD  会#VV  发生#VV  中毒#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 清炒#VA, 豆角#NN)  (advmod, 清炒#VA, 无论#CS)  (advmod, 清炒#VA, 单独#AD)  (root, ROOT#null, 清炒#VA)  (cc, 清炒#VA, 还是#CC)  (case, 炖#NN, 和#P)  (nn, 炖#NN, 肉类#NR)  (det, 炖#NN, 同#DT)  (prep, 符合#VV, 炖#NN)  (nn, 凉拌#NN, 亦或是#NN)  (nn, 凉拌#NN, 焯熟#NN)  (nsubj, 符合#VV, 凉拌#NN)  (advmod, 符合#VV, 都#AD)  (advmod, 符合#VV, 很#AD)  (conj, 清炒#VA, 符合#VV)  (assmod, 口味#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (dobj, 符合#VV, 口味#NN)  (advmod, 是#VC, 但是#AD)  (dep, 注意#VV, 要#VV)  (nsubj, 是#VC, 注意#VV)  (mark, 注意#VV, 的#DEC)  (conj, 清炒#VA, 是#VC)
+            (loc, 豆筋#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (advmod, 豆筋#VV, 应将#AD)  (root, ROOT#null, 豆筋#VV)  (dobj, 豆筋#VV, 摘除#NN)  (advmod, 影响#VV, 否则#AD)  (cc, 影响#VV, 既#CC)  (conj, 豆筋#VV, 影响#VV)  (dobj, 影响#VV, 口感#NN)  (advmod, 易#VA, 又#AD)  (neg, 易#VA, 不#AD)  (conj, 影响#VV, 易#VA)  (dobj, 易#VA, 消化#NN)
+            (nn, 时间#NN, 烹煮#NN)  (nsubj, 宜长#VV, 时间#NN)  (root, ROOT#null, 宜长#VV)  (dobj, 宜长#VV, 不宜短#NN)  (mmod, 保证#VV, 要#VV)  (conj, 宜长#VV, 保证#VV)  (nn, 熟透#NN, 豆角#NN)  (dobj, 保证#VV, 熟透#NN)  (dep, 发生#VV, 否则#AD)  (dep, 发生#VV, 会#VV)  (conj, 宜长#VV, 发生#VV)  (comod, 发生#VV, 中毒#VV)
+        </parsing>
+
+        <tag>
+            焯熟凉拌  符合口味  豆筋摘除  影响口感  烹煮时间  宜长不宜短  保证熟透  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101435176381.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\225 豆角.jpg
+    </picturelocalurl>
+
+</content>

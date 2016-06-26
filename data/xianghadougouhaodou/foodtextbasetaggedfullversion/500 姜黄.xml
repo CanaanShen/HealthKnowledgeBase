@@ -1,0 +1,158 @@
+<content>
+
+    <id>
+        500
+    </id>
+
+    <foodname>
+        姜黄
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        黄姜、毛黄姜、黄丝郁金
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            血虚无气滞血瘀者慎用，孕妇忌用。
+        </rawdata>
+
+        <segment>
+            血虚  无  气滞  血瘀者  慎用  ，  孕妇  忌用  。
+        </segment>
+
+        <pos>
+            血虚#AD  无#VE  气滞#NN  血瘀者#NN  慎用#NN  ，#PU  孕妇#VV  忌用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 无#VE, 血虚#AD)  (root, ROOT#null, 无#VE)  (nn, 慎用#NN, 气滞#NN)  (nn, 慎用#NN, 血瘀者#NN)  (dobj, 无#VE, 慎用#NN)  (dep, 无#VE, 孕妇#VV)  (dobj, 孕妇#VV, 忌用#NN)
+        </parsing>
+
+        <tag>
+            血虚  气滞血瘀者慎用  孕妇忌用  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            姜黄，中药名。为姜科植物姜黄Curcuma longa L.的干燥根茎。冬季茎叶枯萎时采挖，洗净，煮或蒸至透心，晒干，除去须根。
+            本品为不规则或类圆形的厚片。外表皮深黄色，有时可见环节。切面棕黄色至金黄色，角质样，内皮层环纹明显，纤维束呈点状散在。气香特异，味微苦、辛。
+        </rawdata>
+
+        <segment>
+            姜黄  ，  中  药名  。  为  姜科  植物  姜黄  Curcuma  longa  L  .  的  干燥  根茎  。  冬季  茎叶  枯萎  时  采挖  ，  洗净  ，  煮  或  蒸  至  透心  ，  晒干  ，  除去  须根  。
+            本品  为  不规则  或  类  圆形  的  厚片  。  外表皮  深黄色  ，  有时  可见  环节  。  切面  棕黄色  至  金黄色  ，  角质样  ，  内皮层  环纹  明显  ，  纤维束  呈  点状  散在  。  气  香  特异  ，  味  微苦  、  辛  。
+        </segment>
+
+        <pos>
+            姜黄#VV  ，#PU  中#NR  药名#VV    。#PU  为#P  姜科#NN  植物#NN  姜黄#NN  Curcuma#VV  longa#NN  L#NN  .#NN  的#DEG  干燥#NN  根茎#NN    。#PU  冬季#NT  茎叶#VV  枯萎#NN  时#LC  采挖#VV  ，#PU  洗净#VV  ，#PU  煮#VV  或#CC  蒸#CD  至#CC  透心#CD  ，#PU  晒干#VV  ，#PU  除去#P  须根#NN    。#PU    。#PU
+            本品#NN  为#VC  不规则#AD  或#CC  类#NN  圆形#VA  的#DEC  厚片#NN    。#PU  外表皮#NR  深黄色#VV  ，#PU  有时#AD  可见#VV  环节#NN    。#PU  切面#VV  棕黄色#NN  至#CC  金黄色#JJ  ，#PU  角质样#VV  ，#PU  内皮层#AD  环纹#AD  明显#VA  ，#PU  纤维束#AD  呈#VV  点状#NN  散在#NN    。#PU  气#NN  香#NN  特异#VV  ，#PU  味#VV  微苦#NN  、#PU  辛#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 姜黄#VV)  (nsubj, 药名#VV, 中#NR)  (ccomp, 姜黄#VV, 药名#VV)   (case, 姜黄#NN, 为#P)  (nn, 姜黄#NN, 姜科#NN)  (nn, 姜黄#NN, 植物#NN)  (prep, Curcuma#VV, 姜黄#NN)  (root, ROOT#null, Curcuma#VV)  (nn, .#NN, longa#NN)  (nn, .#NN, L#NN)  (case, .#NN, 的#DEG)  (nn, 根茎#NN, 干燥#NN)  (dobj, Curcuma#VV, 根茎#NN)   (tmod, 采挖#VV, 冬季#NT)  (loc, 采挖#VV, 茎叶#VV)  (dobj, 茎叶#VV, 枯萎#NN)  (case, 茎叶#VV, 时#LC)  (root, ROOT#null, 采挖#VV)  (conj, 采挖#VV, 洗净#VV)  (conj, 采挖#VV, 煮#VV)  (cc, 采挖#VV, 或#CC)  (nummod, 透心#CD, 蒸#CD)  (cc, 透心#CD, 至#CC)  (dep, 采挖#VV, 透心#CD)  (conj, 采挖#VV, 晒干#VV)  (case, 须根#NN, 除去#P)  (conj, 采挖#VV, 须根#NN)   (root, ROOT#null, null#null)
+            (nsubj, 厚片#NN, 本品#NN)  (cop, 厚片#NN, 为#VC)  (dep, 圆形#VA, 不规则#AD)  (cc, 不规则#AD, 或#CC)  (dep, 不规则#AD, 类#NN)  (relcl, 厚片#NN, 圆形#VA)  (mark, 圆形#VA, 的#DEC)  (root, ROOT#null, 厚片#NN)   (nsubj, 深黄色#VV, 外表皮#NR)  (xsubj, 可见#VV, 外表皮#NR)  (root, ROOT#null, 深黄色#VV)  (advmod, 可见#VV, 有时#AD)  (ccomp, 深黄色#VV, 可见#VV)  (dobj, 可见#VV, 环节#NN)   (root, ROOT#null, 切面#VV)  (dobj, 切面#VV, 棕黄色#NN)  (cc, 切面#VV, 至#CC)  (conj, 切面#VV, 金黄色#JJ)  (dep, 切面#VV, 角质样#VV)  (advmod, 明显#VA, 内皮层#AD)  (advmod, 明显#VA, 环纹#AD)  (dep, 切面#VV, 明显#VA)  (advmod, 呈#VV, 纤维束#AD)  (dep, 切面#VV, 呈#VV)  (nn, 散在#NN, 点状#NN)  (dobj, 呈#VV, 散在#NN)   (nn, 香#NN, 气#NN)  (nsubj, 特异#VV, 香#NN)  (root, ROOT#null, 特异#VV)  (ccomp, 特异#VV, 味#VV)  (conj, 辛#NN, 微苦#NN)  (dobj, 味#VV, 辛#NN)
+        </parsing>
+
+        <tag>
+            干燥根茎  Curcuma根茎  茎叶枯萎  采挖  厚片圆形  可见环节  切面棕黄色  点状散在  特异  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            破血行气，痛经止痛。
+        </rawdata>
+
+        <segment>
+            破  血行  气  ，  痛经  止痛  。
+        </segment>
+
+        <pos>
+            破#VV  血行#NN  气#NN  ，#PU  痛经#VV  止痛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 破#VV)  (nn, 气#NN, 血行#NN)  (dobj, 破#VV, 气#NN)  (conj, 破#VV, 痛经#VV)  (dobj, 痛经#VV, 止痛#NN)
+        </parsing>
+
+        <tag>
+            痛经止痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1、吃饭不香或饭量减少时吃上几片姜或者在菜里放上一点嫩姜，都能改善食欲，增加饭量，所以俗话说：“饭不香，吃生姜。”
+            2、生姜是传统的治疗恶心、呕吐的中药，有“呕家圣药”之誉。
+            3、生姜还具有解毒杀菌的作用。日常我们在吃松花蛋或鱼蟹等水产时，通常会放上一些姜末、姜汁。
+            4、姜还具有促进血行、驱散寒邪的作用。着凉、感冒时不妨熬些姜汤，能起到很好的预防、治疗作用。
+            人体在进行正常新陈代谢生理功能时，会产生一种有害物质——氧自由基，促使机体发生癌症和衰老。生姜中的姜辣素进入体内后，能产生一种抗氧化酶，它有很强的对付氧自由基的本领，比维生素E还要强得多。所以，吃姜能抗衰老，老年人常吃生姜可除“老年斑”。
+        </rawdata>
+
+        <segment>
+            吃饭  不  香  或  饭量  减少  时  吃上  几  片  姜  或者  在  菜  里  放上  一点  嫩姜  ，  都  能  改善  食欲  ，  增加  饭量  ，  所以  俗话  说  ：  “  饭  不  香  ，  吃  生姜  。  ”
+            生姜  是  传统  的  治疗  恶心  、  呕吐  的  中药  ，  有  “  呕家  圣药  ”  之  誉  。
+            生姜  还  具有  解毒  杀菌  的  作用  。  日常  我们  在  吃  松花蛋  或  鱼蟹  等  水产  时  ，  通常  会  放上  一些  姜末  、  姜汁  。
+            姜  还  具有  促进  血行  、  驱散  寒邪  的  作用  。  着凉  、  感冒  时  不妨  熬  些  姜汤  ，  能  起到  很  好  的  预防  、  治疗  作用  。
+            人体  在  进行  正常  新陈代谢  生理  功能  时  ，  会  产生  一  种  有害  物质  ——  氧自由基  ，  促使  机体  发生  癌症  和  衰老  。  生姜  中  的  姜辣素  进入  体内  后  ，  能  产生  一  种  抗氧化酶  ，  它  有  很  强  的  对付  氧自由基  的  本领  ，  比  维生素E  还  要  强  得  多  。  所以  ，  吃  姜  能  抗  衰老  ，  老年人  常  吃  生姜  可  除  “  老年斑  ”  。
+        </segment>
+
+        <pos>
+            吃饭#VV  不#AD  香#AD  或#CC  饭量#AD  减少#VV  时#LC  吃上#VV  几#CD  片#M  姜#NN  或者#CC  在#P  菜#NN  里#LC  放上#AD  一点#AD  嫩姜#VV  ，#PU  都#AD  能#VV  改善#VV  食欲#NN  ，#PU  增加#VV  饭量#NN  ，#PU  所以#AD  俗话#NN  说#VV  ：#PU  ``#NN  饭#NN  不#AD  香#VV  ，#PU  吃#VV  生姜#NN  。#PU  ''#NN
+            生姜#NN  是#VC  传统#JJ  的#DEG  治疗#VV  恶心#NN  、#PU  呕吐#NN  的#DEC  中药#NN  ，#PU  有#VE  ``#NN  呕家#NN  圣药#NN  ''#NN  之#DEG  誉#NN  。#PU
+            生姜#NN  还#AD  具有#VV  解毒#NN  杀菌#NN  的#DEG  作用#NN    。#PU  日常#JJ  我们#PN  在#P  吃#VV  松花蛋#NR  或#CC  鱼蟹#NR  等#ETC  水产#NN  时#LC  ，#PU  通常#AD  会#VV  放上#VV  一些#CD  姜末#NN  、#PU  姜汁#NN    。#PU    。#PU
+            姜#NN  还#AD  具有#VV  促进#VV  血行#NN  、#PU  驱散#NN  寒邪#NN  的#DEC  作用#NN    。#PU  着凉#NR  、#PU  感冒#NR  时#AD  不妨#VV  熬#CD  些#M  姜汤#NN  ，#PU  能#VV  起到#VV  很#AD  好#VA  的#DEC  预防#VV  、#PU  治疗#VV  作用#NN    。#PU    。#PU
+            人体#AD  在#P  进行#VV  正常#JJ  新陈代谢#NN  生理#NN  功能#NN  时#LC  ，#PU  会#VV  产生#VV  一#CD  种#M  有害#NN  物质#NN  --#NN  --#NN  氧自由基#NN  ，#PU  促使#VV  机体#NN  发生#VV  癌症#NN  和#CC  衰老#NN    。#PU  生姜#NN  中#LC  的#DEG  姜辣素#NN  进入#VV  体内#NN  后#LC  ，#PU  能#VV  产生#VV  一#CD  种#M  抗氧化酶#NN  ，#PU  它#PN  有#VE  很#AD  强#VA  的#DEC  对付#VV  氧自由基#NN  的#DEC  本领#NN  ，#PU  比#P  维生素E#NN  还#AD  要#VV  强#VA  得#DER  多#VA    。#PU  所以#AD  ，#PU  吃#VV  姜#NN  能#VV  抗#VV  衰老#NN  ，#PU  老年人#NN  常#AD  吃#VV  生姜#NN  可#VV  除#P  ``#NN  老年斑#VV  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 吃饭#VV)  (neg, 减少#VV, 不#AD)  (advmod, 减少#VV, 香#AD)  (cc, 香#AD, 或#CC)  (dep, 香#AD, 饭量#AD)  (loc, 吃上#VV, 减少#VV)  (case, 减少#VV, 时#LC)  (nfincl, ''#NN, 吃上#VV)  (nummod, 片#M, 几#CD)  (clf, 姜#NN, 片#M)  (dobj, 吃上#VV, 姜#NN)  (cc, 吃上#VV, 或者#CC)  (case, 菜#NN, 在#P)  (prep, 嫩姜#VV, 菜#NN)  (case, 菜#NN, 里#LC)  (advmod, 嫩姜#VV, 放上#AD)  (advmod, 嫩姜#VV, 一点#AD)  (conj, 吃上#VV, 嫩姜#VV)  (advmod, 改善#VV, 都#AD)  (mmod, 改善#VV, 能#VV)  (ccomp, 嫩姜#VV, 改善#VV)  (dobj, 改善#VV, 食欲#NN)  (conj, 改善#VV, 增加#VV)  (dobj, 增加#VV, 饭量#NN)  (advmod, 说#VV, 所以#AD)  (nsubj, 说#VV, 俗话#NN)  (dep, 改善#VV, 说#VV)  (nn, 饭#NN, ``#NN)  (nsubj, 香#VV, 饭#NN)  (neg, 香#VV, 不#AD)  (ccomp, 说#VV, 香#VV)  (conj, 改善#VV, 吃#VV)  (dobj, 吃#VV, 生姜#NN)  (dobj, 吃饭#VV, ''#NN)
+            (nsubj, 中药#NN, 生姜#NN)  (cop, 中药#NN, 是#VC)  (assmod, 中药#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (relcl, 中药#NN, 治疗#VV)  (conj, 呕吐#NN, 恶心#NN)  (dobj, 治疗#VV, 呕吐#NN)  (mark, 治疗#VV, 的#DEC)  (root, ROOT#null, 中药#NN)  (conj, 中药#NN, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 呕家#NN)  (nn, ''#NN, 圣药#NN)  (assmod, 誉#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 誉#NN)
+            (nsubj, 具有#VV, 生姜#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (nn, 杀菌#NN, 解毒#NN)  (assmod, 作用#NN, 杀菌#NN)  (case, 杀菌#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)   (amod, 我们#PN, 日常#JJ)  (nsubj, 放上#VV, 我们#PN)  (case, 吃#VV, 在#P)  (prep, 放上#VV, 吃#VV)  (conj, 鱼蟹#NR, 松花蛋#NR)  (cc, 鱼蟹#NR, 或#CC)  (nn, 水产#NN, 鱼蟹#NR)  (etc, 鱼蟹#NR, 等#ETC)  (dobj, 吃#VV, 水产#NN)  (case, 吃#VV, 时#LC)  (advmod, 放上#VV, 通常#AD)  (mmod, 放上#VV, 会#VV)  (root, ROOT#null, 放上#VV)  (nummod, 姜汁#NN, 一些#CD)  (conj, 姜汁#NN, 姜末#NN)  (dobj, 放上#VV, 姜汁#NN)   (root, ROOT#null, null#null)
+            (nsubj, 具有#VV, 姜#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 促进#VV)  (conj, 寒邪#NN, 血行#NN)  (nn, 寒邪#NN, 驱散#NN)  (dobj, 促进#VV, 寒邪#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)   (conj, 感冒#NR, 着凉#NR)  (nsubj, 不妨#VV, 感冒#NR)  (advmod, 不妨#VV, 时#AD)  (root, ROOT#null, 不妨#VV)  (nummod, 些#M, 熬#CD)  (clf, 姜汤#NN, 些#M)  (dobj, 不妨#VV, 姜汤#NN)  (mmod, 起到#VV, 能#VV)  (conj, 不妨#VV, 起到#VV)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nfincl, 作用#NN, 预防#VV)  (dep, 预防#VV, 治疗#VV)  (dobj, 起到#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (advmod, 产生#VV, 人体#AD)  (case, 进行#VV, 在#P)  (prep, 产生#VV, 进行#VV)  (amod, 新陈代谢#NN, 正常#JJ)  (nn, 功能#NN, 新陈代谢#NN)  (nn, 功能#NN, 生理#NN)  (dobj, 进行#VV, 功能#NN)  (case, 进行#VV, 时#LC)  (mmod, 产生#VV, 会#VV)  (root, ROOT#null, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, --#NN, 种#M)  (nn, --#NN, 有害#NN)  (nn, --#NN, 物质#NN)  (dobj, 产生#VV, 氧自由基#NN)  (dep, 产生#VV, 促使#VV)  (dobj, 促使#VV, 机体#NN)  (dep, 促使#VV, 发生#VV)  (conj, 衰老#NN, 癌症#NN)  (cc, 衰老#NN, 和#CC)  (dobj, 发生#VV, 衰老#NN)   (assmod, 姜辣素#NN, 生姜#NN)  (case, 生姜#NN, 中#LC)  (case, 生姜#NN, 的#DEG)  (nsubj, 进入#VV, 姜辣素#NN)  (loc, 产生#VV, 进入#VV)  (dobj, 进入#VV, 体内#NN)  (case, 进入#VV, 后#LC)  (mmod, 产生#VV, 能#VV)  (root, ROOT#null, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 抗氧化酶#NN, 种#M)  (dobj, 产生#VV, 抗氧化酶#NN)  (nsubj, 有#VE, 它#PN)  (conj, 产生#VV, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 本领#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (relcl, 本领#NN, 对付#VV)  (dobj, 对付#VV, 氧自由基#NN)  (mark, 对付#VV, 的#DEC)  (dobj, 有#VE, 本领#NN)  (case, 维生素E#NN, 比#P)  (prep, 要#VV, 维生素E#NN)  (advmod, 要#VV, 还#AD)  (conj, 有#VE, 要#VV)  (dep, 多#VA, 强#VA)  (dep, 多#VA, 得#DER)  (dep, 有#VE, 多#VA)   (advmod, 吃#VV, 所以#AD)  (dep, 吃#VV, 吃#VV)  (dobj, 吃#VV, 姜#NN)  (mmod, 抗#VV, 能#VV)  (conj, 吃#VV, 抗#VV)  (dobj, 抗#VV, 衰老#NN)  (nsubj, 吃#VV, 老年人#NN)  (advmod, 吃#VV, 常#AD)  (dep, 老年斑#VV, 吃#VV)  (dobj, 吃#VV, 生姜#NN)  (mmod, 老年斑#VV, 可#VV)  (case, ``#NN, 除#P)  (prep, 老年斑#VV, ``#NN)  (root, ROOT#null, 老年斑#VV)  (dobj, 老年斑#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            吃饭  吃上姜  改善食欲  增加饭量  治疗中药  恶心  治疗呕吐  解毒杀菌  鱼蟹  松花蛋  姜末  放上姜汁  血行  驱散寒邪  促进寒邪  感冒  着凉  不妨姜汤  正常新陈代谢  新陈代谢功能  生理功能  进行功能  产生氧自由基  促使机体  衰老  癌症  姜辣素  进入体内  产生抗氧化酶  对付本领  对付氧自由基  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/16115741966.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\500 姜黄.jpg
+    </picturelocalurl>
+
+</content>

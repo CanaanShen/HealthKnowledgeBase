@@ -1,0 +1,350 @@
+<content>
+
+    <id>
+        193
+    </id>
+
+    <foodname>
+        枸杞菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        枸杞苗、地仙苗、枸杞尖、天精草、地骨、枸杞头
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            服用枸杞菜时暂停吃牛乳和其他乳制品。
+        </rawdata>
+
+        <segment>
+            服用  枸杞  菜  时  暂停  吃  牛乳  和  其他  乳制品  。
+        </segment>
+
+        <pos>
+            服用#VV  枸杞#NN  菜#NN  时#LC  暂停#VV  吃#VV  牛乳#NN  和#CC  其他#DT  乳制品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 暂停#VV, 服用#VV)  (nn, 菜#NN, 枸杞#NN)  (dobj, 服用#VV, 菜#NN)  (case, 服用#VV, 时#LC)  (root, ROOT#null, 暂停#VV)  (ccomp, 暂停#VV, 吃#VV)  (conj, 乳制品#NN, 牛乳#NN)  (cc, 乳制品#NN, 和#CC)  (det, 乳制品#NN, 其他#DT)  (dobj, 吃#VV, 乳制品#NN)
+        </parsing>
+
+        <tag>
+            服用  时暂停吃牛乳  其他乳制品  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                5.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                592
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                3550
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                170
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                29.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                74
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.37
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            枸杞菜是枸杞初春的嫩茎叶，为茄科，枸杞属落叶灌木植物宁夏枸杞的菜叶。多分枝，通常有棘刺。叶互生或2-4枚簇生，卵形、卵状菱形、长椭圆形或卵状披针形。花冠淡紫色，裂片边缘密被缘毛，雄蕊稍短。果实成熟为红色，即枸杞子。根乃退虚热的中药地骨皮。以产於中国宁夏、甘肃、河北、青海等地的质量最好。
+        </rawdata>
+
+        <segment>
+            枸杞  菜  是  枸杞  初春  的  嫩茎叶  ，  为  茄科  ，  枸杞  属  落叶  灌木  植物  宁夏  枸杞  的  菜叶  。  多  分枝  ，  通常  有  棘刺  。  叶  互生  或  2-4  枚  簇生  ，  卵形  、  卵状  菱形  、  长  椭圆形  或  卵状  披  针形  。  花冠  淡紫色  ，  裂片  边缘  密  被  缘毛  ，  雄蕊  稍短  。  果实  成熟  为  红色  ，  即  枸杞子  。  根  乃  退  虚  热  的  中药  地  骨皮  。  以  产  於  中国  宁夏  、  甘肃  、  河北  、  青海  等  地  的  质量  最好  。
+        </segment>
+
+        <pos>
+            枸杞#NN  菜#NN  是#VC  枸杞#NN  初春#NN  的#DEG  嫩茎叶#NN  ，#PU  为#P  茄科#NN  ，#PU  枸杞#AD  属#VV  落叶#NN  灌木#NN  植物#NN  宁夏#NR  枸杞#NN  的#DEC  菜叶#NN    。#PU  多#CD  分枝#NN  ，#PU  通常#AD  有#VE  棘刺#NN    。#PU  叶#NR  互生#NN  或#CC  2-4#CD  枚#M  簇生#NN  ，#PU  卵形#NN  、#PU  卵状#NN  菱形#NN  、#PU  长#JJ  椭圆形#NN  或#CC  卵状#NN  披#NN  针形#VV    。#PU  花冠#NR  淡紫色#JJ  ，#PU  裂片#VV  边缘#NN  密#NN  被#SB  缘毛#VV  ，#PU  雄蕊#VV  稍短#NN    。#PU  果实#NN  成熟#VA  为#VC  红色#JJ  ，#PU  即#AD  枸杞子#VA    。#PU  根#M  乃#NN  退#VV  虚#AD  热#NN  的#DEG  中药#NN  地#NN  骨皮#NN    。#PU  以#P  产#NN  於#VV  中国#NR  宁夏#NR  、#PU  甘肃#NR  、#PU  河北#NR  、#PU  青海#NR  等#ETC  地#NN  的#DEG  质量#NN  最好#JJ    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 枸杞#NN)  (nsubj, 菜叶#NN, 菜#NN)  (cop, 菜叶#NN, 是#VC)  (nn, 初春#NN, 枸杞#NN)  (assmod, 嫩茎叶#NN, 初春#NN)  (case, 初春#NN, 的#DEG)  (dep, 属#VV, 嫩茎叶#NN)  (case, 茄科#NN, 为#P)  (prep, 属#VV, 茄科#NN)  (advmod, 属#VV, 枸杞#AD)  (relcl, 菜叶#NN, 属#VV)  (nn, 植物#NN, 落叶#NN)  (nn, 植物#NN, 灌木#NN)  (nn, 枸杞#NN, 植物#NN)  (nn, 枸杞#NN, 宁夏#NR)  (dobj, 属#VV, 枸杞#NN)  (mark, 属#VV, 的#DEC)  (root, ROOT#null, 菜叶#NN)   (nummod, 分枝#NN, 多#CD)  (dep, 有#VE, 分枝#NN)  (advmod, 有#VE, 通常#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 棘刺#NN)   (nn, 互生#NN, 叶#NR)  (conj, 披#NN, 互生#NN)  (cc, 披#NN, 或#CC)  (nummod, 枚#M, 2-4#CD)  (clf, 簇生#NN, 枚#M)  (dep, 披#NN, 簇生#NN)  (conj, 披#NN, 卵形#NN)  (nn, 菱形#NN, 卵状#NN)  (conj, 披#NN, 菱形#NN)  (amod, 椭圆形#NN, 长#JJ)  (conj, 披#NN, 椭圆形#NN)  (cc, 披#NN, 或#CC)  (nn, 披#NN, 卵状#NN)  (nsubj, 针形#VV, 披#NN)  (root, ROOT#null, 针形#VV)   (dep, 缘毛#VV, 花冠#NR)  (nfincl, 密#NN, 淡紫色#JJ)  (dep, 淡紫色#JJ, 裂片#VV)  (dobj, 裂片#VV, 边缘#NN)  (nsubjpass, 缘毛#VV, 密#NN)  (auxpass, 缘毛#VV, 被#SB)  (root, ROOT#null, 缘毛#VV)  (ccomp, 缘毛#VV, 雄蕊#VV)  (dobj, 雄蕊#VV, 稍短#NN)   (nsubj, 成熟#VA, 果实#NN)  (root, ROOT#null, 成熟#VA)  (dep, 枸杞子#VA, 为#VC)  (dep, 为#VC, 红色#JJ)  (advmod, 枸杞子#VA, 即#AD)  (conj, 成熟#VA, 枸杞子#VA)   (dep, 乃#NN, 根#M)  (nsubj, 退#VV, 乃#NN)  (root, ROOT#null, 退#VV)  (advmod, 退#VV, 虚#AD)  (assmod, 骨皮#NN, 热#NN)  (case, 热#NN, 的#DEG)  (nn, 骨皮#NN, 中药#NN)  (nn, 骨皮#NN, 地#NN)  (dobj, 退#VV, 骨皮#NN)   (case, 产#NN, 以#P)  (prep, 於#VV, 产#NN)  (root, ROOT#null, 於#VV)  (nn, 宁夏#NR, 中国#NR)  (dobj, 於#VV, 宁夏#NR)  (conj, 青海#NR, 甘肃#NR)  (conj, 青海#NR, 河北#NR)  (nn, 地#NN, 青海#NR)  (etc, 青海#NR, 等#ETC)  (assmod, 质量#NN, 地#NN)  (case, 地#NN, 的#DEG)  (dep, 於#VV, 质量#NN)  (conj, 於#VV, 最好#JJ)
+        </parsing>
+
+        <tag>
+            枸杞初春  嫩茎叶  属菜叶  落叶植物  灌木植物  植物枸杞  卵状菱形  长椭圆形  针形  裂片边缘  缘毛  雄蕊稍短  果实成熟  中药骨皮  青海  甘肃  河北  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            滋补肝肾，益精明目；用于虚痨精亏、腰膝酸痛；眩晕耳鸣、内热肖渴、血虚萎黄，目昏不明。还具有提高机体免疫力、抗衰老的作用。
+        </rawdata>
+
+        <segment>
+            滋补  肝肾  ，  益精  明目  ；  用  于  虚痨精亏  、  腰膝  酸痛  ；  眩晕  耳鸣  、  内热  肖  渴  、  血虚  萎黄  ，  目昏  不明  。  还  具有  提高  机体  免疫力  、  抗  衰老  的  作用  。
+        </segment>
+
+        <pos>
+            滋补#NR  肝肾#VV  ，#PU  益精#VV  明目#NN  ；#PU  用#VV  于#P  虚痨精亏#NR  、#PU  腰膝#NR  酸痛#NN  ；#PU  眩晕#VV  耳鸣#NR  、#PU  内热#NR  肖#NR  渴#NR  、#PU  血虚#NR  萎黄#NN  ，#PU  目昏#VV  不明#NN    。#PU  还#AD  具有#VV  提高#VV  机体#NN  免疫力#NN  、#PU  抗#NN  衰老#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 肝肾#VV, 滋补#NR)  (root, ROOT#null, 肝肾#VV)  (ccomp, 肝肾#VV, 益精#VV)  (dobj, 益精#VV, 明目#NN)  (dep, 益精#VV, 用#VV)  (case, 酸痛#NN, 于#P)  (conj, 腰膝#NR, 虚痨精亏#NR)  (nn, 酸痛#NN, 腰膝#NR)  (prep, 用#VV, 酸痛#NN)  (dep, 益精#VV, 眩晕#VV)  (conj, 血虚#NR, 耳鸣#NR)  (nn, 血虚#NR, 内热#NR)  (nn, 血虚#NR, 肖#NR)  (conj, 血虚#NR, 渴#NR)  (nn, 萎黄#NN, 血虚#NR)  (dobj, 眩晕#VV, 萎黄#NN)  (dep, 益精#VV, 目昏#VV)  (dobj, 目昏#VV, 不明#NN)   (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 提高#VV)  (nn, 衰老#NN, 机体#NN)  (conj, 衰老#NN, 免疫力#NN)  (nn, 衰老#NN, 抗#NN)  (dobj, 提高#VV, 衰老#NN)  (mark, 提高#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            肝肾  益精明目  腰膝  虚痨精亏  血虚  耳鸣  眩晕萎黄  目昏不明  机体衰老  免疫力  提高衰老  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补虚  清肝明目  补肾阴
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            枸杞叶富含甜菜碱、芦丁以及多种氨基酸和微量元素等。常饮枸杞叶茶具有养肝明目、软化血管等保健功效。
+        </rawdata>
+
+        <segment>
+            枸杞  叶  富含  甜菜碱  、  芦丁  以及  多  种  氨基酸  和  微量  元素  等  。  常  饮  枸杞  叶  茶  具有  养肝  明目  、  软化  血管  等  保健  功效  。
+        </segment>
+
+        <pos>
+            枸杞#NN  叶#NN  富含#VV  甜菜碱#NR  、#PU  芦丁#NR  以及#CC  多#CD  种#M  氨基酸#NN  和#CC  微量#NN  元素#NN  等#ETC    。#PU  常#NR  饮#NN  枸杞#NN  叶#NN  茶#AD  具有#VV  养肝#NN  明目#NN  、#PU  软化#NN  血管#NN  等#ETC  保健#NN  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 叶#NN, 枸杞#NN)  (nsubj, 富含#VV, 叶#NN)  (root, ROOT#null, 富含#VV)  (conj, 芦丁#NR, 甜菜碱#NR)  (conj, 元素#NN, 芦丁#NR)  (cc, 元素#NN, 以及#CC)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 元素#NN, 氨基酸#NN)  (cc, 元素#NN, 和#CC)  (nn, 元素#NN, 微量#NN)  (dobj, 富含#VV, 元素#NN)  (etc, 元素#NN, 等#ETC)   (nn, 枸杞#NN, 常#NR)  (nn, 枸杞#NN, 饮#NN)  (nn, 叶#NN, 枸杞#NN)  (nsubj, 具有#VV, 叶#NN)  (advmod, 具有#VV, 茶#AD)  (root, ROOT#null, 具有#VV)  (nn, 血管#NN, 养肝#NN)  (conj, 血管#NN, 明目#NN)  (nn, 血管#NN, 软化#NN)  (nn, 保健#NN, 血管#NN)  (etc, 血管#NN, 等#ETC)  (nn, 功效#NN, 保健#NN)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            富含  芦丁  甜菜碱  养肝血管  明目  软化血管  血管保健  保健功效  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            凉拌，煮粥，煎汤等。服用枸杞菜时暂停吃牛乳和其他乳制品。
+        </rawdata>
+
+        <segment>
+            凉拌  ，  煮粥  ，  煎  汤  等  。  服用  枸杞  菜  时  暂停  吃  牛乳  和  其他  乳制品  。
+        </segment>
+
+        <pos>
+            凉拌#VV  ，#PU  煮粥#NN  ，#PU  煎#VV  汤#NN  等#ETC    。#PU  服用#VV  枸杞#NN  菜#NN  时#LC  暂停#VV  吃#VV  牛乳#NN  和#CC  其他#DT  乳制品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 凉拌#VV)  (nsubj, 煎#VV, 煮粥#NN)  (ccomp, 凉拌#VV, 煎#VV)  (dobj, 煎#VV, 汤#NN)  (etc, 汤#NN, 等#ETC)   (loc, 暂停#VV, 服用#VV)  (nn, 菜#NN, 枸杞#NN)  (dobj, 服用#VV, 菜#NN)  (case, 服用#VV, 时#LC)  (root, ROOT#null, 暂停#VV)  (ccomp, 暂停#VV, 吃#VV)  (conj, 乳制品#NN, 牛乳#NN)  (cc, 乳制品#NN, 和#CC)  (det, 乳制品#NN, 其他#DT)  (dobj, 吃#VV, 乳制品#NN)
+        </parsing>
+
+        <tag>
+            凉拌  服用菜  暂停  乳制品  牛乳  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121631258983.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\193 枸杞菜.jpg
+    </picturelocalurl>
+
+</content>

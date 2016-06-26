@@ -1,0 +1,202 @@
+<content>
+
+    <id>
+        174
+    </id>
+
+    <foodname>
+        菊花
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        甘菊花、洋甘菊、白菊花、黄甘菊、药菊、白茶菊、茶菊、怀菊花、滁菊、毫菊、杭菊、贡菊
+    </alias>
+
+    <season>
+        9-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            气虚胃寒、食少泄泻者慎服。
+        </rawdata>
+
+        <segment>
+            气虚  胃  寒  、  食少  泄泻者  慎服  。
+        </segment>
+
+        <pos>
+            气虚#NN  胃#VV  寒#JJ  、#PU  食少#JJ  泄泻者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 胃#VV, 气虚#NN)  (root, ROOT#null, 胃#VV)  (amod, 泄泻者#NN, 寒#JJ)  (dep, 寒#JJ, 食少#JJ)  (nn, 慎服#NN, 泄泻者#NN)  (dobj, 胃#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            气虚胃寒  食少泄泻者  慎服  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#AD  人均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 一般#AD)  (advmod, 食用#VV, 人均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            菊花，多年生菊科草本植物 ，是经长期人工选择培育出的名贵观赏花卉，也称艺菊，品种已达千余种。菊花是中国十大名花之一，在中国已有三千多年的栽培历史，中国菊花传入欧洲，约在明末清初开始。
+            其中产地湖北大别山麻城福田河的福白菊，浙江桐乡的杭白菊和黄山脚下的黄山贡菊(徽州贡菊)比较有名。产于安徽亳州的亳菊、滁州的滁菊、四川中江的川菊、浙江德清的德菊、河南济源的怀菊花（四大怀药之一）都有很高的药效。特别是黄山贡菊，它生长在高山云雾之中，采黄山之灵气，汲皖南山水之精华，它的无污染性对现代人来说，具有更高的饮用价值。
+        </rawdata>
+
+        <segment>
+            菊花  ，  多年生  菊科  草本  植物  ，  是  经  长期  人工  选择  培育  出  的  名贵  观赏  花卉  ，  也  称  艺菊  ，  品种  已  达  千余  种  。  菊花  是  中国  十  大  名花  之一  ，  在  中国  已  有  三千多  年  的  栽培  历史  ，  中国  菊花  传入  欧洲  ，  约  在  明末  清初  开始  。
+            其中  产地  湖北  大别山  麻城  福田  河  的  福  白菊  ，  浙江  桐乡  的  杭  白菊  和  黄山脚  下  的  黄山  贡菊  (  徽州  贡菊  )  比较  有名  。  产于  安徽  亳州  的  亳菊  、  滁州  的  滁菊  、  四川  中江  的  川菊  、  浙江  德清  的  德菊  、  河南  济源  的  怀  菊花  （  四  大  怀药  之一  ）  都  有  很  高  的  药效  。  特别是  黄山  贡菊  ，  它  生长  在  高山  云雾  之中  ，  采  黄山  之  灵气  ，  汲  皖南  山水  之  精华  ，  它  的  无污染  性  对现  代人  来说  ，  具有  更  高  的  饮用  价值  。
+        </segment>
+
+        <pos>
+            菊花#NN  ，#PU  多年生#AD  菊科#VV  草本#NN  植物#NN  ，#PU  是#VC  经#P  长期#AD  人工#AD  选择#VV  培育#VV  出#VV  的#DEC  名贵#JJ  观赏#NN  花卉#NN  ，#PU  也#AD  称#VV  艺菊#NN  ，#PU  品种#NN  已#AD  达#VV  千余#CD  种#M    。#PU  菊花#NN  是#VC  中国#NR  十#CD  大#JJ  名花#NN  之一#NN  ，#PU  在#P  中国#NR  已#AD  有#VE  三千多#CD  年#M  的#DEC  栽培#VV  历史#NN  ，#PU  中国#NR  菊花#NN  传入#NN  欧洲#NR  ，#PU  约#AD  在#P  明末#NN  清初#NN  开始#VV    。#PU    。#PU
+            其中#NN  产地#NN  湖北#NR  大别山#NN  麻城#NN  福田#JJ  河#NN  的#DEG  福#NN  白菊#VV  ，#PU  浙江#NR  桐乡#NN  的#DEG  杭#NR  白菊#NN  和#CC  黄山脚#NN  下#LC  的#DEG  黄山#NR  贡菊#NN  -LRB-#NN  徽州#NN  贡菊#NN  -RRB-#NN  比较#AD  有名#VA    。#PU  产于#NR  安徽#NR  亳州#NN  的#DEG  亳菊#NN  、#PU  滁州#NN  的#DEG  滁菊#NN  、#PU  四川#NR  中江#NN  的#DEG  川菊#NN  、#PU  浙江#NR  德清#NN  的#DEG  德菊#NN  、#PU  河南#NR  济源#NN  的#DEG  怀#NN  菊花#NN  （#PU  四#CD  大#JJ  怀药#NN  之一#NN  ）#PU  都#AD  有#VE  很#AD  高#VA  的#DEC  药效#NN    。#PU  特别是#AD  黄山#NR  贡菊#VV  ，#PU  它#PN  生长#NN  在#P  高山#NN  云雾#NN  之中#LC  ，#PU  采#VV  黄山#NR  之#DEG  灵气#NN  ，#PU  汲#VV  皖南#NR  山水#NN  之#DEG  精华#NN  ，#PU  它#PN  的#DEG  无污染#NN  性#NN  对现#NN  代人#VV  来说#NN  ，#PU  具有#VV  更#AD  高#VA  的#DEC  饮用#JJ  价值#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 菊科#VV, 菊花#NN)  (advmod, 菊科#VV, 多年生#AD)  (root, ROOT#null, 菊科#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 菊科#VV, 植物#NN)  (conj, 菊科#VV, 是#VC)  (case, 选择#VV, 经#P)  (advmod, 选择#VV, 长期#AD)  (advmod, 选择#VV, 人工#AD)  (prep, 是#VC, 选择#VV)  (relcl, 花卉#NN, 培育#VV)  (comod, 培育#VV, 出#VV)  (mark, 培育#VV, 的#DEC)  (amod, 花卉#NN, 名贵#JJ)  (nn, 花卉#NN, 观赏#NN)  (dobj, 选择#VV, 花卉#NN)  (advmod, 称#VV, 也#AD)  (dep, 选择#VV, 称#VV)  (dobj, 称#VV, 艺菊#NN)  (nsubj, 达#VV, 品种#NN)  (advmod, 达#VV, 已#AD)  (conj, 菊科#VV, 达#VV)  (nummod, 种#M, 千余#CD)  (range, 达#VV, 种#M)   (nsubj, 之一#NN, 菊花#NN)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 中国#NR)  (nummod, 之一#NN, 十#CD)  (amod, 之一#NN, 大#JJ)  (nn, 之一#NN, 名花#NN)  (root, ROOT#null, 之一#NN)  (case, 中国#NR, 在#P)  (prep, 有#VE, 中国#NR)  (advmod, 有#VE, 已#AD)  (nsubj, 栽培#VV, 有#VE)  (nummod, 年#M, 三千多#CD)  (dep, 有#VE, 年#M)  (mark, 有#VE, 的#DEC)  (conj, 之一#NN, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)  (nn, 传入#NN, 中国#NR)  (nn, 传入#NN, 菊花#NN)  (nsubj, 开始#VV, 传入#NN)  (nsubj, 开始#VV, 欧洲#NR)  (advmod, 开始#VV, 约#AD)  (case, 清初#NN, 在#P)  (nn, 清初#NN, 明末#NN)  (prep, 开始#VV, 清初#NN)  (conj, 之一#NN, 开始#VV)   (root, ROOT#null, null#null)
+            (nn, 产地#NN, 其中#NN)  (nn, 河#NN, 产地#NN)  (nn, 麻城#NN, 湖北#NR)  (nn, 麻城#NN, 大别山#NN)  (nn, 河#NN, 麻城#NN)  (amod, 河#NN, 福田#JJ)  (assmod, 福#NN, 河#NN)  (case, 河#NN, 的#DEG)  (nsubj, 白菊#VV, 福#NN)  (root, ROOT#null, 白菊#VV)  (nn, 桐乡#NN, 浙江#NR)  (assmod, 黄山脚#NN, 桐乡#NN)  (case, 桐乡#NN, 的#DEG)  (nn, 黄山脚#NN, 杭#NR)  (conj, 黄山脚#NN, 白菊#NN)  (cc, 黄山脚#NN, 和#CC)  (assmod, -RRB-#NN, 黄山脚#NN)  (case, 黄山脚#NN, 下#LC)  (case, 黄山脚#NN, 的#DEG)  (nn, -LRB-#NN, 黄山#NR)  (nn, -LRB-#NN, 贡菊#NN)  (nn, -RRB-#NN, 徽州#NN)  (nn, -RRB-#NN, 贡菊#NN)  (advmod, 有名#VA, 比较#AD)  (ccomp, 白菊#VV, 有名#VA)   (nn, 亳州#NN, 产于#NR)  (nn, 亳州#NN, 安徽#NR)  (assmod, 亳菊#NN, 亳州#NN)  (case, 亳州#NN, 的#DEG)  (conj, 怀#NN, 亳菊#NN)  (assmod, 滁菊#NN, 滁州#NN)  (case, 滁州#NN, 的#DEG)  (conj, 怀#NN, 滁菊#NN)  (nn, 中江#NN, 四川#NR)  (assmod, 川菊#NN, 中江#NN)  (case, 中江#NN, 的#DEG)  (conj, 怀#NN, 川菊#NN)  (nn, 德清#NN, 浙江#NR)  (assmod, 德菊#NN, 德清#NN)  (case, 德清#NN, 的#DEG)  (conj, 怀#NN, 德菊#NN)  (nn, 济源#NN, 河南#NR)  (assmod, 怀#NN, 济源#NN)  (case, 济源#NN, 的#DEG)  (nn, 菊花#NN, 怀#NN)  (nsubj, 有#VE, 菊花#NN)  (dep, 之一#NN, 四#CD)  (amod, 之一#NN, 大#JJ)  (nn, 之一#NN, 怀药#NN)  (prnmod, 菊花#NN, 之一#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 很#AD)  (relcl, 药效#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 有#VE, 药效#NN)   (advmod, 黄山#NR, 特别是#AD)  (nsubj, 贡菊#VV, 黄山#NR)  (root, ROOT#null, 贡菊#VV)  (nsubj, 采#VV, 它#PN)  (nsubj, 采#VV, 生长#NN)  (case, 云雾#NN, 在#P)  (nn, 云雾#NN, 高山#NN)  (prep, 采#VV, 云雾#NN)  (case, 云雾#NN, 之中#LC)  (ccomp, 贡菊#VV, 采#VV)  (assmod, 灵气#NN, 黄山#NR)  (case, 黄山#NR, 之#DEG)  (dobj, 采#VV, 灵气#NN)  (conj, 采#VV, 汲#VV)  (nn, 山水#NN, 皖南#NR)  (assmod, 精华#NN, 山水#NN)  (case, 山水#NN, 之#DEG)  (dobj, 汲#VV, 精华#NN)  (assmod, 对现#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 对现#NN, 无污染#NN)  (nn, 对现#NN, 性#NN)  (nsubj, 代人#VV, 对现#NN)  (conj, 采#VV, 代人#VV)  (dobj, 代人#VV, 来说#NN)  (conj, 代人#VV, 具有#VV)  (advmod, 高#VA, 更#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (amod, 价值#NN, 饮用#JJ)  (dobj, 具有#VV, 价值#NN)
+        </parsing>
+
+        <tag>
+            草本植物  菊科植物  培育花卉  名贵花卉  观赏花卉  栽培历史  明末清初  大别山麻城  福田河  白菊  黄山脚  贡菊  高山云雾  无污染对现  代人来说  饮用价值  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味微辛、甘、苦，性微寒。能疏散风热，清肝明目，平肝阳，解毒。用于感冒风热，发热头昏；肝经有热；目赤多泪，或肝肾阴虚，眼目昏花；肝阳上亢，眩晕头痛；疮疡肿痛。现代又用于冠心病、高血压病。
+            1.降血压
+            菊花具有降血压、消除癌细胞、扩张冠状动脉和抑菌的作用，长期饮用能增加人体钙质、调节心肌功能、降低胆固醇，适合中老年人和预防流行性结膜炎时饮用。
+            2.明目
+            菊花除了涂抹眼睛可消除浮肿之外，平常可以泡一杯菊花茶来喝，能消除眼睛疲劳。如果每天喝3-4杯的菊花茶，对恢复视力也有一定作用。
+            3.提神
+            菊花是一种神经强壮剂，能增强毛细血管的抵抗力，可延缓衰老，增强体力。菊花有良好的镇静作用，经常食用能使人肢体轻松，醒脑提神。
+        </rawdata>
+
+        <segment>
+            味微辛  、  甘  、  苦  ，  性微寒  。  能  疏散  风热  ，  清肝  明目  ，  平肝阳  ，  解毒  。  用于  感冒  风  热  ，  发热  头昏  ；  肝经  有  热  ；  目赤多  泪  ，  或  肝肾  阴虚  ，  眼目  昏花  ；  肝阳  上亢  ，  眩晕  头痛  ；  疮疡  肿痛  。  现代  又  用于  冠心病  、  高血压  病  。
+            降  血压
+            菊花  具有  降  血压  、  消除  癌细胞  、  扩张  冠状  动脉  和  抑菌  的  作用  ，  长期  饮用  能  增加  人体  钙质  、  调节  心肌  功能  、  降低  胆固醇  ，  适合  中  老年人  和  预防  流行性  结膜炎  时  饮用  。
+            明目
+            菊花  除了  涂抹  眼睛  可  消除  浮肿  之外  ，  平常  可以  泡  一  杯  菊花茶  来  喝  ，  能  消除  眼睛  疲劳  。  如果  每天  喝3-4  杯  的  菊花茶  ，  对  恢复  视力  也  有  一定  作用  。
+            提神
+            菊花  是  一  种  神经  强壮剂  ，  能  增强  毛细血管  的  抵抗力  ，  可  延缓  衰老  ，  增强  体力  。  菊花  有  良好  的  镇静  作用  ，  经常  食用  能  使  人  肢体  轻松  ，  醒脑提神  。
+        </segment>
+
+        <pos>
+            味微辛#NN  、#PU  甘#NR  、#PU  苦#NN  ，#PU  性微寒#VV    。#PU  能#VV  疏散#VV  风热#NN  ，#PU  清肝#VV  明目#NN  ，#PU  平肝阳#VV  ，#PU  解毒#VV    。#PU  用于#VV  感冒#NN  风#NN  热#NN  ，#PU  发热#VV  头昏#NN  ；#PU  肝经#AD  有#VE  热#NN  ；#PU  目赤多#VV  泪#NN  ，#PU  或#CC  肝肾#VV  阴虚#NN  ，#PU  眼目#VV  昏花#NN  ；#PU  肝阳#VV  上亢#NN  ，#PU  眩晕#VV  头痛#NN  ；#PU  疮疡#AD  肿痛#VV    。#PU  现代#NR  又#AD  用于#VV  冠心病#NN  、#PU  高血压#NN  病#NN    。#PU    。#PU
+            降#NN  血压#VA
+            菊花#NN  具有#VV  降#VV  血压#NN  、#PU  消除#VV  癌细胞#NN  、#PU  扩张#NN  冠状#NN  动脉#NN  和#CC  抑菌#NN  的#DEC  作用#NN  ，#PU  长期#JJ  饮用#NN  能#VV  增加#VV  人体#NN  钙质#NN  、#PU  调节#VV  心肌#NN  功能#NN  、#PU  降低#VV  胆固醇#NN  ，#PU  适合#VV  中#NR  老年人#NN  和#CC  预防#VV  流行性#NN  结膜炎#NN  时#LC  饮用#VV  。#PU
+            明目#VV
+            菊花#NN  除了#P  涂抹#NN  眼睛#NN  可#VV  消除#VV  浮肿#NN  之外#LC  ，#PU  平常#NR  可以#VV  泡#VV  一#CD  杯#NN  菊花茶#NN  来#MSP  喝#VV  ，#PU  能#VV  消除#VV  眼睛#NN  疲劳#VA    。#PU  如果#CS  每天#VV  喝3-4#CD  杯#NN  的#DEG  菊花茶#NN  ，#PU  对#P  恢复#NN  视力#NN  也#AD  有#VE  一定#JJ  作用#NN    。#PU    。#PU
+            提神#VV
+            菊花#NN  是#VC  一#CD  种#M  神经#NN  强壮剂#NN  ，#PU  能#VV  增强#VV  毛细血管#NN  的#DEG  抵抗力#NN  ，#PU  可#VV  延缓#VV  衰老#NN  ，#PU  增强#VV  体力#NN    。#PU  菊花#NN  有#VE  良好#VA  的#DEC  镇静#JJ  作用#NN  ，#PU  经常#AD  食用#VV  能#VV  使#VV  人#NN  肢体#NN  轻松#VA  ，#PU  醒脑提神#VV    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 苦#NN, 味微辛#NN)  (conj, 苦#NN, 甘#NR)  (dep, 性微寒#VV, 苦#NN)  (root, ROOT#null, 性微寒#VV)   (mmod, 疏散#VV, 能#VV)  (root, ROOT#null, 疏散#VV)  (dobj, 疏散#VV, 风热#NN)  (conj, 疏散#VV, 清肝#VV)  (dobj, 清肝#VV, 明目#NN)  (conj, 疏散#VV, 平肝阳#VV)  (conj, 疏散#VV, 解毒#VV)   (root, ROOT#null, 用于#VV)  (nn, 热#NN, 感冒#NN)  (nn, 热#NN, 风#NN)  (dobj, 用于#VV, 热#NN)  (conj, 用于#VV, 发热#VV)  (dobj, 发热#VV, 头昏#NN)  (advmod, 有#VE, 肝经#AD)  (dep, 用于#VV, 有#VE)  (dobj, 有#VE, 热#NN)  (dep, 用于#VV, 目赤多#VV)  (dobj, 目赤多#VV, 泪#NN)  (cc, 目赤多#VV, 或#CC)  (conj, 目赤多#VV, 肝肾#VV)  (dobj, 肝肾#VV, 阴虚#NN)  (conj, 目赤多#VV, 眼目#VV)  (dobj, 眼目#VV, 昏花#NN)  (conj, 目赤多#VV, 肝阳#VV)  (dobj, 肝阳#VV, 上亢#NN)  (conj, 肝阳#VV, 眩晕#VV)  (dobj, 眩晕#VV, 头痛#NN)  (advmod, 肿痛#VV, 疮疡#AD)  (conj, 目赤多#VV, 肿痛#VV)   (nsubj, 用于#VV, 现代#NR)  (advmod, 用于#VV, 又#AD)  (root, ROOT#null, 用于#VV)  (conj, 病#NN, 冠心病#NN)  (nn, 病#NN, 高血压#NN)  (dobj, 用于#VV, 病#NN)   (root, ROOT#null, null#null)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (nsubj, 具有#VV, 菊花#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 降#VV)  (dobj, 降#VV, 血压#NN)  (conj, 降#VV, 消除#VV)  (conj, 抑菌#NN, 癌细胞#NN)  (nn, 抑菌#NN, 扩张#NN)  (nn, 抑菌#NN, 冠状#NN)  (conj, 抑菌#NN, 动脉#NN)  (cc, 抑菌#NN, 和#CC)  (dobj, 消除#VV, 抑菌#NN)  (mark, 降#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (amod, 饮用#NN, 长期#JJ)  (nsubj, 增加#VV, 饮用#NN)  (mmod, 增加#VV, 能#VV)  (conj, 具有#VV, 增加#VV)  (nn, 钙质#NN, 人体#NN)  (dobj, 增加#VV, 钙质#NN)  (conj, 增加#VV, 调节#VV)  (nn, 功能#NN, 心肌#NN)  (dobj, 调节#VV, 功能#NN)  (conj, 增加#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 增加#VV, 适合#VV)  (nn, 老年人#NN, 中#NR)  (dobj, 适合#VV, 老年人#NN)  (cc, 增加#VV, 和#CC)  (loc, 饮用#VV, 预防#VV)  (nn, 结膜炎#NN, 流行性#NN)  (dobj, 预防#VV, 结膜炎#NN)  (case, 预防#VV, 时#LC)  (conj, 增加#VV, 饮用#VV)
+            (root, ROOT#null, 明目#VV)
+            (nsubj, 泡#VV, 菊花#NN)  (case, 消除#VV, 除了#P)  (nn, 眼睛#NN, 涂抹#NN)  (nsubj, 消除#VV, 眼睛#NN)  (mmod, 消除#VV, 可#VV)  (prep, 泡#VV, 消除#VV)  (dobj, 消除#VV, 浮肿#NN)  (case, 消除#VV, 之外#LC)  (nsubj, 泡#VV, 平常#NR)  (mmod, 泡#VV, 可以#VV)  (root, ROOT#null, 泡#VV)  (nummod, 菊花茶#NN, 一#CD)  (nn, 菊花茶#NN, 杯#NN)  (dobj, 泡#VV, 菊花茶#NN)  (prtmod, 喝#VV, 来#MSP)  (dep, 泡#VV, 喝#VV)  (mmod, 消除#VV, 能#VV)  (dep, 喝#VV, 消除#VV)  (dobj, 消除#VV, 眼睛#NN)  (dep, 泡#VV, 疲劳#VA)   (advmod, 每天#VV, 如果#CS)  (dep, 有#VE, 每天#VV)  (nummod, 杯#NN, 喝3-4#CD)  (assmod, 菊花茶#NN, 杯#NN)  (case, 杯#NN, 的#DEG)  (dobj, 每天#VV, 菊花茶#NN)  (case, 恢复#NN, 对#P)  (prep, 有#VE, 恢复#NN)  (nsubj, 有#VE, 视力#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 一定#JJ)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 提神#VV)
+            (nsubj, 强壮剂#NN, 菊花#NN)  (cop, 强壮剂#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 强壮剂#NN, 种#M)  (nn, 强壮剂#NN, 神经#NN)  (root, ROOT#null, 强壮剂#NN)  (mmod, 增强#VV, 能#VV)  (conj, 强壮剂#NN, 增强#VV)  (assmod, 抵抗力#NN, 毛细血管#NN)  (case, 毛细血管#NN, 的#DEG)  (dobj, 增强#VV, 抵抗力#NN)  (mmod, 延缓#VV, 可#VV)  (conj, 增强#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (conj, 增强#VV, 增强#VV)  (dobj, 增强#VV, 体力#NN)   (nsubj, 有#VE, 菊花#NN)  (dep, 使#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 镇静#JJ)  (dobj, 有#VE, 作用#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 有#VE, 食用#VV)  (mmod, 使#VV, 能#VV)  (root, ROOT#null, 使#VV)  (nn, 肢体#NN, 人#NN)  (dobj, 使#VV, 肢体#NN)  (dep, 使#VV, 轻松#VA)  (conj, 使#VV, 醒脑提神#VV)
+        </parsing>
+
+        <tag>
+            疏散风热  清肝明目  用于热  发热头昏  目赤多泪  肝肾阴虚  眼目昏花  肝阳上亢  眩晕头痛  用于病  降血压  癌细胞  扩张抑菌  冠状抑菌  动脉  消除抑菌  长期饮用  人体钙质  增加钙质  心肌功能  调节功能  降低胆固醇  适合老年人  流行性结膜炎  预防结膜炎  涂抹眼睛  消除浮肿  消除眼睛  提神  神经强壮剂  毛细血管  增强抵抗力  延缓衰老  增强体力  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        消肿毒  平肝  明目  发散风热  改善血液循环  抗菌  抗真菌  耐缺氧
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            菊花的主要成分有挥发油(0.20-/0-0.85%)、腺嘌呤、胆碱、水苏碱、菊苷及黄酮类化合物。挥发油主要有龙脑、樟脑、菊酮和醋酸龙脑酷等成分，黄酮类成分有木樨草素、芹菜素、刺槐素等。此外，菊花中还含有丰富的维生素、氨基酸、微量元素等。杭白菊中维生素E含量较高。
+        </rawdata>
+
+        <segment>
+            菊花  的  主要  成分  有  挥发油  (    20-/0-0.85%  )  、  腺嘌呤  、  胆碱  、  水  苏  碱  、  菊苷  及  黄酮类  化合物  。  挥发油  主要  有  龙脑  、  樟脑  、  菊酮  和  醋酸  龙脑  酷等  成分  ，  黄酮类  成分  有  木樨  草素  、  芹菜  素  、  刺槐素  等  。  此外  ，  菊花  中  还  含有  丰富  的  维生素  、  氨基酸  、  微量  元素  等  。  杭  白菊  中  维生素E  含量  较  高  。
+        </segment>
+
+        <pos>
+            菊花#NN  的#DEG  主要#JJ  成分#NN  有#VE  挥发油#NN  -LRB-#NN  20#CD  -#NN  /#NN  0-0#CD  .85#CD  %#NN  -RRB-#NN  、#PU  腺嘌呤#NN  、#PU  胆碱#NN  、#PU  水#NN  苏#NR  碱#NR  、#PU  菊苷#NR  及#CC  黄酮类#NR  化合物#NN    。#PU  挥发油#NN  主要#AD  有#VE  龙脑#NR  、#PU  樟脑#NR  、#PU  菊酮#NR  和#CC  醋酸#NR  龙脑#NN  酷等#NN  成分#NN  ，#PU  黄酮类#VV  成分#NN  有#VE  木樨#VV  草素#NN  、#PU  芹菜#VV  素#AD  、#PU  刺槐素#NN  等#ETC    。#PU  此外#AD  ，#PU  菊花#NN  中#NR  还#AD  含有#VV  丰富#VA  的#DEC  维生素#NN  、#PU  氨基酸#NN  、#PU  微量#NN  元素#NN  等#ETC    。#PU  杭#NR  白菊#NN  中#LC  维生素E#NN  含量#NN  较#AD  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 菊花#NN)  (case, 菊花#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (dep, 有#VE, 成分#NN)  (root, ROOT#null, 有#VE)  (nn, -LRB-#NN, 挥发油#NN)  (nummod, -#NN, 20#CD)  (nummod, %#NN, 0-0#CD)  (nummod, %#NN, .85#CD)  (nn, 化合物#NN, %#NN)  (conj, 水#NN, 腺嘌呤#NN)  (conj, 水#NN, 胆碱#NN)  (nn, 化合物#NN, 水#NN)  (nn, 黄酮类#NR, 苏#NR)  (conj, 黄酮类#NR, 碱#NR)  (conj, 黄酮类#NR, 菊苷#NR)  (cc, 黄酮类#NR, 及#CC)  (nn, 化合物#NN, 黄酮类#NR)  (dobj, 有#VE, 化合物#NN)   (nsubj, 有#VE, 挥发油#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (conj, 醋酸#NR, 龙脑#NR)  (conj, 醋酸#NR, 樟脑#NR)  (conj, 醋酸#NR, 菊酮#NR)  (cc, 醋酸#NR, 和#CC)  (nn, 酷等#NN, 醋酸#NR)  (nn, 酷等#NN, 龙脑#NN)  (nn, 成分#NN, 酷等#NN)  (dobj, 有#VE, 成分#NN)  (conj, 有#VE, 黄酮类#VV)  (dobj, 黄酮类#VV, 成分#NN)  (conj, 有#VE, 有#VE)  (dep, 有#VE, 木樨#VV)  (dobj, 木樨#VV, 草素#NN)  (conj, 木樨#VV, 芹菜#VV)  (advmod, 芹菜#VV, 素#AD)  (dep, 木樨#VV, 刺槐素#NN)  (etc, 刺槐素#NN, 等#ETC)   (advmod, 含有#VV, 此外#AD)  (nsubj, 含有#VV, 菊花#NN)  (nsubj, 含有#VV, 中#NR)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 元素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 元素#NN, 维生素#NN)  (conj, 元素#NN, 氨基酸#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)  (etc, 元素#NN, 等#ETC)   (nn, 含量#NN, 杭#NR)  (dep, 含量#NN, 白菊#NN)  (case, 白菊#NN, 中#LC)  (nn, 含量#NN, 维生素E#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)
+        </parsing>
+
+        <tag>
+            黄酮类  菊苷  醋酸  樟脑  菊酮  龙脑酷等  木樨草素  含有  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            泡茶，煎汤，浸酒，或入丸、散。
+        </rawdata>
+
+        <segment>
+            泡茶  ，  煎  汤  ，  浸酒  ，  或  入丸  、  散  。
+        </segment>
+
+        <pos>
+            泡茶#NR  ，#PU  煎#NR  汤#VV  ，#PU  浸酒#NN  ，#PU  或#CC  入丸#VV  、#PU  散#JJ  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 汤#VV, 泡茶#NR)  (nsubj, 汤#VV, 煎#NR)  (root, ROOT#null, 汤#VV)  (nsubj, 入丸#VV, 浸酒#NN)  (cc, 入丸#VV, 或#CC)  (ccomp, 汤#VV, 入丸#VV)  (dep, 入丸#VV, 散#JJ)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051955051342.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\174 菊花.jpg
+    </picturelocalurl>
+
+</content>

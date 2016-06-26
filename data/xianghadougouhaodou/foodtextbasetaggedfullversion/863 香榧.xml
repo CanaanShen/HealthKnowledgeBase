@@ -1,0 +1,153 @@
+<content>
+
+    <id>
+        863
+    </id>
+
+    <foodname>
+        香榧
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        榧子、彼子、榧实、柀子、玉山果、赤果、玉榧、野杉子、木榧
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹泻、大便溏薄、咳嗽咽痛且痰黄者忌用。
+        </rawdata>
+
+        <segment>
+            腹泻  、  大便  溏薄  、  咳嗽  咽痛  且痰黄者忌  用  。
+        </segment>
+
+        <pos>
+            腹泻#NR  、#PU  大便#NR  溏薄#NR  、#PU  咳嗽#NR  咽痛#NN  且痰黄者忌#VV  用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 咳嗽#NR, 腹泻#NR)  (nn, 咳嗽#NR, 大便#NR)  (conj, 咳嗽#NR, 溏薄#NR)  (nn, 咽痛#NN, 咳嗽#NR)  (nsubj, 且痰黄者忌#VV, 咽痛#NN)  (root, ROOT#null, 且痰黄者忌#VV)  (ccomp, 且痰黄者忌#VV, 用#VV)
+        </parsing>
+
+        <tag>
+            腹泻  大便溏薄  咳嗽咽痛且痰黄者忌用  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            气虚质、阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            气虚  质  、  阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            气虚#NN  质#NN  、#PU  阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 气虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            气虚质  阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            香榧(Torreyagrandis)，又称为“中国榧”，又名榧树、玉榧、野杉子，为红豆杉科，榧属常绿乔木，中国原产树种，是世界上稀有的经济树种。常绿乔木，高可达25m，树干端直，树冠卵形，干皮褐色光滑，老时浅纵裂，冬芽褐绿色常3个集生于枝端，雌雄异株，雄球花单生于叶腋，雌球花对生于叶腋，种子大形，核果状，长2-4cm,…
+        </rawdata>
+
+        <segment>
+            香榧  (  Torreyagrandis  )  ，  又  称为  “  中国榧  ”  ，  又  名  榧树  、  玉榧  、  野杉子  ，  为  红豆杉  科  ，  榧属  常绿  乔木  ，  中国  原产  树种  ，  是  世界  上  稀有  的  经济  树种  。  常绿  乔木  ，  高  可  达  25m  ，  树干  端直  ，  树冠  卵形  ，  干  皮  褐色  光滑  ，  老  时  浅  纵裂  ，  冬芽  褐  绿色  常  3  个  集  生  于  枝端  ，  雌雄异株  ，  雄  球花  单  生于  叶腋  ，  雌  球花  对生  于  叶腋  ，  种子  大形  ，  核果状  ，  长  2-4cm  ,  …
+        </segment>
+
+        <pos>
+            香榧#NN  -LRB-#NN  Torreyagrandis#VV  -RRB-#VV  ，#PU  又#AD  称为#VV  ``#NN  中国榧#NN  ''#NN  ，#PU  又#CC  名#NN  榧树#VA  、#PU  玉榧#VA  、#PU  野杉子#VA  ，#PU  为#P  红豆杉#NN  科#NN  ，#PU  榧属#NR  常绿#VV  乔木#NN  ，#PU  中国#NR  原产#NN  树种#VV  ，#PU  是#VC  世界#NN  上#LC  稀有#JJ  的#DEG  经济#NN  树种#VA  。#PU  常绿#NN  乔木#NN  ，#PU  高#AD  可#VV  达#VV  25m#CD  ，#PU  树干#VV  端直#NN  ，#PU  树冠#VV  卵形#NN  ，#PU  干#VV  皮#NN  褐色#NN  光滑#NN  ，#PU  老#NR  时#AD  浅#VV  纵裂#NN  ，#PU  冬芽#NN  褐#NN  绿色#NN  常#AD  3#CD  个#M  集#VV  生#VV  于#P  枝端#NR  ，#PU  雌雄异株#VV  ，#PU  雄#NR  球花#VV  单#CD  生于#NN  叶腋#NN  ，#PU  雌#NN  球花#NN  对生#VV  于#P  叶腋#NR  ，#PU  种子#NN  大形#NN  ，#PU  核果状#VA  ，#PU  长#VV  2-4cm#CD  ,#NN  ...#NN
+        </pos>
+
+        <parsing>
+            (nn, -LRB-#NN, 香榧#NN)  (dep, -RRB-#VV, Torreyagrandis#VV)  (advmod, 称为#VV, 又#AD)  (root, ROOT#null, 称为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 中国榧#NN)  (dobj, 称为#VV, ''#NN)  (cc, 称为#VV, 又#CC)  (nsubj, 榧树#VA, 名#NN)  (conj, 称为#VV, 榧树#VA)  (conj, 榧树#VA, 玉榧#VA)  (dep, 榧树#VA, 野杉子#VA)  (case, 科#NN, 为#P)  (nn, 科#NN, 红豆杉#NN)  (prep, 常绿#VV, 科#NN)  (nsubj, 常绿#VV, 榧属#NR)  (conj, 称为#VV, 常绿#VV)  (dobj, 常绿#VV, 乔木#NN)  (nn, 原产#NN, 中国#NR)  (nsubj, 树种#VV, 原产#NN)  (conj, 称为#VV, 树种#VV)  (cop, 世界#NN, 是#VC)  (loc, 树种#VA, 世界#NN)  (case, 世界#NN, 上#LC)  (assmod, 经济#NN, 稀有#JJ)  (case, 稀有#JJ, 的#DEG)  (nsubj, 树种#VA, 经济#NN)  (ccomp, 树种#VV, 树种#VA)  (nn, 乔木#NN, 常绿#NN)  (nsubj, 达#VV, 乔木#NN)  (advmod, 达#VV, 高#AD)  (mmod, 达#VV, 可#VV)  (conj, 树种#VA, 达#VV)  (range, 达#VV, 25m#CD)  (conj, 达#VV, 树干#VV)  (dobj, 树干#VV, 端直#NN)  (conj, 达#VV, 树冠#VV)  (dobj, 树冠#VV, 卵形#NN)  (conj, 达#VV, 干#VV)  (nn, 光滑#NN, 皮#NN)  (nn, 光滑#NN, 褐色#NN)  (dobj, 干#VV, 光滑#NN)  (nsubj, 浅#VV, 老#NR)  (advmod, 浅#VV, 时#AD)  (conj, 树种#VA, 浅#VV)  (dobj, 浅#VV, 纵裂#NN)  (nn, 绿色#NN, 冬芽#NN)  (nn, 绿色#NN, 褐#NN)  (nsubj, 雌雄异株#VV, 绿色#NN)  (advmod, 雌雄异株#VV, 常#AD)  (nummod, 个#M, 3#CD)  (dep, 雌雄异株#VV, 个#M)  (mmod, 雌雄异株#VV, 集#VV)  (mmod, 雌雄异株#VV, 生#VV)  (case, 枝端#NR, 于#P)  (prep, 雌雄异株#VV, 枝端#NR)  (conj, 称为#VV, 雌雄异株#VV)  (nsubj, 球花#VV, 雄#NR)  (conj, 称为#VV, 球花#VV)  (nummod, 叶腋#NN, 单#CD)  (nn, 叶腋#NN, 生于#NN)  (dobj, 球花#VV, 叶腋#NN)  (nn, 球花#NN, 雌#NN)  (nsubj, 对生#VV, 球花#NN)  (conj, 称为#VV, 对生#VV)  (case, 叶腋#NR, 于#P)  (prep, 对生#VV, 叶腋#NR)  (nn, 大形#NN, 种子#NN)  (nsubj, 核果状#VA, 大形#NN)  (conj, 称为#VV, 核果状#VA)  (conj, 称为#VV, 长#VV)  (nummod, ...#NN, 2-4cm#CD)  (dobj, 长#VV, ...#NN)
+        </parsing>
+
+        <tag>
+            称为  名榧树  常绿乔木  经济树种  树干端直  树冠卵形  褐色光滑  冬芽绿色  生于叶腋  球花叶腋  种子大形  大形核果状  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.榧仁内含4种脂碱，对淋巴细胞性白血病有明显的抑制作用，对治疗和预防淋巴肉瘤有益，可用于治疗多种肠道寄生虫病，杀虫能力较强；
+            2.脂肪酸和维生素E含量较高，常食可润泽肌肤、延缓衰老；
+            3.含较多维生素A，对眼睛干涩、易流泪，夜盲等症状有预防和缓解的功效；
+            4.能消除疳积、润肺滑肠，化痰止咳，适用于多种便秘，疝气、痔疮、消化不良、食积、咳痰症状。
+        </rawdata>
+
+        <segment>
+            榧仁  内  含  4  种  脂碱  ，  对  淋巴  细胞  性  白血病  有  明显  的  抑制  作用  ，  对  治疗  和  预防  淋巴  肉瘤  有益  ，  可  用于  治疗  多  种  肠道  寄生  虫病  ，  杀虫  能力  较强  ；
+            脂肪酸  和  维生素E  含量  较  高  ，  常食  可  润泽  肌肤  、  延缓  衰老  ；
+            含  较多  维生素A  ，  对  眼睛  干涩  、  易流泪  ，  夜盲  等  症状  有  预防  和  缓解  的  功效  ；
+            能  消除  疳积  、  润肺  滑肠  ，  化痰  止咳  ，  适用于  多种  便秘  ，  疝气  、  痔疮  、  消化不良  、  食积  、  咳痰  症状  。
+        </segment>
+
+        <pos>
+            榧仁#NN  内#LC  含#VV  4#CD  种#M  脂碱#NN  ，#PU  对#P  淋巴#NN  细胞#NN  性#NN  白血病#AD  有#VE  明显#VA  的#DEC  抑制#NN  作用#NN  ，#PU  对#P  治疗#NN  和#CC  预防#NN  淋巴#NN  肉瘤#AD  有益#VA  ，#PU  可#VV  用于#VV  治疗#NN  多#CD  种#M  肠道#NN  寄生#NN  虫病#NN  ，#PU  杀虫#VV  能力#NN  较强#JJ  ；#PU
+            脂肪酸#NN  和#CC  维生素E#NN  含量#NN  较#AD  高#VA  ，#PU  常食#NN  可#VV  润泽#VV  肌肤#NN  、#PU  延缓#NN  衰老#NN  ；#PU
+            含#VV  较多#NN  维生素A#NN  ，#PU  对#P  眼睛#NN  干涩#NN  、#PU  易流泪#NN  ，#PU  夜盲#NN  等#ETC  症状#NN  有#VE  预防#VV  和#CC  缓解#VV  的#DEC  功效#NN  ；#PU
+            能#VV  消除#VV  疳积#NN  、#PU  润肺#NN  滑肠#NN  ，#PU  化痰#VV  止咳#NN  ，#PU  适用于#VV  多种#NN  便秘#NN  ，#PU  疝气#NR  、#PU  痔疮#NR  、#PU  消化不良#NR  、#PU  食积#NR  、#PU  咳痰#NR  症状#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含#VV, 榧仁#NN)  (case, 榧仁#NN, 内#LC)  (dep, 有#VE, 含#VV)  (nummod, 种#M, 4#CD)  (clf, 脂碱#NN, 种#M)  (dobj, 含#VV, 脂碱#NN)  (case, 性#NN, 对#P)  (nn, 性#NN, 淋巴#NN)  (nn, 性#NN, 细胞#NN)  (prep, 有#VE, 性#NN)  (advmod, 有#VE, 白血病#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (case, 淋巴#NN, 对#P)  (conj, 预防#NN, 治疗#NN)  (cc, 预防#NN, 和#CC)  (nn, 淋巴#NN, 预防#NN)  (prep, 有益#VA, 淋巴#NN)  (advmod, 有益#VA, 肉瘤#AD)  (dep, 有#VE, 有益#VA)  (mmod, 用于#VV, 可#VV)  (dep, 有#VE, 用于#VV)  (nn, 虫病#NN, 治疗#NN)  (nummod, 种#M, 多#CD)  (clf, 虫病#NN, 种#M)  (nn, 虫病#NN, 肠道#NN)  (nn, 虫病#NN, 寄生#NN)  (dobj, 用于#VV, 虫病#NN)  (conj, 用于#VV, 杀虫#VV)  (dobj, 杀虫#VV, 能力#NN)  (conj, 用于#VV, 较强#JJ)
+            (root, ROOT#null, null#null)
+            (conj, 维生素E#NN, 脂肪酸#NN)  (cc, 维生素E#NN, 和#CC)  (nn, 含量#NN, 维生素E#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (nsubj, 润泽#VV, 常食#NN)  (mmod, 润泽#VV, 可#VV)  (conj, 高#VA, 润泽#VV)  (conj, 衰老#NN, 肌肤#NN)  (nn, 衰老#NN, 延缓#NN)  (dobj, 润泽#VV, 衰老#NN)
+            (root, ROOT#null, null#null)
+            (conj, 有#VE, 含#VV)  (nn, 维生素A#NN, 较多#NN)  (dobj, 含#VV, 维生素A#NN)  (case, 易流泪#NN, 对#P)  (nn, 易流泪#NN, 眼睛#NN)  (conj, 易流泪#NN, 干涩#NN)  (prep, 有#VE, 易流泪#NN)  (nn, 症状#NN, 夜盲#NN)  (etc, 夜盲#NN, 等#ETC)  (dep, 有#VE, 症状#NN)  (root, ROOT#null, 有#VE)  (relcl, 功效#NN, 预防#VV)  (cc, 预防#VV, 和#CC)  (conj, 预防#VV, 缓解#VV)  (mark, 预防#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, null#null)
+            (mmod, 消除#VV, 能#VV)  (root, ROOT#null, 消除#VV)  (conj, 滑肠#NN, 疳积#NN)  (nn, 滑肠#NN, 润肺#NN)  (dobj, 消除#VV, 滑肠#NN)  (conj, 消除#VV, 化痰#VV)  (dobj, 化痰#VV, 止咳#NN)  (conj, 消除#VV, 适用于#VV)  (nn, 便秘#NN, 多种#NN)  (dobj, 适用于#VV, 便秘#NN)  (conj, 咳痰#NR, 疝气#NR)  (conj, 咳痰#NR, 痔疮#NR)  (conj, 咳痰#NR, 消化不良#NR)  (conj, 咳痰#NR, 食积#NR)  (nn, 症状#NN, 咳痰#NR)  (dep, 消除#VV, 症状#NN)
+        </parsing>
+
+        <tag>
+            预防淋巴  治疗虫病  肠道虫病  寄生虫病  用于虫病  杀虫能力  维生素E  脂肪酸  肌肤  延缓衰老  润泽衰老  较多维生素A  眼睛易流泪  干涩  夜盲症状  预防功效  疳积  润肺滑肠  消除滑肠  化痰止咳  多种便秘  适用于便秘  咳痰  疝气  痔疮  消化不良  食积  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        消食积  润燥  抗虫
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/8d/41/82317_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\863 香榧.jpg
+    </picturelocalurl>
+
+</content>

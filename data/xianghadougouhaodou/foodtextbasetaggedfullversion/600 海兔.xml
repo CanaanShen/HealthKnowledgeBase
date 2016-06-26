@@ -1,0 +1,172 @@
+<content>
+
+    <id>
+        600
+    </id>
+
+    <foodname>
+        海兔
+    </foodname>
+
+    <firstcategory>
+        鱼虾蟹贝等水产
+    </firstcategory>
+
+    <secondcategory>
+        其它
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不能和啤酒一起食用，不能和水果和茶叶一起食用。
+        </rawdata>
+
+        <segment>
+            不  能  和  啤酒  一起  食用  ，  不  能  和  水果  和  茶叶  一  起  食用  。
+        </segment>
+
+        <pos>
+            不#AD  能#VV  和#P  啤酒#NN  一起#AD  食用#VV  ，#PU  不#AD  能#VV  和#P  水果#NN  和#CC  茶叶#NN  一#CD  起#M  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 能#VV)  (case, 啤酒#NN, 和#P)  (prep, 食用#VV, 啤酒#NN)  (advmod, 食用#VV, 一起#AD)  (root, ROOT#null, 食用#VV)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 能#VV)  (case, 茶叶#NN, 和#P)  (conj, 茶叶#NN, 水果#NN)  (cc, 茶叶#NN, 和#CC)  (prep, 食用#VV, 茶叶#NN)  (nummod, 起#M, 一#CD)  (dep, 食用#VV, 起#M)  (dep, 食用#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            不能  啤酒一起  不能  水果  茶叶一起  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            海兔的皮肤组织和体内含有有毒物质，所以要经过专业处理后才宜食用。
+        </rawdata>
+
+        <segment>
+            海兔  的  皮肤  组织  和  体内  含有  有毒  物质  ，  所以  要  经过  专业  处理  后才  宜  食用  。
+        </segment>
+
+        <pos>
+            海兔#NN  的#DEG  皮肤#NN  组织#NN  和#CC  体内#NN  含有#NN  有毒#VV  物质#NN  ，#PU  所以#AD  要#VV  经过#P  专业#NN  处理#NN  后才#VV  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 含有#NN, 海兔#NN)  (case, 海兔#NN, 的#DEG)  (nn, 含有#NN, 皮肤#NN)  (conj, 含有#NN, 组织#NN)  (cc, 含有#NN, 和#CC)  (nn, 含有#NN, 体内#NN)  (nsubj, 有毒#VV, 含有#NN)  (root, ROOT#null, 有毒#VV)  (dobj, 有毒#VV, 物质#NN)  (advmod, 后才#VV, 所以#AD)  (mmod, 后才#VV, 要#VV)  (case, 处理#NN, 经过#P)  (nn, 处理#NN, 专业#NN)  (prep, 后才#VV, 处理#NN)  (conj, 有毒#VV, 后才#VV)  (dobj, 后才#VV, 宜#NR)  (dep, 后才#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            皮肤组织  体内含有有毒物质  专业处理后才宜  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                100
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            海兔，螺类的一种，又称海蛞蝓。海兔不是兔。海兔耸起两只耳朵（实为触角），外形像兔子，头上一前一后，只是没有毛而已。它长有二对触角，后触角较长，当它不动时，活像一只蹲在地上竖着一对大耳朵的小白兔，因而最早被罗马人称为海兔。后被世人所公认，海兔因而得名。海兔是一种海生螺类软体动物，居于珊瑚内，背部有透明的薄薄的壳皮，一般呈白色，有"海底宝石"美称，以海葵、海绵、水螅为食物。
+        </rawdata>
+
+        <segment>
+            海兔  ，  螺类  的  一  种  ，  又  称  海  蛞蝓  。  海兔  不是兔  。  海兔  耸起  两  只  耳朵  （  实为  触角  ）  ，  外形  像  兔子  ，  头上  一  前  一  后  ，  只是  没有  毛  而已  。  它  长有  二  对  触角  ，  后  触角  较长  ，  当  它  不动  时  ，  活像  一  只  蹲在  地上  竖  着  一  对  大  耳朵  的  小白兔  ，  因而  最早  被  罗马人  称为  海兔  。  后被  世人  所  公认  ，  海兔  因而  得名  。  海兔  是  一  种  海生  螺类  软体  动物  ，  居于  珊瑚  内  ，  背部  有  透明  的  薄薄  的  壳皮  ，  一般  呈  白色  ，  有  "  海底  宝石  "  美称  ，  以  海葵  、  海绵  、  水螅  为  食物  。
+        </segment>
+
+        <pos>
+            海兔#VV  ，#PU  螺类#NN  的#DEG  一#CD  种#M  ，#PU  又#AD  称#VV  海#NN  蛞蝓#NN    。#PU  海兔#NN  不是兔#VV    。#PU  海兔#NN  耸起#VV  两#CD  只#M  耳朵#NN  （#PU  实为#NN  触角#NN  ）#PU  ，#PU  外形#NN  像#P  兔子#NR  ，#PU  头上#VV  一#NT  前#DT  一#CD  后#LC  ，#PU  只是#AD  没有#VE  毛#NN  而已#NN    。#PU  它#PN  长有#VV  二#CD  对#P  触角#NN  ，#PU  后#DT  触角#NN  较长#VV  ，#PU  当#P  它#PN  不动#VV  时#LC  ，#PU  活像#NR  一#CD  只#M  蹲在#NN  地上#NN  竖#VV  着#AS  一#AD  对#P  大#JJ  耳朵#NN  的#DEG  小白兔#NN  ，#PU  因而#AD  最早#AD  被#LB  罗马人#NN  称为#VV  海兔#NN    。#PU  后被#NN  世人#NN  所#MSP  公认#VV  ，#PU  海兔#NN  因而#AD  得名#VV    。#PU  海兔#NN  是#VC  一#CD  种#M  海生#NN  螺类#AD  软体#VV  动物#NN  ，#PU  居于#VV  珊瑚#NN  内#LC  ，#PU  背部#NN  有#VE  透明#VA  的#DEC  薄薄#NN  的#DEC  壳皮#NN  ，#PU  一般#AD  呈#VV  白色#JJ  ，#PU  有#VE  ''#NN  海底#NN  宝石#NN  ''#NN  美称#NN  ，#PU  以#P  海葵#NR  、#PU  海绵#NR  、#PU  水螅#NR  为#VV  食物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 海兔#VV)  (assmod, 种#M, 螺类#NN)  (case, 螺类#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 海兔#VV, 种#M)  (advmod, 称#VV, 又#AD)  (conj, 海兔#VV, 称#VV)  (nn, 蛞蝓#NN, 海#NN)  (dobj, 称#VV, 蛞蝓#NN)   (nsubj, 不是兔#VV, 海兔#NN)  (root, ROOT#null, 不是兔#VV)   (nsubj, 耸起#VV, 海兔#NN)  (root, ROOT#null, 耸起#VV)  (nummod, 只#M, 两#CD)  (clf, 耳朵#NN, 只#M)  (dobj, 耸起#VV, 耳朵#NN)  (nn, 触角#NN, 实为#NN)  (dep, 耸起#VV, 触角#NN)  (nsubj, 没有#VE, 外形#NN)  (case, 兔子#NR, 像#P)  (prep, 没有#VE, 兔子#NR)  (loc, 没有#VE, 头上#VV)  (dep, 前#DT, 一#NT)  (dep, 头上#VV, 前#DT)  (dep, 前#DT, 一#CD)  (case, 头上#VV, 后#LC)  (advmod, 没有#VE, 只是#AD)  (conj, 耸起#VV, 没有#VE)  (nn, 而已#NN, 毛#NN)  (dobj, 没有#VE, 而已#NN)   (nsubj, 长有#VV, 它#PN)  (root, ROOT#null, 长有#VV)  (range, 长有#VV, 二#CD)  (case, 触角#NN, 对#P)  (prep, 较长#VV, 触角#NN)  (det, 触角#NN, 后#DT)  (nsubj, 较长#VV, 触角#NN)  (conj, 长有#VV, 较长#VV)  (case, 不动#VV, 当#P)  (nsubj, 不动#VV, 它#PN)  (prep, 竖#VV, 不动#VV)  (case, 不动#VV, 时#LC)  (nn, 地上#NN, 活像#NR)  (nummod, 只#M, 一#CD)  (clf, 地上#NN, 只#M)  (nn, 地上#NN, 蹲在#NN)  (nsubj, 竖#VV, 地上#NN)  (xsubj, 称为#VV, 地上#NN)  (ccomp, 较长#VV, 竖#VV)  (asp, 竖#VV, 着#AS)  (prep, 称为#VV, 一#AD)  (case, 小白兔#NN, 对#P)  (amod, 耳朵#NN, 大#JJ)  (assmod, 小白兔#NN, 耳朵#NN)  (case, 耳朵#NN, 的#DEG)  (dep, 一#AD, 小白兔#NN)  (advmod, 称为#VV, 因而#AD)  (advmod, 称为#VV, 最早#AD)  (auxpass, 称为#VV, 被#LB)  (nsubj, 称为#VV, 罗马人#NN)  (ccomp, 竖#VV, 称为#VV)  (dobj, 称为#VV, 海兔#NN)   (nn, 世人#NN, 后被#NN)  (nsubj, 公认#VV, 世人#NN)  (prtmod, 公认#VV, 所#MSP)  (root, ROOT#null, 公认#VV)  (nsubj, 得名#VV, 海兔#NN)  (advmod, 得名#VV, 因而#AD)  (ccomp, 公认#VV, 得名#VV)   (nsubj, 软体#VV, 海兔#NN)  (cop, 软体#VV, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 海生#NN, 种#M)  (nsubj, 软体#VV, 海生#NN)  (advmod, 软体#VV, 螺类#AD)  (root, ROOT#null, 软体#VV)  (dobj, 软体#VV, 动物#NN)  (conj, 软体#VV, 居于#VV)  (loc, 有#VE, 珊瑚#NN)  (case, 珊瑚#NN, 内#LC)  (dep, 有#VE, 背部#NN)  (relcl, 壳皮#NN, 有#VE)  (relcl, 薄薄#NN, 透明#VA)  (mark, 透明#VA, 的#DEC)  (dobj, 有#VE, 薄薄#NN)  (mark, 有#VE, 的#DEC)  (dobj, 居于#VV, 壳皮#NN)  (advmod, 呈#VV, 一般#AD)  (conj, 软体#VV, 呈#VV)  (conj, 软体#VV, 白色#JJ)  (dep, 软体#VV, 有#VE)  (nn, 宝石#NN, ''#NN)  (nn, 宝石#NN, 海底#NN)  (nn, ''#NN, 宝石#NN)  (nn, 美称#NN, ''#NN)  (dobj, 有#VE, 美称#NN)  (case, 水螅#NR, 以#P)  (conj, 水螅#NR, 海葵#NR)  (conj, 水螅#NR, 海绵#NR)  (prep, 为#VV, 水螅#NR)  (conj, 软体#VV, 为#VV)  (dobj, 为#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+            耸起耳朵  实为触角  只是没有  没有而已  长有  蹲在地上  大耳朵  小白兔  后被世人  公认  软体动物  薄薄透明  居于壳皮  海底宝石  水螅  海葵  海绵  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            消炎退热，润肺滋阴
+        </rawdata>
+
+        <segment>
+            消炎  退热  ，  润肺  滋阴
+        </segment>
+
+        <pos>
+            消炎#NR  退热#VV  ，#PU  润肺#VV  滋阴#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 退热#VV, 消炎#NR)  (root, ROOT#null, 退热#VV)  (ccomp, 退热#VV, 润肺#VV)  (dobj, 润肺#VV, 滋阴#NN)
+        </parsing>
+
+        <tag>
+            退热  润肺滋阴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            海兔富含蛋白质、脂肪、多种维生素和矿物质，其卵又称"海粉丝"，更是富含多种营养物质;其具有消炎、退热、润肺、滋阴等功效。
+        </rawdata>
+
+        <segment>
+            海兔  富含  蛋白质  、  脂肪  、  多  种  维生素  和  矿物质  ，  其  卵  又  称  "  海  粉丝  "  ，  更  是  富含  多种  营养  物质  ;  其  具有  消炎  、  退热  、  润肺  、  滋阴  等  功效  。
+        </segment>
+
+        <pos>
+            海兔#NN  富含#NN  蛋白质#VA  、#PU  脂肪#VA  、#PU  多#CD  种#M  维生素#NN  和#CC  矿物质#NN  ，#PU  其#PN  卵#NN  又#AD  称#VV  ''#NN  海#NN  粉丝#NN  ''#NN  ，#PU  更#AD  是#VC  富含#NN  多种#AD  营养#VA  物质#NN  ;#NN  其#PN  具有#VV  消炎#NR  、#PU  退热#NR  、#PU  润肺#NR  、#PU  滋阴#NR  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 富含#NN, 海兔#NN)  (nsubj, 蛋白质#VA, 富含#NN)  (root, ROOT#null, 蛋白质#VA)  (dep, 蛋白质#VA, 脂肪#VA)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (nsubj, 称#VV, 矿物质#NN)  (nn, 卵#NN, 其#PN)  (nsubj, 称#VV, 卵#NN)  (advmod, 称#VV, 又#AD)  (conj, 蛋白质#VA, 称#VV)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 海#NN)  (nn, ''#NN, 粉丝#NN)  (dobj, 称#VV, ''#NN)  (advmod, 富含#NN, 更#AD)  (cop, 富含#NN, 是#VC)  (dep, 营养#VA, 富含#NN)  (advmod, 营养#VA, 多种#AD)  (conj, 蛋白质#VA, 营养#VA)  (nn, ;#NN, 物质#NN)  (nsubj, 具有#VV, ;#NN)  (nsubj, 具有#VV, 其#PN)  (dep, 蛋白质#VA, 具有#VV)  (conj, 滋阴#NR, 消炎#NR)  (conj, 滋阴#NR, 退热#NR)  (conj, 滋阴#NR, 润肺#NR)  (nn, 功效#NN, 滋阴#NR)  (etc, 滋阴#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            富含蛋白质  矿物质  维生素  滋阴  消炎  退热  润肺  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374461401.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\600 海兔.jpg
+    </picturelocalurl>
+
+</content>

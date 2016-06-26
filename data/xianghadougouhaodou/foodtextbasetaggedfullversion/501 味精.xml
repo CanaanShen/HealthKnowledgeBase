@@ -1,0 +1,350 @@
+<content>
+
+    <id>
+        501
+    </id>
+
+    <foodname>
+        味精
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        味素、味之素
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高血压患者不易多食。
+        </rawdata>
+
+        <segment>
+            高血压  患者  不  易  多  食  。
+        </segment>
+
+        <pos>
+            高血压#NN  患者#NN  不#AD  易#AD  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 高血压#NN)  (nsubj, 多#VV, 患者#NN)  (neg, 多#VV, 不#AD)  (advmod, 多#VV, 易#AD)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            高血压  患者  不易多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                268
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                40.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                26.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                26.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                100
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                8160
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.98
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.67
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            味精又称味素，是调味料的一种，主要成分为谷氨酸钠。味精的主要作用是增加食品的鲜味，在中国菜里用的最多，也可用于汤和调味汁。
+        </rawdata>
+
+        <segment>
+            味精  又  称  味素  ，  是  调味料  的  一  种  ，  主要  成分  为  谷氨酸  钠  。  味精  的  主要  作用  是  增加  食品  的  鲜味  ，  在  中国  菜  里  用  的  最多  ，  也  可  用于  汤  和  调味汁  。
+        </segment>
+
+        <pos>
+            味精#NN  又#AD  称#VV  味素#NN  ，#PU  是#VC  调味料#NN  的#DEG  一#CD  种#M  ，#PU  主要#JJ  成分#NN  为#VC  谷氨酸#NN  钠#NN    。#PU  味精#NN  的#DEG  主要#JJ  作用#NN  是#VC  增加#VV  食品#NN  的#DEC  鲜味#NN  ，#PU  在#P  中国#NR  菜#NN  里#LC  用#VV  的#DEC  最多#AD  ，#PU  也#AD  可#VV  用于#VV  汤#NN  和#CC  调味汁#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 味精#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (dep, 是#VC, 味素#NN)  (ccomp, 称#VV, 是#VC)  (assmod, 种#M, 调味料#NN)  (case, 调味料#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (amod, 成分#NN, 主要#JJ)  (nsubj, 钠#NN, 成分#NN)  (cop, 钠#NN, 为#VC)  (nn, 钠#NN, 谷氨酸#NN)  (conj, 是#VC, 钠#NN)   (assmod, 作用#NN, 味精#NN)  (case, 味精#NN, 的#DEG)  (amod, 作用#NN, 主要#JJ)  (nsubj, 鲜味#NN, 作用#NN)  (cop, 鲜味#NN, 是#VC)  (relcl, 鲜味#NN, 增加#VV)  (dobj, 增加#VV, 食品#NN)  (mark, 增加#VV, 的#DEC)  (root, ROOT#null, 鲜味#NN)  (case, 菜#NN, 在#P)  (nn, 菜#NN, 中国#NR)  (prep, 用#VV, 菜#NN)  (case, 菜#NN, 里#LC)  (nsubj, 用于#VV, 用#VV)  (mark, 用#VV, 的#DEC)  (advmod, 用于#VV, 最多#AD)  (advmod, 用于#VV, 也#AD)  (mmod, 用于#VV, 可#VV)  (conj, 鲜味#NN, 用于#VV)  (conj, 调味汁#NN, 汤#NN)  (cc, 调味汁#NN, 和#CC)  (dobj, 用于#VV, 调味汁#NN)
+        </parsing>
+
+        <tag>
+            增加鲜味  增加食品  用于调味汁  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.增加食物的鲜味
+            味精对人体没有直接的营养价值，但它能增加食品的鲜味，引起人们食欲，有助于提高人体对食物的消化率。
+            2.缓解神经衰弱
+            味精中的主要成分谷氨酸钠还具有治疗慢性肝炎、肝昏迷、神经衰弱、癫痫病、胃酸缺乏等病的作用。
+        </rawdata>
+
+        <segment>
+            增加  食物  的  鲜味
+            味精  对  人体  没有  直接  的  营养  价值  ，  但  它  能  增加  食品  的  鲜味  ，  引起  人们  食欲  ，  有助于  提高  人体  对  食物  的  消化率  。
+            缓解  神经  衰弱
+            味精  中  的  主要  成分  谷  氨酸  钠  还  具有  治疗  慢性  肝炎  、  肝昏迷  、  神经  衰弱  、  癫痫病  、  胃酸  缺乏  等  病的  作用  。
+        </segment>
+
+        <pos>
+            增加#VV  食物#NN  的#DEG  鲜味#NN
+            味精#NN  对#P  人体#NN  没有#VE  直接#JJ  的#DEG  营养#VA  价值#NN  ，#PU  但#AD  它#PN  能#VV  增加#VV  食品#NN  的#DEG  鲜味#NN  ，#PU  引起#VV  人们#NN  食欲#NN  ，#PU  有助于#VV  提高#VV  人体#NR  对#P  食物#NN  的#DEG  消化率#NN  。#PU
+            缓解#VV  神经#NN  衰弱#NN
+            味精#NN  中#LC  的#DEG  主要#JJ  成分#NN  谷#NN  氨酸#NN  钠#NN  还#AD  具有#VV  治疗#VV  慢性#JJ  肝炎#NN  、#PU  肝昏迷#NN  、#PU  神经#NN  衰弱#NN  、#PU  癫痫病#NN  、#PU  胃酸#NN  缺乏#VV  等#ETC  病的#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 增加#VV)  (assmod, 鲜味#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (dobj, 增加#VV, 鲜味#NN)
+            (nsubj, 没有#VE, 味精#NN)  (case, 人体#NN, 对#P)  (prep, 没有#VE, 人体#NN)  (root, ROOT#null, 没有#VE)  (assmod, 价值#NN, 直接#JJ)  (case, 直接#JJ, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (dobj, 没有#VE, 价值#NN)  (advmod, 增加#VV, 但#AD)  (nsubj, 增加#VV, 它#PN)  (mmod, 增加#VV, 能#VV)  (conj, 没有#VE, 增加#VV)  (assmod, 鲜味#NN, 食品#NN)  (case, 食品#NN, 的#DEG)  (dobj, 增加#VV, 鲜味#NN)  (conj, 增加#VV, 引起#VV)  (nn, 食欲#NN, 人们#NN)  (dobj, 引起#VV, 食欲#NN)  (conj, 增加#VV, 有助于#VV)  (ccomp, 有助于#VV, 提高#VV)  (nn, 消化率#NN, 人体#NR)  (case, 食物#NN, 对#P)  (assmod, 消化率#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (dobj, 提高#VV, 消化率#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 衰弱#NN, 神经#NN)  (dobj, 缓解#VV, 衰弱#NN)
+            (assmod, 成分#NN, 味精#NN)  (case, 味精#NN, 中#LC)  (case, 味精#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nn, 钠#NN, 成分#NN)  (nn, 钠#NN, 谷#NN)  (nn, 钠#NN, 氨酸#NN)  (nsubj, 具有#VV, 钠#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (nfincl, 作用#NN, 治疗#VV)  (amod, 肝炎#NN, 慢性#JJ)  (dobj, 治疗#VV, 肝炎#NN)  (conj, 胃酸#NN, 肝昏迷#NN)  (nn, 胃酸#NN, 神经#NN)  (conj, 胃酸#NN, 衰弱#NN)  (conj, 胃酸#NN, 癫痫病#NN)  (nsubj, 缺乏#VV, 胃酸#NN)  (dep, 治疗#VV, 缺乏#VV)  (dep, 治疗#VV, 等#ETC)  (nn, 作用#NN, 病的#NN)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            增加鲜味  没有价值  人们食欲  提高消化率  神经衰弱  缓解衰弱  慢性肝炎  治疗肝炎  肝昏迷  神经胃酸  癫痫病  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            味精的主要成分是谷氨酸钠，谷氨酸是脑组织氧化代谢的氨基酸之一，对改进和维持丘脑的机能是十分重要的。正常人每日摄钠1-2克便可满足生理的需要（联合国推荐每人每天摄入食盐为8克以下，食盐主要成分为氯化钠），如过食则可造成体内水钠潴留，导致血管管腔变细，血管阻力加大，血容量增多，加重心、肾负担，致使血压升高。另外，味精中还含有少量氯化钠。
+        </rawdata>
+
+        <segment>
+            味精  的  主要  成分  是  谷氨酸  钠  ，  谷  氨酸  是  脑  组织  氧化  代谢  的  氨基酸  之一  ，  对  改进  和  维持  丘脑  的  机能  是  十分  重要  的  。  正常  人  每日  摄钠1-2  克  便  可  满足  生理  的  需要  （  联合国  推荐  每  人  每天  摄入  食盐  为  8  克  以下  ，  食盐  主要  成分  为  氯化钠  ）  ，  如  过食  则  可  造成  体内  水  钠  潴留  ，  导致  血  管管  腔  变细  ，  血管  阻力  加大  ，  血  容量  增多  ，  加重心  、  肾  负担  ，  致使  血压  升高  。  另外  ，  味精  中  还  含有  少量  氯化钠  。
+        </segment>
+
+        <pos>
+            味精#NN  的#DEG  主要#JJ  成分#NN  是#VC  谷氨酸#NN  钠#NN  ，#PU  谷#NN  氨酸#NN  是#VC  脑#VV  组织#NN  氧化#NN  代谢#NN  的#DEC  氨基酸#NN  之一#NN  ，#PU  对#P  改进#VV  和#CC  维持#VV  丘脑#NN  的#DEG  机能#NN  是#VC  十分#AD  重要#VA  的#DEC    。#PU  正常#JJ  人#NN  每日#JJ  摄钠1-2#CD  克#M  便#AD  可#VV  满足#VV  生理#NN  的#DEC  需要#NN  （#PU  联合国#NR  推荐#NN  每#DT  人#NN  每天#JJ  摄入#NN  食盐#NN  为#P  8#CD  克#M  以下#LC  ，#PU  食盐#VV  主要#JJ  成分#NN  为#VC  氯化钠#NN  ）#PU  ，#PU  如#AD  过食#NN  则#AD  可#VV  造成#VV  体内#NN  水#NN  钠#NN  潴留#NN  ，#PU  导致#VV  血#NN  管管#CD  腔#M  变细#NN  ，#PU  血管#NN  阻力#NN  加大#VV  ，#PU  血#NN  容量#NN  增多#VV  ，#PU  加重心#VV  、#PU  肾#VV  负担#NN  ，#PU  致使#VV  血压#NN  升高#VV    。#PU  另外#AD  ，#PU  味精#NN  中#LC  还#AD  含有#VV  少量#CD  氯化钠#VV    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 成分#NN, 味精#NN)  (case, 味精#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (nsubj, 钠#NN, 成分#NN)  (cop, 钠#NN, 是#VC)  (nn, 钠#NN, 谷氨酸#NN)  (root, ROOT#null, 钠#NN)  (nn, 氨酸#NN, 谷#NN)  (nsubj, 之一#NN, 氨酸#NN)  (cop, 之一#NN, 是#VC)  (relcl, 之一#NN, 脑#VV)  (nn, 代谢#NN, 组织#NN)  (nn, 代谢#NN, 氧化#NN)  (dobj, 脑#VV, 代谢#NN)  (mark, 脑#VV, 的#DEC)  (nn, 之一#NN, 氨基酸#NN)  (conj, 钠#NN, 之一#NN)  (case, 改进#VV, 对#P)  (assmod, 机能#NN, 改进#VV)  (cc, 改进#VV, 和#CC)  (dep, 改进#VV, 维持#VV)  (dobj, 维持#VV, 丘脑#NN)  (case, 改进#VV, 的#DEG)  (nsubj, 重要#VA, 机能#NN)  (cop, 重要#VA, 是#VC)  (advmod, 重要#VA, 十分#AD)  (conj, 钠#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)   (amod, 人#NN, 正常#JJ)  (nn, 需要#NN, 人#NN)  (amod, 克#M, 每日#JJ)  (nummod, 克#M, 摄钠1-2#CD)  (clf, 需要#NN, 克#M)  (advmod, 满足#VV, 便#AD)  (mmod, 满足#VV, 可#VV)  (relcl, 人#NN, 满足#VV)  (relcl, 需要#NN, 满足#VV)  (dobj, 满足#VV, 生理#NN)  (mark, 满足#VV, 的#DEC)  (nsubj, 造成#VV, 需要#NN)  (nn, 推荐#NN, 联合国#NR)  (nn, 食盐#NN, 推荐#NN)  (det, 人#NN, 每#DT)  (nn, 食盐#NN, 人#NN)  (amod, 食盐#NN, 每天#JJ)  (nn, 食盐#NN, 摄入#NN)  (nsubj, 氯化钠#NN, 食盐#NN)  (case, 食盐#VV, 为#P)  (nummod, 克#M, 8#CD)  (loc, 食盐#VV, 克#M)  (case, 克#M, 以下#LC)  (prep, 氯化钠#NN, 食盐#VV)  (amod, 成分#NN, 主要#JJ)  (dobj, 食盐#VV, 成分#NN)  (cop, 氯化钠#NN, 为#VC)  (prnmod, 需要#NN, 氯化钠#NN)  (advmod, 过食#NN, 如#AD)  (nsubj, 造成#VV, 过食#NN)  (advmod, 造成#VV, 则#AD)  (mmod, 造成#VV, 可#VV)  (root, ROOT#null, 造成#VV)  (nn, 潴留#NN, 体内#NN)  (nn, 潴留#NN, 水#NN)  (nn, 潴留#NN, 钠#NN)  (dobj, 造成#VV, 潴留#NN)  (dep, 造成#VV, 导致#VV)  (nn, 变细#NN, 血#NN)  (nummod, 腔#M, 管管#CD)  (clf, 变细#NN, 腔#M)  (dobj, 导致#VV, 变细#NN)  (nn, 阻力#NN, 血管#NN)  (nsubj, 加大#VV, 阻力#NN)  (conj, 造成#VV, 加大#VV)  (nn, 容量#NN, 血#NN)  (nsubj, 增多#VV, 容量#NN)  (conj, 造成#VV, 增多#VV)  (conj, 增多#VV, 加重心#VV)  (conj, 增多#VV, 肾#VV)  (dobj, 肾#VV, 负担#NN)  (conj, 增多#VV, 致使#VV)  (dobj, 致使#VV, 血压#NN)  (dep, 致使#VV, 升高#VV)   (advmod, 含有#VV, 另外#AD)  (loc, 含有#VV, 味精#NN)  (case, 味精#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (dep, 氯化钠#VV, 含有#VV)  (range, 含有#VV, 少量#CD)  (root, ROOT#null, 氯化钠#VV)
+        </parsing>
+
+        <tag>
+            组织代谢  氧化代谢  维持丘脑  正常人  满足人  满足需要  满足生理  推荐食盐  每天食盐  摄入食盐  体内潴留  造成潴留  导致变细  血管阻力  致使血压  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            要注意的是如果在100℃以上的高温中使用味精，鲜味剂谷氨酸钠会转变为对人体有致癌性的焦谷氨酸钠。由于炒菜时油温一般在150℃－200℃，这会使味精变成有毒性的焦化谷氨酸钠，所以，对于加入味精的“半成品”配菜的烹饪，应以蒸、煮为妥。 还有如果在碱性环境中，味精会起化学反应产生一种叫谷氨酸二钠的物质。所以要适当地使用和存放。
+            摄取过量可能导致胃癌和内其它人类内脏疾病。
+            1.不要在滚烫的锅中加入，而要在菜肴快出锅时加入。因为谷氨酸钠在温度高于120℃时，会变为焦点谷氨酸钠，食后对人体有害，且难以排出体外。
+            2.不宜在酸性食物中添加味精，如糖醋鱼、糖醋里脊等。味精呈碱性，在酸性食物中添加会引起化学反应，使菜肴走味。
+            3.在含有碱性的原料中不宜使用味精，味精遇碱会化合成谷氨酸二钠，会产生氨水臭味, 使鲜味降低，甚至失去其鲜味。
+            4.注意咸淡程度。如果太咸，味精就可能吃不出鲜味，食盐与味精的比例在3：1或4：1范围内，即可达到圆润柔和的口味，作凉拌菜时宜先溶解后再加入。因为味精的溶解温度为85℃，低于此温度，味精难以分解。
+            5.高汤、鸡肉、鸡蛋、水产制出的菜肴中不用再放味精。
+            6.孕妇及婴幼儿不宜吃味精，因为味精可能会引起胎儿缺陷；老人和儿童也不宜多食。患有高血压的人如果食用味精过多，会使血压更高。所以，高血压患者不但要限制食盐的摄入量，而且还要严格控制味精的摄入。
+        </rawdata>
+
+        <segment>
+            要  注意  的  是  如果  在  100  ℃  以上  的  高温  中  使用  味精  ，  鲜味  剂  谷氨酸  钠  会  转变  为  对  人体  有  致癌  性的  焦谷  氨酸  钠  。  由于  炒菜  时  油温  一般  在  150  ℃－200  ℃  ，  这  会  使  味精  变成  有毒性  的  焦化  谷氨酸  钠  ，  所以  ，  对于  加入  味精  的  “  半成品  ”  配菜  的  烹饪  ，  应  以  蒸  、  煮为妥  。    还有  如果  在  碱性  环境  中  ，  味精  会  起  化学  反应  产生  一  种  叫  谷氨酸  二  钠  的  物质  。  所以  要  适当地  使用  和  存放  。
+            摄取  过量  可能  导致  胃癌  和  内  其它  人类  内脏  疾病  。
+            不要  在  滚烫  的  锅中  加入  ，  而  要  在  菜肴  快出锅  时  加入  。  因为  谷氨酸  钠  在  温度  高于  120  ℃时  ，  会  变为  焦点  谷氨酸  钠  ，  食后  对  人体  有害  ，  且  难以  排出  体外  。
+            不  宜在  酸性  食物  中  添加  味精  ，  如  糖醋鱼  、  糖醋  里脊  等  。  味精  呈  碱性  ，  在  酸性  食物  中  添加  会  引起  化学  反应  ，  使  菜肴  走味  。
+            在  含有  碱性  的  原料  中  不  宜  使用  味精  ，  味精  遇  碱  会  化合  成  谷氨酸  二  钠  ，  会  产生  氨水  臭味  ,    使  鲜味  降低  ，  甚至  失去  其  鲜味  。
+            注意  咸淡  程度  。  如果  太  咸  ，  味精  就  可能  吃  不  出  鲜味  ，  食盐  与  味精  的  比例  在  3：1  或  4：1  范围  内  ，  即  可  达到  圆润  柔和  的  口味  ，  作  凉拌  菜  时宜  先  溶解  后  再  加入  。  因为  味精  的  溶解  温度  为  85  ℃  ，  低于  此  温度  ，  味精  难以  分解  。
+            高汤  、  鸡肉  、  鸡蛋  、  水  产制  出  的  菜肴  中  不用  再放  味精  。
+            孕妇  及  婴幼儿  不  宜  吃  味精  ，  因为  味精  可能  会  引起  胎儿  缺陷  ；  老人  和  儿童  也  不  宜  多  食  。  患有  高血压  的  人  如果  食用  味精  过多  ，  会  使  血压  更高  。  所以  ，  高血压  患者  不但  要  限制  食盐  的  摄入量  ，  而且  还  要  严格  控制  味精  的  摄入  。
+        </segment>
+
+        <pos>
+            要#VV  注意#VV  的#DEC  是#VC  如果#CS  在#P  100#CD  ℃#NN  以上#LC  的#DEG  高温#NN  中#LC  使用#VV  味精#NN  ，#PU  鲜味#NN  剂#NN  谷氨酸#NN  钠#NN  会#VV  转变#VV  为#P  对#P  人体#NN  有#VE  致癌#NN  性的#NN  焦谷#VV  氨酸#NN  钠#NN    。#PU  由于#P  炒菜#NN  时#LC  油温#NN  一般#AD  在#P  150#CD  ℃#CD  －#PU  200#CD  ℃#VV  ，#PU  这#PN  会#VV  使#VV  味精#NN  变成#VV  有毒性#NN  的#DEG  焦化#NN  谷氨酸#NN  钠#NN  ，#PU  所以#AD  ，#PU  对于#P  加入#VV  味精#NN  的#DEC  ``#NN  半成品#VV  ''#NN  配菜#NN  的#DEG  烹饪#NN  ，#PU  应#VV  以#P  蒸#NN  、#PU  煮为妥#NN    。#PU  还有#AD  如果#CS  在#P  碱性#NN  环境#NN  中#LC  ，#PU  味精#NN  会#VV  起#VV  化学#NN  反应#NN  产生#VV  一#CD  种#M  叫#VV  谷氨酸#NR  二#CD  钠#NN  的#DEC  物质#NN    。#PU  所以#AD  要#VV  适当地#VV  使用#VV  和#CC  存放#VV    。#PU    。#PU
+            摄取#NN  过量#AD  可能#VV  导致#VV  胃癌#NN  和#CC  内#NN  其它#DT  人类#NN  内脏#NN  疾病#NN  。#PU
+            不要#NR  在#P  滚烫#VA  的#DEC  锅中#NN  加入#VV  ，#PU  而#CC  要#VV  在#P  菜肴#NN  快出锅#NN  时#LC  加入#VV    。#PU  因为#P  谷氨酸#NN  钠#NN  在#P  温度#NN  高于#VV  120#CD  ℃#NN  时#LC  ，#PU  会#VV  变为#VV  焦点#NN  谷氨酸#VV  钠#NN  ，#PU  食后#AD  对#P  人体#NN  有害#VV  ，#PU  且#CC  难以#AD  排出#VV  体外#NN    。#PU    。#PU
+            不#AD  宜在#JJ  酸性#NN  食物#NN  中#LC  添加#VV  味精#NN  ，#PU  如#AD  糖醋鱼#NN  、#PU  糖醋#NN  里脊#NN  等#ETC    。#PU  味精#NN  呈#VV  碱性#NN  ，#PU  在#P  酸性#NN  食物#NN  中#LC  添加#VV  会#VV  引起#VV  化学#NN  反应#NN  ，#PU  使#VV  菜肴#NN  走味#VV    。#PU    。#PU
+            在#P  含有#NN  碱性#NN  的#DEG  原料#NN  中#LC  不#AD  宜#NR  使用#VV  味精#NN  ，#PU  味精#NN  遇#NN  碱#NN  会#VV  化合#AD  成#VV  谷氨酸#NR  二#CD  钠#NN  ，#PU  会#VV  产生#VV  氨水#NN  臭味#NN  ,#NN  使#VV  鲜味#NN  降低#VV  ，#PU  甚至#AD  失去#VV  其#PN  鲜味#NN  。#PU
+            注意#VV  咸淡#NN  程度#NN    。#PU  如果#CS  太#AD  咸#VV  ，#PU  味精#NN  就#AD  可能#VV  吃#VV  不#AD  出#VV  鲜味#NN  ，#PU  食盐#NN  与#CC  味精#NN  的#DEG  比例#NN  在#P  3#CD  ：#PU  1#CD  或#CC  4#CD  ：#PU  1#CD  范围#NN  内#LC  ，#PU  即#AD  可#VV  达到#VV  圆润#NN  柔和#NN  的#DEC  口味#NN  ，#PU  作#VV  凉拌#NN  菜#NN  时宜#NN  先#AD  溶解#VV  后#LC  再#AD  加入#VV    。#PU  因为#P  味精#NN  的#DEG  溶解#JJ  温度#NN  为#VC  85#CD  ℃#NN  ，#PU  低于#VV  此#DT  温度#NN  ，#PU  味精#NN  难以#AD  分解#VV    。#PU    。#PU
+            高汤#NN  、#PU  鸡肉#NN  、#PU  鸡蛋#NN  、#PU  水#NN  产制#NN  出#VV  的#DEC  菜肴#NN  中#LC  不用#VV  再放#VV  味精#NN  。#PU
+            孕妇#NR  及#CC  婴幼儿#NR  不#AD  宜#NR  吃#VV  味精#NN  ，#PU  因为#P  味精#NN  可能#VV  会#VV  引起#VV  胎儿#NN  缺陷#NN  ；#PU  老人#NN  和#CC  儿童#NN  也#AD  不#AD  宜#NR  多#VV  食#NN    。#PU  患有#NN  高血压#NN  的#DEG  人#NN  如果#CS  食用#VV  味精#NN  过多#NN  ，#PU  会#VV  使#VV  血压#NN  更高#JJ    。#PU  所以#AD  ，#PU  高血压#NN  患者#NN  不但#CC  要#VV  限制#VV  食盐#NN  的#DEG  摄入量#NN  ，#PU  而且#CC  还#AD  要#VV  严格#AD  控制#VV  味精#NN  的#DEC  摄入#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 注意#VV, 要#VV)  (nsubj, 是#VC, 注意#VV)  (mark, 注意#VV, 的#DEC)  (root, ROOT#null, 是#VC)  (advmod, 焦谷#VV, 如果#CS)  (case, 高温#NN, 在#P)  (nummod, ℃#NN, 100#CD)  (assmod, 高温#NN, ℃#NN)  (case, ℃#NN, 以上#LC)  (case, ℃#NN, 的#DEG)  (prep, 使用#VV, 高温#NN)  (case, 高温#NN, 中#LC)  (dep, 焦谷#VV, 使用#VV)  (dobj, 使用#VV, 味精#NN)  (nn, 钠#NN, 鲜味#NN)  (nn, 钠#NN, 剂#NN)  (nn, 钠#NN, 谷氨酸#NN)  (nsubj, 焦谷#VV, 钠#NN)  (mmod, 焦谷#VV, 会#VV)  (mmod, 焦谷#VV, 转变#VV)  (case, 有#VE, 为#P)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (prep, 焦谷#VV, 有#VE)  (nn, 性的#NN, 致癌#NN)  (dobj, 有#VE, 性的#NN)  (dep, 是#VC, 焦谷#VV)  (nn, 钠#NN, 氨酸#NN)  (dobj, 焦谷#VV, 钠#NN)   (case, ℃#VV, 由于#P)  (dep, 油温#NN, 炒菜#NN)  (case, 炒菜#NN, 时#LC)  (nsubj, ℃#VV, 油温#NN)  (advmod, ℃#VV, 一般#AD)  (case, 200#CD, 在#P)  (dep, 200#CD, 150#CD)  (dep, 200#CD, ℃#CD)  (prep, ℃#VV, 200#CD)  (prep, 使#VV, ℃#VV)  (nsubj, 使#VV, 这#PN)  (mmod, 使#VV, 会#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 味精#NN)  (dep, 使#VV, 变成#VV)  (assmod, 钠#NN, 有毒性#NN)  (case, 有毒性#NN, 的#DEG)  (nn, 钠#NN, 焦化#NN)  (nn, 钠#NN, 谷氨酸#NN)  (dobj, 变成#VV, 钠#NN)  (advmod, 半成品#VV, 所以#AD)  (case, ``#NN, 对于#P)  (relcl, ``#NN, 加入#VV)  (dobj, 加入#VV, 味精#NN)  (mark, 加入#VV, 的#DEC)  (prep, 半成品#VV, ``#NN)  (conj, 使#VV, 半成品#VV)  (nn, 配菜#NN, ''#NN)  (assmod, 烹饪#NN, 配菜#NN)  (case, 配菜#NN, 的#DEG)  (dobj, 半成品#VV, 烹饪#NN)  (dep, 半成品#VV, 应#VV)  (case, 煮为妥#NN, 以#P)  (conj, 煮为妥#NN, 蒸#NN)  (prep, 应#VV, 煮为妥#NN)   (advmod, 起#VV, 还有#AD)  (advmod, 起#VV, 如果#CS)  (case, 环境#NN, 在#P)  (nn, 环境#NN, 碱性#NN)  (prep, 起#VV, 环境#NN)  (case, 环境#NN, 中#LC)  (nsubj, 起#VV, 味精#NN)  (mmod, 起#VV, 会#VV)  (conj, 产生#VV, 起#VV)  (nn, 反应#NN, 化学#NN)  (dobj, 起#VV, 反应#NN)  (root, ROOT#null, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 叫#VV)  (nn, 钠#NN, 谷氨酸#NR)  (nummod, 钠#NN, 二#CD)  (dobj, 叫#VV, 钠#NN)  (mark, 叫#VV, 的#DEC)  (dobj, 产生#VV, 物质#NN)   (advmod, 适当地#VV, 所以#AD)  (dep, 适当地#VV, 要#VV)  (root, ROOT#null, 适当地#VV)  (dep, 适当地#VV, 使用#VV)  (cc, 使用#VV, 和#CC)  (dep, 使用#VV, 存放#VV)   (root, ROOT#null, null#null)
+            (nsubj, 导致#VV, 摄取#NN)  (advmod, 导致#VV, 过量#AD)  (mmod, 导致#VV, 可能#VV)  (root, ROOT#null, 导致#VV)  (conj, 内#NN, 胃癌#NN)  (cc, 内#NN, 和#CC)  (nn, 疾病#NN, 内#NN)  (det, 人类#NN, 其它#DT)  (nn, 疾病#NN, 人类#NN)  (nn, 疾病#NN, 内脏#NN)  (dobj, 导致#VV, 疾病#NN)
+            (nsubj, 加入#VV, 不要#NR)  (case, 锅中#NN, 在#P)  (relcl, 锅中#NN, 滚烫#VA)  (mark, 滚烫#VA, 的#DEC)  (prep, 加入#VV, 锅中#NN)  (root, ROOT#null, 加入#VV)  (cc, 加入#VV, 而#CC)  (mmod, 加入#VV, 要#VV)  (case, 快出锅#NN, 在#P)  (nn, 快出锅#NN, 菜肴#NN)  (prep, 加入#VV, 快出锅#NN)  (case, 快出锅#NN, 时#LC)  (dep, 加入#VV, 加入#VV)   (case, 变为#VV, 因为#P)  (nn, 钠#NN, 谷氨酸#NN)  (nsubj, 变为#VV, 钠#NN)  (case, 高于#VV, 在#P)  (nsubj, 高于#VV, 温度#NN)  (prep, 变为#VV, 高于#VV)  (nummod, ℃#NN, 120#CD)  (dobj, 高于#VV, ℃#NN)  (case, 高于#VV, 时#LC)  (mmod, 变为#VV, 会#VV)  (prep, 谷氨酸#VV, 变为#VV)  (dobj, 变为#VV, 焦点#NN)  (root, ROOT#null, 谷氨酸#VV)  (dobj, 谷氨酸#VV, 钠#NN)  (advmod, 有害#VV, 食后#AD)  (case, 人体#NN, 对#P)  (prep, 有害#VV, 人体#NN)  (dep, 谷氨酸#VV, 有害#VV)  (cc, 谷氨酸#VV, 且#CC)  (advmod, 排出#VV, 难以#AD)  (dep, 谷氨酸#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)   (root, ROOT#null, null#null)
+            (neg, 宜在#JJ, 不#AD)  (amod, 酸性#NN, 宜在#JJ)  (nsubj, 添加#VV, 酸性#NN)  (loc, 添加#VV, 食物#NN)  (case, 食物#NN, 中#LC)  (root, ROOT#null, 添加#VV)  (dep, 里脊#NN, 味精#NN)  (advmod, 里脊#NN, 如#AD)  (conj, 里脊#NN, 糖醋鱼#NN)  (nn, 里脊#NN, 糖醋#NN)  (dobj, 添加#VV, 里脊#NN)  (etc, 里脊#NN, 等#ETC)   (nsubj, 呈#VV, 味精#NN)  (dep, 引起#VV, 呈#VV)  (dobj, 呈#VV, 碱性#NN)  (case, 食物#NN, 在#P)  (nn, 食物#NN, 酸性#NN)  (prep, 添加#VV, 食物#NN)  (case, 食物#NN, 中#LC)  (conj, 呈#VV, 添加#VV)  (mmod, 引起#VV, 会#VV)  (root, ROOT#null, 引起#VV)  (nn, 反应#NN, 化学#NN)  (dobj, 引起#VV, 反应#NN)  (conj, 引起#VV, 使#VV)  (dobj, 使#VV, 菜肴#NN)  (dep, 使#VV, 走味#VV)   (root, ROOT#null, null#null)
+            (case, 原料#NN, 在#P)  (nn, 碱性#NN, 含有#NN)  (assmod, 原料#NN, 碱性#NN)  (case, 碱性#NN, 的#DEG)  (prep, 使用#VV, 原料#NN)  (case, 原料#NN, 中#LC)  (neg, 使用#VV, 不#AD)  (prep, 使用#VV, 宜#NR)  (dep, 产生#VV, 使用#VV)  (dobj, 使用#VV, 味精#NN)  (nn, 碱#NN, 味精#NN)  (nn, 碱#NN, 遇#NN)  (xsubj, 成#VV, 碱#NN)  (nsubj, 产生#VV, 碱#NN)  (mmod, 产生#VV, 会#VV)  (advmod, 成#VV, 化合#AD)  (dep, 产生#VV, 成#VV)  (nn, 钠#NN, 谷氨酸#NR)  (nummod, 钠#NN, 二#CD)  (dobj, 成#VV, 钠#NN)  (mmod, 产生#VV, 会#VV)  (root, ROOT#null, 产生#VV)  (nn, ,#NN, 氨水#NN)  (nn, ,#NN, 臭味#NN)  (dep, 产生#VV, 使#VV)  (dobj, 使#VV, 鲜味#NN)  (dep, 使#VV, 降低#VV)  (advmod, 失去#VV, 甚至#AD)  (conj, 产生#VV, 失去#VV)  (nn, 鲜味#NN, 其#PN)  (dobj, 失去#VV, 鲜味#NN)
+            (root, ROOT#null, 注意#VV)  (nn, 程度#NN, 咸淡#NN)  (dobj, 注意#VV, 程度#NN)   (advmod, 咸#VV, 如果#CS)  (advmod, 咸#VV, 太#AD)  (root, ROOT#null, 咸#VV)  (nsubj, 吃#VV, 味精#NN)  (advmod, 吃#VV, 就#AD)  (mmod, 吃#VV, 可能#VV)  (ccomp, 咸#VV, 吃#VV)  (neg, 出#VV, 不#AD)  (relcl, 口味#NN, 出#VV)  (dobj, 出#VV, 鲜味#NN)  (conj, 味精#NN, 食盐#NN)  (cc, 味精#NN, 与#CC)  (assmod, 比例#NN, 味精#NN)  (case, 味精#NN, 的#DEG)  (dep, 达到#VV, 比例#NN)  (case, 范围#NN, 在#P)  (nummod, 1#CD, 3#CD)  (dep, 1#CD, 1#CD)  (cc, 1#CD, 或#CC)  (nummod, 1#CD, 4#CD)  (nummod, 范围#NN, 1#CD)  (prep, 达到#VV, 范围#NN)  (case, 范围#NN, 内#LC)  (advmod, 达到#VV, 即#AD)  (mmod, 达到#VV, 可#VV)  (dep, 出#VV, 达到#VV)  (nn, 柔和#NN, 圆润#NN)  (dobj, 达到#VV, 柔和#NN)  (mark, 出#VV, 的#DEC)  (dobj, 吃#VV, 口味#NN)  (dep, 吃#VV, 作#VV)  (nn, 时宜#NN, 凉拌#NN)  (nn, 时宜#NN, 菜#NN)  (dobj, 作#VV, 时宜#NN)  (advmod, 溶解#VV, 先#AD)  (loc, 加入#VV, 溶解#VV)  (case, 溶解#VV, 后#LC)  (advmod, 加入#VV, 再#AD)  (dep, 咸#VV, 加入#VV)   (case, 味精#NN, 因为#P)  (assmod, 温度#NN, 味精#NN)  (case, 味精#NN, 的#DEG)  (amod, 温度#NN, 溶解#JJ)  (nsubj, ℃#NN, 温度#NN)  (cop, ℃#NN, 为#VC)  (nummod, ℃#NN, 85#CD)  (root, ROOT#null, ℃#NN)  (conj, ℃#NN, 低于#VV)  (det, 温度#NN, 此#DT)  (dobj, 低于#VV, 温度#NN)  (nsubj, 分解#VV, 味精#NN)  (advmod, 分解#VV, 难以#AD)  (conj, ℃#NN, 分解#VV)   (root, ROOT#null, null#null)
+            (conj, 水#NN, 高汤#NN)  (conj, 水#NN, 鸡肉#NN)  (conj, 水#NN, 鸡蛋#NN)  (nn, 产制#NN, 水#NN)  (nsubj, 再放#VV, 产制#NN)  (relcl, 菜肴#NN, 出#VV)  (mark, 出#VV, 的#DEC)  (loc, 再放#VV, 菜肴#NN)  (case, 菜肴#NN, 中#LC)  (mmod, 再放#VV, 不用#VV)  (root, ROOT#null, 再放#VV)  (dobj, 再放#VV, 味精#NN)
+            (conj, 婴幼儿#NR, 孕妇#NR)  (cc, 婴幼儿#NR, 及#CC)  (nsubj, 吃#VV, 婴幼儿#NR)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 宜#NR)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 味精#NN)  (case, 可能#VV, 因为#P)  (nsubj, 可能#VV, 味精#NN)  (prep, 引起#VV, 可能#VV)  (mmod, 引起#VV, 会#VV)  (conj, 吃#VV, 引起#VV)  (nn, 缺陷#NN, 胎儿#NN)  (dobj, 引起#VV, 缺陷#NN)  (conj, 儿童#NN, 老人#NN)  (cc, 儿童#NN, 和#CC)  (dep, 多#VV, 儿童#NN)  (advmod, 多#VV, 也#AD)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (conj, 吃#VV, 多#VV)  (dobj, 多#VV, 食#NN)   (nn, 高血压#NN, 患有#NN)  (assmod, 人#NN, 高血压#NN)  (case, 高血压#NN, 的#DEG)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 如果#CS)  (root, ROOT#null, 食用#VV)  (nn, 过多#NN, 味精#NN)  (dobj, 食用#VV, 过多#NN)  (mmod, 使#VV, 会#VV)  (conj, 食用#VV, 使#VV)  (ccomp, 使#VV, 血压#NN)  (conj, 食用#VV, 更高#JJ)   (advmod, 限制#VV, 所以#AD)  (nn, 患者#NN, 高血压#NN)  (nsubj, 限制#VV, 患者#NN)  (cc, 限制#VV, 不但#CC)  (mmod, 限制#VV, 要#VV)  (relcl, 摄入#NN, 限制#VV)  (assmod, 摄入量#NN, 食盐#NN)  (case, 食盐#NN, 的#DEG)  (dobj, 限制#VV, 摄入量#NN)  (cc, 限制#VV, 而且#CC)  (advmod, 要#VV, 还#AD)  (dep, 限制#VV, 要#VV)  (advmod, 控制#VV, 严格#AD)  (conj, 限制#VV, 控制#VV)  (dobj, 控制#VV, 味精#NN)  (mark, 限制#VV, 的#DEC)  (root, ROOT#null, 摄入#NN)
+        </parsing>
+
+        <tag>
+            致癌性的  焦谷钠  有毒性  变成钠  半成品烹饪  碱性环境  化学反应  产生  人类疾病  内脏疾病  导致疾病  锅中滚烫  加入  菜肴快出锅  高于℃  变为焦点  谷氨酸钠  排出体外  宜在酸性  糖醋鱼  糖醋里脊  添加里脊  酸性食物  含有碱性  失去鲜味  咸淡程度  注意程度  出口味  圆润柔和  达到柔和  凉拌时宜  溶解温度  低于温度  出菜肴  再放  婴幼儿  孕妇  胎儿缺陷  儿童  老人  患有高血压  食用过多  高血压患者  限制摄入  限制摄入量  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/13111656669.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\501 味精.jpg
+    </picturelocalurl>
+
+</content>

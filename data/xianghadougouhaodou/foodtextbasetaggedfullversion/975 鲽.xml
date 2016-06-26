@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        975
+    </id>
+
+    <foodname>
+        鲽
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        比目鱼、凸眼鱼、魼、鳒、婢履鱼、魪、版鱼、箬叶鱼、鞋底鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            体长椭圆形,卵圆形或菱形,侧扁，尾柄短而高。前鳃盖骨边缘游离，成鱼两眼均位于头部右侧，口一般前位，中大或小，稍倾斜。上下颌有牙，呈锥状、门牙状或绒毛状。有眼一侧被栉鳞或圆鳞,或退化呈骨板状；体褐色或灰褐色,有的散有斑点或斑纹。无眼一侧被圆鳞、栉鳞，或光滑无鳞。
+        </rawdata>
+
+        <segment>
+            体长  椭圆形  ,  卵  圆形  或  菱形  ,  侧扁  ，  尾柄  短  而  高  。  前  鳃盖  骨  边缘  游离  ，  成鱼  两  眼  均  位于  头部  右侧  ，  口  一般  前位  ，  中大  或  小  ，  稍  倾斜  。  上下颌  有  牙  ，  呈  锥状  、  门牙状  或  绒毛状  。  有眼  一  侧  被  栉鳞  或  圆鳞  ,  或  退化  呈骨  板状  ；  体  褐色  或  灰褐色  ,  有的  散  有  斑点  或  斑纹  。  无眼  一  侧  被  圆鳞  、  栉鳞  ，  或  光滑  无鳞  。
+        </segment>
+
+        <pos>
+            体长#NN  椭圆形#NN  ,#NN  卵#NN  圆形#NN  或#CC  菱形#NN  ,#NN  侧扁#VV  ，#PU  尾柄#NN  短#VA  而#CC  高#VA    。#PU  前#DT  鳃盖#CD  骨#NN  边缘#NN  游离#VV  ，#PU  成鱼#NR  两#CD  眼#NN  均#AD  位于#VV  头部#NN  右侧#LC  ，#PU  口#NN  一般#AD  前位#VV  ，#PU  中大#VA  或#CC  小#VA  ，#PU  稍#NN  倾斜#VV    。#PU  上下颌#AD  有#VE  牙#NN  ，#PU  呈#VV  锥状#NN  、#PU  门牙状#NN  或#CC  绒毛状#NN    。#PU  有眼#NN  一#CD  侧#LC  被#LB  栉鳞#NN  或#CC  圆鳞#NN  ,#NN  或#CC  退化#VV  呈骨#NN  板状#NN  ；#PU  体#VV  褐色#NN  或#CC  灰褐色#NN  ,#NN  有的#PN  散#JJ  有#NN  斑点#NN  或#CC  斑纹#NN    。#PU  无眼#NN  一#CD  侧#LC  被#SB  圆鳞#VV  、#PU  栉鳞#VV  ，#PU  或#CC  光滑#VV  无鳞#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 体长#NN)  (nn, ,#NN, 椭圆形#NN)  (nn, ,#NN, 卵#NN)  (conj, ,#NN, 圆形#NN)  (cc, ,#NN, 或#CC)  (nn, ,#NN, 菱形#NN)  (root, ROOT#null, 侧扁#VV)  (nsubj, 短#VA, 尾柄#NN)  (ccomp, 侧扁#VV, 短#VA)  (cc, 短#VA, 而#CC)  (dep, 短#VA, 高#VA)   (det, 骨#NN, 前#DT)  (dep, 前#DT, 鳃盖#CD)  (nn, 边缘#NN, 骨#NN)  (nsubj, 游离#VV, 边缘#NN)  (root, ROOT#null, 游离#VV)  (nn, 眼#NN, 成鱼#NR)  (nummod, 眼#NN, 两#CD)  (nsubj, 位于#VV, 眼#NN)  (advmod, 位于#VV, 均#AD)  (loc, 前位#VV, 位于#VV)  (dobj, 位于#VV, 头部#NN)  (case, 位于#VV, 右侧#LC)  (nsubj, 前位#VV, 口#NN)  (advmod, 前位#VV, 一般#AD)  (conj, 游离#VV, 前位#VV)  (conj, 游离#VV, 中大#VA)  (cc, 中大#VA, 或#CC)  (dep, 中大#VA, 小#VA)  (nsubj, 倾斜#VV, 稍#NN)  (conj, 游离#VV, 倾斜#VV)   (advmod, 有#VE, 上下颌#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 牙#NN)  (dep, 有#VE, 呈#VV)  (conj, 绒毛状#NN, 锥状#NN)  (conj, 绒毛状#NN, 门牙状#NN)  (cc, 绒毛状#NN, 或#CC)  (dobj, 呈#VV, 绒毛状#NN)   (nsubj, 退化#VV, 有眼#NN)  (loc, 退化#VV, 一#CD)  (case, 一#CD, 侧#LC)  (auxpass, 退化#VV, 被#LB)  (conj, 圆鳞#NN, 栉鳞#NN)  (cc, 圆鳞#NN, 或#CC)  (nn, ,#NN, 圆鳞#NN)  (cc, 退化#VV, 或#CC)  (root, ROOT#null, 退化#VV)  (nn, 板状#NN, 呈骨#NN)  (dobj, 退化#VV, 板状#NN)  (conj, 退化#VV, 体#VV)  (conj, ,#NN, 褐色#NN)  (cc, ,#NN, 或#CC)  (nn, ,#NN, 灰褐色#NN)  (nn, 有#NN, 有的#PN)  (amod, 有#NN, 散#JJ)  (nn, 斑纹#NN, 有#NN)  (conj, 斑纹#NN, 斑点#NN)  (cc, 斑纹#NN, 或#CC)  (dobj, 体#VV, 斑纹#NN)   (nsubj, 圆鳞#VV, 无眼#NN)  (loc, 圆鳞#VV, 一#CD)  (case, 一#CD, 侧#LC)  (auxpass, 圆鳞#VV, 被#SB)  (root, ROOT#null, 圆鳞#VV)  (dep, 圆鳞#VV, 栉鳞#VV)  (cc, 圆鳞#VV, 或#CC)  (dep, 圆鳞#VV, 光滑#VV)  (dobj, 光滑#VV, 无鳞#NN)
+        </parsing>
+
+        <tag>
+            侧扁  游离  位于头部  绒毛状  锥状  门牙状  圆鳞  栉鳞  呈骨板状  退化板状  散有  斑纹  斑点  光滑无鳞  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        补脾益气  解毒
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            比目鱼富含蛋白质、维生素A、维生素140D、钙、磷、钾等营养成分，尤其维生素B6的含量颇丰，而脂肪含量较少，另外，比目鱼还富含大脑的主要组成成分DHA，经常食用可增强智力。比目鱼具有祛凤湿、活血通络等功效。所含的不饱和脂肪酸易被人体吸收，有助降低血中胆固醇，增强体质。
+        </rawdata>
+
+        <segment>
+            比目鱼  富含  蛋白质  、  维生素A  、  维生素  140D  、  钙  、  磷  、  钾  等  营养  成分  ，  尤其  维生素B6  的  含量  颇丰  ，  而  脂肪  含量  较  少  ，  另外  ，  比  目鱼  还  富含  大脑  的  主要  组成  成分  DHA  ，  经常  食用  可  增强  智力  。  比目  鱼  具有  祛凤湿  、  活血  通络  等  功效  。  所含  的  不饱和  脂肪酸  易被  人体  吸收  ，  有助  降低  血中  胆固醇  ，  增强  体质  。
+        </segment>
+
+        <pos>
+            比目鱼#VV  富含#NN  蛋白质#NN  、#PU  维生素A#NN  、#PU  维生素#NN  140D#CD  、#PU  钙#NN  、#PU  磷#NN  、#PU  钾#NN  等#ETC  营养#VA  成分#NN  ，#PU  尤其#AD  维生素B6#CD  的#DEC  含量#NN  颇丰#VV  ，#PU  而#AD  脂肪#NN  含量#NN  较#AD  少#VA  ，#PU  另外#AD  ，#PU  比#P  目鱼#NR  还#AD  富含#VV  大脑#NR  的#DEG  主要#JJ  组成#NN  成分#NN  DHA#NN  ，#PU  经常#AD  食用#VV  可#VV  增强#VV  智力#NN    。#PU  比目#NN  鱼#NN  具有#VV  祛凤湿#NR  、#PU  活血#NR  通络#NR  等#ETC  功效#NN    。#PU  所含#NN  的#DEG  不饱和#NN  脂肪酸#NN  易被#NN  人体#NN  吸收#VV  ，#PU  有助#NN  降低#VV  血中#NN  胆固醇#NN  ，#PU  增强#VV  体质#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 含量#NN, 比目鱼#VV)  (nn, 蛋白质#NN, 富含#NN)  (conj, 成分#NN, 蛋白质#NN)  (conj, 成分#NN, 维生素A#NN)  (conj, 成分#NN, 维生素#NN)  (nummod, 维生素#NN, 140D#CD)  (conj, 钾#NN, 钙#NN)  (conj, 钾#NN, 磷#NN)  (nn, 成分#NN, 钾#NN)  (etc, 钾#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dobj, 比目鱼#VV, 成分#NN)  (advmod, 维生素B6#CD, 尤其#AD)  (conj, 比目鱼#VV, 维生素B6#CD)  (mark, 比目鱼#VV, 的#DEC)  (nsubj, 颇丰#VV, 含量#NN)  (root, ROOT#null, 颇丰#VV)  (advmod, 少#VA, 而#AD)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 较#AD)  (ccomp, 颇丰#VV, 少#VA)  (advmod, 富含#VV, 另外#AD)  (case, 目鱼#NR, 比#P)  (prep, 富含#VV, 目鱼#NR)  (advmod, 富含#VV, 还#AD)  (conj, 少#VA, 富含#VV)  (assmod, DHA#NN, 大脑#NR)  (case, 大脑#NR, 的#DEG)  (amod, DHA#NN, 主要#JJ)  (nn, DHA#NN, 组成#NN)  (nn, DHA#NN, 成分#NN)  (dobj, 富含#VV, DHA#NN)  (advmod, 增强#VV, 经常#AD)  (mmod, 增强#VV, 食用#VV)  (mmod, 增强#VV, 可#VV)  (dep, 富含#VV, 增强#VV)  (dobj, 增强#VV, 智力#NN)   (nn, 鱼#NN, 比目#NN)  (nsubj, 具有#VV, 鱼#NN)  (root, ROOT#null, 具有#VV)  (conj, 通络#NR, 祛凤湿#NR)  (nn, 通络#NR, 活血#NR)  (nn, 功效#NN, 通络#NR)  (etc, 通络#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)   (assmod, 人体#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 人体#NN, 不饱和#NN)  (nn, 人体#NN, 脂肪酸#NN)  (nn, 人体#NN, 易被#NN)  (nsubj, 吸收#VV, 人体#NN)  (root, ROOT#null, 吸收#VV)  (nsubj, 降低#VV, 有助#NN)  (ccomp, 吸收#VV, 降低#VV)  (nn, 胆固醇#NN, 血中#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            富含蛋白质  颇丰  组成DHA  富含DHA  增强智力  通络  祛凤湿  不饱和人体  脂肪酸人体  易被人体  吸收  血中胆固醇  降低胆固醇  增强体质  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            鲽鱼肉质细嫩，肉多刺少，适于蒸食。可加工成条、块、丁、片等，可采用爆、炒、炸、熘等方法加工成菜。也可制成盐干品，肝可制鱼肝油。
+        </rawdata>
+
+        <segment>
+            鲽鱼  肉质  细嫩  ，  肉多  刺  少  ，  适于  蒸食  。  可加工  成  条  、  块  、  丁  、  片  等  ，  可采用  爆  、  炒  、  炸  、  熘等  方法  加工  成  菜  。  也  可  制成  盐  干  品  ，  肝可制  鱼肝油  。
+        </segment>
+
+        <pos>
+            鲽鱼#NN  肉质#NN  细嫩#VV  ，#PU  肉多#NN  刺#AD  少#VA  ，#PU  适于#VV  蒸食#NN    。#PU  可加工#VV  成#VV  条#NN  、#PU  块#M  、#PU  丁#NN  、#PU  片#M  等#VV  ，#PU  可采用#AD  爆#VV  、#PU  炒#VV  、#PU  炸#VV  、#PU  熘等#CD  方法#NN  加工#NN  成#VV  菜#NN    。#PU  也#AD  可#VV  制成#VV  盐#NN  干#VV  品#M  ，#PU  肝可制#VV  鱼肝油#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肉质#NN, 鲽鱼#NN)  (nsubj, 细嫩#VV, 肉质#NN)  (root, ROOT#null, 细嫩#VV)  (nsubj, 少#VA, 肉多#NN)  (advmod, 少#VA, 刺#AD)  (ccomp, 细嫩#VV, 少#VA)  (dep, 少#VA, 适于#VV)  (dobj, 适于#VV, 蒸食#NN)   (root, ROOT#null, 可加工#VV)  (dep, 可加工#VV, 成#VV)  (dobj, 成#VV, 条#NN)  (clf, 加工#NN, 块#M)  (conj, 加工#NN, 丁#NN)  (clf, 加工#NN, 片#M)  (relcl, 方法#NN, 等#VV)  (advmod, 爆#VV, 可采用#AD)  (ccomp, 等#VV, 爆#VV)  (conj, 爆#VV, 炒#VV)  (dep, 爆#VV, 炸#VV)  (dep, 爆#VV, 熘等#CD)  (nn, 加工#NN, 方法#NN)  (dep, 成#VV, 加工#NN)  (dep, 可加工#VV, 成#VV)  (dobj, 成#VV, 菜#NN)   (advmod, 制成#VV, 也#AD)  (mmod, 制成#VV, 可#VV)  (root, ROOT#null, 制成#VV)  (dobj, 制成#VV, 盐#NN)  (conj, 制成#VV, 干#VV)  (dobj, 干#VV, 品#M)  (conj, 制成#VV, 肝可制#VV)  (dobj, 肝可制#VV, 鱼肝油#NN)
+        </parsing>
+
+        <tag>
+            细嫩  适于蒸食  等方法  方法加工  制成盐  肝可制鱼肝油  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/fd/41/82429_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\975 鲽.jpg
+    </picturelocalurl>
+
+</content>

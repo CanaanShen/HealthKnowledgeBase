@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        342
+    </id>
+
+    <foodname>
+        甘蔗
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        竿蔗、糖梗、红甘蔗、薯蔗、干蔗、接肠草、竿蔗
+    </alias>
+
+    <season>
+        秋植甘蔗八、九月，春植甘蔗二、三月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者忌食。脾胃虚寒、胃腹寒疼者不宜食用。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  忌食  。  脾胃  虚寒  、  胃  腹  寒  疼  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  忌食#VV    。#PU  脾胃#NN  虚寒#NN  、#PU  胃#NN  腹#NN  寒#JJ  疼#NN  者#NN  不#AD  宜#NR  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)   (nn, 腹#NN, 脾胃#NN)  (conj, 腹#NN, 虚寒#NN)  (nn, 腹#NN, 胃#NN)  (nn, 疼#NN, 腹#NN)  (amod, 疼#NN, 寒#JJ)  (nn, 者#NN, 疼#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            糖尿病  患者  忌食  脾胃虚寒  胃腹寒疼者不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                64
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                2.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            甘蔗是甘蔗属的总称。中国最常见的食用甘蔗为竹蔗。甘蔗适合栽种于土壤肥沃、阳光充足、冬夏温差大的地方。甘蔗是温带和热带农作物，是制造蔗糖的原料，且可提炼乙醇作为能源替代品。全世界有一百多个国家出产甘蔗，最大的甘蔗生产国是巴西、印度和中国。甘蔗中含有丰富的糖分、水分，还含有对人体新陈代谢非常有益的各种维生素、脂肪、蛋白质、有机酸、钙、铁等物质，主要用于制糖，现广泛种植于热带及亚热带地区。
+        </rawdata>
+
+        <segment>
+            甘蔗  是  甘蔗  属  的  总称  。  中国  最  常见  的  食用  甘蔗  为  竹蔗  。  甘蔗  适合  栽种  于  土壤  肥沃  、  阳光  充足  、  冬夏  温差  大  的  地方  。  甘蔗  是  温带  和  热带  农作物  ，  是  制造  蔗糖  的  原料  ，  且  可  提炼  乙醇  作为  能源  替代品  。  全世界  有  一百  多  个  国家  出产  甘蔗  ，  最  大  的  甘蔗  生产国  是  巴西  、  印度  和  中国  。  甘蔗  中  含有  丰富  的  糖分  、  水分  ，  还  含有  对  人体  新陈代谢  非常  有益  的  各  种  维生素  、  脂肪  、  蛋白质  、  有机酸  、  钙  、  铁  等  物质  ，  主要  用于  制糖  ，  现  广泛  种植  于  热带  及  亚热带  地区  。
+        </segment>
+
+        <pos>
+            甘蔗#NN  是#VC  甘蔗#AD  属#VV  的#DEC  总称#NN    。#PU  中国#NR  最#AD  常见#VA  的#DEC  食用#VV  甘蔗#NN  为#VC  竹蔗#NN    。#PU  甘蔗#NN  适合#VV  栽种#NN  于#P  土壤#NN  肥沃#NN  、#PU  阳光#NN  充足#VA  、#PU  冬夏#NN  温差#AD  大#VA  的#DEC  地方#NN    。#PU  甘蔗#NN  是#VC  温带#NN  和#CC  热带#NN  农作物#NN  ，#PU  是#VC  制造#NN  蔗糖#NN  的#DEG  原料#NN  ，#PU  且#CC  可#VV  提炼#NN  乙醇#NN  作为#P  能源#NN  替代品#VV    。#PU  全世界#NN  有#VE  一百#CD  多#CD  个#M  国家#NN  出产#VV  甘蔗#NN  ，#PU  最#AD  大#VA  的#DEC  甘蔗#NN  生产国#NN  是#VC  巴西#NR  、#PU  印度#NR  和#CC  中国#NR    。#PU  甘蔗#NN  中#LC  含有#AD  丰富#VA  的#DEC  糖分#NN  、#PU  水分#NN  ，#PU  还#AD  含有#VV  对#P  人体#NN  新陈代谢#NN  非常#AD  有益#VA  的#DEC  各#DT  种#M  维生素#NN  、#PU  脂肪#NN  、#PU  蛋白质#NN  、#PU  有机酸#NN  、#PU  钙#NN  、#PU  铁#NN  等#ETC  物质#NN  ，#PU  主要#AD  用于#VV  制糖#NN  ，#PU  现#AD  广泛#VA  种植#VV  于#P  热带#NN  及#CC  亚热带#NN  地区#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 总称#NN, 甘蔗#NN)  (cop, 总称#NN, 是#VC)  (advmod, 属#VV, 甘蔗#AD)  (relcl, 总称#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (root, ROOT#null, 总称#NN)   (nsubj, 常见#VA, 中国#NR)  (advmod, 常见#VA, 最#AD)  (relcl, 甘蔗#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nfincl, 甘蔗#NN, 食用#VV)  (nsubj, 竹蔗#NN, 甘蔗#NN)  (cop, 竹蔗#NN, 为#VC)  (root, ROOT#null, 竹蔗#NN)   (nsubj, 适合#VV, 甘蔗#NN)  (root, ROOT#null, 适合#VV)  (nsubj, 充足#VA, 栽种#NN)  (case, 阳光#NN, 于#P)  (nn, 阳光#NN, 土壤#NN)  (conj, 阳光#NN, 肥沃#NN)  (prep, 充足#VA, 阳光#NN)  (relcl, 地方#NN, 充足#VA)  (nsubj, 大#VA, 冬夏#NN)  (advmod, 大#VA, 温差#AD)  (conj, 充足#VA, 大#VA)  (mark, 充足#VA, 的#DEC)  (dobj, 适合#VV, 地方#NN)   (nsubj, 农作物#NN, 甘蔗#NN)  (cop, 农作物#NN, 是#VC)  (conj, 农作物#NN, 温带#NN)  (cc, 农作物#NN, 和#CC)  (nn, 农作物#NN, 热带#NN)  (root, ROOT#null, 农作物#NN)  (cop, 原料#NN, 是#VC)  (nn, 蔗糖#NN, 制造#NN)  (assmod, 原料#NN, 蔗糖#NN)  (case, 蔗糖#NN, 的#DEG)  (conj, 农作物#NN, 原料#NN)  (cc, 农作物#NN, 且#CC)  (conj, 农作物#NN, 可#VV)  (nn, 乙醇#NN, 提炼#NN)  (nsubj, 替代品#VV, 乙醇#NN)  (case, 能源#NN, 作为#P)  (prep, 替代品#VV, 能源#NN)  (conj, 农作物#NN, 替代品#VV)   (dep, 有#VE, 全世界#NN)  (root, ROOT#null, 有#VE)  (nummod, 国家#NN, 一百#CD)  (nummod, 个#M, 多#CD)  (clf, 国家#NN, 个#M)  (nsubj, 出产#VV, 国家#NN)  (dep, 有#VE, 出产#VV)  (dobj, 出产#VV, 甘蔗#NN)  (advmod, 大#VA, 最#AD)  (relcl, 生产国#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nn, 生产国#NN, 甘蔗#NN)  (nsubj, 中国#NR, 生产国#NN)  (cop, 中国#NR, 是#VC)  (conj, 中国#NR, 巴西#NR)  (conj, 中国#NR, 印度#NR)  (cc, 中国#NR, 和#CC)  (conj, 出产#VV, 中国#NR)   (loc, 丰富#VA, 甘蔗#NN)  (case, 甘蔗#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 水分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 水分#NN, 糖分#NN)  (nsubj, 含有#VV, 水分#NN)  (advmod, 含有#VV, 还#AD)  (dep, 种植#VV, 含有#VV)  (case, 新陈代谢#NN, 对#P)  (nn, 新陈代谢#NN, 人体#NN)  (prep, 有益#VA, 新陈代谢#NN)  (advmod, 有益#VA, 非常#AD)  (relcl, 物质#NN, 有益#VA)  (mark, 有益#VA, 的#DEC)  (det, 铁#NN, 各#DT)  (clf, 各#DT, 种#M)  (conj, 铁#NN, 维生素#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 有机酸#NN)  (conj, 铁#NN, 钙#NN)  (nn, 物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 含有#VV, 物质#NN)  (advmod, 用于#VV, 主要#AD)  (dep, 含有#VV, 用于#VV)  (dobj, 用于#VV, 制糖#NN)  (advmod, 广泛#VA, 现#AD)  (dep, 含有#VV, 广泛#VA)  (root, ROOT#null, 种植#VV)  (case, 地区#NN, 于#P)  (conj, 地区#NN, 热带#NN)  (cc, 地区#NN, 及#CC)  (nn, 地区#NN, 亚热带#NN)  (prep, 种植#VV, 地区#NN)
+        </parsing>
+
+        <tag>
+            属总称  栽种充足  土壤阳光  肥沃  地方充足  适合地方  温带  热带农作物  制造蔗糖  原料  提炼乙醇  中国  巴西  印度  水分丰富  糖分  人体新陈代谢  用于制糖  种植  亚热带地区  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.补充糖分
+            甘蔗可为机体补充充足的热能，对防治低血糖、消除疲劳、中暑等有较好的疗效。
+            2.健脾利尿
+            甘蔗有解热止渴，生津润燥，和中宽膈，下气止呕，助脾健胃，利尿，滋养的功效。
+            3.润肠通便
+            甘蔗可缓解口干舌燥，津液不足，小便不利，大便秘结，反胃呕吐，消化不良，发烧口渴等症状。
+        </rawdata>
+
+        <segment>
+            补充  糖分
+            甘蔗  可  为  机体  补充  充足  的  热能  ，  对  防治  低  血糖  、  消除  疲劳  、  中暑  等  有  较好  的  疗效  。
+            健脾  利尿
+            甘蔗  有  解热  止渴  ，  生津润燥  ，  和  中宽膈  ，  下气  止呕  ，  助脾  健胃  ，  利尿  ，  滋养  的  功效  。
+            润肠  通便
+            甘蔗  可  缓解  口干舌燥  ，  津液  不足  ，  小便  不利  ，  大便  秘结  ，  反胃  呕吐  ，  消化不良  ，  发烧  口渴  等  症状  。
+        </segment>
+
+        <pos>
+            补充#NN  糖分#VV
+            甘蔗#NN  可#VV  为#P  机体#AD  补充#VV  充足#VA  的#DEC  热能#NN  ，#PU  对#P  防治#VV  低#JJ  血糖#NN  、#PU  消除#VV  疲劳#VA  、#PU  中暑#VA  等#ETC  有#VE  较好#JJ  的#DEG  疗效#NN  。#PU
+            健脾#NN  利尿#VV
+            甘蔗#NN  有#VE  解热#VV  止渴#NN  ，#PU  生津润燥#VV  ，#PU  和#CC  中宽膈#VV  ，#PU  下气#VV  止呕#NN  ，#PU  助脾#VV  健胃#NN  ，#PU  利尿#VV  ，#PU  滋养#VV  的#DEC  功效#NN  。#PU
+            润肠#NN  通便#VV
+            甘蔗#NN  可#VV  缓解#VV  口干舌燥#NN  ，#PU  津液#AD  不足#VA  ，#PU  小便#AD  不利#VA  ，#PU  大便#VV  秘结#NN  ，#PU  反胃#VV  呕吐#NN  ，#PU  消化不良#VV  ，#PU  发烧#VV  口渴#NN  等#ETC  症状#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 糖分#VV, 补充#NN)  (root, ROOT#null, 糖分#VV)
+            (nsubj, 有#VE, 甘蔗#NN)  (mmod, 有#VE, 可#VV)  (case, 补充#VV, 为#P)  (advmod, 补充#VV, 机体#AD)  (prep, 有#VE, 补充#VV)  (relcl, 热能#NN, 充足#VA)  (mark, 充足#VA, 的#DEC)  (dobj, 补充#VV, 热能#NN)  (case, 防治#VV, 对#P)  (prep, 有#VE, 防治#VV)  (amod, 血糖#NN, 低#JJ)  (dobj, 防治#VV, 血糖#NN)  (mmod, 疲劳#VA, 消除#VV)  (conj, 防治#VV, 疲劳#VA)  (dep, 疲劳#VA, 中暑#VA)  (dep, 防治#VV, 等#ETC)  (root, ROOT#null, 有#VE)  (assmod, 疗效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)
+            (nsubj, 利尿#VV, 健脾#NN)  (root, ROOT#null, 利尿#VV)
+            (dep, 有#VE, 甘蔗#NN)  (root, ROOT#null, 有#VE)  (relcl, 功效#NN, 解热#VV)  (dobj, 解热#VV, 止渴#NN)  (conj, 解热#VV, 生津润燥#VV)  (cc, 解热#VV, 和#CC)  (conj, 解热#VV, 中宽膈#VV)  (conj, 解热#VV, 下气#VV)  (dobj, 下气#VV, 止呕#NN)  (conj, 解热#VV, 助脾#VV)  (dobj, 助脾#VV, 健胃#NN)  (conj, 解热#VV, 利尿#VV)  (conj, 解热#VV, 滋养#VV)  (mark, 解热#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+            (nsubj, 通便#VV, 润肠#NN)  (root, ROOT#null, 通便#VV)
+            (nsubj, 缓解#VV, 甘蔗#NN)  (mmod, 缓解#VV, 可#VV)  (root, ROOT#null, 缓解#VV)  (dobj, 缓解#VV, 口干舌燥#NN)  (advmod, 不足#VA, 津液#AD)  (conj, 缓解#VV, 不足#VA)  (advmod, 不利#VA, 小便#AD)  (conj, 缓解#VV, 不利#VA)  (conj, 缓解#VV, 大便#VV)  (dobj, 大便#VV, 秘结#NN)  (conj, 缓解#VV, 反胃#VV)  (dobj, 反胃#VV, 呕吐#NN)  (conj, 缓解#VV, 消化不良#VV)  (conj, 缓解#VV, 发烧#VV)  (nn, 症状#NN, 口渴#NN)  (etc, 口渴#NN, 等#ETC)  (dobj, 发烧#VV, 症状#NN)
+        </parsing>
+
+        <tag>
+            糖分  热能充足  补充热能  低血糖  防治血糖  利尿  解热功效  解热止渴  下气止呕  助脾健胃  通便  缓解口干舌燥  大便秘结  反胃呕吐  口渴症状  发烧症状  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补充糖分  健脾利尿  润肠通便
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            甘蔗含糖量高，所含糖分是由蔗糖、果糖、葡萄糖3种成分构成的，极易被人体吸收利用。还含有丰富的碳水化合物、天门冬素、天门冬氨酸、丙氨酸、缬氨酸、丝氨酸、苹果酸、柠檬酸、蛋白质、脂肪等营养成分。钙、磷、铁等无机元素的含量也较高。其中铁的含量特别多，每千克甘蔗中含9毫克，居水果之首，故甘蔗素有“补血果”的美称。
+        </rawdata>
+
+        <segment>
+            甘蔗  含糖量  高  ，  所含  糖分  是  由  蔗糖  、  果糖  、  葡萄糖  3  种  成分  构成  的  ，  极  易  被  人体  吸收  利用  。  还  含有  丰富  的  碳水化合物  、  天门冬  素  、  天门冬  氨酸  、  丙氨酸  、  缬氨酸  、  丝氨酸  、  苹果酸  、  柠檬酸  、  蛋白质  、  脂肪  等  营养  成分  。  钙  、  磷  、  铁  等  无机  元素  的  含量  也  较  高  。  其中  铁的  含量  特别  多  ，  每  千  克  甘蔗  中  含  9  毫克  ，  居  水果  之  首  ，  故  甘蔗  素  有  “  补血  果  ”  的  美称  。
+        </segment>
+
+        <pos>
+            甘蔗#NN  含糖量#AD  高#VA  ，#PU  所含#NN  糖分#NN  是#VC  由#P  蔗糖#NR  、#PU  果糖#NR  、#PU  葡萄糖#NR  3#CD  种#M  成分#NN  构成#VV  的#DEC  ，#PU  极#AD  易#VA  被#SB  人体#VV  吸收#VV  利用#VV    。#PU  还#AD  含有#VV  丰富#VA  的#DEC  碳水化合物#NN  、#PU  天门冬#NN  素#AD  、#PU  天门冬#AD  氨酸#NR  、#PU  丙氨酸#NR  、#PU  缬氨酸#NR  、#PU  丝氨酸#NR  、#PU  苹果酸#NR  、#PU  柠檬酸#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  等#ETC  营养#VA  成分#NN    。#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  无机#NN  元素#NN  的#DEG  含量#NN  也#AD  较#AD  高#VA    。#PU  其中#NN  铁的#NN  含量#NN  特别#AD  多#VA  ，#PU  每#DT  千#CD  克#M  甘蔗#NN  中#LC  含#VV  9#CD  毫克#NN  ，#PU  居#VV  水果#NN  之#DEG  首#NN  ，#PU  故#AD  甘蔗#NN  素#AD  有#VE  ``#VV  补血#NN  果#NN  ''#NN  的#DEC  美称#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 高#VA, 甘蔗#NN)  (advmod, 高#VA, 含糖量#AD)  (dep, 人体#VV, 高#VA)  (nn, 糖分#NN, 所含#NN)  (nsubj, 构成#VV, 糖分#NN)  (cop, 构成#VV, 是#VC)  (case, 成分#NN, 由#P)  (conj, 葡萄糖#NR, 蔗糖#NR)  (conj, 葡萄糖#NR, 果糖#NR)  (nn, 成分#NN, 葡萄糖#NR)  (nummod, 种#M, 3#CD)  (clf, 成分#NN, 种#M)  (prep, 构成#VV, 成分#NN)  (conj, 高#VA, 构成#VV)  (mark, 构成#VV, 的#DEC)  (advmod, 易#VA, 极#AD)  (conj, 高#VA, 易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 吸收#VV, 人体#VV)  (root, ROOT#null, 吸收#VV)  (comod, 吸收#VV, 利用#VV)   (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (relcl, 天门冬#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 天门冬#NN, 碳水化合物#NN)  (nsubj, 营养#VA, 天门冬#NN)  (advmod, 营养#VA, 素#AD)  (conj, 素#AD, 天门冬#AD)  (conj, 脂肪#NR, 氨酸#NR)  (conj, 脂肪#NR, 丙氨酸#NR)  (conj, 脂肪#NR, 缬氨酸#NR)  (conj, 脂肪#NR, 丝氨酸#NR)  (conj, 脂肪#NR, 苹果酸#NR)  (conj, 脂肪#NR, 柠檬酸#NR)  (conj, 脂肪#NR, 蛋白质#NR)  (prep, 营养#VA, 脂肪#NR)  (etc, 脂肪#NR, 等#ETC)  (relcl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)   (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 无机#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nn, 元素#NN, 无机#NN)  (assmod, 含量#NN, 元素#NN)  (case, 元素#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 也#AD)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)   (nn, 含量#NN, 其中#NN)  (nn, 含量#NN, 铁的#NN)  (nsubj, 多#VA, 含量#NN)  (advmod, 多#VA, 特别#AD)  (root, ROOT#null, 多#VA)  (det, 甘蔗#NN, 每#DT)  (nummod, 克#M, 千#CD)  (dep, 每#DT, 克#M)  (loc, 含#VV, 甘蔗#NN)  (case, 甘蔗#NN, 中#LC)  (conj, 多#VA, 含#VV)  (nummod, 毫克#NN, 9#CD)  (dobj, 含#VV, 毫克#NN)  (conj, 含#VV, 居#VV)  (assmod, 首#NN, 水果#NN)  (case, 水果#NN, 之#DEG)  (dobj, 居#VV, 首#NN)  (advmod, 有#VE, 故#AD)  (nsubj, 有#VE, 甘蔗#NN)  (advmod, 有#VE, 素#AD)  (conj, 多#VA, 有#VE)  (relcl, 美称#NN, ``#VV)  (nn, ''#NN, 补血#NN)  (nn, ''#NN, 果#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 有#VE, 美称#NN)
+        </parsing>
+
+        <tag>
+            所含糖分  葡萄糖  蔗糖  果糖  吸收  含有  天门冬丰富  碳水化合物  天门冬营养  脂肪  丙氨酸  缬氨酸  丝氨酸  苹果酸  柠檬酸  蛋白质  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            竹蔗有两种，皮色深紫近黑的甘蔗，俗称黑皮蔗，性质较温和滋补，喉痛热盛者不宜；皮色青的青皮蔗，味甘而性凉，有清热之效，能解肺热和肠胃热。
+        </rawdata>
+
+        <segment>
+            竹蔗  有  两  种  ，  皮  色  深紫  近  黑  的  甘蔗  ，  俗称  黑皮蔗  ，  性质  较  温和  滋补  ，  喉痛  热盛者  不  宜  ；  皮色青  的  青皮蔗  ，  味甘而性凉  ，  有  清热  之  效  ，  能  解肺  热和  肠胃  热  。
+        </segment>
+
+        <pos>
+            竹蔗#NN  有#VE  两#CD  种#M  ，#PU  皮#NN  色#NN  深紫#VV  近#AD  黑#JJ  的#DEG  甘蔗#CD  ，#PU  俗称#NN  黑皮蔗#NN  ，#PU  性质#NN  较#AD  温和#VV  滋补#NN  ，#PU  喉痛#AD  热盛者#VV  不#AD  宜#NR  ；#PU  皮色青#NN  的#DEG  青皮蔗#NN  ，#PU  味甘而性凉#NN  ，#PU  有#VE  清热#NN  之#DEG  效#NN  ，#PU  能#VV  解肺#VV  热和#NN  肠胃#NN  热#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 有#VE, 竹蔗#NN)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (nn, 色#NN, 皮#NN)  (nsubj, 深紫#VV, 色#NN)  (conj, 有#VE, 深紫#VV)  (advmod, 甘蔗#CD, 近#AD)  (assmod, 甘蔗#CD, 黑#JJ)  (case, 黑#JJ, 的#DEG)  (range, 深紫#VV, 甘蔗#CD)  (nn, 黑皮蔗#NN, 俗称#NN)  (nsubj, 温和#VV, 黑皮蔗#NN)  (nsubj, 温和#VV, 性质#NN)  (advmod, 温和#VV, 较#AD)  (conj, 有#VE, 温和#VV)  (dobj, 温和#VV, 滋补#NN)  (advmod, 热盛者#VV, 喉痛#AD)  (dep, 温和#VV, 热盛者#VV)  (neg, 热盛者#VV, 不#AD)  (dobj, 热盛者#VV, 宜#NR)  (assmod, 青皮蔗#NN, 皮色青#NN)  (case, 皮色青#NN, 的#DEG)  (nsubj, 有#VE, 青皮蔗#NN)  (nsubj, 有#VE, 味甘而性凉#NN)  (conj, 有#VE, 有#VE)  (assmod, 效#NN, 清热#NN)  (case, 清热#NN, 之#DEG)  (dobj, 有#VE, 效#NN)  (mmod, 解肺#VV, 能#VV)  (conj, 有#VE, 解肺#VV)  (nn, 热#NN, 热和#NN)  (nn, 热#NN, 肠胃#NN)  (dobj, 解肺#VV, 热#NN)
+        </parsing>
+
+        <tag>
+            俗称黑皮蔗  温和滋补  青皮蔗  皮色青  解肺热  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/11102015424.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\342 甘蔗.jpg
+    </picturelocalurl>
+
+</content>

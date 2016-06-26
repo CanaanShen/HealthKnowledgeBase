@@ -1,0 +1,106 @@
+<content>
+
+    <id>
+        1101
+    </id>
+
+    <foodname>
+        姬菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            姬菇，是独特的平菇种类，侧耳属，学名姬菇，与玉蕈不是一种。由河北省微生物研究所引种于日本，在日本销量广泛，用于面食佐餐。姬菇的抗逆性和适应性都很强，可利用的栽培原料也非常广泛，与平菇栽培方法略有不同。目前多采取生料/熟料袋栽墙式出菇。
+        </rawdata>
+
+        <segment>
+            姬菇  ，  是  独特  的  平菇  种类  ，  侧耳属  ，  学名  姬菇  ，  与  玉蕈  不  是  一  种  。  由  河北省  微生物  研究所  引种  于  日本  ，  在  日本  销量  广泛  ，  用于  面食  佐餐  。  姬菇  的  抗逆性  和  适应性  都  很  强  ，  可  利用  的  栽培  原料  也  非常  广泛  ，  与  平菇  栽培  方法  略  有  不同  。  目前  多  采取  生料  /  熟料  袋  栽墙式  出菇  。
+        </segment>
+
+        <pos>
+            姬菇#NN  ，#PU  是#VC  独特#VA  的#DEC  平菇#NN  种类#NN  ，#PU  侧耳属#NN  ，#PU  学名#AD  姬菇#VV  ，#PU  与#CC  玉蕈#NN  不#AD  是#VC  一#CD  种#M    。#PU  由#P  河北省#NR  微生物#NN  研究所#NN  引种#VV  于#P  日本#NR  ，#PU  在#P  日本#NR  销量#AD  广泛#VA  ，#PU  用于#VV  面食#NN  佐餐#NN    。#PU  姬菇#NN  的#DEG  抗逆性#NN  和#CC  适应性#NN  都#AD  很#AD  强#VA  ，#PU  可#VV  利用#VV  的#DEC  栽培#VV  原料#NN  也#AD  非常#AD  广泛#VA  ，#PU  与#P  平菇#NN  栽培#VV  方法#NN  略#AD  有#VE  不同#NN    。#PU  目前#NT  多#AD  采取#VV  生料#NN  /#NN  熟料#NN  袋#NN  栽墙式#NN  出菇#NN    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 种类#NN, 姬菇#NN)  (cop, 种类#NN, 是#VC)  (relcl, 种类#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 种类#NN, 平菇#NN)  (root, ROOT#null, 种类#NN)  (nsubj, 姬菇#VV, 侧耳属#NN)  (advmod, 姬菇#VV, 学名#AD)  (conj, 种类#NN, 姬菇#VV)  (cc, 种类#NN, 与#CC)  (nsubj, 是#VC, 玉蕈#NN)  (neg, 是#VC, 不#AD)  (conj, 种类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)   (case, 研究所#NN, 由#P)  (nn, 研究所#NN, 河北省#NR)  (nn, 研究所#NN, 微生物#NN)  (prep, 引种#VV, 研究所#NN)  (root, ROOT#null, 引种#VV)  (case, 日本#NR, 于#P)  (prep, 引种#VV, 日本#NR)  (case, 日本#NR, 在#P)  (prep, 广泛#VA, 日本#NR)  (advmod, 广泛#VA, 销量#AD)  (conj, 引种#VV, 广泛#VA)  (dep, 引种#VV, 用于#VV)  (nn, 佐餐#NN, 面食#NN)  (dobj, 用于#VV, 佐餐#NN)   (assmod, 适应性#NN, 姬菇#NN)  (case, 姬菇#NN, 的#DEG)  (conj, 适应性#NN, 抗逆性#NN)  (cc, 适应性#NN, 和#CC)  (nsubj, 强#VA, 适应性#NN)  (advmod, 强#VA, 都#AD)  (advmod, 强#VA, 很#AD)  (relcl, 方法#NN, 强#VA)  (mmod, 利用#VV, 可#VV)  (dep, 强#VA, 利用#VV)  (mark, 强#VA, 的#DEC)  (nfincl, 方法#NN, 栽培#VV)  (dobj, 栽培#VV, 原料#NN)  (advmod, 广泛#VA, 也#AD)  (advmod, 广泛#VA, 非常#AD)  (conj, 栽培#VV, 广泛#VA)  (case, 平菇#NN, 与#P)  (prep, 栽培#VV, 平菇#NN)  (dep, 栽培#VV, 栽培#VV)  (nsubj, 有#VE, 方法#NN)  (advmod, 有#VE, 略#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 不同#NN)   (tmod, 采取#VV, 目前#NT)  (advmod, 采取#VV, 多#AD)  (root, ROOT#null, 采取#VV)  (nn, 出菇#NN, 生料#NN)  (nn, 出菇#NN, 熟料#NN)  (nn, 出菇#NN, 袋#NN)  (nn, 出菇#NN, 栽墙式#NN)  (dobj, 采取#VV, 出菇#NN)
+        </parsing>
+
+        <tag>
+            种类独特  平菇种类  微生物研究所  引种  面食佐餐  用于佐餐  适应性  抗逆性  栽培原料  生料出菇  熟料出菇  栽墙式出菇  采取出菇  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.含有抗肿瘤细胞的硒、多糖体等物质，对肿瘤细胞有很强的抑制作用，且具有免疫特性；
+            2.含有的多种维生素及矿物质可以改善人体新陈代谢、增强体质、调节植物神经功能等作用，故可作为体弱病人的营养品，对肝炎、慢性胃炎、胃和十二指肠溃疡、软骨病、高血压等都有疗效，对降低血胆固醇和防治尿道结石也有一定效果，对妇女更年期综合症可起调理作用。平菇性味甘、温；具有追风散寒、舒筋活络的功效；用干治腰腿疼痛、手足麻木、筋络不通等病症。常食平菇不仅能起到改善人体的新陈代谢，改善人体新陈代谢、增强体质都有一定的好处。
+        </rawdata>
+
+        <segment>
+            含有  抗  肿瘤  细胞  的硒  、  多糖  体  等  物质  ，  对  肿瘤  细胞  有  很  强  的  抑制  作用  ，  且  具有  免疫  特性  ；
+            含有  的  多  种  维生素  及  矿物质  可以  改善  人体  新陈代谢  、  增强  体质  、  调节  植物  神经  功能  等  作用  ，  故  可  作为  体弱  病人  的  营养品  ，  对  肝炎  、  慢性  胃炎  、  胃  和  十二  指肠  溃疡  、  软骨病  、  高血压  等  都  有  疗效  ，  对  降低  血  胆固醇  和  防治  尿道  结石  也  有  一定  效果  ，  对  妇女  更年期  综合症  可  起  调理  作用  。  平菇  性  味  甘  、  温  ；  具有  追风  散寒  、  舒筋  活络  的  功效  ；  用  干  治  腰腿  疼痛  、  手足  麻木  、  筋络  不  通  等  病症  。  常食  平菇  不仅  能  起到  改善  人体  的  新陈代谢  ，  改善  人体  新陈代谢  、  增强  体质  都  有  一定  的  好处  。
+        </segment>
+
+        <pos>
+            含有#NR  抗#NR  肿瘤#NN  细胞#NN  的硒#NN  、#PU  多糖#NN  体#NN  等#ETC  物质#NN  ，#PU  对#P  肿瘤#NN  细胞#NN  有#VE  很#AD  强#VA  的#DEC  抑制#NN  作用#NN  ，#PU  且#CC  具有#VV  免疫#NN  特性#NN  ；#PU
+            含有#NN  的#DEG  多#CD  种#M  维生素#NN  及#CC  矿物质#NN  可以#VV  改善#VV  人体#NN  新陈代谢#NN  、#PU  增强#VV  体质#NN  、#PU  调节#VV  植物#NN  神经#NN  功能#NN  等#ETC  作用#NN  ，#PU  故#AD  可#VV  作为#VV  体弱#NN  病人#NN  的#DEG  营养品#NN  ，#PU  对#P  肝炎#NN  、#PU  慢性#NN  胃炎#NN  、#PU  胃#NR  和#CC  十二#CD  指肠#NN  溃疡#NR  、#PU  软骨病#NR  、#PU  高血压#NR  等#ETC  都#AD  有#VE  疗效#NN  ，#PU  对#P  降低#VV  血#NN  胆固醇#NN  和#CC  防治#NN  尿道#NN  结石#NN  也#AD  有#VE  一定#JJ  效果#NN  ，#PU  对#P  妇女#NN  更年期#NN  综合症#NN  可#VV  起#VV  调理#NN  作用#NN    。#PU  平菇#VV  性#NN  味#NN  甘#NR  、#PU  温#NN  ；#PU  具有#VV  追风#NN  散寒#NN  、#PU  舒筋#NN  活络#NN  的#DEG  功效#NN  ；#PU  用#VV  干#VV  治#VV  腰腿#NN  疼痛#NN  、#PU  手足#NN  麻木#NN  、#PU  筋络#NN  不#AD  通#VV  等#ETC  病症#NN    。#PU  常食#VV  平菇#NN  不仅#CC  能#VV  起到#VV  改善#VV  人体#NN  的#DEC  新陈代谢#NN  ，#PU  改善#VV  人体#NN  新陈代谢#NN  、#PU  增强#VV  体质#NN  都#AD  有#VE  一定#JJ  的#DEG  好处#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 的硒#NN, 含有#NR)  (nn, 的硒#NN, 抗#NR)  (nn, 的硒#NN, 肿瘤#NN)  (nn, 的硒#NN, 细胞#NN)  (conj, 体#NN, 的硒#NN)  (nn, 体#NN, 多糖#NN)  (nn, 物质#NN, 体#NN)  (etc, 体#NN, 等#ETC)  (nsubj, 有#VE, 物质#NN)  (case, 细胞#NN, 对#P)  (nn, 细胞#NN, 肿瘤#NN)  (prep, 有#VE, 细胞#NN)  (root, ROOT#null, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (cc, 有#VE, 且#CC)  (dep, 有#VE, 具有#VV)  (nn, 特性#NN, 免疫#NN)  (dobj, 具有#VV, 特性#NN)
+            (assmod, 矿物质#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 及#CC)  (nsubj, 改善#VV, 矿物质#NN)  (mmod, 改善#VV, 可以#VV)  (root, ROOT#null, 改善#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 改善#VV, 新陈代谢#NN)  (conj, 改善#VV, 增强#VV)  (dobj, 增强#VV, 体质#NN)  (conj, 改善#VV, 调节#VV)  (nn, 功能#NN, 植物#NN)  (nn, 功能#NN, 神经#NN)  (nn, 作用#NN, 功能#NN)  (etc, 功能#NN, 等#ETC)  (dobj, 调节#VV, 作用#NN)  (advmod, 作为#VV, 故#AD)  (mmod, 作为#VV, 可#VV)  (conj, 改善#VV, 作为#VV)  (nn, 病人#NN, 体弱#NN)  (assmod, 营养品#NN, 病人#NN)  (case, 病人#NN, 的#DEG)  (dobj, 作为#VV, 营养品#NN)  (case, 高血压#NR, 对#P)  (conj, 高血压#NR, 肝炎#NN)  (nn, 胃炎#NN, 慢性#NN)  (conj, 高血压#NR, 胃炎#NN)  (conj, 高血压#NR, 胃#NR)  (cc, 高血压#NR, 和#CC)  (nummod, 指肠#NN, 十二#CD)  (nn, 高血压#NR, 指肠#NN)  (conj, 高血压#NR, 溃疡#NR)  (conj, 高血压#NR, 软骨病#NR)  (prep, 有#VE, 高血压#NR)  (etc, 高血压#NR, 等#ETC)  (advmod, 有#VE, 都#AD)  (conj, 改善#VV, 有#VE)  (dobj, 有#VE, 疗效#NN)  (case, 降低#VV, 对#P)  (prep, 有#VE, 降低#VV)  (nn, 结石#NN, 血#NN)  (conj, 结石#NN, 胆固醇#NN)  (cc, 结石#NN, 和#CC)  (nn, 结石#NN, 防治#NN)  (nn, 结石#NN, 尿道#NN)  (dobj, 降低#VV, 结石#NN)  (advmod, 有#VE, 也#AD)  (dep, 有#VE, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)  (case, 综合症#NN, 对#P)  (nn, 综合症#NN, 妇女#NN)  (nn, 综合症#NN, 更年期#NN)  (prep, 起#VV, 综合症#NN)  (mmod, 起#VV, 可#VV)  (conj, 改善#VV, 起#VV)  (nn, 作用#NN, 调理#NN)  (dobj, 起#VV, 作用#NN)   (root, ROOT#null, 平菇#VV)  (nn, 味#NN, 性#NN)  (nn, 温#NN, 味#NN)  (conj, 温#NN, 甘#NR)  (dobj, 平菇#VV, 温#NN)  (conj, 平菇#VV, 具有#VV)  (nn, 活络#NN, 追风#NN)  (conj, 活络#NN, 散寒#NN)  (nn, 活络#NN, 舒筋#NN)  (assmod, 功效#NN, 活络#NN)  (case, 活络#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)  (conj, 平菇#VV, 用#VV)  (mmod, 治#VV, 干#VV)  (nfincl, 病症#NN, 治#VV)  (nn, 麻木#NN, 腰腿#NN)  (conj, 麻木#NN, 疼痛#NN)  (nn, 麻木#NN, 手足#NN)  (dobj, 治#VV, 麻木#NN)  (nsubj, 通#VV, 筋络#NN)  (neg, 通#VV, 不#AD)  (dep, 治#VV, 通#VV)  (dep, 治#VV, 等#ETC)  (dobj, 用#VV, 病症#NN)   (nfincl, 体质#NN, 常食#VV)  (dobj, 常食#VV, 平菇#NN)  (cc, 常食#VV, 不仅#CC)  (mmod, 起到#VV, 能#VV)  (conj, 常食#VV, 起到#VV)  (relcl, 新陈代谢#NN, 改善#VV)  (dobj, 改善#VV, 人体#NN)  (mark, 改善#VV, 的#DEC)  (dobj, 起到#VV, 新陈代谢#NN)  (conj, 常食#VV, 改善#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 改善#VV, 新陈代谢#NN)  (conj, 常食#VV, 增强#VV)  (nsubj, 有#VE, 体质#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (assmod, 好处#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 好处#NN)
+        </parsing>
+
+        <tag>
+            肿瘤的硒  细胞的硒  肿瘤细胞  免疫特性  矿物质  维生素  人体新陈代谢  改善新陈代谢  增强体质  植物功能  神经功能  体弱病人  作为营养品  慢性胃炎  高血压  溃疡  软骨病  胆固醇  防治结石  尿道结石  降低结石  一定效果  妇女综合症  更年期综合症  平菇温  追风活络  散寒  舒筋活络  腰腿麻木  疼痛  手足麻木  常食平菇  改善人体  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/5b/38/14427_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1101 姬菇.jpg
+    </picturelocalurl>
+
+</content>

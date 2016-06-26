@@ -1,0 +1,218 @@
+<content>
+
+    <id>
+        328
+    </id>
+
+    <foodname>
+        西瓜皮
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        西瓜青、碎秋、西瓜翠衣、西瓜翠
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            中寒湿盛者忌食。
+        </rawdata>
+
+        <segment>
+            中  寒湿  盛  者  忌食  。
+        </segment>
+
+        <pos>
+            中#NR  寒湿#VV  盛#VA  者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 寒湿#VV, 中#NR)  (root, ROOT#null, 寒湿#VV)  (relcl, 者#NN, 盛#VA)  (nn, 忌食#NN, 者#NN)  (dobj, 寒湿#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            中寒湿盛者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            西瓜皮为葫芦科植物西瓜的外层果皮。西瓜一年生蔓生草本，全国各地均有栽培，夏季采收，将食后的果皮，用刀削去外果皮及残留的果肉，洗净，晒干。
+        </rawdata>
+
+        <segment>
+            西瓜  皮  为  葫芦科  植物  西瓜  的  外层  果皮  。  西瓜  一  年  生  蔓生  草本  ，  全国  各  地  均  有  栽培  ，  夏季  采收  ，  将  食  后  的  果皮  ，  用刀  削去  外果皮  及  残留  的  果肉  ，  洗净  ，  晒干  。
+        </segment>
+
+        <pos>
+            西瓜#NN  皮#NN  为#VC  葫芦科#NN  植物#NN  西瓜#NN  的#DEG  外层#NN  果皮#NN    。#PU  西瓜#NR  一#CD  年#M  生#VV  蔓生#NN  草本#NN  ，#PU  全国#NR  各#DT  地#NN  均#AD  有#VE  栽培#VV  ，#PU  夏季#NT  采收#VV  ，#PU  将#BA  食#NN  后#LC  的#DEG  果皮#NN  ，#PU  用刀#AD  削去#VV  外果皮#NN  及#CC  残留#NN  的#DEC  果肉#NN  ，#PU  洗净#NN  ，#PU  晒干#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 皮#NN, 西瓜#NN)  (nsubj, 果皮#NN, 皮#NN)  (cop, 果皮#NN, 为#VC)  (nn, 西瓜#NN, 葫芦科#NN)  (nn, 西瓜#NN, 植物#NN)  (assmod, 果皮#NN, 西瓜#NN)  (case, 西瓜#NN, 的#DEG)  (nn, 果皮#NN, 外层#NN)  (root, ROOT#null, 果皮#NN)   (nsubj, 生#VV, 西瓜#NR)  (nummod, 年#M, 一#CD)  (dep, 生#VV, 年#M)  (root, ROOT#null, 生#VV)  (nn, 草本#NN, 蔓生#NN)  (dobj, 生#VV, 草本#NN)  (nn, 地#NN, 全国#NR)  (det, 地#NN, 各#DT)  (nsubj, 有#VE, 地#NN)  (advmod, 有#VE, 均#AD)  (conj, 生#VV, 有#VE)  (relcl, 果肉#NN, 栽培#VV)  (tmod, 采收#VV, 夏季#NT)  (dep, 栽培#VV, 采收#VV)  (ba, 削去#VV, 将#BA)  (assmod, 果皮#NN, 食#NN)  (case, 食#NN, 后#LC)  (case, 食#NN, 的#DEG)  (nsubj, 削去#VV, 果皮#NN)  (advmod, 削去#VV, 用刀#AD)  (conj, 栽培#VV, 削去#VV)  (conj, 残留#NN, 外果皮#NN)  (cc, 残留#NN, 及#CC)  (dobj, 削去#VV, 残留#NN)  (mark, 栽培#VV, 的#DEC)  (dobj, 有#VE, 果肉#NN)  (nsubj, 晒干#VV, 洗净#NN)  (conj, 生#VV, 晒干#VV)
+        </parsing>
+
+        <tag>
+            葫芦科西瓜  植物西瓜  外层果皮  蔓生草本  栽培果肉  外果皮  削去残留  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性凉，味甘。清暑解热，止渴，利小便。用于暑热烦渴、小便短少、水肿、口舌生疮。
+        </rawdata>
+
+        <segment>
+            性凉  ，  味甘  。  清暑  解热  ，  止渴  ，  利  小便  。  用于  暑热  烦渴  、  小便  短少  、  水肿  、  口舌  生疮  。
+        </segment>
+
+        <pos>
+            性凉#VV  ，#PU  味甘#VV    。#PU  清暑#NR  解热#VV  ，#PU  止渴#NN  ，#PU  利#NR  小便#VV    。#PU  用于#VV  暑热#NR  烦渴#NR  、#PU  小便#NR  短少#NR  、#PU  水肿#NR  、#PU  口舌#NR  生疮#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 性凉#VV)  (ccomp, 性凉#VV, 味甘#VV)   (nsubj, 解热#VV, 清暑#NR)  (root, ROOT#null, 解热#VV)  (nsubj, 小便#VV, 止渴#NN)  (nsubj, 小便#VV, 利#NR)  (ccomp, 解热#VV, 小便#VV)   (root, ROOT#null, 用于#VV)  (nn, 口舌#NR, 暑热#NR)  (conj, 口舌#NR, 烦渴#NR)  (nn, 口舌#NR, 小便#NR)  (conj, 口舌#NR, 短少#NR)  (conj, 口舌#NR, 水肿#NR)  (nn, 生疮#NN, 口舌#NR)  (dobj, 用于#VV, 生疮#NN)
+        </parsing>
+
+        <tag>
+            性凉  解热  口舌  烦渴  短少  水肿  用于生疮  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            西瓜皮含蜡质及糖。果汁含瓜氨酸、甜菜碱、苹果酸、果糖、葡萄糖、蔗糖、番茄红素、维生素C等。
+        </rawdata>
+
+        <segment>
+            西瓜  皮  含  蜡质  及  糖  。  果汁  含  瓜氨酸  、  甜菜碱  、  苹果酸  、  果糖  、  葡萄糖  、  蔗糖  、  番茄红素  、  维生素C  等  。
+        </segment>
+
+        <pos>
+            西瓜#NN  皮#NN  含#VV  蜡质#NN  及#CC  糖#NN    。#PU  果汁#NN  含#VV  瓜氨酸#NR  、#PU  甜菜碱#NR  、#PU  苹果酸#NR  、#PU  果糖#NR  、#PU  葡萄糖#NR  、#PU  蔗糖#NR  、#PU  番茄红素#NR  、#PU  维生素C#NR  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 皮#NN, 西瓜#NN)  (nsubj, 含#VV, 皮#NN)  (root, ROOT#null, 含#VV)  (conj, 糖#NN, 蜡质#NN)  (cc, 糖#NN, 及#CC)  (dobj, 含#VV, 糖#NN)   (nsubj, 含#VV, 果汁#NN)  (root, ROOT#null, 含#VV)  (conj, 维生素C#NR, 瓜氨酸#NR)  (conj, 维生素C#NR, 甜菜碱#NR)  (conj, 维生素C#NR, 苹果酸#NR)  (conj, 维生素C#NR, 果糖#NR)  (conj, 维生素C#NR, 葡萄糖#NR)  (conj, 维生素C#NR, 蔗糖#NR)  (conj, 维生素C#NR, 番茄红素#NR)  (dobj, 含#VV, 维生素C#NR)  (etc, 维生素C#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            维生素C  瓜氨酸  甜菜碱  苹果酸  果糖  葡萄糖  蔗糖  番茄红素  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.壮阳
+            西瓜皮切丝，开水焯后捞出，与熟鸡丝、瘦肉丝加调料食用。
+            2.暑热伤肺、身热口渴、干咳无痰或便秘
+            鲜扁豆、鲜蛇舌草各50克，鲜荷叶60克洗净，海蜇200克，西瓜皮500克，丝瓜250克，洗净切块，共入沙锅武火煮沸后，文火煲1小时，调味后饮汤吃海蜇。每天1剂。
+            3.健脾消暑
+            新鲜西瓜皮100克，大枣10枚，共煎汤，每日当茶饮。
+            4.夏季痤疮
+            绿豆100克，加水1500毫升，煮汤，沸后10分钟去绿豆，将洗净的西瓜皮（不用削去外皮）500克放入再煮，煮沸后冷却。
+            饮汤，一日数次。
+            方中绿豆甘凉，可消肿下气、清热解毒;西瓜皮甘寒，可清热解暑、除烦止渴。
+            5.消暑利尿
+            将去掉外层硬皮的西瓜皮切成小块或小条，入水煮沸，加番茄、鸡蛋和调料，喝汤食瓜皮。
+        </rawdata>
+
+        <segment>
+            壮阳
+            西瓜  皮  切  丝  ，  开水  焯后  捞出  ，  与  熟  鸡丝  、  瘦  肉丝  加  调料  食用  。
+            暑热  伤肺  、  身  热  口渴  、  干咳  无痰  或  便秘
+            鲜  扁豆  、  鲜  蛇  舌草  各  50  克  ，  鲜  荷叶  60  克  洗净  ，  海蜇  200  克  ，  西瓜  皮  500  克  ，  丝瓜  250  克  ，  洗净  切块  ，  共  入  沙锅  武火  煮沸  后  ，  文火煲  1  小时  ，  调味  后  饮汤  吃  海蜇  。  每  天  1  剂  。
+            健脾  消暑
+            新鲜  西瓜  皮  100  克  ，  大枣  10  枚  ，  共  煎  汤  ，  每  日  当  茶  饮  。
+            夏季  痤疮
+            绿豆  100  克  ，  加水  1500  毫升  ，  煮汤  ，  沸后  10  分钟  去  绿豆  ，  将  洗净  的  西瓜  皮  （  不用  削去  外皮  ）  500  克  放入  再  煮  ，  煮沸  后  冷却  。
+            饮汤  ，  一  日  数次  。
+            方  中  绿豆  甘凉  ，  可  消肿  下气  、  清热  解毒  ;  西瓜  皮  甘寒  ，  可  清热  解暑  、  除烦  止渴  。
+            消暑  利尿
+            将  去掉  外层  硬皮  的  西瓜  皮  切成  小块  或  小  条  ，  入水  煮沸  ，  加  番茄  、  鸡蛋  和  调料  ，  喝  汤  食  瓜皮  。
+        </segment>
+
+        <pos>
+            壮阳#VV
+            西瓜#NN  皮#NN  切#VV  丝#NN  ，#PU  开水#VV  焯后#NN  捞出#NN  ，#PU  与#P  熟#JJ  鸡丝#NN  、#PU  瘦#NN  肉丝#NN  加#CC  调料#NN  食用#VV  。#PU
+            暑热#NN  伤肺#NN  、#PU  身#NN  热#NN  口渴#NN  、#PU  干咳#NN  无痰#NN  或#CC  便秘#NN
+            鲜#NN  扁豆#NN  、#PU  鲜#NN  蛇#NN  舌草#NN  各#DT  50#CD  克#M  ，#PU  鲜#NR  荷叶#VV  60#CD  克#M  洗净#NN  ，#PU  海蜇#NN  200#CD  克#M  ，#PU  西瓜#AD  皮#VV  500#CD  克#M  ，#PU  丝瓜#NN  250#CD  克#M  ，#PU  洗净#VV  切块#NN  ，#PU  共#AD  入#VV  沙锅#NN  武火#NN  煮沸#NN  后#LC  ，#PU  文火煲#VV  1#CD  小时#NN  ，#PU  调味#NN  后#LC  饮汤#AD  吃#VV  海蜇#NN    。#PU  每#DT  天#M  1#CD  剂#NN    。#PU    。#PU
+            健脾#NN  消暑#VV
+            新鲜#JJ  西瓜#NN  皮#VV  100#CD  克#M  ，#PU  大枣#VV  10#CD  枚#M  ，#PU  共#AD  煎#VV  汤#NN  ，#PU  每#DT  日#M  当#P  茶#NN  饮#VV  。#PU
+            夏季#NT  痤疮#VV
+            绿豆#VV  100#CD  克#M  ，#PU  加水#VV  1500#CD  毫升#M  ，#PU  煮汤#VV  ，#PU  沸后#VV  10#CD  分钟#M  去#VV  绿豆#NN  ，#PU  将#AD  洗净#VV  的#DEC  西瓜#NR  皮#NN  （#PU  不用#VV  削去#NN  外皮#NN  ）#PU  500#CD  克#M  放入#VV  再#AD  煮#VV  ，#PU  煮沸#NN  后#LC  冷却#VV  。#PU
+            饮汤#NN  ，#PU  一#CD  日#M  数次#VV  。#PU
+            方#NN  中#LC  绿豆#NN  甘凉#NN  ，#PU  可#VV  消肿#VV  下气#NN  、#PU  清热#NN  解毒#NN  ;#NN  西瓜#NN  皮#NN  甘寒#NN  ，#PU  可#VV  清热#VV  解暑#NN  、#PU  除烦#NN  止渴#NN  。#PU
+            消暑#NN  利尿#VV
+            将#AD  去掉#VV  外层#NN  硬皮#NN  的#DEG  西瓜#NN  皮#NN  切成#NN  小块#NN  或#CC  小#JJ  条#NN  ，#PU  入水#VV  煮沸#NN  ，#PU  加#VV  番茄#NN  、#PU  鸡蛋#NN  和#CC  调料#NN  ，#PU  喝#VV  汤#NN  食#NN  瓜皮#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 壮阳#VV)
+            (nn, 皮#NN, 西瓜#NN)  (nsubj, 切#VV, 皮#NN)  (root, ROOT#null, 切#VV)  (dobj, 切#VV, 丝#NN)  (conj, 切#VV, 开水#VV)  (nn, 捞出#NN, 焯后#NN)  (dobj, 开水#VV, 捞出#NN)  (case, 调料#NN, 与#P)  (amod, 鸡丝#NN, 熟#JJ)  (conj, 调料#NN, 鸡丝#NN)  (nn, 肉丝#NN, 瘦#NN)  (conj, 调料#NN, 肉丝#NN)  (cc, 调料#NN, 加#CC)  (prep, 食用#VV, 调料#NN)  (conj, 切#VV, 食用#VV)
+            (nn, 干咳#NN, 暑热#NN)  (conj, 干咳#NN, 伤肺#NN)  (nn, 干咳#NN, 身#NN)  (nn, 干咳#NN, 热#NN)  (conj, 干咳#NN, 口渴#NN)  (nn, 便秘#NN, 干咳#NN)  (conj, 便秘#NN, 无痰#NN)  (cc, 便秘#NN, 或#CC)  (root, ROOT#null, 便秘#NN)
+            (nn, 舌草#NN, 鲜#NN)  (conj, 舌草#NN, 扁豆#NN)  (nn, 舌草#NN, 鲜#NN)  (nn, 舌草#NN, 蛇#NN)  (nsubj, 荷叶#VV, 舌草#NN)  (dep, 荷叶#VV, 各#DT)  (nummod, 克#M, 50#CD)  (dep, 各#DT, 克#M)  (nsubj, 荷叶#VV, 鲜#NR)  (root, ROOT#null, 荷叶#VV)  (nummod, 克#M, 60#CD)  (clf, 洗净#NN, 克#M)  (dobj, 荷叶#VV, 洗净#NN)  (conj, 荷叶#VV, 海蜇#NN)  (nummod, 克#M, 200#CD)  (range, 海蜇#NN, 克#M)  (advmod, 皮#VV, 西瓜#AD)  (conj, 荷叶#VV, 皮#VV)  (nummod, 克#M, 500#CD)  (range, 皮#VV, 克#M)  (conj, 荷叶#VV, 丝瓜#NN)  (nummod, 克#M, 250#CD)  (range, 丝瓜#NN, 克#M)  (conj, 荷叶#VV, 洗净#VV)  (dobj, 洗净#VV, 切块#NN)  (advmod, 入#VV, 共#AD)  (conj, 荷叶#VV, 入#VV)  (nn, 煮沸#NN, 沙锅#NN)  (nn, 煮沸#NN, 武火#NN)  (loc, 入#VV, 煮沸#NN)  (case, 煮沸#NN, 后#LC)  (conj, 荷叶#VV, 文火煲#VV)  (nummod, 小时#NN, 1#CD)  (dobj, 文火煲#VV, 小时#NN)  (loc, 吃#VV, 调味#NN)  (case, 调味#NN, 后#LC)  (advmod, 吃#VV, 饮汤#AD)  (conj, 荷叶#VV, 吃#VV)  (dobj, 吃#VV, 海蜇#NN)   (det, 剂#NN, 每#DT)  (clf, 每#DT, 天#M)  (nummod, 剂#NN, 1#CD)  (root, ROOT#null, 剂#NN)   (root, ROOT#null, null#null)
+            (nsubj, 消暑#VV, 健脾#NN)  (root, ROOT#null, 消暑#VV)
+            (amod, 西瓜#NN, 新鲜#JJ)  (nsubj, 皮#VV, 西瓜#NN)  (root, ROOT#null, 皮#VV)  (nummod, 克#M, 100#CD)  (range, 皮#VV, 克#M)  (conj, 皮#VV, 大枣#VV)  (nummod, 枚#M, 10#CD)  (range, 大枣#VV, 枚#M)  (advmod, 煎#VV, 共#AD)  (conj, 皮#VV, 煎#VV)  (dobj, 煎#VV, 汤#NN)  (dep, 饮#VV, 每#DT)  (clf, 每#DT, 日#M)  (case, 茶#NN, 当#P)  (prep, 饮#VV, 茶#NN)  (conj, 皮#VV, 饮#VV)
+            (tmod, 痤疮#VV, 夏季#NT)  (root, ROOT#null, 痤疮#VV)
+            (root, ROOT#null, 绿豆#VV)  (nummod, 克#M, 100#CD)  (range, 绿豆#VV, 克#M)  (conj, 绿豆#VV, 加水#VV)  (nummod, 毫升#M, 1500#CD)  (range, 加水#VV, 毫升#M)  (conj, 绿豆#VV, 煮汤#VV)  (conj, 绿豆#VV, 沸后#VV)  (nummod, 分钟#M, 10#CD)  (clf, 皮#NN, 分钟#M)  (relcl, 皮#NN, 去#VV)  (dobj, 去#VV, 绿豆#NN)  (advmod, 洗净#VV, 将#AD)  (conj, 去#VV, 洗净#VV)  (mark, 去#VV, 的#DEC)  (nn, 皮#NN, 西瓜#NR)  (dobj, 沸后#VV, 皮#NN)  (prnmod, 皮#NN, 不用#VV)  (nn, 外皮#NN, 削去#NN)  (dobj, 不用#VV, 外皮#NN)  (nummod, 克#M, 500#CD)  (range, 沸后#VV, 克#M)  (conj, 沸后#VV, 放入#VV)  (advmod, 煮#VV, 再#AD)  (dep, 沸后#VV, 煮#VV)  (loc, 冷却#VV, 煮沸#NN)  (case, 煮沸#NN, 后#LC)  (conj, 绿豆#VV, 冷却#VV)
+            (nsubj, 数次#VV, 饮汤#NN)  (nummod, 日#M, 一#CD)  (nsubj, 数次#VV, 日#M)  (root, ROOT#null, 数次#VV)
+            (loc, 消肿#VV, 方#NN)  (case, 方#NN, 中#LC)  (nn, 甘凉#NN, 绿豆#NN)  (nsubj, 消肿#VV, 甘凉#NN)  (mmod, 消肿#VV, 可#VV)  (root, ROOT#null, 消肿#VV)  (conj, ;#NN, 下气#NN)  (nn, ;#NN, 清热#NN)  (nn, ;#NN, 解毒#NN)  (nn, 甘寒#NN, ;#NN)  (nn, 甘寒#NN, 西瓜#NN)  (nn, 甘寒#NN, 皮#NN)  (dobj, 消肿#VV, 甘寒#NN)  (mmod, 清热#VV, 可#VV)  (conj, 消肿#VV, 清热#VV)  (conj, 止渴#NN, 解暑#NN)  (nn, 止渴#NN, 除烦#NN)  (dobj, 清热#VV, 止渴#NN)
+            (nsubj, 利尿#VV, 消暑#NN)  (root, ROOT#null, 利尿#VV)
+            (advmod, 去掉#VV, 将#AD)  (root, ROOT#null, 去掉#VV)  (nn, 硬皮#NN, 外层#NN)  (assmod, 小块#NN, 硬皮#NN)  (case, 硬皮#NN, 的#DEG)  (nn, 小块#NN, 西瓜#NN)  (nn, 小块#NN, 皮#NN)  (nn, 小块#NN, 切成#NN)  (conj, 条#NN, 小块#NN)  (cc, 条#NN, 或#CC)  (amod, 条#NN, 小#JJ)  (dobj, 去掉#VV, 条#NN)  (conj, 去掉#VV, 入水#VV)  (dobj, 入水#VV, 煮沸#NN)  (conj, 去掉#VV, 加#VV)  (conj, 调料#NN, 番茄#NN)  (conj, 调料#NN, 鸡蛋#NN)  (cc, 调料#NN, 和#CC)  (dobj, 加#VV, 调料#NN)  (conj, 去掉#VV, 喝#VV)  (nn, 瓜皮#NN, 汤#NN)  (nn, 瓜皮#NN, 食#NN)  (dobj, 喝#VV, 瓜皮#NN)
+        </parsing>
+
+        <tag>
+            壮阳  焯后捞出  开水捞出  熟鸡丝  调料  肉丝  暑热干咳  伤肺  口渴  干咳便秘  无痰  舌草  扁豆  荷叶洗净  洗净切块  沙锅煮沸  武火煮沸  文火煲小时  消暑  新鲜西瓜  痤疮  去皮  沸后皮  削去外皮  不用外皮  数次  绿豆甘凉  西瓜甘寒  消肿甘寒  解暑  除烦止渴  清热止渴  利尿  外层硬皮  西瓜小块  切成小块  小条  去掉条  入水煮沸  番茄  鸡蛋  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201311/141423107825.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\328 西瓜皮.jpg
+    </picturelocalurl>
+
+</content>

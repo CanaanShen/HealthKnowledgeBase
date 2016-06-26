@@ -1,0 +1,398 @@
+<content>
+
+    <id>
+        428
+    </id>
+
+    <foodname>
+        乌梅
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        酸梅、黄仔、合汉梅、干枝梅、梅实、黑梅、熏梅、桔梅肉
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒发热，咳嗽多痰，胸膈痞闷之人忌食；菌痢、肠炎的初期忌食；妇女正常月经期以及怀孕妇人产前产后忌食。
+        </rawdata>
+
+        <segment>
+            感冒  发热  ，  咳嗽  多痰  ，  胸膈  痞闷  之  人  忌食  ；  菌痢  、  肠炎  的  初期  忌食  ；  妇女  正常  月  经期  以及  怀孕  妇人  产前  产后  忌食  。
+        </segment>
+
+        <pos>
+            感冒#NR  发热#VV  ，#PU  咳嗽#NR  多痰#VV  ，#PU  胸膈#NN  痞闷#NN  之#DEG  人#NN  忌食#VV  ；#PU  菌痢#NN  、#PU  肠炎#NN  的#DEG  初期#NN  忌食#VV  ；#PU  妇女#NN  正常#JJ  月#NN  经期#VV  以及#CC  怀孕#VV  妇人#NN  产前#NN  产后#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 发热#VV, 感冒#NR)  (root, ROOT#null, 发热#VV)  (nsubj, 多痰#VV, 咳嗽#NR)  (ccomp, 发热#VV, 多痰#VV)  (nn, 痞闷#NN, 胸膈#NN)  (assmod, 人#NN, 痞闷#NN)  (case, 痞闷#NN, 之#DEG)  (nsubj, 忌食#VV, 人#NN)  (ccomp, 多痰#VV, 忌食#VV)  (conj, 肠炎#NN, 菌痢#NN)  (assmod, 初期#NN, 肠炎#NN)  (case, 肠炎#NN, 的#DEG)  (nsubj, 忌食#VV, 初期#NN)  (ccomp, 忌食#VV, 忌食#VV)  (nsubj, 经期#VV, 妇女#NN)  (amod, 月#NN, 正常#JJ)  (nsubj, 经期#VV, 月#NN)  (conj, 发热#VV, 经期#VV)  (cc, 经期#VV, 以及#CC)  (dep, 经期#VV, 怀孕#VV)  (nn, 忌食#NN, 妇人#NN)  (nn, 忌食#NN, 产前#NN)  (nn, 忌食#NN, 产后#NN)  (dobj, 怀孕#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            感冒发热  咳嗽多痰  胸膈痞闷  忌食  菌痢  肠炎  初期  忌食  妇女正常月经期  怀孕妇人产前产后  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜虚热口渴，胃呆食少，胃酸缺乏(包括萎缩性胃炎胃酸过少者)，消化不良，慢性痢疾肠炎之人食用；适宜孕妇妊娠恶阻者食用；适宜胆道蛔虫者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  虚  热  口渴  ，  胃呆食少  ，  胃酸  缺乏  (  包括  萎缩性  胃炎  胃酸  过  少者  )  ，  消化不良  ，  慢性  痢疾  肠炎  之  人  食用  ；  适宜  孕妇  妊娠  恶阻  者  食用  ；  适宜  胆道  蛔虫  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VA  虚#AD  热#NN  口渴#VV  ，#PU  胃呆食少#VV  ，#PU  胃酸#NR  缺乏#VV  -LRB-#NN  包括#VV  萎缩性#NN  胃炎#NN  胃酸#VV  过#AS  少者#NN  -RRB-#NN  ，#PU  消化不良#NR  ，#PU  慢性#NN  痢疾#NN  肠炎#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  孕妇#NN  妊娠#VV  恶阻#NN  者#NN  食用#VV  ；#PU  适宜#VV  胆道#NN  蛔虫#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 热#NN, 适宜#VA)  (advmod, 适宜#VA, 虚#AD)  (nsubj, 口渴#VV, 热#NN)  (root, ROOT#null, 口渴#VV)  (ccomp, 口渴#VV, 胃呆食少#VV)  (nsubj, 缺乏#VV, 胃酸#NR)  (ccomp, 胃呆食少#VV, 缺乏#VV)  (conj, 缺乏#VV, 包括#VV)  (nn, 胃炎#NN, 萎缩性#NN)  (dobj, 包括#VV, 胃炎#NN)  (conj, 包括#VV, 胃酸#VV)  (asp, 胃酸#VV, 过#AS)  (nn, -RRB-#NN, 少者#NN)  (nsubj, 食用#VV, 消化不良#NR)  (nn, 肠炎#NN, 慢性#NN)  (nn, 肠炎#NN, 痢疾#NN)  (assmod, 人#NN, 肠炎#NN)  (case, 肠炎#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (conj, 缺乏#VV, 食用#VV)  (dep, 胃呆食少#VV, 适宜#VV)  (dobj, 适宜#VV, 孕妇#NN)  (conj, 适宜#VV, 妊娠#VV)  (nn, 者#NN, 恶阻#NN)  (dobj, 妊娠#VV, 者#NN)  (conj, 妊娠#VV, 食用#VV)  (dep, 胃呆食少#VV, 适宜#VV)  (nn, 者#NN, 胆道#NN)  (nn, 者#NN, 蛔虫#NN)  (dobj, 适宜#VV, 者#NN)  (conj, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  虚热口渴  胃呆食少  胃酸缺乏(包括萎缩性胃炎胃酸  少者)  消化不良  慢性痢疾肠炎  适宜  孕妇妊娠恶阻者  适宜  胆道蛔虫者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                219
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                6.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                76.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                33.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                7.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                161
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                19.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                137
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                7.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.57
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.35
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            乌梅别名酸梅、黄仔、合汉梅、干枝梅，为蔷薇科落叶乔木植物梅的干燥近成熟果实，夏季果实近成熟时采收，低温烘干后闷至色变黑或经烟火熏制而成。五月中旬，当梅果约八成熟时（果色由青绿转青黄色）即可采摘，将采摘的青梅按大、小分开，均匀地分别放入备好的焙炕中，用木炭作燃料，先以60℃左右的温度烘烤1小时，再以50℃左右的微火烘烤24小时，然后取出并小心翻动，以不翻破果皮为妥。放置一天后再置于炕中仍以50℃左右的微火烘烤24小时，直至梅果肉起皱缩，呈棕褐色为止。要使乌梅成品乌黑，可将已烘干的乌梅堆放3－5天，颜色就会逐渐转黑，也可在炭火中加入少量油松柴，使烘烤产生的黑烟起到熏黑作用。值得注意的是，当用炉火焙烤时，不宜用煤作燃料，以免煤燃烧过程中产生的有害气体污染产品。
+        </rawdata>
+
+        <segment>
+            乌梅  别名  酸梅  、  黄仔  、  合  汉梅  、  干枝  梅  ，  为  蔷薇科  落叶  乔木  植物  梅的  干燥  近  成熟  果实  ，  夏季  果实  近  成熟  时  采收  ，  低温  烘干  后  闷  至  色变  黑  或  经  烟火  熏制  而成  。  五月  中旬  ，  当  梅果约  八  成熟  时  （  果色  由  青绿  转  青黄色  ）  即  可  采摘  ，  将  采摘  的  青梅  按大  、  小  分开  ，  均匀地  分别  放入  备好  的  焙炕  中  ，  用  木炭  作  燃料  ，  先  以  60  ℃  左右  的  温度  烘烤  1  小时  ，  再  以  50  ℃  左右  的  微火  烘烤  24  小时  ，  然后  取出  并  小心  翻动  ，  以  不  翻  破  果皮  为妥  。  放置  一  天  后  再  置于  炕中  仍  以  50  ℃  左右  的  微火  烘烤  24  小时  ，  直  至  梅  果肉  起  皱缩  ，  呈棕  褐色  为止  。  要  使  乌梅  成品  乌黑  ，  可  将  已  烘干  的  乌梅  堆放  3－5  天  ，  颜色  就  会  逐渐  转黑  ，  也  可  在  炭火  中  加入  少量  油松  柴  ，  使  烘烤  产生  的  黑烟  起到  熏黑  作用  。  值得  注意  的  是  ，  当  用  炉火  焙烤  时  ，  不  宜  用煤  作  燃料  ，  以免  煤  燃烧  过程  中  产生  的  有害  气体  污染  产品  。
+        </segment>
+
+        <pos>
+            乌梅#AD  别名#VV  酸梅#NR  、#PU  黄仔#NR  、#PU  合#NR  汉梅#NR  、#PU  干枝#NR  梅#NN  ，#PU  为#P  蔷薇科#NN  落叶#NN  乔木#NN  植物#NN  梅的#NN  干燥#VV  近#AD  成熟#VA  果实#NN  ，#PU  夏季#NT  果实#NN  近#AD  成熟#VA  时#LC  采收#VV  ，#PU  低温#NN  烘干#NN  后#LC  闷#NN  至#CC  色变#NN  黑#VA  或#CC  经#P  烟火#NN  熏制#NN  而成#VV    。#PU  五月#NT  中旬#NN  ，#PU  当#P  梅果约#NR  八#CD  成熟#VA  时#NN  （#PU  果色#CD  由#P  青绿#NR  转#VV  青黄色#NN  ）#PU  即#AD  可#VV  采摘#NN  ，#PU  将#BA  采摘#NR  的#DEG  青梅#NN  按大#VA  、#PU  小#VA  分开#VV  ，#PU  均匀地#VV  分别#AD  放入#VV  备好#NN  的#DEC  焙炕#NN  中#LC  ，#PU  用#P  木炭#NR  作#VV  燃料#NN  ，#PU  先#AD  以#P  60#CD  ℃#NN  左右#LC  的#DEG  温度#NN  烘烤#VV  1#CD  小时#NN  ，#PU  再#AD  以#P  50#CD  ℃#NN  左右#LC  的#DEG  微火#NN  烘烤#VV  24#CD  小时#NN  ，#PU  然后#AD  取出#VV  并#CC  小心#VV  翻动#NN  ，#PU  以#MSP  不#AD  翻#VV  破#VV  果皮#NN  为妥#NN    。#PU  放置#NN  一#CD  天#M  后#LC  再#AD  置于#VV  炕中#NN  仍#AD  以#P  50#CD  ℃#NN  左右#LC  的#DEG  微火#NN  烘烤#VV  24#CD  小时#NN  ，#PU  直#AD  至#P  梅#NN  果肉#NN  起#LC  皱缩#VV  ，#PU  呈棕#VV  褐色#NT  为止#LC    。#PU  要#VV  使#VV  乌梅#NN  成品#NN  乌黑#VV  ，#PU  可#VV  将#AD  已#AD  烘干#VV  的#DEC  乌梅#NN  堆放#JJ  3#CD  －#PU  5#CD  天#M  ，#PU  颜色#AD  就#AD  会#VV  逐渐#AD  转黑#VV  ，#PU  也#AD  可#VV  在#P  炭火#NN  中#LC  加入#VV  少量#CD  油松#NN  柴#NN  ，#PU  使#VV  烘烤#AD  产生#VV  的#DEC  黑烟#NN  起到#VV  熏黑#NN  作用#NN    。#PU  值得#VV  注意#NN  的#DEC  是#VC  ，#PU  当#P  用#P  炉火#NN  焙烤#VV  时#LC  ，#PU  不#AD  宜#NR  用煤#AD  作#VV  燃料#NN  ，#PU  以免#VV  煤#NN  燃烧#VV  过程#NN  中#LC  产生#VV  的#DEC  有害#NN  气体#NN  污染#NN  产品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 别名#VV, 乌梅#AD)  (loc, 采收#VV, 别名#VV)  (conj, 干枝#NR, 酸梅#NR)  (conj, 干枝#NR, 黄仔#NR)  (nn, 干枝#NR, 合#NR)  (conj, 干枝#NR, 汉梅#NR)  (nn, 梅#NN, 干枝#NR)  (dobj, 别名#VV, 梅#NN)  (case, 梅的#NN, 为#P)  (nn, 梅的#NN, 蔷薇科#NN)  (nn, 梅的#NN, 落叶#NN)  (nn, 梅的#NN, 乔木#NN)  (nn, 梅的#NN, 植物#NN)  (prep, 干燥#VV, 梅的#NN)  (conj, 别名#VV, 干燥#VV)  (advmod, 成熟#VA, 近#AD)  (relcl, 果实#NN, 成熟#VA)  (dobj, 干燥#VV, 果实#NN)  (nn, 果实#NN, 夏季#NT)  (tmod, 成熟#VA, 果实#NN)  (advmod, 成熟#VA, 近#AD)  (dep, 别名#VV, 成熟#VA)  (case, 别名#VV, 时#LC)  (root, ROOT#null, 采收#VV)  (nn, 烘干#NN, 低温#NN)  (loc, 黑#VA, 烘干#NN)  (case, 烘干#NN, 后#LC)  (conj, 色变#NN, 闷#NN)  (cc, 色变#NN, 至#CC)  (nsubj, 黑#VA, 色变#NN)  (ccomp, 采收#VV, 黑#VA)  (cc, 采收#VV, 或#CC)  (case, 熏制#NN, 经#P)  (nn, 熏制#NN, 烟火#NN)  (prep, 而成#VV, 熏制#NN)  (conj, 采收#VV, 而成#VV)   (nn, 中旬#NN, 五月#NT)  (nsubj, 可#VV, 中旬#NN)  (case, 时#NN, 当#P)  (nn, 时#NN, 梅果约#NR)  (nsubj, 成熟#VA, 八#CD)  (relcl, 梅果约#NR, 成熟#VA)  (relcl, 时#NN, 成熟#VA)  (prep, 可#VV, 时#NN)  (nsubj, 转#VV, 果色#CD)  (case, 青绿#NR, 由#P)  (prep, 转#VV, 青绿#NR)  (prnmod, 时#NN, 转#VV)  (dobj, 转#VV, 青黄色#NN)  (advmod, 可#VV, 即#AD)  (conj, 破#VV, 可#VV)  (dobj, 可#VV, 采摘#NN)  (ba, 按大#VA, 将#BA)  (assmod, 青梅#NN, 采摘#NR)  (case, 采摘#NR, 的#DEG)  (nsubj, 按大#VA, 青梅#NN)  (conj, 可#VV, 按大#VA)  (dep, 按大#VA, 小#VA)  (dep, 按大#VA, 分开#VV)  (dep, 可#VV, 均匀地#VV)  (advmod, 放入#VV, 分别#AD)  (relcl, 焙炕#NN, 放入#VV)  (dobj, 放入#VV, 备好#NN)  (mark, 放入#VV, 的#DEC)  (loc, 均匀地#VV, 焙炕#NN)  (case, 焙炕#NN, 中#LC)  (case, 木炭#NR, 用#P)  (prep, 作#VV, 木炭#NR)  (conj, 可#VV, 作#VV)  (dobj, 作#VV, 燃料#NN)  (advmod, 烘烤#VV, 先#AD)  (case, 温度#NN, 以#P)  (nummod, ℃#NN, 60#CD)  (assmod, 温度#NN, ℃#NN)  (case, ℃#NN, 左右#LC)  (case, ℃#NN, 的#DEG)  (prep, 烘烤#VV, 温度#NN)  (conj, 可#VV, 烘烤#VV)  (nummod, 小时#NN, 1#CD)  (dobj, 烘烤#VV, 小时#NN)  (advmod, 烘烤#VV, 再#AD)  (case, 微火#NN, 以#P)  (nummod, ℃#NN, 50#CD)  (assmod, 微火#NN, ℃#NN)  (case, ℃#NN, 左右#LC)  (case, ℃#NN, 的#DEG)  (prep, 烘烤#VV, 微火#NN)  (conj, 可#VV, 烘烤#VV)  (nummod, 小时#NN, 24#CD)  (dobj, 烘烤#VV, 小时#NN)  (advmod, 取出#VV, 然后#AD)  (conj, 可#VV, 取出#VV)  (cc, 取出#VV, 并#CC)  (dep, 取出#VV, 小心#VV)  (dobj, 小心#VV, 翻动#NN)  (prtmod, 翻#VV, 以#MSP)  (neg, 翻#VV, 不#AD)  (conj, 可#VV, 翻#VV)  (root, ROOT#null, 破#VV)  (nn, 为妥#NN, 果皮#NN)  (dobj, 破#VV, 为妥#NN)   (nsubj, 置于#VV, 放置#NN)  (nummod, 天#M, 一#CD)  (loc, 置于#VV, 天#M)  (case, 天#M, 后#LC)  (advmod, 置于#VV, 再#AD)  (root, ROOT#null, 置于#VV)  (dobj, 置于#VV, 炕中#NN)  (advmod, 烘烤#VV, 仍#AD)  (case, 微火#NN, 以#P)  (nummod, ℃#NN, 50#CD)  (assmod, 微火#NN, ℃#NN)  (case, ℃#NN, 左右#LC)  (case, ℃#NN, 的#DEG)  (prep, 烘烤#VV, 微火#NN)  (conj, 置于#VV, 烘烤#VV)  (nummod, 小时#NN, 24#CD)  (dobj, 烘烤#VV, 小时#NN)  (prep, 皱缩#VV, 直#AD)  (case, 果肉#NN, 至#P)  (nn, 果肉#NN, 梅#NN)  (dep, 直#AD, 果肉#NN)  (case, 果肉#NN, 起#LC)  (conj, 置于#VV, 皱缩#VV)  (conj, 置于#VV, 呈棕#VV)  (loc, 呈棕#VV, 褐色#NT)  (case, 褐色#NT, 为止#LC)   (mmod, 使#VV, 要#VV)  (root, ROOT#null, 使#VV)  (nn, 成品#NN, 乌梅#NN)  (dobj, 使#VV, 成品#NN)  (dep, 使#VV, 乌黑#VV)  (conj, 使#VV, 可#VV)  (advmod, 烘干#VV, 将#AD)  (advmod, 烘干#VV, 已#AD)  (relcl, 乌梅#NN, 烘干#VV)  (mark, 烘干#VV, 的#DEC)  (dobj, 可#VV, 乌梅#NN)  (amod, 天#M, 堆放#JJ)  (dep, 天#M, 3#CD)  (nummod, 天#M, 5#CD)  (range, 可#VV, 天#M)  (advmod, 转黑#VV, 颜色#AD)  (advmod, 转黑#VV, 就#AD)  (mmod, 转黑#VV, 会#VV)  (advmod, 转黑#VV, 逐渐#AD)  (conj, 使#VV, 转黑#VV)  (advmod, 加入#VV, 也#AD)  (mmod, 加入#VV, 可#VV)  (case, 炭火#NN, 在#P)  (prep, 加入#VV, 炭火#NN)  (case, 炭火#NN, 中#LC)  (conj, 使#VV, 加入#VV)  (nummod, 柴#NN, 少量#CD)  (nn, 柴#NN, 油松#NN)  (dobj, 加入#VV, 柴#NN)  (conj, 使#VV, 使#VV)  (advmod, 产生#VV, 烘烤#AD)  (relcl, 黑烟#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (dobj, 使#VV, 黑烟#NN)  (dep, 使#VV, 起到#VV)  (nn, 作用#NN, 熏黑#NN)  (dobj, 起到#VV, 作用#NN)   (nsubj, 作#VV, 值得#VV)  (dobj, 值得#VV, 注意#NN)  (mark, 值得#VV, 的#DEC)  (cop, 作#VV, 是#VC)  (case, 焙烤#VV, 当#P)  (case, 炉火#NN, 用#P)  (prep, 焙烤#VV, 炉火#NN)  (prep, 作#VV, 焙烤#VV)  (case, 焙烤#VV, 时#LC)  (neg, 作#VV, 不#AD)  (prep, 作#VV, 宜#NR)  (advmod, 作#VV, 用煤#AD)  (root, ROOT#null, 作#VV)  (dobj, 作#VV, 燃料#NN)  (dep, 作#VV, 以免#VV)  (dobj, 以免#VV, 煤#NN)  (dep, 以免#VV, 燃烧#VV)  (loc, 产生#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (relcl, 产品#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (nn, 产品#NN, 有害#NN)  (nn, 产品#NN, 气体#NN)  (nn, 产品#NN, 污染#NN)  (dobj, 燃烧#VV, 产品#NN)
+        </parsing>
+
+        <tag>
+            干枝  酸梅  黄仔  汉梅  别名梅  蔷薇科梅的  落叶梅的  乔木梅的  植物梅的  果实成熟  干燥果实  采收  低温烘干  烟火熏制  梅果约成熟  时成熟  青梅按大  烘烤小时  小心翻动  果皮为妥  置于炕中  加入柴  产生黑烟  值得注意  产生产品  有害产品  气体产品  污染产品  燃烧产品  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味酸、微涩，性平。归肝、脾、肺、胃、大肠经。质润敛涩。敛肺，涩肠，生津，安蛔。用于肺虚久咳，久痢滑肠，虚热消渴，蛔厥呕吐腹痛，胆道蛔虫症。
+            1.抗氧化
+            若要真正的享受长寿，就不应该受老化病的折磨。吃乌梅会刺激腮腺荷尔蒙的分泌，而这种荷尔蒙能预防老化。所以从今天开始就每天吃一个乌梅吧。
+            2.清血
+            现代人喜欢吃的食物不外是精制食品如精白谷类、精白面包、精白面条、精白糖、化学调味料及动物性食物。吃了这些食物会致使血液里的毒素剧增，日子久了，血液循环恶化而产生酸素。每天吃一个乌梅可帮助清扫血液，使血液流动量正常化，排除过量的酸素。
+            3.增加能量
+            当血液净化时，新陈代谢就增强，身体自然会恢复能量。乌梅里的柠檬酸酸帮助吸收维他命及酵素，还有能预防疾病及消除疲劳。
+            4.保护消化系统
+            乌梅有消毒的功能，也防止食物在肠胃里腐化。
+            5.消除疲劳
+            当你觉得疲倦时，在身理上只是因为身体里过多的酸素致使。所以当你下班被困在车阵里，好不容易回到家里时，觉得累毙了，建议你吃一个乌梅，倦意很快就会消除。
+            6.预防便秘
+            乌梅里的苹果酸把适量的水分导引到大肠，形成粪便而排出体外。
+            7.增进食欲
+            期性的无食欲是身体里的一些器官操作得不好，食欲因为压力，吃过量，也因为肝脏，胃及大肠的功能不好，生病后食欲也差了。若要康复得快，需要吃东西，能帮助恢复食欲的就是每天吃一个乌梅。
+            8.解酒
+            乌梅对治口臭及宿醉的效果也很好，在兴高采烈欢庆佳节时，难免会喝多几杯，睡醒时头痛欲裂时，可尝试喝一杯乌梅番茶。做法是这样的：用一个乌梅，泡在一杯温水里约5分钟，然后加入一茶匙番茶叶，慢慢地喝完。
+        </rawdata>
+
+        <segment>
+            味酸  、  微涩  ，  性平  。  归肝  、  脾  、  肺  、  胃  、  大肠  经  。  质润  敛涩  。  敛肺  ，  涩肠  ，  生津  ，  安蛔  。  用于  肺虚久咳  ，  久痢滑肠  ，  虚  热  消渴  ，  蛔厥  呕吐  腹痛  ，  胆道  蛔虫症  。
+            抗氧化
+            若要  真正  的  享受  长寿  ，  就  不  应该  受  老化  病的  折磨  。  吃  乌梅  会  刺激  腮腺  荷尔蒙  的  分泌  ，  而  这  种  荷尔蒙  能  预防  老化  。  所以  从  今天  开始  就  每  天  吃  一  个  乌梅  吧  。
+            清  血
+            现代  人  喜欢  吃  的  食物  不  外  是  精制  食品  如  精白  谷类  、  精白  面包  、  精白  面条  、  精  白糖  、  化学  调味  料及  动物性  食物  。  吃  了  这些  食物  会  致使  血液  里  的  毒素  剧增  ，  日子  久了  ，  血液  循环  恶化  而  产生  酸素  。  每  天  吃  一  个  乌梅  可  帮助  清扫  血液  ，  使  血液  流动量  正常化  ，  排除  过量  的  酸素  。
+            增加  能量
+            当  血液  净化  时  ，  新陈代谢  就  增强  ，  身体  自然  会  恢复  能量  。  乌梅  里  的  柠檬  酸酸  帮助  吸收  维他命  及  酵素  ，  还有  能  预防  疾病  及  消除  疲劳  。
+            保护  消化  系统
+            乌梅  有  消毒  的  功能  ，  也  防止  食物  在  肠胃  里  腐化  。
+            消除  疲劳
+            当  你  觉得  疲倦  时  ，  在身  理  上  只是  因为  身体  里  过  多  的  酸  素  致使  。  所以  当你  下班  被困  在  车阵  里  ，  好不容易  回到  家里  时  ，  觉得  累  毙了  ，  建议  你  吃  一  个  乌梅  ，  倦意  很  快  就  会  消除  。
+            预防  便秘
+            乌梅  里  的  苹果  酸  把  适量  的  水分  导引  到  大肠  ，  形成  粪便  而  排出  体外  。
+            增进  食欲
+            期性  的  无  食欲  是  身体  里  的  一些  器官  操作  得不  好  ，  食欲  因为  压力  ，  吃过量  ，  也  因为  肝脏  ，  胃及  大肠  的  功能  不  好  ，  生病  后  食欲  也  差  了  。  若要  康复  得快  ，  需要  吃  东西  ，  能  帮助  恢复  食欲  的  就是  每天  吃  一  个  乌梅  。
+            解酒
+            乌梅  对  治  口臭  及  宿醉  的  效果  也  很  好  ，  在  兴高采烈  欢庆  佳节  时  ，  难免  会  喝  多  几  杯  ，  睡醒  时  头痛  欲裂  时  ，  可  尝试  喝  一  杯  乌梅  番  茶  。  做法  是  这样  的  ：  用  一  个  乌梅  ，  泡在  一  杯  温水  里约  5  分钟  ，  然后  加入  一  茶匙  番  茶叶  ，  慢慢  地  喝完  。
+        </segment>
+
+        <pos>
+            味酸#VA  、#PU  微涩#VA  ，#PU  性平#VV    。#PU  归肝#NR  、#PU  脾#NR  、#PU  肺#NN  、#PU  胃#NR  、#PU  大肠#NR  经#VV    。#PU  质润#NN  敛涩#VV    。#PU  敛肺#VV  ，#PU  涩肠#NR  ，#PU  生津#VV  ，#PU  安蛔#VV    。#PU  用于#VV  肺虚久咳#NN  ，#PU  久痢滑肠#AD  ，#PU  虚#AD  热#JJ  消渴#NN  ，#PU  蛔厥#AD  呕吐#VV  腹痛#NN  ，#PU  胆道#VV  蛔虫症#NN    。#PU    。#PU
+            抗氧化#VV
+            若要#AD  真正#VA  的#DEC  享受#VV  长寿#NR  ，#PU  就#AD  不#AD  应该#VV  受#VV  老化#NN  病的#NN  折磨#NN    。#PU  吃#VV  乌梅#AD  会#VV  刺激#VV  腮腺#NN  荷尔蒙#NN  的#DEC  分泌#NN  ，#PU  而#CC  这#DT  种#M  荷尔蒙#NN  能#VV  预防#VV  老化#NN    。#PU  所以#AD  从#P  今天#NT  开始#VV  就#AD  每#DT  天#M  吃#VV  一#CD  个#M  乌梅#NN  吧#SP    。#PU    。#PU
+            清#JJ  血#NN
+            现代#JJ  人#NN  喜欢#VV  吃#VV  的#DEC  食物#NN  不#AD  外#NN  是#VC  精制#JJ  食品#NN  如#AD  精白#NN  谷类#NN  、#PU  精白#NN  面包#NN  、#PU  精白#NN  面条#NN  、#PU  精#JJ  白糖#NN  、#PU  化学#NN  调味#NN  料及#NN  动物性#NN  食物#NN    。#PU  吃#VV  了#AS  这些#DT  食物#NN  会#VV  致使#VV  血液#NN  里#LC  的#DEG  毒素#NN  剧增#VV  ，#PU  日子#NN  久了#VV  ，#PU  血液#NN  循环#AD  恶化#VV  而#MSP  产生#VV  酸素#NN    。#PU  每#DT  天#M  吃#VV  一#CD  个#M  乌梅#NN  可#VV  帮助#VV  清扫#VV  血液#NN  ，#PU  使#VV  血液#NN  流动量#NN  正常化#NN  ，#PU  排除#VV  过量#AD  的#DEC  酸素#NN    。#PU    。#PU
+            增加#VV  能量#NN
+            当#P  血液#NN  净化#NN  时#LC  ，#PU  新陈代谢#NN  就#AD  增强#VV  ，#PU  身体#NN  自然#AD  会#VV  恢复#VV  能量#NN    。#PU  乌梅#NN  里#LC  的#DEG  柠檬#NN  酸酸#NN  帮助#VV  吸收#VV  维他命#NN  及#CC  酵素#NN  ，#PU  还有#AD  能#VV  预防#VV  疾病#NN  及#CC  消除#VV  疲劳#VA    。#PU    。#PU
+            保护#VV  消化#NN  系统#NN
+            乌梅#AD  有#VE  消毒#NN  的#DEG  功能#NN  ，#PU  也#AD  防止#VV  食物#AD  在#P  肠胃#NN  里#LC  腐化#VV  。#PU
+            消除#VV  疲劳#VA
+            当#P  你#PN  觉得#VV  疲倦#VA  时#LC  ，#PU  在身#NN  理#NN  上#LC  只是#AD  因为#P  身体#NN  里#LC  过#AD  多#VA  的#DEC  酸#NN  素#VV  致使#NN    。#PU  所以#AD  当你#NN  下班#NN  被困#NN  在#P  车阵#NN  里#LC  ，#PU  好不容易#AD  回到#VV  家里#NN  时#LC  ，#PU  觉得#VV  累#VV  毙了#NN  ，#PU  建议#VV  你#PN  吃#VV  一#CD  个#M  乌梅#NN  ，#PU  倦意#NN  很#AD  快#VA  就#AD  会#VV  消除#VV    。#PU    。#PU
+            预防#NN  便秘#VV
+            乌梅#NN  里#LC  的#DEG  苹果#NN  酸#NN  把#BA  适量#NN  的#DEG  水分#NN  导引#NN  到#P  大肠#NN  ，#PU  形成#VV  粪便#NN  而#MSP  排出#VV  体外#NN  。#PU
+            增进#VV  食欲#NN
+            期性#NN  的#DEG  无#JJ  食欲#NN  是#VC  身体#NN  里#LC  的#DEG  一些#CD  器官#NN  操作#NN  得不#NN  好#VA  ，#PU  食欲#NN  因为#P  压力#NN  ，#PU  吃过量#AD  ，#PU  也#AD  因为#P  肝脏#NN  ，#PU  胃及#AD  大肠#VV  的#DEC  功能#NN  不#AD  好#VA  ，#PU  生病#VV  后#LC  食欲#NN  也#AD  差#VA  了#SP    。#PU  若要#NN  康复#NN  得快#VV  ，#PU  需要#VV  吃#VV  东西#NN  ，#PU  能#VV  帮助#VV  恢复#VV  食欲#NN  的#DEG  就是#AD  每天#AD  吃#VV  一#CD  个#M  乌梅#NN    。#PU    。#PU
+            解酒#VV
+            乌梅#NN  对#P  治#VV  口臭#NN  及#CC  宿醉#NN  的#DEC  效果#NN  也#AD  很#AD  好#VA  ，#PU  在#P  兴高采烈#VV  欢庆#NN  佳节#NN  时#LC  ，#PU  难免#AD  会#VV  喝#VV  多#AD  几#CD  杯#NN  ，#PU  睡醒#NN  时#LC  头痛#AD  欲裂#VA  时#LC  ，#PU  可#VV  尝试#VV  喝#NR  一#CD  杯#NN  乌梅#CD  番#M  茶#NN    。#PU  做法#NN  是#VC  这样#JJ  的#DEG  ：#PU  用#VV  一#CD  个#M  乌梅#NN  ，#PU  泡在#VV  一#CD  杯#NN  温水#NN  里约#NN  5#CD  分钟#M  ，#PU  然后#AD  加入#VV  一#CD  茶匙#CD  番#M  茶叶#NN  ，#PU  慢慢#AD  地#NN  喝完#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味酸#VA)  (dep, 味酸#VA, 微涩#VA)  (dep, 味酸#VA, 性平#VV)   (conj, 大肠#NR, 归肝#NR)  (conj, 大肠#NR, 脾#NR)  (conj, 大肠#NR, 肺#NN)  (conj, 大肠#NR, 胃#NR)  (nsubj, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)   (nsubj, 敛涩#VV, 质润#NN)  (root, ROOT#null, 敛涩#VV)   (root, ROOT#null, 敛肺#VV)  (nsubj, 生津#VV, 涩肠#NR)  (ccomp, 敛肺#VV, 生津#VV)  (ccomp, 生津#VV, 安蛔#VV)   (root, ROOT#null, 用于#VV)  (dobj, 用于#VV, 肺虚久咳#NN)  (advmod, 呕吐#VV, 久痢滑肠#AD)  (advmod, 呕吐#VV, 虚#AD)  (amod, 消渴#NN, 热#JJ)  (dep, 呕吐#VV, 消渴#NN)  (advmod, 呕吐#VV, 蛔厥#AD)  (conj, 用于#VV, 呕吐#VV)  (dobj, 呕吐#VV, 腹痛#NN)  (conj, 用于#VV, 胆道#VV)  (dobj, 胆道#VV, 蛔虫症#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抗氧化#VV)
+            (advmod, 真正#VA, 若要#AD)  (nsubj, 享受#VV, 真正#VA)  (mark, 真正#VA, 的#DEC)  (root, ROOT#null, 享受#VV)  (dobj, 享受#VV, 长寿#NR)  (advmod, 受#VV, 就#AD)  (neg, 受#VV, 不#AD)  (mmod, 受#VV, 应该#VV)  (conj, 享受#VV, 受#VV)  (nn, 折磨#NN, 老化#NN)  (nn, 折磨#NN, 病的#NN)  (dobj, 受#VV, 折磨#NN)   (root, ROOT#null, 吃#VV)  (advmod, 刺激#VV, 乌梅#AD)  (mmod, 刺激#VV, 会#VV)  (relcl, 分泌#NN, 刺激#VV)  (nn, 荷尔蒙#NN, 腮腺#NN)  (dobj, 刺激#VV, 荷尔蒙#NN)  (mark, 刺激#VV, 的#DEC)  (dobj, 吃#VV, 分泌#NN)  (cc, 吃#VV, 而#CC)  (det, 荷尔蒙#NN, 这#DT)  (clf, 这#DT, 种#M)  (dep, 预防#VV, 荷尔蒙#NN)  (mmod, 预防#VV, 能#VV)  (conj, 吃#VV, 预防#VV)  (dobj, 预防#VV, 老化#NN)   (advmod, 开始#VV, 所以#AD)  (case, 今天#NT, 从#P)  (prep, 开始#VV, 今天#NT)  (conj, 吃#VV, 开始#VV)  (advmod, 吃#VV, 就#AD)  (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (root, ROOT#null, 吃#VV)  (nummod, 个#M, 一#CD)  (clf, 乌梅#NN, 个#M)  (dobj, 吃#VV, 乌梅#NN)  (dep, 吃#VV, 吧#SP)   (root, ROOT#null, null#null)
+            (amod, 血#NN, 清#JJ)  (root, ROOT#null, 血#NN)
+            (amod, 人#NN, 现代#JJ)  (nsubj, 喜欢#VV, 人#NN)  (root, ROOT#null, 喜欢#VV)  (relcl, 食物#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (dobj, 喜欢#VV, 食物#NN)  (neg, 食物#NN, 不#AD)  (prep, 食物#NN, 外#NN)  (cop, 食物#NN, 是#VC)  (amod, 食品#NN, 精制#JJ)  (nn, 谷类#NN, 食品#NN)  (advmod, 谷类#NN, 如#AD)  (nn, 谷类#NN, 精白#NN)  (conj, 料及#NN, 谷类#NN)  (nn, 面包#NN, 精白#NN)  (conj, 料及#NN, 面包#NN)  (nn, 面条#NN, 精白#NN)  (conj, 料及#NN, 面条#NN)  (amod, 白糖#NN, 精#JJ)  (conj, 料及#NN, 白糖#NN)  (nn, 料及#NN, 化学#NN)  (nn, 料及#NN, 调味#NN)  (nn, 食物#NN, 料及#NN)  (nn, 食物#NN, 动物性#NN)  (dep, 喜欢#VV, 食物#NN)   (root, ROOT#null, 吃#VV)  (asp, 吃#VV, 了#AS)  (det, 食物#NN, 这些#DT)  (dobj, 吃#VV, 食物#NN)  (mmod, 致使#VV, 会#VV)  (conj, 吃#VV, 致使#VV)  (assmod, 毒素#NN, 血液#NN)  (case, 血液#NN, 里#LC)  (case, 血液#NN, 的#DEG)  (dobj, 致使#VV, 毒素#NN)  (dep, 致使#VV, 剧增#VV)  (nsubj, 久了#VV, 日子#NN)  (ccomp, 剧增#VV, 久了#VV)  (nsubj, 恶化#VV, 血液#NN)  (advmod, 恶化#VV, 循环#AD)  (ccomp, 久了#VV, 恶化#VV)  (prtmod, 产生#VV, 而#MSP)  (dep, 吃#VV, 产生#VV)  (dobj, 产生#VV, 酸素#NN)   (dep, 吃#VV, 每#DT)  (clf, 每#DT, 天#M)  (root, ROOT#null, 吃#VV)  (nummod, 个#M, 一#CD)  (clf, 乌梅#NN, 个#M)  (nsubj, 帮助#VV, 乌梅#NN)  (xsubj, 清扫#VV, 乌梅#NN)  (mmod, 帮助#VV, 可#VV)  (relcl, 酸素#NN, 帮助#VV)  (ccomp, 帮助#VV, 清扫#VV)  (dobj, 清扫#VV, 血液#NN)  (conj, 清扫#VV, 使#VV)  (nn, 正常化#NN, 血液#NN)  (nn, 正常化#NN, 流动量#NN)  (dobj, 使#VV, 正常化#NN)  (dep, 使#VV, 排除#VV)  (advmod, 排除#VV, 过量#AD)  (mark, 帮助#VV, 的#DEC)  (dobj, 吃#VV, 酸素#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 能量#NN)
+            (case, 净化#NN, 当#P)  (nn, 净化#NN, 血液#NN)  (prep, 增强#VV, 净化#NN)  (case, 净化#NN, 时#LC)  (nsubj, 增强#VV, 新陈代谢#NN)  (advmod, 增强#VV, 就#AD)  (root, ROOT#null, 增强#VV)  (nsubj, 恢复#VV, 身体#NN)  (advmod, 恢复#VV, 自然#AD)  (mmod, 恢复#VV, 会#VV)  (conj, 增强#VV, 恢复#VV)  (dobj, 恢复#VV, 能量#NN)   (assmod, 酸酸#NN, 乌梅#NN)  (case, 乌梅#NN, 里#LC)  (case, 乌梅#NN, 的#DEG)  (nn, 酸酸#NN, 柠檬#NN)  (nsubj, 帮助#VV, 酸酸#NN)  (xsubj, 预防#VV, 酸酸#NN)  (root, ROOT#null, 帮助#VV)  (dep, 预防#VV, 吸收#VV)  (conj, 酵素#NN, 维他命#NN)  (cc, 酵素#NN, 及#CC)  (dobj, 吸收#VV, 酵素#NN)  (advmod, 预防#VV, 还有#AD)  (mmod, 预防#VV, 能#VV)  (ccomp, 帮助#VV, 预防#VV)  (dobj, 预防#VV, 疾病#NN)  (cc, 预防#VV, 及#CC)  (conj, 预防#VV, 消除#VV)  (dep, 帮助#VV, 疲劳#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保护#VV)  (nn, 系统#NN, 消化#NN)  (dobj, 保护#VV, 系统#NN)
+            (advmod, 有#VE, 乌梅#AD)  (root, ROOT#null, 有#VE)  (assmod, 功能#NN, 消毒#NN)  (case, 消毒#NN, 的#DEG)  (dobj, 有#VE, 功能#NN)  (advmod, 防止#VV, 也#AD)  (dep, 有#VE, 防止#VV)  (advmod, 腐化#VV, 食物#AD)  (case, 肠胃#NN, 在#P)  (prep, 腐化#VV, 肠胃#NN)  (case, 肠胃#NN, 里#LC)  (ccomp, 防止#VV, 腐化#VV)
+            (root, ROOT#null, 消除#VV)  (dep, 消除#VV, 疲劳#VA)
+            (case, 觉得#VV, 当#P)  (nsubj, 觉得#VV, 你#PN)  (prep, 素#VV, 觉得#VV)  (ccomp, 觉得#VV, 疲倦#VA)  (case, 觉得#VV, 时#LC)  (nn, 理#NN, 在身#NN)  (loc, 素#VV, 理#NN)  (case, 理#NN, 上#LC)  (advmod, 多#VA, 只是#AD)  (case, 身体#NN, 因为#P)  (prep, 多#VA, 身体#NN)  (case, 身体#NN, 里#LC)  (advmod, 多#VA, 过#AD)  (relcl, 酸#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nsubj, 素#VV, 酸#NN)  (root, ROOT#null, 素#VV)  (dobj, 素#VV, 致使#NN)   (advmod, 觉得#VV, 所以#AD)  (nn, 被困#NN, 当你#NN)  (nn, 被困#NN, 下班#NN)  (nsubj, 觉得#VV, 被困#NN)  (case, 车阵#NN, 在#P)  (prep, 回到#VV, 车阵#NN)  (case, 车阵#NN, 里#LC)  (advmod, 回到#VV, 好不容易#AD)  (loc, 觉得#VV, 回到#VV)  (dobj, 回到#VV, 家里#NN)  (case, 回到#VV, 时#LC)  (root, ROOT#null, 觉得#VV)  (ccomp, 觉得#VV, 累#VV)  (dobj, 累#VV, 毙了#NN)  (dep, 觉得#VV, 建议#VV)  (dobj, 建议#VV, 你#PN)  (dep, 建议#VV, 吃#VV)  (nummod, 个#M, 一#CD)  (clf, 乌梅#NN, 个#M)  (dobj, 吃#VV, 乌梅#NN)  (nsubj, 快#VA, 倦意#NN)  (advmod, 快#VA, 很#AD)  (dep, 消除#VV, 快#VA)  (advmod, 消除#VV, 就#AD)  (dep, 消除#VV, 会#VV)  (conj, 觉得#VV, 消除#VV)   (root, ROOT#null, null#null)
+            (nsubj, 便秘#VV, 预防#NN)  (root, ROOT#null, 便秘#VV)
+            (assmod, 酸#NN, 乌梅#NN)  (case, 乌梅#NN, 里#LC)  (case, 乌梅#NN, 的#DEG)  (nn, 酸#NN, 苹果#NN)  (nsubj, 形成#VV, 酸#NN)  (ba, 形成#VV, 把#BA)  (assmod, 导引#NN, 适量#NN)  (case, 适量#NN, 的#DEG)  (nn, 导引#NN, 水分#NN)  (nsubj, 形成#VV, 导引#NN)  (case, 大肠#NN, 到#P)  (prep, 形成#VV, 大肠#NN)  (root, ROOT#null, 形成#VV)  (dobj, 形成#VV, 粪便#NN)  (prtmod, 排出#VV, 而#MSP)  (dep, 形成#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)
+            (assmod, 食欲#NN, 期性#NN)  (case, 期性#NN, 的#DEG)  (amod, 食欲#NN, 无#JJ)  (nsubj, 是#VC, 食欲#NN)  (root, ROOT#null, 是#VC)  (assmod, 得不#NN, 身体#NN)  (case, 身体#NN, 里#LC)  (case, 身体#NN, 的#DEG)  (nummod, 得不#NN, 一些#CD)  (nn, 得不#NN, 器官#NN)  (nn, 得不#NN, 操作#NN)  (nsubj, 好#VA, 得不#NN)  (dep, 是#VC, 好#VA)  (nsubj, 大肠#VV, 食欲#NN)  (case, 压力#NN, 因为#P)  (prep, 大肠#VV, 压力#NN)  (advmod, 大肠#VV, 吃过量#AD)  (advmod, 大肠#VV, 也#AD)  (case, 肝脏#NN, 因为#P)  (prep, 大肠#VV, 肝脏#NN)  (advmod, 大肠#VV, 胃及#AD)  (relcl, 功能#NN, 大肠#VV)  (mark, 大肠#VV, 的#DEC)  (nsubj, 好#VA, 功能#NN)  (neg, 好#VA, 不#AD)  (conj, 好#VA, 好#VA)  (loc, 差#VA, 生病#VV)  (case, 生病#VV, 后#LC)  (nsubj, 差#VA, 食欲#NN)  (advmod, 差#VA, 也#AD)  (dep, 好#VA, 差#VA)  (dep, 好#VA, 了#SP)   (nn, 康复#NN, 若要#NN)  (nsubj, 得快#VV, 康复#NN)  (xsubj, 吃#VV, 康复#NN)  (root, ROOT#null, 得快#VV)  (mmod, 吃#VV, 需要#VV)  (ccomp, 得快#VV, 吃#VV)  (dobj, 吃#VV, 东西#NN)  (mmod, 帮助#VV, 能#VV)  (conj, 吃#VV, 帮助#VV)  (ccomp, 帮助#VV, 恢复#VV)  (assmod, 乌梅#NN, 食欲#NN)  (case, 食欲#NN, 的#DEG)  (advmod, 吃#VV, 就是#AD)  (advmod, 吃#VV, 每天#AD)  (nfincl, 乌梅#NN, 吃#VV)  (nummod, 个#M, 一#CD)  (range, 吃#VV, 个#M)  (dobj, 恢复#VV, 乌梅#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 解酒#VV)
+            (nsubj, 尝试#VV, 乌梅#NN)  (case, 好#VA, 对#P)  (relcl, 效果#NN, 治#VV)  (conj, 宿醉#NN, 口臭#NN)  (cc, 宿醉#NN, 及#CC)  (dobj, 治#VV, 宿醉#NN)  (mark, 治#VV, 的#DEC)  (nsubj, 好#VA, 效果#NN)  (advmod, 好#VA, 也#AD)  (advmod, 好#VA, 很#AD)  (prep, 尝试#VV, 好#VA)  (case, 兴高采烈#VV, 在#P)  (prep, 喝#VV, 兴高采烈#VV)  (nn, 佳节#NN, 欢庆#NN)  (dobj, 兴高采烈#VV, 佳节#NN)  (case, 兴高采烈#VV, 时#LC)  (advmod, 喝#VV, 难免#AD)  (mmod, 喝#VV, 会#VV)  (conj, 好#VA, 喝#VV)  (advmod, 几#CD, 多#AD)  (nummod, 杯#NN, 几#CD)  (dobj, 喝#VV, 杯#NN)  (loc, 欲裂#VA, 睡醒#NN)  (case, 睡醒#NN, 时#LC)  (advmod, 欲裂#VA, 头痛#AD)  (dep, 好#VA, 欲裂#VA)  (case, 好#VA, 时#LC)  (mmod, 尝试#VV, 可#VV)  (root, ROOT#null, 尝试#VV)  (nn, 杯#NN, 喝#NR)  (nummod, 杯#NN, 一#CD)  (nn, 茶#NN, 杯#NN)  (nummod, 番#M, 乌梅#CD)  (clf, 茶#NN, 番#M)  (dobj, 尝试#VV, 茶#NN)   (nsubj, 是#VC, 做法#NN)  (root, ROOT#null, 是#VC)  (dep, 是#VC, 这样#JJ)  (case, 这样#JJ, 的#DEG)  (conj, 是#VC, 用#VV)  (nummod, 个#M, 一#CD)  (clf, 乌梅#NN, 个#M)  (dobj, 用#VV, 乌梅#NN)  (conj, 用#VV, 泡在#VV)  (nummod, 里约#NN, 一#CD)  (nn, 里约#NN, 杯#NN)  (nn, 里约#NN, 温水#NN)  (dobj, 泡在#VV, 里约#NN)  (nummod, 分钟#M, 5#CD)  (range, 泡在#VV, 分钟#M)  (advmod, 加入#VV, 然后#AD)  (conj, 用#VV, 加入#VV)  (dep, 番#M, 一#CD)  (nummod, 番#M, 茶匙#CD)  (clf, 茶叶#NN, 番#M)  (dobj, 加入#VV, 茶叶#NN)  (advmod, 喝完#VV, 慢慢#AD)  (prep, 喝完#VV, 地#NN)  (conj, 用#VV, 喝完#VV)
+        </parsing>
+
+        <tag>
+            归肝  敛涩  敛肺  用于肺虚久咳  热消渴  呕吐腹痛  胆道蛔虫症  享受  老化折磨  病的折磨  刺激分泌  腮腺荷尔蒙  刺激荷尔蒙  预防老化  清血  现代人  吃食物  喜欢食物  精制食品  食品谷类  精白谷类  精白面包  精白面条  精白糖  动物性食物  致使毒素  产生酸素  帮助酸素  清扫血液  血液正常化  流动量正常化  增加能量  血液净化  增强  恢复能量  柠檬酸酸  维他命  吸收酵素  预防疾病  消化系统  保护系统  消除  当你被困  下班被困  回到家里  觉得  便秘  水分导引  形成粪便  排出体外  增进食欲  无食欲  器官得不  操作得不  大肠功能  若要康复  得快  解酒  治效果  宿醉  口臭  欢庆佳节  兴高采烈佳节  尝试茶  温水里约  泡在里约  加入茶叶  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        生津止渴  止血  涩肠止泻  安蛔  敛肺止咳  增强免疫力  抗菌  抗虫  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            乌梅为梅的未成熟果实，含有柠檬酸、苹果酸、琥珀酸、糖类、谷甾醇、维生素C等成份，具有理想的抗菌作用。
+        </rawdata>
+
+        <segment>
+            乌梅  为  梅的  未成熟  果实  ，  含有  柠檬酸  、  苹果酸  、  琥珀酸  、  糖类  、  谷甾醇  、  维生素C  等  成份  ，  具有  理想  的  抗菌  作用  。
+        </segment>
+
+        <pos>
+            乌梅#NN  为#P  梅的#NN  未成熟#VV  果实#NN  ，#PU  含有#VV  柠檬酸#NR  、#PU  苹果酸#NR  、#PU  琥珀酸#NR  、#PU  糖类#NR  、#PU  谷甾醇#NR  、#PU  维生素C#NR  等#ETC  成份#NN  ，#PU  具有#VV  理想#VA  的#DEC  抗菌#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 未成熟#VV, 乌梅#NN)  (case, 梅的#NN, 为#P)  (prep, 未成熟#VV, 梅的#NN)  (root, ROOT#null, 未成熟#VV)  (dobj, 未成熟#VV, 果实#NN)  (conj, 未成熟#VV, 含有#VV)  (conj, 维生素C#NR, 柠檬酸#NR)  (conj, 维生素C#NR, 苹果酸#NR)  (conj, 维生素C#NR, 琥珀酸#NR)  (conj, 维生素C#NR, 糖类#NR)  (conj, 维生素C#NR, 谷甾醇#NR)  (nn, 成份#NN, 维生素C#NR)  (etc, 维生素C#NR, 等#ETC)  (dobj, 含有#VV, 成份#NN)  (conj, 未成熟#VV, 具有#VV)  (relcl, 作用#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (amod, 作用#NN, 抗菌#JJ)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            未成熟果实  维生素C  柠檬酸  苹果酸  琥珀酸  糖类  谷甾醇  含有成份  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            乌梅配其他食材，可以制作成粥、汤、饮品、菜品等。
+        </rawdata>
+
+        <segment>
+            乌梅  配  其他  食材  ，  可以  制作  成粥  、  汤  、  饮品  、  菜品  等  。
+        </segment>
+
+        <pos>
+            乌梅#NN  配#VV  其他#DT  食材#NN  ，#PU  可以#VV  制作#VV  成粥#NR  、#PU  汤#NR  、#PU  饮品#NR  、#PU  菜品#NR  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 配#VV, 乌梅#NN)  (root, ROOT#null, 配#VV)  (det, 食材#NN, 其他#DT)  (dobj, 配#VV, 食材#NN)  (mmod, 制作#VV, 可以#VV)  (conj, 配#VV, 制作#VV)  (conj, 菜品#NR, 成粥#NR)  (conj, 菜品#NR, 汤#NR)  (conj, 菜品#NR, 饮品#NR)  (dobj, 制作#VV, 菜品#NR)  (etc, 菜品#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            菜品  成粥  饮品  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/2311321.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\428 乌梅.jpg
+    </picturelocalurl>
+
+</content>

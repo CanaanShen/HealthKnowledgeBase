@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1439
+    </id>
+
+    <foodname>
+        蛇果
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        红元帅
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蛇果果实大，果实圆锥形，平均单果重200g，大者可达500g以上。果肉黄白色，肉质脆，质中粗，较脆，果汁多，味甜，有浓郁芳香，品质上等。具有生津开胃，消痰止咳，退热解毒，补恼助血，安眠养神，润肺悦心，和脾益气，润肠止泻，帮助消化等功效。
+        </rawdata>
+
+        <segment>
+            蛇  果果  实  大  ，  果实  圆锥形  ，  平均  单  果  重  200g  ，  大者  可  达  500  g  以上  。  果肉  黄白色  ，  肉质  脆  ，  质  中  粗  ，  较  脆  ，  果汁  多  ，  味  甜  ，  有  浓郁  芳香  ，  品质  上等  。  具有  生津  开胃  ，  消痰  止咳  ，  退热  解毒  ，  补  恼  助  血  ，  安眠  养神  ，  润肺  悦  心  ，  和脾  益气  ，  润肠  止泻  ，  帮助  消化  等  功效  。
+        </segment>
+
+        <pos>
+            蛇#NN  果果#NN  实#AD  大#VA  ，#PU  果实#NN  圆锥形#VA  ，#PU  平均#AD  单#CD  果#NN  重#VA  200g#CD  ，#PU  大者#NN  可#VV  达#VV  500#CD  g#NN  以上#LC    。#PU  果肉#NR  黄白色#VV  ，#PU  肉质#NR  脆#VV  ，#PU  质#NN  中#LC  粗#NN  ，#PU  较#AD  脆#VA  ，#PU  果汁#NN  多#VA  ，#PU  味#NN  甜#NN  ，#PU  有#VE  浓郁#VA  芳香#NN  ，#PU  品质#NN  上等#VA    。#PU  具有#VV  生津#NN  开胃#NN  ，#PU  消痰#VV  止咳#NN  ，#PU  退热#VV  解毒#NN  ，#PU  补#VV  恼#NN  助#NN  血#NN  ，#PU  安眠#VV  养神#NN  ，#PU  润肺#VV  悦#NN  心#NN  ，#PU  和脾#VV  益气#NN  ，#PU  润肠#VV  止泻#NN  ，#PU  帮助#VV  消化#NN  等#ETC  功效#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 果果#NN, 蛇#NN)  (nsubj, 大#VA, 果果#NN)  (advmod, 大#VA, 实#AD)  (root, ROOT#null, 大#VA)  (nsubj, 圆锥形#VA, 果实#NN)  (conj, 大#VA, 圆锥形#VA)  (advmod, 重#VA, 平均#AD)  (nummod, 果#NN, 单#CD)  (nsubj, 重#VA, 果#NN)  (conj, 大#VA, 重#VA)  (dep, 重#VA, 200g#CD)  (nsubj, 达#VV, 大者#NN)  (mmod, 达#VV, 可#VV)  (conj, 重#VA, 达#VV)  (nummod, g#NN, 500#CD)  (loc, 达#VV, g#NN)  (case, g#NN, 以上#LC)   (nsubj, 黄白色#VV, 果肉#NR)  (root, ROOT#null, 黄白色#VV)  (nsubj, 脆#VV, 肉质#NR)  (ccomp, 黄白色#VV, 脆#VV)  (loc, 脆#VA, 质#NN)  (case, 质#NN, 中#LC)  (nsubj, 脆#VA, 粗#NN)  (advmod, 脆#VA, 较#AD)  (ccomp, 脆#VV, 脆#VA)  (nsubj, 多#VA, 果汁#NN)  (conj, 脆#VA, 多#VA)  (nn, 甜#NN, 味#NN)  (dep, 有#VE, 甜#NN)  (conj, 脆#VA, 有#VE)  (nfincl, 芳香#NN, 浓郁#VA)  (dobj, 有#VE, 芳香#NN)  (nsubj, 上等#VA, 品质#NN)  (conj, 脆#VA, 上等#VA)   (root, ROOT#null, 具有#VV)  (nn, 开胃#NN, 生津#NN)  (dobj, 具有#VV, 开胃#NN)  (conj, 具有#VV, 消痰#VV)  (dobj, 消痰#VV, 止咳#NN)  (conj, 消痰#VV, 退热#VV)  (dobj, 退热#VV, 解毒#NN)  (conj, 消痰#VV, 补#VV)  (nn, 血#NN, 恼#NN)  (nn, 血#NN, 助#NN)  (dobj, 补#VV, 血#NN)  (conj, 消痰#VV, 安眠#VV)  (dobj, 安眠#VV, 养神#NN)  (conj, 消痰#VV, 润肺#VV)  (nn, 心#NN, 悦#NN)  (dobj, 润肺#VV, 心#NN)  (conj, 消痰#VV, 和脾#VV)  (dobj, 和脾#VV, 益气#NN)  (conj, 消痰#VV, 润肠#VV)  (dobj, 润肠#VV, 止泻#NN)  (conj, 消痰#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (etc, 消化#NN, 等#ETC)  (dep, 帮助#VV, 功效#VV)
+        </parsing>
+
+        <tag>
+            果实圆锥形  品质上等  生津开胃  消痰止咳  退热解毒  安眠养神  润肺心  和脾益气  润肠止泻  帮助消化  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            富含碳水化合物，是构成机体的重要物质，储存和提供热能，维持大脑功能必须的能源，调节脂肪代谢，提供膳食纤维，节约蛋白质，解毒，增强肠道功能。富含铜，铜是人体健康不可缺少的微量营养素，对于血液、中枢神经和免疫系统，头发、皮肤和骨骼组织以及脑子和肝、心等内脏的发育和功能有重要影响。生津止渴,化痰止咳,解毒,提高免疫力,安神除烦,补充能量,抑癌抗瘤
+        </rawdata>
+
+        <segment>
+            富含  碳水化合物  ，  是  构成  机体  的  重要  物质  ，  储存  和  提供  热能  ，  维持  大脑  功能  必须  的  能源  ，  调节  脂肪  代谢  ，  提供  膳食  纤维  ，  节约  蛋白质  ，  解毒  ，  增强  肠道  功能  。  富含  铜  ，  铜  是  人体  健康  不  可  缺少  的  微量  营养素  ，  对于  血液  、  中枢  神经  和  免疫  系统  ，  头发  、  皮肤  和  骨骼  组织  以及  脑子  和肝  、  心  等  内脏  的  发育  和  功能  有  重要  影响  。  生津止渴  ,  化痰  止咳  ,  解毒  ,  提高  免疫力  ,  安神  除烦  ,  补充  能量  ,  抑癌  抗瘤
+        </segment>
+
+        <pos>
+            富含#VV  碳水化合物#NN  ，#PU  是#VC  构成#VV  机体#NN  的#DEC  重要#JJ  物质#NN  ，#PU  储存#VV  和#CC  提供#VV  热能#NN  ，#PU  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  ，#PU  调节#VV  脂肪#NN  代谢#NN  ，#PU  提供#VV  膳食#NN  纤维#NN  ，#PU  节约#VV  蛋白质#NN  ，#PU  解毒#VV  ，#PU  增强#VV  肠道#NN  功能#NN    。#PU  富含#NN  铜#NN  ，#PU  铜#NN  是#VC  人体#AD  健康#AD  不#AD  可#VV  缺少#VV  的#DEC  微量#NN  营养素#NN  ，#PU  对于#P  血液#NN  、#PU  中枢#NN  神经#NN  和#CC  免疫#NN  系统#NN  ，#PU  头发#NN  、#PU  皮肤#NN  和#CC  骨骼#NN  组织#NN  以及#CC  脑子#NN  和肝#NN  、#PU  心#NN  等#ETC  内脏#NN  的#DEG  发育#NN  和#CC  功能#NN  有#VE  重要#JJ  影响#NN    。#PU  生津止渴#NN  ,#NN  化痰#NN  止咳#NN  ,#NN  解毒#NN  ,#AD  提高#VV  免疫力#NN  ,#NN  安神#NN  除烦#NN  ,#NN  补充#NN  能量#NN  ,#NN  抑癌#NN  抗瘤#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 碳水化合物#NN)  (cop, 物质#NN, 是#VC)  (relcl, 物质#NN, 构成#VV)  (dobj, 构成#VV, 机体#NN)  (mark, 构成#VV, 的#DEC)  (amod, 物质#NN, 重要#JJ)  (conj, 富含#VV, 物质#NN)  (conj, 富含#VV, 储存#VV)  (cc, 富含#VV, 和#CC)  (conj, 富含#VV, 提供#VV)  (dobj, 提供#VV, 热能#NN)  (conj, 富含#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (nn, 能源#NN, 功能#NN)  (relcl, 功能#NN, 必须#VV)  (relcl, 能源#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 维持#VV, 能源#NN)  (conj, 富含#VV, 调节#VV)  (nn, 代谢#NN, 脂肪#NN)  (dobj, 调节#VV, 代谢#NN)  (conj, 富含#VV, 提供#VV)  (nn, 纤维#NN, 膳食#NN)  (dobj, 提供#VV, 纤维#NN)  (conj, 富含#VV, 节约#VV)  (dobj, 节约#VV, 蛋白质#NN)  (conj, 富含#VV, 解毒#VV)  (dep, 富含#VV, 增强#VV)  (nn, 功能#NN, 肠道#NN)  (dobj, 增强#VV, 功能#NN)   (nn, 铜#NN, 富含#NN)  (dep, 营养素#NN, 铜#NN)  (nsubj, 营养素#NN, 铜#NN)  (cop, 营养素#NN, 是#VC)  (advmod, 缺少#VV, 人体#AD)  (advmod, 缺少#VV, 健康#AD)  (neg, 缺少#VV, 不#AD)  (dep, 缺少#VV, 可#VV)  (relcl, 营养素#NN, 缺少#VV)  (mark, 缺少#VV, 的#DEC)  (nn, 营养素#NN, 微量#NN)  (root, ROOT#null, 营养素#NN)  (case, 系统#NN, 对于#P)  (conj, 免疫#NN, 血液#NN)  (nn, 免疫#NN, 中枢#NN)  (conj, 免疫#NN, 神经#NN)  (cc, 免疫#NN, 和#CC)  (nn, 系统#NN, 免疫#NN)  (prep, 有#VE, 系统#NN)  (conj, 组织#NN, 头发#NN)  (conj, 组织#NN, 皮肤#NN)  (cc, 组织#NN, 和#CC)  (nn, 组织#NN, 骨骼#NN)  (conj, 内脏#NN, 组织#NN)  (cc, 内脏#NN, 以及#CC)  (nn, 心#NN, 脑子#NN)  (conj, 心#NN, 和肝#NN)  (nn, 内脏#NN, 心#NN)  (etc, 心#NN, 等#ETC)  (assmod, 功能#NN, 内脏#NN)  (case, 内脏#NN, 的#DEG)  (conj, 功能#NN, 发育#NN)  (cc, 功能#NN, 和#CC)  (dep, 有#VE, 功能#NN)  (conj, 营养素#NN, 有#VE)  (amod, 影响#NN, 重要#JJ)  (dobj, 有#VE, 影响#NN)   (nn, 解毒#NN, 生津止渴#NN)  (nn, 解毒#NN, 化痰#NN)  (nn, 解毒#NN, 止咳#NN)  (nsubj, 提高#VV, 解毒#NN)  (root, ROOT#null, 提高#VV)  (nn, 安神#NN, 免疫力#NN)  (nn, ,#NN, 安神#NN)  (nn, ,#NN, 除烦#NN)  (nn, 能量#NN, 补充#NN)  (nn, 抗瘤#NN, 能量#NN)  (nn, 抗瘤#NN, 抑癌#NN)  (dobj, 提高#VV, 抗瘤#NN)
+        </parsing>
+
+        <tag>
+            富含碳水化合物  构成机体  提供热能  大脑功能  功能能源  必须功能  必须能源  维持能源  脂肪代谢  调节代谢  膳食纤维  提供纤维  节约蛋白质  肠道功能  增强功能  缺少营养素  微量营养素  血液  中枢免疫  神经  免疫系统  头发  皮肤  骨骼组织  内脏  发育  生津止渴解毒  化痰解毒  止咳解毒  免疫力安神  补充能量  能量抗瘤  抑癌抗瘤  提高抗瘤  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  减肥  辅助降血压  通便  抗氧化  美容养颜  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            蛇果是美国加州出产的一种苹果，英文叫做Reddeliciousapple（可口的红苹果），与蛇一点关系没有。起初，此果被香港人音译为“红地厘蛇果”，后来逐步简化为“地厘蛇果”，今则以“蛇果”之名见之于各地的水果摊。
+        </rawdata>
+
+        <segment>
+            蛇  果是  美国  加州  出产  的  一  种  苹果  ，  英文  叫做  Reddeliciousapple  （  可口  的  红  苹果  ）  ，  与  蛇  一点  关系  没有  。  起初  ，  此  果  被  香港人  音译  为  “  红地厘  蛇  果  ”  ，  后来  逐步  简化  为  “  地厘  蛇  果  ”  ，  今  则  以  “  蛇果  ”  之  名  见之于  各地  的  水果摊  。
+        </segment>
+
+        <pos>
+            蛇#NN  果是#VV  美国#NR  加州#NR  出产#VV  的#DEC  一#CD  种#M  苹果#NN  ，#PU  英文#NN  叫做#NN  Reddeliciousapple#VV  （#PU  可口#NN  的#DEG  红#JJ  苹果#NN  ）#PU  ，#PU  与#CC  蛇#NN  一点#AD  关系#VV  没有#VV    。#PU  起初#NN  ，#PU  此#PN  果#NN  被#LB  香港人#NN  音译#NN  为#P  ``#AD  红地厘#VV  蛇#NN  果#NN  ''#NN  ，#PU  后来#AD  逐步#AD  简化#VV  为#P  ``#NN  地厘#VV  蛇#NN  果#NN  ''#NN  ，#PU  今#NT  则#AD  以#P  ``#NN  蛇果#NN  ''#NN  之#DEG  名#JJ  见之于#NN  各地#VV  的#DEC  水果摊#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果是#VV, 蛇#NN)  (root, ROOT#null, 果是#VV)  (nn, 加州#NR, 美国#NR)  (nsubj, 出产#VV, 加州#NR)  (relcl, 苹果#NN, 出产#VV)  (mark, 出产#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 苹果#NN, 种#M)  (dobj, 果是#VV, 苹果#NN)  (nn, 叫做#NN, 英文#NN)  (nsubj, Reddeliciousapple#VV, 叫做#NN)  (conj, 果是#VV, Reddeliciousapple#VV)  (assmod, 苹果#NN, 可口#NN)  (case, 可口#NN, 的#DEG)  (amod, 苹果#NN, 红#JJ)  (dep, Reddeliciousapple#VV, 苹果#NN)  (cc, 果是#VV, 与#CC)  (nsubj, 关系#VV, 蛇#NN)  (advmod, 关系#VV, 一点#AD)  (conj, 果是#VV, 关系#VV)  (comod, 关系#VV, 没有#VV)   (dep, 简化#VV, 起初#NN)  (dep, 简化#VV, 此#PN)  (nsubjpass, 简化#VV, 果#NN)  (auxpass, 简化#VV, 被#LB)  (nn, 音译#NN, 香港人#NN)  (nsubj, 简化#VV, 音译#NN)  (case, 红地厘#VV, 为#P)  (advmod, 红地厘#VV, ``#AD)  (prep, 简化#VV, 红地厘#VV)  (nn, ''#NN, 蛇#NN)  (nn, ''#NN, 果#NN)  (dobj, 红地厘#VV, ''#NN)  (advmod, 简化#VV, 后来#AD)  (advmod, 简化#VV, 逐步#AD)  (root, ROOT#null, 简化#VV)  (case, ``#NN, 为#P)  (prep, 地厘#VV, ``#NN)  (relcl, 水果摊#NN, 地厘#VV)  (nn, ''#NN, 蛇#NN)  (nn, ''#NN, 果#NN)  (dobj, 地厘#VV, ''#NN)  (tmod, 各地#VV, 今#NT)  (advmod, 各地#VV, 则#AD)  (case, 见之于#NN, 以#P)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蛇果#NN)  (assmod, 见之于#NN, ''#NN)  (case, ''#NN, 之#DEG)  (amod, 见之于#NN, 名#JJ)  (prep, 各地#VV, 见之于#NN)  (dep, 地厘#VV, 各地#VV)  (mark, 地厘#VV, 的#DEC)  (dobj, 简化#VV, 水果摊#NN)
+        </parsing>
+
+        <tag>
+            出产苹果  果是苹果  英文叫做  红苹果  香港人音译  地厘水果摊  名见之于  简化水果摊  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/2a/28/10282_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1439 蛇果.jpg
+    </picturelocalurl>
+
+</content>

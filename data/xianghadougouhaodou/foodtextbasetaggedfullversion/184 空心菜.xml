@@ -1,0 +1,414 @@
+<content>
+
+    <id>
+        184
+    </id>
+
+    <foodname>
+        空心菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        藤藤菜、蕹菜、蓊菜、通心菜、无心菜、瓮菜、空筒菜、竹叶菜
+    </alias>
+
+    <season>
+        6-8月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者、低血压患者慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒者  、  低血压  患者  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#VV  虚寒者#NN  、#PU  低血压#NN  患者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾胃#VV)  (conj, 慎食#NN, 虚寒者#NN)  (nn, 慎食#NN, 低血压#NN)  (nn, 慎食#NN, 患者#NN)  (dobj, 脾胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒者  低血压  患者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜糖尿病、高血压患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  糖尿病  、  高血压  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  糖尿病#NN  、#PU  高血压#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 高血压#NN, 糖尿病#NN)  (nn, 患者#NN, 高血压#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  糖尿病  高血压  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                253
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                1520
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                120
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                243
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                94.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.67
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            空心菜，为旋花科番薯属一年生或多年生草本。又名蕹菜（wèng cài），以绿叶和嫩茎供食用。原产中国热带地区，广泛分布东南亚。华南、华中、华东和西南各地普遍栽培，是夏秋季的重要蔬菜。根系浅，主根上着生四排侧根，再生力强。茎蔓性，中空、绿色、浅绿色或带紫红色。茎节易生不定根,可用扦插繁殖。叶互生，有宽卵形、长卵形、短披针形和长披针形等。单生花或聚伞花序腋生、白色或带紫色。蒴果，卵形，含种子2～4粒。种子近圆形，黑褐色，皮厚，较坚实，每克种子20～30粒。
+        </rawdata>
+
+        <segment>
+            空心菜  ，  为  旋花科  番薯  属  一  年  生  或  多年生  草本  。  又  名  蕹菜  （  wèng  cài  ）  ，  以  绿叶  和  嫩茎  供  食用  。  原产  中国  热带  地区  ，  广泛  分布  东南亚  。  华南  、  华中  、  华东  和  西南  各  地  普遍  栽培  ，  是  夏秋季  的  重要  蔬菜  。  根系  浅  ，  主根  上  着  生  四  排  侧根  ，  再生  力强  。  茎蔓性  ，  中空  、  绿色  、  浅绿色  或  带  紫红色  。  茎节  易生  不定根  ,  可用  扦插  繁殖  。  叶  互生  ，  有  宽  卵形  、  长  卵形  、  短  披  针形  和  长  披  针形  等  。  单生花  或  聚伞花序  腋生  、  白色  或  带紫色  。  蒴果  ，  卵形  ，  含  种子  2～4  粒  。  种子  近  圆形  ，  黑褐色  ，  皮厚  ，  较  坚实  ，  每  克  种子  20  ～  30  粒  。
+        </segment>
+
+        <pos>
+            空心菜#AD  ，#PU  为#P  旋花科#NN  番薯#AD  属#VV  一#CD  年#M  生#VV  或#CC  多年生#VV  草本#NN    。#PU  又#AD  名#NN  蕹菜#VV  （#PU  wèng#AD  cài#VV  ）#PU  ，#PU  以#P  绿叶#NN  和#CC  嫩茎#NN  供#NN  食用#VV    。#PU  原产#VV  中国#NR  热带#NN  地区#NN  ，#PU  广泛#AD  分布#VV  东南亚#NR    。#PU  华南#NR  、#PU  华中#NR  、#PU  华东#NR  和#CC  西南#NN  各#DT  地#NN  普遍#AD  栽培#VV  ，#PU  是#VC  夏秋季#NN  的#DEG  重要#JJ  蔬菜#NN    。#PU  根系#NR  浅#VV  ，#PU  主根#AD  上#VV  着#AS  生#VV  四#CD  排#M  侧根#NN  ，#PU  再生#VV  力强#NN    。#PU  茎蔓性#NN  ，#PU  中空#NN  、#PU  绿色#NN  、#PU  浅绿色#NN  或#CC  带#NN  紫红色#VV    。#PU  茎节#NN  易生#NN  不定根#NN  ,#VV  可用#JJ  扦插#NN  繁殖#NN    。#PU  叶#NR  互生#VV  ，#PU  有#VE  宽#JJ  卵形#NN  、#PU  长#JJ  卵形#NN  、#PU  短#JJ  披#NN  针形#NN  和#CC  长#JJ  披#NN  针形#NN  等#ETC    。#PU  单生花#NN  或#CC  聚伞花序#NN  腋生#VV  、#PU  白色#JJ  或#CC  带紫色#NN    。#PU  蒴果#VV  ，#PU  卵形#VV  ，#PU  含#VV  种子#NN  2#CD  ～#NN  4#CD  粒#NN    。#PU  种子#NN  近#AD  圆形#CD  ，#PU  黑褐色#VV  ，#PU  皮厚#NN  ，#PU  较#AD  坚实#VA  ，#PU  每#DT  克#M  种子#NN  20#CD  ～#VV  30#CD  粒#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 生#VV, 空心菜#AD)  (case, 属#VV, 为#P)  (nsubj, 属#VV, 旋花科#NN)  (advmod, 属#VV, 番薯#AD)  (prep, 生#VV, 属#VV)  (nummod, 年#M, 一#CD)  (range, 属#VV, 年#M)  (root, ROOT#null, 生#VV)  (cc, 生#VV, 或#CC)  (dep, 生#VV, 多年生#VV)  (dobj, 多年生#VV, 草本#NN)   (advmod, 蕹菜#VV, 又#AD)  (prep, 蕹菜#VV, 名#NN)  (root, ROOT#null, 蕹菜#VV)  (advmod, cài#VV, wèng#AD)  (dep, 蕹菜#VV, cài#VV)  (case, 供#NN, 以#P)  (conj, 供#NN, 绿叶#NN)  (cc, 供#NN, 和#CC)  (nn, 供#NN, 嫩茎#NN)  (prep, 食用#VV, 供#NN)  (dep, 蕹菜#VV, 食用#VV)   (root, ROOT#null, 原产#VV)  (nn, 地区#NN, 中国#NR)  (nn, 地区#NN, 热带#NN)  (dobj, 原产#VV, 地区#NN)  (advmod, 分布#VV, 广泛#AD)  (conj, 原产#VV, 分布#VV)  (dobj, 分布#VV, 东南亚#NR)   (conj, 华东#NR, 华南#NR)  (conj, 华东#NR, 华中#NR)  (conj, 地#NN, 华东#NR)  (cc, 地#NN, 和#CC)  (nn, 地#NN, 西南#NN)  (det, 地#NN, 各#DT)  (nsubj, 栽培#VV, 地#NN)  (advmod, 栽培#VV, 普遍#AD)  (root, ROOT#null, 栽培#VV)  (cop, 蔬菜#NN, 是#VC)  (assmod, 蔬菜#NN, 夏秋季#NN)  (case, 夏秋季#NN, 的#DEG)  (amod, 蔬菜#NN, 重要#JJ)  (dep, 栽培#VV, 蔬菜#NN)   (nsubj, 浅#VV, 根系#NR)  (xsubj, 生#VV, 根系#NR)  (root, ROOT#null, 浅#VV)  (advmod, 上#VV, 主根#AD)  (dep, 生#VV, 上#VV)  (asp, 上#VV, 着#AS)  (ccomp, 浅#VV, 生#VV)  (nummod, 排#M, 四#CD)  (clf, 侧根#NN, 排#M)  (dobj, 生#VV, 侧根#NN)  (conj, 生#VV, 再生#VV)  (dobj, 再生#VV, 力强#NN)   (conj, 带#NN, 茎蔓性#NN)  (conj, 带#NN, 中空#NN)  (conj, 带#NN, 绿色#NN)  (conj, 带#NN, 浅绿色#NN)  (cc, 带#NN, 或#CC)  (nsubj, 紫红色#VV, 带#NN)  (root, ROOT#null, 紫红色#VV)   (nn, 不定根#NN, 茎节#NN)  (nn, 不定根#NN, 易生#NN)  (nsubj, ,#VV, 不定根#NN)  (root, ,#VV, 不定根#NN)  (amod, 扦插#NN, 可用#JJ)  (nn, 繁殖#NN, 扦插#NN)  (dobj, 不定根#NN, 繁殖#NN)  (dobj, ,#VV, 繁殖#NN)   (nsubj, 互生#VV, 叶#NR)  (root, ROOT#null, 互生#VV)  (ccomp, 互生#VV, 有#VE)  (amod, 卵形#NN, 宽#JJ)  (conj, 针形#NN, 卵形#NN)  (amod, 卵形#NN, 长#JJ)  (conj, 针形#NN, 卵形#NN)  (amod, 披#NN, 短#JJ)  (nn, 针形#NN, 披#NN)  (conj, 针形#NN, 针形#NN)  (cc, 针形#NN, 和#CC)  (amod, 披#NN, 长#JJ)  (nn, 针形#NN, 披#NN)  (dobj, 有#VE, 针形#NN)  (etc, 针形#NN, 等#ETC)   (conj, 聚伞花序#NN, 单生花#NN)  (cc, 聚伞花序#NN, 或#CC)  (nsubj, 腋生#VV, 聚伞花序#NN)  (root, ROOT#null, 腋生#VV)  (conj, 腋生#VV, 白色#JJ)  (cc, 腋生#VV, 或#CC)  (dep, 腋生#VV, 带紫色#NN)   (root, ROOT#null, 蒴果#VV)  (ccomp, 蒴果#VV, 卵形#VV)  (ccomp, 卵形#VV, 含#VV)  (nn, ～#NN, 种子#NN)  (nummod, ～#NN, 2#CD)  (nummod, 粒#NN, 4#CD)  (dobj, 含#VV, 粒#NN)   (nsubj, 圆形#CD, 种子#NN)  (advmod, 圆形#CD, 近#AD)  (dep, 黑褐色#VV, 圆形#CD)  (root, ROOT#null, 黑褐色#VV)  (nsubj, 坚实#VA, 皮厚#NN)  (advmod, 坚实#VA, 较#AD)  (ccomp, 黑褐色#VV, 坚实#VA)  (det, 种子#NN, 每#DT)  (clf, 每#DT, 克#M)  (nsubj, ～#VV, 种子#NN)  (nsubj, ～#VV, 20#CD)  (nummod, 粒#NN, 30#CD)  (dobj, ～#VV, 粒#NN)
+        </parsing>
+
+        <tag>
+            多年生草本  蕹菜  热带地区  原产地区  华东  华南  华中  栽培  夏秋季  再生力强  茎节不定根  易生不定根  可用扦插  扦插繁殖  不定根繁殖  互生  宽卵形  针形  长卵形  短披  长披  聚伞花序  单生花  腋生  蒴果  皮厚坚实  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性微寒。能清热凉血，利尿除湿，解毒。用于血热所致的鼻衄，咳血，吐血，便血，痔疮出血，尿血；热淋，小便不利，或妇女湿热带下；野菌中毒轻者，以及疮肿、湿疹、毒蛇咬伤。
+            1.防癌
+            空心菜是碱性食物，并含有钾、氯等调节水液平衡的元素，食后可降低肠道的酸度，预防肠道内的菌群失调，对防癌有益。　　
+            2.降脂减肥
+            所含的烟酸、维生素C等能降低胆固醇、甘油三酯，具有降脂减肥的功效。　　
+            3.美容佳品
+            空心菜中的叶绿素有“绿色精灵”之称，可洁齿防龋除口臭，健美皮肤，堪称美容佳品。　　
+            4.防暑解热
+            它的粗纤维素的含量较丰富，这种食用纤维是纤维素、半纤维素、木质素、胶浆及果胶等组成，具有促进肠蠕动、通便解毒作用。空心菜性凉，菜汁对金黄色葡萄球菌、链球菌等有抑制作用，可预防感染。因此，夏季如经常吃，可以防暑解热、凉血排毒、防治痢疾。　　
+        </rawdata>
+
+        <segment>
+            味甘  ，  性微寒  。  能  清热  凉  血  ，  利尿  除湿  ，  解毒  。  用于  血  热  所致  的  鼻衄  ，  咳血  ，  吐血  ，  便血  ，  痔疮  出血  ，  尿血  ；  热淋  ，  小便  不利  ，  或  妇女  湿热  带下  ；  野菌  中毒  轻者  ，  以及  疮肿  、  湿疹  、  毒  蛇  咬伤  。
+            防癌
+            空心菜  是  碱性  食物  ，  并  含有  钾  、  氯等  调节  水液  平衡  的  元素  ，  食后  可  降低  肠道  的  酸度  ，  预防  肠道  内  的  菌群  失调  ，  对  防癌  有益  。
+            降脂  减肥
+            所  含  的  烟酸  、  维生素C  等能  降低  胆固醇  、  甘油  三酯  ，  具有  降脂  减肥  的  功效  。
+            美容  佳品
+            空心菜  中  的  叶绿素  有  “  绿色  精灵  ”  之  称  ，  可  洁齿  防龋  除  口臭  ，  健美  皮肤  ，  堪称  美容  佳品  。
+            防暑  解热
+            它的  粗  纤维素  的  含量  较  丰富  ，  这  种  食用  纤维  是  纤维素  、  半纤维素  、  木质素  、  胶浆  及  果胶  等  组成  ，  具有  促进  肠蠕动  、  通便  解毒  作用  。  空心  菜  性  凉  ，  菜汁  对  金黄色  葡萄球菌  、  链球菌  等  有  抑制  作用  ，  可  预防  感染  。  因此  ，  夏季  如  经常  吃  ，  可以  防暑  解热  、  凉  血  排毒  、  防治  痢疾  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性微寒#VV    。#PU  能#VV  清热#VV  凉#NN  血#NN  ，#PU  利尿#VV  除湿#NN  ，#PU  解毒#VV    。#PU  用于#VV  血#NN  热#NN  所致#NN  的#DEG  鼻衄#NN  ，#PU  咳血#VV  ，#PU  吐血#VV  ，#PU  便血#VV  ，#PU  痔疮#AD  出血#VV  ，#PU  尿血#VV  ；#PU  热淋#NN  ，#PU  小便#AD  不利#VA  ，#PU  或#CC  妇女#NN  湿热#VV  带下#NN  ；#PU  野菌#AD  中毒#VV  轻者#NN  ，#PU  以及#CC  疮肿#NN  、#PU  湿疹#NN  、#PU  毒#NN  蛇#NN  咬伤#NN    。#PU    。#PU
+            防癌#VV
+            空心菜#NN  是#VC  碱性#VV  食物#NN  ，#PU  并#CC  含有#VV  钾#NN  、#PU  氯等#AD  调节#VV  水液#AD  平衡#VA  的#DEC  元素#NN  ，#PU  食后#AD  可#VV  降低#VV  肠道#NN  的#DEC  酸度#NN  ，#PU  预防#VV  肠道#NN  内#LC  的#DEG  菌群#NN  失调#NN  ，#PU  对#P  防癌#NN  有益#VA  。#PU
+            降脂#NN  减肥#VV
+            所#MSP  含#VV  的#DEC  烟酸#NN  、#PU  维生素C#NN  等能#NN  降低#VV  胆固醇#NN  、#PU  甘油#VV  三酯#CD  ，#PU  具有#VV  降脂#AD  减肥#VV  的#DEC  功效#NN  。#PU
+            美容#NN  佳品#VV
+            空心菜#NN  中#LC  的#DEG  叶绿素#NN  有#VE  ``#NR  绿色#JJ  精灵#NN  ''#NN  之#DEG  称#NN  ，#PU  可#VV  洁齿#NN  防龋#NN  除#P  口臭#NN  ，#PU  健美#AD  皮肤#VV  ，#PU  堪称#VV  美容#NN  佳品#NN  。#PU
+            防暑#NN  解热#VV
+            它的#NN  粗#NN  纤维素#NN  的#DEG  含量#NN  较#AD  丰富#VA  ，#PU  这#DT  种#M  食用#VV  纤维#NN  是#VC  纤维素#NR  、#PU  半纤维素#NR  、#PU  木质素#NR  、#PU  胶浆#NR  及#CC  果胶#NR  等#ETC  组成#NN  ，#PU  具有#VV  促进#VV  肠蠕动#NN  、#PU  通便#NN  解毒#NN  作用#NN    。#PU  空心#NN  菜#NN  性#NN  凉#VV  ，#PU  菜汁#NN  对#P  金黄色#JJ  葡萄球菌#NN  、#PU  链球菌#NN  等#ETC  有#VE  抑制#NN  作用#NN  ，#PU  可#VV  预防#VV  感染#NN    。#PU  因此#AD  ，#PU  夏季#NT  如#CS  经常#AD  吃#VV  ，#PU  可以#VV  防暑#VV  解热#NN  、#PU  凉#NN  血#NN  排毒#NN  、#PU  防治#NN  痢疾#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性微寒#VV)   (mmod, 清热#VV, 能#VV)  (root, ROOT#null, 清热#VV)  (nn, 血#NN, 凉#NN)  (dobj, 清热#VV, 血#NN)  (conj, 清热#VV, 利尿#VV)  (dobj, 利尿#VV, 除湿#NN)  (conj, 清热#VV, 解毒#VV)   (root, ROOT#null, 用于#VV)  (nn, 所致#NN, 血#NN)  (nn, 所致#NN, 热#NN)  (assmod, 鼻衄#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (dobj, 用于#VV, 鼻衄#NN)  (conj, 用于#VV, 咳血#VV)  (conj, 用于#VV, 吐血#VV)  (conj, 用于#VV, 便血#VV)  (advmod, 出血#VV, 痔疮#AD)  (conj, 用于#VV, 出血#VV)  (dep, 用于#VV, 尿血#VV)  (nsubj, 不利#VA, 热淋#NN)  (advmod, 不利#VA, 小便#AD)  (ccomp, 尿血#VV, 不利#VA)  (cc, 不利#VA, 或#CC)  (nsubj, 湿热#VV, 妇女#NN)  (conj, 不利#VA, 湿热#VV)  (dobj, 湿热#VV, 带下#NN)  (advmod, 中毒#VV, 野菌#AD)  (dep, 用于#VV, 中毒#VV)  (dobj, 中毒#VV, 轻者#NN)  (cc, 中毒#VV, 以及#CC)  (conj, 咬伤#NN, 疮肿#NN)  (conj, 咬伤#NN, 湿疹#NN)  (nn, 咬伤#NN, 毒#NN)  (nn, 咬伤#NN, 蛇#NN)  (dep, 中毒#VV, 咬伤#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防癌#VV)
+            (nsubj, 酸度#NN, 空心菜#NN)  (cop, 酸度#NN, 是#VC)  (relcl, 酸度#NN, 碱性#VV)  (dobj, 碱性#VV, 食物#NN)  (cc, 碱性#VV, 并#CC)  (conj, 碱性#VV, 含有#VV)  (dobj, 含有#VV, 钾#NN)  (advmod, 调节#VV, 氯等#AD)  (conj, 碱性#VV, 调节#VV)  (advmod, 平衡#VA, 水液#AD)  (relcl, 元素#NN, 平衡#VA)  (mark, 平衡#VA, 的#DEC)  (dobj, 调节#VV, 元素#NN)  (advmod, 降低#VV, 食后#AD)  (mmod, 降低#VV, 可#VV)  (conj, 碱性#VV, 降低#VV)  (dobj, 降低#VV, 肠道#NN)  (mark, 碱性#VV, 的#DEC)  (root, ROOT#null, 酸度#NN)  (conj, 酸度#NN, 预防#VV)  (assmod, 失调#NN, 肠道#NN)  (case, 肠道#NN, 内#LC)  (case, 肠道#NN, 的#DEG)  (nn, 失调#NN, 菌群#NN)  (dobj, 预防#VV, 失调#NN)  (case, 防癌#NN, 对#P)  (prep, 有益#VA, 防癌#NN)  (conj, 酸度#NN, 有益#VA)
+            (nsubj, 减肥#VV, 降脂#NN)  (root, ROOT#null, 减肥#VV)
+            (prtmod, 含#VV, 所#MSP)  (relcl, 等能#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 等能#NN, 烟酸#NN)  (nn, 等能#NN, 维生素C#NN)  (nsubj, 降低#VV, 等能#NN)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 甘油#VV)  (range, 甘油#VV, 三酯#CD)  (conj, 降低#VV, 具有#VV)  (advmod, 减肥#VV, 降脂#AD)  (relcl, 功效#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)
+            (nsubj, 佳品#VV, 美容#NN)  (root, ROOT#null, 佳品#VV)
+            (assmod, 叶绿素#NN, 空心菜#NN)  (case, 空心菜#NN, 中#LC)  (case, 空心菜#NN, 的#DEG)  (nsubj, 有#VE, 叶绿素#NN)  (root, ROOT#null, 有#VE)  (nn, 精灵#NN, ``#NR)  (amod, 精灵#NN, 绿色#JJ)  (nn, ''#NN, 精灵#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)  (mmod, 皮肤#VV, 可#VV)  (nn, 防龋#NN, 洁齿#NN)  (dep, 皮肤#VV, 防龋#NN)  (case, 口臭#NN, 除#P)  (prep, 皮肤#VV, 口臭#NN)  (advmod, 皮肤#VV, 健美#AD)  (conj, 有#VE, 皮肤#VV)  (conj, 有#VE, 堪称#VV)  (nn, 佳品#NN, 美容#NN)  (dobj, 堪称#VV, 佳品#NN)
+            (nsubj, 解热#VV, 防暑#NN)  (root, ROOT#null, 解热#VV)
+            (nn, 纤维素#NN, 它的#NN)  (nn, 纤维素#NN, 粗#NN)  (assmod, 含量#NN, 纤维素#NN)  (case, 纤维素#NN, 的#DEG)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 较#AD)  (root, ROOT#null, 丰富#VA)  (dep, 食用#VV, 这#DT)  (clf, 这#DT, 种#M)  (conj, 丰富#VA, 食用#VV)  (dobj, 食用#VV, 纤维#NN)  (cop, 组成#NN, 是#VC)  (conj, 果胶#NR, 纤维素#NR)  (conj, 果胶#NR, 半纤维素#NR)  (conj, 果胶#NR, 木质素#NR)  (conj, 果胶#NR, 胶浆#NR)  (cc, 果胶#NR, 及#CC)  (nn, 组成#NN, 果胶#NR)  (etc, 果胶#NR, 等#ETC)  (conj, 食用#VV, 组成#NN)  (dep, 丰富#VA, 具有#VV)  (nfincl, 作用#NN, 促进#VV)  (conj, 解毒#NN, 肠蠕动#NN)  (nn, 解毒#NN, 通便#NN)  (dobj, 促进#VV, 解毒#NN)  (dobj, 具有#VV, 作用#NN)   (nn, 性#NN, 空心#NN)  (nn, 性#NN, 菜#NN)  (nsubj, 凉#VV, 性#NN)  (root, ROOT#null, 凉#VV)  (nsubj, 有#VE, 菜汁#NN)  (case, 链球菌#NN, 对#P)  (amod, 葡萄球菌#NN, 金黄色#JJ)  (conj, 链球菌#NN, 葡萄球菌#NN)  (prep, 有#VE, 链球菌#NN)  (etc, 链球菌#NN, 等#ETC)  (ccomp, 凉#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 预防#VV, 可#VV)  (dep, 有#VE, 预防#VV)  (dobj, 预防#VV, 感染#NN)   (advmod, 吃#VV, 因此#AD)  (tmod, 吃#VV, 夏季#NT)  (advmod, 吃#VV, 如#CS)  (advmod, 吃#VV, 经常#AD)  (root, ROOT#null, 吃#VV)  (conj, 防暑#VV, 可以#VV)  (conj, 吃#VV, 防暑#VV)  (conj, 痢疾#NN, 解热#NN)  (nn, 痢疾#NN, 凉#NN)  (nn, 痢疾#NN, 血#NN)  (conj, 痢疾#NN, 排毒#NN)  (nn, 痢疾#NN, 防治#NN)  (dobj, 防暑#VV, 痢疾#NN)
+        </parsing>
+
+        <tag>
+            味甘  清热血  利尿除湿  用于鼻衄  热淋不利  湿热带下  中毒轻者  咬伤  疮肿  湿疹  防癌  碱性酸度  碱性食物  含有钾  降低肠道  菌群失调  预防失调  含等能  烟酸  维生素C等能  降低胆固醇  减肥功效  绿色精灵  洁齿防龋  美容佳品  堪称佳品  解热  它的纤维素  食用纤维  果胶  半纤维素  木质素  胶浆  肠蠕动  通便解毒  促进解毒  金黄色葡萄球菌  链球菌  预防感染  排毒  防治痢疾  防暑痢疾  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        防癌抗癌  降脂减肥  美容养颜  促进肠蠕动  通便解毒  防暑解热  凉血排毒  防治痢疾
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.空心菜中粗纤维含量极为丰富，由纤维素、木质素和果胶等组成。
+            2.空心菜是碱性食物，并含有钾、氯等调节水液平衡的元素。
+            3.空心菜中有丰富的维生素C和胡萝卜素，其维生素含量高于大白菜。
+            4.嫩梢中的蛋白质含量比同等量的西红柿高4倍，钙含量比西红柿高12倍多，并含有较多的胡萝卜素。
+        </rawdata>
+
+        <segment>
+            空心菜  中  粗  纤维  含量  极为  丰富  ，  由  纤维素  、  木质素  和  果胶  等  组成  。
+            空心菜  是  碱性  食物  ，  并  含有  钾  、  氯等  调节  水液  平衡  的  元素  。
+            空心菜  中  有  丰富  的  维生素C  和  胡萝卜素  ，  其  维生素  含量  高于  大白菜  。
+            嫩梢  中  的  蛋白质  含量  比  同  等量  的  西红柿  高  4  倍  ，  钙  含量  比  西红柿  高  12  倍  多  ，  并  含有  较多  的  胡萝卜素  。
+        </segment>
+
+        <pos>
+            空心菜#NN  中#LC  粗#NN  纤维#NN  含量#NN  极为#AD  丰富#VA  ，#PU  由#P  纤维素#NR  、#PU  木质素#NR  和#CC  果胶#NR  等#ETC  组成#VV  。#PU
+            空心菜#NN  是#VC  碱性#NN  食物#NN  ，#PU  并#AD  含有#VV  钾#NN  、#PU  氯等#AD  调节#VV  水液#AD  平衡#VA  的#DEC  元素#NN  。#PU
+            空心菜#NN  中#LC  有#VE  丰富#VA  的#DEC  维生素C#NN  和#CC  胡萝卜素#NN  ，#PU  其#PN  维生素#NN  含量#NN  高于#VV  大白菜#NN  。#PU
+            嫩梢#NN  中#LC  的#DEG  蛋白质#NN  含量#NN  比#P  同#P  等量#NR  的#DEG  西红柿#NN  高#VA  4#CD  倍#M  ，#PU  钙#NN  含量#NN  比#P  西红柿#NN  高#VA  12#CD  倍#M  多#AD  ，#PU  并#CC  含有#VV  较多#NN  的#DEG  胡萝卜素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 空心菜#NN)  (case, 空心菜#NN, 中#LC)  (nn, 含量#NN, 粗#NN)  (nn, 含量#NN, 纤维#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 极为#AD)  (root, ROOT#null, 丰富#VA)  (case, 果胶#NR, 由#P)  (conj, 果胶#NR, 纤维素#NR)  (conj, 果胶#NR, 木质素#NR)  (cc, 果胶#NR, 和#CC)  (prep, 组成#VV, 果胶#NR)  (etc, 果胶#NR, 等#ETC)  (conj, 丰富#VA, 组成#VV)
+            (nsubj, 食物#NN, 空心菜#NN)  (cop, 食物#NN, 是#VC)  (nn, 食物#NN, 碱性#NN)  (root, ROOT#null, 食物#NN)  (advmod, 含有#VV, 并#AD)  (conj, 食物#NN, 含有#VV)  (dobj, 含有#VV, 钾#NN)  (advmod, 调节#VV, 氯等#AD)  (dep, 含有#VV, 调节#VV)  (advmod, 平衡#VA, 水液#AD)  (relcl, 元素#NN, 平衡#VA)  (mark, 平衡#VA, 的#DEC)  (dobj, 调节#VV, 元素#NN)
+            (loc, 有#VE, 空心菜#NN)  (case, 空心菜#NN, 中#LC)  (root, ROOT#null, 有#VE)  (relcl, 胡萝卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 胡萝卜素#NN, 维生素C#NN)  (cc, 胡萝卜素#NN, 和#CC)  (dobj, 有#VE, 胡萝卜素#NN)  (nn, 含量#NN, 其#PN)  (nn, 含量#NN, 维生素#NN)  (nsubj, 高于#VV, 含量#NN)  (conj, 有#VE, 高于#VV)  (dobj, 高于#VV, 大白菜#NN)
+            (assmod, 含量#NN, 嫩梢#NN)  (case, 嫩梢#NN, 中#LC)  (case, 嫩梢#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (case, 西红柿#NN, 比#P)  (case, 等量#NR, 同#P)  (assmod, 西红柿#NN, 等量#NR)  (case, 等量#NR, 的#DEG)  (prep, 高#VA, 西红柿#NN)  (root, ROOT#null, 高#VA)  (nummod, 倍#M, 4#CD)  (dep, 高#VA, 倍#M)  (nn, 含量#NN, 钙#NN)  (nsubj, 高#VA, 含量#NN)  (case, 西红柿#NN, 比#P)  (prep, 高#VA, 西红柿#NN)  (conj, 高#VA, 高#VA)  (nummod, 倍#M, 12#CD)  (dep, 高#VA, 倍#M)  (advmod, 倍#M, 多#AD)  (cc, 高#VA, 并#CC)  (dep, 高#VA, 含有#VV)  (assmod, 胡萝卜素#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 含有#VV, 胡萝卜素#NN)
+        </parsing>
+
+        <tag>
+            果胶  纤维素  木质素  碱性食物  含有钾  胡萝卜素丰富  维生素C  高于大白菜  含有胡萝卜素  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.空心菜生熟皆宜，荤素俱佳，宜旺火快炒，避免营养流失；
+            2.空心菜以嫩茎、嫩叶供食用，适用于炒、拌等方法；空心菜遇热容易变黄，烹调时要充分热锅，大火快抄，不等叶片变软即可熄火盛出；
+            3.因为加热的时间过短，茎部的老梗会生涩难咽，所以要记得择去；
+            4.空心菜配以鸡蛋、鸭蛋、鱼类、或配以豆腐、百叶之类豆制品，也能做出众多美味佳肴。
+        </rawdata>
+
+        <segment>
+            空心菜  生  熟  皆  宜  ，  荤素  俱佳  ，  宜  旺火  快  炒  ，  避免  营养  流失  ；
+            空心菜  以  嫩茎  、  嫩叶  供  食用  ，  适用  于  炒  、  拌等  方法  ；  空心菜  遇  热  容易  变黄  ，  烹调  时  要  充分  热锅  ，  大火  快抄  ，  不等  叶片  变软  即  可  熄火  盛出  ；
+            因为  加热  的  时间  过短  ，  茎部  的  老  梗会  生涩  难  咽  ，  所以  要  记得  择去  ；
+            空心菜  配  以  鸡蛋  、  鸭蛋  、  鱼类  、  或  配  以  豆腐  、  百叶之类  豆制品  ，  也  能  做出  众多  美味  佳肴  。
+        </segment>
+
+        <pos>
+            空心菜#AD  生#VV  熟#VA  皆#AD  宜#NR  ，#PU  荤素#AD  俱佳#VA  ，#PU  宜#NR  旺火#AD  快#VA  炒#VA  ，#PU  避免#VV  营养#VA  流失#NN  ；#PU
+            空心菜#NN  以#P  嫩茎#NR  、#PU  嫩叶#NR  供#NN  食用#VV  ，#PU  适用#VV  于#P  炒#NN  、#PU  拌等#NN  方法#NN  ；#PU  空心菜#NN  遇#NN  热#NN  容易#VA  变黄#VA  ，#PU  烹调#NN  时#LC  要#VV  充分#AD  热锅#VV  ，#PU  大火#NN  快抄#NN  ，#PU  不等#AD  叶片#CD  变软#NN  即#AD  可#VV  熄火#VV  盛出#NN  ；#PU
+            因为#P  加热#NN  的#DEG  时间#NN  过短#VV  ，#PU  茎部#NN  的#DEG  老#JJ  梗会#NN  生涩#NN  难#AD  咽#VV  ，#PU  所以#AD  要#VV  记得#VV  择去#NN  ；#PU
+            空心菜#NN  配#NN  以#P  鸡蛋#NN  、#PU  鸭蛋#NN  、#PU  鱼类#NN  、#PU  或#CC  配#NN  以#P  豆腐#NN  、#PU  百叶之类#CD  豆制品#NN  ，#PU  也#AD  能#VV  做出#VV  众多#JJ  美味#NN  佳肴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 生#VV, 空心菜#AD)  (dep, 俱佳#VA, 生#VV)  (dep, 生#VV, 熟#VA)  (advmod, 熟#VA, 皆#AD)  (nsubj, 俱佳#VA, 宜#NR)  (advmod, 俱佳#VA, 荤素#AD)  (root, ROOT#null, 俱佳#VA)  (nsubj, 快#VA, 宜#NR)  (advmod, 快#VA, 旺火#AD)  (conj, 俱佳#VA, 快#VA)  (comod, 快#VA, 炒#VA)  (dep, 快#VA, 避免#VV)  (nfincl, 流失#NN, 营养#VA)  (dobj, 避免#VV, 流失#NN)
+            (nsubj, 食用#VV, 空心菜#NN)  (case, 供#NN, 以#P)  (conj, 嫩叶#NR, 嫩茎#NR)  (nn, 供#NN, 嫩叶#NR)  (prep, 食用#VV, 供#NN)  (root, ROOT#null, 食用#VV)  (conj, 食用#VV, 适用#VV)  (case, 方法#NN, 于#P)  (conj, 拌等#NN, 炒#NN)  (nn, 方法#NN, 拌等#NN)  (prep, 适用#VV, 方法#NN)  (nn, 热#NN, 空心菜#NN)  (nn, 热#NN, 遇#NN)  (nsubj, 容易#VA, 热#NN)  (conj, 食用#VV, 容易#VA)  (comod, 容易#VA, 变黄#VA)  (loc, 热锅#VV, 烹调#NN)  (case, 烹调#NN, 时#LC)  (mmod, 热锅#VV, 要#VV)  (advmod, 热锅#VV, 充分#AD)  (conj, 食用#VV, 热锅#VV)  (nn, 快抄#NN, 大火#NN)  (nsubj, 熄火#VV, 快抄#NN)  (advmod, 叶片#CD, 不等#AD)  (nummod, 变软#NN, 叶片#CD)  (nsubj, 熄火#VV, 变软#NN)  (advmod, 熄火#VV, 即#AD)  (mmod, 熄火#VV, 可#VV)  (conj, 食用#VV, 熄火#VV)  (dobj, 熄火#VV, 盛出#NN)
+            (case, 过短#VV, 因为#P)  (assmod, 时间#NN, 加热#NN)  (case, 加热#NN, 的#DEG)  (nsubj, 过短#VV, 时间#NN)  (prep, 咽#VV, 过短#VV)  (assmod, 生涩#NN, 茎部#NN)  (case, 茎部#NN, 的#DEG)  (amod, 生涩#NN, 老#JJ)  (nn, 生涩#NN, 梗会#NN)  (nsubj, 咽#VV, 生涩#NN)  (advmod, 咽#VV, 难#AD)  (root, ROOT#null, 咽#VV)  (advmod, 记得#VV, 所以#AD)  (mmod, 记得#VV, 要#VV)  (conj, 咽#VV, 记得#VV)  (dobj, 记得#VV, 择去#NN)
+            (nn, 配#NN, 空心菜#NN)  (nsubj, 做出#VV, 配#NN)  (case, 配#NN, 以#P)  (conj, 配#NN, 鸡蛋#NN)  (conj, 配#NN, 鸭蛋#NN)  (dep, 配#NN, 鱼类#NN)  (cc, 配#NN, 或#CC)  (prep, 做出#VV, 配#NN)  (case, 豆制品#NN, 以#P)  (conj, 豆制品#NN, 豆腐#NN)  (nummod, 豆制品#NN, 百叶之类#CD)  (prep, 做出#VV, 豆制品#NN)  (advmod, 做出#VV, 也#AD)  (mmod, 做出#VV, 能#VV)  (root, ROOT#null, 做出#VV)  (amod, 佳肴#NN, 众多#JJ)  (nn, 佳肴#NN, 美味#NN)  (dobj, 做出#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+            避免流失  嫩叶  嫩茎  食用  拌等方法  热容易  变黄容易  大火快抄  熄火盛出  老生涩  梗会生涩  记得择去  豆制品  豆腐  众多佳肴  美味佳肴  做出佳肴  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071004283543.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\184 空心菜.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        185
+    </id>
+
+    <foodname>
+        油麦菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        莜麦菜、苦菜、牛俐生菜
+    </alias>
+
+    <season>
+        夏秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            胃炎、泌尿系统疾病、性质寒凉、尿频、胃寒的人慎食。
+        </rawdata>
+
+        <segment>
+            胃炎  、  泌尿  系统  疾病  、  性质  寒  凉  、  尿频  、  胃  寒  的  人  慎  食  。
+        </segment>
+
+        <pos>
+            胃炎#NR  、#PU  泌尿#NN  系统#NN  疾病#NN  、#PU  性质#NN  寒#JJ  凉#NN  、#PU  尿频#NR  、#PU  胃#NR  寒#JJ  的#DEG  人#NN  慎#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 胃#NR, 胃炎#NR)  (nn, 疾病#NN, 泌尿#NN)  (nn, 疾病#NN, 系统#NN)  (conj, 胃#NR, 疾病#NN)  (nn, 凉#NN, 性质#NN)  (amod, 凉#NN, 寒#JJ)  (conj, 胃#NR, 凉#NN)  (conj, 胃#NR, 尿频#NR)  (nn, 人#NN, 胃#NR)  (assmod, 人#NN, 寒#JJ)  (case, 寒#JJ, 的#DEG)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            胃炎  泌尿系统疾病  性质寒凉  尿频  胃寒  人慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                125
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                77.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                164
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                95.9
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            油麦菜，油麦菜属菊科，是以嫩梢、嫩叶为产品的尖叶型叶用莴苣，叶片呈长披针形它的长相有点像莴笋的“头”，叶细长平展，笋又细又短。从血缘关系看，油麦菜属于叶用莴苣的一个变种—长叶莴苣，与人们熟悉的生菜相近，所以又名牛俐生菜。它的色泽淡绿、长势强健.抗病性、适应性强、质地脆嫩，口感极为鲜嫩、清香，是生食蔬菜中的上品，有“凤尾”之称。
+        </rawdata>
+
+        <segment>
+            油麦  菜  ，  油麦  菜属  菊科  ，  是  以  嫩梢  、  嫩叶  为  产品  的  尖叶型叶  用  莴苣  ，  叶片  呈长  披  针形  它  的  长相  有点  像  莴笋  的  “  头  ”  ，  叶  细长  平展  ，  笋  又  细  又  短  。  从  血缘  关系  看  ，  油麦  菜  属于  叶  用  莴苣  的  一  个  变种  —  长叶  莴苣  ，  与  人们  熟悉  的  生菜  相近  ，  所以  又  名  牛俐  生菜  。  它  的  色泽  淡绿  、  长势  强健  .  抗病性  、  适应  性强  、  质地  脆嫩  ，  口感  极为  鲜嫩  、  清香  ，  是  生食  蔬菜  中  的  上品  ，  有  “  凤尾  ”  之  称  。
+        </segment>
+
+        <pos>
+            油麦#NN  菜#NN  ，#PU  油麦#NN  菜属#VV  菊科#NN  ，#PU  是#VC  以#P  嫩梢#NN  、#PU  嫩叶#NN  为#VV  产品#NN  的#DEC  尖叶型叶#NN  用#P  莴苣#NN  ，#PU  叶片#NN  呈长#NN  披#AD  针形#VV  它#PN  的#DEG  长相#NN  有点#NN  像#P  莴笋#NN  的#DEG  ``#CD  头#M  ''#NN  ，#PU  叶#NR  细长#NN  平展#NN  ，#PU  笋#NN  又#AD  细#AD  又#AD  短#VA    。#PU  从#P  血缘#NN  关系#NN  看#VV  ，#PU  油麦#NN  菜#NN  属于#VV  叶#NN  用#P  莴苣#NN  的#DEG  一#CD  个#M  变种#NN  --#NN  长叶#VV  莴苣#NN  ，#PU  与#P  人们#NN  熟悉#NN  的#DEG  生菜#NN  相近#VA  ，#PU  所以#AD  又#AD  名#NN  牛俐#VV  生菜#NN    。#PU  它#PN  的#DEG  色泽#NN  淡绿#NN  、#PU  长势#NN  强健#NN  .#AD  抗病性#VA  、#PU  适应#VV  性强#NN  、#PU  质地#NN  脆嫩#NN  ，#PU  口感#AD  极为#AD  鲜嫩#VA  、#PU  清香#VA  ，#PU  是#VC  生食#NN  蔬菜#NN  中#LC  的#DEG  上品#NN  ，#PU  有#VE  ``#NN  凤尾#NN  ''#NN  之#DEG  称#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 油麦#NN)  (nsubj, 菜属#VV, 菜#NN)  (nsubj, 菜属#VV, 油麦#NN)  (root, ROOT#null, 菜属#VV)  (dobj, 菜属#VV, 菊科#NN)  (cop, 尖叶型叶#NN, 是#VC)  (case, 嫩叶#NN, 以#P)  (conj, 嫩叶#NN, 嫩梢#NN)  (prep, 为#VV, 嫩叶#NN)  (relcl, 尖叶型叶#NN, 为#VV)  (dobj, 为#VV, 产品#NN)  (mark, 为#VV, 的#DEC)  (conj, 菜属#VV, 尖叶型叶#NN)  (case, 莴苣#NN, 用#P)  (prep, 针形#VV, 莴苣#NN)  (nn, 呈长#NN, 叶片#NN)  (nsubj, 针形#VV, 呈长#NN)  (advmod, 针形#VV, 披#AD)  (conj, 菜属#VV, 针形#VV)  (assmod, 有点#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 有点#NN, 长相#NN)  (dobj, 针形#VV, 有点#NN)  (case, ''#NN, 像#P)  (assmod, ''#NN, 莴笋#NN)  (case, 莴笋#NN, 的#DEG)  (nummod, 头#M, ``#CD)  (clf, ''#NN, 头#M)  (prep, 短#VA, ''#NN)  (nn, 平展#NN, 叶#NR)  (nn, 平展#NN, 细长#NN)  (nsubj, 短#VA, 平展#NN)  (nsubj, 短#VA, 笋#NN)  (advmod, 短#VA, 又#AD)  (advmod, 短#VA, 细#AD)  (advmod, 短#VA, 又#AD)  (conj, 菜属#VV, 短#VA)   (case, 关系#NN, 从#P)  (nn, 关系#NN, 血缘#NN)  (prep, 看#VV, 关系#NN)  (conj, 属于#VV, 看#VV)  (nn, 菜#NN, 油麦#NN)  (nsubj, 属于#VV, 菜#NN)  (root, ROOT#null, 属于#VV)  (dobj, 属于#VV, 叶#NN)  (case, --#NN, 用#P)  (assmod, --#NN, 莴苣#NN)  (case, 莴苣#NN, 的#DEG)  (nummod, 个#M, 一#CD)  (clf, --#NN, 个#M)  (nn, --#NN, 变种#NN)  (dep, 属于#VV, 长叶#VV)  (dobj, 长叶#VV, 莴苣#NN)  (case, 生菜#NN, 与#P)  (nn, 熟悉#NN, 人们#NN)  (assmod, 生菜#NN, 熟悉#NN)  (case, 熟悉#NN, 的#DEG)  (prep, 相近#VA, 生菜#NN)  (dep, 长叶#VV, 相近#VA)  (advmod, 牛俐#VV, 所以#AD)  (advmod, 牛俐#VV, 又#AD)  (prep, 牛俐#VV, 名#NN)  (dep, 长叶#VV, 牛俐#VV)  (dobj, 牛俐#VV, 生菜#NN)   (assmod, 强健#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 强健#NN, 色泽#NN)  (conj, 强健#NN, 淡绿#NN)  (nn, 强健#NN, 长势#NN)  (nsubj, 抗病性#VA, 强健#NN)  (root, ROOT#null, 抗病性#VA)  (conj, 抗病性#VA, 适应#VV)  (conj, 脆嫩#NN, 性强#NN)  (nn, 脆嫩#NN, 质地#NN)  (dobj, 适应#VV, 脆嫩#NN)  (advmod, 鲜嫩#VA, 口感#AD)  (advmod, 鲜嫩#VA, 极为#AD)  (conj, 抗病性#VA, 鲜嫩#VA)  (dep, 鲜嫩#VA, 清香#VA)  (cop, 上品#NN, 是#VC)  (nn, 蔬菜#NN, 生食#NN)  (assmod, 上品#NN, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (case, 蔬菜#NN, 的#DEG)  (conj, 抗病性#VA, 上品#NN)  (conj, 抗病性#VA, 有#VE)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 凤尾#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)
+        </parsing>
+
+        <tag>
+            菜属菊科  嫩叶  嫩梢  为尖叶型叶  叶片呈长  长相有点  针形有点  细长平展  血缘关系  属于叶  长叶莴苣  人们熟悉  牛俐生菜  色泽强健  淡绿  长势强健  强健抗病性  性强  质地脆嫩  适应脆嫩  生食蔬菜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促进血液循环
+            油麦菜中含有甘露醇等有效成分，有利尿和促进血液循环的作用。
+            2.有助于睡眠
+            因其茎叶中含有莴苣素，故味微苦，具有镇痛催眠、降低胆固醇、辅助治疗神经衰弱等功效，可以将其榨成汁，睡前饮用。
+            3.减肥
+            油麦菜所含的膳食纤维和维生素C，有消除多余脂肪的作用，故又称减肥生菜，可以选择凉拌或是清炒的方法食用。
+        </rawdata>
+
+        <segment>
+            促进  血液  循环
+            油麦  菜  中  含有  甘露醇  等  有效  成分  ，  有  利尿  和  促进  血液  循环  的  作用  。
+            有助于  睡眠
+            因其  茎叶  中  含有  莴苣素  ，  故  味微苦  ，  具有  镇痛  催眠  、  降低  胆固醇  、  辅助  治疗  神经  衰弱  等  功效  ，  可以  将  其  榨成汁  ，  睡前  饮用  。
+            减肥
+            油麦  菜  所  含  的  膳食  纤维  和  维生素C  ，  有  消除  多余  脂肪  的  作用  ，  故  又  称  减肥  生菜  ，  可以  选择  凉拌  或是  清炒  的  方法  食用  。
+        </segment>
+
+        <pos>
+            促进#VV  血液#NN  循环#NN
+            油麦#NN  菜#NN  中#LC  含有#VV  甘露醇#NN  等#ETC  有效#JJ  成分#NN  ，#PU  有#VE  利尿#NN  和#CC  促进#VV  血液#NN  循环#NN  的#DEG  作用#NN  。#PU
+            有助于#VV  睡眠#NN
+            因其#NN  茎叶#NN  中#LC  含有#VV  莴苣素#NN  ，#PU  故#AD  味微苦#VV  ，#PU  具有#VV  镇痛#NN  催眠#NN  、#PU  降低#VV  胆固醇#NN  、#PU  辅助#NN  治疗#NN  神经#NN  衰弱#NN  等#ETC  功效#NN  ，#PU  可以#VV  将#BA  其#PN  榨成汁#VV  ，#PU  睡前#VV  饮用#NN  。#PU
+            减肥#VV
+            油麦#VV  菜#NN  所#MSP  含#VV  的#DEC  膳食#NR  纤维#NN  和#CC  维生素C#NN  ，#PU  有#VE  消除#VV  多余#NN  脂肪#NN  的#DEC  作用#NN  ，#PU  故#AD  又#AD  称#VV  减肥#VV  生菜#NN  ，#PU  可以#VV  选择#VV  凉拌#NN  或是#NN  清炒#NN  的#DEC  方法#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)
+            (nsubj, 含有#VV, 油麦#NN)  (loc, 含有#VV, 菜#NN)  (case, 菜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (nn, 成分#NN, 甘露醇#NN)  (etc, 甘露醇#NN, 等#ETC)  (amod, 成分#NN, 有效#JJ)  (dobj, 含有#VV, 成分#NN)  (conj, 含有#VV, 有#VE)  (dobj, 有#VE, 利尿#NN)  (cc, 含有#VV, 和#CC)  (conj, 含有#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (assmod, 作用#NN, 循环#NN)  (case, 循环#NN, 的#DEG)  (dobj, 促进#VV, 作用#NN)
+            (root, ROOT#null, 有助于#VV)  (dobj, 有助于#VV, 睡眠#NN)
+            (nsubj, 含有#VV, 因其#NN)  (loc, 含有#VV, 茎叶#NN)  (case, 茎叶#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (dobj, 含有#VV, 莴苣素#NN)  (advmod, 味微苦#VV, 故#AD)  (conj, 含有#VV, 味微苦#VV)  (conj, 含有#VV, 具有#VV)  (nn, 催眠#NN, 镇痛#NN)  (dobj, 具有#VV, 催眠#NN)  (conj, 含有#VV, 降低#VV)  (conj, 衰弱#NN, 胆固醇#NN)  (nn, 衰弱#NN, 辅助#NN)  (nn, 衰弱#NN, 治疗#NN)  (nn, 衰弱#NN, 神经#NN)  (nn, 功效#NN, 衰弱#NN)  (etc, 衰弱#NN, 等#ETC)  (dobj, 降低#VV, 功效#NN)  (mmod, 榨成汁#VV, 可以#VV)  (ba, 榨成汁#VV, 将#BA)  (nsubj, 榨成汁#VV, 其#PN)  (conj, 含有#VV, 榨成汁#VV)  (conj, 含有#VV, 睡前#VV)  (dobj, 睡前#VV, 饮用#NN)
+            (root, ROOT#null, 减肥#VV)
+            (relcl, 维生素C#NN, 油麦#VV)  (dobj, 油麦#VV, 菜#NN)  (prtmod, 含#VV, 所#MSP)  (conj, 油麦#VV, 含#VV)  (mark, 油麦#VV, 的#DEC)  (nn, 维生素C#NN, 膳食#NR)  (conj, 维生素C#NN, 纤维#NN)  (cc, 维生素C#NN, 和#CC)  (dep, 有#VE, 维生素C#NN)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 消除#VV)  (nn, 脂肪#NN, 多余#NN)  (dobj, 消除#VV, 脂肪#NN)  (mark, 消除#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (advmod, 称#VV, 故#AD)  (advmod, 称#VV, 又#AD)  (conj, 有#VE, 称#VV)  (ccomp, 称#VV, 减肥#VV)  (dobj, 减肥#VV, 生菜#NN)  (mmod, 选择#VV, 可以#VV)  (relcl, 方法#NN, 选择#VV)  (nn, 清炒#NN, 凉拌#NN)  (nn, 清炒#NN, 或是#NN)  (dobj, 选择#VV, 清炒#NN)  (mark, 选择#VV, 的#DEC)  (nsubj, 食用#VV, 方法#NN)  (conj, 有#VE, 食用#VV)
+        </parsing>
+
+        <tag>
+            血液循环  促进循环  有助于睡眠  含有莴苣素  镇痛催眠  胆固醇  辅助衰弱  治疗衰弱  神经衰弱  衰弱功效  降低功效  睡前饮用  油麦维生素C  油麦菜  纤维  多余脂肪  消除脂肪  减肥生菜  凉拌清炒  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血压  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.油麦菜含有大量维生素和大量钙、铁、蛋白质、脂肪、维生素A、VB1、VB2等营养成分。
+            2.油麦菜的营养价值比生菜高，更远远优于莴笋，主要特点是矿物质丰富。如钙含量比生菜高1.9倍，比莴笋高2倍，铁含量分别比生菜和莴笋高50%和33%，锌含量分别比生菜和莴笋高86%和33%，硒含量分别比生菜和莴笋高22%和1.8倍。
+        </rawdata>
+
+        <segment>
+            油麦  菜  含有  大量  维生素  和  大量  钙  、  铁  、  蛋白质  、  脂肪  、  维生素A  、  VB  VB2  等  营养  成分  。
+            油麦  菜  的  营养  价值  比  生菜  高  ，  更  远远  优于  莴笋  ，  主要  特点  是  矿物质  丰富  。  如  钙  含量  比  生菜  高  1.9  倍  ，  比  莴笋  高  2  倍  ，  铁  含量  分别  比  生菜  和  莴笋  高  50%  和  33%  ，  锌  含量  分别  比  生菜  和  莴笋  高  86%  和  33%  ，  硒  含量  分别  比  生菜  和  莴笋  高  22%  和  1.8  倍  。
+        </segment>
+
+        <pos>
+            油麦#NN  菜#NN  含有#VV  大量#CD  维生素#NN  和#CC  大量#CD  钙#NN  、#PU  铁#NN  、#PU  蛋白质#NR  、#PU  脂肪#NR  、#PU  维生素A#NR  、#PU  VB#NR  VB2#CD  等#M  营养#VA  成分#NN  。#PU
+            油麦#VV  菜#NN  的#DEC  营养#VA  价值#NN  比#P  生菜#NN  高#VA  ，#PU  更#AD  远远#AD  优于#VV  莴笋#NN  ，#PU  主要#JJ  特点#NN  是#VC  矿物质#NN  丰富#VA    。#PU  如#AD  钙#NN  含量#NN  比#P  生菜#NN  高#VA  1.9#CD  倍#M  ，#PU  比#P  莴笋#NN  高#VA  2#CD  倍#M  ，#PU  铁#NN  含量#NN  分别#AD  比#P  生菜#NN  和#CC  莴笋#NN  高#VA  50#CD  %#CD  和#CC  33#CD  %#NN  ，#PU  锌#NN  含量#NN  分别#AD  比#P  生菜#NN  和#CC  莴笋#NN  高#VA  86#CD  %#NN  和#CC  33#CD  %#NN  ，#PU  硒#NN  含量#NN  分别#AD  比#P  生菜#NN  和#CC  莴笋#NN  高#VA  22#CD  %#CD  和#CC  1.8#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 油麦#NN)  (nsubj, 含有#VV, 菜#NN)  (root, ROOT#null, 含有#VV)  (nummod, 维生素#NN, 大量#CD)  (conj, VB#NR, 维生素#NN)  (cc, VB#NR, 和#CC)  (nummod, 钙#NN, 大量#CD)  (conj, VB#NR, 钙#NN)  (conj, VB#NR, 铁#NN)  (conj, VB#NR, 蛋白质#NR)  (conj, VB#NR, 脂肪#NR)  (conj, VB#NR, 维生素A#NR)  (nn, 成分#NN, VB#NR)  (nummod, 等#M, VB2#CD)  (clf, 成分#NN, 等#M)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)
+            (relcl, 价值#NN, 油麦#VV)  (dobj, 油麦#VV, 菜#NN)  (mark, 油麦#VV, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (case, 生菜#NN, 比#P)  (prep, 高#VA, 生菜#NN)  (root, ROOT#null, 高#VA)  (advmod, 优于#VV, 更#AD)  (advmod, 优于#VV, 远远#AD)  (conj, 高#VA, 优于#VV)  (dobj, 优于#VV, 莴笋#NN)  (amod, 特点#NN, 主要#JJ)  (nsubj, 矿物质#NN, 特点#NN)  (cop, 矿物质#NN, 是#VC)  (conj, 高#VA, 矿物质#NN)  (conj, 矿物质#NN, 丰富#VA)   (advmod, 高#VA, 如#AD)  (nn, 含量#NN, 钙#NN)  (nsubj, 高#VA, 含量#NN)  (case, 生菜#NN, 比#P)  (prep, 高#VA, 生菜#NN)  (root, ROOT#null, 高#VA)  (nummod, 倍#M, 1.9#CD)  (dep, 高#VA, 倍#M)  (case, 莴笋#NN, 比#P)  (prep, 高#VA, 莴笋#NN)  (dep, 高#VA, 高#VA)  (nummod, 倍#M, 2#CD)  (dep, 高#VA, 倍#M)  (nn, 含量#NN, 铁#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 分别#AD)  (case, 莴笋#NN, 比#P)  (conj, 莴笋#NN, 生菜#NN)  (cc, 莴笋#NN, 和#CC)  (prep, 高#VA, 莴笋#NN)  (conj, 高#VA, 高#VA)  (dep, 33#CD, 50#CD)  (nummod, 33#CD, %#CD)  (cc, 33#CD, 和#CC)  (nummod, %#NN, 33#CD)  (dobj, 高#VA, %#NN)  (nn, 含量#NN, 锌#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 分别#AD)  (case, 莴笋#NN, 比#P)  (conj, 莴笋#NN, 生菜#NN)  (cc, 莴笋#NN, 和#CC)  (prep, 高#VA, 莴笋#NN)  (conj, 高#VA, 高#VA)  (nummod, %#NN, 86#CD)  (conj, %#NN, %#NN)  (cc, %#NN, 和#CC)  (nummod, %#NN, 33#CD)  (nsubj, 高#VA, %#NN)  (nn, 含量#NN, 硒#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 分别#AD)  (case, 莴笋#NN, 比#P)  (conj, 莴笋#NN, 生菜#NN)  (cc, 莴笋#NN, 和#CC)  (prep, 高#VA, 莴笋#NN)  (conj, 高#VA, 高#VA)  (nsubj, 倍#M, 22#CD)  (dep, 倍#M, %#CD)  (cc, 倍#M, 和#CC)  (nummod, 倍#M, 1.8#CD)  (conj, 高#VA, 倍#M)
+        </parsing>
+
+        <tag>
+            含有  VB  蛋白质  脂肪  维生素A  油麦价值  油麦菜  优于莴笋  生菜  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            食用方法以生食为主，可以凉拌，也可蘸各种调料。熟食可炒食，可涮食，味道独特。
+            1.油麦菜炒的时间不能过长，断生即可，否则会影响成菜脆嫩的口感和鲜艳的色泽。
+            2.海鲜酱油、生抽不能放得太多，否则成菜会失去清淡的口味。
+        </rawdata>
+
+        <segment>
+            食用  方法  以  生食  为主  ，  可以  凉拌  ，  也可蘸  各  种  调料  。  熟食  可  炒食  ，  可涮食  ，  味道  独特  。
+            油麦  菜炒  的  时间  不  能  过长  ，  断生  即可  ，  否则  会  影响  成  菜  脆嫩  的  口感  和  鲜艳  的  色泽  。
+            海鲜  酱油  、  生抽  不  能  放得  太  多  ，  否则  成菜  会  失去  清淡  的  口味  。
+        </segment>
+
+        <pos>
+            食用#VV  方法#NN  以#P  生食#NN  为主#VV  ，#PU  可以#VV  凉拌#NN  ，#PU  也可蘸#VV  各#DT  种#M  调料#NN    。#PU  熟食#NR  可#VV  炒食#VV  ，#PU  可涮食#NN  ，#PU  味道#NN  独特#VA    。#PU    。#PU
+            油麦#NN  菜炒#NN  的#DEG  时间#NN  不#AD  能#VV  过长#VV  ，#PU  断生#NN  即可#NN  ，#PU  否则#AD  会#VV  影响#VV  成#VV  菜#NN  脆嫩#NN  的#DEG  口感#NN  和#CC  鲜艳#NN  的#DEC  色泽#NN  。#PU
+            海鲜#NR  酱油#NR  、#PU  生抽#NR  不#AD  能#VV  放得#VV  太#AD  多#VA  ，#PU  否则#AD  成菜#AD  会#VV  失去#VV  清淡#VA  的#DEC  口味#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 方法#NN)  (case, 生食#NN, 以#P)  (prep, 为主#VV, 生食#NN)  (conj, 食用#VV, 为主#VV)  (conj, 食用#VV, 可以#VV)  (dobj, 可以#VV, 凉拌#NN)  (conj, 食用#VV, 也可蘸#VV)  (det, 调料#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 也可蘸#VV, 调料#NN)   (nsubj, 炒食#VV, 熟食#NR)  (mmod, 炒食#VV, 可#VV)  (root, ROOT#null, 炒食#VV)  (nsubj, 独特#VA, 可涮食#NN)  (nsubj, 独特#VA, 味道#NN)  (ccomp, 炒食#VV, 独特#VA)   (root, ROOT#null, null#null)
+            (nn, 菜炒#NN, 油麦#NN)  (assmod, 时间#NN, 菜炒#NN)  (case, 菜炒#NN, 的#DEG)  (nsubj, 过长#VV, 时间#NN)  (neg, 过长#VV, 不#AD)  (dep, 过长#VV, 能#VV)  (root, ROOT#null, 过长#VV)  (nn, 即可#NN, 断生#NN)  (nsubj, 影响#VV, 即可#NN)  (advmod, 影响#VV, 否则#AD)  (mmod, 影响#VV, 会#VV)  (conj, 过长#VV, 影响#VV)  (relcl, 色泽#NN, 成#VV)  (nn, 脆嫩#NN, 菜#NN)  (assmod, 鲜艳#NN, 脆嫩#NN)  (case, 脆嫩#NN, 的#DEG)  (conj, 鲜艳#NN, 口感#NN)  (cc, 鲜艳#NN, 和#CC)  (dobj, 成#VV, 鲜艳#NN)  (mark, 成#VV, 的#DEC)  (dobj, 影响#VV, 色泽#NN)
+            (nn, 生抽#NR, 海鲜#NR)  (conj, 生抽#NR, 酱油#NR)  (nsubj, 放得#VV, 生抽#NR)  (xsubj, 多#VA, 生抽#NR)  (neg, 放得#VV, 不#AD)  (mmod, 放得#VV, 能#VV)  (root, ROOT#null, 放得#VV)  (advmod, 多#VA, 太#AD)  (ccomp, 放得#VV, 多#VA)  (advmod, 失去#VV, 否则#AD)  (advmod, 失去#VV, 成菜#AD)  (mmod, 失去#VV, 会#VV)  (conj, 放得#VV, 失去#VV)  (relcl, 口味#NN, 清淡#VA)  (mark, 清淡#VA, 的#DEC)  (dobj, 失去#VV, 口味#NN)
+        </parsing>
+
+        <tag>
+            食用方法  炒食  可涮食独特  味道独特  油麦菜炒  过长  断生即可  成色泽  鲜艳  口感  影响色泽  生抽  酱油  放得  口味清淡  失去口味  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071007477509.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\185 油麦菜.jpg
+    </picturelocalurl>
+
+</content>

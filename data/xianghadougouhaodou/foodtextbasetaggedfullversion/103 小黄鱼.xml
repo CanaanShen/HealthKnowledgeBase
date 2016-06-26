@@ -1,0 +1,190 @@
+<content>
+
+    <id>
+        103
+    </id>
+
+    <foodname>
+        小黄鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        小黄花鱼、小鲜、大眼、花色、小黄瓜、古鱼、黄鳞鱼、小春色、金龙、厚鳞仔
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            儿童和疮疡肿毒患者及哮喘、过敏体质的人应慎食。
+        </rawdata>
+
+        <segment>
+            儿童  和  疮疡肿  毒  患者  及  哮喘  、  过敏  体质  的  人  应  慎食  。
+        </segment>
+
+        <pos>
+            儿童#NN  和#CC  疮疡肿#NN  毒#VV  患者#NN  及#CC  哮喘#NN  、#PU  过敏#NN  体质#NN  的#DEC  人#NN  应#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 疮疡肿#NN, 儿童#NN)  (cc, 疮疡肿#NN, 和#CC)  (nsubj, 毒#VV, 疮疡肿#NN)  (relcl, 人#NN, 毒#VV)  (conj, 体质#NN, 患者#NN)  (cc, 体质#NN, 及#CC)  (conj, 体质#NN, 哮喘#NN)  (nn, 体质#NN, 过敏#NN)  (dobj, 毒#VV, 体质#NN)  (mark, 毒#VV, 的#DEC)  (nsubj, 应#VV, 人#NN)  (root, ROOT#null, 应#VV)  (dobj, 应#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            儿童  疮疡肿毒  患者  哮喘  过敏体质  人应  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  可食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  可食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 可食用#VV, 人群#NN)  (root, ROOT#null, 可食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群可食用  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            小黄鱼，色金黄，体长而扁侧，一般约16~25cm，呈柳叶形，嘴尖，头内有耳石，背部灰褐色，腹两侧为黄色，鳞片中等大小，背鳍较长，中间有起伏，尾鳍双截形。小黄鱼肉嫩且多，肉呈蒜瓣状，刺少，味鲜美。
+            大小黄鱼的主要区别是：大黄鱼的鳞较小而小黄鱼的鳞片较大而稀少；大黄鱼的尾柄较长而小黄色尾柄较短；大黄鱼臀鳍第二鳍棘等于或大于眼径，而小黄鱼则小于眼径；大黄鱼骸部具4个不明显的小孔，小黄鱼具6个小孔；大黄鱼的下唇长于上唇、口闭时较圆，小黄鱼上、下唇等长、口闭时较尖。
+        </rawdata>
+
+        <segment>
+            小黄鱼  ，  色  金黄  ，  体长  而扁侧  ，  一般  约  16  ~  25  cm  ，  呈  柳叶形  ，  嘴尖  ，  头  内  有  耳石  ，  背部  灰褐色  ，  腹  两  侧  为  黄色  ，  鳞片  中等  大小  ，  背鳍  较长  ，  中间  有  起伏  ，  尾鳍  双  截  形  。  小黄鱼肉  嫩且多  ，  肉  呈  蒜  瓣状  ，  刺少  ，  味  鲜美  。
+            大  小黄鱼  的  主要  区  别是  ：  大黄鱼  的  鳞较  小  而  小黄鱼  的  鳞片  较大  而  稀少  ；  大黄鱼  的  尾柄  较长  而  小  黄色  尾柄  较短  ；  大黄鱼  臀鳍  第二  鳍棘  等于  或  大于  眼径  ，  而  小黄鱼  则  小于  眼径  ；  大黄鱼  骸部  具  4  个  不明显  的  小孔  ，  小黄鱼具  6  个  小孔  ；  大黄鱼  的  下唇  长于  上唇  、  口闭  时  较  圆  ，  小黄鱼  上  、  下唇  等长  、  口闭  时  较  尖  。
+        </segment>
+
+        <pos>
+            小黄鱼#NN  ，#PU  色#NN  金黄#VV  ，#PU  体长#VV  而扁侧#NN  ，#PU  一般#AD  约#AD  16#CD  ~#VV  25#CD  cm#NN  ，#PU  呈#VV  柳叶形#NN  ，#PU  嘴尖#NN  ，#PU  头#NN  内#LC  有#VE  耳石#NN  ，#PU  背部#NN  灰褐色#VV  ，#PU  腹#NN  两#CD  侧#LC  为#VC  黄色#JJ  ，#PU  鳞片#VV  中等#JJ  大小#NN  ，#PU  背鳍#NN  较长#NN  ，#PU  中间#NN  有#VE  起伏#NN  ，#PU  尾鳍#CD  双#M  截#NN  形#VV    。#PU  小黄鱼肉#NR  嫩且多#VV  ，#PU  肉#NN  呈#VV  蒜#NN  瓣状#NN  ，#PU  刺少#NN  ，#PU  味#AD  鲜美#VV    。#PU    。#PU
+            大#JJ  小黄鱼#NN  的#DEG  主要#JJ  区#NN  别是#VV  ：#PU  大黄鱼#NN  的#DEG  鳞较#NN  小#VA  而#CC  小黄鱼#NN  的#DEG  鳞片#CD  较大#JJ  而#MSP  稀少#VV  ；#PU  大黄鱼#NN  的#DEC  尾柄#NN  较长#NN  而#CC  小#JJ  黄色#JJ  尾柄#NN  较短#NN  ；#PU  大黄鱼#NN  臀鳍#NN  第二#OD  鳍棘#NN  等于#VV  或#CC  大于#VV  眼径#NN  ，#PU  而#AD  小黄鱼#NN  则#AD  小于#VV  眼径#NN  ；#PU  大黄鱼#NN  骸部#NN  具#VV  4#CD  个#M  不明显#NN  的#DEG  小孔#NN  ，#PU  小黄鱼具#VV  6#CD  个#M  小孔#NN  ；#PU  大黄鱼#NN  的#DEG  下唇#NN  长于#NN  上唇#NR  、#PU  口闭#NR  时#LC  较#AD  圆#VV  ，#PU  小黄鱼#NN  上#LC  、#PU  下唇#NN  等长#NN  、#PU  口闭#NN  时#LC  较#AD  尖#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 金黄#VV, 小黄鱼#NN)  (nsubj, 金黄#VV, 色#NN)  (root, ROOT#null, 金黄#VV)  (conj, 金黄#VV, 体长#VV)  (dobj, 体长#VV, 而扁侧#NN)  (advmod, ~#VV, 一般#AD)  (advmod, 16#CD, 约#AD)  (dep, ~#VV, 16#CD)  (nummod, cm#NN, 25#CD)  (dobj, ~#VV, cm#NN)  (conj, 金黄#VV, 呈#VV)  (dobj, 呈#VV, 柳叶形#NN)  (dep, 有#VE, 嘴尖#NN)  (loc, 有#VE, 头#NN)  (case, 头#NN, 内#LC)  (conj, 金黄#VV, 有#VE)  (dobj, 有#VE, 耳石#NN)  (nsubj, 灰褐色#VV, 背部#NN)  (conj, 金黄#VV, 灰褐色#VV)  (dep, 为#VC, 腹#NN)  (loc, 为#VC, 两#CD)  (case, 两#CD, 侧#LC)  (ccomp, 灰褐色#VV, 为#VC)  (dep, 为#VC, 黄色#JJ)  (conj, 为#VC, 鳞片#VV)  (amod, 大小#NN, 中等#JJ)  (dobj, 鳞片#VV, 大小#NN)  (nn, 较长#NN, 背鳍#NN)  (dep, 有#VE, 较长#NN)  (dep, 有#VE, 中间#NN)  (conj, 金黄#VV, 有#VE)  (dobj, 有#VE, 起伏#NN)  (nummod, 双#M, 尾鳍#CD)  (clf, 截#NN, 双#M)  (nsubj, 形#VV, 截#NN)  (conj, 金黄#VV, 形#VV)   (nsubj, 嫩且多#VV, 小黄鱼肉#NR)  (root, ROOT#null, 嫩且多#VV)  (nsubj, 呈#VV, 肉#NN)  (ccomp, 嫩且多#VV, 呈#VV)  (nn, 瓣状#NN, 蒜#NN)  (dobj, 呈#VV, 瓣状#NN)  (nsubj, 鲜美#VV, 刺少#NN)  (advmod, 鲜美#VV, 味#AD)  (conj, 呈#VV, 鲜美#VV)   (root, ROOT#null, null#null)
+            (amod, 小黄鱼#NN, 大#JJ)  (assmod, 区#NN, 小黄鱼#NN)  (case, 小黄鱼#NN, 的#DEG)  (amod, 区#NN, 主要#JJ)  (nsubj, 别是#VV, 区#NN)  (root, ROOT#null, 别是#VV)  (assmod, 鳞较#NN, 大黄鱼#NN)  (case, 大黄鱼#NN, 的#DEG)  (nsubj, 小#VA, 鳞较#NN)  (dep, 别是#VV, 小#VA)  (cc, 小#VA, 而#CC)  (assmod, 较短#NN, 小黄鱼#NN)  (case, 小黄鱼#NN, 的#DEG)  (nummod, 较短#NN, 鳞片#CD)  (amod, 较短#NN, 较大#JJ)  (prtmod, 稀少#VV, 而#MSP)  (relcl, 较长#NN, 稀少#VV)  (dobj, 稀少#VV, 大黄鱼#NN)  (mark, 稀少#VV, 的#DEC)  (nn, 较长#NN, 尾柄#NN)  (conj, 较短#NN, 较长#NN)  (cc, 较短#NN, 而#CC)  (amod, 较短#NN, 小#JJ)  (amod, 较短#NN, 黄色#JJ)  (nn, 较短#NN, 尾柄#NN)  (dep, 小#VA, 较短#NN)  (nn, 臀鳍#NN, 大黄鱼#NN)  (nn, 鳍棘#NN, 臀鳍#NN)  (nummod, 鳍棘#NN, 第二#OD)  (nsubj, 等于#VV, 鳍棘#NN)  (conj, 别是#VV, 等于#VV)  (cc, 等于#VV, 或#CC)  (dep, 等于#VV, 大于#VV)  (dobj, 大于#VV, 眼径#NN)  (advmod, 小于#VV, 而#AD)  (nsubj, 小于#VV, 小黄鱼#NN)  (advmod, 小于#VV, 则#AD)  (conj, 等于#VV, 小于#VV)  (dobj, 小于#VV, 眼径#NN)  (nn, 骸部#NN, 大黄鱼#NN)  (nsubj, 具#VV, 骸部#NN)  (conj, 等于#VV, 具#VV)  (nummod, 个#M, 4#CD)  (clf, 不明显#NN, 个#M)  (assmod, 小孔#NN, 不明显#NN)  (case, 不明显#NN, 的#DEG)  (dobj, 具#VV, 小孔#NN)  (conj, 具#VV, 小黄鱼具#VV)  (nummod, 个#M, 6#CD)  (clf, 小孔#NN, 个#M)  (dobj, 小黄鱼具#VV, 小孔#NN)  (assmod, 长于#NN, 大黄鱼#NN)  (case, 大黄鱼#NN, 的#DEG)  (nn, 长于#NN, 下唇#NN)  (nsubj, 圆#VV, 长于#NN)  (conj, 口闭#NR, 上唇#NR)  (loc, 圆#VV, 口闭#NR)  (case, 口闭#NR, 时#LC)  (advmod, 圆#VV, 较#AD)  (conj, 等于#VV, 圆#VV)  (loc, 尖#VV, 小黄鱼#NN)  (case, 小黄鱼#NN, 上#LC)  (nn, 口闭#NN, 下唇#NN)  (conj, 口闭#NN, 等长#NN)  (dep, 小黄鱼#NN, 口闭#NN)  (case, 口闭#NN, 时#LC)  (advmod, 尖#VV, 较#AD)  (conj, 等于#VV, 尖#VV)
+        </parsing>
+
+        <tag>
+            金黄  体长而扁侧  中等大小  鳞片大小  背鳍较长  别是  较大较短  稀少较长  稀少大黄鱼  尾柄较长  小较短  黄色较短  尾柄较短  大黄鱼臀鳍  臀鳍鳍棘  大于眼径  小于眼径  大黄鱼骸部  不明显  下唇长于  上唇  下唇口闭  等长  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            黄花鱼，味甘，性平。能健脾益气，开胃消食。治食欲不振、下利、失眠症、心悸、健忘。
+        </rawdata>
+
+        <segment>
+            黄花鱼  ，  味甘  ，  性平  。  能  健脾  益气  ，  开胃  消食  。  治  食欲  不振  、  下  利  、  失眠症  、  心悸  、  健忘  。
+        </segment>
+
+        <pos>
+            黄花鱼#VV  ，#PU  味甘#NN  ，#PU  性平#VV    。#PU  能#VV  健脾#VV  益气#NN  ，#PU  开胃#VV  消食#NN    。#PU  治#VV  食欲#NN  不振#VV  、#PU  下#VV  利#NR  、#PU  失眠症#NR  、#PU  心悸#NR  、#PU  健忘#NR    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄花鱼#VV)  (nsubj, 性平#VV, 味甘#NN)  (ccomp, 黄花鱼#VV, 性平#VV)   (mmod, 健脾#VV, 能#VV)  (root, ROOT#null, 健脾#VV)  (dobj, 健脾#VV, 益气#NN)  (dep, 健脾#VV, 开胃#VV)  (dobj, 开胃#VV, 消食#NN)   (root, ROOT#null, 治#VV)  (dobj, 治#VV, 食欲#NN)  (conj, 治#VV, 不振#VV)  (conj, 治#VV, 下#VV)  (conj, 健忘#NR, 利#NR)  (conj, 健忘#NR, 失眠症#NR)  (conj, 健忘#NR, 心悸#NR)  (dobj, 下#VV, 健忘#NR)
+        </parsing>
+
+        <tag>
+            健脾益气  开胃消食  健忘  失眠症  心悸  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.黄鱼含有丰富的蛋白质、矿物质和维生素，对人体有很好的补益作用，对体质虚弱和中老年人来说，食用黄鱼会收到很好的食疗效果。
+            2.黄鱼含有丰富的微量元素硒，能清除人体代谢产生的自由基，能延缓衰老，并对各种癌症有防治功效。
+        </rawdata>
+
+        <segment>
+            黄鱼  含有  丰富  的  蛋白质  、  矿物质  和  维生素  ，  对  人体  有  很  好  的  补益  作用  ，  对  体质  虚弱  和  中老年人  来说  ，  食用  黄鱼会  收到  很  好  的  食疗  效果  。
+            黄鱼  含有  丰富  的  微量  元素  硒  ，  能  清除  人体  代谢  产生  的  自由基  ，  能  延缓  衰老  ，  并  对  各  种  癌症  有  防治  功效  。
+        </segment>
+
+        <pos>
+            黄鱼#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  、#PU  矿物质#NN  和#CC  维生素#NN  ，#PU  对#P  人体#NN  有#VE  很#AD  好#VA  的#DEC  补益#JJ  作用#NN  ，#PU  对#P  体质#NR  虚弱#NN  和#CC  中老年人#NN  来说#VV  ，#PU  食用#VV  黄鱼会#NN  收到#VV  很#AD  好#VA  的#DEC  食疗#NN  效果#NN  。#PU
+            黄鱼#NN  含有#VV  丰富#VA  的#DEC  微量#NN  元素#NN  硒#NN  ，#PU  能#VV  清除#VV  人体#AD  代谢#AD  产生#VV  的#DEC  自由基#NN  ，#PU  能#VV  延缓#VV  衰老#NN  ，#PU  并#CC  对#P  各#DT  种#M  癌症#NN  有#VE  防治#NN  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 黄鱼#NN)  (root, ROOT#null, 含有#VV)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 矿物质#NN)  (cc, 维生素#NN, 和#CC)  (dobj, 含有#VV, 维生素#NN)  (case, 人体#NN, 对#P)  (prep, 有#VE, 人体#NN)  (conj, 含有#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 补益#JJ)  (dobj, 有#VE, 作用#NN)  (case, 中老年人#NN, 对#P)  (nn, 中老年人#NN, 体质#NR)  (conj, 中老年人#NN, 虚弱#NN)  (cc, 中老年人#NN, 和#CC)  (prep, 来说#VV, 中老年人#NN)  (conj, 含有#VV, 来说#VV)  (conj, 含有#VV, 食用#VV)  (dobj, 食用#VV, 黄鱼会#NN)  (conj, 食用#VV, 收到#VV)  (advmod, 好#VA, 很#AD)  (relcl, 效果#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 效果#NN, 食疗#NN)  (dobj, 收到#VV, 效果#NN)
+            (nsubj, 含有#VV, 黄鱼#NN)  (root, ROOT#null, 含有#VV)  (relcl, 硒#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 硒#NN, 微量#NN)  (nn, 硒#NN, 元素#NN)  (dobj, 含有#VV, 硒#NN)  (mmod, 清除#VV, 能#VV)  (conj, 含有#VV, 清除#VV)  (advmod, 产生#VV, 人体#AD)  (advmod, 产生#VV, 代谢#AD)  (relcl, 自由基#NN, 产生#VV)  (mark, 产生#VV, 的#DEC)  (dobj, 清除#VV, 自由基#NN)  (mmod, 延缓#VV, 能#VV)  (conj, 含有#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (cc, 含有#VV, 并#CC)  (case, 癌症#NN, 对#P)  (det, 癌症#NN, 各#DT)  (clf, 各#DT, 种#M)  (prep, 有#VE, 癌症#NN)  (dep, 含有#VV, 有#VE)  (nn, 功效#NN, 防治#NN)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            维生素丰富  蛋白质  矿物质  含有维生素  中老年人  虚弱  食用黄鱼会  食疗效果  收到效果  硒丰富  含有硒  产生自由基  清除自由基  延缓衰老  防治功效  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.小黄鱼适合烧、煎、炸、糖醋等烹调方法。
+            2.黄鱼的肉质鲜嫩，适合清蒸，如果用油煎的话，油量需多一些，以免将黄鱼肉煎散，煎的时间也不宜过长。
+            3.烧黄鱼时，揭去头皮，就可除去异味。
+        </rawdata>
+
+        <segment>
+            小黄鱼  适合  烧  、  煎  、  炸  、  糖醋  等  烹调  方法  。
+            黄鱼  的  肉质  鲜嫩  ，  适合  清蒸  ，  如果  用  油煎  的话  ，  油量  需  多  一些  ，  以免  将  黄鱼肉  煎散  ，  煎  的  时间  也  不  宜  过长  。
+            烧  黄鱼时  ，  揭去  头皮  ，  就  可  除去  异味  。
+        </segment>
+
+        <pos>
+            小黄鱼#NN  适合#VV  烧#NN  、#PU  煎#NN  、#PU  炸#VV  、#PU  糖醋#NN  等#ETC  烹调#JJ  方法#NN  。#PU
+            黄鱼#NN  的#DEG  肉质#NN  鲜嫩#VV  ，#PU  适合#VV  清蒸#NN  ，#PU  如果#CS  用#VV  油煎#NN  的话#SP  ，#PU  油量#AD  需#VV  多#AD  一些#CD  ，#PU  以免#VV  将#AD  黄鱼肉#VV  煎散#NN  ，#PU  煎#VV  的#DEC  时间#NN  也#AD  不#AD  宜#NR  过长#VV  。#PU
+            烧#NR  黄鱼时#VV  ，#PU  揭去#VV  头皮#NN  ，#PU  就#AD  可#VV  除去#P  异味#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 适合#VV, 小黄鱼#NN)  (root, ROOT#null, 适合#VV)  (dep, 方法#NN, 烧#NN)  (conj, 烧#NN, 煎#NN)  (conj, 烧#NN, 炸#VV)  (dep, 烧#NN, 糖醋#NN)  (etc, 糖醋#NN, 等#ETC)  (amod, 方法#NN, 烹调#JJ)  (dobj, 适合#VV, 方法#NN)
+            (assmod, 肉质#NN, 黄鱼#NN)  (case, 黄鱼#NN, 的#DEG)  (nsubj, 鲜嫩#VV, 肉质#NN)  (root, ROOT#null, 鲜嫩#VV)  (relcl, 时间#NN, 适合#VV)  (dobj, 适合#VV, 清蒸#NN)  (advmod, 用#VV, 如果#CS)  (dep, 需#VV, 用#VV)  (dobj, 用#VV, 油煎#NN)  (dep, 用#VV, 的话#SP)  (advmod, 需#VV, 油量#AD)  (conj, 适合#VV, 需#VV)  (advmod, 一些#CD, 多#AD)  (range, 需#VV, 一些#CD)  (conj, 适合#VV, 以免#VV)  (advmod, 黄鱼肉#VV, 将#AD)  (ccomp, 以免#VV, 黄鱼肉#VV)  (dobj, 黄鱼肉#VV, 煎散#NN)  (conj, 适合#VV, 煎#VV)  (mark, 适合#VV, 的#DEC)  (nsubj, 过长#VV, 时间#NN)  (advmod, 过长#VV, 也#AD)  (neg, 过长#VV, 不#AD)  (prep, 过长#VV, 宜#NR)  (ccomp, 鲜嫩#VV, 过长#VV)
+            (nsubj, 黄鱼时#VV, 烧#NR)  (xsubj, 揭去#VV, 烧#NR)  (root, ROOT#null, 黄鱼时#VV)  (ccomp, 黄鱼时#VV, 揭去#VV)  (dobj, 揭去#VV, 头皮#NN)  (advmod, 可#VV, 就#AD)  (conj, 揭去#VV, 可#VV)  (case, 异味#NN, 除去#P)  (prep, 可#VV, 异味#NN)
+        </parsing>
+
+        <tag>
+            烹调方法  适合方法  鲜嫩  适合时间  适合清蒸  黄鱼肉煎散  揭去头皮  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/281944392614.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\103 小黄鱼.jpg
+    </picturelocalurl>
+
+</content>

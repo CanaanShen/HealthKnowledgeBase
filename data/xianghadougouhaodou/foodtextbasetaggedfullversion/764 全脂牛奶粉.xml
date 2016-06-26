@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        764
+    </id>
+
+    <foodname>
+        全脂牛奶粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            全脂奶粉是以新鲜牛奶为原料，用冷冻或加热的方法，除去牛奶中几乎全部的水分，干燥后添加适量白砂糖加工而成的。奶粉中保留了鲜奶中绝大部分的营养成分，而且冲调容易，携带方便，是一种深受消费者喜爱的乳制品。全脂奶粉含有牛奶中的优质蛋白质、脂肪、多种维生素以及钙、磷、铁等矿物质，是适合天天饮用的营养佳品。
+        </rawdata>
+
+        <segment>
+            全脂  奶粉  是  以  新鲜  牛奶  为  原料  ，  用  冷冻  或  加热  的  方法  ，  除去  牛奶  中  几乎  全部  的  水分  ，  干燥  后  添加  适量  白砂糖  加工  而  成  的  。  奶粉  中保  留了  鲜奶  中  绝大部分  的  营养  成分  ，  而且  冲调  容易  ，  携带  方便  ，  是  一  种  深  受  消费者  喜爱  的  乳制品  。  全脂  奶粉  含有  牛奶  中  的  优质  蛋白质  、  脂肪  、  多  种  维生素  以及  钙  、  磷  、  铁  等  矿物质  ，  是  适合  天天  饮用  的  营养  佳品  。
+        </segment>
+
+        <pos>
+            全脂#NN  奶粉#NN  是#VC  以#P  新鲜#JJ  牛奶#NN  为#VV  原料#NN  ，#PU  用#P  冷冻#NN  或#CC  加热#NN  的#DEG  方法#NN  ，#PU  除去#P  牛奶#NN  中#LC  几乎#AD  全部#DT  的#DEG  水分#NN  ，#PU  干燥#NN  后#LC  添加#VV  适量#NN  白砂糖#NN  加工#NN  而#MSP  成#VV  的#DEC    。#PU  奶粉#VV  中保#NR  留了#NN  鲜奶#NN  中#LC  绝大部分#NN  的#DEG  营养#VA  成分#NN  ，#PU  而且#CC  冲调#AD  容易#VA  ，#PU  携带#VV  方便#NN  ，#PU  是#VC  一#CD  种#M  深#AD  受#VV  消费者#NN  喜爱#NN  的#DEC  乳制品#NN    。#PU  全脂#NN  奶粉#AD  含有#VV  牛奶#NN  中#LC  的#DEG  优质#JJ  蛋白质#NN  、#PU  脂肪#NN  、#PU  多#CD  种#M  维生素#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  是#VC  适合#VV  天天#NN  饮用#NN  的#DEC  营养#VA  佳品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 奶粉#NN, 全脂#NN)  (nsubj, 为#VV, 奶粉#NN)  (cop, 为#VV, 是#VC)  (case, 牛奶#NN, 以#P)  (amod, 牛奶#NN, 新鲜#JJ)  (prep, 为#VV, 牛奶#NN)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 原料#NN)  (case, 方法#NN, 用#P)  (conj, 加热#NN, 冷冻#NN)  (cc, 加热#NN, 或#CC)  (assmod, 方法#NN, 加热#NN)  (case, 加热#NN, 的#DEG)  (prep, 添加#VV, 方法#NN)  (case, 牛奶#NN, 除去#P)  (prep, 添加#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (dep, 全部#DT, 几乎#AD)  (assmod, 水分#NN, 全部#DT)  (case, 全部#DT, 的#DEG)  (nsubj, 添加#VV, 水分#NN)  (loc, 添加#VV, 干燥#NN)  (case, 干燥#NN, 后#LC)  (dep, 为#VV, 添加#VV)  (nn, 加工#NN, 适量#NN)  (nn, 加工#NN, 白砂糖#NN)  (dobj, 添加#VV, 加工#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 添加#VV, 成#VV)  (mark, 为#VV, 的#DEC)   (root, ROOT#null, 奶粉#VV)  (nn, 绝大部分#NN, 中保#NR)  (nn, 鲜奶#NN, 留了#NN)  (dep, 绝大部分#NN, 鲜奶#NN)  (case, 鲜奶#NN, 中#LC)  (assmod, 成分#NN, 绝大部分#NN)  (case, 绝大部分#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (dobj, 奶粉#VV, 成分#NN)  (cc, 奶粉#VV, 而且#CC)  (advmod, 容易#VA, 冲调#AD)  (conj, 奶粉#VV, 容易#VA)  (conj, 奶粉#VV, 携带#VV)  (dobj, 携带#VV, 方便#NN)  (cop, 乳制品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 乳制品#NN, 种#M)  (advmod, 受#VV, 深#AD)  (relcl, 乳制品#NN, 受#VV)  (nn, 喜爱#NN, 消费者#NN)  (dobj, 受#VV, 喜爱#NN)  (mark, 受#VV, 的#DEC)  (conj, 奶粉#VV, 乳制品#NN)   (nsubj, 含有#VV, 全脂#NN)  (advmod, 含有#VV, 奶粉#AD)  (root, ROOT#null, 含有#VV)  (assmod, 蛋白质#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (nummod, 种#M, 多#CD)  (clf, 钙#NN, 种#M)  (conj, 钙#NN, 维生素#NN)  (cc, 钙#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dobj, 含有#VV, 矿物质#NN)  (cop, 佳品#NN, 是#VC)  (relcl, 佳品#NN, 适合#VV)  (nn, 饮用#NN, 天天#NN)  (dobj, 适合#VV, 饮用#NN)  (mark, 适合#VV, 的#DEC)  (nfincl, 佳品#NN, 营养#VA)  (conj, 含有#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+            全脂奶粉  新鲜牛奶  加热  冷冻  适量加工  白砂糖加工  添加加工  留了鲜奶  携带方便  受乳制品  消费者喜爱  优质蛋白质  含有矿物质  适合佳品  天天饮用  适合饮用  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            全脂奶粉含有牛奶中的优质蛋白质、脂肪、多种维生素以及钙、磷、铁等矿物质，是适合天天饮用的营养佳品，可防止皮肤干燥及暗沉，使皮肤白皙，有光泽；也可补充丰富的钙质，适合缺钙的人、少儿、易怒、失眼者以及工作压力大的人。
+        </rawdata>
+
+        <segment>
+            全脂  奶粉  含有  牛奶  中  的  优质  蛋白质  、  脂肪  、  多  种  维生素  以及  钙  、  磷  、  铁  等  矿物质  ，  是  适合  天天  饮用  的  营养  佳品  ，  可防止  皮肤  干燥  及  暗沉  ，  使  皮肤  白皙  ，  有光泽  ；  也  可  补充  丰富  的  钙质  ，  适合  缺钙  的  人  、  少儿  、  易怒  、  失眼者  以及  工作  压力  大  的  人  。
+        </segment>
+
+        <pos>
+            全脂#NN  奶粉#NN  含有#VV  牛奶#NN  中#LC  的#DEG  优质#JJ  蛋白质#NN  、#PU  脂肪#NN  、#PU  多#CD  种#M  维生素#NN  以及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  矿物质#NN  ，#PU  是#VC  适合#VV  天天#NN  饮用#NN  的#DEG  营养#VA  佳品#NN  ，#PU  可防止#VV  皮肤#JJ  干燥#NN  及#CC  暗沉#NN  ，#PU  使#VV  皮肤#VV  白皙#NN  ，#PU  有光泽#VV  ；#PU  也#AD  可#VV  补充#NN  丰富#VA  的#DEC  钙质#NN  ，#PU  适合#VV  缺钙#NN  的#DEC  人#NN  、#PU  少儿#JJ  、#PU  易怒#NN  、#PU  失眼者#NN  以及#CC  工作#NN  压力#NN  大#VA  的#DEC  人#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 奶粉#NN, 全脂#NN)  (nsubj, 含有#VV, 奶粉#NN)  (root, ROOT#null, 含有#VV)  (assmod, 蛋白质#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 的#DEG)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 人#NN, 蛋白质#NN)  (conj, 人#NN, 脂肪#NN)  (nummod, 种#M, 多#CD)  (clf, 矿物质#NN, 种#M)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 以及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (nn, 矿物质#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (dep, 人#NN, 矿物质#NN)  (cop, 适合#VV, 是#VC)  (relcl, 人#NN, 适合#VV)  (nn, 饮用#NN, 天天#NN)  (assmod, 佳品#NN, 饮用#NN)  (case, 饮用#NN, 的#DEG)  (nfincl, 佳品#NN, 营养#VA)  (dobj, 适合#VV, 佳品#NN)  (conj, 适合#VV, 可防止#VV)  (amod, 暗沉#NN, 皮肤#JJ)  (conj, 暗沉#NN, 干燥#NN)  (cc, 暗沉#NN, 及#CC)  (dobj, 可防止#VV, 暗沉#NN)  (conj, 适合#VV, 使#VV)  (ccomp, 使#VV, 皮肤#VV)  (dobj, 皮肤#VV, 白皙#NN)  (conj, 皮肤#VV, 有光泽#VV)  (advmod, 可#VV, 也#AD)  (conj, 皮肤#VV, 可#VV)  (nsubj, 丰富#VA, 补充#NN)  (relcl, 钙质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 可#VV, 钙质#NN)  (conj, 皮肤#VV, 适合#VV)  (dobj, 适合#VV, 缺钙#NN)  (mark, 适合#VV, 的#DEC)  (dep, 人#NN, 人#NN)  (amod, 人#NN, 少儿#JJ)  (conj, 人#NN, 易怒#NN)  (conj, 人#NN, 失眼者#NN)  (cc, 人#NN, 以及#CC)  (nn, 压力#NN, 工作#NN)  (nsubj, 大#VA, 压力#NN)  (relcl, 人#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 含有#VV, 人#NN)
+        </parsing>
+
+        <tag>
+            全脂奶粉  优质蛋白质  适合人  天天饮用  适合佳品  皮肤暗沉  干燥  可防止暗沉  皮肤白皙  补充丰富  钙质丰富  适合缺钙  少儿人  工作压力  含有人  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂  增加骨密度  通便  固齿  生津止渴  清热  润燥  健胃  补阴  补肺
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/20/41/82208_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\764 全脂牛奶粉.jpg
+    </picturelocalurl>
+
+</content>

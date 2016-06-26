@@ -1,0 +1,342 @@
+<content>
+
+    <id>
+        130
+    </id>
+
+    <foodname>
+        蛏子
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        缢蛏、竹蛏、大竹蛏
+    </alias>
+
+    <season>
+        6-8月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇慎食。
+        </rawdata>
+
+        <segment>
+            孕妇  慎食  。
+        </segment>
+
+        <pos>
+            孕妇#VV  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            孕妇  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适合甲状腺功能亢进病人、老年人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适合  甲状腺  功能  亢进  病人  、  老年人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适合#VV  甲状腺#NN  功能#NN  亢进#NN  病人#NN  、#PU  老年人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适合#VV, 尤#NN)  (root, ROOT#null, 适合#VV)  (nn, 病人#NN, 甲状腺#NN)  (nn, 病人#NN, 功能#NN)  (nn, 病人#NN, 亢进#NN)  (conj, 老年人#NN, 病人#NN)  (dobj, 适合#VV, 老年人#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适合  甲状腺功能亢进病人  老年人  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                40
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                7.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                131
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                134
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                114
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                175.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                33.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                55.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.93
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蛏子，学名缢蛏，属软体动物，系瓣鳃纲，真瓣鳃且、竹蛏科，贝壳脆而薄呈长扁方型，自壳顶到腹缘，有一道斜行的凹沟，故名缢蛏。
+            宁波沿海一带多滩涂，对养殖蛏子有得天独厚的优势，是宁波大众海特产品，宁海长街一带，面临三门湾，常年有大量淡水注入，海水咸淡适宜，饵料丰富，涂质以泥沙为主，因而蛏子生长快，个体大，肉嫩而肥，色白味鲜，故得名长街蛏子，据清《宁海县志》记载：蛏、蚌属，以田种之种之谓蛏田，形狭而长如中指，一名西施舌，言其美也。
+        </rawdata>
+
+        <segment>
+            蛏子  ，  学名  缢蛏  ，  属  软体  动物  ，  系  瓣鳃  纲  ，  真  瓣鳃  且  、  竹蛏  科  ，  贝壳  脆  而  薄呈长  扁方型  ，  自  壳  顶到  腹缘  ，  有  一  道  斜  行  的  凹沟  ，  故名  缢蛏  。
+            宁波  沿海  一带  多  滩涂  ，  对  养殖  蛏子  有  得天独厚  的  优势  ，  是  宁波  大众  海特  产品  ，  宁海  长街  一带  ，  面临  三门湾  ，  常年  有  大量  淡水  注入  ，  海水  咸淡  适宜  ，  饵料  丰富  ，  涂  质  以  泥沙  为主  ，  因而  蛏子  生长  快  ，  个体  大  ，  肉  嫩而肥  ，  色白  味鲜  ，  故  得名  长街  蛏子  ，  据  清  《  宁海  县志  》  记载  ：  蛏  、  蚌属  ，  以  田  种  之  种  之  谓  蛏田  ，  形狭  而  长  如  中指  ，  一  名  西施舌  ，  言  其  美  也  。
+        </segment>
+
+        <pos>
+            蛏子#NN  ，#PU  学名#VV  缢蛏#NN  ，#PU  属#VV  软体#NN  动物#NN  ，#PU  系#VC  瓣鳃#NN  纲#NN  ，#PU  真#AD  瓣鳃#VV  且#NN  、#PU  竹蛏#NN  科#NN  ，#PU  贝壳#NN  脆#NN  而#CC  薄呈长#NN  扁方型#NN  ，#PU  自#P  壳#NN  顶到#NN  腹缘#VV  ，#PU  有#VE  一#CD  道#NN  斜#NN  行#NN  的#DEG  凹沟#NN  ，#PU  故名#VV  缢蛏#NN  。#PU
+            宁波#NR  沿海#NN  一带#CD  多#CD  滩涂#NN  ，#PU  对#P  养殖#NN  蛏子#NN  有#VE  得天独厚#VV  的#DEC  优势#NN  ，#PU  是#VC  宁波#NR  大众#NR  海特#NN  产品#NN  ，#PU  宁海#AD  长街#VV  一带#CD  ，#PU  面临#VV  三门湾#CD  ，#PU  常年#AD  有#VE  大量#AD  淡水#AD  注入#VV  ，#PU  海水#NN  咸淡#NN  适宜#VA  ，#PU  饵料#NR  丰富#VA  ，#PU  涂#NN  质#NN  以#P  泥沙#NN  为主#VV  ，#PU  因而#AD  蛏子#NN  生长#NN  快#VA  ，#PU  个体#NN  大#VA  ，#PU  肉#NN  嫩而肥#NN  ，#PU  色白#VV  味鲜#NN  ，#PU  故#AD  得名#VV  长街#NN  蛏子#NN  ，#PU  据#P  清#VA  宁海#VV  县志#NN  记载#NN  ：#PU  蛏#VV  、#PU  蚌属#VV  ，#PU  以#P  田#NN  种#NN  之#DEG  种#M  之#PN  谓#VV  蛏田#NN  ，#PU  形狭#NR  而#MSP  长#VV  如#AD  中指#NN  ，#PU  一#CD  名#M  西施舌#VA  ，#PU  言#VV  其#PN  美#NR  也#AD  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 学名#VV, 蛏子#NN)  (root, ROOT#null, 学名#VV)  (dobj, 学名#VV, 缢蛏#NN)  (conj, 学名#VV, 属#VV)  (nn, 动物#NN, 软体#NN)  (dobj, 属#VV, 动物#NN)  (cop, 纲#NN, 系#VC)  (nn, 纲#NN, 瓣鳃#NN)  (conj, 属#VV, 纲#NN)  (advmod, 瓣鳃#VV, 真#AD)  (conj, 属#VV, 瓣鳃#VV)  (conj, 扁方型#NN, 且#NN)  (nn, 扁方型#NN, 竹蛏#NN)  (conj, 扁方型#NN, 科#NN)  (nn, 扁方型#NN, 贝壳#NN)  (conj, 扁方型#NN, 脆#NN)  (cc, 扁方型#NN, 而#CC)  (nn, 扁方型#NN, 薄呈长#NN)  (dobj, 瓣鳃#VV, 扁方型#NN)  (case, 顶到#NN, 自#P)  (nn, 顶到#NN, 壳#NN)  (prep, 腹缘#VV, 顶到#NN)  (conj, 属#VV, 腹缘#VV)  (conj, 属#VV, 有#VE)  (nummod, 行#NN, 一#CD)  (nn, 行#NN, 道#NN)  (nn, 行#NN, 斜#NN)  (assmod, 凹沟#NN, 行#NN)  (case, 行#NN, 的#DEG)  (dobj, 有#VE, 凹沟#NN)  (conj, 属#VV, 故名#VV)  (dobj, 故名#VV, 缢蛏#NN)
+            (nn, 沿海#NN, 宁波#NR)  (nn, 滩涂#NN, 沿海#NN)  (nummod, 滩涂#NN, 一带#CD)  (nummod, 滩涂#NN, 多#CD)  (nsubj, 有#VE, 滩涂#NN)  (case, 蛏子#NN, 对#P)  (nn, 蛏子#NN, 养殖#NN)  (prep, 有#VE, 蛏子#NN)  (root, ROOT#null, 有#VE)  (relcl, 优势#NN, 得天独厚#VV)  (mark, 得天独厚#VV, 的#DEC)  (dobj, 有#VE, 优势#NN)  (cop, 产品#NN, 是#VC)  (nn, 大众#NR, 宁波#NR)  (nn, 产品#NN, 大众#NR)  (nn, 产品#NN, 海特#NN)  (conj, 有#VE, 产品#NN)  (advmod, 长街#VV, 宁海#AD)  (conj, 有#VE, 长街#VV)  (range, 长街#VV, 一带#CD)  (conj, 有#VE, 面临#VV)  (range, 面临#VV, 三门湾#CD)  (advmod, 有#VE, 常年#AD)  (conj, 有#VE, 有#VE)  (advmod, 注入#VV, 大量#AD)  (advmod, 注入#VV, 淡水#AD)  (dep, 有#VE, 注入#VV)  (nn, 咸淡#NN, 海水#NN)  (nsubj, 适宜#VA, 咸淡#NN)  (conj, 注入#VV, 适宜#VA)  (nsubj, 丰富#VA, 饵料#NR)  (conj, 注入#VV, 丰富#VA)  (nn, 质#NN, 涂#NN)  (nsubj, 为主#VV, 质#NN)  (case, 泥沙#NN, 以#P)  (prep, 为主#VV, 泥沙#NN)  (conj, 注入#VV, 为主#VV)  (advmod, 快#VA, 因而#AD)  (nn, 生长#NN, 蛏子#NN)  (nsubj, 快#VA, 生长#NN)  (conj, 注入#VV, 快#VA)  (nsubj, 大#VA, 个体#NN)  (conj, 注入#VV, 大#VA)  (nn, 嫩而肥#NN, 肉#NN)  (nsubj, 色白#VV, 嫩而肥#NN)  (conj, 注入#VV, 色白#VV)  (dobj, 色白#VV, 味鲜#NN)  (advmod, 得名#VV, 故#AD)  (conj, 色白#VV, 得名#VV)  (nn, 蛏子#NN, 长街#NN)  (dobj, 得名#VV, 蛏子#NN)  (case, 清#VA, 据#P)  (prep, 宁海#VV, 清#VA)  (conj, 色白#VV, 宁海#VV)  (nn, 记载#NN, 县志#NN)  (dobj, 宁海#VV, 记载#NN)  (conj, 色白#VV, 蛏#VV)  (conj, 色白#VV, 蚌属#VV)  (case, 之#PN, 以#P)  (nn, 种#NN, 田#NN)  (assmod, 之#PN, 种#NN)  (case, 种#NN, 之#DEG)  (dep, 之#PN, 种#M)  (prep, 谓#VV, 之#PN)  (conj, 色白#VV, 谓#VV)  (dobj, 谓#VV, 蛏田#NN)  (nsubj, 长#VV, 形狭#NR)  (prtmod, 长#VV, 而#MSP)  (conj, 注入#VV, 长#VV)  (advmod, 中指#NN, 如#AD)  (dobj, 长#VV, 中指#NN)  (nummod, 名#M, 一#CD)  (nsubj, 西施舌#VA, 名#M)  (conj, 注入#VV, 西施舌#VA)  (conj, 注入#VV, 言#VV)  (nn, 美#NR, 其#PN)  (dobj, 言#VV, 美#NR)  (advmod, 言#VV, 也#AD)
+        </parsing>
+
+        <tag>
+            学名缢蛏  软体动物  竹蛏扁方型  贝壳扁方型  薄呈长扁方型  瓣鳃扁方型  故名缢蛏  沿海滩涂  得天独厚优势  海特产品  海水咸淡  咸淡适宜  色白味鲜  县志记载  宁海记载  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            蛏肉味甘咸、性寒，入心、肝、肾经；具有补阴，清热，除烦，解酒毒等功效。对产后虚损，烦热口渴，湿热水肿，痢疾具有一定治疗效果。
+        </rawdata>
+
+        <segment>
+            蛏肉味  甘咸  、  性寒  ，  入心  、  肝  、  肾经  ；  具有  补阴  ，  清热  ，  除烦  ，  解酒  毒  等  功效  。  对  产后  虚损  ，  烦  热  口渴  ，  湿热  水肿  ，  痢疾  具有  一定  治疗  效果  。
+        </segment>
+
+        <pos>
+            蛏肉味#VV  甘咸#NN  、#PU  性寒#NN  ，#PU  入心#NN  、#PU  肝#NN  、#PU  肾经#NN  ；#PU  具有#VV  补阴#NN  ，#PU  清热#VV  ，#PU  除烦#VV  ，#PU  解酒#VV  毒#NN  等#ETC  功效#NN    。#PU  对#P  产后#NN  虚损#NN  ，#PU  烦#NR  热#NN  口渴#VV  ，#PU  湿热#NN  水肿#NN  ，#PU  痢疾#AD  具有#VV  一定#JJ  治疗#NN  效果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 蛏肉味#VV)  (conj, 肾经#NN, 甘咸#NN)  (conj, 肾经#NN, 性寒#NN)  (conj, 肾经#NN, 入心#NN)  (conj, 肾经#NN, 肝#NN)  (dobj, 蛏肉味#VV, 肾经#NN)  (conj, 蛏肉味#VV, 具有#VV)  (dobj, 具有#VV, 补阴#NN)  (conj, 蛏肉味#VV, 清热#VV)  (conj, 蛏肉味#VV, 除烦#VV)  (conj, 蛏肉味#VV, 解酒#VV)  (nn, 功效#NN, 毒#NN)  (etc, 毒#NN, 等#ETC)  (dobj, 解酒#VV, 功效#NN)   (case, 虚损#NN, 对#P)  (nn, 虚损#NN, 产后#NN)  (prep, 口渴#VV, 虚损#NN)  (nsubj, 口渴#VV, 烦#NR)  (nsubj, 口渴#VV, 热#NN)  (root, ROOT#null, 口渴#VV)  (nn, 水肿#NN, 湿热#NN)  (nsubj, 具有#VV, 水肿#NN)  (advmod, 具有#VV, 痢疾#AD)  (ccomp, 口渴#VV, 具有#VV)  (amod, 效果#NN, 一定#JJ)  (nn, 效果#NN, 治疗#NN)  (dobj, 具有#VV, 效果#NN)
+        </parsing>
+
+        <tag>
+            甘咸  性寒  入心  蛏肉味肾经  解酒功效  产后虚损  口渴  湿热水肿  一定效果  治疗效果  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        除烦  清热  补阴
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蛏肉含丰富蛋白质、钙、铁、硒、维生素A等营养元素，滋味鲜美，营养价值高，具有补虚的功能。
+        </rawdata>
+
+        <segment>
+            蛏肉  含  丰富  蛋白质  、  钙  、  铁  、  硒  、  维生素A  等  营养  元素  ，  滋味  鲜美  ，  营养  价值  高  ，  具有  补  虚  的  功能  。
+        </segment>
+
+        <pos>
+            蛏肉#AD  含#VV  丰富#VV  蛋白质#NN  、#PU  钙#NN  、#PU  铁#NN  、#PU  硒#NN  、#PU  维生素A#NN  等#ETC  营养#VA  元素#NN  ，#PU  滋味#VV  鲜美#NN  ，#PU  营养#VA  价值#NN  高#VA  ，#PU  具有#VV  补#VV  虚#AD  的#DEC  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 蛏肉#AD)  (relcl, 价值#NN, 含#VV)  (relcl, 元素#NN, 丰富#VV)  (conj, 维生素A#NN, 蛋白质#NN)  (conj, 维生素A#NN, 钙#NN)  (conj, 维生素A#NN, 铁#NN)  (conj, 维生素A#NN, 硒#NN)  (dobj, 丰富#VV, 维生素A#NN)  (etc, 维生素A#NN, 等#ETC)  (conj, 丰富#VV, 营养#VA)  (dobj, 含#VV, 元素#NN)  (conj, 含#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)  (conj, 含#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 具有#VV)  (relcl, 功能#NN, 补#VV)  (advmod, 补#VV, 虚#AD)  (mark, 补#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            含价值  蛋白质  维生素A丰富  滋味鲜美  补功能  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            忌烹调时间过短，火力过大，但要烧熟煮透。
+            清洗方法：先把泥沙冲几遍，然后加盐水浸泡半小时左右，可以在泡的同时放些菜刀之类的金属品，会让泥沙吐的更快。然后用小牙刷把壳刷干净，祛除蛏衣（黏膜）。不过洗的太干净的话，味道也会不如之前鲜美。
+        </rawdata>
+
+        <segment>
+            忌烹调  时间  过短  ，  火力  过大  ，  但  要  烧熟  煮  透  。
+            清洗  方法  ：  先  把  泥沙  冲  几  遍  ，  然后  加盐  水  浸泡  半  小时  左右  ，  可以  在  泡  的  同时  放些  菜刀  之类  的  金属品  ，  会  让  泥沙  吐  的  更快  。  然后  用  小  牙刷  把  壳刷  干净  ，  祛除  蛏衣  （  黏膜  ）  。  不过  洗  的  太  干净  的话  ，  味道  也  会  不如  之前  鲜美  。
+        </segment>
+
+        <pos>
+            忌烹调#NN  时间#NN  过短#VV  ，#PU  火力#NN  过大#NN  ，#PU  但#AD  要#VV  烧熟#AD  煮#VV  透#NN  。#PU
+            清洗#NN  方法#NN  ：#PU  先#AD  把#BA  泥沙#NN  冲#VV  几#CD  遍#NN  ，#PU  然后#AD  加盐#VV  水#NN  浸泡#NN  半#CD  小时#NN  左右#LC  ，#PU  可以#VV  在#P  泡#VA  的#DEC  同时#NN  放些#VV  菜刀#NN  之类#NN  的#DEG  金属品#NN  ，#PU  会#VV  让#VV  泥沙#NN  吐#VV  的#DEC  更快#AD    。#PU  然后#AD  用#P  小#JJ  牙刷#NN  把#BA  壳刷#NN  干净#VA  ，#PU  祛除#AD  蛏衣#VV  （#PU  黏膜#NN  ）#PU    。#PU  不过#AD  洗#VA  的#DEC  太#AD  干净#VA  的话#SP  ，#PU  味道#NN  也#AD  会#VV  不如#NN  之前#AD  鲜美#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 时间#NN, 忌烹调#NN)  (nsubj, 过短#VV, 时间#NN)  (root, ROOT#null, 过短#VV)  (nn, 过大#NN, 火力#NN)  (nsubj, 煮#VV, 过大#NN)  (advmod, 煮#VV, 但#AD)  (mmod, 煮#VV, 要#VV)  (advmod, 煮#VV, 烧熟#AD)  (ccomp, 过短#VV, 煮#VV)  (dobj, 煮#VV, 透#NN)
+            (nn, 方法#NN, 清洗#NN)  (nsubj, 冲#VV, 方法#NN)  (advmod, 冲#VV, 先#AD)  (ba, 冲#VV, 把#BA)  (nsubj, 冲#VV, 泥沙#NN)  (root, ROOT#null, 冲#VV)  (nummod, 遍#NN, 几#CD)  (dobj, 冲#VV, 遍#NN)  (advmod, 加盐#VV, 然后#AD)  (conj, 冲#VV, 加盐#VV)  (nn, 浸泡#NN, 水#NN)  (nn, 小时#NN, 浸泡#NN)  (nummod, 小时#NN, 半#CD)  (loc, 加盐#VV, 小时#NN)  (case, 小时#NN, 左右#LC)  (mmod, 放些#VV, 可以#VV)  (case, 同时#NN, 在#P)  (relcl, 同时#NN, 泡#VA)  (mark, 泡#VA, 的#DEC)  (prep, 放些#VV, 同时#NN)  (conj, 冲#VV, 放些#VV)  (nn, 之类#NN, 菜刀#NN)  (assmod, 金属品#NN, 之类#NN)  (case, 之类#NN, 的#DEG)  (dobj, 放些#VV, 金属品#NN)  (conj, 冲#VV, 会#VV)  (dobj, 会#VV, 让#VV)  (dobj, 让#VV, 泥沙#NN)  (dep, 让#VV, 吐#VV)  (mark, 让#VV, 的#DEC)  (advmod, 会#VV, 更快#AD)   (advmod, 蛏衣#VV, 然后#AD)  (case, 牙刷#NN, 用#P)  (amod, 牙刷#NN, 小#JJ)  (prep, 蛏衣#VV, 牙刷#NN)  (ba, 蛏衣#VV, 把#BA)  (nsubj, 干净#VA, 壳刷#NN)  (dep, 蛏衣#VV, 干净#VA)  (advmod, 蛏衣#VV, 祛除#AD)  (root, ROOT#null, 蛏衣#VV)  (dep, 蛏衣#VV, 黏膜#NN)   (advmod, 会#VV, 不过#AD)  (nsubj, 会#VV, 洗#VA)  (mark, 洗#VA, 的#DEC)  (advmod, 干净#VA, 太#AD)  (dep, 会#VV, 干净#VA)  (dep, 干净#VA, 的话#SP)  (dobj, 会#VV, 味道#NN)  (advmod, 会#VV, 也#AD)  (dep, 鲜美#VV, 会#VV)  (nsubj, 鲜美#VV, 不如#NN)  (advmod, 鲜美#VV, 之前#AD)  (root, ROOT#null, 鲜美#VV)
+        </parsing>
+
+        <tag>
+            忌烹调时间  过短  火力过大  清洗方法  浸泡小时  菜刀之类  放些金属品  小牙刷  壳刷干净  蛏衣  鲜美  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101107188720.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\130 蛏子.jpg
+    </picturelocalurl>
+
+</content>

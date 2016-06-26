@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        813
+    </id>
+
+    <foodname>
+        山苦荬叶
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        启明菜叶、苦菜、节托莲、小苦麦菜、苦叶苗、败酱、苦麻菜、黄鼠草、小苦苣、活血草、陷血丹、小苦荬、苦丁菜、苦碟子、光叶苦荬菜、燕儿衣、败酱草
+    </alias>
+
+    <season>
+        春
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为菊科植物山苦荬的全草或根。早春采收，洗净，鲜用或晒干。生于山地及荒野，为田间杂草。分布于中国北部、东部和南部
+        </rawdata>
+
+        <segment>
+            为  菊科  植物  山苦荬  的  全  草  或  根  。  早春  采收  ，  洗净  ，  鲜  用  或  晒干  。  生  于  山地  及  荒野  ，  为  田间  杂草  。  分布  于  中国  北部  、  东部  和  南部
+        </segment>
+
+        <pos>
+            为#VV  菊科#NN  植物#NN  山苦荬#NN  的#DEG  全#DT  草#NN  或#CC  根#M    。#PU  早春#NR  采收#VV  ，#PU  洗净#NN  ，#PU  鲜#AD  用#VV  或#CC  晒干#VV    。#PU  生#VV  于#P  山地#NN  及#CC  荒野#NN  ，#PU  为#P  田间#NN  杂草#VV    。#PU  分布#VV  于#P  中国#NR  北部#NN  、#PU  东部#NN  和#CC  南部#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 为#VV)  (nn, 山苦荬#NN, 菊科#NN)  (nn, 山苦荬#NN, 植物#NN)  (assmod, 草#NN, 山苦荬#NN)  (case, 山苦荬#NN, 的#DEG)  (det, 草#NN, 全#DT)  (dobj, 为#VV, 草#NN)  (cc, 为#VV, 或#CC)  (conj, 为#VV, 根#M)   (nsubj, 采收#VV, 早春#NR)  (root, ROOT#null, 采收#VV)  (nsubj, 用#VV, 洗净#NN)  (advmod, 用#VV, 鲜#AD)  (ccomp, 采收#VV, 用#VV)  (cc, 用#VV, 或#CC)  (conj, 用#VV, 晒干#VV)   (root, ROOT#null, 生#VV)  (case, 荒野#NN, 于#P)  (conj, 荒野#NN, 山地#NN)  (cc, 荒野#NN, 及#CC)  (prep, 生#VV, 荒野#NN)  (case, 田间#NN, 为#P)  (prep, 杂草#VV, 田间#NN)  (dep, 生#VV, 杂草#VV)   (root, ROOT#null, 分布#VV)  (case, 南部#NN, 于#P)  (nn, 南部#NN, 中国#NR)  (conj, 南部#NN, 北部#NN)  (conj, 南部#NN, 东部#NN)  (cc, 南部#NN, 和#CC)  (prep, 分布#VV, 南部#NN)
+        </parsing>
+
+        <tag>
+            菊科山苦荬  植物山苦荬  采收  荒野  山地  分布  南部  北部  东部  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            能清热解毒、凉血、活血排脓。主治阑尾炎，肠炎、痢疾，疮疖痛肿等症。
+        </rawdata>
+
+        <segment>
+            能  清热  解毒  、  凉血  、  活血  排脓  。  主治  阑尾炎  ，  肠炎  、  痢疾  ，  疮疖痛肿  等症  。
+        </segment>
+
+        <pos>
+            能#VV  清热#VV  解毒#NR  、#PU  凉血#NR  、#PU  活血#NR  排脓#NN    。#PU  主治#NR  阑尾炎#VV  ，#PU  肠炎#NR  、#PU  痢疾#NR  ，#PU  疮疖痛肿#AD  等症#VV    。#PU
+        </pos>
+
+        <parsing>
+            (mmod, 清热#VV, 能#VV)  (root, ROOT#null, 清热#VV)  (conj, 活血#NR, 解毒#NR)  (conj, 活血#NR, 凉血#NR)  (nn, 排脓#NN, 活血#NR)  (dobj, 清热#VV, 排脓#NN)   (nsubj, 阑尾炎#VV, 主治#NR)  (root, ROOT#null, 阑尾炎#VV)  (conj, 痢疾#NR, 肠炎#NR)  (nsubj, 等症#VV, 痢疾#NR)  (advmod, 等症#VV, 疮疖痛肿#AD)  (ccomp, 阑尾炎#VV, 等症#VV)
+        </parsing>
+
+        <tag>
+            活血  解毒  凉血  清热排脓  痢疾  肠炎  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        排脓  清热解毒  消肿  凉血止血  辅助降血压
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            秋季采收，洗净，阴干，切段生用。嫩根和叶可食用。
+        </rawdata>
+
+        <segment>
+            秋季  采收  ，  洗净  ，  阴干  ，  切  段  生  用  。  嫩根  和  叶可  食用  。
+        </segment>
+
+        <pos>
+            秋季#NT  采收#VV  ，#PU  洗净#NR  ，#PU  阴干#VV  ，#PU  切#NN  段#NN  生#VV  用#VV    。#PU  嫩根#NN  和#CC  叶可#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (tmod, 采收#VV, 秋季#NT)  (root, ROOT#null, 采收#VV)  (nsubj, 阴干#VV, 洗净#NR)  (ccomp, 采收#VV, 阴干#VV)  (nn, 段#NN, 切#NN)  (nsubj, 生#VV, 段#NN)  (ccomp, 阴干#VV, 生#VV)  (comod, 生#VV, 用#VV)   (conj, 叶可#NN, 嫩根#NN)  (cc, 叶可#NN, 和#CC)  (nsubj, 食用#VV, 叶可#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            采收  叶可  嫩根  食用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/55/41/82261_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\813 山苦荬叶.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,110 @@
+<content>
+
+    <id>
+        1385
+    </id>
+
+    <foodname>
+        咸黄瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            黄瓜做成的盐水瓜
+        </rawdata>
+
+        <segment>
+            黄瓜  做成  的  盐水  瓜
+        </segment>
+
+        <pos>
+            黄瓜#VV  做成#NN  的#DEG  盐水#NN  瓜#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 黄瓜#VV)  (assmod, 瓜#NN, 做成#NN)  (case, 做成#NN, 的#DEG)  (nn, 瓜#NN, 盐水#NN)  (dobj, 黄瓜#VV, 瓜#NN)
+        </parsing>
+
+        <tag>
+            黄瓜瓜  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鲜黄瓜的营养价值
+            1.黄瓜一旦经过腌制，它含有单宁酸，常吃咸黄瓜，可以使患有低血压的人升压防病；
+            2.吃咸黄瓜可以增加食欲，消除腹胀，并有退干热的作用；
+        </rawdata>
+
+        <segment>
+            鲜  黄瓜  的  营养  价值
+            黄瓜  一旦  经过  腌制  ，  它  含有  单宁酸  ，  常  吃  咸  黄瓜  ，  可以  使  患有  低血压  的  人  升压  防病  ；
+            吃  咸  黄瓜  可以  增加  食欲  ，  消除  腹胀  ，  并  有退  干热  的  作用  ；
+        </segment>
+
+        <pos>
+            鲜#VV  黄瓜#NN  的#DEG  营养#VA  价值#NN
+            黄瓜#NN  一旦#CS  经过#P  腌制#NN  ，#PU  它#PN  含有#VV  单宁酸#NN  ，#PU  常#AD  吃#VV  咸#NN  黄瓜#NN  ，#PU  可以#VV  使#VV  患有#NN  低血压#NN  的#DEG  人#NN  升压#VV  防病#NN  ；#PU
+            吃#VV  咸#NN  黄瓜#NN  可以#VV  增加#VV  食欲#NN  ，#PU  消除#VV  腹胀#NN  ，#PU  并#CC  有退#VV  干热#NN  的#DEG  作用#NN  ；#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 鲜#VV)  (assmod, 价值#NN, 黄瓜#NN)  (case, 黄瓜#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (dobj, 鲜#VV, 价值#NN)
+            (dep, 含有#VV, 黄瓜#NN)  (advmod, 含有#VV, 一旦#CS)  (case, 腌制#NN, 经过#P)  (prep, 含有#VV, 腌制#NN)  (nsubj, 含有#VV, 它#PN)  (dep, 吃#VV, 含有#VV)  (dobj, 含有#VV, 单宁酸#NN)  (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (nn, 黄瓜#NN, 咸#NN)  (dobj, 吃#VV, 黄瓜#NN)  (mmod, 使#VV, 可以#VV)  (dep, 吃#VV, 使#VV)  (nn, 低血压#NN, 患有#NN)  (assmod, 人#NN, 低血压#NN)  (case, 低血压#NN, 的#DEG)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 升压#VV)  (dobj, 升压#VV, 防病#NN)
+            (relcl, 黄瓜#NN, 吃#VV)  (dobj, 吃#VV, 咸#NN)  (nsubj, 增加#VV, 黄瓜#NN)  (mmod, 增加#VV, 可以#VV)  (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 食欲#NN)  (conj, 增加#VV, 消除#VV)  (dobj, 消除#VV, 腹胀#NN)  (cc, 增加#VV, 并#CC)  (conj, 增加#VV, 有退#VV)  (assmod, 作用#NN, 干热#NN)  (case, 干热#NN, 的#DEG)  (dobj, 有退#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            含有单宁酸  患有低血压  升压防病  吃黄瓜  增加食欲  消除腹胀  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/2f/dd/56623_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1385 咸黄瓜.jpg
+    </picturelocalurl>
+
+</content>

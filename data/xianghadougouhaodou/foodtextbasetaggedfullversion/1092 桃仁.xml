@@ -1,0 +1,190 @@
+<content>
+
+    <id>
+        1092
+    </id>
+
+    <foodname>
+        桃仁
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        毛桃仁、扁桃仁、大桃仁、桃核仁、桃核人
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇忌食。
+        </rawdata>
+
+        <segment>
+            孕妇  忌食  。
+        </segment>
+
+        <pos>
+            孕妇#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            孕妇  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            孕妇人群应忌食或少食;
+        </rawdata>
+
+        <segment>
+            孕妇  人群  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            孕妇#NN  人群#NN  应#P  忌食#NN  或少#VV  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 人群#NN, 孕妇#NN)  (nsubj, 或少#VV, 人群#NN)  (case, 忌食#NN, 应#P)  (prep, 或少#VV, 忌食#NN)  (root, ROOT#null, 或少#VV)  (nn, ;#NN, 食#NN)  (dobj, 或少#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            孕妇人群  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            桃核里的仁儿。可制食品，可入中药。含苦杏仁苷、苦杏仁酶、挥发油、脂肪油，而油中主要含有油酸甘油酯和少量亚油酸甘油酯，具有多种功效。
+        </rawdata>
+
+        <segment>
+            桃核  里  的  仁儿  。  可  制  食品  ，  可入  中药  。  含苦  杏仁苷  、  苦杏仁酶  、  挥发油  、  脂肪  油  ，  而  油  中  主要  含有  油酸  甘油酯  和  少量  亚油酸  甘油酯  ，  具有  多  种  功效  。
+        </segment>
+
+        <pos>
+            桃核#NN  里#LC  的#DEG  仁儿#NN    。#PU  可#VV  制#VV  食品#NN  ，#PU  可入#VV  中药#NN    。#PU  含苦#VV  杏仁苷#NR  、#PU  苦杏仁酶#NR  、#PU  挥发油#NR  、#PU  脂肪#NR  油#NN  ，#PU  而#CC  油#NN  中#LC  主要#AD  含有#VV  油酸#NN  甘油酯#NN  和#CC  少量#CD  亚油酸#NN  甘油酯#NN  ，#PU  具有#VV  多#CD  种#M  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 仁儿#NN, 桃核#NN)  (case, 桃核#NN, 里#LC)  (case, 桃核#NN, 的#DEG)  (root, ROOT#null, 仁儿#NN)   (mmod, 制#VV, 可#VV)  (root, ROOT#null, 制#VV)  (dobj, 制#VV, 食品#NN)  (dep, 制#VV, 可入#VV)  (dobj, 可入#VV, 中药#NN)   (root, ROOT#null, 含苦#VV)  (conj, 脂肪#NR, 杏仁苷#NR)  (conj, 脂肪#NR, 苦杏仁酶#NR)  (conj, 脂肪#NR, 挥发油#NR)  (nn, 油#NN, 脂肪#NR)  (dobj, 含苦#VV, 油#NN)  (cc, 含苦#VV, 而#CC)  (loc, 含有#VV, 油#NN)  (case, 油#NN, 中#LC)  (advmod, 含有#VV, 主要#AD)  (conj, 含苦#VV, 含有#VV)  (nn, 甘油酯#NN, 油酸#NN)  (conj, 甘油酯#NN, 甘油酯#NN)  (cc, 甘油酯#NN, 和#CC)  (nummod, 甘油酯#NN, 少量#CD)  (nn, 甘油酯#NN, 亚油酸#NN)  (dobj, 含有#VV, 甘油酯#NN)  (conj, 含苦#VV, 具有#VV)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            可入中药  脂肪  杏仁苷  苦杏仁酶  挥发油  含苦油  油酸甘油酯  亚油酸甘油酯  含有甘油酯  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.桃仁含苦杏仁苷、24－亚甲基环木菠萝烷醇、野樱苷、β－谷甾醇和菜油甾醇及它们的葡萄糖苷等，还含绿原酸、3－咖啡酰奎宁酸、苦杏仁酶、挥发油及脂肪油;
+            2.煎剂有抗炎作用，所含脂肪油有润肠缓下作用，提取物有扩张血管作用。醇提取物有抑制血液凝固作用;
+            3.桃仁还可抗过敏、镇咳、镇痛，有促进初产妇子宫收缩、止血等功效;
+            4.桃仁性甘平、味苦，入肺、肝、大肠经；有破血行瘀，润燥滑肠的功效；治经闭、痛经、癓瘕痞块，跌打损伤、肠燥便秘等症。
+        </rawdata>
+
+        <segment>
+            桃仁  含  苦  杏仁苷  、  24－  亚甲基  环  木菠萝  烷醇  、  野樱苷  、  β  －  谷甾醇  和  菜油  甾醇  及  它们  的  葡萄  糖苷  等  ，  还  含  绿  原  酸  、  3  －  咖啡  酰奎  宁酸  、  苦杏仁酶  、  挥发油  及  脂肪油  ;
+            煎剂  有  抗炎  作用  ，  所含  脂肪  油  有  润肠  缓下  作用  ，  提取物  有  扩张  血管  作用  。  醇  提取  物  有  抑制  血液  凝固  作用  ;
+            桃仁  还  可  抗  过敏  、  镇咳  、  镇痛  ，  有  促进  初产妇  子宫  收缩  、  止血  等  功效  ;
+            桃仁  性  甘  平  、  味  苦  ，  入肺  、  肝  、  大肠  经  ；  有  破  血行瘀  ，  润燥  滑  肠  的  功效  ；  治  经闭  、  痛经  、  癓瘕  痞块  ，  跌打  损伤  、  肠燥  便秘  等症  。
+        </segment>
+
+        <pos>
+            桃仁#AD  含#VV  苦#NN  杏仁苷#NN  、#PU  24#CD  －#PU  亚甲基#CD  环#NN  木菠萝#NN  烷醇#NN  、#PU  野樱苷#NR  、#PU  β#NR  －#PU  谷甾醇#NR  和#CC  菜油#NR  甾醇#NN  及#CC  它们#PN  的#DEG  葡萄#NN  糖苷#NN  等#ETC  ，#PU  还#AD  含#VV  绿#JJ  原#JJ  酸#NN  、#PU  3#CD  －#PU  咖啡#CD  酰奎#NN  宁酸#NR  、#PU  苦杏仁酶#NR  、#PU  挥发油#NR  及#CC  脂肪油#NR  ;#NN
+            煎剂#AD  有#VE  抗炎#NN  作用#NN  ，#PU  所含#NN  脂肪#NN  油#NN  有#VE  润肠#NN  缓下#NN  作用#NN  ，#PU  提取物#AD  有#VE  扩张#NN  血管#NN  作用#NN  。#PU  醇#AD  提取#VV  物#NN  有#VE  抑制#VV  血液#NN  凝固#NN  作用#NN  ;#NN
+            桃仁#NN  还#AD  可#VV  抗#VV  过敏#NR  、#PU  镇咳#NR  、#PU  镇痛#NR  ，#PU  有#VE  促进#VV  初产妇#NN  子宫#VV  收缩#NR  、#PU  止血#NR  等#ETC  功效#NN  ;#NN
+            桃仁#NN  性#NN  甘#NR  平#NN  、#PU  味#NN  苦#NN  ，#PU  入肺#NR  、#PU  肝#NR  、#PU  大肠#NR  经#VV  ；#PU  有#VE  破#VV  血行瘀#NN  ，#PU  润燥#VV  滑#NN  肠#NN  的#DEC  功效#NN  ；#PU  治#VV  经闭#NR  、#PU  痛经#NR  、#PU  癓瘕#NR  痞块#NN  ，#PU  跌打#VV  损伤#NN  、#PU  肠燥#NN  便秘#NN  等症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 桃仁#AD)  (root, ROOT#null, 含#VV)  (nn, 杏仁苷#NN, 苦#NN)  (conj, 菜油#NR, 杏仁苷#NN)  (nummod, 亚甲基#CD, 24#CD)  (nummod, 环#NN, 亚甲基#CD)  (nn, 烷醇#NN, 环#NN)  (nn, 烷醇#NN, 木菠萝#NN)  (conj, 菜油#NR, 烷醇#NN)  (conj, 菜油#NR, 野樱苷#NR)  (dep, 谷甾醇#NR, β#NR)  (conj, 菜油#NR, 谷甾醇#NR)  (cc, 菜油#NR, 和#CC)  (nn, 甾醇#NN, 菜油#NR)  (conj, 糖苷#NN, 甾醇#NN)  (cc, 糖苷#NN, 及#CC)  (assmod, 糖苷#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (nn, 糖苷#NN, 葡萄#NN)  (dobj, 含#VV, 糖苷#NN)  (etc, 糖苷#NN, 等#ETC)  (advmod, 含#VV, 还#AD)  (dep, 含#VV, 含#VV)  (amod, 酸#NN, 绿#JJ)  (amod, 酸#NN, 原#JJ)  (conj, 酰奎#NN, 酸#NN)  (nummod, 咖啡#CD, 3#CD)  (nummod, 酰奎#NN, 咖啡#CD)  (nn, ;#NN, 酰奎#NN)  (conj, 脂肪油#NR, 宁酸#NR)  (conj, 脂肪油#NR, 苦杏仁酶#NR)  (conj, 脂肪油#NR, 挥发油#NR)  (cc, 脂肪油#NR, 及#CC)  (nn, ;#NN, 脂肪油#NR)  (dobj, 含#VV, ;#NN)
+            (advmod, 有#VE, 煎剂#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 抗炎#NN)  (dobj, 有#VE, 作用#NN)  (nn, 油#NN, 所含#NN)  (nn, 油#NN, 脂肪#NN)  (dep, 有#VE, 油#NN)  (dep, 有#VE, 有#VE)  (nn, 作用#NN, 润肠#NN)  (nn, 作用#NN, 缓下#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 有#VE, 提取物#AD)  (conj, 有#VE, 有#VE)  (nn, 作用#NN, 扩张#NN)  (nn, 作用#NN, 血管#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 提取#VV, 醇#AD)  (conj, 有#VE, 提取#VV)  (dobj, 提取#VV, 物#NN)  (dep, 有#VE, 有#VE)  (nfincl, ;#NN, 抑制#VV)  (nn, 作用#NN, 血液#NN)  (nn, 作用#NN, 凝固#NN)  (dobj, 抑制#VV, 作用#NN)  (dobj, 有#VE, ;#NN)
+            (nsubj, 抗#VV, 桃仁#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 可#VV)  (root, ROOT#null, 抗#VV)  (conj, 镇痛#NR, 过敏#NR)  (conj, 镇痛#NR, 镇咳#NR)  (dobj, 抗#VV, 镇痛#NR)  (conj, 抗#VV, 有#VE)  (conj, 子宫#VV, 促进#VV)  (dobj, 促进#VV, 初产妇#NN)  (dep, 有#VE, 子宫#VV)  (conj, 止血#NR, 收缩#NR)  (nn, ;#NN, 止血#NR)  (etc, 止血#NR, 等#ETC)  (nn, ;#NN, 功效#NN)  (dobj, 子宫#VV, ;#NN)
+            (nn, 平#NN, 桃仁#NN)  (nn, 平#NN, 性#NN)  (nn, 平#NN, 甘#NR)  (conj, 苦#NN, 平#NN)  (nn, 苦#NN, 味#NN)  (nsubj, 经#VV, 苦#NN)  (conj, 大肠#NR, 入肺#NR)  (conj, 大肠#NR, 肝#NR)  (nsubj, 经#VV, 大肠#NR)  (root, ROOT#null, 经#VV)  (conj, 经#VV, 有#VE)  (relcl, 功效#NN, 破#VV)  (dobj, 破#VV, 血行瘀#NN)  (conj, 破#VV, 润燥#VV)  (nn, 肠#NN, 滑#NN)  (dobj, 润燥#VV, 肠#NN)  (mark, 破#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)  (conj, 经#VV, 治#VV)  (conj, 癓瘕#NR, 经闭#NR)  (conj, 癓瘕#NR, 痛经#NR)  (nn, 痞块#NN, 癓瘕#NR)  (dobj, 治#VV, 痞块#NN)  (conj, 经#VV, 跌打#VV)  (conj, 等症#NN, 损伤#NN)  (nn, 等症#NN, 肠燥#NN)  (nn, 等症#NN, 便秘#NN)  (dobj, 跌打#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            木菠萝烷醇  菜油  野樱苷  谷甾醇  葡萄糖苷  绿酸  原酸  脂肪油  宁酸  苦杏仁酶  挥发油  提取物  镇痛  过敏  镇咳  促进初产妇  止血  收缩  大肠  入肺  破功效  润燥肠  癓瘕  经闭  痛经  损伤  肠燥等症  便秘等症  跌打等症  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        润肠通便  活血祛瘀  镇痛  扩张外周血管  改善血液循环  抗血栓  镇咳  促进宫缩  抗炎  抗过敏  抗虫
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1、核桃仁营养丰富，富含亚硝酸甘油脂，还有强肾补脑的功效，常食可令人长寿。
+            2、煎剂有抗炎作用，所含脂肪油有润肠缓下作用，提取物有扩张血管作用。醇提取物有抑制血液凝固作用。桃仁还可抗过敏、镇咳、镇痛，促进初产妇子宫收缩、止血等。
+        </rawdata>
+
+        <segment>
+            核桃仁  营养  丰富  ，  富含  亚硝酸甘油脂  ，  还有  强  肾  补脑  的  功效  ，  常食  可  令  人  长寿  。
+            煎剂  有  抗炎  作用  ，  所含  脂肪  油  有  润肠  缓下  作用  ，  提取物  有  扩张  血管  作用  。  醇  提取  物  有  抑制  血液  凝固  作用  。  桃仁  还  可  抗  过敏  、  镇咳  、  镇痛  ，  促进  初产妇  子宫  收缩  、  止血  等  。
+        </segment>
+
+        <pos>
+            核桃仁#NN  营养#VA  丰富#VA  ，#PU  富含#AD  亚硝酸甘油脂#VA  ，#PU  还有#AD  强#JJ  肾#NN  补脑#NN  的#DEG  功效#NN  ，#PU  常食#NN  可#VV  令#VV  人#NN  长寿#NR  。#PU
+            煎剂#NN  有#VE  抗炎#NN  作用#NN  ，#PU  所含#NN  脂肪#NN  油#NN  有#VE  润肠#NN  缓下#NN  作用#NN  ，#PU  提取物#AD  有#VE  扩张#NN  血管#NN  作用#NN    。#PU  醇#NN  提取#VV  物#NN  有#VE  抑制#VV  血液#NN  凝固#NN  作用#NN    。#PU  桃仁#NN  还#AD  可#VV  抗#VV  过敏#NR  、#PU  镇咳#NR  、#PU  镇痛#NR  ，#PU  促进#VV  初产妇#NN  子宫#NN  收缩#NN  、#PU  止血#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 核桃仁#NN)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 亚硝酸甘油脂#VA, 富含#AD)  (conj, 营养#VA, 亚硝酸甘油脂#VA)  (advmod, 令#VV, 还有#AD)  (amod, 肾#NN, 强#JJ)  (nn, 补脑#NN, 肾#NN)  (assmod, 功效#NN, 补脑#NN)  (case, 补脑#NN, 的#DEG)  (nsubj, 令#VV, 功效#NN)  (nsubj, 令#VV, 常食#NN)  (mmod, 令#VV, 可#VV)  (conj, 营养#VA, 令#VV)  (dep, 长寿#NR, 人#NN)  (ccomp, 令#VV, 长寿#NR)
+            (dep, 有#VE, 煎剂#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 抗炎#NN)  (dobj, 有#VE, 作用#NN)  (nn, 油#NN, 所含#NN)  (nn, 油#NN, 脂肪#NN)  (nsubj, 有#VE, 油#NN)  (conj, 有#VE, 有#VE)  (nn, 作用#NN, 润肠#NN)  (nn, 作用#NN, 缓下#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 有#VE, 提取物#AD)  (conj, 有#VE, 有#VE)  (nn, 作用#NN, 扩张#NN)  (nn, 作用#NN, 血管#NN)  (dobj, 有#VE, 作用#NN)   (nsubj, 提取#VV, 醇#NN)  (root, ROOT#null, 提取#VV)  (dobj, 提取#VV, 物#NN)  (conj, 提取#VV, 有#VE)  (dep, 有#VE, 抑制#VV)  (nn, 作用#NN, 血液#NN)  (nn, 作用#NN, 凝固#NN)  (dobj, 抑制#VV, 作用#NN)   (nsubj, 抗#VV, 桃仁#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 可#VV)  (root, ROOT#null, 抗#VV)  (conj, 镇痛#NR, 过敏#NR)  (conj, 镇痛#NR, 镇咳#NR)  (dobj, 抗#VV, 镇痛#NR)  (conj, 抗#VV, 促进#VV)  (nn, 止血#NN, 初产妇#NN)  (nn, 止血#NN, 子宫#NN)  (conj, 止血#NN, 收缩#NN)  (dobj, 促进#VV, 止血#NN)  (etc, 止血#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            营养丰富  强肾  提取物  镇痛  过敏  镇咳  初产妇止血  子宫止血  收缩  促进止血  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            桃仁含有苦杏仁素，毒性较强，不可直接食用，多量可致死。处理方法如下：开水浸泡20--30分钟，去皮，清水浸泡30小时以上，中间要多次换水，至无粘液浸出时，入开水锅内煮开10分钟。
+        </rawdata>
+
+        <segment>
+            桃仁  含  有苦  杏仁  素  ，  毒性  较  强  ，  不  可  直接  食用  ，  多量  可  致死  。  处理  方法  如下  ：  开水  浸泡  20--  30  分钟  ，  去皮  ，  清水  浸泡  30  小时  以上  ，  中间  要  多  次  换水  ，  至  无  粘液  浸出  时  ，  入  开水  锅  内  煮开  10  分钟  。
+        </segment>
+
+        <pos>
+            桃仁#NN  含#VV  有苦#NN  杏仁#NN  素#AD  ，#PU  毒性#AD  较#AD  强#VA  ，#PU  不#AD  可#VV  直接#AD  食用#VV  ，#PU  多量#AD  可#VV  致死#VV    。#PU  处理#NN  方法#NN  如下#VV  ：#PU  开水#AD  浸泡#VV  20#CD  --#NN  30#CD  分钟#M  ，#PU  去皮#VV  ，#PU  清水#NN  浸泡#NN  30#CD  小时#NN  以上#LC  ，#PU  中间#NN  要#VV  多#CD  次#M  换水#NN  ，#PU  至#CC  无#VE  粘液#NN  浸出#NN  时#LC  ，#PU  入#VV  开水#NN  锅#NN  内#LC  煮开#VV  10#CD  分钟#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 桃仁#NN)  (root, ROOT#null, 含#VV)  (nn, 杏仁#NN, 有苦#NN)  (dobj, 含#VV, 杏仁#NN)  (advmod, 强#VA, 素#AD)  (advmod, 强#VA, 毒性#AD)  (advmod, 强#VA, 较#AD)  (conj, 含#VV, 强#VA)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 可#VV)  (advmod, 食用#VV, 直接#AD)  (dep, 强#VA, 食用#VV)  (advmod, 致死#VV, 多量#AD)  (dep, 致死#VV, 可#VV)  (dep, 强#VA, 致死#VV)   (nn, 方法#NN, 处理#NN)  (nsubj, 如下#VV, 方法#NN)  (root, ROOT#null, 如下#VV)  (advmod, 浸泡#VV, 开水#AD)  (conj, 如下#VV, 浸泡#VV)  (nummod, --#NN, 20#CD)  (nummod, 分钟#M, 30#CD)  (range, 浸泡#VV, 分钟#M)  (loc, 煮开#VV, 去皮#VV)  (nn, 浸泡#NN, 清水#NN)  (nn, 小时#NN, 浸泡#NN)  (nummod, 小时#NN, 30#CD)  (loc, 要#VV, 小时#NN)  (case, 小时#NN, 以上#LC)  (nsubj, 要#VV, 中间#NN)  (ccomp, 去皮#VV, 要#VV)  (nummod, 次#M, 多#CD)  (clf, 换水#NN, 次#M)  (dobj, 要#VV, 换水#NN)  (cc, 要#VV, 至#CC)  (conj, 要#VV, 无#VE)  (nn, 浸出#NN, 粘液#NN)  (dobj, 无#VE, 浸出#NN)  (case, 去皮#VV, 时#LC)  (loc, 煮开#VV, 入#VV)  (nn, 锅#NN, 开水#NN)  (dobj, 入#VV, 锅#NN)  (case, 入#VV, 内#LC)  (dep, 浸泡#VV, 煮开#VV)  (nummod, 分钟#M, 10#CD)  (range, 煮开#VV, 分钟#M)
+        </parsing>
+
+        <tag>
+            有苦杏仁  处理方法  如下  清水浸泡  浸泡小时  粘液浸出  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/8c/00/140_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1092 桃仁.jpg
+    </picturelocalurl>
+
+</content>

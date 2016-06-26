@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        418
+    </id>
+
+    <foodname>
+        金银花
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        银花、双花、二花、二宝花、忍冬花、鹭鸶花、苏花、金花、金藤花、双苞花、山金银花、土忍冬、土银花
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、疮疡属阴症者慎服。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  疮疡  属  阴症者  慎服  。
+        </segment>
+
+        <pos>
+            脾胃#NR  虚寒#NR  、#PU  疮疡#NR  属#VV  阴症者#NN  慎服#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 疮疡#NR, 脾胃#NR)  (conj, 疮疡#NR, 虚寒#NR)  (nsubj, 属#VV, 疮疡#NR)  (root, ROOT#null, 属#VV)  (nn, 慎服#NN, 阴症者#NN)  (dobj, 属#VV, 慎服#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒  疮疡属阴症者  慎服  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            健康体质平和质，湿热体质，阴虚体质
+        </rawdata>
+
+        <segment>
+            健康  体质  平和质  ，  湿热  体质  ，  阴虚  体质
+        </segment>
+
+        <pos>
+            健康#JJ  体质#NN  平和质#VV  ，#PU  湿热#NN  体质#NN  ，#PU  阴虚#AD  体质#VV
+        </pos>
+
+        <parsing>
+            (amod, 体质#NN, 健康#JJ)  (nsubj, 平和质#VV, 体质#NN)  (root, ROOT#null, 平和质#VV)  (nn, 体质#NN, 湿热#NN)  (nsubj, 体质#VV, 体质#NN)  (advmod, 体质#VV, 阴虚#AD)  (ccomp, 平和质#VV, 体质#VV)
+        </parsing>
+
+        <tag>
+            健康体质平和质  湿热体质  阴虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            金银花为忍冬科忍冬属植物忍冬的干燥花蕾或带初开的花。于每年5～6月间，在晴天清晨露水刚干时摘取花蕾，摊席上晾晒或阴干而成。
+            金银花自古被誉为清热解毒的良药。它性甘寒气芳香，甘寒清热而不伤胃，芳香透达又可祛邪。金银花既能宣散风热，还善清解血毒，用于各种热性病，如身热、发疹、发斑、热毒疮痈、咽喉肿痛等证，均效果显著。含有金银花的药方、药膳方特别常见，据调查，全国有1/3的中医方剂用到金银花。
+        </rawdata>
+
+        <segment>
+            金银  花  为  忍冬科  忍冬属  植物  忍冬  的  干燥  花蕾  或  带  初开  的  花  。  于  每年  5  ～  6月  间  ，  在  晴天  清晨  露水  刚  干时  摘取  花蕾  ，  摊  席上  晾晒  或  阴干  而  成  。
+            金银  花  自古  被  誉为  清热  解毒  的  良药  。  它  性甘  寒气  芳香  ，  甘  寒  清热  而  不  伤胃  ，  芳香  透达  又  可  祛邪  。  金银  花  既  能  宣散  风热  ，  还  善  清  解血毒  ，  用于  各  种  热  性病  ，  如  身热  、  发疹  、  发斑  、  热  毒疮痈  、  咽喉  肿痛  等  证  ，  均  效果  显著  。  含有  金银  花  的  药方  、  药膳  方  特别  常见  ，  据  调查  ，  全  国  有  1/3  的  中医  方剂  用到  金银  花  。
+        </segment>
+
+        <pos>
+            金银#NN  花#NN  为#VC  忍冬科#AD  忍冬属#VV  植物#NN  忍冬#NN  的#DEG  干燥#NN  花蕾#NN  或#CC  带#VV  初开#NN  的#DEC  花#NN    。#PU  于#P  每年#NR  5#CD  ～#NN  6月#NT  间#LC  ，#PU  在#P  晴天#NN  清晨#NN  露水#NN  刚#AD  干时#AD  摘取#VV  花蕾#NN  ，#PU  摊#NN  席上#NN  晾晒#NN  或#CC  阴干#NN  而#MSP  成#VV    。#PU    。#PU
+            金银#NN  花#NN  自古#AD  被#SB  誉为#VV  清热#NN  解毒#NN  的#DEG  良药#NN    。#PU  它#PN  性甘#NN  寒气#NN  芳香#VV  ，#PU  甘#NR  寒#JJ  清热#NN  而#AD  不#AD  伤胃#VV  ，#PU  芳香#NN  透达#NN  又#AD  可#VV  祛邪#VV    。#PU  金银#NN  花#NN  既#CC  能#VV  宣散#VV  风热#NN  ，#PU  还#AD  善#VA  清#VA  解血毒#VA  ，#PU  用于#VV  各#DT  种#M  热#NN  性病#NN  ，#PU  如#AD  身热#NN  、#PU  发疹#NN  、#PU  发斑#NN  、#PU  热#NN  毒疮痈#NN  、#PU  咽喉#NN  肿痛#NN  等#ETC  证#NN  ，#PU  均#AD  效果#NN  显著#VA    。#PU  含有#NN  金银#NN  花#NN  的#DEG  药方#NN  、#PU  药膳#NN  方#AD  特别#AD  常见#VA  ，#PU  据#P  调查#NN  ，#PU  全#DT  国#NN  有#VE  1/3#CD  的#DEC  中医#NN  方剂#NN  用到#AD  金银#VV  花#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 花#NN, 金银#NN)  (nsubj, 花#NN, 花#NN)  (cop, 花#NN, 为#VC)  (advmod, 忍冬属#VV, 忍冬科#AD)  (relcl, 花#NN, 忍冬属#VV)  (nn, 忍冬#NN, 植物#NN)  (assmod, 花蕾#NN, 忍冬#NN)  (case, 忍冬#NN, 的#DEG)  (nn, 花蕾#NN, 干燥#NN)  (dobj, 忍冬属#VV, 花蕾#NN)  (cc, 忍冬属#VV, 或#CC)  (conj, 忍冬属#VV, 带#VV)  (dobj, 带#VV, 初开#NN)  (mark, 忍冬属#VV, 的#DEC)  (root, ROOT#null, 花#NN)   (case, ～#NN, 于#P)  (nn, ～#NN, 每年#NR)  (nummod, ～#NN, 5#CD)  (loc, 摘取#VV, 6月#NT)  (case, 6月#NT, 间#LC)  (case, 露水#NN, 在#P)  (nn, 露水#NN, 晴天#NN)  (nn, 露水#NN, 清晨#NN)  (prep, 摘取#VV, 露水#NN)  (advmod, 摘取#VV, 刚#AD)  (advmod, 摘取#VV, 干时#AD)  (root, ROOT#null, 摘取#VV)  (dobj, 摘取#VV, 花蕾#NN)  (nn, 席上#NN, 摊#NN)  (nn, 阴干#NN, 席上#NN)  (conj, 阴干#NN, 晾晒#NN)  (cc, 阴干#NN, 或#CC)  (nsubj, 成#VV, 阴干#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 摘取#VV, 成#VV)   (root, ROOT#null, null#null)
+            (nn, 花#NN, 金银#NN)  (nsubj, 誉为#VV, 花#NN)  (advmod, 誉为#VV, 自古#AD)  (auxpass, 誉为#VV, 被#SB)  (root, ROOT#null, 誉为#VV)  (nn, 解毒#NN, 清热#NN)  (assmod, 良药#NN, 解毒#NN)  (case, 解毒#NN, 的#DEG)  (dobj, 誉为#VV, 良药#NN)   (nsubj, 芳香#VV, 它#PN)  (nn, 寒气#NN, 性甘#NN)  (nsubj, 芳香#VV, 寒气#NN)  (root, ROOT#null, 芳香#VV)  (nn, 清热#NN, 甘#NR)  (amod, 清热#NN, 寒#JJ)  (nsubj, 伤胃#VV, 清热#NN)  (advmod, 伤胃#VV, 而#AD)  (neg, 伤胃#VV, 不#AD)  (ccomp, 芳香#VV, 伤胃#VV)  (nn, 透达#NN, 芳香#NN)  (nsubj, 祛邪#VV, 透达#NN)  (advmod, 祛邪#VV, 又#AD)  (dep, 祛邪#VV, 可#VV)  (ccomp, 伤胃#VV, 祛邪#VV)   (nn, 花#NN, 金银#NN)  (nsubj, 宣散#VV, 花#NN)  (cc, 宣散#VV, 既#CC)  (mmod, 宣散#VV, 能#VV)  (root, ROOT#null, 宣散#VV)  (dobj, 宣散#VV, 风热#NN)  (advmod, 善#VA, 还#AD)  (conj, 宣散#VV, 善#VA)  (comod, 善#VA, 清#VA)  (comod, 善#VA, 解血毒#VA)  (dep, 宣散#VV, 用于#VV)  (det, 热#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 性病#NN, 热#NN)  (dobj, 用于#VV, 性病#NN)  (advmod, 显著#VA, 如#AD)  (conj, 肿痛#NN, 身热#NN)  (conj, 肿痛#NN, 发疹#NN)  (conj, 肿痛#NN, 发斑#NN)  (nn, 肿痛#NN, 热#NN)  (conj, 肿痛#NN, 毒疮痈#NN)  (nn, 肿痛#NN, 咽喉#NN)  (nn, 证#NN, 肿痛#NN)  (etc, 肿痛#NN, 等#ETC)  (nsubj, 显著#VA, 证#NN)  (advmod, 显著#VA, 均#AD)  (prep, 显著#VA, 效果#NN)  (conj, 宣散#VV, 显著#VA)   (nn, 花#NN, 含有#NN)  (nn, 花#NN, 金银#NN)  (assmod, 药膳#NN, 花#NN)  (case, 花#NN, 的#DEG)  (conj, 药膳#NN, 药方#NN)  (nsubj, 常见#VA, 药膳#NN)  (advmod, 常见#VA, 方#AD)  (advmod, 常见#VA, 特别#AD)  (relcl, 方剂#NN, 常见#VA)  (case, 调查#NN, 据#P)  (prep, 有#VE, 调查#NN)  (det, 国#NN, 全#DT)  (dep, 有#VE, 国#NN)  (conj, 常见#VA, 有#VE)  (dep, 有#VE, 1/3#CD)  (mark, 常见#VA, 的#DEC)  (nn, 方剂#NN, 中医#NN)  (nsubj, 金银#VV, 方剂#NN)  (advmod, 金银#VV, 用到#AD)  (root, ROOT#null, 金银#VV)  (dobj, 金银#VV, 花#NN)
+        </parsing>
+
+        <tag>
+            忍冬属花  植物忍冬  干燥花蕾  忍冬属花蕾  晴天露水  清晨露水  摘取花蕾  席上阴干  晾晒  清热解毒  誉为良药  性甘寒气  寒清热  芳香透达  宣散风热  用于性病  身热  发疹  发斑  毒疮痈  咽喉肿痛  证显著  药方  药膳常见  方剂常见  中医方剂  金银花  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性寒、味甘；归肺、胃经；清热解毒，疏散风热。主治痈肿疔毒初起，红肿热痛，外感风热，温病初起，热毒血痢，暑热烦渴，咽喉肿痛。
+        </rawdata>
+
+        <segment>
+            性寒  、  味甘  ；  归肺  、  胃经  ；  清热  解毒  ，  疏散  风热  。  主治  痈肿疔  毒  初  起  ，  红肿  热痛  ，  外感  风热  ，  温病  初  起  ，  热  毒  血痢  ，  暑热  烦渴  ，  咽喉  肿痛  。
+        </segment>
+
+        <pos>
+            性寒#CD  、#PU  味甘#CD  ；#PU  归肺#CD  、#PU  胃经#CD  ；#PU  清热#CD  解毒#NN  ，#PU  疏散#AD  风热#VV    。#PU  主治#NN  痈肿疔#NN  毒#NN  初#AD  起#VV  ，#PU  红肿#VV  热痛#NN  ，#PU  外感#VV  风热#NN  ，#PU  温病#NN  初#LC  起#LC  ，#PU  热#NN  毒#VV  血痢#NN  ，#PU  暑热#VV  烦渴#NN  ，#PU  咽喉#NN  肿痛#VV    。#PU
+        </pos>
+
+        <parsing>
+            (dep, 清热#CD, 性寒#CD)  (nummod, 归肺#CD, 味甘#CD)  (dep, 清热#CD, 归肺#CD)  (nummod, 清热#CD, 胃经#CD)  (nummod, 解毒#NN, 清热#CD)  (dep, 风热#VV, 解毒#NN)  (advmod, 风热#VV, 疏散#AD)  (root, ROOT#null, 风热#VV)   (nn, 毒#NN, 主治#NN)  (nn, 毒#NN, 痈肿疔#NN)  (nsubj, 起#VV, 毒#NN)  (advmod, 起#VV, 初#AD)  (root, ROOT#null, 起#VV)  (conj, 起#VV, 红肿#VV)  (dobj, 红肿#VV, 热痛#NN)  (conj, 起#VV, 外感#VV)  (dobj, 外感#VV, 风热#NN)  (loc, 毒#VV, 温病#NN)  (case, 温病#NN, 初#LC)  (case, 温病#NN, 起#LC)  (nsubj, 毒#VV, 热#NN)  (conj, 起#VV, 毒#VV)  (dobj, 毒#VV, 血痢#NN)  (conj, 毒#VV, 暑热#VV)  (dobj, 暑热#VV, 烦渴#NN)  (nsubj, 肿痛#VV, 咽喉#NN)  (conj, 起#VV, 肿痛#VV)
+        </parsing>
+
+        <tag>
+            红肿热痛  外感风热  暑热烦渴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            金银花含有异氯原酸、番木鳖甙、木樨草素、氯原酸、肌醇等成分，并富含挥发油，油中成分主要是双花醇、芳樟醇等。
+        </rawdata>
+
+        <segment>
+            金银  花  含有  异氯  原  酸  、  番木  鳖甙  、  木樨  草素  、  氯原酸  、  肌醇  等  成分  ，  并  富含  挥发油  ，  油中  成分  主要  是  双花醇  、  芳樟醇  等  。
+        </segment>
+
+        <pos>
+            金银#NN  花#NN  含有#NN  异氯#VV  原#JJ  酸#NR  、#PU  番木#NR  鳖甙#NR  、#PU  木樨#NR  草素#NR  、#PU  氯原酸#NR  、#PU  肌醇#NR  等#ETC  成分#NN  ，#PU  并#CC  富含#VV  挥发油#NN  ，#PU  油中#NN  成分#NN  主要#AD  是#VC  双花醇#NN  、#PU  芳樟醇#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 金银#NN)  (nn, 含有#NN, 花#NN)  (nsubj, 异氯#VV, 含有#NN)  (root, ROOT#null, 异氯#VV)  (amod, 成分#NN, 原#JJ)  (conj, 肌醇#NR, 酸#NR)  (nn, 肌醇#NR, 番木#NR)  (conj, 肌醇#NR, 鳖甙#NR)  (nn, 肌醇#NR, 木樨#NR)  (conj, 肌醇#NR, 草素#NR)  (conj, 肌醇#NR, 氯原酸#NR)  (nn, 成分#NN, 肌醇#NR)  (etc, 肌醇#NR, 等#ETC)  (dobj, 异氯#VV, 成分#NN)  (cc, 异氯#VV, 并#CC)  (conj, 异氯#VV, 富含#VV)  (dobj, 富含#VV, 挥发油#NN)  (nn, 成分#NN, 油中#NN)  (nsubj, 芳樟醇#NN, 成分#NN)  (advmod, 芳樟醇#NN, 主要#AD)  (cop, 芳樟醇#NN, 是#VC)  (conj, 芳樟醇#NN, 双花醇#NN)  (conj, 异氯#VV, 芳樟醇#NN)  (etc, 芳樟醇#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            金银含有  异氯  肌醇  鳖甙  草素  氯原酸  富含挥发油  芳樟醇  双花醇  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/121408136838.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\418 金银花.jpg
+    </picturelocalurl>
+
+</content>

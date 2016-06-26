@@ -1,0 +1,146 @@
+<content>
+
+    <id>
+        902
+    </id>
+
+    <foodname>
+        冻山羊肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阴虚质、湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阴虚  质  、  湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阴虚#NN  质#NN  、#PU  湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阴虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阴虚质  湿热质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            山羊肉为牛科动物青羊、北山羊及盘羊的肉。羊肉是我国人民食用的主要肉类之一，羊肉较猪肉的肉质要细嫩，较猪肉和牛肉的脂肪、胆固醇含量都要少
+        </rawdata>
+
+        <segment>
+            山羊肉  为  牛科  动物  青羊  、  北山羊  及  盘羊  的  肉  。  羊肉  是  我  国  人民  食用  的  主要  肉类  之一  ，  羊肉  较  猪肉  的  肉质  要  细嫩  ，  较  猪肉  和  牛肉  的  脂肪  、  胆固醇  含量  都  要  少
+        </segment>
+
+        <pos>
+            山羊肉#NN  为#VC  牛科#NN  动物#NN  青羊#NN  、#PU  北山羊#NN  及#CC  盘羊#NN  的#DEG  肉#NN  。#PU  羊肉#NN  是#VC  我#PN  国#NN  人民#NN  食用#VV  的#DEC  主要#JJ  肉类#NN  之一#NN  ，#PU  羊肉#NN  较#AD  猪肉#VA  的#DEC  肉质#NN  要#VV  细嫩#VV  ，#PU  较#AD  猪肉#VA  和#CC  牛肉#VA  的#DEC  脂肪#NN  、#PU  胆固醇#NN  含量#NN  都#AD  要#AD  少#VA
+        </pos>
+
+        <parsing>
+            (nsubj, 肉#NN, 山羊肉#NN)  (cop, 肉#NN, 为#VC)  (nn, 盘羊#NN, 牛科#NN)  (nn, 盘羊#NN, 动物#NN)  (conj, 盘羊#NN, 青羊#NN)  (conj, 盘羊#NN, 北山羊#NN)  (cc, 盘羊#NN, 及#CC)  (assmod, 肉#NN, 盘羊#NN)  (case, 盘羊#NN, 的#DEG)  (root, ROOT#null, 肉#NN)  (nsubj, 之一#NN, 羊肉#NN)  (cop, 之一#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 人民#NN, 国#NN)  (nsubj, 食用#VV, 人民#NN)  (relcl, 之一#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (amod, 之一#NN, 主要#JJ)  (nn, 之一#NN, 肉类#NN)  (conj, 肉#NN, 之一#NN)  (nsubj, 猪肉#VA, 羊肉#NN)  (advmod, 猪肉#VA, 较#AD)  (relcl, 肉质#NN, 猪肉#VA)  (mark, 猪肉#VA, 的#DEC)  (nsubj, 细嫩#VV, 肉质#NN)  (dep, 细嫩#VV, 要#VV)  (conj, 肉#NN, 细嫩#VV)  (advmod, 猪肉#VA, 较#AD)  (relcl, 含量#NN, 猪肉#VA)  (cc, 猪肉#VA, 和#CC)  (dep, 猪肉#VA, 牛肉#VA)  (mark, 猪肉#VA, 的#DEC)  (conj, 胆固醇#NN, 脂肪#NN)  (nn, 含量#NN, 胆固醇#NN)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 都#AD)  (advmod, 少#VA, 要#AD)  (conj, 肉#NN, 少#VA)
+        </parsing>
+
+        <tag>
+            牛科盘羊  动物盘羊  青羊  北山羊  羊肉猪肉  肉质猪肉  胆固醇  脂肪  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            肉质色泽鲜红、细嫩、味道鲜美、膻味小、富含多种氨基酸，是优质的营养保健食品。可以起到防止血管硬化以及心脏病的作用，特别适合高血脂患者和老人食用。
+        </rawdata>
+
+        <segment>
+            肉质  色泽  鲜红  、  细嫩  、  味道  鲜美  、  膻味  小  、  富含  多种  氨基酸  ，  是  优质  的  营养  保健  食品  。  可以  起到  防止  血管  硬化  以及  心脏病  的  作用  ，  特别  适合  高血脂  患者  和  老人  食用  。
+        </segment>
+
+        <pos>
+            肉质#NN  色泽#NN  鲜红#NN  、#PU  细嫩#NN  、#PU  味道#NN  鲜美#NN  、#PU  膻味#NN  小#JJ  、#PU  富含#JJ  多种#NN  氨基酸#VV  ，#PU  是#VC  优质#VA  的#DEC  营养#VA  保健#NN  食品#NN    。#PU  可以#VV  起到#VV  防止#VV  血管#NN  硬化#NN  以及#CC  心脏病#NN  的#DEC  作用#NN  ，#PU  特别#AD  适合#VV  高血脂#NN  患者#NN  和#CC  老人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 膻味#NN, 肉质#NN)  (nn, 膻味#NN, 色泽#NN)  (conj, 膻味#NN, 鲜红#NN)  (conj, 膻味#NN, 细嫩#NN)  (nn, 膻味#NN, 味道#NN)  (conj, 膻味#NN, 鲜美#NN)  (nn, 多种#NN, 膻味#NN)  (amod, 多种#NN, 小#JJ)  (dep, 小#JJ, 富含#JJ)  (nsubj, 氨基酸#VV, 多种#NN)  (root, ROOT#null, 氨基酸#VV)  (cop, 食品#NN, 是#VC)  (relcl, 食品#NN, 优质#VA)  (mark, 优质#VA, 的#DEC)  (relcl, 保健#NN, 营养#VA)  (nn, 食品#NN, 保健#NN)  (ccomp, 氨基酸#VV, 食品#NN)   (mmod, 起到#VV, 可以#VV)  (relcl, 老人#NN, 起到#VV)  (relcl, 作用#NN, 防止#VV)  (nn, 心脏病#NN, 血管#NN)  (conj, 心脏病#NN, 硬化#NN)  (cc, 心脏病#NN, 以及#CC)  (dobj, 防止#VV, 心脏病#NN)  (mark, 防止#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (advmod, 适合#VV, 特别#AD)  (conj, 起到#VV, 适合#VV)  (dobj, 适合#VV, 高血脂#NN)  (conj, 老人#NN, 患者#NN)  (cc, 老人#NN, 和#CC)  (nsubj, 食用#VV, 老人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            肉质膻味  色泽膻味  鲜红  细嫩  味道膻味  鲜美  膻味多种  小多种  食品优质  保健营养  保健食品  血管心脏病  硬化  防止心脏病  适合高血脂  老人  患者  食用  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血  抗癌防癌  补虚  补肾阳  强筋骨
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.煮制时放数个山楂或一些萝卜、绿豆、炒制时放些葱、姜、孜然等佐料可去膻味；
+            2.吃涮肉时务必涮透；夏秋季节气候燥热，不宜吃羊肉；
+            3.羊肉中有很多膜，切丝之前应先将其剔除，否则炒熟后肉膜硬，吃起来难以下咽。
+        </rawdata>
+
+        <segment>
+            煮制  时  放数  个  山楂  或  一些  萝卜  、  绿豆  、  炒  制  时  放些  葱  、  姜  、  孜然  等  佐料  可  去  膻味  ；
+            吃涮肉  时  务必  涮透  ；  夏秋季  节  气候  燥热  ，  不  宜  吃  羊肉  ；
+            羊肉  中  有  很多  膜  ，  切  丝  之前  应  先  将  其  剔除  ，  否则  炒熟  后  肉膜  硬  ，  吃  起来  难以  下咽  。
+        </segment>
+
+        <pos>
+            煮制#NN  时#LC  放数#CD  个#M  山楂#NN  或#CC  一些#CD  萝卜#NR  、#PU  绿豆#NR  、#PU  炒#NR  制#NN  时#LC  放些#JJ  葱#NN  、#PU  姜#NN  、#PU  孜然#NN  等#ETC  佐料#NN  可#VV  去#VV  膻味#NN  ；#PU
+            吃涮肉#NN  时#LC  务必#AD  涮透#VV  ；#PU  夏秋季#NN  节#NN  气候#NN  燥热#NN  ，#PU  不#AD  宜#NR  吃#VV  羊肉#NN  ；#PU
+            羊肉#NN  中#LC  有#VE  很多#CD  膜#NN  ，#PU  切#VV  丝#NN  之前#LC  应#VV  先#AD  将#BA  其#PN  剔除#VV  ，#PU  否则#AD  炒熟#NN  后#LC  肉膜#AD  硬#VA  ，#PU  吃#VV  起来#VV  难以#AD  下咽#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 去#VV, 煮制#NN)  (case, 煮制#NN, 时#LC)  (nummod, 个#M, 放数#CD)  (clf, 山楂#NN, 个#M)  (conj, 佐料#NN, 山楂#NN)  (cc, 佐料#NN, 或#CC)  (nummod, 葱#NN, 一些#CD)  (conj, 炒#NR, 萝卜#NR)  (conj, 炒#NR, 绿豆#NR)  (nn, 制#NN, 炒#NR)  (dep, 葱#NN, 制#NN)  (case, 制#NN, 时#LC)  (amod, 葱#NN, 放些#JJ)  (conj, 孜然#NN, 葱#NN)  (conj, 孜然#NN, 姜#NN)  (nn, 佐料#NN, 孜然#NN)  (etc, 孜然#NN, 等#ETC)  (nsubj, 去#VV, 佐料#NN)  (mmod, 去#VV, 可#VV)  (root, ROOT#null, 去#VV)  (dobj, 去#VV, 膻味#NN)
+            (loc, 涮透#VV, 吃涮肉#NN)  (case, 吃涮肉#NN, 时#LC)  (advmod, 涮透#VV, 务必#AD)  (root, ROOT#null, 涮透#VV)  (nn, 燥热#NN, 夏秋季#NN)  (nn, 燥热#NN, 节#NN)  (nn, 燥热#NN, 气候#NN)  (nsubj, 吃#VV, 燥热#NN)  (neg, 吃#VV, 不#AD)  (prep, 吃#VV, 宜#NR)  (conj, 涮透#VV, 吃#VV)  (dobj, 吃#VV, 羊肉#NN)
+            (loc, 有#VE, 羊肉#NN)  (case, 羊肉#NN, 中#LC)  (root, ROOT#null, 有#VE)  (nummod, 膜#NN, 很多#CD)  (dobj, 有#VE, 膜#NN)  (loc, 剔除#VV, 切#VV)  (dobj, 切#VV, 丝#NN)  (case, 切#VV, 之前#LC)  (mmod, 剔除#VV, 应#VV)  (advmod, 剔除#VV, 先#AD)  (ba, 剔除#VV, 将#BA)  (nsubj, 剔除#VV, 其#PN)  (conj, 有#VE, 剔除#VV)  (advmod, 硬#VA, 否则#AD)  (loc, 硬#VA, 炒熟#NN)  (case, 炒熟#NN, 后#LC)  (advmod, 硬#VA, 肉膜#AD)  (conj, 有#VE, 硬#VA)  (ccomp, 下咽#VV, 吃#VV)  (rcomp, 吃#VV, 起来#VV)  (advmod, 下咽#VV, 难以#AD)  (conj, 有#VE, 下咽#VV)
+        </parsing>
+
+        <tag>
+            山楂  放些葱  孜然佐料  涮透  夏秋季燥热  气候燥热  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/b4/41/82356_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\902 冻山羊肉.jpg
+    </picturelocalurl>
+
+</content>

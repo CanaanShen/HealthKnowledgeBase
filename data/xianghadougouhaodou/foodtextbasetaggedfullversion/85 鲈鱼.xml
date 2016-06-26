@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        85
+    </id>
+
+    <foodname>
+        鲈鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        鲈花、鲈板、鲈子鱼、寨花、四腮鱼、鲁鱼、花糜
+    </alias>
+
+    <season>
+        春、夏、秋、冬
+    </season>
+
+    <unsuit>
+        <rawdata>
+            皮肤病患者、长肿疮的人忌食。
+        </rawdata>
+
+        <segment>
+            皮肤病  患者  、  长肿疮  的  人  忌食  。
+        </segment>
+
+        <pos>
+            皮肤病#VV  患者#NN  、#PU  长肿疮#NN  的#DEG  人#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 皮肤病#VV)  (conj, 长肿疮#NN, 患者#NN)  (assmod, 忌食#NN, 长肿疮#NN)  (case, 长肿疮#NN, 的#DEG)  (nn, 忌食#NN, 人#NN)  (dobj, 皮肤病#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            皮肤病  患者  长肿疮  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适宜贫血、头晕、水肿患者，胎动不安孕妇。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适宜  贫血  、  头晕  、  水肿  患者  ，  胎动  不安  孕妇  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适宜#VV  贫血#NR  、#PU  头晕#NR  、#PU  水肿#NR  患者#NN  ，#PU  胎动#VV  不安#NN  孕妇#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VV, 尤其#AD)  (root, ROOT#null, 适宜#VV)  (conj, 水肿#NR, 贫血#NR)  (conj, 水肿#NR, 头晕#NR)  (nn, 患者#NN, 水肿#NR)  (dobj, 适宜#VV, 患者#NN)  (dep, 适宜#VV, 胎动#VV)  (nn, 孕妇#NN, 不安#NN)  (dobj, 胎动#VV, 孕妇#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤其适宜  贫血  头晕  水肿  患者  胎动不安孕妇  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                105
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                86
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.75
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                138
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                242
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                205
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                144.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.83
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                33.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲈鱼又称花鲈、寨花、鲈板、四肋鱼等，俗称鲈鲛，与长江鲥鱼、太湖银鱼并称为“四大名鱼”之一。
+            鲈鱼主产于辽宁大东沟、旅大、营口，河北秦皇岛，天津北塘，山东羊角沟、烟台、石岛、青岛，但以北塘产的品质最好，产期在3～8月间，立秋前后产的品质最好。
+            鲈鱼体扁侧而长，背厚，肚小，口大，下颌长于上颌，鳃盖骨后缘有细锯齿，体背为青灰色，腹为白色，背和背鳍上有小黑斑点，鳞小，背鳍两个，稍分离，前背鳍为硬棘，后背鳍为较条，尾鳍叉形，鲈鱼肉坚实呈蒜瓣状，刺少，味鲜美，也是西餐常用鱼之一。鲈鱼鳔可制鱼肚。
+        </rawdata>
+
+        <segment>
+            鲈鱼  又  称  花鲈  、  寨花  、  鲈板  、  四  肋  鱼  等  ，  俗称  鲈鲛  ，  与  长江  鲥鱼  、  太湖  银鱼  并称  为  “  四  大  名  鱼  ”  之一  。
+            鲈鱼  主产  于  辽宁  大  东沟  、  旅大  、  营口  ，  河北  秦皇岛  ，  天津  北塘  ，  山东  羊角  沟  、  烟台  、  石岛  、  青岛  ，  但  以北  塘产  的  品质  最好  ，  产期  在  3  ～  8月  间  ，  立秋  前后  产  的  品质  最好  。
+            鲈鱼  体扁  侧  而  长  ，  背  厚  ，  肚  小  ，  口  大  ，  下颌  长于  上颌  ，  鳃盖  骨  后缘  有  细  锯齿  ，  体背  为  青灰色  ，  腹  为  白色  ，  背  和  背鳍  上  有  小  黑斑点  ，  鳞小  ，  背鳍  两  个  ，  稍  分离  ，  前  背鳍  为  硬棘  ，  后  背鳍  为  较  条  ，  尾鳍  叉形  ，  鲈鱼  肉  坚实  呈蒜  瓣状  ，  刺少  ，  味  鲜美  ，  也  是  西餐  常用  鱼  之一  。  鲈鱼鳔  可  制  鱼肚  。
+        </segment>
+
+        <pos>
+            鲈鱼#NN  又#AD  称#VV  花鲈#NR  、#PU  寨花#NR  、#PU  鲈板#NR  、#PU  四#CD  肋#NN  鱼#NN  等#ETC  ，#PU  俗称#VV  鲈鲛#NN  ，#PU  与#P  长江#NR  鲥鱼#NN  、#PU  太湖#NR  银鱼#NN  并称#NN  为#VV  ``#NR  四#CD  大#JJ  名#JJ  鱼#NN  ''#NN  之一#NN  。#PU
+            鲈鱼#NN  主产#VV  于#P  辽宁#NR  大#JJ  东沟#NN  、#PU  旅大#NN  、#PU  营口#NR  ，#PU  河北#NR  秦皇岛#NN  ，#PU  天津#NR  北塘#NN  ，#PU  山东#NR  羊角#NN  沟#NN  、#PU  烟台#NR  、#PU  石岛#NR  、#PU  青岛#NR  ，#PU  但#AD  以北#LC  塘产#NN  的#DEG  品质#NN  最好#JJ  ，#PU  产期#VV  在#P  3#CD  ～#NN  8月#NT  间#LC  ，#PU  立秋#VV  前后#LC  产#VV  的#DEC  品质#NN  最好#JJ  。#PU
+            鲈鱼#NN  体扁#NN  侧#LC  而#MSP  长#VA  ，#PU  背#VV  厚#NN  ，#PU  肚#NN  小#VA  ，#PU  口#NN  大#VA  ，#PU  下颌#NN  长于#NN  上颌#NN  ，#PU  鳃盖#NN  骨#NN  后缘#VV  有#VE  细#NN  锯齿#NN  ，#PU  体背#VV  为#VC  青灰色#NN  ，#PU  腹#VV  为#VC  白色#JJ  ，#PU  背#VV  和#P  背鳍#NN  上#LC  有#VE  小#JJ  黑斑点#NN  ，#PU  鳞小#VV  ，#PU  背鳍#VV  两#CD  个#M  ，#PU  稍#AD  分离#VV  ，#PU  前#DT  背鳍#NN  为#P  硬棘#VV  ，#PU  后#DT  背鳍#NN  为#VC  较#P  条#NN  ，#PU  尾鳍#VV  叉形#NN  ，#PU  鲈鱼#NN  肉#NN  坚实#VA  呈蒜#VV  瓣状#NN  ，#PU  刺少#VV  ，#PU  味#VV  鲜美#NN  ，#PU  也#AD  是#VC  西餐#NN  常用#JJ  鱼#NN  之一#NN    。#PU  鲈鱼鳔#NN  可#VV  制#VV  鱼肚#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 鲈鱼#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (conj, 鲈板#NR, 花鲈#NR)  (conj, 鲈板#NR, 寨花#NR)  (conj, 鱼#NN, 鲈板#NR)  (nummod, 鱼#NN, 四#CD)  (nn, 鱼#NN, 肋#NN)  (dobj, 称#VV, 鱼#NN)  (etc, 鱼#NN, 等#ETC)  (dep, 称#VV, 俗称#VV)  (dobj, 俗称#VV, 鲈鲛#NN)  (case, 并称#NN, 与#P)  (nn, 并称#NN, 长江#NR)  (conj, 并称#NN, 鲥鱼#NN)  (nn, 并称#NN, 太湖#NR)  (nn, 并称#NN, 银鱼#NN)  (prep, 为#VV, 并称#NN)  (conj, 称#VV, 为#VV)  (nn, 之一#NN, ``#NR)  (nummod, 之一#NN, 四#CD)  (amod, 之一#NN, 大#JJ)  (amod, 之一#NN, 名#JJ)  (nn, 之一#NN, 鱼#NN)  (nn, 之一#NN, ''#NN)  (dobj, 为#VV, 之一#NN)
+            (nsubj, 主产#VV, 鲈鱼#NN)  (root, ROOT#null, 主产#VV)  (case, 辽宁#NR, 于#P)  (prep, 东沟#NN, 辽宁#NR)  (amod, 东沟#NN, 大#JJ)  (conj, 青岛#NR, 东沟#NN)  (conj, 青岛#NR, 旅大#NN)  (dep, 青岛#NR, 营口#NR)  (nn, 秦皇岛#NN, 河北#NR)  (dep, 青岛#NR, 秦皇岛#NN)  (nn, 北塘#NN, 天津#NR)  (dep, 青岛#NR, 北塘#NN)  (nn, 沟#NN, 山东#NR)  (nn, 沟#NN, 羊角#NN)  (conj, 青岛#NR, 沟#NN)  (conj, 青岛#NR, 烟台#NR)  (conj, 青岛#NR, 石岛#NR)  (dobj, 主产#VV, 青岛#NR)  (advmod, 最好#JJ, 但#AD)  (assmod, 品质#NN, 以北#LC)  (dep, 以北#LC, 塘产#NN)  (case, 以北#LC, 的#DEG)  (nsubj, 最好#JJ, 品质#NN)  (conj, 主产#VV, 最好#JJ)  (dep, 最好#JJ, 产期#VV)  (case, 立秋#VV, 在#P)  (nummod, ～#NN, 3#CD)  (loc, 立秋#VV, 8月#NT)  (case, 8月#NT, 间#LC)  (prep, 产#VV, 立秋#VV)  (case, 立秋#VV, 前后#LC)  (relcl, 品质#NN, 产#VV)  (mark, 产#VV, 的#DEC)  (dobj, 产期#VV, 品质#NN)  (conj, 最好#JJ, 最好#JJ)
+            (nn, 体扁#NN, 鲈鱼#NN)  (loc, 长#VA, 体扁#NN)  (case, 体扁#NN, 侧#LC)  (prtmod, 长#VA, 而#MSP)  (root, ROOT#null, 长#VA)  (dep, 长#VA, 背#VV)  (dobj, 背#VV, 厚#NN)  (nsubj, 小#VA, 肚#NN)  (conj, 长#VA, 小#VA)  (nsubj, 大#VA, 口#NN)  (conj, 长#VA, 大#VA)  (nn, 上颌#NN, 下颌#NN)  (nn, 上颌#NN, 长于#NN)  (nsubj, 有#VE, 上颌#NN)  (nn, 骨#NN, 鳃盖#NN)  (nsubj, 有#VE, 骨#NN)  (mmod, 有#VE, 后缘#VV)  (conj, 长#VA, 有#VE)  (nn, 锯齿#NN, 细#NN)  (dobj, 有#VE, 锯齿#NN)  (mmod, 青灰色#NN, 体背#VV)  (cop, 青灰色#NN, 为#VC)  (ccomp, 有#VE, 青灰色#NN)  (conj, 有#VE, 青灰色#NN)  (ccomp, 有#VE, 腹#VV)  (conj, 有#VE, 腹#VV)  (ccomp, 腹#VV, 为#VC)  (dep, 为#VC, 白色#JJ)  (mmod, 有#VE, 背#VV)  (case, 背鳍#NN, 和#P)  (prep, 有#VE, 背鳍#NN)  (case, 背鳍#NN, 上#LC)  (ccomp, 有#VE, 有#VE)  (conj, 有#VE, 有#VE)  (amod, 黑斑点#NN, 小#JJ)  (dobj, 有#VE, 黑斑点#NN)  (ccomp, 有#VE, 鳞小#VV)  (conj, 有#VE, 鳞小#VV)  (ccomp, 有#VE, 背鳍#VV)  (conj, 有#VE, 背鳍#VV)  (nummod, 个#M, 两#CD)  (range, 背鳍#VV, 个#M)  (advmod, 分离#VV, 稍#AD)  (ccomp, 有#VE, 分离#VV)  (conj, 有#VE, 分离#VV)  (det, 背鳍#NN, 前#DT)  (dep, 呈蒜#VV, 背鳍#NN)  (case, 硬棘#VV, 为#P)  (prep, 呈蒜#VV, 硬棘#VV)  (det, 背鳍#NN, 后#DT)  (nsubj, 尾鳍#VV, 背鳍#NN)  (cop, 尾鳍#VV, 为#VC)  (case, 条#NN, 较#P)  (prep, 尾鳍#VV, 条#NN)  (ccomp, 硬棘#VV, 尾鳍#VV)  (dobj, 尾鳍#VV, 叉形#NN)  (nn, 肉#NN, 鲈鱼#NN)  (nsubj, 坚实#VA, 肉#NN)  (conj, 尾鳍#VV, 坚实#VA)  (ccomp, 有#VE, 呈蒜#VV)  (conj, 有#VE, 呈蒜#VV)  (dobj, 呈蒜#VV, 瓣状#NN)  (ccomp, 有#VE, 刺少#VV)  (conj, 有#VE, 刺少#VV)  (ccomp, 有#VE, 味#VV)  (conj, 有#VE, 味#VV)  (dobj, 味#VV, 鲜美#NN)  (advmod, 之一#NN, 也#AD)  (cop, 之一#NN, 是#VC)  (nn, 之一#NN, 西餐#NN)  (amod, 之一#NN, 常用#JJ)  (nn, 之一#NN, 鱼#NN)  (ccomp, 有#VE, 之一#NN)  (conj, 有#VE, 之一#NN)   (nsubj, 制#VV, 鲈鱼鳔#NN)  (mmod, 制#VV, 可#VV)  (root, ROOT#null, 制#VV)  (dobj, 制#VV, 鱼肚#NN)
+        </parsing>
+
+        <tag>
+            鲈板  花鲈  寨花  俗称鲈鲛  鲥鱼  银鱼并称  主产  大东沟  青岛  烟台  石岛  产品质  产期品质  下颌上颌  长于上颌  小黑斑点  尾鳍叉形  肉坚实  呈蒜瓣状  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.益肾安胎
+            鲈鱼能够益肾安胎、健脾补气，可治胎动不安、生产少乳等症。孕妈咪吃鲈鱼既容易消化，又能防治水肿、贫血头晕等症状。
+            2.维持神经系统的正常
+            铜能保护心脏，维持神经系统的正常功能，并参与数种物质代谢的关键酶的功能发挥。
+            3.补肝益脾
+            补肝肾、益脾胃、化痰止咳之效，对肝肾不足的人有很好的补益作用。
+        </rawdata>
+
+        <segment>
+            益  肾  安胎
+            鲈鱼  能够  益肾  安胎  、  健脾  补气  ，  可治  胎动  不安  、  生产  少  乳等症  。  孕  妈咪  吃  鲈鱼  既  容易  消化  ，  又  能  防治  水肿  、  贫血  头晕  等  症状  。
+            维持  神经  系统  的  正常
+            铜  能  保护  心脏  ，  维持  神经  系统  的  正常  功能  ，  并  参与  数种  物质  代谢  的  关键  酶  的  功能  发挥  。
+            补肝益脾
+            补肝  肾  、  益  脾胃  、  化痰  止咳  之  效  ，  对  肝肾  不足  的  人  有  很  好  的  补益  作用  。
+        </segment>
+
+        <pos>
+            益#NN  肾#NN  安胎#NN
+            鲈鱼#NN  能够#VV  益肾#VV  安胎#NN  、#PU  健脾#NN  补气#NN  ，#PU  可治#VV  胎动#NN  不安#NN  、#PU  生产#VV  少#JJ  乳等症#NN    。#PU  孕#NN  妈咪#AD  吃#VV  鲈鱼#NN  既#CC  容易#VA  消化#NN  ，#PU  又#AD  能#VV  防治#VV  水肿#NR  、#PU  贫血#NR  头晕#NR  等#ETC  症状#NN    。#PU    。#PU
+            维持#VV  神经#NN  系统#NN  的#DEG  正常#NN
+            铜#NN  能#VV  保护#VV  心脏#NN  ，#PU  维持#VV  神经#NN  系统#NN  的#DEG  正常#JJ  功能#NN  ，#PU  并#CC  参与#VV  数种#NN  物质#NN  代谢#NN  的#DEG  关键#JJ  酶#NN  的#DEC  功能#NN  发挥#VV  。#PU
+            补肝益脾#VV
+            补肝#NR  肾#NR  、#PU  益#NR  脾胃#NR  、#PU  化痰#NR  止咳#NN  之#DEG  效#NN  ，#PU  对#P  肝肾#AD  不足#VA  的#DEC  人#NN  有#VE  很#AD  好#VA  的#DEC  补益#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 安胎#NN, 益#NN)  (nn, 安胎#NN, 肾#NN)  (root, ROOT#null, 安胎#NN)
+            (nsubj, 益肾#VV, 鲈鱼#NN)  (mmod, 益肾#VV, 能够#VV)  (root, ROOT#null, 益肾#VV)  (conj, 补气#NN, 安胎#NN)  (nn, 补气#NN, 健脾#NN)  (dobj, 益肾#VV, 补气#NN)  (conj, 益肾#VV, 可治#VV)  (nn, 不安#NN, 胎动#NN)  (dobj, 可治#VV, 不安#NN)  (conj, 益肾#VV, 生产#VV)  (amod, 乳等症#NN, 少#JJ)  (dobj, 生产#VV, 乳等症#NN)   (nsubj, 吃#VV, 孕#NN)  (advmod, 吃#VV, 妈咪#AD)  (root, ROOT#null, 吃#VV)  (conj, 消化#NN, 鲈鱼#NN)  (cc, 消化#NN, 既#CC)  (relcl, 消化#NN, 容易#VA)  (dobj, 吃#VV, 消化#NN)  (advmod, 防治#VV, 又#AD)  (mmod, 防治#VV, 能#VV)  (conj, 吃#VV, 防治#VV)  (conj, 头晕#NR, 水肿#NR)  (nn, 头晕#NR, 贫血#NR)  (nn, 症状#NN, 头晕#NR)  (etc, 头晕#NR, 等#ETC)  (dobj, 防治#VV, 症状#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 维持#VV)  (nn, 系统#NN, 神经#NN)  (assmod, 正常#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (dobj, 维持#VV, 正常#NN)
+            (nsubj, 保护#VV, 铜#NN)  (mmod, 保护#VV, 能#VV)  (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 心脏#NN)  (relcl, 功能#NN, 维持#VV)  (nn, 系统#NN, 神经#NN)  (assmod, 功能#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (amod, 功能#NN, 正常#JJ)  (dobj, 维持#VV, 功能#NN)  (cc, 维持#VV, 并#CC)  (conj, 维持#VV, 参与#VV)  (nn, 代谢#NN, 数种#NN)  (nn, 代谢#NN, 物质#NN)  (assmod, 酶#NN, 代谢#NN)  (case, 代谢#NN, 的#DEG)  (amod, 酶#NN, 关键#JJ)  (dobj, 参与#VV, 酶#NN)  (mark, 维持#VV, 的#DEC)  (nsubj, 发挥#VV, 功能#NN)  (conj, 保护#VV, 发挥#VV)
+            (root, ROOT#null, 补肝益脾#VV)
+            (nn, 化痰#NR, 补肝#NR)  (conj, 化痰#NR, 肾#NR)  (nn, 化痰#NR, 益#NR)  (conj, 化痰#NR, 脾胃#NR)  (nn, 止咳#NN, 化痰#NR)  (assmod, 效#NN, 止咳#NN)  (case, 止咳#NN, 之#DEG)  (nsubj, 有#VE, 效#NN)  (case, 人#NN, 对#P)  (advmod, 不足#VA, 肝肾#AD)  (relcl, 人#NN, 不足#VA)  (mark, 不足#VA, 的#DEC)  (prep, 有#VE, 人#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 补益#JJ)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            安胎  健脾补气  益肾补气  胎动不安  可治不安  少乳等症  生产乳等症  消化容易  头晕  水肿  防治症状  神经系统  维持正常  保护心脏  维持功能  正常功能  数种代谢  关键酶  参与酶  化痰  脾胃  人不足  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  促进泌乳  安胎  补脾胃  补肝肾
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鲈鱼富含蛋白质、维生素A、B族维生素、钙、镁、锌、硒等营养元素;具有补肝肾、益脾胃、化痰止咳之效，对肝肾不足的人有很好的补益作用；
+            2.鲈鱼还可治胎动不安、产生少乳等症，准妈妈和产生妇女吃鲈鱼是一种既补身、又不会造成营养过剩而导致肥胖的营养食物，是健身补血、健脾益气和益体安康的佳品；
+            3.鲈鱼血中还有较多的铜元素，铜能维持神经系统的正常的功能并参与数种物质代谢的关键酶的功能发挥，铜元素缺乏的人可食用鲈鱼来补充。
+        </rawdata>
+
+        <segment>
+            鲈鱼  富含  蛋白质  、  维生素A  、  B  族  维生素  、  钙  、  镁  、  锌  、  硒等  营养  元素  ;  具有  补肝  肾  、  益  脾胃  、  化痰  止咳  之  效  ，  对  肝肾  不足  的  人  有  很  好  的  补益  作用  ；
+            鲈鱼  还  可治  胎动  不安  、  产生  少  乳等症  ，  准  妈妈  和  产生  妇女  吃  鲈鱼  是  一  种  既  补  身  、  又  不  会  造成  营养  过剩  而  导致  肥胖  的  营养  食物  ，  是  健身  补血  、  健脾  益气  和  益体  安康  的  佳品  ；
+            鲈鱼  血中  还有  较  多  的  铜元素  ，  铜  能  维持  神经  系统  的  正常  的  功能  并  参与  数种  物质  代谢  的  关键  酶  的  功能  发挥  ，  铜元  素  缺乏  的  人  可  食用  鲈鱼  来  补充  。
+        </segment>
+
+        <pos>
+            鲈鱼#NN  富含#NN  蛋白质#NN  、#PU  维生素A#NN  、#PU  B#NN  族#NN  维生素#NN  、#PU  钙#NN  、#PU  镁#NN  、#PU  锌#NN  、#PU  硒等#NN  营养#VA  元素#NN  ;#NN  具有#VV  补肝#NN  肾#NN  、#PU  益#NN  脾胃#NN  、#PU  化痰#NN  止咳#NN  之#DEG  效#NN  ，#PU  对#P  肝肾#NN  不足#NN  的#DEG  人#NN  有#VE  很#AD  好#VA  的#DEC  补益#NN  作用#NN  ；#PU
+            鲈鱼#NN  还#AD  可治#VV  胎动#NN  不安#NN  、#PU  产生#VV  少#JJ  乳等症#NN  ，#PU  准#VV  妈妈#NN  和#CC  产生#NN  妇女#NN  吃#VV  鲈鱼#NN  是#VC  一#CD  种#M  既#CC  补#VV  身#NN  、#PU  又#AD  不#AD  会#VV  造成#VV  营养#VA  过剩#VV  而#MSP  导致#VV  肥胖#VV  的#DEC  营养#VA  食物#NN  ，#PU  是#VC  健身#VV  补血#NN  、#PU  健脾#NN  益气#NN  和#CC  益体#NN  安康#NN  的#DEC  佳品#NN  ；#PU
+            鲈鱼#NN  血中#NN  还有#AD  较#AD  多#VA  的#DEC  铜元素#NN  ，#PU  铜#NN  能#VV  维持#VV  神经#NN  系统#NN  的#DEG  正常#VA  的#DEC  功能#NN  并#CC  参与#VV  数种#NN  物质#NN  代谢#NN  的#DEG  关键#JJ  酶#NN  的#DEC  功能#NN  发挥#VV  ，#PU  铜元#AD  素#AD  缺乏#VV  的#DEC  人#NN  可#VV  食用#VV  鲈鱼#NN  来#MSP  补充#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 硒等#NN, 鲈鱼#NN)  (nn, 硒等#NN, 富含#NN)  (conj, 硒等#NN, 蛋白质#NN)  (conj, 硒等#NN, 维生素A#NN)  (nn, 硒等#NN, B#NN)  (nn, 硒等#NN, 族#NN)  (conj, 硒等#NN, 维生素#NN)  (conj, 硒等#NN, 钙#NN)  (conj, 硒等#NN, 镁#NN)  (conj, 硒等#NN, 锌#NN)  (nn, 元素#NN, 硒等#NN)  (relcl, 硒等#NN, 营养#VA)  (relcl, 元素#NN, 营养#VA)  (nn, ;#NN, 元素#NN)  (nsubj, 具有#VV, ;#NN)  (root, ROOT#null, 具有#VV)  (nn, 化痰#NN, 补肝#NN)  (conj, 化痰#NN, 肾#NN)  (nn, 化痰#NN, 益#NN)  (conj, 化痰#NN, 脾胃#NN)  (nn, 止咳#NN, 化痰#NN)  (assmod, 效#NN, 止咳#NN)  (case, 止咳#NN, 之#DEG)  (dobj, 具有#VV, 效#NN)  (case, 人#NN, 对#P)  (nn, 不足#NN, 肝肾#NN)  (assmod, 人#NN, 不足#NN)  (case, 不足#NN, 的#DEG)  (prep, 有#VE, 人#NN)  (conj, 具有#VV, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 补益#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 可治#VV, 鲈鱼#NN)  (advmod, 可治#VV, 还#AD)  (root, ROOT#null, 可治#VV)  (nn, 不安#NN, 胎动#NN)  (dobj, 可治#VV, 不安#NN)  (conj, 可治#VV, 产生#VV)  (amod, 乳等症#NN, 少#JJ)  (dobj, 产生#VV, 乳等症#NN)  (conj, 可治#VV, 准#VV)  (conj, 产生#NN, 妈妈#NN)  (cc, 产生#NN, 和#CC)  (nn, 妇女#NN, 产生#NN)  (nsubj, 吃#VV, 妇女#NN)  (ccomp, 准#VV, 吃#VV)  (dobj, 吃#VV, 鲈鱼#NN)  (conj, 吃#VV, 是#VC)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (cc, 可治#VV, 既#CC)  (conj, 可治#VV, 补#VV)  (dobj, 补#VV, 身#NN)  (advmod, 造成#VV, 又#AD)  (neg, 造成#VV, 不#AD)  (mmod, 造成#VV, 会#VV)  (conj, 可治#VV, 造成#VV)  (ccomp, 造成#VV, 营养#VA)  (dep, 造成#VV, 过剩#VV)  (prtmod, 导致#VV, 而#MSP)  (relcl, 食物#NN, 导致#VV)  (ccomp, 导致#VV, 肥胖#VV)  (mark, 导致#VV, 的#DEC)  (nfincl, 食物#NN, 营养#VA)  (dobj, 过剩#VV, 食物#NN)  (cop, 佳品#NN, 是#VC)  (relcl, 佳品#NN, 健身#VV)  (conj, 安康#NN, 补血#NN)  (nn, 安康#NN, 健脾#NN)  (conj, 安康#NN, 益气#NN)  (cc, 安康#NN, 和#CC)  (nn, 安康#NN, 益体#NN)  (dobj, 健身#VV, 安康#NN)  (mark, 健身#VV, 的#DEC)  (conj, 可治#VV, 佳品#NN)
+            (nn, 血中#NN, 鲈鱼#NN)  (nsubj, 发挥#VV, 血中#NN)  (advmod, 发挥#VV, 还有#AD)  (advmod, 多#VA, 较#AD)  (relcl, 铜元素#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (nsubj, 发挥#VV, 铜元素#NN)  (nsubj, 维持#VV, 铜#NN)  (mmod, 维持#VV, 能#VV)  (relcl, 功能#NN, 维持#VV)  (nn, 系统#NN, 神经#NN)  (assmod, 功能#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (relcl, 功能#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (dobj, 维持#VV, 功能#NN)  (cc, 维持#VV, 并#CC)  (conj, 维持#VV, 参与#VV)  (nn, 代谢#NN, 数种#NN)  (nn, 代谢#NN, 物质#NN)  (assmod, 酶#NN, 代谢#NN)  (case, 代谢#NN, 的#DEG)  (amod, 酶#NN, 关键#JJ)  (dobj, 参与#VV, 酶#NN)  (mark, 维持#VV, 的#DEC)  (nsubj, 发挥#VV, 功能#NN)  (root, ROOT#null, 发挥#VV)  (advmod, 缺乏#VV, 铜元#AD)  (advmod, 缺乏#VV, 素#AD)  (relcl, 人#NN, 缺乏#VV)  (mark, 缺乏#VV, 的#DEC)  (nsubj, 食用#VV, 人#NN)  (mmod, 食用#VV, 可#VV)  (conj, 发挥#VV, 食用#VV)  (dobj, 食用#VV, 鲈鱼#NN)  (prtmod, 补充#VV, 来#MSP)  (dep, 食用#VV, 补充#VV)
+        </parsing>
+
+        <tag>
+            富含硒等  蛋白质  维生素A  硒等营养  补肝化痰  脾胃  化痰止咳  肝肾不足  胎动不安  可治不安  少乳等症  产生乳等症  妈妈  产生妇女  导致食物  过剩食物  健身佳品  补血  健脾安康  益气  益体安康  健身安康  维持功能  神经系统  功能正常  数种代谢  关键酶  参与酶  发挥  缺乏人  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.鲈鱼肉质白嫩、清香，没有腥味，肉为蒜瓣形，最宜清蒸、红烧或炖汤。
+            2.为了保证鲈鱼的肉质洁白，宰杀时应把鲈鱼的鳃夹骨斩断，倒吊放血，待血污流尽后，放在砧板上，从鱼尾部跟着脊骨逆刀上，剖断胸骨，将鲈鱼分成软、硬两边，取出内脏，洗净血污即可(起鲈鱼球用)。
+            3.巧去鱼腥味：将鱼去鳞剖腹洗净后，放入盆中倒一些黄酒，就能除区鱼的腥味，并能使鱼滋味鲜美；鲜鱼剖开洗净，在牛奶中泡一会儿既可除腥，又能增加鲜味。
+        </rawdata>
+
+        <segment>
+            鲈鱼  肉质  白嫩  、  清香  ，  没有  腥味  ，  肉  为  蒜  瓣形  ，  最  宜  清蒸  、  红烧  或  炖汤  。
+            为了  保证  鲈鱼  的  肉质  洁白  ，  宰杀  时  应把  鲈鱼  的  鳃夹  骨  斩断  ，  倒吊  放血  ，  待  血污  流尽  后  ，  放在  砧板  上  ，  从  鱼尾部  跟着  脊骨  逆  刀  上  ，  剖断  胸骨  ，  将  鲈鱼  分成  软  、  硬  两  边  ，  取出  内脏  ，  洗净  血污  即可  (  起  鲈鱼  球  用  )  。
+            巧  去  鱼腥味  ：  将  鱼  去鳞  剖腹  洗净  后  ，  放入  盆中  倒  一些  黄酒  ，  就  能  除  区  鱼  的  腥味  ，  并  能  使  鱼  滋味  鲜美  ；  鲜鱼  剖开  洗净  ，  在  牛奶  中  泡  一会儿  既可  除腥  ，  又  能  增加  鲜味  。
+        </segment>
+
+        <pos>
+            鲈鱼#NN  肉质#NN  白嫩#NN  、#PU  清香#NN  ，#PU  没有#VE  腥味#NN  ，#PU  肉#NN  为#VV  蒜#NN  瓣形#NN  ，#PU  最#AD  宜#NR  清蒸#VV  、#PU  红烧#VV  或#CC  炖汤#VV  。#PU
+            为了#P  保证#VV  鲈鱼#NN  的#DEG  肉质#NN  洁白#NN  ，#PU  宰杀#VV  时#AD  应把#VV  鲈鱼#NN  的#DEC  鳃夹#NN  骨#NN  斩断#NN  ，#PU  倒吊#VV  放血#NN  ，#PU  待#VV  血污#NN  流尽#NN  后#LC  ，#PU  放在#AD  砧板#CD  上#LC  ，#PU  从#P  鱼尾部#NR  跟着#P  脊骨#VV  逆#CD  刀#M  上#LC  ，#PU  剖断#VV  胸骨#NN  ，#PU  将#BA  鲈鱼#NN  分成#NN  软#VA  、#PU  硬#VA  两#CD  边#LC  ，#PU  取出#VV  内脏#NN  ，#PU  洗净#NR  血污#NN  即可#NN  -LRB-#CD  起#M  鲈鱼#NN  球#NN  用#VV  -RRB-#NN  。#PU
+            巧#NN  去#MSP  鱼腥味#VV  ：#PU  将#BA  鱼#NN  去鳞#NN  剖腹#NN  洗净#NN  后#LC  ，#PU  放入#VV  盆中#NN  倒#VV  一些#CD  黄酒#NN  ，#PU  就#AD  能#VV  除#P  区#NN  鱼#NN  的#DEG  腥味#NN  ，#PU  并#CC  能#VV  使#VV  鱼#NN  滋味#NN  鲜美#NN  ；#PU  鲜鱼#NN  剖开#NN  洗净#NN  ，#PU  在#P  牛奶#NN  中#LC  泡#VV  一会儿#CD  既可#NN  除腥#NN  ，#PU  又#AD  能#VV  增加#VV  鲜味#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 清香#NN, 鲈鱼#NN)  (nn, 清香#NN, 肉质#NN)  (conj, 清香#NN, 白嫩#NN)  (dep, 没有#VE, 清香#NN)  (root, ROOT#null, 没有#VE)  (dobj, 没有#VE, 腥味#NN)  (nsubj, 为#VV, 肉#NN)  (conj, 没有#VE, 为#VV)  (nn, 瓣形#NN, 蒜#NN)  (dobj, 为#VV, 瓣形#NN)  (advmod, 清蒸#VV, 最#AD)  (prep, 清蒸#VV, 宜#NR)  (conj, 为#VV, 清蒸#VV)  (conj, 清蒸#VV, 红烧#VV)  (cc, 清蒸#VV, 或#CC)  (conj, 清蒸#VV, 炖汤#VV)
+            (case, 保证#VV, 为了#P)  (prep, 用#VV, 保证#VV)  (assmod, 洁白#NN, 鲈鱼#NN)  (case, 鲈鱼#NN, 的#DEG)  (nn, 洁白#NN, 肉质#NN)  (dobj, 保证#VV, 洁白#NN)  (conj, 保证#VV, 宰杀#VV)  (advmod, 应把#VV, 时#AD)  (relcl, 斩断#NN, 应把#VV)  (dobj, 应把#VV, 鲈鱼#NN)  (mark, 应把#VV, 的#DEC)  (nn, 斩断#NN, 鳃夹#NN)  (nn, 斩断#NN, 骨#NN)  (dobj, 宰杀#VV, 斩断#NN)  (conj, 保证#VV, 倒吊#VV)  (dobj, 倒吊#VV, 放血#NN)  (loc, 剖断#VV, 待#VV)  (nn, 流尽#NN, 血污#NN)  (dobj, 待#VV, 流尽#NN)  (case, 待#VV, 后#LC)  (advmod, 剖断#VV, 放在#AD)  (loc, 剖断#VV, 砧板#CD)  (case, 砧板#CD, 上#LC)  (case, 鱼尾部#NR, 从#P)  (prep, 剖断#VV, 鱼尾部#NR)  (case, 脊骨#VV, 跟着#P)  (prep, 剖断#VV, 脊骨#VV)  (nummod, 刀#M, 逆#CD)  (range, 脊骨#VV, 刀#M)  (case, 脊骨#VV, 上#LC)  (conj, 保证#VV, 剖断#VV)  (dobj, 剖断#VV, 胸骨#NN)  (ba, 软#VA, 将#BA)  (nn, 分成#NN, 鲈鱼#NN)  (nsubj, 软#VA, 分成#NN)  (conj, 保证#VV, 软#VA)  (conj, 保证#VV, 硬#VA)  (loc, 硬#VA, 两#CD)  (case, 两#CD, 边#LC)  (conj, 保证#VV, 取出#VV)  (dobj, 取出#VV, 内脏#NN)  (nn, 即可#NN, 洗净#NR)  (nn, 即可#NN, 血污#NN)  (nn, 球#NN, 即可#NN)  (clf, 球#NN, 起#M)  (nn, 球#NN, 鲈鱼#NN)  (nsubj, 用#VV, 球#NN)  (root, ROOT#null, 用#VV)
+            (nsubj, 鱼腥味#VV, 巧#NN)  (prtmod, 鱼腥味#VV, 去#MSP)  (root, ROOT#null, 鱼腥味#VV)  (ba, 放入#VV, 将#BA)  (nn, 剖腹#NN, 鱼#NN)  (nn, 剖腹#NN, 去鳞#NN)  (nsubj, 放入#VV, 剖腹#NN)  (loc, 放入#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (dep, 鱼腥味#VV, 放入#VV)  (dobj, 放入#VV, 盆中#NN)  (conj, 放入#VV, 倒#VV)  (nummod, 黄酒#NN, 一些#CD)  (dobj, 倒#VV, 黄酒#NN)  (advmod, 能#VV, 就#AD)  (dep, 放入#VV, 能#VV)  (case, 鱼#NN, 除#P)  (nn, 鱼#NN, 区#NN)  (assmod, 腥味#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 能#VV, 腥味#NN)  (cc, 鱼腥味#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (dep, 鱼腥味#VV, 使#VV)  (nn, 鲜美#NN, 鱼#NN)  (nn, 鲜美#NN, 滋味#NN)  (dobj, 使#VV, 鲜美#NN)  (nn, 洗净#NN, 鲜鱼#NN)  (nn, 洗净#NN, 剖开#NN)  (nsubj, 泡#VV, 洗净#NN)  (case, 牛奶#NN, 在#P)  (prep, 泡#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (dep, 使#VV, 泡#VV)  (nummod, 除腥#NN, 一会儿#CD)  (nn, 除腥#NN, 既可#NN)  (dobj, 泡#VV, 除腥#NN)  (advmod, 增加#VV, 又#AD)  (mmod, 增加#VV, 能#VV)  (dep, 泡#VV, 增加#VV)  (dobj, 增加#VV, 鲜味#NN)
+        </parsing>
+
+        <tag>
+            肉质清香  白嫩  没有腥味  肉质洁白  保证洁白  应把斩断  鳃夹斩断  宰杀斩断  倒吊放血  血污流尽  剖断胸骨  取出内脏  血污即可  去鳞剖腹  滋味鲜美  鲜鱼洗净  剖开洗净  既可除腥  增加鲜味  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100919562763.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\85 鲈鱼.jpg
+    </picturelocalurl>
+
+</content>

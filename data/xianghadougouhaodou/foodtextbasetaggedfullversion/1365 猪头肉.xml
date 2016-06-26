@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        1365
+    </id>
+
+    <foodname>
+        猪头肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            湿热痰滞内蕴者慎服；肥胖、血脂较高者不宜多食；猪头肉为动风发疾之物．凡有风邪偏盛之人忌食猪头肉
+        </rawdata>
+
+        <segment>
+            湿热  痰滞  内蕴  者  慎服  ；  肥胖  、  血脂  较  高者  不  宜  多  食  ；  猪头肉  为  动  风发  疾之物  ．  凡有  风  邪偏  盛  之  人  忌食  猪头肉
+        </segment>
+
+        <pos>
+            湿热#NN  痰滞#NN  内蕴#NN  者#NN  慎服#VV  ；#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  不#AD  宜#NR  多#CD  食#NN  ；#PU  猪头肉#NN  为#P  动#NN  风发#VV  疾之物#NN  ．#PU  凡有#VV  风#NN  邪偏#AD  盛#VA  之#DEC  人#NN  忌食#NN  猪头肉#NN
+        </pos>
+
+        <parsing>
+            (nn, 内蕴#NN, 湿热#NN)  (nn, 内蕴#NN, 痰滞#NN)  (nn, 者#NN, 内蕴#NN)  (nsubj, 慎服#VV, 者#NN)  (root, ROOT#null, 慎服#VV)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (ccomp, 慎服#VV, 高者#VV)  (neg, 高者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 高者#VV, 食#NN)  (nsubj, 风发#VV, 猪头肉#NN)  (case, 动#NN, 为#P)  (prep, 风发#VV, 动#NN)  (conj, 高者#VV, 风发#VV)  (dobj, 风发#VV, 疾之物#NN)  (dep, 慎服#VV, 凡有#VV)  (nsubj, 盛#VA, 风#NN)  (advmod, 盛#VA, 邪偏#AD)  (relcl, 猪头肉#NN, 盛#VA)  (mark, 盛#VA, 之#DEC)  (nn, 猪头肉#NN, 人#NN)  (nn, 猪头肉#NN, 忌食#NN)  (dobj, 凡有#VV, 猪头肉#NN)
+        </parsing>
+
+        <tag>
+            湿热痰滞内蕴者  慎服  肥胖  血脂较高者不宜多食  动风发疾  凡有风邪偏盛  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪头肉的美味，于民间早就声誉鹊起，据说淮扬菜系中的“扒烧整猪头”火工最讲究、历史最悠久，是道久负盛名的淮扬名菜。猪肉为人类提供优质蛋白质和必需的脂肪酸。猪肉可提供血红素（有机铁）和促进铁吸收的半胱氨酸，能改善缺铁性贫血。猪头肉适宜人群，一般人都可食用湿热痰滞内蕴者慎服；肥胖、血脂较高者不宜多食；猪头肉为动风发疾之物．凡有风邪偏盛之人忌食猪头肉。猪头肉的食疗作用，性平，味甘咸；补虚，滋阴，养血，润燥。
+        </rawdata>
+
+        <segment>
+            猪头肉  的  美味  ，  于  民间  早  就  声誉  鹊起  ，  据说  淮扬  菜系  中  的  “  扒烧  整  猪  头  ”  火  工  最  讲究  、  历史  最  悠久  ，  是  道  久负盛名  的  淮扬  名菜  。  猪肉  为  人类  提供  优质  蛋白质  和  必需  的  脂肪酸  。  猪肉  可  提供  血红素  （  有机铁  ）  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。  猪头肉  适宜  人群  ，  一般  人  都  可  食用  湿热  痰滞  内蕴  者  慎服  ；  肥胖  、  血脂  较  高者  不  宜  多  食  ；  猪头肉  为  动  风发  疾之物  ．  凡有  风  邪偏  盛  之  人  忌食  猪头肉  。  猪头肉  的  食疗  作用  ，  性平  ，  味甘咸  ；  补虚  ，  滋阴  ，  养  血  ，  润燥  。
+        </segment>
+
+        <pos>
+            猪头肉#NN  的#DEG  美味#NN  ，#PU  于#P  民间#NN  早#AD  就#P  声誉#NN  鹊起#NN  ，#PU  据说#AD  淮扬#NN  菜系#NN  中#LC  的#DEG  ``#NN  扒烧#NN  整#DT  猪#NN  头#DT  ''#CD  火#NN  工#NN  最#AD  讲究#VA  、#PU  历史#NN  最#AD  悠久#VA  ，#PU  是#VC  道#NN  久负盛名#NN  的#DEC  淮扬#NN  名菜#VV    。#PU  猪肉#NN  为#P  人类#NN  提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  猪肉#NN  可#VV  提供#VV  血红素#NN  （#PU  有机铁#NR  ）#PU  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU  猪头肉#NN  适宜#VV  人群#NN  ，#PU  一般#JJ  人#NN  都#AD  可#VV  食用#VV  湿热#NN  痰滞#NN  内蕴#NN  者#NN  慎服#NN  ；#PU  肥胖#NR  、#PU  血脂#NR  较#AD  高者#VV  不#AD  宜#NR  多#CD  食#NN  ；#PU  猪头肉#NN  为#VC  动#NN  风发#NN  疾之物#NN  ．#PU  凡有#NN  风#NN  邪偏#NN  盛#VA  之#DEC  人#NN  忌食#VV  猪头肉#NN    。#PU  猪头肉#NN  的#DEG  食疗#JJ  作用#NN  ，#PU  性平#VV  ，#PU  味甘咸#VV  ；#PU  补虚#VV  ，#PU  滋阴#NR  ，#PU  养#VV  血#NN  ，#PU  润燥#VV    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 美味#NN, 猪头肉#NN)  (case, 猪头肉#NN, 的#DEG)  (nsubj, 名菜#VV, 美味#NN)  (case, 民间#NN, 于#P)  (prep, 名菜#VV, 民间#NN)  (conj, 民间#NN, 早#AD)  (case, 鹊起#NN, 就#P)  (nn, 鹊起#NN, 声誉#NN)  (dep, 早#AD, 鹊起#NN)  (advmod, 名菜#VV, 据说#AD)  (nn, 菜系#NN, 淮扬#NN)  (assmod, 扒烧#NN, 菜系#NN)  (case, 菜系#NN, 中#LC)  (case, 菜系#NN, 的#DEG)  (nn, 扒烧#NN, ``#NN)  (nsubj, 名菜#VV, 扒烧#NN)  (det, 猪#NN, 整#DT)  (nn, 工#NN, 猪#NN)  (det, 火#NN, 头#DT)  (dep, 头#DT, ''#CD)  (nn, 工#NN, 火#NN)  (nsubj, 讲究#VA, 工#NN)  (advmod, 讲究#VA, 最#AD)  (relcl, 淮扬#NN, 讲究#VA)  (nsubj, 悠久#VA, 历史#NN)  (advmod, 悠久#VA, 最#AD)  (conj, 讲究#VA, 悠久#VA)  (cop, 久负盛名#NN, 是#VC)  (nn, 久负盛名#NN, 道#NN)  (conj, 讲究#VA, 久负盛名#NN)  (mark, 讲究#VA, 的#DEC)  (nsubj, 名菜#VV, 淮扬#NN)  (root, ROOT#null, 名菜#VV)   (nsubj, 提供#VV, 猪肉#NN)  (case, 人类#NN, 为#P)  (prep, 提供#VV, 人类#NN)  (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (nsubj, 提供#VV, 猪肉#NN)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (conj, 半胱氨酸#NN, 血红素#NN)  (prnmod, 血红素#NN, 有机铁#NR)  (cc, 半胱氨酸#NN, 和#CC)  (relcl, 半胱氨酸#NN, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (conj, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)   (nsubj, 适宜#VV, 猪头肉#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 人群#NN)  (amod, 人#NN, 一般#JJ)  (nsubj, 食用#VV, 人#NN)  (advmod, 食用#VV, 都#AD)  (mmod, 食用#VV, 可#VV)  (conj, 适宜#VV, 食用#VV)  (nn, 慎服#NN, 湿热#NN)  (nn, 慎服#NN, 痰滞#NN)  (nn, 慎服#NN, 内蕴#NN)  (nn, 慎服#NN, 者#NN)  (dobj, 食用#VV, 慎服#NN)  (conj, 血脂#NR, 肥胖#NR)  (nsubj, 高者#VV, 血脂#NR)  (advmod, 高者#VV, 较#AD)  (conj, 适宜#VV, 高者#VV)  (neg, 高者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 高者#VV, 食#NN)  (nsubj, 疾之物#NN, 猪头肉#NN)  (cop, 疾之物#NN, 为#VC)  (nn, 疾之物#NN, 动#NN)  (nn, 疾之物#NN, 风发#NN)  (conj, 适宜#VV, 疾之物#NN)  (nn, 邪偏#NN, 凡有#NN)  (nn, 邪偏#NN, 风#NN)  (nsubj, 盛#VA, 邪偏#NN)  (relcl, 人#NN, 盛#VA)  (mark, 盛#VA, 之#DEC)  (nsubj, 忌食#VV, 人#NN)  (dep, 适宜#VV, 忌食#VV)  (dobj, 忌食#VV, 猪头肉#NN)   (assmod, 作用#NN, 猪头肉#NN)  (case, 猪头肉#NN, 的#DEG)  (amod, 作用#NN, 食疗#JJ)  (nsubj, 性平#VV, 作用#NN)  (root, ROOT#null, 性平#VV)  (ccomp, 性平#VV, 味甘咸#VV)  (conj, 性平#VV, 补虚#VV)  (nsubj, 养#VV, 滋阴#NR)  (ccomp, 补虚#VV, 养#VV)  (dobj, 养#VV, 血#NN)  (conj, 养#VV, 润燥#VV)
+        </parsing>
+
+        <tag>
+            声誉鹊起  淮扬菜系  工讲究  淮扬讲究  历史悠久  名菜  优质蛋白质  必需脂肪酸  提供脂肪酸  血红素  促进半胱氨酸  铁吸收  促进吸收  提供半胱氨酸  适宜人群  一般人  湿热慎服  痰滞慎服  内蕴慎服  食用慎服  血脂  肥胖  高者食  风发疾之物  凡有邪偏  性平  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            色泽红润，香糯浓醇，咸甜适度，肥而不腻。
+        </rawdata>
+
+        <segment>
+            色泽  红润  ，  香糯浓醇  ，  咸  甜  适度  ，  肥而不腻  。
+        </segment>
+
+        <pos>
+            色泽#NN  红润#NN  ，#PU  香糯浓醇#VV  ，#PU  咸#NN  甜#NN  适度#AD  ，#PU  肥而不腻#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 红润#NN, 色泽#NN)  (nsubj, 香糯浓醇#VV, 红润#NN)  (root, ROOT#null, 香糯浓醇#VV)  (nn, 甜#NN, 咸#NN)  (nsubj, 肥而不腻#VV, 甜#NN)  (advmod, 肥而不腻#VV, 适度#AD)  (ccomp, 香糯浓醇#VV, 肥而不腻#VV)
+        </parsing>
+
+        <tag>
+            色泽红润  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  改善营养性贫血  美容养颜  补气  润燥  补血  消肿  补肾阴  补肾气
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            每100克猪头肉中含有能量468.85kj，水分54.5375g，蛋白质6.0775g，脂肪1.225g，膳食纤维3.3225g，酒精0%，碳水化合物19.13g，灰分13.2075g，维生素A0μg，葫箩卜素39μg，施黄醇6.475μg，硫安素0.038mg，荷黄素0.149mg，尼克酸2.2125mg，维生素C0mg，维生素E1.1325mg，钾312.1mg，钠3357.37mg，钙97.225mg，镁100.6mg，铁5.3075mg，锰1.0445mg，锌1.4175mg，铜0.216mg，磷144.8mg，锡3.6095mg。
+            猪肉为人类提供优质蛋白质和必需的脂肪酸。猪肉可提供血红素（有机铁）和促进铁吸收的半胱氨酸，能改善缺铁性贫血。
+        </rawdata>
+
+        <segment>
+            每  0  克  猪头肉  中  含有  能量  468.85  kj  ，  水分  54.5375g  ，  蛋白质  6.0775g  ，  脂肪  1.225g  ，  膳食  纤维  3.3225g  ，  酒精  0%  ，  碳水化合物  19.13  g  ，  灰分  13.2075g  ，  维生素A0μg  ，  葫箩  卜素  39  μg  ，  施黄醇  6.475  μg  ，  硫  安素  0.038mg  ，  荷  黄素  0.149mg  ，  尼克酸  2.2125  mg  ，  维生素C0mg  ，  维生素E1.1325  mg  ，  钾  312.1mg  ，  钠  3357.37mg  ，  钙  97.225  mg  ，  镁  100.6mg  ，  铁  5.3075  mg  ，  锰  1.0445mg  ，  锌  1.4175  mg  ，  铜  0.216mg  ，  磷  144.8mg  ，  锡  3.6095  mg  。
+            猪肉  为  人类  提供  优质  蛋白质  和  必需  的  脂肪酸  。  猪肉  可  提供  血红素  （  有机铁  ）  和  促进  铁  吸收  的  半胱氨酸  ，  能  改善  缺  铁  性  贫血  。
+        </segment>
+
+        <pos>
+            每#DT  0#CD  克#M  猪头肉#NN  中#VV  含有#VV  能量#NN  468.85#CD  kj#NN  ，#PU  水分#VV  54.5375#CD  g#NN  ，#PU  蛋白质#VV  6.0775#CD  g#NN  ，#PU  脂肪#VV  1.225#CD  g#NN  ，#PU  膳食#VV  纤维#NN  3.3225#CD  g#NN  ，#PU  酒精#NN  0#CD  %#VV  ，#PU  碳水化合物#VV  19.13#CD  g#NN  ，#PU  灰分#VV  13.2075#CD  g#NN  ，#PU  维生素A0μg#CD  ，#PU  葫箩#VV  卜素#NR  39#CD  μg#NN  ，#PU  施黄醇#VV  6.475#CD  μg#NN  ，#PU  硫#NN  安素#VV  0.038#CD  mg#NN  ，#PU  荷#VV  黄素#NR  0.149#CD  mg#NN  ，#PU  尼克酸#VV  2.2125#CD  mg#NN  ，#PU  维生素C0mg#CD  ，#PU  维生素E1#CD  .1325#CD  mg#NN  ，#PU  钾#NN  312.1#CD  mg#NN  ，#PU  钠#NN  3357.37#CD  mg#NN  ，#PU  钙#NR  97.225#CD  mg#NN  ，#PU  镁#NN  100.6#CD  mg#NN  ，#PU  铁#JJ  5.3075#CD  mg#NN  ，#PU  锰#NR  1.0445#CD  mg#NN  ，#PU  锌#NN  1.4175#CD  mg#NN  ，#PU  铜#NN  0.216#CD  mg#NN  ，#PU  磷#NN  144.8#CD  mg#CD  ，#PU  锡#VV  3.6095#CD  mg#NN  。#PU
+            猪肉#NN  为#P  人类#NN  提供#VV  优质#JJ  蛋白质#NN  和#CC  必需#VV  的#DEC  脂肪酸#NN    。#PU  猪肉#NN  可#VV  提供#VV  血红素#NN  （#PU  有机铁#NR  ）#PU  和#CC  促进#VV  铁#JJ  吸收#NN  的#DEC  半胱氨酸#NN  ，#PU  能#VV  改善#VV  缺#VV  铁#NN  性#NN  贫血#NN    。#PU
+        </pos>
+
+        <parsing>
+            (det, 猪头肉#NN, 每#DT)  (nummod, 克#M, 0#CD)  (dep, 每#DT, 克#M)  (nsubj, 含有#VV, 猪头肉#NN)  (mmod, 含有#VV, 中#VV)  (root, ROOT#null, 含有#VV)  (nn, kj#NN, 能量#NN)  (nummod, kj#NN, 468.85#CD)  (dobj, 含有#VV, kj#NN)  (ccomp, 含有#VV, 水分#VV)  (conj, 含有#VV, 水分#VV)  (nummod, g#NN, 54.5375#CD)  (dobj, 水分#VV, g#NN)  (ccomp, 含有#VV, 蛋白质#VV)  (conj, 含有#VV, 蛋白质#VV)  (nummod, g#NN, 6.0775#CD)  (dobj, 蛋白质#VV, g#NN)  (ccomp, 含有#VV, 脂肪#VV)  (conj, 含有#VV, 脂肪#VV)  (nummod, g#NN, 1.225#CD)  (dobj, 脂肪#VV, g#NN)  (ccomp, 含有#VV, 膳食#VV)  (conj, 含有#VV, 膳食#VV)  (nn, g#NN, 纤维#NN)  (nummod, g#NN, 3.3225#CD)  (dobj, 膳食#VV, g#NN)  (dep, 0#CD, 酒精#NN)  (dep, %#VV, 0#CD)  (ccomp, 含有#VV, %#VV)  (conj, 含有#VV, %#VV)  (ccomp, 含有#VV, 碳水化合物#VV)  (conj, 含有#VV, 碳水化合物#VV)  (nummod, g#NN, 19.13#CD)  (dobj, 碳水化合物#VV, g#NN)  (ccomp, 含有#VV, 灰分#VV)  (conj, 含有#VV, 灰分#VV)  (nummod, g#NN, 13.2075#CD)  (dobj, 灰分#VV, g#NN)  (ccomp, 含有#VV, 维生素A0μg#CD)  (conj, 含有#VV, 维生素A0μg#CD)  (ccomp, 含有#VV, 葫箩#VV)  (conj, 含有#VV, 葫箩#VV)  (nn, μg#NN, 卜素#NR)  (nummod, μg#NN, 39#CD)  (dobj, 葫箩#VV, μg#NN)  (ccomp, 含有#VV, 施黄醇#VV)  (conj, 含有#VV, 施黄醇#VV)  (nummod, μg#NN, 6.475#CD)  (dobj, 施黄醇#VV, μg#NN)  (dep, 安素#VV, 硫#NN)  (ccomp, 含有#VV, 安素#VV)  (conj, 含有#VV, 安素#VV)  (nummod, mg#NN, 0.038#CD)  (dobj, 安素#VV, mg#NN)  (ccomp, 含有#VV, 荷#VV)  (conj, 含有#VV, 荷#VV)  (nn, mg#NN, 黄素#NR)  (nummod, mg#NN, 0.149#CD)  (dobj, 荷#VV, mg#NN)  (ccomp, 含有#VV, 尼克酸#VV)  (conj, 含有#VV, 尼克酸#VV)  (nummod, mg#NN, 2.2125#CD)  (dobj, 尼克酸#VV, mg#NN)  (ccomp, 含有#VV, 维生素C0mg#CD)  (conj, 含有#VV, 维生素C0mg#CD)  (nummod, mg#NN, 维生素E1#CD)  (nummod, mg#NN, .1325#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 钾#NN)  (nummod, mg#NN, 312.1#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 钠#NN)  (nummod, mg#NN, 3357.37#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 钙#NR)  (nummod, mg#NN, 97.225#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 镁#NN)  (nummod, mg#NN, 100.6#CD)  (dep, 磷#NN, mg#NN)  (amod, 5.3075#CD, 铁#JJ)  (nummod, mg#NN, 5.3075#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 锰#NR)  (nummod, mg#NN, 1.0445#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 锌#NN)  (nummod, mg#NN, 1.4175#CD)  (dep, 磷#NN, mg#NN)  (nn, mg#NN, 铜#NN)  (nummod, mg#NN, 0.216#CD)  (dep, 磷#NN, mg#NN)  (ccomp, 含有#VV, 磷#NN)  (conj, 含有#VV, 磷#NN)  (nummod, 磷#NN, 144.8#CD)  (range, 磷#NN, mg#CD)  (ccomp, 含有#VV, 锡#VV)  (conj, 含有#VV, 锡#VV)  (nummod, mg#NN, 3.6095#CD)  (dobj, 锡#VV, mg#NN)
+            (nsubj, 提供#VV, 猪肉#NN)  (case, 人类#NN, 为#P)  (prep, 提供#VV, 人类#NN)  (root, ROOT#null, 提供#VV)  (amod, 蛋白质#NN, 优质#JJ)  (conj, 脂肪酸#NN, 蛋白质#NN)  (cc, 脂肪酸#NN, 和#CC)  (relcl, 脂肪酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (dobj, 提供#VV, 脂肪酸#NN)   (nsubj, 提供#VV, 猪肉#NN)  (mmod, 提供#VV, 可#VV)  (root, ROOT#null, 提供#VV)  (conj, 半胱氨酸#NN, 血红素#NN)  (prnmod, 血红素#NN, 有机铁#NR)  (cc, 半胱氨酸#NN, 和#CC)  (relcl, 半胱氨酸#NN, 促进#VV)  (amod, 吸收#NN, 铁#JJ)  (dobj, 促进#VV, 吸收#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 提供#VV, 半胱氨酸#NN)  (mmod, 缺#VV, 能#VV)  (mmod, 缺#VV, 改善#VV)  (conj, 提供#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)
+        </parsing>
+
+        <tag>
+            能量kj  含有kj  水分g  蛋白质g  脂肪g  膳食g  碳水化合物g  灰分g  葫箩μg  施黄醇μg  安素mg  尼克酸mg  优质蛋白质  必需脂肪酸  提供脂肪酸  血红素  促进半胱氨酸  铁吸收  促进吸收  提供半胱氨酸  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/0c/00/12_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1365 猪头肉.jpg
+    </picturelocalurl>
+
+</content>

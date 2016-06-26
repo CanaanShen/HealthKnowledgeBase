@@ -1,0 +1,438 @@
+<content>
+
+    <id>
+        235
+    </id>
+
+    <foodname>
+        南瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        麦瓜、番瓜、倭瓜、金瓜、伏瓜、饭瓜、窝瓜、中国南瓜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            南瓜性温，胃热炽盛者、气滞中满者、湿热气滞者少吃；同时患有脚气、黄疸、气滞湿阻病者忌食。
+        </rawdata>
+
+        <segment>
+            南瓜  性温  ，  胃热  炽盛  者  、  气滞  中  满  者  、  湿热  气滞者  少吃  ；  同时  患有  脚气  、  黄疸  、  气滞  湿阻  病者  忌食  。
+        </segment>
+
+        <pos>
+            南瓜#NN  性温#NN  ，#PU  胃热#NN  炽盛#VV  者#NN  、#PU  气滞#NN  中#LC  满#VV  者#NN  、#PU  湿热#NN  气滞者#NN  少吃#NN  ；#PU  同时#AD  患有#VV  脚气#NN  、#PU  黄疸#NN  、#PU  气滞#NN  湿阻#NN  病者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 性温#NN, 南瓜#NN)  (nsubj, 炽盛#VV, 性温#NN)  (nsubj, 炽盛#VV, 胃热#NN)  (root, ROOT#null, 炽盛#VV)  (dobj, 炽盛#VV, 者#NN)  (loc, 满#VV, 气滞#NN)  (case, 气滞#NN, 中#LC)  (conj, 炽盛#VV, 满#VV)  (conj, 少吃#NN, 者#NN)  (nn, 少吃#NN, 湿热#NN)  (nn, 少吃#NN, 气滞者#NN)  (dobj, 满#VV, 少吃#NN)  (advmod, 患有#VV, 同时#AD)  (conj, 炽盛#VV, 患有#VV)  (conj, 病者#NN, 脚气#NN)  (conj, 病者#NN, 黄疸#NN)  (nn, 病者#NN, 气滞#NN)  (nn, 病者#NN, 湿阻#NN)  (nn, 忌食#NN, 病者#NN)  (dobj, 患有#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            性温  胃热炽盛者  气滞中满者  湿热气滞者少吃  患有  脚气  黄疸  气滞湿阻病者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜肥胖者、糖尿病患者和中老年人食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  肥胖者  、  糖尿病  患者  和  中老年人  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VA  肥胖者#NN  、#PU  糖尿病#NN  患者#NN  和#CC  中老年人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 肥胖者#NN, 适宜#VA)  (conj, 中老年人#NN, 肥胖者#NN)  (nn, 患者#NN, 糖尿病#NN)  (conj, 中老年人#NN, 患者#NN)  (cc, 中老年人#NN, 和#CC)  (nsubj, 食用#VV, 中老年人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  肥胖者  糖尿病  患者  中老年人  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                148
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                890
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                145
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            南瓜是葫芦科南瓜属的植物，一年生蔓生草本。茎长达数米，节处生根，粗壮，有棱沟，被短硬毛，卷须分3～4叉。单叶互生，叶片心形或宽卵形，5浅裂有5角，稍柔软，长15～30厘米，两面密被茸毛，沿边缘及叶面上常有白斑，边缘有不规则的锯齿。花单生，雌雄同株异花。
+            因产地不同，叫法各异。又名麦瓜、番瓜、倭瓜、金冬瓜，台湾话称为金瓜，原产于北美洲。南瓜在中国各地都有栽种，日本则以北海道为大宗。嫩果味甘适口，是夏秋季节的瓜菜之一。老瓜可作饲料或杂粮，所以有很多地方又称为饭瓜。在西方南瓜常用来做成南瓜派，即南瓜甜饼。南瓜瓜子可以做零食。
+            南瓜的营养及其丰富，南瓜含有淀粉、蛋白质、胡萝卜素、维生素B、维生素C和钙、磷等成分。其营养丰富，为农村人经常食用的瓜菜，并日益受到城市人的重视。不仅有较高的食用价值。而且有着不可忽视的食疗作用。据《滇南本草》载：南瓜性温，味甘无毒，入脾、胃二经，能润肺益气，化痰排浓，驱虫解毒，治咳止喘，疗肺痈与便秘，并有利尿、美容等作用。近年来，国内外医学专家、学者研究实验表明，食南瓜，还有治疗前列腺肥大（南瓜子可治前列腺肥大）、预防前列腺癌、防治动脉硬化与胃粘膜溃疡、治糖尿病、化结石等作用。
+        </rawdata>
+
+        <segment>
+            南瓜  是  葫芦科  南瓜  属  的  植物  ，  一  年  生  蔓生  草本  。  茎长  达  数  米  ，  节  处  生根  ，  粗壮  ，  有  棱沟  ，  被  短  硬毛  ，  卷须  分  3  ～  4  叉  。  单叶  互生  ，  叶片  心形  或  宽  卵形  ，  5  浅  裂  有  5  角  ，  稍  柔软  ，  长  15  ～  30  厘米  ，  两  面  密  被  茸毛  ，  沿  边缘  及  叶面  上  常  有  白斑  ，  边缘  有  不规则  的  锯齿  。  花  单生  ，  雌雄  同株  异花  。
+            因  产地  不同  ，  叫法  各  异  。  又  名  麦瓜  、  番瓜  、  倭瓜  、  金  冬瓜  ，  台湾话  称为  金瓜  ，  原  产于  北美洲  。  南瓜  在  中国  各  地  都  有  栽种  ，  日本  则  以  北海道  为  大宗  。  嫩果味  甘  适口  ，  是  夏秋季  节  的  瓜  菜  之一  。  老瓜  可  作  饲料  或  杂粮  ，  所以  有  很多  地方  又  称为  饭  瓜  。  在  西方  南瓜  常  用来  做成  南瓜  派  ，  即  南瓜  甜饼  。  南瓜  瓜子  可以  做  零食  。
+            南瓜  的  营养  及其  丰富  ，  南瓜  含有  淀粉  、  蛋白质  、  胡萝卜素  、  维生素B  、  维生素C  和  钙  、  磷  等  成分  。  其  营养  丰富  ，  为  农村人  经常  食用  的  瓜  菜  ，  并  日益  受到  城市人  的  重视  。  不仅  有  较  高  的  食用  价值  。  而且  有  着  不可忽视  的  食疗  作用  。  据  《  滇南  本草  》  载  ：  南瓜  性温  ，  味甘  无毒  ，  入脾  、  胃  二  经  ，  能  润肺  益气  ，  化痰  排浓  ，  驱虫  解毒  ，  治咳止喘  ，  疗肺痈  与  便秘  ，  并  有利  尿  、  美容  等  作用  。  近年  来  ，  国内外  医学  专家  、  学者  研究  实验  表明  ，  食  南瓜  ，  还有  治疗  前列腺  肥大  （  南瓜子  可治  前列腺  肥大  ）  、  预防  前列  腺癌  、  防治  动脉  硬化  与  胃  粘膜  溃疡  、  治  糖尿病  、  化  结石  等  作用  。
+        </segment>
+
+        <pos>
+            南瓜#NN  是#VC  葫芦科#NN  南瓜#AD  属#VV  的#DEC  植物#NN  ，#PU  一#CD  年#M  生#VV  蔓生#NN  草本#NN    。#PU  茎长#AD  达#VV  数#CD  米#M  ，#PU  节#NN  处#LC  生根#VV  ，#PU  粗壮#VV  ，#PU  有#VE  棱沟#NN  ，#PU  被#LB  短#JJ  硬毛#NN  ，#PU  卷须#AD  分#VV  3#CD  ～#NN  4#CD  叉#NN    。#PU  单叶#NR  互生#VV  ，#PU  叶片#NN  心形#NN  或#CC  宽#JJ  卵形#NN  ，#PU  5#CD  浅#NN  裂#AD  有#VE  5#CD  角#M  ，#PU  稍#VV  柔软#NN  ，#PU  长#VV  15#CD  ～#NN  30#CD  厘米#M  ，#PU  两#CD  面#M  密#NN  被#SB  茸毛#VV  ，#PU  沿#P  边缘#NN  及#CC  叶面#NN  上#LC  常#AD  有#VE  白斑#VV  ，#PU  边缘#NN  有#VV  不规则#AD  的#DEC  锯齿#NN    。#PU  花#NN  单生#VV  ，#PU  雌雄#VV  同株#NN  异花#JJ    。#PU    。#PU
+            因#P  产地#NN  不同#VA  ，#PU  叫法#AD  各#AD  异#VA    。#PU  又#AD  名#JJ  麦瓜#NR  、#PU  番瓜#NR  、#PU  倭瓜#NR  、#PU  金#NR  冬瓜#NN  ，#PU  台湾话#AD  称为#VV  金瓜#NN  ，#PU  原#AD  产于#VV  北美洲#NR    。#PU  南瓜#NN  在#P  中国#NR  各#DT  地#NN  都#AD  有#VE  栽种#NN  ，#PU  日本#NR  则#AD  以#MSP  北海道#VV  为#VC  大宗#JJ    。#PU  嫩果味#NR  甘#NR  适口#VV  ，#PU  是#VC  夏秋季#NN  节#NN  的#DEG  瓜#NN  菜#NN  之一#NN    。#PU  老瓜#NR  可#VV  作#VV  饲料#NN  或#CC  杂粮#NN  ，#PU  所以#AD  有#VE  很多#CD  地方#NN  又#AD  称为#VV  饭#NN  瓜#NN    。#PU  在#P  西方#NN  南瓜#NN  常#AD  用来#VV  做成#NN  南瓜#NN  派#VV  ，#PU  即#AD  南瓜#VV  甜饼#NN    。#PU  南瓜#NN  瓜子#NN  可以#VV  做#VV  零食#CD    。#PU    。#PU
+            南瓜#NN  的#DEG  营养#VA  及其#NN  丰富#VA  ，#PU  南瓜#VV  含有#NR  淀粉#NR  、#PU  蛋白质#NR  、#PU  胡萝卜素#NR  、#PU  维生素B#NR  、#PU  维生素C#NR  和#CC  钙#NR  、#PU  磷#NN  等#ETC  成分#NN    。#PU  其#PN  营养#VA  丰富#VA  ，#PU  为#P  农村人#VV  经常#AD  食用#VV  的#DEC  瓜#NN  菜#NN  ，#PU  并#AD  日益#AD  受到#VV  城市人#NN  的#DEG  重视#NN    。#PU  不仅#AD  有#VE  较#AD  高#VA  的#DEC  食用#VV  价值#NN    。#PU  而且#AD  有#VE  着#AS  不可忽视#NN  的#DEC  食疗#NN  作用#NN    。#PU  据#P  滇南#NN  本草#NN  载#VV  ：#PU  南瓜#NR  性温#VV  ，#PU  味甘#NR  无毒#JJ  ，#PU  入脾#NR  、#PU  胃#NR  二#CD  经#VV  ，#PU  能#VV  润肺#NN  益气#NN  ，#PU  化痰#VV  排浓#NN  ，#PU  驱虫#VV  解毒#NN  ，#PU  治咳止喘#VV  ，#PU  疗肺痈#CD  与#CC  便秘#CD  ，#PU  并#CC  有利#VV  尿#NR  、#PU  美容#NR  等#ETC  作用#NN    。#PU  近年#NT  来#LC  ，#PU  国内外#NN  医学#NN  专家#NN  、#PU  学者#NN  研究#NN  实验#NN  表明#VV  ，#PU  食#NN  南瓜#VV  ，#PU  还有#AD  治疗#NN  前列腺#VV  肥大#NR  （#PU  南瓜子#NR  可治#NR  前列腺#NR  肥大#NN  ）#PU  、#PU  预防#NN  前列#NN  腺癌#NN  、#PU  防治#NN  动脉#NN  硬化#NN  与#CC  胃#NN  粘膜#NN  溃疡#NN  、#PU  治#NN  糖尿病#NN  、#PU  化#NN  结石#NN  等#ETC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 植物#NN, 南瓜#NN)  (cop, 植物#NN, 是#VC)  (nsubj, 属#VV, 葫芦科#NN)  (advmod, 属#VV, 南瓜#AD)  (relcl, 植物#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (root, ROOT#null, 植物#NN)  (nummod, 年#M, 一#CD)  (nsubj, 生#VV, 年#M)  (conj, 植物#NN, 生#VV)  (nn, 草本#NN, 蔓生#NN)  (dobj, 生#VV, 草本#NN)   (advmod, 达#VV, 茎长#AD)  (root, ROOT#null, 达#VV)  (nummod, 米#M, 数#CD)  (range, 达#VV, 米#M)  (loc, 生根#VV, 节#NN)  (case, 节#NN, 处#LC)  (conj, 达#VV, 生根#VV)  (conj, 达#VV, 粗壮#VV)  (conj, 达#VV, 有#VE)  (dobj, 有#VE, 棱沟#NN)  (auxpass, 分#VV, 被#LB)  (amod, 硬毛#NN, 短#JJ)  (nsubj, 分#VV, 硬毛#NN)  (advmod, 分#VV, 卷须#AD)  (conj, 达#VV, 分#VV)  (nummod, ～#NN, 3#CD)  (nummod, 叉#NN, 4#CD)  (dobj, 分#VV, 叉#NN)   (nsubj, 互生#VV, 单叶#NR)  (root, ROOT#null, 互生#VV)  (nn, 心形#NN, 叶片#NN)  (conj, 卵形#NN, 心形#NN)  (cc, 卵形#NN, 或#CC)  (amod, 卵形#NN, 宽#JJ)  (nsubj, 有#VE, 卵形#NN)  (nummod, 浅#NN, 5#CD)  (nsubj, 有#VE, 浅#NN)  (advmod, 有#VE, 裂#AD)  (ccomp, 互生#VV, 有#VE)  (nummod, 角#M, 5#CD)  (dep, 有#VE, 角#M)  (conj, 有#VE, 稍#VV)  (dobj, 稍#VV, 柔软#NN)  (conj, 稍#VV, 长#VV)  (nummod, ～#NN, 15#CD)  (nummod, 厘米#M, 30#CD)  (range, 长#VV, 厘米#M)  (nummod, 面#M, 两#CD)  (clf, 密#NN, 面#M)  (nsubjpass, 茸毛#VV, 密#NN)  (auxpass, 茸毛#VV, 被#SB)  (conj, 有#VE, 茸毛#VV)  (case, 叶面#NN, 沿#P)  (conj, 叶面#NN, 边缘#NN)  (cc, 叶面#NN, 及#CC)  (prep, 有#VE, 叶面#NN)  (case, 叶面#NN, 上#LC)  (advmod, 有#VE, 常#AD)  (conj, 有#VE, 有#VE)  (relcl, 锯齿#NN, 白斑#VV)  (nsubj, 有#VV, 边缘#NN)  (ccomp, 白斑#VV, 有#VV)  (advmod, 有#VV, 不规则#AD)  (mark, 白斑#VV, 的#DEC)  (dobj, 有#VE, 锯齿#NN)   (dep, 单生#VV, 花#NN)  (root, ROOT#null, 单生#VV)  (conj, 单生#VV, 雌雄#VV)  (dobj, 雌雄#VV, 同株#NN)  (conj, 单生#VV, 异花#JJ)   (root, ROOT#null, null#null)
+            (case, 产地#NN, 因#P)  (prep, 不同#VA, 产地#NN)  (root, ROOT#null, 不同#VA)  (advmod, 异#VA, 叫法#AD)  (advmod, 异#VA, 各#AD)  (dep, 不同#VA, 异#VA)   (advmod, 称为#VV, 又#AD)  (amod, 冬瓜#NN, 名#JJ)  (conj, 金#NR, 麦瓜#NR)  (conj, 金#NR, 番瓜#NR)  (conj, 金#NR, 倭瓜#NR)  (nn, 冬瓜#NN, 金#NR)  (dep, 称为#VV, 冬瓜#NN)  (advmod, 称为#VV, 台湾话#AD)  (root, ROOT#null, 称为#VV)  (dobj, 称为#VV, 金瓜#NN)  (advmod, 产于#VV, 原#AD)  (conj, 称为#VV, 产于#VV)  (dobj, 产于#VV, 北美洲#NR)   (nsubj, 有#VE, 南瓜#NN)  (case, 地#NN, 在#P)  (nn, 地#NN, 中国#NR)  (det, 地#NN, 各#DT)  (prep, 有#VE, 地#NN)  (advmod, 有#VE, 都#AD)  (dep, 为#VC, 有#VE)  (dobj, 有#VE, 栽种#NN)  (nsubj, 北海道#VV, 日本#NR)  (advmod, 北海道#VV, 则#AD)  (prtmod, 北海道#VV, 以#MSP)  (conj, 有#VE, 北海道#VV)  (root, ROOT#null, 为#VC)  (dep, 为#VC, 大宗#JJ)   (nn, 甘#NR, 嫩果味#NR)  (nsubj, 适口#VV, 甘#NR)  (root, ROOT#null, 适口#VV)  (cop, 之一#NN, 是#VC)  (nn, 节#NN, 夏秋季#NN)  (assmod, 之一#NN, 节#NN)  (case, 节#NN, 的#DEG)  (nn, 之一#NN, 瓜#NN)  (nn, 之一#NN, 菜#NN)  (ccomp, 适口#VV, 之一#NN)   (nsubj, 作#VV, 老瓜#NR)  (mmod, 作#VV, 可#VV)  (root, ROOT#null, 作#VV)  (conj, 杂粮#NN, 饲料#NN)  (cc, 杂粮#NN, 或#CC)  (dobj, 作#VV, 杂粮#NN)  (advmod, 称为#VV, 所以#AD)  (dep, 称为#VV, 有#VE)  (nummod, 地方#NN, 很多#CD)  (dobj, 有#VE, 地方#NN)  (advmod, 称为#VV, 又#AD)  (conj, 作#VV, 称为#VV)  (nn, 瓜#NN, 饭#NN)  (dobj, 称为#VV, 瓜#NN)   (case, 南瓜#NN, 在#P)  (nn, 南瓜#NN, 西方#NN)  (prep, 用来#VV, 南瓜#NN)  (advmod, 用来#VV, 常#AD)  (relcl, 南瓜#NN, 用来#VV)  (dobj, 用来#VV, 做成#NN)  (nsubj, 派#VV, 南瓜#NN)  (xsubj, 南瓜#VV, 南瓜#NN)  (root, ROOT#null, 派#VV)  (advmod, 南瓜#VV, 即#AD)  (ccomp, 派#VV, 南瓜#VV)  (dobj, 南瓜#VV, 甜饼#NN)   (nn, 瓜子#NN, 南瓜#NN)  (nsubj, 做#VV, 瓜子#NN)  (mmod, 做#VV, 可以#VV)  (root, ROOT#null, 做#VV)  (range, 做#VV, 零食#CD)   (root, ROOT#null, null#null)
+            (assmod, 及其#NN, 南瓜#NN)  (case, 南瓜#NN, 的#DEG)  (nfincl, 及其#NN, 营养#VA)  (nsubj, 丰富#VA, 及其#NN)  (root, ROOT#null, 丰富#VA)  (dep, 丰富#VA, 南瓜#VV)  (nn, 钙#NR, 含有#NR)  (conj, 钙#NR, 淀粉#NR)  (conj, 钙#NR, 蛋白质#NR)  (conj, 钙#NR, 胡萝卜素#NR)  (conj, 钙#NR, 维生素B#NR)  (conj, 钙#NR, 维生素C#NR)  (cc, 钙#NR, 和#CC)  (conj, 磷#NN, 钙#NR)  (nn, 成分#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (dobj, 南瓜#VV, 成分#NN)   (nsubj, 受到#VV, 其#PN)  (conj, 受到#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (case, 农村人#VV, 为#P)  (prep, 受到#VV, 农村人#VV)  (advmod, 食用#VV, 经常#AD)  (relcl, 菜#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (nn, 菜#NN, 瓜#NN)  (dobj, 农村人#VV, 菜#NN)  (advmod, 受到#VV, 并#AD)  (advmod, 受到#VV, 日益#AD)  (root, ROOT#null, 受到#VV)  (assmod, 重视#NN, 城市人#NN)  (case, 城市人#NN, 的#DEG)  (dobj, 受到#VV, 重视#NN)   (advmod, 有#VE, 不仅#AD)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 较#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 食用#VV)  (dobj, 有#VE, 价值#NN)   (advmod, 有#VE, 而且#AD)  (relcl, 作用#NN, 有#VE)  (asp, 有#VE, 着#AS)  (dobj, 有#VE, 不可忽视#NN)  (mark, 有#VE, 的#DEC)  (nn, 作用#NN, 食疗#NN)  (root, ROOT#null, 作用#NN)   (case, 载#VV, 据#P)  (nn, 本草#NN, 滇南#NN)  (nsubj, 载#VV, 本草#NN)  (prep, 性温#VV, 载#VV)  (nsubj, 性温#VV, 南瓜#NR)  (root, ROOT#null, 性温#VV)  (nsubj, 无毒#JJ, 味甘#NR)  (ccomp, 性温#VV, 无毒#JJ)  (conj, 胃#NR, 入脾#NR)  (dep, 二#CD, 胃#NR)  (dep, 经#VV, 二#CD)  (conj, 无毒#JJ, 经#VV)  (conj, 无毒#JJ, 能#VV)  (nn, 益气#NN, 润肺#NN)  (dobj, 能#VV, 益气#NN)  (conj, 无毒#JJ, 化痰#VV)  (dobj, 化痰#VV, 排浓#NN)  (conj, 无毒#JJ, 驱虫#VV)  (dobj, 驱虫#VV, 解毒#NN)  (conj, 无毒#JJ, 治咳止喘#VV)  (nummod, 便秘#CD, 疗肺痈#CD)  (cc, 便秘#CD, 与#CC)  (conj, 无毒#JJ, 便秘#CD)  (cc, 无毒#JJ, 并#CC)  (conj, 无毒#JJ, 有利#VV)  (conj, 美容#NR, 尿#NR)  (nn, 作用#NN, 美容#NR)  (etc, 美容#NR, 等#ETC)  (dobj, 有利#VV, 作用#NN)   (loc, 表明#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (nsubj, 表明#VV, 国内外#NN)  (nn, 实验#NN, 医学#NN)  (conj, 实验#NN, 专家#NN)  (nn, 实验#NN, 学者#NN)  (nn, 实验#NN, 研究#NN)  (nsubj, 表明#VV, 实验#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 南瓜#VV, 食#NN)  (ccomp, 表明#VV, 南瓜#VV)  (advmod, 治疗#NN, 还有#AD)  (nsubj, 前列腺#VV, 治疗#NN)  (ccomp, 南瓜#VV, 前列腺#VV)  (conj, 结石#NN, 肥大#NR)  (nn, 肥大#NN, 南瓜子#NR)  (nn, 肥大#NN, 可治#NR)  (nn, 肥大#NN, 前列腺#NR)  (prnmod, 肥大#NR, 肥大#NN)  (nn, 腺癌#NN, 预防#NN)  (nn, 腺癌#NN, 前列#NN)  (conj, 结石#NN, 腺癌#NN)  (nn, 溃疡#NN, 防治#NN)  (nn, 溃疡#NN, 动脉#NN)  (conj, 溃疡#NN, 硬化#NN)  (cc, 溃疡#NN, 与#CC)  (nn, 溃疡#NN, 胃#NN)  (nn, 溃疡#NN, 粘膜#NN)  (conj, 结石#NN, 溃疡#NN)  (nn, 糖尿病#NN, 治#NN)  (conj, 结石#NN, 糖尿病#NN)  (nn, 结石#NN, 化#NN)  (nn, 作用#NN, 结石#NN)  (etc, 结石#NN, 等#ETC)  (dobj, 前列腺#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            属植物  蔓生草本  短硬毛  互生  叶片心形  宽卵形  叶面  边缘  白斑锯齿  单生  雌雄同株  名冬瓜  称为金瓜  适口  杂粮  饲料  称为瓜  用来做成  营养丰富  食用菜  农村人菜  城市人  受到重视  滇南本草  性温  润肺益气  化痰排浓  驱虫解毒  医学实验  专家  学者实验  研究实验  表明  预防腺癌  前列腺癌  结石  防治溃疡  动脉溃疡  硬化  粘膜溃疡  糖尿病  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            中医认为南瓜性温味甘，入脾、胃经。具有补中益气、消炎止痛、解毒杀虫的功能。可用于气虚乏力、肋间神经痛、疟疾、痢疾、解鸦片毒、驱蛔虫、支气管哮喘、糖尿病等症。
+            1.防癌治癌
+            预防食管癌和胃癌，对防止结肠癌也有一定的功效，同时能帮助肝、肾功能的恢复，增强肝、肾细胞的再生能力。
+            2.保护胃粘膜
+            促进胆汁分泌，免受粗糙食品刺激，加强胃肠蠕动，帮助食物消化。
+            3.降血糖降血压
+            调节胰岛素的平衡，维持正常的血压和血糖，也是肥胖者的理想减肥食品。
+            4.预防前列腺
+            南瓜种子中的脂类物质对泌尿系统疾病及前列腺增生具有良好的治疗和预防作用。
+            5.常吃南瓜，可使大便通畅，肌肤丰美，尤其对女性，有美容作用，清代名臣张之洞曾建议慈禧太后多食南瓜。
+            6.南瓜还可以预防中风，因南瓜里含有大量的亚麻仁油酸、软脂酸、硬脂酸等甘油酸，均为良质油脂。
+        </rawdata>
+
+        <segment>
+            中医  认为  南瓜  性温味  甘  ，  入脾  、  胃经  。  具有  补  中  益气  、  消炎  止痛  、  解毒  杀  虫  的  功能  。  可  用于  气虚  乏力  、  肋间  神经痛  、  疟疾  、  痢疾  、  解  鸦片  毒  、  驱  蛔虫  、  支  气管  哮喘  、  糖尿病  等症  。
+            防癌  治癌
+            预防  食管癌  和  胃癌  ，  对  防止  结肠癌  也  有  一定  的  功效  ，  同时  能  帮助肝  、  肾  功能  的  恢复  ，  增强肝  、  肾  细胞  的  再生  能力  。
+            保护  胃  粘膜
+            促进  胆汁  分泌  ，  免受  粗糙  食品  刺激  ，  加强  胃肠  蠕动  ，  帮助  食物  消化  。
+            降  血糖  降  血压
+            调节  胰岛素  的  平衡  ，  维持  正常  的  血压  和  血糖  ，  也  是  肥胖者  的  理想  减肥  食品  。
+            预防  前列腺
+            南瓜  种子  中  的  脂类  物质  对  泌尿  系统  疾病  及  前列腺  增生  具有  良好  的  治疗  和  预防  作用  。
+            常  吃  南瓜  ，  可使  大便  通畅  ，  肌肤  丰美  ，  尤其  对  女性  ，  有  美容  作用  ，  清代  名臣  张之洞  曾  建议  慈禧  太  后  多  食  南瓜  。
+            南瓜  还  可以  预防  中风  ，  因  南瓜  里  含有  大量  的  亚麻仁  油酸  、  软脂酸  、  硬脂酸  等  甘油酸  ，  均  为  良质  油脂  。
+        </segment>
+
+        <pos>
+            中医#NN  认为#VV  南瓜#AD  性温味#VV  甘#NR  ，#PU  入脾#NR  、#PU  胃经#NR    。#PU  具有#VV  补#NN  中#LC  益气#NR  、#PU  消炎#NR  止痛#NR  、#PU  解毒#NR  杀#VV  虫#NN  的#DEC  功能#NN    。#PU  可#VV  用于#VV  气虚#NN  乏力#NN  、#PU  肋间#NN  神经痛#NN  、#PU  疟疾#NN  、#PU  痢疾#NN  、#PU  解#VV  鸦片#NN  毒#NN  、#PU  驱#NN  蛔虫#NN  、#PU  支#M  气管#NN  哮喘#NN  、#PU  糖尿病#NN  等症#NN    。#PU    。#PU
+            防癌#NN  治癌#VV
+            预防#VV  食管癌#NN  和#CC  胃癌#NN  ，#PU  对#P  防止#VV  结肠癌#NN  也#AD  有#VE  一定#JJ  的#DEG  功效#NN  ，#PU  同时#AD  能#VV  帮助肝#NN  、#PU  肾#NN  功能#NN  的#DEC  恢复#VV  ，#PU  增强肝#VV  、#PU  肾#VV  细胞#NN  的#DEG  再生#VV  能力#NN  。#PU
+            保护#VV  胃#NN  粘膜#NN
+            促进#VV  胆汁#NN  分泌#NN  ，#PU  免受#NN  粗糙#NN  食品#NN  刺激#VV  ，#PU  加强#VV  胃肠#NN  蠕动#NN  ，#PU  帮助#VV  食物#VV  消化#NN  。#PU
+            降#NN  血糖#NN  降#VV  血压#NN
+            调节#VV  胰岛素#NN  的#DEG  平衡#NN  ，#PU  维持#VV  正常#VA  的#DEC  血压#NN  和#CC  血糖#NN  ，#PU  也#AD  是#VC  肥胖者#NN  的#DEC  理想#NN  减肥#VV  食品#NN  。#PU
+            预防#NN  前列腺#VV
+            南瓜#NN  种子#NN  中#LC  的#DEG  脂类#NN  物质#NN  对#P  泌尿#NN  系统#NN  疾病#NN  及#CC  前列腺#NN  增生#NN  具有#VV  良好#VA  的#DEC  治疗#NN  和#CC  预防#NN  作用#NN  。#PU
+            常#AD  吃#VV  南瓜#NN  ，#PU  可使#NN  大便#NN  通畅#NN  ，#PU  肌肤#NN  丰美#NN  ，#PU  尤其#AD  对#P  女性#NN  ，#PU  有#VE  美容#NN  作用#NN  ，#PU  清代#NN  名臣#NN  张之洞#NN  曾#AD  建议#VV  慈禧#VV  太#AD  后#LC  多#VV  食#NN  南瓜#NN  。#PU
+            南瓜#NN  还#AD  可以#VV  预防#VV  中风#NN  ，#PU  因#P  南瓜#NN  里#LC  含有#VV  大量#CD  的#DEG  亚麻仁#NR  油酸#NR  、#PU  软脂酸#NR  、#PU  硬脂酸#NR  等#ETC  甘油酸#NN  ，#PU  均#AD  为#VC  良质#NN  油脂#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 认为#VV, 中医#NN)  (xsubj, 性温味#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (advmod, 性温味#VV, 南瓜#AD)  (ccomp, 认为#VV, 性温味#VV)  (dep, 胃经#NR, 甘#NR)  (conj, 胃经#NR, 入脾#NR)  (dobj, 性温味#VV, 胃经#NR)   (root, ROOT#null, 具有#VV)  (dep, 功能#NN, 补#NN)  (case, 补#NN, 中#LC)  (conj, 解毒#NR, 益气#NR)  (nn, 解毒#NR, 消炎#NR)  (conj, 解毒#NR, 止痛#NR)  (nn, 功能#NN, 解毒#NR)  (relcl, 解毒#NR, 杀#VV)  (relcl, 功能#NN, 杀#VV)  (dobj, 杀#VV, 虫#NN)  (mark, 杀#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 痢疾#NN, 气虚#NN)  (conj, 痢疾#NN, 乏力#NN)  (nn, 痢疾#NN, 肋间#NN)  (conj, 痢疾#NN, 神经痛#NN)  (conj, 痢疾#NN, 疟疾#NN)  (dobj, 用于#VV, 痢疾#NN)  (dep, 用于#VV, 解#VV)  (nn, 毒#NN, 鸦片#NN)  (conj, 等症#NN, 毒#NN)  (nn, 蛔虫#NN, 驱#NN)  (conj, 等症#NN, 蛔虫#NN)  (clf, 哮喘#NN, 支#M)  (nn, 哮喘#NN, 气管#NN)  (conj, 等症#NN, 哮喘#NN)  (nn, 等症#NN, 糖尿病#NN)  (dobj, 解#VV, 等症#NN)   (root, ROOT#null, null#null)
+            (nsubj, 治癌#VV, 防癌#NN)  (root, ROOT#null, 治癌#VV)
+            (root, ROOT#null, 预防#VV)  (conj, 胃癌#NN, 食管癌#NN)  (cc, 胃癌#NN, 和#CC)  (dobj, 预防#VV, 胃癌#NN)  (case, 防止#VV, 对#P)  (prep, 恢复#VV, 防止#VV)  (dobj, 防止#VV, 结肠癌#NN)  (advmod, 有#VE, 也#AD)  (dep, 防止#VV, 有#VE)  (assmod, 功效#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 功效#NN)  (advmod, 能#VV, 同时#AD)  (dep, 有#VE, 能#VV)  (conj, 肾#NN, 帮助肝#NN)  (nn, 功能#NN, 肾#NN)  (dobj, 能#VV, 功能#NN)  (mark, 防止#VV, 的#DEC)  (conj, 预防#VV, 恢复#VV)  (conj, 预防#VV, 增强肝#VV)  (conj, 预防#VV, 肾#VV)  (assmod, 能力#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (nfincl, 能力#NN, 再生#VV)  (dobj, 肾#VV, 能力#NN)
+            (root, ROOT#null, 保护#VV)  (nn, 粘膜#NN, 胃#NN)  (dobj, 保护#VV, 粘膜#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 分泌#NN, 胆汁#NN)  (dobj, 促进#VV, 分泌#NN)  (nn, 食品#NN, 免受#NN)  (nn, 食品#NN, 粗糙#NN)  (nsubj, 刺激#VV, 食品#NN)  (dep, 促进#VV, 刺激#VV)  (conj, 促进#VV, 加强#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 加强#VV, 蠕动#NN)  (conj, 加强#VV, 帮助#VV)  (ccomp, 帮助#VV, 食物#VV)  (dobj, 食物#VV, 消化#NN)
+            (nn, 血糖#NN, 降#NN)  (nsubj, 降#VV, 血糖#NN)  (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血压#NN)
+            (relcl, 理想#NN, 调节#VV)  (assmod, 平衡#NN, 胰岛素#NN)  (case, 胰岛素#NN, 的#DEG)  (dobj, 调节#VV, 平衡#NN)  (conj, 调节#VV, 维持#VV)  (relcl, 血糖#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (conj, 血糖#NN, 血压#NN)  (cc, 血糖#NN, 和#CC)  (dobj, 维持#VV, 血糖#NN)  (advmod, 肥胖者#NN, 也#AD)  (cop, 肥胖者#NN, 是#VC)  (conj, 调节#VV, 肥胖者#NN)  (mark, 调节#VV, 的#DEC)  (nsubj, 减肥#VV, 理想#NN)  (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 食品#NN)
+            (nsubj, 前列腺#VV, 预防#NN)  (root, ROOT#null, 前列腺#VV)
+            (nn, 种子#NN, 南瓜#NN)  (assmod, 物质#NN, 种子#NN)  (case, 种子#NN, 中#LC)  (case, 种子#NN, 的#DEG)  (nn, 物质#NN, 脂类#NN)  (nsubj, 具有#VV, 物质#NN)  (case, 增生#NN, 对#P)  (nn, 疾病#NN, 泌尿#NN)  (nn, 疾病#NN, 系统#NN)  (conj, 增生#NN, 疾病#NN)  (cc, 增生#NN, 及#CC)  (nn, 增生#NN, 前列腺#NN)  (prep, 具有#VV, 增生#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 预防#NN, 治疗#NN)  (cc, 预防#NN, 和#CC)  (nn, 作用#NN, 预防#NN)  (dobj, 具有#VV, 作用#NN)
+            (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 南瓜#NN)  (nn, 通畅#NN, 可使#NN)  (nn, 通畅#NN, 大便#NN)  (nsubj, 有#VE, 通畅#NN)  (nn, 丰美#NN, 肌肤#NN)  (nsubj, 有#VE, 丰美#NN)  (advmod, 有#VE, 尤其#AD)  (case, 女性#NN, 对#P)  (prep, 有#VE, 女性#NN)  (conj, 吃#VV, 有#VE)  (nn, 作用#NN, 美容#NN)  (dobj, 有#VE, 作用#NN)  (nn, 张之洞#NN, 清代#NN)  (nn, 张之洞#NN, 名臣#NN)  (nsubj, 建议#VV, 张之洞#NN)  (xsubj, 多#VV, 张之洞#NN)  (advmod, 建议#VV, 曾#AD)  (conj, 吃#VV, 建议#VV)  (loc, 多#VV, 慈禧#VV)  (advmod, 慈禧#VV, 太#AD)  (case, 慈禧#VV, 后#LC)  (ccomp, 建议#VV, 多#VV)  (nn, 南瓜#NN, 食#NN)  (dobj, 多#VV, 南瓜#NN)
+            (nsubj, 预防#VV, 南瓜#NN)  (advmod, 预防#VV, 还#AD)  (mmod, 预防#VV, 可以#VV)  (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 中风#NN)  (case, 南瓜#NN, 因#P)  (prep, 含有#VV, 南瓜#NN)  (case, 南瓜#NN, 里#LC)  (dep, 预防#VV, 含有#VV)  (assmod, 甘油酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 硬脂酸#NR, 亚麻仁#NR)  (conj, 硬脂酸#NR, 油酸#NR)  (conj, 硬脂酸#NR, 软脂酸#NR)  (nn, 甘油酸#NN, 硬脂酸#NR)  (etc, 硬脂酸#NR, 等#ETC)  (dobj, 含有#VV, 甘油酸#NN)  (advmod, 油脂#NN, 均#AD)  (cop, 油脂#NN, 为#VC)  (nn, 油脂#NN, 良质#NN)  (dep, 预防#VV, 油脂#NN)
+        </parsing>
+
+        <tag>
+            胃经  入脾  益气  止痛  杀解毒  杀功能  气虚痢疾  乏力  肋间痢疾  神经痛  疟疾  用于痢疾  蛔虫  气管哮喘  糖尿病等症  治癌  食管癌  预防胃癌  防止结肠癌  保护粘膜  胆汁分泌  促进分泌  免受食品  粗糙食品  胃肠蠕动  加强蠕动  食物消化  调节理想  胰岛素  调节平衡  血糖正常  血压  维持血糖  减肥食品  泌尿疾病  系统疾病  前列腺增生  治疗  可使通畅  大便通畅  肌肤丰美  清代张之洞  名臣张之洞  预防中风  硬脂酸  软脂酸  含有甘油酸  良质油脂  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进生长发育  降血糖  助消化  抗癌  化痰  活血  调经
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.南瓜内含有维生素和果胶，果胶有很好的吸附性，能粘结和消除体内细菌毒素和其他有害物质，如重金属中的铅、汞和放射性元素，起到解毒作用。
+            2.南瓜所含果胶还可以保护胃肠道粘膜，免受粗糙食品刺激，促进溃疡面愈合，适宜于胃病患者。
+            3.南瓜含有丰富的钴，在各类蔬菜中含钻量居首位。钴能活跃人体的新陈代谢，促进造血功能，并参与人体内维生素B12的合成，是人体胰岛细胞所必须的微量元素。
+            4.南瓜中所含的维生素C克防止硝酸盐在消化道中转变成致癌物质亚硝酸。南瓜中含有的甘露醇，减少粪便中毒素对人体的危害。
+            5.南瓜能消除致癌物质亚硝胺的突变作用。有防癌功效。
+            6.南瓜中含有丰富锌，参与人体内核酸、蛋白质合成，是肾上腺皮质激素的固有成分，为人体生长发育的重要物质。
+            7.南瓜中含有人体所需的多种氨基酸，其中赖氨酸、亮氨酸、异亮氨酸、苯丙氨酸、苏氨酸等含量较高。此外，南瓜中的抗坏血酸氧化酶基因型与烟草中相同，但活性明显高于烟草，表明了在南瓜中免疫活性蛋白的含量较高。
+            8.南瓜中丰富的类胡罗卜素在机体内可转化成具有重要生理功能的维生素A，从而对上皮组织的生长分化、维持正常视觉、促进骨骼的发育具有重要生理功能。
+        </rawdata>
+
+        <segment>
+            南瓜  内  含有  维生素  和  果胶  ，  果胶  有  很  好  的  吸附性  ，  能  粘结  和  消除  体内  细菌  毒素  和  其他  有害  物质  ，  如  重金属  中  的  铅  、  汞  和  放射性  元素  ，  起到  解毒  作用  。
+            南瓜  所  含  果胶  还  可以  保护  胃肠道  粘膜  ，  免受  粗糙  食品  刺激  ，  促进  溃疡  面  愈合  ，  适宜于  胃病  患者  。
+            南瓜  含有  丰富  的  钴  ，  在  各  类  蔬菜  中  含  钻量  居  首  位  。  钴  能  活跃  人体  的  新陈代谢  ，  促进  造血  功能  ，  并  参与  人体  内  维生素  B  12  的  合成  ，  是  人体  胰岛  细胞  所  必须  的  微量  元素  。
+            南瓜  中  所  含  的  维生素C  克  防止  硝酸盐  在  消化道  中转  变成  致癌  物质  亚硝酸  。  南瓜  中  含有  的  甘露醇  ，  减少  粪便  中  毒素  对  人体  的  危害  。
+            南瓜  能  消除  致癌  物质  亚硝胺  的  突变  作用  。  有  防癌  功效  。
+            南瓜  中  含有  丰富  锌  ，  参与人  体内  核酸  、  蛋白质  合成  ，  是  肾上腺  皮质  激素  的  固有  成分  ，  为  人体  生长  发育  的  重要  物质  。
+            南瓜  中  含有  人体  所  需  的  多  种  氨基酸  ，  其中  赖氨酸  、  亮氨酸  、  异亮氨酸  、  苯丙氨酸  、  苏氨酸  等  含量  较  高  。  此外  ，  南瓜  中  的  抗  坏血酸  氧化酶  基因型  与  烟草  中  相同  ，  但  活性  明显  高于  烟草  ，  表明  了  在  南瓜  中  免疫  活性  蛋白  的  含量  较  高  。
+            南瓜  中  丰富  的  类  胡  罗卜素  在  机体  内  可转  化成  具有  重要  生理  功能  的  维生素A  ，  从而  对  上皮  组织  的  生长  分化  、  维持  正常  视觉  、  促进  骨骼  的  发育  具有  重要  生理  功能  。
+        </segment>
+
+        <pos>
+            南瓜#NN  内#LC  含有#NR  维生素#NN  和#CC  果胶#NN  ，#PU  果胶#AD  有#VE  很#AD  好#VA  的#DEC  吸附性#NN  ，#PU  能#VV  粘结#VV  和#CC  消除#VV  体内#NN  细菌#NN  毒素#NN  和#CC  其他#DT  有害#NN  物质#NN  ，#PU  如#P  重金属#NN  中#LC  的#DEG  铅#NN  、#PU  汞#NN  和#CC  放射性#NN  元素#NN  ，#PU  起到#VV  解毒#NN  作用#NN  。#PU
+            南瓜#NN  所#MSP  含#VV  果胶#NN  还#AD  可以#VV  保护#VV  胃肠道#NN  粘膜#NN  ，#PU  免受#VV  粗糙#NN  食品#NN  刺激#NN  ，#PU  促进#VV  溃疡#CD  面#M  愈合#NN  ，#PU  适宜于#VV  胃病#NN  患者#NN  。#PU
+            南瓜#NN  含有#VV  丰富#VA  的#DEC  钴#NN  ，#PU  在#P  各#DT  类#M  蔬菜#NN  中#LC  含#VV  钻量#NN  居#VV  首#OD  位#M    。#PU  钴#NN  能#VV  活跃#VV  人体#NN  的#DEG  新陈代谢#NN  ，#PU  促进#VV  造血#NN  功能#NN  ，#PU  并#CC  参与#VV  人体#NN  内#LC  维生素#NN  B#VV  12#CD  的#DEC  合成#JJ  ，#PU  是#VC  人体#NN  胰岛#NN  细胞#NN  所#MSP  必须#VV  的#DEC  微量#JJ  元素#NN    。#PU    。#PU
+            南瓜#NN  中#LC  所#MSP  含#VV  的#DEC  维生素C#CD  克#M  防止#VV  硝酸盐#NN  在#P  消化道#NN  中转#NN  变成#VV  致癌#NN  物质#NN  亚硝酸#NN    。#PU  南瓜#VV  中#NR  含有#NN  的#DEG  甘露醇#NN  ，#PU  减少#VV  粪便#NR  中#NR  毒素#NR  对#P  人体#NN  的#DEG  危害#NN    。#PU    。#PU
+            南瓜#NN  能#VV  消除#VV  致癌#NN  物质#NN  亚硝胺#NN  的#DEG  突变#JJ  作用#NN    。#PU  有#VE  防癌#NN  功效#NN    。#PU    。#PU
+            南瓜#NN  中#LC  含有#VV  丰富#VV  锌#NN  ，#PU  参与人#VV  体内#NN  核酸#NN  、#PU  蛋白质#VV  合成#JJ  ，#PU  是#VC  肾上腺#NN  皮质#NN  激素#NN  的#DEG  固有#JJ  成分#NN  ，#PU  为#P  人体#NN  生长#NN  发育#VV  的#DEC  重要#JJ  物质#NN  。#PU
+            南瓜#NN  中#LC  含有#NN  人体#NN  所#MSP  需#VV  的#DEC  多#CD  种#M  氨基酸#NN  ，#PU  其中#NN  赖氨酸#NR  、#PU  亮氨酸#NR  、#PU  异亮氨酸#NR  、#PU  苯丙氨酸#NR  、#PU  苏氨酸#NR  等#ETC  含量#NN  较#AD  高#VA    。#PU  此外#AD  ，#PU  南瓜#NN  中#LC  的#DEG  抗#NN  坏血酸#NN  氧化酶#NN  基因型#AD  与#P  烟草#NN  中#LC  相同#VA  ，#PU  但#AD  活性#NN  明显#AD  高于#VV  烟草#NN  ，#PU  表明#VV  了#AS  在#P  南瓜#NN  中#LC  免疫#VV  活性#NN  蛋白#NN  的#DEC  含量#NN  较#AD  高#VA    。#PU    。#PU
+            南瓜#NN  中#LC  丰富#VA  的#DEC  类#NN  胡#NN  罗卜素#NN  在#P  机体#NN  内#LC  可转#VV  化成#AD  具有#VV  重要#JJ  生理#NN  功能#NN  的#DEC  维生素A#NN  ，#PU  从而#AD  对#P  上皮#NN  组织#NN  的#DEG  生长#NN  分化#VA  、#PU  维持#VV  正常#JJ  视觉#NN  、#PU  促进#VV  骨骼#NN  的#DEC  发育#NN  具有#VV  重要#JJ  生理#NN  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 有#VE, 南瓜#NN)  (case, 南瓜#NN, 内#LC)  (nn, 果胶#NN, 含有#NR)  (conj, 果胶#NN, 维生素#NN)  (cc, 果胶#NN, 和#CC)  (nsubj, 有#VE, 果胶#NN)  (advmod, 有#VE, 果胶#AD)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 吸附性#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 有#VE, 吸附性#NN)  (mmod, 粘结#VV, 能#VV)  (dep, 有#VE, 粘结#VV)  (cc, 粘结#VV, 和#CC)  (dep, 粘结#VV, 消除#VV)  (nn, 毒素#NN, 体内#NN)  (nn, 毒素#NN, 细菌#NN)  (conj, 物质#NN, 毒素#NN)  (cc, 物质#NN, 和#CC)  (det, 有害#NN, 其他#DT)  (nn, 物质#NN, 有害#NN)  (dobj, 消除#VV, 物质#NN)  (case, 元素#NN, 如#P)  (assmod, 元素#NN, 重金属#NN)  (case, 重金属#NN, 中#LC)  (case, 重金属#NN, 的#DEG)  (conj, 元素#NN, 铅#NN)  (conj, 元素#NN, 汞#NN)  (cc, 元素#NN, 和#CC)  (nn, 元素#NN, 放射性#NN)  (prep, 起到#VV, 元素#NN)  (dep, 有#VE, 起到#VV)  (nn, 作用#NN, 解毒#NN)  (dobj, 起到#VV, 作用#NN)
+            (nsubj, 含#VV, 南瓜#NN)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 果胶#NN)  (advmod, 保护#VV, 还#AD)  (mmod, 保护#VV, 可以#VV)  (dep, 含#VV, 保护#VV)  (nn, 粘膜#NN, 胃肠道#NN)  (dobj, 保护#VV, 粘膜#NN)  (conj, 保护#VV, 免受#VV)  (nn, 刺激#NN, 粗糙#NN)  (nn, 刺激#NN, 食品#NN)  (dobj, 免受#VV, 刺激#NN)  (conj, 保护#VV, 促进#VV)  (nummod, 面#M, 溃疡#CD)  (clf, 愈合#NN, 面#M)  (dobj, 促进#VV, 愈合#NN)  (conj, 保护#VV, 适宜于#VV)  (nn, 患者#NN, 胃病#NN)  (dobj, 适宜于#VV, 患者#NN)
+            (nsubj, 含有#VV, 南瓜#NN)  (conj, 居#VV, 含有#VV)  (relcl, 钴#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 钴#NN)  (case, 蔬菜#NN, 在#P)  (det, 蔬菜#NN, 各#DT)  (clf, 各#DT, 类#M)  (prep, 含#VV, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (conj, 含有#VV, 含#VV)  (dobj, 含#VV, 钻量#NN)  (root, ROOT#null, 居#VV)  (ordmod, 位#M, 首#OD)  (range, 居#VV, 位#M)   (nsubj, 活跃#VV, 钴#NN)  (mmod, 活跃#VV, 能#VV)  (root, ROOT#null, 活跃#VV)  (assmod, 新陈代谢#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 活跃#VV, 新陈代谢#NN)  (conj, 活跃#VV, 促进#VV)  (nn, 功能#NN, 造血#NN)  (dobj, 促进#VV, 功能#NN)  (cc, 活跃#VV, 并#CC)  (conj, 活跃#VV, 参与#VV)  (loc, 必须#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (nsubj, B#VV, 维生素#NN)  (relcl, 细胞#NN, B#VV)  (range, B#VV, 12#CD)  (mark, B#VV, 的#DEC)  (nfincl, 细胞#NN, 合成#JJ)  (cop, 胰岛#NN, 是#VC)  (nn, 胰岛#NN, 人体#NN)  (dep, 合成#JJ, 胰岛#NN)  (nsubj, 必须#VV, 细胞#NN)  (prtmod, 必须#VV, 所#MSP)  (relcl, 元素#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (amod, 元素#NN, 微量#JJ)  (dobj, 参与#VV, 元素#NN)   (root, ROOT#null, null#null)
+            (loc, 含#VV, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 硝酸盐#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nummod, 克#M, 维生素C#CD)  (clf, 硝酸盐#NN, 克#M)  (relcl, 硝酸盐#NN, 防止#VV)  (nsubj, 变成#VV, 硝酸盐#NN)  (case, 中转#NN, 在#P)  (nn, 中转#NN, 消化道#NN)  (prep, 变成#VV, 中转#NN)  (root, ROOT#null, 变成#VV)  (nn, 亚硝酸#NN, 致癌#NN)  (nn, 亚硝酸#NN, 物质#NN)  (dobj, 变成#VV, 亚硝酸#NN)   (root, ROOT#null, 南瓜#VV)  (nn, 含有#NN, 中#NR)  (assmod, 甘露醇#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (dobj, 南瓜#VV, 甘露醇#NN)  (conj, 南瓜#VV, 减少#VV)  (nn, 毒素#NR, 粪便#NR)  (nn, 毒素#NR, 中#NR)  (nn, 危害#NN, 毒素#NR)  (case, 人体#NN, 对#P)  (assmod, 危害#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 减少#VV, 危害#NN)   (root, ROOT#null, null#null)
+            (nsubj, 消除#VV, 南瓜#NN)  (mmod, 消除#VV, 能#VV)  (root, ROOT#null, 消除#VV)  (nn, 亚硝胺#NN, 致癌#NN)  (nn, 亚硝胺#NN, 物质#NN)  (assmod, 作用#NN, 亚硝胺#NN)  (case, 亚硝胺#NN, 的#DEG)  (amod, 作用#NN, 突变#JJ)  (dobj, 消除#VV, 作用#NN)   (root, ROOT#null, 有#VE)  (nn, 功效#NN, 防癌#NN)  (dobj, 有#VE, 功效#NN)   (root, ROOT#null, null#null)
+            (loc, 含有#VV, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, 物质#NN, 丰富#VV)  (dobj, 丰富#VV, 锌#NN)  (conj, 丰富#VV, 参与人#VV)  (nn, 核酸#NN, 体内#NN)  (dobj, 参与人#VV, 核酸#NN)  (conj, 丰富#VV, 蛋白质#VV)  (nfincl, 激素#NN, 合成#JJ)  (cop, 皮质#NN, 是#VC)  (nn, 皮质#NN, 肾上腺#NN)  (dep, 合成#JJ, 皮质#NN)  (assmod, 成分#NN, 激素#NN)  (case, 激素#NN, 的#DEG)  (amod, 成分#NN, 固有#JJ)  (dobj, 蛋白质#VV, 成分#NN)  (case, 生长#NN, 为#P)  (nn, 生长#NN, 人体#NN)  (prep, 发育#VV, 生长#NN)  (conj, 丰富#VV, 发育#VV)  (mark, 丰富#VV, 的#DEC)  (amod, 物质#NN, 重要#JJ)  (dobj, 含有#VV, 物质#NN)
+            (loc, 需#VV, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (nn, 人体#NN, 含有#NN)  (nsubj, 需#VV, 人体#NN)  (prtmod, 需#VV, 所#MSP)  (relcl, 氨基酸#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (nsubj, 高#VA, 氨基酸#NN)  (nsubj, 高#VA, 其中#NN)  (conj, 苏氨酸#NR, 赖氨酸#NR)  (conj, 苏氨酸#NR, 亮氨酸#NR)  (conj, 苏氨酸#NR, 异亮氨酸#NR)  (conj, 苏氨酸#NR, 苯丙氨酸#NR)  (nn, 含量#NN, 苏氨酸#NR)  (etc, 苏氨酸#NR, 等#ETC)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)   (advmod, 相同#VA, 此外#AD)  (assmod, 氧化酶#NN, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (case, 南瓜#NN, 的#DEG)  (nn, 氧化酶#NN, 抗#NN)  (nn, 氧化酶#NN, 坏血酸#NN)  (nsubj, 相同#VA, 氧化酶#NN)  (advmod, 相同#VA, 基因型#AD)  (case, 烟草#NN, 与#P)  (prep, 相同#VA, 烟草#NN)  (case, 烟草#NN, 中#LC)  (root, ROOT#null, 相同#VA)  (advmod, 高于#VV, 但#AD)  (nsubj, 高于#VV, 活性#NN)  (advmod, 高于#VV, 明显#AD)  (conj, 相同#VA, 高于#VV)  (dobj, 高于#VV, 烟草#NN)  (relcl, 含量#NN, 表明#VV)  (asp, 表明#VV, 了#AS)  (case, 南瓜#NN, 在#P)  (prep, 免疫#VV, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (ccomp, 表明#VV, 免疫#VV)  (nn, 蛋白#NN, 活性#NN)  (dobj, 免疫#VV, 蛋白#NN)  (mark, 表明#VV, 的#DEC)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 相同#VA, 高#VA)   (root, ROOT#null, null#null)
+            (loc, 可转#VV, 南瓜#NN)  (case, 南瓜#NN, 中#LC)  (relcl, 罗卜素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 罗卜素#NN, 类#NN)  (nn, 罗卜素#NN, 胡#NN)  (nsubj, 可转#VV, 罗卜素#NN)  (case, 机体#NN, 在#P)  (prep, 可转#VV, 机体#NN)  (case, 机体#NN, 内#LC)  (root, ROOT#null, 可转#VV)  (advmod, 具有#VV, 化成#AD)  (relcl, 维生素A#NN, 具有#VV)  (amod, 生理#NN, 重要#JJ)  (nn, 功能#NN, 生理#NN)  (dobj, 具有#VV, 功能#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 可转#VV, 维生素A#NN)  (advmod, 具有#VV, 从而#AD)  (case, 发育#NN, 对#P)  (nn, 组织#NN, 上皮#NN)  (assmod, 生长#NN, 组织#NN)  (case, 组织#NN, 的#DEG)  (nsubj, 分化#VA, 生长#NN)  (relcl, 发育#NN, 分化#VA)  (conj, 分化#VA, 维持#VV)  (amod, 视觉#NN, 正常#JJ)  (dobj, 维持#VV, 视觉#NN)  (conj, 分化#VA, 促进#VV)  (dobj, 促进#VV, 骨骼#NN)  (mark, 分化#VA, 的#DEC)  (prep, 具有#VV, 发育#NN)  (conj, 可转#VV, 具有#VV)  (amod, 生理#NN, 重要#JJ)  (nn, 功能#NN, 生理#NN)  (dobj, 具有#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            果胶  体内毒素  细菌毒素  胃肠道粘膜  保护粘膜  粗糙刺激  食品刺激  免受刺激  促进愈合  胃病患者  适宜于患者  钴丰富  含有钴  活跃新陈代谢  造血功能  促进功能  B细胞  人体胰岛  含硝酸盐  防止硝酸盐  消化道中转  致癌亚硝酸  变成亚硝酸  甘露醇  减少危害  消除  致癌亚硝胺  防癌功效  锌丰富  体内核酸  参与人核酸  肾上腺皮质  人体生长  含有人体  需氨基酸  苏氨酸  赖氨酸  异亮氨酸  苯丙氨酸  坏血酸氧化酶  氧化酶相同  高于烟草  活性蛋白  免疫蛋白  罗卜素丰富  生理功能  可转维生素A  上皮组织  生长分化  发育分化  正常视觉  维持视觉  促进骨骼  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.南瓜可蒸、煮食，或煎汤服；外用捣敷。
+            2.南瓜熟食补益、利水；生用驱蛔、解毒。
+            3.糖尿病患者可把南瓜制成南瓜粉，以便长期少量食用。
+            4.瓜适量，洗净切片，用盐腌6小时后，以食醋凉拌佐餐，可减淡面部色素沉着，防治青春痘。
+        </rawdata>
+
+        <segment>
+            南瓜  可  蒸  、  煮  食  ，  或煎汤服  ；  外用  捣敷  。
+            南瓜  熟食  补益  、  利水  ；  生  用  驱蛔  、  解毒  。
+            糖尿病  患者  可把  南瓜  制成  南瓜粉  ，  以便  长期  少量  食用  。
+            瓜  适量  ，  洗净  切片  ，  用  盐腌  6  小时  后  ，  以  食  醋  凉拌  佐餐  ，  可  减淡  面部  色素  沉着  ，  防治  青春痘  。
+        </segment>
+
+        <pos>
+            南瓜#NN  可#VV  蒸#VV  、#PU  煮#VV  食#NN  ，#PU  或煎汤服#VV  ；#PU  外用#VV  捣敷#NN  。#PU
+            南瓜#NN  熟食#VV  补益#NN  、#PU  利水#NN  ；#PU  生#VV  用#P  驱蛔#NN  、#PU  解毒#NN  。#PU
+            糖尿病#NN  患者#NN  可把#NN  南瓜#AD  制成#VV  南瓜粉#NN  ，#PU  以便#AD  长期#AD  少量#CD  食用#VV  。#PU
+            瓜#NN  适量#VV  ，#PU  洗净#NN  切片#NN  ，#PU  用#P  盐腌#VV  6#CD  小时#NN  后#LC  ，#PU  以#P  食#NN  醋#NN  凉拌#VV  佐餐#NN  ，#PU  可#VV  减淡#AD  面部#AD  色素#VV  沉着#AD  ，#PU  防治#VV  青春痘#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蒸#VV, 南瓜#NN)  (mmod, 蒸#VV, 可#VV)  (root, ROOT#null, 蒸#VV)  (conj, 蒸#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)  (conj, 蒸#VV, 或煎汤服#VV)  (conj, 蒸#VV, 外用#VV)  (dobj, 外用#VV, 捣敷#NN)
+            (nsubj, 熟食#VV, 南瓜#NN)  (root, ROOT#null, 熟食#VV)  (conj, 利水#NN, 补益#NN)  (dobj, 熟食#VV, 利水#NN)  (conj, 熟食#VV, 生#VV)  (case, 解毒#NN, 用#P)  (conj, 解毒#NN, 驱蛔#NN)  (prep, 生#VV, 解毒#NN)
+            (nn, 患者#NN, 糖尿病#NN)  (nn, 可把#NN, 患者#NN)  (nsubj, 制成#VV, 可把#NN)  (advmod, 制成#VV, 南瓜#AD)  (root, ROOT#null, 制成#VV)  (dobj, 制成#VV, 南瓜粉#NN)  (advmod, 食用#VV, 以便#AD)  (advmod, 食用#VV, 长期#AD)  (dep, 食用#VV, 少量#CD)  (dep, 制成#VV, 食用#VV)
+            (nsubj, 适量#VV, 瓜#NN)  (root, ROOT#null, 适量#VV)  (nn, 切片#NN, 洗净#NN)  (nsubj, 凉拌#VV, 切片#NN)  (case, 盐腌#VV, 用#P)  (prep, 凉拌#VV, 盐腌#VV)  (nummod, 小时#NN, 6#CD)  (dobj, 盐腌#VV, 小时#NN)  (case, 盐腌#VV, 后#LC)  (case, 醋#NN, 以#P)  (nn, 醋#NN, 食#NN)  (prep, 凉拌#VV, 醋#NN)  (ccomp, 适量#VV, 凉拌#VV)  (dobj, 凉拌#VV, 佐餐#NN)  (mmod, 色素#VV, 可#VV)  (advmod, 色素#VV, 减淡#AD)  (advmod, 色素#VV, 面部#AD)  (conj, 凉拌#VV, 色素#VV)  (advmod, 色素#VV, 沉着#AD)  (conj, 凉拌#VV, 防治#VV)  (dobj, 防治#VV, 青春痘#NN)
+        </parsing>
+
+        <tag>
+            外用捣敷  补益  熟食利水  解毒  驱蛔  糖尿病患者  患者可把  制成  适量  洗净切片  盐腌小时  凉拌佐餐  防治青春痘  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101359059548.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\235 南瓜.jpg
+    </picturelocalurl>
+
+</content>

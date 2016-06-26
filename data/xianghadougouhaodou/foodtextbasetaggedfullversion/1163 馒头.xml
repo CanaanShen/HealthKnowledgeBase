@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        1163
+    </id>
+
+    <foodname>
+        馒头
+    </foodname>
+
+    <firstcategory>
+        菜品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病及高血糖患者一次性不能食入馒头过多，否则易引起血糖波动较大，因为馒头中含有大量淀粉，易分解为糖类。
+        </rawdata>
+
+        <segment>
+            糖尿病  及  高血糖  患者  一次性  不  能  食入  馒头  过多  ，  否则  易  引起  血糖  波动  较大  ，  因为  馒头  中  含有  大量  淀粉  ，  易  分解  为  糖类  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  及#CC  高血糖#NN  患者#NN  一次性#JJ  不#AD  能#VV  食入#VV  馒头#NN  过多#NN  ，#PU  否则#AD  易#AD  引起#VV  血糖#NN  波动#NN  较大#JJ  ，#PU  因为#P  馒头#NN  中#LC  含有#VV  大量#CD  淀粉#NN  ，#PU  易#AD  分解#VV  为#P  糖类#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 患者#NN, 糖尿病#NN)  (cc, 患者#NN, 及#CC)  (nn, 患者#NN, 高血糖#NN)  (nn, 过多#NN, 患者#NN)  (amod, 过多#NN, 一次性#JJ)  (neg, 食入#VV, 不#AD)  (mmod, 食入#VV, 能#VV)  (relcl, 患者#NN, 食入#VV)  (relcl, 过多#NN, 食入#VV)  (dobj, 食入#VV, 馒头#NN)  (nsubj, 引起#VV, 过多#NN)  (advmod, 引起#VV, 否则#AD)  (advmod, 引起#VV, 易#AD)  (root, ROOT#null, 引起#VV)  (nn, 波动#NN, 血糖#NN)  (dobj, 引起#VV, 波动#NN)  (dep, 引起#VV, 较大#JJ)  (case, 馒头#NN, 因为#P)  (prep, 含有#VV, 馒头#NN)  (case, 馒头#NN, 中#LC)  (dep, 引起#VV, 含有#VV)  (nummod, 淀粉#NN, 大量#CD)  (dobj, 含有#VV, 淀粉#NN)  (advmod, 分解#VV, 易#AD)  (dep, 引起#VV, 分解#VV)  (case, 糖类#NN, 为#P)  (prep, 分解#VV, 糖类#NN)
+        </parsing>
+
+        <tag>
+            糖尿病  高血糖  患者  一次性不能食入  过多  否则易引起血糖波动较大  中含有大量淀粉  易分解  糖类  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            馒头是我国北方小麦生产地区人们的主要食物，北方称无馅者为馒头或馍，有馅者为包子。在江南地区，一般在制作时加入肉、菜、豆蓉等馅料的馒头叫做包子，而普通的馒头叫白馒头。相传三国时期，诸葛亮经过泸水，命厨子以米面为皮，内包黑牛白羊之肉，捏塑出49颗人头，洒酒祭江。从此，在民间既有了“馒头”一说。
+        </rawdata>
+
+        <segment>
+            馒头  是  我  国  北方  小麦  生产  地区  人们  的  主要  食物  ，  北方  称  无馅者  为  馒头  或馍  ，  有  馅者  为  包子  。  在  江南  地区  ，  一般  在  制作  时  加入  肉  、  菜  、  豆蓉  等  馅料  的  馒头  叫做  包子  ，  而  普通  的  馒头  叫  白  馒头  。  相传  三  国  时期  ，  诸葛亮  经过  泸水  ，  命  厨子  以  米面  为  皮  ，  内包  黑牛  白  羊  之  肉  ，  捏塑  出  49  颗  人头  ，  洒  酒  祭江  。  从此  ，  在  民间  既  有  了  “  馒头  ”  一  说  。
+        </segment>
+
+        <pos>
+            馒头#NN  是#VC  我#PN  国#NN  北方#NN  小麦#NN  生产#NN  地区#NN  人们#NN  的#DEG  主要#JJ  食物#NN  ，#PU  北方#NN  称#VV  无馅者#NN  为#P  馒头#VV  或馍#NN  ，#PU  有#VE  馅者#NN  为#VV  包子#NN    。#PU  在#P  江南#NR  地区#NN  ，#PU  一般#AD  在#P  制作#VV  时#LC  加入#VV  肉#NN  、#PU  菜#NN  、#PU  豆蓉#NN  等#ETC  馅料#NN  的#DEG  馒头#NN  叫做#NN  包子#NN  ，#PU  而#MSP  普通#VA  的#DEC  馒头#NN  叫#VV  白#JJ  馒头#NN    。#PU  相传#NR  三#CD  国#NN  时期#NN  ，#PU  诸葛亮#NR  经过#P  泸水#NN  ，#PU  命#AD  厨子#VV  以#P  米面#NN  为#VV  皮#NN  ，#PU  内包#AD  黑牛#VV  白#JJ  羊#NN  之#DEG  肉#NN  ，#PU  捏塑#VV  出#VV  49#CD  颗#M  人头#NN  ，#PU  洒#VV  酒#NN  祭江#NN    。#PU  从此#AD  ，#PU  在#P  民间#NN  既#CC  有#VE  了#AS  ``#NN  馒头#NN  ''#VV  一#CD  说#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食物#NN, 馒头#NN)  (cop, 食物#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 地区#NN, 国#NN)  (nn, 地区#NN, 北方#NN)  (nn, 地区#NN, 小麦#NN)  (nn, 地区#NN, 生产#NN)  (nn, 人们#NN, 地区#NN)  (assmod, 食物#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (amod, 食物#NN, 主要#JJ)  (root, ROOT#null, 食物#NN)  (nsubj, 称#VV, 北方#NN)  (conj, 食物#NN, 称#VV)  (dobj, 称#VV, 无馅者#NN)  (case, 馒头#VV, 为#P)  (prep, 为#VV, 馒头#VV)  (dobj, 馒头#VV, 或馍#NN)  (conj, 馒头#VV, 有#VE)  (dobj, 有#VE, 馅者#NN)  (dep, 称#VV, 为#VV)  (dobj, 为#VV, 包子#NN)   (case, 地区#NN, 在#P)  (nn, 地区#NN, 江南#NR)  (prep, 加入#VV, 地区#NN)  (advmod, 加入#VV, 一般#AD)  (case, 制作#VV, 在#P)  (prep, 加入#VV, 制作#VV)  (case, 制作#VV, 时#LC)  (relcl, 馒头#NN, 加入#VV)  (conj, 豆蓉#NN, 肉#NN)  (conj, 豆蓉#NN, 菜#NN)  (nn, 馅料#NN, 豆蓉#NN)  (etc, 豆蓉#NN, 等#ETC)  (assmod, 包子#NN, 馅料#NN)  (case, 馅料#NN, 的#DEG)  (nn, 包子#NN, 馒头#NN)  (nn, 包子#NN, 叫做#NN)  (dobj, 加入#VV, 包子#NN)  (prtmod, 普通#VA, 而#MSP)  (dep, 加入#VV, 普通#VA)  (mark, 加入#VV, 的#DEC)  (nsubj, 叫#VV, 馒头#NN)  (root, ROOT#null, 叫#VV)  (amod, 馒头#NN, 白#JJ)  (dobj, 叫#VV, 馒头#NN)   (nsubj, 厨子#VV, 相传#NR)  (nummod, 国#NN, 三#CD)  (nn, 时期#NN, 国#NN)  (nsubj, 厨子#VV, 时期#NN)  (xsubj, 为#VV, 时期#NN)  (nsubj, 厨子#VV, 诸葛亮#NR)  (xsubj, 为#VV, 诸葛亮#NR)  (case, 泸水#NN, 经过#P)  (prep, 厨子#VV, 泸水#NN)  (advmod, 厨子#VV, 命#AD)  (root, ROOT#null, 厨子#VV)  (case, 米面#NN, 以#P)  (prep, 为#VV, 米面#NN)  (ccomp, 厨子#VV, 为#VV)  (dobj, 为#VV, 皮#NN)  (advmod, 黑牛#VV, 内包#AD)  (conj, 为#VV, 黑牛#VV)  (amod, 羊#NN, 白#JJ)  (assmod, 肉#NN, 羊#NN)  (case, 羊#NN, 之#DEG)  (dobj, 黑牛#VV, 肉#NN)  (conj, 为#VV, 捏塑#VV)  (rcomp, 捏塑#VV, 出#VV)  (nummod, 颗#M, 49#CD)  (clf, 人头#NN, 颗#M)  (dobj, 捏塑#VV, 人头#NN)  (conj, 为#VV, 洒#VV)  (nn, 祭江#NN, 酒#NN)  (dobj, 洒#VV, 祭江#NN)   (advmod, ''#VV, 从此#AD)  (case, 馒头#NN, 在#P)  (conj, 馒头#NN, 民间#NN)  (cc, 馒头#NN, 既#CC)  (relcl, 馒头#NN, 有#VE)  (asp, 有#VE, 了#AS)  (dobj, 有#VE, ``#NN)  (prep, ''#VV, 馒头#NN)  (root, ROOT#null, ''#VV)  (dep, ''#VV, 一#CD)  (dep, ''#VV, 说#VV)
+        </parsing>
+
+        <tag>
+            北方地区  小麦地区  生产地区  地区人们  豆蓉馅料  叫做包子  加入包子  厨子  白羊  黑牛肉  捏塑人头  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养胃,解气消胀,补充能量
+        </rawdata>
+
+        <segment>
+            养  胃  ,  解气  消胀  ,  补充  能量
+        </segment>
+
+        <pos>
+            养#VV  胃#NN  ,#NN  解气#NN  消胀#NN  ,#NN  补充#NN  能量#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 养#VV)  (nn, 能量#NN, 胃#NN)  (nn, 能量#NN, 解气#NN)  (nn, 能量#NN, 消胀#NN)  (nn, 能量#NN, 补充#NN)  (dobj, 养#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+            解气能量  消胀能量  补充能量  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            馒头是以面粉经发酵制成，主要营养素是碳水化合物，是人们补充能量的基础食物。
+        </rawdata>
+
+        <segment>
+            馒头  是  以  面粉  经  发酵  制成  ，  主要  营养素  是  碳水化合物  ，  是  人们  补充  能量  的  基础  食物  。
+        </segment>
+
+        <pos>
+            馒头#NN  是#VC  以#P  面粉#NN  经#P  发酵#NN  制成#VV  ，#PU  主要#JJ  营养素#NN  是#VC  碳水化合物#NN  ，#PU  是#VC  人们#NN  补充#NN  能量#NN  的#DEG  基础#NN  食物#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制成#VV, 馒头#NN)  (cop, 制成#VV, 是#VC)  (case, 面粉#NN, 以#P)  (prep, 制成#VV, 面粉#NN)  (case, 发酵#NN, 经#P)  (prep, 制成#VV, 发酵#NN)  (root, ROOT#null, 制成#VV)  (amod, 营养素#NN, 主要#JJ)  (nsubj, 碳水化合物#NN, 营养素#NN)  (cop, 碳水化合物#NN, 是#VC)  (conj, 制成#VV, 碳水化合物#NN)  (cop, 食物#NN, 是#VC)  (nn, 能量#NN, 人们#NN)  (nn, 能量#NN, 补充#NN)  (assmod, 食物#NN, 能量#NN)  (case, 能量#NN, 的#DEG)  (nn, 食物#NN, 基础#NN)  (conj, 制成#VV, 食物#NN)
+        </parsing>
+
+        <tag>
+            制成  人们能量  补充能量  基础食物  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            天冷时发面，可在面中放少许白糖，不仅起发快，而且做出的馒头更可口。
+        </rawdata>
+
+        <segment>
+            天冷  时  发面  ，  可  在  面  中放  少许  白糖  ，  不仅  起  发  快  ，  而且  做出  的  馒头  更  可口  。
+        </segment>
+
+        <pos>
+            天冷#NN  时#LC  发面#VV  ，#PU  可#VV  在#P  面#NN  中放#NN  少许#VV  白糖#NN  ，#PU  不仅#CC  起#VV  发#VV  快#VA  ，#PU  而且#CC  做出#VV  的#DEC  馒头#NN  更#AD  可口#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 发面#VV, 天冷#NN)  (case, 天冷#NN, 时#LC)  (root, ROOT#null, 发面#VV)  (mmod, 少许#VV, 可#VV)  (case, 中放#NN, 在#P)  (nn, 中放#NN, 面#NN)  (prep, 少许#VV, 中放#NN)  (relcl, 馒头#NN, 少许#VV)  (dobj, 少许#VV, 白糖#NN)  (cc, 少许#VV, 不仅#CC)  (dep, 发#VV, 起#VV)  (dep, 少许#VV, 发#VV)  (dep, 发#VV, 快#VA)  (cc, 少许#VV, 而且#CC)  (dep, 少许#VV, 做出#VV)  (mark, 少许#VV, 的#DEC)  (nsubj, 可口#VA, 馒头#NN)  (advmod, 可口#VA, 更#AD)  (ccomp, 发面#VV, 可口#VA)
+        </parsing>
+
+        <tag>
+            发面  少许白糖  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/d6/06/1750_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1163 馒头.jpg
+    </picturelocalurl>
+
+</content>

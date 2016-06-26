@@ -1,0 +1,374 @@
+<content>
+
+    <id>
+        196
+    </id>
+
+    <foodname>
+        木耳菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        落葵、繁露、承露、天葵、藤葵、胡燕脂、藤儿菜、滑藤、西洋菜、御菜、燕脂菜、染绛子、紫草、燕脂豆、潺菜、紫葵、紫豆藤、红藤菜、软藤菜、红鸡屎藤、藤罗菜、白虎下须、荞菜七、滑菜果、寸金丹、粘藤、篱笆菜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾冷之人、孕妇忌服。
+        </rawdata>
+
+        <segment>
+            脾冷  之  人  、  孕妇  忌服  。
+        </segment>
+
+        <pos>
+            脾冷#NN  之#DEG  人#NN  、#PU  孕妇#NN  忌服#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 孕妇#NN, 脾冷#NN)  (case, 脾冷#NN, 之#DEG)  (conj, 孕妇#NN, 人#NN)  (nsubj, 忌服#VV, 孕妇#NN)  (root, ROOT#null, 忌服#VV)
+        </parsing>
+
+        <tag>
+            脾冷  孕妇忌服  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用，尤适宜疮疡、便秘、痢疾患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  ，  尤  适宜  疮疡  、  便秘  、  痢疾  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  ，#PU  尤#AD  适宜#VV  疮疡#NR  、#PU  便秘#NR  、#PU  痢疾#NR  患者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)  (advmod, 适宜#VV, 尤#AD)  (dep, 食用#VV, 适宜#VV)  (conj, 痢疾#NR, 疮疡#NR)  (conj, 痢疾#NR, 便秘#NR)  (nn, 患者#NN, 痢疾#NR)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  疮疡  便秘  痢疾  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                337
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                2020
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.66
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                166
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                42
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                47.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                3.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            木耳菜，原名落葵，是一种集观赏、食用为一体的花卉型保健蔬菜，因为它的叶子近似圆形，肥厚而黏滑，好像木耳的感觉，所以俗称木耳菜。落葵以嫩茎叶供食，可炒食、烫食、凉拌。其味清香，清脆爽口，如木耳一般，别有风味。
+            落葵在非洲、美洲栽培较多，中国栽培历史悠久，在公元前300年即有关落葵的记载。目前中国南方各省栽培较多，在北方也有栽培，一直列入稀特蔬菜。
+            落葵为蔓性草本, 落葵叶碧绿、梗红、花红、果紫，加上攀缘生长，可作篱笆式栽培，有立体绿化的效果，极具观赏价值。幼苗或肥大的叶片和嫩梢作蔬菜食用（木耳菜）。
+        </rawdata>
+
+        <segment>
+            木耳  菜  ，  原名  落葵  ，  是  一  种  集  观赏  、  食用  为  一体  的  花卉型  保健  蔬菜  ，  因为  它  的  叶子  近似  圆形  ，  肥厚  而  黏滑  ，  好像  木耳  的  感觉  ，  所以  俗称  木耳  菜  。  落葵  以  嫩茎叶供食  ，  可炒食  、  烫食  、  凉拌  。  其味  清香  ，  清脆  爽口  ，  如  木耳  一般  ，  别有风味  。
+            落葵  在  非洲  、  美洲  栽培  较  多  ，  中国  栽培  历史  悠久  ，  在  公元前  300年  即  有关  落葵  的  记载  。  目前  中国  南方  各  省  栽培  较  多  ，  在  北方  也  有  栽培  ，  一直  列入  稀特  蔬菜  。
+            落葵  为  蔓性  草本  ,    落葵  叶  碧绿  、  梗红  、  花红  、  果紫  ，  加上  攀缘  生长  ，  可作  篱笆  式  栽培  ，  有  立体  绿化  的  效果  ，  极  具  观赏  价值  。  幼苗  或  肥大  的  叶片  和  嫩梢作  蔬菜  食用  （  木耳  菜  ）  。
+        </segment>
+
+        <pos>
+            木耳#VV  菜#NN  ，#PU  原名#AD  落葵#VV  ，#PU  是#VC  一#CD  种#M  集#VV  观赏#NN  、#PU  食用#VV  为#VV  一体#NN  的#DEC  花卉型#NN  保健#NN  蔬菜#NN  ，#PU  因为#P  它#PN  的#DEG  叶子#NN  近似#VV  圆形#NN  ，#PU  肥厚#AD  而#MSP  黏滑#VV  ，#PU  好像#VV  木耳#NN  的#DEC  感觉#NN  ，#PU  所以#AD  俗称#AD  木耳#VV  菜#NN    。#PU  落葵#NR  以#MSP  嫩茎叶供食#VV  ，#PU  可炒食#VA  、#PU  烫食#VA  、#PU  凉拌#VA    。#PU  其味#NR  清香#VV  ，#PU  清脆#NN  爽口#NN  ，#PU  如#AD  木耳#NN  一般#AD  ，#PU  别有风味#VV    。#PU    。#PU
+            落葵#NR  在#P  非洲#NR  、#PU  美洲#NR  栽培#VV  较#AD  多#VA  ，#PU  中国#NR  栽培#VV  历史#NN  悠久#VA  ，#PU  在#P  公元前#NT  300年#NT  即#VV  有关#JJ  落葵#NN  的#DEC  记载#NN    。#PU  目前#NT  中国#NR  南方#NN  各#DT  省#NN  栽培#VV  较#AD  多#VA  ，#PU  在#P  北方#NN  也#AD  有#VE  栽培#VV  ，#PU  一直#AD  列入#VV  稀特#JJ  蔬菜#NN    。#PU    。#PU
+            落葵#NN  为#P  蔓性#NN  草本#NN  ,#NN  落葵#VV  叶#NR  碧绿#NR  、#PU  梗红#NR  、#PU  花红#NR  、#PU  果紫#NR  ，#PU  加上#VV  攀缘#JJ  生长#NN  ，#PU  可作#VV  篱笆#CD  式#M  栽培#VV  ，#PU  有#VE  立体#JJ  绿化#NN  的#DEG  效果#NN  ，#PU  极#AD  具#VV  观赏#NN  价值#NN    。#PU  幼苗#NN  或#CC  肥大#NN  的#DEG  叶片#NN  和#CC  嫩梢作#NN  蔬菜#NN  食用#VV  （#PU  木耳#NN  菜#NN  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 木耳#VV)  (dobj, 木耳#VV, 菜#NN)  (advmod, 落葵#VV, 原名#AD)  (conj, 木耳#VV, 落葵#VV)  (cop, 感觉#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 感觉#NN, 种#M)  (relcl, 感觉#NN, 集#VV)  (dobj, 集#VV, 观赏#NN)  (conj, 集#VV, 食用#VV)  (relcl, 蔬菜#NN, 为#VV)  (dobj, 为#VV, 一体#NN)  (mark, 为#VV, 的#DEC)  (nn, 蔬菜#NN, 花卉型#NN)  (nn, 蔬菜#NN, 保健#NN)  (dobj, 食用#VV, 蔬菜#NN)  (case, 叶子#NN, 因为#P)  (assmod, 叶子#NN, 它#PN)  (case, 它#PN, 的#DEG)  (prep, 近似#VV, 叶子#NN)  (conj, 集#VV, 近似#VV)  (dobj, 近似#VV, 圆形#NN)  (advmod, 黏滑#VV, 肥厚#AD)  (prtmod, 黏滑#VV, 而#MSP)  (conj, 集#VV, 黏滑#VV)  (conj, 集#VV, 好像#VV)  (dobj, 好像#VV, 木耳#NN)  (mark, 集#VV, 的#DEC)  (ccomp, 落葵#VV, 感觉#NN)  (advmod, 木耳#VV, 所以#AD)  (advmod, 木耳#VV, 俗称#AD)  (dep, 感觉#NN, 木耳#VV)  (dobj, 木耳#VV, 菜#NN)   (nsubj, 嫩茎叶供食#VV, 落葵#NR)  (prtmod, 嫩茎叶供食#VV, 以#MSP)  (root, ROOT#null, 嫩茎叶供食#VV)  (ccomp, 嫩茎叶供食#VV, 可炒食#VA)  (conj, 可炒食#VA, 烫食#VA)  (dep, 可炒食#VA, 凉拌#VA)   (nsubj, 清香#VV, 其味#NR)  (root, ROOT#null, 清香#VV)  (nn, 爽口#NN, 清脆#NN)  (nsubj, 别有风味#VV, 爽口#NN)  (advmod, 别有风味#VV, 如#AD)  (nsubj, 别有风味#VV, 木耳#NN)  (advmod, 别有风味#VV, 一般#AD)  (ccomp, 清香#VV, 别有风味#VV)   (root, ROOT#null, null#null)
+            (nsubj, 栽培#VV, 落葵#NR)  (case, 美洲#NR, 在#P)  (conj, 美洲#NR, 非洲#NR)  (prep, 栽培#VV, 美洲#NR)  (root, ROOT#null, 栽培#VV)  (advmod, 多#VA, 较#AD)  (relcl, 记载#NN, 多#VA)  (nsubj, 悠久#VA, 中国#NR)  (mmod, 悠久#VA, 栽培#VV)  (dep, 悠久#VA, 历史#NN)  (dep, 多#VA, 悠久#VA)  (case, 300年#NT, 在#P)  (nn, 300年#NT, 公元前#NT)  (prep, 即#VV, 300年#NT)  (conj, 悠久#VA, 即#VV)  (amod, 落葵#NN, 有关#JJ)  (dobj, 即#VV, 落葵#NN)  (mark, 多#VA, 的#DEC)  (dobj, 栽培#VV, 记载#NN)   (tmod, 多#VA, 目前#NT)  (nn, 南方#NN, 中国#NR)  (nsubj, 多#VA, 南方#NN)  (det, 省#NN, 各#DT)  (dep, 多#VA, 省#NN)  (mmod, 多#VA, 栽培#VV)  (advmod, 多#VA, 较#AD)  (root, ROOT#null, 多#VA)  (case, 北方#NN, 在#P)  (prep, 有#VE, 北方#NN)  (advmod, 有#VE, 也#AD)  (dep, 多#VA, 有#VE)  (dep, 有#VE, 栽培#VV)  (advmod, 列入#VV, 一直#AD)  (dep, 栽培#VV, 列入#VV)  (amod, 蔬菜#NN, 稀特#JJ)  (dobj, 列入#VV, 蔬菜#NN)   (root, ROOT#null, null#null)
+            (nsubj, 落葵#VV, 落葵#NN)  (case, ,#NN, 为#P)  (nn, ,#NN, 蔓性#NN)  (nn, ,#NN, 草本#NN)  (root, ROOT#null, 落葵#VV)  (nn, 果紫#NR, 叶#NR)  (conj, 果紫#NR, 碧绿#NR)  (conj, 果紫#NR, 梗红#NR)  (conj, 果紫#NR, 花红#NR)  (dobj, 落葵#VV, 果紫#NR)  (conj, 落葵#VV, 加上#VV)  (amod, 生长#NN, 攀缘#JJ)  (dobj, 加上#VV, 生长#NN)  (conj, 落葵#VV, 可作#VV)  (nummod, 式#M, 篱笆#CD)  (range, 可作#VV, 式#M)  (conj, 可作#VV, 栽培#VV)  (conj, 落葵#VV, 有#VE)  (amod, 绿化#NN, 立体#JJ)  (assmod, 效果#NN, 绿化#NN)  (case, 绿化#NN, 的#DEG)  (dobj, 有#VE, 效果#NN)  (advmod, 具#VV, 极#AD)  (conj, 落葵#VV, 具#VV)  (nn, 价值#NN, 观赏#NN)  (dobj, 具#VV, 价值#NN)   (conj, 肥大#NN, 幼苗#NN)  (cc, 肥大#NN, 或#CC)  (assmod, 蔬菜#NN, 肥大#NN)  (case, 肥大#NN, 的#DEG)  (conj, 蔬菜#NN, 叶片#NN)  (cc, 蔬菜#NN, 和#CC)  (nn, 蔬菜#NN, 嫩梢作#NN)  (nsubj, 食用#VV, 蔬菜#NN)  (root, ROOT#null, 食用#VV)  (nn, 菜#NN, 木耳#NN)  (dep, 食用#VV, 菜#NN)
+        </parsing>
+
+        <tag>
+            木耳菜  集感觉  为蔬菜  花卉型蔬菜  保健蔬菜  食用蔬菜  近似圆形  好像木耳  清香  清脆爽口  美洲  非洲  有关落葵  栽培记载  稀特蔬菜  列入蔬菜  果紫  碧绿  梗红  花红  攀缘生长  加上生长  立体绿化  观赏价值  肥大  幼苗  叶片  嫩梢作蔬菜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.清热解毒
+            有清热、解毒、滑肠、凉血的功效。可用于治疗便秘、痢疾、疖肿、皮肤炎等病。
+            2.降血压
+            经常食用有降血压、益肝、清热凉血、利尿、防止便秘等疗效，极适宜老年人食用。
+        </rawdata>
+
+        <segment>
+            清热  解毒
+            有  清热  、  解毒  、  滑肠  、  凉  血  的  功效  。  可  用于  治疗  便秘  、  痢疾  、  疖肿  、  皮肤炎  等  病  。
+            降  血压
+            经常  食用  有  降  血压  、  益肝  、  清热  凉  血  、  利尿  、  防止  便秘  等  疗效  ，  极  适宜  老年人  食用  。
+        </segment>
+
+        <pos>
+            清热#NN  解毒#VV
+            有#VE  清热#NR  、#PU  解毒#NR  、#PU  滑肠#NR  、#PU  凉#NR  血#NN  的#DEC  功效#NN    。#PU  可#VV  用于#VV  治疗#VV  便秘#NR  、#PU  痢疾#NR  、#PU  疖肿#NR  、#PU  皮肤炎#NR  等#ETC  病#NN    。#PU    。#PU
+            降#NN  血压#VA
+            经常#AD  食用#VV  有#VE  降#NN  血压#NR  、#PU  益肝#NR  、#PU  清热#NR  凉#NN  血#NN  、#PU  利尿#NN  、#PU  防止#VV  便秘#NN  等#ETC  疗效#NN  ，#PU  极#AD  适宜#VA  老年人#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 解毒#VV, 清热#NN)  (root, ROOT#null, 解毒#VV)
+            (relcl, 功效#NN, 有#VE)  (conj, 凉#NR, 清热#NR)  (conj, 凉#NR, 解毒#NR)  (conj, 凉#NR, 滑肠#NR)  (nn, 血#NN, 凉#NR)  (dobj, 有#VE, 血#NN)  (mark, 有#VE, 的#DEC)  (root, ROOT#null, 功效#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (conj, 皮肤炎#NR, 便秘#NR)  (conj, 皮肤炎#NR, 痢疾#NR)  (conj, 皮肤炎#NR, 疖肿#NR)  (nn, 病#NN, 皮肤炎#NR)  (etc, 皮肤炎#NR, 等#ETC)  (dobj, 治疗#VV, 病#NN)   (root, ROOT#null, null#null)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (advmod, 食用#VV, 经常#AD)  (conj, 有#VE, 食用#VV)  (root, ROOT#null, 有#VE)  (dep, 疗效#NN, 降#NN)  (conj, 清热#NR, 血压#NR)  (conj, 清热#NR, 益肝#NR)  (nn, 血#NN, 清热#NR)  (nn, 血#NN, 凉#NN)  (conj, 降#NN, 血#NN)  (conj, 降#NN, 利尿#NN)  (dep, 降#NN, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (etc, 便秘#NN, 等#ETC)  (dobj, 有#VE, 疗效#NN)  (advmod, 适宜#VA, 极#AD)  (relcl, 老年人#NN, 适宜#VA)  (nsubj, 食用#VV, 老年人#NN)  (dep, 有#VE, 食用#VV)
+        </parsing>
+
+        <tag>
+            解毒  用于  皮肤炎  痢疾  疖肿  治疗病  降血压  清热  益肝  防止便秘  老年人适宜  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增加骨密度  抗癌防癌  解毒  凉血  活血  润肠通便  清热利湿  抗炎  抗病毒
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.木耳菜营养素含量极其丰富，尤其钙、铁等元素含量最高，除蛋白质含量比苋菜稍少之外，其他项目与苋菜不相上下。
+            2.木耳菜的钙含量很高，是菠菜的2—3倍，且草酸含量极低，是补钙的优选经济菜。
+        </rawdata>
+
+        <segment>
+            木耳  菜  营养素  含量  极其  丰富  ，  尤其  钙  、  铁  等  元素  含量  最高  ，  除  蛋白质  含量  比  苋菜  稍  少  之外  ，  其他  项目  与  苋菜  不相上下  。
+            木耳  菜  的  钙  含量  很  高  ，  是  菠菜  的  2  —  3  倍  ，  且  草酸  含量  极  低  ，  是  补钙  的  优选  经济  菜  。
+        </segment>
+
+        <pos>
+            木耳#NN  菜#NN  营养素#NN  含量#NN  极其#AD  丰富#VA  ，#PU  尤其#AD  钙#VV  、#PU  铁#NN  等#ETC  元素#NN  含量#NN  最高#AD  ，#PU  除#P  蛋白质#NN  含量#NN  比#P  苋菜#NN  稍#AD  少#VA  之外#LC  ，#PU  其他#DT  项目#NN  与#P  苋菜#NN  不相上下#VV  。#PU
+            木耳#NN  菜#NN  的#DEG  钙#NN  含量#NN  很#AD  高#VA  ，#PU  是#VC  菠菜#VA  的#DEC  2#CD  --#NN  3#CD  倍#M  ，#PU  且#CC  草酸#NN  含量#NN  极#AD  低#VA  ，#PU  是#VC  补钙#NN  的#DEG  优选#NN  经济#NN  菜#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含量#NN, 木耳#NN)  (nn, 含量#NN, 菜#NN)  (nn, 含量#NN, 营养素#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 极其#AD)  (root, ROOT#null, 丰富#VA)  (advmod, 钙#VV, 尤其#AD)  (conj, 丰富#VA, 钙#VV)  (nn, 元素#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nn, 含量#NN, 元素#NN)  (nsubj, 不相上下#VV, 含量#NN)  (advmod, 不相上下#VV, 最高#AD)  (case, 少#VA, 除#P)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 少#VA, 含量#NN)  (case, 苋菜#NN, 比#P)  (prep, 少#VA, 苋菜#NN)  (advmod, 少#VA, 稍#AD)  (prep, 不相上下#VV, 少#VA)  (case, 少#VA, 之外#LC)  (det, 项目#NN, 其他#DT)  (dobj, 不相上下#VV, 项目#NN)  (case, 苋菜#NN, 与#P)  (prep, 不相上下#VV, 苋菜#NN)  (conj, 丰富#VA, 不相上下#VV)
+            (nn, 菜#NN, 木耳#NN)  (assmod, 含量#NN, 菜#NN)  (case, 菜#NN, 的#DEG)  (nn, 含量#NN, 钙#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 是#VC)  (relcl, --#NN, 菠菜#VA)  (mark, 菠菜#VA, 的#DEC)  (nummod, --#NN, 2#CD)  (nummod, 倍#M, 3#CD)  (dep, 是#VC, 倍#M)  (cc, 高#VA, 且#CC)  (nn, 含量#NN, 草酸#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 极#AD)  (conj, 高#VA, 低#VA)  (cop, 菜#NN, 是#VC)  (assmod, 菜#NN, 补钙#NN)  (case, 补钙#NN, 的#DEG)  (nn, 菜#NN, 优选#NN)  (nn, 菜#NN, 经济#NN)  (conj, 高#VA, 菜#NN)
+        </parsing>
+
+        <tag>
+            不相上下项目  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            木耳菜适宜素炒，要用旺火快炒，炒的时间长了易出黏液，并且不宜放酱油。
+        </rawdata>
+
+        <segment>
+            木耳  菜  适宜  素炒  ，  要  用  旺火  快  炒  ，  炒  的  时间  长了  易出  黏液  ，  并且  不宜放  酱油  。
+        </segment>
+
+        <pos>
+            木耳#NN  菜#NN  适宜#VV  素炒#NN  ，#PU  要#VV  用#P  旺火#AD  快#VA  炒#VA  ，#PU  炒#VV  的#DEC  时间#NN  长了#VV  易出#NN  黏液#NN  ，#PU  并且#CC  不宜放#VV  酱油#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 菜#NN, 木耳#NN)  (nsubj, 适宜#VV, 菜#NN)  (root, ROOT#null, 适宜#VV)  (dobj, 适宜#VV, 素炒#NN)  (mmod, 长了#VV, 要#VV)  (case, 时间#NN, 用#P)  (advmod, 快#VA, 旺火#AD)  (relcl, 时间#NN, 快#VA)  (comod, 快#VA, 炒#VA)  (dep, 快#VA, 炒#VV)  (mark, 快#VA, 的#DEC)  (prep, 长了#VV, 时间#NN)  (conj, 适宜#VV, 长了#VV)  (nn, 黏液#NN, 易出#NN)  (dobj, 长了#VV, 黏液#NN)  (cc, 适宜#VV, 并且#CC)  (conj, 适宜#VV, 不宜放#VV)  (dobj, 不宜放#VV, 酱油#NN)
+        </parsing>
+
+        <tag>
+            适宜素炒  易出黏液  长了黏液  不宜放酱油  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071022313613.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\196 木耳菜.jpg
+    </picturelocalurl>
+
+</content>

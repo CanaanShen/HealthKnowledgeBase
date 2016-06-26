@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        1210
+    </id>
+
+    <foodname>
+        梅花肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        梅头肉、梅肉、上肩肉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            凡湿热偏重，痰湿偏盛，舌苔厚腻者，不宜多食。身体肥胖，以及高血压病，动脉硬化、冠心病者应该少吃；受凉感冒，或伤寒病初癒者，忌食猪肉。梅头肉不合适与牛奶同食，因为牛奶含有大量钙，而梅头肉则含磷，这两种营养素不能同时吸收。食梅头肉后不宜大量饮茶，因为茶叶的鞣酸会与蛋白质合成鞣酸蛋白质，减慢肠道蠕动，造成便秘，增加有毒物质和致癌物质的吸收。
+        </rawdata>
+
+        <segment>
+            凡  湿热  偏重  ，  痰湿  偏  盛  ，  舌苔  厚  腻  者  ，  不  宜  多  食  。  身体  肥胖  ，  以及  高血压  病  ，  动脉  硬化  、  冠心  病者  应该  少吃  ；  受凉  感冒  ，  或  伤寒  病  初癒者  ，  忌食  猪肉  。  梅头  肉  不  合适  与  牛奶  同  食  ，  因为  牛奶  含有  大量  钙  ，  而  梅头肉  则  含磷  ，  这  两  种  营养素  不  能  同时  吸收  。  食梅头肉  后  不  宜  大量  饮茶  ，  因为  茶叶  的  鞣酸  会  与  蛋白质  合成  鞣酸  蛋白质  ，  减慢  肠道  蠕动  ，  造成  便秘  ，  增加  有毒  物质  和  致癌  物质  的  吸收  。
+        </segment>
+
+        <pos>
+            凡#AD  湿热#NN  偏重#VV  ，#PU  痰湿#NN  偏#AD  盛#VA  ，#PU  舌苔#VV  厚#JJ  腻#NN  者#NN  ，#PU  不#AD  宜#NR  多#VV  食#NN    。#PU  身体#NN  肥胖#VV  ，#PU  以及#CC  高血压#VV  病#NN  ，#PU  动脉#NN  硬化#NN  、#PU  冠心#NN  病者#NN  应该#VV  少吃#NN  ；#PU  受凉#VV  感冒#NN  ，#PU  或#CC  伤寒#VV  病#JJ  初癒者#NN  ，#PU  忌食#VV  猪肉#NN    。#PU  梅头#NN  肉#NN  不#AD  合适#VA  与#P  牛奶#NN  同#DT  食#NN  ，#PU  因为#P  牛奶#NN  含有#NN  大量#AD  钙#VV  ，#PU  而#AD  梅头肉#NR  则#AD  含磷#VV  ，#PU  这#DT  两#CD  种#M  营养素#NN  不#AD  能#VV  同时#AD  吸收#VV    。#PU  食梅头肉#NN  后#LC  不#AD  宜#NR  大量#AD  饮茶#VV  ，#PU  因为#P  茶叶#NN  的#DEG  鞣酸#NN  会#VV  与#P  蛋白质#NR  合成#JJ  鞣酸#NN  蛋白质#VV  ，#PU  减慢#NN  肠道#VV  蠕动#NN  ，#PU  造成#VV  便秘#NN  ，#PU  增加#VV  有毒#NN  物质#NN  和#CC  致癌#NN  物质#NN  的#DEG  吸收#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 湿热#NN, 凡#AD)  (nsubj, 偏重#VV, 湿热#NN)  (root, ROOT#null, 偏重#VV)  (nsubj, 盛#VA, 痰湿#NN)  (advmod, 盛#VA, 偏#AD)  (ccomp, 偏重#VV, 盛#VA)  (dep, 盛#VA, 舌苔#VV)  (amod, 腻#NN, 厚#JJ)  (nn, 者#NN, 腻#NN)  (dobj, 舌苔#VV, 者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (conj, 盛#VA, 多#VV)  (dobj, 多#VV, 食#NN)   (nsubj, 肥胖#VV, 身体#NN)  (xsubj, 高血压#VV, 身体#NN)  (root, ROOT#null, 肥胖#VV)  (cc, 高血压#VV, 以及#CC)  (ccomp, 肥胖#VV, 高血压#VV)  (dobj, 高血压#VV, 病#NN)  (nn, 病者#NN, 动脉#NN)  (conj, 病者#NN, 硬化#NN)  (nn, 病者#NN, 冠心#NN)  (dep, 应该#VV, 病者#NN)  (conj, 高血压#VV, 应该#VV)  (dobj, 应该#VV, 少吃#NN)  (conj, 高血压#VV, 受凉#VV)  (dobj, 受凉#VV, 感冒#NN)  (cc, 高血压#VV, 或#CC)  (conj, 高血压#VV, 伤寒#VV)  (amod, 初癒者#NN, 病#JJ)  (dobj, 伤寒#VV, 初癒者#NN)  (conj, 高血压#VV, 忌食#VV)  (dobj, 忌食#VV, 猪肉#NN)   (nn, 肉#NN, 梅头#NN)  (nsubj, 合适#VA, 肉#NN)  (neg, 合适#VA, 不#AD)  (root, ROOT#null, 合适#VA)  (case, 食#NN, 与#P)  (nn, 食#NN, 牛奶#NN)  (det, 食#NN, 同#DT)  (prep, 含磷#VV, 食#NN)  (case, 钙#VV, 因为#P)  (nn, 含有#NN, 牛奶#NN)  (nsubj, 钙#VV, 含有#NN)  (advmod, 钙#VV, 大量#AD)  (prep, 含磷#VV, 钙#VV)  (advmod, 含磷#VV, 而#AD)  (nsubj, 含磷#VV, 梅头肉#NR)  (advmod, 含磷#VV, 则#AD)  (conj, 合适#VA, 含磷#VV)  (det, 营养素#NN, 这#DT)  (nummod, 种#M, 两#CD)  (dep, 这#DT, 种#M)  (nsubj, 吸收#VV, 营养素#NN)  (neg, 吸收#VV, 不#AD)  (mmod, 吸收#VV, 能#VV)  (advmod, 吸收#VV, 同时#AD)  (ccomp, 含磷#VV, 吸收#VV)   (loc, 饮茶#VV, 食梅头肉#NN)  (case, 食梅头肉#NN, 后#LC)  (neg, 饮茶#VV, 不#AD)  (dep, 饮茶#VV, 宜#NR)  (advmod, 饮茶#VV, 大量#AD)  (root, ROOT#null, 饮茶#VV)  (case, 蛋白质#VV, 因为#P)  (assmod, 鞣酸#NN, 茶叶#NN)  (case, 茶叶#NN, 的#DEG)  (nsubj, 蛋白质#VV, 鞣酸#NN)  (mmod, 蛋白质#VV, 会#VV)  (case, 鞣酸#NN, 与#P)  (nn, 鞣酸#NN, 蛋白质#NR)  (amod, 鞣酸#NN, 合成#JJ)  (prep, 蛋白质#VV, 鞣酸#NN)  (prep, 肠道#VV, 蛋白质#VV)  (nsubj, 肠道#VV, 减慢#NN)  (ccomp, 饮茶#VV, 肠道#VV)  (dobj, 肠道#VV, 蠕动#NN)  (conj, 肠道#VV, 造成#VV)  (dobj, 造成#VV, 便秘#NN)  (conj, 饮茶#VV, 增加#VV)  (nn, 物质#NN, 有毒#NN)  (conj, 物质#NN, 物质#NN)  (cc, 物质#NN, 和#CC)  (nn, 物质#NN, 致癌#NN)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 增加#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+            凡湿热偏重  痰湿偏盛  舌苔厚腻者  不宜多食  身体肥胖  高血压病  动脉硬化  冠心病者应该少吃  受凉感冒  伤寒病初癒者  忌食猪肉  梅头肉不合适  牛奶同食  牛奶含有大量钙  而梅头肉则含磷  这两种营养素不能  吸收  食梅头肉后不宜大量饮茶  茶叶  鞣酸会  蛋白质合成鞣酸蛋白质  减慢肠道蠕动  造成便秘  增加有毒物质  致癌物质  吸收  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            梅花肉即猪的上肩肉，据说每只猪猪身上的这块肉只有5、6斤，有20cm长，横切面瘦肉占90％，期间有数条细细的肥肉丝纵横交错，所以吃的时候特别嫩而且香，更是一点也不油腻，其肉质鲜美可口，久煮不老。
+        </rawdata>
+
+        <segment>
+            梅花  肉即  猪  的  上  肩  肉  ，  据说  每  只  猪猪  身上  的  这  块  肉  只有  6  斤  ，  有  20  cm  长  ，  横切面  瘦肉  占  90％  ，  期间  有  数  条  细细  的  肥肉  丝  纵横  交错  ，  所以  吃  的  时候  特别嫩  而且  香  ，  更  是  一  点  也  不  油腻  ，  其  肉质  鲜美  可口  ，  久  煮  不  老  。
+        </segment>
+
+        <pos>
+            梅花#NN  肉即#NN  猪#NN  的#DEG  上#DT  肩#NN  肉#NN  ，#PU  据说#AD  每#DT  只#M  猪猪#NN  身上#NN  的#DEG  这#DT  块#M  肉#NN  只有#AD  6#CD  斤#VV  ，#PU  有#VE  20#CD  cm#NN  长#VA  ，#PU  横切面#NN  瘦肉#NN  占#VV  90#CD  ％#NN  ，#PU  期间#NN  有#VE  数#CD  条#M  细细#NN  的#DEC  肥肉#NN  丝#NN  纵横#AD  交错#VV  ，#PU  所以#AD  吃#VV  的#DEC  时候#NN  特别嫩#CD  而且#CC  香#CD  ，#PU  更#AD  是#VC  一#CD  点#M  也#AD  不#AD  油腻#VV  ，#PU  其#PN  肉质#VV  鲜美#NN  可口#NN  ，#PU  久#AD  煮#VV  不#AD  老#NR  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 猪#NN, 梅花#NN)  (nn, 猪#NN, 肉即#NN)  (assmod, 肉#NN, 猪#NN)  (case, 猪#NN, 的#DEG)  (det, 肉#NN, 上#DT)  (nn, 肉#NN, 肩#NN)  (nsubj, 斤#VV, 肉#NN)  (advmod, 斤#VV, 据说#AD)  (det, 猪猪#NN, 每#DT)  (clf, 每#DT, 只#M)  (nn, 身上#NN, 猪猪#NN)  (assmod, 肉#NN, 身上#NN)  (case, 身上#NN, 的#DEG)  (det, 肉#NN, 这#DT)  (clf, 这#DT, 块#M)  (nsubj, 斤#VV, 肉#NN)  (advmod, 6#CD, 只有#AD)  (dep, 斤#VV, 6#CD)  (root, ROOT#null, 斤#VV)  (conj, 斤#VV, 有#VE)  (nummod, cm#NN, 20#CD)  (nsubj, 长#VA, cm#NN)  (dep, 有#VE, 长#VA)  (nn, 瘦肉#NN, 横切面#NN)  (nsubj, 占#VV, 瘦肉#NN)  (conj, 长#VA, 占#VV)  (nummod, ％#NN, 90#CD)  (dobj, 占#VV, ％#NN)  (dep, 有#VE, 期间#NN)  (relcl, 丝#NN, 有#VE)  (nummod, 条#M, 数#CD)  (clf, 细细#NN, 条#M)  (dobj, 有#VE, 细细#NN)  (mark, 有#VE, 的#DEC)  (nn, 丝#NN, 肥肉#NN)  (nsubj, 交错#VV, 丝#NN)  (advmod, 交错#VV, 纵横#AD)  (conj, 长#VA, 交错#VV)  (advmod, 香#CD, 所以#AD)  (relcl, 时候#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, 香#CD, 时候#NN)  (nummod, 香#CD, 特别嫩#CD)  (cc, 香#CD, 而且#CC)  (conj, 长#VA, 香#CD)  (advmod, 是#VC, 更#AD)  (dep, 油腻#VV, 是#VC)  (nummod, 点#M, 一#CD)  (dep, 是#VC, 点#M)  (advmod, 油腻#VV, 也#AD)  (neg, 油腻#VV, 不#AD)  (conj, 长#VA, 油腻#VV)  (nsubj, 肉质#VV, 其#PN)  (conj, 长#VA, 肉质#VV)  (nn, 可口#NN, 鲜美#NN)  (dobj, 肉质#VV, 可口#NN)  (advmod, 煮#VV, 久#AD)  (conj, 斤#VV, 煮#VV)  (neg, 煮#VV, 不#AD)  (dobj, 煮#VV, 老#NR)
+        </parsing>
+
+        <tag>
+            猪猪身上  横切面瘦肉  吃时候  鲜美可口  肉质可口  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  改善营养性贫血  美容养颜  补气  润燥  补血  消肿  补肾阴  补肾气
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/14/4f/20244_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1210 梅花肉.jpg
+    </picturelocalurl>
+
+</content>

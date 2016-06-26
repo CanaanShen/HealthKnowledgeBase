@@ -1,0 +1,318 @@
+<content>
+
+    <id>
+        1265
+    </id>
+
+    <foodname>
+        萝卜干
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        潮汕菜脯
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腌制品不能吃过多，易引起癌症
+        </rawdata>
+
+        <segment>
+            腌制  品  不  能  吃  过  多  ，  易  引起  癌症
+        </segment>
+
+        <pos>
+            腌制#CD  品#M  不#AD  能#VV  吃#VV  过#AS  多#CD  ，#PU  易#AD  引起#VV  癌症#NN
+        </pos>
+
+        <parsing>
+            (nummod, 品#M, 腌制#CD)  (dep, 吃#VV, 品#M)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 能#VV)  (root, ROOT#null, 吃#VV)  (asp, 吃#VV, 过#AS)  (dep, 吃#VV, 多#CD)  (advmod, 引起#VV, 易#AD)  (conj, 吃#VV, 引起#VV)  (dobj, 引起#VV, 癌症#NN)
+        </parsing>
+
+        <tag>
+            腌制品不能吃  易引起癌症  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                60cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                67.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                3.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                0.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                3.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                11.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.04mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.09mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                17mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0.9mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                4203mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                53mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                3.4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            萝卜干即晒干的萝卜。一种独具风味的蔬菜。富含维生素B，铁质含量除金针菜外高过其他食物。萝卜干在潮汕称菜脯，咸香脆口，消食开胃，与潮汕咸菜、鱼露并称潮汕三宝。上杭萝卜干色泽金黄，皮嫩肉脆，甘香味美，明初即享有盛名。如今，“吃了萝卜干”成为篮球场上一句流行语，意指在打篮球时手指意外受伤，关节红肿，形似萝卜干。
+        </rawdata>
+
+        <segment>
+            萝卜  干  即  晒干  的  萝卜  。  一  种  独具  风味  的  蔬菜  。  富含  维生素  B  ，  铁  质  含量  除  金针菜  外  高过  其他  食物  。  萝卜  干  在  潮汕  称  菜脯  ，  咸  香脆  口  ，  消食  开胃  ，  与  潮汕  咸菜  、  鱼露  并称  潮汕  三  宝  。  上杭  萝卜  干  色泽  金黄  ，  皮  嫩肉脆  ，  甘  香  味美  ，  明  初  即  享有  盛名  。  如今  ，  “  吃  了  萝卜  干  ”  成为  篮球场  上  一  句  流行语  ，  意  指  在打  篮球  时  手指  意外  受伤  ，  关节  红肿  ，  形似  萝卜  干  。
+        </segment>
+
+        <pos>
+            萝卜#NN  干#VV  即#AD  晒干#VV  的#DEC  萝卜#NN    。#PU  一#CD  种#M  独具#VV  风味#NN  的#DEC  蔬菜#NN    。#PU  富含#NN  维生素#NN  B#VV  ，#PU  铁#JJ  质#NN  含量#NN  除#P  金针菜#NN  外#LC  高过#VV  其他#DT  食物#NN    。#PU  萝卜#NN  干#VV  在#P  潮汕#NR  称#VV  菜脯#NN  ，#PU  咸#VV  香脆#CD  口#M  ，#PU  消食#VV  开胃#NN  ，#PU  与#P  潮汕#NN  咸菜#NN  、#PU  鱼露#NN  并称#NN  潮汕#VV  三#CD  宝#NN    。#PU  上杭#NN  萝卜#NN  干#VV  色泽#NN  金黄#NN  ，#PU  皮#VV  嫩肉脆#NN  ，#PU  甘#NR  香#NN  味美#NN  ，#PU  明#NT  初#LC  即#AD  享有#VV  盛名#NN    。#PU  如今#NT  ，#PU  ``#NN  吃#VV  了#AS  萝卜#NN  干#VV  ''#NN  成为#VV  篮球场#NR  上#DT  一#CD  句#NN  流行语#NN  ，#PU  意#NR  指#VV  在打#NN  篮球#NN  时#LC  手指#NN  意外#AD  受伤#VV  ，#PU  关节#NN  红肿#NN  ，#PU  形似#VV  萝卜#NN  干#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 干#VV, 萝卜#NN)  (root, ROOT#null, 干#VV)  (advmod, 晒干#VV, 即#AD)  (relcl, 萝卜#NN, 晒干#VV)  (mark, 晒干#VV, 的#DEC)  (dobj, 干#VV, 萝卜#NN)   (nummod, 种#M, 一#CD)  (dep, 独具#VV, 种#M)  (relcl, 蔬菜#NN, 独具#VV)  (dobj, 独具#VV, 风味#NN)  (mark, 独具#VV, 的#DEC)  (root, ROOT#null, 蔬菜#NN)   (nn, 维生素#NN, 富含#NN)  (nsubj, B#VV, 维生素#NN)  (root, ROOT#null, B#VV)  (amod, 含量#NN, 铁#JJ)  (nn, 含量#NN, 质#NN)  (nsubj, 高过#VV, 含量#NN)  (case, 金针菜#NN, 除#P)  (prep, 高过#VV, 金针菜#NN)  (case, 金针菜#NN, 外#LC)  (ccomp, B#VV, 高过#VV)  (det, 食物#NN, 其他#DT)  (dobj, 高过#VV, 食物#NN)   (nsubj, 称#VV, 萝卜#NN)  (mmod, 称#VV, 干#VV)  (case, 潮汕#NR, 在#P)  (prep, 称#VV, 潮汕#NR)  (root, ROOT#null, 称#VV)  (dobj, 称#VV, 菜脯#NN)  (conj, 称#VV, 咸#VV)  (nummod, 口#M, 香脆#CD)  (range, 咸#VV, 口#M)  (conj, 称#VV, 消食#VV)  (dobj, 消食#VV, 开胃#NN)  (case, 并称#NN, 与#P)  (nn, 咸菜#NN, 潮汕#NN)  (conj, 并称#NN, 咸菜#NN)  (nn, 并称#NN, 鱼露#NN)  (prep, 潮汕#VV, 并称#NN)  (conj, 称#VV, 潮汕#VV)  (nummod, 宝#NN, 三#CD)  (dobj, 潮汕#VV, 宝#NN)   (nn, 萝卜#NN, 上杭#NN)  (nsubj, 干#VV, 萝卜#NN)  (root, ROOT#null, 干#VV)  (nn, 金黄#NN, 色泽#NN)  (dobj, 干#VV, 金黄#NN)  (conj, 干#VV, 皮#VV)  (dobj, 皮#VV, 嫩肉脆#NN)  (nn, 味美#NN, 甘#NR)  (nn, 味美#NN, 香#NN)  (nsubj, 享有#VV, 味美#NN)  (loc, 享有#VV, 明#NT)  (case, 明#NT, 初#LC)  (advmod, 享有#VV, 即#AD)  (conj, 干#VV, 享有#VV)  (dobj, 享有#VV, 盛名#NN)   (tmod, 吃#VV, 如今#NT)  (nsubj, 吃#VV, ``#NN)  (root, ROOT#null, 吃#VV)  (asp, 吃#VV, 了#AS)  (dobj, 吃#VV, 萝卜#NN)  (conj, 吃#VV, 干#VV)  (dobj, 干#VV, ''#NN)  (conj, 干#VV, 成为#VV)  (nn, 流行语#NN, 篮球场#NR)  (det, 句#NN, 上#DT)  (dep, 上#DT, 一#CD)  (nn, 流行语#NN, 句#NN)  (dobj, 成为#VV, 流行语#NN)  (nsubj, 指#VV, 意#NR)  (loc, 受伤#VV, 指#VV)  (nn, 篮球#NN, 在打#NN)  (dobj, 指#VV, 篮球#NN)  (case, 指#VV, 时#LC)  (nsubj, 受伤#VV, 手指#NN)  (advmod, 受伤#VV, 意外#AD)  (conj, 吃#VV, 受伤#VV)  (nn, 红肿#NN, 关节#NN)  (nsubj, 形似#VV, 红肿#NN)  (conj, 吃#VV, 形似#VV)  (dobj, 形似#VV, 萝卜#NN)  (conj, 形似#VV, 干#VV)
+        </parsing>
+
+        <tag>
+            晒干萝卜  独具蔬菜  独具风味  富含维生素  高过食物  消食开胃  潮汕咸菜  鱼露并称  潮汕宝  上杭萝卜  色泽金黄  享有盛名  成为流行语  在打篮球  关节红肿  形似萝卜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            开胃消食
+            消风行气
+        </rawdata>
+
+        <segment>
+            开胃  消食
+            消  风行气
+        </segment>
+
+        <pos>
+            开胃#NN  消食#VV
+            消#NN  风行气#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 消食#VV, 开胃#NN)  (root, ROOT#null, 消食#VV)
+            (nsubj, 风行气#VV, 消#NN)  (root, ROOT#null, 风行气#VV)
+        </parsing>
+
+        <tag>
+            消食  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        开胃  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            萝卜干含有一定数量的糖分、蛋白质、胡萝卜素、抗坏血酸等营养成分，以及钙、磷等人体不可缺少的矿物质。萝卜干的维生素B、铁质含量高，是高级养生食物，有“素人参”之美名。
+            近年来，科学家发现萝卜干含胆碱物质，有利于减肥，以及它含有的一种叫糖化酶能分解食物中的淀粉等成分，能促进人体对营养物质的消化吸收，又能把致癌的亚硝胺分解掉。
+            萝卜干的食疗价值
+            萝卜干具有降血脂、降血压、消炎、开胃、清热生津、防暑、消油腻、破气、化痰、止咳等功效。
+        </rawdata>
+
+        <segment>
+            萝卜  干  含有  一定  数量  的  糖分  、  蛋白质  、  胡萝卜素  、  抗坏血酸  等  营养  成分  ，  以及  钙  、  磷  等  人体  不可缺少  的  矿物质  。  萝卜  干的  维生素B  、  铁质  含量  高  ，  是  高级  养生  食物  ，  有  “  素  人参  ”  之  美名  。
+            近年  来  ，  科学家  发现  萝卜  干含  胆碱  物质  ，  有利于  减肥  ，  以及  它  含有  的  一  种  叫  糖化  酶能  分解  食物  中  的  淀粉  等  成分  ，  能  促进  人体  对  营养  物质  的  消化  吸收  ，  又  能  把  致癌  的  亚硝胺  分解  掉  。
+            萝卜  干的  食疗  价值
+            萝卜  干  具有  降  血脂  、  降  血压  、  消炎  、  开胃  、  清热  生  津  、  防暑  、  消  油腻  、  破气  、  化痰  、  止咳  等  功效  。
+        </segment>
+
+        <pos>
+            萝卜#NN  干#VV  含有#VV  一定#JJ  数量#NN  的#DEG  糖分#NR  、#PU  蛋白质#NR  、#PU  胡萝卜素#NR  、#PU  抗坏血酸#NR  等#ETC  营养#VA  成分#NN  ，#PU  以及#CC  钙#NN  、#PU  磷#NN  等#ETC  人体#NN  不可缺少#NN  的#DEC  矿物质#NN    。#PU  萝卜#NN  干的#VV  维生素B#NN  、#PU  铁质#NN  含量#NN  高#VA  ，#PU  是#VC  高级#JJ  养生#NN  食物#NN  ，#PU  有#VE  ``#NN  素#AD  人参#VV  ''#NN  之#DEC  美名#NN    。#PU    。#PU
+            近年#NT  来#LC  ，#PU  科学家#NN  发现#NN  萝卜#AD  干含#VV  胆碱#NN  物质#NN  ，#PU  有利于#VV  减肥#VV  ，#PU  以及#CC  它#PN  含有#NN  的#DEG  一#CD  种#M  叫#VV  糖化#NN  酶能#NN  分解#VV  食物#NN  中#LC  的#DEG  淀粉#NN  等#ETC  成分#NN  ，#PU  能#VV  促进#VV  人体#NR  对#P  营养#VA  物质#NN  的#DEG  消化#NN  吸收#NN  ，#PU  又#AD  能#VV  把#BA  致癌#NN  的#DEG  亚硝胺#NN  分解#VV  掉#NN  。#PU
+            萝卜#NN  干的#VV  食疗#NN  价值#NN
+            萝卜#NN  干#VV  具有#VV  降#NN  血脂#NN  、#PU  降#VV  血压#NR  、#PU  消炎#NR  、#PU  开胃#NR  、#PU  清热#NR  生#VV  津#NR  、#PU  防暑#NR  、#PU  消#NR  油腻#NR  、#PU  破气#NR  、#PU  化痰#NR  、#PU  止咳#NR  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 干#VV, 萝卜#NN)  (root, ROOT#null, 干#VV)  (relcl, 矿物质#NN, 含有#VV)  (amod, 数量#NN, 一定#JJ)  (assmod, 成分#NN, 数量#NN)  (case, 数量#NN, 的#DEG)  (conj, 抗坏血酸#NR, 糖分#NR)  (conj, 抗坏血酸#NR, 蛋白质#NR)  (conj, 抗坏血酸#NR, 胡萝卜素#NR)  (nn, 成分#NN, 抗坏血酸#NR)  (etc, 抗坏血酸#NR, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dep, 不可缺少#NN, 成分#NN)  (cc, 不可缺少#NN, 以及#CC)  (conj, 磷#NN, 钙#NN)  (nn, 人体#NN, 磷#NN)  (etc, 磷#NN, 等#ETC)  (nn, 不可缺少#NN, 人体#NN)  (dobj, 含有#VV, 不可缺少#NN)  (mark, 含有#VV, 的#DEC)  (dobj, 干#VV, 矿物质#NN)   (nsubj, 干的#VV, 萝卜#NN)  (root, ROOT#null, 干的#VV)  (conj, 铁质#NN, 维生素B#NN)  (nn, 含量#NN, 铁质#NN)  (nsubj, 高#VA, 含量#NN)  (relcl, 美名#NN, 高#VA)  (cop, 食物#NN, 是#VC)  (amod, 食物#NN, 高级#JJ)  (nn, 食物#NN, 养生#NN)  (dep, 高#VA, 食物#NN)  (conj, 高#VA, 有#VE)  (nsubj, 人参#VV, ``#NN)  (advmod, 人参#VV, 素#AD)  (dep, 有#VE, 人参#VV)  (dobj, 人参#VV, ''#NN)  (mark, 高#VA, 之#DEC)  (dobj, 干的#VV, 美名#NN)   (root, ROOT#null, null#null)
+            (loc, 有利于#VV, 近年#NT)  (case, 近年#NT, 来#LC)  (nn, 发现#NN, 科学家#NN)  (xsubj, 干含#VV, 发现#NN)  (nsubj, 有利于#VV, 发现#NN)  (advmod, 干含#VV, 萝卜#AD)  (dep, 有利于#VV, 干含#VV)  (nn, 物质#NN, 胆碱#NN)  (dobj, 干含#VV, 物质#NN)  (root, ROOT#null, 有利于#VV)  (ccomp, 有利于#VV, 减肥#VV)  (cc, 有利于#VV, 以及#CC)  (nsubj, 叫#VV, 它#PN)  (assmod, 种#M, 含有#NN)  (case, 含有#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (nsubj, 叫#VV, 种#M)  (conj, 有利于#VV, 叫#VV)  (nn, 酶能#NN, 糖化#NN)  (dobj, 叫#VV, 酶能#NN)  (dep, 叫#VV, 分解#VV)  (assmod, 成分#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (nn, 成分#NN, 淀粉#NN)  (etc, 淀粉#NN, 等#ETC)  (dobj, 分解#VV, 成分#NN)  (mmod, 促进#VV, 能#VV)  (conj, 分解#VV, 促进#VV)  (nn, 吸收#NN, 人体#NR)  (case, 物质#NN, 对#P)  (nfincl, 物质#NN, 营养#VA)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (nn, 吸收#NN, 消化#NN)  (dobj, 促进#VV, 吸收#NN)  (advmod, 分解#VV, 又#AD)  (mmod, 分解#VV, 能#VV)  (ba, 分解#VV, 把#BA)  (assmod, 亚硝胺#NN, 致癌#NN)  (case, 致癌#NN, 的#DEG)  (nsubj, 分解#VV, 亚硝胺#NN)  (conj, 有利于#VV, 分解#VV)  (dobj, 分解#VV, 掉#NN)
+            (nsubj, 干的#VV, 萝卜#NN)  (root, ROOT#null, 干的#VV)  (nn, 价值#NN, 食疗#NN)  (dobj, 干的#VV, 价值#NN)
+            (nsubj, 干#VV, 萝卜#NN)  (root, ROOT#null, 干#VV)  (conj, 干#VV, 具有#VV)  (nn, 血脂#NN, 降#NN)  (dobj, 具有#VV, 血脂#NN)  (conj, 干#VV, 降#VV)  (conj, 清热#NR, 血压#NR)  (conj, 清热#NR, 消炎#NR)  (conj, 清热#NR, 开胃#NR)  (dobj, 降#VV, 清热#NR)  (conj, 干#VV, 生#VV)  (conj, 止咳#NR, 津#NR)  (conj, 止咳#NR, 防暑#NR)  (nn, 止咳#NR, 消#NR)  (conj, 止咳#NR, 油腻#NR)  (conj, 止咳#NR, 破气#NR)  (conj, 止咳#NR, 化痰#NR)  (nn, 功效#NN, 止咳#NR)  (etc, 止咳#NR, 等#ETC)  (dobj, 生#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            含有矿物质  一定数量  抗坏血酸  糖分  蛋白质  胡萝卜素  人体不可缺少  含有不可缺少  铁质  维生素B  高级食物  养生食物  干的美名  糖化酶能  消化吸收  促进吸收  亚硝胺  分解掉  食疗价值  干的价值  清热  血压  消炎  开胃  止咳  防暑  油腻  破气  化痰  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            萝卜干制作一般是在冬至前后进行，要经过“晒、腌、藏”三道工序。将萝卜拔出洗净，放太阳下曝晒后用围实，一层萝卜一层盐，装满后上盖，再压上大石块，晚间收回。一周后取出晾晒，搓去水分，再曝晒，直至挤不出水为止。然后将竹苫里的盐水过滤煮开，倒入萝卜干浸泡，趁热再揉擦一次，又挤去盐水再晒干，等到变为金黄色后，就将萝卜干装入干净的瓮内压实，用黄泥封口，半年之后取出。这样，就成变独具风味的萝卜干了。
+        </rawdata>
+
+        <segment>
+            萝卜  干制  作  一般  是  在  冬至  前后  进行  ，  要  经过  “  晒  、  腌  、  藏  ”  三  道  工序  。  将  萝卜  拔出  洗净  ，  放  太阳  下  曝晒  后用  围实  ，  一  层  萝卜  一  层  盐  ，  装满  后  上  盖  ，  再  压上  大石块  ，  晚间  收回  。  一  周  后  取出  晾晒  ，  搓  去  水分  ，  再  曝晒  ，  直  至  挤  不  出水  为止  。  然后  将  竹苫  里  的  盐水  过滤  煮开  ，  倒入  萝卜  干  浸泡  ，  趁热  再  揉擦  一  次  ，  又  挤去  盐水  再  晒干  ，  等到  变为  金黄色  后  ，  就  将  萝卜  干  装入  干净  的  瓮内压实  ，  用  黄泥  封口  ，  半  年  之后  取出  。  这样  ，  就成  变  独具  风味  的  萝卜  干了  。
+        </segment>
+
+        <pos>
+            萝卜#NN  干制#NN  作#VV  一般#AD  是#VC  在#P  冬至#NN  前后#LC  进行#VV  ，#PU  要#VV  经过#P  ``#NR  晒#NR  、#PU  腌#NR  、#PU  藏#NR  ''#VV  三#CD  道#NN  工序#NN    。#PU  将#AD  萝卜#VV  拔出#NN  洗净#NN  ，#PU  放#VV  太阳#NN  下#LC  曝晒#NN  后用#NN  围实#VV  ，#PU  一#CD  层#M  萝卜#NN  一#CD  层#M  盐#NN  ，#PU  装满#VV  后#LC  上#VV  盖#NN  ，#PU  再#AD  压上#VV  大石块#NN  ，#PU  晚间#AD  收回#VV    。#PU  一#CD  周#M  后#LC  取出#VV  晾晒#NN  ，#PU  搓#AD  去#VV  水分#NN  ，#PU  再#AD  曝晒#VV  ，#PU  直#AD  至#P  挤#VV  不#AD  出水#VV  为止#LC    。#PU  然后#AD  将#BA  竹苫#NN  里#LC  的#DEG  盐水#NN  过滤#VV  煮开#NN  ，#PU  倒入#NN  萝卜#NN  干#VV  浸泡#NN  ，#PU  趁热#NN  再#AD  揉擦#VV  一#CD  次#M  ，#PU  又#CC  挤去#NN  盐水#NN  再#AD  晒干#VV  ，#PU  等到#AD  变为#VV  金黄色#JJ  后#NN  ，#PU  就#AD  将#AD  萝卜#AD  干#VV  装入#AD  干净#VA  的#DEC  瓮内压实#NN  ，#PU  用#P  黄泥#NN  封口#VV  ，#PU  半#CD  年#M  之后#LC  取出#VV    。#PU  这样#AD  ，#PU  就成#AD  变#VV  独具#VV  风味#NN  的#DEC  萝卜#NN  干了#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 干制#NN, 萝卜#NN)  (nsubj, 进行#VV, 干制#NN)  (mmod, 进行#VV, 作#VV)  (advmod, 进行#VV, 一般#AD)  (cop, 进行#VV, 是#VC)  (case, 冬至#NN, 在#P)  (prep, 进行#VV, 冬至#NN)  (case, 冬至#NN, 前后#LC)  (root, ROOT#null, 进行#VV)  (mmod, ''#VV, 要#VV)  (case, 藏#NR, 经过#P)  (nn, 藏#NR, ``#NR)  (conj, 藏#NR, 晒#NR)  (conj, 藏#NR, 腌#NR)  (prep, ''#VV, 藏#NR)  (dep, 进行#VV, ''#VV)  (nummod, 工序#NN, 三#CD)  (nn, 工序#NN, 道#NN)  (dobj, ''#VV, 工序#NN)   (advmod, 萝卜#VV, 将#AD)  (dep, 围实#VV, 萝卜#VV)  (nn, 洗净#NN, 拔出#NN)  (dobj, 萝卜#VV, 洗净#NN)  (loc, 围实#VV, 放#VV)  (dobj, 放#VV, 太阳#NN)  (case, 放#VV, 下#LC)  (nn, 后用#NN, 曝晒#NN)  (nsubj, 围实#VV, 后用#NN)  (root, ROOT#null, 围实#VV)  (nummod, 层#M, 一#CD)  (clf, 萝卜#NN, 层#M)  (nn, 盐#NN, 萝卜#NN)  (nummod, 层#M, 一#CD)  (clf, 盐#NN, 层#M)  (nsubj, 上#VV, 盐#NN)  (loc, 上#VV, 装满#VV)  (case, 装满#VV, 后#LC)  (ccomp, 围实#VV, 上#VV)  (dobj, 上#VV, 盖#NN)  (advmod, 压上#VV, 再#AD)  (conj, 上#VV, 压上#VV)  (dobj, 压上#VV, 大石块#NN)  (advmod, 收回#VV, 晚间#AD)  (conj, 上#VV, 收回#VV)   (nummod, 周#M, 一#CD)  (loc, 取出#VV, 周#M)  (case, 周#M, 后#LC)  (root, ROOT#null, 取出#VV)  (dobj, 取出#VV, 晾晒#NN)  (advmod, 去#VV, 搓#AD)  (conj, 取出#VV, 去#VV)  (dobj, 去#VV, 水分#NN)  (advmod, 曝晒#VV, 再#AD)  (conj, 取出#VV, 曝晒#VV)  (ccomp, 曝晒#VV, 直#AD)  (case, 出水#VV, 至#P)  (mmod, 出水#VV, 挤#VV)  (neg, 出水#VV, 不#AD)  (dep, 直#AD, 出水#VV)  (case, 出水#VV, 为止#LC)   (advmod, 过滤#VV, 然后#AD)  (ba, 过滤#VV, 将#BA)  (assmod, 盐水#NN, 竹苫#NN)  (case, 竹苫#NN, 里#LC)  (case, 竹苫#NN, 的#DEG)  (nsubj, 过滤#VV, 盐水#NN)  (root, ROOT#null, 过滤#VV)  (dobj, 过滤#VV, 煮开#NN)  (nn, 萝卜#NN, 倒入#NN)  (nsubj, 干#VV, 萝卜#NN)  (conj, 过滤#VV, 干#VV)  (dobj, 干#VV, 浸泡#NN)  (nsubj, 揉擦#VV, 趁热#NN)  (advmod, 揉擦#VV, 再#AD)  (conj, 过滤#VV, 揉擦#VV)  (nummod, 次#M, 一#CD)  (range, 揉擦#VV, 次#M)  (cc, 过滤#VV, 又#CC)  (nn, 盐水#NN, 挤去#NN)  (nsubj, 晒干#VV, 盐水#NN)  (advmod, 晒干#VV, 再#AD)  (conj, 过滤#VV, 晒干#VV)  (advmod, 变为#VV, 等到#AD)  (conj, 过滤#VV, 变为#VV)  (amod, 后#NN, 金黄色#JJ)  (dobj, 变为#VV, 后#NN)  (advmod, 干#VV, 就#AD)  (advmod, 干#VV, 将#AD)  (advmod, 干#VV, 萝卜#AD)  (conj, 过滤#VV, 干#VV)  (advmod, 干净#VA, 装入#AD)  (relcl, 瓮内压实#NN, 干净#VA)  (mark, 干净#VA, 的#DEC)  (dobj, 干#VV, 瓮内压实#NN)  (case, 黄泥#NN, 用#P)  (prep, 封口#VV, 黄泥#NN)  (conj, 过滤#VV, 封口#VV)  (nummod, 年#M, 半#CD)  (loc, 取出#VV, 年#M)  (case, 年#M, 之后#LC)  (dep, 过滤#VV, 取出#VV)   (advmod, 变#VV, 这样#AD)  (advmod, 变#VV, 就成#AD)  (root, ROOT#null, 变#VV)  (relcl, 干了#NN, 独具#VV)  (dobj, 独具#VV, 风味#NN)  (mark, 独具#VV, 的#DEC)  (nn, 干了#NN, 萝卜#NN)  (dobj, 变#VV, 干了#NN)
+        </parsing>
+
+        <tag>
+            萝卜干制  进行  拔出洗净  萝卜洗净  曝晒后用  围实  压上大石块  取出晾晒  过滤煮开  倒入萝卜  挤去盐水  金黄色后  变为后  瓮内压实干净  独具干了  独具风味  萝卜干了  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/3c/0a/2620_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1265 萝卜干.jpg
+    </picturelocalurl>
+
+</content>

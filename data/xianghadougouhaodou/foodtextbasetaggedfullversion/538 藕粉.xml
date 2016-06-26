@@ -1,0 +1,316 @@
+<content>
+
+    <id>
+        538
+    </id>
+
+    <foodname>
+        藕粉
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        藕澄粉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肥胖者应少食。
+        </rawdata>
+
+        <segment>
+            肥胖者  应  少  食  。
+        </segment>
+
+        <pos>
+            肥胖者#NN  应#VV  少#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 少#VV, 肥胖者#NN)  (mmod, 少#VV, 应#VV)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            肥胖者应少食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜老幼妇孺、体弱多病者；高热病人、吐血者、高血压、肝病、食欲不振、缺铁性贫血、营养不良者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  老幼  妇孺  、  体弱多病  者  ；  高热  病人  、  吐血  者  、  高血压  、  肝病  、  食欲不振  、  缺  铁  性  贫血  、  营养  不良  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  老幼#NN  妇孺#NN  、#PU  体弱多病#VV  者#NN  ；#PU  高热#VV  病人#NN  、#PU  吐血#NN  者#NN  、#PU  高血压#NN  、#PU  肝病#NN  、#PU  食欲不振#NN  、#PU  缺#VV  铁#NN  性#NN  贫血#NN  、#PU  营养#VA  不良#JJ  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 妇孺#NN, 老幼#NN)  (dobj, 适宜#VV, 妇孺#NN)  (conj, 适宜#VV, 体弱多病#VV)  (dobj, 体弱多病#VV, 者#NN)  (conj, 适宜#VV, 高热#VV)  (conj, 食欲不振#NN, 病人#NN)  (nn, 食欲不振#NN, 吐血#NN)  (conj, 食欲不振#NN, 者#NN)  (conj, 食欲不振#NN, 高血压#NN)  (conj, 食欲不振#NN, 肝病#NN)  (dobj, 高热#VV, 食欲不振#NN)  (conj, 适宜#VV, 缺#VV)  (nn, 贫血#NN, 铁#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 缺#VV, 贫血#NN)  (conj, 适宜#VV, 营养#VA)  (amod, 者#NN, 不良#JJ)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  老幼妇孺  体弱多病者  高热病人  吐血者  高血压  肝病  食欲不振  缺铁性贫血  营养不良者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                372
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.01
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                10.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                17.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            藕粉，为睡莲种植物莲的肥厚根茎-藕加工制成的淀粉，是传统的滋养食品。
+        </rawdata>
+
+        <segment>
+            藕粉  ，  为  睡莲  种植  物莲  的  肥厚  根茎  -  藕加工  制成  的  淀粉  ，  是  传统  的  滋养  食品  。
+        </segment>
+
+        <pos>
+            藕粉#NN  ，#PU  为#P  睡莲#NN  种植#VV  物莲#NN  的#DEC  肥厚#NN  根茎#NN  -#VV  藕加工#AD  制成#VV  的#DEC  淀粉#NN  ，#PU  是#VC  传统#JJ  的#DEG  滋养#JJ  食品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, -#VV, 藕粉#NN)  (root, -#VV, 藕粉#NN)  (case, 睡莲#NN, 为#P)  (prep, 种植#VV, 睡莲#NN)  (relcl, 根茎#NN, 种植#VV)  (dobj, 种植#VV, 物莲#NN)  (mark, 种植#VV, 的#DEC)  (nn, 根茎#NN, 肥厚#NN)  (nsubj, 藕粉#NN, 根茎#NN)  (nsubj, -#VV, 根茎#NN)  (advmod, 制成#VV, 藕加工#AD)  (relcl, 淀粉#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (dobj, 藕粉#NN, 淀粉#NN)  (dobj, -#VV, 淀粉#NN)  (cop, 食品#NN, 是#VC)  (assmod, 食品#NN, 传统#JJ)  (case, 传统#JJ, 的#DEG)  (amod, 食品#NN, 滋养#JJ)  (conj, 藕粉#NN, 食品#NN)  (conj, -#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+            种植根茎  种植物莲  肥厚根茎  制成淀粉  滋养食品  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            性平，味甘咸；益血，止血，调中，开胃。治虚损失血，泻痢食少。
+            1.清热凉血
+            莲藕生用性寒，有清热凉血作用，可用来治疗热性病症。
+            2.通便止泻、健脾开胃
+            莲藕中含有黏液蛋白和膳食纤维，能与人体内胆酸盐，食物中的胆固醇及甘油三酯结合，使其从粪便中排出，从而减少脂类的吸收。莲藕散发出一种独特清香，还含有鞣质，有一定健脾止泻作用，能增进食欲，促进消化，开胃健中，有益于胃纳不佳，食欲不振者恢复健康。
+            3.益血生肌
+            莲藕的营养价值很高，富含铁、钙等微量元素，植物蛋白质、维生素以及淀粉含量也很丰富，有明显的补益气血，增强人体免疫力作用。故中医称其：“主补中养神，益气力”。
+            4.止血散瘀
+            藕含有大量的单宁酸，有收缩血管作用，可用来止血。藕还能凉血，散血，中医认为其止血而不留瘀，是热病血症的食疗佳品。
+        </rawdata>
+
+        <segment>
+            性平  ，  味甘咸  ；  益血  ，  止血  ，  调中  ，  开胃  。  治  虚损  失血  ，  泻痢  食  少  。
+            清热  凉  血
+            莲藕  生  用性  寒  ，  有  清热  凉  血  作用  ，  可  用来  治疗  热性  病症  。
+            通便  止泻  、  健脾  开胃
+            莲藕  中  含有  黏液  蛋白  和  膳食  纤维  ，  能  与  人体  内胆  酸盐  ，  食物  中  的  胆固醇  及  甘油  三  酯  结合  ，  使  其  从  粪便  中  排出  ，  从而  减少  脂类  的  吸收  。  莲藕  散发  出  一  种  独特  清香  ，  还  含有  鞣质  ，  有  一定  健脾  止泻  作用  ，  能  增进  食欲  ，  促进  消化  ，  开胃  健中  ，  有益于  胃纳  不佳  ，  食欲不振  者  恢复  健康  。
+            益血生肌
+            莲藕  的  营养  价值  很  高  ，  富  含铁  、  钙  等  微量  元素  ，  植物  蛋白质  、  维生素  以及  淀粉  含量  也  很  丰富  ，  有  明显  的  补益  气血  ，  增强  人体  免疫力  作用  。  故  中医  称  其  ：  “  主补  中  养神  ，  益气力  ”  。
+            止血  散瘀
+            藕  含有  大量  的  单宁酸  ，  有  收缩  血管  作用  ，  可  用来  止血  。  藕还  能  凉血  ，  散血  ，  中医  认为  其  止血  而  不留瘀  ，  是  热病  血症  的  食疗  佳品  。
+        </segment>
+
+        <pos>
+            性平#VV  ，#PU  味甘咸#VV  ；#PU  益血#NR  ，#PU  止血#VV  ，#PU  调中#NN  ，#PU  开胃#VV    。#PU  治#NN  虚损#NN  失血#VV  ，#PU  泻痢#NN  食#NN  少#VA    。#PU    。#PU
+            清热#NN  凉#VV  血#NN
+            莲藕#NN  生#VV  用性#NN  寒#JJ  ，#PU  有#VE  清热#NN  凉#NN  血#NN  作用#NN  ，#PU  可#VV  用来#AD  治疗#VV  热性#NN  病症#NN  。#PU
+            通便#NR  止泻#NN  、#PU  健脾#NN  开胃#NN
+            莲藕#NN  中#LC  含有#AD  黏液#VV  蛋白#NN  和#CC  膳食#NN  纤维#NN  ，#PU  能#VV  与#P  人体#NN  内胆#NN  酸盐#NN  ，#PU  食物#NN  中#LC  的#DEG  胆固醇#NN  及#CC  甘油#NR  三#CD  酯#NN  结合#VV  ，#PU  使#VV  其#PN  从#P  粪便#NN  中#LC  排出#VV  ，#PU  从而#AD  减少#VV  脂类#NN  的#DEG  吸收#NN    。#PU  莲藕#AD  散发#VV  出#VV  一#CD  种#M  独特#JJ  清香#NN  ，#PU  还#AD  含有#VV  鞣质#NN  ，#PU  有#VE  一定#JJ  健脾#NN  止泻#JJ  作用#NN  ，#PU  能#VV  增进#VV  食欲#NN  ，#PU  促进#VV  消化#NN  ，#PU  开胃#VV  健中#NN  ，#PU  有益于#VV  胃纳#NN  不佳#NN  ，#PU  食欲不振#VV  者#NN  恢复#VV  健康#VA    。#PU    。#PU
+            益血生肌#VV
+            莲藕#NN  的#DEG  营养#VA  价值#NN  很#AD  高#VA  ，#PU  富#VV  含铁#NR  、#PU  钙#NR  等#ETC  微量#JJ  元素#NN  ，#PU  植物#NN  蛋白质#NN  、#PU  维生素#NN  以及#CC  淀粉#NN  含量#NN  也#AD  很#AD  丰富#VA  ，#PU  有#VE  明显#VA  的#DEC  补益#NN  气血#NN  ，#PU  增强#VV  人体#NN  免疫力#NN  作用#NN    。#PU  故#AD  中医#NN  称#VV  其#PN  ：#PU  ``#NN  主补#NN  中#LC  养神#VV  ，#PU  益气力#VV  ''#NN    。#PU    。#PU
+            止血#NN  散瘀#VV
+            藕#AD  含有#VV  大量#CD  的#DEG  单宁酸#NN  ，#PU  有#VE  收缩#NN  血管#NN  作用#NN  ，#PU  可#VV  用来#VV  止血#NN    。#PU  藕还#NR  能#VV  凉血#VV  ，#PU  散血#VV  ，#PU  中医#NN  认为#VV  其#PN  止血#NN  而#CC  不留瘀#NN  ，#PU  是#VC  热病#NN  血症#NN  的#DEG  食疗#NN  佳品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 性平#VV)  (ccomp, 性平#VV, 味甘咸#VV)  (nsubj, 止血#VV, 益血#NR)  (ccomp, 味甘咸#VV, 止血#VV)  (nsubj, 开胃#VV, 调中#NN)  (ccomp, 止血#VV, 开胃#VV)   (nn, 虚损#NN, 治#NN)  (nsubj, 失血#VV, 虚损#NN)  (root, ROOT#null, 失血#VV)  (nn, 食#NN, 泻痢#NN)  (nsubj, 少#VA, 食#NN)  (ccomp, 失血#VV, 少#VA)   (root, ROOT#null, null#null)
+            (nsubj, 凉#VV, 清热#NN)  (root, ROOT#null, 凉#VV)  (dobj, 凉#VV, 血#NN)
+            (nsubj, 生#VV, 莲藕#NN)  (root, ROOT#null, 生#VV)  (dobj, 生#VV, 用性#NN)  (conj, 生#VV, 寒#JJ)  (conj, 生#VV, 有#VE)  (nn, 作用#NN, 清热#NN)  (nn, 作用#NN, 凉#NN)  (nn, 作用#NN, 血#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 治疗#VV, 可#VV)  (advmod, 治疗#VV, 用来#AD)  (conj, 生#VV, 治疗#VV)  (nn, 病症#NN, 热性#NN)  (dobj, 治疗#VV, 病症#NN)
+            (nn, 开胃#NN, 通便#NR)  (conj, 开胃#NN, 止泻#NN)  (nn, 开胃#NN, 健脾#NN)  (root, ROOT#null, 开胃#NN)
+            (loc, 黏液#VV, 莲藕#NN)  (case, 莲藕#NN, 中#LC)  (advmod, 黏液#VV, 含有#AD)  (root, ROOT#null, 黏液#VV)  (conj, 膳食#NN, 蛋白#NN)  (cc, 膳食#NN, 和#CC)  (nn, 纤维#NN, 膳食#NN)  (dobj, 黏液#VV, 纤维#NN)  (conj, 黏液#VV, 能#VV)  (case, 酸盐#NN, 与#P)  (nn, 酸盐#NN, 人体#NN)  (nn, 酸盐#NN, 内胆#NN)  (prep, 结合#VV, 酸盐#NN)  (assmod, 胆固醇#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (conj, 酯#NN, 胆固醇#NN)  (cc, 酯#NN, 及#CC)  (nn, 酯#NN, 甘油#NR)  (nummod, 酯#NN, 三#CD)  (nsubj, 结合#VV, 酯#NN)  (dep, 黏液#VV, 结合#VV)  (dep, 结合#VV, 使#VV)  (dobj, 使#VV, 其#PN)  (case, 粪便#NN, 从#P)  (prep, 排出#VV, 粪便#NN)  (case, 粪便#NN, 中#LC)  (dep, 使#VV, 排出#VV)  (advmod, 减少#VV, 从而#AD)  (dep, 排出#VV, 减少#VV)  (assmod, 吸收#NN, 脂类#NN)  (case, 脂类#NN, 的#DEG)  (dobj, 减少#VV, 吸收#NN)   (advmod, 散发#VV, 莲藕#AD)  (root, ROOT#null, 散发#VV)  (rcomp, 散发#VV, 出#VV)  (nummod, 种#M, 一#CD)  (clf, 清香#NN, 种#M)  (amod, 清香#NN, 独特#JJ)  (dobj, 散发#VV, 清香#NN)  (advmod, 含有#VV, 还#AD)  (conj, 散发#VV, 含有#VV)  (dobj, 含有#VV, 鞣质#NN)  (dep, 散发#VV, 有#VE)  (amod, 健脾#NN, 一定#JJ)  (nn, 作用#NN, 健脾#NN)  (amod, 作用#NN, 止泻#JJ)  (dobj, 有#VE, 作用#NN)  (mmod, 增进#VV, 能#VV)  (conj, 散发#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (conj, 增进#VV, 促进#VV)  (dobj, 促进#VV, 消化#NN)  (conj, 增进#VV, 开胃#VV)  (dobj, 开胃#VV, 健中#NN)  (conj, 增进#VV, 有益于#VV)  (nn, 不佳#NN, 胃纳#NN)  (dobj, 有益于#VV, 不佳#NN)  (conj, 散发#VV, 食欲不振#VV)  (dobj, 食欲不振#VV, 者#NN)  (conj, 食欲不振#VV, 恢复#VV)  (conj, 食欲不振#VV, 健康#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 益血生肌#VV)
+            (assmod, 价值#NN, 莲藕#NN)  (case, 莲藕#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 富#VV)  (conj, 钙#NR, 含铁#NR)  (nn, 元素#NN, 钙#NR)  (etc, 钙#NR, 等#ETC)  (amod, 元素#NN, 微量#JJ)  (dobj, 富#VV, 元素#NN)  (nn, 淀粉#NN, 植物#NN)  (conj, 淀粉#NN, 蛋白质#NN)  (conj, 淀粉#NN, 维生素#NN)  (cc, 淀粉#NN, 以及#CC)  (nn, 含量#NN, 淀粉#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (conj, 高#VA, 丰富#VA)  (conj, 丰富#VA, 有#VE)  (relcl, 气血#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 气血#NN, 补益#NN)  (dobj, 有#VE, 气血#NN)  (conj, 丰富#VA, 增强#VV)  (nn, 作用#NN, 人体#NN)  (nn, 作用#NN, 免疫力#NN)  (dobj, 增强#VV, 作用#NN)   (advmod, 称#VV, 故#AD)  (nsubj, 称#VV, 中医#NN)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 其#PN)  (nn, 主补#NN, ``#NN)  (loc, 养神#VV, 主补#NN)  (case, 主补#NN, 中#LC)  (conj, 称#VV, 养神#VV)  (ccomp, 养神#VV, 益气力#VV)  (dobj, 益气力#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nsubj, 散瘀#VV, 止血#NN)  (root, ROOT#null, 散瘀#VV)
+            (advmod, 含有#VV, 藕#AD)  (root, ROOT#null, 含有#VV)  (assmod, 单宁酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 单宁酸#NN)  (dep, 含有#VV, 有#VE)  (nn, 作用#NN, 收缩#NN)  (nn, 作用#NN, 血管#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 用来#VV, 可#VV)  (conj, 含有#VV, 用来#VV)  (dobj, 用来#VV, 止血#NN)   (nsubj, 凉血#VV, 藕还#NR)  (mmod, 凉血#VV, 能#VV)  (root, ROOT#null, 凉血#VV)  (ccomp, 凉血#VV, 散血#VV)  (nsubj, 认为#VV, 中医#NN)  (ccomp, 散血#VV, 认为#VV)  (nn, 不留瘀#NN, 其#PN)  (conj, 不留瘀#NN, 止血#NN)  (cc, 不留瘀#NN, 而#CC)  (dep, 佳品#NN, 不留瘀#NN)  (cop, 佳品#NN, 是#VC)  (nn, 血症#NN, 热病#NN)  (assmod, 佳品#NN, 血症#NN)  (case, 血症#NN, 的#DEG)  (nn, 佳品#NN, 食疗#NN)  (ccomp, 认为#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+            性平  失血  热性病症  治疗病症  止泻  健脾开胃  膳食纤维  黏液纤维  人体酸盐  内胆酸盐  胆固醇  减少吸收  独特清香  散发清香  含有鞣质  一定健脾  增进食欲  促进消化  开胃健中  胃纳不佳  有益于不佳  食欲不振者  植物淀粉  蛋白质  维生素  气血明显  补益气血  散瘀  含有单宁酸  用来止血  凉血  不留瘀  热病血症  食疗佳品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  抗癌防癌  和胃  利水消肿  明目  抗辐射  通便
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            为了使藕粉变得稠，最好先加少量温水将藕粉化开,然后再搅匀加入滚烫的开水（记住，一定要滚烫的）一边加一边搅拌，藕粉的颜色会随着开水的加入而迅速改变，最后变成淡赫色透明的胶状，像玛瑙冻冻。
+        </rawdata>
+
+        <segment>
+            为了  使  藕粉  变得  稠  ，  最好  先  加  少量  温水  将  藕粉  化开  ,  然后  再  搅匀  加入  滚烫  的  开水  （  记住  ，  一定  要  滚烫  的  ）  一边  加  一边  搅拌  ，  藕粉  的  颜色  会  随着  开水  的  加入  而  迅速  改变  ，  最后  变成  淡赫  色  透明  的  胶状  ，  像  玛瑙冻冻  。
+        </segment>
+
+        <pos>
+            为了#P  使#VV  藕粉#NN  变得#VV  稠#NN  ，#PU  最好#JJ  先#NN  加#CC  少量#CD  温水#NN  将#BA  藕粉#NN  化开#NN  ,#NN  然后#AD  再#AD  搅匀#VV  加入#VV  滚烫#VA  的#DEC  开水#NN  （#PU  记住#VV  ，#PU  一定#AD  要#VV  滚烫#VA  的#DEC  ）#PU  一边#CD  加#CC  一边#CD  搅拌#NN  ，#PU  藕粉#NR  的#DEG  颜色#NN  会#VV  随着#P  开水#NR  的#DEC  加入#VV  而#MSP  迅速#AD  改变#VV  ，#PU  最后#AD  变成#VV  淡赫#NN  色#NN  透明#VA  的#DEC  胶状#NN  ，#PU  像#VV  玛瑙冻冻#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 使#VV, 为了#P)  (prep, 搅匀#VV, 使#VV)  (dobj, 使#VV, 藕粉#NN)  (dep, 使#VV, 变得#VV)  (dobj, 变得#VV, 稠#NN)  (amod, 先#NN, 最好#JJ)  (conj, 温水#NN, 先#NN)  (cc, 温水#NN, 加#CC)  (nummod, 温水#NN, 少量#CD)  (nsubj, 搅匀#VV, 温水#NN)  (ba, 搅匀#VV, 将#BA)  (nn, ,#NN, 藕粉#NN)  (nn, ,#NN, 化开#NN)  (advmod, 搅匀#VV, 然后#AD)  (advmod, 搅匀#VV, 再#AD)  (root, ROOT#null, 搅匀#VV)  (nfincl, 搅拌#NN, 加入#VV)  (relcl, 开水#NN, 滚烫#VA)  (mark, 滚烫#VA, 的#DEC)  (dobj, 加入#VV, 开水#NN)  (dep, 加入#VV, 记住#VV)  (advmod, 要#VV, 一定#AD)  (dep, 滚烫#VA, 要#VV)  (ccomp, 记住#VV, 滚烫#VA)  (mark, 记住#VV, 的#DEC)  (nummod, 一边#CD, 一边#CD)  (cc, 一边#CD, 加#CC)  (nummod, 搅拌#NN, 一边#CD)  (dobj, 搅匀#VV, 搅拌#NN)  (assmod, 颜色#NN, 藕粉#NR)  (case, 藕粉#NR, 的#DEG)  (nsubj, 会#VV, 颜色#NN)  (nsubj, 加入#VV, 会#VV)  (case, 开水#NR, 随着#P)  (prep, 会#VV, 开水#NR)  (mark, 会#VV, 的#DEC)  (conj, 搅匀#VV, 加入#VV)  (dep, 改变#VV, 而#MSP)  (advmod, 改变#VV, 迅速#AD)  (dobj, 加入#VV, 改变#VV)  (advmod, 变成#VV, 最后#AD)  (dep, 改变#VV, 变成#VV)  (nn, 色#NN, 淡赫#NN)  (nsubj, 透明#VA, 色#NN)  (relcl, 胶状#NN, 透明#VA)  (mark, 透明#VA, 的#DEC)  (dobj, 变成#VV, 胶状#NN)  (dep, 变成#VV, 像#VV)  (dobj, 像#VV, 玛瑙冻冻#NN)
+        </parsing>
+
+        <tag>
+            变得稠  最好先  开水滚烫  加入开水  搅匀搅拌  色透明  胶状透明  变成胶状  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/919825.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\538 藕粉.jpg
+    </picturelocalurl>
+
+</content>

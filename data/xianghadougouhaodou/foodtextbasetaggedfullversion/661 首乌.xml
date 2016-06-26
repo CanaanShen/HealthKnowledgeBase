@@ -1,0 +1,180 @@
+<content>
+
+    <id>
+        661
+    </id>
+
+    <foodname>
+        首乌
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        药材类
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                35.25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                1.83
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                1.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                4.38
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维素(克)
+            </elename>
+            <elevalue>
+                0.41
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            有赤白之分，药用为赤首乌的块根。茎长可达3米以上，多缠绕在其它植物上，状如人形，可促进毛发生长的功效，故称何首乌。
+        </rawdata>
+
+        <segment>
+            有  赤白  之  分  ，  药用  为  赤  首  乌  的  块根  。  茎长  可  达  3  米  以上  ，  多  缠绕  在  其它  植物  上  ，  状如  人形  ，  可  促进  毛发  生长  的  功效  ，  故称  何首乌  。
+        </segment>
+
+        <pos>
+            有#VE  赤白#NN  之#PN  分#VV  ，#PU  药用#NN  为#VC  赤#CD  首#M  乌#NR  的#DEG  块根#NN    。#PU  茎长#NN  可#VV  达#VV  3#CD  米#M  以上#LC  ，#PU  多#AD  缠绕#VV  在#P  其它#DT  植物#NN  上#LC  ，#PU  状如#VV  人形#NN  ，#PU  可#VV  促进#VV  毛发#NN  生长#NN  的#DEG  功效#NN  ，#PU  故称#VV  何首乌#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 有#VE)  (dobj, 有#VE, 赤白#NN)  (nsubj, 分#VV, 之#PN)  (dep, 有#VE, 分#VV)  (nsubj, 块根#NN, 药用#NN)  (cop, 块根#NN, 为#VC)  (nummod, 首#M, 赤#CD)  (clf, 块根#NN, 首#M)  (assmod, 块根#NN, 乌#NR)  (case, 乌#NR, 的#DEG)  (conj, 分#VV, 块根#NN)   (nsubj, 达#VV, 茎长#NN)  (mmod, 达#VV, 可#VV)  (root, ROOT#null, 达#VV)  (nummod, 米#M, 3#CD)  (loc, 达#VV, 米#M)  (case, 米#M, 以上#LC)  (advmod, 缠绕#VV, 多#AD)  (conj, 达#VV, 缠绕#VV)  (case, 植物#NN, 在#P)  (det, 植物#NN, 其它#DT)  (prep, 缠绕#VV, 植物#NN)  (case, 植物#NN, 上#LC)  (conj, 达#VV, 状如#VV)  (dobj, 状如#VV, 人形#NN)  (mmod, 促进#VV, 可#VV)  (conj, 达#VV, 促进#VV)  (nn, 生长#NN, 毛发#NN)  (assmod, 功效#NN, 生长#NN)  (case, 生长#NN, 的#DEG)  (dobj, 促进#VV, 功效#NN)  (conj, 达#VV, 故称#VV)  (dobj, 故称#VV, 何首乌#NN)
+        </parsing>
+
+        <tag>
+            状如人形  毛发生长  促进功效  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            养血益肝
+            ；固精益肾
+            ；健筋骨
+            ；乌须发。
+        </rawdata>
+
+        <segment>
+            养  血  益肝
+            ；  固  精益肾
+            ；  健  筋骨
+            ；  乌  须发  。
+        </segment>
+
+        <pos>
+            养#VV  血#NN  益肝#NN
+            ；#NR  固#NN  精益肾#NR
+            ；#NR  健#NN  筋骨#NR
+            ；#NR  乌#NR  须发#VA  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 养#VV)  (nn, 益肝#NN, 血#NN)  (dobj, 养#VV, 益肝#NN)
+            (root, ROOT#null, 固#NN)  (dep, 固#NN, 精益肾#NR)
+            (root, ROOT#null, 健#NN)  (dep, 健#NN, 筋骨#NR)
+            (nsubj, 须发#VA, 乌#NR)  (root, ROOT#null, 须发#VA)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            何首乌含有大黄酚、大黄素、大黄酸、大黄素甲醚、脂肪油、淀粉、糖类、土大黄甙、卵磷脂等有效成分。
+        </rawdata>
+
+        <segment>
+            何首乌  含有  大黄酚  、  大黄素  、  大黄  酸  、  大黄素  甲醚  、  脂肪  油  、  淀粉  、  糖类  、  土大黄甙  、  卵磷脂  等  有效  成分  。
+        </segment>
+
+        <pos>
+            何首乌#NN  含有#VV  大黄酚#NR  、#PU  大黄素#NR  、#PU  大黄#NR  酸#NR  、#PU  大黄素#NR  甲醚#NR  、#PU  脂肪#NR  油#NN  、#PU  淀粉#NR  、#PU  糖类#NR  、#PU  土大黄甙#NR  、#PU  卵磷脂#NR  等#ETC  有效#JJ  成分#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 何首乌#NN)  (root, ROOT#null, 含有#VV)  (conj, 脂肪#NR, 大黄酚#NR)  (conj, 脂肪#NR, 大黄素#NR)  (nn, 脂肪#NR, 大黄#NR)  (conj, 脂肪#NR, 酸#NR)  (nn, 脂肪#NR, 大黄素#NR)  (conj, 脂肪#NR, 甲醚#NR)  (nn, 油#NN, 脂肪#NR)  (conj, 成分#NN, 油#NN)  (conj, 卵磷脂#NR, 淀粉#NR)  (conj, 卵磷脂#NR, 糖类#NR)  (conj, 卵磷脂#NR, 土大黄甙#NR)  (nn, 成分#NN, 卵磷脂#NR)  (etc, 卵磷脂#NR, 等#ETC)  (amod, 成分#NN, 有效#JJ)  (dobj, 含有#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+            含有  脂肪  大黄酚  大黄素  甲醚  卵磷脂  淀粉  糖类  土大黄甙  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374474452.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\661 首乌.jpg
+    </picturelocalurl>
+
+</content>

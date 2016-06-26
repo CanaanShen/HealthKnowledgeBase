@@ -1,0 +1,336 @@
+<content>
+
+    <id>
+        508
+    </id>
+
+    <foodname>
+        番茄酱
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        调味料
+    </secondcategory>
+
+    <alias>
+        茄汁
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肠炎患者忌食。
+        </rawdata>
+
+        <segment>
+            肠炎  患者  忌食  。
+        </segment>
+
+        <pos>
+            肠炎#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肠炎#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 肠炎#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            肠炎  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                81
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                4.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                5.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                4.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                117
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                989
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                37.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                75.8
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            番茄酱是鲜番茄的酱状浓缩制品。呈鲜红色酱体，具番茄的特有风味，是一种富有特色的调味品，一般不直接入口。番茄酱由成熟红番茄经破碎、打浆、去除皮和籽等粗硬物质后，经浓缩、装罐、杀菌而成。番茄酱常用作鱼、肉等食物的烹饪佐料，是增色、添酸、助鲜、郁香的调味佳品。番茄酱的运用，是形成港粤菜风味特色的一个重要调味内容。
+        </rawdata>
+
+        <segment>
+            番茄酱  是  鲜  番茄  的  酱状  浓缩  制品  。  呈  鲜红  色  酱体  ，  具  番茄  的  特有  风味  ，  是  一  种  富有  特色  的  调味品  ，  一般  不  直接  入口  。  番茄酱  由  成熟  红  番茄  经  破碎  、  打浆  、  去  除皮  和  籽等  粗硬  物质  后  ，  经  浓缩  、  装罐  、  杀菌  而  成  。  番茄酱  常用  作鱼  、  肉  等  食物  的  烹饪  佐料  ，  是  增色  、  添  酸  、  助鲜  、  郁香  的  调味  佳品  。  番茄酱  的  运用  ，  是  形成  港  粤菜  风味  特色  的  一  个  重要  调味  内容  。
+        </segment>
+
+        <pos>
+            番茄酱#NN  是#VC  鲜#VV  番茄#NN  的#DEC  酱状#NN  浓缩#NN  制品#NN    。#PU  呈#VV  鲜红#VV  色#NN  酱体#NN  ，#PU  具#VV  番茄#NN  的#DEC  特有#JJ  风味#NN  ，#PU  是#VC  一#CD  种#M  富有#VV  特色#NN  的#DEC  调味品#NN  ，#PU  一般#AD  不#AD  直接#AD  入口#VV    。#PU  番茄酱#NN  由#P  成熟#VA  红#JJ  番茄#NN  经#P  破碎#VA  、#PU  打浆#VA  、#PU  去#VV  除皮#NN  和#CC  籽等#NN  粗硬#VV  物质#NN  后#LC  ，#PU  经#P  浓缩#NR  、#PU  装罐#NR  、#PU  杀菌#NR  而#MSP  成#VV    。#PU  番茄酱#NR  常用#JJ  作鱼#NN  、#PU  肉#NN  等#ETC  食物#NN  的#DEG  烹饪#NN  佐料#VV  ，#PU  是#VC  增色#NR  、#PU  添#NR  酸#NR  、#PU  助鲜#NR  、#PU  郁香#NR  的#DEG  调味#NN  佳品#NN    。#PU  番茄酱#NN  的#DEG  运用#NN  ，#PU  是#VC  形成#VV  港#NR  粤菜#NN  风味#NN  特色#NN  的#DEC  一#CD  个#M  重要#JJ  调味#JJ  内容#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 制品#NN, 番茄酱#NN)  (cop, 制品#NN, 是#VC)  (relcl, 制品#NN, 鲜#VV)  (dobj, 鲜#VV, 番茄#NN)  (mark, 鲜#VV, 的#DEC)  (nn, 制品#NN, 酱状#NN)  (nn, 制品#NN, 浓缩#NN)  (root, ROOT#null, 制品#NN)   (root, ROOT#null, 呈#VV)  (relcl, 风味#NN, 鲜红#VV)  (nn, 酱体#NN, 色#NN)  (dobj, 鲜红#VV, 酱体#NN)  (conj, 鲜红#VV, 具#VV)  (dobj, 具#VV, 番茄#NN)  (mark, 鲜红#VV, 的#DEC)  (amod, 风味#NN, 特有#JJ)  (dobj, 呈#VV, 风味#NN)  (cop, 调味品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 调味品#NN, 种#M)  (relcl, 调味品#NN, 富有#VV)  (dobj, 富有#VV, 特色#NN)  (mark, 富有#VV, 的#DEC)  (conj, 呈#VV, 调味品#NN)  (advmod, 入口#VV, 一般#AD)  (neg, 入口#VV, 不#AD)  (advmod, 入口#VV, 直接#AD)  (conj, 呈#VV, 入口#VV)   (nsubj, 粗硬#VV, 番茄酱#NN)  (case, 番茄#NN, 由#P)  (nfincl, 番茄#NN, 成熟#VA)  (amod, 番茄#NN, 红#JJ)  (prep, 粗硬#VV, 番茄#NN)  (case, 破碎#VA, 经#P)  (prep, 粗硬#VV, 破碎#VA)  (dep, 破碎#VA, 打浆#VA)  (dep, 破碎#VA, 去#VV)  (conj, 籽等#NN, 除皮#NN)  (cc, 籽等#NN, 和#CC)  (dobj, 去#VV, 籽等#NN)  (root, ROOT#null, 粗硬#VV)  (loc, 粗硬#VV, 物质#NN)  (case, 物质#NN, 后#LC)  (case, 杀菌#NR, 经#P)  (conj, 杀菌#NR, 浓缩#NR)  (conj, 杀菌#NR, 装罐#NR)  (prep, 成#VV, 杀菌#NR)  (prtmod, 成#VV, 而#MSP)  (dep, 粗硬#VV, 成#VV)   (nn, 作鱼#NN, 番茄酱#NR)  (amod, 作鱼#NN, 常用#JJ)  (conj, 肉#NN, 作鱼#NN)  (nn, 食物#NN, 肉#NN)  (etc, 肉#NN, 等#ETC)  (assmod, 烹饪#NN, 食物#NN)  (case, 食物#NN, 的#DEG)  (nsubj, 佐料#VV, 烹饪#NN)  (root, ROOT#null, 佐料#VV)  (cop, 佳品#NN, 是#VC)  (conj, 添#NR, 增色#NR)  (nn, 郁香#NR, 添#NR)  (conj, 郁香#NR, 酸#NR)  (conj, 郁香#NR, 助鲜#NR)  (assmod, 佳品#NN, 郁香#NR)  (case, 郁香#NR, 的#DEG)  (nn, 佳品#NN, 调味#NN)  (ccomp, 佐料#VV, 佳品#NN)   (assmod, 运用#NN, 番茄酱#NN)  (case, 番茄酱#NN, 的#DEG)  (dep, 内容#NN, 运用#NN)  (cop, 内容#NN, 是#VC)  (relcl, 内容#NN, 形成#VV)  (nn, 风味#NN, 港#NR)  (nn, 风味#NN, 粤菜#NN)  (nn, 特色#NN, 风味#NN)  (dobj, 形成#VV, 特色#NN)  (mark, 形成#VV, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 内容#NN, 个#M)  (amod, 内容#NN, 重要#JJ)  (amod, 内容#NN, 调味#JJ)  (root, ROOT#null, 内容#NN)
+        </parsing>
+
+        <tag>
+            鲜制品  酱状制品  浓缩制品  鲜红风味  鲜红酱体  特有风味  富有调味品  富有特色  红番茄  籽等  除皮  粗硬  杀菌  装罐  常用作鱼  佐料  郁香  助鲜  调味佳品  形成内容  粤菜风味  风味特色  形成特色  调味内容  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.抑制癌症
+            番茄红素对于一些类型的癌有预防效果，对乳癌、肺癌、子宫内膜癌具有抑制作用，亦可对抗肺癌和结肠癌。
+            2.抗衰老
+            番茄的番茄红素有利尿及抑制细菌生长的功效，是优良的抗氧化剂，能清除人体内的自由基，抗癌效果是β-胡萝卜素的2倍。
+            3.促进食欲
+            番茄酱味道酸甜可口，可增进食欲，番茄红素在含有脂肪的状态下更易被人体吸收。
+        </rawdata>
+
+        <segment>
+            抑制  癌症
+            番茄红素  对于  一些  类型  的  癌有  预防  效果  ，  对  乳癌  、  肺癌  、  子宫内膜癌  具有  抑制  作用  ，  亦  可  对抗  肺癌  和  结肠癌  。
+            抗  衰老
+            番茄  的  番茄红素  有  利尿  及  抑制  细菌  生长  的  功效  ，  是  优良  的  抗氧化剂  ，  能  清除  人体  内  的  自由基  ，  抗癌  效果  是  β  -  胡萝卜素  的  2  倍  。
+            促进  食欲
+            番茄酱  味道  酸甜  可口  ，  可  增进  食欲  ，  番茄红素  在  含有  脂肪  的  状态  下  更  易  被  人体  吸收  。
+        </segment>
+
+        <pos>
+            抑制#VV  癌症#NN
+            番茄红素#NN  对于#P  一些#CD  类型#NN  的#DEG  癌有#NN  预防#VV  效果#NN  ，#PU  对#P  乳癌#NR  、#PU  肺癌#NR  、#PU  子宫内膜癌#NR  具有#VV  抑制#NN  作用#NN  ，#PU  亦#AD  可#VV  对抗#VV  肺癌#NN  和#CC  结肠癌#NN  。#PU
+            抗#NN  衰老#VV
+            番茄#NN  的#DEG  番茄红素#NN  有#VE  利尿#NN  及#CC  抑制#VV  细菌#NN  生长#NN  的#DEC  功效#NN  ，#PU  是#VC  优良#VA  的#DEC  抗氧化剂#NN  ，#PU  能#VV  清除#VV  人体#NN  内#LC  的#DEG  自由基#NN  ，#PU  抗癌#NN  效果#NN  是#VC  β#NN  -#NN  胡萝卜素#NN  的#DEG  2#CD  倍#M  。#PU
+            促进#VV  食欲#NN
+            番茄酱#NN  味道#NN  酸甜#NN  可口#VV  ，#PU  可#VV  增进#VV  食欲#NN  ，#PU  番茄红素#AD  在#P  含有#NN  脂肪#NN  的#DEG  状态#NN  下#LC  更#AD  易#VA  被#SB  人体#VV  吸收#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 抑制#VV)  (dobj, 抑制#VV, 癌症#NN)
+            (nsubj, 预防#VV, 番茄红素#NN)  (case, 癌有#NN, 对于#P)  (nummod, 类型#NN, 一些#CD)  (assmod, 癌有#NN, 类型#NN)  (case, 类型#NN, 的#DEG)  (prep, 预防#VV, 癌有#NN)  (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 效果#NN)  (case, 子宫内膜癌#NR, 对#P)  (conj, 子宫内膜癌#NR, 乳癌#NR)  (conj, 子宫内膜癌#NR, 肺癌#NR)  (prep, 具有#VV, 子宫内膜癌#NR)  (dep, 预防#VV, 具有#VV)  (nn, 作用#NN, 抑制#NN)  (dobj, 具有#VV, 作用#NN)  (advmod, 对抗#VV, 亦#AD)  (mmod, 对抗#VV, 可#VV)  (dep, 预防#VV, 对抗#VV)  (conj, 结肠癌#NN, 肺癌#NN)  (cc, 结肠癌#NN, 和#CC)  (dobj, 对抗#VV, 结肠癌#NN)
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (assmod, 番茄红素#NN, 番茄#NN)  (case, 番茄#NN, 的#DEG)  (nsubj, 有#VE, 番茄红素#NN)  (root, ROOT#null, 有#VE)  (conj, 功效#NN, 利尿#NN)  (cc, 功效#NN, 及#CC)  (relcl, 功效#NN, 抑制#VV)  (nn, 生长#NN, 细菌#NN)  (dobj, 抑制#VV, 生长#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)  (cop, 抗氧化剂#NN, 是#VC)  (relcl, 抗氧化剂#NN, 优良#VA)  (mark, 优良#VA, 的#DEC)  (conj, 有#VE, 抗氧化剂#NN)  (mmod, 清除#VV, 能#VV)  (conj, 有#VE, 清除#VV)  (assmod, 自由基#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (dobj, 清除#VV, 自由基#NN)  (nn, 效果#NN, 抗癌#NN)  (nsubj, 是#VC, 效果#NN)  (conj, 有#VE, 是#VC)  (nn, 胡萝卜素#NN, β#NN)  (assmod, 倍#M, 胡萝卜素#NN)  (case, 胡萝卜素#NN, 的#DEG)  (nummod, 倍#M, 2#CD)  (dep, 是#VC, 倍#M)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 食欲#NN)
+            (nn, 酸甜#NN, 番茄酱#NN)  (nn, 酸甜#NN, 味道#NN)  (nsubj, 可口#VV, 酸甜#NN)  (xsubj, 增进#VV, 酸甜#NN)  (root, ROOT#null, 可口#VV)  (mmod, 增进#VV, 可#VV)  (ccomp, 可口#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (advmod, 易#VA, 番茄红素#AD)  (case, 状态#NN, 在#P)  (nn, 脂肪#NN, 含有#NN)  (assmod, 状态#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (prep, 易#VA, 状态#NN)  (case, 状态#NN, 下#LC)  (advmod, 易#VA, 更#AD)  (dep, 增进#VV, 易#VA)  (auxpass, 人体#VV, 被#SB)  (dep, 可口#VV, 人体#VV)  (dep, 可口#VV, 吸收#VV)
+        </parsing>
+
+        <tag>
+            抑制癌症  预防效果  子宫内膜癌  乳癌  肺癌  对抗结肠癌  衰老  番茄红素  利尿  抑制功效  细菌生长  抑制生长  抗氧化剂优良  清除自由基  抗癌效果  促进食欲  味道酸甜  可口  增进食欲  含有脂肪  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热解毒  辅助降血脂
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            番茄酱中除了茄红素外还有维生素B群、膳食纤维、矿物质、蛋白质及天然果胶等，比起新鲜番茄来，番茄酱里的营养成分更容易被人体吸收。
+        </rawdata>
+
+        <segment>
+            番茄酱  中  除了  茄红  素  外  还  有  维生素  B  群  、  膳食  纤维  、  矿物质  、  蛋白质  及  天然  果胶  等  ，  比起  新鲜  番茄  来  ，  番茄酱  里  的  营养  成分  更  容易  被  人体  吸收  。
+        </segment>
+
+        <pos>
+            番茄酱#NN  中#LC  除了#P  茄红#VV  素#AD  外#LC  还#AD  有#VE  维生素#NN  B#CD  群#M  、#PU  膳食#NN  纤维#NN  、#PU  矿物质#NN  、#PU  蛋白质#NN  及#CC  天然#JJ  果胶#NN  等#ETC  ，#PU  比起#VV  新鲜#JJ  番茄#NN  来#LC  ，#PU  番茄酱#NN  里#LC  的#DEG  营养#VA  成分#NN  更#AD  容易#VA  被#LB  人体#NR  吸收#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 有#VE, 番茄酱#NN)  (case, 番茄酱#NN, 中#LC)  (case, 茄红#VV, 除了#P)  (prep, 有#VE, 茄红#VV)  (advmod, 茄红#VV, 素#AD)  (case, 茄红#VV, 外#LC)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (conj, 果胶#NN, 维生素#NN)  (nummod, 群#M, B#CD)  (dep, 维生素#NN, 群#M)  (nn, 纤维#NN, 膳食#NN)  (conj, 果胶#NN, 纤维#NN)  (conj, 果胶#NN, 矿物质#NN)  (conj, 果胶#NN, 蛋白质#NN)  (cc, 果胶#NN, 及#CC)  (amod, 果胶#NN, 天然#JJ)  (dobj, 有#VE, 果胶#NN)  (etc, 果胶#NN, 等#ETC)  (loc, 被#LB, 比起#VV)  (amod, 番茄#NN, 新鲜#JJ)  (dobj, 比起#VV, 番茄#NN)  (case, 比起#VV, 来#LC)  (assmod, 成分#NN, 番茄酱#NN)  (case, 番茄酱#NN, 里#LC)  (case, 番茄酱#NN, 的#DEG)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 容易#VA, 成分#NN)  (advmod, 容易#VA, 更#AD)  (dep, 被#LB, 容易#VA)  (conj, 有#VE, 被#LB)  (nsubj, 吸收#VV, 人体#NR)  (dep, 被#LB, 吸收#VV)
+        </parsing>
+
+        <tag>
+            维生素  膳食纤维  矿物质  蛋白质  天然果胶  新鲜番茄  比起番茄  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201209/1913623.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\508 番茄酱.jpg
+    </picturelocalurl>
+
+</content>

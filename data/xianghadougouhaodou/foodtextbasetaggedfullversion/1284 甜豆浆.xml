@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1284
+    </id>
+
+    <foodname>
+        甜豆浆
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        豆奶、豆乳
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            忌喝未煮熟的豆浆,忌在豆浆里打鸡蛋,忌冲红糖,忌与药物同饮
+        </rawdata>
+
+        <segment>
+            忌喝  未  煮熟  的  豆浆  ,  忌在  豆浆  里  打  鸡蛋  ,  忌冲  红糖  ,  忌与  药物  同  饮
+        </segment>
+
+        <pos>
+            忌喝#NN  未#AD  煮熟#VV  的#DEC  豆浆#NN  ,#NN  忌在#NN  豆浆#NN  里#LC  打#P  鸡蛋#NN  ,#NN  忌冲#NN  红糖#VV  ,#NN  忌与#NN  药物#NN  同#DT  饮#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 红糖#VV, 忌喝#NN)  (advmod, 煮熟#VV, 未#AD)  (relcl, 豆浆#NN, 煮熟#VV)  (mark, 煮熟#VV, 的#DEC)  (nn, 豆浆#NN, 豆浆#NN)  (nn, 豆浆#NN, 忌在#NN)  (loc, 红糖#VV, 豆浆#NN)  (case, 豆浆#NN, 里#LC)  (case, 忌冲#NN, 打#P)  (nn, 忌冲#NN, 鸡蛋#NN)  (prep, 红糖#VV, 忌冲#NN)  (root, ROOT#null, 红糖#VV)  (nn, 药物#NN, 忌与#NN)  (nn, 饮#NN, 药物#NN)  (det, 饮#NN, 同#DT)  (dobj, 红糖#VV, 饮#NN)
+        </parsing>
+
+        <tag>
+            忌喝未煮熟  豆浆,忌在豆浆里  鸡蛋,忌冲红糖,忌与药物同饮  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆浆（SoybeanMilk)是将大豆用水泡后磨碎、过滤、煮沸而成。豆浆营养非常丰富，且易于消化吸收
+        </rawdata>
+
+        <segment>
+            豆浆  （  SoybeanMilk  )  是  将  大豆  用  水泡  后  磨碎  、  过滤  、  煮沸  而  成  。  豆浆  营养  非常  丰富  ，  且  易于  消化  吸收
+        </segment>
+
+        <pos>
+            豆浆#NR  （#PU  SoybeanMilk#NN  -RRB-#NN  是#VC  将#BA  大豆#NN  用#P  水泡#NN  后#LC  磨碎#VA  、#PU  过滤#VA  、#PU  煮沸#AD  而#MSP  成#VV  。#PU  豆浆#AD  营养#VA  非常#AD  丰富#VA  ，#PU  且#CC  易于#VV  消化#NN  吸收#NN
+        </pos>
+
+        <parsing>
+            (nn, -RRB-#NN, 豆浆#NR)  (prnmod, -RRB-#NN, SoybeanMilk#NN)  (cop, 磨碎#VA, 是#VC)  (ba, 磨碎#VA, 将#BA)  (nsubj, 磨碎#VA, 大豆#NN)  (case, 水泡#NN, 用#P)  (prep, 磨碎#VA, 水泡#NN)  (case, 水泡#NN, 后#LC)  (root, ROOT#null, 磨碎#VA)  (dep, 磨碎#VA, 过滤#VA)  (advmod, 成#VV, 煮沸#AD)  (prtmod, 成#VV, 而#MSP)  (dep, 磨碎#VA, 成#VV)  (advmod, 营养#VA, 豆浆#AD)  (dep, 磨碎#VA, 营养#VA)  (advmod, 丰富#VA, 非常#AD)  (dep, 磨碎#VA, 丰富#VA)  (cc, 磨碎#VA, 且#CC)  (dep, 磨碎#VA, 易于#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 易于#VV, 吸收#NN)
+        </parsing>
+
+        <tag>
+            大豆磨碎  消化吸收  易于吸收  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            豆浆极富营养和保健价值，富含蛋白质和钙、磷、铁、锌等几十种矿物质以及维他命A、维他命B等多种维生素豆浆是防治高血脂、高血压、动脉硬化、缺铁性贫血、气喘等疾病的理想食品。春秋饮豆浆，滋阴润燥，调和阴阳；夏饮豆浆，消热防暑，生津解渴；冬饮豆浆，祛寒暖胃，滋养进补,补虚，清热，化痰，通淋，降血压，利大肠
+        </rawdata>
+
+        <segment>
+            豆浆  极富  营养  和  保健  价值  ，  富含  蛋白质  和  钙  、  磷  、  铁  、  锌  等  几十  种  矿物质  以及  维他命A  、  维他命  B  等  多  种  维生素  豆浆  是  防治  高  血脂  、  高  血压  、  动脉  硬化  、  缺铁性  贫血  、  气喘  等  疾病  的  理想  食品  。  春秋  饮  豆浆  ，  滋阴  润燥  ，  调和  阴阳  ；  夏  饮  豆浆  ，  消热  防暑  ，  生  津  解渴  ；  冬  饮  豆浆  ，  祛寒  暖胃  ，  滋养  进  补  ,  补  虚  ，  清热  ，  化痰  ，  通淋  ，  降  血压  ，  利  大肠
+        </segment>
+
+        <pos>
+            豆浆#NR  极富#VV  营养#VA  和#CC  保健#NN  价值#NN  ，#PU  富含#NN  蛋白质#NN  和#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  锌#NN  等#ETC  几十#CD  种#M  矿物质#NN  以及#CC  维他命A#NN  、#PU  维他命#NN  B#NN  等#ETC  多#CD  种#M  维生素#NN  豆浆#NN  是#VC  防治#VV  高#JJ  血脂#NN  、#PU  高#JJ  血压#NN  、#PU  动脉#NN  硬化#NN  、#PU  缺铁性#NN  贫血#NN  、#PU  气喘#NN  等#ETC  疾病#NN  的#DEC  理想#JJ  食品#NN  。#PU  春秋#NN  饮#VV  豆浆#NN  ，#PU  滋阴#VV  润燥#NN  ，#PU  调和#VV  阴阳#NN  ；#PU  夏#VV  饮#NN  豆浆#NN  ，#PU  消热#VV  防暑#NN  ，#PU  生#VV  津#NR  解渴#NN  ；#PU  冬#NN  饮#NN  豆浆#NN  ，#PU  祛寒#VV  暖胃#NN  ，#PU  滋养#VV  进#VV  补#NN  ,#NN  补#VV  虚#AD  ，#PU  清热#VV  ，#PU  化痰#VV  ，#PU  通淋#VV  ，#PU  降#VV  血压#NN  ，#PU  利#NR  大肠#VA
+        </pos>
+
+        <parsing>
+            (nsubj, 极富#VV, 豆浆#NR)  (root, ROOT#null, 极富#VV)  (dep, 极富#VV, 营养#VA)  (cc, 营养#VA, 和#CC)  (nn, 价值#NN, 保健#NN)  (dep, 营养#VA, 价值#NN)  (nn, 锌#NN, 富含#NN)  (conj, 锌#NN, 蛋白质#NN)  (cc, 锌#NN, 和#CC)  (conj, 锌#NN, 钙#NN)  (conj, 锌#NN, 磷#NN)  (conj, 锌#NN, 铁#NN)  (nn, 豆浆#NN, 锌#NN)  (etc, 锌#NN, 等#ETC)  (nummod, 种#M, 几十#CD)  (clf, 豆浆#NN, 种#M)  (conj, B#NN, 矿物质#NN)  (cc, B#NN, 以及#CC)  (conj, B#NN, 维他命A#NN)  (nn, B#NN, 维他命#NN)  (nn, 豆浆#NN, B#NN)  (etc, B#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 豆浆#NN, 种#M)  (nn, 豆浆#NN, 维生素#NN)  (nsubj, 食品#NN, 豆浆#NN)  (cop, 食品#NN, 是#VC)  (relcl, 食品#NN, 防治#VV)  (amod, 血脂#NN, 高#JJ)  (conj, 气喘#NN, 血脂#NN)  (amod, 血压#NN, 高#JJ)  (conj, 气喘#NN, 血压#NN)  (nn, 硬化#NN, 动脉#NN)  (conj, 气喘#NN, 硬化#NN)  (nn, 贫血#NN, 缺铁性#NN)  (conj, 气喘#NN, 贫血#NN)  (nn, 疾病#NN, 气喘#NN)  (etc, 气喘#NN, 等#ETC)  (dobj, 防治#VV, 疾病#NN)  (mark, 防治#VV, 的#DEC)  (amod, 食品#NN, 理想#JJ)  (conj, 极富#VV, 食品#NN)  (nsubj, 饮#VV, 春秋#NN)  (conj, 极富#VV, 饮#VV)  (dobj, 饮#VV, 豆浆#NN)  (conj, 饮#VV, 滋阴#VV)  (dobj, 滋阴#VV, 润燥#NN)  (dep, 饮#VV, 调和#VV)  (dobj, 调和#VV, 阴阳#NN)  (conj, 饮#VV, 夏#VV)  (nn, 豆浆#NN, 饮#NN)  (dobj, 夏#VV, 豆浆#NN)  (conj, 夏#VV, 消热#VV)  (dobj, 消热#VV, 防暑#NN)  (conj, 夏#VV, 生#VV)  (nn, 解渴#NN, 津#NR)  (dep, 豆浆#NN, 解渴#NN)  (nn, 豆浆#NN, 冬#NN)  (nn, 豆浆#NN, 饮#NN)  (dobj, 生#VV, 豆浆#NN)  (conj, 夏#VV, 祛寒#VV)  (dobj, 祛寒#VV, 暖胃#NN)  (mmod, 进#VV, 滋养#VV)  (conj, 夏#VV, 进#VV)  (nn, ,#NN, 补#NN)  (dep, 进#VV, 补#VV)  (advmod, 补#VV, 虚#AD)  (conj, 夏#VV, 清热#VV)  (conj, 夏#VV, 化痰#VV)  (conj, 夏#VV, 通淋#VV)  (conj, 夏#VV, 降#VV)  (dobj, 降#VV, 血压#NN)  (nsubj, 大肠#VA, 利#NR)  (conj, 极富#VV, 大肠#VA)
+        </parsing>
+
+        <tag>
+            极富  保健价值  维生素豆浆  防治食品  高血脂  高血压  动脉硬化  缺铁性贫血  气喘疾病  防治疾病  理想食品  滋阴润燥  调和阴阳  消热防暑  祛寒暖胃  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  延缓衰老  美容养颜  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/88/0b/2952_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1284 甜豆浆.jpg
+    </picturelocalurl>
+
+</content>

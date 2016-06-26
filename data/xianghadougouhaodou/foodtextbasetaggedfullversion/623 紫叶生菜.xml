@@ -1,0 +1,188 @@
+<content>
+
+    <id>
+        623
+    </id>
+
+    <foodname>
+        紫叶生菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        蔬菜类
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                15kal
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            生菜，即叶用莴苣，叶用莴苣在长期的栽培过程中，出现了一个变异品种——紫叶生菜。目前我国栽培的紫叶生菜品种"红帆"，是从美国引进的，它植株较大，散叶，叶片皱曲，色泽美观，随收获期临近，红色逐渐加深，不易抽薹，喜光，较耐热，成熟期早。也可作观叶花卉盆栽，置于阳台上，即可观赏又可食用。
+        </rawdata>
+
+        <segment>
+            生菜  ，  即  叶  用  莴苣  ，  叶  用  莴苣  在  长期  的  栽培  过程  中  ，  出现  了  一  个  变异  品种  ——  紫  叶  生菜  。  目前  我国  栽培  的  紫  叶  生菜  品种  "  红帆  "  ，  是  从  美国  引进  的  ，  它  植株  较大  ，  散叶  ，  叶片  皱曲  ，  色泽  美观  ，  随  收获期  临近  ，  红色  逐渐  加深  ，  不  易  抽薹  ，  喜光  ，  较  耐热  ，  成熟期  早  。  也  可作观  叶  花卉  盆栽  ，  置于  阳台  上  ，  即  可  观赏  又  可  食用  。
+        </segment>
+
+        <pos>
+            生菜#VA  ，#PU  即#AD  叶#NR  用#P  莴苣#NN  ，#PU  叶#NN  用#P  莴苣#NN  在#P  长期#JJ  的#DEG  栽培#VV  过程#NN  中#LC  ，#PU  出现#VV  了#AS  一#CD  个#M  变异#NN  品种#NN  --#NN  --#AD  紫#VA  叶#NR  生菜#VV    。#PU  目前#NT  我国#AD  栽培#VV  的#DEC  紫#VA  叶#NN  生菜#NN  品种#NN  ''#VV  红帆#VV  ''#NN  ，#PU  是#VC  从#P  美国#NR  引进#VV  的#DEC  ，#PU  它#PN  植株#VV  较大#JJ  ，#PU  散叶#VV  ，#PU  叶片#VV  皱曲#NN  ，#PU  色泽#NN  美观#CD  ，#PU  随#VV  收获期#NN  临近#NN  ，#PU  红色#JJ  逐渐#AD  加深#VV  ，#PU  不#AD  易#VA  抽薹#NN  ，#PU  喜光#VV  ，#PU  较#AD  耐热#VV  ，#PU  成熟期#AD  早#VA    。#PU  也#AD  可作观#VV  叶#NR  花卉#NN  盆栽#NN  ，#PU  置于#NN  阳台#NN  上#LC  ，#PU  即#AD  可#VV  观赏#VV  又#AD  可#VV  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 生菜#VA)  (advmod, 出现#VV, 即#AD)  (nsubj, 出现#VV, 叶#NR)  (case, 莴苣#NN, 用#P)  (prep, 出现#VV, 莴苣#NN)  (dobj, 出现#VV, 叶#NN)  (case, 莴苣#NN, 用#P)  (prep, 出现#VV, 莴苣#NN)  (case, 过程#NN, 在#P)  (assmod, 过程#NN, 长期#JJ)  (case, 长期#JJ, 的#DEG)  (nfincl, 过程#NN, 栽培#VV)  (prep, 出现#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (dep, 生菜#VA, 出现#VV)  (asp, 出现#VV, 了#AS)  (nummod, 个#M, 一#CD)  (clf, 品种#NN, 个#M)  (nn, 品种#NN, 变异#NN)  (dobj, 出现#VV, 品种#NN)  (conj, 生菜#VA, 紫#VA)  (nsubj, 生菜#VV, 叶#NR)  (conj, 生菜#VA, 生菜#VV)   (dep, 栽培#VV, 目前#NT)  (advmod, 栽培#VV, 我国#AD)  (relcl, 品种#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nfincl, 品种#NN, 紫#VA)  (nn, 品种#NN, 叶#NN)  (nn, 品种#NN, 生菜#NN)  (nsubj, 红帆#VV, 品种#NN)  (mmod, 红帆#VV, ''#VV)  (root, ROOT#null, 红帆#VV)  (dobj, 红帆#VV, ''#NN)  (cop, 引进#VV, 是#VC)  (case, 美国#NR, 从#P)  (prep, 引进#VV, 美国#NR)  (ccomp, 红帆#VV, 引进#VV)  (conj, 红帆#VV, 引进#VV)  (mark, 引进#VV, 的#DEC)  (dep, 较大#JJ, 它#PN)  (mmod, 较大#JJ, 植株#VV)  (ccomp, 红帆#VV, 较大#JJ)  (conj, 红帆#VV, 较大#JJ)  (ccomp, 红帆#VV, 散叶#VV)  (conj, 红帆#VV, 散叶#VV)  (ccomp, 红帆#VV, 叶片#VV)  (conj, 红帆#VV, 叶片#VV)  (dobj, 叶片#VV, 皱曲#NN)  (ccomp, 红帆#VV, 色泽#NN)  (conj, 红帆#VV, 色泽#NN)  (range, 色泽#NN, 美观#CD)  (ccomp, 红帆#VV, 随#VV)  (conj, 红帆#VV, 随#VV)  (nn, 临近#NN, 收获期#NN)  (dep, 抽薹#NN, 临近#NN)  (amod, 抽薹#NN, 红色#JJ)  (advmod, 加深#VV, 逐渐#AD)  (nfincl, 抽薹#NN, 加深#VV)  (neg, 易#VA, 不#AD)  (dep, 加深#VV, 易#VA)  (dobj, 随#VV, 抽薹#NN)  (ccomp, 红帆#VV, 喜光#VV)  (conj, 红帆#VV, 喜光#VV)  (advmod, 耐热#VV, 较#AD)  (ccomp, 红帆#VV, 耐热#VV)  (conj, 红帆#VV, 耐热#VV)  (advmod, 早#VA, 成熟期#AD)  (ccomp, 红帆#VV, 早#VA)  (conj, 红帆#VV, 早#VA)   (advmod, 可作观#VV, 也#AD)  (root, ROOT#null, 可作观#VV)  (nn, 盆栽#NN, 叶#NR)  (nn, 盆栽#NN, 花卉#NN)  (dobj, 可作观#VV, 盆栽#NN)  (nn, 阳台#NN, 置于#NN)  (loc, 观赏#VV, 阳台#NN)  (case, 阳台#NN, 上#LC)  (advmod, 观赏#VV, 即#AD)  (mmod, 观赏#VV, 可#VV)  (dep, 可作观#VV, 观赏#VV)  (advmod, 食用#VV, 又#AD)  (dep, 食用#VV, 可#VV)  (dep, 观赏#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            出现叶  变异品种  出现品种  栽培品种  生菜品种  红帆  叶片皱曲  收获期临近  红色抽薹  花卉盆栽  可作观盆栽  置于阳台  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            生菜营养丰富，还具有清热安神、清肝利胆、养胃的功效。适宜胃病、维生素C缺乏、肥胖、高胆固醇、神经衰弱、肝胆病患者食用。
+        </rawdata>
+
+        <segment>
+            生菜  营养  丰富  ，  还  具有  清热  安神  、  清肝利胆  、  养  胃  的  功效  。  适宜  胃病  、  维生素C  缺乏  、  肥胖  、  高  胆固醇  、  神经  衰弱  、  肝胆  病  患者  食用  。
+        </segment>
+
+        <pos>
+            生菜#AD  营养#VA  丰富#VA  ，#PU  还#AD  具有#VV  清热#NN  安神#NN  、#PU  清肝利胆#NN  、#PU  养#VV  胃#NN  的#DEC  功效#NN    。#PU  适宜#VA  胃病#VA  、#PU  维生素C#VV  缺乏#VV  、#PU  肥胖#NN  、#PU  高#JJ  胆固醇#NN  、#PU  神经#NN  衰弱#NN  、#PU  肝胆#NR  病#JJ  患者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 营养#VA, 生菜#AD)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (advmod, 具有#VV, 还#AD)  (dep, 营养#VA, 具有#VV)  (nn, 安神#NN, 清热#NN)  (conj, 功效#NN, 安神#NN)  (conj, 功效#NN, 清肝利胆#NN)  (relcl, 功效#NN, 养#VV)  (dobj, 养#VV, 胃#NN)  (mark, 养#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)   (relcl, 患者#NN, 适宜#VA)  (comod, 适宜#VA, 胃病#VA)  (ccomp, 适宜#VA, 维生素C#VV)  (comod, 维生素C#VV, 缺乏#VV)  (conj, 患者#NN, 肥胖#NN)  (amod, 胆固醇#NN, 高#JJ)  (conj, 患者#NN, 胆固醇#NN)  (nn, 衰弱#NN, 神经#NN)  (conj, 患者#NN, 衰弱#NN)  (nn, 患者#NN, 肝胆#NR)  (amod, 患者#NN, 病#JJ)  (nsubj, 食用#VV, 患者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            营养丰富  清热安神  清肝利胆  养功效  患者适宜  胃病适宜  肥胖  高胆固醇  神经衰弱  病患者  食用  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        安神  减肥  抗病毒
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            紫叶生菜极富营养价值，它含有花青素，胡萝卜素，维生素E，维生素B1、B2、B6，还含有丰富的矿物质，如磷、钙、钾、镁等，也含有少量的铜、铁、锌、硒。对人体的好处是助消化，刺激胆汁的形成，凉血，促进血液循环、利尿、镇静、安眠，防止肠内堆积废物，并有抗衰老和抗癌的功能。
+        </rawdata>
+
+        <segment>
+            紫  叶  生菜  极  富  营养  价值  ，  它  含有  花青素  ，  胡萝卜素  ，  维生素E  ，  维生素B  B  2  、  B6  ，  还  含有  丰富  的  矿物质  ，  如  磷  、  钙  、  钾  、  镁  等  ，  也  含有  少量  的  铜  、  铁  、  锌  、  硒  。  对  人体  的  好处  是  助消化  ，  刺激  胆汁  的  形成  ，  凉血  ，  促进  血液  循环  、  利尿  、  镇静  、  安眠  ，  防止  肠内  堆积  废物  ，  并  有抗  衰老  和  抗癌  的  功能  。
+        </segment>
+
+        <pos>
+            紫#VA  叶#NN  生菜#NN  极#AD  富#VV  营养#VA  价值#NN  ，#PU  它#PN  含有#VV  花青素#NN  ，#PU  胡萝卜素#NR  ，#PU  维生素E#NR  ，#PU  维生素B#NR  B#VV  2#CD  、#PU  B6#CD  ，#PU  还#AD  含有#VV  丰富#VA  的#DEC  矿物质#NN  ，#PU  如#AD  磷#NN  、#PU  钙#NN  、#PU  钾#NN  、#PU  镁#NN  等#ETC  ，#PU  也#AD  含有#VV  少量#CD  的#DEG  铜#NN  、#PU  铁#NN  、#PU  锌#NN  、#PU  硒#NN    。#PU  对#P  人体#NN  的#DEG  好处#NN  是#VC  助消化#NN  ，#PU  刺激#VV  胆汁#NN  的#DEG  形成#NN  ，#PU  凉血#VV  ，#PU  促进#VV  血液#NN  循环#NN  、#PU  利尿#NN  、#PU  镇静#NN  、#PU  安眠#NN  ，#PU  防止#VV  肠内#VV  堆积#NN  废物#NN  ，#PU  并#CC  有抗#VV  衰老#NN  和#CC  抗癌#NN  的#DEG  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 生菜#NN, 紫#VA)  (nn, 生菜#NN, 叶#NN)  (nsubj, 富#VV, 生菜#NN)  (advmod, 富#VV, 极#AD)  (root, ROOT#null, 富#VV)  (rcomp, 富#VV, 营养#VA)  (dobj, 富#VV, 价值#NN)  (nsubj, 含有#VV, 它#PN)  (conj, 富#VV, 含有#VV)  (dobj, 含有#VV, 花青素#NN)  (nsubj, B#VV, 胡萝卜素#NR)  (nsubj, B#VV, 维生素E#NR)  (nsubj, B#VV, 维生素B#NR)  (conj, 富#VV, B#VV)  (dep, B6#CD, 2#CD)  (range, B#VV, B6#CD)  (advmod, 含有#VV, 还#AD)  (conj, B#VV, 含有#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 镁#NN, 如#AD)  (conj, 镁#NN, 磷#NN)  (conj, 镁#NN, 钙#NN)  (conj, 镁#NN, 钾#NN)  (nsubj, 含有#VV, 镁#NN)  (etc, 镁#NN, 等#ETC)  (advmod, 含有#VV, 也#AD)  (conj, 富#VV, 含有#VV)  (assmod, 硒#NN, 少量#CD)  (case, 少量#CD, 的#DEG)  (conj, 硒#NN, 铜#NN)  (conj, 硒#NN, 铁#NN)  (conj, 硒#NN, 锌#NN)  (dobj, 含有#VV, 硒#NN)   (case, 好处#NN, 对#P)  (assmod, 好处#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (prep, 助消化#NN, 好处#NN)  (cop, 助消化#NN, 是#VC)  (root, ROOT#null, 助消化#NN)  (dep, 助消化#NN, 刺激#VV)  (assmod, 形成#NN, 胆汁#NN)  (case, 胆汁#NN, 的#DEG)  (dobj, 刺激#VV, 形成#NN)  (conj, 刺激#VV, 凉血#VV)  (conj, 刺激#VV, 促进#VV)  (nn, 安眠#NN, 血液#NN)  (conj, 安眠#NN, 循环#NN)  (conj, 安眠#NN, 利尿#NN)  (conj, 安眠#NN, 镇静#NN)  (dobj, 促进#VV, 安眠#NN)  (conj, 刺激#VV, 防止#VV)  (ccomp, 防止#VV, 肠内#VV)  (nn, 废物#NN, 堆积#NN)  (dobj, 肠内#VV, 废物#NN)  (cc, 刺激#VV, 并#CC)  (conj, 刺激#VV, 有抗#VV)  (conj, 抗癌#NN, 衰老#NN)  (cc, 抗癌#NN, 和#CC)  (assmod, 功能#NN, 抗癌#NN)  (case, 抗癌#NN, 的#DEG)  (dobj, 有抗#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            含有花青素  矿物质丰富  含有矿物质  含有硒  刺激形成  血液安眠  循环  利尿  镇静  促进安眠  堆积废物  肠内废物  抗癌  衰老  有抗功能  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1. 因可能有农药化肥的残留，生吃前一定要洗净;
+            2. 对乙烯极为敏感，储藏时应远离苹果、梨和香蕉，以免诱发赤褐斑点;
+            3. 无论是炒还是煮生菜，时间都不要太长，这样可以保持生菜脆嫩的口感;
+            4. 生菜用手撕成片，吃起来会比刀切的脆;
+            5. 将生菜洗净，加入适量沙拉酱直接食用，常食可有利于女性保持苗条的身材。
+        </rawdata>
+
+        <segment>
+            因  可能  有  农药  化肥  的  残留  ，  生吃  前  一定  要  洗净  ;
+            对  乙烯  极为  敏感  ，  储藏  时  应  远离  苹果  、  梨和  香蕉  ，  以免  诱发  赤褐  斑点  ;
+            无论是  炒  还是  煮  生菜  ，  时间  都  不要  太长  ，  这样  可以  保持  生菜  脆嫩  的  口感  ;
+            生菜  用  手  撕  成片  ，  吃  起来  会  比  刀切  的  脆  ;
+            将  生菜  洗净  ，  加入  适量  沙拉酱  直接  食用  ，  常食  可  有利于  女性  保持  苗条  的  身材  。
+        </segment>
+
+        <pos>
+            因#P  可能#VV  有#VE  农药#NN  化肥#NN  的#DEG  残留#NN  ，#PU  生吃#NN  前#LC  一定#AD  要#VV  洗净#VV  ;#NN
+            对#P  乙烯#NN  极为#AD  敏感#VA  ，#PU  储藏#NN  时#LC  应#VV  远离#VV  苹果#NN  、#PU  梨和#NN  香蕉#NN  ，#PU  以免#VV  诱发#VV  赤褐#NN  斑点#NN  ;#NN
+            无论是#AD  炒#NN  还是#AD  煮#VV  生菜#NN  ，#PU  时间#NN  都#AD  不要#VV  太长#NN  ，#PU  这样#AD  可以#VV  保持#VV  生菜#NN  脆嫩#NN  的#DEG  口感#NN  ;#NN
+            生菜#NN  用#P  手#NN  撕#VV  成片#AD  ，#PU  吃#VV  起来#VV  会#VV  比#P  刀切#NN  的#DEG  脆#NN  ;#NN
+            将#AD  生菜#VV  洗净#NN  ，#PU  加入#VV  适量#NN  沙拉酱#NN  直接#AD  食用#VV  ，#PU  常食#AD  可#VV  有利于#VV  女性#NN  保持#VV  苗条#NN  的#DEG  身材#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 可能#VV, 因#P)  (prep, 有#VE, 可能#VV)  (root, ROOT#null, 有#VE)  (nn, 化肥#NN, 农药#NN)  (assmod, 残留#NN, 化肥#NN)  (case, 化肥#NN, 的#DEG)  (dobj, 有#VE, 残留#NN)  (loc, 洗净#VV, 生吃#NN)  (case, 生吃#NN, 前#LC)  (advmod, 洗净#VV, 一定#AD)  (mmod, 洗净#VV, 要#VV)  (dep, 有#VE, 洗净#VV)  (dobj, 洗净#VV, ;#NN)
+            (case, 乙烯#NN, 对#P)  (prep, 敏感#VA, 乙烯#NN)  (advmod, 敏感#VA, 极为#AD)  (root, ROOT#null, 敏感#VA)  (loc, 远离#VV, 储藏#NN)  (case, 储藏#NN, 时#LC)  (mmod, 远离#VV, 应#VV)  (dep, 敏感#VA, 远离#VV)  (conj, 香蕉#NN, 苹果#NN)  (nn, 香蕉#NN, 梨和#NN)  (dobj, 远离#VV, 香蕉#NN)  (dep, 远离#VV, 以免#VV)  (ccomp, 以免#VV, 诱发#VV)  (nn, ;#NN, 赤褐#NN)  (nn, ;#NN, 斑点#NN)  (dobj, 诱发#VV, ;#NN)
+            (advmod, 煮#VV, 无论是#AD)  (nsubj, 煮#VV, 炒#NN)  (advmod, 煮#VV, 还是#AD)  (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 生菜#NN)  (nsubj, 不要#VV, 时间#NN)  (advmod, 不要#VV, 都#AD)  (conj, 煮#VV, 不要#VV)  (dobj, 不要#VV, 太长#NN)  (advmod, 保持#VV, 这样#AD)  (mmod, 保持#VV, 可以#VV)  (dep, 不要#VV, 保持#VV)  (nn, 脆嫩#NN, 生菜#NN)  (assmod, ;#NN, 脆嫩#NN)  (case, 脆嫩#NN, 的#DEG)  (nn, ;#NN, 口感#NN)  (dobj, 保持#VV, ;#NN)
+            (nsubj, 吃#VV, 生菜#NN)  (case, 手#NN, 用#P)  (prep, 吃#VV, 手#NN)  (mmod, 吃#VV, 撕#VV)  (advmod, 吃#VV, 成片#AD)  (root, ROOT#null, 吃#VV)  (comod, 吃#VV, 起来#VV)  (rcomp, 吃#VV, 会#VV)  (case, 刀切#NN, 比#P)  (assmod, ;#NN, 刀切#NN)  (case, 刀切#NN, 的#DEG)  (nn, ;#NN, 脆#NN)  (dobj, 吃#VV, ;#NN)
+            (advmod, 生菜#VV, 将#AD)  (conj, 保持#VV, 生菜#VV)  (dobj, 生菜#VV, 洗净#NN)  (dep, 生菜#VV, 加入#VV)  (nn, 沙拉酱#NN, 适量#NN)  (dobj, 加入#VV, 沙拉酱#NN)  (advmod, 食用#VV, 直接#AD)  (conj, 加入#VV, 食用#VV)  (advmod, 有利于#VV, 常食#AD)  (mmod, 有利于#VV, 可#VV)  (dep, 生菜#VV, 有利于#VV)  (dobj, 有利于#VV, 女性#NN)  (root, ROOT#null, 保持#VV)  (assmod, 身材#NN, 苗条#NN)  (case, 苗条#NN, 的#DEG)  (dobj, 保持#VV, 身材#NN)
+        </parsing>
+
+        <tag>
+            农药化肥  苹果  梨和香蕉  远离香蕉  不要太长  生菜脆嫩  生菜洗净  适量沙拉酱  加入沙拉酱  有利于女性  保持身材  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374481983.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\623 紫叶生菜.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,154 @@
+<content>
+
+    <id>
+        1008
+    </id>
+
+    <foodname>
+        干贻贝
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        淡菜、东海夫人、壳菜、海蜌、红蛤、珠菜、海红
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            久服令人发脱。
+        </rawdata>
+
+        <segment>
+            久服  令  人  发脱  。
+        </segment>
+
+        <pos>
+            久服#NN  令#VV  人#NN  发脱#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 令#VV, 久服#NN)  (root, ROOT#null, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 发脱#VA)
+        </parsing>
+
+        <tag>
+            久服令人发脱  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            淡菜是海蚌的一种，又名贻贝，煮熟去壳晒干而成，因煮制时没有加盐，故称淡菜。淡菜味道极鲜，营养也很丰富，它所含蛋白质、碘、钙和铁都比较多，但所含脂肪很少。产于浙江、福建、山东、辽宁等省沿海。以身干、色鲜，肉肥者为佳。
+        </rawdata>
+
+        <segment>
+            淡菜  是  海蚌  的  一  种  ，  又  名  贻贝  ，  煮熟  去壳  晒干  而  成  ，  因  煮制  时  没有  加盐  ，  故称  淡菜  。  淡菜  味道  极鲜  ，  营养  也  很  丰富  ，  它  所含  蛋白质  、  碘  、  钙  和  铁  都  比较  多  ，  但  所含  脂肪  很少  。  产于  浙江  、  福建  、  山东  、  辽宁  等  省  沿海  。  以  身干  、  色鲜  ，  肉肥者  为佳  。
+        </segment>
+
+        <pos>
+            淡菜#NN  是#VC  海蚌#NN  的#DEG  一#CD  种#M  ，#PU  又#CC  名#JJ  贻贝#NN  ，#PU  煮熟#NN  去壳#VV  晒干#NN  而#MSP  成#VV  ，#PU  因#P  煮制#NN  时#LC  没有#VE  加盐#NN  ，#PU  故称#VV  淡菜#NN    。#PU  淡菜#NN  味道#NN  极鲜#VA  ，#PU  营养#VA  也#AD  很#AD  丰富#VA  ，#PU  它#PN  所含#NN  蛋白质#NN  、#PU  碘#NN  、#PU  钙#NN  和#CC  铁#NN  都#AD  比较#AD  多#VA  ，#PU  但#AD  所含#NN  脂肪#AD  很少#VA    。#PU  产于#NR  浙江#NR  、#PU  福建#NR  、#PU  山东#NR  、#PU  辽宁#NR  等#ETC  省#NN  沿海#NN    。#PU  以#P  身干#NN  、#PU  色鲜#NN  ，#PU  肉肥者#AD  为佳#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 是#VC, 淡菜#NN)  (root, ROOT#null, 是#VC)  (assmod, 种#M, 海蚌#NN)  (case, 海蚌#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (dep, 是#VC, 种#M)  (cc, 是#VC, 又#CC)  (amod, 贻贝#NN, 名#JJ)  (nsubj, 去壳#VV, 贻贝#NN)  (nsubj, 去壳#VV, 煮熟#NN)  (conj, 是#VC, 去壳#VV)  (dobj, 去壳#VV, 晒干#NN)  (prtmod, 成#VV, 而#MSP)  (conj, 去壳#VV, 成#VV)  (case, 煮制#NN, 因#P)  (prep, 没有#VE, 煮制#NN)  (case, 煮制#NN, 时#LC)  (conj, 去壳#VV, 没有#VE)  (dobj, 没有#VE, 加盐#NN)  (dep, 去壳#VV, 故称#VV)  (dobj, 故称#VV, 淡菜#NN)   (nn, 味道#NN, 淡菜#NN)  (nsubj, 极鲜#VA, 味道#NN)  (root, ROOT#null, 极鲜#VA)  (conj, 极鲜#VA, 营养#VA)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (dep, 营养#VA, 丰富#VA)  (nsubj, 多#VA, 它#PN)  (nn, 铁#NN, 所含#NN)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 碘#NN)  (conj, 铁#NN, 钙#NN)  (cc, 铁#NN, 和#CC)  (nsubj, 多#VA, 铁#NN)  (advmod, 多#VA, 都#AD)  (advmod, 多#VA, 比较#AD)  (conj, 极鲜#VA, 多#VA)  (advmod, 很少#VA, 但#AD)  (nsubj, 很少#VA, 所含#NN)  (advmod, 很少#VA, 脂肪#AD)  (conj, 极鲜#VA, 很少#VA)   (nn, 辽宁#NR, 产于#NR)  (conj, 辽宁#NR, 浙江#NR)  (conj, 辽宁#NR, 福建#NR)  (conj, 辽宁#NR, 山东#NR)  (nn, 沿海#NN, 辽宁#NR)  (etc, 辽宁#NR, 等#ETC)  (nn, 沿海#NN, 省#NN)  (root, ROOT#null, 沿海#NN)   (case, 色鲜#NN, 以#P)  (conj, 色鲜#NN, 身干#NN)  (prep, 为佳#VV, 色鲜#NN)  (advmod, 为佳#VV, 肉肥者#AD)  (root, ROOT#null, 为佳#VV)
+        </parsing>
+
+        <tag>
+            名贻贝  去壳晒干  没有加盐  故称淡菜  淡菜味道  味道极鲜  所含很少  辽宁  浙江  福建  山东  色鲜  身干  为佳  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            贻贝营养价值很高，并有一定的药用价值。贻贝富含蛋白质及多种维生素及人体必需的锰、锌、硒、碘等多种微量元素。
+        </rawdata>
+
+        <segment>
+            贻贝  营养  价值  很  高  ，  并  有一定  的  药用  价值  。  贻贝  富含  蛋白质  及  多  种  维生素  及  人体  必需  的  锰  、  锌  、  硒  、  碘等  多  种  微量  元素  。
+        </segment>
+
+        <pos>
+            贻贝#AD  营养#VA  价值#NN  很#AD  高#VA  ，#PU  并#CC  有一定#CD  的#DEG  药用#NN  价值#VV    。#PU  贻贝#NN  富含#VV  蛋白质#NN  及#CC  多#CD  种#M  维生素#NN  及#CC  人体#NN  必需#VV  的#DEC  锰#NN  、#PU  锌#NN  、#PU  硒#NN  、#PU  碘等#NN  多#CD  种#M  微量#JJ  元素#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 营养#VA, 贻贝#AD)  (root, ROOT#null, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (dep, 营养#VA, 高#VA)  (cc, 高#VA, 并#CC)  (assmod, 药用#NN, 有一定#CD)  (case, 有一定#CD, 的#DEG)  (nsubj, 价值#VV, 药用#NN)  (conj, 高#VA, 价值#VV)   (nsubj, 富含#VV, 贻贝#NN)  (root, ROOT#null, 富含#VV)  (conj, 人体#NN, 蛋白质#NN)  (cc, 人体#NN, 及#CC)  (nummod, 种#M, 多#CD)  (clf, 人体#NN, 种#M)  (conj, 人体#NN, 维生素#NN)  (cc, 人体#NN, 及#CC)  (nsubj, 必需#VV, 人体#NN)  (relcl, 元素#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (conj, 碘等#NN, 锰#NN)  (conj, 碘等#NN, 锌#NN)  (conj, 碘等#NN, 硒#NN)  (nn, 元素#NN, 碘等#NN)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (amod, 元素#NN, 微量#JJ)  (dobj, 富含#VV, 元素#NN)
+        </parsing>
+
+        <tag>
+            富含  人体  蛋白质  维生素  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  补阴  消瘿  补肝肾  辅助降血压  抗心律失常  抗血小板聚集  解胃肠痉挛  护肝  促进宫缩  抗菌  抗氧化  延缓衰老
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            贻贝加工方法：
+            1、原料，以当天或头一天从海上采收的鲜贻贝作为加工淡菜的原料
+            2、分粒洗刷，将成团的贻贝撕裂成单体状态，分粒后用海水洗涤，去掉泥沙等杂质
+            3、蒸煮，两壳张开即可，火候的掌握很重要，切忌用慢火 　　4、摘肉，尽量把闭壳肌全部取下，以保证贝肉的完整，如果贝肉上有足丝，要先将足丝去掉，再将肉摘下
+            5、出晒，将贝肉薄薄一层撒在席子上，待表层稍干后再翻晒，当晒到八九成干时收堆起来，2~3天后再出晒至全干，即可包装入库。
+        </rawdata>
+
+        <segment>
+            贻贝  加工  方法  ：
+            原料  ，  以  当天  或  头  一  天  从  海上  采收  的  鲜  贻贝  作为  加工  淡菜  的  原料
+            分  粒  洗刷  ，  将  成团  的  贻贝  撕裂  成  单体  状态  ，  分  粒  后用  海水  洗涤  ，  去掉  泥沙  等  杂质
+            蒸煮  ，  两  壳  张开  即可  ，  火候  的  掌握  很  重要  ，  切忌  用  慢火  4  、  摘肉  ，  尽量  把  闭壳肌  全部  取下  ，  以  保证  贝肉  的  完整  ，  如果  贝肉  上  有  足丝  ，  要  先  将  足  丝  去掉  ，  再  将  肉  摘下
+            出晒  ，  将  贝  肉  薄薄  一  层  撒在  席子  上  ，  待  表层  稍干  后  再  翻晒  ，  当  晒  到  八九  成  干时  收  堆  起来  ，  2  ~  3  天  后  再  出  晒  至  全干  ，  即  可  包装  入库  。
+        </segment>
+
+        <pos>
+            贻贝#NN  加工#VV  方法#NN  ：#PU
+            原料#NN  ，#PU  以#P  当天#NT  或#CC  头#DT  一#CD  天#M  从#P  海上#NN  采收#VV  的#DEC  鲜#NN  贻贝#VV  作为#P  加工#NN  淡菜#NN  的#DEG  原料#NN
+            分#VV  粒#NN  洗刷#NN  ，#PU  将#BA  成团#NN  的#DEG  贻贝#NN  撕裂#AD  成#VV  单体#NN  状态#NN  ，#PU  分#AD  粒#VV  后用#NN  海水#NN  洗涤#NN  ，#PU  去掉#VV  泥沙#NN  等#ETC  杂质#NN
+            蒸煮#NN  ，#PU  两#CD  壳#NN  张开#NR  即可#VV  ，#PU  火候#NN  的#DEG  掌握#VV  很#AD  重要#VA  ，#PU  切忌#AD  用#VV  慢火#NN  4#CD  、#PU  摘肉#NN  ，#PU  尽量#NN  把#BA  闭壳肌#NN  全部#AD  取下#VV  ，#PU  以#MSP  保证#VV  贝肉#NN  的#DEC  完整#NN  ，#PU  如果#CS  贝肉#NN  上#LC  有#VE  足丝#NN  ，#PU  要#VV  先#AD  将#AD  足#VV  丝#NN  去掉#NN  ，#PU  再#AD  将#BA  肉#NN  摘下#VV
+            出晒#CD  ，#PU  将#BA  贝#NN  肉#NN  薄薄#VV  一#CD  层#M  撒在#NN  席子#NN  上#LC  ，#PU  待#VV  表层#NN  稍干#NN  后#LC  再#AD  翻晒#VV  ，#PU  当#P  晒#CD  到#CC  八九#CD  成#VV  干时#AD  收#VV  堆#VV  起来#VV  ，#PU  2#CD  ~#NN  3#CD  天#M  后#LC  再#AD  出#VV  晒#CD  至#CC  全干#CD  ，#PU  即#AD  可#VV  包装#NN  入库#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 加工#VV, 贻贝#NN)  (root, ROOT#null, 加工#VV)  (dobj, 加工#VV, 方法#NN)
+            (dep, 贻贝#VV, 原料#NN)  (case, 鲜#NN, 以#P)  (conj, 鲜#NN, 当天#NT)  (cc, 鲜#NN, 或#CC)  (det, 鲜#NN, 头#DT)  (nummod, 天#M, 一#CD)  (dep, 头#DT, 天#M)  (case, 海上#NN, 从#P)  (prep, 采收#VV, 海上#NN)  (relcl, 鲜#NN, 采收#VV)  (mark, 采收#VV, 的#DEC)  (prep, 贻贝#VV, 鲜#NN)  (root, ROOT#null, 贻贝#VV)  (case, 淡菜#NN, 作为#P)  (nn, 淡菜#NN, 加工#NN)  (assmod, 原料#NN, 淡菜#NN)  (case, 淡菜#NN, 的#DEG)  (dobj, 贻贝#VV, 原料#NN)
+            (root, ROOT#null, 分#VV)  (nn, 洗刷#NN, 粒#NN)  (dobj, 分#VV, 洗刷#NN)  (ba, 成#VV, 将#BA)  (assmod, 贻贝#NN, 成团#NN)  (case, 成团#NN, 的#DEG)  (nsubj, 成#VV, 贻贝#NN)  (advmod, 成#VV, 撕裂#AD)  (conj, 分#VV, 成#VV)  (nn, 状态#NN, 单体#NN)  (dobj, 成#VV, 状态#NN)  (advmod, 粒#VV, 分#AD)  (conj, 分#VV, 粒#VV)  (nn, 洗涤#NN, 后用#NN)  (nn, 洗涤#NN, 海水#NN)  (dobj, 粒#VV, 洗涤#NN)  (conj, 分#VV, 去掉#VV)  (nn, 杂质#NN, 泥沙#NN)  (etc, 泥沙#NN, 等#ETC)  (dobj, 去掉#VV, 杂质#NN)
+            (nsubj, 即可#VV, 蒸煮#NN)  (nummod, 壳#NN, 两#CD)  (nsubj, 即可#VV, 壳#NN)  (nsubj, 即可#VV, 张开#NR)  (root, ROOT#null, 即可#VV)  (nsubj, 掌握#VV, 火候#NN)  (case, 火候#NN, 的#DEG)  (ccomp, 即可#VV, 掌握#VV)  (advmod, 重要#VA, 很#AD)  (relcl, 完整#NN, 重要#VA)  (advmod, 用#VV, 切忌#AD)  (dep, 重要#VA, 用#VV)  (dobj, 用#VV, 慢火#NN)  (range, 用#VV, 4#CD)  (nsubj, 取下#VV, 摘肉#NN)  (nsubj, 取下#VV, 尽量#NN)  (ba, 取下#VV, 把#BA)  (nsubj, 取下#VV, 闭壳肌#NN)  (advmod, 取下#VV, 全部#AD)  (dep, 重要#VA, 取下#VV)  (prtmod, 保证#VV, 以#MSP)  (dep, 取下#VV, 保证#VV)  (dobj, 保证#VV, 贝肉#NN)  (mark, 重要#VA, 的#DEC)  (dobj, 掌握#VV, 完整#NN)  (advmod, 有#VE, 如果#CS)  (loc, 有#VE, 贝肉#NN)  (case, 贝肉#NN, 上#LC)  (dep, 掌握#VV, 有#VE)  (nsubj, 足#VV, 足丝#NN)  (mmod, 足#VV, 要#VV)  (advmod, 足#VV, 先#AD)  (advmod, 足#VV, 将#AD)  (dep, 有#VE, 足#VV)  (nn, 去掉#NN, 丝#NN)  (dobj, 足#VV, 去掉#NN)  (advmod, 摘下#VV, 再#AD)  (ba, 摘下#VV, 将#BA)  (nsubj, 摘下#VV, 肉#NN)  (dep, 足#VV, 摘下#VV)
+            (dep, 薄薄#VV, 出晒#CD)  (ba, 薄薄#VV, 将#BA)  (nn, 肉#NN, 贝#NN)  (nsubj, 薄薄#VV, 肉#NN)  (root, ROOT#null, 薄薄#VV)  (nummod, 层#M, 一#CD)  (clf, 席子#NN, 层#M)  (nn, 席子#NN, 撒在#NN)  (loc, 薄薄#VV, 席子#NN)  (case, 席子#NN, 上#LC)  (loc, 翻晒#VV, 待#VV)  (nn, 稍干#NN, 表层#NN)  (dobj, 待#VV, 稍干#NN)  (case, 待#VV, 后#LC)  (advmod, 翻晒#VV, 再#AD)  (dep, 薄薄#VV, 翻晒#VV)  (case, 八九#CD, 当#P)  (nummod, 八九#CD, 晒#CD)  (cc, 八九#CD, 到#CC)  (prep, 堆#VV, 八九#CD)  (mmod, 堆#VV, 成#VV)  (advmod, 堆#VV, 干时#AD)  (mmod, 堆#VV, 收#VV)  (conj, 薄薄#VV, 堆#VV)  (comod, 堆#VV, 起来#VV)  (nummod, ~#NN, 2#CD)  (nummod, 天#M, 3#CD)  (loc, 出#VV, 天#M)  (case, 天#M, 后#LC)  (advmod, 出#VV, 再#AD)  (dep, 薄薄#VV, 出#VV)  (nummod, 全干#CD, 晒#CD)  (cc, 全干#CD, 至#CC)  (range, 出#VV, 全干#CD)  (dep, 入库#VV, 即#AD)  (dep, 入库#VV, 可#VV)  (dobj, 可#VV, 包装#NN)  (conj, 薄薄#VV, 入库#VV)
+        </parsing>
+
+        <tag>
+            加工方法  采收鲜  加工淡菜  贻贝原料  单体状态  后用洗涤  海水洗涤  泥沙杂质  去掉杂质  即可  保证贝肉  掌握完整  薄薄  撒在席子  表层稍干  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/1b/42/82459_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1008 干贻贝.jpg
+    </picturelocalurl>
+
+</content>

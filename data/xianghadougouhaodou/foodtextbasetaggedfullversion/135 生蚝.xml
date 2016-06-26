@@ -1,0 +1,326 @@
+<content>
+
+    <id>
+        135
+    </id>
+
+    <foodname>
+        生蚝
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        牡蛎、蛎蛤、左顾牡蛎、牡蛤、海蛎子壳、海蛎子皮、左壳、海蛎子、蛎黄、鲜蚵、古贲
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            急慢性皮肤病患者忌食；脾胃虚寒，慢性腹泻便池者不宜多吃。　
+        </rawdata>
+
+        <segment>
+            急慢性  皮肤病  患者  忌食  ；  脾胃  虚寒  ，  慢性  腹泻  便池  者  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            急慢性#NN  皮肤病#NN  患者#NN  忌食#VV  ；#PU  脾胃#NR  虚寒#VV  ，#PU  慢性#NN  腹泻#NN  便池#NN  者#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 急慢性#NN)  (nn, 患者#NN, 皮肤病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (nsubj, 虚寒#VV, 脾胃#NR)  (ccomp, 忌食#VV, 虚寒#VV)  (nn, 便池#NN, 慢性#NN)  (nn, 便池#NN, 腹泻#NN)  (nn, 者#NN, 便池#NN)  (nsubj, 吃#VV, 者#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (ccomp, 虚寒#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+            急慢性皮肤病  患者  忌食  脾胃虚寒  慢性腹泻便池者不宜多吃  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜体质虚弱儿童，肺门淋巴结核、颈淋巴结核，瘰疬者，阴虚烦热失眠，心神不安者宜食；癌症患者及放疗、化疗后者，糖尿病、干燥综合症患者，高血压、动脉硬化、高脂血症患者，妇女更年期综合症和怀孕期间。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  体质  虚弱  儿童  ，  肺门  淋巴  结核  、  颈淋巴  结核  ，  瘰疬  者  ，  阴虚  烦  热  失眠  ，  心神不安  者  宜食  ；  癌症  患者  及  放疗  、  化疗  后者  ，  糖尿病  、  干燥  综合症  患者  ，  高血压  、  动脉  硬化  、  高  脂血症  患者  ，  妇女  更年期  综合症  和  怀孕  期间  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NR  适宜#VV  体质#VV  虚弱#NN  儿童#NN  ，#PU  肺门#NR  淋巴#NN  结核#NN  、#PU  颈淋巴#NN  结核#NN  ，#PU  瘰疬#NN  者#NN  ，#PU  阴虚#NR  烦#NR  热#NN  失眠#NN  ，#PU  心神不安#NR  者#NN  宜食#NN  ；#PU  癌症#NN  患者#NN  及#CC  放疗#NN  、#PU  化疗#NN  后者#NN  ，#PU  糖尿病#NN  、#PU  干燥#NR  综合症#NN  患者#NN  ，#PU  高血压#NN  、#PU  动脉#NN  硬化#NN  、#PU  高#JJ  脂血症#NN  患者#NN  ，#PU  妇女#NN  更年期#NN  综合症#NN  和#CC  怀孕#VV  期间#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 体质#VV, 尤#NR)  (mmod, 体质#VV, 适宜#VV)  (root, ROOT#null, 体质#VV)  (nn, 儿童#NN, 虚弱#NN)  (dep, 综合症#NN, 儿童#NN)  (nn, 结核#NN, 肺门#NR)  (nn, 结核#NN, 淋巴#NN)  (conj, 综合症#NN, 结核#NN)  (nn, 结核#NN, 颈淋巴#NN)  (dep, 综合症#NN, 结核#NN)  (nn, 者#NN, 瘰疬#NN)  (dep, 综合症#NN, 者#NN)  (nn, 失眠#NN, 阴虚#NR)  (nn, 失眠#NN, 烦#NR)  (nn, 失眠#NN, 热#NN)  (dep, 综合症#NN, 失眠#NN)  (nn, 宜食#NN, 心神不安#NR)  (nn, 宜食#NN, 者#NN)  (dep, 综合症#NN, 宜食#NN)  (nn, 放疗#NN, 癌症#NN)  (conj, 放疗#NN, 患者#NN)  (cc, 放疗#NN, 及#CC)  (conj, 综合症#NN, 放疗#NN)  (nn, 后者#NN, 化疗#NN)  (dep, 综合症#NN, 后者#NN)  (conj, 综合症#NN, 糖尿病#NN)  (nn, 患者#NN, 干燥#NR)  (nn, 患者#NN, 综合症#NN)  (dep, 综合症#NN, 患者#NN)  (conj, 综合症#NN, 高血压#NN)  (nn, 硬化#NN, 动脉#NN)  (conj, 综合症#NN, 硬化#NN)  (amod, 患者#NN, 高#JJ)  (nn, 患者#NN, 脂血症#NN)  (dep, 综合症#NN, 患者#NN)  (nn, 综合症#NN, 妇女#NN)  (nn, 综合症#NN, 更年期#NN)  (dobj, 体质#VV, 综合症#NN)  (cc, 体质#VV, 和#CC)  (conj, 体质#VV, 怀孕#VV)  (dobj, 怀孕#VV, 期间#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  体质虚弱儿童  肺门淋巴结核  颈淋巴结核  瘰疬者  阴虚烦热失眠  心神不安者宜食  癌症  患者  放疗  化疗后者  糖尿病  干燥综合症  患者  高血压  动脉硬化  高脂血症  患者  妇女更年期综合症  怀孕期间  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                10.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                94
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                100
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                375
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                270
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                71.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                41.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                11.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            生蚝是牡蛎品种中个头比较大的品种之一，个头大的一个带壳就能在一市斤以上，它一般是生长或者是养殖在江河与大海交融之处，在半咸半淡的内湾浅海上。由于适合生长条件的限制，它的数量上比其它品种的少，因此它的经济价位一般比较高。　
+            牡蛎，属牡蛎科或燕蛤科，双壳类软体动物，分布于温带和热带各大洋沿岸水域。牡蛎于西元前即已养殖以供食用；珍珠可在珍珠牡蛎的外套膜中产生。牡蛎的两壳形状不同，表面粗糙，暗灰色；上壳中部隆起；下壳附著于其他物体上，较大，颇扁，边缘较光滑；两壳的内面均白色光滑。两壳于较窄的一端以一条有弹性的韧带相连。
+        </rawdata>
+
+        <segment>
+            生蚝  是  牡蛎  品种  中  个头  比较  大  的  品种  之一  ，  个头  大  的  一  个  带  壳  就  能  在  一  市  斤  以上  ，  它  一般  是  生长  或者是  养殖  在  江河  与  大海  交融  之  处  ，  在  半  咸  半  淡的  内湾  浅  海上  。  由于  适合  生长  条件  的  限制  ，  它  的  数量  上  比  其它  品种  的  少  ，  因此  它  的  经济  价位  一般  比较  高  。
+            牡蛎  ，  属  牡蛎科  或  燕蛤科  ，  双  壳  类  软体  动物  ，  分布  于  温带  和  热带  各  大洋  沿岸  水域  。  牡蛎  于  西元前  即已  养殖  以供  食用  ；  珍珠  可  在  珍珠  牡蛎  的  外套  膜  中  产生  。  牡蛎  的  两  壳  形状  不同  ，  表面  粗糙  ，  暗灰色  ；  上壳  中部  隆起  ；  下壳  附著  于  其他  物体  上  ，  较  大  ，  颇  扁  ，  边缘  较  光滑  ；  两  壳  的  内面  均  白色  光滑  。  两  壳  于  较窄  的  一  端  以  一  条  有  弹性  的  韧带  相连  。
+        </segment>
+
+        <pos>
+            生蚝#NN  是#VC  牡蛎#NN  品种#NN  中#LC  个头#NN  比较#AD  大#VA  的#DEC  品种#NN  之一#NN  ，#PU  个头#AD  大#VA  的#DEC  一#CD  个#M  带#NN  壳#NN  就#AD  能#VV  在#P  一#CD  市#NN  斤#NN  以上#LC  ，#PU  它#PN  一般#AD  是#VC  生长#NN  或者是#NN  养殖#NN  在#P  江河#NN  与#CC  大海#NN  交融#VV  之#DEC  处#NN  ，#PU  在#P  半#CD  咸#NN  半#CD  淡的#NN  内湾#VV  浅#NN  海上#NN    。#PU  由于#P  适合#VV  生长#NN  条件#NN  的#DEG  限制#NN  ，#PU  它#PN  的#DEG  数量#NN  上#LC  比#P  其它#DT  品种#NN  的#DEG  少#VA  ，#PU  因此#AD  它#PN  的#DEG  经济#NN  价位#NN  一般#AD  比较#AD  高#VA    。#PU    。#PU
+            牡蛎#NN  ，#PU  属#VV  牡蛎科#NN  或#CC  燕蛤科#NN  ，#PU  双#CD  壳#NN  类#NN  软体#JJ  动物#NN  ，#PU  分布#VV  于#P  温带#NN  和#CC  热带#NN  各#DT  大洋#NN  沿岸#NN  水域#NN    。#PU  牡蛎#NN  于#P  西元前#NN  即已#NN  养殖#NN  以供#NN  食用#VV  ；#PU  珍珠#AD  可#VV  在#P  珍珠#NN  牡蛎#NN  的#DEG  外套#NN  膜#NN  中#LC  产生#VV    。#PU  牡蛎#NN  的#DEG  两#CD  壳#NN  形状#NN  不同#VA  ，#PU  表面#VA  粗糙#VA  ，#PU  暗灰色#VA  ；#PU  上壳#VV  中部#NN  隆起#NN  ；#PU  下壳#NN  附著#NN  于#P  其他#DT  物体#NN  上#LC  ，#PU  较#AD  大#VA  ，#PU  颇#AD  扁#VA  ，#PU  边缘#NN  较#AD  光滑#VA  ；#PU  两#CD  壳#NN  的#DEG  内面#NN  均#AD  白色#JJ  光滑#NN    。#PU  两#CD  壳#NN  于#P  较窄#NN  的#DEG  一#CD  端#NN  以#P  一#CD  条#M  有#VE  弹性#NN  的#DEC  韧带#NN  相连#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 之一#NN, 生蚝#NN)  (cop, 之一#NN, 是#VC)  (nn, 品种#NN, 牡蛎#NN)  (loc, 大#VA, 品种#NN)  (case, 品种#NN, 中#LC)  (nsubj, 大#VA, 个头#NN)  (advmod, 大#VA, 比较#AD)  (relcl, 之一#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nn, 之一#NN, 品种#NN)  (root, ROOT#null, 之一#NN)  (advmod, 大#VA, 个头#AD)  (relcl, 壳#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 壳#NN, 个#M)  (nn, 壳#NN, 带#NN)  (nsubj, 能#VV, 壳#NN)  (advmod, 能#VV, 就#AD)  (conj, 之一#NN, 能#VV)  (case, 斤#NN, 在#P)  (nummod, 市#NN, 一#CD)  (nn, 斤#NN, 市#NN)  (prep, 处#NN, 斤#NN)  (case, 斤#NN, 以上#LC)  (nsubj, 处#NN, 它#PN)  (advmod, 处#NN, 一般#AD)  (cop, 处#NN, 是#VC)  (nn, 养殖#NN, 生长#NN)  (nn, 养殖#NN, 或者是#NN)  (nsubj, 交融#VV, 养殖#NN)  (case, 大海#NN, 在#P)  (conj, 大海#NN, 江河#NN)  (cc, 大海#NN, 与#CC)  (prep, 交融#VV, 大海#NN)  (relcl, 处#NN, 交融#VV)  (mark, 交融#VV, 之#DEC)  (dep, 之一#NN, 处#NN)  (case, 淡的#NN, 在#P)  (nummod, 咸#NN, 半#CD)  (nn, 淡的#NN, 咸#NN)  (nummod, 淡的#NN, 半#CD)  (prep, 内湾#VV, 淡的#NN)  (dep, 处#NN, 内湾#VV)  (nn, 海上#NN, 浅#NN)  (dobj, 内湾#VV, 海上#NN)   (case, 适合#VV, 由于#P)  (prep, 少#VA, 适合#VV)  (nn, 条件#NN, 生长#NN)  (assmod, 限制#NN, 条件#NN)  (case, 条件#NN, 的#DEG)  (dobj, 适合#VV, 限制#NN)  (assmod, 数量#NN, 它#PN)  (case, 它#PN, 的#DEG)  (loc, 少#VA, 数量#NN)  (case, 数量#NN, 上#LC)  (case, 品种#NN, 比#P)  (det, 品种#NN, 其它#DT)  (prep, 少#VA, 品种#NN)  (case, 品种#NN, 的#DEG)  (root, ROOT#null, 少#VA)  (advmod, 高#VA, 因此#AD)  (assmod, 价位#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 价位#NN, 经济#NN)  (nsubj, 高#VA, 价位#NN)  (advmod, 高#VA, 一般#AD)  (advmod, 高#VA, 比较#AD)  (conj, 少#VA, 高#VA)   (root, ROOT#null, null#null)
+            (nsubj, 属#VV, 牡蛎#NN)  (root, ROOT#null, 属#VV)  (conj, 燕蛤科#NN, 牡蛎科#NN)  (cc, 燕蛤科#NN, 或#CC)  (dobj, 属#VV, 燕蛤科#NN)  (nummod, 壳#NN, 双#CD)  (nn, 类#NN, 壳#NN)  (nn, 动物#NN, 类#NN)  (amod, 动物#NN, 软体#JJ)  (nsubj, 分布#VV, 动物#NN)  (conj, 属#VV, 分布#VV)  (case, 水域#NN, 于#P)  (conj, 热带#NN, 温带#NN)  (cc, 热带#NN, 和#CC)  (nn, 水域#NN, 热带#NN)  (det, 水域#NN, 各#DT)  (nn, 水域#NN, 大洋#NN)  (nn, 水域#NN, 沿岸#NN)  (prep, 分布#VV, 水域#NN)   (nsubj, 食用#VV, 牡蛎#NN)  (case, 以供#NN, 于#P)  (nn, 以供#NN, 西元前#NN)  (nn, 以供#NN, 即已#NN)  (nn, 以供#NN, 养殖#NN)  (prep, 食用#VV, 以供#NN)  (root, ROOT#null, 食用#VV)  (advmod, 产生#VV, 珍珠#AD)  (mmod, 产生#VV, 可#VV)  (case, 膜#NN, 在#P)  (nn, 牡蛎#NN, 珍珠#NN)  (assmod, 膜#NN, 牡蛎#NN)  (case, 牡蛎#NN, 的#DEG)  (nn, 膜#NN, 外套#NN)  (prep, 产生#VV, 膜#NN)  (case, 膜#NN, 中#LC)  (conj, 食用#VV, 产生#VV)   (assmod, 形状#NN, 牡蛎#NN)  (case, 牡蛎#NN, 的#DEG)  (nummod, 形状#NN, 两#CD)  (nn, 形状#NN, 壳#NN)  (nsubj, 不同#VA, 形状#NN)  (root, ROOT#null, 不同#VA)  (conj, 不同#VA, 表面#VA)  (comod, 表面#VA, 粗糙#VA)  (conj, 表面#VA, 暗灰色#VA)  (conj, 表面#VA, 上壳#VV)  (nn, 隆起#NN, 中部#NN)  (dobj, 上壳#VV, 隆起#NN)  (nn, 附著#NN, 下壳#NN)  (nsubj, 大#VA, 附著#NN)  (case, 物体#NN, 于#P)  (det, 物体#NN, 其他#DT)  (prep, 大#VA, 物体#NN)  (case, 物体#NN, 上#LC)  (advmod, 大#VA, 较#AD)  (conj, 表面#VA, 大#VA)  (advmod, 扁#VA, 颇#AD)  (dep, 大#VA, 扁#VA)  (nsubj, 光滑#VA, 边缘#NN)  (advmod, 光滑#VA, 较#AD)  (conj, 表面#VA, 光滑#VA)  (nummod, 壳#NN, 两#CD)  (assmod, 内面#NN, 壳#NN)  (case, 壳#NN, 的#DEG)  (nsubj, 光滑#NN, 内面#NN)  (advmod, 光滑#NN, 均#AD)  (amod, 光滑#NN, 白色#JJ)  (conj, 表面#VA, 光滑#NN)   (nummod, 壳#NN, 两#CD)  (nsubj, 相连#VV, 壳#NN)  (case, 端#NN, 于#P)  (assmod, 端#NN, 较窄#NN)  (case, 较窄#NN, 的#DEG)  (nummod, 端#NN, 一#CD)  (prep, 相连#VV, 端#NN)  (case, 韧带#NN, 以#P)  (nummod, 条#M, 一#CD)  (clf, 韧带#NN, 条#M)  (relcl, 韧带#NN, 有#VE)  (dobj, 有#VE, 弹性#NN)  (mark, 有#VE, 的#DEC)  (prep, 相连#VV, 韧带#NN)  (root, ROOT#null, 相连#VV)
+        </parsing>
+
+        <tag>
+            牡蛎品种  生长养殖  大海  江河  交融处  内湾海上  生长条件  适合限制  经济价位  燕蛤科  牡蛎科  软体动物  温带  热带水域  大洋水域  沿岸水域  食用  珍珠牡蛎  形状不同  粗糙表面  中部隆起  上壳隆起  下壳附著  边缘光滑  白色光滑  相连  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            生蚝味咸、涩，性微寒；归肝、心、肾经；质重镇降，可散可收；是唯一可以生食的贝类。具有平肝潜阳，镇惊安神，软坚散结，收敛固涩的功效；主治眩晕耳鸣，手足振颤，心悸失眠，烦躁不安，惊痫癫狂，瘰疬瘿瘤，乳房结块，自汗盗汗，遗精尿频，崩漏带下，吞酸胃痛，湿疹疮疡。　
+        </rawdata>
+
+        <segment>
+            生蚝味  咸  、  涩  ，  性微寒  ；  归肝  、  心  、  肾经  ；  质  重镇  降  ，  可  散  可收  ；  是  唯一  可以  生食  的  贝类  。  具有  平肝潜阳  ，  镇惊  安神  ，  软坚  散结  ，  收敛固  涩的  功效  ；  主治  眩晕  耳鸣  ，  手足  振颤  ，  心悸  失眠  ，  烦躁不安  ，  惊痫  癫狂  ，  瘰疬  瘿瘤  ，  乳房  结块  ，  自  汗  盗汗  ，  遗精  尿频  ，  崩漏  带下  ，  吞酸  胃痛  ，  湿疹  疮疡  。
+        </segment>
+
+        <pos>
+            生蚝味#VV  咸#NN  、#PU  涩#NN  ，#PU  性微寒#VV  ；#PU  归肝#NN  、#PU  心#NN  、#PU  肾经#NN  ；#PU  质#NN  重镇#NN  降#VV  ，#PU  可#VV  散#JJ  可收#NN  ；#PU  是#VC  唯一#JJ  可以#VV  生食#NN  的#DEC  贝类#NN    。#PU  具有#VV  平肝潜阳#NN  ，#PU  镇惊#AD  安神#VV  ，#PU  软坚#VV  散结#NN  ，#PU  收敛固#VV  涩的#NN  功效#NN  ；#PU  主治#VV  眩晕#NN  耳鸣#NN  ，#PU  手足#VV  振颤#NN  ，#PU  心悸#VV  失眠#NN  ，#PU  烦躁不安#VV  ，#PU  惊痫#VV  癫狂#NN  ，#PU  瘰疬#VV  瘿瘤#NN  ，#PU  乳房#VV  结块#NN  ，#PU  自#P  汗#NN  盗汗#VV  ，#PU  遗精#VV  尿频#NN  ，#PU  崩漏#VV  带下#NN  ，#PU  吞酸#VV  胃痛#NN  ，#PU  湿疹#VV  疮疡#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 生蚝味#VV)  (conj, 涩#NN, 咸#NN)  (dobj, 生蚝味#VV, 涩#NN)  (conj, 生蚝味#VV, 性微寒#VV)  (conj, 肾经#NN, 归肝#NN)  (conj, 肾经#NN, 心#NN)  (dobj, 性微寒#VV, 肾经#NN)  (nn, 重镇#NN, 质#NN)  (nsubj, 降#VV, 重镇#NN)  (dep, 生蚝味#VV, 降#VV)  (conj, 生蚝味#VV, 可#VV)  (amod, 可收#NN, 散#JJ)  (dobj, 可#VV, 可收#NN)  (cop, 贝类#NN, 是#VC)  (amod, 贝类#NN, 唯一#JJ)  (relcl, 贝类#NN, 可以#VV)  (dobj, 可以#VV, 生食#NN)  (mark, 可以#VV, 的#DEC)  (dep, 生蚝味#VV, 贝类#NN)   (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 平肝潜阳#NN)  (advmod, 安神#VV, 镇惊#AD)  (conj, 具有#VV, 安神#VV)  (conj, 安神#VV, 软坚#VV)  (dobj, 软坚#VV, 散结#NN)  (conj, 安神#VV, 收敛固#VV)  (nn, 功效#NN, 涩的#NN)  (dobj, 收敛固#VV, 功效#NN)  (conj, 安神#VV, 主治#VV)  (nn, 耳鸣#NN, 眩晕#NN)  (dobj, 主治#VV, 耳鸣#NN)  (conj, 安神#VV, 手足#VV)  (dobj, 手足#VV, 振颤#NN)  (conj, 安神#VV, 心悸#VV)  (dobj, 心悸#VV, 失眠#NN)  (conj, 安神#VV, 烦躁不安#VV)  (conj, 安神#VV, 惊痫#VV)  (dobj, 惊痫#VV, 癫狂#NN)  (conj, 安神#VV, 瘰疬#VV)  (dobj, 瘰疬#VV, 瘿瘤#NN)  (conj, 安神#VV, 乳房#VV)  (dobj, 乳房#VV, 结块#NN)  (case, 汗#NN, 自#P)  (prep, 盗汗#VV, 汗#NN)  (conj, 安神#VV, 盗汗#VV)  (conj, 安神#VV, 遗精#VV)  (dobj, 遗精#VV, 尿频#NN)  (conj, 安神#VV, 崩漏#VV)  (dobj, 崩漏#VV, 带下#NN)  (conj, 安神#VV, 吞酸#VV)  (dobj, 吞酸#VV, 胃痛#NN)  (conj, 安神#VV, 湿疹#VV)  (dobj, 湿疹#VV, 疮疡#NN)
+        </parsing>
+
+        <tag>
+            归肝  性微寒肾经  散可收  唯一贝类  软坚散结  涩的功效  收敛固功效  眩晕耳鸣  主治耳鸣  手足振颤  心悸失眠  惊痫癫狂  瘰疬瘿瘤  乳房结块  遗精尿频  崩漏带下  吞酸胃痛  湿疹疮疡  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助改善记忆  延缓衰老  安神  增加骨密度  辅助降血压  美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.牡蛎是一种高蛋白、低脂肪、容易消化且营养丰富的食品，含有丰富的甘氨酸和一种名为肝糖原的糖类物质，它们的牡蛎美味的基础。
+            2.干牡蛎肉含蛋白质高达45%~57%、脂肪7%~11%、肝糖原19%~38%。此外，还含有多种维生素及牛磺酸和钙、磷、铁、锌等营养成分。其中钙含量接近牛奶，铁含量为牛奶的21倍。
+        </rawdata>
+
+        <segment>
+            牡蛎  是  一  种  高蛋白  、  低  脂肪  、  容易  消化  且  营养  丰富  的  食品  ，  含有  丰富  的  甘氨酸  和  一  种  名为  肝糖  原  的  糖类  物质  ，  它们  的  牡蛎  美味  的  基础  。
+            干  牡蛎  肉  含  蛋白质  高  达  45%  ~57%  、  脂肪  7%  ~  11%  、  肝糖  原  19%  ~38%  。  此外  ，  还  含有  多  种  维生素  及  牛磺酸  和  钙  、  磷  、  铁  、  锌  等  营养  成分  。  其中  钙  含量  接近  牛奶  ，  铁  含量  为  牛奶  的  21  倍  。
+        </segment>
+
+        <pos>
+            牡蛎#NN  是#VC  一#CD  种#M  高蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  容易#VA  消化#NN  且#CC  营养#VA  丰富#VA  的#DEC  食品#NN  ，#PU  含有#AD  丰富#VA  的#DEC  甘氨酸#NN  和#CC  一#CD  种#M  名为#NN  肝糖#VV  原#JJ  的#DEG  糖类#NN  物质#NN  ，#PU  它们#PN  的#DEG  牡蛎#NN  美味#NN  的#DEG  基础#NN  。#PU
+            干#VV  牡蛎#NN  肉#NN  含#VV  蛋白质#NN  高#AD  达#VV  45#CD  %#NN  ~#NN  57#CD  %#NN  、#PU  脂肪#NR  7#CD  %#NN  ~#NN  11#CD  %#NN  、#PU  肝糖#NR  原#JJ  19#CD  %#NN  ~#VV  38#CD  %#NN    。#PU  此外#AD  ，#PU  还#AD  含有#VV  多#CD  种#M  维生素#NN  及#CC  牛磺酸#NN  和#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  、#PU  锌#NN  等#ETC  营养#VA  成分#NN    。#PU  其中#NN  钙#NN  含量#NN  接近#VV  牛奶#NN  ，#PU  铁#NN  含量#NN  为#VC  牛奶#NN  的#DEG  21#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 牡蛎#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 高蛋白#NN, 种#M)  (conj, 食品#NN, 高蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 食品#NN, 脂肪#NN)  (nfincl, 消化#NN, 容易#VA)  (conj, 食品#NN, 消化#NN)  (cc, 食品#NN, 且#CC)  (relcl, 食品#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (root, ROOT#null, 食品#NN)  (advmod, 丰富#VA, 含有#AD)  (relcl, 甘氨酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 名为#NN, 甘氨酸#NN)  (cc, 名为#NN, 和#CC)  (nummod, 种#M, 一#CD)  (clf, 名为#NN, 种#M)  (nsubj, 肝糖#VV, 名为#NN)  (conj, 食品#NN, 肝糖#VV)  (assmod, 物质#NN, 原#JJ)  (case, 原#JJ, 的#DEG)  (nn, 物质#NN, 糖类#NN)  (dep, 基础#NN, 物质#NN)  (assmod, 美味#NN, 它们#PN)  (case, 它们#PN, 的#DEG)  (nn, 美味#NN, 牡蛎#NN)  (assmod, 基础#NN, 美味#NN)  (case, 美味#NN, 的#DEG)  (dobj, 肝糖#VV, 基础#NN)
+            (root, ROOT#null, 干#VV)  (nn, 肉#NN, 牡蛎#NN)  (dobj, 干#VV, 肉#NN)  (conj, 干#VV, 含#VV)  (dobj, 含#VV, 蛋白质#NN)  (advmod, 达#VV, 高#AD)  (dep, 干#VV, 达#VV)  (range, 达#VV, 45#CD)  (nn, ~#NN, %#NN)  (nummod, %#NN, 57#CD)  (conj, %#NN, %#NN)  (nn, %#NN, 脂肪#NR)  (nummod, %#NN, 7#CD)  (nn, ~#NN, %#NN)  (nummod, %#NN, 11#CD)  (conj, %#NN, %#NN)  (nn, %#NN, 肝糖#NR)  (amod, %#NN, 原#JJ)  (nummod, %#NN, 19#CD)  (nsubj, ~#VV, %#NN)  (nummod, %#NN, 38#CD)  (dobj, ~#VV, %#NN)   (advmod, 含有#VV, 此外#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 锌#NN, 种#M)  (conj, 锌#NN, 维生素#NN)  (cc, 锌#NN, 及#CC)  (conj, 锌#NN, 牛磺酸#NN)  (cc, 锌#NN, 和#CC)  (conj, 锌#NN, 钙#NN)  (conj, 锌#NN, 磷#NN)  (conj, 锌#NN, 铁#NN)  (nsubj, 成分#NN, 锌#NN)  (etc, 锌#NN, 等#ETC)  (nfincl, 成分#NN, 营养#VA)  (dep, 含有#VV, 成分#NN)   (nn, 含量#NN, 其中#NN)  (nn, 含量#NN, 钙#NN)  (nsubj, 接近#VV, 含量#NN)  (root, ROOT#null, 接近#VV)  (dobj, 接近#VV, 牛奶#NN)  (nn, 含量#NN, 铁#NN)  (nsubj, 为#VC, 含量#NN)  (conj, 接近#VV, 为#VC)  (assmod, 倍#M, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nummod, 倍#M, 21#CD)  (dep, 为#VC, 倍#M)
+        </parsing>
+
+        <tag>
+            高蛋白  低脂肪  消化  食品营养  营养丰富  甘氨酸丰富  名为  牡蛎美味  肝糖基础  含有  接近牛奶  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            牡蛎干泡发的方法：先准备一盆热水，将少许小苏打粉溶于热水中，然后把牡蛎干放在热水中浸泡。泡软了不仅容易洗干净而且能去掉牡蛎干的异味，洗好后用清水漂洗干净就可以了。
+        </rawdata>
+
+        <segment>
+            牡蛎  干  泡  发  的  方法  ：  先  准备  一  盆  热水  ，  将  少许  小  苏打粉  溶于  热水  中  ，  然后  把  牡蛎  干  放在  热水  中  浸泡  。  泡  软  了  不仅  容易  洗  干净  而且  能  去掉  牡蛎  干  的  异味  ，  洗好  后  用  清水  漂洗  干净  就  可以  了  。
+        </segment>
+
+        <pos>
+            牡蛎#NN  干#VV  泡#AD  发#VV  的#DEC  方法#NN  ：#PU  先#AD  准备#VV  一#CD  盆#NN  热水#NN  ，#PU  将#AD  少许#VV  小#JJ  苏打粉#NN  溶于#NN  热水#NN  中#LC  ，#PU  然后#AD  把#BA  牡蛎#NN  干#VV  放在#NN  热水#NN  中#LC  浸泡#NN    。#PU  泡#AD  软#VA  了#AS  不仅#AD  容易#VA  洗#VA  干净#VA  而且#CC  能#VV  去掉#VV  牡蛎#AD  干#VV  的#DEC  异味#NN  ，#PU  洗好#NN  后#LC  用#P  清水#NN  漂洗#NN  干净#VA  就#AD  可以#VV  了#AS    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 干#VV, 牡蛎#NN)  (root, ROOT#null, 干#VV)  (advmod, 发#VV, 泡#AD)  (relcl, 方法#NN, 发#VV)  (mark, 发#VV, 的#DEC)  (dobj, 干#VV, 方法#NN)  (advmod, 准备#VV, 先#AD)  (conj, 干#VV, 准备#VV)  (nummod, 盆#NN, 一#CD)  (nn, 热水#NN, 盆#NN)  (nsubj, 少许#VV, 热水#NN)  (advmod, 少许#VV, 将#AD)  (ccomp, 准备#VV, 少许#VV)  (amod, 苏打粉#NN, 小#JJ)  (nn, 热水#NN, 苏打粉#NN)  (nn, 热水#NN, 溶于#NN)  (loc, 少许#VV, 热水#NN)  (case, 热水#NN, 中#LC)  (advmod, 干#VV, 然后#AD)  (ba, 干#VV, 把#BA)  (nsubj, 干#VV, 牡蛎#NN)  (dep, 少许#VV, 干#VV)  (nn, 热水#NN, 放在#NN)  (dep, 浸泡#NN, 热水#NN)  (case, 热水#NN, 中#LC)  (dobj, 干#VV, 浸泡#NN)   (advmod, 软#VA, 泡#AD)  (root, ROOT#null, 软#VA)  (asp, 软#VA, 了#AS)  (advmod, 容易#VA, 不仅#AD)  (dep, 软#VA, 容易#VA)  (comod, 容易#VA, 洗#VA)  (comod, 容易#VA, 干净#VA)  (cc, 软#VA, 而且#CC)  (mmod, 去掉#VV, 能#VV)  (dep, 软#VA, 去掉#VV)  (advmod, 干#VV, 牡蛎#AD)  (relcl, 异味#NN, 干#VV)  (mark, 干#VV, 的#DEC)  (dobj, 去掉#VV, 异味#NN)  (loc, 干净#VA, 洗好#NN)  (case, 洗好#NN, 后#LC)  (case, 漂洗#NN, 用#P)  (nn, 漂洗#NN, 清水#NN)  (prep, 干净#VA, 漂洗#NN)  (dep, 软#VA, 干净#VA)  (advmod, 可以#VV, 就#AD)  (conj, 软#VA, 可以#VV)  (asp, 可以#VV, 了#AS)
+        </parsing>
+
+        <tag>
+            发方法  小苏打粉  苏打粉热水  溶于热水  放在热水  干净容易  干异味  去掉异味  清水漂洗  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101116004138.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\135 生蚝.jpg
+    </picturelocalurl>
+
+</content>

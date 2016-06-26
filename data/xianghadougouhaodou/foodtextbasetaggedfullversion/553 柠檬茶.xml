@@ -1,0 +1,238 @@
+<content>
+
+    <id>
+        553
+    </id>
+
+    <foodname>
+        柠檬茶
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        饮品
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群可食用
+        </rawdata>
+
+        <segment>
+            一般  人群  可食用
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  可食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 可食用#VV, 人群#NN)  (root, ROOT#null, 可食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群可食用  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            柠檬茶，以柠檬果片或加茶叶、蜂蜜、糖等制成的饮料。柠檬茶可以帮助排除体内垃圾，减少毒素，巩固瘦身效果。将柠檬在热水中稍微浸泡一下，然后切片泡水，添加蜂蜜，腌制在罐子里，口感更好。
+        </rawdata>
+
+        <segment>
+            柠檬茶  ，  以  柠檬  果片  或  加  茶叶  、  蜂蜜  、  糖  等  制成  的  饮料  。  柠檬茶  可以  帮助  排除  体内  垃圾  ，  减少  毒素  ，  巩固  瘦身  效果  。  将  柠檬  在  热水  中  稍微  浸泡  一下  ，  然后  切片  泡水  ，  添加  蜂蜜  ，  腌制  在  罐子  里  ，  口感  更  好  。
+        </segment>
+
+        <pos>
+            柠檬茶#VV  ，#PU  以#P  柠檬#NN  果片#NN  或#CC  加#NR  茶叶#NN  、#PU  蜂蜜#NN  、#PU  糖#NN  等#ETC  制成#VV  的#DEC  饮料#NN    。#PU  柠檬茶#NN  可以#VV  帮助#VV  排除#VV  体内#NN  垃圾#NN  ，#PU  减少#VV  毒素#NN  ，#PU  巩固#VV  瘦身#NN  效果#NN    。#PU  将#AD  柠檬#AD  在#P  热水#NN  中#LC  稍微#AD  浸泡#VV  一下#AD  ，#PU  然后#AD  切片#NN  泡水#VV  ，#PU  添加#VV  蜂蜜#NN  ，#PU  腌制#VV  在#P  罐子#NN  里#LC  ，#PU  口感#AD  更#AD  好#VA    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 饮料#NN, 柠檬茶#VV)  (case, 糖#NN, 以#P)  (nn, 糖#NN, 柠檬#NN)  (conj, 糖#NN, 果片#NN)  (cc, 糖#NN, 或#CC)  (nn, 糖#NN, 加#NR)  (conj, 糖#NN, 茶叶#NN)  (conj, 糖#NN, 蜂蜜#NN)  (prep, 制成#VV, 糖#NN)  (etc, 糖#NN, 等#ETC)  (dep, 柠檬茶#VV, 制成#VV)  (mark, 柠檬茶#VV, 的#DEC)  (root, ROOT#null, 饮料#NN)   (nsubj, 帮助#VV, 柠檬茶#NN)  (xsubj, 排除#VV, 柠檬茶#NN)  (mmod, 帮助#VV, 可以#VV)  (root, ROOT#null, 帮助#VV)  (ccomp, 帮助#VV, 排除#VV)  (nn, 垃圾#NN, 体内#NN)  (dobj, 排除#VV, 垃圾#NN)  (conj, 排除#VV, 减少#VV)  (dobj, 减少#VV, 毒素#NN)  (conj, 排除#VV, 巩固#VV)  (nn, 效果#NN, 瘦身#NN)  (dobj, 巩固#VV, 效果#NN)   (advmod, 浸泡#VV, 将#AD)  (advmod, 浸泡#VV, 柠檬#AD)  (case, 热水#NN, 在#P)  (prep, 浸泡#VV, 热水#NN)  (case, 热水#NN, 中#LC)  (advmod, 浸泡#VV, 稍微#AD)  (root, ROOT#null, 浸泡#VV)  (advmod, 浸泡#VV, 一下#AD)  (advmod, 泡水#VV, 然后#AD)  (prep, 泡水#VV, 切片#NN)  (conj, 浸泡#VV, 泡水#VV)  (dep, 浸泡#VV, 添加#VV)  (dobj, 添加#VV, 蜂蜜#NN)  (conj, 浸泡#VV, 腌制#VV)  (case, 罐子#NN, 在#P)  (prep, 腌制#VV, 罐子#NN)  (case, 罐子#NN, 里#LC)  (advmod, 好#VA, 口感#AD)  (advmod, 好#VA, 更#AD)  (conj, 浸泡#VV, 好#VA)
+        </parsing>
+
+        <tag>
+            帮助  体内垃圾  排除垃圾  减少毒素  瘦身效果  巩固效果  浸泡  添加蜂蜜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            生津止渴,化痰止咳,祛脂降压,消食,健脾,壮骨,发汗解表,消炎止痛,降糖消渴。
+            1.生津止渴：润喉去燥，使人清爽舒适。适宜口干、眼干、思虑过度、睡眠不足、讲话过多的人群。
+            2.化痰止咳：对咽喉部有良好的湿润和物理治疗作用，有利于局部炎症治愈，并能解除局部痒感，从而阻断咳嗽反射。
+            3.祛脂降压：使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。
+            4.消食：有助于胃酸的分泌和食物的消化，宜于治疗饮食积滞症。
+            5.健脾：适用于脾气虚弱，运化无力所致的脘腹胀满，大便溏泄，食欲不振，肢倦乏力等症。
+            6.壮骨：预防或是辅助治疗骨科疾病。
+            7.发汗解表：以发散风热为主，适用于发热重，微恶寒，头痛，咽喉肿痛，口渴，舌尖红，苔薄黄，脉浮数的风热表症。
+            8.消炎止痛：舒缓疼痛，减少疼痛感。
+            9.降糖消渴：有降低血糖的作用，促进糖分分解，具有使过剩糖分转化为热量的作用，改善体内的脂肪平衡。
+            柠檬可说是一种神奇的药果，对健康有很大的益处。柠檬茶的vc可渗透细胞清除毒素及废物，包括铅、汞、辐射物、农药、尿酸、酒精等有害之物质排出体外。
+            1、女性护肤圣品
+            柠檬具对肌肤美白、皮肤老化，具有极佳的效果。这是因为柠檬茶中含有丰富的柠檬酸，有机酸还有维他命C 和果酸以及维生素。据研究表明柠檬酸可以有效防止和消除皮肤色素沉着，有机酸能与肌肤表面的碱性物中和，从而防止和清除肌肤中的色素沉淀，起到去除油脂污垢的作用。维他命C和果酸，对于抗菌、软化及清洁皮肤都可以发挥强大的作用，还可以深层洁净及增加脸部弹性。
+            2、提高工作效率
+            柠檬茶可以解除疲劳，还可以促进思考提高工作效率。柠檬茶当中含有丰富的水溶性维生素C，可以有效的促进血液循环，尤其是脑部的血液，从而增强细胞的活力，提高注意力和思考能力，甚至对于人体的记忆力也有显著的提高。
+            3、心血管患者的福音
+            柠檬茶能防治心血管疾病和降低血糖。柠檬的成分中含有大量的柠檬酸，它可以和钙离子结合形成可溶性的物质，从而可以防止血液的凝固，保持血液畅通，此外，柠檬酸还可以加强毛细血管的功能，促进凝血，增加血小板的数量，因此也具有十分显著的止血功效。
+        </rawdata>
+
+        <segment>
+            生津止渴  ,  化痰  止咳  ,  祛脂  降压  ,  消食  ,  健脾  ,  壮骨  ,  发汗  解表  ,  消炎  止痛  ,  降糖  消渴  。
+            生津止渴  ：  润喉  去燥  ，  使  人  清爽  舒适  。  适宜  口干  、  眼  干  、  思虑  过度  、  睡眠  不足  、  讲话  过多  的  人群  。
+            化痰  止咳  ：  对  咽喉  部  有  良好  的  湿润  和  物理  治疗  作用  ，  有利于  局部  炎症  治愈  ，  并  能  解除  局部  痒感  ，  从而  阻断  咳嗽  反射  。
+            祛脂  降压  ：  使  血压  更易  控制  ，  并  使  毛细管  扩张  ，  血  黏度  降低  ，  微循环  改善  。
+            消食  ：  有助于  胃酸  的  分泌  和  食物  的  消化  ，  宜于  治疗  饮食  积  滞症  。
+            健脾  ：  适用于  脾气  虚弱  ，  运化  无力  所致  的  脘腹  胀满  ，  大便  溏泄  ，  食欲不振  ，  肢  倦乏  力等症  。
+            壮骨  ：  预防  或是  辅助  治疗  骨科  疾病  。
+            发汗  解表  ：  以  发散  风热  为主  ，  适用于  发热重  ，  微恶寒  ，  头痛  ，  咽喉  肿痛  ，  口渴  ，  舌尖  红  ，  苔薄  黄  ，  脉浮  数  的  风热表症  。
+            消炎  止痛  ：  舒缓  疼痛  ，  减少  疼  痛感  。
+            降糖  消渴  ：  有  降低  血糖  的  作用  ，  促进  糖分  分解  ，  具有  使  过剩  糖分  转化  为  热量  的  作用  ，  改善  体内  的  脂肪  平衡  。
+            柠檬  可  说  是  一  种  神奇  的  药果  ，  对  健康  有  很  大  的  益处  。  柠檬  茶  的  vc  可  渗透  细胞  清除  毒素  及  废物  ，  包括  铅  、  汞  、  辐射  物  、  农药  、  尿酸  、  酒精  等  有害  之  物质  排出  体外  。
+            女性  护肤  圣品
+            柠檬  具  对  肌肤  美白  、  皮肤  老化  ，  具有  极  佳  的  效果  。  这  是  因为  柠檬茶  中  含有  丰富  的  柠檬酸  ，  有机酸  还有  维他命  C  和  果酸  以及  维生素  。  据  研究  表明  柠檬酸  可以  有效  防止  和  消除  皮肤  色素  沉着  ，  有机酸  能  与  肌肤  表面  的  碱性  物  中和  ，  从而  防止  和  清除  肌肤  中  的  色素  沉淀  ，  起到  去除  油脂  污垢  的  作用  。  维他命  C  和  果酸  ，  对于  抗菌  、  软化  及  清洁  皮肤  都  可以  发挥  强大  的  作用  ，  还  可以  深层  洁净  及  增加  脸部  弹性  。
+            提高  工作  效率
+            柠檬茶  可以  解除  疲劳  ，  还  可以  促进  思考  提高  工作  效率  。  柠檬茶  当中  含有  丰富  的  水溶性  维生素C  ，  可以  有效  的  促进  血液  循环  ，  尤其是  脑部  的  血液  ，  从而  增强  细胞  的  活力  ，  提高  注意力  和  思考  能力  ，  甚至  对于  人体  的  记忆力  也  有  显著  的  提高  。
+            心血管  患者  的  福音
+            柠檬茶  能  防治  心  血管  疾病  和  降低  血糖  。  柠檬  的  成分  中  含有  大量  的  柠檬酸  ，  它  可以  和  钙  离子  结合  形成  可溶性  的  物质  ，  从而  可以  防止  血液  的  凝固  ，  保持  血液  畅通  ，  此外  ，  柠檬酸  还  可以  加强  毛细血管  的  功能  ，  促进  凝血  ，  增加  血小板  的  数量  ，  因此  也  具有  十分  显著  的  止血  功效  。
+        </segment>
+
+        <pos>
+            生津止渴#NN  ,#NN  化痰#NN  止咳#NN  ,#NN  祛脂#NN  降压#NN  ,#NN  消食#NN  ,#NN  健脾#NN  ,#NN  壮骨#NN  ,#NN  发汗#NN  解表#NN  ,#NN  消炎#NN  止痛#NN  ,#VV  降糖#JJ  消渴#NN  。#PU
+            生津止渴#VV  ：#PU  润喉#NN  去燥#NN  ，#PU  使#VV  人#NN  清爽#NN  舒适#VA    。#PU  适宜#VA  口干#VA  、#PU  眼#NN  干#VV  、#PU  思虑#NN  过度#AD  、#PU  睡眠#AD  不足#VA  、#PU  讲话#VV  过多#NN  的#DEC  人群#NN    。#PU    。#PU
+            化痰#NR  止咳#VV  ：#PU  对#P  咽喉#NN  部#NN  有#VE  良好#VA  的#DEC  湿润#NN  和#CC  物理#NN  治疗#NN  作用#NN  ，#PU  有利于#VV  局部#JJ  炎症#NN  治愈#NN  ，#PU  并#CC  能#VV  解除#VV  局部#JJ  痒感#NN  ，#PU  从而#AD  阻断#VV  咳嗽#NN  反射#NN  。#PU
+            祛脂#NR  降压#VV  ：#PU  使#VV  血压#NN  更易#AD  控制#VV  ，#PU  并#CC  使#VV  毛细管#NN  扩张#NN  ，#PU  血#NN  黏度#AD  降低#VV  ，#PU  微循环#NN  改善#VV  。#PU
+            消食#VV  ：#PU  有助于#VV  胃酸#NN  的#DEG  分泌#NN  和#CC  食物#NN  的#DEC  消化#NN  ，#PU  宜于#AD  治疗#VV  饮食#NN  积#VV  滞症#NN  。#PU
+            健脾#VV  ：#PU  适用于#VV  脾气#NN  虚弱#NN  ，#PU  运化#VV  无力#NN  所致#NN  的#DEG  脘腹#NN  胀满#NN  ，#PU  大便#VV  溏泄#NN  ，#PU  食欲不振#VV  ，#PU  肢#VV  倦乏#NN  力等症#NN  。#PU
+            壮骨#VV  ：#PU  预防#VV  或是#NN  辅助#NN  治疗#VV  骨科#NN  疾病#NN  。#PU
+            发汗#NR  解表#VV  ：#PU  以#P  发散#NN  风热#NN  为主#VV  ，#PU  适用于#VV  发热重#NN  ，#PU  微恶寒#VV  ，#PU  头痛#VV  ，#PU  咽喉#NN  肿痛#VV  ，#PU  口渴#VV  ，#PU  舌尖#AD  红#VA  ，#PU  苔薄#VV  黄#NR  ，#PU  脉浮#VV  数#NN  的#DEG  风热表症#NN  。#PU
+            消炎#NR  止痛#VV  ：#PU  舒缓#VV  疼痛#NN  ，#PU  减少#VV  疼#NN  痛感#NN  。#PU
+            降糖#JJ  消渴#NN  ：#PU  有#VE  降低#VV  血糖#NN  的#DEC  作用#NN  ，#PU  促进#VV  糖分#AD  分解#VV  ，#PU  具有#VV  使#VV  过剩#NN  糖分#NN  转化#NN  为#VV  热量#NN  的#DEC  作用#NN  ，#PU  改善#VV  体内#NN  的#DEC  脂肪#NN  平衡#NN  。#PU
+            柠檬#NN  可#VV  说#VV  是#VC  一#CD  种#M  神奇#JJ  的#DEG  药果#NN  ，#PU  对#P  健康#NN  有#VE  很#AD  大#VA  的#DEC  益处#NN    。#PU  柠檬#NN  茶#NN  的#DEG  vc#NN  可#VV  渗透#VV  细胞#NN  清除#VV  毒素#NN  及#CC  废物#NN  ，#PU  包括#VV  铅#NN  、#PU  汞#NN  、#PU  辐射#NN  物#NN  、#PU  农药#NN  、#PU  尿酸#NN  、#PU  酒精#NN  等#ETC  有害#NN  之#DEG  物质#NN  排出#NN  体外#NN    。#PU    。#PU
+            女性#NN  护肤#VV  圣品#NN
+            柠檬#AD  具#VV  对#P  肌肤#NN  美白#NN  、#PU  皮肤#VV  老化#NN  ，#PU  具有#VV  极#AD  佳#VA  的#DEC  效果#NN    。#PU  这#PN  是#VC  因为#P  柠檬茶#NN  中#LC  含有#VV  丰富#VA  的#DEC  柠檬酸#NN  ，#PU  有机酸#VV  还有#AD  维他命#NN  C#NN  和#CC  果酸#NN  以及#CC  维生素#NN    。#PU  据#P  研究#VV  表明#VV  柠檬酸#NN  可以#VV  有效#AD  防止#VV  和#CC  消除#VV  皮肤#NN  色素#NN  沉着#AD  ，#PU  有机酸#AD  能#VV  与#P  肌肤#NN  表面#NN  的#DEG  碱性#NN  物#NN  中和#NN  ，#PU  从而#AD  防止#VV  和#CC  清除#VV  肌肤#NN  中#LC  的#DEG  色素#NN  沉淀#NN  ，#PU  起到#VV  去除#NN  油脂#NN  污垢#NN  的#DEG  作用#NN    。#PU  维他命#VV  C#NN  和#CC  果酸#NN  ，#PU  对于#P  抗菌#NR  、#PU  软化#NR  及#CC  清洁#NR  皮肤#NR  都#AD  可以#VV  发挥#VV  强大#VA  的#DEC  作用#NN  ，#PU  还#AD  可以#VV  深层#VV  洁净#JJ  及#CC  增加#NN  脸部#NN  弹性#NN    。#PU    。#PU
+            提高#VV  工作#NN  效率#NN
+            柠檬茶#VV  可以#VV  解除#VV  疲劳#VA  ，#PU  还#AD  可以#VV  促进#VV  思考#NN  提高#VV  工作#NN  效率#NN    。#PU  柠檬茶#VV  当中#NN  含有#NN  丰富#VA  的#DEC  水溶性#NN  维生素C#NN  ，#PU  可以#VV  有效#VA  的#DEC  促进#VV  血液#NN  循环#NN  ，#PU  尤其是#AD  脑部#NN  的#DEC  血液#NN  ，#PU  从而#AD  增强#VV  细胞#NN  的#DEG  活力#NN  ，#PU  提高#VV  注意力#NN  和#CC  思考#NN  能力#NN  ，#PU  甚至#AD  对于#P  人体#NN  的#DEG  记忆力#NN  也#AD  有#VE  显著#JJ  的#DEG  提高#NN    。#PU    。#PU
+            心血管#VV  患者#NN  的#DEG  福音#NN
+            柠檬茶#NN  能#VV  防治#VV  心#NN  血管#NN  疾病#NN  和#CC  降低#VV  血糖#NN    。#PU  柠檬#NN  的#DEG  成分#NN  中#LC  含有#VV  大量#CD  的#DEG  柠檬酸#NN  ，#PU  它#PN  可以#VV  和#CC  钙#VV  离子#AD  结合#VV  形成#VV  可溶性#NN  的#DEC  物质#NN  ，#PU  从而#AD  可以#VV  防止#VV  血液#NN  的#DEC  凝固#NN  ，#PU  保持#VV  血液#NN  畅通#NN  ，#PU  此外#AD  ，#PU  柠檬酸#NN  还#AD  可以#VV  加强#VV  毛细血管#NN  的#DEG  功能#NN  ，#PU  促进#VV  凝血#NN  ，#PU  增加#VV  血小板#NN  的#DEG  数量#NN  ，#PU  因此#AD  也#AD  具有#VV  十分#AD  显著#VA  的#DEC  止血#NN  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 止痛#NN, 生津止渴#NN)  (nn, 止痛#NN, 化痰#NN)  (nn, 止痛#NN, 止咳#NN)  (nn, 止痛#NN, 祛脂#NN)  (nn, 止痛#NN, 降压#NN)  (nn, 止痛#NN, 消食#NN)  (nn, 止痛#NN, 健脾#NN)  (nn, 止痛#NN, 壮骨#NN)  (nn, 止痛#NN, 发汗#NN)  (nn, 止痛#NN, 解表#NN)  (nn, 止痛#NN, 消炎#NN)  (nsubj, ,#VV, 止痛#NN)  (root, ,#VV, 止痛#NN)  (amod, 消渴#NN, 降糖#JJ)  (dobj, 止痛#NN, 消渴#NN)  (dobj, ,#VV, 消渴#NN)
+            (root, ROOT#null, 生津止渴#VV)  (nn, 去燥#NN, 润喉#NN)  (nsubj, 使#VV, 去燥#NN)  (ccomp, 生津止渴#VV, 使#VV)  (nn, 清爽#NN, 人#NN)  (dobj, 使#VV, 清爽#NN)  (dep, 使#VV, 舒适#VA)   (relcl, 人群#NN, 适宜#VA)  (comod, 适宜#VA, 口干#VA)  (nsubj, 干#VV, 眼#NN)  (conj, 适宜#VA, 干#VV)  (nsubj, 不足#VA, 思虑#NN)  (advmod, 不足#VA, 过度#AD)  (conj, 过度#AD, 睡眠#AD)  (conj, 适宜#VA, 不足#VA)  (conj, 适宜#VA, 讲话#VV)  (dobj, 讲话#VV, 过多#NN)  (mark, 适宜#VA, 的#DEC)  (root, ROOT#null, 人群#NN)   (root, ROOT#null, null#null)
+            (nsubj, 止咳#VV, 化痰#NR)  (xsubj, 有#VE, 化痰#NR)  (root, ROOT#null, 止咳#VV)  (case, 部#NN, 对#P)  (nn, 部#NN, 咽喉#NN)  (prep, 有#VE, 部#NN)  (ccomp, 止咳#VV, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (conj, 治疗#NN, 湿润#NN)  (cc, 治疗#NN, 和#CC)  (nn, 治疗#NN, 物理#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (conj, 止咳#VV, 有利于#VV)  (amod, 炎症#NN, 局部#JJ)  (nn, 治愈#NN, 炎症#NN)  (dobj, 有利于#VV, 治愈#NN)  (cc, 有利于#VV, 并#CC)  (mmod, 解除#VV, 能#VV)  (conj, 有利于#VV, 解除#VV)  (amod, 痒感#NN, 局部#JJ)  (dobj, 解除#VV, 痒感#NN)  (advmod, 阻断#VV, 从而#AD)  (conj, 有利于#VV, 阻断#VV)  (nn, 反射#NN, 咳嗽#NN)  (dobj, 阻断#VV, 反射#NN)
+            (nsubj, 降压#VV, 祛脂#NR)  (xsubj, 使#VV, 祛脂#NR)  (root, ROOT#null, 降压#VV)  (ccomp, 降压#VV, 使#VV)  (dobj, 使#VV, 血压#NN)  (advmod, 控制#VV, 更易#AD)  (dep, 使#VV, 控制#VV)  (cc, 使#VV, 并#CC)  (conj, 使#VV, 使#VV)  (nn, 扩张#NN, 毛细管#NN)  (dobj, 使#VV, 扩张#NN)  (nsubj, 降低#VV, 血#NN)  (advmod, 降低#VV, 黏度#AD)  (dep, 使#VV, 降低#VV)  (nsubj, 改善#VV, 微循环#NN)  (conj, 降低#VV, 改善#VV)
+            (root, ROOT#null, 消食#VV)  (relcl, 消化#NN, 有助于#VV)  (assmod, 食物#NN, 胃酸#NN)  (case, 胃酸#NN, 的#DEG)  (conj, 食物#NN, 分泌#NN)  (cc, 食物#NN, 和#CC)  (dobj, 有助于#VV, 食物#NN)  (mark, 有助于#VV, 的#DEC)  (nsubj, 治疗#VV, 消化#NN)  (advmod, 治疗#VV, 宜于#AD)  (ccomp, 消食#VV, 治疗#VV)  (dobj, 治疗#VV, 饮食#NN)  (conj, 治疗#VV, 积#VV)  (dobj, 积#VV, 滞症#NN)
+            (root, ROOT#null, 健脾#VV)  (ccomp, 健脾#VV, 适用于#VV)  (nn, 虚弱#NN, 脾气#NN)  (dobj, 适用于#VV, 虚弱#NN)  (conj, 适用于#VV, 运化#VV)  (nn, 所致#NN, 无力#NN)  (assmod, 胀满#NN, 所致#NN)  (case, 所致#NN, 的#DEG)  (nn, 胀满#NN, 脘腹#NN)  (dobj, 运化#VV, 胀满#NN)  (conj, 适用于#VV, 大便#VV)  (dobj, 大便#VV, 溏泄#NN)  (conj, 适用于#VV, 食欲不振#VV)  (conj, 适用于#VV, 肢#VV)  (nn, 力等症#NN, 倦乏#NN)  (dobj, 肢#VV, 力等症#NN)
+            (root, ROOT#null, 壮骨#VV)  (ccomp, 壮骨#VV, 预防#VV)  (nn, 辅助#NN, 或是#NN)  (dobj, 预防#VV, 辅助#NN)  (conj, 预防#VV, 治疗#VV)  (nn, 疾病#NN, 骨科#NN)  (dobj, 治疗#VV, 疾病#NN)
+            (nsubj, 解表#VV, 发汗#NR)  (xsubj, 为主#VV, 发汗#NR)  (root, ROOT#null, 解表#VV)  (case, 风热#NN, 以#P)  (nn, 风热#NN, 发散#NN)  (prep, 为主#VV, 风热#NN)  (ccomp, 解表#VV, 为主#VV)  (conj, 为主#VV, 适用于#VV)  (dobj, 适用于#VV, 发热重#NN)  (conj, 为主#VV, 微恶寒#VV)  (conj, 为主#VV, 头痛#VV)  (dep, 肿痛#VV, 咽喉#NN)  (conj, 为主#VV, 肿痛#VV)  (conj, 为主#VV, 口渴#VV)  (advmod, 红#VA, 舌尖#AD)  (conj, 为主#VV, 红#VA)  (conj, 为主#VV, 苔薄#VV)  (dobj, 苔薄#VV, 黄#NR)  (conj, 为主#VV, 脉浮#VV)  (assmod, 风热表症#NN, 数#NN)  (case, 数#NN, 的#DEG)  (dobj, 脉浮#VV, 风热表症#NN)
+            (nsubj, 止痛#VV, 消炎#NR)  (xsubj, 舒缓#VV, 消炎#NR)  (root, ROOT#null, 止痛#VV)  (ccomp, 止痛#VV, 舒缓#VV)  (dobj, 舒缓#VV, 疼痛#NN)  (conj, 舒缓#VV, 减少#VV)  (nn, 痛感#NN, 疼#NN)  (dobj, 减少#VV, 痛感#NN)
+            (amod, 消渴#NN, 降糖#JJ)  (nsubj, 促进#VV, 消渴#NN)  (conj, 促进#VV, 有#VE)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (root, ROOT#null, 促进#VV)  (advmod, 分解#VV, 糖分#AD)  (relcl, 平衡#NN, 分解#VV)  (conj, 分解#VV, 具有#VV)  (relcl, 作用#NN, 使#VV)  (nn, 转化#NN, 过剩#NN)  (nn, 转化#NN, 糖分#NN)  (dobj, 使#VV, 转化#NN)  (dep, 使#VV, 为#VV)  (dobj, 为#VV, 热量#NN)  (mark, 使#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (conj, 分解#VV, 改善#VV)  (dobj, 改善#VV, 体内#NN)  (mark, 分解#VV, 的#DEC)  (nn, 平衡#NN, 脂肪#NN)  (dobj, 促进#VV, 平衡#NN)
+            (nsubj, 药果#NN, 柠檬#NN)  (xsubj, 药果#NN, 柠檬#NN)  (dep, 说#VV, 可#VV)  (dep, 药果#NN, 说#VV)  (cop, 药果#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 药果#NN, 种#M)  (assmod, 药果#NN, 神奇#JJ)  (case, 神奇#JJ, 的#DEG)  (root, ROOT#null, 药果#NN)  (case, 健康#NN, 对#P)  (prep, 有#VE, 健康#NN)  (conj, 药果#NN, 有#VE)  (advmod, 大#VA, 很#AD)  (relcl, 益处#NN, 大#VA)  (mark, 大#VA, 的#DEC)  (dobj, 有#VE, 益处#NN)   (nn, 茶#NN, 柠檬#NN)  (assmod, vc#NN, 茶#NN)  (case, 茶#NN, 的#DEG)  (nsubj, 渗透#VV, vc#NN)  (mmod, 渗透#VV, 可#VV)  (root, ROOT#null, 渗透#VV)  (dobj, 渗透#VV, 细胞#NN)  (conj, 渗透#VV, 清除#VV)  (conj, 废物#NN, 毒素#NN)  (cc, 废物#NN, 及#CC)  (dobj, 清除#VV, 废物#NN)  (conj, 渗透#VV, 包括#VV)  (conj, 酒精#NN, 铅#NN)  (conj, 酒精#NN, 汞#NN)  (nn, 酒精#NN, 辐射#NN)  (conj, 酒精#NN, 物#NN)  (conj, 酒精#NN, 农药#NN)  (conj, 酒精#NN, 尿酸#NN)  (nn, 有害#NN, 酒精#NN)  (etc, 酒精#NN, 等#ETC)  (assmod, 体外#NN, 有害#NN)  (case, 有害#NN, 之#DEG)  (nn, 体外#NN, 物质#NN)  (nn, 体外#NN, 排出#NN)  (dobj, 包括#VV, 体外#NN)   (root, ROOT#null, null#null)
+            (nsubj, 护肤#VV, 女性#NN)  (root, ROOT#null, 护肤#VV)  (dobj, 护肤#VV, 圣品#NN)
+            (advmod, 具#VV, 柠檬#AD)  (root, ROOT#null, 具#VV)  (case, 肌肤#NN, 对#P)  (prep, 美白#NN, 肌肤#NN)  (dobj, 具#VV, 美白#NN)  (conj, 具#VV, 皮肤#VV)  (dobj, 皮肤#VV, 老化#NN)  (conj, 具#VV, 具有#VV)  (advmod, 佳#VA, 极#AD)  (relcl, 效果#NN, 佳#VA)  (mark, 佳#VA, 的#DEC)  (dobj, 具有#VV, 效果#NN)   (nsubj, 是#VC, 这#PN)  (root, ROOT#null, 是#VC)  (case, 柠檬茶#NN, 因为#P)  (prep, 是#VC, 柠檬茶#NN)  (case, 柠檬茶#NN, 中#LC)  (dep, 是#VC, 含有#VV)  (relcl, 柠檬酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 柠檬酸#NN)  (conj, 含有#VV, 有机酸#VV)  (advmod, 维生素#NN, 还有#AD)  (nn, 维生素#NN, 维他命#NN)  (conj, 维生素#NN, C#NN)  (cc, 维生素#NN, 和#CC)  (conj, 维生素#NN, 果酸#NN)  (cc, 维生素#NN, 以及#CC)  (dobj, 有机酸#VV, 维生素#NN)   (case, 表明#VV, 据#P)  (mmod, 表明#VV, 研究#VV)  (prep, 能#VV, 表明#VV)  (dobj, 表明#VV, 柠檬酸#NN)  (mmod, 防止#VV, 可以#VV)  (advmod, 防止#VV, 有效#AD)  (dep, 表明#VV, 防止#VV)  (cc, 表明#VV, 和#CC)  (conj, 表明#VV, 消除#VV)  (nn, 色素#NN, 皮肤#NN)  (dobj, 消除#VV, 色素#NN)  (advmod, 能#VV, 沉着#AD)  (advmod, 能#VV, 有机酸#AD)  (root, ROOT#null, 能#VV)  (case, 表面#NN, 与#P)  (nn, 表面#NN, 肌肤#NN)  (assmod, 中和#NN, 表面#NN)  (case, 表面#NN, 的#DEG)  (nn, 中和#NN, 碱性#NN)  (nn, 中和#NN, 物#NN)  (dobj, 能#VV, 中和#NN)  (advmod, 防止#VV, 从而#AD)  (conj, 能#VV, 防止#VV)  (cc, 清除#VV, 和#CC)  (ccomp, 防止#VV, 清除#VV)  (assmod, 沉淀#NN, 肌肤#NN)  (case, 肌肤#NN, 中#LC)  (case, 肌肤#NN, 的#DEG)  (nn, 沉淀#NN, 色素#NN)  (dobj, 清除#VV, 沉淀#NN)  (conj, 清除#VV, 起到#VV)  (nn, 污垢#NN, 去除#NN)  (nn, 污垢#NN, 油脂#NN)  (assmod, 作用#NN, 污垢#NN)  (case, 污垢#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)   (root, ROOT#null, 维他命#VV)  (conj, 果酸#NN, C#NN)  (cc, 果酸#NN, 和#CC)  (dobj, 维他命#VV, 果酸#NN)  (case, 皮肤#NR, 对于#P)  (conj, 皮肤#NR, 抗菌#NR)  (conj, 皮肤#NR, 软化#NR)  (cc, 皮肤#NR, 及#CC)  (nn, 皮肤#NR, 清洁#NR)  (prep, 发挥#VV, 皮肤#NR)  (advmod, 发挥#VV, 都#AD)  (mmod, 发挥#VV, 可以#VV)  (conj, 维他命#VV, 发挥#VV)  (relcl, 作用#NN, 强大#VA)  (mark, 强大#VA, 的#DEC)  (dobj, 发挥#VV, 作用#NN)  (advmod, 深层#VV, 还#AD)  (mmod, 深层#VV, 可以#VV)  (conj, 维他命#VV, 深层#VV)  (dep, 弹性#NN, 洁净#JJ)  (cc, 洁净#JJ, 及#CC)  (nn, 脸部#NN, 增加#NN)  (dep, 洁净#JJ, 脸部#NN)  (dobj, 深层#VV, 弹性#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 提高#VV)  (nn, 效率#NN, 工作#NN)  (dobj, 提高#VV, 效率#NN)
+            (root, ROOT#null, 柠檬茶#VV)  (dep, 解除#VV, 可以#VV)  (ccomp, 柠檬茶#VV, 解除#VV)  (dep, 柠檬茶#VV, 疲劳#VA)  (advmod, 促进#VV, 还#AD)  (mmod, 促进#VV, 可以#VV)  (dep, 柠檬茶#VV, 促进#VV)  (nsubj, 提高#VV, 思考#NN)  (ccomp, 促进#VV, 提高#VV)  (nn, 效率#NN, 工作#NN)  (dobj, 提高#VV, 效率#NN)   (root, ROOT#null, 柠檬茶#VV)  (nn, 含有#NN, 当中#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素C#NN, 水溶性#NN)  (dobj, 柠檬茶#VV, 维生素C#NN)  (conj, 柠檬茶#VV, 可以#VV)  (relcl, 血液#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (relcl, 血液#NN, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dep, 脑部#NN, 循环#NN)  (advmod, 脑部#NN, 尤其是#AD)  (dobj, 促进#VV, 脑部#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 可以#VV, 血液#NN)  (advmod, 增强#VV, 从而#AD)  (conj, 柠檬茶#VV, 增强#VV)  (assmod, 活力#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 增强#VV, 活力#NN)  (conj, 柠檬茶#VV, 提高#VV)  (conj, 思考#NN, 注意力#NN)  (cc, 思考#NN, 和#CC)  (nn, 能力#NN, 思考#NN)  (dobj, 提高#VV, 能力#NN)  (advmod, 有#VE, 甚至#AD)  (case, 记忆力#NN, 对于#P)  (assmod, 记忆力#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (prep, 有#VE, 记忆力#NN)  (advmod, 有#VE, 也#AD)  (conj, 柠檬茶#VV, 有#VE)  (assmod, 提高#NN, 显著#JJ)  (case, 显著#JJ, 的#DEG)  (dobj, 有#VE, 提高#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 心血管#VV)  (assmod, 福音#NN, 患者#NN)  (case, 患者#NN, 的#DEG)  (dobj, 心血管#VV, 福音#NN)
+            (nsubj, 防治#VV, 柠檬茶#NN)  (mmod, 防治#VV, 能#VV)  (root, ROOT#null, 防治#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 防治#VV, 疾病#NN)  (cc, 防治#VV, 和#CC)  (conj, 防治#VV, 降低#VV)  (dobj, 降低#VV, 血糖#NN)   (assmod, 成分#NN, 柠檬#NN)  (case, 柠檬#NN, 的#DEG)  (loc, 含有#VV, 成分#NN)  (case, 成分#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (assmod, 柠檬酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 柠檬酸#NN)  (nsubj, 钙#VV, 它#PN)  (mmod, 钙#VV, 可以#VV)  (cc, 钙#VV, 和#CC)  (conj, 含有#VV, 钙#VV)  (advmod, 结合#VV, 离子#AD)  (relcl, 凝固#NN, 结合#VV)  (relcl, 物质#NN, 形成#VV)  (dobj, 形成#VV, 可溶性#NN)  (mark, 形成#VV, 的#DEC)  (dobj, 结合#VV, 物质#NN)  (advmod, 防止#VV, 从而#AD)  (mmod, 防止#VV, 可以#VV)  (dep, 结合#VV, 防止#VV)  (dobj, 防止#VV, 血液#NN)  (mark, 结合#VV, 的#DEC)  (dobj, 钙#VV, 凝固#NN)  (conj, 钙#VV, 保持#VV)  (nn, 畅通#NN, 血液#NN)  (dobj, 保持#VV, 畅通#NN)  (advmod, 加强#VV, 此外#AD)  (nsubj, 加强#VV, 柠檬酸#NN)  (advmod, 加强#VV, 还#AD)  (mmod, 加强#VV, 可以#VV)  (conj, 含有#VV, 加强#VV)  (assmod, 功能#NN, 毛细血管#NN)  (case, 毛细血管#NN, 的#DEG)  (dobj, 加强#VV, 功能#NN)  (conj, 加强#VV, 促进#VV)  (dobj, 促进#VV, 凝血#NN)  (conj, 加强#VV, 增加#VV)  (assmod, 数量#NN, 血小板#NN)  (case, 血小板#NN, 的#DEG)  (dobj, 增加#VV, 数量#NN)  (advmod, 具有#VV, 因此#AD)  (advmod, 具有#VV, 也#AD)  (conj, 含有#VV, 具有#VV)  (advmod, 显著#VA, 十分#AD)  (relcl, 功效#NN, 显著#VA)  (mark, 显著#VA, 的#DEC)  (nn, 功效#NN, 止血#NN)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            生津止渴止痛  化痰止痛  止咳止痛  祛脂止痛  降压止痛  消食止痛  健脾止痛  壮骨止痛  发汗止痛  解表止痛  消炎止痛  降糖消渴  止痛消渴  润喉去燥  人群适宜  口干适宜  思虑不足  讲话过多  湿润  物理治疗  局部炎症  炎症治愈  有利于治愈  局部痒感  解除痒感  咳嗽反射  阻断反射  毛细管扩张  有助于消化  分泌  有助于食物  治疗饮食  脾气虚弱  适用于虚弱  无力所致  脘腹胀满  运化胀满  大便溏泄  倦乏力等症  预防辅助  骨科疾病  治疗疾病  发散风热  适用于发热重  脉浮风热表症  舒缓疼痛  减少痛感  降低血糖  分解平衡  过剩转化  糖分转化  改善体内  脂肪平衡  促进平衡  渗透细胞  毒素  清除废物  辐射酒精  农药  尿酸  酒精有害  排出体外  包括体外  护肤圣品  皮肤老化  柠檬酸丰富  含有柠檬酸  维他命维生素  有机酸维生素  表明柠檬酸  皮肤色素  消除色素  肌肤表面  碱性中和  色素沉淀  清除沉淀  去除污垢  油脂污垢  维他命果酸  抗菌  软化  增加脸部  深层弹性  工作效率  提高效率  当中含有  含有丰富  维生素C丰富  水溶性维生素C  血液有效  促进血液  血液循环  促进脑部  增强活力  注意力  思考能力  提高能力  记忆力  心血管福音  血管疾病  防治疾病  结合凝固  形成可溶性  防止血液  血液畅通  保持畅通  毛细血管  加强功能  促进凝血  血小板  增加数量  功效显著  止血功效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            方法一
+            切新鲜柠檬两至三片，加1g的盐 ，再用热开水冲泡。此茶要趁热饮，冷了味道会变苦。[1]
+            方法二
+            将两片干柠檬片或者鲜切的柠檬用开水泡开，可以重复冲泡几次。当水喝，根据个人口味，可以适量增减柠檬的量，还可以加入蜂蜜调味。
+            方法三
+            材料：柠檬红茶包 蜂蜜冰块
+            做法：1.首先将柠檬切片，然后和红茶包一起放入杯中。2.其次倒入开水把茶泡开后，调入蜂蜜，再放冰块，即可。
+            方法四
+            材料：玫瑰花 柠檬 蜂蜜
+            做法：1、先将玫瑰花用水冲一下，沥干水分，在将柠檬切成薄片。2、其次把洗净的玫瑰花放茶壶内，再倒入1000ml开水，盖上盖焖大约3min左右，然后放柠檬片再盖上盖焖2min。3、最后只需调入蜂蜜搅匀即可饮用。
+        </rawdata>
+
+        <segment>
+            方法  一
+            切  新鲜  柠檬  两  至  三  片  ，  加  1g  的  盐  ，  再  用  热  开水  冲泡  。  此  茶  要  趁  热饮  ，  冷  了  味道  会  变苦  。  [  1  ]
+            方法  二
+            将  两  片  干  柠檬  片  或者  鲜切  的  柠檬  用  开水  泡开  ，  可以  重复  冲泡  几  次  。  当  水  喝  ，  根据  个人  口味  ，  可以  适量  增减  柠檬  的  量  ，  还  可以  加入  蜂蜜  调味  。
+            方法  三
+            材料  ：  柠檬  红茶  包  蜂蜜  冰块
+            做法  ：    首先  将  柠檬  切片  ，  然后  和  红茶  包  一  起  放入  杯中  。  2  .  其次  倒入  开水  把  茶  泡开  后  ，  调入  蜂蜜  ，  再放  冰块  ，  即可  。
+            方法  四
+            材料  ：  玫瑰花  柠檬  蜂蜜
+            做法  ：    先  将  玫瑰花  用水  冲  一下  ，  沥干  水分  ，  在  将  柠檬  切成  薄片  。  2  、  其次  把  洗净  的  玫瑰花  放  茶壶  内  ，  再  倒入  1000  ml  开水  ，  盖上  盖焖  大约  3  min  左右  ，  然后  放  柠檬  片  再  盖上  盖焖  2min  。  3  、  最后  只  需  调入  蜂蜜  搅匀  即  可  饮用  。
+        </segment>
+
+        <pos>
+            方法#NN  一#CD
+            切#VV  新鲜#JJ  柠檬#NN  两#CD  至#CC  三#CD  片#M  ，#PU  加#VV  1g#CD  的#DEG  盐#NN  ，#PU  再#AD  用#VV  热#NN  开水#NN  冲泡#NN    。#PU  此#DT  茶#NN  要#VV  趁#P  热饮#NN  ，#PU  冷#VV  了#AS  味道#NN  会#NN  变苦#NN    。#PU  -LSB-#VV  1#CD  -RSB-#NN    。#PU
+            方法#NN  二#CD
+            将#BA  两#CD  片#M  干#VV  柠檬#CD  片#M  或者#CC  鲜切#CD  的#DEC  柠檬#NN  用#P  开水#NN  泡开#VV  ，#PU  可以#VV  重复#JJ  冲泡#NN  几#CD  次#M    。#PU  当#P  水#NN  喝#NN  ，#PU  根据#P  个人#NN  口味#NN  ，#PU  可以#VV  适量#VV  增减#NN  柠檬#NN  的#DEG  量#NN  ，#PU  还#AD  可以#VV  加入#VV  蜂蜜#NN  调味#NN    。#PU    。#PU
+            方法#NN  三#CD
+            材料#NN  ：#PU  柠檬#AD  红茶#VV  包#NN  蜂蜜#NN  冰块#NN
+            做法#NN  ：#PU  首先#AD  将#AD  柠檬#VV  切片#NN  ，#PU  然后#AD  和#P  红茶#NN  包#VV  一#CD  起#M  放入#VV  杯中#NN    。#PU  2#CD  .#NN  其次#AD  倒入#NN  开水#NN  把#BA  茶#NN  泡开#NN  后#LC  ，#PU  调入#VV  蜂蜜#NN  ，#PU  再放#VV  冰块#NN  ，#PU  即可#VV    。#PU    。#PU
+            方法#NN  四#CD
+            材料#NN  ：#PU  玫瑰花#AD  柠檬#VV  蜂蜜#NN
+            做法#NN  ：#PU  先#AD  将#AD  玫瑰花#VV  用水#NN  冲#VV  一下#AD  ，#PU  沥干#VV  水分#NN  ，#PU  在#AD  将#AD  柠檬#VV  切成#NN  薄片#NN    。#PU  2#CD  、#PU  其次#AD  把#BA  洗净#NN  的#DEG  玫瑰花#NN  放#VV  茶壶#NN  内#LC  ，#PU  再#AD  倒入#VV  1000#CD  ml#NN  开水#NN  ，#PU  盖上#AD  盖焖#VV  大约#AD  3#CD  min#NN  左右#LC  ，#PU  然后#AD  放#VV  柠檬#CD  片#M  再#AD  盖上#AD  盖焖#VV  2min#CD    。#PU  3#CD  、#PU  最后#AD  只#AD  需#VV  调入#VV  蜂蜜#NN  搅匀#NN  即#AD  可#VV  饮用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 一#CD, 方法#NN)  (root, ROOT#null, 一#CD)
+            (root, ROOT#null, 切#VV)  (amod, 柠檬#NN, 新鲜#JJ)  (dobj, 切#VV, 柠檬#NN)  (dep, 片#M, 两#CD)  (cc, 片#M, 至#CC)  (nummod, 片#M, 三#CD)  (range, 切#VV, 片#M)  (conj, 切#VV, 加#VV)  (assmod, 盐#NN, 1g#CD)  (case, 1g#CD, 的#DEG)  (dobj, 加#VV, 盐#NN)  (advmod, 用#VV, 再#AD)  (conj, 切#VV, 用#VV)  (nn, 冲泡#NN, 热#NN)  (nn, 冲泡#NN, 开水#NN)  (dobj, 用#VV, 冲泡#NN)   (det, 茶#NN, 此#DT)  (nsubj, 冷#VV, 茶#NN)  (mmod, 冷#VV, 要#VV)  (case, 热饮#NN, 趁#P)  (prep, 冷#VV, 热饮#NN)  (root, ROOT#null, 冷#VV)  (asp, 冷#VV, 了#AS)  (nn, 变苦#NN, 味道#NN)  (nn, 变苦#NN, 会#NN)  (dobj, 冷#VV, 变苦#NN)   (root, ROOT#null, -LSB-#VV)  (nummod, -RSB-#NN, 1#CD)  (dobj, -LSB-#VV, -RSB-#NN)
+            (nsubj, 二#CD, 方法#NN)  (root, ROOT#null, 二#CD)
+            (ba, 泡开#VV, 将#BA)  (nummod, 片#M, 两#CD)  (clf, 柠檬#NN, 片#M)  (relcl, 柠檬#NN, 干#VV)  (nummod, 片#M, 柠檬#CD)  (clf, 鲜切#CD, 片#M)  (cc, 鲜切#CD, 或者#CC)  (range, 干#VV, 鲜切#CD)  (mark, 干#VV, 的#DEC)  (nsubj, 泡开#VV, 柠檬#NN)  (case, 开水#NN, 用#P)  (prep, 泡开#VV, 开水#NN)  (root, ROOT#null, 泡开#VV)  (dep, 泡开#VV, 可以#VV)  (amod, 冲泡#NN, 重复#JJ)  (dobj, 可以#VV, 冲泡#NN)  (nummod, 次#M, 几#CD)  (range, 可以#VV, 次#M)   (case, 喝#NN, 当#P)  (nn, 喝#NN, 水#NN)  (prep, 适量#VV, 喝#NN)  (case, 口味#NN, 根据#P)  (nn, 口味#NN, 个人#NN)  (prep, 适量#VV, 口味#NN)  (mmod, 适量#VV, 可以#VV)  (root, ROOT#null, 适量#VV)  (nn, 柠檬#NN, 增减#NN)  (assmod, 量#NN, 柠檬#NN)  (case, 柠檬#NN, 的#DEG)  (dobj, 适量#VV, 量#NN)  (advmod, 加入#VV, 还#AD)  (mmod, 加入#VV, 可以#VV)  (conj, 适量#VV, 加入#VV)  (nn, 调味#NN, 蜂蜜#NN)  (dobj, 加入#VV, 调味#NN)   (root, ROOT#null, null#null)
+            (nsubj, 三#CD, 方法#NN)  (root, ROOT#null, 三#CD)
+            (nsubj, 红茶#VV, 材料#NN)  (advmod, 红茶#VV, 柠檬#AD)  (root, ROOT#null, 红茶#VV)  (nn, 冰块#NN, 包#NN)  (nn, 冰块#NN, 蜂蜜#NN)  (dobj, 红茶#VV, 冰块#NN)
+            (nsubj, 柠檬#VV, 做法#NN)  (advmod, 柠檬#VV, 首先#AD)  (advmod, 柠檬#VV, 将#AD)  (root, ROOT#null, 柠檬#VV)  (dobj, 柠檬#VV, 切片#NN)  (advmod, 包#VV, 然后#AD)  (case, 红茶#NN, 和#P)  (prep, 包#VV, 红茶#NN)  (conj, 柠檬#VV, 包#VV)  (nummod, 起#M, 一#CD)  (range, 包#VV, 起#M)  (dep, 柠檬#VV, 放入#VV)  (dobj, 放入#VV, 杯中#NN)   (nummod, .#NN, 2#CD)  (advmod, 调入#VV, 其次#AD)  (nn, 开水#NN, 倒入#NN)  (nsubj, 调入#VV, 开水#NN)  (ba, 调入#VV, 把#BA)  (nsubj, 调入#VV, 茶#NN)  (loc, 调入#VV, 泡开#NN)  (case, 泡开#NN, 后#LC)  (root, ROOT#null, 调入#VV)  (dobj, 调入#VV, 蜂蜜#NN)  (conj, 调入#VV, 再放#VV)  (dobj, 再放#VV, 冰块#NN)  (conj, 调入#VV, 即可#VV)   (root, ROOT#null, null#null)
+            (nsubj, 四#CD, 方法#NN)  (root, ROOT#null, 四#CD)
+            (nsubj, 柠檬#VV, 材料#NN)  (advmod, 柠檬#VV, 玫瑰花#AD)  (root, ROOT#null, 柠檬#VV)  (dobj, 柠檬#VV, 蜂蜜#NN)
+            (nsubj, 玫瑰花#VV, 做法#NN)  (advmod, 玫瑰花#VV, 先#AD)  (advmod, 玫瑰花#VV, 将#AD)  (root, ROOT#null, 玫瑰花#VV)  (dobj, 玫瑰花#VV, 用水#NN)  (conj, 玫瑰花#VV, 冲#VV)  (advmod, 冲#VV, 一下#AD)  (dep, 玫瑰花#VV, 沥干#VV)  (dobj, 沥干#VV, 水分#NN)  (advmod, 柠檬#VV, 在#AD)  (advmod, 柠檬#VV, 将#AD)  (conj, 玫瑰花#VV, 柠檬#VV)  (nn, 薄片#NN, 切成#NN)  (dobj, 柠檬#VV, 薄片#NN)   (dep, 盖焖#VV, 2#CD)  (advmod, 盖焖#VV, 其次#AD)  (ba, 放#VV, 把#BA)  (assmod, 玫瑰花#NN, 洗净#NN)  (case, 洗净#NN, 的#DEG)  (nsubj, 放#VV, 玫瑰花#NN)  (dep, 盖焖#VV, 放#VV)  (loc, 放#VV, 茶壶#NN)  (case, 茶壶#NN, 内#LC)  (advmod, 倒入#VV, 再#AD)  (dep, 放#VV, 倒入#VV)  (nummod, 开水#NN, 1000#CD)  (nn, 开水#NN, ml#NN)  (dobj, 倒入#VV, 开水#NN)  (advmod, 盖焖#VV, 盖上#AD)  (dep, 放#VV, 盖焖#VV)  (advmod, 3#CD, 大约#AD)  (nummod, min#NN, 3#CD)  (loc, 盖焖#VV, min#NN)  (case, min#NN, 左右#LC)  (advmod, 放#VV, 然后#AD)  (dep, 放#VV, 放#VV)  (nummod, 片#M, 柠檬#CD)  (range, 放#VV, 片#M)  (advmod, 盖焖#VV, 再#AD)  (advmod, 盖焖#VV, 盖上#AD)  (root, ROOT#null, 盖焖#VV)  (range, 盖焖#VV, 2min#CD)   (dep, 饮用#VV, 3#CD)  (advmod, 调入#VV, 最后#AD)  (advmod, 调入#VV, 只#AD)  (mmod, 调入#VV, 需#VV)  (relcl, 搅匀#NN, 调入#VV)  (dobj, 调入#VV, 蜂蜜#NN)  (nsubj, 饮用#VV, 搅匀#NN)  (advmod, 饮用#VV, 即#AD)  (dep, 饮用#VV, 可#VV)  (root, ROOT#null, 饮用#VV)
+        </parsing>
+
+        <tag>
+            新鲜柠檬  开水冲泡  味道变苦  干柠檬  泡开  重复冲泡  个人口味  增减柠檬  适量量  蜂蜜调味  加入调味  蜂蜜冰块  红茶冰块  柠檬切片  倒入开水  调入蜂蜜  再放冰块  柠檬蜂蜜  玫瑰花用水  沥干水分  切成薄片  柠檬薄片  ml开水  盖焖  调入搅匀  饮用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/141849294671.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\553 柠檬茶.jpg
+    </picturelocalurl>
+
+</content>

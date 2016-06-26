@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        821
+    </id>
+
+    <foodname>
+        食用大黄
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        大黄、将军、黄良、火参、肤如、蜀大黄、锦纹大黄、牛舌大黄、锦纹、生军、川军
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            气虚质、阳虚质、阴虚质体质应忌食或少食;孕妇人群应忌食或少食
+        </rawdata>
+
+        <segment>
+            气虚  质  、  阳虚  质  、  阴虚  质  体质  应  忌食  或少  食  ;  孕妇  人群  应  忌食  或  少  食
+        </segment>
+
+        <pos>
+            气虚#NN  质#NN  、#PU  阳虚#NN  质#NN  、#PU  阴虚#NN  质#NN  体质#NN  应#P  忌食#NN  或少#NN  食#NN  ;#NN  孕妇#VV  人群#NN  应#VV  忌食#JJ  或#CC  少#JJ  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 气虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 阳虚#NN)  (conj, 体质#NN, 质#NN)  (nn, 体质#NN, 阴虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 孕妇#VV, 体质#NN)  (case, ;#NN, 应#P)  (nn, ;#NN, 忌食#NN)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (prep, 孕妇#VV, ;#NN)  (root, ROOT#null, 孕妇#VV)  (dobj, 孕妇#VV, 人群#NN)  (conj, 孕妇#VV, 应#VV)  (amod, 食#NN, 忌食#JJ)  (cc, 忌食#JJ, 或#CC)  (dep, 忌食#JJ, 少#JJ)  (dobj, 应#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            气虚质  阳虚质  阴虚质体质应  忌食  少食  孕妇人群应  忌食  少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            大黄是多种蓼科大黄属的多年生植物的合称，也是中药材的名称。应生长于寒温带地区。叶柄味酸，叶形大，叶柄大。晚春开花，花葶大，位于叶簇中央，花小而多，绿白色。翅果有棱，含一粒种子。
+        </rawdata>
+
+        <segment>
+            大黄  是  多  种  蓼科  大黄  属  的  多年生  植物  的  合称  ，  也  是  中药材  的  名称  。  应生  长于  寒  温带  地区  。  叶柄  味  酸  ，  叶形  大  ，  叶柄大  。  晚春  开花  ，  花  葶大  ，  位  于  叶簇  中央  ，  花  小  而  多  ，  绿  白色  。  翅果  有棱  ，  含  一  粒  种子  。
+        </segment>
+
+        <pos>
+            大黄#AD  是#VC  多#CD  种#M  蓼科#NN  大黄#AD  属#VV  的#DEC  多年生#JJ  植物#NN  的#DEG  合称#NN  ，#PU  也#AD  是#VC  中药材#NN  的#DEG  名称#NN    。#PU  应生#NN  长于#VV  寒#JJ  温带#NN  地区#NN    。#PU  叶柄#NN  味#NN  酸#VV  ，#PU  叶形#AD  大#VA  ，#PU  叶柄大#VA    。#PU  晚春#JJ  开花#JJ  ，#PU  花#VV  葶大#NN  ，#PU  位#VV  于#P  叶簇#NR  中央#NN  ，#PU  花#NN  小#VA  而#CC  多#VA  ，#PU  绿#JJ  白色#JJ    。#PU  翅果#NR  有棱#VV  ，#PU  含#VV  一#CD  粒#NN  种子#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 合称#NN, 大黄#AD)  (cop, 合称#NN, 是#VC)  (nummod, 种#M, 多#CD)  (clf, 蓼科#NN, 种#M)  (nsubj, 属#VV, 蓼科#NN)  (advmod, 属#VV, 大黄#AD)  (relcl, 植物#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (amod, 植物#NN, 多年生#JJ)  (assmod, 合称#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (root, ROOT#null, 合称#NN)  (advmod, 名称#NN, 也#AD)  (cop, 名称#NN, 是#VC)  (assmod, 名称#NN, 中药材#NN)  (case, 中药材#NN, 的#DEG)  (dep, 合称#NN, 名称#NN)   (nsubj, 长于#VV, 应生#NN)  (root, ROOT#null, 长于#VV)  (amod, 温带#NN, 寒#JJ)  (nn, 地区#NN, 温带#NN)  (dobj, 长于#VV, 地区#NN)   (nn, 味#NN, 叶柄#NN)  (nsubj, 酸#VV, 味#NN)  (root, ROOT#null, 酸#VV)  (advmod, 大#VA, 叶形#AD)  (ccomp, 酸#VV, 大#VA)  (dep, 大#VA, 叶柄大#VA)   (root, ROOT#null, 晚春#JJ)  (conj, 晚春#JJ, 开花#JJ)  (dep, 晚春#JJ, 花#VV)  (dobj, 花#VV, 葶大#NN)  (conj, 晚春#JJ, 位#VV)  (case, 中央#NN, 于#P)  (nn, 中央#NN, 叶簇#NR)  (prep, 位#VV, 中央#NN)  (dep, 小#VA, 花#NN)  (dep, 位#VV, 小#VA)  (cc, 小#VA, 而#CC)  (dep, 小#VA, 多#VA)  (conj, 晚春#JJ, 绿#JJ)  (conj, 晚春#JJ, 白色#JJ)   (nsubj, 有棱#VV, 翅果#NR)  (root, ROOT#null, 有棱#VV)  (ccomp, 有棱#VV, 含#VV)  (nummod, 种子#NN, 一#CD)  (nn, 种子#NN, 粒#NN)  (dobj, 含#VV, 种子#NN)
+        </parsing>
+
+        <tag>
+            属植物  多年生植物  中药材  寒温带  温带地区  长于地区  有棱  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            解毒,止血凉血,提高免疫力,健脑,明目,壮骨
+        </rawdata>
+
+        <segment>
+            解毒  ,  止血  凉  血  ,  提高  免疫力  ,  健脑  ,  明目  ,  壮骨
+        </segment>
+
+        <pos>
+            解毒#NN  ,#NN  止血#NN  凉#NN  血#NN  ,#AD  提高#VV  免疫力#NN  ,#NN  健脑#NN  ,#NN  明目#NN  ,#NN  壮骨#NN
+        </pos>
+
+        <parsing>
+            (nn, 止血#NN, 解毒#NN)  (nn, 血#NN, 止血#NN)  (nn, 血#NN, 凉#NN)  (nsubj, 提高#VV, 血#NN)  (root, ROOT#null, 提高#VV)  (nn, 壮骨#NN, 免疫力#NN)  (nn, 壮骨#NN, 健脑#NN)  (nn, 壮骨#NN, 明目#NN)  (dobj, 提高#VV, 壮骨#NN)
+        </parsing>
+
+        <tag>
+            解毒止血  免疫力壮骨  健脑壮骨  明目壮骨  提高壮骨  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  凉血  导滞  攻下  清热泻火  清热利湿  活血祛瘀  辅助降血脂  止血  抗胃溃疡  致泻  利胆  利尿  改善肾功能  抗炎  抗病毒  抗菌  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            使用于调味酱、派饼、蜜饯中或酿酒
+        </rawdata>
+
+        <segment>
+            使用  于  调味酱  、  派饼  、  蜜饯  中  或  酿酒
+        </segment>
+
+        <pos>
+            使用#VV  于#P  调味酱#NR  、#PU  派饼#NR  、#PU  蜜饯#NR  中#NR  或#CC  酿酒#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 使用#VV)  (case, 酿酒#NN, 于#P)  (conj, 蜜饯#NR, 调味酱#NR)  (conj, 蜜饯#NR, 派饼#NR)  (nn, 中#NR, 蜜饯#NR)  (conj, 酿酒#NN, 中#NR)  (cc, 酿酒#NN, 或#CC)  (prep, 使用#VV, 酿酒#NN)
+        </parsing>
+
+        <tag>
+            使用  蜜饯  调味酱  派饼  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/5f/41/82271_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\821 食用大黄.jpg
+    </picturelocalurl>
+
+</content>

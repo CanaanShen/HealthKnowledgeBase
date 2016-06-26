@@ -1,0 +1,172 @@
+<content>
+
+    <id>
+        1351
+    </id>
+
+    <foodname>
+        清明菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        铜钱花、鼠曲菜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            瘀血体质不宜食
+        </rawdata>
+
+        <segment>
+            瘀血  体质  不  宜  食
+        </segment>
+
+        <pos>
+            瘀血#NN  体质#VV  不#AD  宜#NR  食#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 体质#VV, 瘀血#NN)  (root, ROOT#null, 体质#VV)  (neg, 体质#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (dobj, 体质#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            瘀血体质不宜食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            江浙地区民间常于清明前后采摘嫩苗煮熟，揉入米粉中做糕团，香糯可口。清明菜含脂类物质、挥发油、大量胡萝卜素及少量B族维生素、鼠曲草素、硝酸钾、氯化钾等。
+        </rawdata>
+
+        <segment>
+            江浙  地区  民间  常于  清明  前后  采摘  嫩苗  煮熟  ，  揉入  米粉  中  做  糕团  ，  香糯  可口  。  清明  菜  含  脂类  物质  、  挥发油  、  大量  胡萝卜素  及  少量  B  族  维生素  、  鼠曲草  素  、  硝酸钾  、  氯化钾  等  。
+        </segment>
+
+        <pos>
+            江浙#NR  地区#NN  民间#NN  常于#NN  清明#NN  前后#LC  采摘#AD  嫩苗#VV  煮熟#NN  ，#PU  揉入#NN  米粉#NN  中#LC  做#VV  糕团#NN  ，#PU  香糯#VV  可口#NN    。#PU  清明#NN  菜#NN  含#VV  脂类#VV  物质#NN  、#PU  挥发油#NN  、#PU  大量#CD  胡萝卜素#NN  及#CC  少量#CD  B#NN  族#NN  维生素#NN  、#PU  鼠曲草#VV  素#AD  、#PU  硝酸钾#NN  、#PU  氯化钾#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 地区#NN, 江浙#NR)  (nsubj, 嫩苗#VV, 地区#NN)  (nn, 清明#NN, 民间#NN)  (nn, 清明#NN, 常于#NN)  (loc, 嫩苗#VV, 清明#NN)  (case, 清明#NN, 前后#LC)  (advmod, 嫩苗#VV, 采摘#AD)  (root, ROOT#null, 嫩苗#VV)  (dobj, 嫩苗#VV, 煮熟#NN)  (nn, 米粉#NN, 揉入#NN)  (loc, 做#VV, 米粉#NN)  (case, 米粉#NN, 中#LC)  (conj, 嫩苗#VV, 做#VV)  (dobj, 做#VV, 糕团#NN)  (conj, 嫩苗#VV, 香糯#VV)  (dobj, 香糯#VV, 可口#NN)   (nn, 菜#NN, 清明#NN)  (nsubj, 含#VV, 菜#NN)  (root, ROOT#null, 含#VV)  (dep, 含#VV, 脂类#VV)  (conj, 维生素#NN, 物质#NN)  (conj, 维生素#NN, 挥发油#NN)  (nummod, 胡萝卜素#NN, 大量#CD)  (conj, 维生素#NN, 胡萝卜素#NN)  (cc, 维生素#NN, 及#CC)  (nummod, 维生素#NN, 少量#CD)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 脂类#VV, 维生素#NN)  (conj, 脂类#VV, 鼠曲草#VV)  (advmod, 鼠曲草#VV, 素#AD)  (conj, 脂类#VV, 硝酸钾#NN)  (dep, 脂类#VV, 氯化钾#NN)  (etc, 氯化钾#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            民间清明  常于清明  嫩苗煮熟  揉入米粉  香糯可口  挥发油  胡萝卜素  脂类维生素  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            祛风除湿，化痰止咳,调中益气，祛脂降压
+        </rawdata>
+
+        <segment>
+            祛风  除湿  ，  化痰  止咳  ,  调  中  益气  ，  祛脂  降压
+        </segment>
+
+        <pos>
+            祛风#NR  除湿#VV  ，#PU  化痰#NN  止咳#NN  ,#NN  调#NN  中#LC  益气#NN  ，#PU  祛脂#AD  降压#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 除湿#VV, 祛风#NR)  (root, ROOT#null, 除湿#VV)  (nn, 调#NN, 化痰#NN)  (nn, 调#NN, 止咳#NN)  (loc, 降压#VV, 调#NN)  (case, 调#NN, 中#LC)  (nsubj, 降压#VV, 益气#NN)  (advmod, 降压#VV, 祛脂#AD)  (ccomp, 除湿#VV, 降压#VV)
+        </parsing>
+
+        <tag>
+            除湿  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热解毒  止咳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1、荠菜具有健脾利水、止血解毒、降压明目等功效，主治痢疾，水肿，淋病，乳糜尿，吐血，便血，血崩，月经过多，目赤肿痛。
+            2、荠菜所含的荠菜酸，是有效的止血成分，能缩短出血及凝血时间；还含有香味木昔，可降低毛细血管的渗透性，起到治疗毛细血管性出血的作用。
+            3、荠菜含有乙酰胆碱、谷甾醇和季胺化合物，不仅可以降低血中及肝中的胆固醇和甘油三酯的含量，而且还有降低血压的作用。
+            4、荠菜所含的橙皮甙能够消炎抗菌，有增强体内维生素C含量的作用，还能抗病毒，预防冻伤，并抑制眼晶状体的醛还原酶，对糖尿病性白内障病人有疗效。
+            5、荠菜含有大量的粗纤维，食用后可增强大肠蠕动，促进粪便排泄，从而增进新陈代谢，有助于防治高脂血症，高血压，冠心病，肥胖症，糖尿病，肠癌及痔疮等。
+        </rawdata>
+
+        <segment>
+            荠菜  具有  健脾  利水  、  止血  解毒  、  降压  明目  等  功效  ，  主治  痢疾  ，  水肿  ，  淋病  ，  乳糜尿  ，  吐血  ，  便血  ，  血崩  ，  月经  过多  ，  目赤  肿痛  。
+            荠菜  所  含  的  荠菜  酸  ，  是  有效  的  止血  成分  ，  能  缩短  出血  及  凝血  时间  ；  还  含有  香味  木昔  ，  可降低  毛细血管  的  渗透性  ，  起到  治疗  毛细  血管性  出血  的  作用  。
+            荠菜  含有  乙酰  胆碱  、  谷甾醇  和  季胺化  合物  ，  不仅  可以  降低  血中  及肝  中  的  胆固醇  和  甘油  三  酯  的  含量  ，  而且  还  有  降低  血压  的  作用  。
+            荠菜  所  含  的  橙皮甙  能够  消炎  抗菌  ，  有  增强  体内  维生素C  含量  的  作用  ，  还  能  抗  病毒  ，  预防  冻伤  ，  并  抑制  眼  晶状体  的  醛还  原酶  ，  对  糖尿病  性  白  内障  病人  有  疗效  。
+            荠菜  含有  大量  的  粗  纤维  ，  食用  后  可  增强  大肠  蠕动  ，  促进  粪便  排泄  ，  从而  增进  新陈代谢  ，  有助于  防治  高  脂血症  ，  高血压  ，  冠心病  ，  肥胖症  ，  糖尿病  ，  肠癌  及  痔疮  等  。
+        </segment>
+
+        <pos>
+            荠菜#NN  具有#VV  健脾#NR  利水#NR  、#PU  止血#NR  解毒#NR  、#PU  降压#NR  明目#NR  等#ETC  功效#NN  ，#PU  主治#VV  痢疾#NN  ，#PU  水肿#VV  ，#PU  淋病#VV  ，#PU  乳糜尿#VV  ，#PU  吐血#VV  ，#PU  便血#VV  ，#PU  血崩#VV  ，#PU  月经#VV  过多#NN  ，#PU  目赤#VV  肿痛#NN  。#PU
+            荠菜#AD  所#MSP  含#VV  的#DEC  荠菜#NN  酸#NN  ，#PU  是#VC  有效#VA  的#DEC  止血#JJ  成分#NN  ，#PU  能#VV  缩短#VV  出血#VV  及#CC  凝血#VV  时间#NN  ；#PU  还#AD  含有#VV  香味#NN  木昔#NN  ，#PU  可降低#VV  毛细血管#NN  的#DEC  渗透性#NN  ，#PU  起到#VV  治疗#VV  毛细#NN  血管性#NN  出血#VV  的#DEC  作用#NN  。#PU
+            荠菜#NN  含有#VV  乙酰#NN  胆碱#NN  、#PU  谷甾醇#NN  和#CC  季胺化#NN  合物#NN  ，#PU  不仅#CC  可以#VV  降低#VV  血中#NN  及肝#NN  中#LC  的#DEG  胆固醇#NN  和#CC  甘油#NR  三#CD  酯#NN  的#DEG  含量#NN  ，#PU  而且#CC  还#AD  有#VE  降低#VV  血压#NN  的#DEC  作用#NN  。#PU
+            荠菜#AD  所#MSP  含#VV  的#DEC  橙皮甙#NN  能够#VV  消炎#VV  抗菌#NN  ，#PU  有#VE  增强#VV  体内#NN  维生素C#NN  含量#NN  的#DEC  作用#NN  ，#PU  还#AD  能#VV  抗#VV  病毒#NN  ，#PU  预防#VV  冻伤#NN  ，#PU  并#CC  抑制#VV  眼#NN  晶状体#NN  的#DEG  醛还#NN  原酶#NN  ，#PU  对#P  糖尿病#NN  性#NN  白#JJ  内障#NN  病人#NN  有#VE  疗效#NN  。#PU
+            荠菜#NN  含有#VV  大量#CD  的#DEG  粗#NN  纤维#NN  ，#PU  食用#VV  后#LC  可#VV  增强#VV  大肠#NN  蠕动#NN  ，#PU  促进#VV  粪便#NN  排泄#NN  ，#PU  从而#AD  增进#VV  新陈代谢#NN  ，#PU  有助于#VV  防治#VV  高#JJ  脂血症#NN  ，#PU  高血压#VV  ，#PU  冠心病#NN  ，#PU  肥胖症#VV  ，#PU  糖尿病#NN  ，#PU  肠癌#VV  及#CC  痔疮#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 荠菜#NN)  (root, ROOT#null, 具有#VV)  (nn, 明目#NR, 健脾#NR)  (conj, 明目#NR, 利水#NR)  (nn, 明目#NR, 止血#NR)  (conj, 明目#NR, 解毒#NR)  (nn, 明目#NR, 降压#NR)  (nn, 功效#NN, 明目#NR)  (etc, 明目#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)  (conj, 具有#VV, 主治#VV)  (dobj, 主治#VV, 痢疾#NN)  (conj, 主治#VV, 水肿#VV)  (conj, 主治#VV, 淋病#VV)  (conj, 主治#VV, 乳糜尿#VV)  (conj, 主治#VV, 吐血#VV)  (conj, 主治#VV, 便血#VV)  (conj, 主治#VV, 血崩#VV)  (conj, 主治#VV, 月经#VV)  (dobj, 月经#VV, 过多#NN)  (conj, 主治#VV, 目赤#VV)  (dobj, 目赤#VV, 肿痛#NN)
+            (advmod, 含#VV, 荠菜#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 酸#NN, 荠菜#NN)  (nsubj, 成分#NN, 酸#NN)  (cop, 成分#NN, 是#VC)  (relcl, 成分#NN, 有效#VA)  (mark, 有效#VA, 的#DEC)  (amod, 成分#NN, 止血#JJ)  (root, ROOT#null, 成分#NN)  (mmod, 缩短#VV, 能#VV)  (conj, 成分#NN, 缩短#VV)  (relcl, 渗透性#NN, 出血#VV)  (cc, 出血#VV, 及#CC)  (conj, 出血#VV, 凝血#VV)  (dobj, 凝血#VV, 时间#NN)  (advmod, 含有#VV, 还#AD)  (conj, 出血#VV, 含有#VV)  (nn, 木昔#NN, 香味#NN)  (dobj, 含有#VV, 木昔#NN)  (conj, 出血#VV, 可降低#VV)  (dobj, 可降低#VV, 毛细血管#NN)  (mark, 出血#VV, 的#DEC)  (dobj, 缩短#VV, 渗透性#NN)  (conj, 成分#NN, 起到#VV)  (relcl, 作用#NN, 治疗#VV)  (nn, 血管性#NN, 毛细#NN)  (dobj, 治疗#VV, 血管性#NN)  (conj, 治疗#VV, 出血#VV)  (mark, 治疗#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)
+            (nsubj, 含有#VV, 荠菜#NN)  (root, ROOT#null, 含有#VV)  (nn, 合物#NN, 乙酰#NN)  (conj, 合物#NN, 胆碱#NN)  (conj, 合物#NN, 谷甾醇#NN)  (cc, 合物#NN, 和#CC)  (nn, 合物#NN, 季胺化#NN)  (dobj, 含有#VV, 合物#NN)  (cc, 含有#VV, 不仅#CC)  (mmod, 降低#VV, 可以#VV)  (conj, 含有#VV, 降低#VV)  (nn, 及肝#NN, 血中#NN)  (assmod, 胆固醇#NN, 及肝#NN)  (case, 及肝#NN, 中#LC)  (case, 及肝#NN, 的#DEG)  (conj, 酯#NN, 胆固醇#NN)  (cc, 酯#NN, 和#CC)  (nn, 酯#NN, 甘油#NR)  (nummod, 酯#NN, 三#CD)  (assmod, 含量#NN, 酯#NN)  (case, 酯#NN, 的#DEG)  (dobj, 降低#VV, 含量#NN)  (cc, 降低#VV, 而且#CC)  (advmod, 有#VE, 还#AD)  (conj, 降低#VV, 有#VE)  (relcl, 作用#NN, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (advmod, 含#VV, 荠菜#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 橙皮甙#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 消炎#VV, 橙皮甙#NN)  (mmod, 消炎#VV, 能够#VV)  (root, ROOT#null, 消炎#VV)  (dobj, 消炎#VV, 抗菌#NN)  (conj, 消炎#VV, 有#VE)  (relcl, 作用#NN, 增强#VV)  (nn, 含量#NN, 体内#NN)  (nn, 含量#NN, 维生素C#NN)  (dobj, 增强#VV, 含量#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 能#VV)  (conj, 消炎#VV, 抗#VV)  (dobj, 抗#VV, 病毒#NN)  (conj, 消炎#VV, 预防#VV)  (dobj, 预防#VV, 冻伤#NN)  (cc, 消炎#VV, 并#CC)  (dep, 消炎#VV, 抑制#VV)  (nn, 晶状体#NN, 眼#NN)  (assmod, 原酶#NN, 晶状体#NN)  (case, 晶状体#NN, 的#DEG)  (nn, 原酶#NN, 醛还#NN)  (dobj, 抑制#VV, 原酶#NN)  (case, 病人#NN, 对#P)  (nn, 性#NN, 糖尿病#NN)  (nn, 内障#NN, 性#NN)  (amod, 内障#NN, 白#JJ)  (nn, 病人#NN, 内障#NN)  (prep, 有#VE, 病人#NN)  (conj, 消炎#VV, 有#VE)  (dobj, 有#VE, 疗效#NN)
+            (nsubj, 含有#VV, 荠菜#NN)  (root, ROOT#null, 含有#VV)  (assmod, 纤维#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 纤维#NN, 粗#NN)  (dobj, 含有#VV, 纤维#NN)  (loc, 增强#VV, 食用#VV)  (case, 食用#VV, 后#LC)  (mmod, 增强#VV, 可#VV)  (conj, 含有#VV, 增强#VV)  (nn, 蠕动#NN, 大肠#NN)  (dobj, 增强#VV, 蠕动#NN)  (conj, 含有#VV, 促进#VV)  (nn, 排泄#NN, 粪便#NN)  (dobj, 促进#VV, 排泄#NN)  (advmod, 增进#VV, 从而#AD)  (conj, 含有#VV, 增进#VV)  (dobj, 增进#VV, 新陈代谢#NN)  (conj, 含有#VV, 有助于#VV)  (ccomp, 有助于#VV, 防治#VV)  (amod, 脂血症#NN, 高#JJ)  (dobj, 防治#VV, 脂血症#NN)  (conj, 含有#VV, 高血压#VV)  (nsubj, 肥胖症#VV, 冠心病#NN)  (ccomp, 高血压#VV, 肥胖症#VV)  (nsubj, 肠癌#VV, 糖尿病#NN)  (ccomp, 肥胖症#VV, 肠癌#VV)  (cc, 肠癌#VV, 及#CC)  (conj, 肠癌#VV, 痔疮#VV)  (dep, 含有#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+            明目  利水  解毒  主治痢疾  月经过多  目赤肿痛  含酸  出血渗透性  凝血时间  香味木昔  含有木昔  可降低毛细血管  缩短渗透性  毛细血管性  治疗血管性  乙酰合物  胆碱  谷甾醇  季胺化合物  含有合物  降低血压  含橙皮甙  消炎抗菌  预防冻伤  晶状体  醛还原酶  抑制原酶  白内障  内障病人  含有纤维  大肠蠕动  增强蠕动  粪便排泄  促进排泄  增进新陈代谢  高脂血症  防治脂血症  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            江浙地区民间常于清明前后采摘嫩苗煮熟，揉入米粉中做糕团，香糯可口。
+        </rawdata>
+
+        <segment>
+            江浙  地区  民间  常于  清明  前后  采摘  嫩苗  煮熟  ，  揉入  米粉  中  做  糕团  ，  香糯  可口  。
+        </segment>
+
+        <pos>
+            江浙#NR  地区#NN  民间#NN  常于#NN  清明#NN  前后#LC  采摘#AD  嫩苗#VV  煮熟#NN  ，#PU  揉入#NN  米粉#NN  中#LC  做#VV  糕团#NN  ，#PU  香糯#VV  可口#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 地区#NN, 江浙#NR)  (nsubj, 嫩苗#VV, 地区#NN)  (nn, 清明#NN, 民间#NN)  (nn, 清明#NN, 常于#NN)  (loc, 嫩苗#VV, 清明#NN)  (case, 清明#NN, 前后#LC)  (advmod, 嫩苗#VV, 采摘#AD)  (root, ROOT#null, 嫩苗#VV)  (dobj, 嫩苗#VV, 煮熟#NN)  (nn, 米粉#NN, 揉入#NN)  (loc, 做#VV, 米粉#NN)  (case, 米粉#NN, 中#LC)  (conj, 嫩苗#VV, 做#VV)  (dobj, 做#VV, 糕团#NN)  (conj, 嫩苗#VV, 香糯#VV)  (dobj, 香糯#VV, 可口#NN)
+        </parsing>
+
+        <tag>
+            民间清明  常于清明  嫩苗煮熟  揉入米粉  香糯可口  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/31/b9/47409_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1351 清明菜.jpg
+    </picturelocalurl>
+
+</content>

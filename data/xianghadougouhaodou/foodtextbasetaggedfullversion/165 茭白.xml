@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        165
+    </id>
+
+    <foodname>
+        茭白
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        茭粑、茭儿菜、篙芭、茭笋、菰笋、茭瓜、茭芦、茭耳菜、绿节
+    </alias>
+
+    <season>
+        秋季
+    </season>
+
+    <unsuit>
+        <rawdata>
+            患有心脏病、尿路结石患者忌食。
+        </rawdata>
+
+        <segment>
+            患有  心脏病  、  尿路结石  患者  忌食  。
+        </segment>
+
+        <pos>
+            患有#VV  心脏病#NN  、#PU  尿路结石#NN  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 患有#VV)  (conj, 忌食#NN, 心脏病#NN)  (nn, 忌食#NN, 尿路结石#NN)  (nn, 忌食#NN, 患者#NN)  (dobj, 患有#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            患有  心脏病  尿路结石  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                209
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                5.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.45
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.49
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            茭白是我国特有的水生蔬菜，为禾本科植物菰的嫩茎杆被菰黑粉菌刺激而形成的纺锤形肥大部分，世界上把茭白作为蔬菜栽培的只有我国和越南。古人称茭白为“菰”，在唐代以前，茭白被当作粮食作物栽培，它的种子叫菰米或雕胡，是“六谷”(稌、黍、稷、粱、麦、菰)之一。后来人们发现，有些菰因感染上黑粉菌而不抽穗，且植株毫无病象，茎部不断膨大，逐渐形成纺锤形的肉质茎，这就是现在食用的茭白。这样，人们就利用黑粉菌阻止茭白开花结果，繁殖这种有病在身的畸型植株作为蔬菜。可入药。
+            茭白生于湖沼水中，全国大部分地区均有栽培，于秋季上市。茭白外披绿色叶鞘，内呈三节圆柱状，色黄白或青黄，肉质肥嫩，纤维少，蛋白质含量高，是“江南三大名菜”之一。
+        </rawdata>
+
+        <segment>
+            茭白  是  我  国  特有  的  水生  蔬菜  ，  为  禾本科  植物  菰的嫩茎杆  被  菰黑粉菌  刺激  而  形成  的  纺锤形  肥大部分  ，  世界上  把  茭白  作为  蔬菜  栽培  的  只  有  我国  和  越南  。  古人  称  茭白  为  “  菰  ”  ，  在  唐代  以前  ，  茭白  被  当作  粮食  作物  栽培  ，  它  的  种子  叫菰  米  或  雕胡  ，  是  “  六  谷  ”  (  稌  、  黍  、  稷  、  粱  、  麦  、  菰  )  之一  。  后来  人们  发现  ，  有些  菰因  感染  上  黑粉菌  而  不  抽穗  ，  且  植株  毫  无  病象  ，  茎部  不断  膨大  ，  逐渐  形成  纺锤形  的  肉质茎  ，  这  就  是  现在  食用  的  茭白  。  这样  ，  人们  就  利用  黑粉菌  阻止  茭白  开花  结果  ，  繁殖  这  种  有病  在身  的  畸型  植株  作为  蔬菜  。  可  入药  。
+            茭白  生  于  湖沼  水中  ，  全国  大部分  地区  均有  栽培  ，  于  秋季  上市  。  茭白  外  披  绿色  叶鞘  ，  内呈  三  节  圆柱状  ，  色  黄白  或  青黄  ，  肉质  肥嫩  ，  纤维  少  ，  蛋白质  含量  高  ，  是  “  江南  三  大  名菜  ”  之一  。
+        </segment>
+
+        <pos>
+            茭白#NN  是#VC  我#PN  国#NN  特有#JJ  的#DEG  水生#JJ  蔬菜#NN  ，#PU  为#P  禾本科#NN  植物#NN  菰的嫩茎杆#NN  被#SB  菰黑粉菌#VV  刺激#VV  而#MSP  形成#VV  的#DEC  纺锤形#NN  肥大部分#NN  ，#PU  世界上#NR  把#BA  茭白#NR  作为#P  蔬菜#NN  栽培#VV  的#DEC  只#AD  有#VE  我国#NR  和#CC  越南#NR    。#PU  古人#NR  称#VV  茭白#NN  为#VC  ``#NN  菰#NN  ''#NN  ，#PU  在#P  唐代#NN  以前#LC  ，#PU  茭白#NN  被#SB  当作#VV  粮食#NN  作物#NN  栽培#VV  ，#PU  它#PN  的#DEG  种子#NN  叫菰#CD  米#M  或#CC  雕胡#CD  ，#PU  是#VC  ``#NR  六#CD  谷#NN  ''#NN  -LRB-#NN  稌#NR  、#PU  黍#NR  、#PU  稷#NR  、#PU  粱#NR  、#PU  麦#NR  、#PU  菰#NR  -RRB-#NN  之一#NN    。#PU  后来#AD  人们#NN  发现#VV  ，#PU  有些#DT  菰因#NN  感染#NN  上#LC  黑粉菌#AD  而#MSP  不#AD  抽穗#VV  ，#PU  且#CC  植株#NN  毫#AD  无#VE  病象#NN  ，#PU  茎部#NN  不断#AD  膨大#VV  ，#PU  逐渐#AD  形成#VV  纺锤形#NN  的#DEG  肉质茎#NN  ，#PU  这#PN  就#AD  是#VC  现在#NT  食用#VV  的#DEC  茭白#NN    。#PU  这样#AD  ，#PU  人们#NN  就#AD  利用#VV  黑粉菌#AD  阻止#VV  茭白#NR  开花#JJ  结果#NN  ，#PU  繁殖#VV  这#DT  种#M  有病#NN  在身#NN  的#DEC  畸型#NN  植株#NN  作为#VV  蔬菜#NN    。#PU  可#VV  入药#VV    。#PU    。#PU
+            茭白#NN  生#VV  于#P  湖沼#NN  水中#NN  ，#PU  全国#NR  大部分#CD  地区#NN  均有#AD  栽培#VV  ，#PU  于#P  秋季#NT  上市#VV    。#PU  茭白#NN  外#NN  披#NN  绿色#JJ  叶鞘#NN  ，#PU  内呈#NR  三#CD  节#NN  圆柱状#VV  ，#PU  色#NN  黄白#NN  或#CC  青黄#NN  ，#PU  肉质#AD  肥嫩#VV  ，#PU  纤维#NN  少#VA  ，#PU  蛋白质#NN  含量#NN  高#VA  ，#PU  是#VC  ``#NN  江南#NN  三#CD  大#JJ  名菜#NN  ''#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蔬菜#NN, 茭白#NN)  (cop, 蔬菜#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 蔬菜#NN, 国#NN)  (assmod, 蔬菜#NN, 特有#JJ)  (case, 特有#JJ, 的#DEG)  (amod, 蔬菜#NN, 水生#JJ)  (root, ROOT#null, 蔬菜#NN)  (case, 菰黑粉菌#VV, 为#P)  (nn, 菰的嫩茎杆#NN, 禾本科#NN)  (nn, 菰的嫩茎杆#NN, 植物#NN)  (nsubjpass, 菰黑粉菌#VV, 菰的嫩茎杆#NN)  (auxpass, 菰黑粉菌#VV, 被#SB)  (prep, 有#VE, 菰黑粉菌#VV)  (ccomp, 菰黑粉菌#VV, 刺激#VV)  (prtmod, 形成#VV, 而#MSP)  (relcl, 肥大部分#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (nn, 肥大部分#NN, 纺锤形#NN)  (dobj, 刺激#VV, 肥大部分#NN)  (nsubj, 栽培#VV, 世界上#NR)  (ba, 栽培#VV, 把#BA)  (nsubj, 栽培#VV, 茭白#NR)  (case, 蔬菜#NN, 作为#P)  (prep, 栽培#VV, 蔬菜#NN)  (nsubj, 有#VE, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (advmod, 有#VE, 只#AD)  (conj, 蔬菜#NN, 有#VE)  (conj, 越南#NR, 我国#NR)  (cc, 越南#NR, 和#CC)  (dobj, 有#VE, 越南#NR)   (nsubj, 称#VV, 古人#NR)  (root, ROOT#null, 称#VV)  (nsubj, ''#NN, 茭白#NN)  (cop, ''#NN, 为#VC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 菰#NN)  (ccomp, 称#VV, ''#NN)  (case, 唐代#NN, 在#P)  (prep, 当作#VV, 唐代#NN)  (case, 唐代#NN, 以前#LC)  (nsubj, 当作#VV, 茭白#NN)  (auxpass, 当作#VV, 被#SB)  (conj, ''#NN, 当作#VV)  (nn, 作物#NN, 粮食#NN)  (dobj, 当作#VV, 作物#NN)  (dep, 当作#VV, 栽培#VV)  (assmod, 种子#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 之一#NN, 种子#NN)  (nummod, 米#M, 叫菰#CD)  (clf, 雕胡#CD, 米#M)  (cc, 雕胡#CD, 或#CC)  (dep, 之一#NN, 雕胡#CD)  (cop, 之一#NN, 是#VC)  (nn, -LRB-#NN, ``#NR)  (nummod, -LRB-#NN, 六#CD)  (nn, -LRB-#NN, 谷#NN)  (nn, -LRB-#NN, ''#NN)  (conj, 菰#NR, 稌#NR)  (conj, 菰#NR, 黍#NR)  (conj, 菰#NR, 稷#NR)  (conj, 菰#NR, 粱#NR)  (conj, 菰#NR, 麦#NR)  (nn, 之一#NN, 菰#NR)  (conj, ''#NN, 之一#NN)   (advmod, 发现#VV, 后来#AD)  (nsubj, 发现#VV, 人们#NN)  (root, ROOT#null, 发现#VV)  (det, 菰因#NN, 有些#DT)  (nn, 感染#NN, 菰因#NN)  (loc, 抽穗#VV, 感染#NN)  (case, 感染#NN, 上#LC)  (advmod, 抽穗#VV, 黑粉菌#AD)  (prtmod, 抽穗#VV, 而#MSP)  (neg, 抽穗#VV, 不#AD)  (dep, 发现#VV, 抽穗#VV)  (cc, 发现#VV, 且#CC)  (nsubj, 无#VE, 植株#NN)  (advmod, 无#VE, 毫#AD)  (conj, 发现#VV, 无#VE)  (dobj, 无#VE, 病象#NN)  (nsubj, 膨大#VV, 茎部#NN)  (advmod, 膨大#VV, 不断#AD)  (conj, 发现#VV, 膨大#VV)  (advmod, 形成#VV, 逐渐#AD)  (conj, 发现#VV, 形成#VV)  (assmod, 肉质茎#NN, 纺锤形#NN)  (case, 纺锤形#NN, 的#DEG)  (dobj, 形成#VV, 肉质茎#NN)  (nsubj, 茭白#NN, 这#PN)  (advmod, 茭白#NN, 就#AD)  (cop, 茭白#NN, 是#VC)  (tmod, 食用#VV, 现在#NT)  (relcl, 茭白#NN, 食用#VV)  (mark, 食用#VV, 的#DEC)  (conj, 发现#VV, 茭白#NN)   (advmod, 利用#VV, 这样#AD)  (nsubj, 利用#VV, 人们#NN)  (advmod, 利用#VV, 就#AD)  (conj, 作为#VV, 利用#VV)  (advmod, 阻止#VV, 黑粉菌#AD)  (relcl, 植株#NN, 阻止#VV)  (nn, 结果#NN, 茭白#NR)  (amod, 结果#NN, 开花#JJ)  (dobj, 阻止#VV, 结果#NN)  (conj, 阻止#VV, 繁殖#VV)  (det, 有病#NN, 这#DT)  (clf, 这#DT, 种#M)  (nn, 在身#NN, 有病#NN)  (dobj, 繁殖#VV, 在身#NN)  (mark, 阻止#VV, 的#DEC)  (nn, 植株#NN, 畸型#NN)  (dobj, 利用#VV, 植株#NN)  (root, ROOT#null, 作为#VV)  (dobj, 作为#VV, 蔬菜#NN)   (dep, 入药#VV, 可#VV)  (root, ROOT#null, 入药#VV)   (root, ROOT#null, null#null)
+            (nsubj, 生#VV, 茭白#NN)  (root, ROOT#null, 生#VV)  (case, 水中#NN, 于#P)  (nn, 水中#NN, 湖沼#NN)  (prep, 生#VV, 水中#NN)  (nn, 地区#NN, 全国#NR)  (nummod, 地区#NN, 大部分#CD)  (nsubj, 栽培#VV, 地区#NN)  (advmod, 栽培#VV, 均有#AD)  (conj, 生#VV, 栽培#VV)  (case, 秋季#NT, 于#P)  (prep, 上市#VV, 秋季#NT)  (dep, 栽培#VV, 上市#VV)   (nn, 披#NN, 茭白#NN)  (nn, 披#NN, 外#NN)  (nn, 叶鞘#NN, 披#NN)  (amod, 叶鞘#NN, 绿色#JJ)  (nsubj, 圆柱状#VV, 叶鞘#NN)  (nsubj, 圆柱状#VV, 内呈#NR)  (nummod, 节#NN, 三#CD)  (nsubj, 圆柱状#VV, 节#NN)  (root, ROOT#null, 圆柱状#VV)  (nn, 青黄#NN, 色#NN)  (conj, 青黄#NN, 黄白#NN)  (cc, 青黄#NN, 或#CC)  (nsubj, 肥嫩#VV, 青黄#NN)  (advmod, 肥嫩#VV, 肉质#AD)  (ccomp, 圆柱状#VV, 肥嫩#VV)  (nsubj, 少#VA, 纤维#NN)  (ccomp, 肥嫩#VV, 少#VA)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 少#VA, 高#VA)  (cop, 之一#NN, 是#VC)  (nn, 江南#NN, ``#NN)  (nn, 之一#NN, 江南#NN)  (nummod, 之一#NN, 三#CD)  (amod, 之一#NN, 大#JJ)  (nn, 之一#NN, 名菜#NN)  (nn, 之一#NN, ''#NN)  (dep, 肥嫩#VV, 之一#NN)
+        </parsing>
+
+        <tag>
+            水生蔬菜  禾本科菰的嫩茎杆  植物菰的嫩茎杆  形成肥大部分  纺锤形肥大部分  刺激肥大部分  越南  我国  粮食作物  当作作物  菰因感染  形成肉质茎  阻止植株  开花结果  阻止结果  有病在身  繁殖在身  畸型植株  利用植株  作为蔬菜  入药  湖沼水中  绿色叶鞘  青黄  黄白  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味寒、甘，入肺经、脾经、肝经。解热毒，除烦渴，利二便。治烦热，消渴，黄疸，痢疾，目赤，风疮。
+            1.利尿止渴、解酒毒
+            茭白甘寒，性滑而利，既能利尿祛水，辅助治疗四肢浮肿、小便不利等症，又能清暑解烦而止渴，夏季食用尤为适宜，可清热通便，除烦解酒，还能解除酒毒，治酒醉不醒。
+            2.补虚健体
+            茭白含较多的碳水化合物、蛋白质、脂肪等，能补充人体的营养物质，具有健壮机体的作用。
+            3.退黄疸
+            茭白能退黄疸，对于黄疸型肝炎有益。
+            4.减肥美容
+            由于茭白热量低、水分高，食后易有饱足感，成为人们喜爱的减肥佳品，茭白中含有豆醇能清除体内的活性氧，抑制酪氨酸酶活性，从而可阻止黑色素生成，它还能软化皮肤表面的角质层，使皮肤润滑细腻。
+        </rawdata>
+
+        <segment>
+            味寒  、  甘  ，  入肺经  、  脾经  、  肝经  。  解热  毒  ，  除  烦渴  ，  利  二  便  。  治  烦  热  ，  消渴  ，  黄疸  ，  痢疾  ，  目赤  ，  风疮  。
+            利尿  止渴  、  解酒  毒
+            茭白  甘  寒  ，  性滑  而  利  ，  既  能  利尿  祛水  ，  辅助  治疗  四肢  浮肿  、  小便  不利  等症  ，  又  能  清暑  解烦  而  止渴  ，  夏季  食用  尤为  适宜  ，  可  清热  通便  ，  除烦  解酒  ，  还  能  解除  酒毒  ，  治  酒醉  不  醒  。
+            补  虚  健体
+            茭白  含  较  多  的  碳水化合物  、  蛋白质  、  脂肪  等  ，  能  补充  人体  的  营养  物质  ，  具有  健壮  机体  的  作用  。
+            退  黄疸
+            茭白  能  退  黄疸  ，  对于  黄疸型  肝炎  有益  。
+            减肥  美容
+            由于  茭白  热量  低  、  水分  高  ，  食后  易  有  饱足感  ，  成为  人们  喜爱  的  减肥  佳品  ，  茭白  中  含有  豆醇  能  清除  体内  的  活性氧  ，  抑制  酪氨酸酶  活性  ，  从而  可  阻止  黑色素  生成  ，  它  还  能  软化  皮肤  表面  的  角质层  ，  使  皮肤  润滑  细腻  。
+        </segment>
+
+        <pos>
+            味寒#NR  、#PU  甘#NR  ，#PU  入肺经#NR  、#PU  脾经#NR  、#PU  肝经#NR    。#PU  解热#NN  毒#VV  ，#PU  除#P  烦渴#NN  ，#PU  利#NR  二#CD  便#VA    。#PU  治#VV  烦#NN  热#NN  ，#PU  消渴#VV  ，#PU  黄疸#NN  ，#PU  痢疾#VV  ，#PU  目赤#NN  ，#PU  风疮#VV    。#PU    。#PU
+            利尿#NR  止渴#NR  、#PU  解酒#NR  毒#VV
+            茭白#NR  甘#NR  寒#JJ  ，#PU  性滑#NR  而#CC  利#NR  ，#PU  既#CC  能#VV  利尿#NN  祛水#NN  ，#PU  辅助#NN  治疗#VV  四肢#CD  浮肿#NN  、#PU  小便#VV  不利#JJ  等症#NN  ，#PU  又#AD  能#VV  清暑#JJ  解烦#NN  而#CC  止渴#NN  ，#PU  夏季#NT  食用#VV  尤为#AD  适宜#VA  ，#PU  可#VV  清热#NN  通便#NN  ，#PU  除烦#VV  解酒#NN  ，#PU  还#AD  能#VV  解除#VV  酒毒#NN  ，#PU  治#NN  酒醉#NN  不#AD  醒#VV  。#PU
+            补#NN  虚#AD  健体#VV
+            茭白#NN  含#VV  较#AD  多#VA  的#DEC  碳水化合物#NR  、#PU  蛋白质#NR  、#PU  脂肪#NR  等#ETC  ，#PU  能#VV  补充#VV  人体#NN  的#DEG  营养#VA  物质#NN  ，#PU  具有#VV  健壮#NN  机体#NN  的#DEG  作用#NN  。#PU
+            退#VV  黄疸#NN
+            茭白#NN  能#VV  退#VV  黄疸#NN  ，#PU  对于#P  黄疸型#JJ  肝炎#NN  有益#VA  。#PU
+            减肥#VV  美容#NN
+            由于#P  茭白#NR  热量#VA  低#VA  、#PU  水分#VA  高#VA  ，#PU  食后#NR  易#AD  有#VE  饱足感#NN  ，#PU  成为#VV  人们#NN  喜爱#NN  的#DEC  减肥#VV  佳品#NN  ，#PU  茭白#NN  中#LC  含有#NN  豆醇#NN  能#VV  清除#VV  体内#NN  的#DEC  活性氧#NN  ，#PU  抑制#VV  酪氨酸酶#NN  活性#NN  ，#PU  从而#AD  可#VV  阻止#VV  黑色素#NN  生成#NN  ，#PU  它#PN  还#AD  能#VV  软化#NN  皮肤#NN  表面#NN  的#DEG  角质层#NN  ，#PU  使#VV  皮肤#VV  润滑#NN  细腻#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 肝经#NR, 味寒#NR)  (dep, 肝经#NR, 甘#NR)  (conj, 肝经#NR, 入肺经#NR)  (conj, 肝经#NR, 脾经#NR)  (root, ROOT#null, 肝经#NR)   (nsubj, 毒#VV, 解热#NN)  (root, ROOT#null, 毒#VV)  (case, 烦渴#NN, 除#P)  (prep, 便#VA, 烦渴#NN)  (nsubj, 便#VA, 利#NR)  (nsubj, 便#VA, 二#CD)  (conj, 毒#VV, 便#VA)   (root, ROOT#null, 治#VV)  (nn, 热#NN, 烦#NN)  (dobj, 治#VV, 热#NN)  (conj, 治#VV, 消渴#VV)  (nsubj, 痢疾#VV, 黄疸#NN)  (ccomp, 消渴#VV, 痢疾#VV)  (nsubj, 风疮#VV, 目赤#NN)  (ccomp, 痢疾#VV, 风疮#VV)   (root, ROOT#null, null#null)
+            (nn, 解酒#NR, 利尿#NR)  (conj, 解酒#NR, 止渴#NR)  (nsubj, 毒#VV, 解酒#NR)  (root, ROOT#null, 毒#VV)
+            (nn, 甘#NR, 茭白#NR)  (nsubj, 寒#JJ, 甘#NR)  (root, ROOT#null, 寒#JJ)  (conj, 利#NR, 性滑#NR)  (cc, 利#NR, 而#CC)  (conj, 寒#JJ, 利#NR)  (cc, 寒#JJ, 既#CC)  (conj, 寒#JJ, 能#VV)  (nn, 祛水#NN, 利尿#NN)  (dobj, 能#VV, 祛水#NN)  (nsubj, 治疗#VV, 辅助#NN)  (conj, 寒#JJ, 治疗#VV)  (nummod, 浮肿#NN, 四肢#CD)  (dobj, 治疗#VV, 浮肿#NN)  (conj, 治疗#VV, 小便#VV)  (amod, 等症#NN, 不利#JJ)  (dobj, 小便#VV, 等症#NN)  (advmod, 能#VV, 又#AD)  (conj, 治疗#VV, 能#VV)  (amod, 止渴#NN, 清暑#JJ)  (conj, 止渴#NN, 解烦#NN)  (cc, 止渴#NN, 而#CC)  (dobj, 能#VV, 止渴#NN)  (tmod, 适宜#VA, 夏季#NT)  (mmod, 适宜#VA, 食用#VV)  (advmod, 适宜#VA, 尤为#AD)  (conj, 寒#JJ, 适宜#VA)  (conj, 适宜#VA, 可#VV)  (nn, 通便#NN, 清热#NN)  (dobj, 可#VV, 通便#NN)  (conj, 适宜#VA, 除烦#VV)  (dobj, 除烦#VV, 解酒#NN)  (advmod, 解除#VV, 还#AD)  (mmod, 解除#VV, 能#VV)  (conj, 适宜#VA, 解除#VV)  (dobj, 解除#VV, 酒毒#NN)  (nn, 酒醉#NN, 治#NN)  (nsubj, 醒#VV, 酒醉#NN)  (neg, 醒#VV, 不#AD)  (conj, 寒#JJ, 醒#VV)
+            (nsubj, 健体#VV, 补#NN)  (advmod, 健体#VV, 虚#AD)  (root, ROOT#null, 健体#VV)
+            (nsubj, 含#VV, 茭白#NN)  (root, ROOT#null, 含#VV)  (advmod, 多#VA, 较#AD)  (relcl, 脂肪#NR, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 脂肪#NR, 碳水化合物#NR)  (conj, 脂肪#NR, 蛋白质#NR)  (dobj, 含#VV, 脂肪#NR)  (etc, 脂肪#NR, 等#ETC)  (mmod, 补充#VV, 能#VV)  (conj, 含#VV, 补充#VV)  (assmod, 物质#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nfincl, 物质#NN, 营养#VA)  (dobj, 补充#VV, 物质#NN)  (conj, 含#VV, 具有#VV)  (nn, 机体#NN, 健壮#NN)  (assmod, 作用#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 退#VV)  (dobj, 退#VV, 黄疸#NN)
+            (nsubj, 退#VV, 茭白#NN)  (mmod, 退#VV, 能#VV)  (root, ROOT#null, 退#VV)  (dobj, 退#VV, 黄疸#NN)  (case, 肝炎#NN, 对于#P)  (amod, 肝炎#NN, 黄疸型#JJ)  (prep, 有益#VA, 肝炎#NN)  (dep, 退#VV, 有益#VA)
+            (root, ROOT#null, 减肥#VV)  (dobj, 减肥#VV, 美容#NN)
+            (case, 热量#VA, 由于#P)  (nsubj, 热量#VA, 茭白#NR)  (prep, 有#VE, 热量#VA)  (comod, 热量#VA, 低#VA)  (ccomp, 热量#VA, 水分#VA)  (comod, 水分#VA, 高#VA)  (nsubj, 有#VE, 食后#NR)  (advmod, 有#VE, 易#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 饱足感#NN)  (nsubj, 减肥#VV, 成为#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 成为#VV, 喜爱#NN)  (mark, 成为#VV, 的#DEC)  (conj, 有#VE, 减肥#VV)  (dobj, 减肥#VV, 佳品#NN)  (loc, 能#VV, 茭白#NN)  (case, 茭白#NN, 中#LC)  (nn, 豆醇#NN, 含有#NN)  (nsubj, 能#VV, 豆醇#NN)  (conj, 有#VE, 能#VV)  (relcl, 活性氧#NN, 清除#VV)  (dobj, 清除#VV, 体内#NN)  (mark, 清除#VV, 的#DEC)  (dobj, 能#VV, 活性氧#NN)  (conj, 能#VV, 抑制#VV)  (nn, 活性#NN, 酪氨酸酶#NN)  (dobj, 抑制#VV, 活性#NN)  (advmod, 阻止#VV, 从而#AD)  (mmod, 阻止#VV, 可#VV)  (conj, 能#VV, 阻止#VV)  (nn, 生成#NN, 黑色素#NN)  (dobj, 阻止#VV, 生成#NN)  (nsubj, 能#VV, 它#PN)  (advmod, 能#VV, 还#AD)  (conj, 有#VE, 能#VV)  (nn, 表面#NN, 软化#NN)  (nn, 表面#NN, 皮肤#NN)  (assmod, 角质层#NN, 表面#NN)  (case, 表面#NN, 的#DEG)  (dobj, 能#VV, 角质层#NN)  (conj, 有#VE, 使#VV)  (ccomp, 使#VV, 皮肤#VV)  (nn, 细腻#NN, 润滑#NN)  (dobj, 皮肤#VV, 细腻#NN)
+        </parsing>
+
+        <tag>
+            肝经  味寒  入肺经  脾经  利尿祛水  治疗浮肿  不利等症  小便等症  清暑止渴  解烦  清热通便  除烦解酒  解除酒毒  健体  脂肪  碳水化合物  蛋白质  健壮机体  黄疸型肝炎  减肥美容  热量水分  人们喜爱  成为喜爱  减肥佳品  含有豆醇  清除活性氧  清除体内  酪氨酸酶活性  抑制活性  黑色素生成  阻止生成  软化表面  皮肤表面  角质层  润滑细腻  皮肤细腻  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        促进泌乳  醒酒  除烦  生津止渴  清热解毒  攻下
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            茭白的营养丰富，不仅含糖类、有机氮、水分、脂肪、蛋白质、纤维、灰粉，还含有赖氨酸等17种氨基酸，其中苏氨酸、甲硫氨酸、苯丙氨酸、赖氨酸等为人体所必需的氨基酸。
+        </rawdata>
+
+        <segment>
+            茭白  的  营养  丰富  ，  不仅  含  糖类  、  有机  氮  、  水分  、  脂肪  、  蛋白质  、  纤维  、  灰粉  ，  还  含有  赖氨酸  等  17  种  氨基酸  ，  其中  苏氨酸  、  甲硫氨酸  、  苯丙氨酸  、  赖氨酸  等  为  人体  所  必需  的  氨基酸  。
+        </segment>
+
+        <pos>
+            茭白#NN  的#DEG  营养#VA  丰富#VA  ，#PU  不仅#CC  含#VV  糖类#NR  、#PU  有机#NR  氮#NR  、#PU  水分#NR  、#PU  脂肪#NR  、#PU  蛋白质#NR  、#PU  纤维#NN  、#PU  灰粉#NN  ，#PU  还#AD  含有#VV  赖氨酸#NN  等#ETC  17#CD  种#M  氨基酸#NN  ，#PU  其中#NN  苏氨酸#NR  、#PU  甲硫氨酸#NR  、#PU  苯丙氨酸#NR  、#PU  赖氨酸#NR  等#ETC  为#VC  人体#AD  所#MSP  必需#VV  的#DEC  氨基酸#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 氨基酸#NN, 茭白#NN)  (case, 茭白#NN, 的#DEG)  (nfincl, 氨基酸#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cc, 营养#VA, 不仅#CC)  (dep, 营养#VA, 含#VV)  (conj, 蛋白质#NR, 糖类#NR)  (nn, 蛋白质#NR, 有机#NR)  (conj, 蛋白质#NR, 氮#NR)  (conj, 蛋白质#NR, 水分#NR)  (conj, 蛋白质#NR, 脂肪#NR)  (conj, 灰粉#NN, 蛋白质#NR)  (conj, 灰粉#NN, 纤维#NN)  (dobj, 含#VV, 灰粉#NN)  (advmod, 含有#VV, 还#AD)  (conj, 营养#VA, 含有#VV)  (dobj, 含有#VV, 赖氨酸#NN)  (etc, 赖氨酸#NN, 等#ETC)  (nummod, 种#M, 17#CD)  (range, 含有#VV, 种#M)  (dep, 氨基酸#NN, 氨基酸#NN)  (dep, 氨基酸#NN, 其中#NN)  (conj, 赖氨酸#NR, 苏氨酸#NR)  (conj, 赖氨酸#NR, 甲硫氨酸#NR)  (conj, 赖氨酸#NR, 苯丙氨酸#NR)  (nsubj, 氨基酸#NN, 赖氨酸#NR)  (etc, 赖氨酸#NR, 等#ETC)  (cop, 氨基酸#NN, 为#VC)  (advmod, 必需#VV, 人体#AD)  (prtmod, 必需#VV, 所#MSP)  (relcl, 氨基酸#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (root, ROOT#null, 氨基酸#NN)
+        </parsing>
+
+        <tag>
+            营养丰富  蛋白质  糖类  水分  脂肪  灰粉  纤维  含有赖氨酸  苏氨酸  甲硫氨酸  苯丙氨酸  必需氨基酸  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            茭白不可生食、易引起姜片虫病。茭白适用于炒、烧等烹调方法，或做配料和馅心，如“酱烧蒋笋”、“茭笋肉片”、“蟹肉茭白烧卖”等。茭白以春夏季的质量最佳，营养素比较丰富。
+        </rawdata>
+
+        <segment>
+            茭白  不  可  生食  、  易  引起  姜片  虫病  。  茭白  适用  于  炒  、  烧  等  烹调  方法  ，  或  做  配料  和  馅心  ，  如  “  酱  烧  蒋笋  ”  、  “  茭笋  肉片  ”  、  “  蟹肉  茭白  烧卖  ”  等  。  茭白  以  春夏  季  的  质量  最  佳  ，  营养素  比较  丰富  。
+        </segment>
+
+        <pos>
+            茭白#NN  不#AD  可#VV  生食#AD  、#PU  易#AD  引起#VV  姜片#NN  虫病#NN    。#PU  茭白#AD  适用#VV  于#P  炒#NR  、#PU  烧#NR  等#ETC  烹调#NN  方法#NN  ，#PU  或#CC  做#VV  配料#NN  和#CC  馅心#NN  ，#PU  如#P  ``#NN  酱#VV  烧#NN  蒋笋#NN  ''#NN  、#PU  ``#NR  茭笋#NR  肉片#NN  ''#NN  、#PU  ``#NN  蟹肉#NN  茭白#NN  烧卖#NN  ''#NN  等#ETC    。#PU  茭白#NN  以#P  春夏#CD  季#M  的#DEG  质量#NN  最#AD  佳#VA  ，#PU  营养素#NN  比较#AD  丰富#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 引起#VV, 茭白#NN)  (neg, 引起#VV, 不#AD)  (mmod, 引起#VV, 可#VV)  (advmod, 引起#VV, 生食#AD)  (conj, 生食#AD, 易#AD)  (root, ROOT#null, 引起#VV)  (nn, 虫病#NN, 姜片#NN)  (dobj, 引起#VV, 虫病#NN)   (advmod, 适用#VV, 茭白#AD)  (root, ROOT#null, 适用#VV)  (case, 方法#NN, 于#P)  (conj, 烧#NR, 炒#NR)  (nn, 方法#NN, 烧#NR)  (etc, 烧#NR, 等#ETC)  (nn, 方法#NN, 烹调#NN)  (prep, 适用#VV, 方法#NN)  (cc, 适用#VV, 或#CC)  (dep, 适用#VV, 做#VV)  (conj, 馅心#NN, 配料#NN)  (cc, 馅心#NN, 和#CC)  (dobj, 做#VV, 馅心#NN)  (case, ``#NN, 如#P)  (prep, 酱#VV, ``#NN)  (conj, 适用#VV, 酱#VV)  (nn, ''#NN, 烧#NN)  (nn, ''#NN, 蒋笋#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 茭笋#NR)  (nn, ''#NN, 肉片#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蟹肉#NN)  (nn, ''#NN, 茭白#NN)  (nn, ''#NN, 烧卖#NN)  (dobj, 酱#VV, ''#NN)  (etc, ''#NN, 等#ETC)   (nsubj, 佳#VA, 茭白#NN)  (case, 质量#NN, 以#P)  (nummod, 季#M, 春夏#CD)  (assmod, 质量#NN, 季#M)  (case, 季#M, 的#DEG)  (prep, 佳#VA, 质量#NN)  (advmod, 佳#VA, 最#AD)  (root, ROOT#null, 佳#VA)  (nsubj, 丰富#VA, 营养素#NN)  (advmod, 丰富#VA, 比较#AD)  (conj, 佳#VA, 丰富#VA)
+        </parsing>
+
+        <tag>
+            姜片虫病  适用  烹调方法  馅心  配料  营养素丰富  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051951012846.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\165 茭白.jpg
+    </picturelocalurl>
+
+</content>

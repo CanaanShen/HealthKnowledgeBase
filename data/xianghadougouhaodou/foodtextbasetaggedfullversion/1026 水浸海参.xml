@@ -1,0 +1,148 @@
+<content>
+
+    <id>
+        1026
+    </id>
+
+    <foodname>
+        水浸海参
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        海男子、土肉、刺参、海鼠、海瓜皮
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            海参又名刺参、海鼠、海瓜，是一种名贵海产动物，因补益作用类似人参而得名。海参肉质软嫩，营养丰富，是典型的高蛋白、低脂肪食物，滋味腴美，风味高雅，是久负盛名的名馔佳肴，是海味“八珍”之一，与燕窝、鲍鱼、鱼翅齐名，在大雅之堂上往往扮演着“压台轴”的角色。
+        </rawdata>
+
+        <segment>
+            海参  又  名  刺参  、  海鼠  、  海瓜  ，  是  一  种  名贵  海产  动物  ，  因  补益  作用  类似  人参  而  得名  。  海参  肉质  软嫩  ，  营养  丰富  ，  是  典型  的  高  蛋白  、  低脂肪  食物  ，  滋味  腴美  ，  风味  高雅  ，  是  久负盛名  的  名馔  佳肴  ，  是  海味  “  八  珍  ”  之一  ，  与  燕窝  、  鲍鱼  、  鱼翅  齐名  ，  在  大雅之堂  上  往往  扮演  着  “  压  台  轴  ”  的  角色  。
+        </segment>
+
+        <pos>
+            海参#NN  又#CC  名#NN  刺参#NR  、#PU  海鼠#NR  、#PU  海瓜#NR  ，#PU  是#VC  一#CD  种#M  名贵#JJ  海产#JJ  动物#NN  ，#PU  因#P  补益#NN  作用#NN  类似#VA  人参#NN  而#MSP  得名#VV    。#PU  海参#NR  肉质#VV  软嫩#VV  ，#PU  营养#VA  丰富#VA  ，#PU  是#VC  典型#VA  的#DEC  高#JJ  蛋白#NN  、#PU  低脂肪#NN  食物#NN  ，#PU  滋味#VV  腴美#NN  ，#PU  风味#AD  高雅#VA  ，#PU  是#VC  久负盛名#NR  的#DEG  名馔#NN  佳肴#NN  ，#PU  是#VC  海味#NR  ``#NR  八#CD  珍#JJ  ''#NN  之一#NN  ，#PU  与#P  燕窝#NR  、#PU  鲍鱼#NR  、#PU  鱼翅#NR  齐名#VV  ，#PU  在#P  大雅之堂#NN  上#LC  往往#AD  扮演#VV  着#AS  ``#AD  压#VV  台#NR  轴#M  ''#NN  的#DEC  角色#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 名#NN, 海参#NN)  (cc, 名#NN, 又#CC)  (nn, 海瓜#NR, 名#NN)  (conj, 海瓜#NR, 刺参#NR)  (conj, 海瓜#NR, 海鼠#NR)  (dep, 动物#NN, 海瓜#NR)  (cop, 动物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 动物#NN, 种#M)  (amod, 动物#NN, 名贵#JJ)  (amod, 动物#NN, 海产#JJ)  (dep, 得名#VV, 动物#NN)  (case, 类似#VA, 因#P)  (nn, 作用#NN, 补益#NN)  (nsubj, 类似#VA, 作用#NN)  (prep, 得名#VV, 类似#VA)  (nsubj, 得名#VV, 人参#NN)  (prtmod, 得名#VV, 而#MSP)  (root, ROOT#null, 得名#VV)   (nsubj, 软嫩#VV, 海参#NR)  (mmod, 软嫩#VV, 肉质#VV)  (root, ROOT#null, 软嫩#VV)  (ccomp, 软嫩#VV, 营养#VA)  (conj, 软嫩#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 食物#NN, 是#VC)  (relcl, 食物#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (amod, 食物#NN, 高#JJ)  (conj, 食物#NN, 蛋白#NN)  (nn, 食物#NN, 低脂肪#NN)  (ccomp, 软嫩#VV, 食物#NN)  (conj, 软嫩#VV, 食物#NN)  (ccomp, 软嫩#VV, 滋味#VV)  (conj, 软嫩#VV, 滋味#VV)  (dobj, 滋味#VV, 腴美#NN)  (advmod, 高雅#VA, 风味#AD)  (ccomp, 软嫩#VV, 高雅#VA)  (conj, 软嫩#VV, 高雅#VA)  (cop, 佳肴#NN, 是#VC)  (assmod, 佳肴#NN, 久负盛名#NR)  (case, 久负盛名#NR, 的#DEG)  (nn, 佳肴#NN, 名馔#NN)  (ccomp, 软嫩#VV, 佳肴#NN)  (conj, 软嫩#VV, 佳肴#NN)  (cop, 之一#NN, 是#VC)  (nn, ``#NR, 海味#NR)  (nn, 之一#NN, ``#NR)  (nummod, 之一#NN, 八#CD)  (amod, 之一#NN, 珍#JJ)  (nn, 之一#NN, ''#NN)  (ccomp, 软嫩#VV, 之一#NN)  (conj, 软嫩#VV, 之一#NN)  (case, 鱼翅#NR, 与#P)  (conj, 鱼翅#NR, 燕窝#NR)  (conj, 鱼翅#NR, 鲍鱼#NR)  (prep, 齐名#VV, 鱼翅#NR)  (ccomp, 软嫩#VV, 齐名#VV)  (conj, 软嫩#VV, 齐名#VV)  (case, 大雅之堂#NN, 在#P)  (prep, 扮演#VV, 大雅之堂#NN)  (case, 大雅之堂#NN, 上#LC)  (advmod, 扮演#VV, 往往#AD)  (ccomp, 软嫩#VV, 扮演#VV)  (conj, 软嫩#VV, 扮演#VV)  (asp, 扮演#VV, 着#AS)  (advmod, 压#VV, ``#AD)  (relcl, 角色#NN, 压#VV)  (dep, 轴#M, 台#NR)  (dep, ''#NN, 轴#M)  (dobj, 压#VV, ''#NN)  (mark, 压#VV, 的#DEC)  (dobj, 扮演#VV, 角色#NN)
+        </parsing>
+
+        <tag>
+            海瓜  刺参  海鼠  名贵动物  海产动物  得名  软嫩  营养丰富  食物典型  高食物  蛋白  低脂肪食物  滋味腴美  名馔佳肴  鱼翅  燕窝  鲍鱼  压角色  扮演角色  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.海参含胆固醇低，脂肪含量相对少，是典型的高蛋白、低脂肪、低胆固醇食物，对高血压、冠心病、肝炎等病人及老年人堪称食疗佳品，常食对治病强身很有益处；
+            2.海参含有硫酸软骨素，有助于人体生长发育，能够延缓肌肉衰老，增强机体的免疫力；
+            3.海参微量元素钒的含量居各种食物之首，可以参与血液中铁的输送，增强造血功能；
+            4.最近美国的研究学者从海参中萃取出一种特殊物质--海参毒素，这种化合物能够有效抑制多种霉菌及某些人类癌细胞的生长和转移；
+            5.食用海参对再生障碍性贫血、糖尿病、胃溃疡等均有良效;
+            6.海参味甘咸、性温，入心、肾、脾、肺经；具有滋阴补肾、壮阳益精、养心润燥、补血、治溃疡等作用。
+        </rawdata>
+
+        <segment>
+            海参  含  胆固醇  低  ，  脂肪  含量  相对  少  ，  是  典型  的  高  蛋白  、  低  脂肪  、  低  胆固醇  食物  ，  对  高血压  、  冠心病  、  肝炎  等  病人  及  老年人  堪称  食疗  佳品  ，  常食  对  治病  强身  很  有  益处  ；
+            海参  含有  硫酸  软骨素  ，  有助于  人体  生长  发育  ，  能够  延缓  肌肉  衰老  ，  增强  机体  的  免疫力  ；
+            海参  微量  元素  钒的  含量  居  各  种  食物  之  首  ，  可以  参与  血液  中  铁的  输送  ，  增强  造血  功能  ；
+            最近  美国  的  研究  学者  从  海参  中  萃取  出  一  种  特殊  物质  --  海参  毒素  ，  这  种  化合物  能够  有效  抑制  多  种  霉菌  及  某些  人类  癌细胞  的  生长  和  转移  ；
+            食用  海参  对  再生  障碍  性  贫血  、  糖尿病  、  胃溃疡  等  均  有  良效  ;
+            海参  味甘咸  、  性温  ，  入心  、  肾  、  脾  、  肺经  ；  具有  滋阴  补  肾  、  壮阳益精  、  养心  润燥  、  补血  、  治  溃疡  等  作用  。
+        </segment>
+
+        <pos>
+            海参#AD  含#VV  胆固醇#NN  低#VA  ，#PU  脂肪#NN  含量#NN  相对#AD  少#VA  ，#PU  是#VC  典型#VA  的#DEC  高#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  低#JJ  胆固醇#NN  食物#NN  ，#PU  对#P  高血压#NN  、#PU  冠心病#NN  、#PU  肝炎#NN  等#ETC  病人#NN  及#CC  老年人#NN  堪称#VV  食疗#VV  佳品#NN  ，#PU  常食#NN  对#P  治病#NN  强身#NN  很#AD  有#VE  益处#NN  ；#PU
+            海参#NN  含有#NN  硫酸#NN  软骨素#NN  ，#PU  有助于#VV  人体#NN  生长#NN  发育#VV  ，#PU  能够#VV  延缓#VV  肌肉#NN  衰老#NN  ，#PU  增强#VV  机体#NN  的#DEG  免疫力#NN  ；#PU
+            海参#NN  微量#VV  元素#NN  钒的#NN  含量#NN  居#VV  各#DT  种#M  食物#NN  之#DEG  首#NN  ，#PU  可以#VV  参与#VV  血液#NN  中#LC  铁的#AD  输送#VV  ，#PU  增强#VV  造血#NN  功能#NN  ；#PU
+            最近#NT  美国#NR  的#DEG  研究#NN  学者#NN  从#P  海参#NN  中#LC  萃取#VV  出#VV  一#CD  种#M  特殊#JJ  物质#NN  --#NN  海参#NN  毒素#NN  ，#PU  这#DT  种#M  化合物#NN  能够#VV  有效#AD  抑制#VV  多#CD  种#M  霉菌#NN  及#CC  某些#DT  人类#NN  癌细胞#NN  的#DEG  生长#NN  和#CC  转移#VV  ；#PU
+            食用#VV  海参#NN  对#P  再生#VV  障碍#NN  性#NN  贫血#NN  、#PU  糖尿病#NN  、#PU  胃溃疡#NN  等#ETC  均#AD  有#VE  良效#NN  ;#NN
+            海参#VV  味甘咸#NN  、#PU  性温#NN  ，#PU  入心#NR  、#PU  肾#NR  、#PU  脾#NR  、#PU  肺经#NR  ；#PU  具有#VV  滋阴#NN  补#VV  肾#NR  、#PU  壮阳益精#NR  、#PU  养心#NR  润燥#NR  、#PU  补血#NR  、#PU  治#NN  溃疡#NN  等#ETC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含#VV, 海参#AD)  (relcl, 胆固醇#NN, 含#VV)  (nsubj, 低#VA, 胆固醇#NN)  (root, ROOT#null, 低#VA)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 相对#AD)  (conj, 低#VA, 少#VA)  (cop, 食物#NN, 是#VC)  (relcl, 蛋白#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (amod, 蛋白#NN, 高#JJ)  (conj, 胆固醇#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 胆固醇#NN, 脂肪#NN)  (amod, 胆固醇#NN, 低#JJ)  (nn, 食物#NN, 胆固醇#NN)  (dep, 少#VA, 食物#NN)  (case, 老年人#NN, 对#P)  (conj, 肝炎#NN, 高血压#NN)  (conj, 肝炎#NN, 冠心病#NN)  (nn, 病人#NN, 肝炎#NN)  (etc, 肝炎#NN, 等#ETC)  (conj, 老年人#NN, 病人#NN)  (cc, 老年人#NN, 及#CC)  (prep, 堪称#VV, 老年人#NN)  (conj, 少#VA, 堪称#VV)  (ccomp, 堪称#VV, 食疗#VV)  (dobj, 食疗#VV, 佳品#NN)  (nsubj, 有#VE, 常食#NN)  (case, 强身#NN, 对#P)  (nn, 强身#NN, 治病#NN)  (prep, 有#VE, 强身#NN)  (advmod, 有#VE, 很#AD)  (conj, 低#VA, 有#VE)  (dobj, 有#VE, 益处#NN)
+            (nn, 软骨素#NN, 海参#NN)  (nn, 软骨素#NN, 含有#NN)  (nn, 软骨素#NN, 硫酸#NN)  (nsubj, 有助于#VV, 软骨素#NN)  (root, ROOT#null, 有助于#VV)  (nn, 生长#NN, 人体#NN)  (nsubj, 发育#VV, 生长#NN)  (ccomp, 有助于#VV, 发育#VV)  (mmod, 延缓#VV, 能够#VV)  (dep, 有助于#VV, 延缓#VV)  (nn, 衰老#NN, 肌肉#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 延缓#VV, 增强#VV)  (assmod, 免疫力#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 增强#VV, 免疫力#NN)
+            (nsubj, 微量#VV, 海参#NN)  (root, ROOT#null, 微量#VV)  (nn, 含量#NN, 元素#NN)  (nn, 含量#NN, 钒的#NN)  (dobj, 微量#VV, 含量#NN)  (conj, 微量#VV, 居#VV)  (det, 食物#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 首#NN, 食物#NN)  (case, 食物#NN, 之#DEG)  (dobj, 居#VV, 首#NN)  (mmod, 参与#VV, 可以#VV)  (loc, 输送#VV, 参与#VV)  (dobj, 参与#VV, 血液#NN)  (case, 参与#VV, 中#LC)  (advmod, 输送#VV, 铁的#AD)  (conj, 微量#VV, 输送#VV)  (conj, 微量#VV, 增强#VV)  (nn, 功能#NN, 造血#NN)  (dobj, 增强#VV, 功能#NN)
+            (tmod, 萃取#VV, 最近#NT)  (assmod, 学者#NN, 美国#NR)  (case, 美国#NR, 的#DEG)  (nn, 学者#NN, 研究#NN)  (nsubj, 萃取#VV, 学者#NN)  (case, 海参#NN, 从#P)  (prep, 萃取#VV, 海参#NN)  (case, 海参#NN, 中#LC)  (root, ROOT#null, 萃取#VV)  (rcomp, 萃取#VV, 出#VV)  (nummod, 种#M, 一#CD)  (clf, 毒素#NN, 种#M)  (amod, 毒素#NN, 特殊#JJ)  (nn, 毒素#NN, 物质#NN)  (nn, 毒素#NN, 海参#NN)  (dobj, 萃取#VV, 毒素#NN)  (det, 化合物#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 抑制#VV, 化合物#NN)  (mmod, 抑制#VV, 能够#VV)  (advmod, 抑制#VV, 有效#AD)  (conj, 萃取#VV, 抑制#VV)  (nummod, 种#M, 多#CD)  (clf, 霉菌#NN, 种#M)  (conj, 癌细胞#NN, 霉菌#NN)  (cc, 癌细胞#NN, 及#CC)  (det, 人类#NN, 某些#DT)  (nn, 癌细胞#NN, 人类#NN)  (assmod, 生长#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 生长#NN)  (cc, 抑制#VV, 和#CC)  (conj, 抑制#VV, 转移#VV)
+            (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 海参#NN)  (case, 再生#VV, 对#P)  (prep, 有#VE, 再生#VV)  (nn, 胃溃疡#NN, 障碍#NN)  (nn, 胃溃疡#NN, 性#NN)  (conj, 胃溃疡#NN, 贫血#NN)  (conj, 胃溃疡#NN, 糖尿病#NN)  (dobj, 再生#VV, 胃溃疡#NN)  (etc, 胃溃疡#NN, 等#ETC)  (advmod, 有#VE, 均#AD)  (conj, 食用#VV, 有#VE)  (nn, ;#NN, 良效#NN)  (dobj, 有#VE, ;#NN)
+            (root, ROOT#null, 海参#VV)  (conj, 性温#NN, 味甘咸#NN)  (dobj, 海参#VV, 性温#NN)  (conj, 肺经#NR, 入心#NR)  (conj, 肺经#NR, 肾#NR)  (conj, 肺经#NR, 脾#NR)  (conj, 海参#VV, 肺经#NR)  (conj, 海参#VV, 具有#VV)  (dobj, 具有#VV, 滋阴#NN)  (conj, 海参#VV, 补#VV)  (conj, 补血#NR, 肾#NR)  (conj, 补血#NR, 壮阳益精#NR)  (nn, 补血#NR, 养心#NR)  (conj, 补血#NR, 润燥#NR)  (conj, 溃疡#NN, 补血#NR)  (nn, 溃疡#NN, 治#NN)  (nn, 作用#NN, 溃疡#NN)  (etc, 溃疡#NN, 等#ETC)  (dobj, 补#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            含胆固醇  蛋白典型  高蛋白  低脂肪  低胆固醇  胆固醇食物  高血压  冠心病  肝炎病人  老年人  食疗佳品  治病强身  海参软骨素  含有软骨素  硫酸软骨素  人体生长  肌肉衰老  延缓衰老  增强免疫力  微量  参与血液  造血功能  增强功能  研究学者  特殊毒素  海参毒素  萃取毒素  霉菌  人类癌细胞  抑制生长  食用海参  障碍胃溃疡  贫血  糖尿病  再生胃溃疡  味甘咸  海参性温  肺经  入心  补血  壮阳益精  润燥  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善生长发育  辅助改善记忆  缓解体力疲劳  辅助降血脂  辅助降血糖  延缓衰老  抗辐射  增加骨密度  改善营养性贫血  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.涨发好的海参应反复冲洗以除残留化学成分；
+            2.海参发好后适合于红烧，葱烧、烩等烹调方法；
+            3.保管时注意：发好的海参不能久存，最好不超过3天，存放期间用凉水浸泡上，每天换水2-3次，不要沾油，或放入不结冰的冰箱中；如是干货保存，最好放在密封的木箱中，防潮。
+        </rawdata>
+
+        <segment>
+            涨  发  好的  海参  应  反复  冲洗  以  除  残留  化学  成分  ；
+            海参  发好  后  适合于  红烧  ，  葱烧  、  烩等  烹调  方法  ；
+            保管  时  注意  ：  发  好  的  海参  不  能  久存  ，  最好  不  超过  3  天  ，  存放  期间  用  凉水  浸  泡上  ，  每天  换水  2-3  次  ，  不  要  沾油  ，  或  放入  不  结冰  的  冰箱  中  ；  如是  干货  保存  ，  最好  放在  密封  的  木箱  中  ，  防潮  。
+        </segment>
+
+        <pos>
+            涨#VV  发#VV  好的#NN  海参#NN  应#VV  反复#AD  冲洗#VV  以#P  除#P  残留#NN  化学#NN  成分#NN  ；#PU
+            海参#NN  发好#NN  后#LC  适合于#NR  红烧#VV  ，#PU  葱烧#NR  、#PU  烩等#NR  烹调#VV  方法#NN  ；#PU
+            保管#VV  时#LC  注意#VV  ：#PU  发#VV  好#VA  的#DEC  海参#NN  不#AD  能#VV  久存#NN  ，#PU  最好#JJ  不#AD  超过#VV  3#CD  天#M  ，#PU  存放#VV  期间#NN  用#VV  凉水#NN  浸#NN  泡上#NN  ，#PU  每天#AD  换水#VV  2-3#CD  次#M  ，#PU  不#AD  要#VV  沾油#NN  ，#PU  或#CC  放入#VV  不#AD  结冰#VV  的#DEC  冰箱#NN  中#LC  ；#PU  如是#AD  干货#VV  保存#VV  ，#PU  最好#JJ  放在#NN  密封#VV  的#DEC  木箱#NN  中#LC  ，#PU  防潮#VA  。#PU
+        </pos>
+
+        <parsing>
+            (mmod, 发#VV, 涨#VV)  (relcl, 海参#NN, 发#VV)  (dobj, 发#VV, 好的#NN)  (nsubj, 冲洗#VV, 海参#NN)  (mmod, 冲洗#VV, 应#VV)  (advmod, 冲洗#VV, 反复#AD)  (root, ROOT#null, 冲洗#VV)  (case, 成分#NN, 以#P)  (case, 残留#NN, 除#P)  (prep, 化学#NN, 残留#NN)  (nn, 成分#NN, 化学#NN)  (prep, 冲洗#VV, 成分#NN)
+            (nn, 发好#NN, 海参#NN)  (loc, 红烧#VV, 发好#NN)  (case, 发好#NN, 后#LC)  (nsubj, 红烧#VV, 适合于#NR)  (root, ROOT#null, 红烧#VV)  (conj, 烩等#NR, 葱烧#NR)  (nsubj, 烹调#VV, 烩等#NR)  (ccomp, 红烧#VV, 烹调#VV)  (dobj, 烹调#VV, 方法#NN)
+            (loc, 注意#VV, 保管#VV)  (case, 保管#VV, 时#LC)  (relcl, 木箱#NN, 注意#VV)  (relcl, 海参#NN, 发#VV)  (dep, 发#VV, 好#VA)  (mark, 发#VV, 的#DEC)  (nsubj, 能#VV, 海参#NN)  (neg, 能#VV, 不#AD)  (ccomp, 注意#VV, 能#VV)  (dobj, 能#VV, 久存#NN)  (amod, 期间#NN, 最好#JJ)  (neg, 超过#VV, 不#AD)  (relcl, 期间#NN, 超过#VV)  (nummod, 天#M, 3#CD)  (range, 超过#VV, 天#M)  (conj, 超过#VV, 存放#VV)  (nsubj, 用#VV, 期间#NN)  (conj, 能#VV, 用#VV)  (nn, 泡上#NN, 凉水#NN)  (nn, 泡上#NN, 浸#NN)  (dobj, 用#VV, 泡上#NN)  (advmod, 换水#VV, 每天#AD)  (conj, 用#VV, 换水#VV)  (nummod, 次#M, 2-3#CD)  (range, 换水#VV, 次#M)  (neg, 要#VV, 不#AD)  (conj, 用#VV, 要#VV)  (dobj, 要#VV, 沾油#NN)  (cc, 用#VV, 或#CC)  (conj, 用#VV, 放入#VV)  (neg, 结冰#VV, 不#AD)  (relcl, 冰箱#NN, 结冰#VV)  (mark, 结冰#VV, 的#DEC)  (loc, 放入#VV, 冰箱#NN)  (case, 冰箱#NN, 中#LC)  (advmod, 密封#VV, 如是#AD)  (ccomp, 密封#VV, 干货#VV)  (rcomp, 干货#VV, 保存#VV)  (amod, 放在#NN, 最好#JJ)  (nsubj, 密封#VV, 放在#NN)  (conj, 用#VV, 密封#VV)  (mark, 注意#VV, 的#DEC)  (loc, 防潮#VA, 木箱#NN)  (case, 木箱#NN, 中#LC)  (root, ROOT#null, 防潮#VA)
+        </parsing>
+
+        <tag>
+            发海参  冲洗  海参发好  红烧  烩等  葱烧  烹调方法  注意木箱  最好期间  超过期间  凉水泡上  结冰冰箱  最好放在  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/2d/42/82477_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1026 水浸海参.jpg
+    </picturelocalurl>
+
+</content>

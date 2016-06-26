@@ -1,0 +1,180 @@
+<content>
+
+    <id>
+        1065
+    </id>
+
+    <foodname>
+        三黄鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒发热、内火偏旺、痰湿偏重之人、肥胖症、患有热毒疖肿之人、高血压、血脂偏高、胆囊炎、胆石症的人忌食。
+        </rawdata>
+
+        <segment>
+            感冒  发热  、  内  火  偏  旺  、  痰湿  偏重  之  人  、  肥胖症  、  患有  热毒  疖肿  之  人  、  高  血压  、  血脂  偏高  、  胆囊炎  、  胆石症  的  人  忌食  。
+        </segment>
+
+        <pos>
+            感冒#NN  发热#NN  、#PU  内#NN  火#NN  偏#AD  旺#VV  、#PU  痰湿#VV  偏重#NN  之#DEG  人#NN  、#PU  肥胖症#NR  、#PU  患有#NN  热毒#NN  疖肿#NN  之#DEG  人#NN  、#PU  高#JJ  血压#NN  、#PU  血脂#NR  偏高#NR  、#PU  胆囊炎#NR  、#PU  胆石症#NR  的#DEG  人#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 火#NN, 感冒#NN)  (conj, 火#NN, 发热#NN)  (nn, 火#NN, 内#NN)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 偏#AD)  (root, ROOT#null, 旺#VV)  (dep, 旺#VV, 痰湿#VV)  (assmod, 人#NN, 偏重#NN)  (case, 偏重#NN, 之#DEG)  (conj, 胆石症#NR, 人#NN)  (conj, 胆石症#NR, 肥胖症#NR)  (nn, 疖肿#NN, 患有#NN)  (nn, 疖肿#NN, 热毒#NN)  (assmod, 人#NN, 疖肿#NN)  (case, 疖肿#NN, 之#DEG)  (conj, 胆石症#NR, 人#NN)  (amod, 血压#NN, 高#JJ)  (conj, 胆石症#NR, 血压#NN)  (nn, 胆石症#NR, 血脂#NR)  (conj, 胆石症#NR, 偏高#NR)  (conj, 胆石症#NR, 胆囊炎#NR)  (assmod, 忌食#NN, 胆石症#NR)  (case, 胆石症#NR, 的#DEG)  (nn, 忌食#NN, 人#NN)  (dobj, 痰湿#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            感冒发热  内火偏旺  痰湿偏重  肥胖症  患有  热毒疖肿  高血压  血脂偏高  胆囊炎  胆石症  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            该鸡属农户大自然放养。其肉质细嫩，味道鲜美，营养丰富，在国内外享有较高的声誉。具有体型小、外貌“三黄”（羽毛黄、爪黄、喙黄）、生存能力强、产蛋量高、肉质鲜嫩等优良特点。
+        </rawdata>
+
+        <segment>
+            该  鸡  属  农户  大自然  放养  。  其  肉质  细嫩  ，  味道  鲜美  ，  营养  丰富  ，  在  国内外  享有  较  高  的  声誉  。  具有  体型  小  、  外貌  “  三  黄  ”  （  羽毛  黄  、  爪黄  、  喙黄  ）  、  生存  能力  强  、  产蛋量  高  、  肉质  鲜嫩  等  优良  特点  。
+        </segment>
+
+        <pos>
+            该#DT  鸡#NN  属#VV  农户#NN  大自然#NN  放养#NN    。#PU  其#PN  肉质#AD  细嫩#VV  ，#PU  味道#NN  鲜美#VA  ，#PU  营养#VA  丰富#VA  ，#PU  在#P  国内外#NN  享有#VV  较#AD  高#VA  的#DEC  声誉#NN    。#PU  具有#VV  体型#NN  小#VA  、#PU  外貌#NN  ``#NN  三#CD  黄#JJ  ''#NN  （#PU  羽毛#NN  黄#NR  、#PU  爪黄#NR  、#PU  喙黄#NR  ）#PU  、#PU  生存#NN  能力#NN  强#VA  、#PU  产蛋量#NN  高#VA  、#PU  肉质#NN  鲜嫩#NN  等#ETC  优良#JJ  特点#NN    。#PU
+        </pos>
+
+        <parsing>
+            (det, 鸡#NN, 该#DT)  (nsubj, 属#VV, 鸡#NN)  (root, ROOT#null, 属#VV)  (nn, 放养#NN, 农户#NN)  (nn, 放养#NN, 大自然#NN)  (dobj, 属#VV, 放养#NN)   (nsubj, 细嫩#VV, 其#PN)  (advmod, 细嫩#VV, 肉质#AD)  (root, ROOT#null, 细嫩#VV)  (nsubj, 鲜美#VA, 味道#NN)  (ccomp, 细嫩#VV, 鲜美#VA)  (conj, 鲜美#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (case, 国内外#NN, 在#P)  (prep, 享有#VV, 国内外#NN)  (dep, 营养#VA, 享有#VV)  (advmod, 高#VA, 较#AD)  (relcl, 声誉#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 享有#VV, 声誉#NN)   (root, ROOT#null, 具有#VV)  (nsubj, 小#VA, 体型#NN)  (dep, 特点#NN, 小#VA)  (nn, ``#NN, 外貌#NN)  (nsubj, 强#VA, ``#NN)  (nummod, ''#NN, 三#CD)  (amod, ''#NN, 黄#JJ)  (nn, 生存#NN, ''#NN)  (prnmod, 生存#NN, 羽毛#NN)  (conj, 喙黄#NR, 黄#NR)  (conj, 喙黄#NR, 爪黄#NR)  (dep, 羽毛#NN, 喙黄#NR)  (nn, 能力#NN, 生存#NN)  (nsubj, 强#VA, 能力#NN)  (conj, 小#VA, 强#VA)  (nsubj, 高#VA, 产蛋量#NN)  (conj, 小#VA, 高#VA)  (nn, 鲜嫩#NN, 肉质#NN)  (dep, 小#VA, 鲜嫩#NN)  (etc, 鲜嫩#NN, 等#ETC)  (amod, 特点#NN, 优良#JJ)  (dobj, 具有#VV, 特点#NN)
+        </parsing>
+
+        <tag>
+            农户放养  大自然放养  细嫩  味道鲜美  营养丰富  享有声誉  喙黄  爪黄  生存能力  肉质鲜嫩  优良特点  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            三黄鸡的营养价值
+            1.鸡肉和猪肉、牛肉比较，其蛋白质含量较高，脂肪含量较低。此外，鸡肉蛋白质中富含人体必须的氨基酸，其含量与蛋乳中的氨基酸谱式极为相似，因此为优质蛋白质的来源。鸡肉的蛋白质含量根据部位、带皮和不带皮而有差别，从高到底的排序大致为去皮的鸡肉、胸脯肉、大腿肉。鸡肉皮存在大量的脂类物质，所以绝不能把带皮的鸡肉视为低热量的食品；
+            2.鸡肉也是磷、铁、铜和锌的良好来源，并且富含丰富的维生素B12、维生素B6、维生素A、维生素D和维生素K等；
+            3.鸡肉的脂类物质和牛肉、猪肉比较，含有较多的不饱和脂肪酸——亚油酸和亚麻酸，能够降低人体对健康不利的低密度脂蛋白胆固醇的含量。
+            -收起
+        </rawdata>
+
+        <segment>
+            三黄鸡  的  营养  价值
+            鸡肉  和  猪肉  、  牛肉  比较  ，  其  蛋白质  含量  较  高  ，  脂肪  含量  较  低  。  此外  ，  鸡肉  蛋白质  中  富含  人体  必须  的  氨基酸  ，  其  含量  与  蛋乳  中  的  氨基酸  谱式  极为  相似  ，  因此  为  优质  蛋白质  的  来源  。  鸡肉  的  蛋白质  含量  根据  部位  、  带皮  和  不带皮  而  有  差别  ，  从高  到底  的  排序  大致  为  去皮  的  鸡肉  、  胸脯  肉  、  大腿  肉  。  鸡肉  皮  存在  大量  的  脂类  物质  ，  所以  绝  不  能  把  带  皮  的  鸡肉  视为  低  热量  的  食品  ；
+            鸡肉  也  是  磷  、  铁  、  铜  和  锌  的  良好  来源  ，  并且  富含  丰富  的  维生素B1  维生素B6  、  维生素A  、  维生素D  和  维生素K  等  ；
+            鸡肉  的  脂类  物质  和  牛肉  、  猪肉  比较  ，  含有  较多  的  不饱和  脂肪酸  ——  亚油酸  和  亚麻酸  ，  能够  降低  人体  对  健康  不利  的  低密度  脂蛋白  胆固醇  的  含量  。
+            -  收起
+        </segment>
+
+        <pos>
+            三黄鸡#CD  的#DEG  营养#VA  价值#NN
+            鸡肉#NN  和#CC  猪肉#NN  、#PU  牛肉#NN  比较#AD  ，#PU  其#PN  蛋白质#NN  含量#NN  较#AD  高#VA  ，#PU  脂肪#NN  含量#NN  较#AD  低#VA    。#PU  此外#AD  ，#PU  鸡肉#NN  蛋白质#NN  中#LC  富含#AD  人体#VV  必须#VV  的#DEC  氨基酸#NN  ，#PU  其#PN  含量#NN  与#P  蛋乳#NN  中#LC  的#DEG  氨基酸#NN  谱式#NN  极为#AD  相似#VA  ，#PU  因此#AD  为#VC  优质#JJ  蛋白质#NN  的#DEG  来源#NN    。#PU  鸡肉#NN  的#DEG  蛋白质#NN  含量#NN  根据#P  部位#NN  、#PU  带皮#NN  和#CC  不带皮#NN  而#MSP  有#VE  差别#NN  ，#PU  从高#NN  到底#NN  的#DEG  排序#NN  大致#NN  为#VC  去皮#NN  的#DEG  鸡肉#NN  、#PU  胸脯#NN  肉#NN  、#PU  大腿#NN  肉#NN    。#PU  鸡肉#NN  皮#AD  存在#VV  大量#CD  的#DEG  脂类#NN  物质#NN  ，#PU  所以#AD  绝#AD  不#AD  能#VV  把#BA  带#VV  皮#NN  的#DEC  鸡肉#NN  视为#VV  低#JJ  热量#NN  的#DEG  食品#NN  ；#PU    。#PU
+            鸡肉#NN  也#AD  是#VC  磷#NN  、#PU  铁#NN  、#PU  铜#NN  和#CC  锌#NN  的#DEG  良好#JJ  来源#NN  ，#PU  并且#CC  富含#AD  丰富#VA  的#DEC  维生素B1#CD  维生素B6#CD  、#PU  维生素A#CD  、#PU  维生素D#CD  和#CC  维生素K#CD  等#M  ；#PU
+            鸡肉#NN  的#DEG  脂类#NN  物质#NN  和#CC  牛肉#NN  、#PU  猪肉#NN  比较#AD  ，#PU  含有#NN  较多#NN  的#DEG  不饱和#NN  脂肪酸#NN  --#AD  --#VV  亚油酸#NN  和#CC  亚麻酸#NN  ，#PU  能够#VV  降低#VV  人体#AD  对#P  健康#AD  不利#VA  的#DEC  低密度#NN  脂蛋白#VV  胆固醇#NN  的#DEC  含量#NN  。#PU
+            -#NN  收起#VV
+        </pos>
+
+        <parsing>
+            (assmod, 价值#NN, 三黄鸡#CD)  (case, 三黄鸡#CD, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (root, ROOT#null, 价值#NN)
+            (conj, 牛肉#NN, 鸡肉#NN)  (cc, 牛肉#NN, 和#CC)  (conj, 牛肉#NN, 猪肉#NN)  (nsubj, 高#VA, 牛肉#NN)  (advmod, 高#VA, 比较#AD)  (nn, 含量#NN, 其#PN)  (nn, 含量#NN, 蛋白质#NN)  (dobj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 较#AD)  (conj, 高#VA, 低#VA)   (advmod, 人体#VV, 此外#AD)  (nn, 蛋白质#NN, 鸡肉#NN)  (loc, 人体#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (advmod, 人体#VV, 富含#AD)  (root, ROOT#null, 人体#VV)  (relcl, 氨基酸#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 人体#VV, 氨基酸#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 相似#VA, 含量#NN)  (case, 谱式#NN, 与#P)  (assmod, 谱式#NN, 蛋乳#NN)  (case, 蛋乳#NN, 中#LC)  (case, 蛋乳#NN, 的#DEG)  (nn, 谱式#NN, 氨基酸#NN)  (prep, 相似#VA, 谱式#NN)  (advmod, 相似#VA, 极为#AD)  (conj, 人体#VV, 相似#VA)  (advmod, 来源#NN, 因此#AD)  (cop, 来源#NN, 为#VC)  (amod, 蛋白质#NN, 优质#JJ)  (assmod, 来源#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (dep, 相似#VA, 来源#NN)   (assmod, 含量#NN, 鸡肉#NN)  (case, 鸡肉#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 有#VE, 含量#NN)  (case, 不带皮#NN, 根据#P)  (conj, 不带皮#NN, 部位#NN)  (conj, 不带皮#NN, 带皮#NN)  (cc, 不带皮#NN, 和#CC)  (prep, 有#VE, 不带皮#NN)  (prtmod, 有#VE, 而#MSP)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 差别#NN)  (nn, 到底#NN, 从高#NN)  (assmod, 大致#NN, 到底#NN)  (case, 到底#NN, 的#DEG)  (nn, 大致#NN, 排序#NN)  (nsubj, 肉#NN, 大致#NN)  (cop, 肉#NN, 为#VC)  (assmod, 肉#NN, 去皮#NN)  (case, 去皮#NN, 的#DEG)  (conj, 肉#NN, 鸡肉#NN)  (nn, 肉#NN, 胸脯#NN)  (conj, 肉#NN, 肉#NN)  (nn, 肉#NN, 大腿#NN)  (conj, 有#VE, 肉#NN)   (nsubj, 存在#VV, 鸡肉#NN)  (advmod, 存在#VV, 皮#AD)  (root, ROOT#null, 存在#VV)  (assmod, 物质#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 物质#NN, 脂类#NN)  (dobj, 存在#VV, 物质#NN)  (advmod, 视为#VV, 所以#AD)  (advmod, 视为#VV, 绝#AD)  (neg, 视为#VV, 不#AD)  (mmod, 视为#VV, 能#VV)  (ba, 视为#VV, 把#BA)  (relcl, 鸡肉#NN, 带#VV)  (dobj, 带#VV, 皮#NN)  (mark, 带#VV, 的#DEC)  (nsubj, 视为#VV, 鸡肉#NN)  (conj, 存在#VV, 视为#VV)  (amod, 热量#NN, 低#JJ)  (assmod, 食品#NN, 热量#NN)  (case, 热量#NN, 的#DEG)  (dobj, 视为#VV, 食品#NN)
+            (nsubj, 来源#NN, 鸡肉#NN)  (advmod, 来源#NN, 也#AD)  (cop, 来源#NN, 是#VC)  (conj, 锌#NN, 磷#NN)  (conj, 锌#NN, 铁#NN)  (conj, 锌#NN, 铜#NN)  (cc, 锌#NN, 和#CC)  (assmod, 来源#NN, 锌#NN)  (case, 锌#NN, 的#DEG)  (amod, 来源#NN, 良好#JJ)  (root, ROOT#null, 来源#NN)  (cc, 来源#NN, 并且#CC)  (advmod, 丰富#VA, 富含#AD)  (nsubj, 等#M, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 等#M, 维生素B1#CD)  (dep, 等#M, 维生素B6#CD)  (dep, 等#M, 维生素A#CD)  (dep, 等#M, 维生素D#CD)  (cc, 等#M, 和#CC)  (nummod, 等#M, 维生素K#CD)  (conj, 来源#NN, 等#M)
+            (assmod, 猪肉#NN, 鸡肉#NN)  (case, 鸡肉#NN, 的#DEG)  (nn, 猪肉#NN, 脂类#NN)  (conj, 猪肉#NN, 物质#NN)  (cc, 猪肉#NN, 和#CC)  (conj, 猪肉#NN, 牛肉#NN)  (nsubj, --#VV, 猪肉#NN)  (root, --#VV, 猪肉#NN)  (advmod, 猪肉#NN, 比较#AD)  (advmod, --#VV, 比较#AD)  (nn, 较多#NN, 含有#NN)  (assmod, 脂肪酸#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nn, 脂肪酸#NN, 不饱和#NN)  (dobj, 猪肉#NN, 脂肪酸#NN)  (dobj, --#VV, 脂肪酸#NN)  (conj, 亚麻酸#NN, 亚油酸#NN)  (cc, 亚麻酸#NN, 和#CC)  (dobj, 猪肉#NN, 亚麻酸#NN)  (dobj, --#VV, 亚麻酸#NN)  (mmod, 降低#VV, 能够#VV)  (conj, 猪肉#NN, 降低#VV)  (conj, --#VV, 降低#VV)  (advmod, 脂蛋白#VV, 人体#AD)  (case, 低密度#NN, 对#P)  (advmod, 不利#VA, 健康#AD)  (relcl, 低密度#NN, 不利#VA)  (mark, 不利#VA, 的#DEC)  (prep, 脂蛋白#VV, 低密度#NN)  (relcl, 含量#NN, 脂蛋白#VV)  (dobj, 脂蛋白#VV, 胆固醇#NN)  (mark, 脂蛋白#VV, 的#DEC)  (dobj, 降低#VV, 含量#NN)
+            (root, ROOT#null, 收起#VV)
+        </parsing>
+
+        <tag>
+            牛肉  鸡肉蛋白质  必须氨基酸  人体氨基酸  氨基酸谱式  优质蛋白质  不带皮  部位  从高到底  排序大致  存在  带鸡肉  低热量  视为食品  良好来源  脂类猪肉  含有较多  不饱和脂肪酸  猪肉脂肪酸  亚油酸  猪肉亚麻酸  低密度不利  脂蛋白胆固醇  收起  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  明目  补气  温中  补阴  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            三黄鸡肉质细嫩，味道鲜美，营养丰富，所含的蛋白质质量较高，脂肪含量低，氨基酸含量高，且都是人体必需氨基酸，除此之外，三黄鸡还是磷、铁、铜与锌的良好来源，并且富含维生素B12、维生素B6、维生素A、维生素D、维生素K等，可用于补血养身。三黄鸡鸡肉的脂类物质和牛肉、猪肉比较，含有较多的不饱和脂肪酸—油酸（单不饱和脂肪酸）和亚油酸（多不饱和脂肪酸），能够降低对人体健康不利的低密度脂蛋白胆固醇。
+        </rawdata>
+
+        <segment>
+            三黄鸡  肉质  细嫩  ，  味道  鲜美  ，  营养  丰富  ，  所含  的  蛋白质  质量  较  高  ，  脂肪  含量  低  ，  氨基酸  含量  高  ，  且  都  是  人体  必需  氨基酸  ，  除此之外  ，  三黄鸡  还是  磷  、  铁  、  铜  与  锌  的  良好  来源  ，  并且  富含  维生素B1  维生素B6  、  维生素A  、  维生素D  、  维生素K  等  ，  可  用于  补血  养身  。  三黄鸡  鸡肉  的  脂类  物质  和  牛肉  、  猪肉  比较  ，  含有  较多  的  不饱和  脂肪酸  —  油酸  （  单  不  饱和  脂肪酸  ）  和  亚油酸  （  多  不  饱和  脂肪酸  ）  ，  能够  降低  对  人体  健康  不利  的  低密度  脂蛋白  胆固醇  。
+        </segment>
+
+        <pos>
+            三黄鸡#CD  肉质#NN  细嫩#VV  ，#PU  味道#NN  鲜美#NN  ，#PU  营养#VA  丰富#VA  ，#PU  所含#NR  的#DEG  蛋白质#NN  质量#NN  较#AD  高#VA  ，#PU  脂肪#NN  含量#NN  低#VA  ，#PU  氨基酸#NN  含量#NN  高#VA  ，#PU  且#CC  都#AD  是#VC  人体#VV  必需#VV  氨基酸#VV  ，#PU  除此之外#NR  ，#PU  三黄鸡#CD  还是#CC  磷#NN  、#PU  铁#NN  、#PU  铜#NN  与#CC  锌#NN  的#DEG  良好#JJ  来源#NN  ，#PU  并且#CC  富含#VV  维生素B1#CD  维生素B6#CD  、#PU  维生素A#CD  、#PU  维生素D#CD  、#PU  维生素K#CD  等#ETC  ，#PU  可#VV  用于#VV  补血#NN  养身#NN    。#PU  三黄鸡#CD  鸡肉#NN  的#DEG  脂类#NN  物质#NN  和#CC  牛肉#NN  、#PU  猪肉#NN  比较#AD  ，#PU  含有#VV  较多#NR  的#DEG  不饱和#NN  脂肪酸#NN  --#NN  油酸#NR  （#PU  单#CD  不#AD  饱和#VV  脂肪酸#NN  ）#PU  和#CC  亚油酸#NR  （#PU  多#CD  不#AD  饱和#VV  脂肪酸#NN  ）#PU  ，#PU  能够#VV  降低#VV  对#P  人体#NR  健康#AD  不利#VA  的#DEC  低密度#NN  脂蛋白#NN  胆固醇#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 肉质#NN, 三黄鸡#CD)  (nsubj, 细嫩#VV, 肉质#NN)  (root, ROOT#null, 细嫩#VV)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 营养#VA, 鲜美#NN)  (ccomp, 细嫩#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (assmod, 质量#NN, 所含#NR)  (case, 所含#NR, 的#DEG)  (nn, 质量#NN, 蛋白质#NN)  (nsubj, 高#VA, 质量#NN)  (advmod, 高#VA, 较#AD)  (conj, 营养#VA, 高#VA)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 低#VA, 含量#NN)  (conj, 营养#VA, 低#VA)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 高#VA, 含量#NN)  (conj, 营养#VA, 高#VA)  (cc, 高#VA, 且#CC)  (advmod, 人体#VV, 都#AD)  (cop, 人体#VV, 是#VC)  (conj, 高#VA, 人体#VV)  (rcomp, 人体#VV, 必需#VV)  (dep, 人体#VV, 氨基酸#VV)  (nsubj, 三黄鸡#CD, 除此之外#NR)  (ccomp, 氨基酸#VV, 三黄鸡#CD)  (cc, 氨基酸#VV, 还是#CC)  (conj, 锌#NN, 磷#NN)  (conj, 锌#NN, 铁#NN)  (conj, 锌#NN, 铜#NN)  (cc, 锌#NN, 与#CC)  (assmod, 来源#NN, 锌#NN)  (case, 锌#NN, 的#DEG)  (amod, 来源#NN, 良好#JJ)  (dep, 氨基酸#VV, 来源#NN)  (cc, 高#VA, 并且#CC)  (dep, 高#VA, 富含#VV)  (dobj, 富含#VV, 维生素B1#CD)  (nummod, 维生素K#CD, 维生素B6#CD)  (nummod, 维生素K#CD, 维生素A#CD)  (nummod, 维生素K#CD, 维生素D#CD)  (range, 富含#VV, 维生素K#CD)  (dep, 高#VA, 等#ETC)  (mmod, 用于#VV, 可#VV)  (conj, 营养#VA, 用于#VV)  (nn, 养身#NN, 补血#NN)  (dobj, 用于#VV, 养身#NN)   (nummod, 鸡肉#NN, 三黄鸡#CD)  (assmod, 猪肉#NN, 鸡肉#NN)  (case, 鸡肉#NN, 的#DEG)  (nn, 猪肉#NN, 脂类#NN)  (conj, 猪肉#NN, 物质#NN)  (cc, 猪肉#NN, 和#CC)  (conj, 猪肉#NN, 牛肉#NN)  (nsubj, 含有#VV, 猪肉#NN)  (advmod, 含有#VV, 比较#AD)  (root, ROOT#null, 含有#VV)  (assmod, --#NN, 较多#NR)  (case, 较多#NR, 的#DEG)  (nn, --#NN, 不饱和#NN)  (nn, --#NN, 脂肪酸#NN)  (dep, 亚油酸#NR, 油酸#NR)  (nsubj, 饱和#VV, 单#CD)  (neg, 饱和#VV, 不#AD)  (conj, 亚油酸#NR, 饱和#VV)  (prnmod, 亚油酸#NR, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (cc, 亚油酸#NR, 和#CC)  (nsubj, 降低#VV, 亚油酸#NR)  (nsubj, 饱和#VV, 多#CD)  (neg, 饱和#VV, 不#AD)  (prnmod, 亚油酸#NR, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (mmod, 降低#VV, 能够#VV)  (conj, 含有#VV, 降低#VV)  (case, 人体#NR, 对#P)  (dep, 健康#AD, 人体#NR)  (advmod, 不利#VA, 健康#AD)  (relcl, 胆固醇#NN, 不利#VA)  (mark, 不利#VA, 的#DEC)  (nn, 胆固醇#NN, 低密度#NN)  (nn, 胆固醇#NN, 脂蛋白#NN)  (dobj, 降低#VV, 胆固醇#NN)
+        </parsing>
+
+        <tag>
+            细嫩  味道鲜美  鲜美营养  营养丰富  蛋白质质量  良好来源  补血养身  用于养身  脂类猪肉  牛肉  含有  饱和脂肪酸  胆固醇不利  低密度胆固醇  脂蛋白胆固醇  降低胆固醇  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1. 鸡肉可热炒，炖汤，凉拌。
+            2. 鸡肉的营养高于鸡汤。
+            3. 鸡屁股是淋巴最为集中的地方，也是储存病菌，病毒和致癌物的仓库，应弃掉不要。
+        </rawdata>
+
+        <segment>
+            鸡肉  可  热炒  ，  炖汤  ，  凉拌  。
+            鸡肉  的  营养  高于  鸡汤  。
+            鸡  屁股  是  淋巴  最为  集中  的  地方  ，  也  是  储存  病菌  ，  病毒  和  致癌物  的  仓库  ，  应  弃掉  不要  。
+        </segment>
+
+        <pos>
+            鸡肉#NR  可#VV  热炒#VV  ，#PU  炖汤#NN  ，#PU  凉拌#VV  。#PU
+            鸡肉#VA  的#DEC  营养#VA  高于#VV  鸡汤#NN  。#PU
+            鸡#NN  屁股#NN  是#VC  淋巴#NN  最为#AD  集中#VV  的#DEC  地方#NN  ，#PU  也#AD  是#VC  储存#VV  病菌#NN  ，#PU  病毒#NN  和#CC  致癌物#NN  的#DEC  仓库#NN  ，#PU  应#VV  弃掉#NN  不要#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热炒#VV, 鸡肉#NR)  (mmod, 热炒#VV, 可#VV)  (root, ROOT#null, 热炒#VV)  (nsubj, 凉拌#VV, 炖汤#NN)  (ccomp, 热炒#VV, 凉拌#VV)
+            (nsubj, 高于#VV, 鸡肉#VA)  (mark, 鸡肉#VA, 的#DEC)  (dep, 高于#VV, 营养#VA)  (root, ROOT#null, 高于#VV)  (dobj, 高于#VV, 鸡汤#NN)
+            (nn, 屁股#NN, 鸡#NN)  (nsubj, 地方#NN, 屁股#NN)  (cop, 地方#NN, 是#VC)  (nsubj, 集中#VV, 淋巴#NN)  (advmod, 集中#VV, 最为#AD)  (relcl, 地方#NN, 集中#VV)  (mark, 集中#VV, 的#DEC)  (root, ROOT#null, 地方#NN)  (advmod, 仓库#NN, 也#AD)  (cop, 仓库#NN, 是#VC)  (relcl, 仓库#NN, 储存#VV)  (dobj, 储存#VV, 病菌#NN)  (conj, 致癌物#NN, 病毒#NN)  (cc, 致癌物#NN, 和#CC)  (conj, 储存#VV, 致癌物#NN)  (mark, 储存#VV, 的#DEC)  (conj, 地方#NN, 仓库#NN)  (conj, 地方#NN, 应#VV)  (nn, 不要#NN, 弃掉#NN)  (dobj, 应#VV, 不要#NN)
+        </parsing>
+
+        <tag>
+            热炒  高于鸡汤  集中地方  储存仓库  储存病菌  致癌物  病毒  弃掉不要  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/e4/33/13284_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1065 三黄鸡.jpg
+    </picturelocalurl>
+
+</content>

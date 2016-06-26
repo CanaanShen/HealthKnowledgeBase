@@ -1,0 +1,160 @@
+<content>
+
+    <id>
+        1481
+    </id>
+
+    <foodname>
+        木薯
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        树薯、薯树、臭薯、葛薯、树番薯
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            木薯忌与柿子同吃，同时食用可使肠胃出血或造成胃溃疡。要防止木薯中毒，可在食用木薯前去皮，用清水浸薯肉，使氰苷溶解。一般泡6天左右就可去除70%的氰苷，再加热煮熟，即可食用。
+        </rawdata>
+
+        <segment>
+            木薯  忌与  柿子  同吃  ，  同时  食用  可使  肠胃  出血  或  造成  胃溃疡  。  要  防止  木薯  中毒  ，  可在  食用  木薯  前  去皮  ，  用  清水  浸  薯肉  ，  使  氰苷  溶解  。  一般  泡  6  天  左右  就  可  去除  70%  的  氰苷  ，  再加热  煮熟  ，  即  可  食用  。
+        </segment>
+
+        <pos>
+            木薯#NN  忌与#NN  柿子#NN  同吃#VV  ，#PU  同时#AD  食用#VV  可使#NN  肠胃#NN  出血#VV  或#CC  造成#VV  胃溃疡#NN    。#PU  要#VV  防止#VV  木薯#AD  中毒#VV  ，#PU  可在#AD  食用#VV  木薯#NR  前#JJ  去皮#NN  ，#PU  用#P  清水#NN  浸#NN  薯肉#NN  ，#PU  使#VV  氰苷#NN  溶解#VV    。#PU  一般#JJ  泡#NN  6#CD  天#M  左右#LC  就#AD  可#VV  去除#VV  70#CD  %#NN  的#DEG  氰苷#NN  ，#PU  再加热#VV  煮熟#NN  ，#PU  即#AD  可#VV  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 柿子#NN, 木薯#NN)  (nn, 柿子#NN, 忌与#NN)  (nsubj, 同吃#VV, 柿子#NN)  (xsubj, 出血#VV, 柿子#NN)  (root, ROOT#null, 同吃#VV)  (advmod, 食用#VV, 同时#AD)  (dep, 出血#VV, 食用#VV)  (nn, 肠胃#NN, 可使#NN)  (dobj, 食用#VV, 肠胃#NN)  (ccomp, 同吃#VV, 出血#VV)  (cc, 出血#VV, 或#CC)  (dep, 出血#VV, 造成#VV)  (dobj, 造成#VV, 胃溃疡#NN)   (mmod, 防止#VV, 要#VV)  (root, ROOT#null, 防止#VV)  (advmod, 中毒#VV, 木薯#AD)  (ccomp, 防止#VV, 中毒#VV)  (advmod, 食用#VV, 可在#AD)  (dep, 防止#VV, 食用#VV)  (nn, 去皮#NN, 木薯#NR)  (amod, 去皮#NN, 前#JJ)  (dobj, 食用#VV, 去皮#NN)  (case, 薯肉#NN, 用#P)  (nn, 薯肉#NN, 清水#NN)  (nn, 薯肉#NN, 浸#NN)  (prep, 使#VV, 薯肉#NN)  (dep, 防止#VV, 使#VV)  (dobj, 使#VV, 氰苷#NN)  (dep, 使#VV, 溶解#VV)   (amod, 泡#NN, 一般#JJ)  (nsubj, 去除#VV, 泡#NN)  (nummod, 天#M, 6#CD)  (loc, 去除#VV, 天#M)  (case, 天#M, 左右#LC)  (advmod, 去除#VV, 就#AD)  (mmod, 去除#VV, 可#VV)  (root, ROOT#null, 去除#VV)  (nummod, %#NN, 70#CD)  (assmod, 氰苷#NN, %#NN)  (case, %#NN, 的#DEG)  (dobj, 去除#VV, 氰苷#NN)  (conj, 去除#VV, 再加热#VV)  (dobj, 再加热#VV, 煮熟#NN)  (advmod, 食用#VV, 即#AD)  (dep, 食用#VV, 可#VV)  (conj, 去除#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            忌与柿子同吃  可使肠胃出血  造成胃溃疡  要防止  中毒  可在食  前去皮  清水浸薯肉  使氰苷溶解  一般泡6天左右就可去除70%  氰苷  再加热煮熟  即可食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            木薯，是灌木状多年生作物。木薯于十九世纪二十年代引入我国，首先在广东省高州一带栽培，随后引入海南岛，现已广泛分布于华南地区，以广西、广东和海南栽培最多，福建、云南、江西、四川和贵州等省的南部地区亦有引种试种。
+        </rawdata>
+
+        <segment>
+            木薯  ，  是  灌木  状  多年生  作物  。  木薯  于  十九世纪  二十年代  引入  我国  ，  首先  在  广东省  高州  一带  栽培  ，  随后  引入  海南岛  ，  现  已  广泛  分布  于  华南  地区  ，  以  广西  、  广东  和  海南  栽培  最多  ，  福建  、  云南  、  江西  、  四川  和  贵州  等  省  的  南部  地区  亦  有  引种  试种  。
+        </segment>
+
+        <pos>
+            木薯#VV  ，#PU  是#VC  灌木#NN  状#NN  多年生#NN  作物#NN    。#PU  木薯#NR  于#P  十九世纪#CD  二十年代#CD  引入#VV  我国#NN  ，#PU  首先#AD  在#P  广东省#NR  高州#VV  一带#CD  栽培#VV  ，#PU  随后#AD  引入#VV  海南岛#NR  ，#PU  现#AD  已#AD  广泛#AD  分布#VV  于#P  华南#NR  地区#NN  ，#PU  以#P  广西#NR  、#PU  广东#NR  和#CC  海南#NR  栽培#VV  最多#AD  ，#PU  福建#NR  、#PU  云南#NR  、#PU  江西#NR  、#PU  四川#NR  和#CC  贵州#NR  等#ETC  省#NN  的#DEG  南部#NN  地区#NN  亦#AD  有#VE  引种#NN  试种#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 木薯#VV)  (cop, 作物#NN, 是#VC)  (nn, 作物#NN, 灌木#NN)  (nn, 作物#NN, 状#NN)  (nn, 作物#NN, 多年生#NN)  (ccomp, 木薯#VV, 作物#NN)   (nsubj, 引入#VV, 木薯#NR)  (case, 二十年代#CD, 于#P)  (dep, 二十年代#CD, 十九世纪#CD)  (prep, 引入#VV, 二十年代#CD)  (root, ROOT#null, 引入#VV)  (dobj, 引入#VV, 我国#NN)  (advmod, 高州#VV, 首先#AD)  (case, 广东省#NR, 在#P)  (prep, 高州#VV, 广东省#NR)  (dep, 引入#VV, 高州#VV)  (dep, 高州#VV, 一带#CD)  (dep, 高州#VV, 栽培#VV)  (advmod, 引入#VV, 随后#AD)  (dep, 引入#VV, 引入#VV)  (dobj, 引入#VV, 海南岛#NR)  (advmod, 分布#VV, 现#AD)  (advmod, 分布#VV, 已#AD)  (advmod, 分布#VV, 广泛#AD)  (dep, 引入#VV, 分布#VV)  (case, 地区#NN, 于#P)  (nn, 地区#NN, 华南#NR)  (prep, 分布#VV, 地区#NN)  (case, 海南#NR, 以#P)  (conj, 海南#NR, 广西#NR)  (conj, 海南#NR, 广东#NR)  (cc, 海南#NR, 和#CC)  (prep, 栽培#VV, 海南#NR)  (dep, 引入#VV, 栽培#VV)  (advmod, 栽培#VV, 最多#AD)  (conj, 贵州#NR, 福建#NR)  (conj, 贵州#NR, 云南#NR)  (conj, 贵州#NR, 江西#NR)  (conj, 贵州#NR, 四川#NR)  (cc, 贵州#NR, 和#CC)  (nn, 地区#NN, 贵州#NR)  (etc, 贵州#NR, 等#ETC)  (assmod, 地区#NN, 省#NN)  (case, 省#NN, 的#DEG)  (nn, 地区#NN, 南部#NN)  (nsubj, 有#VE, 地区#NN)  (advmod, 有#VE, 亦#AD)  (conj, 引入#VV, 有#VE)  (nn, 试种#NN, 引种#NN)  (dobj, 有#VE, 试种#NN)
+        </parsing>
+
+        <tag>
+            灌木作物  多年生作物  引入我国  海南  广西  广东  贵州  福建  云南  江西  四川  南部地区  引种试种  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            消肿解毒。用于痈疽疮疡，瘀肿疼痛，跌打损伤、外伤肿痛、疥疮、顽癣等症。
+        </rawdata>
+
+        <segment>
+            消肿  解毒  。  用于  痈疽  疮疡  ，  瘀肿  疼痛  ，  跌打  损伤  、  外伤  肿痛  、  疥疮  、  顽癣  等症  。
+        </segment>
+
+        <pos>
+            消肿#NN  解毒#VV    。#PU  用于#VV  痈疽#NN  疮疡#NN  ，#PU  瘀肿#VV  疼痛#NN  ，#PU  跌打#VV  损伤#NR  、#PU  外伤#NR  肿痛#NR  、#PU  疥疮#NR  、#PU  顽癣#NR  等症#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 解毒#VV, 消肿#NN)  (root, ROOT#null, 解毒#VV)   (root, ROOT#null, 用于#VV)  (nn, 疮疡#NN, 痈疽#NN)  (dobj, 用于#VV, 疮疡#NN)  (conj, 用于#VV, 瘀肿#VV)  (dobj, 瘀肿#VV, 疼痛#NN)  (conj, 用于#VV, 跌打#VV)  (conj, 顽癣#NR, 损伤#NR)  (nn, 顽癣#NR, 外伤#NR)  (conj, 顽癣#NR, 肿痛#NR)  (conj, 顽癣#NR, 疥疮#NR)  (nn, 等症#NN, 顽癣#NR)  (dobj, 跌打#VV, 等症#NN)
+        </parsing>
+
+        <tag>
+            解毒  痈疽疮疡  用于疮疡  瘀肿疼痛  顽癣  损伤  肿痛  疥疮  跌打等症  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        消肿毒
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            木薯淀粉可制酒精、果糖、葡萄糖、麦芽糖、味精、啤酒、面包、饼干、虾片、粉丝、酱料以及塑料纤维塑料薄膜、树脂、涂料、胶粘剂等化工产品。
+            利用木薯块根和叶子作食物和饲料时，应注意去毒，即浸水、切片干燥、剥皮蒸煮、研磨制淀粉等。切片干燥一般可除去75%的氢氰酸，加工制淀粉后含量甚微。甜品种类型剥皮蒸煮或切片干燥后均可安全使用，苦品种类型去毒处理后，也可食用和饲用，但主要用于加工淀粉。
+        </rawdata>
+
+        <segment>
+            木薯  淀粉  可  制  酒精  、  果糖  、  葡萄糖  、  麦芽糖  、  味精  、  啤酒  、  面包  、  饼干  、  虾片  、  粉丝  、  酱料  以及  塑料  纤维  塑料  薄膜  、  树脂  、  涂料  、  胶粘剂  等  化工  产品  。
+            利用  木薯  块根  和  叶子  作  食物  和  饲料  时  ，  应  注意  去  毒  ，  即  浸水  、  切片  干燥  、  剥皮  蒸煮  、  研磨  制  淀粉  等  。  切片  干燥  一般  可  除去  75%  的  氢氰酸  ，  加工制  淀粉  后  含量  甚微  。  甜品  种  类型  剥皮  蒸  煮  或  切片  干燥  后  均  可  安全  使用  ，  苦  品种  类型  去  毒  处理  后  ，  也  可  食用  和  饲用  ，  但  主要  用于  加工  淀粉  。
+        </segment>
+
+        <pos>
+            木薯#NN  淀粉#NN  可#VV  制#VV  酒精#NN  、#PU  果糖#NR  、#PU  葡萄糖#NR  、#PU  麦芽糖#NR  、#PU  味精#NN  、#PU  啤酒#NN  、#PU  面包#NR  、#PU  饼干#NR  、#PU  虾片#NR  、#PU  粉丝#NR  、#PU  酱料#NN  以及#CC  塑料#NN  纤维#NN  塑料#NN  薄膜#NN  、#PU  树脂#NR  、#PU  涂料#NR  、#PU  胶粘剂#NR  等#ETC  化工#NN  产品#NN  。#PU
+            利用#VV  木薯#NN  块根#NN  和#CC  叶子#AD  作#VV  食物#NN  和#CC  饲料#NN  时#LC  ，#PU  应#VV  注意#VV  去#MSP  毒#VV  ，#PU  即#AD  浸水#NN  、#PU  切片#NN  干燥#NN  、#PU  剥皮#NN  蒸煮#NN  、#PU  研磨#NN  制#NN  淀粉#NN  等#ETC    。#PU  切片#NN  干燥#NN  一般#AD  可#VV  除去#P  75#CD  %#NN  的#DEG  氢氰酸#NN  ，#PU  加工制#AD  淀粉#VV  后#LC  含量#NN  甚微#VA    。#PU  甜品#CD  种#M  类型#NN  剥皮#NN  蒸#AD  煮#VV  或#CC  切片#NN  干燥#NN  后#LC  均#AD  可#VV  安全#AD  使用#VV  ，#PU  苦#NN  品种#NN  类型#NN  去#MSP  毒#VV  处理#NN  后#LC  ，#PU  也#AD  可#VV  食用#VV  和#CC  饲用#VV  ，#PU  但#AD  主要#AD  用于#VV  加工#NN  淀粉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 淀粉#NN, 木薯#NN)  (nsubj, 制#VV, 淀粉#NN)  (mmod, 制#VV, 可#VV)  (root, ROOT#null, 制#VV)  (conj, 胶粘剂#NR, 酒精#NN)  (conj, 胶粘剂#NR, 果糖#NR)  (conj, 胶粘剂#NR, 葡萄糖#NR)  (conj, 胶粘剂#NR, 麦芽糖#NR)  (conj, 胶粘剂#NR, 味精#NN)  (conj, 胶粘剂#NR, 啤酒#NN)  (conj, 胶粘剂#NR, 面包#NR)  (conj, 胶粘剂#NR, 饼干#NR)  (conj, 胶粘剂#NR, 虾片#NR)  (conj, 胶粘剂#NR, 粉丝#NR)  (conj, 纤维#NN, 酱料#NN)  (cc, 纤维#NN, 以及#CC)  (nn, 纤维#NN, 塑料#NN)  (nn, 薄膜#NN, 纤维#NN)  (nn, 薄膜#NN, 塑料#NN)  (conj, 胶粘剂#NR, 薄膜#NN)  (conj, 胶粘剂#NR, 树脂#NR)  (conj, 胶粘剂#NR, 涂料#NR)  (nn, 产品#NN, 胶粘剂#NR)  (etc, 胶粘剂#NR, 等#ETC)  (nn, 产品#NN, 化工#NN)  (dobj, 制#VV, 产品#NN)
+            (loc, 注意#VV, 利用#VV)  (nn, 块根#NN, 木薯#NN)  (dobj, 利用#VV, 块根#NN)  (cc, 利用#VV, 和#CC)  (advmod, 作#VV, 叶子#AD)  (conj, 利用#VV, 作#VV)  (conj, 饲料#NN, 食物#NN)  (cc, 饲料#NN, 和#CC)  (dobj, 作#VV, 饲料#NN)  (case, 利用#VV, 时#LC)  (mmod, 注意#VV, 应#VV)  (root, ROOT#null, 注意#VV)  (prtmod, 毒#VV, 去#MSP)  (ccomp, 注意#VV, 毒#VV)  (advmod, 淀粉#NN, 即#AD)  (conj, 淀粉#NN, 浸水#NN)  (nn, 淀粉#NN, 切片#NN)  (conj, 淀粉#NN, 干燥#NN)  (nn, 淀粉#NN, 剥皮#NN)  (conj, 淀粉#NN, 蒸煮#NN)  (nn, 淀粉#NN, 研磨#NN)  (nn, 淀粉#NN, 制#NN)  (dep, 毒#VV, 淀粉#NN)  (etc, 淀粉#NN, 等#ETC)   (nn, 干燥#NN, 切片#NN)  (nsubj, 甚微#VA, 干燥#NN)  (advmod, 淀粉#VV, 一般#AD)  (mmod, 淀粉#VV, 可#VV)  (case, 氢氰酸#NN, 除去#P)  (nummod, %#NN, 75#CD)  (assmod, 氢氰酸#NN, %#NN)  (case, %#NN, 的#DEG)  (prep, 淀粉#VV, 氢氰酸#NN)  (advmod, 淀粉#VV, 加工制#AD)  (loc, 甚微#VA, 淀粉#VV)  (case, 淀粉#VV, 后#LC)  (nsubj, 甚微#VA, 含量#NN)  (root, ROOT#null, 甚微#VA)   (nummod, 种#M, 甜品#CD)  (clf, 剥皮#NN, 种#M)  (nn, 剥皮#NN, 类型#NN)  (nsubj, 煮#VV, 剥皮#NN)  (advmod, 煮#VV, 蒸#AD)  (root, ROOT#null, 煮#VV)  (cc, 煮#VV, 或#CC)  (nn, 干燥#NN, 切片#NN)  (loc, 使用#VV, 干燥#NN)  (case, 干燥#NN, 后#LC)  (advmod, 使用#VV, 均#AD)  (mmod, 使用#VV, 可#VV)  (advmod, 使用#VV, 安全#AD)  (dep, 煮#VV, 使用#VV)  (nn, 类型#NN, 苦#NN)  (nn, 类型#NN, 品种#NN)  (nsubj, 食用#VV, 类型#NN)  (prtmod, 毒#VV, 去#MSP)  (loc, 食用#VV, 毒#VV)  (dobj, 毒#VV, 处理#NN)  (case, 毒#VV, 后#LC)  (advmod, 食用#VV, 也#AD)  (mmod, 食用#VV, 可#VV)  (conj, 煮#VV, 食用#VV)  (cc, 食用#VV, 和#CC)  (dep, 食用#VV, 饲用#VV)  (advmod, 用于#VV, 但#AD)  (advmod, 用于#VV, 主要#AD)  (conj, 煮#VV, 用于#VV)  (nn, 淀粉#NN, 加工#NN)  (dobj, 用于#VV, 淀粉#NN)
+        </parsing>
+
+        <tag>
+            胶粘剂  果糖  葡萄糖  麦芽糖  面包  饼干  虾片  粉丝  酱料  塑料纤维  纤维薄膜  塑料薄膜  树脂  涂料  化工产品  利用块根  饲料  食物  注意  浸水  切片淀粉  剥皮淀粉  蒸煮  研磨淀粉  切片干燥  干燥甚微  类型剥皮  品种类型  加工淀粉  用于淀粉  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/06/1e/7686_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1481 木薯.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1261
+    </id>
+
+    <foodname>
+        海白虾
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            初春时节，河（湖）虾量少，价格又贵。有一种淡水养殖的海白虾，因其价格适中，很爱人们的欢迎。海白虾含有丰富的蛋白质，营养价值很高，其肉质和鱼一样松软，易于消化，同时含有丰富的矿物质（如钙、磷、铁等）。
+        </rawdata>
+
+        <segment>
+            初春  时节  ，  河  （  湖  ）  虾  量少  ，  价格  又  贵  。  有  一  种  淡水  养殖  的  海  白  虾  ，  因其  价格  适中  ，  很  爱  人们  的  欢迎  。  海  白  虾  含有  丰富  的  蛋白质  ，  营养  价值  很  高  ，  其  肉质  和  鱼  一样  松软  ，  易于  消化  ，  同时  含有  丰富  的  矿物质  （  如  钙  、  磷  、  铁  等  ）  。
+        </segment>
+
+        <pos>
+            初春#VV  时节#NN  ，#PU  河#NN  （#PU  湖#NN  ）#PU  虾#NN  量少#NN  ，#PU  价格#NN  又#CC  贵#JJ    。#PU  有#VE  一#CD  种#M  淡水#VV  养殖#NN  的#DEC  海#NN  白#JJ  虾#NN  ，#PU  因其#VV  价格#NN  适中#NN  ，#PU  很#AD  爱#VV  人们#NN  的#DEG  欢迎#NN    。#PU  海#NN  白#JJ  虾#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  营养#VA  价值#NN  很#AD  高#VA  ，#PU  其#PN  肉质#NN  和#CC  鱼#NN  一样#VA  松软#VA  ，#PU  易于#VV  消化#NN  ，#PU  同时#AD  含有#VV  丰富#VA  的#DEC  矿物质#NN  （#PU  如#AD  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 初春#VV)  (dobj, 初春#VV, 时节#NN)  (nn, 虾#NN, 河#NN)  (prnmod, 虾#NN, 湖#NN)  (nn, 量少#NN, 虾#NN)  (conj, 初春#VV, 量少#NN)  (conj, 初春#VV, 价格#NN)  (cc, 初春#VV, 又#CC)  (conj, 初春#VV, 贵#JJ)   (root, ROOT#null, 有#VE)  (nummod, 种#M, 一#CD)  (clf, 虾#NN, 种#M)  (relcl, 虾#NN, 淡水#VV)  (dobj, 淡水#VV, 养殖#NN)  (mark, 淡水#VV, 的#DEC)  (nn, 虾#NN, 海#NN)  (amod, 虾#NN, 白#JJ)  (dobj, 有#VE, 虾#NN)  (conj, 有#VE, 因其#VV)  (nn, 适中#NN, 价格#NN)  (dobj, 因其#VV, 适中#NN)  (advmod, 爱#VV, 很#AD)  (conj, 有#VE, 爱#VV)  (assmod, 欢迎#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (dobj, 爱#VV, 欢迎#NN)   (nn, 虾#NN, 海#NN)  (amod, 虾#NN, 白#JJ)  (nsubj, 含有#VV, 虾#NN)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (conj, 含有#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (conj, 含有#VV, 高#VA)  (nn, 鱼#NN, 其#PN)  (conj, 鱼#NN, 肉质#NN)  (cc, 鱼#NN, 和#CC)  (nsubj, 一样#VA, 鱼#NN)  (conj, 高#VA, 一样#VA)  (comod, 一样#VA, 松软#VA)  (ccomp, 一样#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)  (advmod, 含有#VV, 同时#AD)  (dep, 易于#VV, 含有#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 铁#NN, 如#AD)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dep, 易于#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            初春时节  淡水虾  淡水养殖  白虾  价格适中  蛋白质丰富  含有蛋白质  鱼一样  松软一样  易于消化  矿物质丰富  含有矿物质  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            海白虾性温、味甘，具有补阴壮阳、益肾、强精、健脑之功效。
+        </rawdata>
+
+        <segment>
+            海  白  虾  性温  、  味甘  ，  具有  补  阴  壮  阳  、  益肾  、  强精  、  健脑  之  功效  。
+        </segment>
+
+        <pos>
+            海#NN  白#JJ  虾#NN  性温#NN  、#PU  味甘#NN  ，#PU  具有#VV  补#NN  阴#NN  壮#JJ  阳#NN  、#PU  益肾#NR  、#PU  强精#NR  、#PU  健脑#NR  之#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 虾#NN, 海#NN)  (amod, 虾#NN, 白#JJ)  (nn, 味甘#NN, 虾#NN)  (conj, 味甘#NN, 性温#NN)  (nsubj, 具有#VV, 味甘#NN)  (root, ROOT#null, 具有#VV)  (nn, 阴#NN, 补#NN)  (nn, 阳#NN, 阴#NN)  (amod, 阳#NN, 壮#JJ)  (conj, 健脑#NR, 阳#NN)  (conj, 健脑#NR, 益肾#NR)  (conj, 健脑#NR, 强精#NR)  (assmod, 功效#NN, 健脑#NR)  (case, 健脑#NR, 之#DEG)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            白虾  味甘  性温  壮阳  健脑  益肾  强精  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            海白虾含有丰富的蛋白质，营养价值很高，其肉质和鱼一样松软，易于消化，同时含有丰富的矿物质（如钙、磷、铁等）。按中药理论，海白虾性温、味甘，具有补阴壮阳、益肾、强精、健脑之功效。
+        </rawdata>
+
+        <segment>
+            海  白  虾  含有  丰富  的  蛋白质  ，  营养  价值  很  高  ，  其  肉质  和  鱼  一样  松软  ，  易于  消化  ，  同时  含有  丰富  的  矿物质  （  如  钙  、  磷  、  铁  等  ）  。  按  中药  理论  ，  海  白  虾  性温  、  味甘  ，  具有  补  阴  壮  阳  、  益肾  、  强精  、  健脑  之  功效  。
+        </segment>
+
+        <pos>
+            海#NN  白#JJ  虾#NN  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  营养#VA  价值#NN  很#AD  高#VA  ，#PU  其#PN  肉质#NN  和#CC  鱼#NN  一样#VA  松软#VA  ，#PU  易于#VV  消化#NN  ，#PU  同时#AD  含有#VV  丰富#VA  的#DEC  矿物质#NN  （#PU  如#AD  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  ）#PU    。#PU  按#P  中药#NN  理论#NN  ，#PU  海#NN  白#JJ  虾#NN  性温#VV  、#PU  味甘#VV  ，#PU  具有#VV  补#NN  阴#NN  壮#JJ  阳#NN  、#PU  益肾#NR  、#PU  强精#NR  、#PU  健脑#NR  之#DEG  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 虾#NN, 海#NN)  (amod, 虾#NN, 白#JJ)  (nsubj, 含有#VV, 虾#NN)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (conj, 含有#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (conj, 含有#VV, 高#VA)  (nn, 鱼#NN, 其#PN)  (conj, 鱼#NN, 肉质#NN)  (cc, 鱼#NN, 和#CC)  (nsubj, 一样#VA, 鱼#NN)  (conj, 高#VA, 一样#VA)  (comod, 一样#VA, 松软#VA)  (ccomp, 一样#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)  (advmod, 含有#VV, 同时#AD)  (dep, 易于#VV, 含有#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 矿物质#NN)  (advmod, 铁#NN, 如#AD)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dep, 易于#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)   (case, 理论#NN, 按#P)  (nn, 理论#NN, 中药#NN)  (prep, 性温#VV, 理论#NN)  (nn, 虾#NN, 海#NN)  (amod, 虾#NN, 白#JJ)  (dobj, 性温#VV, 虾#NN)  (root, ROOT#null, 性温#VV)  (dep, 性温#VV, 味甘#VV)  (dep, 性温#VV, 具有#VV)  (nn, 阴#NN, 补#NN)  (nn, 阳#NN, 阴#NN)  (amod, 阳#NN, 壮#JJ)  (conj, 健脑#NR, 阳#NN)  (conj, 健脑#NR, 益肾#NR)  (conj, 健脑#NR, 强精#NR)  (assmod, 功效#NN, 健脑#NR)  (case, 健脑#NR, 之#DEG)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            白虾  蛋白质丰富  含有蛋白质  鱼一样  松软一样  易于消化  矿物质丰富  含有矿物质  中药理论  性温虾  壮阳  健脑  益肾  强精  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/c1/63/25537_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1261 海白虾.jpg
+    </picturelocalurl>
+
+</content>

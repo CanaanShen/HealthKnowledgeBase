@@ -1,0 +1,124 @@
+<content>
+
+    <id>
+        1392
+    </id>
+
+    <foodname>
+        棒骨
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛羊猪等动物的腿骨。骨髓很丰富，营养很高。
+        </rawdata>
+
+        <segment>
+            牛羊  猪  等  动物  的  腿骨  。  骨髓  很  丰富  ，  营养  很  高  。
+        </segment>
+
+        <pos>
+            牛羊#NN  猪#NN  等#ETC  动物#NN  的#DEG  腿骨#NN    。#PU  骨髓#NN  很#AD  丰富#VA  ，#PU  营养#VA  很#AD  高#VA    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 猪#NN, 牛羊#NN)  (nn, 腿骨#NN, 猪#NN)  (etc, 猪#NN, 等#ETC)  (assmod, 腿骨#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (root, ROOT#null, 腿骨#NN)   (nsubj, 丰富#VA, 骨髓#NN)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)  (dep, 丰富#VA, 营养#VA)  (advmod, 高#VA, 很#AD)  (dep, 丰富#VA, 高#VA)
+        </parsing>
+
+        <tag>
+            骨髓丰富  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        辅助改善记忆  增加骨密度  增强造血功能
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            棒骨是指牛羊猪等动物的腿骨。棒骨的骨髓很丰富，营养很高。棒骨除含蛋白质、脂肪、维生素外，还含有大量磷酸钙、骨胶原、骨黏蛋白等。
+            棒骨汤能起到抗衰老的作用。这是由于人体骨胳中最重要的是骨髓，血液中的红、白细胞等就是在骨髓中形成的，随着年龄的增大和机体的老化，骨髓制造红、白细胞的功能逐渐衰退，骨髓功能降低，直接影响到人体新陈代谢的能力。而棒骨汤中含有的胶原蛋白正好能增强人体制造血细胞的能力。所以对于中老年人来说，喝些棒骨汤加以调理，可以减缓骨骼老化；同样，棒骨汤也能有利于青少年的骨骼生长。
+        </rawdata>
+
+        <segment>
+            棒  骨  是  指  牛羊  猪  等  动物  的  腿骨  。  棒  骨  的  骨髓  很  丰富  ，  营养  很  高  。  棒  骨  除  含  蛋白质  、  脂肪  、  维生素  外  ，  还  含有  大量  磷酸钙  、  骨胶原  、  骨黏  蛋白  等  。
+            棒  骨  汤  能  起到  抗  衰老  的  作用  。  这  是  由于  人体  骨胳  中  最  重要  的  是  骨髓  ，  血液  中  的  红  、  白细胞  等  就是  在  骨髓  中  形成  的  ，  随着  年龄  的  增大  和  机体  的  老化  ，  骨髓  制造  红  、  白细胞  的  功能  逐渐  衰退  ，  骨髓  功能  降低  ，  直接  影响  到  人体  新陈代谢  的  能力  。  而  棒  骨  汤  中  含有  的  胶原  蛋白  正好  能  增强  人体  制造  血  细胞  的  能力  。  所以  对于  中老年人  来说  ，  喝  些  棒  骨  汤  加以  调理  ，  可以  减缓  骨骼  老化  ；  同样  ，  棒  骨  汤  也  能  有利于  青少年  的  骨骼  生长  。
+        </segment>
+
+        <pos>
+            棒#NN  骨#NN  是#VC  指#VV  牛羊#NN  猪#NN  等#ETC  动物#NN  的#DEG  腿骨#NN    。#PU  棒#NN  骨#NN  的#DEG  骨髓#NN  很#AD  丰富#VA  ，#PU  营养#VA  很#AD  高#VA    。#PU  棒#NN  骨#NN  除#P  含#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  维生素#NN  外#LC  ，#PU  还#AD  含有#VV  大量#CD  磷酸钙#NN  、#PU  骨胶原#NN  、#PU  骨黏#NN  蛋白#NN  等#ETC    。#PU    。#PU
+            棒#NN  骨#NN  汤#NN  能#VV  起到#VV  抗#NN  衰老#NN  的#DEG  作用#NN    。#PU  这#PN  是#VC  由于#P  人体#NN  骨胳#NN  中#LC  最#AD  重要#VA  的#DEC  是#VC  骨髓#NN  ，#PU  血液#NN  中#LC  的#DEG  红#VA  、#PU  白细胞#VA  等#ETC  就是#CC  在#P  骨髓#NN  中#LC  形成#VV  的#DEC  ，#PU  随着#P  年龄#NN  的#DEG  增大#VV  和#CC  机体#VV  的#DEC  老化#NN  ，#PU  骨髓#NN  制造#NN  红#VA  、#PU  白细胞#VA  的#DEC  功能#NN  逐渐#AD  衰退#VV  ，#PU  骨髓#NN  功能#NN  降低#VV  ，#PU  直接#AD  影响#VV  到#P  人体#NN  新陈代谢#NN  的#DEG  能力#NN    。#PU  而#MSP  棒#VV  骨#NN  汤#NN  中#LC  含有#NN  的#DEC  胶原#NN  蛋白#NN  正好#AD  能#VV  增强#VV  人体#AD  制造#VV  血#NN  细胞#NN  的#DEC  能力#NN    。#PU  所以#AD  对于#P  中老年人#NN  来说#NN  ，#PU  喝#CD  些#M  棒#NN  骨#NN  汤#NN  加以#VV  调理#NN  ，#PU  可以#VV  减缓#VV  骨骼#NN  老化#NN  ；#PU  同样#AD  ，#PU  棒#AD  骨#VV  汤#AD  也#AD  能#VV  有利于#VV  青少年#NN  的#DEC  骨骼#NN  生长#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 骨#NN, 棒#NN)  (nsubj, 指#VV, 骨#NN)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (root, ROOT#null, 指#VV)  (nn, 猪#NN, 牛羊#NN)  (nn, 动物#NN, 猪#NN)  (etc, 猪#NN, 等#ETC)  (assmod, 腿骨#NN, 动物#NN)  (case, 动物#NN, 的#DEG)  (dobj, 指#VV, 腿骨#NN)   (nn, 骨#NN, 棒#NN)  (assmod, 骨髓#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (nsubj, 丰富#VA, 骨髓#NN)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)  (dep, 丰富#VA, 营养#VA)  (advmod, 高#VA, 很#AD)  (dep, 丰富#VA, 高#VA)   (nn, 骨#NN, 棒#NN)  (nsubj, 含有#VV, 骨#NN)  (case, 含#VV, 除#P)  (prep, 含有#VV, 含#VV)  (conj, 维生素#NN, 蛋白质#NN)  (conj, 维生素#NN, 脂肪#NN)  (dobj, 含#VV, 维生素#NN)  (case, 含#VV, 外#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 蛋白#NN, 大量#CD)  (conj, 蛋白#NN, 磷酸钙#NN)  (conj, 蛋白#NN, 骨胶原#NN)  (nn, 蛋白#NN, 骨黏#NN)  (dobj, 含有#VV, 蛋白#NN)  (etc, 蛋白#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nn, 汤#NN, 棒#NN)  (nn, 汤#NN, 骨#NN)  (nsubj, 起到#VV, 汤#NN)  (mmod, 起到#VV, 能#VV)  (root, ROOT#null, 起到#VV)  (nn, 衰老#NN, 抗#NN)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)   (nsubj, 降低#VV, 这#PN)  (cop, 降低#VV, 是#VC)  (case, 骨髓#NN, 由于#P)  (nn, 骨胳#NN, 人体#NN)  (loc, 重要#VA, 骨胳#NN)  (case, 骨胳#NN, 中#LC)  (advmod, 重要#VA, 最#AD)  (nsubj, 骨髓#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (cop, 骨髓#NN, 是#VC)  (prep, 降低#VV, 骨髓#NN)  (nsubj, 红#VA, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (conj, 骨髓#NN, 红#VA)  (dep, 红#VA, 白细胞#VA)  (dep, 骨髓#NN, 等#ETC)  (cc, 骨髓#NN, 就是#CC)  (case, 骨髓#NN, 在#P)  (prep, 形成#VV, 骨髓#NN)  (case, 骨髓#NN, 中#LC)  (nsubj, 衰退#VV, 形成#VV)  (mark, 形成#VV, 的#DEC)  (case, 老化#NN, 随着#P)  (assmod, 老化#NN, 年龄#NN)  (case, 年龄#NN, 的#DEG)  (relcl, 老化#NN, 增大#VV)  (cc, 增大#VV, 和#CC)  (conj, 增大#VV, 机体#VV)  (mark, 增大#VV, 的#DEC)  (prep, 衰退#VV, 老化#NN)  (nn, 制造#NN, 骨髓#NN)  (nsubj, 红#VA, 制造#NN)  (relcl, 功能#NN, 红#VA)  (dep, 红#VA, 白细胞#VA)  (mark, 红#VA, 的#DEC)  (nsubj, 衰退#VV, 功能#NN)  (advmod, 衰退#VV, 逐渐#AD)  (dep, 骨髓#NN, 衰退#VV)  (nn, 功能#NN, 骨髓#NN)  (nsubj, 降低#VV, 功能#NN)  (root, ROOT#null, 降低#VV)  (advmod, 影响#VV, 直接#AD)  (dep, 降低#VV, 影响#VV)  (case, 新陈代谢#NN, 到#P)  (nn, 新陈代谢#NN, 人体#NN)  (assmod, 能力#NN, 新陈代谢#NN)  (case, 新陈代谢#NN, 的#DEG)  (dobj, 影响#VV, 能力#NN)   (prtmod, 棒#VV, 而#MSP)  (relcl, 蛋白#NN, 棒#VV)  (nn, 汤#NN, 骨#NN)  (dep, 含有#NN, 汤#NN)  (case, 汤#NN, 中#LC)  (dobj, 棒#VV, 含有#NN)  (mark, 棒#VV, 的#DEC)  (nn, 蛋白#NN, 胶原#NN)  (nsubj, 增强#VV, 蛋白#NN)  (advmod, 增强#VV, 正好#AD)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (advmod, 制造#VV, 人体#AD)  (relcl, 能力#NN, 制造#VV)  (nn, 细胞#NN, 血#NN)  (dobj, 制造#VV, 细胞#NN)  (mark, 制造#VV, 的#DEC)  (dobj, 增强#VV, 能力#NN)   (advmod, 加以#VV, 所以#AD)  (case, 来说#NN, 对于#P)  (nn, 来说#NN, 中老年人#NN)  (prep, 加以#VV, 来说#NN)  (nummod, 些#M, 喝#CD)  (clf, 汤#NN, 些#M)  (nn, 汤#NN, 棒#NN)  (nn, 汤#NN, 骨#NN)  (nsubj, 加以#VV, 汤#NN)  (root, ROOT#null, 加以#VV)  (dobj, 加以#VV, 调理#NN)  (mmod, 减缓#VV, 可以#VV)  (conj, 加以#VV, 减缓#VV)  (nn, 老化#NN, 骨骼#NN)  (dobj, 减缓#VV, 老化#NN)  (advmod, 骨#VV, 同样#AD)  (advmod, 骨#VV, 棒#AD)  (conj, 加以#VV, 骨#VV)  (advmod, 有利于#VV, 汤#AD)  (advmod, 有利于#VV, 也#AD)  (mmod, 有利于#VV, 能#VV)  (relcl, 生长#NN, 有利于#VV)  (dobj, 有利于#VV, 青少年#NN)  (mark, 有利于#VV, 的#DEC)  (nn, 生长#NN, 骨骼#NN)  (dobj, 骨#VV, 生长#NN)
+        </parsing>
+
+        <tag>
+            骨髓丰富  维生素  蛋白质  脂肪  磷酸钙  骨胶原  骨黏蛋白  含有蛋白  人体骨胳  增大老化  骨髓制造  骨髓功能  降低  人体新陈代谢  影响能力  棒蛋白  胶原蛋白  制造能力  制造细胞  增强能力  中老年人来说  骨骼老化  减缓老化  有利于生长  有利于青少年  骨骼生长  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/48/16/5704_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1392 棒骨.jpg
+    </picturelocalurl>
+
+</content>

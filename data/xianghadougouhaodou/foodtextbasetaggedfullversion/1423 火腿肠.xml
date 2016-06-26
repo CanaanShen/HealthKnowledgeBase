@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1423
+    </id>
+
+    <foodname>
+        火腿肠
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、儿童、老年人和体弱者少吃或不吃为好；肝肾功能不全者不宜食用。
+        </rawdata>
+
+        <segment>
+            孕妇  、  儿童  、  老年人  和  体弱者  少吃  或  不  吃  为好  ；  肝肾  功能  不全  者  不  宜  食用  。
+        </segment>
+
+        <pos>
+            孕妇#NN  、#PU  儿童#NN  、#PU  老年人#NN  和#CC  体弱者#NN  少吃#AD  或#CC  不#AD  吃#VV  为好#NN  ；#PU  肝肾#NN  功能#NN  不全#NN  者#NN  不#AD  宜#NR  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 体弱者#NN, 孕妇#NN)  (conj, 体弱者#NN, 儿童#NN)  (conj, 体弱者#NN, 老年人#NN)  (cc, 体弱者#NN, 和#CC)  (nsubj, 吃#VV, 体弱者#NN)  (neg, 吃#VV, 少吃#AD)  (cc, 少吃#AD, 或#CC)  (dep, 少吃#AD, 不#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 为好#NN)  (nn, 功能#NN, 肝肾#NN)  (nn, 者#NN, 功能#NN)  (nn, 者#NN, 不全#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (conj, 吃#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            孕妇  儿童  老年人  体弱者少吃  不吃为好  肝肾功能不全者不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            火腿肠是以畜禽肉为主要原料，辅以淀粉、植物蛋白粉等填充剂，再加入食盐、糖、酒、味精、香辛料等调味品，并添加品质改良剂卡拉胶和维生素C，以及护色剂、保水剂、防腐剂等物质。
+        </rawdata>
+
+        <segment>
+            火腿肠  是  以  畜禽  肉  为  主要  原料  ，  辅以  淀粉  、  植物  蛋白粉  等  填充剂  ，  再  加入  食盐  、  糖  、  酒  、  味精  、  香辛料  等  调味品  ，  并  添加  品质  改良  剂  卡拉胶  和  维生素C  ，  以及  护色剂  、  保水剂  、  防腐剂  等  物质  。
+        </segment>
+
+        <pos>
+            火腿肠#NN  是#VC  以#P  畜禽#NN  肉#NN  为#VV  主要#JJ  原料#NN  ，#PU  辅以#VV  淀粉#NN  、#PU  植物#NN  蛋白粉#NN  等#ETC  填充剂#NN  ，#PU  再#AD  加入#VV  食盐#NN  、#PU  糖#NN  、#PU  酒#NN  、#PU  味精#NN  、#PU  香辛料#NN  等#ETC  调味品#NN  ，#PU  并#CC  添加#VV  品质#NN  改良#NN  剂#NN  卡拉胶#NN  和#CC  维生素C#NN  ，#PU  以及#CC  护色剂#NR  、#PU  保水剂#NR  、#PU  防腐剂#NR  等#ETC  物质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 为#VV, 火腿肠#NN)  (cop, 为#VV, 是#VC)  (case, 肉#NN, 以#P)  (nn, 肉#NN, 畜禽#NN)  (prep, 为#VV, 肉#NN)  (root, ROOT#null, 为#VV)  (amod, 原料#NN, 主要#JJ)  (dobj, 为#VV, 原料#NN)  (conj, 为#VV, 辅以#VV)  (conj, 蛋白粉#NN, 淀粉#NN)  (nn, 蛋白粉#NN, 植物#NN)  (nn, 填充剂#NN, 蛋白粉#NN)  (etc, 蛋白粉#NN, 等#ETC)  (dobj, 辅以#VV, 填充剂#NN)  (advmod, 加入#VV, 再#AD)  (conj, 为#VV, 加入#VV)  (conj, 香辛料#NN, 食盐#NN)  (conj, 香辛料#NN, 糖#NN)  (conj, 香辛料#NN, 酒#NN)  (conj, 香辛料#NN, 味精#NN)  (nn, 调味品#NN, 香辛料#NN)  (etc, 香辛料#NN, 等#ETC)  (dobj, 加入#VV, 调味品#NN)  (cc, 为#VV, 并#CC)  (conj, 为#VV, 添加#VV)  (nn, 剂#NN, 品质#NN)  (nn, 剂#NN, 改良#NN)  (nn, 维生素C#NN, 剂#NN)  (conj, 维生素C#NN, 卡拉胶#NN)  (cc, 维生素C#NN, 和#CC)  (dep, 物质#NN, 维生素C#NN)  (cc, 物质#NN, 以及#CC)  (conj, 防腐剂#NR, 护色剂#NR)  (conj, 防腐剂#NR, 保水剂#NR)  (nn, 物质#NN, 防腐剂#NR)  (etc, 防腐剂#NR, 等#ETC)  (dobj, 添加#VV, 物质#NN)
+        </parsing>
+
+        <tag>
+            淀粉  植物蛋白粉  蛋白粉填充剂  食盐  味精  香辛料调味品  加入调味品  维生素C  卡拉胶  防腐剂  护色剂  保水剂  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            火腿肠含有供给人体需要的蛋白质、脂肪、碳水化合物、各种矿物质和维生素等营养，还具有吸收率高、适口性好、饱腹性强等优点，还适合加工成多种佳肴。
+        </rawdata>
+
+        <segment>
+            火腿肠  含有  供给  人体  需要  的  蛋白质  、  脂肪  、  碳水化合物  、  各种  矿物质  和  维生素  等  营养  ，  还  具有  吸收率  高  、  适口  性好  、  饱腹  性强  等  优点  ，  还  适合  加工  成  多  种  佳肴  。
+        </segment>
+
+        <pos>
+            火腿肠#NN  含有#NN  供给#NN  人体#VV  需要#VV  的#DEC  蛋白质#NR  、#PU  脂肪#NR  、#PU  碳水化合物#NR  、#PU  各种#NR  矿物质#NN  和#CC  维生素#NN  等#ETC  营养#VA  ，#PU  还#AD  具有#VV  吸收率#AD  高#VA  、#PU  适口#NN  性好#VA  、#PU  饱腹#AD  性强#VA  等#ETC  优点#NN  ，#PU  还#AD  适合#VV  加工#NN  成#VV  多#CD  种#M  佳肴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 供给#NN, 火腿肠#NN)  (nn, 供给#NN, 含有#NN)  (nsubj, 人体#VV, 供给#NN)  (root, ROOT#null, 人体#VV)  (relcl, 维生素#NN, 需要#VV)  (mark, 需要#VV, 的#DEC)  (conj, 各种#NR, 蛋白质#NR)  (conj, 各种#NR, 脂肪#NR)  (conj, 各种#NR, 碳水化合物#NR)  (nn, 矿物质#NN, 各种#NR)  (conj, 维生素#NN, 矿物质#NN)  (cc, 维生素#NN, 和#CC)  (dobj, 人体#VV, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (conj, 人体#VV, 营养#VA)  (advmod, 具有#VV, 还#AD)  (dep, 人体#VV, 具有#VV)  (advmod, 高#VA, 吸收率#AD)  (nfincl, 优点#NN, 高#VA)  (nsubj, 性好#VA, 适口#NN)  (dep, 高#VA, 性好#VA)  (advmod, 性强#VA, 饱腹#AD)  (conj, 高#VA, 性强#VA)  (dep, 高#VA, 等#ETC)  (dobj, 具有#VV, 优点#NN)  (advmod, 适合#VV, 还#AD)  (dep, 人体#VV, 适合#VV)  (dobj, 适合#VV, 加工#NN)  (conj, 适合#VV, 成#VV)  (nummod, 种#M, 多#CD)  (clf, 佳肴#NN, 种#M)  (dobj, 成#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+            含有供给  需要维生素  各种  蛋白质  脂肪  碳水化合物  矿物质  人体维生素  适口性好  适合加工  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            火腿肠应放入冰箱冷藏保存。如不能冷藏，应尽快食用，尤其是在夏季或环境温度较高的地方，最好购买能在常温下保存的产品。
+        </rawdata>
+
+        <segment>
+            火腿肠  应  放入  冰箱  冷藏  保存  。  如  不  能  冷藏  ，  应  尽快  食用  ，  尤其是  在  夏季  或  环境  温度  较  高  的  地方  ，  最好  购买  能  在  常温  下  保存  的  产品  。
+        </segment>
+
+        <pos>
+            火腿肠#NN  应#VV  放入#VV  冰箱#NN  冷藏#NN  保存#NN    。#PU  如#AD  不#AD  能#VV  冷藏#VV  ，#PU  应#VV  尽快#AD  食用#VV  ，#PU  尤其是#AD  在#P  夏季#NT  或#CC  环境#NN  温度#NN  较#AD  高#VA  的#DEC  地方#NN  ，#PU  最好#JJ  购买#NN  能#VV  在#P  常温#NN  下#LC  保存#VV  的#DEC  产品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 放入#VV, 火腿肠#NN)  (mmod, 放入#VV, 应#VV)  (root, ROOT#null, 放入#VV)  (nn, 保存#NN, 冰箱#NN)  (nn, 保存#NN, 冷藏#NN)  (dobj, 放入#VV, 保存#NN)   (advmod, 能#VV, 如#AD)  (neg, 能#VV, 不#AD)  (dep, 冷藏#VV, 能#VV)  (root, ROOT#null, 冷藏#VV)  (ccomp, 冷藏#VV, 应#VV)  (advmod, 食用#VV, 尽快#AD)  (relcl, 产品#NN, 食用#VV)  (advmod, 保存#VV, 尤其是#AD)  (case, 地方#NN, 在#P)  (conj, 地方#NN, 夏季#NT)  (cc, 地方#NN, 或#CC)  (nn, 温度#NN, 环境#NN)  (nsubj, 高#VA, 温度#NN)  (advmod, 高#VA, 较#AD)  (relcl, 地方#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (prep, 保存#VV, 地方#NN)  (amod, 购买#NN, 最好#JJ)  (nsubj, 保存#VV, 购买#NN)  (mmod, 保存#VV, 能#VV)  (case, 常温#NN, 在#P)  (prep, 保存#VV, 常温#NN)  (case, 常温#NN, 下#LC)  (dep, 食用#VV, 保存#VV)  (mark, 食用#VV, 的#DEC)  (dobj, 应#VV, 产品#NN)
+        </parsing>
+
+        <tag>
+            冰箱保存  冷藏保存  食用产品  环境温度  最好购买  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/87/02/647_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1423 火腿肠.jpg
+    </picturelocalurl>
+
+</content>

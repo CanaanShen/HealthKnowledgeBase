@@ -1,0 +1,128 @@
+<content>
+
+    <id>
+        489
+    </id>
+
+    <foodname>
+        三七粉
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        田七粉
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            1.心脑血管疾病患者。2.高血压、贫血人群 。3.各类血证患者（吐血、呕血、咳血、衄血、便血、尿血、瘀血）。4.体质虚弱、免疫力低下人群 。5.妇女非经期及产后。6.烧烫伤疤痕、手术疤痕，瘢痕疙瘩患者，含疤痕体质也可以使用，可以抑制疤痕增生。
+        </rawdata>
+
+        <segment>
+            心脑  血管  疾病  患者  。  2  .  高血压  、  贫血  人群    。  3  .  各  类  血证  患者  （  吐血  、  呕血  、  咳血  、  衄血  、  便血  、  尿血  、  瘀血  ）  。  4  .  体质  虚弱  、  免疫力  低下  人群    。  5  .  妇女  非经期  及  产后  。  6  .  烧  烫伤  疤痕  、  手术  疤痕  ，  瘢痕  疙瘩  患者  ，  含  疤痕  体质  也  可以  使用  ，  可以  抑制  疤痕  增生  。
+        </segment>
+
+        <pos>
+            心脑#NN  血管#NN  疾病#NN  患者#NN    。#PU  2#CD  .#NN  高血压#NN  、#PU  贫血#NN  人群#NN    。#PU  3#CD  .#NN  各#DT  类#M  血证#NN  患者#NN  （#PU  吐血#NR  、#PU  呕血#NR  、#PU  咳血#NR  、#PU  衄血#NR  、#PU  便血#NR  、#PU  尿血#NR  、#PU  瘀血#NR  ）#PU    。#PU  4#CD  .#NN  体质#VV  虚弱#NN  、#PU  免疫力#NN  低下#NN  人群#NN    。#PU  5#CD  .#NN  妇女#NN  非经期#NN  及#CC  产后#NN    。#PU  6#CD  .#NN  烧#AD  烫伤#VV  疤痕#NN  、#PU  手术#NN  疤痕#NN  ，#PU  瘢痕#VV  疙瘩#NN  患者#NN  ，#PU  含#VV  疤痕#NN  体质#NN  也#AD  可以#VV  使用#VV  ，#PU  可以#VV  抑制#VV  疤痕#NN  增生#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (nn, 患者#NN, 疾病#NN)  (root, ROOT#null, 患者#NN)   (nummod, .#NN, 2#CD)  (conj, 人群#NN, 高血压#NN)  (nn, 人群#NN, 贫血#NN)  (root, ROOT#null, 人群#NN)   (nummod, .#NN, 3#CD)  (det, 血证#NN, 各#DT)  (clf, 各#DT, 类#M)  (nn, 患者#NN, 血证#NN)  (root, ROOT#null, 患者#NN)  (conj, 瘀血#NR, 吐血#NR)  (conj, 瘀血#NR, 呕血#NR)  (conj, 瘀血#NR, 咳血#NR)  (conj, 瘀血#NR, 衄血#NR)  (conj, 瘀血#NR, 便血#NR)  (conj, 瘀血#NR, 尿血#NR)  (prnmod, 患者#NN, 瘀血#NR)   (nummod, .#NN, 4#CD)  (root, ROOT#null, 体质#VV)  (conj, 人群#NN, 虚弱#NN)  (nn, 人群#NN, 免疫力#NN)  (nn, 人群#NN, 低下#NN)  (dobj, 体质#VV, 人群#NN)   (nummod, .#NN, 5#CD)  (nn, 产后#NN, 妇女#NN)  (conj, 产后#NN, 非经期#NN)  (cc, 产后#NN, 及#CC)  (root, ROOT#null, 产后#NN)   (nummod, .#NN, 6#CD)  (advmod, 烫伤#VV, 烧#AD)  (root, ROOT#null, 烫伤#VV)  (conj, 疤痕#NN, 疤痕#NN)  (nn, 疤痕#NN, 手术#NN)  (dobj, 烫伤#VV, 疤痕#NN)  (conj, 烫伤#VV, 瘢痕#VV)  (nn, 患者#NN, 疙瘩#NN)  (dobj, 瘢痕#VV, 患者#NN)  (conj, 烫伤#VV, 含#VV)  (nn, 体质#NN, 疤痕#NN)  (dobj, 含#VV, 体质#NN)  (advmod, 使用#VV, 也#AD)  (dep, 使用#VV, 可以#VV)  (conj, 含#VV, 使用#VV)  (mmod, 抑制#VV, 可以#VV)  (conj, 烫伤#VV, 抑制#VV)  (nn, 增生#NN, 疤痕#NN)  (dobj, 抑制#VV, 增生#NN)
+        </parsing>
+
+        <tag>
+            心脑血管疾病  患者  高血压  贫血人群  各类血证  患者  吐血  呕血  咳血  衄血  便血  尿血  瘀血  体质虚弱  免疫力低下人群  妇女非经期  产后  烧烫伤疤痕  手术疤痕  瘢痕疙瘩  患者  含疤痕体质  可以使用  可以抑制疤痕增生  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            “三七粉”是植物三七（学名：Panax pseudo-ginseng）的根茎制品，是用三七主根打成的粉，是云南白药的主要成分。别名：田七粉，金不换。产自于云南文山州，故名文山三七，性温，味甘微苦，入肝、胃、大肠经。有称北人参，南三七。人参补气第一，三七补血第一。
+            一直以来，三七都是一味非常好的中药材。一般外伤时医生会建议吃田七煲鸡，疗伤效果显著。
+            三七的功用，原来可用“止血、散瘀、定痛”六个字来概括，所以，历来都是以三七作为伤科金疮药，很少作为补品食用。三七最适宜与灵芝搭配服用，具有治疗糖尿病和心血管疾病的作用。
+        </rawdata>
+
+        <segment>
+            “  三七粉  ”  是  植物  三七  （  学名  ：  Panax  pseudo-ginseng  ）  的  根茎  制品  ，  是  用  三七  主根  打成  的粉  ，  是  云南  白药  的  主要  成分  。  别名  ：  田七  粉  ，  金不换  。  产自  于  云南  文山州  ，  故名  文山  三七  ，  性温  ，  味甘微苦  ，  入肝  、  胃  、  大肠  经  。  有  称  北  人参  ，  南  三七  。  人参  补气  第一  ，  三七  补血  第一  。
+            一直  以来  ，  三七  都  是  一  味  非常  好  的  中药材  。  一般  外伤  时  医生  会  建议  吃  田  七  煲鸡  ，  疗伤  效果  显著  。
+            三七  的  功用  ，  原来  可  用  “  止血  、  散瘀  、  定  痛  ”  六  个  字  来  概括  ，  所以  ，  历来  都  是  以  三七  作为  伤  科  金疮  药  ，  很少  作为  补品  食用  。  三七  最  适宜  与  灵芝  搭配  服用  ，  具有  治疗  糖尿病  和  心血管  疾病  的  作用  。
+        </segment>
+
+        <pos>
+            ``#VV  三七粉#CD  ''#NN  是#VC  植物#NN  三七#CD  （#PU  学名#VV  ：#PU  Panax#NN  pseudo-ginseng#VV  ）#PU  的#DEC  根茎#NN  制品#NN  ，#PU  是#VC  用#P  三七#CD  主根#NN  打成#VV  的粉#NN  ，#PU  是#VC  云南#NR  白药#NN  的#DEC  主要#JJ  成分#NN    。#PU  别名#VV  ：#PU  田七#CD  粉#NN  ，#PU  金不换#VV    。#PU  产自#NN  于#P  云南#NR  文山州#NN  ，#PU  故名#AD  文山#VV  三七#CD  ，#PU  性温#VV  ，#PU  味甘微苦#NN  ，#PU  入肝#NR  、#PU  胃#NR  、#PU  大肠#NR  经#VV    。#PU  有#VE  称#NN  北#NN  人参#NN  ，#PU  南#NN  三七#CD    。#PU  人参#NN  补气#VV  第一#OD  ，#PU  三七#CD  补血#VV  第一#OD    。#PU    。#PU
+            一直#AD  以来#LC  ，#PU  三七#CD  都#AD  是#VC  一#CD  味#VV  非常#AD  好#VA  的#DEC  中药材#NN    。#PU  一般#JJ  外伤#NN  时#LC  医生#NN  会#VV  建议#VV  吃#VV  田#NN  七#CD  煲鸡#NN  ，#PU  疗伤#NN  效果#NN  显著#VA    。#PU    。#PU
+            三七#CD  的#DEG  功用#NN  ，#PU  原来#AD  可#VV  用#VV  ``#NN  止血#NN  、#PU  散瘀#NN  、#PU  定#VV  痛#NN  ''#VV  六#CD  个#M  字#NN  来#MSP  概括#VV  ，#PU  所以#AD  ，#PU  历来#AD  都#AD  是#VC  以#P  三七#CD  作为#P  伤#NN  科#NN  金疮#NN  药#NN  ，#PU  很少#NN  作为#P  补品#NN  食用#VV    。#PU  三七#CD  最#AD  适宜#VA  与#P  灵芝#NN  搭配#NN  服用#VV  ，#PU  具有#VV  治疗#VV  糖尿病#NN  和#CC  心血管#NN  疾病#NN  的#DEC  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, ``#VV)  (nummod, ''#NN, 三七粉#CD)  (nsubj, 是#VC, ''#NN)  (relcl, 制品#NN, 是#VC)  (dep, 三七#CD, 植物#NN)  (dep, 是#VC, 三七#CD)  (nsubj, pseudo-ginseng#VV, 学名#VV)  (dobj, 学名#VV, Panax#NN)  (dep, 是#VC, pseudo-ginseng#VV)  (mark, 是#VC, 的#DEC)  (nn, 制品#NN, 根茎#NN)  (dobj, ``#VV, 制品#NN)  (cop, 成分#NN, 是#VC)  (case, 主根#NN, 用#P)  (nummod, 主根#NN, 三七#CD)  (prep, 打成#VV, 主根#NN)  (relcl, 成分#NN, 打成#VV)  (dobj, 打成#VV, 的粉#NN)  (cop, 白药#NN, 是#VC)  (nn, 白药#NN, 云南#NR)  (conj, 打成#VV, 白药#NN)  (mark, 打成#VV, 的#DEC)  (amod, 成分#NN, 主要#JJ)  (conj, ``#VV, 成分#NN)   (root, ROOT#null, 别名#VV)  (nummod, 粉#NN, 田七#CD)  (dobj, 别名#VV, 粉#NN)  (conj, 别名#VV, 金不换#VV)   (nsubj, 文山#VV, 产自#NN)  (case, 文山州#NN, 于#P)  (nn, 文山州#NN, 云南#NR)  (prep, 文山#VV, 文山州#NN)  (advmod, 文山#VV, 故名#AD)  (root, ROOT#null, 文山#VV)  (range, 文山#VV, 三七#CD)  (conj, 文山#VV, 性温#VV)  (nsubj, 经#VV, 味甘微苦#NN)  (conj, 大肠#NR, 入肝#NR)  (conj, 大肠#NR, 胃#NR)  (nsubj, 经#VV, 大肠#NR)  (conj, 文山#VV, 经#VV)   (root, ROOT#null, 有#VE)  (nn, 人参#NN, 称#NN)  (nn, 人参#NN, 北#NN)  (dobj, 有#VE, 人参#NN)  (conj, 有#VE, 南#NN)  (range, 南#NN, 三七#CD)   (nsubj, 补气#VV, 人参#NN)  (root, ROOT#null, 补气#VV)  (range, 补气#VV, 第一#OD)  (nsubj, 补血#VV, 三七#CD)  (conj, 补气#VV, 补血#VV)  (range, 补血#VV, 第一#OD)   (root, ROOT#null, null#null)
+            (loc, 是#VC, 一直#AD)  (case, 一直#AD, 以来#LC)  (nsubj, 是#VC, 三七#CD)  (advmod, 是#VC, 都#AD)  (conj, 味#VV, 是#VC)  (dep, 是#VC, 一#CD)  (root, ROOT#null, 味#VV)  (advmod, 好#VA, 非常#AD)  (relcl, 中药材#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (dobj, 味#VV, 中药材#NN)   (amod, 外伤#NN, 一般#JJ)  (loc, 建议#VV, 外伤#NN)  (case, 外伤#NN, 时#LC)  (nsubj, 建议#VV, 医生#NN)  (mmod, 建议#VV, 会#VV)  (root, ROOT#null, 建议#VV)  (ccomp, 建议#VV, 吃#VV)  (nn, 煲鸡#NN, 田#NN)  (nummod, 煲鸡#NN, 七#CD)  (dobj, 吃#VV, 煲鸡#NN)  (nn, 效果#NN, 疗伤#NN)  (nsubj, 显著#VA, 效果#NN)  (conj, 建议#VV, 显著#VA)   (root, ROOT#null, null#null)
+            (assmod, 功用#NN, 三七#CD)  (case, 三七#CD, 的#DEG)  (nsubj, 用#VV, 功用#NN)  (advmod, 用#VV, 原来#AD)  (mmod, 用#VV, 可#VV)  (root, ROOT#null, 用#VV)  (nn, 散瘀#NN, ``#NN)  (conj, 散瘀#NN, 止血#NN)  (dobj, 用#VV, 散瘀#NN)  (dep, 用#VV, 定#VV)  (dobj, 定#VV, 痛#NN)  (conj, 定#VV, ''#VV)  (nummod, 个#M, 六#CD)  (clf, 字#NN, 个#M)  (dobj, ''#VV, 字#NN)  (prtmod, 概括#VV, 来#MSP)  (dep, 定#VV, 概括#VV)  (advmod, 是#VC, 所以#AD)  (advmod, 是#VC, 历来#AD)  (advmod, 是#VC, 都#AD)  (conj, 用#VV, 是#VC)  (case, 三七#CD, 以#P)  (prep, 是#VC, 三七#CD)  (case, 药#NN, 作为#P)  (nn, 药#NN, 伤#NN)  (nn, 药#NN, 科#NN)  (nn, 药#NN, 金疮#NN)  (prep, 食用#VV, 药#NN)  (nsubj, 食用#VV, 很少#NN)  (case, 补品#NN, 作为#P)  (prep, 食用#VV, 补品#NN)  (dep, 用#VV, 食用#VV)   (xsubj, 适宜#VA, 三七#CD)  (nsubj, 服用#VV, 三七#CD)  (advmod, 适宜#VA, 最#AD)  (dep, 服用#VV, 适宜#VA)  (case, 搭配#NN, 与#P)  (nn, 搭配#NN, 灵芝#NN)  (prep, 服用#VV, 搭配#NN)  (root, ROOT#null, 服用#VV)  (dep, 服用#VV, 具有#VV)  (relcl, 作用#NN, 治疗#VV)  (conj, 心血管#NN, 糖尿病#NN)  (cc, 心血管#NN, 和#CC)  (nn, 疾病#NN, 心血管#NN)  (dobj, 治疗#VV, 疾病#NN)  (mark, 治疗#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            学名Panax  根茎制品  打成的粉  别名粉  文山  大肠  入肝  补气  一般外伤  建议  疗伤效果  效果显著  散瘀  止血  灵芝搭配  服用  糖尿病  心血管疾病  治疗疾病  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            疤痕疙瘩、心脑血管病、顽固性头痛、降低血脂、去寻常疣、抗癌、心脑血管病。
+        </rawdata>
+
+        <segment>
+            疤痕  疙瘩  、  心脑血管病  、  顽固性  头痛  、  降低  血脂  、  去  寻常疣  、  抗癌  、  心脑血管病  。
+        </segment>
+
+        <pos>
+            疤痕#VV  疙瘩#NR  、#PU  心脑血管病#NR  、#PU  顽固性#NR  头痛#NN  、#PU  降低#VV  血脂#NN  、#PU  去#VV  寻常疣#NR  、#PU  抗癌#NR  、#PU  心脑血管病#NR  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 疤痕#VV)  (conj, 顽固性#NR, 疙瘩#NR)  (conj, 顽固性#NR, 心脑血管病#NR)  (nn, 头痛#NN, 顽固性#NR)  (dobj, 疤痕#VV, 头痛#NN)  (conj, 疤痕#VV, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (conj, 疤痕#VV, 去#VV)  (conj, 心脑血管病#NR, 寻常疣#NR)  (conj, 心脑血管病#NR, 抗癌#NR)  (dobj, 去#VV, 心脑血管病#NR)
+        </parsing>
+
+        <tag>
+            顽固性  疙瘩  心脑血管病  疤痕头痛  降低血脂  寻常疣  抗癌  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/141812452840.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\489 三七粉.jpg
+    </picturelocalurl>
+
+</content>

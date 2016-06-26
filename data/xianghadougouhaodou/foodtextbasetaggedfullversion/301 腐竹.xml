@@ -1,0 +1,402 @@
+<content>
+
+    <id>
+        301
+    </id>
+
+    <foodname>
+        腐竹
+    </foodname>
+
+    <firstcategory>
+        豆类
+    </firstcategory>
+
+    <secondcategory>
+        豆制品
+    </secondcategory>
+
+    <alias>
+        支竹、甜竹、腐筋
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾炎患者忌食。
+        </rawdata>
+
+        <segment>
+            肾炎  患者  忌食  。
+        </segment>
+
+        <pos>
+            肾炎#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 肾炎#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 肾炎#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            肾炎  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                459
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                44.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                21.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                单不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                12.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                多不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                22.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.13
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                48.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                27.84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                284
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                553
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                26.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                16.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3.69
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                6.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                2.55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                7.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            腐竹，又称腐皮或
+        </rawdata>
+
+        <segment>
+            腐竹  ，  又  称  腐皮或
+        </segment>
+
+        <pos>
+            腐竹#NN  ，#PU  又#AD  称#VV  腐皮或#NN
+        </pos>
+
+        <parsing>
+            (dep, 称#VV, 腐竹#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (dobj, 称#VV, 腐皮或#NN)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.预防心血管疾病
+            腐竹中含有的卵磷脂可除掉附在血管壁上的胆固醇，防止血管硬化，预防心血管疾病，保护心脏。
+            2.促进生长发育
+            防止因缺钙引起的骨质疏松，促进骨骼发育，对小儿、老人的骨骼生长极为有利。
+            3.预防老年痴呆
+            腐竹具有良好的健脑作用，它能预防老年痴呆症的发生。这是因为，腐竹中谷氨酸含量很高，为其他豆类或动物性食物的2~5倍，而谷氨酸在大脑活动中起着重要作用。
+        </rawdata>
+
+        <segment>
+            预防  心  血管  疾病
+            腐竹  中含有  的  卵磷脂  可  除掉  附在  血管  壁上  的  胆固醇  ，  防止  血管  硬化  ，  预防  心  血管  疾病  ，  保护  心脏  。
+            促进  生长  发育
+            防止  因  缺钙  引起  的  骨质  疏松  ，  促进  骨骼  发育  ，  对  小儿  、  老人  的  骨骼  生长  极为  有利  。
+            预防  老年  痴呆
+            腐竹  具有  良好  的  健脑  作用  ，  它  能  预防  老年  痴呆症  的  发生  。  这  是  因为  ，  腐竹  中  谷  氨酸  含量  很  高  ，  为  其他  豆类  或  动物性  食物  的  2~5  倍  ，  而  谷氨酸  在  大脑  活动  中  起着  重要  作用  。
+        </segment>
+
+        <pos>
+            预防#VV  心#NN  血管#NN  疾病#NN
+            腐竹#NN  中含有#NN  的#DEG  卵磷脂#NN  可#VV  除掉#VV  附在#NN  血管#NN  壁上#NN  的#DEG  胆固醇#NN  ，#PU  防止#VV  血管#NN  硬化#NN  ，#PU  预防#VV  心#NN  血管#NN  疾病#NN  ，#PU  保护#VV  心脏#NN  。#PU
+            促进#VV  生长#NN  发育#NN
+            防止#VV  因#P  缺钙#NN  引起#VV  的#DEC  骨质#NN  疏松#VV  ，#PU  促进#VV  骨骼#NN  发育#NN  ，#PU  对#P  小儿#NN  、#PU  老人#NN  的#DEG  骨骼#NN  生长#NN  极为#AD  有利#VA  。#PU
+            预防#NN  老年#VV  痴呆#NN
+            腐竹#NN  具有#VV  良好#VA  的#DEC  健脑#JJ  作用#NN  ，#PU  它#PN  能#VV  预防#VV  老年#NN  痴呆症#NN  的#DEG  发生#NN    。#PU  这#PN  是#VC  因为#P  ，#PU  腐竹#NR  中#NR  谷#NN  氨酸#NN  含量#NN  很#AD  高#VA  ，#PU  为#P  其他#DT  豆类#NN  或#CC  动物性#NN  食物#VV  的#DEC  2#CD  ~#NN  5#CD  倍#M  ，#PU  而#CC  谷氨酸#NN  在#P  大脑#NN  活动#NN  中#LC  起着#VV  重要#JJ  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (nn, 中含有#NN, 腐竹#NN)  (assmod, 卵磷脂#NN, 中含有#NN)  (case, 中含有#NN, 的#DEG)  (nsubj, 除掉#VV, 卵磷脂#NN)  (mmod, 除掉#VV, 可#VV)  (root, ROOT#null, 除掉#VV)  (nn, 壁上#NN, 附在#NN)  (nn, 壁上#NN, 血管#NN)  (assmod, 胆固醇#NN, 壁上#NN)  (case, 壁上#NN, 的#DEG)  (dobj, 除掉#VV, 胆固醇#NN)  (conj, 除掉#VV, 防止#VV)  (nn, 硬化#NN, 血管#NN)  (dobj, 防止#VV, 硬化#NN)  (conj, 除掉#VV, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (conj, 除掉#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)
+            (relcl, 骨质#NN, 防止#VV)  (case, 缺钙#NN, 因#P)  (prep, 引起#VV, 缺钙#NN)  (ccomp, 防止#VV, 引起#VV)  (mark, 防止#VV, 的#DEC)  (nsubj, 疏松#VV, 骨质#NN)  (root, ROOT#null, 疏松#VV)  (ccomp, 疏松#VV, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)  (case, 老人#NN, 对#P)  (conj, 老人#NN, 小儿#NN)  (assmod, 生长#NN, 老人#NN)  (case, 老人#NN, 的#DEG)  (nn, 生长#NN, 骨骼#NN)  (nsubj, 有利#VA, 生长#NN)  (advmod, 有利#VA, 极为#AD)  (conj, 疏松#VV, 有利#VA)
+            (nsubj, 老年#VV, 预防#NN)  (root, ROOT#null, 老年#VV)  (dobj, 老年#VV, 痴呆#NN)
+            (nsubj, 具有#VV, 腐竹#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 健脑#JJ)  (dobj, 具有#VV, 作用#NN)  (nsubj, 预防#VV, 它#PN)  (mmod, 预防#VV, 能#VV)  (conj, 具有#VV, 预防#VV)  (nn, 痴呆症#NN, 老年#NN)  (assmod, 发生#NN, 痴呆症#NN)  (case, 痴呆症#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)   (nsubj, 是#VC, 这#PN)  (root, ROOT#null, 是#VC)  (case, 高#VA, 因为#P)  (nn, 中#NR, 腐竹#NR)  (nn, 氨酸#NN, 中#NR)  (nn, 氨酸#NN, 谷#NN)  (nn, 含量#NN, 氨酸#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (prep, 是#VC, 高#VA)  (case, 动物性#NN, 为#P)  (det, 动物性#NN, 其他#DT)  (conj, 动物性#NN, 豆类#NN)  (cc, 动物性#NN, 或#CC)  (prep, 食物#VV, 动物性#NN)  (relcl, ~#NN, 食物#VV)  (mark, 食物#VV, 的#DEC)  (nummod, ~#NN, 2#CD)  (nummod, 倍#M, 5#CD)  (conj, 高#VA, 倍#M)  (cc, 是#VC, 而#CC)  (nsubj, 起着#VV, 谷氨酸#NN)  (case, 活动#NN, 在#P)  (nn, 活动#NN, 大脑#NN)  (prep, 起着#VV, 活动#NN)  (case, 活动#NN, 中#LC)  (conj, 是#VC, 起着#VV)  (amod, 作用#NN, 重要#JJ)  (dobj, 起着#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            血管疾病  预防疾病  卵磷脂  中含有  附在壁上  血管壁上  除掉胆固醇  血管硬化  防止硬化  保护心脏  生长发育  促进发育  防止骨质  疏松  骨骼发育  老人  小儿  骨骼生长  生长有利  老年痴呆  老年痴呆症  动物性  豆类  食物~  大脑活动  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        降血脂  壮骨  改善贫血
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.腐竹中含有丰富蛋白质，营养价值较高。
+            2.腐竹中谷氨酸含量较高，具有良好的健脑作用，能预防老年痴呆症的发生。
+            3.腐竹中含有的磷脂还能降低血液中胆固醇的含量，达到防治高脂血症、动脉硬化的效果。
+            4.腐竹中的大豆皂苷有抗炎、抗溃疡等作用。
+            5.腐竹含有多种矿物，补充钙质，防止因缺钙导致的骨质疏松，增进骨骼发育浓缩了黄豆中的精华，是豆制品中的营养冠军。
+        </rawdata>
+
+        <segment>
+            腐竹  中  含有  丰富  蛋白质  ，  营养  价值  较  高  。
+            腐竹  中  谷  氨酸  含量  较  高  ，  具有  良好  的  健脑  作用  ，  能  预防  老年  痴呆症  的  发生  。
+            腐竹  中含有  的  磷脂  还  能  降低  血液  中  胆固醇  的  含量  ，  达到  防治  高  脂血症  、  动脉  硬化  的  效果  。
+            腐竹  中的  大豆  皂苷  有  抗炎  、  抗  溃疡  等  作用  。
+            腐竹  含有  多  种  矿物  ，  补充  钙质  ，  防止  因  缺钙  导致  的  骨质  疏松  ，  增进  骨骼  发育  浓缩  了  黄豆  中的  精华  ，  是  豆制品  中  的  营养  冠军  。
+        </segment>
+
+        <pos>
+            腐竹#NN  中#LC  含有#AD  丰富#VA  蛋白质#VA  ，#PU  营养#VA  价值#NN  较#AD  高#VA  。#PU
+            腐竹#NN  中#LC  谷#NN  氨酸#NN  含量#NN  较#AD  高#VA  ，#PU  具有#VV  良好#VA  的#DEC  健脑#JJ  作用#NN  ，#PU  能#VV  预防#VV  老年#NN  痴呆症#NN  的#DEC  发生#NN  。#PU
+            腐竹#NN  中含有#NN  的#DEG  磷脂#NN  还#AD  能#VV  降低#VV  血液#NN  中#LC  胆固醇#NN  的#DEG  含量#NN  ，#PU  达到#VV  防治#VV  高#JJ  脂血症#NN  、#PU  动脉#NN  硬化#NN  的#DEC  效果#NN  。#PU
+            腐竹#NN  中的#NN  大豆#NN  皂苷#AD  有#VE  抗炎#NN  、#PU  抗#NN  溃疡#NN  等#ETC  作用#NN  。#PU
+            腐竹#NN  含有#VV  多#CD  种#M  矿物#NN  ，#PU  补充#VV  钙质#NN  ，#PU  防止#VV  因#P  缺钙#VV  导致#VV  的#DEC  骨质#NN  疏松#NN  ，#PU  增进#VV  骨骼#NN  发育#NN  浓缩#VV  了#AS  黄豆#NN  中的#NN  精华#NN  ，#PU  是#VC  豆制品#NN  中#LC  的#DEG  营养#VA  冠军#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 丰富#VA, 腐竹#NN)  (case, 腐竹#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (root, ROOT#null, 丰富#VA)  (comod, 丰富#VA, 蛋白质#VA)  (ccomp, 丰富#VA, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 较#AD)  (conj, 丰富#VA, 高#VA)
+            (loc, 高#VA, 腐竹#NN)  (case, 腐竹#NN, 中#LC)  (nn, 含量#NN, 谷#NN)  (nn, 含量#NN, 氨酸#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 具有#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 健脑#JJ)  (dobj, 具有#VV, 作用#NN)  (conj, 具有#VV, 能#VV)  (relcl, 发生#NN, 预防#VV)  (nn, 痴呆症#NN, 老年#NN)  (dobj, 预防#VV, 痴呆症#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 能#VV, 发生#NN)
+            (nn, 中含有#NN, 腐竹#NN)  (assmod, 磷脂#NN, 中含有#NN)  (case, 中含有#NN, 的#DEG)  (nsubj, 降低#VV, 磷脂#NN)  (advmod, 降低#VV, 还#AD)  (mmod, 降低#VV, 能#VV)  (root, ROOT#null, 降低#VV)  (dep, 胆固醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (assmod, 含量#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 降低#VV, 含量#NN)  (dep, 降低#VV, 达到#VV)  (relcl, 效果#NN, 防治#VV)  (amod, 脂血症#NN, 高#JJ)  (conj, 硬化#NN, 脂血症#NN)  (nn, 硬化#NN, 动脉#NN)  (dobj, 防治#VV, 硬化#NN)  (mark, 防治#VV, 的#DEC)  (dobj, 达到#VV, 效果#NN)
+            (nn, 大豆#NN, 腐竹#NN)  (nn, 大豆#NN, 中的#NN)  (nsubj, 有#VE, 大豆#NN)  (advmod, 有#VE, 皂苷#AD)  (root, ROOT#null, 有#VE)  (conj, 溃疡#NN, 抗炎#NN)  (nn, 溃疡#NN, 抗#NN)  (nn, 作用#NN, 溃疡#NN)  (etc, 溃疡#NN, 等#ETC)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 含有#VV, 腐竹#NN)  (xsubj, 浓缩#VV, 腐竹#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 矿物#NN, 种#M)  (dobj, 含有#VV, 矿物#NN)  (conj, 含有#VV, 补充#VV)  (dobj, 补充#VV, 钙质#NN)  (conj, 含有#VV, 防止#VV)  (case, 缺钙#VV, 因#P)  (prep, 浓缩#VV, 缺钙#VV)  (relcl, 疏松#NN, 导致#VV)  (mark, 导致#VV, 的#DEC)  (nn, 疏松#NN, 骨质#NN)  (dobj, 缺钙#VV, 疏松#NN)  (conj, 缺钙#VV, 增进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 增进#VV, 发育#NN)  (ccomp, 防止#VV, 浓缩#VV)  (asp, 浓缩#VV, 了#AS)  (nn, 精华#NN, 黄豆#NN)  (nn, 精华#NN, 中的#NN)  (dobj, 浓缩#VV, 精华#NN)  (cop, 冠军#NN, 是#VC)  (assmod, 冠军#NN, 豆制品#NN)  (case, 豆制品#NN, 中#LC)  (case, 豆制品#NN, 的#DEG)  (nfincl, 冠军#NN, 营养#VA)  (conj, 含有#VV, 冠军#NN)
+        </parsing>
+
+        <tag>
+            蛋白质丰富  丰富营养  老年痴呆症  预防痴呆症  中含有  降低  防治效果  高脂血症  动脉硬化  防治硬化  达到效果  中的大豆  溃疡  抗炎  含有矿物  补充钙质  导致疏松  骨质疏松  缺钙疏松  骨骼发育  增进发育  黄豆精华  中的精华  浓缩精华  豆制品  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.腐竹适宜于烧、拌成做配料。
+            2.腐竹须用凉水泡发，这样可使腐竹整洁美观，如用热水泡，则腐竹易碎。
+            3.用清水浸泡(夏凉冬温)3～5小时即可发开。可荤、素、烧、炒、凉拌、汤食等，食之清香爽口，荤、素食别有风味。
+        </rawdata>
+
+        <segment>
+            腐竹  适宜于  烧  、  拌成  做  配料  。
+            腐竹  须用  凉水  泡  发  ，  这样  可使  腐竹  整洁  美观  ，  如用  热水  泡  ，  则  腐竹  易碎  。
+            用  清水  浸泡  (  夏  凉  冬温  )  3  ～  5  小时  即  可  发开  。  可荤  、  素  、  烧  、  炒  、  凉拌  、  汤  食  等  ，  食  之  清香  爽口  ，  荤  、  素食  别  有  风味  。
+        </segment>
+
+        <pos>
+            腐竹#NR  适宜于#NN  烧#NN  、#PU  拌成#NN  做#VV  配料#NN  。#PU
+            腐竹#NN  须用#NN  凉水#NN  泡#AD  发#VV  ，#PU  这样#AD  可使#VV  腐竹#NN  整洁#NN  美观#NN  ，#PU  如用#VV  热水#NN  泡#NN  ，#PU  则#AD  腐竹#VV  易碎#NN  。#PU
+            用#P  清水#NN  浸泡#NN  -LRB-#NN  夏#NN  凉#NN  冬温#NN  -RRB-#VV  3#CD  ～#NN  5#CD  小时#NN  即#AD  可#VV  发开#VV    。#PU  可荤#AD  、#PU  素#AD  、#PU  烧#AD  、#PU  炒#AD  、#PU  凉拌#AD  、#PU  汤#AD  食#NN  等#VV  ，#PU  食#NN  之#DEG  清香#NN  爽口#VV  ，#PU  荤#NR  、#PU  素食#NR  别#DT  有#VE  风味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 拌成#NN, 腐竹#NR)  (nn, 拌成#NN, 适宜于#NN)  (conj, 拌成#NN, 烧#NN)  (nsubj, 做#VV, 拌成#NN)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 配料#NN)
+            (nn, 凉水#NN, 腐竹#NN)  (nn, 凉水#NN, 须用#NN)  (nsubj, 发#VV, 凉水#NN)  (advmod, 发#VV, 泡#AD)  (root, ROOT#null, 发#VV)  (advmod, 可使#VV, 这样#AD)  (conj, 发#VV, 可使#VV)  (nn, 美观#NN, 腐竹#NN)  (nn, 美观#NN, 整洁#NN)  (dobj, 可使#VV, 美观#NN)  (dep, 发#VV, 如用#VV)  (nn, 泡#NN, 热水#NN)  (dobj, 如用#VV, 泡#NN)  (advmod, 腐竹#VV, 则#AD)  (conj, 发#VV, 腐竹#VV)  (dobj, 腐竹#VV, 易碎#NN)
+            (case, 冬温#NN, 用#P)  (nn, 冬温#NN, 清水#NN)  (nn, 冬温#NN, 浸泡#NN)  (nn, 冬温#NN, 夏#NN)  (nn, 冬温#NN, 凉#NN)  (prep, -RRB-#VV, 冬温#NN)  (nummod, ～#NN, 3#CD)  (nummod, 小时#NN, 5#CD)  (nsubj, 发开#VV, 小时#NN)  (advmod, 发开#VV, 即#AD)  (dep, 发开#VV, 可#VV)  (root, ROOT#null, 发开#VV)   (advmod, 等#VV, 可荤#AD)  (conj, 可荤#AD, 素#AD)  (conj, 可荤#AD, 烧#AD)  (conj, 可荤#AD, 炒#AD)  (conj, 可荤#AD, 凉拌#AD)  (conj, 可荤#AD, 汤#AD)  (prep, 等#VV, 食#NN)  (root, ROOT#null, 等#VV)  (assmod, 清香#NN, 食#NN)  (case, 食#NN, 之#DEG)  (nsubj, 爽口#VV, 清香#NN)  (ccomp, 等#VV, 爽口#VV)  (conj, 素食#NR, 荤#NR)  (nsubj, 有#VE, 素食#NR)  (dep, 有#VE, 别#DT)  (ccomp, 爽口#VV, 有#VE)  (dobj, 有#VE, 风味#NN)
+        </parsing>
+
+        <tag>
+            适宜于拌成  须用凉水  整洁美观  可使美观  如用泡  清水冬温  浸泡冬温  发开  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081901058982.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\301 腐竹.jpg
+    </picturelocalurl>
+
+</content>

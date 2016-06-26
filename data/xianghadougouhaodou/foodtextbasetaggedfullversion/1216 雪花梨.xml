@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1216
+    </id>
+
+    <foodname>
+        雪花梨
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        快果、玉乳、果宗、蜜父、雪梨、香水梨、青梨
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            忌于鹅肉同食。与螃蟹同食伤肠胃。
+        </rawdata>
+
+        <segment>
+            忌于  鹅肉  同  食  。  与  螃蟹  同  食  伤  肠胃  。
+        </segment>
+
+        <pos>
+            忌于#NN  鹅肉#VV  同#DT  食#NN    。#PU  与#P  螃蟹#NR  同#DT  食#NN  伤#VV  肠胃#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鹅肉#VV, 忌于#NN)  (root, ROOT#null, 鹅肉#VV)  (det, 食#NN, 同#DT)  (dobj, 鹅肉#VV, 食#NN)   (case, 食#NN, 与#P)  (nn, 食#NN, 螃蟹#NR)  (det, 食#NN, 同#DT)  (prep, 伤#VV, 食#NN)  (root, ROOT#null, 伤#VV)  (dobj, 伤#VV, 肠胃#NN)
+        </parsing>
+
+        <tag>
+            忌于鹅肉同食  螃蟹同食伤肠胃  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            梨性味甘酸而平、无毒，具有生津止渴、益脾止泻、和胃降逆的功效。
+        </rawdata>
+
+        <segment>
+            梨性味甘酸而平  、  无毒  ，  具有  生津止渴  、  益脾  止泻  、  和  胃  降  逆  的  功效  。
+        </segment>
+
+        <pos>
+            梨性味甘酸而平#VV  、#PU  无毒#JJ  ，#PU  具有#VV  生津止渴#NN  、#PU  益脾#NN  止泻#NN  、#PU  和#CC  胃#NN  降#NN  逆#NN  的#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 梨性味甘酸而平#VV)  (conj, 梨性味甘酸而平#VV, 无毒#JJ)  (dep, 梨性味甘酸而平#VV, 具有#VV)  (conj, 止泻#NN, 生津止渴#NN)  (nn, 止泻#NN, 益脾#NN)  (conj, 逆#NN, 止泻#NN)  (cc, 逆#NN, 和#CC)  (nn, 逆#NN, 胃#NN)  (nn, 逆#NN, 降#NN)  (assmod, 功效#NN, 逆#NN)  (case, 逆#NN, 的#DEG)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            生津止渴  益脾止泻  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            化痰止咳,润肺,祛脂降压,护心,通便,疗头痛头晕,抑癌抗瘤
+        </rawdata>
+
+        <segment>
+            化痰  止咳  ,  润肺  ,  祛脂  降压  ,  护  心  ,  通便  ,  疗头痛  头晕  ,  抑癌  抗瘤
+        </segment>
+
+        <pos>
+            化痰#NN  止咳#NN  ,#NN  润肺#NN  ,#NN  祛脂#NN  降压#NN  ,#NN  护#NN  心#NN  ,#AD  通便#VV  ,#NN  疗头痛#NN  头晕#NN  ,#NN  抑癌#NN  抗瘤#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 化痰#NN)  (nn, ,#NN, 止咳#NN)  (nn, ,#NN, 润肺#NN)  (nn, ,#NN, 祛脂#NN)  (nn, ,#NN, 降压#NN)  (nn, 心#NN, 护#NN)  (nsubj, 通便#VV, 心#NN)  (root, ROOT#null, 通便#VV)  (nn, 抗瘤#NN, 疗头痛#NN)  (nn, 抗瘤#NN, 头晕#NN)  (nn, 抗瘤#NN, 抑癌#NN)  (dobj, 通便#VV, 抗瘤#NN)
+        </parsing>
+
+        <tag>
+            疗头痛抗瘤  头晕抗瘤  抑癌抗瘤  通便抗瘤  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清咽润喉  护肝  通便  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            梨可清喉降火，播音、演唱人员经常食用煮好的熟梨，能增加口中的津液，起到保养嗓子的作用。
+        </rawdata>
+
+        <segment>
+            梨可清喉  降火  ，  播音  、  演唱  人员  经常  食用  煮好  的  熟梨  ，  能  增加  口中  的  津液  ，  起到  保养  嗓子  的  作用  。
+        </segment>
+
+        <pos>
+            梨可清喉#NR  降火#VV  ，#PU  播音#VV  、#PU  演唱#VV  人员#NN  经常#AD  食用#VV  煮好#NN  的#DEC  熟梨#NN  ，#PU  能#VV  增加#VV  口中#NN  的#DEG  津液#NN  ，#PU  起到#VV  保养#NN  嗓子#NN  的#DEG  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 降火#VV, 梨可清喉#NR)  (xsubj, 播音#VV, 梨可清喉#NR)  (root, ROOT#null, 降火#VV)  (ccomp, 降火#VV, 播音#VV)  (conj, 播音#VV, 演唱#VV)  (nsubj, 食用#VV, 人员#NN)  (advmod, 食用#VV, 经常#AD)  (relcl, 熟梨#NN, 食用#VV)  (dobj, 食用#VV, 煮好#NN)  (mark, 食用#VV, 的#DEC)  (dobj, 演唱#VV, 熟梨#NN)  (mmod, 增加#VV, 能#VV)  (conj, 播音#VV, 增加#VV)  (assmod, 津液#NN, 口中#NN)  (case, 口中#NN, 的#DEG)  (dobj, 增加#VV, 津液#NN)  (conj, 播音#VV, 起到#VV)  (nn, 嗓子#NN, 保养#NN)  (assmod, 作用#NN, 嗓子#NN)  (case, 嗓子#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            降火  食用熟梨  食用煮好  演唱熟梨  增加津液  保养嗓子  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/c2/51/20930_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1216 雪花梨.jpg
+    </picturelocalurl>
+
+</content>

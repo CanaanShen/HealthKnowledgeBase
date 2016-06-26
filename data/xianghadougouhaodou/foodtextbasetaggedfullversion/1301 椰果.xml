@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        1301
+    </id>
+
+    <foodname>
+        椰果
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        椰子凝胶
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脂肪量不高，但作为孕妇，吃东西该搭配合理要多样化，多吃新鲜的蔬菜水果
+        </rawdata>
+
+        <segment>
+            脂肪  量  不  高  ，  但  作为  孕妇  ，  吃  东西  该  搭配  合理  要  多样化  ，  多  吃  新鲜  的  蔬菜  水果
+        </segment>
+
+        <pos>
+            脂肪#NN  量#NN  不#AD  高#VA  ，#PU  但#AD  作为#P  孕妇#NN  ，#PU  吃#VV  东西#NN  该#DT  搭配#NN  合理#AD  要#AD  多样化#VA  ，#PU  多#AD  吃#VV  新鲜#VA  的#DEC  蔬菜#NN  水果#NN
+        </pos>
+
+        <parsing>
+            (nn, 量#NN, 脂肪#NN)  (nsubj, 高#VA, 量#NN)  (neg, 高#VA, 不#AD)  (root, ROOT#null, 高#VA)  (advmod, 吃#VV, 但#AD)  (case, 孕妇#NN, 作为#P)  (prep, 吃#VV, 孕妇#NN)  (conj, 高#VA, 吃#VV)  (dobj, 吃#VV, 东西#NN)  (det, 搭配#NN, 该#DT)  (nsubj, 多样化#VA, 搭配#NN)  (advmod, 多样化#VA, 合理#AD)  (advmod, 多样化#VA, 要#AD)  (dep, 高#VA, 多样化#VA)  (advmod, 吃#VV, 多#AD)  (dep, 多样化#VA, 吃#VV)  (relcl, 水果#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nn, 水果#NN, 蔬菜#NN)  (dobj, 吃#VV, 水果#NN)
+        </parsing>
+
+        <tag>
+            脂肪量不高  孕妇  吃东西该搭配合理要多样化  多吃新鲜  蔬菜水果  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质，气郁体质，湿热体质，痰湿体质，阳虚体质，阴虚体质，瘀血体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  ，  气郁  体质  ，  湿热  体质  ，  痰湿  体质  ，  阳虚  体质  ，  阴虚  体质  ，  瘀血  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  ，#PU  气郁#VV  体质#NN  ，#PU  湿热#VV  体质#NN  ，#PU  痰湿#VV  体质#NN  ，#PU  阳虚#VV  体质#NN  ，#PU  阴虚#VV  体质#NN  ，#PU  瘀血#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)  (conj, 适宜#VV, 气郁#VV)  (dobj, 气郁#VV, 体质#NN)  (conj, 适宜#VV, 湿热#VV)  (dobj, 湿热#VV, 体质#NN)  (conj, 适宜#VV, 痰湿#VV)  (dobj, 痰湿#VV, 体质#NN)  (conj, 适宜#VV, 阳虚#VV)  (dobj, 阳虚#VV, 体质#NN)  (conj, 适宜#VV, 阴虚#VV)  (dobj, 阴虚#VV, 体质#NN)  (conj, 适宜#VV, 瘀血#VV)  (dobj, 瘀血#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  气郁体质  湿热体质  痰湿体质  阳虚体质  阴虚体质  瘀血体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            椰果又称椰子凝胶，椰果属于微生物的发酵产物，系acetobacterxylinium（木质醋酸菌）在液态培养基中生长所形成的代谢产物。培养基可采用椰汁但工业化量产因成本因素已不采用。此多醣类经分离纯化后可加工后成为市售椰果主要添加物成份。市售椰果乃另添加甜味剂、香料、色素等成份可加工制成。椰果未添加色素之原色通常为白色或乳白色，口感爽脆，是不少甜品的材料之一。
+        </rawdata>
+
+        <segment>
+            椰果  又  称  椰子  凝胶  ，  椰果  属于  微生物  的  发酵  产物  ，  系  acetobacterxylinium  （  木质  醋  酸菌  ）  在  液态  培养  基  中  生长  所  形成  的  代谢  产物  。  培养  基  可  采用  椰汁  但  工业化  量产  因  成本  因素  已  不  采用  。  此  多  醣类  经  分离  纯化  后  可  加工  后  成为  市售  椰果  主要  添加物  成份  。  市售  椰果  乃  另  添加  甜味剂  、  香料  、  色素  等  成份  可加工  制成  。  椰果  未  添加  色素  之  原色  通常  为  白色  或  乳白色  ，  口感  爽脆  ，  是  不少  甜品  的  材料  之一  。
+        </segment>
+
+        <pos>
+            椰果#NR  又#AD  称#VV  椰子#VV  凝胶#NN  ，#PU  椰果#VV  属于#VV  微生物#NN  的#DEC  发酵#NN  产物#NN  ，#PU  系#VC  acetobacterxylinium#NN  （#PU  木质#NR  醋#NN  酸菌#NN  ）#PU  在#P  液态#AD  培养#VV  基#NN  中#LC  生长#NN  所#MSP  形成#VV  的#DEC  代谢#NN  产物#NN    。#PU  培养#VV  基#NN  可#VV  采用#VV  椰汁#NN  但#AD  工业化#NN  量产#NN  因#P  成本#NN  因素#NN  已#AD  不#AD  采用#VV    。#PU  此#DT  多#CD  醣类#NN  经#P  分离#VV  纯化#NN  后#LC  可#VV  加工#NN  后#LC  成为#VV  市售#NN  椰果#NN  主要#JJ  添加物#NN  成份#NN    。#PU  市售#NN  椰果#NN  乃#NN  另#AD  添加#VV  甜味剂#NR  、#PU  香料#NR  、#PU  色素#NR  等#ETC  成份#NN  可加工#NN  制成#VV    。#PU  椰果#NN  未#AD  添加#VV  色素#NN  之#DEC  原色#NN  通常#AD  为#VC  白色#JJ  或#CC  乳白色#VV  ，#PU  口感#NN  爽脆#NN  ，#PU  是#VC  不少#CD  甜品#NN  的#DEC  材料#NN  之一#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 称#VV, 椰果#NR)  (xsubj, 椰子#VV, 椰果#NR)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, 椰子#VV)  (dobj, 椰子#VV, 凝胶#NN)  (conj, 椰子#VV, 椰果#VV)  (relcl, 产物#NN, 属于#VV)  (dobj, 属于#VV, 微生物#NN)  (mark, 属于#VV, 的#DEC)  (nn, 产物#NN, 发酵#NN)  (dobj, 椰果#VV, 产物#NN)  (cop, 产物#NN, 系#VC)  (nsubj, 形成#VV, acetobacterxylinium#NN)  (nn, 酸菌#NN, 木质#NR)  (nn, 酸菌#NN, 醋#NN)  (prnmod, acetobacterxylinium#NN, 酸菌#NN)  (case, 培养#VV, 在#P)  (advmod, 培养#VV, 液态#AD)  (prep, 形成#VV, 培养#VV)  (dobj, 培养#VV, 基#NN)  (case, 培养#VV, 中#LC)  (nsubj, 形成#VV, 生长#NN)  (prtmod, 形成#VV, 所#MSP)  (relcl, 产物#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (nn, 产物#NN, 代谢#NN)  (conj, 椰子#VV, 产物#NN)   (dep, 采用#VV, 培养#VV)  (dobj, 培养#VV, 基#NN)  (mmod, 采用#VV, 可#VV)  (root, ROOT#null, 采用#VV)  (dobj, 采用#VV, 椰汁#NN)  (advmod, 采用#VV, 但#AD)  (nn, 量产#NN, 工业化#NN)  (nsubj, 采用#VV, 量产#NN)  (case, 因素#NN, 因#P)  (nn, 因素#NN, 成本#NN)  (prep, 采用#VV, 因素#NN)  (advmod, 采用#VV, 已#AD)  (neg, 采用#VV, 不#AD)  (dep, 采用#VV, 采用#VV)   (det, 醣类#NN, 此#DT)  (dep, 此#DT, 多#CD)  (nsubj, 成为#VV, 醣类#NN)  (case, 分离#VV, 经#P)  (loc, 成为#VV, 分离#VV)  (dobj, 分离#VV, 纯化#NN)  (case, 分离#VV, 后#LC)  (loc, 成为#VV, 可#VV)  (dobj, 可#VV, 加工#NN)  (case, 可#VV, 后#LC)  (root, ROOT#null, 成为#VV)  (nn, 椰果#NN, 市售#NN)  (nn, 成份#NN, 椰果#NN)  (amod, 成份#NN, 主要#JJ)  (nn, 成份#NN, 添加物#NN)  (dobj, 成为#VV, 成份#NN)   (nn, 乃#NN, 市售#NN)  (nn, 乃#NN, 椰果#NN)  (nsubj, 添加#VV, 乃#NN)  (advmod, 添加#VV, 另#AD)  (root, ROOT#null, 添加#VV)  (conj, 色素#NR, 甜味剂#NR)  (conj, 色素#NR, 香料#NR)  (nn, 可加工#NN, 色素#NR)  (etc, 色素#NR, 等#ETC)  (nn, 可加工#NN, 成份#NN)  (dobj, 添加#VV, 可加工#NN)  (conj, 添加#VV, 制成#VV)   (nsubj, 添加#VV, 椰果#NN)  (advmod, 添加#VV, 未#AD)  (relcl, 原色#NN, 添加#VV)  (dobj, 添加#VV, 色素#NN)  (mark, 添加#VV, 之#DEC)  (nsubj, 之一#NN, 原色#NN)  (advmod, 之一#NN, 通常#AD)  (cop, 之一#NN, 为#VC)  (dep, 之一#NN, 白色#JJ)  (cc, 白色#JJ, 或#CC)  (relcl, 材料#NN, 乳白色#VV)  (nn, 爽脆#NN, 口感#NN)  (dep, 甜品#NN, 爽脆#NN)  (cop, 甜品#NN, 是#VC)  (nummod, 甜品#NN, 不少#CD)  (ccomp, 乳白色#VV, 甜品#NN)  (mark, 乳白色#VV, 的#DEC)  (dep, 白色#JJ, 材料#NN)  (root, ROOT#null, 之一#NN)
+        </parsing>
+
+        <tag>
+            椰子凝胶  属于产物  属于微生物  发酵产物  培养基  形成产物  代谢产物  采用椰汁  工业化量产  成本因素  分离纯化  添加物成份  成为成份  甜味剂  香料  成份可加工  添加可加工  添加原色  添加色素  乳白色材料  口感爽脆  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            椰果也是很好的保健食品原料，目前已知的椰果生理调解功能包括促进肠胃蠕动、防止便秘、改善人体消化功能等。日本的研究表明，椰果具有美容、减肥的功能。菲律宾大学研究人员发现椰果具有防癌作用，经常食用能减少致癌物对染色体的破坏作用，特别有助于那些接触香烟、汽车废气等致癌物的人防癌；还可预防心脏病，使人体免疫系统免遭破坏，提供抗菌类脂化合物。同时也有研究显示，椰果作为一种生物多糖，对防止人体心血管疾病也有积极功效。
+        </rawdata>
+
+        <segment>
+            椰果  也  是  很  好  的  保健  食品  原料  ，  目前  已知  的  椰果  生理  调解  功能  包括  促进  肠胃  蠕动  、  防止  便秘  、  改善  人体  消化  功能  等  。  日本  的  研究  表明  ，  椰果  具有  美容  、  减肥  的  功能  。  菲律宾  大学  研究  人员  发现  椰果  具有  防癌  作用  ，  经常  食用  能  减少  致癌物  对  染色体  的  破坏  作用  ，  特别  有助于  那些  接触  香烟  、  汽车  废气  等  致癌物  的  人  防癌  ；  还可  预防  心脏病  ，  使  人体  免疫  系统  免遭  破坏  ，  提供  抗菌  类脂  化合物  。  同时  也  有  研究  显示  ，  椰果  作为  一  种  生物  多糖  ，  对  防止  人体  心血管  疾病  也  有  积极  功效  。
+        </segment>
+
+        <pos>
+            椰果#NN  也#AD  是#VC  很#AD  好#VA  的#DEC  保健#NN  食品#NN  原料#NN  ，#PU  目前#NT  已知#NN  的#DEG  椰果#NN  生理#NN  调解#NN  功能#NN  包括#VV  促进#VV  肠胃#NN  蠕动#NN  、#PU  防止#VV  便秘#NN  、#PU  改善#VV  人体#NN  消化#NN  功能#NN  等#ETC    。#PU  日本#NR  的#DEG  研究#NN  表明#VV  ，#PU  椰果#NN  具有#VV  美容#VV  、#PU  减肥#VV  的#DEC  功能#NN    。#PU  菲律宾#NR  大学#NN  研究#NN  人员#NN  发现#NN  椰果#AD  具有#VV  防癌#NN  作用#NN  ，#PU  经常#AD  食用#VV  能#VV  减少#VV  致癌物#CD  对#M  染色体#NN  的#DEC  破坏#NN  作用#NN  ，#PU  特别#AD  有助于#VV  那些#DT  接触#NN  香烟#NN  、#PU  汽车#NN  废气#NN  等#ETC  致癌物#NN  的#DEG  人#NN  防癌#VV  ；#PU  还可#NN  预防#NN  心脏病#NN  ，#PU  使#VV  人体#NN  免疫#NN  系统#NN  免遭#AD  破坏#VV  ，#PU  提供#VV  抗菌#NN  类脂#NN  化合物#NN    。#PU  同时#AD  也#AD  有#VE  研究#NN  显示#VV  ，#PU  椰果#NN  作为#P  一#CD  种#M  生物#NN  多糖#NN  ，#PU  对#P  防止#VV  人体#VV  心血管#NN  疾病#NN  也#AD  有#VE  积极#JJ  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 原料#NN, 椰果#NN)  (advmod, 原料#NN, 也#AD)  (cop, 原料#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, 原料#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 原料#NN, 保健#NN)  (nn, 原料#NN, 食品#NN)  (root, ROOT#null, 原料#NN)  (nn, 已知#NN, 目前#NT)  (assmod, 功能#NN, 已知#NN)  (case, 已知#NN, 的#DEG)  (nn, 功能#NN, 椰果#NN)  (nn, 功能#NN, 生理#NN)  (nn, 功能#NN, 调解#NN)  (nsubj, 包括#VV, 功能#NN)  (xsubj, 促进#VV, 功能#NN)  (conj, 原料#NN, 包括#VV)  (ccomp, 包括#VV, 促进#VV)  (nn, 蠕动#NN, 肠胃#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)  (conj, 促进#VV, 改善#VV)  (nn, 功能#NN, 人体#NN)  (nn, 功能#NN, 消化#NN)  (dobj, 改善#VV, 功能#NN)  (etc, 功能#NN, 等#ETC)   (assmod, 研究#NN, 日本#NR)  (case, 日本#NR, 的#DEG)  (nsubj, 表明#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 具有#VV, 椰果#NN)  (ccomp, 表明#VV, 具有#VV)  (relcl, 功能#NN, 美容#VV)  (dep, 美容#VV, 减肥#VV)  (mark, 美容#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)   (nn, 大学#NN, 菲律宾#NR)  (nn, 人员#NN, 大学#NN)  (nn, 人员#NN, 研究#NN)  (nn, 发现#NN, 人员#NN)  (nsubj, 具有#VV, 发现#NN)  (advmod, 具有#VV, 椰果#AD)  (root, ROOT#null, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 具有#VV, 作用#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 具有#VV, 食用#VV)  (mmod, 减少#VV, 能#VV)  (relcl, 作用#NN, 减少#VV)  (nummod, 对#M, 致癌物#CD)  (clf, 染色体#NN, 对#M)  (dobj, 减少#VV, 染色体#NN)  (mark, 减少#VV, 的#DEC)  (nn, 作用#NN, 破坏#NN)  (dobj, 食用#VV, 作用#NN)  (advmod, 有助于#VV, 特别#AD)  (conj, 具有#VV, 有助于#VV)  (det, 人#NN, 那些#DT)  (nn, 废气#NN, 接触#NN)  (conj, 废气#NN, 香烟#NN)  (nn, 废气#NN, 汽车#NN)  (nn, 致癌物#NN, 废气#NN)  (etc, 废气#NN, 等#ETC)  (assmod, 人#NN, 致癌物#NN)  (case, 致癌物#NN, 的#DEG)  (nsubj, 防癌#VV, 人#NN)  (ccomp, 有助于#VV, 防癌#VV)  (nn, 心脏病#NN, 还可#NN)  (nn, 心脏病#NN, 预防#NN)  (nsubj, 使#VV, 心脏病#NN)  (ccomp, 防癌#VV, 使#VV)  (nn, 系统#NN, 人体#NN)  (nn, 系统#NN, 免疫#NN)  (dobj, 使#VV, 系统#NN)  (advmod, 破坏#VV, 免遭#AD)  (dep, 使#VV, 破坏#VV)  (conj, 使#VV, 提供#VV)  (nn, 化合物#NN, 抗菌#NN)  (nn, 化合物#NN, 类脂#NN)  (dobj, 提供#VV, 化合物#NN)   (advmod, 有#VE, 同时#AD)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (nsubj, 显示#VV, 研究#NN)  (dep, 有#VE, 显示#VV)  (nsubj, 有#VE, 椰果#NN)  (case, 多糖#NN, 作为#P)  (nummod, 种#M, 一#CD)  (clf, 多糖#NN, 种#M)  (nn, 多糖#NN, 生物#NN)  (prep, 有#VE, 多糖#NN)  (case, 防止#VV, 对#P)  (prep, 有#VE, 防止#VV)  (ccomp, 防止#VV, 人体#VV)  (nn, 疾病#NN, 心血管#NN)  (dobj, 人体#VV, 疾病#NN)  (advmod, 有#VE, 也#AD)  (ccomp, 显示#VV, 有#VE)  (amod, 功效#NN, 积极#JJ)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            保健原料  食品原料  生理功能  调解功能  肠胃蠕动  促进蠕动  防止便秘  人体功能  消化功能  改善功能  表明  美容功能  减少染色体  接触废气  香烟  汽车废气  废气致癌物  还可心脏病  预防心脏病  人体系统  免疫系统  抗菌化合物  类脂化合物  提供化合物  生物多糖  心血管疾病  人体疾病  积极功效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/46/0d/3398_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1301 椰果.jpg
+    </picturelocalurl>
+
+</content>

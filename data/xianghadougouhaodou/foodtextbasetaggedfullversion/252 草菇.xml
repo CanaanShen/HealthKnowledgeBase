@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        252
+    </id>
+
+    <foodname>
+        草菇
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        菌菇类
+    </secondcategory>
+
+    <alias>
+        稻草菇、秆菇、麻菇、包脚菇、兰花菇
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒者不宜多食；寒性哮喘患者忌食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  者  不  宜  多  食  ；  寒性  哮喘  患者  忌食  。
+        </segment>
+
+        <pos>
+            脾胃#NN  虚寒#NN  者#NN  不#AD  宜#NR  多#VV  食#NN  ；#PU  寒性#NN  哮喘#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 者#NN, 脾胃#NN)  (nn, 者#NN, 虚寒#NN)  (nsubj, 多#VV, 者#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)  (nsubj, 哮喘#VV, 寒性#NN)  (conj, 多#VV, 哮喘#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 哮喘#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒者不宜多食  寒性哮喘  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜糖尿病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  糖尿病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  糖尿病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 患者#NN, 糖尿病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  糖尿病  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                33
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                179
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            草菇，为光柄菇科真菌草菇的子实体。起源于广东韶关的南华寺中，原本是生长在腐烂禾草上的一种野生食用菌，由南华寺僧人首先采摘食用的。300年前我国已开始人工栽培，在约在本世纪30年代由华侨传入世界各国，是一种重要的热带亚热带菇类，是世界上第三大栽培食用菌，我国草菇产量居世界之首，主要分布于华南地区。
+        </rawdata>
+
+        <segment>
+            草菇  ，  为  光柄菇科  真菌  草菇  的  子实体  。  起源于  广东  韶关  的  南华  寺  中  ，  原本  是  生长  在  腐烂  禾草  上  的  一  种  野生  食用菌  ，  由  南华  寺  僧人  首先  采摘  食用  的  。  300年  前  我国  已  开始  人工  栽培  ，  在  约在  本  世纪  30年代  由  华侨  传入  世界  各  国  ，  是  一  种  重要  的  热带  亚热带  菇类  ，  是  世界上  第三  大  栽培  食用菌  ，  我国  草菇  产量  居  世界  之首  ，  主要  分布  于  华南  地区  。
+        </segment>
+
+        <pos>
+            草菇#VV  ，#PU  为#P  光柄菇科#NN  真菌#VV  草菇#NN  的#DEG  子实体#NN    。#PU  起源于#NR  广东#NR  韶关#NN  的#DEG  南华#NN  寺#NN  中#LC  ，#PU  原本#AD  是#VC  生长#NN  在#P  腐烂#NN  禾草#NN  上#LC  的#DEG  一#CD  种#M  野生#JJ  食用菌#NN  ，#PU  由#P  南华#NN  寺#NN  僧人#NN  首先#AD  采摘#AD  食用#VV  的#DEC    。#PU  300年#NT  前#LC  我国#NR  已#AD  开始#VV  人工#AD  栽培#VV  ，#PU  在#P  约在#NR  本#DT  世纪#NN  30年代#CD  由#P  华侨#NN  传入#VV  世界#NN  各#DT  国#NN  ，#PU  是#VC  一#CD  种#M  重要#VA  的#DEC  热带#NN  亚热带#NN  菇类#NN  ，#PU  是#VC  世界上#NN  第三#OD  大#AD  栽培#VV  食用菌#NN  ，#PU  我国#NN  草菇#NN  产量#NN  居#VV  世界#NN  之首#NN  ，#PU  主要#AD  分布#VV  于#P  华南#NR  地区#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 草菇#VV)  (case, 光柄菇科#NN, 为#P)  (prep, 真菌#VV, 光柄菇科#NN)  (dep, 草菇#VV, 真菌#VV)  (assmod, 子实体#NN, 草菇#NN)  (case, 草菇#NN, 的#DEG)  (dobj, 真菌#VV, 子实体#NN)   (nn, 韶关#NN, 起源于#NR)  (nn, 韶关#NN, 广东#NR)  (assmod, 寺#NN, 韶关#NN)  (case, 韶关#NN, 的#DEG)  (nn, 寺#NN, 南华#NN)  (loc, 食用#VV, 寺#NN)  (case, 寺#NN, 中#LC)  (advmod, 食用#VV, 原本#AD)  (cop, 食用#VV, 是#VC)  (nsubj, 食用#VV, 生长#NN)  (case, 食用菌#NN, 在#P)  (nn, 禾草#NN, 腐烂#NN)  (assmod, 食用菌#NN, 禾草#NN)  (case, 禾草#NN, 上#LC)  (case, 禾草#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 食用菌#NN, 种#M)  (amod, 食用菌#NN, 野生#JJ)  (prep, 食用#VV, 食用菌#NN)  (case, 僧人#NN, 由#P)  (nn, 僧人#NN, 南华#NN)  (nn, 僧人#NN, 寺#NN)  (prep, 食用#VV, 僧人#NN)  (advmod, 食用#VV, 首先#AD)  (advmod, 食用#VV, 采摘#AD)  (root, ROOT#null, 食用#VV)  (mark, 食用#VV, 的#DEC)   (loc, 栽培#VV, 300年#NT)  (case, 300年#NT, 前#LC)  (nsubj, 栽培#VV, 我国#NR)  (advmod, 栽培#VV, 已#AD)  (mmod, 栽培#VV, 开始#VV)  (advmod, 栽培#VV, 人工#AD)  (root, ROOT#null, 栽培#VV)  (case, 世纪#NN, 在#P)  (nn, 世纪#NN, 约在#NR)  (det, 世纪#NN, 本#DT)  (prep, 传入#VV, 世纪#NN)  (dep, 传入#VV, 30年代#CD)  (case, 华侨#NN, 由#P)  (prep, 传入#VV, 华侨#NN)  (conj, 栽培#VV, 传入#VV)  (nn, 国#NN, 世界#NN)  (det, 国#NN, 各#DT)  (dobj, 传入#VV, 国#NN)  (cop, 菇类#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 菇类#NN, 种#M)  (relcl, 菇类#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 菇类#NN, 热带#NN)  (nn, 菇类#NN, 亚热带#NN)  (conj, 栽培#VV, 菇类#NN)  (cop, 世界上#NN, 是#VC)  (conj, 栽培#VV, 世界上#NN)  (nsubj, 栽培#VV, 第三#OD)  (advmod, 栽培#VV, 大#AD)  (conj, 栽培#VV, 栽培#VV)  (dobj, 栽培#VV, 食用菌#NN)  (nn, 产量#NN, 我国#NN)  (nn, 产量#NN, 草菇#NN)  (nsubj, 居#VV, 产量#NN)  (conj, 栽培#VV, 居#VV)  (nn, 之首#NN, 世界#NN)  (dobj, 居#VV, 之首#NN)  (advmod, 分布#VV, 主要#AD)  (conj, 栽培#VV, 分布#VV)  (case, 地区#NN, 于#P)  (nn, 地区#NN, 华南#NR)  (prep, 分布#VV, 地区#NN)
+        </parsing>
+
+        <tag>
+            真菌子实体  腐烂禾草  野生食用菌  南华僧人  传入国  热带菇类  亚热带菇类  栽培食用菌  我国产量  世界之首  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性寒。能补脾益气，清暑热。用于脾胃气弱，抵抗力低下，或伤口愈合缓慢；夏季暑热，心烦。现代又用于治疗高血压病和多种肿瘤。
+            1.提高人体免疫力
+            草菇的维生素C含量高，能促进人体新陈代谢，提高机体免疫力，增强抗病能力。
+            2.解毒
+            草菇具有解毒作用，如铅、砷、苯进入人体时，可与其结合，形成抗坏血
+            元，随小便排出。
+            3.抗癌
+            草菇还含有一种异种蛋白物质，有消灭人体癌细胞的作用。所含粗蛋白却超过香菇，其他营养成分与木质类食用菌也大体相当，同样具有抑制癌细胞生长的作用，特别是对消化道肿瘤有辅助治疗作用，能加强肝肾的活力。
+            4.糖尿病患者佳品
+            它能够减慢人体对碳水化合物的吸收，是糖尿病患者的良好食品。
+            5.消暑
+            适宜炎夏季节食用，草菇有一定的解暑作用。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性寒  。  能  补脾  益气  ，  清  暑热  。  用于  脾胃  气弱  ，  抵抗力  低下  ，  或  伤口  愈合  缓慢  ；  夏季  暑热  ，  心烦  。  现代  又  用于  治疗  高血压  病  和  多种  肿瘤  。
+            提高  人体  免疫力
+            草菇  的  维生素C  含量  高  ，  能  促进  人体  新陈代谢  ，  提高  机体  免疫力  ，  增强  抗病  能力  。
+            解毒
+            草菇  具有  解毒  作用  ，  如  铅  、  砷  、  苯  进入  人体  时  ，  可  与其  结合  ，  形成  抗  坏血
+            元  ，  随  小便  排出  。
+            抗癌
+            草菇  还  含有  一  种  异种  蛋白  物质  ，  有  消灭  人体  癌细胞  的  作用  。  所含  粗  蛋白  却  超过  香菇  ，  其他  营养  成  分与  木质  类  食用菌  也  大体  相当  ，  同样  具有  抑制  癌细胞  生长  的  作用  ，  特别是  对  消化道  肿瘤  有  辅助  治疗  作用  ，  能  加强  肝肾  的  活力  。
+            糖尿病  患者  佳品
+            它  能够  减慢  人体  对  碳水  化合物  的  吸收  ，  是  糖尿病  患者  的  良好  食品  。
+            消暑
+            适宜  炎夏  季节  食用  ，  草菇  有  一定  的  解暑  作用  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性寒#VV    。#PU  能#VV  补脾#VV  益气#NN  ，#PU  清#JJ  暑热#NN    。#PU  用于#VV  脾胃#NN  气弱#NN  ，#PU  抵抗力#VV  低下#NN  ，#PU  或#CC  伤口#AD  愈合#AD  缓慢#VA  ；#PU  夏季#NT  暑热#VV  ，#PU  心烦#VV    。#PU  现代#NR  又#AD  用于#VV  治疗#VV  高血压#NN  病#NN  和#CC  多种#NN  肿瘤#NN    。#PU    。#PU
+            提高#VV  人体#NN  免疫力#NN
+            草菇#NN  的#DEG  维生素C#NN  含量#NN  高#VA  ，#PU  能#VV  促进#VV  人体#NN  新陈代谢#NN  ，#PU  提高#VV  机体#NN  免疫力#NN  ，#PU  增强#VV  抗病#NN  能力#NN  。#PU
+            解毒#VV
+            草菇#AD  具有#VV  解毒#NN  作用#NN  ，#PU  如#P  铅#NN  、#PU  砷#NN  、#PU  苯#NN  进入#VV  人体#NN  时#LC  ，#PU  可#VV  与其#AD  结合#VV  ，#PU  形成#VV  抗#NN  坏血#NN
+            元#M  ，#PU  随#P  小便#NN  排出#VV  。#PU
+            抗癌#VV
+            草菇#NN  还#AD  含有#VV  一#CD  种#M  异种#NN  蛋白#NN  物质#NN  ，#PU  有#VE  消灭#NN  人体#NN  癌细胞#NN  的#DEG  作用#NN    。#PU  所含#NN  粗#NN  蛋白#NN  却#AD  超过#VV  香菇#NN  ，#PU  其他#DT  营养#VA  成#VV  分与#NR  木质#CD  类#M  食用菌#NN  也#AD  大体#AD  相当#VV  ，#PU  同样#AD  具有#VV  抑制#VV  癌细胞#NN  生长#NN  的#DEC  作用#NN  ，#PU  特别是#AD  对#P  消化道#NN  肿瘤#NN  有#VE  辅助#NN  治疗#NN  作用#NN  ，#PU  能#VV  加强#VV  肝肾#NN  的#DEC  活力#NN    。#PU    。#PU
+            糖尿病#NN  患者#NN  佳品#VV
+            它#PN  能够#VV  减慢#NN  人体#VV  对#P  碳水#NN  化合物#VV  的#DEC  吸收#VV  ，#PU  是#VC  糖尿病#NN  患者#NN  的#DEC  良好#JJ  食品#NN  。#PU
+            消暑#VV
+            适宜#VV  炎夏#NN  季节#NN  食用#VV  ，#PU  草菇#AD  有#VE  一定#JJ  的#DEG  解暑#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性寒#VV)   (mmod, 补脾#VV, 能#VV)  (root, ROOT#null, 补脾#VV)  (dobj, 补脾#VV, 益气#NN)  (amod, 暑热#NN, 清#JJ)  (dep, 补脾#VV, 暑热#NN)   (root, ROOT#null, 用于#VV)  (nn, 气弱#NN, 脾胃#NN)  (dobj, 用于#VV, 气弱#NN)  (conj, 用于#VV, 抵抗力#VV)  (dobj, 抵抗力#VV, 低下#NN)  (cc, 用于#VV, 或#CC)  (advmod, 缓慢#VA, 伤口#AD)  (advmod, 缓慢#VA, 愈合#AD)  (conj, 用于#VV, 缓慢#VA)  (tmod, 暑热#VV, 夏季#NT)  (conj, 用于#VV, 暑热#VV)  (conj, 用于#VV, 心烦#VV)   (nsubj, 用于#VV, 现代#NR)  (advmod, 用于#VV, 又#AD)  (root, ROOT#null, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (nn, 肿瘤#NN, 高血压#NN)  (conj, 肿瘤#NN, 病#NN)  (cc, 肿瘤#NN, 和#CC)  (nn, 肿瘤#NN, 多种#NN)  (dobj, 治疗#VV, 肿瘤#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)
+            (assmod, 含量#NN, 草菇#NN)  (case, 草菇#NN, 的#DEG)  (nn, 含量#NN, 维生素C#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (mmod, 促进#VV, 能#VV)  (conj, 高#VA, 促进#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 高#VA, 提高#VV)  (nn, 免疫力#NN, 机体#NN)  (dobj, 提高#VV, 免疫力#NN)  (conj, 提高#VV, 增强#VV)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)
+            (root, ROOT#null, 解毒#VV)
+            (advmod, 具有#VV, 草菇#AD)  (root, ROOT#null, 具有#VV)  (nn, 作用#NN, 解毒#NN)  (dobj, 具有#VV, 作用#NN)  (case, 进入#VV, 如#P)  (conj, 苯#NN, 铅#NN)  (conj, 苯#NN, 砷#NN)  (nsubj, 进入#VV, 苯#NN)  (prep, 结合#VV, 进入#VV)  (dobj, 进入#VV, 人体#NN)  (case, 进入#VV, 时#LC)  (mmod, 结合#VV, 可#VV)  (advmod, 结合#VV, 与其#AD)  (conj, 具有#VV, 结合#VV)  (dep, 具有#VV, 形成#VV)  (nn, 坏血#NN, 抗#NN)  (dobj, 形成#VV, 坏血#NN)
+            (root, ROOT#null, 元#M)  (case, 小便#NN, 随#P)  (prep, 排出#VV, 小便#NN)  (conj, 元#M, 排出#VV)
+            (root, ROOT#null, 抗癌#VV)
+            (nsubj, 含有#VV, 草菇#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (nn, 物质#NN, 异种#NN)  (nn, 物质#NN, 蛋白#NN)  (dobj, 含有#VV, 物质#NN)  (conj, 含有#VV, 有#VE)  (nn, 癌细胞#NN, 消灭#NN)  (nn, 癌细胞#NN, 人体#NN)  (assmod, 作用#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)   (nn, 蛋白#NN, 所含#NN)  (nn, 蛋白#NN, 粗#NN)  (nsubj, 超过#VV, 蛋白#NN)  (advmod, 超过#VV, 却#AD)  (root, ROOT#null, 超过#VV)  (dobj, 超过#VV, 香菇#NN)  (det, 活力#NN, 其他#DT)  (relcl, 活力#NN, 营养#VA)  (dep, 营养#VA, 成#VV)  (nn, 食用菌#NN, 分与#NR)  (nummod, 类#M, 木质#CD)  (clf, 食用菌#NN, 类#M)  (dobj, 成#VV, 食用菌#NN)  (advmod, 相当#VV, 也#AD)  (advmod, 相当#VV, 大体#AD)  (dep, 营养#VA, 相当#VV)  (advmod, 具有#VV, 同样#AD)  (dep, 营养#VA, 具有#VV)  (relcl, 作用#NN, 抑制#VV)  (nn, 生长#NN, 癌细胞#NN)  (dobj, 抑制#VV, 生长#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)  (prep, 有#VE, 特别是#AD)  (case, 肿瘤#NN, 对#P)  (nn, 肿瘤#NN, 消化道#NN)  (dep, 特别是#AD, 肿瘤#NN)  (dep, 营养#VA, 有#VE)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 加强#VV, 能#VV)  (dep, 营养#VA, 加强#VV)  (dobj, 加强#VV, 肝肾#NN)  (mark, 营养#VA, 的#DEC)  (conj, 超过#VV, 活力#NN)   (root, ROOT#null, null#null)
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, 佳品#VV, 患者#NN)  (root, ROOT#null, 佳品#VV)
+            (nsubj, 人体#VV, 它#PN)  (conj, 人体#VV, 能够#VV)  (dobj, 能够#VV, 减慢#NN)  (root, ROOT#null, 人体#VV)  (case, 碳水#NN, 对#P)  (prep, 化合物#VV, 碳水#NN)  (relcl, 食品#NN, 化合物#VV)  (mark, 化合物#VV, 的#DEC)  (relcl, 食品#NN, 吸收#VV)  (cop, 患者#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (ccomp, 吸收#VV, 患者#NN)  (mark, 吸收#VV, 的#DEC)  (amod, 食品#NN, 良好#JJ)  (dobj, 人体#VV, 食品#NN)
+            (root, ROOT#null, 消暑#VV)
+            (dep, 有#VE, 适宜#VV)  (nn, 季节#NN, 炎夏#NN)  (dobj, 适宜#VV, 季节#NN)  (conj, 适宜#VV, 食用#VV)  (advmod, 有#VE, 草菇#AD)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 解暑#JJ)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            味甘  补脾益气  清暑热  脾胃气弱  用于气弱  抵抗力低下  高血压肿瘤  多种肿瘤  治疗肿瘤  人体免疫力  提高免疫力  人体新陈代谢  促进新陈代谢  机体免疫力  抗病能力  增强能力  解毒  进入人体  形成坏血  抗癌  含有  消灭癌细胞  人体癌细胞  所含蛋白  超过香菇  活力营养  癌细胞生长  抑制生长  消化道肿瘤  加强肝肾  糖尿病患者  佳品  能够减慢  化合物食品  吸收食品  良好食品  人体食品  消暑  炎夏季节  适宜季节  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含蛋白质、脂肪、维生素C、对氨基苯甲酸、D-甘露醇、D-山梨醇和天门冬氨酸、丝氨酸、麸氨酸、丙氨酸、苏氨酸、赖氨酸、酪氨酸、精氨酸、缬氨酸等多种氨基酸。尚含一种有抗癌作用的异蛋白物质。
+        </rawdata>
+
+        <segment>
+            含  蛋白质  、  脂肪  、  维生素C  、  对  氨基苯  甲  酸  、  D  -  甘露醇  、  D-山梨  醇和  天门冬  氨酸  、  丝氨酸  、  麸氨酸  、  丙氨酸  、  苏氨酸  、  赖氨酸  、  酪氨酸  、  精氨酸  、  缬氨酸  等  多  种  氨基酸  。  尚  含  一  种  有  抗癌  作用  的  异  蛋白  物质  。
+        </segment>
+
+        <pos>
+            含#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  维生素C#NR  、#PU  对#P  氨基苯#NN  甲#CD  酸#NN  、#PU  D#NN  -#NN  甘露醇#NN  、#PU  D-山梨#NR  醇和#NR  天门冬#NR  氨酸#NR  、#PU  丝氨酸#NR  、#PU  麸氨酸#NR  、#PU  丙氨酸#NR  、#PU  苏氨酸#NR  、#PU  赖氨酸#NR  、#PU  酪氨酸#NR  、#PU  精氨酸#NR  、#PU  缬氨酸#NR  等#ETC  多#CD  种#M  氨基酸#NN    。#PU  尚#AD  含#VV  一#CD  种#M  有#VE  抗癌#NN  作用#NN  的#DEC  异#NN  蛋白#NN  物质#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (conj, 缬氨酸#NR, 蛋白质#NR)  (conj, 缬氨酸#NR, 脂肪#NR)  (conj, 缬氨酸#NR, 维生素C#NR)  (case, 氨基苯#NN, 对#P)  (prep, 酸#NN, 氨基苯#NN)  (nummod, 酸#NN, 甲#CD)  (conj, 缬氨酸#NR, 酸#NN)  (nn, 甘露醇#NN, D#NN)  (conj, 缬氨酸#NR, 甘露醇#NN)  (nn, 缬氨酸#NR, D-山梨#NR)  (nn, 缬氨酸#NR, 醇和#NR)  (nn, 缬氨酸#NR, 天门冬#NR)  (conj, 缬氨酸#NR, 氨酸#NR)  (conj, 缬氨酸#NR, 丝氨酸#NR)  (conj, 缬氨酸#NR, 麸氨酸#NR)  (conj, 缬氨酸#NR, 丙氨酸#NR)  (conj, 缬氨酸#NR, 苏氨酸#NR)  (conj, 缬氨酸#NR, 赖氨酸#NR)  (conj, 缬氨酸#NR, 酪氨酸#NR)  (conj, 缬氨酸#NR, 精氨酸#NR)  (nn, 氨基酸#NN, 缬氨酸#NR)  (etc, 缬氨酸#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 氨基酸#NN, 种#M)  (dobj, 含#VV, 氨基酸#NN)   (advmod, 含#VV, 尚#AD)  (root, ROOT#null, 含#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 有#VE)  (nn, 作用#NN, 抗癌#NN)  (dobj, 有#VE, 作用#NN)  (mark, 有#VE, 的#DEC)  (nn, 物质#NN, 异#NN)  (nn, 物质#NN, 蛋白#NN)  (dobj, 含#VV, 物质#NN)
+        </parsing>
+
+        <tag>
+            缬氨酸  蛋白质  脂肪  维生素C  丝氨酸  麸氨酸  丙氨酸  苏氨酸  赖氨酸  酪氨酸  精氨酸  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            草菇可炒、熘、烩、烧、酿、蒸等，也可做汤，或作各种荤菜的配料。
+            食疗：
+            1.煮草菇：鲜草菇，切片，用油、盐炒后，加水适量煮熟食。
+            本方取草菇补脾益气之功，常食可增强机体的抗病能力，并能加速伤口愈合。用于体弱气虚，易患感冒，或创伤、疮疡患处久不愈合等。
+            2.煮草菇猴头：鲜草菇100g，鲜猴头菇60g。将食油煎熟，加盐少许，放入二者炒后加水煮熟食。
+            本方对肿瘤有一定抑制作用。主要用于消化道肿瘤。
+        </rawdata>
+
+        <segment>
+            草菇  可  炒  、  熘  、  烩  、  烧  、  酿  、  蒸等  ，  也  可  做  汤  ，  或  作  各  种  荤菜  的  配料  。
+            食疗  ：
+            煮  草菇  ：  鲜  草菇  ，  切片  ，  用油  、  盐  炒  后  ，  加水  适量  煮  熟食  。
+            本  方  取  草菇  补脾  益气  之  功  ，  常食  可  增强  机体  的  抗病  能力  ，  并  能  加速  伤口  愈合  。  用于  体弱  气虚  ，  易患  感冒  ，  或  创伤  、  疮疡  患处  久  不  愈合  等  。
+            煮  草菇  猴头  ：  鲜  草菇  100g  ，  鲜  猴头菇  60g  。  将  食油  煎熟  ，  加盐  少许  ，  放入  二  者  炒  后加  水煮  熟食  。
+            本  方对  肿瘤  有  一定  抑制  作用  。  主要  用于  消化道  肿瘤  。
+        </segment>
+
+        <pos>
+            草菇#AD  可#VV  炒#NR  、#PU  熘#NR  、#PU  烩#NR  、#PU  烧#NR  、#PU  酿#NR  、#PU  蒸等#NR  ，#PU  也#AD  可#VV  做#VV  汤#NN  ，#PU  或#CC  作#VV  各#DT  种#M  荤菜#NN  的#DEG  配料#NN  。#PU
+            食疗#NN  ：#PU
+            煮#VV  草菇#NN  ：#PU  鲜#VV  草菇#NN  ，#PU  切片#NN  ，#PU  用油#NN  、#PU  盐#NN  炒#NN  后#LC  ，#PU  加水#NN  适量#NN  煮#VV  熟食#NN  。#PU
+            本#DT  方#NN  取#VV  草菇#NN  补脾#NN  益气#NN  之#DEG  功#NN  ，#PU  常食#AD  可#VV  增强#VV  机体#NN  的#DEG  抗病#NN  能力#NN  ，#PU  并#CC  能#VV  加速#VV  伤口#NN  愈合#NN    。#PU  用于#VV  体弱#NN  气虚#NN  ，#PU  易患#VV  感冒#NN  ，#PU  或#CC  创伤#NN  、#PU  疮疡#NN  患处#NN  久#AD  不#AD  愈合#VV  等#ETC    。#PU    。#PU
+            煮#VV  草菇#NN  猴头#NN  ：#PU  鲜#AD  草菇#VV  100g#CD  ，#PU  鲜#AD  猴头菇#VV  60g#CD    。#PU  将#AD  食油#VV  煎熟#NN  ，#PU  加盐#VV  少许#NN  ，#PU  放入#VV  二#CD  者#NN  炒#AD  后加#VV  水煮#NN  熟食#NN    。#PU    。#PU
+            本#DT  方对#NN  肿瘤#NN  有#VE  一定#JJ  抑制#NN  作用#NN    。#PU  主要#AD  用于#VV  消化道#NN  肿瘤#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 可#VV, 草菇#AD)  (root, ROOT#null, 可#VV)  (conj, 蒸等#NR, 炒#NR)  (conj, 蒸等#NR, 熘#NR)  (conj, 蒸等#NR, 烩#NR)  (conj, 蒸等#NR, 烧#NR)  (conj, 蒸等#NR, 酿#NR)  (dobj, 可#VV, 蒸等#NR)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (conj, 可#VV, 做#VV)  (dobj, 做#VV, 汤#NN)  (cc, 可#VV, 或#CC)  (dep, 可#VV, 作#VV)  (det, 荤菜#NN, 各#DT)  (clf, 各#DT, 种#M)  (assmod, 配料#NN, 荤菜#NN)  (case, 荤菜#NN, 的#DEG)  (dobj, 作#VV, 配料#NN)
+            (root, ROOT#null, 食疗#NN)
+            (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 草菇#NN)  (conj, 煮#VV, 鲜#VV)  (dobj, 鲜#VV, 草菇#NN)  (nsubj, 煮#VV, 切片#NN)  (conj, 炒#NN, 用油#NN)  (nn, 炒#NN, 盐#NN)  (loc, 煮#VV, 炒#NN)  (case, 炒#NN, 后#LC)  (nn, 适量#NN, 加水#NN)  (nsubj, 煮#VV, 适量#NN)  (dep, 煮#VV, 煮#VV)  (dobj, 煮#VV, 熟食#NN)
+            (det, 方#NN, 本#DT)  (nsubj, 取#VV, 方#NN)  (root, ROOT#null, 取#VV)  (nn, 益气#NN, 草菇#NN)  (nn, 益气#NN, 补脾#NN)  (assmod, 功#NN, 益气#NN)  (case, 益气#NN, 之#DEG)  (dobj, 取#VV, 功#NN)  (advmod, 增强#VV, 常食#AD)  (mmod, 增强#VV, 可#VV)  (conj, 取#VV, 增强#VV)  (assmod, 能力#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)  (cc, 取#VV, 并#CC)  (mmod, 加速#VV, 能#VV)  (conj, 取#VV, 加速#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 加速#VV, 愈合#NN)   (root, ROOT#null, 用于#VV)  (nn, 气虚#NN, 体弱#NN)  (dobj, 用于#VV, 气虚#NN)  (conj, 用于#VV, 易患#VV)  (dobj, 易患#VV, 感冒#NN)  (cc, 用于#VV, 或#CC)  (conj, 疮疡#NN, 创伤#NN)  (nn, 患处#NN, 疮疡#NN)  (dep, 愈合#VV, 患处#NN)  (advmod, 愈合#VV, 久#AD)  (neg, 愈合#VV, 不#AD)  (conj, 用于#VV, 愈合#VV)  (dep, 用于#VV, 等#ETC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 煮#VV)  (nn, 猴头#NN, 草菇#NN)  (dobj, 煮#VV, 猴头#NN)  (advmod, 草菇#VV, 鲜#AD)  (conj, 煮#VV, 草菇#VV)  (range, 草菇#VV, 100g#CD)  (advmod, 猴头菇#VV, 鲜#AD)  (conj, 煮#VV, 猴头菇#VV)  (range, 猴头菇#VV, 60g#CD)   (advmod, 食油#VV, 将#AD)  (relcl, 者#NN, 食油#VV)  (dobj, 食油#VV, 煎熟#NN)  (conj, 食油#VV, 加盐#VV)  (dobj, 加盐#VV, 少许#NN)  (conj, 食油#VV, 放入#VV)  (range, 放入#VV, 二#CD)  (nsubj, 后加#VV, 者#NN)  (advmod, 后加#VV, 炒#AD)  (root, ROOT#null, 后加#VV)  (nn, 熟食#NN, 水煮#NN)  (dobj, 后加#VV, 熟食#NN)   (root, ROOT#null, null#null)
+            (det, 方对#NN, 本#DT)  (nn, 肿瘤#NN, 方对#NN)  (dep, 有#VE, 肿瘤#NN)  (root, ROOT#null, 有#VE)  (amod, 抑制#NN, 一定#JJ)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)   (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (nn, 肿瘤#NN, 消化道#NN)  (dobj, 用于#VV, 肿瘤#NN)
+        </parsing>
+
+        <tag>
+            加水适量  补脾益气  抗病能力  增强能力  伤口愈合  加速愈合  体弱气虚  用于气虚  易患感冒  创伤  疮疡患处  食油者  食油煎熟  加盐少许  水煮熟食  后加熟食  方对肿瘤  一定抑制  消化道肿瘤  用于肿瘤  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101531091945.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\252 草菇.jpg
+    </picturelocalurl>
+
+</content>

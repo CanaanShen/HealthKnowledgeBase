@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        1303
+    </id>
+
+    <foodname>
+        油饼
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高血脂患者、糖尿病人、肝肾功能不全者不宜食用;老年人、孕妇、肥胖人群少食或不食
+        </rawdata>
+
+        <segment>
+            高血脂  患者  、  糖尿  病人  、  肝肾  功能  不全  者  不  宜  食用  ;  老年人  、  孕妇  、  肥胖  人群  少  食  或  不  食
+        </segment>
+
+        <pos>
+            高血脂#NN  患者#NN  、#PU  糖尿#NN  病人#NN  、#PU  肝肾#NN  功能#NN  不全#NN  者#NN  不#AD  宜#NR  食用#VV  ;#NN  老年人#NN  、#PU  孕妇#NN  、#PU  肥胖#NN  人群#NN  少#JJ  食#NN  或#CC  不#NN  食#NN
+        </pos>
+
+        <parsing>
+            (nn, 不全#NN, 高血脂#NN)  (conj, 不全#NN, 患者#NN)  (nn, 不全#NN, 糖尿#NN)  (conj, 不全#NN, 病人#NN)  (nn, 不全#NN, 肝肾#NN)  (nn, 不全#NN, 功能#NN)  (nn, 者#NN, 不全#NN)  (nsubj, 食用#VV, 者#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (nn, 人群#NN, ;#NN)  (conj, 人群#NN, 老年人#NN)  (conj, 人群#NN, 孕妇#NN)  (nn, 人群#NN, 肥胖#NN)  (nn, 食#NN, 人群#NN)  (amod, 食#NN, 少#JJ)  (conj, 食#NN, 食#NN)  (cc, 食#NN, 或#CC)  (nn, 食#NN, 不#NN)  (dobj, 食用#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            高血脂  患者  糖尿病人  肝肾功能不全者不宜  老年人  孕妇  肥胖人群少食  不食  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                399cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                24.8g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                7.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                22.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                40.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.11mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.05mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                572.5mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                46mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                2.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            油饼类似油条,是一种油炸食品,但比油条短,脆,成一小圆圈状,和碗口差不多大。
+        </rawdata>
+
+        <segment>
+            油饼  类似  油条  ,  是  一  种  油炸  食品  ,  但  比  油条  短  ,  脆  ,  成  一  小  圆  圈状  ,  和  碗口  差不多  大  。
+        </segment>
+
+        <pos>
+            油饼#NR  类似#JJ  油条#NN  ,#NN  是#VC  一#CD  种#M  油炸#NN  食品#NN  ,#NN  但#AD  比#P  油条#NR  短#JJ  ,#NN  脆#NN  ,#NN  成#VV  一#CD  小#JJ  圆#VV  圈状#NN  ,#NN  和#CC  碗口#NN  差不多#AD  大#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 油条#NN, 油饼#NR)  (amod, 油条#NN, 类似#JJ)  (nn, ,#NN, 油条#NN)  (cop, ,#NN, 是#VC)  (root, ,#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 是#VC, 种#M)  (clf, ,#NN, 种#M)  (nn, 是#VC, 油炸#NN)  (nn, ,#NN, 油炸#NN)  (nn, 是#VC, 食品#NN)  (nn, ,#NN, 食品#NN)  (advmod, 大#VA, 但#AD)  (case, ,#NN, 比#P)  (nn, ,#NN, 油条#NR)  (amod, ,#NN, 短#JJ)  (nn, ,#NN, 脆#NN)  (dep, 大#VA, 成#VV)  (nummod, ,#NN, 一#CD)  (amod, ,#NN, 小#JJ)  (relcl, ,#NN, 圆#VV)  (dobj, 圆#VV, 圈状#NN)  (cc, 碗口#NN, 和#CC)  (dobj, 成#VV, 碗口#NN)  (advmod, 大#VA, 差不多#AD)  (conj, 是#VC, 大#VA)  (conj, ,#NN, 大#VA)
+        </parsing>
+
+        <tag>
+            类似油条  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            油饼如同油条一样属高热量、高油脂类食物，在连续高温炸制中，含有多种挥发性有毒物质，不宜长期使用，建议搭配豆浆食用。含碳水化合物，能迅速为身体提供能量
+        </rawdata>
+
+        <segment>
+            油饼  如同  油条  一样  属  高热量  、  高  油脂  类  食物  ，  在  连续  高温  炸  制  中  ，  含有  多  种  挥发性  有毒  物质  ，  不  宜  长期  使用  ，  建议  搭配  豆浆  食用  。  含  碳水化合物  ，  能  迅速  为  身体  提供  能量
+        </segment>
+
+        <pos>
+            油饼#NR  如同#P  油条#AD  一样#VA  属#VV  高热量#JJ  、#PU  高#JJ  油脂#CD  类#M  食物#NN  ，#PU  在#P  连续#AD  高温#NN  炸#VV  制#NN  中#LC  ，#PU  含有#VV  多#CD  种#M  挥发性#NN  有毒#NN  物质#NN  ，#PU  不#AD  宜#NR  长期#AD  使用#VV  ，#PU  建议#VV  搭配#NN  豆浆#NN  食用#VV  。#PU  含#VV  碳水化合物#NN  ，#PU  能#VV  迅速#AD  为#P  身体#NN  提供#VV  能量#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 油饼#NR)  (case, 一样#VA, 如同#P)  (advmod, 一样#VA, 油条#AD)  (prep, 含#VV, 一样#VA)  (dep, 一样#VA, 属#VV)  (amod, 食物#NN, 高热量#JJ)  (dep, 高热量#JJ, 高#JJ)  (nummod, 类#M, 油脂#CD)  (clf, 食物#NN, 类#M)  (dobj, 属#VV, 食物#NN)  (case, 炸#VV, 在#P)  (advmod, 高温#NN, 连续#AD)  (nsubj, 炸#VV, 高温#NN)  (prep, 含有#VV, 炸#VV)  (dobj, 炸#VV, 制#NN)  (case, 炸#VV, 中#LC)  (dep, 一样#VA, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 物质#NN, 种#M)  (nn, 物质#NN, 挥发性#NN)  (nn, 物质#NN, 有毒#NN)  (dobj, 含有#VV, 物质#NN)  (neg, 使用#VV, 不#AD)  (dep, 使用#VV, 宜#NR)  (advmod, 使用#VV, 长期#AD)  (dep, 一样#VA, 使用#VV)  (conj, 使用#VV, 建议#VV)  (nn, 豆浆#NN, 搭配#NN)  (dobj, 建议#VV, 豆浆#NN)  (dep, 建议#VV, 食用#VV)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 碳水化合物#NN)  (mmod, 提供#VV, 能#VV)  (advmod, 提供#VV, 迅速#AD)  (case, 身体#NN, 为#P)  (prep, 提供#VV, 身体#NN)  (conj, 含#VV, 提供#VV)  (dobj, 提供#VV, 能量#NN)
+        </parsing>
+
+        <tag>
+            高热量食物  搭配豆浆  建议豆浆  提供能量  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            在面食的烹制方法中，蒸和烙比较好，捞、煮会使面食中的营养跑到汤里去，而油炸面食，如油条、油饼等，因为制作时油温过高，导致食物的维生素被破坏殆尽。
+        </rawdata>
+
+        <segment>
+            在  面食  的  烹制  方法  中  ，  蒸和烙  比较  好  ，  捞  、  煮  会  使  面食  中  的  营养  跑到  汤  里  去  ，  而  油炸  面食  ，  如  油条  、  油  饼  等  ，  因为  制作  时  油温  过高  ，  导致  食物  的  维生素  被  破坏  殆尽  。
+        </segment>
+
+        <pos>
+            在#P  面食#NN  的#DEG  烹制#NN  方法#NN  中#LC  ，#PU  蒸和烙#NN  比较#AD  好#VA  ，#PU  捞#VA  、#PU  煮#VV  会#VV  使#VV  面食#NN  中#LC  的#DEG  营养#VA  跑到#NN  汤#NN  里#LC  去#VV  ，#PU  而#MSP  油炸#VV  面食#NN  ，#PU  如#P  油条#NN  、#PU  油#NN  饼#NN  等#ETC  ，#PU  因为#P  制作#VV  时#LC  油温#VV  过高#NN  ，#PU  导致#VV  食物#NN  的#DEC  维生素#NN  被#SB  破坏#VV  殆尽#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 方法#NN, 在#P)  (assmod, 方法#NN, 面食#NN)  (case, 面食#NN, 的#DEG)  (nn, 方法#NN, 烹制#NN)  (prep, 破坏#VV, 方法#NN)  (case, 方法#NN, 中#LC)  (nsubj, 好#VA, 蒸和烙#NN)  (advmod, 好#VA, 比较#AD)  (relcl, 维生素#NN, 好#VA)  (conj, 好#VA, 捞#VA)  (mmod, 使#VV, 煮#VV)  (mmod, 使#VV, 会#VV)  (conj, 好#VA, 使#VV)  (assmod, 跑到#NN, 面食#NN)  (case, 面食#NN, 中#LC)  (case, 面食#NN, 的#DEG)  (nfincl, 跑到#NN, 营养#VA)  (dobj, 使#VV, 跑到#NN)  (loc, 去#VV, 汤#NN)  (case, 汤#NN, 里#LC)  (dep, 使#VV, 去#VV)  (prtmod, 油炸#VV, 而#MSP)  (dep, 使#VV, 油炸#VV)  (dobj, 油炸#VV, 面食#NN)  (case, 饼#NN, 如#P)  (conj, 饼#NN, 油条#NN)  (nn, 饼#NN, 油#NN)  (prep, 油温#VV, 饼#NN)  (etc, 饼#NN, 等#ETC)  (case, 制作#VV, 因为#P)  (prep, 油温#VV, 制作#VV)  (case, 制作#VV, 时#LC)  (conj, 油炸#VV, 油温#VV)  (dobj, 油温#VV, 过高#NN)  (conj, 油炸#VV, 导致#VV)  (dobj, 导致#VV, 食物#NN)  (mark, 好#VA, 的#DEC)  (nsubjpass, 破坏#VV, 维生素#NN)  (auxpass, 破坏#VV, 被#SB)  (root, ROOT#null, 破坏#VV)  (dobj, 破坏#VV, 殆尽#NN)
+        </parsing>
+
+        <tag>
+            烹制方法  油炸面食  油温过高  导致食物  破坏殆尽  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/72/0d/3442_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1303 油饼.jpg
+    </picturelocalurl>
+
+</content>

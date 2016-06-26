@@ -1,0 +1,436 @@
+<content>
+
+    <id>
+        587
+    </id>
+
+    <foodname>
+        枣
+    </foodname>
+
+    <firstcategory>
+        水果、花茶、坚果
+    </firstcategory>
+
+    <secondcategory>
+        鲜果
+    </secondcategory>
+
+    <alias>
+        红枣、大枣、枣子
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            久服泄人真气
+        </rawdata>
+
+        <segment>
+            久服泄人  真气
+        </segment>
+
+        <pos>
+            久服泄人#NN  真气#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 真气#VV, 久服泄人#NN)  (root, ROOT#null, 真气#VV)
+        </parsing>
+
+        <tag>
+            久服泄人真气  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜心血管疾病、癌症患者。适合骨质疏松，青少年和女性，病后体虚，高血压者服用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  心  血管  疾病  、  癌症  患者  。  适合  骨质  疏松  ，  青少年  和  女性  ，  病  后体  虚  ，  高血压  者  服用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  心#NN  血管#NN  疾病#NN  、#PU  癌症#NN  患者#NN    。#PU  适合#VV  骨质#NN  疏松#NN  ，#PU  青少年#NN  和#CC  女性#NN  ，#PU  病#JJ  后体#NN  虚#AD  ，#PU  高血压#VV  者#NN  服用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (conj, 患者#NN, 疾病#NN)  (nn, 患者#NN, 癌症#NN)  (dobj, 适宜#VV, 患者#NN)   (dep, 服用#VV, 适合#VV)  (nn, 疏松#NN, 骨质#NN)  (dobj, 适合#VV, 疏松#NN)  (conj, 女性#NN, 青少年#NN)  (cc, 女性#NN, 和#CC)  (nsubj, 高血压#VV, 女性#NN)  (amod, 后体#NN, 病#JJ)  (nsubj, 高血压#VV, 后体#NN)  (advmod, 高血压#VV, 虚#AD)  (dep, 适合#VV, 高血压#VV)  (dobj, 高血压#VV, 者#NN)  (root, ROOT#null, 服用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  心血管疾病  癌症  患者  适合  骨质疏松  青少年  女性  病后体虚  高血压者服用  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                热量(大卡)
+            </elename>
+            <elevalue>
+                264.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物(克)
+            </elename>
+            <elevalue>
+                67.80
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪(克)
+            </elename>
+            <elevalue>
+                0.50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质(克)
+            </elename>
+            <elevalue>
+                3.20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维素(克)
+            </elename>
+            <elevalue>
+                6.20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A(微克)
+            </elename>
+            <elevalue>
+                2.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C(毫克)
+            </elename>
+            <elevalue>
+                14.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E(毫克)
+            </elename>
+            <elevalue>
+                3.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡罗卜素(微克)
+            </elename>
+            <elevalue>
+                10.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硫胺素(毫克)
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                核黄素(毫克)
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸(毫克)
+            </elename>
+            <elevalue>
+                0.90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁(毫克)
+            </elename>
+            <elevalue>
+                36.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙(毫克)
+            </elename>
+            <elevalue>
+                64.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁(毫克)
+            </elename>
+            <elevalue>
+                2.30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌(毫克)
+            </elename>
+            <elevalue>
+                0.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜(毫克)
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰(毫克)
+            </elename>
+            <elevalue>
+                0.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾(毫克)
+            </elename>
+            <elevalue>
+                524.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷(毫克)
+            </elename>
+            <elevalue>
+                51.00
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠(毫克)
+            </elename>
+            <elevalue>
+                6.20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒(微克)
+            </elename>
+            <elevalue>
+                1.02
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            枣为鼠李科落叶灌木或小乔木植物枣树的成熟果实。我国栽培枣树范围极广，北边达到辽宁的锦州、北镇一带，以山东、河北、山西、陕西、甘肃、安徽、浙江产量最多。
+            著名品种有金丝小枣，果实小，含糖量多，生产山东乐陵、河北县、北京密云等地。另外有晋枣，又名"吊枣"，主产陕西彬县，果实大，重达30～40克，长圆形，皮薄、肉厚，核小，味甜，九月下旬成熟。
+            枣自古以来就被列为"五果"(桃、李、梅、杏、枣)之一，历史悠久。大枣最突出的特点是维生素含量高。在国外的一项临床研究显示：连续吃大枣的病人，健康恢复比单纯吃维生素药剂快3倍以上。因此，大枣有"天然维生素丸"的美誉。
+        </rawdata>
+
+        <segment>
+            枣为  鼠李科  落叶  灌木  或  小  乔木  植物  枣树  的  成熟  果实  。  我国  栽培  枣树  范围  极广  ，  北边  达到  辽宁  的  锦州  、  北镇  一带  ，  以  山东  、  河北  、  山西  、  陕西  、  甘肃  、  安徽  、  浙江  产量  最  多  。
+            著名  品种  有  金丝  小枣  ，  果实  小  ，  含糖量  多  ，  生产  山东  乐陵  、  河北  县  、  北京  密云  等  地  。  另外  有  晋枣  ，  又名  "  吊枣  "  ，  主产  陕西  彬县  ，  果实  大  ，  重达  30  ～  40  克  ，  长圆形  ，  皮薄  、  肉厚  ，  核小  ，  味  甜  ，  九月  下旬  成熟  。
+            枣  自古以来  就被  列为  "  五  果  "  (  桃  、  李  、  梅  、  杏  、  枣  )  之一  ，  历史  悠久  。  大枣  最  突出  的  特点  是  维生素  含量  高  。  在  国外  的  一  项  临床  研究  显示  ：  连续  吃  大枣  的  病人  ，  健康  恢复  比  单纯  吃  维生素  药剂  快  3  倍  以上  。  因此  ，  大枣  有  "  天然  维生素丸  "  的  美誉  。
+        </segment>
+
+        <pos>
+            枣为#NN  鼠李科#VV  落叶#NN  灌木#NN  或#CC  小#JJ  乔木#NN  植物#NN  枣树#NN  的#DEG  成熟#VA  果实#NN    。#PU  我国#AD  栽培#VV  枣树#NN  范围#NN  极广#NN  ，#PU  北边#AD  达到#VV  辽宁#NR  的#DEG  锦州#NN  、#PU  北镇#VV  一带#CD  ，#PU  以#P  山东#NR  、#PU  河北#NR  、#PU  山西#NR  、#PU  陕西#NR  、#PU  甘肃#NR  、#PU  安徽#NR  、#PU  浙江#NR  产量#NN  最#AD  多#VA    。#PU    。#PU
+            著名#JJ  品种#NN  有#VE  金丝#VV  小枣#NN  ，#PU  果实#NN  小#VA  ，#PU  含糖量#AD  多#VA  ，#PU  生产#VV  山东#NR  乐陵#NR  、#PU  河北#NR  县#NN  、#PU  北京#NR  密云#NN  等#ETC  地#NN    。#PU  另外#AD  有#VE  晋枣#NN  ，#PU  又名#NN  ''#NN  吊枣#AD  ''#VA  ，#PU  主产#VV  陕西#NR  彬县#NN  ，#PU  果实#NN  大#VA  ，#PU  重达#NR  30#CD  ～#NN  40#CD  克#M  ，#PU  长圆形#VA  ，#PU  皮薄#VA  、#PU  肉厚#VA  ，#PU  核小#NN  ，#PU  味#AD  甜#VA  ，#PU  九月#NT  下旬#NN  成熟#VA    。#PU    。#PU
+            枣#NN  自古以来#AD  就被#AD  列为#VV  ''#NR  五#CD  果#NN  ''#NN  -LRB-#NN  桃#NR  、#PU  李#NR  、#PU  梅#NR  、#PU  杏#NR  、#PU  枣#NR  -RRB-#NN  之一#NN  ，#PU  历史#NN  悠久#VA    。#PU  大枣#NN  最#AD  突出#VA  的#DEC  特点#NN  是#VC  维生素#NN  含量#NN  高#VA    。#PU  在#P  国外#NN  的#DEG  一#CD  项#M  临床#NN  研究#NN  显示#VV  ：#PU  连续#AD  吃#VV  大枣#NN  的#DEC  病人#NN  ，#PU  健康#AD  恢复#VV  比#CC  单纯#AD  吃#VV  维生素#NN  药剂#NN  快#NN  3#CD  倍#M  以上#LC    。#PU  因此#AD  ，#PU  大枣#AD  有#VE  ''#NR  天然#JJ  维生素丸#NN  ''#NN  的#DEG  美誉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 鼠李科#VV, 枣为#NN)  (root, ROOT#null, 鼠李科#VV)  (nn, 灌木#NN, 落叶#NN)  (conj, 枣树#NN, 灌木#NN)  (cc, 枣树#NN, 或#CC)  (amod, 乔木#NN, 小#JJ)  (nn, 枣树#NN, 乔木#NN)  (nn, 枣树#NN, 植物#NN)  (assmod, 果实#NN, 枣树#NN)  (case, 枣树#NN, 的#DEG)  (nfincl, 果实#NN, 成熟#VA)  (dobj, 鼠李科#VV, 果实#NN)   (advmod, 栽培#VV, 我国#AD)  (root, ROOT#null, 栽培#VV)  (nn, 范围#NN, 枣树#NN)  (nn, 极广#NN, 范围#NN)  (dobj, 栽培#VV, 极广#NN)  (advmod, 达到#VV, 北边#AD)  (conj, 栽培#VV, 达到#VV)  (assmod, 锦州#NN, 辽宁#NR)  (case, 辽宁#NR, 的#DEG)  (dobj, 达到#VV, 锦州#NN)  (dep, 栽培#VV, 北镇#VV)  (range, 北镇#VV, 一带#CD)  (case, 产量#NN, 以#P)  (conj, 浙江#NR, 山东#NR)  (conj, 浙江#NR, 河北#NR)  (conj, 浙江#NR, 山西#NR)  (conj, 浙江#NR, 陕西#NR)  (conj, 浙江#NR, 甘肃#NR)  (conj, 浙江#NR, 安徽#NR)  (nn, 产量#NN, 浙江#NR)  (prep, 多#VA, 产量#NN)  (advmod, 多#VA, 最#AD)  (conj, 栽培#VV, 多#VA)   (root, ROOT#null, null#null)
+            (amod, 品种#NN, 著名#JJ)  (dep, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 金丝#VV)  (dobj, 金丝#VV, 小枣#NN)  (nsubj, 小#VA, 果实#NN)  (dep, 金丝#VV, 小#VA)  (advmod, 多#VA, 含糖量#AD)  (conj, 金丝#VV, 多#VA)  (conj, 金丝#VV, 生产#VV)  (nn, 河北#NR, 山东#NR)  (conj, 河北#NR, 乐陵#NR)  (nn, 地#NN, 河北#NR)  (conj, 密云#NN, 县#NN)  (nn, 密云#NN, 北京#NR)  (nn, 地#NN, 密云#NN)  (etc, 密云#NN, 等#ETC)  (dobj, 生产#VV, 地#NN)   (advmod, ''#VA, 另外#AD)  (dep, ''#VA, 有#VE)  (dobj, 有#VE, 晋枣#NN)  (nn, ''#NN, 又名#NN)  (nsubj, ''#VA, ''#NN)  (advmod, ''#VA, 吊枣#AD)  (root, ROOT#null, ''#VA)  (conj, ''#VA, 主产#VV)  (nn, 彬县#NN, 陕西#NR)  (dobj, 主产#VV, 彬县#NN)  (nsubj, 大#VA, 果实#NN)  (conj, ''#VA, 大#VA)  (nn, ～#NN, 重达#NR)  (nummod, ～#NN, 30#CD)  (nummod, 克#M, 40#CD)  (conj, ''#VA, 克#M)  (conj, ''#VA, 长圆形#VA)  (conj, ''#VA, 皮薄#VA)  (dep, 皮薄#VA, 肉厚#VA)  (nsubj, 甜#VA, 核小#NN)  (advmod, 甜#VA, 味#AD)  (conj, ''#VA, 甜#VA)  (nn, 下旬#NN, 九月#NT)  (nsubj, 成熟#VA, 下旬#NN)  (conj, ''#VA, 成熟#VA)   (root, ROOT#null, null#null)
+            (nsubj, 列为#VV, 枣#NN)  (advmod, 列为#VV, 自古以来#AD)  (advmod, 列为#VV, 就被#AD)  (root, ROOT#null, 列为#VV)  (nn, -LRB-#NN, ''#NR)  (nummod, -LRB-#NN, 五#CD)  (nn, -LRB-#NN, 果#NN)  (nn, -LRB-#NN, ''#NN)  (conj, 枣#NR, 桃#NR)  (conj, 枣#NR, 李#NR)  (conj, 枣#NR, 梅#NR)  (conj, 枣#NR, 杏#NR)  (nn, 之一#NN, 枣#NR)  (dobj, 列为#VV, 之一#NN)  (nsubj, 悠久#VA, 历史#NN)  (conj, 列为#VV, 悠久#VA)   (nsubj, 突出#VA, 大枣#NN)  (advmod, 突出#VA, 最#AD)  (relcl, 特点#NN, 突出#VA)  (mark, 突出#VA, 的#DEC)  (nsubj, 高#VA, 特点#NN)  (cop, 高#VA, 是#VC)  (nn, 含量#NN, 维生素#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)   (case, 国外#NN, 在#P)  (assmod, 研究#NN, 国外#NN)  (case, 国外#NN, 的#DEG)  (nummod, 项#M, 一#CD)  (clf, 研究#NN, 项#M)  (nn, 研究#NN, 临床#NN)  (nsubj, 显示#VV, 研究#NN)  (root, ROOT#null, 显示#VV)  (advmod, 吃#VV, 连续#AD)  (relcl, 病人#NN, 吃#VV)  (dobj, 吃#VV, 大枣#NN)  (mark, 吃#VV, 的#DEC)  (nsubj, 恢复#VV, 病人#NN)  (advmod, 恢复#VV, 健康#AD)  (ccomp, 显示#VV, 恢复#VV)  (cc, 恢复#VV, 比#CC)  (advmod, 吃#VV, 单纯#AD)  (dep, 恢复#VV, 吃#VV)  (nn, 快#NN, 维生素#NN)  (nn, 快#NN, 药剂#NN)  (dobj, 吃#VV, 快#NN)  (nummod, 倍#M, 3#CD)  (loc, 吃#VV, 倍#M)  (case, 倍#M, 以上#LC)   (advmod, 有#VE, 因此#AD)  (advmod, 有#VE, 大枣#AD)  (root, ROOT#null, 有#VE)  (nn, 维生素丸#NN, ''#NR)  (amod, 维生素丸#NN, 天然#JJ)  (nn, ''#NN, 维生素丸#NN)  (assmod, 美誉#NN, ''#NN)  (case, ''#NN, 的#DEG)  (dobj, 有#VE, 美誉#NN)
+        </parsing>
+
+        <tag>
+            落叶灌木  小乔木  鼠李科果实  范围极广  栽培极广  达到锦州  浙江  山东  河北  山西  陕西  甘肃  安徽  著名品种  乐陵  生产地  主产彬县  下旬成熟  列为  历史悠久  特点突出  临床研究  显示  吃病人  天然维生素丸  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.抗癌抗癌
+            枣能提高人体免疫力，并可抑制癌细胞。能促进白细胞的生成，降低血清胆固醇，提高血清白蛋白，保护肝脏，红枣中还含有抑制癌细胞，甚至可使癌细胞向正常细胞转化的物质。
+            2.降血压、降胆固醇
+            大枣中的维生素P含量为所有果蔬之冠，其具有维持毛细血管通透性，改善微循环从而预防动脉硬化的作用。还可以调节人体代谢、增强免疫力、抗炎、抗变态反应、降低血糖和胆固醇含量等作用；所含芦丁有保护毛细血管通畅、防止血管壁脆性增加
+            3.保肝护肝
+            大枣能提高体内单核细胞的吞噬功能，有保护肝脏、增强体力的作用；大枣中的维生素C，能减轻化学药物对肝脏的损害，并有促进蛋白质合成，增加血清总蛋白含量的作用。
+            4.预防骨质疏松
+            对防治骨质疏松产贫血有重要作用，中老年人更年期经常会骨质疏松，正在生长发育高峰的青少年和女性容易发生贫血，大枣对他们会有十分理想的食疗作用，其效果通常是药物不能比拟的。
+            5.防治脑供血不足
+            大枣中的黄酮类物质可以防治脑缺血症并对脑缺血所致的脑组织超微结构损伤有保护作用。
+            6.防治心血管病
+            大枣中含有丰富的维生素C、维生素P，对健全毛细血管、维持血管壁弹性，抗动脉粥样硬化很有益；大枣中含有cAMP，其药理作用表现为改善人体微循环，扩张冠状动脉，增加脑和心脏的供血量，减慢心律，降低心肌耗氧量而改善缺血心肌的代谢，故可防治心脑血管病。
+            7.恢复体力
+            对病后体虚的人也有良好的滋补作用。
+            8.预防胆结石
+            鲜枣中丰富的维生素C，使体内多余的胆固醇转变为胆汁酸，胆固醇少了，结石形成的概率也就随之减少。
+        </rawdata>
+
+        <segment>
+            抗癌  抗癌
+            枣能  提高  人体  免疫力  ，  并  可  抑制  癌细胞  。  能  促进  白细胞  的  生成  ，  降低  血清  胆固醇  ，  提高  血清  白蛋白  ，  保护  肝脏  ，  红枣  中  还  含有  抑制  癌细胞  ，  甚至  可  使  癌细胞  向  正常  细胞  转化  的  物质  。
+            降  血压  、  降  胆固醇
+            大枣  中  的  维生素  P  含量  为  所有  果蔬  之冠  ，  其  具有  维持  毛细  血管  通透性  ，  改善  微循环  从而  预防  动脉  硬化  的  作用  。  还可以  调节  人体  代谢  、  增强  免疫力  、  抗炎  、  抗  变态  反应  、  降低  血糖  和  胆固醇  含量  等  作用  ；  所含  芦丁  有  保护  毛细血管  通畅  、  防止  血  管壁  脆性  增加
+            保肝  护肝
+            大枣  能  提高  体内  单核  细胞  的  吞噬  功能  ，  有  保护  肝脏  、  增强  体力  的  作用  ；  大枣  中  的  维生素C  ，  能  减轻  化学  药物  对  肝脏  的  损害  ，  并  有  促进  蛋白质  合成  ，  增加  血清  总  蛋白  含量  的  作用  。
+            预防  骨质  疏松
+            对  防治  骨质  疏松  产  贫血  有  重要  作用  ，  中老年人  更年期  经常  会  骨质  疏松  ，  正在  生长  发育  高峰  的  青少年  和  女性  容易  发生  贫血  ，  大枣  对  他们  会  有  十分  理想  的  食疗  作用  ，  其  效果  通常  是  药物  不  能  比拟  的  。
+            防治  脑  供  血  不足
+            大枣  中  的  黄酮类  物质  可以  防治  脑  缺血症  并对  脑  缺血  所致  的  脑组织  超微  结构  损伤  有  保护  作用  。
+            防治  心血管病
+            大枣  中  含有  丰富  的  维生素C  、  维生素  P  ，  对  健全  毛细  血管  、  维持  血  管壁  弹性  ，  抗  动脉  粥样  硬化  很  有益  ；  大枣  中  含有  cAMP  ，  其  药理  作用  表现  为  改善  人体  微循环  ，  扩张  冠状  动脉  ，  增加  脑  和  心脏  的  供血量  ，  减慢  心律  ，  降低  心肌  耗氧量  而  改善  缺血  心肌  的  代谢  ，  故  可  防治  心  脑  血管病  。
+            恢复  体力
+            对  病  后体  虚  的  人  也  有  良好  的  滋补  作用  。
+            预防  胆结石
+            鲜枣  中  丰富  的  维生素C  ，  使  体内  多余  的  胆固醇  转变  为  胆汁酸  ，  胆固醇  少  了  ，  结石  形成  的  概率  也  就  随之  减少  。
+        </segment>
+
+        <pos>
+            抗癌#NN  抗癌#VV
+            枣能#AD  提高#VV  人体#NN  免疫力#NN  ，#PU  并#CC  可#VV  抑制#VV  癌细胞#NN    。#PU  能#VV  促进#VV  白细胞#NN  的#DEC  生成#NN  ，#PU  降低#VV  血清#NN  胆固醇#NN  ，#PU  提高#VV  血清#NN  白蛋白#NN  ，#PU  保护#VV  肝脏#NN  ，#PU  红枣#NN  中#LC  还#AD  含有#VV  抑制#VV  癌细胞#NN  ，#PU  甚至#AD  可#VV  使#VV  癌细胞#NN  向#P  正常#JJ  细胞#NN  转化#VV  的#DEC  物质#NN    。#PU    。#PU
+            降#VV  血压#NN  、#PU  降#NN  胆固醇#NN
+            大枣#NN  中#LC  的#DEG  维生素#NN  P#NN  含量#NN  为#P  所有#DT  果蔬#NN  之冠#VV  ，#PU  其#PN  具有#VV  维持#VV  毛细#NN  血管#NN  通透性#NN  ，#PU  改善#VV  微循环#NN  从而#AD  预防#VV  动脉#NN  硬化#NN  的#DEC  作用#NN  。#PU  还可以#NR  调节#VV  人体#NN  代谢#NN  、#PU  增强#NN  免疫力#NN  、#PU  抗炎#NN  、#PU  抗#NN  变态#NN  反应#NN  、#PU  降低#VV  血糖#NN  和#CC  胆固醇#NN  含量#NN  等#ETC  作用#NN  ；#PU  所含#NN  芦丁#NN  有#VE  保护#NN  毛细血管#NN  通畅#NN  、#PU  防止#VV  血#NN  管壁#NN  脆性#NN  增加#VV
+            保肝#JJ  护肝#NN
+            大枣#VV  能#VV  提高#VV  体内#NN  单核#NN  细胞#NN  的#DEC  吞噬#NN  功能#NN  ，#PU  有#VE  保护#NN  肝脏#NN  、#PU  增强#VV  体力#NN  的#DEG  作用#NN  ；#PU  大枣#VV  中#NR  的#DEG  维生素C#NN  ，#PU  能#VV  减轻#VV  化学#NN  药物#NN  对#P  肝脏#NN  的#DEG  损害#NN  ，#PU  并#CC  有#VE  促进#VV  蛋白质#VV  合成#JJ  ，#PU  增加#VV  血清#NR  总#JJ  蛋白#NN  含量#NN  的#DEC  作用#NN  。#PU
+            预防#NN  骨质#VV  疏松#NN
+            对#P  防治#NN  骨质#NN  疏松#NN  产#VV  贫血#NN  有#VE  重要#JJ  作用#NN  ，#PU  中老年人#NN  更年期#NN  经常#AD  会#VV  骨质#VV  疏松#NN  ，#PU  正在#AD  生长#NN  发育#VV  高峰#NN  的#DEC  青少年#NN  和#CC  女性#NN  容易#VA  发生#VV  贫血#NN  ，#PU  大枣#NN  对#P  他们#PN  会#VV  有#VE  十分#AD  理想#VA  的#DEC  食疗#JJ  作用#NN  ，#PU  其#PN  效果#NN  通常#AD  是#VC  药物#NN  不#AD  能#VV  比拟#VV  的#DEC  。#PU
+            防治#NN  脑#NN  供#NN  血#NN  不足#VA
+            大枣#NN  中#LC  的#DEG  黄酮类#NN  物质#NN  可以#VV  防治#VV  脑#NN  缺血症#NN  并对#NN  脑#NN  缺血#NN  所致#NN  的#DEC  脑组织#NN  超微#NN  结构#NN  损伤#AD  有#VE  保护#NN  作用#NN  。#PU
+            防治#VV  心血管病#NN
+            大枣#NN  中#LC  含有#VV  丰富#VA  的#DEC  维生素C#NN  、#PU  维生素#NN  P#NN  ，#PU  对#P  健全#VV  毛细#NN  血管#NN  、#PU  维持#VV  血#NN  管壁#NN  弹性#NN  ，#PU  抗#NN  动脉#NN  粥样#NN  硬化#NN  很#AD  有益#VA  ；#PU  大枣#NN  中#LC  含有#VV  cAMP#NN  ，#PU  其#PN  药理#VV  作用#NN  表现#NN  为#VC  改善#VV  人体#NN  微循环#NN  ，#PU  扩张#VV  冠状#NN  动脉#NN  ，#PU  增加#VV  脑#NN  和#CC  心脏#NN  的#DEC  供血量#NN  ，#PU  减慢#NN  心律#NN  ，#PU  降低#VV  心肌#NN  耗氧量#NN  而#CC  改善#VV  缺血#NN  心肌#NN  的#DEG  代谢#NN  ，#PU  故#AD  可#VV  防治#NN  心#NN  脑#NN  血管病#NN  。#PU
+            恢复#VV  体力#NN
+            对#P  病#NN  后体#VV  虚#AD  的#DEC  人#NN  也#AD  有#VE  良好#VA  的#DEC  滋补#JJ  作用#NN  。#PU
+            预防#NN  胆结石#VV
+            鲜枣#NN  中#LC  丰富#VA  的#DEC  维生素C#NN  ，#PU  使#VV  体内#NN  多余#NN  的#DEG  胆固醇#NN  转变#VV  为#P  胆汁酸#NN  ，#PU  胆固醇#NN  少#VA  了#AS  ，#PU  结石#AD  形成#VV  的#DEC  概率#NN  也#AD  就#AD  随之#AD  减少#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 抗癌#VV, 抗癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (advmod, 提高#VV, 枣能#AD)  (root, ROOT#null, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)  (cc, 提高#VV, 并#CC)  (mmod, 抑制#VV, 可#VV)  (dep, 提高#VV, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)   (root, ROOT#null, 能#VV)  (relcl, 生成#NN, 促进#VV)  (dobj, 促进#VV, 白细胞#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 能#VV, 生成#NN)  (conj, 能#VV, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 提高#VV)  (nn, 白蛋白#NN, 血清#NN)  (dobj, 提高#VV, 白蛋白#NN)  (conj, 能#VV, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (loc, 含有#VV, 红枣#NN)  (case, 红枣#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (conj, 能#VV, 含有#VV)  (relcl, 物质#NN, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)  (advmod, 使#VV, 甚至#AD)  (mmod, 使#VV, 可#VV)  (conj, 抑制#VV, 使#VV)  (dobj, 使#VV, 癌细胞#NN)  (case, 细胞#NN, 向#P)  (amod, 细胞#NN, 正常#JJ)  (prep, 转化#VV, 细胞#NN)  (dep, 使#VV, 转化#VV)  (mark, 抑制#VV, 的#DEC)  (dobj, 含有#VV, 物质#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降#VV)  (conj, 胆固醇#NN, 血压#NN)  (nn, 胆固醇#NN, 降#NN)  (dobj, 降#VV, 胆固醇#NN)
+            (assmod, 含量#NN, 大枣#NN)  (case, 大枣#NN, 中#LC)  (case, 大枣#NN, 的#DEG)  (nn, 含量#NN, 维生素#NN)  (nn, 含量#NN, P#NN)  (nsubj, 之冠#VV, 含量#NN)  (case, 果蔬#NN, 为#P)  (det, 果蔬#NN, 所有#DT)  (prep, 之冠#VV, 果蔬#NN)  (root, ROOT#null, 之冠#VV)  (nsubj, 维持#VV, 其#PN)  (mmod, 维持#VV, 具有#VV)  (ccomp, 之冠#VV, 维持#VV)  (nn, 通透性#NN, 毛细#NN)  (nn, 通透性#NN, 血管#NN)  (dobj, 维持#VV, 通透性#NN)  (conj, 维持#VV, 改善#VV)  (nsubj, 预防#VV, 微循环#NN)  (advmod, 预防#VV, 从而#AD)  (relcl, 作用#NN, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (dobj, 预防#VV, 硬化#NN)  (mark, 预防#VV, 的#DEC)  (dobj, 改善#VV, 作用#NN)  (nsubj, 调节#VV, 还可以#NR)  (conj, 维持#VV, 调节#VV)  (nn, 代谢#NN, 人体#NN)  (dep, 作用#NN, 代谢#NN)  (nn, 免疫力#NN, 增强#NN)  (conj, 代谢#NN, 免疫力#NN)  (conj, 代谢#NN, 抗炎#NN)  (nn, 反应#NN, 抗#NN)  (nn, 反应#NN, 变态#NN)  (conj, 代谢#NN, 反应#NN)  (dep, 代谢#NN, 降低#VV)  (conj, 胆固醇#NN, 血糖#NN)  (cc, 胆固醇#NN, 和#CC)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 降低#VV, 含量#NN)  (etc, 含量#NN, 等#ETC)  (dobj, 调节#VV, 作用#NN)  (nn, 芦丁#NN, 所含#NN)  (nsubj, 有#VE, 芦丁#NN)  (conj, 维持#VV, 有#VE)  (nn, 通畅#NN, 保护#NN)  (nn, 通畅#NN, 毛细血管#NN)  (dobj, 有#VE, 通畅#NN)  (conj, 有#VE, 防止#VV)  (nn, 脆性#NN, 血#NN)  (nn, 脆性#NN, 管壁#NN)  (dobj, 防止#VV, 脆性#NN)  (dep, 防止#VV, 增加#VV)
+            (amod, 护肝#NN, 保肝#JJ)  (root, ROOT#null, 护肝#NN)
+            (root, ROOT#null, 大枣#VV)  (mmod, 提高#VV, 能#VV)  (relcl, 功能#NN, 提高#VV)  (nn, 细胞#NN, 体内#NN)  (nn, 细胞#NN, 单核#NN)  (dobj, 提高#VV, 细胞#NN)  (mark, 提高#VV, 的#DEC)  (nn, 功能#NN, 吞噬#NN)  (dobj, 大枣#VV, 功能#NN)  (conj, 大枣#VV, 有#VE)  (nn, 肝脏#NN, 保护#NN)  (dobj, 有#VE, 肝脏#NN)  (conj, 大枣#VV, 增强#VV)  (assmod, 作用#NN, 体力#NN)  (case, 体力#NN, 的#DEG)  (dobj, 增强#VV, 作用#NN)  (conj, 大枣#VV, 大枣#VV)  (assmod, 维生素C#NN, 中#NR)  (case, 中#NR, 的#DEG)  (dobj, 大枣#VV, 维生素C#NN)  (mmod, 减轻#VV, 能#VV)  (conj, 大枣#VV, 减轻#VV)  (nn, 药物#NN, 化学#NN)  (nn, 损害#NN, 药物#NN)  (case, 肝脏#NN, 对#P)  (assmod, 损害#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (dobj, 减轻#VV, 损害#NN)  (cc, 大枣#VV, 并#CC)  (conj, 大枣#VV, 有#VE)  (relcl, 作用#NN, 促进#VV)  (ccomp, 促进#VV, 蛋白质#VV)  (nfincl, 含量#NN, 合成#JJ)  (dep, 合成#JJ, 增加#VV)  (nn, 蛋白#NN, 血清#NR)  (amod, 蛋白#NN, 总#JJ)  (dobj, 增加#VV, 蛋白#NN)  (dobj, 蛋白质#VV, 含量#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 骨质#VV, 预防#NN)  (root, ROOT#null, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)
+            (case, 疏松#NN, 对#P)  (nn, 疏松#NN, 防治#NN)  (nn, 疏松#NN, 骨质#NN)  (prep, 产#VV, 疏松#NN)  (conj, 有#VE, 产#VV)  (dobj, 产#VV, 贫血#NN)  (root, ROOT#null, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)  (nn, 更年期#NN, 中老年人#NN)  (nsubj, 骨质#VV, 更年期#NN)  (advmod, 骨质#VV, 经常#AD)  (mmod, 骨质#VV, 会#VV)  (conj, 有#VE, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)  (advmod, 发育#VV, 正在#AD)  (prep, 发育#VV, 生长#NN)  (relcl, 女性#NN, 发育#VV)  (dobj, 发育#VV, 高峰#NN)  (mark, 发育#VV, 的#DEC)  (conj, 女性#NN, 青少年#NN)  (cc, 女性#NN, 和#CC)  (nsubj, 容易#VA, 女性#NN)  (conj, 有#VE, 容易#VA)  (dep, 容易#VA, 发生#VV)  (dobj, 发生#VV, 贫血#NN)  (nsubj, 有#VE, 大枣#NN)  (case, 他们#PN, 对#P)  (prep, 有#VE, 他们#PN)  (mmod, 有#VE, 会#VV)  (conj, 有#VE, 有#VE)  (advmod, 理想#VA, 十分#AD)  (relcl, 作用#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (amod, 作用#NN, 食疗#JJ)  (dobj, 有#VE, 作用#NN)  (nsubj, 比拟#VV, 其#PN)  (nsubj, 比拟#VV, 效果#NN)  (advmod, 比拟#VV, 通常#AD)  (cop, 比拟#VV, 是#VC)  (nsubj, 比拟#VV, 药物#NN)  (neg, 比拟#VV, 不#AD)  (dep, 比拟#VV, 能#VV)  (conj, 有#VE, 比拟#VV)  (mark, 比拟#VV, 的#DEC)
+            (nn, 血#NN, 防治#NN)  (nn, 血#NN, 脑#NN)  (nn, 血#NN, 供#NN)  (nsubj, 不足#VA, 血#NN)  (root, ROOT#null, 不足#VA)
+            (assmod, 物质#NN, 大枣#NN)  (case, 大枣#NN, 中#LC)  (case, 大枣#NN, 的#DEG)  (nn, 物质#NN, 黄酮类#NN)  (nsubj, 防治#VV, 物质#NN)  (mmod, 防治#VV, 可以#VV)  (relcl, 结构#NN, 防治#VV)  (nn, 所致#NN, 脑#NN)  (nn, 所致#NN, 缺血症#NN)  (nn, 所致#NN, 并对#NN)  (nn, 所致#NN, 脑#NN)  (nn, 所致#NN, 缺血#NN)  (dobj, 防治#VV, 所致#NN)  (mark, 防治#VV, 的#DEC)  (nn, 结构#NN, 脑组织#NN)  (nn, 结构#NN, 超微#NN)  (nsubj, 有#VE, 结构#NN)  (advmod, 有#VE, 损伤#AD)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 心血管病#NN)
+            (loc, 含有#VV, 大枣#NN)  (case, 大枣#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, P#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, P#NN, 维生素C#NN)  (nn, P#NN, 维生素#NN)  (dobj, 含有#VV, P#NN)  (case, 健全#VV, 对#P)  (prep, 有益#VA, 健全#VV)  (nn, 血管#NN, 毛细#NN)  (dobj, 健全#VV, 血管#NN)  (conj, 健全#VV, 维持#VV)  (nn, 弹性#NN, 血#NN)  (nn, 弹性#NN, 管壁#NN)  (dobj, 维持#VV, 弹性#NN)  (nn, 硬化#NN, 抗#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (nsubj, 有益#VA, 硬化#NN)  (advmod, 有益#VA, 很#AD)  (conj, 含有#VV, 有益#VA)  (loc, 含有#VV, 大枣#NN)  (case, 大枣#NN, 中#LC)  (conj, 含有#VV, 含有#VV)  (dobj, 含有#VV, cAMP#NN)  (nsubj, 药理#VV, 其#PN)  (conj, 含有#VV, 药理#VV)  (nn, 表现#NN, 作用#NN)  (nsubj, 改善#VV, 表现#NN)  (cop, 改善#VV, 为#VC)  (relcl, 供血量#NN, 改善#VV)  (nn, 微循环#NN, 人体#NN)  (dobj, 改善#VV, 微循环#NN)  (conj, 改善#VV, 扩张#VV)  (nn, 动脉#NN, 冠状#NN)  (dobj, 扩张#VV, 动脉#NN)  (conj, 改善#VV, 增加#VV)  (conj, 心脏#NN, 脑#NN)  (cc, 心脏#NN, 和#CC)  (dobj, 增加#VV, 心脏#NN)  (mark, 改善#VV, 的#DEC)  (dobj, 药理#VV, 供血量#NN)  (nn, 心律#NN, 减慢#NN)  (nsubj, 降低#VV, 心律#NN)  (conj, 含有#VV, 降低#VV)  (nn, 耗氧量#NN, 心肌#NN)  (dobj, 降低#VV, 耗氧量#NN)  (cc, 降低#VV, 而#CC)  (conj, 降低#VV, 改善#VV)  (nn, 心肌#NN, 缺血#NN)  (assmod, 代谢#NN, 心肌#NN)  (case, 心肌#NN, 的#DEG)  (dobj, 改善#VV, 代谢#NN)  (advmod, 可#VV, 故#AD)  (conj, 含有#VV, 可#VV)  (nn, 血管病#NN, 防治#NN)  (nn, 血管病#NN, 心#NN)  (nn, 血管病#NN, 脑#NN)  (dobj, 可#VV, 血管病#NN)
+            (root, ROOT#null, 恢复#VV)  (dobj, 恢复#VV, 体力#NN)
+            (case, 病#NN, 对#P)  (prep, 后体#VV, 病#NN)  (relcl, 人#NN, 后体#VV)  (advmod, 后体#VV, 虚#AD)  (mark, 后体#VV, 的#DEC)  (nsubj, 有#VE, 人#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 滋补#JJ)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 胆结石#VV, 预防#NN)  (root, ROOT#null, 胆结石#VV)
+            (loc, 使#VV, 鲜枣#NN)  (case, 鲜枣#NN, 中#LC)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 使#VV, 维生素C#NN)  (root, ROOT#null, 使#VV)  (nn, 多余#NN, 体内#NN)  (assmod, 胆固醇#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (dobj, 使#VV, 胆固醇#NN)  (dep, 使#VV, 转变#VV)  (case, 胆汁酸#NN, 为#P)  (prep, 转变#VV, 胆汁酸#NN)  (nsubj, 少#VA, 胆固醇#NN)  (conj, 使#VV, 少#VA)  (asp, 少#VA, 了#AS)  (advmod, 形成#VV, 结石#AD)  (relcl, 概率#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (nsubj, 减少#VV, 概率#NN)  (advmod, 减少#VV, 也#AD)  (advmod, 减少#VV, 就#AD)  (advmod, 减少#VV, 随之#AD)  (conj, 使#VV, 减少#VV)
+        </parsing>
+
+        <tag>
+            抗癌  人体免疫力  提高免疫力  抑制癌细胞  促进生成  促进白细胞  血清胆固醇  降低胆固醇  血清白蛋白  提高白蛋白  保护肝脏  正常细胞  血压  之冠  毛细通透性  血管通透性  维持通透性  动脉硬化  预防硬化  人体代谢  增强免疫力  抗炎  变态反应  血糖  所含芦丁  保护通畅  毛细血管通畅  管壁脆性  防止脆性  保肝护肝  提高功能  体内细胞  单核细胞  提高细胞  吞噬功能  化学药物  药物损害  减轻损害  总蛋白  增加蛋白  骨质疏松  防治疏松  中老年人更年期  发育女性  发育高峰  青少年  女性容易  血不足  防治结构  缺血症所致  并对所致  缺血所致  防治所致  脑组织结构  超微结构  防治心血管病  P丰富  含有P  健全血管  管壁弹性  维持弹性  粥样硬化  硬化有益  含有cAMP  改善供血量  人体微循环  改善微循环  冠状动脉  扩张动脉  增加心脏  药理供血量  减慢心律  心肌耗氧量  降低耗氧量  缺血心肌  改善代谢  防治血管病  恢复体力  后体人  维生素C丰富  体内多余  形成概率  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        安神  补肝  补血  增强免疫力
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1. 枣能提高人体免疫力，并可抑制癌细胞，药理研究发现，红枣能促进白细胞的生成，降低血清胆固醇，提高血清白蛋白，保护肝脏，红枣中还含有抑制癌细胞，甚至可使癌细胞向正常细胞转化的物质；
+            2. 经常食用鲜枣的人很少患胆结石，这是因为鲜枣中丰富的维生素C，使体内多余的胆固醇转变为胆汁酸，胆固醇少了，结石形成的概率也就随之减少；
+            3. 枣中富含钙和铁，它们对防治骨质疏松产贫血有重要作用，中老年人更年期经常会骨质疏松，正在生长发育高峰的青少年和女性容易发生贫血，大枣对他们会有十分理想的食疗作用，其效果通常是药物不能比拟的；
+            4. 对病后体虚的人也有良好的滋补作用；
+            5. 枣所含的芦丁，是一种使血管软化，从而使血压降低的物质，对高血压病有防治功效；
+            6. 枣还可以抗过敏、除腥臭怪味、宁心安神、益智健脑、增强食欲。
+            7.鲜枣有较高的热量，主要源于所含的碳水化合物约23%~28%。
+            8.鲜枣含有丰富的膳食纤维，维生素和微量元素，大枣中的维生素P含量为所有果蔬之冠。脂肪，淀粉，芦丁，尼克酸以及矿物质。干枣所含的矿物质和热量为鲜枣的2~3倍。
+        </rawdata>
+
+        <segment>
+            枣能  提高  人体  免疫力  ，  并  可  抑制  癌细胞  ，  药理  研究  发现  ，  红枣  能  促进  白细胞  的  生成  ，  降低  血清  胆固醇  ，  提高  血清  白蛋白  ，  保护  肝脏  ，  红枣  中  还  含有  抑制  癌细胞  ，  甚至  可  使  癌细胞  向  正常  细胞  转化  的  物质  ；
+            经常  食用  鲜枣  的  人  很少  患  胆结石  ，  这  是  因为  鲜枣  中  丰富  的  维生素C  ，  使  体内  多余  的  胆固醇  转变  为  胆汁酸  ，  胆固醇  少  了  ，  结石  形成  的  概率  也  就  随之  减少  ；
+            枣中  富含  钙  和  铁  ，  它们  对  防治  骨质  疏松  产  贫血  有  重要  作用  ，  中老年人  更年期  经常  会  骨质  疏松  ，  正在  生长  发育  高峰  的  青少年  和  女性  容易  发生  贫血  ，  大枣  对  他们  会  有  十分  理想  的  食疗  作用  ，  其  效果  通常  是  药物  不  能  比拟  的  ；
+            对  病  后体  虚  的  人  也  有  良好  的  滋补  作用  ；
+            枣所含  的  芦丁  ，  是  一  种  使  血管  软化  ，  从而  使  血压  降低  的  物质  ，  对  高血压  病  有  防治  功效  ；
+            枣  还  可以  抗  过敏  、  除腥  臭  怪味  、  宁心  安神  、  益智  健脑  、  增强  食欲  。
+            鲜枣  有  较  高  的  热量  ，  主要  源于  所含  的  碳水  化合物  约  23%  ~  28%  。
+            鲜枣  含有  丰富  的  膳食  纤维  ，  维生素  和  微量  元素  ，  大枣  中  的  维生素  P  含量  为  所有  果蔬  之冠  。  脂肪  ，  淀粉  ，  芦丁  ，  尼克酸  以及  矿物质  。  干枣  所  含  的  矿物质  和  热量  为  鲜枣  的  2~3  倍  。
+        </segment>
+
+        <pos>
+            枣能#NR  提高#VV  人体#NN  免疫力#NN  ，#PU  并#CC  可#VV  抑制#VV  癌细胞#NN  ，#PU  药理#VV  研究#NN  发现#NN  ，#PU  红枣#AD  能#VV  促进#VV  白细胞#NN  的#DEC  生成#NN  ，#PU  降低#VV  血清#NN  胆固醇#NN  ，#PU  提高#VV  血清#NN  白蛋白#NN  ，#PU  保护#VV  肝脏#NN  ，#PU  红枣#NN  中#LC  还#AD  含有#AD  抑制#VV  癌细胞#NN  ，#PU  甚至#AD  可#VV  使#VV  癌细胞#NN  向#P  正常#JJ  细胞#NN  转化#VV  的#DEC  物质#NN  ；#PU
+            经常#AD  食用#VV  鲜枣#NN  的#DEC  人#NN  很少#VV  患#NN  胆结石#NN  ，#PU  这#PN  是#VC  因为#P  鲜枣#NN  中#LC  丰富#VA  的#DEC  维生素C#NN  ，#PU  使#VV  体内#NN  多余#NN  的#DEG  胆固醇#NN  转变#NN  为#P  胆汁酸#VV  ，#PU  胆固醇#NN  少#VA  了#AS  ，#PU  结石#AD  形成#VV  的#DEC  概率#NN  也#AD  就#AD  随之#AD  减少#VV  ；#PU
+            枣中#NN  富含#VV  钙#NN  和#CC  铁#NN  ，#PU  它们#PN  对#P  防治#NN  骨质#NN  疏松#NN  产#VV  贫血#NN  有#VE  重要#JJ  作用#NN  ，#PU  中老年人#NN  更年期#NN  经常#AD  会#VV  骨质#VV  疏松#NN  ，#PU  正在#AD  生长#NN  发育#VV  高峰#NN  的#DEC  青少年#NN  和#CC  女性#NN  容易#VA  发生#VV  贫血#NN  ，#PU  大枣#NN  对#P  他们#PN  会#VV  有#VE  十分#AD  理想#VA  的#DEC  食疗#JJ  作用#NN  ，#PU  其#PN  效果#NN  通常#AD  是#VC  药物#NN  不#AD  能#VV  比拟#VV  的#DEC  ；#PU
+            对#P  病#NN  后体#VV  虚#AD  的#DEC  人#NN  也#AD  有#VE  良好#VA  的#DEC  滋补#JJ  作用#NN  ；#PU
+            枣所含#NN  的#DEG  芦丁#NN  ，#PU  是#VC  一#CD  种#M  使#VV  血管#NN  软化#NN  ，#PU  从而#AD  使#VV  血压#NN  降低#VV  的#DEC  物质#NN  ，#PU  对#P  高血压#NN  病#NN  有#VE  防治#NN  功效#NN  ；#PU
+            枣#NN  还#AD  可以#VV  抗#VV  过敏#NR  、#PU  除腥#NR  臭#NR  怪味#NR  、#PU  宁心#NR  安神#NR  、#PU  益智#NR  健脑#NN  、#PU  增强#VV  食欲#NN  。#PU
+            鲜枣#NN  有#VE  较#AD  高#VA  的#DEC  热量#NN  ，#PU  主要#AD  源于#VV  所含#NN  的#DEC  碳水#NN  化合物#NN  约#AD  23#CD  %#AD  ~#VV  28#CD  %#NN  。#PU
+            鲜枣#NN  含有#NN  丰富#VA  的#DEC  膳食#NN  纤维#NN  ，#PU  维生素#NN  和#CC  微量#NN  元素#NN  ，#PU  大枣#NN  中#LC  的#DEG  维生素#NN  P#NN  含量#NN  为#P  所有#DT  果蔬#NN  之冠#VV    。#PU  脂肪#VV  ，#PU  淀粉#NR  ，#PU  芦丁#VV  ，#PU  尼克酸#VV  以及#CC  矿物质#VV    。#PU  干枣#AD  所#MSP  含#VV  的#DEC  矿物质#NN  和#CC  热量#NN  为#VC  鲜枣#VA  的#DEC  2#CD  ~#NN  3#CD  倍#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 提高#VV, 枣能#NR)  (root, ROOT#null, 提高#VV)  (nn, 免疫力#NN, 人体#NN)  (dobj, 提高#VV, 免疫力#NN)  (cc, 提高#VV, 并#CC)  (mmod, 抑制#VV, 可#VV)  (conj, 提高#VV, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)  (conj, 抑制#VV, 药理#VV)  (nn, 发现#NN, 研究#NN)  (dobj, 药理#VV, 发现#NN)  (advmod, 能#VV, 红枣#AD)  (conj, 抑制#VV, 能#VV)  (relcl, 生成#NN, 促进#VV)  (dobj, 促进#VV, 白细胞#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 能#VV, 生成#NN)  (conj, 抑制#VV, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 抑制#VV, 提高#VV)  (nn, 白蛋白#NN, 血清#NN)  (dobj, 提高#VV, 白蛋白#NN)  (conj, 抑制#VV, 保护#VV)  (dobj, 保护#VV, 肝脏#NN)  (loc, 抑制#VV, 红枣#NN)  (case, 红枣#NN, 中#LC)  (advmod, 抑制#VV, 还#AD)  (advmod, 抑制#VV, 含有#AD)  (conj, 抑制#VV, 抑制#VV)  (dobj, 抑制#VV, 癌细胞#NN)  (advmod, 可#VV, 甚至#AD)  (conj, 抑制#VV, 可#VV)  (relcl, 物质#NN, 使#VV)  (dobj, 使#VV, 癌细胞#NN)  (case, 细胞#NN, 向#P)  (amod, 细胞#NN, 正常#JJ)  (prep, 转化#VV, 细胞#NN)  (dep, 使#VV, 转化#VV)  (mark, 使#VV, 的#DEC)  (dobj, 可#VV, 物质#NN)
+            (advmod, 食用#VV, 经常#AD)  (relcl, 人#NN, 食用#VV)  (dobj, 食用#VV, 鲜枣#NN)  (mark, 食用#VV, 的#DEC)  (nsubj, 很少#VV, 人#NN)  (root, ROOT#null, 很少#VV)  (nn, 胆结石#NN, 患#NN)  (dobj, 很少#VV, 胆结石#NN)  (nsubj, 维生素C#NN, 这#PN)  (cop, 维生素C#NN, 是#VC)  (case, 鲜枣#NN, 因为#P)  (prep, 丰富#VA, 鲜枣#NN)  (case, 鲜枣#NN, 中#LC)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 很少#VV, 维生素C#NN)  (relcl, 概率#NN, 使#VV)  (nn, 多余#NN, 体内#NN)  (assmod, 转变#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (nn, 转变#NN, 胆固醇#NN)  (dobj, 使#VV, 转变#NN)  (case, 胆汁酸#VV, 为#P)  (prep, 形成#VV, 胆汁酸#VV)  (nsubj, 少#VA, 胆固醇#NN)  (ccomp, 胆汁酸#VV, 少#VA)  (asp, 少#VA, 了#AS)  (advmod, 形成#VV, 结石#AD)  (dep, 使#VV, 形成#VV)  (mark, 使#VV, 的#DEC)  (nsubj, 减少#VV, 概率#NN)  (advmod, 减少#VV, 也#AD)  (advmod, 减少#VV, 就#AD)  (advmod, 减少#VV, 随之#AD)  (conj, 很少#VV, 减少#VV)
+            (nsubj, 富含#VV, 枣中#NN)  (conj, 发生#VV, 富含#VV)  (conj, 铁#NN, 钙#NN)  (cc, 铁#NN, 和#CC)  (dobj, 富含#VV, 铁#NN)  (nsubj, 产#VV, 它们#PN)  (case, 疏松#NN, 对#P)  (nn, 疏松#NN, 防治#NN)  (nn, 疏松#NN, 骨质#NN)  (prep, 产#VV, 疏松#NN)  (conj, 富含#VV, 产#VV)  (dobj, 产#VV, 贫血#NN)  (conj, 产#VV, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)  (nn, 更年期#NN, 中老年人#NN)  (nsubj, 骨质#VV, 更年期#NN)  (advmod, 骨质#VV, 经常#AD)  (mmod, 骨质#VV, 会#VV)  (conj, 富含#VV, 骨质#VV)  (dobj, 骨质#VV, 疏松#NN)  (advmod, 发育#VV, 正在#AD)  (prep, 发育#VV, 生长#NN)  (relcl, 女性#NN, 发育#VV)  (dobj, 发育#VV, 高峰#NN)  (mark, 发育#VV, 的#DEC)  (conj, 女性#NN, 青少年#NN)  (cc, 女性#NN, 和#CC)  (nsubj, 容易#VA, 女性#NN)  (conj, 富含#VV, 容易#VA)  (root, ROOT#null, 发生#VV)  (dobj, 发生#VV, 贫血#NN)  (nsubj, 有#VE, 大枣#NN)  (case, 他们#PN, 对#P)  (prep, 有#VE, 他们#PN)  (mmod, 有#VE, 会#VV)  (conj, 发生#VV, 有#VE)  (advmod, 理想#VA, 十分#AD)  (relcl, 作用#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (amod, 作用#NN, 食疗#JJ)  (dobj, 有#VE, 作用#NN)  (nsubj, 比拟#VV, 其#PN)  (nsubj, 比拟#VV, 效果#NN)  (advmod, 比拟#VV, 通常#AD)  (cop, 比拟#VV, 是#VC)  (nsubj, 比拟#VV, 药物#NN)  (neg, 比拟#VV, 不#AD)  (dep, 比拟#VV, 能#VV)  (conj, 发生#VV, 比拟#VV)  (mark, 比拟#VV, 的#DEC)
+            (case, 病#NN, 对#P)  (prep, 后体#VV, 病#NN)  (relcl, 人#NN, 后体#VV)  (advmod, 后体#VV, 虚#AD)  (mark, 后体#VV, 的#DEC)  (nsubj, 有#VE, 人#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 滋补#JJ)  (dobj, 有#VE, 作用#NN)
+            (assmod, 芦丁#NN, 枣所含#NN)  (case, 枣所含#NN, 的#DEG)  (nsubj, 物质#NN, 芦丁#NN)  (cop, 物质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 使#VV)  (nn, 软化#NN, 血管#NN)  (dobj, 使#VV, 软化#NN)  (advmod, 使#VV, 从而#AD)  (dep, 使#VV, 使#VV)  (dobj, 使#VV, 血压#NN)  (dep, 使#VV, 降低#VV)  (mark, 使#VV, 的#DEC)  (root, ROOT#null, 物质#NN)  (case, 病#NN, 对#P)  (nn, 病#NN, 高血压#NN)  (prep, 有#VE, 病#NN)  (conj, 物质#NN, 有#VE)  (nn, 功效#NN, 防治#NN)  (dobj, 有#VE, 功效#NN)
+            (nsubj, 抗#VV, 枣#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 可以#VV)  (root, ROOT#null, 抗#VV)  (conj, 益智#NR, 过敏#NR)  (nn, 益智#NR, 除腥#NR)  (nn, 益智#NR, 臭#NR)  (conj, 益智#NR, 怪味#NR)  (nn, 益智#NR, 宁心#NR)  (conj, 益智#NR, 安神#NR)  (nn, 健脑#NN, 益智#NR)  (dobj, 抗#VV, 健脑#NN)  (conj, 抗#VV, 增强#VV)  (dobj, 增强#VV, 食欲#NN)
+            (dep, 有#VE, 鲜枣#NN)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 较#AD)  (relcl, 热量#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 有#VE, 热量#NN)  (advmod, 源于#VV, 主要#AD)  (relcl, 化合物#NN, 源于#VV)  (dobj, 源于#VV, 所含#NN)  (mark, 源于#VV, 的#DEC)  (nn, 化合物#NN, 碳水#NN)  (nsubj, ~#VV, 化合物#NN)  (advmod, 23#CD, 约#AD)  (dep, ~#VV, 23#CD)  (advmod, ~#VV, %#AD)  (nummod, %#NN, 28#CD)  (dobj, ~#VV, %#NN)
+            (nn, 含有#NN, 鲜枣#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 纤维#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 之冠#VV, 纤维#NN)  (conj, 微量#NN, 维生素#NN)  (cc, 微量#NN, 和#CC)  (nn, 元素#NN, 微量#NN)  (nsubj, 之冠#VV, 元素#NN)  (assmod, 维生素#NN, 大枣#NN)  (case, 大枣#NN, 中#LC)  (case, 大枣#NN, 的#DEG)  (nsubj, 之冠#VV, 维生素#NN)  (nn, 含量#NN, P#NN)  (nsubj, 之冠#VV, 含量#NN)  (case, 果蔬#NN, 为#P)  (det, 果蔬#NN, 所有#DT)  (prep, 之冠#VV, 果蔬#NN)  (root, ROOT#null, 之冠#VV)   (root, ROOT#null, 脂肪#VV)  (nsubj, 芦丁#VV, 淀粉#NR)  (ccomp, 脂肪#VV, 芦丁#VV)  (ccomp, 芦丁#VV, 尼克酸#VV)  (cc, 尼克酸#VV, 以及#CC)  (conj, 尼克酸#VV, 矿物质#VV)   (advmod, 含#VV, 干枣#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 热量#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 热量#NN, 矿物质#NN)  (cc, 热量#NN, 和#CC)  (nsubj, 为#VC, 热量#NN)  (root, ROOT#null, 为#VC)  (relcl, ~#NN, 鲜枣#VA)  (mark, 鲜枣#VA, 的#DEC)  (nummod, ~#NN, 2#CD)  (nummod, 倍#M, 3#CD)  (dep, 为#VC, 倍#M)
+        </parsing>
+
+        <tag>
+            人体免疫力  提高免疫力  抑制癌细胞  促进生成  促进白细胞  血清胆固醇  降低胆固醇  血清白蛋白  提高白蛋白  保护肝脏  正常细胞  食用人  很少胆结石  维生素C丰富  使概率  体内多余  胆固醇转变  富含铁  防治疏松  骨质疏松  中老年人更年期  发育女性  发育高峰  青少年  女性容易  后体人  血管软化  防治功效  益智  过敏  怪味  安神  增强食欲  源于化合物  源于所含  碳水化合物  含有丰富  纤维丰富  膳食纤维  微量  之冠  脂肪  含热量  矿物质  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/baike/145/jij_k.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\587 枣.jpg
+    </picturelocalurl>
+
+</content>

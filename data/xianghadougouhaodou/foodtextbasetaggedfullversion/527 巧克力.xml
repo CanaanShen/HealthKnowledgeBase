@@ -1,0 +1,378 @@
+<content>
+
+    <id>
+        527
+    </id>
+
+    <foodname>
+        巧克力
+    </foodname>
+
+    <firstcategory>
+        休闲食品
+    </firstcategory>
+
+    <secondcategory>
+        食品
+    </secondcategory>
+
+    <alias>
+        朱古力
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            儿童、糖尿病患者忌食。
+        </rawdata>
+
+        <segment>
+            儿童  、  糖尿病  患者  忌食  。
+        </segment>
+
+        <pos>
+            儿童#NN  、#PU  糖尿病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 患者#NN, 儿童#NN)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            儿童  糖尿病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                586
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                40.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                53.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                111
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                114
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                254
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                111.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.61
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            巧克力是以可可浆和可可脂为主要原料制成的一种甜食，巧克力制作致可划分两部分，一为可可豆采收，二为可可豆制作烘焙：可可豆晒干储存后由巧克力原料工厂采买，即开始进行加工过程，大致可依序分为烘焙、压碎、调配与研磨、精炼、去酸、回火铸型等步骤。它不但口感细腻甜美，而且还具有一股浓郁的香气。
+            巧克力是一个外来词Chocolate的译音(粤港澳粤语地区译为“朱古力”），它的起源甚早，始于墨西哥极盛一时的阿斯帝卡王朝最后一任皇帝孟特儒，当时是崇拜巧克力的社会，喜欢以辣椒、番椒、香草豆和香料添加在饮料中，打起泡沫，并以黄金杯子每天喝50CC，是属于宫廷成员的饮料，它的学名Theobroma有“众神的饮料”之意，被视为贵重的强心、利尿的药剂，它对胃液中的蛋白质分解酵素具有活化性的作用，可帮助消化。
+            因为巧克力在制造过程中所加进的成分不同，也造就了它多变的面貌。目前市面上的巧克力，依成分大约可分为黑巧克力（Darkchocolate或纯巧克力）－－乳质含量少于12%；牛奶巧克力（Milkchocolate）－－至少含10%的可可浆及至少12%的乳质；Chocolatecompound－－不含可可脂的巧克力；白巧克力（Whitechocolate）－－不含可可粉的巧克力。其中以牛奶巧克力最为普遍。最近，有人发明了蛋白巧克力，配方中加入了植物蛋白，融合了可可的健康功效和植物蛋白的健康功效，具低热量、高蛋白的特点。 中国目前执行的巧克力行业标准，要求巧克力中可可脂占的比例不低于18%，非可可脂的脂肪含量不超过5%。食品法典委员会（CAC）标准规定可可脂占的比例不低于18%。
+        </rawdata>
+
+        <segment>
+            巧克力  是  以  可可  浆  和  可可脂  为  主要  原料  制成  的  一  种  甜食  ，  巧克力  制作  致  可  划分  两部分  ，  一  为  可可豆  采收  ，  二  为  可可豆  制作  烘焙  ：  可可豆  晒干  储存  后  由  巧克力  原料  工厂  采买  ，  即  开始  进行  加工  过程  ，  大致  可  依序  分为  烘焙  、  压碎  、  调配  与  研磨  、  精炼  、  去酸  、  回火  铸型  等  步骤  。  它  不但  口感  细腻  甜美  ，  而且  还  具有  一  股  浓郁  的  香气  。
+            巧克力  是  一  个  外来词  Chocolate  的  译音  (  粤  港  澳  粤语  地区  译为  “  朱古力  ”  ）  ，  它  的  起源  甚  早  ，  始于  墨西哥  极盛  一时  的  阿斯帝卡  王朝  最后  一  任  皇帝  孟特儒  ，  当时  是  崇拜  巧克力  的  社会  ，  喜欢  以  辣椒  、  番椒  、  香草豆  和  香料  添加  在  饮料  中  ，  打起  泡沫  ，  并  以  黄金  杯子  每  天  喝  50  CC  ，  是  属于  宫廷  成员  的  饮料  ，  它  的  学名  Theobroma  有  “  众神  的  饮料  ”  之  意  ，  被  视为  贵重  的  强心  、  利尿  的  药剂  ，  它  对  胃液  中  的  蛋白质  分解  酵素  具有  活化  性的  作用  ，  可  帮助  消化  。
+            因为  巧克力  在  制造  过程  中  所  加进  的  成分  不同  ，  也  造就  了  它  多变  的  面貌  。  目前  市面  上  的  巧克力  ，  依  成分  大约  可  分为  黑巧克力  （  Darkchocolate  或  纯  巧克力  ）  －－  乳质  含量  少于  12%  ；  牛奶  巧克力  （  Milkchocolate  ）  －－  至少  含  10%  的  可可  浆  及  至少  12%  的  乳质  ；  Chocolatecompound  －－  不含  可可脂  的  巧克力  ；  白巧克力  （  Whitechocolate  ）  －－  不含  可可粉  的  巧克力  。  其中  以  牛奶  巧克力  最为  普遍  。  最近  ，  有  人  发明  了  蛋白  巧克力  ，  配方  中  加入  了  植物  蛋白  ，  融合  了  可可  的  健康  功效  和  植物  蛋白  的  健康  功效  ，  具  低  热量  、  高  蛋白  的  特点  。    中国  目前  执行  的  巧克力  行业  标准  ，  要求  巧克力  中  可可脂  占  的  比例  不  低于  18%  ，  非可可脂  的  脂肪  含量  不  超过  5%  。  食品  法典  委员会  （  CAC  ）  标准  规定  可可脂  占  的  比例  不  低于  18%  。
+        </segment>
+
+        <pos>
+            巧克力#NR  是#VC  以#P  可可#NR  浆#NN  和#CC  可可脂#NN  为#P  主要#JJ  原料#NN  制成#VV  的#DEC  一#CD  种#M  甜食#NN  ，#PU  巧克力#NN  制作#NN  致#VV  可#VV  划分#NN  两部分#NN  ，#PU  一#AD  为#P  可可豆#NN  采收#NN  ，#PU  二#CD  为#P  可可豆#NR  制作#VV  烘焙#NN  ：#PU  可可豆#NN  晒干#NN  储存#VV  后#LC  由#P  巧克力#NN  原料#NN  工厂#NN  采买#VV  ，#PU  即#AD  开始#VV  进行#VV  加工#NN  过程#NN  ，#PU  大致#NR  可#VV  依序#NN  分为#VV  烘焙#NR  、#PU  压碎#NR  、#PU  调配#NR  与#CC  研磨#NR  、#PU  精炼#NR  、#PU  去酸#NR  、#PU  回火#NR  铸型#NR  等#ETC  步骤#NN    。#PU  它#PN  不但#CC  口感#AD  细腻#VV  甜美#NN  ，#PU  而且#CC  还#AD  具有#VV  一#CD  股#M  浓郁#VA  的#DEC  香气#NN    。#PU    。#PU
+            巧克力#NR  是#VC  一#CD  个#M  外来词#NN  Chocolate#NN  的#DEC  译音#NN  -LRB-#VV  粤#NR  港#NR  澳#NR  粤语#NN  地区#NN  译为#JJ  ``#NN  朱古力#NN  ''#NN  ）#PU  ，#PU  它#PN  的#DEG  起源#NN  甚#AD  早#VA  ，#PU  始于#VV  墨西哥#NR  极盛#NN  一时#NN  的#DEC  阿斯帝卡#NN  王朝#NN  最后#AD  一#CD  任#VV  皇帝#NN  孟特儒#NN  ，#PU  当时#NT  是#VC  崇拜#VV  巧克力#NR  的#DEG  社会#NN  ，#PU  喜欢#VV  以#P  辣椒#NR  、#PU  番椒#NR  、#PU  香草豆#NR  和#CC  香料#NR  添加#VV  在#P  饮料#NN  中#LC  ，#PU  打起#VV  泡沫#NN  ，#PU  并#CC  以#P  黄金#NN  杯子#VV  每#DT  天#M  喝#NN  50#CD  CC#NN  ，#PU  是#VC  属于#VV  宫廷#NN  成员#NN  的#DEC  饮料#NN  ，#PU  它#PN  的#DEG  学名#NN  Theobroma#VV  有#VE  ``#NN  众神#NN  的#DEG  饮料#NN  ''#NN  之#DEC  意#NR  ，#PU  被#SB  视为#VV  贵重#NR  的#DEG  强心#NN  、#PU  利尿#NN  的#DEC  药剂#NN  ，#PU  它#PN  对#P  胃液#NN  中#LC  的#DEG  蛋白质#NN  分解#VV  酵素#AD  具有#VV  活化#NN  性的#NN  作用#NN  ，#PU  可#VV  帮助#NN  消化#NN  。#PU
+            因为#P  巧克力#AD  在#P  制造#NN  过程#NN  中#LC  所#MSP  加进#VV  的#DEC  成分#NN  不同#VA  ，#PU  也#AD  造就#VV  了#AS  它#PN  多变#NN  的#DEG  面貌#NN    。#PU  目前#NT  市面#NT  上#LC  的#DEG  巧克力#NN  ，#PU  依#P  成分#NN  大约#AD  可#VV  分为#VV  黑巧克力#NR  （#PU  Darkchocolate#NN  或#CC  纯#JJ  巧克力#NN  ）#PU  －#PU  －#PU  乳质#VV  含量#NN  少于#VV  12#CD  %#NN  ；#PU  牛奶#NN  巧克力#NR  （#PU  Milkchocolate#NN  ）#PU  －#PU  －#PU  至少#AD  含#VV  10#CD  %#NN  的#DEC  可可#JJ  浆#NN  及#CC  至少#AD  12#CD  %#NN  的#DEC  乳质#CD  ；#PU  Chocolatecompound#CD  －#PU  －#PU  不含#NN  可可脂#NN  的#DEG  巧克力#CD  ；#PU  白巧克力#CD  （#PU  Whitechocolate#NN  ）#PU  －#PU  －#PU  不含#NN  可可粉#NN  的#DEG  巧克力#NN    。#PU  其中#NN  以#P  牛奶#NN  巧克力#NN  最为#AD  普遍#VA    。#PU  最近#NT  ，#PU  有#VE  人#NN  发明#VV  了#AS  蛋白#NN  巧克力#NN  ，#PU  配方#NN  中#LC  加入#VV  了#AS  植物#NN  蛋白#NN  ，#PU  融合#VV  了#AS  可可#NN  的#DEG  健康#JJ  功效#NN  和#CC  植物#NN  蛋白#NN  的#DEG  健康#JJ  功效#NN  ，#PU  具#VV  低#JJ  热量#NN  、#PU  高#JJ  蛋白#NN  的#DEC  特点#NN    。#PU  中国#NR  目前#NT  执行#VV  的#DEC  巧克力#NN  行业#NN  标准#NN  ，#PU  要求#VV  巧克力#NN  中#LC  可可脂#AD  占#VV  的#DEC  比例#NN  不#AD  低于#VV  18#CD  %#VV  ，#PU  非可可脂#NN  的#DEG  脂肪#NN  含量#NN  不#AD  超过#VV  5#CD  %#NN    。#PU  食品#NN  法典#NN  委员会#NN  （#PU  CAC#NN  ）#PU  标准#NN  规定#VV  可可脂#AD  占#VV  的#DEC  比例#NN  不#AD  低于#VV  18#CD  %#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 甜食#NN, 巧克力#NR)  (cop, 甜食#NN, 是#VC)  (case, 可可脂#NN, 以#P)  (nn, 可可脂#NN, 可可#NR)  (conj, 可可脂#NN, 浆#NN)  (cc, 可可脂#NN, 和#CC)  (prep, 制成#VV, 可可脂#NN)  (case, 原料#NN, 为#P)  (amod, 原料#NN, 主要#JJ)  (prep, 制成#VV, 原料#NN)  (relcl, 甜食#NN, 制成#VV)  (mark, 制成#VV, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 甜食#NN, 种#M)  (conj, 分为#VV, 甜食#NN)  (nn, 制作#NN, 巧克力#NN)  (nsubj, 可#VV, 制作#NN)  (mmod, 可#VV, 致#VV)  (conj, 甜食#NN, 可#VV)  (nn, 两部分#NN, 划分#NN)  (dobj, 可#VV, 两部分#NN)  (prep, 制作#VV, 一#AD)  (case, 采收#NN, 为#P)  (nn, 采收#NN, 可可豆#NN)  (dep, 一#AD, 采收#NN)  (nsubj, 制作#VV, 二#CD)  (case, 可可豆#NR, 为#P)  (prep, 制作#VV, 可可豆#NR)  (conj, 甜食#NN, 制作#VV)  (dobj, 制作#VV, 烘焙#NN)  (nn, 晒干#NN, 可可豆#NN)  (nsubj, 采买#VV, 晒干#NN)  (loc, 采买#VV, 储存#VV)  (case, 储存#VV, 后#LC)  (case, 工厂#NN, 由#P)  (nn, 工厂#NN, 巧克力#NN)  (nn, 工厂#NN, 原料#NN)  (prep, 采买#VV, 工厂#NN)  (conj, 甜食#NN, 采买#VV)  (advmod, 进行#VV, 即#AD)  (mmod, 进行#VV, 开始#VV)  (conj, 甜食#NN, 进行#VV)  (nn, 过程#NN, 加工#NN)  (dobj, 进行#VV, 过程#NN)  (nsubj, 可#VV, 大致#NR)  (conj, 甜食#NN, 可#VV)  (dobj, 可#VV, 依序#NN)  (root, ROOT#null, 分为#VV)  (conj, 铸型#NR, 烘焙#NR)  (conj, 铸型#NR, 压碎#NR)  (conj, 铸型#NR, 调配#NR)  (cc, 铸型#NR, 与#CC)  (conj, 铸型#NR, 研磨#NR)  (conj, 铸型#NR, 精炼#NR)  (conj, 铸型#NR, 去酸#NR)  (nn, 铸型#NR, 回火#NR)  (nn, 步骤#NN, 铸型#NR)  (etc, 铸型#NR, 等#ETC)  (dobj, 分为#VV, 步骤#NN)   (nsubj, 细腻#VV, 它#PN)  (cc, 细腻#VV, 不但#CC)  (advmod, 细腻#VV, 口感#AD)  (root, ROOT#null, 细腻#VV)  (dobj, 细腻#VV, 甜美#NN)  (cc, 细腻#VV, 而且#CC)  (advmod, 具有#VV, 还#AD)  (dep, 细腻#VV, 具有#VV)  (nummod, 股#M, 一#CD)  (clf, 香气#NN, 股#M)  (relcl, 香气#NN, 浓郁#VA)  (mark, 浓郁#VA, 的#DEC)  (dobj, 具有#VV, 香气#NN)   (root, ROOT#null, null#null)
+            (nsubj, Chocolate#NN, 巧克力#NR)  (cop, Chocolate#NN, 是#VC)  (nummod, 个#M, 一#CD)  (clf, Chocolate#NN, 个#M)  (nn, Chocolate#NN, 外来词#NN)  (relcl, 译音#NN, Chocolate#NN)  (mark, Chocolate#NN, 的#DEC)  (nsubj, -LRB-#VV, 译音#NN)  (root, -LRB-#VV, 译音#NN)  (nn, ''#NN, 粤#NR)  (nn, ''#NN, 港#NR)  (nn, 地区#NN, 澳#NR)  (nn, 地区#NN, 粤语#NN)  (nn, ''#NN, 地区#NN)  (amod, ''#NN, 译为#JJ)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 朱古力#NN)  (dobj, 译音#NN, ''#NN)  (dobj, -LRB-#VV, ''#NN)  (assmod, 起源#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 早#VA, 起源#NN)  (advmod, 早#VA, 甚#AD)  (conj, 译音#NN, 早#VA)  (conj, -LRB-#VV, 早#VA)  (relcl, 王朝#NN, 始于#VV)  (nn, 一时#NN, 墨西哥#NR)  (nn, 一时#NN, 极盛#NN)  (dobj, 始于#VV, 一时#NN)  (mark, 始于#VV, 的#DEC)  (nn, 王朝#NN, 阿斯帝卡#NN)  (nsubj, 任#VV, 王朝#NN)  (advmod, 一#CD, 最后#AD)  (dep, 任#VV, 一#CD)  (conj, 译音#NN, 任#VV)  (conj, -LRB-#VV, 任#VV)  (nn, 孟特儒#NN, 皇帝#NN)  (dobj, 任#VV, 孟特儒#NN)  (nsubj, 崇拜#VV, 当时#NT)  (cop, 崇拜#VV, 是#VC)  (conj, 译音#NN, 崇拜#VV)  (conj, -LRB-#VV, 崇拜#VV)  (assmod, 社会#NN, 巧克力#NR)  (case, 巧克力#NR, 的#DEG)  (dobj, 崇拜#VV, 社会#NN)  (conj, 崇拜#VV, 喜欢#VV)  (case, 香料#NR, 以#P)  (conj, 香料#NR, 辣椒#NR)  (conj, 香料#NR, 番椒#NR)  (conj, 香料#NR, 香草豆#NR)  (cc, 香料#NR, 和#CC)  (prep, 添加#VV, 香料#NR)  (ccomp, 喜欢#VV, 添加#VV)  (case, 饮料#NN, 在#P)  (prep, 添加#VV, 饮料#NN)  (case, 饮料#NN, 中#LC)  (conj, 崇拜#VV, 打起#VV)  (dobj, 打起#VV, 泡沫#NN)  (cc, 崇拜#VV, 并#CC)  (case, 黄金#NN, 以#P)  (prep, 杯子#VV, 黄金#NN)  (conj, 崇拜#VV, 杯子#VV)  (det, 喝#NN, 每#DT)  (clf, 每#DT, 天#M)  (nn, CC#NN, 喝#NN)  (nummod, CC#NN, 50#CD)  (dobj, 杯子#VV, CC#NN)  (cop, 饮料#NN, 是#VC)  (relcl, 饮料#NN, 属于#VV)  (nn, 成员#NN, 宫廷#NN)  (dobj, 属于#VV, 成员#NN)  (mark, 属于#VV, 的#DEC)  (conj, 崇拜#VV, 饮料#NN)  (assmod, 学名#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, Theobroma#VV, 学名#NN)  (conj, 译音#NN, Theobroma#VV)  (conj, -LRB-#VV, Theobroma#VV)  (relcl, 意#NR, 有#VE)  (nn, 众神#NN, ``#NN)  (assmod, ''#NN, 众神#NN)  (case, 众神#NN, 的#DEG)  (nn, ''#NN, 饮料#NN)  (dobj, 有#VE, ''#NN)  (mark, 有#VE, 之#DEC)  (dobj, Theobroma#VV, 意#NR)  (auxpass, 视为#VV, 被#SB)  (relcl, 药剂#NN, 视为#VV)  (assmod, 利尿#NN, 贵重#NR)  (case, 贵重#NR, 的#DEG)  (conj, 利尿#NN, 强心#NN)  (dobj, 视为#VV, 利尿#NN)  (mark, 视为#VV, 的#DEC)  (nsubj, 具有#VV, 药剂#NN)  (nsubj, 具有#VV, 它#PN)  (case, 蛋白质#NN, 对#P)  (assmod, 蛋白质#NN, 胃液#NN)  (case, 胃液#NN, 中#LC)  (case, 胃液#NN, 的#DEG)  (prep, 具有#VV, 蛋白质#NN)  (mmod, 具有#VV, 分解#VV)  (advmod, 具有#VV, 酵素#AD)  (conj, 译音#NN, 具有#VV)  (conj, -LRB-#VV, 具有#VV)  (nn, 作用#NN, 活化#NN)  (nn, 作用#NN, 性的#NN)  (dobj, 具有#VV, 作用#NN)  (dep, 具有#VV, 可#VV)  (nn, 消化#NN, 帮助#NN)  (dobj, 可#VV, 消化#NN)
+            (case, 不同#VA, 因为#P)  (advmod, 加进#VV, 巧克力#AD)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 制造#NN)  (prep, 加进#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (prtmod, 加进#VV, 所#MSP)  (relcl, 成分#NN, 加进#VV)  (mark, 加进#VV, 的#DEC)  (nsubj, 不同#VA, 成分#NN)  (prep, 造就#VV, 不同#VA)  (advmod, 造就#VV, 也#AD)  (root, ROOT#null, 造就#VV)  (asp, 造就#VV, 了#AS)  (nn, 多变#NN, 它#PN)  (assmod, 面貌#NN, 多变#NN)  (case, 多变#NN, 的#DEG)  (dobj, 造就#VV, 面貌#NN)   (nn, 市面#NT, 目前#NT)  (assmod, 巧克力#NN, 市面#NT)  (case, 市面#NT, 上#LC)  (case, 市面#NT, 的#DEG)  (nsubj, 可#VV, 巧克力#NN)  (case, 成分#NN, 依#P)  (prep, 可#VV, 成分#NN)  (advmod, 可#VV, 大约#AD)  (conj, 分为#VV, 可#VV)  (root, ROOT#null, 分为#VV)  (dep, Whitechocolate#NN, 黑巧克力#NR)  (conj, 巧克力#NN, Darkchocolate#NN)  (cc, 巧克力#NN, 或#CC)  (amod, 巧克力#NN, 纯#JJ)  (prnmod, 黑巧克力#NR, 巧克力#NN)  (relcl, Whitechocolate#NN, 乳质#VV)  (nsubj, 少于#VV, 含量#NN)  (dep, 白巧克力#CD, 少于#VV)  (nummod, %#NN, 12#CD)  (dep, %#NN, %#NN)  (nn, 浆#NN, 牛奶#NN)  (nn, 浆#NN, 巧克力#NR)  (prnmod, 巧克力#NR, Milkchocolate#NN)  (advmod, 含#VV, 至少#AD)  (prnmod, 浆#NN, 含#VV)  (nummod, %#NN, 10#CD)  (dobj, 含#VV, %#NN)  (mark, 含#VV, 的#DEC)  (amod, 浆#NN, 可可#JJ)  (conj, %#NN, 浆#NN)  (cc, %#NN, 及#CC)  (advmod, 12#CD, 至少#AD)  (nummod, %#NN, 12#CD)  (dobj, 少于#VV, %#NN)  (mark, 少于#VV, 的#DEC)  (nummod, Chocolatecompound#CD, 乳质#CD)  (dep, 白巧克力#CD, Chocolatecompound#CD)  (prnmod, 可可脂#NN, 不含#NN)  (assmod, 白巧克力#CD, 可可脂#NN)  (case, 可可脂#NN, 的#DEG)  (nummod, 白巧克力#CD, 巧克力#CD)  (range, 乳质#VV, 白巧克力#CD)  (dobj, 分为#VV, Whitechocolate#NN)  (prnmod, 可可粉#NN, 不含#NN)  (assmod, 巧克力#NN, 可可粉#NN)  (case, 可可粉#NN, 的#DEG)  (prnmod, Whitechocolate#NN, 巧克力#NN)   (nsubj, 普遍#VA, 其中#NN)  (case, 巧克力#NN, 以#P)  (nn, 巧克力#NN, 牛奶#NN)  (prep, 普遍#VA, 巧克力#NN)  (advmod, 普遍#VA, 最为#AD)  (root, ROOT#null, 普遍#VA)   (tmod, 有#VE, 最近#NT)  (root, ROOT#null, 有#VE)  (nsubj, 发明#VV, 人#NN)  (relcl, 特点#NN, 发明#VV)  (asp, 发明#VV, 了#AS)  (nn, 巧克力#NN, 蛋白#NN)  (dobj, 发明#VV, 巧克力#NN)  (loc, 加入#VV, 配方#NN)  (case, 配方#NN, 中#LC)  (conj, 发明#VV, 加入#VV)  (asp, 加入#VV, 了#AS)  (nn, 蛋白#NN, 植物#NN)  (dobj, 加入#VV, 蛋白#NN)  (conj, 发明#VV, 融合#VV)  (asp, 融合#VV, 了#AS)  (assmod, 功效#NN, 可可#NN)  (case, 可可#NN, 的#DEG)  (amod, 功效#NN, 健康#JJ)  (conj, 蛋白#NN, 功效#NN)  (cc, 蛋白#NN, 和#CC)  (nn, 蛋白#NN, 植物#NN)  (assmod, 功效#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (amod, 功效#NN, 健康#JJ)  (dobj, 融合#VV, 功效#NN)  (conj, 发明#VV, 具#VV)  (amod, 热量#NN, 低#JJ)  (conj, 蛋白#NN, 热量#NN)  (amod, 蛋白#NN, 高#JJ)  (dobj, 具#VV, 蛋白#NN)  (mark, 发明#VV, 的#DEC)  (dobj, 有#VE, 特点#NN)   (nn, 行业#NN, 中国#NR)  (tmod, 执行#VV, 目前#NT)  (relcl, 中国#NR, 执行#VV)  (relcl, 行业#NN, 执行#VV)  (mark, 执行#VV, 的#DEC)  (nn, 行业#NN, 巧克力#NN)  (nn, 标准#NN, 行业#NN)  (nsubj, 低于#VV, 标准#NN)  (relcl, 比例#NN, 要求#VV)  (loc, 占#VV, 巧克力#NN)  (case, 巧克力#NN, 中#LC)  (advmod, 占#VV, 可可脂#AD)  (ccomp, 要求#VV, 占#VV)  (mark, 要求#VV, 的#DEC)  (nsubj, 低于#VV, 比例#NN)  (neg, 低于#VV, 不#AD)  (dep, %#VV, 低于#VV)  (range, 低于#VV, 18#CD)  (root, ROOT#null, %#VV)  (assmod, 含量#NN, 非可可脂#NN)  (case, 非可可脂#NN, 的#DEG)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 超过#VV, 含量#NN)  (neg, 超过#VV, 不#AD)  (ccomp, %#VV, 超过#VV)  (nummod, %#NN, 5#CD)  (dobj, 超过#VV, %#NN)   (nn, 委员会#NN, 食品#NN)  (nn, 委员会#NN, 法典#NN)  (nn, 标准#NN, 委员会#NN)  (prnmod, 标准#NN, CAC#NN)  (nsubj, 规定#VV, 标准#NN)  (root, ROOT#null, 规定#VV)  (advmod, 占#VV, 可可脂#AD)  (relcl, 比例#NN, 占#VV)  (mark, 占#VV, 的#DEC)  (nsubj, 低于#VV, 比例#NN)  (neg, 低于#VV, 不#AD)  (ccomp, 规定#VV, 低于#VV)  (nummod, %#NN, 18#CD)  (dobj, 低于#VV, %#NN)
+        </parsing>
+
+        <tag>
+            制成甜食  划分两部分  可可豆采收  制作烘焙  可可豆晒干  原料工厂  加工过程  进行过程  铸型  压碎  调配  研磨  精炼  去酸  分为步骤  细腻甜美  香气浓郁  外来词Chocolate  粤语地区  始于王朝  极盛一时  始于一时  阿斯帝卡王朝  皇帝孟特儒  崇拜社会  香料  辣椒  番椒  香草豆  打起泡沫  杯子CC  属于饮料  宫廷成员  属于成员  视为药剂  强心  视为利尿  蛋白质  帮助消化  制造过程  造就面貌  乳质Whitechocolate  可可浆  分为Whitechocolate  发明特点  植物蛋白  加入蛋白  健康功效  融合功效  低热量  高蛋白  执行中国  执行行业  行业标准  要求比例  食品委员会  法典委员会  委员会标准  规定  占比例  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提高记忆力
+            巧克力对于集中注意力、加强记忆力和提高智力郡有作用。有些司机把巧克力作为提高驾驶能力的“精神振奋剂”；考试的学子也可用来健脑。
+            2.预防心血管疾病
+            吃巧克力有利于控制胆固醇的含量，保持毛细血管的弹性，具有防治心血管循环疾病的作用。
+            3.增强免疫力
+            巧克力中含有的儿茶酸与茶中的含量一样多。儿茶酸能增强免疫力，预防癌症，干扰肿瘤的供血。
+            4.延缓衰老
+            瑞士研究发现，男性常吃巧克力还能防治感冒。巧克力是抗氧化食品，对延缓衰老有一定功效。
+            5.令人愉快的食物
+            巧克力能缓解情绪低落，使人兴奋。
+            6.助产大力士
+            巧克力含有丰富的碳水化合物、脂肪、蛋白质和各类矿物质，人体对其吸收消化的速度很快，因而它被专家们称之为“助产大力士”，产妇在临产前如果适当吃些巧克力，可以得到足够的力量促使子宫口尽快开大，顺利分娩，对母婴都是十分有益的。
+        </rawdata>
+
+        <segment>
+            提高  记忆力
+            巧克力  对于  集中  注意力  、  加强  记忆力  和  提高  智力  郡  有  作用  。  有些  司机  把  巧克力  作为  提高  驾驶  能力  的  “  精神  振奋剂  ”  ；  考试  的  学子  也  可  用来  健脑  。
+            预防  心  血管  疾病
+            吃  巧克力  有利于  控制  胆固醇  的  含量  ，  保持  毛细  血管  的  弹性  ，  具有  防治  心血管  循环  疾病  的  作用  。
+            增强  免疫力
+            巧克力  中  含有  的  儿茶  酸  与  茶  中  的  含量  一样  多  。  儿茶  酸  能  增强  免疫力  ，  预防  癌症  ，  干扰  肿瘤  的  供血  。
+            延缓  衰老
+            瑞士  研究  发现  ，  男性  常  吃  巧克力  还  能  防治  感冒  。  巧克力  是  抗氧化  食品  ，  对  延缓  衰老  有一定  功效  。
+            令  人  愉快  的  食物
+            巧克力  能  缓解  情绪  低落  ，  使  人  兴奋  。
+            助产  大力士
+            巧克力  含有  丰富  的  碳水化合物  、  脂肪  、  蛋白质  和  各  类  矿物质  ，  人体  对其  吸收  消化  的  速度  很  快  ，  因而  它  被  专家们  称之为  “  助产  大力士  ”  ，  产妇  在  临产  前  如果  适当  吃  些  巧克力  ，  可以  得到  足够  的  力量  促使  子宫  口  尽快  开大  ，  顺利  分娩  ，  对  母婴  都  是  十分  有益的  。
+        </segment>
+
+        <pos>
+            提高#VV  记忆力#NN
+            巧克力#NN  对于#P  集中#VV  注意力#NN  、#PU  加强#VV  记忆力#NN  和#CC  提高#VV  智力#NN  郡#NN  有#VE  作用#NN    。#PU  有些#DT  司机#NN  把#BA  巧克力#NN  作为#P  提高#VV  驾驶#VV  能力#NN  的#DEC  ``#NN  精神#NN  振奋剂#VV  ''#CD  ；#PU  考试#CD  的#DEG  学子#NN  也#AD  可#VV  用来#VV  健脑#NN    。#PU    。#PU
+            预防#VV  心#NN  血管#NN  疾病#NN
+            吃#VV  巧克力#AD  有利于#VV  控制#VV  胆固醇#NN  的#DEC  含量#NN  ，#PU  保持#VV  毛细#NN  血管#NN  的#DEG  弹性#NN  ，#PU  具有#VV  防治#NN  心血管#NN  循环#JJ  疾病#NN  的#DEG  作用#NN  。#PU
+            增强#VV  免疫力#NN
+            巧克力#NN  中#LC  含有#NN  的#DEG  儿茶#NN  酸#NN  与#P  茶#NN  中#LC  的#DEG  含量#NN  一样#VA  多#VA    。#PU  儿茶#NN  酸#NN  能#VV  增强#VV  免疫力#NN  ，#PU  预防#VV  癌症#NN  ，#PU  干扰#NN  肿瘤#NN  的#DEG  供血#NN    。#PU    。#PU
+            延缓#NN  衰老#VV
+            瑞士#NR  研究#NN  发现#VV  ，#PU  男性#NN  常#AD  吃#VV  巧克力#NN  还#AD  能#VV  防治#VV  感冒#NN    。#PU  巧克力#AD  是#VC  抗氧化#JJ  食品#NN  ，#PU  对#P  延缓#NN  衰老#VV  有一定#CD  功效#NN    。#PU    。#PU
+            令#VV  人#NN  愉快#VA  的#DEC  食物#NN
+            巧克力#AD  能#VV  缓解#VV  情绪#NN  低落#NN  ，#PU  使#VV  人#NN  兴奋#VA  。#PU
+            助产#NN  大力士#VV
+            巧克力#NR  含有#VV  丰富#VA  的#DEC  碳水化合物#NR  、#PU  脂肪#NR  、#PU  蛋白质#NR  和#CC  各#DT  类#M  矿物质#NN  ，#PU  人体#NN  对其#NN  吸收#VV  消化#NN  的#DEC  速度#NN  很#AD  快#VA  ，#PU  因而#AD  它#PN  被#LB  专家们#NN  称之为#NN  ``#NN  助产#VV  大力士#NN  ''#NN  ，#PU  产妇#NN  在#P  临产#NN  前#LC  如果#CS  适当#AD  吃#VV  些#CD  巧克力#NN  ，#PU  可以#VV  得到#VV  足够#VA  的#DEC  力量#NN  促使#VV  子宫#CD  口#M  尽快#AD  开大#VV  ，#PU  顺利#AD  分娩#VV  ，#PU  对#P  母婴#NR  都#AD  是#VC  十分#AD  有益的#VV  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 记忆力#NN)
+            (nsubj, 有#VE, 巧克力#NN)  (case, 集中#VV, 对于#P)  (prep, 有#VE, 集中#VV)  (dobj, 集中#VV, 注意力#NN)  (conj, 集中#VV, 加强#VV)  (dobj, 加强#VV, 记忆力#NN)  (cc, 集中#VV, 和#CC)  (conj, 集中#VV, 提高#VV)  (nn, 郡#NN, 智力#NN)  (dobj, 提高#VV, 郡#NN)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 作用#NN)   (det, 司机#NN, 有些#DT)  (nsubj, 振奋剂#VV, 司机#NN)  (ba, 振奋剂#VV, 把#BA)  (nsubj, 振奋剂#VV, 巧克力#NN)  (case, 精神#NN, 作为#P)  (relcl, 精神#NN, 提高#VV)  (rcomp, 提高#VV, 驾驶#VV)  (dobj, 提高#VV, 能力#NN)  (mark, 提高#VV, 的#DEC)  (nn, 精神#NN, ``#NN)  (prep, 振奋剂#VV, 精神#NN)  (root, ROOT#null, 振奋剂#VV)  (nummod, 考试#CD, ''#CD)  (assmod, 学子#NN, 考试#CD)  (case, 考试#CD, 的#DEG)  (dobj, 振奋剂#VV, 学子#NN)  (advmod, 用来#VV, 也#AD)  (mmod, 用来#VV, 可#VV)  (dep, 振奋剂#VV, 用来#VV)  (dobj, 用来#VV, 健脑#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 心#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (root, ROOT#null, 吃#VV)  (advmod, 有利于#VV, 巧克力#AD)  (relcl, 含量#NN, 有利于#VV)  (ccomp, 有利于#VV, 控制#VV)  (dobj, 控制#VV, 胆固醇#NN)  (mark, 有利于#VV, 的#DEC)  (dobj, 吃#VV, 含量#NN)  (conj, 吃#VV, 保持#VV)  (nn, 血管#NN, 毛细#NN)  (assmod, 弹性#NN, 血管#NN)  (case, 血管#NN, 的#DEG)  (dobj, 保持#VV, 弹性#NN)  (conj, 吃#VV, 具有#VV)  (nn, 心血管#NN, 防治#NN)  (nn, 疾病#NN, 心血管#NN)  (amod, 疾病#NN, 循环#JJ)  (assmod, 作用#NN, 疾病#NN)  (case, 疾病#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)
+            (loc, 一样#VA, 巧克力#NN)  (case, 巧克力#NN, 中#LC)  (assmod, 酸#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 酸#NN, 儿茶#NN)  (nsubj, 一样#VA, 酸#NN)  (case, 含量#NN, 与#P)  (assmod, 含量#NN, 茶#NN)  (case, 茶#NN, 中#LC)  (case, 茶#NN, 的#DEG)  (prep, 一样#VA, 含量#NN)  (dep, 多#VA, 一样#VA)  (root, ROOT#null, 多#VA)   (nn, 酸#NN, 儿茶#NN)  (nsubj, 增强#VV, 酸#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (dobj, 增强#VV, 免疫力#NN)  (conj, 增强#VV, 预防#VV)  (dobj, 预防#VV, 癌症#NN)  (nn, 肿瘤#NN, 干扰#NN)  (assmod, 供血#NN, 肿瘤#NN)  (case, 肿瘤#NN, 的#DEG)  (conj, 增强#VV, 供血#NN)   (root, ROOT#null, null#null)
+            (nsubj, 衰老#VV, 延缓#NN)  (root, ROOT#null, 衰老#VV)
+            (nn, 研究#NN, 瑞士#NR)  (nsubj, 发现#VV, 研究#NN)  (xsubj, 防治#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 吃#VV, 男性#NN)  (advmod, 吃#VV, 常#AD)  (dep, 防治#VV, 吃#VV)  (dobj, 吃#VV, 巧克力#NN)  (advmod, 防治#VV, 还#AD)  (mmod, 防治#VV, 能#VV)  (ccomp, 发现#VV, 防治#VV)  (dobj, 防治#VV, 感冒#NN)   (advmod, 食品#NN, 巧克力#AD)  (cop, 食品#NN, 是#VC)  (amod, 食品#NN, 抗氧化#JJ)  (root, ROOT#null, 食品#NN)  (case, 延缓#NN, 对#P)  (prep, 衰老#VV, 延缓#NN)  (dep, 食品#NN, 衰老#VV)  (nummod, 功效#NN, 有一定#CD)  (dobj, 衰老#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (relcl, 食物#NN, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 愉快#VA)  (mark, 令#VV, 的#DEC)  (root, ROOT#null, 食物#NN)
+            (advmod, 缓解#VV, 巧克力#AD)  (mmod, 缓解#VV, 能#VV)  (conj, 使#VV, 缓解#VV)  (nn, 低落#NN, 情绪#NN)  (dobj, 缓解#VV, 低落#NN)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 兴奋#VA)
+            (nsubj, 大力士#VV, 助产#NN)  (root, ROOT#null, 大力士#VV)
+            (nsubj, 含有#VV, 巧克力#NR)  (root, ROOT#null, 含有#VV)  (relcl, 蛋白质#NR, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 蛋白质#NR, 碳水化合物#NR)  (conj, 蛋白质#NR, 脂肪#NR)  (conj, 矿物质#NN, 蛋白质#NR)  (cc, 矿物质#NN, 和#CC)  (det, 矿物质#NN, 各#DT)  (clf, 各#DT, 类#M)  (dobj, 含有#VV, 矿物质#NN)  (nn, 对其#NN, 人体#NN)  (nsubj, 吸收#VV, 对其#NN)  (relcl, 速度#NN, 吸收#VV)  (dobj, 吸收#VV, 消化#NN)  (mark, 吸收#VV, 的#DEC)  (nsubj, 快#VA, 速度#NN)  (advmod, 快#VA, 很#AD)  (conj, 含有#VV, 快#VA)  (advmod, 被#LB, 因而#AD)  (nsubj, 被#LB, 它#PN)  (xsubj, 开大#VV, 它#PN)  (conj, 含有#VV, 被#LB)  (nn, ``#NN, 专家们#NN)  (nn, ``#NN, 称之为#NN)  (nsubj, 助产#VV, ``#NN)  (dep, 被#LB, 助产#VV)  (nn, ''#NN, 大力士#NN)  (dobj, 助产#VV, ''#NN)  (dep, 吃#VV, 产妇#NN)  (case, 临产#NN, 在#P)  (prep, 吃#VV, 临产#NN)  (case, 临产#NN, 前#LC)  (dep, 适当#AD, 如果#CS)  (advmod, 吃#VV, 适当#AD)  (dep, 被#LB, 吃#VV)  (nummod, 巧克力#NN, 些#CD)  (dobj, 吃#VV, 巧克力#NN)  (mmod, 得到#VV, 可以#VV)  (conj, 被#LB, 得到#VV)  (relcl, 力量#NN, 足够#VA)  (mark, 足够#VA, 的#DEC)  (dobj, 得到#VV, 力量#NN)  (dep, 得到#VV, 促使#VV)  (nummod, 口#M, 子宫#CD)  (range, 促使#VV, 口#M)  (advmod, 开大#VV, 尽快#AD)  (dep, 促使#VV, 开大#VV)  (advmod, 分娩#VV, 顺利#AD)  (conj, 被#LB, 分娩#VV)  (case, 母婴#NR, 对#P)  (prep, 有益的#VV, 母婴#NR)  (advmod, 有益的#VV, 都#AD)  (cop, 有益的#VV, 是#VC)  (advmod, 有益的#VV, 十分#AD)  (conj, 被#LB, 有益的#VV)
+        </parsing>
+
+        <tag>
+            提高记忆力  集中注意力  加强记忆力  提高郡  提高精神  提高能力  振奋剂学子  用来健脑  血管疾病  预防疾病  控制胆固醇  毛细血管  保持弹性  防治心血管  心血管疾病  循环疾病  增强免疫力  酸一样  预防癌症  干扰肿瘤  防治感冒  抗氧化食品  衰老功效  令食物  情绪低落  缓解低落  蛋白质丰富  碳水化合物  脂肪  含有矿物质  吸收速度  吸收消化  力量足够  得到力量  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            巧克力首先从可可中分离出的脂肪(即可可脂)是由饱和脂肪酸(软脂酸和硬脂酸)、单不饱和脂肪酸以及其它少量(低于5％)脂肪酸组成。巧克力中除了合有脂肪和结构简单的糖之外，还富含大量的必需矿物质,尤其是美、铜、钾和锰。实际上还含有适量的锌和铁。
+        </rawdata>
+
+        <segment>
+            巧克力  首先  从  可可  中  分离出  的  脂肪  (  即  可可脂  )  是  由  饱和  脂肪酸  (  软脂酸  和  硬脂酸  )  、  单不  饱和  脂肪酸  以及  其它  少量  (  低于  5％  )  脂肪酸  组成  。  巧克力  中  除了  合有  脂肪  和  结构  简单  的  糖  之外  ，  还  富含  大量  的  必需  矿物质  ,  尤其是  美  、  铜  、  钾和锰  。  实际上  还  含有  适量  的  锌  和  铁  。
+        </segment>
+
+        <pos>
+            巧克力#NN  首先#AD  从#P  可可#NN  中#LC  分离出#VV  的#DEC  脂肪#NN  -LRB-#NN  即#AD  可可脂#NN  -RRB-#NN  是#VC  由#P  饱和#NR  脂肪酸#NR  -LRB-#NN  软脂酸#NN  和#CC  硬脂酸#NN  -RRB-#NN  、#PU  单不#NN  饱和#NN  脂肪酸#NN  以及#CC  其它#DT  少量#CD  -LRB-#AD  低于#VV  5#CD  ％#NN  -RRB-#NN  脂肪酸#NN  组成#VV    。#PU  巧克力#NN  中#LC  除了#P  合有#NN  脂肪#NN  和#CC  结构#NN  简单#VA  的#DEC  糖#NN  之外#LC  ，#PU  还#AD  富含#VV  大量#CD  的#DEG  必需#VV  矿物质#NN  ,#VV  尤其是#AD  美#NR  、#PU  铜#NN  、#PU  钾和锰#NN    。#PU  实际上#AD  还#AD  含有#VV  适量#NN  的#DEG  锌#NN  和#CC  铁#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 分离出#VV, 巧克力#NN)  (advmod, 分离出#VV, 首先#AD)  (case, 可可#NN, 从#P)  (prep, 分离出#VV, 可可#NN)  (case, 可可#NN, 中#LC)  (relcl, -LRB-#NN, 分离出#VV)  (mark, 分离出#VV, 的#DEC)  (nn, -LRB-#NN, 脂肪#NN)  (advmod, -RRB-#NN, 即#AD)  (nn, -RRB-#NN, 可可脂#NN)  (cop, 组成#VV, 是#VC)  (case, 脂肪酸#NN, 由#P)  (nn, -RRB-#NN, 饱和#NR)  (nn, -RRB-#NN, 脂肪酸#NR)  (conj, -RRB-#NN, 软脂酸#NN)  (cc, -RRB-#NN, 和#CC)  (nn, -RRB-#NN, 硬脂酸#NN)  (nn, 脂肪酸#NN, 单不#NN)  (nn, 脂肪酸#NN, 饱和#NN)  (conj, 脂肪酸#NN, 脂肪酸#NN)  (cc, 脂肪酸#NN, 以及#CC)  (det, 脂肪酸#NN, 其它#DT)  (dep, 其它#DT, 少量#CD)  (relcl, 脂肪酸#NN, 低于#VV)  (range, 低于#VV, 5#CD)  (nn, 脂肪酸#NN, ％#NN)  (prep, 组成#VV, 脂肪酸#NN)  (root, ROOT#null, 组成#VV)   (loc, 富含#VV, 巧克力#NN)  (case, 巧克力#NN, 中#LC)  (case, 糖#NN, 除了#P)  (nn, 脂肪#NN, 合有#NN)  (conj, 糖#NN, 脂肪#NN)  (cc, 糖#NN, 和#CC)  (nsubj, 简单#VA, 结构#NN)  (relcl, 糖#NN, 简单#VA)  (mark, 简单#VA, 的#DEC)  (prep, 富含#VV, 糖#NN)  (case, 糖#NN, 之外#LC)  (advmod, 富含#VV, 还#AD)  (conj, ,#VV, 富含#VV)  (root, ,#VV, 富含#VV)  (assmod, 矿物质#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nfincl, 矿物质#NN, 必需#VV)  (dobj, 富含#VV, 矿物质#NN)  (advmod, 钾和锰#NN, 尤其是#AD)  (conj, 钾和锰#NN, 美#NR)  (conj, 钾和锰#NN, 铜#NN)  (dobj, 富含#VV, 钾和锰#NN)  (dobj, ,#VV, 钾和锰#NN)   (advmod, 含有#VV, 实际上#AD)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (assmod, 铁#NN, 适量#NN)  (case, 适量#NN, 的#DEG)  (conj, 铁#NN, 锌#NN)  (cc, 铁#NN, 和#CC)  (dobj, 含有#VV, 铁#NN)
+        </parsing>
+
+        <tag>
+            单不脂肪酸  饱和脂肪酸  低于脂肪酸  组成  合有脂肪  结构简单  糖简单  富含矿物质  富含钾和锰  含有铁  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            巧克力可以直接食用，也可被用来制作蛋糕、冰激凌等。
+        </rawdata>
+
+        <segment>
+            巧克力  可以  直接  食用  ，  也  可  被  用  来  制作  蛋糕  、  冰激凌  等  。
+        </segment>
+
+        <pos>
+            巧克力#VV  可以#VV  直接#AD  食用#VV  ，#PU  也#AD  可#VV  被#SB  用#VV  来#MSP  制作#VV  蛋糕#NN  、#PU  冰激凌#NN  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 巧克力#VV)  (mmod, 食用#VV, 可以#VV)  (advmod, 食用#VV, 直接#AD)  (ccomp, 巧克力#VV, 食用#VV)  (advmod, 用#VV, 也#AD)  (mmod, 用#VV, 可#VV)  (auxpass, 用#VV, 被#SB)  (dep, 巧克力#VV, 用#VV)  (prtmod, 制作#VV, 来#MSP)  (dep, 用#VV, 制作#VV)  (conj, 冰激凌#NN, 蛋糕#NN)  (dobj, 制作#VV, 冰激凌#NN)  (etc, 冰激凌#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            蛋糕  制作冰激凌  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/121841329403.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\527 巧克力.jpg
+    </picturelocalurl>
+
+</content>

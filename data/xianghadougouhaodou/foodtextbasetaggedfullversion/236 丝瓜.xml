@@ -1,0 +1,446 @@
+<content>
+
+    <id>
+        236
+    </id>
+
+    <foodname>
+        丝瓜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        天丝瓜、天罗、蜜瓜、布瓜、天吊瓜、纯阳瓜、倒阳菜、水瓜、絮瓜、缣瓜、蛮瓜、绵瓜
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、体虚内寒、腹泻者慎食。
+        </rawdata>
+
+        <segment>
+            孕妇  、  体虚  内  寒  、  腹泻者  慎食  。
+        </segment>
+
+        <pos>
+            孕妇#VV  、#PU  体虚#NN  内#LC  寒#JJ  、#PU  腹泻者#JJ  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 孕妇#VV)  (dep, 慎食#NN, 体虚#NN)  (case, 体虚#NN, 内#LC)  (amod, 慎食#NN, 寒#JJ)  (dep, 寒#JJ, 腹泻者#JJ)  (dep, 孕妇#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            孕妇  体虚内寒  腹泻者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜月经不调者，身体疲乏、痰喘咳嗽、产后乳汁不通的妇女。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  月经  不  调  者  ，  身体  疲乏  、  痰喘  咳嗽  、  产后  乳汁  不通  的  妇女  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  月经#NN  不#AD  调#VA  者#NN  ，#PU  身体#NN  疲乏#NR  、#PU  痰喘#NR  咳嗽#NR  、#PU  产后#NR  乳汁#NN  不通#VA  的#DEC  妇女#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nsubj, 调#VA, 月经#NN)  (neg, 调#VA, 不#AD)  (relcl, 者#NN, 调#VA)  (nsubj, 不通#VA, 者#NN)  (nsubj, 不通#VA, 身体#NN)  (conj, 产后#NR, 疲乏#NR)  (nn, 产后#NR, 痰喘#NR)  (conj, 产后#NR, 咳嗽#NR)  (nn, 乳汁#NN, 产后#NR)  (nsubj, 不通#VA, 乳汁#NN)  (relcl, 妇女#NN, 不通#VA)  (mark, 不通#VA, 的#DEC)  (dobj, 适宜#VV, 妇女#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  月经不调者  身体疲乏  痰喘咳嗽  产后乳汁不通  妇女  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                22.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.22
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                29
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                115
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.86
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水（克）
+            </elename>
+            <elevalue>
+                94.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            丝瓜为葫芦科攀援草本植物，以成熟果实、果络、叶、藤、根及种子入药。它起源于热带亚洲，原产于印度尼西亚(另有一说，原产印度)。大约在宋朝时传入中国，成为人们常吃。的蔬菜。目前，供蔬菜用的丝瓜主要有两种，即普通丝瓜和有棱丝瓜。前者大江南北均有栽培，后者主要在华南栽培。
+            丝瓜的药用价值很高，全身都可入。丝瓜所含各类营养在瓜类食物中较高，所含皂甙类物质、丝瓜苦味质、黏液质、木胶、瓜氨酸、木聚糖和干扰素等特殊物质具有一定的特殊作用。成熟时里面的网状纤维称丝瓜络，可代替海绵用作洗刷灶具及家具；还可供药用，有清凉、利尿、活血、通经、解毒之效。
+        </rawdata>
+
+        <segment>
+            丝瓜  为  葫芦科  攀援  草本  植物  ，  以  成熟  果实  、  果络  、  叶  、  藤  、  根  及  种子  入药  。  它  起源于  热带  亚洲  ，  原  产于  印度尼西亚  (  另  有  一  说  ，  原产  印度  )  。  大约  在  宋朝  时  传入  中国  ，  成为  人们  常  吃  。  的  蔬菜  。  目前  ，  供  蔬菜  用  的  丝瓜  主要  有  两  种  ，  即  普通  丝瓜  和  有棱  丝瓜  。  前者  大江  南北  均  有  栽培  ，  后者  主要  在  华南  栽培  。
+            丝瓜  的  药用  价值  很  高  ，  全身  都  可  入  。  丝瓜  所  含  各  类  营养  在  瓜类  食物  中  较高  ，  所含  皂甙  类  物质  、  丝瓜  苦味  质  、  黏  液质  、  木胶  、  瓜氨酸  、  木  聚糖  和  干扰素  等  特殊  物质  具有  一定  的  特殊  作用  。  成熟  时  里面  的  网状  纤维  称  丝瓜络  ，  可  代替  海绵  用作  洗刷  灶具  及  家具  ；  还  可  供  药用  ，  有  清凉  、  利尿  、  活血  、  通经  、  解毒  之  效  。
+        </segment>
+
+        <pos>
+            丝瓜#NN  为#P  葫芦科#NN  攀援#VV  草本#NN  植物#NN  ，#PU  以#P  成熟#VA  果实#NN  、#PU  果络#NR  、#PU  叶#NR  、#PU  藤#NR  、#PU  根#M  及#VV  种子#NN  入药#VV    。#PU  它#PN  起源于#VV  热带#NN  亚洲#NR  ，#PU  原#JJ  产于#NN  印度尼西亚#NR  -LRB-#NN  另#AD  有#VE  一#CD  说#VV  ，#PU  原产#VV  印度#NR  -RRB-#NN    。#PU  大约#AD  在#P  宋朝#NN  时#LC  传入#VV  中国#NR  ，#PU  成为#VV  人们#NN  常#AD  吃#VV    。#PU  的#NR  蔬菜#NN    。#PU  目前#NT  ，#PU  供#NN  蔬菜#NN  用#VV  的#DEC  丝瓜#NN  主要#AD  有#VE  两#CD  种#M  ，#PU  即#AD  普通#JJ  丝瓜#NN  和#CC  有棱#NN  丝瓜#NN    。#PU  前者#NN  大江#NN  南北#NN  均#AD  有#VE  栽培#VV  ，#PU  后者#PN  主要#AD  在#P  华南#NR  栽培#VV    。#PU    。#PU
+            丝瓜#NN  的#DEG  药用#JJ  价值#NN  很#AD  高#VA  ，#PU  全身#NN  都#AD  可#VV  入#VV    。#PU  丝瓜#NN  所#MSP  含#VV  各#DT  类#M  营养#VA  在#P  瓜类#NN  食物#NN  中#LC  较高#VV  ，#PU  所含#NR  皂甙#CD  类#M  物质#NN  、#PU  丝瓜#NN  苦味#NN  质#NN  、#PU  黏#NN  液质#NN  、#PU  木胶#NN  、#PU  瓜氨酸#NN  、#PU  木#NN  聚糖#NN  和#CC  干扰素#NN  等#ETC  特殊#JJ  物质#NN  具有#VV  一定#JJ  的#DEG  特殊#JJ  作用#NN    。#PU  成熟#VA  时#LC  里面#NN  的#DEG  网状#NN  纤维#NN  称#VV  丝瓜络#NN  ，#PU  可#VV  代替#VV  海绵#AD  用作#VV  洗刷#NN  灶具#NN  及#CC  家具#NN  ；#PU  还#AD  可#VV  供#VV  药用#NN  ，#PU  有#VE  清凉#NR  、#PU  利尿#NR  、#PU  活血#NR  、#PU  通经#NR  、#PU  解毒#NR  之#DEC  效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 攀援#VV, 丝瓜#NN)  (case, 葫芦科#NN, 为#P)  (prep, 攀援#VV, 葫芦科#NN)  (root, ROOT#null, 攀援#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 攀援#VV, 植物#NN)  (case, 种子#NN, 以#P)  (nfincl, 果实#NN, 成熟#VA)  (conj, 种子#NN, 果实#NN)  (conj, 藤#NR, 果络#NR)  (conj, 藤#NR, 叶#NR)  (dep, 种子#NN, 藤#NR)  (clf, 种子#NN, 根#M)  (relcl, 种子#NN, 及#VV)  (prep, 入药#VV, 种子#NN)  (conj, 攀援#VV, 入药#VV)   (nsubj, 起源于#VV, 它#PN)  (root, ROOT#null, 起源于#VV)  (dobj, 起源于#VV, 热带#NN)  (nsubj, 有#VE, 亚洲#NR)  (amod, 产于#NN, 原#JJ)  (nn, -LRB-#NN, 产于#NN)  (nn, -LRB-#NN, 印度尼西亚#NR)  (advmod, 有#VE, 另#AD)  (dep, 起源于#VV, 有#VE)  (dep, 有#VE, 一#CD)  (conj, 起源于#VV, 说#VV)  (ccomp, 说#VV, 原产#VV)  (nn, -RRB-#NN, 印度#NR)   (advmod, 传入#VV, 大约#AD)  (case, 宋朝#NN, 在#P)  (prep, 传入#VV, 宋朝#NN)  (case, 宋朝#NN, 时#LC)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 中国#NR)  (dep, 传入#VV, 成为#VV)  (dobj, 成为#VV, 人们#NN)  (advmod, 吃#VV, 常#AD)  (conj, 成为#VV, 吃#VV)   (nn, 蔬菜#NN, 的#NR)  (root, ROOT#null, 蔬菜#NN)   (tmod, 有#VE, 目前#NT)  (nn, 蔬菜#NN, 供#NN)  (nsubj, 有#VE, 蔬菜#NN)  (relcl, 丝瓜#NN, 用#VV)  (mark, 用#VV, 的#DEC)  (nsubj, 有#VE, 丝瓜#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nummod, 种#M, 两#CD)  (clf, 丝瓜#NN, 种#M)  (advmod, 丝瓜#NN, 即#AD)  (amod, 丝瓜#NN, 普通#JJ)  (conj, 丝瓜#NN, 丝瓜#NN)  (cc, 丝瓜#NN, 和#CC)  (nn, 丝瓜#NN, 有棱#NN)  (dobj, 有#VE, 丝瓜#NN)   (nn, 南北#NN, 前者#NN)  (nn, 南北#NN, 大江#NN)  (nsubj, 有#VE, 南北#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 栽培#VV, 栽培#VV)  (nsubj, 栽培#VV, 后者#PN)  (advmod, 栽培#VV, 主要#AD)  (case, 华南#NR, 在#P)  (prep, 栽培#VV, 华南#NR)  (dep, 有#VE, 栽培#VV)   (root, ROOT#null, null#null)
+            (assmod, 价值#NN, 丝瓜#NN)  (case, 丝瓜#NN, 的#DEG)  (amod, 价值#NN, 药用#JJ)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (nsubj, 入#VV, 全身#NN)  (advmod, 入#VV, 都#AD)  (dep, 入#VV, 可#VV)  (conj, 高#VA, 入#VV)   (nsubj, 含#VV, 丝瓜#NN)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (dep, 含#VV, 各#DT)  (clf, 各#DT, 类#M)  (dep, 含#VV, 营养#VA)  (case, 食物#NN, 在#P)  (nn, 食物#NN, 瓜类#NN)  (prep, 较高#VV, 食物#NN)  (case, 食物#NN, 中#LC)  (dep, 含#VV, 较高#VV)  (nn, 物质#NN, 所含#NR)  (nummod, 类#M, 皂甙#CD)  (clf, 物质#NN, 类#M)  (conj, 干扰素#NN, 物质#NN)  (nn, 干扰素#NN, 丝瓜#NN)  (nn, 干扰素#NN, 苦味#NN)  (conj, 干扰素#NN, 质#NN)  (nn, 干扰素#NN, 黏#NN)  (conj, 干扰素#NN, 液质#NN)  (conj, 干扰素#NN, 木胶#NN)  (conj, 干扰素#NN, 瓜氨酸#NN)  (nn, 干扰素#NN, 木#NN)  (conj, 干扰素#NN, 聚糖#NN)  (cc, 干扰素#NN, 和#CC)  (nn, 物质#NN, 干扰素#NN)  (etc, 干扰素#NN, 等#ETC)  (amod, 物质#NN, 特殊#JJ)  (nsubj, 具有#VV, 物质#NN)  (ccomp, 较高#VV, 具有#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (amod, 作用#NN, 特殊#JJ)  (dobj, 具有#VV, 作用#NN)   (dep, 里面#NN, 成熟#VA)  (case, 成熟#VA, 时#LC)  (assmod, 纤维#NN, 里面#NN)  (case, 里面#NN, 的#DEG)  (nn, 纤维#NN, 网状#NN)  (nsubj, 称#VV, 纤维#NN)  (root, ROOT#null, 称#VV)  (nsubj, 代替#VV, 丝瓜络#NN)  (mmod, 代替#VV, 可#VV)  (ccomp, 称#VV, 代替#VV)  (advmod, 用作#VV, 海绵#AD)  (relcl, 效#NN, 用作#VV)  (nn, 家具#NN, 洗刷#NN)  (conj, 家具#NN, 灶具#NN)  (cc, 家具#NN, 及#CC)  (dobj, 用作#VV, 家具#NN)  (advmod, 供#VV, 还#AD)  (mmod, 供#VV, 可#VV)  (dep, 用作#VV, 供#VV)  (dobj, 供#VV, 药用#NN)  (dep, 供#VV, 有#VE)  (conj, 解毒#NR, 清凉#NR)  (conj, 解毒#NR, 利尿#NR)  (conj, 解毒#NR, 活血#NR)  (conj, 解毒#NR, 通经#NR)  (dobj, 有#VE, 解毒#NR)  (mark, 用作#VV, 之#DEC)  (dobj, 代替#VV, 效#NN)
+        </parsing>
+
+        <tag>
+            草本植物  攀援植物  种子  果实  起源于热带  原产于  传入  成为人们  前者南北  大江南北  药用价值  瓜类食物  苦味干扰素  液质  木胶  瓜氨酸  聚糖  网状纤维  用作效  洗刷家具  灶具  用作家具  解毒  清凉  利尿  活血  通经  代替效  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.润肤美白
+            保护皮肤，消除斑块，防止皮肤老化，是皮肤细嫩不可多得的美容佳品。丝瓜藤和茎的液汁既有保持皮肤弹性的特殊功能。能美容去皱，因此丝瓜有“美人水”之称。
+            2.健脑
+            有利于小儿大脑发育及中老年人大脑健康，而且丝瓜提取物对乙型脑炎病毒有明显的预防作用。
+            3.活血通络
+            有止咳化痰、凉血解毒的作用。外用可以止血消炎、女性多吃对调理月经有帮助。
+            4.解毒消肿
+            丝瓜藤味苦性凉，有通筋活络，祛咳镇痰的作用。丝瓜络味甘性平，有清热解毒，利尿消肿的作用。
+        </rawdata>
+
+        <segment>
+            润肤  美白
+            保护  皮肤  ，  消除  斑块  ，  防止  皮肤  老化  ，  是  皮肤  细嫩  不可多得  的  美容  佳品  。  丝瓜  藤  和茎  的  液汁  既有  保持  皮肤  弹性  的  特殊  功能  。  能  美容  去  皱  ，  因此  丝瓜  有  “  美  人  水  ”  之  称  。
+            健脑
+            有利于  小儿  大脑  发育  及  中老年人  大脑  健康  ，  而且  丝瓜  提  取物  对  乙型  脑炎  病毒  有  明显  的  预防  作用  。
+            活血  通络
+            有  止咳  化痰  、  凉  血  解毒  的  作用  。  外用  可以  止血  消炎  、  女性  多  吃  对  调理  月经  有  帮助  。
+            解毒  消肿
+            丝瓜  藤  味苦性凉  ，  有  通筋  活络  ，  祛咳镇痰  的  作用  。  丝瓜络  味甘性平  ，  有  清热  解毒  ，  利尿  消肿  的  作用  。
+        </segment>
+
+        <pos>
+            润肤#NN  美白#VV
+            保护#VV  皮肤#NN  ，#PU  消除#VV  斑块#NN  ，#PU  防止#VV  皮肤#VV  老化#NN  ，#PU  是#VC  皮肤#NN  细嫩#NN  不可多得#VV  的#DEC  美容#NN  佳品#NN    。#PU  丝瓜#NN  藤#NN  和茎#NN  的#DEG  液汁#NN  既有#AD  保持#VV  皮肤#NN  弹性#NN  的#DEG  特殊#JJ  功能#NN    。#PU  能#VV  美容#VV  去#VV  皱#NN  ，#PU  因此#AD  丝瓜#NN  有#VE  ``#NR  美#NR  人#NN  水#NN  ''#NN  之#DEG  称#NN    。#PU    。#PU
+            健脑#VV
+            有利于#VV  小儿#NN  大脑#AD  发育#VV  及#CC  中老年人#NN  大脑#AD  健康#VA  ，#PU  而且#CC  丝瓜#NN  提#NN  取物#NN  对#P  乙型#JJ  脑炎#NN  病毒#NN  有#VE  明显#VA  的#DEC  预防#NN  作用#NN  。#PU
+            活血#NN  通络#VV
+            有#VE  止咳#NN  化痰#NN  、#PU  凉#NN  血#NN  解毒#NN  的#DEC  作用#NN    。#PU  外用#NR  可以#VV  止血#VV  消炎#NN  、#PU  女性#NN  多#AD  吃#VV  对#P  调理#NN  月经#NN  有#VE  帮助#NN    。#PU    。#PU
+            解毒#NN  消肿#VV
+            丝瓜#NN  藤#NN  味苦性凉#VV  ，#PU  有#VE  通筋#VV  活络#NN  ，#PU  祛咳镇痰#VV  的#DEC  作用#NN    。#PU  丝瓜络#NR  味甘性平#VV  ，#PU  有#VE  清热#NN  解毒#NN  ，#PU  利尿#VV  消肿#NN  的#DEG  作用#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 美白#VV, 润肤#NN)  (root, ROOT#null, 美白#VV)
+            (root, ROOT#null, 保护#VV)  (dobj, 保护#VV, 皮肤#NN)  (conj, 保护#VV, 消除#VV)  (dobj, 消除#VV, 斑块#NN)  (conj, 消除#VV, 防止#VV)  (ccomp, 防止#VV, 皮肤#VV)  (dobj, 皮肤#VV, 老化#NN)  (cop, 佳品#NN, 是#VC)  (nn, 细嫩#NN, 皮肤#NN)  (nsubj, 不可多得#VV, 细嫩#NN)  (relcl, 佳品#NN, 不可多得#VV)  (mark, 不可多得#VV, 的#DEC)  (nn, 佳品#NN, 美容#NN)  (conj, 消除#VV, 佳品#NN)   (nn, 和茎#NN, 丝瓜#NN)  (nn, 和茎#NN, 藤#NN)  (assmod, 液汁#NN, 和茎#NN)  (case, 和茎#NN, 的#DEG)  (nsubj, 保持#VV, 液汁#NN)  (advmod, 保持#VV, 既有#AD)  (root, ROOT#null, 保持#VV)  (nn, 弹性#NN, 皮肤#NN)  (assmod, 功能#NN, 弹性#NN)  (case, 弹性#NN, 的#DEG)  (amod, 功能#NN, 特殊#JJ)  (dobj, 保持#VV, 功能#NN)   (dep, 美容#VV, 能#VV)  (root, ROOT#null, 美容#VV)  (ccomp, 美容#VV, 去#VV)  (dobj, 去#VV, 皱#NN)  (advmod, 有#VE, 因此#AD)  (dep, 有#VE, 丝瓜#NN)  (dep, 美容#VV, 有#VE)  (nn, 美#NR, ``#NR)  (nn, ''#NN, 美#NR)  (nn, ''#NN, 人#NN)  (nn, ''#NN, 水#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 健脑#VV)
+            (root, ROOT#null, 有利于#VV)  (nsubj, 发育#VV, 小儿#NN)  (advmod, 发育#VV, 大脑#AD)  (ccomp, 有利于#VV, 发育#VV)  (cc, 有利于#VV, 及#CC)  (nsubj, 健康#VA, 中老年人#NN)  (advmod, 健康#VA, 大脑#AD)  (dep, 有利于#VV, 健康#VA)  (cc, 有利于#VV, 而且#CC)  (nn, 取物#NN, 丝瓜#NN)  (nn, 取物#NN, 提#NN)  (nsubj, 有#VE, 取物#NN)  (case, 病毒#NN, 对#P)  (amod, 病毒#NN, 乙型#JJ)  (nn, 病毒#NN, 脑炎#NN)  (prep, 有#VE, 病毒#NN)  (dep, 有利于#VV, 有#VE)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 通络#VV, 活血#NN)  (root, ROOT#null, 通络#VV)
+            (relcl, 作用#NN, 有#VE)  (nn, 解毒#NN, 止咳#NN)  (conj, 解毒#NN, 化痰#NN)  (nn, 解毒#NN, 凉#NN)  (nn, 解毒#NN, 血#NN)  (dobj, 有#VE, 解毒#NN)  (mark, 有#VE, 的#DEC)  (root, ROOT#null, 作用#NN)   (nsubj, 止血#VV, 外用#NR)  (mmod, 止血#VV, 可以#VV)  (root, ROOT#null, 止血#VV)  (conj, 女性#NN, 消炎#NN)  (dobj, 止血#VV, 女性#NN)  (advmod, 吃#VV, 多#AD)  (dep, 止血#VV, 吃#VV)  (case, 月经#NN, 对#P)  (nn, 月经#NN, 调理#NN)  (prep, 有#VE, 月经#NN)  (dep, 止血#VV, 有#VE)  (dobj, 有#VE, 帮助#NN)   (root, ROOT#null, null#null)
+            (nsubj, 消肿#VV, 解毒#NN)  (root, ROOT#null, 消肿#VV)
+            (nn, 藤#NN, 丝瓜#NN)  (nsubj, 味苦性凉#VV, 藤#NN)  (root, ROOT#null, 味苦性凉#VV)  (ccomp, 味苦性凉#VV, 有#VE)  (relcl, 作用#NN, 通筋#VV)  (dobj, 通筋#VV, 活络#NN)  (conj, 通筋#VV, 祛咳镇痰#VV)  (mark, 通筋#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nsubj, 味甘性平#VV, 丝瓜络#NR)  (xsubj, 有#VE, 丝瓜络#NR)  (root, ROOT#null, 味甘性平#VV)  (ccomp, 味甘性平#VV, 有#VE)  (nn, 解毒#NN, 清热#NN)  (dobj, 有#VE, 解毒#NN)  (conj, 有#VE, 利尿#VV)  (assmod, 作用#NN, 消肿#NN)  (case, 消肿#NN, 的#DEG)  (dobj, 利尿#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            美白  保护皮肤  消除斑块  皮肤老化  皮肤细嫩  不可多得佳品  美容佳品  皮肤弹性  特殊功能  保持功能  健脑  中老年人健康  乙型病毒  脑炎病毒  通络  止咳解毒  化痰  消炎  止血女性  调理月经  消肿  通筋活络  清热解毒  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜  抗病毒  抗过敏  解毒  凉血  清肺化痰
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.抗坏血病
+            丝瓜中维生素C含量较高，可用于抗坏血病及预防各种维生素C缺乏症。
+            2.健脑美容
+            由于丝瓜中维生素B等含量高，有利于小儿大脑发育及中老年人大脑健康；丝瓜藤茎的汁液具有保持皮肤弹性的特殊功能，能美容去皱。
+            3.抗病毒、抗过敏
+            丝瓜提取物对乙型脑炎病毒有明显预防作用，在丝瓜组织培养液中还提取到一种具抗过敏性物质泻根醇酸，其有很强的抗过敏作用。
+        </rawdata>
+
+        <segment>
+            抗  坏血病
+            丝瓜  中  维生素C  含量  较  高  ，  可  用于  抗  坏血病  及  预防  各  种  维生素C  缺乏症  。
+            健脑  美容
+            由于  丝瓜  中  维生素  B  等  含量  高  ，  有利于  小儿  大脑  发育  及  中老年人  大脑  健康  ；  丝瓜  藤茎  的  汁液  具有  保持  皮肤  弹性  的  特殊  功能  ，  能  美容  去  皱  。
+            抗  病毒  、  抗过敏
+            丝瓜  提  取物  对  乙型  脑炎  病毒  有  明显  预防  作用  ，  在  丝瓜  组织  培养液  中  还  提取  到  一  种  具  抗过敏性  物质  泻根  醇酸  ，  其  有  很  强  的  抗过敏  作用  。
+        </segment>
+
+        <pos>
+            抗#NN  坏血病#VV
+            丝瓜#NN  中#LC  维生素C#NN  含量#NN  较#AD  高#VA  ，#PU  可#VV  用于#VV  抗#NN  坏血病#NN  及#CC  预防#VV  各#DT  种#M  维生素C#NN  缺乏症#NN  。#PU
+            健脑#NN  美容#VV
+            由于#P  丝瓜#NN  中#LC  维生素#NN  B#NN  等#ETC  含量#NN  高#VA  ，#PU  有利于#VV  小儿#NN  大脑#NN  发育#NN  及#CC  中老年人#NN  大脑#NN  健康#VA  ；#PU  丝瓜#NN  藤茎#NN  的#DEG  汁液#NN  具有#VV  保持#VV  皮肤#NN  弹性#NN  的#DEC  特殊#JJ  功能#NN  ，#PU  能#VV  美容#AD  去#VV  皱#NN  。#PU
+            抗#VV  病毒#NN  、#PU  抗过敏#NN
+            丝瓜#NN  提#NN  取物#NN  对#P  乙型#JJ  脑炎#NN  病毒#NN  有#VE  明显#AD  预防#VV  作用#NN  ，#PU  在#P  丝瓜#NN  组织#NN  培养液#NN  中#LC  还#AD  提取#VV  到#VV  一#CD  种#M  具#VV  抗过敏性#NN  物质#NN  泻根#NN  醇酸#NN  ，#PU  其#PN  有#VE  很#AD  强#VA  的#DEC  抗过敏#JJ  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 坏血病#VV, 抗#NN)  (root, ROOT#null, 坏血病#VV)
+            (loc, 高#VA, 丝瓜#NN)  (case, 丝瓜#NN, 中#LC)  (nn, 含量#NN, 维生素C#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (mmod, 用于#VV, 可#VV)  (conj, 高#VA, 用于#VV)  (nn, 坏血病#NN, 抗#NN)  (dobj, 用于#VV, 坏血病#NN)  (cc, 用于#VV, 及#CC)  (conj, 用于#VV, 预防#VV)  (det, 维生素C#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 缺乏症#NN, 维生素C#NN)  (dobj, 预防#VV, 缺乏症#NN)
+            (nsubj, 美容#VV, 健脑#NN)  (root, ROOT#null, 美容#VV)
+            (case, 高#VA, 由于#P)  (loc, 高#VA, 丝瓜#NN)  (case, 丝瓜#NN, 中#LC)  (nn, B#NN, 维生素#NN)  (nn, 含量#NN, B#NN)  (etc, B#NN, 等#ETC)  (nsubj, 高#VA, 含量#NN)  (prep, 去#VV, 高#VA)  (conj, 高#VA, 有利于#VV)  (nn, 大脑#NN, 小儿#NN)  (nn, 大脑#NN, 大脑#NN)  (conj, 大脑#NN, 发育#NN)  (cc, 大脑#NN, 及#CC)  (nn, 大脑#NN, 中老年人#NN)  (dobj, 有利于#VV, 大脑#NN)  (conj, 有利于#VV, 健康#VA)  (nn, 藤茎#NN, 丝瓜#NN)  (assmod, 汁液#NN, 藤茎#NN)  (case, 藤茎#NN, 的#DEG)  (dep, 具有#VV, 汁液#NN)  (dep, 高#VA, 具有#VV)  (relcl, 功能#NN, 保持#VV)  (nn, 弹性#NN, 皮肤#NN)  (dobj, 保持#VV, 弹性#NN)  (mark, 保持#VV, 的#DEC)  (amod, 功能#NN, 特殊#JJ)  (dobj, 具有#VV, 功能#NN)  (mmod, 去#VV, 能#VV)  (advmod, 去#VV, 美容#AD)  (root, ROOT#null, 去#VV)  (dobj, 去#VV, 皱#NN)
+            (root, ROOT#null, 抗#VV)  (conj, 抗过敏#NN, 病毒#NN)  (dobj, 抗#VV, 抗过敏#NN)
+            (nn, 取物#NN, 丝瓜#NN)  (nn, 取物#NN, 提#NN)  (nsubj, 有#VE, 取物#NN)  (case, 病毒#NN, 对#P)  (amod, 病毒#NN, 乙型#JJ)  (nn, 病毒#NN, 脑炎#NN)  (prep, 有#VE, 病毒#NN)  (root, ROOT#null, 有#VE)  (advmod, 预防#VV, 明显#AD)  (relcl, 作用#NN, 预防#VV)  (dobj, 有#VE, 作用#NN)  (case, 培养液#NN, 在#P)  (nn, 培养液#NN, 丝瓜#NN)  (nn, 培养液#NN, 组织#NN)  (prep, 提取#VV, 培养液#NN)  (case, 培养液#NN, 中#LC)  (advmod, 提取#VV, 还#AD)  (conj, 具#VV, 提取#VV)  (rcomp, 提取#VV, 到#VV)  (nummod, 种#M, 一#CD)  (dep, 提取#VV, 种#M)  (conj, 有#VE, 具#VV)  (nn, 醇酸#NN, 抗过敏性#NN)  (nn, 醇酸#NN, 物质#NN)  (nn, 醇酸#NN, 泻根#NN)  (dobj, 具#VV, 醇酸#NN)  (dep, 有#VE, 其#PN)  (conj, 有#VE, 有#VE)  (advmod, 强#VA, 很#AD)  (relcl, 作用#NN, 强#VA)  (mark, 强#VA, 的#DEC)  (amod, 作用#NN, 抗过敏#JJ)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            用于坏血病  维生素C缺乏症  预防缺乏症  美容  小儿大脑  大脑大脑  发育  中老年人大脑  有利于大脑  保持功能  皮肤弹性  保持弹性  特殊功能  乙型病毒  脑炎病毒  组织培养液  抗过敏性醇酸  泻根醇酸  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1. 丝瓜性寒滑，多食易致泄泻；不可生食，可烹食，煎汤服；或捣汁涂敷患处。
+            2. 丝瓜汁水丰富，宜现切现做，以免营养成分随汁水流走。
+            3. 烹制丝瓜时应注意尽量保持清淡，油要少用，可色稀芡，用味精或胡椒粉提味，这样才能显示丝瓜香嫩爽口的特点。
+            4. 丝瓜的味道清甜，烹煮时不宜加酱油和豆瓣酱等口味较重的酱料，以免抢味。　　
+        </rawdata>
+
+        <segment>
+            丝瓜  性  寒滑  ，  多  食  易  致  泄泻  ；  不  可  生食  ，  可烹食  ，  煎汤服  ；  或  捣汁涂敷  患处  。
+            丝瓜  汁水  丰富  ，  宜现切  现  做  ，  以免  营养  成分  随汁  水流  走  。
+            烹制  丝瓜  时  应  注意  尽量  保持  清淡  ，  油  要  少用  ，  可  色  稀芡  ，  用  味精  或  胡椒粉  提味  ，  这样  才  能  显示  丝瓜  香嫩  爽口  的  特点  。
+            丝瓜  的  味道  清甜  ，  烹煮  时  不  宜  加  酱油  和  豆瓣酱  等  口味  较  重  的  酱料  ，  以免  抢味  。
+        </segment>
+
+        <pos>
+            丝瓜#NN  性#NN  寒滑#NN  ，#PU  多#CD  食#NN  易#AD  致#VV  泄泻#NN  ；#PU  不#AD  可#VV  生食#VV  ，#PU  可烹食#VV  ，#PU  煎汤服#VV  ；#PU  或#CC  捣汁涂敷#VV  患处#NN  。#PU
+            丝瓜#NN  汁水#AD  丰富#VA  ，#PU  宜现切#NR  现#AD  做#VV  ，#PU  以免#VV  营养#VA  成分#NN  随汁#NN  水流#NN  走#VV  。#PU
+            烹制#VV  丝瓜#NN  时#LC  应#VV  注意#VV  尽量#AD  保持#VV  清淡#VA  ，#PU  油#NN  要#VV  少用#VV  ，#PU  可#VV  色#NN  稀芡#NN  ，#PU  用#P  味精#NN  或#CC  胡椒粉#NN  提味#NN  ，#PU  这样#AD  才#AD  能#VV  显示#VV  丝瓜#NN  香嫩#NN  爽口#NN  的#DEC  特点#NN  。#PU
+            丝瓜#NN  的#DEG  味道#NN  清甜#NN  ，#PU  烹煮#NN  时#LC  不#AD  宜#NR  加#NR  酱油#NR  和#CC  豆瓣酱#NR  等#ETC  口味#NN  较#AD  重#VA  的#DEC  酱料#NN  ，#PU  以免#VV  抢味#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 寒滑#NN, 丝瓜#NN)  (nn, 寒滑#NN, 性#NN)  (nsubj, 致#VV, 寒滑#NN)  (nummod, 食#NN, 多#CD)  (nsubj, 致#VV, 食#NN)  (advmod, 致#VV, 易#AD)  (root, ROOT#null, 致#VV)  (dobj, 致#VV, 泄泻#NN)  (neg, 生食#VV, 不#AD)  (dep, 生食#VV, 可#VV)  (conj, 致#VV, 生食#VV)  (dep, 生食#VV, 可烹食#VV)  (conj, 生食#VV, 煎汤服#VV)  (cc, 生食#VV, 或#CC)  (dep, 生食#VV, 捣汁涂敷#VV)  (dobj, 捣汁涂敷#VV, 患处#NN)
+            (nsubj, 丰富#VA, 丝瓜#NN)  (advmod, 丰富#VA, 汁水#AD)  (root, ROOT#null, 丰富#VA)  (nsubj, 做#VV, 宜现切#NR)  (advmod, 做#VV, 现#AD)  (conj, 丰富#VA, 做#VV)  (conj, 丰富#VA, 以免#VV)  (relcl, 成分#NN, 营养#VA)  (nn, 水流#NN, 成分#NN)  (nn, 水流#NN, 随汁#NN)  (nsubj, 走#VV, 水流#NN)  (ccomp, 以免#VV, 走#VV)
+            (loc, 注意#VV, 烹制#VV)  (dobj, 烹制#VV, 丝瓜#NN)  (case, 烹制#VV, 时#LC)  (mmod, 注意#VV, 应#VV)  (root, ROOT#null, 注意#VV)  (advmod, 保持#VV, 尽量#AD)  (ccomp, 注意#VV, 保持#VV)  (relcl, 特点#NN, 清淡#VA)  (dep, 少用#VV, 油#NN)  (dep, 少用#VV, 要#VV)  (conj, 清淡#VA, 少用#VV)  (conj, 清淡#VA, 可#VV)  (nn, 稀芡#NN, 色#NN)  (dobj, 可#VV, 稀芡#NN)  (case, 提味#NN, 用#P)  (conj, 提味#NN, 味精#NN)  (cc, 提味#NN, 或#CC)  (nn, 提味#NN, 胡椒粉#NN)  (prep, 显示#VV, 提味#NN)  (advmod, 显示#VV, 这样#AD)  (advmod, 显示#VV, 才#AD)  (mmod, 显示#VV, 能#VV)  (conj, 清淡#VA, 显示#VV)  (nn, 爽口#NN, 丝瓜#NN)  (nn, 爽口#NN, 香嫩#NN)  (dobj, 显示#VV, 爽口#NN)  (mark, 清淡#VA, 的#DEC)  (dobj, 保持#VV, 特点#NN)
+            (assmod, 清甜#NN, 丝瓜#NN)  (case, 丝瓜#NN, 的#DEG)  (nn, 清甜#NN, 味道#NN)  (nsubj, 以免#VV, 清甜#NN)  (loc, 以免#VV, 烹煮#NN)  (case, 烹煮#NN, 时#LC)  (neg, 重#VA, 不#AD)  (nn, 豆瓣酱#NR, 宜#NR)  (nn, 豆瓣酱#NR, 加#NR)  (conj, 豆瓣酱#NR, 酱油#NR)  (cc, 豆瓣酱#NR, 和#CC)  (nn, 口味#NN, 豆瓣酱#NR)  (etc, 豆瓣酱#NR, 等#ETC)  (dobj, 重#VA, 口味#NN)  (advmod, 重#VA, 较#AD)  (relcl, 酱料#NN, 重#VA)  (mark, 重#VA, 的#DEC)  (nsubj, 以免#VV, 酱料#NN)  (root, ROOT#null, 以免#VV)  (ccomp, 以免#VV, 抢味#VV)
+        </parsing>
+
+        <tag>
+            捣汁涂敷患处  随汁水流  注意  特点清淡  味精  胡椒粉提味  香嫩爽口  显示爽口  保持特点  味道清甜  豆瓣酱  酱油  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101409578706.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\236 丝瓜.jpg
+    </picturelocalurl>
+
+</content>

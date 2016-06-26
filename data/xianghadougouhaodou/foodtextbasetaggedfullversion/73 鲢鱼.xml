@@ -1,0 +1,386 @@
+<content>
+
+    <id>
+        73
+    </id>
+
+    <foodname>
+        鲢鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        淡水鱼
+    </secondcategory>
+
+    <alias>
+        白鲢、胖子、连子鱼、扁鱼、苏鱼、白脚鲢、白屿
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃蕴热者不宜食用；瘙痒性皮肤病、内热、荨麻疹、癣病者应忌食。
+        </rawdata>
+
+        <segment>
+            脾胃蕴  热者  不  宜  食用  ；  瘙痒  性  皮肤病  、  内热  、  荨麻疹  、  癣病者  应  忌食  。
+        </segment>
+
+        <pos>
+            脾胃蕴#NR  热者#VV  不#AD  宜#NR  食用#VV  ；#PU  瘙痒#NN  性#NN  皮肤病#NR  、#PU  内热#NR  、#PU  荨麻疹#NR  、#PU  癣病者#NR  应#VV  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热者#VV, 脾胃蕴#NR)  (xsubj, 食用#VV, 脾胃蕴#NR)  (root, ROOT#null, 热者#VV)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (ccomp, 热者#VV, 食用#VV)  (nn, 性#NN, 瘙痒#NN)  (nsubj, 应#VV, 性#NN)  (conj, 癣病者#NR, 皮肤病#NR)  (conj, 癣病者#NR, 内热#NR)  (conj, 癣病者#NR, 荨麻疹#NR)  (nsubj, 应#VV, 癣病者#NR)  (conj, 热者#VV, 应#VV)  (dobj, 应#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            脾胃蕴热者不宜  瘙痒性皮肤病  内热  荨麻疹  癣病者应  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                104
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                3.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                99
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                27.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                190
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                277
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                57.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                15.68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲢鱼(Chub)又叫白鲢、水鲢、跳鲢、鲢子，属于鲤形目，鲤科，是著名的四大家鱼之一。体形侧扁、稍高，呈纺锤形，背部青灰色，两侧及腹部白色。头较大。眼睛位置很低。鳞片细小。腹部正中角质棱自胸鳍下方直延达肛门。胸鳍不超过腹鳍基部。各鳍色灰白。形态和鳙鱼相似，鲢鱼性急躁，善跳跃。鲢鱼是人工饲养的大型淡水鱼，生长快、疾病少、产量高，多与草鱼、鲤鱼混养。其肉质鲜嫩，营养丰富，是较宜养殖的优良鱼种之一。为我国主要的淡水养殖鱼类之一，分布在全国各大水系。
+        </rawdata>
+
+        <segment>
+            鲢鱼  (  Chub  )  又  叫  白鲢  、  水鲢  、  跳鲢  、  鲢子  ，  属于  鲤形目  ，  鲤科  ，  是  著名  的  四  大家  鱼  之一  。  体形  侧扁  、  稍高  ，  呈  纺锤形  ，  背部  青灰色  ，  两  侧  及  腹部  白色  。  头  较  大  。  眼睛  位置  很  低  。  鳞片  细小  。  腹部  正中  角质  棱自  胸鳍  下方  直  延  达  肛门  。  胸鳍  不  超过  腹鳍  基部  。  各  鳍色  灰白  。  形态  和  鳙鱼  相似  ，  鲢鱼  性急躁  ，  善  跳跃  。  鲢鱼  是  人工  饲养  的  大型  淡水鱼  ，  生长  快  、  疾病  少  、  产量  高  ，  多  与  草鱼  、  鲤鱼  混养  。  其  肉质  鲜嫩  ，  营养  丰富  ，  是  较  宜  养殖  的  优良  鱼种  之一  。  为  我  国  主要  的  淡水  养殖  鱼类  之一  ，  分布  在  全  国  各  大  水系  。
+        </segment>
+
+        <pos>
+            鲢鱼#NN  -LRB-#NN  Chub#NN  -RRB-#NN  又#AD  叫#VV  白鲢#NR  、#PU  水鲢#NR  、#PU  跳鲢#NR  、#PU  鲢子#NR  ，#PU  属于#VV  鲤形目#NN  ，#PU  鲤科#VV  ，#PU  是#VC  著名#VA  的#DEC  四#CD  大家#PN  鱼#NN  之一#NN    。#PU  体形#NN  侧扁#VV  、#PU  稍高#VV  ，#PU  呈#VV  纺锤形#NN  ，#PU  背部#NN  青灰色#NN  ，#PU  两#CD  侧#LC  及#VV  腹部#NN  白色#JJ    。#PU  头#NN  较#AD  大#VA    。#PU  眼睛#NN  位置#NN  很#AD  低#VA    。#PU  鳞片#NN  细小#VV    。#PU  腹部#NN  正中#NN  角质#NN  棱自#NN  胸鳍#NN  下方#NN  直#AD  延#AD  达#VV  肛门#NN    。#PU  胸鳍#NN  不#AD  超过#VV  腹鳍#NN  基部#NN    。#PU  各#DT  鳍色#NN  灰白#VV    。#PU  形态#NN  和#CC  鳙鱼#NN  相似#VA  ，#PU  鲢鱼#VV  性急躁#NN  ，#PU  善#VA  跳跃#VA    。#PU  鲢鱼#NN  是#VC  人工#JJ  饲养#NN  的#DEG  大型#JJ  淡水鱼#NN  ，#PU  生长#NN  快#VA  、#PU  疾病#NN  少#VA  、#PU  产量#NN  高#VA  ，#PU  多#AD  与#P  草鱼#NR  、#PU  鲤鱼#NR  混养#VV    。#PU  其#PN  肉质#AD  鲜嫩#VA  ，#PU  营养#VA  丰富#VA  ，#PU  是#VC  较#P  宜#NR  养殖#NN  的#DEG  优良#JJ  鱼种#NN  之一#NN    。#PU  为#VC  我#PN  国#NN  主要#JJ  的#DEG  淡水#JJ  养殖#NN  鱼类#NN  之一#NN  ，#PU  分布#VV  在#P  全#DT  国#NN  各#DT  大#JJ  水系#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, -RRB-#NN, 鲢鱼#NN)  (nn, -RRB-#NN, Chub#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (conj, 鲢子#NR, 白鲢#NR)  (conj, 鲢子#NR, 水鲢#NR)  (conj, 鲢子#NR, 跳鲢#NR)  (dobj, 叫#VV, 鲢子#NR)  (conj, 叫#VV, 属于#VV)  (dobj, 属于#VV, 鲤形目#NN)  (conj, 叫#VV, 鲤科#VV)  (cop, 之一#NN, 是#VC)  (relcl, 之一#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nummod, 之一#NN, 四#CD)  (nn, 鱼#NN, 大家#PN)  (nn, 之一#NN, 鱼#NN)  (conj, 叫#VV, 之一#NN)   (dep, 侧扁#VV, 体形#NN)  (root, ROOT#null, 侧扁#VV)  (dep, 侧扁#VV, 稍高#VV)  (conj, 侧扁#VV, 呈#VV)  (dobj, 呈#VV, 纺锤形#NN)  (nn, 青灰色#NN, 背部#NN)  (conj, 侧扁#VV, 青灰色#NN)  (loc, 及#VV, 两#CD)  (case, 两#CD, 侧#LC)  (conj, 侧扁#VV, 及#VV)  (dobj, 及#VV, 腹部#NN)  (conj, 侧扁#VV, 白色#JJ)   (nsubj, 大#VA, 头#NN)  (advmod, 大#VA, 较#AD)  (root, ROOT#null, 大#VA)   (nn, 位置#NN, 眼睛#NN)  (nsubj, 低#VA, 位置#NN)  (advmod, 低#VA, 很#AD)  (root, ROOT#null, 低#VA)   (nsubj, 细小#VV, 鳞片#NN)  (root, ROOT#null, 细小#VV)   (nn, 下方#NN, 腹部#NN)  (nn, 下方#NN, 正中#NN)  (nn, 下方#NN, 角质#NN)  (nn, 下方#NN, 棱自#NN)  (nn, 下方#NN, 胸鳍#NN)  (nsubj, 达#VV, 下方#NN)  (advmod, 达#VV, 直#AD)  (advmod, 达#VV, 延#AD)  (root, ROOT#null, 达#VV)  (dobj, 达#VV, 肛门#NN)   (nsubj, 超过#VV, 胸鳍#NN)  (neg, 超过#VV, 不#AD)  (root, ROOT#null, 超过#VV)  (nn, 基部#NN, 腹鳍#NN)  (dobj, 超过#VV, 基部#NN)   (det, 鳍色#NN, 各#DT)  (nsubj, 灰白#VV, 鳍色#NN)  (root, ROOT#null, 灰白#VV)   (conj, 鳙鱼#NN, 形态#NN)  (cc, 鳙鱼#NN, 和#CC)  (nsubj, 相似#VA, 鳙鱼#NN)  (root, ROOT#null, 相似#VA)  (dep, 相似#VA, 鲢鱼#VV)  (dobj, 鲢鱼#VV, 性急躁#NN)  (conj, 相似#VA, 善#VA)  (dep, 相似#VA, 跳跃#VA)   (nsubj, 淡水鱼#NN, 鲢鱼#NN)  (cop, 淡水鱼#NN, 是#VC)  (amod, 饲养#NN, 人工#JJ)  (assmod, 淡水鱼#NN, 饲养#NN)  (case, 饲养#NN, 的#DEG)  (amod, 淡水鱼#NN, 大型#JJ)  (root, ROOT#null, 淡水鱼#NN)  (nsubj, 快#VA, 生长#NN)  (conj, 淡水鱼#NN, 快#VA)  (nsubj, 少#VA, 疾病#NN)  (conj, 快#VA, 少#VA)  (nsubj, 高#VA, 产量#NN)  (conj, 少#VA, 高#VA)  (advmod, 混养#VV, 多#AD)  (case, 鲤鱼#NR, 与#P)  (conj, 鲤鱼#NR, 草鱼#NR)  (prep, 混养#VV, 鲤鱼#NR)  (conj, 快#VA, 混养#VV)   (nsubj, 鲜嫩#VA, 其#PN)  (advmod, 鲜嫩#VA, 肉质#AD)  (root, ROOT#null, 鲜嫩#VA)  (conj, 鲜嫩#VA, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (cop, 之一#NN, 是#VC)  (case, 养殖#NN, 较#P)  (nn, 养殖#NN, 宜#NR)  (assmod, 之一#NN, 养殖#NN)  (case, 养殖#NN, 的#DEG)  (amod, 之一#NN, 优良#JJ)  (nn, 之一#NN, 鱼种#NN)  (dep, 鲜嫩#VA, 之一#NN)   (cop, 之一#NN, 为#VC)  (nn, 国#NN, 我#PN)  (nn, 之一#NN, 国#NN)  (assmod, 之一#NN, 主要#JJ)  (case, 主要#JJ, 的#DEG)  (amod, 之一#NN, 淡水#JJ)  (nn, 之一#NN, 养殖#NN)  (nn, 之一#NN, 鱼类#NN)  (root, ROOT#null, 之一#NN)  (conj, 之一#NN, 分布#VV)  (case, 水系#NN, 在#P)  (det, 国#NN, 全#DT)  (nn, 水系#NN, 国#NN)  (det, 水系#NN, 各#DT)  (amod, 水系#NN, 大#JJ)  (prep, 分布#VV, 水系#NN)
+        </parsing>
+
+        <tag>
+            鲢子  白鲢  水鲢  跳鲢  属于鲤形目  侧扁  背部青灰色  眼睛位置  细小  腹部下方  正中下方  角质下方  棱自下方  胸鳍下方  腹鳍基部  超过基部  灰白  形态  鳙鱼相似  人工饲养  大型淡水鱼  鲤鱼  草鱼  营养丰富  大水系  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.缓解胃部不适
+            鲢鱼味甘性温，能起到温中益气、祛除脾胃寒气、暖胃补气、利水止咳的作用，尤其适合冬天食用。常用于脾胃虚弱、水肿、咳嗽、气喘等病的治疗，还可以治疗胃寒疼痛或由消化不良引起的慢性胃炎。
+            2.预防心脑血管疾病
+            鲢鱼的鱼肉蛋白质、氨基酸含量很丰富，对促进智力发育、降低胆固醇、降低血液黏稠度和预防心脑血管疾病具有明显的作用。
+            3.预防癌症促进脑部发育
+            鲢鱼的体内含有可抑制癌细胞扩散的成分欧咪伽3，因此长期食用鲢鱼对预防癌症大有帮助。
+            4.美容护肤
+            鲢鱼佐香油食用，对皮肤粗糙、脱屑、头发干枯易脱落等症状均有一定疗效，是女性美容美发不可忽视的佳肴。
+        </rawdata>
+
+        <segment>
+            缓解  胃部  不适
+            鲢鱼味  甘  性温  ，  能  起到  温  中  益气  、  祛除  脾胃  寒气  、  暖  胃  补气  、  利水  止咳  的  作用  ，  尤其  适合  冬天  食用  。  常用  于  脾胃  虚弱  、  水肿  、  咳嗽  、  气喘  等  病的  治疗  ，  还  可以  治疗  胃寒  疼痛  或由  消化不良  引起  的  慢性  胃炎  。
+            预防  心脑  血管  疾病
+            鲢鱼  的  鱼肉  蛋白质  、  氨基酸  含量  很  丰富  ，  对  促进  智力  发育  、  降低  胆固醇  、  降低  血液  黏稠度  和  预防  心脑  血管  疾病  具有  明显  的  作用  。
+            预防  癌症  促进  脑部  发育
+            鲢鱼  的  体内  含有  可  抑制  癌细胞  扩散  的  成分  欧咪伽  3  ，  因此  长期  食用  鲢鱼  对  预防  癌症  大  有  帮助  。
+            美容  护肤
+            鲢鱼佐  香油  食用  ，  对  皮肤  粗糙  、  脱屑  、  头发  干枯  易  脱落  等  症状  均  有  一定  疗效  ，  是  女性  美容  美发  不可忽视  的  佳肴  。
+        </segment>
+
+        <pos>
+            缓解#VV  胃部#NN  不适#NN
+            鲢鱼味#VV  甘#NR  性温#NN  ，#PU  能#VV  起到#VV  温#NN  中#LC  益气#NR  、#PU  祛除#NR  脾胃#NR  寒气#NR  、#PU  暖#NR  胃#NR  补气#NR  、#PU  利水#NR  止咳#NN  的#DEG  作用#NN  ，#PU  尤其#AD  适合#VV  冬天#NT  食用#VV    。#PU  常用#JJ  于#P  脾胃#NR  虚弱#NR  、#PU  水肿#NR  、#PU  咳嗽#NR  、#PU  气喘#NR  等#ETC  病的#NN  治疗#VV  ，#PU  还#AD  可以#VV  治疗#VV  胃寒#NN  疼痛#NN  或由#NN  消化不良#AD  引起#VV  的#DEC  慢性#NN  胃炎#VV    。#PU    。#PU
+            预防#NN  心脑#VV  血管#NN  疾病#NN
+            鲢鱼#NN  的#DEG  鱼肉#NN  蛋白质#NN  、#PU  氨基酸#NN  含量#NN  很#AD  丰富#VA  ，#PU  对#P  促进#VV  智力#VV  发育#NN  、#PU  降低#VV  胆固醇#NN  、#PU  降低#VV  血液#NN  黏稠度#NN  和#CC  预防#VV  心脑#NN  血管#NN  疾病#NN  具有#VV  明显#VA  的#DEC  作用#NN  。#PU
+            预防#NN  癌症#NN  促进#VV  脑部#NN  发育#NN
+            鲢鱼#NN  的#DEG  体内#NN  含有#NN  可#VV  抑制#VV  癌细胞#NN  扩散#NN  的#DEC  成分#NN  欧咪伽#VV  3#CD  ，#PU  因此#AD  长期#AD  食用#VV  鲢鱼#NN  对#P  预防#NN  癌症#NN  大#AD  有#VE  帮助#NN  。#PU
+            美容#NN  护肤#VV
+            鲢鱼佐#NR  香油#VV  食用#VV  ，#PU  对#P  皮肤#NN  粗糙#NN  、#PU  脱屑#NN  、#PU  头发#NN  干枯#NN  易#AD  脱落#VV  等#ETC  症状#NN  均#AD  有#VE  一定#JJ  疗效#NN  ，#PU  是#VC  女性#NN  美容#NN  美发#NN  不可忽视#NN  的#DEG  佳肴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 缓解#VV)  (nn, 不适#NN, 胃部#NN)  (dobj, 缓解#VV, 不适#NN)
+            (root, ROOT#null, 鲢鱼味#VV)  (nn, 性温#NN, 甘#NR)  (dobj, 鲢鱼味#VV, 性温#NN)  (mmod, 起到#VV, 能#VV)  (conj, 鲢鱼味#VV, 起到#VV)  (dep, 止咳#NN, 温#NN)  (case, 温#NN, 中#LC)  (conj, 利水#NR, 益气#NR)  (nn, 利水#NR, 祛除#NR)  (nn, 利水#NR, 脾胃#NR)  (conj, 利水#NR, 寒气#NR)  (nn, 利水#NR, 暖#NR)  (nn, 利水#NR, 胃#NR)  (conj, 利水#NR, 补气#NR)  (nn, 止咳#NN, 利水#NR)  (assmod, 作用#NN, 止咳#NN)  (case, 止咳#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)  (advmod, 适合#VV, 尤其#AD)  (conj, 鲢鱼味#VV, 适合#VV)  (dobj, 适合#VV, 冬天#NT)  (conj, 适合#VV, 食用#VV)   (amod, 或由#NN, 常用#JJ)  (case, 病的#NN, 于#P)  (nn, 气喘#NR, 脾胃#NR)  (conj, 气喘#NR, 虚弱#NR)  (conj, 气喘#NR, 水肿#NR)  (conj, 气喘#NR, 咳嗽#NR)  (nn, 病的#NN, 气喘#NR)  (etc, 气喘#NR, 等#ETC)  (prep, 治疗#VV, 病的#NN)  (relcl, 或由#NN, 治疗#VV)  (advmod, 治疗#VV, 还#AD)  (mmod, 治疗#VV, 可以#VV)  (dep, 治疗#VV, 治疗#VV)  (nn, 疼痛#NN, 胃寒#NN)  (dobj, 治疗#VV, 疼痛#NN)  (nsubj, 引起#VV, 或由#NN)  (advmod, 引起#VV, 消化不良#AD)  (relcl, 慢性#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nsubj, 胃炎#VV, 慢性#NN)  (root, ROOT#null, 胃炎#VV)   (root, ROOT#null, null#null)
+            (nsubj, 心脑#VV, 预防#NN)  (root, ROOT#null, 心脑#VV)  (nn, 疾病#NN, 血管#NN)  (dobj, 心脑#VV, 疾病#NN)
+            (assmod, 含量#NN, 鲢鱼#NN)  (case, 鲢鱼#NN, 的#DEG)  (nn, 含量#NN, 鱼肉#NN)  (conj, 含量#NN, 蛋白质#NN)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)  (case, 促进#VV, 对#P)  (prep, 具有#VV, 促进#VV)  (ccomp, 促进#VV, 智力#VV)  (dobj, 智力#VV, 发育#NN)  (conj, 智力#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 智力#VV, 降低#VV)  (nn, 黏稠度#NN, 血液#NN)  (dobj, 降低#VV, 黏稠度#NN)  (cc, 智力#VV, 和#CC)  (conj, 智力#VV, 预防#VV)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (dep, 丰富#VA, 具有#VV)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (nn, 癌症#NN, 预防#NN)  (nsubj, 促进#VV, 癌症#NN)  (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 脑部#NN)  (dobj, 促进#VV, 发育#NN)
+            (assmod, 含有#NN, 鲢鱼#NN)  (case, 鲢鱼#NN, 的#DEG)  (nn, 含有#NN, 体内#NN)  (nsubj, 抑制#VV, 含有#NN)  (mmod, 抑制#VV, 可#VV)  (relcl, 成分#NN, 抑制#VV)  (nn, 扩散#NN, 癌细胞#NN)  (dobj, 抑制#VV, 扩散#NN)  (mark, 抑制#VV, 的#DEC)  (nsubj, 欧咪伽#VV, 成分#NN)  (root, ROOT#null, 欧咪伽#VV)  (range, 欧咪伽#VV, 3#CD)  (advmod, 有#VE, 因此#AD)  (advmod, 食用#VV, 长期#AD)  (dep, 有#VE, 食用#VV)  (dobj, 食用#VV, 鲢鱼#NN)  (case, 癌症#NN, 对#P)  (nn, 癌症#NN, 预防#NN)  (prep, 有#VE, 癌症#NN)  (advmod, 有#VE, 大#AD)  (conj, 欧咪伽#VV, 有#VE)  (dobj, 有#VE, 帮助#NN)
+            (nsubj, 护肤#VV, 美容#NN)  (root, ROOT#null, 护肤#VV)
+            (nsubj, 香油#VV, 鲢鱼佐#NR)  (root, ROOT#null, 香油#VV)  (ccomp, 香油#VV, 食用#VV)  (case, 症状#NN, 对#P)  (nn, 脱屑#NN, 皮肤#NN)  (conj, 脱屑#NN, 粗糙#NN)  (dep, 症状#NN, 脱屑#NN)  (nn, 干枯#NN, 头发#NN)  (nsubj, 脱落#VV, 干枯#NN)  (advmod, 脱落#VV, 易#AD)  (dep, 脱屑#NN, 脱落#VV)  (dep, 脱屑#NN, 等#ETC)  (prep, 有#VE, 症状#NN)  (advmod, 有#VE, 均#AD)  (conj, 香油#VV, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)  (cop, 佳肴#NN, 是#VC)  (nn, 不可忽视#NN, 女性#NN)  (nn, 不可忽视#NN, 美容#NN)  (nn, 不可忽视#NN, 美发#NN)  (assmod, 佳肴#NN, 不可忽视#NN)  (case, 不可忽视#NN, 的#DEG)  (dep, 香油#VV, 佳肴#NN)
+        </parsing>
+
+        <tag>
+            胃部不适  缓解不适  利水  益气  寒气  补气  气喘  虚弱  水肿  咳嗽  胃寒疼痛  治疗疼痛  胃炎  血管疾病  心脑疾病  智力发育  降低胆固醇  血液黏稠度  降低黏稠度  预防疾病  预防癌症  脑部发育  促进发育  体内含有  癌细胞扩散  抑制扩散  护肤  香油  皮肤脱屑  粗糙  头发干枯  一定疗效  女性不可忽视  美容不可忽视  美发不可忽视  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  美容养颜  补气  温中  利水
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.鲢鱼鳃下边的肉呈透明的胶状，里面富含胶原蛋白，能够对抗人体老化及修补身体细胞组织。
+            2.鲢鱼的蛋白质、氨基酸含量很丰富，对促进智力发育、降低胆固醇、降低血液黏稠度和预防心脑血管疾病具有明显的作用。
+            3.鲢鱼的体内含有可抑制癌细胞扩散的成分欧咪伽3，因此长期食用鲢鱼对预防癌症大有帮助。
+        </rawdata>
+
+        <segment>
+            鲢鱼鳃  下边  的  肉呈  透明  的  胶状  ，  里面  富含  胶原  蛋白  ，  能够  对抗  人体  老化  及  修补  身体  细胞  组织  。
+            鲢鱼  的  蛋白质  、  氨基酸  含量  很  丰富  ，  对  促进  智力  发育  、  降低  胆固醇  、  降低  血液  黏稠度  和  预防  心脑  血管  疾病  具有  明显  的  作用  。
+            鲢鱼  的  体内  含有  可  抑制  癌细胞  扩散  的  成分  欧咪伽  3  ，  因此  长期  食用  鲢鱼  对  预防  癌症  大  有  帮助  。
+        </segment>
+
+        <pos>
+            鲢鱼鳃#NN  下边#NN  的#DEG  肉呈#NN  透明#VA  的#DEC  胶状#NN  ，#PU  里面#NN  富含#NN  胶原#VV  蛋白#NN  ，#PU  能够#VV  对抗#VV  人体#NN  老化#NN  及#CC  修补#NN  身体#NN  细胞#NN  组织#NN  。#PU
+            鲢鱼#NN  的#DEG  蛋白质#NN  、#PU  氨基酸#NN  含量#NN  很#AD  丰富#VA  ，#PU  对#P  促进#VV  智力#VV  发育#NN  、#PU  降低#VV  胆固醇#NN  、#PU  降低#VV  血液#NN  黏稠度#NN  和#CC  预防#VV  心脑#NN  血管#NN  疾病#NN  具有#VV  明显#VA  的#DEC  作用#NN  。#PU
+            鲢鱼#NN  的#DEG  体内#NN  含有#NN  可#VV  抑制#VV  癌细胞#NN  扩散#NN  的#DEC  成分#NN  欧咪伽#VV  3#CD  ，#PU  因此#AD  长期#AD  食用#VV  鲢鱼#NN  对#P  预防#NN  癌症#NN  大#AD  有#VE  帮助#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 下边#NN, 鲢鱼鳃#NN)  (assmod, 肉呈#NN, 下边#NN)  (case, 下边#NN, 的#DEG)  (nsubj, 透明#VA, 肉呈#NN)  (relcl, 胶状#NN, 透明#VA)  (mark, 透明#VA, 的#DEC)  (nsubj, 胶原#VV, 胶状#NN)  (nn, 富含#NN, 里面#NN)  (nsubj, 胶原#VV, 富含#NN)  (root, ROOT#null, 胶原#VV)  (dobj, 胶原#VV, 蛋白#NN)  (mmod, 对抗#VV, 能够#VV)  (conj, 胶原#VV, 对抗#VV)  (nn, 组织#NN, 人体#NN)  (conj, 组织#NN, 老化#NN)  (cc, 组织#NN, 及#CC)  (nn, 组织#NN, 修补#NN)  (nn, 组织#NN, 身体#NN)  (nn, 组织#NN, 细胞#NN)  (dobj, 对抗#VV, 组织#NN)
+            (assmod, 含量#NN, 鲢鱼#NN)  (case, 鲢鱼#NN, 的#DEG)  (conj, 含量#NN, 蛋白质#NN)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 很#AD)  (root, ROOT#null, 丰富#VA)  (case, 促进#VV, 对#P)  (prep, 具有#VV, 促进#VV)  (ccomp, 促进#VV, 智力#VV)  (dobj, 智力#VV, 发育#NN)  (conj, 智力#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 智力#VV, 降低#VV)  (nn, 黏稠度#NN, 血液#NN)  (dobj, 降低#VV, 黏稠度#NN)  (cc, 智力#VV, 和#CC)  (conj, 智力#VV, 预防#VV)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)  (dep, 丰富#VA, 具有#VV)  (relcl, 作用#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (assmod, 含有#NN, 鲢鱼#NN)  (case, 鲢鱼#NN, 的#DEG)  (nn, 含有#NN, 体内#NN)  (nsubj, 抑制#VV, 含有#NN)  (mmod, 抑制#VV, 可#VV)  (relcl, 成分#NN, 抑制#VV)  (nn, 扩散#NN, 癌细胞#NN)  (dobj, 抑制#VV, 扩散#NN)  (mark, 抑制#VV, 的#DEC)  (nsubj, 欧咪伽#VV, 成分#NN)  (root, ROOT#null, 欧咪伽#VV)  (range, 欧咪伽#VV, 3#CD)  (advmod, 有#VE, 因此#AD)  (advmod, 食用#VV, 长期#AD)  (dep, 有#VE, 食用#VV)  (dobj, 食用#VV, 鲢鱼#NN)  (case, 癌症#NN, 对#P)  (nn, 癌症#NN, 预防#NN)  (prep, 有#VE, 癌症#NN)  (advmod, 有#VE, 大#AD)  (conj, 欧咪伽#VV, 有#VE)  (dobj, 有#VE, 帮助#NN)
+        </parsing>
+
+        <tag>
+            肉呈透明  胶状透明  里面富含  胶原蛋白  人体组织  老化  修补组织  身体组织  细胞组织  对抗组织  智力发育  降低胆固醇  血液黏稠度  降低黏稠度  心脑疾病  血管疾病  预防疾病  体内含有  癌细胞扩散  抑制扩散  预防癌症  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.清洗鲢鱼的时候，要将鱼肝清除掉，因为其中含有毒质。
+            2.鲢鱼适用于烧、炖、清蒸、油浸等烹调方法，尤以清蒸，油浸最能体现出鲢鱼清淡，鲜香的特点。
+            3.巧去鱼腥味：将鱼去鳞剖腹洗净后，放入盆中倒一些黄酒，就能除区鱼的腥味，并能使鱼滋味鲜美；鲜鱼剖开洗净，在牛奶中泡一会儿既可除腥，又能增加鲜味；吃过鱼后，口里有味时，嚼上三五片茶叶，立刻口气清新。
+        </rawdata>
+
+        <segment>
+            清洗  鲢鱼  的  时候  ，  要  将  鱼肝  清除  掉  ，  因为  其中  含有  毒质  。
+            鲢鱼  适用  于  烧  、  炖  、  清蒸  、  油  浸  等  烹调  方法  ，  尤以  清蒸  ，  油  浸  最  能  体现  出  鲢鱼  清淡  ，  鲜  香的  特点  。
+            巧  去  鱼腥味  ：  将  鱼  去鳞  剖腹  洗净  后  ，  放入  盆中  倒  一些  黄酒  ，  就  能  除  区  鱼  的  腥味  ，  并  能  使  鱼  滋味  鲜美  ；  鲜鱼  剖开  洗净  ，  在  牛奶  中  泡  一会儿  既可  除腥  ，  又  能  增加  鲜味  ；  吃  过  鱼  后  ，  口里  有味  时  ，  嚼  上  三五  片  茶叶  ，  立刻  口气  清新  。
+        </segment>
+
+        <pos>
+            清洗#VV  鲢鱼#NN  的#DEC  时候#NN  ，#PU  要#VV  将#AD  鱼肝#AD  清除#VV  掉#NN  ，#PU  因为#P  其中#NN  含有#VV  毒质#NN  。#PU
+            鲢鱼#NN  适用#VV  于#P  烧#NN  、#PU  炖#NN  、#PU  清蒸#NN  、#PU  油#NN  浸#NN  等#ETC  烹调#NN  方法#NN  ，#PU  尤以#NR  清蒸#VV  ，#PU  油#NN  浸#NN  最#AD  能#VV  体现#VV  出#VV  鲢鱼#AD  清淡#VA  ，#PU  鲜#VV  香的#NN  特点#NN  。#PU
+            巧#NR  去#VV  鱼腥味#NN  ：#PU  将#BA  鱼#NN  去鳞#NN  剖腹#VV  洗净#CD  后#LC  ，#PU  放入#VV  盆中#NN  倒#VV  一些#CD  黄酒#NN  ，#PU  就#AD  能#VV  除#P  区#NN  鱼#NN  的#DEG  腥味#NN  ，#PU  并#CC  能#VV  使#VV  鱼#NN  滋味#VV  鲜美#NN  ；#PU  鲜鱼#VV  剖开#NN  洗净#NN  ，#PU  在#P  牛奶#NN  中#LC  泡#VV  一会儿#CD  既可#NN  除腥#NN  ，#PU  又#AD  能#VV  增加#VV  鲜味#NN  ；#PU  吃#VV  过#AS  鱼#NN  后#LC  ，#PU  口里#NN  有味#NN  时#LC  ，#PU  嚼#VV  上#DT  三五#CD  片#M  茶叶#NN  ，#PU  立刻#VV  口气#NN  清新#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 时候#NN, 清洗#VV)  (dobj, 清洗#VV, 鲢鱼#NN)  (mark, 清洗#VV, 的#DEC)  (nsubj, 清除#VV, 时候#NN)  (mmod, 清除#VV, 要#VV)  (advmod, 清除#VV, 将#AD)  (advmod, 清除#VV, 鱼肝#AD)  (root, ROOT#null, 清除#VV)  (dobj, 清除#VV, 掉#NN)  (case, 其中#NN, 因为#P)  (prep, 含有#VV, 其中#NN)  (dep, 清除#VV, 含有#VV)  (dobj, 含有#VV, 毒质#NN)
+            (nsubj, 适用#VV, 鲢鱼#NN)  (root, ROOT#null, 适用#VV)  (case, 方法#NN, 于#P)  (conj, 浸#NN, 烧#NN)  (conj, 浸#NN, 炖#NN)  (conj, 浸#NN, 清蒸#NN)  (nn, 浸#NN, 油#NN)  (nn, 方法#NN, 浸#NN)  (etc, 浸#NN, 等#ETC)  (nn, 方法#NN, 烹调#NN)  (prep, 适用#VV, 方法#NN)  (nsubj, 清蒸#VV, 尤以#NR)  (conj, 适用#VV, 清蒸#VV)  (nn, 浸#NN, 油#NN)  (nsubj, 体现#VV, 浸#NN)  (advmod, 体现#VV, 最#AD)  (mmod, 体现#VV, 能#VV)  (ccomp, 清蒸#VV, 体现#VV)  (rcomp, 体现#VV, 出#VV)  (advmod, 清淡#VA, 鲢鱼#AD)  (nfincl, 特点#NN, 清淡#VA)  (dep, 清淡#VA, 鲜#VV)  (dobj, 鲜#VV, 香的#NN)  (dobj, 体现#VV, 特点#NN)
+            (nsubj, 去#VV, 巧#NR)  (loc, 嚼#VV, 去#VV)  (dobj, 去#VV, 鱼腥味#NN)  (ba, 剖腹#VV, 将#BA)  (nn, 去鳞#NN, 鱼#NN)  (nsubj, 剖腹#VV, 去鳞#NN)  (conj, 去#VV, 剖腹#VV)  (loc, 剖腹#VV, 洗净#CD)  (case, 洗净#CD, 后#LC)  (conj, 去#VV, 放入#VV)  (dobj, 放入#VV, 盆中#NN)  (conj, 放入#VV, 倒#VV)  (nummod, 黄酒#NN, 一些#CD)  (dobj, 倒#VV, 黄酒#NN)  (advmod, 能#VV, 就#AD)  (conj, 去#VV, 能#VV)  (case, 鱼#NN, 除#P)  (nn, 鱼#NN, 区#NN)  (assmod, 腥味#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (dobj, 能#VV, 腥味#NN)  (cc, 去#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (conj, 去#VV, 使#VV)  (dobj, 使#VV, 鱼#NN)  (dep, 使#VV, 滋味#VV)  (dobj, 滋味#VV, 鲜美#NN)  (conj, 去#VV, 鲜鱼#VV)  (nn, 洗净#NN, 剖开#NN)  (dobj, 鲜鱼#VV, 洗净#NN)  (case, 牛奶#NN, 在#P)  (prep, 泡#VV, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (conj, 去#VV, 泡#VV)  (nummod, 除腥#NN, 一会儿#CD)  (nn, 除腥#NN, 既可#NN)  (dobj, 泡#VV, 除腥#NN)  (advmod, 增加#VV, 又#AD)  (mmod, 增加#VV, 能#VV)  (conj, 去#VV, 增加#VV)  (dobj, 增加#VV, 鲜味#NN)  (conj, 去#VV, 吃#VV)  (asp, 吃#VV, 过#AS)  (dobj, 吃#VV, 鱼#NN)  (case, 去#VV, 后#LC)  (nn, 有味#NN, 口里#NN)  (loc, 嚼#VV, 有味#NN)  (case, 有味#NN, 时#LC)  (root, ROOT#null, 嚼#VV)  (det, 茶叶#NN, 上#DT)  (nummod, 片#M, 三五#CD)  (dep, 上#DT, 片#M)  (dobj, 嚼#VV, 茶叶#NN)  (conj, 嚼#VV, 立刻#VV)  (nn, 清新#NN, 口气#NN)  (dobj, 立刻#VV, 清新#NN)
+        </parsing>
+
+        <tag>
+            清洗时候  清除掉  含有毒质  适用  烹调方法  体现特点  滋味鲜美  剖开洗净  鲜鱼洗净  既可除腥  增加鲜味  口里有味  口气清新  立刻清新  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/092030255676.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\73 鲢鱼.jpg
+    </picturelocalurl>
+
+</content>

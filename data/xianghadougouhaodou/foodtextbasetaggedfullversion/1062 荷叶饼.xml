@@ -1,0 +1,176 @@
+<content>
+
+    <id>
+        1062
+    </id>
+
+    <foodname>
+        荷叶饼
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        白薄饼、面薄饼、卷饼、烙饼、烙馍
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            食用不宜过量，会引起消化不良。
+        </rawdata>
+
+        <segment>
+            食用  不  宜  过量  ，  会  引起  消化不良  。
+        </segment>
+
+        <pos>
+            食用#VV  不#AD  宜#NR  过量#AD  ，#PU  会#VV  引起#VV  消化不良#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 引起#VV, 食用#VV)  (neg, 食用#VV, 不#AD)  (dobj, 食用#VV, 宜#NR)  (advmod, 引起#VV, 过量#AD)  (mmod, 引起#VV, 会#VV)  (root, ROOT#null, 引起#VV)  (dobj, 引起#VV, 消化不良#NN)
+        </parsing>
+
+        <tag>
+            不宜过量  会引起消化不良  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            健康体质平和质，气虚体质，特禀体质
+        </rawdata>
+
+        <segment>
+            健康  体质  平和质  ，  气虚  体质  ，  特禀  体质
+        </segment>
+
+        <pos>
+            健康#JJ  体质#NN  平和质#VV  ，#PU  气虚#NN  体质#NN  ，#PU  特禀#AD  体质#VV
+        </pos>
+
+        <parsing>
+            (amod, 体质#NN, 健康#JJ)  (nsubj, 平和质#VV, 体质#NN)  (root, ROOT#null, 平和质#VV)  (nn, 体质#NN, 气虚#NN)  (nsubj, 体质#VV, 体质#NN)  (advmod, 体质#VV, 特禀#AD)  (ccomp, 平和质#VV, 体质#VV)
+        </parsing>
+
+        <tag>
+            健康体质平和质  气虚体质  特禀体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荷叶饼，又叫白薄饼、面薄饼、卷饼、烙饼、烙馍，有大小之分，大者直径可超过25cm，小者只有巴掌大，是陕西城乡各地民间喜食的传统风味小吃。各宾馆饭店均有供应，自助餐上也能见到。荷叶饼是由秦汉时的“白饼”演变发展而来，已经有2000多年的历史。宋代《东京梦华录》中有“荷叶饼”的记载。据清代《调鼎集》记载：“薄饼：秦人制小锡罐，装饼三十张，每客一罐饼，小如柑，罐有盖，可以贮。馅用炒肉丝，其细如发，葱亦如之，猪羊并用，号曰‘西饼’”。由此可见，陕西“秦人”制的薄饼，就是现在的荷叶饼。一般将中间抹上素油的饼坯，两个叠放在一起上平鏊烙，一次就能烙两张，这样制作速度较快，烙出的荷叶饼更为柔软，同时也减少了火色。从荷叶饼的卷菜看，也是丰富多彩，既可卷素，也可卷荤。素菜有汆、炒豆芽中的黄豆芽、绿豆芽、豌豆苗、土豆丝、油炒酸菜、泡菜、粉丝、韭黄、炸黄豆、摊蛋皮丝；荤菜有熟肚丝、鸡丝、猪、牛、羊肉丝，肺条等。再加上一盘细嫩的鞭杆葱和一盘甜面酱，如果再卷入片皮烤鸭，则更有滋味。
+        </rawdata>
+
+        <segment>
+            荷叶  饼  ，  又  叫  白  薄饼  、  面  薄饼  、  卷饼  、  烙饼  、  烙馍  ，  有  大小  之  分  ，  大者  直径  可  超过  25  cm  ，  小者  只有  巴掌  大  ，  是  陕西  城乡  各  地  民间  喜  食  的  传统  风味  小吃  。  各  宾馆  饭店  均  有  供应  ，  自助餐  上  也  能  见到  。  荷叶  饼  是  由  秦汉  时  的  “  白饼  ”  演变  发展  而  来  ，  已经  有  2000多  年  的  历史  。  宋代  《  东京  梦华录  》  中  有  “  荷叶  饼  ”  的  记载  。  据  清代  《  调鼎集  》  记载  ：  “  薄饼  ：  秦  人  制  小  锡罐  ，  装  饼  三十  张  ，  每  客  一罐  饼  ，  小如柑  ，  罐  有盖  ，  可以  贮  。  馅用  炒  肉丝  ，  其  细如  发  ，  葱  亦  如之  ，  猪  羊  并用  ，  号  曰  ‘  西饼  ’  ”  。  由此可见  ，  陕西  “  秦人  ”  制  的  薄饼  ，  就是  现在  的  荷叶  饼  。  一般  将  中间  抹上  素油  的  饼坯  ，  两  个  叠放  在  一起  上  平鏊烙  ，  一  次  就  能  烙两  张  ，  这样  制作  速度  较  快  ，  烙出  的  荷叶  饼  更为  柔软  ，  同时  也  减少  了  火色  。  从  荷叶  饼  的  卷  菜  看  ，  也  是  丰富  多彩  ，  既  可  卷素  ，  也  可  卷荤  。  素菜  有汆  、  炒  豆芽  中  的  黄豆芽  、  绿豆  芽  、  豌豆  苗  、  土豆  丝  、  油  炒  酸菜  、  泡菜  、  粉丝  、  韭黄  、  炸  黄豆  、  摊  蛋  皮  丝  ；  荤菜  有  熟  肚  丝  、  鸡丝  、  猪  、  牛  、  羊肉  丝  ，  肺  条  等  。  再加上  一  盘  细嫩  的  鞭杆  葱  和  一  盘  甜面酱  ，  如果  再  卷入  片  皮  烤鸭  ，  则  更  有  滋味  。
+        </segment>
+
+        <pos>
+            荷叶#NR  饼#VV  ，#PU  又#AD  叫#VV  白#JJ  薄饼#NN  、#PU  面#NN  薄饼#VA  、#PU  卷饼#VA  、#PU  烙饼#VA  、#PU  烙馍#VA  ，#PU  有#VE  大小#NN  之#DEC  分#VV  ，#PU  大者#NN  直径#NN  可#VV  超过#AD  25#CD  cm#NN  ，#PU  小者#NR  只有#AD  巴掌#NN  大#VA  ，#PU  是#VC  陕西#NR  城乡#NN  各#DT  地#NN  民间#NN  喜#VA  食#NN  的#DEG  传统#JJ  风味#NN  小吃#NN    。#PU  各#DT  宾馆#NN  饭店#NN  均#AD  有#VE  供应#NN  ，#PU  自助餐#NN  上#LC  也#AD  能#VV  见到#VV    。#PU  荷叶#NN  饼#NN  是#VC  由#P  秦汉#NN  时#LC  的#DEG  ``#NN  白饼#NN  ''#NN  演变#VV  发展#NN  而#MSP  来#VV  ，#PU  已经#AD  有#VE  2000多#CD  年#M  的#DEC  历史#NN    。#PU  宋代#NN  东京#NR  梦华录#NN  中#LC  有#VE  ``#VV  荷叶#NN  饼#NN  ''#NN  的#DEC  记载#NN    。#PU  据#P  清代#NN  调鼎集#NN  记载#NN  ：#PU  ``#NR  薄饼#VV  ：#PU  秦#NR  人#NN  制#VV  小#JJ  锡罐#NN  ，#PU  装#VV  饼#NN  三十#CD  张#M  ，#PU  每#DT  客#NN  一罐#CD  饼#NN  ，#PU  小如柑#VV  ，#PU  罐#M  有盖#NN  ，#PU  可以#VV  贮#VV    。#PU  馅用#NN  炒#NN  肉丝#VV  ，#PU  其#PN  细如#AD  发#VV  ，#PU  葱#NN  亦#AD  如之#VV  ，#PU  猪#NN  羊#NN  并用#NN  ，#PU  号#NN  曰#VV  `#PU  西饼#NN  '#NN  ''#NN    。#PU  由此可见#VV  ，#PU  陕西#NR  ``#VV  秦人#NN  ''#NN  制#NN  的#DEG  薄饼#NN  ，#PU  就是#AD  现在#NT  的#DEG  荷叶#NN  饼#VV    。#PU  一般#AD  将#BA  中间#NN  抹上#VV  素油#NN  的#DEG  饼坯#NN  ，#PU  两#CD  个#M  叠放#NN  在#P  一起#VV  上#LC  平鏊烙#VV  ，#PU  一#CD  次#M  就#AD  能#VV  烙两#CD  张#M  ，#PU  这样#AD  制作#NN  速度#NN  较#AD  快#VA  ，#PU  烙出#NN  的#DEG  荷叶#NN  饼#NN  更为#AD  柔软#VA  ，#PU  同时#AD  也#AD  减少#VV  了#AS  火色#NN    。#PU  从#P  荷叶#NN  饼#NN  的#DEG  卷#M  菜#NN  看#VV  ，#PU  也#AD  是#VC  丰富#VA  多彩#VA  ，#PU  既#CC  可#VV  卷素#NN  ，#PU  也#AD  可#VV  卷荤#VV    。#PU  素菜#NN  有汆#NN  、#PU  炒#NN  豆芽#NN  中#LC  的#DEG  黄豆芽#NN  、#PU  绿豆#NN  芽#NN  、#PU  豌豆#NN  苗#NN  、#PU  土豆#NN  丝#NN  、#PU  油#NN  炒#NN  酸菜#NN  、#PU  泡菜#NN  、#PU  粉丝#NN  、#PU  韭黄#NN  、#PU  炸#VV  黄豆#NN  、#PU  摊#NN  蛋#JJ  皮#NN  丝#NN  ；#PU  荤菜#AD  有#VE  熟#VA  肚#NN  丝#NN  、#PU  鸡丝#NN  、#PU  猪#NN  、#PU  牛#NN  、#PU  羊肉#NN  丝#NN  ，#PU  肺#NN  条#NN  等#ETC    。#PU  再加上#VV  一#CD  盘#M  细嫩#NN  的#DEC  鞭杆#NN  葱#NN  和#CC  一#CD  盘#M  甜面酱#NN  ，#PU  如果#CS  再#AD  卷入#VV  片#M  皮#JJ  烤鸭#NN  ，#PU  则#AD  更#AD  有#VE  滋味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 饼#VV, 荷叶#NR)  (root, ROOT#null, 饼#VV)  (advmod, 叫#VV, 又#AD)  (nsubj, 分#VV, 叫#VV)  (amod, 面#NN, 白#JJ)  (conj, 面#NN, 薄饼#NN)  (dobj, 叫#VV, 面#NN)  (dep, 叫#VV, 薄饼#VA)  (conj, 薄饼#VA, 卷饼#VA)  (conj, 薄饼#VA, 烙饼#VA)  (dep, 薄饼#VA, 烙馍#VA)  (conj, 叫#VV, 有#VE)  (dobj, 有#VE, 大小#NN)  (mark, 叫#VV, 之#DEC)  (ccomp, 饼#VV, 分#VV)  (nn, 直径#NN, 大者#NN)  (nsubj, 可#VV, 直径#NN)  (conj, 分#VV, 可#VV)  (advmod, 25#CD, 超过#AD)  (nummod, cm#NN, 25#CD)  (dobj, 可#VV, cm#NN)  (nsubj, 大#VA, 小者#NR)  (advmod, 巴掌#NN, 只有#AD)  (nsubj, 大#VA, 巴掌#NN)  (conj, 分#VV, 大#VA)  (cop, 小吃#NN, 是#VC)  (nn, 城乡#NN, 陕西#NR)  (nn, 民间#NN, 城乡#NN)  (det, 民间#NN, 各#DT)  (nn, 民间#NN, 地#NN)  (nsubj, 喜#VA, 民间#NN)  (relcl, 食#NN, 喜#VA)  (assmod, 小吃#NN, 食#NN)  (case, 食#NN, 的#DEG)  (amod, 小吃#NN, 传统#JJ)  (nn, 小吃#NN, 风味#NN)  (conj, 分#VV, 小吃#NN)   (det, 宾馆#NN, 各#DT)  (nn, 饭店#NN, 宾馆#NN)  (nsubj, 有#VE, 饭店#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 供应#NN)  (loc, 见到#VV, 自助餐#NN)  (case, 自助餐#NN, 上#LC)  (advmod, 见到#VV, 也#AD)  (dep, 见到#VV, 能#VV)  (conj, 有#VE, 见到#VV)   (nn, 饼#NN, 荷叶#NN)  (nsubj, 历史#NN, 饼#NN)  (cop, 历史#NN, 是#VC)  (case, ''#NN, 由#P)  (assmod, ''#NN, 秦汉#NN)  (case, 秦汉#NN, 时#LC)  (case, 秦汉#NN, 的#DEG)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 白饼#NN)  (prep, 演变#VV, ''#NN)  (relcl, 历史#NN, 演变#VV)  (dobj, 演变#VV, 发展#NN)  (prtmod, 来#VV, 而#MSP)  (conj, 演变#VV, 来#VV)  (advmod, 有#VE, 已经#AD)  (dep, 演变#VV, 有#VE)  (nummod, 年#M, 2000多#CD)  (dep, 有#VE, 年#M)  (mark, 演变#VV, 的#DEC)  (root, ROOT#null, 历史#NN)   (nsubj, 有#VE, 宋代#NN)  (nn, 梦华录#NN, 东京#NR)  (loc, 有#VE, 梦华录#NN)  (case, 梦华录#NN, 中#LC)  (root, ROOT#null, 有#VE)  (relcl, 记载#NN, ``#VV)  (nn, ''#NN, 荷叶#NN)  (nn, ''#NN, 饼#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 有#VE, 记载#NN)   (case, 记载#NN, 据#P)  (nn, 记载#NN, 清代#NN)  (nn, 记载#NN, 调鼎集#NN)  (prep, 薄饼#VV, 记载#NN)  (nsubj, 薄饼#VV, ``#NR)  (root, ROOT#null, 薄饼#VV)  (nn, 人#NN, 秦#NR)  (nsubj, 制#VV, 人#NN)  (ccomp, 薄饼#VV, 制#VV)  (amod, 锡罐#NN, 小#JJ)  (dobj, 制#VV, 锡罐#NN)  (conj, 制#VV, 装#VV)  (dobj, 装#VV, 饼#NN)  (nummod, 张#M, 三十#CD)  (range, 装#VV, 张#M)  (det, 客#NN, 每#DT)  (nn, 饼#NN, 客#NN)  (nummod, 饼#NN, 一罐#CD)  (nsubj, 小如柑#VV, 饼#NN)  (conj, 制#VV, 小如柑#VV)  (dep, 有盖#NN, 罐#M)  (nsubj, 贮#VV, 有盖#NN)  (dep, 贮#VV, 可以#VV)  (ccomp, 小如柑#VV, 贮#VV)   (nn, 炒#NN, 馅用#NN)  (nsubj, 肉丝#VV, 炒#NN)  (root, ROOT#null, 肉丝#VV)  (nsubj, 发#VV, 其#PN)  (advmod, 发#VV, 细如#AD)  (ccomp, 肉丝#VV, 发#VV)  (nsubj, 如之#VV, 葱#NN)  (advmod, 如之#VV, 亦#AD)  (conj, 发#VV, 如之#VV)  (nn, 并用#NN, 猪#NN)  (nn, 并用#NN, 羊#NN)  (nsubj, 曰#VV, 并用#NN)  (nsubj, 曰#VV, 号#NN)  (conj, 发#VV, 曰#VV)  (nn, ''#NN, 西饼#NN)  (dobj, 曰#VV, ''#NN)   (root, ROOT#null, 由此可见#VV)  (nsubj, ``#VV, 陕西#NR)  (ccomp, 由此可见#VV, ``#VV)  (nn, 制#NN, 秦人#NN)  (nn, 制#NN, ''#NN)  (assmod, 薄饼#NN, 制#NN)  (case, 制#NN, 的#DEG)  (dobj, ``#VV, 薄饼#NN)  (advmod, 饼#VV, 就是#AD)  (assmod, 荷叶#NN, 现在#NT)  (case, 现在#NT, 的#DEG)  (nsubj, 饼#VV, 荷叶#NN)  (conj, ``#VV, 饼#VV)   (advmod, 抹上#VV, 一般#AD)  (ba, 抹上#VV, 将#BA)  (nsubj, 抹上#VV, 中间#NN)  (root, ROOT#null, 抹上#VV)  (assmod, 饼坯#NN, 素油#NN)  (case, 素油#NN, 的#DEG)  (dobj, 抹上#VV, 饼坯#NN)  (nummod, 个#M, 两#CD)  (clf, 叠放#NN, 个#M)  (nsubj, 平鏊烙#VV, 叠放#NN)  (case, 一起#VV, 在#P)  (prep, 平鏊烙#VV, 一起#VV)  (case, 一起#VV, 上#LC)  (conj, 抹上#VV, 平鏊烙#VV)  (nummod, 次#M, 一#CD)  (nsubj, 能#VV, 次#M)  (advmod, 能#VV, 就#AD)  (conj, 抹上#VV, 能#VV)  (nummod, 张#M, 烙两#CD)  (range, 能#VV, 张#M)  (advmod, 快#VA, 这样#AD)  (nn, 速度#NN, 制作#NN)  (nsubj, 快#VA, 速度#NN)  (advmod, 快#VA, 较#AD)  (conj, 抹上#VV, 快#VA)  (assmod, 饼#NN, 烙出#NN)  (case, 烙出#NN, 的#DEG)  (nn, 饼#NN, 荷叶#NN)  (nsubj, 柔软#VA, 饼#NN)  (advmod, 柔软#VA, 更为#AD)  (conj, 抹上#VV, 柔软#VA)  (advmod, 减少#VV, 同时#AD)  (advmod, 减少#VV, 也#AD)  (conj, 抹上#VV, 减少#VV)  (asp, 减少#VV, 了#AS)  (dobj, 减少#VV, 火色#NN)   (case, 菜#NN, 从#P)  (nn, 饼#NN, 荷叶#NN)  (assmod, 菜#NN, 饼#NN)  (case, 饼#NN, 的#DEG)  (dep, 菜#NN, 卷#M)  (prep, 看#VV, 菜#NN)  (root, ROOT#null, 看#VV)  (advmod, 卷素#NN, 也#AD)  (cop, 卷素#NN, 是#VC)  (nfincl, 卷素#NN, 丰富#VA)  (comod, 丰富#VA, 多彩#VA)  (cc, 丰富#VA, 既#CC)  (dep, 丰富#VA, 可#VV)  (dep, 看#VV, 卷素#NN)  (advmod, 卷荤#VV, 也#AD)  (dep, 卷荤#VV, 可#VV)  (dep, 看#VV, 卷荤#VV)   (nn, 有汆#NN, 素菜#NN)  (dep, 丝#NN, 有汆#NN)  (nn, 豆芽#NN, 炒#NN)  (assmod, 黄豆芽#NN, 豆芽#NN)  (case, 豆芽#NN, 中#LC)  (case, 豆芽#NN, 的#DEG)  (conj, 有汆#NN, 黄豆芽#NN)  (nn, 芽#NN, 绿豆#NN)  (conj, 有汆#NN, 芽#NN)  (nn, 苗#NN, 豌豆#NN)  (conj, 有汆#NN, 苗#NN)  (nn, 丝#NN, 土豆#NN)  (conj, 有汆#NN, 丝#NN)  (nn, 酸菜#NN, 油#NN)  (nn, 酸菜#NN, 炒#NN)  (conj, 有汆#NN, 酸菜#NN)  (conj, 有汆#NN, 泡菜#NN)  (conj, 有汆#NN, 粉丝#NN)  (conj, 有汆#NN, 韭黄#NN)  (conj, 有汆#NN, 炸#VV)  (dobj, 炸#VV, 黄豆#NN)  (dep, 蛋#JJ, 摊#NN)  (dep, 有汆#NN, 蛋#JJ)  (nn, 丝#NN, 皮#NN)  (nsubj, 有#VE, 丝#NN)  (advmod, 有#VE, 荤菜#AD)  (root, ROOT#null, 有#VE)  (nfincl, 条#NN, 熟#VA)  (nn, 条#NN, 肚#NN)  (conj, 条#NN, 丝#NN)  (conj, 条#NN, 鸡丝#NN)  (conj, 条#NN, 猪#NN)  (conj, 条#NN, 牛#NN)  (nn, 条#NN, 羊肉#NN)  (conj, 条#NN, 丝#NN)  (nn, 条#NN, 肺#NN)  (dobj, 有#VE, 条#NN)  (etc, 条#NN, 等#ETC)   (relcl, 葱#NN, 再加上#VV)  (nummod, 盘#M, 一#CD)  (clf, 细嫩#NN, 盘#M)  (dobj, 再加上#VV, 细嫩#NN)  (mark, 再加上#VV, 的#DEC)  (nn, 葱#NN, 鞭杆#NN)  (conj, 甜面酱#NN, 葱#NN)  (cc, 甜面酱#NN, 和#CC)  (nummod, 盘#M, 一#CD)  (clf, 甜面酱#NN, 盘#M)  (dep, 有#VE, 甜面酱#NN)  (advmod, 卷入#VV, 如果#CS)  (advmod, 卷入#VV, 再#AD)  (dep, 有#VE, 卷入#VV)  (dep, 烤鸭#NN, 片#M)  (amod, 烤鸭#NN, 皮#JJ)  (dobj, 卷入#VV, 烤鸭#NN)  (advmod, 有#VE, 则#AD)  (advmod, 有#VE, 更#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 滋味#NN)
+        </parsing>
+
+        <tag>
+            白面  大者直径  城乡民间  传统小吃  风味小吃  宾馆饭店  演变历史  演变发展  清代记载  调鼎集记载  薄饼  小锡罐  肉丝  抹上饼坯  制作速度  饼柔软  减少火色  多彩丰富  素菜有汆  黄豆芽  酸菜  泡菜  粉丝  韭黄  再加上葱  再加上细嫩  皮烤鸭  卷入烤鸭  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            滋阴调理，贫血调理。
+        </rawdata>
+
+        <segment>
+            滋阴  调理  ，  贫血  调理  。
+        </segment>
+
+        <pos>
+            滋阴#NR  调理#VV  ，#PU  贫血#VV  调理#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 调理#VV, 滋阴#NR)  (root, ROOT#null, 调理#VV)  (ccomp, 调理#VV, 贫血#VV)  (dobj, 贫血#VV, 调理#NN)
+        </parsing>
+
+        <tag>
+            贫血调理  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.绿叶菜切碎加少许水放搅拌机打成汁后用纱布过滤加入少许油备用。2.用少许温水把酵母化开，和菜汁一起倒进面粉里，把所有材料搅匀后揉成光滑的面团,收圆放盆里,合盖静置1小时,发酵完成。
+            3.发好的面团压扁排气再次揉成光滑的面团,分成若干小分。
+            4.每分搓圆按扁，擀成椭圆形，用刀背轻轻在中间压出中线。
+            5.对折后，在对折处用手捏出一个尖角。然后用刀背压出荷叶的纹路。
+            6.全部做好后醒10分钟左右。7.做好的面坯醒10分钟后，放入蒸格，冷水入锅，中火蒸13分钟。8.熄火后焖3分钟再开盖。
+            9.随自己口味，夹进喜欢的菜，我放的是红烧肉。
+        </rawdata>
+
+        <segment>
+            绿叶  菜  切碎  加  少许  水放  搅拌机  打成汁  后用  纱布  过滤  加入  少许  油  备用  。  2  .  用  少许  温水  把  酵母  化开  ，  和  菜汁  一起  倒  进  面粉  里  ，  把  所有  材料  搅匀  后  揉成  光滑  的  面团  ,  收圆  放  盆里  ,  合  盖  静  置  1  小时  ,  发酵  完成  。
+            发  好的  面团  压扁  排气  再次  揉成  光滑  的  面团  ,  分成  若干  小分  。
+            每  分  搓  圆  按  扁  ，  擀成  椭圆形  ，  用  刀背  轻轻  在  中间  压出  中线  。
+            对折  后  ，  在  对折  处  用  手  捏  出  一  个  尖角  。  然后  用  刀背  压出  荷叶  的  纹路  。
+            全部  做好  后  醒  10  分钟  左右  。  7  .  做好  的  面坯醒  10  分钟  后  ，  放入  蒸格  ，  冷水  入锅  ，  中  火  蒸  13  分钟  。  8  .  熄火  后焖  3  分钟  再  开盖  。
+            随  自己  口味  ，  夹  进  喜欢  的  菜  ，  我  放  的  是  红烧肉  。
+        </segment>
+
+        <pos>
+            绿叶#NR  菜#NN  切碎#NN  加#CC  少许#NN  水放#NN  搅拌机#NN  打成汁#NN  后用#NN  纱布#NN  过滤#AD  加入#VV  少许#NN  油#NN  备用#NN    。#PU  2#CD  .#NN  用#P  少许#NN  温水#NN  把#BA  酵母#VV  化开#NN  ，#PU  和#CC  菜汁#NR  一起#AD  倒#AD  进#VV  面粉#NN  里#LC  ，#PU  把#BA  所有#DT  材料#NN  搅匀#NN  后#LC  揉成#VV  光滑#NN  的#DEC  面团#NN  ,#NN  收圆#NN  放#VV  盆里#NN  ,#NN  合#VV  盖#NN  静#VA  置#VV  1#CD  小时#NN  ,#NN  发酵#NN  完成#VV    。#PU    。#PU
+            发#VV  好的#NN  面团#NN  压扁#NN  排气#NN  再次#AD  揉成#VV  光滑#NN  的#DEC  面团#NN  ,#NN  分成#VV  若干#CD  小分#NN  。#PU
+            每#DT  分#M  搓#NN  圆#VV  按#P  扁#NN  ，#PU  擀成#VV  椭圆形#NN  ，#PU  用#P  刀背#NN  轻轻#NN  在#P  中间#NN  压出#VV  中线#NN  。#PU
+            对折#NN  后#LC  ，#PU  在#P  对折#NN  处#LC  用#P  手#NN  捏#VV  出#VV  一#CD  个#M  尖角#NN    。#PU  然后#AD  用#P  刀背#NN  压出#VV  荷叶#NN  的#DEG  纹路#NN    。#PU    。#PU
+            全部#AD  做好#VV  后#LC  醒#VV  10#CD  分钟#M  左右#LC    。#PU  7#CD  .#AD  做好#VV  的#DEC  面坯醒#NN  10#CD  分钟#M  后#LC  ，#PU  放入#VV  蒸格#NN  ，#PU  冷水#VV  入锅#NN  ，#PU  中#NR  火#NN  蒸#VV  13#CD  分钟#M    。#PU  8#CD  .#NN  熄火#AD  后焖#VV  3#CD  分钟#M  再#AD  开盖#VV    。#PU    。#PU
+            随#P  自己#PN  口味#NN  ，#PU  夹#NR  进#VV  喜欢#NR  的#DEG  菜#NN  ，#PU  我#PN  放#VV  的#DEC  是#VC  红烧肉#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 水放#NN, 绿叶#NR)  (nn, 水放#NN, 菜#NN)  (conj, 水放#NN, 切碎#NN)  (cc, 水放#NN, 加#CC)  (nn, 水放#NN, 少许#NN)  (nn, 打成汁#NN, 水放#NN)  (nn, 打成汁#NN, 搅拌机#NN)  (nn, 纱布#NN, 打成汁#NN)  (nn, 纱布#NN, 后用#NN)  (nsubj, 加入#VV, 纱布#NN)  (advmod, 加入#VV, 过滤#AD)  (root, ROOT#null, 加入#VV)  (nn, 备用#NN, 少许#NN)  (nn, 备用#NN, 油#NN)  (dobj, 加入#VV, 备用#NN)   (nummod, .#NN, 2#CD)  (case, 温水#NN, 用#P)  (nn, 温水#NN, 少许#NN)  (prep, 酵母#VV, 温水#NN)  (ba, 酵母#VV, 把#BA)  (root, ROOT#null, 酵母#VV)  (dobj, 酵母#VV, 化开#NN)  (cc, 酵母#VV, 和#CC)  (nsubj, 进#VV, 菜汁#NR)  (advmod, 进#VV, 一起#AD)  (advmod, 进#VV, 倒#AD)  (dep, 酵母#VV, 进#VV)  (loc, 进#VV, 面粉#NN)  (case, 面粉#NN, 里#LC)  (ba, 放#VV, 把#BA)  (det, 收圆#NN, 所有#DT)  (nn, 搅匀#NN, 材料#NN)  (loc, 揉成#VV, 搅匀#NN)  (case, 搅匀#NN, 后#LC)  (relcl, 收圆#NN, 揉成#VV)  (dobj, 揉成#VV, 光滑#NN)  (mark, 揉成#VV, 的#DEC)  (nn, 收圆#NN, 面团#NN)  (nsubj, 放#VV, 收圆#NN)  (conj, 酵母#VV, 放#VV)  (nn, ,#NN, 盆里#NN)  (dep, 放#VV, 合#VV)  (dobj, 合#VV, 盖#NN)  (conj, 合#VV, 静#VA)  (dep, 合#VV, 置#VV)  (nummod, 发酵#NN, 1#CD)  (nn, 发酵#NN, 小时#NN)  (dobj, 置#VV, 发酵#NN)  (conj, 置#VV, 完成#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 发#VV)  (nn, 排气#NN, 好的#NN)  (nn, 排气#NN, 面团#NN)  (nn, 排气#NN, 压扁#NN)  (nsubj, 揉成#VV, 排气#NN)  (advmod, 揉成#VV, 再次#AD)  (relcl, ,#NN, 揉成#VV)  (dobj, 揉成#VV, 光滑#NN)  (mark, 揉成#VV, 的#DEC)  (nn, ,#NN, 面团#NN)  (conj, 发#VV, 分成#VV)  (nummod, 小分#NN, 若干#CD)  (dobj, 分成#VV, 小分#NN)
+            (det, 搓#NN, 每#DT)  (clf, 每#DT, 分#M)  (nsubj, 圆#VV, 搓#NN)  (root, ROOT#null, 圆#VV)  (case, 扁#NN, 按#P)  (prep, 圆#VV, 扁#NN)  (dep, 圆#VV, 擀成#VV)  (dobj, 擀成#VV, 椭圆形#NN)  (case, 轻轻#NN, 用#P)  (nn, 轻轻#NN, 刀背#NN)  (prep, 压出#VV, 轻轻#NN)  (case, 中间#NN, 在#P)  (prep, 压出#VV, 中间#NN)  (conj, 圆#VV, 压出#VV)  (dobj, 压出#VV, 中线#NN)
+            (loc, 捏#VV, 对折#NN)  (case, 对折#NN, 后#LC)  (case, 对折#NN, 在#P)  (prep, 捏#VV, 对折#NN)  (case, 对折#NN, 处#LC)  (case, 手#NN, 用#P)  (prep, 捏#VV, 手#NN)  (root, ROOT#null, 捏#VV)  (rcomp, 捏#VV, 出#VV)  (nummod, 个#M, 一#CD)  (clf, 尖角#NN, 个#M)  (dobj, 捏#VV, 尖角#NN)   (advmod, 压出#VV, 然后#AD)  (case, 刀背#NN, 用#P)  (prep, 压出#VV, 刀背#NN)  (root, ROOT#null, 压出#VV)  (assmod, 纹路#NN, 荷叶#NN)  (case, 荷叶#NN, 的#DEG)  (dobj, 压出#VV, 纹路#NN)   (root, ROOT#null, null#null)
+            (advmod, 做好#VV, 全部#AD)  (loc, 醒#VV, 做好#VV)  (case, 做好#VV, 后#LC)  (root, ROOT#null, 醒#VV)  (nummod, 分钟#M, 10#CD)  (loc, 醒#VV, 分钟#M)  (case, 分钟#M, 左右#LC)   (nummod, 面坯醒#NN, 7#CD)  (relcl, 面坯醒#NN, 做好#VV)  (mark, 做好#VV, 的#DEC)  (nsubj, 放入#VV, 面坯醒#NN)  (nummod, 分钟#M, 10#CD)  (loc, 放入#VV, 分钟#M)  (case, 分钟#M, 后#LC)  (root, ROOT#null, 放入#VV)  (dobj, 放入#VV, 蒸格#NN)  (conj, 放入#VV, 冷水#VV)  (dobj, 冷水#VV, 入锅#NN)  (nn, 火#NN, 中#NR)  (nsubj, 蒸#VV, 火#NN)  (conj, 放入#VV, 蒸#VV)  (nummod, 分钟#M, 13#CD)  (range, 蒸#VV, 分钟#M)   (nummod, .#NN, 8#CD)  (advmod, 后焖#VV, 熄火#AD)  (root, ROOT#null, 后焖#VV)  (nummod, 分钟#M, 3#CD)  (range, 后焖#VV, 分钟#M)  (advmod, 开盖#VV, 再#AD)  (dep, 后焖#VV, 开盖#VV)   (root, ROOT#null, null#null)
+            (case, 口味#NN, 随#P)  (nn, 口味#NN, 自己#PN)  (prep, 进#VV, 口味#NN)  (nsubj, 进#VV, 夹#NR)  (root, ROOT#null, 进#VV)  (assmod, 菜#NN, 喜欢#NR)  (case, 喜欢#NR, 的#DEG)  (dobj, 进#VV, 菜#NN)  (nsubj, 放#VV, 我#PN)  (nsubj, 红烧肉#NN, 放#VV)  (mark, 放#VV, 的#DEC)  (cop, 红烧肉#NN, 是#VC)  (conj, 进#VV, 红烧肉#NN)
+        </parsing>
+
+        <tag>
+            切碎  少许水放  水放打成汁  搅拌机打成汁  打成汁纱布  后用纱布  少许备用  加入备用  少许温水  酵母化开  材料搅匀  揉成收圆  揉成光滑  面团收圆  小时发酵  好的排气  面团排气  压扁排气  分成小分  擀成椭圆形  刀背轻轻  压出中线  压出纹路  做好面坯醒  冷水入锅  后焖  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/7a/33/13178_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1062 荷叶饼.jpg
+    </picturelocalurl>
+
+</content>

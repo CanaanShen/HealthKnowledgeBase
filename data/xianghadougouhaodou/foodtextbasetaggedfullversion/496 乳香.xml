@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        496
+    </id>
+
+    <foodname>
+        乳香
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        乳头香、天泽香
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇及胃弱者慎用。
+        </rawdata>
+
+        <segment>
+            孕妇  及  胃弱者  慎用  。
+        </segment>
+
+        <pos>
+            孕妇#NR  及#CC  胃弱者#NR  慎用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 胃弱者#NR, 孕妇#NR)  (cc, 胃弱者#NR, 及#CC)  (nsubj, 慎用#VV, 胃弱者#NR)  (root, ROOT#null, 慎用#VV)
+        </parsing>
+
+        <tag>
+            孕妇  胃弱者慎用  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            乳香，中药名。为橄榄科植物乳香树Boswellia carterii Birdw.及同属植物Boswellia bhaurdajiana Birdw.树皮渗出的树脂。分为索马里乳香和埃塞俄比亚乳香，每种乳香又弁为乳香珠和原乳香。
+        </rawdata>
+
+        <segment>
+            乳香  ，  中  药名  。  为  橄榄科  植物  乳香树  Boswellia  carterii  Birdw  .  及  同属  植物  Boswellia  bhaurdajiana  Birdw  .  树皮  渗出  的  树脂  。  分为  索马里  乳香  和  埃塞俄比亚  乳香  ，  每  种  乳香  又  弁为  乳香珠  和  原  乳香  。
+        </segment>
+
+        <pos>
+            乳香#VV  ，#PU  中#NR  药名#VV    。#PU  为#P  橄榄科#NN  植物#NN  乳香树#NN  Boswellia#NN  carterii#NN  Birdw#NN  .#NN  及#CC  同属#NN  植物#NN  Boswellia#NN  bhaurdajiana#NN  Birdw#VV  .#NN  树皮#NN  渗出#NN  的#DEG  树脂#NN    。#PU  分为#VV  索马里#NN  乳香#NN  和#CC  埃塞俄比亚#NN  乳香#NN  ，#PU  每#DT  种#M  乳香#NN  又#AD  弁为#VV  乳香珠#NN  和#CC  原#JJ  乳香#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 乳香#VV)  (nsubj, 药名#VV, 中#NR)  (ccomp, 乳香#VV, 药名#VV)   (case, bhaurdajiana#NN, 为#P)  (nn, .#NN, 橄榄科#NN)  (nn, .#NN, 植物#NN)  (nn, .#NN, 乳香树#NN)  (nn, .#NN, Boswellia#NN)  (nn, .#NN, carterii#NN)  (nn, .#NN, Birdw#NN)  (cc, bhaurdajiana#NN, 及#CC)  (nn, bhaurdajiana#NN, 同属#NN)  (nn, bhaurdajiana#NN, 植物#NN)  (nn, bhaurdajiana#NN, Boswellia#NN)  (prep, Birdw#VV, bhaurdajiana#NN)  (root, ROOT#null, Birdw#VV)  (nn, 渗出#NN, 树皮#NN)  (assmod, 树脂#NN, 渗出#NN)  (case, 渗出#NN, 的#DEG)  (dobj, Birdw#VV, 树脂#NN)   (root, ROOT#null, 分为#VV)  (nn, 乳香#NN, 索马里#NN)  (conj, 乳香#NN, 乳香#NN)  (cc, 乳香#NN, 和#CC)  (nn, 乳香#NN, 埃塞俄比亚#NN)  (dobj, 分为#VV, 乳香#NN)  (det, 乳香#NN, 每#DT)  (clf, 每#DT, 种#M)  (dep, 弁为#VV, 乳香#NN)  (advmod, 弁为#VV, 又#AD)  (conj, 分为#VV, 弁为#VV)  (conj, 乳香#NN, 乳香珠#NN)  (cc, 乳香#NN, 和#CC)  (amod, 乳香#NN, 原#JJ)  (dobj, 弁为#VV, 乳香#NN)
+        </parsing>
+
+        <tag>
+            同属bhaurdajiana  植物bhaurdajiana  Boswelliabhaurdajiana  树皮渗出  Birdw树脂  分为  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            活血行气止痛，消肿生肌。
+        </rawdata>
+
+        <segment>
+            活  血行  气  止痛  ，  消肿  生肌  。
+        </segment>
+
+        <pos>
+            活#JJ  血行#NN  气#NN  止痛#VV  ，#PU  消肿#VV  生肌#NN  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 血行#NN, 活#JJ)  (nn, 气#NN, 血行#NN)  (nsubj, 止痛#VV, 气#NN)  (root, ROOT#null, 止痛#VV)  (ccomp, 止痛#VV, 消肿#VV)  (dobj, 消肿#VV, 生肌#NN)
+        </parsing>
+
+        <tag>
+            活血行  止痛  消肿生肌  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201601/151849051135.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\496 乳香.jpg
+    </picturelocalurl>
+
+</content>

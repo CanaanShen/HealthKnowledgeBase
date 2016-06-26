@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        319
+    </id>
+
+    <foodname>
+        石榴
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        安石榴、金罂、金庞、钟石榴、天浆、甘石榴、丹若
+    </alias>
+
+    <season>
+        9-10月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不适宜便秘者、尿道炎患者、糖尿病者、实热积滞者。
+        </rawdata>
+
+        <segment>
+            不适宜  便秘  者  、  尿道炎  患者  、  糖尿  病者  、  实热积滞者  。
+        </segment>
+
+        <pos>
+            不适宜#NN  便秘#VV  者#NN  、#PU  尿道炎#NN  患者#NN  、#PU  糖尿#NN  病者#NN  、#PU  实热积滞者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 便秘#VV, 不适宜#NN)  (root, ROOT#null, 便秘#VV)  (conj, 实热积滞者#NN, 者#NN)  (nn, 实热积滞者#NN, 尿道炎#NN)  (conj, 实热积滞者#NN, 患者#NN)  (nn, 实热积滞者#NN, 糖尿#NN)  (conj, 实热积滞者#NN, 病者#NN)  (dobj, 便秘#VV, 实热积滞者#NN)
+        </parsing>
+
+        <tag>
+            不适宜便秘者  尿道炎  患者  糖尿病者  实热积滞者  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜口干舌燥者、腹泻者、扁桃体发炎者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  口干舌燥  者  、  腹泻者  、  扁桃体  发炎  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  口干舌燥#NN  者#NN  、#PU  腹泻者#NN  、#PU  扁桃体#NN  发炎#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (nn, 发炎#NN, 口干舌燥#NN)  (conj, 发炎#NN, 者#NN)  (conj, 发炎#NN, 腹泻者#NN)  (nn, 发炎#NN, 扁桃体#NN)  (nn, 者#NN, 发炎#NN)  (dobj, 适宜#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  口干舌燥者  腹泻者  扁桃体发炎者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                18.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                4.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                4.91
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                231
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.17
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            石榴是石榴科植物石榴的果实。原产于西域，汉代传入我国，主要有玛瑙石榴、粉皮石榴、青皮石榴、玉石子等不同品种。成熟的石榴皮色鲜红或粉红，常会裂开，露出晶莹如宝石般的子粒，酸甜多汁，虽吃着麻烦，却回味无穷。因其色彩鲜艳、子多饱满，常被用作喜庆水果，象征多子多福、子孙满堂。石榴成熟于中秋、国庆两大节日期间，是馈赠亲友的喜庆吉祥佳品。石榴能消除女性更年期障碍。
+        </rawdata>
+
+        <segment>
+            石榴  是  石榴  科  植物  石榴  的  果实  。  原产  于  西域  ，  汉代  传入  我国  ，  主要  有  玛瑙  石榴  、  粉皮  石榴  、  青皮  石榴  、  玉石子  等  不同  品种  。  成熟  的  石榴皮  色  鲜红  或  粉红  ，  常  会  裂开  ，  露出  晶莹  如  宝石  般  的  子粒  ，  酸甜  多汁  ，  虽  吃  着  麻烦  ，  却  回味无穷  。  因  其  色彩  鲜艳  、  子多  饱满  ，  常被  用作  喜庆  水果  ，  象征  多子  多福  、  子孙满堂  。  石榴  成熟  于  中秋  、  国庆  两  大  节日  期间  ，  是  馈赠  亲友  的  喜庆  吉祥  佳品  。  石榴  能  消除  女性  更年期  障碍  。
+        </segment>
+
+        <pos>
+            石榴#NN  是#VC  石榴#VV  科#NN  植物#NN  石榴#NN  的#DEC  果实#NN    。#PU  原产#NN  于#P  西域#NN  ，#PU  汉代#NN  传入#NN  我国#NN  ，#PU  主要#AD  有#VE  玛瑙#NR  石榴#NR  、#PU  粉皮#NR  石榴#NR  、#PU  青皮#NR  石榴#NR  、#PU  玉石子#NR  等#ETC  不同#JJ  品种#NN    。#PU  成熟#VA  的#DEC  石榴皮#NN  色#NN  鲜红#VV  或#CC  粉红#VV  ，#PU  常#AD  会#VV  裂开#VV  ，#PU  露出#VV  晶莹#NN  如#P  宝石#NN  般#VA  的#DEC  子粒#NN  ，#PU  酸甜#VV  多汁#NN  ，#PU  虽#CS  吃#VV  着#AS  麻烦#NN  ，#PU  却#AD  回味无穷#VV    。#PU  因#P  其#PN  色彩#NN  鲜艳#NN  、#PU  子多#NN  饱满#VA  ，#PU  常被#AD  用作#VV  喜庆#VV  水果#NN  ，#PU  象征#VV  多子#NN  多福#NN  、#PU  子孙满堂#NN    。#PU  石榴#AD  成熟#VA  于#P  中秋#NR  、#PU  国庆#NR  两#CD  大#JJ  节日#NN  期间#NN  ，#PU  是#VC  馈赠#NN  亲友#NN  的#DEC  喜庆#VV  吉祥#NN  佳品#NN    。#PU  石榴#NN  能#VV  消除#VV  女性#NN  更年期#NN  障碍#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 果实#NN, 石榴#NN)  (cop, 果实#NN, 是#VC)  (relcl, 果实#NN, 石榴#VV)  (nn, 石榴#NN, 科#NN)  (nn, 石榴#NN, 植物#NN)  (dobj, 石榴#VV, 石榴#NN)  (mark, 石榴#VV, 的#DEC)  (root, ROOT#null, 果实#NN)   (nsubj, 有#VE, 原产#NN)  (case, 西域#NN, 于#P)  (prep, 有#VE, 西域#NN)  (nn, 我国#NN, 汉代#NN)  (nn, 我国#NN, 传入#NN)  (nsubj, 有#VE, 我国#NN)  (advmod, 有#VE, 主要#AD)  (root, ROOT#null, 有#VE)  (nn, 玉石子#NR, 玛瑙#NR)  (conj, 玉石子#NR, 石榴#NR)  (nn, 玉石子#NR, 粉皮#NR)  (conj, 玉石子#NR, 石榴#NR)  (nn, 玉石子#NR, 青皮#NR)  (conj, 玉石子#NR, 石榴#NR)  (nn, 品种#NN, 玉石子#NR)  (etc, 玉石子#NR, 等#ETC)  (amod, 品种#NN, 不同#JJ)  (dobj, 有#VE, 品种#NN)   (relcl, 色#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (nn, 色#NN, 石榴皮#NN)  (nsubj, 鲜红#VV, 色#NN)  (root, ROOT#null, 鲜红#VV)  (cc, 鲜红#VV, 或#CC)  (conj, 鲜红#VV, 粉红#VV)  (advmod, 裂开#VV, 常#AD)  (dep, 裂开#VV, 会#VV)  (conj, 鲜红#VV, 裂开#VV)  (conj, 鲜红#VV, 露出#VV)  (nsubj, 般#VA, 晶莹#NN)  (case, 宝石#NN, 如#P)  (prep, 般#VA, 宝石#NN)  (relcl, 子粒#NN, 般#VA)  (mark, 般#VA, 的#DEC)  (dobj, 露出#VV, 子粒#NN)  (conj, 鲜红#VV, 酸甜#VV)  (dobj, 酸甜#VV, 多汁#NN)  (advmod, 吃#VV, 虽#CS)  (conj, 鲜红#VV, 吃#VV)  (asp, 吃#VV, 着#AS)  (dobj, 吃#VV, 麻烦#NN)  (advmod, 回味无穷#VV, 却#AD)  (conj, 鲜红#VV, 回味无穷#VV)   (case, 饱满#VA, 因#P)  (nn, 子多#NN, 其#PN)  (nn, 子多#NN, 色彩#NN)  (conj, 子多#NN, 鲜艳#NN)  (nsubj, 饱满#VA, 子多#NN)  (prep, 喜庆#VV, 饱满#VA)  (advmod, 喜庆#VV, 常被#AD)  (mmod, 喜庆#VV, 用作#VV)  (root, ROOT#null, 喜庆#VV)  (dobj, 喜庆#VV, 水果#NN)  (conj, 喜庆#VV, 象征#VV)  (nn, 子孙满堂#NN, 多子#NN)  (conj, 子孙满堂#NN, 多福#NN)  (dobj, 象征#VV, 子孙满堂#NN)   (advmod, 成熟#VA, 石榴#AD)  (nsubj, 喜庆#VV, 成熟#VA)  (case, 期间#NN, 于#P)  (conj, 国庆#NR, 中秋#NR)  (nn, 节日#NN, 国庆#NR)  (nummod, 节日#NN, 两#CD)  (amod, 节日#NN, 大#JJ)  (nn, 期间#NN, 节日#NN)  (prep, 成熟#VA, 期间#NN)  (cop, 亲友#NN, 是#VC)  (nn, 亲友#NN, 馈赠#NN)  (dep, 成熟#VA, 亲友#NN)  (mark, 成熟#VA, 的#DEC)  (root, ROOT#null, 喜庆#VV)  (nn, 佳品#NN, 吉祥#NN)  (dobj, 喜庆#VV, 佳品#NN)   (nsubj, 消除#VV, 石榴#NN)  (mmod, 消除#VV, 能#VV)  (root, ROOT#null, 消除#VV)  (nn, 障碍#NN, 女性#NN)  (nn, 障碍#NN, 更年期#NN)  (dobj, 消除#VV, 障碍#NN)
+        </parsing>
+
+        <tag>
+            汉代我国  传入我国  不同品种  色成熟  鲜红  露出子粒  酸甜多汁  色彩子多  鲜艳  子多饱满  喜庆水果  多子子孙满堂  多福  象征子孙满堂  国庆  中秋  大节日  节日期间  馈赠亲友  吉祥佳品  喜庆佳品  女性障碍  更年期障碍  消除障碍  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.强身健体
+            石榴有助消化、抗胃溃疡、软化血管、降血脂和血糖，降低胆固醇等多种功能。可防止冠心病心病、高血压，可达到健胃提神、增强食欲、益寿延年之功效。
+            2.抑制大肠杆菌
+            石榴皮有明显的抑菌和收敛功能，能使肠黏膜收敛，使肠黏腊的分泌物减少，所以能有效地治疗腹泻、痢疾等症，对痢疾杆菌、大肠杆菌有较好的抑制作用。
+            3.驱虫
+            石榴的果皮中含有碱性物质，有驱虫功效。
+            4.止血、明目
+            石榴花性味酸涩而平，若晒干研末，则具有良好的止血作用，亦能止赤白带下。石榴花泡水洗眼，尚有明目效能。
+        </rawdata>
+
+        <segment>
+            强身  健体
+            石榴  有助  消化  、  抗  胃溃疡  、  软化  血管  、  降  血脂  和  血糖  ，  降低  胆固醇  等  多  种  功能  。  可防止  冠心病  心病  、  高血压  ，  可  达到  健胃  提神  、  增强  食欲  、  益寿  延年  之  功效  。
+            抑制  大肠  杆菌
+            石榴皮  有  明显  的  抑菌  和  收敛  功能  ，  能  使  肠  黏膜  收敛  ，  使  肠黏腊  的  分泌物  减少  ，  所以  能  有效  地  治疗  腹泻  、  痢疾  等症  ，  对  痢疾  杆菌  、  大肠  杆菌  有  较好  的  抑制  作用  。
+            驱虫
+            石榴  的  果皮  中  含有  碱性  物质  ，  有  驱虫  功效  。
+            止血  、  明目
+            石榴  花  性味  酸涩  而  平  ，  若  晒干  研末  ，  则  具有  良好  的  止血  作用  ，  亦  能  止赤  白  带下  。  石榴  花  泡  水洗  眼  ，  尚  有  明目  效能  。
+        </segment>
+
+        <pos>
+            强身#NN  健体#VV
+            石榴#AD  有助#VV  消化#NN  、#PU  抗#NN  胃溃疡#NN  、#PU  软化#NN  血管#NN  、#PU  降#NN  血脂#NN  和#CC  血糖#NN  ，#PU  降低#VV  胆固醇#NN  等#ETC  多#CD  种#M  功能#NN    。#PU  可防止#VV  冠心病#NN  心病#NN  、#PU  高血压#NN  ，#PU  可#VV  达到#VV  健胃#NN  提神#NN  、#PU  增强#VV  食欲#NR  、#PU  益寿#NR  延年#NN  之#DEG  功效#NN    。#PU    。#PU
+            抑制#VV  大肠#NN  杆菌#NN
+            石榴皮#NN  有#VE  明显#VA  的#DEC  抑菌#NN  和#CC  收敛#NN  功能#NN  ，#PU  能#VV  使#VV  肠#NN  黏膜#VV  收敛#NN  ，#PU  使#VV  肠黏腊#NN  的#DEG  分泌物#NN  减少#VV  ，#PU  所以#AD  能#VV  有效#VA  地#DEV  治疗#VV  腹泻#NN  、#PU  痢疾#NN  等症#NN  ，#PU  对#P  痢疾#NN  杆菌#NN  、#PU  大肠#NN  杆菌#NN  有#VE  较好#JJ  的#DEG  抑制#NN  作用#NN  。#PU
+            驱虫#VV
+            石榴#NN  的#DEG  果皮#NN  中#LC  含有#AD  碱性#VV  物质#NN  ，#PU  有#VE  驱虫#NN  功效#NN  。#PU
+            止血#VA  、#PU  明目#VA
+            石榴#NN  花#NN  性味#NN  酸涩#VV  而#MSP  平#VV  ，#PU  若#CS  晒干#VV  研末#NN  ，#PU  则#AD  具有#VV  良好#VA  的#DEC  止血#JJ  作用#NN  ，#PU  亦#AD  能#VV  止赤#VV  白#JJ  带下#NN    。#PU  石榴#NN  花#NN  泡#NN  水洗#NN  眼#NN  ，#PU  尚#AD  有#VE  明目#NN  效能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 健体#VV, 强身#NN)  (root, ROOT#null, 健体#VV)
+            (advmod, 有助#VV, 石榴#AD)  (root, ROOT#null, 有助#VV)  (conj, 血糖#NN, 消化#NN)  (nn, 血糖#NN, 抗#NN)  (conj, 血糖#NN, 胃溃疡#NN)  (nn, 血糖#NN, 软化#NN)  (conj, 血糖#NN, 血管#NN)  (nn, 血糖#NN, 降#NN)  (conj, 血糖#NN, 血脂#NN)  (cc, 血糖#NN, 和#CC)  (dobj, 有助#VV, 血糖#NN)  (dep, 有助#VV, 降低#VV)  (nn, 功能#NN, 胆固醇#NN)  (etc, 胆固醇#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 功能#NN, 种#M)  (dobj, 降低#VV, 功能#NN)   (root, ROOT#null, 可防止#VV)  (nn, 高血压#NN, 冠心病#NN)  (conj, 高血压#NN, 心病#NN)  (dobj, 可防止#VV, 高血压#NN)  (mmod, 达到#VV, 可#VV)  (conj, 可防止#VV, 达到#VV)  (nn, 提神#NN, 健胃#NN)  (dobj, 达到#VV, 提神#NN)  (conj, 可防止#VV, 增强#VV)  (conj, 益寿#NR, 食欲#NR)  (nn, 延年#NN, 益寿#NR)  (assmod, 功效#NN, 延年#NN)  (case, 延年#NN, 之#DEG)  (dobj, 增强#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 抑制#VV)  (nn, 杆菌#NN, 大肠#NN)  (dobj, 抑制#VV, 杆菌#NN)
+            (nsubj, 有#VE, 石榴皮#NN)  (root, ROOT#null, 有#VE)  (relcl, 功能#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (conj, 功能#NN, 抑菌#NN)  (cc, 功能#NN, 和#CC)  (nn, 功能#NN, 收敛#NN)  (dobj, 有#VE, 功能#NN)  (mmod, 使#VV, 能#VV)  (conj, 有#VE, 使#VV)  (dobj, 使#VV, 肠#NN)  (dep, 使#VV, 黏膜#VV)  (dobj, 黏膜#VV, 收敛#NN)  (conj, 使#VV, 使#VV)  (assmod, 分泌物#NN, 肠黏腊#NN)  (case, 肠黏腊#NN, 的#DEG)  (dobj, 使#VV, 分泌物#NN)  (dep, 使#VV, 减少#VV)  (advmod, 治疗#VV, 所以#AD)  (mmod, 治疗#VV, 能#VV)  (dvpmod, 治疗#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 有#VE, 治疗#VV)  (conj, 等症#NN, 腹泻#NN)  (nn, 等症#NN, 痢疾#NN)  (dobj, 治疗#VV, 等症#NN)  (case, 杆菌#NN, 对#P)  (nn, 杆菌#NN, 痢疾#NN)  (conj, 杆菌#NN, 杆菌#NN)  (nn, 杆菌#NN, 大肠#NN)  (prep, 有#VE, 杆菌#NN)  (conj, 有#VE, 有#VE)  (assmod, 作用#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 驱虫#VV)
+            (assmod, 果皮#NN, 石榴#NN)  (case, 石榴#NN, 的#DEG)  (loc, 碱性#VV, 果皮#NN)  (case, 果皮#NN, 中#LC)  (advmod, 碱性#VV, 含有#AD)  (root, ROOT#null, 碱性#VV)  (dobj, 碱性#VV, 物质#NN)  (conj, 碱性#VV, 有#VE)  (nn, 功效#NN, 驱虫#NN)  (dobj, 有#VE, 功效#NN)
+            (root, ROOT#null, 止血#VA)  (dep, 止血#VA, 明目#VA)
+            (nn, 性味#NN, 石榴#NN)  (nn, 性味#NN, 花#NN)  (nsubj, 酸涩#VV, 性味#NN)  (xsubj, 平#VV, 性味#NN)  (root, ROOT#null, 酸涩#VV)  (prtmod, 平#VV, 而#MSP)  (ccomp, 酸涩#VV, 平#VV)  (advmod, 晒干#VV, 若#CS)  (dep, 平#VV, 晒干#VV)  (dobj, 晒干#VV, 研末#NN)  (advmod, 具有#VV, 则#AD)  (dep, 平#VV, 具有#VV)  (relcl, 作用#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (amod, 作用#NN, 止血#JJ)  (dobj, 具有#VV, 作用#NN)  (advmod, 止赤#VV, 亦#AD)  (mmod, 止赤#VV, 能#VV)  (dep, 平#VV, 止赤#VV)  (amod, 带下#NN, 白#JJ)  (dobj, 止赤#VV, 带下#NN)   (nn, 泡#NN, 石榴#NN)  (nn, 泡#NN, 花#NN)  (nsubj, 有#VE, 泡#NN)  (nn, 眼#NN, 水洗#NN)  (nsubj, 有#VE, 眼#NN)  (advmod, 有#VE, 尚#AD)  (root, ROOT#null, 有#VE)  (nn, 效能#NN, 明目#NN)  (dobj, 有#VE, 效能#NN)
+        </parsing>
+
+        <tag>
+            健体  消化  胃溃疡  软化血糖  血管  血脂  有助血糖  胆固醇功能  降低功能  冠心病高血压  可防止高血压  健胃提神  达到提神  益寿  食欲  增强功效  大肠杆菌  抑制杆菌  功能明显  抑菌  收敛功能  黏膜收敛  分泌物  肠黏腊  腹泻  痢疾等症  治疗等症  痢疾杆菌  碱性  驱虫功效  酸涩  晒干研末  白带下  止赤带下  明目效能  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.石榴的营养特别丰富，含有多种人体所需的营养成分，果实中含有维生素C及B族维生素，有机酸、糖类、蛋白质、脂肪，以及钙、磷、钾等矿物质。据分析，石榴果实中含碳水化合物17%，水份79%，糖13～17%，脂肪、蛋白质的含量较少，果实以品鲜为主。
+            2.石榴以维生素C而言，比柑桔、香蕉、木瓜、番茄、西瓜、凤梨都高，铁、钙、磷含量也丰富，种子中铁的含量更胜于其它水果，所以最好能一起食下去。
+            3.石榴果皮中含有苹果酸、鞣质、生物碱等成分。
+        </rawdata>
+
+        <segment>
+            石榴  的  营养  特别  丰富  ，  含有  多  种  人体  所  需  的  营养  成分  ，  果实  中  含有  维生素C  及  B  族  维生素  ，  有机酸  、  糖类  、  蛋白质  、  脂肪  ，  以及  钙  、  磷  、  钾  等  矿物质  。  据  分析  ，  石榴  果实  中  含  碳水  化合物  17%  ，  水份  79%  ，  糖  13  ～  17%  ，  脂肪  、  蛋白质  的  含量  较  少  ，  果实  以  品鲜  为主  。
+            石榴  以  维生素C  而言  ，  比  柑桔  、  香蕉  、  木瓜  、  番茄  、  西瓜  、  凤梨  都  高  ，  铁  、  钙  、  磷  含量  也  丰富  ，  种子  中  铁的  含量  更  胜于  其它  水果  ，  所以  最好  能  一起  食  下去  。
+            石榴  果皮  中  含有  苹果酸  、  鞣质  、  生物  碱  等  成分  。
+        </segment>
+
+        <pos>
+            石榴#VA  的#DEC  营养#VA  特别#AD  丰富#VA  ，#PU  含有#VV  多#CD  种#M  人体#AD  所#MSP  需#VV  的#DEC  营养#VA  成分#NN  ，#PU  果实#NN  中#LC  含有#NN  维生素C#NN  及#CC  B#NN  族#NN  维生素#NN  ，#PU  有机酸#NN  、#PU  糖类#NN  、#PU  蛋白质#NN  、#PU  脂肪#NN  ，#PU  以及#CC  钙#NN  、#PU  磷#NN  、#PU  钾#NN  等#ETC  矿物质#VV    。#PU  据#P  分析#NN  ，#PU  石榴#NN  果实#NN  中#LC  含#VV  碳水#AD  化合物#VV  17#CD  %#NN  ，#PU  水份#NN  79#CD  %#NN  ，#PU  糖#NN  13#CD  ～#NN  17#CD  %#NN  ，#PU  脂肪#NN  、#PU  蛋白质#NN  的#DEG  含量#NN  较#AD  少#VA  ，#PU  果实#NN  以#P  品鲜#NN  为主#VV    。#PU    。#PU
+            石榴#NN  以#P  维生素C#NN  而言#VV  ，#PU  比#P  柑桔#NN  、#PU  香蕉#NN  、#PU  木瓜#NN  、#PU  番茄#NN  、#PU  西瓜#NN  、#PU  凤梨#NN  都#AD  高#VA  ，#PU  铁#NN  、#PU  钙#NN  、#PU  磷#NN  含量#NN  也#AD  丰富#VA  ，#PU  种子#NN  中#LC  铁的#NN  含量#NN  更#AD  胜于#VV  其它#DT  水果#NN  ，#PU  所以#AD  最好#JJ  能#VV  一起#VV  食#NN  下去#VV  。#PU
+            石榴#NN  果皮#NN  中#LC  含有#VV  苹果酸#NN  、#PU  鞣质#NN  、#PU  生物#NN  碱#NN  等#ETC  成分#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 石榴#VA)  (xsubj, 丰富#VA, 石榴#VA)  (mark, 石榴#VA, 的#DEC)  (root, ROOT#null, 营养#VA)  (advmod, 丰富#VA, 特别#AD)  (dep, 营养#VA, 丰富#VA)  (conj, 丰富#VA, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (advmod, 需#VV, 人体#AD)  (prtmod, 需#VV, 所#MSP)  (relcl, 成分#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (relcl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)  (dep, 钾#NN, 果实#NN)  (case, 果实#NN, 中#LC)  (nn, 钾#NN, 含有#NN)  (conj, 钾#NN, 维生素C#NN)  (cc, 钾#NN, 及#CC)  (nn, 钾#NN, B#NN)  (nn, 钾#NN, 族#NN)  (conj, 钾#NN, 维生素#NN)  (conj, 钾#NN, 有机酸#NN)  (conj, 钾#NN, 糖类#NN)  (conj, 钾#NN, 蛋白质#NN)  (dep, 钾#NN, 脂肪#NN)  (cc, 钾#NN, 以及#CC)  (conj, 钾#NN, 钙#NN)  (conj, 钾#NN, 磷#NN)  (dep, 矿物质#VV, 钾#NN)  (etc, 钾#NN, 等#ETC)  (conj, 丰富#VA, 矿物质#VV)   (case, 分析#NN, 据#P)  (prep, 化合物#VV, 分析#NN)  (nn, 果实#NN, 石榴#NN)  (loc, 化合物#VV, 果实#NN)  (case, 果实#NN, 中#LC)  (mmod, 化合物#VV, 含#VV)  (advmod, 化合物#VV, 碳水#AD)  (root, ROOT#null, 化合物#VV)  (nummod, %#NN, 17#CD)  (dobj, 化合物#VV, %#NN)  (nn, %#NN, 水份#NN)  (nummod, %#NN, 79#CD)  (nsubj, 少#VA, %#NN)  (nn, ～#NN, 糖#NN)  (nummod, ～#NN, 13#CD)  (nummod, %#NN, 17#CD)  (nsubj, 少#VA, %#NN)  (conj, 蛋白质#NN, 脂肪#NN)  (assmod, 含量#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 少#VA, 含量#NN)  (advmod, 少#VA, 较#AD)  (conj, 化合物#VV, 少#VA)  (nsubj, 为主#VV, 果实#NN)  (case, 品鲜#NN, 以#P)  (prep, 为主#VV, 品鲜#NN)  (conj, 化合物#VV, 为主#VV)   (root, ROOT#null, null#null)
+            (nsubj, 而言#VV, 石榴#NN)  (case, 维生素C#NN, 以#P)  (prep, 而言#VV, 维生素C#NN)  (root, ROOT#null, 而言#VV)  (case, 凤梨#NN, 比#P)  (conj, 凤梨#NN, 柑桔#NN)  (conj, 凤梨#NN, 香蕉#NN)  (conj, 凤梨#NN, 木瓜#NN)  (conj, 凤梨#NN, 番茄#NN)  (conj, 凤梨#NN, 西瓜#NN)  (prep, 高#VA, 凤梨#NN)  (advmod, 高#VA, 都#AD)  (dep, 而言#VV, 高#VA)  (conj, 磷#NN, 铁#NN)  (conj, 磷#NN, 钙#NN)  (nn, 含量#NN, 磷#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 也#AD)  (conj, 而言#VV, 丰富#VA)  (loc, 胜于#VV, 种子#NN)  (case, 种子#NN, 中#LC)  (nn, 含量#NN, 铁的#NN)  (nsubj, 胜于#VV, 含量#NN)  (advmod, 胜于#VV, 更#AD)  (conj, 而言#VV, 胜于#VV)  (det, 水果#NN, 其它#DT)  (dobj, 胜于#VV, 水果#NN)  (advmod, 下去#VV, 所以#AD)  (amod, 食#NN, 最好#JJ)  (dep, 一起#VV, 能#VV)  (relcl, 食#NN, 一起#VV)  (nsubj, 下去#VV, 食#NN)  (conj, 而言#VV, 下去#VV)
+            (nsubj, 含有#VV, 石榴#NN)  (loc, 含有#VV, 果皮#NN)  (case, 果皮#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 碱#NN, 苹果酸#NN)  (conj, 碱#NN, 鞣质#NN)  (nn, 碱#NN, 生物#NN)  (nn, 成分#NN, 碱#NN)  (etc, 碱#NN, 等#ETC)  (dobj, 含有#VV, 成分#NN)
+        </parsing>
+
+        <tag>
+            蛋白质  脂肪  而言  凤梨  柑桔  香蕉  木瓜  番茄  西瓜  胜于水果  最好食  一起食  含有  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            方便又漂亮的石榴剥皮小窍门：
+            1.在石榴的顶端横切一刀。
+            2.去顶。
+            3.用刀顺着石榴的白筋在外皮上划几刀。刀口不要太深，划开石榴皮就行了。
+            4.用刀尖轻轻把中间白色部份的内心划断。
+            5.划断后的样子像盛开的花朵形状。
+            6.抽掉中间的白心。
+            7.轻轻一掰，石榴就“开花”了，这个时候，很容易就能取出石榴籽。
+        </rawdata>
+
+        <segment>
+            方便  又  漂亮  的  石榴  剥皮  小  窍门  ：
+            在  石榴  的  顶端  横切  一  刀  。
+            去顶  。
+            用刀  顺  着  石榴  的  白筋  在  外皮  上  划  几  刀  。  刀口  不要  太深  ，  划开  石榴皮  就  行了  。
+            用  刀尖  轻轻  把  中间  白色  部份  的  内心  划断  。
+            划  断后  的  样子  像  盛开  的  花朵  形状  。
+            抽掉  中间  的  白心  。
+            轻轻  一  掰  ，  石榴  就  “  开花  ”  了  ，  这个  时候  ，  很容易  就  能  取出  石榴籽  。
+        </segment>
+
+        <pos>
+            方便#NN  又#AD  漂亮#VA  的#DEC  石榴#NN  剥皮#VV  小#JJ  窍门#NN  ：#PU
+            在#P  石榴#NR  的#DEG  顶端#NN  横切#VV  一#CD  刀#M  。#PU
+            去顶#VV  。#PU
+            用刀#AD  顺#VV  着#AS  石榴#NN  的#DEC  白筋#NN  在#P  外皮#NN  上#LC  划#VV  几#CD  刀#M    。#PU  刀口#NN  不要#NN  太深#VV  ，#PU  划开#NN  石榴皮#NN  就#AD  行了#VV    。#PU    。#PU
+            用#P  刀尖#NN  轻轻#NN  把#BA  中间#NN  白色#JJ  部份#NN  的#DEG  内心#NN  划断#VV  。#PU
+            划#VV  断后#NN  的#DEG  样子#NN  像#P  盛开#NR  的#DEG  花朵#NN  形状#NN  。#PU
+            抽掉#VV  中间#NN  的#DEG  白心#NN  。#PU
+            轻轻#NR  一#CD  掰#NN  ，#PU  石榴#NN  就#AD  ``#VV  开花#JJ  ''#NN  了#SP  ，#PU  这个#NN  时候#NN  ，#PU  很容易#NN  就#AD  能#VV  取出#VV  石榴籽#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 漂亮#VA, 方便#NN)  (advmod, 漂亮#VA, 又#AD)  (relcl, 石榴#NN, 漂亮#VA)  (mark, 漂亮#VA, 的#DEC)  (nsubj, 剥皮#VV, 石榴#NN)  (root, ROOT#null, 剥皮#VV)  (amod, 窍门#NN, 小#JJ)  (dobj, 剥皮#VV, 窍门#NN)
+            (case, 石榴#NR, 在#P)  (assmod, 顶端#NN, 石榴#NR)  (case, 石榴#NR, 的#DEG)  (nsubj, 横切#VV, 顶端#NN)  (root, ROOT#null, 横切#VV)  (nummod, 刀#M, 一#CD)  (range, 横切#VV, 刀#M)
+            (root, ROOT#null, 去顶#VV)
+            (advmod, 顺#VV, 用刀#AD)  (relcl, 白筋#NN, 顺#VV)  (asp, 顺#VV, 着#AS)  (dobj, 顺#VV, 石榴#NN)  (mark, 顺#VV, 的#DEC)  (nsubj, 划#VV, 白筋#NN)  (case, 外皮#NN, 在#P)  (prep, 划#VV, 外皮#NN)  (case, 外皮#NN, 上#LC)  (root, ROOT#null, 划#VV)  (nummod, 刀#M, 几#CD)  (range, 划#VV, 刀#M)   (nn, 不要#NN, 刀口#NN)  (nsubj, 太深#VV, 不要#NN)  (root, ROOT#null, 太深#VV)  (nn, 石榴皮#NN, 划开#NN)  (nsubj, 行了#VV, 石榴皮#NN)  (advmod, 行了#VV, 就#AD)  (ccomp, 太深#VV, 行了#VV)   (root, ROOT#null, null#null)
+            (case, 轻轻#NN, 用#P)  (nn, 轻轻#NN, 刀尖#NN)  (prep, 划断#VV, 轻轻#NN)  (ba, 划断#VV, 把#BA)  (nn, 部份#NN, 中间#NN)  (amod, 部份#NN, 白色#JJ)  (assmod, 内心#NN, 部份#NN)  (case, 部份#NN, 的#DEG)  (nsubj, 划断#VV, 内心#NN)  (root, ROOT#null, 划断#VV)
+            (root, ROOT#null, 划#VV)  (assmod, 样子#NN, 断后#NN)  (case, 断后#NN, 的#DEG)  (nn, 形状#NN, 样子#NN)  (case, 盛开#NR, 像#P)  (assmod, 形状#NN, 盛开#NR)  (case, 盛开#NR, 的#DEG)  (nn, 形状#NN, 花朵#NN)  (dobj, 划#VV, 形状#NN)
+            (root, ROOT#null, 抽掉#VV)  (assmod, 白心#NN, 中间#NN)  (case, 中间#NN, 的#DEG)  (dobj, 抽掉#VV, 白心#NN)
+            (nn, 掰#NN, 轻轻#NR)  (nummod, 掰#NN, 一#CD)  (nsubj, 取出#VV, 掰#NN)  (nsubj, ``#VV, 石榴#NN)  (advmod, ``#VV, 就#AD)  (dep, 取出#VV, ``#VV)  (amod, ''#NN, 开花#JJ)  (dobj, ``#VV, ''#NN)  (dep, ``#VV, 了#SP)  (nn, 时候#NN, 这个#NN)  (nsubj, 取出#VV, 时候#NN)  (nsubj, 取出#VV, 很容易#NN)  (advmod, 取出#VV, 就#AD)  (mmod, 取出#VV, 能#VV)  (root, ROOT#null, 取出#VV)  (dobj, 取出#VV, 石榴籽#NN)
+        </parsing>
+
+        <tag>
+            方便漂亮  小窍门  剥皮窍门  横切  去顶  顺白筋  刀口不要  太深  刀尖轻轻  中间部份  白色部份  划断  样子形状  花朵形状  抽掉白心  这个时候  取出  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101607359391.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\319 石榴.jpg
+    </picturelocalurl>
+
+</content>

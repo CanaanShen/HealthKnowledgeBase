@@ -1,0 +1,427 @@
+<content>
+
+    <id>
+        333
+    </id>
+
+    <foodname>
+        金桔
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        金橘、金柑、小金桔、夏橘、金枣、寿星柑、给客橙、金蛋、罗浮
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病患者、口舌碎痛、牙龈肿痛者忌食；脾弱气虚者慎食。
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  、  口舌  碎痛  、  牙龈  肿痛  者  忌食  ；  脾弱  气虚  者  慎食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  、#PU  口舌#NN  碎痛#NN  、#PU  牙龈#NN  肿痛#NN  者#NN  忌食#VV  ；#PU  脾弱#NN  气虚#VV  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (conj, 肿痛#NN, 患者#NN)  (nn, 碎痛#NN, 口舌#NN)  (conj, 肿痛#NN, 碎痛#NN)  (nn, 肿痛#NN, 牙龈#NN)  (nn, 者#NN, 肿痛#NN)  (nsubj, 忌食#VV, 者#NN)  (root, ROOT#null, 忌食#VV)  (nsubj, 气虚#VV, 脾弱#NN)  (ccomp, 忌食#VV, 气虚#VV)  (nn, 慎食#NN, 者#NN)  (dobj, 气虚#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            糖尿病  患者  口舌碎痛  牙龈肿痛者  忌食  脾弱气虚者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜胸闷郁结、不思饮食者或伤食饱满、醉酒口渴者，急慢性气管炎、肝炎、胆囊炎、高血压、血管硬化者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  胸闷  郁结  、  不  思  饮食者  或  伤  食  饱满  、  醉酒  口渴  者  ，  急慢性  气管炎  、  肝炎  、  胆囊炎  、  高  血压  、  血管  硬化者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#AD  适宜#VA  胸闷#NN  郁结#NN  、#PU  不#AD  思#JJ  饮食者#NN  或#CC  伤#NN  食#NN  饱满#VA  、#PU  醉酒#VV  口渴#NN  者#NN  ，#PU  急慢性#VV  气管炎#NN  、#PU  肝炎#NN  、#PU  胆囊炎#NN  、#PU  高#JJ  血压#NN  、#PU  血管#NN  硬化者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜#VA, 尤#AD)  (root, ROOT#null, 适宜#VA)  (nn, 郁结#NN, 胸闷#NN)  (conj, 食#NN, 郁结#NN)  (neg, 思#JJ, 不#AD)  (amod, 饮食者#NN, 思#JJ)  (conj, 食#NN, 饮食者#NN)  (cc, 食#NN, 或#CC)  (nn, 食#NN, 伤#NN)  (nsubj, 饱满#VA, 食#NN)  (dep, 适宜#VA, 饱满#VA)  (conj, 饱满#VA, 醉酒#VV)  (nn, 者#NN, 口渴#NN)  (dobj, 醉酒#VV, 者#NN)  (conj, 饱满#VA, 急慢性#VV)  (conj, 硬化者#NN, 气管炎#NN)  (conj, 硬化者#NN, 肝炎#NN)  (conj, 硬化者#NN, 胆囊炎#NN)  (amod, 血压#NN, 高#JJ)  (conj, 硬化者#NN, 血压#NN)  (nn, 硬化者#NN, 血管#NN)  (dobj, 急慢性#VV, 硬化者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  胸闷郁结  不思饮食者  伤食饱满  醉酒口渴者  急慢性气管炎  肝炎  胆囊炎  高血压  血管硬化者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                55
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                13.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                370
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                35
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                56
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                144
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.25
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            金桔，又名金柑，属芸香科，是著名的观果植物，原产我国，至今已有1700多年的栽培历史。据明嘉靖浙江志[公元1552~1566年]记载：“宁波金豆[即金桔]，味甘香，胜于大桔”。据浙江定海县志记载；“金柑出马岙，沙蛟[今宁波大榭]者佳，不可多得”。这是有史可考的关于金桔的最早记载。宁波金桔在国外也有较高的知名度，且历时已久。在广东及香港地区，很多市民为图吉利在春节购买。
+            金橘为常绿灌木。花单生，白色，芳香。果多为椭圆形，金黄色，有光泽，部分品种可食用。多以嫁接法繁殖。常绿灌木或小乔木，高3米，通常无刺，分枝多。叶片披针形至矩圆形，长5-9厘米，宽2-3厘米，全缘或具不明显的细锯齿，表面深绿色。光亮。背面表绿色，有散生腺点；叶柄有狭翅，与叶片边境处有关节。果矩圆形或卵形，金黄色。果皮肉质而厚，平滑，有许多腺点，有香味。
+            盆栽金桔四季长青，枝叶繁茂，树形优美。夏季开花，花色玉白，香气远溢。秋冬季果熟或黄或红，点缀于绿叶之中，可谓碧叶金丸，扶疏长荣，观赏价值极高。果生食或制作蜜饯，入药能理气止咳。
+        </rawdata>
+
+        <segment>
+            金桔  ，  又  名  金柑  ，  属  芸香科  ，  是  著名  的  观果  植物  ，  原产  我国  ，  至今  已  有  1700多  年  的  栽培  历史  。  据明  嘉靖  浙江  志  [  公元  1552  ~  1566年  ]  记载  ：  “  宁波  金豆  [  即  金桔  ]  ，  味甘香  ，  胜于  大  桔  ”  。  据  浙江  定海  县志  记载  ；  “  金柑  出马岙  ，  沙蛟  [  今  宁波  大榭  ]  者  佳  ，  不可多得  ”  。  这  是  有  史  可  考  的  关于  金桔  的  最早  记载  。  宁波  金桔  在  国外  也  有  较  高  的  知名度  ，  且  历时  已  久  。  在  广东  及  香港  地区  ，  很多  市民  为  图  吉利  在  春节  购买  。
+            金橘  为  常绿  灌木  。  花  单生  ，  白色  ，  芳香  。  果  多  为  椭圆形  ，  金黄色  ，  有光泽  ，  部分  品种  可  食用  。  多  以  嫁接法  繁殖  。  常绿  灌木  或  小  乔木  ，  高  3  米  ，  通常  无刺  ，  分枝  多  。  叶片  披  针形  至  矩圆形  ，  长  5-9  厘米  ，  宽  2-3  厘米  ，  全  缘  或  具  不  明显  的  细  锯齿  ，  表面  深绿色  。  光亮  。  背面  表  绿色  ，  有  散生腺点  ；  叶柄  有  狭翅  ，  与  叶片  边境处  有  关节  。  果矩  圆形  或  卵形  ，  金黄色  。  果皮  肉质  而  厚  ，  平滑  ，  有  许多  腺点  ，  有  香味  。
+            盆栽  金桔  四  季  长青  ，  枝叶  繁茂  ，  树形  优美  。  夏季  开花  ，  花色  玉白  ，  香气  远  溢  。  秋冬季  果  熟  或  黄或红  ，  点缀  于  绿叶  之中  ，  可谓  碧叶金丸  ，  扶疏  长荣  ，  观赏  价值  极高  。  果  生食  或  制作  蜜饯  ，  入药  能  理气  止咳  。
+        </segment>
+
+        <pos>
+            金桔#AD  ，#PU  又#AD  名#JJ  金柑#NN  ，#PU  属#VV  芸香科#NN  ，#PU  是#VC  著名#VA  的#DEC  观果#JJ  植物#NN  ，#PU  原产#VV  我国#NN  ，#PU  至今#AD  已#AD  有#VE  1700多#CD  年#M  的#DEC  栽培#VV  历史#NN    。#PU  据明#NN  嘉靖#NN  浙江#NR  志#NN  -LSB-#NN  公元#JJ  1552#CD  ~#NN  1566年#NT  -RSB-#AD  记载#VV  ：#PU  ``#NR  宁波#NR  金豆#NN  -LSB-#NN  即#AD  金桔#VV  -RSB-#NN  ，#PU  味甘香#VV  ，#PU  胜于#VV  大#JJ  桔#NN  ''#NN    。#PU  据#P  浙江#NR  定海#NN  县志#NN  记载#VV  ；#PU  ``#NN  金柑#NN  出马岙#NN  ，#PU  沙蛟#AD  -LSB-#VV  今#NT  宁波#NR  大榭#NN  -RSB-#NN  者#NN  佳#NN  ，#PU  不可多得#VV  ''#NN    。#PU  这#PN  是#VC  有#VE  史#NN  可#VV  考#VV  的#DEC  关于#P  金桔#NN  的#DEG  最早#JJ  记载#NN    。#PU  宁波#NR  金桔#NN  在#P  国外#NN  也#AD  有#VE  较#AD  高#VA  的#DEC  知名度#NN  ，#PU  且#CC  历时#NN  已#AD  久#VA    。#PU  在#P  广东#NR  及#CC  香港#NR  地区#NN  ，#PU  很多#CD  市民#NN  为#P  图#NN  吉利#NR  在#P  春节#NN  购买#VV    。#PU    。#PU
+            金橘#NN  为#VC  常绿#NN  灌木#NN    。#PU  花#VV  单生#NN  ，#PU  白色#JJ  ，#PU  芳香#VV    。#PU  果#NN  多#AD  为#VV  椭圆形#NN  ，#PU  金黄色#JJ  ，#PU  有光泽#VV  ，#PU  部分#CD  品种#NN  可#VV  食用#VV    。#PU  多#AD  以#P  嫁接法#NN  繁殖#VV    。#PU  常绿#VV  灌木#NN  或#CC  小#JJ  乔木#NN  ，#PU  高#JJ  3#CD  米#M  ，#PU  通常#AD  无刺#VV  ，#PU  分枝#AD  多#VA    。#PU  叶片#NN  披#VV  针形#CD  至#CC  矩圆形#CD  ，#PU  长#VA  5-9#CD  厘米#M  ，#PU  宽#VA  2-3#CD  厘米#M  ，#PU  全#DT  缘#NN  或#CC  具#VV  不#AD  明显#VA  的#DEC  细#NN  锯齿#NN  ，#PU  表面#VA  深绿色#VA    。#PU  光亮#VV    。#PU  背面#NN  表#VV  绿色#NN  ，#PU  有#VE  散生腺点#NN  ；#PU  叶柄#AD  有#VE  狭翅#NN  ，#PU  与#P  叶片#NN  边境处#NN  有#VE  关节#NN    。#PU  果矩#VV  圆形#NN  或#CC  卵形#NN  ，#PU  金黄色#JJ    。#PU  果皮#VV  肉质#NN  而#CC  厚#NN  ，#PU  平滑#VV  ，#PU  有#VE  许多#CD  腺点#NN  ，#PU  有#VE  香味#NN    。#PU    。#PU
+            盆栽#AD  金桔#VV  四#CD  季#M  长青#NN  ，#PU  枝叶#VV  繁茂#NN  ，#PU  树形#VV  优美#NN    。#PU  夏季#NT  开花#JJ  ，#PU  花色#NN  玉白#NN  ，#PU  香气#NN  远#AD  溢#VV    。#PU  秋冬季#VV  果#NN  熟#VA  或#CC  黄或红#VA  ，#PU  点缀#VV  于#P  绿叶#NN  之中#LC  ，#PU  可谓#VV  碧叶金丸#NN  ，#PU  扶疏#VV  长荣#NN  ，#PU  观赏#VV  价值#NN  极高#NN    。#PU  果#NN  生食#NN  或#CC  制作#NN  蜜饯#VV  ，#PU  入药#NN  能#VV  理气#VV  止咳#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 属#VV, 金桔#AD)  (advmod, 属#VV, 又#AD)  (amod, 金柑#NN, 名#JJ)  (dep, 属#VV, 金柑#NN)  (nsubj, 栽培#VV, 属#VV)  (dobj, 属#VV, 芸香科#NN)  (cop, 植物#NN, 是#VC)  (relcl, 植物#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (amod, 植物#NN, 观果#JJ)  (dep, 属#VV, 植物#NN)  (conj, 植物#NN, 原产#VV)  (dobj, 原产#VV, 我国#NN)  (advmod, 有#VE, 至今#AD)  (advmod, 有#VE, 已#AD)  (conj, 植物#NN, 有#VE)  (nummod, 年#M, 1700多#CD)  (dep, 有#VE, 年#M)  (mark, 属#VV, 的#DEC)  (root, ROOT#null, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)   (nn, 嘉靖#NN, 据明#NN)  (nn, ~#NN, 嘉靖#NN)  (nn, -LSB-#NN, 浙江#NR)  (nn, -LSB-#NN, 志#NN)  (nn, ~#NN, -LSB-#NN)  (amod, ~#NN, 公元#JJ)  (nummod, ~#NN, 1552#CD)  (tmod, 记载#VV, 1566年#NT)  (advmod, 记载#VV, -RSB-#AD)  (root, ROOT#null, 记载#VV)  (nn, -LSB-#NN, ``#NR)  (nn, -LSB-#NN, 宁波#NR)  (nn, -LSB-#NN, 金豆#NN)  (nsubj, 金桔#VV, -LSB-#NN)  (advmod, 金桔#VV, 即#AD)  (ccomp, 记载#VV, 金桔#VV)  (dobj, 金桔#VV, -RSB-#NN)  (conj, 金桔#VV, 味甘香#VV)  (dep, 金桔#VV, 胜于#VV)  (amod, ''#NN, 大#JJ)  (nn, ''#NN, 桔#NN)  (dobj, 胜于#VV, ''#NN)   (case, 县志#NN, 据#P)  (nn, 县志#NN, 浙江#NR)  (nn, 县志#NN, 定海#NN)  (prep, 记载#VV, 县志#NN)  (root, ROOT#null, 记载#VV)  (nn, 出马岙#NN, ``#NN)  (nn, 出马岙#NN, 金柑#NN)  (nsubj, -LSB-#VV, 出马岙#NN)  (advmod, -LSB-#VV, 沙蛟#AD)  (ccomp, 记载#VV, -LSB-#VV)  (nn, 佳#NN, 今#NT)  (nn, -RSB-#NN, 宁波#NR)  (nn, -RSB-#NN, 大榭#NN)  (nn, 者#NN, -RSB-#NN)  (nn, 佳#NN, 者#NN)  (dobj, -LSB-#VV, 佳#NN)  (dep, -LSB-#VV, 不可多得#VV)  (dobj, 不可多得#VV, ''#NN)   (nsubj, 记载#NN, 这#PN)  (cop, 记载#NN, 是#VC)  (relcl, 记载#NN, 有#VE)  (nsubj, 考#VV, 史#NN)  (dep, 考#VV, 可#VV)  (dep, 有#VE, 考#VV)  (mark, 有#VE, 的#DEC)  (case, 金桔#NN, 关于#P)  (assmod, 记载#NN, 金桔#NN)  (case, 金桔#NN, 的#DEG)  (amod, 记载#NN, 最早#JJ)  (root, ROOT#null, 记载#NN)   (nn, 金桔#NN, 宁波#NR)  (nsubj, 有#VE, 金桔#NN)  (case, 国外#NN, 在#P)  (prep, 有#VE, 国外#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (advmod, 高#VA, 较#AD)  (relcl, 知名度#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (dobj, 有#VE, 知名度#NN)  (cc, 有#VE, 且#CC)  (nsubj, 久#VA, 历时#NN)  (advmod, 久#VA, 已#AD)  (conj, 有#VE, 久#VA)   (case, 地区#NN, 在#P)  (conj, 香港#NR, 广东#NR)  (cc, 香港#NR, 及#CC)  (nn, 地区#NN, 香港#NR)  (prep, 购买#VV, 地区#NN)  (nummod, 市民#NN, 很多#CD)  (nsubj, 购买#VV, 市民#NN)  (case, 图#NN, 为#P)  (prep, 购买#VV, 图#NN)  (nsubj, 购买#VV, 吉利#NR)  (case, 春节#NN, 在#P)  (prep, 购买#VV, 春节#NN)  (root, ROOT#null, 购买#VV)   (root, ROOT#null, null#null)
+            (nsubj, 灌木#NN, 金橘#NN)  (cop, 灌木#NN, 为#VC)  (nn, 灌木#NN, 常绿#NN)  (root, ROOT#null, 灌木#NN)   (root, ROOT#null, 花#VV)  (dobj, 花#VV, 单生#NN)  (conj, 花#VV, 白色#JJ)  (conj, 花#VV, 芳香#VV)   (nsubj, 为#VV, 果#NN)  (advmod, 为#VV, 多#AD)  (root, ROOT#null, 为#VV)  (dobj, 为#VV, 椭圆形#NN)  (conj, 为#VV, 金黄色#JJ)  (conj, 为#VV, 有光泽#VV)  (nummod, 品种#NN, 部分#CD)  (dep, 食用#VV, 品种#NN)  (dep, 食用#VV, 可#VV)  (conj, 为#VV, 食用#VV)   (advmod, 繁殖#VV, 多#AD)  (case, 嫁接法#NN, 以#P)  (prep, 繁殖#VV, 嫁接法#NN)  (root, ROOT#null, 繁殖#VV)   (root, ROOT#null, 常绿#VV)  (conj, 乔木#NN, 灌木#NN)  (cc, 乔木#NN, 或#CC)  (amod, 乔木#NN, 小#JJ)  (dobj, 常绿#VV, 乔木#NN)  (amod, 米#M, 高#JJ)  (nummod, 米#M, 3#CD)  (conj, 常绿#VV, 米#M)  (advmod, 无刺#VV, 通常#AD)  (conj, 常绿#VV, 无刺#VV)  (advmod, 多#VA, 分枝#AD)  (conj, 常绿#VV, 多#VA)   (nsubj, 披#VV, 叶片#NN)  (root, ROOT#null, 披#VV)  (nummod, 矩圆形#CD, 针形#CD)  (cc, 矩圆形#CD, 至#CC)  (range, 披#VV, 矩圆形#CD)  (conj, 披#VV, 长#VA)  (nummod, 厘米#M, 5-9#CD)  (dep, 长#VA, 厘米#M)  (dep, 长#VA, 宽#VA)  (nummod, 厘米#M, 2-3#CD)  (dep, 宽#VA, 厘米#M)  (det, 缘#NN, 全#DT)  (nsubj, 具#VV, 缘#NN)  (cc, 具#VV, 或#CC)  (conj, 披#VV, 具#VV)  (neg, 明显#VA, 不#AD)  (relcl, 锯齿#NN, 明显#VA)  (mark, 明显#VA, 的#DEC)  (nn, 锯齿#NN, 细#NN)  (dobj, 具#VV, 锯齿#NN)  (conj, 具#VV, 表面#VA)  (comod, 表面#VA, 深绿色#VA)   (root, ROOT#null, 光亮#VV)   (nsubj, 表#VV, 背面#NN)  (root, ROOT#null, 表#VV)  (dobj, 表#VV, 绿色#NN)  (conj, 表#VV, 有#VE)  (dobj, 有#VE, 散生腺点#NN)  (advmod, 有#VE, 叶柄#AD)  (conj, 表#VV, 有#VE)  (dobj, 有#VE, 狭翅#NN)  (case, 边境处#NN, 与#P)  (nn, 边境处#NN, 叶片#NN)  (prep, 有#VE, 边境处#NN)  (dep, 有#VE, 有#VE)  (dobj, 有#VE, 关节#NN)   (root, ROOT#null, 果矩#VV)  (conj, 卵形#NN, 圆形#NN)  (cc, 卵形#NN, 或#CC)  (dobj, 果矩#VV, 卵形#NN)  (conj, 果矩#VV, 金黄色#JJ)   (root, ROOT#null, 果皮#VV)  (conj, 厚#NN, 肉质#NN)  (cc, 厚#NN, 而#CC)  (dobj, 果皮#VV, 厚#NN)  (conj, 果皮#VV, 平滑#VV)  (conj, 果皮#VV, 有#VE)  (nummod, 腺点#NN, 许多#CD)  (dobj, 有#VE, 腺点#NN)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 香味#NN)   (root, ROOT#null, null#null)
+            (advmod, 金桔#VV, 盆栽#AD)  (root, ROOT#null, 金桔#VV)  (nummod, 季#M, 四#CD)  (clf, 长青#NN, 季#M)  (dobj, 金桔#VV, 长青#NN)  (conj, 金桔#VV, 枝叶#VV)  (dobj, 枝叶#VV, 繁茂#NN)  (conj, 金桔#VV, 树形#VV)  (dobj, 树形#VV, 优美#NN)   (dep, 溢#VV, 夏季#NT)  (nfincl, 玉白#NN, 开花#JJ)  (dep, 开花#JJ, 花色#NN)  (nsubj, 溢#VV, 玉白#NN)  (nsubj, 溢#VV, 香气#NN)  (advmod, 溢#VV, 远#AD)  (root, ROOT#null, 溢#VV)   (root, ROOT#null, 秋冬季#VV)  (dobj, 秋冬季#VV, 果#NN)  (conj, 秋冬季#VV, 熟#VA)  (cc, 熟#VA, 或#CC)  (dep, 熟#VA, 黄或红#VA)  (conj, 秋冬季#VV, 点缀#VV)  (case, 绿叶#NN, 于#P)  (prep, 点缀#VV, 绿叶#NN)  (case, 绿叶#NN, 之中#LC)  (conj, 秋冬季#VV, 可谓#VV)  (dobj, 可谓#VV, 碧叶金丸#NN)  (conj, 秋冬季#VV, 扶疏#VV)  (dobj, 扶疏#VV, 长荣#NN)  (conj, 秋冬季#VV, 观赏#VV)  (nn, 极高#NN, 价值#NN)  (dobj, 观赏#VV, 极高#NN)   (nn, 制作#NN, 果#NN)  (conj, 制作#NN, 生食#NN)  (cc, 制作#NN, 或#CC)  (nsubj, 蜜饯#VV, 制作#NN)  (root, ROOT#null, 蜜饯#VV)  (nsubj, 理气#VV, 入药#NN)  (mmod, 理气#VV, 能#VV)  (ccomp, 蜜饯#VV, 理气#VV)  (dobj, 理气#VV, 止咳#NN)
+        </parsing>
+
+        <tag>
+            名金柑  植物著名  观果植物  原产我国  栽培历史  据明嘉靖  公元~  定海县志  金柑出马岙  最早记载  香港  广东  购买  常绿灌木  繁殖  小乔木  常绿乔木  锯齿明显  深绿色表面  光亮  叶片边境处  圆形  果矩卵形  果皮厚  枝叶繁茂  树形优美  秋冬季果  可谓碧叶金丸  扶疏长荣  价值极高  观赏极高  制作  生食  蜜饯  理气止咳  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.美容护肤
+            金桔可预防色素沉淀、增进皮肤光泽与弹性、减缓衰老、避免肌肤松弛生皱。
+            2.开胃生津
+            金桔作为食疗保健品，金桔蜜饯可以开胃，饮金桔汁能生津止渴，加萝卜汁、梨汁饮服能治咳嗽。金桔药性甘温，能理气解郁，化痰。
+            3.预防慢性病
+            金桔对维护心血管功能，防止血管硬化、高血压等疾病有一定的作用。
+            4.防感冒
+            金桔能增强机体抗寒能力，可以防治感冒、降低血脂。
+            5.消食醒酒
+            适宜胸闷郁结，不思饮食，或伤食饱满，醉酒口渴之人食用。
+        </rawdata>
+
+        <segment>
+            美容  护肤
+            金桔  可  预防  色素  沉淀  、  增进  皮肤  光泽  与  弹性  、  减缓  衰老  、  避免  肌肤  松弛  生皱  。
+            开胃  生津
+            金桔  作为  食疗  保健品  ，  金桔  蜜饯  可以  开胃  ，  饮金  桔汁  能  生津止渴  ，  加  萝卜汁  、  梨汁饮服能  治  咳嗽  。  金桔  药性  甘温  ，  能  理气解郁  ，  化痰  。
+            预防  慢性病
+            金桔  对  维护  心血管  功能  ，  防止  血管  硬化  、  高血压  等  疾病  有  一定  的  作用  。
+            防  感冒
+            金桔  能  增强  机体  抗寒  能力  ，  可以  防治  感冒  、  降低  血脂  。
+            消食  醒酒
+            适宜  胸闷  郁结  ，  不  思  饮食  ，  或伤食  饱满  ，  醉酒  口渴  之  人  食用  。
+        </segment>
+
+        <pos>
+            美容#NN  护肤#VV
+            金桔#NN  可#VV  预防#VV  色素#NN  沉淀#NN  、#PU  增进#VV  皮肤#NN  光泽#NN  与#CC  弹性#NN  、#PU  减缓#VV  衰老#NN  、#PU  避免#VV  肌肤#NN  松弛#NN  生皱#NN  。#PU
+            开胃#NN  生津#VV
+            金桔#NN  作为#P  食疗#NN  保健品#NN  ，#PU  金桔#AD  蜜饯#VV  可以#VV  开胃#NN  ，#PU  饮金#NN  桔汁#NN  能#VV  生津止渴#VV  ，#PU  加#NR  萝卜汁#NN  、#PU  梨汁饮服能#NN  治#VV  咳嗽#NN    。#PU  金桔#NN  药性#NN  甘温#VV  ，#PU  能#VV  理气解郁#NN  ，#PU  化痰#VV    。#PU    。#PU
+            预防#NN  慢性病#VV
+            金桔#NN  对#P  维护#VV  心血管#NN  功能#NN  ，#PU  防止#VV  血管#NN  硬化#NN  、#PU  高血压#NN  等#ETC  疾病#NN  有#VE  一定#JJ  的#DEG  作用#NN  。#PU
+            防#NN  感冒#VV
+            金桔#NN  能#VV  增强#VV  机体#NN  抗寒#NN  能力#NN  ，#PU  可以#VV  防治#NN  感冒#NN  、#PU  降低#VV  血脂#NN  。#PU
+            消食#NN  醒酒#VV
+            适宜#VV  胸闷#NN  郁结#NN  ，#PU  不#AD  思#VV  饮食#NN  ，#PU  或伤食#AD  饱满#VA  ，#PU  醉酒#NN  口渴#NN  之#DEG  人#NN  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 护肤#VV, 美容#NN)  (root, ROOT#null, 护肤#VV)
+            (nsubj, 预防#VV, 金桔#NN)  (mmod, 预防#VV, 可#VV)  (root, ROOT#null, 预防#VV)  (nn, 沉淀#NN, 色素#NN)  (dobj, 预防#VV, 沉淀#NN)  (conj, 预防#VV, 增进#VV)  (nn, 弹性#NN, 皮肤#NN)  (conj, 弹性#NN, 光泽#NN)  (cc, 弹性#NN, 与#CC)  (dobj, 增进#VV, 弹性#NN)  (conj, 预防#VV, 减缓#VV)  (dobj, 减缓#VV, 衰老#NN)  (conj, 预防#VV, 避免#VV)  (nn, 生皱#NN, 肌肤#NN)  (nn, 生皱#NN, 松弛#NN)  (dobj, 避免#VV, 生皱#NN)
+            (nsubj, 生津#VV, 开胃#NN)  (root, ROOT#null, 生津#VV)
+            (nsubj, 蜜饯#VV, 金桔#NN)  (case, 保健品#NN, 作为#P)  (nn, 保健品#NN, 食疗#NN)  (prep, 蜜饯#VV, 保健品#NN)  (advmod, 蜜饯#VV, 金桔#AD)  (root, ROOT#null, 蜜饯#VV)  (rcomp, 蜜饯#VV, 可以#VV)  (dobj, 蜜饯#VV, 开胃#NN)  (nn, 桔汁#NN, 饮金#NN)  (nsubj, 生津止渴#VV, 桔汁#NN)  (dep, 生津止渴#VV, 能#VV)  (conj, 蜜饯#VV, 生津止渴#VV)  (nn, 梨汁饮服能#NN, 加#NR)  (conj, 梨汁饮服能#NN, 萝卜汁#NN)  (nsubj, 治#VV, 梨汁饮服能#NN)  (conj, 蜜饯#VV, 治#VV)  (dobj, 治#VV, 咳嗽#NN)   (nn, 药性#NN, 金桔#NN)  (nsubj, 甘温#VV, 药性#NN)  (xsubj, 能#VV, 药性#NN)  (root, ROOT#null, 甘温#VV)  (ccomp, 甘温#VV, 能#VV)  (dobj, 能#VV, 理气解郁#NN)  (conj, 能#VV, 化痰#VV)   (root, ROOT#null, null#null)
+            (nsubj, 慢性病#VV, 预防#NN)  (root, ROOT#null, 慢性病#VV)
+            (nsubj, 有#VE, 金桔#NN)  (case, 维护#VV, 对#P)  (prep, 有#VE, 维护#VV)  (nn, 功能#NN, 心血管#NN)  (dobj, 维护#VV, 功能#NN)  (conj, 维护#VV, 防止#VV)  (nn, 高血压#NN, 血管#NN)  (conj, 高血压#NN, 硬化#NN)  (nn, 疾病#NN, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (dobj, 防止#VV, 疾病#NN)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 感冒#VV, 防#NN)  (root, ROOT#null, 感冒#VV)
+            (nsubj, 增强#VV, 金桔#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗寒#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 增强#VV, 可以#VV)  (nn, 感冒#NN, 防治#NN)  (dobj, 可以#VV, 感冒#NN)  (conj, 增强#VV, 降低#VV)  (dobj, 降低#VV, 血脂#NN)
+            (nsubj, 醒酒#VV, 消食#NN)  (root, ROOT#null, 醒酒#VV)
+            (root, ROOT#null, 适宜#VV)  (nn, 郁结#NN, 胸闷#NN)  (dobj, 适宜#VV, 郁结#NN)  (neg, 思#VV, 不#AD)  (conj, 适宜#VV, 思#VV)  (dobj, 思#VV, 饮食#NN)  (advmod, 饱满#VA, 或伤食#AD)  (conj, 适宜#VV, 饱满#VA)  (nn, 口渴#NN, 醉酒#NN)  (assmod, 人#NN, 口渴#NN)  (case, 口渴#NN, 之#DEG)  (nsubj, 食用#VV, 人#NN)  (dep, 适宜#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            护肤  色素沉淀  预防沉淀  皮肤弹性  光泽  增进弹性  减缓衰老  肌肤生皱  松弛生皱  避免生皱  生津  食疗保健品  蜜饯开胃  饮金桔汁  梨汁饮服能  萝卜汁  甘温  心血管功能  维护功能  血管高血压  硬化  高血压疾病  防止疾病  机体能力  抗寒能力  增强能力  防治感冒  降低血脂  醒酒  胸闷郁结  适宜郁结  醉酒口渴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            果实含有丰富的维生素C、金桔甙等成分，对维护心血管功能，防止血管硬化、高血压等疾病有一定的作用。金橘含有特殊的挥发油、金橘甙等特殊物质，具有令人愉悦的香气，是颇具特色的水果。
+        </rawdata>
+
+        <segment>
+            果实  含有  丰富  的  维生素C  、  金桔  甙等  成分  ，  对  维护  心血管  功能  ，  防止  血管  硬化  、  高血压  等  疾病  有  一定  的  作用  。  金橘  含有  特殊  的  挥发油  、  金橘甙  等  特殊  物质  ，  具有  令  人  愉悦  的  香气  ，  是  颇  具  特色  的  水果  。
+        </segment>
+
+        <pos>
+            果实#NN  含有#VV  丰富#VA  的#DEC  维生素C#NN  、#PU  金桔#NN  甙等#NN  成分#NN  ，#PU  对#P  维护#VV  心血管#NN  功能#NN  ，#PU  防止#VV  血管#NN  硬化#NN  、#PU  高血压#NN  等#ETC  疾病#NN  有#VE  一定#JJ  的#DEG  作用#NN    。#PU  金橘#VV  含有#AD  特殊#VA  的#DEC  挥发油#NR  、#PU  金橘甙#NR  等#ETC  特殊#JJ  物质#NN  ，#PU  具有#VV  令#VV  人#NN  愉悦#VA  的#DEC  香气#NN  ，#PU  是#VC  颇#AD  具#VV  特色#NN  的#DEC  水果#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 果实#NN)  (root, ROOT#null, 含有#VV)  (relcl, 成分#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 成分#NN, 维生素C#NN)  (nn, 成分#NN, 金桔#NN)  (nn, 成分#NN, 甙等#NN)  (dobj, 含有#VV, 成分#NN)  (case, 维护#VV, 对#P)  (prep, 有#VE, 维护#VV)  (nn, 功能#NN, 心血管#NN)  (dobj, 维护#VV, 功能#NN)  (conj, 维护#VV, 防止#VV)  (nn, 高血压#NN, 血管#NN)  (conj, 高血压#NN, 硬化#NN)  (nn, 疾病#NN, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (dobj, 防止#VV, 疾病#NN)  (conj, 含有#VV, 有#VE)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, 金橘#VV)  (advmod, 特殊#VA, 含有#AD)  (relcl, 物质#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (conj, 金橘甙#NR, 挥发油#NR)  (nn, 物质#NN, 金橘甙#NR)  (etc, 金橘甙#NR, 等#ETC)  (amod, 物质#NN, 特殊#JJ)  (dobj, 金橘#VV, 物质#NN)  (conj, 金橘#VV, 具有#VV)  (relcl, 香气#NN, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 愉悦#VA)  (mark, 令#VV, 的#DEC)  (dobj, 具有#VV, 香气#NN)  (cop, 水果#NN, 是#VC)  (advmod, 具#VV, 颇#AD)  (relcl, 水果#NN, 具#VV)  (dobj, 具#VV, 特色#NN)  (mark, 具#VV, 的#DEC)  (conj, 金橘#VV, 水果#NN)
+        </parsing>
+
+        <tag>
+            含有  心血管功能  维护功能  血管高血压  硬化  高血压疾病  防止疾病  金橘甙  挥发油  令香气  具水果  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.金橘皮色金黄、皮薄肉嫩、汁多香甜。它皮肉难分，洗净后可连皮带肉一起吃下。
+            2.吃金桔前後一小时不可喝牛奶，因牛奶中之蛋白质遇到金桔中之果酸会凝固，不易消化吸收，会腹胀难过。
+            3.饭前或空腹时亦不宜多吃金桔，因所含有机酸会刺激胃壁黏膜，胃部会有不适感。
+            4.喉痛发痒、咳嗽时，喝金桔茶时不宜加糖，糖放多了反易生痰。
+            5.治慢性支气管炎用金桔加冰糖隔水炖服。
+            6.治消化不良用金桔、焦麦芽、焦山楂水煎服。
+            7.治慢性肝炎可用金桔与半枝莲熬成浓汁，加糖服用。
+            8.胃部冷痛可用金桔、吴茱萸水煎服。
+            9.用金桔、藿香、生姜同煎，可治疗受寒恶心，用金桔与党参煎汤代茶饮，则能安胎。
+        </rawdata>
+
+        <segment>
+            金橘  皮色  金黄  、  皮薄肉嫩  、  汁多  香甜  。  它  皮肉  难分  ，  洗净  后  可  连  皮带  肉  一起  吃下  。
+            吃  金桔  前  後  一  小时  不  可  喝  牛奶  ，  因  牛奶  中  之  蛋白质  遇到  金桔  中  之  果酸  会  凝固  ，  不易  消化  吸收  ，  会  腹胀  难过  。
+            饭前  或  空腹  时  亦  不  宜  多  吃  金桔  ，  因所  含  有机酸  会  刺激  胃壁  黏膜  ，  胃部  会  有  不适感  。
+            喉痛  发痒  、  咳嗽  时  ，  喝  金桔  茶  时  不  宜  加糖  ，  糖  放  多  了  反易  生痰  。
+            治  慢性  支气管炎  用  金桔  加  冰糖  隔水  炖服  。
+            治  消化不良  用  金桔  、  焦麦芽  、  焦山楂水  煎服  。
+            治  慢性  肝炎  可  用  金桔  与  半枝莲  熬成  浓汁  ，  加糖  服用  。
+            胃部  冷  痛  可用  金桔  、  吴茱萸  水  煎服  。
+            用  金桔  、  藿香  、  生姜  同煎  ，  可治疗  受寒  恶心  ，  用  金桔  与  党参  煎  汤  代  茶饮  ，  则  能  安胎  。
+        </segment>
+
+        <pos>
+            金橘#NN  皮色#VV  金黄#NR  、#PU  皮薄肉嫩#NR  、#PU  汁多#NR  香甜#NN    。#PU  它#PN  皮肉#AD  难分#VV  ，#PU  洗净#NN  后#LC  可#VV  连#AD  皮带#NN  肉#NN  一起#AD  吃下#VA    。#PU    。#PU
+            吃#VV  金桔#NN  前#LC  後#NR  一#CD  小时#NN  不#AD  可#VV  喝#VV  牛奶#NN  ，#PU  因#P  牛奶#NN  中#LC  之#DEG  蛋白质#NN  遇到#VV  金桔#NN  中#LC  之#DEG  果酸#NN  会#VV  凝固#VV  ，#PU  不易#VV  消化#NN  吸收#NN  ，#PU  会#VV  腹胀#VV  难过#NN  。#PU
+            饭前#NN  或#CC  空腹#NN  时#LC  亦#AD  不#AD  宜#NR  多#AD  吃#VV  金桔#NN  ，#PU  因所#AD  含#VV  有机酸#NN  会#VV  刺激#VV  胃壁#NN  黏膜#NN  ，#PU  胃部#NN  会#VV  有#VE  不适感#NN  。#PU
+            喉痛#NN  发痒#NN  、#PU  咳嗽#NN  时#LC  ，#PU  喝#VV  金桔#NN  茶#NN  时#LC  不#AD  宜#NR  加糖#VV  ，#PU  糖#NN  放#VV  多#VV  了#AS  反易#NN  生痰#NN  。#PU
+            治#NN  慢性#NN  支气管炎#NN  用#P  金桔#NN  加#VV  冰糖#NN  隔水#NN  炖服#NN  。#PU
+            治#NN  消化不良#NN  用#VV  金桔#NR  、#PU  焦麦芽#NR  、#PU  焦山楂水#NR  煎服#NN  。#PU
+            治#VV  慢性#JJ  肝炎#NN  可#VV  用#P  金桔#NN  与#CC  半枝莲#NN  熬成#VV  浓汁#NN  ，#PU  加糖#AD  服用#VV  。#PU
+            胃部#NN  冷#VV  痛#NN  可用#JJ  金桔#NN  、#PU  吴茱萸#NN  水#NN  煎服#NN  。#PU
+            用#P  金桔#NR  、#PU  藿香#NR  、#PU  生姜#NR  同煎#NN  ，#PU  可治疗#AD  受寒#VV  恶心#NN  ，#PU  用#P  金桔#NN  与#CC  党参#NN  煎#VV  汤#CD  代#M  茶饮#NN  ，#PU  则#AD  能#VV  安胎#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 皮色#VV, 金橘#NN)  (root, ROOT#null, 皮色#VV)  (conj, 汁多#NR, 金黄#NR)  (conj, 汁多#NR, 皮薄肉嫩#NR)  (nn, 香甜#NN, 汁多#NR)  (dobj, 皮色#VV, 香甜#NN)   (nsubj, 难分#VV, 它#PN)  (xsubj, 吃下#VA, 它#PN)  (advmod, 难分#VV, 皮肉#AD)  (root, ROOT#null, 难分#VV)  (loc, 吃下#VA, 洗净#NN)  (case, 洗净#NN, 后#LC)  (mmod, 吃下#VA, 可#VV)  (advmod, 肉#NN, 连#AD)  (nn, 肉#NN, 皮带#NN)  (dep, 吃下#VA, 肉#NN)  (advmod, 吃下#VA, 一起#AD)  (ccomp, 难分#VV, 吃下#VA)   (root, ROOT#null, null#null)
+            (loc, 喝#VV, 吃#VV)  (dobj, 吃#VV, 金桔#NN)  (case, 吃#VV, 前#LC)  (nn, 小时#NN, 後#NR)  (nummod, 小时#NN, 一#CD)  (nsubj, 喝#VV, 小时#NN)  (neg, 喝#VV, 不#AD)  (mmod, 喝#VV, 可#VV)  (root, ROOT#null, 喝#VV)  (dobj, 喝#VV, 牛奶#NN)  (case, 遇到#VV, 因#P)  (assmod, 蛋白质#NN, 牛奶#NN)  (case, 牛奶#NN, 中#LC)  (case, 牛奶#NN, 之#DEG)  (nsubj, 遇到#VV, 蛋白质#NN)  (prep, 凝固#VV, 遇到#VV)  (assmod, 果酸#NN, 金桔#NN)  (case, 金桔#NN, 中#LC)  (case, 金桔#NN, 之#DEG)  (dobj, 遇到#VV, 果酸#NN)  (dep, 凝固#VV, 会#VV)  (conj, 喝#VV, 凝固#VV)  (dep, 喝#VV, 不易#VV)  (nn, 吸收#NN, 消化#NN)  (dobj, 不易#VV, 吸收#NN)  (mmod, 腹胀#VV, 会#VV)  (conj, 喝#VV, 腹胀#VV)  (dobj, 腹胀#VV, 难过#NN)
+            (root, ROOT#null, null#null)
+            (conj, 空腹#NN, 饭前#NN)  (cc, 空腹#NN, 或#CC)  (loc, 吃#VV, 空腹#NN)  (case, 空腹#NN, 时#LC)  (advmod, 吃#VV, 亦#AD)  (neg, 吃#VV, 不#AD)  (dep, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (dep, 有#VE, 吃#VV)  (dobj, 吃#VV, 金桔#NN)  (advmod, 含#VV, 因所#AD)  (conj, 吃#VV, 含#VV)  (dobj, 含#VV, 有机酸#NN)  (mmod, 刺激#VV, 会#VV)  (conj, 吃#VV, 刺激#VV)  (nn, 黏膜#NN, 胃壁#NN)  (dobj, 刺激#VV, 黏膜#NN)  (nsubj, 有#VE, 胃部#NN)  (mmod, 有#VE, 会#VV)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 不适感#NN)
+            (nn, 咳嗽#NN, 喉痛#NN)  (conj, 咳嗽#NN, 发痒#NN)  (loc, 加糖#VV, 咳嗽#NN)  (case, 咳嗽#NN, 时#LC)  (loc, 加糖#VV, 喝#VV)  (nn, 茶#NN, 金桔#NN)  (dobj, 喝#VV, 茶#NN)  (case, 喝#VV, 时#LC)  (neg, 加糖#VV, 不#AD)  (prep, 加糖#VV, 宜#NR)  (root, ROOT#null, 加糖#VV)  (nsubj, 放#VV, 糖#NN)  (ccomp, 加糖#VV, 放#VV)  (dep, 加糖#VV, 多#VV)  (asp, 多#VV, 了#AS)  (nn, 生痰#NN, 反易#NN)  (dobj, 多#VV, 生痰#NN)
+            (nn, 支气管炎#NN, 治#NN)  (nn, 支气管炎#NN, 慢性#NN)  (nsubj, 加#VV, 支气管炎#NN)  (case, 金桔#NN, 用#P)  (prep, 加#VV, 金桔#NN)  (root, ROOT#null, 加#VV)  (nn, 炖服#NN, 冰糖#NN)  (nn, 炖服#NN, 隔水#NN)  (dobj, 加#VV, 炖服#NN)
+            (nn, 消化不良#NN, 治#NN)  (nsubj, 用#VV, 消化不良#NN)  (root, ROOT#null, 用#VV)  (conj, 焦山楂水#NR, 金桔#NR)  (conj, 焦山楂水#NR, 焦麦芽#NR)  (nn, 煎服#NN, 焦山楂水#NR)  (dobj, 用#VV, 煎服#NN)
+            (dep, 熬成#VV, 治#VV)  (amod, 肝炎#NN, 慢性#JJ)  (dobj, 治#VV, 肝炎#NN)  (mmod, 熬成#VV, 可#VV)  (case, 半枝莲#NN, 用#P)  (conj, 半枝莲#NN, 金桔#NN)  (cc, 半枝莲#NN, 与#CC)  (prep, 熬成#VV, 半枝莲#NN)  (root, ROOT#null, 熬成#VV)  (dobj, 熬成#VV, 浓汁#NN)  (advmod, 服用#VV, 加糖#AD)  (dep, 熬成#VV, 服用#VV)
+            (nsubj, 冷#VV, 胃部#NN)  (root, ROOT#null, 冷#VV)  (nn, 金桔#NN, 痛#NN)  (amod, 金桔#NN, 可用#JJ)  (conj, 煎服#NN, 金桔#NN)  (nn, 煎服#NN, 吴茱萸#NN)  (nn, 煎服#NN, 水#NN)  (dobj, 冷#VV, 煎服#NN)
+            (case, 同煎#NN, 用#P)  (conj, 生姜#NR, 金桔#NR)  (conj, 生姜#NR, 藿香#NR)  (nn, 同煎#NN, 生姜#NR)  (prep, 受寒#VV, 同煎#NN)  (advmod, 受寒#VV, 可治疗#AD)  (root, ROOT#null, 受寒#VV)  (dobj, 受寒#VV, 恶心#NN)  (case, 党参#NN, 用#P)  (conj, 党参#NN, 金桔#NN)  (cc, 党参#NN, 与#CC)  (prep, 煎#VV, 党参#NN)  (dep, 受寒#VV, 煎#VV)  (nummod, 代#M, 汤#CD)  (clf, 茶饮#NN, 代#M)  (dobj, 煎#VV, 茶饮#NN)  (advmod, 安胎#VV, 则#AD)  (dep, 安胎#VV, 能#VV)  (dep, 受寒#VV, 安胎#VV)
+        </parsing>
+
+        <tag>
+            汁多  金黄  皮薄肉嫩  皮色香甜  难分  蛋白质  遇到果酸  消化吸收  不易吸收  腹胀难过  空腹  饭前  胃壁黏膜  刺激黏膜  喉痛咳嗽  发痒  加糖  反易生痰  慢性支气管炎  冰糖炖服  隔水炖服  焦山楂水  焦麦芽  慢性肝炎  熬成浓汁  吴茱萸煎服  生姜  藿香  受寒恶心  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101721234579.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\333 金桔.jpg
+    </picturelocalurl>
+
+</content>

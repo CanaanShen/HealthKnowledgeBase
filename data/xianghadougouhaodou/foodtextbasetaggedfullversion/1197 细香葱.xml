@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1197
+    </id>
+
+    <foodname>
+        细香葱
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        冻葱、冬葱、慈葱、太官葱、绵葱、四季葱、香葱、分葱、科葱、葱花儿、小葱
+    </alias>
+
+    <season>
+        全年
+    </season>
+
+    <unsuit>
+        <rawdata>
+            过多食用葱还会损伤视力。
+        </rawdata>
+
+        <segment>
+            过多  食用  葱  还  会  损伤  视力  。
+        </segment>
+
+        <pos>
+            过多#AD  食用#VV  葱#NN  还#AD  会#VV  损伤#VV  视力#NN  。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 食用#VV, 过多#AD)  (dep, 损伤#VV, 食用#VV)  (dobj, 食用#VV, 葱#NN)  (advmod, 损伤#VV, 还#AD)  (mmod, 损伤#VV, 会#VV)  (root, ROOT#null, 损伤#VV)  (dobj, 损伤#VV, 视力#NN)
+        </parsing>
+
+        <tag>
+            过多  葱还会损伤视力  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            耐寒；鳞茎小，白色，形长；叶薄，管状，成丛生长；花淡蓝色或淡紫色，球状繖形花序紧密而鲜豔，直立并高出叶丛，通常仅结少许种子。叶可在齐土面处割下，用於调味，特别是作蛋、汤、沙拉和蔬菜烹调的佐料。
+        </rawdata>
+
+        <segment>
+            耐寒  ；  鳞茎  小  ，  白色  ，  形长  ；  叶薄  ，  管状  ，  成丛  生长  ；  花  淡  蓝色  或  淡紫色  ，  球状  繖形  花序  紧密  而  鲜豔  ，  直立  并  高出  叶丛  ，  通常  仅  结  少许  种子  。  叶可  在  齐土面处  割下  ，  用於  调味  ，  特别是  作蛋  、  汤  、  沙拉  和  蔬菜  烹调  的  佐料  。
+        </segment>
+
+        <pos>
+            耐寒#NR  ；#PU  鳞茎#AD  小#VA  ，#PU  白色#JJ  ，#PU  形长#VV  ；#PU  叶薄#VV  ，#PU  管状#VV  ，#PU  成丛#VV  生长#NN  ；#PU  花#VV  淡#NN  蓝色#NN  或#CC  淡紫色#JJ  ，#PU  球状#VV  繖形#NN  花序#NN  紧密#VA  而#CC  鲜豔#VA  ，#PU  直立#AD  并#AD  高出#VV  叶丛#NN  ，#PU  通常#AD  仅#AD  结#VV  少许#NN  种子#NN    。#PU  叶可#NR  在#P  齐土面处#NR  割下#VV  ，#PU  用於#VV  调味#NN  ，#PU  特别是#AD  作蛋#NN  、#PU  汤#NN  、#PU  沙拉#NN  和#CC  蔬菜#NN  烹调#NN  的#DEG  佐料#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 小#VA, 耐寒#NR)  (advmod, 小#VA, 鳞茎#AD)  (root, ROOT#null, 小#VA)  (conj, 小#VA, 白色#JJ)  (conj, 白色#JJ, 形长#VV)  (conj, 白色#JJ, 叶薄#VV)  (conj, 白色#JJ, 管状#VV)  (dep, 白色#JJ, 成丛#VV)  (dobj, 成丛#VV, 生长#NN)  (conj, 白色#JJ, 花#VV)  (nn, 蓝色#NN, 淡#NN)  (dobj, 花#VV, 蓝色#NN)  (cc, 花#VV, 或#CC)  (conj, 花#VV, 淡紫色#JJ)  (dep, 小#VA, 球状#VV)  (nn, 花序#NN, 繖形#NN)  (dobj, 球状#VV, 花序#NN)  (dep, 球状#VV, 紧密#VA)  (cc, 紧密#VA, 而#CC)  (dep, 紧密#VA, 鲜豔#VA)  (advmod, 高出#VV, 直立#AD)  (advmod, 高出#VV, 并#AD)  (conj, 小#VA, 高出#VV)  (dobj, 高出#VV, 叶丛#NN)  (advmod, 结#VV, 通常#AD)  (advmod, 结#VV, 仅#AD)  (conj, 小#VA, 结#VV)  (nn, 种子#NN, 少许#NN)  (dobj, 结#VV, 种子#NN)   (nsubj, 割下#VV, 叶可#NR)  (case, 齐土面处#NR, 在#P)  (prep, 割下#VV, 齐土面处#NR)  (root, ROOT#null, 割下#VV)  (ccomp, 割下#VV, 用於#VV)  (dobj, 用於#VV, 调味#NN)  (advmod, 佐料#NN, 特别是#AD)  (conj, 蔬菜#NN, 作蛋#NN)  (conj, 蔬菜#NN, 汤#NN)  (conj, 蔬菜#NN, 沙拉#NN)  (cc, 蔬菜#NN, 和#CC)  (nn, 烹调#NN, 蔬菜#NN)  (assmod, 佐料#NN, 烹调#NN)  (case, 烹调#NN, 的#DEG)  (dep, 用於#VV, 佐料#NN)
+        </parsing>
+
+        <tag>
+            成丛生长  繖形花序  球状花序  高出叶丛  少许种子  割下  用於调味  作蛋  沙拉  蔬菜烹调  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            细香葱味辛，性温，归经肺；胃经。具有解表；通阳；解毒之功效，主治感冒风寒；阴寒腹痛；小便不通；痈疽肿毒；跌打肿痛。
+        </rawdata>
+
+        <segment>
+            细香葱  味辛  ，  性温  ，  归经肺  ；  胃经  。  具有  解表  ；  通阳  ；  解毒  之  功效  ，  主治  感冒  风寒  ；  阴  寒  腹痛  ；  小便  不通  ；  痈疽  肿毒  ；  跌打  肿痛  。
+        </segment>
+
+        <pos>
+            细香葱#NR  味辛#VV  ，#PU  性温#NR  ，#PU  归经肺#VV  ；#PU  胃经#VV    。#PU  具有#VV  解表#NN  ；#PU  通阳#VV  ；#PU  解毒#NN  之#DEG  功效#NN  ，#PU  主治#VV  感冒#NN  风寒#NN  ；#PU  阴#NN  寒#JJ  腹痛#NN  ；#PU  小便#VV  不通#NN  ；#PU  痈疽#VV  肿毒#NN  ；#PU  跌打#VV  肿痛#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味辛#VV, 细香葱#NR)  (root, ROOT#null, 味辛#VV)  (nsubj, 归经肺#VV, 性温#NR)  (ccomp, 味辛#VV, 归经肺#VV)  (ccomp, 归经肺#VV, 胃经#VV)   (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 解表#NN)  (conj, 具有#VV, 通阳#VV)  (assmod, 功效#NN, 解毒#NN)  (case, 解毒#NN, 之#DEG)  (dobj, 通阳#VV, 功效#NN)  (conj, 具有#VV, 主治#VV)  (nn, 风寒#NN, 感冒#NN)  (dep, 腹痛#NN, 风寒#NN)  (nn, 腹痛#NN, 阴#NN)  (amod, 腹痛#NN, 寒#JJ)  (dobj, 主治#VV, 腹痛#NN)  (conj, 具有#VV, 小便#VV)  (dobj, 小便#VV, 不通#NN)  (conj, 具有#VV, 痈疽#VV)  (dobj, 痈疽#VV, 肿毒#NN)  (conj, 具有#VV, 跌打#VV)  (dobj, 跌打#VV, 肿痛#NN)
+        </parsing>
+
+        <tag>
+            味辛  通阳功效  感冒风寒  寒腹痛  主治腹痛  小便不通  痈疽肿毒  跌打肿痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        解毒  解表  通阳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/2d/4c/19501_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1197 细香葱.jpg
+    </picturelocalurl>
+
+</content>

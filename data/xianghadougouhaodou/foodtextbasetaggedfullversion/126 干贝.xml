@@ -1,0 +1,350 @@
+<content>
+
+    <id>
+        126
+    </id>
+
+    <foodname>
+        干贝
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        贝
+    </secondcategory>
+
+    <alias>
+        江瑶柱、马甲柱、角带子、江珧柱、扇贝、瑶柱、蜜丁
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            儿童、痛风患者忌食。
+        </rawdata>
+
+        <segment>
+            儿童  、  痛风  患者  忌食  。
+        </segment>
+
+        <pos>
+            儿童#NN  、#PU  痛风#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 痛风#NN, 儿童#NN)  (nn, 患者#NN, 痛风#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            儿童  痛风  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜脾胃虚弱、气直不足、营养不良、久病体虚、五脏亏损、脾肾阳虚、老年夜尿频、高脂血症、动脉硬化、冠心病、食欲不振、消化不良、各种痛症患者、放疗化疗后、适宜糖尿病，虹斑性狼疮，干燥综合征等阴虚体质者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  脾胃  虚弱  、  气  直  不  足  、  营养  不良  、  久病  体  虚  、  五脏  亏损  、  脾肾  阳虚  、  老年  夜  尿频  、  高  脂血症  、  动脉  硬化  、  冠心病  、  食欲不振  、  消化不良  、  各种  痛症  患者  、  放疗  化疗  后  、  适宜  糖尿病  ，  虹斑性  狼疮  ，  干燥  综合征  等  阴虚  体质  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  脾胃#NN  虚弱#NN  、#PU  气#NN  直#AD  不#AD  足#VA  、#PU  营养#VA  不良#JJ  、#PU  久病#JJ  体#NN  虚#AD  、#PU  五脏#CD  亏损#NN  、#PU  脾肾#NN  阳虚#NN  、#PU  老年#NN  夜#NN  尿频#NN  、#PU  高#JJ  脂血症#NN  、#PU  动脉#NN  硬化#NN  、#PU  冠心病#NN  、#PU  食欲不振#NN  、#PU  消化不良#NN  、#PU  各种#NN  痛症#NN  患者#NN  、#PU  放疗#VV  化疗#CD  后#LC  、#PU  适宜#VV  糖尿病#NN  ，#PU  虹斑性#VV  狼疮#NN  ，#PU  干燥#VV  综合征#NN  等#ETC  阴虚#NN  体质#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 者#NN, 适宜#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dep, 阴虚#NN, 虚弱#NN)  (nsubj, 足#VA, 气#NN)  (advmod, 足#VA, 直#AD)  (neg, 足#VA, 不#AD)  (conj, 虚弱#NN, 足#VA)  (conj, 虚弱#NN, 营养#VA)  (amod, 体#NN, 不良#JJ)  (dep, 不良#JJ, 久病#JJ)  (dobj, 营养#VA, 体#NN)  (advmod, 营养#VA, 虚#AD)  (nummod, 亏损#NN, 五脏#CD)  (conj, 虚弱#NN, 亏损#NN)  (nn, 阳虚#NN, 脾肾#NN)  (conj, 虚弱#NN, 阳虚#NN)  (nn, 尿频#NN, 老年#NN)  (nn, 尿频#NN, 夜#NN)  (conj, 虚弱#NN, 尿频#NN)  (amod, 脂血症#NN, 高#JJ)  (conj, 虚弱#NN, 脂血症#NN)  (nn, 消化不良#NN, 动脉#NN)  (conj, 消化不良#NN, 硬化#NN)  (conj, 消化不良#NN, 冠心病#NN)  (conj, 消化不良#NN, 食欲不振#NN)  (conj, 虚弱#NN, 消化不良#NN)  (nn, 患者#NN, 各种#NN)  (nn, 患者#NN, 痛症#NN)  (conj, 虚弱#NN, 患者#NN)  (conj, 虚弱#NN, 放疗#VV)  (loc, 放疗#VV, 化疗#CD)  (case, 化疗#CD, 后#LC)  (dep, 虚弱#NN, 适宜#VV)  (dobj, 适宜#VV, 糖尿病#NN)  (conj, 适宜#VV, 虹斑性#VV)  (dobj, 虹斑性#VV, 狼疮#NN)  (conj, 适宜#VV, 干燥#VV)  (dobj, 干燥#VV, 综合征#NN)  (etc, 综合征#NN, 等#ETC)  (dobj, 适宜#VV, 阴虚#NN)  (nn, 者#NN, 体质#NN)  (nsubj, 食用#VV, 者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  脾胃虚弱  气直不足  营养不良  久病体虚  五脏亏损  脾肾阳虚  老年夜尿频  高脂血症  动脉硬化  冠心病  食欲不振  消化不良  各种痛症  患者  放疗化疗后  适宜  糖尿病  虹斑性狼疮  干燥综合征  阴虚体质者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                264
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                55.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                5.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                348
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.53
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                504
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                969
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                306
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                106
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                5.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                76.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.43
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            干贝即扇贝的干制品，其味道、色泽、形态与海参、鲍鱼不相上下。古人曰：“食后三日，犹觉鸡虾乏味。”可见干贝之鲜美非同一般。它是由扇贝的裙边风干制成。
+        </rawdata>
+
+        <segment>
+            干贝  即  扇贝  的  干  制品  ，  其  味道  、  色泽  、  形态  与  海参  、  鲍鱼  不相上下  。  古人  曰  ：  “  食后  三  日  ，  犹  觉  鸡  虾  乏味  。  ”  可  见  干贝  之  鲜美  非同一般  。  它  是  由  扇贝  的  裙边  风干  制成  。
+        </segment>
+
+        <pos>
+            干贝#NN  即#AD  扇贝#VA  的#DEC  干#VV  制品#NN  ，#PU  其#PN  味道#NN  、#PU  色泽#NN  、#PU  形态#NN  与#CC  海参#NN  、#PU  鲍鱼#NN  不相上下#NN    。#PU  古人#AD  曰#VV  ：#PU  ``#AD  食后#VV  三#CD  日#M  ，#PU  犹#AD  觉#VV  鸡#NN  虾#NN  乏味#NN    。#PU  ''#NR  可#VV  见#VV  干贝#NN  之#DEG  鲜美#NN  非同一般#CD    。#PU  它#PN  是#VC  由#P  扇贝#NN  的#DEG  裙边#NN  风干#NN  制成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 扇贝#VA, 干贝#NN)  (advmod, 扇贝#VA, 即#AD)  (nsubj, 干#VV, 扇贝#VA)  (mark, 扇贝#VA, 的#DEC)  (root, ROOT#null, 干#VV)  (dep, 不相上下#NN, 制品#NN)  (nn, 海参#NN, 其#PN)  (conj, 海参#NN, 味道#NN)  (conj, 海参#NN, 色泽#NN)  (conj, 海参#NN, 形态#NN)  (cc, 海参#NN, 与#CC)  (conj, 不相上下#NN, 海参#NN)  (nn, 不相上下#NN, 鲍鱼#NN)  (dobj, 干#VV, 不相上下#NN)   (advmod, 曰#VV, 古人#AD)  (root, ROOT#null, 曰#VV)  (advmod, 食后#VV, ``#AD)  (dep, 曰#VV, 食后#VV)  (nummod, 日#M, 三#CD)  (range, 食后#VV, 日#M)  (advmod, 觉#VV, 犹#AD)  (dep, 曰#VV, 觉#VV)  (nn, 乏味#NN, 鸡#NN)  (nn, 乏味#NN, 虾#NN)  (dobj, 觉#VV, 乏味#NN)   (nsubj, 见#VV, ''#NR)  (mmod, 见#VV, 可#VV)  (root, ROOT#null, 见#VV)  (assmod, 鲜美#NN, 干贝#NN)  (case, 干贝#NN, 之#DEG)  (dobj, 见#VV, 鲜美#NN)  (range, 见#VV, 非同一般#CD)   (nsubj, 制成#VV, 它#PN)  (cop, 制成#VV, 是#VC)  (case, 风干#NN, 由#P)  (assmod, 风干#NN, 扇贝#NN)  (case, 扇贝#NN, 的#DEG)  (nn, 风干#NN, 裙边#NN)  (prep, 制成#VV, 风干#NN)  (root, ROOT#null, 制成#VV)
+        </parsing>
+
+        <tag>
+            海参  味道  色泽  形态  鲍鱼不相上下  裙边风干  制成  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            干贝性平，味甘、咸，具有滋阴、补肾、调中、下气、利五脏之功效。
+            1.降 血压 降 胆固醇
+            干贝具有滋阴补肾的功能，能治疗头晕目眩，咽干口渴，虚劳咳血，脾胃虚弱等症，常食有助有降血压，降胆固醇，补益健身。
+            2.软化血管
+            干贝还具有抗癌，软化血血管，预防动脉硬化等功效。
+        </rawdata>
+
+        <segment>
+            干贝  性平  ，  味甘  、  咸  ，  具有  滋阴  、  补肾  、  调中  、  下气  、  利  五脏  之  功效  。
+            降  血压  降  胆固醇
+            干贝  具有  滋阴  补  肾  的  功能  ，  能  治疗  头晕  目眩  ，  咽  干  口渴  ，  虚  劳  咳血  ，  脾胃  虚弱  等症  ，  常食  有助  有  降  血压  ，  降  胆固醇  ，  补益  健身  。
+            软化  血管
+            干贝  还  具有  抗癌  ，  软化  血  血管  ，  预防  动脉  硬化  等  功效  。
+        </segment>
+
+        <pos>
+            干贝#NR  性平#VV  ，#PU  味甘#NR  、#PU  咸#NR  ，#PU  具有#VV  滋阴#NR  、#PU  补肾#NR  、#PU  调中#NR  、#PU  下气#NR  、#PU  利#NR  五脏#CD  之#DEG  功效#NN  。#PU
+            降#NN  血压#AD  降#VV  胆固醇#NN
+            干贝#NN  具有#VV  滋阴#AD  补#VV  肾#NN  的#DEC  功能#NN  ，#PU  能#VV  治疗#VV  头晕#NN  目眩#NN  ，#PU  咽#AD  干#VV  口渴#NN  ，#PU  虚#AD  劳#NN  咳血#VV  ，#PU  脾胃#VV  虚弱#NN  等症#NN  ，#PU  常食#AD  有助#AD  有#VE  降#NN  血压#NN  ，#PU  降#VV  胆固醇#NN  ，#PU  补益#AD  健身#VV  。#PU
+            软化#VV  血管#NN
+            干贝#NN  还#AD  具有#VV  抗癌#NN  ，#PU  软化#VV  血#NN  血管#NN  ，#PU  预防#VV  动脉#NN  硬化#NN  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性平#VV, 干贝#NR)  (root, ROOT#null, 性平#VV)  (conj, 咸#NR, 味甘#NR)  (nsubj, 具有#VV, 咸#NR)  (ccomp, 性平#VV, 具有#VV)  (conj, 利#NR, 滋阴#NR)  (conj, 利#NR, 补肾#NR)  (conj, 利#NR, 调中#NR)  (conj, 利#NR, 下气#NR)  (nn, 功效#NN, 利#NR)  (assmod, 功效#NN, 五脏#CD)  (case, 五脏#CD, 之#DEG)  (dobj, 具有#VV, 功效#NN)
+            (nsubj, 降#VV, 降#NN)  (advmod, 降#VV, 血压#AD)  (root, ROOT#null, 降#VV)  (dobj, 降#VV, 胆固醇#NN)
+            (nsubj, 具有#VV, 干贝#NN)  (root, ROOT#null, 具有#VV)  (advmod, 补#VV, 滋阴#AD)  (relcl, 功能#NN, 补#VV)  (dobj, 补#VV, 肾#NN)  (mark, 补#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)  (mmod, 治疗#VV, 能#VV)  (conj, 具有#VV, 治疗#VV)  (nn, 目眩#NN, 头晕#NN)  (dobj, 治疗#VV, 目眩#NN)  (advmod, 干#VV, 咽#AD)  (conj, 治疗#VV, 干#VV)  (dobj, 干#VV, 口渴#NN)  (advmod, 咳血#VV, 虚#AD)  (prep, 咳血#VV, 劳#NN)  (conj, 治疗#VV, 咳血#VV)  (conj, 治疗#VV, 脾胃#VV)  (nn, 等症#NN, 虚弱#NN)  (dobj, 脾胃#VV, 等症#NN)  (advmod, 有#VE, 常食#AD)  (advmod, 有#VE, 有助#AD)  (conj, 治疗#VV, 有#VE)  (nn, 血压#NN, 降#NN)  (dobj, 有#VE, 血压#NN)  (conj, 治疗#VV, 降#VV)  (dobj, 降#VV, 胆固醇#NN)  (advmod, 健身#VV, 补益#AD)  (conj, 治疗#VV, 健身#VV)
+            (root, ROOT#null, 软化#VV)  (dobj, 软化#VV, 血管#NN)
+            (nsubj, 具有#VV, 干贝#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (dobj, 具有#VV, 抗癌#NN)  (conj, 具有#VV, 软化#VV)  (nn, 血管#NN, 血#NN)  (dobj, 软化#VV, 血管#NN)  (conj, 具有#VV, 预防#VV)  (nn, 硬化#NN, 动脉#NN)  (nn, 功效#NN, 硬化#NN)  (etc, 硬化#NN, 等#ETC)  (dobj, 预防#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            性平  补功能  头晕目眩  治疗目眩  虚弱等症  脾胃等症  软化血管  动脉硬化  硬化功效  预防功效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.干贝富含蛋白质、碳水化合物、维生素B2和钙、磷、铁等多种营养成分，蛋白质含量高达61.8%，为鸡肉，牛肉，鲜虾的三倍。
+            2.富含丰富的矿物质，其含量远高于鱼翅，燕窝。
+            3.干贝含丰富的谷氨酸，味道极鲜，与鲜扇贝相比、干贝腥味大减。
+        </rawdata>
+
+        <segment>
+            干贝  富含  蛋白质  、  碳水化合物  、  维生素B2  和  钙  、  磷  、  铁  等  多  种  营养  成分  ，  蛋白质  含量  高  达  61.8%  ，  为  鸡肉  ，  牛肉  ，  鲜  虾  的  三  倍  。
+            富含  丰富  的  矿物质  ，  其  含量  远  高于  鱼翅  ，  燕窝  。
+            干贝  含  丰富  的  谷氨酸  ，  味道  极鲜  ，  与  鲜  扇贝  相比  、  干贝  腥味  大减  。
+        </segment>
+
+        <pos>
+            干贝#NN  富含#VV  蛋白质#CD  、#PU  碳水化合物#CD  、#PU  维生素B2#CD  和#CC  钙#CD  、#PU  磷#NN  、#PU  铁#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN  ，#PU  蛋白质#NN  含量#NN  高#AD  达#VV  61.8#CD  %#NN  ，#PU  为#P  鸡肉#NN  ，#PU  牛肉#NN  ，#PU  鲜#VV  虾#NN  的#DEG  三#CD  倍#M  。#PU
+            富含#VV  丰富#VA  的#DEC  矿物质#NN  ，#PU  其#PN  含量#NN  远#AD  高于#VV  鱼翅#NN  ，#PU  燕窝#VV  。#PU
+            干贝#NN  含#VV  丰富#VA  的#DEC  谷氨酸#NN  ，#PU  味道#NN  极鲜#NN  ，#PU  与#P  鲜#NN  扇贝#NN  相比#VV  、#PU  干贝#VV  腥味#NN  大减#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 富含#VV, 干贝#NN)  (root, ROOT#null, 富含#VV)  (nummod, 钙#CD, 蛋白质#CD)  (nummod, 钙#CD, 碳水化合物#CD)  (nummod, 钙#CD, 维生素B2#CD)  (cc, 钙#CD, 和#CC)  (range, 富含#VV, 钙#CD)  (conj, 铁#NN, 磷#NN)  (nn, 成分#NN, 铁#NN)  (etc, 铁#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (relcl, 铁#NN, 营养#VA)  (relcl, 成分#NN, 营养#VA)  (nsubj, 达#VV, 成分#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 达#VV, 含量#NN)  (advmod, 达#VV, 高#AD)  (conj, 富含#VV, 达#VV)  (nummod, %#NN, 61.8#CD)  (dobj, 达#VV, %#NN)  (case, 鸡肉#NN, 为#P)  (prep, 鲜#VV, 鸡肉#NN)  (nsubj, 鲜#VV, 牛肉#NN)  (dep, 富含#VV, 鲜#VV)  (assmod, 倍#M, 虾#NN)  (case, 虾#NN, 的#DEG)  (nummod, 倍#M, 三#CD)  (range, 鲜#VV, 倍#M)
+            (root, ROOT#null, 富含#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 富含#VV, 矿物质#NN)  (nn, 含量#NN, 其#PN)  (nsubj, 高于#VV, 含量#NN)  (advmod, 高于#VV, 远#AD)  (dep, 富含#VV, 高于#VV)  (dobj, 高于#VV, 鱼翅#NN)  (conj, 富含#VV, 燕窝#VV)
+            (nsubj, 含#VV, 干贝#NN)  (root, ROOT#null, 含#VV)  (relcl, 谷氨酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, 谷氨酸#NN)  (nn, 极鲜#NN, 味道#NN)  (nsubj, 相比#VV, 极鲜#NN)  (case, 扇贝#NN, 与#P)  (nn, 扇贝#NN, 鲜#NN)  (prep, 相比#VV, 扇贝#NN)  (conj, 含#VV, 相比#VV)  (dep, 相比#VV, 干贝#VV)  (nn, 大减#NN, 腥味#NN)  (dobj, 干贝#VV, 大减#NN)
+        </parsing>
+
+        <tag>
+            铁营养  矿物质丰富  富含矿物质  高于鱼翅  谷氨酸丰富  味道极鲜  腥味大减  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.干贝烹调前应用温水浸泡涨发，或用少量清水加黄酒、姜、葱隔水蒸软，然后烹制入肴。
+            2.干贝的泡发方法：事先将干贝上的老筋剥去，洗去泥沙，放入容器中，加料酒、姜片、葱段、高汤，上屉蒸2～3小时，能展成丝状即为发好，并用原汤浸泡待用。
+            3.过量食用会影响肠胃的运动消化功能，导致食物积滞，难以消化吸收。干贝蛋白质含量高，多食可能会引发皮疹。干贝所含的谷氨酸钠是味精的主要成分，可分解为谷氨酸和酪氨酸等，在肠道细菌的作用下，转化为有毒、有害物质，会干扰大脑神经细胞正常代谢，因此一定要适量食用。
+        </rawdata>
+
+        <segment>
+            干贝  烹调  前  应用  温水  浸泡  涨  发  ，  或用  少量  清水  加  黄酒  、  姜  、  葱  隔  水  蒸  软  ，  然后  烹制  入肴  。
+            干贝  的  泡发  方法  ：  事先  将  干贝  上  的  老筋  剥去  ，  洗去  泥沙  ，  放入  容器  中  ，  加料酒  、  姜片  、  葱段  、  高汤  ，  上屉蒸  2  ～  3  小时  ，  能  展  成  丝状  即为  发好  ，  并  用  原汤  浸泡  待用  。
+            过量  食用  会  影响  肠胃  的  运动  消化  功能  ，  导致  食物  积滞  ，  难以  消化  吸收  。  干贝  蛋白质  含量  高  ，  多  食  可能  会  引发  皮疹  。  干贝  所  含  的  谷氨酸  钠  是  味精  的  主要  成分  ，  可  分解  为  谷  氨酸  和  酪氨酸  等  ，  在  肠道  细菌  的  作用  下  ，  转化  为  有毒  、  有害  物质  ，  会  干扰  大  脑  神经  细胞  正常  代谢  ，  因此  一定  要  适量  食用  。
+        </segment>
+
+        <pos>
+            干贝#NN  烹调#NN  前#LC  应用#NN  温水#NN  浸泡#AD  涨#VV  发#VV  ，#PU  或用#NR  少量#CD  清水#NN  加#CC  黄酒#NN  、#PU  姜#NN  、#PU  葱#NN  隔#P  水#NN  蒸#AD  软#VA  ，#PU  然后#AD  烹制#VV  入肴#NN  。#PU
+            干贝#NN  的#DEG  泡发#NN  方法#NN  ：#PU  事先#AD  将#BA  干贝#NN  上#LC  的#DEG  老筋#NN  剥去#NN  ，#PU  洗去#VV  泥沙#NN  ，#PU  放入#VV  容器#NN  中#LC  ，#PU  加料酒#NR  、#PU  姜片#NR  、#PU  葱段#NR  、#PU  高汤#NR  ，#PU  上屉蒸#VV  2#CD  ～#NN  3#CD  小时#NN  ，#PU  能#VV  展#NN  成#VV  丝状#NN  即为#NN  发好#NN  ，#PU  并#CC  用#P  原汤#NN  浸泡#VV  待用#NN  。#PU
+            过量#AD  食用#VV  会#VV  影响#NN  肠胃#NN  的#DEC  运动#NN  消化#NN  功能#NN  ，#PU  导致#VV  食物#VV  积滞#NN  ，#PU  难以#AD  消化#NN  吸收#VV    。#PU  干贝#NN  蛋白质#NN  含量#NN  高#VA  ，#PU  多#CD  食#NN  可能#VV  会#VV  引发#VV  皮疹#NN    。#PU  干贝#AD  所#MSP  含#VV  的#DEC  谷氨酸#NN  钠#NN  是#VC  味精#NN  的#DEG  主要#JJ  成分#NN  ，#PU  可#VV  分解#VV  为#P  谷#NN  氨酸#NN  和#CC  酪氨酸#NN  等#ETC  ，#PU  在#P  肠道#NN  细菌#NN  的#DEG  作用#NN  下#LC  ，#PU  转化#NN  为#VC  有毒#NN  、#PU  有害#NN  物质#NN  ，#PU  会#VV  干扰#NN  大#JJ  脑#NN  神经#NN  细胞#NN  正常#JJ  代谢#NN  ，#PU  因此#AD  一定#AD  要#VV  适量#AD  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 烹调#NN, 干贝#NN)  (loc, 涨#VV, 烹调#NN)  (case, 烹调#NN, 前#LC)  (nn, 温水#NN, 应用#NN)  (nsubj, 涨#VV, 温水#NN)  (advmod, 涨#VV, 浸泡#AD)  (root, ROOT#null, 涨#VV)  (comod, 涨#VV, 发#VV)  (nn, 葱#NN, 或用#NR)  (nummod, 葱#NN, 少量#CD)  (conj, 葱#NN, 清水#NN)  (cc, 葱#NN, 加#CC)  (conj, 葱#NN, 黄酒#NN)  (conj, 葱#NN, 姜#NN)  (nsubj, 软#VA, 葱#NN)  (case, 水#NN, 隔#P)  (prep, 软#VA, 水#NN)  (advmod, 软#VA, 蒸#AD)  (conj, 涨#VV, 软#VA)  (advmod, 烹制#VV, 然后#AD)  (conj, 涨#VV, 烹制#VV)  (dobj, 烹制#VV, 入肴#NN)
+            (assmod, 方法#NN, 干贝#NN)  (case, 干贝#NN, 的#DEG)  (nn, 方法#NN, 泡发#NN)  (nsubj, 洗去#VV, 方法#NN)  (advmod, 洗去#VV, 事先#AD)  (ba, 洗去#VV, 将#BA)  (assmod, 剥去#NN, 干贝#NN)  (case, 干贝#NN, 上#LC)  (case, 干贝#NN, 的#DEG)  (nn, 剥去#NN, 老筋#NN)  (nsubj, 洗去#VV, 剥去#NN)  (root, ROOT#null, 洗去#VV)  (dobj, 洗去#VV, 泥沙#NN)  (conj, 洗去#VV, 放入#VV)  (loc, 放入#VV, 容器#NN)  (case, 容器#NN, 中#LC)  (conj, 高汤#NR, 加料酒#NR)  (conj, 高汤#NR, 姜片#NR)  (conj, 高汤#NR, 葱段#NR)  (nsubj, 上屉蒸#VV, 高汤#NR)  (conj, 洗去#VV, 上屉蒸#VV)  (nummod, ～#NN, 2#CD)  (nummod, 小时#NN, 3#CD)  (dobj, 上屉蒸#VV, 小时#NN)  (conj, 上屉蒸#VV, 能#VV)  (dobj, 能#VV, 展#NN)  (conj, 能#VV, 成#VV)  (nn, 发好#NN, 丝状#NN)  (nn, 发好#NN, 即为#NN)  (dobj, 成#VV, 发好#NN)  (cc, 上屉蒸#VV, 并#CC)  (case, 原汤#NN, 用#P)  (prep, 浸泡#VV, 原汤#NN)  (conj, 上屉蒸#VV, 浸泡#VV)  (dobj, 浸泡#VV, 待用#NN)
+            (advmod, 食用#VV, 过量#AD)  (root, ROOT#null, 食用#VV)  (relcl, 功能#NN, 会#VV)  (nn, 肠胃#NN, 影响#NN)  (dobj, 会#VV, 肠胃#NN)  (mark, 会#VV, 的#DEC)  (nn, 功能#NN, 运动#NN)  (nn, 功能#NN, 消化#NN)  (dobj, 食用#VV, 功能#NN)  (dep, 食用#VV, 导致#VV)  (ccomp, 导致#VV, 食物#VV)  (dobj, 食物#VV, 积滞#NN)  (advmod, 吸收#VV, 难以#AD)  (prep, 吸收#VV, 消化#NN)  (dep, 食用#VV, 吸收#VV)   (nn, 含量#NN, 干贝#NN)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高#VA, 含量#NN)  (root, ROOT#null, 高#VA)  (nummod, 食#NN, 多#CD)  (nsubj, 引发#VV, 食#NN)  (mmod, 引发#VV, 可能#VV)  (mmod, 引发#VV, 会#VV)  (conj, 高#VA, 引发#VV)  (dobj, 引发#VV, 皮疹#NN)   (advmod, 含#VV, 干贝#AD)  (prtmod, 含#VV, 所#MSP)  (relcl, 钠#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nn, 钠#NN, 谷氨酸#NN)  (nsubj, 成分#NN, 钠#NN)  (cop, 成分#NN, 是#VC)  (assmod, 成分#NN, 味精#NN)  (case, 味精#NN, 的#DEG)  (amod, 成分#NN, 主要#JJ)  (root, ROOT#null, 成分#NN)  (mmod, 分解#VV, 可#VV)  (conj, 成分#NN, 分解#VV)  (case, 酪氨酸#NN, 为#P)  (nn, 酪氨酸#NN, 谷#NN)  (conj, 酪氨酸#NN, 氨酸#NN)  (cc, 酪氨酸#NN, 和#CC)  (prep, 分解#VV, 酪氨酸#NN)  (etc, 酪氨酸#NN, 等#ETC)  (case, 作用#NN, 在#P)  (nn, 细菌#NN, 肠道#NN)  (assmod, 作用#NN, 细菌#NN)  (case, 细菌#NN, 的#DEG)  (prep, 物质#NN, 作用#NN)  (case, 作用#NN, 下#LC)  (nsubj, 物质#NN, 转化#NN)  (cop, 物质#NN, 为#VC)  (conj, 物质#NN, 有毒#NN)  (nn, 物质#NN, 有害#NN)  (conj, 成分#NN, 物质#NN)  (conj, 物质#NN, 会#VV)  (nn, 脑#NN, 干扰#NN)  (amod, 脑#NN, 大#JJ)  (nn, 细胞#NN, 脑#NN)  (nn, 细胞#NN, 神经#NN)  (nn, 代谢#NN, 细胞#NN)  (amod, 代谢#NN, 正常#JJ)  (dobj, 会#VV, 代谢#NN)  (advmod, 食用#VV, 因此#AD)  (advmod, 食用#VV, 一定#AD)  (mmod, 食用#VV, 要#VV)  (advmod, 食用#VV, 适量#AD)  (conj, 成分#NN, 食用#VV)
+        </parsing>
+
+        <tag>
+            应用温水  烹制入肴  泡发方法  老筋剥去  洗去泥沙  高汤  加料酒  姜片  葱段  上屉蒸小时  丝状发好  即为发好  浸泡待用  会功能  影响肠胃  运动功能  消化功能  食用功能  食物积滞  引发皮疹  含钠  酪氨酸  肠道细菌  大脑  神经细胞  细胞代谢  正常代谢  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101055106476.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\126 干贝.jpg
+    </picturelocalurl>
+
+</content>

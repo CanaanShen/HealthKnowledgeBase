@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        741
+    </id>
+
+    <foodname>
+        荆豆
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        名荅、小菽、赤菽
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            炒熟的干荆豆尤其不易消化，过食可引起消化不良、腹胀。
+        </rawdata>
+
+        <segment>
+            炒熟  的  干  荆豆  尤其  不  易  消化  ，  过食  可  引起  消化不良  、  腹胀  。
+        </segment>
+
+        <pos>
+            炒熟#NN  的#DEG  干#VV  荆豆#NN  尤其#AD  不#AD  易#VA  消化#NN  ，#PU  过食#NN  可#VV  引起#VV  消化不良#NN  、#PU  腹胀#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 消化#NN, 炒熟#NN)  (case, 炒熟#NN, 的#DEG)  (nfincl, 消化#NN, 干#VV)  (dobj, 干#VV, 荆豆#NN)  (advmod, 易#VA, 尤其#AD)  (neg, 易#VA, 不#AD)  (conj, 干#VV, 易#VA)  (nsubj, 引起#VV, 消化#NN)  (nsubj, 引起#VV, 过食#NN)  (mmod, 引起#VV, 可#VV)  (root, ROOT#null, 引起#VV)  (conj, 腹胀#NN, 消化不良#NN)  (dobj, 引起#VV, 腹胀#NN)
+        </parsing>
+
+        <tag>
+            炒熟  尤其不易消化  过食可引起消化不良  腹胀  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚体质不宜食;
+        </rawdata>
+
+        <segment>
+            阳虚  体质  不  宜  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  体质#NN  不#AD  宜#NR  食#NN  ;#VV
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nsubj, ;#VV, 体质#NN)  (neg, ;#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (prep, ;#VV, 食#NN)  (root, ROOT#null, ;#VV)
+        </parsing>
+
+        <tag>
+            阳虚体质不宜食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            荆豆是一种常青灌木，两到四英尺(60到120厘米）高。它必须生长在温和或温暖气候下。其茎干笔直、深绿色且几乎无叶。艳丽的黄色双唇形花朵生长于枝条末梢。荚果内有卵形深棕色的小籽。荆豆中富含人体所需的各种营养物质，尤其是含有优质蛋白质，可以提高机体的抗病能力和康复能力。
+        </rawdata>
+
+        <segment>
+            荆豆  是  一  种  常青  灌木  ，  两  到  四  英尺  (  60  到  120  厘米  ）  高  。  它  必须  生长  在  温和  或  温暖  气候  下  。  其  茎干  笔直  、  深绿色  且  几乎  无叶  。  艳丽  的  黄色  双唇形  花朵  生  长于  枝条  末梢  。  荚果  内  有  卵形  深棕色  的  小籽  。  荆豆  中  富含  人体  所  需  的  各  种  营养  物质  ，  尤其是  含有  优质  蛋白质  ，  可以  提高  机体  的  抗病  能力  和  康复  能力  。
+        </segment>
+
+        <pos>
+            荆豆#NN  是#VC  一#CD  种#M  常青#NN  灌木#NN  ，#PU  两#CD  到#CC  四#CD  英尺#NN  -LRB-#NN  60#CD  到#CC  120#CD  厘米#M  ）#PU  高#VA    。#PU  它#PN  必须#VV  生长#NN  在#P  温和#NN  或#CC  温暖#NN  气候#NN  下#LC    。#PU  其#PN  茎干#AD  笔直#AD  、#PU  深绿色#AD  且#CC  几乎#AD  无叶#VV    。#PU  艳丽#NN  的#DEG  黄色#JJ  双唇形#NN  花朵#NN  生#VV  长于#NN  枝条#NN  末梢#NN    。#PU  荚果#NN  内#LC  有#VE  卵形#NN  深棕色#NN  的#DEG  小籽#NN    。#PU  荆豆#NN  中#LC  富含#AD  人体#VV  所#MSP  需#VV  的#DEC  各#DT  种#M  营养#VA  物质#NN  ，#PU  尤其是#AD  含有#NR  优质#JJ  蛋白质#NN  ，#PU  可以#VV  提高#VV  机体#NN  的#DEG  抗病#NN  能力#NN  和#CC  康复#NN  能力#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 灌木#NN, 荆豆#NN)  (cop, 灌木#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 灌木#NN, 种#M)  (nn, 灌木#NN, 常青#NN)  (root, ROOT#null, 灌木#NN)  (nummod, 四#CD, 两#CD)  (cc, 四#CD, 到#CC)  (nummod, 英尺#NN, 四#CD)  (nsubj, 高#VA, 英尺#NN)  (dep, 厘米#M, 60#CD)  (cc, 厘米#M, 到#CC)  (nummod, 厘米#M, 120#CD)  (dep, -LRB-#NN, 厘米#M)  (conj, 灌木#NN, 高#VA)   (nsubj, 必须#VV, 它#PN)  (root, ROOT#null, 必须#VV)  (dobj, 必须#VV, 生长#NN)  (case, 气候#NN, 在#P)  (conj, 气候#NN, 温和#NN)  (cc, 气候#NN, 或#CC)  (nn, 气候#NN, 温暖#NN)  (prep, 必须#VV, 气候#NN)  (case, 气候#NN, 下#LC)   (nsubj, 无叶#VV, 其#PN)  (advmod, 无叶#VV, 茎干#AD)  (advmod, 无叶#VV, 笔直#AD)  (conj, 笔直#AD, 深绿色#AD)  (cc, 笔直#AD, 且#CC)  (dep, 笔直#AD, 几乎#AD)  (root, ROOT#null, 无叶#VV)   (assmod, 花朵#NN, 艳丽#NN)  (case, 艳丽#NN, 的#DEG)  (amod, 花朵#NN, 黄色#JJ)  (nn, 花朵#NN, 双唇形#NN)  (nsubj, 生#VV, 花朵#NN)  (root, ROOT#null, 生#VV)  (nn, 末梢#NN, 长于#NN)  (nn, 末梢#NN, 枝条#NN)  (dobj, 生#VV, 末梢#NN)   (loc, 有#VE, 荚果#NN)  (case, 荚果#NN, 内#LC)  (root, ROOT#null, 有#VE)  (nn, 深棕色#NN, 卵形#NN)  (assmod, 小籽#NN, 深棕色#NN)  (case, 深棕色#NN, 的#DEG)  (dobj, 有#VE, 小籽#NN)   (loc, 人体#VV, 荆豆#NN)  (case, 荆豆#NN, 中#LC)  (advmod, 人体#VV, 富含#AD)  (root, ROOT#null, 人体#VV)  (prtmod, 需#VV, 所#MSP)  (relcl, 物质#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (det, 物质#NN, 各#DT)  (clf, 各#DT, 种#M)  (relcl, 物质#NN, 营养#VA)  (dobj, 人体#VV, 物质#NN)  (advmod, 提高#VV, 尤其是#AD)  (nn, 蛋白质#NN, 含有#NR)  (amod, 蛋白质#NN, 优质#JJ)  (nsubj, 提高#VV, 蛋白质#NN)  (mmod, 提高#VV, 可以#VV)  (conj, 人体#VV, 提高#VV)  (assmod, 能力#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (nn, 能力#NN, 抗病#NN)  (conj, 能力#NN, 能力#NN)  (cc, 能力#NN, 和#CC)  (nn, 能力#NN, 康复#NN)  (dobj, 提高#VV, 能力#NN)
+        </parsing>
+
+        <tag>
+            常青灌木  必须生长  温和  温暖气候  无叶  黄色花朵  双唇形花朵  长于末梢  枝条末梢  卵形深棕色  人体  优质蛋白质  抗病能力  康复能力  提高能力  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            祛脂降压,通乳生乳,解毒,通便,补血益气,提高免疫力
+        </rawdata>
+
+        <segment>
+            祛脂  降压  ,  通乳  生乳  ,  解毒  ,  通便  ,  补血  益气  ,  提高  免疫力
+        </segment>
+
+        <pos>
+            祛脂#NN  降压#NN  ,#NN  通乳#NN  生乳#NN  ,#NN  解毒#NN  ,#NN  通便#NN  ,#NN  补血#NN  益气#NN  ,#AD  提高#VV  免疫力#NN
+        </pos>
+
+        <parsing>
+            (nn, ,#NN, 祛脂#NN)  (nn, ,#NN, 降压#NN)  (nn, ,#NN, 通乳#NN)  (nn, ,#NN, 生乳#NN)  (nn, 通便#NN, 解毒#NN)  (nn, 益气#NN, 通便#NN)  (nn, 益气#NN, 补血#NN)  (nsubj, 提高#VV, 益气#NN)  (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+        </parsing>
+
+        <tag>
+            解毒通便  通便益气  补血益气  提高免疫力  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血糖  促进消化  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/0a/41/82186_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\741 荆豆.jpg
+    </picturelocalurl>
+
+</content>

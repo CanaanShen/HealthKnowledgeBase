@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        692
+    </id>
+
+    <foodname>
+        鸭子
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            ；感冒患者不宜食用
+        </rawdata>
+
+        <segment>
+            ；  感冒  患者  不  宜  食用
+        </segment>
+
+        <pos>
+            ；#NN  感冒#NN  患者#NN  不#AD  宜#AD  食用#VV
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 感冒#NN)  (nsubj, 食用#VV, 患者#NN)  (neg, 食用#VV, 不#AD)  (advmod, 食用#VV, 宜#AD)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            ；感冒  患者  不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群
+        </rawdata>
+
+        <segment>
+            一般  人群
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (root, ROOT#null, 人群#NN)
+        </parsing>
+
+        <tag>
+            一般人群  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸟纲雁形目，鸭科鸭属动物，是由野生绿头鸭和斑嘴鸭驯化而来。是一种常见家禽。鸭是雁形目鸭科鸭亚科水禽的统称。是一种水、陆两栖动物。但不能在水中待太久，是卵生动物。
+        </rawdata>
+
+        <segment>
+            鸟  纲  雁形目  ，  鸭科  鸭属  动物  ，  是  由  野生  绿头鸭  和  斑嘴鸭  驯化  而  来  。  是  一  种  常见  家禽  。  鸭  是  雁形目  鸭科  鸭  亚科  水禽  的  统称  。  是  一  种  水  、  陆  两栖  动物  。  但不  能  在  水  中  待  太  久  ，  是  卵生  动物  。
+        </segment>
+
+        <pos>
+            鸟#NN  纲#NN  雁形目#VV  ，#PU  鸭科#VV  鸭属#JJ  动物#NN  ，#PU  是#VC  由#P  野生#JJ  绿头鸭#NN  和#CC  斑嘴鸭#NN  驯化#VV  而#MSP  来#VV    。#PU  是#VC  一#CD  种#M  常见#JJ  家禽#NN    。#PU  鸭#NN  是#VC  雁形目#AD  鸭科#VV  鸭#NN  亚科#NN  水禽#NN  的#DEC  统称#NN    。#PU  是#VC  一#CD  种#M  水#NN  、#PU  陆#NN  两栖#NN  动物#NN    。#PU  但不#NN  能#VV  在#P  水#NN  中#LC  待#VV  太#AD  久#VA  ，#PU  是#VC  卵生#JJ  动物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 纲#NN, 鸟#NN)  (nsubj, 雁形目#VV, 纲#NN)  (root, ROOT#null, 雁形目#VV)  (dep, 驯化#VV, 鸭科#VV)  (amod, 动物#NN, 鸭属#JJ)  (dobj, 鸭科#VV, 动物#NN)  (cop, 驯化#VV, 是#VC)  (case, 斑嘴鸭#NN, 由#P)  (amod, 斑嘴鸭#NN, 野生#JJ)  (conj, 斑嘴鸭#NN, 绿头鸭#NN)  (cc, 斑嘴鸭#NN, 和#CC)  (prep, 驯化#VV, 斑嘴鸭#NN)  (ccomp, 雁形目#VV, 驯化#VV)  (dep, 来#VV, 而#MSP)  (dobj, 驯化#VV, 来#VV)   (cop, 家禽#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 家禽#NN, 种#M)  (amod, 家禽#NN, 常见#JJ)  (root, ROOT#null, 家禽#NN)   (nsubj, 统称#NN, 鸭#NN)  (cop, 统称#NN, 是#VC)  (advmod, 鸭科#VV, 雁形目#AD)  (relcl, 统称#NN, 鸭科#VV)  (nn, 水禽#NN, 鸭#NN)  (nn, 水禽#NN, 亚科#NN)  (dobj, 鸭科#VV, 水禽#NN)  (mark, 鸭科#VV, 的#DEC)  (root, ROOT#null, 统称#NN)   (cop, 动物#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 动物#NN, 种#M)  (conj, 动物#NN, 水#NN)  (nn, 动物#NN, 陆#NN)  (nn, 动物#NN, 两栖#NN)  (root, ROOT#null, 动物#NN)   (nsubj, 待#VV, 但不#NN)  (mmod, 待#VV, 能#VV)  (case, 水#NN, 在#P)  (prep, 待#VV, 水#NN)  (case, 水#NN, 中#LC)  (root, ROOT#null, 待#VV)  (advmod, 久#VA, 太#AD)  (conj, 待#VV, 久#VA)  (cop, 动物#NN, 是#VC)  (amod, 动物#NN, 卵生#JJ)  (dep, 待#VV, 动物#NN)
+        </parsing>
+
+        <tag>
+            鸭属动物  鸭科动物  野生斑嘴鸭  绿头鸭  常见家禽  鸭科统称  亚科水禽  鸭科水禽  两栖动物  卵生动物  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            脂肪酸熔点低，易于消化。所含B族维生素和维生素E较其他肉类多，能有效抵抗脚气病，神经炎和多种炎症，还能抗衰老。鸭肉中含有较为丰富的烟酸，它是构成人体内两种重要辅酶的成分之一，对心肌梗死等心脏疾病患者有保护作用。对高血压，高血脂患者来说吃鸭子肉是很好的 鸭肉是比较健康的肉类，具有温和的性质，适于虚火之人，是补养的佳品。
+        </rawdata>
+
+        <segment>
+            脂肪酸  熔点  低  ，  易于  消化  。  所含  B  族  维生素  和  维生素E  较  其他  肉类  多  ，  能  有效  抵抗  脚气病  ，  神经炎  和  多种  炎症  ，  还  能  抗  衰老  。  鸭肉  中  含有  较为  丰富  的  烟酸  ，  它  是  构成  人体  内  两  种  重要  辅酶  的  成分之一  ，  对  心肌梗死  等  心脏  疾病  患者  有  保护  作用  。  对  高血压  ，  高血脂  患者  来说  吃  鸭子  肉  是  很  好  的  鸭肉  是  比较  健康  的  肉类  ，  具有  温和  的  性质  ，  适于  虚火  之  人  ，  是  补养  的  佳品  。
+        </segment>
+
+        <pos>
+            脂肪酸#NN  熔点#AD  低#VA  ，#PU  易于#VV  消化#NN    。#PU  所含#VV  B#NN  族#NN  维生素#NN  和#CC  维生素E#NN  较#P  其他#DT  肉类#NN  多#VA  ，#PU  能#VV  有效#AD  抵抗#VV  脚气病#NN  ，#PU  神经炎#NN  和#CC  多种#NN  炎症#NN  ，#PU  还#AD  能#VV  抗#VV  衰老#NN    。#PU  鸭肉#NN  中#LC  含有#NN  较为#AD  丰富#VA  的#DEC  烟酸#NN  ，#PU  它#PN  是#VC  构成#VV  人体#NN  内#LC  两#CD  种#M  重要#JJ  辅酶#NN  的#DEC  成分之一#CD  ，#PU  对#P  心肌梗死#NN  等#ETC  心脏#NN  疾病#NN  患者#NN  有#VE  保护#NN  作用#NN    。#PU  对#P  高血压#NN  ，#PU  高血脂#NN  患者#NN  来说#AD  吃#VV  鸭子#NN  肉#NN  是#VC  很#AD  好#VA  的#DEC  鸭肉#NN  是#VC  比较#AD  健康#VA  的#DEC  肉类#NN  ，#PU  具有#VV  温和#NN  的#DEG  性质#NN  ，#PU  适于#VV  虚火#NN  之#DEG  人#NN  ，#PU  是#VC  补养#NN  的#DEG  佳品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 低#VA, 脂肪酸#NN)  (advmod, 低#VA, 熔点#AD)  (root, ROOT#null, 低#VA)  (dep, 低#VA, 易于#VV)  (dobj, 易于#VV, 消化#NN)   (root, ROOT#null, 所含#VV)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 所含#VV, 维生素#NN)  (cc, 所含#VV, 和#CC)  (nsubj, 多#VA, 维生素E#NN)  (case, 肉类#NN, 较#P)  (det, 肉类#NN, 其他#DT)  (prep, 多#VA, 肉类#NN)  (dep, 所含#VV, 多#VA)  (mmod, 抵抗#VV, 能#VV)  (advmod, 抵抗#VV, 有效#AD)  (conj, 所含#VV, 抵抗#VV)  (dobj, 抵抗#VV, 脚气病#NN)  (conj, 多种#NN, 神经炎#NN)  (cc, 多种#NN, 和#CC)  (nn, 炎症#NN, 多种#NN)  (nsubj, 抗#VV, 炎症#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 能#VV)  (dep, 所含#VV, 抗#VV)  (dobj, 抗#VV, 衰老#NN)   (loc, 丰富#VA, 鸭肉#NN)  (case, 鸭肉#NN, 中#LC)  (nsubj, 丰富#VA, 含有#NN)  (advmod, 丰富#VA, 较为#AD)  (relcl, 烟酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dep, 构成#VV, 烟酸#NN)  (nsubj, 构成#VV, 它#PN)  (cop, 构成#VV, 是#VC)  (root, ROOT#null, 构成#VV)  (dep, 辅酶#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (nummod, 种#M, 两#CD)  (clf, 辅酶#NN, 种#M)  (amod, 辅酶#NN, 重要#JJ)  (dobj, 构成#VV, 辅酶#NN)  (mark, 构成#VV, 的#DEC)  (nsubj, 有#VE, 成分之一#CD)  (case, 患者#NN, 对#P)  (nn, 疾病#NN, 心肌梗死#NN)  (etc, 心肌梗死#NN, 等#ETC)  (nn, 疾病#NN, 心脏#NN)  (nn, 患者#NN, 疾病#NN)  (prep, 有#VE, 患者#NN)  (conj, 构成#VV, 有#VE)  (nn, 作用#NN, 保护#NN)  (dobj, 有#VE, 作用#NN)   (case, 高血压#NN, 对#P)  (prep, 吃#VV, 高血压#NN)  (nn, 患者#NN, 高血脂#NN)  (nsubj, 吃#VV, 患者#NN)  (advmod, 吃#VV, 来说#AD)  (dep, 鸭肉#NN, 吃#VV)  (dobj, 吃#VV, 鸭子#NN)  (nsubj, 鸭肉#NN, 肉#NN)  (cop, 鸭肉#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, 鸭肉#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (root, ROOT#null, 鸭肉#NN)  (cop, 肉类#NN, 是#VC)  (advmod, 健康#VA, 比较#AD)  (relcl, 肉类#NN, 健康#VA)  (mark, 健康#VA, 的#DEC)  (conj, 鸭肉#NN, 肉类#NN)  (conj, 肉类#NN, 具有#VV)  (assmod, 性质#NN, 温和#NN)  (case, 温和#NN, 的#DEG)  (dobj, 具有#VV, 性质#NN)  (conj, 肉类#NN, 适于#VV)  (assmod, 人#NN, 虚火#NN)  (case, 虚火#NN, 之#DEG)  (dobj, 适于#VV, 人#NN)  (cop, 佳品#NN, 是#VC)  (assmod, 佳品#NN, 补养#NN)  (case, 补养#NN, 的#DEG)  (conj, 肉类#NN, 佳品#NN)
+        </parsing>
+
+        <tag>
+            易于消化  所含维生素  抵抗脚气病  神经炎  多种炎症  含有丰富  烟酸丰富  构成辅酶  心肌梗死疾病  心脏疾病  疾病患者  高血脂患者  肉类健康  鸭肉  适于人  佳品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清热健脾  虚弱浮肿
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鸭蛋营养丰富，营养素含量(每100克)热量(大卡)180.00碳水化合物(克)3.10脂肪(克)13.00蛋白质(克)12.60 可与鸡蛋媲美，鸭蛋含有蛋白质、磷脂、维生素A、维生素B2、维生素B1、维生素D、钙、钾、铁、磷等营养物质。吃起来较鸡蛋油润，而且鸭蛋一般都产在比较脏的地方，所以可能引致有害细菌。但若烹煮15分钟或用于烘焙就可以食用。水煮后蛋白成蓝色，蛋黄则是橘红色。只有非常新鲜的才能食用，不适于做蛋白霜。  鸭蛋中的蛋白质含量和鸡蛋相当，而矿物质总量远胜鸡蛋，尤其铁、钙含量极为丰富，能预防贫血，促进骨骼发育。
+        </rawdata>
+
+        <segment>
+            鸭蛋  营养  丰富  ，  营养素  含量  (  每  0  克  )  热量  (  大卡  )  180.00  碳水化合物  (  克  )  3.10  脂肪  (  克  )  13.00  蛋白质  (  克  )  12.60  可  与  鸡蛋  媲美  ，  鸭蛋  含有  蛋白质  、  磷脂  、  维生素A  、  维生素  B  维生素B1  、  维生素D  、  钙  、  钾  、  铁  、  磷  等  营养  物质  。  吃  起来  较  鸡蛋  油润  ，  而且  鸭蛋  一般  都  产  在  比较  脏  的  地方  ，  所以  可能  引致  有害  细菌  。  但  若  烹煮  15  分钟  或  用于  烘焙  就  可以  食用  。  水煮  后  蛋白  成  蓝色  ，  蛋黄  则  是  橘红色  。  只有  非常  新鲜  的  才能  食用  ，  不  适于  做  蛋  白霜  。    鸭蛋  中  的  蛋白质  含量  和  鸡蛋  相当  ，  而  矿物质  总量  远胜  鸡蛋  ，  尤其  铁  、  钙  含量  极为  丰富  ，  能  预防  贫血  ，  促进  骨骼  发育  。
+        </segment>
+
+        <pos>
+            鸭蛋#NR  营养#VA  丰富#VA  ，#PU  营养素#NN  含量#NN  -LRB-#VV  每#DT  0#CD  克#M  -RRB-#NR  热量#JJ  -LRB-#NN  大卡#NN  -RRB-#NN  180.00#CD  碳水化合物#NR  -LRB-#CD  克#M  -RRB-#NR  3.10#CD  脂肪#NR  -LRB-#CD  克#M  -RRB-#NR  13.00#CD  蛋白质#NR  -LRB-#CD  克#M  -RRB-#NN  12.60#CD  可#VV  与#P  鸡蛋#NN  媲美#VV  ，#PU  鸭蛋#VV  含有#NN  蛋白质#NN  、#PU  磷脂#NN  、#PU  维生素A#NN  、#PU  维生素#NN  B#NN  维生素B1#CD  、#PU  维生素D#NN  、#PU  钙#NN  、#PU  钾#NN  、#PU  铁#NN  、#PU  磷#NN  等#ETC  营养#VA  物质#NN    。#PU  吃#VV  起来#VV  较#P  鸡蛋#NN  油润#VV  ，#PU  而且#CC  鸭蛋#NN  一般#AD  都#AD  产#VV  在#P  比较#AD  脏#VA  的#DEC  地方#NN  ，#PU  所以#AD  可能#VV  引致#VV  有害#NN  细菌#NN    。#PU  但#AD  若#CS  烹煮#VV  15#CD  分钟#M  或#CC  用于#VV  烘焙#NN  就#AD  可以#VV  食用#VV    。#PU  水煮#NN  后#LC  蛋白#AD  成#VV  蓝色#NN  ，#PU  蛋黄#NN  则#AD  是#VC  橘红色#NN    。#PU  只有#CS  非常#AD  新鲜#VA  的#DEC  才能#NN  食用#VV  ，#PU  不#AD  适于#VV  做#VV  蛋#NN  白霜#NN    。#PU  鸭蛋#NN  中#LC  的#DEG  蛋白质#NN  含量#NN  和#CC  鸡蛋#NN  相当#AD  ，#PU  而#MSP  矿物质#VV  总量#NN  远胜#NN  鸡蛋#NN  ，#PU  尤其#AD  铁#NN  、#PU  钙#NN  含量#NN  极为#AD  丰富#VA  ，#PU  能#VV  预防#VV  贫血#NN  ，#PU  促进#VV  骨骼#NN  发育#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养#VA, 鸭蛋#NR)  (root, ROOT#null, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nn, 含量#NN, 营养素#NN)  (nsubj, -LRB-#VV, 含量#NN)  (det, -RRB-#NN, 每#DT)  (nummod, 克#M, 0#CD)  (dep, 每#DT, 克#M)  (amod, -RRB-#NN, 热量#JJ)  (nn, -RRB-#NN, 大卡#NN)  (nummod, -RRB-#NN, 180.00#CD)  (nn, -RRB-#NN, 碳水化合物#NR)  (clf, -RRB-#NN, 克#M)  (nummod, -RRB-#NN, 3.10#CD)  (nn, -RRB-#NN, 脂肪#NR)  (clf, -RRB-#NN, 克#M)  (nummod, -RRB-#NN, 13.00#CD)  (nn, -RRB-#NN, 蛋白质#NR)  (clf, -RRB-#NN, 克#M)  (nummod, 物质#NN, 12.60#CD)  (mmod, 媲美#VV, 可#VV)  (case, 鸡蛋#NN, 与#P)  (prep, 媲美#VV, 鸡蛋#NN)  (nfincl, 物质#NN, 媲美#VV)  (dep, 媲美#VV, 鸭蛋#VV)  (nn, 维生素A#NN, 含有#NN)  (conj, 维生素A#NN, 蛋白质#NN)  (conj, 维生素A#NN, 磷脂#NN)  (dep, 鸭蛋#VV, 维生素A#NN)  (nn, B#NN, 维生素#NN)  (dep, 维生素B1#CD, B#NN)  (conj, 维生素A#NN, 维生素B1#CD)  (conj, 磷#NN, 维生素D#NN)  (conj, 磷#NN, 钙#NN)  (conj, 磷#NN, 钾#NN)  (conj, 磷#NN, 铁#NN)  (dep, 维生素A#NN, 磷#NN)  (dep, 维生素A#NN, 等#ETC)  (etc, 磷#NN, 等#ETC)  (dep, 鸭蛋#VV, 营养#VA)  (dobj, -LRB-#VV, 物质#NN)   (dep, 油润#VV, 吃#VV)  (comod, 吃#VV, 起来#VV)  (case, 鸡蛋#NN, 较#P)  (prep, 油润#VV, 鸡蛋#NN)  (root, ROOT#null, 油润#VV)  (cc, 油润#VV, 而且#CC)  (nsubj, 产#VV, 鸭蛋#NN)  (advmod, 产#VV, 一般#AD)  (advmod, 产#VV, 都#AD)  (dep, 油润#VV, 产#VV)  (case, 地方#NN, 在#P)  (advmod, 脏#VA, 比较#AD)  (relcl, 地方#NN, 脏#VA)  (mark, 脏#VA, 的#DEC)  (prep, 产#VV, 地方#NN)  (advmod, 引致#VV, 所以#AD)  (mmod, 引致#VV, 可能#VV)  (conj, 油润#VV, 引致#VV)  (nn, 细菌#NN, 有害#NN)  (dobj, 引致#VV, 细菌#NN)   (advmod, 烹煮#VV, 但#AD)  (advmod, 烹煮#VV, 若#CS)  (dep, 食用#VV, 烹煮#VV)  (nummod, 分钟#M, 15#CD)  (range, 烹煮#VV, 分钟#M)  (cc, 烹煮#VV, 或#CC)  (conj, 烹煮#VV, 用于#VV)  (dobj, 用于#VV, 烘焙#NN)  (advmod, 食用#VV, 就#AD)  (dep, 食用#VV, 可以#VV)  (root, ROOT#null, 食用#VV)   (loc, 成#VV, 水煮#NN)  (case, 水煮#NN, 后#LC)  (advmod, 成#VV, 蛋白#AD)  (root, ROOT#null, 成#VV)  (dobj, 成#VV, 蓝色#NN)  (nsubj, 橘红色#NN, 蛋黄#NN)  (advmod, 橘红色#NN, 则#AD)  (cop, 橘红色#NN, 是#VC)  (conj, 成#VV, 橘红色#NN)   (advmod, 食用#VV, 只有#CS)  (advmod, 新鲜#VA, 非常#AD)  (relcl, 才能#NN, 新鲜#VA)  (mark, 新鲜#VA, 的#DEC)  (nsubj, 食用#VV, 才能#NN)  (dep, 适于#VV, 食用#VV)  (neg, 适于#VV, 不#AD)  (conj, 做#VV, 适于#VV)  (root, ROOT#null, 做#VV)  (nn, 白霜#NN, 蛋#NN)  (dobj, 做#VV, 白霜#NN)   (assmod, 含量#NN, 鸭蛋#NN)  (case, 鸭蛋#NN, 中#LC)  (case, 鸭蛋#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (conj, 鸡蛋#NN, 含量#NN)  (cc, 鸡蛋#NN, 和#CC)  (nsubj, 矿物质#VV, 鸡蛋#NN)  (advmod, 矿物质#VV, 相当#AD)  (prtmod, 矿物质#VV, 而#MSP)  (root, ROOT#null, 矿物质#VV)  (nn, 鸡蛋#NN, 总量#NN)  (nn, 鸡蛋#NN, 远胜#NN)  (dobj, 矿物质#VV, 鸡蛋#NN)  (advmod, 丰富#VA, 尤其#AD)  (conj, 钙#NN, 铁#NN)  (nn, 含量#NN, 钙#NN)  (prep, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 极为#AD)  (conj, 矿物质#VV, 丰富#VA)  (mmod, 预防#VV, 能#VV)  (conj, 矿物质#VV, 预防#VV)  (dobj, 预防#VV, 贫血#NN)  (dep, 矿物质#VV, 促进#VV)  (nn, 发育#NN, 骨骼#NN)  (dobj, 促进#VV, 发育#NN)
+        </parsing>
+
+        <tag>
+            营养丰富  含有维生素A  蛋白质  磷脂  油润  有害细菌  引致细菌  用于烘焙  食用  才能新鲜  总量鸡蛋  远胜鸡蛋  矿物质鸡蛋  预防贫血  骨骼发育  促进发育  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/0c/1f/7948_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\692 鸭子.jpg
+    </picturelocalurl>
+
+</content>

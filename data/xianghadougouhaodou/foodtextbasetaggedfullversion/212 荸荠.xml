@@ -1,0 +1,410 @@
+<content>
+
+    <id>
+        212
+    </id>
+
+    <foodname>
+        荸荠
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        马蹄、乌芋、地栗、地梨、苾荠、通天草、芍、凫茈、葃菇、水芋、乌茨、凫茨、葧脐、黑山棱、铁葧脐、红慈菇、马薯
+    </alias>
+
+    <season>
+        冬、春
+    </season>
+
+    <unsuit>
+        <rawdata>
+            荸荠性寒，脾胃虚寒、血瘀者慎食。
+        </rawdata>
+
+        <segment>
+            荸荠  性寒  ，  脾胃  虚寒  、  血瘀者  慎食  。
+        </segment>
+
+        <pos>
+            荸荠#NR  性寒#VV  ，#PU  脾胃#VV  虚寒#NN  、#PU  血瘀者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 性寒#VV, 荸荠#NR)  (root, ROOT#null, 性寒#VV)  (ccomp, 性寒#VV, 脾胃#VV)  (conj, 慎食#NN, 虚寒#NN)  (nn, 慎食#NN, 血瘀者#NN)  (dobj, 脾胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            性寒  脾胃虚寒  血瘀者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜发热病人、麻疹、流行性脑膜炎患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  发热  病人  、  麻疹  、  流行性  脑膜炎  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  发热#NN  病人#NN  、#PU  麻疹#NN  、#PU  流行性#NN  脑膜炎#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 脑膜炎#NN, 发热#NN)  (conj, 脑膜炎#NN, 病人#NN)  (conj, 脑膜炎#NN, 麻疹#NN)  (nn, 脑膜炎#NN, 流行性#NN)  (nn, 患者#NN, 脑膜炎#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  发热病人  麻疹  流行性脑膜炎  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                59
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                14.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.65
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                306
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                15.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            莎草科荸荠属浅水性宿根草本，以球茎作蔬菜食用。古称凫茈（凫茈），俗称马蹄，又称地栗，因它形如马蹄，又像栗子而得名。称它马蹄，仅指其外表；说它像栗子，不仅是形状，连性味、成分、功用都与栗子相似，又因它是在泥中结果，所以有地栗之称。荸荠原产印度，在我国主要分布于江苏、安徽、浙江、广东等水泽地区。荸荠冬、春季挖掘上市。荸荠是其地下匍匐茎先端膨大的球茎。球茎扁圆球形，表面平滑，老熟后呈深栗壳钯或枣红色，有环节3～5圈，并有短鸟嘴状顶芽及侧芽，肉为白色、质地脆嫩，多汁而甜。
+            荸荠皮色紫黑，肉质洁白，味甜多汁，清脆可口，自古有“地下雪梨”之美誉，北方人视之为“江南人参”。荸荠既可作为水果，又可算作蔬菜，是大众喜爱的时令之品。
+        </rawdata>
+
+        <segment>
+            莎草科  荸荠  属  浅水性  宿根  草本  ，  以  球茎  作  蔬菜  食用  。  古  称  凫茈  （  凫茈  ）  ，  俗称  马蹄  ，  又  称  地栗  ，  因  它  形如  马蹄  ，  又  像  栗子  而  得名  。  称  它  马蹄  ，  仅  指  其  外表  ；  说  它  像  栗子  ，  不仅  是  形状  ，  连  性味  、  成分  、  功用  都  与  栗子  相似  ，  又  因  它  是  在  泥中  结果  ，  所以  有  地栗  之  称  。  荸荠  原产  印度  ，  在  我国  主要  分布  于  江苏  、  安徽  、  浙江  、  广东  等  水泽  地区  。  荸荠  冬  、  春季  挖掘  上市  。  荸荠  是  其  地下  匍匐茎  先端  膨大  的  球茎  。  球茎  扁圆  球形  ，  表面  平滑  ，  老  熟  后  呈  深栗壳钯  或  枣红色  ，  有  环节  3  ～  5  圈  ，  并  有  短  鸟嘴状  顶芽  及  侧芽  ，  肉  为  白色  、  质地  脆嫩  ，  多汁  而  甜  。
+            荸荠  皮色  紫  黑  ，  肉质  洁白  ，  味  甜  多汁  ，  清脆  可口  ，  自古  有  “  地下  雪梨  ”  之  美誉  ，  北方人  视  之  为  “  江南  人参  ”  。  荸荠  既  可  作为  水果  ，  又  可  算作  蔬菜  ，  是  大众  喜爱  的  时令  之  品  。
+        </segment>
+
+        <pos>
+            莎草科#NN  荸荠#AD  属#VV  浅水性#NN  宿根#NN  草本#NN  ，#PU  以#P  球茎#NN  作#VV  蔬菜#NN  食用#VV    。#PU  古#NR  称#VV  凫茈#NN  （#PU  凫茈#NR  ）#PU  ，#PU  俗称#VV  马蹄#NN  ，#PU  又#AD  称#VV  地栗#NN  ，#PU  因#P  它#PN  形如#VV  马蹄#NN  ，#PU  又#AD  像#P  栗子#NR  而#MSP  得名#VV    。#PU  称#VV  它#PN  马蹄#VV  ，#PU  仅#AD  指#VV  其#PN  外表#NN  ；#PU  说#VV  它#PN  像#P  栗子#NR  ，#PU  不仅#AD  是#VC  形状#NN  ，#PU  连#AD  性味#NN  、#PU  成分#NN  、#PU  功用#NN  都#AD  与#P  栗子#NN  相似#VA  ，#PU  又#CC  因#P  它#PN  是#VC  在#P  泥中#NN  结果#NN  ，#PU  所以#AD  有#VE  地栗#NN  之#DEG  称#NN    。#PU  荸荠#AD  原产#VV  印度#NR  ，#PU  在#P  我国#NR  主要#AD  分布#VV  于#P  江苏#NR  、#PU  安徽#NR  、#PU  浙江#NR  、#PU  广东#NR  等#ETC  水泽#NN  地区#NN    。#PU  荸荠#VV  冬#NN  、#PU  春季#NT  挖掘#VV  上市#NN    。#PU  荸荠#NN  是#VC  其#PN  地下#AD  匍匐茎#VV  先端#NN  膨大#NN  的#DEC  球茎#NN    。#PU  球茎#NN  扁圆#NN  球形#VV  ，#PU  表面#NN  平滑#NN  ，#PU  老#JJ  熟#JJ  后#NN  呈#VV  深栗壳钯#NN  或#CC  枣红色#NN  ，#PU  有#VE  环节#NN  3#CD  ～#NN  5#CD  圈#NN  ，#PU  并#CC  有#VE  短#JJ  鸟嘴状#NN  顶芽#NN  及#CC  侧芽#NN  ，#PU  肉#NN  为#VC  白色#JJ  、#PU  质地#JJ  脆嫩#NN  ，#PU  多汁#AD  而#MSP  甜#VV    。#PU    。#PU
+            荸荠#NN  皮色#AD  紫#VA  黑#VA  ，#PU  肉质#VV  洁白#NN  ，#PU  味#VV  甜#NN  多汁#NN  ，#PU  清脆#VV  可口#NN  ，#PU  自古#AD  有#VE  ``#NR  地下#JJ  雪梨#NN  ''#NN  之#DEG  美誉#NN  ，#PU  北方人#AD  视#VV  之#PN  为#P  ``#NN  江南#VV  人参#NN  ''#NN    。#PU  荸荠#NN  既#CC  可#VV  作为#P  水果#NN  ，#PU  又#AD  可#VV  算作#VV  蔬菜#NN  ，#PU  是#VC  大众#NR  喜爱#NN  的#DEG  时令#NN  之#DEG  品#M    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 莎草科#NN)  (advmod, 属#VV, 荸荠#AD)  (root, ROOT#null, 属#VV)  (nn, 草本#NN, 浅水性#NN)  (nn, 草本#NN, 宿根#NN)  (dobj, 属#VV, 草本#NN)  (case, 球茎#NN, 以#P)  (prep, 作#VV, 球茎#NN)  (conj, 属#VV, 作#VV)  (dobj, 作#VV, 蔬菜#NN)  (conj, 作#VV, 食用#VV)   (nsubj, 称#VV, 古#NR)  (root, ROOT#null, 称#VV)  (nsubj, 俗称#VV, 凫茈#NN)  (prnmod, 凫茈#NN, 凫茈#NR)  (ccomp, 称#VV, 俗称#VV)  (dobj, 俗称#VV, 马蹄#NN)  (advmod, 称#VV, 又#AD)  (conj, 俗称#VV, 称#VV)  (dobj, 称#VV, 地栗#NN)  (case, 它#PN, 因#P)  (prep, 形如#VV, 它#PN)  (conj, 俗称#VV, 形如#VV)  (dobj, 形如#VV, 马蹄#NN)  (advmod, 得名#VV, 又#AD)  (case, 栗子#NR, 像#P)  (prep, 得名#VV, 栗子#NR)  (prtmod, 得名#VV, 而#MSP)  (conj, 俗称#VV, 得名#VV)   (root, ROOT#null, 称#VV)  (nsubj, 马蹄#VV, 它#PN)  (ccomp, 称#VV, 马蹄#VV)  (advmod, 指#VV, 仅#AD)  (ccomp, 马蹄#VV, 指#VV)  (nn, 外表#NN, 其#PN)  (dobj, 指#VV, 外表#NN)  (conj, 指#VV, 说#VV)  (nsubj, 形状#NN, 它#PN)  (case, 栗子#NR, 像#P)  (prep, 形状#NN, 栗子#NR)  (advmod, 形状#NN, 不仅#AD)  (cop, 形状#NN, 是#VC)  (ccomp, 说#VV, 形状#NN)  (advmod, 功用#NN, 连#AD)  (conj, 功用#NN, 性味#NN)  (conj, 功用#NN, 成分#NN)  (nsubj, 相似#VA, 功用#NN)  (advmod, 相似#VA, 都#AD)  (case, 栗子#NN, 与#P)  (prep, 相似#VA, 栗子#NN)  (dep, 指#VV, 相似#VA)  (cc, 马蹄#VV, 又#CC)  (case, 是#VC, 因#P)  (nsubj, 是#VC, 它#PN)  (prep, 有#VE, 是#VC)  (case, 结果#NN, 在#P)  (nn, 结果#NN, 泥中#NN)  (prep, 是#VC, 结果#NN)  (advmod, 有#VE, 所以#AD)  (conj, 马蹄#VV, 有#VE)  (assmod, 称#NN, 地栗#NN)  (case, 地栗#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (advmod, 原产#VV, 荸荠#AD)  (root, ROOT#null, 原产#VV)  (dobj, 原产#VV, 印度#NR)  (case, 我国#NR, 在#P)  (prep, 分布#VV, 我国#NR)  (advmod, 分布#VV, 主要#AD)  (dep, 原产#VV, 分布#VV)  (case, 地区#NN, 于#P)  (conj, 广东#NR, 江苏#NR)  (conj, 广东#NR, 安徽#NR)  (conj, 广东#NR, 浙江#NR)  (nn, 地区#NN, 广东#NR)  (etc, 广东#NR, 等#ETC)  (nn, 地区#NN, 水泽#NN)  (prep, 分布#VV, 地区#NN)   (root, ROOT#null, 荸荠#VV)  (dobj, 荸荠#VV, 冬#NN)  (tmod, 挖掘#VV, 春季#NT)  (conj, 荸荠#VV, 挖掘#VV)  (dobj, 挖掘#VV, 上市#NN)   (nsubj, 球茎#NN, 荸荠#NN)  (cop, 球茎#NN, 是#VC)  (nsubj, 匍匐茎#VV, 其#PN)  (advmod, 匍匐茎#VV, 地下#AD)  (relcl, 球茎#NN, 匍匐茎#VV)  (nn, 膨大#NN, 先端#NN)  (dobj, 匍匐茎#VV, 膨大#NN)  (mark, 匍匐茎#VV, 的#DEC)  (root, ROOT#null, 球茎#NN)   (nn, 扁圆#NN, 球茎#NN)  (nsubj, 球形#VV, 扁圆#NN)  (root, ROOT#null, 球形#VV)  (nn, 平滑#NN, 表面#NN)  (nsubj, 呈#VV, 平滑#NN)  (amod, 后#NN, 老#JJ)  (amod, 后#NN, 熟#JJ)  (nsubj, 呈#VV, 后#NN)  (ccomp, 球形#VV, 呈#VV)  (conj, 枣红色#NN, 深栗壳钯#NN)  (cc, 枣红色#NN, 或#CC)  (dobj, 呈#VV, 枣红色#NN)  (conj, 呈#VV, 有#VE)  (nn, ～#NN, 环节#NN)  (nummod, ～#NN, 3#CD)  (nummod, 圈#NN, 5#CD)  (dobj, 有#VE, 圈#NN)  (cc, 呈#VV, 并#CC)  (conj, 呈#VV, 有#VE)  (amod, 鸟嘴状#NN, 短#JJ)  (nn, 侧芽#NN, 鸟嘴状#NN)  (conj, 侧芽#NN, 顶芽#NN)  (cc, 侧芽#NN, 及#CC)  (dobj, 有#VE, 侧芽#NN)  (nsubj, 脆嫩#NN, 肉#NN)  (cop, 脆嫩#NN, 为#VC)  (amod, 脆嫩#NN, 白色#JJ)  (dep, 白色#JJ, 质地#JJ)  (conj, 呈#VV, 脆嫩#NN)  (advmod, 甜#VV, 多汁#AD)  (prtmod, 甜#VV, 而#MSP)  (conj, 脆嫩#NN, 甜#VV)   (root, ROOT#null, null#null)
+            (nsubj, 紫#VA, 荸荠#NN)  (advmod, 紫#VA, 皮色#AD)  (root, ROOT#null, 紫#VA)  (comod, 紫#VA, 黑#VA)  (dep, 紫#VA, 肉质#VV)  (dobj, 肉质#VV, 洁白#NN)  (conj, 肉质#VV, 味#VV)  (nn, 多汁#NN, 甜#NN)  (dobj, 味#VV, 多汁#NN)  (conj, 肉质#VV, 清脆#VV)  (dobj, 清脆#VV, 可口#NN)  (advmod, 有#VE, 自古#AD)  (conj, 肉质#VV, 有#VE)  (nn, ''#NN, ``#NR)  (amod, ''#NN, 地下#JJ)  (nn, ''#NN, 雪梨#NN)  (assmod, 美誉#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 美誉#NN)  (advmod, 视#VV, 北方人#AD)  (conj, 肉质#VV, 视#VV)  (dobj, 视#VV, 之#PN)  (case, ``#NN, 为#P)  (prep, 江南#VV, ``#NN)  (dep, 视#VV, 江南#VV)  (nn, ''#NN, 人参#NN)  (dobj, 江南#VV, ''#NN)   (nsubj, 算作#VV, 荸荠#NN)  (cc, 算作#VV, 既#CC)  (mmod, 算作#VV, 可#VV)  (case, 水果#NN, 作为#P)  (prep, 算作#VV, 水果#NN)  (advmod, 算作#VV, 又#AD)  (mmod, 算作#VV, 可#VV)  (root, ROOT#null, 算作#VV)  (dobj, 算作#VV, 蔬菜#NN)  (cop, 时令#NN, 是#VC)  (nn, 喜爱#NN, 大众#NR)  (assmod, 时令#NN, 喜爱#NN)  (case, 喜爱#NN, 的#DEG)  (dep, 算作#VV, 时令#NN)  (case, 时令#NN, 之#DEG)  (dep, 算作#VV, 品#M)
+        </parsing>
+
+        <tag>
+            浅水性草本  宿根草本  俗称马蹄  形如马蹄  性味  功用相似  泥中结果  原产  广东  江苏  安徽  浙江  水泽地区  挖掘上市  匍匐茎球茎  先端膨大  匍匐茎膨大  球茎扁圆  球形  表面平滑  老后  熟后  枣红色  深栗壳钯  短鸟嘴状  鸟嘴状侧芽  顶芽  白色脆嫩  肉质洁白  清脆可口  算作蔬菜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促进生长发育
+            能促进人体生长发育和维持生理功能的需要，对牙齿骨骼的发育有很大好处，同时可促进体内的糖、脂肪、蛋白质三大物质的代谢，调节酸碱平衡，因此荸荠适于儿童食用。
+            2.降血压
+            对降低血压有一定效果，还对癌肿有防治作用。
+            3.整肠通便
+            有润肺化痰，生津作用。所含的淀粉及粗蛋白能促进大肠蠕动，所含的粗脂肪增加了润肠通便的作用。
+            4.消热解毒
+            荸荠是寒性食物，有清热泻火的良好功效。既可清热生津，又可补充营养，最宜用于发烧病人。它具有凉血解毒、利尿通便、化湿祛痰、消食除胀等功效。
+            5.降压防病
+            英国在对荸荠的研究中发现了一种不耐热的抗菌成分—荸荠英。这种物质对金黄色葡萄球菌、大肠杆菌、产抽杆菌及绿脓杆菌均有一定的抑制作用，对降低血压也有一定效果。这种物质还对肺部、食道和乳腺的癌肿有防治作用。荸荠还有预防急性传染病的功能，在麻疹、流行性脑膜炎较易发生的春季，荸荠是很好的防病食品。
+        </rawdata>
+
+        <segment>
+            促进  生长  发育
+            能  促进  人体  生长  发育  和  维持  生理  功能  的  需要  ，  对  牙齿  骨骼  的  发育  有  很大  好处  ，  同时  可  促进  体内  的  糖  、  脂肪  、  蛋白质  三  大  物质  的  代谢  ，  调节  酸碱  平衡  ，  因此  荸荠  适于  儿童  食用  。
+            降  血压
+            对  降低  血压  有  一定  效果  ，  还  对  癌肿  有  防治  作用  。
+            整  肠  通便
+            有  润肺  化痰  ，  生  津  作用  。  所含  的  淀粉  及  粗  蛋白  能  促进  大肠  蠕动  ，  所  含  的  粗  脂肪  增加  了  润肠  通便  的  作用  。
+            消热  解毒
+            荸荠  是  寒性  食物  ，  有  清热泻火  的  良好  功效  。  既  可  清热  生津  ，  又  可  补充  营养  ，  最  宜  用于  发烧  病人  。  它  具有  凉血  解毒  、  利尿  通便  、  化湿  祛痰  、  消食  除胀  等  功效  。
+            降压  防病
+            英国  在  对  荸荠  的  研究  中  发现  了  一  种  不  耐热  的  抗菌  成分  —  荸荠  英  。  这  种  物质  对  金黄色  葡萄球菌  、  大肠  杆菌  、  产  抽  杆菌  及  绿脓  杆菌  均  有  一  定  的  抑制  作用  ，  对  降低  血压  也  有  一定  效果  。  这  种  物质  还  对  肺部  、  食道  和  乳腺  的  癌肿  有  防治  作用  。  荸荠  还有  预防  急性  传染病  的  功能  ，  在  麻疹  、  流行性  脑膜炎  较易  发生  的  春季  ，  荸荠  是  很  好  的  防病  食品  。
+        </segment>
+
+        <pos>
+            促进#VV  生长#NN  发育#NN
+            能#VV  促进#VV  人体#NN  生长#NN  发育#NN  和#CC  维持#VV  生理#NN  功能#NN  的#DEC  需要#NN  ，#PU  对#P  牙齿#NN  骨骼#NN  的#DEG  发育#NN  有#VE  很大#JJ  好处#NN  ，#PU  同时#AD  可#VV  促进#VV  体内#NN  的#DEG  糖#NN  、#PU  脂肪#NN  、#PU  蛋白质#NN  三#CD  大#JJ  物质#NN  的#DEG  代谢#NN  ，#PU  调节#VV  酸碱#NN  平衡#NN  ，#PU  因此#AD  荸荠#NN  适于#VV  儿童#NN  食用#VV  。#PU
+            降#NN  血压#VA
+            对#P  降低#VV  血压#NN  有#VE  一定#JJ  效果#NN  ，#PU  还#AD  对#P  癌肿#NN  有#VE  防治#NN  作用#NN  。#PU
+            整#DT  肠#NN  通便#VV
+            有#VE  润肺#NN  化痰#NN  ，#PU  生#VV  津#NR  作用#NN    。#PU  所含#NN  的#DEG  淀粉#NN  及#CC  粗#NN  蛋白#NN  能#VV  促进#VV  大肠#NN  蠕动#NN  ，#PU  所#MSP  含#VV  的#DEC  粗#NN  脂肪#AD  增加#VV  了#AS  润肠#NN  通便#NN  的#DEG  作用#NN    。#PU    。#PU
+            消热#NN  解毒#VV
+            荸荠#NN  是#VC  寒性#VV  食物#NN  ，#PU  有#VE  清热泻火#NN  的#DEC  良好#JJ  功效#NN    。#PU  既#CC  可#VV  清热#VV  生津#NN  ，#PU  又#AD  可#VV  补充#VV  营养#VA  ，#PU  最#AD  宜#NR  用于#VV  发烧#NN  病人#NN    。#PU  它#PN  具有#VV  凉血#NR  解毒#NR  、#PU  利尿#NR  通便#NR  、#PU  化湿#NR  祛痰#NR  、#PU  消食#NR  除胀#NR  等#ETC  功效#NN    。#PU    。#PU
+            降压#NN  防病#VV
+            英国#NR  在#P  对#P  荸荠#NN  的#DEG  研究#NN  中#LC  发现#VV  了#AS  一#CD  种#M  不#AD  耐热#VA  的#DEC  抗菌#JJ  成分#NN  --#VV  荸荠#NR  英#NR    。#PU  这#DT  种#M  物质#NN  对#P  金黄色#JJ  葡萄球菌#NN  、#PU  大肠#NN  杆菌#NN  、#PU  产#NN  抽#NN  杆菌#NN  及#CC  绿脓#NN  杆菌#NN  均#AD  有#VE  一#CD  定#VV  的#DEC  抑制#NN  作用#NN  ，#PU  对#P  降低#VV  血压#NN  也#AD  有#VE  一定#JJ  效果#NN    。#PU  这#DT  种#M  物质#NN  还#AD  对#P  肺部#NN  、#PU  食道#NN  和#CC  乳腺#NN  的#DEG  癌肿#NN  有#VE  防治#NN  作用#NN    。#PU  荸荠#NN  还有#AD  预防#VV  急性#NN  传染病#NN  的#DEG  功能#NN  ，#PU  在#P  麻疹#NN  、#PU  流行性#NN  脑膜炎#NN  较易#NN  发生#VV  的#DEC  春季#NT  ，#PU  荸荠#AD  是#VC  很#AD  好#VA  的#DEC  防病#JJ  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促进#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)
+            (root, ROOT#null, 能#VV)  (relcl, 需要#NN, 促进#VV)  (nn, 发育#NN, 人体#NN)  (nn, 发育#NN, 生长#NN)  (dobj, 促进#VV, 发育#NN)  (cc, 促进#VV, 和#CC)  (conj, 促进#VV, 维持#VV)  (nn, 功能#NN, 生理#NN)  (dobj, 维持#VV, 功能#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 能#VV, 需要#NN)  (case, 发育#NN, 对#P)  (nn, 骨骼#NN, 牙齿#NN)  (assmod, 发育#NN, 骨骼#NN)  (case, 骨骼#NN, 的#DEG)  (prep, 有#VE, 发育#NN)  (conj, 能#VV, 有#VE)  (amod, 好处#NN, 很大#JJ)  (dobj, 有#VE, 好处#NN)  (advmod, 促进#VV, 同时#AD)  (mmod, 促进#VV, 可#VV)  (conj, 能#VV, 促进#VV)  (assmod, 物质#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (conj, 蛋白质#NN, 糖#NN)  (conj, 蛋白质#NN, 脂肪#NN)  (nn, 物质#NN, 蛋白质#NN)  (nummod, 物质#NN, 三#CD)  (amod, 物质#NN, 大#JJ)  (assmod, 代谢#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 促进#VV, 代谢#NN)  (conj, 能#VV, 调节#VV)  (nn, 平衡#NN, 酸碱#NN)  (dobj, 调节#VV, 平衡#NN)  (advmod, 适于#VV, 因此#AD)  (nsubj, 适于#VV, 荸荠#NN)  (dep, 能#VV, 适于#VV)  (dobj, 适于#VV, 儿童#NN)  (conj, 适于#VV, 食用#VV)
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (case, 降低#VV, 对#P)  (prep, 有#VE, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (root, ROOT#null, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)  (advmod, 有#VE, 还#AD)  (case, 癌肿#NN, 对#P)  (prep, 有#VE, 癌肿#NN)  (dep, 有#VE, 有#VE)  (nn, 作用#NN, 防治#NN)  (dobj, 有#VE, 作用#NN)
+            (det, 肠#NN, 整#DT)  (nsubj, 通便#VV, 肠#NN)  (root, ROOT#null, 通便#VV)
+            (root, ROOT#null, 有#VE)  (nn, 化痰#NN, 润肺#NN)  (dobj, 有#VE, 化痰#NN)  (conj, 有#VE, 生#VV)  (nn, 作用#NN, 津#NR)  (dobj, 生#VV, 作用#NN)   (assmod, 蛋白#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (conj, 蛋白#NN, 淀粉#NN)  (cc, 蛋白#NN, 及#CC)  (nn, 蛋白#NN, 粗#NN)  (nsubj, 促进#VV, 蛋白#NN)  (mmod, 促进#VV, 能#VV)  (relcl, 粗#NN, 促进#VV)  (nn, 蠕动#NN, 大肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (prtmod, 含#VV, 所#MSP)  (conj, 促进#VV, 含#VV)  (mark, 促进#VV, 的#DEC)  (nsubj, 增加#VV, 粗#NN)  (advmod, 增加#VV, 脂肪#AD)  (root, ROOT#null, 增加#VV)  (asp, 增加#VV, 了#AS)  (nn, 通便#NN, 润肠#NN)  (assmod, 作用#NN, 通便#NN)  (case, 通便#NN, 的#DEG)  (dobj, 增加#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 解毒#VV, 消热#NN)  (root, ROOT#null, 解毒#VV)
+            (nsubj, 功效#NN, 荸荠#NN)  (cop, 功效#NN, 是#VC)  (relcl, 功效#NN, 寒性#VV)  (dobj, 寒性#VV, 食物#NN)  (conj, 寒性#VV, 有#VE)  (dobj, 有#VE, 清热泻火#NN)  (mark, 寒性#VV, 的#DEC)  (amod, 功效#NN, 良好#JJ)  (root, ROOT#null, 功效#NN)   (cc, 清热#VV, 既#CC)  (mmod, 清热#VV, 可#VV)  (root, ROOT#null, 清热#VV)  (dobj, 清热#VV, 生津#NN)  (advmod, 补充#VV, 又#AD)  (mmod, 补充#VV, 可#VV)  (dep, 清热#VV, 补充#VV)  (dep, 补充#VV, 营养#VA)  (advmod, 用于#VV, 最#AD)  (prep, 用于#VV, 宜#NR)  (dep, 清热#VV, 用于#VV)  (nn, 病人#NN, 发烧#NN)  (dobj, 用于#VV, 病人#NN)   (nsubj, 具有#VV, 它#PN)  (root, ROOT#null, 具有#VV)  (nn, 除胀#NR, 凉血#NR)  (conj, 除胀#NR, 解毒#NR)  (nn, 除胀#NR, 利尿#NR)  (conj, 除胀#NR, 通便#NR)  (nn, 除胀#NR, 化湿#NR)  (conj, 除胀#NR, 祛痰#NR)  (nn, 除胀#NR, 消食#NR)  (nn, 功效#NN, 除胀#NR)  (etc, 除胀#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 防病#VV, 降压#NN)  (root, ROOT#null, 防病#VV)
+            (nsubj, 发现#VV, 英国#NR)  (case, 研究#NN, 在#P)  (case, 荸荠#NN, 对#P)  (assmod, 研究#NN, 荸荠#NN)  (case, 荸荠#NN, 的#DEG)  (prep, 发现#VV, 研究#NN)  (case, 研究#NN, 中#LC)  (root, ROOT#null, 发现#VV)  (asp, 发现#VV, 了#AS)  (nummod, 种#M, 一#CD)  (clf, 成分#NN, 种#M)  (neg, 耐热#VA, 不#AD)  (relcl, 成分#NN, 耐热#VA)  (mark, 耐热#VA, 的#DEC)  (amod, 成分#NN, 抗菌#JJ)  (dobj, 发现#VV, 成分#NN)  (nn, 英#NR, 荸荠#NR)  (dobj, --#VV, 英#NR)   (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 有#VE, 物质#NN)  (case, 杆菌#NN, 对#P)  (amod, 葡萄球菌#NN, 金黄色#JJ)  (conj, 杆菌#NN, 葡萄球菌#NN)  (nn, 杆菌#NN, 大肠#NN)  (conj, 杆菌#NN, 杆菌#NN)  (nn, 杆菌#NN, 产#NN)  (nn, 杆菌#NN, 抽#NN)  (conj, 杆菌#NN, 杆菌#NN)  (cc, 杆菌#NN, 及#CC)  (nn, 杆菌#NN, 绿脓#NN)  (prep, 有#VE, 杆菌#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (nummod, 作用#NN, 一#CD)  (relcl, 作用#NN, 定#VV)  (mark, 定#VV, 的#DEC)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (case, 降低#VV, 对#P)  (prep, 有#VE, 降低#VV)  (dobj, 降低#VV, 血压#NN)  (advmod, 有#VE, 也#AD)  (dep, 有#VE, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)   (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 有#VE, 物质#NN)  (advmod, 有#VE, 还#AD)  (case, 癌肿#NN, 对#P)  (conj, 乳腺#NN, 肺部#NN)  (conj, 乳腺#NN, 食道#NN)  (cc, 乳腺#NN, 和#CC)  (assmod, 癌肿#NN, 乳腺#NN)  (case, 乳腺#NN, 的#DEG)  (prep, 有#VE, 癌肿#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 防治#NN)  (dobj, 有#VE, 作用#NN)   (nsubj, 食品#NN, 荸荠#NN)  (advmod, 食品#NN, 还有#AD)  (relcl, 春季#NT, 预防#VV)  (nn, 传染病#NN, 急性#NN)  (assmod, 功能#NN, 传染病#NN)  (case, 传染病#NN, 的#DEG)  (dobj, 预防#VV, 功能#NN)  (case, 较易#NN, 在#P)  (conj, 较易#NN, 麻疹#NN)  (nn, 较易#NN, 流行性#NN)  (nn, 较易#NN, 脑膜炎#NN)  (prep, 发生#VV, 较易#NN)  (conj, 预防#VV, 发生#VV)  (mark, 预防#VV, 的#DEC)  (nsubj, 食品#NN, 春季#NT)  (advmod, 食品#NN, 荸荠#AD)  (cop, 食品#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, 食品#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 食品#NN, 防病#JJ)  (root, ROOT#null, 食品#NN)
+        </parsing>
+
+        <tag>
+            生长发育  促进发育  促进需要  人体发育  生理功能  维持功能  牙齿骨骼  很大好处  蛋白质  脂肪  促进代谢  酸碱平衡  调节平衡  适于儿童  降血压  降低血压  一定效果  润肺化痰  淀粉  促进粗  大肠蠕动  促进蠕动  增加  润肠通便  解毒  寒性功效  寒性食物  良好功效  清热生津  发烧病人  用于病人  除胀  祛痰  金黄色葡萄球菌  大肠杆菌  绿脓杆菌  乳腺  肺部  食道  预防春季  急性传染病  预防功能  麻疹  流行性较易  脑膜炎较易  防病食品  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善生长发育  抗菌  抗病毒  生津止渴  清热  消食积  化痰
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.荸荠中含的磷是根茎类蔬菜中较高的。
+            2.荸荠中含有一种不耐热的抗菌成分-荸荠英，它对金黄色葡萄球菌、大肠杆菌、产气杆菌及绿脓杆菌有抑制作用，是夏秋季节治疗急性肠胃炎的佳品。
+        </rawdata>
+
+        <segment>
+            荸荠  中  含  的  磷  是  根茎  类  蔬菜  中  较  高  的  。
+            荸荠  中  含有  一  种  不  耐热  的  抗菌  成分  -  荸荠  英  ，  它  对  金黄色  葡萄球菌  、  大肠  杆菌  、  产气  杆菌  及  绿脓  杆菌  有  抑制  作用  ，  是  夏秋季  节  治疗  急性  肠  胃炎  的  佳品  。
+        </segment>
+
+        <pos>
+            荸荠#NN  中#LC  含#VV  的#DEC  磷#NN  是#VC  根茎#CD  类#M  蔬菜#NN  中#LC  较#AD  高#VA  的#DEC  。#PU
+            荸荠#NN  中#LC  含有#NR  一#CD  种#M  不#AD  耐热#VA  的#DEC  抗菌#NN  成分#NN  -#VV  荸荠#NR  英#NR  ，#PU  它#PN  对#P  金黄色#JJ  葡萄球菌#NN  、#PU  大肠#NN  杆菌#NN  、#PU  产气#NN  杆菌#NN  及#CC  绿脓#NN  杆菌#NN  有#VE  抑制#NN  作用#NN  ，#PU  是#VC  夏秋季#NN  节#NN  治疗#VV  急性#NN  肠#NN  胃炎#NN  的#DEC  佳品#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含#VV, 荸荠#NN)  (case, 荸荠#NN, 中#LC)  (relcl, 磷#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 高#VA, 磷#NN)  (cop, 高#VA, 是#VC)  (nummod, 类#M, 根茎#CD)  (clf, 蔬菜#NN, 类#M)  (loc, 高#VA, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (mark, 高#VA, 的#DEC)
+            (loc, -#VV, 荸荠#NN)  (root, -#VV, 荸荠#NN)  (case, 荸荠#NN, 中#LC)  (nn, 抗菌#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 抗菌#NN, 种#M)  (neg, 耐热#VA, 不#AD)  (relcl, 含有#NR, 耐热#VA)  (relcl, 抗菌#NN, 耐热#VA)  (mark, 耐热#VA, 的#DEC)  (nn, 成分#NN, 抗菌#NN)  (nsubj, 荸荠#NN, 成分#NN)  (nsubj, -#VV, 成分#NN)  (nn, 英#NR, 荸荠#NR)  (dobj, 荸荠#NN, 英#NR)  (dobj, -#VV, 英#NR)  (nsubj, 有#VE, 它#PN)  (case, 杆菌#NN, 对#P)  (amod, 葡萄球菌#NN, 金黄色#JJ)  (conj, 杆菌#NN, 葡萄球菌#NN)  (nn, 杆菌#NN, 大肠#NN)  (conj, 杆菌#NN, 杆菌#NN)  (nn, 杆菌#NN, 产气#NN)  (conj, 杆菌#NN, 杆菌#NN)  (cc, 杆菌#NN, 及#CC)  (nn, 杆菌#NN, 绿脓#NN)  (prep, 有#VE, 杆菌#NN)  (conj, 荸荠#NN, 有#VE)  (conj, -#VV, 有#VE)  (nn, 作用#NN, 抑制#NN)  (dobj, 有#VE, 作用#NN)  (cop, 佳品#NN, 是#VC)  (nn, 节#NN, 夏秋季#NN)  (nsubj, 治疗#VV, 节#NN)  (relcl, 佳品#NN, 治疗#VV)  (nn, 胃炎#NN, 急性#NN)  (nn, 胃炎#NN, 肠#NN)  (dobj, 治疗#VV, 胃炎#NN)  (mark, 治疗#VV, 的#DEC)  (conj, 荸荠#NN, 佳品#NN)  (conj, -#VV, 佳品#NN)
+        </parsing>
+
+        <tag>
+            含磷  含有耐热  抗菌耐热  金黄色葡萄球菌  大肠杆菌  产气杆菌  绿脓杆菌  治疗佳品  急性胃炎  治疗胃炎  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.荸荠的表皮极易带菌，烹制前必须洗净、去皮、最好用开水烫一下。
+            2.荸荠不宜生吃，因为荸荠生长在泥中，外皮和内部都有可能附着着较多的细菌和寄生虫，所以一定要洗净煮透后方可食用，而且煮熟的荸荠更甜。
+            3.熟食多用于做配料，也可用于炒、烧或做馅心。如“荸荠炒虾仁”、“荸荠炒鸡丁”等。
+            4.荸荠可消宿食，适合饭后食用。
+            5.荸荠用水煎服，能利尿排淋，对尿道感染患者有辅助治疗作用。
+        </rawdata>
+
+        <segment>
+            荸荠  的  表皮  极  易  带菌  ，  烹制  前  必须  洗净  、  去皮  、  最  好用  开水  烫  一下  。
+            荸荠  不  宜  生吃  ，  因为  荸荠  生长  在  泥中  ，  外皮  和  内部  都  有  可能  附着  着  较  多  的  细菌  和  寄生虫  ，  所以  一定  要  洗净  煮  透  后方  可  食用  ，  而且  煮熟  的  荸荠  更  甜  。
+            熟食  多  用  于  做  配料  ，  也  可  用于  炒  、  烧  或  做  馅心  。  如  “  荸荠  炒  虾仁  ”  、  “  荸荠  炒  鸡丁  ”  等  。
+            荸荠  可  消宿食  ，  适合  饭后  食用  。
+            荸荠  用水  煎服  ，  能  利尿  排淋  ，  对  尿道  感染  患者  有  辅助  治疗  作用  。
+        </segment>
+
+        <pos>
+            荸荠#NN  的#DEG  表皮#NN  极#AD  易#AD  带菌#VV  ，#PU  烹制#NN  前#LC  必须#VV  洗净#AD  、#PU  去皮#AD  、#PU  最#AD  好用#VV  开水#NN  烫#VV  一下#AD  。#PU
+            荸荠#NR  不#AD  宜#NR  生吃#VV  ，#PU  因为#P  荸荠#NN  生长#NN  在#P  泥中#NR  ，#PU  外皮#NN  和#CC  内部#NN  都#AD  有#VE  可能#NN  附着#VV  着#AS  较#AD  多#VA  的#DEC  细菌#NN  和#CC  寄生虫#NN  ，#PU  所以#AD  一定#AD  要#VV  洗净#AD  煮#VV  透#NN  后方#NN  可#VV  食用#VV  ，#PU  而且#CC  煮熟#VV  的#DEC  荸荠#NN  更#AD  甜#VA  。#PU
+            熟食#NN  多#AD  用#VV  于#P  做#VV  配料#NN  ，#PU  也#AD  可#VV  用于#VV  炒#NR  、#PU  烧#NR  或#CC  做#VV  馅心#NN    。#PU  如#AD  ``#NN  荸荠#NN  炒#VV  虾仁#NN  ''#NN  、#PU  ``#NN  荸荠#NN  炒#NN  鸡丁#NN  ''#NN  等#ETC    。#PU    。#PU
+            荸荠#NR  可#VV  消宿食#VV  ，#PU  适合#VV  饭后#NN  食用#VV  。#PU
+            荸荠#NN  用水#NN  煎服#NN  ，#PU  能#VV  利尿#VV  排淋#NN  ，#PU  对#P  尿道#NN  感染#NN  患者#NN  有#VE  辅助#NN  治疗#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 表皮#NN, 荸荠#NN)  (case, 荸荠#NN, 的#DEG)  (nsubj, 带菌#VV, 表皮#NN)  (advmod, 带菌#VV, 极#AD)  (advmod, 带菌#VV, 易#AD)  (root, ROOT#null, 带菌#VV)  (loc, 好用#VV, 烹制#NN)  (case, 烹制#NN, 前#LC)  (mmod, 好用#VV, 必须#VV)  (advmod, 好用#VV, 洗净#AD)  (conj, 洗净#AD, 去皮#AD)  (conj, 洗净#AD, 最#AD)  (conj, 带菌#VV, 好用#VV)  (dobj, 好用#VV, 开水#NN)  (dep, 好用#VV, 烫#VV)  (advmod, 烫#VV, 一下#AD)
+            (nsubj, 生吃#VV, 荸荠#NR)  (xsubj, 附着#VV, 荸荠#NR)  (neg, 生吃#VV, 不#AD)  (prep, 生吃#VV, 宜#NR)  (root, ROOT#null, 生吃#VV)  (case, 有#VE, 因为#P)  (nn, 生长#NN, 荸荠#NN)  (nsubj, 有#VE, 生长#NN)  (case, 泥中#NR, 在#P)  (prep, 有#VE, 泥中#NR)  (conj, 内部#NN, 外皮#NN)  (cc, 内部#NN, 和#CC)  (dobj, 有#VE, 内部#NN)  (advmod, 有#VE, 都#AD)  (prep, 附着#VV, 有#VE)  (dobj, 有#VE, 可能#NN)  (ccomp, 生吃#VV, 附着#VV)  (asp, 附着#VV, 着#AS)  (advmod, 多#VA, 较#AD)  (relcl, 寄生虫#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (conj, 寄生虫#NN, 细菌#NN)  (cc, 寄生虫#NN, 和#CC)  (dobj, 附着#VV, 寄生虫#NN)  (advmod, 甜#VA, 所以#AD)  (advmod, 煮#VV, 一定#AD)  (mmod, 煮#VV, 要#VV)  (advmod, 煮#VV, 洗净#AD)  (relcl, 荸荠#NN, 煮#VV)  (nn, 后方#NN, 透#NN)  (dobj, 煮#VV, 后方#NN)  (mmod, 食用#VV, 可#VV)  (conj, 煮#VV, 食用#VV)  (cc, 煮#VV, 而且#CC)  (conj, 煮#VV, 煮熟#VV)  (mark, 煮#VV, 的#DEC)  (nsubj, 甜#VA, 荸荠#NN)  (advmod, 甜#VA, 更#AD)  (conj, 生吃#VV, 甜#VA)
+            (nsubj, 用#VV, 熟食#NN)  (advmod, 用#VV, 多#AD)  (root, ROOT#null, 用#VV)  (case, 做#VV, 于#P)  (prep, 用#VV, 做#VV)  (dobj, 做#VV, 配料#NN)  (advmod, 用于#VV, 也#AD)  (mmod, 用于#VV, 可#VV)  (conj, 做#VV, 用于#VV)  (conj, 烧#NR, 炒#NR)  (dobj, 用于#VV, 烧#NR)  (cc, 做#VV, 或#CC)  (conj, 做#VV, 做#VV)  (dobj, 做#VV, 馅心#NN)   (advmod, 荸荠#NN, 如#AD)  (nn, 荸荠#NN, ``#NN)  (nsubj, 炒#VV, 荸荠#NN)  (root, ROOT#null, 炒#VV)  (nn, ''#NN, 虾仁#NN)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 荸荠#NN)  (nn, ''#NN, 炒#NN)  (nn, ''#NN, 鸡丁#NN)  (dobj, 炒#VV, ''#NN)  (etc, ''#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (nsubj, 消宿食#VV, 荸荠#NR)  (mmod, 消宿食#VV, 可#VV)  (root, ROOT#null, 消宿食#VV)  (ccomp, 消宿食#VV, 适合#VV)  (dobj, 适合#VV, 饭后#NN)  (dep, 消宿食#VV, 食用#VV)
+            (nn, 煎服#NN, 荸荠#NN)  (nn, 煎服#NN, 用水#NN)  (nsubj, 利尿#VV, 煎服#NN)  (mmod, 利尿#VV, 能#VV)  (root, ROOT#null, 利尿#VV)  (dobj, 利尿#VV, 排淋#NN)  (case, 患者#NN, 对#P)  (nn, 患者#NN, 尿道#NN)  (nn, 患者#NN, 感染#NN)  (prep, 有#VE, 患者#NN)  (dep, 利尿#VV, 有#VE)  (nn, 作用#NN, 辅助#NN)  (nn, 作用#NN, 治疗#NN)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            带菌  好用开水  生吃  内部  外皮  细菌  附着寄生虫  适合饭后  用水煎服  利尿排淋  尿道患者  感染患者  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101702364626.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\212 荸荠.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,102 @@
+<content>
+
+    <id>
+        990
+    </id>
+
+    <foodname>
+        箭鱼
+    </foodname>
+
+    <firstcategory>
+        水产品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        剑鱼、剑旗鱼、丁挽四旗鱼，又称青箭鱼
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇、哺乳期妇女、婴幼儿不宜食用箭鱼
+        </rawdata>
+
+        <segment>
+            孕妇  、  哺乳期  妇女  、  婴幼儿  不  宜  食用  箭鱼
+        </segment>
+
+        <pos>
+            孕妇#NR  、#PU  哺乳期#NR  妇女#NN  、#PU  婴幼儿#NN  不#AD  宜#NR  食用#VV  箭鱼#NN
+        </pos>
+
+        <parsing>
+            (conj, 哺乳期#NR, 孕妇#NR)  (nn, 婴幼儿#NN, 哺乳期#NR)  (conj, 婴幼儿#NN, 妇女#NN)  (nsubj, 食用#VV, 婴幼儿#NN)  (neg, 食用#VV, 不#AD)  (prep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 箭鱼#NN)
+        </parsing>
+
+        <tag>
+            孕妇  哺乳期妇女  婴幼儿不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            箭鱼的幼鱼，肉质鲜美，并可加盐成干，长期保存。更可以加工成罐头、鱼肉香肠、鱼肉火腿等。这些鱼类富含脂肪，并含有大量维生素A等。
+        </rawdata>
+
+        <segment>
+            箭鱼  的  幼鱼  ，  肉质  鲜美  ，  并可  加盐  成  干  ，  长期  保存  。  更  可以  加工  成  罐头  、  鱼肉  香肠  、  鱼肉  火腿  等  。  这些  鱼类  富含  脂肪  ，  并  含有  大量  维生素A  等  。
+        </segment>
+
+        <pos>
+            箭鱼#NN  的#DEG  幼鱼#NN  ，#PU  肉质#NR  鲜美#VV  ，#PU  并可#NN  加盐#AD  成#VV  干#VV  ，#PU  长期#AD  保存#VV    。#PU  更#AD  可以#VV  加工#NN  成#VV  罐头#NN  、#PU  鱼肉#NN  香肠#NN  、#PU  鱼肉#NN  火腿#NN  等#ETC    。#PU  这些#DT  鱼类#NN  富含#VV  脂肪#NN  ，#PU  并#CC  含有#VV  大量#CD  维生素A#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 幼鱼#NN, 箭鱼#NN)  (case, 箭鱼#NN, 的#DEG)  (nsubj, 鲜美#VV, 幼鱼#NN)  (nsubj, 鲜美#VV, 肉质#NR)  (root, ROOT#null, 鲜美#VV)  (nsubj, 成#VV, 并可#NN)  (advmod, 成#VV, 加盐#AD)  (ccomp, 鲜美#VV, 成#VV)  (dep, 保存#VV, 干#VV)  (advmod, 保存#VV, 长期#AD)  (conj, 鲜美#VV, 保存#VV)   (advmod, 成#VV, 更#AD)  (mmod, 成#VV, 可以#VV)  (dep, 成#VV, 加工#NN)  (root, ROOT#null, 成#VV)  (conj, 火腿#NN, 罐头#NN)  (nn, 火腿#NN, 鱼肉#NN)  (conj, 火腿#NN, 香肠#NN)  (nn, 火腿#NN, 鱼肉#NN)  (dobj, 成#VV, 火腿#NN)  (etc, 火腿#NN, 等#ETC)   (det, 鱼类#NN, 这些#DT)  (nsubj, 富含#VV, 鱼类#NN)  (root, ROOT#null, 富含#VV)  (dobj, 富含#VV, 脂肪#NN)  (cc, 富含#VV, 并#CC)  (conj, 富含#VV, 含有#VV)  (nummod, 维生素A#NN, 大量#CD)  (dobj, 含有#VV, 维生素A#NN)  (etc, 维生素A#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            鲜美  罐头  鱼肉火腿  香肠  富含脂肪  含有维生素A  
+        </tag>
+    </introduction>
+
+    <effect>
+
+    </effect>
+
+    <manuleffecttag>
+        健脾  利水消肿  补肺
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/0b/42/82443_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\990 箭鱼.jpg
+    </picturelocalurl>
+
+</content>

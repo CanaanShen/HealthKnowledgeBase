@@ -1,0 +1,248 @@
+<content>
+
+    <id>
+        1239
+    </id>
+
+    <foodname>
+        牛舌
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                196cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                66.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                17g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                13.3g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.1mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.16mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.55mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                3.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                58.4mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                3.1mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                92mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            即牛的舌头，可供食用。粤澳地区多叫“牛脷”。
+        </rawdata>
+
+        <segment>
+            即  牛  的  舌头  ，  可供  食用  。  粤  澳  地区  多  叫  “  牛脷  ”  。
+        </segment>
+
+        <pos>
+            即#AD  牛#NN  的#DEG  舌头#NN  ，#PU  可供#AD  食用#VV    。#PU  粤#NR  澳#NR  地区#NN  多#AD  叫#VV  ``#NN  牛脷#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 牛#NN, 即#AD)  (assmod, 舌头#NN, 牛#NN)  (case, 牛#NN, 的#DEG)  (dep, 食用#VV, 舌头#NN)  (advmod, 食用#VV, 可供#AD)  (root, ROOT#null, 食用#VV)   (nn, 澳#NR, 粤#NR)  (nn, 地区#NN, 澳#NR)  (nsubj, 叫#VV, 地区#NN)  (advmod, 叫#VV, 多#AD)  (root, ROOT#null, 叫#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 牛脷#NN)  (dobj, 叫#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            食用  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            牛舌味甘、性平，归脾、胃经；牛肉具有补脾胃、益气血、强筋骨、消水肿等功效。
+        </rawdata>
+
+        <segment>
+            牛舌味  甘  、  性平  ，  归脾  、  胃经  ；  牛肉  具有  补  脾胃  、  益气  血  、  强  筋骨  、  消  水肿  等  功效  。
+        </segment>
+
+        <pos>
+            牛舌味#VV  甘#NR  、#PU  性平#NR  ，#PU  归脾#VV  、#PU  胃经#VV  ；#PU  牛肉#AD  具有#VV  补#NN  脾胃#NN  、#PU  益气#NN  血#NN  、#PU  强#JJ  筋骨#NN  、#PU  消#NN  水肿#NN  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 牛舌味#VV)  (conj, 性平#NR, 甘#NR)  (dobj, 牛舌味#VV, 性平#NR)  (conj, 牛舌味#VV, 归脾#VV)  (conj, 牛舌味#VV, 胃经#VV)  (advmod, 具有#VV, 牛肉#AD)  (conj, 牛舌味#VV, 具有#VV)  (nn, 脾胃#NN, 补#NN)  (conj, 水肿#NN, 脾胃#NN)  (nn, 血#NN, 益气#NN)  (conj, 水肿#NN, 血#NN)  (amod, 筋骨#NN, 强#JJ)  (conj, 水肿#NN, 筋骨#NN)  (nn, 水肿#NN, 消#NN)  (nn, 功效#NN, 水肿#NN)  (etc, 水肿#NN, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            脾胃  强筋骨  水肿功效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        生津止渴  祛风  消痞  益智  抗惊厥  改善血液循环  止血  促进组织生长  抗胃溃疡  促进宫缩
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            牛舌外有一层老皮。去掉老皮，可以酱、烧、卤。某些市场卖的舌头立即可食，但生的、烟熏的或粗盐腌的舌头常买到，煮后不论热用冷食、加不加调味料都不错。盐腌舌头通常是挤过汁的煮熟切片，一般采冷食，生舌头可加葡萄酒温煮，或水煮后添各类配饰上桌。牛舌和小牛舌最为常见。
+        </rawdata>
+
+        <segment>
+            牛舌外  有  一  层  老  皮  。  去掉  老皮  ，  可以  酱  、  烧  、  卤  。  某些  市场  卖  的  舌头  立即  可食  ，  但  生的  、  烟熏  的  或  粗盐腌  的  舌头  常  买到  ，  煮后  不论  热  用  冷食  、  加  不加  调味料  都  不错  。  盐腌  舌头  通常  是  挤过  汁的  煮熟  切片  ，  一般  采  冷食  ，  生  舌头  可加  葡萄酒  温煮  ，  或  水煮  后  添  各  类  配饰  上桌  。  牛舌  和  小牛舌  最为  常见  。
+        </segment>
+
+        <pos>
+            牛舌外#AD  有#VE  一#CD  层#M  老#JJ  皮#NN    。#PU  去掉#NR  老皮#VV  ，#PU  可以#VV  酱#NR  、#PU  烧#NR  、#PU  卤#NR    。#PU  某些#DT  市场#NN  卖#VV  的#DEC  舌头#NN  立即#AD  可食#VV  ，#PU  但#AD  生的#VA  、#PU  烟熏#VA  的#DEC  或#CC  粗盐腌#NN  的#DEG  舌头#NN  常#AD  买到#VV  ，#PU  煮后#NN  不论#CS  热#NN  用#P  冷食#NR  、#PU  加#NR  不加#NN  调味料#NN  都#AD  不错#VA    。#PU  盐腌#NN  舌头#NN  通常#AD  是#VC  挤过#NN  汁的#NN  煮熟#NN  切片#NN  ，#PU  一般#AD  采#VV  冷食#NN  ，#PU  生#VV  舌头#NN  可加#NN  葡萄酒#NN  温煮#NN  ，#PU  或#CC  水煮#NN  后#LC  添#VV  各#DT  类#M  配饰#NN  上桌#NN    。#PU  牛舌#NN  和#CC  小牛舌#NN  最为#AD  常见#VA    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 有#VE, 牛舌外#AD)  (root, ROOT#null, 有#VE)  (nummod, 层#M, 一#CD)  (clf, 皮#NN, 层#M)  (amod, 皮#NN, 老#JJ)  (dobj, 有#VE, 皮#NN)   (nsubj, 老皮#VV, 去掉#NR)  (root, ROOT#null, 老皮#VV)  (ccomp, 老皮#VV, 可以#VV)  (conj, 卤#NR, 酱#NR)  (conj, 卤#NR, 烧#NR)  (dobj, 可以#VV, 卤#NR)   (det, 市场#NN, 某些#DT)  (nsubj, 卖#VV, 市场#NN)  (relcl, 舌头#NN, 卖#VV)  (mark, 卖#VV, 的#DEC)  (nsubj, 可食#VV, 舌头#NN)  (advmod, 可食#VV, 立即#AD)  (root, ROOT#null, 可食#VV)  (advmod, 买到#VV, 但#AD)  (conj, 舌头#NN, 生的#VA)  (dep, 生的#VA, 烟熏#VA)  (mark, 生的#VA, 的#DEC)  (cc, 舌头#NN, 或#CC)  (assmod, 舌头#NN, 粗盐腌#NN)  (case, 粗盐腌#NN, 的#DEG)  (nsubj, 买到#VV, 舌头#NN)  (advmod, 买到#VV, 常#AD)  (ccomp, 可食#VV, 买到#VV)  (dep, 不错#VA, 煮后#NN)  (advmod, 不错#VA, 不论#CS)  (nsubj, 不错#VA, 热#NN)  (case, 调味料#NN, 用#P)  (conj, 加#NR, 冷食#NR)  (nn, 调味料#NN, 加#NR)  (nn, 调味料#NN, 不加#NN)  (prep, 不错#VA, 调味料#NN)  (advmod, 不错#VA, 都#AD)  (dep, 买到#VV, 不错#VA)   (nn, 舌头#NN, 盐腌#NN)  (nsubj, 切片#NN, 舌头#NN)  (advmod, 切片#NN, 通常#AD)  (cop, 切片#NN, 是#VC)  (nn, 切片#NN, 挤过#NN)  (nn, 切片#NN, 汁的#NN)  (nn, 切片#NN, 煮熟#NN)  (root, ROOT#null, 切片#NN)  (advmod, 采#VV, 一般#AD)  (conj, 切片#NN, 采#VV)  (dobj, 采#VV, 冷食#NN)  (conj, 切片#NN, 生#VV)  (nn, 温煮#NN, 舌头#NN)  (nn, 温煮#NN, 可加#NN)  (nn, 温煮#NN, 葡萄酒#NN)  (dobj, 生#VV, 温煮#NN)  (cc, 切片#NN, 或#CC)  (loc, 添#VV, 水煮#NN)  (case, 水煮#NN, 后#LC)  (conj, 切片#NN, 添#VV)  (det, 配饰#NN, 各#DT)  (clf, 各#DT, 类#M)  (nn, 上桌#NN, 配饰#NN)  (dobj, 添#VV, 上桌#NN)   (conj, 小牛舌#NN, 牛舌#NN)  (cc, 小牛舌#NN, 和#CC)  (nsubj, 常见#VA, 小牛舌#NN)  (advmod, 常见#VA, 最为#AD)  (root, ROOT#null, 常见#VA)
+        </parsing>
+
+        <tag>
+            老皮  卖舌头  可食  粗盐腌  热不错  不加调味料  盐腌舌头  挤过切片  汁的切片  煮熟切片  舌头温煮  可加温煮  葡萄酒温煮  配饰上桌  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/7a/5c/23674_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1239 牛舌.jpg
+    </picturelocalurl>
+
+</content>

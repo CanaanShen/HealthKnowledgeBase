@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        870
+    </id>
+
+    <foodname>
+        猪脖
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        脖子肉、血脖儿
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            对湿热偏重、痰湿偏盛，舌苔厚腻之人，忌食猪肉。
+        </rawdata>
+
+        <segment>
+            对  湿热  偏重  、  痰湿  偏  盛  ，  舌苔  厚  腻  之  人  ，  忌食  猪肉  。
+        </segment>
+
+        <pos>
+            对#P  湿热#NR  偏重#NR  、#PU  痰湿#NR  偏#AD  盛#VA  ，#PU  舌苔#VV  厚#JJ  腻#NN  之#DEG  人#NN  ，#PU  忌食#AD  猪肉#VA  。#PU
+        </pos>
+
+        <parsing>
+            (case, 痰湿#NR, 对#P)  (nn, 痰湿#NR, 湿热#NR)  (conj, 痰湿#NR, 偏重#NR)  (prep, 盛#VA, 痰湿#NR)  (advmod, 盛#VA, 偏#AD)  (root, ROOT#null, 盛#VA)  (dep, 盛#VA, 舌苔#VV)  (amod, 腻#NN, 厚#JJ)  (assmod, 人#NN, 腻#NN)  (case, 腻#NN, 之#DEG)  (dobj, 舌苔#VV, 人#NN)  (advmod, 猪肉#VA, 忌食#AD)  (conj, 盛#VA, 猪肉#VA)
+        </parsing>
+
+        <tag>
+            湿热偏重  痰湿偏盛  舌苔厚腻  忌食猪肉  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            痰湿质、湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            痰湿质  、  湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            痰湿质#NN  、#PU  湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (conj, 体质#NN, 痰湿质#NN)  (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            痰湿质  湿热质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪肉是目前人们餐桌上重要的动物性食品之一。因为猪肉纤维较为细软，结缔组织较少，肌肉组织中含有较多的肌间脂肪，因此，经过烹调加工后肉味物别鲜美
+        </rawdata>
+
+        <segment>
+            猪肉  是  目前  人们  餐桌  上  重要  的  动物性  食品  之一  。  因为  猪肉  纤维  较为  细软  ，  结缔  组织  较少  ，  肌肉  组织  中  含有  较多  的  肌间  脂肪  ，  因此  ，  经过  烹调  加工  后  肉  味物别  鲜美
+        </segment>
+
+        <pos>
+            猪肉#NN  是#VC  目前#NT  人们#NN  餐桌#NN  上#LC  重要#VA  的#DEC  动物性#NN  食品#NN  之一#NN  。#PU  因为#P  猪肉#NN  纤维#NN  较为#AD  细软#VA  ，#PU  结缔#NN  组织#NN  较少#VV  ，#PU  肌肉#NN  组织#NN  中#LC  含有#VV  较多#NN  的#DEG  肌间#NN  脂肪#NN  ，#PU  因此#AD  ，#PU  经过#P  烹调#NN  加工#NN  后#LC  肉#NN  味物别#VV  鲜美#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 之一#NN, 猪肉#NN)  (cop, 之一#NN, 是#VC)  (tmod, 重要#VA, 目前#NT)  (nn, 餐桌#NN, 人们#NN)  (loc, 重要#VA, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (relcl, 之一#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (nn, 之一#NN, 动物性#NN)  (nn, 之一#NN, 食品#NN)  (root, ROOT#null, 之一#NN)  (case, 细软#VA, 因为#P)  (nn, 纤维#NN, 猪肉#NN)  (nsubj, 细软#VA, 纤维#NN)  (advmod, 细软#VA, 较为#AD)  (prep, 较少#VV, 细软#VA)  (nn, 组织#NN, 结缔#NN)  (nsubj, 较少#VV, 组织#NN)  (conj, 之一#NN, 较少#VV)  (nn, 组织#NN, 肌肉#NN)  (loc, 含有#VV, 组织#NN)  (case, 组织#NN, 中#LC)  (ccomp, 较少#VV, 含有#VV)  (assmod, 脂肪#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (nn, 脂肪#NN, 肌间#NN)  (dobj, 含有#VV, 脂肪#NN)  (advmod, 味物别#VV, 因此#AD)  (case, 加工#NN, 经过#P)  (nn, 加工#NN, 烹调#NN)  (prep, 味物别#VV, 加工#NN)  (case, 加工#NN, 后#LC)  (nsubj, 味物别#VV, 肉#NN)  (conj, 之一#NN, 味物别#VV)  (dobj, 味物别#VV, 鲜美#NN)
+        </parsing>
+
+        <tag>
+            人们餐桌  猪肉纤维  纤维细软  结缔组织  肌肉组织  肌间脂肪  含有脂肪  烹调加工  味物别鲜美  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            具有补肾养血，滋阴润燥之功效;主治热病伤津、消渴羸瘦、肾虚体弱、产后血虚、燥咳、便秘、补虚、滋阴、润燥、滋肝阴，润肌肤，利二便和止消渴。猪肉煮汤饮下可急补由于津液不足引起的烦燥、干咳、便秘和难产。
+        </rawdata>
+
+        <segment>
+            具有  补  肾  养  血  ，  滋阴  润燥  之  功效  ;  主治  热病  伤津  、  消渴  羸瘦  、  肾虚  体弱  、  产后  血虚  、  燥咳  、  便秘  、  补  虚  、  滋阴  、  润燥  、  滋肝  阴  ，  润  肌肤  ，  利二  便  和  止  消渴  。  猪肉  煮  汤  饮下  可  急  补  由于  津液  不足  引起  的  烦燥  、  干咳  、  便秘  和  难产  。
+        </segment>
+
+        <pos>
+            具有#VV  补#NN  肾#NN  养#VV  血#NN  ，#PU  滋阴#NN  润燥#NN  之#DEG  功效#NN  ;#NN  主治#NN  热病#NN  伤津#NR  、#PU  消渴#NR  羸瘦#NR  、#PU  肾虚#NR  体弱#NR  、#PU  产后#NR  血虚#NR  、#PU  燥咳#NR  、#PU  便秘#NR  、#PU  补#NN  虚#AD  、#PU  滋阴#AD  、#PU  润燥#AD  、#PU  滋肝#AD  阴#VA  ，#PU  润#NN  肌肤#NN  ，#PU  利二#CD  便#VA  和#CC  止#VV  消渴#NN    。#PU  猪肉#NN  煮#VV  汤#NN  饮下#NN  可#VV  急#AD  补#VV  由于#P  津液#AD  不足#VA  引起#VV  的#DEC  烦燥#NR  、#PU  干咳#NR  、#PU  便秘#NR  和#CC  难产#NR    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 养#VV, 具有#VV)  (nn, 肾#NN, 补#NN)  (dobj, 具有#VV, 肾#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)  (nn, 润燥#NN, 滋阴#NN)  (assmod, 热病#NN, 润燥#NN)  (case, 润燥#NN, 之#DEG)  (nn, 热病#NN, 功效#NN)  (nn, 热病#NN, ;#NN)  (nn, 热病#NN, 主治#NN)  (nsubj, 阴#VA, 热病#NN)  (conj, 便秘#NR, 伤津#NR)  (nn, 便秘#NR, 消渴#NR)  (conj, 便秘#NR, 羸瘦#NR)  (nn, 便秘#NR, 肾虚#NR)  (conj, 便秘#NR, 体弱#NR)  (nn, 便秘#NR, 产后#NR)  (conj, 便秘#NR, 血虚#NR)  (conj, 便秘#NR, 燥咳#NR)  (conj, 补#NN, 便秘#NR)  (nsubj, 阴#VA, 补#NN)  (advmod, 阴#VA, 虚#AD)  (conj, 虚#AD, 滋阴#AD)  (conj, 虚#AD, 润燥#AD)  (conj, 虚#AD, 滋肝#AD)  (conj, 养#VV, 阴#VA)  (nn, 肌肤#NN, 润#NN)  (nsubj, 便#VA, 肌肤#NN)  (dep, 便#VA, 利二#CD)  (conj, 养#VV, 便#VA)  (cc, 便#VA, 和#CC)  (dep, 便#VA, 止#VV)  (dobj, 止#VV, 消渴#NN)   (nsubj, 煮#VV, 猪肉#NN)  (root, ROOT#null, 煮#VV)  (nn, 饮下#NN, 汤#NN)  (dobj, 煮#VV, 饮下#NN)  (mmod, 补#VV, 可#VV)  (advmod, 补#VV, 急#AD)  (conj, 煮#VV, 补#VV)  (case, 不足#VA, 由于#P)  (advmod, 不足#VA, 津液#AD)  (prep, 引起#VV, 不足#VA)  (relcl, 难产#NR, 引起#VV)  (mark, 引起#VV, 的#DEC)  (conj, 难产#NR, 烦燥#NR)  (conj, 难产#NR, 干咳#NR)  (conj, 难产#NR, 便秘#NR)  (cc, 难产#NR, 和#CC)  (dobj, 补#VV, 难产#NR)
+        </parsing>
+
+        <tag>
+            滋阴润燥  功效热病  主治热病  便秘  伤津  羸瘦  体弱  血虚  燥咳  难产  烦燥  干咳  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  改善营养性贫血  美容养颜  补气  润燥  补血  消肿  补肾气  补肾阴
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            其肉质地老、肥瘦不分宜于做包子、饺子馅，或红烧、粉蒸等。
+        </rawdata>
+
+        <segment>
+            其  肉质  地  老  、  肥瘦  不  分  宜于  做  包子  、  饺子馅  ，  或  红烧  、  粉蒸等  。
+        </segment>
+
+        <pos>
+            其#PN  肉质#VA  地#DEV  老#NR  、#PU  肥瘦#NR  不#AD  分#AD  宜于#AD  做#VV  包子#NN  、#PU  饺子馅#NN  ，#PU  或#CC  红烧#VA  、#PU  粉蒸等#VA  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 做#VV, 其#PN)  (dvpmod, 做#VV, 肉质#VA)  (mark, 肉质#VA, 地#DEV)  (conj, 肥瘦#NR, 老#NR)  (dep, 做#VV, 肥瘦#NR)  (neg, 做#VV, 不#AD)  (advmod, 做#VV, 分#AD)  (advmod, 做#VV, 宜于#AD)  (root, ROOT#null, 做#VV)  (conj, 饺子馅#NN, 包子#NN)  (dobj, 做#VV, 饺子馅#NN)  (cc, 做#VV, 或#CC)  (conj, 做#VV, 红烧#VA)  (dep, 红烧#VA, 粉蒸等#VA)
+        </parsing>
+
+        <tag>
+            饺子馅  包子  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/94/41/82324_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\870 猪脖.jpg
+    </picturelocalurl>
+
+</content>

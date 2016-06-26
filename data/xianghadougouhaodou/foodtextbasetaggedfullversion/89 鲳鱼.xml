@@ -1,0 +1,370 @@
+<content>
+
+    <id>
+        89
+    </id>
+
+    <foodname>
+        鲳鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        镜鱼、平鱼
+    </alias>
+
+    <season>
+        秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            痛风、糖尿病、慢性病、过敏性皮肤病患者忌食。
+        </rawdata>
+
+        <segment>
+            痛风  、  糖尿病  、  慢性病  、  过敏性  皮肤病  患者  忌食  。
+        </segment>
+
+        <pos>
+            痛风#NN  、#PU  糖尿病#NN  、#PU  慢性病#NN  、#PU  过敏性#NN  皮肤病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 皮肤病#NN, 痛风#NN)  (conj, 皮肤病#NN, 糖尿病#NN)  (conj, 皮肤病#NN, 慢性病#NN)  (nn, 皮肤病#NN, 过敏性#NN)  (nn, 患者#NN, 皮肤病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            痛风  糖尿病  慢性病  过敏性皮肤病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜贫血、心悸、失眠、健忘、消化不良、心血管疾病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  贫血  、  心悸  、  失眠  、  健忘  、  消化不良  、  心血管  疾病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  贫血#NR  、#PU  心悸#NR  、#PU  失眠#NR  、#PU  健忘#NR  、#PU  消化不良#NR  、#PU  心血管#NR  疾病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (conj, 心血管#NR, 贫血#NR)  (conj, 心血管#NR, 心悸#NR)  (conj, 心血管#NR, 失眠#NR)  (conj, 心血管#NR, 健忘#NR)  (conj, 心血管#NR, 消化不良#NR)  (nn, 患者#NN, 心血管#NR)  (nn, 患者#NN, 疾病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  贫血  心悸  失眠  健忘  消化不良  心血管疾病  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                140
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                18.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                7.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                24
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                155
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                328
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                62.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                7.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                27.21
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            平鱼，学名鲳，是一种身体扁平的海鱼，因其刺少肉嫩，故很受人们喜爱，主妇们也很乐意收拾，它同样具有海洋鱼的营养特点：富含高蛋白、不饱和脂肪酸和多种微量元素。平鱼体近菱形，扁侧，口小，背部青灰色，体两侧银白色，体背小圆鳞，背鳍和臀鳍较长，且对称，胸鳍大，无腹鳍，尾鳍深叉形，下叶长于上叶，产地大体与比目鱼相同，质量以河口和秦皇岛产的为好，上市在5～10月间，其中以6～7月产的品质最好，数量最多。
+        </rawdata>
+
+        <segment>
+            平鱼  ，  学名鲳  ，  是  一  种  身体  扁平  的  海鱼  ，  因其  刺少  肉嫩  ，  故  很  受  人们  喜爱  ，  主妇们  也  很  乐意  收拾  ，  它  同样  具有  海洋  鱼  的  营养  特点  ：  富含  高蛋白  、  不  饱和  脂肪酸  和  多种  微量  元素  。  平鱼  体近  菱形  ，  扁侧  ，  口小  ，  背部  青灰色  ，  体  两  侧  银白色  ，  体  背  小圆鳞  ，  背鳍  和  臀鳍  较长  ，  且  对称  ，  胸鳍  大  ，  无  腹鳍  ，  尾鳍  深  叉形  ，  下叶  长于  上叶  ，  产地  大体  与  比目鱼  相同  ，  质量  以  河口  和  秦皇岛  产  的  为好  ，  上市  在  5～10月  间  ，  其中  以  6  ～  7  月  产  的  品质  最好  ，  数量  最  多  。
+        </segment>
+
+        <pos>
+            平鱼#VV  ，#PU  学名鲳#NN  ，#PU  是#VC  一#CD  种#M  身体#NN  扁平#NN  的#DEG  海鱼#NN  ，#PU  因其#VV  刺少#NN  肉嫩#NN  ，#PU  故#AD  很#AD  受#VV  人们#NN  喜爱#NN  ，#PU  主妇们#NN  也#AD  很#AD  乐意#AD  收拾#VV  ，#PU  它#PN  同样#AD  具有#VV  海洋#NN  鱼#NN  的#DEG  营养#VA  特点#NN  ：#PU  富含#VV  高蛋白#NN  、#PU  不#AD  饱和#VV  脂肪酸#NR  和#CC  多种#NR  微量#JJ  元素#NN    。#PU  平鱼#NN  体近#NN  菱形#VV  ，#PU  扁侧#VV  ，#PU  口小#NR  ，#PU  背部#NN  青灰色#NN  ，#PU  体#NR  两#CD  侧#LC  银白色#VV  ，#PU  体#AD  背#VV  小圆鳞#VV  ，#PU  背鳍#NR  和#CC  臀鳍#VV  较长#NN  ，#PU  且#CC  对称#VV  ，#PU  胸鳍#AD  大#VA  ，#PU  无#VE  腹鳍#NN  ，#PU  尾鳍#VV  深#JJ  叉形#NN  ，#PU  下叶#VV  长于#NN  上叶#NN  ，#PU  产地#NN  大体#AD  与#P  比目鱼#NR  相同#VA  ，#PU  质量#NN  以#P  河口#NR  和#CC  秦皇岛#NR  产#VV  的#DEC  为好#NN  ，#PU  上市#VV  在#P  5#CD  ～#NN  10月#NT  间#LC  ，#PU  其中#NN  以#P  6#CD  ～#NN  7#CD  月#NN  产#VV  的#DEC  品质#NN  最好#JJ  ，#PU  数量#NN  最#AD  多#VA    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 平鱼#VV)  (nsubj, 海鱼#NN, 学名鲳#NN)  (cop, 海鱼#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 扁平#NN, 种#M)  (nn, 扁平#NN, 身体#NN)  (assmod, 海鱼#NN, 扁平#NN)  (case, 扁平#NN, 的#DEG)  (ccomp, 平鱼#VV, 海鱼#NN)  (conj, 海鱼#NN, 因其#VV)  (nn, 肉嫩#NN, 刺少#NN)  (dobj, 因其#VV, 肉嫩#NN)  (advmod, 受#VV, 故#AD)  (advmod, 受#VV, 很#AD)  (conj, 海鱼#NN, 受#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 受#VV, 喜爱#NN)  (nsubj, 收拾#VV, 主妇们#NN)  (advmod, 收拾#VV, 也#AD)  (advmod, 收拾#VV, 很#AD)  (advmod, 收拾#VV, 乐意#AD)  (conj, 海鱼#NN, 收拾#VV)  (nsubj, 具有#VV, 它#PN)  (advmod, 具有#VV, 同样#AD)  (conj, 海鱼#NN, 具有#VV)  (nn, 鱼#NN, 海洋#NN)  (assmod, 特点#NN, 鱼#NN)  (case, 鱼#NN, 的#DEG)  (nfincl, 特点#NN, 营养#VA)  (dobj, 具有#VV, 特点#NN)  (conj, 海鱼#NN, 富含#VV)  (dobj, 富含#VV, 高蛋白#NN)  (neg, 饱和#VV, 不#AD)  (conj, 富含#VV, 饱和#VV)  (conj, 多种#NR, 脂肪酸#NR)  (cc, 多种#NR, 和#CC)  (nn, 元素#NN, 多种#NR)  (amod, 元素#NN, 微量#JJ)  (dobj, 饱和#VV, 元素#NN)   (nn, 体近#NN, 平鱼#NN)  (nsubj, 菱形#VV, 体近#NN)  (root, ROOT#null, 菱形#VV)  (relcl, 品质#NN, 扁侧#VV)  (nsubj, 银白色#VV, 口小#NR)  (nn, 青灰色#NN, 背部#NN)  (nsubj, 银白色#VV, 青灰色#NN)  (nsubj, 银白色#VV, 体#NR)  (loc, 银白色#VV, 两#CD)  (case, 两#CD, 侧#LC)  (ccomp, 扁侧#VV, 银白色#VV)  (advmod, 背#VV, 体#AD)  (conj, 银白色#VV, 背#VV)  (relcl, 为好#NN, 小圆鳞#VV)  (nsubj, 臀鳍#VV, 背鳍#NR)  (cc, 臀鳍#VV, 和#CC)  (ccomp, 小圆鳞#VV, 臀鳍#VV)  (dobj, 臀鳍#VV, 较长#NN)  (cc, 臀鳍#VV, 且#CC)  (conj, 臀鳍#VV, 对称#VV)  (advmod, 大#VA, 胸鳍#AD)  (conj, 臀鳍#VV, 大#VA)  (conj, 臀鳍#VV, 无#VE)  (dobj, 无#VE, 腹鳍#NN)  (conj, 臀鳍#VV, 尾鳍#VV)  (amod, 叉形#NN, 深#JJ)  (dobj, 尾鳍#VV, 叉形#NN)  (conj, 臀鳍#VV, 下叶#VV)  (nn, 上叶#NN, 长于#NN)  (dobj, 下叶#VV, 上叶#NN)  (nsubj, 相同#VA, 产地#NN)  (advmod, 相同#VA, 大体#AD)  (case, 比目鱼#NR, 与#P)  (prep, 相同#VA, 比目鱼#NR)  (conj, 臀鳍#VV, 相同#VA)  (nsubj, 产#VV, 质量#NN)  (case, 秦皇岛#NR, 以#P)  (conj, 秦皇岛#NR, 河口#NR)  (cc, 秦皇岛#NR, 和#CC)  (prep, 产#VV, 秦皇岛#NR)  (conj, 臀鳍#VV, 产#VV)  (mark, 小圆鳞#VV, 的#DEC)  (dobj, 背#VV, 为好#NN)  (conj, 银白色#VV, 上市#VV)  (case, 10月#NT, 在#P)  (nummod, ～#NN, 5#CD)  (prep, 上市#VV, 10月#NT)  (case, 10月#NT, 间#LC)  (nsubj, 产#VV, 其中#NN)  (case, 月#NN, 以#P)  (nummod, ～#NN, 6#CD)  (nummod, 月#NN, 7#CD)  (prep, 产#VV, 月#NN)  (conj, 银白色#VV, 产#VV)  (mark, 扁侧#VV, 的#DEC)  (nsubj, 最好#JJ, 品质#NN)  (ccomp, 菱形#VV, 最好#JJ)  (dep, 多#VA, 数量#NN)  (advmod, 多#VA, 最#AD)  (dep, 最好#JJ, 多#VA)
+        </parsing>
+
+        <tag>
+            身体扁平  刺少肉嫩  人们喜爱  富含高蛋白  多种  脂肪酸  平鱼体近  菱形  扁侧品质  背部青灰色  小圆鳞为好  臀鳍较长  深叉形  尾鳍叉形  长于上叶  下叶上叶  产地相同  秦皇岛  河口  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.降低胆固醇
+            含有丰富的不饱和脂肪酸,有降低胆固醇的功效，对高血脂、高胆固醇的人来说是一种不错的鱼类食品。
+            2.预防癌症
+            平鱼含有丰富的微量元素硒和镁，对冠状动脉硬化等心血管疾病有预防作用，并能延缓机体衰老，预防癌症的发生。
+            3.防治贫血
+            平鱼具有益气养血，柔劲利骨的功效，对消化不良，贫血，筋骨酸痛等很有疗效。
+        </rawdata>
+
+        <segment>
+            降低  胆固醇
+            含有  丰富  的  不饱和  脂肪酸  ,  有  降低  胆固醇  的  功效  ，  对  高血脂  、  高  胆固醇  的  人  来说  是  一  种  不错  的  鱼类  食品  。
+            预防  癌症
+            平鱼  含有  丰富  的  微量  元素  硒和镁  ，  对  冠状  动脉  硬化  等心  血管  疾病  有  预防  作用  ，  并  能  延缓  机体  衰老  ，  预防  癌症  的  发生  。
+            防治  贫血
+            平鱼  具有  益气养血  ，  柔劲  利  骨  的  功效  ，  对  消化不良  ，  贫血  ，  筋骨  酸痛  等  很  有  疗效  。
+        </segment>
+
+        <pos>
+            降低#VV  胆固醇#NN
+            含有#AD  丰富#VA  的#DEC  不饱和#NN  脂肪酸#NN  ,#AD  有#VE  降低#VV  胆固醇#NN  的#DEC  功效#NN  ，#PU  对#P  高血脂#NN  、#PU  高#JJ  胆固醇#NN  的#DEG  人#NN  来说#NN  是#VC  一#CD  种#M  不错#VA  的#DEC  鱼类#NN  食品#NN  。#PU
+            预防#VV  癌症#NN
+            平鱼#NN  含有#VV  丰富#VA  的#DEC  微量#NN  元素#NN  硒和镁#NN  ，#PU  对#P  冠状#NN  动脉#NN  硬化#NN  等心#NN  血管#NN  疾病#NN  有#VE  预防#NN  作用#NN  ，#PU  并#CC  能#VV  延缓#VV  机体#NN  衰老#NN  ，#PU  预防#VV  癌症#NN  的#DEG  发生#NN  。#PU
+            防治#VV  贫血#NN
+            平鱼#AD  具有#VV  益气养血#NN  ，#PU  柔劲#VV  利#NR  骨#NN  的#DEC  功效#NN  ，#PU  对#P  消化不良#NN  ，#PU  贫血#NN  ，#PU  筋骨#NN  酸痛#NN  等#ETC  很#AD  有#VE  疗效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)
+            (advmod, 丰富#VA, 含有#AD)  (relcl, 脂肪酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 脂肪酸#NN, 不饱和#NN)  (nsubj, 有#VE, 脂肪酸#NN)  (root, ROOT#null, 有#VE)  (relcl, 功效#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)  (case, 胆固醇#NN, 对#P)  (conj, 胆固醇#NN, 高血脂#NN)  (amod, 胆固醇#NN, 高#JJ)  (assmod, 来说#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (nn, 来说#NN, 人#NN)  (nsubj, 食品#NN, 来说#NN)  (cop, 食品#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 食品#NN, 种#M)  (relcl, 食品#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (nn, 食品#NN, 鱼类#NN)  (conj, 有#VE, 食品#NN)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 癌症#NN)
+            (nsubj, 含有#VV, 平鱼#NN)  (root, ROOT#null, 含有#VV)  (relcl, 硒和镁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 硒和镁#NN, 微量#NN)  (nn, 硒和镁#NN, 元素#NN)  (dobj, 含有#VV, 硒和镁#NN)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 冠状#NN)  (nn, 疾病#NN, 动脉#NN)  (nn, 疾病#NN, 硬化#NN)  (nn, 疾病#NN, 等心#NN)  (nn, 疾病#NN, 血管#NN)  (prep, 有#VE, 疾病#NN)  (conj, 含有#VV, 有#VE)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)  (cc, 含有#VV, 并#CC)  (mmod, 延缓#VV, 能#VV)  (conj, 含有#VV, 延缓#VV)  (nn, 衰老#NN, 机体#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 含有#VV, 预防#VV)  (assmod, 发生#NN, 癌症#NN)  (case, 癌症#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+            (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 贫血#NN)
+            (advmod, 具有#VV, 平鱼#AD)  (relcl, 功效#NN, 具有#VV)  (dobj, 具有#VV, 益气养血#NN)  (conj, 具有#VV, 柔劲#VV)  (nn, 骨#NN, 利#NR)  (dobj, 柔劲#VV, 骨#NN)  (mark, 具有#VV, 的#DEC)  (nsubj, 有#VE, 功效#NN)  (case, 消化不良#NN, 对#P)  (prep, 有#VE, 消化不良#NN)  (nsubj, 有#VE, 贫血#NN)  (nn, 酸痛#NN, 筋骨#NN)  (nsubj, 有#VE, 酸痛#NN)  (etc, 酸痛#NN, 等#ETC)  (advmod, 有#VE, 很#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            降低胆固醇  脂肪酸丰富  不饱和脂肪酸  降低功效  高血脂  高胆固醇  食品不错  鱼类食品  预防癌症  硒和镁丰富  微量硒和镁  含有硒和镁  冠状疾病  动脉疾病  硬化疾病  等心疾病  血管疾病  机体衰老  延缓衰老  防治贫血  柔劲骨  筋骨酸痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  延缓衰老  抗癌防癌  补气  舒筋  补血
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.平鱼富含蛋白质和多种营养成分，具有益气养血、柔筋利骨的功效，可以缓解消化不良、脾虚泄泻、贫血、筋骨酸痛等症。
+            2.平鱼含有丰富的不饱和脂肪酸，有降低胆固醇的功效。
+            3.平鱼含有丰富的微量元素硒和镁，对冠状动脉硬化等心血管疾病有预防作用，并能延缓机体衰老，预防癌症的发生。
+        </rawdata>
+
+        <segment>
+            平鱼  富含  蛋白质  和  多种  营养  成分  ，  具有  益气养血  、  柔筋  利  骨  的  功效  ，  可以  缓解  消化不良  、  脾虚  泄泻  、  贫血  、  筋骨  酸痛  等症  。
+            平鱼  含有  丰富  的  不饱和  脂肪酸  ，  有  降低  胆固醇  的  功效  。
+            平鱼  含有  丰富  的  微量  元素  硒和镁  ，  对  冠状  动脉  硬化  等心  血管  疾病  有  预防  作用  ，  并  能  延缓  机体  衰老  ，  预防  癌症  的  发生  。
+        </segment>
+
+        <pos>
+            平鱼#VV  富含#NN  蛋白质#NN  和#CC  多种#AD  营养#VA  成分#NN  ，#PU  具有#VV  益气养血#NN  、#PU  柔筋#VV  利#NR  骨#NN  的#DEG  功效#NN  ，#PU  可以#VV  缓解#VV  消化不良#NR  、#PU  脾虚#NR  泄泻#NR  、#PU  贫血#NR  、#PU  筋骨#NR  酸痛#NN  等症#NN  。#PU
+            平鱼#NN  含有#NN  丰富#VA  的#DEC  不饱和#NN  脂肪酸#VV  ，#PU  有#VE  降低#VV  胆固醇#NN  的#DEC  功效#NN  。#PU
+            平鱼#NN  含有#VV  丰富#VA  的#DEC  微量#NN  元素#NN  硒和镁#NN  ，#PU  对#P  冠状#NN  动脉#NN  硬化#NN  等心#NN  血管#NN  疾病#NN  有#VE  预防#NN  作用#NN  ，#PU  并#CC  能#VV  延缓#VV  机体#NN  衰老#NN  ，#PU  预防#VV  癌症#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 平鱼#VV)  (nn, 蛋白质#NN, 富含#NN)  (conj, 成分#NN, 蛋白质#NN)  (cc, 成分#NN, 和#CC)  (advmod, 营养#VA, 多种#AD)  (relcl, 成分#NN, 营养#VA)  (dobj, 平鱼#VV, 成分#NN)  (conj, 平鱼#VV, 具有#VV)  (dobj, 具有#VV, 益气养血#NN)  (conj, 平鱼#VV, 柔筋#VV)  (nn, 骨#NN, 利#NR)  (assmod, 功效#NN, 骨#NN)  (case, 骨#NN, 的#DEG)  (dobj, 柔筋#VV, 功效#NN)  (mmod, 缓解#VV, 可以#VV)  (conj, 平鱼#VV, 缓解#VV)  (conj, 筋骨#NR, 消化不良#NR)  (nn, 筋骨#NR, 脾虚#NR)  (conj, 筋骨#NR, 泄泻#NR)  (conj, 筋骨#NR, 贫血#NR)  (nn, 等症#NN, 筋骨#NR)  (nn, 等症#NN, 酸痛#NN)  (dobj, 缓解#VV, 等症#NN)
+            (nn, 含有#NN, 平鱼#NN)  (nsubj, 丰富#VA, 含有#NN)  (relcl, 不饱和#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 脂肪酸#VV, 不饱和#NN)  (root, ROOT#null, 脂肪酸#VV)  (ccomp, 脂肪酸#VV, 有#VE)  (relcl, 功效#NN, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (mark, 降低#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+            (nsubj, 含有#VV, 平鱼#NN)  (root, ROOT#null, 含有#VV)  (relcl, 硒和镁#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 硒和镁#NN, 微量#NN)  (nn, 硒和镁#NN, 元素#NN)  (dobj, 含有#VV, 硒和镁#NN)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 冠状#NN)  (nn, 疾病#NN, 动脉#NN)  (nn, 疾病#NN, 硬化#NN)  (nn, 疾病#NN, 等心#NN)  (nn, 疾病#NN, 血管#NN)  (prep, 有#VE, 疾病#NN)  (conj, 含有#VV, 有#VE)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)  (cc, 含有#VV, 并#CC)  (mmod, 延缓#VV, 能#VV)  (conj, 含有#VV, 延缓#VV)  (nn, 衰老#NN, 机体#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 含有#VV, 预防#VV)  (assmod, 发生#NN, 癌症#NN)  (case, 癌症#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+            富含蛋白质  柔筋功效  筋骨  消化不良  泄泻  贫血  酸痛等症  缓解等症  平鱼含有  含有丰富  不饱和丰富  降低功效  降低胆固醇  硒和镁丰富  微量硒和镁  含有硒和镁  冠状疾病  动脉疾病  硬化疾病  等心疾病  血管疾病  机体衰老  延缓衰老  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.平鱼洗净后，先用开水烫一下再烹调，可除去腥味，烧鱼时，汤要刚刚没过鱼，等汤烧开后，改用小火慢炖，再闷制的过程中，尽量少翻动鱼。
+            2.平鱼忌用动物油炸制。
+            3.腹中鱼籽有毒，能引发痢疾。　
+        </rawdata>
+
+        <segment>
+            平鱼  洗净  后  ，  先用  开水  烫  一下  再  烹调  ，  可  除去  腥味  ，  烧  鱼  时  ，  汤  要  刚刚  没  过  鱼  ，  等  汤  烧开  后  ，  改用  小  火  慢  炖  ，  再  闷  制  的  过程  中  ，  尽量  少  翻动  鱼  。
+            平鱼忌  用  动物油  炸制  。
+            腹中  鱼籽  有毒  ，  能  引发  痢疾  。
+        </segment>
+
+        <pos>
+            平鱼#NN  洗净#NN  后#LC  ，#PU  先用#NN  开水#NN  烫#NN  一下#AD  再#AD  烹调#VV  ，#PU  可#VV  除去#P  腥味#VV  ，#PU  烧#NN  鱼#NN  时#LC  ，#PU  汤#NR  要#VV  刚刚#AD  没#VV  过#AS  鱼#NN  ，#PU  等#CC  汤#VV  烧开#NN  后#LC  ，#PU  改用#NR  小#JJ  火#NN  慢#VA  炖#VA  ，#PU  再#AD  闷#VV  制#NN  的#DEC  过程#NN  中#LC  ，#PU  尽量#VV  少#JJ  翻动#NN  鱼#NN  。#PU
+            平鱼忌#NN  用#VV  动物油#NN  炸制#NN  。#PU
+            腹中#NN  鱼籽#NN  有毒#NN  ，#PU  能#VV  引发#VV  痢疾#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 洗净#NN, 平鱼#NN)  (loc, 烹调#VV, 洗净#NN)  (case, 洗净#NN, 后#LC)  (nn, 烫#NN, 先用#NN)  (nn, 烫#NN, 开水#NN)  (nsubj, 烹调#VV, 烫#NN)  (advmod, 烹调#VV, 一下#AD)  (advmod, 烹调#VV, 再#AD)  (root, ROOT#null, 烹调#VV)  (mmod, 尽量#VV, 可#VV)  (case, 过程#NN, 除去#P)  (relcl, 过程#NN, 腥味#VV)  (nn, 鱼#NN, 烧#NN)  (loc, 慢#VA, 鱼#NN)  (case, 鱼#NN, 时#LC)  (nsubj, 没#VV, 汤#NR)  (mmod, 没#VV, 要#VV)  (advmod, 没#VV, 刚刚#AD)  (loc, 慢#VA, 没#VV)  (asp, 没#VV, 过#AS)  (dobj, 没#VV, 鱼#NN)  (cc, 没#VV, 等#CC)  (dep, 没#VV, 汤#VV)  (dobj, 汤#VV, 烧开#NN)  (case, 没#VV, 后#LC)  (nn, 火#NN, 改用#NR)  (amod, 火#NN, 小#JJ)  (nsubj, 慢#VA, 火#NN)  (ccomp, 腥味#VV, 慢#VA)  (comod, 慢#VA, 炖#VA)  (advmod, 闷#VV, 再#AD)  (dep, 慢#VA, 闷#VV)  (dobj, 闷#VV, 制#NN)  (mark, 腥味#VV, 的#DEC)  (prep, 尽量#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (dep, 烹调#VV, 尽量#VV)  (amod, 鱼#NN, 少#JJ)  (nn, 鱼#NN, 翻动#NN)  (dobj, 尽量#VV, 鱼#NN)
+            (nsubj, 用#VV, 平鱼忌#NN)  (root, ROOT#null, 用#VV)  (nn, 炸制#NN, 动物油#NN)  (dobj, 用#VV, 炸制#NN)
+            (nn, 有毒#NN, 腹中#NN)  (nn, 有毒#NN, 鱼籽#NN)  (nsubj, 引发#VV, 有毒#NN)  (mmod, 引发#VV, 能#VV)  (root, ROOT#null, 引发#VV)  (dobj, 引发#VV, 痢疾#NN)
+        </parsing>
+
+        <tag>
+            平鱼洗净  烹调  腥味过程  小火  少鱼  尽量鱼  动物油炸制  腹中有毒  鱼籽有毒  引发痢疾  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100934252850.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\89 鲳鱼.jpg
+    </picturelocalurl>
+
+</content>

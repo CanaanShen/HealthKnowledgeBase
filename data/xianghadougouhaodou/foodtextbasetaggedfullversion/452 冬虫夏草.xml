@@ -1,0 +1,392 @@
+<content>
+
+    <id>
+        452
+    </id>
+
+    <foodname>
+        冬虫夏草
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        虫草、冬虫草、夏草冬虫、雅扎贡布
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜老年慢性支气管炎，肺气肿，肺结核，支气管哮喘，咳嗽气短，虚喘咯血者；体虚多汗，自汗，盗汗者；病后虚弱，久虚不复，或衰劳体弱，以及各种慢性消耗性病人；肾气不足，腰膝酸痛，阳痿遗精者；癌症患者及放疗化疗后；糖尿病人，红斑狼疮，慢性肾炎以及再生障碍性贫血和白血球减少患者。
+        </rawdata>
+
+        <segment>
+            适宜  老年  慢性  支气管炎  ，  肺气肿  ，  肺  结核  ，  支气管  哮喘  ，  咳嗽  气短  ，  虚  喘  咯血者  ；  体虚  多汗  ，  自汗  ，  盗汗  者  ；  病  后  虚弱  ，  久  虚  不复  ，  或  衰劳  体弱  ，  以及  各  种  慢性  消耗性  病人  ；  肾气  不足  ，  腰膝  酸痛  ，  阳痿  遗精者  ；  癌症  患者  及  放疗  化疗  后  ；  糖尿  病人  ，  红斑狼疮  ，  慢性  肾炎  以及  再生  障碍  性  贫血  和  白血球  减少  患者  。
+        </segment>
+
+        <pos>
+            适宜#VV  老年#NN  慢性#NN  支气管炎#NN  ，#PU  肺气肿#NR  ，#PU  肺#NN  结核#VV  ，#PU  支气管#VV  哮喘#NN  ，#PU  咳嗽#VV  气短#NN  ，#PU  虚#AD  喘#VV  咯血者#NN  ；#PU  体虚#VV  多汗#NN  ，#PU  自汗#VV  ，#PU  盗汗#VV  者#NN  ；#PU  病#NN  后#LC  虚弱#VV  ，#PU  久#AD  虚#AD  不复#VV  ，#PU  或#CC  衰劳#AD  体弱#VV  ，#PU  以及#CC  各#DT  种#M  慢性#VV  消耗性#NN  病人#NN  ；#PU  肾气#VV  不足#NN  ，#PU  腰膝#VV  酸痛#NN  ，#PU  阳痿#VV  遗精者#VV  ；#PU  癌症#NN  患者#NN  及#CC  放疗#NN  化疗#NN  后#LC  ；#PU  糖尿#VV  病人#NN  ，#PU  红斑狼疮#VV  ，#PU  慢性#VV  肾炎#NN  以及#CC  再生#VV  障碍#NN  性#NN  贫血#NN  和#CC  白血球#VV  减少#VV  患者#NN  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 结核#VV, 适宜#VV)  (nn, 支气管炎#NN, 老年#NN)  (nn, 支气管炎#NN, 慢性#NN)  (dobj, 适宜#VV, 支气管炎#NN)  (nsubj, 结核#VV, 肺气肿#NR)  (nsubj, 结核#VV, 肺#NN)  (root, ROOT#null, 结核#VV)  (conj, 结核#VV, 支气管#VV)  (dobj, 支气管#VV, 哮喘#NN)  (conj, 结核#VV, 咳嗽#VV)  (dobj, 咳嗽#VV, 气短#NN)  (advmod, 喘#VV, 虚#AD)  (conj, 结核#VV, 喘#VV)  (dobj, 喘#VV, 咯血者#NN)  (conj, 结核#VV, 体虚#VV)  (dobj, 体虚#VV, 多汗#NN)  (conj, 体虚#VV, 自汗#VV)  (conj, 体虚#VV, 盗汗#VV)  (dobj, 盗汗#VV, 者#NN)  (loc, 虚弱#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 结核#VV, 虚弱#VV)  (advmod, 不复#VV, 久#AD)  (advmod, 不复#VV, 虚#AD)  (conj, 虚弱#VV, 不复#VV)  (cc, 虚弱#VV, 或#CC)  (advmod, 体弱#VV, 衰劳#AD)  (conj, 虚弱#VV, 体弱#VV)  (cc, 虚弱#VV, 以及#CC)  (dep, 慢性#VV, 各#DT)  (clf, 各#DT, 种#M)  (conj, 虚弱#VV, 慢性#VV)  (nn, 病人#NN, 消耗性#NN)  (dobj, 慢性#VV, 病人#NN)  (conj, 结核#VV, 肾气#VV)  (dobj, 肾气#VV, 不足#NN)  (conj, 肾气#VV, 腰膝#VV)  (dobj, 腰膝#VV, 酸痛#NN)  (conj, 肾气#VV, 阳痿#VV)  (loc, 阳痿#VV, 遗精者#VV)  (nn, 患者#NN, 癌症#NN)  (dep, 遗精者#VV, 患者#NN)  (cc, 患者#NN, 及#CC)  (nn, 化疗#NN, 放疗#NN)  (dep, 患者#NN, 化疗#NN)  (case, 遗精者#VV, 后#LC)  (conj, 结核#VV, 糖尿#VV)  (dobj, 糖尿#VV, 病人#NN)  (conj, 结核#VV, 红斑狼疮#VV)  (conj, 结核#VV, 慢性#VV)  (dobj, 慢性#VV, 肾炎#NN)  (cc, 结核#VV, 以及#CC)  (dep, 结核#VV, 再生#VV)  (nn, 贫血#NN, 障碍#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 再生#VV, 贫血#NN)  (cc, 再生#VV, 和#CC)  (mmod, 减少#VV, 白血球#VV)  (conj, 再生#VV, 减少#VV)  (dobj, 减少#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            适宜  老年慢性支气管炎  肺气肿  肺结核  支气管哮喘  咳嗽气短  虚喘咯血者  体虚多汗  自汗  盗汗者  病后虚弱  久虚不复  衰劳体弱  各种慢性消耗性病人  肾气不足  腰膝酸痛  阳痿遗精者  癌症  患者  放疗化疗后  糖尿病人  红斑狼疮  慢性肾炎  再生障碍性贫血  白血球减少  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                292
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                20.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                4.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                61.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                20.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                197
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                95
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                595
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                264
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                84
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                66.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                4.87
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.54
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.86
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            冬虫夏草，为麦角菌科真菌冬虫夏草寄生在蝙蝠蛾科昆虫蝙蝠蛾幼虫上的子座及幼虫尸体的复合体，是一种传统的名贵滋补中药材。冬虫草它是菌与虫的共生体，是由真菌中的一种子囊菌侵染磷翅目幼虫后，砖入松土，到了第二年春季，在虫体的前端长出一条棒状的“草”来，伸出地面。多长于高山上，产于四川、云南、甘肃、青海、西藏等地。野生虫草于夏至前后，当积雪尚未融化、子座多露于雪面、孢子尚未散出时采集。找到后挖出虫体及子座，在虫体潮湿未干时，除去外层的泥土及膜皮，烘干或晒干，人工培养虫草，待子座长成后采收，晾干即成。
+        </rawdata>
+
+        <segment>
+            冬虫夏草  ，  为  麦角  菌科  真菌  冬虫夏草  寄生  在  蝙蝠蛾科  昆虫  蝙蝠蛾  幼虫  上  的  子座  及  幼虫  尸体  的  复合体  ，  是  一  种  传统  的  名贵  滋补  中  药材  。  冬  虫草  它  是  菌与  虫  的  共生体  ，  是  由  真菌  中  的  一  种  子囊菌  侵染  磷翅目  幼虫  后  ，  砖入  松土  ，  到了  第二  年  春季  ，  在  虫体  的  前端  长出  一  条  棒状  的  “  草  ”  来  ，  伸出  地面  。  多  长于  高山  上  ，  产于  四川  、  云南  、  甘肃  、  青海  、  西藏  等  地  。  野生  虫草  于  夏至  前后  ，  当  积雪  尚  未  融化  、  子座  多  露  于  雪面  、  孢子  尚  未  散出  时  采集  。  找到  后  挖出  虫体  及  子座  ，  在  虫体  潮湿  未  干时  ，  除去  外层  的  泥土  及  膜皮  ，  烘干  或  晒干  ，  人工  培养  虫草  ，  待  子座  长成  后  采收  ，  晾干  即  成  。
+        </segment>
+
+        <pos>
+            冬虫夏草#VV  ，#PU  为#P  麦角#NN  菌科#NN  真菌#NN  冬虫夏草#VV  寄生#VV  在#P  蝙蝠蛾科#NN  昆虫#NN  蝙蝠蛾#NN  幼虫#NN  上#LC  的#DEG  子座#NN  及#CC  幼虫#NN  尸体#NN  的#DEC  复合体#NN  ，#PU  是#VC  一#CD  种#M  传统#NN  的#DEG  名贵#JJ  滋补#NN  中#LC  药材#NN    。#PU  冬#NN  虫草#NN  它#PN  是#VC  菌与#NN  虫#NN  的#DEG  共生体#NN  ，#PU  是#VC  由#P  真菌#NN  中#LC  的#DEG  一#CD  种#M  子囊菌#NN  侵染#NN  磷翅目#NN  幼虫#NN  后#LC  ，#PU  砖入#NN  松土#VV  ，#PU  到了#VV  第二#OD  年#M  春季#NT  ，#PU  在#P  虫体#NN  的#DEG  前端#NN  长出#VV  一#CD  条#M  棒状#NN  的#DEC  ``#NN  草#NN  ''#NN  来#LC  ，#PU  伸出#VV  地面#NN    。#PU  多#AD  长于#VV  高山#NN  上#LC  ，#PU  产于#VV  四川#NR  、#PU  云南#NR  、#PU  甘肃#NR  、#PU  青海#NR  、#PU  西藏#NR  等#ETC  地#NN    。#PU  野生#JJ  虫草#NN  于#P  夏至#NN  前后#LC  ，#PU  当#P  积雪#NN  尚#AD  未#AD  融化#VV  、#PU  子座#AD  多#VA  露#VV  于#P  雪面#NR  、#PU  孢子#NR  尚#AD  未#AD  散出#VV  时#LC  采集#NN    。#PU  找到#VV  后#LC  挖出#AD  虫体#VV  及#CC  子座#VV  ，#PU  在#P  虫体#NN  潮湿#NN  未#AD  干时#VV  ，#PU  除去#P  外层#NN  的#DEG  泥土#NN  及#CC  膜皮#NN  ，#PU  烘干#NN  或#CC  晒干#NN  ，#PU  人工#AD  培养#VV  虫草#NN  ，#PU  待#VV  子座#NN  长成#NN  后#LC  采收#VV  ，#PU  晾干#AD  即#AD  成#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 冬虫夏草#VV)  (case, 冬虫夏草#VV, 为#P)  (nn, 真菌#NN, 麦角#NN)  (nn, 真菌#NN, 菌科#NN)  (nsubj, 冬虫夏草#VV, 真菌#NN)  (prep, 药材#NN, 冬虫夏草#VV)  (relcl, 复合体#NN, 寄生#VV)  (case, 幼虫#NN, 在#P)  (nn, 幼虫#NN, 蝙蝠蛾科#NN)  (nn, 幼虫#NN, 昆虫#NN)  (nn, 幼虫#NN, 蝙蝠蛾#NN)  (assmod, 尸体#NN, 幼虫#NN)  (case, 幼虫#NN, 上#LC)  (case, 幼虫#NN, 的#DEG)  (conj, 尸体#NN, 子座#NN)  (cc, 尸体#NN, 及#CC)  (nn, 尸体#NN, 幼虫#NN)  (dobj, 寄生#VV, 尸体#NN)  (mark, 寄生#VV, 的#DEC)  (dobj, 冬虫夏草#VV, 复合体#NN)  (cop, 药材#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 传统#NN, 种#M)  (assmod, 滋补#NN, 传统#NN)  (case, 传统#NN, 的#DEG)  (amod, 滋补#NN, 名贵#JJ)  (dep, 药材#NN, 滋补#NN)  (case, 滋补#NN, 中#LC)  (ccomp, 冬虫夏草#VV, 药材#NN)   (nn, 虫草#NN, 冬#NN)  (nsubj, 共生体#NN, 虫草#NN)  (nsubj, 共生体#NN, 它#PN)  (cop, 共生体#NN, 是#VC)  (nn, 虫#NN, 菌与#NN)  (assmod, 共生体#NN, 虫#NN)  (case, 虫#NN, 的#DEG)  (root, ROOT#null, 共生体#NN)  (cop, 侵染#NN, 是#VC)  (case, 真菌#NN, 由#P)  (assmod, 侵染#NN, 真菌#NN)  (case, 真菌#NN, 中#LC)  (case, 真菌#NN, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 侵染#NN, 种#M)  (nn, 侵染#NN, 子囊菌#NN)  (conj, 共生体#NN, 侵染#NN)  (nn, 幼虫#NN, 磷翅目#NN)  (loc, 松土#VV, 幼虫#NN)  (case, 幼虫#NN, 后#LC)  (nsubj, 松土#VV, 砖入#NN)  (conj, 共生体#NN, 松土#VV)  (dep, 松土#VV, 到了#VV)  (ordmod, 年#M, 第二#OD)  (range, 到了#VV, 年#M)  (tmod, 伸出#VV, 春季#NT)  (case, ''#NN, 在#P)  (assmod, 前端#NN, 虫体#NN)  (case, 虫体#NN, 的#DEG)  (nsubj, 长出#VV, 前端#NN)  (relcl, ''#NN, 长出#VV)  (nummod, 条#M, 一#CD)  (clf, 棒状#NN, 条#M)  (dobj, 长出#VV, 棒状#NN)  (mark, 长出#VV, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 草#NN)  (prep, 伸出#VV, ''#NN)  (case, ''#NN, 来#LC)  (conj, 共生体#NN, 伸出#VV)  (dobj, 伸出#VV, 地面#NN)   (advmod, 长于#VV, 多#AD)  (root, ROOT#null, 长于#VV)  (loc, 长于#VV, 高山#NN)  (case, 高山#NN, 上#LC)  (dep, 长于#VV, 产于#VV)  (conj, 西藏#NR, 四川#NR)  (conj, 西藏#NR, 云南#NR)  (conj, 西藏#NR, 甘肃#NR)  (conj, 西藏#NR, 青海#NR)  (nn, 地#NN, 西藏#NR)  (etc, 西藏#NR, 等#ETC)  (dobj, 产于#VV, 地#NN)   (amod, 虫草#NN, 野生#JJ)  (nsubj, 融化#VV, 虫草#NN)  (case, 夏至#NN, 于#P)  (prep, 融化#VV, 夏至#NN)  (case, 夏至#NN, 前后#LC)  (case, 积雪#NN, 当#P)  (prep, 融化#VV, 积雪#NN)  (advmod, 融化#VV, 尚#AD)  (advmod, 融化#VV, 未#AD)  (conj, 露#VV, 融化#VV)  (advmod, 多#VA, 子座#AD)  (dep, 融化#VV, 多#VA)  (root, ROOT#null, 露#VV)  (case, 散出#VV, 于#P)  (conj, 孢子#NR, 雪面#NR)  (nsubj, 散出#VV, 孢子#NR)  (advmod, 散出#VV, 尚#AD)  (advmod, 散出#VV, 未#AD)  (prep, 采集#NN, 散出#VV)  (case, 散出#VV, 时#LC)  (dobj, 露#VV, 采集#NN)   (loc, 虫体#VV, 找到#VV)  (case, 找到#VV, 后#LC)  (advmod, 虫体#VV, 挖出#AD)  (root, ROOT#null, 虫体#VV)  (cc, 虫体#VV, 及#CC)  (conj, 虫体#VV, 子座#VV)  (case, 干时#VV, 在#P)  (nn, 潮湿#NN, 虫体#NN)  (nsubj, 干时#VV, 潮湿#NN)  (advmod, 干时#VV, 未#AD)  (prep, 采收#VV, 干时#VV)  (case, 膜皮#NN, 除去#P)  (assmod, 膜皮#NN, 外层#NN)  (case, 外层#NN, 的#DEG)  (conj, 膜皮#NN, 泥土#NN)  (cc, 膜皮#NN, 及#CC)  (prep, 培养#VV, 膜皮#NN)  (conj, 晒干#NN, 烘干#NN)  (cc, 晒干#NN, 或#CC)  (nsubj, 培养#VV, 晒干#NN)  (advmod, 培养#VV, 人工#AD)  (ccomp, 干时#VV, 培养#VV)  (dobj, 培养#VV, 虫草#NN)  (conj, 培养#VV, 待#VV)  (nn, 长成#NN, 子座#NN)  (dobj, 待#VV, 长成#NN)  (case, 干时#VV, 后#LC)  (conj, 虫体#VV, 采收#VV)  (advmod, 成#VV, 晾干#AD)  (advmod, 成#VV, 即#AD)  (conj, 虫体#VV, 成#VV)
+        </parsing>
+
+        <tag>
+            麦角真菌  菌科真菌  寄生复合体  蝙蝠蛾科幼虫  昆虫幼虫  蝙蝠蛾幼虫  幼虫尸体  寄生尸体  名贵滋补  共生体  子囊菌侵染  磷翅目幼虫  长出棒状  伸出地面  长于  西藏  四川  云南  甘肃  青海  产于地  野生虫草  孢子  雪面  虫体潮湿  膜皮  泥土  晒干  烘干  培养虫草  子座长成  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘，性平。能补肾壮阳，补肺平喘，止血化痰。用于肾虚阳痿，遗精，头昏耳鸣；肺虚或肺肾两虚，喘咳短气，或咳血；体虚自汗，畏风。
+            1.调节免疫系统功能
+            冬虫夏草对免疫系统的作用是使其处于最佳状态。它既能增加免疫系统细胞、组织数量，促进抗体产生，增加吞噬、杀伤细胞数量、增强其功能，又可以调低某些免疫细胞的功能。
+            2.直接抗肿瘤作用
+            冬虫夏草提取物在体外具有明确的抑制、杀伤肿瘤细胞的作用。冬虫夏草中含有虫草素，是其发挥抗肿瘤作用的主要成分。
+            3.抗疲劳
+            冬虫夏草能提高人体能量工厂--线粒体的能量，提高机体耐寒能力，减轻疲劳。
+            4.调节心脏功能
+            冬虫夏草可提高心脏耐缺氧能力，降低心脏对氧的消耗，抗心律失常。
+            5.调节肝脏功能
+            冬虫夏草可减轻有毒物质对肝脏的损伤，对抗肝纤维化的发生。此外，通过调节免疫功能，增强抗病毒能力，对病毒性肝炎发挥有利作用。
+            6.调节呼吸系统功能
+            冬虫夏草具有扩张支气管、平喘、祛痰、防止肺气肿的作用。
+            7.调节肾脏功能
+            冬虫夏草能减轻慢性病的肾脏病变，改善肾功能，减轻毒性物质对肾脏的损害。
+            8.调节造血功能
+            冬虫夏草能增强骨髓生成血小板、红细胞和白细胞的能力。
+            9.调节血脂
+            冬虫夏草可以降低血液中的胆固醇和甘油三酯，提高对人体有利的高密度脂蛋白，减轻动脉粥样硬化。
+        </rawdata>
+
+        <segment>
+            味甘  ，  性平  。  能  补  肾  壮阳  ，  补  肺  平喘  ，  止血  化痰  。  用于  肾虚  阳痿  ，  遗精  ，  头昏  耳鸣  ；  肺  虚  或  肺  肾  两  虚  ，  喘  咳  短  气  ，  或  咳血  ；  体虚自汗  ，  畏风  。
+            调节  免疫  系统  功能
+            冬虫夏草  对  免疫  系统  的  作用  是  使  其  处于  最  佳  状态  。  它  既  能  增加  免疫  系统  细胞  、  组织  数量  ，  促进  抗体  产生  ，  增加  吞噬  、  杀伤  细胞  数量  、  增强  其  功能  ，  又  可以  调低  某些  免疫  细胞  的  功能  。
+            直接  抗  肿瘤  作用
+            冬  虫  夏草  提取  物  在  体外  具有  明确  的  抑制  、  杀伤  肿瘤  细胞  的  作用  。  冬  虫  夏草  中  含有  虫草素  ，  是  其  发挥  抗  肿瘤  作用  的  主要  成分  。
+            抗  疲劳
+            冬虫夏草  能  提高  人体  能量  工厂  --  线粒体  的  能量  ，  提高  机体  耐寒  能力  ，  减轻  疲劳  。
+            调节  心脏  功能
+            冬虫夏草  可  提高  心脏  耐  缺氧  能力  ，  降低  心脏  对氧  的  消耗  ，  抗  心律  失常  。
+            调节  肝脏  功能
+            冬  虫  夏草  可  减轻  有毒  物质  对  肝脏  的  损伤  ，  对抗肝  纤维化  的  发生  。  此外  ，  通过  调节  免疫  功能  ，  增强  抗  病毒  能力  ，  对  病毒性  肝炎  发挥  有利  作用  。
+            调节  呼吸  系统  功能
+            冬  虫  夏草  具有  扩张  支  气管  、  平喘  、  祛痰  、  防止  肺气肿  的  作用  。
+            调节  肾脏  功能
+            冬虫夏草  能  减轻  慢性病  的  肾脏  病变  ，  改善  肾  功能  ，  减轻  毒性  物质  对  肾脏  的  损害  。
+            调节  造血  功能
+            冬虫夏草  能  增强  骨髓  生成  血小板  、  红细胞  和  白细胞  的  能力  。
+            调节  血脂
+            冬  虫  夏草  可以  降低  血液  中  的  胆固醇  和  甘油  三酯  ，  提高  对  人体  有利  的  高密度  脂蛋白  ，  减轻  动脉  粥样  硬化  。
+        </segment>
+
+        <pos>
+            味甘#VV  ，#PU  性平#VV    。#PU  能#VV  补#VV  肾#NN  壮阳#NN  ，#PU  补#VV  肺#NN  平喘#NN  ，#PU  止血#VV  化痰#NN    。#PU  用于#VV  肾虚#NN  阳痿#NN  ，#PU  遗精#VV  ，#PU  头昏#VV  耳鸣#NN  ；#PU  肺#NN  虚#AD  或#CC  肺#NN  肾#VV  两#CD  虚#AD  ，#PU  喘#AD  咳#VV  短#JJ  气#NN  ，#PU  或#CC  咳血#VV  ；#PU  体虚自汗#VV  ，#PU  畏风#VV    。#PU    。#PU
+            调节#VV  免疫#NN  系统#NN  功能#NN
+            冬虫夏草#NN  对#P  免疫#NN  系统#NN  的#DEG  作用#NN  是#VC  使#VV  其#PN  处于#VV  最#AD  佳#JJ  状态#NN    。#PU  它#PN  既#CC  能#VV  增加#VV  免疫#NN  系统#NN  细胞#NN  、#PU  组织#NN  数量#NN  ，#PU  促进#VV  抗体#NN  产生#NN  ，#PU  增加#VV  吞噬#NN  、#PU  杀伤#NN  细胞#NN  数量#NN  、#PU  增强#VV  其#PN  功能#NN  ，#PU  又#AD  可以#VV  调低#VV  某些#DT  免疫#NN  细胞#NN  的#DEG  功能#NN    。#PU    。#PU
+            直接#AD  抗#VV  肿瘤#NN  作用#NN
+            冬#NN  虫#NN  夏草#NN  提取#VV  物#NN  在#P  体外#NR  具有#VV  明确#VA  的#DEC  抑制#NN  、#PU  杀伤#NN  肿瘤#NN  细胞#NN  的#DEC  作用#NN    。#PU  冬#NN  虫#NN  夏草#NN  中#LC  含有#AD  虫草素#VV  ，#PU  是#VC  其#PN  发挥#VV  抗#NN  肿瘤#NN  作用#NN  的#DEC  主要#JJ  成分#NN    。#PU    。#PU
+            抗#NN  疲劳#VA
+            冬虫夏草#NN  能#VV  提高#VV  人体#NN  能量#NN  工厂#NN  --#NN  线粒体#NN  的#DEG  能量#NN  ，#PU  提高#VV  机体#NN  耐寒#NN  能力#NN  ，#PU  减轻#VV  疲劳#VA  。#PU
+            调节#VV  心脏#NN  功能#NN
+            冬虫夏草#NN  可#VV  提高#VV  心脏#NN  耐#NN  缺氧#NN  能力#NN  ，#PU  降低#VV  心脏#NN  对氧#NN  的#DEC  消耗#VV  ，#PU  抗#VV  心律#NN  失常#NN  。#PU
+            调节#VV  肝脏#NN  功能#NN
+            冬#NN  虫#NN  夏草#NN  可#VV  减轻#VV  有毒#NN  物质#NN  对#P  肝脏#NN  的#DEG  损伤#NN  ，#PU  对抗肝#VV  纤维化#NN  的#DEG  发生#NN    。#PU  此外#AD  ，#PU  通过#P  调节#VV  免疫#NN  功能#NN  ，#PU  增强#VV  抗#NN  病毒#NN  能力#NN  ，#PU  对#P  病毒性#NN  肝炎#NN  发挥#VV  有利#JJ  作用#NN    。#PU    。#PU
+            调节#VV  呼吸#NN  系统#NN  功能#NN
+            冬#NN  虫#NN  夏草#NN  具有#VV  扩张#VV  支#M  气管#NN  、#PU  平喘#NN  、#PU  祛痰#NN  、#PU  防止#VV  肺气肿#NN  的#DEC  作用#NN  。#PU
+            调节#VV  肾脏#NN  功能#NN
+            冬虫夏草#NN  能#VV  减轻#VV  慢性病#NN  的#DEG  肾脏#NN  病变#NN  ，#PU  改善#VV  肾#NN  功能#NN  ，#PU  减轻#VV  毒性#NN  物质#NN  对#P  肾脏#NN  的#DEG  损害#NN  。#PU
+            调节#VV  造血#NN  功能#NN
+            冬虫夏草#NN  能#VV  增强#VV  骨髓#AD  生成#VV  血小板#NR  、#PU  红细胞#NR  和#CC  白细胞#NR  的#DEC  能力#NN  。#PU
+            调节#VV  血脂#NN
+            冬#NN  虫#NN  夏草#NN  可以#VV  降低#VV  血液#NN  中#LC  的#DEG  胆固醇#NN  和#CC  甘油#VV  三酯#CD  ，#PU  提高#VV  对#P  人体#NN  有利#VA  的#DEC  高密度#NN  脂蛋白#NN  ，#PU  减轻#VV  动脉#NN  粥样#NN  硬化#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 味甘#VV)  (ccomp, 味甘#VV, 性平#VV)   (mmod, 补#VV, 能#VV)  (root, ROOT#null, 补#VV)  (nn, 壮阳#NN, 肾#NN)  (dobj, 补#VV, 壮阳#NN)  (conj, 补#VV, 补#VV)  (nn, 平喘#NN, 肺#NN)  (dobj, 补#VV, 平喘#NN)  (conj, 补#VV, 止血#VV)  (dobj, 止血#VV, 化痰#NN)   (root, ROOT#null, 用于#VV)  (nn, 阳痿#NN, 肾虚#NN)  (dobj, 用于#VV, 阳痿#NN)  (conj, 用于#VV, 遗精#VV)  (conj, 用于#VV, 头昏#VV)  (dobj, 头昏#VV, 耳鸣#NN)  (dep, 肾#VV, 肺#NN)  (advmod, 肾#VV, 虚#AD)  (cc, 肾#VV, 或#CC)  (dep, 肾#VV, 肺#NN)  (conj, 用于#VV, 肾#VV)  (range, 肾#VV, 两#CD)  (advmod, 肾#VV, 虚#AD)  (advmod, 咳#VV, 喘#AD)  (conj, 肾#VV, 咳#VV)  (amod, 气#NN, 短#JJ)  (dobj, 咳#VV, 气#NN)  (cc, 肾#VV, 或#CC)  (dep, 肾#VV, 咳血#VV)  (conj, 用于#VV, 体虚自汗#VV)  (conj, 用于#VV, 畏风#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 免疫#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 调节#VV, 功能#NN)
+            (nsubj, 使#VV, 冬虫夏草#NN)  (case, 作用#NN, 对#P)  (nn, 系统#NN, 免疫#NN)  (assmod, 作用#NN, 系统#NN)  (case, 系统#NN, 的#DEG)  (prep, 使#VV, 作用#NN)  (conj, 使#VV, 是#VC)  (cop, 使#VV, 是#VC)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 其#PN)  (dep, 使#VV, 处于#VV)  (advmod, 佳#JJ, 最#AD)  (amod, 状态#NN, 佳#JJ)  (dobj, 处于#VV, 状态#NN)   (nsubj, 增加#VV, 它#PN)  (cc, 增加#VV, 既#CC)  (mmod, 增加#VV, 能#VV)  (root, ROOT#null, 增加#VV)  (nn, 数量#NN, 免疫#NN)  (nn, 数量#NN, 系统#NN)  (conj, 数量#NN, 细胞#NN)  (nn, 数量#NN, 组织#NN)  (dobj, 增加#VV, 数量#NN)  (conj, 增加#VV, 促进#VV)  (nn, 产生#NN, 抗体#NN)  (dobj, 促进#VV, 产生#NN)  (conj, 增加#VV, 增加#VV)  (conj, 数量#NN, 吞噬#NN)  (nn, 数量#NN, 杀伤#NN)  (nn, 数量#NN, 细胞#NN)  (dobj, 增加#VV, 数量#NN)  (conj, 增加#VV, 增强#VV)  (nn, 功能#NN, 其#PN)  (dobj, 增强#VV, 功能#NN)  (advmod, 调低#VV, 又#AD)  (mmod, 调低#VV, 可以#VV)  (conj, 增加#VV, 调低#VV)  (det, 免疫#NN, 某些#DT)  (nn, 细胞#NN, 免疫#NN)  (assmod, 功能#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 调低#VV, 功能#NN)   (root, ROOT#null, null#null)
+            (advmod, 抗#VV, 直接#AD)  (root, ROOT#null, 抗#VV)  (nn, 作用#NN, 肿瘤#NN)  (dobj, 抗#VV, 作用#NN)
+            (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nsubj, 提取#VV, 夏草#NN)  (root, ROOT#null, 提取#VV)  (nsubj, 具有#VV, 物#NN)  (case, 体外#NR, 在#P)  (prep, 具有#VV, 体外#NR)  (relcl, 作用#NN, 具有#VV)  (relcl, 细胞#NN, 明确#VA)  (mark, 明确#VA, 的#DEC)  (conj, 细胞#NN, 抑制#NN)  (nn, 细胞#NN, 杀伤#NN)  (nn, 细胞#NN, 肿瘤#NN)  (dobj, 具有#VV, 细胞#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 提取#VV, 作用#NN)   (nsubj, 虫草素#VV, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (loc, 虫草素#VV, 夏草#NN)  (case, 夏草#NN, 中#LC)  (advmod, 虫草素#VV, 含有#AD)  (root, ROOT#null, 虫草素#VV)  (cop, 成分#NN, 是#VC)  (nsubj, 发挥#VV, 其#PN)  (relcl, 成分#NN, 发挥#VV)  (nn, 作用#NN, 抗#NN)  (nn, 作用#NN, 肿瘤#NN)  (dobj, 发挥#VV, 作用#NN)  (mark, 发挥#VV, 的#DEC)  (amod, 成分#NN, 主要#JJ)  (ccomp, 虫草素#VV, 成分#NN)   (root, ROOT#null, null#null)
+            (nsubj, 疲劳#VA, 抗#NN)  (root, ROOT#null, 疲劳#VA)
+            (nsubj, 提高#VV, 冬虫夏草#NN)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nn, 线粒体#NN, 人体#NN)  (nn, 线粒体#NN, 能量#NN)  (nn, 线粒体#NN, 工厂#NN)  (assmod, 能量#NN, 线粒体#NN)  (case, 线粒体#NN, 的#DEG)  (dobj, 提高#VV, 能量#NN)  (conj, 提高#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 耐寒#NN)  (dobj, 提高#VV, 能力#NN)  (conj, 提高#VV, 减轻#VV)  (dep, 提高#VV, 疲劳#VA)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 心脏#NN)  (dobj, 调节#VV, 功能#NN)
+            (nsubj, 提高#VV, 冬虫夏草#NN)  (mmod, 提高#VV, 可#VV)  (root, ROOT#null, 提高#VV)  (nn, 能力#NN, 心脏#NN)  (nn, 能力#NN, 耐#NN)  (nn, 能力#NN, 缺氧#NN)  (dobj, 提高#VV, 能力#NN)  (nsubj, 消耗#VV, 降低#VV)  (nn, 对氧#NN, 心脏#NN)  (dobj, 降低#VV, 对氧#NN)  (mark, 降低#VV, 的#DEC)  (conj, 提高#VV, 消耗#VV)  (conj, 提高#VV, 抗#VV)  (nn, 失常#NN, 心律#NN)  (dobj, 抗#VV, 失常#NN)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 肝脏#NN)  (dobj, 调节#VV, 功能#NN)
+            (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nsubj, 减轻#VV, 夏草#NN)  (mmod, 减轻#VV, 可#VV)  (root, ROOT#null, 减轻#VV)  (nn, 物质#NN, 有毒#NN)  (nn, 损伤#NN, 物质#NN)  (case, 肝脏#NN, 对#P)  (assmod, 损伤#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (dobj, 减轻#VV, 损伤#NN)  (conj, 减轻#VV, 对抗肝#VV)  (assmod, 发生#NN, 纤维化#NN)  (case, 纤维化#NN, 的#DEG)  (dobj, 对抗肝#VV, 发生#NN)   (advmod, 增强#VV, 此外#AD)  (case, 调节#VV, 通过#P)  (prep, 增强#VV, 调节#VV)  (nn, 功能#NN, 免疫#NN)  (dobj, 调节#VV, 功能#NN)  (root, ROOT#null, 增强#VV)  (nn, 能力#NN, 抗#NN)  (nn, 能力#NN, 病毒#NN)  (dobj, 增强#VV, 能力#NN)  (case, 肝炎#NN, 对#P)  (nn, 肝炎#NN, 病毒性#NN)  (prep, 发挥#VV, 肝炎#NN)  (dep, 增强#VV, 发挥#VV)  (amod, 作用#NN, 有利#JJ)  (dobj, 发挥#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 呼吸#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 调节#VV, 功能#NN)
+            (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nsubj, 具有#VV, 夏草#NN)  (root, ROOT#null, 具有#VV)  (relcl, 作用#NN, 扩张#VV)  (dep, 祛痰#NN, 支#M)  (conj, 祛痰#NN, 气管#NN)  (conj, 祛痰#NN, 平喘#NN)  (dobj, 扩张#VV, 祛痰#NN)  (conj, 扩张#VV, 防止#VV)  (dobj, 防止#VV, 肺气肿#NN)  (mark, 扩张#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 肾脏#NN)  (dobj, 调节#VV, 功能#NN)
+            (nsubj, 减轻#VV, 冬虫夏草#NN)  (mmod, 减轻#VV, 能#VV)  (root, ROOT#null, 减轻#VV)  (assmod, 病变#NN, 慢性病#NN)  (case, 慢性病#NN, 的#DEG)  (nn, 病变#NN, 肾脏#NN)  (dobj, 减轻#VV, 病变#NN)  (conj, 减轻#VV, 改善#VV)  (nn, 功能#NN, 肾#NN)  (dobj, 改善#VV, 功能#NN)  (conj, 改善#VV, 减轻#VV)  (nn, 物质#NN, 毒性#NN)  (nn, 损害#NN, 物质#NN)  (case, 肾脏#NN, 对#P)  (assmod, 损害#NN, 肾脏#NN)  (case, 肾脏#NN, 的#DEG)  (dobj, 减轻#VV, 损害#NN)
+            (root, ROOT#null, 调节#VV)  (nn, 功能#NN, 造血#NN)  (dobj, 调节#VV, 功能#NN)
+            (nsubj, 增强#VV, 冬虫夏草#NN)  (mmod, 增强#VV, 能#VV)  (root, ROOT#null, 增强#VV)  (advmod, 生成#VV, 骨髓#AD)  (relcl, 能力#NN, 生成#VV)  (conj, 白细胞#NR, 血小板#NR)  (conj, 白细胞#NR, 红细胞#NR)  (cc, 白细胞#NR, 和#CC)  (dobj, 生成#VV, 白细胞#NR)  (mark, 生成#VV, 的#DEC)  (dobj, 增强#VV, 能力#NN)
+            (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 血脂#NN)
+            (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nsubj, 降低#VV, 夏草#NN)  (mmod, 降低#VV, 可以#VV)  (root, ROOT#null, 降低#VV)  (assmod, 胆固醇#NN, 血液#NN)  (case, 血液#NN, 中#LC)  (case, 血液#NN, 的#DEG)  (dobj, 降低#VV, 胆固醇#NN)  (cc, 降低#VV, 和#CC)  (conj, 降低#VV, 甘油#VV)  (range, 甘油#VV, 三酯#CD)  (conj, 降低#VV, 提高#VV)  (case, 人体#NN, 对#P)  (prep, 有利#VA, 人体#NN)  (relcl, 脂蛋白#NN, 有利#VA)  (mark, 有利#VA, 的#DEC)  (nn, 脂蛋白#NN, 高密度#NN)  (dobj, 提高#VV, 脂蛋白#NN)  (conj, 降低#VV, 减轻#VV)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (dobj, 减轻#VV, 硬化#NN)
+        </parsing>
+
+        <tag>
+            味甘  止血化痰  肾虚阳痿  用于阳痿  头昏耳鸣  短气  免疫功能  系统功能  调节功能  免疫系统  佳状态  处于状态  免疫数量  系统数量  组织数量  增加数量  抗体产生  促进产生  吞噬  杀伤数量  细胞数量  增强功能  免疫细胞  调低功能  提取  细胞明确  抑制  杀伤细胞  肿瘤细胞  抗疲劳  人体线粒体  能量线粒体  工厂线粒体  提高能量  机体能力  耐寒能力  提高能力  心脏功能  心脏能力  缺氧能力  心脏对氧  降低对氧  心律失常  肝脏功能  减轻损伤  病毒能力  增强能力  病毒性肝炎  呼吸功能  气管  平喘  扩张祛痰  防止肺气肿  肾脏功能  慢性病  肾脏病变  减轻病变  改善功能  减轻损害  造血功能  生成能力  白细胞  血小板  红细胞  调节血脂  降低胆固醇  脂蛋白有利  高密度脂蛋白  提高脂蛋白  动脉硬化  粥样硬化  减轻硬化  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾阴  纳气平喘  补肺气  固表止汗  抗突变  抗氧化  抗辐射  促进组织生长  改善肾功能  抗癌防癌  抗菌  抗炎  抗真菌  增强免疫力  辅助降血脂  耐缺氧  改善血液循环  抗心律失常  抗惊厥  镇静催眠
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含 虫草酸、虫草素、氨基酸、甾醇、甘露醇、生物碱、维生素B1 、 维生素B2 、多糖及矿物质等。
+        </rawdata>
+
+        <segment>
+            含  虫  草酸  、  虫草  素  、  氨基酸  、  甾醇  、  甘露醇  、  生物碱  、  维生素B1    、    维生素B2    、  多糖  及  矿物质  等  。
+        </segment>
+
+        <pos>
+            含#VV  虫#NN  草酸#NN  、#PU  虫草#VV  素#AD  、#PU  氨基酸#CD  、#PU  甾醇#CD  、#PU  甘露醇#CD  、#PU  生物碱#CD  、#PU  维生素B1#CD  、#PU  维生素B2#CD  、#PU  多糖#CD  及#CC  矿物质#CD  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (nn, 草酸#NN, 虫#NN)  (dobj, 含#VV, 草酸#NN)  (conj, 含#VV, 虫草#VV)  (advmod, 虫草#VV, 素#AD)  (nummod, 矿物质#CD, 氨基酸#CD)  (nummod, 矿物质#CD, 甾醇#CD)  (nummod, 矿物质#CD, 甘露醇#CD)  (nummod, 矿物质#CD, 生物碱#CD)  (nummod, 矿物质#CD, 维生素B1#CD)  (nummod, 矿物质#CD, 维生素B2#CD)  (nummod, 矿物质#CD, 多糖#CD)  (cc, 矿物质#CD, 及#CC)  (conj, 含#VV, 矿物质#CD)  (dep, 含#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.煮水当茶喝，而不是用开水泡着喝，此法简单有效 。通常，冬虫夏草一次要煮6~10分钟，注意要用文火，煮沸时间短，水开后要马上喝，边喝边添水，在冬虫夏草水颜色最深的时候是营养最丰富的时候，这个时候的水一定不要浪费。通常冬虫夏草水会经历一个由淡到浓再转淡的过程，余味也很绵长。在冬虫夏草水变淡甚至呈现白色的时候就不要喝了，可以把冬虫夏草吃掉。一壶冬虫夏草茶能喝上至少半个小时，添水4~6次。
+            2.跟肉类产品炖着吃，此法为传统虫草宴吃法，结合不同的肉类品种，功效有一定的差别。此法缺点是不适合每日坚持长期食用。
+            3.使用研磨机将冬虫夏草磨成粉，装进胶囊盒中随身携带，每日定时服用。此法在卫生方面较为有隐患，若不是每日定期服用，不推荐使用。
+            建议购买虫草后，应有计划地服用，最好连续服用3个月以上。
+        </rawdata>
+
+        <segment>
+            煮  水  当  茶  喝  ，  而  不  是  用  开水  泡  着  喝  ，  此  法  简单  有效    。  通常  ，  冬虫夏草  一  次  要  煮  6  ~  10  分钟  ，  注意  要  用  文火  ，  煮沸  时间  短  ，  水  开  后  要  马上  喝  ，  边  喝  边  添  水  ，  在  冬虫夏草  水  颜色  最  深  的  时候  是  营养  最  丰富  的  时候  ，  这个  时候  的  水  一定  不  要  浪费  。  通常  冬虫夏草  水  会  经历  一  个  由  淡到  浓  再  转  淡的  过程  ，  余味  也  很  绵长  。  在  冬虫夏草  水  变淡  甚至  呈现  白色  的  时候  就  不要  喝  了  ，  可以  把  冬  虫  夏草  吃掉  。  一  壶  冬  虫  夏草  茶  能  喝上  至少  半  个  小时  ，  添  水  4  ~  6  次  。
+            跟  肉类  产品  炖  着  吃  ，  此  法  为  传统  虫草宴  吃法  ，  结合  不同  的  肉类  品种  ，  功效  有  一定  的  差别  。  此  法  缺点  是  不  适合  每  日  坚持  长期  食用  。
+            使用  研磨机  将  冬虫  夏草  磨成粉  ，  装进  胶囊  盒中  随身  携带  ，  每  日  定时  服用  。  此  法  在  卫生  方面  较为  有  隐患  ，  若  不  是  每  日  定期  服用  ，  不  推荐  使用  。
+            建议  购买  虫草  后  ，  应  有  计划  地  服用  ，  最好  连续  服用  3  个  月  以上  。
+        </segment>
+
+        <pos>
+            煮#VV  水#NN  当#P  茶#NN  喝#NN  ，#PU  而#AD  不#AD  是#VC  用#P  开水#NN  泡#VV  着#AS  喝#NN  ，#PU  此#DT  法#NN  简单#VA  有效#VA    。#PU  通常#AD  ，#PU  冬虫夏草#AD  一#CD  次#M  要#VV  煮#VV  6#CD  ~#NN  10#CD  分钟#M  ，#PU  注意#VV  要#VV  用#P  文火#VV  ，#PU  煮沸#NN  时间#NN  短#VA  ，#PU  水#NN  开#VV  后#LC  要#VV  马上#AD  喝#VV  ，#PU  边#NN  喝#NN  边#NN  添#VV  水#NN  ，#PU  在#P  冬虫夏草#NN  水#NN  颜色#NN  最#AD  深#VA  的#DEC  时候#NN  是#VC  营养#VA  最#AD  丰富#VA  的#DEC  时候#NN  ，#PU  这个#VV  时候#NN  的#DEC  水#NN  一定#AD  不#AD  要#VV  浪费#VV    。#PU  通常#AD  冬虫夏草#VV  水#NN  会#VV  经历#VV  一#CD  个#M  由#P  淡到#NN  浓#NN  再#AD  转#VV  淡的#NN  过程#NN  ，#PU  余味#AD  也#AD  很#AD  绵长#VV    。#PU  在#P  冬虫夏草#NN  水#NN  变淡#NN  甚至#AD  呈现#VV  白色#JJ  的#DEG  时候#NN  就#P  不要#NN  喝#VV  了#AS  ，#PU  可以#VV  把#BA  冬#NN  虫#NN  夏草#NN  吃掉#VV    。#PU  一#CD  壶#NN  冬#NN  虫#NN  夏草#NN  茶#NN  能#VV  喝上#VV  至少#AD  半#CD  个#M  小时#NN  ，#PU  添#VV  水#NN  4#CD  ~#NN  6#CD  次#M    。#PU    。#PU
+            跟#P  肉类#NN  产品#NN  炖#VV  着#AS  吃#VV  ，#PU  此#PN  法#NR  为#P  传统#JJ  虫草宴#NN  吃法#VV  ，#PU  结合#VV  不同#VA  的#DEC  肉类#JJ  品种#NN  ，#PU  功效#AD  有#VE  一定#JJ  的#DEG  差别#NN    。#PU  此#PN  法#NR  缺点#NN  是#VC  不#AD  适合#VV  每#DT  日#M  坚持#VV  长期#AD  食用#VV    。#PU    。#PU
+            使用#NN  研磨机#NN  将#AD  冬虫#VV  夏草#NN  磨成粉#NN  ，#PU  装进#NN  胶囊#NN  盒中#NN  随身#AD  携带#VV  ，#PU  每#DT  日#M  定时#NN  服用#VV    。#PU  此#DT  法#NN  在#P  卫生#NN  方面#NN  较为#AD  有#VE  隐患#NN  ，#PU  若#CS  不#AD  是#VC  每#DT  日#M  定期#AD  服用#VV  ，#PU  不#AD  推荐#VV  使用#NN    。#PU    。#PU
+            建议#VV  购买#VV  虫草#NN  后#LC  ，#PU  应#VV  有#VE  计划#NN  地#DEV  服用#VV  ，#PU  最好#JJ  连续#AD  服用#VV  3#CD  个#M  月#NN  以上#LC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 煮#VV)  (dobj, 煮#VV, 水#NN)  (case, 喝#NN, 当#P)  (nn, 喝#NN, 茶#NN)  (prep, 泡#VV, 喝#NN)  (advmod, 泡#VV, 而#AD)  (neg, 泡#VV, 不#AD)  (cop, 泡#VV, 是#VC)  (case, 开水#NN, 用#P)  (prep, 泡#VV, 开水#NN)  (dep, 煮#VV, 泡#VV)  (asp, 泡#VV, 着#AS)  (dobj, 泡#VV, 喝#NN)  (det, 法#NN, 此#DT)  (nsubj, 简单#VA, 法#NN)  (dep, 泡#VV, 简单#VA)  (comod, 简单#VA, 有效#VA)   (advmod, 煮#VV, 通常#AD)  (advmod, 煮#VV, 冬虫夏草#AD)  (nummod, 次#M, 一#CD)  (dep, 煮#VV, 次#M)  (mmod, 煮#VV, 要#VV)  (relcl, 水#NN, 煮#VV)  (nummod, ~#NN, 6#CD)  (nummod, 分钟#M, 10#CD)  (range, 煮#VV, 分钟#M)  (conj, 煮#VV, 注意#VV)  (mmod, 喝#VV, 要#VV)  (case, 文火#VV, 用#P)  (prep, 喝#VV, 文火#VV)  (nn, 时间#NN, 煮沸#NN)  (nsubj, 短#VA, 时间#NN)  (ccomp, 文火#VV, 短#VA)  (nsubj, 开#VV, 水#NN)  (conj, 短#VA, 开#VV)  (case, 文火#VV, 后#LC)  (mmod, 喝#VV, 要#VV)  (advmod, 喝#VV, 马上#AD)  (relcl, 时候#NN, 喝#VV)  (nn, 边#NN, 边#NN)  (nn, 边#NN, 喝#NN)  (nsubj, 添#VV, 边#NN)  (ccomp, 喝#VV, 添#VV)  (dobj, 添#VV, 水#NN)  (case, 颜色#NN, 在#P)  (nn, 颜色#NN, 冬虫夏草#NN)  (nn, 颜色#NN, 水#NN)  (prep, 深#VA, 颜色#NN)  (advmod, 深#VA, 最#AD)  (conj, 添#VV, 深#VA)  (mark, 喝#VV, 的#DEC)  (dobj, 注意#VV, 时候#NN)  (cop, 时候#NN, 是#VC)  (relcl, 时候#NN, 营养#VA)  (advmod, 丰富#VA, 最#AD)  (dep, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (dep, 注意#VV, 时候#NN)  (conj, 煮#VV, 这个#VV)  (dobj, 这个#VV, 时候#NN)  (mark, 煮#VV, 的#DEC)  (nsubj, 要#VV, 水#NN)  (advmod, 要#VV, 一定#AD)  (neg, 要#VV, 不#AD)  (root, ROOT#null, 要#VV)  (comod, 要#VV, 浪费#VV)   (advmod, 冬虫夏草#VV, 通常#AD)  (root, ROOT#null, 冬虫夏草#VV)  (dobj, 冬虫夏草#VV, 水#NN)  (mmod, 经历#VV, 会#VV)  (conj, 冬虫夏草#VV, 经历#VV)  (nummod, 个#M, 一#CD)  (clf, 过程#NN, 个#M)  (case, 浓#NN, 由#P)  (nn, 浓#NN, 淡到#NN)  (prep, 转#VV, 浓#NN)  (advmod, 转#VV, 再#AD)  (relcl, 过程#NN, 转#VV)  (dobj, 转#VV, 淡的#NN)  (dobj, 经历#VV, 过程#NN)  (advmod, 绵长#VV, 余味#AD)  (advmod, 绵长#VV, 也#AD)  (advmod, 绵长#VV, 很#AD)  (dep, 冬虫夏草#VV, 绵长#VV)   (case, 变淡#NN, 在#P)  (nn, 变淡#NN, 冬虫夏草#NN)  (nn, 变淡#NN, 水#NN)  (prep, 呈现#VV, 变淡#NN)  (advmod, 呈现#VV, 甚至#AD)  (root, ROOT#null, 呈现#VV)  (assmod, 时候#NN, 白色#JJ)  (case, 白色#JJ, 的#DEG)  (nsubj, 喝#VV, 时候#NN)  (case, 不要#NN, 就#P)  (prep, 喝#VV, 不要#NN)  (dep, 呈现#VV, 喝#VV)  (asp, 喝#VV, 了#AS)  (mmod, 吃掉#VV, 可以#VV)  (ba, 吃掉#VV, 把#BA)  (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nsubj, 吃掉#VV, 夏草#NN)  (dep, 喝#VV, 吃掉#VV)   (nummod, 壶#NN, 一#CD)  (nn, 夏草#NN, 壶#NN)  (nn, 夏草#NN, 冬#NN)  (nn, 夏草#NN, 虫#NN)  (nn, 茶#NN, 夏草#NN)  (nsubj, 喝上#VV, 茶#NN)  (mmod, 喝上#VV, 能#VV)  (root, ROOT#null, 喝上#VV)  (advmod, 个#M, 至少#AD)  (nummod, 个#M, 半#CD)  (clf, 小时#NN, 个#M)  (dobj, 喝上#VV, 小时#NN)  (conj, 喝上#VV, 添#VV)  (nn, ~#NN, 水#NN)  (nummod, ~#NN, 4#CD)  (nummod, 次#M, 6#CD)  (range, 添#VV, 次#M)   (root, ROOT#null, null#null)
+            (case, 炖#VV, 跟#P)  (nn, 产品#NN, 肉类#NN)  (nsubj, 炖#VV, 产品#NN)  (prep, 吃法#VV, 炖#VV)  (rcomp, 炖#VV, 着#AS)  (rcomp, 炖#VV, 吃#VV)  (nsubj, 吃法#VV, 此#PN)  (xsubj, 结合#VV, 此#PN)  (nsubj, 吃法#VV, 法#NR)  (xsubj, 结合#VV, 法#NR)  (case, 虫草宴#NN, 为#P)  (amod, 虫草宴#NN, 传统#JJ)  (prep, 吃法#VV, 虫草宴#NN)  (root, ROOT#null, 吃法#VV)  (ccomp, 吃法#VV, 结合#VV)  (relcl, 品种#NN, 不同#VA)  (mark, 不同#VA, 的#DEC)  (amod, 品种#NN, 肉类#JJ)  (dobj, 结合#VV, 品种#NN)  (advmod, 有#VE, 功效#AD)  (conj, 结合#VV, 有#VE)  (assmod, 差别#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 差别#NN)   (dep, 坚持#VV, 此#PN)  (nn, 缺点#NN, 法#NR)  (nsubj, 坚持#VV, 缺点#NN)  (cop, 坚持#VV, 是#VC)  (neg, 适合#VV, 不#AD)  (dep, 坚持#VV, 适合#VV)  (dep, 适合#VV, 每#DT)  (clf, 每#DT, 日#M)  (root, ROOT#null, 坚持#VV)  (advmod, 食用#VV, 长期#AD)  (ccomp, 坚持#VV, 食用#VV)   (root, ROOT#null, null#null)
+            (nn, 研磨机#NN, 使用#NN)  (nsubj, 冬虫#VV, 研磨机#NN)  (advmod, 冬虫#VV, 将#AD)  (root, ROOT#null, 冬虫#VV)  (nn, 磨成粉#NN, 夏草#NN)  (dobj, 冬虫#VV, 磨成粉#NN)  (nn, 盒中#NN, 装进#NN)  (nn, 盒中#NN, 胶囊#NN)  (nsubj, 携带#VV, 盒中#NN)  (advmod, 携带#VV, 随身#AD)  (conj, 冬虫#VV, 携带#VV)  (det, 定时#NN, 每#DT)  (clf, 每#DT, 日#M)  (nsubj, 服用#VV, 定时#NN)  (conj, 冬虫#VV, 服用#VV)   (det, 法#NN, 此#DT)  (nsubj, 有#VE, 法#NN)  (case, 方面#NN, 在#P)  (nn, 方面#NN, 卫生#NN)  (prep, 有#VE, 方面#NN)  (advmod, 有#VE, 较为#AD)  (root, ROOT#null, 有#VE)  (nsubj, 推荐#VV, 隐患#NN)  (advmod, 服用#VV, 若#CS)  (neg, 服用#VV, 不#AD)  (cop, 服用#VV, 是#VC)  (dep, 服用#VV, 每#DT)  (clf, 每#DT, 日#M)  (advmod, 服用#VV, 定期#AD)  (dep, 推荐#VV, 服用#VV)  (neg, 推荐#VV, 不#AD)  (dep, 有#VE, 推荐#VV)  (dobj, 推荐#VV, 使用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 建议#VV)  (loc, 服用#VV, 购买#VV)  (dobj, 购买#VV, 虫草#NN)  (case, 购买#VV, 后#LC)  (mmod, 服用#VV, 应#VV)  (dvpmod, 服用#VV, 有#VE)  (dobj, 有#VE, 计划#NN)  (mark, 有#VE, 地#DEV)  (ccomp, 建议#VV, 服用#VV)  (dep, 服用#VV, 最好#JJ)  (advmod, 服用#VV, 连续#AD)  (dep, 建议#VV, 服用#VV)  (nummod, 个#M, 3#CD)  (clf, 月#NN, 个#M)  (loc, 服用#VV, 月#NN)  (case, 月#NN, 以上#LC)
+        </parsing>
+
+        <tag>
+            法简单  有效简单  煮水  煮沸时间  喝时候  注意时候  时候营养  这个时候  转过程  经历过程  呈现  喝上小时  肉类产品  传统虫草宴  吃法  品种不同  肉类品种  结合品种  坚持  使用研磨机  夏草磨成粉  冬虫磨成粉  装进盒中  胶囊盒中  卫生方面  推荐使用  建议  购买虫草  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201210/16133222.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\452 冬虫夏草.jpg
+    </picturelocalurl>
+
+</content>

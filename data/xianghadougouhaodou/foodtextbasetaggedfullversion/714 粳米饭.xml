@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        714
+    </id>
+
+    <foodname>
+        粳米饭
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        大米
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            粳米不可同马肉食，发瘤疾。不可和苍耳食，令人卒心痛
+        </rawdata>
+
+        <segment>
+            粳米  不  可  同  马  肉食  ，  发瘤疾  。  不  可  和  苍耳  食  ，  令  人  卒  心痛
+        </segment>
+
+        <pos>
+            粳米#NN  不#AD  可#VV  同#DT  马#NN  肉食#VV  ，#PU  发瘤疾#VV  。#PU  不#AD  可#VV  和#CC  苍耳#VV  食#NN  ，#PU  令#VV  人#NN  卒#VV  心痛#NN
+        </pos>
+
+        <parsing>
+            (nsubj, 可#VV, 粳米#NN)  (neg, 可#VV, 不#AD)  (dep, 肉食#VV, 可#VV)  (det, 马#NN, 同#DT)  (nsubj, 肉食#VV, 马#NN)  (root, ROOT#null, 肉食#VV)  (ccomp, 肉食#VV, 发瘤疾#VV)  (neg, 苍耳#VV, 不#AD)  (mmod, 苍耳#VV, 可#VV)  (cc, 苍耳#VV, 和#CC)  (conj, 肉食#VV, 苍耳#VV)  (dobj, 苍耳#VV, 食#NN)  (conj, 苍耳#VV, 令#VV)  (dobj, 令#VV, 人#NN)  (dep, 令#VV, 卒#VV)  (dobj, 卒#VV, 心痛#NN)
+        </parsing>
+
+        <tag>
+            粳米不可同马肉食  发瘤疾  不可  苍耳食  令人卒心痛  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            糖尿病患者不宜多食;
+        </rawdata>
+
+        <segment>
+            糖尿病  患者  不  宜  多  食  ;
+        </segment>
+
+        <pos>
+            糖尿病#NN  患者#NN  不#AD  宜#NR  多#CD  食#NN  ;#VV
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 糖尿病#NN)  (nsubj, ;#VV, 患者#NN)  (neg, ;#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (prep, ;#VV, 食#NN)  (root, ROOT#null, ;#VV)
+        </parsing>
+
+        <tag>
+            糖尿病  患者  不宜多食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            粳米是我国南方人民的主食，含有大量碳水化合物，约占79%，是热量的主要来源。粳米，是粳稻的种仁，又称大米。其味甘淡，其性平和，每日食用，是滋补之物。
+        </rawdata>
+
+        <segment>
+            粳米  是  我  国  南方  人民  的  主食  ，  含有  大量  碳水化合物  ，  约  占  79%  ，  是  热量  的  主要  来源  。  粳米  ，  是  粳稻  的  种仁  ，  又  称  大米  。  其味  甘淡  ，  其  性  平和  ，  每  日  食用  ，  是  滋补  之  物  。
+        </segment>
+
+        <pos>
+            粳米#AD  是#VC  我#PN  国#NN  南方#NN  人民#NN  的#DEG  主食#NN  ，#PU  含有#VV  大量#CD  碳水化合物#NN  ，#PU  约#AD  占#VV  79#CD  %#NN  ，#PU  是#VC  热量#NN  的#DEG  主要#JJ  来源#NN    。#PU  粳米#VV  ，#PU  是#VC  粳稻#NN  的#DEG  种仁#NN  ，#PU  又#AD  称#VV  大米#NN    。#PU  其味#NR  甘淡#VV  ，#PU  其#PN  性#NN  平和#NR  ，#PU  每#DT  日#M  食用#VV  ，#PU  是#VC  滋补#NN  之#DEG  物#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 主食#NN, 粳米#AD)  (cop, 主食#NN, 是#VC)  (nn, 国#NN, 我#PN)  (nn, 人民#NN, 国#NN)  (nn, 人民#NN, 南方#NN)  (assmod, 主食#NN, 人民#NN)  (case, 人民#NN, 的#DEG)  (root, ROOT#null, 主食#NN)  (conj, 主食#NN, 含有#VV)  (nummod, 碳水化合物#NN, 大量#CD)  (dobj, 含有#VV, 碳水化合物#NN)  (advmod, 占#VV, 约#AD)  (conj, 主食#NN, 占#VV)  (nummod, %#NN, 79#CD)  (dobj, 占#VV, %#NN)  (cop, 来源#NN, 是#VC)  (assmod, 来源#NN, 热量#NN)  (case, 热量#NN, 的#DEG)  (amod, 来源#NN, 主要#JJ)  (conj, 主食#NN, 来源#NN)   (root, ROOT#null, 粳米#VV)  (cop, 种仁#NN, 是#VC)  (assmod, 种仁#NN, 粳稻#NN)  (case, 粳稻#NN, 的#DEG)  (ccomp, 粳米#VV, 种仁#NN)  (advmod, 称#VV, 又#AD)  (dep, 种仁#NN, 称#VV)  (dobj, 称#VV, 大米#NN)   (nsubj, 甘淡#VV, 其味#NR)  (root, ROOT#null, 甘淡#VV)  (nn, 性#NN, 其#PN)  (nsubj, 食用#VV, 性#NN)  (nsubj, 食用#VV, 平和#NR)  (dep, 食用#VV, 每#DT)  (clf, 每#DT, 日#M)  (ccomp, 甘淡#VV, 食用#VV)  (cop, 物#NN, 是#VC)  (assmod, 物#NN, 滋补#NN)  (case, 滋补#NN, 之#DEG)  (dep, 食用#VV, 物#NN)
+        </parsing>
+
+        <tag>
+            南方人民  含有碳水化合物  主食  来源  粳米  甘淡  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            含有脂肪、钙、磷、铁及B族维生素等多种营养成分，能提高人体免疫功能，促进血液循环，多吃能降低胆固醇，防过敏性疾病。
+        </rawdata>
+
+        <segment>
+            含有  脂肪  、  钙  、  磷  、  铁  及  B  族  维生素  等  多  种  营养  成分  ，  能  提高  人体  免疫  功能  ，  促进  血液  循环  ，  多  吃  能  降低  胆固醇  ，  防  过敏性  疾病  。
+        </segment>
+
+        <pos>
+            含有#VV  脂肪#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  铁#NN  及#CC  B#NN  族#NN  维生素#NN  等#ETC  多#CD  种#M  营养#VA  成分#NN  ，#PU  能#VV  提高#VV  人体#NN  免疫#NN  功能#NN  ，#PU  促进#VV  血液#NN  循环#NN  ，#PU  多#AD  吃#VV  能#VV  降低#VV  胆固醇#NN  ，#PU  防#VV  过敏性#NN  疾病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含有#VV)  (conj, 维生素#NN, 脂肪#NN)  (conj, 维生素#NN, 钙#NN)  (conj, 维生素#NN, 磷#NN)  (conj, 维生素#NN, 铁#NN)  (cc, 维生素#NN, 及#CC)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 成分#NN, 种#M)  (nfincl, 成分#NN, 营养#VA)  (dobj, 含有#VV, 成分#NN)  (mmod, 提高#VV, 能#VV)  (conj, 含有#VV, 提高#VV)  (nn, 功能#NN, 人体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)  (conj, 含有#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (advmod, 降低#VV, 多#AD)  (mmod, 降低#VV, 吃#VV)  (mmod, 降低#VV, 能#VV)  (conj, 含有#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 含有#VV, 防#VV)  (nn, 疾病#NN, 过敏性#NN)  (dobj, 防#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+            含有  维生素  脂肪  人体功能  免疫功能  提高功能  血液循环  促进循环  降低胆固醇  过敏性疾病  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        益脾胃  除烦渴
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            制作米饭时一定要“蒸”，不要“捞”，因为捞饭会损失掉大量维生素
+        </rawdata>
+
+        <segment>
+            制作  米饭  时  一定  要  “  蒸  ”  ，  不  要  “  捞  ”  ，  因为  捞饭  会  损失  掉  大量  维生素
+        </segment>
+
+        <pos>
+            制作#VV  米饭#NN  时#LC  一定#AD  要#VV  ``#VV  蒸#NN  ''#NN  ，#PU  不#AD  要#VV  ``#VV  捞#NN  ''#NN  ，#PU  因为#P  捞饭#VV  会#NN  损失#NN  掉#VV  大量#CD  维生素#NN
+        </pos>
+
+        <parsing>
+            (loc, ``#VV, 制作#VV)  (dobj, 制作#VV, 米饭#NN)  (case, 制作#VV, 时#LC)  (advmod, ``#VV, 一定#AD)  (mmod, ``#VV, 要#VV)  (root, ROOT#null, ``#VV)  (nn, ''#NN, 蒸#NN)  (dobj, ``#VV, ''#NN)  (neg, ``#VV, 不#AD)  (mmod, ``#VV, 要#VV)  (conj, ``#VV, ``#VV)  (nn, ''#NN, 捞#NN)  (dobj, ``#VV, ''#NN)  (case, 捞饭#VV, 因为#P)  (prep, 掉#VV, 捞饭#VV)  (nn, 损失#NN, 会#NN)  (dobj, 捞饭#VV, 损失#NN)  (conj, ``#VV, 掉#VV)  (nummod, 维生素#NN, 大量#CD)  (dobj, 掉#VV, 维生素#NN)
+        </parsing>
+
+        <tag>
+            制作米饭  捞饭损失  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/f0/40/82160_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\714 粳米饭.jpg
+    </picturelocalurl>
+
+</content>

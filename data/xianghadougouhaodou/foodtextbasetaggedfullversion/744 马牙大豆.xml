@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        744
+    </id>
+
+    <foodname>
+        马牙大豆
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            慢性消化道疾病、痛风者少食;
+        </rawdata>
+
+        <segment>
+            慢性  消化道  疾病  、  痛风  者  少  食  ;
+        </segment>
+
+        <pos>
+            慢性#NN  消化道#NN  疾病#NN  、#PU  痛风#NN  者#NN  少#JJ  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 疾病#NN, 慢性#NN)  (nn, 疾病#NN, 消化道#NN)  (conj, ;#NN, 疾病#NN)  (nn, 者#NN, 痛风#NN)  (nn, ;#NN, 者#NN)  (amod, 食#NN, 少#JJ)  (nn, ;#NN, 食#NN)  (root, ROOT#null, ;#NN)
+        </parsing>
+
+        <tag>
+            慢性消化道疾病  痛风者少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            豆类中营养价值最高的品种，在百种天然的食品中，它名列榜首，含有大量的不饱和脂肪酸，多种微量元素、维生素及优质蛋白质。大豆经加工可制作出很多种豆制品，是高血压、动脉硬化、心脏病等心血管病人的有益食品。
+        </rawdata>
+
+        <segment>
+            豆类  中  营养  价值  最高  的  品种  ，  在  百  种  天然  的  食品  中  ，  它  名列  榜首  ，  含有  大量  的  不饱和  脂肪酸  ，  多  种  微量  元素  、  维生素  及  优质  蛋白质  。  大豆  经  加工  可  制作  出  很多  种豆  制品  ，  是  高血压  、  动脉  硬化  、  心脏病  等心  血管  病人  的  有益  食品  。
+        </segment>
+
+        <pos>
+            豆类#NN  中#LC  营养#VA  价值#VV  最高#JJ  的#DEG  品种#NN  ，#PU  在#P  百#CD  种#M  天然#JJ  的#DEG  食品#NN  中#LC  ，#PU  它#PN  名列#VV  榜首#NN  ，#PU  含有#VV  大量#CD  的#DEG  不饱和#NN  脂肪酸#NN  ，#PU  多#CD  种#M  微量#VV  元素#NN  、#PU  维生素#NN  及#CC  优质#JJ  蛋白质#NN    。#PU  大豆#NN  经#P  加工#NN  可#VV  制作#VV  出#VV  很多#CD  种豆#NN  制品#NN  ，#PU  是#VC  高血压#NN  、#PU  动脉#NN  硬化#NN  、#PU  心脏病#NN  等心#NN  血管#NN  病人#NN  的#DEC  有益#VA  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 价值#VV, 豆类#NN)  (case, 豆类#NN, 中#LC)  (dep, 价值#VV, 营养#VA)  (root, ROOT#null, 价值#VV)  (assmod, 品种#NN, 最高#JJ)  (case, 最高#JJ, 的#DEG)  (dobj, 价值#VV, 品种#NN)  (case, 食品#NN, 在#P)  (nummod, 种#M, 百#CD)  (clf, 食品#NN, 种#M)  (assmod, 食品#NN, 天然#JJ)  (case, 天然#JJ, 的#DEG)  (prep, 名列#VV, 食品#NN)  (case, 食品#NN, 中#LC)  (nsubj, 名列#VV, 它#PN)  (conj, 价值#VV, 名列#VV)  (dobj, 名列#VV, 榜首#NN)  (conj, 价值#VV, 含有#VV)  (assmod, 脂肪酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (nn, 脂肪酸#NN, 不饱和#NN)  (dobj, 含有#VV, 脂肪酸#NN)  (nummod, 种#M, 多#CD)  (nsubj, 微量#VV, 种#M)  (conj, 价值#VV, 微量#VV)  (conj, 蛋白质#NN, 元素#NN)  (conj, 蛋白质#NN, 维生素#NN)  (cc, 蛋白质#NN, 及#CC)  (amod, 蛋白质#NN, 优质#JJ)  (dobj, 微量#VV, 蛋白质#NN)   (nsubj, 制作#VV, 大豆#NN)  (case, 加工#NN, 经#P)  (prep, 制作#VV, 加工#NN)  (mmod, 制作#VV, 可#VV)  (root, ROOT#null, 制作#VV)  (relcl, 食品#NN, 出#VV)  (nummod, 种豆#NN, 很多#CD)  (nn, 制品#NN, 种豆#NN)  (dobj, 出#VV, 制品#NN)  (cop, 病人#NN, 是#VC)  (conj, 血管#NN, 高血压#NN)  (nn, 血管#NN, 动脉#NN)  (conj, 血管#NN, 硬化#NN)  (nn, 血管#NN, 心脏病#NN)  (nn, 血管#NN, 等心#NN)  (nn, 病人#NN, 血管#NN)  (conj, 出#VV, 病人#NN)  (mark, 出#VV, 的#DEC)  (nfincl, 食品#NN, 有益#VA)  (dobj, 制作#VV, 食品#NN)
+        </parsing>
+
+        <tag>
+            价值品种  名列榜首  不饱和脂肪酸  含有脂肪酸  维生素  优质蛋白质  微量蛋白质  出食品  种豆制品  高血压  动脉血管  硬化  心脏病血管  等心血管  血管病人  制作食品  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            有益心脏疾病,通血,降糖消渴
+        </rawdata>
+
+        <segment>
+            有益  心脏  疾病  ,  通血  ,  降糖  消渴
+        </segment>
+
+        <pos>
+            有益#VA  心脏#NN  疾病#NN  ,#NN  通血#AD  ,#VV  降糖#JJ  消渴#NN
+        </pos>
+
+        <parsing>
+            (relcl, ,#NN, 有益#VA)  (nn, ,#NN, 心脏#NN)  (nn, ,#NN, 疾病#NN)  (advmod, ,#VV, 通血#AD)  (root, ,#VV, 通血#AD)  (amod, 消渴#NN, 降糖#JJ)  (dobj, 通血#AD, 消渴#NN)  (dobj, ,#VV, 消渴#NN)
+        </parsing>
+
+        <tag>
+            降糖消渴  通血消渴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血糖  延缓衰老  促进消化  通便  补肾  健脾利湿  固精
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/0d/41/82189_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\744 马牙大豆.jpg
+    </picturelocalurl>
+
+</content>

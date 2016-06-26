@@ -1,0 +1,120 @@
+<content>
+
+    <id>
+        1154
+    </id>
+
+    <foodname>
+        走地鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            以农家所习惯的谷、饭、米、糠喂食的，自然放养的鸡，自然生长的，一般肉比较实，不会象饲料鸡那么难吃。
+        </rawdata>
+
+        <segment>
+            以  农家  所  习惯  的  谷  、  饭  、  米  、  糠喂食  的  ，  自然  放养  的  鸡  ，  自然  生长  的  ，  一般  肉  比较  实  ，  不  会  象  饲料  鸡  那么  难吃  。
+        </segment>
+
+        <pos>
+            以#P  农家#CD  所#M  习惯#NN  的#DEG  谷#NN  、#PU  饭#NN  、#PU  米#M  、#PU  糠喂食#VA  的#DEC  ，#PU  自然#NN  放养#NN  的#DEG  鸡#NN  ，#PU  自然#NN  生长#NN  的#DEC  ，#PU  一般#JJ  肉#NN  比较#AD  实#VA  ，#PU  不#AD  会#VV  象#P  饲料#NN  鸡#NN  那么#AD  难吃#VA  。#PU
+        </pos>
+
+        <parsing>
+            (case, 习惯#NN, 以#P)  (nummod, 所#M, 农家#CD)  (clf, 习惯#NN, 所#M)  (assmod, 谷#NN, 习惯#NN)  (case, 习惯#NN, 的#DEG)  (conj, 肉#NN, 谷#NN)  (conj, 肉#NN, 饭#NN)  (clf, 生长#NN, 米#M)  (dep, 生长#NN, 糠喂食#VA)  (mark, 糠喂食#VA, 的#DEC)  (nn, 放养#NN, 自然#NN)  (assmod, 鸡#NN, 放养#NN)  (case, 放养#NN, 的#DEG)  (dep, 生长#NN, 鸡#NN)  (nn, 生长#NN, 自然#NN)  (dep, 肉#NN, 生长#NN)  (mark, 生长#NN, 的#DEC)  (amod, 肉#NN, 一般#JJ)  (nsubj, 实#VA, 肉#NN)  (advmod, 实#VA, 比较#AD)  (root, ROOT#null, 实#VA)  (neg, 难吃#VA, 不#AD)  (mmod, 难吃#VA, 会#VV)  (case, 鸡#NN, 象#P)  (nn, 鸡#NN, 饲料#NN)  (prep, 难吃#VA, 鸡#NN)  (advmod, 难吃#VA, 那么#AD)  (dep, 实#VA, 难吃#VA)
+        </parsing>
+
+        <tag>
+            自然放养  自然生长  一般肉  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            走地鸡在自然环境中生长，吃的也都是天然食物，产出的鸡蛋品质自然会好一些。
+        </rawdata>
+
+        <segment>
+            走  地  鸡  在  自然  环境  中  生长  ，  吃  的  也  都  是  天然  食物  ，  产出  的  鸡蛋  品质  自然  会好  一些  。
+        </segment>
+
+        <pos>
+            走#VV  地#NN  鸡#NN  在#P  自然#NN  环境#NN  中#LC  生长#NN  ，#PU  吃#VV  的#DEC  也#AD  都#AD  是#VC  天然#JJ  食物#NN  ，#PU  产出#NN  的#DEG  鸡蛋#NN  品质#NN  自然#AD  会好#VV  一些#CD  。#PU
+        </pos>
+
+        <parsing>
+            (dep, 食物#NN, 走#VV)  (nn, 鸡#NN, 地#NN)  (nn, 生长#NN, 鸡#NN)  (case, 环境#NN, 在#P)  (nn, 环境#NN, 自然#NN)  (prep, 生长#NN, 环境#NN)  (case, 环境#NN, 中#LC)  (dobj, 走#VV, 生长#NN)  (nsubj, 食物#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (advmod, 食物#NN, 也#AD)  (advmod, 食物#NN, 都#AD)  (cop, 食物#NN, 是#VC)  (amod, 食物#NN, 天然#JJ)  (root, ROOT#null, 食物#NN)  (assmod, 品质#NN, 产出#NN)  (case, 产出#NN, 的#DEG)  (nn, 品质#NN, 鸡蛋#NN)  (nsubj, 会好#VV, 品质#NN)  (advmod, 会好#VV, 自然#AD)  (conj, 食物#NN, 会好#VV)  (range, 会好#VV, 一些#CD)
+        </parsing>
+
+        <tag>
+            自然环境  天然食物  鸡蛋品质  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  明目  补气  温中  补阴  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            走地鸡在自然环境中生长，吃的也都是天然食物，不管是走地鸡的肉质还是产出的鸡蛋品质自然会好一些。而一般养鸡场养的洋鸡吃的是人工饲料，又不运动，其营养价值可能不如走地鸡的营养价值高 。 一般来说，走地鸡的鸡肉比洋鸡好吃，而且有更多的优质蛋白质和人体必须的氨基酸，吃的也安全。因此，即使价钱贵出许多，很多人还是愿意购买走地鸡，尤其是给老人、孕妇和孩子吃。
+        </rawdata>
+
+        <segment>
+            走  地  鸡  在  自然  环境  中  生长  ，  吃  的  也  都  是  天然  食物  ，  不管是  走  地  鸡  的  肉质  还是  产出  的  鸡蛋  品质  自然  会好  一些  。  而  一般  养鸡场  养  的  洋  鸡  吃  的  是  人工  饲料  ，  又  不  运动  ，  其  营养  价值  可能  不如  走  地  鸡  的  营养  价值  高    。    一般来说  ，  走  地  鸡  的  鸡肉  比  洋鸡  好吃  ，  而且  有  更  多  的  优质  蛋白质  和  人体  必须  的  氨基酸  ，  吃  的  也  安全  。  因此  ，  即使  价钱  贵出  许多  ，  很多  人  还是  愿意  购买  走  地  鸡  ，  尤其是  给  老人  、  孕妇  和  孩子  吃  。
+        </segment>
+
+        <pos>
+            走#VV  地#NN  鸡#NN  在#P  自然#NN  环境#NN  中#LC  生长#NN  ，#PU  吃#VV  的#DEC  也#AD  都#AD  是#VC  天然#JJ  食物#NN  ，#PU  不管是#AD  走#VV  地#NN  鸡#NN  的#DEC  肉质#VA  还是#CC  产出#NN  的#DEG  鸡蛋#NN  品质#NN  自然#AD  会好#VV  一些#CD    。#PU  而#AD  一般#AD  养鸡场#AD  养#VV  的#DEC  洋#NN  鸡#NN  吃#VV  的#DEC  是#VC  人工#JJ  饲料#NN  ，#PU  又#AD  不#AD  运动#NN  ，#PU  其#PN  营养#VA  价值#NN  可能#VV  不如#AD  走#VV  地#NN  鸡#NN  的#DEC  营养#VA  价值#NN  高#VA    。#PU  一般来说#CD  ，#PU  走#VV  地#NN  鸡#NN  的#DEC  鸡肉#NN  比#P  洋鸡#VV  好吃#NN  ，#PU  而且#CC  有#VE  更#AD  多#VA  的#DEC  优质#JJ  蛋白质#NN  和#CC  人体#VV  必须#VV  的#DEC  氨基酸#NN  ，#PU  吃#VV  的#DEC  也#AD  安全#VA    。#PU  因此#AD  ，#PU  即使#CS  价钱#NN  贵出#VV  许多#CD  ，#PU  很多#CD  人#NN  还是#AD  愿意#VV  购买#VV  走#VV  地#NN  鸡#NN  ，#PU  尤其是#AD  给#P  老人#NN  、#PU  孕妇#NN  和#CC  孩子#NN  吃#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 走#VV)  (nn, 鸡#NN, 地#NN)  (dobj, 走#VV, 鸡#NN)  (case, 生长#NN, 在#P)  (nn, 环境#NN, 自然#NN)  (dep, 生长#NN, 环境#NN)  (case, 环境#NN, 中#LC)  (prep, 会好#VV, 生长#NN)  (nsubj, 食物#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (advmod, 食物#NN, 也#AD)  (advmod, 食物#NN, 都#AD)  (cop, 食物#NN, 是#VC)  (amod, 食物#NN, 天然#JJ)  (dep, 会好#VV, 食物#NN)  (dep, 会好#VV, 不管是#AD)  (nsubj, 肉质#VA, 走#VV)  (nn, 鸡#NN, 地#NN)  (dobj, 走#VV, 鸡#NN)  (mark, 走#VV, 的#DEC)  (dep, 不管是#AD, 肉质#VA)  (cc, 肉质#VA, 还是#CC)  (assmod, 品质#NN, 产出#NN)  (case, 产出#NN, 的#DEG)  (nn, 品质#NN, 鸡蛋#NN)  (dep, 肉质#VA, 品质#NN)  (advmod, 会好#VV, 自然#AD)  (dep, 走#VV, 会好#VV)  (range, 会好#VV, 一些#CD)   (advmod, 饲料#NN, 而#AD)  (advmod, 养#VV, 一般#AD)  (advmod, 养#VV, 养鸡场#AD)  (relcl, 鸡#NN, 养#VV)  (mark, 养#VV, 的#DEC)  (nn, 鸡#NN, 洋#NN)  (nsubj, 吃#VV, 鸡#NN)  (nsubj, 饲料#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (cop, 饲料#NN, 是#VC)  (amod, 饲料#NN, 人工#JJ)  (root, ROOT#null, 饲料#NN)  (advmod, 走#VV, 又#AD)  (neg, 走#VV, 不#AD)  (nsubj, 营养#VA, 运动#NN)  (nsubj, 营养#VA, 其#PN)  (dep, 价值#NN, 营养#VA)  (dobj, 走#VV, 价值#NN)  (mmod, 走#VV, 可能#VV)  (advmod, 走#VV, 不如#AD)  (relcl, 价值#NN, 走#VV)  (nn, 鸡#NN, 地#NN)  (dobj, 走#VV, 鸡#NN)  (mark, 走#VV, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (conj, 饲料#NN, 高#VA)   (dep, 走#VV, 一般来说#CD)  (relcl, 鸡肉#NN, 走#VV)  (nn, 鸡#NN, 地#NN)  (dobj, 走#VV, 鸡#NN)  (mark, 走#VV, 的#DEC)  (nsubj, 安全#VA, 鸡肉#NN)  (case, 洋鸡#VV, 比#P)  (prep, 安全#VA, 洋鸡#VV)  (dobj, 洋鸡#VV, 好吃#NN)  (cc, 洋鸡#VV, 而且#CC)  (conj, 洋鸡#VV, 有#VE)  (advmod, 多#VA, 更#AD)  (relcl, 蛋白质#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (amod, 蛋白质#NN, 优质#JJ)  (dobj, 有#VE, 蛋白质#NN)  (cc, 洋鸡#VV, 和#CC)  (conj, 洋鸡#VV, 人体#VV)  (relcl, 氨基酸#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (dobj, 人体#VV, 氨基酸#NN)  (conj, 洋鸡#VV, 吃#VV)  (mark, 洋鸡#VV, 的#DEC)  (advmod, 安全#VA, 也#AD)  (root, ROOT#null, 安全#VA)   (advmod, 愿意#VV, 因此#AD)  (advmod, 贵出#VV, 即使#CS)  (nsubj, 贵出#VV, 价钱#NN)  (dep, 愿意#VV, 贵出#VV)  (range, 贵出#VV, 许多#CD)  (nummod, 人#NN, 很多#CD)  (nsubj, 愿意#VV, 人#NN)  (xsubj, 走#VV, 人#NN)  (advmod, 愿意#VV, 还是#AD)  (root, ROOT#null, 愿意#VV)  (mmod, 走#VV, 购买#VV)  (ccomp, 愿意#VV, 走#VV)  (nn, 鸡#NN, 地#NN)  (dobj, 走#VV, 鸡#NN)  (advmod, 吃#VV, 尤其是#AD)  (case, 孩子#NN, 给#P)  (conj, 孩子#NN, 老人#NN)  (conj, 孩子#NN, 孕妇#NN)  (cc, 孩子#NN, 和#CC)  (prep, 吃#VV, 孩子#NN)  (conj, 愿意#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+            自然环境  天然食物  鸡蛋品质  养鸡  人工饲料  运动营养  走价值  走鸡肉  鸡肉安全  洋鸡好吃  优质蛋白质  必须氨基酸  人体氨基酸  愿意  孩子  老人  孕妇  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/30/42/16944_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1154 走地鸡.jpg
+    </picturelocalurl>
+
+</content>

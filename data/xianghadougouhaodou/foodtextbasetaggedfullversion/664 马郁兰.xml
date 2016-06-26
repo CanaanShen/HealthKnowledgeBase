@@ -1,0 +1,166 @@
+<content>
+
+    <id>
+        664
+    </id>
+
+    <foodname>
+        马郁兰
+    </foodname>
+
+    <firstcategory>
+        蔬菜、菌藻、药食
+    </firstcategory>
+
+    <secondcategory>
+        蔬菜类
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            体虚多汗者禁用
+        </rawdata>
+
+        <segment>
+            体虚  多汗者  禁用
+        </segment>
+
+        <pos>
+            体虚#NN  多汗者#NN  禁用#NN
+        </pos>
+
+        <parsing>
+            (nn, 禁用#NN, 体虚#NN)  (nn, 禁用#NN, 多汗者#NN)  (root, ROOT#null, 禁用#NN)
+        </parsing>
+
+        <tag>
+            体虚多汗者禁用  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                营养素
+            </elename>
+            <elevalue>
+                含量(每100克)
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                53kal
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            马郁兰原产地是在地中海，后来希腊人和罗马人将这种植物视为幸福的象征。在烹饪方面，马郁兰是一种调味料，常被用来调配混合型调味剂，如普罗旺斯香草（Herbes de Provence）和Za'atar中。虽然马郁兰对寒冷较敏感，不过仍可以在耐寒性第5类的地区生长。马郁兰含具有芳香气味的百里香酚和香荆芥酚，可促进消化、消胀和环节痉挛。
+        </rawdata>
+
+        <segment>
+            马郁兰  原  产地  是  在  地中海  ，  后来  希腊人  和  罗马人  将  这  种  植物  视为  幸福  的  象征  。  在  烹饪  方面  ，  马郁兰  是  一  种  调味料  ，  常  被  用来  调配  混合型  调味  剂  ，  如  普罗旺斯  香草  （  Herbes  de  Provence  ）  和  Za'atar  中  。  虽然  马郁兰  对  寒冷  较  敏感  ，  不过  仍  可以  在  耐寒性  第  5  类  的  地区  生长  。  马郁兰  含  具有  芳香  气味  的  百里香  酚和  香荆芥酚  ，  可  促进  消化  、  消胀  和  环节  痉挛  。
+        </segment>
+
+        <pos>
+            马郁兰#NR  原#JJ  产地#NN  是#VC  在#P  地中海#NR  ，#PU  后来#AD  希腊人#VV  和#CC  罗马人#AD  将#BA  这#DT  种#M  植物#NN  视为#VV  幸福#NN  的#DEC  象征#VV    。#PU  在#P  烹饪#NN  方面#NN  ，#PU  马郁兰#AD  是#VC  一#CD  种#M  调味料#NN  ，#PU  常#AD  被#SB  用来#VV  调配#NN  混合型#NN  调味#NN  剂#NN  ，#PU  如#P  普罗旺斯#NN  香草#NN  （#PU  Herbes#NR  de#NN  Provence#NN  ）#PU  和#CC  Za'atar#NN  中#LC    。#PU  虽然#CS  马郁兰#VV  对#P  寒冷#VA  较#AD  敏感#VA  ，#PU  不过#AD  仍#AD  可以#VV  在#P  耐寒性#NR  第#VV  5#CD  类#M  的#DEC  地区#NN  生长#NN    。#PU  马郁兰#AD  含#VV  具有#VV  芳香#NN  气味#NN  的#DEC  百里香#CD  酚和#NN  香荆芥酚#NN  ，#PU  可#VV  促进#VV  消化#NN  、#PU  消胀#NN  和#CC  环节#NN  痉挛#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 产地#NN, 马郁兰#NR)  (amod, 产地#NN, 原#JJ)  (nsubj, 希腊人#VV, 产地#NN)  (cop, 希腊人#VV, 是#VC)  (case, 地中海#NR, 在#P)  (prep, 希腊人#VV, 地中海#NR)  (advmod, 希腊人#VV, 后来#AD)  (root, ROOT#null, 希腊人#VV)  (cc, 希腊人#VV, 和#CC)  (advmod, 视为#VV, 罗马人#AD)  (ba, 视为#VV, 将#BA)  (det, 植物#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 视为#VV, 植物#NN)  (dep, 希腊人#VV, 视为#VV)  (dobj, 视为#VV, 幸福#NN)  (mark, 希腊人#VV, 的#DEC)  (conj, 希腊人#VV, 象征#VV)   (case, 方面#NN, 在#P)  (nn, 方面#NN, 烹饪#NN)  (prep, 调味料#NN, 方面#NN)  (advmod, 调味料#NN, 马郁兰#AD)  (cop, 调味料#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 调味料#NN, 种#M)  (root, ROOT#null, 调味料#NN)  (advmod, 用来#VV, 常#AD)  (auxpass, 用来#VV, 被#SB)  (dep, 调味料#NN, 用来#VV)  (nn, 剂#NN, 调配#NN)  (nn, 剂#NN, 混合型#NN)  (nn, 剂#NN, 调味#NN)  (dobj, 用来#VV, 剂#NN)  (case, Za'atar#NN, 如#P)  (nn, 香草#NN, 普罗旺斯#NN)  (conj, Za'atar#NN, 香草#NN)  (nn, Provence#NN, Herbes#NR)  (nn, Provence#NN, de#NN)  (prnmod, 香草#NN, Provence#NN)  (cc, Za'atar#NN, 和#CC)  (dep, 用来#VV, Za'atar#NN)  (case, Za'atar#NN, 中#LC)   (advmod, 马郁兰#VV, 虽然#CS)  (root, ROOT#null, 马郁兰#VV)  (case, 地区#NN, 对#P)  (relcl, 地区#NN, 寒冷#VA)  (advmod, 敏感#VA, 较#AD)  (dep, 寒冷#VA, 敏感#VA)  (advmod, 第#VV, 不过#AD)  (advmod, 第#VV, 仍#AD)  (mmod, 第#VV, 可以#VV)  (case, 耐寒性#NR, 在#P)  (prep, 第#VV, 耐寒性#NR)  (dep, 寒冷#VA, 第#VV)  (nummod, 类#M, 5#CD)  (range, 第#VV, 类#M)  (mark, 寒冷#VA, 的#DEC)  (prep, 生长#NN, 地区#NN)  (dobj, 马郁兰#VV, 生长#NN)   (advmod, 含#VV, 马郁兰#AD)  (root, ROOT#null, 含#VV)  (relcl, 香荆芥酚#NN, 具有#VV)  (nn, 气味#NN, 芳香#NN)  (dobj, 具有#VV, 气味#NN)  (mark, 具有#VV, 的#DEC)  (nummod, 香荆芥酚#NN, 百里香#CD)  (nn, 香荆芥酚#NN, 酚和#NN)  (dobj, 含#VV, 香荆芥酚#NN)  (mmod, 促进#VV, 可#VV)  (dep, 含#VV, 促进#VV)  (conj, 痉挛#NN, 消化#NN)  (conj, 痉挛#NN, 消胀#NN)  (cc, 痉挛#NN, 和#CC)  (nn, 痉挛#NN, 环节#NN)  (dobj, 促进#VV, 痉挛#NN)
+        </parsing>
+
+        <tag>
+            原产地  视为幸福  烹饪方面  用来剂  普罗旺斯香草  Za'atar  deProvence  地区寒冷  芳香气味  酚和香荆芥酚  消化  消胀  环节痉挛  促进痉挛  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            强身、利尿、镇定痉挛，缓和食欲不振、肝炎、失眠、坐骨神经痛、头痛。
+        </rawdata>
+
+        <segment>
+            强身  、  利尿  、  镇定  痉挛  ，  缓和  食欲不振  、  肝炎  、  失眠  、  坐骨  神经痛  、  头痛  。
+        </segment>
+
+        <pos>
+            强身#NR  、#PU  利尿#NR  、#PU  镇定#NR  痉挛#VV  ，#PU  缓和#VV  食欲不振#NN  、#PU  肝炎#NN  、#PU  失眠#NN  、#PU  坐骨#NN  神经痛#NN  、#PU  头痛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 镇定#NR, 强身#NR)  (conj, 镇定#NR, 利尿#NR)  (nsubj, 痉挛#VV, 镇定#NR)  (root, ROOT#null, 痉挛#VV)  (ccomp, 痉挛#VV, 缓和#VV)  (conj, 头痛#NN, 食欲不振#NN)  (conj, 头痛#NN, 肝炎#NN)  (conj, 头痛#NN, 失眠#NN)  (nn, 头痛#NN, 坐骨#NN)  (conj, 头痛#NN, 神经痛#NN)  (dobj, 缓和#VV, 头痛#NN)
+        </parsing>
+
+        <tag>
+            镇定  强身  利尿  痉挛  食欲不振  肝炎  失眠  坐骨头痛  神经痛  缓和头痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        强身  利尿  镇定痉挛  缓和食欲不振
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            马郁兰多年生草本植物，香味温和、甘甜。其具有舒缓肌肉疼痛，改善关节炎、胃胀气、感冒、偏头痛、失眠等症状，促进血液循环，改善静脉曲张。适用于油性肌肤，治疗粉刺，调理油腻不洁肌肤，淡化老人斑。
+            马郁兰茶味道甜美，带有些微刺激性的苦涩香味，常饮此茶能松弛神经，缓和头痛、失眠的毛病。尤其是在饭后饮用，可让人在夜晚熟睡。还能排除体内的毒素、帮助消化，而在没有食欲时饮用，也可激起食欲。
+            具有强身、利尿、镇定痉挛，缓和食欲不振、肝炎、失眠、坐骨神经痛、头痛等功效。心脏有病的人要注意用量。
+            马郁兰可以舒缓肌肉疼痛，改善关节炎、胃胀气、感冒、偏头痛、失眠等症状，促进血液循环，改善静脉曲张。适用于油性肌肤，治疗粉刺，调理油腻不洁肌肤，淡化老人斑。
+        </rawdata>
+
+        <segment>
+            马郁兰  多年生  草本  植物  ，  香味  温和  、  甘甜  。  其  具有  舒缓  肌肉  疼痛  ，  改善  关节炎  、  胃  胀气  、  感冒  、  偏头痛  、  失眠  等  症状  ，  促进  血液  循环  ，  改善  静脉  曲张  。  适用  于  油性  肌肤  ，  治疗  粉刺  ，  调理  油腻  不洁  肌肤  ，  淡化  老人斑  。
+            马郁兰  茶味  道  甜美  ，  带有  些微  刺激性  的  苦涩  香味  ，  常  饮  此  茶  能  松弛  神经  ，  缓和  头痛  、  失眠  的  毛病  。  尤其是  在  饭后  饮用  ，  可  让  人  在  夜晚  熟睡  。  还能  排除  体内  的  毒素  、  帮助  消化  ，  而  在  没有  食欲  时  饮用  ，  也  可  激起  食欲  。
+            具有  强身  、  利尿  、  镇定  痉挛  ，  缓和  食欲不振  、  肝炎  、  失眠  、  坐骨  神经痛  、  头痛  等  功效  。  心脏  有病  的  人  要  注意  用量  。
+            马郁兰  可以  舒缓  肌肉  疼痛  ，  改善  关节炎  、  胃  胀气  、  感冒  、  偏头痛  、  失眠  等  症状  ，  促进  血液  循环  ，  改善  静脉  曲张  。  适用  于  油性  肌肤  ，  治疗  粉刺  ，  调理  油腻  不洁  肌肤  ，  淡化  老人斑  。
+        </segment>
+
+        <pos>
+            马郁兰#NN  多年生#AD  草本#VV  植物#NN  ，#PU  香味#VV  温和#NN  、#PU  甘甜#NN    。#PU  其#PN  具有#VV  舒缓#NN  肌肉#VV  疼痛#NN  ，#PU  改善#VV  关节炎#NR  、#PU  胃#NR  胀气#NR  、#PU  感冒#NR  、#PU  偏头痛#NR  、#PU  失眠#NR  等#ETC  症状#NN  ，#PU  促进#VV  血液#NN  循环#NN  ，#PU  改善#VV  静脉#NN  曲张#NN    。#PU  适用#NN  于#P  油性#NN  肌肤#VV  ，#PU  治疗#VV  粉刺#NN  ，#PU  调理#VV  油腻#NN  不洁#NN  肌肤#NN  ，#PU  淡化#VV  老人斑#NN    。#PU    。#PU
+            马郁兰#NN  茶味#NN  道#VV  甜美#NN  ，#PU  带有#VV  些微#NN  刺激性#NN  的#DEC  苦涩#NN  香味#NN  ，#PU  常#AD  饮#VV  此#DT  茶#NN  能#VV  松弛#VV  神经#NN  ，#PU  缓和#VV  头痛#NN  、#PU  失眠#NN  的#DEC  毛病#NN    。#PU  尤其是#AD  在#P  饭后#NR  饮用#VV  ，#PU  可#VV  让#VV  人#NN  在#P  夜晚#NR  熟睡#VV    。#PU  还能#AD  排除#VV  体内#NN  的#DEG  毒素#NN  、#PU  帮助#NN  消化#NN  ，#PU  而#CC  在#P  没有#VV  食欲#NN  时#LC  饮用#VV  ，#PU  也#AD  可#VV  激起#VV  食欲#NN    。#PU    。#PU
+            具有#VV  强身#NR  、#PU  利尿#NR  、#PU  镇定#NR  痉挛#NN  ，#PU  缓和#VV  食欲不振#NN  、#PU  肝炎#NN  、#PU  失眠#NN  、#PU  坐骨#NN  神经痛#NN  、#PU  头痛#NN  等#ETC  功效#NN    。#PU  心脏#NN  有病#NN  的#DEG  人#NN  要#VV  注意#VV  用量#NN    。#PU    。#PU
+            马郁兰#NN  可以#VV  舒缓#VV  肌肉#NN  疼痛#NN  ，#PU  改善#VV  关节炎#NR  、#PU  胃#NR  胀气#NR  、#PU  感冒#NR  、#PU  偏头痛#NR  、#PU  失眠#NR  等#ETC  症状#NN  ，#PU  促进#VV  血液#NN  循环#NN  ，#PU  改善#VV  静脉#NN  曲张#NN    。#PU  适用#NN  于#P  油性#NN  肌肤#VV  ，#PU  治疗#VV  粉刺#NN  ，#PU  调理#VV  油腻#NN  不洁#NN  肌肤#NN  ，#PU  淡化#VV  老人斑#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 草本#VV, 马郁兰#NN)  (advmod, 草本#VV, 多年生#AD)  (root, ROOT#null, 草本#VV)  (dobj, 草本#VV, 植物#NN)  (conj, 草本#VV, 香味#VV)  (conj, 甘甜#NN, 温和#NN)  (dobj, 香味#VV, 甘甜#NN)   (nsubj, 肌肉#VV, 其#PN)  (dep, 肌肉#VV, 具有#VV)  (dobj, 具有#VV, 舒缓#NN)  (root, ROOT#null, 肌肉#VV)  (dobj, 肌肉#VV, 疼痛#NN)  (conj, 肌肉#VV, 改善#VV)  (conj, 失眠#NR, 关节炎#NR)  (nn, 失眠#NR, 胃#NR)  (conj, 失眠#NR, 胀气#NR)  (conj, 失眠#NR, 感冒#NR)  (conj, 失眠#NR, 偏头痛#NR)  (nn, 症状#NN, 失眠#NR)  (etc, 失眠#NR, 等#ETC)  (dobj, 改善#VV, 症状#NN)  (conj, 肌肉#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (conj, 肌肉#VV, 改善#VV)  (nn, 曲张#NN, 静脉#NN)  (dobj, 改善#VV, 曲张#NN)   (nsubj, 肌肤#VV, 适用#NN)  (xsubj, 治疗#VV, 适用#NN)  (case, 油性#NN, 于#P)  (prep, 肌肤#VV, 油性#NN)  (root, ROOT#null, 肌肤#VV)  (ccomp, 肌肤#VV, 治疗#VV)  (dobj, 治疗#VV, 粉刺#NN)  (conj, 治疗#VV, 调理#VV)  (nn, 肌肤#NN, 油腻#NN)  (nn, 肌肤#NN, 不洁#NN)  (dobj, 调理#VV, 肌肤#NN)  (conj, 治疗#VV, 淡化#VV)  (dobj, 淡化#VV, 老人斑#NN)   (root, ROOT#null, null#null)
+            (nn, 茶味#NN, 马郁兰#NN)  (nsubj, 道#VV, 茶味#NN)  (root, ROOT#null, 道#VV)  (dobj, 道#VV, 甜美#NN)  (relcl, 香味#NN, 带有#VV)  (nn, 刺激性#NN, 些微#NN)  (dobj, 带有#VV, 刺激性#NN)  (mark, 带有#VV, 的#DEC)  (nn, 香味#NN, 苦涩#NN)  (nsubj, 饮#VV, 香味#NN)  (advmod, 饮#VV, 常#AD)  (dep, 道#VV, 饮#VV)  (det, 茶#NN, 此#DT)  (nsubj, 松弛#VV, 茶#NN)  (mmod, 松弛#VV, 能#VV)  (relcl, 毛病#NN, 松弛#VV)  (dobj, 松弛#VV, 神经#NN)  (conj, 松弛#VV, 缓和#VV)  (conj, 失眠#NN, 头痛#NN)  (dobj, 缓和#VV, 失眠#NN)  (mark, 松弛#VV, 的#DEC)  (dobj, 饮#VV, 毛病#NN)   (advmod, 饮用#VV, 尤其是#AD)  (case, 饭后#NR, 在#P)  (prep, 饮用#VV, 饭后#NR)  (root, ROOT#null, 饮用#VV)  (conj, 让#VV, 可#VV)  (dep, 饮用#VV, 让#VV)  (dobj, 让#VV, 人#NN)  (case, 夜晚#NR, 在#P)  (prep, 熟睡#VV, 夜晚#NR)  (dep, 让#VV, 熟睡#VV)   (advmod, 排除#VV, 还能#AD)  (root, ROOT#null, 排除#VV)  (assmod, 消化#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (conj, 消化#NN, 毒素#NN)  (nn, 消化#NN, 帮助#NN)  (dobj, 排除#VV, 消化#NN)  (cc, 排除#VV, 而#CC)  (case, 没有#VV, 在#P)  (prep, 饮用#VV, 没有#VV)  (dobj, 没有#VV, 食欲#NN)  (case, 没有#VV, 时#LC)  (dep, 排除#VV, 饮用#VV)  (advmod, 激起#VV, 也#AD)  (mmod, 激起#VV, 可#VV)  (dep, 排除#VV, 激起#VV)  (dobj, 激起#VV, 食欲#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 具有#VV)  (conj, 镇定#NR, 强身#NR)  (conj, 镇定#NR, 利尿#NR)  (nn, 痉挛#NN, 镇定#NR)  (dobj, 具有#VV, 痉挛#NN)  (conj, 具有#VV, 缓和#VV)  (conj, 头痛#NN, 食欲不振#NN)  (conj, 头痛#NN, 肝炎#NN)  (conj, 头痛#NN, 失眠#NN)  (nn, 头痛#NN, 坐骨#NN)  (conj, 头痛#NN, 神经痛#NN)  (nn, 功效#NN, 头痛#NN)  (etc, 头痛#NN, 等#ETC)  (dobj, 缓和#VV, 功效#NN)   (nn, 有病#NN, 心脏#NN)  (assmod, 人#NN, 有病#NN)  (case, 有病#NN, 的#DEG)  (nsubj, 注意#VV, 人#NN)  (mmod, 注意#VV, 要#VV)  (root, ROOT#null, 注意#VV)  (dobj, 注意#VV, 用量#NN)   (root, ROOT#null, null#null)
+            (nsubj, 舒缓#VV, 马郁兰#NN)  (mmod, 舒缓#VV, 可以#VV)  (root, ROOT#null, 舒缓#VV)  (nn, 疼痛#NN, 肌肉#NN)  (dobj, 舒缓#VV, 疼痛#NN)  (conj, 舒缓#VV, 改善#VV)  (conj, 失眠#NR, 关节炎#NR)  (nn, 失眠#NR, 胃#NR)  (conj, 失眠#NR, 胀气#NR)  (conj, 失眠#NR, 感冒#NR)  (conj, 失眠#NR, 偏头痛#NR)  (nn, 症状#NN, 失眠#NR)  (etc, 失眠#NR, 等#ETC)  (dobj, 改善#VV, 症状#NN)  (conj, 舒缓#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (conj, 舒缓#VV, 改善#VV)  (nn, 曲张#NN, 静脉#NN)  (dobj, 改善#VV, 曲张#NN)   (nsubj, 肌肤#VV, 适用#NN)  (xsubj, 治疗#VV, 适用#NN)  (case, 油性#NN, 于#P)  (prep, 肌肤#VV, 油性#NN)  (root, ROOT#null, 肌肤#VV)  (ccomp, 肌肤#VV, 治疗#VV)  (dobj, 治疗#VV, 粉刺#NN)  (conj, 治疗#VV, 调理#VV)  (nn, 肌肤#NN, 油腻#NN)  (nn, 肌肤#NN, 不洁#NN)  (dobj, 调理#VV, 肌肤#NN)  (conj, 治疗#VV, 淡化#VV)  (dobj, 淡化#VV, 老人斑#NN)
+        </parsing>
+
+        <tag>
+            草本植物  温和  香味甘甜  肌肉疼痛  关节炎  胀气  感冒  偏头痛  改善症状  血液循环  促进循环  静脉曲张  改善曲张  治疗粉刺  油腻肌肤  不洁肌肤  调理肌肤  淡化老人斑  带有香味  些微刺激性  带有刺激性  苦涩香味  松弛毛病  松弛神经  缓和失眠  饮用  毒素  帮助消化  排除消化  没有食欲  激起食欲  镇定  强身  利尿  食欲不振  肝炎  坐骨头痛  神经痛  头痛功效  缓和功效  心脏有病  注意用量  舒缓疼痛  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://i1.douguo.net/upload/shicai/1374474004.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\664 马郁兰.jpg
+    </picturelocalurl>
+
+</content>

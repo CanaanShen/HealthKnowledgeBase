@@ -1,0 +1,467 @@
+<content>
+
+    <id>
+        396
+    </id>
+
+    <foodname>
+        玉米
+    </foodname>
+
+    <firstcategory>
+        五谷杂粮
+    </firstcategory>
+
+    <secondcategory>
+        五谷类
+    </secondcategory>
+
+    <alias>
+        苞谷、珍珠米、棒子、玉蜀黍、苞米
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹胀、尿失禁患者忌食。
+        </rawdata>
+
+        <segment>
+            腹胀  、  尿失禁  患者  忌食  。
+        </segment>
+
+        <pos>
+            腹胀#NN  、#PU  尿失禁#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 尿失禁#NN, 腹胀#NN)  (nn, 患者#NN, 尿失禁#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            腹胀  尿失禁  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜便秘、高血压、动脉硬化患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  便秘  、  高  血压  、  动脉  硬化  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  便秘#NN  、#PU  高#JJ  血压#NN  、#PU  动脉#NN  硬化#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (conj, 硬化#NN, 便秘#NN)  (amod, 血压#NN, 高#JJ)  (conj, 硬化#NN, 血压#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 患者#NN, 硬化#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  便秘  高血压  动脉硬化  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                196
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                22.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                0.34
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                16
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.46
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                117
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                238
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                32
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.63
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            玉米是禾本科植物玉蜀黍的种子，又名苞谷、苞米、玉蜀黍、珍珠米等。原产于中美洲墨西哥和秘鲁，16世纪传入我国，至今有400余年的栽培历史。目前全国各地都有种植，尤以东北、华北和西南各省较多。东北地区普遍种植硬粒型玉米，华北地区多种植适于磨粉的马齿型玉米，品质次于硬粒型玉米。玉米的品种类型很多，按用途分，有粮用饲用品种、菜用品种(包括糯质型、甜质型、玉米笋型)、加工品种(甜玉米、玉米笋)、爆粒型品种(爆米花专用品种)等。玉米是粗粮中的保健佳品，食玉米对人体的健康颇为有利。
+            玉米的胚特别大，占总重量的10%-14%，其中含有大量的脂肪，因此可从玉米胚中提取油脂。由于玉米中含有较多的脂肪，所以玉米在贮存过程中易酸败变质。玉米既可磨粉，又可制米。玉
+        </rawdata>
+
+        <segment>
+            玉米  是  禾本科  植物  玉蜀黍  的  种子  ，  又  名  苞谷  、  苞米  、  玉蜀黍  、  珍珠米  等  。  原产  于  中美洲  墨西哥  和  秘鲁  ，  16  世纪  传入  我国  ，  至今  有  400  余年  的  栽培  历史  。  目前  全  国  各地  都  有  种植  ，  尤以  东北  、  华北  和  西南  各  省  较  多  。  东北  地区  普遍  种植  硬粒型  玉米  ，  华北  地区  多  种植  适于  磨粉  的  马齿型  玉米  ，  品质  次于  硬粒型  玉米  。  玉米  的  品种  类型  很多  ，  按  用途分  ，  有  粮用饲  用  品种  、  菜  用  品种  (  包括  糯质型  、  甜  质  型  、  玉米笋型  )  、  加工  品种  (  甜玉米  、  玉米笋  )  、  爆粒型  品种  (  爆米花  专用  品种  )  等  。  玉米  是  粗粮  中  的  保健  佳品  ，  食  玉米  对  人体  的  健康  颇为  有利  。
+            玉米  的  胚  特别  大  ，  占  总重量  的  10%  -14%  ，  其中  含有  大量  的  脂肪  ，  因此  可  从  玉米  胚  中  提取  油脂  。  由于  玉米  中  含有  较多  的  脂肪  ，  所以  玉米  在  贮存  过程  中  易  酸败  变质  。  玉米  既  可  磨粉  ，  又  可  制米  。  玉
+        </segment>
+
+        <pos>
+            玉米#NN  是#VC  禾本科#NN  植物#NN  玉蜀黍#NN  的#DEG  种子#NN  ，#PU  又#CC  名#JJ  苞谷#NN  、#PU  苞米#NR  、#PU  玉蜀黍#NR  、#PU  珍珠米#NR  等#ETC    。#PU  原产#VV  于#P  中美洲#NR  墨西哥#NR  和#CC  秘鲁#NR  ，#PU  16#CD  世纪#NN  传入#NN  我国#NN  ，#PU  至今#AD  有#VE  400#CD  余年#NN  的#DEC  栽培#VV  历史#NN    。#PU  目前#NT  全#DT  国#NN  各地#NN  都#AD  有#VE  种植#NN  ，#PU  尤以#NR  东北#NN  、#PU  华北#NR  和#CC  西南#NN  各#DT  省#NN  较#AD  多#VA    。#PU  东北#NN  地区#NN  普遍#AD  种植#VV  硬粒型#NN  玉米#NN  ，#PU  华北#NR  地区#NN  多#AD  种植#VV  适于#VV  磨粉#NN  的#DEC  马齿型#NN  玉米#NN  ，#PU  品质#NN  次于#VV  硬粒型#NN  玉米#NN    。#PU  玉米#NR  的#DEG  品种#NN  类型#NN  很多#CD  ，#PU  按#P  用途分#NR  ，#PU  有#VE  粮用饲#NR  用#P  品种#NN  、#PU  菜#NN  用#P  品种#NN  -LRB-#NN  包括#VV  糯质型#NN  、#PU  甜#NN  质#NN  型#NN  、#PU  玉米笋型#NN  -RRB-#NN  、#PU  加工#NN  品种#NN  -LRB-#NN  甜玉米#NN  、#PU  玉米笋#NN  -RRB-#NN  、#PU  爆粒型#NN  品种#NN  -LRB-#NN  爆米花#NN  专用#JJ  品种#NN  -RRB-#NN  等#ETC    。#PU  玉米#NN  是#VC  粗粮#NN  中#LC  的#DEG  保健#NN  佳品#NN  ，#PU  食#NN  玉米#NN  对#P  人体#NN  的#DEG  健康#JJ  颇为#NN  有利#VA    。#PU    。#PU
+            玉米#NN  的#DEG  胚#NN  特别#AD  大#VA  ，#PU  占#VV  总重量#CD  的#DEC  10#CD  %#NN  -14#CD  %#NN  ，#PU  其中#NN  含有#VV  大量#CD  的#DEG  脂肪#NN  ，#PU  因此#AD  可#VV  从#P  玉米#NN  胚#NN  中#LC  提取#VV  油脂#NN    。#PU  由于#P  玉米#NN  中#LC  含有#VV  较多#NN  的#DEG  脂肪#NN  ，#PU  所以#AD  玉米#NN  在#P  贮存#VV  过程#NN  中#LC  易#VA  酸败#VV  变质#NN    。#PU  玉米#NN  既#CC  可#VV  磨粉#VV  ，#PU  又#AD  可#VV  制米#VV    。#PU  玉#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 珍珠米#NR, 玉米#NN)  (cop, 珍珠米#NR, 是#VC)  (nn, 玉蜀黍#NN, 禾本科#NN)  (nn, 玉蜀黍#NN, 植物#NN)  (assmod, 种子#NN, 玉蜀黍#NN)  (case, 玉蜀黍#NN, 的#DEG)  (dep, 珍珠米#NR, 种子#NN)  (cc, 珍珠米#NR, 又#CC)  (amod, 苞谷#NN, 名#JJ)  (conj, 珍珠米#NR, 苞谷#NN)  (conj, 珍珠米#NR, 苞米#NR)  (conj, 珍珠米#NR, 玉蜀黍#NR)  (root, ROOT#null, 珍珠米#NR)  (etc, 珍珠米#NR, 等#ETC)   (nsubj, 栽培#VV, 原产#VV)  (case, 秘鲁#NR, 于#P)  (nn, 秘鲁#NR, 中美洲#NR)  (conj, 秘鲁#NR, 墨西哥#NR)  (cc, 秘鲁#NR, 和#CC)  (prep, 有#VE, 秘鲁#NR)  (nummod, 世纪#NN, 16#CD)  (nn, 我国#NN, 世纪#NN)  (nn, 我国#NN, 传入#NN)  (nsubj, 有#VE, 我国#NN)  (advmod, 有#VE, 至今#AD)  (ccomp, 原产#VV, 有#VE)  (nummod, 余年#NN, 400#CD)  (dobj, 有#VE, 余年#NN)  (mark, 原产#VV, 的#DEC)  (root, ROOT#null, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)   (tmod, 有#VE, 目前#NT)  (det, 国#NN, 全#DT)  (nn, 各地#NN, 国#NN)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 种植#NN)  (nn, 东北#NN, 尤以#NR)  (conj, 省#NN, 东北#NN)  (conj, 省#NN, 华北#NR)  (cc, 省#NN, 和#CC)  (nn, 省#NN, 西南#NN)  (det, 省#NN, 各#DT)  (nsubj, 多#VA, 省#NN)  (advmod, 多#VA, 较#AD)  (conj, 有#VE, 多#VA)   (nn, 地区#NN, 东北#NN)  (nsubj, 种植#VV, 地区#NN)  (advmod, 种植#VV, 普遍#AD)  (root, ROOT#null, 种植#VV)  (nn, 玉米#NN, 硬粒型#NN)  (dobj, 种植#VV, 玉米#NN)  (nn, 地区#NN, 华北#NR)  (nsubj, 种植#VV, 地区#NN)  (advmod, 种植#VV, 多#AD)  (conj, 种植#VV, 种植#VV)  (relcl, 玉米#NN, 适于#VV)  (dobj, 适于#VV, 磨粉#NN)  (mark, 适于#VV, 的#DEC)  (nn, 玉米#NN, 马齿型#NN)  (dobj, 种植#VV, 玉米#NN)  (nsubj, 次于#VV, 品质#NN)  (conj, 种植#VV, 次于#VV)  (nn, 玉米#NN, 硬粒型#NN)  (dobj, 次于#VV, 玉米#NN)   (assmod, 类型#NN, 玉米#NR)  (case, 玉米#NR, 的#DEG)  (nn, 类型#NN, 品种#NN)  (root, ROOT#null, 类型#NN)  (range, 类型#NN, 很多#CD)  (case, 用途分#NR, 按#P)  (prep, 有#VE, 用途分#NR)  (conj, 类型#NN, 有#VE)  (nsubj, 包括#VV, 粮用饲#NR)  (case, 菜#NN, 用#P)  (conj, 菜#NN, 品种#NN)  (prep, 包括#VV, 菜#NN)  (case, -LRB-#NN, 用#P)  (nn, -LRB-#NN, 品种#NN)  (dep, 有#VE, 包括#VV)  (conj, 爆米花#NN, 糯质型#NN)  (nn, 爆米花#NN, 甜#NN)  (nn, 爆米花#NN, 质#NN)  (conj, 爆米花#NN, 型#NN)  (nn, 爆米花#NN, 玉米笋型#NN)  (nn, 爆米花#NN, 加工#NN)  (nn, 爆米花#NN, 品种#NN)  (conj, 爆米花#NN, 甜玉米#NN)  (nn, 爆米花#NN, 玉米笋#NN)  (nn, 爆米花#NN, 爆粒型#NN)  (nn, 爆米花#NN, 品种#NN)  (nn, -RRB-#NN, 爆米花#NN)  (amod, -RRB-#NN, 专用#JJ)  (nn, -RRB-#NN, 品种#NN)  (dep, 类型#NN, 等#ETC)  (etc, -RRB-#NN, 等#ETC)   (nsubj, 佳品#NN, 玉米#NN)  (cop, 佳品#NN, 是#VC)  (assmod, 佳品#NN, 粗粮#NN)  (case, 粗粮#NN, 中#LC)  (case, 粗粮#NN, 的#DEG)  (nn, 佳品#NN, 保健#NN)  (root, ROOT#null, 佳品#NN)  (nn, 玉米#NN, 食#NN)  (nsubj, 有利#VA, 玉米#NN)  (case, 颇为#NN, 对#P)  (assmod, 颇为#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (amod, 颇为#NN, 健康#JJ)  (prep, 有利#VA, 颇为#NN)  (conj, 佳品#NN, 有利#VA)   (root, ROOT#null, null#null)
+            (assmod, 胚#NN, 玉米#NN)  (case, 玉米#NN, 的#DEG)  (nsubj, 大#VA, 胚#NN)  (advmod, 大#VA, 特别#AD)  (root, ROOT#null, 大#VA)  (relcl, %#NN, 占#VV)  (range, 占#VV, 总重量#CD)  (mark, 占#VV, 的#DEC)  (nummod, %#NN, 10#CD)  (nn, %#NN, %#NN)  (nummod, %#NN, -14#CD)  (nsubj, 含有#VV, %#NN)  (nsubj, 含有#VV, 其中#NN)  (conj, 大#VA, 含有#VV)  (assmod, 脂肪#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (dobj, 含有#VV, 脂肪#NN)  (advmod, 提取#VV, 因此#AD)  (mmod, 提取#VV, 可#VV)  (case, 胚#NN, 从#P)  (nn, 胚#NN, 玉米#NN)  (prep, 提取#VV, 胚#NN)  (case, 胚#NN, 中#LC)  (conj, 大#VA, 提取#VV)  (dobj, 提取#VV, 油脂#NN)   (case, 含有#VV, 由于#P)  (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (prep, 易#VA, 含有#VV)  (assmod, 脂肪#NN, 较多#NN)  (case, 较多#NN, 的#DEG)  (dobj, 含有#VV, 脂肪#NN)  (advmod, 易#VA, 所以#AD)  (nsubj, 易#VA, 玉米#NN)  (case, 过程#NN, 在#P)  (nfincl, 过程#NN, 贮存#VV)  (prep, 易#VA, 过程#NN)  (case, 过程#NN, 中#LC)  (conj, 酸败#VV, 易#VA)  (root, ROOT#null, 酸败#VV)  (dobj, 酸败#VV, 变质#NN)   (nsubj, 磨粉#VV, 玉米#NN)  (cc, 磨粉#VV, 既#CC)  (mmod, 磨粉#VV, 可#VV)  (root, ROOT#null, 磨粉#VV)  (advmod, 制米#VV, 又#AD)  (dep, 制米#VV, 可#VV)  (dep, 磨粉#VV, 制米#VV)   (root, ROOT#null, 玉#VV)
+        </parsing>
+
+        <tag>
+            禾本科玉蜀黍  植物玉蜀黍  名苞谷  珍珠米  苞米  秘鲁  墨西哥  世纪我国  传入我国  栽培历史  东北地区  种植  适于磨粉  品种类型  糯质型  加工爆米花  品种爆米花  爆粒型爆米花  保健佳品  健康颇为  含有脂肪  提取油脂  酸败变质  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.减肥
+            食后可消除肥胖人的饥饿感，但食后含热量很低，也是减肥的代用品之一。
+            2.防癌抗癌
+            植物纤维素能加速致癌物质和其他毒物的排出，多吃玉米还能抑制抗癌药物对人体的副作用。
+            3.降血压降血脂
+            丰富的钙可起到降血压的功效，有促进细胞分裂、降低血清胆固醇、并防止其沉积于血管壁，因此，玉米对冠心病、动脉粥样硬化、高脂血症及高血压等都有一定的预防和治疗作用。中美洲印第安人不易患高血压与他们主要食用玉米有关。
+            4.增加记忆力、抗衰老
+            刺激大脑细胞，增强人的脑力、记忆力和人体新陈代谢力、调整神经系统功能。能起到使皮肤细嫩光滑，抑制、延缓皱纹产生作用，可以对抗眼睛老化。
+            5.明目
+            经常用眼的人，应多吃一些黄色的玉米，缓解黄斑变性、视力下降，叶黄素和玉米黄质凭借其强大的抗氧化作用，可以吸收进入眼球内的有害光线。
+            6.促进胃肠蠕动
+            可防治便秘、肠炎、肠癌等。
+        </rawdata>
+
+        <segment>
+            减肥
+            食  后  可  消除  肥胖人  的  饥饿感  ，  但  食  后  含  热量  很  低  ，  也  是  减肥  的  代用品  之一  。
+            防癌  抗癌
+            植物  纤维素  能  加速  致癌  物质  和  其他  毒物  的  排出  ，  多  吃  玉米  还  能  抑制  抗癌  药物  对  人体  的  副作用  。
+            降  血压  降  血脂
+            丰富  的  钙  可  起到  降  血压  的  功效  ，  有  促进  细胞  分裂  、  降低  血清  胆固醇  、  并  防止  其  沉积  于  血  管壁  ，  因此  ，  玉米  对  冠心病  、  动脉  粥样  硬化  、  高  脂血症  及  高血压  等  都  有  一定  的  预防  和  治疗  作用  。  中美洲  印第安人  不  易患  高血压  与  他们  主要  食用  玉米  有关  。
+            增加  记忆力  、  抗  衰老
+            刺激  大脑  细胞  ，  增强  人  的  脑力  、  记忆力  和  人体  新陈代谢  力  、  调整  神经  系统  功能  。  能  起到  使  皮肤  细嫩  光滑  ，  抑制  、  延缓  皱纹  产生  作用  ，  可以  对抗  眼睛  老化  。
+            明目
+            经常  用  眼  的  人  ，  应  多  吃  一些  黄色  的  玉米  ，  缓解  黄斑  变性  、  视力  下降  ，  叶黄素  和  玉米黄质  凭借  其  强大  的  抗氧化  作用  ，  可以  吸收  进入  眼  球内  的  有害  光线  。
+            促进  胃肠  蠕动
+            可  防治  便秘  、  肠炎  、  肠癌  等  。
+        </segment>
+
+        <pos>
+            减肥#VV
+            食#NN  后#LC  可#VV  消除#VV  肥胖人#NN  的#DEG  饥饿感#NN  ，#PU  但#AD  食#NN  后#LC  含#VV  热量#NN  很#AD  低#VA  ，#PU  也#AD  是#VC  减肥#VV  的#DEC  代用品#NN  之一#NN  。#PU
+            防癌#NN  抗癌#VV
+            植物#NN  纤维素#NN  能#VV  加速#AD  致癌#VV  物质#NN  和#CC  其他#DT  毒物#NN  的#DEG  排出#NN  ，#PU  多#AD  吃#VV  玉米#NN  还#AD  能#VV  抑制#VV  抗癌#NN  药物#NN  对#P  人体#NN  的#DEG  副作用#NN  。#PU
+            降#NN  血压#NN  降#VV  血脂#NN
+            丰富#VA  的#DEC  钙#NN  可#VV  起到#VV  降#VV  血压#NN  的#DEC  功效#NN  ，#PU  有#VE  促进#VV  细胞#NN  分裂#NN  、#PU  降低#VV  血清#NN  胆固醇#NN  、#PU  并#AD  防止#VV  其#PN  沉积#AD  于#P  血#NN  管壁#VV  ，#PU  因此#AD  ，#PU  玉米#NR  对#P  冠心病#NN  、#PU  动脉#NN  粥样#NN  硬化#NN  、#PU  高#JJ  脂血症#NN  及#CC  高血压#NN  等#ETC  都#AD  有#VE  一定#JJ  的#DEG  预防#NN  和#CC  治疗#NN  作用#NN    。#PU  中美洲#NN  印第安人#NN  不#AD  易患#VV  高血压#NN  与#P  他们#PN  主要#AD  食用#VV  玉米#NN  有关#VV    。#PU    。#PU
+            增加#VV  记忆力#NN  、#PU  抗#NN  衰老#NN
+            刺激#VV  大脑#NN  细胞#NN  ，#PU  增强#VV  人#NN  的#DEG  脑力#NR  、#PU  记忆力#NR  和#CC  人体#NR  新陈代谢#NN  力#NN  、#PU  调整#VV  神经#NN  系统#NN  功能#NN    。#PU  能#VV  起到#VV  使#VV  皮肤#NN  细嫩#VV  光滑#NN  ，#PU  抑制#VV  、#PU  延缓#AD  皱纹#AD  产生#VV  作用#NN  ，#PU  可以#VV  对抗#VV  眼睛#NN  老化#NN    。#PU    。#PU
+            明目#VV
+            经常#AD  用#VV  眼#NN  的#DEG  人#NN  ，#PU  应#VV  多#AD  吃#VV  一些#CD  黄色#JJ  的#DEG  玉米#NN  ，#PU  缓解#VV  黄斑#NN  变性#NN  、#PU  视力#AD  下降#VV  ，#PU  叶黄素#VV  和#CC  玉米黄质#VV  凭借#P  其#PN  强大#VA  的#DEC  抗氧化#JJ  作用#NN  ，#PU  可以#VV  吸收#VV  进入#VV  眼#NN  球内#NN  的#DEC  有害#NN  光线#NN  。#PU
+            促进#VV  胃肠#NN  蠕动#NN
+            可#VV  防治#VV  便秘#NR  、#PU  肠炎#NR  、#PU  肠癌#NR  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 减肥#VV)
+            (loc, 消除#VV, 食#NN)  (case, 食#NN, 后#LC)  (mmod, 消除#VV, 可#VV)  (root, ROOT#null, 消除#VV)  (assmod, 饥饿感#NN, 肥胖人#NN)  (case, 肥胖人#NN, 的#DEG)  (dobj, 消除#VV, 饥饿感#NN)  (advmod, 含#VV, 但#AD)  (loc, 含#VV, 食#NN)  (case, 食#NN, 后#LC)  (conj, 消除#VV, 含#VV)  (dobj, 含#VV, 热量#NN)  (advmod, 低#VA, 很#AD)  (conj, 含#VV, 低#VA)  (advmod, 之一#NN, 也#AD)  (cop, 之一#NN, 是#VC)  (relcl, 之一#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (nn, 之一#NN, 代用品#NN)  (conj, 消除#VV, 之一#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (nn, 纤维素#NN, 植物#NN)  (nsubj, 致癌#VV, 纤维素#NN)  (mmod, 致癌#VV, 能#VV)  (advmod, 致癌#VV, 加速#AD)  (root, ROOT#null, 致癌#VV)  (conj, 毒物#NN, 物质#NN)  (cc, 毒物#NN, 和#CC)  (det, 毒物#NN, 其他#DT)  (assmod, 排出#NN, 毒物#NN)  (case, 毒物#NN, 的#DEG)  (dobj, 致癌#VV, 排出#NN)  (advmod, 吃#VV, 多#AD)  (dep, 抑制#VV, 吃#VV)  (dobj, 吃#VV, 玉米#NN)  (advmod, 抑制#VV, 还#AD)  (mmod, 抑制#VV, 能#VV)  (conj, 致癌#VV, 抑制#VV)  (nn, 药物#NN, 抗癌#NN)  (nn, 副作用#NN, 药物#NN)  (case, 人体#NN, 对#P)  (assmod, 副作用#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 抑制#VV, 副作用#NN)
+            (nn, 血压#NN, 降#NN)  (nsubj, 降#VV, 血压#NN)  (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血脂#NN)
+            (relcl, 钙#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 起到#VV, 钙#NN)  (mmod, 起到#VV, 可#VV)  (root, ROOT#null, 起到#VV)  (relcl, 功效#NN, 降#VV)  (dobj, 降#VV, 血压#NN)  (mark, 降#VV, 的#DEC)  (dobj, 起到#VV, 功效#NN)  (conj, 起到#VV, 有#VE)  (dep, 有#VE, 促进#VV)  (nn, 分裂#NN, 细胞#NN)  (dobj, 促进#VV, 分裂#NN)  (conj, 促进#VV, 降低#VV)  (nn, 胆固醇#NN, 血清#NN)  (dobj, 降低#VV, 胆固醇#NN)  (advmod, 防止#VV, 并#AD)  (conj, 促进#VV, 防止#VV)  (nsubj, 管壁#VV, 其#PN)  (advmod, 管壁#VV, 沉积#AD)  (case, 血#NN, 于#P)  (prep, 管壁#VV, 血#NN)  (ccomp, 防止#VV, 管壁#VV)  (advmod, 有#VE, 因此#AD)  (nsubj, 有#VE, 玉米#NR)  (case, 高血压#NN, 对#P)  (conj, 高血压#NN, 冠心病#NN)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (conj, 高血压#NN, 硬化#NN)  (amod, 脂血症#NN, 高#JJ)  (conj, 高血压#NN, 脂血症#NN)  (cc, 高血压#NN, 及#CC)  (prep, 有#VE, 高血压#NN)  (etc, 高血压#NN, 等#ETC)  (advmod, 有#VE, 都#AD)  (conj, 管壁#VV, 有#VE)  (assmod, 预防#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 预防#NN)  (cc, 促进#VV, 和#CC)  (nn, 作用#NN, 治疗#NN)  (dep, 促进#VV, 作用#NN)   (nn, 印第安人#NN, 中美洲#NN)  (nsubj, 易患#VV, 印第安人#NN)  (neg, 易患#VV, 不#AD)  (root, ROOT#null, 易患#VV)  (dobj, 易患#VV, 高血压#NN)  (case, 食用#VV, 与#P)  (nsubj, 食用#VV, 他们#PN)  (advmod, 食用#VV, 主要#AD)  (prep, 有关#VV, 食用#VV)  (dobj, 食用#VV, 玉米#NN)  (dep, 易患#VV, 有关#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 增加#VV)  (conj, 衰老#NN, 记忆力#NN)  (nn, 衰老#NN, 抗#NN)  (dobj, 增加#VV, 衰老#NN)
+            (root, ROOT#null, 刺激#VV)  (nn, 细胞#NN, 大脑#NN)  (dobj, 刺激#VV, 细胞#NN)  (conj, 刺激#VV, 增强#VV)  (assmod, 力#NN, 人#NN)  (case, 人#NN, 的#DEG)  (conj, 人体#NR, 脑力#NR)  (conj, 人体#NR, 记忆力#NR)  (cc, 人体#NR, 和#CC)  (nn, 力#NN, 人体#NR)  (nn, 力#NN, 新陈代谢#NN)  (dobj, 增强#VV, 力#NN)  (conj, 刺激#VV, 调整#VV)  (nn, 功能#NN, 神经#NN)  (nn, 功能#NN, 系统#NN)  (dobj, 调整#VV, 功能#NN)   (dep, 起到#VV, 能#VV)  (conj, 使#VV, 起到#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 细嫩#VV)  (dobj, 细嫩#VV, 光滑#NN)  (conj, 细嫩#VV, 抑制#VV)  (advmod, 产生#VV, 延缓#AD)  (advmod, 产生#VV, 皱纹#AD)  (conj, 细嫩#VV, 产生#VV)  (dobj, 产生#VV, 作用#NN)  (mmod, 对抗#VV, 可以#VV)  (conj, 细嫩#VV, 对抗#VV)  (nn, 老化#NN, 眼睛#NN)  (dobj, 对抗#VV, 老化#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 明目#VV)
+            (advmod, 用#VV, 经常#AD)  (root, ROOT#null, 用#VV)  (assmod, 人#NN, 眼#NN)  (case, 眼#NN, 的#DEG)  (dobj, 用#VV, 人#NN)  (mmod, 吃#VV, 应#VV)  (advmod, 吃#VV, 多#AD)  (conj, 用#VV, 吃#VV)  (nummod, 玉米#NN, 一些#CD)  (assmod, 玉米#NN, 黄色#JJ)  (case, 黄色#JJ, 的#DEG)  (dobj, 吃#VV, 玉米#NN)  (conj, 用#VV, 缓解#VV)  (nn, 变性#NN, 黄斑#NN)  (dobj, 缓解#VV, 变性#NN)  (advmod, 下降#VV, 视力#AD)  (conj, 用#VV, 下降#VV)  (conj, 用#VV, 叶黄素#VV)  (cc, 叶黄素#VV, 和#CC)  (dep, 叶黄素#VV, 玉米黄质#VV)  (case, 其#PN, 凭借#P)  (prep, 强大#VA, 其#PN)  (relcl, 作用#NN, 强大#VA)  (mark, 强大#VA, 的#DEC)  (amod, 作用#NN, 抗氧化#JJ)  (dobj, 玉米黄质#VV, 作用#NN)  (mmod, 吸收#VV, 可以#VV)  (conj, 用#VV, 吸收#VV)  (relcl, 光线#NN, 进入#VV)  (nn, 球内#NN, 眼#NN)  (dobj, 进入#VV, 球内#NN)  (mark, 进入#VV, 的#DEC)  (nn, 光线#NN, 有害#NN)  (dobj, 吸收#VV, 光线#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)
+            (mmod, 防治#VV, 可#VV)  (root, ROOT#null, 防治#VV)  (conj, 肠癌#NR, 便秘#NR)  (conj, 肠癌#NR, 肠炎#NR)  (dobj, 防治#VV, 肠癌#NR)  (etc, 肠癌#NR, 等#ETC)
+        </parsing>
+
+        <tag>
+            减肥  肥胖人  消除饥饿感  植物纤维素  致癌排出  抗癌药物  药物副作用  抑制副作用  钙丰富  降功效  细胞分裂  促进分裂  血清胆固醇  降低胆固醇  冠心病  动脉硬化  粥样硬化  高脂血症  中美洲印第安人  易患高血压  记忆力  增加衰老  大脑细胞  刺激细胞  人体  脑力  增强力  神经功能  系统功能  调整功能  细嫩光滑  眼睛老化  对抗老化  明目  黄斑变性  缓解变性  进入光线  进入球内  有害光线  吸收光线  胃肠蠕动  促进蠕动  防治  肠癌  便秘  肠炎  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        抗衰老  降血脂  开胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.维生素含量非常高
+            玉米中的维生素含量非常高，为稻米、小麦的5~10倍，而特种玉米的营养价值要高于普通玉米。
+            2.植物纤维素含量丰富
+            玉米中所含的丰富的植物纤维素具有刺激胃肠蠕动、加速粪便排泄的特性，可防治便秘、肠炎、肠癌等。能束缚及阻碍过量的葡萄糖的吸收，起到抑制饭后血糖升高的作用；纤维素还可以抑制脂肪吸收，降低血脂水平，预防和改善冠心病、肥胖、胆结石症的发生。
+            3.富含硒和镁
+            玉米中含的硒和镁有防癌抗癌作用，硒能加速体内过氧化物的分解，使恶性肿瘤得不到分子氧的供应而受到抑制。镁一方面也能抑制癌细胞的发展，另一方面能促使体内废物排出体外，这对防癌也有重要意义。
+            4.含谷胱甘肽
+            玉米中还含有一种长寿因子-谷胱甘肽，它在硒的参与下，生成谷光甘肽氧化酶，具有恢复青春，延缓衰老的功能。
+            5.含玉米黄质
+            玉米中所含的玉米黄质，可以预防老年黄斑性病变的产生。根据1994年美国哈佛大学医学院和许多研究中心一起做的研究显示，摄取较高量的玉米黄质，能降低老年黄斑性病变的机率。
+            6.含有丰富的胡萝卜素与烟酸
+            玉米中所含的胡萝卜素，被人体吸收后能转化为维生素A；玉米中还含有烟酸，含量比大米高很多。烟酸在蛋白质、脂肪、糖的代谢过程中起着重要作用，能帮助我们维持神经系统、消化系统和皮肤的正常功能。人体内如果缺乏尼克酸，可能引起精神上的幻视、幻听、精神错乱等症状，消化上的口角炎、舌炎、腹泻等症状，以及皮肤上的癞皮病。
+            7.含有丰富的亚油酸
+            玉米中含有丰富的不饱和脂肪酸，尤其是亚油酸的含量高达60%以上，亚油酸可以降低胆固醇，防止其沉积在血管内壁上，从而减少动脉硬化的发生,对预防高血压，心脑血管病有积极的作用。
+        </rawdata>
+
+        <segment>
+            维生素  含量  非常  高
+            玉米  中  的  维生素  含量  非常  高  ，  为  稻米  、  小麦  的  5~10  倍  ，  而  特种  玉米  的  营养  价值  要  高于  普通  玉米  。
+            植物  纤维素  含量  丰富
+            玉米  中  所  含  的  丰富  的  植物  纤维素  具有  刺激  胃肠  蠕动  、  加速  粪便  排泄  的  特性  ，  可  防治  便秘  、  肠炎  、  肠癌  等  。  能  束缚  及  阻碍  过量  的  葡萄糖  的  吸收  ，  起到  抑制  饭后  血糖  升高  的  作用  ；  纤维素  还  可以  抑制  脂肪  吸收  ，  降低  血脂  水平  ，  预防  和  改善  冠心病  、  肥胖  、  胆结石  症的  发生  。
+            富含  硒和镁
+            玉米  中  含  的  硒和镁  有  防癌  抗癌  作用  ，  硒能  加速  体内  过氧化物  的  分解  ，  使  恶性  肿瘤  得  不  到  分子  氧的  供应  而  受到  抑制  。  镁  一方面  也  能  抑制  癌细胞  的  发展  ，  另一方面  能  促使  体内  废物  排出  体外  ，  这  对  防癌  也  有  重要  意义  。
+            含  谷胱甘肽
+            玉米  中  还  含有  一  种  长寿  因子  -  谷胱甘肽  ，  它  在硒  的  参与  下  ，  生成  谷光甘肽  氧化酶  ，  具有  恢复  青春  ，  延缓  衰老  的  功能  。
+            含  玉米黄质
+            玉米  中  所  含  的  玉米黄质  ，  可以  预防  老年  黄斑  性病  变的  产生  。  根据  1994年  美国  哈佛  大学  医学院  和  许多  研究  中心  一起  做  的  研究  显示  ，  摄取  较高量  的  玉米黄质  ，  能  降低  老年  黄斑  性病  变的  机率  。
+            含有  丰富  的  胡萝卜素  与  烟酸
+            玉米  中  所  含  的  胡萝卜素  ，  被  人体  吸收  后能  转化  为  维生素A  ；  玉米  中  还  含有  烟酸  ，  含量  比  大米  高  很多  。  烟酸  在  蛋白质  、  脂肪  、  糖  的  代谢  过程  中  起着  重要  作用  ，  能  帮助  我们  维持  神经  系统  、  消化  系统  和  皮肤  的  正常  功能  。  人体  内  如果  缺乏  尼克酸  ，  可能  引起  精神  上  的  幻视  、  幻听  、  精神  错乱  等  症状  ，  消化  上  的  口角炎  、  舌炎  、  腹泻  等  症状  ，  以及  皮肤  上  的  癞皮病  。
+            含有  丰富  的  亚油酸
+            玉米  中  含有  丰富  的  不饱和  脂肪酸  ，  尤其是  亚油酸  的  含量  高  达  60%  以上  ，  亚油酸  可以  降低  胆固醇  ，  防止  其  沉积  在  血管  内  壁上  ，  从而  减少  动脉  硬化  的  发生  ,  对  预防  高血压  ，  心脑血管病  有  积极  的  作用  。
+        </segment>
+
+        <pos>
+            维生素#NN  含量#NN  非常#AD  高#VA
+            玉米#NN  中#LC  的#DEG  维生素#NN  含量#NN  非常#AD  高#VA  ，#PU  为#P  稻米#NN  、#PU  小麦#NN  的#DEG  5#CD  ~#NN  10#CD  倍#M  ，#PU  而#AD  特种#JJ  玉米#NN  的#DEG  营养#VA  价值#NN  要#VV  高于#VV  普通#JJ  玉米#NN  。#PU
+            植物#NN  纤维素#NN  含量#NN  丰富#VA
+            玉米#NN  中#LC  所#MSP  含#VV  的#DEC  丰富#VA  的#DEC  植物#NN  纤维素#AD  具有#VV  刺激#VV  胃肠#NN  蠕动#NN  、#PU  加速#VV  粪便#NN  排泄#NN  的#DEC  特性#NN  ，#PU  可#VV  防治#VV  便秘#NR  、#PU  肠炎#NR  、#PU  肠癌#NR  等#ETC    。#PU  能#VV  束缚#NN  及#CC  阻碍#VV  过量#AD  的#DEC  葡萄糖#NN  的#DEG  吸收#NN  ，#PU  起到#VV  抑制#VV  饭后#NN  血糖#NN  升高#VV  的#DEC  作用#NN  ；#PU  纤维素#AD  还#AD  可以#VV  抑制#VV  脂肪#NN  吸收#NN  ，#PU  降低#VV  血脂#NN  水平#NN  ，#PU  预防#VV  和#CC  改善#VV  冠心病#NN  、#PU  肥胖#NN  、#PU  胆结石#NN  症的#NN  发生#NN    。#PU    。#PU
+            富含#NN  硒和镁#VV
+            玉米#NN  中#LC  含#VV  的#DEC  硒和镁#NN  有#VE  防癌#NN  抗癌#NN  作用#NN  ，#PU  硒能#AD  加速#VV  体内#NN  过氧化物#NN  的#DEC  分解#VV  ，#PU  使#VV  恶性#JJ  肿瘤#NN  得#VV  不#AD  到#VV  分子#NN  氧的#NN  供应#NN  而#MSP  受到#VV  抑制#NN    。#PU  镁#NN  一方面#CD  也#AD  能#VV  抑制#VV  癌细胞#NN  的#DEG  发展#NN  ，#PU  另一方面#CD  能#VV  促使#VV  体内#NN  废物#NN  排出#VV  体外#NN  ，#PU  这#PN  对#P  防癌#NN  也#AD  有#VE  重要#JJ  意义#NN    。#PU    。#PU
+            含#VV  谷胱甘肽#NN
+            玉米#NN  中#LC  还#AD  含有#VV  一#CD  种#M  长寿#NR  因子#NN  -#NN  谷胱甘肽#NN  ，#PU  它#PN  在硒#NN  的#DEG  参与#NN  下#LC  ，#PU  生成#AD  谷光甘肽#VV  氧化酶#NN  ，#PU  具有#VV  恢复#VV  青春#NN  ，#PU  延缓#VV  衰老#NN  的#DEC  功能#NN  。#PU
+            含#VV  玉米黄质#NN
+            玉米#NN  中#LC  所#MSP  含#VV  的#DEC  玉米黄质#NN  ，#PU  可以#VV  预防#VV  老年#NN  黄斑#NN  性病#NN  变的#NN  产生#VV    。#PU  根据#P  1994年#NT  美国#NR  哈佛#NR  大学#NN  医学院#NN  和#CC  许多#CD  研究#NN  中心#NN  一起#AD  做#VV  的#DEC  研究#NN  显示#VV  ，#PU  摄取#NN  较高量#NN  的#DEG  玉米黄质#NN  ，#PU  能#VV  降低#VV  老年#NN  黄斑#NN  性病#NN  变的#NN  机率#NN    。#PU    。#PU
+            含有#VV  丰富#VA  的#DEC  胡萝卜素#NN  与#CC  烟酸#NN
+            玉米#NN  中#LC  所#MSP  含#VV  的#DEC  胡萝卜素#NN  ，#PU  被#SB  人体#VV  吸收#VV  后能#NN  转化#NN  为#VC  维生素A#NN  ；#PU  玉米#NN  中#LC  还#AD  含有#VV  烟酸#NN  ，#PU  含量#NN  比#P  大米#NN  高#VA  很多#CD    。#PU  烟酸#NN  在#P  蛋白质#NN  、#PU  脂肪#NN  、#PU  糖#NN  的#DEG  代谢#NN  过程#NN  中#LC  起着#VV  重要#JJ  作用#NN  ，#PU  能#VV  帮助#VV  我们#PN  维持#VV  神经#NN  系统#NN  、#PU  消化#NN  系统#NN  和#CC  皮肤#NN  的#DEG  正常#JJ  功能#NN    。#PU  人体#NN  内#LC  如果#CS  缺乏#VV  尼克酸#NN  ，#PU  可能#VV  引起#VV  精神#NN  上#LC  的#DEG  幻视#NN  、#PU  幻听#NN  、#PU  精神#NN  错乱#NN  等#ETC  症状#NN  ，#PU  消化#NN  上#LC  的#DEG  口角炎#NR  、#PU  舌炎#NR  、#PU  腹泻#NR  等#ETC  症状#NN  ，#PU  以及#CC  皮肤#NN  上#LC  的#DEG  癞皮病#NN    。#PU    。#PU
+            含有#VV  丰富#VA  的#DEC  亚油酸#NN
+            玉米#NN  中#LC  含有#AD  丰富#VA  的#DEC  不饱和#NN  脂肪酸#VV  ，#PU  尤其是#AD  亚油酸#NN  的#DEG  含量#NN  高#VA  达#VV  60#CD  %#NN  以上#LC  ，#PU  亚油酸#NN  可以#VV  降低#VV  胆固醇#NN  ，#PU  防止#VV  其#PN  沉积#AD  在#P  血管#NN  内#LC  壁上#VV  ，#PU  从而#AD  减少#VV  动脉#NN  硬化#NN  的#DEG  发生#NN  ,#NN  对#P  预防#NN  高血压#NN  ，#PU  心脑血管病#AD  有#VE  积极#VA  的#DEC  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含量#NN, 维生素#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 非常#AD)  (root, ROOT#null, 高#VA)
+            (assmod, 含量#NN, 玉米#NN)  (case, 玉米#NN, 中#LC)  (case, 玉米#NN, 的#DEG)  (nn, 含量#NN, 维生素#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 非常#AD)  (root, ROOT#null, 高#VA)  (case, 小麦#NN, 为#P)  (conj, 小麦#NN, 稻米#NN)  (assmod, ~#NN, 小麦#NN)  (case, 小麦#NN, 的#DEG)  (nummod, ~#NN, 5#CD)  (nummod, 倍#M, 10#CD)  (conj, 高#VA, 倍#M)  (advmod, 高于#VV, 而#AD)  (amod, 玉米#NN, 特种#JJ)  (assmod, 价值#NN, 玉米#NN)  (case, 玉米#NN, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 高于#VV, 价值#NN)  (mmod, 高于#VV, 要#VV)  (conj, 高#VA, 高于#VV)  (amod, 玉米#NN, 普通#JJ)  (dobj, 高于#VV, 玉米#NN)
+            (nn, 含量#NN, 植物#NN)  (nn, 含量#NN, 纤维素#NN)  (nsubj, 丰富#VA, 含量#NN)  (root, ROOT#null, 丰富#VA)
+            (root, ROOT#null, null#null)
+            (loc, 含#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 植物#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (relcl, 植物#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 具有#VV, 植物#NN)  (advmod, 具有#VV, 纤维素#AD)  (root, ROOT#null, 具有#VV)  (relcl, 特性#NN, 刺激#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 刺激#VV, 蠕动#NN)  (conj, 刺激#VV, 加速#VV)  (nn, 排泄#NN, 粪便#NN)  (dobj, 加速#VV, 排泄#NN)  (mark, 刺激#VV, 的#DEC)  (dobj, 具有#VV, 特性#NN)  (mmod, 防治#VV, 可#VV)  (conj, 具有#VV, 防治#VV)  (conj, 肠癌#NR, 便秘#NR)  (conj, 肠癌#NR, 肠炎#NR)  (dobj, 防治#VV, 肠癌#NR)  (etc, 肠癌#NR, 等#ETC)   (root, ROOT#null, 能#VV)  (conj, 葡萄糖#NN, 束缚#NN)  (cc, 葡萄糖#NN, 及#CC)  (relcl, 葡萄糖#NN, 阻碍#VV)  (advmod, 阻碍#VV, 过量#AD)  (mark, 阻碍#VV, 的#DEC)  (assmod, 吸收#NN, 葡萄糖#NN)  (case, 葡萄糖#NN, 的#DEG)  (dobj, 能#VV, 吸收#NN)  (conj, 能#VV, 起到#VV)  (relcl, 作用#NN, 抑制#VV)  (nn, 血糖#NN, 饭后#NN)  (dobj, 抑制#VV, 血糖#NN)  (conj, 抑制#VV, 升高#VV)  (mark, 抑制#VV, 的#DEC)  (dobj, 起到#VV, 作用#NN)  (advmod, 抑制#VV, 纤维素#AD)  (advmod, 抑制#VV, 还#AD)  (mmod, 抑制#VV, 可以#VV)  (conj, 能#VV, 抑制#VV)  (nn, 吸收#NN, 脂肪#NN)  (dobj, 抑制#VV, 吸收#NN)  (conj, 能#VV, 降低#VV)  (nn, 水平#NN, 血脂#NN)  (dobj, 降低#VV, 水平#NN)  (conj, 能#VV, 预防#VV)  (cc, 预防#VV, 和#CC)  (dep, 预防#VV, 改善#VV)  (conj, 发生#NN, 冠心病#NN)  (conj, 发生#NN, 肥胖#NN)  (nn, 发生#NN, 胆结石#NN)  (nn, 发生#NN, 症的#NN)  (dobj, 改善#VV, 发生#NN)   (root, ROOT#null, null#null)
+            (nsubj, 硒和镁#VV, 富含#NN)  (root, ROOT#null, 硒和镁#VV)
+            (loc, 有#VE, 玉米#NN)  (case, 玉米#NN, 中#LC)  (relcl, 硒和镁#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dep, 有#VE, 硒和镁#NN)  (root, ROOT#null, 有#VE)  (nn, 作用#NN, 防癌#NN)  (nn, 作用#NN, 抗癌#NN)  (dobj, 有#VE, 作用#NN)  (advmod, 加速#VV, 硒能#AD)  (relcl, 分子#NN, 加速#VV)  (nn, 过氧化物#NN, 体内#NN)  (dobj, 加速#VV, 过氧化物#NN)  (mark, 加速#VV, 的#DEC)  (nfincl, 分子#NN, 分解#VV)  (dep, 分解#VV, 使#VV)  (amod, 肿瘤#NN, 恶性#JJ)  (dobj, 使#VV, 肿瘤#NN)  (dep, 使#VV, 得#VV)  (dep, 得#VV, 不#AD)  (dep, 得#VV, 到#VV)  (nn, 供应#NN, 分子#NN)  (nn, 供应#NN, 氧的#NN)  (nsubj, 受到#VV, 供应#NN)  (prtmod, 受到#VV, 而#MSP)  (conj, 有#VE, 受到#VV)  (dobj, 受到#VV, 抑制#NN)   (nsubj, 抑制#VV, 镁#NN)  (nsubj, 抑制#VV, 一方面#CD)  (advmod, 抑制#VV, 也#AD)  (mmod, 抑制#VV, 能#VV)  (root, ROOT#null, 抑制#VV)  (assmod, 发展#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 抑制#VV, 发展#NN)  (nsubj, 促使#VV, 另一方面#CD)  (mmod, 促使#VV, 能#VV)  (conj, 抑制#VV, 促使#VV)  (nn, 废物#NN, 体内#NN)  (dobj, 促使#VV, 废物#NN)  (dep, 促使#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)  (nsubj, 有#VE, 这#PN)  (case, 防癌#NN, 对#P)  (prep, 有#VE, 防癌#NN)  (advmod, 有#VE, 也#AD)  (conj, 抑制#VV, 有#VE)  (amod, 意义#NN, 重要#JJ)  (dobj, 有#VE, 意义#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 含#VV)  (dobj, 含#VV, 谷胱甘肽#NN)
+            (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 谷胱甘肽#NN, 种#M)  (nn, 谷胱甘肽#NN, 长寿#NR)  (nn, 谷胱甘肽#NN, 因子#NN)  (dobj, 含有#VV, 谷胱甘肽#NN)  (nsubj, 谷光甘肽#VV, 它#PN)  (assmod, 参与#NN, 在硒#NN)  (case, 在硒#NN, 的#DEG)  (loc, 谷光甘肽#VV, 参与#NN)  (case, 参与#NN, 下#LC)  (advmod, 谷光甘肽#VV, 生成#AD)  (conj, 含有#VV, 谷光甘肽#VV)  (dobj, 谷光甘肽#VV, 氧化酶#NN)  (conj, 含有#VV, 具有#VV)  (relcl, 功能#NN, 恢复#VV)  (dobj, 恢复#VV, 青春#NN)  (conj, 恢复#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)  (mark, 恢复#VV, 的#DEC)  (dobj, 具有#VV, 功能#NN)
+            (root, ROOT#null, 含#VV)  (dobj, 含#VV, 玉米黄质#NN)
+            (loc, 含#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 玉米黄质#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 预防#VV, 玉米黄质#NN)  (mmod, 预防#VV, 可以#VV)  (dep, 产生#VV, 预防#VV)  (nn, 变的#NN, 老年#NN)  (nn, 变的#NN, 黄斑#NN)  (nn, 变的#NN, 性病#NN)  (dobj, 预防#VV, 变的#NN)  (root, ROOT#null, 产生#VV)   (case, 中心#NN, 根据#P)  (nn, 医学院#NN, 1994年#NT)  (nn, 大学#NN, 美国#NR)  (nn, 大学#NN, 哈佛#NR)  (nn, 医学院#NN, 大学#NN)  (conj, 中心#NN, 医学院#NN)  (cc, 中心#NN, 和#CC)  (nummod, 中心#NN, 许多#CD)  (nn, 中心#NN, 研究#NN)  (prep, 做#VV, 中心#NN)  (advmod, 做#VV, 一起#AD)  (relcl, 研究#NN, 做#VV)  (mark, 做#VV, 的#DEC)  (nsubj, 显示#VV, 研究#NN)  (root, ROOT#null, 显示#VV)  (nn, 较高量#NN, 摄取#NN)  (assmod, 玉米黄质#NN, 较高量#NN)  (case, 较高量#NN, 的#DEG)  (nsubj, 降低#VV, 玉米黄质#NN)  (mmod, 降低#VV, 能#VV)  (ccomp, 显示#VV, 降低#VV)  (nn, 机率#NN, 老年#NN)  (nn, 机率#NN, 黄斑#NN)  (nn, 机率#NN, 性病#NN)  (nn, 机率#NN, 变的#NN)  (dobj, 降低#VV, 机率#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 含有#VV)  (relcl, 烟酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 烟酸#NN, 胡萝卜素#NN)  (cc, 烟酸#NN, 与#CC)  (dobj, 含有#VV, 烟酸#NN)
+            (loc, 含#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 胡萝卜素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (dep, 人体#VV, 胡萝卜素#NN)  (auxpass, 人体#VV, 被#SB)  (root, ROOT#null, 人体#VV)  (ccomp, 人体#VV, 吸收#VV)  (dobj, 吸收#VV, 后能#NN)  (nsubj, 维生素A#NN, 转化#NN)  (cop, 维生素A#NN, 为#VC)  (conj, 人体#VV, 维生素A#NN)  (loc, 含有#VV, 玉米#NN)  (case, 玉米#NN, 中#LC)  (advmod, 含有#VV, 还#AD)  (conj, 维生素A#NN, 含有#VV)  (dobj, 含有#VV, 烟酸#NN)  (nsubj, 高#VA, 含量#NN)  (case, 大米#NN, 比#P)  (prep, 高#VA, 大米#NN)  (conj, 维生素A#NN, 高#VA)  (dep, 高#VA, 很多#CD)   (nsubj, 起着#VV, 烟酸#NN)  (case, 过程#NN, 在#P)  (conj, 糖#NN, 蛋白质#NN)  (conj, 糖#NN, 脂肪#NN)  (assmod, 过程#NN, 糖#NN)  (case, 糖#NN, 的#DEG)  (nn, 过程#NN, 代谢#NN)  (prep, 起着#VV, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 起着#VV)  (amod, 作用#NN, 重要#JJ)  (dobj, 起着#VV, 作用#NN)  (mmod, 帮助#VV, 能#VV)  (conj, 起着#VV, 帮助#VV)  (dobj, 帮助#VV, 我们#PN)  (dep, 帮助#VV, 维持#VV)  (nn, 皮肤#NN, 神经#NN)  (conj, 皮肤#NN, 系统#NN)  (nn, 皮肤#NN, 消化#NN)  (conj, 皮肤#NN, 系统#NN)  (cc, 皮肤#NN, 和#CC)  (assmod, 功能#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (amod, 功能#NN, 正常#JJ)  (dobj, 维持#VV, 功能#NN)   (loc, 缺乏#VV, 人体#NN)  (case, 人体#NN, 内#LC)  (advmod, 缺乏#VV, 如果#CS)  (root, ROOT#null, 缺乏#VV)  (dobj, 缺乏#VV, 尼克酸#NN)  (mmod, 引起#VV, 可能#VV)  (dep, 缺乏#VV, 引起#VV)  (assmod, 症状#NN, 精神#NN)  (case, 精神#NN, 上#LC)  (case, 精神#NN, 的#DEG)  (conj, 错乱#NN, 幻视#NN)  (conj, 错乱#NN, 幻听#NN)  (nn, 错乱#NN, 精神#NN)  (nn, 症状#NN, 错乱#NN)  (etc, 错乱#NN, 等#ETC)  (dep, 癞皮病#NN, 症状#NN)  (assmod, 症状#NN, 消化#NN)  (case, 消化#NN, 上#LC)  (case, 消化#NN, 的#DEG)  (conj, 腹泻#NR, 口角炎#NR)  (conj, 腹泻#NR, 舌炎#NR)  (nn, 症状#NN, 腹泻#NR)  (etc, 腹泻#NR, 等#ETC)  (dep, 癞皮病#NN, 症状#NN)  (cc, 癞皮病#NN, 以及#CC)  (assmod, 癞皮病#NN, 皮肤#NN)  (case, 皮肤#NN, 上#LC)  (case, 皮肤#NN, 的#DEG)  (dobj, 引起#VV, 癞皮病#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 含有#VV)  (relcl, 亚油酸#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 亚油酸#NN)
+            (loc, 丰富#VA, 玉米#NN)  (case, 玉米#NN, 中#LC)  (advmod, 丰富#VA, 含有#AD)  (relcl, 不饱和#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nsubj, 脂肪酸#VV, 不饱和#NN)  (root, ROOT#null, 脂肪酸#VV)  (advmod, 达#VV, 尤其是#AD)  (assmod, 含量#NN, 亚油酸#NN)  (case, 亚油酸#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (conj, 达#VV, 高#VA)  (ccomp, 脂肪酸#VV, 达#VV)  (nummod, %#NN, 60#CD)  (loc, 达#VV, %#NN)  (case, %#NN, 以上#LC)  (nsubj, 降低#VV, 亚油酸#NN)  (mmod, 降低#VV, 可以#VV)  (conj, 达#VV, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 防止#VV)  (nsubj, 壁上#VV, 其#PN)  (advmod, 壁上#VV, 沉积#AD)  (case, 血管#NN, 在#P)  (prep, 壁上#VV, 血管#NN)  (case, 血管#NN, 内#LC)  (ccomp, 防止#VV, 壁上#VV)  (advmod, 减少#VV, 从而#AD)  (relcl, ,#NN, 减少#VV)  (nn, 硬化#NN, 动脉#NN)  (assmod, 发生#NN, 硬化#NN)  (case, 硬化#NN, 的#DEG)  (dobj, 减少#VV, 发生#NN)  (case, 高血压#NN, 对#P)  (nn, 高血压#NN, 预防#NN)  (prep, 有#VE, 高血压#NN)  (advmod, 有#VE, 心脑血管病#AD)  (conj, 达#VV, 有#VE)  (relcl, 作用#NN, 积极#VA)  (mark, 积极#VA, 的#DEC)  (dobj, 有#VE, 作用#NN)
+        </parsing>
+
+        <tag>
+            小麦  稻米  含植物  植物丰富  刺激特性  胃肠蠕动  刺激蠕动  粪便排泄  加速排泄  肠癌  便秘  肠炎  束缚  阻碍葡萄糖  饭后血糖  抑制血糖  脂肪吸收  抑制吸收  血脂水平  降低水平  含硒和镁  加速分子  体内过氧化物  加速过氧化物  恶性肿瘤  分子供应  氧的供应  受到抑制  癌细胞  抑制发展  体内废物  促使废物  排出体外  因子谷胱甘肽  含有谷胱甘肽  谷光甘肽氧化酶  恢复功能  恢复青春  延缓衰老  老年变的  黄斑变的  性病变的  预防变的  产生  大学医学院  研究中心  做研究  显示  摄取较高量  老年机率  黄斑机率  性病机率  变的机率  降低机率  烟酸丰富  含有烟酸  含胡萝卜素  人体  吸收后能  代谢过程  起着  神经皮肤  系统  消化皮肤  正常功能  维持功能  缺乏尼克酸  幻视  幻听  精神错乱  错乱症状  腹泻  口角炎  舌炎  癞皮病  亚油酸丰富  含有亚油酸  不饱和丰富  降低胆固醇  动脉硬化  预防高血压  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.煮熟或蒸熟的玉米营养更易吸收。
+            2.吃玉米时，应把玉米粒的胚尖一起吃掉，因为许多营养都集中在这里。
+            3.玉米尤其适合糖尿病患者吃，因其膳食纤维丰富，吃下血糖不会迅速升高。
+            4.但肠胃不好的人不要多吃，可用玉米粒做道玉米羹，也可“粗粮细做”，用玉米面蒸锅窝头、做几个贴饼子，或熬锅棒子面粥都是不错的选择。
+            5.玉米受潮霉坏变质产生黄曲霉素，有致癌作用，应当禁忌食用。
+        </rawdata>
+
+        <segment>
+            煮熟  或  蒸熟  的  玉米  营养  更易  吸收  。
+            吃  玉米  时  ，  应  把  玉米粒  的  胚尖  一起  吃掉  ，  因为  许多  营养  都  集中  在  这里  。
+            玉米  尤其  适合  糖尿病  患者  吃  ，  因其  膳食  纤维  丰富  ，  吃下  血糖  不  会  迅速  升高  。
+            但  肠胃  不  好  的  人  不  要  多  吃  ，  可用  玉米粒  做道  玉米  羹  ，  也  可  “  粗粮  细  做  ”  ，  用  玉米面  蒸锅  窝头  、  做  几  个  贴饼子  ，  或  熬  锅  棒子面粥  都  是  不错  的  选择  。
+            玉米  受潮  霉坏  变质  产生  黄曲霉素  ，  有  致癌  作用  ，  应当  禁忌  食用  。
+        </segment>
+
+        <pos>
+            煮熟#NN  或#CC  蒸熟#NN  的#DEG  玉米#NN  营养#VA  更易#AD  吸收#VV  。#PU
+            吃#VV  玉米#NN  时#LC  ，#PU  应#VV  把#BA  玉米粒#NN  的#DEG  胚尖#NN  一起#AD  吃掉#VV  ，#PU  因为#P  许多#CD  营养#VA  都#AD  集中#VV  在#P  这里#PN  。#PU
+            玉米#NN  尤其#AD  适合#VV  糖尿病#NN  患者#NN  吃#VV  ，#PU  因其#NN  膳食#NN  纤维#NN  丰富#VA  ，#PU  吃下#NN  血糖#NN  不#AD  会#VV  迅速#AD  升高#VV  。#PU
+            但#AD  肠胃#NN  不#AD  好#VA  的#DEC  人#NN  不#AD  要#VV  多#AD  吃#VV  ，#PU  可用#JJ  玉米粒#NN  做道#AD  玉米#VV  羹#NN  ，#PU  也#AD  可#VV  ``#VV  粗粮#NN  细#AD  做#VV  ''#NN  ，#PU  用#P  玉米面#NN  蒸锅#VV  窝头#NN  、#PU  做#VV  几#CD  个#M  贴饼子#NN  ，#PU  或#CC  熬#NN  锅#NN  棒子面粥#NN  都#AD  是#VC  不错#VA  的#DEC  选择#NN  。#PU
+            玉米#NN  受潮#NN  霉坏#NN  变质#AD  产生#VV  黄曲霉素#NN  ，#PU  有#VE  致癌#NN  作用#NN  ，#PU  应当#VV  禁忌#AD  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 蒸熟#NN, 煮熟#NN)  (cc, 蒸熟#NN, 或#CC)  (assmod, 玉米#NN, 蒸熟#NN)  (case, 蒸熟#NN, 的#DEG)  (nsubj, 吸收#VV, 玉米#NN)  (dep, 吸收#VV, 营养#VA)  (dep, 吸收#VV, 更易#AD)  (root, ROOT#null, 吸收#VV)
+            (loc, 吃掉#VV, 吃#VV)  (dobj, 吃#VV, 玉米#NN)  (case, 吃#VV, 时#LC)  (mmod, 吃掉#VV, 应#VV)  (ba, 吃掉#VV, 把#BA)  (assmod, 胚尖#NN, 玉米粒#NN)  (case, 玉米粒#NN, 的#DEG)  (nsubj, 吃掉#VV, 胚尖#NN)  (advmod, 吃掉#VV, 一起#AD)  (root, ROOT#null, 吃掉#VV)  (case, 营养#VA, 因为#P)  (dep, 营养#VA, 许多#CD)  (prep, 集中#VV, 营养#VA)  (advmod, 集中#VV, 都#AD)  (dep, 吃掉#VV, 集中#VV)  (case, 这里#PN, 在#P)  (prep, 集中#VV, 这里#PN)
+            (nsubj, 适合#VV, 玉米#NN)  (advmod, 适合#VV, 尤其#AD)  (root, ROOT#null, 适合#VV)  (nn, 患者#NN, 糖尿病#NN)  (dobj, 适合#VV, 患者#NN)  (conj, 适合#VV, 吃#VV)  (nn, 纤维#NN, 因其#NN)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 丰富#VA, 纤维#NN)  (conj, 适合#VV, 丰富#VA)  (nn, 血糖#NN, 吃下#NN)  (nsubj, 升高#VV, 血糖#NN)  (neg, 升高#VV, 不#AD)  (mmod, 升高#VV, 会#VV)  (advmod, 升高#VV, 迅速#AD)  (conj, 适合#VV, 升高#VV)
+            (advmod, 吃#VV, 但#AD)  (nsubj, 好#VA, 肠胃#NN)  (neg, 好#VA, 不#AD)  (relcl, 人#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nsubj, 吃#VV, 人#NN)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)  (amod, 玉米粒#NN, 可用#JJ)  (nsubj, 玉米#VV, 玉米粒#NN)  (advmod, 玉米#VV, 做道#AD)  (conj, 吃#VV, 玉米#VV)  (dobj, 玉米#VV, 羹#NN)  (advmod, ``#VV, 也#AD)  (mmod, ``#VV, 可#VV)  (dep, 做#VV, ``#VV)  (dobj, ``#VV, 粗粮#NN)  (advmod, 做#VV, 细#AD)  (conj, 玉米#VV, 做#VV)  (dobj, 做#VV, ''#NN)  (case, 玉米面#NN, 用#P)  (prep, 蒸锅#VV, 玉米面#NN)  (conj, 做#VV, 蒸锅#VV)  (dobj, 蒸锅#VV, 窝头#NN)  (conj, 做#VV, 做#VV)  (nummod, 个#M, 几#CD)  (clf, 贴饼子#NN, 个#M)  (dobj, 做#VV, 贴饼子#NN)  (cc, 玉米#VV, 或#CC)  (nn, 棒子面粥#NN, 熬#NN)  (nn, 棒子面粥#NN, 锅#NN)  (nsubj, 选择#NN, 棒子面粥#NN)  (advmod, 选择#NN, 都#AD)  (cop, 选择#NN, 是#VC)  (relcl, 选择#NN, 不错#VA)  (mark, 不错#VA, 的#DEC)  (conj, 玉米#VV, 选择#NN)
+            (nn, 霉坏#NN, 玉米#NN)  (nn, 霉坏#NN, 受潮#NN)  (nsubj, 产生#VV, 霉坏#NN)  (advmod, 产生#VV, 变质#AD)  (root, ROOT#null, 产生#VV)  (dobj, 产生#VV, 黄曲霉素#NN)  (dep, 产生#VV, 有#VE)  (nn, 作用#NN, 致癌#NN)  (dobj, 有#VE, 作用#NN)  (mmod, 食用#VV, 应当#VV)  (advmod, 食用#VV, 禁忌#AD)  (conj, 产生#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            蒸熟  煮熟  吸收  吃掉  糖尿病患者  适合患者  膳食纤维  纤维丰富  吃下血糖  蒸锅窝头  受潮霉坏  产生黄曲霉素  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/091148429413.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\396 玉米.jpg
+    </picturelocalurl>
+
+</content>

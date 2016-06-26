@@ -1,0 +1,136 @@
+<content>
+
+    <id>
+        922
+    </id>
+
+    <foodname>
+        驴骨
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            为马科动物驴的骨。
+        </rawdata>
+
+        <segment>
+            为  马科  动物  驴  的  骨  。
+        </segment>
+
+        <pos>
+            为#VC  马科#JJ  动物#NN  驴#NN  的#DEG  骨#NN  。#PU
+        </pos>
+
+        <parsing>
+            (cop, 骨#NN, 为#VC)  (amod, 动物#NN, 马科#JJ)  (nn, 驴#NN, 动物#NN)  (assmod, 骨#NN, 驴#NN)  (case, 驴#NN, 的#DEG)  (root, ROOT#null, 骨#NN)
+        </parsing>
+
+        <tag>
+            马科动物  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            补肾滋阴；强筋壮骨。主小儿解颅；消渴；历节风
+        </rawdata>
+
+        <segment>
+            补  肾  滋阴  ；  强筋壮骨  。  主  小儿  解颅  ；  消渴  ；  历  节  风
+        </segment>
+
+        <pos>
+            补#NN  肾#NN  滋阴#VV  ；#PU  强筋壮骨#VV  。#PU  主#JJ  小儿#NN  解颅#VV  ；#PU  消渴#VV  ；#PU  历#DT  节#NN  风#NN
+        </pos>
+
+        <parsing>
+            (nn, 肾#NN, 补#NN)  (nsubj, 滋阴#VV, 肾#NN)  (root, ROOT#null, 滋阴#VV)  (ccomp, 滋阴#VV, 强筋壮骨#VV)  (amod, 小儿#NN, 主#JJ)  (nsubj, 解颅#VV, 小儿#NN)  (conj, 滋阴#VV, 解颅#VV)  (ccomp, 解颅#VV, 消渴#VV)  (det, 风#NN, 历#DT)  (nn, 风#NN, 节#NN)  (dobj, 消渴#VV, 风#NN)
+        </parsing>
+
+        <tag>
+            滋阴  主小儿  消渴风  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾滋阴  强筋壮骨
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.具有补肾滋阴，强筋壮骨之功效。主小儿解颅、消渴、历节风。
+            2.补钙，增加骨密度。
+            功能主治
+            ①孟诜：煮作汤，浴渍身，治历节风。
+            ②《纲目》：牝驴骨煮汁服，治多年消渴。头骨烧灰和油涂小儿解颅。
+        </rawdata>
+
+        <segment>
+            具有  补肾  滋阴  ，  强筋壮骨  之  功效  。  主  小儿  解颅  、  消渴  、  历节  风  。
+            补钙  ，  增加  骨密度  。
+            功能  主治
+            ①孟诜  ：  煮  作  汤  ，  浴渍身  ，  治  历  节风  。
+            ②  纲目    ：  牝驴骨煮汁服  ，  治多  年  消渴  。  头骨  烧  灰  和  油涂  小儿  解颅  。
+        </segment>
+
+        <pos>
+            具有#VV  补肾#NN  滋阴#NN  ，#PU  强筋壮骨#NN  之#DEG  功效#NN    。#PU  主#NN  小儿#VV  解颅#NR  、#PU  消渴#NR  、#PU  历节#NR  风#NN    。#PU    。#PU
+            补钙#NN  ，#PU  增加#VV  骨密度#NN  。#PU
+            功能#NN  主治#VA
+            ①#NR  孟诜#VV  ：#PU  煮#VV  作#VV  汤#NN  ，#PU  浴渍身#VV  ，#PU  治#VV  历#DT  节风#NN  。#PU
+            ②#NN  纲目#NN  ：#PU  牝驴骨煮汁服#NN  ，#PU  治多#CD  年#M  消渴#VV    。#PU  头骨#NN  烧#VV  灰#JJ  和#CC  油涂#JJ  小儿#NN  解颅#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 具有#VV)  (nn, 滋阴#NN, 补肾#NN)  (dep, 功效#NN, 滋阴#NN)  (assmod, 功效#NN, 强筋壮骨#NN)  (case, 强筋壮骨#NN, 之#DEG)  (dobj, 具有#VV, 功效#NN)   (nsubj, 小儿#VV, 主#NN)  (root, ROOT#null, 小儿#VV)  (conj, 历节#NR, 解颅#NR)  (conj, 历节#NR, 消渴#NR)  (nn, 风#NN, 历节#NR)  (dobj, 小儿#VV, 风#NN)   (root, ROOT#null, null#null)
+            (nsubj, 增加#VV, 补钙#NN)  (root, ROOT#null, 增加#VV)  (dobj, 增加#VV, 骨密度#NN)
+            (nsubj, 主治#VA, 功能#NN)  (root, ROOT#null, 主治#VA)
+            (nsubj, 孟诜#VV, ①#NR)  (xsubj, 作#VV, ①#NR)  (root, ROOT#null, 孟诜#VV)  (mmod, 作#VV, 煮#VV)  (ccomp, 孟诜#VV, 作#VV)  (dobj, 作#VV, 汤#NN)  (conj, 作#VV, 浴渍身#VV)  (conj, 作#VV, 治#VV)  (det, 节风#NN, 历#DT)  (dobj, 治#VV, 节风#NN)
+            (nn, 纲目#NN, ②#NN)  (nsubj, 消渴#VV, 纲目#NN)  (nsubj, 消渴#VV, 牝驴骨煮汁服#NN)  (nummod, 年#M, 治多#CD)  (dep, 消渴#VV, 年#M)  (root, ROOT#null, 消渴#VV)   (nsubj, 烧#VV, 头骨#NN)  (root, ROOT#null, 烧#VV)  (amod, 解颅#NN, 灰#JJ)  (cc, 灰#JJ, 和#CC)  (dep, 灰#JJ, 油涂#JJ)  (nn, 解颅#NN, 小儿#NN)  (dobj, 烧#VV, 解颅#NN)
+        </parsing>
+
+        <tag>
+            补肾滋阴  强筋壮骨  历节  消渴  小儿风  增加骨密度  功能主治  孟诜  灰解颅  小儿解颅  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/c8/41/82376_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\922 驴骨.jpg
+    </picturelocalurl>
+
+</content>

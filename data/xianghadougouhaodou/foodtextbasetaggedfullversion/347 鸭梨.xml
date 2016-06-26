@@ -1,0 +1,414 @@
+<content>
+
+    <id>
+        347
+    </id>
+
+    <foodname>
+        鸭梨
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        快果、玉乳、果宗、蜜父、雪梨、香水梨、青梨
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            慢性肠炎、胃寒病、糖尿病患者忌食生梨。
+        </rawdata>
+
+        <segment>
+            慢性  肠炎  、  胃  寒  病  、  糖尿病  患者  忌食  生梨  。
+        </segment>
+
+        <pos>
+            慢性#NN  肠炎#NN  、#PU  胃#NR  寒#JJ  病#NN  、#PU  糖尿病#NN  患者#NN  忌食#VV  生梨#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 肠炎#NN, 慢性#NN)  (conj, 患者#NN, 肠炎#NN)  (nn, 病#NN, 胃#NR)  (amod, 病#NN, 寒#JJ)  (conj, 患者#NN, 病#NN)  (nn, 患者#NN, 糖尿病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (dobj, 忌食#VV, 生梨#NN)
+        </parsing>
+
+        <tag>
+            慢性肠炎  胃寒病  糖尿病  患者  忌食生梨  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。咳嗽痰稠或无痰、咽喉发痒干疼者，慢性支气管炎、肺结核患者，高血压、心脏病、肝炎、肝硬化患者，饮酒后或宿醉未醒者尤其适合。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  咳嗽  痰稠  或  无痰  、  咽喉  发痒  干疼者  ，  慢性  支气管炎  、  肺结核  患者  ，  高血压  、  心脏病  、  肝炎  、  肝硬化  患者  ，  饮酒  后  或  宿醉  未  醒者  尤其  适合  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  咳嗽#NN  痰稠#NN  或#CC  无痰#NN  、#PU  咽喉#NN  发痒#NN  干疼者#VV  ，#PU  慢性#NN  支气管炎#NN  、#PU  肺结核#NN  患者#NN  ，#PU  高血压#NN  、#PU  心脏病#NN  、#PU  肝炎#NN  、#PU  肝硬化#NN  患者#NN  ，#PU  饮酒#NN  后#LC  或#CC  宿醉#NN  未#AD  醒者#AD  尤其#AD  适合#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nn, 发痒#NN, 咳嗽#NN)  (conj, 发痒#NN, 痰稠#NN)  (cc, 发痒#NN, 或#CC)  (conj, 发痒#NN, 无痰#NN)  (nn, 发痒#NN, 咽喉#NN)  (nsubj, 干疼者#VV, 发痒#NN)  (root, ROOT#null, 干疼者#VV)  (nn, 患者#NN, 慢性#NN)  (conj, 患者#NN, 支气管炎#NN)  (nn, 患者#NN, 肺结核#NN)  (nsubj, 适合#VV, 患者#NN)  (conj, 肝硬化#NN, 高血压#NN)  (conj, 肝硬化#NN, 心脏病#NN)  (conj, 肝硬化#NN, 肝炎#NN)  (nn, 患者#NN, 肝硬化#NN)  (nsubj, 适合#VV, 患者#NN)  (loc, 适合#VV, 饮酒#NN)  (case, 饮酒#NN, 后#LC)  (dep, 饮酒#NN, 或#CC)  (dep, 饮酒#NN, 宿醉#NN)  (advmod, 适合#VV, 未#AD)  (advmod, 适合#VV, 醒者#AD)  (advmod, 适合#VV, 尤其#AD)  (ccomp, 干疼者#VV, 适合#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  咳嗽痰稠  无痰  咽喉发痒干疼者  慢性支气管炎  肺结核  患者  高血压  心脏病  肝炎  肝硬化  患者  饮酒后  宿醉未醒者尤其适合  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                43
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                11.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                77
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸭梨为河北省古老地方品种，适应性强，丰产性好，果实大而美，肉质细脆多汁，香甜，较耐贮。
+            梨为蔷薇科梨属植物，多年生落叶果树，乔木，叶子卵形，花多白色，果子多汁、可食。8-9月间果实成熟时采收，鲜用或切片晒干。梨树对土壤的适应能力很强，不论山地、丘陵、沙荒、洼地、盐碱地和红壤，都能生长结果。结果早，结果期长，有些品种2-3年即开始结果，盛果期可维持50年以上。梨多数品种先开花后展叶，少数品种花叶同时开放或先展叶后开花。
+            主要品种有秋子梨、白梨、沙梨、洋梨四种，多分布在中国华北、东北、西北及长江流域各省。中国是梨属植物中心发源地之一，亚洲梨属的梨大都源于亚洲东部，日本和朝鲜也是亚洲梨的原始产地。中国栽培的白梨、沙梨、秋子梨都原产中国。梨有降血压、清热镇凉的作用，梨皮和梨叶、花、根也均可入药，有润肺、消痰、清热、解毒等功效。梨是“百果之宗”，因其鲜嫩多汗、酸甜适口，所以又有“天然矿泉水”之称。
+        </rawdata>
+
+        <segment>
+            鸭梨  为  河北省  古老  地方  品种  ，  适应  性强  ，  丰产  性好  ，  果实  大而美  ，  肉质  细  脆  多汁  ，  香甜  ，  较  耐贮  。
+            梨为  蔷薇科  梨属  植物  ，  多年生  落叶  果树  ，  乔木  ，  叶子  卵形  ，  花  多  白色  ，  果子  多汁  、  可食  。  8-9月  间  果实  成熟  时  采收  ，  鲜  用  或  切片  晒干  。  梨树  对  土壤  的  适应  能力  很  强  ，  不论  山地  、  丘陵  、  沙荒  、  洼地  、  盐碱  地  和  红壤  ，  都  能  生长  结果  。  结果  早  ，  结果  期长  ，  有些  品种  2-3  年  即  开始  结果  ，  盛果期  可  维持  50  年  以上  。  梨  多数  品种  先  开花  后  展叶  ，  少数  品种  花叶  同时  开放  或  先  展  叶  后  开花  。
+            主要  品种  有  秋子梨  、  白梨  、  沙梨  、  洋梨  四  种  ，  多  分布  在  中国  华北  、  东北  、  西北  及  长江  流域  各  省  。  中国  是  梨属  植物  中心  发源  地  之一  ，  亚洲  梨属  的  梨大都  源于  亚洲  东部  ，  日本  和  朝鲜  也  是  亚洲  梨的  原始  产地  。  中国  栽培  的  白梨  、  沙梨  、  秋子梨  都  原产  中国  。  梨有  降  血压  、  清热  镇  凉  的  作用  ，  梨皮  和  梨叶  、  花  、  根  也  均  可  入药  ，  有  润肺  、  消痰  、  清热  、  解毒  等  功效  。  梨是  “  百  果  之  宗  ”  ，  因其  鲜嫩  多汗  、  酸甜  适口  ，  所以  又  有  “  天然  矿泉水  ”  之  称  。
+        </segment>
+
+        <pos>
+            鸭梨#NN  为#VC  河北省#NR  古老#VA  地方#NN  品种#NN  ，#PU  适应#VV  性强#NN  ，#PU  丰产#VV  性好#NN  ，#PU  果实#NN  大而美#VA  ，#PU  肉质#VV  细#NN  脆#NN  多汁#NN  ，#PU  香甜#VV  ，#PU  较#AD  耐贮#VA  。#PU
+            梨为#VV  蔷薇科#NN  梨属#NN  植物#NN  ，#PU  多年生#VV  落叶#NN  果树#NN  ，#PU  乔木#NN  ，#PU  叶子#VV  卵形#NN  ，#PU  花#VV  多#CD  白色#JJ  ，#PU  果子#VV  多汁#NN  、#PU  可食#NN    。#PU  8-9月#NT  间#LC  果实#NN  成熟#VA  时#LC  采收#VV  ，#PU  鲜#VV  用#NN  或#CC  切片#NN  晒干#NN    。#PU  梨树#NN  对#P  土壤#NN  的#DEG  适应#VV  能力#NN  很#AD  强#VA  ，#PU  不论#AD  山地#NN  、#PU  丘陵#NN  、#PU  沙荒#NN  、#PU  洼地#NN  、#PU  盐碱#NN  地#NN  和#CC  红壤#NN  ，#PU  都#AD  能#VV  生长#NN  结果#NN    。#PU  结果#AD  早#VA  ，#PU  结果#NN  期长#VV  ，#PU  有些#DT  品种#NN  2-3#CD  年#M  即#AD  开始#VV  结果#AD  ，#PU  盛果期#NN  可#VV  维持#VV  50#CD  年#M  以上#LC    。#PU  梨#NN  多数#CD  品种#NN  先#AD  开花#JJ  后#NN  展叶#VV  ，#PU  少数#CD  品种#NN  花叶#VV  同时#NN  开放#NN  或#CC  先#NN  展#NN  叶#NN  后#LC  开花#JJ    。#PU    。#PU
+            主要#JJ  品种#NN  有#VE  秋子梨#NR  、#PU  白梨#NR  、#PU  沙梨#NR  、#PU  洋梨#NR  四#CD  种#M  ，#PU  多#AD  分布#VV  在#P  中国#NR  华北#NR  、#PU  东北#NN  、#PU  西北#NN  及#CC  长江#NR  流域#NN  各#DT  省#NN    。#PU  中国#NR  是#VC  梨属#NN  植物#NN  中心#NN  发源#NN  地#NN  之一#NN  ，#PU  亚洲#NR  梨属#NN  的#DEG  梨大都#NN  源于#VV  亚洲#NR  东部#NN  ，#PU  日本#NR  和#CC  朝鲜#NR  也#AD  是#VC  亚洲#NR  梨的#NN  原始#JJ  产地#NN    。#PU  中国#NR  栽培#VV  的#DEC  白梨#NR  、#PU  沙梨#NR  、#PU  秋子梨#NR  都#AD  原产#VV  中国#NR    。#PU  梨有#NN  降#VV  血压#NN  、#PU  清热#NN  镇#NN  凉#NN  的#DEG  作用#NN  ，#PU  梨皮#NR  和#CC  梨叶#NR  、#PU  花#NN  、#PU  根#M  也#AD  均#AD  可#VV  入药#NN  ，#PU  有#VE  润肺#NR  、#PU  消痰#NR  、#PU  清热#NR  、#PU  解毒#NR  等#ETC  功效#NN    。#PU  梨是#NN  ``#VV  百#CD  果#NN  之#DEG  宗#M  ''#NN  ，#PU  因其#VV  鲜嫩#NN  多汗#NN  、#PU  酸甜#NN  适口#NN  ，#PU  所以#AD  又#AD  有#VE  ``#NR  天然#JJ  矿泉水#NN  ''#NN  之#DEG  称#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 品种#NN, 鸭梨#NN)  (cop, 品种#NN, 为#VC)  (nn, 地方#NN, 河北省#NR)  (relcl, 河北省#NR, 古老#VA)  (relcl, 地方#NN, 古老#VA)  (nn, 品种#NN, 地方#NN)  (root, ROOT#null, 品种#NN)  (conj, 品种#NN, 适应#VV)  (dobj, 适应#VV, 性强#NN)  (conj, 适应#VV, 丰产#VV)  (dobj, 丰产#VV, 性好#NN)  (dep, 大而美#VA, 果实#NN)  (conj, 适应#VV, 大而美#VA)  (conj, 适应#VV, 肉质#VV)  (nn, 多汁#NN, 细#NN)  (nn, 多汁#NN, 脆#NN)  (dobj, 肉质#VV, 多汁#NN)  (conj, 适应#VV, 香甜#VV)  (advmod, 耐贮#VA, 较#AD)  (conj, 适应#VV, 耐贮#VA)
+            (root, ROOT#null, 梨为#VV)  (nn, 植物#NN, 蔷薇科#NN)  (nn, 植物#NN, 梨属#NN)  (dobj, 梨为#VV, 植物#NN)  (conj, 梨为#VV, 多年生#VV)  (nn, 果树#NN, 落叶#NN)  (dobj, 多年生#VV, 果树#NN)  (conj, 梨为#VV, 乔木#NN)  (conj, 梨为#VV, 叶子#VV)  (dobj, 叶子#VV, 卵形#NN)  (conj, 梨为#VV, 花#VV)  (range, 花#VV, 多#CD)  (conj, 梨为#VV, 白色#JJ)  (conj, 梨为#VV, 果子#VV)  (conj, 可食#NN, 多汁#NN)  (dobj, 果子#VV, 可食#NN)   (loc, 成熟#VA, 8-9月#NT)  (case, 8-9月#NT, 间#LC)  (nsubj, 成熟#VA, 果实#NN)  (loc, 采收#VV, 成熟#VA)  (case, 成熟#VA, 时#LC)  (root, ROOT#null, 采收#VV)  (ccomp, 采收#VV, 鲜#VV)  (conj, 晒干#NN, 用#NN)  (cc, 晒干#NN, 或#CC)  (nn, 晒干#NN, 切片#NN)  (dobj, 鲜#VV, 晒干#NN)   (nsubj, 强#VA, 梨树#NN)  (case, 土壤#NN, 对#P)  (assmod, 能力#NN, 土壤#NN)  (case, 土壤#NN, 的#DEG)  (nfincl, 能力#NN, 适应#VV)  (nsubj, 强#VA, 能力#NN)  (advmod, 强#VA, 很#AD)  (root, ROOT#null, 强#VA)  (advmod, 红壤#NN, 不论#AD)  (conj, 红壤#NN, 山地#NN)  (conj, 红壤#NN, 丘陵#NN)  (conj, 红壤#NN, 沙荒#NN)  (conj, 红壤#NN, 洼地#NN)  (nn, 红壤#NN, 盐碱#NN)  (conj, 红壤#NN, 地#NN)  (cc, 红壤#NN, 和#CC)  (nsubj, 能#VV, 红壤#NN)  (advmod, 能#VV, 都#AD)  (conj, 强#VA, 能#VV)  (nn, 结果#NN, 生长#NN)  (dobj, 能#VV, 结果#NN)   (advmod, 期长#VV, 结果#AD)  (dep, 期长#VV, 早#VA)  (nsubj, 期长#VV, 结果#NN)  (root, ROOT#null, 期长#VV)  (det, 品种#NN, 有些#DT)  (nsubj, 开始#VV, 品种#NN)  (nummod, 年#M, 2-3#CD)  (dep, 开始#VV, 年#M)  (advmod, 开始#VV, 即#AD)  (ccomp, 期长#VV, 开始#VV)  (advmod, 维持#VV, 结果#AD)  (nsubj, 维持#VV, 盛果期#NN)  (mmod, 维持#VV, 可#VV)  (conj, 期长#VV, 维持#VV)  (nummod, 年#M, 50#CD)  (loc, 维持#VV, 年#M)  (case, 年#M, 以上#LC)   (nn, 品种#NN, 梨#NN)  (nummod, 品种#NN, 多数#CD)  (nsubj, 展叶#VV, 品种#NN)  (advmod, 展叶#VV, 先#AD)  (amod, 后#NN, 开花#JJ)  (dvpmod, 展叶#VV, 后#NN)  (root, ROOT#null, 展叶#VV)  (nummod, 品种#NN, 少数#CD)  (dep, 花叶#VV, 品种#NN)  (dep, 展叶#VV, 花叶#VV)  (nn, 开放#NN, 同时#NN)  (conj, 叶#NN, 开放#NN)  (cc, 叶#NN, 或#CC)  (nn, 叶#NN, 先#NN)  (nn, 叶#NN, 展#NN)  (loc, 花叶#VV, 叶#NN)  (case, 叶#NN, 后#LC)  (conj, 展叶#VV, 开花#JJ)   (root, ROOT#null, null#null)
+            (amod, 品种#NN, 主要#JJ)  (nsubj, 有#VE, 品种#NN)  (root, ROOT#null, 有#VE)  (conj, 洋梨#NR, 秋子梨#NR)  (conj, 洋梨#NR, 白梨#NR)  (conj, 洋梨#NR, 沙梨#NR)  (dobj, 有#VE, 洋梨#NR)  (nummod, 种#M, 四#CD)  (range, 有#VE, 种#M)  (advmod, 分布#VV, 多#AD)  (conj, 有#VE, 分布#VV)  (case, 省#NN, 在#P)  (nn, 西北#NN, 中国#NR)  (conj, 西北#NN, 华北#NR)  (conj, 西北#NN, 东北#NN)  (conj, 流域#NN, 西北#NN)  (cc, 流域#NN, 及#CC)  (nn, 流域#NN, 长江#NR)  (nn, 省#NN, 流域#NN)  (det, 省#NN, 各#DT)  (prep, 分布#VV, 省#NN)   (nsubj, 之一#NN, 中国#NR)  (cop, 之一#NN, 是#VC)  (nn, 中心#NN, 梨属#NN)  (nn, 中心#NN, 植物#NN)  (nn, 之一#NN, 中心#NN)  (nn, 之一#NN, 发源#NN)  (nn, 之一#NN, 地#NN)  (root, ROOT#null, 之一#NN)  (nn, 梨属#NN, 亚洲#NR)  (assmod, 梨大都#NN, 梨属#NN)  (case, 梨属#NN, 的#DEG)  (nsubj, 源于#VV, 梨大都#NN)  (conj, 之一#NN, 源于#VV)  (nn, 东部#NN, 亚洲#NR)  (dobj, 源于#VV, 东部#NN)  (conj, 朝鲜#NR, 日本#NR)  (cc, 朝鲜#NR, 和#CC)  (nsubj, 产地#NN, 朝鲜#NR)  (advmod, 产地#NN, 也#AD)  (cop, 产地#NN, 是#VC)  (nn, 梨的#NN, 亚洲#NR)  (nn, 产地#NN, 梨的#NN)  (amod, 产地#NN, 原始#JJ)  (conj, 之一#NN, 产地#NN)   (nn, 秋子梨#NR, 中国#NR)  (relcl, 中国#NR, 栽培#VV)  (relcl, 秋子梨#NR, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (conj, 秋子梨#NR, 白梨#NR)  (conj, 秋子梨#NR, 沙梨#NR)  (nsubj, 原产#VV, 秋子梨#NR)  (advmod, 原产#VV, 都#AD)  (root, ROOT#null, 原产#VV)  (dobj, 原产#VV, 中国#NR)   (nsubj, 降#VV, 梨有#NN)  (root, ROOT#null, 降#VV)  (conj, 凉#NN, 血压#NN)  (nn, 凉#NN, 清热#NN)  (nn, 凉#NN, 镇#NN)  (assmod, 作用#NN, 凉#NN)  (case, 凉#NN, 的#DEG)  (dobj, 降#VV, 作用#NN)  (conj, 梨叶#NR, 梨皮#NR)  (cc, 梨叶#NR, 和#CC)  (conj, 入药#NN, 梨叶#NR)  (conj, 入药#NN, 花#NN)  (clf, 入药#NN, 根#M)  (advmod, 可#VV, 也#AD)  (advmod, 可#VV, 均#AD)  (relcl, 入药#NN, 可#VV)  (dep, 有#VE, 入药#NN)  (conj, 降#VV, 有#VE)  (conj, 解毒#NR, 润肺#NR)  (conj, 解毒#NR, 消痰#NR)  (conj, 解毒#NR, 清热#NR)  (nn, 功效#NN, 解毒#NR)  (etc, 解毒#NR, 等#ETC)  (dobj, 有#VE, 功效#NN)   (nsubj, ``#VV, 梨是#NN)  (root, ROOT#null, ``#VV)  (nummod, 果#NN, 百#CD)  (assmod, ''#NN, 果#NN)  (case, 果#NN, 之#DEG)  (dep, ''#NN, 宗#M)  (dobj, ``#VV, ''#NN)  (conj, ``#VV, 因其#VV)  (nn, 适口#NN, 鲜嫩#NN)  (conj, 适口#NN, 多汗#NN)  (nn, 适口#NN, 酸甜#NN)  (dobj, 因其#VV, 适口#NN)  (advmod, 有#VE, 所以#AD)  (advmod, 有#VE, 又#AD)  (conj, ``#VV, 有#VE)  (nn, 矿泉水#NN, ``#NR)  (amod, 矿泉水#NN, 天然#JJ)  (nn, ''#NN, 矿泉水#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)
+        </parsing>
+
+        <tag>
+            河北省古老  地方古老  地方品种  适应性强  丰产性好  肉质多汁  蔷薇科植物  梨属植物  梨为植物  落叶果树  多年生果树  叶子卵形  果子可食  果实成熟  采收  切片晒干  山地  丘陵  沙荒  洼地  盐碱红壤  生长结果  期长  开花后  展叶  同时开放  洋梨  白梨  沙梨  西北  东北  流域  梨属中心  植物中心  梨大都  源于东部  朝鲜  日本  梨的产地  原始产地  栽培中国  栽培秋子梨  原产  梨叶  梨皮  可入药  解毒  润肺  消痰  清热  鲜嫩适口  多汗  酸甜适口  天然矿泉水  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.降血压
+            能保护心脏，减轻疲劳，增强心肌活力，降低血压。
+            2.清肺
+            能祛痰止咳，对咽喉有养护作用。
+            3.开胃护肝
+            增进食欲，对肝脏具有保护作用。
+            4.防癌抗癌
+            防止动脉粥样硬化，抑制致癌物质亚硝胺的形成，从而防癌抗癌。
+            5.促进胃肠蠕动
+            中的果胶含量很高，有助于消化、通利大便。
+        </rawdata>
+
+        <segment>
+            降  血压
+            能  保护  心脏  ，  减轻  疲劳  ，  增强  心肌  活力  ，  降低  血压  。
+            清  肺
+            能  祛痰  止咳  ，  对  咽喉  有  养护  作用  。
+            开胃  护肝
+            增进  食欲  ，  对  肝脏  具有  保护  作用  。
+            防癌  抗癌
+            防止  动脉  粥样  硬化  ，  抑制  致癌  物质  亚硝胺  的  形成  ，  从而  防癌  抗癌  。
+            促进  胃肠  蠕动
+            中的  果胶  含量  很  高  ，  有助于  消化  、  通利  大便  。
+        </segment>
+
+        <pos>
+            降#NN  血压#VA
+            能#VV  保护#NN  心脏#NN  ，#PU  减轻#VV  疲劳#VA  ，#PU  增强#VV  心肌#NN  活力#NN  ，#PU  降低#VV  血压#NN  。#PU
+            清#JJ  肺#NN
+            能#VV  祛痰#VV  止咳#NN  ，#PU  对#P  咽喉#NN  有#VE  养护#NN  作用#NN  。#PU
+            开胃#NN  护肝#VV
+            增进#VV  食欲#NN  ，#PU  对#P  肝脏#NN  具有#VV  保护#NN  作用#NN  。#PU
+            防癌#NN  抗癌#VV
+            防止#VV  动脉#NN  粥样#AD  硬化#VV  ，#PU  抑制#VV  致癌#NN  物质#NN  亚硝胺#NN  的#DEG  形成#NN  ，#PU  从而#AD  防癌#VV  抗癌#NN  。#PU
+            促进#VV  胃肠#NN  蠕动#NN
+            中的#NN  果胶#NN  含量#NN  很#AD  高#VA  ，#PU  有助于#VV  消化#NN  、#PU  通利#NN  大便#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 血压#VA, 降#NN)  (root, ROOT#null, 血压#VA)
+            (root, ROOT#null, 能#VV)  (nn, 心脏#NN, 保护#NN)  (dobj, 能#VV, 心脏#NN)  (conj, 能#VV, 减轻#VV)  (dep, 减轻#VV, 疲劳#VA)  (conj, 能#VV, 增强#VV)  (nn, 活力#NN, 心肌#NN)  (dobj, 增强#VV, 活力#NN)  (conj, 能#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)
+            (amod, 肺#NN, 清#JJ)  (root, ROOT#null, 肺#NN)
+            (mmod, 祛痰#VV, 能#VV)  (root, ROOT#null, 祛痰#VV)  (dobj, 祛痰#VV, 止咳#NN)  (case, 咽喉#NN, 对#P)  (prep, 有#VE, 咽喉#NN)  (dep, 祛痰#VV, 有#VE)  (nn, 作用#NN, 养护#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 护肝#VV, 开胃#NN)  (root, ROOT#null, 护肝#VV)
+            (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (case, 肝脏#NN, 对#P)  (prep, 具有#VV, 肝脏#NN)  (conj, 增进#VV, 具有#VV)  (nn, 作用#NN, 保护#NN)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (root, ROOT#null, 防止#VV)  (nsubj, 硬化#VV, 动脉#NN)  (advmod, 硬化#VV, 粥样#AD)  (ccomp, 防止#VV, 硬化#VV)  (dep, 防止#VV, 抑制#VV)  (nn, 亚硝胺#NN, 致癌#NN)  (nn, 亚硝胺#NN, 物质#NN)  (assmod, 形成#NN, 亚硝胺#NN)  (case, 亚硝胺#NN, 的#DEG)  (dobj, 抑制#VV, 形成#NN)  (advmod, 防癌#VV, 从而#AD)  (conj, 防止#VV, 防癌#VV)  (dobj, 防癌#VV, 抗癌#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)
+            (nn, 含量#NN, 中的#NN)  (nn, 含量#NN, 果胶#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (dep, 高#VA, 有助于#VV)  (conj, 大便#NN, 消化#NN)  (nn, 大便#NN, 通利#NN)  (dobj, 有助于#VV, 大便#NN)
+        </parsing>
+
+        <tag>
+            降血压  保护心脏  心肌活力  增强活力  降低血压  清肺  祛痰止咳  护肝  增进食欲  防止  致癌亚硝胺  抑制形成  防癌抗癌  胃肠蠕动  促进蠕动  消化  通利大便  有助于大便  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        清咽润喉  护肝  通便  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.梨中含有丰富的B族维生素，能保护心脏，减轻疲劳，增强心肌活力，降低血压；
+            2.梨所含的配糖体及鞣酸等成分，能祛痰止咳，对咽喉有养护作用；
+            3.梨有较多糖类物质和多种维生素，易被人体吸收，增进食欲，对肝脏具有保护作用；
+            4.梨性凉并能清热镇静，常食能使血压恢复正常，改善头晕目眩等症状；
+            5.食梨能防止动脉粥样硬化，抑制致癌物质亚硝胺的形成，从而防癌抗癌；
+            6.梨中的果胶含量很高，有助于消化、通利大便。
+        </rawdata>
+
+        <segment>
+            梨  中  含有  丰富  的  B  族  维生素  ，  能  保护  心脏  ，  减轻  疲劳  ，  增强  心肌  活力  ，  降低  血压  ；
+            梨所含  的  配糖体  及  鞣酸  等  成分  ，  能  祛痰  止咳  ，  对  咽喉  有  养护  作用  ；
+            梨有  较  多  糖类  物质  和  多种  维生素  ，  易  被  人体  吸收  ，  增进  食欲  ，  对  肝脏  具有  保护  作用  ；
+            梨性  凉  并能  清热  镇静  ，  常食  能  使  血压  恢复  正常  ，  改善  头晕  目眩  等  症状  ；
+            食梨  能  防止  动脉  粥样  硬化  ，  抑制  致癌  物质  亚硝胺  的  形成  ，  从而  防癌  抗癌  ；
+            梨中  的  果胶  含量  很  高  ，  有助于  消化  、  通利  大便  。
+        </segment>
+
+        <pos>
+            梨#NN  中#LC  含有#VV  丰富#VA  的#DEC  B#NN  族#NN  维生素#NN  ，#PU  能#VV  保护#VV  心脏#NN  ，#PU  减轻#VV  疲劳#VA  ，#PU  增强#VV  心肌#NN  活力#NN  ，#PU  降低#VV  血压#NN  ；#PU
+            梨所含#NN  的#DEG  配糖体#NN  及#CC  鞣酸#NN  等#ETC  成分#NN  ，#PU  能#VV  祛痰#VV  止咳#NN  ，#PU  对#P  咽喉#NN  有#VE  养护#NN  作用#NN  ；#PU
+            梨有#NN  较#AD  多#AD  糖类#VV  物质#NN  和#CC  多种#NN  维生素#NN  ，#PU  易#AD  被#SB  人体#VV  吸收#NN  ，#PU  增进#VV  食欲#NN  ，#PU  对#P  肝脏#NN  具有#VV  保护#NN  作用#NN  ；#PU
+            梨性#NN  凉#NN  并能#AD  清热#VV  镇静#NN  ，#PU  常食#NN  能#VV  使#VV  血压#NN  恢复#VV  正常#NN  ，#PU  改善#VV  头晕#NN  目眩#NN  等#ETC  症状#NN  ；#PU
+            食梨#NR  能#VV  防止#VV  动脉#NN  粥样#AD  硬化#VV  ，#PU  抑制#VV  致癌#NN  物质#NN  亚硝胺#NN  的#DEG  形成#NN  ，#PU  从而#AD  防癌#VV  抗癌#NN  ；#PU
+            梨中#NN  的#DEG  果胶#NN  含量#NN  很#AD  高#VA  ，#PU  有助于#VV  消化#NN  、#PU  通利#AD  大便#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 含有#VV, 梨#NN)  (case, 梨#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素#NN, B#NN)  (nn, 维生素#NN, 族#NN)  (dobj, 含有#VV, 维生素#NN)  (mmod, 保护#VV, 能#VV)  (conj, 含有#VV, 保护#VV)  (dobj, 保护#VV, 心脏#NN)  (conj, 含有#VV, 减轻#VV)  (dep, 减轻#VV, 疲劳#VA)  (conj, 含有#VV, 增强#VV)  (nn, 活力#NN, 心肌#NN)  (dobj, 增强#VV, 活力#NN)  (conj, 含有#VV, 降低#VV)  (dobj, 降低#VV, 血压#NN)
+            (assmod, 成分#NN, 梨所含#NN)  (case, 梨所含#NN, 的#DEG)  (conj, 鞣酸#NN, 配糖体#NN)  (cc, 鞣酸#NN, 及#CC)  (nn, 成分#NN, 鞣酸#NN)  (etc, 鞣酸#NN, 等#ETC)  (nsubj, 祛痰#VV, 成分#NN)  (mmod, 祛痰#VV, 能#VV)  (root, ROOT#null, 祛痰#VV)  (dobj, 祛痰#VV, 止咳#NN)  (case, 咽喉#NN, 对#P)  (prep, 有#VE, 咽喉#NN)  (dep, 祛痰#VV, 有#VE)  (nn, 作用#NN, 养护#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 糖类#VV, 梨有#NN)  (advmod, 糖类#VV, 较#AD)  (advmod, 糖类#VV, 多#AD)  (root, ROOT#null, 糖类#VV)  (conj, 多种#NN, 物质#NN)  (cc, 多种#NN, 和#CC)  (nn, 维生素#NN, 多种#NN)  (dobj, 糖类#VV, 维生素#NN)  (advmod, 人体#VV, 易#AD)  (auxpass, 人体#VV, 被#SB)  (conj, 糖类#VV, 人体#VV)  (dobj, 人体#VV, 吸收#NN)  (dep, 糖类#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (case, 肝脏#NN, 对#P)  (prep, 具有#VV, 肝脏#NN)  (conj, 糖类#VV, 具有#VV)  (nn, 作用#NN, 保护#NN)  (dobj, 具有#VV, 作用#NN)
+            (nn, 凉#NN, 梨性#NN)  (nsubj, 清热#VV, 凉#NN)  (advmod, 清热#VV, 并能#AD)  (root, ROOT#null, 清热#VV)  (dobj, 清热#VV, 镇静#NN)  (nsubj, 使#VV, 常食#NN)  (mmod, 使#VV, 能#VV)  (conj, 清热#VV, 使#VV)  (dobj, 使#VV, 血压#NN)  (dep, 使#VV, 恢复#VV)  (dobj, 恢复#VV, 正常#NN)  (conj, 恢复#VV, 改善#VV)  (nn, 目眩#NN, 头晕#NN)  (nn, 症状#NN, 目眩#NN)  (etc, 目眩#NN, 等#ETC)  (dobj, 改善#VV, 症状#NN)
+            (nsubj, 防止#VV, 食梨#NR)  (mmod, 防止#VV, 能#VV)  (root, ROOT#null, 防止#VV)  (nsubj, 硬化#VV, 动脉#NN)  (advmod, 硬化#VV, 粥样#AD)  (ccomp, 防止#VV, 硬化#VV)  (dep, 防止#VV, 抑制#VV)  (nn, 亚硝胺#NN, 致癌#NN)  (nn, 亚硝胺#NN, 物质#NN)  (assmod, 形成#NN, 亚硝胺#NN)  (case, 亚硝胺#NN, 的#DEG)  (dobj, 抑制#VV, 形成#NN)  (advmod, 防癌#VV, 从而#AD)  (conj, 防止#VV, 防癌#VV)  (dobj, 防癌#VV, 抗癌#NN)
+            (assmod, 含量#NN, 梨中#NN)  (case, 梨中#NN, 的#DEG)  (nn, 含量#NN, 果胶#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 有助于#VV)  (dobj, 有助于#VV, 消化#NN)  (advmod, 大便#VA, 通利#AD)  (conj, 高#VA, 大便#VA)
+        </parsing>
+
+        <tag>
+            维生素丰富  含有维生素  保护心脏  心肌活力  增强活力  降低血压  鞣酸  配糖体  祛痰止咳  多种维生素  糖类维生素  人体吸收  增进食欲  清热镇静  恢复正常  头晕目眩  目眩症状  改善症状  防止  致癌亚硝胺  抑制形成  防癌抗癌  有助于消化  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            吃梨时喝热水、食油腻食品会导致腹泻。
+        </rawdata>
+
+        <segment>
+            吃梨  时  喝  热水  、  食油  腻  食品  会  导致  腹泻  。
+        </segment>
+
+        <pos>
+            吃梨#NN  时#LC  喝#NN  热水#NN  、#PU  食油#NN  腻#NN  食品#NN  会#VV  导致#VV  腹泻#NN  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 导致#VV, 吃梨#NN)  (case, 吃梨#NN, 时#LC)  (nn, 食品#NN, 喝#NN)  (conj, 食品#NN, 热水#NN)  (nn, 食品#NN, 食油#NN)  (nn, 食品#NN, 腻#NN)  (nsubj, 导致#VV, 食品#NN)  (mmod, 导致#VV, 会#VV)  (root, ROOT#null, 导致#VV)  (dobj, 导致#VV, 腹泻#NN)
+        </parsing>
+
+        <tag>
+            热水  食油食品  导致腹泻  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101736378128.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\347 鸭梨.jpg
+    </picturelocalurl>
+
+</content>

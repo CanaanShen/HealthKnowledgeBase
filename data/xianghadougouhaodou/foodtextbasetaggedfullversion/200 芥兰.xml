@@ -1,0 +1,394 @@
+<content>
+
+    <id>
+        200
+    </id>
+
+    <foodname>
+        芥兰
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        紫芥蓝、芥蓝菜、芥蓝
+    </alias>
+
+    <season>
+        每年11月到来年3月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            阳痿患者忌食。
+        </rawdata>
+
+        <segment>
+            阳痿  患者  忌食  。
+        </segment>
+
+        <pos>
+            阳痿#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 阳痿#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 阳痿#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            阳痿  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。特别适合食欲不振、便秘、高胆固醇患者。(芥蓝不可大量、频繁食用，否则会抑制性激素的分泌，还有耗人真气的副作用)
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  特别  适合  食欲  不振  、  便秘  、  高  胆固醇  患者  。  (  芥蓝  不  可  大量  、  频繁  食用  ，  否则  会  抑制  性激素  的  分泌  ，  还有  耗  人  真气  的  副作用  )
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  特别#AD  适合#VV  食欲#NN  不振#VV  、#PU  便秘#NN  、#PU  高#JJ  胆固醇#NN  患者#NN    。#PU  -LRB-#NN  芥蓝#NN  不#AD  可#VV  大量#AD  、#PU  频繁#AD  食用#VV  ，#PU  否则#AD  会#VV  抑制#VV  性激素#NN  的#DEG  分泌#NN  ，#PU  还有#AD  耗#VV  人#NN  真气#NN  的#DEG  副作用#NN  -RRB-#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适合#VV, 特别#AD)  (root, ROOT#null, 适合#VV)  (nsubj, 不振#VV, 食欲#NN)  (dep, 适合#VV, 不振#VV)  (conj, 胆固醇#NN, 便秘#NN)  (amod, 胆固醇#NN, 高#JJ)  (nn, 患者#NN, 胆固醇#NN)  (dep, 不振#VV, 患者#NN)   (nsubj, 食用#VV, 芥蓝#NN)  (neg, 食用#VV, 不#AD)  (mmod, 食用#VV, 可#VV)  (advmod, 食用#VV, 大量#AD)  (conj, 大量#AD, 频繁#AD)  (root, ROOT#null, 食用#VV)  (advmod, 抑制#VV, 否则#AD)  (mmod, 抑制#VV, 会#VV)  (conj, 食用#VV, 抑制#VV)  (assmod, 分泌#NN, 性激素#NN)  (case, 性激素#NN, 的#DEG)  (dobj, 抑制#VV, 分泌#NN)  (advmod, 耗#VV, 还有#AD)  (conj, 食用#VV, 耗#VV)  (nn, 真气#NN, 人#NN)  (assmod, -RRB-#NN, 真气#NN)  (case, 真气#NN, 的#DEG)  (nn, -RRB-#NN, 副作用#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  特别适合  食欲不振  便秘  高胆固醇  患者  (芥蓝不可大量  频繁  否则会抑制性激素  分泌  还有耗人真气  副作用)  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                575
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                3450
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.06
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                98.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                76
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.96
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                128
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                50
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                104
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                50.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.88
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.53
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            芥蓝（Gài Lán）学名Brassica albograbra Bailey，英文名Chinese kale，十字花科芸苔属甘蓝类蔬菜，原产我国南方，栽培历史悠久，是我国的特产蔬菜之一，在广东、广西、福建等南方地区是一种很受人们喜爱的家常菜，更是畅销东南亚及港澳地区的出口菜。目前，随着人们生活水平的提高和旅游业的迅猛发展，北京、上海、成都等大中城市对粤菜的需求量也在不断增加，芥篮已成为一种许多地区引种推广的蔬菜品种。
+            苏轼的《老饕赋》中写道：“芥蓝如菌蕈，脆美牙颊响。”来形容芥蓝有香蕈的鲜美味道。芥蓝以肥嫩的花喜和嫩叶供食用,肉质脆嫩、清香，风味别致，营养丰富。芥蓝的菜苔柔嫩、鲜脆、清甜、味鲜美，可炒食、汤食，或作配菜。芥蓝含纤维素、糖类等。其味甘，性辛，除有利水化痰、解毒祛风作用外，还有耗人真气的副作用。久食芥蓝，可抑制性激素的分泌。
+        </rawdata>
+
+        <segment>
+            芥蓝  （  Gài  Lán  ）  学名  Brassica  albograbra  Bailey  ，  英文  名  Chinese  kale  ，  十字  花科  芸苔  属  甘蓝类  蔬菜  ，  原产  我国  南方  ，  栽培  历史  悠久  ，  是  我  国  的  特产  蔬菜  之一  ，  在  广东  、  广西  、  福建  等  南方  地区  是  一  种  很  受  人们  喜爱  的  家常菜  ，  更  是  畅销  东南亚  及  港  澳  地区  的  出口  菜  。  目前  ，  随着  人们  生活  水平  的  提高  和  旅游业  的  迅猛  发展  ，  北京  、  上海  、  成都  等  大中  城市  对  粤菜  的  需求量  也  在  不断  增加  ，  芥篮  已  成为  一  种  许多  地区  引种  推广  的  蔬菜  品种  。
+            苏轼  的  《  老饕  赋  》  中  写道  ：  “  芥蓝  如  菌蕈  ，  脆美  牙  颊  响  。  ”  来  形容  芥蓝  有  香蕈  的  鲜美  味道  。  芥蓝  以  肥嫩  的  花喜  和  嫩叶  供  食用  ,  肉质  脆嫩  、  清香  ，  风味  别致  ，  营养  丰富  。  芥蓝  的  菜苔  柔嫩  、  鲜脆  、  清甜  、  味  鲜美  ，  可  炒食  、  汤食  ，  或作  配菜  。  芥蓝  含纤维素  、  糖类  等  。  其味  甘  ，  性辛  ，  除  有利  水  化痰  、  解毒  祛风  作用  外  ，  还有  耗  人  真气  的  副作用  。  久  食  芥蓝  ，  可  抑制  性激素  的  分泌  。
+        </segment>
+
+        <pos>
+            芥蓝#NR  （#PU  Gài#NN  Lán#NN  ）#PU  学名#JJ  Brassica#NN  albograbra#NN  Bailey#VV  ，#PU  英文#NN  名#NN  Chinese#VV  kale#NN  ，#PU  十字#CD  花科#NN  芸苔#AD  属#VV  甘蓝类#JJ  蔬菜#NN  ，#PU  原产#VV  我国#NN  南方#NN  ，#PU  栽培#VV  历史#NN  悠久#VA  ，#PU  是#VC  我#PN  国#NN  的#DEG  特产#NN  蔬菜#NN  之一#NN  ，#PU  在#P  广东#NR  、#PU  广西#NR  、#PU  福建#NR  等#ETC  南方#NN  地区#NN  是#VC  一#CD  种#M  很#AD  受#VV  人们#NN  喜爱#NN  的#DEC  家常菜#NN  ，#PU  更#AD  是#VC  畅销#VV  东南亚#NR  及#CC  港#NR  澳#NR  地区#NN  的#DEC  出口#NN  菜#NN    。#PU  目前#NT  ，#PU  随着#P  人们#NN  生活#NN  水平#NN  的#DEG  提高#NN  和#CC  旅游业#NN  的#DEG  迅猛#JJ  发展#NN  ，#PU  北京#NR  、#PU  上海#NR  、#PU  成都#NR  等#ETC  大中#NN  城市#NN  对#P  粤菜#NN  的#DEG  需求量#NN  也#AD  在#AD  不断#AD  增加#VV  ，#PU  芥篮#NN  已#AD  成为#VV  一#CD  种#M  许多#CD  地区#NN  引种#VV  推广#NN  的#DEC  蔬菜#NN  品种#NN    。#PU    。#PU
+            苏轼#NN  的#DEG  老饕#NN  赋#NN  中#LC  写道#VV  ：#PU  ``#NN  芥蓝#NN  如#P  菌蕈#NN  ，#PU  脆美#AD  牙#VV  颊#NN  响#NN    。#PU  ''#NN  来#MSP  形容#VV  芥蓝#AD  有#VE  香蕈#NN  的#DEC  鲜美#JJ  味道#NN    。#PU  芥蓝#NR  以#P  肥嫩#NN  的#DEG  花喜#NN  和#CC  嫩叶#NN  供#VV  食用#VV  ,#NN  肉质#NN  脆嫩#NN  、#PU  清香#NN  ，#PU  风味#VV  别致#NN  ，#PU  营养#VA  丰富#VA    。#PU  芥蓝#NN  的#DEG  菜苔#NN  柔嫩#NR  、#PU  鲜脆#NR  、#PU  清甜#NR  、#PU  味#NR  鲜美#VV  ，#PU  可#VV  炒食#NN  、#PU  汤食#NN  ，#PU  或作#VV  配菜#NN    。#PU  芥蓝#VV  含纤维素#NN  、#PU  糖类#NN  等#ETC    。#PU  其味#NR  甘#NR  ，#PU  性辛#VV  ，#PU  除#P  有利#JJ  水#NN  化痰#NN  、#PU  解毒#NN  祛风#NN  作用#NN  外#LC  ，#PU  还有#AD  耗#VV  人#NN  真气#NN  的#DEG  副作用#NN    。#PU  久#NN  食#NN  芥蓝#VV  ，#PU  可#VV  抑制#VV  性激素#NN  的#DEG  分泌#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, Brassica#NN, 芥蓝#NR)  (nn, Lán#NN, Gài#NN)  (prnmod, Brassica#NN, Lán#NN)  (amod, Brassica#NN, 学名#JJ)  (nn, albograbra#NN, Brassica#NN)  (nsubj, Bailey#VV, albograbra#NN)  (root, ROOT#null, Bailey#VV)  (nn, 名#NN, 英文#NN)  (nsubj, Chinese#VV, 名#NN)  (ccomp, Bailey#VV, Chinese#VV)  (dobj, Chinese#VV, kale#NN)  (nummod, 花科#NN, 十字#CD)  (nsubj, 属#VV, 花科#NN)  (advmod, 属#VV, 芸苔#AD)  (conj, Chinese#VV, 属#VV)  (amod, 蔬菜#NN, 甘蓝类#JJ)  (dobj, 属#VV, 蔬菜#NN)  (conj, 属#VV, 原产#VV)  (nn, 南方#NN, 我国#NN)  (dobj, 原产#VV, 南方#NN)  (conj, 属#VV, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)  (conj, 栽培#VV, 悠久#VA)  (cop, 之一#NN, 是#VC)  (nn, 国#NN, 我#PN)  (assmod, 之一#NN, 国#NN)  (case, 国#NN, 的#DEG)  (nn, 之一#NN, 特产#NN)  (nn, 之一#NN, 蔬菜#NN)  (conj, 属#VV, 之一#NN)  (case, 地区#NN, 在#P)  (conj, 福建#NR, 广东#NR)  (conj, 福建#NR, 广西#NR)  (nn, 地区#NN, 福建#NR)  (etc, 福建#NR, 等#ETC)  (nn, 地区#NN, 南方#NN)  (prep, 家常菜#NN, 地区#NN)  (cop, 家常菜#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 家常菜#NN, 种#M)  (advmod, 受#VV, 很#AD)  (relcl, 家常菜#NN, 受#VV)  (nn, 喜爱#NN, 人们#NN)  (dobj, 受#VV, 喜爱#NN)  (mark, 受#VV, 的#DEC)  (conj, 属#VV, 家常菜#NN)  (advmod, 菜#NN, 更#AD)  (cop, 菜#NN, 是#VC)  (relcl, 菜#NN, 畅销#VV)  (conj, 地区#NN, 东南亚#NR)  (cc, 地区#NN, 及#CC)  (nn, 澳#NR, 港#NR)  (nn, 地区#NN, 澳#NR)  (dobj, 畅销#VV, 地区#NN)  (mark, 畅销#VV, 的#DEC)  (nn, 菜#NN, 出口#NN)  (conj, 属#VV, 菜#NN)   (tmod, 增加#VV, 目前#NT)  (case, 发展#NN, 随着#P)  (nn, 水平#NN, 人们#NN)  (nn, 水平#NN, 生活#NN)  (assmod, 提高#NN, 水平#NN)  (case, 水平#NN, 的#DEG)  (conj, 旅游业#NN, 提高#NN)  (cc, 旅游业#NN, 和#CC)  (assmod, 发展#NN, 旅游业#NN)  (case, 旅游业#NN, 的#DEG)  (amod, 发展#NN, 迅猛#JJ)  (prep, 增加#VV, 发展#NN)  (conj, 成都#NR, 北京#NR)  (conj, 成都#NR, 上海#NR)  (nn, 城市#NN, 成都#NR)  (etc, 成都#NR, 等#ETC)  (nn, 城市#NN, 大中#NN)  (nn, 需求量#NN, 城市#NN)  (case, 粤菜#NN, 对#P)  (assmod, 需求量#NN, 粤菜#NN)  (case, 粤菜#NN, 的#DEG)  (nsubj, 增加#VV, 需求量#NN)  (advmod, 增加#VV, 也#AD)  (advmod, 增加#VV, 在#AD)  (advmod, 增加#VV, 不断#AD)  (root, ROOT#null, 增加#VV)  (nsubj, 成为#VV, 芥篮#NN)  (advmod, 成为#VV, 已#AD)  (conj, 增加#VV, 成为#VV)  (nummod, 种#M, 一#CD)  (clf, 品种#NN, 种#M)  (nummod, 地区#NN, 许多#CD)  (nsubj, 引种#VV, 地区#NN)  (relcl, 品种#NN, 引种#VV)  (dobj, 引种#VV, 推广#NN)  (mark, 引种#VV, 的#DEC)  (nn, 品种#NN, 蔬菜#NN)  (dobj, 成为#VV, 品种#NN)   (root, ROOT#null, null#null)
+            (assmod, 老饕#NN, 苏轼#NN)  (case, 苏轼#NN, 的#DEG)  (nsubj, 写道#VV, 老饕#NN)  (loc, 写道#VV, 赋#NN)  (case, 赋#NN, 中#LC)  (root, ROOT#null, 写道#VV)  (nn, 芥蓝#NN, ``#NN)  (nsubj, 牙#VV, 芥蓝#NN)  (case, 菌蕈#NN, 如#P)  (prep, 牙#VV, 菌蕈#NN)  (advmod, 牙#VV, 脆美#AD)  (ccomp, 写道#VV, 牙#VV)  (nn, 响#NN, 颊#NN)  (dobj, 牙#VV, 响#NN)   (nsubj, 形容#VV, ''#NN)  (prtmod, 形容#VV, 来#MSP)  (root, ROOT#null, 形容#VV)  (advmod, 有#VE, 芥蓝#AD)  (relcl, 味道#NN, 有#VE)  (dobj, 有#VE, 香蕈#NN)  (mark, 有#VE, 的#DEC)  (amod, 味道#NN, 鲜美#JJ)  (dobj, 形容#VV, 味道#NN)   (nn, 嫩叶#NN, 芥蓝#NR)  (case, 肥嫩#NN, 以#P)  (assmod, 嫩叶#NN, 肥嫩#NN)  (case, 肥嫩#NN, 的#DEG)  (conj, 嫩叶#NN, 花喜#NN)  (cc, 嫩叶#NN, 和#CC)  (nsubj, 供#VV, 嫩叶#NN)  (xsubj, 食用#VV, 嫩叶#NN)  (root, ROOT#null, 供#VV)  (ccomp, 供#VV, 食用#VV)  (nn, 清香#NN, 肉质#NN)  (conj, 清香#NN, 脆嫩#NN)  (dobj, 食用#VV, 清香#NN)  (conj, 食用#VV, 风味#VV)  (dobj, 风味#VV, 别致#NN)  (conj, 食用#VV, 营养#VA)  (comod, 营养#VA, 丰富#VA)   (assmod, 菜苔#NN, 芥蓝#NN)  (case, 芥蓝#NN, 的#DEG)  (nsubj, 鲜美#VV, 菜苔#NN)  (xsubj, 可#VV, 菜苔#NN)  (conj, 味#NR, 柔嫩#NR)  (conj, 味#NR, 鲜脆#NR)  (conj, 味#NR, 清甜#NR)  (nsubj, 鲜美#VV, 味#NR)  (xsubj, 可#VV, 味#NR)  (root, ROOT#null, 鲜美#VV)  (ccomp, 鲜美#VV, 可#VV)  (conj, 汤食#NN, 炒食#NN)  (dobj, 可#VV, 汤食#NN)  (conj, 可#VV, 或作#VV)  (dobj, 或作#VV, 配菜#NN)   (root, ROOT#null, 芥蓝#VV)  (conj, 糖类#NN, 含纤维素#NN)  (dobj, 芥蓝#VV, 糖类#NN)  (etc, 糖类#NN, 等#ETC)   (nsubj, 性辛#VV, 其味#NR)  (nsubj, 性辛#VV, 甘#NR)  (root, ROOT#null, 性辛#VV)  (case, 作用#NN, 除#P)  (amod, 祛风#NN, 有利#JJ)  (nn, 祛风#NN, 水#NN)  (conj, 祛风#NN, 化痰#NN)  (nn, 祛风#NN, 解毒#NN)  (nn, 作用#NN, 祛风#NN)  (prep, 耗#VV, 作用#NN)  (case, 作用#NN, 外#LC)  (advmod, 耗#VV, 还有#AD)  (ccomp, 性辛#VV, 耗#VV)  (nn, 真气#NN, 人#NN)  (assmod, 副作用#NN, 真气#NN)  (case, 真气#NN, 的#DEG)  (dobj, 耗#VV, 副作用#NN)   (nn, 食#NN, 久#NN)  (nsubj, 芥蓝#VV, 食#NN)  (xsubj, 抑制#VV, 食#NN)  (root, ROOT#null, 芥蓝#VV)  (mmod, 抑制#VV, 可#VV)  (ccomp, 芥蓝#VV, 抑制#VV)  (assmod, 分泌#NN, 性激素#NN)  (case, 性激素#NN, 的#DEG)  (dobj, 抑制#VV, 分泌#NN)
+        </parsing>
+
+        <tag>
+            GàiLán  学名Brassica  Brassicaalbograbra  Chinesekale  甘蓝类蔬菜  我国南方  原产南方  栽培历史  福建  广东  广西  南方地区  受家常菜  人们喜爱  畅销菜  畅销地区  人们水平  生活水平  旅游业  提高  迅猛发展  成都  北京  上海  大中城市  城市需求量  增加  引种品种  引种推广  蔬菜品种  成为品种  写道  鲜美味道  形容味道  嫩叶  花喜  肉质清香  脆嫩  食用清香  风味别致  营养丰富  汤食  炒食  含纤维素  芥蓝糖类  性辛  有利祛风  化痰  解毒祛风  副作用  性激素  抑制分泌  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            芥蓝菜对肠胃热重、熬夜失眠、虚火上升，或因缺乏维生素C而引起的牙龈肿胀出血，很有帮疗功效。坊间流行将芥兰茶切片，煮成清汤，带温饮用，如牙血较严重的话，可加入西洋菜和莲藕同煮。
+        </rawdata>
+
+        <segment>
+            芥蓝菜  对  肠胃  热  重  、  熬夜  失眠  、  虚火  上升  ，  或因  缺乏  维生素C  而  引起  的  牙龈  肿胀  出血  ，  很  有  帮疗  功效  。  坊间  流行  将  芥兰  茶  切片  ，  煮成  清汤  ，  带  温  饮用  ，  如  牙  血  较  严重  的话  ，  可  加入  西洋  菜  和  莲藕  同煮  。
+        </segment>
+
+        <pos>
+            芥蓝菜#NN  对#P  肠胃#NN  热#NN  重#NN  、#PU  熬夜#NN  失眠#NN  、#PU  虚火#NN  上升#VV  ，#PU  或因#AD  缺乏#VV  维生素C#NN  而#CC  引起#VV  的#DEC  牙龈#NN  肿胀#AD  出血#VV  ，#PU  很#AD  有#VE  帮疗#NN  功效#NN    。#PU  坊间#NN  流行#NN  将#AD  芥兰#VV  茶#NN  切片#NN  ，#PU  煮成#VV  清汤#NN  ，#PU  带#VV  温#NN  饮用#NN  ，#PU  如#AD  牙#NN  血#NN  较#AD  严重#VA  的话#SP  ，#PU  可#VV  加入#VV  西洋#NN  菜#NN  和#CC  莲藕#NN  同煮#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 上升#VV, 芥蓝菜#NN)  (case, 虚火#NN, 对#P)  (nn, 虚火#NN, 肠胃#NN)  (nn, 虚火#NN, 热#NN)  (conj, 虚火#NN, 重#NN)  (nn, 虚火#NN, 熬夜#NN)  (conj, 虚火#NN, 失眠#NN)  (prep, 上升#VV, 虚火#NN)  (root, ROOT#null, 上升#VV)  (advmod, 缺乏#VV, 或因#AD)  (relcl, 牙龈#NN, 缺乏#VV)  (dobj, 缺乏#VV, 维生素C#NN)  (cc, 缺乏#VV, 而#CC)  (conj, 缺乏#VV, 引起#VV)  (mark, 缺乏#VV, 的#DEC)  (nsubj, 出血#VV, 牙龈#NN)  (advmod, 出血#VV, 肿胀#AD)  (conj, 上升#VV, 出血#VV)  (advmod, 有#VE, 很#AD)  (dep, 出血#VV, 有#VE)  (nn, 功效#NN, 帮疗#NN)  (dobj, 有#VE, 功效#NN)   (nn, 流行#NN, 坊间#NN)  (nsubj, 芥兰#VV, 流行#NN)  (advmod, 芥兰#VV, 将#AD)  (root, ROOT#null, 芥兰#VV)  (nn, 切片#NN, 茶#NN)  (dobj, 芥兰#VV, 切片#NN)  (conj, 芥兰#VV, 煮成#VV)  (dobj, 煮成#VV, 清汤#NN)  (conj, 煮成#VV, 带#VV)  (nn, 饮用#NN, 温#NN)  (dobj, 带#VV, 饮用#NN)  (advmod, 血#NN, 如#AD)  (nn, 血#NN, 牙#NN)  (nsubj, 严重#VA, 血#NN)  (advmod, 严重#VA, 较#AD)  (dep, 加入#VV, 严重#VA)  (dep, 严重#VA, 的话#SP)  (mmod, 加入#VV, 可#VV)  (conj, 芥兰#VV, 加入#VV)  (nn, 同煮#NN, 西洋#NN)  (conj, 同煮#NN, 菜#NN)  (cc, 同煮#NN, 和#CC)  (nn, 同煮#NN, 莲藕#NN)  (dobj, 加入#VV, 同煮#NN)
+        </parsing>
+
+        <tag>
+            肠胃虚火  熬夜虚火  失眠  上升  缺乏牙龈  缺乏维生素C  帮疗功效  坊间流行  煮成清汤  血严重  西洋同煮  莲藕同煮  加入同煮  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        助消化  预防便秘  降低胆固醇  软化血管
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.芥蓝菜含丰富的维生素A、C、钙、蛋白质、脂肪和植物醣类。有润肠去热气，下虚火，止牙龈出血的功效。
+            2.芥蓝中含有有机碱，这使它带有一定的苦味，能刺激人的味觉神经，增进食欲，还可加快胃肠蠕动，有助消化。
+            3.芥蓝中另一种独特的苦味成分是金鸡纳霜，能抑制过度兴奋的体温中枢，起到消暑解热作用。
+            4.它还含有大量膳食纤维，能防止便秘。降低胆固醇，软化血管，预防心脏病等功效。
+        </rawdata>
+
+        <segment>
+            芥蓝菜  含  丰富  的  维生素A  、  C  、  钙  、  蛋白质  、  脂肪  和  植物  醣类  。  有  润肠  去  热气  ，  下  虚火  ，  止  牙龈  出血  的  功效  。
+            芥蓝  中  含有  有机  碱  ，  这  使  它  带有  一定  的  苦味  ，  能  刺激  人  的  味觉  神经  ，  增进  食欲  ，  还  可  加快  胃肠  蠕动  ，  有助  消化  。
+            芥蓝  中  另  一  种  独特  的  苦味  成分  是  金鸡纳霜  ，  能  抑制  过度  兴奋  的  体温  中枢  ，  起到  消暑  解热  作用  。
+            它  还  含有  大量  膳食  纤维  ，  能  防止  便秘  。  降低  胆固醇  ，  软化  血管  ，  预防  心脏病  等  功效  。
+        </segment>
+
+        <pos>
+            芥蓝菜#NN  含#VV  丰富#VA  的#DEC  维生素A#NN  、#PU  C#NN  、#PU  钙#NN  、#PU  蛋白质#NN  、#PU  脂肪#NN  和#CC  植物#NN  醣类#NN    。#PU  有#VE  润肠#NN  去#MSP  热气#VV  ，#PU  下#VV  虚火#NN  ，#PU  止#VV  牙龈#AD  出血#VV  的#DEC  功效#NN    。#PU    。#PU
+            芥蓝#NN  中#LC  含有#AD  有机#VV  碱#NN  ，#PU  这#PN  使#VV  它#PN  带有#VV  一定#JJ  的#DEG  苦味#NN  ，#PU  能#VV  刺激#VV  人#NN  的#DEG  味觉#NN  神经#NN  ，#PU  增进#VV  食欲#NN  ，#PU  还#AD  可#VV  加快#VV  胃肠#NN  蠕动#NN  ，#PU  有助#VV  消化#NN  。#PU
+            芥蓝#NN  中#LC  另#DT  一#CD  种#M  独特#VA  的#DEC  苦味#NN  成分#NN  是#VC  金鸡纳霜#NN  ，#PU  能#VV  抑制#VV  过度#AD  兴奋#VA  的#DEC  体温#NN  中枢#NN  ，#PU  起到#VV  消暑#NN  解热#NN  作用#NN  。#PU
+            它#PN  还#AD  含有#VV  大量#CD  膳食#NN  纤维#NN  ，#PU  能#VV  防止#VV  便秘#NN    。#PU  降低#VV  胆固醇#NN  ，#PU  软化#VV  血管#NN  ，#PU  预防#VV  心脏病#NN  等#ETC  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 芥蓝菜#NN)  (root, ROOT#null, 含#VV)  (relcl, 醣类#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 醣类#NN, 维生素A#NN)  (conj, 醣类#NN, C#NN)  (conj, 醣类#NN, 钙#NN)  (conj, 醣类#NN, 蛋白质#NN)  (conj, 醣类#NN, 脂肪#NN)  (cc, 醣类#NN, 和#CC)  (nn, 醣类#NN, 植物#NN)  (dobj, 含#VV, 醣类#NN)   (root, ROOT#null, 有#VE)  (dobj, 有#VE, 润肠#NN)  (prtmod, 热气#VV, 去#MSP)  (conj, 有#VE, 热气#VV)  (conj, 有#VE, 下#VV)  (dobj, 下#VV, 虚火#NN)  (conj, 有#VE, 止#VV)  (advmod, 出血#VV, 牙龈#AD)  (relcl, 功效#NN, 出血#VV)  (mark, 出血#VV, 的#DEC)  (dobj, 止#VV, 功效#NN)   (root, ROOT#null, null#null)
+            (loc, 有机#VV, 芥蓝#NN)  (case, 芥蓝#NN, 中#LC)  (advmod, 有机#VV, 含有#AD)  (root, ROOT#null, 有机#VV)  (dobj, 有机#VV, 碱#NN)  (nsubj, 使#VV, 这#PN)  (conj, 有机#VV, 使#VV)  (dobj, 使#VV, 它#PN)  (dep, 使#VV, 带有#VV)  (assmod, 苦味#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 带有#VV, 苦味#NN)  (mmod, 刺激#VV, 能#VV)  (conj, 带有#VV, 刺激#VV)  (assmod, 神经#NN, 人#NN)  (case, 人#NN, 的#DEG)  (nn, 神经#NN, 味觉#NN)  (dobj, 刺激#VV, 神经#NN)  (conj, 带有#VV, 增进#VV)  (dobj, 增进#VV, 食欲#NN)  (advmod, 加快#VV, 还#AD)  (mmod, 加快#VV, 可#VV)  (conj, 带有#VV, 加快#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 加快#VV, 蠕动#NN)  (conj, 带有#VV, 有助#VV)  (dobj, 有助#VV, 消化#NN)
+            (loc, 金鸡纳霜#NN, 芥蓝#NN)  (case, 芥蓝#NN, 中#LC)  (det, 成分#NN, 另#DT)  (nummod, 种#M, 一#CD)  (dep, 另#DT, 种#M)  (relcl, 成分#NN, 独特#VA)  (mark, 独特#VA, 的#DEC)  (nn, 成分#NN, 苦味#NN)  (nsubj, 金鸡纳霜#NN, 成分#NN)  (cop, 金鸡纳霜#NN, 是#VC)  (root, ROOT#null, 金鸡纳霜#NN)  (mmod, 抑制#VV, 能#VV)  (conj, 金鸡纳霜#NN, 抑制#VV)  (advmod, 兴奋#VA, 过度#AD)  (relcl, 中枢#NN, 兴奋#VA)  (mark, 兴奋#VA, 的#DEC)  (nn, 中枢#NN, 体温#NN)  (dobj, 抑制#VV, 中枢#NN)  (conj, 金鸡纳霜#NN, 起到#VV)  (nn, 作用#NN, 消暑#NN)  (nn, 作用#NN, 解热#NN)  (dobj, 起到#VV, 作用#NN)
+            (nsubj, 含有#VV, 它#PN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 纤维#NN, 大量#CD)  (nn, 纤维#NN, 膳食#NN)  (dobj, 含有#VV, 纤维#NN)  (mmod, 防止#VV, 能#VV)  (conj, 含有#VV, 防止#VV)  (dobj, 防止#VV, 便秘#NN)   (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)  (conj, 降低#VV, 软化#VV)  (dobj, 软化#VV, 血管#NN)  (conj, 降低#VV, 预防#VV)  (nn, 功效#NN, 心脏病#NN)  (etc, 心脏病#NN, 等#ETC)  (dobj, 预防#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            醣类丰富  维生素A  蛋白质  脂肪  植物醣类  出血功效  有机碱  带有苦味  味觉神经  刺激神经  增进食欲  胃肠蠕动  加快蠕动  有助消化  中枢兴奋  体温中枢  抑制中枢  膳食纤维  含有纤维  防止便秘  降低胆固醇  软化血管  心脏病功效  预防功效  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.芥蓝的食用部分是肥大的肉质茎和嫩叶，适用于炒、拌、烧，也可做配料，汤料等。
+            2.芥蓝菜有苦涩味，炒时加入少量糖和酒，可以改善口感。
+            3.芥兰梗粗不易熟透，烹制时加入的汤水要比一般菜多，炒的时间要长些，才能更好保持菜里的水分。
+            4.芥蓝的花苔和嫩叶品质脆嫩，清淡爽脆，爽而不硬，脆而不韧，以炒食最佳，如芥蓝炒牛肉、炒腰花。广东人炒芥蓝的特点是要放少量豉油、糖调味，起锅前加入少量料酒。另外可用沸水焯熟作凉拌菜。　
+        </rawdata>
+
+        <segment>
+            芥蓝  的  食用  部分  是  肥大  的  肉质  茎和  嫩叶  ，  适用  于  炒  、  拌  、  烧  ，  也  可  做  配料  ，  汤料  等  。
+            芥蓝菜  有  苦  涩味  ，  炒  时  加入  少量  糖  和  酒  ，  可以  改善  口感  。
+            芥兰  梗粗  不  易  熟透  ，  烹制  时  加入  的  汤水  要  比  一般  菜  多  ，  炒  的  时间  要  长  些  ，  才  能  更好  保持  菜  里  的  水分  。
+            芥蓝  的  花苔  和  嫩叶  品质  脆嫩  ，  清淡  爽脆  ，  爽而不硬  ，  脆  而  不  韧  ，  以  炒  食  最  佳  ，  如  芥蓝  炒  牛肉  、  炒  腰花  。  广东人  炒  芥蓝  的  特点  是  要  放  少量  豉油  、  糖  调味  ，  起锅  前  加入  少量  料酒  。  另外  可  用  沸水  焯熟  作  凉  拌菜  。
+        </segment>
+
+        <pos>
+            芥蓝#NN  的#DEG  食用#VV  部分#NN  是#VC  肥大#NN  的#DEG  肉质#NN  茎和#NN  嫩叶#NN  ，#PU  适用#VV  于#P  炒#NR  、#PU  拌#NR  、#PU  烧#NR  ，#PU  也#AD  可#VV  做#VV  配料#NN  ，#PU  汤料#VV  等#ETC  。#PU
+            芥蓝菜#AD  有#VE  苦#NN  涩味#NN  ，#PU  炒#NN  时#LC  加入#VV  少量#CD  糖#NN  和#CC  酒#NN  ，#PU  可以#VV  改善#VV  口感#NN  。#PU
+            芥兰#NN  梗粗#NN  不#AD  易#VA  熟透#VA  ，#PU  烹制#NN  时#LC  加入#VV  的#DEC  汤水#NN  要#VV  比#P  一般#JJ  菜#NN  多#VA  ，#PU  炒#NN  的#DEG  时间#NN  要#VV  长#VA  些#M  ，#PU  才#AD  能#VV  更好#AD  保持#VV  菜#NN  里#LC  的#DEG  水分#NN  。#PU
+            芥蓝#NN  的#DEG  花苔#NN  和#CC  嫩叶#NN  品质#NN  脆嫩#VA  ，#PU  清淡#VA  爽脆#VA  ，#PU  爽而不硬#NN  ，#PU  脆#NN  而#MSP  不#AD  韧#VA  ，#PU  以#P  炒#NN  食#NN  最#AD  佳#VA  ，#PU  如#AD  芥蓝#AD  炒#VV  牛肉#NN  、#PU  炒#NN  腰花#NN    。#PU  广东人#NN  炒#NN  芥蓝#NN  的#DEG  特点#NN  是#VC  要#VV  放#VV  少量#CD  豉油#NN  、#PU  糖#NN  调味#NN  ，#PU  起锅#NN  前#LC  加入#VV  少量#CD  料酒#NN    。#PU  另外#AD  可#VV  用#P  沸水#NN  焯熟#VV  作#VV  凉#NN  拌菜#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 部分#NN, 芥蓝#NN)  (case, 芥蓝#NN, 的#DEG)  (nfincl, 部分#NN, 食用#VV)  (nsubj, 嫩叶#NN, 部分#NN)  (cop, 嫩叶#NN, 是#VC)  (assmod, 嫩叶#NN, 肥大#NN)  (case, 肥大#NN, 的#DEG)  (nn, 嫩叶#NN, 肉质#NN)  (nn, 嫩叶#NN, 茎和#NN)  (root, ROOT#null, 嫩叶#NN)  (conj, 嫩叶#NN, 适用#VV)  (case, 烧#NR, 于#P)  (conj, 烧#NR, 炒#NR)  (conj, 烧#NR, 拌#NR)  (prep, 适用#VV, 烧#NR)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可#VV)  (dep, 适用#VV, 做#VV)  (dobj, 做#VV, 配料#NN)  (dep, 适用#VV, 汤料#VV)  (dep, 适用#VV, 等#ETC)
+            (advmod, 有#VE, 芥蓝菜#AD)  (root, ROOT#null, 有#VE)  (nn, 涩味#NN, 苦#NN)  (dobj, 有#VE, 涩味#NN)  (loc, 加入#VV, 炒#NN)  (case, 炒#NN, 时#LC)  (dep, 有#VE, 加入#VV)  (nummod, 酒#NN, 少量#CD)  (conj, 酒#NN, 糖#NN)  (cc, 酒#NN, 和#CC)  (dobj, 加入#VV, 酒#NN)  (mmod, 改善#VV, 可以#VV)  (conj, 有#VE, 改善#VV)  (dobj, 改善#VV, 口感#NN)
+            (nn, 梗粗#NN, 芥兰#NN)  (nsubj, 易#VA, 梗粗#NN)  (neg, 易#VA, 不#AD)  (root, ROOT#null, 易#VA)  (comod, 易#VA, 熟透#VA)  (loc, 多#VA, 烹制#NN)  (case, 烹制#NN, 时#LC)  (relcl, 汤水#NN, 加入#VV)  (mark, 加入#VV, 的#DEC)  (nsubj, 多#VA, 汤水#NN)  (mmod, 多#VA, 要#VV)  (case, 菜#NN, 比#P)  (amod, 菜#NN, 一般#JJ)  (prep, 多#VA, 菜#NN)  (conj, 易#VA, 多#VA)  (assmod, 时间#NN, 炒#NN)  (case, 炒#NN, 的#DEG)  (nsubj, 长#VA, 时间#NN)  (mmod, 长#VA, 要#VV)  (conj, 易#VA, 长#VA)  (dep, 长#VA, 些#M)  (advmod, 保持#VV, 才#AD)  (mmod, 保持#VV, 能#VV)  (advmod, 保持#VV, 更好#AD)  (conj, 易#VA, 保持#VV)  (assmod, 水分#NN, 菜#NN)  (case, 菜#NN, 里#LC)  (case, 菜#NN, 的#DEG)  (dobj, 保持#VV, 水分#NN)
+            (assmod, 品质#NN, 芥蓝#NN)  (case, 芥蓝#NN, 的#DEG)  (conj, 品质#NN, 花苔#NN)  (cc, 品质#NN, 和#CC)  (nn, 品质#NN, 嫩叶#NN)  (nsubj, 脆嫩#VA, 品质#NN)  (root, ROOT#null, 脆嫩#VA)  (conj, 脆嫩#VA, 清淡#VA)  (comod, 清淡#VA, 爽脆#VA)  (nsubj, 韧#VA, 爽而不硬#NN)  (nsubj, 韧#VA, 脆#NN)  (prtmod, 韧#VA, 而#MSP)  (neg, 韧#VA, 不#AD)  (conj, 脆嫩#VA, 韧#VA)  (case, 食#NN, 以#P)  (nn, 食#NN, 炒#NN)  (prep, 佳#VA, 食#NN)  (advmod, 佳#VA, 最#AD)  (dep, 韧#VA, 佳#VA)  (advmod, 炒#VV, 如#AD)  (advmod, 炒#VV, 芥蓝#AD)  (conj, 脆嫩#VA, 炒#VV)  (conj, 腰花#NN, 牛肉#NN)  (nn, 腰花#NN, 炒#NN)  (dobj, 炒#VV, 腰花#NN)   (nn, 芥蓝#NN, 广东人#NN)  (nn, 芥蓝#NN, 炒#NN)  (assmod, 特点#NN, 芥蓝#NN)  (case, 芥蓝#NN, 的#DEG)  (nsubj, 放#VV, 特点#NN)  (cop, 放#VV, 是#VC)  (mmod, 放#VV, 要#VV)  (root, ROOT#null, 放#VV)  (nummod, 调味#NN, 少量#CD)  (conj, 糖#NN, 豉油#NN)  (nn, 调味#NN, 糖#NN)  (dobj, 放#VV, 调味#NN)  (loc, 加入#VV, 起锅#NN)  (case, 起锅#NN, 前#LC)  (dep, 放#VV, 加入#VV)  (nummod, 料酒#NN, 少量#CD)  (dobj, 加入#VV, 料酒#NN)   (advmod, 焯熟#VV, 另外#AD)  (mmod, 焯熟#VV, 可#VV)  (case, 沸水#NN, 用#P)  (prep, 焯熟#VV, 沸水#NN)  (conj, 作#VV, 焯熟#VV)  (root, ROOT#null, 作#VV)  (nn, 拌菜#NN, 凉#NN)  (dobj, 作#VV, 拌菜#NN)
+        </parsing>
+
+        <tag>
+            肉质嫩叶  茎和嫩叶  加入酒  改善口感  加入汤水  一般菜  保持水分  花苔  嫩叶品质  品质脆嫩  爽脆清淡  腰花  牛肉  广东人芥蓝  加入料酒  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071028484379.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\200 芥兰.jpg
+    </picturelocalurl>
+
+</content>

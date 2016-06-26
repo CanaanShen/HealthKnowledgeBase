@@ -1,0 +1,231 @@
+<content>
+
+    <id>
+        474
+    </id>
+
+    <foodname>
+        蛋白粉
+    </foodname>
+
+    <firstcategory>
+        药食
+    </firstcategory>
+
+    <secondcategory>
+        药食
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肾脏疾病患者、肝脏疾病患者、新生儿、痛风病人
+        </rawdata>
+
+        <segment>
+            肾脏  疾病  患者  、  肝脏  疾病  患者  、  新生儿  、  痛风  病人
+        </segment>
+
+        <pos>
+            肾脏#NN  疾病#NN  患者#NN  、#PU  肝脏#NN  疾病#NN  患者#NN  、#PU  新生儿#NN  、#PU  痛风#NN  病人#NN
+        </pos>
+
+        <parsing>
+            (nn, 疾病#NN, 肾脏#NN)  (nn, 患者#NN, 疾病#NN)  (conj, 病人#NN, 患者#NN)  (nn, 疾病#NN, 肝脏#NN)  (nn, 病人#NN, 疾病#NN)  (conj, 痛风#NN, 患者#NN)  (conj, 痛风#NN, 新生儿#NN)  (nn, 病人#NN, 痛风#NN)  (root, ROOT#null, 病人#NN)
+        </parsing>
+
+        <tag>
+            肾脏疾病  患者  肝脏疾病  患者  新生儿  痛风病人  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蛋白粉一般是采用提纯的大豆蛋白、或酪蛋白、或乳清蛋白、或上述几种蛋白的组合体，构成的粉剂，其用途是为缺乏蛋白质的人补充蛋白质。蛋白质是保证机体健康最重要的营养素，它是维持和修复机体以及细胞生长所必需的，它不仅影响机体组织如肌肉的生长，还参与激素的产生、免疫功能的维持、其它营养物质和氧的转运以及血红蛋白的生成、血液凝结等多方面。
+        </rawdata>
+
+        <segment>
+            蛋白粉  一般  是  采用  提纯  的  大豆  蛋白  、  或  酪蛋白  、  或  乳清  蛋白  、  或  上述  几  种  蛋白  的  组合体  ，  构成  的  粉剂  ，  其  用途  是  为  缺乏  蛋白质  的  人  补充  蛋  白质  。  蛋白质  是  保证  机体  健康  最  重要  的  营养素  ，  它  是  维持  和  修复  机体  以及  细胞  生长  所  必需  的  ，  它  不仅  影响  机体  组织  如  肌肉  的  生长  ，  还  参与  激素  的  产生  、  免疫  功能  的  维持  、  其它  营养  物质  和氧  的  转运  以及  血红  蛋白  的  生成  、  血液  凝结  等  多  方面  。
+        </segment>
+
+        <pos>
+            蛋白粉#NN  一般#AD  是#VC  采用#VV  提纯#NN  的#DEG  大豆#NR  蛋白#NR  、#PU  或#CC  酪蛋白#NR  、#PU  或#CC  乳清#NN  蛋白#NN  、#PU  或#CC  上述#JJ  几#CD  种#M  蛋白#NN  的#DEG  组合体#NN  ，#PU  构成#VV  的#DEC  粉剂#NN  ，#PU  其#PN  用途#AD  是#VC  为#P  缺乏#VV  蛋白质#NN  的#DEC  人#NN  补充#VV  蛋#NN  白质#NN    。#PU  蛋白质#NR  是#VC  保证#VV  机体#CD  健康#AD  最#AD  重要#VA  的#DEC  营养素#NN  ，#PU  它#PN  是#VC  维持#VV  和#CC  修复#VV  机体#NN  以及#CC  细胞#NN  生长#NN  所#MSP  必需#VV  的#DEC  ，#PU  它#PN  不仅#CC  影响#VV  机体#NN  组织#NN  如#AD  肌肉#NN  的#DEG  生长#NN  ，#PU  还#AD  参与#VV  激素#NN  的#DEC  产生#NN  、#PU  免疫#VV  功能#NN  的#DEC  维持#VV  、#PU  其它#DT  营养#VA  物质#NN  和氧#NN  的#DEG  转运#NN  以及#CC  血红#NN  蛋白#NN  的#DEG  生成#NN  、#PU  血液#NN  凝结#NN  等#ETC  多#CD  方面#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 粉剂#NN, 蛋白粉#NN)  (advmod, 粉剂#NN, 一般#AD)  (cop, 粉剂#NN, 是#VC)  (relcl, 粉剂#NN, 采用#VV)  (assmod, 组合体#NN, 提纯#NN)  (case, 提纯#NN, 的#DEG)  (nn, 酪蛋白#NR, 大豆#NR)  (dep, 酪蛋白#NR, 蛋白#NR)  (cc, 酪蛋白#NR, 或#CC)  (dep, 组合体#NN, 酪蛋白#NR)  (cc, 组合体#NN, 或#CC)  (nn, 蛋白#NN, 乳清#NN)  (conj, 蛋白#NN, 蛋白#NN)  (cc, 蛋白#NN, 或#CC)  (amod, 蛋白#NN, 上述#JJ)  (nummod, 种#M, 几#CD)  (clf, 蛋白#NN, 种#M)  (assmod, 组合体#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (dobj, 采用#VV, 组合体#NN)  (conj, 采用#VV, 构成#VV)  (mark, 采用#VV, 的#DEC)  (root, ROOT#null, 粉剂#NN)  (nsubj, 是#VC, 其#PN)  (advmod, 是#VC, 用途#AD)  (conj, 粉剂#NN, 是#VC)  (case, 补充#VV, 为#P)  (relcl, 人#NN, 缺乏#VV)  (dobj, 缺乏#VV, 蛋白质#NN)  (mark, 缺乏#VV, 的#DEC)  (nsubj, 补充#VV, 人#NN)  (prep, 是#VC, 补充#VV)  (nn, 白质#NN, 蛋#NN)  (dobj, 补充#VV, 白质#NN)   (nsubj, 方面#NN, 蛋白质#NR)  (cop, 方面#NN, 是#VC)  (relcl, 产生#NN, 保证#VV)  (nummod, 营养素#NN, 机体#CD)  (advmod, 重要#VA, 健康#AD)  (advmod, 重要#VA, 最#AD)  (relcl, 营养素#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (dobj, 保证#VV, 营养素#NN)  (nsubj, 维持#VV, 它#PN)  (cop, 维持#VV, 是#VC)  (dep, 保证#VV, 维持#VV)  (cc, 维持#VV, 和#CC)  (dep, 维持#VV, 修复#VV)  (conj, 细胞#NN, 机体#NN)  (cc, 细胞#NN, 以及#CC)  (nn, 生长#NN, 细胞#NN)  (nsubj, 必需#VV, 生长#NN)  (prtmod, 必需#VV, 所#MSP)  (dobj, 修复#VV, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nsubj, 影响#VV, 它#PN)  (cc, 影响#VV, 不仅#CC)  (conj, 维持#VV, 影响#VV)  (nn, 组织#NN, 机体#NN)  (nn, 肌肉#NN, 组织#NN)  (advmod, 肌肉#NN, 如#AD)  (assmod, 生长#NN, 肌肉#NN)  (case, 肌肉#NN, 的#DEG)  (dobj, 影响#VV, 生长#NN)  (advmod, 参与#VV, 还#AD)  (conj, 影响#VV, 参与#VV)  (dobj, 参与#VV, 激素#NN)  (mark, 保证#VV, 的#DEC)  (dep, 方面#NN, 产生#NN)  (nsubj, 维持#VV, 免疫#VV)  (dobj, 免疫#VV, 功能#NN)  (mark, 免疫#VV, 的#DEC)  (conj, 产生#NN, 维持#VV)  (det, 和氧#NN, 其它#DT)  (relcl, 和氧#NN, 营养#VA)  (nn, 和氧#NN, 物质#NN)  (assmod, 转运#NN, 和氧#NN)  (case, 和氧#NN, 的#DEG)  (conj, 产生#NN, 转运#NN)  (cc, 产生#NN, 以及#CC)  (nn, 蛋白#NN, 血红#NN)  (assmod, 生成#NN, 蛋白#NN)  (case, 蛋白#NN, 的#DEG)  (conj, 产生#NN, 生成#NN)  (nn, 凝结#NN, 血液#NN)  (dep, 产生#NN, 凝结#NN)  (etc, 凝结#NN, 等#ETC)  (nummod, 方面#NN, 多#CD)  (root, ROOT#null, 方面#NN)
+        </parsing>
+
+        <tag>
+            采用粉剂  乳清蛋白  上述蛋白  采用组合体  缺乏人  缺乏蛋白质  补充白质  保证产生  保证营养素  细胞生长  机体组织  组织肌肉  影响生长  参与激素  免疫功能  和氧营养  转运  血红蛋白  生成  血液凝结  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.促进肌肉生长
+            2.提高免疫力
+            3.修补细胞与建造组织
+            4.构成体内所有的细胞和组织
+            5.维持细胞的正常功能与新陈代谢
+            6.形成酵素系统，维持正常的消化机能
+            7.制造血液的运送物质，维持身体的渗透压
+            8.酶的催化作用
+            9.荷尔蒙的调节作用
+            10.氧气的运载作用
+            11.肌肉的收缩作用
+            12.身体的免疫作用
+            13.身体的支架作用
+            14.调节免疫，抗疲劳
+            15.体液的中和作用
+        </rawdata>
+
+        <segment>
+            促进  肌肉  生长
+            提高  免疫力
+            修补  细胞  与  建造  组织
+            构成  体内  所有  的  细胞  和  组织
+            维持  细胞  的  正常  功能  与  新陈代谢
+            形成  酵素  系统  ，  维持  正常  的  消化  机能
+            制造  血液  的  运送  物质  ，  维持  身体  的  渗透压
+            酶的  催化  作用
+            荷尔蒙  的  调节  作用
+            .  氧气  的  运载  作用
+            .  肌肉  的  收缩  作用
+            .  身体  的  免疫  作用
+            .  身体  的  支架  作用
+            .  调节  免疫  ，  抗  疲劳
+            .  体液  的  中和  作用
+        </segment>
+
+        <pos>
+            促进#VV  肌肉#NN  生长#NN
+            提高#VV  免疫力#NN
+            修补#NN  细胞#NN  与#P  建造#NN  组织#VV
+            构成#VV  体内#NN  所有#DT  的#DEG  细胞#NN  和#CC  组织#NN
+            维持#VV  细胞#NN  的#DEG  正常#JJ  功能#NN  与#CC  新陈代谢#NN
+            形成#VV  酵素#NN  系统#NN  ，#PU  维持#VV  正常#VA  的#DEC  消化#NN  机能#NN
+            制造#VV  血液#NN  的#DEG  运送#VV  物质#NN  ，#PU  维持#VV  身体#NN  的#DEC  渗透压#NN
+            酶的#VV  催化#NN  作用#NN
+            荷尔蒙#VA  的#DEC  调节#VV  作用#NN
+            .#VV  氧气#NN  的#DEG  运载#JJ  作用#NN
+            .#VV  肌肉#NN  的#DEG  收缩#JJ  作用#NN
+            .#VV  身体#NN  的#DEG  免疫#JJ  作用#NN
+            .#VV  身体#NN  的#DEG  支架#JJ  作用#NN
+            .#AD  调节#VV  免疫#NN  ，#PU  抗#AD  疲劳#VA
+            .#VV  体液#NN  的#DEG  中和#JJ  作用#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 促进#VV)  (nn, 生长#NN, 肌肉#NN)  (dobj, 促进#VV, 生长#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)
+            (root, ROOT#null, null#null)
+            (nn, 细胞#NN, 修补#NN)  (nsubj, 组织#VV, 细胞#NN)  (case, 建造#NN, 与#P)  (prep, 组织#VV, 建造#NN)  (root, ROOT#null, 组织#VV)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 构成#VV)  (nn, 组织#NN, 体内#NN)  (assmod, 组织#NN, 所有#DT)  (case, 所有#DT, 的#DEG)  (conj, 组织#NN, 细胞#NN)  (cc, 组织#NN, 和#CC)  (dobj, 构成#VV, 组织#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 维持#VV)  (assmod, 新陈代谢#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (amod, 新陈代谢#NN, 正常#JJ)  (conj, 新陈代谢#NN, 功能#NN)  (cc, 新陈代谢#NN, 与#CC)  (dobj, 维持#VV, 新陈代谢#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 形成#VV)  (nn, 系统#NN, 酵素#NN)  (dobj, 形成#VV, 系统#NN)  (conj, 形成#VV, 维持#VV)  (relcl, 机能#NN, 正常#VA)  (mark, 正常#VA, 的#DEC)  (nn, 机能#NN, 消化#NN)  (dobj, 维持#VV, 机能#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 制造#VV)  (assmod, 渗透压#NN, 血液#NN)  (case, 血液#NN, 的#DEG)  (relcl, 渗透压#NN, 运送#VV)  (dobj, 运送#VV, 物质#NN)  (conj, 运送#VV, 维持#VV)  (dobj, 维持#VV, 身体#NN)  (mark, 运送#VV, 的#DEC)  (dobj, 制造#VV, 渗透压#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 酶的#VV)  (nn, 作用#NN, 催化#NN)  (dobj, 酶的#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (nsubj, 调节#VV, 荷尔蒙#VA)  (mark, 荷尔蒙#VA, 的#DEC)  (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 氧气#NN)  (case, 氧气#NN, 的#DEG)  (amod, 作用#NN, 运载#JJ)  (dobj, .#VV, 作用#NN)  (root, .#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 肌肉#NN)  (case, 肌肉#NN, 的#DEG)  (amod, 作用#NN, 收缩#JJ)  (dobj, .#VV, 作用#NN)  (root, .#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (amod, 作用#NN, 免疫#JJ)  (dobj, .#VV, 作用#NN)  (root, .#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 身体#NN)  (case, 身体#NN, 的#DEG)  (amod, 作用#NN, 支架#JJ)  (dobj, .#VV, 作用#NN)  (root, .#VV, 作用#NN)
+            (root, ROOT#null, null#null)
+            (root, ROOT#null, 调节#VV)  (dobj, 调节#VV, 免疫#NN)  (advmod, 疲劳#VA, 抗#AD)  (dep, 调节#VV, 疲劳#VA)
+            (root, ROOT#null, null#null)
+            (assmod, 作用#NN, 体液#NN)  (case, 体液#NN, 的#DEG)  (amod, 作用#NN, 中和#JJ)  (dobj, .#VV, 作用#NN)  (root, .#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            肌肉生长  促进生长  提高免疫力  修补细胞  体内组织  构成组织  正常新陈代谢  功能  维持新陈代谢  酵素系统  形成系统  机能正常  消化机能  维持机能  运送渗透压  维持身体  制造渗透压  酶的  调节免疫  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蛋白质是一类重要的营养素，它的存在与生命的各种活动紧密联系，例如参与机体的构成及机体的代谢，参与遗传信息构成和代谢，同时也为机体提供热量。
+            蛋白质的种类极其繁多，不同食物来源的蛋白质，能被人体消化、吸收和利用的程度也不同，也就是说，不同种类的蛋白质其营养价值有所区别，而决定蛋白质营养价值的主要因素是蛋白质中必需氨基酸的种类和含量。氨基酸评分（AAS）是测评蛋白质中必需氨基酸种类和含量的一个常用指标。
+        </rawdata>
+
+        <segment>
+            蛋白质  是  一  类  重要  的  营养素  ，  它  的  存在  与  生命  的  各  种  活动  紧密  联系  ，  例如  参与  机体  的  构成  及  机体  的  代谢  ，  参与  遗传  信息  构成  和  代谢  ，  同时  也  为  机体  提供  热量  。
+            蛋白质  的  种类  极其  繁多  ，  不同  食物  来源  的  蛋白质  ，  能  被  人体  消化  、  吸收  和  利用  的  程度  也  不同  ，  也就是说  ，  不同  种类  的  蛋白质  其  营养  价值  有所  区别  ，  而  决定  蛋白质  营养  价值  的  主要  因素  是  蛋白质  中  必需  氨基酸  的  种类  和  含量  。  氨基酸  评分  （  AAS  ）  是  测评  蛋白质  中  必需  氨基酸  种类  和  含量  的  一  个  常用  指标  。
+        </segment>
+
+        <pos>
+            蛋白质#NN  是#VC  一#CD  类#M  重要#VA  的#DEC  营养素#NN  ，#PU  它#PN  的#DEG  存在#NN  与#P  生命#NN  的#DEG  各#DT  种#M  活动#NN  紧密#AD  联系#VV  ，#PU  例如#AD  参与#VV  机体#NN  的#DEG  构成#NN  及#CC  机体#NN  的#DEG  代谢#NN  ，#PU  参与#VV  遗传#JJ  信息#NN  构成#NN  和#CC  代谢#NN  ，#PU  同时#AD  也#AD  为#P  机体#NN  提供#VV  热量#NN  。#PU
+            蛋白质#NN  的#DEG  种类#NN  极其#AD  繁多#VA  ，#PU  不同#JJ  食物#NN  来源#NN  的#DEG  蛋白质#NN  ，#PU  能#VV  被#SB  人体#VV  消化#NN  、#PU  吸收#VV  和#CC  利用#VV  的#DEC  程度#NN  也#AD  不同#VA  ，#PU  也就是说#VA  ，#PU  不同#JJ  种类#NN  的#DEG  蛋白质#NN  其#PN  营养#VA  价值#NN  有所#VV  区别#NN  ，#PU  而#MSP  决定#VV  蛋白质#AD  营养#VA  价值#NN  的#DEG  主要#JJ  因素#NN  是#VC  蛋白质#NN  中#LC  必需#VV  氨基酸#NN  的#DEC  种类#NN  和#CC  含量#NN    。#PU  氨基酸#NR  评分#NN  （#PU  AAS#NN  ）#PU  是#VC  测评#NN  蛋白质#NN  中#LC  必需#VV  氨基酸#JJ  种类#NN  和#CC  含量#NN  的#DEC  一#CD  个#M  常用#JJ  指标#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 营养素#NN, 蛋白质#NN)  (cop, 营养素#NN, 是#VC)  (nummod, 类#M, 一#CD)  (clf, 营养素#NN, 类#M)  (relcl, 营养素#NN, 重要#VA)  (mark, 重要#VA, 的#DEC)  (root, ROOT#null, 营养素#NN)  (assmod, 存在#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 联系#VV, 存在#NN)  (case, 活动#NN, 与#P)  (assmod, 活动#NN, 生命#NN)  (case, 生命#NN, 的#DEG)  (det, 活动#NN, 各#DT)  (clf, 各#DT, 种#M)  (prep, 联系#VV, 活动#NN)  (advmod, 联系#VV, 紧密#AD)  (conj, 营养素#NN, 联系#VV)  (advmod, 提供#VV, 例如#AD)  (dep, 提供#VV, 参与#VV)  (assmod, 机体#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (conj, 机体#NN, 构成#NN)  (cc, 机体#NN, 及#CC)  (assmod, 代谢#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (dobj, 参与#VV, 代谢#NN)  (conj, 参与#VV, 参与#VV)  (amod, 信息#NN, 遗传#JJ)  (nn, 代谢#NN, 信息#NN)  (conj, 代谢#NN, 构成#NN)  (cc, 代谢#NN, 和#CC)  (dobj, 参与#VV, 代谢#NN)  (advmod, 提供#VV, 同时#AD)  (advmod, 提供#VV, 也#AD)  (case, 机体#NN, 为#P)  (prep, 提供#VV, 机体#NN)  (conj, 营养素#NN, 提供#VV)  (dobj, 提供#VV, 热量#NN)
+            (root, ROOT#null, null#null)
+            (assmod, 种类#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 繁多#VA, 种类#NN)  (advmod, 繁多#VA, 极其#AD)  (root, ROOT#null, 繁多#VA)  (amod, 来源#NN, 不同#JJ)  (nn, 来源#NN, 食物#NN)  (assmod, 蛋白质#NN, 来源#NN)  (case, 来源#NN, 的#DEG)  (nsubj, 人体#VV, 蛋白质#NN)  (mmod, 人体#VV, 能#VV)  (auxpass, 人体#VV, 被#SB)  (conj, 繁多#VA, 人体#VV)  (dobj, 人体#VV, 消化#NN)  (relcl, 程度#NN, 吸收#VV)  (cc, 吸收#VV, 和#CC)  (conj, 吸收#VV, 利用#VV)  (mark, 吸收#VV, 的#DEC)  (nsubj, 不同#VA, 程度#NN)  (advmod, 不同#VA, 也#AD)  (conj, 繁多#VA, 不同#VA)  (conj, 繁多#VA, 也就是说#VA)  (amod, 种类#NN, 不同#JJ)  (assmod, 蛋白质#NN, 种类#NN)  (case, 种类#NN, 的#DEG)  (nsubj, 营养#VA, 蛋白质#NN)  (nsubj, 营养#VA, 其#PN)  (conj, 繁多#VA, 营养#VA)  (nsubj, 有所#VV, 价值#NN)  (dep, 营养#VA, 有所#VV)  (dobj, 有所#VV, 区别#NN)  (prtmod, 决定#VV, 而#MSP)  (conj, 有所#VV, 决定#VV)  (advmod, 营养#VA, 蛋白质#AD)  (conj, 繁多#VA, 营养#VA)  (assmod, 因素#NN, 价值#NN)  (case, 价值#NN, 的#DEG)  (amod, 因素#NN, 主要#JJ)  (nsubj, 含量#NN, 因素#NN)  (cop, 含量#NN, 是#VC)  (loc, 必需#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (relcl, 含量#NN, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)  (mark, 必需#VV, 的#DEC)  (conj, 含量#NN, 种类#NN)  (cc, 含量#NN, 和#CC)  (dep, 繁多#VA, 含量#NN)   (nn, AAS#NN, 氨基酸#NR)  (dep, AAS#NN, 评分#NN)  (nsubj, 指标#NN, AAS#NN)  (cop, 指标#NN, 是#VC)  (nn, 蛋白质#NN, 测评#NN)  (loc, 必需#VV, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (relcl, 指标#NN, 必需#VV)  (amod, 含量#NN, 氨基酸#JJ)  (conj, 含量#NN, 种类#NN)  (cc, 含量#NN, 和#CC)  (dobj, 必需#VV, 含量#NN)  (mark, 必需#VV, 的#DEC)  (nummod, 个#M, 一#CD)  (clf, 指标#NN, 个#M)  (amod, 指标#NN, 常用#JJ)  (root, ROOT#null, 指标#NN)
+        </parsing>
+
+        <tag>
+            机体  构成  参与代谢  遗传信息  信息代谢  提供热量  种类繁多  不同来源  食物来源  人体消化  吸收程度  程度不同  不同种类  蛋白质营养  有所区别  必需氨基酸  测评蛋白质  必需指标  常用指标  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            溶于水直接服用
+        </rawdata>
+
+        <segment>
+            溶于  水  直接  服用
+        </segment>
+
+        <pos>
+            溶于#NN  水#NN  直接#AD  服用#VV
+        </pos>
+
+        <parsing>
+            (nn, 水#NN, 溶于#NN)  (nsubj, 服用#VV, 水#NN)  (advmod, 服用#VV, 直接#AD)  (root, ROOT#null, 服用#VV)
+        </parsing>
+
+        <tag>
+            服用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/090949196221.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\474 蛋白粉.jpg
+    </picturelocalurl>
+
+</content>

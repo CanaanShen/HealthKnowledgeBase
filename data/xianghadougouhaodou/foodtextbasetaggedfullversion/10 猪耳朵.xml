@@ -1,0 +1,274 @@
+<content>
+
+    <id>
+        10
+    </id>
+
+    <foodname>
+        猪耳朵
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        猪肉
+    </secondcategory>
+
+    <alias>
+        猪耳
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                190cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                69.4g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                22.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                11.1g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.05mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.12mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.85mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                3.5mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                68.2mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                1.3mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                92mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            猪耳是猪的耳朵，含有蛋白质、脂肪、碳水化合物、维生素及钙、磷、铁。
+        </rawdata>
+
+        <segment>
+            猪耳  是  猪  的  耳朵  ，  含有  蛋白质  、  脂肪  、  碳水化合物  、  维生素  及  钙  、  磷  、  铁  。
+        </segment>
+
+        <pos>
+            猪耳#NN  是#VC  猪#NN  的#DEG  耳朵#NN  ，#PU  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  维生素#NN  及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 耳朵#NN, 猪耳#NN)  (cop, 耳朵#NN, 是#VC)  (assmod, 耳朵#NN, 猪#NN)  (case, 猪#NN, 的#DEG)  (root, ROOT#null, 耳朵#NN)  (conj, 耳朵#NN, 含有#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)
+        </parsing>
+
+        <tag>
+            含有铁  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            补虚损、健脾胃、气血虚损、身体瘦弱。
+        </rawdata>
+
+        <segment>
+            补  虚损  、  健  脾胃  、  气血  虚损  、  身体  瘦弱  。
+        </segment>
+
+        <pos>
+            补#VV  虚损#VA  、#PU  健#VA  脾胃#VA  、#PU  气血#VA  虚损#NN  、#PU  身体#NN  瘦弱#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 补#VV)  (relcl, 虚损#NN, 虚损#VA)  (dep, 虚损#VA, 健#VA)  (conj, 虚损#VA, 脾胃#VA)  (dep, 虚损#VA, 气血#VA)  (conj, 瘦弱#NN, 虚损#NN)  (nn, 瘦弱#NN, 身体#NN)  (dobj, 补#VV, 瘦弱#NN)
+        </parsing>
+
+        <tag>
+            虚损虚损  身体瘦弱  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增加骨密度  美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            猪耳含有蛋白质、脂肪、碳水化合物、维生素及钙、磷、铁等，具有补虚损、健脾胃的功效，适用于气血虚损、身体瘦弱者食用。
+            猪耳很有营养，并且口感非常好，尤其是当凉菜吃的“卤猪耳”，吃到嘴里是又柔韧又脆，味道鲜香不腻，且富含胶质。
+        </rawdata>
+
+        <segment>
+            猪耳  含有  蛋白质  、  脂肪  、  碳水化合物  、  维生素  及  钙  、  磷  、  铁  等  ，  具有  补  虚损  、  健脾胃  的  功效  ，  适用于  气血  虚损  、  身体  瘦  弱者  食用  。
+            猪耳  很  有  营养  ，  并且  口感  非常  好  ，  尤其是  当  凉菜  吃  的  “  卤猪耳  ”  ，  吃到  嘴里  是  又  柔韧  又  脆  ，  味道鲜  香不腻  ，  且  富含  胶质  。
+        </segment>
+
+        <pos>
+            猪耳#NN  含有#VV  蛋白质#NN  、#PU  脂肪#NN  、#PU  碳水化合物#NN  、#PU  维生素#NN  及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  等#ETC  ，#PU  具有#VV  补#VV  虚损#NN  、#PU  健脾胃#NN  的#DEC  功效#NN  ，#PU  适用于#VV  气血#NN  虚损#NN  、#PU  身体#NN  瘦#NN  弱者#NN  食用#VV  。#PU
+            猪耳#NN  很#AD  有#VE  营养#VA  ，#PU  并且#CC  口感#NN  非常#AD  好#VA  ，#PU  尤其是#AD  当#P  凉菜#NN  吃#VV  的#DEC  ``#NN  卤猪耳#AD  ''#VA  ，#PU  吃到#NN  嘴里#NN  是#VC  又#AD  柔韧#CD  又#CC  脆#CD  ，#PU  味道鲜#VV  香不腻#NN  ，#PU  且#CC  富含#VV  胶质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含有#VV, 猪耳#NN)  (root, ROOT#null, 含有#VV)  (conj, 铁#NN, 蛋白质#NN)  (conj, 铁#NN, 脂肪#NN)  (conj, 铁#NN, 碳水化合物#NN)  (conj, 铁#NN, 维生素#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)  (etc, 铁#NN, 等#ETC)  (conj, 含有#VV, 具有#VV)  (relcl, 功效#NN, 补#VV)  (conj, 健脾胃#NN, 虚损#NN)  (dobj, 补#VV, 健脾胃#NN)  (mark, 补#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (conj, 含有#VV, 适用于#VV)  (nn, 弱者#NN, 气血#NN)  (conj, 弱者#NN, 虚损#NN)  (nn, 弱者#NN, 身体#NN)  (nn, 弱者#NN, 瘦#NN)  (dobj, 适用于#VV, 弱者#NN)  (conj, 适用于#VV, 食用#VV)
+            (nsubj, 有#VE, 猪耳#NN)  (advmod, 有#VE, 很#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 营养#VA)  (cc, 营养#VA, 并且#CC)  (nsubj, 好#VA, 口感#NN)  (advmod, 好#VA, 非常#AD)  (conj, 营养#VA, 好#VA)  (advmod, ''#VA, 尤其是#AD)  (case, 凉菜#NN, 当#P)  (prep, 吃#VV, 凉菜#NN)  (relcl, ``#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, ''#VA, ``#NN)  (advmod, ''#VA, 卤猪耳#AD)  (conj, 营养#VA, ''#VA)  (nn, 嘴里#NN, 吃到#NN)  (nsubj, 是#VC, 嘴里#NN)  (conj, 营养#VA, 是#VC)  (advmod, 脆#CD, 又#AD)  (nummod, 脆#CD, 柔韧#CD)  (cc, 脆#CD, 又#CC)  (dep, 是#VC, 脆#CD)  (conj, 营养#VA, 味道鲜#VV)  (dobj, 味道鲜#VV, 香不腻#NN)  (cc, 味道鲜#VV, 且#CC)  (conj, 味道鲜#VV, 富含#VV)  (dobj, 富含#VV, 胶质#NN)
+        </parsing>
+
+        <tag>
+            含有铁  补功效  健脾胃  虚损  气血弱者  身体弱者  适用于弱者  吃到嘴里  味道鲜香不腻  富含胶质  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            \"猪耳朵可以扒烤或镶馅料烹调。在中国，猪耳常添加辛香料调理。
+            猪耳很有营养，并且口感非常好，尤其是当凉菜吃的“卤猪耳”，吃到嘴里是又柔韧又脆，味道鲜香不腻，且富含胶质。\"
+        </rawdata>
+
+        <segment>
+            \  "  猪耳  朵  可以  扒烤  或  镶馅料  烹调  。  在  中国  ，  猪耳  常  添加  辛  香料  调理  。
+            猪耳  很  有  营养  ，  并且  口感  非常  好  ，  尤其是  当  凉菜  吃  的  “  卤猪耳  ”  ，  吃到  嘴里  是  又  柔韧  又  脆  ，  味道鲜  香不腻  ，  且  富含  胶质  。  \  "
+        </segment>
+
+        <pos>
+            \#NN  ''#VV  猪耳#CD  朵#M  可以#VV  扒烤#NN  或#CC  镶馅料#NN  烹调#NN    。#PU  在#P  中国#NR  ，#PU  猪耳#AD  常#AD  添加#VV  辛#NN  香料#NN  调理#NN    。#PU    。#PU
+            猪耳#NN  很#AD  有#VE  营养#VA  ，#PU  并且#CC  口感#NN  非常#AD  好#VA  ，#PU  尤其是#AD  当#P  凉菜#NN  吃#VV  的#DEC  ``#NN  卤猪耳#AD  ''#VA  ，#PU  吃到#NN  嘴里#NN  是#VC  又#AD  柔韧#AD  又#AD  脆#VV  ，#PU  味道鲜#VV  香不腻#NN  ，#PU  且#CC  富含#AD  胶质#VV  。#PU  \#NN  ''#NN
+        </pos>
+
+        <parsing>
+            (nsubj, ''#VV, \#NN)  (root, ROOT#null, ''#VV)  (nummod, 朵#M, 猪耳#CD)  (range, ''#VV, 朵#M)  (conj, ''#VV, 可以#VV)  (conj, 镶馅料#NN, 扒烤#NN)  (cc, 镶馅料#NN, 或#CC)  (nn, 烹调#NN, 镶馅料#NN)  (dobj, 可以#VV, 烹调#NN)   (case, 中国#NR, 在#P)  (prep, 添加#VV, 中国#NR)  (advmod, 添加#VV, 猪耳#AD)  (advmod, 添加#VV, 常#AD)  (root, ROOT#null, 添加#VV)  (nn, 调理#NN, 辛#NN)  (nn, 调理#NN, 香料#NN)  (dobj, 添加#VV, 调理#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 猪耳#NN)  (advmod, 有#VE, 很#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 营养#VA)  (cc, 营养#VA, 并且#CC)  (nsubj, 好#VA, 口感#NN)  (advmod, 好#VA, 非常#AD)  (conj, 营养#VA, 好#VA)  (advmod, ''#VA, 尤其是#AD)  (case, 凉菜#NN, 当#P)  (prep, 吃#VV, 凉菜#NN)  (relcl, ``#NN, 吃#VV)  (mark, 吃#VV, 的#DEC)  (nsubj, ''#VA, ``#NN)  (advmod, ''#VA, 卤猪耳#AD)  (conj, 营养#VA, ''#VA)  (nn, 嘴里#NN, 吃到#NN)  (nsubj, ''#NN, 嘴里#NN)  (cop, ''#NN, 是#VC)  (advmod, 脆#VV, 又#AD)  (advmod, 脆#VV, 柔韧#AD)  (advmod, 脆#VV, 又#AD)  (nfincl, ''#NN, 脆#VV)  (dep, 脆#VV, 味道鲜#VV)  (dobj, 味道鲜#VV, 香不腻#NN)  (cc, 脆#VV, 且#CC)  (advmod, 胶质#VV, 富含#AD)  (conj, 脆#VV, 胶质#VV)  (nn, ''#NN, \#NN)  (conj, 营养#VA, ''#NN)
+        </parsing>
+
+        <tag>
+            扒烤  镶馅料烹调  香料调理  添加调理  吃到嘴里  味道鲜香不腻  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/081341115111.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\10 猪耳朵.jpg
+    </picturelocalurl>
+
+</content>

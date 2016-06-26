@@ -1,0 +1,168 @@
+<content>
+
+    <id>
+        1155
+    </id>
+
+    <foodname>
+        河粉
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            河粉的烹饪方法有很多种，有炒、汤等。经常熬夜而且上火的尽量少吃炒河粉；胃寒的尽量少吃汤河粉。
+        </rawdata>
+
+        <segment>
+            河粉  的  烹饪  方法  有很多  种  ，  有  炒  、  汤  等  。  经常  熬夜  而且  上火  的  尽量  少吃  炒  河粉  ；  胃  寒  的  尽量  少吃  汤  河粉  。
+        </segment>
+
+        <pos>
+            河粉#NN  的#DEG  烹饪#NN  方法#NN  有很多#CD  种#M  ，#PU  有#VE  炒#NN  、#PU  汤#NN  等#ETC    。#PU  经常#AD  熬夜#VV  而且#CC  上火#VV  的#DEC  尽量#NN  少吃#NN  炒#NN  河粉#VV  ；#PU  胃#NR  寒#JJ  的#DEG  尽量#NN  少吃#VV  汤#NN  河粉#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 方法#NN, 河粉#NN)  (case, 河粉#NN, 的#DEG)  (nn, 方法#NN, 烹饪#NN)  (nsubj, 有#VE, 方法#NN)  (nummod, 种#M, 有很多#CD)  (dep, 有#VE, 种#M)  (root, ROOT#null, 有#VE)  (conj, 汤#NN, 炒#NN)  (dobj, 有#VE, 汤#NN)  (etc, 汤#NN, 等#ETC)   (advmod, 熬夜#VV, 经常#AD)  (relcl, 炒#NN, 熬夜#VV)  (cc, 熬夜#VV, 而且#CC)  (conj, 熬夜#VV, 上火#VV)  (mark, 熬夜#VV, 的#DEC)  (nn, 炒#NN, 尽量#NN)  (nn, 炒#NN, 少吃#NN)  (nsubj, 河粉#VV, 炒#NN)  (root, ROOT#null, 河粉#VV)  (nn, 尽量#NN, 胃#NR)  (assmod, 尽量#NN, 寒#JJ)  (case, 寒#JJ, 的#DEG)  (nsubj, 少吃#VV, 尽量#NN)  (ccomp, 河粉#VV, 少吃#VV)  (nn, 河粉#NN, 汤#NN)  (dobj, 少吃#VV, 河粉#NN)
+        </parsing>
+
+        <tag>
+            烹饪方法  很多种  经常熬夜  上火  尽量少吃炒  胃寒  尽量少吃汤  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            河粉是中国的一种著名的小吃，以大米制成，已经有百多年的历史，以广州“沙河粉”最为出名，河粉跟陕西的凉皮和汉中的米面皮在制作上有异曲同工之妙，与北方的面食也不同，河粉的口感比较细腻、清淡，加热出来的河粉通常是晶莹剔透并且口感细滑，比较适合配鸡肉、排骨或蔬菜等一同食用。
+        </rawdata>
+
+        <segment>
+            河粉  是  中国  的  一  种  著名  的  小吃  ，  以  大米  制成  ，  已经  有  百多  年  的  历史  ，  以  广州  “  沙河粉  ”  最为  出名  ，  河粉  跟  陕西  的  凉皮  和  汉中  的  米面  皮  在  制作  上  有  异曲同工  之  妙  ，  与  北方  的  面食  也  不同  ，  河粉  的  口感  比较  细腻  、  清淡  ，  加热  出来  的  河粉  通常  是  晶莹  剔透  并且  口感  细滑  ，  比较  适合  配  鸡肉  、  排骨  或  蔬菜  等  一同  食用  。
+        </segment>
+
+        <pos>
+            河粉#NR  是#VC  中国#NR  的#DEG  一#CD  种#M  著名#VA  的#DEC  小吃#NN  ，#PU  以#P  大米#NR  制成#VV  ，#PU  已经#AD  有#VE  百多#CD  年#M  的#DEG  历史#NN  ，#PU  以#P  广州#NR  ``#NN  沙河粉#NN  ''#NN  最为#AD  出名#VA  ，#PU  河粉#AD  跟#P  陕西#NR  的#DEG  凉皮#NN  和#CC  汉中#NR  的#DEG  米面#NN  皮#NN  在#P  制作#NN  上#LC  有#VE  异曲同工#NR  之#DEG  妙#NN  ，#PU  与#CC  北方#NN  的#DEG  面食#NN  也#AD  不同#VA  ，#PU  河粉#NR  的#DEG  口感#NN  比较#AD  细腻#VA  、#PU  清淡#VA  ，#PU  加热#AD  出来#VV  的#DEC  河粉#NN  通常#AD  是#VC  晶莹#NN  剔透#NN  并且#CC  口感#NN  细滑#NN  ，#PU  比较#AD  适合#VV  配#NN  鸡肉#NN  、#PU  排骨#NN  或#CC  蔬菜#NN  等#ETC  一同#AD  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 小吃#NN, 河粉#NR)  (cop, 小吃#NN, 是#VC)  (assmod, 小吃#NN, 中国#NR)  (case, 中国#NR, 的#DEG)  (nummod, 种#M, 一#CD)  (clf, 小吃#NN, 种#M)  (relcl, 小吃#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (root, ROOT#null, 小吃#NN)  (case, 大米#NR, 以#P)  (prep, 制成#VV, 大米#NR)  (conj, 小吃#NN, 制成#VV)  (advmod, 有#VE, 已经#AD)  (conj, 小吃#NN, 有#VE)  (nummod, 年#M, 百多#CD)  (assmod, 历史#NN, 年#M)  (case, 年#M, 的#DEG)  (dobj, 有#VE, 历史#NN)  (case, ''#NN, 以#P)  (nn, ''#NN, 广州#NR)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 沙河粉#NN)  (prep, 出名#VA, ''#NN)  (advmod, 出名#VA, 最为#AD)  (conj, 小吃#NN, 出名#VA)  (advmod, 食用#VV, 河粉#AD)  (case, 有#VE, 跟#P)  (assmod, 凉皮#NN, 陕西#NR)  (case, 陕西#NR, 的#DEG)  (conj, 皮#NN, 凉皮#NN)  (cc, 皮#NN, 和#CC)  (assmod, 皮#NN, 汉中#NR)  (case, 汉中#NR, 的#DEG)  (nn, 皮#NN, 米面#NN)  (nsubj, 有#VE, 皮#NN)  (case, 制作#NN, 在#P)  (prep, 有#VE, 制作#NN)  (case, 制作#NN, 上#LC)  (prep, 食用#VV, 有#VE)  (assmod, 妙#NN, 异曲同工#NR)  (case, 异曲同工#NR, 之#DEG)  (dobj, 有#VE, 妙#NN)  (cc, 有#VE, 与#CC)  (assmod, 面食#NN, 北方#NN)  (case, 北方#NN, 的#DEG)  (nsubj, 不同#VA, 面食#NN)  (advmod, 不同#VA, 也#AD)  (conj, 有#VE, 不同#VA)  (assmod, 口感#NN, 河粉#NR)  (case, 河粉#NR, 的#DEG)  (nsubj, 细腻#VA, 口感#NN)  (advmod, 细腻#VA, 比较#AD)  (conj, 有#VE, 细腻#VA)  (dep, 细腻#VA, 清淡#VA)  (advmod, 出来#VV, 加热#AD)  (relcl, 河粉#NN, 出来#VV)  (mark, 出来#VV, 的#DEC)  (nsubj, 细滑#NN, 河粉#NN)  (advmod, 细滑#NN, 通常#AD)  (cop, 细滑#NN, 是#VC)  (nn, 细滑#NN, 晶莹#NN)  (conj, 细滑#NN, 剔透#NN)  (cc, 细滑#NN, 并且#CC)  (nn, 细滑#NN, 口感#NN)  (conj, 细腻#VA, 细滑#NN)  (advmod, 适合#VV, 比较#AD)  (conj, 细腻#VA, 适合#VV)  (nn, 蔬菜#NN, 配#NN)  (conj, 蔬菜#NN, 鸡肉#NN)  (conj, 蔬菜#NN, 排骨#NN)  (cc, 蔬菜#NN, 或#CC)  (dobj, 适合#VV, 蔬菜#NN)  (etc, 蔬菜#NN, 等#ETC)  (advmod, 食用#VV, 一同#AD)  (conj, 小吃#NN, 食用#VV)
+        </parsing>
+
+        <tag>
+            小吃著名  面食不同  口感细腻  晶莹细滑  剔透  口感细滑  鸡肉  排骨  适合蔬菜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            富含碳水化合物，构成机体的重要物质;储存和提供热能;维持大脑功能必须的能源;调节脂肪代谢;提供膳食纤维;节约蛋白质;解毒;增强肠道功能。
+            1.补充能量,含碳水化合物，糖类，能迅速为身体提供能量;
+            2.安神除烦,碳水化合物可以补充大脑消耗的葡萄糖，缓解脑部葡萄糖供养不足而出现的疲惫、易怒、头晕、失眠、夜间出汗、注意力涣散、健忘、极度口渴、沮丧、化紊乱，甚至出现幻觉;
+            3.解毒,增加免疫细胞的活性，消除体内的有害物质。
+        </rawdata>
+
+        <segment>
+            富含  碳水化合物  ，  构成  机体  的  重要  物质  ;  储存  和  提供  热能  ;  维持  大脑  功能  必须  的  能源  ;  调节  脂肪  代谢  ;  提供  膳食  纤维  ;  节约  蛋白质  ;  解毒  ;  增强  肠道  功能  。
+            补充  能量  ,  含  碳水化合物  ，  糖类  ，  能  迅速  为  身体  提供  能量  ;
+            安神  除烦  ,  碳水化合物  可以  补充  大脑  消耗  的  葡萄糖  ，  缓解  脑部  葡萄糖  供养  不足  而  出现  的  疲惫  、  易怒  、  头晕  、  失眠  、  夜间  出汗  、  注意力  涣散  、  健忘  、  极度  口渴  、  沮丧  、  化  紊乱  ，  甚至  出现  幻觉  ;
+            解毒  ,  增加  免疫  细胞  的  活性  ，  消除  体内  的  有害  物质  。
+        </segment>
+
+        <pos>
+            富含#NR  碳水化合物#VV  ，#PU  构成#VV  机体#NN  的#DEC  重要#JJ  物质#NN  ;#NN  储存#VV  和#CC  提供#VV  热能#NN  ;#NN  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  ;#NN  调节#VV  脂肪#NN  代谢#NN  ;#NN  提供#VV  膳食#NN  纤维#NN  ;#NN  节约#VV  蛋白质#NN  ;#NN  解毒#NN  ;#NN  增强#VV  肠道#NN  功能#NN  。#PU
+            补充#NN  能量#NN  ,#AD  含#VV  碳水化合物#NN  ，#PU  糖类#NN  ，#PU  能#VV  迅速#AD  为#P  身体#NN  提供#VV  能量#NN  ;#NN
+            安神#NN  除烦#NN  ,#NN  碳水化合物#NN  可以#VV  补充#VV  大脑#AD  消耗#VV  的#DEC  葡萄糖#NN  ，#PU  缓解#VV  脑部#VV  葡萄糖#NN  供养#NN  不足#NN  而#MSP  出现#VV  的#DEC  疲惫#VA  、#PU  易怒#VA  、#PU  头晕#VA  、#PU  失眠#VA  、#PU  夜间#VA  出汗#NN  、#PU  注意力#NN  涣散#NN  、#PU  健忘#NN  、#PU  极度#AD  口渴#VV  、#PU  沮丧#NN  、#PU  化#JJ  紊乱#NN  ，#PU  甚至#AD  出现#VV  幻觉#NN  ;#NN
+            解毒#NN  ,#AD  增加#VV  免疫#NN  细胞#NN  的#DEG  活性#NN  ，#PU  消除#VV  体内#NN  的#DEG  有害#NN  物质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 碳水化合物#VV, 富含#NR)  (root, ROOT#null, 碳水化合物#VV)  (relcl, ;#NN, 构成#VV)  (dobj, 构成#VV, 机体#NN)  (mark, 构成#VV, 的#DEC)  (amod, ;#NN, 重要#JJ)  (nn, ;#NN, 物质#NN)  (nsubj, 储存#VV, ;#NN)  (ccomp, 碳水化合物#VV, 储存#VV)  (cc, 储存#VV, 和#CC)  (dep, 储存#VV, 提供#VV)  (nn, ;#NN, 热能#NN)  (dobj, 提供#VV, ;#NN)  (dep, 碳水化合物#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (nn, ;#NN, 功能#NN)  (relcl, 功能#NN, 必须#VV)  (relcl, ;#NN, 必须#VV)  (mark, 必须#VV, 的#DEC)  (nn, ;#NN, 能源#NN)  (dobj, 维持#VV, ;#NN)  (conj, 维持#VV, 调节#VV)  (nn, ;#NN, 脂肪#NN)  (nn, ;#NN, 代谢#NN)  (dobj, 调节#VV, ;#NN)  (dep, 碳水化合物#VV, 提供#VV)  (nn, ;#NN, 膳食#NN)  (nn, ;#NN, 纤维#NN)  (dobj, 提供#VV, ;#NN)  (conj, 提供#VV, 节约#VV)  (nn, ;#NN, 蛋白质#NN)  (nn, ;#NN, ;#NN)  (nn, ;#NN, 解毒#NN)  (dobj, 节约#VV, ;#NN)  (conj, 提供#VV, 增强#VV)  (nn, 功能#NN, 肠道#NN)  (dobj, 增强#VV, 功能#NN)
+            (nn, 能量#NN, 补充#NN)  (nsubj, 含#VV, 能量#NN)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 碳水化合物#NN)  (nsubj, 提供#VV, 糖类#NN)  (mmod, 提供#VV, 能#VV)  (advmod, 提供#VV, 迅速#AD)  (case, 身体#NN, 为#P)  (prep, 提供#VV, 身体#NN)  (conj, 含#VV, 提供#VV)  (nn, ;#NN, 能量#NN)  (dobj, 提供#VV, ;#NN)
+            (nn, 碳水化合物#NN, 安神#NN)  (nn, 碳水化合物#NN, 除烦#NN)  (nsubj, 补充#VV, 碳水化合物#NN)  (mmod, 补充#VV, 可以#VV)  (root, ROOT#null, 补充#VV)  (advmod, 消耗#VV, 大脑#AD)  (relcl, 葡萄糖#NN, 消耗#VV)  (mark, 消耗#VV, 的#DEC)  (dobj, 补充#VV, 葡萄糖#NN)  (conj, 补充#VV, 缓解#VV)  (relcl, 紊乱#NN, 脑部#VV)  (nn, 不足#NN, 葡萄糖#NN)  (nn, 不足#NN, 供养#NN)  (dobj, 脑部#VV, 不足#NN)  (prtmod, 出现#VV, 而#MSP)  (conj, 脑部#VV, 出现#VV)  (mark, 脑部#VV, 的#DEC)  (nfincl, 出汗#NN, 疲惫#VA)  (conj, 疲惫#VA, 易怒#VA)  (conj, 疲惫#VA, 头晕#VA)  (conj, 疲惫#VA, 失眠#VA)  (dep, 疲惫#VA, 夜间#VA)  (dep, 紊乱#NN, 出汗#NN)  (nn, 涣散#NN, 注意力#NN)  (conj, 出汗#NN, 涣散#NN)  (conj, 出汗#NN, 健忘#NN)  (advmod, 口渴#VV, 极度#AD)  (conj, 出汗#NN, 口渴#VV)  (conj, 出汗#NN, 沮丧#NN)  (dep, 出汗#NN, 化#JJ)  (dobj, 缓解#VV, 紊乱#NN)  (advmod, 出现#VV, 甚至#AD)  (conj, 补充#VV, 出现#VV)  (nn, ;#NN, 幻觉#NN)  (dobj, 出现#VV, ;#NN)
+            (nsubj, 增加#VV, 解毒#NN)  (root, ROOT#null, 增加#VV)  (nn, 细胞#NN, 免疫#NN)  (assmod, 活性#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 增加#VV, 活性#NN)  (dep, 增加#VV, 消除#VV)  (assmod, 物质#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 物质#NN, 有害#NN)  (dobj, 消除#VV, 物质#NN)
+        </parsing>
+
+        <tag>
+            构成机体  大脑功能  必须功能  肠道功能  增强功能  补充能量  安神碳水化合物  除烦碳水化合物  消耗葡萄糖  补充葡萄糖  脑部紊乱  葡萄糖不足  供养不足  脑部不足  注意力涣散  出汗  健忘  沮丧  缓解紊乱  免疫细胞  增加活性  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            河粉是富含碳水化合物，构成机体的重要物质;储存和提供热能;维持大脑功能必须的能源;调节脂肪代谢;提供膳食纤维;节约蛋白质;解毒;增强肠道功能。
+        </rawdata>
+
+        <segment>
+            河粉  是  富含  碳水化合物  ，  构成  机体  的  重要  物质  ;  储存  和  提供  热能  ;  维持  大脑  功能  必须  的  能源  ;  调节  脂肪  代谢  ;  提供  膳食  纤维  ;  节约  蛋白质  ;  解毒  ;  增强  肠道  功能  。
+        </segment>
+
+        <pos>
+            河粉#NN  是#VC  富含#NN  碳水化合物#NN  ，#PU  构成#VV  机体#NN  的#DEG  重要#JJ  物质#NN  ;#NN  储存#VV  和#CC  提供#VV  热能#NN  ;#NN  维持#VV  大脑#NN  功能#NN  必须#VV  的#DEC  能源#NN  ;#NN  调节#VV  脂肪#NN  代谢#NN  ;#NN  提供#VV  膳食#NN  纤维#NN  ;#NN  节约#VV  蛋白质#NN  ;#NN  解毒#NN  ;#NN  增强#VV  肠道#NN  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 碳水化合物#NN, 河粉#NN)  (cop, 碳水化合物#NN, 是#VC)  (nn, 碳水化合物#NN, 富含#NN)  (root, ROOT#null, 碳水化合物#NN)  (relcl, ;#NN, 构成#VV)  (assmod, ;#NN, 机体#NN)  (case, 机体#NN, 的#DEG)  (amod, ;#NN, 重要#JJ)  (nn, ;#NN, 物质#NN)  (dobj, 构成#VV, ;#NN)  (conj, 构成#VV, 储存#VV)  (cc, 储存#VV, 和#CC)  (dep, 储存#VV, 提供#VV)  (nn, ;#NN, 热能#NN)  (dobj, 提供#VV, ;#NN)  (dep, 构成#VV, 维持#VV)  (nn, 功能#NN, 大脑#NN)  (dobj, 维持#VV, 功能#NN)  (conj, 维持#VV, 必须#VV)  (mark, 构成#VV, 的#DEC)  (nn, ;#NN, 能源#NN)  (nsubj, 调节#VV, ;#NN)  (conj, 碳水化合物#NN, 调节#VV)  (nn, ;#NN, 脂肪#NN)  (nn, ;#NN, 代谢#NN)  (dobj, 调节#VV, ;#NN)  (conj, 调节#VV, 提供#VV)  (nn, ;#NN, 膳食#NN)  (nn, ;#NN, 纤维#NN)  (dobj, 提供#VV, ;#NN)  (dep, 调节#VV, 节约#VV)  (nn, ;#NN, 蛋白质#NN)  (nn, ;#NN, ;#NN)  (nn, ;#NN, 解毒#NN)  (dobj, 节约#VV, ;#NN)  (conj, 节约#VV, 增强#VV)  (nn, 功能#NN, 肠道#NN)  (dobj, 增强#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            富含碳水化合物  大脑功能  维持功能  肠道功能  增强功能  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            可炒、煮、烫、蒸等。
+        </rawdata>
+
+        <segment>
+            可炒  、  煮  、  烫  、  蒸  等  。
+        </segment>
+
+        <pos>
+            可炒#VV  、#PU  煮#VV  、#PU  烫#VV  、#PU  蒸#VV  等#ETC  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 可炒#VV)  (conj, 可炒#VV, 煮#VV)  (conj, 可炒#VV, 烫#VV)  (dep, 可炒#VV, 蒸#VV)  (dep, 可炒#VV, 等#ETC)
+        </parsing>
+
+        <tag>
+            可炒  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/9f/06/1695_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1155 河粉.jpg
+    </picturelocalurl>
+
+</content>

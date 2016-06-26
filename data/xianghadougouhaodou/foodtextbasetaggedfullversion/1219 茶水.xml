@@ -1,0 +1,176 @@
+<content>
+
+    <id>
+        1219
+    </id>
+
+    <foodname>
+        茶水
+    </foodname>
+
+    <firstcategory>
+        调味品
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            不适宜发热、肾功能不良、习惯性便秘、消化道溃疡、神经衰弱、失眠、孕妇、哺乳期妇女、儿童。
+        </rawdata>
+
+        <segment>
+            不适宜  发热  、  肾  功能  不良  、  习惯性  便秘  、  消化道  溃疡  、  神经  衰弱  、  失眠  、  孕妇  、  哺乳期  妇女  、  儿童  。
+        </segment>
+
+        <pos>
+            不适宜#VV  发热#NR  、#PU  肾#NN  功能#NN  不良#JJ  、#PU  习惯性#JJ  便秘#NN  、#PU  消化道#NN  溃疡#NN  、#PU  神经#NN  衰弱#NN  、#PU  失眠#NR  、#PU  孕妇#NR  、#PU  哺乳期#NR  妇女#NN  、#PU  儿童#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 不适宜#VV)  (conj, 哺乳期#NR, 发热#NR)  (nn, 功能#NN, 肾#NN)  (nn, 便秘#NN, 功能#NN)  (amod, 便秘#NN, 不良#JJ)  (dep, 不良#JJ, 习惯性#JJ)  (conj, 哺乳期#NR, 便秘#NN)  (nn, 溃疡#NN, 消化道#NN)  (conj, 哺乳期#NR, 溃疡#NN)  (nn, 衰弱#NN, 神经#NN)  (conj, 哺乳期#NR, 衰弱#NN)  (conj, 哺乳期#NR, 失眠#NR)  (conj, 哺乳期#NR, 孕妇#NR)  (nn, 儿童#NN, 哺乳期#NR)  (conj, 儿童#NN, 妇女#NN)  (dobj, 不适宜#VV, 儿童#NN)
+        </parsing>
+
+        <tag>
+            不适宜发热  肾功能不良  习惯性便秘  消化道溃疡  神经衰弱  失眠  孕妇  哺乳期妇女  儿童  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            阳虚质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            阳虚  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            阳虚#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 阳虚#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            阳虚质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            用茶叶冲泡的饮料
+        </rawdata>
+
+        <segment>
+            用  茶叶  冲泡  的  饮料
+        </segment>
+
+        <pos>
+            用#VV  茶叶#NN  冲泡#NN  的#DEG  饮料#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 用#VV)  (nn, 冲泡#NN, 茶叶#NN)  (assmod, 饮料#NN, 冲泡#NN)  (case, 冲泡#NN, 的#DEG)  (dobj, 用#VV, 饮料#NN)
+        </parsing>
+
+        <tag>
+            茶叶冲泡  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            茶中的茶多酚和鞣酸作用于细菌，能凝固细菌的蛋白质，将细菌杀死。可用于治疗肠道疾病，如霍乱、伤寒、痢疾、肠炎等。皮肤生疮、溃烂流脓，外伤破了皮，用浓茶冲洗患处，有消炎杀菌作用。口腔发炎、溃烂、咽喉肿痛，用茶叶来治疗，也有一定疗效。
+        </rawdata>
+
+        <segment>
+            茶  中  的  茶  多  酚和  鞣酸  作用  于  细菌  ，  能  凝固  细菌  的  蛋白质  ，  将  细菌  杀死  。  可  用于  治疗  肠道  疾病  ，  如  霍乱  、  伤寒  、  痢疾  、  肠炎  等  。  皮肤  生疮  、  溃烂  流脓  ，  外伤  破  了  皮  ，  用  浓茶  冲洗  患处  ，  有  消炎  杀菌  作用  。  口腔  发炎  、  溃烂  、  咽喉  肿痛  ，  用  茶叶  来  治疗  ，  也  有  一定  疗效  。
+        </segment>
+
+        <pos>
+            茶#NN  中#LC  的#DEG  茶#NN  多#AD  酚和#VV  鞣酸#NN  作用#NN  于#P  细菌#NN  ，#PU  能#VV  凝固#VV  细菌#NN  的#DEC  蛋白质#NN  ，#PU  将#AD  细菌#AD  杀死#VV    。#PU  可#VV  用于#VV  治疗#NN  肠道#NN  疾病#NN  ，#PU  如#P  霍乱#NR  、#PU  伤寒#NR  、#PU  痢疾#NR  、#PU  肠炎#NR  等#ETC    。#PU  皮肤#NR  生疮#NR  、#PU  溃烂#NR  流脓#VV  ，#PU  外伤#AD  破#VV  了#AS  皮#NN  ，#PU  用#P  浓茶#NN  冲洗#VV  患处#NN  ，#PU  有#VE  消炎#NN  杀菌#NN  作用#NN    。#PU  口腔#VV  发炎#NN  、#PU  溃烂#NN  、#PU  咽喉#NN  肿痛#NN  ，#PU  用#P  茶叶#NN  来#MSP  治疗#VV  ，#PU  也#AD  有#VE  一定#JJ  疗效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 茶#NN, 茶#NN)  (case, 茶#NN, 中#LC)  (case, 茶#NN, 的#DEG)  (nsubj, 酚和#VV, 茶#NN)  (advmod, 酚和#VV, 多#AD)  (root, ROOT#null, 酚和#VV)  (nn, 作用#NN, 鞣酸#NN)  (nsubj, 凝固#VV, 作用#NN)  (case, 细菌#NN, 于#P)  (prep, 凝固#VV, 细菌#NN)  (mmod, 凝固#VV, 能#VV)  (relcl, 蛋白质#NN, 凝固#VV)  (dobj, 凝固#VV, 细菌#NN)  (mark, 凝固#VV, 的#DEC)  (dobj, 酚和#VV, 蛋白质#NN)  (advmod, 杀死#VV, 将#AD)  (advmod, 杀死#VV, 细菌#AD)  (conj, 酚和#VV, 杀死#VV)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 疾病#NN, 治疗#NN)  (nn, 疾病#NN, 肠道#NN)  (dobj, 用于#VV, 疾病#NN)  (case, 肠炎#NR, 如#P)  (conj, 肠炎#NR, 霍乱#NR)  (conj, 肠炎#NR, 伤寒#NR)  (conj, 肠炎#NR, 痢疾#NR)  (dep, 用于#VV, 肠炎#NR)  (etc, 肠炎#NR, 等#ETC)   (nn, 溃烂#NR, 皮肤#NR)  (conj, 溃烂#NR, 生疮#NR)  (nsubj, 流脓#VV, 溃烂#NR)  (xsubj, 破#VV, 溃烂#NR)  (root, ROOT#null, 流脓#VV)  (advmod, 破#VV, 外伤#AD)  (ccomp, 流脓#VV, 破#VV)  (asp, 破#VV, 了#AS)  (dobj, 破#VV, 皮#NN)  (case, 浓茶#NN, 用#P)  (prep, 冲洗#VV, 浓茶#NN)  (conj, 破#VV, 冲洗#VV)  (dobj, 冲洗#VV, 患处#NN)  (dep, 破#VV, 有#VE)  (nn, 作用#NN, 消炎#NN)  (nn, 作用#NN, 杀菌#NN)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, 口腔#VV)  (conj, 肿痛#NN, 发炎#NN)  (conj, 肿痛#NN, 溃烂#NN)  (nn, 肿痛#NN, 咽喉#NN)  (dobj, 口腔#VV, 肿痛#NN)  (case, 茶叶#NN, 用#P)  (prep, 治疗#VV, 茶叶#NN)  (prtmod, 治疗#VV, 来#MSP)  (conj, 口腔#VV, 治疗#VV)  (advmod, 有#VE, 也#AD)  (conj, 口腔#VV, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)
+        </parsing>
+
+        <tag>
+            凝固蛋白质  凝固细菌  酚和蛋白质  治疗疾病  肠道疾病  用于疾病  肠炎  霍乱  伤寒  痢疾  溃烂  生疮  流脓  冲洗患处  发炎  咽喉肿痛  口腔肿痛  一定疗效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        除烦  解毒  生津止渴  利水  消食积  化痰  清头目  提神  辅助降血压  强心  辅助降血脂  抗血栓  抗血小板聚集  解胃肠痉挛  利尿  抗过敏  抗菌  抗病毒  抗癌防癌  抗突变  抗氧化
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.冲泡时间不宜过长，不宜用保温杯泡茶。饮茶不宜过浓，隔夜茶勿饮;
+            2.不要用茶水送服药物；
+            3.服药前后1小时内不要饮茶;
+            4.忌饮浓茶解酒；
+            5.饭前不宜饮茶；
+            6.饭后忌立即喝茶；
+        </rawdata>
+
+        <segment>
+            冲泡  时间  不  宜  过长  ，  不  宜  用  保温杯  泡茶  。  饮茶  不  宜  过  浓  ，  隔夜  茶  勿  饮  ;
+            不要  用  茶水  送  服  药物  ；
+            服药  前后  1  小时  内  不要  饮茶  ;
+            忌饮  浓茶  解酒  ；
+            饭前  不  宜  饮茶  ；
+            饭后忌  立即  喝茶  ；
+        </segment>
+
+        <pos>
+            冲泡#NN  时间#NN  不#AD  宜#NR  过长#VV  ，#PU  不#AD  宜#NR  用#P  保温杯#NN  泡茶#VV  。#PU  饮茶#NN  不#AD  宜#NR  过#VV  浓#NN  ，#PU  隔夜#AD  茶#VV  勿#NN  饮#NN  ;#NN
+            不要#NN  用#P  茶水#NN  送#VV  服#NN  药物#NN  ；#PU
+            服药#NN  前后#LC  1#CD  小时#NN  内#LC  不要#VV  饮茶#NN  ;#NN
+            忌饮#NN  浓茶#VV  解酒#NN  ；#PU
+            饭前#NN  不#AD  宜#NR  饮茶#VV  ；#PU
+            饭后忌#NN  立即#AD  喝茶#VV  ；#PU
+        </pos>
+
+        <parsing>
+            (nn, 时间#NN, 冲泡#NN)  (nsubj, 过长#VV, 时间#NN)  (neg, 过长#VV, 不#AD)  (prep, 过长#VV, 宜#NR)  (root, ROOT#null, 过长#VV)  (neg, 泡茶#VV, 不#AD)  (nsubj, 泡茶#VV, 宜#NR)  (case, 保温杯#NN, 用#P)  (prep, 泡茶#VV, 保温杯#NN)  (ccomp, 过长#VV, 泡茶#VV)  (nsubj, 过#VV, 饮茶#NN)  (neg, 过#VV, 不#AD)  (prep, 过#VV, 宜#NR)  (conj, 泡茶#VV, 过#VV)  (dobj, 过#VV, 浓#NN)  (advmod, 茶#VV, 隔夜#AD)  (conj, 泡茶#VV, 茶#VV)  (nn, ;#NN, 勿#NN)  (nn, ;#NN, 饮#NN)  (dobj, 茶#VV, ;#NN)
+            (nsubj, 送#VV, 不要#NN)  (case, 茶水#NN, 用#P)  (prep, 送#VV, 茶水#NN)  (root, ROOT#null, 送#VV)  (nn, 药物#NN, 服#NN)  (dobj, 送#VV, 药物#NN)
+            (loc, 不要#VV, 服药#NN)  (case, 服药#NN, 前后#LC)  (nummod, 小时#NN, 1#CD)  (loc, 不要#VV, 小时#NN)  (case, 小时#NN, 内#LC)  (root, ROOT#null, 不要#VV)  (nn, ;#NN, 饮茶#NN)  (dobj, 不要#VV, ;#NN)
+            (nsubj, 浓茶#VV, 忌饮#NN)  (root, ROOT#null, 浓茶#VV)  (dobj, 浓茶#VV, 解酒#NN)
+            (nsubj, 饮茶#VV, 饭前#NN)  (neg, 饮茶#VV, 不#AD)  (prep, 饮茶#VV, 宜#NR)  (root, ROOT#null, 饮茶#VV)
+            (nsubj, 喝茶#VV, 饭后忌#NN)  (advmod, 喝茶#VV, 立即#AD)  (root, ROOT#null, 喝茶#VV)
+        </parsing>
+
+        <tag>
+            冲泡时间  过长  不要  浓茶解酒  饮茶  喝茶  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/4d/52/21069_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1219 茶水.jpg
+    </picturelocalurl>
+
+</content>

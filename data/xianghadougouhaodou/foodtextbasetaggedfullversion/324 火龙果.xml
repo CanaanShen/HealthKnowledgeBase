@@ -1,0 +1,290 @@
+<content>
+
+    <id>
+        324
+    </id>
+
+    <foodname>
+        火龙果
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        仙蜜果、红龙果
+    </alias>
+
+    <season>
+        5-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            糖尿病人少食；女性体质虚冷者不宜多食。
+        </rawdata>
+
+        <segment>
+            糖尿病  人  少  食  ；  女性  体质  虚  冷者  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            糖尿病#NN  人#NN  少#VV  食#NN  ；#PU  女性#NN  体质#NN  虚#AD  冷者#VV  不#AD  宜#NR  多#CD  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 人#NN, 糖尿病#NN)  (nsubj, 少#VV, 人#NN)  (root, ROOT#null, 少#VV)  (dobj, 少#VV, 食#NN)  (nn, 体质#NN, 女性#NN)  (nsubj, 冷者#VV, 体质#NN)  (advmod, 冷者#VV, 虚#AD)  (conj, 少#VV, 冷者#VV)  (neg, 冷者#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 冷者#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            糖尿病人少食  女性体质虚冷者不宜多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                13.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                28.1
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            火龙果，英文Pitaya，本名青龙果、红龙果。原产于中美洲热带。火龙果营养丰富、功能独特，它含有一般植物少有的植物性白蛋白及花青素，丰富的维生素和水溶性膳纤维。火龙果树为仙人掌科的三角柱属植物，原产于巴西、墨西哥等中美洲热带沙漠地区，属典型的热带植物。火龙果是一种由南洋引入台湾，再由台湾改良引进海南省及大陆南部广西、广东等地栽培的植物。火龙果因其外表肉质鳞片似蛟龙外鳞而得名。她光洁而巨大的花朵绽放时，飘香四溢，盆栽观赏使人有吉祥之感，所以也称“吉祥果”。
+            火龙果起源中美洲热带雨林地区，为仙人掌科量天尺属和蛇鞭属植物，后由法国人、荷兰人传入越南、泰国等东南亚国家以及我国台湾省。火龙果与宗教文化有着很深的历史渊源，在美洲玛雅人、印加人的金字塔附近以及亚洲的越南人寺庙旁都种有火龙果。每逢祭祀及重大宗教活动，他们会将火龙果供奉在祭坛上，视为圣果。更为称奇的是，无论在美洲还是亚洲，火龙果与中华龙文化都有着不解之缘。古代印加人将火龙果与刻有酷似中国龙的图腾放在一起祭祀，这种图腾和火龙果在印加语里都是龙的意思。直至今天土著墨西哥男子还喜欢称自己为中国男孩，这也许是受了有关他们祖先是从中国漂洋过海来到美洲传说的影响吧。
+        </rawdata>
+
+        <segment>
+            火龙果  ，  英文  Pitaya  ，  本名  青  龙果  、  红  龙果  。  原产  于  中美洲  热带  。  火龙果  营养  丰富  、  功能  独特  ，  它  含有  一般  植物  少  有的  植物性  白蛋白  及  花青素  ，  丰富  的  维生素  和  水溶性  膳  纤维  。  火龙  果树  为  仙人掌科  的  三角  柱  属  植物  ，  原  产于  巴西  、  墨西哥  等  中美洲  热带  沙漠  地区  ，  属  典型  的  热带  植物  。  火龙  果是  一  种  由  南洋  引入  台湾  ，  再  由  台湾  改良  引进  海南省  及  大陆  南部  广西  、  广东  等  地  栽培  的  植物  。  火龙果  因  其  外表  肉质  鳞片  似  蛟龙  外鳞  而  得名  。  她  光洁  而  巨大  的  花朵  绽放  时  ，  飘香  四  溢  ，  盆栽  观赏  使  人  有  吉祥  之  感  ，  所以  也  称  “  吉祥果  ”  。
+            火龙果  起源  中美洲  热带  雨林  地区  ，  为  仙人掌  科量  天  尺  属  和  蛇  鞭  属  植物  ，  后  由  法国人  、  荷兰人  传入  越南  、  泰国  等  东南亚  国家  以及  我  国  台湾省  。  火龙果  与  宗教  文化  有  着  很  深  的  历史  渊源  ，  在  美洲  玛雅人  、  印加人  的  金字塔  附近  以及  亚洲  的  越南人  寺庙  旁  都  种  有  火龙果  。  每  逢  祭祀  及  重大  宗教  活动  ，  他们  会  将  火龙果  供奉  在  祭坛  上  ，  视为  圣果  。  更为  称奇  的  是  ，  无论  在  美洲  还是  亚洲  ，  火龙果  与  中华  龙  文化  都  有  着  不解之缘  。  古代  印加人  将  火龙果  与  刻有  酷似  中国  龙  的  图腾  放  在  一起  祭祀  ，  这  种  图腾  和  火龙果  在  印加  语里  都  是  龙  的  意思  。  直  至  今天  土著  墨西哥  男子  还  喜欢  称  自己  为  中国  男孩  ，  这  也许  是  受了  有关  他们  祖先  是  从中国  漂洋  过海  来到  美洲  传说  的  影响  吧  。
+        </segment>
+
+        <pos>
+            火龙果#VV  ，#PU  英文#NN  Pitaya#NN  ，#PU  本名#VV  青#NR  龙果#JJ  、#PU  红#JJ  龙果#NN    。#PU  原产#VV  于#P  中美洲#NN  热带#NN    。#PU  火龙果#NN  营养#VA  丰富#VA  、#PU  功能#NN  独特#VA  ，#PU  它#PN  含有#VV  一般#JJ  植物#NN  少#JJ  有的#PN  植物性#NN  白蛋白#NN  及#CC  花青素#NN  ，#PU  丰富#VA  的#DEC  维生素#NN  和#CC  水溶性#NN  膳#VV  纤维#NN    。#PU  火龙#NN  果树#NN  为#P  仙人掌科#NN  的#DEG  三角#NN  柱#NN  属#VV  植物#NN  ，#PU  原#AD  产于#VV  巴西#NR  、#PU  墨西哥#NR  等#ETC  中美洲#NN  热带#NN  沙漠#NN  地区#NN  ，#PU  属#VV  典型#VA  的#DEC  热带#NN  植物#NN    。#PU  火龙#NN  果是#VV  一#CD  种#M  由#P  南洋#NN  引入#VV  台湾#NR  ，#PU  再#AD  由#P  台湾#NR  改良#NN  引进#VV  海南省#NR  及#CC  大陆#NN  南部#NN  广西#NR  、#PU  广东#NR  等#ETC  地#NN  栽培#VV  的#DEC  植物#NN    。#PU  火龙果#NN  因#P  其#PN  外表#AD  肉质#VV  鳞片#NN  似#P  蛟龙#NN  外鳞#NN  而#MSP  得名#VV    。#PU  她#PN  光洁#VV  而#MSP  巨大#VA  的#DEC  花朵#NN  绽放#NN  时#LC  ，#PU  飘香#VV  四#CD  溢#NN  ，#PU  盆栽#AD  观赏#VV  使#VV  人#NN  有#VE  吉祥#NN  之#PN  感#VV  ，#PU  所以#AD  也#AD  称#VV  ``#VV  吉祥果#NN  ''#NN    。#PU    。#PU
+            火龙果#NN  起源#NN  中美洲#VV  热带#NN  雨林#NN  地区#NN  ，#PU  为#P  仙人掌#NR  科量#CD  天#M  尺#NN  属#VV  和#CC  蛇#NN  鞭#AD  属#VV  植物#NN  ，#PU  后#LC  由#P  法国人#NN  、#PU  荷兰人#NN  传入#VV  越南#NR  、#PU  泰国#NR  等#ETC  东南亚#NR  国家#NN  以及#CC  我#PN  国#NN  台湾省#NR    。#PU  火龙果#NN  与#P  宗教#NN  文化#NN  有#VE  着#AS  很#AD  深#VA  的#DEC  历史#NN  渊源#NN  ，#PU  在#P  美洲#NR  玛雅人#NR  、#PU  印加人#NN  的#DEG  金字塔#NN  附近#NN  以及#CC  亚洲#NR  的#DEG  越南人#NN  寺庙#NN  旁#LC  都#AD  种#VV  有#VE  火龙果#NN    。#PU  每#AD  逢#VV  祭祀#NN  及#CC  重大#JJ  宗教#NN  活动#NN  ，#PU  他们#PN  会#VV  将#AD  火龙果#AD  供奉#VV  在#P  祭坛#NN  上#LC  ，#PU  视为#VV  圣果#NN    。#PU  更为#AD  称奇#VV  的#DEC  是#VC  ，#PU  无论#AD  在#P  美洲#NR  还是#CC  亚洲#NR  ，#PU  火龙果#NN  与#P  中华#NR  龙#NN  文化#NN  都#AD  有#VE  着#AS  不解之缘#NN    。#PU  古代#NN  印加人#NN  将#AD  火龙果#AD  与#P  刻有#VV  酷似#VV  中国#NR  龙#NN  的#DEC  图腾#NN  放#VV  在#P  一起#AD  祭祀#VV  ，#PU  这#DT  种#M  图腾#NN  和#CC  火龙果#NN  在#P  印加#NN  语里#NN  都#AD  是#VC  龙#NN  的#DEC  意思#NN    。#PU  直#AD  至#P  今天#NT  土著#NN  墨西哥#NR  男子#NN  还#AD  喜欢#VV  称#VV  自己#PN  为#P  中国#NR  男孩#NN  ，#PU  这#PN  也许#AD  是#VC  受了#NN  有关#JJ  他们#PN  祖先#NN  是#VC  从中国#NN  漂洋#NN  过海#AD  来到#VV  美洲#NR  传说#NN  的#DEG  影响#NN  吧#SP    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 火龙果#VV)  (nn, Pitaya#NN, 英文#NN)  (nsubj, 本名#VV, Pitaya#NN)  (ccomp, 火龙果#VV, 本名#VV)  (nn, 龙果#NN, 青#NR)  (amod, 龙果#NN, 龙果#JJ)  (dep, 龙果#JJ, 红#JJ)  (dobj, 本名#VV, 龙果#NN)   (root, ROOT#null, 原产#VV)  (case, 热带#NN, 于#P)  (nn, 热带#NN, 中美洲#NN)  (prep, 原产#VV, 热带#NN)   (nsubj, 营养#VA, 火龙果#NN)  (relcl, 水溶性#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nsubj, 独特#VA, 功能#NN)  (conj, 营养#VA, 独特#VA)  (nsubj, 含有#VV, 它#PN)  (conj, 营养#VA, 含有#VV)  (amod, 植物#NN, 一般#JJ)  (nn, 花青素#NN, 植物#NN)  (amod, 花青素#NN, 少#JJ)  (nn, 白蛋白#NN, 有的#PN)  (nn, 白蛋白#NN, 植物性#NN)  (conj, 花青素#NN, 白蛋白#NN)  (cc, 花青素#NN, 及#CC)  (dobj, 含有#VV, 花青素#NN)  (conj, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (conj, 水溶性#NN, 维生素#NN)  (cc, 水溶性#NN, 和#CC)  (nsubj, 膳#VV, 水溶性#NN)  (root, ROOT#null, 膳#VV)  (dobj, 膳#VV, 纤维#NN)   (nn, 果树#NN, 火龙#NN)  (nsubj, 属#VV, 果树#NN)  (case, 柱#NN, 为#P)  (assmod, 柱#NN, 仙人掌科#NN)  (case, 仙人掌科#NN, 的#DEG)  (nn, 柱#NN, 三角#NN)  (prep, 属#VV, 柱#NN)  (root, ROOT#null, 属#VV)  (dobj, 属#VV, 植物#NN)  (advmod, 产于#VV, 原#AD)  (conj, 属#VV, 产于#VV)  (conj, 墨西哥#NR, 巴西#NR)  (nn, 地区#NN, 墨西哥#NR)  (etc, 墨西哥#NR, 等#ETC)  (nn, 地区#NN, 中美洲#NN)  (nn, 地区#NN, 热带#NN)  (nn, 地区#NN, 沙漠#NN)  (dobj, 产于#VV, 地区#NN)  (conj, 属#VV, 属#VV)  (relcl, 植物#NN, 典型#VA)  (mark, 典型#VA, 的#DEC)  (nn, 植物#NN, 热带#NN)  (dobj, 属#VV, 植物#NN)   (nsubj, 果是#VV, 火龙#NN)  (root, ROOT#null, 果是#VV)  (nummod, 种#M, 一#CD)  (clf, 植物#NN, 种#M)  (case, 南洋#NN, 由#P)  (prep, 引入#VV, 南洋#NN)  (relcl, 植物#NN, 引入#VV)  (dobj, 引入#VV, 台湾#NR)  (advmod, 引进#VV, 再#AD)  (case, 改良#NN, 由#P)  (nn, 改良#NN, 台湾#NR)  (prep, 引进#VV, 改良#NN)  (dep, 引入#VV, 引进#VV)  (conj, 地#NN, 海南省#NR)  (cc, 地#NN, 及#CC)  (nn, 南部#NN, 大陆#NN)  (nn, 地#NN, 南部#NN)  (conj, 广东#NR, 广西#NR)  (nn, 地#NN, 广东#NR)  (etc, 广东#NR, 等#ETC)  (dobj, 引进#VV, 地#NN)  (conj, 引进#VV, 栽培#VV)  (mark, 引入#VV, 的#DEC)  (dobj, 果是#VV, 植物#NN)   (nsubj, 得名#VV, 火龙果#NN)  (case, 肉质#VV, 因#P)  (nsubj, 肉质#VV, 其#PN)  (advmod, 肉质#VV, 外表#AD)  (prep, 得名#VV, 肉质#VV)  (dobj, 肉质#VV, 鳞片#NN)  (case, 外鳞#NN, 似#P)  (nn, 外鳞#NN, 蛟龙#NN)  (prep, 得名#VV, 外鳞#NN)  (prtmod, 得名#VV, 而#MSP)  (root, ROOT#null, 得名#VV)   (nsubj, 光洁#VV, 她#PN)  (loc, 使#VV, 光洁#VV)  (prtmod, 巨大#VA, 而#MSP)  (relcl, 绽放#NN, 巨大#VA)  (mark, 巨大#VA, 的#DEC)  (nn, 绽放#NN, 花朵#NN)  (dobj, 光洁#VV, 绽放#NN)  (case, 光洁#VV, 时#LC)  (conj, 使#VV, 飘香#VV)  (nummod, 溢#NN, 四#CD)  (dobj, 飘香#VV, 溢#NN)  (advmod, 观赏#VV, 盆栽#AD)  (conj, 飘香#VV, 观赏#VV)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 有#VE)  (dobj, 有#VE, 吉祥#NN)  (nsubj, 感#VV, 之#PN)  (conj, 使#VV, 感#VV)  (advmod, 称#VV, 所以#AD)  (advmod, 称#VV, 也#AD)  (conj, 感#VV, 称#VV)  (ccomp, 称#VV, ``#VV)  (nn, ''#NN, 吉祥果#NN)  (dobj, ``#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 起源#NN, 火龙果#NN)  (nsubj, 传入#VV, 起源#NN)  (loc, 传入#VV, 中美洲#VV)  (nn, 地区#NN, 热带#NN)  (nn, 地区#NN, 雨林#NN)  (dobj, 中美洲#VV, 地区#NN)  (case, 尺#NN, 为#P)  (nn, 尺#NN, 仙人掌#NR)  (nummod, 天#M, 科量#CD)  (clf, 尺#NN, 天#M)  (prep, 属#VV, 尺#NN)  (conj, 中美洲#VV, 属#VV)  (cc, 中美洲#VV, 和#CC)  (nsubj, 属#VV, 蛇#NN)  (advmod, 属#VV, 鞭#AD)  (dep, 中美洲#VV, 属#VV)  (dobj, 属#VV, 植物#NN)  (case, 中美洲#VV, 后#LC)  (case, 荷兰人#NN, 由#P)  (conj, 荷兰人#NN, 法国人#NN)  (prep, 传入#VV, 荷兰人#NN)  (root, ROOT#null, 传入#VV)  (conj, 泰国#NR, 越南#NR)  (nn, 台湾省#NR, 泰国#NR)  (etc, 泰国#NR, 等#ETC)  (nn, 国家#NN, 东南亚#NR)  (conj, 台湾省#NR, 国家#NN)  (cc, 台湾省#NR, 以及#CC)  (nn, 国#NN, 我#PN)  (nn, 台湾省#NR, 国#NN)  (dobj, 传入#VV, 台湾省#NR)   (nsubj, 有#VE, 火龙果#NN)  (case, 文化#NN, 与#P)  (nn, 文化#NN, 宗教#NN)  (prep, 有#VE, 文化#NN)  (root, ROOT#null, 有#VE)  (asp, 有#VE, 着#AS)  (advmod, 深#VA, 很#AD)  (relcl, 渊源#NN, 深#VA)  (mark, 深#VA, 的#DEC)  (nn, 渊源#NN, 历史#NN)  (dobj, 有#VE, 渊源#NN)  (case, 寺庙#NN, 在#P)  (nn, 亚洲#NR, 美洲#NR)  (conj, 亚洲#NR, 玛雅人#NR)  (assmod, 附近#NN, 印加人#NN)  (case, 印加人#NN, 的#DEG)  (nn, 附近#NN, 金字塔#NN)  (conj, 亚洲#NR, 附近#NN)  (cc, 亚洲#NR, 以及#CC)  (assmod, 寺庙#NN, 亚洲#NR)  (case, 亚洲#NR, 的#DEG)  (nn, 寺庙#NN, 越南人#NN)  (prep, 有#VE, 寺庙#NN)  (case, 寺庙#NN, 旁#LC)  (advmod, 有#VE, 都#AD)  (mmod, 有#VE, 种#VV)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 火龙果#NN)   (advmod, 逢#VV, 每#AD)  (root, ROOT#null, 逢#VV)  (conj, 活动#NN, 祭祀#NN)  (cc, 活动#NN, 及#CC)  (amod, 活动#NN, 重大#JJ)  (nn, 活动#NN, 宗教#NN)  (dobj, 逢#VV, 活动#NN)  (dep, 供奉#VV, 他们#PN)  (mmod, 供奉#VV, 会#VV)  (advmod, 供奉#VV, 将#AD)  (advmod, 供奉#VV, 火龙果#AD)  (conj, 逢#VV, 供奉#VV)  (case, 祭坛#NN, 在#P)  (prep, 供奉#VV, 祭坛#NN)  (case, 祭坛#NN, 上#LC)  (conj, 逢#VV, 视为#VV)  (dobj, 视为#VV, 圣果#NN)   (advmod, 称奇#VV, 更为#AD)  (nsubj, 有#VE, 称奇#VV)  (mark, 称奇#VV, 的#DEC)  (cop, 有#VE, 是#VC)  (prep, 有#VE, 无论#AD)  (case, 亚洲#NR, 在#P)  (conj, 亚洲#NR, 美洲#NR)  (cc, 亚洲#NR, 还是#CC)  (dep, 无论#AD, 亚洲#NR)  (nsubj, 有#VE, 火龙果#NN)  (case, 文化#NN, 与#P)  (nn, 文化#NN, 中华#NR)  (nn, 文化#NN, 龙#NN)  (prep, 有#VE, 文化#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (asp, 有#VE, 着#AS)  (dobj, 有#VE, 不解之缘#NN)   (nn, 印加人#NN, 古代#NN)  (nsubj, 放#VV, 印加人#NN)  (advmod, 放#VV, 将#AD)  (advmod, 放#VV, 火龙果#AD)  (case, 图腾#NN, 与#P)  (mmod, 酷似#VV, 刻有#VV)  (relcl, 图腾#NN, 酷似#VV)  (nn, 龙#NN, 中国#NR)  (dobj, 酷似#VV, 龙#NN)  (mark, 酷似#VV, 的#DEC)  (prep, 放#VV, 图腾#NN)  (root, ROOT#null, 放#VV)  (case, 意思#NN, 在#P)  (advmod, 祭祀#VV, 一起#AD)  (relcl, 意思#NN, 祭祀#VV)  (det, 火龙果#NN, 这#DT)  (clf, 这#DT, 种#M)  (conj, 火龙果#NN, 图腾#NN)  (cc, 火龙果#NN, 和#CC)  (nsubj, 龙#NN, 火龙果#NN)  (case, 语里#NN, 在#P)  (nn, 语里#NN, 印加#NN)  (prep, 龙#NN, 语里#NN)  (advmod, 龙#NN, 都#AD)  (cop, 龙#NN, 是#VC)  (ccomp, 祭祀#VV, 龙#NN)  (mark, 祭祀#VV, 的#DEC)  (prep, 放#VV, 意思#NN)   (prep, 喜欢#VV, 直#AD)  (case, 今天#NT, 至#P)  (dep, 直#AD, 今天#NT)  (nn, 男子#NN, 土著#NN)  (nn, 男子#NN, 墨西哥#NR)  (nsubj, 喜欢#VV, 男子#NN)  (advmod, 喜欢#VV, 还#AD)  (root, ROOT#null, 喜欢#VV)  (ccomp, 喜欢#VV, 称#VV)  (nsubj, 受了#NN, 自己#PN)  (case, 男孩#NN, 为#P)  (nn, 男孩#NN, 中国#NR)  (prep, 受了#NN, 男孩#NN)  (nsubj, 受了#NN, 这#PN)  (advmod, 受了#NN, 也许#AD)  (cop, 受了#NN, 是#VC)  (ccomp, 称#VV, 受了#NN)  (amod, 祖先#NN, 有关#JJ)  (nn, 祖先#NN, 他们#PN)  (nsubj, 是#VC, 祖先#NN)  (conj, 喜欢#VV, 是#VC)  (nn, 漂洋#NN, 从中国#NN)  (nsubj, 来到#VV, 漂洋#NN)  (advmod, 来到#VV, 过海#AD)  (dep, 是#VC, 来到#VV)  (nn, 传说#NN, 美洲#NR)  (assmod, 影响#NN, 传说#NN)  (case, 传说#NN, 的#DEG)  (dobj, 来到#VV, 影响#NN)  (dep, 来到#VV, 吧#SP)
+        </parsing>
+
+        <tag>
+            英文Pitaya  龙果龙果  本名龙果  原产  中美洲热带  水溶性营养  营养丰富  功能独特  一般植物  植物花青素  少花青素  植物性白蛋白  含有花青素  维生素  火龙果树  仙人掌科  墨西哥  巴西  中美洲地区  热带地区  沙漠地区  产于地区  植物典型  热带植物  引入植物  大陆南部  广东  广西  引进地  果是植物  肉质鳞片  蛟龙外鳞  得名  绽放巨大  花朵绽放  光洁绽放  飘香溢  雨林地区  荷兰人  法国人  传入  泰国  宗教文化  历史渊源  亚洲  玛雅人  金字塔附近  越南人寺庙  重大活动  宗教活动  视为圣果  古代印加人  酷似图腾  酷似龙  祭祀意思  印加语里  土著男子  喜欢  有关祖先  从中国漂洋  来到影响  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.抗衰老
+            有抗氧化、抗自由基、抗衰老的作用，还具有抑制脑细胞变性，预防痴呆症的作用。
+            2.保护胃黏膜
+            含有的植物性白蛋白，这种有活性的白蛋白会自动与人体内的重金属离子结合，通过排泄系统排出体外，从而起解毒的作用。此外，白蛋白对胃壁还有保护作用。
+            3.美白皮肤
+            消除氧自由基，具有美白皮肤的作用。
+            4.有助于毒素的排除
+            具有减肥、降低胆固醇、润肠、预防大肠癌等功效。
+            5.综合作用
+            预防便秘、促进眼睛保健、增加骨质密度、帮助细胞膜形成、预防贫血和抗神经炎、口角炎、
+            6.促进消化
+            火龙果中芝麻状的种子有促进胃肠消化的功能。
+        </rawdata>
+
+        <segment>
+            抗  衰老
+            有  抗氧化  、  抗  自由基  、  抗  衰老  的  作用  ，  还  具有  抑制  脑  细胞  变性  ，  预防  痴呆症  的  作用  。
+            保护  胃  黏膜
+            含有  的  植物性  白蛋白  ，  这  种  有  活性  的  白蛋白  会  自动  与  人体  内  的  重金属  离子  结合  ，  通过  排泄  系统  排出  体外  ，  从而  起  解毒  的  作用  。  此外  ，  白蛋白  对  胃壁  还  有  保护  作用  。
+            美白  皮肤
+            消除氧  自由基  ，  具有  美白  皮肤  的  作用  。
+            有助于  毒素  的  排除
+            具有  减肥  、  降低  胆固醇  、  润肠  、  预防  大  肠癌  等  功效  。
+            综合  作用
+            预防  便秘  、  促进  眼睛  保健  、  增加  骨质  密度  、  帮助  细胞膜  形成  、  预防  贫血  和  抗  神经炎  、  口角炎  、
+            促进  消化
+            火龙果  中  芝麻状  的  种子  有  促进  胃肠  消化  的  功能  。
+        </segment>
+
+        <pos>
+            抗#NN  衰老#VV
+            有#VE  抗氧化#NR  、#PU  抗#NR  自由基#NR  、#PU  抗#NR  衰老#NN  的#DEG  作用#NN  ，#PU  还#AD  具有#VV  抑制#VV  脑#NN  细胞#NN  变性#NN  ，#PU  预防#VV  痴呆症#NN  的#DEC  作用#NN  。#PU
+            保护#VV  胃#NN  黏膜#NN
+            含有#NN  的#DEG  植物性#NN  白蛋白#VV  ，#PU  这#DT  种#M  有#VE  活性#NN  的#DEC  白蛋白#NN  会#VV  自动#AD  与#P  人体#NN  内#LC  的#DEG  重金属#NN  离子#AD  结合#VV  ，#PU  通过#P  排泄#NN  系统#NN  排出#VV  体外#NN  ，#PU  从而#AD  起#VV  解毒#NN  的#DEG  作用#NN    。#PU  此外#AD  ，#PU  白蛋白#NN  对#P  胃壁#NN  还#AD  有#VE  保护#NN  作用#NN    。#PU    。#PU
+            美白#NN  皮肤#VV
+            消除氧#NR  自由基#VV  ，#PU  具有#VV  美白#NN  皮肤#NN  的#DEG  作用#NN  。#PU
+            有助于#VV  毒素#NN  的#DEC  排除#VV
+            具有#VV  减肥#VV  、#PU  降低#VV  胆固醇#NN  、#PU  润肠#NN  、#PU  预防#NN  大#JJ  肠癌#NN  等#ETC  功效#NN  。#PU
+            综合#JJ  作用#NN
+            预防#VV  便秘#NN  、#PU  促进#VV  眼睛#NN  保健#NN  、#PU  增加#VV  骨质#NN  密度#NN  、#PU  帮助#VV  细胞膜#NN  形成#VV  、#PU  预防#VV  贫血#NN  和#CC  抗#NN  神经炎#NN  、#PU  口角炎#VV  、#NN
+            促进#VV  消化#NN
+            火龙果#NN  中#LC  芝麻状#NN  的#DEG  种子#NN  有#VE  促进#VV  胃肠#NN  消化#NN  的#DEC  功能#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 衰老#VV, 抗#NN)  (root, ROOT#null, 衰老#VV)
+            (root, ROOT#null, 有#VE)  (conj, 抗#NR, 抗氧化#NR)  (nn, 抗#NR, 抗#NR)  (conj, 抗#NR, 自由基#NR)  (nn, 衰老#NN, 抗#NR)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)  (advmod, 具有#VV, 还#AD)  (conj, 有#VE, 具有#VV)  (relcl, 作用#NN, 抑制#VV)  (nn, 变性#NN, 脑#NN)  (nn, 变性#NN, 细胞#NN)  (dobj, 抑制#VV, 变性#NN)  (conj, 抑制#VV, 预防#VV)  (dobj, 预防#VV, 痴呆症#NN)  (mark, 抑制#VV, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 保护#VV)  (nn, 黏膜#NN, 胃#NN)  (dobj, 保护#VV, 黏膜#NN)
+            (assmod, 植物性#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nsubj, 白蛋白#VV, 植物性#NN)  (root, ROOT#null, 白蛋白#VV)  (det, 白蛋白#NN, 这#DT)  (clf, 这#DT, 种#M)  (relcl, 白蛋白#NN, 有#VE)  (dobj, 有#VE, 活性#NN)  (mark, 有#VE, 的#DEC)  (nsubj, 结合#VV, 白蛋白#NN)  (mmod, 结合#VV, 会#VV)  (advmod, 结合#VV, 自动#AD)  (case, 重金属#NN, 与#P)  (assmod, 重金属#NN, 人体#NN)  (case, 人体#NN, 内#LC)  (case, 人体#NN, 的#DEG)  (prep, 结合#VV, 重金属#NN)  (advmod, 结合#VV, 离子#AD)  (ccomp, 白蛋白#VV, 结合#VV)  (case, 系统#NN, 通过#P)  (nn, 系统#NN, 排泄#NN)  (prep, 排出#VV, 系统#NN)  (dep, 结合#VV, 排出#VV)  (dobj, 排出#VV, 体外#NN)  (advmod, 起#VV, 从而#AD)  (dep, 结合#VV, 起#VV)  (assmod, 作用#NN, 解毒#NN)  (case, 解毒#NN, 的#DEG)  (dobj, 起#VV, 作用#NN)   (advmod, 有#VE, 此外#AD)  (nsubj, 有#VE, 白蛋白#NN)  (case, 胃壁#NN, 对#P)  (prep, 有#VE, 胃壁#NN)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (nsubj, 作用#NN, 保护#NN)  (conj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (nsubj, 皮肤#VV, 美白#NN)  (root, ROOT#null, 皮肤#VV)
+            (nsubj, 自由基#VV, 消除氧#NR)  (root, ROOT#null, 自由基#VV)  (ccomp, 自由基#VV, 具有#VV)  (nn, 皮肤#NN, 美白#NN)  (assmod, 作用#NN, 皮肤#NN)  (case, 皮肤#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 排除#VV, 有助于#VV)  (dobj, 有助于#VV, 毒素#NN)  (mark, 有助于#VV, 的#DEC)  (root, ROOT#null, 排除#VV)
+            (root, ROOT#null, 具有#VV)  (nfincl, 功效#NN, 减肥#VV)  (dep, 减肥#VV, 降低#VV)  (conj, 预防#NN, 胆固醇#NN)  (conj, 预防#NN, 润肠#NN)  (nn, 肠癌#NN, 预防#NN)  (amod, 肠癌#NN, 大#JJ)  (dobj, 降低#VV, 肠癌#NN)  (etc, 肠癌#NN, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+            (amod, 作用#NN, 综合#JJ)  (root, ROOT#null, 作用#NN)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 便秘#NN)  (conj, 预防#VV, 促进#VV)  (nn, 保健#NN, 眼睛#NN)  (dobj, 促进#VV, 保健#NN)  (conj, 预防#VV, 增加#VV)  (nn, 密度#NN, 骨质#NN)  (dobj, 增加#VV, 密度#NN)  (conj, 预防#VV, 帮助#VV)  (dobj, 帮助#VV, 细胞膜#NN)  (dep, 帮助#VV, 形成#VV)  (conj, 预防#VV, 预防#VV)  (conj, 抗#NN, 贫血#NN)  (cc, 抗#NN, 和#CC)  (nn, 神经炎#NN, 抗#NN)  (dobj, 预防#VV, 神经炎#NN)  (conj, 预防#VV, 口角炎#VV)
+            (root, ROOT#null, 促进#VV)  (dobj, 促进#VV, 消化#NN)
+            (loc, 有#VE, 火龙果#NN)  (case, 火龙果#NN, 中#LC)  (assmod, 种子#NN, 芝麻状#NN)  (case, 芝麻状#NN, 的#DEG)  (dep, 有#VE, 种子#NN)  (root, ROOT#null, 有#VE)  (relcl, 功能#NN, 促进#VV)  (nn, 消化#NN, 胃肠#NN)  (dobj, 促进#VV, 消化#NN)  (mark, 促进#VV, 的#DEC)  (dobj, 有#VE, 功能#NN)
+        </parsing>
+
+        <tag>
+            衰老  细胞变性  抑制变性  预防痴呆症  保护黏膜  植物性  重金属  排泄系统  排出体外  美白皮肤  有助于毒素  排除  胆固醇  润肠  预防肠癌  大肠癌  降低肠癌  预防便秘  眼睛保健  促进保健  骨质密度  增加密度  帮助细胞膜  预防神经炎  促进消化  芝麻状  促进功能  胃肠消化  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        改善营养性贫血  促进消化  抗氧化  美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.火龙果中含糖量较高，水分83.75克，还有丰富的蛋白质、膳食纤维、维生素B2、维生素B3、维生素C、铁、磷、镁、钾、胡萝卜素、果糖、葡萄糖、水溶性膳食纤维。
+            2.含有特有的植物性蛋白和花青素。
+            3.火龙果中含铁元素量比一般水果要高。
+            4.火龙果是一种低能量、高纤维的水果，水溶性膳食纤维含量非常丰富。
+        </rawdata>
+
+        <segment>
+            火龙果  中  含糖量  较  高  ，  水分  83.75  克  ，  还有  丰富  的  蛋白质  、  膳食  纤维  、  维生素  B  维生素B3  、  维生素C  、  铁  、  磷  、  镁  、  钾  、  胡萝卜素  、  果糖  、  葡萄糖  、  水溶性  膳食  纤维  。
+            含有  特有  的  植物性  蛋白  和  花青素  。
+            火龙果  中  含铁  元素  量比  一般  水果  要  高  。
+            火龙  果是  一  种  低  能量  、  高  纤维  的  水果  ，  水溶性  膳食  纤维  含量  非常  丰富  。
+        </segment>
+
+        <pos>
+            火龙果#NN  中#LC  含糖量#NN  较#AD  高#VA  ，#PU  水分#NN  83.75#CD  克#M  ，#PU  还有#AD  丰富#VA  的#DEC  蛋白质#NN  、#PU  膳食#NN  纤维#NN  、#PU  维生素#NN  B#VV  维生素B3#CD  、#PU  维生素C#NN  、#PU  铁#NN  、#PU  磷#NN  、#PU  镁#NN  、#PU  钾#NN  、#PU  胡萝卜素#NN  、#PU  果糖#NN  、#PU  葡萄糖#NN  、#PU  水溶性#NN  膳食#NN  纤维#NN  。#PU
+            含有#VV  特有#JJ  的#DEG  植物性#NN  蛋白#NN  和#CC  花青素#NN  。#PU
+            火龙果#NN  中#LC  含铁#NN  元素#NN  量比#NN  一般#JJ  水果#NN  要#AD  高#VA  。#PU
+            火龙#NN  果是#VV  一#CD  种#M  低#JJ  能量#NN  、#PU  高#JJ  纤维#NN  的#DEG  水果#NN  ，#PU  水溶性#NN  膳食#NN  纤维#NN  含量#NN  非常#AD  丰富#VA  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 高#VA, 火龙果#NN)  (case, 火龙果#NN, 中#LC)  (nsubj, 高#VA, 含糖量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (nsubj, 克#M, 水分#NN)  (nummod, 克#M, 83.75#CD)  (conj, 高#VA, 克#M)  (advmod, B#VV, 还有#AD)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 维生素#NN, 蛋白质#NN)  (nn, 维生素#NN, 膳食#NN)  (conj, 维生素#NN, 纤维#NN)  (nsubj, B#VV, 维生素#NN)  (conj, 高#VA, B#VV)  (nummod, 纤维#NN, 维生素B3#CD)  (conj, 纤维#NN, 维生素C#NN)  (conj, 膳食#NN, 铁#NN)  (conj, 膳食#NN, 磷#NN)  (conj, 膳食#NN, 镁#NN)  (conj, 膳食#NN, 钾#NN)  (conj, 膳食#NN, 胡萝卜素#NN)  (conj, 膳食#NN, 果糖#NN)  (conj, 膳食#NN, 葡萄糖#NN)  (nn, 膳食#NN, 水溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (dobj, B#VV, 纤维#NN)
+            (root, ROOT#null, 含有#VV)  (assmod, 花青素#NN, 特有#JJ)  (case, 特有#JJ, 的#DEG)  (nn, 花青素#NN, 植物性#NN)  (conj, 花青素#NN, 蛋白#NN)  (cc, 花青素#NN, 和#CC)  (dobj, 含有#VV, 花青素#NN)
+            (loc, 高#VA, 火龙果#NN)  (case, 火龙果#NN, 中#LC)  (nn, 量比#NN, 含铁#NN)  (nn, 量比#NN, 元素#NN)  (nn, 水果#NN, 量比#NN)  (amod, 水果#NN, 一般#JJ)  (nsubj, 高#VA, 水果#NN)  (advmod, 高#VA, 要#AD)  (root, ROOT#null, 高#VA)
+            (nsubj, 果是#VV, 火龙#NN)  (root, ROOT#null, 果是#VV)  (nummod, 种#M, 一#CD)  (clf, 能量#NN, 种#M)  (amod, 能量#NN, 低#JJ)  (conj, 纤维#NN, 能量#NN)  (amod, 纤维#NN, 高#JJ)  (assmod, 水果#NN, 纤维#NN)  (case, 纤维#NN, 的#DEG)  (dobj, 果是#VV, 水果#NN)  (nn, 纤维#NN, 水溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (nn, 含量#NN, 纤维#NN)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 非常#AD)  (conj, 果是#VV, 丰富#VA)
+        </parsing>
+
+        <tag>
+            维生素丰富  蛋白质  膳食维生素  维生素C  胡萝卜素  果糖  葡萄糖  水溶性膳食  膳食纤维  植物性花青素  含有花青素  含铁量比  量比水果  一般水果  低能量  高纤维  果是水果  水溶性纤维  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            火龙果的果皮里面因为不含单宁酸和单宁，所以不会像一般的水果皮那样觉得涩口，但是由于它肉质化了，所以口感还是可以让人接受的。在吃火龙果时，可以用小刀刮下内层的紫色果皮—他们可以生吃，也可以凉拌或者像霸王花一样放入汤里。
+        </rawdata>
+
+        <segment>
+            火龙果  的  果皮  里面  因为  不  含  单宁酸  和  单宁  ，  所以  不  会  像  一般  的  水果  皮  那样  觉得  涩口  ，  但是  由于  它  肉质化  了  ，  所以  口感  还是  可以  让  人  接受  的  。  在  吃  火龙果  时  ，  可以  用  小刀  刮  下  内层  的  紫色  果皮  —  他们  可以  生吃  ，  也  可以  凉拌  或者  像  霸王  花  一样  放入  汤  里  。
+        </segment>
+
+        <pos>
+            火龙果#NN  的#DEG  果皮#NN  里面#NN  因为#P  不#AD  含#VV  单宁酸#NN  和#CC  单宁#NN  ，#PU  所以#AD  不#AD  会#VV  像#P  一般#JJ  的#DEG  水果#NN  皮#NN  那样#AD  觉得#VV  涩口#VV  ，#PU  但是#AD  由于#P  它#PN  肉质化#VV  了#AS  ，#PU  所以#AD  口感#NN  还是#AD  可以#VV  让#VV  人#NN  接受#VV  的#DEC    。#PU  在#P  吃#VV  火龙果#NN  时#LC  ，#PU  可以#VV  用#P  小刀#NN  刮#NN  下#LC  内层#VV  的#DEC  紫色#NN  果皮#NN  --#NN  他们#PN  可以#VV  生吃#VV  ，#PU  也#AD  可以#VV  凉拌#VV  或者#CC  像#P  霸王#NN  花#NN  一样#VA  放入#VV  汤#NN  里#LC    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 里面#NN, 火龙果#NN)  (case, 火龙果#NN, 的#DEG)  (nn, 里面#NN, 果皮#NN)  (nsubj, 会#VV, 里面#NN)  (case, 含#VV, 因为#P)  (neg, 含#VV, 不#AD)  (prep, 会#VV, 含#VV)  (conj, 单宁#NN, 单宁酸#NN)  (cc, 单宁#NN, 和#CC)  (dobj, 含#VV, 单宁#NN)  (advmod, 会#VV, 所以#AD)  (neg, 会#VV, 不#AD)  (root, ROOT#null, 会#VV)  (case, 皮#NN, 像#P)  (assmod, 皮#NN, 一般#JJ)  (case, 一般#JJ, 的#DEG)  (nn, 皮#NN, 水果#NN)  (prep, 觉得#VV, 皮#NN)  (advmod, 觉得#VV, 那样#AD)  (dobj, 会#VV, 觉得#VV)  (ccomp, 觉得#VV, 涩口#VV)  (advmod, 可以#VV, 但是#AD)  (case, 肉质化#VV, 由于#P)  (nsubj, 肉质化#VV, 它#PN)  (prep, 可以#VV, 肉质化#VV)  (asp, 肉质化#VV, 了#AS)  (advmod, 可以#VV, 所以#AD)  (nsubj, 可以#VV, 口感#NN)  (advmod, 可以#VV, 还是#AD)  (conj, 让#VV, 可以#VV)  (ccomp, 涩口#VV, 让#VV)  (dobj, 让#VV, 人#NN)  (dep, 让#VV, 接受#VV)  (mark, 觉得#VV, 的#DEC)   (case, 吃#VV, 在#P)  (prep, 生吃#VV, 吃#VV)  (dobj, 吃#VV, 火龙果#NN)  (case, 吃#VV, 时#LC)  (mmod, 内层#VV, 可以#VV)  (case, 刮#NN, 用#P)  (nn, 刮#NN, 小刀#NN)  (prep, 内层#VV, 刮#NN)  (case, 刮#NN, 下#LC)  (relcl, --#NN, 内层#VV)  (mark, 内层#VV, 的#DEC)  (nn, --#NN, 紫色#NN)  (nn, --#NN, 果皮#NN)  (nsubj, 生吃#VV, 他们#PN)  (xsubj, 凉拌#VV, 他们#PN)  (mmod, 生吃#VV, 可以#VV)  (root, ROOT#null, 生吃#VV)  (advmod, 凉拌#VV, 也#AD)  (dep, 凉拌#VV, 可以#VV)  (ccomp, 生吃#VV, 凉拌#VV)  (cc, 凉拌#VV, 或者#CC)  (case, 花#NN, 像#P)  (nn, 花#NN, 霸王#NN)  (prep, 一样#VA, 花#NN)  (dep, 凉拌#VV, 一样#VA)  (dep, 生吃#VV, 放入#VV)  (loc, 放入#VV, 汤#NN)  (case, 汤#NN, 里#LC)
+        </parsing>
+
+        <tag>
+            果皮里面  单宁酸  生吃  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101625452926.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\324 火龙果.jpg
+    </picturelocalurl>
+
+</content>

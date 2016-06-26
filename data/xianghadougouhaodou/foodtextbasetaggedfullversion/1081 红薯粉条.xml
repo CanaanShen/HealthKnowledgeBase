@@ -1,0 +1,124 @@
+<content>
+
+    <id>
+        1081
+    </id>
+
+    <foodname>
+        红薯粉条
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        红薯粉丝、粉皮
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            粉条品种繁多，如绿豆粉条、豌豆粉条、蚕豆粉条、魔芋粉条，但更多的是淀粉制的粉条。最常见的粉条，当属红薯粉条。红薯粉条的主要原料是红薯，具有久煮不烂，清香可口、食法多样的特点，是我国大部分地区群众喜爱和常见的食品。
+        </rawdata>
+
+        <segment>
+            粉条  品种  繁多  ，  如  绿豆  粉条  、  豌豆  粉条  、  蚕豆  粉条  、  魔芋  粉条  ，  但  更  多  的  是  淀粉制  的  粉条  。  最  常见  的  粉条  ，  当  属  红薯  粉条  。  红薯  粉条  的  主要  原料  是  红薯  ，  具有  久  煮  不  烂  ，  清香  可口  、  食  法  多样  的  特点  ，  是  我国  大部分  地区  群众  喜爱  和  常见  的  食品  。
+        </segment>
+
+        <pos>
+            粉条#NN  品种#NN  繁多#VV  ，#PU  如#CS  绿豆#VV  粉条#NR  、#PU  豌豆#NR  粉条#NR  、#PU  蚕豆#NR  粉条#NR  、#PU  魔芋#NR  粉条#NN  ，#PU  但#AD  更#AD  多#VA  的#DEC  是#VC  淀粉制#NN  的#DEG  粉条#NN    。#PU  最#AD  常见#VA  的#DEC  粉条#NN  ，#PU  当#AD  属#VV  红薯#NN  粉条#NN    。#PU  红薯#NN  粉条#NN  的#DEG  主要#JJ  原料#NN  是#VC  红薯#NN  ，#PU  具有#VV  久#AD  煮#VV  不#AD  烂#VA  ，#PU  清香#NN  可口#NN  、#PU  食#NN  法#NN  多样#VA  的#DEC  特点#NN  ，#PU  是#VC  我国#NR  大部分#CD  地区#NN  群众#NN  喜爱#NN  和#CC  常见#VA  的#DEC  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 品种#NN, 粉条#NN)  (nsubj, 繁多#VV, 品种#NN)  (root, ROOT#null, 繁多#VV)  (advmod, 绿豆#VV, 如#CS)  (dep, 粉条#NN, 绿豆#VV)  (conj, 魔芋#NR, 粉条#NR)  (nn, 魔芋#NR, 豌豆#NR)  (conj, 魔芋#NR, 粉条#NR)  (nn, 魔芋#NR, 蚕豆#NR)  (conj, 魔芋#NR, 粉条#NR)  (nn, 粉条#NN, 魔芋#NR)  (dobj, 绿豆#VV, 粉条#NN)  (advmod, 粉条#NN, 但#AD)  (advmod, 多#VA, 更#AD)  (nsubj, 粉条#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (cop, 粉条#NN, 是#VC)  (assmod, 粉条#NN, 淀粉制#NN)  (case, 淀粉制#NN, 的#DEG)  (ccomp, 繁多#VV, 粉条#NN)   (advmod, 常见#VA, 最#AD)  (relcl, 粉条#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (dep, 属#VV, 粉条#NN)  (advmod, 属#VV, 当#AD)  (root, ROOT#null, 属#VV)  (nn, 粉条#NN, 红薯#NN)  (dobj, 属#VV, 粉条#NN)   (nn, 粉条#NN, 红薯#NN)  (assmod, 原料#NN, 粉条#NN)  (case, 粉条#NN, 的#DEG)  (amod, 原料#NN, 主要#JJ)  (nsubj, 红薯#NN, 原料#NN)  (cop, 红薯#NN, 是#VC)  (root, ROOT#null, 红薯#NN)  (conj, 红薯#NN, 具有#VV)  (advmod, 煮#VV, 久#AD)  (relcl, 特点#NN, 煮#VV)  (neg, 烂#VA, 不#AD)  (dep, 煮#VV, 烂#VA)  (nn, 法#NN, 清香#NN)  (conj, 法#NN, 可口#NN)  (nn, 法#NN, 食#NN)  (nsubj, 多样#VA, 法#NN)  (dep, 烂#VA, 多样#VA)  (mark, 煮#VV, 的#DEC)  (dobj, 具有#VV, 特点#NN)  (cop, 食品#NN, 是#VC)  (nn, 地区#NN, 我国#NR)  (nummod, 地区#NN, 大部分#CD)  (nn, 喜爱#NN, 地区#NN)  (nn, 喜爱#NN, 群众#NN)  (conj, 食品#NN, 喜爱#NN)  (cc, 食品#NN, 和#CC)  (relcl, 食品#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (conj, 红薯#NN, 食品#NN)
+        </parsing>
+
+        <tag>
+            粉条品种  繁多  魔芋  绿豆粉条  淀粉制  粉条常见  红薯粉条  煮特点  法多样  地区喜爱  群众喜爱  食品常见  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.粉条里富含碳水化合物、膳食纤维、蛋白质、烟酸和钙、镁、铁、钾、磷、钠等矿物质；
+            2.粉条有良好的附味性，它能吸收各种鲜美汤料的味道，再加上粉条本身的柔润嫩滑，更加爽口宜人。真正的绿色粉条具备红薯的多数养身功能。
+        </rawdata>
+
+        <segment>
+            粉条  里  富含  碳水化合物  、  膳食  纤维  、  蛋白质  、  烟酸  和  钙  、  镁  、  铁  、  钾  、  磷  、  钠  等  矿物质  ；
+            粉条  有  良好  的  附味性  ，  它  能  吸收  各  种  鲜美  汤料  的  味道  ，  再  加上  粉条  本身  的  柔润  嫩滑  ，  更加  爽口  宜人  。  真正  的  绿色  粉条  具备  红薯  的  多数  养身  功能  。
+        </segment>
+
+        <pos>
+            粉条#NN  里#LC  富含#NN  碳水化合物#VV  、#PU  膳食#VV  纤维#NN  、#PU  蛋白质#NN  、#PU  烟酸#NN  和#CC  钙#NN  、#PU  镁#NN  、#PU  铁#NN  、#PU  钾#NN  、#PU  磷#NN  、#PU  钠#NN  等#ETC  矿物质#NN  ；#PU
+            粉条#NN  有#VE  良好#VA  的#DEC  附味性#NN  ，#PU  它#PN  能#VV  吸收#VV  各#DT  种#M  鲜美#NN  汤料#NN  的#DEG  味道#NN  ，#PU  再#AD  加上#VV  粉条#VV  本身#PN  的#DEG  柔润#NN  嫩滑#NN  ，#PU  更加#AD  爽口#VV  宜人#NN    。#PU  真正#VA  的#DEC  绿色#JJ  粉条#NN  具备#VV  红薯#NN  的#DEG  多数#CD  养身#NN  功能#NN    。#PU
+        </pos>
+
+        <parsing>
+            (loc, 碳水化合物#VV, 粉条#NN)  (case, 粉条#NN, 里#LC)  (nsubj, 碳水化合物#VV, 富含#NN)  (root, ROOT#null, 碳水化合物#VV)  (dep, 碳水化合物#VV, 膳食#VV)  (conj, 钠#NN, 纤维#NN)  (conj, 钠#NN, 蛋白质#NN)  (conj, 钠#NN, 烟酸#NN)  (cc, 钠#NN, 和#CC)  (conj, 钠#NN, 钙#NN)  (conj, 钠#NN, 镁#NN)  (conj, 钠#NN, 铁#NN)  (conj, 钠#NN, 钾#NN)  (conj, 钠#NN, 磷#NN)  (nn, 矿物质#NN, 钠#NN)  (etc, 钠#NN, 等#ETC)  (dobj, 膳食#VV, 矿物质#NN)
+            (dep, 有#VE, 粉条#NN)  (root, ROOT#null, 有#VE)  (relcl, 附味性#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (dobj, 有#VE, 附味性#NN)  (nsubj, 吸收#VV, 它#PN)  (xsubj, 粉条#VV, 它#PN)  (mmod, 吸收#VV, 能#VV)  (conj, 有#VE, 吸收#VV)  (det, 鲜美#NN, 各#DT)  (clf, 各#DT, 种#M)  (nn, 汤料#NN, 鲜美#NN)  (assmod, 味道#NN, 汤料#NN)  (case, 汤料#NN, 的#DEG)  (dobj, 吸收#VV, 味道#NN)  (advmod, 加上#VV, 再#AD)  (dep, 吸收#VV, 加上#VV)  (ccomp, 加上#VV, 粉条#VV)  (assmod, 嫩滑#NN, 本身#PN)  (case, 本身#PN, 的#DEG)  (nn, 嫩滑#NN, 柔润#NN)  (dobj, 粉条#VV, 嫩滑#NN)  (advmod, 爽口#VV, 更加#AD)  (conj, 粉条#VV, 爽口#VV)  (dobj, 爽口#VV, 宜人#NN)   (relcl, 粉条#NN, 真正#VA)  (mark, 真正#VA, 的#DEC)  (amod, 粉条#NN, 绿色#JJ)  (nsubj, 具备#VV, 粉条#NN)  (root, ROOT#null, 具备#VV)  (assmod, 功能#NN, 红薯#NN)  (case, 红薯#NN, 的#DEG)  (nummod, 功能#NN, 多数#CD)  (nn, 功能#NN, 养身#NN)  (dobj, 具备#VV, 功能#NN)
+        </parsing>
+
+        <tag>
+            膳食矿物质  附味性良好  鲜美汤料  吸收味道  柔润嫩滑  粉条嫩滑  爽口宜人  粉条真正  绿色粉条  养身功能  具备功能  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            红薯粉条是一种很随和的食品，它能与许多食品搭配，能用多种方式烹调，做出凉热荤素炒烩炸蒸各式各样的菜肴。红薯粉条与白菜土豆猪牛羊肉混合炖制，味道鲜美，雅俗共赏。
+        </rawdata>
+
+        <segment>
+            红薯  粉条  是  一  种  很  随和  的  食品  ，  它  能  与  许多  食品  搭配  ，  能用  多  种  方式  烹调  ，  做出  凉热荤  素炒  烩炸蒸  各式各样  的  菜肴  。  红薯  粉条  与  白菜  土豆  猪  牛  羊肉  混合  炖制  ，  味道  鲜美  ，  雅俗共赏  。
+        </segment>
+
+        <pos>
+            红薯#NN  粉条#NN  是#VC  一#CD  种#M  很#AD  随和#VA  的#DEC  食品#NN  ，#PU  它#PN  能#VV  与#P  许多#CD  食品#NN  搭配#NN  ，#PU  能用#VV  多#CD  种#M  方式#NN  烹调#NN  ，#PU  做出#VV  凉热荤#NN  素炒#NN  烩炸蒸#NN  各式各样#NN  的#DEC  菜肴#NN    。#PU  红薯#NN  粉条#NN  与#P  白菜#NN  土豆#VV  猪#NN  牛#NN  羊肉#NN  混合#JJ  炖制#NN  ，#PU  味道#NN  鲜美#NN  ，#PU  雅俗共赏#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 粉条#NN, 红薯#NN)  (nsubj, 菜肴#NN, 粉条#NN)  (cop, 菜肴#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 菜肴#NN, 种#M)  (advmod, 随和#VA, 很#AD)  (relcl, 食品#NN, 随和#VA)  (mark, 随和#VA, 的#DEC)  (nsubj, 能用#VV, 食品#NN)  (nsubj, 能用#VV, 它#PN)  (mmod, 能用#VV, 能#VV)  (case, 搭配#NN, 与#P)  (nummod, 搭配#NN, 许多#CD)  (nn, 搭配#NN, 食品#NN)  (prep, 能用#VV, 搭配#NN)  (relcl, 菜肴#NN, 能用#VV)  (nummod, 种#M, 多#CD)  (clf, 方式#NN, 种#M)  (nn, 烹调#NN, 方式#NN)  (dobj, 能用#VV, 烹调#NN)  (conj, 能用#VV, 做出#VV)  (nn, 各式各样#NN, 凉热荤#NN)  (nn, 各式各样#NN, 素炒#NN)  (nn, 各式各样#NN, 烩炸蒸#NN)  (dobj, 做出#VV, 各式各样#NN)  (mark, 能用#VV, 的#DEC)  (root, ROOT#null, 菜肴#NN)   (nn, 粉条#NN, 红薯#NN)  (nsubj, 土豆#VV, 粉条#NN)  (case, 白菜#NN, 与#P)  (prep, 土豆#VV, 白菜#NN)  (root, ROOT#null, 土豆#VV)  (nn, 羊肉#NN, 猪#NN)  (nn, 羊肉#NN, 牛#NN)  (nn, 炖制#NN, 羊肉#NN)  (amod, 炖制#NN, 混合#JJ)  (dobj, 土豆#VV, 炖制#NN)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 雅俗共赏#VV, 鲜美#NN)  (conj, 土豆#VV, 雅俗共赏#VV)
+        </parsing>
+
+        <tag>
+            红薯粉条  食品随和  食品搭配  能用菜肴  方式烹调  能用烹调  凉热荤各式各样  素炒各式各样  烩炸蒸各式各样  做出各式各样  羊肉炖制  混合炖制  土豆炖制  味道鲜美  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/15/35/13589_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1081 红薯粉条.jpg
+    </picturelocalurl>
+
+</content>

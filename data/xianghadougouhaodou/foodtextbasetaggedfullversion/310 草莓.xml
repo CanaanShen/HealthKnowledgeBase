@@ -1,0 +1,476 @@
+<content>
+
+    <id>
+        310
+    </id>
+
+    <foodname>
+        草莓
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        水果
+    </secondcategory>
+
+    <alias>
+        大草莓、士多啤梨、红莓、地莓
+    </alias>
+
+    <season>
+        4-5月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            痰湿内盛、肠滑便泻者、尿路结石病人不宜多食。
+        </rawdata>
+
+        <segment>
+            痰湿  内盛  、  肠  滑  便  泻者  、  尿路  结石  病人  不  宜  多  食  。
+        </segment>
+
+        <pos>
+            痰湿#NN  内盛#NN  、#PU  肠#NN  滑#NN  便#NN  泻者#NN  、#PU  尿路#NN  结石#NN  病人#NN  不#AD  宜#NR  多#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 病人#NN, 痰湿#NN)  (conj, 病人#NN, 内盛#NN)  (nn, 病人#NN, 肠#NN)  (nn, 病人#NN, 滑#NN)  (nn, 病人#NN, 便#NN)  (conj, 病人#NN, 泻者#NN)  (nn, 病人#NN, 尿路#NN)  (nn, 病人#NN, 结石#NN)  (nsubj, 多#VV, 病人#NN)  (neg, 多#VV, 不#AD)  (prep, 多#VV, 宜#NR)  (root, ROOT#null, 多#VV)  (dobj, 多#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            痰湿内盛  肠滑便泻者  尿路结石病人不宜多食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜风热咳嗽、咽喉肿痛、声音嘶哑者，夏季烦热口干或腹泻如水者，癌症，特别是鼻咽癌、肺癌、扁桃体癌、喉癌患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  风  热  咳嗽  、  咽喉  肿痛  、  声音  嘶哑  者  ，  夏季  烦  热  口干  或  腹泻  如水  者  ，  癌症  ，  特别是  鼻咽癌  、  肺癌  、  扁桃体癌  、  喉癌  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  风#NN  热#NN  咳嗽#NN  、#PU  咽喉#NN  肿痛#NN  、#PU  声音#NN  嘶哑#NN  者#NN  ，#PU  夏季#NT  烦#NN  热#NN  口干#NN  或#CC  腹泻#NN  如水#NN  者#NN  ，#PU  癌症#NN  ，#PU  特别是#AD  鼻咽癌#NR  、#PU  肺癌#NR  、#PU  扁桃体癌#NR  、#PU  喉癌#NR  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nn, 咳嗽#NN, 风#NN)  (nn, 咳嗽#NN, 热#NN)  (conj, 患者#NN, 咳嗽#NN)  (nn, 肿痛#NN, 咽喉#NN)  (conj, 患者#NN, 肿痛#NN)  (nn, 者#NN, 声音#NN)  (nn, 者#NN, 嘶哑#NN)  (dep, 患者#NN, 者#NN)  (nn, 如水#NN, 夏季#NT)  (nn, 如水#NN, 烦#NN)  (nn, 如水#NN, 热#NN)  (conj, 如水#NN, 口干#NN)  (cc, 如水#NN, 或#CC)  (nn, 如水#NN, 腹泻#NN)  (nn, 者#NN, 如水#NN)  (dep, 患者#NN, 者#NN)  (dep, 患者#NN, 癌症#NN)  (advmod, 患者#NN, 特别是#AD)  (conj, 喉癌#NR, 鼻咽癌#NR)  (conj, 喉癌#NR, 肺癌#NR)  (conj, 喉癌#NR, 扁桃体癌#NR)  (nn, 患者#NN, 喉癌#NR)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  风热咳嗽  咽喉肿痛  声音嘶哑者  夏季烦热口干  腹泻如水者  癌症  特别是鼻咽癌  肺癌  扁桃体癌  喉癌  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                7.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                30
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                47
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.71
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                27
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                131
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.04
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.49
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            草莓又叫红莓、洋莓、地莓(Strawberry)等，是一种红色的水果。草莓是对蔷薇科草莓属植物的通称，属多年生草本植物，在全世界已知有50多种，原产欧洲。草莓的外观呈心形，鲜美红嫩，果肉多汁，酸甜可口，且有特殊的浓郁水果芳香。由于草莓色、香、味俱佳，而且营养价值高，含丰富维生素C，有帮助消化的功效，所以被人们誉为“水果皇后”。
+            世界各国栽培的草莓主要是18世纪育出的大果草莓，即凤梨草莓，主要产地在中国、美国、澳大利亚、新西兰。中国产草莓有7个种，其中以森林草莓和东方草莓两种最多，分布在东北、西北和西南等地的山坡、草地或森林下。此外还有黄毛草莓、西南莓、五叶草莓、纤细草莓和西藏草莓。
+        </rawdata>
+
+        <segment>
+            草莓  又  叫  红莓  、  洋莓  、  地莓  (  Strawberry  )  等  ，  是  一  种  红色  的  水果  。  草莓  是  对  蔷薇科  草莓属  植物  的  通称  ，  属  多年生  草本  植物  ，  在  全世界  已知  有  50  多  种  ，  原  产  欧洲  。  草莓  的  外观  呈  心形  ，  鲜美  红嫩  ，  果肉  多汁  ，  酸甜  可口  ，  且  有  特殊  的  浓郁  水果  芳香  。  由于  草莓  色  、  香  、  味  俱佳  ，  而且  营养  价值  高  ，  含  丰富  维生素C  ，  有  帮助  消化  的  功效  ，  所以  被  人们  誉为  “  水果  皇后  ”  。
+            世界  各  国  栽培  的  草莓  主要  是  18  世纪  育出  的  大果  草莓  ，  即  凤梨  草莓  ，  主要  产地  在  中国  、  美国  、  澳大利亚  、  新西兰  。  中国  产  草莓  有  7  个  种  ，  其中  以  森林  草莓  和  东方  草莓  两  种  最多  ，  分布  在  东北  、  西北  和  西南  等  地  的  山坡  、  草地  或  森林  下  。  此外  还  有  黄毛  草莓  、  西南莓  、  五  叶  草莓  、  纤细  草莓  和  西藏  草莓  。
+        </segment>
+
+        <pos>
+            草莓#NN  又#AD  叫#VV  红莓#NR  、#PU  洋莓#NR  、#PU  地莓#NR  -LRB-#NN  Strawberry#NN  -RRB-#NN  等#ETC  ，#PU  是#VC  一#CD  种#M  红色#JJ  的#DEG  水果#NN    。#PU  草莓#AD  是#VC  对#P  蔷薇科#NN  草莓属#NN  植物#NN  的#DEG  通称#NN  ，#PU  属#VV  多年生#NN  草本#NN  植物#NN  ，#PU  在#P  全世界#NR  已知#AD  有#VE  50#CD  多#CD  种#M  ，#PU  原#AD  产#VV  欧洲#NR    。#PU  草莓#NN  的#DEG  外观#NN  呈#VV  心形#NN  ，#PU  鲜美#VV  红嫩#NN  ，#PU  果肉#VV  多汁#NN  ，#PU  酸甜#VV  可口#NN  ，#PU  且#CC  有#VE  特殊#VA  的#DEC  浓郁#VA  水果#NN  芳香#NN    。#PU  由于#P  草莓#NN  色#NN  、#PU  香#NN  、#PU  味#NN  俱佳#VA  ，#PU  而且#CC  营养#VA  价值#NN  高#VA  ，#PU  含#VV  丰富#VA  维生素C#VA  ，#PU  有#VE  帮助#NN  消化#NN  的#DEC  功效#NN  ，#PU  所以#AD  被#LB  人们#NN  誉为#VV  ``#NN  水果#NN  皇后#NN  ''#NN    。#PU    。#PU
+            世界#NN  各#DT  国#NN  栽培#VV  的#DEC  草莓#NN  主要#AD  是#VC  18#CD  世纪#NN  育出#NN  的#DEG  大果#NN  草莓#NN  ，#PU  即#AD  凤梨#VV  草莓#NN  ，#PU  主要#JJ  产地#NN  在#P  中国#NR  、#PU  美国#NR  、#PU  澳大利亚#NR  、#PU  新西兰#NR    。#PU  中国#NR  产#VV  草莓#NN  有#VE  7#CD  个#M  种#M  ，#PU  其中#NN  以#P  森林#NN  草莓#NN  和#CC  东方#NN  草莓#VV  两#CD  种#M  最多#AD  ，#PU  分布#VV  在#P  东北#NN  、#PU  西北#NN  和#CC  西南#NN  等#ETC  地#NN  的#DEG  山坡#NN  、#PU  草地#NN  或#CC  森林#NN  下#LC    。#PU  此外#AD  还#AD  有#VE  黄毛#NN  草莓#NR  、#PU  西南莓#NR  、#PU  五#CD  叶#NR  草莓#NN  、#PU  纤细#NR  草莓#NR  和#CC  西藏#NR  草莓#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 叫#VV, 草莓#NN)  (advmod, 叫#VV, 又#AD)  (root, ROOT#null, 叫#VV)  (conj, 地莓#NR, 红莓#NR)  (conj, 地莓#NR, 洋莓#NR)  (nn, -RRB-#NN, 地莓#NR)  (nn, -RRB-#NN, Strawberry#NN)  (etc, -RRB-#NN, 等#ETC)  (cop, 水果#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 水果#NN, 种#M)  (assmod, 水果#NN, 红色#JJ)  (case, 红色#JJ, 的#DEG)  (conj, 叫#VV, 水果#NN)   (advmod, 通称#NN, 草莓#AD)  (cop, 通称#NN, 是#VC)  (case, 植物#NN, 对#P)  (nn, 植物#NN, 蔷薇科#NN)  (nn, 植物#NN, 草莓属#NN)  (assmod, 通称#NN, 植物#NN)  (case, 植物#NN, 的#DEG)  (root, ROOT#null, 通称#NN)  (dep, 通称#NN, 属#VV)  (nn, 植物#NN, 多年生#NN)  (nn, 植物#NN, 草本#NN)  (dobj, 属#VV, 植物#NN)  (case, 全世界#NR, 在#P)  (prep, 有#VE, 全世界#NR)  (advmod, 有#VE, 已知#AD)  (conj, 通称#NN, 有#VE)  (dep, 种#M, 50#CD)  (nummod, 种#M, 多#CD)  (dep, 有#VE, 种#M)  (advmod, 产#VV, 原#AD)  (conj, 通称#NN, 产#VV)  (dobj, 产#VV, 欧洲#NR)   (assmod, 外观#NN, 草莓#NN)  (case, 草莓#NN, 的#DEG)  (nsubj, 呈#VV, 外观#NN)  (root, ROOT#null, 呈#VV)  (dobj, 呈#VV, 心形#NN)  (conj, 呈#VV, 鲜美#VV)  (dobj, 鲜美#VV, 红嫩#NN)  (conj, 鲜美#VV, 果肉#VV)  (dobj, 果肉#VV, 多汁#NN)  (conj, 鲜美#VV, 酸甜#VV)  (dobj, 酸甜#VV, 可口#NN)  (cc, 鲜美#VV, 且#CC)  (conj, 鲜美#VV, 有#VE)  (relcl, 芳香#NN, 特殊#VA)  (mark, 特殊#VA, 的#DEC)  (nfincl, 芳香#NN, 浓郁#VA)  (nn, 芳香#NN, 水果#NN)  (dobj, 有#VE, 芳香#NN)   (case, 俱佳#VA, 由于#P)  (nn, 味#NN, 草莓#NN)  (conj, 味#NN, 色#NN)  (conj, 味#NN, 香#NN)  (nsubj, 俱佳#VA, 味#NN)  (prep, 高#VA, 俱佳#VA)  (cc, 俱佳#VA, 而且#CC)  (conj, 俱佳#VA, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (root, ROOT#null, 高#VA)  (conj, 高#VA, 含#VV)  (relcl, 功效#NN, 丰富#VA)  (comod, 丰富#VA, 维生素C#VA)  (dep, 丰富#VA, 有#VE)  (nn, 消化#NN, 帮助#NN)  (dobj, 有#VE, 消化#NN)  (mark, 丰富#VA, 的#DEC)  (dobj, 含#VV, 功效#NN)  (advmod, 誉为#VV, 所以#AD)  (auxpass, 誉为#VV, 被#LB)  (nsubj, 誉为#VV, 人们#NN)  (conj, 高#VA, 誉为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 水果#NN)  (nn, ''#NN, 皇后#NN)  (dobj, 誉为#VV, ''#NN)   (root, ROOT#null, null#null)
+            (nn, 国#NN, 世界#NN)  (det, 国#NN, 各#DT)  (nsubj, 栽培#VV, 国#NN)  (relcl, 草莓#NN, 栽培#VV)  (mark, 栽培#VV, 的#DEC)  (nsubj, 草莓#NN, 草莓#NN)  (advmod, 草莓#NN, 主要#AD)  (cop, 草莓#NN, 是#VC)  (nummod, 世纪#NN, 18#CD)  (nn, 育出#NN, 世纪#NN)  (assmod, 草莓#NN, 育出#NN)  (case, 育出#NN, 的#DEG)  (nn, 草莓#NN, 大果#NN)  (root, ROOT#null, 草莓#NN)  (advmod, 凤梨#VV, 即#AD)  (conj, 草莓#NN, 凤梨#VV)  (dobj, 凤梨#VV, 草莓#NN)  (amod, 产地#NN, 主要#JJ)  (nsubj, 新西兰#NR, 产地#NN)  (case, 新西兰#NR, 在#P)  (conj, 新西兰#NR, 中国#NR)  (conj, 新西兰#NR, 美国#NR)  (conj, 新西兰#NR, 澳大利亚#NR)  (conj, 草莓#NN, 新西兰#NR)   (nsubj, 产#VV, 中国#NR)  (xsubj, 分布#VV, 中国#NR)  (root, ROOT#null, 产#VV)  (dep, 有#VE, 草莓#NN)  (ccomp, 产#VV, 有#VE)  (nummod, 个#M, 7#CD)  (dep, 有#VE, 个#M)  (dep, 个#M, 种#M)  (nsubj, 草莓#VV, 其中#NN)  (case, 东方#NN, 以#P)  (nn, 草莓#NN, 森林#NN)  (conj, 东方#NN, 草莓#NN)  (cc, 东方#NN, 和#CC)  (prep, 草莓#VV, 东方#NN)  (conj, 有#VE, 草莓#VV)  (nummod, 种#M, 两#CD)  (range, 草莓#VV, 种#M)  (advmod, 分布#VV, 最多#AD)  (ccomp, 产#VV, 分布#VV)  (case, 森林#NN, 在#P)  (conj, 西南#NN, 东北#NN)  (conj, 西南#NN, 西北#NN)  (cc, 西南#NN, 和#CC)  (nn, 地#NN, 西南#NN)  (etc, 西南#NN, 等#ETC)  (assmod, 森林#NN, 地#NN)  (case, 地#NN, 的#DEG)  (conj, 森林#NN, 山坡#NN)  (conj, 森林#NN, 草地#NN)  (cc, 森林#NN, 或#CC)  (prep, 分布#VV, 森林#NN)  (case, 森林#NN, 下#LC)   (advmod, 有#VE, 此外#AD)  (advmod, 有#VE, 还#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 黄毛#NN)  (conj, 西藏#NR, 草莓#NR)  (conj, 西藏#NR, 西南莓#NR)  (nummod, 草莓#NN, 五#CD)  (nn, 草莓#NN, 叶#NR)  (conj, 西藏#NR, 草莓#NN)  (nn, 西藏#NR, 纤细#NR)  (conj, 西藏#NR, 草莓#NR)  (cc, 西藏#NR, 和#CC)  (nsubj, 草莓#NN, 西藏#NR)  (dep, 有#VE, 草莓#NN)
+        </parsing>
+
+        <tag>
+            地莓  红莓  洋莓  蔷薇科植物  多年生植物  草本植物  鲜美红嫩  果肉多汁  酸甜可口  芳香特殊  水果芳香  味俱佳  功效丰富  维生素C丰富  帮助消化  世纪育出  新西兰  中国  美国  澳大利亚  东北  西北  森林  山坡  草地  西藏  西南莓  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            草莓味甘、酸，性凉，归肺、脾经。具有润肺生津，健脾，消暑，解热，利尿，止渴的功效；主治风热咳嗽，口舌糜烂，咽喉肿毒，便秘，高血压等症。
+            1.明目
+            草莓中所含的胡萝卜素是合成维生素A的重要物质，具有明目养肝作用。
+            2.滋补调理
+            草莓对胃肠道和贫血均有一定的滋补调理作用。
+            3.降血脂
+            草莓除可以预防坏血病外，对防治动脉硬化，冠心病也有较好的疗效。
+            4.防癌
+            在体内可吸附和阻止致癌化学物质的吸收，具有防癌作用。
+            5.清除有毒物质
+            可以自然平和的清除体内的重金属离子。
+            6.保健
+            女性常吃草莓，对皮肤、头发均有保健作用。
+            7.减肥
+            因为它含有一种叫天冬氨酸的物质，可以自然而平缓地除去体内的“矿渣”。
+            8.助消化
+            其含有大量果胶及纤维素，可促进胃肠蠕动、帮助消化、改善便秘，预防痔疮、肠癌的发生。
+        </rawdata>
+
+        <segment>
+            草莓  味  甘  、  酸  ，  性凉  ，  归肺  、  脾经  。  具有  润肺  生津  ，  健脾  ，  消暑  ，  解热  ，  利尿  ，  止渴  的  功效  ；  主治  风  热  咳嗽  ，  口舌  糜烂  ，  咽喉  肿毒  ，  便秘  ，  高血压  等症  。
+            明目
+            草莓  中  所  含  的  胡萝卜素  是  合成  维生素A  的  重要  物质  ，  具有  明目  养肝  作用  。
+            滋补  调理
+            草莓  对  胃肠道  和  贫血  均  有  一  定  的  滋补  调理  作用  。
+            降  血脂
+            草莓  除  可以  预防  坏血病  外  ，  对  防治  动脉  硬化  ，  冠心病  也  有  较好  的  疗效  。
+            防癌
+            在  体内  可  吸附  和  阻止  致癌  化学  物质  的  吸收  ，  具有  防癌  作用  。
+            清除  有毒  物质
+            可以  自然  平和  的  清除  体内  的  重金属  离子  。
+            保健
+            女性  常  吃  草莓  ，  对  皮肤  、  头发  均  有  保健  作用  。
+            减肥
+            因为  它  含有  一  种  叫  天冬氨酸  的  物质  ，  可以  自然  而  平缓  地  除去  体内  的  “  矿渣  ”  。
+            助消化
+            其  含有  大量  果胶  及  纤维素  ，  可  促进  胃肠  蠕动  、  帮助  消化  、  改善  便秘  ，  预防  痔疮  、  肠癌  的  发生  。
+        </segment>
+
+        <pos>
+            草莓#NN  味#VV  甘#NR  、#PU  酸#NR  ，#PU  性凉#NR  ，#PU  归肺#NR  、#PU  脾经#NR    。#PU  具有#VV  润肺#VV  生津#NN  ，#PU  健脾#VV  ，#PU  消暑#VV  ，#PU  解热#VV  ，#PU  利尿#VV  ，#PU  止渴#VV  的#DEC  功效#NN  ；#PU  主治#VV  风#NN  热#NN  咳嗽#NN  ，#PU  口舌#AD  糜烂#VV  ，#PU  咽喉#NN  肿毒#NN  ，#PU  便秘#NN  ，#PU  高血压#AD  等症#VV    。#PU    。#PU
+            明目#VV
+            草莓#NN  中#LC  所#MSP  含#VV  的#DEC  胡萝卜素#NN  是#VC  合成#JJ  维生素A#NN  的#DEG  重要#JJ  物质#NN  ，#PU  具有#VV  明目#NN  养肝#NN  作用#NN  。#PU
+            滋补#NN  调理#VV
+            草莓#NN  对#P  胃肠道#NN  和#CC  贫血#NN  均#AD  有#VE  一#CD  定#VV  的#DEC  滋补#NN  调理#NN  作用#NN  。#PU
+            降#NN  血脂#VA
+            草莓#NN  除#P  可以#VV  预防#VV  坏血病#NN  外#LC  ，#PU  对#P  防治#NN  动脉#NN  硬化#NN  ，#PU  冠心病#NN  也#AD  有#VE  较好#JJ  的#DEG  疗效#NN  。#PU
+            防癌#VV
+            在#P  体内#NN  可#VV  吸附#VV  和#CC  阻止#VV  致癌#NN  化学#NN  物质#NN  的#DEG  吸收#NN  ，#PU  具有#VV  防癌#NN  作用#NN  。#PU
+            清除#VV  有毒#NN  物质#NN
+            可以#VV  自然#NN  平和#NR  的#DEG  清除#VV  体内#NN  的#DEC  重金属#NN  离子#NN  。#PU
+            保健#NN
+            女性#NN  常#AD  吃#VV  草莓#NN  ，#PU  对#P  皮肤#NN  、#PU  头发#NN  均#AD  有#VE  保健#NN  作用#NN  。#PU
+            减肥#VV
+            因为#P  它#PN  含有#VV  一#CD  种#M  叫#VV  天冬氨酸#NN  的#DEC  物质#NN  ，#PU  可以#VV  自然#VA  而#CC  平缓#VA  地#DEV  除去#P  体内#NN  的#DEG  ``#NN  矿渣#VV  ''#NN  。#PU
+            助消化#VV
+            其#PN  含有#VV  大量#CD  果胶#NN  及#CC  纤维素#NN  ，#PU  可#VV  促进#VV  胃肠#NN  蠕动#NN  、#PU  帮助#VV  消化#NN  、#PU  改善#VV  便秘#NN  ，#PU  预防#VV  痔疮#NN  、#PU  肠癌#NN  的#DEG  发生#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 味#VV, 草莓#NN)  (root, ROOT#null, 味#VV)  (conj, 脾经#NR, 甘#NR)  (dep, 脾经#NR, 酸#NR)  (dep, 脾经#NR, 性凉#NR)  (conj, 脾经#NR, 归肺#NR)  (dobj, 味#VV, 脾经#NR)   (root, ROOT#null, 具有#VV)  (relcl, 功效#NN, 润肺#VV)  (dobj, 润肺#VV, 生津#NN)  (conj, 润肺#VV, 健脾#VV)  (conj, 润肺#VV, 消暑#VV)  (conj, 润肺#VV, 解热#VV)  (conj, 润肺#VV, 利尿#VV)  (conj, 润肺#VV, 止渴#VV)  (mark, 润肺#VV, 的#DEC)  (dobj, 具有#VV, 功效#NN)  (conj, 具有#VV, 主治#VV)  (nn, 咳嗽#NN, 风#NN)  (nn, 咳嗽#NN, 热#NN)  (dobj, 主治#VV, 咳嗽#NN)  (advmod, 糜烂#VV, 口舌#AD)  (conj, 具有#VV, 糜烂#VV)  (nn, 肿毒#NN, 咽喉#NN)  (nsubj, 等症#VV, 肿毒#NN)  (nsubj, 等症#VV, 便秘#NN)  (advmod, 等症#VV, 高血压#AD)  (ccomp, 糜烂#VV, 等症#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 明目#VV)
+            (loc, 含#VV, 草莓#NN)  (case, 草莓#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 胡萝卜素#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 物质#NN, 胡萝卜素#NN)  (cop, 物质#NN, 是#VC)  (amod, 维生素A#NN, 合成#JJ)  (assmod, 物质#NN, 维生素A#NN)  (case, 维生素A#NN, 的#DEG)  (amod, 物质#NN, 重要#JJ)  (root, ROOT#null, 物质#NN)  (conj, 物质#NN, 具有#VV)  (nn, 作用#NN, 明目#NN)  (nn, 作用#NN, 养肝#NN)  (dobj, 具有#VV, 作用#NN)
+            (nsubj, 调理#VV, 滋补#NN)  (root, ROOT#null, 调理#VV)
+            (nsubj, 有#VE, 草莓#NN)  (case, 贫血#NN, 对#P)  (conj, 贫血#NN, 胃肠道#NN)  (cc, 贫血#NN, 和#CC)  (prep, 有#VE, 贫血#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (nummod, 作用#NN, 一#CD)  (relcl, 作用#NN, 定#VV)  (mark, 定#VV, 的#DEC)  (nn, 作用#NN, 滋补#NN)  (nn, 作用#NN, 调理#NN)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 血脂#VA, 降#NN)  (root, ROOT#null, 血脂#VA)
+            (nsubj, 有#VE, 草莓#NN)  (case, 预防#VV, 除#P)  (mmod, 预防#VV, 可以#VV)  (prep, 有#VE, 预防#VV)  (dobj, 预防#VV, 坏血病#NN)  (case, 预防#VV, 外#LC)  (case, 硬化#NN, 对#P)  (nn, 硬化#NN, 防治#NN)  (nn, 硬化#NN, 动脉#NN)  (prep, 有#VE, 硬化#NN)  (nsubj, 有#VE, 冠心病#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (assmod, 疗效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (dobj, 有#VE, 疗效#NN)
+            (root, ROOT#null, 防癌#VV)
+            (case, 体内#NN, 在#P)  (prep, 吸附#VV, 体内#NN)  (mmod, 吸附#VV, 可#VV)  (root, ROOT#null, 吸附#VV)  (cc, 吸附#VV, 和#CC)  (dep, 吸附#VV, 阻止#VV)  (nn, 物质#NN, 致癌#NN)  (nn, 物质#NN, 化学#NN)  (assmod, 吸收#NN, 物质#NN)  (case, 物质#NN, 的#DEG)  (dobj, 阻止#VV, 吸收#NN)  (dep, 吸附#VV, 具有#VV)  (nn, 作用#NN, 防癌#NN)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 清除#VV)  (nn, 物质#NN, 有毒#NN)  (dobj, 清除#VV, 物质#NN)
+            (root, ROOT#null, 可以#VV)  (nn, 离子#NN, 自然#NN)  (assmod, 离子#NN, 平和#NR)  (case, 平和#NR, 的#DEG)  (relcl, 自然#NN, 清除#VV)  (relcl, 离子#NN, 清除#VV)  (dobj, 清除#VV, 体内#NN)  (mark, 清除#VV, 的#DEC)  (nn, 离子#NN, 重金属#NN)  (dobj, 可以#VV, 离子#NN)
+            (root, ROOT#null, 保健#NN)
+            (nsubj, 吃#VV, 女性#NN)  (advmod, 吃#VV, 常#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 草莓#NN)  (case, 头发#NN, 对#P)  (conj, 头发#NN, 皮肤#NN)  (prep, 有#VE, 头发#NN)  (advmod, 有#VE, 均#AD)  (dep, 吃#VV, 有#VE)  (nn, 作用#NN, 保健#NN)  (dobj, 有#VE, 作用#NN)
+            (root, ROOT#null, 减肥#VV)
+            (case, 含有#VV, 因为#P)  (nsubj, 含有#VV, 它#PN)  (prep, 矿渣#VV, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (relcl, 物质#NN, 叫#VV)  (dobj, 叫#VV, 天冬氨酸#NN)  (mark, 叫#VV, 的#DEC)  (dobj, 含有#VV, 物质#NN)  (mmod, 矿渣#VV, 可以#VV)  (dep, 矿渣#VV, 自然#VA)  (cc, 自然#VA, 而#CC)  (dep, 自然#VA, 平缓#VA)  (mark, 自然#VA, 地#DEV)  (case, ``#NN, 除去#P)  (assmod, ``#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (prep, 矿渣#VV, ``#NN)  (root, ROOT#null, 矿渣#VV)  (dobj, 矿渣#VV, ''#NN)
+            (root, ROOT#null, 助消化#VV)
+            (nsubj, 含有#VV, 其#PN)  (root, ROOT#null, 含有#VV)  (nummod, 纤维素#NN, 大量#CD)  (conj, 纤维素#NN, 果胶#NN)  (cc, 纤维素#NN, 及#CC)  (dobj, 含有#VV, 纤维素#NN)  (mmod, 促进#VV, 可#VV)  (conj, 含有#VV, 促进#VV)  (nn, 蠕动#NN, 胃肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 含有#VV, 帮助#VV)  (dobj, 帮助#VV, 消化#NN)  (conj, 含有#VV, 改善#VV)  (dobj, 改善#VV, 便秘#NN)  (conj, 含有#VV, 预防#VV)  (conj, 肠癌#NN, 痔疮#NN)  (assmod, 发生#NN, 肠癌#NN)  (case, 肠癌#NN, 的#DEG)  (dobj, 预防#VV, 发生#NN)
+        </parsing>
+
+        <tag>
+            脾经  归肺  润肺功效  润肺生津  主治咳嗽  咽喉肿毒  明目  含胡萝卜素  合成维生素A  调理  贫血  胃肠道  降血脂  预防坏血病  防治硬化  动脉硬化  防癌  吸附  阻止吸收  自然离子  清除自然  清除离子  清除体内  重金属离子  头发  皮肤  减肥  矿渣  果胶  含有纤维素  胃肠蠕动  促进蠕动  帮助消化  改善便秘  肠癌  痔疮  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        辅助降血脂  护肝  抗癌防癌  生津止渴  清热  消食积  健胃
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.草莓含有丰富的维生素和矿物质，每百克含维生素C高达80毫克，远远高于苹果和梨；还含有葡萄糖、果糖、柠檬酸、苹果酸、胡萝卜素、核黄素等。这些营养素对儿童的生长发育有很好的促进作用，对老年人的健康亦很有益。
+            2.草莓主要的营养价值体现在其维生素C含量非常高。维生素C可以防治牙龈出血，促进伤口愈合，并会使皮肤细腻而有弹性。近年来的研究发现，维生素C除了可以预防坏血病外，对动脉硬化、冠心病、心绞痛、脑溢血、高血压、高血脂等疾病，都有积极的预防作用。
+            3.草莓中的胡萝卜素是合成维生素A的重要物质，具有明目、养肝的作用。
+            4.国外最新研究还指出，草莓中含有一种胺类物质，对治疗白血病和再生障碍性贫血有一定的功效。
+        </rawdata>
+
+        <segment>
+            草莓  含有  丰富  的  维生素  和  矿物质  ，  每  百  克  含  维生素C  高达  80  毫克  ，  远远  高于  苹果  和梨  ；  还  含有  葡萄糖  、  果糖  、  柠檬酸  、  苹果酸  、  胡萝卜素  、  核黄素  等  。  这些  营养素  对  儿童  的  生长  发育  有  很  好  的  促进  作用  ，  对  老年人  的  健康  亦  很  有益  。
+            草莓  主要  的  营养  价值  体现  在  其  维生素C  含量  非常  高  。  维生素C  可以  防治  牙龈  出血  ，  促进  伤口  愈合  ，  并  会使  皮肤  细腻  而  有  弹性  。  近年  来  的  研究  发现  ，  维生素C  除了  可以  预防  坏血病  外  ，  对  动脉  硬化  、  冠心病  、  心绞痛  、  脑溢血  、  高血压  、  高  血脂  等  疾病  ，  都  有  积极  的  预防  作用  。
+            草莓  中  的  胡萝卜素  是  合成  维生素A  的  重要  物质  ，  具有  明目  、  养肝  的  作用  。
+            国外  最新  研究  还  指出  ，  草莓  中  含有  一  种  胺类  物质  ，  对  治疗  白血病  和  再生  障碍  性  贫血  有  一定  的  功效  。
+        </segment>
+
+        <pos>
+            草莓#VV  含有#AD  丰富#VA  的#DEC  维生素#NN  和#CC  矿物质#NN  ，#PU  每#DT  百#CD  克#M  含#VV  维生素C#NN  高达#VV  80#CD  毫克#NN  ，#PU  远远#AD  高于#VV  苹果#NN  和梨#NN  ；#PU  还#AD  含有#VV  葡萄糖#NR  、#PU  果糖#NR  、#PU  柠檬酸#NR  、#PU  苹果酸#NR  、#PU  胡萝卜素#NR  、#PU  核黄素#NR  等#ETC    。#PU  这些#DT  营养素#NN  对#P  儿童#NN  的#DEG  生长#NN  发育#NN  有#VE  很#AD  好#VA  的#DEC  促进#NN  作用#NN  ，#PU  对#P  老年人#NN  的#DEG  健康#NN  亦#AD  很#AD  有益#VA    。#PU    。#PU
+            草莓#NR  主要#JJ  的#DEG  营养#VA  价值#NN  体现#VV  在#P  其#PN  维生素C#NN  含量#NN  非常#AD  高#VA    。#PU  维生素C#NN  可以#VV  防治#VV  牙龈#NN  出血#VV  ，#PU  促进#VV  伤口#NN  愈合#NN  ，#PU  并#CC  会使#VV  皮肤#NN  细腻#NN  而#MSP  有#VE  弹性#NN    。#PU  近年#NT  来#LC  的#DEG  研究#NN  发现#VV  ，#PU  维生素C#NN  除了#P  可以#VV  预防#VV  坏血病#NN  外#LC  ，#PU  对#P  动脉#NN  硬化#NN  、#PU  冠心病#NN  、#PU  心绞痛#NN  、#PU  脑溢血#NN  、#PU  高血压#NN  、#PU  高#JJ  血脂#NN  等#ETC  疾病#NN  ，#PU  都#AD  有#VE  积极#VA  的#DEC  预防#NN  作用#NN    。#PU    。#PU
+            草莓#NN  中#LC  的#DEG  胡萝卜素#NN  是#VC  合成#JJ  维生素A#NN  的#DEG  重要#JJ  物质#NN  ，#PU  具有#VV  明目#VA  、#PU  养肝#VA  的#DEC  作用#NN  。#PU
+            国外#NN  最新#JJ  研究#NN  还#AD  指出#VV  ，#PU  草莓#NN  中#LC  含有#NR  一#CD  种#M  胺类#NN  物质#NN  ，#PU  对#P  治疗#VV  白血病#NN  和#CC  再生#VV  障碍#NN  性#NN  贫血#NN  有#VE  一定#JJ  的#DEG  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 草莓#VV)  (advmod, 丰富#VA, 含有#AD)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (dobj, 草莓#VV, 矿物质#NN)  (dep, 含#VV, 每#DT)  (nummod, 克#M, 百#CD)  (dep, 每#DT, 克#M)  (conj, 草莓#VV, 含#VV)  (nsubj, 高达#VV, 维生素C#NN)  (nfincl, 毫克#NN, 高达#VV)  (range, 高达#VV, 80#CD)  (dobj, 含#VV, 毫克#NN)  (advmod, 高于#VV, 远远#AD)  (conj, 草莓#VV, 高于#VV)  (nn, 和梨#NN, 苹果#NN)  (dobj, 高于#VV, 和梨#NN)  (advmod, 含有#VV, 还#AD)  (conj, 草莓#VV, 含有#VV)  (conj, 核黄素#NR, 葡萄糖#NR)  (conj, 核黄素#NR, 果糖#NR)  (conj, 核黄素#NR, 柠檬酸#NR)  (conj, 核黄素#NR, 苹果酸#NR)  (conj, 核黄素#NR, 胡萝卜素#NR)  (dobj, 含有#VV, 核黄素#NR)  (etc, 核黄素#NR, 等#ETC)   (det, 营养素#NN, 这些#DT)  (nsubj, 有#VE, 营养素#NN)  (case, 发育#NN, 对#P)  (assmod, 发育#NN, 儿童#NN)  (case, 儿童#NN, 的#DEG)  (nn, 发育#NN, 生长#NN)  (prep, 有#VE, 发育#NN)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nn, 作用#NN, 促进#NN)  (dobj, 有#VE, 作用#NN)  (case, 老年人#NN, 对#P)  (assmod, 健康#NN, 老年人#NN)  (case, 老年人#NN, 的#DEG)  (nsubj, 有益#VA, 健康#NN)  (advmod, 有益#VA, 亦#AD)  (advmod, 有益#VA, 很#AD)  (conj, 有#VE, 有益#VA)   (root, ROOT#null, null#null)
+            (nn, 维生素C#NN, 草莓#NR)  (assmod, 价值#NN, 主要#JJ)  (case, 主要#JJ, 的#DEG)  (nfincl, 价值#NN, 营养#VA)  (nsubj, 体现#VV, 价值#NN)  (relcl, 草莓#NR, 体现#VV)  (relcl, 维生素C#NN, 体现#VV)  (case, 其#PN, 在#P)  (prep, 体现#VV, 其#PN)  (nn, 含量#NN, 维生素C#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 非常#AD)  (root, ROOT#null, 高#VA)   (nsubj, 防治#VV, 维生素C#NN)  (mmod, 防治#VV, 可以#VV)  (root, ROOT#null, 防治#VV)  (dobj, 防治#VV, 牙龈#NN)  (conj, 防治#VV, 出血#VV)  (dep, 防治#VV, 促进#VV)  (nn, 愈合#NN, 伤口#NN)  (dobj, 促进#VV, 愈合#NN)  (cc, 防治#VV, 并#CC)  (conj, 防治#VV, 会使#VV)  (nn, 细腻#NN, 皮肤#NN)  (dobj, 会使#VV, 细腻#NN)  (prtmod, 有#VE, 而#MSP)  (conj, 会使#VV, 有#VE)  (dobj, 有#VE, 弹性#NN)   (assmod, 研究#NN, 近年#NT)  (case, 近年#NT, 来#LC)  (case, 近年#NT, 的#DEG)  (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 有#VE, 维生素C#NN)  (case, 预防#VV, 除了#P)  (mmod, 预防#VV, 可以#VV)  (prep, 有#VE, 预防#VV)  (dobj, 预防#VV, 坏血病#NN)  (case, 预防#VV, 外#LC)  (case, 疾病#NN, 对#P)  (nn, 硬化#NN, 动脉#NN)  (conj, 血脂#NN, 硬化#NN)  (conj, 血脂#NN, 冠心病#NN)  (conj, 血脂#NN, 心绞痛#NN)  (conj, 血脂#NN, 脑溢血#NN)  (conj, 血脂#NN, 高血压#NN)  (amod, 血脂#NN, 高#JJ)  (nn, 疾病#NN, 血脂#NN)  (etc, 血脂#NN, 等#ETC)  (prep, 有#VE, 疾病#NN)  (advmod, 有#VE, 都#AD)  (ccomp, 发现#VV, 有#VE)  (relcl, 作用#NN, 积极#VA)  (mark, 积极#VA, 的#DEC)  (nn, 作用#NN, 预防#NN)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (assmod, 胡萝卜素#NN, 草莓#NN)  (case, 草莓#NN, 中#LC)  (case, 草莓#NN, 的#DEG)  (nsubj, 物质#NN, 胡萝卜素#NN)  (cop, 物质#NN, 是#VC)  (amod, 维生素A#NN, 合成#JJ)  (assmod, 物质#NN, 维生素A#NN)  (case, 维生素A#NN, 的#DEG)  (amod, 物质#NN, 重要#JJ)  (root, ROOT#null, 物质#NN)  (conj, 物质#NN, 具有#VV)  (relcl, 作用#NN, 明目#VA)  (dep, 明目#VA, 养肝#VA)  (mark, 明目#VA, 的#DEC)  (dobj, 具有#VV, 作用#NN)
+            (nn, 研究#NN, 国外#NN)  (amod, 研究#NN, 最新#JJ)  (nsubj, 指出#VV, 研究#NN)  (advmod, 指出#VV, 还#AD)  (root, ROOT#null, 指出#VV)  (loc, 有#VE, 草莓#NN)  (case, 草莓#NN, 中#LC)  (nn, 物质#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 物质#NN, 种#M)  (nn, 物质#NN, 胺类#NN)  (nsubj, 有#VE, 物质#NN)  (case, 治疗#VV, 对#P)  (prep, 有#VE, 治疗#VV)  (dobj, 治疗#VV, 白血病#NN)  (cc, 治疗#VV, 和#CC)  (conj, 治疗#VV, 再生#VV)  (nn, 贫血#NN, 障碍#NN)  (nn, 贫血#NN, 性#NN)  (dobj, 再生#VV, 贫血#NN)  (ccomp, 指出#VV, 有#VE)  (assmod, 功效#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            矿物质丰富  苹果和梨  高于和梨  核黄素  葡萄糖  果糖  柠檬酸  苹果酸  胡萝卜素  生长发育  老年人  健康有益  体现维生素C  防治牙龈  伤口愈合  促进愈合  皮肤细腻  会使细腻  预防坏血病  动脉硬化  冠心病  心绞痛  脑溢血  高血压  高血脂  血脂疾病  合成维生素A  国外研究  最新研究  指出  治疗白血病  障碍贫血  再生贫血  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            由于草莓是低矮的草茎植物，虽然是在地膜中培育生长，在生长过程中还是容易受到泥土和细菌的污染，所以草莓入口前一定要把好“清洗关”。
+            草莓清洗办法：
+            1.用自来水不断冲洗，流动的水可避免农药渗入果实中。
+            2.洗干净的草莓也不要马上吃，最好再用淡盐水或淘米水浸泡5分钟。淡盐水可以杀灭草莓表面残留的有害微生物；淘米水呈碱性，可促进呈酸性的农药降解。
+            3.洗草莓时，注意千万不要把草莓蒂摘掉，去蒂的草莓若放在水中浸泡，残留的农药会随水进入果实内部，造成更严重的污染。另外，也不要用洗涤灵等清洁剂浸泡草莓，这些物质很难清洗干净，容易残留在果实中，造成二次污染。　
+            常见的草莓食疗方法：
+            1.遇积食腹胀、胃口不佳时，可在饭前吃草莓60克，每日3次；
+            2.齿龈出血、口舌生疮、小便少、色黄时，可将鲜草莓60克捣烂，冷开水冲服，每日3次；
+            3.干咳无痰，日久不愈时，可用鲜草莓6克与冰糖30克起隔水炖服，每日3次；
+            4.遇烦热干咳、咽喉肿痛、声音嘶哑时，可用草莓鲜果洗净榨汁，每天早晚各一杯；
+            5.酒后头昏不适时，可一次食用鲜草莓100克，洗净后一次服完，有助于醒酒；
+            6.营养不良或病后体弱消瘦者，可将洗净的草莓榨汁，再加入等量米酒拌匀即成草莓酒，早晚各饮1杯。
+        </rawdata>
+
+        <segment>
+            由于  草莓  是  低矮  的  草茎  植物  ，  虽然  是  在  地膜  中  培育  生长  ，  在  生长  过程  中  还是  容易  受到  泥土  和  细菌  的  污染  ，  所以  草莓  入口  前  一定  要  把好  “  清洗  关  ”  。
+            草莓  清洗  办法  ：
+            用  自来水  不断  冲洗  ，  流动  的  水  可  避免  农药  渗入  果实  中  。
+            洗  干净  的  草莓  也  不  要  马上  吃  ，  最好  再  用  淡  盐水  或  淘米  水浸  泡  5  分钟  。  淡  盐水  可以  杀灭  草莓  表面  残留  的  有害  微生物  ；  淘米水  呈  碱性  ，  可  促进  呈  酸性  的  农药  降解  。
+            洗  草莓  时  ，  注意  千万  不  要  把  草莓蒂  摘掉  ，  去蒂  的  草莓  若  放在  水  中  浸泡  ，  残留  的  农药  会  随  水  进入  果实  内部  ，  造成  更  严重  的  污染  。  另外  ，  也  不  要  用  洗涤灵  等  清洁剂  浸泡  草莓  ，  这些  物质  很  难  清洗  干净  ，  容易  残留  在  果实  中  ，  造成  二  次  污染  。
+            常见  的  草莓  食疗  方法  ：
+            遇  积食  腹胀  、  胃口  不佳时  ，  可在  饭前  吃  草莓  60  克  ，  每日  3  次  ；
+            齿龈  出血  、  口舌  生疮  、  小便  少  、  色黄  时  ，  可将  鲜  草莓  60  克  捣烂  ，  冷  开水  冲服  ，  每  日  3  次  ；
+            干咳  无痰  ，  日久  不  愈  时  ，  可用  鲜草莓  6  克  与  冰糖  30  克  起  隔水  炖  服  ，  每  日  3  次  ；
+            遇烦  热  干咳  、  咽喉  肿痛  、  声音  嘶哑  时  ，  可用  草莓  鲜果  洗净  榨汁  ，  每  天  早晚  各  一  杯  ；
+            酒后  头昏  不  适时  ，  可  一  次  食用  鲜草莓  100  克  ，  洗净  后  一  次  服完  ，  有助于  醒酒  ；
+            营养  不良  或  病  后  体弱  消瘦者  ，  可  将  洗净  的  草莓  榨汁  ，  再  加入  等量  米酒  拌匀  即  成  草莓  酒  ，  早晚  各  饮  1  杯  。
+        </segment>
+
+        <pos>
+            由于#P  草莓#NN  是#VC  低矮#NN  的#DEG  草茎#JJ  植物#NN  ，#PU  虽然#CS  是#VC  在#P  地膜#NN  中#LC  培育#VV  生长#NN  ，#PU  在#P  生长#NN  过程#NN  中#LC  还是#AD  容易#VA  受到#VV  泥土#NN  和#CC  细菌#NN  的#DEC  污染#NN  ，#PU  所以#AD  草莓#NN  入口#NN  前#LC  一定#AD  要#VV  把好#VV  ``#NN  清洗#NN  关#VV  ''#NN  。#PU
+            草莓#NN  清洗#VV  办法#NN  ：#PU
+            用#P  自来水#NN  不断#AD  冲洗#VV  ，#PU  流动#NN  的#DEG  水#NN  可#VV  避免#VV  农药#NN  渗入#VV  果实#NN  中#LC  。#PU
+            洗#AD  干净#VA  的#DEC  草莓#NN  也#AD  不#AD  要#VV  马上#AD  吃#VV  ，#PU  最好#JJ  再#AD  用#VV  淡#NN  盐水#NN  或#CC  淘米#NN  水浸#NN  泡#NN  5#CD  分钟#M    。#PU  淡#NN  盐水#NN  可以#VV  杀灭#VV  草莓#NN  表面#NN  残留#NN  的#DEG  有害#NN  微生物#NN  ；#PU  淘米水#AD  呈#VV  碱性#NN  ，#PU  可#VV  促进#VV  呈#VV  酸性#NN  的#DEC  农药#NN  降解#NN    。#PU    。#PU
+            洗#NN  草莓#NN  时#LC  ，#PU  注意#VV  千万#CD  不#AD  要#VV  把#BA  草莓蒂#NN  摘掉#VV  ，#PU  去蒂#NN  的#DEG  草莓#NN  若#CS  放在#VV  水#NN  中#LC  浸泡#NN  ，#PU  残留#NN  的#DEG  农药#NN  会#VV  随#P  水#NN  进入#VV  果实#NN  内部#NN  ，#PU  造成#VV  更#AD  严重#VA  的#DEC  污染#NN    。#PU  另外#AD  ，#PU  也#AD  不#AD  要#VV  用#P  洗涤灵#NN  等#ETC  清洁剂#NN  浸泡#VV  草莓#NN  ，#PU  这些#DT  物质#NN  很#AD  难#AD  清洗#AD  干净#VA  ，#PU  容易#VA  残留#NN  在#P  果实#NN  中#LC  ，#PU  造成#VV  二#OD  次#M  污染#NN    。#PU    。#PU
+            常见#VA  的#DEC  草莓#NN  食疗#VV  方法#NN  ：#PU
+            遇#NN  积食#NN  腹胀#NN  、#PU  胃口#NN  不佳时#NN  ，#PU  可在#AD  饭前#AD  吃#VV  草莓#NN  60#CD  克#M  ，#PU  每日#JJ  3#CD  次#M  ；#PU
+            齿龈#NN  出血#VV  、#PU  口舌#NN  生疮#VA  、#PU  小便#VA  少#VA  、#PU  色黄#VA  时#LC  ，#PU  可将#NN  鲜#NN  草莓#VV  60#CD  克#M  捣烂#NN  ，#PU  冷#VV  开水#NN  冲服#NN  ，#PU  每#DT  日#M  3#CD  次#M  ；#PU
+            干咳#NR  无痰#VV  ，#PU  日久#NN  不#AD  愈#AD  时#AD  ，#PU  可用#JJ  鲜草莓#NN  6#CD  克#M  与#P  冰糖#VV  30#CD  克#M  起#LC  隔水#VV  炖#NN  服#NN  ，#PU  每#DT  日#M  3#CD  次#M  ；#PU
+            遇烦#VV  热#JJ  干咳#NN  、#PU  咽喉#NN  肿痛#NN  、#PU  声音#NN  嘶哑#NN  时#LC  ，#PU  可用#JJ  草莓#NN  鲜果#AD  洗净#VV  榨汁#NN  ，#PU  每#DT  天#M  早晚#VV  各#DT  一#CD  杯#NN  ；#PU
+            酒后#NN  头昏#NN  不#AD  适时#VA  ，#PU  可#VV  一#CD  次#M  食用#VV  鲜草莓#NN  100#CD  克#M  ，#PU  洗净#VV  后#DT  一#CD  次#M  服完#NN  ，#PU  有助于#VV  醒酒#VV  ；#PU
+            营养#VA  不良#JJ  或#CC  病#JJ  后#JJ  体弱#NN  消瘦者#VV  ，#PU  可#VV  将#AD  洗净#VV  的#DEC  草莓#NN  榨汁#NN  ，#PU  再#AD  加入#VV  等量#NN  米酒#NN  拌匀#NN  即#AD  成#VV  草莓#JJ  酒#NN  ，#PU  早晚#VV  各#DT  饮#NN  1#CD  杯#NN  。#PU
+        </pos>
+
+        <parsing>
+            (case, 植物#NN, 由于#P)  (nsubj, 植物#NN, 草莓#NN)  (cop, 植物#NN, 是#VC)  (assmod, 植物#NN, 低矮#NN)  (case, 低矮#NN, 的#DEG)  (amod, 植物#NN, 草茎#JJ)  (prep, 污染#NN, 植物#NN)  (advmod, 污染#NN, 虽然#CS)  (cop, 污染#NN, 是#VC)  (case, 地膜#NN, 在#P)  (prep, 培育#VV, 地膜#NN)  (case, 地膜#NN, 中#LC)  (relcl, 污染#NN, 培育#VV)  (dobj, 培育#VV, 生长#NN)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 生长#NN)  (prep, 容易#VA, 过程#NN)  (case, 过程#NN, 中#LC)  (advmod, 容易#VA, 还是#AD)  (conj, 培育#VV, 容易#VA)  (conj, 培育#VV, 受到#VV)  (conj, 细菌#NN, 泥土#NN)  (cc, 细菌#NN, 和#CC)  (dobj, 受到#VV, 细菌#NN)  (mark, 培育#VV, 的#DEC)  (root, ROOT#null, 污染#NN)  (dep, 关#VV, 所以#AD)  (nn, 入口#NN, 草莓#NN)  (loc, 把好#VV, 入口#NN)  (case, 入口#NN, 前#LC)  (advmod, 把好#VV, 一定#AD)  (mmod, 把好#VV, 要#VV)  (conj, 关#VV, 把好#VV)  (nn, 清洗#NN, ``#NN)  (dobj, 把好#VV, 清洗#NN)  (dep, 污染#NN, 关#VV)  (dobj, 关#VV, ''#NN)
+            (root, ROOT#null, null#null)
+            (nsubj, 清洗#VV, 草莓#NN)  (root, ROOT#null, 清洗#VV)  (dobj, 清洗#VV, 办法#NN)
+            (case, 自来水#NN, 用#P)  (prep, 冲洗#VV, 自来水#NN)  (advmod, 冲洗#VV, 不断#AD)  (dep, 避免#VV, 冲洗#VV)  (assmod, 水#NN, 流动#NN)  (case, 流动#NN, 的#DEG)  (nsubj, 避免#VV, 水#NN)  (mmod, 避免#VV, 可#VV)  (root, ROOT#null, 避免#VV)  (dobj, 避免#VV, 农药#NN)  (dep, 避免#VV, 渗入#VV)  (loc, 渗入#VV, 果实#NN)  (case, 果实#NN, 中#LC)
+            (advmod, 干净#VA, 洗#AD)  (relcl, 草莓#NN, 干净#VA)  (mark, 干净#VA, 的#DEC)  (nsubj, 吃#VV, 草莓#NN)  (advmod, 吃#VV, 也#AD)  (neg, 吃#VV, 不#AD)  (mmod, 吃#VV, 要#VV)  (advmod, 吃#VV, 马上#AD)  (root, ROOT#null, 吃#VV)  (dep, 吃#VV, 最好#JJ)  (advmod, 用#VV, 再#AD)  (dep, 吃#VV, 用#VV)  (nn, 泡#NN, 淡#NN)  (conj, 泡#NN, 盐水#NN)  (cc, 泡#NN, 或#CC)  (nn, 泡#NN, 淘米#NN)  (nn, 泡#NN, 水浸#NN)  (dobj, 用#VV, 泡#NN)  (nummod, 分钟#M, 5#CD)  (range, 用#VV, 分钟#M)   (nn, 盐水#NN, 淡#NN)  (nsubj, 杀灭#VV, 盐水#NN)  (mmod, 杀灭#VV, 可以#VV)  (root, ROOT#null, 杀灭#VV)  (nn, 残留#NN, 草莓#NN)  (nn, 残留#NN, 表面#NN)  (assmod, 微生物#NN, 残留#NN)  (case, 残留#NN, 的#DEG)  (nn, 微生物#NN, 有害#NN)  (dobj, 杀灭#VV, 微生物#NN)  (advmod, 呈#VV, 淘米水#AD)  (conj, 杀灭#VV, 呈#VV)  (dobj, 呈#VV, 碱性#NN)  (mmod, 促进#VV, 可#VV)  (dep, 呈#VV, 促进#VV)  (relcl, 降解#NN, 呈#VV)  (dobj, 呈#VV, 酸性#NN)  (mark, 呈#VV, 的#DEC)  (nn, 降解#NN, 农药#NN)  (dobj, 促进#VV, 降解#NN)   (root, ROOT#null, null#null)
+            (nn, 草莓#NN, 洗#NN)  (loc, 摘掉#VV, 草莓#NN)  (case, 草莓#NN, 时#LC)  (dep, 摘掉#VV, 注意#VV)  (range, 注意#VV, 千万#CD)  (neg, 摘掉#VV, 不#AD)  (mmod, 摘掉#VV, 要#VV)  (ba, 摘掉#VV, 把#BA)  (nsubj, 摘掉#VV, 草莓蒂#NN)  (root, ROOT#null, 摘掉#VV)  (assmod, 草莓#NN, 去蒂#NN)  (case, 去蒂#NN, 的#DEG)  (nsubj, 放在#VV, 草莓#NN)  (advmod, 放在#VV, 若#CS)  (conj, 摘掉#VV, 放在#VV)  (dep, 浸泡#NN, 水#NN)  (case, 水#NN, 中#LC)  (dobj, 放在#VV, 浸泡#NN)  (assmod, 农药#NN, 残留#NN)  (case, 残留#NN, 的#DEG)  (nsubj, 进入#VV, 农药#NN)  (mmod, 进入#VV, 会#VV)  (case, 水#NN, 随#P)  (prep, 进入#VV, 水#NN)  (conj, 摘掉#VV, 进入#VV)  (nn, 内部#NN, 果实#NN)  (dobj, 进入#VV, 内部#NN)  (dep, 进入#VV, 造成#VV)  (advmod, 严重#VA, 更#AD)  (relcl, 污染#NN, 严重#VA)  (mark, 严重#VA, 的#DEC)  (dobj, 造成#VV, 污染#NN)   (advmod, 浸泡#VV, 另外#AD)  (advmod, 浸泡#VV, 也#AD)  (neg, 浸泡#VV, 不#AD)  (mmod, 浸泡#VV, 要#VV)  (case, 清洁剂#NN, 用#P)  (nn, 清洁剂#NN, 洗涤灵#NN)  (etc, 洗涤灵#NN, 等#ETC)  (prep, 浸泡#VV, 清洁剂#NN)  (root, ROOT#null, 浸泡#VV)  (dobj, 浸泡#VV, 草莓#NN)  (det, 物质#NN, 这些#DT)  (nsubj, 干净#VA, 物质#NN)  (advmod, 干净#VA, 很#AD)  (advmod, 干净#VA, 难#AD)  (advmod, 干净#VA, 清洗#AD)  (dep, 浸泡#VV, 干净#VA)  (conj, 浸泡#VV, 容易#VA)  (nsubj, 造成#VV, 残留#NN)  (case, 果实#NN, 在#P)  (prep, 造成#VV, 果实#NN)  (case, 果实#NN, 中#LC)  (dep, 浸泡#VV, 造成#VV)  (ordmod, 次#M, 二#OD)  (clf, 污染#NN, 次#M)  (dobj, 造成#VV, 污染#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, null#null)
+            (relcl, 草莓#NN, 常见#VA)  (mark, 常见#VA, 的#DEC)  (nsubj, 食疗#VV, 草莓#NN)  (root, ROOT#null, 食疗#VV)  (dobj, 食疗#VV, 方法#NN)
+            (nn, 不佳时#NN, 遇#NN)  (nn, 不佳时#NN, 积食#NN)  (conj, 不佳时#NN, 腹胀#NN)  (nn, 不佳时#NN, 胃口#NN)  (nsubj, 吃#VV, 不佳时#NN)  (advmod, 吃#VV, 可在#AD)  (advmod, 吃#VV, 饭前#AD)  (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 草莓#NN)  (nummod, 克#M, 60#CD)  (range, 吃#VV, 克#M)  (amod, 次#M, 每日#JJ)  (nummod, 次#M, 3#CD)  (dep, 吃#VV, 次#M)
+            (nsubj, 出血#VV, 齿龈#NN)  (root, ROOT#null, 出血#VV)  (nsubj, 生疮#VA, 口舌#NN)  (loc, 草莓#VV, 生疮#VA)  (dep, 生疮#VA, 小便#VA)  (conj, 生疮#VA, 少#VA)  (dep, 生疮#VA, 色黄#VA)  (case, 生疮#VA, 时#LC)  (nn, 鲜#NN, 可将#NN)  (nsubj, 草莓#VV, 鲜#NN)  (conj, 出血#VV, 草莓#VV)  (nummod, 克#M, 60#CD)  (clf, 捣烂#NN, 克#M)  (dobj, 草莓#VV, 捣烂#NN)  (conj, 草莓#VV, 冷#VV)  (nn, 冲服#NN, 开水#NN)  (dobj, 冷#VV, 冲服#NN)  (dep, 次#M, 每#DT)  (clf, 每#DT, 日#M)  (nummod, 次#M, 3#CD)  (dep, 出血#VV, 次#M)
+            (nsubj, 无痰#VV, 干咳#NR)  (root, ROOT#null, 无痰#VV)  (nsubj, 隔水#VV, 日久#NN)  (neg, 隔水#VV, 不#AD)  (advmod, 隔水#VV, 愈#AD)  (advmod, 隔水#VV, 时#AD)  (amod, 鲜草莓#NN, 可用#JJ)  (dvpmod, 隔水#VV, 鲜草莓#NN)  (nummod, 克#M, 6#CD)  (dep, 隔水#VV, 克#M)  (case, 冰糖#VV, 与#P)  (prep, 隔水#VV, 冰糖#VV)  (nummod, 克#M, 30#CD)  (range, 冰糖#VV, 克#M)  (case, 冰糖#VV, 起#LC)  (ccomp, 无痰#VV, 隔水#VV)  (nn, 服#NN, 炖#NN)  (dobj, 隔水#VV, 服#NN)  (dep, 次#M, 每#DT)  (clf, 每#DT, 日#M)  (nummod, 次#M, 3#CD)  (dep, 隔水#VV, 次#M)
+            (loc, 洗净#VV, 遇烦#VV)  (amod, 干咳#NN, 热#JJ)  (conj, 嘶哑#NN, 干咳#NN)  (nn, 肿痛#NN, 咽喉#NN)  (conj, 嘶哑#NN, 肿痛#NN)  (nn, 嘶哑#NN, 声音#NN)  (dobj, 遇烦#VV, 嘶哑#NN)  (case, 遇烦#VV, 时#LC)  (amod, 草莓#NN, 可用#JJ)  (nsubj, 洗净#VV, 草莓#NN)  (advmod, 洗净#VV, 鲜果#AD)  (root, ROOT#null, 洗净#VV)  (dobj, 洗净#VV, 榨汁#NN)  (dep, 早晚#VV, 每#DT)  (clf, 每#DT, 天#M)  (dep, 洗净#VV, 早晚#VV)  (det, 杯#NN, 各#DT)  (dep, 各#DT, 一#CD)  (dobj, 早晚#VV, 杯#NN)
+            (nn, 头昏#NN, 酒后#NN)  (nsubj, 适时#VA, 头昏#NN)  (neg, 适时#VA, 不#AD)  (dep, 食用#VV, 适时#VA)  (mmod, 食用#VV, 可#VV)  (nummod, 次#M, 一#CD)  (dep, 食用#VV, 次#M)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 鲜草莓#NN)  (nummod, 克#M, 100#CD)  (range, 食用#VV, 克#M)  (dep, 食用#VV, 洗净#VV)  (det, 服完#NN, 后#DT)  (nummod, 次#M, 一#CD)  (dep, 后#DT, 次#M)  (dobj, 洗净#VV, 服完#NN)  (conj, 食用#VV, 有助于#VV)  (ccomp, 有助于#VV, 醒酒#VV)
+            (dep, 消瘦者#VV, 营养#VA)  (amod, 体弱#NN, 不良#JJ)  (cc, 不良#JJ, 或#CC)  (dep, 不良#JJ, 病#JJ)  (amod, 体弱#NN, 后#JJ)  (nsubj, 消瘦者#VV, 体弱#NN)  (xsubj, 成#VV, 体弱#NN)  (root, ROOT#null, 消瘦者#VV)  (dep, 成#VV, 可#VV)  (advmod, 洗净#VV, 将#AD)  (relcl, 榨汁#NN, 洗净#VV)  (mark, 洗净#VV, 的#DEC)  (nn, 榨汁#NN, 草莓#NN)  (dobj, 可#VV, 榨汁#NN)  (advmod, 加入#VV, 再#AD)  (conj, 可#VV, 加入#VV)  (nn, 拌匀#NN, 等量#NN)  (nn, 拌匀#NN, 米酒#NN)  (dobj, 加入#VV, 拌匀#NN)  (advmod, 成#VV, 即#AD)  (ccomp, 消瘦者#VV, 成#VV)  (amod, 酒#NN, 草莓#JJ)  (dobj, 成#VV, 酒#NN)  (conj, 消瘦者#VV, 早晚#VV)  (det, 饮#NN, 各#DT)  (nn, 杯#NN, 饮#NN)  (nummod, 杯#NN, 1#CD)  (dobj, 早晚#VV, 杯#NN)
+        </parsing>
+
+        <tag>
+            草茎植物  培育污染  培育生长  生长过程  泥土  受到细菌  把好清洗  清洗办法  避免农药  表面残留  有害微生物  杀灭微生物  呈降解  农药降解  促进降解  摘掉  放在浸泡  果实内部  进入内部  污染严重  造成污染  洗涤灵清洁剂  食疗方法  积食不佳时  腹胀  胃口不佳时  出血  口舌生疮  开水冲服  无痰  隔水服  热干咳  咽喉肿痛  声音嘶哑  遇烦嘶哑  洗净榨汁  早晚杯  酒后头昏  头昏适时  食用  洗净服完  不良体弱  后体弱  等量拌匀  米酒拌匀  加入拌匀  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101526446951.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\310 草莓.jpg
+    </picturelocalurl>
+
+</content>

@@ -1,0 +1,326 @@
+<content>
+
+    <id>
+        58
+    </id>
+
+    <foodname>
+        蚕蛹
+    </foodname>
+
+    <firstcategory>
+        肉类
+    </firstcategory>
+
+    <secondcategory>
+        其他肉类
+    </secondcategory>
+
+    <alias>
+        茧蛹、小蜂儿
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脚气之人忌食。
+        </rawdata>
+
+        <segment>
+            脚气  之  人  忌食  。
+        </segment>
+
+        <pos>
+            脚气#NN  之#DEG  人#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 人#NN, 脚气#NN)  (case, 脚气#NN, 之#DEG)  (nsubj, 忌食#VV, 人#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            脚气  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜高血压病、高脂血症、脂肪肝、糖尿病之人食用；适宜肺结核、身体瘦弱之人食用；适宜小儿疳瘦者食用；适宜慢性胃炎、胃下垂之人食用；适宜中老年人腰膝酸软、夜尿频数、阳痿滑精者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  高血压  病  、  高  脂血症  、  脂肪肝  、  糖尿病  之  人  食用  ；  适宜  肺  结核  、  身体  瘦弱  之  人  食用  ；  适宜  小儿  疳瘦者  食用  ；  适宜  慢性  胃炎  、  胃下垂  之  人  食用  ；  适宜  中  老年人  腰膝  酸软  、  夜  尿  频数  、  阳痿  滑精  者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#VV  适宜#VV  高血压#NN  病#NN  、#PU  高#JJ  脂血症#NN  、#PU  脂肪肝#NN  、#PU  糖尿病#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  肺#NN  结核#NN  、#PU  身体#NN  瘦弱#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VV  小儿#NN  疳瘦者#NN  食用#VV  ；#PU  适宜#VV  慢性#NN  胃炎#NN  、#PU  胃下垂#NN  之#DEG  人#NN  食用#VV  ；#PU  适宜#VA  中#LC  老年人#NN  腰膝#VV  酸软#NN  、#PU  夜#NN  尿#NN  频数#NN  、#PU  阳痿#NN  滑精#NN  者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (dep, 老年人#NN, 尤#VV)  (ccomp, 尤#VV, 适宜#VV)  (nn, 病#NN, 高血压#NN)  (assmod, 人#NN, 病#NN)  (amod, 脂血症#NN, 高#JJ)  (conj, 病#NN, 脂血症#NN)  (conj, 病#NN, 脂肪肝#NN)  (dep, 病#NN, 糖尿病#NN)  (case, 病#NN, 之#DEG)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 适宜#VV, 适宜#VV)  (nn, 身体#NN, 肺#NN)  (conj, 身体#NN, 结核#NN)  (nn, 瘦弱#NN, 身体#NN)  (assmod, 人#NN, 瘦弱#NN)  (case, 瘦弱#NN, 之#DEG)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 适宜#VV, 适宜#VV)  (nn, 疳瘦者#NN, 小儿#NN)  (dobj, 适宜#VV, 疳瘦者#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 适宜#VV, 适宜#VV)  (nn, 胃下垂#NN, 慢性#NN)  (conj, 胃下垂#NN, 胃炎#NN)  (assmod, 人#NN, 胃下垂#NN)  (case, 胃下垂#NN, 之#DEG)  (dobj, 适宜#VV, 人#NN)  (conj, 适宜#VV, 食用#VV)  (dep, 适宜#VV, 适宜#VA)  (case, 尤#VV, 中#LC)  (nsubj, 腰膝#VV, 老年人#NN)  (root, ROOT#null, 腰膝#VV)  (conj, 者#NN, 酸软#NN)  (nn, 者#NN, 夜#NN)  (nn, 者#NN, 尿#NN)  (conj, 者#NN, 频数#NN)  (nn, 者#NN, 阳痿#NN)  (nn, 者#NN, 滑精#NN)  (dobj, 腰膝#VV, 者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  高血压病  高脂血症  脂肪肝  糖尿病  适宜  肺结核  身体瘦弱  适宜  小儿疳瘦者  适宜  慢性胃炎  胃下垂  适宜  中老年人腰膝酸软  夜尿频数  阳痿滑精者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                230cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                57.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                21.5g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                13g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                6.7g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.07mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                2.23mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                9.89mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                2.2mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                140.2mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                81mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                2.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                155mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            蚕蛹入馔在我国有悠久的历史，据悉蚕蛹蒸煮入宴有1400多年的历史。
+            蚕吐丝结茧后经过4天左右，就会变成蛹。蚕蛹的体形像一个纺棰，分头、胸、腹三个体段。头部很小，长有复眼和触角；胸部长有胸足和翅；鼓鼓的腹部长有9个体节。专业工作者能够从蚕蛹腹部的线纹和褐色小点来判别雌雄。蚕刚化蛹时，体色是淡黄色的，蛹体嫩软，渐渐地就会变成黄色、黄褐色或褐色，蛹皮也硬起来了。经过大约12到15天，当蛹体又开始变软，蛹皮有点起皱并呈土褐蚕茧色时，它就将变成蛾了。
+        </rawdata>
+
+        <segment>
+            蚕蛹  入馔  在  我国  有  悠久  的  历史  ，  据悉  蚕蛹  蒸煮  入  宴有  1400多  年  的  历史  。
+            蚕  吐丝  结  茧  后  经过  4  天  左右  ，  就  会  变成  蛹  。  蚕蛹  的  体形  像  一  个  纺棰  ，  分头  、  胸  、  腹  三  个  体段  。  头部  很  小  ，  长有  复眼  和  触角  ；  胸部  长有  胸足  和翅  ；  鼓鼓  的  腹部  长有  9  个  体节  。  专业  工作者  能够  从  蚕蛹  腹部  的  线纹  和  褐色  小点  来  判别  雌雄  。  蚕刚  化蛹  时  ，  体色  是  淡黄色  的  ，  蛹体嫩软  ，  渐渐  地  就  会  变成  黄色  、  黄褐色  或  褐色  ，  蛹皮  也  硬  起来  了  。  经过  大约  12  到  15  天  ，  当  蛹体  又  开始  变软  ，  蛹皮  有点  起皱  并  呈  土褐  蚕茧  色时  ，  它  就  将  变成  蛾  了  。
+        </segment>
+
+        <pos>
+            蚕蛹#NN  入馔#NN  在#P  我国#NR  有#VE  悠久#VA  的#DEC  历史#NN  ，#PU  据悉#AD  蚕蛹#NN  蒸煮#NN  入#VV  宴有#VV  1400多#CD  年#M  的#DEC  历史#NN  。#PU
+            蚕#NN  吐丝#NN  结#NN  茧#NN  后#LC  经过#P  4#CD  天#M  左右#LC  ，#PU  就#AD  会#VV  变成#VV  蛹#NN    。#PU  蚕蛹#NN  的#DEG  体形#NN  像#P  一#CD  个#M  纺棰#VV  ，#PU  分头#NN  、#PU  胸#NN  、#PU  腹#NN  三#CD  个#M  体段#VV    。#PU  头部#AD  很#AD  小#VA  ，#PU  长有#VV  复眼#NN  和#CC  触角#NN  ；#PU  胸部#VV  长有#NN  胸足#NN  和翅#NN  ；#PU  鼓鼓#VV  的#DEC  腹部#NN  长有#VV  9#CD  个#M  体节#NN    。#PU  专业#NN  工作者#NN  能够#VV  从#P  蚕蛹#NN  腹部#NN  的#DEG  线纹#NN  和#CC  褐色#NN  小点#NN  来#LC  判别#VV  雌雄#NN    。#PU  蚕刚#NN  化蛹#NN  时#LC  ，#PU  体色#NN  是#VC  淡黄色#VA  的#DEC  ，#PU  蛹体嫩软#NN  ，#PU  渐渐#AD  地#NN  就#AD  会#VV  变成#VV  黄色#JJ  、#PU  黄褐色#NN  或#CC  褐色#NN  ，#PU  蛹皮#NN  也#AD  硬#AD  起来#VV  了#AS    。#PU  经过#P  大约#AD  12#CD  到#CC  15#CD  天#M  ，#PU  当#P  蛹体#NN  又#AD  开始#VV  变软#NN  ，#PU  蛹皮#NN  有点#NN  起皱#NN  并#AD  呈#VV  土褐#NN  蚕茧#NN  色时#NN  ，#PU  它#PN  就#AD  将#AD  变成#VV  蛾#VV  了#AS    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 入馔#NN, 蚕蛹#NN)  (nsubj, 有#VE, 入馔#NN)  (case, 我国#NR, 在#P)  (prep, 有#VE, 我国#NR)  (root, ROOT#null, 有#VE)  (relcl, 历史#NN, 悠久#VA)  (mark, 悠久#VA, 的#DEC)  (dobj, 有#VE, 历史#NN)  (advmod, 入#VV, 据悉#AD)  (nn, 蒸煮#NN, 蚕蛹#NN)  (nsubj, 入#VV, 蒸煮#NN)  (conj, 有#VE, 入#VV)  (relcl, 历史#NN, 宴有#VV)  (nummod, 年#M, 1400多#CD)  (range, 宴有#VV, 年#M)  (mark, 宴有#VV, 的#DEC)  (dobj, 入#VV, 历史#NN)
+            (nn, 结#NN, 蚕#NN)  (nn, 结#NN, 吐丝#NN)  (nsubj, 变成#VV, 结#NN)  (loc, 变成#VV, 茧#NN)  (case, 茧#NN, 后#LC)  (case, 天#M, 经过#P)  (nummod, 天#M, 4#CD)  (prep, 变成#VV, 天#M)  (case, 天#M, 左右#LC)  (advmod, 变成#VV, 就#AD)  (mmod, 变成#VV, 会#VV)  (root, ROOT#null, 变成#VV)  (dobj, 变成#VV, 蛹#NN)   (assmod, 体形#NN, 蚕蛹#NN)  (case, 蚕蛹#NN, 的#DEG)  (nsubj, 纺棰#VV, 体形#NN)  (case, 个#M, 像#P)  (nummod, 个#M, 一#CD)  (prep, 纺棰#VV, 个#M)  (root, ROOT#null, 纺棰#VV)  (conj, 腹#NN, 分头#NN)  (conj, 腹#NN, 胸#NN)  (dep, 个#M, 腹#NN)  (nummod, 个#M, 三#CD)  (nsubj, 体段#VV, 个#M)  (ccomp, 纺棰#VV, 体段#VV)   (advmod, 小#VA, 头部#AD)  (advmod, 小#VA, 很#AD)  (relcl, 腹部#NN, 小#VA)  (dep, 小#VA, 长有#VV)  (conj, 触角#NN, 复眼#NN)  (cc, 触角#NN, 和#CC)  (dobj, 长有#VV, 触角#NN)  (dep, 小#VA, 胸部#VV)  (nn, 和翅#NN, 长有#NN)  (nn, 和翅#NN, 胸足#NN)  (dobj, 胸部#VV, 和翅#NN)  (conj, 小#VA, 鼓鼓#VV)  (mark, 小#VA, 的#DEC)  (nsubj, 长有#VV, 腹部#NN)  (root, ROOT#null, 长有#VV)  (nummod, 个#M, 9#CD)  (clf, 体节#NN, 个#M)  (dobj, 长有#VV, 体节#NN)   (nn, 工作者#NN, 专业#NN)  (nsubj, 判别#VV, 工作者#NN)  (mmod, 判别#VV, 能够#VV)  (case, 小点#NN, 从#P)  (nn, 腹部#NN, 蚕蛹#NN)  (assmod, 小点#NN, 腹部#NN)  (case, 腹部#NN, 的#DEG)  (conj, 小点#NN, 线纹#NN)  (cc, 小点#NN, 和#CC)  (nn, 小点#NN, 褐色#NN)  (prep, 判别#VV, 小点#NN)  (case, 小点#NN, 来#LC)  (root, ROOT#null, 判别#VV)  (dobj, 判别#VV, 雌雄#NN)   (nn, 化蛹#NN, 蚕刚#NN)  (loc, 淡黄色#VA, 化蛹#NN)  (case, 化蛹#NN, 时#LC)  (nsubj, 淡黄色#VA, 体色#NN)  (cop, 淡黄色#VA, 是#VC)  (root, ROOT#null, 淡黄色#VA)  (mark, 淡黄色#VA, 的#DEC)  (nsubj, 变成#VV, 蛹体嫩软#NN)  (advmod, 变成#VV, 渐渐#AD)  (dobj, 变成#VV, 地#NN)  (advmod, 变成#VV, 就#AD)  (mmod, 变成#VV, 会#VV)  (conj, 淡黄色#VA, 变成#VV)  (amod, 褐色#NN, 黄色#JJ)  (conj, 褐色#NN, 黄褐色#NN)  (cc, 褐色#NN, 或#CC)  (dobj, 变成#VV, 褐色#NN)  (nsubj, 起来#VV, 蛹皮#NN)  (advmod, 起来#VV, 也#AD)  (advmod, 起来#VV, 硬#AD)  (conj, 淡黄色#VA, 起来#VV)  (asp, 起来#VV, 了#AS)   (case, 变软#NN, 经过#P)  (advmod, 天#M, 大约#AD)  (dep, 天#M, 12#CD)  (cc, 天#M, 到#CC)  (nummod, 天#M, 15#CD)  (nfincl, 变软#NN, 天#M)  (case, 蛹体#NN, 当#P)  (prep, 开始#VV, 蛹体#NN)  (advmod, 开始#VV, 又#AD)  (conj, 天#M, 开始#VV)  (prep, 呈#VV, 变软#NN)  (nn, 起皱#NN, 蛹皮#NN)  (nn, 起皱#NN, 有点#NN)  (nsubj, 呈#VV, 起皱#NN)  (advmod, 呈#VV, 并#AD)  (dep, 蛾#VV, 呈#VV)  (nn, 色时#NN, 土褐#NN)  (nn, 色时#NN, 蚕茧#NN)  (dobj, 呈#VV, 色时#NN)  (nsubj, 变成#VV, 它#PN)  (advmod, 变成#VV, 就#AD)  (advmod, 变成#VV, 将#AD)  (conj, 呈#VV, 变成#VV)  (root, ROOT#null, 蛾#VV)  (asp, 蛾#VV, 了#AS)
+        </parsing>
+
+        <tag>
+            历史悠久  宴有历史  变成蛹  纺棰  复眼  长有触角  长有和翅  胸足和翅  胸部和翅  长有体节  专业工作者  线纹  褐色小点  判别雌雄  蚕刚化蛹  体色淡黄色  变成地  黄色褐色  黄褐色  变成褐色  蛹皮起皱  有点起皱  土褐色时  蚕茧色时  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.杀虫疗疳
+            蚕蛹，味甘；咸；性平。归脾；胃经。杀虫疗疳；生津止渴。主肺痨；小儿疳积；发热；蛔虫病；消渴。
+            2.调整代谢
+            药理研究表明，蚕蛹对机体糖、脂肪代谢能起到一定的调整作用。白僵蚕蛹油有降血脂的作用;用蚕蛹油提纯品制成丸剂，用于治疗高胆固醇血症，对降低胆固醇和改善肝功能有显著疗效。适量食用蚕蛹，对高血压、高血脂、慢性肝炎及营养不良患者有较好的辅助治疗功效。此外，蚕蛹中含有一种广谱免疫物质，对癌症有特殊疗效。据报道，日本等国已经从蚕蛹中生产出了α-干扰素，临床用于抗癌治疗。
+            3.防三高
+            蚕蛹炒食治劳瘦及小儿疳瘦，蚕蛹油对高血压、脂肪肝、高脂血症等有一定效果。白僵蚕治小儿惊痫夜啼，痉风撮口。晚蚕砂浸酒缓诸风，去顽痹。蚕茧治消渴，止血及治齿衄。
+        </rawdata>
+
+        <segment>
+            杀虫  疗疳
+            蚕蛹  ，  味甘  ；  咸  ；  性平  。  归脾  ；  胃经  。  杀虫  疗疳  ；  生津止渴  。  主  肺痨  ；  小儿  疳积  ；  发热  ；  蛔虫病  ；  消渴  。
+            调整  代谢
+            药理  研究  表明  ，  蚕蛹  对  机体  糖  、  脂肪  代谢能  起到  一定  的  调整  作用  。  白僵  蚕蛹油  有  降  血脂  的  作用  ;  用  蚕蛹油  提纯  品  制成  丸剂  ，  用于  治疗  高  胆固醇血症  ，  对  降低  胆固醇  和  改善  肝功能  有  显著  疗效  。  适量  食用  蚕蛹  ，  对  高血压  、  高  血脂  、  慢性  肝炎  及  营养  不良  患者  有  较好  的  辅助  治疗  功效  。  此外  ，  蚕蛹  中  含有  一  种  广谱  免疫  物质  ，  对  癌症  有  特殊  疗效  。  据  报道  ，  日本  等  国  已经  从  蚕蛹  中  生产  出  了  α  -  干扰素  ，  临床  用于  抗癌  治疗  。
+            防  三高
+            蚕蛹  炒  食  治  劳  瘦  及  小儿  疳瘦  ，  蚕蛹油  对  高血压  、  脂肪肝  、  高  脂血症  等  有  一定  效果  。  白僵蚕  治  小儿  惊痫夜啼  ，  痉风撮口  。  晚  蚕  砂  浸  酒  缓诸风  ，  去  顽痹  。  蚕茧  治  消渴  ，  止血  及  治齿衄  。
+        </segment>
+
+        <pos>
+            杀虫#NN  疗疳#VV
+            蚕蛹#VV  ，#PU  味甘#VV  ；#PU  咸#VV  ；#PU  性平#VV    。#PU  归脾#VV  ；#PU  胃经#VV    。#PU  杀虫#NR  疗疳#VV  ；#PU  生津止渴#VV    。#PU  主#NN  肺痨#VV  ；#PU  小儿#VV  疳积#NN  ；#PU  发热#VV  ；#PU  蛔虫病#VV  ；#PU  消渴#VV    。#PU    。#PU
+            调整#VV  代谢#NN
+            药理#NN  研究#NN  表明#VV  ，#PU  蚕蛹#NN  对#P  机体#NN  糖#NN  、#PU  脂肪#NN  代谢能#NN  起到#VV  一定#JJ  的#DEG  调整#NN  作用#NN    。#PU  白僵#NN  蚕蛹油#AD  有#VE  降#VV  血脂#NN  的#DEC  作用#NN  ;#AD  用#VV  蚕蛹油#NN  提纯#CD  品#M  制成#VV  丸剂#NN  ，#PU  用于#VV  治疗#VV  高#JJ  胆固醇血症#NN  ，#PU  对#P  降低#VV  胆固醇#NN  和#CC  改善#NN  肝功能#AD  有#VE  显著#JJ  疗效#NN    。#PU  适量#AD  食用#VV  蚕蛹#NN  ，#PU  对#P  高血压#NN  、#PU  高#JJ  血脂#NN  、#PU  慢性#JJ  肝炎#NN  及#CC  营养#VA  不良#JJ  患者#NN  有#VE  较好#JJ  的#DEG  辅助#NN  治疗#NN  功效#NN    。#PU  此外#AD  ，#PU  蚕蛹#NN  中#LC  含有#NR  一#CD  种#M  广谱#NN  免疫#VV  物质#NN  ，#PU  对#P  癌症#NN  有#VE  特殊#JJ  疗效#NN    。#PU  据#P  报道#NN  ，#PU  日本#NR  等#ETC  国#NN  已经#AD  从#P  蚕蛹#NN  中#LC  生产#VV  出#VV  了#AS  α#NN  -#NN  干扰素#NN  ，#PU  临床#NN  用于#VV  抗癌#NN  治疗#NN    。#PU    。#PU
+            防#VV  三高#CD
+            蚕蛹#NN  炒#NN  食#NN  治#VV  劳#NN  瘦#NN  及#CC  小儿#NN  疳瘦#NN  ，#PU  蚕蛹油#NN  对#P  高血压#NN  、#PU  脂肪肝#NN  、#PU  高#JJ  脂血症#NN  等#ETC  有#VE  一定#JJ  效果#NN    。#PU  白僵蚕#AD  治#VV  小儿#NN  惊痫夜啼#NN  ，#PU  痉风撮口#VV    。#PU  晚#NN  蚕#AD  砂#VV  浸#NN  酒#NN  缓诸风#NN  ，#PU  去#VV  顽痹#NN    。#PU  蚕茧#NN  治#VV  消渴#NR  ，#PU  止血#NR  及#CC  治齿衄#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 疗疳#VV, 杀虫#NN)  (root, ROOT#null, 疗疳#VV)
+            (root, ROOT#null, 蚕蛹#VV)  (ccomp, 蚕蛹#VV, 味甘#VV)  (dep, 味甘#VV, 咸#VV)  (dep, 味甘#VV, 性平#VV)   (root, ROOT#null, 归脾#VV)  (ccomp, 归脾#VV, 胃经#VV)   (nsubj, 疗疳#VV, 杀虫#NR)  (root, ROOT#null, 疗疳#VV)  (ccomp, 疗疳#VV, 生津止渴#VV)   (nsubj, 肺痨#VV, 主#NN)  (root, ROOT#null, 肺痨#VV)  (ccomp, 肺痨#VV, 小儿#VV)  (dobj, 小儿#VV, 疳积#NN)  (dep, 小儿#VV, 发热#VV)  (dep, 小儿#VV, 蛔虫病#VV)  (dep, 小儿#VV, 消渴#VV)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 调整#VV)  (dobj, 调整#VV, 代谢#NN)
+            (nn, 研究#NN, 药理#NN)  (nsubj, 表明#VV, 研究#NN)  (root, ROOT#null, 表明#VV)  (nsubj, 起到#VV, 蚕蛹#NN)  (case, 代谢能#NN, 对#P)  (nn, 代谢能#NN, 机体#NN)  (conj, 代谢能#NN, 糖#NN)  (nn, 代谢能#NN, 脂肪#NN)  (prep, 起到#VV, 代谢能#NN)  (ccomp, 表明#VV, 起到#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 调整#NN)  (dobj, 起到#VV, 作用#NN)   (nsubj, 有#VE, 白僵#NN)  (advmod, 有#VE, 蚕蛹油#AD)  (root, ROOT#null, 有#VE)  (relcl, 作用#NN, 降#VV)  (dobj, 降#VV, 血脂#NN)  (mark, 降#VV, 的#DEC)  (nsubj, 用#VV, 作用#NN)  (advmod, 用#VV, ;#AD)  (dep, 有#VE, 用#VV)  (dobj, 用#VV, 蚕蛹油#NN)  (nummod, 品#M, 提纯#CD)  (range, 用#VV, 品#M)  (dep, 有#VE, 制成#VV)  (dobj, 制成#VV, 丸剂#NN)  (conj, 有#VE, 用于#VV)  (ccomp, 用于#VV, 治疗#VV)  (amod, 胆固醇血症#NN, 高#JJ)  (dobj, 治疗#VV, 胆固醇血症#NN)  (case, 降低#VV, 对#P)  (prep, 有#VE, 降低#VV)  (conj, 改善#NN, 胆固醇#NN)  (cc, 改善#NN, 和#CC)  (dobj, 降低#VV, 改善#NN)  (advmod, 有#VE, 肝功能#AD)  (conj, 有#VE, 有#VE)  (amod, 疗效#NN, 显著#JJ)  (dobj, 有#VE, 疗效#NN)   (advmod, 食用#VV, 适量#AD)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 蚕蛹#NN)  (case, 患者#NN, 对#P)  (conj, 患者#NN, 高血压#NN)  (amod, 血脂#NN, 高#JJ)  (conj, 患者#NN, 血脂#NN)  (amod, 肝炎#NN, 慢性#JJ)  (conj, 患者#NN, 肝炎#NN)  (cc, 患者#NN, 及#CC)  (relcl, 患者#NN, 营养#VA)  (amod, 患者#NN, 不良#JJ)  (prep, 有#VE, 患者#NN)  (dep, 食用#VV, 有#VE)  (assmod, 功效#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (nn, 功效#NN, 辅助#NN)  (nn, 功效#NN, 治疗#NN)  (dobj, 有#VE, 功效#NN)   (advmod, 免疫#VV, 此外#AD)  (loc, 免疫#VV, 蚕蛹#NN)  (case, 蚕蛹#NN, 中#LC)  (nn, 广谱#NN, 含有#NR)  (nummod, 种#M, 一#CD)  (clf, 广谱#NN, 种#M)  (nsubj, 免疫#VV, 广谱#NN)  (root, ROOT#null, 免疫#VV)  (nsubj, 有#VE, 物质#NN)  (case, 癌症#NN, 对#P)  (prep, 有#VE, 癌症#NN)  (ccomp, 免疫#VV, 有#VE)  (amod, 疗效#NN, 特殊#JJ)  (dobj, 有#VE, 疗效#NN)   (case, 报道#NN, 据#P)  (prep, 生产#VV, 报道#NN)  (nn, 国#NN, 日本#NR)  (etc, 日本#NR, 等#ETC)  (nsubj, 生产#VV, 国#NN)  (advmod, 生产#VV, 已经#AD)  (case, 蚕蛹#NN, 从#P)  (prep, 生产#VV, 蚕蛹#NN)  (case, 蚕蛹#NN, 中#LC)  (root, ROOT#null, 生产#VV)  (dep, 生产#VV, 出#VV)  (asp, 出#VV, 了#AS)  (nn, 干扰素#NN, α#NN)  (dobj, 出#VV, 干扰素#NN)  (nsubj, 用于#VV, 临床#NN)  (conj, 生产#VV, 用于#VV)  (nn, 治疗#NN, 抗癌#NN)  (dobj, 用于#VV, 治疗#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防#VV)  (range, 防#VV, 三高#CD)
+            (nn, 食#NN, 蚕蛹#NN)  (nn, 食#NN, 炒#NN)  (nsubj, 治#VV, 食#NN)  (root, ROOT#null, 治#VV)  (nn, 疳瘦#NN, 劳#NN)  (conj, 疳瘦#NN, 瘦#NN)  (cc, 疳瘦#NN, 及#CC)  (nn, 疳瘦#NN, 小儿#NN)  (dobj, 治#VV, 疳瘦#NN)  (nsubj, 有#VE, 蚕蛹油#NN)  (case, 脂血症#NN, 对#P)  (conj, 脂血症#NN, 高血压#NN)  (conj, 脂血症#NN, 脂肪肝#NN)  (amod, 脂血症#NN, 高#JJ)  (prep, 有#VE, 脂血症#NN)  (etc, 脂血症#NN, 等#ETC)  (conj, 治#VV, 有#VE)  (amod, 效果#NN, 一定#JJ)  (dobj, 有#VE, 效果#NN)   (advmod, 治#VV, 白僵蚕#AD)  (root, ROOT#null, 治#VV)  (nn, 惊痫夜啼#NN, 小儿#NN)  (dobj, 治#VV, 惊痫夜啼#NN)  (dep, 治#VV, 痉风撮口#VV)   (nsubj, 砂#VV, 晚#NN)  (advmod, 砂#VV, 蚕#AD)  (root, ROOT#null, 砂#VV)  (nn, 缓诸风#NN, 浸#NN)  (nn, 缓诸风#NN, 酒#NN)  (dobj, 砂#VV, 缓诸风#NN)  (conj, 砂#VV, 去#VV)  (dobj, 去#VV, 顽痹#NN)   (nsubj, 治#VV, 蚕茧#NN)  (root, ROOT#null, 治#VV)  (dep, 治齿衄#NR, 消渴#NR)  (conj, 治齿衄#NR, 止血#NR)  (cc, 治齿衄#NR, 及#CC)  (dobj, 治#VV, 治齿衄#NR)
+        </parsing>
+
+        <tag>
+            疗疳  归脾  肺痨  小儿疳积  调整代谢  药理研究  表明  机体代谢能  脂肪代谢能  制成丸剂  高胆固醇血症  治疗胆固醇血症  降低改善  显著疗效  食用  高血压  高血脂  慢性肝炎  患者营养  不良患者  辅助功效  治疗功效  免疫  特殊疗效  生产  抗癌治疗  用于治疗  小儿疳瘦  脂肪肝  高脂血症  一定效果  小儿惊痫夜啼  治齿衄  止血  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  辅助降血脂
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            蚕蛹具有极高的营养价值，含有丰富的蛋白质（鲜蚕蛹含粗蛋白占51%）、脂肪酸（粗脂肪占29%）、维生素（包括维生素A、维生素B2、维生素D及麦角甾醇等）。蚕蛹的蛋白质含量在50%以上，远远高于一般食品，而且蛋白质中的必需氨基酸种类齐全。蚕蛹蛋白质由18种氨基酸组成，其中人体必需的8种氨基酸含量很高。蚕蛹中的这8种人体必需的氨基酸含量大约是猪肉的2倍、鸡蛋的4倍、牛奶的10倍，且营养均衡、比例适当，是一种优质的昆虫蛋白质。
+        </rawdata>
+
+        <segment>
+            蚕蛹  具有  极  高  的  营养  价值  ，  含有  丰富  的  蛋白质  （  鲜  蚕蛹  含  粗  蛋白  占  51%  ）  、  脂肪酸  （  粗  脂肪  占  29%  ）  、  维生素  （  包括  维生素A  、  维生素  B  维生素D  及  麦角  甾醇  等  ）  。  蚕蛹  的  蛋白质  含量  在  50%  以上  ，  远远  高于  一般  食品  ，  而且  蛋白质  中  的  必需  氨基酸  种类  齐全  。  蚕蛹  蛋白质  由  18  种  氨基酸  组成  ，  其中  人体  必需  的  8  种  氨基酸  含量  很  高  。  蚕蛹  中  的  这  8  种  人体  必需  的  氨基酸  含量  大约  是  猪肉  的  2  倍  、  鸡蛋  的  4  倍  、  牛奶  的  10  倍  ，  且  营养  均衡  、  比例  适当  ，  是  一  种  优质  的  昆虫  蛋白质  。
+        </segment>
+
+        <pos>
+            蚕蛹#NR  具有#VV  极#AD  高#VA  的#DEC  营养#VA  价值#NN  ，#PU  含有#AD  丰富#VA  的#DEC  蛋白质#NN  （#PU  鲜#NN  蚕蛹#NN  含#VV  粗#NN  蛋白#NN  占#VV  51#CD  %#NN  ）#PU  、#PU  脂肪酸#NN  （#PU  粗#NN  脂肪#NN  占#VV  29#CD  %#NN  ）#PU  、#PU  维生素#NN  （#PU  包括#AD  维生素A#NN  、#PU  维生素#NN  B#NN  维生素D#NN  及#CC  麦角#NN  甾醇#NN  等#ETC  ）#PU    。#PU  蚕蛹#NN  的#DEG  蛋白质#NN  含量#NN  在#P  50#CD  %#NN  以上#LC  ，#PU  远远#AD  高于#VV  一般#JJ  食品#NN  ，#PU  而且#CC  蛋白质#NN  中#LC  的#DEG  必需#VV  氨基酸#NN  种类#NN  齐全#VA    。#PU  蚕蛹#NN  蛋白质#NN  由#P  18#CD  种#M  氨基酸#NN  组成#VV  ，#PU  其中#NN  人体#AD  必需#VV  的#DEC  8#CD  种#M  氨基酸#NN  含量#NN  很#AD  高#VA    。#PU  蚕蛹#NN  中#LC  的#DEG  这#DT  8#CD  种#M  人体#NN  必需#VV  的#DEC  氨基酸#NN  含量#NN  大约#AD  是#VC  猪肉#NN  的#DEG  2#CD  倍#M  、#PU  鸡蛋#NN  的#DEG  4#CD  倍#M  、#PU  牛奶#NN  的#DEG  10#CD  倍#M  ，#PU  且#CC  营养#VA  均衡#VA  、#PU  比例#NN  适当#VA  ，#PU  是#VC  一#CD  种#M  优质#VA  的#DEC  昆虫#NN  蛋白质#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 具有#VV, 蚕蛹#NR)  (root, ROOT#null, 具有#VV)  (advmod, 高#VA, 极#AD)  (relcl, 价值#NN, 高#VA)  (mark, 高#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (dep, 维生素#NN, 价值#NN)  (advmod, 丰富#VA, 含有#AD)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素#NN, 蛋白质#NN)  (nn, 蚕蛹#NN, 鲜#NN)  (nsubj, 含#VV, 蚕蛹#NN)  (prnmod, 维生素#NN, 含#VV)  (nn, 蛋白#NN, 粗#NN)  (dobj, 含#VV, 蛋白#NN)  (conj, 含#VV, 占#VV)  (nummod, %#NN, 51#CD)  (dobj, 占#VV, %#NN)  (nn, 维生素#NN, 脂肪酸#NN)  (nn, 脂肪#NN, 粗#NN)  (nsubj, 占#VV, 脂肪#NN)  (prnmod, 维生素#NN, 占#VV)  (nummod, %#NN, 29#CD)  (dobj, 占#VV, %#NN)  (dobj, 具有#VV, 维生素#NN)  (advmod, 甾醇#NN, 包括#AD)  (conj, 甾醇#NN, 维生素A#NN)  (nn, 甾醇#NN, 维生素#NN)  (nn, 甾醇#NN, B#NN)  (conj, 甾醇#NN, 维生素D#NN)  (cc, 甾醇#NN, 及#CC)  (nn, 甾醇#NN, 麦角#NN)  (prnmod, 维生素#NN, 甾醇#NN)  (etc, 甾醇#NN, 等#ETC)   (assmod, 含量#NN, 蚕蛹#NN)  (case, 蚕蛹#NN, 的#DEG)  (nn, 含量#NN, 蛋白质#NN)  (nsubj, 高于#VV, 含量#NN)  (case, %#NN, 在#P)  (nummod, %#NN, 50#CD)  (prep, 高于#VV, %#NN)  (case, %#NN, 以上#LC)  (advmod, 高于#VV, 远远#AD)  (root, ROOT#null, 高于#VV)  (amod, 食品#NN, 一般#JJ)  (dobj, 高于#VV, 食品#NN)  (cc, 高于#VV, 而且#CC)  (assmod, 种类#NN, 蛋白质#NN)  (case, 蛋白质#NN, 中#LC)  (case, 蛋白质#NN, 的#DEG)  (nfincl, 种类#NN, 必需#VV)  (dobj, 必需#VV, 氨基酸#NN)  (nsubj, 齐全#VA, 种类#NN)  (conj, 高于#VV, 齐全#VA)   (nn, 蛋白质#NN, 蚕蛹#NN)  (nsubj, 组成#VV, 蛋白质#NN)  (case, 氨基酸#NN, 由#P)  (nummod, 种#M, 18#CD)  (clf, 氨基酸#NN, 种#M)  (prep, 组成#VV, 氨基酸#NN)  (root, ROOT#null, 组成#VV)  (nsubj, 必需#VV, 其中#NN)  (advmod, 必需#VV, 人体#AD)  (relcl, 含量#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nummod, 种#M, 8#CD)  (clf, 含量#NN, 种#M)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 很#AD)  (conj, 组成#VV, 高#VA)   (assmod, 人体#NN, 蚕蛹#NN)  (case, 蚕蛹#NN, 中#LC)  (case, 蚕蛹#NN, 的#DEG)  (det, 人体#NN, 这#DT)  (nummod, 种#M, 8#CD)  (dep, 这#DT, 种#M)  (nsubj, 必需#VV, 人体#NN)  (relcl, 含量#NN, 必需#VV)  (mark, 必需#VV, 的#DEC)  (nn, 含量#NN, 氨基酸#NN)  (nsubj, 倍#M, 含量#NN)  (advmod, 倍#M, 大约#AD)  (cop, 倍#M, 是#VC)  (assmod, 倍#M, 猪肉#NN)  (case, 猪肉#NN, 的#DEG)  (nummod, 倍#M, 2#CD)  (root, ROOT#null, 倍#M)  (assmod, 倍#M, 鸡蛋#NN)  (case, 鸡蛋#NN, 的#DEG)  (nummod, 倍#M, 4#CD)  (conj, 倍#M, 倍#M)  (assmod, 倍#M, 牛奶#NN)  (case, 牛奶#NN, 的#DEG)  (nummod, 倍#M, 10#CD)  (conj, 倍#M, 倍#M)  (cc, 倍#M, 且#CC)  (dep, 倍#M, 营养#VA)  (comod, 营养#VA, 均衡#VA)  (nsubj, 适当#VA, 比例#NN)  (dep, 营养#VA, 适当#VA)  (cop, 蛋白质#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 蛋白质#NN, 种#M)  (relcl, 蛋白质#NN, 优质#VA)  (mark, 优质#VA, 的#DEC)  (nn, 蛋白质#NN, 昆虫#NN)  (dep, 倍#M, 蛋白质#NN)
+        </parsing>
+
+        <tag>
+            蛋白质丰富  蛋白质维生素  脂肪酸维生素  维生素A  维生素甾醇  维生素D  麦角甾醇  一般食品  高于食品  必需氨基酸  种类齐全  组成  均衡营养  比例适当  蛋白质优质  昆虫蛋白质  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            注意预防蚕蛹中毒，一是采购新鲜蚕蛹，不买、不食腐败变质的蚕蛹；二是食用蚕蛹前，必须充分加热，应先在沸水中煮15分钟再烹炒、油炸；三是一次少吃，未吃完的蚕蛹放置后，应彻底加热后再食用。
+        </rawdata>
+
+        <segment>
+            注意  预防  蚕蛹  中毒  ，  一  是  采购  新鲜  蚕蛹  ，  不买  、  不  食  腐败  变质  的  蚕蛹  ；  二  是  食用  蚕蛹  前  ，  必须  充分  加热  ，  应  先在  沸水  中  煮  15  分钟  再  烹炒  、  油  炸  ；  三  是  一  次  少吃  ，  未  吃完  的  蚕蛹  放置  后  ，  应  彻底  加热  后  再  食用  。
+        </segment>
+
+        <pos>
+            注意#VV  预防#NN  蚕蛹#NN  中毒#VV  ，#PU  一#CD  是#VC  采购#NN  新鲜#JJ  蚕蛹#NN  ，#PU  不买#NN  、#PU  不#NN  食#NN  腐败#NN  变质#NN  的#DEG  蚕蛹#CD  ；#PU  二#CD  是#VC  食用#VV  蚕蛹#NN  前#LC  ，#PU  必须#VV  充分#JJ  加热#NN  ，#PU  应#P  先在#NN  沸水#NN  中#LC  煮#VV  15#CD  分钟#M  再#AD  烹炒#VV  、#PU  油#NN  炸#VV  ；#PU  三#CD  是#VC  一#CD  次#M  少吃#NN  ，#PU  未#AD  吃完#VV  的#DEC  蚕蛹#NN  放置#NN  后#LC  ，#PU  应#P  彻底#AD  加热#VV  后#LC  再#AD  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 放置#NN, 注意#VV)  (nn, 蚕蛹#NN, 预防#NN)  (nsubj, 中毒#VV, 蚕蛹#NN)  (ccomp, 注意#VV, 中毒#VV)  (dep, 蚕蛹#NN, 一#CD)  (cop, 蚕蛹#NN, 是#VC)  (nn, 蚕蛹#NN, 采购#NN)  (amod, 蚕蛹#NN, 新鲜#JJ)  (conj, 中毒#VV, 蚕蛹#NN)  (conj, 变质#NN, 不买#NN)  (nn, 变质#NN, 不#NN)  (nn, 变质#NN, 食#NN)  (nn, 变质#NN, 腐败#NN)  (assmod, 二#CD, 变质#NN)  (case, 变质#NN, 的#DEG)  (nummod, 二#CD, 蚕蛹#CD)  (dep, 食用#VV, 二#CD)  (conj, 食用#VV, 是#VC)  (cop, 食用#VV, 是#VC)  (loc, 烹炒#VV, 食用#VV)  (dobj, 食用#VV, 蚕蛹#NN)  (case, 食用#VV, 前#LC)  (dep, 烹炒#VV, 必须#VV)  (amod, 加热#NN, 充分#JJ)  (dobj, 必须#VV, 加热#NN)  (case, 沸水#NN, 应#P)  (nn, 沸水#NN, 先在#NN)  (prep, 煮#VV, 沸水#NN)  (case, 沸水#NN, 中#LC)  (conj, 必须#VV, 煮#VV)  (nummod, 分钟#M, 15#CD)  (range, 煮#VV, 分钟#M)  (advmod, 烹炒#VV, 再#AD)  (conj, 中毒#VV, 烹炒#VV)  (nsubj, 炸#VV, 油#NN)  (conj, 中毒#VV, 炸#VV)  (dep, 少吃#NN, 三#CD)  (cop, 少吃#NN, 是#VC)  (nummod, 次#M, 一#CD)  (clf, 少吃#NN, 次#M)  (conj, 中毒#VV, 少吃#NN)  (advmod, 吃完#VV, 未#AD)  (conj, 中毒#VV, 吃完#VV)  (mark, 注意#VV, 的#DEC)  (nn, 放置#NN, 蚕蛹#NN)  (loc, 食用#VV, 放置#NN)  (case, 放置#NN, 后#LC)  (case, 加热#VV, 应#P)  (advmod, 加热#VV, 彻底#AD)  (prep, 食用#VV, 加热#VV)  (case, 加热#VV, 后#LC)  (advmod, 食用#VV, 再#AD)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            注意放置  不买  腐败变质  充分加热  必须加热  先在沸水  食用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201403/272049423028.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\58 蚕蛹.jpg
+    </picturelocalurl>
+
+</content>

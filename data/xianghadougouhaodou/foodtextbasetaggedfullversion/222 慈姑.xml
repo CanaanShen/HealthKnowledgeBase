@@ -1,0 +1,202 @@
+<content>
+
+    <id>
+        222
+    </id>
+
+    <foodname>
+        慈姑
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        白地栗、燕尾草、芽姑、茨菰、慈菰、剪刀草
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            孕妇，便秘者不宜多吃。
+        </rawdata>
+
+        <segment>
+            孕妇  ，  便秘  者  不  宜  多  吃  。
+        </segment>
+
+        <pos>
+            孕妇#NN  ，#PU  便秘#NN  者#NN  不#AD  宜#NR  多#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 吃#VV, 孕妇#NN)  (nn, 者#NN, 便秘#NN)  (nsubj, 吃#VV, 者#NN)  (neg, 吃#VV, 不#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 多#AD)  (root, ROOT#null, 吃#VV)
+        </parsing>
+
+        <tag>
+            孕妇  便秘者不宜多吃  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜咳嗽痰中带血、贫血、营养不良性水肿、脚气病、神经炎患者多食。（慈菇不宜多食，多食则发肠风痔漏，崩中带下，使人干呕、损牙齿、失颜色、皮肉干燥等）
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  咳嗽痰  中  带  血  、  贫血  、  营养  不良  性  水肿  、  脚气病  、  神经炎  患者  多  食  。  （  慈菇  不  宜  多  食  ，  多食则  发  肠  风  痔漏  ，  崩  中  带下  ，  使  人  干呕  、  损牙齿  、  失  颜色  、  皮肉  干燥  等  ）
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  咳嗽痰#NN  中#LC  带#VV  血#NN  、#PU  贫血#VA  、#PU  营养#VA  不良#JJ  性#NN  水肿#NR  、#PU  脚气病#NR  、#PU  神经炎#NR  患者#NN  多#CD  食#NN    。#PU  （#PU  慈菇#VV  不#AD  宜#NR  多#CD  食#NN  ，#PU  多食则#AD  发#VV  肠#NN  风#NN  痔漏#NN  ，#PU  崩#NN  中#LC  带下#NN  ，#PU  使#VV  人#NN  干呕#VA  、#PU  损牙齿#VA  、#PU  失#VV  颜色#NN  、#PU  皮肉#NN  干燥#NN  等#ETC  ）#PU    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (root, ROOT#null, 适宜#VV)  (loc, 带#VV, 咳嗽痰#NN)  (case, 咳嗽痰#NN, 中#LC)  (relcl, 性#NN, 带#VV)  (dobj, 带#VV, 血#NN)  (conj, 带#VV, 贫血#VA)  (dep, 贫血#VA, 营养#VA)  (amod, 性#NN, 不良#JJ)  (nn, 食#NN, 性#NN)  (conj, 神经炎#NR, 水肿#NR)  (conj, 神经炎#NR, 脚气病#NR)  (nn, 患者#NN, 神经炎#NR)  (nn, 食#NN, 患者#NN)  (nummod, 食#NN, 多#CD)  (dobj, 适宜#VV, 食#NN)   (root, ROOT#null, 慈菇#VV)  (neg, 慈菇#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (dobj, 慈菇#VV, 食#NN)  (advmod, 发#VV, 多食则#AD)  (conj, 慈菇#VV, 发#VV)  (nn, 痔漏#NN, 肠#NN)  (nn, 痔漏#NN, 风#NN)  (dobj, 发#VV, 痔漏#NN)  (loc, 使#VV, 崩#NN)  (case, 崩#NN, 中#LC)  (nsubj, 使#VV, 带下#NN)  (dep, 慈菇#VV, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 干呕#VA)  (dep, 干呕#VA, 损牙齿#VA)  (dep, 干呕#VA, 失#VV)  (conj, 干燥#NN, 颜色#NN)  (nn, 干燥#NN, 皮肉#NN)  (dobj, 失#VV, 干燥#NN)  (etc, 干燥#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  咳嗽痰中带血  贫血  营养不良性水肿  脚气病  神经炎  患者  多食  慈菇不宜多食  多食则发肠风痔漏  崩中带下  使人干呕  损牙齿  失颜色  皮肉干燥  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            慈姑，泽泻科慈姑属宿根性水生草本，又名剪刀草、燕尾草等，以球茎作蔬菜食用。据《本草纲目》载：“慈姑，一根岁生十二子，如慈姑之乳诸子，故以名之。”生于沼泽中，叶似箭头，有肉质球茎，花有3枚圆形花瓣。有野生或入工栽培，现在，我国多数地区均有分布。春、夏、秋季采收，除去泥土杂质，洗净，鲜用或晒干用。
+        </rawdata>
+
+        <segment>
+            慈姑  ，  泽泻科  慈姑  属  宿根  性  水生  草本  ，  又名  剪刀  草  、  燕尾  草等  ，  以  球茎  作  蔬菜  食用  。  据  《  本草  纲目  》  载  ：  “  慈姑  ，  一  根  岁  生  十二  子  ，  如  慈姑  之  乳  诸子  ，  故  以  名  之  。  ”  生  于  沼泽  中  ，  叶  似  箭头  ，  有  肉质  球茎  ，  花  有  3  枚  圆形  花瓣  。  有  野生  或  入  工  栽培  ，  现在  ，  我国  多数  地区  均  有  分布  。  春  、  夏  、  秋季  采收  ，  除去  泥土  杂质  ，  洗净  ，  鲜  用  或  晒干  用  。
+        </segment>
+
+        <pos>
+            慈姑#NN  ，#PU  泽泻科#NN  慈姑#AD  属#VV  宿根#NN  性#NN  水生#NN  草本#NN  ，#PU  又名#VV  剪刀#NN  草#NN  、#PU  燕尾#NN  草等#NN  ，#PU  以#P  球茎#NN  作#VV  蔬菜#NN  食用#VV    。#PU  据#P  本草#NN  纲目#NN  载#VV  ：#PU  ``#VV  慈姑#NN  ，#PU  一#CD  根#M  岁#M  生#VV  十二#CD  子#NN  ，#PU  如#P  慈姑#NN  之#DEG  乳#NN  诸子#VV  ，#PU  故#AD  以#P  名#JJ  之#PN    。#PU  ''#NN  生#VV  于#P  沼泽#NN  中#LC  ，#PU  叶#NR  似#P  箭头#NN  ，#PU  有#VE  肉质#NN  球茎#NN  ，#PU  花#NN  有#VE  3#CD  枚#M  圆形#NN  花瓣#NN    。#PU  有#VE  野生#JJ  或#CC  入#VV  工#NN  栽培#VV  ，#PU  现在#NT  ，#PU  我国#NR  多数#CD  地区#NN  均#AD  有#VE  分布#NN    。#PU  春#NT  、#PU  夏#NN  、#PU  秋季#NT  采收#NN  ，#PU  除去#P  泥土#NN  杂质#NN  ，#PU  洗净#NN  ，#PU  鲜#AD  用#VV  或#CC  晒干#VV  用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 属#VV, 慈姑#NN)  (nsubj, 属#VV, 泽泻科#NN)  (advmod, 属#VV, 慈姑#AD)  (dep, 食用#VV, 属#VV)  (nn, 草本#NN, 宿根#NN)  (nn, 草本#NN, 性#NN)  (nn, 草本#NN, 水生#NN)  (dobj, 属#VV, 草本#NN)  (dep, 属#VV, 又名#VV)  (nn, 草等#NN, 剪刀#NN)  (conj, 草等#NN, 草#NN)  (nn, 草等#NN, 燕尾#NN)  (dobj, 又名#VV, 草等#NN)  (case, 球茎#NN, 以#P)  (prep, 作#VV, 球茎#NN)  (conj, 属#VV, 作#VV)  (dobj, 作#VV, 蔬菜#NN)  (root, ROOT#null, 食用#VV)   (case, 载#VV, 据#P)  (nn, 纲目#NN, 本草#NN)  (nsubj, 载#VV, 纲目#NN)  (prep, 生#VV, 载#VV)  (conj, 载#VV, ``#VV)  (dobj, ``#VV, 慈姑#NN)  (nummod, 根#M, 一#CD)  (conj, 载#VV, 根#M)  (dep, 根#M, 岁#M)  (root, ROOT#null, 生#VV)  (nummod, 子#NN, 十二#CD)  (dobj, 生#VV, 子#NN)  (case, 乳#NN, 如#P)  (assmod, 乳#NN, 慈姑#NN)  (case, 慈姑#NN, 之#DEG)  (prep, 诸子#VV, 乳#NN)  (dep, 生#VV, 诸子#VV)  (advmod, 之#PN, 故#AD)  (case, 之#PN, 以#P)  (amod, 之#PN, 名#JJ)  (dep, 生#VV, 之#PN)   (nsubj, 生#VV, ''#NN)  (root, ROOT#null, 生#VV)  (case, 沼泽#NN, 于#P)  (prep, 生#VV, 沼泽#NN)  (case, 沼泽#NN, 中#LC)  (nsubj, 有#VE, 叶#NR)  (case, 箭头#NN, 似#P)  (prep, 有#VE, 箭头#NN)  (conj, 生#VV, 有#VE)  (nn, 球茎#NN, 肉质#NN)  (dobj, 有#VE, 球茎#NN)  (dep, 有#VE, 花#NN)  (conj, 生#VV, 有#VE)  (nummod, 枚#M, 3#CD)  (clf, 花瓣#NN, 枚#M)  (nn, 花瓣#NN, 圆形#NN)  (dobj, 有#VE, 花瓣#NN)   (root, ROOT#null, 有#VE)  (nfincl, 工#NN, 野生#JJ)  (cc, 野生#JJ, 或#CC)  (dep, 野生#JJ, 入#VV)  (nsubj, 栽培#VV, 工#NN)  (dep, 有#VE, 栽培#VV)  (tmod, 有#VE, 现在#NT)  (nn, 地区#NN, 我国#NR)  (nummod, 地区#NN, 多数#CD)  (nsubj, 有#VE, 地区#NN)  (advmod, 有#VE, 均#AD)  (conj, 栽培#VV, 有#VE)  (dobj, 有#VE, 分布#NN)   (conj, 采收#NN, 春#NT)  (conj, 采收#NN, 夏#NN)  (nn, 采收#NN, 秋季#NT)  (nsubj, 用#VV, 采收#NN)  (case, 杂质#NN, 除去#P)  (nn, 杂质#NN, 泥土#NN)  (prep, 用#VV, 杂质#NN)  (nsubj, 用#VV, 洗净#NN)  (advmod, 用#VV, 鲜#AD)  (dep, 用#VV, 用#VV)  (cc, 用#VV, 或#CC)  (conj, 用#VV, 晒干#VV)  (root, ROOT#null, 用#VV)
+        </parsing>
+
+        <tag>
+            宿根草本  水生草本  剪刀草等  燕尾草等  又名草等  食用  本草纲目  肉质球茎  圆形花瓣  泥土杂质  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.润肺
+            慈姑滋阴润肺，去除肺燥肺热。使人呼吸畅通舒适。
+            2.护心
+            慈姑保护心脏，保护心肌细胞，预防或是缓解心悸、心率失常等。
+            3.解毒
+            慈姑增加免疫细胞的活性，消除体内的有害物质。
+            4.利尿消肿
+            慈姑能清除体内毒素和多余的水分，促进血液和水分新陈代谢，有利尿、消水肿作用。
+        </rawdata>
+
+        <segment>
+            润肺
+            慈姑  滋阴  润肺  ，  去除  肺燥  肺  热  。  使  人  呼吸  畅通  舒适  。
+            护心
+            慈姑  保护  心脏  ，  保护  心肌  细胞  ，  预防  或是  缓解  心悸  、  心率  失常  等  。
+            解毒
+            慈姑  增加  免疫  细胞  的  活性  ，  消除  体内  的  有害  物质  。
+            利尿  消肿
+            慈姑  能  清除  体内  毒素  和  多余  的  水分  ，  促进  血液  和  水分  新陈代谢  ，  有  利尿  、  消  水肿  作用  。
+        </segment>
+
+        <pos>
+            润肺#VV
+            慈姑#NN  滋阴#NN  润肺#VV  ，#PU  去除#NN  肺燥#VV  肺#NN  热#NN    。#PU  使#VV  人#NN  呼吸#NN  畅通#NN  舒适#VA    。#PU    。#PU
+            护心#VV
+            慈姑#VV  保护#NN  心脏#NN  ，#PU  保护#VV  心肌#NN  细胞#NN  ，#PU  预防#VV  或是#NN  缓解#VV  心悸#NN  、#PU  心率#NN  失常#NN  等#ETC  。#PU
+            解毒#VV
+            慈姑#AD  增加#VV  免疫#NN  细胞#NN  的#DEG  活性#NN  ，#PU  消除#VV  体内#NN  的#DEG  有害#NN  物质#NN  。#PU
+            利尿#NN  消肿#VV
+            慈姑#NN  能#VV  清除#VV  体内#NN  毒素#NN  和#CC  多余#NN  的#DEG  水分#NN  ，#PU  促进#VV  血液#NN  和#CC  水分#NN  新陈代谢#NN  ，#PU  有#VE  利尿#NN  、#PU  消#VV  水肿#NN  作用#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 润肺#VV)
+            (nn, 滋阴#NN, 慈姑#NN)  (nsubj, 润肺#VV, 滋阴#NN)  (root, ROOT#null, 润肺#VV)  (nsubj, 肺燥#VV, 去除#NN)  (ccomp, 润肺#VV, 肺燥#VV)  (nn, 热#NN, 肺#NN)  (dobj, 肺燥#VV, 热#NN)   (root, ROOT#null, 使#VV)  (nn, 畅通#NN, 人#NN)  (nn, 畅通#NN, 呼吸#NN)  (dobj, 使#VV, 畅通#NN)  (dep, 使#VV, 舒适#VA)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 护心#VV)
+            (root, ROOT#null, 慈姑#VV)  (nn, 心脏#NN, 保护#NN)  (dobj, 慈姑#VV, 心脏#NN)  (conj, 慈姑#VV, 保护#VV)  (nn, 细胞#NN, 心肌#NN)  (dobj, 保护#VV, 细胞#NN)  (conj, 慈姑#VV, 预防#VV)  (dobj, 预防#VV, 或是#NN)  (conj, 预防#VV, 缓解#VV)  (conj, 失常#NN, 心悸#NN)  (nn, 失常#NN, 心率#NN)  (dobj, 缓解#VV, 失常#NN)  (etc, 失常#NN, 等#ETC)
+            (root, ROOT#null, 解毒#VV)
+            (advmod, 增加#VV, 慈姑#AD)  (root, ROOT#null, 增加#VV)  (nn, 细胞#NN, 免疫#NN)  (assmod, 活性#NN, 细胞#NN)  (case, 细胞#NN, 的#DEG)  (dobj, 增加#VV, 活性#NN)  (dep, 增加#VV, 消除#VV)  (assmod, 物质#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (nn, 物质#NN, 有害#NN)  (dobj, 消除#VV, 物质#NN)
+            (nsubj, 消肿#VV, 利尿#NN)  (root, ROOT#null, 消肿#VV)
+            (nsubj, 清除#VV, 慈姑#NN)  (mmod, 清除#VV, 能#VV)  (root, ROOT#null, 清除#VV)  (nn, 多余#NN, 体内#NN)  (conj, 多余#NN, 毒素#NN)  (cc, 多余#NN, 和#CC)  (assmod, 水分#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (dobj, 清除#VV, 水分#NN)  (conj, 清除#VV, 促进#VV)  (conj, 新陈代谢#NN, 血液#NN)  (cc, 新陈代谢#NN, 和#CC)  (nn, 新陈代谢#NN, 水分#NN)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 清除#VV, 有#VE)  (dobj, 有#VE, 利尿#NN)  (conj, 清除#VV, 消#VV)  (nn, 作用#NN, 水肿#NN)  (dobj, 消#VV, 作用#NN)
+        </parsing>
+
+        <tag>
+            润肺  肺燥热  呼吸畅通  保护心脏  心肌细胞  保护细胞  心悸  心率失常  缓解失常  解毒  免疫细胞  增加活性  消肿  体内多余  毒素  清除水分  血液  水分新陈代谢  促进新陈代谢  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            慈姑是低脂肪、高碳水化合物的食品，其碳水化合物的含量高于莲藕和荸荠，仅次于芡实。磷的含量要比甘薯高出11倍，维生素B12含量也很丰富。慈姑含有多种微量元素，具有—定的强心作用。同时慈姑所含的水分及其他有效成分，具有清肺散热、润肺止咳的作用。慈姑主解百毒，能解毒消肿、利尿，可用来治疗各种无名肿毒。
+        </rawdata>
+
+        <segment>
+            慈姑  是  低  脂肪  、  高  碳水  化合物  的  食品  ，  其  碳水  化合物  的  含量  高于  莲藕  和  荸荠  ，  仅  次于  芡实  。  磷  的  含量  要  比  甘薯  高出  11  倍  ，  维生素  B  12  含量  也  很  丰富  。  慈姑  含有  多  种  微量  元素  ，  具有  —  定的  强心  作用  。  同时  慈姑  所  含  的  水分  及  其他  有效  成分  ，  具有  清肺  散热  、  润肺  止咳  的  作用  。  慈姑  主  解  百  毒  ，  能  解毒  消肿  、  利尿  ，  可  用来  治疗  各  种  无名肿毒  。
+        </segment>
+
+        <pos>
+            慈姑#NN  是#VC  低#JJ  脂肪#NN  、#PU  高#JJ  碳水#NN  化合物#NN  的#DEG  食品#NN  ，#PU  其#PN  碳水#NN  化合物#NN  的#DEG  含量#NN  高于#VV  莲藕#NN  和#CC  荸荠#NN  ，#PU  仅#AD  次于#VV  芡实#NN    。#PU  磷#NN  的#DEG  含量#NN  要#VV  比#P  甘薯#NN  高出#VV  11#CD  倍#M  ，#PU  维生素#NN  B#NN  12#CD  含量#NN  也#AD  很#AD  丰富#VA    。#PU  慈姑#AD  含有#VV  多#CD  种#M  微量#NN  元素#NN  ，#PU  具有#VV  --#NN  定的#NN  强心#NN  作用#NN    。#PU  同时#AD  慈姑#VV  所#MSP  含#VV  的#DEC  水分#NN  及#CC  其他#DT  有效#JJ  成分#NN  ，#PU  具有#VV  清肺#NN  散热#NN  、#PU  润肺#NN  止咳#NN  的#DEG  作用#NN    。#PU  慈姑#NN  主#AD  解#VV  百#CD  毒#NN  ，#PU  能#VV  解毒#VV  消肿#NN  、#PU  利尿#NN  ，#PU  可#VV  用来#AD  治疗#VV  各#DT  种#M  无名肿毒#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 食品#NN, 慈姑#NN)  (cop, 食品#NN, 是#VC)  (amod, 脂肪#NN, 低#JJ)  (conj, 食品#NN, 脂肪#NN)  (amod, 碳水#NN, 高#JJ)  (nn, 化合物#NN, 碳水#NN)  (assmod, 食品#NN, 化合物#NN)  (case, 化合物#NN, 的#DEG)  (root, ROOT#null, 食品#NN)  (nn, 化合物#NN, 其#PN)  (nn, 化合物#NN, 碳水#NN)  (assmod, 含量#NN, 化合物#NN)  (case, 化合物#NN, 的#DEG)  (nsubj, 高于#VV, 含量#NN)  (conj, 食品#NN, 高于#VV)  (conj, 荸荠#NN, 莲藕#NN)  (cc, 荸荠#NN, 和#CC)  (dobj, 高于#VV, 荸荠#NN)  (advmod, 次于#VV, 仅#AD)  (conj, 高于#VV, 次于#VV)  (dobj, 次于#VV, 芡实#NN)   (assmod, 含量#NN, 磷#NN)  (case, 磷#NN, 的#DEG)  (nsubj, 高出#VV, 含量#NN)  (mmod, 高出#VV, 要#VV)  (case, 甘薯#NN, 比#P)  (prep, 高出#VV, 甘薯#NN)  (root, ROOT#null, 高出#VV)  (nummod, 倍#M, 11#CD)  (range, 高出#VV, 倍#M)  (nn, B#NN, 维生素#NN)  (nn, 含量#NN, B#NN)  (nummod, 含量#NN, 12#CD)  (nsubj, 丰富#VA, 含量#NN)  (advmod, 丰富#VA, 也#AD)  (advmod, 丰富#VA, 很#AD)  (conj, 高出#VV, 丰富#VA)   (advmod, 含有#VV, 慈姑#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)  (dep, 含有#VV, 具有#VV)  (nn, 作用#NN, 定的#NN)  (nn, 作用#NN, 强心#NN)  (dobj, 具有#VV, 作用#NN)   (advmod, 慈姑#VV, 同时#AD)  (root, ROOT#null, 慈姑#VV)  (prtmod, 含#VV, 所#MSP)  (relcl, 水分#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 成分#NN, 水分#NN)  (cc, 成分#NN, 及#CC)  (det, 成分#NN, 其他#DT)  (amod, 成分#NN, 有效#JJ)  (dobj, 慈姑#VV, 成分#NN)  (dep, 慈姑#VV, 具有#VV)  (nn, 止咳#NN, 清肺#NN)  (conj, 止咳#NN, 散热#NN)  (nn, 止咳#NN, 润肺#NN)  (assmod, 作用#NN, 止咳#NN)  (case, 止咳#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)   (nsubj, 解#VV, 慈姑#NN)  (advmod, 解#VV, 主#AD)  (root, ROOT#null, 解#VV)  (nummod, 毒#NN, 百#CD)  (dobj, 解#VV, 毒#NN)  (mmod, 解毒#VV, 能#VV)  (conj, 解#VV, 解毒#VV)  (conj, 利尿#NN, 消肿#NN)  (dobj, 解毒#VV, 利尿#NN)  (mmod, 治疗#VV, 可#VV)  (advmod, 治疗#VV, 用来#AD)  (conj, 解#VV, 治疗#VV)  (det, 无名肿毒#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 治疗#VV, 无名肿毒#NN)
+        </parsing>
+
+        <tag>
+            低脂肪  食品  高碳水  碳水化合物  莲藕  高于荸荠  次于芡实  高出  含有  含水分  清肺止咳  散热  润肺止咳  消肿  解毒利尿  治疗无名肿毒  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            煎汤服；炖肉或以蜂蜜拌蒸食用。
+        </rawdata>
+
+        <segment>
+            煎  汤服  ；  炖肉  或以  蜂蜜  拌蒸  食用  。
+        </segment>
+
+        <pos>
+            煎#NR  汤服#VV  ；#PU  炖肉#NN  或以#NN  蜂蜜#NN  拌蒸#AD  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 汤服#VV, 煎#NR)  (root, ROOT#null, 汤服#VV)  (nn, 蜂蜜#NN, 炖肉#NN)  (nn, 蜂蜜#NN, 或以#NN)  (nsubj, 食用#VV, 蜂蜜#NN)  (advmod, 食用#VV, 拌蒸#AD)  (ccomp, 汤服#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            汤服  炖肉蜂蜜  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101730228096.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\222 慈姑.jpg
+    </picturelocalurl>
+
+</content>

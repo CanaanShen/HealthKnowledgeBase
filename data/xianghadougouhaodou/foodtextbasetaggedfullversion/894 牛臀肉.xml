@@ -1,0 +1,156 @@
+<content>
+
+    <id>
+        894
+    </id>
+
+    <foodname>
+        牛臀肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            一周吃一次牛肉即可，不可食之太多，另外，牛脂肪更应少食为妙，否则会增加体内胆固醇和脂肪的积累量。
+        </rawdata>
+
+        <segment>
+            一  周  吃  一  次  牛肉  即可  ，  不  可  食  之  太  多  ，  另外  ，  牛  脂肪  更应  少  食  为  妙  ，  否则  会  增加  体内  胆固醇  和  脂肪  的  积累量  。
+        </segment>
+
+        <pos>
+            一#CD  周#M  吃#VV  一#CD  次#M  牛肉#NN  即可#NN  ，#PU  不#AD  可#VV  食#NN  之#DEG  太#AD  多#VA  ，#PU  另外#AD  ，#PU  牛#NN  脂肪#NN  更应#NN  少#JJ  食#NN  为#VC  妙#NN  ，#PU  否则#AD  会#VV  增加#VV  体内#NN  胆固醇#NN  和#CC  脂肪#NN  的#DEC  积累量#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nummod, 周#M, 一#CD)  (nsubj, 吃#VV, 周#M)  (root, ROOT#null, 吃#VV)  (nummod, 次#M, 一#CD)  (clf, 即可#NN, 次#M)  (nn, 即可#NN, 牛肉#NN)  (dobj, 吃#VV, 即可#NN)  (neg, 可#VV, 不#AD)  (conj, 吃#VV, 可#VV)  (assmod, 积累量#NN, 食#NN)  (case, 食#NN, 之#DEG)  (advmod, 多#VA, 太#AD)  (relcl, 积累量#NN, 多#VA)  (advmod, 妙#NN, 另外#AD)  (nn, 更应#NN, 牛#NN)  (nn, 更应#NN, 脂肪#NN)  (nn, 食#NN, 更应#NN)  (amod, 食#NN, 少#JJ)  (nsubj, 妙#NN, 食#NN)  (cop, 妙#NN, 为#VC)  (dep, 多#VA, 妙#NN)  (advmod, 增加#VV, 否则#AD)  (mmod, 增加#VV, 会#VV)  (conj, 妙#NN, 增加#VV)  (nn, 脂肪#NN, 体内#NN)  (conj, 脂肪#NN, 胆固醇#NN)  (cc, 脂肪#NN, 和#CC)  (dobj, 增加#VV, 脂肪#NN)  (mark, 多#VA, 的#DEC)  (dobj, 可#VV, 积累量#NN)
+        </parsing>
+
+        <tag>
+            一周吃一次牛肉即可  不可食  太多  另外  牛脂肪更应少食为妙  否则会增加体内胆固醇  脂肪  积累量  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，气虚体质，气郁体质，痰湿体质，阳虚体质，阴虚体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  气虚  体质  ，  气郁  体质  ，  痰湿  体质  ，  阳虚  体质  ，  阴虚  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  气虚#VV  体质#NN  ，#PU  气郁#VV  体质#NN  ，#PU  痰湿#VV  体质#NN  ，#PU  阳虚#VV  体质#NN  ，#PU  阴虚#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 气虚#VV)  (dobj, 气虚#VV, 体质#NN)  (conj, 适宜#VV, 气郁#VV)  (dobj, 气郁#VV, 体质#NN)  (conj, 适宜#VV, 痰湿#VV)  (dobj, 痰湿#VV, 体质#NN)  (conj, 适宜#VV, 阳虚#VV)  (dobj, 阳虚#VV, 体质#NN)  (conj, 适宜#VV, 阴虚#VV)  (dobj, 阴虚#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  气虚体质  气郁体质  痰湿体质  阳虚体质  阴虚体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            牛屁股上的肉
+        </rawdata>
+
+        <segment>
+            牛  屁股  上  的  肉
+        </segment>
+
+        <pos>
+            牛#NN  屁股#NN  上#LC  的#DEG  肉#NN
+        </pos>
+
+        <parsing>
+            (nn, 屁股#NN, 牛#NN)  (assmod, 肉#NN, 屁股#NN)  (case, 屁股#NN, 上#LC)  (case, 屁股#NN, 的#DEG)  (root, ROOT#null, 肉#NN)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            牛肉含有丰富的蛋白质，氨基酸组成比猪肉更接近人体需要，能提高机体抗病能力，对生长发育及手术后、病后调养的人在补充失血、修复组织等方面特别适宜。寒冬食牛肉，有暖胃作用，为寒冬补益佳品。中医认为，牛肉有补中益气、滋养脾胃、强健筋骨、化痰息风、止渴止涎的功效。适用于中气下陷、气短体虚，筋骨酸软、贫血久病及面黄目眩之人食用。
+        </rawdata>
+
+        <segment>
+            牛肉  含有  丰富  的  蛋白质  ，  氨基酸  组成  比  猪肉  更  接近  人体  需要  ，  能  提高  机体  抗病  能力  ，  对  生长  发育  及  手术  后  、  病  后  调养  的  人  在  补充  失血  、  修复  组织  等  方面  特别  适宜  。  寒冬  食  牛肉  ，  有  暖胃  作用  ，  为  寒冬  补益  佳品  。  中医  认为  ，  牛肉  有  补  中  益气  、  滋养  脾胃  、  强健  筋骨  、  化痰  息风  、  止渴  止涎  的  功效  。  适用  于  中气  下陷  、  气短  体虚  ，  筋骨  酸软  、  贫血  久病  及  面黄  目眩  之  人  食用  。
+        </segment>
+
+        <pos>
+            牛肉#AD  含有#VV  丰富#VA  的#DEC  蛋白质#NN  ，#PU  氨基酸#AD  组成#VV  比#P  猪肉#NN  更#AD  接近#VV  人体#NN  需要#NN  ，#PU  能#VV  提高#VV  机体#NN  抗病#NN  能力#NN  ，#PU  对#P  生长#NN  发育#VV  及#CC  手术#VV  后#LC  、#PU  病#NN  后#LC  调养#VV  的#DEC  人#NN  在#P  补充#NN  失血#NN  、#PU  修复#NN  组织#NN  等#ETC  方面#NN  特别#AD  适宜#VA    。#PU  寒冬#NN  食#NN  牛肉#VV  ，#PU  有#VE  暖胃#NN  作用#NN  ，#PU  为#P  寒冬#NN  补益#VV  佳品#NN    。#PU  中医#NN  认为#VV  ，#PU  牛肉#AD  有#VE  补#VV  中#NR  益气#NR  、#PU  滋养#NR  脾胃#NR  、#PU  强健#NR  筋骨#NR  、#PU  化痰#NR  息风#NR  、#PU  止渴#NR  止涎#NN  的#DEC  功效#NN    。#PU  适用#NN  于#P  中气#NN  下陷#NN  、#PU  气短#NN  体虚#NN  ，#PU  筋骨#NN  酸软#NN  、#PU  贫血#NN  久病#NN  及#CC  面黄#NN  目眩#NN  之#DEG  人#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 含有#VV, 牛肉#AD)  (relcl, 人#NN, 含有#VV)  (relcl, 蛋白质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 蛋白质#NN)  (advmod, 组成#VV, 氨基酸#AD)  (conj, 含有#VV, 组成#VV)  (case, 接近#VV, 比#P)  (nsubj, 接近#VV, 猪肉#NN)  (advmod, 接近#VV, 更#AD)  (prep, 组成#VV, 接近#VV)  (nn, 需要#NN, 人体#NN)  (dobj, 接近#VV, 需要#NN)  (mmod, 提高#VV, 能#VV)  (dep, 接近#VV, 提高#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 抗病#NN)  (dobj, 提高#VV, 能力#NN)  (case, 生长#NN, 对#P)  (prep, 发育#VV, 生长#NN)  (dep, 接近#VV, 发育#VV)  (cc, 发育#VV, 及#CC)  (conj, 发育#VV, 手术#VV)  (case, 接近#VV, 后#LC)  (loc, 调养#VV, 病#NN)  (case, 病#NN, 后#LC)  (conj, 含有#VV, 调养#VV)  (mark, 含有#VV, 的#DEC)  (nsubj, 适宜#VA, 人#NN)  (case, 方面#NN, 在#P)  (nn, 组织#NN, 补充#NN)  (conj, 组织#NN, 失血#NN)  (nn, 组织#NN, 修复#NN)  (nn, 方面#NN, 组织#NN)  (etc, 组织#NN, 等#ETC)  (prep, 适宜#VA, 方面#NN)  (advmod, 适宜#VA, 特别#AD)  (root, ROOT#null, 适宜#VA)   (nn, 食#NN, 寒冬#NN)  (nsubj, 牛肉#VV, 食#NN)  (xsubj, 有#VE, 食#NN)  (root, ROOT#null, 牛肉#VV)  (ccomp, 牛肉#VV, 有#VE)  (nn, 作用#NN, 暖胃#NN)  (dobj, 有#VE, 作用#NN)  (case, 寒冬#NN, 为#P)  (prep, 补益#VV, 寒冬#NN)  (conj, 有#VE, 补益#VV)  (dobj, 补益#VV, 佳品#NN)   (nsubj, 认为#VV, 中医#NN)  (xsubj, 有#VE, 中医#NN)  (root, ROOT#null, 认为#VV)  (advmod, 有#VE, 牛肉#AD)  (ccomp, 认为#VV, 有#VE)  (relcl, 功效#NN, 补#VV)  (nn, 止渴#NR, 中#NR)  (conj, 止渴#NR, 益气#NR)  (nn, 止渴#NR, 滋养#NR)  (conj, 止渴#NR, 脾胃#NR)  (nn, 止渴#NR, 强健#NR)  (conj, 止渴#NR, 筋骨#NR)  (nn, 止渴#NR, 化痰#NR)  (conj, 止渴#NR, 息风#NR)  (nn, 止涎#NN, 止渴#NR)  (dobj, 补#VV, 止涎#NN)  (mark, 补#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)   (nsubj, 食用#VV, 适用#NN)  (case, 人#NN, 于#P)  (nn, 目眩#NN, 中气#NN)  (conj, 目眩#NN, 下陷#NN)  (nn, 目眩#NN, 气短#NN)  (conj, 目眩#NN, 体虚#NN)  (nn, 目眩#NN, 筋骨#NN)  (conj, 目眩#NN, 酸软#NN)  (nn, 目眩#NN, 贫血#NN)  (conj, 目眩#NN, 久病#NN)  (cc, 目眩#NN, 及#CC)  (nn, 目眩#NN, 面黄#NN)  (assmod, 人#NN, 目眩#NN)  (case, 目眩#NN, 之#DEG)  (prep, 食用#VV, 人#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            含有人  蛋白质丰富  含有蛋白质  人体需要  接近需要  机体能力  抗病能力  提高能力  人适宜  补充组织  失血  修复组织  组织方面  牛肉  补益佳品  补功效  止渴  益气  脾胃  息风  中气目眩  下陷  气短目眩  体虚  筋骨目眩  酸软  贫血目眩  久病  面黄目眩  食用  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  缓解体力疲劳  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            肉牛的养殖——运到屠宰场——宰杀——加工处理——分离得到牛臀肉——保存——运输到市场——卖出。
+        </rawdata>
+
+        <segment>
+            肉牛  的  养殖  ——  运到  屠宰场  ——  宰杀  ——  加工  处理  ——  分离  得到  牛臀肉  ——  保存  ——  运输  到  市场  ——  卖出  。
+        </segment>
+
+        <pos>
+            肉牛#NR  的#DEG  养殖#NN  --#NN  --#NN  运到#NN  屠宰场#NN  --#NN  --#NN  宰杀#VV  --#NN  --#NN  加工#NN  处理#VV  --#NN  --#NN  分离#VV  得到#VV  牛臀肉#NN  --#NN  --#NN  保存#VV  --#NN  --#NN  运输#NN  到#CC  市场#NN  --#NN  --#NN  卖出#NN  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, --#NN, 肉牛#NR)  (case, 肉牛#NR, 的#DEG)  (nn, --#NN, 养殖#NN)  (nn, --#NN, 运到#NN)  (nn, --#NN, 屠宰场#NN)  (root, ROOT#null, 宰杀#VV)  (dobj, 宰杀#VV, 加工#NN)  (conj, 宰杀#VV, 处理#VV)  (mmod, 得到#VV, 分离#VV)  (dep, 宰杀#VV, 得到#VV)  (nn, --#NN, 牛臀肉#NN)  (dep, 得到#VV, 保存#VV)  (conj, 卖出#NN, 运输#NN)  (cc, 卖出#NN, 到#CC)  (nn, 卖出#NN, 市场#NN)  (dobj, 保存#VV, 卖出#NN)
+        </parsing>
+
+        <tag>
+            宰杀加工  运输  市场卖出  保存卖出  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/ac/41/82348_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\894 牛臀肉.jpg
+    </picturelocalurl>
+
+</content>

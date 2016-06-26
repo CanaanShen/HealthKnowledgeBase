@@ -1,0 +1,430 @@
+<content>
+
+    <id>
+        210
+    </id>
+
+    <foodname>
+        藕
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        连菜、菡萏、芙蕖、莲藕、玉节、玉玲珑、玉臂龙
+    </alias>
+
+    <season>
+        5-8月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            产妇不宜过早食用。
+        </rawdata>
+
+        <segment>
+            产妇  不  宜  过早  食用  。
+        </segment>
+
+        <pos>
+            产妇#NN  不#AD  宜#NR  过早#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 过早#VV, 产妇#NN)  (neg, 过早#VV, 不#AD)  (prep, 过早#VV, 宜#NR)  (root, ROOT#null, 过早#VV)  (ccomp, 过早#VV, 食用#VV)
+        </parsing>
+
+        <tag>
+            产妇不宜过早  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜食欲不振、肺炎、肠炎患者、中老年人。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  食欲  不振  、  肺炎  、  肠炎  患者  、  中老年人  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  食欲#NN  不振#VV  、#PU  肺炎#NR  、#PU  肠炎#NR  患者#NN  、#PU  中老年人#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nsubj, 不振#VV, 食欲#NN)  (dep, 适宜#VV, 不振#VV)  (conj, 肠炎#NR, 肺炎#NR)  (nn, 中老年人#NN, 肠炎#NR)  (conj, 中老年人#NN, 患者#NN)  (dep, 不振#VV, 中老年人#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  食欲不振  肺炎  肠炎  患者  中老年人  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                16.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                20
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                10.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.73
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                58
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                243
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                44.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.23
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                0.39
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                1.3
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            藕，又称莲藕，属睡莲科植物，莲的根茎。肥大，有节，中间有一些管状小孔，折断后有丝相连。可以吃，也可作中药。藕原产于印度，后来引入中国。在南北朝时代，藕的种植就已相当普遍，迄今已有三千余年的栽培历史。藕在中国南方诸省均有栽培，藕的品种有两种，即七孔藕与九孔藕。江苏省、浙江省一带较多栽培七孔藕，该品种质地优良，它的根茎粗壮，肉质细嫩，鲜脆甘甜，洁白无瑕，人们均爱食它。莲的各部分名称不同，均可供药用，莲的柄名荷梗，叶名荷叶及荷叶蒂。荷花蕊名莲须，果壳名莲蓬；果实为莲肉或莲子，其中的胚芽名莲心，莲的地根茎名藕。
+            藕生于污泥而一尘不染，中通外直，不蔓不枝，自古就深受人们的喜爱。藕分为红花藕、白花藕和麻花藕三种。红花藕，藕形瘦长，外皮褐黄色、粗糙，含粉多，水分少，不脆嫩；白花藕肥大，外表细嫩光滑，呈银白色，肉质脆嫩多汁，甜味浓郁；麻花藕呈粉红色，外表粗糙，含淀粉多。
+            中国各地著名的藕品有苏州的荷藕，品质优良，在唐代时就列为贡品。其藕有″雪藕″之称，色白如雪，嫩脆甜爽，生吃堪与鸭梨媲美，诗人韩愈曾有″冷比霜雪甘比蜜，一片入口沉疴痊″之赞。湖南省汉寿县西竺乡的白臂藕白如玉，壮如臂、汁如蜜，吃起来嫩脆脆、水汪汪，落口消融，食而无渣。广西贵县大红莲藕，身茎粗大，生吃尤甜，熟食特别绵。据说，清朝乾隆皇帝游江南时，就指名要尝贵县大红莲藕。现在，当地人还喜欢设″全藕席″招待客人。湖北省洪湖藕富含淀粉、蛋白质、维生素等成分，鲜美爽口，早已驰名中外，被誉为″水中之宝″。杭州人则推崇西湖的藕，由于它白嫩如少女之臂，美其名曰″西施臂″。此外著名的莲藕还有安徽省雪湖贡藕，江苏省宝应的美人红，南京的大白花等。
+        </rawdata>
+
+        <segment>
+            藕  ，  又  称  莲藕  ，  属  睡莲  科  植物  ，  莲  的  根茎  。  肥大  ，  有节  ，  中间  有一些  管状  小孔  ，  折断  后  有  丝  相连  。  可以  吃  ，  也  可  作  中药  。  藕原  产于  印度  ，  后来  引入  中国  。  在  南北朝  时代  ，  藕的  种植  就  已  相当  普遍  ，  迄今  已  有  三千余  年  的  栽培  历史  。  藕在  中国  南方  诸  省  均  有  栽培  ，  藕的  品种  有  两  种  ，  即  七  孔  藕  与  九孔藕  。  江苏省  、  浙江省  一带  较  多  栽培  七  孔藕  ，  该  品种  质地  优良  ，  它  的  根茎  粗壮  ，  肉质  细嫩  ，  鲜脆  甘甜  ，  洁白无瑕  ，  人们  均  爱  食  它  。  莲  的  各  部分  名称  不同  ，  均  可  供  药用  ，  莲  的  柄名荷梗  ，  叶  名  荷叶  及  荷叶蒂  。  荷  花蕊  名  莲须  ，  果壳  名  莲蓬  ；  果实  为  莲肉  或  莲子  ，  其中  的  胚芽  名  莲心  ，  莲的地  根茎  名藕  。
+            藕生  于  污泥  而  一尘不染  ，  中  通  外直  ，  不蔓不枝  ，  自古  就  深  受  人们  的  喜爱  。  藕  分为  红花藕  、  白花藕  和  麻花藕  三  种  。  红花藕  ，  藕形  瘦长  ，  外皮  褐黄色  、  粗糙  ，  含粉多  ，  水分  少  ，  不  脆嫩  ；  白花藕  肥大  ，  外表  细嫩  光滑  ，  呈  银白色  ，  肉质  脆嫩  多汁  ，  甜味  浓郁  ；  麻花  藕呈  粉红色  ，  外表  粗糙  ，  含  淀粉多  。
+            中国  各  地  著名  的  藕品  有  苏州  的  荷藕  ，  品质  优良  ，  在  唐代  时  就  列为  贡品  。  其藕  有  ″  雪藕  ″  之  称  ，  色白  如  雪  ，  嫩脆甜爽  ，  生吃  堪  与  鸭梨  媲美  ，  诗人  韩愈  曾  有  ″  冷  比  霜雪  甘比蜜  ，  一  片  入口  沉疴痊  ″  之  赞  。  湖南省  汉寿县  西竺乡  的  白  臂  藕白  如玉  ，  壮  如  臂  、  汁如蜜  ，  吃  起来  嫩脆脆  、  水汪汪  ，  落口  消融  ，  食而无渣  。  广西  贵  县  大红  莲藕  ，  身茎  粗大  ，  生吃  尤  甜  ，  熟食  特别绵  。  据说  ，  清朝  乾隆  皇帝  游  江南  时  ，  就  指名  要  尝贵县  大红  莲藕  。  现在  ，  当地  人  还  喜欢  设  ″  全藕席  ″  招待  客人  。  湖北省  洪湖藕  富含  淀粉  、  蛋白质  、  维生素  等  成分  ，  鲜美  爽口  ，  早  已  驰名  中外  ，  被  誉为  ″  水  中  之  宝  ″  。  杭州人  则  推崇  西湖  的  藕  ，  由于  它  白嫩  如  少女  之  臂  ，  美其  名曰  ″  西施  臂″  。  此外  著名  的  莲藕  还有  安徽省  雪湖贡藕  ，  江苏省  宝应  的  美人  红  ，  南京  的  大白  花  等  。
+        </segment>
+
+        <pos>
+            藕#VA  ，#PU  又#AD  称#VV  莲藕#NN  ，#PU  属#VV  睡莲#NN  科#NN  植物#NN  ，#PU  莲#VV  的#DEC  根茎#NN    。#PU  肥大#NR  ，#PU  有节#NR  ，#PU  中间#NN  有一些#CD  管状#NN  小孔#VV  ，#PU  折断#NN  后#LC  有#VE  丝#NN  相连#VV    。#PU  可以#VV  吃#VV  ，#PU  也#AD  可#VV  作#VV  中药#NN    。#PU  藕原#NN  产于#NN  印度#NR  ，#PU  后来#AD  引入#VV  中国#NR    。#PU  在#P  南北朝#NN  时代#NN  ，#PU  藕的#NN  种植#NN  就#AD  已#AD  相当#AD  普遍#VA  ，#PU  迄今#AD  已#AD  有#VE  三千余#CD  年#M  的#DEC  栽培#VV  历史#NN    。#PU  藕在#NR  中国#NR  南方#NN  诸#DT  省#NN  均#AD  有#VE  栽培#VV  ，#PU  藕的#NN  品种#NN  有#VE  两#CD  种#M  ，#PU  即#AD  七#CD  孔#NR  藕#CD  与#CC  九孔藕#CD    。#PU  江苏省#NR  、#PU  浙江省#NR  一带#CD  较#AD  多#AD  栽培#VV  七#CD  孔藕#NN  ，#PU  该#DT  品种#NN  质地#AD  优良#VA  ，#PU  它#PN  的#DEG  根茎#NN  粗壮#NN  ，#PU  肉质#NN  细嫩#NN  ，#PU  鲜脆#AD  甘甜#VV  ，#PU  洁白无瑕#NN  ，#PU  人们#NN  均#AD  爱#VV  食#NN  它#PN    。#PU  莲#NN  的#DEG  各#DT  部分#M  名称#NN  不同#VA  ，#PU  均#AD  可#VV  供#NN  药用#NN  ，#PU  莲#NN  的#DEG  柄名荷梗#NN  ，#PU  叶#NR  名#NN  荷叶#VA  及#CC  荷叶蒂#VA    。#PU  荷#VV  花蕊#CD  名#M  莲须#NN  ，#PU  果壳#CD  名#M  莲蓬#VV  ；#PU  果实#NN  为#VC  莲肉#CD  或#CC  莲子#CD  ，#PU  其中#NN  的#DEG  胚芽#CD  名#M  莲心#NN  ，#PU  莲的地#AD  根茎#VV  名藕#NN    。#PU    。#PU
+            藕生#NN  于#P  污泥#CD  而#CC  一尘不染#CD  ，#PU  中#NR  通#VV  外直#NN  ，#PU  不蔓不枝#VV  ，#PU  自古#AD  就#AD  深#AD  受#VV  人们#NN  的#DEG  喜爱#NN    。#PU  藕#NN  分为#VV  红花藕#NR  、#PU  白花藕#NR  和#CC  麻花藕#NR  三#CD  种#M    。#PU  红花藕#VV  ，#PU  藕形#VV  瘦长#NN  ，#PU  外皮#VV  褐黄色#NR  、#PU  粗糙#NR  ，#PU  含粉多#VV  ，#PU  水分#AD  少#VA  ，#PU  不#AD  脆嫩#VV  ；#PU  白花藕#VV  肥大#NN  ，#PU  外表#VV  细嫩#NN  光滑#NN  ，#PU  呈#VV  银白色#NN  ，#PU  肉质#VV  脆嫩#NN  多汁#NN  ，#PU  甜味#AD  浓郁#VA  ；#PU  麻花#VV  藕呈#NN  粉红色#NN  ，#PU  外表#VV  粗糙#NN  ，#PU  含#VV  淀粉多#NN    。#PU    。#PU
+            中国#NR  各#DT  地#NN  著名#VA  的#DEC  藕品#NN  有#VE  苏州#NR  的#DEG  荷藕#NN  ，#PU  品质#NN  优良#VA  ，#PU  在#P  唐代#NN  时#LC  就#AD  列为#VV  贡品#NN    。#PU  其藕#NN  有#VE  ″#NN  雪藕#NN  ″#NN  之#DEG  称#NN  ，#PU  色白#VV  如#AD  雪#NN  ，#PU  嫩脆甜爽#NN  ，#PU  生吃#NN  堪#NN  与#P  鸭梨#NN  媲美#VV  ，#PU  诗人#NN  韩愈#NN  曾#AD  有#VE  ″#NN  冷#NN  比#P  霜雪#NN  甘比蜜#VV  ，#PU  一#CD  片#M  入口#NN  沉疴痊#VV  ″#NN  之#DEG  赞#NN    。#PU  湖南省#NR  汉寿县#NN  西竺乡#NN  的#DEG  白#JJ  臂#NN  藕白#NN  如玉#VV  ，#PU  壮#JJ  如#AD  臂#NN  、#PU  汁如蜜#NN  ，#PU  吃#VV  起来#VV  嫩脆脆#NN  、#PU  水汪汪#NN  ，#PU  落口#VV  消融#NN  ，#PU  食而无渣#VV    。#PU  广西#NR  贵#JJ  县#NN  大红#NN  莲藕#VV  ，#PU  身茎#NN  粗大#NN  ，#PU  生吃#AD  尤#VV  甜#NN  ，#PU  熟食#VV  特别绵#NN    。#PU  据说#AD  ，#PU  清朝#NR  乾隆#NN  皇帝#NN  游#NN  江南#NN  时#LC  ，#PU  就#AD  指名#VV  要#VV  尝贵县#VV  大红#NN  莲藕#NN    。#PU  现在#NT  ，#PU  当地#NN  人#NN  还#AD  喜欢#VV  设#VV  ″#NN  全藕席#NN  ″#NN  招待#VV  客人#NN    。#PU  湖北省#NR  洪湖藕#AD  富含#VV  淀粉#NN  、#PU  蛋白质#NN  、#PU  维生素#NN  等#ETC  成分#NN  ，#PU  鲜美#VV  爽口#NN  ，#PU  早#AD  已#AD  驰名#VV  中外#NN  ，#PU  被#SB  誉为#VV  ″#NN  水#NN  中#LC  之#DEG  宝#NN  ″#NN    。#PU  杭州人#NN  则#AD  推崇#VV  西湖#NN  的#DEG  藕#NN  ，#PU  由于#P  它#PN  白嫩#VV  如#AD  少女#NN  之#DEG  臂#NN  ，#PU  美其#NN  名曰#NN  ″#NN  西施#AD  臂#VV  ″#NN    。#PU  此外#AD  著名#VA  的#DEC  莲藕#NN  还有#AD  安徽省#NR  雪湖贡藕#VV  ，#PU  江苏省#NR  宝应#NN  的#DEG  美人#NN  红#VA  ，#PU  南京#NR  的#DEG  大白#NN  花#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 根茎#NN, 藕#VA)  (advmod, 称#VV, 又#AD)  (conj, 藕#VA, 称#VV)  (dobj, 称#VV, 莲藕#NN)  (dep, 藕#VA, 属#VV)  (nn, 植物#NN, 睡莲#NN)  (nn, 植物#NN, 科#NN)  (dobj, 属#VV, 植物#NN)  (conj, 藕#VA, 莲#VV)  (mark, 藕#VA, 的#DEC)  (root, ROOT#null, 根茎#NN)   (nsubj, 小孔#VV, 肥大#NR)  (nsubj, 小孔#VV, 有节#NR)  (nsubj, 小孔#VV, 中间#NN)  (nummod, 管状#NN, 有一些#CD)  (nsubj, 小孔#VV, 管状#NN)  (root, ROOT#null, 小孔#VV)  (loc, 有#VE, 折断#NN)  (case, 折断#NN, 后#LC)  (ccomp, 小孔#VV, 有#VE)  (nsubj, 相连#VV, 丝#NN)  (dep, 有#VE, 相连#VV)   (mmod, 吃#VV, 可以#VV)  (root, ROOT#null, 吃#VV)  (advmod, 作#VV, 也#AD)  (mmod, 作#VV, 可#VV)  (dep, 吃#VV, 作#VV)  (dobj, 作#VV, 中药#NN)   (nn, 产于#NN, 藕原#NN)  (nsubj, 引入#VV, 产于#NN)  (nsubj, 引入#VV, 印度#NR)  (advmod, 引入#VV, 后来#AD)  (root, ROOT#null, 引入#VV)  (dobj, 引入#VV, 中国#NR)   (case, 时代#NN, 在#P)  (nn, 时代#NN, 南北朝#NN)  (prep, 普遍#VA, 时代#NN)  (nn, 种植#NN, 藕的#NN)  (nsubj, 普遍#VA, 种植#NN)  (advmod, 普遍#VA, 就#AD)  (advmod, 普遍#VA, 已#AD)  (advmod, 普遍#VA, 相当#AD)  (nsubj, 栽培#VV, 普遍#VA)  (advmod, 有#VE, 迄今#AD)  (advmod, 有#VE, 已#AD)  (conj, 普遍#VA, 有#VE)  (nummod, 年#M, 三千余#CD)  (dep, 有#VE, 年#M)  (mark, 普遍#VA, 的#DEC)  (root, ROOT#null, 栽培#VV)  (dobj, 栽培#VV, 历史#NN)   (nn, 南方#NN, 藕在#NR)  (nn, 南方#NN, 中国#NR)  (nsubj, 有#VE, 南方#NN)  (det, 省#NN, 诸#DT)  (nsubj, 有#VE, 省#NN)  (advmod, 有#VE, 均#AD)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 栽培#VV)  (nn, 品种#NN, 藕的#NN)  (dep, 有#VE, 品种#NN)  (conj, 栽培#VV, 有#VE)  (nummod, 种#M, 两#CD)  (dep, 有#VE, 种#M)  (advmod, 孔#NR, 即#AD)  (nummod, 孔#NR, 七#CD)  (nsubj, 九孔藕#CD, 孔#NR)  (nummod, 九孔藕#CD, 藕#CD)  (cc, 九孔藕#CD, 与#CC)  (conj, 栽培#VV, 九孔藕#CD)   (conj, 浙江省#NR, 江苏省#NR)  (nsubj, 栽培#VV, 浙江省#NR)  (nsubj, 栽培#VV, 一带#CD)  (advmod, 栽培#VV, 较#AD)  (advmod, 栽培#VV, 多#AD)  (root, ROOT#null, 栽培#VV)  (nummod, 孔藕#NN, 七#CD)  (dobj, 栽培#VV, 孔藕#NN)  (det, 品种#NN, 该#DT)  (nsubj, 优良#VA, 品种#NN)  (advmod, 优良#VA, 质地#AD)  (conj, 栽培#VV, 优良#VA)  (assmod, 粗壮#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nn, 粗壮#NN, 根茎#NN)  (nsubj, 甘甜#VV, 粗壮#NN)  (nn, 细嫩#NN, 肉质#NN)  (nsubj, 甘甜#VV, 细嫩#NN)  (advmod, 甘甜#VV, 鲜脆#AD)  (conj, 栽培#VV, 甘甜#VV)  (nsubj, 爱#VV, 洁白无瑕#NN)  (nsubj, 爱#VV, 人们#NN)  (advmod, 爱#VV, 均#AD)  (conj, 栽培#VV, 爱#VV)  (dobj, 爱#VV, 食#NN)  (dobj, 爱#VV, 它#PN)  (range, 爱#VV, 它#PN)   (assmod, 名称#NN, 莲#NN)  (case, 莲#NN, 的#DEG)  (det, 名称#NN, 各#DT)  (clf, 各#DT, 部分#M)  (nsubj, 不同#VA, 名称#NN)  (root, ROOT#null, 不同#VA)  (advmod, 可#VV, 均#AD)  (conj, 不同#VA, 可#VV)  (nn, 药用#NN, 供#NN)  (dobj, 可#VV, 药用#NN)  (assmod, 柄名荷梗#NN, 莲#NN)  (case, 莲#NN, 的#DEG)  (nsubj, 荷叶#VA, 柄名荷梗#NN)  (nn, 名#NN, 叶#NR)  (nsubj, 荷叶#VA, 名#NN)  (conj, 不同#VA, 荷叶#VA)  (cc, 荷叶#VA, 及#CC)  (dep, 荷叶#VA, 荷叶蒂#VA)   (root, ROOT#null, 荷#VV)  (nummod, 名#M, 花蕊#CD)  (clf, 莲须#NN, 名#M)  (dobj, 荷#VV, 莲须#NN)  (nummod, 名#M, 果壳#CD)  (dep, 莲蓬#VV, 名#M)  (conj, 荷#VV, 莲蓬#VV)  (nsubj, 为#VC, 果实#NN)  (ccomp, 莲蓬#VV, 为#VC)  (nummod, 莲子#CD, 莲肉#CD)  (cc, 莲子#CD, 或#CC)  (dep, 为#VC, 莲子#CD)  (assmod, 莲心#NN, 其中#NN)  (case, 其中#NN, 的#DEG)  (nummod, 名#M, 胚芽#CD)  (clf, 莲心#NN, 名#M)  (nsubj, 根茎#VV, 莲心#NN)  (advmod, 根茎#VV, 莲的地#AD)  (conj, 为#VC, 根茎#VV)  (dobj, 根茎#VV, 名藕#NN)   (root, ROOT#null, null#null)
+            (nsubj, 通#VV, 藕生#NN)  (case, 一尘不染#CD, 于#P)  (nummod, 一尘不染#CD, 污泥#CD)  (cc, 一尘不染#CD, 而#CC)  (prep, 通#VV, 一尘不染#CD)  (nsubj, 通#VV, 中#NR)  (root, ROOT#null, 通#VV)  (dobj, 通#VV, 外直#NN)  (conj, 通#VV, 不蔓不枝#VV)  (advmod, 受#VV, 自古#AD)  (advmod, 受#VV, 就#AD)  (advmod, 受#VV, 深#AD)  (conj, 通#VV, 受#VV)  (assmod, 喜爱#NN, 人们#NN)  (case, 人们#NN, 的#DEG)  (dobj, 受#VV, 喜爱#NN)   (nsubj, 分为#VV, 藕#NN)  (root, ROOT#null, 分为#VV)  (conj, 麻花藕#NR, 红花藕#NR)  (conj, 麻花藕#NR, 白花藕#NR)  (cc, 麻花藕#NR, 和#CC)  (dobj, 分为#VV, 麻花藕#NR)  (nummod, 种#M, 三#CD)  (range, 分为#VV, 种#M)   (root, ROOT#null, 红花藕#VV)  (conj, 红花藕#VV, 藕形#VV)  (dobj, 藕形#VV, 瘦长#NN)  (conj, 红花藕#VV, 外皮#VV)  (conj, 粗糙#NR, 褐黄色#NR)  (dobj, 外皮#VV, 粗糙#NR)  (conj, 红花藕#VV, 含粉多#VV)  (advmod, 少#VA, 水分#AD)  (conj, 红花藕#VV, 少#VA)  (neg, 脆嫩#VV, 不#AD)  (conj, 红花藕#VV, 脆嫩#VV)  (conj, 红花藕#VV, 白花藕#VV)  (dobj, 白花藕#VV, 肥大#NN)  (conj, 红花藕#VV, 外表#VV)  (nn, 光滑#NN, 细嫩#NN)  (dobj, 外表#VV, 光滑#NN)  (conj, 红花藕#VV, 呈#VV)  (dobj, 呈#VV, 银白色#NN)  (dep, 红花藕#VV, 肉质#VV)  (nn, 多汁#NN, 脆嫩#NN)  (dobj, 肉质#VV, 多汁#NN)  (advmod, 浓郁#VA, 甜味#AD)  (conj, 红花藕#VV, 浓郁#VA)  (conj, 红花藕#VV, 麻花#VV)  (nn, 粉红色#NN, 藕呈#NN)  (dobj, 麻花#VV, 粉红色#NN)  (conj, 麻花#VV, 外表#VV)  (dobj, 外表#VV, 粗糙#NN)  (conj, 麻花#VV, 含#VV)  (dobj, 含#VV, 淀粉多#NN)   (root, ROOT#null, null#null)
+            (nn, 地#NN, 中国#NR)  (det, 地#NN, 各#DT)  (nsubj, 著名#VA, 地#NN)  (relcl, 藕品#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (dep, 有#VE, 藕品#NN)  (root, ROOT#null, 有#VE)  (assmod, 荷藕#NN, 苏州#NR)  (case, 苏州#NR, 的#DEG)  (dobj, 有#VE, 荷藕#NN)  (nsubj, 优良#VA, 品质#NN)  (conj, 有#VE, 优良#VA)  (case, 唐代#NN, 在#P)  (prep, 列为#VV, 唐代#NN)  (case, 唐代#NN, 时#LC)  (advmod, 列为#VV, 就#AD)  (conj, 有#VE, 列为#VV)  (dobj, 列为#VV, 贡品#NN)   (nsubj, 有#VE, 其藕#NN)  (root, ROOT#null, 有#VE)  (nn, ″#NN, ″#NN)  (nn, ″#NN, 雪藕#NN)  (assmod, 称#NN, ″#NN)  (case, ″#NN, 之#DEG)  (dobj, 有#VE, 称#NN)  (conj, 有#VE, 色白#VV)  (advmod, 雪#NN, 如#AD)  (dobj, 色白#VV, 雪#NN)  (nsubj, 媲美#VV, 嫩脆甜爽#NN)  (nn, 堪#NN, 生吃#NN)  (nsubj, 媲美#VV, 堪#NN)  (case, 鸭梨#NN, 与#P)  (prep, 媲美#VV, 鸭梨#NN)  (conj, 有#VE, 媲美#VV)  (nn, 韩愈#NN, 诗人#NN)  (nsubj, 有#VE, 韩愈#NN)  (advmod, 有#VE, 曾#AD)  (conj, 有#VE, 有#VE)  (nn, 冷#NN, ″#NN)  (nsubj, 甘比蜜#VV, 冷#NN)  (case, 霜雪#NN, 比#P)  (prep, 甘比蜜#VV, 霜雪#NN)  (dep, 有#VE, 甘比蜜#VV)  (nummod, 片#M, 一#CD)  (clf, 入口#NN, 片#M)  (nsubj, 沉疴痊#VV, 入口#NN)  (conj, 有#VE, 沉疴痊#VV)  (assmod, 赞#NN, ″#NN)  (case, ″#NN, 之#DEG)  (dobj, 沉疴痊#VV, 赞#NN)   (nn, 西竺乡#NN, 湖南省#NR)  (nn, 西竺乡#NN, 汉寿县#NN)  (assmod, 藕白#NN, 西竺乡#NN)  (case, 西竺乡#NN, 的#DEG)  (amod, 藕白#NN, 白#JJ)  (nn, 藕白#NN, 臂#NN)  (nsubj, 如玉#VV, 藕白#NN)  (root, ROOT#null, 如玉#VV)  (amod, 汁如蜜#NN, 壮#JJ)  (advmod, 汁如蜜#NN, 如#AD)  (conj, 汁如蜜#NN, 臂#NN)  (nsubj, 吃#VV, 汁如蜜#NN)  (ccomp, 如玉#VV, 吃#VV)  (rcomp, 吃#VV, 起来#VV)  (conj, 水汪汪#NN, 嫩脆脆#NN)  (dobj, 吃#VV, 水汪汪#NN)  (conj, 吃#VV, 落口#VV)  (dobj, 落口#VV, 消融#NN)  (conj, 吃#VV, 食而无渣#VV)   (nn, 县#NN, 广西#NR)  (amod, 县#NN, 贵#JJ)  (nn, 大红#NN, 县#NN)  (nsubj, 莲藕#VV, 大红#NN)  (root, ROOT#null, 莲藕#VV)  (nn, 粗大#NN, 身茎#NN)  (nsubj, 尤#VV, 粗大#NN)  (advmod, 尤#VV, 生吃#AD)  (ccomp, 莲藕#VV, 尤#VV)  (dobj, 尤#VV, 甜#NN)  (dep, 尤#VV, 熟食#VV)  (dobj, 熟食#VV, 特别绵#NN)   (advmod, 指名#VV, 据说#AD)  (nn, 游#NN, 清朝#NR)  (nn, 游#NN, 乾隆#NN)  (nn, 游#NN, 皇帝#NN)  (nn, 江南#NN, 游#NN)  (loc, 指名#VV, 江南#NN)  (case, 江南#NN, 时#LC)  (advmod, 指名#VV, 就#AD)  (dep, 尝贵县#VV, 指名#VV)  (mmod, 尝贵县#VV, 要#VV)  (root, ROOT#null, 尝贵县#VV)  (nn, 莲藕#NN, 大红#NN)  (dobj, 尝贵县#VV, 莲藕#NN)   (tmod, 喜欢#VV, 现在#NT)  (xsubj, 设#VV, 现在#NT)  (nsubj, 喜欢#VV, 当地#NN)  (xsubj, 设#VV, 当地#NN)  (nsubj, 喜欢#VV, 人#NN)  (xsubj, 设#VV, 人#NN)  (advmod, 喜欢#VV, 还#AD)  (root, ROOT#null, 喜欢#VV)  (ccomp, 喜欢#VV, 设#VV)  (nn, ″#NN, ″#NN)  (nn, ″#NN, 全藕席#NN)  (dobj, 设#VV, ″#NN)  (conj, 设#VV, 招待#VV)  (dobj, 招待#VV, 客人#NN)   (nsubj, 富含#VV, 湖北省#NR)  (advmod, 富含#VV, 洪湖藕#AD)  (root, ROOT#null, 富含#VV)  (conj, 维生素#NN, 淀粉#NN)  (conj, 维生素#NN, 蛋白质#NN)  (nn, 成分#NN, 维生素#NN)  (etc, 维生素#NN, 等#ETC)  (dobj, 富含#VV, 成分#NN)  (conj, 富含#VV, 鲜美#VV)  (dobj, 鲜美#VV, 爽口#NN)  (advmod, 驰名#VV, 早#AD)  (advmod, 驰名#VV, 已#AD)  (conj, 富含#VV, 驰名#VV)  (dobj, 驰名#VV, 中外#NN)  (auxpass, 誉为#VV, 被#SB)  (conj, 富含#VV, 誉为#VV)  (nn, 水#NN, ″#NN)  (assmod, ″#NN, 水#NN)  (case, 水#NN, 中#LC)  (case, 水#NN, 之#DEG)  (nn, ″#NN, 宝#NN)  (dobj, 誉为#VV, ″#NN)   (nsubj, 推崇#VV, 杭州人#NN)  (advmod, 推崇#VV, 则#AD)  (root, ROOT#null, 推崇#VV)  (assmod, 藕#NN, 西湖#NN)  (case, 西湖#NN, 的#DEG)  (dobj, 推崇#VV, 藕#NN)  (case, 白嫩#VV, 由于#P)  (nsubj, 白嫩#VV, 它#PN)  (prep, 臂#VV, 白嫩#VV)  (advmod, 少女#NN, 如#AD)  (assmod, 臂#NN, 少女#NN)  (case, 少女#NN, 之#DEG)  (dobj, 白嫩#VV, 臂#NN)  (nn, ″#NN, 美其#NN)  (nn, ″#NN, 名曰#NN)  (nsubj, 臂#VV, ″#NN)  (advmod, 臂#VV, 西施#AD)  (conj, 推崇#VV, 臂#VV)  (dobj, 臂#VV, ″#NN)   (advmod, 雪湖贡藕#VV, 此外#AD)  (relcl, 莲藕#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (nsubj, 雪湖贡藕#VV, 莲藕#NN)  (advmod, 雪湖贡藕#VV, 还有#AD)  (nsubj, 雪湖贡藕#VV, 安徽省#NR)  (root, ROOT#null, 雪湖贡藕#VV)  (nn, 宝应#NN, 江苏省#NR)  (assmod, 美人#NN, 宝应#NN)  (case, 宝应#NN, 的#DEG)  (nsubj, 红#VA, 美人#NN)  (conj, 雪湖贡藕#VV, 红#VA)  (assmod, 大白#NN, 南京#NR)  (case, 南京#NR, 的#DEG)  (nsubj, 花#NN, 大白#NN)  (conj, 雪湖贡藕#VV, 花#NN)  (etc, 花#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            睡莲植物  小孔  引入  南北朝时代  种植普遍  栽培历史  浙江省  江苏省  品种优良  根茎粗壮  肉质细嫩  名称不同  柄名荷梗荷叶  名荷叶  分为  褐黄色  细嫩光滑  外表光滑  脆嫩多汁  肉质多汁  麻花粉红色  外表粗糙  地著名  品质优良  列为贡品  色白雪  诗人韩愈  沉疴痊赞  汉寿县西竺乡  如玉  壮汁如蜜  水汪汪  嫩脆脆  落口消融  贵县  身茎粗大  熟食特别绵  喜欢  招待客人  富含  维生素  淀粉  蛋白质  鲜美爽口  驰名中外  誉为″  推崇  白嫩臂  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            藕，味甘、性寒；归心、脾、胃、肝、肺经。清热生津；凉血；散瘀；止血。主热病烦渴；吐衄；下血。
+            1.强健胃粘膜
+            维生素C和蛋白质一起发挥效用，能结合各种细胞，促进骨胶原的生成，起到强健胃粘膜的作用。
+            2.预防贫血
+            预防贫血，协助肝脏的运动。
+            3.改善肠胃
+            单宁具有消炎和收敛的作用，改善肠胃疲劳。莲藕还有含有黏蛋白的一种糖类蛋白质，能促进蛋白质和脂肪的消化，因此可以减轻肠胃负担。
+            4.止血
+            莲藕对血小板减少、性紫癜有一定疗效。对血热引起的出血也有疗效。另外藕粉调补脾肾、滋肾养肝、补髓益血。
+        </rawdata>
+
+        <segment>
+            藕  ，  味甘  、  性寒  ；  归心  、  脾  、  胃  、  肝  、  肺经  。  清热  生津  ；  凉血  ；  散瘀  ；  止血  。  主  热病  烦渴  ；  吐衄  ；  下  血  。
+            强  健胃  粘膜
+            维生素C  和  蛋白质  一起  发挥  效用  ，  能  结合  各  种  细胞  ，  促进  骨胶原  的  生成  ，  起到  强健  胃  粘膜  的  作用  。
+            预防  贫血
+            预防  贫血  ，  协助  肝脏  的  运动  。
+            改善  肠胃
+            单宁  具有  消炎  和  收敛  的  作用  ，  改善  肠胃  疲劳  。  莲藕  还有  含有  黏  蛋白  的  一  种  糖类  蛋白质  ，  能  促进  蛋白质  和  脂肪  的  消化  ，  因此  可以  减轻  肠胃  负担  。
+            止血
+            莲藕  对  血  小板  减少  、  性  紫癜  有  一定  疗效  。  对  血  热  引起  的  出血  也  有  疗效  。  另外  藕粉  调补脾  肾  、  滋肾  养肝  、  补髓  益  血  。
+        </segment>
+
+        <pos>
+            藕#VV  ，#PU  味甘#VV  、#PU  性寒#VV  ；#PU  归心#NR  、#PU  脾#NR  、#PU  胃#NR  、#PU  肝#NR  、#PU  肺经#NR    。#PU  清热#NR  生津#VV  ；#PU  凉血#VV  ；#PU  散瘀#VV  ；#PU  止血#VV    。#PU  主#JJ  热病#NN  烦渴#VV  ；#PU  吐衄#VV  ；#PU  下#VV  血#NN    。#PU    。#PU
+            强#JJ  健胃#NN  粘膜#VV
+            维生素C#NR  和#CC  蛋白质#NR  一起#AD  发挥#VV  效用#NN  ，#PU  能#VV  结合#VV  各#DT  种#M  细胞#NN  ，#PU  促进#VV  骨胶原#NN  的#DEG  生成#NN  ，#PU  起到#VV  强健#NN  胃#NN  粘膜#NN  的#DEG  作用#NN  。#PU
+            预防#NN  贫血#VV
+            预防#VV  贫血#NN  ，#PU  协助#VV  肝脏#NN  的#DEG  运动#NN  。#PU
+            改善#VV  肠胃#NN
+            单宁#VV  具有#VV  消炎#NN  和#CC  收敛#NN  的#DEC  作用#NN  ，#PU  改善#VV  肠胃#NN  疲劳#VA    。#PU  莲藕#VV  还有#AD  含有#NN  黏#AD  蛋白#VA  的#DEC  一#CD  种#M  糖类#NN  蛋白质#NN  ，#PU  能#VV  促进#VV  蛋白质#NN  和#CC  脂肪#NN  的#DEG  消化#NN  ，#PU  因此#AD  可以#VV  减轻#VV  肠胃#NN  负担#NN    。#PU    。#PU
+            止血#VV
+            莲藕#NN  对#P  血#NN  小板#NN  减少#NN  、#PU  性#NN  紫癜#NN  有#VE  一定#JJ  疗效#NN    。#PU  对#P  血#NN  热#NN  引起#VV  的#DEC  出血#VV  也#AD  有#VE  疗效#NN    。#PU  另外#JJ  藕粉#NN  调补脾#VV  肾#NR  、#PU  滋肾#NR  养肝#NR  、#PU  补髓#NR  益#JJ  血#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 藕#VV)  (conj, 藕#VV, 味甘#VV)  (dep, 藕#VV, 性寒#VV)  (conj, 肺经#NR, 归心#NR)  (conj, 肺经#NR, 脾#NR)  (conj, 肺经#NR, 胃#NR)  (conj, 肺经#NR, 肝#NR)  (dobj, 性寒#VV, 肺经#NR)   (nsubj, 生津#VV, 清热#NR)  (root, ROOT#null, 生津#VV)  (ccomp, 生津#VV, 凉血#VV)  (dep, 凉血#VV, 散瘀#VV)  (dep, 凉血#VV, 止血#VV)   (amod, 热病#NN, 主#JJ)  (nsubj, 烦渴#VV, 热病#NN)  (root, ROOT#null, 烦渴#VV)  (ccomp, 烦渴#VV, 吐衄#VV)  (ccomp, 吐衄#VV, 下#VV)  (dobj, 下#VV, 血#NN)   (root, ROOT#null, null#null)
+            (amod, 健胃#NN, 强#JJ)  (nsubj, 粘膜#VV, 健胃#NN)  (root, ROOT#null, 粘膜#VV)
+            (conj, 蛋白质#NR, 维生素C#NR)  (cc, 蛋白质#NR, 和#CC)  (nsubj, 发挥#VV, 蛋白质#NR)  (advmod, 发挥#VV, 一起#AD)  (root, ROOT#null, 发挥#VV)  (dobj, 发挥#VV, 效用#NN)  (mmod, 结合#VV, 能#VV)  (dep, 发挥#VV, 结合#VV)  (det, 细胞#NN, 各#DT)  (clf, 各#DT, 种#M)  (dobj, 结合#VV, 细胞#NN)  (conj, 结合#VV, 促进#VV)  (assmod, 生成#NN, 骨胶原#NN)  (case, 骨胶原#NN, 的#DEG)  (dobj, 促进#VV, 生成#NN)  (conj, 结合#VV, 起到#VV)  (nn, 粘膜#NN, 强健#NN)  (nn, 粘膜#NN, 胃#NN)  (assmod, 作用#NN, 粘膜#NN)  (case, 粘膜#NN, 的#DEG)  (dobj, 起到#VV, 作用#NN)
+            (nsubj, 贫血#VV, 预防#NN)  (root, ROOT#null, 贫血#VV)
+            (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 贫血#NN)  (conj, 预防#VV, 协助#VV)  (assmod, 运动#NN, 肝脏#NN)  (case, 肝脏#NN, 的#DEG)  (dobj, 协助#VV, 运动#NN)
+            (root, ROOT#null, 改善#VV)  (dobj, 改善#VV, 肠胃#NN)
+            (root, ROOT#null, 单宁#VV)  (relcl, 作用#NN, 具有#VV)  (conj, 收敛#NN, 消炎#NN)  (cc, 收敛#NN, 和#CC)  (dobj, 具有#VV, 收敛#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 单宁#VV, 作用#NN)  (conj, 单宁#VV, 改善#VV)  (dobj, 改善#VV, 肠胃#NN)  (conj, 改善#VV, 疲劳#VA)   (root, ROOT#null, 莲藕#VV)  (advmod, 蛋白#VA, 还有#AD)  (nsubj, 蛋白#VA, 含有#NN)  (advmod, 蛋白#VA, 黏#AD)  (relcl, 蛋白质#NN, 蛋白#VA)  (mark, 蛋白#VA, 的#DEC)  (nummod, 种#M, 一#CD)  (clf, 蛋白质#NN, 种#M)  (nn, 蛋白质#NN, 糖类#NN)  (dobj, 莲藕#VV, 蛋白质#NN)  (mmod, 促进#VV, 能#VV)  (conj, 莲藕#VV, 促进#VV)  (conj, 脂肪#NN, 蛋白质#NN)  (cc, 脂肪#NN, 和#CC)  (assmod, 消化#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (dobj, 促进#VV, 消化#NN)  (advmod, 减轻#VV, 因此#AD)  (mmod, 减轻#VV, 可以#VV)  (conj, 莲藕#VV, 减轻#VV)  (nn, 负担#NN, 肠胃#NN)  (dobj, 减轻#VV, 负担#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 止血#VV)
+            (nsubj, 有#VE, 莲藕#NN)  (case, 紫癜#NN, 对#P)  (nn, 紫癜#NN, 血#NN)  (nn, 紫癜#NN, 小板#NN)  (conj, 紫癜#NN, 减少#NN)  (nn, 紫癜#NN, 性#NN)  (prep, 有#VE, 紫癜#NN)  (root, ROOT#null, 有#VE)  (amod, 疗效#NN, 一定#JJ)  (dobj, 有#VE, 疗效#NN)   (case, 热#NN, 对#P)  (nn, 热#NN, 血#NN)  (prep, 引起#VV, 热#NN)  (nsubj, 有#VE, 引起#VV)  (mark, 引起#VV, 的#DEC)  (mmod, 有#VE, 出血#VV)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 疗效#NN)   (amod, 藕粉#NN, 另外#JJ)  (nsubj, 调补脾#VV, 藕粉#NN)  (root, ROOT#null, 调补脾#VV)  (conj, 补髓#NR, 肾#NR)  (nn, 补髓#NR, 滋肾#NR)  (conj, 补髓#NR, 养肝#NR)  (nn, 血#NN, 补髓#NR)  (amod, 血#NN, 益#JJ)  (dobj, 调补脾#VV, 血#NN)
+        </parsing>
+
+        <tag>
+            肺经  归心  生津  主热病  烦渴  强健胃  维生素C  发挥效用  结合细胞  骨胶原  促进生成  强健粘膜  预防贫血  协助运动  改善肠胃  单宁  收敛  消炎  含有蛋白  蛋白质蛋白  糖类蛋白质  脂肪  促进消化  肠胃负担  减轻负担  止血  小板紫癜  减少  一定疗效  补髓  养肝  益血  调补脾血  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        减肥  促进消化  生津止渴  清热  凉血  止血  活血祛瘀
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.莲藕的热量和土豆相当，碳水化合物和脂肪的含量比较低，蛋白质的量较土豆稍高。
+            2.莲藕中含有维生素和微量元素，尤其是维生素K、维生素C，铁和钾的含量较高。
+            3.莲藕中含有黏液蛋白和膳食纤维，能与人体内胆酸盐，食物中的胆固醇及甘油三酯结合，使其从粪便中排出，从而减少脂类的吸收。
+            4.藕含有大量的单宁酸和丰富的植物纤维、维生素  B12。
+        </rawdata>
+
+        <segment>
+            莲藕  的  热量  和  土豆  相当  ，  碳水化合物  和  脂肪  的  含量  比较  低  ，  蛋白质  的  量  较  土豆  稍高  。
+            莲藕  中  含有  维生素  和  微量  元素  ，  尤其是  维生素K  、  维生素C  ，  铁  和  钾  的  含量  较  高  。
+            莲藕  中  含有  黏液  蛋白  和  膳食  纤维  ，  能  与  人体  内胆  酸盐  ，  食物  中  的  胆固醇  及  甘油  三  酯  结合  ，  使  其  从  粪便  中  排出  ，  从而  减少  脂类  的  吸收  。
+            藕  含有  大量  的  单宁酸  和  丰富  的  植物  纤维  、  维生素  B  12  。
+        </segment>
+
+        <pos>
+            莲藕#NN  的#DEG  热量#NN  和#CC  土豆#NN  相当#AD  ，#PU  碳水化合物#NN  和#CC  脂肪#NN  的#DEG  含量#NN  比较#AD  低#VA  ，#PU  蛋白质#VA  的#DEC  量#NN  较#AD  土豆#VV  稍高#NN  。#PU
+            莲藕#NN  中#LC  含有#VV  维生素#NN  和#CC  微量#NN  元素#NN  ，#PU  尤其是#AD  维生素K#NN  、#PU  维生素C#NN  ，#PU  铁#NN  和#CC  钾#NN  的#DEG  含量#NN  较#AD  高#VA  。#PU
+            莲藕#NN  中#LC  含有#AD  黏液#VV  蛋白#NN  和#CC  膳食#NN  纤维#NN  ，#PU  能#VV  与#P  人体#NN  内胆#VV  酸盐#NN  ，#PU  食物#NN  中#LC  的#DEG  胆固醇#NN  及#CC  甘油#NR  三#CD  酯#NN  结合#VV  ，#PU  使#VV  其#PN  从#P  粪便#NN  中#LC  排出#VV  ，#PU  从而#AD  减少#VV  脂类#NN  的#DEG  吸收#NN  。#PU
+            藕#NN  含有#VV  大量#CD  的#DEG  单宁酸#NN  和#CC  丰富#VA  的#DEC  植物#NN  纤维#NN  、#PU  维生素#NN  B#NN  12#CD  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 土豆#NN, 莲藕#NN)  (case, 莲藕#NN, 的#DEG)  (conj, 土豆#NN, 热量#NN)  (cc, 土豆#NN, 和#CC)  (nsubj, 土豆#VV, 土豆#NN)  (advmod, 土豆#VV, 相当#AD)  (conj, 脂肪#NN, 碳水化合物#NN)  (cc, 脂肪#NN, 和#CC)  (assmod, 含量#NN, 脂肪#NN)  (case, 脂肪#NN, 的#DEG)  (nsubj, 低#VA, 含量#NN)  (advmod, 低#VA, 比较#AD)  (relcl, 量#NN, 低#VA)  (conj, 低#VA, 蛋白质#VA)  (mark, 低#VA, 的#DEC)  (dobj, 土豆#VV, 量#NN)  (advmod, 土豆#VV, 较#AD)  (root, ROOT#null, 土豆#VV)  (dobj, 土豆#VV, 稍高#NN)
+            (loc, 含有#VV, 莲藕#NN)  (case, 莲藕#NN, 中#LC)  (root, ROOT#null, 含有#VV)  (conj, 微量#NN, 维生素#NN)  (cc, 微量#NN, 和#CC)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)  (advmod, 维生素C#NN, 尤其是#AD)  (conj, 维生素C#NN, 维生素K#NN)  (nsubj, 高#VA, 维生素C#NN)  (conj, 钾#NN, 铁#NN)  (cc, 钾#NN, 和#CC)  (assmod, 含量#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 含有#VV, 高#VA)
+            (loc, 黏液#VV, 莲藕#NN)  (case, 莲藕#NN, 中#LC)  (advmod, 黏液#VV, 含有#AD)  (root, ROOT#null, 黏液#VV)  (conj, 膳食#NN, 蛋白#NN)  (cc, 膳食#NN, 和#CC)  (nn, 纤维#NN, 膳食#NN)  (dobj, 黏液#VV, 纤维#NN)  (mmod, 内胆#VV, 能#VV)  (case, 人体#NN, 与#P)  (prep, 内胆#VV, 人体#NN)  (dep, 黏液#VV, 内胆#VV)  (dobj, 内胆#VV, 酸盐#NN)  (assmod, 胆固醇#NN, 食物#NN)  (case, 食物#NN, 中#LC)  (case, 食物#NN, 的#DEG)  (conj, 酯#NN, 胆固醇#NN)  (cc, 酯#NN, 及#CC)  (nn, 酯#NN, 甘油#NR)  (nummod, 酯#NN, 三#CD)  (nsubj, 结合#VV, 酯#NN)  (conj, 黏液#VV, 结合#VV)  (conj, 黏液#VV, 使#VV)  (dobj, 使#VV, 其#PN)  (case, 粪便#NN, 从#P)  (prep, 排出#VV, 粪便#NN)  (case, 粪便#NN, 中#LC)  (dep, 使#VV, 排出#VV)  (advmod, 减少#VV, 从而#AD)  (conj, 使#VV, 减少#VV)  (assmod, 吸收#NN, 脂类#NN)  (case, 脂类#NN, 的#DEG)  (dobj, 减少#VV, 吸收#NN)
+            (nsubj, 含有#VV, 藕#NN)  (root, ROOT#null, 含有#VV)  (assmod, 单宁酸#NN, 大量#CD)  (case, 大量#CD, 的#DEG)  (conj, B#NN, 单宁酸#NN)  (cc, B#NN, 和#CC)  (relcl, B#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, B#NN, 植物#NN)  (conj, B#NN, 纤维#NN)  (nn, B#NN, 维生素#NN)  (dobj, 含有#VV, B#NN)  (range, 含有#VV, 12#CD)
+        </parsing>
+
+        <tag>
+            热量  脂肪  碳水化合物  土豆量  土豆稍高  微量  维生素C  维生素K  蛋白  膳食纤维  黏液纤维  内胆酸盐  胆固醇  减少吸收  B丰富  含有B  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.藕可生食，烹食，捣汁饮，或晒干磨粉煮粥。
+            2.煮藕时忌用铁器，以免引直食物发黑。
+            3.藕削去外皮以后应尽快下锅烹制，避免藕丝因氧化而变黑。若不能及时烹调，可将藕放入加醋的清水中浸泡，保持莲藕本身的洁白色泽，炒藕丝时边炒边往锅中加入少量清水，这样炒出来的藕丝洁白如玉不会变色。
+            4.吃藕应分段食用，顶端香甜脆嫩，焯后凉拌鲜食；第二、第三节稍老，是做汤的上好原料，还可以做炸藕夹；第四节之后的各节只适于炒食或作为藕粉的原料来使用。
+        </rawdata>
+
+        <segment>
+            藕可  生食  ，  烹食  ，  捣汁饮  ，  或  晒干  磨粉  煮粥  。
+            煮藕  时  忌用  铁器  ，  以免  引直  食物  发黑  。
+            藕削去  外皮  以后  应  尽快  下锅  烹制  ，  避免  藕丝  因  氧化  而  变黑  。  若  不  能  及时  烹调  ，  可将藕  放入  加醋  的  清水  中  浸泡  ，  保持  莲藕  本身  的  洁白  色泽  ，  炒  藕丝  时  边  炒  边  往  锅中  加入  少量  清水  ，  这样  炒  出来  的  藕丝  洁白  如玉  不  会  变色  。
+            吃藕  应  分段  食用  ，  顶端  香甜  脆嫩  ，  焯后  凉拌  鲜食  ；  第二  、  第三  节  稍老  ，  是  做  汤  的  上好  原料  ，  还  可以  做  炸  藕夹  ；  第四  节  之后  的  各  节  只  适于  炒  食  或  作为  藕粉  的  原料  来  使用  。
+        </segment>
+
+        <pos>
+            藕可#NR  生食#VV  ，#PU  烹食#NN  ，#PU  捣汁饮#VV  ，#PU  或#CC  晒干#VV  磨粉#NN  煮粥#NN  。#PU
+            煮藕#NN  时#LC  忌用#NR  铁器#VV  ，#PU  以免#VV  引直#VV  食物#NN  发黑#NN  。#PU
+            藕削去#NN  外皮#NN  以后#LC  应#VV  尽快#AD  下锅#VV  烹制#NN  ，#PU  避免#VV  藕丝#NN  因#P  氧化#NN  而#MSP  变黑#VV    。#PU  若#CS  不#AD  能#VV  及时#JJ  烹调#NN  ，#PU  可将藕#VV  放入#VV  加醋#NN  的#DEC  清水#NN  中#LC  浸泡#NN  ，#PU  保持#VV  莲藕#NR  本身#PN  的#DEG  洁白#NN  色泽#NN  ，#PU  炒#NN  藕丝#NN  时#LC  边#NN  炒#NN  边#LC  往#P  锅中#NR  加入#VV  少量#CD  清水#NN  ，#PU  这样#AD  炒#AD  出来#VV  的#DEC  藕丝#NN  洁白#NN  如玉#NN  不#AD  会#VV  变色#NN    。#PU    。#PU
+            吃藕#NR  应#VV  分段#AD  食用#VV  ，#PU  顶端#VV  香甜#NN  脆嫩#NN  ，#PU  焯后#VV  凉拌#NN  鲜食#NN  ；#PU  第二#OD  、#PU  第三#OD  节#NN  稍老#NN  ，#PU  是#VC  做#VV  汤#NN  的#DEC  上好#NN  原料#NN  ，#PU  还#AD  可以#VV  做#VV  炸#VV  藕夹#NN  ；#PU  第四#OD  节#NN  之后#LC  的#DEG  各#DT  节#NN  只#AD  适于#VV  炒#NN  食#NN  或#CC  作为#P  藕粉#NR  的#DEG  原料#NN  来#LC  使用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 生食#VV, 藕可#NR)  (root, ROOT#null, 生食#VV)  (nsubj, 捣汁饮#VV, 烹食#NN)  (ccomp, 生食#VV, 捣汁饮#VV)  (cc, 捣汁饮#VV, 或#CC)  (dep, 捣汁饮#VV, 晒干#VV)  (nn, 煮粥#NN, 磨粉#NN)  (dobj, 晒干#VV, 煮粥#NN)
+            (loc, 铁器#VV, 煮藕#NN)  (case, 煮藕#NN, 时#LC)  (nsubj, 铁器#VV, 忌用#NR)  (root, ROOT#null, 铁器#VV)  (ccomp, 铁器#VV, 以免#VV)  (ccomp, 以免#VV, 引直#VV)  (nn, 发黑#NN, 食物#NN)  (dobj, 引直#VV, 发黑#NN)
+            (nsubj, 下锅#VV, 藕削去#NN)  (loc, 下锅#VV, 外皮#NN)  (case, 外皮#NN, 以后#LC)  (mmod, 下锅#VV, 应#VV)  (advmod, 下锅#VV, 尽快#AD)  (root, ROOT#null, 下锅#VV)  (dobj, 下锅#VV, 烹制#NN)  (dep, 下锅#VV, 避免#VV)  (dobj, 避免#VV, 藕丝#NN)  (case, 氧化#NN, 因#P)  (prep, 变黑#VV, 氧化#NN)  (prtmod, 变黑#VV, 而#MSP)  (dep, 避免#VV, 变黑#VV)   (advmod, 能#VV, 若#CS)  (neg, 能#VV, 不#AD)  (dep, 加入#VV, 能#VV)  (amod, 烹调#NN, 及时#JJ)  (dobj, 能#VV, 烹调#NN)  (conj, 能#VV, 可将藕#VV)  (relcl, 清水#NN, 放入#VV)  (dobj, 放入#VV, 加醋#NN)  (mark, 放入#VV, 的#DEC)  (dep, 浸泡#NN, 清水#NN)  (case, 清水#NN, 中#LC)  (dobj, 可将藕#VV, 浸泡#NN)  (conj, 能#VV, 保持#VV)  (nn, 色泽#NN, 莲藕#NR)  (assmod, 色泽#NN, 本身#PN)  (case, 本身#PN, 的#DEG)  (nn, 色泽#NN, 洁白#NN)  (dobj, 保持#VV, 色泽#NN)  (nn, 藕丝#NN, 炒#NN)  (loc, 加入#VV, 藕丝#NN)  (case, 藕丝#NN, 时#LC)  (nn, 炒#NN, 边#NN)  (loc, 加入#VV, 炒#NN)  (case, 炒#NN, 边#LC)  (case, 锅中#NR, 往#P)  (prep, 加入#VV, 锅中#NR)  (root, ROOT#null, 加入#VV)  (nummod, 清水#NN, 少量#CD)  (dobj, 加入#VV, 清水#NN)  (advmod, 会#VV, 这样#AD)  (advmod, 出来#VV, 炒#AD)  (relcl, 如玉#NN, 出来#VV)  (mark, 出来#VV, 的#DEC)  (nn, 如玉#NN, 藕丝#NN)  (nn, 如玉#NN, 洁白#NN)  (nsubj, 会#VV, 如玉#NN)  (neg, 会#VV, 不#AD)  (conj, 加入#VV, 会#VV)  (dobj, 会#VV, 变色#NN)   (root, ROOT#null, null#null)
+            (nsubj, 食用#VV, 吃藕#NR)  (mmod, 食用#VV, 应#VV)  (advmod, 食用#VV, 分段#AD)  (root, ROOT#null, 食用#VV)  (conj, 食用#VV, 顶端#VV)  (nn, 脆嫩#NN, 香甜#NN)  (dobj, 顶端#VV, 脆嫩#NN)  (conj, 食用#VV, 焯后#VV)  (nn, 鲜食#NN, 凉拌#NN)  (dep, 稍老#NN, 鲜食#NN)  (dep, 第三#OD, 第二#OD)  (nummod, 稍老#NN, 第三#OD)  (nn, 稍老#NN, 节#NN)  (dobj, 焯后#VV, 稍老#NN)  (cop, 原料#NN, 是#VC)  (relcl, 原料#NN, 做#VV)  (dobj, 做#VV, 汤#NN)  (mark, 做#VV, 的#DEC)  (nn, 原料#NN, 上好#NN)  (conj, 食用#VV, 原料#NN)  (advmod, 炸#VV, 还#AD)  (mmod, 炸#VV, 可以#VV)  (mmod, 炸#VV, 做#VV)  (conj, 食用#VV, 炸#VV)  (dobj, 炸#VV, 藕夹#NN)  (nummod, 节#NN, 第四#OD)  (assmod, 节#NN, 节#NN)  (case, 节#NN, 之后#LC)  (case, 节#NN, 的#DEG)  (det, 节#NN, 各#DT)  (nsubj, 适于#VV, 节#NN)  (advmod, 适于#VV, 只#AD)  (conj, 食用#VV, 适于#VV)  (nn, 食#NN, 炒#NN)  (dobj, 适于#VV, 食#NN)  (cc, 适于#VV, 或#CC)  (case, 原料#NN, 作为#P)  (assmod, 原料#NN, 藕粉#NR)  (case, 藕粉#NR, 的#DEG)  (prep, 使用#VV, 原料#NN)  (case, 原料#NN, 来#LC)  (dep, 适于#VV, 使用#VV)
+        </parsing>
+
+        <tag>
+            生食  磨粉煮粥  晒干煮粥  铁器  食物发黑  引直发黑  下锅烹制  洁白色泽  保持色泽  加入清水  出来如玉  洁白如玉  食用  香甜脆嫩  顶端脆嫩  凉拌鲜食  焯后稍老  做原料  上好原料  适于食  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/061850419187.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\210 藕.jpg
+    </picturelocalurl>
+
+</content>

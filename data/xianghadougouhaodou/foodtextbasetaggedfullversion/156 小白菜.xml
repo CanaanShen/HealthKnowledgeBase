@@ -1,0 +1,418 @@
+<content>
+
+    <id>
+        156
+    </id>
+
+    <foodname>
+        小白菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        茎叶花类
+    </secondcategory>
+
+    <alias>
+        青菜、油白菜、白菜秧
+    </alias>
+
+    <season>
+        冬、春、夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            脾胃虚寒、大便稀溏者慎食。
+        </rawdata>
+
+        <segment>
+            脾胃  虚寒  、  大便  稀溏  者  慎食  。
+        </segment>
+
+        <pos>
+            脾胃#VV  虚寒#NN  、#PU  大便#NN  稀溏#NN  者#NN  慎食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 脾胃#VV)  (conj, 慎食#NN, 虚寒#NN)  (nn, 慎食#NN, 大便#NN)  (nn, 慎食#NN, 稀溏#NN)  (nn, 慎食#NN, 者#NN)  (dobj, 脾胃#VV, 慎食#NN)
+        </parsing>
+
+        <tag>
+            脾胃虚寒  大便稀溏者  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其适宜于肺热咳嗽、便秘、丹毒、漆疮、疮疖等患者及缺钙者食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其  适宜于  肺热  咳嗽  、  便秘  、  丹毒  、  漆疮  、  疮疖  等  患者  及  缺钙  者  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其#AD  适宜于#VV  肺热#NR  咳嗽#NR  、#PU  便秘#NR  、#PU  丹毒#NR  、#PU  漆疮#NR  、#PU  疮疖#NR  等#ETC  患者#NN  及#CC  缺钙#NN  者#NN  食用#VV    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 适宜于#VV, 尤其#AD)  (relcl, 者#NN, 适宜于#VV)  (nn, 疮疖#NR, 肺热#NR)  (conj, 疮疖#NR, 咳嗽#NR)  (conj, 疮疖#NR, 便秘#NR)  (conj, 疮疖#NR, 丹毒#NR)  (conj, 疮疖#NR, 漆疮#NR)  (nn, 缺钙#NN, 疮疖#NR)  (etc, 疮疖#NR, 等#ETC)  (conj, 缺钙#NN, 患者#NN)  (cc, 缺钙#NN, 及#CC)  (dobj, 适宜于#VV, 缺钙#NN)  (nsubj, 食用#VV, 者#NN)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤其适宜于肺热咳嗽  便秘  丹毒  漆疮  疮疖  患者  缺钙者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                1.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                1.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                280
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                1680
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.09
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B6（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                57.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C（毫克）
+            </elename>
+            <elevalue>
+                28
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                90
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                36
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                178
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                73.5
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                18
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                1.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                0.51
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碘（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.17
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.08
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.27
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            小白菜又名不结球白菜，是十字花科大白菜的变种。原产我国，各地均有栽培，以南方栽种最广，一年四季供应，春夏两季最多。
+            小白菜是芥属栽培植物，茎叶可食，一、二年生草本植物，常作一年生栽培。植株较矮小，浅根系，须根发达。叶色淡绿至墨绿，叶片倒卵形或椭圆形，叶片光滑或褶缩，少数有绒毛。叶柄肥厚，白色或绿色。不结球。花黄色种子近圆形。据测定，小白菜是蔬菜中含矿物质和维生素最丰富的菜。
+        </rawdata>
+
+        <segment>
+            小白菜  又  名  不结  球  白菜  ，  是  十字花科  大白菜  的  变种  。  原产  我国  ，  各地  均  有  栽培  ，  以  南方  栽种  最  广  ，  一  年  四  季  供应  ，  春夏  两  季  最多  。
+            小白菜  是  芥属  栽培  植物  ，  茎叶可食  ，  一  、  二  年  生  草本  植物  ，  常作  一  年  生  栽培  。  植株  较  矮小  ，  浅  根系  ，  须根  发达  。  叶色  淡绿  至  墨绿  ，  叶片  倒  卵形  或  椭圆形  ，  叶片  光滑  或  褶缩  ，  少数  有  绒毛  。  叶柄  肥厚  ，  白色  或  绿色  。  不结  球  。  花黄  色  种子  近  圆形  。  据  测定  ，  小白菜  是  蔬菜  中  含  矿物质  和  维生素  最  丰富  的  菜  。
+        </segment>
+
+        <pos>
+            小白菜#NN  又#CC  名#JJ  不结#NN  球#NN  白菜#VV  ，#PU  是#VC  十字花科#CD  大白菜#NN  的#DEG  变种#NN    。#PU  原产#NR  我国#VV  ，#PU  各地#NN  均#AD  有#VE  栽培#VV  ，#PU  以#P  南方#NN  栽种#NN  最#AD  广#VA  ，#PU  一#CD  年#M  四#CD  季#M  供应#VV  ，#PU  春夏#VV  两#CD  季#M  最多#AD    。#PU    。#PU
+            小白菜#NN  是#VC  芥属#AD  栽培#VV  植物#NN  ，#PU  茎叶可食#AD  ，#PU  一#CD  、#PU  二#CD  年#M  生#VV  草本#NN  植物#NN  ，#PU  常作#VV  一#CD  年#M  生#VV  栽培#VV    。#PU  植株#NN  较#AD  矮小#VA  ，#PU  浅#VV  根系#NN  ，#PU  须根#AD  发达#VA    。#PU  叶色#NR  淡绿#NN  至#CC  墨绿#NN  ，#PU  叶片#NN  倒#VV  卵形#NN  或#CC  椭圆形#NN  ，#PU  叶片#VV  光滑#NN  或#CC  褶缩#NN  ，#PU  少数#NN  有#VE  绒毛#NN    。#PU  叶柄#VV  肥厚#NN  ，#PU  白色#JJ  或#CC  绿色#JJ    。#PU  不结#VV  球#NN    。#PU  花黄#NN  色#NN  种子#NN  近#AD  圆形#CD    。#PU  据#P  测定#NN  ，#PU  小白菜#AD  是#VC  蔬菜#NN  中#LC  含#VV  矿物质#NN  和#CC  维生素#NN  最#AD  丰富#VA  的#DEC  菜#NN    。#PU
+        </pos>
+
+        <parsing>
+            (conj, 不结#NN, 小白菜#NN)  (cc, 不结#NN, 又#CC)  (amod, 不结#NN, 名#JJ)  (nn, 球#NN, 不结#NN)  (nsubj, 白菜#VV, 球#NN)  (root, ROOT#null, 白菜#VV)  (cop, 变种#NN, 是#VC)  (nummod, 大白菜#NN, 十字花科#CD)  (assmod, 变种#NN, 大白菜#NN)  (case, 大白菜#NN, 的#DEG)  (ccomp, 白菜#VV, 变种#NN)   (nsubj, 我国#VV, 原产#NR)  (root, ROOT#null, 我国#VV)  (nsubj, 有#VE, 各地#NN)  (advmod, 有#VE, 均#AD)  (ccomp, 我国#VV, 有#VE)  (dep, 有#VE, 栽培#VV)  (case, 栽种#NN, 以#P)  (nn, 栽种#NN, 南方#NN)  (prep, 广#VA, 栽种#NN)  (advmod, 广#VA, 最#AD)  (conj, 栽培#VV, 广#VA)  (nummod, 年#M, 一#CD)  (clf, 季#M, 年#M)  (nummod, 季#M, 四#CD)  (nsubj, 供应#VV, 季#M)  (dep, 栽培#VV, 供应#VV)  (conj, 栽培#VV, 春夏#VV)  (nummod, 季#M, 两#CD)  (range, 春夏#VV, 季#M)  (advmod, 春夏#VV, 最多#AD)   (root, ROOT#null, null#null)
+            (nsubj, 生#VV, 小白菜#NN)  (cop, 生#VV, 是#VC)  (advmod, 栽培#VV, 芥属#AD)  (dep, 生#VV, 栽培#VV)  (dobj, 栽培#VV, 植物#NN)  (advmod, 生#VV, 茎叶可食#AD)  (dep, 年#M, 一#CD)  (nummod, 年#M, 二#CD)  (dep, 生#VV, 年#M)  (conj, 栽培#VV, 生#VV)  (nn, 植物#NN, 草本#NN)  (dobj, 生#VV, 植物#NN)  (conj, 栽培#VV, 常作#VV)  (nummod, 年#M, 一#CD)  (range, 常作#VV, 年#M)  (root, ROOT#null, 生#VV)  (comod, 生#VV, 栽培#VV)   (nsubj, 矮小#VA, 植株#NN)  (advmod, 矮小#VA, 较#AD)  (root, ROOT#null, 矮小#VA)  (dep, 矮小#VA, 浅#VV)  (dobj, 浅#VV, 根系#NN)  (advmod, 发达#VA, 须根#AD)  (conj, 矮小#VA, 发达#VA)   (nn, 墨绿#NN, 叶色#NR)  (conj, 墨绿#NN, 淡绿#NN)  (cc, 墨绿#NN, 至#CC)  (nsubj, 倒#VV, 墨绿#NN)  (nsubj, 倒#VV, 叶片#NN)  (root, ROOT#null, 倒#VV)  (conj, 椭圆形#NN, 卵形#NN)  (cc, 椭圆形#NN, 或#CC)  (dobj, 倒#VV, 椭圆形#NN)  (conj, 倒#VV, 叶片#VV)  (conj, 褶缩#NN, 光滑#NN)  (cc, 褶缩#NN, 或#CC)  (dobj, 叶片#VV, 褶缩#NN)  (dep, 有#VE, 少数#NN)  (conj, 倒#VV, 有#VE)  (dobj, 有#VE, 绒毛#NN)   (root, ROOT#null, 叶柄#VV)  (dobj, 叶柄#VV, 肥厚#NN)  (conj, 叶柄#VV, 白色#JJ)  (cc, 白色#JJ, 或#CC)  (dep, 白色#JJ, 绿色#JJ)   (root, ROOT#null, 不结#VV)  (dobj, 不结#VV, 球#NN)   (nn, 种子#NN, 花黄#NN)  (nn, 种子#NN, 色#NN)  (nsubj, 圆形#CD, 种子#NN)  (advmod, 圆形#CD, 近#AD)  (root, ROOT#null, 圆形#CD)   (case, 测定#NN, 据#P)  (prep, 菜#NN, 测定#NN)  (advmod, 菜#NN, 小白菜#AD)  (cop, 菜#NN, 是#VC)  (loc, 含#VV, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (dep, 丰富#VA, 含#VV)  (conj, 维生素#NN, 矿物质#NN)  (cc, 维生素#NN, 和#CC)  (dobj, 含#VV, 维生素#NN)  (advmod, 丰富#VA, 最#AD)  (relcl, 菜#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (root, ROOT#null, 菜#NN)
+        </parsing>
+
+        <tag>
+            名不结  大白菜  我国  南方栽种  栽培植物  草本植物  植株矮小  墨绿  淡绿  椭圆形  卵形  光滑  叶片褶缩  叶柄肥厚  不结球  花黄种子  维生素  矿物质  菜丰富  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.提供营养、强身健体
+            小白菜含钙量高，是防治维生素D缺乏（佝偻病）的理想蔬菜。小儿缺钙，骨软、发秃，有助于增强机体免疫能力。
+            2.保持血管弹性
+            减少动脉粥样硬化的形成，从而保持血管弹性。
+            3.润泽皮肤、延缓衰老
+            可促进皮肤细胞代谢，防止皮肤粗糙及色素沉着，使皮肤亮洁，延缓衰老。
+            4.防癌抗癌
+            小白菜中所含的维生素C，在体内形成一种“透明质酸抑制物”，这种物质具有抗癌作用，可使癌细胞丧失活力。此外，青菜中含有的粗纤维可促进大肠蠕动，增加大肠内毒素的排出，达到防癌抗癌的目的。
+            5.清肺
+            肺热咳嗽、身热、口渴、胸闷、心烦、腹胀等病症。
+        </rawdata>
+
+        <segment>
+            提供  营养  、  强身  健体
+            小白菜  含钙  量  高  ，  是  防治  维生素D  缺乏  （  佝偻病  ）  的  理想  蔬菜  。  小儿  缺钙  ，  骨软  、  发秃  ，  有助于  增强  机体  免疫  能力  。
+            保持  血管  弹性
+            减少  动脉  粥样  硬化  的  形成  ，  从而  保持  血管  弹性  。
+            润泽  皮肤  、  延缓  衰老
+            可  促进  皮肤  细胞  代谢  ，  防止  皮肤  粗糙  及  色素  沉着  ，  使  皮肤  亮洁  ，  延缓  衰老  。
+            防癌  抗癌
+            小白菜  中  所  含  的  维生素C  ，  在  体内  形成  一  种  “  透明质  酸  抑制物  ”  ，  这  种  物质  具有  抗癌  作用  ，  可使  癌细胞  丧失  活力  。  此外  ，  青菜  中  含有  的  粗  纤维  可  促进  大肠  蠕动  ，  增加  大肠  内毒素  的  排出  ，  达到  防癌  抗癌  的  目的  。
+            清  肺
+            肺  热  咳嗽  、  身  热  、  口渴  、  胸闷  、  心烦  、  腹胀  等  病症  。
+        </segment>
+
+        <pos>
+            提供#VV  营养#VA  、#PU  强身#VA  健体#NN
+            小白菜#NN  含钙#NN  量#NN  高#VA  ，#PU  是#VC  防治#NN  维生素D#AD  缺乏#VV  （#PU  佝偻病#NN  ）#PU  的#DEC  理想#JJ  蔬菜#NN    。#PU  小儿#NR  缺钙#VV  ，#PU  骨软#NR  、#PU  发秃#NR  ，#PU  有助于#VV  增强#VV  机体#NN  免疫#NN  能力#NN    。#PU    。#PU
+            保持#VV  血管#NN  弹性#NN
+            减少#VV  动脉#NN  粥样#NN  硬化#NN  的#DEG  形成#NN  ，#PU  从而#AD  保持#VV  血管#NN  弹性#NN  。#PU
+            润泽#NR  皮肤#NN  、#PU  延缓#NN  衰老#NN
+            可#VV  促进#VV  皮肤#NN  细胞#NN  代谢#NN  ，#PU  防止#VV  皮肤#VV  粗糙#NN  及#CC  色素#NN  沉着#AD  ，#PU  使#VV  皮肤#NN  亮洁#VV  ，#PU  延缓#VV  衰老#NN  。#PU
+            防癌#NN  抗癌#VV
+            小白菜#NN  中#LC  所#MSP  含#VV  的#DEC  维生素C#NN  ，#PU  在#P  体内#NN  形成#VV  一#CD  种#M  ``#NN  透明质#NN  酸#NN  抑制物#NN  ''#NN  ，#PU  这#DT  种#M  物质#NN  具有#VV  抗癌#NN  作用#NN  ，#PU  可使#NN  癌细胞#NN  丧失#VV  活力#NN    。#PU  此外#AD  ，#PU  青菜#NN  中#LC  含有#NN  的#DEG  粗#NN  纤维#NN  可#VV  促进#VV  大肠#NN  蠕动#NN  ，#PU  增加#VV  大肠#NN  内毒素#NN  的#DEG  排出#NN  ，#PU  达到#VV  防癌#NN  抗癌#NN  的#DEG  目的#NN    。#PU    。#PU
+            清#JJ  肺#NN
+            肺#NN  热#NN  咳嗽#VV  、#PU  身#NN  热#NN  、#PU  口渴#NR  、#PU  胸闷#NR  、#PU  心烦#NR  、#PU  腹胀#NR  等#ETC  病症#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 提供#VV)  (nfincl, 健体#NN, 营养#VA)  (dep, 营养#VA, 强身#VA)  (dobj, 提供#VV, 健体#NN)
+            (nn, 量#NN, 小白菜#NN)  (nn, 量#NN, 含钙#NN)  (nsubj, 高#VA, 量#NN)  (root, ROOT#null, 高#VA)  (cop, 蔬菜#NN, 是#VC)  (nsubj, 缺乏#VV, 防治#NN)  (advmod, 缺乏#VV, 维生素D#AD)  (relcl, 蔬菜#NN, 缺乏#VV)  (dep, 缺乏#VV, 佝偻病#NN)  (mark, 缺乏#VV, 的#DEC)  (amod, 蔬菜#NN, 理想#JJ)  (dep, 高#VA, 蔬菜#NN)   (nsubj, 缺钙#VV, 小儿#NR)  (root, ROOT#null, 缺钙#VV)  (conj, 发秃#NR, 骨软#NR)  (nsubj, 有助于#VV, 发秃#NR)  (ccomp, 缺钙#VV, 有助于#VV)  (ccomp, 有助于#VV, 增强#VV)  (nn, 能力#NN, 机体#NN)  (nn, 能力#NN, 免疫#NN)  (dobj, 增强#VV, 能力#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保持#VV)  (nn, 弹性#NN, 血管#NN)  (dobj, 保持#VV, 弹性#NN)
+            (root, ROOT#null, 减少#VV)  (nn, 硬化#NN, 动脉#NN)  (nn, 硬化#NN, 粥样#NN)  (assmod, 形成#NN, 硬化#NN)  (case, 硬化#NN, 的#DEG)  (dobj, 减少#VV, 形成#NN)  (advmod, 保持#VV, 从而#AD)  (conj, 减少#VV, 保持#VV)  (nn, 弹性#NN, 血管#NN)  (dobj, 保持#VV, 弹性#NN)
+            (nn, 衰老#NN, 润泽#NR)  (conj, 衰老#NN, 皮肤#NN)  (nn, 衰老#NN, 延缓#NN)  (root, ROOT#null, 衰老#NN)
+            (mmod, 促进#VV, 可#VV)  (dep, 使#VV, 促进#VV)  (nn, 代谢#NN, 皮肤#NN)  (nn, 代谢#NN, 细胞#NN)  (dobj, 促进#VV, 代谢#NN)  (conj, 促进#VV, 防止#VV)  (ccomp, 防止#VV, 皮肤#VV)  (conj, 色素#NN, 粗糙#NN)  (cc, 色素#NN, 及#CC)  (dobj, 皮肤#VV, 色素#NN)  (advmod, 使#VV, 沉着#AD)  (root, ROOT#null, 使#VV)  (dobj, 使#VV, 皮肤#NN)  (dep, 使#VV, 亮洁#VV)  (conj, 使#VV, 延缓#VV)  (dobj, 延缓#VV, 衰老#NN)
+            (nsubj, 抗癌#VV, 防癌#NN)  (root, ROOT#null, 抗癌#VV)
+            (loc, 含#VV, 小白菜#NN)  (case, 小白菜#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 维生素C#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 形成#VV, 维生素C#NN)  (case, 体内#NN, 在#P)  (prep, 形成#VV, 体内#NN)  (root, ROOT#null, 形成#VV)  (nummod, 种#M, 一#CD)  (clf, ''#NN, 种#M)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 透明质#NN)  (nn, ''#NN, 酸#NN)  (nn, ''#NN, 抑制物#NN)  (dobj, 形成#VV, ''#NN)  (det, 物质#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 具有#VV, 物质#NN)  (conj, 形成#VV, 具有#VV)  (nn, 作用#NN, 抗癌#NN)  (dobj, 具有#VV, 作用#NN)  (nn, 癌细胞#NN, 可使#NN)  (nsubj, 丧失#VV, 癌细胞#NN)  (conj, 形成#VV, 丧失#VV)  (dobj, 丧失#VV, 活力#NN)   (advmod, 促进#VV, 此外#AD)  (loc, 促进#VV, 青菜#NN)  (case, 青菜#NN, 中#LC)  (assmod, 纤维#NN, 含有#NN)  (case, 含有#NN, 的#DEG)  (nn, 纤维#NN, 粗#NN)  (nsubj, 促进#VV, 纤维#NN)  (mmod, 促进#VV, 可#VV)  (root, ROOT#null, 促进#VV)  (nn, 蠕动#NN, 大肠#NN)  (dobj, 促进#VV, 蠕动#NN)  (conj, 促进#VV, 增加#VV)  (nn, 内毒素#NN, 大肠#NN)  (assmod, 排出#NN, 内毒素#NN)  (case, 内毒素#NN, 的#DEG)  (dobj, 增加#VV, 排出#NN)  (conj, 促进#VV, 达到#VV)  (nn, 抗癌#NN, 防癌#NN)  (assmod, 目的#NN, 抗癌#NN)  (case, 抗癌#NN, 的#DEG)  (dobj, 达到#VV, 目的#NN)   (root, ROOT#null, null#null)
+            (amod, 肺#NN, 清#JJ)  (root, ROOT#null, 肺#NN)
+            (nn, 热#NN, 肺#NN)  (nsubj, 咳嗽#VV, 热#NN)  (root, ROOT#null, 咳嗽#VV)  (nn, 热#NN, 身#NN)  (conj, 病症#NN, 热#NN)  (conj, 腹胀#NR, 口渴#NR)  (conj, 腹胀#NR, 胸闷#NR)  (conj, 腹胀#NR, 心烦#NR)  (nn, 病症#NN, 腹胀#NR)  (etc, 腹胀#NR, 等#ETC)  (dep, 咳嗽#VV, 病症#NN)
+        </parsing>
+
+        <tag>
+            提供健体  缺乏蔬菜  理想蔬菜  缺钙  发秃  骨软  机体能力  免疫能力  增强能力  血管弹性  保持弹性  动脉硬化  粥样硬化  减少形成  延缓衰老  皮肤代谢  细胞代谢  促进代谢  粗糙  皮肤色素  含维生素C  可使癌细胞  丧失活力  大肠蠕动  促进蠕动  大肠内毒素  增加排出  防癌抗癌  清肺  咳嗽  腹胀  口渴  胸闷  心烦  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  降血脂  延缓衰老  抗癌  防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.含有蛋白质、脂肪、糖类、膳食纤维、钙、磷、铁、胡萝卜素、维生素B1、维生素B2、烟酸、维生素C等。其中钙的含量较高，几乎等于白菜含量的2-3倍。
+            2.小白菜中含有大量胡萝卜素比豆类、番茄、瓜类都多，并且还有丰富的维生素C。
+        </rawdata>
+
+        <segment>
+            含有  蛋白质  、  脂肪  、  糖类  、  膳食  纤维  、  钙  、  磷  、  铁  、  胡萝卜素  、  维生素  B  维生素B2  、  烟酸  、  维生素C  等  。  其中  钙  的  含量  较  高  ，  几乎  等于  白菜  含量  的  2-3  倍  。
+            小白菜  中  含有  大量  胡萝卜素  比  豆类  、  番茄  、  瓜类  都  多  ，  并且  还  有  丰富  的  维生素C  。
+        </segment>
+
+        <pos>
+            含有#VV  蛋白质#NR  、#PU  脂肪#NR  、#PU  糖类#NR  、#PU  膳食#NN  纤维#NN  、#PU  钙#NR  、#PU  磷#NN  、#PU  铁#NN  、#PU  胡萝卜素#NR  、#PU  维生素#NN  B#NN  维生素B2#CD  、#PU  烟酸#NR  、#PU  维生素C#NR  等#ETC    。#PU  其中#NN  钙#NN  的#DEG  含量#NN  较#AD  高#VA  ，#PU  几乎#AD  等于#VV  白菜#NN  含量#NN  的#DEG  2-3#CD  倍#M    。#PU    。#PU
+            小白菜#NN  中#LC  含有#NR  大量#CD  胡萝卜素#NN  比#P  豆类#NN  、#PU  番茄#NN  、#PU  瓜类#NN  都#AD  多#VA  ，#PU  并且#CC  还#AD  有#VE  丰富#VA  的#DEC  维生素C#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含有#VV)  (conj, 维生素C#NR, 蛋白质#NR)  (conj, 维生素C#NR, 脂肪#NR)  (conj, 维生素C#NR, 糖类#NR)  (nn, 纤维#NN, 膳食#NN)  (conj, 维生素C#NR, 纤维#NN)  (conj, 维生素C#NR, 钙#NR)  (conj, 维生素C#NR, 磷#NN)  (conj, 维生素C#NR, 铁#NN)  (conj, 维生素C#NR, 胡萝卜素#NR)  (nn, B#NN, 维生素#NN)  (conj, 维生素C#NR, B#NN)  (nummod, B#NN, 维生素B2#CD)  (conj, 维生素C#NR, 烟酸#NR)  (dobj, 含有#VV, 维生素C#NR)  (etc, 维生素C#NR, 等#ETC)   (nn, 钙#NN, 其中#NN)  (assmod, 含量#NN, 钙#NN)  (case, 钙#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (advmod, 等于#VV, 几乎#AD)  (dep, 高#VA, 等于#VV)  (nn, 含量#NN, 白菜#NN)  (assmod, 倍#M, 含量#NN)  (case, 含量#NN, 的#DEG)  (nummod, 倍#M, 2-3#CD)  (range, 等于#VV, 倍#M)   (root, ROOT#null, null#null)
+            (loc, 多#VA, 小白菜#NN)  (case, 小白菜#NN, 中#LC)  (nn, 胡萝卜素#NN, 含有#NR)  (nummod, 胡萝卜素#NN, 大量#CD)  (nsubj, 多#VA, 胡萝卜素#NN)  (case, 瓜类#NN, 比#P)  (conj, 瓜类#NN, 豆类#NN)  (conj, 瓜类#NN, 番茄#NN)  (prep, 多#VA, 瓜类#NN)  (advmod, 多#VA, 都#AD)  (root, ROOT#null, 多#VA)  (cc, 多#VA, 并且#CC)  (advmod, 有#VE, 还#AD)  (dep, 多#VA, 有#VE)  (relcl, 维生素C#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 有#VE, 维生素C#NN)
+        </parsing>
+
+        <tag>
+            含有  蛋白质  脂肪  糖类  膳食纤维  胡萝卜素  烟酸  瓜类  豆类  番茄  维生素C丰富  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            小白菜的食用方法很多，可清炒或是与香菇、蘑菇、笋和炒，小白菜汤有利于减肥。用小白菜制作菜肴，炒、熬时间不宜过长，以免损失营养。
+        </rawdata>
+
+        <segment>
+            小白菜  的  食用  方法  很多  ，  可  清炒  或是  与  香菇  、  蘑菇  、  笋和炒  ，  小  白  菜  汤  有利于  减肥  。  用  小白菜  制作  菜肴  ，  炒  、  熬  时间  不  宜  过长  ，  以免  损失  营养  。
+        </segment>
+
+        <pos>
+            小白菜#NN  的#DEG  食用#VV  方法#NN  很多#CD  ，#PU  可#VV  清炒#VV  或是#NN  与#P  香菇#NR  、#PU  蘑菇#NR  、#PU  笋和炒#NR  ，#PU  小#JJ  白#JJ  菜#NN  汤#AD  有利于#VV  减肥#VV    。#PU  用#P  小白菜#NN  制作#VV  菜肴#NN  ，#PU  炒#NR  、#PU  熬#NR  时间#NN  不#AD  宜#NR  过长#VV  ，#PU  以免#VV  损失#NN  营养#VA    。#PU
+        </pos>
+
+        <parsing>
+            (assmod, 方法#NN, 小白菜#NN)  (case, 小白菜#NN, 的#DEG)  (nfincl, 方法#NN, 食用#VV)  (nsubj, 清炒#VV, 方法#NN)  (dep, 清炒#VV, 很多#CD)  (mmod, 清炒#VV, 可#VV)  (root, ROOT#null, 清炒#VV)  (dobj, 清炒#VV, 或是#NN)  (case, 笋和炒#NR, 与#P)  (conj, 笋和炒#NR, 香菇#NR)  (conj, 笋和炒#NR, 蘑菇#NR)  (prep, 有利于#VV, 笋和炒#NR)  (amod, 菜#NN, 小#JJ)  (amod, 菜#NN, 白#JJ)  (nsubj, 有利于#VV, 菜#NN)  (advmod, 有利于#VV, 汤#AD)  (conj, 清炒#VV, 有利于#VV)  (ccomp, 有利于#VV, 减肥#VV)   (case, 小白菜#NN, 用#P)  (prep, 制作#VV, 小白菜#NN)  (root, ROOT#null, 制作#VV)  (dobj, 制作#VV, 菜肴#NN)  (conj, 熬#NR, 炒#NR)  (nn, 时间#NN, 熬#NR)  (dep, 过长#VV, 时间#NN)  (neg, 过长#VV, 不#AD)  (prep, 过长#VV, 宜#NR)  (conj, 制作#VV, 过长#VV)  (conj, 制作#VV, 以免#VV)  (dobj, 以免#VV, 损失#NN)  (dep, 以免#VV, 营养#VA)
+        </parsing>
+
+        <tag>
+            清炒  笋和炒  香菇  蘑菇  小菜  白菜  制作菜肴  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/051939577903.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\156 小白菜.jpg
+    </picturelocalurl>
+
+</content>

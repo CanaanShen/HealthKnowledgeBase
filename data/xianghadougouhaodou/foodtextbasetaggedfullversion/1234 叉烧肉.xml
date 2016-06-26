@@ -1,0 +1,270 @@
+<content>
+
+    <id>
+        1234
+    </id>
+
+    <foodname>
+        叉烧肉
+    </foodname>
+
+    <firstcategory>
+        畜肉类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        插烧
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            高脂血症、久病体虚人群不宜食用
+        </rawdata>
+
+        <segment>
+            高  脂血症  、  久  病体  虚  人群  不  宜  食用
+        </segment>
+
+        <pos>
+            高#JJ  脂血症#NN  、#PU  久#NN  病体#NN  虚#AD  人群#NN  不#AD  宜#NR  食用#VV
+        </pos>
+
+        <parsing>
+            (amod, 脂血症#NN, 高#JJ)  (conj, 病体#NN, 脂血症#NN)  (nn, 病体#NN, 久#NN)  (nsubj, 食用#VV, 病体#NN)  (advmod, 食用#VV, 虚#AD)  (prep, 食用#VV, 人群#NN)  (neg, 食用#VV, 不#AD)  (dep, 食用#VV, 宜#NR)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            高脂血症  久病体虚人群不宜  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                能量
+            </elename>
+            <elevalue>
+                279cal
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                水
+            </elename>
+            <elevalue>
+                49.2g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质
+            </elename>
+            <elevalue>
+                23.8g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪
+            </elename>
+            <elevalue>
+                16.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纤维
+            </elename>
+            <elevalue>
+                0g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物
+            </elename>
+            <elevalue>
+                7.9g
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A
+            </elename>
+            <elevalue>
+                16mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1
+            </elename>
+            <elevalue>
+                0.66mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2
+            </elename>
+            <elevalue>
+                0.23mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素C
+            </elename>
+            <elevalue>
+                0mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E
+            </elename>
+            <elevalue>
+                0.68mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸
+            </elename>
+            <elevalue>
+                7mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                纳
+            </elename>
+            <elevalue>
+                818.8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙
+            </elename>
+            <elevalue>
+                8mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁
+            </elename>
+            <elevalue>
+                2.6mg
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇
+            </elename>
+            <elevalue>
+                68mg
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            “叉烧”是从“插烧”发展而来的。插烧是将猪的里脊肉加插在烤全猪腹内，经烧烤而成。因为，一只烤全猪最鲜美处是里脊肉。但一只猪，只有两条里脊，难于满足食家需要。于是人们便想出插烧之法。但这也只能插几条，更多一点就烧不成了。后来，又改为将数条里脊肉串起来叉着来烧，久而久之插烧之名便被叉烧所替代。
+        </rawdata>
+
+        <segment>
+            “  叉烧  ”  是  从  “  插烧  ”  发展  而  来  的  。  插烧  是  将  猪  的  里脊肉  加  插在  烤  全  猪  腹内  ，  经  烧烤  而  成  。  因为  ，  一  只  烤  全  猪  最  鲜美  处  是  里脊肉  。  但  一  只  猪  ，  只有  两  条  里脊  ，  难于  满足  食  家  需要  。  于是  人们  便  想出  插烧  之  法  。  但  这  也  只  能  插  几  条  ，  更  多  一点  就  烧  不  成  了  。  后来  ，  又  改为  将  数  条  里脊肉  串  起来  叉着  来  烧  ，  久而久之  插  烧  之  名  便被  叉烧  所  替代  。
+        </segment>
+
+        <pos>
+            ``#NN  叉烧#NN  ''#NN  是#VC  从#P  ``#NN  插烧#NN  ''#NN  发展#NN  而#MSP  来#VV  的#DEC    。#PU  插烧#NN  是#VC  将#BA  猪#NN  的#DEG  里脊肉#NN  加#CC  插在#NN  烤#VV  全#DT  猪#NN  腹内#NN  ，#PU  经#P  烧烤#NN  而#MSP  成#VV    。#PU  因为#P  ，#PU  一#NT  只#AD  烤#VV  全#DT  猪#NN  最#AD  鲜美#JJ  处#NN  是#VC  里脊肉#NN    。#PU  但#AD  一#CD  只#M  猪#NN  ，#PU  只有#AD  两#CD  条#M  里脊#NN  ，#PU  难于#AD  满足#VV  食#NN  家#NN  需要#NN    。#PU  于是#AD  人们#NN  便#AD  想出#VV  插烧#NN  之#DEC  法#NN    。#PU  但#AD  这#PN  也#AD  只#AD  能#VV  插#VV  几#CD  条#M  ，#PU  更#AD  多#VA  一点#AD  就#AD  烧#VV  不#AD  成#VV  了#AS    。#PU  后来#AD  ，#PU  又#AD  改为#VV  将#BA  数#CD  条#M  里脊肉#CD  串#M  起来#VV  叉着#NN  来#MSP  烧#VV  ，#PU  久而久之#NN  插#NN  烧#NN  之#DEG  名#JJ  便被#NN  叉烧#AD  所#MSP  替代#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, ''#NN, ``#NN)  (nn, ''#NN, 叉烧#NN)  (nsubj, 来#VV, ''#NN)  (cop, 来#VV, 是#VC)  (case, 发展#NN, 从#P)  (nn, 发展#NN, ``#NN)  (nn, 发展#NN, 插烧#NN)  (nn, 发展#NN, ''#NN)  (prep, 来#VV, 发展#NN)  (prtmod, 来#VV, 而#MSP)  (root, ROOT#null, 来#VV)  (mark, 来#VV, 的#DEC)   (nsubj, 烤#VV, 插烧#NN)  (cop, 烤#VV, 是#VC)  (ba, 烤#VV, 将#BA)  (assmod, 插在#NN, 猪#NN)  (case, 猪#NN, 的#DEG)  (conj, 插在#NN, 里脊肉#NN)  (cc, 插在#NN, 加#CC)  (nsubj, 烤#VV, 插在#NN)  (root, ROOT#null, 烤#VV)  (det, 猪#NN, 全#DT)  (nn, 腹内#NN, 猪#NN)  (dobj, 烤#VV, 腹内#NN)  (case, 烧烤#NN, 经#P)  (prep, 成#VV, 烧烤#NN)  (prtmod, 成#VV, 而#MSP)  (dep, 烤#VV, 成#VV)   (case, ，#PU, 因为#P)  (dep, 烤#VV, 一#NT)  (advmod, 烤#VV, 只#AD)  (dep, ，#PU, 烤#VV)  (det, 猪#NN, 全#DT)  (nn, 处#NN, 猪#NN)  (advmod, 鲜美#JJ, 最#AD)  (amod, 处#NN, 鲜美#JJ)  (nsubj, 里脊肉#NN, 处#NN)  (cop, 里脊肉#NN, 是#VC)  (root, ROOT#null, 里脊肉#NN)   (advmod, 满足#VV, 但#AD)  (nummod, 只#M, 一#CD)  (clf, 猪#NN, 只#M)  (nsubj, 满足#VV, 猪#NN)  (advmod, 条#M, 只有#AD)  (nummod, 条#M, 两#CD)  (clf, 里脊#NN, 条#M)  (nsubj, 满足#VV, 里脊#NN)  (advmod, 满足#VV, 难于#AD)  (root, ROOT#null, 满足#VV)  (nn, 家#NN, 食#NN)  (nsubj, 需要#NN, 家#NN)  (conj, 满足#VV, 需要#NN)   (advmod, 想出#VV, 于是#AD)  (nsubj, 想出#VV, 人们#NN)  (advmod, 想出#VV, 便#AD)  (relcl, 法#NN, 想出#VV)  (dobj, 想出#VV, 插烧#NN)  (mark, 想出#VV, 之#DEC)  (root, ROOT#null, 法#NN)   (advmod, 插#VV, 但#AD)  (nsubj, 插#VV, 这#PN)  (advmod, 插#VV, 也#AD)  (advmod, 插#VV, 只#AD)  (mmod, 插#VV, 能#VV)  (root, ROOT#null, 插#VV)  (nummod, 条#M, 几#CD)  (range, 插#VV, 条#M)  (advmod, 多#VA, 更#AD)  (dep, 插#VV, 多#VA)  (advmod, 烧#VV, 一点#AD)  (advmod, 烧#VV, 就#AD)  (dep, 成#VV, 烧#VV)  (neg, 成#VV, 不#AD)  (conj, 插#VV, 成#VV)  (asp, 成#VV, 了#AS)   (advmod, 改为#VV, 后来#AD)  (advmod, 改为#VV, 又#AD)  (root, ROOT#null, 改为#VV)  (ba, 起来#VV, 将#BA)  (nummod, 条#M, 数#CD)  (clf, 串#M, 条#M)  (nummod, 串#M, 里脊肉#CD)  (nsubj, 起来#VV, 串#M)  (dep, 改为#VV, 起来#VV)  (dobj, 起来#VV, 叉着#NN)  (prtmod, 烧#VV, 来#MSP)  (dep, 起来#VV, 烧#VV)  (nn, 烧#NN, 久而久之#NN)  (nn, 烧#NN, 插#NN)  (assmod, 便被#NN, 烧#NN)  (case, 烧#NN, 之#DEG)  (amod, 便被#NN, 名#JJ)  (nsubj, 替代#VV, 便被#NN)  (advmod, 替代#VV, 叉烧#AD)  (prtmod, 替代#VV, 所#MSP)  (dep, 改为#VV, 替代#VV)
+        </parsing>
+
+        <tag>
+            插烧发展  插在  里脊肉  鲜美处  满足  想出法  想出插烧  改为  起来叉着  名便被  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            味甘咸、性平，入脾、胃、肾经；补肾养血，滋阴润燥
+            。主治热病伤津、消渴羸瘦、肾虚体弱、产后血虚、燥咳、便秘、补虚、滋阴、润燥、滋肝阴，润肌肤，利二便和止消渴。
+        </rawdata>
+
+        <segment>
+            味甘咸  、  性平  ，  入脾  、  胃  、  肾经  ；  补  肾  养  血  ，  滋阴  润燥
+            。  主治  热病  伤津  、  消渴  羸瘦  、  肾虚  体弱  、  产后  血虚  、  燥咳  、  便秘  、  补  虚  、  滋阴  、  润燥  、  滋肝  阴  ，  润  肌肤  ，  利二  便  和  止  消渴  。
+        </segment>
+
+        <pos>
+            味甘咸#NR  、#PU  性平#NR  ，#PU  入脾#NR  、#PU  胃#NR  、#PU  肾经#NR  ；#PU  补#NN  肾#AD  养#VV  血#NN  ，#PU  滋阴#VV  润燥#NN
+            。#NN  主治#NN  热病#VV  伤津#NR  、#PU  消渴#NR  羸瘦#NR  、#PU  肾虚#NR  体弱#NR  、#PU  产后#NR  血虚#NR  、#PU  燥咳#NR  、#PU  便秘#NR  、#PU  补#NR  虚#NR  、#PU  滋阴#NR  、#PU  润燥#NR  、#PU  滋肝#NN  阴#NN  ，#PU  润#NN  肌肤#NN  ，#PU  利二#CD  便#NN  和#CC  止#NN  消渴#NN  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 性平#NR, 味甘咸#NR)  (nsubj, 养#VV, 性平#NR)  (conj, 肾经#NR, 入脾#NR)  (conj, 肾经#NR, 胃#NR)  (nsubj, 养#VV, 肾经#NR)  (nsubj, 养#VV, 补#NN)  (advmod, 养#VV, 肾#AD)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)  (conj, 养#VV, 滋阴#VV)  (dobj, 滋阴#VV, 润燥#NN)
+            (nsubj, 热病#VV, 主治#NN)  (root, ROOT#null, 热病#VV)  (conj, 润燥#NR, 伤津#NR)  (nn, 润燥#NR, 消渴#NR)  (conj, 润燥#NR, 羸瘦#NR)  (nn, 润燥#NR, 肾虚#NR)  (conj, 润燥#NR, 体弱#NR)  (nn, 润燥#NR, 产后#NR)  (conj, 润燥#NR, 血虚#NR)  (conj, 润燥#NR, 燥咳#NR)  (conj, 润燥#NR, 便秘#NR)  (nn, 润燥#NR, 补#NR)  (conj, 润燥#NR, 虚#NR)  (conj, 润燥#NR, 滋阴#NR)  (conj, 消渴#NN, 润燥#NR)  (nn, 阴#NN, 滋肝#NN)  (dep, 消渴#NN, 阴#NN)  (nn, 肌肤#NN, 润#NN)  (dep, 消渴#NN, 肌肤#NN)  (nummod, 便#NN, 利二#CD)  (conj, 消渴#NN, 便#NN)  (cc, 消渴#NN, 和#CC)  (nn, 消渴#NN, 止#NN)  (dobj, 热病#VV, 消渴#NN)
+        </parsing>
+
+        <tag>
+            性平  味甘咸  肾经  入脾  滋阴润燥  伤津  羸瘦  体弱  血虚  燥咳  便秘  热病消渴  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        美容养颜
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            插在猪腹内烧，用的是暗火，以热辐射烧烤而熟；叉着烧的是明火，是直接用火烤熟的，这样全瘦的里脊乃显得干枯，故后来便将里脊肉改为半肥瘦肉，并在面上涂抹始糖。使其在烧烤过程中有分解出来的油脂和饴糖来缓解火势而不致干枯，且有甜蜜的芳香味。
+        </rawdata>
+
+        <segment>
+            插在  猪  腹内  烧  ，  用  的  是  暗火  ，  以  热  辐射  烧烤  而  熟  ；  叉着  烧  的  是  明火  ，  是  直接  用  火  烤  熟  的  ，  这样  全  瘦的  里脊  乃  显得  干枯  ，  故  后来  便将  里脊肉  改为  半  肥  瘦肉  ，  并  在  面上  涂抹  始  糖  。  使  其  在  烧烤  过程  中  有  分解  出来  的  油脂  和  饴糖  来  缓解  火势  而  不致  干枯  ，  且  有  甜蜜  的  芳香味  。
+        </segment>
+
+        <pos>
+            插在#NN  猪#NN  腹内#NN  烧#VV  ，#PU  用#VV  的#DEC  是#VC  暗火#NN  ，#PU  以#P  热#NN  辐射#NN  烧烤#NN  而#MSP  熟#VA  ；#PU  叉着#VV  烧#NN  的#DEC  是#VC  明火#NN  ，#PU  是#VC  直接#AD  用#P  火#NN  烤#AD  熟#VA  的#DEC  ，#PU  这样#AD  全#DT  瘦的#NN  里脊#NN  乃#AD  显得#VV  干枯#NN  ，#PU  故#AD  后来#AD  便将#AD  里脊肉#AD  改为#VV  半#CD  肥#NR  瘦肉#NN  ，#PU  并#CC  在#P  面上#NR  涂抹#VV  始#NN  糖#NN    。#PU  使#VV  其#PN  在#P  烧烤#NN  过程#NN  中#LC  有#VE  分解#VV  出来#VV  的#DEC  油脂#NN  和#CC  饴糖#NN  来#MSP  缓解#VV  火势#NN  而#MSP  不致#VV  干枯#NN  ，#PU  且#CC  有#VE  甜蜜#NN  的#DEG  芳香味#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 腹内#NN, 插在#NN)  (nn, 腹内#NN, 猪#NN)  (nsubj, 烧#VV, 腹内#NN)  (root, ROOT#null, 烧#VV)  (nsubj, 暗火#NN, 用#VV)  (mark, 用#VV, 的#DEC)  (cop, 暗火#NN, 是#VC)  (ccomp, 烧#VV, 暗火#NN)  (case, 烧烤#NN, 以#P)  (nn, 烧烤#NN, 热#NN)  (nn, 烧烤#NN, 辐射#NN)  (prep, 熟#VA, 烧烤#NN)  (prtmod, 熟#VA, 而#MSP)  (conj, 暗火#NN, 熟#VA)  (nsubj, 明火#NN, 叉着#VV)  (dobj, 叉着#VV, 烧#NN)  (mark, 叉着#VV, 的#DEC)  (cop, 明火#NN, 是#VC)  (conj, 暗火#NN, 明火#NN)  (cop, 熟#VA, 是#VC)  (advmod, 熟#VA, 直接#AD)  (case, 火#NN, 用#P)  (prep, 熟#VA, 火#NN)  (advmod, 熟#VA, 烤#AD)  (conj, 明火#NN, 熟#VA)  (mark, 熟#VA, 的#DEC)  (advmod, 显得#VV, 这样#AD)  (det, 瘦的#NN, 全#DT)  (nn, 里脊#NN, 瘦的#NN)  (nsubj, 显得#VV, 里脊#NN)  (advmod, 显得#VV, 乃#AD)  (conj, 暗火#NN, 显得#VV)  (dobj, 显得#VV, 干枯#NN)  (advmod, 改为#VV, 故#AD)  (advmod, 改为#VV, 后来#AD)  (advmod, 改为#VV, 便将#AD)  (advmod, 改为#VV, 里脊肉#AD)  (dep, 显得#VV, 改为#VV)  (nummod, 瘦肉#NN, 半#CD)  (nn, 瘦肉#NN, 肥#NR)  (dobj, 改为#VV, 瘦肉#NN)  (cc, 显得#VV, 并#CC)  (case, 面上#NR, 在#P)  (prep, 涂抹#VV, 面上#NR)  (dep, 显得#VV, 涂抹#VV)  (nn, 糖#NN, 始#NN)  (dobj, 涂抹#VV, 糖#NN)   (root, ROOT#null, 使#VV)  (dobj, 使#VV, 其#PN)  (case, 过程#NN, 在#P)  (nn, 过程#NN, 烧烤#NN)  (prep, 有#VE, 过程#NN)  (case, 过程#NN, 中#LC)  (dep, 使#VV, 有#VE)  (relcl, 饴糖#NN, 分解#VV)  (comod, 分解#VV, 出来#VV)  (mark, 分解#VV, 的#DEC)  (conj, 饴糖#NN, 油脂#NN)  (cc, 饴糖#NN, 和#CC)  (nsubj, 缓解#VV, 饴糖#NN)  (prtmod, 缓解#VV, 来#MSP)  (dep, 有#VE, 缓解#VV)  (dobj, 缓解#VV, 火势#NN)  (prtmod, 不致#VV, 而#MSP)  (dep, 缓解#VV, 不致#VV)  (dobj, 不致#VV, 干枯#NN)  (cc, 有#VE, 且#CC)  (dep, 有#VE, 有#VE)  (assmod, 芳香味#NN, 甜蜜#NN)  (case, 甜蜜#NN, 的#DEG)  (dobj, 有#VE, 芳香味#NN)
+        </parsing>
+
+        <tag>
+            插在腹内  辐射烧烤  叉着烧  暗火  明火  瘦的里脊  显得干枯  改为瘦肉  涂抹糖  烧烤过程  分解饴糖  油脂  缓解火势  不致干枯  芳香味  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/03/09/2307_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1234 叉烧肉.jpg
+    </picturelocalurl>
+
+</content>

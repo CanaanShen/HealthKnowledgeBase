@@ -1,0 +1,266 @@
+<content>
+
+    <id>
+        245
+    </id>
+
+    <foodname>
+        辣椒
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        瓜果类
+    </secondcategory>
+
+    <alias>
+        青辣椒、尖辣椒、番椒、海椒、辣子、辣角、秦椒
+    </alias>
+
+    <season>
+        夏
+    </season>
+
+    <unsuit>
+        <rawdata>
+            甲亢患者、肾炎患者、慢性气管炎、高血压患者、胃及十二指肠溃疡、急性胃炎、肺结核以及痔疮或眼部疾病患者忌食。
+        </rawdata>
+
+        <segment>
+            甲亢  患者  、  肾炎  患者  、  慢性  气管炎  、  高血压  患者  、  胃  及  十二  指肠  溃疡  、  急性  胃炎  、  肺结核  以及  痔疮  或  眼部  疾病  患者  忌食  。
+        </segment>
+
+        <pos>
+            甲亢#NN  患者#NN  、#PU  肾炎#NN  患者#NN  、#PU  慢性#NN  气管炎#NN  、#PU  高血压#NN  患者#NN  、#PU  胃#CD  及#CC  十二#CD  指肠#NN  溃疡#NN  、#PU  急性#NN  胃炎#NN  、#PU  肺结核#NN  以及#CC  痔疮#NN  或#CC  眼部#NN  疾病#NN  患者#NN  忌食#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 甲亢#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 患者#NN, 肾炎#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 气管炎#NN, 慢性#NN)  (conj, 疾病#NN, 气管炎#NN)  (nn, 患者#NN, 高血压#NN)  (conj, 疾病#NN, 患者#NN)  (nummod, 十二#CD, 胃#CD)  (cc, 十二#CD, 及#CC)  (nummod, 指肠#NN, 十二#CD)  (nn, 溃疡#NN, 指肠#NN)  (conj, 疾病#NN, 溃疡#NN)  (nn, 胃炎#NN, 急性#NN)  (conj, 疾病#NN, 胃炎#NN)  (conj, 疾病#NN, 肺结核#NN)  (cc, 疾病#NN, 以及#CC)  (conj, 眼部#NN, 痔疮#NN)  (cc, 眼部#NN, 或#CC)  (nn, 疾病#NN, 眼部#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)
+        </parsing>
+
+        <tag>
+            甲亢  患者  肾炎  患者  慢性气管炎  高血压  患者  十二指肠溃疡  急性胃炎  肺结核以  痔疮  眼部疾病  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                41.7
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            辣椒，为茄科草本植物辣椒及共变种的果实。果实通常成圆锥形或长圆形，未成熟时呈绿色，成熟后变成鲜红色、黄色或紫色，以红色最为常见。辣椒的果实因果皮含有辣椒素而有辣味。能增进食欲。辣椒中维生素C的含量在蔬菜中居第一位。
+            辣椒原产于中南美洲热带地区，原产国是墨西哥。15世纪末，哥伦布发现美洲之後把辣椒带回欧洲，并由此传播到世界其他地方。于明代传入中国。清陈淏子之《花镜》有番椒的记载。今中国各地普遍栽培，成为一种大众化蔬菜。
+        </rawdata>
+
+        <segment>
+            辣椒  ，  为  茄科  草本  植物  辣椒  及  共  变种  的  果实  。  果实  通常  成  圆锥形  或  长圆形  ，  未成熟  时  呈  绿色  ，  成熟  后  变成  鲜红色  、  黄色  或  紫色  ，  以  红色  最为  常见  。  辣椒  的  果实  因果  皮  含有  辣椒素  而有  辣味  。  能  增进  食欲  。  辣椒  中  维生素C  的  含量  在  蔬菜  中  居  第一  位  。
+            辣椒  原  产于  中南美洲  热带  地区  ，  原产  国是  墨西哥  。  15  世纪  末  ，  哥伦布  发现  美洲  之後  把  辣椒  带回  欧洲  ，  并  由此  传播  到  世界  其他  地方  。  于  明代  传入  中国  。  清  陈淏子  之  《  花镜  》  有  番椒  的  记载  。  今  中国  各  地  普遍  栽培  ，  成为  一  种  大众化  蔬菜  。
+        </segment>
+
+        <pos>
+            辣椒#VV  ，#PU  为#P  茄科#NN  草本#VV  植物#NN  辣椒#NN  及#CC  共#AD  变种#NN  的#DEG  果实#NN    。#PU  果实#NN  通常#AD  成#VV  圆锥形#VV  或#CC  长圆形#VV  ，#PU  未成熟#NN  时#LC  呈#VV  绿色#NN  ，#PU  成熟#VA  后#LC  变成#VV  鲜红色#JJ  、#PU  黄色#JJ  或#CC  紫色#JJ  ，#PU  以#NR  红色#JJ  最为#AD  常见#VA    。#PU  辣椒#NN  的#DEG  果实#NN  因果#NN  皮#AD  含有#VV  辣椒素#NN  而有#NN  辣味#NN    。#PU  能#VV  增进#VV  食欲#NN    。#PU  辣椒#NN  中#LC  维生素C#NN  的#DEG  含量#NN  在#P  蔬菜#NN  中#LC  居#VV  第一#OD  位#M    。#PU    。#PU
+            辣椒#NN  原#AD  产于#VV  中南美洲#NR  热带#NN  地区#NN  ，#PU  原产#AD  国是#VV  墨西哥#NR    。#PU  15#CD  世纪#NN  末#LC  ，#PU  哥伦布#NR  发现#VV  美洲#NR  之後#NN  把#BA  辣椒#NN  带回#VV  欧洲#NR  ，#PU  并#CC  由此#NN  传播#VV  到#P  世界#NN  其他#DT  地方#NN    。#PU  于#P  明代#NN  传入#VV  中国#NR    。#PU  清#JJ  陈淏子#NN  之#DEG  花镜#NN  有#VE  番椒#NN  的#DEG  记载#NN    。#PU  今#NT  中国#NR  各#DT  地#NN  普遍#AD  栽培#VV  ，#PU  成为#VV  一#CD  种#M  大众化#JJ  蔬菜#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 辣椒#VV)  (case, 茄科#NN, 为#P)  (prep, 草本#VV, 茄科#NN)  (dep, 辣椒#VV, 草本#VV)  (nn, 辣椒#NN, 植物#NN)  (conj, 变种#NN, 辣椒#NN)  (cc, 变种#NN, 及#CC)  (advmod, 变种#NN, 共#AD)  (assmod, 果实#NN, 变种#NN)  (case, 变种#NN, 的#DEG)  (dobj, 草本#VV, 果实#NN)   (nsubj, 圆锥形#VV, 果实#NN)  (advmod, 圆锥形#VV, 通常#AD)  (mmod, 圆锥形#VV, 成#VV)  (dep, 常见#VA, 圆锥形#VV)  (cc, 圆锥形#VV, 或#CC)  (loc, 变成#VV, 长圆形#VV)  (loc, 呈#VV, 未成熟#NN)  (case, 未成熟#NN, 时#LC)  (ccomp, 长圆形#VV, 呈#VV)  (dobj, 呈#VV, 绿色#NN)  (conj, 呈#VV, 成熟#VA)  (case, 长圆形#VV, 后#LC)  (dep, 圆锥形#VV, 变成#VV)  (conj, 圆锥形#VV, 鲜红色#JJ)  (conj, 鲜红色#JJ, 黄色#JJ)  (cc, 鲜红色#JJ, 或#CC)  (dep, 鲜红色#JJ, 紫色#JJ)  (dep, 圆锥形#VV, 以#NR)  (conj, 圆锥形#VV, 红色#JJ)  (advmod, 常见#VA, 最为#AD)  (root, ROOT#null, 常见#VA)   (assmod, 因果#NN, 辣椒#NN)  (case, 辣椒#NN, 的#DEG)  (nn, 因果#NN, 果实#NN)  (nsubj, 含有#VV, 因果#NN)  (advmod, 含有#VV, 皮#AD)  (root, ROOT#null, 含有#VV)  (nn, 辣味#NN, 辣椒素#NN)  (nn, 辣味#NN, 而有#NN)  (dobj, 含有#VV, 辣味#NN)   (mmod, 增进#VV, 能#VV)  (root, ROOT#null, 增进#VV)  (dobj, 增进#VV, 食欲#NN)   (dep, 维生素C#NN, 辣椒#NN)  (case, 辣椒#NN, 中#LC)  (assmod, 含量#NN, 维生素C#NN)  (case, 维生素C#NN, 的#DEG)  (nsubj, 居#VV, 含量#NN)  (case, 蔬菜#NN, 在#P)  (prep, 居#VV, 蔬菜#NN)  (case, 蔬菜#NN, 中#LC)  (root, ROOT#null, 居#VV)  (ordmod, 位#M, 第一#OD)  (range, 居#VV, 位#M)   (root, ROOT#null, null#null)
+            (nsubj, 产于#VV, 辣椒#NN)  (advmod, 产于#VV, 原#AD)  (root, ROOT#null, 产于#VV)  (nn, 地区#NN, 中南美洲#NR)  (nn, 地区#NN, 热带#NN)  (dobj, 产于#VV, 地区#NN)  (advmod, 国是#VV, 原产#AD)  (conj, 产于#VV, 国是#VV)  (dobj, 国是#VV, 墨西哥#NR)   (nummod, 世纪#NN, 15#CD)  (loc, 发现#VV, 世纪#NN)  (case, 世纪#NN, 末#LC)  (nsubj, 发现#VV, 哥伦布#NR)  (root, ROOT#null, 发现#VV)  (nn, 之後#NN, 美洲#NR)  (dobj, 发现#VV, 之後#NN)  (ba, 带回#VV, 把#BA)  (nsubj, 带回#VV, 辣椒#NN)  (conj, 发现#VV, 带回#VV)  (dobj, 带回#VV, 欧洲#NR)  (cc, 发现#VV, 并#CC)  (nsubj, 传播#VV, 由此#NN)  (conj, 发现#VV, 传播#VV)  (case, 地方#NN, 到#P)  (nn, 地方#NN, 世界#NN)  (det, 地方#NN, 其他#DT)  (prep, 传播#VV, 地方#NN)   (case, 明代#NN, 于#P)  (prep, 传入#VV, 明代#NN)  (root, ROOT#null, 传入#VV)  (dobj, 传入#VV, 中国#NR)   (amod, 陈淏子#NN, 清#JJ)  (assmod, 花镜#NN, 陈淏子#NN)  (case, 陈淏子#NN, 之#DEG)  (dep, 有#VE, 花镜#NN)  (root, ROOT#null, 有#VE)  (assmod, 记载#NN, 番椒#NN)  (case, 番椒#NN, 的#DEG)  (dobj, 有#VE, 记载#NN)   (tmod, 栽培#VV, 今#NT)  (nn, 地#NN, 中国#NR)  (det, 地#NN, 各#DT)  (nsubj, 栽培#VV, 地#NN)  (advmod, 栽培#VV, 普遍#AD)  (root, ROOT#null, 栽培#VV)  (dep, 栽培#VV, 成为#VV)  (nummod, 种#M, 一#CD)  (clf, 蔬菜#NN, 种#M)  (amod, 蔬菜#NN, 大众化#JJ)  (dobj, 成为#VV, 蔬菜#NN)
+        </parsing>
+
+        <tag>
+            草本果实  果实因果  而有辣味  含有辣味  增进食欲  热带地区  产于地区  世界地方  传入  清陈淏子  栽培  大众化蔬菜  成为蔬菜  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            果：温中散寒，健胃消食。用于胃寒疼痛，胃肠胀气，消化不良；外用治冻疮，风湿痛，腰肌痛。
+            根：活血消肿。外用治冻疮。
+            1.健胃、助消化
+            辣椒对口腔及胃肠有刺激作用，能增强肠胃蠕动，促进消化液分泌，改善食欲，并能抑制肠内异常发酵。我国一些医学、营养专家对湘、川等省进行调查，发现这些普遍喜食辣椒的省区，胃溃疡的发病率远低于其他省区。这是由于辣椒能刺激人体前列腺素E2的释放，有利于促进胃黏膜的再生，维持胃肠细胞功能，防治胃溃疡。
+            2.预防胆结石
+            常吃青椒能预防胆结石。青椒含有丰富的维生素，尤其是维生素C，可使体内多余的胆固醇转变为胆汁酸，从而预防胆结石，已患胆结石者多吃富含维生素C的青椒，对缓解病情有一定作用。
+            3.改善心脏功能
+            以辣椒为主要原料，配以大蒜、山楂的提取物及维生素E，制成“保健品”，食用后能改善心脏功能，促进血液循环。此外，常食辣椒可降低血脂，减少血栓形成，对心血管系统疾病有一定预防作用。
+            4.降血糖
+            牙买加的科学家通过实验证明，辣椒素能显著降低血糖水平。
+            5.缓解皮肤疼痛
+            研究发现，辣椒素能缓解诸多疾病引起的皮肤疼痛。
+            6.减肥
+            辣椒含有一种成分，可以通过扩张血管，刺激体内生热系统，有效地燃烧体内的脂肪，加快新陈代谢，使体内的热量消耗速度加快，从而达到减肥的效果。
+            7.防感冒
+            辣味食物具有通利肺气、通达窍表、通顺血脉的“三通”作用。
+            8.挡辐射
+            红辣椒、黑胡椒、咖喱等香辛料，能够保护细胞的DNA免受辐射破坏，尤其是伽马射线。
+            9.促进血液循环
+            中医认为辛辣食物既能促进血液循环，又能增进脑细胞活性，有助延缓衰老，纾缓多种疾病。
+        </rawdata>
+
+        <segment>
+            果  ：  温  中散寒  ，  健胃  消食  。  用于  胃寒  疼痛  ，  胃肠  胀气  ，  消化不良  ；  外用  治  冻疮  ，  风湿痛  ，  腰  肌痛  。
+            根  ：  活血  消肿  。  外用  治  冻疮  。
+            健胃  、  助消化
+            辣椒  对  口腔  及  胃肠  有  刺激  作用  ，  能  增强  肠胃  蠕动  ，  促进  消化液  分泌  ，  改善  食欲  ，  并  能  抑制  肠内  异常  发酵  。  我国  一些  医学  、  营养  专家  对湘  、  川  等  省  进行  调查  ，  发现  这些  普遍  喜  食  辣椒  的  省区  ，  胃溃疡  的  发病率  远  低于  其他  省区  。  这  是  由于  辣椒  能  刺激  人体  前列腺素  E2  的  释放  ，  有利于  促进  胃  黏膜  的  再生  ，  维持  胃肠  细胞  功能  ，  防治  胃溃疡  。
+            预防  胆结石
+            常  吃  青椒  能  预防  胆结石  。  青椒  含有  丰富  的  维生素  ，  尤其是  维生素C  ，  可使  体内  多余  的  胆固醇  转变  为  胆汁酸  ，  从而  预防  胆结石  ，  已  患  胆结石  者  多  吃  富含  维生素C  的  青椒  ，  对  缓解  病情  有  一定  作用  。
+            改善  心脏  功能
+            以  辣椒  为  主要  原料  ，  配  以  大蒜  、  山楂  的  提取物  及  维生素E  ，  制成  “  保健品  ”  ，  食用  后能  改善  心脏  功能  ，  促进  血液  循环  。  此外  ，  常食  辣椒  可  降低  血脂  ，  减少  血栓  形成  ，  对  心血管  系统  疾病  有  一定  预防  作用  。
+            降  血糖
+            牙买加  的  科学家  通过  实验  证明  ，  辣椒素  能  显著  降低  血糖  水平  。
+            缓解  皮肤  疼痛
+            研究  发现  ，  辣椒素  能  缓解  诸多  疾病  引起  的  皮肤  疼痛  。
+            减肥
+            辣椒  含有  一  种  成分  ，  可以  通过  扩张  血管  ，  刺激  体内  生热  系统  ，  有效  地  燃烧  体内  的  脂肪  ，  加快  新陈代谢  ，  使  体内  的  热量  消耗  速度  加快  ，  从而  达到  减肥  的  效果  。
+            防  感冒
+            辣味  食物  具有  通利  肺气  、  通达  窍表  、  通顺  血脉  的  “  三通  ”  作用  。
+            挡  辐射
+            红辣椒  、  黑胡椒  、  咖喱  等  香辛料  ，  能够  保护  细胞  的  DNA  免受  辐射  破坏  ，  尤其是  伽马射线  。
+            促进  血液  循环
+            中医  认为  辛辣  食物  既  能  促进  血液  循环  ，  又能  增进  脑细胞  活性  ，  有助  延缓  衰老  ，  纾缓  多  种  疾病  。
+        </segment>
+
+        <pos>
+            果#NN  ：#PU  温#NN  中散寒#NN  ，#PU  健胃#AD  消食#VV    。#PU  用于#VV  胃寒#NN  疼痛#NN  ，#PU  胃肠#NN  胀气#NN  ，#PU  消化不良#VV  ；#PU  外用#NN  治#VV  冻疮#NN  ，#PU  风湿痛#NN  ，#PU  腰#NN  肌痛#VV    。#PU    。#PU
+            根#M  ：#PU  活血#AD  消肿#VV    。#PU  外用#NN  治#VV  冻疮#NN    。#PU    。#PU
+            健胃#VA  、#PU  助消化#VA
+            辣椒#NN  对#P  口腔#NN  及#CC  胃肠#NN  有#VE  刺激#VV  作用#NN  ，#PU  能#VV  增强#VV  肠胃#NN  蠕动#NN  ，#PU  促进#VV  消化液#NN  分泌#NN  ，#PU  改善#VV  食欲#NN  ，#PU  并#CC  能#VV  抑制#VV  肠内#NN  异常#VA  发酵#NN    。#PU  我国#NR  一些#CD  医学#NN  、#PU  营养#VA  专家#NN  对湘#NR  、#PU  川#NR  等#ETC  省#NN  进行#VV  调查#NN  ，#PU  发现#VV  这些#DT  普遍#AD  喜#VA  食#NN  辣椒#NN  的#DEC  省区#NN  ，#PU  胃溃疡#VV  的#DEC  发病率#NN  远#AD  低于#VV  其他#DT  省区#NN    。#PU  这#PN  是#VC  由于#P  辣椒#AD  能#VV  刺激#VV  人体#AD  前列腺素#VV  E2#CD  的#DEC  释放#VV  ，#PU  有利于#VV  促进#VV  胃#NN  黏膜#NN  的#DEC  再生#VV  ，#PU  维持#VV  胃肠#NN  细胞#NN  功能#NN  ，#PU  防治#VV  胃溃疡#NN    。#PU    。#PU
+            预防#NN  胆结石#VV
+            常#AD  吃#VV  青椒#NN  能#VV  预防#VV  胆结石#NN    。#PU  青椒#NN  含有#VV  丰富#VA  的#DEC  维生素#NN  ，#PU  尤其是#AD  维生素C#NN  ，#PU  可使#NN  体内#NN  多余#NN  的#DEG  胆固醇#NN  转变#NN  为#VC  胆汁酸#NN  ，#PU  从而#AD  预防#VV  胆结石#NN  ，#PU  已#AD  患#VV  胆结石#NN  者#NN  多#AD  吃#VV  富含#NN  维生素C#NN  的#DEC  青椒#NN  ，#PU  对#P  缓解#VV  病情#NN  有#VE  一定#JJ  作用#NN    。#PU    。#PU
+            改善#VV  心脏#NN  功能#NN
+            以#P  辣椒#NN  为#VV  主要#JJ  原料#NN  ，#PU  配#VV  以#P  大蒜#NN  、#PU  山楂#NN  的#DEG  提取物#NN  及#CC  维生素E#NN  ，#PU  制成#VV  ``#NN  保健品#NN  ''#NN  ，#PU  食用#VV  后能#NN  改善#VV  心脏#NN  功能#NN  ，#PU  促进#VV  血液#NN  循环#NN    。#PU  此外#AD  ，#PU  常食#NN  辣椒#NN  可#VV  降低#VV  血脂#NN  ，#PU  减少#VV  血栓#NN  形成#NN  ，#PU  对#P  心血管#NN  系统#NN  疾病#NN  有#VE  一定#AD  预防#VV  作用#NN    。#PU    。#PU
+            降#VV  血糖#NN
+            牙买加#NN  的#DEG  科学家#NN  通过#P  实验#NN  证明#VV  ，#PU  辣椒素#NN  能#VV  显著#AD  降低#VV  血糖#NN  水平#NN  。#PU
+            缓解#VV  皮肤#NN  疼痛#NN
+            研究#NN  发现#VV  ，#PU  辣椒素#NN  能#VV  缓解#VV  诸多#CD  疾病#NN  引起#VV  的#DEC  皮肤#NN  疼痛#NN  。#PU
+            减肥#VV
+            辣椒#NN  含有#VV  一#CD  种#M  成分#NN  ，#PU  可以#VV  通过#P  扩张#VV  血管#NN  ，#PU  刺激#VV  体内#NN  生热#NN  系统#NN  ，#PU  有效#VA  地#DEV  燃烧#VV  体内#NN  的#DEG  脂肪#NN  ，#PU  加快#VV  新陈代谢#NN  ，#PU  使#VV  体内#NN  的#DEG  热量#NN  消耗#VV  速度#NN  加快#VV  ，#PU  从而#AD  达到#VV  减肥#VV  的#DEC  效果#NN  。#PU
+            防#NN  感冒#VV
+            辣味#NN  食物#AD  具有#VV  通利#NN  肺气#NN  、#PU  通达#NN  窍表#NN  、#PU  通顺#VA  血脉#VA  的#DEC  ``#NN  三通#NN  ''#NN  作用#NN  。#PU
+            挡#VV  辐射#NN
+            红辣椒#NR  、#PU  黑胡椒#NR  、#PU  咖喱#NR  等#ETC  香辛料#NN  ，#PU  能够#VV  保护#NN  细胞#NN  的#DEC  DNA#NN  免受#AD  辐射#VV  破坏#VV  ，#PU  尤其是#AD  伽马射线#NN  。#PU
+            促进#VV  血液#NN  循环#NN
+            中医#NN  认为#VV  辛辣#VV  食物#NN  既#CC  能#VV  促进#VV  血液#NN  循环#NN  ，#PU  又能#AD  增进#VV  脑细胞#NN  活性#NN  ，#PU  有助#VV  延缓#NN  衰老#NN  ，#PU  纾缓#VV  多#CD  种#M  疾病#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 消食#VV, 果#NN)  (nn, 中散寒#NN, 温#NN)  (nsubj, 消食#VV, 中散寒#NN)  (advmod, 消食#VV, 健胃#AD)  (root, ROOT#null, 消食#VV)   (root, ROOT#null, 用于#VV)  (nn, 疼痛#NN, 胃寒#NN)  (dobj, 用于#VV, 疼痛#NN)  (nn, 胀气#NN, 胃肠#NN)  (nsubj, 消化不良#VV, 胀气#NN)  (dep, 用于#VV, 消化不良#VV)  (nsubj, 治#VV, 外用#NN)  (conj, 用于#VV, 治#VV)  (dobj, 治#VV, 冻疮#NN)  (nsubj, 肌痛#VV, 风湿痛#NN)  (nsubj, 肌痛#VV, 腰#NN)  (conj, 用于#VV, 肌痛#VV)   (root, ROOT#null, null#null)
+            (nsubj, 消肿#VV, 根#M)  (advmod, 消肿#VV, 活血#AD)  (root, ROOT#null, 消肿#VV)   (nsubj, 治#VV, 外用#NN)  (root, ROOT#null, 治#VV)  (dobj, 治#VV, 冻疮#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 健胃#VA)  (dep, 健胃#VA, 助消化#VA)
+            (nsubj, 有#VE, 辣椒#NN)  (case, 胃肠#NN, 对#P)  (conj, 胃肠#NN, 口腔#NN)  (cc, 胃肠#NN, 及#CC)  (prep, 有#VE, 胃肠#NN)  (root, ROOT#null, 有#VE)  (nfincl, 发酵#NN, 刺激#VV)  (dobj, 刺激#VV, 作用#NN)  (mmod, 增强#VV, 能#VV)  (conj, 刺激#VV, 增强#VV)  (nn, 蠕动#NN, 肠胃#NN)  (dobj, 增强#VV, 蠕动#NN)  (conj, 刺激#VV, 促进#VV)  (nn, 分泌#NN, 消化液#NN)  (dobj, 促进#VV, 分泌#NN)  (conj, 刺激#VV, 改善#VV)  (dobj, 改善#VV, 食欲#NN)  (cc, 刺激#VV, 并#CC)  (mmod, 抑制#VV, 能#VV)  (dep, 刺激#VV, 抑制#VV)  (dobj, 抑制#VV, 肠内#NN)  (dep, 抑制#VV, 异常#VA)  (dobj, 有#VE, 发酵#NN)   (nn, 医学#NN, 我国#NR)  (nummod, 医学#NN, 一些#CD)  (conj, 省#NN, 医学#NN)  (nfincl, 专家#NN, 营养#VA)  (nn, 省#NN, 专家#NN)  (conj, 川#NR, 对湘#NR)  (nn, 省#NN, 川#NR)  (etc, 川#NR, 等#ETC)  (nsubj, 低于#VV, 省#NN)  (relcl, 发病率#NN, 进行#VV)  (dobj, 进行#VV, 调查#NN)  (conj, 进行#VV, 发现#VV)  (det, 省区#NN, 这些#DT)  (advmod, 喜#VA, 普遍#AD)  (relcl, 省区#NN, 喜#VA)  (nn, 辣椒#NN, 食#NN)  (dobj, 喜#VA, 辣椒#NN)  (mark, 喜#VA, 的#DEC)  (dobj, 发现#VV, 省区#NN)  (conj, 进行#VV, 胃溃疡#VV)  (mark, 进行#VV, 的#DEC)  (nsubj, 低于#VV, 发病率#NN)  (advmod, 低于#VV, 远#AD)  (root, ROOT#null, 低于#VV)  (det, 省区#NN, 其他#DT)  (dobj, 低于#VV, 省区#NN)   (nsubj, 是#VC, 这#PN)  (root, ROOT#null, 是#VC)  (case, 刺激#VV, 由于#P)  (advmod, 刺激#VV, 辣椒#AD)  (mmod, 刺激#VV, 能#VV)  (prep, 是#VC, 刺激#VV)  (advmod, 前列腺素#VV, 人体#AD)  (relcl, 功能#NN, 前列腺素#VV)  (range, 前列腺素#VV, E2#CD)  (mark, 前列腺素#VV, 的#DEC)  (relcl, 功能#NN, 释放#VV)  (dep, 释放#VV, 有利于#VV)  (ccomp, 有利于#VV, 促进#VV)  (nn, 黏膜#NN, 胃#NN)  (dobj, 促进#VV, 黏膜#NN)  (mark, 释放#VV, 的#DEC)  (nfincl, 功能#NN, 再生#VV)  (dep, 再生#VV, 维持#VV)  (nn, 细胞#NN, 胃肠#NN)  (dobj, 维持#VV, 细胞#NN)  (dobj, 刺激#VV, 功能#NN)  (dep, 刺激#VV, 防治#VV)  (dobj, 防治#VV, 胃溃疡#NN)   (root, ROOT#null, null#null)
+            (nsubj, 胆结石#VV, 预防#NN)  (root, ROOT#null, 胆结石#VV)
+            (advmod, 吃#VV, 常#AD)  (relcl, 青椒#NN, 吃#VV)  (nsubj, 预防#VV, 青椒#NN)  (mmod, 预防#VV, 能#VV)  (root, ROOT#null, 预防#VV)  (dobj, 预防#VV, 胆结石#NN)   (nsubj, 含有#VV, 青椒#NN)  (root, ROOT#null, 含有#VV)  (relcl, 维生素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (dobj, 含有#VV, 维生素#NN)  (advmod, 维生素C#NN, 尤其是#AD)  (nsubj, 胆汁酸#NN, 维生素C#NN)  (nn, 多余#NN, 可使#NN)  (nn, 多余#NN, 体内#NN)  (assmod, 转变#NN, 多余#NN)  (case, 多余#NN, 的#DEG)  (nn, 转变#NN, 胆固醇#NN)  (nsubj, 胆汁酸#NN, 转变#NN)  (cop, 胆汁酸#NN, 为#VC)  (conj, 含有#VV, 胆汁酸#NN)  (advmod, 预防#VV, 从而#AD)  (conj, 胆汁酸#NN, 预防#VV)  (dobj, 预防#VV, 胆结石#NN)  (advmod, 患#VV, 已#AD)  (conj, 胆汁酸#NN, 患#VV)  (nn, 者#NN, 胆结石#NN)  (nsubj, 吃#VV, 者#NN)  (advmod, 吃#VV, 多#AD)  (relcl, 青椒#NN, 吃#VV)  (nn, 维生素C#NN, 富含#NN)  (dobj, 吃#VV, 维生素C#NN)  (mark, 吃#VV, 的#DEC)  (dobj, 患#VV, 青椒#NN)  (case, 缓解#VV, 对#P)  (prep, 有#VE, 缓解#VV)  (dobj, 缓解#VV, 病情#NN)  (conj, 胆汁酸#NN, 有#VE)  (amod, 作用#NN, 一定#JJ)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 改善#VV)  (nn, 功能#NN, 心脏#NN)  (dobj, 改善#VV, 功能#NN)
+            (case, 辣椒#NN, 以#P)  (prep, 为#VV, 辣椒#NN)  (root, ROOT#null, 为#VV)  (amod, 原料#NN, 主要#JJ)  (dobj, 为#VV, 原料#NN)  (conj, 为#VV, 配#VV)  (case, 山楂#NN, 以#P)  (conj, 山楂#NN, 大蒜#NN)  (assmod, 维生素E#NN, 山楂#NN)  (case, 山楂#NN, 的#DEG)  (conj, 维生素E#NN, 提取物#NN)  (cc, 维生素E#NN, 及#CC)  (dobj, 配#VV, 维生素E#NN)  (conj, 为#VV, 制成#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 保健品#NN)  (dobj, 制成#VV, ''#NN)  (conj, 为#VV, 食用#VV)  (dobj, 食用#VV, 后能#NN)  (conj, 食用#VV, 改善#VV)  (nn, 功能#NN, 心脏#NN)  (dobj, 改善#VV, 功能#NN)  (conj, 为#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)   (advmod, 降低#VV, 此外#AD)  (nsubj, 降低#VV, 常食#NN)  (nsubj, 降低#VV, 辣椒#NN)  (mmod, 降低#VV, 可#VV)  (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 血脂#NN)  (conj, 降低#VV, 减少#VV)  (nn, 形成#NN, 血栓#NN)  (dobj, 减少#VV, 形成#NN)  (case, 疾病#NN, 对#P)  (nn, 疾病#NN, 心血管#NN)  (nn, 疾病#NN, 系统#NN)  (prep, 有#VE, 疾病#NN)  (conj, 降低#VV, 有#VE)  (advmod, 预防#VV, 一定#AD)  (relcl, 作用#NN, 预防#VV)  (dobj, 有#VE, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降#VV)  (dobj, 降#VV, 血糖#NN)
+            (assmod, 科学家#NN, 牙买加#NN)  (case, 牙买加#NN, 的#DEG)  (nsubj, 证明#VV, 科学家#NN)  (case, 实验#NN, 通过#P)  (prep, 证明#VV, 实验#NN)  (root, ROOT#null, 证明#VV)  (nsubj, 降低#VV, 辣椒素#NN)  (mmod, 降低#VV, 能#VV)  (advmod, 降低#VV, 显著#AD)  (ccomp, 证明#VV, 降低#VV)  (dobj, 降低#VV, 血糖#NN)  (dobj, 降低#VV, 水平#NN)  (range, 降低#VV, 水平#NN)
+            (root, ROOT#null, 缓解#VV)  (nn, 疼痛#NN, 皮肤#NN)  (dobj, 缓解#VV, 疼痛#NN)
+            (nsubj, 发现#VV, 研究#NN)  (root, ROOT#null, 发现#VV)  (nsubj, 缓解#VV, 辣椒素#NN)  (mmod, 缓解#VV, 能#VV)  (ccomp, 发现#VV, 缓解#VV)  (nummod, 疾病#NN, 诸多#CD)  (nsubj, 引起#VV, 疾病#NN)  (relcl, 疼痛#NN, 引起#VV)  (mark, 引起#VV, 的#DEC)  (nn, 疼痛#NN, 皮肤#NN)  (dobj, 缓解#VV, 疼痛#NN)
+            (root, ROOT#null, 减肥#VV)
+            (nsubj, 含有#VV, 辣椒#NN)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 一#CD)  (clf, 成分#NN, 种#M)  (dobj, 含有#VV, 成分#NN)  (mmod, 燃烧#VV, 可以#VV)  (case, 扩张#VV, 通过#P)  (prep, 燃烧#VV, 扩张#VV)  (dobj, 扩张#VV, 血管#NN)  (conj, 扩张#VV, 刺激#VV)  (nn, 系统#NN, 体内#NN)  (nn, 系统#NN, 生热#NN)  (dobj, 刺激#VV, 系统#NN)  (dvpmod, 燃烧#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (conj, 含有#VV, 燃烧#VV)  (assmod, 脂肪#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (dobj, 燃烧#VV, 脂肪#NN)  (conj, 含有#VV, 加快#VV)  (dobj, 加快#VV, 新陈代谢#NN)  (conj, 含有#VV, 使#VV)  (assmod, 热量#NN, 体内#NN)  (case, 体内#NN, 的#DEG)  (dobj, 使#VV, 热量#NN)  (dep, 使#VV, 消耗#VV)  (dobj, 消耗#VV, 速度#NN)  (conj, 消耗#VV, 加快#VV)  (advmod, 达到#VV, 从而#AD)  (conj, 含有#VV, 达到#VV)  (relcl, 效果#NN, 减肥#VV)  (mark, 减肥#VV, 的#DEC)  (dobj, 达到#VV, 效果#NN)
+            (nsubj, 感冒#VV, 防#NN)  (root, ROOT#null, 感冒#VV)
+            (nsubj, 具有#VV, 辣味#NN)  (advmod, 具有#VV, 食物#AD)  (root, ROOT#null, 具有#VV)  (nn, 肺气#NN, 通利#NN)  (conj, ''#NN, 肺气#NN)  (nn, 窍表#NN, 通达#NN)  (conj, ''#NN, 窍表#NN)  (relcl, ''#NN, 通顺#VA)  (comod, 通顺#VA, 血脉#VA)  (mark, 通顺#VA, 的#DEC)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 三通#NN)  (nn, 作用#NN, ''#NN)  (dobj, 具有#VV, 作用#NN)
+            (root, ROOT#null, 挡#VV)  (dobj, 挡#VV, 辐射#NN)
+            (conj, 咖喱#NR, 红辣椒#NR)  (conj, 咖喱#NR, 黑胡椒#NR)  (nn, 香辛料#NN, 咖喱#NR)  (etc, 咖喱#NR, 等#ETC)  (nsubj, 辐射#VV, 香辛料#NN)  (relcl, DNA#NN, 能够#VV)  (nn, 细胞#NN, 保护#NN)  (dobj, 能够#VV, 细胞#NN)  (mark, 能够#VV, 的#DEC)  (nsubj, 辐射#VV, DNA#NN)  (advmod, 辐射#VV, 免受#AD)  (root, ROOT#null, 辐射#VV)  (rcomp, 辐射#VV, 破坏#VV)  (advmod, 伽马射线#NN, 尤其是#AD)  (dobj, 辐射#VV, 伽马射线#NN)
+            (root, ROOT#null, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)
+            (nsubj, 认为#VV, 中医#NN)  (xsubj, 辛辣#VV, 中医#NN)  (root, ROOT#null, 认为#VV)  (ccomp, 认为#VV, 辛辣#VV)  (dobj, 辛辣#VV, 食物#NN)  (cc, 辛辣#VV, 既#CC)  (mmod, 促进#VV, 能#VV)  (conj, 辛辣#VV, 促进#VV)  (nn, 循环#NN, 血液#NN)  (dobj, 促进#VV, 循环#NN)  (advmod, 增进#VV, 又能#AD)  (conj, 辛辣#VV, 增进#VV)  (nn, 活性#NN, 脑细胞#NN)  (dobj, 增进#VV, 活性#NN)  (conj, 辛辣#VV, 有助#VV)  (nn, 衰老#NN, 延缓#NN)  (dobj, 有助#VV, 衰老#NN)  (conj, 辛辣#VV, 纾缓#VV)  (nummod, 种#M, 多#CD)  (clf, 疾病#NN, 种#M)  (dobj, 纾缓#VV, 疾病#NN)
+        </parsing>
+
+        <tag>
+            消食  胃寒疼痛  用于疼痛  胃肠胀气  消肿  口腔  肠胃蠕动  增强蠕动  消化液分泌  促进分泌  改善食欲  抑制肠内  进行发病率  进行调查  低于省区  前列腺素功能  释放功能  促进黏膜  胃肠细胞  维持细胞  刺激功能  防治胃溃疡  吃青椒  预防胆结石  维生素丰富  含有维生素  可使多余  体内多余  胆固醇转变  富含维生素C  缓解病情  心脏功能  改善功能  山楂  大蒜  维生素E  提取物  食用后能  血液循环  促进循环  降低血脂  血栓形成  减少形成  心血管疾病  系统疾病  科学家  牙买加  证明  降低血糖  降低水平  皮肤疼痛  缓解疼痛  扩张血管  体内系统  生热系统  刺激系统  燃烧脂肪  加快新陈代谢  消耗速度  减肥效果  达到效果  感冒  通利肺气  通达窍表  血脉通顺  咖喱  黑胡椒  能够DNA  保护细胞  能够细胞  辐射伽马射线  辛辣食物  脑细胞活性  增进活性  延缓衰老  有助衰老  纾缓疾病  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        减肥  促进消化  抗癌防癌  温中  消食积  降气  抗突变  抗氧化  抗菌  促进宫缩
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            含辣味成分，主要为辣椒碱、二氢辣椒碱；另含挥发油、蛋白质、钙、磷，丰富的维生素C、胡萝卜素及辣椒红素。
+        </rawdata>
+
+        <segment>
+            含  辣味  成分  ，  主要  为  辣椒碱  、  二  氢  辣椒碱  ；  另  含  挥发油  、  蛋白质  、  钙  、  磷  ，  丰富  的  维生素C  、  胡萝卜素  及  辣椒红素  。
+        </segment>
+
+        <pos>
+            含#VV  辣味#NN  成分#NN  ，#PU  主要#AD  为#P  辣椒碱#NN  、#PU  二#CD  氢#NN  辣椒碱#VV  ；#PU  另#AD  含#VV  挥发油#NN  、#PU  蛋白质#NN  、#PU  钙#NN  、#PU  磷#NN  ，#PU  丰富#VA  的#DEC  维生素C#NN  、#PU  胡萝卜素#NN  及#CC  辣椒红素#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 含#VV)  (nn, 成分#NN, 辣味#NN)  (dobj, 含#VV, 成分#NN)  (advmod, 辣椒碱#VV, 主要#AD)  (case, 氢#NN, 为#P)  (conj, 氢#NN, 辣椒碱#NN)  (nummod, 氢#NN, 二#CD)  (prep, 辣椒碱#VV, 氢#NN)  (conj, 含#VV, 辣椒碱#VV)  (advmod, 含#VV, 另#AD)  (conj, 含#VV, 含#VV)  (conj, 磷#NN, 挥发油#NN)  (conj, 磷#NN, 蛋白质#NN)  (conj, 磷#NN, 钙#NN)  (dobj, 含#VV, 磷#NN)  (relcl, 辣椒红素#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 辣椒红素#NN, 维生素C#NN)  (conj, 辣椒红素#NN, 胡萝卜素#NN)  (cc, 辣椒红素#NN, 及#CC)  (conj, 含#VV, 辣椒红素#NN)
+        </parsing>
+
+        <tag>
+              
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            辣椒既可做主菜，也可以用来做配菜或汤。夏季应尽量用辣椒做配菜，并选择具有滋阴、降燥、泻热等功效的食品，比如：鸭肉、虾、鲫鱼、瘦肉、苦菜、苦瓜、丝瓜、黄瓜、百合、槐花、香椿、大头菜等。
+            食用宜选味不甚辣、辛香而油润多肉者。不宜多食，过食可引起头昏、眼干，口腔、腹部或肛门灼热，疼痛，腹泻，唇生疱疹等。
+        </rawdata>
+
+        <segment>
+            辣椒  既  可  做  主菜  ，  也  可以  用来  做  配菜  或  汤  。  夏季  应  尽量  用  辣椒  做  配菜  ，  并  选择  具有  滋阴  、  降燥  、  泻热  等  功效  的  食品  ，  比如  ：  鸭肉  、  虾  、  鲫鱼  、  瘦肉  、  苦  菜  、  苦瓜  、  丝瓜  、  黄瓜  、  百合  、  槐花  、  香椿  、  大头菜  等  。
+            食用  宜选  味  不  甚  辣  、  辛香  而  油润  多肉者  。  不  宜  多  食  ，  过食  可  引起  头昏  、  眼干  ，  口腔  、  腹部  或  肛门  灼热  ，  疼痛  ，  腹泻  ，  唇生  疱疹  等  。
+        </segment>
+
+        <pos>
+            辣椒#NR  既#CC  可#VV  做#VV  主菜#NN  ，#PU  也#AD  可以#VV  用来#AD  做#VV  配菜#NN  或#CC  汤#NN    。#PU  夏季#NT  应#VV  尽量#VV  用#P  辣椒#NR  做#VV  配菜#NN  ，#PU  并#CC  选择#VV  具有#VV  滋阴#NR  、#PU  降燥#NR  、#PU  泻热#NR  等#ETC  功效#NN  的#DEC  食品#NN  ，#PU  比如#AD  ：#PU  鸭肉#VV  、#PU  虾#VA  、#PU  鲫鱼#NN  、#PU  瘦肉#NN  、#PU  苦#NN  菜#NN  、#PU  苦瓜#NN  、#PU  丝瓜#NN  、#PU  黄瓜#NN  、#PU  百合#CD  、#PU  槐花#NN  、#PU  香椿#NN  、#PU  大头菜#NN  等#ETC    。#PU    。#PU
+            食用#VV  宜选#NN  味#NN  不#AD  甚#AD  辣#VA  、#PU  辛香#VA  而#MSP  油润#VV  多肉者#NN    。#PU  不#AD  宜#NR  多#CD  食#NN  ，#PU  过食#AD  可#VV  引起#VV  头昏#NN  、#PU  眼干#NN  ，#PU  口腔#NR  、#PU  腹部#NR  或#CC  肛门#NR  灼热#VV  ，#PU  疼痛#NN  ，#PU  腹泻#VV  ，#PU  唇生#VV  疱疹#NN  等#ETC    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 做#VV, 辣椒#NR)  (cc, 做#VV, 既#CC)  (mmod, 做#VV, 可#VV)  (root, ROOT#null, 做#VV)  (dobj, 做#VV, 主菜#NN)  (advmod, 做#VV, 也#AD)  (mmod, 做#VV, 可以#VV)  (advmod, 做#VV, 用来#AD)  (dep, 做#VV, 做#VV)  (conj, 汤#NN, 配菜#NN)  (cc, 汤#NN, 或#CC)  (dobj, 做#VV, 汤#NN)   (tmod, 应#VV, 夏季#NT)  (root, ROOT#null, 应#VV)  (rcomp, 应#VV, 尽量#VV)  (case, 辣椒#NR, 用#P)  (prep, 做#VV, 辣椒#NR)  (dep, 应#VV, 做#VV)  (dobj, 做#VV, 配菜#NN)  (cc, 做#VV, 并#CC)  (dep, 做#VV, 选择#VV)  (relcl, 食品#NN, 具有#VV)  (conj, 泻热#NR, 滋阴#NR)  (conj, 泻热#NR, 降燥#NR)  (nn, 功效#NN, 泻热#NR)  (etc, 泻热#NR, 等#ETC)  (dobj, 具有#VV, 功效#NN)  (mark, 具有#VV, 的#DEC)  (dobj, 选择#VV, 食品#NN)  (conj, 做#VV, 比如#AD)  (conj, 做#VV, 鸭肉#VV)  (conj, 做#VV, 虾#VA)  (conj, 做#VV, 鲫鱼#NN)  (conj, 做#VV, 瘦肉#NN)  (nn, 菜#NN, 苦#NN)  (conj, 做#VV, 菜#NN)  (conj, 做#VV, 苦瓜#NN)  (conj, 做#VV, 丝瓜#NN)  (conj, 做#VV, 黄瓜#NN)  (conj, 做#VV, 百合#CD)  (conj, 做#VV, 槐花#NN)  (conj, 做#VV, 香椿#NN)  (dep, 做#VV, 大头菜#NN)  (etc, 大头菜#NN, 等#ETC)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 食用#VV)  (nn, 味#NN, 宜选#NN)  (dobj, 食用#VV, 味#NN)  (neg, 辣#VA, 不#AD)  (advmod, 辣#VA, 甚#AD)  (conj, 食用#VV, 辣#VA)  (dep, 辣#VA, 辛香#VA)  (prtmod, 油润#VV, 而#MSP)  (dep, 食用#VV, 油润#VV)  (dobj, 油润#VV, 多肉者#NN)   (neg, 引起#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (nsubj, 引起#VV, 食#NN)  (advmod, 引起#VV, 过食#AD)  (mmod, 引起#VV, 可#VV)  (root, ROOT#null, 引起#VV)  (conj, 眼干#NN, 头昏#NN)  (dobj, 引起#VV, 眼干#NN)  (conj, 肛门#NR, 口腔#NR)  (conj, 肛门#NR, 腹部#NR)  (cc, 肛门#NR, 或#CC)  (nsubj, 灼热#VV, 肛门#NR)  (conj, 引起#VV, 灼热#VV)  (nsubj, 腹泻#VV, 疼痛#NN)  (ccomp, 灼热#VV, 腹泻#VV)  (dep, 腹泻#VV, 唇生#VV)  (dobj, 唇生#VV, 疱疹#NN)  (etc, 疱疹#NN, 等#ETC)
+        </parsing>
+
+        <tag>
+            泻热  滋阴  降燥  食用味  油润多肉者  眼干  头昏  肛门  口腔  腹部  唇生疱疹  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101425027304.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\245 辣椒.jpg
+    </picturelocalurl>
+
+</content>

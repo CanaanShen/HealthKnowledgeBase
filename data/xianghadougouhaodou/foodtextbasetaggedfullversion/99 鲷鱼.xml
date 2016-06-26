@@ -1,0 +1,180 @@
+<content>
+
+    <id>
+        99
+    </id>
+
+    <foodname>
+        鲷鱼
+    </foodname>
+
+    <firstcategory>
+        鱼类
+    </firstcategory>
+
+    <secondcategory>
+        咸水鱼
+    </secondcategory>
+
+    <alias>
+        加吉鱼、班加吉、加真鲷、铜盆鱼
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            痛风患者忌食。
+        </rawdata>
+
+        <segment>
+            痛风  患者  忌食  。
+        </segment>
+
+        <pos>
+            痛风#VV  患者#NN  忌食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 痛风#VV)  (nn, 忌食#NN, 患者#NN)  (dobj, 痛风#VV, 忌食#NN)
+        </parsing>
+
+        <tag>
+            痛风  患者  忌食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)
+        </parsing>
+
+        <tag>
+            一般人群均可  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                110
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鲷鱼，又叫加吉鱼，属于鱼纲鲷科。体高侧扁，长五十厘米以上，体呈银红色，有淡蓝色的斑点，尾鳍后绿黑色，头大、口小，上下颌牙前部圆锥形，后部臼齿状，体被栉鳞，背鳍和臀鳍具硬棘。中国沿海均产，但以辽宁大东沟，河北秦皇岛、山海关，山东烟台、龙口、青岛为主要产区，山海关产的品质最好。
+            加吉鱼分红加吉和黑加吉两种，红加吉的学名叫真鲷，黑加吉即黑鲷。加吉鱼名字的由来，还有一段有趣的故事呢。相传，唐太宗李世民东征，来到登州(现在的山东蓬莱)。一天，他择吉日渡海游览海上仙山(现今的长山岛)，在海岛上品尝了长相漂亮味道鲜美的鱼之后，便问随行的文武官员，此鱼何名？群臣不敢胡说，于是作揖答道：“皇上赐名才是。”太宗大喜，想到是择吉日渡海，品尝鲜鱼又为吉日增添光彩，为此赐名“加吉鱼”。
+        </rawdata>
+
+        <segment>
+            鲷鱼  ，  又  叫  加吉鱼  ，  属于  鱼纲  鲷科  。  体高  侧扁  ，  长  五十  厘米  以上  ，  体呈  银  红色  ，  有  淡蓝  色  的  斑点  ，  尾鳍  后  绿  黑色  ，  头大  、  口  小  ，  上下颌  牙  前部  圆锥形  ，  后部  臼齿状  ，  体被  栉鳞  ，  背鳍  和  臀鳍  具  硬棘  。  中国  沿海  均  产  ，  但  以  辽宁  大  东沟  ，  河北  秦皇岛  、  山海关  ，  山东  烟台  、  龙口  、  青岛  为  主要  产区  ，  山海关  产  的  品质  最好  。
+            加吉鱼  分红  加  吉  和  黑加吉  两  种  ，  红  加  吉  的  学名  叫  真鲷  ，  黑加吉  即  黑鲷  。  加吉  鱼  名字  的  由来  ，  还有  一  段  有趣  的  故事  呢  。  相传  ，  唐太宗  李世民  东征  ，  来到  登州  (  现在  的  山东  蓬莱  )  。  一天  ，  他  择吉日  渡海  游览  海上  仙山  (  现今  的  长山岛  )  ，  在  海岛  上  品尝  了  长相  漂亮  味道鲜  美  的  鱼  之后  ，  便  问  随行  的  文武  官员  ，  此  鱼  何  名  ？  群臣  不  敢  胡说  ，  于是  作揖  答道  ：  “  皇上  赐  名  才  是  。  ”  太宗  大喜  ，  想到  是  择吉日  渡海  ，  品尝  鲜鱼  又  为  吉日  增添  光彩  ，  为此  赐  名  “  加吉鱼  ”  。
+        </segment>
+
+        <pos>
+            鲷鱼#VV  ，#PU  又#AD  叫#VV  加吉鱼#NN  ，#PU  属于#VV  鱼纲#NN  鲷科#NN    。#PU  体高#NR  侧扁#VV  ，#PU  长#JJ  五十#CD  厘米#M  以上#LC  ，#PU  体呈#NN  银#NN  红色#JJ  ，#PU  有#VE  淡蓝#NN  色#NN  的#DEG  斑点#NN  ，#PU  尾鳍#NN  后#LC  绿#VA  黑色#JJ  ，#PU  头大#NN  、#PU  口#NN  小#VA  ，#PU  上下颌#NN  牙#NN  前部#VV  圆锥形#NN  ，#PU  后部#VV  臼齿状#NN  ，#PU  体被#VV  栉鳞#NN  ，#PU  背鳍#NR  和#CC  臀鳍#NR  具#VV  硬棘#NN    。#PU  中国#NR  沿海#NN  均#AD  产#VV  ，#PU  但#AD  以#P  辽宁#NR  大#JJ  东沟#NN  ，#PU  河北#NR  秦皇岛#NR  、#PU  山海关#NR  ，#PU  山东#NR  烟台#NR  、#PU  龙口#NR  、#PU  青岛#NR  为#VV  主要#JJ  产区#NN  ，#PU  山海关#VV  产#VV  的#DEC  品质#NN  最好#JJ    。#PU    。#PU
+            加吉鱼#NN  分红#VV  加#NR  吉#NR  和#CC  黑加吉#NN  两#CD  种#M  ，#PU  红#JJ  加#NR  吉#NR  的#DEG  学名#NN  叫#VV  真鲷#NN  ，#PU  黑加吉#NN  即#AD  黑鲷#VV    。#PU  加吉#VV  鱼#NN  名字#NN  的#DEG  由来#NN  ，#PU  还有#AD  一#CD  段#M  有趣#NN  的#DEG  故事#NN  呢#SP    。#PU  相传#VV  ，#PU  唐太宗#NN  李世民#VV  东征#NN  ，#PU  来到#VV  登州#NN  -LRB-#NN  现在#NT  的#DEG  山东#NR  蓬莱#NN  -RRB-#NN    。#PU  一天#CD  ，#PU  他#PN  择吉日#NN  渡海#NN  游览#VV  海上#NN  仙山#NN  -LRB-#NN  现今#NT  的#DEG  长山岛#NN  -RRB-#NN  ，#PU  在#P  海岛#NN  上#LC  品尝#VV  了#AS  长相#AD  漂亮#VA  味道鲜#VA  美#NR  的#DEC  鱼#NN  之后#AD  ，#PU  便#AD  问#VV  随行#JJ  的#DEG  文武#NN  官员#NN  ，#PU  此#DT  鱼#NN  何#DT  名#M  ？#PU  群臣#NR  不#AD  敢#VV  胡说#NN  ，#PU  于是#AD  作揖#AD  答道#VV  ：#PU  ``#NR  皇上#VV  赐#CD  名#M  才#AD  是#VC    。#PU  ''#NN  太宗#VV  大喜#NN  ，#PU  想到#VV  是#VC  择吉日#NN  渡海#NN  ，#PU  品尝#NN  鲜鱼#NN  又#AD  为#P  吉日#NN  增添#VV  光彩#NN  ，#PU  为此#NR  赐#CD  名#M  ``#NN  加吉鱼#VV  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 鲷鱼#VV)  (advmod, 叫#VV, 又#AD)  (ccomp, 鲷鱼#VV, 叫#VV)  (dobj, 叫#VV, 加吉鱼#NN)  (dep, 叫#VV, 属于#VV)  (nn, 鲷科#NN, 鱼纲#NN)  (dobj, 属于#VV, 鲷科#NN)   (nsubj, 侧扁#VV, 体高#NR)  (root, ROOT#null, 侧扁#VV)  (amod, 厘米#M, 长#JJ)  (nummod, 厘米#M, 五十#CD)  (loc, 红色#JJ, 厘米#M)  (case, 厘米#M, 以上#LC)  (nn, 银#NN, 体呈#NN)  (nsubj, 红色#JJ, 银#NN)  (ccomp, 侧扁#VV, 红色#JJ)  (conj, 红色#JJ, 有#VE)  (nn, 色#NN, 淡蓝#NN)  (assmod, 斑点#NN, 色#NN)  (case, 色#NN, 的#DEG)  (dobj, 有#VE, 斑点#NN)  (loc, 绿#VA, 尾鳍#NN)  (case, 尾鳍#NN, 后#LC)  (conj, 红色#JJ, 绿#VA)  (conj, 红色#JJ, 黑色#JJ)  (conj, 口#NN, 头大#NN)  (nsubj, 小#VA, 口#NN)  (conj, 红色#JJ, 小#VA)  (nn, 牙#NN, 上下颌#NN)  (nsubj, 前部#VV, 牙#NN)  (conj, 红色#JJ, 前部#VV)  (dobj, 前部#VV, 圆锥形#NN)  (conj, 前部#VV, 后部#VV)  (dobj, 后部#VV, 臼齿状#NN)  (conj, 前部#VV, 体被#VV)  (dobj, 体被#VV, 栉鳞#NN)  (conj, 臀鳍#NR, 背鳍#NR)  (cc, 臀鳍#NR, 和#CC)  (nsubj, 具#VV, 臀鳍#NR)  (conj, 红色#JJ, 具#VV)  (dobj, 具#VV, 硬棘#NN)   (nn, 沿海#NN, 中国#NR)  (nsubj, 产#VV, 沿海#NN)  (advmod, 产#VV, 均#AD)  (root, ROOT#null, 产#VV)  (advmod, 为#VV, 但#AD)  (case, 东沟#NN, 以#P)  (nn, 东沟#NN, 辽宁#NR)  (amod, 东沟#NN, 大#JJ)  (prep, 为#VV, 东沟#NN)  (nn, 山海关#NR, 河北#NR)  (conj, 山海关#NR, 秦皇岛#NR)  (nsubj, 为#VV, 山海关#NR)  (nn, 青岛#NR, 山东#NR)  (conj, 青岛#NR, 烟台#NR)  (conj, 青岛#NR, 龙口#NR)  (dep, 为#VV, 青岛#NR)  (conj, 产#VV, 为#VV)  (amod, 产区#NN, 主要#JJ)  (dobj, 为#VV, 产区#NN)  (conj, 为#VV, 山海关#VV)  (relcl, 品质#NN, 产#VV)  (mark, 产#VV, 的#DEC)  (dobj, 山海关#VV, 品质#NN)  (conj, 为#VV, 最好#JJ)   (root, ROOT#null, null#null)
+            (nsubj, 分红#VV, 加吉鱼#NN)  (root, ROOT#null, 分红#VV)  (nn, 吉#NR, 加#NR)  (conj, 黑加吉#NN, 吉#NR)  (cc, 黑加吉#NN, 和#CC)  (dobj, 分红#VV, 黑加吉#NN)  (nummod, 种#M, 两#CD)  (range, 分红#VV, 种#M)  (amod, 加#NR, 红#JJ)  (nn, 学名#NN, 加#NR)  (assmod, 学名#NN, 吉#NR)  (case, 吉#NR, 的#DEG)  (nsubj, 叫#VV, 学名#NN)  (conj, 分红#VV, 叫#VV)  (dobj, 叫#VV, 真鲷#NN)  (nsubj, 黑鲷#VV, 黑加吉#NN)  (advmod, 黑鲷#VV, 即#AD)  (conj, 分红#VV, 黑鲷#VV)   (root, ROOT#null, 加吉#VV)  (nn, 名字#NN, 鱼#NN)  (assmod, 由来#NN, 名字#NN)  (case, 名字#NN, 的#DEG)  (dep, 故事#NN, 由来#NN)  (advmod, 故事#NN, 还有#AD)  (nummod, 段#M, 一#CD)  (clf, 有趣#NN, 段#M)  (assmod, 故事#NN, 有趣#NN)  (case, 有趣#NN, 的#DEG)  (dobj, 加吉#VV, 故事#NN)  (dep, 加吉#VV, 呢#SP)   (root, ROOT#null, 相传#VV)  (nsubj, 李世民#VV, 唐太宗#NN)  (ccomp, 相传#VV, 李世民#VV)  (dobj, 李世民#VV, 东征#NN)  (conj, 李世民#VV, 来到#VV)  (nn, -LRB-#NN, 登州#NN)  (assmod, -RRB-#NN, 现在#NT)  (case, 现在#NT, 的#DEG)  (nn, -RRB-#NN, 山东#NR)  (nn, -RRB-#NN, 蓬莱#NN)   (nsubj, 游览#VV, 一天#CD)  (nn, 渡海#NN, 他#PN)  (nn, 渡海#NN, 择吉日#NN)  (nsubj, 游览#VV, 渡海#NN)  (root, ROOT#null, 游览#VV)  (nn, -LRB-#NN, 海上#NN)  (nn, -LRB-#NN, 仙山#NN)  (assmod, -RRB-#NN, 现今#NT)  (case, 现今#NT, 的#DEG)  (nn, -RRB-#NN, 长山岛#NN)  (case, 海岛#NN, 在#P)  (prep, 品尝#VV, 海岛#NN)  (case, 海岛#NN, 上#LC)  (conj, 游览#VV, 品尝#VV)  (asp, 品尝#VV, 了#AS)  (advmod, 漂亮#VA, 长相#AD)  (relcl, 鱼#NN, 漂亮#VA)  (comod, 漂亮#VA, 味道鲜#VA)  (dobj, 漂亮#VA, 美#NR)  (mark, 漂亮#VA, 的#DEC)  (dobj, 品尝#VV, 鱼#NN)  (advmod, 是#VC, 之后#AD)  (advmod, 问#VV, 便#AD)  (dep, 是#VC, 问#VV)  (assmod, 官员#NN, 随行#JJ)  (case, 随行#JJ, 的#DEG)  (nn, 官员#NN, 文武#NN)  (nsubj, 何#DT, 官员#NN)  (det, 鱼#NN, 此#DT)  (nsubj, 何#DT, 鱼#NN)  (ccomp, 问#VV, 何#DT)  (clf, 何#DT, 名#M)  (nsubj, 敢#VV, 群臣#NR)  (neg, 敢#VV, 不#AD)  (conj, 何#DT, 敢#VV)  (dobj, 敢#VV, 胡说#NN)  (advmod, 答道#VV, 于是#AD)  (advmod, 答道#VV, 作揖#AD)  (conj, 何#DT, 答道#VV)  (nsubj, 皇上#VV, ``#NR)  (conj, 何#DT, 皇上#VV)  (nummod, 名#M, 赐#CD)  (range, 皇上#VV, 名#M)  (advmod, 是#VC, 才#AD)  (dep, 游览#VV, 是#VC)   (nsubj, 太宗#VV, ''#NN)  (root, ROOT#null, 太宗#VV)  (dobj, 太宗#VV, 大喜#NN)  (conj, 太宗#VV, 想到#VV)  (cop, 渡海#NN, 是#VC)  (nn, 渡海#NN, 择吉日#NN)  (ccomp, 想到#VV, 渡海#NN)  (nn, 鲜鱼#NN, 品尝#NN)  (nsubj, 增添#VV, 鲜鱼#NN)  (advmod, 增添#VV, 又#AD)  (case, 吉日#NN, 为#P)  (prep, 增添#VV, 吉日#NN)  (conj, 太宗#VV, 增添#VV)  (dobj, 增添#VV, 光彩#NN)  (nn, ``#NN, 为此#NR)  (nummod, 名#M, 赐#CD)  (clf, ``#NN, 名#M)  (nsubj, 加吉鱼#VV, ``#NN)  (conj, 太宗#VV, 加吉鱼#VV)  (dobj, 加吉鱼#VV, ''#NN)
+        </parsing>
+
+        <tag>
+            鱼纲鲷科  属于鲷科  侧扁  前部圆锥形  后部臼齿状  体被栉鳞  臀鳍  背鳍  大东沟  秦皇岛  青岛  烟台  龙口  产品质  山海关品质  分红黑加吉  加吉故事  相传  李世民东征  择吉日渡海  游览  鱼漂亮  味道鲜漂亮  品尝鱼  文武官员  太宗大喜  品尝鲜鱼  增添光彩  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.美容护肤
+            服用红鲷鱼中提取的胶原蛋白，不但能延缓皮肤衰老，减少皱纹、色斑等岁月问题，更能改善人体新陈代谢，让人具有更年轻的身体状态。
+            2.补肾养血
+            鲷鱼具有益肝,健脾,和胃,补肾,润肠,养颜护肤,通血,调经,养阴补虚等功效。
+        </rawdata>
+
+        <segment>
+            美容  护肤
+            服用  红  鲷鱼  中  提取  的  胶原  蛋白  ，  不但  能  延缓  皮肤  衰老  ，  减少  皱纹  、  色斑  等  岁月  问题  ，  更  能  改善  人体  新陈代谢  ，  让  人  具有  更  年轻  的  身体  状态  。
+            补  肾  养  血
+            鲷鱼  具有  益肝  ,  健脾  ,  和  胃  ,  补  肾  ,  润肠  ,  养颜  护肤  ,  通血  ,  调经  ,  养  阴  补  虚  等  功效  。
+        </segment>
+
+        <pos>
+            美容#NN  护肤#VV
+            服用#VV  红#JJ  鲷鱼#NN  中#LC  提取#VV  的#DEC  胶原#NN  蛋白#NN  ，#PU  不但#CC  能#VV  延缓#VV  皮肤#NN  衰老#NN  ，#PU  减少#VV  皱纹#NR  、#PU  色斑#NR  等#ETC  岁月#NN  问题#NN  ，#PU  更#AD  能#VV  改善#VV  人体#NN  新陈代谢#NN  ，#PU  让#VV  人#NN  具有#VV  更#AD  年轻#VA  的#DEC  身体#NN  状态#NN  。#PU
+            补#NN  肾#NN  养#VV  血#NN
+            鲷鱼#NR  具有#VV  益肝#NN  ,#NN  健脾#VV  ,#NN  和#CC  胃#NN  ,#NN  补#NN  肾#NN  ,#NN  润肠#NN  ,#NN  养颜#NN  护肤#NN  ,#NN  通血#NN  ,#NN  调经#NN  ,#NN  养#VV  阴#VA  补#VV  虚#AD  等#ETC  功效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 护肤#VV, 美容#NN)  (root, ROOT#null, 护肤#VV)
+            (root, ROOT#null, 服用#VV)  (amod, 鲷鱼#NN, 红#JJ)  (loc, 提取#VV, 鲷鱼#NN)  (case, 鲷鱼#NN, 中#LC)  (relcl, 蛋白#NN, 提取#VV)  (mark, 提取#VV, 的#DEC)  (nn, 蛋白#NN, 胶原#NN)  (dobj, 服用#VV, 蛋白#NN)  (cc, 服用#VV, 不但#CC)  (mmod, 延缓#VV, 能#VV)  (conj, 服用#VV, 延缓#VV)  (nn, 衰老#NN, 皮肤#NN)  (dobj, 延缓#VV, 衰老#NN)  (conj, 服用#VV, 减少#VV)  (conj, 色斑#NR, 皱纹#NR)  (nn, 问题#NN, 色斑#NR)  (etc, 色斑#NR, 等#ETC)  (nn, 问题#NN, 岁月#NN)  (dobj, 减少#VV, 问题#NN)  (advmod, 改善#VV, 更#AD)  (mmod, 改善#VV, 能#VV)  (conj, 服用#VV, 改善#VV)  (nn, 新陈代谢#NN, 人体#NN)  (dobj, 改善#VV, 新陈代谢#NN)  (conj, 服用#VV, 让#VV)  (dobj, 让#VV, 人#NN)  (dep, 让#VV, 具有#VV)  (advmod, 年轻#VA, 更#AD)  (relcl, 状态#NN, 年轻#VA)  (mark, 年轻#VA, 的#DEC)  (nn, 状态#NN, 身体#NN)  (dobj, 具有#VV, 状态#NN)
+            (nn, 肾#NN, 补#NN)  (nsubj, 养#VV, 肾#NN)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 血#NN)
+            (nsubj, 具有#VV, 鲷鱼#NR)  (root, ROOT#null, 具有#VV)  (nn, ,#NN, 益肝#NN)  (nfincl, 功效#NN, 健脾#VV)  (cc, 健脾#VV, 和#CC)  (nn, ,#NN, 胃#NN)  (nn, ,#NN, 补#NN)  (nn, ,#NN, 肾#NN)  (nn, ,#NN, 润肠#NN)  (nn, ,#NN, 养颜#NN)  (nn, ,#NN, 护肤#NN)  (nn, ,#NN, 通血#NN)  (nn, ,#NN, 调经#NN)  (mmod, 阴#VA, 养#VV)  (conj, 健脾#VV, 阴#VA)  (dep, 阴#VA, 补#VV)  (advmod, 补#VV, 虚#AD)  (dep, 健脾#VV, 等#ETC)  (dobj, 具有#VV, 功效#NN)
+        </parsing>
+
+        <tag>
+            护肤  提取蛋白  胶原蛋白  服用蛋白  皮肤衰老  延缓衰老  色斑  皱纹  岁月问题  减少问题  人体新陈代谢  改善新陈代谢  状态年轻  身体状态  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补胃养脾  祛风
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            营养丰富，富含蛋白质、钙、钾、硒等营养元素，为人体补充丰富蛋白质及矿物质。
+        </rawdata>
+
+        <segment>
+            营养  丰富  ，  富含  蛋白质  、  钙  、  钾  、  硒等  营养  元素  ，  为  人体  补充  丰富  蛋白质  及  矿物质  。
+        </segment>
+
+        <pos>
+            营养#VA  丰富#VA  ，#PU  富含#NN  蛋白质#NN  、#PU  钙#NN  、#PU  钾#NN  、#PU  硒等#NN  营养#VA  元素#NN  ，#PU  为#P  人体#NN  补充#NN  丰富#VV  蛋白质#NN  及#CC  矿物质#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 元素#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (nn, 硒等#NN, 富含#NN)  (conj, 硒等#NN, 蛋白质#NN)  (conj, 硒等#NN, 钙#NN)  (conj, 硒等#NN, 钾#NN)  (nsubj, 营养#VA, 硒等#NN)  (ccomp, 营养#VA, 营养#VA)  (nsubj, 丰富#VV, 元素#NN)  (case, 补充#NN, 为#P)  (nn, 补充#NN, 人体#NN)  (prep, 丰富#VV, 补充#NN)  (root, ROOT#null, 丰富#VV)  (conj, 矿物质#NN, 蛋白质#NN)  (cc, 矿物质#NN, 及#CC)  (dobj, 丰富#VV, 矿物质#NN)
+        </parsing>
+
+        <tag>
+            营养丰富  富含硒等  蛋白质  硒等营养  营养营养  人体补充  矿物质丰富  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/100951298341.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\99 鲷鱼.jpg
+    </picturelocalurl>
+
+</content>

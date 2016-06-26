@@ -1,0 +1,382 @@
+<content>
+
+    <id>
+        146
+    </id>
+
+    <foodname>
+        甲鱼
+    </foodname>
+
+    <firstcategory>
+        水产
+    </firstcategory>
+
+    <secondcategory>
+        其他水产
+    </secondcategory>
+
+    <alias>
+        鳖、水鱼、团鱼、鼋鱼、元鱼、老鳖、王八
+    </alias>
+
+    <season>
+        春、夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            肝炎患者、患有肠胃炎、胃溃疡、胆囊炎等消化系统疾病患者忌食；失眠、孕妇及产后泄泻忌食；肠胃功能虚弱、消化不良的人慎吃。
+        </rawdata>
+
+        <segment>
+            肝炎  患者  、  患有  肠胃炎  、  胃溃疡  、  胆囊炎  等  消化  系统  疾病  患者  忌食  ；  失眠  、  孕妇  及  产后  泄泻  忌食  ；  肠胃  功能  虚弱  、  消化不良  的  人  慎  吃  。
+        </segment>
+
+        <pos>
+            肝炎#NN  患者#NN  、#PU  患有#NR  肠胃炎#NR  、#PU  胃溃疡#NR  、#PU  胆囊炎#NR  等#ETC  消化#NN  系统#NN  疾病#NN  患者#NN  忌食#VV  ；#PU  失眠#NR  、#PU  孕妇#NR  及#CC  产后#NR  泄泻#NN  忌食#VV  ；#PU  肠胃#NN  功能#NN  虚弱#VA  、#PU  消化不良#VA  的#DEC  人#NN  慎#AD  吃#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 患者#NN, 肝炎#NN)  (conj, 疾病#NN, 患者#NN)  (nn, 胆囊炎#NR, 患有#NR)  (conj, 胆囊炎#NR, 肠胃炎#NR)  (conj, 胆囊炎#NR, 胃溃疡#NR)  (nn, 系统#NN, 胆囊炎#NR)  (etc, 胆囊炎#NR, 等#ETC)  (nn, 系统#NN, 消化#NN)  (nn, 疾病#NN, 系统#NN)  (nn, 患者#NN, 疾病#NN)  (nsubj, 忌食#VV, 患者#NN)  (root, ROOT#null, 忌食#VV)  (conj, 产后#NR, 失眠#NR)  (conj, 产后#NR, 孕妇#NR)  (cc, 产后#NR, 及#CC)  (nn, 泄泻#NN, 产后#NR)  (nsubj, 忌食#VV, 泄泻#NN)  (ccomp, 忌食#VV, 忌食#VV)  (nn, 功能#NN, 肠胃#NN)  (nsubj, 虚弱#VA, 功能#NN)  (relcl, 人#NN, 虚弱#VA)  (dep, 虚弱#VA, 消化不良#VA)  (mark, 虚弱#VA, 的#DEC)  (nsubj, 吃#VV, 人#NN)  (advmod, 吃#VV, 慎#AD)  (ccomp, 忌食#VV, 吃#VV)
+        </parsing>
+
+        <tag>
+            肝炎  患者  患有  肠胃炎  胃溃疡  胆囊炎  消化系统疾病  患者  忌食  失眠  孕妇  产后泄泻  忌食  肠胃功能虚弱  消化不良  人慎吃  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤适宜肝肾阴虚、营养不良、糖尿病、冠心病患者。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤  适宜  肝肾  阴虚  、  营养  不良  、  糖尿病  、  冠心病  患者  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤#NN  适宜#VV  肝肾#NN  阴虚#VA  、#PU  营养#VA  不良#JJ  、#PU  糖尿病#NN  、#PU  冠心病#NN  患者#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (nsubj, 适宜#VV, 尤#NN)  (root, ROOT#null, 适宜#VV)  (nsubj, 阴虚#VA, 肝肾#NN)  (relcl, 患者#NN, 阴虚#VA)  (dep, 阴虚#VA, 营养#VA)  (amod, 患者#NN, 不良#JJ)  (conj, 冠心病#NN, 糖尿病#NN)  (nn, 患者#NN, 冠心病#NN)  (dobj, 适宜#VV, 患者#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤适宜  肝肾阴虚  营养不良  糖尿病  冠心病  患者  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                118
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                17.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                4.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                2.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胆固醇（毫克）
+            </elename>
+            <elevalue>
+                101
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                139
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.07
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.14
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                1.88
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                70
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                114
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                196
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                96.9
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.31
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                15.19
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.12
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锰（毫克）
+            </elename>
+            <elevalue>
+                0.05
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            甲鱼，学名鳖，又称水鱼、团鱼、鼋鱼，卵生两栖爬行动物。鳖肉味鲜美、营养丰富，有清热养阴，平肝熄风，软坚散结的效果。不仅是餐桌上的美味佳肴，而且是一种用途很广的滋补药品和中药材料。中国现存主要有中华鳖、山瑞鳖、斑鳖、鼋，其中以中华鳖最为常见。该物种已被列入中国国家林业局2000年8月1日发布的《国家保护的有益的或者有重要经济、科学研究价值的陆生野生动物名录》。
+            鳖肉具有鸡、鹿、牛、羊、猪5种肉的美味，故素有“美食五味肉”的美称。它不但味道鲜美、高蛋白、低脂肪，而且是含有多种维生素和微量元素的滋补珍品，能够增强身体的抗病能力及调节人体的内分泌功能，也是提高母乳质量、增强婴儿的免疫力及智力的滋补佳品
+            在中国很早以前的记载中就有“鳖可补痨伤，壮阳气，大补阴之不足”(未经证实，请注意，希望有人给出原文出处)，自古以来就被人们视为滋补的营养保健品。唐.孟诜：妇人漏下五色，赢瘦，宜常食之。《随患居饮食谱》：鳖甘平，滋肝肾之阴，清虚劳之热，宜蒸煮食之。
+        </rawdata>
+
+        <segment>
+            甲鱼  ，  学名鳖  ，  又  称  水  鱼  、  团鱼  、  鼋鱼  ，  卵生  两栖  爬行  动物  。  鳖肉味  鲜美  、  营养  丰富  ，  有  清热  养  阴  ，  平肝熄风  ，  软坚  散结  的  效果  。  不仅  是  餐桌  上  的  美味  佳肴  ，  而且  是  一  种  用途  很  广  的  滋补  药品  和  中药  材料  。  中国  现存  主要  有  中华鳖  、  山瑞鳖  、  斑鳖  、  鼋  ，  其中  以  中华鳖  最为  常见  。  该  物种  已  被  列入  中国  国家  林业局  2000年  8月  1日  发布  的  《  国家  保护  的  有益  的  或者  有  重要  经济  、  科学  研究  价值  的  陆生  野生  动物  名录  》  。
+            鳖肉  具有  鸡  、  鹿  、  牛  、  羊  、  猪  5  种  肉  的  美味  ，  故  素  有  “  美食  五  味  肉  ”  的  美称  。  它  不但  味道  鲜美  、  高  蛋白  、  低脂肪  ，  而且  是  含有  多  种  维生素  和  微量  元素  的  滋补  珍品  ，  能够  增强  身体  的  抗病  能力  及  调节  人体  的  内分泌  功能  ，  也  是  提高  母乳  质量  、  增强  婴儿  的  免疫力  及  智力  的  滋补  佳品
+            在  中国  很早以前  的  记载  中就  有  “  鳖可补痨  伤  ，  壮  阳气  ，  大补  阴  之  不足  ”  (  未经  证实  ，  请  注意  ，  希望  有  人  给出  原文  出处  )  ，  自古以来  就  被  人们  视为  滋补  的  营养  保健品  。  唐  .  孟诜  ：  妇人  漏下  五色  ，  赢瘦  ，  宜  常食  之  。  《  随  患  居  饮食谱  》  ：  鳖甘平  ，  滋肝  肾  之  阴  ，  清  虚  劳  之  热  ，  宜蒸  煮  食  之  。
+        </segment>
+
+        <pos>
+            甲鱼#VV  ，#PU  学名鳖#NN  ，#PU  又#AD  称#VV  水#NN  鱼#NN  、#PU  团鱼#NN  、#PU  鼋鱼#NN  ，#PU  卵生#NN  两栖#AD  爬行#VV  动物#NN    。#PU  鳖肉味#AD  鲜美#VA  、#PU  营养#VA  丰富#VA  ，#PU  有#VE  清热#AD  养#VV  阴#NN  ，#PU  平肝熄风#VV  ，#PU  软坚#VV  散结#NN  的#DEC  效果#NN    。#PU  不仅#CC  是#VC  餐桌#NN  上#LC  的#DEG  美味#NN  佳肴#NN  ，#PU  而且#CC  是#VC  一#CD  种#M  用途#NN  很#AD  广#VA  的#DEC  滋补#NN  药品#NN  和#CC  中药#NN  材料#NN    。#PU  中国#NR  现存#JJ  主要#JJ  有#NN  中华鳖#NR  、#PU  山瑞鳖#NR  、#PU  斑鳖#NR  、#PU  鼋#NR  ，#PU  其中#NN  以#P  中华鳖#NN  最为#AD  常见#VA    。#PU  该#DT  物种#NN  已#AD  被#SB  列入#VV  中国#NR  国家#NN  林业局#NN  2000年#NT  8月#NT  1日#NT  发布#VV  的#DEC  国家#NN  保护#NN  的#DEG  有益#VA  的#DEC  或者#CC  有#VE  重要#JJ  经济#NN  、#PU  科学#NN  研究#NN  价值#NN  的#DEC  陆生#NN  野生#JJ  动物#NN  名录#NN    。#PU    。#PU
+            鳖肉#NR  具有#VV  鸡#NN  、#PU  鹿#NN  、#PU  牛#NN  、#PU  羊#NN  、#PU  猪#NN  5#CD  种#M  肉#NN  的#DEG  美味#NN  ，#PU  故#AD  素#AD  有#VE  ``#AD  美食#VV  五#CD  味#NN  肉#NN  ''#NN  的#DEC  美称#NN  。#PU  它#PN  不但#CC  味道#NN  鲜美#VA  、#PU  高#VA  蛋白#VA  、#PU  低脂肪#VA  ，#PU  而且#CC  是#VC  含有#VV  多#CD  种#M  维生素#NN  和#CC  微量#NN  元素#NN  的#DEG  滋补#NN  珍品#NN  ，#PU  能够#VV  增强#VV  身体#NN  的#DEC  抗病#NN  能力#NN  及#CC  调节#VV  人体#NR  的#DEG  内分泌#NN  功能#NN  ，#PU  也#AD  是#VC  提高#VV  母乳#NN  质量#NN  、#PU  增强#VV  婴儿#NN  的#DEC  免疫力#NN  及#CC  智力#NN  的#DEC  滋补#NN  佳品#VA
+            在#P  中国#NR  很早以前#VV  的#DEC  记载#NN  中就#AD  有#VE  ``#NN  鳖可补痨#NN  伤#NN  ，#PU  壮#JJ  阳气#NN  ，#PU  大补#AD  阴#VA  之#DEC  不足#NN  ''#AD  -LRB-#VV  未经#AD  证实#VV  ，#PU  请#VV  注意#VV  ，#PU  希望#VV  有#VE  人#NN  给出#NN  原文#NN  出处#NN  -RRB-#NN  ，#PU  自古以来#AD  就#AD  被#LB  人们#NN  视为#VV  滋补#NN  的#DEC  营养#VA  保健品#NN    。#PU  唐#NR  .#NN  孟诜#VV  ：#PU  妇人#NN  漏下#VV  五色#CD  ，#PU  赢瘦#NN  ，#PU  宜#NR  常食#VV  之#PN    。#PU  随#P  患#NN  居#VV  饮食谱#VV  ：#PU  鳖甘平#VV  ，#PU  滋肝#VV  肾#NN  之#DEG  阴#NN  ，#PU  清#VA  虚#AD  劳#NN  之#DEG  热#NN  ，#PU  宜蒸#AD  煮#VV  食#NN  之#DEG    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 甲鱼#VV)  (nsubj, 称#VV, 学名鳖#NN)  (advmod, 称#VV, 又#AD)  (ccomp, 甲鱼#VV, 称#VV)  (nn, 鼋鱼#NN, 水#NN)  (conj, 鼋鱼#NN, 鱼#NN)  (conj, 鼋鱼#NN, 团鱼#NN)  (dobj, 称#VV, 鼋鱼#NN)  (nsubj, 爬行#VV, 卵生#NN)  (advmod, 爬行#VV, 两栖#AD)  (conj, 称#VV, 爬行#VV)  (dobj, 爬行#VV, 动物#NN)   (advmod, 鲜美#VA, 鳖肉味#AD)  (root, ROOT#null, 鲜美#VA)  (dep, 鲜美#VA, 营养#VA)  (dep, 鲜美#VA, 丰富#VA)  (dep, 鲜美#VA, 有#VE)  (advmod, 养#VV, 清热#AD)  (relcl, 效果#NN, 养#VV)  (dobj, 养#VV, 阴#NN)  (conj, 养#VV, 平肝熄风#VV)  (conj, 养#VV, 软坚#VV)  (dobj, 软坚#VV, 散结#NN)  (mark, 养#VV, 的#DEC)  (dobj, 有#VE, 效果#NN)   (cc, 佳肴#NN, 不仅#CC)  (cop, 佳肴#NN, 是#VC)  (assmod, 佳肴#NN, 餐桌#NN)  (case, 餐桌#NN, 上#LC)  (case, 餐桌#NN, 的#DEG)  (nn, 佳肴#NN, 美味#NN)  (root, ROOT#null, 佳肴#NN)  (cc, 佳肴#NN, 而且#CC)  (cop, 材料#NN, 是#VC)  (nummod, 种#M, 一#CD)  (clf, 用途#NN, 种#M)  (nsubj, 广#VA, 用途#NN)  (advmod, 广#VA, 很#AD)  (relcl, 材料#NN, 广#VA)  (mark, 广#VA, 的#DEC)  (nn, 材料#NN, 滋补#NN)  (conj, 材料#NN, 药品#NN)  (cc, 材料#NN, 和#CC)  (nn, 材料#NN, 中药#NN)  (conj, 佳肴#NN, 材料#NN)   (nn, 有#NN, 中国#NR)  (amod, 有#NN, 现存#JJ)  (amod, 有#NN, 主要#JJ)  (nsubj, 常见#VA, 有#NN)  (conj, 鼋#NR, 中华鳖#NR)  (conj, 鼋#NR, 山瑞鳖#NR)  (conj, 鼋#NR, 斑鳖#NR)  (nsubj, 常见#VA, 鼋#NR)  (nsubj, 常见#VA, 其中#NN)  (case, 中华鳖#NN, 以#P)  (prep, 常见#VA, 中华鳖#NN)  (advmod, 常见#VA, 最为#AD)  (root, ROOT#null, 常见#VA)   (det, 物种#NN, 该#DT)  (nsubj, 列入#VV, 物种#NN)  (advmod, 列入#VV, 已#AD)  (auxpass, 列入#VV, 被#SB)  (root, ROOT#null, 列入#VV)  (nn, 林业局#NN, 中国#NR)  (nn, 林业局#NN, 国家#NN)  (nsubj, 发布#VV, 林业局#NN)  (nn, 1日#NT, 2000年#NT)  (nn, 1日#NT, 8月#NT)  (tmod, 发布#VV, 1日#NT)  (relcl, 名录#NN, 发布#VV)  (mark, 发布#VV, 的#DEC)  (nn, 保护#NN, 国家#NN)  (assmod, 名录#NN, 保护#NN)  (case, 保护#NN, 的#DEG)  (conj, 陆生#NN, 有益#VA)  (mark, 有益#VA, 的#DEC)  (cc, 陆生#NN, 或者#CC)  (relcl, 陆生#NN, 有#VE)  (amod, 价值#NN, 重要#JJ)  (conj, 价值#NN, 经济#NN)  (nn, 价值#NN, 科学#NN)  (nn, 价值#NN, 研究#NN)  (dobj, 有#VE, 价值#NN)  (mark, 有#VE, 的#DEC)  (nn, 动物#NN, 陆生#NN)  (amod, 动物#NN, 野生#JJ)  (nn, 名录#NN, 动物#NN)  (dobj, 列入#VV, 名录#NN)   (root, ROOT#null, null#null)
+            (nsubj, 具有#VV, 鳖肉#NR)  (root, ROOT#null, 具有#VV)  (conj, 猪#NN, 鸡#NN)  (conj, 猪#NN, 鹿#NN)  (conj, 猪#NN, 牛#NN)  (conj, 猪#NN, 羊#NN)  (nn, 肉#NN, 猪#NN)  (nummod, 种#M, 5#CD)  (clf, 肉#NN, 种#M)  (assmod, 美味#NN, 肉#NN)  (case, 肉#NN, 的#DEG)  (dobj, 具有#VV, 美味#NN)  (advmod, 有#VE, 故#AD)  (advmod, 有#VE, 素#AD)  (conj, 具有#VV, 有#VE)  (advmod, 美食#VV, ``#AD)  (relcl, 美称#NN, 美食#VV)  (nummod, ''#NN, 五#CD)  (nn, ''#NN, 味#NN)  (nn, ''#NN, 肉#NN)  (dobj, 美食#VV, ''#NN)  (mark, 美食#VV, 的#DEC)  (dobj, 有#VE, 美称#NN)  (conj, 味道#NN, 它#PN)  (cc, 味道#NN, 不但#CC)  (nsubj, 鲜美#VA, 味道#NN)  (conj, 具有#VV, 鲜美#VA)  (dep, 鲜美#VA, 高#VA)  (conj, 鲜美#VA, 蛋白#VA)  (dep, 鲜美#VA, 低脂肪#VA)  (cc, 具有#VV, 而且#CC)  (cop, 智力#NN, 是#VC)  (relcl, 智力#NN, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (conj, 元素#NN, 维生素#NN)  (cc, 元素#NN, 和#CC)  (nn, 元素#NN, 微量#NN)  (assmod, 珍品#NN, 元素#NN)  (case, 元素#NN, 的#DEG)  (nn, 珍品#NN, 滋补#NN)  (dobj, 含有#VV, 珍品#NN)  (conj, 含有#VV, 能够#VV)  (relcl, 能力#NN, 增强#VV)  (dobj, 增强#VV, 身体#NN)  (mark, 增强#VV, 的#DEC)  (nn, 能力#NN, 抗病#NN)  (dobj, 能够#VV, 能力#NN)  (cc, 含有#VV, 及#CC)  (conj, 含有#VV, 调节#VV)  (assmod, 功能#NN, 人体#NR)  (case, 人体#NR, 的#DEG)  (nn, 功能#NN, 内分泌#NN)  (dobj, 调节#VV, 功能#NN)  (advmod, 提高#VV, 也#AD)  (conj, 提高#VV, 是#VC)  (cop, 提高#VV, 是#VC)  (conj, 含有#VV, 提高#VV)  (nn, 质量#NN, 母乳#NN)  (dobj, 提高#VV, 质量#NN)  (conj, 含有#VV, 增强#VV)  (dobj, 增强#VV, 婴儿#NN)  (mark, 含有#VV, 的#DEC)  (conj, 智力#NN, 免疫力#NN)  (cc, 智力#NN, 及#CC)  (relcl, 滋补#NN, 智力#NN)  (mark, 智力#NN, 的#DEC)  (nsubj, 佳品#VA, 滋补#NN)  (conj, 具有#VV, 佳品#VA)
+            (case, 中国#NR, 在#P)  (prep, 很早以前#VV, 中国#NR)  (relcl, 记载#NN, 很早以前#VV)  (mark, 很早以前#VV, 的#DEC)  (nsubj, 有#VE, 记载#NN)  (advmod, 有#VE, 中就#AD)  (root, ROOT#null, 有#VE)  (nn, 伤#NN, ``#NN)  (nn, 伤#NN, 鳖可补痨#NN)  (dobj, 有#VE, 伤#NN)  (amod, 阳气#NN, 壮#JJ)  (nsubj, -LRB-#VV, 阳气#NN)  (advmod, 阴#VA, 大补#AD)  (relcl, 不足#NN, 阴#VA)  (mark, 阴#VA, 之#DEC)  (nsubj, -LRB-#VV, 不足#NN)  (advmod, -LRB-#VV, ''#AD)  (advmod, 证实#VV, 未经#AD)  (relcl, 保健品#NN, 证实#VV)  (ccomp, 证实#VV, 请#VV)  (ccomp, 请#VV, 注意#VV)  (ccomp, 注意#VV, 希望#VV)  (ccomp, 希望#VV, 有#VE)  (nn, -RRB-#NN, 人#NN)  (nn, -RRB-#NN, 给出#NN)  (nn, -RRB-#NN, 原文#NN)  (nn, -RRB-#NN, 出处#NN)  (advmod, 视为#VV, 自古以来#AD)  (advmod, 视为#VV, 就#AD)  (auxpass, 视为#VV, 被#LB)  (nsubj, 视为#VV, 人们#NN)  (conj, 有#VE, 视为#VV)  (dobj, 视为#VV, 滋补#NN)  (mark, 证实#VV, 的#DEC)  (nfincl, 保健品#NN, 营养#VA)  (dobj, -LRB-#VV, 保健品#NN)   (nn, .#NN, 唐#NR)  (root, ROOT#null, 孟诜#VV)  (nsubj, 漏下#VV, 妇人#NN)  (ccomp, 孟诜#VV, 漏下#VV)  (range, 漏下#VV, 五色#CD)  (nsubj, 常食#VV, 赢瘦#NN)  (nsubj, 常食#VV, 宜#NR)  (conj, 漏下#VV, 常食#VV)  (dobj, 常食#VV, 之#PN)   (case, 患#NN, 随#P)  (prep, 居#VV, 患#NN)  (root, ROOT#null, 居#VV)  (relcl, 劳#NN, 饮食谱#VV)  (ccomp, 饮食谱#VV, 鳖甘平#VV)  (ccomp, 鳖甘平#VV, 滋肝#VV)  (assmod, 阴#NN, 肾#NN)  (case, 肾#NN, 之#DEG)  (dobj, 滋肝#VV, 阴#NN)  (dep, 鳖甘平#VV, 清#VA)  (advmod, 清#VA, 虚#AD)  (assmod, 热#NN, 劳#NN)  (case, 劳#NN, 之#DEG)  (dobj, 居#VV, 热#NN)  (advmod, 煮#VV, 宜蒸#AD)  (dep, 居#VV, 煮#VV)  (dobj, 煮#VV, 食#NN)  (case, 食#NN, 之#DEG)
+        </parsing>
+
+        <tag>
+            鼋鱼  团鱼  爬行动物  养效果  软坚散结  美味佳肴  滋补材料  药品  中药材料  现存有  有常见  国家林业局  发布名录  国家保护  经济  科学价值  研究价值  陆生动物  野生动物  动物名录  列入名录  美食美称  味道鲜美  含有智力  滋补珍品  含有珍品  增强能力  增强身体  抗病能力  能够能力  内分泌功能  调节功能  母乳质量  提高质量  增强婴儿  免疫力  滋补佳品  壮阳气  证实保健品  视为滋补  孟诜  饮食谱劳  滋肝阴  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鳖浑身都是宝，鳖的头、甲、骨、肉、卵、胆、脂肪均可入药。《名医别录》中称鳖肉有补中益气之功效。据《本草纲目》记载，鳖肉有滋阴补肾，清热消淤，健脾健胃等多种功效，可治虚劳盗汗，阴虚阳亢，腰酸腿疼，久病泄泻，小儿惊痫，妇女闭经、难产等症。《日用本草》认为，鳖血外敷能治面神经，可除中风口渴，虚劳潮热，并可治疗骨结核。
+            1.甲鱼肉及其提取物能有效地预防和抑制肝癌、胃癌、急性淋巴性白血病，并用于防治因放疗、化疗引起的虚弱、贫血、白细胞减少等症；
+            2.甲鱼亦有较好的净血作用，常食者可降低血胆固醇，因而对高血压、冠心病患者有益；
+            3.甲鱼还能“补劳伤，壮阳气，大补阴之不足”；
+            4.食甲鱼对肺结核、贫血、体质虚弱等多种病患亦有一定的辅助疗效。
+        </rawdata>
+
+        <segment>
+            鳖  浑身  都  是  宝  ，  鳖的  头  、  甲  、  骨  、  肉  、  卵  、  胆  、  脂肪  均  可  入药  。  《  名医  别录  》  中  称鳖  肉  有  补  中  益气  之  功效  。  据  《  本草  纲目  》  记载  ，  鳖肉  有  滋阴  补  肾  ，  清热  消淤  ，  健脾  健胃  等  多  种  功效  ，  可治  虚  劳  盗汗  ，  阴虚  阳亢  ，  腰酸  腿疼  ，  久病  泄泻  ，  小儿  惊痫  ，  妇女  闭经  、  难产  等症  。  《  日用  本草  》  认为  ，  鳖血  外敷  能  治  面  神经  ，  可  除  中风  口渴  ，  虚  劳  潮热  ，  并可  治疗  骨结核  。
+            甲  鱼肉  及其  提取物  能  有效  地  预防  和  抑制  肝癌  、  胃癌  、  急性  淋巴  性  白血病  ，  并  用于  防治  因  放疗  、  化疗  引起  的  虚弱  、  贫血  、  白细胞  减少  等症  ；
+            甲鱼  亦  有  较好  的  净  血  作用  ，  常食者  可降低  血  胆固醇  ，  因而  对  高血压  、  冠心病  患者  有益  ；
+            甲鱼  还  能  “  补  劳伤  ，  壮  阳气  ，  大补  阴  之  不足  ”  ；
+            食  甲  鱼  对  肺结核  、  贫血  、  体质  虚弱  等  多  种  病患  亦有  一定  的  辅助  疗效  。
+        </segment>
+
+        <pos>
+            鳖#NN  浑身#NN  都#AD  是#VC  宝#NN  ，#PU  鳖的#CD  头#M  、#PU  甲#CD  、#PU  骨#CD  、#PU  肉#NN  、#PU  卵#NN  、#PU  胆#NN  、#PU  脂肪#NN  均#AD  可#VV  入药#VV    。#PU  名医#NN  别录#NN  中#LC  称鳖#NN  肉#NN  有#VE  补#NN  中#LC  益气#NN  之#DEG  功效#NN    。#PU  据#P  本草#NN  纲目#NN  记载#NN  ，#PU  鳖肉#AD  有#VE  滋阴#NN  补#NN  肾#NN  ，#PU  清热#VV  消淤#NN  ，#PU  健脾#VV  健胃#NR  等#ETC  多#CD  种#M  功效#NN  ，#PU  可治#VV  虚#AD  劳#NN  盗汗#NN  ，#PU  阴虚#VV  阳亢#NN  ，#PU  腰酸#VV  腿疼#NN  ，#PU  久病#VV  泄泻#NN  ，#PU  小儿#VV  惊痫#NN  ，#PU  妇女#NN  闭经#NN  、#PU  难产#NN  等症#NN    。#PU  日用#JJ  本草#NN  认为#VV  ，#PU  鳖血#NN  外敷#NN  能#VV  治#VV  面#NN  神经#NN  ，#PU  可#VV  除#P  中风#NN  口渴#NN  ，#PU  虚#AD  劳#NN  潮热#NN  ，#PU  并可#AD  治疗#VV  骨结核#NN    。#PU    。#PU
+            甲#CD  鱼肉#NN  及其#NN  提取物#NN  能#VV  有效#VA  地#DEV  预防#VV  和#CC  抑制#VV  肝癌#NN  、#PU  胃癌#NN  、#PU  急性#NN  淋巴#NN  性#NN  白血病#NN  ，#PU  并#CC  用于#VV  防治#NN  因#P  放疗#NR  、#PU  化疗#AD  引起#VV  的#DEC  虚弱#NR  、#PU  贫血#NR  、#PU  白细胞#NR  减少#VV  等症#NN  ；#PU
+            甲鱼#NN  亦#AD  有#VE  较好#JJ  的#DEG  净#JJ  血#NN  作用#NN  ，#PU  常食者#VV  可降低#NN  血#NN  胆固醇#NN  ，#PU  因而#AD  对#P  高血压#NN  、#PU  冠心病#NN  患者#NN  有益#VA  ；#PU
+            甲鱼#NN  还#AD  能#VV  ``#AD  补#VV  劳伤#NN  ，#PU  壮#JJ  阳气#NN  ，#PU  大补#VV  阴#VA  之#DEC  不足#NN  ''#NN  ；#PU
+            食#NN  甲#CD  鱼#NN  对#P  肺结核#NR  、#PU  贫血#NR  、#PU  体质#NR  虚弱#NR  等#ETC  多#CD  种#M  病患#NN  亦有#VV  一定#JJ  的#DEG  辅助#NN  疗效#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 浑身#NN, 鳖#NN)  (nsubj, 宝#NN, 浑身#NN)  (advmod, 宝#NN, 都#AD)  (cop, 宝#NN, 是#VC)  (root, ROOT#null, 宝#NN)  (nummod, 头#M, 鳖的#CD)  (clf, 骨#CD, 头#M)  (dep, 骨#CD, 甲#CD)  (clf, 脂肪#NN, 骨#CD)  (conj, 脂肪#NN, 肉#NN)  (conj, 脂肪#NN, 卵#NN)  (conj, 脂肪#NN, 胆#NN)  (dep, 入药#VV, 脂肪#NN)  (advmod, 入药#VV, 均#AD)  (dep, 入药#VV, 可#VV)  (conj, 宝#NN, 入药#VV)   (dep, 有#VE, 名医#NN)  (loc, 有#VE, 别录#NN)  (case, 别录#NN, 中#LC)  (nn, 肉#NN, 称鳖#NN)  (dep, 有#VE, 肉#NN)  (root, ROOT#null, 有#VE)  (dep, 益气#NN, 补#NN)  (case, 补#NN, 中#LC)  (assmod, 功效#NN, 益气#NN)  (case, 益气#NN, 之#DEG)  (dobj, 有#VE, 功效#NN)   (case, 记载#NN, 据#P)  (nn, 纲目#NN, 本草#NN)  (nn, 记载#NN, 纲目#NN)  (prep, 有#VE, 记载#NN)  (advmod, 有#VE, 鳖肉#AD)  (root, ROOT#null, 有#VE)  (nn, 肾#NN, 滋阴#NN)  (nn, 肾#NN, 补#NN)  (dobj, 有#VE, 肾#NN)  (conj, 有#VE, 清热#VV)  (dobj, 清热#VV, 消淤#NN)  (conj, 有#VE, 健脾#VV)  (nn, 功效#NN, 健胃#NR)  (etc, 健胃#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 功效#NN, 种#M)  (dobj, 健脾#VV, 功效#NN)  (conj, 有#VE, 可治#VV)  (advmod, 可治#VV, 虚#AD)  (nn, 盗汗#NN, 劳#NN)  (dobj, 可治#VV, 盗汗#NN)  (conj, 有#VE, 阴虚#VV)  (dobj, 阴虚#VV, 阳亢#NN)  (conj, 有#VE, 腰酸#VV)  (dobj, 腰酸#VV, 腿疼#NN)  (conj, 有#VE, 久病#VV)  (dobj, 久病#VV, 泄泻#NN)  (conj, 有#VE, 小儿#VV)  (dobj, 小儿#VV, 惊痫#NN)  (nn, 等症#NN, 妇女#NN)  (conj, 等症#NN, 闭经#NN)  (nn, 等症#NN, 难产#NN)  (conj, 有#VE, 等症#NN)   (amod, 本草#NN, 日用#JJ)  (nsubj, 认为#VV, 本草#NN)  (root, ROOT#null, 认为#VV)  (nn, 外敷#NN, 鳖血#NN)  (nsubj, 治#VV, 外敷#NN)  (mmod, 治#VV, 能#VV)  (ccomp, 认为#VV, 治#VV)  (nn, 神经#NN, 面#NN)  (dobj, 治#VV, 神经#NN)  (mmod, 治疗#VV, 可#VV)  (case, 口渴#NN, 除#P)  (nn, 口渴#NN, 中风#NN)  (prep, 治疗#VV, 口渴#NN)  (advmod, 治疗#VV, 虚#AD)  (nn, 潮热#NN, 劳#NN)  (dep, 治疗#VV, 潮热#NN)  (advmod, 治疗#VV, 并可#AD)  (dep, 治#VV, 治疗#VV)  (dobj, 治疗#VV, 骨结核#NN)   (root, ROOT#null, null#null)
+            (nummod, 鱼肉#NN, 甲#CD)  (nn, 提取物#NN, 鱼肉#NN)  (nn, 提取物#NN, 及其#NN)  (nsubj, 预防#VV, 提取物#NN)  (mmod, 预防#VV, 能#VV)  (dvpmod, 预防#VV, 有效#VA)  (mark, 有效#VA, 地#DEV)  (root, ROOT#null, 预防#VV)  (cc, 预防#VV, 和#CC)  (dep, 预防#VV, 抑制#VV)  (conj, 性#NN, 肝癌#NN)  (conj, 性#NN, 胃癌#NN)  (nn, 性#NN, 急性#NN)  (nn, 性#NN, 淋巴#NN)  (nn, 白血病#NN, 性#NN)  (dobj, 抑制#VV, 白血病#NN)  (cc, 预防#VV, 并#CC)  (dep, 预防#VV, 用于#VV)  (dobj, 用于#VV, 防治#NN)  (case, 白细胞#NR, 因#P)  (conj, 白细胞#NR, 放疗#NR)  (advmod, 引起#VV, 化疗#AD)  (relcl, 白细胞#NR, 引起#VV)  (mark, 引起#VV, 的#DEC)  (conj, 白细胞#NR, 虚弱#NR)  (conj, 白细胞#NR, 贫血#NR)  (prep, 减少#VV, 白细胞#NR)  (conj, 预防#VV, 减少#VV)  (dobj, 减少#VV, 等症#NN)
+            (nsubj, 有#VE, 甲鱼#NN)  (advmod, 有#VE, 亦#AD)  (root, ROOT#null, 有#VE)  (assmod, 作用#NN, 较好#JJ)  (case, 较好#JJ, 的#DEG)  (amod, 作用#NN, 净#JJ)  (nn, 作用#NN, 血#NN)  (dobj, 有#VE, 作用#NN)  (dep, 有#VE, 常食者#VV)  (nn, 胆固醇#NN, 可降低#NN)  (nn, 胆固醇#NN, 血#NN)  (dobj, 常食者#VV, 胆固醇#NN)  (advmod, 有益#VA, 因而#AD)  (case, 患者#NN, 对#P)  (conj, 冠心病#NN, 高血压#NN)  (nn, 患者#NN, 冠心病#NN)  (prep, 有益#VA, 患者#NN)  (conj, 有#VE, 有益#VA)
+            (nsubj, 补#VV, 甲鱼#NN)  (advmod, 补#VV, 还#AD)  (mmod, 补#VV, 能#VV)  (advmod, 补#VV, ``#AD)  (root, ROOT#null, 补#VV)  (dobj, 补#VV, 劳伤#NN)  (amod, 阳气#NN, 壮#JJ)  (nsubj, 大补#VV, 阳气#NN)  (conj, 补#VV, 大补#VV)  (relcl, ''#NN, 阴#VA)  (mark, 阴#VA, 之#DEC)  (nn, ''#NN, 不足#NN)  (dobj, 大补#VV, ''#NN)
+            (nn, 鱼#NN, 食#NN)  (nummod, 鱼#NN, 甲#CD)  (nsubj, 亦有#VV, 鱼#NN)  (case, 病患#NN, 对#P)  (conj, 虚弱#NR, 肺结核#NR)  (conj, 虚弱#NR, 贫血#NR)  (nn, 虚弱#NR, 体质#NR)  (nn, 病患#NN, 虚弱#NR)  (etc, 虚弱#NR, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 病患#NN, 种#M)  (prep, 亦有#VV, 病患#NN)  (root, ROOT#null, 亦有#VV)  (assmod, 疗效#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 疗效#NN, 辅助#NN)  (dobj, 亦有#VV, 疗效#NN)
+        </parsing>
+
+        <tag>
+            本草纲目  纲目记载  清热消淤  健脾功效  可治盗汗  阴虚阳亢  腰酸腿疼  久病泄泻  小儿惊痫  妇女等症  闭经  难产等症  日用本草  鳖血外敷  中风口渴  治疗骨结核  鱼肉提取物  预防  抑制白血病  用于防治  白细胞  放疗  虚弱  贫血  减少等症  可降低胆固醇  常食者胆固醇  高血压  冠心病患者  壮阳气  肺结核  辅助疗效  亦有疗效  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        补肾阴  清虚热
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            鳖富含维生素A、维生素E、胶原蛋白和多种氨基酸、不饱和脂肪酸、微量元素，能提高人体免疫功能，促进新陈代谢，增强人体的抗病能力，有养颜美容和延缓衰老的作用。
+            1.鳖血含有动物胶、角蛋白、碘和维生素D等成份，可滋补潜阳、补血、消肿、平肝火，能治疗肝硬化和肝脾肿大，治疗闭经、经漏和小儿尺癫等症。
+            2.鳖胆可治痔漏。
+            3.鳖卵可治久痢。
+            4.鳖头焙干研末，黄酒冲服，可治脱肛。
+            4.鳖的脂肪可滋阴养阳，治疗白发。
+        </rawdata>
+
+        <segment>
+            鳖富含  维生素A  、  维生素E  、  胶原  蛋白  和  多种  氨基酸  、  不  饱和  脂肪酸  、  微量  元素  ，  能  提高  人体  免疫  功能  ，  促进  新陈代谢  ，  增强  人体  的  抗病  能力  ，  有  养颜  美容  和  延缓  衰老  的  作用  。
+            鳖血  含有  动物胶  、  角蛋白  、  碘和  维生素D  等  成份  ，  可  滋补  潜阳  、  补血  、  消肿  、  平  肝火  ，  能  治疗  肝硬化  和肝  脾肿大  ，  治疗  闭经  、  经漏  和  小儿  尺癫等症  。
+            鳖胆  可治  痔漏  。
+            鳖卵  可治  久痢  。
+            鳖头  焙干  研末  ，  黄酒  冲服  ，  可治  脱肛  。
+            鳖的  脂肪  可  滋阴  养  阳  ，  治疗  白发  。
+        </segment>
+
+        <pos>
+            鳖富含#NR  维生素A#NR  、#PU  维生素E#NR  、#PU  胶原#NR  蛋白#NR  和#CC  多种#NR  氨基酸#NN  、#PU  不#AD  饱和#JJ  脂肪酸#NN  、#PU  微量#JJ  元素#NN  ，#PU  能#VV  提高#VV  人体#NN  免疫#NN  功能#NN  ，#PU  促进#VV  新陈代谢#NN  ，#PU  增强#VV  人体#NN  的#DEG  抗病#NN  能力#NN  ，#PU  有#VE  养颜#NN  美容#NN  和#CC  延缓#NN  衰老#NN  的#DEG  作用#NN  。#PU
+            鳖血#NN  含有#VV  动物胶#NR  、#PU  角蛋白#NR  、#PU  碘和#NR  维生素D#NR  等#ETC  成份#NN  ，#PU  可#VV  滋补#VV  潜阳#NN  、#PU  补血#NN  、#PU  消肿#NN  、#PU  平#NN  肝火#NN  ，#PU  能#VV  治疗#VV  肝硬化#NN  和肝#NN  脾肿大#NN  ，#PU  治疗#VV  闭经#NR  、#PU  经漏#NR  和#CC  小儿#NR  尺癫等症#NN  。#PU
+            鳖胆#NN  可治#VV  痔漏#NN  。#PU
+            鳖卵#NN  可治#VV  久痢#NN  。#PU
+            鳖头#NN  焙干#NN  研末#VV  ，#PU  黄酒#NN  冲服#NN  ，#PU  可治#AD  脱肛#VV  。#PU
+            鳖的#NN  脂肪#NN  可#VV  滋阴#AD  养#VV  阳#NN  ，#PU  治疗#VV  白发#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 多种#NR, 鳖富含#NR)  (conj, 多种#NR, 维生素A#NR)  (conj, 多种#NR, 维生素E#NR)  (nn, 多种#NR, 胶原#NR)  (conj, 多种#NR, 蛋白#NR)  (cc, 多种#NR, 和#CC)  (nn, 氨基酸#NN, 多种#NR)  (conj, 元素#NN, 氨基酸#NN)  (neg, 饱和#JJ, 不#AD)  (amod, 脂肪酸#NN, 饱和#JJ)  (conj, 元素#NN, 脂肪酸#NN)  (amod, 元素#NN, 微量#JJ)  (nsubj, 提高#VV, 元素#NN)  (mmod, 提高#VV, 能#VV)  (root, ROOT#null, 提高#VV)  (nn, 功能#NN, 人体#NN)  (nn, 功能#NN, 免疫#NN)  (dobj, 提高#VV, 功能#NN)  (conj, 提高#VV, 促进#VV)  (dobj, 促进#VV, 新陈代谢#NN)  (conj, 提高#VV, 增强#VV)  (assmod, 能力#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (nn, 能力#NN, 抗病#NN)  (dobj, 增强#VV, 能力#NN)  (conj, 提高#VV, 有#VE)  (nn, 衰老#NN, 养颜#NN)  (conj, 衰老#NN, 美容#NN)  (cc, 衰老#NN, 和#CC)  (nn, 衰老#NN, 延缓#NN)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 有#VE, 作用#NN)
+            (nsubj, 含有#VV, 鳖血#NN)  (root, ROOT#null, 含有#VV)  (conj, 维生素D#NR, 动物胶#NR)  (conj, 维生素D#NR, 角蛋白#NR)  (nn, 维生素D#NR, 碘和#NR)  (nn, 成份#NN, 维生素D#NR)  (etc, 维生素D#NR, 等#ETC)  (dobj, 含有#VV, 成份#NN)  (mmod, 滋补#VV, 可#VV)  (conj, 含有#VV, 滋补#VV)  (conj, 平#NN, 潜阳#NN)  (conj, 平#NN, 补血#NN)  (conj, 平#NN, 消肿#NN)  (nn, 肝火#NN, 平#NN)  (dobj, 滋补#VV, 肝火#NN)  (mmod, 治疗#VV, 能#VV)  (conj, 滋补#VV, 治疗#VV)  (nn, 脾肿大#NN, 肝硬化#NN)  (nn, 脾肿大#NN, 和肝#NN)  (dobj, 治疗#VV, 脾肿大#NN)  (conj, 滋补#VV, 治疗#VV)  (conj, 小儿#NR, 闭经#NR)  (conj, 小儿#NR, 经漏#NR)  (cc, 小儿#NR, 和#CC)  (nn, 尺癫等症#NN, 小儿#NR)  (dobj, 治疗#VV, 尺癫等症#NN)
+            (nsubj, 可治#VV, 鳖胆#NN)  (root, ROOT#null, 可治#VV)  (dobj, 可治#VV, 痔漏#NN)
+            (nsubj, 可治#VV, 鳖卵#NN)  (root, ROOT#null, 可治#VV)  (dobj, 可治#VV, 久痢#NN)
+            (nn, 焙干#NN, 鳖头#NN)  (nsubj, 研末#VV, 焙干#NN)  (root, ROOT#null, 研末#VV)  (nn, 冲服#NN, 黄酒#NN)  (nsubj, 脱肛#VV, 冲服#NN)  (advmod, 脱肛#VV, 可治#AD)  (ccomp, 研末#VV, 脱肛#VV)
+            (nn, 脂肪#NN, 鳖的#NN)  (nsubj, 养#VV, 脂肪#NN)  (mmod, 养#VV, 可#VV)  (advmod, 养#VV, 滋阴#AD)  (root, ROOT#null, 养#VV)  (dobj, 养#VV, 阳#NN)  (dep, 养#VV, 治疗#VV)  (dobj, 治疗#VV, 白发#NN)
+        </parsing>
+
+        <tag>
+            多种  维生素A  维生素E  饱和脂肪酸  人体功能  免疫功能  提高功能  促进新陈代谢  抗病能力  增强能力  养颜衰老  美容  延缓衰老  维生素D  动物胶  角蛋白  含有成份  滋补肝火  肝硬化脾肿大  和肝脾肿大  治疗脾肿大  小儿  闭经  经漏  治疗尺癫等症  可治痔漏  可治久痢  鳖头焙干  研末  黄酒冲服  鳖的脂肪  治疗白发  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            杀甲鱼时，要将他的胆囊取出，将胆汁鱼水混合，再涂于甲鱼全身，稍等片刻，用清水把胆汁洗掉，然后烹调就可以去除腥味。
+            烹制甲鱼一定要选用鲜活的，现吃现宰，不要用死甲鱼，否则对身体有害。
+        </rawdata>
+
+        <segment>
+            杀  甲  鱼  时  ，  要  将  他  的  胆囊  取出  ，  将  胆汁  鱼水  混合  ，  再  涂  于  甲鱼  全身  ，  稍等  片刻  ，  用  清水  把  胆汁  洗掉  ，  然后  烹调  就  可以  去除  腥味  。
+            烹制  甲鱼  一定  要  选用  鲜活  的  ，  现  吃  现宰  ，  不  要  用  死  甲  鱼  ，  否则  对  身体  有害  。
+        </segment>
+
+        <pos>
+            杀#VV  甲#CD  鱼#NN  时#LC  ，#PU  要#VV  将#BA  他#PN  的#DEG  胆囊#NN  取出#VV  ，#PU  将#AD  胆汁#VV  鱼水#NN  混合#NN  ，#PU  再#AD  涂#VV  于#P  甲鱼#NN  全身#NN  ，#PU  稍等#VV  片刻#NN  ，#PU  用#P  清水#NN  把#BA  胆汁#NN  洗掉#NN  ，#PU  然后#AD  烹调#AD  就#AD  可以#VV  去除#VV  腥味#NN  。#PU
+            烹制#NN  甲鱼#NN  一定#AD  要#VV  选用#VV  鲜活#JJ  的#DEG  ，#PU  现#AD  吃#VV  现宰#NN  ，#PU  不#AD  要#VV  用#VV  死#VV  甲#CD  鱼#NN  ，#PU  否则#AD  对#P  身体#NN  有害#VV  。#PU
+        </pos>
+
+        <parsing>
+            (loc, 取出#VV, 杀#VV)  (nummod, 鱼#NN, 甲#CD)  (dobj, 杀#VV, 鱼#NN)  (case, 杀#VV, 时#LC)  (mmod, 取出#VV, 要#VV)  (ba, 取出#VV, 将#BA)  (assmod, 胆囊#NN, 他#PN)  (case, 他#PN, 的#DEG)  (nsubj, 取出#VV, 胆囊#NN)  (root, ROOT#null, 取出#VV)  (advmod, 胆汁#VV, 将#AD)  (conj, 取出#VV, 胆汁#VV)  (nn, 混合#NN, 鱼水#NN)  (dobj, 胆汁#VV, 混合#NN)  (advmod, 涂#VV, 再#AD)  (conj, 取出#VV, 涂#VV)  (case, 全身#NN, 于#P)  (nn, 全身#NN, 甲鱼#NN)  (prep, 涂#VV, 全身#NN)  (dep, 取出#VV, 稍等#VV)  (dobj, 稍等#VV, 片刻#NN)  (case, 清水#NN, 用#P)  (prep, 去除#VV, 清水#NN)  (ba, 去除#VV, 把#BA)  (nn, 洗掉#NN, 胆汁#NN)  (nsubj, 去除#VV, 洗掉#NN)  (advmod, 去除#VV, 然后#AD)  (advmod, 去除#VV, 烹调#AD)  (advmod, 去除#VV, 就#AD)  (mmod, 去除#VV, 可以#VV)  (conj, 取出#VV, 去除#VV)  (dobj, 去除#VV, 腥味#NN)
+            (nn, 甲鱼#NN, 烹制#NN)  (nsubj, 选用#VV, 甲鱼#NN)  (advmod, 选用#VV, 一定#AD)  (mmod, 选用#VV, 要#VV)  (root, ROOT#null, 选用#VV)  (dobj, 选用#VV, 鲜活#JJ)  (case, 鲜活#JJ, 的#DEG)  (advmod, 吃#VV, 现#AD)  (dep, 选用#VV, 吃#VV)  (dobj, 吃#VV, 现宰#NN)  (neg, 死#VV, 不#AD)  (mmod, 死#VV, 要#VV)  (mmod, 死#VV, 用#VV)  (dep, 选用#VV, 死#VV)  (nummod, 鱼#NN, 甲#CD)  (dobj, 死#VV, 鱼#NN)  (advmod, 有害#VV, 否则#AD)  (case, 身体#NN, 对#P)  (prep, 有害#VV, 身体#NN)  (conj, 选用#VV, 有害#VV)
+        </parsing>
+
+        <tag>
+            取出  鱼水混合  胆汁混合  稍等片刻  胆汁洗掉  去除腥味  选用  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201310/101140579704.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\146 甲鱼.jpg
+    </picturelocalurl>
+
+</content>

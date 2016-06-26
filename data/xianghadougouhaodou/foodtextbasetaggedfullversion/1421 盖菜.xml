@@ -1,0 +1,132 @@
+<content>
+
+    <id>
+        1421
+    </id>
+
+    <foodname>
+        盖菜
+    </foodname>
+
+    <firstcategory>
+        蔬菜类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        芥菜
+    </alias>
+
+    <season>
+        春、冬
+    </season>
+
+    <unsuit>
+
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            盖菜茎叶脆嫩，口味清香，含丰富的蛋白质、维生素和矿物质。叶梗加入鸡汤一起煮，味道十分鲜美，还可清炒、凉拌、涮火锅。
+        </rawdata>
+
+        <segment>
+            盖菜  茎叶  脆嫩  ，  口味  清香  ，  含  丰富  的  蛋白质  、  维生素  和  矿物质  。  叶梗  加入  鸡汤  一  起  煮  ，  味道  十分  鲜美  ，  还可  清炒  、  凉拌  、  涮火锅  。
+        </segment>
+
+        <pos>
+            盖菜#NN  茎叶#NN  脆嫩#VV  ，#PU  口味#NN  清香#NN  ，#PU  含#VV  丰富#VA  的#DEC  蛋白质#NN  、#PU  维生素#NN  和#CC  矿物质#NN    。#PU  叶梗#NR  加入#VV  鸡汤#NN  一#CD  起#M  煮#VV  ，#PU  味道#NN  十分#AD  鲜美#VV  ，#PU  还可#VV  清炒#NR  、#PU  凉拌#NR  、#PU  涮火锅#NR    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 茎叶#NN, 盖菜#NN)  (nsubj, 脆嫩#VV, 茎叶#NN)  (root, ROOT#null, 脆嫩#VV)  (nn, 清香#NN, 口味#NN)  (nsubj, 含#VV, 清香#NN)  (ccomp, 脆嫩#VV, 含#VV)  (relcl, 矿物质#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (conj, 矿物质#NN, 蛋白质#NN)  (conj, 矿物质#NN, 维生素#NN)  (cc, 矿物质#NN, 和#CC)  (dobj, 含#VV, 矿物质#NN)   (nsubj, 加入#VV, 叶梗#NR)  (root, ROOT#null, 加入#VV)  (dobj, 加入#VV, 鸡汤#NN)  (nummod, 起#M, 一#CD)  (nsubj, 煮#VV, 起#M)  (conj, 加入#VV, 煮#VV)  (nsubj, 鲜美#VV, 味道#NN)  (advmod, 鲜美#VV, 十分#AD)  (conj, 煮#VV, 鲜美#VV)  (conj, 煮#VV, 还可#VV)  (conj, 涮火锅#NR, 清炒#NR)  (conj, 涮火锅#NR, 凉拌#NR)  (dobj, 还可#VV, 涮火锅#NR)
+        </parsing>
+
+        <tag>
+            脆嫩  口味清香  矿物质丰富  蛋白质  维生素  加入鸡汤  涮火锅  清炒  凉拌  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            消食,利尿消肿,淋证,抑癌抗瘤
+        </rawdata>
+
+        <segment>
+            消食  ,  利尿  消肿  ,  淋证  ,  抑癌  抗瘤
+        </segment>
+
+        <pos>
+            消食#NN  ,#NN  利尿#NN  消肿#AD  ,#VV  淋证#NN  ,#NN  抑癌#NN  抗瘤#NN
+        </pos>
+
+        <parsing>
+            (nn, 利尿#NN, 消食#NN)  (nsubj, ,#VV, 利尿#NN)  (root, ,#VV, 利尿#NN)  (advmod, 利尿#NN, 消肿#AD)  (advmod, ,#VV, 消肿#AD)  (nn, 抗瘤#NN, 淋证#NN)  (nn, 抗瘤#NN, 抑癌#NN)  (dobj, 利尿#NN, 抗瘤#NN)  (dobj, ,#VV, 抗瘤#NN)
+        </parsing>
+
+        <tag>
+            消食利尿  淋证抗瘤  抑癌抗瘤  利尿抗瘤  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        明目  促进消化  抗菌
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.盖菜主要用于配菜炒来吃，或煮成汤;
+            2.另外盖菜加茴香砂、甘草肉、桂姜粉腌制后，便成榨菜，也很美味;
+            3.将盖叶连茎腌制，便是我们常见到雪里蕻;
+            4.另外盖菜不能生食、也不宜多食;
+        </rawdata>
+
+        <segment>
+            盖菜  主要  用于  配菜  炒  来  吃  ，  或  煮成  汤  ;
+            另外  盖菜  加  茴香  砂  、  甘草  肉  、  桂姜粉  腌制  后  ，  便  成  榨菜  ，  也  很  美味  ;
+            将  盖  叶连茎  腌制  ，  便是  我们  常见  到  雪里蕻  ;
+            另外  盖菜  不  能  生食  、  也  不  宜  多  食  ;
+        </segment>
+
+        <pos>
+            盖菜#NN  主要#AD  用于#VV  配菜#NN  炒#NN  来#MSP  吃#VV  ，#PU  或#CC  煮成#VV  汤#NN  ;#NN
+            另外#AD  盖菜#AD  加#VV  茴香#NN  砂#NN  、#PU  甘草#NN  肉#NN  、#PU  桂姜粉#NN  腌制#NN  后#LC  ，#PU  便#AD  成#VV  榨菜#NN  ，#PU  也#AD  很#AD  美味#VV  ;#NN
+            将#AD  盖#VV  叶连茎#NN  腌制#NN  ，#PU  便是#VV  我们#PN  常见#VA  到#VV  雪里蕻#NN  ;#NN
+            另外#JJ  盖菜#NN  不#AD  能#VV  生食#AD  、#PU  也#AD  不#AD  宜#NR  多#CD  食#NN  ;#VV
+        </pos>
+
+        <parsing>
+            (nsubj, 用于#VV, 盖菜#NN)  (advmod, 用于#VV, 主要#AD)  (root, ROOT#null, 用于#VV)  (nn, 炒#NN, 配菜#NN)  (dobj, 用于#VV, 炒#NN)  (prtmod, 吃#VV, 来#MSP)  (conj, 用于#VV, 吃#VV)  (cc, 用于#VV, 或#CC)  (dep, 用于#VV, 煮成#VV)  (nn, ;#NN, 汤#NN)  (dobj, 煮成#VV, ;#NN)
+            (advmod, 加#VV, 另外#AD)  (advmod, 加#VV, 盖菜#AD)  (root, ROOT#null, 加#VV)  (dobj, 加#VV, 茴香#NN)  (conj, 腌制#NN, 砂#NN)  (nn, 腌制#NN, 甘草#NN)  (conj, 腌制#NN, 肉#NN)  (nn, 腌制#NN, 桂姜粉#NN)  (loc, 成#VV, 腌制#NN)  (case, 腌制#NN, 后#LC)  (advmod, 成#VV, 便#AD)  (dep, 加#VV, 成#VV)  (dobj, 成#VV, 榨菜#NN)  (advmod, 美味#VV, 也#AD)  (advmod, 美味#VV, 很#AD)  (dep, 成#VV, 美味#VV)  (dobj, 美味#VV, ;#NN)
+            (advmod, 盖#VV, 将#AD)  (root, ROOT#null, 盖#VV)  (nn, 腌制#NN, 叶连茎#NN)  (dobj, 盖#VV, 腌制#NN)  (dep, 盖#VV, 便是#VV)  (dobj, 便是#VV, 我们#PN)  (dep, 便是#VV, 常见#VA)  (conj, 便是#VV, 到#VV)  (nn, ;#NN, 雪里蕻#NN)  (dobj, 到#VV, ;#NN)
+            (amod, 盖菜#NN, 另外#JJ)  (nsubj, ;#VV, 盖菜#NN)  (neg, ;#VV, 不#AD)  (mmod, ;#VV, 能#VV)  (advmod, ;#VV, 生食#AD)  (conj, 生食#AD, 也#AD)  (neg, ;#VV, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (prep, ;#VV, 食#NN)  (root, ROOT#null, ;#VV)
+        </parsing>
+
+        <tag>
+            用于炒  甘草腌制  桂姜粉腌制  叶连茎腌制  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/36/f8/63542_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1421 盖菜.jpg
+    </picturelocalurl>
+
+</content>

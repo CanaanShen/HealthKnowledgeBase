@@ -1,0 +1,390 @@
+<content>
+
+    <id>
+        208
+    </id>
+
+    <foodname>
+        魔芋
+    </foodname>
+
+    <firstcategory>
+        蔬菜
+    </firstcategory>
+
+    <secondcategory>
+        根茎类
+    </secondcategory>
+
+    <alias>
+        蒟蒻、花杆南星、花杆莲、麻芋子、花伞把、蒻头、白蒟蒻、鬼芋、鬼头、花杯莲、茱芋、黑芋头、花便莲、虎掌、蛇头草根、蛇六谷、雷星、鬼蜡烛、蛇头子、天六谷、星芋
+    </alias>
+
+    <season>
+        10-11月
+    </season>
+
+    <unsuit>
+        <rawdata>
+            有皮肤病的病的人慎食。
+        </rawdata>
+
+        <segment>
+            有  皮肤病  的  病的  人  慎  食  。
+        </segment>
+
+        <pos>
+            有#VE  皮肤病#NN  的#DEC  病的#CD  人#NN  慎#VV  食#NN  。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 人#NN, 有#VE)  (dobj, 有#VE, 皮肤病#NN)  (mark, 有#VE, 的#DEC)  (nummod, 人#NN, 病的#CD)  (nsubj, 慎#VV, 人#NN)  (root, ROOT#null, 慎#VV)  (dobj, 慎#VV, 食#NN)
+        </parsing>
+
+        <tag>
+            皮肤病  人慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。尤其是糖尿病患者和肥胖者的理想食品。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  尤其是  糖尿病  患者  和  肥胖  者  的  理想  食品  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  尤其是#AD  糖尿病#NN  患者#NN  和#CC  肥胖#NN  者#NN  的#DEG  理想#NN  食品#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (advmod, 患者#NN, 尤其是#AD)  (nn, 患者#NN, 糖尿病#NN)  (conj, 者#NN, 患者#NN)  (cc, 者#NN, 和#CC)  (nn, 者#NN, 肥胖#NN)  (assmod, 食品#NN, 者#NN)  (case, 者#NN, 的#DEG)  (nn, 食品#NN, 理想#NN)  (root, ROOT#null, 食品#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  尤其是糖尿病  患者  肥胖者  理想食品  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                脂肪（克）
+            </elename>
+            <elevalue>
+                0.1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                3.3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.02
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.03
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                68
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                7
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                44
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                0.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                3
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                1.85
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                0.11
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            魔芋，别名蒟蒻，为多年生天南星科草本植物，有小毒，魔芋是一个大家族，全世界大约有130种，我国就有30多种，魔芋是目前发现的、唯一能大量提供葡甘露聚糖的经济作物，在食品医药方面魔芋的应用价值将不断地被开发出来。魔芋因具有很高的食用价值而受到人们普遍欢迎，其主要成份是葡甘露聚糖，它不仅含有人体所需的10多种氨基酸和多种微量元素，更具有低蛋白、低脂肪、高纤维、吸水性强、膨胀率高等特性，药用功效方面具有降血脂、降血糖、降血压、排毒、减肥、美容、保健、通便润肠胃等多种疗效。
+            除此之外，魔芋在工业制造方面也有非常广泛的用途，魔芋属的一些种类块茎富含魔芋多糖，尤其是白魔芋、花魔芋品种含量高达50—65%。魔芋多糖又称魔芋葡萄甘露聚糖，是由众多的甘露糖和葡萄糖，以β-1，4-糖苷健连接起来的线性高分子化合物，在其分子的某些糖基侧链上，连接有一定数量的乙酰基团，葡萄糖和甘露糖的分子比为1：1.5—1.7，分子量可高达106道尔顿，粘度特高，溶于水，在水中膨胀度特大，具有特定的生物活性。这些特性，决定了魔芋多糖具有多种的用途。除医学外，魔芋多糖在纺织、印染、化妆、陶瓷、消防、环保、军工、石油开采等方面都有广泛的用途。此外，魔芋精粉加工过程中有30%—40%的飞粉产生，由于飞粉中也含有一定量的葡萄甘露聚糖，因此，飞粉也是多羟基化合物为主体的天然高分子化合物，所以像淀粉一样，可以制成黄原酸酯，应用于沉淀废水中的可溶性重金属离子。
+        </rawdata>
+
+        <segment>
+            魔芋  ，  别名  蒟蒻  ，  为  多年生  天南星科  草本  植物  ，  有小  毒  ，  魔芋  是  一  个  大  家族  ，  全世界  大约  有  130  种  ，  我国  就  有  30多  种  ，  魔芋  是  目前  发现  的  、  唯一  能  大量  提供  葡甘露  聚糖  的  经济  作物  ，  在  食品  医药  方面  魔芋  的  应用  价值  将  不断  地  被  开发  出来  。  魔芋  因  具有  很  高  的  食用  价值  而  受到  人们  普遍  欢迎  ，  其  主要  成份  是  葡甘露  聚糖  ，  它  不仅  含有  人体  所  需  的  10多  种  氨基酸  和  多种  微量  元素  ，  更  具有  低  蛋白  、  低  脂肪  、  高  纤维  、  吸水  性强  、  膨胀率  高等  特性  ，  药用  功效  方面  具有  降  血脂  、  降  血糖  、  降  血压  、  排毒  、  减肥  、  美容  、  保健  、  通便  润肠  胃  等  多  种  疗效  。
+            除此之外  ，  魔芋  在  工业  制造  方面  也  有  非常  广泛  的  用途  ，  魔芋  属  的  一些  种类  块茎  富含  魔芋  多糖  ，  尤其是  白  魔芋  、  花魔芋  品种  含量  高达  —  65%  。  魔芋  多糖  又  称  魔芋  葡萄  甘露  聚糖  ，  是  由  众多  的  甘露糖  和  葡萄糖  ，  以  β-1  ，  4  -  糖苷  健  连接  起来  的  线性  高分子  化合物  ，  在  其  分子  的  某些  糖基侧链  上  ，  连接  有  一定  数量  的  乙酰  基团  ，  葡萄糖  和  甘露糖  的  分子  比为  1：1.5—1.7  ，  分子量  可  高达  106  道尔顿  ，  粘度  特高  ，  溶于  水  ，  在  水中  膨胀  度  特大  ，  具有  特定  的  生物  活性  。  这些  特性  ，  决定  了  魔芋  多糖  具有  多  种  的  用途  。  除  医学  外  ，  魔芋  多糖  在  纺织  、  印染  、  化妆  、  陶瓷  、  消防  、  环保  、  军工  、  石油  开采  等  方面  都  有  广泛  的  用途  。  此外  ，  魔芋  精粉  加工  过程  中  有  30%  —  40%  的  飞粉  产生  ，  由于  飞粉  中  也  含有  一定量  的  葡萄  甘露  聚糖  ，  因此  ，  飞粉  也  是  多  羟基  化合物  为  主体  的  天然  高分子  化合物  ，  所以  像  淀粉  一样  ，  可以  制成  黄原  酸酯  ，  应用于  沉淀  废水  中  的  可溶性  重金属  离子  。
+        </segment>
+
+        <pos>
+            魔芋#VV  ，#PU  别名#NR  蒟蒻#VA  ，#PU  为#P  多年生#VV  天南星科#NN  草本#NN  植物#NN  ，#PU  有小#NR  毒#VV  ，#PU  魔芋#NR  是#VC  一#CD  个#M  大#JJ  家族#NN  ，#PU  全世界#NR  大约#AD  有#VE  130#CD  种#M  ，#PU  我国#NR  就#AD  有#VE  30多#CD  种#M  ，#PU  魔芋#NR  是#VC  目前#NT  发现#VV  的#DEC  、#PU  唯一#JJ  能#VV  大量#AD  提供#VV  葡甘露#NN  聚糖#NN  的#DEC  经济#NN  作物#NN  ，#PU  在#P  食品#NN  医药#NN  方面#NN  魔芋#VV  的#DEC  应用#NN  价值#NN  将#AD  不断#VA  地#DEV  被#SB  开发#VV  出来#VV    。#PU  魔芋#NR  因#P  具有#VV  很#AD  高#VA  的#DEC  食用#VV  价值#NN  而#CC  受到#VV  人们#NN  普遍#AD  欢迎#VV  ，#PU  其#PN  主要#JJ  成份#NN  是#VC  葡甘露#NN  聚糖#NN  ，#PU  它#PN  不仅#CC  含有#VV  人体#AD  所#MSP  需#VV  的#DEC  10多#CD  种#M  氨基酸#NN  和#CC  多种#NN  微量#NN  元素#NN  ，#PU  更#AD  具有#VV  低#JJ  蛋白#NN  、#PU  低#JJ  脂肪#NN  、#PU  高#JJ  纤维#NN  、#PU  吸水#NN  性强#NN  、#PU  膨胀率#NR  高等#JJ  特性#NN  ，#PU  药用#NN  功效#NN  方面#NN  具有#VV  降#VV  血脂#NN  、#PU  降#VV  血糖#NN  、#PU  降#NN  血压#NN  、#PU  排毒#NN  、#PU  减肥#VV  、#PU  美容#NN  、#PU  保健#NN  、#PU  通便#NN  润肠#NN  胃#NN  等#ETC  多#CD  种#M  疗效#NN    。#PU    。#PU
+            除此之外#NN  ，#PU  魔芋#NN  在#P  工业#NN  制造#NN  方面#NN  也#AD  有#VE  非常#AD  广泛#VA  的#DEC  用途#NN  ，#PU  魔芋#AD  属#VV  的#DEC  一些#CD  种类#NN  块茎#AD  富含#VV  魔芋#NN  多糖#NN  ，#PU  尤其是#AD  白#JJ  魔芋#NN  、#PU  花魔芋#JJ  品种#NN  含量#NN  高达#VV  --#NR  65#CD  %#NN    。#PU  魔芋#NN  多糖#NN  又#AD  称#VV  魔芋#VV  葡萄#VV  甘露#NN  聚糖#NN  ，#PU  是#VC  由#P  众多#VA  的#DEC  甘露糖#NN  和#CC  葡萄糖#NN  ，#PU  以#P  β-1#CD  ，#PU  4#CD  -#NN  糖苷#NN  健#VA  连接#VV  起来#VV  的#DEC  线性#NN  高分子#NN  化合物#NN  ，#PU  在#P  其#PN  分子#NN  的#DEG  某些#DT  糖基侧链#CD  上#LC  ，#PU  连接#VV  有#VE  一定#JJ  数量#NN  的#DEC  乙酰#NN  基团#NN  ，#PU  葡萄糖#NR  和#CC  甘露糖#NR  的#DEG  分子#NN  比为#NN  1#CD  ：#PU  1.5#CD  --#CD  1.7#CD  ，#PU  分子量#AD  可#VV  高达#VV  106#CD  道尔顿#NN  ，#PU  粘度#VV  特高#NN  ，#PU  溶于#VV  水#NN  ，#PU  在#P  水中#NN  膨胀#CD  度#M  特大#JJ  ，#PU  具有#VV  特定#JJ  的#DEG  生物#NN  活性#NN    。#PU  这些#DT  特性#NN  ，#PU  决定#VV  了#AS  魔芋#NN  多糖#AD  具有#VV  多#CD  种#M  的#DEG  用途#NN    。#PU  除#P  医学#NN  外#LC  ，#PU  魔芋#NN  多糖#NN  在#P  纺织#NN  、#PU  印染#NN  、#PU  化妆#NN  、#PU  陶瓷#NN  、#PU  消防#NN  、#PU  环保#NN  、#PU  军工#NN  、#PU  石油#NN  开采#NN  等#ETC  方面#NN  都#AD  有#VE  广泛#VA  的#DEC  用途#NN    。#PU  此外#AD  ，#PU  魔芋#NN  精粉#NN  加工#NN  过程#NN  中#LC  有#VE  30#CD  %#NN  --#NN  40#CD  %#NN  的#DEG  飞粉#NN  产生#VV  ，#PU  由于#P  飞粉#NN  中#LC  也#AD  含有#VV  一定量#CD  的#DEC  葡萄#NN  甘露#VV  聚糖#NN  ，#PU  因此#AD  ，#PU  飞粉#NR  也#AD  是#VC  多#CD  羟基#NN  化合物#NN  为#VC  主体#NN  的#DEC  天然#JJ  高分子#NN  化合物#NN  ，#PU  所以#AD  像#P  淀粉#NR  一样#VA  ，#PU  可以#VV  制成#VV  黄原#NN  酸酯#NN  ，#PU  应用于#VV  沉淀#NN  废水#NN  中#LC  的#DEG  可溶性#NN  重金属#NN  离子#NN    。#PU
+        </pos>
+
+        <parsing>
+            (relcl, 价值#NN, 魔芋#VV)  (nsubj, 蒟蒻#VA, 别名#NR)  (ccomp, 魔芋#VV, 蒟蒻#VA)  (case, 多年生#VV, 为#P)  (prep, 毒#VV, 多年生#VV)  (nn, 植物#NN, 天南星科#NN)  (nn, 植物#NN, 草本#NN)  (dobj, 多年生#VV, 植物#NN)  (nsubj, 毒#VV, 有小#NR)  (conj, 蒟蒻#VA, 毒#VV)  (nsubj, 家族#NN, 魔芋#NR)  (cop, 家族#NN, 是#VC)  (nummod, 个#M, 一#CD)  (clf, 家族#NN, 个#M)  (amod, 家族#NN, 大#JJ)  (conj, 蒟蒻#VA, 家族#NN)  (nsubj, 有#VE, 全世界#NR)  (advmod, 有#VE, 大约#AD)  (conj, 蒟蒻#VA, 有#VE)  (nummod, 种#M, 130#CD)  (dep, 有#VE, 种#M)  (nsubj, 有#VE, 我国#NR)  (advmod, 有#VE, 就#AD)  (conj, 蒟蒻#VA, 有#VE)  (nummod, 种#M, 30多#CD)  (dep, 有#VE, 种#M)  (nsubj, 作物#NN, 魔芋#NR)  (cop, 作物#NN, 是#VC)  (tmod, 发现#VV, 目前#NT)  (relcl, 作物#NN, 发现#VV)  (mark, 发现#VV, 的#DEC)  (amod, 作物#NN, 唯一#JJ)  (mmod, 提供#VV, 能#VV)  (advmod, 提供#VV, 大量#AD)  (relcl, 作物#NN, 提供#VV)  (nn, 聚糖#NN, 葡甘露#NN)  (dobj, 提供#VV, 聚糖#NN)  (mark, 提供#VV, 的#DEC)  (nn, 作物#NN, 经济#NN)  (conj, 蒟蒻#VA, 作物#NN)  (case, 方面#NN, 在#P)  (nn, 方面#NN, 食品#NN)  (nn, 方面#NN, 医药#NN)  (prep, 魔芋#VV, 方面#NN)  (conj, 蒟蒻#VA, 魔芋#VV)  (mark, 魔芋#VV, 的#DEC)  (nn, 价值#NN, 应用#NN)  (nsubj, 开发#VV, 价值#NN)  (advmod, 开发#VV, 将#AD)  (dvpmod, 开发#VV, 不断#VA)  (mark, 不断#VA, 地#DEV)  (auxpass, 开发#VV, 被#SB)  (root, ROOT#null, 开发#VV)  (comod, 开发#VV, 出来#VV)   (nsubj, 食用#VV, 魔芋#NR)  (case, 具有#VV, 因#P)  (prep, 食用#VV, 具有#VV)  (advmod, 高#VA, 很#AD)  (dobj, 具有#VV, 高#VA)  (mark, 高#VA, 的#DEC)  (root, ROOT#null, 食用#VV)  (dobj, 食用#VV, 价值#NN)  (cc, 食用#VV, 而#CC)  (conj, 食用#VV, 受到#VV)  (nsubj, 欢迎#VV, 人们#NN)  (advmod, 欢迎#VV, 普遍#AD)  (nfincl, 疗效#NN, 欢迎#VV)  (nn, 成份#NN, 其#PN)  (amod, 成份#NN, 主要#JJ)  (nsubj, 聚糖#NN, 成份#NN)  (cop, 聚糖#NN, 是#VC)  (nn, 聚糖#NN, 葡甘露#NN)  (ccomp, 欢迎#VV, 聚糖#NN)  (nsubj, 含有#VV, 它#PN)  (cc, 含有#VV, 不仅#CC)  (conj, 聚糖#NN, 含有#VV)  (advmod, 需#VV, 人体#AD)  (prtmod, 需#VV, 所#MSP)  (relcl, 氨基酸#NN, 需#VV)  (mark, 需#VV, 的#DEC)  (nummod, 种#M, 10多#CD)  (clf, 氨基酸#NN, 种#M)  (conj, 元素#NN, 氨基酸#NN)  (cc, 元素#NN, 和#CC)  (nn, 元素#NN, 多种#NN)  (nn, 元素#NN, 微量#NN)  (dobj, 含有#VV, 元素#NN)  (advmod, 具有#VV, 更#AD)  (conj, 含有#VV, 具有#VV)  (amod, 蛋白#NN, 低#JJ)  (conj, 特性#NN, 蛋白#NN)  (amod, 脂肪#NN, 低#JJ)  (conj, 特性#NN, 脂肪#NN)  (amod, 纤维#NN, 高#JJ)  (conj, 特性#NN, 纤维#NN)  (nn, 性强#NN, 吸水#NN)  (conj, 特性#NN, 性强#NN)  (nn, 特性#NN, 膨胀率#NR)  (amod, 特性#NN, 高等#JJ)  (dobj, 具有#VV, 特性#NN)  (nn, 方面#NN, 药用#NN)  (nn, 方面#NN, 功效#NN)  (nsubj, 具有#VV, 方面#NN)  (conj, 聚糖#NN, 具有#VV)  (dep, 具有#VV, 降#VV)  (dobj, 降#VV, 血脂#NN)  (conj, 降#VV, 降#VV)  (dobj, 降#VV, 血糖#NN)  (nn, 血压#NN, 降#NN)  (conj, 降#VV, 血压#NN)  (conj, 降#VV, 排毒#NN)  (conj, 降#VV, 减肥#VV)  (conj, 降#VV, 美容#NN)  (conj, 降#VV, 保健#NN)  (nn, 胃#NN, 通便#NN)  (nn, 胃#NN, 润肠#NN)  (dep, 降#VV, 胃#NN)  (etc, 胃#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 疗效#NN, 种#M)  (dobj, 受到#VV, 疗效#NN)   (root, ROOT#null, null#null)
+            (nsubj, 有#VE, 除此之外#NN)  (nsubj, 有#VE, 魔芋#NN)  (case, 方面#NN, 在#P)  (nn, 制造#NN, 工业#NN)  (nn, 方面#NN, 制造#NN)  (prep, 有#VE, 方面#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (advmod, 广泛#VA, 非常#AD)  (relcl, 用途#NN, 广泛#VA)  (mark, 广泛#VA, 的#DEC)  (dobj, 有#VE, 用途#NN)  (advmod, 属#VV, 魔芋#AD)  (relcl, 种类#NN, 属#VV)  (mark, 属#VV, 的#DEC)  (nummod, 种类#NN, 一些#CD)  (nsubj, 富含#VV, 种类#NN)  (advmod, 富含#VV, 块茎#AD)  (conj, 有#VE, 富含#VV)  (nn, 多糖#NN, 魔芋#NN)  (dobj, 富含#VV, 多糖#NN)  (advmod, 高达#VV, 尤其是#AD)  (amod, 魔芋#NN, 白#JJ)  (conj, 品种#NN, 魔芋#NN)  (amod, 品种#NN, 花魔芋#JJ)  (nn, 含量#NN, 品种#NN)  (nsubj, 高达#VV, 含量#NN)  (conj, 有#VE, 高达#VV)  (nummod, %#NN, 65#CD)  (dobj, 高达#VV, %#NN)   (nn, 多糖#NN, 魔芋#NN)  (nsubj, 称#VV, 多糖#NN)  (xsubj, 葡萄#VV, 多糖#NN)  (advmod, 称#VV, 又#AD)  (root, ROOT#null, 称#VV)  (mmod, 葡萄#VV, 魔芋#VV)  (ccomp, 称#VV, 葡萄#VV)  (nn, 聚糖#NN, 甘露#NN)  (dobj, 葡萄#VV, 聚糖#NN)  (cop, 连接#VV, 是#VC)  (case, 葡萄糖#NN, 由#P)  (relcl, 葡萄糖#NN, 众多#VA)  (mark, 众多#VA, 的#DEC)  (conj, 葡萄糖#NN, 甘露糖#NN)  (cc, 葡萄糖#NN, 和#CC)  (prep, 连接#VV, 葡萄糖#NN)  (case, 化合物#NN, 以#P)  (nsubj, 健#VA, β-1#CD)  (nummod, 糖苷#NN, 4#CD)  (nsubj, 健#VA, 糖苷#NN)  (dep, 连接#VV, 健#VA)  (relcl, 化合物#NN, 连接#VV)  (comod, 连接#VV, 起来#VV)  (mark, 连接#VV, 的#DEC)  (nn, 化合物#NN, 线性#NN)  (nn, 化合物#NN, 高分子#NN)  (prep, 连接#VV, 化合物#NN)  (case, 某些#DT, 在#P)  (nn, 分子#NN, 其#PN)  (dep, 某些#DT, 分子#NN)  (case, 分子#NN, 的#DEG)  (prep, 连接#VV, 某些#DT)  (dep, 某些#DT, 糖基侧链#CD)  (case, 某些#DT, 上#LC)  (ccomp, 葡萄#VV, 连接#VV)  (conj, 葡萄#VV, 连接#VV)  (relcl, 基团#NN, 有#VE)  (amod, 数量#NN, 一定#JJ)  (dobj, 有#VE, 数量#NN)  (mark, 有#VE, 的#DEC)  (nn, 基团#NN, 乙酰#NN)  (dobj, 连接#VV, 基团#NN)  (conj, 甘露糖#NR, 葡萄糖#NR)  (cc, 甘露糖#NR, 和#CC)  (assmod, 比为#NN, 甘露糖#NR)  (case, 甘露糖#NR, 的#DEG)  (nn, 比为#NN, 分子#NN)  (ccomp, 葡萄#VV, 比为#NN)  (conj, 葡萄#VV, 比为#NN)  (nummod, 1.5#CD, 1#CD)  (dep, 1.7#CD, 1.5#CD)  (range, 比为#NN, 1.7#CD)  (advmod, 高达#VV, 分子量#AD)  (mmod, 高达#VV, 可#VV)  (ccomp, 葡萄#VV, 高达#VV)  (conj, 葡萄#VV, 高达#VV)  (nummod, 道尔顿#NN, 106#CD)  (dobj, 高达#VV, 道尔顿#NN)  (ccomp, 葡萄#VV, 粘度#VV)  (conj, 葡萄#VV, 粘度#VV)  (dobj, 粘度#VV, 特高#NN)  (ccomp, 葡萄#VV, 溶于#VV)  (conj, 葡萄#VV, 溶于#VV)  (dobj, 溶于#VV, 水#NN)  (case, 度#M, 在#P)  (dep, 度#M, 水中#NN)  (nummod, 度#M, 膨胀#CD)  (prep, 特大#JJ, 度#M)  (ccomp, 葡萄#VV, 特大#JJ)  (conj, 葡萄#VV, 特大#JJ)  (dep, 特大#JJ, 具有#VV)  (assmod, 活性#NN, 特定#JJ)  (case, 特定#JJ, 的#DEG)  (nn, 活性#NN, 生物#NN)  (dobj, 具有#VV, 活性#NN)   (det, 特性#NN, 这些#DT)  (dep, 决定#VV, 特性#NN)  (root, ROOT#null, 决定#VV)  (asp, 决定#VV, 了#AS)  (nsubj, 具有#VV, 魔芋#NN)  (advmod, 具有#VV, 多糖#AD)  (ccomp, 决定#VV, 具有#VV)  (nummod, 种#M, 多#CD)  (assmod, 用途#NN, 种#M)  (case, 种#M, 的#DEG)  (dobj, 具有#VV, 用途#NN)   (case, 医学#NN, 除#P)  (prep, 有#VE, 医学#NN)  (case, 医学#NN, 外#LC)  (nsubj, 有#VE, 魔芋#NN)  (nsubj, 有#VE, 多糖#NN)  (case, 方面#NN, 在#P)  (conj, 开采#NN, 纺织#NN)  (conj, 开采#NN, 印染#NN)  (conj, 开采#NN, 化妆#NN)  (conj, 开采#NN, 陶瓷#NN)  (conj, 开采#NN, 消防#NN)  (conj, 开采#NN, 环保#NN)  (conj, 开采#NN, 军工#NN)  (nn, 开采#NN, 石油#NN)  (nn, 方面#NN, 开采#NN)  (etc, 开采#NN, 等#ETC)  (prep, 有#VE, 方面#NN)  (advmod, 有#VE, 都#AD)  (root, ROOT#null, 有#VE)  (relcl, 用途#NN, 广泛#VA)  (mark, 广泛#VA, 的#DEC)  (dobj, 有#VE, 用途#NN)   (advmod, 有#VE, 此外#AD)  (nn, 加工#NN, 魔芋#NN)  (nn, 加工#NN, 精粉#NN)  (nsubj, 有#VE, 加工#NN)  (loc, 有#VE, 过程#NN)  (case, 过程#NN, 中#LC)  (root, ROOT#null, 有#VE)  (nummod, --#NN, 30#CD)  (nn, --#NN, %#NN)  (nummod, %#NN, 40#CD)  (assmod, 飞粉#NN, %#NN)  (case, %#NN, 的#DEG)  (nsubj, 产生#VV, 飞粉#NN)  (dep, 有#VE, 产生#VV)  (case, 甘露#VV, 由于#P)  (loc, 甘露#VV, 飞粉#NN)  (case, 飞粉#NN, 中#LC)  (advmod, 含有#VV, 也#AD)  (relcl, 葡萄#NN, 含有#VV)  (range, 含有#VV, 一定量#CD)  (mark, 含有#VV, 的#DEC)  (nsubj, 甘露#VV, 葡萄#NN)  (prep, 化合物#NN, 甘露#VV)  (dobj, 甘露#VV, 聚糖#NN)  (advmod, 化合物#NN, 因此#AD)  (nsubj, 化合物#NN, 飞粉#NR)  (advmod, 化合物#NN, 也#AD)  (cop, 化合物#NN, 是#VC)  (nummod, 化合物#NN, 多#CD)  (nn, 化合物#NN, 羟基#NN)  (nsubj, 主体#NN, 化合物#NN)  (cop, 主体#NN, 为#VC)  (relcl, 化合物#NN, 主体#NN)  (mark, 主体#NN, 的#DEC)  (amod, 化合物#NN, 天然#JJ)  (nn, 化合物#NN, 高分子#NN)  (conj, 有#VE, 化合物#NN)  (advmod, 一样#VA, 所以#AD)  (case, 淀粉#NR, 像#P)  (prep, 一样#VA, 淀粉#NR)  (conj, 有#VE, 一样#VA)  (mmod, 制成#VV, 可以#VV)  (conj, 一样#VA, 制成#VV)  (nn, 酸酯#NN, 黄原#NN)  (dobj, 制成#VV, 酸酯#NN)  (dep, 一样#VA, 应用于#VV)  (nn, 废水#NN, 沉淀#NN)  (assmod, 离子#NN, 废水#NN)  (case, 废水#NN, 中#LC)  (case, 废水#NN, 的#DEG)  (nn, 离子#NN, 可溶性#NN)  (nn, 离子#NN, 重金属#NN)  (dobj, 应用于#VV, 离子#NN)
+        </parsing>
+
+        <tag>
+            天南星科植物  草本植物  多年生植物  大家族  唯一作物  提供作物  葡甘露聚糖  提供聚糖  经济作物  食品方面  医药方面  应用价值  开发  食用价值  需氨基酸  低蛋白  低脂肪  高纤维  吸水性强  高等特性  药用方面  功效方面  受到疗效  工业制造  制造方面  用途广泛  属种类  富含多糖  葡萄聚糖  葡萄糖众多  甘露糖  连接化合物  线性化合物  高分子化合物  一定数量  乙酰基团  连接基团  分子比为  高达道尔顿  粘度特高  溶于水  生物活性  决定  纺织  印染  化妆  陶瓷  消防  环保  军工  石油开采  开采方面  精粉加工  含有葡萄  羟基化合物  天然化合物  黄原酸酯  制成酸酯  沉淀废水  可溶性离子  重金属离子  应用于离子  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            魔芋性温、辛，有毒;可活血化瘀，解毒消肿，宽肠通便，化痰软坚;主治瘰疬痰核、损伤瘀肿、便秘腹痛、咽喉肿痛、牙龈肿痛等症。另外，魔芋还具有补钙、平衡盐分、洁胃、整肠、排毒等作用。
+            1.减肥
+            魔芋食品不仅味道鲜美，口感宜人，而且有减肥健身、治病抗癌等功效，所以近年来风靡全球，并被人们誉为“魔力食品”、“神奇食品”、“健康食品”等。
+            2.预防动脉硬化、防治心脑血管疾病
+            魔芋性味辛温，有推动血行，防止瘀肿的作用。魔芋所含的粘液蛋白能减少体内胆固醇的积累，预防动脉硬化和防治心脑血管疾病。所以魔芋被称为”胃肠清道夫”、”血液净化剂”。
+            3.降低胆固醇
+            魔芋葡甘聚糖能有效抑制小肠对胆固醇、胆汁酸等脂肪分解物质的吸收，促进脂肪排出体外，降低血清中甘油三酯和胆固醇总量。
+            4.提高免疫力，防治肿瘤和癌症
+            芋能提高机体的免疫力，所含的甘露糖酐对癌细胞代谢有干扰作用，所含的优良膳食纤维能刺激机体，产生一种杀灭癌细胞的物质。药敏试验对贲门癌、结肠癌细胞敏感，可以化痰软坚，散肿解毒，主治肿块、痰核、瘰疬等症，能够防治癌瘤。
+            5.糖尿病患者理想食品
+            魔芋还含有可溶性膳食纤维，这种纤维对抑制餐后血糖升高很有效，因而魔芋精粉及其制品都是糖尿病患者的理想降糖食品。应用后可减轻胰岛负担。
+            6.保温
+            古代民间疗法中，又把魔芋做成保温布的材料胃痛和肩膀酸痛，把蒸好的魔芋用毛巾抱起来，放在患处可以缓解疼痛。
+        </rawdata>
+
+        <segment>
+            魔芋  性温  、  辛  ，  有毒  ;  可  活血化瘀  ，  解毒  消肿  ，  宽  肠  通便  ，  化痰  软坚  ;  主治  瘰疬  痰核  、  损伤  瘀肿  、  便秘  腹痛  、  咽喉  肿痛  、  牙龈  肿痛  等症  。  另外  ，  魔芋  还  具有  补钙  、  平衡  盐分  、  洁胃  、  整  肠  、  排毒  等  作用  。
+            减肥
+            魔芋  食品  不仅  味道  鲜美  ，  口感  宜人  ，  而且  有  减肥  健身  、  治病  抗癌  等  功效  ，  所以  近年  来  风靡  全球  ，  并  被  人们  誉为  “  魔力  食品  ”  、  “  神奇  食品  ”  、  “  健康  食品  ”  等  。
+            预防  动脉  硬化  、  防治  心脑  血管  疾病
+            魔芋  性味辛温  ，  有  推动  血行  ，  防止  瘀肿  的  作用  。  魔芋  所含  的  粘液  蛋白  能  减少  体内  胆固醇  的  积累  ，  预防  动脉  硬化  和  防治  心脑  血管  疾病  。  所以  魔芋  被  称为  ”  胃肠  清道夫  ”  、  ”  血液  净化剂  ”  。
+            降低  胆固醇
+            魔芋  葡甘  聚糖  能  有效  抑制  小肠  对  胆固醇  、  胆汁酸  等  脂肪  分解  物质  的  吸收  ，  促进  脂肪  排出  体外  ，  降低  血清  中  甘油  三  酯和  胆固醇  总量  。
+            提高  免疫力  ，  防治  肿瘤  和  癌症
+            芋能  提高  机体  的  免疫力  ，  所含  的  甘露糖  酐对  癌细胞  代谢  有  干扰  作用  ，  所  含  的  优良  膳食  纤维  能  刺激  机体  ，  产生  一  种  杀灭  癌细胞  的  物质  。  药敏  试验  对  贲门癌  、  结肠  癌细胞  敏感  ，  可以  化痰  软坚  ，  散肿  解毒  ，  主治  肿块  、  痰核  、  瘰疬  等症  ，  能够  防治  癌瘤  。
+            糖尿病  患者  理想  食品
+            魔芋  还  含有  可溶性  膳食  纤维  ，  这  种  纤维  对  抑制  餐后  血糖  升高  很  有效  ，  因而  魔芋  精粉  及其  制品  都  是  糖尿病  患者  的  理想  降糖  食品  。  应用  后  可  减轻  胰岛  负担  。
+            保温
+            古代  民间  疗法  中  ，  又  把  魔芋  做成  保温  布  的  材料  胃痛  和  肩膀  酸痛  ，  把  蒸  好  的  魔芋  用  毛巾  抱  起来  ，  放在  患处  可以  缓解  疼痛  。
+        </segment>
+
+        <pos>
+            魔芋#NN  性温#NN  、#PU  辛#NN  ，#PU  有毒#NN  ;#VV  可#VV  活血化瘀#NN  ，#PU  解毒#VV  消肿#NN  ，#PU  宽#VA  肠#VA  通便#NN  ，#PU  化痰#VV  软坚#NN  ;#NN  主治#NN  瘰疬#NN  痰核#NN  、#PU  损伤#NN  瘀肿#NN  、#PU  便秘#NN  腹痛#NN  、#PU  咽喉#NN  肿痛#NN  、#PU  牙龈#NN  肿痛#NN  等症#NN    。#PU  另外#AD  ，#PU  魔芋#NN  还#AD  具有#VV  补钙#NN  、#PU  平衡#NN  盐分#NN  、#PU  洁胃#NN  、#PU  整#DT  肠#NN  、#PU  排毒#NN  等#ETC  作用#NN    。#PU    。#PU
+            减肥#VV
+            魔芋#NN  食品#NN  不仅#CC  味道#NN  鲜美#NN  ，#PU  口感#VV  宜人#NN  ，#PU  而且#CC  有#VE  减肥#VV  健身#VV  、#PU  治病#VV  抗癌#NN  等#ETC  功效#VV  ，#PU  所以#AD  近年#NT  来#MSP  风靡#VV  全球#NN  ，#PU  并#CC  被#LB  人们#NN  誉为#VV  ``#NN  魔力#NN  食品#NN  ''#NN  、#PU  ``#VV  神奇#JJ  食品#NN  ''#NN  、#PU  ``#VV  健康#JJ  食品#NN  ''#NN  等#ETC  。#PU
+            预防#VV  动脉#NN  硬化#NN  、#PU  防治#NN  心脑#NN  血管#NN  疾病#NN
+            魔芋#NR  性味辛温#VV  ，#PU  有#VE  推动#VV  血行#NN  ，#PU  防止#VV  瘀肿#NN  的#DEC  作用#NN    。#PU  魔芋#NN  所含#NN  的#DEG  粘液#NN  蛋白#NN  能#VV  减少#VV  体内#NN  胆固醇#NN  的#DEG  积累#NN  ，#PU  预防#VV  动脉#NN  硬化#NN  和#CC  防治#NN  心脑#NN  血管#NN  疾病#NN    。#PU  所以#AD  魔芋#NN  被#SB  称为#VV  ''#NN  胃肠#NN  清道夫#VV  ''#NN  、#PU  ''#NN  血液#NN  净化剂#NN  ''#NN    。#PU    。#PU
+            降低#VV  胆固醇#NN
+            魔芋#NN  葡甘#NN  聚糖#NN  能#VV  有效#AD  抑制#VV  小肠#AD  对#P  胆固醇#NN  、#PU  胆汁酸#NN  等#ETC  脂肪#NN  分解#VV  物质#NN  的#DEC  吸收#NN  ，#PU  促进#VV  脂肪#NN  排出#NN  体外#NN  ，#PU  降低#VV  血清#NR  中#NR  甘油#NR  三#CD  酯和#NN  胆固醇#NN  总量#NN  。#PU
+            提高#VV  免疫力#NN  ，#PU  防治#VV  肿瘤#NN  和#CC  癌症#NN
+            芋能#AD  提高#VV  机体#NN  的#DEC  免疫力#VV  ，#PU  所含#NN  的#DEG  甘露糖#NN  酐对#NN  癌细胞#NN  代谢#AD  有#VE  干扰#NN  作用#NN  ，#PU  所#MSP  含#VV  的#DEC  优良#JJ  膳食#NN  纤维#NN  能#VV  刺激#VV  机体#NN  ，#PU  产生#VV  一#CD  种#M  杀灭#NN  癌细胞#NN  的#DEG  物质#NN    。#PU  药敏#NN  试验#NN  对#P  贲门癌#NR  、#PU  结肠#NR  癌细胞#AD  敏感#VA  ，#PU  可以#VV  化痰#VV  软坚#NN  ，#PU  散肿#VV  解毒#NN  ，#PU  主治#VV  肿块#NR  、#PU  痰核#NR  、#PU  瘰疬#NR  等症#NN  ，#PU  能够#VV  防治#NN  癌瘤#NN    。#PU    。#PU
+            糖尿病#NN  患者#NN  理想#JJ  食品#NN
+            魔芋#NN  还#AD  含有#VV  可溶性#NN  膳食#NN  纤维#NN  ，#PU  这#DT  种#M  纤维#NN  对#P  抑制#VV  餐后#NN  血糖#NN  升高#VV  很#AD  有效#VA  ，#PU  因而#AD  魔芋#NN  精粉#NN  及其#NN  制品#NN  都#AD  是#VC  糖尿病#NN  患者#NN  的#DEC  理想#JJ  降糖#JJ  食品#NN    。#PU  应用#NN  后#LC  可#VV  减轻#VV  胰岛#NN  负担#NN    。#PU    。#PU
+            保温#VV
+            古代#NN  民间#NN  疗法#NN  中#LC  ，#PU  又#AD  把#BA  魔芋#NN  做成#NN  保温#VV  布#NR  的#DEG  材料#NN  胃痛#NN  和#CC  肩膀#NN  酸痛#NN  ，#PU  把#BA  蒸#AD  好#VA  的#DEC  魔芋#NN  用#P  毛巾#NN  抱#VV  起来#VV  ，#PU  放在#AD  患处#AD  可以#VV  缓解#VV  疼痛#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 有毒#NN, 魔芋#NN)  (conj, 有毒#NN, 性温#NN)  (conj, 有毒#NN, 辛#NN)  (nsubj, 可#VV, 有毒#NN)  (mmod, 可#VV, ;#VV)  (root, ROOT#null, 可#VV)  (dobj, 可#VV, 活血化瘀#NN)  (conj, 可#VV, 解毒#VV)  (dobj, 解毒#VV, 消肿#NN)  (conj, 可#VV, 宽#VA)  (comod, 宽#VA, 肠#VA)  (dobj, 宽#VA, 通便#NN)  (conj, 可#VV, 化痰#VV)  (nn, 等症#NN, 软坚#NN)  (nn, 等症#NN, ;#NN)  (nn, 等症#NN, 主治#NN)  (nn, 等症#NN, 瘰疬#NN)  (conj, 等症#NN, 痰核#NN)  (nn, 等症#NN, 损伤#NN)  (conj, 等症#NN, 瘀肿#NN)  (nn, 等症#NN, 便秘#NN)  (conj, 等症#NN, 腹痛#NN)  (nn, 等症#NN, 咽喉#NN)  (conj, 等症#NN, 肿痛#NN)  (nn, 等症#NN, 牙龈#NN)  (nn, 等症#NN, 肿痛#NN)  (dobj, 化痰#VV, 等症#NN)   (advmod, 具有#VV, 另外#AD)  (nsubj, 具有#VV, 魔芋#NN)  (advmod, 具有#VV, 还#AD)  (root, ROOT#null, 具有#VV)  (conj, 排毒#NN, 补钙#NN)  (nn, 盐分#NN, 平衡#NN)  (conj, 排毒#NN, 盐分#NN)  (conj, 排毒#NN, 洁胃#NN)  (det, 肠#NN, 整#DT)  (conj, 排毒#NN, 肠#NN)  (nsubj, 作用#NN, 排毒#NN)  (etc, 排毒#NN, 等#ETC)  (conj, 具有#VV, 作用#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 减肥#VV)
+            (nn, 鲜美#NN, 魔芋#NN)  (conj, 鲜美#NN, 食品#NN)  (cc, 鲜美#NN, 不仅#CC)  (nn, 鲜美#NN, 味道#NN)  (nsubj, 口感#VV, 鲜美#NN)  (root, ROOT#null, 口感#VV)  (dobj, 口感#VV, 宜人#NN)  (cc, 口感#VV, 而且#CC)  (conj, 口感#VV, 有#VE)  (dep, 功效#VV, 减肥#VV)  (comod, 减肥#VV, 健身#VV)  (dep, 减肥#VV, 治病#VV)  (dobj, 治病#VV, 抗癌#NN)  (etc, 抗癌#NN, 等#ETC)  (dep, 有#VE, 功效#VV)  (advmod, 风靡#VV, 所以#AD)  (tmod, 风靡#VV, 近年#NT)  (prtmod, 风靡#VV, 来#MSP)  (ccomp, 功效#VV, 风靡#VV)  (dobj, 风靡#VV, 全球#NN)  (cc, 风靡#VV, 并#CC)  (dep, 风靡#VV, 被#LB)  (nsubj, 誉为#VV, 人们#NN)  (dep, 被#LB, 誉为#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 魔力#NN)  (nn, ''#NN, 食品#NN)  (dobj, 誉为#VV, ''#NN)  (conj, 口感#VV, ``#VV)  (amod, ''#NN, 神奇#JJ)  (nn, ''#NN, 食品#NN)  (dobj, ``#VV, ''#NN)  (conj, 口感#VV, ``#VV)  (amod, ''#NN, 健康#JJ)  (nn, ''#NN, 食品#NN)  (dobj, ``#VV, ''#NN)  (etc, ''#NN, 等#ETC)
+            (root, ROOT#null, 预防#VV)  (nn, 疾病#NN, 动脉#NN)  (conj, 疾病#NN, 硬化#NN)  (nn, 疾病#NN, 防治#NN)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)
+            (nsubj, 性味辛温#VV, 魔芋#NR)  (root, ROOT#null, 性味辛温#VV)  (ccomp, 性味辛温#VV, 有#VE)  (relcl, 作用#NN, 推动#VV)  (dobj, 推动#VV, 血行#NN)  (conj, 推动#VV, 防止#VV)  (dobj, 防止#VV, 瘀肿#NN)  (mark, 推动#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nn, 所含#NN, 魔芋#NN)  (assmod, 蛋白#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 蛋白#NN, 粘液#NN)  (nsubj, 减少#VV, 蛋白#NN)  (mmod, 减少#VV, 能#VV)  (root, ROOT#null, 减少#VV)  (nn, 胆固醇#NN, 体内#NN)  (assmod, 积累#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 减少#VV, 积累#NN)  (conj, 减少#VV, 预防#VV)  (nn, 疾病#NN, 动脉#NN)  (conj, 疾病#NN, 硬化#NN)  (cc, 疾病#NN, 和#CC)  (nn, 疾病#NN, 防治#NN)  (nn, 疾病#NN, 心脑#NN)  (nn, 疾病#NN, 血管#NN)  (dobj, 预防#VV, 疾病#NN)   (advmod, 称为#VV, 所以#AD)  (nsubjpass, 称为#VV, 魔芋#NN)  (auxpass, 称为#VV, 被#SB)  (conj, 清道夫#VV, 称为#VV)  (nn, 胃肠#NN, ''#NN)  (dobj, 称为#VV, 胃肠#NN)  (root, ROOT#null, 清道夫#VV)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ''#NN)  (nn, ''#NN, 血液#NN)  (nn, ''#NN, 净化剂#NN)  (dobj, 清道夫#VV, ''#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 降低#VV)  (dobj, 降低#VV, 胆固醇#NN)
+            (nn, 聚糖#NN, 魔芋#NN)  (nn, 聚糖#NN, 葡甘#NN)  (nsubj, 抑制#VV, 聚糖#NN)  (mmod, 抑制#VV, 能#VV)  (advmod, 抑制#VV, 有效#AD)  (root, ROOT#null, 抑制#VV)  (advmod, 分解#VV, 小肠#AD)  (case, 脂肪#NN, 对#P)  (conj, 胆汁酸#NN, 胆固醇#NN)  (nn, 脂肪#NN, 胆汁酸#NN)  (etc, 胆汁酸#NN, 等#ETC)  (prep, 分解#VV, 脂肪#NN)  (relcl, 吸收#NN, 分解#VV)  (dobj, 分解#VV, 物质#NN)  (mark, 分解#VV, 的#DEC)  (dobj, 抑制#VV, 吸收#NN)  (conj, 抑制#VV, 促进#VV)  (nn, 体外#NN, 脂肪#NN)  (nn, 体外#NN, 排出#NN)  (dobj, 促进#VV, 体外#NN)  (conj, 抑制#VV, 降低#VV)  (nn, 甘油#NR, 血清#NR)  (nn, 甘油#NR, 中#NR)  (nn, 酯和#NN, 甘油#NR)  (nummod, 酯和#NN, 三#CD)  (nn, 总量#NN, 酯和#NN)  (nn, 总量#NN, 胆固醇#NN)  (dobj, 降低#VV, 总量#NN)
+            (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)  (conj, 提高#VV, 防治#VV)  (conj, 癌症#NN, 肿瘤#NN)  (cc, 癌症#NN, 和#CC)  (dobj, 防治#VV, 癌症#NN)
+            (advmod, 提高#VV, 芋能#AD)  (relcl, 纤维#NN, 提高#VV)  (dobj, 提高#VV, 机体#NN)  (mark, 提高#VV, 的#DEC)  (relcl, 膳食#NN, 免疫力#VV)  (assmod, 癌细胞#NN, 所含#NN)  (case, 所含#NN, 的#DEG)  (nn, 癌细胞#NN, 甘露糖#NN)  (nn, 癌细胞#NN, 酐对#NN)  (nsubj, 有#VE, 癌细胞#NN)  (advmod, 有#VE, 代谢#AD)  (ccomp, 免疫力#VV, 有#VE)  (nn, 作用#NN, 干扰#NN)  (dobj, 有#VE, 作用#NN)  (prtmod, 含#VV, 所#MSP)  (dep, 有#VE, 含#VV)  (mark, 免疫力#VV, 的#DEC)  (amod, 膳食#NN, 优良#JJ)  (nn, 纤维#NN, 膳食#NN)  (nsubj, 刺激#VV, 纤维#NN)  (mmod, 刺激#VV, 能#VV)  (root, ROOT#null, 刺激#VV)  (dobj, 刺激#VV, 机体#NN)  (conj, 刺激#VV, 产生#VV)  (nummod, 种#M, 一#CD)  (clf, 癌细胞#NN, 种#M)  (nn, 癌细胞#NN, 杀灭#NN)  (assmod, 物质#NN, 癌细胞#NN)  (case, 癌细胞#NN, 的#DEG)  (dobj, 产生#VV, 物质#NN)   (nn, 试验#NN, 药敏#NN)  (nsubj, 敏感#VA, 试验#NN)  (case, 结肠#NR, 对#P)  (conj, 结肠#NR, 贲门癌#NR)  (prep, 敏感#VA, 结肠#NR)  (advmod, 敏感#VA, 癌细胞#AD)  (root, ROOT#null, 敏感#VA)  (mmod, 化痰#VV, 可以#VV)  (dep, 敏感#VA, 化痰#VV)  (dobj, 化痰#VV, 软坚#NN)  (conj, 化痰#VV, 散肿#VV)  (dobj, 散肿#VV, 解毒#NN)  (conj, 化痰#VV, 主治#VV)  (conj, 瘰疬#NR, 肿块#NR)  (conj, 瘰疬#NR, 痰核#NR)  (nn, 等症#NN, 瘰疬#NR)  (dobj, 主治#VV, 等症#NN)  (conj, 化痰#VV, 能够#VV)  (nn, 癌瘤#NN, 防治#NN)  (dobj, 能够#VV, 癌瘤#NN)   (root, ROOT#null, null#null)
+            (nn, 患者#NN, 糖尿病#NN)  (dep, 食品#NN, 患者#NN)  (amod, 食品#NN, 理想#JJ)  (root, ROOT#null, 食品#NN)
+            (nsubj, 含有#VV, 魔芋#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nn, 纤维#NN, 可溶性#NN)  (nn, 纤维#NN, 膳食#NN)  (dobj, 含有#VV, 纤维#NN)  (det, 纤维#NN, 这#DT)  (clf, 这#DT, 种#M)  (nsubj, 升高#VV, 纤维#NN)  (case, 抑制#VV, 对#P)  (prep, 升高#VV, 抑制#VV)  (nn, 血糖#NN, 餐后#NN)  (dobj, 抑制#VV, 血糖#NN)  (conj, 含有#VV, 升高#VV)  (advmod, 有效#VA, 很#AD)  (relcl, 食品#NN, 有效#VA)  (advmod, 患者#NN, 因而#AD)  (nn, 制品#NN, 魔芋#NN)  (nn, 制品#NN, 精粉#NN)  (nn, 制品#NN, 及其#NN)  (nsubj, 患者#NN, 制品#NN)  (advmod, 患者#NN, 都#AD)  (cop, 患者#NN, 是#VC)  (nn, 患者#NN, 糖尿病#NN)  (dep, 有效#VA, 患者#NN)  (mark, 有效#VA, 的#DEC)  (amod, 食品#NN, 理想#JJ)  (amod, 食品#NN, 降糖#JJ)  (dobj, 升高#VV, 食品#NN)   (loc, 减轻#VV, 应用#NN)  (case, 应用#NN, 后#LC)  (mmod, 减轻#VV, 可#VV)  (root, ROOT#null, 减轻#VV)  (nn, 负担#NN, 胰岛#NN)  (dobj, 减轻#VV, 负担#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 保温#VV)
+            (nn, 疗法#NN, 古代#NN)  (nn, 疗法#NN, 民间#NN)  (loc, 保温#VV, 疗法#NN)  (case, 疗法#NN, 中#LC)  (advmod, 保温#VV, 又#AD)  (ba, 保温#VV, 把#BA)  (nn, 做成#NN, 魔芋#NN)  (nsubj, 保温#VV, 做成#NN)  (root, ROOT#null, 保温#VV)  (assmod, 酸痛#NN, 布#NR)  (case, 布#NR, 的#DEG)  (nn, 酸痛#NN, 材料#NN)  (conj, 酸痛#NN, 胃痛#NN)  (cc, 酸痛#NN, 和#CC)  (nn, 酸痛#NN, 肩膀#NN)  (dobj, 保温#VV, 酸痛#NN)  (ba, 抱#VV, 把#BA)  (advmod, 好#VA, 蒸#AD)  (relcl, 魔芋#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (nsubj, 抱#VV, 魔芋#NN)  (case, 毛巾#NN, 用#P)  (prep, 抱#VV, 毛巾#NN)  (dep, 保温#VV, 抱#VV)  (comod, 抱#VV, 起来#VV)  (advmod, 缓解#VV, 放在#AD)  (advmod, 缓解#VV, 患处#AD)  (mmod, 缓解#VV, 可以#VV)  (dep, 保温#VV, 缓解#VV)  (dobj, 缓解#VV, 疼痛#NN)
+        </parsing>
+
+        <tag>
+            有毒  性温  解毒消肿  软坚等症  主治等症  瘰疬等症  痰核  损伤等症  便秘等症  腹痛  咽喉等症  牙龈等症  肿痛等症  化痰等症  排毒  补钙  平衡盐分  洁胃  减肥  味道鲜美  口感宜人  治病抗癌  风靡全球  动脉疾病  硬化  防治疾病  心脑疾病  血管疾病  预防疾病  推动血行  防止瘀肿  粘液蛋白  体内胆固醇  减少积累  称为胃肠  降低胆固醇  葡甘聚糖  胆汁酸脂肪  分解吸收  抑制吸收  脂肪体外  排出体外  促进体外  酯和总量  胆固醇总量  降低总量  提高免疫力  肿瘤  防治癌症  提高纤维  提高机体  免疫力膳食  甘露糖癌细胞  酐对癌细胞  优良膳食  膳食纤维  刺激机体  杀灭癌细胞  药敏试验  试验敏感  结肠  贲门癌  化痰软坚  散肿解毒  肿块  防治癌瘤  能够癌瘤  糖尿病患者  理想食品  可溶性纤维  含有纤维  餐后血糖  抑制血糖  食品有效  精粉制品  降糖食品  升高食品  胰岛负担  减轻负担  古代疗法  民间疗法  材料酸痛  胃痛  肩膀酸痛  保温酸痛  缓解疼痛  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.魔芋中的97%是水分。剩下的3%主要营养成分是葡萄糖和甘露多糖，他们以1:2的比例相结合形成了植物纤维——魔芋葡甘聚糖。
+            2.植物纤维有溶于水和不溶于水的两种类型，魔芋甘聚糖是易溶于水的。
+            3.魔芋所含热量较低，碳水化合物、钙、磷、钾的含量较高。
+        </rawdata>
+
+        <segment>
+            魔芋  中  的  97%  是  水分  。  剩下  的  3%  主要  营养  成分  是  葡萄糖  和  甘露  多糖  ，  他们  以  1:2  的  比例  相  结合  形成  了  植物  纤维  ——  魔芋  葡甘  聚糖  。
+            植物  纤维  有  溶于  水  和  不  溶于  水  的  两  种  类型  ，  魔芋  甘  聚糖  是  易  溶于  水  的  。
+            魔芋  所含  热量  较  低  ，  碳水化合物  、  钙  、  磷  、  钾  的  含量  较  高  。
+        </segment>
+
+        <pos>
+            魔芋#NN  中#LC  的#DEG  97#CD  %#NN  是#VC  水分#NN    。#PU  剩下#VV  的#DEC  3#CD  %#NN  主要#AD  营养#VA  成分#NN  是#VC  葡萄糖#NN  和#CC  甘露#NN  多糖#NN  ，#PU  他们#PN  以#P  1:2#CD  的#DEG  比例#NN  相#AD  结合#VV  形成#VV  了#AS  植物#NN  纤维#NN  --#NN  --#NN  魔芋#NN  葡甘#NN  聚糖#NN    。#PU    。#PU
+            植物#NN  纤维#NN  有#VE  溶于#VV  水#NN  和#CC  不#AD  溶于#VV  水#NN  的#DEC  两#CD  种#M  类型#NN  ，#PU  魔芋#NR  甘#NR  聚糖#NN  是#VC  易#AD  溶于#VV  水#NN  的#DEC  。#PU
+            魔芋#NN  所含#NN  热量#NN  较#AD  低#VA  ，#PU  碳水化合物#NN  、#PU  钙#NN  、#PU  磷#NN  、#PU  钾#NN  的#DEG  含量#NN  较#AD  高#VA  。#PU
+        </pos>
+
+        <parsing>
+            (assmod, %#NN, 魔芋#NN)  (case, 魔芋#NN, 中#LC)  (case, 魔芋#NN, 的#DEG)  (nummod, %#NN, 97#CD)  (nsubj, 水分#NN, %#NN)  (cop, 水分#NN, 是#VC)  (root, ROOT#null, 水分#NN)   (relcl, %#NN, 剩下#VV)  (mark, 剩下#VV, 的#DEC)  (nummod, %#NN, 3#CD)  (nsubj, 营养#VA, %#NN)  (advmod, 营养#VA, 主要#AD)  (dep, 多糖#NN, 营养#VA)  (nsubj, 多糖#NN, 成分#NN)  (cop, 多糖#NN, 是#VC)  (conj, 多糖#NN, 葡萄糖#NN)  (cc, 多糖#NN, 和#CC)  (nn, 多糖#NN, 甘露#NN)  (root, ROOT#null, 多糖#NN)  (nsubj, 结合#VV, 他们#PN)  (case, 比例#NN, 以#P)  (assmod, 比例#NN, 1:2#CD)  (case, 1:2#CD, 的#DEG)  (prep, 结合#VV, 比例#NN)  (advmod, 结合#VV, 相#AD)  (conj, 多糖#NN, 结合#VV)  (dep, 多糖#NN, 形成#VV)  (asp, 形成#VV, 了#AS)  (nn, 聚糖#NN, 植物#NN)  (nn, 聚糖#NN, 纤维#NN)  (nn, 聚糖#NN, 魔芋#NN)  (nn, 聚糖#NN, 葡甘#NN)  (dobj, 形成#VV, 聚糖#NN)   (root, ROOT#null, null#null)
+            (nn, 纤维#NN, 植物#NN)  (dep, 有#VE, 纤维#NN)  (root, ROOT#null, 有#VE)  (relcl, 类型#NN, 溶于#VV)  (dobj, 溶于#VV, 水#NN)  (cc, 溶于#VV, 和#CC)  (neg, 溶于#VV, 不#AD)  (conj, 溶于#VV, 溶于#VV)  (dobj, 溶于#VV, 水#NN)  (mark, 溶于#VV, 的#DEC)  (nummod, 种#M, 两#CD)  (clf, 类型#NN, 种#M)  (dobj, 有#VE, 类型#NN)  (nn, 聚糖#NN, 魔芋#NR)  (nn, 聚糖#NN, 甘#NR)  (nsubj, 溶于#VV, 聚糖#NN)  (cop, 溶于#VV, 是#VC)  (advmod, 溶于#VV, 易#AD)  (conj, 有#VE, 溶于#VV)  (dobj, 溶于#VV, 水#NN)  (mark, 溶于#VV, 的#DEC)
+            (nn, 热量#NN, 魔芋#NN)  (nn, 热量#NN, 所含#NN)  (nsubj, 低#VA, 热量#NN)  (advmod, 低#VA, 较#AD)  (root, ROOT#null, 低#VA)  (conj, 钾#NN, 碳水化合物#NN)  (conj, 钾#NN, 钙#NN)  (conj, 钾#NN, 磷#NN)  (assmod, 含量#NN, 钾#NN)  (case, 钾#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (advmod, 高#VA, 较#AD)  (conj, 低#VA, 高#VA)
+        </parsing>
+
+        <tag>
+            葡萄糖  甘露多糖  植物聚糖  纤维聚糖  葡甘聚糖  形成聚糖  植物纤维  溶于类型  溶于水  所含热量  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            生魔芋有毒，必须煎煮3小时以上才可食用，且每次食量不宜过多；魔芋地下块茎可加工成魔芋粉供食用，并可制成魔芋豆腐、魔芋挂面、魔芋面包、魔芋肉片、果汁魔芋丝等多种食品。
+            每次不宜吃得过多，以每人每餐80克为宜。
+        </rawdata>
+
+        <segment>
+            生  魔芋  有毒  ，  必须  煎煮  3  小时  以上  才  可  食用  ，  且  每  次  食量  不  宜  过多  ；  魔芋  地下  块茎  可  加工  成  魔芋  粉供  食用  ，  并  可  制成  魔芋  豆腐  、  魔芋  挂面  、  魔芋  面包  、  魔芋  肉片  、  果汁  魔芋  丝  等  多  种  食品  。
+            每次  不  宜  吃得过多  ，  以  每  人  每  餐  80  克  为宜  。
+        </segment>
+
+        <pos>
+            生#VV  魔芋#NN  有毒#NN  ，#PU  必须#VV  煎煮#NN  3#CD  小时#NN  以上#LC  才#AD  可#VV  食用#VV  ，#PU  且#CC  每#DT  次#M  食量#NN  不#AD  宜#NR  过多#VV  ；#PU  魔芋#NR  地下#JJ  块茎#NN  可#VV  加工#NN  成#VV  魔芋#NN  粉供#NN  食用#VV  ，#PU  并#CC  可#VV  制成#VV  魔芋#NN  豆腐#NN  、#PU  魔芋#NN  挂面#NN  、#PU  魔芋#NN  面包#NN  、#PU  魔芋#NN  肉片#NN  、#PU  果汁#NN  魔芋#NN  丝#NN  等#ETC  多#CD  种#M  食品#NN  。#PU
+            每次#NR  不#AD  宜#NR  吃得过多#VV  ，#PU  以#P  每#DT  人#NN  每#DT  餐#NN  80#CD  克#M  为宜#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nfincl, 小时#NN, 生#VV)  (nn, 有毒#NN, 魔芋#NN)  (dobj, 生#VV, 有毒#NN)  (conj, 生#VV, 必须#VV)  (dobj, 必须#VV, 煎煮#NN)  (nummod, 小时#NN, 3#CD)  (loc, 可#VV, 小时#NN)  (case, 小时#NN, 以上#LC)  (advmod, 可#VV, 才#AD)  (root, ROOT#null, 可#VV)  (comod, 可#VV, 食用#VV)  (cc, 可#VV, 且#CC)  (det, 食量#NN, 每#DT)  (clf, 每#DT, 次#M)  (nsubj, 过多#VV, 食量#NN)  (neg, 过多#VV, 不#AD)  (prep, 过多#VV, 宜#NR)  (conj, 可#VV, 过多#VV)  (nn, 块茎#NN, 魔芋#NR)  (amod, 块茎#NN, 地下#JJ)  (nsubj, 可#VV, 块茎#NN)  (conj, 可#VV, 可#VV)  (dobj, 可#VV, 加工#NN)  (conj, 可#VV, 成#VV)  (nn, 粉供#NN, 魔芋#NN)  (dobj, 成#VV, 粉供#NN)  (conj, 可#VV, 食用#VV)  (cc, 可#VV, 并#CC)  (mmod, 制成#VV, 可#VV)  (dep, 可#VV, 制成#VV)  (nn, 丝#NN, 魔芋#NN)  (conj, 丝#NN, 豆腐#NN)  (nn, 丝#NN, 魔芋#NN)  (conj, 丝#NN, 挂面#NN)  (nn, 丝#NN, 魔芋#NN)  (conj, 丝#NN, 面包#NN)  (nn, 丝#NN, 魔芋#NN)  (conj, 丝#NN, 肉片#NN)  (nn, 丝#NN, 果汁#NN)  (nn, 丝#NN, 魔芋#NN)  (nn, 食品#NN, 丝#NN)  (etc, 丝#NN, 等#ETC)  (nummod, 种#M, 多#CD)  (clf, 食品#NN, 种#M)  (dobj, 制成#VV, 食品#NN)
+            (nsubj, 吃得过多#VV, 每次#NR)  (xsubj, 为宜#VV, 每次#NR)  (neg, 吃得过多#VV, 不#AD)  (prep, 吃得过多#VV, 宜#NR)  (root, ROOT#null, 吃得过多#VV)  (case, 克#M, 以#P)  (det, 人#NN, 每#DT)  (nn, 餐#NN, 人#NN)  (det, 餐#NN, 每#DT)  (dep, 克#M, 餐#NN)  (nummod, 克#M, 80#CD)  (prep, 为宜#VV, 克#M)  (ccomp, 吃得过多#VV, 为宜#VV)
+        </parsing>
+
+        <tag>
+            必须煎煮  地下块茎  制成食品  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/071037081553.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\208 魔芋.jpg
+    </picturelocalurl>
+
+</content>

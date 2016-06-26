@@ -1,0 +1,164 @@
+<content>
+
+    <id>
+        925
+    </id>
+
+    <foodname>
+        华青鸡
+    </foodname>
+
+    <firstcategory>
+        禽蛋类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            感冒伴有头痛，乏力，发热的人及内火偏旺和痰湿偏重之人忌食鸡肉，鸡汤。肥胖症患者和患有热毒疖肿之人忌食；高血压病人和血脂偏高者忌食。鸡肉鸡汤中含脂肪较多，会使血中胆固醇进一步升高，引起动脉硬化，冠心病，使血压持续升高，对病情不利；患有胆囊炎、胆石症的人忌食．以免刺激胆囊，引起胆绞痛发作。
+        </rawdata>
+
+        <segment>
+            感冒  伴有  头痛  ，  乏力  ，  发热  的  人  及  内  火  偏  旺  和  痰湿  偏重  之  人  忌食  鸡肉  ，  鸡汤  。  肥胖症  患者  和  患有  热毒  疖肿  之  人  忌食  ；  高血压  病人  和  血脂  偏高者  忌食  。  鸡肉  鸡汤  中  含  脂肪  较  多  ，  会  使  血中  胆固醇  进一步  升高  ，  引起  动脉硬化  ，  冠心病  ，  使  血压  持续  升高  ，  对  病情  不利  ；  患有  胆囊炎  、  胆石症  的  人  忌食  ．  以免  刺激  胆囊  ，  引起  胆绞痛  发作  。
+        </segment>
+
+        <pos>
+            感冒#NN  伴有#NN  头痛#VV  ，#PU  乏力#NN  ，#PU  发热#NN  的#DEG  人#NN  及#CC  内#NN  火#NN  偏#AD  旺#VV  和#CC  痰湿#VV  偏重#NN  之#DEG  人#NN  忌食#NN  鸡肉#NN  ，#PU  鸡汤#VV    。#PU  肥胖症#NN  患者#NN  和#CC  患有#NN  热毒#NN  疖肿#NN  之#DEG  人#NN  忌食#VV  ；#PU  高血压#NN  病人#NN  和#CC  血脂#NN  偏高者#NN  忌食#VV    。#PU  鸡肉#NN  鸡汤#NN  中#LC  含#VV  脂肪#NN  较#AD  多#VA  ，#PU  会#VV  使#VV  血中#NN  胆固醇#NN  进一步#AD  升高#VV  ，#PU  引起#VV  动脉硬化#NN  ，#PU  冠心病#NN  ，#PU  使#VV  血压#NN  持续#AD  升高#VV  ，#PU  对#P  病情#NN  不利#VA  ；#PU  患有#VV  胆囊炎#NN  、#PU  胆石症#VA  的#DEC  人#NN  忌食#NN  ．#PU  以免#VV  刺激#VV  胆囊#NN  ，#PU  引起#VV  胆绞痛#NN  发作#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 伴有#NN, 感冒#NN)  (nsubj, 头痛#VV, 伴有#NN)  (root, ROOT#null, 头痛#VV)  (nsubj, 旺#VV, 乏力#NN)  (assmod, 火#NN, 发热#NN)  (case, 发热#NN, 的#DEG)  (conj, 火#NN, 人#NN)  (cc, 火#NN, 及#CC)  (nn, 火#NN, 内#NN)  (nsubj, 旺#VV, 火#NN)  (advmod, 旺#VV, 偏#AD)  (ccomp, 头痛#VV, 旺#VV)  (cc, 旺#VV, 和#CC)  (dep, 旺#VV, 痰湿#VV)  (assmod, 鸡肉#NN, 偏重#NN)  (case, 偏重#NN, 之#DEG)  (nn, 鸡肉#NN, 人#NN)  (nn, 鸡肉#NN, 忌食#NN)  (dobj, 痰湿#VV, 鸡肉#NN)  (conj, 旺#VV, 鸡汤#VV)   (nn, 患者#NN, 肥胖症#NN)  (conj, 疖肿#NN, 患者#NN)  (cc, 疖肿#NN, 和#CC)  (nn, 疖肿#NN, 患有#NN)  (nn, 疖肿#NN, 热毒#NN)  (assmod, 人#NN, 疖肿#NN)  (case, 疖肿#NN, 之#DEG)  (nsubj, 忌食#VV, 人#NN)  (root, ROOT#null, 忌食#VV)  (nn, 偏高者#NN, 高血压#NN)  (conj, 偏高者#NN, 病人#NN)  (cc, 偏高者#NN, 和#CC)  (nn, 偏高者#NN, 血脂#NN)  (nsubj, 忌食#VV, 偏高者#NN)  (ccomp, 忌食#VV, 忌食#VV)   (nsubj, 含#VV, 鸡肉#NN)  (loc, 含#VV, 鸡汤#NN)  (case, 鸡汤#NN, 中#LC)  (dep, 以免#VV, 含#VV)  (nsubj, 多#VA, 脂肪#NN)  (advmod, 多#VA, 较#AD)  (relcl, 忌食#NN, 多#VA)  (mmod, 使#VV, 会#VV)  (dep, 多#VA, 使#VV)  (nn, 胆固醇#NN, 血中#NN)  (dobj, 使#VV, 胆固醇#NN)  (advmod, 升高#VV, 进一步#AD)  (dep, 使#VV, 升高#VV)  (conj, 使#VV, 引起#VV)  (dobj, 引起#VV, 动脉硬化#NN)  (nsubj, 使#VV, 冠心病#NN)  (conj, 多#VA, 使#VV)  (dobj, 使#VV, 血压#NN)  (advmod, 升高#VV, 持续#AD)  (dep, 使#VV, 升高#VV)  (case, 病情#NN, 对#P)  (prep, 不利#VA, 病情#NN)  (conj, 使#VV, 不利#VA)  (conj, 使#VV, 患有#VV)  (dobj, 患有#VV, 胆囊炎#NN)  (conj, 多#VA, 胆石症#VA)  (mark, 多#VA, 的#DEC)  (nn, 忌食#NN, 人#NN)  (dobj, 含#VV, 忌食#NN)  (root, ROOT#null, 以免#VV)  (ccomp, 以免#VV, 刺激#VV)  (dobj, 刺激#VV, 胆囊#NN)  (conj, 刺激#VV, 引起#VV)  (dobj, 引起#VV, 胆绞痛#NN)  (conj, 引起#VV, 发作#VV)
+        </parsing>
+
+        <tag>
+            感冒伴有头痛  乏力  发热  内火偏旺  痰湿偏重  忌食鸡肉  鸡汤  肥胖症  患者  患有  热毒疖肿  忌食  高血压病人  血脂偏高者  忌食  鸡肉鸡汤中含脂肪较多  会使血中胆固醇进一步升高  引起动脉硬化  冠心病  使血压持续升高  病情不利  患有  胆囊炎  胆石症  忌食  以免刺激胆囊  引起胆绞痛发作  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            湿热质体质应忌食或少食;
+        </rawdata>
+
+        <segment>
+            湿热  质  体质  应  忌食  或少  食  ;
+        </segment>
+
+        <pos>
+            湿热#NN  质#NN  体质#NN  应#VV  忌食#VV  或少#NN  食#NN  ;#NN
+        </pos>
+
+        <parsing>
+            (nn, 体质#NN, 湿热#NN)  (nn, 体质#NN, 质#NN)  (nsubj, 忌食#VV, 体质#NN)  (mmod, 忌食#VV, 应#VV)  (root, ROOT#null, 忌食#VV)  (nn, ;#NN, 或少#NN)  (nn, ;#NN, 食#NN)  (dobj, 忌食#VV, ;#NN)
+        </parsing>
+
+        <tag>
+            湿热质体质应  忌食或少食  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            鸡肉含丰富蛋白质，其脂肪中含不饱和脂肪酸，故是老年人和心血管疾病患者较好的蛋白质食品。对体质虚弱，病后或产后用鸡肉或鸡汤作补品食用更为适宜，尤以乌骨鸡为佳。可用于虚劳瘦弱、骨蒸潮热、脾虚泄泻、消渴、崩漏、赤白带、遗精等。鸡翅膀、鸡脚均能动风、生痰、助火，故肝阳上亢者忌食。
+        </rawdata>
+
+        <segment>
+            鸡肉  含  丰富  蛋白质  ，  其  脂肪  中  含  不  饱和  脂肪酸  ，  故  是  老年人  和  心血管  疾病  患者  较好  的  蛋白质  食品  。  对  体质  虚弱  ，  病  后  或  产后  用  鸡肉  或  鸡汤  作  补品  食用  更为  适宜  ，  尤以  乌骨鸡  为佳  。  可  用于  虚  劳  瘦弱  、  骨  蒸  潮热  、  脾虚  泄泻  、  消渴  、  崩漏  、  赤  白带  、  遗精  等  。  鸡  翅膀  、  鸡脚  均  能  动  风  、  生痰  、  助火  ，  故肝  阳  上  亢者  忌食  。
+        </segment>
+
+        <pos>
+            鸡肉#NN  含#VV  丰富#VA  蛋白质#VA  ，#PU  其#PN  脂肪#NN  中#LC  含#VV  不#AD  饱和#VV  脂肪酸#NN  ，#PU  故#AD  是#VC  老年人#NN  和#CC  心血管#NN  疾病#NN  患者#NN  较好#AD  的#DEC  蛋白质#JJ  食品#NN    。#PU  对#P  体质#NN  虚弱#NN  ，#PU  病#NN  后#LC  或#CC  产后#NN  用#P  鸡肉#NN  或#CC  鸡汤#NN  作#VV  补品#NN  食用#VV  更为#AD  适宜#VA  ，#PU  尤以#VV  乌骨鸡#NN  为佳#NN    。#PU  可#VV  用于#VV  虚#AD  劳#NN  瘦弱#VV  、#PU  骨#AD  蒸#VV  潮热#NR  、#PU  脾虚#NR  泄泻#NR  、#PU  消渴#NR  、#PU  崩漏#NR  、#PU  赤#NR  白带#NR  、#PU  遗精#NR  等#ETC    。#PU  鸡#NN  翅膀#NN  、#PU  鸡脚#NN  均#AD  能#VV  动#VV  风#NN  、#PU  生痰#NN  、#PU  助火#NN  ，#PU  故肝#NN  阳#NN  上#LC  亢者#AD  忌食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 含#VV, 鸡肉#NN)  (root, ROOT#null, 含#VV)  (relcl, 食品#NN, 丰富#VA)  (comod, 丰富#VA, 蛋白质#VA)  (nsubj, 饱和#VV, 其#PN)  (loc, 饱和#VV, 脂肪#NN)  (case, 脂肪#NN, 中#LC)  (mmod, 饱和#VV, 含#VV)  (neg, 饱和#VV, 不#AD)  (ccomp, 丰富#VA, 饱和#VV)  (dobj, 饱和#VV, 脂肪酸#NN)  (advmod, 患者#NN, 故#AD)  (cop, 患者#NN, 是#VC)  (conj, 疾病#NN, 老年人#NN)  (cc, 疾病#NN, 和#CC)  (nn, 疾病#NN, 心血管#NN)  (nn, 患者#NN, 疾病#NN)  (dep, 饱和#VV, 患者#NN)  (advmod, 丰富#VA, 较好#AD)  (mark, 丰富#VA, 的#DEC)  (amod, 食品#NN, 蛋白质#JJ)  (dobj, 含#VV, 食品#NN)   (case, 虚弱#NN, 对#P)  (nn, 虚弱#NN, 体质#NN)  (prep, 作#VV, 虚弱#NN)  (loc, 作#VV, 病#NN)  (case, 病#NN, 后#LC)  (dep, 病#NN, 或#CC)  (dep, 病#NN, 产后#NN)  (case, 鸡汤#NN, 用#P)  (conj, 鸡汤#NN, 鸡肉#NN)  (cc, 鸡汤#NN, 或#CC)  (prep, 作#VV, 鸡汤#NN)  (dep, 适宜#VA, 作#VV)  (dobj, 作#VV, 补品#NN)  (mmod, 适宜#VA, 食用#VV)  (advmod, 适宜#VA, 更为#AD)  (root, ROOT#null, 适宜#VA)  (dep, 适宜#VA, 尤以#VV)  (nn, 为佳#NN, 乌骨鸡#NN)  (dobj, 尤以#VV, 为佳#NN)   (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (advmod, 瘦弱#VV, 虚#AD)  (dep, 瘦弱#VV, 劳#NN)  (ccomp, 用于#VV, 瘦弱#VV)  (advmod, 蒸#VV, 骨#AD)  (conj, 瘦弱#VV, 蒸#VV)  (conj, 遗精#NR, 潮热#NR)  (nn, 遗精#NR, 脾虚#NR)  (conj, 遗精#NR, 泄泻#NR)  (conj, 遗精#NR, 消渴#NR)  (conj, 遗精#NR, 崩漏#NR)  (nn, 遗精#NR, 赤#NR)  (conj, 遗精#NR, 白带#NR)  (dobj, 蒸#VV, 遗精#NR)  (etc, 遗精#NR, 等#ETC)   (nn, 鸡脚#NN, 鸡#NN)  (conj, 鸡脚#NN, 翅膀#NN)  (nsubj, 动#VV, 鸡脚#NN)  (advmod, 动#VV, 均#AD)  (mmod, 动#VV, 能#VV)  (root, ROOT#null, 动#VV)  (conj, 助火#NN, 风#NN)  (conj, 助火#NN, 生痰#NN)  (dobj, 动#VV, 助火#NN)  (nn, 阳#NN, 故肝#NN)  (loc, 忌食#VV, 阳#NN)  (case, 阳#NN, 上#LC)  (advmod, 忌食#VV, 亢者#AD)  (conj, 动#VV, 忌食#VV)
+        </parsing>
+
+        <tag>
+            食品丰富  蛋白质丰富  饱和脂肪酸  老年人  心血管疾病  疾病患者  蛋白质食品  体质虚弱  鸡汤  鸡肉  乌骨鸡为佳  用于  遗精  潮热  泄泻  消渴  崩漏  白带  鸡脚  翅膀  助火  生痰  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            鸡肉蛋白质的含量比例较高，种类多，而且消化率高，很容易被人体吸收利用，有增强体力、强壮身体的作用。鸡肉含有对人体生长发育有重要作用的磷脂类，是中国人膳食结构中脂肪和磷脂的重要来源之一。鸡肉对营养不良、畏寒怕冷、乏力疲劳、月经不调、贫血、虚弱等有很好的食疗作用。祖国医学认为，鸡肉有温中益气、补虚填精、健脾胃、活血脉、强筋骨的功效。
+        </rawdata>
+
+        <segment>
+            鸡肉  蛋白质  的  含量  比例  较  高  ，  种类  多  ，  而且  消化率  高  ，  很容易  被  人体  吸收  利用  ，  有  增强  体力  、  强壮  身体  的  作用  。  鸡肉  含有  对  人体  生长  发育  有  重要  作用  的  磷脂  类  ，  是  中国人  膳食  结构  中  脂肪  和  磷脂  的  重要  来源  之一  。  鸡肉  对  营养  不良  、  畏  寒  怕冷  、  乏力  疲劳  、  月经  不调  、  贫血  、  虚弱  等  有  很  好  的  食疗  作用  。  祖国  医学  认为  ，  鸡肉  有  温  中  益气  、  补  虚  填  精  、  健脾胃  、  活  血脉  、  强  筋骨  的  功效  。
+        </segment>
+
+        <pos>
+            鸡肉#NN  蛋白质#NN  的#DEG  含量#NN  比例#NN  较#AD  高#VA  ，#PU  种类#NN  多#VA  ，#PU  而且#CC  消化率#NN  高#VA  ，#PU  很容易#NN  被#SB  人体#VV  吸收#VV  利用#VV  ，#PU  有#VE  增强#VV  体力#NN  、#PU  强壮#NN  身体#NN  的#DEC  作用#NN    。#PU  鸡肉#NN  含有#NN  对#P  人体#NN  生长#NN  发育#VV  有#VE  重要#JJ  作用#NN  的#DEC  磷脂#CD  类#M  ，#PU  是#VC  中国人#NN  膳食#NN  结构#NN  中#LC  脂肪#NN  和#CC  磷脂#NN  的#DEG  重要#JJ  来源#NN  之一#NN    。#PU  鸡肉#NN  对#P  营养#VA  不良#JJ  、#PU  畏#VV  寒#JJ  怕冷#NN  、#PU  乏力#AD  疲劳#VA  、#PU  月经#VA  不调#NN  、#PU  贫血#NN  、#PU  虚弱#NN  等#ETC  有#VE  很#AD  好#VA  的#DEC  食疗#JJ  作用#NN    。#PU  祖国#NN  医学#NN  认为#VV  ，#PU  鸡肉#AD  有#VE  温#NN  中#LC  益气#NN  、#PU  补#NN  虚#AD  填#VV  精#JJ  、#PU  健脾胃#JJ  、#PU  活#JJ  血脉#NN  、#PU  强#JJ  筋骨#NN  的#DEC  功效#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 蛋白质#NN, 鸡肉#NN)  (assmod, 含量#NN, 蛋白质#NN)  (case, 蛋白质#NN, 的#DEG)  (nsubj, 高#VA, 含量#NN)  (nsubj, 高#VA, 比例#NN)  (advmod, 高#VA, 较#AD)  (root, ROOT#null, 高#VA)  (nsubj, 多#VA, 种类#NN)  (conj, 高#VA, 多#VA)  (cc, 高#VA, 而且#CC)  (nsubj, 高#VA, 消化率#NN)  (conj, 高#VA, 高#VA)  (nsubj, 人体#VV, 很容易#NN)  (auxpass, 人体#VV, 被#SB)  (conj, 高#VA, 人体#VV)  (dep, 人体#VV, 吸收#VV)  (dep, 吸收#VV, 利用#VV)  (conj, 高#VA, 有#VE)  (relcl, 作用#NN, 增强#VV)  (conj, 身体#NN, 体力#NN)  (nn, 身体#NN, 强壮#NN)  (dobj, 增强#VV, 身体#NN)  (mark, 增强#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (nn, 含有#NN, 鸡肉#NN)  (nsubj, 发育#VV, 含有#NN)  (case, 生长#NN, 对#P)  (nn, 生长#NN, 人体#NN)  (prep, 发育#VV, 生长#NN)  (root, ROOT#null, 发育#VV)  (dep, 类#M, 有#VE)  (amod, 作用#NN, 重要#JJ)  (dobj, 有#VE, 作用#NN)  (mark, 有#VE, 的#DEC)  (nummod, 类#M, 磷脂#CD)  (range, 发育#VV, 类#M)  (cop, 之一#NN, 是#VC)  (nn, 结构#NN, 中国人#NN)  (nn, 结构#NN, 膳食#NN)  (dep, 磷脂#NN, 结构#NN)  (case, 结构#NN, 中#LC)  (conj, 磷脂#NN, 脂肪#NN)  (cc, 磷脂#NN, 和#CC)  (assmod, 之一#NN, 磷脂#NN)  (case, 磷脂#NN, 的#DEG)  (amod, 之一#NN, 重要#JJ)  (nn, 之一#NN, 来源#NN)  (conj, 发育#VV, 之一#NN)   (nsubj, 有#VE, 鸡肉#NN)  (case, 虚弱#NN, 对#P)  (relcl, 虚弱#NN, 营养#VA)  (amod, 虚弱#NN, 不良#JJ)  (nfincl, 虚弱#NN, 畏#VV)  (amod, 怕冷#NN, 寒#JJ)  (dobj, 畏#VV, 怕冷#NN)  (advmod, 疲劳#VA, 乏力#AD)  (conj, 畏#VV, 疲劳#VA)  (dep, 疲劳#VA, 月经#VA)  (conj, 虚弱#NN, 不调#NN)  (conj, 虚弱#NN, 贫血#NN)  (prep, 有#VE, 虚弱#NN)  (etc, 虚弱#NN, 等#ETC)  (root, ROOT#null, 有#VE)  (advmod, 好#VA, 很#AD)  (relcl, 作用#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, 作用#NN, 食疗#JJ)  (dobj, 有#VE, 作用#NN)   (nn, 医学#NN, 祖国#NN)  (nsubj, 认为#VV, 医学#NN)  (xsubj, 有#VE, 医学#NN)  (root, ROOT#null, 认为#VV)  (advmod, 有#VE, 鸡肉#AD)  (ccomp, 认为#VV, 有#VE)  (loc, 填#VV, 温#NN)  (case, 温#NN, 中#LC)  (conj, 补#NN, 益气#NN)  (nsubj, 填#VV, 补#NN)  (advmod, 填#VV, 虚#AD)  (relcl, 功效#NN, 填#VV)  (dep, 筋骨#NN, 精#JJ)  (conj, 精#JJ, 健脾胃#JJ)  (amod, 血脉#NN, 活#JJ)  (conj, 精#JJ, 血脉#NN)  (dep, 精#JJ, 强#JJ)  (dobj, 填#VV, 筋骨#NN)  (mark, 填#VV, 的#DEC)  (dobj, 有#VE, 功效#NN)
+        </parsing>
+
+        <tag>
+            鸡肉蛋白质  体力  强壮身体  增强身体  鸡肉含有  人体生长  发育  中国人结构  膳食结构  磷脂  脂肪  虚弱营养  不良虚弱  寒怕冷  不调  贫血  祖国医学  填功效  活血脉  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  明目  补气  温中  补阴  改善生长发育  缓解体力疲劳
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            1.鸡肉可热炒，炖汤，凉拌;
+            2.鸡肉的营养高于鸡汤;
+            3.鸡屁股是淋巴最为集中的地方，也是储存病菌，病毒和致癌物的仓库，应弃掉不要。
+        </rawdata>
+
+        <segment>
+            鸡肉  可  热炒  ，  炖汤  ，  凉拌  ;
+            鸡肉  的  营养  高于  鸡汤  ;
+            鸡  屁股  是  淋巴  最为  集中  的  地方  ，  也  是  储存  病菌  ，  病毒  和  致癌物  的  仓库  ，  应  弃掉  不要  。
+        </segment>
+
+        <pos>
+            鸡肉#NR  可#VV  热炒#VV  ，#PU  炖汤#NN  ，#PU  凉拌#AD  ;#VV
+            鸡肉#VA  的#DEC  营养#VA  高于#VV  鸡汤#NN  ;#NN
+            鸡#NN  屁股#NN  是#VC  淋巴#NN  最为#AD  集中#VV  的#DEC  地方#NN  ，#PU  也#AD  是#VC  储存#VV  病菌#NN  ，#PU  病毒#NN  和#CC  致癌物#NN  的#DEC  仓库#NN  ，#PU  应#VV  弃掉#NN  不要#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 热炒#VV, 鸡肉#NR)  (mmod, 热炒#VV, 可#VV)  (root, ROOT#null, 热炒#VV)  (nsubj, ;#VV, 炖汤#NN)  (advmod, ;#VV, 凉拌#AD)  (ccomp, 热炒#VV, ;#VV)
+            (nsubj, 高于#VV, 鸡肉#VA)  (mark, 鸡肉#VA, 的#DEC)  (dep, 高于#VV, 营养#VA)  (root, ROOT#null, 高于#VV)  (nn, ;#NN, 鸡汤#NN)  (dobj, 高于#VV, ;#NN)
+            (nn, 屁股#NN, 鸡#NN)  (nsubj, 地方#NN, 屁股#NN)  (cop, 地方#NN, 是#VC)  (nsubj, 集中#VV, 淋巴#NN)  (advmod, 集中#VV, 最为#AD)  (relcl, 地方#NN, 集中#VV)  (mark, 集中#VV, 的#DEC)  (root, ROOT#null, 地方#NN)  (advmod, 仓库#NN, 也#AD)  (cop, 仓库#NN, 是#VC)  (relcl, 仓库#NN, 储存#VV)  (dobj, 储存#VV, 病菌#NN)  (conj, 致癌物#NN, 病毒#NN)  (cc, 致癌物#NN, 和#CC)  (conj, 储存#VV, 致癌物#NN)  (mark, 储存#VV, 的#DEC)  (conj, 地方#NN, 仓库#NN)  (conj, 地方#NN, 应#VV)  (nn, 不要#NN, 弃掉#NN)  (dobj, 应#VV, 不要#NN)
+        </parsing>
+
+        <tag>
+            热炒  高于  集中地方  储存仓库  储存病菌  致癌物  病毒  弃掉不要  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/cb/41/82379_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\925 华青鸡.jpg
+    </picturelocalurl>
+
+</content>

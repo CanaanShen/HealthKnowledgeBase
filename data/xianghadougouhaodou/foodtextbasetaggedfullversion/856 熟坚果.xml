@@ -1,0 +1,138 @@
+<content>
+
+    <id>
+        856
+    </id>
+
+    <foodname>
+        熟坚果
+    </foodname>
+
+    <firstcategory>
+        水果类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            吃坚果每天适宜吃30克左右，如果不小心多吃了坚果，就要减小一日三餐用油量和饮食量。胆功能严重不良者应慎食。
+        </rawdata>
+
+        <segment>
+            吃  坚果  每天  适宜  吃  30  克  左右  ，  如果  不小心  多  吃  了  坚果  ，  就  要  减小  一  日  三  餐  用  油量  和  饮食量  。  胆  功能  严重  不良  者  应  慎食  。
+        </segment>
+
+        <pos>
+            吃#VV  坚果#NN  每天#NN  适宜#VA  吃#VV  30#CD  克#M  左右#LC  ，#PU  如果#CS  不小心#AD  多#AD  吃#VV  了#AS  坚果#NN  ，#PU  就#P  要#VV  减小#VV  一#CD  日#M  三#CD  餐#NN  用#VV  油量#NN  和#CC  饮食量#NN    。#PU  胆#NN  功能#NN  严重#JJ  不良#JJ  者#NN  应#VV  慎食#VV    。#PU
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 吃#VV)  (nn, 每天#NN, 坚果#NN)  (dobj, 吃#VV, 每天#NN)  (conj, 吃#VV, 适宜#VA)  (conj, 吃#VV, 吃#VV)  (nummod, 克#M, 30#CD)  (loc, 吃#VV, 克#M)  (case, 克#M, 左右#LC)  (advmod, 吃#VV, 如果#CS)  (advmod, 吃#VV, 不小心#AD)  (advmod, 吃#VV, 多#AD)  (dep, 吃#VV, 吃#VV)  (asp, 吃#VV, 了#AS)  (dobj, 吃#VV, 坚果#NN)  (case, 减小#VV, 就#P)  (mmod, 减小#VV, 要#VV)  (prep, 用#VV, 减小#VV)  (nummod, 日#M, 一#CD)  (clf, 餐#NN, 日#M)  (nummod, 餐#NN, 三#CD)  (dobj, 减小#VV, 餐#NN)  (dep, 吃#VV, 用#VV)  (conj, 饮食量#NN, 油量#NN)  (cc, 饮食量#NN, 和#CC)  (dobj, 用#VV, 饮食量#NN)   (nn, 功能#NN, 胆#NN)  (nn, 者#NN, 功能#NN)  (amod, 者#NN, 严重#JJ)  (amod, 者#NN, 不良#JJ)  (nsubj, 慎食#VV, 者#NN)  (dep, 慎食#VV, 应#VV)  (root, ROOT#null, 慎食#VV)
+        </parsing>
+
+        <tag>
+            吃坚果每天适宜  吃30克左右  如果不小心多吃  坚果  要减小一日三餐用油量  饮食量  胆功能严重不良者应  慎食  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            适宜健康体质平和质，特禀体质，阳虚体质，瘀血体质
+        </rawdata>
+
+        <segment>
+            适宜  健康  体质  平和质  ，  特禀  体质  ，  阳虚  体质  ，  瘀血  体质
+        </segment>
+
+        <pos>
+            适宜#VV  健康#JJ  体质#NN  平和质#NN  ，#PU  特禀#VV  体质#NN  ，#PU  阳虚#VV  体质#NN  ，#PU  瘀血#VV  体质#NN
+        </pos>
+
+        <parsing>
+            (root, ROOT#null, 适宜#VV)  (amod, 体质#NN, 健康#JJ)  (nn, 平和质#NN, 体质#NN)  (dobj, 适宜#VV, 平和质#NN)  (conj, 适宜#VV, 特禀#VV)  (dobj, 特禀#VV, 体质#NN)  (conj, 适宜#VV, 阳虚#VV)  (dobj, 阳虚#VV, 体质#NN)  (conj, 适宜#VV, 瘀血#VV)  (dobj, 瘀血#VV, 体质#NN)
+        </parsing>
+
+        <tag>
+            适宜  健康体质平和质  特禀体质  阳虚体质  瘀血体质  
+        </tag>
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            成熟的坚果
+        </rawdata>
+
+        <segment>
+            成熟  的  坚果
+        </segment>
+
+        <pos>
+            成熟#VA  的#DEC  坚果#NN
+        </pos>
+
+        <parsing>
+            (relcl, 坚果#NN, 成熟#VA)  (mark, 成熟#VA, 的#DEC)  (root, ROOT#null, 坚果#NN)
+        </parsing>
+
+        <tag>
+            坚果成熟  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            富含蛋白质，具有维持钾钠平衡;消除水肿。提高免疫力。调低血压 ，缓冲贫血，有利于生长发育。
+        </rawdata>
+
+        <segment>
+            富含  蛋白质  ，  具有  维持  钾  钠  平衡  ;  消除  水肿  。  提高  免疫力  。  调低  血压  ，  缓冲  贫血  ，  有利于  生长  发育  。
+        </segment>
+
+        <pos>
+            富含#NR  蛋白质#VV  ，#PU  具有#VV  维持#VV  钾#NN  钠#NN  平衡#NN  ;#NN  消除#VV  水肿#NN    。#PU  提高#VV  免疫力#NN    。#PU  调低#VV  血压#NN  ，#PU  缓冲#VV  贫血#NN  ，#PU  有利于#VV  生长#NN  发育#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 蛋白质#VV, 富含#NR)  (root, ROOT#null, 蛋白质#VV)  (conj, 消除#VV, 具有#VV)  (nfincl, ;#NN, 维持#VV)  (nn, 平衡#NN, 钾#NN)  (nn, 平衡#NN, 钠#NN)  (dobj, 维持#VV, 平衡#NN)  (dobj, 具有#VV, ;#NN)  (ccomp, 蛋白质#VV, 消除#VV)  (dobj, 消除#VV, 水肿#NN)   (root, ROOT#null, 提高#VV)  (dobj, 提高#VV, 免疫力#NN)   (root, ROOT#null, 调低#VV)  (dobj, 调低#VV, 血压#NN)  (conj, 调低#VV, 缓冲#VV)  (dobj, 缓冲#VV, 贫血#NN)  (conj, 调低#VV, 有利于#VV)  (nn, 发育#NN, 生长#NN)  (dobj, 有利于#VV, 发育#NN)
+        </parsing>
+
+        <tag>
+            维持平衡  消除水肿  提高免疫力  调低血压  缓冲贫血  生长发育  有利于发育  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe0.hoto.cn/pic/fooddata/86/41/82310_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\856 熟坚果.jpg
+    </picturelocalurl>
+
+</content>

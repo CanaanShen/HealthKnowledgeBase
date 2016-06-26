@@ -1,0 +1,174 @@
+<content>
+
+    <id>
+        1427
+    </id>
+
+    <foodname>
+        粳米粥
+    </foodname>
+
+    <firstcategory>
+        米面豆乳类
+    </firstcategory>
+
+    <secondcategory>
+        
+    </secondcategory>
+
+    <alias>
+        
+    </alias>
+
+    <season>
+        
+    </season>
+
+    <unsuit>
+        <rawdata>
+            粳米做成粥更易于消化吸收，但制作米粥时千万不要放碱，因为米是人体维生素B1的重要来源，碱能破坏米中的维生素B1，会导致B1缺乏，出现“脚气病”；制作米饭时一定要“蒸”，不要“捞”，因为捞饭会损失掉大量维生素；平时不宜多食精制后的细粮
+        </rawdata>
+
+        <segment>
+            粳米  做成  粥更  易于  消化  吸收  ，  但  制作  米粥  时  千万  不  要  放  碱  ，  因为  米  是  人体  维生素B1  的  重要  来源  ，  碱  能  破坏  米  中  的  维生素B1  ，  会  导致  B1  缺乏  ，  出现  “  脚气病  ”  ；  制作  米饭  时  一定  要  “  蒸  ”  ，  不  要  “  捞  ”  ，  因为  捞饭  会  损失  掉  大量  维生素  ；  平时  不  宜  多  食  精制  后  的  细粮
+        </segment>
+
+        <pos>
+            粳米#NN  做成#NN  粥更#NN  易于#NN  消化#NN  吸收#VV  ，#PU  但#AD  制作#VV  米粥#NN  时#LC  千万#CD  不#AD  要#VV  放#VV  碱#NN  ，#PU  因为#P  米#M  是#VC  人体#VV  维生素B1#CD  的#DEC  重要#JJ  来源#NN  ，#PU  碱#NR  能#VV  破坏#VV  米#M  中#NN  的#DEC  维生素B1#CD  ，#PU  会#VV  导致#VV  B1#CD  缺乏#VV  ，#PU  出现#VV  ``#NN  脚气病#NN  ''#NN  ；#PU  制作#VV  米饭#NN  时#LC  一定#AD  要#VV  ``#NN  蒸#NN  ''#NN  ，#PU  不#AD  要#VV  ``#NN  捞#NN  ''#NN  ，#PU  因为#P  捞饭#NR  会#VV  损失#NN  掉#VV  大量#CD  维生素#NN  ；#PU  平时#AD  不#AD  宜#NR  多#CD  食#NN  精制#JJ  后#NN  的#DEG  细粮#CD
+        </pos>
+
+        <parsing>
+            (nn, 消化#NN, 粳米#NN)  (nn, 消化#NN, 做成#NN)  (nn, 消化#NN, 粥更#NN)  (nn, 消化#NN, 易于#NN)  (nsubj, 吸收#VV, 消化#NN)  (root, ROOT#null, 吸收#VV)  (advmod, 制作#VV, 但#AD)  (loc, 放#VV, 制作#VV)  (dobj, 制作#VV, 米粥#NN)  (case, 制作#VV, 时#LC)  (nsubj, 放#VV, 千万#CD)  (neg, 放#VV, 不#AD)  (mmod, 放#VV, 要#VV)  (ccomp, 吸收#VV, 放#VV)  (dobj, 放#VV, 碱#NN)  (case, 来源#NN, 因为#P)  (clf, 来源#NN, 米#M)  (conj, 人体#VV, 是#VC)  (cop, 人体#VV, 是#VC)  (relcl, 来源#NN, 人体#VV)  (range, 人体#VV, 维生素B1#CD)  (mark, 人体#VV, 的#DEC)  (amod, 来源#NN, 重要#JJ)  (prep, 能#VV, 来源#NN)  (nsubj, 能#VV, 碱#NR)  (conj, 放#VV, 能#VV)  (dep, 维生素B1#CD, 破坏#VV)  (dep, 中#NN, 米#M)  (dobj, 破坏#VV, 中#NN)  (mark, 破坏#VV, 的#DEC)  (range, 能#VV, 维生素B1#CD)  (conj, 能#VV, 会#VV)  (rcomp, 会#VV, 导致#VV)  (dep, 会#VV, B1#CD)  (conj, 会#VV, 缺乏#VV)  (conj, 能#VV, 出现#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 脚气病#NN)  (dobj, 出现#VV, ''#NN)  (loc, 要#VV, 制作#VV)  (dobj, 制作#VV, 米饭#NN)  (case, 制作#VV, 时#LC)  (advmod, 要#VV, 一定#AD)  (conj, 能#VV, 要#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 蒸#NN)  (dobj, 要#VV, ''#NN)  (neg, 要#VV, 不#AD)  (conj, 能#VV, 要#VV)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 捞#NN)  (dobj, 要#VV, ''#NN)  (case, 会#VV, 因为#P)  (nsubj, 会#VV, 捞饭#NR)  (prep, 掉#VV, 会#VV)  (dobj, 会#VV, 损失#NN)  (conj, 能#VV, 掉#VV)  (nummod, 维生素#NN, 大量#CD)  (dobj, 掉#VV, 维生素#NN)  (advmod, 细粮#CD, 平时#AD)  (neg, 细粮#CD, 不#AD)  (nn, 食#NN, 宜#NR)  (nummod, 食#NN, 多#CD)  (nsubj, 细粮#CD, 食#NN)  (amod, 后#NN, 精制#JJ)  (assmod, 细粮#CD, 后#NN)  (case, 后#NN, 的#DEG)  (conj, 放#VV, 细粮#CD)
+        </parsing>
+
+        <tag>
+            粳米做成粥更易于消化吸收  但制作米粥时千万不要放碱  米是人体维生素B1  重要来源  碱能破坏米中  维生素B1  会导致B1缺乏  出现“脚气病”  制作米饭时一定要“蒸”  不要“捞”  捞饭会损失掉大量维生素  平时不宜多食精制后  细粮  
+        </tag>
+    </unsuit>
+
+    <suit>
+
+    </suit>
+
+    <ingredient>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            粥是一种把稻米、小米或玉米等粮食煮成的稠糊的食物
+        </rawdata>
+
+        <segment>
+            粥是  一  种  把  稻米  、  小米  或  玉米  等  粮食  煮成  的  稠糊  的  食物
+        </segment>
+
+        <pos>
+            粥是#VV  一#CD  种#M  把#BA  稻米#NR  、#PU  小米#NR  或#CC  玉米#NR  等#ETC  粮食#NN  煮成#VV  的#DEC  稠糊#NN  的#DEC  食物#NN
+        </pos>
+
+        <parsing>
+            (relcl, 食物#NN, 粥是#VV)  (nummod, 种#M, 一#CD)  (clf, 稠糊#NN, 种#M)  (ba, 煮成#VV, 把#BA)  (conj, 玉米#NR, 稻米#NR)  (conj, 玉米#NR, 小米#NR)  (cc, 玉米#NR, 或#CC)  (nn, 粮食#NN, 玉米#NR)  (etc, 玉米#NR, 等#ETC)  (nsubj, 煮成#VV, 粮食#NN)  (relcl, 稠糊#NN, 煮成#VV)  (mark, 煮成#VV, 的#DEC)  (dobj, 粥是#VV, 稠糊#NN)  (mark, 粥是#VV, 的#DEC)  (root, ROOT#null, 食物#NN)
+        </parsing>
+
+        <tag>
+            粥是食物  玉米  稻米  小米  煮成稠糊  粥是稠糊  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.资色，吃粥有益于身体，能够让人的脸容丰满有光泽;
+            2.增力，吃粥能够滋补羸弱的身体，增长气力;
+            3.益寿，吃粥能够补养人体的所需，增加寿命;
+            4.安乐，吃粥能够促朝进身体清净柔软，这是让人能够体会安乐的饮食;
+            5.辩说，吃粥有利于滋润喉吻，对人论法议经有帮助;
+            6.除风，吃粥能够调和身体，上下通利，并且消除风寒;
+            7.消宿食，吃粥能够温暖人的脾胃，帮助人消化掉胃中的积食;
+            8.辞清，吃粥的人，气息没有凝滞的现象，说话的声音清晰，昂扬;
+            9.除饥，吃粥能够充实人的口腹，让饥饿感马上消除;
+            10.消渴，吃粥能够让人喉吻沾润，干渴的感觉得以消除。
+        </rawdata>
+
+        <segment>
+            资色  ，  吃粥  有  益于  身体  ，  能够  让  人  的  脸容  丰满  有  光泽  ;
+            增力  ，  吃粥  能够  滋补  羸弱  的  身体  ，  增长  气力  ;
+            益寿  ，  吃粥  能够  补养  人体  的  所需  ，  增加  寿命  ;
+            安乐  ，  吃粥  能够  促朝  进  身体  清净  柔软  ，  这  是  让  人  能够  体会  安乐  的  饮食  ;
+            辩说  ，  吃粥  有利于  滋润  喉吻  ，  对人  论法  议经  有  帮助  ;
+            除风  ，  吃粥  能够  调和  身体  ，  上下  通利  ，  并且  消除  风寒  ;
+            消宿食  ，  吃粥  能够  温暖  人  的  脾胃  ，  帮助  人  消化  掉  胃中  的  积食  ;
+            辞清  ，  吃粥  的  人  ，  气息  没有  凝滞  的  现象  ，  说话  的  声音  清晰  ，  昂扬  ;
+            除饥  ，  吃粥  能够  充实  人  的  口腹  ，  让  饥饿感  马上  消除  ;
+            .  消渴  ，  吃粥  能够  让  人  喉吻  沾润  ，  干渴  的  感觉  得以  消除  。
+        </segment>
+
+        <pos>
+            资色#NN  ，#PU  吃粥#AD  有#VE  益于#NN  身体#NN  ，#PU  能够#VV  让#VV  人#NN  的#DEC  脸容#NN  丰满#AD  有#VE  光泽#NN  ;#NN
+            增力#VV  ，#PU  吃粥#NN  能够#VV  滋补#VV  羸弱#NN  的#DEG  身体#NN  ，#PU  增长#VV  气力#NN  ;#NN
+            益寿#VV  ，#PU  吃粥#NN  能够#VV  补养#VV  人体#NN  的#DEG  所需#NN  ，#PU  增加#VV  寿命#NN  ;#NN
+            安乐#VA  ，#PU  吃粥#NR  能够#VV  促朝#AD  进#VV  身体#NN  清净#NN  柔软#NN  ，#PU  这#PN  是#VC  让#VV  人#NN  能够#VV  体会#VV  安乐#VA  的#DEC  饮食#NN  ;#NN
+            辩说#NN  ，#PU  吃粥#AD  有利于#VV  滋润#VV  喉吻#NN  ，#PU  对人#NN  论法#NN  议经#AD  有#VE  帮助#NN  ;#NN
+            除风#VV  ，#PU  吃粥#NN  能够#VV  调和#VV  身体#NN  ，#PU  上下#VV  通利#NN  ，#PU  并且#CC  消除#VV  风寒#NN  ;#NN
+            消宿食#VV  ，#PU  吃粥#NN  能够#VV  温暖#NN  人#NN  的#DEG  脾胃#NN  ，#PU  帮助#VV  人#NN  消化#NN  掉#VV  胃中#NN  的#DEG  积食#NN  ;#NN
+            辞清#VV  ，#PU  吃粥#NN  的#DEG  人#NN  ，#PU  气息#NN  没有#VE  凝滞#NN  的#DEG  现象#NN  ，#PU  说话#VV  的#DEC  声音#NN  清晰#VA  ，#PU  昂扬#VV  ;#NN
+            除饥#VV  ，#PU  吃粥#VV  能够#VV  充实#CD  人#NN  的#DEC  口腹#NN  ，#PU  让#VV  饥饿感#NN  马上#AD  消除#VV  ;#NN
+            .#NR  消渴#VV  ，#PU  吃粥#NN  能够#VV  让#VV  人#NN  喉吻#VV  沾润#NN  ，#PU  干渴#NN  的#DEG  感觉#NN  得以#VV  消除#VV  。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 有#VE, 资色#NN)  (advmod, 有#VE, 吃粥#AD)  (root, ROOT#null, 有#VE)  (nn, 身体#NN, 益于#NN)  (dobj, 有#VE, 身体#NN)  (mmod, 让#VV, 能够#VV)  (relcl, 脸容#NN, 让#VV)  (dobj, 让#VV, 人#NN)  (mark, 让#VV, 的#DEC)  (nsubj, 有#VE, 脸容#NN)  (advmod, 有#VE, 丰满#AD)  (conj, 有#VE, 有#VE)  (nn, ;#NN, 光泽#NN)  (dobj, 有#VE, ;#NN)
+            (root, ROOT#null, 增力#VV)  (nsubj, 滋补#VV, 吃粥#NN)  (mmod, 滋补#VV, 能够#VV)  (ccomp, 增力#VV, 滋补#VV)  (assmod, 身体#NN, 羸弱#NN)  (case, 羸弱#NN, 的#DEG)  (dobj, 滋补#VV, 身体#NN)  (dep, 滋补#VV, 增长#VV)  (nn, ;#NN, 气力#NN)  (dobj, 增长#VV, ;#NN)
+            (root, ROOT#null, 益寿#VV)  (nsubj, 补养#VV, 吃粥#NN)  (mmod, 补养#VV, 能够#VV)  (ccomp, 益寿#VV, 补养#VV)  (assmod, 所需#NN, 人体#NN)  (case, 人体#NN, 的#DEG)  (dobj, 补养#VV, 所需#NN)  (dep, 补养#VV, 增加#VV)  (nn, ;#NN, 寿命#NN)  (dobj, 增加#VV, ;#NN)
+            (root, ROOT#null, 安乐#VA)  (nsubj, 进#VV, 吃粥#NR)  (mmod, 进#VV, 能够#VV)  (advmod, 进#VV, 促朝#AD)  (dep, 安乐#VA, 进#VV)  (nn, 柔软#NN, 身体#NN)  (nn, 柔软#NN, 清净#NN)  (dobj, 进#VV, 柔软#NN)  (nsubj, 让#VV, 这#PN)  (conj, 让#VV, 是#VC)  (cop, 让#VV, 是#VC)  (dep, 安乐#VA, 让#VV)  (dobj, 让#VV, 人#NN)  (mmod, 体会#VV, 能够#VV)  (dep, 让#VV, 体会#VV)  (relcl, ;#NN, 安乐#VA)  (mark, 安乐#VA, 的#DEC)  (nn, ;#NN, 饮食#NN)  (dobj, 体会#VV, ;#NN)
+            (nsubj, 有利于#VV, 辩说#NN)  (advmod, 有利于#VV, 吃粥#AD)  (root, ROOT#null, 有利于#VV)  (ccomp, 有利于#VV, 滋润#VV)  (dobj, 滋润#VV, 喉吻#NN)  (nn, 论法#NN, 对人#NN)  (nsubj, 有#VE, 论法#NN)  (advmod, 有#VE, 议经#AD)  (conj, 有利于#VV, 有#VE)  (nn, ;#NN, 帮助#NN)  (dobj, 有#VE, ;#NN)
+            (root, ROOT#null, 除风#VV)  (nsubj, 调和#VV, 吃粥#NN)  (mmod, 调和#VV, 能够#VV)  (ccomp, 除风#VV, 调和#VV)  (dobj, 调和#VV, 身体#NN)  (conj, 调和#VV, 上下#VV)  (dobj, 上下#VV, 通利#NN)  (cc, 调和#VV, 并且#CC)  (conj, 调和#VV, 消除#VV)  (nn, ;#NN, 风寒#NN)  (dobj, 消除#VV, ;#NN)
+            (root, ROOT#null, 消宿食#VV)  (nsubj, 能够#VV, 吃粥#NN)  (ccomp, 消宿食#VV, 能够#VV)  (nn, 人#NN, 温暖#NN)  (assmod, 脾胃#NN, 人#NN)  (case, 人#NN, 的#DEG)  (dobj, 能够#VV, 脾胃#NN)  (conj, 能够#VV, 帮助#VV)  (nn, 消化#NN, 人#NN)  (dobj, 帮助#VV, 消化#NN)  (dep, 帮助#VV, 掉#VV)  (assmod, ;#NN, 胃中#NN)  (case, 胃中#NN, 的#DEG)  (nn, ;#NN, 积食#NN)  (dobj, 掉#VV, ;#NN)
+            (root, ROOT#null, 辞清#VV)  (assmod, 人#NN, 吃粥#NN)  (case, 吃粥#NN, 的#DEG)  (dep, 没有#VE, 人#NN)  (dep, 没有#VE, 气息#NN)  (ccomp, 辞清#VV, 没有#VE)  (assmod, 现象#NN, 凝滞#NN)  (case, 凝滞#NN, 的#DEG)  (dobj, 没有#VE, 现象#NN)  (relcl, 声音#NN, 说话#VV)  (mark, 说话#VV, 的#DEC)  (nsubj, 清晰#VA, 声音#NN)  (conj, 没有#VE, 清晰#VA)  (conj, 没有#VE, 昂扬#VV)  (dobj, 昂扬#VV, ;#NN)
+            (root, ROOT#null, 除饥#VV)  (ccomp, 除饥#VV, 吃粥#VV)  (relcl, 口腹#NN, 能够#VV)  (nummod, 人#NN, 充实#CD)  (dobj, 能够#VV, 人#NN)  (mark, 能够#VV, 的#DEC)  (dobj, 吃粥#VV, 口腹#NN)  (conj, 吃粥#VV, 让#VV)  (dobj, 让#VV, 饥饿感#NN)  (advmod, 消除#VV, 马上#AD)  (dep, 让#VV, 消除#VV)  (dobj, 消除#VV, ;#NN)
+            (root, ROOT#null, 消渴#VV)  (nsubj, 让#VV, 吃粥#NN)  (mmod, 让#VV, 能够#VV)  (ccomp, 消渴#VV, 让#VV)  (dobj, 让#VV, 人#NN)  (dep, 让#VV, 喉吻#VV)  (dobj, 喉吻#VV, 沾润#NN)  (assmod, 感觉#NN, 干渴#NN)  (case, 干渴#NN, 的#DEG)  (nsubj, 消除#VV, 感觉#NN)  (dep, 消除#VV, 得以#VV)  (conj, 让#VV, 消除#VV)
+        </parsing>
+
+        <tag>
+            益于身体  让脸容  增力  滋补身体  益寿  补养所需  身体柔软  清净柔软  滋润喉吻  对人论法  除风  调和身体  上下通利  能够脾胃  帮助消化  辞清  没有现象  说话声音  声音清晰  除饥  能够口腹  能够人  吃粥口腹  消渴  喉吻沾润  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        增强免疫力  改善营养性贫血
+    </manuleffecttag>
+
+    <nutrition>
+
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            一般有煮和焖两种方法。煮法即先用旺火煮至滚开，再改用小火煮至粥汤稠浓的方法。焖法是指用旺火加热至滚沸后，即倒入有盖的木桶内，盖紧桶盖，焖约2小时即成，具有香味较浓的特点
+        </rawdata>
+
+        <segment>
+            一般  有  煮和焖  两  种  方法  。  煮  法  即  先用  旺火  煮  至  滚开  ，  再  改用  小  火  煮  至  粥汤稠  浓的  方法  。  焖法  是  指用  旺火  加热  至  滚沸  后  ，  即  倒入  有盖  的  木桶  内  ，  盖  紧  桶盖  ，  焖约  2  小时  即  成  ，  具有  香味  较  浓的  特点
+        </segment>
+
+        <pos>
+            一般#AD  有#VE  煮和焖#NN  两#CD  种#M  方法#NN    。#PU  煮#VV  法#NR  即#AD  先用#NN  旺火#NN  煮#VV  至#CC  滚开#VV  ，#PU  再#AD  改用#VV  小#JJ  火#NN  煮#VV  至#CC  粥汤稠#VV  浓的#NN  方法#NN    。#PU  焖法#NN  是#VC  指用#NN  旺火#NN  加热#NN  至#P  滚沸#NN  后#LC  ，#PU  即#AD  倒入#VV  有盖#NN  的#DEC  木桶#NN  内#LC  ，#PU  盖#NR  紧#JJ  桶盖#NN  ，#PU  焖约#NR  2#CD  小时#NN  即#AD  成#VV  ，#PU  具有#VV  香味#NR  较#AD  浓的#JJ  特点#NN    。#PU
+        </pos>
+
+        <parsing>
+            (advmod, 有#VE, 一般#AD)  (root, ROOT#null, 有#VE)  (nn, 方法#NN, 煮和焖#NN)  (nummod, 种#M, 两#CD)  (clf, 方法#NN, 种#M)  (dobj, 有#VE, 方法#NN)   (root, ROOT#null, 煮#VV)  (nn, 旺火#NN, 法#NR)  (advmod, 旺火#NN, 即#AD)  (nn, 旺火#NN, 先用#NN)  (dobj, 煮#VV, 旺火#NN)  (conj, 煮#VV, 煮#VV)  (cc, 煮#VV, 至#CC)  (conj, 煮#VV, 滚开#VV)  (advmod, 改用#VV, 再#AD)  (dep, 煮#VV, 改用#VV)  (amod, 火#NN, 小#JJ)  (nsubj, 煮#VV, 火#NN)  (dep, 煮#VV, 煮#VV)  (cc, 煮#VV, 至#CC)  (dep, 煮#VV, 粥汤稠#VV)  (nn, 方法#NN, 浓的#NN)  (dobj, 粥汤稠#VV, 方法#NN)   (nsubj, 加热#NN, 焖法#NN)  (cop, 加热#NN, 是#VC)  (nn, 加热#NN, 指用#NN)  (nn, 加热#NN, 旺火#NN)  (root, ROOT#null, 加热#NN)  (case, 滚沸#NN, 至#P)  (prep, 倒入#VV, 滚沸#NN)  (case, 滚沸#NN, 后#LC)  (advmod, 倒入#VV, 即#AD)  (relcl, 木桶#NN, 倒入#VV)  (dobj, 倒入#VV, 有盖#NN)  (mark, 倒入#VV, 的#DEC)  (loc, 成#VV, 木桶#NN)  (case, 木桶#NN, 内#LC)  (nn, 桶盖#NN, 盖#NR)  (amod, 桶盖#NN, 紧#JJ)  (nsubj, 成#VV, 桶盖#NN)  (nn, 小时#NN, 焖约#NR)  (nummod, 小时#NN, 2#CD)  (nsubj, 成#VV, 小时#NN)  (advmod, 成#VV, 即#AD)  (conj, 加热#NN, 成#VV)  (dep, 成#VV, 具有#VV)  (nn, 特点#NN, 香味#NR)  (advmod, 浓的#JJ, 较#AD)  (amod, 特点#NN, 浓的#JJ)  (dobj, 具有#VV, 特点#NN)
+        </parsing>
+
+        <tag>
+            煮和焖方法  先用旺火  小火  浓的方法  粥汤稠方法  指用加热  旺火加热  倒入木桶  倒入有盖  紧桶盖  浓的特点  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://recipe1.hoto.cn/pic/fooddata/0f/00/65551_120.jpg
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\1427 粳米粥.jpg
+    </picturelocalurl>
+
+</content>

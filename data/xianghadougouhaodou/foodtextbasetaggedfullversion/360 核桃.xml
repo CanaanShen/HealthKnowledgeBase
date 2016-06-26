@@ -1,0 +1,430 @@
+<content>
+
+    <id>
+        360
+    </id>
+
+    <foodname>
+        核桃
+    </foodname>
+
+    <firstcategory>
+        果品类
+    </firstcategory>
+
+    <secondcategory>
+        干果
+    </secondcategory>
+
+    <alias>
+        胡桃
+    </alias>
+
+    <season>
+        夏、秋
+    </season>
+
+    <unsuit>
+        <rawdata>
+            腹泻、阴虚火旺者；痰热咳嗽、便溏腹泻、素有内热盛及痰湿重者均不宜服用。
+        </rawdata>
+
+        <segment>
+            腹泻  、  阴虚  火  旺者  ；  痰热  咳嗽  、  便溏  腹泻  、  素有  内热  盛  及  痰湿  重者  均  不  宜  服用  。
+        </segment>
+
+        <pos>
+            腹泻#NN  、#PU  阴虚#NN  火#NN  旺者#VV  ；#PU  痰热#NR  咳嗽#NR  、#PU  便溏#NR  腹泻#NR  、#PU  素有#NR  内热#NN  盛#VA  及#CC  痰湿#NN  重者#NN  均#AD  不#AD  宜#NR  服用#VV  。#PU
+        </pos>
+
+        <parsing>
+            (conj, 阴虚#NN, 腹泻#NN)  (nn, 火#NN, 阴虚#NN)  (nsubj, 旺者#VV, 火#NN)  (root, ROOT#null, 旺者#VV)  (nn, 素有#NR, 痰热#NR)  (conj, 素有#NR, 咳嗽#NR)  (nn, 素有#NR, 便溏#NR)  (conj, 素有#NR, 腹泻#NR)  (nn, 内热#NN, 素有#NR)  (nsubj, 盛#VA, 内热#NN)  (ccomp, 旺者#VV, 盛#VA)  (cc, 盛#VA, 及#CC)  (nn, 重者#NN, 痰湿#NN)  (nsubj, 服用#VV, 重者#NN)  (advmod, 服用#VV, 均#AD)  (neg, 服用#VV, 不#AD)  (prep, 服用#VV, 宜#NR)  (conj, 盛#VA, 服用#VV)
+        </parsing>
+
+        <tag>
+            腹泻  阴虚火旺者  痰热咳嗽  便溏腹泻  素有内热盛  痰湿重者均不宜服用  
+        </tag>
+    </unsuit>
+
+    <suit>
+        <rawdata>
+            一般人群均可食用。适宜肾虚、肺虚、神经衰弱、气血不足、癌症患者多食；尤其适合脑力劳动者和青少年。
+        </rawdata>
+
+        <segment>
+            一般  人群  均  可  食用  。  适宜  肾虚  、  肺  虚  、  神经  衰弱  、  气血  不足  、  癌症  患者  多  食  ；  尤其  适合  脑力  劳动者  和  青少年  。
+        </segment>
+
+        <pos>
+            一般#JJ  人群#NN  均#AD  可#VV  食用#VV    。#PU  适宜#VV  肾虚#NN  、#PU  肺#NN  虚#AD  、#PU  神经#NN  衰弱#NN  、#PU  气血#NN  不足#NN  、#PU  癌症#NN  患者#NN  多#CD  食#NN  ；#PU  尤其#AD  适合#VV  脑力#NN  劳动者#NN  和#CC  青少年#NN    。#PU
+        </pos>
+
+        <parsing>
+            (amod, 人群#NN, 一般#JJ)  (nsubj, 食用#VV, 人群#NN)  (advmod, 食用#VV, 均#AD)  (dep, 食用#VV, 可#VV)  (root, ROOT#null, 食用#VV)   (relcl, 食#NN, 适宜#VV)  (conj, 肺#NN, 肾虚#NN)  (dobj, 适宜#VV, 肺#NN)  (advmod, 适宜#VV, 虚#AD)  (nn, 衰弱#NN, 神经#NN)  (conj, 食#NN, 衰弱#NN)  (nn, 不足#NN, 气血#NN)  (conj, 食#NN, 不足#NN)  (nn, 患者#NN, 癌症#NN)  (nn, 食#NN, 患者#NN)  (nummod, 食#NN, 多#CD)  (nsubj, 适合#VV, 食#NN)  (advmod, 适合#VV, 尤其#AD)  (root, ROOT#null, 适合#VV)  (nn, 青少年#NN, 脑力#NN)  (conj, 青少年#NN, 劳动者#NN)  (cc, 青少年#NN, 和#CC)  (dobj, 适合#VV, 青少年#NN)
+        </parsing>
+
+        <tag>
+            一般人群均可  适宜  肾虚  肺虚  神经衰弱  气血不足  癌症  患者  多食  尤其适合  脑力劳动者  青少年  
+        </tag>
+    </suit>
+
+    <ingredient>
+        <element>
+            <elename>
+                热量（大卡）
+            </elename>
+            <elevalue>
+                654
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                蛋白质（克）
+            </elename>
+            <elevalue>
+                15.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                不饱和脂肪酸（克）
+            </elename>
+            <elevalue>
+                51.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                碳水化合物（克）
+            </elename>
+            <elevalue>
+                0.8
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                膳食纤维（克）
+            </elename>
+            <elevalue>
+                11.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素A（微克）
+            </elename>
+            <elevalue>
+                10
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                胡萝卜素（微克）
+            </elename>
+            <elevalue>
+                60
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B1（毫克）
+            </elename>
+            <elevalue>
+                0.26
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素B2（毫克）
+            </elename>
+            <elevalue>
+                0.15
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                烟酸（毫克）
+            </elename>
+            <elevalue>
+                1
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                生物素（微克）
+            </elename>
+            <elevalue>
+                37
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                叶酸（微克）
+            </elename>
+            <elevalue>
+                102.6
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                维生素E（毫克）
+            </elename>
+            <elevalue>
+                43.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钙（毫克）
+            </elename>
+            <elevalue>
+                25
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                磷（毫克）
+            </elename>
+            <elevalue>
+                280
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钾（毫克）
+            </elename>
+            <elevalue>
+                540
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                钠（毫克）
+            </elename>
+            <elevalue>
+                4
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                镁（毫克）
+            </elename>
+            <elevalue>
+                131
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铁（毫克）
+            </elename>
+            <elevalue>
+                2.2
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                锌（毫克）
+            </elename>
+            <elevalue>
+                2.05
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                硒（微克）
+            </elename>
+            <elevalue>
+                4.62
+            </elevalue>
+        </element>
+        <element>
+            <elename>
+                铜（毫克）
+            </elename>
+            <elevalue>
+                1.17
+            </elevalue>
+        </element>
+    </ingredient>
+
+    <introduction>
+        <rawdata>
+            核桃，原产于近东地区，又称胡桃、羌桃，与扁桃、腰果、榛子并称为世界著名的“四大干果”。既可以生食、炒食，也可以榨油、配制糕点、糖果等，不仅味美，而且营养价值很高。它的足迹几乎遍及世界各地，主要分布在美洲、欧洲和亚洲很多地方。其产量除美国外，即推中国。核桃在国外，人称“大力士食品”、“营养丰富的坚果”、“益智果”；在国内享有“万岁子”、“长寿果”、“养人之宝”的美称。其卓著的健脑效果和丰富的营养价值，已经为越来越多的人所推崇。
+            1972年发现磁山文化遗址，在磁山遗址发掘的灰坑中，发现两座坑底部有树籽堆积层，可辨认的有榛子、小叶朴和胡桃。胡桃就是现今的核桃，以往认为核桃是汉代张骞通西域时传入内地的，磁山遗址胡桃的出土，证实7000多年前这一带就有种植。
+        </rawdata>
+
+        <segment>
+            核桃  ，  原  产于  近东  地区  ，  又  称  胡桃  、  羌桃  ，  与  扁桃  、  腰果  、  榛子  并称  为  世界  著名  的  “  四  大  干果  ”  。  既  可以  生食  、  炒食  ，  也可以  榨油  、  配制  糕点  、  糖果  等  ，  不仅  味美  ，  而且  营养  价值  很  高  。  它  的  足迹  几乎  遍及  世界  各地  ，  主要  分布  在  美洲  、  欧洲  和  亚洲  很多  地方  。  其  产量  除  美  国外  ，  即  推  中国  。  核桃  在  国外  ，  人  称  “  大  力士  食品  ”  、  “  营养  丰富  的  坚果  ”  、  “  益智  果  ”  ；  在  国内  享有  “  万岁子  ”  、  “  长寿果  ”  、  “  养人  之宝  ”  的  美称  。  其  卓著  的  健脑  效果  和  丰富  的  营养  价值  ，  已经  为  越来越  多  的  人  所  推崇  。
+            1972年  发现  磁山  文化  遗址  ，  在  磁山  遗址  发掘  的  灰  坑  中  ，  发现  两  座  坑  底部  有  树籽  堆积层  ，  可辨认  的  有  榛子  、  小叶  朴和  胡桃  。  胡桃  就  是  现今  的  核桃  ，  以往  认为  核桃  是  汉代  张骞通  西域  时  传入  内地  的  ，  磁山  遗址  胡桃  的  出土  ，  证实  7000多  年  前  这  一  带  就  有  种植  。
+        </segment>
+
+        <pos>
+            核桃#NN  ，#PU  原#AD  产于#VV  近东#NN  地区#NN  ，#PU  又#AD  称#VV  胡桃#NN  、#PU  羌桃#NN  ，#PU  与#P  扁桃#NR  、#PU  腰果#NR  、#PU  榛子#NR  并称#NN  为#VV  世界#NN  著名#VA  的#DEC  ``#NN  四#CD  大#JJ  干果#NN  ''#VV    。#PU  既#CC  可以#VV  生食#VV  、#PU  炒食#VV  ，#PU  也可以#VV  榨油#NR  、#PU  配制#NR  糕点#NR  、#PU  糖果#NR  等#ETC  ，#PU  不仅#CC  味美#VV  ，#PU  而且#CC  营养#VA  价值#NN  很#AD  高#VA    。#PU  它#PN  的#DEG  足迹#NN  几乎#AD  遍及#VV  世界#NN  各地#NN  ，#PU  主要#AD  分布#VV  在#P  美洲#NR  、#PU  欧洲#NR  和#CC  亚洲#NR  很多#CD  地方#NN    。#PU  其#PN  产量#NN  除#P  美#NR  国外#NN  ，#PU  即#AD  推#VV  中国#NR    。#PU  核桃#NR  在#P  国外#NN  ，#PU  人#NN  称#VV  ``#VV  大#JJ  力士#NN  食品#NN  ''#NN  、#PU  ``#VV  营养#VA  丰富#VA  的#DEC  坚果#NN  ''#NN  、#PU  ``#VV  益智#NN  果#NN  ''#NN  ；#PU  在#P  国内#NN  享有#VV  ``#VV  万岁子#CD  ''#NN  、#PU  ``#NN  长寿果#NN  ''#NN  、#PU  ``#NN  养人#NN  之宝#NN  ''#NN  的#DEC  美称#NN    。#PU  其#PN  卓著#NN  的#DEG  健脑#NN  效果#NN  和#P  丰富#VA  的#DEC  营养#VA  价值#NN  ，#PU  已经#AD  为#P  越来越#AD  多#VA  的#DEC  人#NN  所#MSP  推崇#VV    。#PU    。#PU
+            1972年#NT  发现#VV  磁山#NN  文化#NN  遗址#NN  ，#PU  在#P  磁山#NN  遗址#NN  发掘#NN  的#DEG  灰#JJ  坑#VV  中#NR  ，#PU  发现#VV  两#CD  座#M  坑#VV  底部#NN  有#VE  树籽#NN  堆积层#NN  ，#PU  可辨认#VV  的#DEC  有#VE  榛子#NN  、#PU  小叶#NN  朴和#NN  胡桃#NN    。#PU  胡桃#NN  就#AD  是#VC  现今#NT  的#DEG  核桃#NN  ，#PU  以往#AD  认为#VV  核桃#AD  是#VC  汉代#VV  张骞通#NN  西域#NN  时#LC  传入#VV  内地#NN  的#DEC  ，#PU  磁山#VV  遗址#NN  胡桃#NN  的#DEG  出土#NN  ，#PU  证实#VV  7000多#CD  年#M  前#LC  这#DT  一#CD  带#NN  就#AD  有#VE  种植#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 产于#VV, 核桃#NN)  (advmod, 产于#VV, 原#AD)  (root, ROOT#null, 产于#VV)  (nn, 地区#NN, 近东#NN)  (dobj, 产于#VV, 地区#NN)  (advmod, 称#VV, 又#AD)  (dep, 产于#VV, 称#VV)  (conj, 羌桃#NN, 胡桃#NN)  (dobj, 称#VV, 羌桃#NN)  (case, 并称#NN, 与#P)  (conj, 榛子#NR, 扁桃#NR)  (conj, 榛子#NR, 腰果#NR)  (nn, 并称#NN, 榛子#NR)  (prep, 为#VV, 并称#NN)  (dep, 产于#VV, 为#VV)  (nsubj, 著名#VA, 世界#NN)  (relcl, ``#NN, 著名#VA)  (mark, 著名#VA, 的#DEC)  (dobj, 为#VV, ``#NN)  (nummod, 干果#NN, 四#CD)  (amod, 干果#NN, 大#JJ)  (nsubj, ''#VV, 干果#NN)  (conj, 产于#VV, ''#VV)   (cc, 生食#VV, 既#CC)  (mmod, 生食#VV, 可以#VV)  (root, ROOT#null, 生食#VV)  (conj, 生食#VV, 炒食#VV)  (dep, 生食#VV, 也可以#VV)  (conj, 糖果#NR, 榨油#NR)  (nn, 糖果#NR, 配制#NR)  (conj, 糖果#NR, 糕点#NR)  (dobj, 也可以#VV, 糖果#NR)  (etc, 糖果#NR, 等#ETC)  (cc, 生食#VV, 不仅#CC)  (conj, 生食#VV, 味美#VV)  (cc, 生食#VV, 而且#CC)  (conj, 生食#VV, 营养#VA)  (nsubj, 高#VA, 价值#NN)  (advmod, 高#VA, 很#AD)  (dep, 生食#VV, 高#VA)   (assmod, 足迹#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 遍及#VV, 足迹#NN)  (advmod, 遍及#VV, 几乎#AD)  (root, ROOT#null, 遍及#VV)  (nn, 各地#NN, 世界#NN)  (dobj, 遍及#VV, 各地#NN)  (advmod, 分布#VV, 主要#AD)  (conj, 遍及#VV, 分布#VV)  (case, 地方#NN, 在#P)  (conj, 亚洲#NR, 美洲#NR)  (conj, 亚洲#NR, 欧洲#NR)  (cc, 亚洲#NR, 和#CC)  (nn, 地方#NN, 亚洲#NR)  (nummod, 地方#NN, 很多#CD)  (prep, 分布#VV, 地方#NN)   (nn, 产量#NN, 其#PN)  (nsubj, 推#VV, 产量#NN)  (case, 国外#NN, 除#P)  (nn, 国外#NN, 美#NR)  (prep, 推#VV, 国外#NN)  (advmod, 推#VV, 即#AD)  (root, ROOT#null, 推#VV)  (dobj, 推#VV, 中国#NR)   (nsubj, 称#VV, 核桃#NR)  (case, 国外#NN, 在#P)  (prep, 称#VV, 国外#NN)  (nsubj, 称#VV, 人#NN)  (root, ROOT#null, 称#VV)  (ccomp, 称#VV, ``#VV)  (amod, ''#NN, 大#JJ)  (nn, ''#NN, 力士#NN)  (nn, ''#NN, 食品#NN)  (dobj, ``#VV, ''#NN)  (conj, 称#VV, ``#VV)  (relcl, ''#NN, 营养#VA)  (comod, 营养#VA, 丰富#VA)  (mark, 营养#VA, 的#DEC)  (nn, ''#NN, 坚果#NN)  (dobj, ``#VV, ''#NN)  (conj, 称#VV, ``#VV)  (nn, ''#NN, 益智#NN)  (nn, ''#NN, 果#NN)  (dobj, ``#VV, ''#NN)  (case, 国内#NN, 在#P)  (prep, 享有#VV, 国内#NN)  (conj, 称#VV, 享有#VV)  (relcl, 美称#NN, ``#VV)  (nummod, ''#NN, 万岁子#CD)  (conj, 之宝#NN, ''#NN)  (nn, 之宝#NN, ``#NN)  (nn, 之宝#NN, 长寿果#NN)  (conj, 之宝#NN, ''#NN)  (nn, 之宝#NN, ``#NN)  (nn, 之宝#NN, 养人#NN)  (nn, ''#NN, 之宝#NN)  (dobj, ``#VV, ''#NN)  (mark, ``#VV, 的#DEC)  (dobj, 享有#VV, 美称#NN)   (nn, 效果#NN, 其#PN)  (assmod, 效果#NN, 卓著#NN)  (case, 卓著#NN, 的#DEG)  (nn, 效果#NN, 健脑#NN)  (nsubj, 推崇#VV, 效果#NN)  (case, 价值#NN, 和#P)  (relcl, 价值#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nfincl, 价值#NN, 营养#VA)  (prep, 推崇#VV, 价值#NN)  (advmod, 推崇#VV, 已经#AD)  (case, 人#NN, 为#P)  (advmod, 多#VA, 越来越#AD)  (relcl, 人#NN, 多#VA)  (mark, 多#VA, 的#DEC)  (prep, 推崇#VV, 人#NN)  (prtmod, 推崇#VV, 所#MSP)  (root, ROOT#null, 推崇#VV)   (root, ROOT#null, null#null)
+            (tmod, 发现#VV, 1972年#NT)  (dep, 有#VE, 发现#VV)  (nn, 遗址#NN, 磁山#NN)  (nn, 遗址#NN, 文化#NN)  (dobj, 发现#VV, 遗址#NN)  (case, 底部#NN, 在#P)  (nn, 发掘#NN, 磁山#NN)  (nn, 发掘#NN, 遗址#NN)  (assmod, 底部#NN, 发掘#NN)  (case, 发掘#NN, 的#DEG)  (amod, 底部#NN, 灰#JJ)  (nfincl, 底部#NN, 坑#VV)  (dobj, 坑#VV, 中#NR)  (conj, 坑#VV, 发现#VV)  (nummod, 座#M, 两#CD)  (range, 发现#VV, 座#M)  (conj, 发现#VV, 坑#VV)  (prep, 有#VE, 底部#NN)  (conj, 发现#VV, 有#VE)  (nn, 堆积层#NN, 树籽#NN)  (dobj, 有#VE, 堆积层#NN)  (conj, 发现#VV, 可辨认#VV)  (mark, 发现#VV, 的#DEC)  (root, ROOT#null, 有#VE)  (conj, 胡桃#NN, 榛子#NN)  (nn, 胡桃#NN, 小叶#NN)  (nn, 胡桃#NN, 朴和#NN)  (dobj, 有#VE, 胡桃#NN)   (nsubj, 核桃#NN, 胡桃#NN)  (xsubj, 传入#VV, 胡桃#NN)  (advmod, 核桃#NN, 就#AD)  (cop, 核桃#NN, 是#VC)  (assmod, 核桃#NN, 现今#NT)  (case, 现今#NT, 的#DEG)  (root, ROOT#null, 核桃#NN)  (advmod, 认为#VV, 以往#AD)  (conj, 核桃#NN, 认为#VV)  (advmod, 传入#VV, 核桃#AD)  (cop, 传入#VV, 是#VC)  (loc, 传入#VV, 汉代#VV)  (nn, 西域#NN, 张骞通#NN)  (dobj, 汉代#VV, 西域#NN)  (case, 汉代#VV, 时#LC)  (ccomp, 认为#VV, 传入#VV)  (dobj, 传入#VV, 内地#NN)  (mark, 传入#VV, 的#DEC)  (conj, 核桃#NN, 磁山#VV)  (nn, 胡桃#NN, 遗址#NN)  (assmod, 出土#NN, 胡桃#NN)  (case, 胡桃#NN, 的#DEG)  (dobj, 磁山#VV, 出土#NN)  (conj, 核桃#NN, 证实#VV)  (nummod, 年#M, 7000多#CD)  (loc, 有#VE, 年#M)  (case, 年#M, 前#LC)  (det, 带#NN, 这#DT)  (dep, 这#DT, 一#CD)  (nsubj, 有#VE, 带#NN)  (advmod, 有#VE, 就#AD)  (ccomp, 证实#VV, 有#VE)  (dobj, 有#VE, 种植#NN)
+        </parsing>
+
+        <tag>
+            近东地区  产于地区  羌桃  榛子  扁桃  腰果  世界著名  大干果  生食  糖果  榨油  糕点  世界各地  亚洲  美洲  欧洲  营养丰富  长寿果之宝  养人之宝  享有美称  健脑效果  价值丰富  推崇  磁山遗址  文化遗址  磁山发掘  遗址发掘  灰底部  树籽堆积层  小叶胡桃  朴和胡桃  张骞通西域  汉代西域  传入内地  遗址胡桃  磁山出土  
+        </tag>
+    </introduction>
+
+    <effect>
+        <rawdata>
+            1.核桃堪称抗氧化之“王”
+            美国饮食协会建议人们，每周最好吃两三次核桃，尤其中老年人和绝经期妇女，因为核桃中所含的精氨酸、油酸、抗氧化物质等对保护心血管，预防冠心病、中风、老年痴呆等是颇有裨益的。一次不要吃得太多，否则会影响消化。
+            2.吃核桃补大脑
+            核桃中所含的微量元素锌和锰是脑垂体的重要成分，常食核桃有益于大脑的营养补充，具有健脑益智的作用；核桃仁外形类似人脑部形状，有“以形补形”的补脑作用但是我说的以形补形不同於世俗的意思,人的脑是长这个样子，这个东西为什麼也会长这样子？核桃在形成的过程，它的基因会让它形成像脑部的样子，以形补形来补脑是指核桃仁形成的能量和我们脑部的一些能量相吻合，也就是说使核桃仁形成的能量（营养结构）使它刚好成为像人脑的这个形状，真正的意思是指食物的营养成分脑部吸收快。我们吃很多种食物，其内所含一些成分对我们的脑、身体也都有帮助，只是说各种养分吸收快慢不一。这是因为食物中各种营养成分在被人体吸收时，彼此会互相影响，有些成分会阻碍其他成分的吸收，有些则有促进其他成分吸收的作用。以核桃的组成而言，它具有许多有益於神经系统生长与发育的营养要素，而这些成分於脑部吸收过程有彼此互补的效果，因此都可以被脑部迅速的吸收与利用，达到有效补充脑部营养的目的。这才应该是以形补形补脑的真正含意。
+            3.核桃美容效果非凡
+            能营养肌肤，使人白嫩，特别是老年人皮肤衰老更宜常吃。核桃还能抗衰老，治疗神经衰弱的辅助剂，能延缓记忆力衰退。核桃仁中所含维生素E，可使细胞免受自由基的氧化损害，是医学界公认的抗衰老物质，所以核桃有“万岁子”、“长寿果”之称。
+            4.治疗胆石症
+            核桃仁中所含的丙酮酸能阻止粘蛋白和钙离子、非结合型胆红素的结合，并能使其溶解、消退和排泄。所以，有胆石症的患者，不妨坚持天天吃核桃仁，就有可能免除手术之苦。同样，核桃仁还可用于治疗尿结石。
+            5.防治神经衰弱
+            核桃可以充当神经衰弱的治疗剂，对于经常头晕、失眠、心悸、健忘、全身无力的人，每日早晚各吃1－2个核桃仁，可以起到一定的防治作用。
+            6.消炎杀菌
+            核桃仁榨油外用，具有收敛、消炎、抑制渗出和止痒的作用，可用于治疗皮炎、湿疹，有良好的疗效。
+            7.吃核桃对心脏也有好处
+            核桃具有多种不饱和与单一非饱和脂肪酸，能降低胆固醇含量。因此吃核核桃对人的心脏有一定的好处。
+            8.防止白发
+            核桃仁因为脂肪含量高，可使体型消瘦的人增胖；皮肤粗糙、干枯的人则变得润泽细腻光滑，富有弹性；对于头发早白的人，还有乌发、润发的作用。同时，还有补肾（治肾虚腰痛）整肠（治脾胃虚弱）、强化脚部、腰部力量的作用，对于产后妇女体力的功能，因此也是很好的“健脑食品”。
+        </rawdata>
+
+        <segment>
+            核桃  堪称  抗氧化  之  “  王  ”
+            美国  饮食  协会  建议  人们  ，  每  周  最  好吃  两  三  次  核桃  ，  尤其  中老年人  和  绝经期  妇女  ，  因为  核桃  中  所  含  的  精氨酸  、  油酸  、  抗氧化  物质  等  对  保护  心血管  ，  预防  冠心病  、  中风  、  老年  痴呆  等  是  颇有  裨益  的  。  一  次  不  要  吃得  太  多  ，  否则  会  影响  消化  。
+            吃  核桃  补  大脑
+            核桃  中  所  含  的  微量  元素  锌  和  锰是  脑垂体  的  重要  成分  ，  常食  核桃  有益于  大脑  的  营养  补充  ，  具有  健脑  益智  的  作用  ；  核桃仁  外形  类似  人脑  部  形状  ，  有  “  以  形  补  形  ”  的  补脑  作用  但是  我  说  的  以  形  补  形  不  同於  世俗  的  意思  ,  人  的  脑  是  长  这个  样子  ，  这个  东西  为  什麼  也  会长  这样子  ？  核桃  在  形成  的  过程  ，  它  的  基因  会  让  它  形成  像  脑部  的  样子  ，  以  形  补  形  来  补脑  是  指  核桃仁  形成  的  能量  和  我们  脑部  的  一些  能量  相  吻合  ，  也就是说  使  核桃仁  形成  的  能量  （  营养  结构  ）  使  它  刚好  成为  像  人脑  的  这个  形状  ，  真正  的  意思  是  指  食物  的  营养  成分  脑部  吸收  快  。  我们  吃  很多  种  食物  ，  其内  所含  一些  成分  对  我们  的  脑  、  身体  也  都  有  帮助  ，  只是  说  各  种  养分  吸收  快慢  不一  。  这  是  因为  食物  中  各  种  营养  成分  在  被  人体  吸收  时  ，  彼此  会  互相  影响  ，  有些  成分  会  阻碍  其他  成分  的  吸收  ，  有些  则  有  促进  其他  成分  吸收  的  作用  。  以  核桃  的  组成  而言  ，  它  具有  许多  有益  於  神经  系统  生长  与  发育  的  营养  要素  ，  而  这些  成分  於  脑部  吸收  过程  有  彼此  互补  的  效果  ，  因此  都  可以  被  脑部  迅速  的  吸收  与  利用  ，  达到  有效  补充  脑部  营养  的  目的  。  这  才  应该  是  以  形补  形  补脑  的  真正  含意  。
+            核桃  美容  效果  非凡
+            能  营养  肌肤  ，  使  人  白嫩  ，  特别是  老年人  皮肤  衰老  更  宜  常  吃  。  核桃  还  能  抗  衰老  ，  治疗  神经  衰弱  的  辅助剂  ，  能  延缓  记忆力  衰退  。  核桃仁  中  所  含  维生素E  ，  可使  细胞  免受  自由基  的  氧化  损害  ，  是  医学界  公认  的  抗  衰老  物质  ，  所以  核桃  有  “  万岁子  ”  、  “  长寿  果  ”  之  称  。
+            治疗  胆石症
+            核桃仁  中  所  含  的  丙酮酸  能  阻止  粘蛋白  和  钙  离子  、  非  结合  型  胆红素  的  结合  ，  并  能  使  其  溶解  、  消退  和  排泄  。  所以  ，  有  胆石症  的  患者  ，  不妨  坚持  天天  吃  核桃仁  ，  就  有  可能  免除  手术  之  苦  。  同样  ，  核桃仁  还  可  用于  治疗  尿  结石  。
+            防治  神经  衰弱
+            核桃  可以  充当  神经  衰弱  的  治疗剂  ，  对于  经常  头晕  、  失眠  、  心悸  、  健忘  、  全身  无力  的  人  ，  每  日  早晚  各  吃  1－2  个  核桃仁  ，  可以  起到  一定  的  防治  作用  。
+            消炎  杀菌
+            核桃仁  榨油  外用  ，  具有  收敛  、  消炎  、  抑制  渗出  和  止痒  的  作用  ，  可  用于  治疗  皮炎  、  湿疹  ，  有  良好  的  疗效  。
+            吃  核桃  对  心脏  也  有  好处
+            核桃  具有  多  种  不饱和  与  单一  非饱和  脂肪酸  ，  能  降低  胆固醇  含量  。  因此  吃  核  核桃  对人  的  心脏  有  一定  的  好处  。
+            防止  白发
+            核桃仁  因为  脂肪  含量  高  ，  可使  体型  消瘦  的  人  增胖  ；  皮肤  粗糙  、  干枯  的  人  则  变得  润泽  细腻  光滑  ，  富有  弹性  ；  对于  头发  早  白  的  人  ，  还有  乌发  、  润发  的  作用  。  同时  ，  还有  补  肾  （  治  肾虚  腰痛  ）  整  肠  （  治  脾胃  虚弱  ）  、  强化  脚部  、  腰部  力量  的  作用  ，  对于  产后  妇女  体力  的  功能  ，  因此  也  是  很  好  的  “  健脑  食品  ”  。
+        </segment>
+
+        <pos>
+            核桃#NN  堪称#VV  抗氧化#NN  之#DEG  ``#NN  王#NN  ''#NN
+            美国#NR  饮食#NN  协会#NN  建议#VV  人们#NN  ，#PU  每#DT  周#M  最#AD  好吃#VV  两#CD  三#CD  次#M  核桃#NN  ，#PU  尤其#AD  中老年人#VV  和#CC  绝经期#VV  妇女#NN  ，#PU  因为#P  核桃#NN  中#LC  所#MSP  含#VV  的#DEC  精氨酸#NN  、#PU  油酸#NN  、#PU  抗氧化#NN  物质#NN  等#ETC  对#P  保护#NN  心血管#VV  ，#PU  预防#NN  冠心病#NN  、#PU  中风#NN  、#PU  老年#NN  痴呆#NN  等#ETC  是#VC  颇有#VV  裨益#NN  的#DEC    。#PU  一#CD  次#M  不#AD  要#VV  吃得#AD  太#AD  多#VA  ，#PU  否则#AD  会#VV  影响#VV  消化#NN    。#PU    。#PU
+            吃#VV  核桃#NN  补#VV  大脑#NN
+            核桃#NN  中#LC  所#MSP  含#VV  的#DEC  微量#JJ  元素#NN  锌#NN  和#CC  锰是#NN  脑垂体#NN  的#DEG  重要#JJ  成分#NN  ，#PU  常食#NN  核桃#NN  有益于#VV  大脑#NR  的#DEG  营养#VA  补充#NN  ，#PU  具有#VV  健脑#NN  益智#NN  的#DEG  作用#NN  ；#PU  核桃仁#AD  外形#VV  类似#JJ  人脑#CD  部#M  形状#NN  ，#PU  有#VE  ``#NN  以#MSP  形#VV  补#VV  形#VV  ''#NN  的#DEC  补脑#NN  作用#NN  但是#AD  我#PN  说#VV  的#DEC  以#P  形#VV  补#NN  形#VV  不#AD  同於#VV  世俗#NN  的#DEC  意思#NN  ,#NN  人#NN  的#DEC  脑#NN  是#VC  长#JJ  这个#NN  样子#NN  ，#PU  这个#NN  东西#NN  为#P  什麼#NN  也#CC  会长#NN  这样子#CD  ？#PU  核桃#NR  在#P  形成#VV  的#DEC  过程#NN  ，#PU  它#PN  的#DEG  基因#NN  会#VV  让#VV  它#PN  形成#VV  像#P  脑部#NR  的#DEG  样子#NN  ，#PU  以#P  形#VV  补#NN  形#VV  来#LC  补脑#AD  是#VC  指#VV  核桃仁#AD  形成#VV  的#DEC  能量#NN  和#CC  我们#PN  脑部#VA  的#DEC  一些#CD  能量#NN  相#AD  吻合#VV  ，#PU  也就是说#AD  使#VV  核桃仁#AD  形成#VV  的#DEC  能量#NN  （#PU  营养#VA  结构#NN  ）#PU  使#VV  它#PN  刚好#AD  成为#VV  像#P  人脑#NR  的#DEC  这个#CD  形状#NN  ，#PU  真正#VA  的#DEC  意思#NN  是#VC  指#VV  食物#NN  的#DEC  营养#VA  成分#NN  脑部#NN  吸收#VV  快#VA    。#PU  我们#PN  吃#VV  很多#CD  种#M  食物#NN  ，#PU  其内#NN  所含#NN  一些#CD  成分#NN  对#P  我们#PN  的#DEG  脑#NN  、#PU  身体#NN  也#AD  都#AD  有#VE  帮助#NN  ，#PU  只是#AD  说#VV  各#DT  种#M  养分#NN  吸收#VV  快慢#NN  不一#VV    。#PU  这#PN  是#VC  因为#P  食物#NN  中#LC  各#DT  种#M  营养#VA  成分#NN  在#P  被#SB  人体#VV  吸收#NN  时#LC  ，#PU  彼此#PN  会#VV  互相#AD  影响#VV  ，#PU  有些#DT  成分#NN  会#VV  阻碍#VV  其他#DT  成分#NN  的#DEG  吸收#NN  ，#PU  有些#AD  则#AD  有#VE  促进#VV  其他#DT  成分#NN  吸收#VV  的#DEC  作用#NN    。#PU  以#P  核桃#NN  的#DEG  组成#NN  而言#NN  ，#PU  它#PN  具有#VV  许多#CD  有益#VA  於#VV  神经#NN  系统#NN  生长#NN  与#CC  发育#VV  的#DEC  营养#VA  要素#NN  ，#PU  而#AD  这些#DT  成分#NN  於#AD  脑部#VV  吸收#VV  过程#NN  有#VE  彼此#PN  互补#VV  的#DEC  效果#NN  ，#PU  因此#AD  都#AD  可以#VV  被#SB  脑部#VV  迅速#VA  的#DEC  吸收#NN  与#CC  利用#NN  ，#PU  达到#VV  有效#JJ  补充#NN  脑部#NN  营养#VA  的#DEC  目的#NN    。#PU  这#PN  才#AD  应该#VV  是#VC  以#P  形补#NN  形#VV  补脑#NN  的#DEC  真正#JJ  含意#NN    。#PU    。#PU
+            核桃#NN  美容#NN  效果#NN  非凡#VA
+            能#VV  营养#VA  肌肤#NN  ，#PU  使#VV  人#NN  白嫩#VV  ，#PU  特别是#AD  老年人#NN  皮肤#NN  衰老#NN  更#AD  宜#NR  常#AD  吃#VV    。#PU  核桃#NN  还#AD  能#VV  抗#VV  衰老#NN  ，#PU  治疗#VV  神经#NN  衰弱#NN  的#DEG  辅助剂#NN  ，#PU  能#VV  延缓#AD  记忆力#AD  衰退#VV    。#PU  核桃仁#NN  中#LC  所#MSP  含#VV  维生素E#NN  ，#PU  可使#VV  细胞#NN  免受#NN  自由基#NN  的#DEG  氧化#NN  损害#NN  ，#PU  是#VC  医学界#AD  公认#VV  的#DEC  抗#NN  衰老#NN  物质#NN  ，#PU  所以#AD  核桃#AD  有#VE  ``#NR  万岁子#CD  ''#NN  、#PU  ``#NR  长寿#NR  果#NN  ''#NN  之#DEG  称#NN    。#PU    。#PU
+            治疗#VV  胆石症#NN
+            核桃仁#NN  中#LC  所#MSP  含#VV  的#DEC  丙酮酸#NN  能#VV  阻止#VV  粘蛋白#NN  和#CC  钙#NN  离子#NN  、#PU  非#JJ  结合#NN  型#NN  胆红素#NN  的#DEG  结合#NN  ，#PU  并#CC  能#VV  使#VV  其#PN  溶解#NN  、#PU  消退#NN  和#CC  排泄#NN    。#PU  所以#AD  ，#PU  有#VE  胆石症#NN  的#DEG  患者#NN  ，#PU  不妨#AD  坚持#VV  天天#AD  吃#VV  核桃仁#NN  ，#PU  就#AD  有#VE  可能#NN  免除#VV  手术#NN  之#DEG  苦#NN    。#PU  同样#AD  ，#PU  核桃仁#AD  还#AD  可#VV  用于#VV  治疗#NN  尿#NN  结石#NN    。#PU    。#PU
+            防治#NN  神经#NN  衰弱#NN
+            核桃#NN  可以#VV  充当#VV  神经#NN  衰弱#NN  的#DEG  治疗剂#NN  ，#PU  对于#P  经常#JJ  头晕#NR  、#PU  失眠#NR  、#PU  心悸#NR  、#PU  健忘#NR  、#PU  全身#NR  无力#NN  的#DEG  人#NN  ，#PU  每#DT  日#M  早晚#NN  各#AD  吃#VV  1#CD  －#PU  2#CD  个#M  核桃仁#NN  ，#PU  可以#VV  起到#VV  一定#JJ  的#DEG  防治#NN  作用#NN  。#PU
+            消炎#NN  杀菌#VV
+            核桃仁#NN  榨油#VV  外用#NN  ，#PU  具有#VV  收敛#NN  、#PU  消炎#NN  、#PU  抑制#NN  渗出#NN  和#CC  止痒#NN  的#DEG  作用#NN  ，#PU  可#VV  用于#VV  治疗#NN  皮炎#NN  、#PU  湿疹#NN  ，#PU  有#VE  良好#VA  的#DEC  疗效#NN  。#PU
+            吃#VV  核桃#NN  对#P  心脏#NN  也#AD  有#VE  好处#NN
+            核桃#AD  具有#VV  多#CD  种#M  不饱和#NN  与#CC  单一#JJ  非饱和#NN  脂肪酸#NN  ，#PU  能#VV  降低#VV  胆固醇#NN  含量#NN    。#PU  因此#AD  吃#VV  核#NN  核桃#NN  对人#NN  的#DEC  心脏#NN  有#VE  一定#JJ  的#DEG  好处#NN    。#PU    。#PU
+            防止#VV  白发#NN
+            核桃仁#NN  因为#P  脂肪#NN  含量#NN  高#VA  ，#PU  可使#VV  体型#NN  消瘦#NN  的#DEC  人#NN  增胖#VV  ；#PU  皮肤#NR  粗糙#NR  、#PU  干枯#NR  的#DEG  人#NN  则#AD  变得#VV  润泽#NN  细腻#NN  光滑#NN  ，#PU  富有#VV  弹性#VV  ；#PU  对于#P  头发#NN  早#AD  白#VA  的#DEC  人#NN  ，#PU  还有#AD  乌发#VV  、#PU  润发#VV  的#DEC  作用#NN    。#PU  同时#AD  ，#PU  还有#AD  补#VV  肾#NR  （#PU  治#VV  肾虚#NN  腰痛#NN  ）#PU  整#JJ  肠#NN  （#PU  治#VV  脾胃#NN  虚弱#NN  ）#PU  、#PU  强化#NN  脚部#NN  、#PU  腰部#NN  力量#NN  的#DEC  作用#NN  ，#PU  对于#P  产后#NN  妇女#NN  体力#NN  的#DEG  功能#NN  ，#PU  因此#AD  也#AD  是#VC  很#AD  好#VA  的#DEC  ``#JJ  健脑#NN  食品#NN  ''#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nsubj, 堪称#VV, 核桃#NN)  (root, ROOT#null, 堪称#VV)  (assmod, ''#NN, 抗氧化#NN)  (case, 抗氧化#NN, 之#DEG)  (nn, ''#NN, ``#NN)  (nn, ''#NN, 王#NN)  (dobj, 堪称#VV, ''#NN)
+            (nn, 协会#NN, 美国#NR)  (nn, 协会#NN, 饮食#NN)  (nsubj, 建议#VV, 协会#NN)  (root, ROOT#null, 建议#VV)  (nsubj, 好吃#VV, 人们#NN)  (dep, 好吃#VV, 每#DT)  (clf, 每#DT, 周#M)  (advmod, 好吃#VV, 最#AD)  (ccomp, 建议#VV, 好吃#VV)  (nummod, 核桃#NN, 两#CD)  (nummod, 次#M, 三#CD)  (clf, 核桃#NN, 次#M)  (dobj, 好吃#VV, 核桃#NN)  (advmod, 中老年人#VV, 尤其#AD)  (dep, 好吃#VV, 中老年人#VV)  (cc, 中老年人#VV, 和#CC)  (dep, 中老年人#VV, 绝经期#VV)  (dobj, 绝经期#VV, 妇女#NN)  (case, 心血管#VV, 因为#P)  (loc, 含#VV, 核桃#NN)  (case, 核桃#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 物质#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (conj, 物质#NN, 精氨酸#NN)  (conj, 物质#NN, 油酸#NN)  (nn, 物质#NN, 抗氧化#NN)  (nsubj, 心血管#VV, 物质#NN)  (etc, 物质#NN, 等#ETC)  (case, 保护#NN, 对#P)  (prep, 心血管#VV, 保护#NN)  (prep, 颇有#VV, 心血管#VV)  (nn, 痴呆#NN, 预防#NN)  (conj, 痴呆#NN, 冠心病#NN)  (conj, 痴呆#NN, 中风#NN)  (nn, 痴呆#NN, 老年#NN)  (nsubj, 颇有#VV, 痴呆#NN)  (etc, 痴呆#NN, 等#ETC)  (cop, 颇有#VV, 是#VC)  (conj, 好吃#VV, 颇有#VV)  (dobj, 颇有#VV, 裨益#NN)  (mark, 颇有#VV, 的#DEC)   (nummod, 次#M, 一#CD)  (dep, 影响#VV, 次#M)  (neg, 影响#VV, 不#AD)  (mmod, 影响#VV, 要#VV)  (advmod, 影响#VV, 吃得#AD)  (advmod, 多#VA, 太#AD)  (dep, 影响#VV, 多#VA)  (advmod, 影响#VV, 否则#AD)  (mmod, 影响#VV, 会#VV)  (root, ROOT#null, 影响#VV)  (dobj, 影响#VV, 消化#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 吃#VV)  (dobj, 吃#VV, 核桃#NN)  (conj, 吃#VV, 补#VV)  (dobj, 补#VV, 大脑#NN)
+            (dep, 锌#NN, 核桃#NN)  (case, 核桃#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 锌#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (amod, 锌#NN, 微量#JJ)  (nn, 锌#NN, 元素#NN)  (conj, 成分#NN, 锌#NN)  (cc, 成分#NN, 和#CC)  (nn, 脑垂体#NN, 锰是#NN)  (assmod, 成分#NN, 脑垂体#NN)  (case, 脑垂体#NN, 的#DEG)  (amod, 成分#NN, 重要#JJ)  (nsubj, 有益于#VV, 成分#NN)  (nn, 核桃#NN, 常食#NN)  (nsubj, 有益于#VV, 核桃#NN)  (root, ROOT#null, 有益于#VV)  (assmod, 补充#NN, 大脑#NR)  (case, 大脑#NR, 的#DEG)  (nfincl, 补充#NN, 营养#VA)  (dobj, 有益于#VV, 补充#NN)  (conj, 有益于#VV, 具有#VV)  (nn, 益智#NN, 健脑#NN)  (assmod, 作用#NN, 益智#NN)  (case, 益智#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (advmod, 外形#VV, 核桃仁#AD)  (conj, 有益于#VV, 外形#VV)  (amod, 形状#NN, 类似#JJ)  (nummod, 部#M, 人脑#CD)  (clf, 形状#NN, 部#M)  (dobj, 外形#VV, 形状#NN)  (conj, 有益于#VV, 有#VE)  (dobj, 有#VE, ``#NN)  (prtmod, 形#VV, 以#MSP)  (conj, 有#VE, 形#VV)  (mmod, 形#VV, 补#VV)  (relcl, 作用#NN, 形#VV)  (dobj, 形#VV, ''#NN)  (mark, 形#VV, 的#DEC)  (nn, 作用#NN, 补脑#NN)  (dobj, 形#VV, 作用#NN)  (advmod, 样子#NN, 但是#AD)  (nsubj, 说#VV, 我#PN)  (relcl, 脑#NN, 说#VV)  (mark, 说#VV, 的#DEC)  (case, 形#VV, 以#P)  (prep, 形#VV, 形#VV)  (dobj, 形#VV, 补#NN)  (relcl, 脑#NN, 形#VV)  (neg, 同於#VV, 不#AD)  (relcl, 人#NN, 同於#VV)  (dobj, 同於#VV, 世俗#NN)  (mark, 同於#VV, 的#DEC)  (nn, 人#NN, 意思#NN)  (dobj, 形#VV, 人#NN)  (mark, 形#VV, 的#DEC)  (nsubj, 样子#NN, 脑#NN)  (cop, 样子#NN, 是#VC)  (amod, 样子#NN, 长#JJ)  (nn, 样子#NN, 这个#NN)  (conj, 有益于#VV, 样子#NN)  (nn, 东西#NN, 这个#NN)  (nsubj, 营养#VA, 东西#NN)  (case, 使#VV, 为#P)  (conj, 会长#NN, 什麼#NN)  (cc, 会长#NN, 也#CC)  (nn, 能量#NN, 会长#NN)  (dep, 指#VV, 这样子#CD)  (nsubj, 指#VV, 核桃#NR)  (case, 让#VV, 在#P)  (relcl, 过程#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (nsubj, 让#VV, 过程#NN)  (assmod, 基因#NN, 它#PN)  (case, 它#PN, 的#DEG)  (nsubj, 让#VV, 基因#NN)  (mmod, 让#VV, 会#VV)  (prep, 指#VV, 让#VV)  (nsubj, 形成#VV, 它#PN)  (ccomp, 让#VV, 形成#VV)  (case, 脑部#NR, 像#P)  (assmod, 样子#NN, 脑部#NR)  (case, 脑部#NR, 的#DEG)  (dobj, 形成#VV, 样子#NN)  (case, 形#VV, 以#P)  (prep, 形#VV, 形#VV)  (dobj, 形#VV, 补#NN)  (conj, 形成#VV, 形#VV)  (case, 让#VV, 来#LC)  (advmod, 指#VV, 补脑#AD)  (conj, 指#VV, 是#VC)  (cop, 指#VV, 是#VC)  (relcl, 会长#NN, 指#VV)  (relcl, 能量#NN, 指#VV)  (advmod, 形成#VV, 核桃仁#AD)  (relcl, 能量#NN, 形成#VV)  (mark, 形成#VV, 的#DEC)  (dobj, 指#VV, 能量#NN)  (cc, 指#VV, 和#CC)  (nsubj, 脑部#VA, 我们#PN)  (relcl, 能量#NN, 脑部#VA)  (mark, 脑部#VA, 的#DEC)  (nummod, 能量#NN, 一些#CD)  (nsubj, 吻合#VV, 能量#NN)  (xsubj, 形成#VV, 能量#NN)  (advmod, 吻合#VV, 相#AD)  (conj, 指#VV, 吻合#VV)  (advmod, 使#VV, 也就是说#AD)  (dep, 吻合#VV, 使#VV)  (advmod, 形成#VV, 核桃仁#AD)  (ccomp, 使#VV, 形成#VV)  (mark, 指#VV, 的#DEC)  (nsubj, 使#VV, 能量#NN)  (prnmod, 能量#NN, 营养#VA)  (dobj, 营养#VA, 结构#NN)  (prep, 营养#VA, 使#VV)  (nn, 形状#NN, 它#PN)  (advmod, 这个#CD, 刚好#AD)  (dep, 这个#CD, 成为#VV)  (case, 人脑#NR, 像#P)  (prep, 成为#VV, 人脑#NR)  (mark, 成为#VV, 的#DEC)  (nummod, 形状#NN, 这个#CD)  (dobj, 使#VV, 形状#NN)  (relcl, 意思#NN, 真正#VA)  (mark, 真正#VA, 的#DEC)  (nsubj, 指#VV, 意思#NN)  (cop, 指#VV, 是#VC)  (dep, 使#VV, 指#VV)  (dobj, 指#VV, 食物#NN)  (mark, 指#VV, 的#DEC)  (conj, 样子#NN, 营养#VA)  (nn, 脑部#NN, 成分#NN)  (nsubj, 吸收#VV, 脑部#NN)  (conj, 有益于#VV, 吸收#VV)  (ccomp, 吸收#VV, 快#VA)   (nsubj, 吃#VV, 我们#PN)  (root, ROOT#null, 吃#VV)  (nummod, 种#M, 很多#CD)  (clf, 食物#NN, 种#M)  (dobj, 吃#VV, 食物#NN)  (nn, 所含#NN, 其内#NN)  (nn, 成分#NN, 所含#NN)  (nummod, 成分#NN, 一些#CD)  (nsubj, 有#VE, 成分#NN)  (case, 身体#NN, 对#P)  (assmod, 身体#NN, 我们#PN)  (case, 我们#PN, 的#DEG)  (conj, 身体#NN, 脑#NN)  (prep, 有#VE, 身体#NN)  (advmod, 有#VE, 也#AD)  (advmod, 有#VE, 都#AD)  (conj, 吃#VV, 有#VE)  (dobj, 有#VE, 帮助#NN)  (advmod, 说#VV, 只是#AD)  (dep, 有#VE, 说#VV)  (det, 养分#NN, 各#DT)  (clf, 各#DT, 种#M)  (nsubj, 吸收#VV, 养分#NN)  (ccomp, 说#VV, 吸收#VV)  (dobj, 吸收#VV, 快慢#NN)  (conj, 吸收#VV, 不一#VV)   (nsubj, 是#VC, 这#PN)  (root, ROOT#null, 是#VC)  (case, 食物#NN, 因为#P)  (prep, 是#VC, 食物#NN)  (case, 食物#NN, 中#LC)  (det, 成分#NN, 各#DT)  (clf, 各#DT, 种#M)  (nfincl, 成分#NN, 营养#VA)  (nsubj, 影响#VV, 成分#NN)  (case, 人体#VV, 在#P)  (auxpass, 人体#VV, 被#SB)  (prep, 影响#VV, 人体#VV)  (dobj, 人体#VV, 吸收#NN)  (case, 人体#VV, 时#LC)  (nsubj, 影响#VV, 彼此#PN)  (mmod, 影响#VV, 会#VV)  (advmod, 影响#VV, 互相#AD)  (conj, 是#VC, 影响#VV)  (det, 成分#NN, 有些#DT)  (nsubj, 阻碍#VV, 成分#NN)  (mmod, 阻碍#VV, 会#VV)  (conj, 影响#VV, 阻碍#VV)  (det, 成分#NN, 其他#DT)  (assmod, 吸收#NN, 成分#NN)  (case, 成分#NN, 的#DEG)  (dobj, 阻碍#VV, 吸收#NN)  (advmod, 有#VE, 有些#AD)  (advmod, 有#VE, 则#AD)  (conj, 影响#VV, 有#VE)  (relcl, 作用#NN, 促进#VV)  (det, 成分#NN, 其他#DT)  (dobj, 促进#VV, 成分#NN)  (conj, 促进#VV, 吸收#VV)  (mark, 促进#VV, 的#DEC)  (dobj, 有#VE, 作用#NN)   (case, 而言#NN, 以#P)  (assmod, 而言#NN, 核桃#NN)  (case, 核桃#NN, 的#DEG)  (nn, 而言#NN, 组成#NN)  (prep, 具有#VV, 而言#NN)  (nsubj, 具有#VV, 它#PN)  (root, ROOT#null, 具有#VV)  (nummod, 要素#NN, 许多#CD)  (relcl, 要素#NN, 有益#VA)  (dep, 有益#VA, 於#VV)  (nn, 生长#NN, 神经#NN)  (nn, 生长#NN, 系统#NN)  (dobj, 於#VV, 生长#NN)  (cc, 於#VV, 与#CC)  (conj, 於#VV, 发育#VV)  (mark, 有益#VA, 的#DEC)  (relcl, 要素#NN, 营养#VA)  (dobj, 具有#VV, 要素#NN)  (advmod, 脑部#VV, 而#AD)  (det, 成分#NN, 这些#DT)  (nsubj, 脑部#VV, 成分#NN)  (advmod, 脑部#VV, 於#AD)  (conj, 具有#VV, 脑部#VV)  (relcl, 效果#NN, 吸收#VV)  (dobj, 吸收#VV, 过程#NN)  (conj, 吸收#VV, 有#VE)  (nsubj, 互补#VV, 彼此#PN)  (dep, 有#VE, 互补#VV)  (mark, 吸收#VV, 的#DEC)  (dobj, 脑部#VV, 效果#NN)  (advmod, 脑部#VV, 因此#AD)  (advmod, 脑部#VV, 都#AD)  (mmod, 脑部#VV, 可以#VV)  (auxpass, 脑部#VV, 被#SB)  (conj, 具有#VV, 脑部#VV)  (relcl, 利用#NN, 迅速#VA)  (mark, 迅速#VA, 的#DEC)  (conj, 利用#NN, 吸收#NN)  (cc, 利用#NN, 与#CC)  (dobj, 脑部#VV, 利用#NN)  (dep, 脑部#VV, 达到#VV)  (amod, 补充#NN, 有效#JJ)  (nn, 脑部#NN, 补充#NN)  (nsubj, 营养#VA, 脑部#NN)  (relcl, 目的#NN, 营养#VA)  (mark, 营养#VA, 的#DEC)  (dobj, 达到#VV, 目的#NN)   (nsubj, 含意#NN, 这#PN)  (advmod, 含意#NN, 才#AD)  (mmod, 含意#NN, 应该#VV)  (cop, 含意#NN, 是#VC)  (case, 形补#NN, 以#P)  (prep, 形#VV, 形补#NN)  (relcl, 含意#NN, 形#VV)  (dobj, 形#VV, 补脑#NN)  (mark, 形#VV, 的#DEC)  (amod, 含意#NN, 真正#JJ)  (root, ROOT#null, 含意#NN)   (root, ROOT#null, null#null)
+            (nn, 效果#NN, 核桃#NN)  (nn, 效果#NN, 美容#NN)  (nsubj, 非凡#VA, 效果#NN)  (root, ROOT#null, 非凡#VA)
+            (root, ROOT#null, 能#VV)  (nfincl, 肌肤#NN, 营养#VA)  (dobj, 能#VV, 肌肤#NN)  (conj, 能#VV, 使#VV)  (dobj, 使#VV, 人#NN)  (dep, 使#VV, 白嫩#VV)  (advmod, 衰老#NN, 特别是#AD)  (nn, 衰老#NN, 老年人#NN)  (nn, 衰老#NN, 皮肤#NN)  (nsubj, 吃#VV, 衰老#NN)  (advmod, 吃#VV, 更#AD)  (dobj, 吃#VV, 宜#NR)  (advmod, 吃#VV, 常#AD)  (ccomp, 白嫩#VV, 吃#VV)   (nsubj, 抗#VV, 核桃#NN)  (advmod, 抗#VV, 还#AD)  (mmod, 抗#VV, 能#VV)  (root, ROOT#null, 抗#VV)  (dobj, 抗#VV, 衰老#NN)  (conj, 抗#VV, 治疗#VV)  (nn, 衰弱#NN, 神经#NN)  (assmod, 辅助剂#NN, 衰弱#NN)  (case, 衰弱#NN, 的#DEG)  (dobj, 治疗#VV, 辅助剂#NN)  (mmod, 衰退#VV, 能#VV)  (advmod, 衰退#VV, 延缓#AD)  (advmod, 衰退#VV, 记忆力#AD)  (conj, 抗#VV, 衰退#VV)   (loc, 含#VV, 核桃仁#NN)  (case, 核桃仁#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (root, ROOT#null, 含#VV)  (dobj, 含#VV, 维生素E#NN)  (dep, 含#VV, 可使#VV)  (nn, 自由基#NN, 细胞#NN)  (nn, 自由基#NN, 免受#NN)  (assmod, 损害#NN, 自由基#NN)  (case, 自由基#NN, 的#DEG)  (nn, 损害#NN, 氧化#NN)  (dobj, 可使#VV, 损害#NN)  (cop, 物质#NN, 是#VC)  (advmod, 公认#VV, 医学界#AD)  (relcl, 物质#NN, 公认#VV)  (mark, 公认#VV, 的#DEC)  (nn, 物质#NN, 抗#NN)  (nn, 物质#NN, 衰老#NN)  (conj, 含#VV, 物质#NN)  (advmod, 有#VE, 所以#AD)  (advmod, 有#VE, 核桃#AD)  (conj, 含#VV, 有#VE)  (nn, ''#NN, ``#NR)  (nummod, ''#NN, 万岁子#CD)  (conj, ''#NN, ''#NN)  (nn, ''#NN, ``#NR)  (nn, ''#NN, 长寿#NR)  (nn, ''#NN, 果#NN)  (assmod, 称#NN, ''#NN)  (case, ''#NN, 之#DEG)  (dobj, 有#VE, 称#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 治疗#VV)  (dobj, 治疗#VV, 胆石症#NN)
+            (loc, 含#VV, 核桃仁#NN)  (case, 核桃仁#NN, 中#LC)  (prtmod, 含#VV, 所#MSP)  (relcl, 丙酮酸#NN, 含#VV)  (mark, 含#VV, 的#DEC)  (nsubj, 阻止#VV, 丙酮酸#NN)  (mmod, 阻止#VV, 能#VV)  (root, ROOT#null, 阻止#VV)  (conj, 离子#NN, 粘蛋白#NN)  (cc, 离子#NN, 和#CC)  (nn, 离子#NN, 钙#NN)  (conj, 结合#NN, 离子#NN)  (amod, 结合#NN, 非#JJ)  (nn, 型#NN, 结合#NN)  (nn, 胆红素#NN, 型#NN)  (assmod, 结合#NN, 胆红素#NN)  (case, 胆红素#NN, 的#DEG)  (dobj, 阻止#VV, 结合#NN)  (cc, 阻止#VV, 并#CC)  (mmod, 使#VV, 能#VV)  (conj, 阻止#VV, 使#VV)  (nsubj, 排泄#NN, 其#PN)  (conj, 排泄#NN, 溶解#NN)  (conj, 排泄#NN, 消退#NN)  (cc, 排泄#NN, 和#CC)  (ccomp, 使#VV, 排泄#NN)   (advmod, 有#VE, 所以#AD)  (conj, 免除#VV, 有#VE)  (assmod, 患者#NN, 胆石症#NN)  (case, 胆石症#NN, 的#DEG)  (dobj, 有#VE, 患者#NN)  (advmod, 坚持#VV, 不妨#AD)  (conj, 有#VE, 坚持#VV)  (advmod, 吃#VV, 天天#AD)  (ccomp, 坚持#VV, 吃#VV)  (dobj, 吃#VV, 核桃仁#NN)  (advmod, 有#VE, 就#AD)  (conj, 有#VE, 有#VE)  (dobj, 有#VE, 可能#NN)  (root, ROOT#null, 免除#VV)  (assmod, 苦#NN, 手术#NN)  (case, 手术#NN, 之#DEG)  (dobj, 免除#VV, 苦#NN)   (advmod, 用于#VV, 同样#AD)  (advmod, 用于#VV, 核桃仁#AD)  (advmod, 用于#VV, 还#AD)  (mmod, 用于#VV, 可#VV)  (root, ROOT#null, 用于#VV)  (nn, 结石#NN, 治疗#NN)  (nn, 结石#NN, 尿#NN)  (dobj, 用于#VV, 结石#NN)   (root, ROOT#null, null#null)
+            (nn, 衰弱#NN, 防治#NN)  (nn, 衰弱#NN, 神经#NN)  (root, ROOT#null, 衰弱#NN)
+            (nsubj, 充当#VV, 核桃#NN)  (mmod, 充当#VV, 可以#VV)  (root, ROOT#null, 充当#VV)  (nn, 衰弱#NN, 神经#NN)  (assmod, 治疗剂#NN, 衰弱#NN)  (case, 衰弱#NN, 的#DEG)  (dobj, 充当#VV, 治疗剂#NN)  (case, 人#NN, 对于#P)  (amod, 无力#NN, 经常#JJ)  (conj, 全身#NR, 头晕#NR)  (conj, 全身#NR, 失眠#NR)  (conj, 全身#NR, 心悸#NR)  (conj, 全身#NR, 健忘#NR)  (nn, 无力#NN, 全身#NR)  (assmod, 人#NN, 无力#NN)  (case, 无力#NN, 的#DEG)  (prep, 吃#VV, 人#NN)  (det, 早晚#NN, 每#DT)  (clf, 每#DT, 日#M)  (nsubj, 吃#VV, 早晚#NN)  (advmod, 吃#VV, 各#AD)  (conj, 充当#VV, 吃#VV)  (range, 吃#VV, 1#CD)  (nummod, 个#M, 2#CD)  (clf, 核桃仁#NN, 个#M)  (nsubj, 起到#VV, 核桃仁#NN)  (mmod, 起到#VV, 可以#VV)  (conj, 充当#VV, 起到#VV)  (assmod, 作用#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (nn, 作用#NN, 防治#NN)  (dobj, 起到#VV, 作用#NN)
+            (nsubj, 杀菌#VV, 消炎#NN)  (root, ROOT#null, 杀菌#VV)
+            (nsubj, 榨油#VV, 核桃仁#NN)  (root, ROOT#null, 榨油#VV)  (dobj, 榨油#VV, 外用#NN)  (conj, 榨油#VV, 具有#VV)  (conj, 止痒#NN, 收敛#NN)  (conj, 止痒#NN, 消炎#NN)  (nn, 止痒#NN, 抑制#NN)  (conj, 止痒#NN, 渗出#NN)  (cc, 止痒#NN, 和#CC)  (assmod, 作用#NN, 止痒#NN)  (case, 止痒#NN, 的#DEG)  (dobj, 具有#VV, 作用#NN)  (mmod, 用于#VV, 可#VV)  (conj, 榨油#VV, 用于#VV)  (nn, 湿疹#NN, 治疗#NN)  (conj, 湿疹#NN, 皮炎#NN)  (dobj, 用于#VV, 湿疹#NN)  (conj, 榨油#VV, 有#VE)  (relcl, 疗效#NN, 良好#VA)  (mark, 良好#VA, 的#DEC)  (dobj, 有#VE, 疗效#NN)
+            (relcl, 核桃#NN, 吃#VV)  (nsubj, 有#VE, 核桃#NN)  (case, 心脏#NN, 对#P)  (prep, 有#VE, 心脏#NN)  (advmod, 有#VE, 也#AD)  (root, ROOT#null, 有#VE)  (dobj, 有#VE, 好处#NN)
+            (advmod, 具有#VV, 核桃#AD)  (root, ROOT#null, 具有#VV)  (nummod, 种#M, 多#CD)  (clf, 不饱和#NN, 种#M)  (conj, 脂肪酸#NN, 不饱和#NN)  (cc, 脂肪酸#NN, 与#CC)  (amod, 非饱和#NN, 单一#JJ)  (nn, 脂肪酸#NN, 非饱和#NN)  (dobj, 具有#VV, 脂肪酸#NN)  (mmod, 降低#VV, 能#VV)  (dep, 具有#VV, 降低#VV)  (nn, 含量#NN, 胆固醇#NN)  (dobj, 降低#VV, 含量#NN)   (advmod, 吃#VV, 因此#AD)  (relcl, 心脏#NN, 吃#VV)  (nn, 对人#NN, 核#NN)  (nn, 对人#NN, 核桃#NN)  (dobj, 吃#VV, 对人#NN)  (mark, 吃#VV, 的#DEC)  (dep, 有#VE, 心脏#NN)  (root, ROOT#null, 有#VE)  (assmod, 好处#NN, 一定#JJ)  (case, 一定#JJ, 的#DEG)  (dobj, 有#VE, 好处#NN)   (root, ROOT#null, null#null)
+            (root, ROOT#null, 防止#VV)  (dobj, 防止#VV, 白发#NN)
+            (nsubj, 可使#VV, 核桃仁#NN)  (case, 高#VA, 因为#P)  (nn, 含量#NN, 脂肪#NN)  (nsubj, 高#VA, 含量#NN)  (prep, 可使#VV, 高#VA)  (relcl, 人#NN, 可使#VV)  (nn, 消瘦#NN, 体型#NN)  (dobj, 可使#VV, 消瘦#NN)  (mark, 可使#VV, 的#DEC)  (nsubj, 增胖#VV, 人#NN)  (root, ROOT#null, 增胖#VV)  (nn, 干枯#NR, 皮肤#NR)  (conj, 干枯#NR, 粗糙#NR)  (assmod, 人#NN, 干枯#NR)  (case, 干枯#NR, 的#DEG)  (nsubj, 变得#VV, 人#NN)  (advmod, 变得#VV, 则#AD)  (ccomp, 增胖#VV, 变得#VV)  (nn, 光滑#NN, 润泽#NN)  (nn, 光滑#NN, 细腻#NN)  (dobj, 变得#VV, 光滑#NN)  (dep, 变得#VV, 富有#VV)  (relcl, 作用#NN, 弹性#VV)  (case, 人#NN, 对于#P)  (nsubj, 白#VA, 头发#NN)  (advmod, 白#VA, 早#AD)  (relcl, 人#NN, 白#VA)  (mark, 白#VA, 的#DEC)  (prep, 乌发#VV, 人#NN)  (advmod, 乌发#VV, 还有#AD)  (ccomp, 弹性#VV, 乌发#VV)  (dep, 乌发#VV, 润发#VV)  (mark, 弹性#VV, 的#DEC)  (dobj, 富有#VV, 作用#NN)   (advmod, ''#NN, 同时#AD)  (advmod, ''#NN, 还有#AD)  (relcl, 作用#NN, 补#VV)  (nn, 肠#NN, 肾#NR)  (prnmod, 肠#NN, 治#VV)  (nn, 腰痛#NN, 肾虚#NN)  (dobj, 治#VV, 腰痛#NN)  (amod, 肠#NN, 整#JJ)  (nn, 力量#NN, 肠#NN)  (prnmod, 力量#NN, 治#VV)  (nn, 虚弱#NN, 脾胃#NN)  (dobj, 治#VV, 虚弱#NN)  (nn, 脚部#NN, 强化#NN)  (conj, 力量#NN, 脚部#NN)  (nn, 力量#NN, 腰部#NN)  (dobj, 补#VV, 力量#NN)  (mark, 补#VV, 的#DEC)  (dep, ''#NN, 作用#NN)  (case, 功能#NN, 对于#P)  (nn, 体力#NN, 产后#NN)  (nn, 体力#NN, 妇女#NN)  (assmod, 功能#NN, 体力#NN)  (case, 体力#NN, 的#DEG)  (prep, ''#NN, 功能#NN)  (advmod, ''#NN, 因此#AD)  (advmod, ''#NN, 也#AD)  (cop, ''#NN, 是#VC)  (advmod, 好#VA, 很#AD)  (relcl, ''#NN, 好#VA)  (mark, 好#VA, 的#DEC)  (amod, ''#NN, ``#JJ)  (nn, ''#NN, 健脑#NN)  (nn, ''#NN, 食品#NN)  (root, ROOT#null, ''#NN)
+        </parsing>
+
+        <tag>
+            堪称  饮食协会  建议  绝经期妇女  预防痴呆  冠心病  中风  老年痴呆  颇有裨益  影响消化  含锌  微量锌  锰是脑垂体  有益于补充  健脑益智  类似形状  外形形状  说脑  形脑  同於人  同於世俗  长样子  这个样子  这个东西  东西营养  什麼  会长能量  形成过程  形成样子  指会长  指能量  形成能量  能量脑部  营养结构  意思真正  吸收快慢  人体吸收  阻碍吸收  组成而言  要素有益  神经生长  系统生长  要素营养  吸收效果  吸收过程  脑部效果  利用迅速  脑部利用  有效补充  补充脑部  脑部营养  形含意  真正含意  美容效果  效果非凡  老年人衰老  皮肤衰老  神经衰弱  治疗辅助剂  细胞自由基  免受自由基  氧化损害  可使损害  治疗胆石症  含丙酮酸  离子  粘蛋白  非结合  胆红素  阻止结合  排泄  溶解  消退  免除苦  治疗结石  用于结石  防治衰弱  充当治疗剂  经常无力  全身  头晕  失眠  心悸  健忘  杀菌  榨油外用  收敛  消炎  抑制止痒  渗出  治疗湿疹  皮炎  用于湿疹  疗效良好  不饱和  单一非饱和  非饱和脂肪酸  吃心脏  防止白发  可使人  体型消瘦  可使消瘦  增胖  干枯  粗糙  润泽光滑  细腻光滑  变得光滑  肾虚腰痛  整肠  脾胃虚弱  强化脚部  腰部力量  产后体力  妇女体力  
+        </tag>
+    </effect>
+
+    <manuleffecttag>
+        缓解体力疲劳  辅助降血脂  延缓衰老  护肝  美容养颜  润肠通便  平喘  补肾阴  纳气平喘  温肺  抗癌防癌
+    </manuleffecttag>
+
+    <nutrition>
+        <rawdata>
+            1.核桃含有丰富的不饱脂肪酸，经常食用核桃，不但不会升高血糖，还能减少肠道对胆固醇的吸收，适合高血脂、高血压、冠心病病人食用，核桃含有大量的脂肪，能润肠，治疗大便秘结，可使消瘦的人增重。
+            2.核桃中的脂肪酸只要是亚油酸，他是人体的必需脂肪酸，是人体理想的肌肤美容剂。
+            3.核桃含有丰富的维生素B族和维生素E，可以细胞老化，有健脑，增强记忆力和延缓衰老的作用。
+            4.核桃仁含有亚麻油酸及钙、磷、铁，是人体理想的肌肤美容剂，经常食用有润肌肤、乌须发，及具有防治头发过早变白和脱落的功能。
+            5.核桃仁还含有多种人体需要的微量元素，是中成药的重要辅料，有顺气补血，止咳化痰，润肺补肾等功能。当感到疲劳时，嚼些核桃仁，有缓解疲劳和压力。
+        </rawdata>
+
+        <segment>
+            核桃  含有  丰富  的  不  饱  脂肪酸  ，  经常  食用  核桃  ，  不但  不  会  升高  血糖  ，  还  能  减少  肠道  对  胆固醇  的  吸收  ，  适合  高血脂  、  高  血压  、  冠心病  病人  食用  ，  核桃  含有  大量  的  脂肪  ，  能  润肠  ，  治疗  大便  秘结  ，  可使  消瘦  的  人  增重  。
+            核桃  中  的  脂肪酸  只要  是  亚油酸  ，  他  是  人体  的  必需  脂肪酸  ，  是  人体  理想  的  肌肤  美容  剂  。
+            核桃  含有  丰富  的  维生素  B  族  和  维生素E  ，  可以  细胞  老化  ，  有  健脑  ，  增强  记忆力  和  延缓  衰老  的  作用  。
+            核桃仁  含有  亚麻  油酸  及  钙  、  磷  、  铁  ，  是  人体  理想  的  肌肤  美容  剂  ，  经常  食用  有润  肌肤  、  乌  须发  ，  及  具有  防治  头发  过早  变白  和  脱落  的  功能  。
+            核桃仁  还  含有  多  种  人体  需要  的  微量  元素  ，  是  中成药  的  重要  辅料  ，  有  顺气  补血  ，  止咳  化痰  ，  润肺  补肾  等  功能  。  当  感到  疲劳  时  ，  嚼  些  核桃仁  ，  有  缓解  疲劳  和  压力  。
+        </segment>
+
+        <pos>
+            核桃#NN  含有#NN  丰富#VA  的#DEC  不#AD  饱#AD  脂肪酸#VV  ，#PU  经常#AD  食用#VV  核桃#NN  ，#PU  不但#CC  不#AD  会#VV  升高#VV  血糖#NN  ，#PU  还#AD  能#VV  减少#VV  肠道#VV  对#P  胆固醇#NN  的#DEG  吸收#NN  ，#PU  适合#VV  高血脂#NN  、#PU  高#JJ  血压#NN  、#PU  冠心病#NN  病人#NN  食用#VV  ，#PU  核桃#VV  含有#VV  大量#CD  的#DEC  脂肪#NN  ，#PU  能#VV  润肠#NN  ，#PU  治疗#VV  大便#NN  秘结#NN  ，#PU  可使#VV  消瘦#NN  的#DEC  人#NN  增重#NN  。#PU
+            核桃#NN  中#LC  的#DEG  脂肪酸#NN  只要#CS  是#VC  亚油酸#NN  ，#PU  他#PN  是#VC  人体#VA  的#DEC  必需#VV  脂肪酸#NN  ，#PU  是#VC  人体#AD  理想#VA  的#DEC  肌肤#NN  美容#NN  剂#NN  。#PU
+            核桃#NN  含有#VV  丰富#VA  的#DEC  维生素#NN  B#NN  族#NN  和#CC  维生素E#NN  ，#PU  可以#VV  细胞#NN  老化#NN  ，#PU  有#VE  健脑#NN  ，#PU  增强#VV  记忆力#NN  和#CC  延缓#NN  衰老#NN  的#DEG  作用#NN  。#PU
+            核桃仁#NN  含有#VV  亚麻#NN  油酸#NN  及#CC  钙#NN  、#PU  磷#NN  、#PU  铁#NN  ，#PU  是#VC  人体#AD  理想#VA  的#DEC  肌肤#NN  美容#NN  剂#NN  ，#PU  经常#AD  食用#VV  有润#NN  肌肤#NN  、#PU  乌#NR  须发#NN  ，#PU  及#CC  具有#VV  防治#NN  头发#NN  过早#NN  变白#NN  和#CC  脱落#NN  的#DEG  功能#NN  。#PU
+            核桃仁#NN  还#AD  含有#VV  多#CD  种#M  人体#AD  需要#VV  的#DEC  微量#JJ  元素#NN  ，#PU  是#VC  中成药#NN  的#DEG  重要#JJ  辅料#NN  ，#PU  有#VE  顺气#NN  补血#NN  ，#PU  止咳#VV  化痰#NN  ，#PU  润肺#VV  补肾#NN  等#ETC  功能#NN    。#PU  当#P  感到#VV  疲劳#VA  时#LC  ，#PU  嚼#CD  些#M  核桃仁#NN  ，#PU  有#VE  缓解#VV  疲劳#VA  和#CC  压力#NN    。#PU
+        </pos>
+
+        <parsing>
+            (nn, 含有#NN, 核桃#NN)  (nsubj, 丰富#VA, 含有#NN)  (nsubj, 脂肪酸#VV, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (neg, 脂肪酸#VV, 不#AD)  (advmod, 脂肪酸#VV, 饱#AD)  (root, ROOT#null, 脂肪酸#VV)  (advmod, 食用#VV, 经常#AD)  (dep, 脂肪酸#VV, 食用#VV)  (dobj, 食用#VV, 核桃#NN)  (cc, 脂肪酸#VV, 不但#CC)  (neg, 升高#VV, 不#AD)  (mmod, 升高#VV, 会#VV)  (dep, 脂肪酸#VV, 升高#VV)  (dobj, 升高#VV, 血糖#NN)  (advmod, 能#VV, 还#AD)  (dep, 脂肪酸#VV, 能#VV)  (mmod, 肠道#VV, 减少#VV)  (relcl, 增重#NN, 肠道#VV)  (case, 胆固醇#NN, 对#P)  (assmod, 吸收#NN, 胆固醇#NN)  (case, 胆固醇#NN, 的#DEG)  (dobj, 肠道#VV, 吸收#NN)  (conj, 肠道#VV, 适合#VV)  (conj, 病人#NN, 高血脂#NN)  (amod, 血压#NN, 高#JJ)  (conj, 病人#NN, 血压#NN)  (nn, 病人#NN, 冠心病#NN)  (dobj, 适合#VV, 病人#NN)  (conj, 适合#VV, 食用#VV)  (conj, 肠道#VV, 核桃#VV)  (relcl, 脂肪#NN, 含有#VV)  (range, 含有#VV, 大量#CD)  (mark, 含有#VV, 的#DEC)  (dobj, 核桃#VV, 脂肪#NN)  (conj, 肠道#VV, 能#VV)  (dobj, 能#VV, 润肠#NN)  (conj, 肠道#VV, 治疗#VV)  (nn, 秘结#NN, 大便#NN)  (dobj, 治疗#VV, 秘结#NN)  (conj, 肠道#VV, 可使#VV)  (dobj, 可使#VV, 消瘦#NN)  (mark, 肠道#VV, 的#DEC)  (nn, 增重#NN, 人#NN)  (dobj, 能#VV, 增重#NN)
+            (assmod, 脂肪酸#NN, 核桃#NN)  (case, 核桃#NN, 中#LC)  (case, 核桃#NN, 的#DEG)  (nsubj, 亚油酸#NN, 脂肪酸#NN)  (advmod, 亚油酸#NN, 只要#CS)  (cop, 亚油酸#NN, 是#VC)  (root, ROOT#null, 亚油酸#NN)  (nsubj, 人体#VA, 他#PN)  (cop, 人体#VA, 是#VC)  (conj, 亚油酸#NN, 人体#VA)  (mark, 人体#VA, 的#DEC)  (conj, 人体#VA, 必需#VV)  (dobj, 必需#VV, 脂肪酸#NN)  (cop, 剂#NN, 是#VC)  (advmod, 理想#VA, 人体#AD)  (relcl, 剂#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 剂#NN, 肌肤#NN)  (nn, 剂#NN, 美容#NN)  (conj, 亚油酸#NN, 剂#NN)
+            (nsubj, 含有#VV, 核桃#NN)  (root, ROOT#null, 含有#VV)  (relcl, 维生素E#NN, 丰富#VA)  (mark, 丰富#VA, 的#DEC)  (nn, 维生素E#NN, 维生素#NN)  (nn, 维生素E#NN, B#NN)  (conj, 维生素E#NN, 族#NN)  (cc, 维生素E#NN, 和#CC)  (dobj, 含有#VV, 维生素E#NN)  (conj, 含有#VV, 可以#VV)  (nn, 老化#NN, 细胞#NN)  (dobj, 可以#VV, 老化#NN)  (conj, 含有#VV, 有#VE)  (dobj, 有#VE, 健脑#NN)  (conj, 含有#VV, 增强#VV)  (conj, 延缓#NN, 记忆力#NN)  (cc, 延缓#NN, 和#CC)  (nn, 衰老#NN, 延缓#NN)  (assmod, 作用#NN, 衰老#NN)  (case, 衰老#NN, 的#DEG)  (dobj, 增强#VV, 作用#NN)
+            (nsubj, 含有#VV, 核桃仁#NN)  (root, ROOT#null, 含有#VV)  (nn, 铁#NN, 亚麻#NN)  (conj, 铁#NN, 油酸#NN)  (cc, 铁#NN, 及#CC)  (conj, 铁#NN, 钙#NN)  (conj, 铁#NN, 磷#NN)  (dobj, 含有#VV, 铁#NN)  (cop, 剂#NN, 是#VC)  (advmod, 理想#VA, 人体#AD)  (relcl, 剂#NN, 理想#VA)  (mark, 理想#VA, 的#DEC)  (nn, 剂#NN, 肌肤#NN)  (nn, 剂#NN, 美容#NN)  (conj, 含有#VV, 剂#NN)  (advmod, 食用#VV, 经常#AD)  (conj, 含有#VV, 食用#VV)  (nn, 肌肤#NN, 有润#NN)  (conj, 须发#NN, 肌肤#NN)  (nn, 须发#NN, 乌#NR)  (dobj, 食用#VV, 须发#NN)  (cc, 含有#VV, 及#CC)  (conj, 含有#VV, 具有#VV)  (nn, 过早#NN, 防治#NN)  (nn, 过早#NN, 头发#NN)  (nn, 脱落#NN, 过早#NN)  (conj, 脱落#NN, 变白#NN)  (cc, 脱落#NN, 和#CC)  (assmod, 功能#NN, 脱落#NN)  (case, 脱落#NN, 的#DEG)  (dobj, 具有#VV, 功能#NN)
+            (nsubj, 含有#VV, 核桃仁#NN)  (advmod, 含有#VV, 还#AD)  (root, ROOT#null, 含有#VV)  (nummod, 种#M, 多#CD)  (clf, 元素#NN, 种#M)  (advmod, 需要#VV, 人体#AD)  (relcl, 元素#NN, 需要#VV)  (mark, 需要#VV, 的#DEC)  (amod, 元素#NN, 微量#JJ)  (dobj, 含有#VV, 元素#NN)  (cop, 辅料#NN, 是#VC)  (assmod, 辅料#NN, 中成药#NN)  (case, 中成药#NN, 的#DEG)  (amod, 辅料#NN, 重要#JJ)  (conj, 含有#VV, 辅料#NN)  (conj, 含有#VV, 有#VE)  (nn, 补血#NN, 顺气#NN)  (dobj, 有#VE, 补血#NN)  (conj, 含有#VV, 止咳#VV)  (dobj, 止咳#VV, 化痰#NN)  (conj, 含有#VV, 润肺#VV)  (nn, 功能#NN, 补肾#NN)  (etc, 补肾#NN, 等#ETC)  (dobj, 润肺#VV, 功能#NN)   (case, 感到#VV, 当#P)  (prep, 有#VE, 感到#VV)  (ccomp, 感到#VV, 疲劳#VA)  (case, 感到#VV, 时#LC)  (nummod, 些#M, 嚼#CD)  (clf, 核桃仁#NN, 些#M)  (dep, 有#VE, 核桃仁#NN)  (root, ROOT#null, 有#VE)  (dep, 有#VE, 缓解#VV)  (dep, 缓解#VV, 疲劳#VA)  (cc, 缓解#VV, 和#CC)  (dep, 缓解#VV, 压力#NN)
+        </parsing>
+
+        <tag>
+            含有丰富  升高血糖  肠道增重  胆固醇  肠道吸收  高血脂  高血压  冠心病病人  适合病人  含有脂肪  大便秘结  治疗秘结  可使消瘦  必需脂肪酸  剂理想  维生素E丰富  维生素维生素E  含有维生素E  细胞老化  记忆力  延缓衰老  含有铁  有润肌肤  食用须发  防治过早  头发过早  过早脱落  变白  中成药  顺气补血  止咳化痰  补肾功能  润肺功能  
+        </tag>
+    </nutrition>
+
+    <cuisine>
+        <rawdata>
+            巧剥核桃皮：先把核桃放在蒸屉内蒸上三五分钟，取出即放入冷水中浸泡三分钟，捞出来用锤子在核桃四周轻轻敲打，破壳后就能取出完整核桃仁。
+        </rawdata>
+
+        <segment>
+            巧  剥  核桃  皮  ：  先把  核桃  放在  蒸屉  内  蒸  上  三  五  分钟  ，  取出  即  放入  冷水  中  浸泡  三  分钟  ，  捞出  来  用  锤子  在  核桃  四周  轻轻  敲打  ，  破壳  后  就  能  取出  完整  核  桃仁  。
+        </segment>
+
+        <pos>
+            巧#NN  剥#NN  核桃#NN  皮#VV  ：#PU  先把#NN  核桃#NN  放在#NN  蒸屉#NN  内#LC  蒸#AD  上#VV  三#CD  五#CD  分钟#M  ，#PU  取出#VV  即#AD  放入#VV  冷水#NN  中#LC  浸泡#VV  三#CD  分钟#M  ，#PU  捞出#NT  来#LC  用#P  锤子#NN  在#P  核桃#NN  四周#NN  轻轻#VV  敲打#NN  ，#PU  破壳#NN  后#LC  就#AD  能#VV  取出#VV  完整#NN  核#NN  桃仁#NN  。#PU
+        </pos>
+
+        <parsing>
+            (nn, 核桃#NN, 巧#NN)  (nn, 核桃#NN, 剥#NN)  (nsubj, 皮#VV, 核桃#NN)  (root, ROOT#null, 皮#VV)  (nn, 放在#NN, 先把#NN)  (nn, 放在#NN, 核桃#NN)  (nsubj, 上#VV, 放在#NN)  (loc, 上#VV, 蒸屉#NN)  (case, 蒸屉#NN, 内#LC)  (advmod, 上#VV, 蒸#AD)  (ccomp, 皮#VV, 上#VV)  (dep, 分钟#M, 三#CD)  (nummod, 分钟#M, 五#CD)  (range, 上#VV, 分钟#M)  (mmod, 放入#VV, 取出#VV)  (advmod, 放入#VV, 即#AD)  (conj, 上#VV, 放入#VV)  (loc, 放入#VV, 冷水#NN)  (case, 冷水#NN, 中#LC)  (dep, 放入#VV, 浸泡#VV)  (nummod, 分钟#M, 三#CD)  (range, 浸泡#VV, 分钟#M)  (loc, 轻轻#VV, 捞出#NT)  (case, 捞出#NT, 来#LC)  (case, 锤子#NN, 用#P)  (prep, 轻轻#VV, 锤子#NN)  (case, 四周#NN, 在#P)  (nn, 四周#NN, 核桃#NN)  (prep, 轻轻#VV, 四周#NN)  (conj, 皮#VV, 轻轻#VV)  (dobj, 轻轻#VV, 敲打#NN)  (loc, 取出#VV, 破壳#NN)  (case, 破壳#NN, 后#LC)  (advmod, 取出#VV, 就#AD)  (mmod, 取出#VV, 能#VV)  (dep, 轻轻#VV, 取出#VV)  (nn, 桃仁#NN, 完整#NN)  (nn, 桃仁#NN, 核#NN)  (dobj, 取出#VV, 桃仁#NN)
+        </parsing>
+
+        <tag>
+            先把放在  轻轻敲打  完整桃仁  取出桃仁  
+        </tag>
+    </cuisine>
+
+    <pictureweburl>
+        http://s1.cdn.xiangha.com/shicai/201508/101436068214.jpg/MTUweDE1MA
+    </pictureweburl>
+
+    <picturelocalurl>
+        .\pictures\360 核桃.jpg
+    </picturelocalurl>
+
+</content>
