@@ -1,7 +1,7 @@
 package knowledge.project.util;
 
-import healthtextbase.project.type.DependencyTuple;
-import healthtextbase.project.type.TaggedTuple;
+import knowledge.project.type.DependencyTuple;
+import knowledge.project.type.TaggedTuple;
 
 import java.util.List;
 

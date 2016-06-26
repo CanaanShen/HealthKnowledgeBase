@@ -12,12 +12,12 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import healthtextbase.project.baseclass.XMLParser;
-import healthtextbase.project.util.CommonUtil;
-import healthtextbase.project.util.ConfigUtil;
-import healthtextbase.project.util.FileUtil;
-import healthtextbase.project.util.ParsingUtil;
-import healthtextbase.project.util.SegmentUtil;
+import knowledge.project.baseclass.XMLParser;
+import knowledge.project.util.CommonUtil;
+import knowledge.project.util.ConfigUtil;
+import knowledge.project.util.FileUtil;
+import knowledge.project.util.ParsingUtil;
+import knowledge.project.util.SegmentUtil;
 
 /**
  * Parse the xml files in an extended manner

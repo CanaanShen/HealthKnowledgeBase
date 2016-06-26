@@ -1,11 +1,11 @@
 package knowledge.project.parsing;
 
-import healthtextbase.project.baseclass.XMLParser;
-import healthtextbase.project.util.CommonUtil;
-import healthtextbase.project.util.ConfigUtil;
-import healthtextbase.project.util.FileUtil;
-import healthtextbase.project.util.ParsingUtil;
-import healthtextbase.project.util.SegmentUtil;
+import knowledge.project.baseclass.XMLParser;
+import knowledge.project.util.CommonUtil;
+import knowledge.project.util.ConfigUtil;
+import knowledge.project.util.FileUtil;
+import knowledge.project.util.ParsingUtil;
+import knowledge.project.util.SegmentUtil;
 
 import java.io.File;
 import java.util.ArrayList;
