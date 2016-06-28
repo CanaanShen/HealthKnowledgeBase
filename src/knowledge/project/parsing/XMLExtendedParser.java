@@ -316,7 +316,7 @@ public class XMLExtendedParser extends XMLParser{
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "D:\\workspace\\project\\ProjectRetrieval\\data\\xianghadougouhaodou";
+		String rootFolderPath = ".\\data\\xianghadougouhaodou";
 
 		String inFolderPath = rootFolderPath + File.separator + "foodtextbase" + File.separator; 
 		String outFolderPath = rootFolderPath + File.separator + "foodtextbaseparsed" + File.separator;

@@ -618,7 +618,7 @@ public class DataSourceCombiner {
 	
 	//main function
 	public static void main(String[] args) {
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data";
+		String rootFolderPath = ".l\\data";
 
 		String existingFolderPath = rootFolderPath + File.separator + "xianghadougouparsed" + File.separator; 
 		String haodouFolderPath = rootFolderPath + File.separator + "haodouXML" + File.separator;

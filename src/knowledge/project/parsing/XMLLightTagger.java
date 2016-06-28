@@ -304,7 +304,7 @@ public class XMLLightTagger extends XMLTagger{
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data\\xianghadougouhaodou";
+		String rootFolderPath = ".\\data\\xianghadougouhaodou";
 
 		String inFolderPath = rootFolderPath + File.separator + "foodtextbaseparsed" + File.separator; 
 		String outFolderPath_FullVersion = rootFolderPath + File.separator + "foodtextbasetaggedlightversion" 

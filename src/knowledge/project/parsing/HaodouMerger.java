@@ -83,7 +83,7 @@ public class HaodouMerger {
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data";
+		String rootFolderPath = ".\\data";
 		String haodouFolderPath = rootFolderPath + File.separator + "haodouXML" + File.separator;
 		
 		HaodouMerger haodouMerger = new HaodouMerger();

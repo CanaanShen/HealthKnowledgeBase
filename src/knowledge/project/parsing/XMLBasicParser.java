@@ -253,8 +253,9 @@ public class XMLBasicParser extends XMLParser{
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data\\xiangha";
-
+		String rootFolderPath = ".\\data";
+		String website = "xiangha";
+		rootFolderPath = rootFolderPath + File.separator + website;
 		String inFolderPath = rootFolderPath + File.separator + "foodtextbase" + File.separator; 
 		String outFolderPath = rootFolderPath + File.separator + "foodtextbaseparsed" + File.separator;
 		

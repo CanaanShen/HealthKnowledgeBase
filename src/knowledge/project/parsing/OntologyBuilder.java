@@ -240,7 +240,7 @@ public class OntologyBuilder {
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data";
+		String rootFolderPath = ".\\data";
 		String website = "xianghadougouhaodou";
 		String inFolderPath = rootFolderPath + File.separator + website + File.separator +
 				"foodtextbasetaggedfullversion" + File.separator; 

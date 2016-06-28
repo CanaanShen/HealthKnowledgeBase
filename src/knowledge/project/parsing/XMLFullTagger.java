@@ -52,16 +52,12 @@ public class XMLFullTagger extends XMLTagger{
 		this.unsuitAndSuitBlankExcludeList = new ArrayList<String>();
 		
 		this.unsuitAndSuitPOSStrList = ConfigUtil.unsuitAndSuitPOSStrList;
-		
 		this.unsuitAndSuitBlankSuffixList = ConfigUtil.unsuitAndSuitBlankSuffixList;
-		
 		this.unsuitAndSuitBlankPrefixList = ConfigUtil.unsuitAndSuitBlankPrefixList;
-		
 		this.unsuitAndSuitBlankExcludeList = ConfigUtil.unsuitAndSuitBlankExcludeList;
 
 		this.concernedTypeList = new ArrayList<String>();
 		this.concernedTypeList = ConfigUtil.concernedTypeList;
-
 		
 		this.containedExcludeList = new ArrayList<String>();
 		this.containedExcludeList = ConfigUtil.containedExcludedList;
@@ -269,7 +265,7 @@ public class XMLFullTagger extends XMLTagger{
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = "C:\\Users\\Yueshen\\git\\ProjectRetrieval\\data\\xianghadougouhaodou";
+		String rootFolderPath = ".\\data\\xianghadougouhaodou";
 
 		String inFolderPath = rootFolderPath + File.separator + "foodtextbaseparsed" + File.separator; 
 		String outFolderPath_FullVersion = rootFolderPath + File.separator + "foodtextbasetaggedfullversion" 
