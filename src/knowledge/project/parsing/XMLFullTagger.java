@@ -265,10 +265,12 @@ public class XMLFullTagger extends XMLTagger{
 	//main function
 	public static void main(String[] args) {
 		
-		String rootFolderPath = ".\\data\\xianghadougouhaodou";
-
+		String rootFolderPath = ".\\data";
+		String website = "xianghadougouhaodou"; 
+		rootFolderPath = rootFolderPath + File.separator + website;
+		
 		String inFolderPath = rootFolderPath + File.separator + "foodtextbaseparsed" + File.separator; 
-		String outFolderPath_FullVersion = rootFolderPath + File.separator + "foodtextbasetaggedfullversion" 
+		String outFolderPath_FullVersion = rootFolderPath + File.separator + "foodtextbasetaggedfullversiontesting" 
 										+ File.separator;
 		
 		XMLFullTagger xmlTagger = new XMLFullTagger();
