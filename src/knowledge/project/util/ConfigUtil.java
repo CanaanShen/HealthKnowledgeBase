@@ -27,22 +27,22 @@ public class ConfigUtil {
 
 	public static List<String> containedExcludedList = new ArrayList<String>();
 	static{
-		ConfigUtil.containedExcludedList.add("�?");
-		ConfigUtil.containedExcludedList.add("�?");
-		ConfigUtil.containedExcludedList.add("�?");
-		ConfigUtil.containedExcludedList.add("�?");
-		ConfigUtil.containedExcludedList.add("�?");
+		ConfigUtil.containedExcludedList.add("以");
+		ConfigUtil.containedExcludedList.add("其");
+		ConfigUtil.containedExcludedList.add("也");
+		ConfigUtil.containedExcludedList.add("或");
+		ConfigUtil.containedExcludedList.add("及");
 		ConfigUtil.containedExcludedList.add("''");
 		ConfigUtil.containedExcludedList.add("%");
 		ConfigUtil.containedExcludedList.add("``");
 		ConfigUtil.containedExcludedList.add("-");
-		ConfigUtil.containedExcludedList.add("�?");
+		ConfigUtil.containedExcludedList.add("、");
 	}
 
 	public static List<String> equalExcludedList = new ArrayList<String>();
 	static{
-		ConfigUtil.equalExcludedList.add("�?");
-		ConfigUtil.equalExcludedList.add("�?");
+		ConfigUtil.equalExcludedList.add("和");
+		ConfigUtil.equalExcludedList.add("来");
 		ConfigUtil.equalExcludedList.add("主要");
 		ConfigUtil.equalExcludedList.add("引起");
 		ConfigUtil.equalExcludedList.add("'");
@@ -88,7 +88,7 @@ public class ConfigUtil {
 		ConfigUtil.unsuitAndSuitPOSStrList.add("P");
 		ConfigUtil.unsuitAndSuitPOSStrList.add("VE");
 	
-		ConfigUtil.unsuitAndSuitBlankSuffixList.add("患�??");    //append two blank spaces behind
+		ConfigUtil.unsuitAndSuitBlankSuffixList.add("患者");    //append two blank spaces behind
 		ConfigUtil.unsuitAndSuitBlankSuffixList.add("适合");
 		ConfigUtil.unsuitAndSuitBlankSuffixList.add("适宜");
 		ConfigUtil.unsuitAndSuitBlankSuffixList.add("患有");
@@ -96,18 +96,18 @@ public class ConfigUtil {
 		ConfigUtil.unsuitAndSuitBlankPrefixList.add("忌食");	//append two blank spaces front
 		ConfigUtil.unsuitAndSuitBlankPrefixList.add("慎服");
 		ConfigUtil.unsuitAndSuitBlankPrefixList.add("慎食");
-		ConfigUtil.unsuitAndSuitBlankPrefixList.add("患�??");
+		ConfigUtil.unsuitAndSuitBlankPrefixList.add("患者");
 	
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("及其");
-		ConfigUtil.unsuitAndSuitBlankExcludeList.add("�?");
+		ConfigUtil.unsuitAndSuitBlankExcludeList.add("也");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("同时");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("以及");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("(");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add(")");
-		ConfigUtil.unsuitAndSuitBlankExcludeList.add("�?�?");
-		ConfigUtil.unsuitAndSuitBlankExcludeList.add("人食�?");
+		ConfigUtil.unsuitAndSuitBlankExcludeList.add("所以");
+		ConfigUtil.unsuitAndSuitBlankExcludeList.add("人食用");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("食用");
-		ConfigUtil.unsuitAndSuitBlankExcludeList.add("�?");
+		ConfigUtil.unsuitAndSuitBlankExcludeList.add("或");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add(".");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("1");
 		ConfigUtil.unsuitAndSuitBlankExcludeList.add("2");
